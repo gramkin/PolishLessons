@@ -1,0 +1,49 @@
+# review
+id: dobrze
+lemma: dobrze
+rank: 40
+pos: adv
+pron: { cyr: "до́бжэ" }
+senses:
+  - id: well
+    ru: "хорошо, как следует"
+    examples:
+      - pl: "Dobrze mówi."
+        ru: "Он хорошо говорит."
+        source: { kind: tatoeba, id: 610651 }
+      - pl: "Dobrze tańczysz."
+        ru: "Ты хорошо танцуешь."
+        source: { kind: tatoeba, id: 6689542 }
+      - pl: "Dziś czuję się dobrze."
+        ru: "Сегодня я хорошо себя чувствую."
+        source: { kind: tatoeba, id: 597663 }
+  - id: okay
+    ru: "хорошо, ладно (согласие); всё в порядке"
+    examples:
+      - pl: "Dobrze. Przepraszam."
+        ru: "Хорошо. Прости."
+        source: { kind: tatoeba, id: 2809306 }
+      - pl: "Wszystko będzie dobrze."
+        ru: "Все будет хорошо."
+        source: { kind: tatoeba, id: 900984 }
+  - id: better
+    ru: "lepiej: лучше"
+    examples:
+      - pl: "Czuję się już lepiej."
+        ru: "Мне уже лучше."
+        source: { kind: tatoeba, id: 365728 }
+      - pl: "Lepiej poczekaj tutaj."
+        ru: "Лучше подожди здесь."
+        source: { kind: tatoeba, id: 3664067 }
+notes:
+  - kind: pronunciation
+    text: "rz после d читается как «ж»: dobrze — «до́бжэ». Ударение на предпоследний слог."
+  - kind: usage
+    text: "Как и русское «хорошо», dobrze служит ответом-согласием. Сравнительная степень — lepiej, превосходная — najlepiej."
+collocations:
+  - { pl: "bardzo dobrze", ru: "очень хорошо" }
+  - { pl: "czuć się dobrze", ru: "хорошо себя чувствовать" }
+  - { pl: "no dobrze", ru: "ну ладно" }
+family:
+  - { pl: "dobry", ru: "хороший", relation: root, id: dobry }
+  - { pl: "niedobrze", ru: "нехорошо", relation: antonym }

@@ -1,0 +1,45 @@
+# review
+id: dobry
+lemma: dobry
+rank: 33
+pos: adj
+pron: { cyr: "до́бры" }
+senses:
+  - id: good
+    ru: "хороший (о качестве, пригодности)"
+    examples:
+      - pl: "Potrzebuję dobrej rady."
+        ru: "Мне нужен хороший совет."
+        source: { kind: tatoeba, id: 597156 }
+      - pl: "Dobry wieczór."
+        ru: "Добрый вечер."
+        source: { kind: tatoeba, id: 399614 }
+      - pl: "To jest dużo lepsze."
+        ru: "Это гораздо лучше."
+        source: { kind: tatoeba, id: 3746101 }
+  - id: kind
+    ru: "добрый, хороший (о человеке)"
+    examples:
+      - pl: "Oni są dobrymi ludźmi."
+        ru: "Они хорошие люди."
+        source: { kind: tatoeba, id: 593309 }
+      - pl: "Był dobrym królem."
+        ru: "Он был хорошим королём."
+        source: { kind: tatoeba, id: 3847998 }
+      - pl: "Była moją najlepszą przyjaciółką."
+        ru: "Она была моей лучшей подругой."
+        source: { kind: tatoeba, id: 3460168 }
+notes:
+  - kind: usage
+    text: "Степени сравнения образуются от другого корня, как в русском: dobry — lepszy — najlepszy (хороший — лучше — лучший)."
+  - kind: usage
+    text: "Во множественном числе мужско-личная форма отличается: dobrzy ludzie (о людях-мужчинах или смешанной группе), но dobre książki."
+collocations:
+  - { pl: "dzień dobry", ru: "добрый день, здравствуйте" }
+  - { pl: "dobry wieczór", ru: "добрый вечер" }
+  - { pl: "dobry pomysł", ru: "хорошая идея" }
+  - { pl: "wszystkiego najlepszego", ru: "всего наилучшего" }
+family:
+  - { pl: "dobrze", ru: "хорошо", relation: derived, id: dobrze }
+  - { pl: "dobro", ru: "добро, благо", relation: root }
+  - { pl: "dobroć", ru: "доброта", relation: derived }

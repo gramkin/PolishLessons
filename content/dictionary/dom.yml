@@ -1,0 +1,45 @@
+# review
+id: dom
+lemma: dom
+rank: 88
+pos: noun
+pron: { cyr: "дом" }
+senses:
+  - id: house
+    ru: "дом, здание"
+    examples:
+      - pl: "Mój dom jest duży."
+        ru: "Мой дом большой."
+        source: { kind: tatoeba, id: 348760 }
+      - pl: "W mieście jest wiele domów."
+        ru: "В городе много домов."
+        source: { kind: tatoeba, id: 10700530 }
+      - pl: "Dom został sprzedany."
+        ru: "Дом был продан."
+        source: { kind: tatoeba, id: 8762751 }
+  - id: home
+    ru: "дом, родной очаг"
+    note: "В этом значении чаще всего встречается в сочетаниях do domu «домой» и w domu «дома»."
+    examples:
+      - pl: "Idę do domu."
+        ru: "Я иду домой."
+        source: { kind: tatoeba, id: 623143 }
+      - pl: "Zostań w domu."
+        ru: "Останься дома."
+        source: { kind: tatoeba, id: 593433 }
+      - pl: "Dzisiaj tęsknię za domem!"
+        ru: "Сегодня я скучаю по дому!"
+        source: { kind: tatoeba, id: 3655800 }
+notes:
+  - kind: usage
+    text: "Русским наречиям «домой» и «дома» в польском соответствуют предложные сочетания: do domu (куда?) и w domu (где?). Отдельных наречий нет."
+  - kind: stress
+    text: "Звательный падеж совпадает с родительным и предложным: domu. Формы domie нет."
+collocations:
+  - { pl: "wracać do domu", ru: "возвращаться домой" }
+  - { pl: "siedzieć w domu", ru: "сидеть дома" }
+  - { pl: "dom akademicki", ru: "студенческое общежитие" }
+  - { pl: "dom towarowy", ru: "универмаг" }
+family:
+  - { pl: "domowy", ru: "домашний", relation: derived }
+  - { pl: "domek", ru: "домик", relation: derived }

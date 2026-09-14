@@ -1,0 +1,48 @@
+# review
+id: zrobic
+lemma: zrobić
+rank: 32
+pos: verb
+aspect: perf
+aspectPair: robic
+pron: { cyr: "зро́биць" }
+senses:
+  - id: do
+    ru: "сделать, выполнить"
+    examples:
+      - pl: "Zrobię to."
+        ru: "Я сделаю это."
+        source: { kind: tatoeba, id: 544544 }
+      - pl: "Co ty zrobiłeś?"
+        ru: "Что ты сделал?"
+        source: { kind: tatoeba, id: 4837721 }
+      - pl: "Niech on to zrobi."
+        ru: "Пусть он это сделает."
+        source: { kind: tatoeba, id: 6308665 }
+  - id: make
+    ru: "сделать, приготовить, изготовить"
+    examples:
+      - pl: "Zrób kawy."
+        ru: "Сделай кофе."
+        source: { kind: tatoeba, id: 348937 }
+      - pl: "Zrobiłaś obiad?"
+        ru: "Ты обед приготовила?"
+        source: { kind: tatoeba, id: 12470517 }
+  - id: become
+    ru: "zrobić się: стать (о состоянии, погоде)"
+    examples:
+      - pl: "W lesie znów zrobiło się cicho."
+        ru: "В лесу снова стало тихо."
+        source: { kind: tatoeba, id: 3446241 }
+notes:
+  - kind: usage
+    text: "Совершенный вид: результат. Форма настоящего времени означает будущее, как в русском: zrobię — «сделаю». Сложного будущего (będę zrobić) не бывает."
+  - kind: government
+    text: "С количеством вещества дополнение может стоять в родительном падеже: Zrób kawy — «сделай (немного) кофе»."
+collocations:
+  - { pl: "zrobić zakupy", ru: "сделать покупки" }
+  - { pl: "zrobić zdjęcie", ru: "сфотографировать" }
+  - { pl: "zrobić przerwę", ru: "сделать перерыв" }
+family:
+  - { pl: "robić", ru: "делать", relation: aspect, id: robic }
+  - { pl: "zrobienie", ru: "выполнение, изготовление", relation: derived }

@@ -1,0 +1,42 @@
+# review
+id: "on"
+lemma: "on"
+rank: 1
+pos: pron
+pron: { cyr: "он" }
+senses:
+  - id: he
+    ru: "он (о лице или предмете мужского рода)"
+    examples:
+      - pl: "On tyje."
+        ru: "Он толстеет."
+        source: { kind: tatoeba, id: 527538 }
+      - pl: "Rozumiem jego złość."
+        ru: "Я понимаю его гнев."
+        source: { kind: tatoeba, id: 418321 }
+  - id: oblique
+    ru: "в косвенных падежах: его, ему, им, нём"
+    examples:
+      - pl: "Rozzłościłem go."
+        ru: "Я разозлил его."
+        source: { kind: tatoeba, id: 524981 }
+      - pl: "Dała mu zegarek."
+        ru: "Она дала ему часы."
+        source: { kind: tatoeba, id: 356049 }
+      - pl: "Zadzwonię do niego później."
+        ru: "Я ему позже позвоню."
+        source: { kind: tatoeba, id: 360445 }
+      - pl: "Polegam na nim."
+        ru: "Я на него полагаюсь."
+        source: { kind: tatoeba, id: 8675043 }
+notes:
+  - kind: usage
+    text: "В родительном, дательном и винительном падежах есть полные и краткие формы: jego / go, jemu / mu. Краткие — обычные, безударные; полные — под логическим ударением или в начале фразы."
+  - kind: pronunciation
+    text: "После предлогов используются формы с n-: do niego, na nim, z nią — как русское «к нему», «с ней»."
+  - kind: usage
+    text: "Во множественном числе два слова: oni (есть мужчины) и one (мужчин нет)."
+collocations:
+  - { pl: "do niego", ru: "к нему" }
+  - { pl: "bez niego", ru: "без него" }
+  - { pl: "o nim", ru: "о нём" }

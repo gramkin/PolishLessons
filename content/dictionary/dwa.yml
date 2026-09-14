@@ -1,0 +1,40 @@
+# review
+id: dwa
+lemma: dwa
+rank: 108
+pos: num
+pron: { cyr: "два" }
+senses:
+  - id: two
+    ru: "два"
+    examples:
+      - pl: "Masz dwa kwiaty."
+        ru: "У тебя два цветка."
+        source: { kind: tatoeba, id: 531916 }
+      - pl: "Mam dwie córki."
+        ru: "У меня две дочери."
+        source: { kind: tatoeba, id: 528932 }
+      - pl: "Masz dwóch braci."
+        ru: "У тебя два брата."
+        source: { kind: tatoeba, id: 928159 }
+      - pl: "Kot ma dwoje uszu."
+        ru: "У кошки два уха."
+        source: { kind: tatoeba, id: 1187827 }
+      - pl: "On siedzi między dwoma krzesłami."
+        ru: "Он сидит между двумя стульями."
+        source: { kind: tatoeba, id: 2244449 }
+      - pl: "To dwaj kuzyni."
+        ru: "Это два двоюродных брата."
+        source: { kind: translated, id: 12025617 }
+notes:
+  - kind: usage
+    text: "Форма зависит от рода: dwa (м. р. и ср. р.: dwa kwiaty), dwie (ж. р.: dwie córki), dwaj или dwóch (мужчины: dwaj bracia / dwóch braci)."
+  - kind: usage
+    text: "Собирательное dwoje употребляется с детьми, парными предметами и словами среднего рода на -ę: dwoje dzieci, dwoje uszu."
+collocations:
+  - { pl: "dwa razy", ru: "два раза, дважды" }
+  - { pl: "we dwoje", ru: "вдвоём" }
+family:
+  - { pl: "dwoje", ru: "двое", relation: derived }
+  - { pl: "dwanaście", ru: "двенадцать", relation: root }
+  - { pl: "dwójka", ru: "двойка", relation: derived }

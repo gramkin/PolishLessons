@@ -1,0 +1,50 @@
+# review
+id: robic
+lemma: robić
+rank: 50
+pos: verb
+aspect: imperf
+aspectPair: zrobic
+pron: { cyr: "ро́биць" }
+senses:
+  - id: do
+    ru: "делать, заниматься чем-то"
+    examples:
+      - pl: "Co tutaj robisz?"
+        ru: "Что ты здесь делаешь?"
+        source: { kind: tatoeba, id: 527731 }
+      - pl: "Wiem, co robiłeś."
+        ru: "Я знаю, что ты делал."
+        source: { kind: tatoeba, id: 5142605 }
+      - pl: "Nie rób tego."
+        ru: "Не делай этого."
+        source: { kind: tatoeba, id: 6603103 }
+  - id: make
+    ru: "делать, изготавливать, готовить (еду)"
+    examples:
+      - pl: "Pszczoły robią miód."
+        ru: "Пчёлы делают мёд."
+        source: { kind: tatoeba, id: 564059 }
+      - pl: "Bob robi rano śniadanie."
+        ru: "Боб утром готовит завтрак."
+        source: { kind: tatoeba, id: 771876 }
+  - id: become
+    ru: "robić się: становиться (о состоянии, погоде, времени суток)"
+    examples:
+      - pl: "Robi się zimno."
+        ru: "Становится холодно."
+        source: { kind: authored }
+notes:
+  - kind: usage
+    text: "Несовершенный вид: процесс или повторяющееся действие. Пара совершенного вида — zrobić. Будущее время сложное: będę robić / będę robił."
+  - kind: usage
+    text: "Про еду robić часто значит «готовить»: robić obiad, robić kawę."
+collocations:
+  - { pl: "robić zakupy", ru: "делать покупки" }
+  - { pl: "robić zdjęcia", ru: "фотографировать" }
+  - { pl: "robić na drutach", ru: "вязать на спицах" }
+  - { pl: "robi się ciemno", ru: "темнеет" }
+family:
+  - { pl: "zrobić", ru: "сделать", relation: aspect, id: zrobic }
+  - { pl: "robota", ru: "работа (разг.)", relation: derived }
+  - { pl: "robotnik", ru: "рабочий", relation: derived }

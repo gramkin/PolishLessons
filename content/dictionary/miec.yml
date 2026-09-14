@@ -1,0 +1,53 @@
+# review
+id: miec
+lemma: mieć
+rank: 13
+pos: verb
+aspect: imperf
+pron: { cyr: "мьець" }
+senses:
+  - id: have
+    ru: "иметь; у кого-то есть"
+    examples:
+      - pl: "Mamy wino."
+        ru: "У нас есть вино."
+        source: { kind: tatoeba, id: 2967739 }
+      - pl: "Miałem słownik."
+        ru: "У меня был словарь."
+        source: { kind: tatoeba, id: 1860257 }
+      - pl: "Nie miały szans."
+        ru: "У них не было шансов."
+        source: { kind: tatoeba, id: 6406062 }
+      - pl: "Będziemy mieli bliźniaki!"
+        ru: "У нас будут двойняшки!"
+        source: { kind: tatoeba, id: 12569639 }
+  - id: idioms
+    ru: "в устойчивых сочетаниях: mieć rację «быть правым», mieć nadzieję «надеяться»"
+    examples:
+      - pl: "Masz rację."
+        ru: "Ты прав."
+        source: { kind: tatoeba, id: 349177 }
+  - id: supposed
+    ru: "mieć + инфинитив: быть должным, предполагаться"
+    examples:
+      - pl: "Co to miało znaczyć?"
+        ru: "Что это должно было значить?"
+        source: { kind: tatoeba, id: 3660650 }
+      - pl: "Dlaczego miałbym czekać?"
+        ru: "Почему я должен ждать?"
+        source: { kind: translated, id: 8705113 }
+notes:
+  - kind: usage
+    text: "Там, где по-русски говорят «у меня есть», по-польски используется глагол mieć: Mam brata — «У меня есть брат». Конструкции с «у» в этом значении нет."
+  - kind: government
+    text: "При отрицании дополнение стоит в родительном падеже: Mam czas → Nie mam czasu («нет времени»)."
+  - kind: usage
+    text: "Прошедшее время с личными окончаниями: miałem, miałaś, mieliśmy. Будущее — сложное: będę miał / będę mieć."
+collocations:
+  - { pl: "mieć rację", ru: "быть правым" }
+  - { pl: "mieć nadzieję", ru: "надеяться" }
+  - { pl: "mieć czas", ru: "иметь время, быть свободным" }
+  - { pl: "nie ma za co", ru: "не за что" }
+family:
+  - { pl: "miewać", ru: "иметь время от времени", relation: derived }
+  - { pl: "mienie", ru: "имущество", relation: derived }
