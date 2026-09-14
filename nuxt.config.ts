@@ -1,6 +1,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-01',
-  modules: ['@nuxt/eslint', '@nuxt/content', '@nuxtjs/color-mode', '@nuxt/fonts'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/content',
+    '@nuxtjs/color-mode',
+    '@nuxt/fonts',
+    '@nuxtjs/sitemap',
+  ],
   devtools: { enabled: true },
   typescript: { strict: true },
   css: ['~/assets/css/themes.css', '~/assets/css/base.css'],
@@ -9,6 +15,17 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: 'ru' },
       title: 'Польский для русскоговорящих',
       meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    },
+  },
+  site: {
+    url: process.env.NUXT_SITE_URL ?? 'http://localhost:4173',
+    name: 'Польский для русскоговорящих',
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/sitemap.xml'],
+      failOnError: true,
     },
   },
   content: {
