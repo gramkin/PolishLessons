@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { normalizePath } from '~/utils/nav'
+import { LESSON_CHAPTER_KEY } from '~/utils/pron'
 
 const route = useRoute()
 const path = normalizePath(route.path)
@@ -13,6 +14,8 @@ await ready
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Урок не найден', fatal: true })
 }
+
+provide(LESSON_CHAPTER_KEY, page.value.chapter)
 
 useSeoMeta({
   title: () => (page.value ? `${current.value?.label ?? ''} ${page.value.title}`.trim() : ''),

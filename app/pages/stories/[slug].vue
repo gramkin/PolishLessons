@@ -2,6 +2,7 @@
 const route = useRoute()
 const slug = String(route.params.slug)
 const { data: story } = await useStory(slug)
+const { progress } = useProgress()
 
 if (!story.value) {
   throw createError({ statusCode: 404, statusMessage: 'История не найдена', fatal: true })
@@ -17,7 +18,7 @@ useSeoMeta({
   <article v-if="story" class="content">
     <h1 lang="pl">{{ story.title }}</h1>
     <p class="subtitle">{{ story.titleRu }} · {{ story.level }}</p>
-    <StoryView :story="story" />
+    <StoryView :story="story" :initial-mode="progress.settings.translationMode" />
   </article>
 </template>
 

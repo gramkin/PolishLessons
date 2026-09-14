@@ -19,6 +19,10 @@ defineEmits<{ 'toggle-sidebar': [] }>()
       <ThemePicker />
     </div>
     <NuxtLink to="/" class="topbar-title">Польский для русскоговорящих</NuxtLink>
-    <div class="topbar-right" />
+    <div class="topbar-right">
+      <NuxtLink to="/settings" class="icon-button" aria-label="Настройки" title="Настройки"
+        >⚙</NuxtLink
+      >
+    </div>
   </header>
 </template>
