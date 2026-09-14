@@ -1,9 +1,4 @@
-import {
-  AGLT_SUFFIXES,
-  type CardPos,
-  type IndexEntry,
-  type NoteKind,
-} from '../../shared/dictionary'
+import { AGLT_SUFFIXES, type CardPos, type IndexEntry, type NoteKind } from '#shared/dictionary'
 import type { NavLesson } from './nav'
 import type { Segment } from './pattern'
 
