@@ -10,6 +10,7 @@ const props = defineProps<{
 const sections = [
   { to: '/stories', label: 'Истории' },
   { to: '/vocabulary', label: 'Словарь' },
+  { to: '/flashcards', label: 'Карточки' },
   { to: '/cheatsheet', label: 'Шпаргалка' },
 ]
 

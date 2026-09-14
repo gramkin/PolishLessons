@@ -5,6 +5,7 @@ import {
   type Progress,
   type Settings,
 } from '~/utils/progress'
+import { review } from '~/utils/leitner'
 
 export function useProgress() {
   const progress = useState<Progress>('progress', defaultProgress)
@@ -26,9 +27,28 @@ export function useProgress() {
     progress.value = { ...progress.value, settings: { ...progress.value.settings, ...patch } }
   }
 
+  function reviewCard(wordId: string, remembered: boolean) {
+    progress.value = {
+      ...progress.value,
+      cards: {
+        ...progress.value.cards,
+        [wordId]: review(progress.value.cards[wordId], remembered, new Date()),
+      },
+    }
+  }
+
   function replace(next: Progress) {
     progress.value = next
   }
 
-  return { progress, loaded, isLessonCompleted, recordQuiz, markRead, updateSettings, replace }
+  return {
+    progress,
+    loaded,
+    isLessonCompleted,
+    recordQuiz,
+    markRead,
+    reviewCard,
+    updateSettings,
+    replace,
+  }
 }

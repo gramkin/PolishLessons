@@ -31,4 +31,12 @@ describe('useProgress', () => {
       direction: 'pl-ru',
     })
   })
+
+  it('schedules reviewed cards', () => {
+    const { reviewCard, progress } = useProgress()
+    reviewCard('rzeka', true)
+    expect(progress.value.cards.rzeka?.box).toBe(2)
+    reviewCard('rzeka', false)
+    expect(progress.value.cards.rzeka?.box).toBe(1)
+  })
 })
