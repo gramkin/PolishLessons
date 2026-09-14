@@ -6,7 +6,9 @@ const SIDEBAR_KEY = 'polski:sidebar'
 
 const route = useRoute()
 const { nav, prev, next, ready } = useLessonNav()
-await ready
+const { ready: wordsReady } = useWords()
+const { ready: patternsReady } = usePatterns()
+await Promise.all([ready, wordsReady, patternsReady])
 
 const currentPath = computed(() => normalizePath(route.path))
 const sidebarOpen = ref(true)
