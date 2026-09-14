@@ -1,0 +1,83 @@
+# review
+words:
+  # rz ↔ р
+  - { id: rzeka, pl: rzeka, ru: река, pos: noun, gender: f, pron: "жэ́ка", pattern: rz-р, topic: природа, chapter: 2 }
+  - { id: brzeg, pl: brzeg, ru: берег, pos: noun, gender: m, pron: "бжэк", pattern: rz-р, topic: природа, chapter: 2 }
+  - { id: morze, pl: morze, ru: море, pos: noun, gender: n, pron: "мо́жэ", pattern: rz-р, topic: природа, chapter: 2 }
+  - { id: trzy, pl: trzy, ru: три, pos: num, pron: "тшы", pattern: rz-р, topic: числа, chapter: 2 }
+  - { id: krzyk, pl: krzyk, ru: крик, pos: noun, gender: m, pron: "кшык", pattern: rz-р, topic: действия, chapter: 2 }
+  - { id: gorzki, pl: gorzki, ru: горький, pos: adj, pron: "го́шки", pattern: rz-р, topic: еда, chapter: 2 }
+  - { id: burza, pl: burza, ru: буря, pos: noun, gender: f, pron: "бу́жа", pattern: rz-р, topic: природа, chapter: 2 }
+  - { id: przed, pl: przed, ru: перед, pos: prep, pron: "пшэт", pattern: rz-р, topic: место, chapter: 2 }
+  # ło ↔ оло, ro ↔ оро, le ↔ оло
+  - { id: glowa, pl: głowa, ru: голова, pos: noun, gender: f, pron: "гуо́ва", pattern: ło-оло, topic: тело, chapter: 2 }
+  - { id: zloto, pl: złoto, ru: золото, pos: noun, gender: n, pron: "зуо́то", pattern: ło-оло, topic: вещи, chapter: 2 }
+  - { id: mlody, pl: młody, ru: молодой, pos: adj, pron: "муо́ды", pattern: ło-оло, topic: люди, chapter: 2 }
+  - { id: bloto, pl: błoto, ru: "болото, грязь", pos: noun, gender: n, pron: "буо́то", pattern: ło-оло, topic: природа, chapter: 2 }
+  - { id: droga, pl: droga, ru: дорога, pos: noun, gender: f, pron: "дро́га", pattern: ro-оро, topic: город, chapter: 2 }
+  - { id: krowa, pl: krowa, ru: корова, pos: noun, gender: f, pron: "кро́ва", pattern: ro-оро, topic: животные, chapter: 2 }
+  - { id: broda, pl: broda, ru: борода, pos: noun, gender: f, pron: "бро́да", pattern: ro-оро, topic: тело, chapter: 2 }
+  - { id: wrona, pl: wrona, ru: ворона, pos: noun, gender: f, pron: "вро́на", pattern: ro-оро, topic: животные, chapter: 2 }
+  - { id: mleko, pl: mleko, ru: молоко, pos: noun, gender: n, pron: "млэ́ко", pattern: le-оло, topic: еда, chapter: 2 }
+  # ł ↔ л, ó ↔ о
+  - { id: lyzka, pl: łyżka, ru: ложка, pos: noun, gender: f, pron: "уы́шка", pattern: ł-л, topic: дом, chapter: 2 }
+  - { id: maly, pl: mały, ru: "малый, маленький", pos: adj, pron: "ма́уы", pattern: ł-л, topic: качества, chapter: 2 }
+  - { id: bialy, pl: biały, ru: белый, pos: adj, pron: "бья́уы", pattern: ł-л, topic: качества, chapter: 2 }
+  - { id: pelny, pl: pełny, ru: полный, pos: adj, pron: "пэ́уны", pattern: ł-л, topic: качества, chapter: 2 }
+  - { id: lza, pl: łza, ru: слеза, pos: noun, gender: f, pron: "уза", pattern: ł-л, topic: тело, chapter: 2 }
+  - { id: sila, pl: siła, ru: сила, pos: noun, gender: f, pron: "сьи́уа", pattern: ł-л, topic: качества, chapter: 2 }
+  - { id: stol, pl: stół, ru: стол, pos: noun, gender: m, pron: "стуу", pattern: ó-о, topic: дом, chapter: 2 }
+  - { id: woz, pl: wóz, ru: "воз, телега", pos: noun, gender: m, pron: "вус", pattern: ó-о, topic: город, chapter: 2 }
+  - { id: noz, pl: nóż, ru: нож, pos: noun, gender: m, pron: "нуш", pattern: ó-о, topic: дом, chapter: 2 }
+  - { id: krol, pl: król, ru: король, pos: noun, gender: m, pron: "круль", pattern: ó-о, topic: люди, chapter: 2 }
+  - { id: mroz, pl: mróz, ru: мороз, pos: noun, gender: m, pron: "мрус", pattern: ó-о, topic: природа, chapter: 2 }
+  # nasal vowels
+  - { id: zab, pl: ząb, ru: зуб, pos: noun, gender: m, pron: "зомп", pattern: ą-у, topic: тело, chapter: 2 }
+  - { id: dab, pl: dąb, ru: дуб, pos: noun, gender: m, pron: "домп", pattern: ą-у, topic: природа, chapter: 2 }
+  - { id: maka, pl: mąka, ru: мука, pos: noun, gender: f, pron: "мо́нка", pattern: ą-у, topic: еда, chapter: 2 }
+  - { id: maz, pl: mąż, ru: муж, pos: noun, gender: m, pron: "монш", pattern: ą-у, topic: семья, chapter: 2 }
+  - { id: pajak, pl: pająk, ru: паук, pos: noun, gender: m, pron: "па́йонк", pattern: ą-у, topic: животные, chapter: 2 }
+  - { id: was, pl: wąs, ru: ус, pos: noun, gender: m, pron: "вонс", pattern: ą-у, topic: тело, chapter: 2 }
+  - { id: reka, pl: ręka, ru: рука, pos: noun, gender: f, pron: "рэ́нка", pattern: ę-у, topic: тело, chapter: 2 }
+  - { id: ges, pl: gęś, ru: гусь, pos: noun, gender: f, pron: "гэньсь", pattern: ę-у, topic: животные, chapter: 2 }
+  - { id: pepek, pl: pępek, ru: пупок, pos: noun, gender: m, pron: "пэ́мпэк", pattern: ę-у, topic: тело, chapter: 2 }
+  - { id: mieso, pl: mięso, ru: мясо, pos: noun, gender: n, pron: "мье́нсо", pattern: ę-я, topic: еда, chapter: 2 }
+  - { id: piec, pl: pięć, ru: пять, pos: num, pron: "пьеньць", pattern: ę-я, topic: числа, chapter: 2 }
+  - { id: swiety, pl: święty, ru: святой, pos: adj, pron: "сьфье́нты", pattern: ę-я, topic: люди, chapter: 2 }
+  - { id: imie, pl: imię, ru: имя, pos: noun, gender: n, pron: "и́мье", pattern: ę-я, topic: знакомство, chapter: 2 }
+  - { id: pamiec, pl: pamięć, ru: память, pos: noun, gender: f, pron: "па́мьеньць", pattern: ę-я, topic: учёба, chapter: 2 }
+  - { id: dziesiec, pl: dziesięć, ru: десять, pos: num, pron: "дзье́сьеньць", pattern: ę-я, topic: числа, chapter: 2 }
+  - { id: jezyk, pl: język, ru: язык, pos: noun, gender: m, pron: "е́нзык", pattern: ę-я, topic: учёба, chapter: 2 }
+  # sibilants and ch
+  - { id: chleb, pl: chleb, ru: хлеб, pos: noun, gender: m, pron: "хлэп", pattern: ch-х, topic: еда, chapter: 2 }
+  - { id: ucho, pl: ucho, ru: ухо, pos: noun, gender: n, pron: "у́хо", pattern: ch-х, topic: тело, chapter: 2 }
+  - { id: mucha, pl: mucha, ru: муха, pos: noun, gender: f, pron: "му́ха", pattern: ch-х, topic: животные, chapter: 2 }
+  - { id: duch, pl: duch, ru: дух, pos: noun, gender: m, pron: "дух", pattern: ch-х, topic: люди, chapter: 2 }
+  - { id: chata, pl: chata, ru: хата, pos: noun, gender: f, pron: "ха́та", pattern: ch-х, topic: дом, chapter: 2 }
+  - { id: szkola, pl: szkoła, ru: школа, pos: noun, gender: f, pron: "шко́уа", pattern: sz-ш, topic: учёба, chapter: 2 }
+  - { id: szum, pl: szum, ru: шум, pos: noun, gender: m, pron: "шум", pattern: sz-ш, topic: город, chapter: 2 }
+  - { id: kasza, pl: kasza, ru: каша, pos: noun, gender: f, pron: "ка́ша", pattern: sz-ш, topic: еда, chapter: 2 }
+  - { id: mysz, pl: mysz, ru: мышь, pos: noun, gender: f, pron: "мыш", pattern: sz-ш, topic: животные, chapter: 2 }
+  - { id: szyja, pl: szyja, ru: шея, pos: noun, gender: f, pron: "шы́я", pattern: sz-ш, topic: тело, chapter: 2 }
+  - { id: czarny, pl: czarny, ru: чёрный, pos: adj, pron: "ча́рны", pattern: cz-ч, topic: качества, chapter: 2 }
+  - { id: czlowiek, pl: człowiek, ru: человек, pos: noun, gender: m, pron: "чуо́вьек", pattern: cz-ч, topic: люди, chapter: 2 }
+  - { id: czysty, pl: czysty, ru: чистый, pos: adj, pron: "чы́сты", pattern: cz-ч, topic: качества, chapter: 2 }
+  - { id: cztery, pl: cztery, ru: четыре, pos: num, pron: "чтэ́ры", pattern: cz-ч, topic: числа, chapter: 2 }
+  - { id: zaba, pl: żaba, ru: "лягушка, жаба", pos: noun, gender: f, pron: "жа́ба", pattern: ż-ж, topic: животные, chapter: 2 }
+  - { id: zona, pl: żona, ru: жена, pos: noun, gender: f, pron: "жо́на", pattern: ż-ж, topic: семья, chapter: 2 }
+  - { id: zolty, pl: żółty, ru: жёлтый, pos: adj, pron: "жу́уты", pattern: ż-ж, topic: качества, chapter: 2 }
+  - { id: zyc, pl: żyć, ru: жить, pos: verb, pron: "жыць", pattern: ż-ж, topic: действия, chapter: 2 }
+  # endings
+  - { id: radosc, pl: radość, ru: радость, pos: noun, gender: f, pron: "ра́досьць", pattern: ść-сть, topic: чувства, chapter: 2 }
+  - { id: gosc, pl: gość, ru: гость, pos: noun, gender: m, pron: "госьць", pattern: ść-сть, topic: люди, chapter: 2 }
+  - { id: kosc, pl: kość, ru: кость, pos: noun, gender: f, pron: "косьць", pattern: ść-сть, topic: тело, chapter: 2 }
+  - { id: czesc-noun, pl: część, ru: часть, pos: noun, gender: f, pron: "чэньсьць", pattern: ść-сть, topic: вещи, chapter: 2 }
+  - { id: mlodosc, pl: młodość, ru: молодость, pos: noun, gender: f, pron: "муо́досьць", pattern: ść-сть, topic: люди, chapter: 2 }
+  - { id: byc, pl: być, ru: быть, pos: verb, pron: "быць", pattern: ć-ть, topic: действия, chapter: 2 }
+  - { id: pic, pl: pić, ru: пить, pos: verb, pron: "пиць", pattern: ć-ть, topic: действия, chapter: 2 }
+  - { id: bic, pl: bić, ru: бить, pos: verb, pron: "биць", pattern: ć-ть, topic: действия, chapter: 2 }
+  - { id: myc, pl: myć, ru: мыть, pos: verb, pron: "мыць", pattern: ć-ть, topic: действия, chapter: 2 }
+  - { id: miec, pl: mieć, ru: иметь, pos: verb, pron: "мьець", pattern: ć-ть, topic: действия, chapter: 2 }
+  - { id: dzien, pl: dzień, ru: день, pos: noun, gender: m, pron: "дзьень", pattern: dzi-де, topic: время, chapter: 2 }
+  - { id: dzieci, pl: dzieci, ru: дети, pos: noun, pron: "дзье́ци", pattern: dzi-де, topic: семья, chapter: 2 }
+  - { id: dziewiec, pl: dziewięć, ru: девять, pos: num, pron: "дзье́вьеньць", pattern: dzi-де, topic: числа, chapter: 2 }
