@@ -21,6 +21,8 @@ export interface ContentBundle {
   stories: DataFile[]
   lessons: MarkdownFile[]
   cheatsheet: MarkdownFile | null
+  cards: DataFile[]
+  forms: DataFile[]
 }
 
 function toPosix(root: string, file: string): string {
@@ -56,5 +58,7 @@ export function loadContent(root: string): ContentBundle {
     stories: listFiles(join(root, 'stories'), '.yml').map((f) => readData(root, f)),
     lessons: listFiles(join(root, 'lessons'), '.md').map((f) => readMarkdown(root, f)),
     cheatsheet: optional(join(root, 'cheatsheet.md'), (f) => readMarkdown(root, f)),
+    cards: listFiles(join(root, 'dictionary'), '.yml').map((f) => readData(root, f)),
+    forms: listFiles(join(root, 'forms'), '.json').map((f) => readData(root, f)),
   }
 }

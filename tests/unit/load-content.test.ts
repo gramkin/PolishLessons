@@ -43,6 +43,8 @@ describe('loadContent', () => {
       stories: [],
       lessons: [],
       cheatsheet: null,
+      cards: [],
+      forms: [],
     })
   })
 })
