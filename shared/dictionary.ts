@@ -118,3 +118,16 @@ export type Audio = z.infer<typeof audioSchema>
 export type FormsFile = z.infer<typeof formsFileSchema>
 export type IndexEntry = z.infer<typeof indexEntrySchema>
 export type PublishedCard = z.infer<typeof publishedCardSchema>
+// Agglutinated person/conditional endings attached to past-tense forms (byłem = był + em).
+export const AGLT_SUFFIXES = [
+  'byśmy',
+  'byście',
+  'śmy',
+  'ście',
+  'bym',
+  'byś',
+  'em',
+  'eś',
+  'm',
+  'ś',
+] as const

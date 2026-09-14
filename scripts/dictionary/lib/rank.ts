@@ -1,21 +1,10 @@
 import { parse as parseYaml } from 'yaml'
-import type { CardPos } from '../../../shared/dictionary'
+import { AGLT_SUFFIXES, type CardPos } from '../../../shared/dictionary'
 import { assignId } from './ids'
 import { tagHead, type MorphRow } from './polimorf'
 import { posForHeads } from './pos'
 
-export const AGLT_SUFFIXES = [
-  'byśmy',
-  'byście',
-  'śmy',
-  'ście',
-  'bym',
-  'byś',
-  'em',
-  'eś',
-  'm',
-  'ś',
-] as const
+export { AGLT_SUFFIXES }
 
 export interface FormIndex {
   forms: Map<string, Set<string>>

@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import type { NavLesson } from '~/utils/nav'
 
-const props = defineProps<{ prev: NavLesson | null; next: NavLesson | null }>()
+const props = withDefaults(
+  defineProps<{ prev: NavLesson | null; next: NavLesson | null; label?: string }>(),
+  { label: 'Соседние уроки' },
+)
 
 function isTyping(target: EventTarget | null): boolean {
   return (
@@ -22,7 +25,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 </script>
 
 <template>
-  <nav class="page-nav" aria-label="Соседние уроки">
+  <nav class="page-nav" :aria-label="props.label">
     <NuxtLink v-if="prev" :to="prev.path" rel="prev" class="page-nav-link prev">
       <span aria-hidden="true">‹</span>
       <span class="sr-only">Предыдущий урок: {{ prev.label }} {{ prev.title }}</span>

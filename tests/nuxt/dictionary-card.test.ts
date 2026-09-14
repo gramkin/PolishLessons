@@ -1,0 +1,119 @@
+import { describe, expect, it } from 'vitest'
+import { mountSuspended } from '@nuxt/test-utils/runtime'
+import Header from '~/components/dictionary/Header.vue'
+import Senses from '~/components/dictionary/Senses.vue'
+import FormsTables from '~/components/dictionary/FormsTables.vue'
+import Notes from '~/components/dictionary/Notes.vue'
+import Related from '~/components/dictionary/Related.vue'
+import Sources from '~/components/dictionary/Sources.vue'
+import { cardSchema, formsFileSchema, type IndexEntry } from '../../shared/dictionary'
+
+const card = cardSchema.parse({
+  id: 'robic',
+  lemma: 'robić',
+  rank: 40,
+  pos: 'verb',
+  aspect: 'imperf',
+  aspectPair: 'zrobic',
+  pron: { cyr: 'ро́биць' },
+  senses: [
+    {
+      id: 'do',
+      ru: 'делать',
+      note: 'самое общее значение',
+      examples: [
+        { pl: 'Co robisz?', ru: 'Что ты делаешь?', source: { kind: 'tatoeba', id: 1 } },
+        { pl: 'Robię obiad.', ru: 'Я готовлю обед.', source: { kind: 'authored' } },
+      ],
+    },
+  ],
+  notes: [{ kind: 'false-friend', text: 'Не путать с «робить».' }],
+  collocations: [{ pl: 'robić zakupy', ru: 'делать покупки' }],
+  family: [
+    { pl: 'zrobić', ru: 'сделать', relation: 'aspect', id: 'zrobic' },
+    { pl: 'robota', ru: 'работа', relation: 'derived', id: null },
+  ],
+})
+
+const forms = formsFileSchema.parse({
+  generated: true,
+  sources: { polimorf: '0.6.7', wiktionary: 'w', tatoeba: 't' },
+  id: 'robic',
+  lemma: 'robić',
+  pos: 'verb',
+  grammarLabel: null,
+  ipa: 'ˈrɔbʲit͡ɕ',
+  audio: {
+    file: 'Pl-robić.ogg',
+    url: 'https://upload.wikimedia.org/r.ogg',
+    license: 'CC BY 2.5',
+    author: 'Derbeth',
+  },
+  allForms: ['robić', 'robisz', 'robię'],
+  tables: [
+    {
+      title: 'Настоящее время',
+      columns: ['Ед. ч.', 'Мн. ч.'],
+      rows: [{ label: '1-е лицо', cells: [['robię'], ['robimy']] }],
+      extra: false,
+    },
+    {
+      title: 'Безличная форма',
+      columns: ['Форма'],
+      rows: [{ label: 'Прошедшее время', cells: [['robiono']] }],
+      extra: true,
+    },
+  ],
+  tatoeba: { '1': { pl: 'Co robisz?', ru: 'Что ты делаешь?' } },
+})
+
+const index = new Map<string, IndexEntry>([
+  ['zrobic', { id: 'zrobic', lemma: 'zrobić', rank: 60, pos: 'verb', gloss: 'сделать' }],
+])
+
+describe('dictionary card components', () => {
+  it('renders the header with pronunciation, rank and audio', async () => {
+    const wrapper = await mountSuspended(Header, { props: { card, forms } })
+    expect(wrapper.find('h1').text()).toBe('robić')
+    expect(wrapper.find('h1').attributes('lang')).toBe('pl')
+    expect(wrapper.text()).toContain('глагол · несовершенный вид · №40 по частоте')
+    expect(wrapper.text()).toContain('[ˈrɔbʲit͡ɕ]')
+    expect(wrapper.find('audio').attributes('src')).toBe('https://upload.wikimedia.org/r.ogg')
+  })
+
+  it('renders senses with highlighted forms and source badges', async () => {
+    const wrapper = await mountSuspended(Senses, {
+      props: { senses: card.senses, allForms: forms.allForms },
+    })
+    const examples = wrapper.findAll('li.example')
+    expect(examples[0]!.find('strong').text()).toBe('robisz')
+    expect(examples[0]!.find('a.badge').attributes('href')).toBe(
+      'https://tatoeba.org/ru/sentences/show/1',
+    )
+    expect(examples[1]!.find('.badge').text()).toBe('на проверке')
+    expect(wrapper.find('.sense-note').text()).toBe('самое общее значение')
+  })
+
+  it('puts extra tables into «Все формы»', async () => {
+    const wrapper = await mountSuspended(FormsTables, { props: { tables: forms.tables } })
+    expect(wrapper.find('section#formy > .table-wrap caption').text()).toBe('Настоящее время')
+    expect(wrapper.find('details summary').text()).toBe('Все формы')
+    expect(wrapper.find('details caption').text()).toBe('Безличная форма')
+    expect(wrapper.find('tbody th[scope="row"]').text()).toBe('1-е лицо')
+  })
+
+  it('renders notes, collocations, related words and sources', async () => {
+    const notes = await mountSuspended(Notes, { props: { notes: card.notes } })
+    expect(notes.find('aside.note.is-false-friend').text()).toContain('Ложный друг.')
+
+    const related = await mountSuspended(Related, { props: { card, index } })
+    expect(related.find('a[href="/slovo/zrobic"]').text()).toBe('zrobić')
+    expect(related.text()).toContain('robota — работа')
+    expect(related.text()).toContain('robić zakupy — делать покупки')
+
+    const sources = await mountSuspended(Sources, { props: { card, forms } })
+    expect(sources.text()).toContain('Derbeth')
+    expect(sources.text()).toContain('CC BY 2.5')
+    expect(sources.find('a[href="/sources"]').exists()).toBe(true)
+  })
+})
