@@ -7,7 +7,10 @@ const props = defineProps<{
   isCompleted?: (path: string) => boolean
 }>()
 
-const sections = [{ to: '/cheatsheet', label: 'Шпаргалка' }]
+const sections = [
+  { to: '/stories', label: 'Истории' },
+  { to: '/cheatsheet', label: 'Шпаргалка' },
+]
 
 const root = ref<HTMLElement | null>(null)
 
