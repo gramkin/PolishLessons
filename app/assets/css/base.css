@@ -212,6 +212,11 @@ pre,
   max-width: 750px;
   margin: 0 auto;
 }
+/* Links in running text must differ from the text by more than color (WCAG 1.4.1). */
+.content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .content h1 {
   margin-top: 1.5rem;
 }
