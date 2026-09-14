@@ -1,0 +1,45 @@
+{
+  "name": "polski",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "pnpm validate && nuxt generate",
+    "preview": "serve .output/public -l 4173",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "typecheck": "nuxt typecheck",
+    "validate": "tsx scripts/validate-content.ts"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "@parcel/watcher"
+    ]
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/test-utils": "^4.3.2",
+    "@vue/test-utils": "^2.5.0",
+    "eslint": "^10.10.0",
+    "gray-matter": "^4.0.3",
+    "happy-dom": "^20.14.5",
+    "playwright-core": "^1.63.0",
+    "prettier": "^3.9.6",
+    "serve": "^14.2.6",
+    "tsx": "^4.23.13",
+    "typescript": "5.9.3",
+    "vitest": "^5.0.0",
+    "vue-tsc": "^3.3.11",
+    "yaml": "^2.9.1"
+  },
+  "dependencies": {
+    "nuxt": "^4.5.2",
+    "zod": "^3.25.76"
+  }
+}
