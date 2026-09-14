@@ -946,7 +946,7 @@ const rows = computed(() => {
       <strong><span lang="pl">{{ pattern.pl }}</span> ↔ {{ pattern.ru }}</strong> —
       {{ pattern.rule }}
     </figcaption>
-    <div class="table-wrap">
+    <div class="table-wrap" tabindex="0" role="region" aria-label="Таблица соответствий">
       <table>
         <thead>
           <tr>
@@ -1058,7 +1058,7 @@ const parsedRows = computed(() =>
 </script>
 
 <template>
-  <div class="table-wrap compare-table">
+  <div class="table-wrap compare-table" tabindex="0" role="region" aria-label="Сравнительная таблица">
     <table>
       <caption v-if="caption">{{ caption }}</caption>
       <thead>

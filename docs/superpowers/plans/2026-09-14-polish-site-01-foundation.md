@@ -1733,7 +1733,7 @@ html.light {
   --highlight: #fff3b0;
   --sidebar-bg: #fafafa;
   --sidebar-fg: #364149;
-  --sidebar-active: #008cff;
+  --sidebar-active: #0069c2;
   --sidebar-muted: #6b6b6b;
   --topbar-bg: #ffffff;
   --focus: #1f5fa8;
@@ -1745,7 +1745,7 @@ html.sepia {
   --fg: #262625;
   --muted: #555550;
   --border: #c7c7c0;
-  --link: #2b79a2;
+  --link: #1f5f85;
   --accent-pl: #a33333;
   --cognate: #2d6a31;
   --false-friend: #a32020;
@@ -1772,7 +1772,7 @@ html.dark {
   --false-friend: #ef7a7a;
   --callout-bg: #1d1f21;
   --code-bg: #1d1f21;
-  --highlight: #4a4520;
+  --highlight: #3a3618;
   --sidebar-bg: #292c2f;
   --sidebar-fg: #a1adb8;
   --sidebar-active: #3473ad;
@@ -1911,7 +1911,7 @@ pre,
 }
 .sidebar .done {
   margin-left: 0.25rem;
-  color: var(--cognate);
+  color: var(--sidebar-active);
 }
 
 .page-wrapper {
