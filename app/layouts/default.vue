@@ -6,6 +6,7 @@ const SIDEBAR_KEY = 'polski:sidebar'
 
 const route = useRoute()
 const { nav, prev, next, ready } = useLessonNav()
+const { isLessonCompleted } = useProgress()
 const { ready: wordsReady } = useWords()
 const { ready: patternsReady } = usePatterns()
 await Promise.all([ready, wordsReady, patternsReady])
@@ -67,7 +68,7 @@ watch(
     :data-ready="hydrated || undefined"
   >
     <a href="#main" class="skip-link">К содержанию</a>
-    <AppSidebar :nav="nav" :current-path="currentPath" />
+    <AppSidebar :nav="nav" :current-path="currentPath" :is-completed="isLessonCompleted" />
     <div class="sidebar-backdrop" aria-hidden="true" @click="toggleSidebar" />
     <div class="page-wrapper">
       <AppTopbar
