@@ -18,9 +18,11 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'pnpm generate && pnpm preview',
+    // exec hands the port to serve itself, so Playwright's shutdown stops it instead of orphaning it.
+    command: 'pnpm generate && exec node_modules/.bin/serve .output/public -l 4173',
     url: `http://localhost:${PORT}`,
-    reuseExistingServer: !process.env.CI,
+    // Never test a stale build: a busy port must fail loudly rather than be reused.
+    reuseExistingServer: false,
     timeout: 300_000,
   },
 })
