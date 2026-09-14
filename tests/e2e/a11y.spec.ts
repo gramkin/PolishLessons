@@ -10,6 +10,9 @@ const PAGES = [
   '/flashcards',
   '/settings',
   '/cheatsheet',
+  '/slovo/dom',
+  '/slovo/miec',
+  '/sources',
 ]
 const THEMES = ['light', 'sepia', 'dark'] as const
 
