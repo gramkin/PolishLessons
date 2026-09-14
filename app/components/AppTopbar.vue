@@ -1,6 +1,8 @@
 <script setup lang="ts">
 defineProps<{ sidebarOpen: boolean }>()
 defineEmits<{ 'toggle-sidebar': [] }>()
+
+const { open: searchOpen } = useSearch()
 </script>
 
 <template>
@@ -17,6 +19,15 @@ defineEmits<{ 'toggle-sidebar': [] }>()
         ☰
       </button>
       <ThemePicker />
+      <button
+        type="button"
+        class="icon-button"
+        aria-label="Поиск"
+        title="Поиск (S или /)"
+        @click="searchOpen = true"
+      >
+        🔍
+      </button>
     </div>
     <NuxtLink to="/" class="topbar-title">Польский для русскоговорящих</NuxtLink>
     <div class="topbar-right">

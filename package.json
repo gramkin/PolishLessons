@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "pnpm search-index && nuxt dev",
     "build": "nuxt build",
-    "generate": "pnpm validate && nuxt generate",
+    "generate": "pnpm validate && pnpm search-index && nuxt generate",
     "preview": "serve .output/public -l 4173",
     "postinstall": "nuxt prepare",
     "test": "vitest run",
@@ -13,7 +13,8 @@
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
     "typecheck": "nuxt typecheck",
-    "validate": "tsx scripts/validate-content.ts"
+    "validate": "tsx scripts/validate-content.ts",
+    "search-index": "tsx scripts/build-search-index.ts"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -42,6 +43,7 @@
     "@nuxt/content": "^3.16.0",
     "@nuxt/fonts": "^0.14.0",
     "@nuxtjs/color-mode": "^4.0.1",
+    "minisearch": "^7.2.0",
     "nuxt": "^4.5.2",
     "zod": "^3.25.76"
   }

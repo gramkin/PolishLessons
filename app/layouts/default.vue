@@ -81,5 +81,6 @@ watch(
       </main>
       <PageNav :prev="prev" :next="next" />
     </div>
+    <SearchPanel />
   </div>
 </template>
