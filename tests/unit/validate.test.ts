@@ -63,6 +63,8 @@ function validBundle(): ContentBundle {
       frontmatter: { title: 'Шпаргалка' },
       body: ':pron{id="rzeka"}',
     },
+    cards: [],
+    forms: [],
   }
 }
 
