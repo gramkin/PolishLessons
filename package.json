@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm search-index && nuxt dev",
+    "dev": "pnpm search-index && pnpm dict:publish && nuxt dev",
     "build": "nuxt build",
-    "generate": "pnpm validate && pnpm search-index && nuxt generate",
+    "generate": "pnpm validate && pnpm search-index && pnpm dict:publish && nuxt generate",
     "preview": "serve .output/public -l 4173",
     "postinstall": "nuxt prepare",
     "test": "vitest run",
@@ -15,7 +15,13 @@
     "typecheck": "nuxt typecheck",
     "validate": "tsx scripts/validate-content.ts",
     "search-index": "tsx scripts/build-search-index.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "dict:fetch": "tsx scripts/dictionary/cli/fetch.ts",
+    "dict:fixtures": "tsx scripts/dictionary/cli/fixtures.ts",
+    "dict:rank": "tsx scripts/dictionary/cli/rank.ts",
+    "dict:draft": "tsx scripts/dictionary/cli/draft.ts",
+    "dict:build": "tsx scripts/dictionary/cli/build.ts",
+    "dict:publish": "tsx scripts/dictionary/cli/publish.ts"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
