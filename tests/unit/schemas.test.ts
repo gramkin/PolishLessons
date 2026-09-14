@@ -43,6 +43,10 @@ describe('wordSchema', () => {
     expect(wordSchema.safeParse({ ...word, id: 'ząb' }).success).toBe(false)
   })
 
+  it('rejects a non-integer chapter', () => {
+    expect(wordSchema.safeParse({ ...word, chapter: 1.5 }).success).toBe(false)
+  })
+
   it('rejects unknown part of speech', () => {
     expect(wordSchema.safeParse({ ...word, pos: 'thing' }).success).toBe(false)
   })
@@ -72,6 +76,10 @@ describe('storySchema', () => {
 describe('lessonMetaSchema', () => {
   it('defaults words to an empty array', () => {
     expect(lessonMetaSchema.parse({ chapter: 1, order: 1, level: 'A1' }).words).toEqual([])
+  })
+
+  it('rejects a non-integer order', () => {
+    expect(lessonMetaSchema.safeParse({ chapter: 1, order: 2.5, level: 'A1' }).success).toBe(false)
   })
 })
 

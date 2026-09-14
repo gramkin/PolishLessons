@@ -17,6 +17,12 @@ export const WORD_ID_RE = /^[a-z0-9-]+$/
 
 const text = z.string().min(1)
 const wordId = z.string().regex(WORD_ID_RE)
+// Nuxt Content maps JSON-schema "integer" to TEXT columns (numbers come back as strings),
+// so content integers are declared as numbers with an integer refinement.
+const positiveInt = z
+  .number()
+  .positive()
+  .refine(Number.isInteger, { message: 'Expected an integer' })
 
 export const levelSchema = z.enum(LEVELS)
 
@@ -30,14 +36,14 @@ export const wordSchema = z.object({
   pattern: text.optional(),
   falseFriend: z.object({ ru: text, meaning: text }).optional(),
   topic: text,
-  chapter: z.number().int().positive(),
+  chapter: positiveInt,
 })
 export const wordFileSchema = z.object({ words: z.array(wordSchema).min(1) })
 
 export const patternSchema = z.object({ id: text, pl: text, ru: text, rule: text })
 export const patternFileSchema = z.object({ patterns: z.array(patternSchema).min(1) })
 
-export const chapterSchema = z.object({ number: z.number().int().positive(), title: text })
+export const chapterSchema = z.object({ number: positiveInt, title: text })
 export const chapterFileSchema = z.object({ chapters: z.array(chapterSchema).min(1) })
 
 export const sentenceSchema = z.object({
@@ -54,8 +60,8 @@ export const storySchema = z.object({
 })
 
 export const lessonMetaSchema = z.object({
-  chapter: z.number().int().positive(),
-  order: z.number().int().positive(),
+  chapter: positiveInt,
+  order: positiveInt,
   level: levelSchema,
   words: z.array(wordId).default([]),
 })
