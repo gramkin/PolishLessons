@@ -607,7 +607,6 @@ Expected: FAIL — component/composable not found.
 
 ```ts
 import type MiniSearch from 'minisearch'
-import { joinURL } from 'ufo'
 import type { SearchDoc } from '#shared/search'
 import { createSearchIndex, searchGrouped, type SearchGroup } from '~/utils/search'
 
@@ -634,7 +633,7 @@ export function useSearch() {
     if (!pending) {
       loading.value = true
       error.value = false
-      pending = $fetch<{ docs: SearchDoc[] }>(joinURL(config.app.baseURL, 'search-index.json'))
+      pending = $fetch<{ docs: SearchDoc[] }>(`${config.app.baseURL.replace(/\/$/, '')}/search-index.json`)
         .then((data) => {
           index = createSearchIndex(data.docs)
           ready.value = true

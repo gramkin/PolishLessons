@@ -46,36 +46,45 @@ Each plan file ends in a working, tested site. Sample content created in plans 1
 3. **`content/chapters.yml` added** — chapter numbers and titles for the sidebar; the validator checks every lesson's `chapter` exists there.
 4. **`public/search-index.json` stores search documents**, and MiniSearch builds the index in the browser on first open (index build for a few hundred documents is instant; avoids MiniSearch version-coupled serialization).
 5. **Progress blob has `version: 1`** field, so imported files can be version-checked.
+6. **`CompareTable` takes YAML props** (`headers`, `rows`, `plColumns`) instead of wrapping a Markdown table; a first cell starting with `!` marks a difference row. Detecting `!` inside a Markdown table slot would need fragile vnode walking and would not appear in prerendered HTML.
+7. **Match questions accept 2–6 pairs** (spec: 4–6), so short lessons can use a two-pair match.
+8. **Chapters 1–3 have 12 lessons** (spec: ≈8–10): 3 + 6 + 3, because sound correspondences need one lesson per group plus a false-friends lesson.
 
 ## Complete file map
 
 ```
-package.json, pnpm-workspace.yaml, nuxt.config.ts, content.config.ts, tsconfig.json
-vitest.config.ts, playwright.config.ts, eslint.config.mjs, .prettierrc, .gitignore
-shared/schemas.ts                     zod schemas + inferred types for all content and quiz questions
-app/app.vue                           <NuxtLayout><NuxtPage/></NuxtLayout>
-app/assets/css/themes.css             CSS variables per theme
-app/assets/css/base.css               typography, layout primitives, content styles
-app/layouts/default.vue               top bar + sidebar + content column + page nav
+package.json, nuxt.config.ts, content.config.ts, tsconfig.json
+vitest.config.ts, playwright.config.ts, eslint.config.mjs, .prettierrc, .prettierignore, .gitignore
+shared/schemas.ts                     zod schemas + types for content and quiz questions
+shared/search.ts                      SearchDoc type
+app/app.vue                           layout wrapper, title template, default meta
+app/assets/css/themes.css             CSS variables per theme (light, sepia, dark)
+app/assets/css/base.css               typography, book layout, sidebar, top bar, page nav
+app/layouts/default.vue               top bar + sidebar + content + page nav + search; preloads words/patterns
 app/components/AppTopbar.vue          ☰ 🖌 🔍 title ⚙
-app/components/AppSidebar.vue         chapter tree + section links + ✓
+app/components/AppSidebar.vue         chapter tree, section links, ✓ marks
 app/components/ThemePicker.vue        theme menu
-app/components/PageNav.vue            prev/next chevrons (+ ← → keys)
+app/components/PageNav.vue            prev/next chevrons + ← → keys
 app/components/SearchPanel.vue        search overlay
+app/components/StoryView.vue          bilingual story rendering (modes show / hide / tap)
 app/components/FlashcardSession.vue   one flashcard session
+app/components/LessonDone.vue         «Урок прочитан» / «✓ Урок пройден»
+app/components/quiz/QuizChoice.vue, QuizText.vue, QuizMatch.vue, QuizFeedback.vue
 app/components/content/PlWord.vue, Pron.vue, SpeakButton.vue, CognateList.vue, FalseFriend.vue,
-                       CompareTable.vue, BilingualStory.vue, Quiz.vue, LessonDone.vue
-app/composables/useWords.ts, usePatterns.ts, useLessonNav.ts, useSpeech.ts, useProgress.ts, useSearch.ts
-app/plugins/progress.client.ts        load/validate/save progress
-app/utils/normalize.ts, pattern.ts, nav.ts, speech.ts, quiz.ts, leitner.ts, progress.ts, story.ts, search.ts
+                       CompareTable.vue, BilingualStory.vue, Quiz.vue
+app/composables/useLessonNav.ts, useWords.ts, usePatterns.ts, useStory.ts, useLessonWords.ts,
+                useSpeech.ts, useProgress.ts, useSearch.ts
+app/plugins/progress.client.ts        load (on app:mounted) / validate / save progress
+app/utils/normalize.ts, pattern.ts, nav.ts, labels.ts, speech.ts, story.ts, quiz.ts, progress.ts,
+          leitner.ts, deck.ts, vocabulary.ts, pron.ts, search.ts
 app/pages/index.vue, lessons/[...slug].vue, stories/index.vue, stories/[slug].vue,
           vocabulary.vue, flashcards.vue, cheatsheet.vue, settings.vue
 content/chapters.yml, patterns.yml, words/*.yml, lessons/**/*.md, stories/*.yml, cheatsheet.md
-scripts/lib/load-content.ts           read content/ from disk into plain objects
-scripts/lib/validate.ts               pure validateContent()
-scripts/validate-content.ts           CLI
-scripts/lib/search-docs.ts            pure buildSearchDocs()
-scripts/build-search-index.ts         CLI → public/search-index.json
-tests/unit/**, tests/nuxt/**, tests/e2e/**
+scripts/lib/load-content.ts           read content/ from disk
+scripts/lib/validate.ts               validateContent(), findComponentRefs()
+scripts/validate-content.ts           CLI: pnpm validate
+scripts/lib/search-docs.ts            buildSearchDocs()
+scripts/build-search-index.ts         CLI: pnpm search-index → public/search-index.json
+tests/unit/**, tests/nuxt/** (fixtures.ts), tests/e2e/** (helpers.ts)
 CLAUDE.md
 ```
