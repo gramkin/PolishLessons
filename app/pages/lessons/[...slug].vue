@@ -27,5 +27,6 @@ useSeoMeta({
       {{ page.title }}
     </h1>
     <ContentRenderer :value="page" />
+    <LessonDone :path="path" />
   </article>
 </template>
