@@ -59,6 +59,8 @@ const bundle: ContentBundle = {
     frontmatter: { title: 'Шпаргалка' },
     body: 'Ударение на предпоследний слог.',
   },
+  cards: [],
+  forms: [],
 }
 
 describe('helpers', () => {
@@ -113,5 +115,61 @@ describe('buildSearchDocs', () => {
       text: 'Kot pije wodę. Кот пьёт воду.',
       url: '/stories/kot',
     })
+  })
+})
+
+describe('card documents', () => {
+  it('indexes cards by lemma, senses and all forms, replacing the lesson word document', () => {
+    const withCard = {
+      ...bundle,
+      cards: [
+        {
+          path: 'dictionary/zab.yml',
+          data: {
+            id: 'zab',
+            lemma: 'ząb',
+            rank: 900,
+            pos: 'noun',
+            pron: { cyr: 'зомп' },
+            senses: [
+              {
+                id: 'tooth',
+                ru: 'зуб',
+                examples: [
+                  { pl: 'Boli mnie ząb.', ru: 'У меня болит зуб.', source: { kind: 'authored' } },
+                ],
+              },
+            ],
+          },
+        },
+      ],
+      forms: [
+        {
+          path: 'forms/zab.json',
+          data: {
+            generated: true,
+            sources: { polimorf: '0.6.7', wiktionary: 'w', tatoeba: 't' },
+            id: 'zab',
+            lemma: 'ząb',
+            pos: 'noun',
+            grammarLabel: null,
+            ipa: null,
+            audio: null,
+            allForms: ['ząb', 'zęba', 'zęby'],
+            tables: [],
+            tatoeba: {},
+          },
+        },
+      ],
+    }
+    const docs = buildSearchDocs(withCard)
+    expect(docs.find((d) => d.id === 'card:zab')).toEqual({
+      id: 'card:zab',
+      type: 'word',
+      title: 'ząb — зуб',
+      text: 'ząb zęba zęby зуб',
+      url: '/slovo/zab',
+    })
+    expect(docs.some((d) => d.id === 'word:zab')).toBe(false)
   })
 })

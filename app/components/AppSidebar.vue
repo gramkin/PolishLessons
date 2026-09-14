@@ -69,5 +69,10 @@ watch(
         </NuxtLink>
       </li>
     </ol>
+    <p class="sidebar-footer">
+      <NuxtLink to="/sources" :class="{ active: currentPath === '/sources' }"
+        >Источники и лицензии</NuxtLink
+      >
+    </p>
   </nav>
 </template>

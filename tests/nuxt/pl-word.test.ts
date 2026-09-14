@@ -4,6 +4,17 @@ import PlWord from '~/components/content/PlWord.vue'
 
 const { wordsApi } = await vi.hoisted(() => import('./fixtures'))
 mockNuxtImport('useWords', () => wordsApi)
+const { cardIndex } = await vi.hoisted(async () => {
+  const { computed } = await import('vue')
+  return {
+    cardIndex: {
+      entries: computed(() => []),
+      byId: computed(() => new Map([['rzeka', { id: 'rzeka' }]])),
+      ready: Promise.resolve(),
+    },
+  }
+})
+mockNuxtImport('useDictionaryIndex', () => () => cardIndex)
 
 function cardHidden(wrapper: Awaited<ReturnType<typeof mountSuspended>>): boolean {
   return (wrapper.find('.pl-word-card').element as HTMLElement).style.display === 'none'
@@ -64,5 +75,11 @@ describe('PlWord', () => {
     expect(wrapper.find('button').text()).toBe('ghost')
     expect(wrapper.find('.pl-word-card').exists()).toBe(false)
     if (import.meta.dev) expect(wrapper.find('.pl-word-missing').text()).toBe('?ghost')
+  })
+  it('links to the detailed card when one exists', async () => {
+    const withCard = await mountSuspended(PlWord, { props: { id: 'rzeka' } })
+    expect(withCard.find('a.card-more').attributes('href')).toBe('/slovo/rzeka')
+    const without = await mountSuspended(PlWord, { props: { id: 'glowa' } })
+    expect(without.find('a.card-more').exists()).toBe(false)
   })
 })

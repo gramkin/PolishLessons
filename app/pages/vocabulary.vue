@@ -1,28 +1,31 @@
 <script setup lang="ts">
-import { GENDER_LABELS, POS_LABELS } from '~/utils/labels'
-import { filterWords, listChapters, listTopics } from '~/utils/vocabulary'
+import { CARD_POS, type CardPos } from '#shared/dictionary'
+import { POS_NAMES, rankBand } from '~/utils/dictionary'
+import { bandStarts, filterVocabulary, mergeVocabulary } from '~/utils/vocabulary'
 
 useSeoMeta({
   title: 'Словарь',
-  description: 'Все слова курса с переводом, произношением и соответствиями русскому.',
+  description:
+    'Частотный словарь польского языка для русскоговорящих: слова по частоте, переводы и подробные карточки.',
 })
 
 const { words } = useWords()
-const { byId: patternsById } = usePatterns()
+const { entries: index, ready } = useDictionaryIndex()
+await ready
 
 const query = ref('')
-const chapter = ref<number | null>(null)
-const topic = ref<string | null>(null)
-const falseFriendsOnly = ref(false)
+const pos = ref<CardPos | null>(null)
+const band = ref<number | null>(null)
+const inLessonsOnly = ref(false)
 
-const chapters = computed(() => listChapters(words.value))
-const topics = computed(() => listTopics(words.value))
+const merged = computed(() => mergeVocabulary(index.value, words.value))
+const bands = computed(() => bandStarts(merged.value))
 const rows = computed(() =>
-  filterWords(words.value, {
+  filterVocabulary(merged.value, {
     query: query.value,
-    chapter: chapter.value,
-    topic: topic.value,
-    falseFriendsOnly: falseFriendsOnly.value,
+    pos: pos.value,
+    band: band.value,
+    inLessonsOnly: inLessonsOnly.value,
   }),
 )
 </script>
@@ -37,17 +40,19 @@ const rows = computed(() =>
         placeholder="Поиск по-польски или по-русски"
         aria-label="Поиск слова"
       />
-      <select v-model="chapter" aria-label="Глава">
-        <option :value="null">Все главы</option>
-        <option v-for="c in chapters" :key="c" :value="c">Глава {{ c }}</option>
+      <select v-model="pos" aria-label="Часть речи">
+        <option :value="null">Все части речи</option>
+        <option v-for="p in CARD_POS" :key="p" :value="p">{{ POS_NAMES[p] }}</option>
       </select>
-      <select v-model="topic" aria-label="Тема">
-        <option :value="null">Все темы</option>
-        <option v-for="t in topics" :key="t" :value="t">{{ t }}</option>
+      <select v-model="band" aria-label="Частотность">
+        <option :value="null">Все слова</option>
+        <option v-for="start in bands" :key="start" :value="start">
+          {{ rankBand(start).label }}
+        </option>
       </select>
       <label class="checkbox">
-        <input v-model="falseFriendsOnly" type="checkbox" />
-        Только ложные друзья
+        <input v-model="inLessonsOnly" type="checkbox" />
+        Встречается в уроках
       </label>
     </form>
     <p class="count">Найдено слов: {{ rows.length }}</p>
@@ -55,31 +60,22 @@ const rows = computed(() =>
       <table>
         <thead>
           <tr>
+            <th scope="col">№</th>
             <th scope="col">Польский</th>
-            <th scope="col">Русский</th>
-            <th scope="col">Произношение</th>
-            <th scope="col">Грамматика</th>
-            <th scope="col">Заметка</th>
+            <th scope="col">Перевод</th>
+            <th scope="col">Часть речи</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="word in rows" :id="word.id" :key="word.id">
-            <td lang="pl" class="pl">{{ word.pl }} <SpeakButton :text="word.pl" /></td>
-            <td>{{ word.ru }}</td>
-            <td class="pron">[{{ word.pron }}]</td>
-            <td class="meta">
-              {{ POS_LABELS[word.pos]
-              }}<template v-if="word.gender">, {{ GENDER_LABELS[word.gender] }}</template>
+          <tr v-for="entry in rows" :id="entry.id" :key="entry.id">
+            <td class="rank">{{ entry.rank ?? '—' }}</td>
+            <td lang="pl" class="pl">
+              <NuxtLink v-if="entry.hasCard" :to="`/slovo/${entry.id}`">{{ entry.lemma }}</NuxtLink>
+              <template v-else>{{ entry.lemma }}</template>
+              <SpeakButton :text="entry.lemma" />
             </td>
-            <td>
-              <span v-if="word.falseFriend" class="ff">
-                ⚠ не «{{ word.falseFriend.ru }}»: {{ word.falseFriend.meaning }}
-              </span>
-              <span v-else-if="word.pattern && patternsById.get(word.pattern)" class="pattern">
-                <span lang="pl">{{ patternsById.get(word.pattern)?.pl }}</span> ↔
-                {{ patternsById.get(word.pattern)?.ru }}
-              </span>
-            </td>
+            <td>{{ entry.gloss }}</td>
+            <td class="meta">{{ entry.pos ? POS_NAMES[entry.pos] : 'фраза' }}</td>
           </tr>
         </tbody>
       </table>
@@ -107,25 +103,15 @@ const rows = computed(() =>
 .filters input[type='search'] {
   flex: 1 1 14rem;
 }
-.count {
+.count,
+.rank,
+.meta {
   color: var(--muted);
-  font-size: 0.875rem;
 }
 .pl {
   color: var(--accent-pl);
   font-weight: 600;
   white-space: nowrap;
-}
-.pron,
-.meta {
-  color: var(--muted);
-  font-style: italic;
-}
-.ff {
-  color: var(--false-friend);
-}
-.pattern {
-  color: var(--cognate);
 }
 tr:target td {
   background: var(--highlight);

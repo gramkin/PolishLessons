@@ -5,6 +5,8 @@ const props = defineProps<{ id: string }>()
 
 const { byId } = useWords()
 const word = computed(() => byId.value.get(props.id) ?? null)
+const { byId: cardsById } = useDictionaryIndex({ lazy: true })
+const hasCard = computed(() => cardsById.value.has(props.id))
 
 const hovered = ref(false)
 const pinned = ref(false)
@@ -74,6 +76,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocumentClick))
       <span class="card-ru">{{ word.ru }}</span>
       <span class="card-meta">{{ meta }}</span>
       <span v-if="word.falseFriend" class="card-ff">⚠ Не путать с «{{ word.falseFriend.ru }}»</span>
+      <NuxtLink v-if="hasCard" :to="`/slovo/${id}`" class="card-more">Подробнее →</NuxtLink>
     </span>
     <span v-else-if="isDev" class="pl-word-missing" :title="`Нет слова с id ${id}`">?{{ id }}</span>
   </span>
@@ -138,5 +141,8 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocumentClick))
   margin-left: 0.2em;
   border-radius: 3px;
   font-size: 0.75em;
+}
+.card-more {
+  margin-top: 0.25rem;
 }
 </style>

@@ -2,29 +2,51 @@ import { describe, expect, it, vi } from 'vitest'
 import { mockNuxtImport, mountSuspended } from '@nuxt/test-utils/runtime'
 import VocabularyPage from '~/pages/vocabulary.vue'
 
-const { wordsApi, patternsApi } = await vi.hoisted(() => import('./fixtures'))
+const { wordsApi } = await vi.hoisted(() => import('./fixtures'))
+const { dictionary } = await vi.hoisted(async () => {
+  const { computed } = await import('vue')
+  const entries = [
+    { id: 'miec', lemma: 'mieć', rank: 13, pos: 'verb', gloss: 'иметь' },
+    { id: 'dom', lemma: 'dom', rank: 120, pos: 'noun', gloss: 'дом, здание' },
+  ]
+  return {
+    dictionary: {
+      entries: computed(() => entries),
+      byId: computed(() => new Map(entries.map((e) => [e.id, e]))),
+      ready: Promise.resolve(),
+    },
+  }
+})
 mockNuxtImport('useWords', () => wordsApi)
-mockNuxtImport('usePatterns', () => patternsApi)
+mockNuxtImport('useDictionaryIndex', () => () => dictionary)
 
 describe('vocabulary page', () => {
-  it('lists all words with anchors and notes', async () => {
+  it('lists cards by rank with links, then lesson words', async () => {
     const wrapper = await mountSuspended(VocabularyPage)
-    expect(wrapper.find('.count').text()).toBe('Найдено слов: 5')
-    expect(wrapper.find('tr#rzeka').exists()).toBe(true)
-    expect(wrapper.find('tr#rzeka .pattern').text()).toContain('rz ↔ р')
-    expect(wrapper.find('tr#uroda .ff').text()).toContain('урод')
-    expect(wrapper.find('tr#glowa td.meta').text()).toBe('сущ., ж. р.')
+    const ids = wrapper.findAll('tbody tr').map((tr) => tr.attributes('id'))
+    expect(ids.slice(0, 2)).toEqual(['miec', 'dom'])
+    expect(ids).toContain('rzeka')
+    expect(wrapper.find('tr#dom a').attributes('href')).toBe('/slovo/dom')
+    expect(wrapper.find('tr#rzeka a').exists()).toBe(false)
   })
 
-  it('filters by search text without diacritics', async () => {
+  it('filters by frequency band and lessons', async () => {
     const wrapper = await mountSuspended(VocabularyPage)
-    await wrapper.find('input[type="search"]').setValue('glowa')
-    expect(wrapper.findAll('tbody tr').map((tr) => tr.attributes('id'))).toEqual(['glowa'])
+    await wrapper
+      .find('select[aria-label="Частотность"]')
+      .setValue(
+        wrapper
+          .find('select[aria-label="Частотность"] option:nth-child(2)')
+          .element.getAttribute('value'),
+      )
+    expect(wrapper.findAll('tbody tr').map((tr) => tr.attributes('id'))).toEqual(['miec', 'dom'])
   })
 
-  it('filters false friends only', async () => {
+  it('shows only lesson words when asked', async () => {
     const wrapper = await mountSuspended(VocabularyPage)
     await wrapper.find('input[type="checkbox"]').setValue(true)
-    expect(wrapper.findAll('tbody tr').map((tr) => tr.attributes('id'))).toEqual(['uroda'])
+    const ids = wrapper.findAll('tbody tr').map((tr) => tr.attributes('id'))
+    expect(ids).toContain('dom')
+    expect(ids).not.toContain('miec')
   })
 })

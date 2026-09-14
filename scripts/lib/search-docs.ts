@@ -6,6 +6,7 @@ import {
   type Word,
 } from '../../shared/schemas'
 import type { SearchDoc } from '../../shared/search'
+import { cardSchema, formsFileSchema } from '../../shared/dictionary'
 import { buildNav, flattenNav } from '../../app/utils/nav'
 import type { ContentBundle } from './load-content'
 
@@ -92,7 +93,25 @@ export function buildSearchDocs(bundle: ContentBundle): SearchDoc[] {
     )
   }
 
+  const cardIds = new Set<string>()
+  for (const file of bundle.cards) {
+    const card = cardSchema.safeParse(file.data)
+    if (!card.success) continue
+    const formsFile = bundle.forms.find((f) => f.path === `forms/${card.data.id}.json`)
+    const forms = formsFile ? formsFileSchema.safeParse(formsFile.data) : null
+    const allForms = forms?.success ? forms.data.allForms : [card.data.lemma]
+    cardIds.add(card.data.id)
+    docs.push({
+      id: `card:${card.data.id}`,
+      type: 'word',
+      title: `${card.data.lemma} — ${card.data.senses.map((s) => s.ru).join('; ')}`,
+      text: `${[...new Set([card.data.lemma, ...allForms])].join(' ')} ${card.data.senses.map((s) => s.ru).join(' ')}`,
+      url: `/slovo/${card.data.id}`,
+    })
+  }
+
   for (const word of words.values()) {
+    if (cardIds.has(word.id)) continue
     docs.push({
       id: `word:${word.id}`,
       type: 'word',
