@@ -22,6 +22,8 @@ export function exampleHasForm(text: string, forms: Set<string>): boolean {
   )
 }
 
+const MIN_FORM_EXAMPLES = 3
+
 export function validateDictionary(
   bundle: DictionaryBundle,
   options: { requireLessonCards: boolean },
@@ -101,8 +103,14 @@ export function validateDictionary(
     if (formsFile && card.formExamples.length > 0) {
       const expected = affirmativeForms(formsFile.allForms)
       const seen = new Map<string, number>()
+      const sentences = new Set<string>()
       for (const entry of card.formExamples) {
         seen.set(entry.form, (seen.get(entry.form) ?? 0) + 1)
+        const key = `${entry.form}|${entry.pl.toLowerCase()}`
+        if (sentences.has(key)) {
+          errors.push(`${path}: formExamples repeats "${entry.pl}" for "${entry.form}"`)
+        }
+        sentences.add(key)
         if (!expected.includes(entry.form)) {
           errors.push(`${path}: formExamples has "${entry.form}", which is not an affirmative form`)
         }
@@ -113,7 +121,11 @@ export function validateDictionary(
         }
       }
       for (const [form, count] of seen) {
-        if (count > 1) errors.push(`${path}: formExamples has ${count} entries for "${form}"`)
+        if (count < MIN_FORM_EXAMPLES) {
+          errors.push(
+            `${path}: formExamples has ${count} example(s) for "${form}", need ${MIN_FORM_EXAMPLES}`,
+          )
+        }
       }
       const missing = expected.filter((form) => !seen.has(form))
       if (missing.length > 0) {

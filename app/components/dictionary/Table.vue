@@ -4,16 +4,16 @@ import { highlightForms } from '~/utils/dictionary'
 
 const props = defineProps<{
   table: FormsTable
-  examples?: Record<string, FormExample>
+  examples?: Record<string, FormExample[]>
   cardId?: string
 }>()
 
 const selected = ref<string | null>(null)
 const panelId = useId()
-const example = computed(() => (selected.value ? (props.examples?.[selected.value] ?? null) : null))
+const shown = computed(() => (selected.value ? (props.examples?.[selected.value] ?? []) : []))
 
-function exampleFor(form: string): FormExample | undefined {
-  return props.examples?.[form]
+function examplesFor(form: string): FormExample[] {
+  return props.examples?.[form] ?? []
 }
 
 function toggle(form: string) {
@@ -43,7 +43,7 @@ function toggle(form: string) {
               <template v-if="cell.length > 0">
                 <template v-for="(form, k) in cell" :key="form">
                   <button
-                    v-if="exampleFor(form)"
+                    v-if="examplesFor(form).length > 0"
                     type="button"
                     class="form-button"
                     :class="{ active: selected === form }"
@@ -64,30 +64,33 @@ function toggle(form: string) {
       </table>
     </div>
     <div :id="panelId" class="form-example" aria-live="polite">
-      <template v-if="example">
+      <template v-if="shown.length > 0">
         <p class="form-example-head">
-          <span lang="pl" class="form-name">{{ example.form }}</span>
-          <SpeakButton :text="example.pl" />
-          <DictionarySaveSentence
-            v-if="cardId"
-            :pl="example.pl"
-            :ru="example.ru"
-            :source="example.source"
-            :from="cardId"
-            :form="example.form"
-          />
+          <span lang="pl" class="form-name">{{ selected }}</span>
+          <span class="count">{{ shown.length }} прим.</span>
         </p>
-        <p class="form-example-body">
-          <span lang="pl">
-            <template v-for="(segment, i) in highlightForms(example.pl, [example.form])" :key="i">
-              <strong v-if="segment.hl">{{ segment.text }}</strong>
-              <template v-else>{{ segment.text }}</template>
-            </template>
-          </span>
-          <span class="translation"> — {{ example.ru }}</span>
-        </p>
+        <ul class="form-example-items">
+          <li v-for="example in shown" :key="example.pl">
+            <span lang="pl">
+              <template v-for="(segment, i) in highlightForms(example.pl, [example.form])" :key="i">
+                <strong v-if="segment.hl">{{ segment.text }}</strong>
+                <template v-else>{{ segment.text }}</template>
+              </template>
+            </span>
+            <SpeakButton :text="example.pl" />
+            <DictionarySaveSentence
+              v-if="cardId"
+              :pl="example.pl"
+              :ru="example.ru"
+              :source="example.source"
+              :from="cardId"
+              :form="example.form"
+            />
+            <span class="translation"> — {{ example.ru }}</span>
+          </li>
+        </ul>
       </template>
-      <p v-else class="hint">Нажмите на форму, чтобы увидеть пример.</p>
+      <p v-else class="hint">Нажмите на форму, чтобы увидеть примеры.</p>
     </div>
   </div>
 </template>
@@ -128,9 +131,22 @@ tbody th {
 .form-example p {
   margin: 0.15rem 0;
 }
+.form-example-items {
+  list-style: none;
+  margin: 0.25rem 0 0;
+  padding: 0;
+}
+.form-example-items li {
+  padding: 0.15rem 0;
+}
 .form-name {
   font-weight: 600;
   color: var(--accent-pl);
+}
+.count {
+  color: var(--muted);
+  font-size: 0.85em;
+  margin-left: 0.5rem;
 }
 .translation {
   color: var(--fg);

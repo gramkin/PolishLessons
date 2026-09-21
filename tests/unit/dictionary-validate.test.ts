@@ -145,32 +145,50 @@ describe('formExamples', () => {
     source: { kind: 'authored' },
   })
 
-  it('accepts one entry per affirmative form', () => {
-    const b = withForms([entry('dom', 'To jest dom.'), entry('domu', 'Wracam do domu.')])
-    expect(validateDictionary(b, { requireLessonCards: false }).errors).toEqual([])
+  const three = (form: string, sentences: [string, string, string]) =>
+    sentences.map((pl) => entry(form, pl))
+
+  const complete = () => [
+    ...three('dom', ['To jest dom.', 'Mój dom jest duży.', 'Tam stoi dom.']),
+    ...three('domu', ['Wracam do domu.', 'Nie ma go w domu.', 'Idę do domu.']),
+  ]
+
+  it('accepts three examples per affirmative form', () => {
+    expect(validateDictionary(withForms(complete()), { requireLessonCards: false }).errors).toEqual(
+      [],
+    )
   })
 
-  it('reports missing forms, duplicates, unknown forms and sentences without the form', () => {
-    const missing = validateDictionary(withForms([entry('dom', 'To jest dom.')]), {
-      requireLessonCards: false,
-    }).errors
-    expect(missing).toContain('dictionary/dom.yml: formExamples missing 1 form(s): domu')
+  it('requires at least three examples for every form', () => {
+    const thin = validateDictionary(
+      withForms([...complete().slice(0, 2), ...three('domu', ['Do domu.', 'W domu.', 'Z domu.'])]),
+      { requireLessonCards: false },
+    ).errors
+    expect(thin).toContain('dictionary/dom.yml: formExamples has 2 example(s) for "dom", need 3')
+  })
 
-    const dup = validateDictionary(
+  it('rejects the same sentence twice for one form', () => {
+    const repeated = validateDictionary(
       withForms([
-        entry('dom', 'To jest dom.'),
-        entry('dom', 'Mój dom.'),
-        entry('domu', 'Do domu.'),
+        ...three('dom', ['To jest dom.', 'To jest dom.', 'Tam stoi dom.']),
+        ...three('domu', ['Wracam do domu.', 'Nie ma go w domu.', 'Idę do domu.']),
       ]),
       { requireLessonCards: false },
     ).errors
-    expect(dup).toContain('dictionary/dom.yml: formExamples has 2 entries for "dom"')
+    expect(repeated).toContain('dictionary/dom.yml: formExamples repeats "To jest dom." for "dom"')
+  })
+
+  it('reports missing forms, unknown forms and sentences without the form', () => {
+    const missing = validateDictionary(
+      withForms(three('dom', ['To jest dom.', 'Mój dom jest duży.', 'Tam stoi dom.'])),
+      { requireLessonCards: false },
+    ).errors
+    expect(missing).toContain('dictionary/dom.yml: formExamples missing 1 form(s): domu')
 
     const unknown = validateDictionary(
       withForms([
-        entry('dom', 'To jest dom.'),
-        entry('domu', 'Do domu.'),
-        entry('niedomu', 'Nie ma niedomu.'),
+        ...complete(),
+        ...three('niedomu', ['Nie ma niedomu.', 'To niedomu.', 'Tu niedomu.']),
       ]),
       { requireLessonCards: false },
     ).errors
@@ -179,10 +197,11 @@ describe('formExamples', () => {
     )
 
     const wrong = validateDictionary(
-      withForms([entry('dom', 'To jest dom.'), entry('domu', 'Zupełnie inne zdanie.')]),
-      {
-        requireLessonCards: false,
-      },
+      withForms([
+        ...three('dom', ['To jest dom.', 'Mój dom jest duży.', 'Tam stoi dom.']),
+        ...three('domu', ['Wracam do domu.', 'Nie ma go w domu.', 'Zupełnie inne zdanie.']),
+      ]),
+      { requireLessonCards: false },
     ).errors
     expect(wrong).toContain(
       'dictionary/dom.yml: form example for "domu" does not contain that form: "Zupełnie inne zdanie."',

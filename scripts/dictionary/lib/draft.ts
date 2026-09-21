@@ -81,7 +81,7 @@ export function buildDraft(
     formCandidates: Object.fromEntries(
       affirmativeForms(paradigm.allForms).map((form) => [
         form,
-        candidatesForForm(sentences, tokenIndex, form, 3),
+        candidatesForForm(sentences, tokenIndex, form, 8),
       ]),
     ),
     etymology: merged.etymology,

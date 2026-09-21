@@ -10,7 +10,14 @@ const props = defineProps<{
 
 const main = computed(() => props.tables.filter((t) => !t.extra))
 const extra = computed(() => props.tables.filter((t) => t.extra))
-const byForm = computed(() => Object.fromEntries(props.formExamples.map((e) => [e.form, e])))
+const byForm = computed(() => {
+  const map: Record<string, FormExample[]> = {}
+  for (const example of props.formExamples) {
+    ;(map[example.form] ??= []).push(example)
+  }
+  return map
+})
+const groups = computed(() => Object.entries(byForm.value))
 </script>
 
 <template>
@@ -40,20 +47,22 @@ const byForm = computed(() => Object.fromEntries(props.formExamples.map((e) => [
     </p>
     <details v-if="formExamples.length > 0" class="form-example-list">
       <summary>Все примеры к формам ({{ formExamples.length }})</summary>
-      <ul>
-        <li v-for="example in formExamples" :key="example.form">
-          <span lang="pl" class="form-name">{{ example.form }}</span>
-          <span lang="pl"> — {{ example.pl }}</span>
-          <span class="translation"> — {{ example.ru }}</span>
-          <DictionarySaveSentence
-            :pl="example.pl"
-            :ru="example.ru"
-            :source="example.source"
-            :from="cardId"
-            :form="example.form"
-          />
-        </li>
-      </ul>
+      <div v-for="[form, examples] in groups" :key="form" class="form-group">
+        <p class="form-name" lang="pl">{{ form }}</p>
+        <ul>
+          <li v-for="example in examples" :key="example.pl">
+            <span lang="pl">{{ example.pl }}</span>
+            <span class="translation"> — {{ example.ru }}</span>
+            <DictionarySaveSentence
+              :pl="example.pl"
+              :ru="example.ru"
+              :source="example.source"
+              :from="cardId"
+              :form="example.form"
+            />
+          </li>
+        </ul>
+      </div>
     </details>
   </section>
 </template>
@@ -70,16 +79,21 @@ summary {
 .negation {
   color: var(--muted);
 }
+.form-group {
+  margin: 0.5rem 0;
+}
 .form-example-list ul {
   list-style: none;
-  padding: 0;
+  padding: 0 0 0 1rem;
+  margin: 0.15rem 0;
 }
 .form-example-list li {
-  padding: 0.15rem 0;
+  padding: 0.1rem 0;
 }
 .form-name {
   font-weight: 600;
   color: var(--accent-pl);
+  margin: 0;
 }
 .translation {
   color: var(--muted);
