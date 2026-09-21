@@ -1,0 +1,58 @@
+# review
+id: po
+format: 2
+lemma: "po"
+rank: 35
+pos: prep
+pron: { cyr: "по" }
+senses:
+  - id: after
+    ru: "после, по (о времени и порядке)"
+    examples:
+      - pl: "Po pracy idę do domu."
+        ru: "После работы я иду домой."
+        source: { kind: authored }
+      - pl: "Po moim trupie!"
+        ru: "Только через мой труп!"
+        source: { kind: tatoeba, id: 735802 }
+  - id: language
+    ru: "по-: со способом и языком"
+    examples:
+      - pl: "Mówisz po polsku?"
+        ru: "Ты говоришь по-польски?"
+        source: { kind: tatoeba, id: 4744563 }
+      - pl: "Mówisz po chińsku?"
+        ru: "Ты говоришь по-китайски?"
+        source: { kind: tatoeba, id: 597799 }
+  - id: fetch
+    ru: "за (идти за чем-л.)"
+    examples:
+      - pl: "Idę po samochód."
+        ru: "Я иду за машиной."
+        source: { kind: tatoeba, id: 349172 }
+notes:
+  - { kind: usage, text: "Названия языков: po polsku, po rosyjsku — как русские «по-польски», «по-русски», но пишутся раздельно." }
+  - { kind: government, text: "po + винительный значит «за (чем-то)»: idę po chleb «иду за хлебом»." }
+collocations:
+  - { pl: "po polsku", ru: "по-польски" }
+  - { pl: "po południu", ru: "после полудня" }
+  - { pl: "po co?", ru: "зачем?" }
+etymology: "Праславянское *po — то же, что русское «по»."
+memory: "Два неочевидных употребления: idę po chleb — «иду за хлебом» (а не «по хлеб»), и po co? — «зачем?». Язык всегда через po + наречие на -u: mówię po polsku."
+idioms:
+  - { pl: "po drodze", ru: "по пути" }
+  - { pl: "po omacku", ru: "на ощупь" }
+  - { pl: "po ptokach", ru: "всё кончено" }
+formExamples:
+  - form: "po"
+    pl: "Po moim trupie!"
+    ru: "Только через мой труп!"
+    source: { kind: tatoeba, id: 735802 }
+  - form: "po"
+    pl: "Mówisz po polsku?"
+    ru: "Ты говоришь по-польски?"
+    source: { kind: tatoeba, id: 4744563 }
+  - form: "po"
+    pl: "Idę po samochód."
+    ru: "Я иду за машиной."
+    source: { kind: tatoeba, id: 349172 }

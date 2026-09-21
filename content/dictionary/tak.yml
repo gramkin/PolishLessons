@@ -1,0 +1,54 @@
+# review
+id: tak
+format: 2
+lemma: "tak"
+rank: 17
+pos: part
+pron: { cyr: "так" }
+senses:
+  - id: yes
+    ru: "да"
+    examples:
+      - pl: "Tak."
+        ru: "Да."
+        source: { kind: tatoeba, id: 531792 }
+      - pl: "Tak, idę!"
+        ru: "Да, я иду!"
+        source: { kind: tatoeba, id: 535093 }
+      - pl: "Tak?"
+        ru: "Да?"
+        source: { kind: tatoeba, id: 6320809 }
+  - id: so
+    ru: "так, таким образом"
+    examples:
+      - pl: "Tak się nie robi."
+        ru: "Так не делают."
+        source: { kind: authored }
+      - pl: "Zrób to tak."
+        ru: "Сделай это так."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "tak — это и «да», и «так». В ответе на вопрос это всегда «да»: Czy to prawda? — Tak." }
+collocations:
+  - { pl: "tak czy inaczej", ru: "так или иначе" }
+  - { pl: "tak samo", ru: "так же" }
+  - { pl: "tak zwany", ru: "так называемый" }
+etymology: "Праславянское *tako «так» — то же слово, что русское «так». Значение «да» выросло из ответа «так (и есть)»."
+memory: "Одно слово в двух ролях: Tak. = «Да», tak samo = «так же». Русское «так точно» в значении согласия — хорошая зацепка для памяти."
+idioms:
+  - { pl: "coś jest nie tak", ru: "что-то не так" }
+  - { pl: "i tak", ru: "всё равно" }
+  - { pl: "jak cię widzą, tak cię piszą", ru: "встречают по одёжке" }
+formExamples:
+  - form: "tak"
+    pl: "Tak."
+    ru: "Да."
+    source: { kind: tatoeba, id: 531792 }
+  - form: "tak"
+    pl: "Tak, idę!"
+    ru: "Да, я иду!"
+    source: { kind: tatoeba, id: 535093 }
+  - form: "tak"
+    pl: "Tak, to prawda."
+    ru: "Да, это правда."
+    source: { kind: authored }

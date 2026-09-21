@@ -1,0 +1,92 @@
+# review
+id: ja
+format: 2
+lemma: "ja"
+rank: 7
+pos: pron
+pron: { cyr: "я" }
+senses:
+  - id: i
+    ru: "я"
+    examples:
+      - pl: "Ja!"
+        ru: "Я!"
+        source: { kind: tatoeba, id: 6160605 }
+      - pl: "Ja zapłacę."
+        ru: "Я заплачу."
+        source: { kind: tatoeba, id: 547730 }
+  - id: me
+    ru: "меня, мне, мной (косвенные падежи)"
+    examples:
+      - pl: "Kochasz mnie?"
+        ru: "Ты меня любишь?"
+        source: { kind: tatoeba, id: 1115020 }
+      - pl: "Zimno mi."
+        ru: "Мне холодно."
+        source: { kind: tatoeba, id: 533810 }
+      - pl: "Jesteś ze mną?"
+        ru: "Ты со мной?"
+        source: { kind: tatoeba, id: 5489611 }
+notes:
+  - { kind: usage, text: "Подлежащее ja обычно опускают: Idę «Я иду». Оно нужно только для подчёркивания: Ja zapłacę." }
+  - { kind: usage, text: "Краткое mi безударно и стоит внутри фразы, полное mnie — в начале и после предлога: Daj mi to, но Mnie to nie interesuje." }
+collocations:
+  - { pl: "dla mnie", ru: "для меня" }
+  - { pl: "ze mną", ru: "со мной" }
+  - { pl: "u mnie", ru: "у меня" }
+etymology: "Праславянское *azъ «я»; косвенные падежи (mnie, mi, mną) идут от другой основы — той же, что в русских «меня», «мне», «мной»."
+memory: "ja = «я», но в речи почти всегда опускается: окончание глагола и так называет лицо. Различайте краткие и полные формы: Pomóż mi «Помоги мне», но Mnie pomóż «Мне помоги»."
+idioms:
+  - { pl: "ja cię kręcę", ru: "ну ты даёшь" }
+  - { pl: "u mnie", ru: "у меня" }
+formExamplesSkip:
+  - { form: "mię", reason: "Устаревшая форма винительного падежа: в современном языке употребляется mnie, а mię встречается только в старых текстах и переводах Библии." }
+formExamples:
+  - form: "ja"
+    pl: "Ja!"
+    ru: "Я!"
+    source: { kind: tatoeba, id: 6160605 }
+  - form: "ja"
+    pl: "Ja?"
+    ru: "Я?"
+    source: { kind: tatoeba, id: 13782657 }
+  - form: "ja"
+    pl: "Ja zapłacę."
+    ru: "Я заплачу."
+    source: { kind: tatoeba, id: 547730 }
+  - form: "mi"
+    pl: "Zimno mi."
+    ru: "Мне холодно."
+    source: { kind: tatoeba, id: 533810 }
+  - form: "mi"
+    pl: "Pomóż mi!"
+    ru: "Помоги мне!"
+    source: { kind: tatoeba, id: 1180480 }
+  - form: "mi"
+    pl: "Daj mi wody."
+    ru: "Дай мне воды."
+    source: { kind: authored }
+  - form: "mną"
+    pl: "Jesteś ze mną?"
+    ru: "Ты со мной?"
+    source: { kind: tatoeba, id: 5489611 }
+  - form: "mną"
+    pl: "Jesteście ze mną?"
+    ru: "Вы со мной?"
+    source: { kind: tatoeba, id: 5489612 }
+  - form: "mną"
+    pl: "Nie rozmawiaj ze mną."
+    ru: "Не разговаривай со мной."
+    source: { kind: tatoeba, id: 11584580 }
+  - form: "mnie"
+    pl: "Mdli mnie."
+    ru: "Меня тошнит."
+    source: { kind: tatoeba, id: 6327924 }
+  - form: "mnie"
+    pl: "Kochasz mnie?"
+    ru: "Ты меня любишь?"
+    source: { kind: tatoeba, id: 1115020 }
+  - form: "mnie"
+    pl: "Ignorują mnie."
+    ru: "Они игнорируют меня."
+    source: { kind: tatoeba, id: 559511 }

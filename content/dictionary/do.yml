@@ -1,0 +1,55 @@
+# review
+id: do
+format: 2
+lemma: "do"
+rank: 15
+pos: prep
+pron: { cyr: "до" }
+senses:
+  - id: direction
+    ru: "в, к (куда?) — с родительным падежом"
+    examples:
+      - pl: "Idę do domu."
+        ru: "Я иду домой."
+        source: { kind: tatoeba, id: 623143 }
+      - pl: "Jadę do Polski."
+        ru: "Я еду в Польшу."
+        source: { kind: authored }
+  - id: until
+    ru: "до (предела во времени), в формулах прощания"
+    examples:
+      - pl: "Do jutra."
+        ru: "До завтра."
+        source: { kind: tatoeba, id: 6154754 }
+      - pl: "Do widzenia!"
+        ru: "До свидания!"
+        source: { kind: tatoeba, id: 8617102 }
+      - pl: "Do rychłego!"
+        ru: "До скорого!"
+        source: { kind: tatoeba, id: 827777 }
+notes:
+  - { kind: government, text: "do требует родительного падежа: do domu, do Polski, do ciebie." }
+  - { kind: usage, text: "Русское «в» при направлении передаётся именно через do: jadę do Warszawy «еду в Варшаву». Предлог w отвечает только на вопрос «где»." }
+collocations:
+  - { pl: "do widzenia", ru: "до свидания" }
+  - { pl: "do jutra", ru: "до завтра" }
+  - { pl: "do domu", ru: "домой" }
+etymology: "Праславянское *do — то же, что русское «до»; в польском этот предлог взял на себя ещё и значение русского «в (куда)»."
+memory: "Главное расхождение с русским: направление — это do + родительный, а не «в» с винительным. Idę do domu «иду домой», jadę do Warszawy «еду в Варшаву». Отсюда же формула прощания Do widzenia."
+idioms:
+  - { pl: "do widzenia", ru: "до свидания" }
+  - { pl: "do rzeczy", ru: "по делу" }
+  - { pl: "nic do rzeczy", ru: "ни к селу ни к городу" }
+formExamples:
+  - form: "do"
+    pl: "Do jutra."
+    ru: "До завтра."
+    source: { kind: tatoeba, id: 6154754 }
+  - form: "do"
+    pl: "Do widzenia!"
+    ru: "До свидания!"
+    source: { kind: tatoeba, id: 8617102 }
+  - form: "do"
+    pl: "Idę do domu."
+    ru: "Я иду домой."
+    source: { kind: tatoeba, id: 623143 }

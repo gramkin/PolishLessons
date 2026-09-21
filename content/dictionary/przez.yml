@@ -1,0 +1,66 @@
+# review
+id: przez
+format: 2
+lemma: "przez"
+rank: 76
+pos: prep
+pron: { cyr: "пшэс" }
+senses:
+  - id: through
+    ru: "через, сквозь"
+    examples:
+      - pl: "Przeszedł przez ulicę."
+        ru: "Он перешёл улицу."
+        source: { kind: tatoeba, id: 827754 }
+      - pl: "Koń przeskoczył przez płot."
+        ru: "Лошадь перескочила через забор."
+        source: { kind: tatoeba, id: 1348556 }
+  - id: by
+    ru: "по (о средстве связи); из-за; кем (в страдательном обороте)"
+    examples:
+      - pl: "Rozmawiają przez telefon."
+        ru: "Они говорят по телефону."
+        source: { kind: tatoeba, id: 6017175 }
+      - pl: "List został napisany przez Tomka."
+        ru: "Письмо было написано Томеком."
+        source: { kind: authored }
+      - pl: "Spóźnili się przez korki."
+        ru: "Они опоздали из-за пробок."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "przez требует винительного падежа." }
+  - { kind: usage, text: "В страдательном обороте przez вводит деятеля: zrobione przez dzieci «сделано детьми»." }
+collocations:
+  - { pl: "przez telefon", ru: "по телефону" }
+  - { pl: "przez przypadek", ru: "случайно" }
+  - { pl: "przez cały dzień", ru: "весь день" }
+etymology: "Праславянское *perz — то же, что русское «через» и приставка «пере-»."
+memory: "przez = «через», но ещё и «по» (przez telefon «по телефону»), и «из-за» (przeze mnie «из-за меня»). В страдательном залоге вводит того, кто сделал: napisany przez Tomka."
+idioms:
+  - { pl: "przez przypadek", ru: "случайно" }
+  - { pl: "sam przez się", ru: "сам по себе" }
+formExamples:
+  - form: "przez"
+    pl: "Przeszedł przez ulicę."
+    ru: "Он перешёл улицу."
+    source: { kind: tatoeba, id: 827754 }
+  - form: "przez"
+    pl: "Rozmawiają przez telefon."
+    ru: "Они говорят по телефону."
+    source: { kind: tatoeba, id: 6017175 }
+  - form: "przez"
+    pl: "Koń przeskoczył przez płot."
+    ru: "Лошадь перескочила через забор."
+    source: { kind: tatoeba, id: 1348556 }
+  - form: "przeze"
+    pl: "To przeze mnie?"
+    ru: "Это из-за меня?"
+    source: { kind: translated, id: 8620937 }
+  - form: "przeze"
+    pl: "To przeze mnie się spóźnili."
+    ru: "Это из-за меня они опоздали."
+    source: { kind: translated, id: 921646 }
+  - form: "przeze"
+    pl: "Stół jest robiony przeze mnie."
+    ru: "Этот стол сделан мной."
+    source: { kind: translated, id: 1777137 }

@@ -1,0 +1,54 @@
+# review
+id: a
+format: 2
+lemma: "a"
+rank: 23
+pos: conj
+pron: { cyr: "а" }
+senses:
+  - id: contrast
+    ru: "а (противопоставление)"
+    examples:
+      - pl: "A ty?"
+        ru: "А ты?"
+        source: { kind: tatoeba, id: 756951 }
+      - pl: "Ja pracuję, a ty odpoczywasz."
+        ru: "Я работаю, а ты отдыхаешь."
+        source: { kind: authored }
+  - id: question
+    ru: "а (во встречном вопросе)"
+    examples:
+      - pl: "A wy?"
+        ru: "А вы?"
+        source: { kind: tatoeba, id: 3463022 }
+      - pl: "A Pan?"
+        ru: "А вы?"
+        source: { kind: tatoeba, id: 3463019 }
+      - pl: "A co z nim?"
+        ru: "А что с ним?"
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "a — это «а», а не «и». Русскому «и» соответствует i, русскому «но» — ale." }
+collocations:
+  - { pl: "a jednak", ru: "и всё-таки" }
+  - { pl: "a nawet", ru: "и даже" }
+  - { pl: "a to", ru: "а это" }
+etymology: "В польском засвидетельствовано с XV века; праславянское *a — то же слово, что русское «а»."
+memory: "a = «а» и работает так же: соединяет с оттенком противопоставления и открывает встречный вопрос — A ty? «А ты?». Держите рядом всю тройку: i «и», a «а», ale «но»."
+idioms:
+  - { pl: "od a do zet", ru: "от А до Я" }
+  - { pl: "a jednak", ru: "и всё-таки" }
+  - { pl: "a to ci historia!", ru: "ну и история!" }
+formExamples:
+  - form: "a"
+    pl: "A ty?"
+    ru: "А ты?"
+    source: { kind: tatoeba, id: 756951 }
+  - form: "a"
+    pl: "A wy?"
+    ru: "А вы?"
+    source: { kind: tatoeba, id: 3463022 }
+  - form: "a"
+    pl: "A Pan?"
+    ru: "А вы?"
+    source: { kind: tatoeba, id: 3463019 }

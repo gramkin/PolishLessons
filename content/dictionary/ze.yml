@@ -1,0 +1,53 @@
+# review
+id: ze
+format: 2
+lemma: "że"
+rank: 11
+pos: conj
+pron: { cyr: "жэ" }
+senses:
+  - id: that
+    ru: "что (изъяснительный союз)"
+    examples:
+      - pl: "Wiem, że umrę."
+        ru: "Я знаю, что умру."
+        source: { kind: tatoeba, id: 1634950 }
+      - pl: "Uważam, że nie."
+        ru: "Думаю, что нет."
+        source: { kind: tatoeba, id: 6327911 }
+      - pl: "Powiedz, że wyszłam."
+        ru: "Скажи, что я вышла."
+        source: { kind: tatoeba, id: 13045926 }
+  - id: because
+    ru: "в составе союзов: dlatego że — потому что, mimo że — несмотря на то что"
+    examples:
+      - pl: "Nie przyszedł, dlatego że był chory."
+        ru: "Он не пришёл, потому что был болен."
+        source: { kind: authored }
+      - pl: "Cieszę się, że jesteś."
+        ru: "Я рад, что ты здесь."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Перед że всегда ставится запятая, как перед русским «что»." }
+collocations:
+  - { pl: "dlatego że", ru: "потому что" }
+  - { pl: "mimo że", ru: "несмотря на то что" }
+  - { pl: "tak że", ru: "так что" }
+etymology: "Старопольское iże из праславянского *jьže; та же основа, что в русской частице «же»."
+memory: "że — это союз «что», а co — вопросительное «что». Wiem, że pracujesz «Я знаю, что ты работаешь», но Co robisz? «Что ты делаешь?». Производное żeby значит «чтобы»."
+idioms:
+  - { pl: "że tak powiem", ru: "так сказать" }
+  - { pl: "no i co z tego, że...", ru: "ну и что с того, что…" }
+formExamples:
+  - form: "że"
+    pl: "Wiem, że umrę."
+    ru: "Я знаю, что умру."
+    source: { kind: tatoeba, id: 1634950 }
+  - form: "że"
+    pl: "Powiedz, że wyszłam."
+    ru: "Скажи, что я вышла."
+    source: { kind: tatoeba, id: 13045926 }
+  - form: "że"
+    pl: "Myślę, że masz rację."
+    ru: "Я думаю, что ты прав."
+    source: { kind: authored }

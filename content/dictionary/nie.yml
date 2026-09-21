@@ -1,0 +1,55 @@
+# review
+id: nie
+format: 2
+lemma: "nie"
+rank: 22
+pos: part
+pron: { cyr: "не" }
+senses:
+  - id: no
+    ru: "нет (отрицательный ответ)"
+    examples:
+      - pl: "Nie."
+        ru: "Нет."
+        source: { kind: tatoeba, id: 1913501 }
+      - pl: "Nie!"
+        ru: "Нет!"
+        source: { kind: tatoeba, id: 6308670 }
+  - id: not
+    ru: "не (отрицание при слове)"
+    examples:
+      - pl: "Nie wiem."
+        ru: "Я не знаю."
+        source: { kind: tatoeba, id: 348673 }
+      - pl: "Nie płacz."
+        ru: "Не плачь."
+        source: { kind: tatoeba, id: 959747 }
+      - pl: "To nie jest mój dom."
+        ru: "Это не мой дом."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "С глаголами пишется раздельно (nie wiem), с прилагательными и наречиями слитно (niedobry, niedobrze) — как в русском." }
+  - { kind: usage, text: "Двойное отрицание обязательно: Nikt nic nie wie «Никто ничего не знает»." }
+collocations:
+  - { pl: "nie ma", ru: "нет, не имеется" }
+  - { pl: "już nie", ru: "больше не" }
+  - { pl: "jeszcze nie", ru: "ещё не" }
+etymology: "Праславянское *ne «не» — то же слово, что русское «не»; родственно литовскому ne и латинскому nē."
+memory: "Совпадает с русским «не/нет», и двойное отрицание работает так же: Nikt nigdy nic nie mówi. Отдельно запомните безличное nie ma «нет, не имеется»: Nie ma go w domu «Его нет дома»."
+idioms:
+  - { pl: "nie ma sprawy", ru: "не за что, без проблем" }
+  - { pl: "nie ma mowy", ru: "не может быть и речи" }
+  - { pl: "no nie!", ru: "да ну!" }
+formExamples:
+  - form: "nie"
+    pl: "Nie."
+    ru: "Нет."
+    source: { kind: tatoeba, id: 1913501 }
+  - form: "nie"
+    pl: "Nie wiem."
+    ru: "Я не знаю."
+    source: { kind: tatoeba, id: 348673 }
+  - form: "nie"
+    pl: "Nie płacz."
+    ru: "Не плачь."
+    source: { kind: tatoeba, id: 959747 }

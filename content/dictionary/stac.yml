@@ -1,0 +1,766 @@
+# review
+id: stac
+format: 2
+lemma: "stać"
+rank: 75
+pos: verb
+aspect: biaspectual
+pron: { cyr: "стаць" }
+senses:
+  - id: stand
+    ru: "стоять"
+    examples:
+      - pl: "Stoję w cieniu."
+        ru: "Я стою в тени."
+        source: { kind: tatoeba, id: 1190330 }
+      - pl: "W pokoju stoi stół."
+        ru: "В комнате стоит стол."
+        source: { kind: tatoeba, id: 2116628 }
+      - pl: "Możesz stać?"
+        ru: "Ты можешь стоять?"
+        source: { kind: tatoeba, id: 2406014 }
+  - id: become
+    ru: "stać się — стать, случиться"
+    examples:
+      - pl: "Czy coś się stało?"
+        ru: "Что-то случилось?"
+        source: { kind: tatoeba, id: 565288 }
+      - pl: "Stanie się coś okropnego."
+        ru: "Случится что-то ужасное."
+        source: { kind: tatoeba, id: 3603509 }
+notes:
+  - { kind: false-friend, text: "В одном слове сошлись два русских глагола: stać «стоять» (stoję, stoisz, stoi) и stać się «стать, случиться» (stanę, stało się)." }
+  - { kind: usage, text: "Безличное nie stać mnie na to значит «мне это не по карману»." }
+collocations:
+  - { pl: "co się stało?", ru: "что случилось?" }
+  - { pl: "stać w kolejce", ru: "стоять в очереди" }
+  - { pl: "nie stać mnie na to", ru: "мне это не по карману" }
+etymology: "Праславянские *stati «стать» и *stojati «стоять» слились в польском в один глагол; русские «стать» и «стоять» сохранили раздельность."
+memory: "Одно польское слово покрывает два русских глагола. Настоящее время идёт от «стоять» (stoję, stoisz, stoi), будущее и прошедшее с się — от «стать»: Co się stało? «Что случилось?». И запомните nie stać mnie na to «мне это не по карману»."
+idioms:
+  - { pl: "co się stało, to się nie odstanie", ru: "что случилось, то случилось" }
+  - { pl: "nie stać mnie na to", ru: "мне это не по карману" }
+  - { pl: "stać na straży", ru: "стоять на страже" }
+formExamplesSkip:
+  - { form: "stano", reason: "Безличной формы на -no этот глагол не образует: в живом языке вместо неё употребляются обороты с się, например stało się." }
+formExamples:
+  - form: "stać"
+    pl: "Możesz stać?"
+    ru: "Ты можешь стоять?"
+    source: { kind: tatoeba, id: 2406014 }
+  - form: "stać"
+    pl: "Jak stać się wróżką?"
+    ru: "Как стать феей?"
+    source: { kind: tatoeba, id: 10770789 }
+  - form: "stać"
+    pl: "Może się stać coś złego."
+    ru: "Может случиться что-то плохое."
+    source: { kind: tatoeba, id: 6154990 }
+  - form: "stali"
+    pl: "Będziecie tak stali i patrzeli, jak on umiera?"
+    ru: "Вы так и будете стоять и смотреть, как он умирает?"
+    source: { kind: tatoeba, id: 13045915 }
+  - form: "stali"
+    pl: "Oni stali."
+    ru: "Они стояли."
+    source: { kind: translated, id: 3743636 }
+  - form: "stali"
+    pl: "Stali tam."
+    ru: "Они стояли там."
+    source: { kind: translated, id: 12454005 }
+  - form: "staliby"
+    pl: "Staliby w kolejce całą noc."
+    ru: "Они стояли бы в очереди всю ночь."
+    source: { kind: authored }
+  - form: "staliby"
+    pl: "Staliby się przyjaciółmi."
+    ru: "Они стали бы друзьями."
+    source: { kind: authored }
+  - form: "staliby"
+    pl: "Bez dachu nie staliby na deszczu."
+    ru: "Без крыши они не стояли бы под дождём."
+    source: { kind: authored }
+  - form: "stalibyście"
+    pl: "Stalibyście tam tak długo?"
+    ru: "Вы стояли бы там так долго?"
+    source: { kind: authored }
+  - form: "stalibyście"
+    pl: "Stalibyście się bogaci."
+    ru: "Вы стали бы богатыми."
+    source: { kind: authored }
+  - form: "stalibyście"
+    pl: "Gdzie stalibyście na naszym miejscu?"
+    ru: "Где бы вы стояли на нашем месте?"
+    source: { kind: authored }
+  - form: "stalibyśmy"
+    pl: "Stalibyśmy bliżej sceny."
+    ru: "Мы стояли бы ближе к сцене."
+    source: { kind: authored }
+  - form: "stalibyśmy"
+    pl: "Stalibyśmy się sąsiadami."
+    ru: "Мы стали бы соседями."
+    source: { kind: authored }
+  - form: "stalibyśmy"
+    pl: "Nie stalibyśmy w takiej kolejce."
+    ru: "Мы не стояли бы в такой очереди."
+    source: { kind: authored }
+  - form: "staliście"
+    pl: "Jak blisko siebie staliście?"
+    ru: "Как близко друг к другу вы стояли?"
+    source: { kind: translated, id: 9677496 }
+  - form: "staliście"
+    pl: "Długo staliście na mrozie?"
+    ru: "Долго вы стояли на морозе?"
+    source: { kind: authored }
+  - form: "staliście"
+    pl: "Staliście się sławni."
+    ru: "Вы стали знаменитыми."
+    source: { kind: authored }
+  - form: "staliśmy"
+    pl: "Staliśmy się dobrymi przyjaciółmi."
+    ru: "Мы стали хорошими друзьями."
+    source: { kind: tatoeba, id: 2309310 }
+  - form: "staliśmy"
+    pl: "Staliśmy."
+    ru: "Мы стояли."
+    source: { kind: translated, id: 10599762 }
+  - form: "staliśmy"
+    pl: "Staliśmy obok drzwi."
+    ru: "Мы стояли у двери."
+    source: { kind: translated, id: 11569981 }
+  - form: "stał"
+    pl: "Stał za krzesłem."
+    ru: "Он стоял за стулом."
+    source: { kind: tatoeba, id: 9677493 }
+  - form: "stał"
+    pl: "Tom stał w pobliżu."
+    ru: "Том стоял поблизости."
+    source: { kind: tatoeba, id: 6014695 }
+  - form: "stał"
+    pl: "Na stole stał słoik z dżemem."
+    ru: "На столе стояла банка с джемом."
+    source: { kind: tatoeba, id: 3744944 }
+  - form: "stała"
+    pl: "Siostra stała na balkonie."
+    ru: "Сестра стояла на балконе."
+    source: { kind: tatoeba, id: 2178481 }
+  - form: "stała"
+    pl: "Ludzkość stała się bogatsza."
+    ru: "Человечество стало богаче."
+    source: { kind: tatoeba, id: 445437 }
+  - form: "stała"
+    pl: "Szafa stała na lewo od drzwi."
+    ru: "Шкаф стоял слева от двери."
+    source: { kind: tatoeba, id: 6155767 }
+  - form: "stałaby"
+    pl: "Stałaby w kolejce od rana."
+    ru: "Она стояла бы в очереди с утра."
+    source: { kind: authored }
+  - form: "stałaby"
+    pl: "Stałaby się świetną nauczycielką."
+    ru: "Она стала бы отличной учительницей."
+    source: { kind: authored }
+  - form: "stałaby"
+    pl: "Bez parasola nie stałaby na deszczu."
+    ru: "Без зонта она не стояла бы под дождём."
+    source: { kind: authored }
+  - form: "stałabym"
+    pl: "Nie stałabym na mrozie."
+    ru: "Я не стояла бы на морозе."
+    source: { kind: authored }
+  - form: "stałabym"
+    pl: "Stałabym bliżej sceny."
+    ru: "Я стояла бы ближе к сцене."
+    source: { kind: authored }
+  - form: "stałabym"
+    pl: "Stałabym się spokojniejsza."
+    ru: "Я стала бы спокойнее."
+    source: { kind: authored }
+  - form: "stałabyś"
+    pl: "Stałabyś w takiej kolejce?"
+    ru: "Ты стояла бы в такой очереди?"
+    source: { kind: authored }
+  - form: "stałabyś"
+    pl: "Stałabyś bliżej okna."
+    ru: "Ты стояла бы ближе к окну."
+    source: { kind: authored }
+  - form: "stałabyś"
+    pl: "Stałabyś się sławna."
+    ru: "Ты стала бы знаменитой."
+    source: { kind: authored }
+  - form: "stałam"
+    pl: "Stałam w kolejce godzinę."
+    ru: "Я стояла в очереди час."
+    source: { kind: authored }
+  - form: "stałam"
+    pl: "Stałam pod drzewem."
+    ru: "Я стояла под деревом."
+    source: { kind: authored }
+  - form: "stałam"
+    pl: "Stałam się ostrożniejsza."
+    ru: "Я стала осторожнее."
+    source: { kind: authored }
+  - form: "stałaś"
+    pl: "Czy stałaś się aniołem?"
+    ru: "Ты стала ангелом?"
+    source: { kind: translated, id: 2006337 }
+  - form: "stałaś"
+    pl: "Stałaś się piękną kobietą."
+    ru: "Ты стала красивой женщиной."
+    source: { kind: translated, id: 4104461 }
+  - form: "stałaś"
+    pl: "Stałaś zbyt blisko ognia."
+    ru: "Ты стояла слишком близко к огню."
+    source: { kind: authored }
+  - form: "stałby"
+    pl: "Stałby tam godzinami."
+    ru: "Он стоял бы там часами."
+    source: { kind: authored }
+  - form: "stałby"
+    pl: "Nikt nie stałby na deszczu."
+    ru: "Никто не стоял бы под дождём."
+    source: { kind: authored }
+  - form: "stałby"
+    pl: "Stałby się dobrym lekarzem."
+    ru: "Он стал бы хорошим врачом."
+    source: { kind: authored }
+  - form: "stałbym"
+    pl: "Nie stałbym tam tak długo."
+    ru: "Я не стоял бы там так долго."
+    source: { kind: authored }
+  - form: "stałbym"
+    pl: "Stałbym w kolejce za ciebie."
+    ru: "Я постоял бы в очереди за тебя."
+    source: { kind: authored }
+  - form: "stałbym"
+    pl: "Stałbym się lepszym człowiekiem."
+    ru: "Я стал бы лучшим человеком."
+    source: { kind: authored }
+  - form: "stałbyś"
+    pl: "Stałbyś tam całą noc?"
+    ru: "Ты стоял бы там всю ночь?"
+    source: { kind: authored }
+  - form: "stałbyś"
+    pl: "Gdzie stałbyś na moim miejscu?"
+    ru: "Где бы ты стоял на моём месте?"
+    source: { kind: authored }
+  - form: "stałbyś"
+    pl: "Stałbyś się bogaty."
+    ru: "Ты стал бы богатым."
+    source: { kind: authored }
+  - form: "stałem"
+    pl: "Stałem."
+    ru: "Я стоял."
+    source: { kind: translated, id: 10542058 }
+  - form: "stałem"
+    pl: "Stałem się zapominalski."
+    ru: "Я стал забывчивым."
+    source: { kind: translated, id: 3744081 }
+  - form: "stałem"
+    pl: "Stałem z założonymi rękami."
+    ru: "Я стоял, скрестив руки."
+    source: { kind: translated, id: 701604 }
+  - form: "stałeś"
+    pl: "Byłeś powodem mojego uśmiechu. Stałeś się przyczyną moich łez."
+    ru: "Ты был причиной моей улыбки. Ты стал причиной моих слёз."
+    source: { kind: translated, id: 13577414 }
+  - form: "stałeś"
+    pl: "Gdzie stałeś?"
+    ru: "Где ты стоял?"
+    source: { kind: authored }
+  - form: "stałeś"
+    pl: "Stałeś się bardziej cierpliwy."
+    ru: "Ты стал терпеливее."
+    source: { kind: authored }
+  - form: "stało"
+    pl: "Czy coś się stało?"
+    ru: "Что-то случилось?"
+    source: { kind: tatoeba, id: 565288 }
+  - form: "stało"
+    pl: "Co się ze mną stało?"
+    ru: "Что со мной стало?"
+    source: { kind: tatoeba, id: 8661238 }
+  - form: "stało"
+    pl: "Co się stało w październiku?"
+    ru: "Что случилось в октябре?"
+    source: { kind: tatoeba, id: 10602880 }
+  - form: "stałoby"
+    pl: "To nie stałoby się dzisiaj."
+    ru: "Сегодня это не случилось бы."
+    source: { kind: translated, id: 4837563 }
+  - form: "stałoby"
+    pl: "To stałoby się i bez nas."
+    ru: "Это случилось бы и без нас."
+    source: { kind: authored }
+  - form: "stałoby"
+    pl: "Drzewo stałoby tu lepiej."
+    ru: "Дерево лучше стояло бы здесь."
+    source: { kind: authored }
+  - form: "stały"
+    pl: "Podniesione ręce stały się symbolem protestu."
+    ru: "Поднятые вверх руки стали символом протеста."
+    source: { kind: tatoeba, id: 3657904 }
+  - form: "stały"
+    pl: "Będziecie tak stały i patrzyły, jak on umiera?"
+    ru: "Вы так и будете стоять и смотреть, как он умирает?"
+    source: { kind: tatoeba, id: 13045916 }
+  - form: "stały"
+    pl: "Stały w rzędzie."
+    ru: "Они стояли в ряд."
+    source: { kind: translated, id: 9677490 }
+  - form: "stałyby"
+    pl: "Te szafy stałyby lepiej pod ścianą."
+    ru: "Эти шкафы лучше стояли бы у стены."
+    source: { kind: authored }
+  - form: "stałyby"
+    pl: "Dziewczyny stałyby razem."
+    ru: "Девочки стояли бы вместе."
+    source: { kind: authored }
+  - form: "stałyby"
+    pl: "Kwiaty stałyby dłużej w chłodzie."
+    ru: "Цветы стояли бы дольше в прохладе."
+    source: { kind: authored }
+  - form: "stałybyście"
+    pl: "Stałybyście w takiej kolejce?"
+    ru: "Вы стояли бы в такой очереди?"
+    source: { kind: authored }
+  - form: "stałybyście"
+    pl: "Stałybyście się sławne."
+    ru: "Вы стали бы знаменитыми."
+    source: { kind: authored }
+  - form: "stałybyście"
+    pl: "Nie stałybyście na wietrze."
+    ru: "Вы не стояли бы на ветру."
+    source: { kind: authored }
+  - form: "stałybyśmy"
+    pl: "Stałybyśmy razem w kolejce."
+    ru: "Мы стояли бы вместе в очереди."
+    source: { kind: authored }
+  - form: "stałybyśmy"
+    pl: "Stałybyśmy się przyjaciółkami."
+    ru: "Мы стали бы подругами."
+    source: { kind: authored }
+  - form: "stałybyśmy"
+    pl: "Nie stałybyśmy na mrozie."
+    ru: "Мы не стояли бы на морозе."
+    source: { kind: authored }
+  - form: "stałyście"
+    pl: "Jak blisko siebie stałyście?"
+    ru: "Как близко друг к другу вы стояли?"
+    source: { kind: translated, id: 9677497 }
+  - form: "stałyście"
+    pl: "Stałyście w cieniu."
+    ru: "Вы стояли в тени."
+    source: { kind: authored }
+  - form: "stałyście"
+    pl: "Stałyście się nierozłączne."
+    ru: "Вы стали неразлучны."
+    source: { kind: authored }
+  - form: "stałyśmy"
+    pl: "Stałyśmy w kolejce po bilety."
+    ru: "Мы стояли в очереди за билетами."
+    source: { kind: authored }
+  - form: "stałyśmy"
+    pl: "Stałyśmy się przyjaciółkami."
+    ru: "Мы стали подругами."
+    source: { kind: authored }
+  - form: "stałyśmy"
+    pl: "Stałyśmy pod parasolem."
+    ru: "Мы стояли под зонтом."
+    source: { kind: authored }
+  - form: "staną"
+    pl: "Jak zobaczysz moją kolekcję żab to włosy staną ci dęba."
+    ru: "Как увидишь мою коллекцию лягушек, волосы дыбом встанут."
+    source: { kind: translated, id: 2397615 }
+  - form: "staną"
+    pl: "Te zielone liście staną się czerwone lub żółte jesienią."
+    ru: "Эти зелёные листья осенью станут красными или жёлтыми."
+    source: { kind: translated, id: 885652 }
+  - form: "staną"
+    pl: "Współcześni młodzi literaci boją się, że staną się sentymentalni. Może to być objaw słabości wiążącej się z obawą, że zostanie się zranionym."
+    ru: "Современные молодые литераторы боятся стать сентиментальными."
+    source: { kind: translated, id: 3432424 }
+  - form: "stanę"
+    pl: "Szybko stanę na nogi."
+    ru: "Я быстро встану на ноги."
+    source: { kind: translated, id: 13669915 }
+  - form: "stanę"
+    pl: "Stanę w kolejce."
+    ru: "Я встану в очередь."
+    source: { kind: authored }
+  - form: "stanę"
+    pl: "Nie stanę obok niego."
+    ru: "Я не встану рядом с ним."
+    source: { kind: authored }
+  - form: "stania"
+    pl: "Nie jest godny stania na czele."
+    ru: "Он не достоин стоять во главе."
+    source: { kind: translated, id: 12188869 }
+  - form: "stania"
+    pl: "Nie mam siły do stania w kolejce."
+    ru: "У меня нет сил стоять в очереди."
+    source: { kind: authored }
+  - form: "stania"
+    pl: "Bolą mnie nogi od stania."
+    ru: "У меня болят ноги от стояния."
+    source: { kind: authored }
+  - form: "stanie"
+    pl: "Co się z nią stanie?"
+    ru: "Что с ней случится?"
+    source: { kind: tatoeba, id: 12567427 }
+  - form: "stanie"
+    pl: "Stanie się coś okropnego."
+    ru: "Случится что-то ужасное."
+    source: { kind: tatoeba, id: 3603509 }
+  - form: "stanie"
+    pl: "Nic się nie stanie."
+    ru: "Ничего не случится."
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "Gdzie staniecie?"
+    ru: "Где вы встанете?"
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "Staniecie się sławni."
+    ru: "Вы станете знаменитыми."
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "Staniecie w pierwszym rzędzie."
+    ru: "Вы встанете в первом ряду."
+    source: { kind: authored }
+  - form: "staniem"
+    pl: "Zmęczył się staniem w kolejce."
+    ru: "Он устал стоять в очереди."
+    source: { kind: authored }
+  - form: "staniem"
+    pl: "Nogi bolą go przed staniem i po nim."
+    ru: "Ноги болят у него и до стояния, и после."
+    source: { kind: authored }
+  - form: "staniem"
+    pl: "Zaskoczył nas staniem na jednej nodze."
+    ru: "Он удивил нас тем, что стоял на одной ноге."
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "Staniemy w kolejce."
+    ru: "Мы встанем в очередь."
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "Staniemy się lepsi."
+    ru: "Мы станем лучше."
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "Staniemy obok siebie."
+    ru: "Мы встанем рядом друг с другом."
+    source: { kind: authored }
+  - form: "staniesz"
+    pl: "Jeśli będziesz tyle jadł, staniesz się gruby."
+    ru: "Если будешь столько есть, станешь толстым."
+    source: { kind: translated, id: 1353457 }
+  - form: "staniesz"
+    pl: "Jeśli będziesz jadł zbyt dużo, staniesz się gruby."
+    ru: "Если будешь есть слишком много, станешь толстым."
+    source: { kind: translated, id: 867734 }
+  - form: "staniesz"
+    pl: "Jeśli staniesz na tym taborecie, dosięgniesz góry szafy."
+    ru: "Если встанешь на этот табурет, достанешь до верха шкафа."
+    source: { kind: translated, id: 10770704 }
+  - form: "staniu"
+    pl: "Po staniu w kolejce bolały go nogi."
+    ru: "После стояния в очереди у него болели ноги."
+    source: { kind: authored }
+  - form: "staniu"
+    pl: "Mówimy o staniu w korku."
+    ru: "Мы говорим о стоянии в пробке."
+    source: { kind: authored }
+  - form: "staniu"
+    pl: "Po długim staniu usiadł."
+    ru: "После долгого стояния он сел."
+    source: { kind: authored }
+  - form: "stań"
+    pl: "Stań w kolejce."
+    ru: "Встаньте в очередь."
+    source: { kind: tatoeba, id: 10695782 }
+  - form: "stań"
+    pl: "Stań tam."
+    ru: "Встань там."
+    source: { kind: translated, id: 3495344 }
+  - form: "stań"
+    pl: "Stań z boku!"
+    ru: "Встань в сторонку!"
+    source: { kind: translated, id: 5652537 }
+  - form: "stańcie"
+    pl: "Stańcie w rzędzie."
+    ru: "Встаньте в ряд."
+    source: { kind: authored }
+  - form: "stańcie"
+    pl: "Stańcie bliżej siebie."
+    ru: "Встаньте ближе друг к другу."
+    source: { kind: authored }
+  - form: "stańcie"
+    pl: "Stańcie pod ścianą."
+    ru: "Встаньте у стены."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy tutaj."
+    ru: "Встанем здесь."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy w cieniu."
+    ru: "Встанем в тени."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy razem w kolejce."
+    ru: "Встанем вместе в очередь."
+    source: { kind: authored }
+  - form: "stawszy"
+    pl: "Stawszy się ojcem, zmienił się."
+    ru: "Став отцом, он изменился."
+    source: { kind: authored }
+  - form: "stawszy"
+    pl: "Stawszy się szefem, zaczął wcześniej wstawać."
+    ru: "Став начальником, он начал раньше вставать."
+    source: { kind: authored }
+  - form: "stawszy"
+    pl: "Stawszy w progu, zawahał się."
+    ru: "Встав на пороге, он заколебался."
+    source: { kind: authored }
+  - form: "stoi"
+    pl: "W pokoju stoi stół."
+    ru: "В комнате стоит стол."
+    source: { kind: tatoeba, id: 2116628 }
+  - form: "stoi"
+    pl: "Tom stoi na głowie."
+    ru: "Том стоит на голове."
+    source: { kind: tatoeba, id: 3663697 }
+  - form: "stoi"
+    pl: "Na stole stoi butelka wina."
+    ru: "На столе стоит бутылка вина."
+    source: { kind: tatoeba, id: 349465 }
+  - form: "stoicie"
+    pl: "Dlaczego stoicie na deszczu?"
+    ru: "Почему вы стоите под дождём?"
+    source: { kind: authored }
+  - form: "stoicie"
+    pl: "Stoicie w złej kolejce."
+    ru: "Вы стоите не в той очереди."
+    source: { kind: authored }
+  - form: "stoicie"
+    pl: "Stoicie zbyt blisko krawędzi."
+    ru: "Вы стоите слишком близко к краю."
+    source: { kind: authored }
+  - form: "stoimy"
+    pl: "My stoimy."
+    ru: "Мы стоим."
+    source: { kind: translated, id: 8760635 }
+  - form: "stoimy"
+    pl: "Stoimy w korku."
+    ru: "Мы стоим в пробке."
+    source: { kind: translated, id: 8506019 }
+  - form: "stoimy"
+    pl: "Czasem może się wydawać, że stoimy w miejscu."
+    ru: "Иногда может казаться, что мы стоим на месте."
+    source: { kind: translated, id: 1002569 }
+  - form: "stoisz"
+    pl: "Czemu tu stoisz?"
+    ru: "Почему ты тут стоишь?"
+    source: { kind: translated, id: 6603061 }
+  - form: "stoisz"
+    pl: "Jak długo stoisz?"
+    ru: "Давно ты стоишь?"
+    source: { kind: translated, id: 600680 }
+  - form: "stoisz"
+    pl: "Stoisz mi na drodze."
+    ru: "Ты стоишь у меня на пути."
+    source: { kind: translated, id: 7859790 }
+  - form: "stoją"
+    pl: "Krzesła stoją pod drzewem."
+    ru: "Стулья стоят под деревом."
+    source: { kind: tatoeba, id: 9677487 }
+  - form: "stoją"
+    pl: "Wszyscy stoją."
+    ru: "Все стоят."
+    source: { kind: translated, id: 8486662 }
+  - form: "stoją"
+    pl: "Stoją wokół radiowozy."
+    ru: "Вокруг стоят полицейские машины."
+    source: { kind: translated, id: 12955926 }
+  - form: "stojąc"
+    pl: "Wypił kawę stojąc przed toaletą."
+    ru: "Он выпил кофе, стоя перед туалетом."
+    source: { kind: translated, id: 10202807 }
+  - form: "stojąc"
+    pl: "Jadł śniadanie stojąc."
+    ru: "Он завтракал стоя."
+    source: { kind: authored }
+  - form: "stojąc"
+    pl: "Stojąc w kolejce, czytał książkę."
+    ru: "Стоя в очереди, он читал книгу."
+    source: { kind: authored }
+  - form: "stojąca"
+    pl: "Kobieta stojąca przy oknie to moja siostra."
+    ru: "Женщина, стоящая у окна, — моя сестра."
+    source: { kind: authored }
+  - form: "stojąca"
+    pl: "To lampa stojąca."
+    ru: "Это торшер."
+    source: { kind: authored }
+  - form: "stojąca"
+    pl: "Woda stojąca szybko się psuje."
+    ru: "Стоячая вода быстро портится."
+    source: { kind: authored }
+  - form: "stojącą"
+    pl: "Znasz dziewczynę stojącą przy oknie?"
+    ru: "Ты знаешь девушку, стоящую у окна?"
+    source: { kind: translated, id: 2355783 }
+  - form: "stojącą"
+    pl: "Widzę dziewczynę stojącą pod tamtym drzewem."
+    ru: "Я вижу девушку, стоящую под тем деревом."
+    source: { kind: translated, id: 1591733 }
+  - form: "stojącą"
+    pl: "Kupiłem lampę stojącą."
+    ru: "Я купил торшер."
+    source: { kind: authored }
+  - form: "stojące"
+    pl: "Widać kwiaty stojące na stole."
+    ru: "Видны цветы, стоящие на столе."
+    source: { kind: translated, id: 532750 }
+  - form: "stojące"
+    pl: "Miejsca stojące są tańsze."
+    ru: "Стоячие места дешевле."
+    source: { kind: authored }
+  - form: "stojące"
+    pl: "Dzieci stojące w kolejce zmarzły."
+    ru: "Дети, стоявшие в очереди, замёрзли."
+    source: { kind: authored }
+  - form: "stojącego"
+    pl: "Kiedy wyjrzałem przez okno, zobaczyłem nieznajomego stojącego na schodach przed drzwiami."
+    ru: "Выглянув в окно, я увидел незнакомца, стоявшего на ступенях перед дверью."
+    source: { kind: translated, id: 2331166 }
+  - form: "stojącego"
+    pl: "Nie zauważyłem człowieka stojącego z boku."
+    ru: "Я не заметил человека, стоявшего сбоку."
+    source: { kind: authored }
+  - form: "stojącego"
+    pl: "Zapytaj chłopca stojącego przy bramie."
+    ru: "Спроси мальчика, стоящего у ворот."
+    source: { kind: authored }
+  - form: "stojącej"
+    pl: "Pomogłem kobiecie stojącej z walizką."
+    ru: "Я помог женщине, стоявшей с чемоданом."
+    source: { kind: authored }
+  - form: "stojącej"
+    pl: "Nie pij wody stojącej."
+    ru: "Не пей стоячую воду."
+    source: { kind: authored }
+  - form: "stojącej"
+    pl: "Dotyczy to osoby stojącej na czele."
+    ru: "Это касается человека, стоящего во главе."
+    source: { kind: authored }
+  - form: "stojącemu"
+    pl: "Ustąp miejsca stojącemu pasażerowi."
+    ru: "Уступи место стоящему пассажиру."
+    source: { kind: authored }
+  - form: "stojącemu"
+    pl: "Podaj parasol stojącemu obok."
+    ru: "Подай зонт стоящему рядом."
+    source: { kind: authored }
+  - form: "stojącemu"
+    pl: "Przyjrzyj się człowiekowi stojącemu przy drzwiach."
+    ru: "Присмотрись к человеку, стоящему у двери."
+    source: { kind: authored }
+  - form: "stojący"
+    pl: "Stojący wokół ludzie byli mi obcy."
+    ru: "Стоявшие вокруг люди были мне чужими."
+    source: { kind: translated, id: 842086 }
+  - form: "stojący"
+    pl: "Sięgnął po cukier stojący na stole."
+    ru: "Он потянулся за сахаром, стоявшим на столе."
+    source: { kind: translated, id: 711051 }
+  - form: "stojący"
+    pl: "Tom zastanawiał się, kim był człowiek stojący przy bramie."
+    ru: "Том задумался, кем был человек, стоявший у ворот."
+    source: { kind: translated, id: 3941185 }
+  - form: "stojących"
+    pl: "Widzę wielu ludzi stojących na peronie."
+    ru: "Я вижу много людей, стоящих на перроне."
+    source: { kind: authored }
+  - form: "stojących"
+    pl: "Szukam miejsc stojących."
+    ru: "Я ищу стоячие места."
+    source: { kind: authored }
+  - form: "stojących"
+    pl: "To dotyczy osób stojących w kolejce."
+    ru: "Это касается людей, стоящих в очереди."
+    source: { kind: authored }
+  - form: "stojącym"
+    pl: "Idź i powiedz coś tym poddenerwowanym mamom stojącym w rogu."
+    ru: "Иди и скажи что-нибудь этим взволнованным мамам, стоящим в углу."
+    source: { kind: translated, id: 6440989 }
+  - form: "stojącym"
+    pl: "Pomagamy pasażerom stojącym w korytarzu."
+    ru: "Мы помогаем пассажирам, стоящим в проходе."
+    source: { kind: authored }
+  - form: "stojącym"
+    pl: "Rozmawiałem z człowiekiem stojącym obok."
+    ru: "Я говорил с человеком, стоявшим рядом."
+    source: { kind: authored }
+  - form: "stojącymi"
+    pl: "Między stojącymi ludźmi był tłok."
+    ru: "Среди стоящих людей была давка."
+    source: { kind: authored }
+  - form: "stojącymi"
+    pl: "Zajmujemy się lampami stojącymi."
+    ru: "Мы занимаемся торшерами."
+    source: { kind: authored }
+  - form: "stojącymi"
+    pl: "Rozmawiał z osobami stojącymi w kolejce."
+    ru: "Он говорил с людьми, стоящими в очереди."
+    source: { kind: authored }
+  - form: "stoję"
+    pl: "Stoję w cieniu."
+    ru: "Я стою в тени."
+    source: { kind: tatoeba, id: 1190330 }
+  - form: "stoję"
+    pl: "Stoję."
+    ru: "Я стою."
+    source: { kind: translated, id: 8375014 }
+  - form: "stoję"
+    pl: "Stoję nad rzeką."
+    ru: "Я стою у реки."
+    source: { kind: translated, id: 11569936 }
+  - form: "stój"
+    pl: "Stój!"
+    ru: "Стой!"
+    source: { kind: tatoeba, id: 5190356 }
+  - form: "stój"
+    pl: "Stój, bo strzelam!"
+    ru: "Стой, или я буду стрелять!"
+    source: { kind: tatoeba, id: 6320399 }
+  - form: "stój"
+    pl: "Stój spokojnie!"
+    ru: "Стой спокойно!"
+    source: { kind: translated, id: 5652534 }
+  - form: "stójcie"
+    pl: "Stójcie tam!"
+    ru: "Стойте там!"
+    source: { kind: translated, id: 10704009 }
+  - form: "stójcie"
+    pl: "Stójcie prosto!"
+    ru: "Стойте прямо!"
+    source: { kind: translated, id: 11260261 }
+  - form: "stójcie"
+    pl: "Stójcie spokojnie."
+    ru: "Стойте спокойно."
+    source: { kind: authored }
+  - form: "stójmy"
+    pl: "Stójmy spokojnie."
+    ru: "Постоим спокойно."
+    source: { kind: authored }
+  - form: "stójmy"
+    pl: "Nie stójmy na wietrze."
+    ru: "Не будем стоять на ветру."
+    source: { kind: authored }
+  - form: "stójmy"
+    pl: "Stójmy tu chwilę."
+    ru: "Постоим тут минутку."
+    source: { kind: authored }

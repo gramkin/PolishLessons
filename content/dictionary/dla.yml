@@ -1,0 +1,52 @@
+# review
+id: dla
+format: 2
+lemma: "dla"
+rank: 45
+pos: prep
+pron: { cyr: "для" }
+senses:
+  - id: for
+    ru: "для (кого? чего?)"
+    examples:
+      - pl: "Tym lepiej dla mnie."
+        ru: "Тем лучше для меня."
+        source: { kind: tatoeba, id: 6207244 }
+      - pl: "Ona gotuje dla niego."
+        ru: "Она готовит ему."
+        source: { kind: tatoeba, id: 3034168 }
+      - pl: "Tom gotuje dla Marii."
+        ru: "Том готовит для Мэри."
+        source: { kind: tatoeba, id: 4491098 }
+      - pl: "Lwów dla lwów!"
+        ru: "Львов для львов!"
+        source: { kind: tatoeba, id: 8113263 }
+  - id: for-gift
+    ru: "для, предназначенный кому-л."
+    examples:
+      - pl: "To prezent dla ciebie."
+        ru: "Это подарок для тебя."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "dla требует родительного падежа, как русское «для»: dla mnie, dla ciebie, dla dzieci." }
+collocations:
+  - { pl: "dla mnie", ru: "для меня" }
+  - { pl: "dla przykładu", ru: "для примера" }
+etymology: "Старопольское dziela из праславянского *dьľa «возле, ради», от *dьľa «длина»; ср. русское «для» и «ради»."
+memory: "dla = «для» с родительным падежом. Но там, где по-русски «мне», поляк обходится дательным без предлога: Daj mi «Дай мне», а не dla mnie."
+idioms:
+  - { pl: "dla zasady", ru: "из принципа" }
+  - { pl: "dla świętego spokoju", ru: "ради спокойствия" }
+formExamples:
+  - form: "dla"
+    pl: "Tym lepiej dla mnie."
+    ru: "Тем лучше для меня."
+    source: { kind: tatoeba, id: 6207244 }
+  - form: "dla"
+    pl: "Ona gotuje dla niego."
+    ru: "Она готовит ему."
+    source: { kind: tatoeba, id: 3034168 }
+  - form: "dla"
+    pl: "Tom gotuje dla Marii."
+    ru: "Том готовит для Мэри."
+    source: { kind: tatoeba, id: 4491098 }

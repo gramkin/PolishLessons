@@ -1,0 +1,54 @@
+# review
+id: o
+format: 2
+lemma: "o"
+rank: 19
+pos: prep
+pron: { cyr: "о" }
+senses:
+  - id: about
+    ru: "о, об (о чём?) — с предложным падежом"
+    examples:
+      - pl: "O czym?"
+        ru: "О чём?"
+        source: { kind: tatoeba, id: 6160759 }
+      - pl: "Myślę o tobie."
+        ru: "Я думаю о тебе."
+        source: { kind: tatoeba, id: 355505 }
+      - pl: "O czym mówisz?"
+        ru: "О чём ты?"
+        source: { kind: tatoeba, id: 1599043 }
+  - id: request
+    ru: "о, за (с винительным: просить о чём-л.)"
+    examples:
+      - pl: "Proszę o uwagę."
+        ru: "Прошу внимания."
+        source: { kind: tatoeba, id: 908249 }
+      - pl: "Pytam o drogę."
+        ru: "Я спрашиваю дорогу."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Два падежа: o czym myślisz (предложный) «о чём думаешь», но prosić o pomoc (винительный) «просить о помощи»." }
+collocations:
+  - { pl: "chodzi o", ru: "речь идёт о" }
+  - { pl: "prosić o", ru: "просить о" }
+  - { pl: "o co chodzi?", ru: "в чём дело?" }
+etymology: "Праславянское *o(b) — то же, что русские «о» и «об»."
+memory: "Ловушка в падеже: думать о ком-то — myśleć o kimś (предложный), но просить о помощи — prosić o pomoc (винительный). Ещё o задаёт время: o piątej «в пять часов»."
+idioms:
+  - { pl: "o co chodzi?", ru: "в чём дело?" }
+  - { pl: "o mały włos", ru: "чуть было не" }
+  - { pl: "o wilku mowa", ru: "лёгок на помине" }
+formExamples:
+  - form: "o"
+    pl: "O czym?"
+    ru: "О чём?"
+    source: { kind: tatoeba, id: 6160759 }
+  - form: "o"
+    pl: "Myślę o tobie."
+    ru: "Я думаю о тебе."
+    source: { kind: tatoeba, id: 355505 }
+  - form: "o"
+    pl: "Proszę o uwagę."
+    ru: "Прошу внимания."
+    source: { kind: tatoeba, id: 908249 }

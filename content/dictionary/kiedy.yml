@@ -1,0 +1,52 @@
+# review
+id: kiedy
+format: 2
+lemma: "kiedy"
+rank: 68
+pos: conj
+pron: { cyr: "ке́ды" }
+senses:
+  - id: when-q
+    ru: "когда? (вопрос)"
+    examples:
+      - pl: "Kiedy on zaczyna?"
+        ru: "Когда он начинает?"
+        source: { kind: tatoeba, id: 4899804 }
+      - pl: "Kiedy jest jej ślub?"
+        ru: "Когда будет её бракосочетание?"
+        source: { kind: tatoeba, id: 904476 }
+      - pl: "Kiedy będziecie gotowi?"
+        ru: "Когда вы будете готовы?"
+        source: { kind: tatoeba, id: 11975131 }
+  - id: when-conj
+    ru: "когда (союз в придаточном)"
+    examples:
+      - pl: "Przyjdź kiedy zechcesz."
+        ru: "Приходи, когда захочешь."
+        source: { kind: tatoeba, id: 1182265 }
+      - pl: "Kiedy byłem mały, mieszkałem na wsi."
+        ru: "Когда я был маленьким, я жил в деревне."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "В вопросе всегда kiedy; в придаточном его часто заменяет более книжное gdy." }
+collocations:
+  - { pl: "kiedy indziej", ru: "в другой раз" }
+  - { pl: "od kiedy", ru: "с каких пор" }
+etymology: "Праславянское *kъdy — тот же корень, что в русском «когда» и в польском gdy."
+memory: "kiedy и gdy — почти синонимы, но вопрос задаётся только через kiedy: Kiedy wracasz? Придаточное можно начать любым из двух."
+idioms:
+  - { pl: "kiedy indziej", ru: "в другой раз" }
+  - { pl: "od kiedy to?", ru: "с каких это пор?" }
+formExamples:
+  - form: "kiedy"
+    pl: "Kiedy on zaczyna?"
+    ru: "Когда он начинает?"
+    source: { kind: tatoeba, id: 4899804 }
+  - form: "kiedy"
+    pl: "Kiedy jest jej ślub?"
+    ru: "Когда будет её бракосочетание?"
+    source: { kind: tatoeba, id: 904476 }
+  - form: "kiedy"
+    pl: "Przyjdź kiedy zechcesz."
+    ru: "Приходи, когда захочешь."
+    source: { kind: tatoeba, id: 1182265 }

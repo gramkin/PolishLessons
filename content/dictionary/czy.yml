@@ -1,0 +1,52 @@
+# review
+id: czy
+format: 2
+lemma: "czy"
+rank: 36
+pos: conj
+pron: { cyr: "чы" }
+senses:
+  - id: whether
+    ru: "ли (вводит общий вопрос или косвенный вопрос)"
+    examples:
+      - pl: "Czy jesteś zajęty?"
+        ru: "Ты занят?"
+        source: { kind: tatoeba, id: 531002 }
+      - pl: "Czy smakuje?"
+        ru: "Вкусно?"
+        source: { kind: tatoeba, id: 8511347 }
+      - pl: "Nie wiem, czy przyjdzie."
+        ru: "Я не знаю, придёт ли он."
+        source: { kind: authored }
+  - id: or
+    ru: "или (между двумя вариантами)"
+    examples:
+      - pl: "Herbata czy kawa?"
+        ru: "Чай или кофе?"
+        source: { kind: authored }
+      - pl: "Czy istniejemy?"
+        ru: "Мы существуем?"
+        source: { kind: tatoeba, id: 814171 }
+notes:
+  - { kind: usage, text: "czy стоит в начале вопроса, тогда как русское «ли» — после первого слова: Czy masz czas? = «Есть ли у тебя время?». В разговорной речи czy часто опускают." }
+collocations:
+  - { pl: "tak czy inaczej", ru: "так или иначе" }
+  - { pl: "czy nie", ru: "не так ли" }
+etymology: "Из праславянской вопросительной частицы *či; ср. украинское «чи» и диалектное русское «чи»."
+memory: "czy = «ли», но всегда в начале: Czy to prawda? «Правда ли это?». Между вариантами czy значит «или»: kawa czy herbata? Не путайте с co «что»."
+idioms:
+  - { pl: "tak czy siak", ru: "так или иначе" }
+  - { pl: "czy tego chcesz, czy nie", ru: "хочешь ты того или нет" }
+formExamples:
+  - form: "czy"
+    pl: "Czy jesteś zajęty?"
+    ru: "Ты занят?"
+    source: { kind: tatoeba, id: 531002 }
+  - form: "czy"
+    pl: "Czy smakuje?"
+    ru: "Вкусно?"
+    source: { kind: tatoeba, id: 8511347 }
+  - form: "czy"
+    pl: "Czy istniejemy?"
+    ru: "Мы существуем?"
+    source: { kind: tatoeba, id: 814171 }

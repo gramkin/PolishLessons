@@ -1,0 +1,53 @@
+# review
+id: i
+format: 2
+lemma: "i"
+rank: 12
+pos: conj
+pron: { cyr: "и" }
+senses:
+  - id: and
+    ru: "и (соединительный союз)"
+    examples:
+      - pl: "Mamy kota i psa."
+        ru: "У нас есть кошка и собака."
+        source: { kind: tatoeba, id: 525282 }
+      - pl: "Tu i teraz."
+        ru: "Здесь и сейчас."
+        source: { kind: tatoeba, id: 3016061 }
+      - pl: "Ja i ty."
+        ru: "Я и ты."
+        source: { kind: authored }
+  - id: emphatic
+    ru: "и (в начале реплики, усилительное)"
+    examples:
+      - pl: "I co?"
+        ru: "И что?"
+        source: { kind: tatoeba, id: 12569810 }
+      - pl: "I co dalej?"
+        ru: "И что дальше?"
+        source: { kind: tatoeba, id: 6320380 }
+notes:
+  - { kind: false-friend, text: "Три соседа легко перепутать: i «и», a «а», ale «но». Ja idę, a ty zostajesz — «Я иду, а ты остаёшься»." }
+collocations:
+  - { pl: "i tak", ru: "всё равно" }
+  - { pl: "i tak dalej", ru: "и так далее" }
+  - { pl: "i to", ru: "причём" }
+etymology: "Праславянское *i — то же слово, что русское «и»."
+memory: "i = «и», ровно как в русском. Но соседние союзы расходятся: русскому «а» отвечает польское a, а «но» — ale. Оборот i tak значит «всё равно»."
+idioms:
+  - { pl: "postawić kropkę nad i", ru: "поставить точку над i" }
+  - { pl: "i to by było na tyle", ru: "вот, собственно, и всё" }
+formExamples:
+  - form: "i"
+    pl: "I co?"
+    ru: "И что?"
+    source: { kind: tatoeba, id: 12569810 }
+  - form: "i"
+    pl: "I co dalej?"
+    ru: "И что дальше?"
+    source: { kind: tatoeba, id: 6320380 }
+  - form: "i"
+    pl: "Mamy kota i psa."
+    ru: "У нас есть кошка и собака."
+    source: { kind: tatoeba, id: 525282 }

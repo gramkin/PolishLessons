@@ -1,0 +1,53 @@
+# review
+id: ale
+format: 2
+lemma: "ale"
+rank: 24
+pos: conj
+pron: { cyr: "а́ле" }
+senses:
+  - id: but
+    ru: "но, однако"
+    examples:
+      - pl: "Koń stary, ale zdrowy."
+        ru: "Конь старый, но здоровый."
+        source: { kind: tatoeba, id: 5909117 }
+      - pl: "Chciałbym, ale nie mogę."
+        ru: "Я бы хотел, но не могу."
+        source: { kind: tatoeba, id: 10711243 }
+      - pl: "Ale po co to?"
+        ru: "Но зачем это?"
+        source: { kind: tatoeba, id: 3743418 }
+  - id: emphatic
+    ru: "в восклицании: какой!, ну и!"
+    examples:
+      - pl: "Ale wielka ciężarówka!"
+        ru: "Какой большой грузовик!"
+        source: { kind: tatoeba, id: 2972814 }
+      - pl: "Ale ładnie!"
+        ru: "Как красиво!"
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ale — это «но», а не «а». Русскому «а» соответствует польское a: Ja idę, a ty?" }
+collocations:
+  - { pl: "nie tylko... ale i", ru: "не только... но и" }
+  - { pl: "ale też", ru: "но также" }
+etymology: "Засвидетельствовано с XIV века, общеславянское (ср. диалектное русское «але», украинское «але»), из праславянской усилительной частицы *ale."
+memory: "Три похожих слова, которые легко перепутать: a «а», ale «но», albo «или». В начале восклицания ale значит «какой!»: Ale pięknie! «Как красиво!»."
+idioms:
+  - { pl: "mieć swoje ale", ru: "иметь свои «но»" }
+  - { pl: "ale, ale!", ru: "постой-ка!" }
+  - { pl: "bez ale", ru: "без возражений" }
+formExamples:
+  - form: "ale"
+    pl: "Koń stary, ale zdrowy."
+    ru: "Конь старый, но здоровый."
+    source: { kind: tatoeba, id: 5909117 }
+  - form: "ale"
+    pl: "Chciałbym, ale nie mogę."
+    ru: "Я бы хотел, но не могу."
+    source: { kind: tatoeba, id: 10711243 }
+  - form: "ale"
+    pl: "Ale wielka ciężarówka!"
+    ru: "Какой большой грузовик!"
+    source: { kind: tatoeba, id: 2972814 }

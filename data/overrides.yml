@@ -10,4 +10,12 @@ exclude:
   - mamić
   - taka
   - jaka
-pos: {}
+pos:
+  # Wiktionary lists these lemmas under a different part of speech than the one
+  # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
+  do: prep
+  no: part
+  i: conj
+  # "jak" is listed as the animal (yak); the frequent word is the conjunction
+  jak: conj
+  a: conj
