@@ -185,3 +185,35 @@ One list ordered by rank: rank, lemma, first sense, part of speech; filters: tex
 - **Wiktionary extract format changes** — the draft step validates the fields it reads and fails loudly.
 - **Review load** (~1200 examples per batch) — human Tatoeba translations are marked ✓ and need no review; only `translated`/`authored` examples and notes are queued.
 - **Build time** grows with 2000+ prerendered pages.
+
+---
+
+# Addendum (2026-09-21): per-form examples, saved sentences, memory aids
+
+Approved design for three additions requested after the pilot review.
+
+## A1. Per-form examples
+
+- Authored cards gain `formExamples`: one entry per **affirmative** form of the word — `{ form, pl, ru, source }` with the same source kinds and Tatoeba text protection as sense examples.
+- Negated forms (`nie` + affirmative, 28% of verb forms and all mechanical) are not separate entries: the card shows one rule line and a single example.
+- `dict:draft` collects candidates **per form** (exact whole-word match, translated first, shortest first, max 3) into `formCandidates`.
+- Validation: an entry for every affirmative form of the card's forms file; the sentence must contain that exact form; sources checked as elsewhere.
+- Measured coverage (Tatoeba): *zrobić* 53 affirmative forms — 40 with a real sentence (21 already translated). Across the 20 most frequent verbs, 46% of key forms have a sentence, 28% a translated one.
+
+## A2. Saved sentences and «Фразы» mode
+
+- Every sentence on a card (meanings, form examples, full list) carries ⊕ to save and ✓ to remove.
+- Progress format v2 adds `phrases: { [id]: { pl, ru, from, form, source, box, due } }`; ids are `t<tatoeba id>` or `a<8-char hash>`. v1 files import with an empty list.
+- `/flashcards` gains a mode switch Слова | Фразы; phrase cards use the existing Leitner schedule (boxes 0/1/3/7/14 days, 10 new per session), front Polish + 🔊, back Russian + link to the source card.
+- The setup screen lists saved phrases with ✕ to delete; the home summary shows their count; export/import carries them.
+
+## A3. Etymology, memory aids, idioms
+
+- New card fields: `etymology` (Wiktionary text in Russian; falls back to the aspect pair when the entry only says "perfective of X"), `memory` (authored hook for Russian speakers), `idioms` (≤5 from Wiktionary with translations), `synonyms`, `antonyms`.
+- Coverage in the top 2000: etymology 46%, idioms 54% (≥3: 32%), synonyms 72%, antonyms 32%.
+- Card sections become: Значения · Формы (+ примеры) · Происхождение и как запомнить · Сочетания и выражения · Родственные слова · Заметки · Источники.
+
+## A4. Rollout
+
+- *zrobić* is rebuilt in full as the showcase.
+- The rule for the remaining words (full per-form coverage vs key forms only) is decided after the owner reviews that page: full coverage for all 2000 words would need ~60 000 authored or translated sentences.
