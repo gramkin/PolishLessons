@@ -18,15 +18,29 @@ const lessonProgressSchema = z.object({
   at: z.string(),
 })
 
+const phraseSchema = z.object({
+  id: z.string().min(1),
+  pl: z.string().min(1),
+  ru: z.string().min(1),
+  from: z.string().min(1),
+  form: z.string().nullable(),
+  box: z.number().int().min(1).max(5),
+  due: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  added: z.string().min(1),
+})
+
 const cardProgressSchema = z.object({
   box: z.number().int().min(1).max(5),
   due: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 })
 
+export const PROGRESS_VERSION = 2
+
 export const progressSchema = z.object({
-  version: z.literal(1),
+  version: z.literal(PROGRESS_VERSION),
   lessons: z.record(z.string(), lessonProgressSchema).default({}),
   cards: z.record(z.string(), cardProgressSchema).default({}),
+  phrases: z.record(z.string(), phraseSchema).default({}),
   settings: settingsSchema.default({}),
 })
 
@@ -34,13 +48,22 @@ export type Settings = z.infer<typeof settingsSchema>
 export type Progress = z.infer<typeof progressSchema>
 export type LessonProgress = z.infer<typeof lessonProgressSchema>
 export type CardProgress = z.infer<typeof cardProgressSchema>
+export type StoredPhrase = z.infer<typeof phraseSchema>
 
 export function defaultProgress(): Progress {
-  return progressSchema.parse({ version: 1 })
+  return progressSchema.parse({ version: PROGRESS_VERSION })
+}
+
+// Version 1 files (no saved phrases) stay importable.
+function migrate(data: unknown): unknown {
+  if (data && typeof data === 'object' && (data as { version?: unknown }).version === 1) {
+    return { ...(data as object), version: PROGRESS_VERSION, phrases: {} }
+  }
+  return data
 }
 
 export function parseProgress(data: unknown): { progress: Progress; valid: boolean } {
-  const result = progressSchema.safeParse(data)
+  const result = progressSchema.safeParse(migrate(data))
   return result.success
     ? { progress: result.data, valid: true }
     : { progress: defaultProgress(), valid: false }

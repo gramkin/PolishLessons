@@ -15,10 +15,11 @@ const later = new Date('2026-09-15T10:00:00Z')
 describe('defaultProgress', () => {
   it('has version 1, empty records and default settings', () => {
     expect(defaultProgress()).toEqual({
-      version: 1,
+      version: 2,
       lessons: {},
       cards: {},
       settings: { showPron: 'auto', translationMode: 'tap', direction: 'pl-ru' },
+      phrases: {},
     })
   })
 })
@@ -41,7 +42,7 @@ describe('parseProgress', () => {
   })
 
   it('rejects other versions, bad boxes and garbage', () => {
-    expect(parseProgress({ version: 2 }).valid).toBe(false)
+    expect(parseProgress({ version: 3 }).valid).toBe(false)
     expect(parseProgress({ version: 1, cards: { x: { box: 9, due: '2026-09-15' } } }).valid).toBe(
       false,
     )
@@ -118,6 +119,20 @@ describe('export / import', () => {
   it('returns null for invalid files', () => {
     expect(importProgress('not json')).toBeNull()
     expect(importProgress(JSON.stringify({ version: 5 }))).toBeNull()
+  })
+
+  it('migrates version 1 files by adding an empty phrase list', () => {
+    const v1 = {
+      version: 1,
+      lessons: {},
+      cards: {},
+      settings: { showPron: 'auto', translationMode: 'tap', direction: 'pl-ru' },
+    }
+    const { progress, valid } = parseProgress(v1)
+    expect(valid).toBe(true)
+    expect(progress.version).toBe(2)
+    expect(progress.phrases).toEqual({})
+    expect(importProgress(JSON.stringify({ ...v1, theme: 'dark' }))?.theme).toBe('dark')
   })
 
   it('ignores unknown themes', () => {

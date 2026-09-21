@@ -3,6 +3,7 @@ import { mountSuspended } from '@nuxt/test-utils/runtime'
 import Header from '~/components/dictionary/Header.vue'
 import Senses from '~/components/dictionary/Senses.vue'
 import FormsTables from '~/components/dictionary/FormsTables.vue'
+import Origin from '~/components/dictionary/Origin.vue'
 import Notes from '~/components/dictionary/Notes.vue'
 import Related from '~/components/dictionary/Related.vue'
 import Sources from '~/components/dictionary/Sources.vue'
@@ -83,7 +84,7 @@ describe('dictionary card components', () => {
 
   it('renders senses with highlighted forms and source badges', async () => {
     const wrapper = await mountSuspended(Senses, {
-      props: { senses: card.senses, allForms: forms.allForms },
+      props: { senses: card.senses, allForms: forms.allForms, cardId: card.id },
     })
     const examples = wrapper.findAll('li.example')
     expect(examples[0]!.find('strong').text()).toBe('robisz')
@@ -95,8 +96,10 @@ describe('dictionary card components', () => {
   })
 
   it('puts extra tables into «Все формы»', async () => {
-    const wrapper = await mountSuspended(FormsTables, { props: { tables: forms.tables } })
-    expect(wrapper.find('section#formy > .table-wrap caption').text()).toBe('Настоящее время')
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables: forms.tables, formExamples: [], cardId: card.id, negatedForms: [] },
+    })
+    expect(wrapper.find('section#formy .table-wrap caption').text()).toBe('Настоящее время')
     expect(wrapper.find('details summary').text()).toBe('Все формы')
     expect(wrapper.find('details caption').text()).toBe('Безличная форма')
     expect(wrapper.find('tbody th[scope="row"]').text()).toBe('1-е лицо')
@@ -115,5 +118,37 @@ describe('dictionary card components', () => {
     expect(sources.text()).toContain('Derbeth')
     expect(sources.text()).toContain('CC BY 2.5')
     expect(sources.find('a[href="/sources"]').exists()).toBe(true)
+  })
+
+  it('shows an example when a form with one is clicked', async () => {
+    const formExamples = [
+      {
+        form: 'robię',
+        pl: 'Robię obiad.',
+        ru: 'Я готовлю обед.',
+        source: { kind: 'authored' as const },
+      },
+    ]
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables: forms.tables, formExamples, cardId: card.id, negatedForms: ['niedobry'] },
+    })
+    expect(wrapper.text()).toContain('Отрицание образуется приставкой')
+    expect(wrapper.find('.form-example-list summary').text()).toContain('Все примеры к формам (1)')
+    const button = wrapper.find('button.form-button')
+    expect(button.exists()).toBe(true)
+    expect(button.attributes('aria-expanded')).toBe('false')
+    await button.trigger('click')
+    expect(button.attributes('aria-expanded')).toBe('true')
+    expect(wrapper.find('.form-example').text()).toContain('Я готовлю обед.')
+  })
+
+  it('renders an origin section only when there is something to show', async () => {
+    const empty = await mountSuspended(Origin, { props: {} })
+    expect(empty.find('section').exists()).toBe(false)
+    const filled = await mountSuspended(Origin, {
+      props: { etymology: 'От праславянского.', memory: 'Приставка z- как русское с-.' },
+    })
+    expect(filled.text()).toContain('От праславянского.')
+    expect(filled.text()).toContain('Приставка z- как русское с-.')
   })
 })

@@ -7,7 +7,45 @@ import { listTopics } from '~/utils/vocabulary'
 useSeoMeta({ title: 'Карточки', description: 'Повторение слов по системе Лейтнера.' })
 
 const { words } = useWords()
-const { progress, loaded, isLessonCompleted, reviewCard, updateSettings } = useProgress()
+const {
+  progress,
+  loaded,
+  isLessonCompleted,
+  reviewCard,
+  reviewPhrase,
+  deletePhrase,
+  updateSettings,
+} = useProgress()
+const mode = ref<'words' | 'phrases'>('words')
+const phrases = computed(() =>
+  Object.values(progress.value.phrases).sort((a, b) => a.added.localeCompare(b.added)),
+)
+const phraseSession = ref<{ id: string; pl: string; ru: string; from: string }[] | null>(null)
+const phraseIds = computed(() =>
+  buildSession(
+    phrases.value.map((p) => p.id),
+    Object.fromEntries(phrases.value.map((p) => [p.id, { box: p.box, due: p.due }])),
+    new Date(),
+  ),
+)
+const phrasesDue = computed(() => {
+  const now = new Date()
+  return phrases.value.filter((p) => isDue({ box: p.box, due: p.due }, now)).length
+})
+
+function startPhrases() {
+  const byId = new Map(phrases.value.map((p) => [p.id, p]))
+  phraseSession.value = phraseIds.value
+    .map((id) => byId.get(id))
+    .filter((p): p is (typeof phrases.value)[number] => !!p)
+    .map((p) => ({ id: p.id, pl: p.pl, ru: p.ru, from: p.from }))
+  summary.value = null
+}
+
+function onPhrasesFinish(result: { remembered: number; forgotten: number }) {
+  summary.value = result
+  phraseSession.value = null
+}
 const { data: lessonWords } = await useLessonWords()
 const { data: chapters } = await useAsyncData('content:chapters', () =>
   queryCollection('chapters').first(),
@@ -76,6 +114,13 @@ function onFinish(result: { remembered: number; forgotten: number }) {
       <template #fallback><p>Загрузка…</p></template>
       <p v-if="!loaded">Загрузка…</p>
       <FlashcardSession
+        v-else-if="phraseSession"
+        :phrases="phraseSession"
+        :direction="direction"
+        @review="reviewPhrase"
+        @finish="onPhrasesFinish"
+      />
+      <FlashcardSession
         v-else-if="session"
         :words="session"
         :direction="direction"
@@ -83,53 +128,94 @@ function onFinish(result: { remembered: number; forgotten: number }) {
         @finish="onFinish"
       />
       <template v-else>
+        <div class="mode-switch" role="group" aria-label="Режим карточек">
+          <button type="button" :aria-pressed="mode === 'words'" @click="mode = 'words'">
+            Слова
+          </button>
+          <button type="button" :aria-pressed="mode === 'phrases'" @click="mode = 'phrases'">
+            Фразы
+          </button>
+        </div>
         <p v-if="summary" class="summary" role="status">
           Сессия завершена. Помню: {{ summary.remembered }} · Не помню: {{ summary.forgotten }}
         </p>
-        <form class="setup" @submit.prevent="start">
-          <fieldset>
-            <legend>Какие слова</legend>
-            <label><input v-model="kind" type="radio" value="learned" /> Изученные слова</label>
-            <label>
-              <input v-model="kind" type="radio" value="chapter" /> Глава
-              <select v-model="chapter" :disabled="kind !== 'chapter'" aria-label="Глава">
-                <option v-for="c in chapters?.chapters ?? []" :key="c.number" :value="c.number">
-                  {{ c.number }}. {{ c.title }}
-                </option>
-              </select>
-            </label>
-            <label>
-              <input v-model="kind" type="radio" value="topic" /> Тема
-              <select v-model="topic" :disabled="kind !== 'topic'" aria-label="Тема">
-                <option v-for="t in topics" :key="t" :value="t">{{ t }}</option>
-              </select>
-            </label>
-            <label>
-              <input v-model="kind" type="radio" value="false-friends" /> Только ложные друзья
-            </label>
-          </fieldset>
-          <fieldset>
-            <legend>Направление</legend>
-            <label
-              ><input v-model="direction" type="radio" value="pl-ru" /> Польский → русский</label
-            >
-            <label
-              ><input v-model="direction" type="radio" value="ru-pl" /> Русский → польский</label
-            >
-            <label><input v-model="direction" type="radio" value="mixed" /> Вперемешку</label>
-          </fieldset>
-          <p class="counts">К повторению: {{ dueCount }} · новых: {{ newCount }}</p>
-          <p v-if="kind === 'learned' && deck.length === 0" class="hint">
-            Пока нет изученных слов — пройдите урок или выберите главу.
+        <template v-if="mode === 'phrases'">
+          <p class="counts">
+            Фраз в списке: {{ phrases.length }} · к повторению сегодня: {{ phrasesDue }}
           </p>
-          <button type="submit" :disabled="sessionIds.length === 0">Начать</button>
-        </form>
+          <p v-if="phrases.length === 0" class="hint">
+            Сохраняйте предложения кнопкой ⊕ в карточках слов — они появятся здесь.
+          </p>
+          <PhraseList :phrases="phrases" @remove="deletePhrase" />
+          <button type="button" :disabled="phraseIds.length === 0" @click="startPhrases">
+            Начать
+          </button>
+        </template>
+        <template v-else>
+          <form class="setup" @submit.prevent="start">
+            <fieldset>
+              <legend>Какие слова</legend>
+              <label><input v-model="kind" type="radio" value="learned" /> Изученные слова</label>
+              <label>
+                <input v-model="kind" type="radio" value="chapter" /> Глава
+                <select v-model="chapter" :disabled="kind !== 'chapter'" aria-label="Глава">
+                  <option v-for="c in chapters?.chapters ?? []" :key="c.number" :value="c.number">
+                    {{ c.number }}. {{ c.title }}
+                  </option>
+                </select>
+              </label>
+              <label>
+                <input v-model="kind" type="radio" value="topic" /> Тема
+                <select v-model="topic" :disabled="kind !== 'topic'" aria-label="Тема">
+                  <option v-for="t in topics" :key="t" :value="t">{{ t }}</option>
+                </select>
+              </label>
+              <label>
+                <input v-model="kind" type="radio" value="false-friends" /> Только ложные друзья
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Направление</legend>
+              <label
+                ><input v-model="direction" type="radio" value="pl-ru" /> Польский → русский</label
+              >
+              <label
+                ><input v-model="direction" type="radio" value="ru-pl" /> Русский → польский</label
+              >
+              <label><input v-model="direction" type="radio" value="mixed" /> Вперемешку</label>
+            </fieldset>
+            <p class="counts">К повторению: {{ dueCount }} · новых: {{ newCount }}</p>
+            <p v-if="kind === 'learned' && deck.length === 0" class="hint">
+              Пока нет изученных слов — пройдите урок или выберите главу.
+            </p>
+            <button type="submit" :disabled="sessionIds.length === 0">Начать</button>
+          </form>
+        </template>
       </template>
     </ClientOnly>
   </article>
 </template>
 
 <style scoped>
+.mode-switch {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.mode-switch button {
+  font: inherit;
+  padding: 0.25rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: none;
+  color: var(--fg);
+  cursor: pointer;
+}
+.mode-switch button[aria-pressed='true'] {
+  background: var(--callout-bg);
+  border-color: var(--accent-pl);
+  font-weight: 600;
+}
 fieldset {
   border: 1px solid var(--border);
   border-radius: 6px;

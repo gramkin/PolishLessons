@@ -34,7 +34,7 @@ describe('index page', () => {
 
     const wrapper = await mountSuspended(IndexPage)
     expect(wrapper.find('.progress-summary').text().replace(/\s+/g, ' ')).toBe(
-      'Изучено слов: 2 · к повторению сегодня: 1',
+      'Изучено слов: 2 · фраз: 0 · к повторению сегодня: 1',
     )
   })
 })

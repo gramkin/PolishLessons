@@ -11,6 +11,11 @@ if (!data.value) {
 
 const { entries, byId, ready } = useDictionaryIndex()
 await ready
+const negatedForms = computed(() => {
+  const forms = data.value?.forms.allForms ?? []
+  const set = new Set(forms.map((f) => f.toLowerCase()))
+  return forms.filter((f) => f.toLowerCase().startsWith('nie') && set.has(f.toLowerCase().slice(3)))
+})
 const neighbours = computed(() =>
   data.value ? rankNeighbours(entries.value, data.value.card.rank) : { prev: null, next: null },
 )
@@ -28,8 +33,18 @@ useSeoMeta({
 <template>
   <article v-if="data" class="content word-card">
     <DictionaryHeader :card="data.card" :forms="data.forms" />
-    <DictionarySenses :senses="data.card.senses" :all-forms="data.forms.allForms" />
-    <DictionaryFormsTables :tables="data.forms.tables" />
+    <DictionarySenses
+      :senses="data.card.senses"
+      :all-forms="data.forms.allForms"
+      :card-id="data.card.id"
+    />
+    <DictionaryFormsTables
+      :tables="data.forms.tables"
+      :form-examples="data.card.formExamples"
+      :card-id="data.card.id"
+      :negated-forms="negatedForms"
+    />
+    <DictionaryOrigin :etymology="data.card.etymology" :memory="data.card.memory" />
     <DictionaryNotes :notes="data.card.notes" />
     <DictionaryRelated :card="data.card" :index="byId" />
     <DictionarySources :card="data.card" :forms="data.forms" />

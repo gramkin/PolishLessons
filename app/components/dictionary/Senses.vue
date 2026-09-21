@@ -2,7 +2,7 @@
 import type { Sense } from '#shared/dictionary'
 import { highlightForms, tatoebaUrl } from '~/utils/dictionary'
 
-defineProps<{ senses: Sense[]; allForms: string[] }>()
+defineProps<{ senses: Sense[]; allForms: string[]; cardId: string }>()
 </script>
 
 <template>
@@ -31,6 +31,13 @@ defineProps<{ senses: Sense[]; allForms: string[] }>()
               >✓ Tatoeba</a
             >
             <span v-else class="badge is-pending">на проверке</span>
+            <DictionarySaveSentence
+              :pl="example.pl"
+              :ru="example.ru"
+              :source="example.source"
+              :from="cardId"
+              :form="null"
+            />
           </li>
         </ul>
       </li>

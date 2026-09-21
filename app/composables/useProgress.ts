@@ -6,6 +6,7 @@ import {
   type Settings,
 } from '~/utils/progress'
 import { review } from '~/utils/leitner'
+import type { Phrase } from '~/utils/phrases'
 
 export function useProgress() {
   const progress = useState<Progress>('progress', defaultProgress)
@@ -37,6 +38,36 @@ export function useProgress() {
     }
   }
 
+  function savePhrase(phrase: Phrase) {
+    progress.value = {
+      ...progress.value,
+      phrases: { ...progress.value.phrases, [phrase.id]: phrase },
+    }
+  }
+
+  function deletePhrase(id: string) {
+    progress.value = {
+      ...progress.value,
+      phrases: Object.fromEntries(
+        Object.entries(progress.value.phrases).filter(([key]) => key !== id),
+      ),
+    }
+  }
+
+  function hasPhrase(id: string): boolean {
+    return loaded.value && id in progress.value.phrases
+  }
+
+  function reviewPhrase(id: string, remembered: boolean) {
+    const phrase = progress.value.phrases[id]
+    if (!phrase) return
+    const next = review({ box: phrase.box, due: phrase.due }, remembered, new Date())
+    progress.value = {
+      ...progress.value,
+      phrases: { ...progress.value.phrases, [id]: { ...phrase, box: next.box, due: next.due } },
+    }
+  }
+
   function replace(next: Progress) {
     progress.value = next
   }
@@ -48,6 +79,10 @@ export function useProgress() {
     recordQuiz,
     markRead,
     reviewCard,
+    savePhrase,
+    deletePhrase,
+    hasPhrase,
+    reviewPhrase,
     updateSettings,
     replace,
   }

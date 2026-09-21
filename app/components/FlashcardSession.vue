@@ -2,7 +2,11 @@
 import type { Word } from '#shared/schemas'
 import { resolveDirection } from '~/utils/deck'
 
-const props = defineProps<{ words: Word[]; direction: 'pl-ru' | 'ru-pl' | 'mixed' }>()
+const props = defineProps<{
+  words?: Word[]
+  phrases?: { id: string; pl: string; ru: string; from: string }[]
+  direction: 'pl-ru' | 'ru-pl' | 'mixed'
+}>()
 const emit = defineEmits<{
   review: [wordId: string, remembered: boolean]
   finish: [summary: { remembered: number; forgotten: number }]
@@ -11,14 +15,20 @@ const emit = defineEmits<{
 const { byId: patternsById } = usePatterns()
 
 // Directions are fixed per session so a card does not change sides on re-render.
-const sides = props.words.map(() => resolveDirection(props.direction))
+const items = computed(() =>
+  props.phrases
+    ? props.phrases.map((p) => ({ id: p.id, front: p.pl, back: p.ru, from: p.from, word: null }))
+    : (props.words ?? []).map((w) => ({ id: w.id, front: w.pl, back: w.ru, from: null, word: w })),
+)
+const sides = (props.words ?? []).map(() => resolveDirection(props.direction))
 
 const index = ref(0)
 const flipped = ref(false)
 const remembered = ref(0)
 const forgotten = ref(0)
 
-const word = computed(() => props.words[index.value] ?? null)
+const item = computed(() => items.value[index.value] ?? null)
+const word = computed(() => item.value?.word ?? null)
 const side = computed(() => sides[index.value] ?? 'pl-ru')
 const pattern = computed(() =>
   word.value?.pattern ? (patternsById.value.get(word.value.pattern) ?? null) : null,
@@ -29,13 +39,13 @@ function flip() {
 }
 
 function answer(ok: boolean) {
-  if (!word.value || !flipped.value) return
-  emit('review', word.value.id, ok)
+  if (!item.value || !flipped.value) return
+  emit('review', item.value.id, ok)
   if (ok) remembered.value++
   else forgotten.value++
   flipped.value = false
   index.value++
-  if (index.value >= props.words.length) {
+  if (index.value >= items.value.length) {
     emit('finish', { remembered: remembered.value, forgotten: forgotten.value })
   }
 }
@@ -59,17 +69,21 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 </script>
 
 <template>
-  <div v-if="word" class="flashcard-session">
-    <p class="counter">{{ index + 1 }} / {{ words.length }}</p>
+  <div v-if="item" class="flashcard-session">
+    <p class="counter">{{ index + 1 }} / {{ items.length }}</p>
     <div class="card">
-      <div class="card-front">
+      <div v-if="word" class="card-front">
         <template v-if="side === 'pl-ru'">
           <span lang="pl" class="card-word">{{ word.pl }}</span>
           <SpeakButton :text="word.pl" />
         </template>
         <span v-else class="card-word">{{ word.ru }}</span>
       </div>
-      <div v-if="flipped" class="card-back">
+      <div v-else class="card-front">
+        <span lang="pl" class="card-phrase">{{ item.front }}</span>
+        <SpeakButton :text="item.front" />
+      </div>
+      <div v-if="flipped && word" class="card-back">
         <span v-if="side === 'pl-ru'" class="card-answer">{{ word.ru }}</span>
         <span v-else class="card-answer">
           <span lang="pl">{{ word.pl }}</span>
@@ -82,6 +96,10 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         <span v-if="word.falseFriend" class="card-ff">
           ⚠ Ложный друг: не «{{ word.falseFriend.ru }}»
         </span>
+      </div>
+      <div v-else-if="flipped" class="card-back">
+        <span class="card-answer">{{ item.back }}</span>
+        <NuxtLink :to="`/slovo/${item.from}`" class="card-origin">карточка слова</NuxtLink>
       </div>
     </div>
     <div class="actions">
@@ -97,6 +115,13 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 </template>
 
 <style scoped>
+.card-phrase {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-origin {
+  font-size: 0.8em;
+}
 .counter {
   color: var(--muted);
   text-align: center;

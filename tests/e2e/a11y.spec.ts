@@ -12,6 +12,7 @@ const PAGES = [
   '/cheatsheet',
   '/slovo/dom',
   '/slovo/miec',
+  '/slovo/zrobic',
   '/sources',
 ]
 const THEMES = ['light', 'sepia', 'dark'] as const

@@ -19,8 +19,17 @@ const sections = computed(() =>
   [
     { id: 'znacheniya', label: 'Значения', show: true },
     { id: 'formy', label: 'Формы', show: props.forms.tables.length > 0 },
+    {
+      id: 'proishozhdenie',
+      label: 'Происхождение',
+      show: Boolean(props.card.etymology || props.card.memory),
+    },
     { id: 'zametki', label: 'Заметки', show: props.card.notes.length > 0 },
-    { id: 'sochetaniya', label: 'Сочетания', show: props.card.collocations.length > 0 },
+    {
+      id: 'sochetaniya',
+      label: 'Сочетания',
+      show: props.card.collocations.length > 0 || props.card.idioms.length > 0,
+    },
     {
       id: 'rodstvennye',
       label: 'Родственные',

@@ -14,10 +14,17 @@ const RELATION_NAMES = {
 </script>
 
 <template>
-  <section v-if="card.collocations.length > 0" id="sochetaniya" aria-labelledby="sochetaniya-title">
-    <h2 id="sochetaniya-title">Сочетания</h2>
+  <section
+    v-if="card.collocations.length > 0 || card.idioms.length > 0"
+    id="sochetaniya"
+    aria-labelledby="sochetaniya-title"
+  >
+    <h2 id="sochetaniya-title">Сочетания и выражения</h2>
     <ul>
       <li v-for="item in card.collocations" :key="item.pl">
+        <span lang="pl">{{ item.pl }}</span> — {{ item.ru }}
+      </li>
+      <li v-for="item in card.idioms" :key="item.pl" class="idiom">
         <span lang="pl">{{ item.pl }}</span> — {{ item.ru }}
       </li>
     </ul>
@@ -41,10 +48,22 @@ const RELATION_NAMES = {
         — {{ member.ru }} <span class="relation">({{ RELATION_NAMES[member.relation] }})</span>
       </li>
     </ul>
+    <p v-if="card.synonyms.length > 0" class="lexicon">
+      <strong>Синонимы:</strong> <span lang="pl">{{ card.synonyms.join(', ') }}</span>
+    </p>
+    <p v-if="card.antonyms.length > 0" class="lexicon">
+      <strong>Антонимы:</strong> <span lang="pl">{{ card.antonyms.join(', ') }}</span>
+    </p>
   </section>
 </template>
 
 <style scoped>
+.idiom span[lang='pl'] {
+  font-style: italic;
+}
+.lexicon {
+  margin: 0.25rem 0;
+}
 [lang='pl'] {
   color: var(--accent-pl);
 }

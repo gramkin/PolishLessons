@@ -55,3 +55,43 @@ test('card pages are prerendered and listed in the sitemap', async ({ request })
   const sitemap = await (await request.get('/sitemap.xml')).text()
   expect(sitemap).toContain('/slovo/dom')
 })
+
+test('a form button reveals its example and the sentence can be saved for study', async ({
+  page,
+}) => {
+  await gotoHydrated(page, '/slovo/zrobic')
+  const button = page.locator('button.form-button', { hasText: /^zrobię$/ }).first()
+  const block = page.locator('.forms-block', { has: button })
+  await expect(block.locator('.form-example .hint')).toBeVisible()
+  await button.click()
+  await expect(button).toHaveAttribute('aria-expanded', 'true')
+  const panel = block.locator('.form-example')
+  await expect(panel).toContainText('Zrobię to.')
+  await expect(panel).toContainText('Я сделаю это.')
+
+  const save = panel.locator('button.save-sentence')
+  await expect(save).toHaveAttribute('aria-pressed', 'false')
+  await save.click()
+  await expect(save).toHaveAttribute('aria-pressed', 'true')
+
+  await gotoHydrated(page, '/flashcards')
+  await page.getByRole('button', { name: 'Фразы' }).click()
+  await expect(page.locator('.counts')).toContainText('Фраз в списке: 1')
+  await page.locator('details.phrase-list summary').click()
+  await expect(page.locator('.phrase-list')).toContainText('Zrobię to.')
+  await page.getByRole('button', { name: 'Начать' }).click()
+  await expect(page.locator('.flashcard-session')).toContainText('Zrobię to.')
+  await page.locator('button.flip').click()
+  await expect(page.locator('.card-back')).toContainText('Я сделаю это.')
+  await page.locator('button.remember').click()
+  await expect(page.locator('.summary')).toBeVisible()
+})
+
+test('the card page shows etymology, a memory hook and idioms', async ({ page }) => {
+  await gotoHydrated(page, '/slovo/zrobic')
+  await expect(page.locator('#proishozhdenie .etymology')).toContainText('праславянскому')
+  await expect(page.locator('#proishozhdenie .memory')).toContainText('Как запомнить')
+  await expect(page.locator('#sochetaniya')).toContainText('zrobić wielkie oczy')
+  await page.locator('details.form-example-list summary').click()
+  await expect(page.locator('details.form-example-list li')).toHaveCount(53)
+})
