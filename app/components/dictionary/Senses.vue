@@ -20,6 +20,7 @@ defineProps<{ senses: Sense[]; allForms: string[]; cardId: string }>()
                 <template v-else>{{ segment.text }}</template>
               </template>
             </span>
+            <SpeakButton :text="example.pl" />
             <span class="example-ru"> — {{ example.ru }}</span>
             <a
               v-if="example.source.kind === 'tatoeba'"

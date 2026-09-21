@@ -52,6 +52,7 @@ const groups = computed(() => Object.entries(byForm.value))
         <ul>
           <li v-for="example in examples" :key="example.pl">
             <span lang="pl">{{ example.pl }}</span>
+            <SpeakButton :text="example.pl" />
             <span class="translation"> — {{ example.ru }}</span>
             <DictionarySaveSentence
               :pl="example.pl"

@@ -90,6 +90,9 @@ test('a form button reveals its example and the sentence can be saved for study'
 
 test('the card page shows etymology, a memory hook and idioms', async ({ page }) => {
   await gotoHydrated(page, '/slovo/zrobic')
+  const firstExample = page.locator('#znacheniya .example').first()
+  await expect(firstExample.locator('button:not(.save-sentence)')).toBeVisible()
+  await expect(firstExample.locator('button.save-sentence')).toBeVisible()
   await expect(page.locator('#proishozhdenie .etymology')).toContainText('праславянскому')
   await expect(page.locator('#proishozhdenie .memory')).toContainText('Как запомнить')
   await expect(page.locator('#sochetaniya')).toContainText('zrobić wielkie oczy')
