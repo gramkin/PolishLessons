@@ -1,5 +1,5 @@
 import { parse as parseYaml } from 'yaml'
-import { AGLT_SUFFIXES, type CardPos } from '../../../shared/dictionary'
+import { type CardDepth, AGLT_SUFFIXES, type CardPos } from '../../../shared/dictionary'
 import { assignId } from './ids'
 import { tagHead, type MorphRow } from './polimorf'
 import { posForHeads } from './pos'
@@ -26,6 +26,8 @@ export interface Overrides {
 export interface RankedLemma {
   /** Format of the card for this lemma; null when no card exists yet. */
   format?: number | null
+  /** Depth of the card for this lemma; null when no card exists yet. */
+  depth?: CardDepth | null
   rank: number
   id: string
   lemma: string

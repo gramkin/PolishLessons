@@ -377,3 +377,41 @@ describe('formExamplesSkip', () => {
     )
   })
 })
+
+describe('deep cards', () => {
+  function deepBundle(overrides: Record<string, unknown>) {
+    const b = bundle()
+    Object.assign(b.cards[0]!.data as object, { depth: 'deep', ...overrides })
+    return b
+  }
+
+  it('says nothing about depth for a standard card', () => {
+    const { warnings } = validateDictionary(bundle(), { requireLessonCards: true })
+    expect(warnings.some((w) => w.includes('depth bar'))).toBe(false)
+  })
+
+  it('warns, without failing, when a deep card is below the bar', () => {
+    const { errors, warnings } = validateDictionary(deepBundle({}), { requireLessonCards: true })
+    expect(errors).toEqual([])
+    const warning = warnings.find((w) => w.includes('depth bar'))
+    expect(warning).toContain('1 senses (need 3)')
+    expect(warning).toContain('0 notes (need 4)')
+    expect(warning).toContain('5 example sentences (need 12)')
+    expect(warning).toContain('0 idioms (need 3)')
+  })
+
+  it('accepts a deep card that clears the bar', () => {
+    const b = deepBundle({
+      senses: [
+        { id: 'house', ru: 'дом', examples: examples(4) },
+        { id: 'home', ru: 'родной дом', examples: examples(4) },
+        { id: 'building', ru: 'здание', examples: examples(4) },
+      ],
+      notes: Array.from({ length: 4 }, (_, i) => ({ kind: 'usage', text: `Заметка ${i}.` })),
+      idioms: Array.from({ length: 3 }, (_, i) => ({ pl: `dom ${i}`, ru: `дом ${i}` })),
+    })
+    const { errors, warnings } = validateDictionary(b, { requireLessonCards: true })
+    expect(errors).toEqual([])
+    expect(warnings.some((w) => w.includes('depth bar'))).toBe(false)
+  })
+})

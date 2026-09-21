@@ -1,52 +1,72 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { parse as parseYaml } from 'yaml'
-import { CARD_FORMAT } from '../../../shared/dictionary'
+import { CARD_FORMAT, type CardDepth } from '../../../shared/dictionary'
 import type { RankedLemma } from './rank'
 
-/** Card format per word id, read straight from the authored cards. */
-export function cardFormats(dir: string): Map<string, number> {
-  const formats = new Map<string, number>()
-  if (!existsSync(dir)) return formats
+export interface CardStatus {
+  format: number
+  depth: CardDepth
+}
+
+/** Card format and depth per word id, read straight from the authored cards. */
+export function cardStatuses(dir: string): Map<string, CardStatus> {
+  const statuses = new Map<string, CardStatus>()
+  if (!existsSync(dir)) return statuses
   for (const file of readdirSync(dir)
     .filter((f) => f.endsWith('.yml'))
     .sort()) {
-    const data = parseYaml(readFileSync(join(dir, file), 'utf8')) as { id: string; format: number }
-    formats.set(data.id, data.format)
+    const data = parseYaml(readFileSync(join(dir, file), 'utf8')) as {
+      id: string
+      format: number
+      depth?: CardDepth
+    }
+    statuses.set(data.id, { format: data.format, depth: data.depth ?? 'standard' })
   }
-  return formats
+  return statuses
 }
 
-/** Stamps every ranked lemma with the format of its card, or null when there is none. */
-export function applyFormats(ranked: RankedLemma[], formats: Map<string, number>): RankedLemma[] {
-  return ranked.map((entry) => ({ ...entry, format: formats.get(entry.id) ?? null }))
+/** Stamps every ranked lemma with the format and depth of its card, or null when there is none. */
+export function applyStatuses(
+  ranked: RankedLemma[],
+  statuses: Map<string, CardStatus>,
+): RankedLemma[] {
+  return ranked.map((entry) => {
+    const status = statuses.get(entry.id)
+    return { ...entry, format: status?.format ?? null, depth: status?.depth ?? null }
+  })
 }
 
 export interface StatusSummary {
   total: number
   withCards: number
   current: number
+  deep: string[]
   stale: { id: string; format: number }[]
   missing: string[]
   orphans: string[]
 }
 
-export function summarize(ranked: RankedLemma[], formats: Map<string, number>): StatusSummary {
+export function summarize(ranked: RankedLemma[], statuses: Map<string, CardStatus>): StatusSummary {
   const stale: { id: string; format: number }[] = []
   const missing: string[] = []
   let withCards = 0
   let current = 0
   for (const entry of ranked) {
-    const format = formats.get(entry.id)
-    if (format === undefined) {
+    const status = statuses.get(entry.id)
+    if (status === undefined) {
       missing.push(entry.id)
       continue
     }
     withCards += 1
-    if (format === CARD_FORMAT) current += 1
-    else stale.push({ id: entry.id, format })
+    if (status.format === CARD_FORMAT) current += 1
+    else stale.push({ id: entry.id, format: status.format })
   }
   const ranks = new Set(ranked.map((e) => e.id))
-  const orphans = [...formats.keys()].filter((id) => !ranks.has(id)).sort()
-  return { total: ranked.length, withCards, current, stale, missing, orphans }
+  const orphans = [...statuses.keys()].filter((id) => !ranks.has(id)).sort()
+  const deep = [...statuses]
+    .filter(([, s]) => s.depth === 'deep')
+    .map(([id]) => id)
+    .sort()
+  return { total: ranked.length, withCards, current, deep, stale, missing, orphans }
 }

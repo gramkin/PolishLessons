@@ -23,11 +23,13 @@ export const NOTE_KINDS = [
   'usage',
 ] as const
 export const FAMILY_RELATIONS = ['derived', 'aspect', 'root', 'antonym'] as const
+export const CARD_DEPTHS = ['standard', 'deep'] as const
 
 export type CardPos = (typeof CARD_POS)[number]
 export type Aspect = (typeof ASPECTS)[number]
 export type SourceKind = (typeof SOURCE_KINDS)[number]
 export type NoteKind = (typeof NOTE_KINDS)[number]
+export type CardDepth = (typeof CARD_DEPTHS)[number]
 
 const text = z.string().min(1)
 const cardId = z.string().regex(/^[a-z0-9-]+$/)
@@ -70,6 +72,12 @@ export const CARD_FORMAT = 2
 export const cardSchema = z.object({
   id: cardId,
   format: positiveInt,
+  /**
+   * How much explanation the word owes. Difficulty here is semantic, not
+   * structural: a big paradigm (ten) can be easy, a single form (się) hard.
+   * See the depth test in CLAUDE.md.
+   */
+  depth: z.enum(CARD_DEPTHS).default('standard'),
   lemma: text,
   rank: positiveInt,
   pos: z.enum(CARD_POS),

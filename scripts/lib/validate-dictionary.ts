@@ -30,6 +30,12 @@ export function exampleHasForm(text: string, forms: Set<string>): boolean {
 
 const MIN_FORM_EXAMPLES = 3
 const MAX_SENSE_EXAMPLES = 6
+// A deep card earns its keep through explanation, not through sense count:
+// words like on or czas need more notes, not more invented meanings.
+const DEEP_MIN_SENSES = 3
+const DEEP_MIN_NOTES = 4
+const DEEP_MIN_SENTENCES = 12
+const DEEP_MIN_IDIOMS = 3
 
 export function validateDictionary(
   bundle: DictionaryBundle,
@@ -130,6 +136,20 @@ export function validateDictionary(
       warnings.push(
         `${path}: card format ${card.format}, current is ${CARD_FORMAT} — needs an upgrade`,
       )
+    }
+
+    if (card.depth === 'deep') {
+      const short: string[] = []
+      if (card.senses.length < DEEP_MIN_SENSES)
+        short.push(`${card.senses.length} senses (need ${DEEP_MIN_SENSES})`)
+      if (card.notes.length < DEEP_MIN_NOTES)
+        short.push(`${card.notes.length} notes (need ${DEEP_MIN_NOTES})`)
+      if (all.length < DEEP_MIN_SENTENCES)
+        short.push(`${all.length} example sentences (need ${DEEP_MIN_SENTENCES})`)
+      if (card.idioms.length < DEEP_MIN_IDIOMS)
+        short.push(`${card.idioms.length} idioms (need ${DEEP_MIN_IDIOMS})`)
+      if (short.length > 0)
+        warnings.push(`${path}: deep card is below the depth bar — ${short.join(', ')}`)
     }
 
     if (formsFile && card.formExamples.length > 0) {
