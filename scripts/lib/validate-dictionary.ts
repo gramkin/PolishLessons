@@ -29,6 +29,7 @@ export function exampleHasForm(text: string, forms: Set<string>): boolean {
 }
 
 const MIN_FORM_EXAMPLES = 3
+const MAX_SENSE_EXAMPLES = 6
 
 export function validateDictionary(
   bundle: DictionaryBundle,
@@ -73,9 +74,17 @@ export function validateDictionary(
 
   for (const { path, card } of cards.values()) {
     const senseExamples = card.senses.flatMap((s) => s.examples)
-    // Only sense examples are capped; per-form examples cover the whole paradigm.
-    if (senseExamples.length < 5 || senseExamples.length > 8)
-      errors.push(`${path}: ${senseExamples.length} examples (expected 5–8)`)
+    // At least five sense examples per card, at most four per sense: the cap
+    // keeps one meaning from swallowing the card, while a word with many
+    // distinct uses (się, za) may carry a sense for each of them.
+    if (senseExamples.length < 5)
+      errors.push(`${path}: ${senseExamples.length} sense examples (need at least 5)`)
+    for (const sense of card.senses) {
+      if (sense.examples.length > MAX_SENSE_EXAMPLES)
+        errors.push(
+          `${path}: sense "${sense.id}" has ${sense.examples.length} examples (max ${MAX_SENSE_EXAMPLES})`,
+        )
+    }
     const all = [...senseExamples, ...card.formExamples]
 
     const formsFile = forms.get(card.id)

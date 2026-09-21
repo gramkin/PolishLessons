@@ -81,7 +81,7 @@ describe('validateDictionary', () => {
     card(b).senses[0]!.examples = examples(4)
     card(b).senses[0]!.examples[1]!.pl = 'Zupełnie inne zdanie.'
     const { errors } = validateDictionary(b, { requireLessonCards: false })
-    expect(errors).toContain('dictionary/dom.yml: 4 examples (expected 5–8)')
+    expect(errors).toContain('dictionary/dom.yml: 4 sense examples (need at least 5)')
     expect(errors).toContain(
       'dictionary/dom.yml: example "Zupełnie inne zdanie." contains no form of "dom"',
     )
@@ -128,6 +128,44 @@ describe('validateDictionary', () => {
     )
     expect(validateDictionary(b, { requireLessonCards: true }).errors).toContain(
       'words: lesson word "mama" has no dictionary card',
+    )
+  })
+})
+
+describe('sense examples', () => {
+  const ex = (pl: string) => ({ pl, ru: 'перевод', source: { kind: 'authored' } })
+
+  it('allows a card to carry many senses', () => {
+    const b = bundle()
+    const card = b.cards[0]!.data as { senses: unknown[] }
+    card.senses = ['a', 'b', 'c', 'd'].map((id) => ({
+      id,
+      ru: 'значение',
+      examples: [ex('To jest dom.'), ex('Mój dom jest duży.'), ex('Tam stoi dom.')],
+    }))
+    expect(validateDictionary(b, { requireLessonCards: false }).errors).toEqual([])
+  })
+
+  it('caps one sense at six examples', () => {
+    const b = bundle()
+    const card = b.cards[0]!.data as { senses: unknown[] }
+    card.senses = [
+      {
+        id: 'house',
+        ru: 'дом',
+        examples: [
+          ex('To jest dom.'),
+          ex('Mój dom jest duży.'),
+          ex('Tam stoi dom.'),
+          ex('Widzę dom.'),
+          ex('Kupili dom.'),
+          ex('Sprzedali dom.'),
+          ex('Zbudowali dom.'),
+        ],
+      },
+    ]
+    expect(validateDictionary(b, { requireLessonCards: false }).errors).toContain(
+      'dictionary/dom.yml: sense "house" has 7 examples (max 6)',
     )
   })
 })
