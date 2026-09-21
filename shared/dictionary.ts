@@ -58,8 +58,18 @@ export const senseSchema = z.object({
   examples: z.array(exampleSchema).min(1),
 })
 
+/**
+ * Card content format. Bump when the required shape of a card changes, so
+ * existing cards are reported as needing an upgrade.
+ *
+ * 1 — senses with examples, notes, collocations, family.
+ * 2 — adds three examples per affirmative form, etymology, memory hook, idioms.
+ */
+export const CARD_FORMAT = 2
+
 export const cardSchema = z.object({
   id: cardId,
+  format: positiveInt,
   lemma: text,
   rank: positiveInt,
   pos: z.enum(CARD_POS),

@@ -27,6 +27,13 @@ Static Nuxt 4 website teaching Polish (A1–A2) to Russian speakers, styled like
 - **Progress** is one `useState('progress')` object validated by zod (`app/utils/progress.ts`). `app/plugins/progress.client.ts` loads `localStorage['polski:v1']` on `app:mounted` (after hydration, so prerendered HTML never mismatches) and saves on change. UI depending on progress must check `useProgress().loaded`. The theme is stored separately by `@nuxtjs/color-mode` under `polski:theme`.
 - **Search**: `scripts/build-search-index.ts` writes `public/search-index.json` (gitignored); `useSearch()` fetches it on first open and builds a MiniSearch index using `normalizeLoose`, so diacritics and ё/е are ignored.
 
+## Dictionary workflow
+
+- **`TODO.md` (repo root) is the owner's request queue.** They add words under «Ожидают»; anything after `—` is a note about what the card should contain. When a card is published, move the line to «Готово» with its `/slovo/<id>` link and the date. Never write to this file from a script.
+- **Card format versioning.** `CARD_FORMAT` in `shared/dictionary.ts` is the current shape; every card declares `format:`. Format 1 = senses, notes, collocations, family. Format 2 = adds three examples per affirmative form, etymology, memory hook and at least one idiom. The validator enforces the current format's requirements, warns for lower formats (they need an upgrade) and errors for higher ones. When the card shape changes, bump `CARD_FORMAT`, document the new level here, and leave existing cards at their old number.
+- **`data/ranked.json` carries the status of all 2000 lemmas**: `format` is the card's format, or `null` when no card exists. Run `pnpm dict:status` after adding or upgrading a card; `pnpm dict:rank` re-applies it so re-ranking never loses it.
+- Pipeline order for a new word: `dict:draft --ids <id>` → author `content/dictionary/<id>.yml` → `dict:build` → `pnpm validate` → `dict:status` → `pnpm generate`.
+
 ## Content conventions
 
 - Word ids are ASCII (`ą→a ć→c ę→e ł→l ń→n ó→o ś→s ź/ż→z`); homographs get a suffix (`czesc` vs `czesc-noun`).

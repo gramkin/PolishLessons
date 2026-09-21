@@ -3,6 +3,7 @@ import { cardSchema, formsFileSchema, indexEntrySchema } from '../../shared/dict
 
 const card = {
   id: 'dom',
+  format: 1,
   lemma: 'dom',
   rank: 120,
   pos: 'noun',
@@ -45,6 +46,7 @@ describe('cardSchema', () => {
       cardSchema.safeParse({ ...card, senses: [{ id: 'x', ru: 'y', examples: [] }] }).success,
     ).toBe(false)
     expect(cardSchema.safeParse({ ...card, rank: 1.5 }).success).toBe(false)
+    expect(cardSchema.safeParse({ ...card, format: undefined }).success).toBe(false)
     expect(cardSchema.safeParse({ ...card, notes: [{ kind: 'gossip', text: 't' }] }).success).toBe(
       false,
     )

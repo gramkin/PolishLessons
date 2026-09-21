@@ -24,6 +24,8 @@ export interface Overrides {
 }
 
 export interface RankedLemma {
+  /** Format of the card for this lemma; null when no card exists yet. */
+  format?: number | null
   rank: number
   id: string
   lemma: string

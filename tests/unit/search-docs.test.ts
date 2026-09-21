@@ -127,6 +127,7 @@ describe('card documents', () => {
           path: 'dictionary/zab.yml',
           data: {
             id: 'zab',
+            format: 1,
             lemma: 'ząb',
             rank: 900,
             pos: 'noun',

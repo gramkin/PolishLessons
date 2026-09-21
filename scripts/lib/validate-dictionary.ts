@@ -1,4 +1,10 @@
-import { cardSchema, formsFileSchema, type Card, type FormsFile } from '../../shared/dictionary'
+import {
+  CARD_FORMAT,
+  cardSchema,
+  formsFileSchema,
+  type Card,
+  type FormsFile,
+} from '../../shared/dictionary'
 import { AGLT_SUFFIXES } from '../dictionary/lib/rank'
 import { affirmativeForms } from '../dictionary/lib/draft'
 import { tokenize } from '../dictionary/lib/tatoeba'
@@ -98,6 +104,23 @@ export function validateDictionary(
           errors.push(`${path}: example "${example.pl}" contains no form of "${card.lemma}"`)
         }
       }
+    }
+
+    if (card.format > CARD_FORMAT) {
+      errors.push(
+        `${path}: format ${card.format} is newer than the current card format ${CARD_FORMAT}`,
+      )
+    } else if (card.format === CARD_FORMAT) {
+      if (card.formExamples.length === 0)
+        errors.push(`${path}: format ${CARD_FORMAT} requires examples for every form`)
+      if (!card.etymology) errors.push(`${path}: format ${CARD_FORMAT} requires an etymology`)
+      if (!card.memory) errors.push(`${path}: format ${CARD_FORMAT} requires a memory hook`)
+      if (card.idioms.length === 0)
+        errors.push(`${path}: format ${CARD_FORMAT} requires at least one idiom`)
+    } else {
+      warnings.push(
+        `${path}: card format ${card.format}, current is ${CARD_FORMAT} — needs an upgrade`,
+      )
     }
 
     if (formsFile && card.formExamples.length > 0) {

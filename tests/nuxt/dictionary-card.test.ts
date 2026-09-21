@@ -11,6 +11,7 @@ import { cardSchema, formsFileSchema, type IndexEntry } from '../../shared/dicti
 
 const card = cardSchema.parse({
   id: 'robic',
+  format: 1,
   lemma: 'robić',
   rank: 40,
   pos: 'verb',

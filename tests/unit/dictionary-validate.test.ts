@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { CARD_FORMAT } from '../../shared/dictionary'
 import {
   exampleHasForm,
   validateDictionary,
@@ -20,6 +21,7 @@ function bundle(): DictionaryBundle {
         path: 'dictionary/dom.yml',
         data: {
           id: 'dom',
+          format: 1,
           lemma: 'dom',
           rank: 120,
           pos: 'noun',
@@ -70,7 +72,7 @@ describe('validateDictionary', () => {
   it('accepts a valid card', () => {
     expect(validateDictionary(bundle(), { requireLessonCards: false })).toEqual({
       errors: [],
-      warnings: [],
+      warnings: [`dictionary/dom.yml: card format 1, current is ${CARD_FORMAT} — needs an upgrade`],
     })
   })
 
@@ -121,9 +123,9 @@ describe('validateDictionary', () => {
 
   it('warns about lesson words without cards, or errors when required', () => {
     const b = { ...bundle(), lessonWordIds: ['dom', 'mama'] }
-    expect(validateDictionary(b, { requireLessonCards: false }).warnings).toEqual([
+    expect(validateDictionary(b, { requireLessonCards: false }).warnings).toContain(
       'words: lesson word "mama" has no dictionary card',
-    ])
+    )
     expect(validateDictionary(b, { requireLessonCards: true }).errors).toContain(
       'words: lesson word "mama" has no dictionary card',
     )
@@ -205,6 +207,78 @@ describe('formExamples', () => {
     ).errors
     expect(wrong).toContain(
       'dictionary/dom.yml: form example for "domu" does not contain that form: "Zupełnie inne zdanie."',
+    )
+  })
+})
+
+describe('card format', () => {
+  function withCard(patch: Record<string, unknown>) {
+    const b = bundle()
+    Object.assign(b.cards[0]!.data as Record<string, unknown>, patch)
+    return b
+  }
+
+  const complete = {
+    format: CARD_FORMAT,
+    etymology: 'От праславянского.',
+    memory: 'Приставка z- как русское с-.',
+    idioms: [{ pl: 'zrobić wielkie oczy', ru: 'сделать большие глаза' }],
+    formExamples: [
+      { form: 'dom', pl: 'To jest dom.', ru: 'Это дом.', source: { kind: 'authored' } },
+      {
+        form: 'dom',
+        pl: 'Mój dom jest duży.',
+        ru: 'Мой дом большой.',
+        source: { kind: 'authored' },
+      },
+      { form: 'dom', pl: 'Tam stoi dom.', ru: 'Там стоит дом.', source: { kind: 'authored' } },
+      { form: 'domu', pl: 'Wracam do domu.', ru: 'Я иду домой.', source: { kind: 'authored' } },
+      { form: 'domu', pl: 'Nie ma go w domu.', ru: 'Его нет дома.', source: { kind: 'authored' } },
+      {
+        form: 'domu',
+        pl: 'Blisko domu jest park.',
+        ru: 'Рядом с домом парк.',
+        source: { kind: 'authored' },
+      },
+    ],
+  }
+
+  it('accepts a card that meets the current format', () => {
+    const b = withCard(complete)
+    ;(b.forms[0]!.data as { allForms: string[] }).allForms = ['dom', 'domu']
+    expect(validateDictionary(b, { requireLessonCards: false }).errors).toEqual([])
+  })
+
+  it('warns that an older card needs an upgrade', () => {
+    const { errors, warnings } = validateDictionary(withCard({ format: 1 }), {
+      requireLessonCards: false,
+    })
+    expect(errors).toEqual([])
+    expect(warnings).toContain(
+      `dictionary/dom.yml: card format 1, current is ${CARD_FORMAT} — needs an upgrade`,
+    )
+  })
+
+  it('lists what the current format requires', () => {
+    const errors = validateDictionary(withCard({ format: CARD_FORMAT }), {
+      requireLessonCards: false,
+    }).errors
+    expect(errors).toContain(
+      `dictionary/dom.yml: format ${CARD_FORMAT} requires examples for every form`,
+    )
+    expect(errors).toContain(`dictionary/dom.yml: format ${CARD_FORMAT} requires an etymology`)
+    expect(errors).toContain(`dictionary/dom.yml: format ${CARD_FORMAT} requires a memory hook`)
+    expect(errors).toContain(
+      `dictionary/dom.yml: format ${CARD_FORMAT} requires at least one idiom`,
+    )
+  })
+
+  it('rejects a format newer than this checkout knows', () => {
+    const errors = validateDictionary(withCard({ format: CARD_FORMAT + 1 }), {
+      requireLessonCards: false,
+    }).errors
+    expect(errors).toContain(
+      `dictionary/dom.yml: format ${CARD_FORMAT + 1} is newer than the current card format ${CARD_FORMAT}`,
     )
   })
 })

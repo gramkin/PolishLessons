@@ -10,6 +10,7 @@ import { cardSchema, formsFileSchema, type Card } from '../../shared/dictionary'
 
 const card: Card = cardSchema.parse({
   id: 'dom',
+  format: 1,
   lemma: 'dom',
   rank: 120,
   pos: 'noun',
