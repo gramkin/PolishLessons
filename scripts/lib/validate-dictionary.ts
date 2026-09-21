@@ -1,5 +1,6 @@
 import { cardSchema, formsFileSchema, type Card, type FormsFile } from '../../shared/dictionary'
 import { AGLT_SUFFIXES } from '../dictionary/lib/rank'
+import { affirmativeForms } from '../dictionary/lib/draft'
 import { tokenize } from '../dictionary/lib/tatoeba'
 import type { DataFile } from './load-content'
 
@@ -63,9 +64,11 @@ export function validateDictionary(
   const rankOwner = new Map<number, string>()
 
   for (const { path, card } of cards.values()) {
-    const all = card.senses.flatMap((s) => s.examples)
-    if (all.length < 5 || all.length > 8)
-      errors.push(`${path}: ${all.length} examples (expected 5–8)`)
+    const senseExamples = card.senses.flatMap((s) => s.examples)
+    // Only sense examples are capped; per-form examples cover the whole paradigm.
+    if (senseExamples.length < 5 || senseExamples.length > 8)
+      errors.push(`${path}: ${senseExamples.length} examples (expected 5–8)`)
+    const all = [...senseExamples, ...card.formExamples]
 
     const formsFile = forms.get(card.id)
     if (!formsFile) {
@@ -92,6 +95,31 @@ export function validateDictionary(
         if (!exampleHasForm(example.pl, allForms)) {
           errors.push(`${path}: example "${example.pl}" contains no form of "${card.lemma}"`)
         }
+      }
+    }
+
+    if (formsFile && card.formExamples.length > 0) {
+      const expected = affirmativeForms(formsFile.allForms)
+      const seen = new Map<string, number>()
+      for (const entry of card.formExamples) {
+        seen.set(entry.form, (seen.get(entry.form) ?? 0) + 1)
+        if (!expected.includes(entry.form)) {
+          errors.push(`${path}: formExamples has "${entry.form}", which is not an affirmative form`)
+        }
+        if (!tokenize(entry.pl).includes(entry.form.toLowerCase())) {
+          errors.push(
+            `${path}: form example for "${entry.form}" does not contain that form: "${entry.pl}"`,
+          )
+        }
+      }
+      for (const [form, count] of seen) {
+        if (count > 1) errors.push(`${path}: formExamples has ${count} entries for "${form}"`)
+      }
+      const missing = expected.filter((form) => !seen.has(form))
+      if (missing.length > 0) {
+        errors.push(
+          `${path}: formExamples missing ${missing.length} form(s): ${missing.slice(0, 5).join(', ')}`,
+        )
       }
     }
 

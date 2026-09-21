@@ -129,3 +129,63 @@ describe('validateDictionary', () => {
     )
   })
 })
+
+describe('formExamples', () => {
+  function withForms(entries: unknown[]) {
+    const b = bundle()
+    ;(b.forms[0]!.data as { allForms: string[] }).allForms = ['dom', 'domu', 'niedomu']
+    ;(b.cards[0]!.data as { formExamples?: unknown[] }).formExamples = entries
+    return b
+  }
+
+  const entry = (form: string, pl: string) => ({
+    form,
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' },
+  })
+
+  it('accepts one entry per affirmative form', () => {
+    const b = withForms([entry('dom', 'To jest dom.'), entry('domu', 'Wracam do domu.')])
+    expect(validateDictionary(b, { requireLessonCards: false }).errors).toEqual([])
+  })
+
+  it('reports missing forms, duplicates, unknown forms and sentences without the form', () => {
+    const missing = validateDictionary(withForms([entry('dom', 'To jest dom.')]), {
+      requireLessonCards: false,
+    }).errors
+    expect(missing).toContain('dictionary/dom.yml: formExamples missing 1 form(s): domu')
+
+    const dup = validateDictionary(
+      withForms([
+        entry('dom', 'To jest dom.'),
+        entry('dom', 'Mój dom.'),
+        entry('domu', 'Do domu.'),
+      ]),
+      { requireLessonCards: false },
+    ).errors
+    expect(dup).toContain('dictionary/dom.yml: formExamples has 2 entries for "dom"')
+
+    const unknown = validateDictionary(
+      withForms([
+        entry('dom', 'To jest dom.'),
+        entry('domu', 'Do domu.'),
+        entry('niedomu', 'Nie ma niedomu.'),
+      ]),
+      { requireLessonCards: false },
+    ).errors
+    expect(unknown).toContain(
+      'dictionary/dom.yml: formExamples has "niedomu", which is not an affirmative form',
+    )
+
+    const wrong = validateDictionary(
+      withForms([entry('dom', 'To jest dom.'), entry('domu', 'Zupełnie inne zdanie.')]),
+      {
+        requireLessonCards: false,
+      },
+    ).errors
+    expect(wrong).toContain(
+      'dictionary/dom.yml: form example for "domu" does not contain that form: "Zupełnie inne zdanie."',
+    )
+  })
+})

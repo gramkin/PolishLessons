@@ -58,6 +58,9 @@ for await (const line of readLines(SOURCES.wiktionary)) {
   }))
   const trimmed = {
     word: entry.word,
+    etymology_texts: entry.etymology_texts,
+    proverbs: entry.proverbs,
+    antonyms: entry.antonyms,
     lang_code: entry.lang_code,
     pos: entry.pos,
     tags: entry.tags,

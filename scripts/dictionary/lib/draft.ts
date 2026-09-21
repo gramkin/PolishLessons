@@ -2,7 +2,7 @@ import type { Aspect, CardPos, FormsTable } from '../../../shared/dictionary'
 import { buildParadigm } from './paradigm'
 import type { MorphRow } from './polimorf'
 import type { RankedLemma } from './rank'
-import { pickCandidates, type TatoebaSentence } from './tatoeba'
+import { candidatesForForm, pickCandidates, type TatoebaSentence } from './tatoeba'
 import {
   aspectOf,
   chooseAudio,
@@ -32,6 +32,19 @@ export interface Draft {
     related: string[]
   }
   candidates: TatoebaSentence[]
+  formCandidates: Record<string, TatoebaSentence[]>
+  etymology: string[]
+  idioms: string[]
+  synonyms: string[]
+  antonyms: string[]
+}
+
+// Negated forms are mechanical (nie + affirmative), so they get a rule line instead of examples.
+export function affirmativeForms(allForms: string[]): string[] {
+  const set = new Set(allForms.map((f) => f.toLowerCase()))
+  return allForms.filter(
+    (form) => !(form.toLowerCase().startsWith('nie') && set.has(form.toLowerCase().slice(3))),
+  )
 }
 
 export function buildDraft(
@@ -65,6 +78,16 @@ export function buildDraft(
       related: merged.related,
     },
     candidates: pickCandidates(sentences, tokenIndex, paradigm.allForms, 30),
+    formCandidates: Object.fromEntries(
+      affirmativeForms(paradigm.allForms).map((form) => [
+        form,
+        candidatesForForm(sentences, tokenIndex, form, 3),
+      ]),
+    ),
+    etymology: merged.etymology,
+    idioms: merged.idioms,
+    synonyms: merged.synonyms,
+    antonyms: merged.antonyms,
   }
 }
 
@@ -75,6 +98,10 @@ export function draftFlags(draft: Draft): string[] {
   if (draft.candidates.length < 5) flags.push(`мало примеров (${draft.candidates.length})`)
   if (draft.override) flags.push('ручная правка')
   if (draft.mismatches.length > 0) flags.push(`расхождения форм (${draft.mismatches.length})`)
+  const withoutExample = Object.values(draft.formCandidates).filter(
+    (list) => list.length === 0,
+  ).length
+  if (withoutExample > 0) flags.push(`формы без примеров (${withoutExample})`)
   return flags
 }
 

@@ -16,6 +16,9 @@ export function referencedTatoebaIds(card: Card): number[] {
       if (example.source.kind !== 'authored') ids.add(example.source.id)
     }
   }
+  for (const example of card.formExamples) {
+    if (example.source.kind !== 'authored') ids.add(example.source.id)
+  }
   return [...ids].sort((a, b) => a - b)
 }
 

@@ -106,3 +106,24 @@ export function pickCandidates(
   }
   return picked
 }
+
+export function candidatesForForm(
+  sentences: TatoebaSentence[],
+  index: Map<string, number[]>,
+  form: string,
+  limit = 3,
+): TatoebaSentence[] {
+  return (index.get(form.toLowerCase()) ?? [])
+    .map((position) => ({
+      sentence: sentences[position]!,
+      tokens: tokenize(sentences[position]!.pl),
+    }))
+    .sort(
+      (a, b) =>
+        Number(a.sentence.ru === null) - Number(b.sentence.ru === null) ||
+        a.tokens.length - b.tokens.length ||
+        a.sentence.id - b.sentence.id,
+    )
+    .slice(0, limit)
+    .map((item) => item.sentence)
+}

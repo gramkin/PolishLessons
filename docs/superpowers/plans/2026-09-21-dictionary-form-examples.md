@@ -1,5 +1,7 @@
 # Dictionary — Per-form Examples, Saved Sentences, Memory Aids
 
+**Status:** implemented on 2026-09-21 — pilot word `zrobić` rebuilt with 53 form examples, etymology, memory hook and idioms.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans (or subagent-driven-development) to implement this plan task-by-task.
 
 **Goal:** Cards carry an example for every form, any sentence can be saved for study and practised in a «Фразы» flashcard mode, and cards explain word origin and memory hooks. `zrobić` is rebuilt as the showcase.

@@ -76,6 +76,30 @@ describe('buildFormsFile', () => {
     expect(referencedTatoebaIds(card)).toEqual([348626, 348760])
   })
 
+  it('collects ids from form examples too', () => {
+    const withForms: Card = {
+      ...card,
+      formExamples: [
+        {
+          form: 'domu',
+          pl: 'Wracam do domu.',
+          ru: 'Я иду домой.',
+          source: { kind: 'tatoeba', id: 100 },
+        },
+        { form: 'dom', pl: 'To dom.', ru: 'Это дом.', source: { kind: 'authored' } },
+      ],
+    }
+    expect(referencedTatoebaIds(withForms)).toEqual([100, 348626, 348760])
+    const forms = buildFormsFile(
+      withForms,
+      draft,
+      audio,
+      new Map([...sentences, [100, { id: 100, pl: 'Wracam do domu.', ru: 'Я иду домой.' }]]),
+      versions,
+    )
+    expect(forms.tatoeba['100']).toEqual({ pl: 'Wracam do domu.', ru: 'Я иду домой.' })
+  })
+
   it('builds a valid generated forms file with a Tatoeba snapshot', () => {
     const forms = buildFormsFile(card, draft, audio, sentences, versions)
     expect(formsFileSchema.safeParse(forms).success).toBe(true)

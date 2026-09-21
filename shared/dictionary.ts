@@ -37,15 +37,19 @@ const positiveInt = z
   .positive()
   .refine(Number.isInteger, { message: 'Expected an integer' })
 
+export const sourceSchema = z.discriminatedUnion('kind', [
+  z.object({ kind: z.literal('tatoeba'), id: positiveInt }),
+  z.object({ kind: z.literal('translated'), id: positiveInt }),
+  z.object({ kind: z.literal('authored') }),
+])
+
 export const exampleSchema = z.object({
   pl: text,
   ru: text,
-  source: z.discriminatedUnion('kind', [
-    z.object({ kind: z.literal('tatoeba'), id: positiveInt }),
-    z.object({ kind: z.literal('translated'), id: positiveInt }),
-    z.object({ kind: z.literal('authored') }),
-  ]),
+  source: sourceSchema,
 })
+
+export const formExampleSchema = exampleSchema.extend({ form: text })
 
 export const senseSchema = z.object({
   id: cardId,
@@ -65,6 +69,12 @@ export const cardSchema = z.object({
   senses: z.array(senseSchema).min(1),
   notes: z.array(z.object({ kind: z.enum(NOTE_KINDS), text })).default([]),
   collocations: z.array(z.object({ pl: text, ru: text })).default([]),
+  formExamples: z.array(formExampleSchema).default([]),
+  etymology: z.string().optional(),
+  memory: z.string().optional(),
+  idioms: z.array(z.object({ pl: text, ru: text })).default([]),
+  synonyms: z.array(text).default([]),
+  antonyms: z.array(text).default([]),
   family: z
     .array(
       z.object({
@@ -111,6 +121,8 @@ export const indexEntrySchema = z.object({
 export const publishedCardSchema = z.object({ card: cardSchema, forms: formsFileSchema })
 
 export type Example = z.infer<typeof exampleSchema>
+export type FormExample = z.infer<typeof formExampleSchema>
+export type ExampleSource = z.infer<typeof sourceSchema>
 export type Sense = z.infer<typeof senseSchema>
 export type Card = z.infer<typeof cardSchema>
 export type FormsTable = z.infer<typeof formsTableSchema>

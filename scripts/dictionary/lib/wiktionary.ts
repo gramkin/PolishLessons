@@ -18,6 +18,10 @@ export interface WikiEntry {
   audioFiles: string[]
   related: string[]
   forms: WikiForm[]
+  etymology: string[]
+  idioms: string[]
+  synonyms: string[]
+  antonyms: string[]
 }
 
 export const WIKI_POS: Record<CardPos, string[]> = {
@@ -67,6 +71,16 @@ export function parseWikiEntry(value: unknown): WikiEntry | null {
       .filter((x): x is string => typeof x === 'string'),
     related: asArray(e.related)
       .map((r) => r.word)
+      .filter((x): x is string => typeof x === 'string'),
+    etymology: asStrings(e.etymology_texts),
+    idioms: asArray(e.proverbs)
+      .map((x) => x.word)
+      .filter((x): x is string => typeof x === 'string'),
+    synonyms: asArray(e.synonyms)
+      .map((x) => x.word)
+      .filter((x): x is string => typeof x === 'string'),
+    antonyms: asArray(e.antonyms)
+      .map((x) => x.word)
       .filter((x): x is string => typeof x === 'string'),
     forms: asArray(e.forms)
       .filter((f) => typeof f.form === 'string')
@@ -118,7 +132,14 @@ export function chooseAudio(entries: WikiEntry[], lemma: string): string | null 
 export function mergeEntries(entries: WikiEntry[]) {
   const prefix = (i: number, index: string) => (entries.length > 1 ? `${i + 1}:${index}` : index)
   const related = [...new Set(entries.flatMap((e) => e.related))]
+  const unique = (key: 'etymology' | 'idioms' | 'synonyms' | 'antonyms') => [
+    ...new Set(entries.flatMap((e) => e[key])),
+  ]
   return {
+    etymology: unique('etymology'),
+    idioms: unique('idioms'),
+    synonyms: unique('synonyms'),
+    antonyms: unique('antonyms'),
     senses: entries.flatMap((e, i) => e.senses.map((s) => ({ ...s, index: prefix(i, s.index) }))),
     translationsRu: entries.flatMap((e, i) =>
       e.translationsRu.map((t) => ({

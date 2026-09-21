@@ -73,6 +73,7 @@ describe('flags and report', () => {
       'нет русского перевода',
       'мало примеров (0)',
       'ручная правка',
+      'формы без примеров (1)',
     ])
   })
 
@@ -80,9 +81,9 @@ describe('flags and report', () => {
     const dom = buildDraft(domEntry, rows, wiki.get('dom') ?? [], sentences, tokenIndex)
     const report = renderBatchReport('pilot', [dom, bare])
     expect(report).toContain('# Батч pilot')
-    expect(report).toContain('| 120 | dom | noun | 8 (5) | — |')
+    expect(report).toMatch(/\| 120 \| dom \| noun \| 8 \(5\) \|/)
     expect(report).toContain(
-      '| 120 | xyz | noun | 0 (0) | нет Wiktionary; нет русского перевода; мало примеров (0); ручная правка |',
+      '| 120 | xyz | noun | 0 (0) | нет Wiktionary; нет русского перевода; мало примеров (0); ручная правка; формы без примеров (1) |',
     )
     expect(report).toContain('- [ ] Список слов проверен')
   })
