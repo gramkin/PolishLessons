@@ -1,0 +1,58 @@
+# review
+id: albo
+format: 2
+lemma: "albo"
+rank: 143
+pos: conj
+pron: { cyr: "а́льбо" }
+senses:
+  - id: or
+    ru: "или (в утверждении, при перечислении)"
+    examples:
+      - pl: "Zwycięstwo albo śmierć!"
+        ru: "Победа или смерть!"
+        source: { kind: tatoeba, id: 6067370 }
+      - pl: "Tak, byłem tam dwa albo trzy razy."
+        ru: "Да, я был там два или три раза."
+        source: { kind: tatoeba, id: 8658919 }
+      - pl: "Być albo nie być - oto jest pytanie."
+        ru: "Быть или не быть — вот в чём вопрос."
+        source: { kind: tatoeba, id: 13453518 }
+  - id: either-or
+    ru: "albo… albo — или… или (одно из двух)"
+    examples:
+      - pl: "Albo ty, albo ja."
+        ru: "Или ты, или я."
+        source: { kind: authored }
+      - pl: "Albo teraz, albo nigdy."
+        ru: "Или сейчас, или никогда."
+        source: { kind: authored }
+      - pl: "Musisz wybrać: albo praca, albo studia."
+        ru: "Ты должен выбрать: или работа, или учёба."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "В вопросе с выбором ставится не albo, а czy: Kawa czy herbata? «Кофе или чай?». albo уместно в утверждении: Wezmę kawę albo herbatę." }
+  - { kind: usage, text: "lub — книжный синоним albo; в живой речи чаще albo. Парная конструкция albo… albo подчёркивает, что возможно только одно." }
+collocations:
+  - { pl: "albo… albo", ru: "или… или" }
+  - { pl: "albo co?", ru: "а то что?" }
+  - { pl: "tak albo inaczej", ru: "так или иначе" }
+etymology: "Из a + li + bo — тот же способ сложения, что у русского «либо»; родство видно на слух."
+memory: "albo — «или» в утверждении, а в вопросе с выбором нужен czy: Kawa czy herbata? Парное albo… albo значит «или… или», книжный синоним — lub."
+idioms:
+  - { pl: "albo – albo", ru: "или — или, третьего не дано" }
+  - { pl: "albo rybka, albo akwarium", ru: "либо одно, либо другое" }
+  - { pl: "albo teraz, albo nigdy", ru: "сейчас или никогда" }
+formExamples:
+  - form: "albo"
+    pl: "Chcę kawę albo herbatę."
+    ru: "Я хочу кофе или чай."
+    source: { kind: authored }
+  - form: "albo"
+    pl: "Zadzwoń albo napisz."
+    ru: "Позвони или напиши."
+    source: { kind: authored }
+  - form: "albo"
+    pl: "Pójdziemy w sobotę albo w niedzielę."
+    ru: "Мы пойдём в субботу или в воскресенье."
+    source: { kind: authored }

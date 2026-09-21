@@ -1,0 +1,72 @@
+# review
+id: przed
+format: 2
+lemma: "przed"
+rank: 149
+pos: prep
+pron: { cyr: "пшэт" }
+senses:
+  - id: place
+    ru: "перед (+ творительный падеж): место"
+    examples:
+      - pl: "Tom zasnął przed telewizorem."
+        ru: "Том заснул перед телевизором."
+        source: { kind: tatoeba, id: 5487947 }
+      - pl: "Najgorsze jeszcze przed nami."
+        ru: "Самое худшее ещё впереди."
+        source: { kind: tatoeba, id: 534071 }
+      - pl: "Proszę pukać przed wejściem."
+        ru: "Пожалуйста, стучите, прежде чем войти."
+        source: { kind: tatoeba, id: 530056 }
+  - id: time
+    ru: "перед, до (о времени)"
+    examples:
+      - pl: "Myję ręce przed obiadem."
+        ru: "Я мою руки перед ланчем."
+        source: { kind: tatoeba, id: 792330 }
+      - pl: "Zawsze biorę kąpiel przed snem."
+        ru: "Я всегда принимаю ванну перед сном."
+        source: { kind: tatoeba, id: 1645409 }
+      - pl: "Przed śmiercią był niemal ślepy."
+        ru: "Перед смертью он был почти слепым."
+        source: { kind: tatoeba, id: 353147 }
+notes:
+  - { kind: government, text: "przed требует творительного падежа — как русское «перед»: przed domem, przed obiadem. При движении вперёд возможен винительный: Wyszedł przed dom «Он вышел перед дом»." }
+  - { kind: usage, text: "Перед mną и в обороте przede wszystkim предлог получает -e: przede mną «передо мной», przede wszystkim «прежде всего»." }
+  - { kind: usage, text: "przed chwilą значит «только что», przed laty — «много лет назад»." }
+collocations:
+  - { pl: "przede wszystkim", ru: "прежде всего" }
+  - { pl: "przed chwilą", ru: "только что" }
+  - { pl: "przed domem", ru: "перед домом" }
+  - { pl: "przed czasem", ru: "раньше срока" }
+etymology: "Праславянское *perdъ — то же слово, что русское «перед»; совпадает и значение, и падеж."
+memory: "przed + творительный, как русское «перед»: przed domem, przed snem. Перед местоимением mną и в обороте przede wszystkim появляется -e."
+idioms:
+  - { pl: "przede wszystkim", ru: "прежде всего" }
+  - { pl: "przed siebie", ru: "вперёд, прямо" }
+  - { pl: "przed czasem", ru: "раньше срока" }
+formExamples:
+  - form: "przed"
+    pl: "Myję ręce przed obiadem."
+    ru: "Я мою руки перед ланчем."
+    source: { kind: tatoeba, id: 792330 }
+  - form: "przed"
+    pl: "Proszę pukać przed wejściem."
+    ru: "Пожалуйста, стучите, прежде чем войти."
+    source: { kind: tatoeba, id: 530056 }
+  - form: "przed"
+    pl: "Przed wyjściem zamykaj drzwi."
+    ru: "Перед тем как уйти, закрой дверь на ключ."
+    source: { kind: tatoeba, id: 349486 }
+  - form: "przede"
+    pl: "Przede mną stało dwóch chłopców."
+    ru: "Передо мной стояли два мальчика."
+    source: { kind: tatoeba, id: 8287533 }
+  - form: "przede"
+    pl: "On idzie przede mną."
+    ru: "Он идёт передо мной."
+    source: { kind: translated, id: 6483114 }
+  - form: "przede"
+    pl: "Przede wszystkim dziękuję za pomoc."
+    ru: "Прежде всего спасибо за помощь."
+    source: { kind: authored }

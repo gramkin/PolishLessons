@@ -1,0 +1,822 @@
+# review
+id: znaczyc
+format: 2
+lemma: "znaczyć"
+rank: 155
+pos: verb
+aspect: imperf
+pron: { cyr: "зна́чыць" }
+senses:
+  - id: mean
+    ru: "значить, означать"
+    examples:
+      - pl: "Nie wiem co to znaczy."
+        ru: "Я не знаю, что это значит."
+        source: { kind: tatoeba, id: 5837080 }
+      - pl: "To zdanie nic nie znaczy."
+        ru: "Это предложение ничего не означает."
+        source: { kind: tatoeba, id: 1176599 }
+      - pl: "Czy to znaczy, że mamy problemy?"
+        ru: "Это значит, что у нас проблемы?"
+        source: { kind: tatoeba, id: 2238561 }
+  - id: matter
+    ru: "значить, иметь вес (для кого-либо)"
+    examples:
+      - pl: "Więcej nie zawsze znaczy gorzej."
+        ru: "Большое количество не всегда значит плохое качество."
+        source: { kind: tatoeba, id: 12692424 }
+      - pl: "Twoje zdanie wiele dla mnie znaczy."
+        ru: "Твоё мнение много для меня значит."
+        source: { kind: authored }
+      - pl: "Przyjaźń znaczy dla niego wszystko."
+        ru: "Дружба значит для него всё."
+        source: { kind: authored }
+  - id: mark
+    ru: "метить, помечать (ставить знак)"
+    note: "Конкретное значение того же корня: znak «знак» → znaczyć «ставить знак»."
+    examples:
+      - pl: "Leśnik znaczy drzewa farbą."
+        ru: "Лесник метит деревья краской."
+        source: { kind: authored }
+      - pl: "Kto znaczył te karty?"
+        ru: "Кто крапил эти карты?"
+        source: { kind: authored }
+      - pl: "Znaczy owce, żeby ich nie pomylić."
+        ru: "Он метит овец, чтобы их не перепутать."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Co to znaczy? — «Что это значит?»; Co to ma znaczyć? — «Что это должно означать?» (с оттенком возмущения)." }
+  - { kind: usage, text: "Существительное — znaczenie «значение»: mieć znaczenie «иметь значение», bez znaczenia «неважно»." }
+  - { kind: usage, text: "Причастие znaczący значит «значительный»: znacząca rola «значительная роль»." }
+collocations:
+  - { pl: "co to znaczy?", ru: "что это значит?" }
+  - { pl: "mieć znaczenie", ru: "иметь значение" }
+  - { pl: "bez znaczenia", ru: "неважно" }
+  - { pl: "to znaczy", ru: "то есть" }
+etymology: "От znak «знак» — то же слово, что русское «знак»; отсюда и znaczyć «значить», и znaczyć «ставить знак, метить»."
+memory: "Co to znaczy? — «Что это значит?». Существительное — znaczenie «значение», а to znaczy — «то есть». И помните второе, конкретное значение: znaczone karty «краплёные карты»."
+idioms:
+  - { pl: "to nic nie znaczy", ru: "это ничего не значит" }
+  - { pl: "co to ma znaczyć?", ru: "что это значит?" }
+  - { pl: "znaczone karty", ru: "краплёные карты" }
+formExamples:
+  - form: "znacz"
+    pl: "Znacz drzewa czerwoną farbą."
+    ru: "Помечай деревья красной краской."
+    source: { kind: authored }
+  - form: "znacz"
+    pl: "Nie znacz stron ołówkiem."
+    ru: "Не помечай страницы карандашом."
+    source: { kind: authored }
+  - form: "znacz"
+    pl: "Znacz to, co ważne."
+    ru: "Помечай то, что важно."
+    source: { kind: authored }
+  - form: "znaczą"
+    pl: "Tak, oba słowa znaczą to samo."
+    ru: "Да, оба слова значат одно и то же."
+    source: { kind: translated, id: 3601875 }
+  - form: "znaczą"
+    pl: "Te znaki nic nie znaczą."
+    ru: "Эти знаки ничего не значат."
+    source: { kind: authored }
+  - form: "znaczą"
+    pl: "Twoje słowa wiele dla mnie znaczą."
+    ru: "Твои слова много для меня значат."
+    source: { kind: authored }
+  - form: "znacząc"
+    pl: "Znacząc drzewa, szedł przez las."
+    ru: "Помечая деревья, он шёл по лесу."
+    source: { kind: authored }
+  - form: "znacząc"
+    pl: "Znacząc strony, robił notatki."
+    ru: "Помечая страницы, он делал заметки."
+    source: { kind: authored }
+  - form: "znacząc"
+    pl: "Szedł, znacząc drogę kamieniami."
+    ru: "Он шёл, отмечая дорогу камнями."
+    source: { kind: authored }
+  - form: "znacząca"
+    pl: "To bardzo znacząca postać."
+    ru: "Это очень значительная фигура."
+    source: { kind: translated, id: 880455 }
+  - form: "znacząca"
+    pl: "To znacząca zmiana."
+    ru: "Это значительная перемена."
+    source: { kind: authored }
+  - form: "znacząca"
+    pl: "Jego pomoc była znacząca."
+    ru: "Его помощь была значительной."
+    source: { kind: authored }
+  - form: "znaczącą"
+    pl: "Odegrał znaczącą rolę w naszych badaniach."
+    ru: "Он сыграл значительную роль в наших исследованиях."
+    source: { kind: translated, id: 956962 }
+  - form: "znaczącą"
+    pl: "Uważam tę różnicę za znaczącą."
+    ru: "Я считаю эту разницу значительной."
+    source: { kind: authored }
+  - form: "znaczącą"
+    pl: "Wniósł znaczącą poprawkę."
+    ru: "Он внёс значительную поправку."
+    source: { kind: authored }
+  - form: "znaczące"
+    pl: "Poczynił znaczące postępy w angielskim."
+    ru: "Он сделал значительные успехи в английском."
+    source: { kind: translated, id: 1453665 }
+  - form: "znaczące"
+    pl: "To znaczące słowa."
+    ru: "Это значительные слова."
+    source: { kind: authored }
+  - form: "znaczące"
+    pl: "Zmiany są znaczące."
+    ru: "Перемены значительны."
+    source: { kind: authored }
+  - form: "znaczącego"
+    pl: "On dokonał znaczącego odkrycia."
+    ru: "Он сделал значительное открытие."
+    source: { kind: translated, id: 1896016 }
+  - form: "znaczącego"
+    pl: "Nie powiedział nic znaczącego."
+    ru: "Он не сказал ничего значительного."
+    source: { kind: authored }
+  - form: "znaczącego"
+    pl: "Szukam znaczącego przykładu."
+    ru: "Я ищу значительный пример."
+    source: { kind: authored }
+  - form: "znaczącej"
+    pl: "Mówimy o znaczącej różnicy."
+    ru: "Мы говорим о значительной разнице."
+    source: { kind: authored }
+  - form: "znaczącej"
+    pl: "Nie widzę znaczącej poprawy."
+    ru: "Я не вижу значительного улучшения."
+    source: { kind: authored }
+  - form: "znaczącej"
+    pl: "Dzięki znaczącej pomocy zdążyli."
+    ru: "Благодаря значительной помощи они успели."
+    source: { kind: authored }
+  - form: "znaczącemu"
+    pl: "Przyjrzyj się znaczącemu szczegółowi."
+    ru: "Присмотрись к значительной детали."
+    source: { kind: authored }
+  - form: "znaczącemu"
+    pl: "Dzięki znaczącemu wsparciu projekt ruszył."
+    ru: "Благодаря значительной поддержке проект начался."
+    source: { kind: authored }
+  - form: "znaczącemu"
+    pl: "Nie ufam znaczącemu milczeniu."
+    ru: "Я не доверяю многозначительному молчанию."
+    source: { kind: authored }
+  - form: "znaczący"
+    pl: "To znaczący postęp."
+    ru: "Это значительный прогресс."
+    source: { kind: authored }
+  - form: "znaczący"
+    pl: "Rzucił mi znaczący uśmiech."
+    ru: "Он бросил мне многозначительную улыбку."
+    source: { kind: authored }
+  - form: "znaczący"
+    pl: "Jego udział był znaczący."
+    ru: "Его участие было значительным."
+    source: { kind: authored }
+  - form: "znaczących"
+    pl: "Nie ma tu znaczących różnic."
+    ru: "Здесь нет значительных различий."
+    source: { kind: authored }
+  - form: "znaczących"
+    pl: "Wśród znaczących postaci jest i ona."
+    ru: "Среди значительных фигур есть и она."
+    source: { kind: authored }
+  - form: "znaczących"
+    pl: "Dokonał kilku znaczących odkryć."
+    ru: "Он сделал несколько значительных открытий."
+    source: { kind: authored }
+  - form: "znaczącym"
+    pl: "W znaczącym stopniu to prawda."
+    ru: "В значительной степени это правда."
+    source: { kind: authored }
+  - form: "znaczącym"
+    pl: "Mówił znaczącym tonem."
+    ru: "Он говорил многозначительным тоном."
+    source: { kind: authored }
+  - form: "znaczącym"
+    pl: "Dziwił się znaczącym spojrzeniom."
+    ru: "Он удивлялся многозначительным взглядам."
+    source: { kind: authored }
+  - form: "znaczącymi"
+    pl: "Wymienili się znaczącymi spojrzeniami."
+    ru: "Они обменялись многозначительными взглядами."
+    source: { kind: authored }
+  - form: "znaczącymi"
+    pl: "Między znaczącymi zmianami jest związek."
+    ru: "Между значительными переменами есть связь."
+    source: { kind: authored }
+  - form: "znaczącymi"
+    pl: "Zajmuje się znaczącymi projektami."
+    ru: "Он занимается значительными проектами."
+    source: { kind: authored }
+  - form: "znaczcie"
+    pl: "Znaczcie drzewa farbą."
+    ru: "Помечайте деревья краской."
+    source: { kind: authored }
+  - form: "znaczcie"
+    pl: "Nie znaczcie ścian."
+    ru: "Не помечайте стены."
+    source: { kind: authored }
+  - form: "znaczcie"
+    pl: "Znaczcie tylko ważne strony."
+    ru: "Помечайте только важные страницы."
+    source: { kind: authored }
+  - form: "znaczeni"
+    pl: "Byli znaczeni numerami."
+    ru: "Они были помечены номерами."
+    source: { kind: authored }
+  - form: "znaczeni"
+    pl: "Zawodnicy są znaczeni kolorami."
+    ru: "Игроков помечают цветами."
+    source: { kind: authored }
+  - form: "znaczeni"
+    pl: "Nie chcemy być znaczeni."
+    ru: "Мы не хотим, чтобы нас метили."
+    source: { kind: authored }
+  - form: "znaczenia"
+    pl: "To nie ma żadnego znaczenia."
+    ru: "Это не имеет никакого значения."
+    source: { kind: tatoeba, id: 3416231 }
+  - form: "znaczenia"
+    pl: "Nie rozumiem znaczenia tego słowa."
+    ru: "Я не понимаю значения этого слова."
+    source: { kind: tatoeba, id: 12469988 }
+  - form: "znaczenia"
+    pl: "Te zdania w języku polskim mają różne znaczenia."
+    ru: "Эти предложения в польском языке имеют разные значения."
+    source: { kind: tatoeba, id: 12198101 }
+  - form: "znaczenie"
+    pl: "Tylko to ma dla mnie znaczenie."
+    ru: "Для меня только это имеет значение."
+    source: { kind: tatoeba, id: 10748874 }
+  - form: "znaczenie"
+    pl: "W tym wypadku szybkość reakcji miała kluczowe znaczenie."
+    ru: "В этом случае быстрота реакции имела ключевое значение."
+    source: { kind: tatoeba, id: 6309681 }
+  - form: "znaczenie"
+    pl: "To ma znaczenie."
+    ru: "Это имеет значение."
+    source: { kind: translated, id: 3641195 }
+  - form: "znaczeniem"
+    pl: "Ze znaczeniem pokiwał głową."
+    ru: "Он многозначительно кивнул."
+    source: { kind: authored }
+  - form: "znaczeniem"
+    pl: "Między znaczeniem a formą jest różnica."
+    ru: "Между значением и формой есть разница."
+    source: { kind: authored }
+  - form: "znaczeniem"
+    pl: "Zajmuje się znaczeniem słów."
+    ru: "Он занимается значением слов."
+    source: { kind: authored }
+  - form: "znaczeniu"
+    pl: "To student w pełnym tego słowa znaczeniu."
+    ru: "Это студент в полном смысле слова."
+    source: { kind: translated, id: 722115 }
+  - form: "znaczeniu"
+    pl: "W tym znaczeniu słowo jest rzadkie."
+    ru: "В этом значении слово редкое."
+    source: { kind: authored }
+  - form: "znaczeniu"
+    pl: "Mówię o szerokim znaczeniu tego terminu."
+    ru: "Я говорю о широком значении этого термина."
+    source: { kind: authored }
+  - form: "znaczę"
+    pl: "Nic dla niego nie znaczę."
+    ru: "Я для него ничего не значу."
+    source: { kind: authored }
+  - form: "znaczę"
+    pl: "Znaczę drzewa przed wycinką."
+    ru: "Я помечаю деревья перед вырубкой."
+    source: { kind: authored }
+  - form: "znaczę"
+    pl: "Wiem, ile dla ciebie znaczę."
+    ru: "Я знаю, сколько я для тебя значу."
+    source: { kind: authored }
+  - form: "znaczmy"
+    pl: "Znaczmy drogę kamieniami."
+    ru: "Давайте отмечать дорогу камнями."
+    source: { kind: authored }
+  - form: "znaczmy"
+    pl: "Znaczmy tylko to, co ważne."
+    ru: "Давайте помечать только важное."
+    source: { kind: authored }
+  - form: "znaczmy"
+    pl: "Nie znaczmy niczego na stałe."
+    ru: "Не будем помечать ничего насовсем."
+    source: { kind: authored }
+  - form: "znaczona"
+    pl: "Ta karta jest znaczona."
+    ru: "Эта карта краплёная."
+    source: { kind: authored }
+  - form: "znaczona"
+    pl: "Owca znaczona farbą wróciła do stada."
+    ru: "Овца, помеченная краской, вернулась в стадо."
+    source: { kind: authored }
+  - form: "znaczona"
+    pl: "Trasa jest znaczona czerwonymi paskami."
+    ru: "Маршрут помечен красными полосами."
+    source: { kind: authored }
+  - form: "znaczoną"
+    pl: "Poznał kartę znaczoną paznokciem."
+    ru: "Он узнал карту, помеченную ногтем."
+    source: { kind: authored }
+  - form: "znaczoną"
+    pl: "Wybrał ścieżkę znaczoną niebiesko."
+    ru: "Он выбрал тропу, помеченную синим."
+    source: { kind: authored }
+  - form: "znaczoną"
+    pl: "Widziałem owcę znaczoną na czerwono."
+    ru: "Я видел овцу, помеченную красным."
+    source: { kind: authored }
+  - form: "znaczone"
+    pl: "Grał w znaczone karty."
+    ru: "Он играл краплёными картами."
+    source: { kind: authored }
+  - form: "znaczone"
+    pl: "Drzewa znaczone farbą pójdą pod topór."
+    ru: "Деревья, помеченные краской, пойдут под топор."
+    source: { kind: authored }
+  - form: "znaczone"
+    pl: "Szlaki są znaczone kolorami."
+    ru: "Маршруты помечены цветами."
+    source: { kind: authored }
+  - form: "znaczonego"
+    pl: "Nie znam znaczonego szlaku w tej okolicy."
+    ru: "Я не знаю размеченного маршрута в этой местности."
+    source: { kind: authored }
+  - form: "znaczonego"
+    pl: "Szukam drzewa znaczonego farbą."
+    ru: "Я ищу дерево, помеченное краской."
+    source: { kind: authored }
+  - form: "znaczonego"
+    pl: "Nie używaj znaczonego papieru."
+    ru: "Не используй помеченную бумагу."
+    source: { kind: authored }
+  - form: "znaczonej"
+    pl: "Trzymaj się ścieżki znaczonej na zielono."
+    ru: "Держись тропы, помеченной зелёным."
+    source: { kind: authored }
+  - form: "znaczonej"
+    pl: "Nie ufam znaczonej talii."
+    ru: "Я не доверяю краплёной колоде."
+    source: { kind: authored }
+  - form: "znaczonej"
+    pl: "Od znaczonej granicy zaczyna się las."
+    ru: "От размеченной границы начинается лес."
+    source: { kind: authored }
+  - form: "znaczonemu"
+    pl: "Przyjrzyj się drzewu znaczonemu farbą."
+    ru: "Присмотрись к дереву, помеченному краской."
+    source: { kind: authored }
+  - form: "znaczonemu"
+    pl: "Nie ufaj znaczonemu kartonowi."
+    ru: "Не доверяй помеченной коробке."
+    source: { kind: authored }
+  - form: "znaczonemu"
+    pl: "Dzięki znaczonemu szlakowi nie zabłądzili."
+    ru: "Благодаря размеченному маршруту они не заблудились."
+    source: { kind: authored }
+  - form: "znaczono"
+    pl: "Dawniej znaczono bydło żelazem."
+    ru: "Раньше скот метили железом."
+    source: { kind: authored }
+  - form: "znaczono"
+    pl: "Drzewa znaczono przed wycinką."
+    ru: "Деревья метили перед вырубкой."
+    source: { kind: authored }
+  - form: "znaczono"
+    pl: "Szlaki znaczono kolorami."
+    ru: "Маршруты помечали цветами."
+    source: { kind: authored }
+  - form: "znaczony"
+    pl: "To znaczony szlak turystyczny."
+    ru: "Это размеченный туристический маршрут."
+    source: { kind: authored }
+  - form: "znaczony"
+    pl: "Papier znaczony wodnym znakiem jest oryginalny."
+    ru: "Бумага с водяным знаком — подлинная."
+    source: { kind: authored }
+  - form: "znaczony"
+    pl: "Baran znaczony farbą stoi z boku."
+    ru: "Баран, помеченный краской, стоит в стороне."
+    source: { kind: authored }
+  - form: "znaczonych"
+    pl: "Unikaj znaczonych kart."
+    ru: "Избегай краплёных карт."
+    source: { kind: authored }
+  - form: "znaczonych"
+    pl: "Wśród znaczonych drzew są dęby."
+    ru: "Среди помеченных деревьев есть дубы."
+    source: { kind: authored }
+  - form: "znaczonych"
+    pl: "Nie ma tu znaczonych szlaków."
+    ru: "Здесь нет размеченных маршрутов."
+    source: { kind: authored }
+  - form: "znaczonym"
+    pl: "Idź znaczonym szlakiem."
+    ru: "Иди по размеченному маршруту."
+    source: { kind: authored }
+  - form: "znaczonym"
+    pl: "W znaczonym miejscu stoi słup."
+    ru: "В помеченном месте стоит столб."
+    source: { kind: authored }
+  - form: "znaczonym"
+    pl: "Dziwił się znaczonym kartom."
+    ru: "Он удивлялся краплёным картам."
+    source: { kind: authored }
+  - form: "znaczonymi"
+    pl: "Grał znaczonymi kartami."
+    ru: "Он играл краплёными картами."
+    source: { kind: authored }
+  - form: "znaczonymi"
+    pl: "Szli szlakami znaczonymi na czerwono."
+    ru: "Они шли маршрутами, помеченными красным."
+    source: { kind: authored }
+  - form: "znaczonymi"
+    pl: "Między znaczonymi drzewami jest przejście."
+    ru: "Между помеченными деревьями есть проход."
+    source: { kind: authored }
+  - form: "znaczy"
+    pl: "Nie wiem co to znaczy."
+    ru: "Я не знаю, что это значит."
+    source: { kind: tatoeba, id: 5837080 }
+  - form: "znaczy"
+    pl: "To zdanie nic nie znaczy."
+    ru: "Это предложение ничего не означает."
+    source: { kind: tatoeba, id: 1176599 }
+  - form: "znaczy"
+    pl: "Więcej nie zawsze znaczy gorzej."
+    ru: "Большое количество не всегда значит плохое качество."
+    source: { kind: tatoeba, id: 12692424 }
+  - form: "znaczycie"
+    pl: "Wiele dla nas znaczycie."
+    ru: "Вы много для нас значите."
+    source: { kind: authored }
+  - form: "znaczycie"
+    pl: "Czym znaczycie drzewa?"
+    ru: "Чем вы метите деревья?"
+    source: { kind: authored }
+  - form: "znaczycie"
+    pl: "Nie znaczycie nic dla nich."
+    ru: "Вы для них ничего не значите."
+    source: { kind: authored }
+  - form: "znaczyć"
+    pl: "Co to miało znaczyć?"
+    ru: "Что это должно было значить?"
+    source: { kind: tatoeba, id: 3660650 }
+  - form: "znaczyć"
+    pl: "Co to ma znaczyć?"
+    ru: "Что это должно значить?"
+    source: { kind: translated, id: 8406782 }
+  - form: "znaczyć"
+    pl: "To może znaczyć wszystko."
+    ru: "Это может значить что угодно."
+    source: { kind: authored }
+  - form: "znaczyli"
+    pl: "Wiele dla siebie znaczyli."
+    ru: "Они много значили друг для друга."
+    source: { kind: authored }
+  - form: "znaczyli"
+    pl: "Znaczyli drzewa przed zimą."
+    ru: "Они метили деревья перед зимой."
+    source: { kind: authored }
+  - form: "znaczyli"
+    pl: "Nic dla nich nie znaczyli."
+    ru: "Они для них ничего не значили."
+    source: { kind: authored }
+  - form: "znaczyliby"
+    pl: "Znaczyliby dla nas wiele."
+    ru: "Они много значили бы для нас."
+    source: { kind: authored }
+  - form: "znaczyliby"
+    pl: "Czy znaczyliby coś dla ciebie?"
+    ru: "Значили бы они что-нибудь для тебя?"
+    source: { kind: authored }
+  - form: "znaczyliby"
+    pl: "Tacy ludzie znaczyliby więcej w małej firmie."
+    ru: "Такие люди значили бы больше в маленькой фирме."
+    source: { kind: authored }
+  - form: "znaczylibyście"
+    pl: "Znaczylibyście dla nas wiele."
+    ru: "Вы много значили бы для нас."
+    source: { kind: authored }
+  - form: "znaczylibyście"
+    pl: "Czy znaczylibyście coś w tej grze?"
+    ru: "Значили бы вы что-нибудь в этой игре?"
+    source: { kind: authored }
+  - form: "znaczylibyście"
+    pl: "Znaczylibyście więcej, gdybyście się odezwali."
+    ru: "Вы значили бы больше, если бы подали голос."
+    source: { kind: authored }
+  - form: "znaczylibyśmy"
+    pl: "Znaczylibyśmy dla nich więcej."
+    ru: "Мы значили бы для них больше."
+    source: { kind: authored }
+  - form: "znaczylibyśmy"
+    pl: "Czy znaczylibyśmy coś bez nazwiska?"
+    ru: "Значили бы мы что-нибудь без имени?"
+    source: { kind: authored }
+  - form: "znaczylibyśmy"
+    pl: "Znaczylibyśmy więcej, gdybyśmy byli razem."
+    ru: "Мы значили бы больше, если бы были вместе."
+    source: { kind: authored }
+  - form: "znaczyliście"
+    pl: "Wiele dla nas znaczyliście."
+    ru: "Вы много для нас значили."
+    source: { kind: authored }
+  - form: "znaczyliście"
+    pl: "Znaczyliście drzewa sami?"
+    ru: "Вы сами метили деревья?"
+    source: { kind: authored }
+  - form: "znaczyliście"
+    pl: "Nic dla nich nie znaczyliście."
+    ru: "Вы для них ничего не значили."
+    source: { kind: authored }
+  - form: "znaczyliśmy"
+    pl: "Znaczyliśmy dla siebie wszystko."
+    ru: "Мы значили друг для друга всё."
+    source: { kind: authored }
+  - form: "znaczyliśmy"
+    pl: "Znaczyliśmy szlak farbą."
+    ru: "Мы помечали маршрут краской."
+    source: { kind: authored }
+  - form: "znaczyliśmy"
+    pl: "Nigdy nic nie znaczyliśmy."
+    ru: "Мы никогда ничего не значили."
+    source: { kind: authored }
+  - form: "znaczył"
+    pl: "Ten gest wiele znaczył."
+    ru: "Этот жест много значил."
+    source: { kind: authored }
+  - form: "znaczył"
+    pl: "Znaczył drzewa przed wycinką."
+    ru: "Он метил деревья перед вырубкой."
+    source: { kind: authored }
+  - form: "znaczył"
+    pl: "Nic dla niej nie znaczył."
+    ru: "Он для неё ничего не значил."
+    source: { kind: authored }
+  - form: "znaczyła"
+    pl: "Naprawdę wiele dla nas znaczyła życzliwość Toma."
+    ru: "Доброта Тома действительно много для нас значила."
+    source: { kind: translated, id: 11747371 }
+  - form: "znaczyła"
+    pl: "Ta chwila wiele znaczyła."
+    ru: "Этот миг много значил."
+    source: { kind: authored }
+  - form: "znaczyła"
+    pl: "Znaczyła strony ołówkiem."
+    ru: "Она помечала страницы карандашом."
+    source: { kind: authored }
+  - form: "znaczyłaby"
+    pl: "Taka zgoda znaczyłaby wiele."
+    ru: "Такое согласие значило бы много."
+    source: { kind: authored }
+  - form: "znaczyłaby"
+    pl: "Czy ta zmiana znaczyłaby coś dla ciebie?"
+    ru: "Значила бы эта перемена что-нибудь для тебя?"
+    source: { kind: authored }
+  - form: "znaczyłaby"
+    pl: "Umowa bez podpisu znaczyłaby niewiele."
+    ru: "Договор без подписи значил бы немного."
+    source: { kind: authored }
+  - form: "znaczyłabym"
+    pl: "Znaczyłabym dla nich więcej."
+    ru: "Я значила бы для них больше."
+    source: { kind: authored }
+  - form: "znaczyłabym"
+    pl: "Czy znaczyłabym coś w tej firmie?"
+    ru: "Значила бы я что-нибудь в этой фирме?"
+    source: { kind: authored }
+  - form: "znaczyłabym"
+    pl: "Znaczyłabym coś, gdybym miała własny głos."
+    ru: "Я значила бы что-то, если бы у меня был свой голос."
+    source: { kind: authored }
+  - form: "znaczyłabyś"
+    pl: "Znaczyłabyś dla niego wszystko."
+    ru: "Ты значила бы для него всё."
+    source: { kind: authored }
+  - form: "znaczyłabyś"
+    pl: "Czy znaczyłabyś coś bez nas?"
+    ru: "Значила бы ты что-нибудь без нас?"
+    source: { kind: authored }
+  - form: "znaczyłabyś"
+    pl: "Znaczyłabyś dla nich więcej niż teraz."
+    ru: "Ты значила бы для них больше, чем сейчас."
+    source: { kind: authored }
+  - form: "znaczyłam"
+    pl: "Znaczyłam dla niego wszystko."
+    ru: "Я значила для него всё."
+    source: { kind: authored }
+  - form: "znaczyłam"
+    pl: "Znaczyłam strony zakładkami."
+    ru: "Я помечала страницы закладками."
+    source: { kind: authored }
+  - form: "znaczyłam"
+    pl: "Nigdy nic nie znaczyłam."
+    ru: "Я никогда ничего не значила."
+    source: { kind: authored }
+  - form: "znaczyłaś"
+    pl: "Wiele dla mnie znaczyłaś."
+    ru: "Ты много для меня значила."
+    source: { kind: authored }
+  - form: "znaczyłaś"
+    pl: "Czym znaczyłaś te karty?"
+    ru: "Чем ты помечала эти карты?"
+    source: { kind: authored }
+  - form: "znaczyłaś"
+    pl: "Nie wiesz, ile znaczyłaś."
+    ru: "Ты не знаешь, сколько ты значила."
+    source: { kind: authored }
+  - form: "znaczyłby"
+    pl: "Taki gest znaczyłby wiele."
+    ru: "Такой жест значил бы много."
+    source: { kind: authored }
+  - form: "znaczyłby"
+    pl: "Czy ten wynik znaczyłby coś?"
+    ru: "Значил бы этот результат что-нибудь?"
+    source: { kind: authored }
+  - form: "znaczyłby"
+    pl: "Dokument bez podpisu znaczyłby niewiele."
+    ru: "Документ без подписи значил бы немного."
+    source: { kind: authored }
+  - form: "znaczyłbym"
+    pl: "Znaczyłbym dla nich więcej."
+    ru: "Я значил бы для них больше."
+    source: { kind: authored }
+  - form: "znaczyłbym"
+    pl: "Czy znaczyłbym coś w tej grze?"
+    ru: "Значил бы я что-нибудь в этой игре?"
+    source: { kind: authored }
+  - form: "znaczyłbym"
+    pl: "Znaczyłbym coś, gdybym miał doświadczenie."
+    ru: "Я значил бы что-то, если бы у меня был опыт."
+    source: { kind: authored }
+  - form: "znaczyłbyś"
+    pl: "Znaczyłbyś dla niej wszystko."
+    ru: "Ты значил бы для неё всё."
+    source: { kind: authored }
+  - form: "znaczyłbyś"
+    pl: "Czy znaczyłbyś coś bez nas?"
+    ru: "Значил бы ты что-нибудь без нас?"
+    source: { kind: authored }
+  - form: "znaczyłbyś"
+    pl: "Znaczyłbyś więcej, gdybyś mówił głośniej."
+    ru: "Ты значил бы больше, если бы говорил громче."
+    source: { kind: authored }
+  - form: "znaczyłem"
+    pl: "Znaczyłem dla niej wszystko."
+    ru: "Я значил для неё всё."
+    source: { kind: authored }
+  - form: "znaczyłem"
+    pl: "Znaczyłem drzewa farbą."
+    ru: "Я метил деревья краской."
+    source: { kind: authored }
+  - form: "znaczyłem"
+    pl: "Nigdy nic nie znaczyłem."
+    ru: "Я никогда ничего не значил."
+    source: { kind: authored }
+  - form: "znaczyłeś"
+    pl: "Wiele dla mnie znaczyłeś."
+    ru: "Ты много для меня значил."
+    source: { kind: authored }
+  - form: "znaczyłeś"
+    pl: "Czym znaczyłeś te drzewa?"
+    ru: "Чем ты метил эти деревья?"
+    source: { kind: authored }
+  - form: "znaczyłeś"
+    pl: "Nie wiesz, ile znaczyłeś."
+    ru: "Ты не знаешь, сколько ты значил."
+    source: { kind: authored }
+  - form: "znaczyło"
+    pl: "Co by to znaczyło?"
+    ru: "Что бы это значило?"
+    source: { kind: translated, id: 9671721 }
+  - form: "znaczyło"
+    pl: "To nic nie znaczyło."
+    ru: "Это ничего не значило."
+    source: { kind: authored }
+  - form: "znaczyło"
+    pl: "Jego milczenie wiele znaczyło."
+    ru: "Его молчание много значило."
+    source: { kind: authored }
+  - form: "znaczyłoby"
+    pl: "Gdybyśmy my myli sobie ręce, gdybyście wy myli sobie ręce, gdybyś ty mył sobie ręce, czy to znaczyłoby, że ręce są umyte?"
+    ru: "Если руки мыли вы, если руки мыли мы, если руки мыл и ты - значит руки вымыты?"
+    source: { kind: tatoeba, id: 3450086 }
+  - form: "znaczyłoby"
+    pl: "To znaczyłoby koniec sporu."
+    ru: "Это означало бы конец спора."
+    source: { kind: authored }
+  - form: "znaczyłoby"
+    pl: "Zwycięstwo znaczyłoby dla nas wszystko."
+    ru: "Победа значила бы для нас всё."
+    source: { kind: authored }
+  - form: "znaczyłoby"
+    pl: "Milczenie znaczyłoby zgodę."
+    ru: "Молчание означало бы согласие."
+    source: { kind: authored }
+  - form: "znaczyły"
+    pl: "Nie miał pojęcia co znaczyły te słowa."
+    ru: "Он понятия не имел, что значили эти слова."
+    source: { kind: translated, id: 2256111 }
+  - form: "znaczyły"
+    pl: "Te znaki nic nie znaczyły."
+    ru: "Эти знаки ничего не значили."
+    source: { kind: authored }
+  - form: "znaczyły"
+    pl: "Jej słowa wiele znaczyły."
+    ru: "Её слова много значили."
+    source: { kind: authored }
+  - form: "znaczyłyby"
+    pl: "Takie zmiany znaczyłyby wiele."
+    ru: "Такие перемены значили бы много."
+    source: { kind: authored }
+  - form: "znaczyłyby"
+    pl: "Czy te słowa znaczyłyby coś?"
+    ru: "Значили бы эти слова что-нибудь?"
+    source: { kind: authored }
+  - form: "znaczyłyby"
+    pl: "Te słowa znaczyłyby więcej bez ironii."
+    ru: "Эти слова значили бы больше без иронии."
+    source: { kind: authored }
+  - form: "znaczyłybyście"
+    pl: "Znaczyłybyście dla nas wiele."
+    ru: "Вы много значили бы для нас."
+    source: { kind: authored }
+  - form: "znaczyłybyście"
+    pl: "Czy znaczyłybyście coś bez nas?"
+    ru: "Значили бы вы что-нибудь без нас?"
+    source: { kind: authored }
+  - form: "znaczyłybyście"
+    pl: "Znaczyłybyście więcej, gdybyście się zgłosiły."
+    ru: "Вы значили бы больше, если бы заявили о себе."
+    source: { kind: authored }
+  - form: "znaczyłybyśmy"
+    pl: "Znaczyłybyśmy dla nich więcej."
+    ru: "Мы значили бы для них больше."
+    source: { kind: authored }
+  - form: "znaczyłybyśmy"
+    pl: "Czy znaczyłybyśmy coś w tej firmie?"
+    ru: "Значили бы мы что-нибудь в этой фирме?"
+    source: { kind: authored }
+  - form: "znaczyłybyśmy"
+    pl: "Znaczyłybyśmy więcej, gdybyśmy działały razem."
+    ru: "Мы значили бы больше, если бы действовали вместе."
+    source: { kind: authored }
+  - form: "znaczyłyście"
+    pl: "Wiele dla nas znaczyłyście."
+    ru: "Вы много для нас значили."
+    source: { kind: authored }
+  - form: "znaczyłyście"
+    pl: "Czym znaczyłyście te karty?"
+    ru: "Чем вы помечали эти карты?"
+    source: { kind: authored }
+  - form: "znaczyłyście"
+    pl: "Nic dla nich nie znaczyłyście."
+    ru: "Вы для них ничего не значили."
+    source: { kind: authored }
+  - form: "znaczyłyśmy"
+    pl: "Znaczyłyśmy dla siebie wszystko."
+    ru: "Мы значили друг для друга всё."
+    source: { kind: authored }
+  - form: "znaczyłyśmy"
+    pl: "Znaczyłyśmy strony zakładkami."
+    ru: "Мы помечали страницы закладками."
+    source: { kind: authored }
+  - form: "znaczyłyśmy"
+    pl: "Nigdy nic nie znaczyłyśmy."
+    ru: "Мы никогда ничего не значили."
+    source: { kind: authored }
+  - form: "znaczymy"
+    pl: "Wiele dla siebie znaczymy."
+    ru: "Мы много значим друг для друга."
+    source: { kind: authored }
+  - form: "znaczymy"
+    pl: "Znaczymy szlak farbą."
+    ru: "Мы метим маршрут краской."
+    source: { kind: authored }
+  - form: "znaczymy"
+    pl: "Nic tu nie znaczymy."
+    ru: "Мы здесь ничего не значим."
+    source: { kind: authored }
+  - form: "znaczysz"
+    pl: "Wiele dla mnie znaczysz."
+    ru: "Ты много для меня значишь."
+    source: { kind: translated, id: 396772 }
+  - form: "znaczysz"
+    pl: "Czym znaczysz te strony?"
+    ru: "Чем ты помечаешь эти страницы?"
+    source: { kind: authored }
+  - form: "znaczysz"
+    pl: "Wiesz, ile dla nas znaczysz."
+    ru: "Ты знаешь, сколько ты для нас значишь."
+    source: { kind: authored }

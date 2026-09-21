@@ -1,0 +1,72 @@
+# review
+id: pod
+format: 2
+lemma: "pod"
+rank: 187
+pos: prep
+pron: { cyr: "пот" }
+senses:
+  - id: under-where
+    ru: "под (+ творительный падеж): где"
+    examples:
+      - pl: "Jest pod krzesłem."
+        ru: "Он под стулом."
+        source: { kind: tatoeba, id: 4642252 }
+      - pl: "Pod stołem siedzi kot."
+        ru: "Под столом сидит кот."
+        source: { kind: tatoeba, id: 2202155 }
+      - pl: "Siedziała pod drzewem."
+        ru: "Она сидела под деревом."
+        source: { kind: tatoeba, id: 754201 }
+  - id: under-where-to
+    ru: "под (+ винительный падеж): куда; в устойчивых оборотах"
+    examples:
+      - pl: "Patrz pod nogi."
+        ru: "Смотри под ноги."
+        source: { kind: tatoeba, id: 5377648 }
+      - pl: "Dodaj opis pod obrazkiem."
+        ru: "Добавь описание под картинкой."
+        source: { kind: tatoeba, id: 6855095 }
+      - pl: "Chłopcy są pod łóżkiem."
+        ru: "Мальчики под кроватью."
+        source: { kind: tatoeba, id: 5322146 }
+notes:
+  - { kind: government, text: "Как в русском, падеж зависит от вопроса: pod stołem «под столом» (творительный, где) и pod stół «под стол» (винительный, куда)." }
+  - { kind: usage, text: "Перед местоимением mną предлог получает -e: pode mną «подо мной»." }
+  - { kind: usage, text: "Частые обороты: pod ręką «под рукой», pod wrażeniem «под впечатлением», pod tytułem «под названием»." }
+collocations:
+  - { pl: "pod stołem", ru: "под столом" }
+  - { pl: "pod ręką", ru: "под рукой" }
+  - { pl: "pod wrażeniem", ru: "под впечатлением" }
+  - { pl: "pode mną", ru: "подо мной" }
+etymology: "Праславянское *podъ — то же слово, что русское «под»; совпадают и значение, и правило выбора падежа."
+memory: "pod + творительный «где» и + винительный «куда», ровно как в русском. Перед mną появляется -e: pode mną «подо мной»."
+idioms:
+  - { pl: "pod ręką", ru: "под рукой" }
+  - { pl: "pod wrażeniem", ru: "под впечатлением" }
+  - { pl: "pod szczęśliwą gwiazdą", ru: "под счастливой звездой" }
+formExamples:
+  - form: "pod"
+    pl: "Patrz pod nogi."
+    ru: "Смотри под ноги."
+    source: { kind: tatoeba, id: 5377648 }
+  - form: "pod"
+    pl: "Jest pod krzesłem."
+    ru: "Он под стулом."
+    source: { kind: tatoeba, id: 4642252 }
+  - form: "pod"
+    pl: "Siedziała pod drzewem."
+    ru: "Она сидела под деревом."
+    source: { kind: tatoeba, id: 754201 }
+  - form: "pode"
+    pl: "Owad jest pode mną."
+    ru: "Насекомое подо мной."
+    source: { kind: translated, id: 12229038 }
+  - form: "pode"
+    pl: "Siedzi pode mną w autobusie."
+    ru: "Он сидит подо мной в автобусе."
+    source: { kind: authored }
+  - form: "pode"
+    pl: "Ziemia usuwała się pode mną."
+    ru: "Земля уходила у меня из-под ног."
+    source: { kind: authored }

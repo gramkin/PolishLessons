@@ -1,0 +1,806 @@
+# review
+id: szukac
+format: 2
+lemma: "szukać"
+rank: 210
+pos: verb
+aspect: imperf
+pron: { cyr: "шу́каць" }
+senses:
+  - id: look-for
+    ru: "искать (кого-либо, что-либо) — с родительным падежом"
+    note: "В польском всегда родительный: szukam pracy, szukam kluczy."
+    examples:
+      - pl: "Szukam ołówka."
+        ru: "Я ищу карандаш."
+        source: { kind: tatoeba, id: 8457921 }
+      - pl: "Szukamy jej."
+        ru: "Мы её ищем."
+        source: { kind: tatoeba, id: 4719298 }
+      - pl: "Szuka go policja."
+        ru: "Его ищет полиция."
+        source: { kind: tatoeba, id: 6328343 }
+  - id: search
+    ru: "искать, разыскивать; подыскивать"
+    examples:
+      - pl: "Co szukasz?"
+        ru: "Что ты ищешь?"
+        source: { kind: tatoeba, id: 2403037 }
+      - pl: "Szukasz nas?"
+        ru: "Ты нас ищешь?"
+        source: { kind: tatoeba, id: 8766222 }
+      - pl: "Szukałem pana."
+        ru: "Я вас искал."
+        source: { kind: tatoeba, id: 722343 }
+notes:
+  - { kind: government, text: "szukać требует родительного падежа: szukam pracy «ищу работу», szukam kluczy «ищу ключи». Русский здесь чаще ставит винительный." }
+  - { kind: usage, text: "Совершенный вид — poszukać или znaleźć «найти»: Szukałem i znalazłem." }
+  - { kind: usage, text: "szukać w internecie — «искать в интернете»; существительное — poszukiwanie «поиск»." }
+collocations:
+  - { pl: "szukać pracy", ru: "искать работу" }
+  - { pl: "szukać kluczy", ru: "искать ключи" }
+  - { pl: "kto szuka, ten znajdzie", ru: "кто ищет, тот найдёт" }
+  - { pl: "szukać w internecie", ru: "искать в интернете" }
+etymology: "Праславянское *šukati или заимствование из средневерхненемецкого suochen «искать»; в русском прямого родственника нет."
+memory: "Главное отличие от русского — падеж: szukać требует родительного. Szukam pracy «Ищу работу», szukam kluczy «Ищу ключи»."
+idioms:
+  - { pl: "kto szuka, ten znajdzie", ru: "кто ищет, тот найдёт" }
+  - { pl: "szukać dziury w całym", ru: "придираться к мелочам" }
+  - { pl: "szukać igły w stogu siana", ru: "искать иголку в стоге сена" }
+formExamples:
+  - form: "szuka"
+    pl: "Szuka go policja."
+    ru: "Его ищет полиция."
+    source: { kind: tatoeba, id: 6328343 }
+  - form: "szuka"
+    pl: "Kto szuka, ten znajdzie."
+    ru: "Кто ищет, тот найдет."
+    source: { kind: tatoeba, id: 526728 }
+  - form: "szuka"
+    pl: "Dlaczego ona go nie szuka?"
+    ru: "Почему она его не ищет?"
+    source: { kind: tatoeba, id: 10572962 }
+  - form: "szukacie"
+    pl: "Szukacie nas?"
+    ru: "Вы нас ищете?"
+    source: { kind: tatoeba, id: 8547613 }
+  - form: "szukacie"
+    pl: "Wy szukacie."
+    ru: "Вы ищете."
+    source: { kind: translated, id: 8753404 }
+  - form: "szukacie"
+    pl: "Czego szukacie w szafie?"
+    ru: "Что вы ищете в шкафу?"
+    source: { kind: authored }
+  - form: "szukać"
+    pl: "Wstanę, po mieście chodzić będę, wśród ulic i placów, szukać będę ukochanego mej duszy."
+    ru: "Встану же я, пойду по городу, по улицам и площадям, и буду искать того, которого любит душа моя."
+    source: { kind: tatoeba, id: 8580242 }
+  - form: "szukać"
+    pl: "Szukać wskazówek."
+    ru: "Искать подсказки."
+    source: { kind: translated, id: 5900600 }
+  - form: "szukać"
+    pl: "Trzeba szukać innego rozwiązania."
+    ru: "Надо искать другое решение."
+    source: { kind: authored }
+  - form: "szukaj"
+    pl: "Nie szukaj błędów w innych."
+    ru: "Не ищи недостатки у других."
+    source: { kind: tatoeba, id: 364803 }
+  - form: "szukaj"
+    pl: "Szukaj!"
+    ru: "Ищи!"
+    source: { kind: translated, id: 12359659 }
+  - form: "szukaj"
+    pl: "Szukaj dobrze, gdzieś tu jest."
+    ru: "Ищи хорошо, он где-то здесь."
+    source: { kind: authored }
+  - form: "szukają"
+    pl: "Szukają."
+    ru: "Они ищут."
+    source: { kind: translated, id: 8745440 }
+  - form: "szukają"
+    pl: "Szukają nowego mieszkania."
+    ru: "Они ищут новую квартиру."
+    source: { kind: authored }
+  - form: "szukają"
+    pl: "Wszyscy szukają okazji."
+    ru: "Все ищут выгодный случай."
+    source: { kind: authored }
+  - form: "szukając"
+    pl: "Przybył do Nowego Jorku, szukając pracy."
+    ru: "Он приехал в Нью-Йорк в поисках работы."
+    source: { kind: translated, id: 12469997 }
+  - form: "szukając"
+    pl: "Szukając kluczy, spóźnił się."
+    ru: "Ища ключи, он опоздал."
+    source: { kind: authored }
+  - form: "szukając"
+    pl: "Szukając ciszy, wyjechał na wieś."
+    ru: "В поисках тишины он уехал в деревню."
+    source: { kind: authored }
+  - form: "szukająca"
+    pl: "Osoba szukająca pracy powinna przyjść jutro."
+    ru: "Человек, ищущий работу, должен прийти завтра."
+    source: { kind: authored }
+  - form: "szukająca"
+    pl: "To firma szukająca inwestorów."
+    ru: "Это фирма, ищущая инвесторов."
+    source: { kind: authored }
+  - form: "szukająca"
+    pl: "Kobieta szukająca adresu zapytała nas o drogę."
+    ru: "Женщина, искавшая адрес, спросила у нас дорогу."
+    source: { kind: authored }
+  - form: "szukającą"
+    pl: "Znam osobę szukającą mieszkania."
+    ru: "Я знаю человека, ищущего квартиру."
+    source: { kind: authored }
+  - form: "szukającą"
+    pl: "Widziałem dziewczynę szukającą psa."
+    ru: "Я видел девушку, искавшую собаку."
+    source: { kind: authored }
+  - form: "szukającą"
+    pl: "Spotkałem panią szukającą pomocy."
+    ru: "Я встретил женщину, искавшую помощи."
+    source: { kind: authored }
+  - form: "szukające"
+    pl: "Osoby szukające pracy zgłaszają się tutaj."
+    ru: "Ищущие работу обращаются сюда."
+    source: { kind: authored }
+  - form: "szukające"
+    pl: "Dzieci szukające skarbu biegały po ogrodzie."
+    ru: "Дети, искавшие клад, бегали по саду."
+    source: { kind: authored }
+  - form: "szukające"
+    pl: "To psy szukające ludzi pod gruzami."
+    ru: "Это собаки, ищущие людей под завалами."
+    source: { kind: authored }
+  - form: "szukającego"
+    pl: "Poznałem kogoś szukającego mieszkania."
+    ru: "Я познакомился с кем-то, ищущим квартиру."
+    source: { kind: authored }
+  - form: "szukającego"
+    pl: "Nie znam nikogo szukającego takiej książki."
+    ru: "Я не знаю никого, кто искал бы такую книгу."
+    source: { kind: authored }
+  - form: "szukającego"
+    pl: "Poproś kolegę szukającego pracy."
+    ru: "Попроси коллегу, ищущего работу."
+    source: { kind: authored }
+  - form: "szukającej"
+    pl: "Pomóż osobie szukającej drogi."
+    ru: "Помоги человеку, ищущему дорогу."
+    source: { kind: authored }
+  - form: "szukającej"
+    pl: "Nie ma tu osoby szukającej pracy."
+    ru: "Здесь нет человека, ищущего работу."
+    source: { kind: authored }
+  - form: "szukającej"
+    pl: "Dzięki szukającej nas sąsiadce znaleźliśmy się."
+    ru: "Благодаря искавшей нас соседке мы нашлись."
+    source: { kind: authored }
+  - form: "szukającemu"
+    pl: "Pomóż szukającemu drogi turyście."
+    ru: "Помоги туристу, ищущему дорогу."
+    source: { kind: authored }
+  - form: "szukającemu"
+    pl: "Szukającemu zawsze jest trudniej na początku."
+    ru: "Ищущему всегда труднее вначале."
+    source: { kind: authored }
+  - form: "szukającemu"
+    pl: "Przyjrzyj się psu szukającemu tropu."
+    ru: "Присмотрись к собаке, ищущей след."
+    source: { kind: authored }
+  - form: "szukający"
+    pl: "Ludzie szukający pracy czekali w kolejce."
+    ru: "Люди, искавшие работу, ждали в очереди."
+    source: { kind: authored }
+  - form: "szukający"
+    pl: "Turysta szukający hotelu zapytał o drogę."
+    ru: "Турист, искавший гостиницу, спросил дорогу."
+    source: { kind: authored }
+  - form: "szukający"
+    pl: "To pies szukający swojego pana."
+    ru: "Это собака, ищущая своего хозяина."
+    source: { kind: authored }
+  - form: "szukających"
+    pl: "Wśród szukających pracy byli studenci."
+    ru: "Среди искавших работу были студенты."
+    source: { kind: authored }
+  - form: "szukających"
+    pl: "Liczba szukających mieszkania rośnie."
+    ru: "Число ищущих квартиру растёт."
+    source: { kind: authored }
+  - form: "szukających"
+    pl: "Nie ma tu osób szukających pomocy."
+    ru: "Здесь нет людей, ищущих помощи."
+    source: { kind: authored }
+  - form: "szukającym"
+    pl: "Pomagamy szukającym pracy."
+    ru: "Мы помогаем ищущим работу."
+    source: { kind: authored }
+  - form: "szukającym"
+    pl: "Szukającym drogi warto dać mapę."
+    ru: "Ищущим дорогу стоит дать карту."
+    source: { kind: authored }
+  - form: "szukającym"
+    pl: "W szukającym tłumie panował chaos."
+    ru: "В ищущей толпе царил хаос."
+    source: { kind: authored }
+  - form: "szukającymi"
+    pl: "Rozmawiam z osobami szukającymi mieszkania."
+    ru: "Я разговариваю с людьми, ищущими квартиру."
+    source: { kind: authored }
+  - form: "szukającymi"
+    pl: "Między szukającymi pracy jest duża konkurencja."
+    ru: "Среди ищущих работу большая конкуренция."
+    source: { kind: authored }
+  - form: "szukającymi"
+    pl: "Zajmuje się szukającymi schronienia."
+    ru: "Он занимается ищущими убежища."
+    source: { kind: authored }
+  - form: "szukajcie"
+    pl: "Szukajcie, a znajdziecie."
+    ru: "Ищите, и найдёте."
+    source: { kind: authored }
+  - form: "szukajcie"
+    pl: "Szukajcie w drugim pokoju."
+    ru: "Ищите в другой комнате."
+    source: { kind: authored }
+  - form: "szukajcie"
+    pl: "Nie szukajcie problemów."
+    ru: "Не ищите проблем."
+    source: { kind: authored }
+  - form: "szukajmy"
+    pl: "Szukajmy razem."
+    ru: "Давайте искать вместе."
+    source: { kind: authored }
+  - form: "szukajmy"
+    pl: "Szukajmy innego wyjścia."
+    ru: "Давайте искать другой выход."
+    source: { kind: authored }
+  - form: "szukajmy"
+    pl: "Nie szukajmy winnych."
+    ru: "Не будем искать виноватых."
+    source: { kind: authored }
+  - form: "szukali"
+    pl: "Szukali pracy."
+    ru: "Они искали работу."
+    source: { kind: translated, id: 6305543 }
+  - form: "szukali"
+    pl: "Szukali go przez tydzień."
+    ru: "Они искали его неделю."
+    source: { kind: authored }
+  - form: "szukali"
+    pl: "Szukali schronienia przed deszczem."
+    ru: "Они искали укрытие от дождя."
+    source: { kind: authored }
+  - form: "szukaliby"
+    pl: "Szukaliby dalej, gdyby mieli czas."
+    ru: "Они искали бы дальше, если бы у них было время."
+    source: { kind: authored }
+  - form: "szukaliby"
+    pl: "Bez mapy nie szukaliby drogi sami."
+    ru: "Без карты они не искали бы дорогу сами."
+    source: { kind: authored }
+  - form: "szukaliby"
+    pl: "Czy szukaliby innego rozwiązania?"
+    ru: "Искали бы они другое решение?"
+    source: { kind: authored }
+  - form: "szukalibyście"
+    pl: "Szukalibyście dłużej?"
+    ru: "Вы искали бы дольше?"
+    source: { kind: authored }
+  - form: "szukalibyście"
+    pl: "Gdybyście chcieli, szukalibyście razem."
+    ru: "Если бы вы хотели, вы искали бы вместе."
+    source: { kind: authored }
+  - form: "szukalibyście"
+    pl: "Gdzie szukalibyście pomocy?"
+    ru: "Где бы вы искали помощи?"
+    source: { kind: authored }
+  - form: "szukalibyśmy"
+    pl: "Szukalibyśmy dalej."
+    ru: "Мы искали бы дальше."
+    source: { kind: authored }
+  - form: "szukalibyśmy"
+    pl: "Bez latarki nie szukalibyśmy w nocy."
+    ru: "Без фонаря мы не искали бы ночью."
+    source: { kind: authored }
+  - form: "szukalibyśmy"
+    pl: "Czy szukalibyśmy innego domu?"
+    ru: "Искали бы мы другой дом?"
+    source: { kind: authored }
+  - form: "szukaliście"
+    pl: "Czego szukaliście?"
+    ru: "Что вы искали?"
+    source: { kind: authored }
+  - form: "szukaliście"
+    pl: "Długo szukaliście kluczy?"
+    ru: "Вы долго искали ключи?"
+    source: { kind: authored }
+  - form: "szukaliście"
+    pl: "Szukaliście nas na dworcu?"
+    ru: "Вы искали нас на вокзале?"
+    source: { kind: authored }
+  - form: "szukaliśmy"
+    pl: "Szukaliśmy jej."
+    ru: "Мы её искали."
+    source: { kind: translated, id: 5900612 }
+  - form: "szukaliśmy"
+    pl: "Szukaliśmy mieszkania pół roku."
+    ru: "Мы искали квартиру полгода."
+    source: { kind: authored }
+  - form: "szukaliśmy"
+    pl: "Szukaliśmy cię wszędzie."
+    ru: "Мы искали тебя везде."
+    source: { kind: authored }
+  - form: "szukał"
+    pl: "Ptak szukał robaków."
+    ru: "Птица искала червяков."
+    source: { kind: tatoeba, id: 10482993 }
+  - form: "szukał"
+    pl: "Chłopiec szukał straconego klucza."
+    ru: "Мальчик искал потерянный ключ."
+    source: { kind: tatoeba, id: 1587684 }
+  - form: "szukał"
+    pl: "Tom szukał liny."
+    ru: "Том искал верёвку."
+    source: { kind: translated, id: 3985961 }
+  - form: "szukała"
+    pl: "Zatroskana słonica szukała swojego maleństwa."
+    ru: "Обеспокоенная слониха искала своего малыша."
+    source: { kind: tatoeba, id: 12476502 }
+  - form: "szukała"
+    pl: "Layla szukała wyjścia."
+    ru: "Лейла искала выход."
+    source: { kind: translated, id: 6547715 }
+  - form: "szukała"
+    pl: "Szukała pracy przez rok."
+    ru: "Она искала работу год."
+    source: { kind: authored }
+  - form: "szukałaby"
+    pl: "Szukałaby dalej, gdyby miała nadzieję."
+    ru: "Она искала бы дальше, если бы была надежда."
+    source: { kind: authored }
+  - form: "szukałaby"
+    pl: "Bez adresu nie szukałaby tego domu."
+    ru: "Без адреса она не искала бы этот дом."
+    source: { kind: authored }
+  - form: "szukałaby"
+    pl: "Czy szukałaby innej drogi?"
+    ru: "Искала бы она другой путь?"
+    source: { kind: authored }
+  - form: "szukałabym"
+    pl: "Szukałabym w internecie."
+    ru: "Я искала бы в интернете."
+    source: { kind: authored }
+  - form: "szukałabym"
+    pl: "Gdybym mogła, szukałabym dalej."
+    ru: "Если бы я могла, я искала бы дальше."
+    source: { kind: authored }
+  - form: "szukałabym"
+    pl: "Nie szukałabym tam pomocy."
+    ru: "Я не искала бы там помощи."
+    source: { kind: authored }
+  - form: "szukałabyś"
+    pl: "Gdzie szukałabyś takiej książki?"
+    ru: "Где бы ты искала такую книгу?"
+    source: { kind: authored }
+  - form: "szukałabyś"
+    pl: "Szukałabyś dłużej?"
+    ru: "Ты искала бы дольше?"
+    source: { kind: authored }
+  - form: "szukałabyś"
+    pl: "Gdybyś zgubiła klucze, szukałabyś w torbie."
+    ru: "Если бы ты потеряла ключи, ты искала бы в сумке."
+    source: { kind: authored }
+  - form: "szukałam"
+    pl: "Szukałam wszędzie. Ich nigdzie nie było."
+    ru: "Я везде искала. Их нигде не было."
+    source: { kind: tatoeba, id: 10768429 }
+  - form: "szukałam"
+    pl: "Z jakiegoś powodu książka, której szukałam, leżała na półce z czasopismami."
+    ru: "По какой-то причине книга, которую я искала, лежала на полке с журналами."
+    source: { kind: tatoeba, id: 7960576 }
+  - form: "szukałam"
+    pl: "Szukałam cię przez cały wieczór."
+    ru: "Я искала тебя весь вечер."
+    source: { kind: authored }
+  - form: "szukałaś"
+    pl: "Szukałaś wszędzie?"
+    ru: "Ты везде искала?"
+    source: { kind: tatoeba, id: 12300798 }
+  - form: "szukałaś"
+    pl: "Nie miałam pojęcia, czego szukałaś."
+    ru: "Я понятия не имела, что ты искала."
+    source: { kind: translated, id: 12215112 }
+  - form: "szukałaś"
+    pl: "Czego szukałaś w szufladzie?"
+    ru: "Что ты искала в ящике?"
+    source: { kind: authored }
+  - form: "szukałby"
+    pl: "Szukałby dalej, gdyby wierzył."
+    ru: "Он искал бы дальше, если бы верил."
+    source: { kind: authored }
+  - form: "szukałby"
+    pl: "Bez mapy nie szukałby drogi sam."
+    ru: "Без карты он не искал бы дорогу сам."
+    source: { kind: authored }
+  - form: "szukałby"
+    pl: "Kto szukałby tego w nocy?"
+    ru: "Кто искал бы это ночью?"
+    source: { kind: authored }
+  - form: "szukałbym"
+    pl: "Szukałbym w internecie."
+    ru: "Я искал бы в интернете."
+    source: { kind: authored }
+  - form: "szukałbym"
+    pl: "Gdybym mógł, szukałbym dalej."
+    ru: "Если бы я мог, я искал бы дальше."
+    source: { kind: authored }
+  - form: "szukałbym"
+    pl: "Nie szukałbym tam pomocy."
+    ru: "Я не искал бы там помощи."
+    source: { kind: authored }
+  - form: "szukałbyś"
+    pl: "Gdzie szukałbyś takiej książki?"
+    ru: "Где бы ты искал такую книгу?"
+    source: { kind: authored }
+  - form: "szukałbyś"
+    pl: "Szukałbyś dłużej?"
+    ru: "Ты искал бы дольше?"
+    source: { kind: authored }
+  - form: "szukałbyś"
+    pl: "Gdybyś zgubił klucze, szukałbyś w kieszeni."
+    ru: "Если бы ты потерял ключи, ты искал бы в кармане."
+    source: { kind: authored }
+  - form: "szukałem"
+    pl: "Szukałem pana."
+    ru: "Я вас искал."
+    source: { kind: tatoeba, id: 722343 }
+  - form: "szukałem"
+    pl: "Szukałem odpowiedzi na twoje pytanie."
+    ru: "Я искал ответ на твой вопрос."
+    source: { kind: tatoeba, id: 3152883 }
+  - form: "szukałem"
+    pl: "Znalazłem to rzadkie wydanie, którego tak długo szukałem."
+    ru: "Я нашёл редкое издание, которое я так долго искал."
+    source: { kind: tatoeba, id: 2810133 }
+  - form: "szukałeś"
+    pl: "Gdzie szukałeś?"
+    ru: "Где ты искал?"
+    source: { kind: translated, id: 2274555 }
+  - form: "szukałeś"
+    pl: "Czego szukałeś w piwnicy?"
+    ru: "Что ты искал в подвале?"
+    source: { kind: authored }
+  - form: "szukałeś"
+    pl: "Szukałeś mnie?"
+    ru: "Ты меня искал?"
+    source: { kind: authored }
+  - form: "szukało"
+    pl: "Dziecko szukało zabawki pod łóżkiem."
+    ru: "Ребёнок искал игрушку под кроватью."
+    source: { kind: authored }
+  - form: "szukało"
+    pl: "Wiele osób szukało tam pracy."
+    ru: "Многие искали там работу."
+    source: { kind: authored }
+  - form: "szukało"
+    pl: "Szukało się wtedy inaczej, bez internetu."
+    ru: "Тогда искали иначе, без интернета."
+    source: { kind: authored }
+  - form: "szukałoby"
+    pl: "Dziecko szukałoby dłużej."
+    ru: "Ребёнок искал бы дольше."
+    source: { kind: authored }
+  - form: "szukałoby"
+    pl: "Wiele osób szukałoby tam pomocy."
+    ru: "Многие искали бы там помощи."
+    source: { kind: authored }
+  - form: "szukałoby"
+    pl: "Bez wskazówki szukałoby się w nieskończoność."
+    ru: "Без подсказки искали бы бесконечно."
+    source: { kind: authored }
+  - form: "szukały"
+    pl: "Czego one tam szukały?"
+    ru: "Что они там искали?"
+    source: { kind: tatoeba, id: 6300164 }
+  - form: "szukały"
+    pl: "A potem będą szukały winnych!"
+    ru: "А потом будут искать виноватых!"
+    source: { kind: tatoeba, id: 6320208 }
+  - form: "szukały"
+    pl: "Policyjne psy szukały narkotyków na lotnisku."
+    ru: "Полицейские собаки искали наркотики в аэропорту."
+    source: { kind: tatoeba, id: 6207831 }
+  - form: "szukałyby"
+    pl: "Szukałyby dalej, gdyby miały czas."
+    ru: "Они искали бы дальше, если бы у них было время."
+    source: { kind: authored }
+  - form: "szukałyby"
+    pl: "Bez mapy nie szukałyby drogi same."
+    ru: "Без карты они не искали бы дорогу сами."
+    source: { kind: authored }
+  - form: "szukałyby"
+    pl: "Czy szukałyby innego mieszkania?"
+    ru: "Искали бы они другую квартиру?"
+    source: { kind: authored }
+  - form: "szukałybyście"
+    pl: "Szukałybyście dłużej?"
+    ru: "Вы искали бы дольше?"
+    source: { kind: authored }
+  - form: "szukałybyście"
+    pl: "Gdybyście chciały, szukałybyście razem."
+    ru: "Если бы вы хотели, вы искали бы вместе."
+    source: { kind: authored }
+  - form: "szukałybyście"
+    pl: "Gdzie szukałybyście pomocy?"
+    ru: "Где бы вы искали помощи?"
+    source: { kind: authored }
+  - form: "szukałybyśmy"
+    pl: "Szukałybyśmy dalej."
+    ru: "Мы искали бы дальше."
+    source: { kind: authored }
+  - form: "szukałybyśmy"
+    pl: "Bez latarki nie szukałybyśmy w nocy."
+    ru: "Без фонаря мы не искали бы ночью."
+    source: { kind: authored }
+  - form: "szukałybyśmy"
+    pl: "Czy szukałybyśmy innego domu?"
+    ru: "Искали бы мы другой дом?"
+    source: { kind: authored }
+  - form: "szukałyście"
+    pl: "Czego szukałyście?"
+    ru: "Что вы искали?"
+    source: { kind: authored }
+  - form: "szukałyście"
+    pl: "Długo szukałyście kluczy?"
+    ru: "Вы долго искали ключи?"
+    source: { kind: authored }
+  - form: "szukałyście"
+    pl: "Szukałyście nas na dworcu?"
+    ru: "Вы искали нас на вокзале?"
+    source: { kind: authored }
+  - form: "szukałyśmy"
+    pl: "Szukałyśmy mieszkania pół roku."
+    ru: "Мы искали квартиру полгода."
+    source: { kind: authored }
+  - form: "szukałyśmy"
+    pl: "Szukałyśmy cię wszędzie."
+    ru: "Мы искали тебя везде."
+    source: { kind: authored }
+  - form: "szukałyśmy"
+    pl: "Szukałyśmy schronienia przed deszczem."
+    ru: "Мы искали укрытие от дождя."
+    source: { kind: authored }
+  - form: "szukam"
+    pl: "Szukam ołówka."
+    ru: "Я ищу карандаш."
+    source: { kind: tatoeba, id: 8457921 }
+  - form: "szukam"
+    pl: "Szukam bankomatu."
+    ru: "Я ищу банкомат."
+    source: { kind: tatoeba, id: 10642935 }
+  - form: "szukam"
+    pl: "Nadal szukam Toma."
+    ru: "Я всё ещё ищу Тома."
+    source: { kind: tatoeba, id: 3718696 }
+  - form: "szukamy"
+    pl: "Szukamy jej."
+    ru: "Мы её ищем."
+    source: { kind: tatoeba, id: 4719298 }
+  - form: "szukamy"
+    pl: "Szukamy."
+    ru: "Мы ищем."
+    source: { kind: translated, id: 8500441 }
+  - form: "szukamy"
+    pl: "Szukamy nowego mieszkania."
+    ru: "Мы ищем новую квартиру."
+    source: { kind: authored }
+  - form: "szukana"
+    pl: "Ta książka jest bardzo szukana."
+    ru: "Эту книгу очень ищут."
+    source: { kind: authored }
+  - form: "szukana"
+    pl: "Kobieta szukana przez policję zgłosiła się sama."
+    ru: "Женщина, которую искала полиция, явилась сама."
+    source: { kind: authored }
+  - form: "szukana"
+    pl: "To najbardziej szukana pamiątka z tego regionu."
+    ru: "Это самый разыскиваемый сувенир из этого края."
+    source: { kind: authored }
+  - form: "szukaną"
+    pl: "Znalazłem szukaną stronę."
+    ru: "Я нашёл искомую страницу."
+    source: { kind: authored }
+  - form: "szukaną"
+    pl: "Wreszcie mam szukaną książkę."
+    ru: "Наконец у меня есть искомая книга."
+    source: { kind: authored }
+  - form: "szukaną"
+    pl: "Podał nam szukaną informację."
+    ru: "Он дал нам искомую информацию."
+    source: { kind: authored }
+  - form: "szukane"
+    pl: "Te części są wciąż szukane."
+    ru: "Эти детали до сих пор ищут."
+    source: { kind: authored }
+  - form: "szukane"
+    pl: "Szukane osoby odnalazły się."
+    ru: "Разыскиваемые люди нашлись."
+    source: { kind: authored }
+  - form: "szukane"
+    pl: "To szukane od lat dokumenty."
+    ru: "Это документы, которые ищут годами."
+    source: { kind: authored }
+  - form: "szukanego"
+    pl: "Nie znalazłem szukanego pliku."
+    ru: "Я не нашёл искомый файл."
+    source: { kind: authored }
+  - form: "szukanego"
+    pl: "Policja zatrzymała szukanego mężczyznę."
+    ru: "Полиция задержала разыскиваемого мужчину."
+    source: { kind: authored }
+  - form: "szukanego"
+    pl: "Szukam szukanego przez wszystkich wydania."
+    ru: "Я ищу издание, которое ищут все."
+    source: { kind: authored }
+  - form: "szukanej"
+    pl: "Nie ma tu szukanej książki."
+    ru: "Здесь нет искомой книги."
+    source: { kind: authored }
+  - form: "szukanej"
+    pl: "Od szukanej osoby brak wieści."
+    ru: "От разыскиваемого человека нет вестей."
+    source: { kind: authored }
+  - form: "szukanej"
+    pl: "Dotarliśmy do szukanej ulicy."
+    ru: "Мы добрались до искомой улицы."
+    source: { kind: authored }
+  - form: "szukanemu"
+    pl: "Przyjrzyj się szukanemu adresowi."
+    ru: "Присмотрись к искомому адресу."
+    source: { kind: authored }
+  - form: "szukanemu"
+    pl: "Dzięki szukanemu dokumentowi sprawa ruszyła."
+    ru: "Благодаря искомому документу дело сдвинулось."
+    source: { kind: authored }
+  - form: "szukanemu"
+    pl: "Nie ufam szukanemu na siłę wyjaśnieniu."
+    ru: "Я не доверяю притянутому объяснению."
+    source: { kind: authored }
+  - form: "szukani"
+    pl: "Są szukani przez policję."
+    ru: "Их разыскивает полиция."
+    source: { kind: authored }
+  - form: "szukani"
+    pl: "Dobrzy fachowcy są zawsze szukani."
+    ru: "Хорошие специалисты всегда востребованы."
+    source: { kind: authored }
+  - form: "szukani"
+    pl: "Zostali szukani przez rodzinę."
+    ru: "Их искала семья."
+    source: { kind: authored }
+  - form: "szukania"
+    pl: "Nie odkładaj szukania pracy."
+    ru: "Не откладывай поиск работы."
+    source: { kind: translated, id: 919916 }
+  - form: "szukania"
+    pl: "Mam dość szukania kluczy."
+    ru: "Мне надоело искать ключи."
+    source: { kind: authored }
+  - form: "szukania"
+    pl: "Od szukania mieszkania boli głowa."
+    ru: "От поисков квартиры болит голова."
+    source: { kind: authored }
+  - form: "szukanie"
+    pl: "To jak szukanie igły w stogu siana."
+    ru: "Это как искать иголку в стоге сена."
+    source: { kind: tatoeba, id: 2397194 }
+  - form: "szukanie"
+    pl: "Szukanie pracy zajęło mu miesiąc."
+    ru: "Поиск работы занял у него месяц."
+    source: { kind: authored }
+  - form: "szukanie"
+    pl: "Szukanie w internecie jest szybsze."
+    ru: "Искать в интернете быстрее."
+    source: { kind: authored }
+  - form: "szukaniem"
+    pl: "Zmęczył się szukaniem mieszkania."
+    ru: "Он устал искать квартиру."
+    source: { kind: authored }
+  - form: "szukaniem"
+    pl: "Zajmuje się szukaniem zaginionych."
+    ru: "Он занимается поиском пропавших."
+    source: { kind: authored }
+  - form: "szukaniem"
+    pl: "Między szukaniem a znajdowaniem jest przepaść."
+    ru: "Между поиском и находкой пропасть."
+    source: { kind: authored }
+  - form: "szukaniu"
+    pl: "Tom spędził cały wieczór na szukaniu w internecie zdjęć sławnych ludzi."
+    ru: "Том провёл весь вечер в поисках фотографий в интернете."
+    source: { kind: translated, id: 3971800 }
+  - form: "szukaniu"
+    pl: "Pomógł mi w szukaniu pracy."
+    ru: "Он помог мне в поисках работы."
+    source: { kind: authored }
+  - form: "szukaniu"
+    pl: "Po szukaniu przez godzinę dał za wygraną."
+    ru: "Поискав час, он сдался."
+    source: { kind: authored }
+  - form: "szukano"
+    pl: "Szukano go przez trzy dni."
+    ru: "Его искали три дня."
+    source: { kind: authored }
+  - form: "szukano"
+    pl: "Dawniej szukano wody różdżką."
+    ru: "Раньше воду искали лозой."
+    source: { kind: authored }
+  - form: "szukano"
+    pl: "Szukano innego rozwiązania."
+    ru: "Искали другое решение."
+    source: { kind: authored }
+  - form: "szukany"
+    pl: "To najbardziej szukany fachowiec w mieście."
+    ru: "Это самый востребованный специалист в городе."
+    source: { kind: authored }
+  - form: "szukany"
+    pl: "Mężczyzna szukany przez policję został zatrzymany."
+    ru: "Мужчина, разыскиваемый полицией, задержан."
+    source: { kind: authored }
+  - form: "szukany"
+    pl: "Ten model jest bardzo szukany."
+    ru: "Эту модель очень ищут."
+    source: { kind: authored }
+  - form: "szukanych"
+    pl: "Nie ma tu szukanych dokumentów."
+    ru: "Здесь нет искомых документов."
+    source: { kind: authored }
+  - form: "szukanych"
+    pl: "Wśród szukanych rzeczy był paszport."
+    ru: "Среди искомых вещей был паспорт."
+    source: { kind: authored }
+  - form: "szukanych"
+    pl: "Lista szukanych osób jest długa."
+    ru: "Список разыскиваемых людей длинный."
+    source: { kind: authored }
+  - form: "szukanym"
+    pl: "W szukanym pliku był błąd."
+    ru: "В искомом файле была ошибка."
+    source: { kind: authored }
+  - form: "szukanym"
+    pl: "Mówię o szukanym od dawna wydaniu."
+    ru: "Я говорю о давно разыскиваемом издании."
+    source: { kind: authored }
+  - form: "szukanym"
+    pl: "Dziwił się szukanym przez wszystkich rzeczom."
+    ru: "Он удивлялся вещам, которые все искали."
+    source: { kind: authored }
+  - form: "szukanymi"
+    pl: "Zajmuje się szukanymi przez policję sprawami."
+    ru: "Он занимается делами, которые ведёт полиция."
+    source: { kind: authored }
+  - form: "szukanymi"
+    pl: "Między szukanymi plikami nie było tego jednego."
+    ru: "Среди искомых файлов не было того самого."
+    source: { kind: authored }
+  - form: "szukanymi"
+    pl: "Nie porównuj ich z długo szukanymi oryginałami."
+    ru: "Не сравнивай их с давно разыскиваемыми оригиналами."
+    source: { kind: authored }
+  - form: "szukasz"
+    pl: "Co szukasz?"
+    ru: "Что ты ищешь?"
+    source: { kind: tatoeba, id: 2403037 }
+  - form: "szukasz"
+    pl: "Szukasz nas?"
+    ru: "Ты нас ищешь?"
+    source: { kind: tatoeba, id: 8766222 }
+  - form: "szukasz"
+    pl: "Oto książka, której szukasz."
+    ru: "Вот книга, которую ты ищешь."
+    source: { kind: tatoeba, id: 3460277 }

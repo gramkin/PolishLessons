@@ -1,0 +1,59 @@
+# review
+id: dlatego
+format: 2
+lemma: "dlatego"
+rank: 190
+pos: adv
+pron: { cyr: "длатэ́го" }
+senses:
+  - id: therefore
+    ru: "поэтому, потому (следствие)"
+    examples:
+      - pl: "Wolno czytam, dlatego nie nadążam za napisami."
+        ru: "Я медленно читаю, поэтому не поспеваю за субтитрами."
+        source: { kind: tatoeba, id: 12470270 }
+      - pl: "Było zimno, dlatego zostaliśmy w domu."
+        ru: "Было холодно, поэтому мы остались дома."
+        source: { kind: authored }
+      - pl: "Spóźnił się pociąg, dlatego przyszedłem późno."
+        ru: "Поезд опоздал, поэтому я пришёл поздно."
+        source: { kind: authored }
+  - id: because
+    ru: "dlatego że — потому что (причина)"
+    note: "Разница в одном слове: dlatego «поэтому», dlatego że «потому что»."
+    examples:
+      - pl: "Zasługujesz na miłość po prostu dlatego, że jesteś."
+        ru: "Ты достоин любви просто потому, что ты есть."
+        source: { kind: tatoeba, id: 13225499 }
+      - pl: "Nie przyszedł dlatego, że był chory."
+        ru: "Он не пришёл потому, что был болен."
+        source: { kind: authored }
+      - pl: "Zrobiłem to dlatego, że musiałem."
+        ru: "Я сделал это потому, что был должен."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "dlatego вводит следствие («поэтому»), а dlatego że — причину («потому что»). Перепутать их легко, разница только в że." }
+  - { kind: usage, text: "właśnie dlatego значит «именно поэтому»: Właśnie dlatego dzwonię." }
+collocations:
+  - { pl: "właśnie dlatego", ru: "именно поэтому" }
+  - { pl: "dlatego że", ru: "потому что" }
+  - { pl: "nie dlatego", ru: "не потому" }
+etymology: "Из dla + tego, буквально «для того»; русское «поэтому» построено так же — «по» плюс «этому»."
+memory: "dlatego — «поэтому» (следствие), dlatego że — «потому что» (причина). Разница всего в одном слове że."
+idioms:
+  - { pl: "właśnie dlatego", ru: "именно поэтому" }
+  - { pl: "dlatego właśnie", ru: "вот почему" }
+  - { pl: "nie dlatego", ru: "не потому" }
+formExamples:
+  - form: "dlatego"
+    pl: "Ten obraz podoba mi się nie dlatego, że jest sławny, ale i dlatego, że to prawdziwe arcydzieło."
+    ru: "Эта картина нравится мне не только потому, что она знаменита, но и потому, что это настоящий шедевр."
+    source: { kind: tatoeba, id: 858464 }
+  - form: "dlatego"
+    pl: "Właśnie dlatego dzwonię."
+    ru: "Именно поэтому я звоню."
+    source: { kind: authored }
+  - form: "dlatego"
+    pl: "Nie dlatego, że chcę, tylko dlatego, że muszę."
+    ru: "Не потому, что хочу, а потому, что должен."
+    source: { kind: authored }

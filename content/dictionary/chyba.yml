@@ -1,0 +1,59 @@
+# review
+id: chyba
+format: 2
+lemma: "chyba"
+rank: 112
+pos: part
+pron: { cyr: "хы́ба" }
+senses:
+  - id: probably
+    ru: "наверное, кажется, скорее всего"
+    examples:
+      - pl: "On chyba nie przyjedzie."
+        ru: "Он, наверное, не придёт."
+        source: { kind: tatoeba, id: 933381 }
+      - pl: "Chyba zachorowałaś."
+        ru: "По-моему, ты больна."
+        source: { kind: tatoeba, id: 12470538 }
+      - pl: "Chyba się czymś zatrułem."
+        ru: "Я, наверное, чем-то отравился."
+        source: { kind: tatoeba, id: 6327923 }
+  - id: unless
+    ru: "chyba że — разве что, если только не"
+    note: "chyba że вводит единственное исключение: Pójdziemy, chyba że będzie padać."
+    examples:
+      - pl: "Pójdziemy, chyba że będzie padać."
+        ru: "Пойдём, разве что будет дождь."
+        source: { kind: authored }
+      - pl: "Nie wyjdę, chyba że przestanie padać."
+        ru: "Я не выйду, разве что дождь перестанет."
+        source: { kind: authored }
+      - pl: "Zdążymy, chyba że pociąg się spóźni."
+        ru: "Успеем, разве что поезд опоздает."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "chyba — предположение говорящего, а не факт: On chyba nie przyjedzie «Он, наверное, не придёт». Уверенность передаётся словом na pewno «наверняка»." }
+  - { kind: usage, text: "В ответе no chyba! значит «ещё бы!, конечно!» — противоположность сомнению." }
+collocations:
+  - { pl: "chyba że", ru: "разве что" }
+  - { pl: "chyba nie", ru: "вряд ли" }
+  - { pl: "chyba tak", ru: "кажется, да" }
+etymology: "Связано с глаголом chybić «промахнуться, не попасть»: исходное значение — «отклонение, погрешность», отсюда и оттенок неуверенности."
+memory: "chyba — это «наверное», а не «хотя». Две связки стоит запомнить целиком: chyba że «разве что» и no chyba! «ещё бы!»."
+idioms:
+  - { pl: "no chyba!", ru: "ещё бы!, конечно!" }
+  - { pl: "chyba żartujesz", ru: "ты, наверное, шутишь" }
+  - { pl: "chyba że tak", ru: "разве что так" }
+formExamples:
+  - form: "chyba"
+    pl: "To chyba wpłynęło na ich decyzję."
+    ru: "Скорее всего, это и повлияло на их решение."
+    source: { kind: tatoeba, id: 352002 }
+  - form: "chyba"
+    pl: "Chyba masz rację."
+    ru: "Ты, наверное, прав."
+    source: { kind: authored }
+  - form: "chyba"
+    pl: "Chyba go znam."
+    ru: "Кажется, я его знаю."
+    source: { kind: authored }

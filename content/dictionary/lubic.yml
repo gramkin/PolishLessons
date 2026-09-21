@@ -1,0 +1,829 @@
+# review
+id: lubic
+format: 2
+lemma: "lubić"
+rank: 123
+pos: verb
+aspect: imperf
+pron: { cyr: "лю́биць" }
+senses:
+  - id: like-things
+    ru: "любить, нравиться (о вкусах и занятиях)"
+    note: "Русское «я люблю мороженое» — это Lubię lody: lubić значит «нравиться», а не глубокое чувство."
+    examples:
+      - pl: "Lubię psy."
+        ru: "Я люблю собак."
+        source: { kind: tatoeba, id: 352922 }
+      - pl: "Lubię czytać."
+        ru: "Я люблю читать."
+        source: { kind: tatoeba, id: 599052 }
+      - pl: "Lubisz śnieg?"
+        ru: "Ты любишь снег?"
+        source: { kind: tatoeba, id: 742422 }
+  - id: like-people
+    ru: "нравиться, быть симпатичным (о людях)"
+    examples:
+      - pl: "Lubię twoją siostrę."
+        ru: "Мне нравится твоя сестра."
+        source: { kind: authored }
+      - pl: "Wszyscy ją lubią."
+        ru: "Она всем нравится."
+        source: { kind: authored }
+      - pl: "Nie lubię go."
+        ru: "Он мне не нравится."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "lubić — «нравиться», kochać — «любить». Kocham cię говорят близкому человеку, а Lubię cię значит «ты мне симпатичен»." }
+  - { kind: government, text: "lubić требует винительного падежа, как русское «любить что-то»: Lubię muzykę. С инфинитивом — Lubię czytać «Люблю читать»." }
+  - { kind: usage, text: "Страдательное причастие lubiany значит «любимый всеми, популярный»: Tom jest lubiany «Тома любят»." }
+collocations:
+  - { pl: "lubić kogoś", ru: "симпатизировать кому-то" }
+  - { pl: "lubię czytać", ru: "люблю читать" }
+  - { pl: "nie lubię", ru: "я не люблю" }
+  - { pl: "co kto lubi", ru: "кому что нравится" }
+etymology: "Праславянское *ľubiti — то же слово, что русское «любить»; родственны также lubo и польское luby «милый»."
+memory: "Ловушка: lubić — это «нравиться», а «любить» — kochać. Lubię lody «Я люблю мороженое», но Kocham cię «Я тебя люблю». А lubiany значит «любимый всеми, популярный»."
+idioms:
+  - { pl: "co kto lubi", ru: "кому что нравится" }
+  - { pl: "nie lubić się", ru: "недолюбливать друг друга" }
+  - { pl: "lubić jak psy dziada w ciasnej ulicy", ru: "любить как собака палку" }
+formExamplesSkip:
+  - { form: "lubiona", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubioną", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubione", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionego", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionej", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionemu", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubiony", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionych", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionym", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+  - { form: "lubionymi", reason: "нестандартный вариант причастия: в современном языке употребляется lubiany, а не lubiony" }
+formExamples:
+  - form: "lub"
+    pl: "Czy jesteś po prostu zmęczony lub chory?"
+    ru: "Ты просто устал или приболел?"
+    source: { kind: tatoeba, id: 13317892 }
+  - form: "lub"
+    pl: "Kobieta pije herbatę z cukrem lub miodem."
+    ru: "Женщина пьет чай с сахаром или медом."
+    source: { kind: tatoeba, id: 11653773 }
+  - form: "lub"
+    pl: "Kręgosłup człowieka składa się z 33 lub 34 kości."
+    ru: "Позвоночник человека состоит из 33 или 34 костей."
+    source: { kind: tatoeba, id: 4900427 }
+  - form: "lubcie"
+    pl: "Lubcie się nawzajem."
+    ru: "Любите друг друга."
+    source: { kind: authored }
+  - form: "lubcie"
+    pl: "Nie lubcie go za pieniądze."
+    ru: "Не любите его за деньги."
+    source: { kind: authored }
+  - form: "lubcie"
+    pl: "Lubcie to, co robicie."
+    ru: "Любите то, что делаете."
+    source: { kind: authored }
+  - form: "lubi"
+    pl: "Lubi słodycze."
+    ru: "Он любит сладости."
+    source: { kind: tatoeba, id: 8806095 }
+  - form: "lubi"
+    pl: "Ona lubi wino."
+    ru: "Она любит вино."
+    source: { kind: tatoeba, id: 2146288 }
+  - form: "lubi"
+    pl: "Ptak lubi ryż."
+    ru: "Птица любит рис."
+    source: { kind: tatoeba, id: 4730663 }
+  - form: "lubiana"
+    pl: "Chce być lubiana w szkole."
+    ru: "Она хочет, чтобы её любили в школе."
+    source: { kind: translated, id: 5966633 }
+  - form: "lubiana"
+    pl: "Jest lubiana przez uczniów."
+    ru: "Ученики её любят."
+    source: { kind: authored }
+  - form: "lubiana"
+    pl: "Ta piosenka jest bardzo lubiana."
+    ru: "Эту песню очень любят."
+    source: { kind: authored }
+  - form: "lubianą"
+    pl: "Piłka nożna jest najbardziej lubianą dyscypliną sportu."
+    ru: "Футбол — самый любимый вид спорта."
+    source: { kind: translated, id: 2607020 }
+  - form: "lubianą"
+    pl: "Znam nauczycielkę lubianą przez wszystkich."
+    ru: "Я знаю учительницу, которую все любят."
+    source: { kind: authored }
+  - form: "lubianą"
+    pl: "Wybrał potrawę lubianą przez dzieci."
+    ru: "Он выбрал блюдо, которое любят дети."
+    source: { kind: authored }
+  - form: "lubiane"
+    pl: "Jego powieści są lubiane przez młodych ludzi."
+    ru: "Его романы любят молодые люди."
+    source: { kind: translated, id: 531789 }
+  - form: "lubiane"
+    pl: "Te ciastka są bardzo lubiane."
+    ru: "Эти печенья очень любят."
+    source: { kind: authored }
+  - form: "lubiane"
+    pl: "Nie wszystkie zmiany są lubiane."
+    ru: "Не все перемены любят."
+    source: { kind: authored }
+  - form: "lubianego"
+    pl: "Szukam nauczyciela lubianego przez dzieci."
+    ru: "Я ищу учителя, которого любят дети."
+    source: { kind: authored }
+  - form: "lubianego"
+    pl: "Nie znam nikogo tak lubianego."
+    ru: "Я не знаю никого, кого бы так любили."
+    source: { kind: authored }
+  - form: "lubianego"
+    pl: "Zwolnili lubianego kolegę."
+    ru: "Уволили любимого всеми коллегу."
+    source: { kind: authored }
+  - form: "lubianej"
+    pl: "Powiedz to lubianej przez wszystkich sąsiadce."
+    ru: "Скажи это соседке, которую все любят."
+    source: { kind: authored }
+  - form: "lubianej"
+    pl: "Nie ma tu osoby tak lubianej."
+    ru: "Здесь нет человека, которого так любят."
+    source: { kind: authored }
+  - form: "lubianej"
+    pl: "Dzięki lubianej szefowej zespół został."
+    ru: "Благодаря любимой начальнице команда осталась."
+    source: { kind: authored }
+  - form: "lubianemu"
+    pl: "Podziękowali lubianemu nauczycielowi."
+    ru: "Они поблагодарили любимого учителя."
+    source: { kind: authored }
+  - form: "lubianemu"
+    pl: "Lubianemu koledze łatwiej o pomoc."
+    ru: "Любимому коллеге легче получить помощь."
+    source: { kind: authored }
+  - form: "lubianemu"
+    pl: "Przyjrzyj się lubianemu przez wszystkich zwyczajowi."
+    ru: "Присмотрись к обычаю, который все любят."
+    source: { kind: authored }
+  - form: "lubiani"
+    pl: "Chcemy być lubiani."
+    ru: "Мы хотим нравиться."
+    source: { kind: authored }
+  - form: "lubiani"
+    pl: "Nauczyciele bywają lubiani."
+    ru: "Учителей иногда любят."
+    source: { kind: authored }
+  - form: "lubiani"
+    pl: "Nie byliśmy tam lubiani."
+    ru: "Нас там не любили."
+    source: { kind: authored }
+  - form: "lubiano"
+    pl: "Dawniej lubiano takie piosenki."
+    ru: "Раньше такие песни любили."
+    source: { kind: authored }
+  - form: "lubiano"
+    pl: "Nigdy go tam nie lubiano."
+    ru: "Его там никогда не любили."
+    source: { kind: authored }
+  - form: "lubiano"
+    pl: "Lubiano ją za szczerość."
+    ru: "Её любили за искренность."
+    source: { kind: authored }
+  - form: "lubiany"
+    pl: "Tom jest lubiany."
+    ru: "Тома любят."
+    source: { kind: translated, id: 12044096 }
+  - form: "lubiany"
+    pl: "To lubiany przez wszystkich nauczyciel."
+    ru: "Это учитель, которого все любят."
+    source: { kind: authored }
+  - form: "lubiany"
+    pl: "Chce być lubiany."
+    ru: "Он хочет нравиться."
+    source: { kind: authored }
+  - form: "lubianych"
+    pl: "To jeden z najbardziej lubianych autorów."
+    ru: "Это один из самых любимых авторов."
+    source: { kind: authored }
+  - form: "lubianych"
+    pl: "Wśród lubianych potraw jest bigos."
+    ru: "Среди любимых блюд есть бигос."
+    source: { kind: authored }
+  - form: "lubianych"
+    pl: "Nie ma tu osób lubianych przez wszystkich."
+    ru: "Здесь нет людей, которых любят все."
+    source: { kind: authored }
+  - form: "lubianym"
+    pl: "Wielu poznało go w Europie, gdzie był lubianym wykładowcą."
+    ru: "Многие познакомились с ним в Европе, где он был любимым преподавателем."
+    source: { kind: translated, id: 2255963 }
+  - form: "lubianym"
+    pl: "Był lubianym kolegą."
+    ru: "Он был любимым коллегой."
+    source: { kind: authored }
+  - form: "lubianym"
+    pl: "W lubianym gronie rozmawia się łatwiej."
+    ru: "В приятной компании разговаривать легче."
+    source: { kind: authored }
+  - form: "lubianymi"
+    pl: "Cieszy się lubianymi przez dzieci bajkami."
+    ru: "Он радуется сказкам, которые любят дети."
+    source: { kind: authored }
+  - form: "lubianymi"
+    pl: "Między lubianymi kolegami nie ma sporów."
+    ru: "Между любимыми коллегами нет споров."
+    source: { kind: authored }
+  - form: "lubianymi"
+    pl: "Zajmuje się najbardziej lubianymi programami."
+    ru: "Он занимается самыми любимыми передачами."
+    source: { kind: authored }
+  - form: "lubią"
+    pl: "Wszyscy lubią lody."
+    ru: "Все любят мороженое."
+    source: { kind: tatoeba, id: 4491106 }
+  - form: "lubią"
+    pl: "Małpy lubią banany."
+    ru: "Обезьяны любят бананы."
+    source: { kind: tatoeba, id: 10696255 }
+  - form: "lubią"
+    pl: "Króliki lubią marchew."
+    ru: "Кролики любят морковку."
+    source: { kind: tatoeba, id: 10606689 }
+  - form: "lubiąc"
+    pl: "Lubiąc ciszę, mieszka na wsi."
+    ru: "Любя тишину, он живёт в деревне."
+    source: { kind: authored }
+  - form: "lubiąc"
+    pl: "Nie lubiąc tłumów, wyszedł wcześniej."
+    ru: "Не любя толпу, он ушёл раньше."
+    source: { kind: authored }
+  - form: "lubiąc"
+    pl: "Lubiąc dzieci, został nauczycielem."
+    ru: "Любя детей, он стал учителем."
+    source: { kind: authored }
+  - form: "lubiąca"
+    pl: "Osoba lubiąca ciszę unika miasta."
+    ru: "Человек, любящий тишину, избегает города."
+    source: { kind: authored }
+  - form: "lubiąca"
+    pl: "To kobieta lubiąca podróże."
+    ru: "Это женщина, любящая путешествия."
+    source: { kind: authored }
+  - form: "lubiąca"
+    pl: "Grupa lubiąca góry wyruszyła rano."
+    ru: "Группа, любящая горы, вышла утром."
+    source: { kind: authored }
+  - form: "lubiącą"
+    pl: "Znam osobę lubiącą słodycze."
+    ru: "Я знаю человека, любящего сладкое."
+    source: { kind: authored }
+  - form: "lubiącą"
+    pl: "Widziałem dziewczynę lubiącą konie."
+    ru: "Я видел девушку, любящую лошадей."
+    source: { kind: authored }
+  - form: "lubiącą"
+    pl: "Spotkał kobietę lubiącą te same książki."
+    ru: "Он встретил женщину, любящую те же книги."
+    source: { kind: authored }
+  - form: "lubiące"
+    pl: "Dzieci lubiące bajki siedzą cicho."
+    ru: "Дети, любящие сказки, сидят тихо."
+    source: { kind: authored }
+  - form: "lubiące"
+    pl: "Rośliny lubiące słońce rosną tu dobrze."
+    ru: "Растения, любящие солнце, растут здесь хорошо."
+    source: { kind: authored }
+  - form: "lubiące"
+    pl: "To osoby lubiące spokój."
+    ru: "Это люди, любящие покой."
+    source: { kind: authored }
+  - form: "lubiącego"
+    pl: "Szukam kogoś lubiącego zwierzęta."
+    ru: "Я ищу кого-то, любящего животных."
+    source: { kind: authored }
+  - form: "lubiącego"
+    pl: "Nie znam nikogo lubiącego tę muzykę."
+    ru: "Я не знаю никого, любящего эту музыку."
+    source: { kind: authored }
+  - form: "lubiącego"
+    pl: "Poproś kolegę lubiącego matematykę."
+    ru: "Попроси коллегу, любящего математику."
+    source: { kind: authored }
+  - form: "lubiącej"
+    pl: "Powiedz to osobie lubiącej porządek."
+    ru: "Скажи это человеку, любящему порядок."
+    source: { kind: authored }
+  - form: "lubiącej"
+    pl: "Nie ma tu osoby lubiącej hałas."
+    ru: "Здесь нет человека, любящего шум."
+    source: { kind: authored }
+  - form: "lubiącej"
+    pl: "Dzięki lubiącej gotować sąsiadce mamy obiad."
+    ru: "Благодаря соседке, любящей готовить, у нас есть обед."
+    source: { kind: authored }
+  - form: "lubiącemu"
+    pl: "Podaj książkę lubiącemu czytać dziecku."
+    ru: "Подай книгу ребёнку, любящему читать."
+    source: { kind: authored }
+  - form: "lubiącemu"
+    pl: "Lubiącemu ciszę trudno w mieście."
+    ru: "Любящему тишину трудно в городе."
+    source: { kind: authored }
+  - form: "lubiącemu"
+    pl: "Przyjrzyj się psu lubiącemu wodę."
+    ru: "Присмотрись к собаке, любящей воду."
+    source: { kind: authored }
+  - form: "lubiący"
+    pl: "Człowiek lubiący ludzi szybko znajdzie przyjaciół."
+    ru: "Человек, любящий людей, быстро найдёт друзей."
+    source: { kind: authored }
+  - form: "lubiący"
+    pl: "Uczniowie lubiący matematykę zostali dłużej."
+    ru: "Ученики, любящие математику, остались дольше."
+    source: { kind: authored }
+  - form: "lubiący"
+    pl: "To kot lubiący spokój."
+    ru: "Это кот, любящий покой."
+    source: { kind: authored }
+  - form: "lubiących"
+    pl: "Należę do osób lubiących słodycze."
+    ru: "Я отношусь к людям, любящим сладкое."
+    source: { kind: translated, id: 6309243 }
+  - form: "lubiących"
+    pl: "Wśród lubiących góry był przewodnik."
+    ru: "Среди любящих горы был проводник."
+    source: { kind: authored }
+  - form: "lubiących"
+    pl: "Nie ma tu osób lubiących hałas."
+    ru: "Здесь нет людей, любящих шум."
+    source: { kind: authored }
+  - form: "lubiącym"
+    pl: "Pomóż dzieciom lubiącym rysować."
+    ru: "Помоги детям, любящим рисовать."
+    source: { kind: authored }
+  - form: "lubiącym"
+    pl: "Lubiącym ciszę polecam wieś."
+    ru: "Любящим тишину советую деревню."
+    source: { kind: authored }
+  - form: "lubiącym"
+    pl: "W lubiącym się zespole pracuje się lepiej."
+    ru: "В команде, где друг друга любят, работается лучше."
+    source: { kind: authored }
+  - form: "lubiącymi"
+    pl: "Rozmawiam z ludźmi lubiącymi tę muzykę."
+    ru: "Я разговариваю с людьми, любящими эту музыку."
+    source: { kind: authored }
+  - form: "lubiącymi"
+    pl: "Między lubiącymi się sąsiadami nie ma sporów."
+    ru: "Между соседями, которые друг друга любят, нет споров."
+    source: { kind: authored }
+  - form: "lubiącymi"
+    pl: "Zajmuje się dziećmi lubiącymi sport."
+    ru: "Он занимается детьми, любящими спорт."
+    source: { kind: authored }
+  - form: "lubicie"
+    pl: "Lubicie jeździć tramwajem?"
+    ru: "Вы любите ездить на трамвае?"
+    source: { kind: tatoeba, id: 10138164 }
+  - form: "lubicie"
+    pl: "Lubicie surfing?"
+    ru: "Вы любите сёрфинг?"
+    source: { kind: translated, id: 5688274 }
+  - form: "lubicie"
+    pl: "Co lubicie robić w wolny dzień?"
+    ru: "Что вы любите делать в выходной?"
+    source: { kind: authored }
+  - form: "lubić"
+    pl: "Trudno cię nie lubić."
+    ru: "Тебя трудно не любить."
+    source: { kind: translated, id: 10484334 }
+  - form: "lubić"
+    pl: "Można go lubić albo nie."
+    ru: "Его можно любить или нет."
+    source: { kind: authored }
+  - form: "lubić"
+    pl: "Trudno lubić kogoś takiego."
+    ru: "Трудно любить такого человека."
+    source: { kind: authored }
+  - form: "lubieni"
+    pl: "Byli lubieni przez sąsiadów."
+    ru: "Соседи их любили."
+    source: { kind: authored }
+  - form: "lubieni"
+    pl: "Chcemy być lubieni przez uczniów."
+    ru: "Мы хотим нравиться ученикам."
+    source: { kind: authored }
+  - form: "lubieni"
+    pl: "Nie wszyscy są tam lubieni."
+    ru: "Не всех там любят."
+    source: { kind: authored }
+  - form: "lubienia"
+    pl: "Nie da się nikogo zmusić do lubienia."
+    ru: "Никого нельзя заставить испытывать симпатию."
+    source: { kind: authored }
+  - form: "lubienia"
+    pl: "Uczy się lubienia samego siebie."
+    ru: "Он учится любить самого себя."
+    source: { kind: authored }
+  - form: "lubienia"
+    pl: "Od lubienia do przyjaźni jest krok."
+    ru: "От симпатии до дружбы один шаг."
+    source: { kind: authored }
+  - form: "lubienie"
+    pl: "Lubienie kogoś to nie to samo co miłość."
+    ru: "Симпатия — это не то же самое, что любовь."
+    source: { kind: authored }
+  - form: "lubienie"
+    pl: "Lubienie pracy bardzo pomaga."
+    ru: "Любить работу очень помогает."
+    source: { kind: authored }
+  - form: "lubienie"
+    pl: "Lubienie ludzi przychodzi mu łatwo."
+    ru: "Симпатия к людям даётся ему легко."
+    source: { kind: authored }
+  - form: "lubieniem"
+    pl: "Między lubieniem a kochaniem jest różnica."
+    ru: "Между симпатией и любовью есть разница."
+    source: { kind: authored }
+  - form: "lubieniem"
+    pl: "Nie myl sympatii z lubieniem z obowiązku."
+    ru: "Не путай симпатию с вынужденной приязнью."
+    source: { kind: authored }
+  - form: "lubieniem"
+    pl: "Zaczęło się zwykłym lubieniem, skończyło przyjaźnią."
+    ru: "Началось с обычной симпатии, кончилось дружбой."
+    source: { kind: authored }
+  - form: "lubieniu"
+    pl: "W lubieniu ludzi nie ma nic trudnego."
+    ru: "В симпатии к людям нет ничего трудного."
+    source: { kind: authored }
+  - form: "lubieniu"
+    pl: "Po lubieniu przyszła przyjaźń."
+    ru: "За симпатией пришла дружба."
+    source: { kind: authored }
+  - form: "lubieniu"
+    pl: "Mówimy o lubieniu, nie o miłości."
+    ru: "Мы говорим о симпатии, а не о любви."
+    source: { kind: authored }
+  - form: "lubię"
+    pl: "Lubię psy."
+    ru: "Я люблю собак."
+    source: { kind: tatoeba, id: 352922 }
+  - form: "lubię"
+    pl: "Lubię zimę."
+    ru: "Люблю зиму."
+    source: { kind: tatoeba, id: 513489 }
+  - form: "lubię"
+    pl: "Lubię lody."
+    ru: "Мне нравится мороженое."
+    source: { kind: tatoeba, id: 1611632 }
+  - form: "lubili"
+    pl: "Wszyscy lubili Toma."
+    ru: "Все любили Тома."
+    source: { kind: translated, id: 8764575 }
+  - form: "lubili"
+    pl: "Lubili spacerować wieczorami."
+    ru: "Они любили гулять по вечерам."
+    source: { kind: authored }
+  - form: "lubili"
+    pl: "Nie lubili się od początku."
+    ru: "Они не любили друг друга с самого начала."
+    source: { kind: authored }
+  - form: "lubiliby"
+    pl: "Lubiliby to miejsce."
+    ru: "Им понравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiliby"
+    pl: "Gdyby go poznali, lubiliby go."
+    ru: "Если бы они его узнали, он бы им нравился."
+    source: { kind: authored }
+  - form: "lubiliby"
+    pl: "Czy lubiliby taką muzykę?"
+    ru: "Нравилась бы им такая музыка?"
+    source: { kind: authored }
+  - form: "lubilibyście"
+    pl: "Nie lubilibyście mnie takiego, jakim byłem trzy lata temu."
+    ru: "Вы не полюбили бы меня таким, каким я был три года назад."
+    source: { kind: translated, id: 3786026 }
+  - form: "lubilibyście"
+    pl: "Lubilibyście ten film."
+    ru: "Вам понравился бы этот фильм."
+    source: { kind: authored }
+  - form: "lubilibyście"
+    pl: "Czy lubilibyście mieszkać na wsi?"
+    ru: "Понравилось бы вам жить в деревне?"
+    source: { kind: authored }
+  - form: "lubilibyśmy"
+    pl: "Lubilibyśmy tu mieszkać."
+    ru: "Нам нравилось бы здесь жить."
+    source: { kind: authored }
+  - form: "lubilibyśmy"
+    pl: "Gdyby było ciszej, lubilibyśmy to miejsce."
+    ru: "Если бы было тише, нам нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubilibyśmy"
+    pl: "Czy lubilibyśmy taką pracę?"
+    ru: "Нравилась бы нам такая работа?"
+    source: { kind: authored }
+  - form: "lubiliście"
+    pl: "Lubiliście się w szkole?"
+    ru: "Вы дружили в школе?"
+    source: { kind: authored }
+  - form: "lubiliście"
+    pl: "Co lubiliście robić razem?"
+    ru: "Что вы любили делать вместе?"
+    source: { kind: authored }
+  - form: "lubiliście"
+    pl: "Nie lubiliście tego filmu."
+    ru: "Вам не нравился этот фильм."
+    source: { kind: authored }
+  - form: "lubiliśmy"
+    pl: "Wszyscy lubiliśmy Toma."
+    ru: "Мы все любили Тома."
+    source: { kind: translated, id: 3749974 }
+  - form: "lubiliśmy"
+    pl: "Lubiliśmy tam wracać."
+    ru: "Мы любили туда возвращаться."
+    source: { kind: authored }
+  - form: "lubiliśmy"
+    pl: "Nie lubiliśmy tej pracy."
+    ru: "Нам не нравилась эта работа."
+    source: { kind: authored }
+  - form: "lubił"
+    pl: "Lubił długie spacery."
+    ru: "Он любил долгие прогулки."
+    source: { kind: authored }
+  - form: "lubił"
+    pl: "Nikt go nie lubił."
+    ru: "Его никто не любил."
+    source: { kind: authored }
+  - form: "lubił"
+    pl: "Lubił czytać przed snem."
+    ru: "Он любил читать перед сном."
+    source: { kind: authored }
+  - form: "lubiła"
+    pl: "Nie lubiła go."
+    ru: "Она его не любила."
+    source: { kind: translated, id: 3049704 }
+  - form: "lubiła"
+    pl: "Lubiła spacery nad rzeką."
+    ru: "Она любила прогулки у реки."
+    source: { kind: authored }
+  - form: "lubiła"
+    pl: "Zawsze lubiła zimę."
+    ru: "Она всегда любила зиму."
+    source: { kind: authored }
+  - form: "lubiłaby"
+    pl: "Lubiłaby to miejsce."
+    ru: "Ей нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłaby"
+    pl: "Gdyby go poznała, lubiłaby go."
+    ru: "Если бы она его узнала, он бы ей нравился."
+    source: { kind: authored }
+  - form: "lubiłaby"
+    pl: "Czy lubiłaby taką muzykę?"
+    ru: "Нравилась бы ей такая музыка?"
+    source: { kind: authored }
+  - form: "lubiłabym"
+    pl: "Lubiłabym tu mieszkać."
+    ru: "Мне нравилось бы здесь жить."
+    source: { kind: authored }
+  - form: "lubiłabym"
+    pl: "Gdyby było ciszej, lubiłabym to miejsce."
+    ru: "Если бы было тише, мне нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłabym"
+    pl: "Czy lubiłabym taką pracę?"
+    ru: "Нравилась бы мне такая работа?"
+    source: { kind: authored }
+  - form: "lubiłabyś"
+    pl: "Nie lubiłabyś mnie takiej, jaką byłam trzy lata temu."
+    ru: "Ты не полюбила бы меня такой, какой я была три года назад."
+    source: { kind: translated, id: 3786025 }
+  - form: "lubiłabyś"
+    pl: "Lubiłabyś ten film."
+    ru: "Тебе понравился бы этот фильм."
+    source: { kind: authored }
+  - form: "lubiłabyś"
+    pl: "Czy lubiłabyś mieszkać nad morzem?"
+    ru: "Понравилось бы тебе жить у моря?"
+    source: { kind: authored }
+  - form: "lubiłam"
+    pl: "Nigdy jej nie lubiłam."
+    ru: "Я никогда её не любила."
+    source: { kind: translated, id: 11747323 }
+  - form: "lubiłam"
+    pl: "Lubiłam tam wracać."
+    ru: "Я любила туда возвращаться."
+    source: { kind: authored }
+  - form: "lubiłam"
+    pl: "Zawsze lubiłam koty."
+    ru: "Я всегда любила кошек."
+    source: { kind: authored }
+  - form: "lubiłaś"
+    pl: "Lubiłaś tę szkołę?"
+    ru: "Тебе нравилась эта школа?"
+    source: { kind: authored }
+  - form: "lubiłaś"
+    pl: "Co lubiłaś robić w dzieciństwie?"
+    ru: "Что ты любила делать в детстве?"
+    source: { kind: authored }
+  - form: "lubiłaś"
+    pl: "Nie lubiłaś go nigdy."
+    ru: "Ты его никогда не любила."
+    source: { kind: authored }
+  - form: "lubiłby"
+    pl: "Lubiłby to miejsce."
+    ru: "Ему нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłby"
+    pl: "Gdyby go poznał, lubiłby go."
+    ru: "Если бы он его узнал, тот бы ему нравился."
+    source: { kind: authored }
+  - form: "lubiłby"
+    pl: "Kto lubiłby taką pogodę?"
+    ru: "Кому нравилась бы такая погода?"
+    source: { kind: authored }
+  - form: "lubiłbym"
+    pl: "Lubiłbym tu mieszkać."
+    ru: "Мне нравилось бы здесь жить."
+    source: { kind: authored }
+  - form: "lubiłbym"
+    pl: "Gdyby było ciszej, lubiłbym to miejsce."
+    ru: "Если бы было тише, мне нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłbym"
+    pl: "Czy lubiłbym taką pracę?"
+    ru: "Нравилась бы мне такая работа?"
+    source: { kind: authored }
+  - form: "lubiłbyś"
+    pl: "Lubiłbyś to."
+    ru: "Тебе бы это нравилось."
+    source: { kind: translated, id: 8529699 }
+  - form: "lubiłbyś"
+    pl: "Lubiłbyś ten film."
+    ru: "Тебе понравился бы этот фильм."
+    source: { kind: authored }
+  - form: "lubiłbyś"
+    pl: "Czy lubiłbyś mieszkać w górach?"
+    ru: "Понравилось бы тебе жить в горах?"
+    source: { kind: authored }
+  - form: "lubiłem"
+    pl: "Nigdy nie lubiłem chodzić do szkoły."
+    ru: "Я никогда не любил ходить в школу."
+    source: { kind: tatoeba, id: 6400779 }
+  - form: "lubiłem"
+    pl: "Lubiłem to."
+    ru: "Мне это нравилось."
+    source: { kind: translated, id: 2246643 }
+  - form: "lubiłem"
+    pl: "Lubiłem tam wracać."
+    ru: "Я любил туда возвращаться."
+    source: { kind: authored }
+  - form: "lubiłeś"
+    pl: "Jaki przedmiot lubiłeś najbardziej w szkole podstawowej?"
+    ru: "Какой предмет ты больше всего любил в начальной школе?"
+    source: { kind: translated, id: 11150079 }
+  - form: "lubiłeś"
+    pl: "Lubiłeś tę szkołę?"
+    ru: "Тебе нравилась эта школа?"
+    source: { kind: authored }
+  - form: "lubiłeś"
+    pl: "Nie lubiłeś go nigdy."
+    ru: "Ты его никогда не любил."
+    source: { kind: authored }
+  - form: "lubiło"
+    pl: "Wiele ludzi nie lubiło tej zmiany."
+    ru: "Многим эта перемена не нравилась."
+    source: { kind: translated, id: 8524850 }
+  - form: "lubiło"
+    pl: "Dziecko lubiło bajki na dobranoc."
+    ru: "Ребёнок любил сказки на ночь."
+    source: { kind: authored }
+  - form: "lubiło"
+    pl: "Niewielu lubiło tę pracę."
+    ru: "Немногим нравилась эта работа."
+    source: { kind: authored }
+  - form: "lubiłoby"
+    pl: "Dziecko lubiłoby takie zabawy."
+    ru: "Ребёнку нравились бы такие игры."
+    source: { kind: authored }
+  - form: "lubiłoby"
+    pl: "Gdyby spróbowało, lubiłoby to danie."
+    ru: "Если бы он попробовал, ему понравилось бы это блюдо."
+    source: { kind: authored }
+  - form: "lubiłoby"
+    pl: "Niewielu lubiłoby taką pogodę."
+    ru: "Немногим нравилась бы такая погода."
+    source: { kind: authored }
+  - form: "lubiły"
+    pl: "Dzieci nie lubiły swojego nauczyciela."
+    ru: "Дети не любили своего учителя."
+    source: { kind: translated, id: 12004500 }
+  - form: "lubiły"
+    pl: "Dziewczyny lubiły te same książki."
+    ru: "Девушки любили одни и те же книги."
+    source: { kind: authored }
+  - form: "lubiły"
+    pl: "Koty lubiły spać na parapecie."
+    ru: "Кошки любили спать на подоконнике."
+    source: { kind: authored }
+  - form: "lubiłyby"
+    pl: "Dzieci lubiłyby sok owocowy."
+    ru: "Детям нравился бы фруктовый сок."
+    source: { kind: translated, id: 5068105 }
+  - form: "lubiłyby"
+    pl: "Lubiłyby to miejsce."
+    ru: "Им нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłyby"
+    pl: "Czy lubiłyby taką muzykę?"
+    ru: "Нравилась бы им такая музыка?"
+    source: { kind: authored }
+  - form: "lubiłybyście"
+    pl: "Nie lubiłybyście mnie taką, jaką byłam trzy lata temu."
+    ru: "Вы не полюбили бы меня такой, какой я была три года назад."
+    source: { kind: translated, id: 3786027 }
+  - form: "lubiłybyście"
+    pl: "Lubiłybyście ten film."
+    ru: "Вам понравился бы этот фильм."
+    source: { kind: authored }
+  - form: "lubiłybyście"
+    pl: "Czy lubiłybyście mieszkać na wsi?"
+    ru: "Понравилось бы вам жить в деревне?"
+    source: { kind: authored }
+  - form: "lubiłybyśmy"
+    pl: "Lubiłybyśmy tu mieszkać."
+    ru: "Нам нравилось бы здесь жить."
+    source: { kind: authored }
+  - form: "lubiłybyśmy"
+    pl: "Gdyby było ciszej, lubiłybyśmy to miejsce."
+    ru: "Если бы было тише, нам нравилось бы это место."
+    source: { kind: authored }
+  - form: "lubiłybyśmy"
+    pl: "Czy lubiłybyśmy taką pracę?"
+    ru: "Нравилась бы нам такая работа?"
+    source: { kind: authored }
+  - form: "lubiłyście"
+    pl: "Lubiłyście się w szkole?"
+    ru: "Вы дружили в школе?"
+    source: { kind: authored }
+  - form: "lubiłyście"
+    pl: "Co lubiłyście robić razem?"
+    ru: "Что вы любили делать вместе?"
+    source: { kind: authored }
+  - form: "lubiłyście"
+    pl: "Nie lubiłyście tego filmu."
+    ru: "Вам не нравился этот фильм."
+    source: { kind: authored }
+  - form: "lubiłyśmy"
+    pl: "Lubiłyśmy tam wracać."
+    ru: "Мы любили туда возвращаться."
+    source: { kind: authored }
+  - form: "lubiłyśmy"
+    pl: "Zawsze lubiłyśmy zimę."
+    ru: "Мы всегда любили зиму."
+    source: { kind: authored }
+  - form: "lubiłyśmy"
+    pl: "Nie lubiłyśmy tej pracy."
+    ru: "Нам не нравилась эта работа."
+    source: { kind: authored }
+  - form: "lubimy"
+    pl: "Lubimy ją."
+    ru: "Она нам нравится."
+    source: { kind: translated, id: 3484287 }
+  - form: "lubimy"
+    pl: "Lubimy tu przychodzić."
+    ru: "Мы любим сюда приходить."
+    source: { kind: authored }
+  - form: "lubimy"
+    pl: "Nie lubimy hałasu."
+    ru: "Мы не любим шум."
+    source: { kind: authored }
+  - form: "lubisz"
+    pl: "Lubisz śnieg?"
+    ru: "Ты любишь снег?"
+    source: { kind: tatoeba, id: 742422 }
+  - form: "lubisz"
+    pl: "Lubisz słonie."
+    ru: "Ты любишь слонов."
+    source: { kind: tatoeba, id: 3743337 }
+  - form: "lubisz"
+    pl: "Lubisz szachy?"
+    ru: "Ты любишь шахматы?"
+    source: { kind: tatoeba, id: 10850022 }
+  - form: "lubmy"
+    pl: "Lubmy się nawzajem."
+    ru: "Будем любить друг друга."
+    source: { kind: authored }
+  - form: "lubmy"
+    pl: "Lubmy to, co mamy."
+    ru: "Будем любить то, что имеем."
+    source: { kind: authored }
+  - form: "lubmy"
+    pl: "Nie lubmy nikogo na siłę."
+    ru: "Не будем никого любить через силу."
+    source: { kind: authored }

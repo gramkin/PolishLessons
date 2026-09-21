@@ -1,0 +1,86 @@
+# review
+id: ile
+format: 2
+lemma: "ile"
+rank: 209
+pos: num
+pron: { cyr: "и́ле" }
+senses:
+  - id: how-many
+    ru: "сколько (+ родительный падеж)"
+    examples:
+      - pl: "Ile jabłek?"
+        ru: "Сколько яблок?"
+        source: { kind: tatoeba, id: 636663 }
+      - pl: "Ile masz dzieci?"
+        ru: "Сколько у тебя детей?"
+        source: { kind: tatoeba, id: 6305736 }
+      - pl: "Ile masz samochodów?"
+        ru: "Сколько у тебя машин?"
+        source: { kind: tatoeba, id: 588877 }
+  - id: how-much
+    ru: "сколько (о цене, весе, количестве)"
+    examples:
+      - pl: "Ile kosztuje pokój?"
+        ru: "Сколько стоит номер?"
+        source: { kind: tatoeba, id: 701578 }
+      - pl: "Ile to waży?"
+        ru: "Сколько это весит?"
+        source: { kind: tatoeba, id: 3743745 }
+      - pl: "Ile zostało kanapek?"
+        ru: "Сколько осталось бутербродов?"
+        source: { kind: tatoeba, id: 349153 }
+notes:
+  - { kind: government, text: "ile требует родительного падежа: ile jabłek, ile czasu — как русское «сколько»." }
+  - { kind: usage, text: "О мужских лицах употребляется форма ilu: ilu ludzi, ilu studentów." }
+  - { kind: usage, text: "o ile значит «насколько»: O ile wiem «Насколько я знаю»." }
+collocations:
+  - { pl: "ile kosztuje?", ru: "сколько стоит?" }
+  - { pl: "ile razy", ru: "сколько раз" }
+  - { pl: "o ile", ru: "насколько" }
+  - { pl: "ile czasu", ru: "сколько времени" }
+etymology: "Праславянское *jеlе; тот же ряд, что tyle «столько» и wiele «много»."
+memory: "ile + родительный, как русское «сколько». О мужчинах — ilu: ilu ludzi. И запомните o ile «насколько»."
+idioms:
+  - { pl: "o ile", ru: "насколько" }
+  - { pl: "ile razy", ru: "сколько раз" }
+  - { pl: "ile wlezie", ru: "сколько влезет" }
+formExamplesSkip:
+  - { form: "ilo", reason: "форма из морфологического словаря; в языке употребляются ile, ilu и iloma" }
+formExamples:
+  - form: "ile"
+    pl: "Ile jabłek?"
+    ru: "Сколько яблок?"
+    source: { kind: tatoeba, id: 636663 }
+  - form: "ile"
+    pl: "Ile to waży?"
+    ru: "Сколько это весит?"
+    source: { kind: tatoeba, id: 3743745 }
+  - form: "ile"
+    pl: "Ile mamy paliwa?"
+    ru: "Сколько у нас топлива?"
+    source: { kind: tatoeba, id: 1735702 }
+  - form: "iloma"
+    pl: "Z iloma kobietami się całowałeś?"
+    ru: "Со сколькими женщинами ты целовался?"
+    source: { kind: translated, id: 12360025 }
+  - form: "iloma"
+    pl: "Z iloma osobami rozmawiałeś?"
+    ru: "Со сколькими людьми ты поговорил?"
+    source: { kind: authored }
+  - form: "iloma"
+    pl: "Nie wiem, iloma językami włada."
+    ru: "Я не знаю, сколькими языками он владеет."
+    source: { kind: authored }
+  - form: "ilu"
+    pl: "\"Ilu Niemców potrzeba, żeby wymienić żarówkę?\" \"Jednego. Nie jesteśmy zabawni, ale bardzo wydajni.\""
+    ru: "«Сколько немцев нужно, чтобы поменять лампочку?» – «Один. Мы не смешны, но очень эффективны»."
+    source: { kind: tatoeba, id: 10774702 }
+  - form: "ilu"
+    pl: "Dla ilu osób?"
+    ru: "На сколько человек?"
+    source: { kind: translated, id: 983406 }
+  - form: "ilu"
+    pl: "Ilu was jest?"
+    ru: "Сколько вас?"
+    source: { kind: authored }
