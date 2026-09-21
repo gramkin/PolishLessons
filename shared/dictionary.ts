@@ -80,6 +80,8 @@ export const cardSchema = z.object({
   notes: z.array(z.object({ kind: z.enum(NOTE_KINDS), text })).default([]),
   collocations: z.array(z.object({ pl: text, ru: text })).default([]),
   formExamples: z.array(formExampleSchema).default([]),
+  /** Forms that cannot carry an example, e.g. clitics that never stand alone. */
+  formExamplesSkip: z.array(z.object({ form: text, reason: text })).default([]),
   etymology: z.string().optional(),
   memory: z.string().optional(),
   idioms: z.array(z.object({ pl: text, ru: text })).default([]),

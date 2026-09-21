@@ -150,7 +150,13 @@ export function validateDictionary(
           )
         }
       }
-      const missing = expected.filter((form) => !seen.has(form))
+      const skipped = new Map(card.formExamplesSkip.map((s) => [s.form, s.reason]))
+      for (const form of skipped.keys()) {
+        if (!expected.includes(form))
+          errors.push(`${path}: formExamplesSkip has "${form}", which is not an affirmative form`)
+        if (seen.has(form)) errors.push(`${path}: "${form}" is both skipped and exemplified`)
+      }
+      const missing = expected.filter((form) => !seen.has(form) && !skipped.has(form))
       if (missing.length > 0) {
         errors.push(
           `${path}: formExamples missing ${missing.length} form(s): ${missing.slice(0, 5).join(', ')}`,

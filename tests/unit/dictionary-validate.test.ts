@@ -282,3 +282,60 @@ describe('card format', () => {
     )
   })
 })
+
+describe('formExamplesSkip', () => {
+  const entry = (form: string, pl: string) => ({
+    form,
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' },
+  })
+
+  function withSkip(skip: unknown[], entries: unknown[]) {
+    const b = bundle()
+    ;(b.forms[0]!.data as { allForms: string[] }).allForms = ['dom', 'domu']
+    const card = b.cards[0]!.data as Record<string, unknown>
+    card.formExamples = entries
+    card.formExamplesSkip = skip
+    return b
+  }
+
+  const domThree = [
+    entry('dom', 'To jest dom.'),
+    entry('dom', 'Mój dom jest duży.'),
+    entry('dom', 'Tam stoi dom.'),
+  ]
+
+  it('accepts a form that is documented as impossible to exemplify', () => {
+    const errors = validateDictionary(
+      withSkip([{ form: 'domu', reason: 'не встречается отдельно' }], domThree),
+      { requireLessonCards: false },
+    ).errors
+    expect(errors).toEqual([])
+  })
+
+  it('rejects skipping a form that also has examples, or one that is not a form', () => {
+    const both = validateDictionary(
+      withSkip(
+        [{ form: 'dom', reason: 'x' }],
+        [...domThree, ...[1, 2, 3].map(() => entry('domu', 'Do domu.'))],
+      ),
+      { requireLessonCards: false },
+    ).errors
+    expect(both).toContain('dictionary/dom.yml: "dom" is both skipped and exemplified')
+
+    const unknown = validateDictionary(
+      withSkip(
+        [
+          { form: 'zamek', reason: 'x' },
+          { form: 'domu', reason: 'y' },
+        ],
+        domThree,
+      ),
+      { requireLessonCards: false },
+    ).errors
+    expect(unknown).toContain(
+      'dictionary/dom.yml: formExamplesSkip has "zamek", which is not an affirmative form',
+    )
+  })
+})

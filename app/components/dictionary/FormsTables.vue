@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import type { FormExample, FormsTable } from '#shared/dictionary'
 
-const props = defineProps<{
-  tables: FormsTable[]
-  formExamples: FormExample[]
-  cardId: string
-  negatedForms: string[]
-}>()
+const props = withDefaults(
+  defineProps<{
+    tables: FormsTable[]
+    formExamples: FormExample[]
+    cardId: string
+    negatedForms: string[]
+    skipped?: { form: string; reason: string }[]
+  }>(),
+  { skipped: () => [] },
+)
 
 const main = computed(() => props.tables.filter((t) => !t.extra))
 const extra = computed(() => props.tables.filter((t) => t.extra))
@@ -45,6 +49,11 @@ const groups = computed(() => Object.entries(byForm.value))
       <span lang="pl">{{ negatedForms.slice(0, 3).join(', ') }}</span
       >. Отдельных примеров для таких форм нет.
     </p>
+    <ul v-if="skipped.length > 0" class="skipped">
+      <li v-for="item in skipped" :key="item.form">
+        <span lang="pl" class="form-name">{{ item.form }}</span> — {{ item.reason }}
+      </li>
+    </ul>
     <details v-if="formExamples.length > 0" class="form-example-list">
       <summary>Все примеры к формам ({{ formExamples.length }})</summary>
       <div v-for="[form, examples] in groups" :key="form" class="form-group">
@@ -69,6 +78,13 @@ const groups = computed(() => Object.entries(byForm.value))
 </template>
 
 <style scoped>
+.skipped {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
 .all-forms,
 .form-example-list {
   margin: 1rem 0;

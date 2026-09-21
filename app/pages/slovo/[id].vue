@@ -43,6 +43,7 @@ useSeoMeta({
       :form-examples="data.card.formExamples"
       :card-id="data.card.id"
       :negated-forms="negatedForms"
+      :skipped="data.card.formExamplesSkip"
     />
     <DictionaryOrigin :etymology="data.card.etymology" :memory="data.card.memory" />
     <DictionaryNotes :notes="data.card.notes" />
