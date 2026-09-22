@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **290** |
-| В очереди       | **559** |
+| Карточка готова | **293** |
+| В очереди       | **556** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -550,7 +550,7 @@ pnpm dict:status && pnpm generate
 - **Takie są przygody ostatniej nocy**  
   <sub>слова: [taki](/slovo/taki), [być](/slovo/byc), `przygoda`, [ostatni](/slovo/ostatni), [noc](/slovo/noc)</sub>
 - odkryć (Postąpiliśmy naprzód na drodze odkryć) — 🟡 `odkryć` · verb · rank 837
-- rzucić (zdołam rzucić na nie światło) — 🟡 `rzucić` · verb · rank 554
+- rzucić (zdołam rzucić na nie światło) — ✅ [rzucić](/slovo/rzucic) · verb
 - **Byłoby najlepiej, gdybyś mógł sam przyjechać**  
   <sub>слова: [być](/slovo/byc), [dobrze](/slovo/dobrze), [gdyby](/slovo/gdyby), [móc](/slovo/moc), [sam](/slovo/sam), [przyjechać](/slovo/przyjechac)</sub>
 - **posiłkowałem się**  
@@ -642,7 +642,7 @@ pnpm dict:status && pnpm generate
 - **— Mówię prawdę**  
   <sub>слова: [mówić](/slovo/mowic), [prawda](/slovo/prawda)</sub>
 - nadaremnie — 🟡 `nadaremnie` · adv · rank 2377
-- przekonasz — 🟡 `przekonać` · verb · rank 598
+- przekonasz — ✅ [przekonać](/slovo/przekonac) · verb
 - dopiero — 🟡 `dopiero` · part · rank 519
 - żałować — 🟡 `żałować` · verb · rank 1226
 - złapać — ✅ [złapać](/slovo/zlapac) · verb
@@ -675,7 +675,7 @@ pnpm dict:status && pnpm generate
 - **Nie ma tam ani źdźbła trawy, więc cóż by skubała trzoda, a bez trzody nie ma pastucha.**  
   <sub>слова: [nie](/slovo/nie), [mój](/slovo/moj), [tam](/slovo/tam), [ani](/slovo/ani), `źdźbło`, `trawa`, [więc](/slovo/wiec), [cóż](/slovo/coz), [by](/slovo/by), `skubać`, `trzoda`, [a](/slovo/a), [bez](/slovo/bez), `pastuch`</sub>
 - **— Chodź pan, chodź — zawołał Frankland, biegnąc na górę. — Zobaczysz pan na własne oczy i przekonasz się, że nie rzucam słów na wiatr**  
-  <sub>слова: [chodzić](/slovo/chodzic), [pan](/slovo/pan), `zawołać`, `biec`, [na](/slovo/na), [góra](/slovo/gora), [zobaczyć](/slovo/zobaczyc), `własne`, [oko](/slovo/oko), [i](/slovo/i), `przekonać`, [się](/slovo/sie), [że](/slovo/ze), [nie](/slovo/nie), `rzucać`, [słowo](/slovo/slowo), [wiatr](/slovo/wiatr)</sub>
+  <sub>слова: [chodzić](/slovo/chodzic), [pan](/slovo/pan), `zawołać`, `biec`, [na](/slovo/na), [góra](/slovo/gora), [zobaczyć](/slovo/zobaczyc), `własne`, [oko](/slovo/oko), [i](/slovo/i), [przekonać](/slovo/przekonac), [się](/slovo/sie), [że](/slovo/ze), [nie](/slovo/nie), `rzucać`, [słowo](/slovo/slowo), [wiatr](/slovo/wiatr)</sub>
 - **— Śpiesz się, doktorze, bo przejdzie na drugą stronę góry!**  
   <sub>слова: `śpieszyć`, [się](/slovo/sie), [doktor](/slovo/doktor), [bo](/slovo/bo), [przejść](/slovo/przejsc), [na](/slovo/na), [drugi](/slovo/drugi), [strona](/slovo/strona), `góry`</sub>
 - prostopadle — 🟡 `prostopadle` · adv · rank 2406
@@ -715,7 +715,7 @@ pnpm dict:status && pnpm generate
 - **— Żałuję, że nas widział**  
   <sub>слова: `żałować`, [że](/slovo/ze), [my](/slovo/my), [widzieć](/slovo/widziec)</sub>
 - **Drogi Watsonie, ty jesteś stworzony na człowieka czynu.**  
-  <sub>слова: `drogi`, [ty](/slovo/ty), [być](/slovo/byc), `stworzyć`, [na](/slovo/na), [człowiek](/slovo/czlowiek), `czyn`</sub>
+  <sub>слова: `drogi`, [ty](/slovo/ty), [być](/slovo/byc), [stworzyć](/slovo/stworzyc), [na](/slovo/na), [człowiek](/slovo/czlowiek), `czyn`</sub>
 - **Nie zdołamy mu nic dowieść**  
   <sub>слова: [nie](/slovo/nie), `zdołać`, [on](/slovo/on), [nic](/slovo/nic), `dowieść`</sub>
 - **Mamy przecież dowód.**  
@@ -726,7 +726,7 @@ pnpm dict:status && pnpm generate
 - wyrzutkiem — 🟡 `wyrzutek` · noun · rank 2436
 - zatarg — 🟡 `zatarg` · noun · rank 2437
 - **spodziewam się rzucić na nie światło**  
-  <sub>слова: `spodziewać`, [się](/slovo/sie), `rzucić`, [na](/slovo/na), [nie](/slovo/nie), [światło](/slovo/swiatlo)</sub>
+  <sub>слова: `spodziewać`, [się](/slovo/sie), [rzucić](/slovo/rzucic), [na](/slovo/na), [nie](/slovo/nie), [światło](/slovo/swiatlo)</sub>
 - kaganiec — 🟡 `kaganiec` · noun · rank 2438
 - **Rozporządzaj pan mną do woli**  
   <sub>слова: `rozporządzać`, [pan](/slovo/pan), [ja](/slovo/ja), [do](/slovo/do), `woli`</sub>
