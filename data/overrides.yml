@@ -55,6 +55,10 @@ exclude:
   # not a lemma but a slice of the adjective "własny": every candidate is agreement
   # (na własne oczy, własnego życia, własnym uszom) and the wlasny card owns the forms
   - wlasne
+  # not a lemma: the candidates are three different words — the plural of "droga"
+  # (na drogach, dróg), the adjective "drogi" (Krawat jest zbyt drogi) and the
+  # vocative "mój drogi". The droga card already owns the noun forms.
+  - drogi
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
@@ -81,3 +85,6 @@ pos:
   # heads the fixed mimo to / mimo tego / mimo że. All eight corpus candidates
   # are the preposition; none is the archaic adverb.
   mimo: prep
+  # "ktokolwiek" is tagged as a noun; it is kto + -kolwiek, a pronoun, and it
+  # declines like kto (kogokolwiek, komukolwiek, kimkolwiek)
+  ktokolwiek: pron

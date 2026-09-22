@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **305** |
-| В очереди       | **544** |
+| Карточка готова | **310** |
+| В очереди       | **539** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -99,7 +99,7 @@ pnpm dict:status && pnpm generate
 - **— Ale pan tak myślisz w głębi ducha.**  
   <sub>слова: [ale](/slovo/ale), [pan](/slovo/pan), [tak](/slovo/tak), [myśleć](/slovo/myslec), [w](/slovo/w), `głąb`, [duch](/slovo/duch)</sub>
 - **— Na przykład?**  
-  <sub>слова: [na](/slovo/na), `przykład`</sub>
+  <sub>слова: [na](/slovo/na), [przykład](/slovo/przyklad)</sub>
 - Dotychczas — ✅ [dotychczas](/slovo/dotychczas) · adv
 - walczyć — ✅ [walczyć](/slovo/walczyc) · verb
 - **— Więc w jaki sposób mogę panu dopomóc?**  
@@ -505,7 +505,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [niech](/slovo/niech), [ja](/slovo/ja), [pan](/slovo/pan), [o](/slovo/o), [to](/slovo/to), [nie](/slovo/nie), `pyta`, [dawać](/slovo/dawac), [słowo](/slovo/slowo), `honor`, [że](/slovo/ze), `cudzy`, [tajemnica](/slovo/tajemnica), [móc](/slovo/moc), [on](/slovo/on), `wyjawić`, [gdyby](/slovo/gdyby), [chodzić](/slovo/chodzic), [tylko](/slovo/tylko), `wyznać`, [cały](/slovo/caly), [prawda](/slovo/prawda)</sub>
 - łotrze — 🟡 `łotr` · noun · rank 2275
 - **Czy i teraz, łotrze, będziesz przeczył, że dawaliście sobie sygnały?… Chodź no tutaj. Mów, kto jest twoim wspólnikiem i jaki knujecie spisek?**  
-  <sub>слова: [czy](/slovo/czy), [i](/slovo/i), [teraz](/slovo/teraz), `łotr`, [być](/slovo/byc), `przeczyć`, [że](/slovo/ze), [dawać](/slovo/dawac), `sygnał`, [chodzić](/slovo/chodzic), [no](/slovo/no), [tutaj](/slovo/tutaj), `mowa`, [kto](/slovo/kto), [twój](/slovo/twoj), `wspólnik`, [jaki](/slovo/jaki), `knuć`, `spisek`</sub>
+  <sub>слова: [czy](/slovo/czy), [i](/slovo/i), [teraz](/slovo/teraz), `łotr`, [być](/slovo/byc), `przeczyć`, [że](/slovo/ze), [dawać](/slovo/dawac), `sygnał`, [chodzić](/slovo/chodzic), [no](/slovo/no), [tutaj](/slovo/tutaj), [mowa](/slovo/mowa), [kto](/slovo/kto), [twój](/slovo/twoj), `wspólnik`, [jaki](/slovo/jaki), `knuć`, `spisek`</sub>
 - **— Nie powiem! — oświadczył butnie. — To moja rzecz, nie pańska.**  
   <sub>слова: [nie](/slovo/nie), [powiedzieć](/slovo/powiedziec), `oświadczyć`, [butnie](/slovo/butnie), [to](/slovo/to), [rzecz](/slovo/rzecz), [pański](/slovo/panski)</sub>
 - **— W takim razie wynoś się zaraz z mego domu!**  
@@ -614,7 +614,7 @@ pnpm dict:status && pnpm generate
 - podejrzanej — ✅ [podejrzany](/slovo/podejrzany) · adj
 - łańcucha — 🟡 `łańcuch` · noun · rank 2359
 - **Nie darmo tyle lat przebywam w towarzystwie Sherlocka Holmesa**  
-  <sub>слова: [nie](/slovo/nie), [darmo](/slovo/darmo), [tyle](/slovo/tyle), `lato`, `przebywać`, [w](/slovo/w), `towarzystwo`</sub>
+  <sub>слова: [nie](/slovo/nie), [darmo](/slovo/darmo), [tyle](/slovo/tyle), [lato](/slovo/lato), `przebywać`, [w](/slovo/w), `towarzystwo`</sub>
 - zanotować — 🟡 `zanotować` · verb · rank 2361
 - **Pozostaje mi już tylko zanotować jeden fakt z owego dnia, a mianowicie moją rozmowę z Barrymore'em**  
   <sub>слова: `pozostawać`, [już](/slovo/juz), [tylko](/slovo/tylko), `zanotować`, [jeden](/slovo/jeden), [fakt](/slovo/fakt), [z](/slovo/z), `ów`, [dzień](/slovo/dzien), [a](/slovo/a), [mianowicie](/slovo/mianowicie), [mój](/slovo/moj), [rozmowa](/slovo/rozmowa), `em`</sub>
@@ -658,7 +658,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: `jakiż`, [być](/slovo/byc), [to](/slovo/to), [dla](/slovo/dla), [ja](/slovo/ja), `tryumf`, [gdyby](/slovo/gdyby), [on](/slovo/on), `zdołać`, `schwytać`</sub>
 - dopisywało — 🟡 `dopisywać` · verb · rank 2387
 - **Zwiastunem dobrej wieści był pan Frankland.**  
-  <sub>слова: `zwiastun`, [dobry](/slovo/dobry), `wieść`, [być](/slovo/byc), [pan](/slovo/pan)</sub>
+  <sub>слова: `zwiastun`, [dobry](/slovo/dobry), [wieść](/slovo/wiesc), [być](/slovo/byc), [pan](/slovo/pan)</sub>
 - wznoszącego — 🟡 `wznosić` · verb · rank 2178
 - **Dowodzenie było bardzo logiczne**  
   <sub>слова: `dowodzenie`, [być](/slovo/byc), [bardzo](/slovo/bardzo), `logiczny`</sub>
@@ -689,7 +689,7 @@ pnpm dict:status && pnpm generate
 - **Szukałem innych kartek, ale na próżno**  
   <sub>слова: [szukać](/slovo/szukac), [inny](/slovo/inny), `kartka`, [ale](/slovo/ale), [na](/slovo/na), [próżno](/slovo/prozno)</sub>
 - **Poprzysiągłem sobie, że stąd nie wyjdę, dopóki nie dowiem się, czy ten człowiek jest naszym przyjacielem, czy wrogiem**  
-  <sub>слова: `poprzysięgnąć`, [że](/slovo/ze), [stąd](/slovo/stad), [nie](/slovo/nie), [wyjść](/slovo/wyjsc), [dopóki](/slovo/dopoki), [dowiedzieć](/slovo/dowiedziec), [się](/slovo/sie), [czy](/slovo/czy), [ten](/slovo/ten), [człowiek](/slovo/czlowiek), [być](/slovo/byc), [nasz](/slovo/nasz), [przyjaciel](/slovo/przyjaciel), `wróg`</sub>
+  <sub>слова: `poprzysięgnąć`, [że](/slovo/ze), [stąd](/slovo/stad), [nie](/slovo/nie), [wyjść](/slovo/wyjsc), [dopóki](/slovo/dopoki), [dowiedzieć](/slovo/dowiedziec), [się](/slovo/sie), [czy](/slovo/czy), [ten](/slovo/ten), [człowiek](/slovo/czlowiek), [być](/slovo/byc), [nasz](/slovo/nasz), [przyjaciel](/slovo/przyjaciel), [wróg](/slovo/wrog)</sub>
 - **— Jakże się cieszę, że to ty!**  
   <sub>слова: [jakże](/slovo/jakze), [się](/slovo/sie), [cieszyć](/slovo/cieszyc), [że](/slovo/ze), [to](/slovo/to), [ty](/slovo/ty)</sub>
 - **— Tak, wtedy cię ujrzałem**  
