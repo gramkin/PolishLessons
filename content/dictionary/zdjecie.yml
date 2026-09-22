@@ -1,0 +1,164 @@
+# review
+id: zdjecie
+format: 2
+lemma: "zdjęcie"
+rank: 577
+pos: noun
+pron: { cyr: "здъе́нце" }
+senses:
+  - id: photo
+    ru: "фотография, снимок"
+    note: "robić zdjęcia «фотографировать», na zdjęciu «на фотографии»."
+    examples:
+      - pl: "Pokazał tobie zdjęcie?"
+        ru: "Он показал тебе фотографию?"
+        source: { kind: tatoeba, id: 3696314 }
+      - pl: "Zdjęcie jest czarno-białe."
+        ru: "Фотография чёрно-белая."
+        source: { kind: tatoeba, id: 6056658 }
+      - pl: "Człowiek na tym zdjęciu to nie Tom."
+        ru: "Человек на этой фотографии - не Том."
+        source: { kind: tatoeba, id: 13785948 }
+  - id: in-photo
+    ru: "na zdjęciu — на фотографии"
+    note: "Предложный падеж: kto jest na tym zdjęciu?"
+    examples:
+      - pl: "Czy znacie chłopca na tym zdjęciu?"
+        ru: "Знаете ли вы мальчика на этом снимке?"
+        source: { kind: tatoeba, id: 6313064 }
+      - pl: "Co widzisz na zdjęciu?"
+        ru: "Что ты видишь на фотографии?"
+        source: { kind: translated, id: 3579463 }
+      - pl: "Znasz tego człowieka na zdjęciu?"
+        ru: "Ты знаешь этого человека на фотографии?"
+        source: { kind: translated, id: 364113 }
+  - id: removal
+    ru: "снятие (отглагольное существительное от zdjąć)"
+    note: "Proszę o zdjęcie butów «Просьба снять обувь»."
+    examples:
+      - pl: "Proszę o zdjęcie butów."
+        ru: "Снимите, пожалуйста, свои ботинки."
+        source: { kind: tatoeba, id: 827818 }
+      - pl: "Zdjęcie opatrunku zajęło chwilę."
+        ru: "Снятие повязки заняло минуту."
+        source: { kind: authored }
+      - pl: "Zdjęcie plakatu ze ściany nie było łatwe."
+        ru: "Снять плакат со стены было непросто."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "robić zdjęcia значит «фотографировать»: interesuję się robieniem zdjęć «я увлекаюсь фотографией»." }
+  - { kind: usage, text: "«На фотографии» — na zdjęciu, предложный падеж: kto jest na tym zdjęciu?" }
+  - { kind: false-friend, text: "У слова два источника: это и «фотография», и отглагольное существительное от zdjąć «снять». Proszę o zdjęcie butów значит «просьба снять обувь», а вовсе не про снимок." }
+  - { kind: usage, text: "wychodzić dobrze na zdjęciach — «хорошо получаться на фотографиях»." }
+collocations:
+  - { pl: "robić zdjęcia", ru: "фотографировать" }
+  - { pl: "na zdjęciu", ru: "на фотографии" }
+  - { pl: "album ze zdjęciami", ru: "фотоальбом" }
+  - { pl: "zdjęcie butów", ru: "снятие обуви" }
+family:
+  - { pl: "zdjąć", ru: "снять", relation: root }
+  - { pl: "zdjęciowy", ru: "съёмочный", relation: derived }
+  - { pl: "fotografia", ru: "фотография", relation: derived }
+etymology: "Отглагольное существительное от zdjąć «снять» (z + djąć, старое «деть») — «снимок» ровно в том же смысле, в каком русское «снимок» происходит от «снять»."
+memory: "zdjęcie — «фотография», и образовано оно так же, как русское «снимок»: от глагола zdjąć «снять». Отсюда и второе значение, живое до сих пор: Proszę o zdjęcie butów значит «просьба снять обувь», а не про фотографию. «Фотографировать» будет robić zdjęcia, «на фотографии» — na zdjęciu с предложным, а фотоальбом — album ze zdjęciami."
+idioms:
+  - { pl: "robić zdjęcia", ru: "фотографировать" }
+  - { pl: "na zdjęciu", ru: "на фотографии" }
+  - { pl: "dobrze wychodzić na zdjęciach", ru: "хорошо получаться на фотографиях" }
+formExamples:
+  - form: "zdjęcia"
+    pl: "Widziałem zdjęcia."
+    ru: "Я видел фотографии."
+    source: { kind: translated, id: 8774090 }
+  - form: "zdjęcia"
+    pl: "Robiłam zdjęcia."
+    ru: "Я фотографировала."
+    source: { kind: translated, id: 9678406 }
+  - form: "zdjęcia"
+    pl: "Oglądałem stare zdjęcia."
+    ru: "Я рассматривал старые фотографии."
+    source: { kind: translated, id: 361223 }
+  - form: "zdjęciach"
+    pl: "Brzydko wychodzę na zdjęciach."
+    ru: "Я плохо получаюсь на фотографиях."
+    source: { kind: translated, id: 13223722 }
+  - form: "zdjęciach"
+    pl: "Zwykle marnie wychodzę na zdjęciach."
+    ru: "Обычно я скверно выхожу на фотографиях."
+    source: { kind: translated, id: 1846140 }
+  - form: "zdjęciach"
+    pl: "Na starych zdjęciach wszyscy są młodzi."
+    ru: "На старых фотографиях все молодые."
+    source: { kind: authored }
+  - form: "zdjęciami"
+    pl: "Pokazał mi swój album ze zdjęciami."
+    ru: "Он показал мне свой фотоальбом."
+    source: { kind: translated, id: 1176392 }
+  - form: "zdjęciami"
+    pl: "Ona podała mu album ze zdjęciami."
+    ru: "Она подала ему фотоальбом."
+    source: { kind: translated, id: 9686455 }
+  - form: "zdjęciami"
+    pl: "Między zdjęciami znalazł list."
+    ru: "Между фотографиями он нашёл письмо."
+    source: { kind: authored }
+  - form: "zdjęcie"
+    pl: "Pokazał tobie zdjęcie?"
+    ru: "Он показал тебе фотографию?"
+    source: { kind: tatoeba, id: 3696314 }
+  - form: "zdjęcie"
+    pl: "Zdjęcie jest czarno-białe."
+    ru: "Фотография чёрно-белая."
+    source: { kind: tatoeba, id: 6056658 }
+  - form: "zdjęcie"
+    pl: "Zamieścili jego zdjęcie w gazecie."
+    ru: "Его фотография была в газете."
+    source: { kind: tatoeba, id: 981797 }
+  - form: "zdjęciem"
+    pl: "Wyślij mi dzisiaj e-maila ze swoim zdjęciem!"
+    ru: "Пришли мне сегодня письмо со своей фотографией!"
+    source: { kind: translated, id: 13428164 }
+  - form: "zdjęciem"
+    pl: "Nad zdjęciem wisiała lampa."
+    ru: "Над фотографией висела лампа."
+    source: { kind: authored }
+  - form: "zdjęciem"
+    pl: "Przed zdjęciem opatrunku umyj ręce."
+    ru: "Перед снятием повязки вымой руки."
+    source: { kind: authored }
+  - form: "zdjęciom"
+    pl: "Przyjrzyj się tym zdjęciom uważnie."
+    ru: "Присмотрись к этим фотографиям внимательно."
+    source: { kind: authored }
+  - form: "zdjęciom"
+    pl: "Dzięki zdjęciom udało się ustalić datę."
+    ru: "Благодаря фотографиям удалось установить дату."
+    source: { kind: authored }
+  - form: "zdjęciom"
+    pl: "Nie ufaj takim zdjęciom."
+    ru: "Не доверяй таким фотографиям."
+    source: { kind: authored }
+  - form: "zdjęciu"
+    pl: "Czy znacie chłopca na tym zdjęciu?"
+    ru: "Знаете ли вы мальчика на этом снимке?"
+    source: { kind: tatoeba, id: 6313064 }
+  - form: "zdjęciu"
+    pl: "Człowiek na tym zdjęciu to nie Tom."
+    ru: "Человек на этой фотографии - не Том."
+    source: { kind: tatoeba, id: 13785948 }
+  - form: "zdjęciu"
+    pl: "Co widzisz na zdjęciu?"
+    ru: "Что ты видишь на фотографии?"
+    source: { kind: translated, id: 3579463 }
+  - form: "zdjęć"
+    pl: "Mam wiele zdjęć."
+    ru: "У меня много фотографий."
+    source: { kind: translated, id: 527763 }
+  - form: "zdjęć"
+    pl: "Zrobił tysiące zdjęć."
+    ru: "Он сделал тысячи снимков."
+    source: { kind: translated, id: 2707333 }
+  - form: "zdjęć"
+    pl: "Interesuję się robieniem zdjęć."
+    ru: "Я увлекаюсь фотографией."
+    source: { kind: translated, id: 1589482 }

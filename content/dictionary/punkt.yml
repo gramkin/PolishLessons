@@ -1,0 +1,188 @@
+# review
+id: punkt
+format: 2
+lemma: "punkt"
+rank: 582
+pos: noun
+pron: { cyr: "пункт" }
+senses:
+  - id: point
+    ru: "точка, пункт"
+    note: "punkt widzenia «точка зрения», z punktu A do punktu B."
+    examples:
+      - pl: "Centrum wszechświata znajduje się w każdym punkcie wszechświata."
+        ru: "Центр Вселенной находится в каждой точке Вселенной."
+        source: { kind: tatoeba, id: 11404660 }
+      - pl: "Ile czasu potrzeba aby dotrzeć z punktu A do punktu B?"
+        ru: "Сколько времени требуется, чтобы добраться из пункта А в пункт Б?"
+        source: { kind: tatoeba, id: 6109628 }
+      - pl: "Z mojego punktu widzenia Tokio i Osaka jako metropolie praktycznie niczym się nie różnią"
+        ru: "С моей точки зрения, как мегаполисы Токио и Осака практически ничем не отличаются."
+        source: { kind: tatoeba, id: 5053957 }
+  - id: score
+    ru: "балл, очко"
+    note: "dostać 85 punktów «получить 85 баллов»."
+    examples:
+      - pl: "Na egzaminie dostał 85 punktów."
+        ru: "На экзамене он получил 85 баллов."
+        source: { kind: translated, id: 415419 }
+      - pl: "Kto miał najwięcej punktów?"
+        ru: "У кого было больше всего очков?"
+        source: { kind: translated, id: 3610612 }
+      - pl: "Nasz zespół osiągnął przewagę pięciu punktów."
+        ru: "Наша команда добилась преимущества в пять очков."
+        source: { kind: translated, id: 3107108 }
+  - id: obsessed
+    ru: "mieć bzika na punkcie czegoś — быть помешанным на чём-л."
+    note: "Устойчивый оборот с na punkcie и родительным."
+    examples:
+      - pl: "Mam bzika na punkcie golfa."
+        ru: "Я помешан на гольфе."
+        source: { kind: translated, id: 749194 }
+      - pl: "Ona szaleje na punkcie muzyki."
+        ru: "Она без ума от музыки."
+        source: { kind: translated, id: 792165 }
+      - pl: "Szaleje na punkcie piłki nożnej."
+        ru: "Он помешан на футболе."
+        source: { kind: translated, id: 1354233 }
+notes:
+  - { kind: government, text: "Оборот na punkcie czegoś «на чём-либо» требует родительного: szaleje na punkcie muzyki «она без ума от музыки», mieć bzika na punkcie golfa." }
+  - { kind: usage, text: "punkt widzenia — «точка зрения»: z mojego punktu widzenia «с моей точки зрения»." }
+  - { kind: usage, text: "Перед часом значит «ровно»: jest punkt dziesiąta «ровно десять»." }
+  - { kind: usage, text: "Во множественном — «баллы, очки»: dostać punkty «получить баллы», zbierać punkty «собирать баллы»." }
+collocations:
+  - { pl: "punkt widzenia", ru: "точка зрения" }
+  - { pl: "na punkcie czegoś", ru: "на чём-либо (помешан)" }
+  - { pl: "punkt dziesiąta", ru: "ровно десять" }
+  - { pl: "zdobyć punkty", ru: "набрать очки" }
+family:
+  - { pl: "punktualny", ru: "пунктуальный", relation: derived }
+  - { pl: "punktacja", ru: "система баллов", relation: derived }
+  - { pl: "punkcik", ru: "точечка", relation: derived }
+etymology: "Из латинского punctum «укол, точка» через немецкое Punkt — то же слово, что русский «пункт» и «пунктир»."
+memory: "punkt — «точка» и «пункт», но у него есть ходы, которых русский не ждёт. Перед часом оно значит «ровно»: jest punkt dziesiąta «ровно десять». Во множественном это «баллы, очки»: dostał 85 punktów. А оборот na punkcie czegoś требует родительного и значит «помешан на чём-то»: mieć bzika na punkcie golfa, szaleć na punkcie muzyki. Ну и punkt widzenia — «точка зрения»."
+idioms:
+  - { pl: "punkt widzenia", ru: "точка зрения" }
+  - { pl: "mieć bzika na punkcie czegoś", ru: "быть помешанным на чём-либо" }
+  - { pl: "punkt dziesiąta", ru: "ровно десять" }
+formExamples:
+  - form: "punkcie"
+    pl: "Centrum wszechświata znajduje się w każdym punkcie wszechświata."
+    ru: "Центр Вселенной находится в каждой точке Вселенной."
+    source: { kind: tatoeba, id: 11404660 }
+  - form: "punkcie"
+    pl: "Mam bzika na punkcie golfa."
+    ru: "Я помешан на гольфе."
+    source: { kind: translated, id: 749194 }
+  - form: "punkcie"
+    pl: "Ona szaleje na punkcie muzyki."
+    ru: "Она без ума от музыки."
+    source: { kind: translated, id: 792165 }
+  - form: "punkt"
+    pl: "Uderzył w najsłabszy punkt."
+    ru: "Он ударил в самую слабую точку."
+    source: { kind: tatoeba, id: 6301934 }
+  - form: "punkt"
+    pl: "Jest punkt dziesiąta."
+    ru: "Ровно десять."
+    source: { kind: translated, id: 3195710 }
+  - form: "punkt"
+    pl: "Przyjęli mój punkt widzenia."
+    ru: "Они приняли мою точку зрения."
+    source: { kind: translated, id: 716869 }
+  - form: "punktach"
+    pl: "Mylisz się w kilku punktach."
+    ru: "Ты ошибаешься в нескольких пунктах."
+    source: { kind: translated, id: 984675 }
+  - form: "punktach"
+    pl: "On różni się ode mnie w wielu punktach."
+    ru: "Он отличается от меня во многих отношениях."
+    source: { kind: translated, id: 620852 }
+  - form: "punktach"
+    pl: "W tych punktach się zgadzamy."
+    ru: "В этих пунктах мы согласны."
+    source: { kind: authored }
+  - form: "punktami"
+    pl: "Moimi głównymi punktami zainteresowania są: programowanie w Pythonie, medycyna, matematyka i gry komputerowe."
+    ru: "Главные предметы моего интереса — программирование на Python и медицина."
+    source: { kind: translated, id: 2024700 }
+  - form: "punktami"
+    pl: "Między oboma punktami jest kilometr."
+    ru: "Между обеими точками километр."
+    source: { kind: authored }
+  - form: "punktami"
+    pl: "Zajmuje się punktami sprzedaży."
+    ru: "Он занимается точками продаж."
+    source: { kind: authored }
+  - form: "punktem"
+    pl: "Całkowicie zgadzam się z twoim punktem widzenia."
+    ru: "Я полностью согласен с твоей точкой зрения."
+    source: { kind: translated, id: 3673303 }
+  - form: "punktem"
+    pl: "Ten dzień był punktem zwrotnym."
+    ru: "Этот день стал поворотной точкой."
+    source: { kind: authored }
+  - form: "punktem"
+    pl: "Przed tym punktem droga się rozwidla."
+    ru: "Перед этой точкой дорога раздваивается."
+    source: { kind: authored }
+  - form: "punktom"
+    pl: "Przyjrzyj się wszystkim punktom listy."
+    ru: "Присмотрись ко всем пунктам списка."
+    source: { kind: authored }
+  - form: "punktom"
+    pl: "Dzięki dodatkowym punktom zdał egzamin."
+    ru: "Благодаря дополнительным баллам он сдал экзамен."
+    source: { kind: authored }
+  - form: "punktom"
+    pl: "Nie ufaj drobnym punktom umowy."
+    ru: "Не доверяй мелким пунктам договора."
+    source: { kind: authored }
+  - form: "punktowi"
+    pl: "Przyjrzyj się temu punktowi programu."
+    ru: "Присмотрись к этому пункту программы."
+    source: { kind: authored }
+  - form: "punktowi"
+    pl: "Nie ufaj temu punktowi umowy."
+    ru: "Не доверяй этому пункту договора."
+    source: { kind: authored }
+  - form: "punktowi"
+    pl: "Dzięki temu punktowi wygrali mecz."
+    ru: "Благодаря этому очку они выиграли матч."
+    source: { kind: authored }
+  - form: "punktów"
+    pl: "Na egzaminie dostał 85 punktów."
+    ru: "На экзамене он получил 85 баллов."
+    source: { kind: translated, id: 415419 }
+  - form: "punktów"
+    pl: "Kto miał najwięcej punktów?"
+    ru: "У кого было больше всего очков?"
+    source: { kind: translated, id: 3610612 }
+  - form: "punktów"
+    pl: "Nasz zespół osiągnął przewagę pięciu punktów."
+    ru: "Наша команда добилась преимущества в пять очков."
+    source: { kind: translated, id: 3107108 }
+  - form: "punktu"
+    pl: "Ile czasu potrzeba aby dotrzeć z punktu A do punktu B?"
+    ru: "Сколько времени требуется, чтобы добраться из пункта А в пункт Б?"
+    source: { kind: tatoeba, id: 6109628 }
+  - form: "punktu"
+    pl: "Z mojego punktu widzenia Tokio i Osaka jako metropolie praktycznie niczym się nie różnią"
+    ru: "С моей точки зрения, как мегаполисы Токио и Осака практически ничем не отличаются."
+    source: { kind: tatoeba, id: 5053957 }
+  - form: "punktu"
+    pl: "Wróciłem do punktu wyjścia."
+    ru: "Я вернулся к исходной точке."
+    source: { kind: translated, id: 11581476 }
+  - form: "punkty"
+    pl: "Zbieram punkty."
+    ru: "Я собираю баллы."
+    source: { kind: translated, id: 440446 }
+  - form: "punkty"
+    pl: "Proszę sprawdzić wszytkie punkty na tej liście."
+    ru: "Проверьте, пожалуйста, все пункты в этом списке."
+    source: { kind: translated, id: 352473 }
+  - form: "punkty"
+    pl: "Jeśli cię zapytają o twoje mocne punkty, miej przygotowaną odpowiedź."
+    ru: "Если тебя спросят о сильных сторонах, имей готовый ответ."
+    source: { kind: translated, id: 361929 }
