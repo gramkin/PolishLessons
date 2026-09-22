@@ -1,0 +1,839 @@
+# review
+id: zajmowac
+format: 2
+lemma: "zajmować"
+rank: 643
+pos: verb
+aspect: imperf
+aspectPair: zajac
+pron: { cyr: "займо́ваць" }
+senses:
+  - id: deal-with
+    ru: "zajmować się czymś — заниматься чем-л. (творительный)"
+    note: "Czym się zajmujesz? — обиходное «кем ты работаешь?»."
+    examples:
+      - pl: "Czym się zajmujesz w twoim kraju?"
+        ru: "Чем ты занимаешься в своей стране?"
+        source: { kind: tatoeba, id: 849080 }
+      - pl: "Czym się zajmujesz?"
+        ru: "Чем ты занимаешься?"
+        source: { kind: translated, id: 769972 }
+      - pl: "Zajmują się badaniami nad rakiem."
+        ru: "Они занимаются исследованиями рака."
+        source: { kind: translated, id: 758330 }
+  - id: occupy-time
+    ru: "занимать (время)"
+    note: "Ile czasu to zajmuje? «Сколько времени это занимает?»"
+    examples:
+      - pl: "Ile czasu to zajmuje?"
+        ru: "Сколько времени это занимает?"
+        source: { kind: tatoeba, id: 6313116 }
+      - pl: "Jak długo to zajmuje?"
+        ru: "Сколько времени это займёт?"
+        source: { kind: tatoeba, id: 6313127 }
+      - pl: "Facebook zajmuje mi dużo czasu."
+        ru: "Facebook отнимает у меня много времени."
+        source: { kind: tatoeba, id: 2149147 }
+  - id: occupy-space
+    ru: "занимать (место, помещение)"
+    examples:
+      - pl: "Sama zajmowała ten duży pokój."
+        ru: "Она одна занимала эту большую комнату."
+        source: { kind: translated, id: 743197 }
+      - pl: "Teraz ja zajmuję łazienkę."
+        ru: "Сейчас ванную занимаю я."
+        source: { kind: translated, id: 1348822 }
+      - pl: "Szafa zajmuje pół pokoju."
+        ru: "Шкаф занимает полкомнаты."
+        source: { kind: authored }
+  - id: engaging
+    ru: "zajmujący — занимательный, интересный"
+    note: "Сдвиг значения тот же, что у русского «занимательный»."
+    examples:
+      - pl: "Wystąpienie Toma było całkiem zajmujące."
+        ru: "Выступление Тома было довольно занимательным."
+        source: { kind: translated, id: 7899698 }
+      - pl: "To zajmujący wykład."
+        ru: "Это занимательная лекция."
+        source: { kind: authored }
+      - pl: "Film okazał się zajmujący."
+        ru: "Фильм оказался занимательным."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Главная конструкция — zajmować się CZYMŚ, творительный падеж: Czym się zajmujesz?, zajmuje się polityką. Здесь польский и русский совпадают полностью." }
+  - { kind: usage, text: "Czym się zajmujesz? — обиходный способ спросить «кем ты работаешь?», а не только «чем ты сейчас занят»." }
+  - { kind: usage, text: "Без się остаётся простое «занимать»: Ile czasu to zajmuje?, zajmować miejsce «занимать место»." }
+  - { kind: usage, text: "Причастие zajmujący сдвинулось в сторону «занимательный, интересный»: Wystąpienie było zajmujące." }
+  - { kind: usage, text: "Совершенный вид — zająć: zajmował długo, w końcu zajął." }
+collocations:
+  - { pl: "zajmować się czymś", ru: "заниматься чем-либо" }
+  - { pl: "Czym się zajmujesz?", ru: "Чем ты занимаешься?" }
+  - { pl: "zajmować miejsce", ru: "занимать место" }
+  - { pl: "zajmujący", ru: "занимательный" }
+family:
+  - { pl: "zająć", ru: "занять", relation: aspect }
+  - { pl: "zajęcie", ru: "занятие", relation: derived }
+  - { pl: "zajmujący", ru: "занимательный", relation: derived }
+etymology: "Приставка za- плюс старое jmować «имать, брать» — то же гнездо, что русские «занимать», «иметь» и «взять»."
+memory: "zajmować — «занимать», и главное здесь возвратное: zajmować się CZYMŚ с творительным, ровно как в русском. Czym się zajmujesz? значит не только «чем ты сейчас занят», но и обиходное «кем ты работаешь?». Без się остаётся простое «занимать»: Ile czasu to zajmuje?, zajmować miejsce. А причастие zajmujący сдвинулось в сторону «занимательный»: wystąpienie było zajmujące. Совершенный вид — zająć."
+idioms:
+  - { pl: "zajmować się czymś", ru: "заниматься чем-либо" }
+  - { pl: "Czym się zajmujesz?", ru: "Чем ты занимаешься?" }
+  - { pl: "zajmować miejsce", ru: "занимать место" }
+formExamples:
+  - form: "zajmować"
+    pl: "Nienawidzę zajmować się niejadkami."
+    ru: "Ненавижу возиться с малоежками."
+    source: { kind: translated, id: 8178560 }
+  - form: "zajmować"
+    pl: "On lubi zajmować się ogrodem."
+    ru: "Он любит заниматься садом."
+    source: { kind: translated, id: 368409 }
+  - form: "zajmować"
+    pl: "Tom powinien lepiej zajmować się swoimi dziećmi."
+    ru: "Тому следовало бы лучше заниматься своими детьми."
+    source: { kind: translated, id: 3945937 }
+  - form: "zajmowali"
+    pl: "Zajmowali się dziećmi na zmianę."
+    ru: "Они занимались детьми по очереди."
+    source: { kind: authored }
+  - form: "zajmowali"
+    pl: "Zajmowali całe piętro."
+    ru: "Они занимали весь этаж."
+    source: { kind: authored }
+  - form: "zajmowali"
+    pl: "Zajmowali się polityką zawodowo."
+    ru: "Они занимались политикой профессионально."
+    source: { kind: authored }
+  - form: "zajmowaliby"
+    pl: "Zajmowaliby się dziećmi, gdyby mieli czas."
+    ru: "Они занимались бы детьми, будь у них время."
+    source: { kind: authored }
+  - form: "zajmowaliby"
+    pl: "Nie zajmowaliby tego miejsca."
+    ru: "Они не занимали бы это место."
+    source: { kind: authored }
+  - form: "zajmowaliby"
+    pl: "Zajmowaliby się polityką zawodowo."
+    ru: "Они занимались бы политикой профессионально."
+    source: { kind: authored }
+  - form: "zajmowalibyście"
+    pl: "Zajmowalibyście się dziećmi?"
+    ru: "Вы занимались бы детьми?"
+    source: { kind: authored }
+  - form: "zajmowalibyście"
+    pl: "Nie zajmowalibyście tego miejsca."
+    ru: "Вы не занимали бы это место."
+    source: { kind: authored }
+  - form: "zajmowalibyście"
+    pl: "Zajmowalibyście całe piętro."
+    ru: "Вы занимали бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowalibyśmy"
+    pl: "Zajmowalibyśmy się dziećmi, gdybyśmy mieli czas."
+    ru: "Мы занимались бы детьми, будь у нас время."
+    source: { kind: authored }
+  - form: "zajmowalibyśmy"
+    pl: "Nie zajmowalibyśmy tego miejsca."
+    ru: "Мы не занимали бы это место."
+    source: { kind: authored }
+  - form: "zajmowalibyśmy"
+    pl: "Zajmowalibyśmy całe piętro."
+    ru: "Мы занимали бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowaliście"
+    pl: "Czym się zajmowaliście?"
+    ru: "Чем вы занимались?"
+    source: { kind: authored }
+  - form: "zajmowaliście"
+    pl: "Zajmowaliście całe piętro?"
+    ru: "Вы занимали весь этаж?"
+    source: { kind: authored }
+  - form: "zajmowaliście"
+    pl: "Zajmowaliście się dziećmi na zmianę."
+    ru: "Вы занимались детьми по очереди."
+    source: { kind: authored }
+  - form: "zajmowaliśmy"
+    pl: "Na zmianę zajmowaliśmy się końmi."
+    ru: "Мы по очереди занимались лошадьми."
+    source: { kind: translated, id: 754539 }
+  - form: "zajmowaliśmy"
+    pl: "Zajmowaliśmy się dziećmi na zmianę."
+    ru: "Мы занимались детьми по очереди."
+    source: { kind: authored }
+  - form: "zajmowaliśmy"
+    pl: "Zajmowaliśmy całe piętro."
+    ru: "Мы занимали весь этаж."
+    source: { kind: authored }
+  - form: "zajmował"
+    pl: "Zajmował się profesjonalnie polityką."
+    ru: "Он профессионально занимался политикой."
+    source: { kind: translated, id: 930406 }
+  - form: "zajmował"
+    pl: "Mój wuj zajmował się uczeniem gotowania."
+    ru: "Мой дядя занимался обучением готовке."
+    source: { kind: translated, id: 357382 }
+  - form: "zajmował"
+    pl: "Tom zajmował się prawem w Bostonie."
+    ru: "Том занимался правом в Бостоне."
+    source: { kind: translated, id: 12041079 }
+  - form: "zajmowała"
+    pl: "Zajmowała się myciem naczyń."
+    ru: "Она занималась мытьём посуды."
+    source: { kind: translated, id: 356946 }
+  - form: "zajmowała"
+    pl: "Sama zajmowała ten duży pokój."
+    ru: "Она одна занимала эту большую комнату."
+    source: { kind: translated, id: 743197 }
+  - form: "zajmowała"
+    pl: "Ponad dziesięć lat profesjonalnie zajmowała się tańcem."
+    ru: "Более десяти лет она профессионально занималась танцем."
+    source: { kind: translated, id: 2250365 }
+  - form: "zajmowałaby"
+    pl: "Zajmowałaby się ogrodem, gdyby miała czas."
+    ru: "Она занималась бы садом, будь у неё время."
+    source: { kind: authored }
+  - form: "zajmowałaby"
+    pl: "Nie zajmowałaby tego miejsca."
+    ru: "Она не занимала бы это место."
+    source: { kind: authored }
+  - form: "zajmowałaby"
+    pl: "Zajmowałaby całe piętro."
+    ru: "Она занимала бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałabym"
+    pl: "Zajmowałabym się ogrodem, gdybym miała czas."
+    ru: "Я занималась бы садом, будь у меня время."
+    source: { kind: authored }
+  - form: "zajmowałabym"
+    pl: "Nie zajmowałabym tego miejsca."
+    ru: "Я не занимала бы это место."
+    source: { kind: authored }
+  - form: "zajmowałabym"
+    pl: "Zajmowałabym całe piętro."
+    ru: "Я занимала бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałabyś"
+    pl: "Zajmowałabyś się ogrodem?"
+    ru: "Ты занималась бы садом?"
+    source: { kind: authored }
+  - form: "zajmowałabyś"
+    pl: "Nie zajmowałabyś tego miejsca."
+    ru: "Ты не занимала бы это место."
+    source: { kind: authored }
+  - form: "zajmowałabyś"
+    pl: "Zajmowałabyś całe piętro?"
+    ru: "Ты занимала бы весь этаж?"
+    source: { kind: authored }
+  - form: "zajmowałam"
+    pl: "Zajmowałam się ogrodem."
+    ru: "Я занималась садом."
+    source: { kind: authored }
+  - form: "zajmowałam"
+    pl: "Nie zajmowałam tego miejsca."
+    ru: "Я не занимала это место."
+    source: { kind: authored }
+  - form: "zajmowałam"
+    pl: "Zajmowałam się dziećmi na zmianę z siostrą."
+    ru: "Я занималась детьми по очереди с сестрой."
+    source: { kind: authored }
+  - form: "zajmowałaś"
+    pl: "Czym się zajmowałaś?"
+    ru: "Чем ты занималась?"
+    source: { kind: authored }
+  - form: "zajmowałaś"
+    pl: "Nie zajmowałaś tego miejsca."
+    ru: "Ты не занимала это место."
+    source: { kind: authored }
+  - form: "zajmowałaś"
+    pl: "Zajmowałaś się ogrodem."
+    ru: "Ты занималась садом."
+    source: { kind: authored }
+  - form: "zajmowałby"
+    pl: "Zajmowałby się ogrodem, gdyby miał czas."
+    ru: "Он занимался бы садом, будь у него время."
+    source: { kind: authored }
+  - form: "zajmowałby"
+    pl: "Nie zajmowałby tego miejsca."
+    ru: "Он не занимал бы это место."
+    source: { kind: authored }
+  - form: "zajmowałby"
+    pl: "Zajmowałby całe piętro."
+    ru: "Он занимал бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałbym"
+    pl: "Zajmowałbym się ogrodem, gdybym miał czas."
+    ru: "Я занимался бы садом, будь у меня время."
+    source: { kind: authored }
+  - form: "zajmowałbym"
+    pl: "Nie zajmowałbym tego miejsca."
+    ru: "Я не занимал бы это место."
+    source: { kind: authored }
+  - form: "zajmowałbym"
+    pl: "Zajmowałbym całe piętro."
+    ru: "Я занимал бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałbyś"
+    pl: "Zajmowałbyś się ogrodem?"
+    ru: "Ты занимался бы садом?"
+    source: { kind: authored }
+  - form: "zajmowałbyś"
+    pl: "Nie zajmowałbyś tego miejsca."
+    ru: "Ты не занимал бы это место."
+    source: { kind: authored }
+  - form: "zajmowałbyś"
+    pl: "Zajmowałbyś całe piętro?"
+    ru: "Ты занимал бы весь этаж?"
+    source: { kind: authored }
+  - form: "zajmowałem"
+    pl: "Zajmowałem się ogrodem."
+    ru: "Я занимался садом."
+    source: { kind: authored }
+  - form: "zajmowałem"
+    pl: "Nie zajmowałem tego miejsca."
+    ru: "Я не занимал это место."
+    source: { kind: authored }
+  - form: "zajmowałem"
+    pl: "Zajmowałem się polityką zawodowo."
+    ru: "Я занимался политикой профессионально."
+    source: { kind: authored }
+  - form: "zajmowałeś"
+    pl: "Czym się zajmowałeś?"
+    ru: "Чем ты занимался?"
+    source: { kind: authored }
+  - form: "zajmowałeś"
+    pl: "Nie zajmowałeś tego miejsca."
+    ru: "Ты не занимал это место."
+    source: { kind: authored }
+  - form: "zajmowałeś"
+    pl: "Zajmowałeś się ogrodem."
+    ru: "Ты занимался садом."
+    source: { kind: authored }
+  - form: "zajmowało"
+    pl: "Momentami czytanie książek zajmowało połowę jego czasu."
+    ru: "Временами чтение книг занимало половину его времени."
+    source: { kind: translated, id: 367771 }
+  - form: "zajmowało"
+    pl: "Nie mogłem dobrze spać zeszłej nocy, bo wiele rzeczy zajmowało moje myśli."
+    ru: "Прошлой ночью я плохо спал, потому что многое занимало мои мысли."
+    source: { kind: translated, id: 2658957 }
+  - form: "zajmowało"
+    pl: "To zajmowało mu pół dnia."
+    ru: "Это занимало у него полдня."
+    source: { kind: authored }
+  - form: "zajmowałoby"
+    pl: "Dziecko zajmowałoby się rysowaniem."
+    ru: "Ребёнок занимался бы рисованием."
+    source: { kind: authored }
+  - form: "zajmowałoby"
+    pl: "To zajmowałoby mi pół dnia."
+    ru: "Это занимало бы у меня полдня."
+    source: { kind: authored }
+  - form: "zajmowałoby"
+    pl: "Biurko zajmowałoby pół pokoju."
+    ru: "Стол занимал бы полкомнаты."
+    source: { kind: authored }
+  - form: "zajmowały"
+    pl: "Dzieci zajmowały cały pokój."
+    ru: "Дети занимали всю комнату."
+    source: { kind: authored }
+  - form: "zajmowały"
+    pl: "Te sprawy zajmowały mu cały dzień."
+    ru: "Эти дела занимали у него весь день."
+    source: { kind: authored }
+  - form: "zajmowały"
+    pl: "Kobiety zajmowały się gospodarstwem."
+    ru: "Женщины занимались хозяйством."
+    source: { kind: authored }
+  - form: "zajmowałyby"
+    pl: "Dzieci zajmowałyby cały pokój."
+    ru: "Дети занимали бы всю комнату."
+    source: { kind: authored }
+  - form: "zajmowałyby"
+    pl: "Te sprawy zajmowałyby mu cały dzień."
+    ru: "Эти дела занимали бы у него весь день."
+    source: { kind: authored }
+  - form: "zajmowałyby"
+    pl: "Kobiety zajmowałyby się gospodarstwem."
+    ru: "Женщины занимались бы хозяйством."
+    source: { kind: authored }
+  - form: "zajmowałybyście"
+    pl: "Zajmowałybyście się dziećmi?"
+    ru: "Вы занимались бы детьми?"
+    source: { kind: authored }
+  - form: "zajmowałybyście"
+    pl: "Nie zajmowałybyście tego miejsca."
+    ru: "Вы не занимали бы это место."
+    source: { kind: authored }
+  - form: "zajmowałybyście"
+    pl: "Zajmowałybyście całe piętro."
+    ru: "Вы занимали бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałybyśmy"
+    pl: "Zajmowałybyśmy się dziećmi, gdybyśmy miały czas."
+    ru: "Мы занимались бы детьми, будь у нас время."
+    source: { kind: authored }
+  - form: "zajmowałybyśmy"
+    pl: "Nie zajmowałybyśmy tego miejsca."
+    ru: "Мы не занимали бы это место."
+    source: { kind: authored }
+  - form: "zajmowałybyśmy"
+    pl: "Zajmowałybyśmy całe piętro."
+    ru: "Мы занимали бы весь этаж."
+    source: { kind: authored }
+  - form: "zajmowałyście"
+    pl: "Czym się zajmowałyście?"
+    ru: "Чем вы занимались?"
+    source: { kind: authored }
+  - form: "zajmowałyście"
+    pl: "Nie zajmowałyście tego miejsca."
+    ru: "Вы не занимали это место."
+    source: { kind: authored }
+  - form: "zajmowałyście"
+    pl: "Zajmowałyście całe piętro?"
+    ru: "Вы занимали весь этаж?"
+    source: { kind: authored }
+  - form: "zajmowałyśmy"
+    pl: "Zajmowałyśmy się dziećmi na zmianę."
+    ru: "Мы занимались детьми по очереди."
+    source: { kind: authored }
+  - form: "zajmowałyśmy"
+    pl: "Nie zajmowałyśmy tego miejsca."
+    ru: "Мы не занимали это место."
+    source: { kind: authored }
+  - form: "zajmowałyśmy"
+    pl: "Zajmowałyśmy całe piętro."
+    ru: "Мы занимали весь этаж."
+    source: { kind: authored }
+  - form: "zajmowana"
+    pl: "Ta sala jest zajmowana przez uczniów."
+    ru: "Этот зал занимают ученики."
+    source: { kind: authored }
+  - form: "zajmowana"
+    pl: "Pozycja zajmowana przez firmę jest mocna."
+    ru: "Позиция, занимаемая фирмой, прочная."
+    source: { kind: authored }
+  - form: "zajmowana"
+    pl: "Była zajmowana sprawami rodziny."
+    ru: "Она была занята семейными делами."
+    source: { kind: authored }
+  - form: "zajmowaną"
+    pl: "Znam zajmowaną przez nich salę."
+    ru: "Я знаю зал, который они занимают."
+    source: { kind: authored }
+  - form: "zajmowaną"
+    pl: "Uznali tę pozycję za zajmowaną bezprawnie."
+    ru: "Эту позицию сочли занимаемой незаконно."
+    source: { kind: authored }
+  - form: "zajmowaną"
+    pl: "Opuścił zajmowaną od lat posadę."
+    ru: "Он оставил занимаемую годами должность."
+    source: { kind: authored }
+  - form: "zajmowane"
+    pl: "Te pokoje są zajmowane przez gości."
+    ru: "Эти комнаты занимают гости."
+    source: { kind: authored }
+  - form: "zajmowane"
+    pl: "Miejsca zajmowane przez dzieci były w pierwszym rzędzie."
+    ru: "Места, занимаемые детьми, были в первом ряду."
+    source: { kind: authored }
+  - form: "zajmowane"
+    pl: "Były zajmowane co wieczór."
+    ru: "Их занимали каждый вечер."
+    source: { kind: authored }
+  - form: "zajmowanego"
+    pl: "Nie znam zajmowanego przez nich piętra."
+    ru: "Я не знаю этаж, который они занимают."
+    source: { kind: authored }
+  - form: "zajmowanego"
+    pl: "Szukam zajmowanego wcześniej pokoju."
+    ru: "Я ищу комнату, которую занимали раньше."
+    source: { kind: authored }
+  - form: "zajmowanego"
+    pl: "Wysokość zajmowanego stanowiska go zaskoczyła."
+    ru: "Высота занимаемой должности его удивила."
+    source: { kind: authored }
+  - form: "zajmowanej"
+    pl: "Nie znam zajmowanej przez nich sali."
+    ru: "Я не знаю зал, который они занимают."
+    source: { kind: authored }
+  - form: "zajmowanej"
+    pl: "Wysokość zajmowanej pozycji go zaskoczyła."
+    ru: "Высота занимаемой позиции его удивила."
+    source: { kind: authored }
+  - form: "zajmowanej"
+    pl: "Bez zajmowanej wcześniej posady był bezradny."
+    ru: "Без прежде занимаемой должности он был беспомощен."
+    source: { kind: authored }
+  - form: "zajmowanemu"
+    pl: "Przyjrzał się zajmowanemu piętru."
+    ru: "Он присмотрелся к занимаемому этажу."
+    source: { kind: authored }
+  - form: "zajmowanemu"
+    pl: "Nie ufał zajmowanemu przez nich stanowisku."
+    ru: "Он не доверял занимаемой ими позиции."
+    source: { kind: authored }
+  - form: "zajmowanemu"
+    pl: "Dzięki zajmowanemu stanowisku mógł pomóc."
+    ru: "Благодаря занимаемой должности он мог помочь."
+    source: { kind: authored }
+  - form: "zajmowani"
+    pl: "Uczniowie byli zajmowani zabawami."
+    ru: "Учеников занимали играми."
+    source: { kind: authored }
+  - form: "zajmowani"
+    pl: "Goście byli zajmowani rozmową."
+    ru: "Гостей занимали разговором."
+    source: { kind: authored }
+  - form: "zajmowani"
+    pl: "Byli zajmowani przez cały wieczór."
+    ru: "Их занимали весь вечер."
+    source: { kind: authored }
+  - form: "zajmowania"
+    pl: "Nie ma sensu zajmowania się plotkami."
+    ru: "Нет смысла заниматься сплетнями."
+    source: { kind: authored }
+  - form: "zajmowania"
+    pl: "Unikał zajmowania pierwszego rzędu."
+    ru: "Он избегал занимать первый ряд."
+    source: { kind: authored }
+  - form: "zajmowania"
+    pl: "Czas zajmowania miejsc minął."
+    ru: "Время занимать места прошло."
+    source: { kind: authored }
+  - form: "zajmowanie"
+    pl: "Nie mam czasu na zajmowanie się plotkami."
+    ru: "У меня нет времени заниматься сплетнями."
+    source: { kind: translated, id: 364124 }
+  - form: "zajmowanie"
+    pl: "Zajmowanie się ogrodem go uspokaja."
+    ru: "Занятие садом его успокаивает."
+    source: { kind: authored }
+  - form: "zajmowanie"
+    pl: "Zajmowanie miejsca przy oknie to jego zwyczaj."
+    ru: "Занимать место у окна — его привычка."
+    source: { kind: authored }
+  - form: "zajmowaniem"
+    pl: "Zmęczył się zajmowaniem dziećmi."
+    ru: "Он устал заниматься детьми."
+    source: { kind: authored }
+  - form: "zajmowaniem"
+    pl: "Przed zajmowaniem miejsc sprawdź bilet."
+    ru: "Прежде чем занимать места, проверь билет."
+    source: { kind: authored }
+  - form: "zajmowaniem"
+    pl: "Zajął się zajmowaniem pokoi dla gości."
+    ru: "Он занялся размещением гостей по комнатам."
+    source: { kind: authored }
+  - form: "zajmowaniu"
+    pl: "Po zajmowaniu miejsc zapadła cisza."
+    ru: "После того как заняли места, настала тишина."
+    source: { kind: authored }
+  - form: "zajmowaniu"
+    pl: "Mówili o zajmowaniu się dziećmi."
+    ru: "Они говорили о том, чтобы заниматься детьми."
+    source: { kind: authored }
+  - form: "zajmowaniu"
+    pl: "W zajmowaniu pokoi pomagał portier."
+    ru: "Занимать номера помогал портье."
+    source: { kind: authored }
+  - form: "zajmowano"
+    pl: "Zajmowano się wtedy wyłącznie rolnictwem."
+    ru: "Тогда занимались исключительно земледелием."
+    source: { kind: authored }
+  - form: "zajmowano"
+    pl: "Zajmowano całe piętro na biura."
+    ru: "Весь этаж занимали под конторы."
+    source: { kind: authored }
+  - form: "zajmowano"
+    pl: "Nie zajmowano się takimi sprawami."
+    ru: "Такими делами не занимались."
+    source: { kind: authored }
+  - form: "zajmowany"
+    pl: "Ten pokój jest zajmowany przez gości."
+    ru: "Эту комнату занимают гости."
+    source: { kind: authored }
+  - form: "zajmowany"
+    pl: "Fotel zajmowany co wieczór stał przy oknie."
+    ru: "Кресло, занимаемое каждый вечер, стояло у окна."
+    source: { kind: authored }
+  - form: "zajmowany"
+    pl: "Był zajmowany sprawami rodziny."
+    ru: "Он был занят семейными делами."
+    source: { kind: authored }
+  - form: "zajmowanych"
+    pl: "Wśród zajmowanych pokoi był jeden pusty."
+    ru: "Среди занимаемых комнат одна была пустой."
+    source: { kind: authored }
+  - form: "zajmowanych"
+    pl: "Liczba zajmowanych miejsc rosła."
+    ru: "Число занимаемых мест росло."
+    source: { kind: authored }
+  - form: "zajmowanych"
+    pl: "Nie ma tu zajmowanych stanowisk."
+    ru: "Занимаемых должностей здесь нет."
+    source: { kind: authored }
+  - form: "zajmowanym"
+    pl: "W zajmowanym przez nich pokoju było ciasno."
+    ru: "В занимаемой ими комнате было тесно."
+    source: { kind: authored }
+  - form: "zajmowanym"
+    pl: "Przyjrzał się zajmowanym miejscom."
+    ru: "Он присмотрелся к занимаемым местам."
+    source: { kind: authored }
+  - form: "zajmowanym"
+    pl: "Zajął się zajmowanym piętrem."
+    ru: "Он занялся занимаемым этажом."
+    source: { kind: authored }
+  - form: "zajmowanymi"
+    pl: "Zajęli się zajmowanymi pokojami."
+    ru: "Они занялись занимаемыми комнатами."
+    source: { kind: authored }
+  - form: "zajmowanymi"
+    pl: "Między zajmowanymi a wolnymi miejscami był rząd."
+    ru: "Между занятыми и свободными местами был ряд."
+    source: { kind: authored }
+  - form: "zajmowanymi"
+    pl: "Wrócił z zajmowanymi wcześniej dokumentami."
+    ru: "Он вернулся с документами, которыми занимались раньше."
+    source: { kind: authored }
+  - form: "zajmuj"
+    pl: "Zajmuj się groszami a złotówki zajmą się same sobą."
+    ru: "Занимайся грошами, а злотые сами о себе позаботятся."
+    source: { kind: translated, id: 11749890 }
+  - form: "zajmuj"
+    pl: "Nie zajmuj mi czasu."
+    ru: "Не отнимай у меня время."
+    source: { kind: authored }
+  - form: "zajmuj"
+    pl: "Zajmuj się swoimi sprawami."
+    ru: "Занимайся своими делами."
+    source: { kind: authored }
+  - form: "zajmują"
+    pl: "Zajmują się badaniami nad rakiem."
+    ru: "Они занимаются исследованиями рака."
+    source: { kind: translated, id: 758330 }
+  - form: "zajmują"
+    pl: "Czym zajmują się moi dziadkowie?"
+    ru: "Чем занимаются мои дедушка с бабушкой?"
+    source: { kind: translated, id: 2217767 }
+  - form: "zajmują"
+    pl: "Tymi dziećmi rodzice się nie zajmują."
+    ru: "Этими детьми родители не занимаются."
+    source: { kind: translated, id: 368464 }
+  - form: "zajmując"
+    pl: "Zajmując się dziećmi, zapomniał o obiedzie."
+    ru: "Занимаясь детьми, он забыл об обеде."
+    source: { kind: authored }
+  - form: "zajmując"
+    pl: "Zajmując miejsce przy oknie, rozejrzał się."
+    ru: "Заняв место у окна, он огляделся."
+    source: { kind: authored }
+  - form: "zajmując"
+    pl: "Zajmując się ogrodem, odpoczywa."
+    ru: "Занимаясь садом, он отдыхает."
+    source: { kind: authored }
+  - form: "zajmująca"
+    pl: "Zajmująca się dziećmi opiekunka właśnie wyszła."
+    ru: "Занимавшаяся детьми няня только что вышла."
+    source: { kind: authored }
+  - form: "zajmująca"
+    pl: "To zajmująca opowieść."
+    ru: "Это занимательный рассказ."
+    source: { kind: authored }
+  - form: "zajmująca"
+    pl: "Zajmująca pół pokoju szafa musi zniknąć."
+    ru: "Шкаф, занимающий полкомнаты, должен исчезнуть."
+    source: { kind: authored }
+  - form: "zajmującą"
+    pl: "Przeczytał zajmującą książkę."
+    ru: "Он прочитал занимательную книгу."
+    source: { kind: authored }
+  - form: "zajmującą"
+    pl: "Uznali tę opowieść za zajmującą."
+    ru: "Этот рассказ сочли занимательным."
+    source: { kind: authored }
+  - form: "zajmującą"
+    pl: "Spotkał kobietę zajmującą się ogrodem."
+    ru: "Он встретил женщину, занимающуюся садом."
+    source: { kind: authored }
+  - form: "zajmujące"
+    pl: "Wystąpienie Toma było całkiem zajmujące."
+    ru: "Выступление Тома было довольно занимательным."
+    source: { kind: translated, id: 7899698 }
+  - form: "zajmujące"
+    pl: "To zajmujące zajęcia dla dzieci."
+    ru: "Это занимательные занятия для детей."
+    source: { kind: authored }
+  - form: "zajmujące"
+    pl: "Opowiadania były zajmujące."
+    ru: "Рассказы были занимательными."
+    source: { kind: authored }
+  - form: "zajmującego"
+    pl: "Nie znam nikogo zajmującego się tym zawodowo."
+    ru: "Я не знаю никого, кто занимался бы этим профессионально."
+    source: { kind: authored }
+  - form: "zajmującego"
+    pl: "Szukam kogoś zajmującego się ogrodem."
+    ru: "Я ищу кого-нибудь, кто занимается садом."
+    source: { kind: authored }
+  - form: "zajmującego"
+    pl: "Nie przeczytałem nic zajmującego."
+    ru: "Я не прочитал ничего занимательного."
+    source: { kind: authored }
+  - form: "zajmującej"
+    pl: "Szukam osoby zajmującej się dziećmi."
+    ru: "Я ищу человека, занимающегося детьми."
+    source: { kind: authored }
+  - form: "zajmującej"
+    pl: "Nie ma tu zajmującej książki."
+    ru: "Занимательной книги здесь нет."
+    source: { kind: authored }
+  - form: "zajmującej"
+    pl: "Pomógł kobiecie zajmującej się ogrodem."
+    ru: "Он помог женщине, занимающейся садом."
+    source: { kind: authored }
+  - form: "zajmującemu"
+    pl: "Pomógł koledze zajmującemu się ogrodem."
+    ru: "Он помог товарищу, занимающемуся садом."
+    source: { kind: authored }
+  - form: "zajmującemu"
+    pl: "Przyjrzał się chłopcu zajmującemu pierwszy rząd."
+    ru: "Он присмотрелся к мальчику, занимающему первый ряд."
+    source: { kind: authored }
+  - form: "zajmującemu"
+    pl: "Dzięki sąsiadowi zajmującemu się dziećmi zdążyli."
+    ru: "Благодаря соседу, занимающемуся детьми, они успели."
+    source: { kind: authored }
+  - form: "zajmujący"
+    pl: "Fryzjer to człowiek zajmujący się obcinaniem i goleniem włosów."
+    ru: "Парикмахер — это человек, занимающийся стрижкой и бритьём волос."
+    source: { kind: translated, id: 1351162 }
+  - form: "zajmujący"
+    pl: "To zajmujący wykład."
+    ru: "Это занимательная лекция."
+    source: { kind: authored }
+  - form: "zajmujący"
+    pl: "Człowiek zajmujący się ogrodem musi być cierpliwy."
+    ru: "Человек, занимающийся садом, должен быть терпеливым."
+    source: { kind: authored }
+  - form: "zajmujących"
+    pl: "Wśród zajmujących się tym zawodowo byli lekarze."
+    ru: "Среди занимающихся этим профессионально были врачи."
+    source: { kind: authored }
+  - form: "zajmujących"
+    pl: "Nie znam osób zajmujących te stanowiska."
+    ru: "Я не знаю людей, занимающих эти должности."
+    source: { kind: authored }
+  - form: "zajmujących"
+    pl: "Szukam wykładów zajmujących i krótkich."
+    ru: "Я ищу лекции занимательные и короткие."
+    source: { kind: authored }
+  - form: "zajmującym"
+    pl: "Rozmawiał z kolegą zajmującym się ogrodem."
+    ru: "Он говорил с товарищем, занимающимся садом."
+    source: { kind: authored }
+  - form: "zajmującym"
+    pl: "Pomógł zajmującym się dziećmi rodzicom."
+    ru: "Он помог родителям, занимающимся детьми."
+    source: { kind: authored }
+  - form: "zajmującym"
+    pl: "W zajmującym wykładzie czas mija szybko."
+    ru: "На занимательной лекции время идёт быстро."
+    source: { kind: authored }
+  - form: "zajmującymi"
+    pl: "Rozmawiał z zajmującymi się dziećmi opiekunkami."
+    ru: "Он говорил с нянями, занимающимися детьми."
+    source: { kind: authored }
+  - form: "zajmującymi"
+    pl: "Między zajmującymi a nudnymi wykładami jest przepaść."
+    ru: "Между занимательными и скучными лекциями пропасть."
+    source: { kind: authored }
+  - form: "zajmującymi"
+    pl: "Wrócił z zajmującymi go sprawami."
+    ru: "Он вернулся с занимавшими его делами."
+    source: { kind: authored }
+  - form: "zajmujcie"
+    pl: "Zajmujcie się swoimi sprawami."
+    ru: "Занимайтесь своими делами."
+    source: { kind: authored }
+  - form: "zajmujcie"
+    pl: "Nie zajmujcie tego miejsca."
+    ru: "Не занимайте это место."
+    source: { kind: authored }
+  - form: "zajmujcie"
+    pl: "Zajmujcie miejsca, proszę."
+    ru: "Занимайте места, пожалуйста."
+    source: { kind: authored }
+  - form: "zajmuje"
+    pl: "Ile czasu to zajmuje?"
+    ru: "Сколько времени это занимает?"
+    source: { kind: tatoeba, id: 6313116 }
+  - form: "zajmuje"
+    pl: "Jak długo to zajmuje?"
+    ru: "Сколько времени это займёт?"
+    source: { kind: tatoeba, id: 6313127 }
+  - form: "zajmuje"
+    pl: "Facebook zajmuje mi dużo czasu."
+    ru: "Facebook отнимает у меня много времени."
+    source: { kind: tatoeba, id: 2149147 }
+  - form: "zajmujecie"
+    pl: "Czym się zajmujecie?"
+    ru: "Чем вы занимаетесь?"
+    source: { kind: authored }
+  - form: "zajmujecie"
+    pl: "Zajmujecie całe piętro?"
+    ru: "Вы занимаете весь этаж?"
+    source: { kind: authored }
+  - form: "zajmujecie"
+    pl: "Zajmujecie za dużo miejsca."
+    ru: "Вы занимаете слишком много места."
+    source: { kind: authored }
+  - form: "zajmujemy"
+    pl: "Ja i ona zajmujemy te same stanowiska w firmie, ale ona zarabia więcej niż ja."
+    ru: "Я и она занимаем в фирме одинаковые должности, но она зарабатывает больше."
+    source: { kind: translated, id: 10091379 }
+  - form: "zajmujemy"
+    pl: "Zajmujemy się dziećmi na zmianę."
+    ru: "Мы занимаемся детьми по очереди."
+    source: { kind: authored }
+  - form: "zajmujemy"
+    pl: "Zajmujemy całe piętro."
+    ru: "Мы занимаем весь этаж."
+    source: { kind: authored }
+  - form: "zajmujesz"
+    pl: "Czym się zajmujesz w twoim kraju?"
+    ru: "Чем ты занимаешься в своей стране?"
+    source: { kind: tatoeba, id: 849080 }
+  - form: "zajmujesz"
+    pl: "Czym się zajmujesz?"
+    ru: "Чем ты занимаешься?"
+    source: { kind: translated, id: 769972 }
+  - form: "zajmujesz"
+    pl: "Czym się zajmujesz w życiu?"
+    ru: "Чем ты занимаешься в жизни?"
+    source: { kind: translated, id: 530528 }
+  - form: "zajmuję"
+    pl: "Zajmuję się tym."
+    ru: "Я этим занимаюсь."
+    source: { kind: translated, id: 5997317 }
+  - form: "zajmuję"
+    pl: "Teraz zajmuję się ziemniakami."
+    ru: "Сейчас я занимаюсь картошкой."
+    source: { kind: translated, id: 657362 }
+  - form: "zajmuję"
+    pl: "Teraz zajmuję się pisaniem książki."
+    ru: "Сейчас я занимаюсь написанием книги."
+    source: { kind: translated, id: 1086539 }
+  - form: "zajmujmy"
+    pl: "Nie zajmujmy się tą robotą."
+    ru: "Не будем заниматься этой работой."
+    source: { kind: translated, id: 521278 }
+  - form: "zajmujmy"
+    pl: "Zajmujmy się swoimi sprawami."
+    ru: "Будем заниматься своими делами."
+    source: { kind: authored }
+  - form: "zajmujmy"
+    pl: "Nie zajmujmy za dużo miejsca."
+    ru: "Не будем занимать слишком много места."
+    source: { kind: authored }

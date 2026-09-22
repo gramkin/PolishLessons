@@ -1,0 +1,828 @@
+# review
+id: zabijac
+format: 2
+lemma: "zabijać"
+rank: 639
+pos: verb
+aspect: imperf
+aspectPair: zabic
+pron: { cyr: "заби́яць" }
+senses:
+  - id: kill
+    ru: "убивать (кого-л. — винительный)"
+    note: "Совершенный вид — zabić."
+    examples:
+      - pl: "Koty zabijają szczury."
+        ru: "Кошки убивают крыс."
+        source: { kind: translated, id: 8983021 }
+      - pl: "Nie zabijaj mnie."
+        ru: "Не убивай меня."
+        source: { kind: translated, id: 4837638 }
+      - pl: "To nie pistolety zabijają ludzi. Ludzie zabijają ludzi."
+        ru: "Не пистолеты убивают людей. Люди убивают людей."
+        source: { kind: translated, id: 745174 }
+  - id: kill-time
+    ru: "zabijać czas — убивать время"
+    note: "Идиома переносится из русского буквально."
+    examples:
+      - pl: "Zabijała czas, chodząc po sklepach."
+        ru: "Она убивала время, ходя по магазинам."
+        source: { kind: translated, id: 676776 }
+      - pl: "Zabijaliśmy czas grą w karty."
+        ru: "Мы убивали время игрой в карты."
+        source: { kind: translated, id: 1353592 }
+      - pl: "Zabijam czas czytaniem."
+        ru: "Я убиваю время чтением."
+        source: { kind: authored }
+  - id: kill-abstract
+    ru: "с отвлечённым подлежащим: Palenie zabija"
+    note: "Язык предупреждающих надписей, как и в русском."
+    examples:
+      - pl: "Palenie zabija."
+        ru: "Курение убивает."
+        source: { kind: translated, id: 3452293 }
+      - pl: "Prędkość zabija."
+        ru: "Скорость убивает."
+        source: { kind: translated, id: 8095898 }
+      - pl: "Porównywanie zabija zabawę."
+        ru: "Сравнение убивает радость."
+        source: { kind: translated, id: 7943315 }
+notes:
+  - { kind: government, text: "zabijać kogoś — винительный, ровно как в русском. Совершенный вид — zabić: zabijał długo, w końcu zabił." }
+  - { kind: usage, text: "Идиома совпадает с русской слово в слово: zabijać czas «убивать время»." }
+  - { kind: usage, text: "С отвлечённым подлежащим слово звучит как предупреждение: Palenie zabija «Курение убивает», Prędkość zabija «Скорость убивает»." }
+  - { kind: usage, text: "Возвратное zabijać się значит «кончать с собой». «Убиться» в смысле «сильно удариться» будет potłuc się, не zabić się." }
+  - { kind: usage, text: "Отглагольное существительное — zabijanie «убийство как действие»: maszyna do zabijania." }
+collocations:
+  - { pl: "zabijać czas", ru: "убивать время" }
+  - { pl: "Palenie zabija", ru: "Курение убивает" }
+  - { pl: "zabijać się", ru: "кончать с собой" }
+  - { pl: "maszyna do zabijania", ru: "машина для убийства" }
+family:
+  - { pl: "zabić", ru: "убить", relation: aspect }
+  - { pl: "bić", ru: "бить", relation: root }
+  - { pl: "zabójca", ru: "убийца", relation: derived }
+  - { pl: "zabijanie", ru: "убийство", relation: derived }
+etymology: "Приставка za- плюс bić «бить», праславянское *biti — то же слово, что русское «бить». «Убивать» по-польски буквально «забивать»."
+memory: "zabijać — «убивать», и собрано оно из za- плюс bić, ровно как русское «убивать» из «бить». Совершенный вид — zabić. Идиома переносится слово в слово: zabijać czas «убивать время». А на предупреждающих надписях вы встретите ту же конструкцию, что по-русски: Palenie zabija, Prędkość zabija. Осторожно с возвратным: zabijać się значит «кончать с собой», а «убиться» в смысле «удариться» — potłuc się."
+idioms:
+  - { pl: "zabijać czas", ru: "убивать время" }
+  - { pl: "Palenie zabija", ru: "Курение убивает" }
+  - { pl: "zabijać się", ru: "кончать с собой" }
+formExamples:
+  - form: "zabija"
+    pl: "Palenie zabija."
+    ru: "Курение убивает."
+    source: { kind: translated, id: 3452293 }
+  - form: "zabija"
+    pl: "Prędkość zabija."
+    ru: "Скорость убивает."
+    source: { kind: translated, id: 8095898 }
+  - form: "zabija"
+    pl: "Porównywanie zabija zabawę."
+    ru: "Сравнение убивает радость."
+    source: { kind: translated, id: 7943315 }
+  - form: "zabijacie"
+    pl: "Zabijacie czas?"
+    ru: "Вы убиваете время?"
+    source: { kind: authored }
+  - form: "zabijacie"
+    pl: "Nie zabijacie owadów."
+    ru: "Вы не убиваете насекомых."
+    source: { kind: authored }
+  - form: "zabijacie"
+    pl: "Zabijacie w nim zapał."
+    ru: "Вы убиваете в нём рвение."
+    source: { kind: authored }
+  - form: "zabijać"
+    pl: "Nie wolno ci zabijać."
+    ru: "Тебе нельзя убивать."
+    source: { kind: translated, id: 8764561 }
+  - form: "zabijać"
+    pl: "Gdyby spojrzenie mogło zabijać, byłbym już martwy."
+    ru: "Если бы взгляд мог убивать, я был бы уже мёртв."
+    source: { kind: translated, id: 670841 }
+  - form: "zabijać"
+    pl: "Może i jestem nieszczęśliwy, ale nie zamierzam się zabijać."
+    ru: "Может, я и несчастен, но кончать с собой не собираюсь."
+    source: { kind: translated, id: 3084448 }
+  - form: "zabijaj"
+    pl: "Nie zabijaj."
+    ru: "Не убивай."
+    source: { kind: translated, id: 695731 }
+  - form: "zabijaj"
+    pl: "Nie zabijaj mnie."
+    ru: "Не убивай меня."
+    source: { kind: translated, id: 4837638 }
+  - form: "zabijaj"
+    pl: "Proszę, nie zabijaj mnie."
+    ru: "Пожалуйста, не убивай меня."
+    source: { kind: translated, id: 967606 }
+  - form: "zabijają"
+    pl: "Koty zabijają szczury."
+    ru: "Кошки убивают крыс."
+    source: { kind: translated, id: 8983021 }
+  - form: "zabijają"
+    pl: "Antybiotyki nie zabijają wirusów."
+    ru: "Антибиотики не убивают вирусы."
+    source: { kind: translated, id: 4953068 }
+  - form: "zabijają"
+    pl: "To nie pistolety zabijają ludzi. Ludzie zabijają ludzi."
+    ru: "Не пистолеты убивают людей. Люди убивают людей."
+    source: { kind: translated, id: 745174 }
+  - form: "zabijając"
+    pl: "Głupio postąpił, zabijając gęś."
+    ru: "Он глупо поступил, убив гуся."
+    source: { kind: translated, id: 406132 }
+  - form: "zabijając"
+    pl: "Autobus spadł w przepaść, zabijając wszystkich 10 pasażerów."
+    ru: "Автобус упал в пропасть, убив всех десятерых пассажиров."
+    source: { kind: translated, id: 880349 }
+  - form: "zabijając"
+    pl: "Zabijając czas, przeglądał gazety."
+    ru: "Убивая время, он просматривал газеты."
+    source: { kind: authored }
+  - form: "zabijająca"
+    pl: "To substancja zabijająca bakterie."
+    ru: "Это вещество, убивающее бактерии."
+    source: { kind: authored }
+  - form: "zabijająca"
+    pl: "Zabijająca nuda panowała w sali."
+    ru: "В зале царила убийственная скука."
+    source: { kind: authored }
+  - form: "zabijająca"
+    pl: "Susza zabijająca plony trwała miesiąc."
+    ru: "Засуха, губящая урожай, длилась месяц."
+    source: { kind: authored }
+  - form: "zabijającą"
+    pl: "Kupił substancję zabijającą bakterie."
+    ru: "Он купил вещество, убивающее бактерии."
+    source: { kind: authored }
+  - form: "zabijającą"
+    pl: "Uznali tę nudę za zabijającą."
+    ru: "Эту скуку сочли убийственной."
+    source: { kind: authored }
+  - form: "zabijającą"
+    pl: "Przeżyli suszę zabijającą plony."
+    ru: "Они пережили засуху, губящую урожай."
+    source: { kind: authored }
+  - form: "zabijające"
+    pl: "To środki zabijające bakterie."
+    ru: "Это средства, убивающие бактерии."
+    source: { kind: authored }
+  - form: "zabijające"
+    pl: "Mrozy zabijające sady przyszły w maju."
+    ru: "Морозы, губящие сады, пришли в мае."
+    source: { kind: authored }
+  - form: "zabijające"
+    pl: "Zabijające tempo pracy wykończyło go."
+    ru: "Убийственный темп работы его доконал."
+    source: { kind: authored }
+  - form: "zabijającego"
+    pl: "Szukam środka zabijającego bakterie."
+    ru: "Я ищу средство, убивающее бактерии."
+    source: { kind: authored }
+  - form: "zabijającego"
+    pl: "Nie ma tu mrozu zabijającego plony."
+    ru: "Мороза, губящего урожай, здесь не бывает."
+    source: { kind: authored }
+  - form: "zabijającego"
+    pl: "Bali się upału zabijającego zbiory."
+    ru: "Они боялись зноя, губящего урожай."
+    source: { kind: authored }
+  - form: "zabijającej"
+    pl: "Bali się suszy zabijającej plony."
+    ru: "Они боялись засухи, губящей урожай."
+    source: { kind: authored }
+  - form: "zabijającej"
+    pl: "Nie ma tu substancji zabijającej bakterie."
+    ru: "Вещества, убивающего бактерии, здесь нет."
+    source: { kind: authored }
+  - form: "zabijającej"
+    pl: "Uciekli od zabijającej nudy."
+    ru: "Они сбежали от убийственной скуки."
+    source: { kind: authored }
+  - form: "zabijającemu"
+    pl: "Przyjrzał się środkowi zabijającemu bakterie."
+    ru: "Он присмотрелся к средству, убивающему бактерии."
+    source: { kind: authored }
+  - form: "zabijającemu"
+    pl: "Nie oparli się mrozowi zabijającemu sady."
+    ru: "Они не устояли перед морозом, губящим сады."
+    source: { kind: authored }
+  - form: "zabijającemu"
+    pl: "Dzięki środkowi zabijającemu bakterie rana się zagoiła."
+    ru: "Благодаря средству, убивающему бактерии, рана зажила."
+    source: { kind: authored }
+  - form: "zabijający"
+    pl: "Mróz zabijający plony przyszedł w maju."
+    ru: "Мороз, губящий урожай, пришёл в мае."
+    source: { kind: authored }
+  - form: "zabijający"
+    pl: "To środek zabijający bakterie."
+    ru: "Это средство, убивающее бактерии."
+    source: { kind: authored }
+  - form: "zabijający"
+    pl: "Zabijający czas turyści siedzieli w kawiarni."
+    ru: "Убивающие время туристы сидели в кафе."
+    source: { kind: authored }
+  - form: "zabijających"
+    pl: "Wśród środków zabijających bakterie był alkohol."
+    ru: "Среди средств, убивающих бактерии, был спирт."
+    source: { kind: authored }
+  - form: "zabijających"
+    pl: "Nie ma tu mrozów zabijających sady."
+    ru: "Морозов, губящих сады, здесь не бывает."
+    source: { kind: authored }
+  - form: "zabijających"
+    pl: "Szukam substancji zabijających pleśń."
+    ru: "Я ищу вещества, убивающие плесень."
+    source: { kind: authored }
+  - form: "zabijającym"
+    pl: "W zabijającym upale nikt nie pracował."
+    ru: "В убийственный зной никто не работал."
+    source: { kind: authored }
+  - form: "zabijającym"
+    pl: "Przyjrzał się środkom zabijającym bakterie."
+    ru: "Он присмотрелся к средствам, убивающим бактерии."
+    source: { kind: authored }
+  - form: "zabijającym"
+    pl: "Uległ zabijającym mrozom."
+    ru: "Он не устоял перед губительными морозами."
+    source: { kind: authored }
+  - form: "zabijającymi"
+    pl: "Zajęli się środkami zabijającymi bakterie."
+    ru: "Они занялись средствами, убивающими бактерии."
+    source: { kind: authored }
+  - form: "zabijającymi"
+    pl: "Między mrozami zabijającymi sady a suszą wybierać nie trzeba."
+    ru: "Между морозами, губящими сады, и засухой выбирать не приходится."
+    source: { kind: authored }
+  - form: "zabijającymi"
+    pl: "Wrócił ze środkami zabijającymi pleśń."
+    ru: "Он вернулся со средствами, убивающими плесень."
+    source: { kind: authored }
+  - form: "zabijajcie"
+    pl: "Nie zabijajcie owadów."
+    ru: "Не убивайте насекомых."
+    source: { kind: authored }
+  - form: "zabijajcie"
+    pl: "Nie zabijajcie w nim zapału."
+    ru: "Не убивайте в нём рвение."
+    source: { kind: authored }
+  - form: "zabijajcie"
+    pl: "Zabijajcie czas czymś pożytecznym."
+    ru: "Убивайте время чем-нибудь полезным."
+    source: { kind: authored }
+  - form: "zabijajmy"
+    pl: "Nie zabijajmy owadów."
+    ru: "Не будем убивать насекомых."
+    source: { kind: authored }
+  - form: "zabijajmy"
+    pl: "Nie zabijajmy w nim zapału."
+    ru: "Не будем убивать в нём рвение."
+    source: { kind: authored }
+  - form: "zabijajmy"
+    pl: "Zabijajmy czas czymś pożytecznym."
+    ru: "Будем убивать время чем-нибудь полезным."
+    source: { kind: authored }
+  - form: "zabijali"
+    pl: "Zabijali czas grą w karty."
+    ru: "Они убивали время игрой в карты."
+    source: { kind: authored }
+  - form: "zabijali"
+    pl: "Nigdy nikogo nie zabijali."
+    ru: "Они никогда никого не убивали."
+    source: { kind: authored }
+  - form: "zabijali"
+    pl: "Myśliwi zabijali wilki przez stulecia."
+    ru: "Охотники убивали волков веками."
+    source: { kind: authored }
+  - form: "zabijaliby"
+    pl: "Zabijaliby czas, gdyby mieli karty."
+    ru: "Они убивали бы время, будь у них карты."
+    source: { kind: authored }
+  - form: "zabijaliby"
+    pl: "Nigdy nikogo nie zabijaliby."
+    ru: "Они никогда никого не убивали бы."
+    source: { kind: authored }
+  - form: "zabijaliby"
+    pl: "Zabijaliby w nim zapał."
+    ru: "Они убивали бы в нём рвение."
+    source: { kind: authored }
+  - form: "zabijalibyście"
+    pl: "Zabijalibyście czas grą w karty?"
+    ru: "Вы убивали бы время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijalibyście"
+    pl: "Nigdy nikogo nie zabijalibyście."
+    ru: "Вы никогда никого не убивали бы."
+    source: { kind: authored }
+  - form: "zabijalibyście"
+    pl: "Zabijalibyście w nim zapał."
+    ru: "Вы убивали бы в нём рвение."
+    source: { kind: authored }
+  - form: "zabijalibyśmy"
+    pl: "Zabijalibyśmy czas, gdybyśmy mieli karty."
+    ru: "Мы убивали бы время, будь у нас карты."
+    source: { kind: authored }
+  - form: "zabijalibyśmy"
+    pl: "Nigdy nikogo nie zabijalibyśmy."
+    ru: "Мы никогда никого не убивали бы."
+    source: { kind: authored }
+  - form: "zabijalibyśmy"
+    pl: "Zabijalibyśmy w nim zapał."
+    ru: "Мы убивали бы в нём рвение."
+    source: { kind: authored }
+  - form: "zabijaliście"
+    pl: "Zabijaliście czas grą w karty?"
+    ru: "Вы убивали время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijaliście"
+    pl: "Nigdy nikogo nie zabijaliście."
+    ru: "Вы никогда никого не убивали."
+    source: { kind: authored }
+  - form: "zabijaliście"
+    pl: "Zabijaliście w nim zapał."
+    ru: "Вы убивали в нём рвение."
+    source: { kind: authored }
+  - form: "zabijaliśmy"
+    pl: "Zabijaliśmy czas grą w karty."
+    ru: "Мы убивали время игрой в карты."
+    source: { kind: translated, id: 1353592 }
+  - form: "zabijaliśmy"
+    pl: "Zabijaliśmy czas rozmową."
+    ru: "Мы убивали время разговором."
+    source: { kind: authored }
+  - form: "zabijaliśmy"
+    pl: "Nigdy nikogo nie zabijaliśmy."
+    ru: "Мы никогда никого не убивали."
+    source: { kind: authored }
+  - form: "zabijał"
+    pl: "Zabijał czas grą w karty."
+    ru: "Он убивал время игрой в карты."
+    source: { kind: authored }
+  - form: "zabijał"
+    pl: "Nigdy nikogo nie zabijał."
+    ru: "Он никогда никого не убивал."
+    source: { kind: authored }
+  - form: "zabijał"
+    pl: "Mróz zabijał drzewa owocowe."
+    ru: "Мороз губил фруктовые деревья."
+    source: { kind: authored }
+  - form: "zabijała"
+    pl: "Zabijała czas, chodząc po sklepach."
+    ru: "Она убивала время, ходя по магазинам."
+    source: { kind: translated, id: 676776 }
+  - form: "zabijała"
+    pl: "Zabijała czas rozmową."
+    ru: "Она убивала время разговором."
+    source: { kind: authored }
+  - form: "zabijała"
+    pl: "Susza zabijała plony rok po roku."
+    ru: "Засуха губила урожай год за годом."
+    source: { kind: authored }
+  - form: "zabijałaby"
+    pl: "Zabijałaby czas, gdyby miała karty."
+    ru: "Она убивала бы время, будь у неё карты."
+    source: { kind: authored }
+  - form: "zabijałaby"
+    pl: "Nigdy nikogo nie zabijałaby."
+    ru: "Она никогда никого не убивала бы."
+    source: { kind: authored }
+  - form: "zabijałaby"
+    pl: "Zabijałaby w sobie ciekawość."
+    ru: "Она убивала бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałabym"
+    pl: "Zabijałabym czas, gdybym miała karty."
+    ru: "Я убивала бы время, будь у меня карты."
+    source: { kind: authored }
+  - form: "zabijałabym"
+    pl: "Nigdy nikogo nie zabijałabym."
+    ru: "Я никогда никого не убивала бы."
+    source: { kind: authored }
+  - form: "zabijałabym"
+    pl: "Zabijałabym w sobie ciekawość."
+    ru: "Я убивала бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałabyś"
+    pl: "Zabijałabyś czas grą w karty?"
+    ru: "Ты убивала бы время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałabyś"
+    pl: "Nigdy nikogo nie zabijałabyś."
+    ru: "Ты никогда никого не убивала бы."
+    source: { kind: authored }
+  - form: "zabijałabyś"
+    pl: "Zabijałabyś w sobie ciekawość."
+    ru: "Ты убивала бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałam"
+    pl: "Zabijałam czas grą w karty."
+    ru: "Я убивала время игрой в карты."
+    source: { kind: authored }
+  - form: "zabijałam"
+    pl: "Nigdy nikogo nie zabijałam."
+    ru: "Я никогда никого не убивала."
+    source: { kind: authored }
+  - form: "zabijałam"
+    pl: "Zabijałam w sobie ciekawość."
+    ru: "Я убивала в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałaś"
+    pl: "Zabijałaś czas grą w karty?"
+    ru: "Ты убивала время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałaś"
+    pl: "Nigdy nikogo nie zabijałaś."
+    ru: "Ты никогда никого не убивала."
+    source: { kind: authored }
+  - form: "zabijałaś"
+    pl: "Zabijałaś w sobie ciekawość."
+    ru: "Ты убивала в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałby"
+    pl: "Zabijałby czas, gdyby miał karty."
+    ru: "Он убивал бы время, будь у него карты."
+    source: { kind: authored }
+  - form: "zabijałby"
+    pl: "Nigdy nikogo nie zabijałby."
+    ru: "Он никогда никого не убивал бы."
+    source: { kind: authored }
+  - form: "zabijałby"
+    pl: "Zabijałby w sobie ciekawość."
+    ru: "Он убивал бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałbym"
+    pl: "Zabijałbym czas, gdybym miał karty."
+    ru: "Я убивал бы время, будь у меня карты."
+    source: { kind: authored }
+  - form: "zabijałbym"
+    pl: "Nigdy nikogo nie zabijałbym."
+    ru: "Я никогда никого не убивал бы."
+    source: { kind: authored }
+  - form: "zabijałbym"
+    pl: "Zabijałbym w sobie ciekawość."
+    ru: "Я убивал бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałbyś"
+    pl: "Zabijałbyś czas grą w karty?"
+    ru: "Ты убивал бы время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałbyś"
+    pl: "Nigdy nikogo nie zabijałbyś."
+    ru: "Ты никогда никого не убивал бы."
+    source: { kind: authored }
+  - form: "zabijałbyś"
+    pl: "Zabijałbyś w sobie ciekawość."
+    ru: "Ты убивал бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałem"
+    pl: "Zabijałem czas grą w karty."
+    ru: "Я убивал время игрой в карты."
+    source: { kind: authored }
+  - form: "zabijałem"
+    pl: "Nigdy nikogo nie zabijałem."
+    ru: "Я никогда никого не убивал."
+    source: { kind: authored }
+  - form: "zabijałem"
+    pl: "Zabijałem w sobie ciekawość."
+    ru: "Я убивал в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałeś"
+    pl: "Zabijałeś czas grą w karty?"
+    ru: "Ты убивал время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałeś"
+    pl: "Nigdy nikogo nie zabijałeś."
+    ru: "Ты никогда никого не убивал."
+    source: { kind: authored }
+  - form: "zabijałeś"
+    pl: "Zabijałeś w sobie ciekawość."
+    ru: "Ты убивал в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijało"
+    pl: "Dziecko zabijało czas rysowaniem."
+    ru: "Ребёнок убивал время рисованием."
+    source: { kind: authored }
+  - form: "zabijało"
+    pl: "Słońce zabijało trawę na łące."
+    ru: "Солнце выжигало траву на лугу."
+    source: { kind: authored }
+  - form: "zabijało"
+    pl: "To zabijało w nim wszelki zapał."
+    ru: "Это убивало в нём всякое рвение."
+    source: { kind: authored }
+  - form: "zabijałoby"
+    pl: "Dziecko zabijałoby czas rysowaniem."
+    ru: "Ребёнок убивал бы время рисованием."
+    source: { kind: authored }
+  - form: "zabijałoby"
+    pl: "Słońce zabijałoby trawę na łące."
+    ru: "Солнце выжигало бы траву на лугу."
+    source: { kind: authored }
+  - form: "zabijałoby"
+    pl: "To zabijałoby w nim zapał."
+    ru: "Это убивало бы в нём рвение."
+    source: { kind: authored }
+  - form: "zabijały"
+    pl: "Mrozy zabijały drzewa owocowe."
+    ru: "Морозы губили фруктовые деревья."
+    source: { kind: authored }
+  - form: "zabijały"
+    pl: "Koty zabijały myszy w stodole."
+    ru: "Кошки убивали мышей в сарае."
+    source: { kind: authored }
+  - form: "zabijały"
+    pl: "Te leki zabijały bakterie."
+    ru: "Эти лекарства убивали бактерии."
+    source: { kind: authored }
+  - form: "zabijałyby"
+    pl: "Mrozy zabijałyby drzewa owocowe."
+    ru: "Морозы губили бы фруктовые деревья."
+    source: { kind: authored }
+  - form: "zabijałyby"
+    pl: "Koty zabijałyby myszy w stodole."
+    ru: "Кошки убивали бы мышей в сарае."
+    source: { kind: authored }
+  - form: "zabijałyby"
+    pl: "Te leki zabijałyby bakterie."
+    ru: "Эти лекарства убивали бы бактерии."
+    source: { kind: authored }
+  - form: "zabijałybyście"
+    pl: "Zabijałybyście czas grą w karty?"
+    ru: "Вы убивали бы время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałybyście"
+    pl: "Nigdy nikogo nie zabijałybyście."
+    ru: "Вы никогда никого не убивали бы."
+    source: { kind: authored }
+  - form: "zabijałybyście"
+    pl: "Zabijałybyście w nim zapał."
+    ru: "Вы убивали бы в нём рвение."
+    source: { kind: authored }
+  - form: "zabijałybyśmy"
+    pl: "Zabijałybyśmy czas, gdybyśmy miały karty."
+    ru: "Мы убивали бы время, будь у нас карты."
+    source: { kind: authored }
+  - form: "zabijałybyśmy"
+    pl: "Nigdy nikogo nie zabijałybyśmy."
+    ru: "Мы никогда никого не убивали бы."
+    source: { kind: authored }
+  - form: "zabijałybyśmy"
+    pl: "Zabijałybyśmy w sobie ciekawość."
+    ru: "Мы убивали бы в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijałyście"
+    pl: "Zabijałyście czas grą w karty?"
+    ru: "Вы убивали время игрой в карты?"
+    source: { kind: authored }
+  - form: "zabijałyście"
+    pl: "Nigdy nikogo nie zabijałyście."
+    ru: "Вы никогда никого не убивали."
+    source: { kind: authored }
+  - form: "zabijałyście"
+    pl: "Zabijałyście w nim zapał."
+    ru: "Вы убивали в нём рвение."
+    source: { kind: authored }
+  - form: "zabijałyśmy"
+    pl: "Zabijałyśmy czas grą w karty."
+    ru: "Мы убивали время игрой в карты."
+    source: { kind: authored }
+  - form: "zabijałyśmy"
+    pl: "Nigdy nikogo nie zabijałyśmy."
+    ru: "Мы никогда никого не убивали."
+    source: { kind: authored }
+  - form: "zabijałyśmy"
+    pl: "Zabijałyśmy w sobie ciekawość."
+    ru: "Мы убивали в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijam"
+    pl: "Obecnie nie zabijam nawet muchy. Zabiłem wielu, kiedy byłem dzieckiem."
+    ru: "Сейчас я не убиваю даже муху. В детстве я убил многих."
+    source: { kind: translated, id: 11734189 }
+  - form: "zabijam"
+    pl: "Nie zabijam owadów."
+    ru: "Я не убиваю насекомых."
+    source: { kind: authored }
+  - form: "zabijam"
+    pl: "Zabijam czas czytaniem."
+    ru: "Я убиваю время чтением."
+    source: { kind: authored }
+  - form: "zabijamy"
+    pl: "Zabijamy czas rozmową."
+    ru: "Мы убиваем время разговором."
+    source: { kind: authored }
+  - form: "zabijamy"
+    pl: "Nie zabijamy owadów."
+    ru: "Мы не убиваем насекомых."
+    source: { kind: authored }
+  - form: "zabijamy"
+    pl: "Zabijamy w sobie ciekawość."
+    ru: "Мы убиваем в себе любопытство."
+    source: { kind: authored }
+  - form: "zabijana"
+    pl: "Zwierzyna była zabijana dla futra."
+    ru: "Зверя убивали ради меха."
+    source: { kind: authored }
+  - form: "zabijana"
+    pl: "Nadzieja była zabijana powoli."
+    ru: "Надежду убивали медленно."
+    source: { kind: authored }
+  - form: "zabijana"
+    pl: "Ta roślina jest zabijana przez mróz."
+    ru: "Это растение губит мороз."
+    source: { kind: authored }
+  - form: "zabijaną"
+    pl: "Broniła zabijaną zwierzynę."
+    ru: "Она защищала истребляемого зверя."
+    source: { kind: authored }
+  - form: "zabijaną"
+    pl: "Uznali tę pleśń za zabijaną skutecznie."
+    ru: "Эту плесень сочли успешно уничтожаемой."
+    source: { kind: authored }
+  - form: "zabijaną"
+    pl: "Widział zabijaną powoli rzekę."
+    ru: "Он видел медленно гибнущую реку."
+    source: { kind: authored }
+  - form: "zabijane"
+    pl: "Zwierzęta były zabijane dla futra."
+    ru: "Животных убивали ради меха."
+    source: { kind: authored }
+  - form: "zabijane"
+    pl: "Bakterie są zabijane wysoką temperaturą."
+    ru: "Бактерии убивают высокой температурой."
+    source: { kind: authored }
+  - form: "zabijane"
+    pl: "Te drzewa są zabijane przez mróz."
+    ru: "Эти деревья губит мороз."
+    source: { kind: authored }
+  - form: "zabijanego"
+    pl: "Nie znam zabijanego wówczas gatunku."
+    ru: "Я не знаю вид, который тогда истребляли."
+    source: { kind: authored }
+  - form: "zabijanego"
+    pl: "Szkoda zabijanego bezmyślnie czasu."
+    ru: "Жаль бездумно убитого времени."
+    source: { kind: authored }
+  - form: "zabijanego"
+    pl: "Broniła zabijanego zwierzęcia."
+    ru: "Она защищала убиваемое животное."
+    source: { kind: authored }
+  - form: "zabijanej"
+    pl: "Broniła zabijanej zwierzyny."
+    ru: "Она защищала истребляемого зверя."
+    source: { kind: authored }
+  - form: "zabijanej"
+    pl: "Szkoda zabijanej bezmyślnie godziny."
+    ru: "Жаль бездумно убитого часа."
+    source: { kind: authored }
+  - form: "zabijanej"
+    pl: "Nie ma tu zabijanej pleśni."
+    ru: "Убиваемой плесени здесь нет."
+    source: { kind: authored }
+  - form: "zabijanemu"
+    pl: "Pomogli zabijanemu zwierzęciu."
+    ru: "Они помогли убиваемому животному."
+    source: { kind: authored }
+  - form: "zabijanemu"
+    pl: "Przyjrzał się zabijanemu lasowi."
+    ru: "Он присмотрелся к гибнущему лесу."
+    source: { kind: authored }
+  - form: "zabijanemu"
+    pl: "Nie dał rady zabijanemu mrozem sadowi."
+    ru: "Он не спас сад, который губил мороз."
+    source: { kind: authored }
+  - form: "zabijani"
+    pl: "Żołnierze byli zabijani każdego dnia."
+    ru: "Солдат убивали каждый день."
+    source: { kind: authored }
+  - form: "zabijani"
+    pl: "Nie chcemy być zabijani."
+    ru: "Мы не хотим быть убитыми."
+    source: { kind: authored }
+  - form: "zabijani"
+    pl: "Byli zabijani bez sądu."
+    ru: "Их убивали без суда."
+    source: { kind: authored }
+  - form: "zabijania"
+    pl: "Każda religia zabrania zabijania."
+    ru: "Всякая религия запрещает убийство."
+    source: { kind: translated, id: 5221987 }
+  - form: "zabijania"
+    pl: "To jest maszyna do zabijania."
+    ru: "Это машина для убийства."
+    source: { kind: translated, id: 9686920 }
+  - form: "zabijania"
+    pl: "Nie ma usprawiedliwienia dla zabijania."
+    ru: "Убийству нет оправдания."
+    source: { kind: authored }
+  - form: "zabijanie"
+    pl: "Jak się raz zabije, zabijanie staje się przyjemne."
+    ru: "Стоит раз убить, и убивать становится приятно."
+    source: { kind: translated, id: 735807 }
+  - form: "zabijanie"
+    pl: "Zabijanie czasu to jego specjalność."
+    ru: "Убивать время — его специальность."
+    source: { kind: authored }
+  - form: "zabijanie"
+    pl: "Zabijanie zwierząt dla rozrywki jest zakazane."
+    ru: "Убийство животных ради забавы запрещено."
+    source: { kind: authored }
+  - form: "zabijaniem"
+    pl: "Zajmował się zabijaniem czasu."
+    ru: "Он занимался убиванием времени."
+    source: { kind: authored }
+  - form: "zabijaniem"
+    pl: "Między zabijaniem a obroną jest różnica."
+    ru: "Между убийством и защитой есть разница."
+    source: { kind: authored }
+  - form: "zabijaniem"
+    pl: "Zmęczył się zabijaniem czasu."
+    ru: "Он устал убивать время."
+    source: { kind: authored }
+  - form: "zabijaniu"
+    pl: "Patrioci zawsze mówią o umieraniu dla kraju, a o zabijaniu innych - nigdy."
+    ru: "Патриоты всегда говорят о смерти за родину и никогда — об убийстве других."
+    source: { kind: translated, id: 639806 }
+  - form: "zabijaniu"
+    pl: "Mówili o zabijaniu czasu."
+    ru: "Они говорили об убивании времени."
+    source: { kind: authored }
+  - form: "zabijaniu"
+    pl: "W zabijaniu nie ma nic bohaterskiego."
+    ru: "В убийстве нет ничего героического."
+    source: { kind: authored }
+  - form: "zabijano"
+    pl: "Zabijano tam zwierzęta dla futra."
+    ru: "Там убивали животных ради меха."
+    source: { kind: authored }
+  - form: "zabijano"
+    pl: "Dawniej zabijano bez sądu."
+    ru: "Раньше убивали без суда."
+    source: { kind: authored }
+  - form: "zabijano"
+    pl: "Zabijano czas rozmowami."
+    ru: "Время убивали разговорами."
+    source: { kind: authored }
+  - form: "zabijany"
+    pl: "Nikt nie chce być zabijany."
+    ru: "Никто не хочет быть убитым."
+    source: { kind: authored }
+  - form: "zabijany"
+    pl: "Czas zabijany bezmyślnie nie wraca."
+    ru: "Бездумно убитое время не возвращается."
+    source: { kind: authored }
+  - form: "zabijany"
+    pl: "Był zabijany powoli, dzień po dniu."
+    ru: "Его убивали медленно, день за днём."
+    source: { kind: authored }
+  - form: "zabijanych"
+    pl: "Liczba zabijanych zwierząt spadła."
+    ru: "Число убиваемых животных упало."
+    source: { kind: authored }
+  - form: "zabijanych"
+    pl: "Wśród zabijanych były same ptaki."
+    ru: "Среди убиваемых были одни птицы."
+    source: { kind: authored }
+  - form: "zabijanych"
+    pl: "Broniła zabijanych zwierząt."
+    ru: "Она защищала убиваемых животных."
+    source: { kind: authored }
+  - form: "zabijanym"
+    pl: "Pomagali zabijanym zwierzętom."
+    ru: "Они помогали убиваемым животным."
+    source: { kind: authored }
+  - form: "zabijanym"
+    pl: "W zabijanym powoli lesie zapanowała cisza."
+    ru: "В медленно гибнущем лесу настала тишина."
+    source: { kind: authored }
+  - form: "zabijanym"
+    pl: "Zajął się zabijanym sadem."
+    ru: "Он занялся гибнущим садом."
+    source: { kind: authored }
+  - form: "zabijanymi"
+    pl: "Zajęli się zabijanymi zwierzętami."
+    ru: "Они занялись убиваемыми животными."
+    source: { kind: authored }
+  - form: "zabijanymi"
+    pl: "Między zabijanymi a ocalonymi była przepaść."
+    ru: "Между убиваемыми и спасёнными была пропасть."
+    source: { kind: authored }
+  - form: "zabijanymi"
+    pl: "Wrócił z zabijanymi mrozem sadzonkami."
+    ru: "Он вернулся с саженцами, которые губил мороз."
+    source: { kind: authored }
+  - form: "zabijasz"
+    pl: "Zabijasz czas?"
+    ru: "Ты убиваешь время?"
+    source: { kind: authored }
+  - form: "zabijasz"
+    pl: "Nie zabijasz owadów."
+    ru: "Ты не убиваешь насекомых."
+    source: { kind: authored }
+  - form: "zabijasz"
+    pl: "Zabijasz we mnie nadzieję."
+    ru: "Ты убиваешь во мне надежду."
+    source: { kind: authored }
