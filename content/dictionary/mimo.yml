@@ -1,0 +1,79 @@
+# review
+id: mimo
+format: 2
+depth: deep
+lemma: "mimo"
+rank: 832
+pos: prep
+pron: { cyr: "ми́мо" }
+senses:
+  - id: despite
+    ru: "несмотря на (mimo + родительный падеж)"
+    note: "Предлог требует родительного падежа: mimo ulewy «несмотря на ливень»."
+    examples:
+      - pl: "Wyszedł mimo ulewy."
+        ru: "Он вышел, несмотря на ливень."
+        source: { kind: translated, id: 1133595 }
+      - pl: "Mimo ulewy postanowił wyjść."
+        ru: "Несмотря на ливень, он решил выйти."
+        source: { kind: translated, id: 360944 }
+      - pl: "Mimo tego jest urocza."
+        ru: "Несмотря на это, она очаровательна."
+        source: { kind: translated, id: 734134 }
+  - id: even-so
+    ru: "mimo to, mimo tego — несмотря на это, всё же"
+    note: "Застывшие обороты: после mimo стоит to или tego, и фраза значит «и всё-таки»."
+    examples:
+      - pl: "Mimo to dziękuję."
+        ru: "Всё равно спасибо."
+        source: { kind: translated, id: 8755766 }
+      - pl: "Mimo to odniosłem sukces."
+        ru: "Несмотря на это, я добился успеха."
+        source: { kind: translated, id: 3430043 }
+      - pl: "Mimo tego ją kocham."
+        ru: "Несмотря на это, я её люблю."
+        source: { kind: translated, id: 3450008 }
+  - id: although
+    ru: "mimo że — несмотря на то, что (союз перед придаточным)"
+    examples:
+      - pl: "Mimo że pada śnieg, muszę iść."
+        ru: "Несмотря на то, что идёт снег, я должен идти."
+        source: { kind: tatoeba, id: 7727883 }
+      - pl: "Mimo że był zmęczony, pracował dalej."
+        ru: "Несмотря на то что он устал, он продолжал работать."
+        source: { kind: authored }
+      - pl: "Przyszedł, mimo że go nie zapraszano."
+        ru: "Он пришёл, хотя его не приглашали."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Главная ловушка: mimo НЕ значит «мимо». Польское mimo — это «несмотря на». Русское «мимо» будет obok или koło: Przeszedł obok domu «Он прошёл мимо дома»." }
+  - { kind: government, text: "Как предлог mimo требует родительного падежа: mimo deszczu «несмотря на дождь», mimo trudności «несмотря на трудности», mimo wszystko «несмотря ни на что»." }
+  - { kind: usage, text: "Три застывших оборота стоит выучить целиком: mimo to и mimo tego «несмотря на это», mimo wszystko «всё-таки, несмотря ни на что», mimo że «несмотря на то, что» — последний вводит придаточное предложение." }
+  - { kind: usage, text: "Синонимы разной книжности: pomimo (то же, но книжнее) и choć / chociaż «хотя» — последние вводят придаточное, как mimo że." }
+collocations:
+  - { pl: "mimo wszystko", ru: "несмотря ни на что" }
+  - { pl: "mimo to", ru: "несмотря на это" }
+  - { pl: "mimo że", ru: "несмотря на то, что" }
+  - { pl: "mimo woli", ru: "невольно" }
+family:
+  - { pl: "pomimo", ru: "несмотря на", relation: derived }
+  - { pl: "choć", ru: "хотя", relation: derived }
+etymology: "Сращение старого mimo «мимо, минуя», от minąć «миновать» — то же слово, что русское «мимо». Значение ушло от пространственного «минуя» к уступительному «несмотря на»: то, что препятствие как бы минуют. Прежний смысл уцелел лишь в книжном mimo woli «невольно»."
+memory: "mimo — ложный друг, и очень коварный: оно НЕ значит «мимо». Польское mimo — это «несмотря на», с родительным падежом: mimo deszczu, mimo trudności. Русское «мимо» будет obok или koło. Исторически слова действительно одно и то же (от minąć «миновать»), но польское ушло в уступительное значение — препятствие как бы минуют. Три оборота учите целиком: mimo to «несмотря на это», mimo wszystko «несмотря ни на что», mimo że «несмотря на то, что». Старый смысл остался только в mimo woli «невольно»."
+idioms:
+  - { pl: "mimo wszystko", ru: "несмотря ни на что" }
+  - { pl: "mimo to", ru: "несмотря на это" }
+  - { pl: "mimo woli", ru: "невольно" }
+formExamples:
+  - form: "mimo"
+    pl: "Wyszedł mimo ulewy."
+    ru: "Он вышел, несмотря на ливень."
+    source: { kind: translated, id: 1133595 }
+  - form: "mimo"
+    pl: "Mimo że pada śnieg, muszę iść."
+    ru: "Несмотря на то, что идёт снег, я должен идти."
+    source: { kind: tatoeba, id: 7727883 }
+  - form: "mimo"
+    pl: "Mimo to odniosłem sukces."
+    ru: "Несмотря на это, я добился успеха."
+    source: { kind: translated, id: 3430043 }

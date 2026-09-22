@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **298** |
-| В очереди       | **551** |
+| Карточка готова | **301** |
+| В очереди       | **548** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -223,7 +223,7 @@ pnpm dict:status && pnpm generate
 - życzyć — 🟡 `życzyć` · verb · rank 869
 - szerknąć — ⛔ не распознано
 - czyżby — ✅ [czyżby](/slovo/czyzby) · part
-- niestety — 🟡 `niestety` · part · rank 816
+- niestety — ✅ [niestety](/slovo/niestety) · part
 - słup — 🟡 `słup` · noun · rank 2086
 - prąd — 🟡 `prąd` · noun · rank 2087
 - zrzucać — 🟡 `zrzucać` · verb · rank 2088
@@ -479,7 +479,7 @@ pnpm dict:status && pnpm generate
 - rozwścieczył — 🟡 `rozwścieczyć` · verb · rank 2252
 - niepyszny — 🟡 `niepyszny` · adj · rank 2253
 - przychylna — 🟡 `przychylny` · adj · rank 2254
-- mimo — 🟡 `mimo` · adv · rank 832
+- mimo — ✅ [mimo](/slovo/mimo) · adv
 - przyzwoicie — 🟡 `przyzwoicie` · adv · rank 2255
 - omacku (po którym błądzimy po omacku) — 🟡 `omacek` · noun · rank 2256
 - szmer — 🟡 `szmer` · noun · rank 2257
@@ -643,7 +643,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [mówić](/slovo/mowic), [prawda](/slovo/prawda)</sub>
 - nadaremnie — 🟡 `nadaremnie` · adv · rank 2377
 - przekonasz — ✅ [przekonać](/slovo/przekonac) · verb
-- dopiero — 🟡 `dopiero` · part · rank 519
+- dopiero — ✅ [dopiero](/slovo/dopiero) · part
 - żałować — 🟡 `żałować` · verb · rank 1226
 - złapać — ✅ [złapać](/slovo/zlapac) · verb
 - przedsięwzięła — 🟡 `przedsięwziąć` · verb · rank 2378
