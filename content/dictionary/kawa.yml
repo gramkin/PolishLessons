@@ -1,0 +1,145 @@
+# review
+id: kawa
+format: 2
+lemma: "kawa"
+rank: 589
+pos: noun
+pron: { cyr: "ка́ва" }
+senses:
+  - id: coffee
+    ru: "кофе (в польском — женского рода!)"
+    note: "ta kawa «этот кофе»: по-польски слово женского рода, в отличие от русского."
+    examples:
+      - pl: "Kawa jest czarna."
+        ru: "Кофе чёрный."
+        source: { kind: tatoeba, id: 8768769 }
+      - pl: "Ta kawa jest za słaba."
+        ru: "Этот кофе слишком слабый."
+        source: { kind: tatoeba, id: 10473539 }
+      - pl: "Ta kawa jest dla mnie za gorąca."
+        ru: "Этот кофе для меня слишком горячий."
+        source: { kind: tatoeba, id: 932845 }
+  - id: drink-coffee
+    ru: "pić kawę — пить кофе"
+    note: "Винительный: piję kawę; при отрицании родительный: nie piję kawy."
+    examples:
+      - pl: "Piję kawę."
+        ru: "Я пью кофе."
+        source: { kind: tatoeba, id: 1000606 }
+      - pl: "Pijesz kawę?"
+        ru: "Ты пьёшь кофе?"
+        source: { kind: tatoeba, id: 568698 }
+      - pl: "Nie piję kawy."
+        ru: "Я не пью кофе."
+        source: { kind: tatoeba, id: 998513 }
+  - id: with-coffee
+    ru: "z kawą / przy kawie — с кофе / за кофе"
+    note: "Творительный и предложный в бытовых оборотах."
+    examples:
+      - pl: "Na śniadanie jem tylko grzankę z kawą."
+        ru: "На завтрак я ем только тост с кофе."
+        source: { kind: translated, id: 361774 }
+      - pl: "Rozmawiał z nią przy kawie."
+        ru: "Он говорил с ней за кофе."
+        source: { kind: translated, id: 900950 }
+      - pl: "W kawie jest mucha."
+        ru: "В кофе муха."
+        source: { kind: tatoeba, id: 12721006 }
+notes:
+  - { kind: false-friend, text: "Род расходится: польское kawa — женского рода (ta kawa jest za słaba «этот кофе слишком слабый»), а русское «кофе» мужского. Прилагательное согласуется по-женски: czarna kawa, mocna kawa." }
+  - { kind: government, text: "Прямое дополнение в винительном: piję kawę. Но при отрицании — родительный: nie piję kawy «я не пью кофе»." }
+  - { kind: usage, text: "Бытовые обороты: przy kawie «за кофе», z kawą «с кофе», zrobić kawy «сделать кофе» (родительный частичного объёма)." }
+  - { kind: usage, text: "У названия напитка нет живого множественного числа — отсюда пропуски в таблице форм." }
+collocations:
+  - { pl: "pić kawę", ru: "пить кофе" }
+  - { pl: "czarna kawa", ru: "чёрный кофе" }
+  - { pl: "przy kawie", ru: "за кофе" }
+  - { pl: "zrobić kawy", ru: "сделать кофе" }
+family:
+  - { pl: "kawiarnia", ru: "кафе", relation: derived }
+  - { pl: "kawowy", ru: "кофейный", relation: derived }
+  - { pl: "kawka", ru: "кофеёк", relation: derived }
+etymology: "Через турецкое kahve и арабское qahwa — тем же путём, что русское «кофе», только польский взял слово с конечным -a и вместе с ним женский род."
+memory: "kawa — «кофе», и главное отличие сразу бросается в глаза: в польском это слово ЖЕНСКОГО рода. Ta kawa jest za słaba «этот кофе слишком слабый», czarna kawa, mocna kawa — прилагательное согласуется по-женски. Дополнение в винительном: piję kawę, но при отрицании уходит в родительный: nie piję kawy. Кафе — kawiarnia."
+idioms:
+  - { pl: "pić kawę", ru: "пить кофе" }
+  - { pl: "czarna kawa", ru: "чёрный кофе" }
+  - { pl: "przy kawie", ru: "за чашкой кофе" }
+formExamplesSkip:
+  - { form: "kaw", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
+  - { form: "kawach", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
+  - { form: "kawami", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
+  - { form: "kawom", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
+formExamples:
+  - form: "kawa"
+    pl: "Kawa i papierosy."
+    ru: "Кофе и сигареты."
+    source: { kind: tatoeba, id: 2979810 }
+  - form: "kawa"
+    pl: "Kawa jest czarna."
+    ru: "Кофе чёрный."
+    source: { kind: tatoeba, id: 8768769 }
+  - form: "kawa"
+    pl: "Ta kawa jest za słaba."
+    ru: "Этот кофе слишком слабый."
+    source: { kind: tatoeba, id: 10473539 }
+  - form: "kawą"
+    pl: "Tom poplamił kawą całą moją koszulę."
+    ru: "Том залил кофе всю мою рубашку."
+    source: { kind: translated, id: 6046851 }
+  - form: "kawą"
+    pl: "Na śniadanie jem tylko grzankę z kawą."
+    ru: "На завтрак я ем только тост с кофе."
+    source: { kind: translated, id: 361774 }
+  - form: "kawą"
+    pl: "Pachniało w kuchni kawą i świeżo upieczonymi bułkami."
+    ru: "На кухне пахло кофе и свежеиспечёнными булочками."
+    source: { kind: translated, id: 3366067 }
+  - form: "kawę"
+    pl: "Pijesz kawę?"
+    ru: "Ты пьёшь кофе?"
+    source: { kind: tatoeba, id: 568698 }
+  - form: "kawę"
+    pl: "Piję kawę."
+    ru: "Я пью кофе."
+    source: { kind: tatoeba, id: 1000606 }
+  - form: "kawę"
+    pl: "Przynieś mi kawę."
+    ru: "Принеси мне кофе."
+    source: { kind: tatoeba, id: 12680513 }
+  - form: "kawie"
+    pl: "W kawie jest mucha."
+    ru: "В кофе муха."
+    source: { kind: tatoeba, id: 12721006 }
+  - form: "kawie"
+    pl: "Rozmawiał z nią przy kawie."
+    ru: "Он говорил с ней за кофе."
+    source: { kind: translated, id: 900950 }
+  - form: "kawie"
+    pl: "On rozpuścił cukier w kawie."
+    ru: "Он растворил сахар в кофе."
+    source: { kind: translated, id: 1589310 }
+  - form: "kawo"
+    pl: "Kawo moja, wreszcie jesteś."
+    ru: "Кофе мой, наконец-то ты готов."
+    source: { kind: authored }
+  - form: "kawo"
+    pl: "Droga kawo, bez ciebie nie ma poranka."
+    ru: "Дорогой кофе, без тебя нет утра."
+    source: { kind: authored }
+  - form: "kawo"
+    pl: "Kawo poranna, ratuj."
+    ru: "Утренний кофе, спасай."
+    source: { kind: authored }
+  - form: "kawy"
+    pl: "Zrób kawy."
+    ru: "Сделай кофе."
+    source: { kind: tatoeba, id: 348937 }
+  - form: "kawy"
+    pl: "Nie piję kawy."
+    ru: "Я не пью кофе."
+    source: { kind: tatoeba, id: 998513 }
+  - form: "kawy"
+    pl: "Nie lubię zimnej kawy."
+    ru: "Я не люблю холодный кофе."
+    source: { kind: tatoeba, id: 524399 }
