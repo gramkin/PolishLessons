@@ -96,6 +96,13 @@ exclude:
   # All seven candidates are the exclamation (Jezu!, O Jezu!, Jezu Chryste!).
   # Same shape as the excluded rany, whose lemma is rana.
   - jezu
+  # not a lemma but the past tense of miec: every candidate is a verb form
+  # (Tom mial racje, Mialem slownik, Nie mialy szans). The noun mial "coal
+  # dust" has no attestation here at all. Same class as the excluded d.
+  - mial
+  # the neuter of mozliwy, which is carded separately at 1456 -- the inflected
+  # form outranking its own lemma is a lemmatizer artifact, not a second word.
+  - mozliwe
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

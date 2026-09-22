@@ -1,0 +1,190 @@
+# review
+id: szkoda
+format: 2
+lemma: "szkoda"
+rank: 714
+pos: noun
+pron: { cyr: "шко́да" }
+senses:
+  - id: pity
+    ru: "szkoda, że… — жаль, что… (не существительное, а сказуемое)"
+    note: "Именительный szkoda почти всегда значит «жаль»."
+    examples:
+      - pl: "Szkoda, że Tom odchodzi."
+        ru: "Жаль, что Том уходит."
+        source: { kind: tatoeba, id: 13785966 }
+      - pl: "Szkoda, że on nie ma poczucia humoru."
+        ru: "Жаль, что у него нет чувства юмора."
+        source: { kind: tatoeba, id: 458059 }
+      - pl: "Jaka szkoda, że ona nie może przyjść!"
+        ru: "Как жаль, что она не может прийти!"
+        source: { kind: tatoeba, id: 924592 }
+  - id: damage
+    ru: "ущерб, убыток (существительное)"
+    examples:
+      - pl: "Musisz pokryć szkody."
+        ru: "Ты должен покрыть убытки."
+        source: { kind: translated, id: 4428992 }
+      - pl: "Szkody sięgnęły miliona jenów."
+        ru: "Убытки достигли миллиона иен."
+        source: { kind: translated, id: 13782743 }
+      - pl: "Tajfun spowodował straszliwe szkody."
+        ru: "Тайфун причинил страшный ущерб."
+        source: { kind: translated, id: 919233 }
+  - id: waste
+    ru: "szkoda czasu, szkoda słów — жаль времени, не стоит слов"
+    note: "После szkoda в этом значении — родительный падеж."
+    examples:
+      - pl: "Szkoda czasu."
+        ru: "Жаль времени."
+        source: { kind: authored }
+      - pl: "Szkoda słów."
+        ru: "Не стоит слов."
+        source: { kind: authored }
+      - pl: "Szkoda gadać."
+        ru: "Что тут говорить."
+        source: { kind: authored }
+  - id: too-late
+    ru: "po szkodzie — после беды, задним числом"
+    examples:
+      - pl: "Mądry Polak po szkodzie."
+        ru: "Мудрый поляк — после беды."
+        source: { kind: translated, id: 516421 }
+      - pl: "Już po szkodzie."
+        ru: "Спохватились, когда уже поздно."
+        source: { kind: translated, id: 11433242 }
+      - pl: "Po szkodzie każdy jest mądry."
+        ru: "После беды все умные."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Главное о слове: в именительном падеже szkoda — это обычно не существительное, а сказуемое «жаль». Szkoda, że nie przyszedłeś «Жаль, что ты не пришёл». Запятая перед że обязательна." }
+  - { kind: government, text: "В значении «жаль» слово требует родительного падежа: szkoda czasu «жаль времени», szkoda pieniędzy «жаль денег», szkoda słów «не стоит слов»." }
+  - { kind: usage, text: "Во всех остальных формах это существительное «ущерб, убыток»: pokryć szkody «покрыть убытки», wyrządzić szkodę «причинить ущерб»." }
+  - { kind: false-friend, text: "Не путайте szkoda «жаль, ущерб» со szkoła «школа» — слова разные и корни разные." }
+  - { kind: usage, text: "Mądry Polak po szkodzie — польская поговорка о том, что умнеют задним числом; русский аналог — «задним умом крепок»." }
+collocations:
+  - { pl: "szkoda, że…", ru: "жаль, что…" }
+  - { pl: "szkoda czasu", ru: "жаль времени" }
+  - { pl: "pokryć szkody", ru: "покрыть убытки" }
+  - { pl: "wyrządzić szkodę", ru: "причинить ущерб" }
+family:
+  - { pl: "szkodzić", ru: "вредить", relation: root }
+  - { pl: "szkodliwy", ru: "вредный", relation: derived }
+  - { pl: "uszkodzić", ru: "повредить", relation: derived }
+etymology: "Праславянское *škoda «вред» — то же слово, что русское «шкода» (озорство, вред) и украинское «шкода»; в польском сохранилось основное значение «ущерб»."
+memory: "Два слова в одном. В именительном szkoda — это почти всегда сказуемое «жаль»: Szkoda, że nie przyszedłeś, и с родительным — szkoda czasu «жаль времени». Во всех остальных формах это существительное «ущерб»: pokryć szkody, wyrządzić szkodę. И не путайте со szkoła «школа»."
+idioms:
+  - { pl: "szkoda słów", ru: "не стоит слов" }
+  - { pl: "szkoda gadać", ru: "что тут говорить" }
+  - { pl: "mądry Polak po szkodzie", ru: "задним умом крепок" }
+formExamplesSkip:
+  - { form: "szkodo", reason: "звательный падеж у неодушевлённого отвлечённого существительного не употребляется" }
+formExamples:
+  - form: "szkoda"
+    pl: "Szkoda, że Tom odchodzi."
+    ru: "Жаль, что Том уходит."
+    source: { kind: tatoeba, id: 13785966 }
+  - form: "szkoda"
+    pl: "Szkoda, że on nie ma poczucia humoru."
+    ru: "Жаль, что у него нет чувства юмора."
+    source: { kind: tatoeba, id: 458059 }
+  - form: "szkoda"
+    pl: "Jaka szkoda, że ona nie może przyjść!"
+    ru: "Как жаль, что она не может прийти!"
+    source: { kind: tatoeba, id: 924592 }
+  - form: "szkodach"
+    pl: "Mówili o szkodach po powodzi."
+    ru: "Они говорили об ущербе после наводнения."
+    source: { kind: authored }
+  - form: "szkodach"
+    pl: "W tych szkodach winna jest burza."
+    ru: "В этом ущербе виновата буря."
+    source: { kind: authored }
+  - form: "szkodach"
+    pl: "W obu szkodach chodzi o tę samą firmę."
+    ru: "В обоих случаях ущерба речь об одной фирме."
+    source: { kind: authored }
+  - form: "szkodami"
+    pl: "Zajmuje się szkodami po powodzi."
+    ru: "Он занимается ущербом после наводнения."
+    source: { kind: authored }
+  - form: "szkodami"
+    pl: "Między szkodami a zyskami jest przepaść."
+    ru: "Между убытками и прибылью пропасть."
+    source: { kind: authored }
+  - form: "szkodami"
+    pl: "Firma zajmuje się szkodami komunikacyjnymi."
+    ru: "Фирма занимается дорожным ущербом."
+    source: { kind: authored }
+  - form: "szkodą"
+    pl: "Nazwali to szkodą całkowitą."
+    ru: "Это назвали полной гибелью имущества."
+    source: { kind: authored }
+  - form: "szkodą"
+    pl: "Ubezpieczyciel zajął się szkodą."
+    ru: "Страховщик занялся ущербом."
+    source: { kind: authored }
+  - form: "szkodą"
+    pl: "Przed szkodą nikt nie jest mądry."
+    ru: "До беды никто не умён."
+    source: { kind: authored }
+  - form: "szkodę"
+    pl: "Źle zaprojektowany egzamin zewnętrzny może wyrządzić wielką szkodę uczniom i szkołom."
+    ru: "Плохо составленный внешний экзамен может причинить большой вред ученикам и школам."
+    source: { kind: translated, id: 5468502 }
+  - form: "szkodę"
+    pl: "Wyrządził wielką szkodę."
+    ru: "Он причинил большой ущерб."
+    source: { kind: authored }
+  - form: "szkodę"
+    pl: "Burza wyrządziła szkodę w sadzie."
+    ru: "Буря причинила ущерб в саду."
+    source: { kind: authored }
+  - form: "szkodom"
+    pl: "Zapobiegli dalszym szkodom."
+    ru: "Они предотвратили дальнейший ущерб."
+    source: { kind: authored }
+  - form: "szkodom"
+    pl: "Przyjrzeli się szkodom po burzy."
+    ru: "Они осмотрели ущерб после бури."
+    source: { kind: authored }
+  - form: "szkodom"
+    pl: "Nie da się zapobiec wszystkim szkodom."
+    ru: "Всему ущербу помешать нельзя."
+    source: { kind: authored }
+  - form: "szkody"
+    pl: "Musisz pokryć szkody."
+    ru: "Ты должен покрыть убытки."
+    source: { kind: translated, id: 4428992 }
+  - form: "szkody"
+    pl: "Szkody sięgnęły miliona jenów."
+    ru: "Убытки достигли миллиона иен."
+    source: { kind: translated, id: 13782743 }
+  - form: "szkody"
+    pl: "Tajfun spowodował straszliwe szkody."
+    ru: "Тайфун причинил страшный ущерб."
+    source: { kind: translated, id: 919233 }
+  - form: "szkodzie"
+    pl: "Już po szkodzie."
+    ru: "Спохватились, когда уже поздно."
+    source: { kind: translated, id: 11433242 }
+  - form: "szkodzie"
+    pl: "Mądry Polak po szkodzie."
+    ru: "Мудрый поляк — после беды."
+    source: { kind: translated, id: 516421 }
+  - form: "szkodzie"
+    pl: "Mówili o szkodzie wyrządzonej przez burzę."
+    ru: "Они говорили об ущербе, причинённом бурей."
+    source: { kind: authored }
+  - form: "szkód"
+    pl: "Było wiele szkód?"
+    ru: "Много было убытков?"
+    source: { kind: translated, id: 7002320 }
+  - form: "szkód"
+    pl: "Burza przyniosła wiele szkód."
+    ru: "Буря принесла много убытков."
+    source: { kind: translated, id: 3127341 }
+  - form: "szkód"
+    pl: "Powódź nie wyrządziła wielkich szkód w uprawach."
+    ru: "Наводнение не причинило больших убытков посевам."
+    source: { kind: translated, id: 593913 }

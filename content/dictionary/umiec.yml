@@ -1,0 +1,661 @@
+# review
+id: umiec
+format: 2
+lemma: "umieć"
+rank: 709
+pos: verb
+aspect: imperf
+pron: { cyr: "у́мець" }
+senses:
+  - id: know-how
+    ru: "уметь (владеть навыком)"
+    examples:
+      - pl: "On umie pływać."
+        ru: "Он умеет плавать."
+        source: { kind: tatoeba, id: 358787 }
+      - pl: "Nie umiem latać."
+        ru: "Я не умею летать."
+        source: { kind: tatoeba, id: 956981 }
+      - pl: "Umiesz pisać?"
+        ru: "Ты умеешь писать?"
+        source: { kind: tatoeba, id: 5336646 }
+  - id: cannot
+    ru: "nie umieć — не уметь, не суметь"
+    examples:
+      - pl: "On nie umie pływać."
+        ru: "Он не умеет плавать."
+        source: { kind: tatoeba, id: 357825 }
+      - pl: "Nie umiem kłamać."
+        ru: "Я не умею врать."
+        source: { kind: tatoeba, id: 13830839 }
+      - pl: "Tom nie umiał pływać."
+        ru: "Том не умел плавать."
+        source: { kind: translated, id: 8763053 }
+  - id: vs-moc
+    ru: "umieć «уметь» ≠ móc «мочь» ≠ wiedzieć «знать»"
+    note: "Навык, возможность и знание факта — три разных глагола."
+    examples:
+      - pl: "Umiem prowadzić, a Tom nie."
+        ru: "Я умею водить, а Том нет."
+        source: { kind: tatoeba, id: 364873 }
+      - pl: "Umiem czytać w myślach."
+        ru: "Я могу читать мысли."
+        source: { kind: tatoeba, id: 2495934 }
+      - pl: "Umiem pływać, ale dziś nie mogę."
+        ru: "Я умею плавать, но сегодня не могу."
+        source: { kind: authored }
+  - id: wish
+    ru: "chciałbym umieć — хотел бы уметь"
+    examples:
+      - pl: "Chciałbym umieć pływać."
+        ru: "Хотел бы я уметь плавать."
+        source: { kind: translated, id: 599889 }
+      - pl: "Chciałbym umieć mówić po angielsku."
+        ru: "Хотел бы я уметь говорить по-английски."
+        source: { kind: translated, id: 412923 }
+      - pl: "Każdy powinien umieć pływać."
+        ru: "Каждый должен уметь плавать."
+        source: { kind: translated, id: 751598 }
+notes:
+  - { kind: false-friend, text: "Три глагола, которые русский покрывает двумя. umieć — владеть навыком (Umiem pływać «Я умею плавать»); móc — иметь возможность (Nie mogę dziś pływać «Сегодня не могу»); wiedzieć — знать факт (Wiem, gdzie jest basen). Путать их — самая частая ошибка." }
+  - { kind: usage, text: "Спряжение запоминают по третьему лицу множественного: umieją, а не «umią». Полностью: umiem, umiesz, umie, umiemy, umiecie, umieją." }
+  - { kind: usage, text: "В прошедшем времени e переходит в a: umieć — umiał, umiała, но во множественном мужско-личном возвращается e: umieli. Точно как mieć — miał — mieli." }
+  - { kind: usage, text: "Страдательных форм и отглагольного существительного у umieć нет: «умение» — это umiejętność, «умелый» — umiejętny." }
+collocations:
+  - { pl: "umieć pływać", ru: "уметь плавать" }
+  - { pl: "nie umieć", ru: "не уметь" }
+  - { pl: "umieć się znaleźć", ru: "уметь себя держать" }
+  - { pl: "umiejętność", ru: "умение" }
+family:
+  - { pl: "umiejętność", ru: "умение", relation: derived }
+  - { pl: "umiejętny", ru: "умелый", relation: derived }
+  - { pl: "rozumieć", ru: "понимать", relation: root }
+  - { pl: "nauczyć się", ru: "научиться", relation: root }
+etymology: "Праславянское *uměti, от того же корня, что *umъ «ум» — русские «уметь» и «ум» из этого же гнезда."
+memory: "umieć — это «уметь» в смысле навыка, и рядом с ним надо держать ещё два глагола: móc «мочь, иметь возможность» и wiedzieć «знать факт». Umiem pływać, ale dziś nie mogę, bo wiem, że basen jest zamknięty. Спряжение проверяйте по третьему лицу множественного: umieją, а не «umią». Существительного от глагола нет — «умение» это umiejętność."
+idioms:
+  - { pl: "czego Jaś się nie nauczy, tego Jan nie będzie umiał", ru: "чему Ваня не научился, того Иван знать не будет" }
+  - { pl: "umieć się znaleźć", ru: "уметь себя держать" }
+  - { pl: "głupi milczeć nie umie", ru: "глупый молчать не умеет" }
+formExamplesSkip:
+  - { form: "umiana", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianą", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umiane", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianego", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianej", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianemu", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umiani", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umiano", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umiany", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianych", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianym", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umianymi", reason: "umieć не образует страдательных форм: навыком нельзя «быть умеемым»" }
+  - { form: "umienia", reason: "отглагольного существительного от umieć нет; в этом значении говорят umiejętność «умение»" }
+  - { form: "umienie", reason: "отглагольного существительного от umieć нет; в этом значении говорят umiejętność «умение»" }
+  - { form: "umieniem", reason: "отглагольного существительного от umieć нет; в этом значении говорят umiejętność «умение»" }
+  - { form: "umieniu", reason: "отглагольного существительного от umieć нет; в этом значении говорят umiejętność «умение»" }
+formExamples:
+  - form: "umiał"
+    pl: "Tom nie umiał pływać."
+    ru: "Том не умел плавать."
+    source: { kind: translated, id: 8763053 }
+  - form: "umiał"
+    pl: "Umiał przekonać do swoich pomysłów."
+    ru: "Он умел убедить в своих идеях."
+    source: { kind: translated, id: 354116 }
+  - form: "umiał"
+    pl: "Nikt nie umiał dać poprawnej odpowiedzi."
+    ru: "Никто не умел дать правильный ответ."
+    source: { kind: translated, id: 516486 }
+  - form: "umiała"
+    pl: "Nie umiała pływać."
+    ru: "Она не умела плавать."
+    source: { kind: translated, id: 8734648 }
+  - form: "umiała"
+    pl: "Umiała czytać, kiedy miała cztery lata."
+    ru: "Она умела читать, когда ей было четыре года."
+    source: { kind: translated, id: 363685 }
+  - form: "umiała"
+    pl: "Kiedy była mała, umiała ładnie śpiewać."
+    ru: "Когда она была маленькой, умела красиво петь."
+    source: { kind: translated, id: 352875 }
+  - form: "umiałaby"
+    pl: "Umiałaby to zrobić lepiej."
+    ru: "Она сумела бы сделать это лучше."
+    source: { kind: authored }
+  - form: "umiałaby"
+    pl: "Gdyby chciała, umiałaby pomóc."
+    ru: "Если бы захотела, она сумела бы помочь."
+    source: { kind: authored }
+  - form: "umiałaby"
+    pl: "Nie umiałaby żyć inaczej."
+    ru: "Она не сумела бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałabym"
+    pl: "Umiałabym to naprawić."
+    ru: "Я сумела бы это починить."
+    source: { kind: authored }
+  - form: "umiałabym"
+    pl: "Nie umiałabym kłamać."
+    ru: "Я не сумела бы соврать."
+    source: { kind: authored }
+  - form: "umiałabym"
+    pl: "Gdybym chciała, umiałabym pomóc."
+    ru: "Если бы я захотела, я сумела бы помочь."
+    source: { kind: authored }
+  - form: "umiałabyś"
+    pl: "Umiałabyś to zrobić?"
+    ru: "Ты сумела бы это сделать?"
+    source: { kind: authored }
+  - form: "umiałabyś"
+    pl: "Nie umiałabyś żyć inaczej."
+    ru: "Ты не сумела бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałabyś"
+    pl: "Gdybyś chciała, umiałabyś pomóc."
+    ru: "Если бы ты захотела, ты сумела бы помочь."
+    source: { kind: authored }
+  - form: "umiałam"
+    pl: "Przetłumaczyłam wiersz tak dobrze, jak tylko umiałam."
+    ru: "Я перевела стихотворение так хорошо, как только умела."
+    source: { kind: translated, id: 4468694 }
+  - form: "umiałam"
+    pl: "Umiałam to zrobić sama."
+    ru: "Я умела сделать это сама."
+    source: { kind: authored }
+  - form: "umiałam"
+    pl: "Nigdy nie umiałam kłamać."
+    ru: "Я никогда не умела врать."
+    source: { kind: authored }
+  - form: "umiałaś"
+    pl: "Umiałaś pływać już jako dziecko."
+    ru: "Ты умела плавать ещё ребёнком."
+    source: { kind: authored }
+  - form: "umiałaś"
+    pl: "Nie umiałaś tego wcześniej."
+    ru: "Раньше ты этого не умела."
+    source: { kind: authored }
+  - form: "umiałaś"
+    pl: "Skąd umiałaś tę piosenkę?"
+    ru: "Откуда ты знала эту песню?"
+    source: { kind: authored }
+  - form: "umiałby"
+    pl: "Tom umiałby to zrobić."
+    ru: "Том сумел бы это сделать."
+    source: { kind: translated, id: 12360013 }
+  - form: "umiałby"
+    pl: "Dlaczego u licha myślałaś, że Tom umiałby prowadzić?"
+    ru: "С чего ты вообще взяла, что Том сумел бы водить?"
+    source: { kind: translated, id: 11006410 }
+  - form: "umiałby"
+    pl: "Gdyby chciał, umiałby pomóc."
+    ru: "Если бы захотел, он сумел бы помочь."
+    source: { kind: authored }
+  - form: "umiałbym"
+    pl: "Nie byłbym w stanie atakować chrześcijaństwa, tak jak nie umiałbym krytykować wilkołaków."
+    ru: "Я не смог бы нападать на христианство, как не сумел бы критиковать оборотней."
+    source: { kind: translated, id: 924491 }
+  - form: "umiałbym"
+    pl: "Umiałbym to naprawić."
+    ru: "Я сумел бы это починить."
+    source: { kind: authored }
+  - form: "umiałbym"
+    pl: "Nie umiałbym żyć inaczej."
+    ru: "Я не сумел бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałbyś"
+    pl: "Umiałbyś to zrobić?"
+    ru: "Ты сумел бы это сделать?"
+    source: { kind: authored }
+  - form: "umiałbyś"
+    pl: "Nie umiałbyś żyć inaczej."
+    ru: "Ты не сумел бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałbyś"
+    pl: "Gdybyś chciał, umiałbyś pomóc."
+    ru: "Если бы ты захотел, ты сумел бы помочь."
+    source: { kind: authored }
+  - form: "umiałem"
+    pl: "Biegłem najszybciej jak umiałem."
+    ru: "Я бежал так быстро, как только умел."
+    source: { kind: translated, id: 744239 }
+  - form: "umiałem"
+    pl: "Umiałem odpowiedzieć na jego pytanie."
+    ru: "Я сумел ответить на его вопрос."
+    source: { kind: translated, id: 831700 }
+  - form: "umiałem"
+    pl: "Nie umiałem sobie z nim poradzić."
+    ru: "Я не сумел с ним справиться."
+    source: { kind: translated, id: 1294633 }
+  - form: "umiałeś"
+    pl: "Umiałeś pływać już jako dziecko."
+    ru: "Ты умел плавать ещё ребёнком."
+    source: { kind: authored }
+  - form: "umiałeś"
+    pl: "Nie umiałeś tego wcześniej."
+    ru: "Раньше ты этого не умел."
+    source: { kind: authored }
+  - form: "umiałeś"
+    pl: "Skąd umiałeś tę piosenkę?"
+    ru: "Откуда ты знал эту песню?"
+    source: { kind: authored }
+  - form: "umiało"
+    pl: "Dziecko umiało już czytać."
+    ru: "Ребёнок уже умел читать."
+    source: { kind: authored }
+  - form: "umiało"
+    pl: "Żadne z nich nie umiało pływać."
+    ru: "Никто из них не умел плавать."
+    source: { kind: authored }
+  - form: "umiało"
+    pl: "To dziecko umiało liczyć do stu."
+    ru: "Этот ребёнок умел считать до ста."
+    source: { kind: authored }
+  - form: "umiałoby"
+    pl: "Dziecko umiałoby to zrobić."
+    ru: "Ребёнок сумел бы это сделать."
+    source: { kind: authored }
+  - form: "umiałoby"
+    pl: "Żadne z nich nie umiałoby pomóc."
+    ru: "Никто из них не сумел бы помочь."
+    source: { kind: authored }
+  - form: "umiałoby"
+    pl: "Umiałoby liczyć, gdyby je uczono."
+    ru: "Он умел бы считать, если бы его учили."
+    source: { kind: authored }
+  - form: "umiały"
+    pl: "Dziewczyny umiały pływać."
+    ru: "Девочки умели плавать."
+    source: { kind: authored }
+  - form: "umiały"
+    pl: "Te dzieci nie umiały czytać."
+    ru: "Эти дети не умели читать."
+    source: { kind: authored }
+  - form: "umiały"
+    pl: "Umiały śpiewać na głosy."
+    ru: "Они умели петь на голоса."
+    source: { kind: authored }
+  - form: "umiałyby"
+    pl: "Umiałyby to zrobić lepiej."
+    ru: "Они сумели бы сделать это лучше."
+    source: { kind: authored }
+  - form: "umiałyby"
+    pl: "Nie umiałyby żyć inaczej."
+    ru: "Они не сумели бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałyby"
+    pl: "Gdyby chciały, umiałyby pomóc."
+    ru: "Если бы захотели, они сумели бы помочь."
+    source: { kind: authored }
+  - form: "umiałybyście"
+    pl: "Umiałybyście to zrobić?"
+    ru: "Вы сумели бы это сделать?"
+    source: { kind: authored }
+  - form: "umiałybyście"
+    pl: "Nie umiałybyście żyć inaczej."
+    ru: "Вы не сумели бы жить иначе."
+    source: { kind: authored }
+  - form: "umiałybyście"
+    pl: "Gdybyście chciały, umiałybyście pomóc."
+    ru: "Если бы вы захотели, вы сумели бы помочь."
+    source: { kind: authored }
+  - form: "umiałybyśmy"
+    pl: "Umiałybyśmy to naprawić."
+    ru: "Мы сумели бы это починить."
+    source: { kind: authored }
+  - form: "umiałybyśmy"
+    pl: "Nie umiałybyśmy kłamać."
+    ru: "Мы не сумели бы соврать."
+    source: { kind: authored }
+  - form: "umiałybyśmy"
+    pl: "Gdybyśmy chciały, umiałybyśmy pomóc."
+    ru: "Если бы мы захотели, мы сумели бы помочь."
+    source: { kind: authored }
+  - form: "umiałyście"
+    pl: "Umiałyście pływać już jako dzieci."
+    ru: "Вы умели плавать ещё детьми."
+    source: { kind: authored }
+  - form: "umiałyście"
+    pl: "Nie umiałyście tego wcześniej."
+    ru: "Раньше вы этого не умели."
+    source: { kind: authored }
+  - form: "umiałyście"
+    pl: "Skąd umiałyście tę piosenkę?"
+    ru: "Откуда вы знали эту песню?"
+    source: { kind: authored }
+  - form: "umiałyśmy"
+    pl: "Umiałyśmy pływać już jako dzieci."
+    ru: "Мы умели плавать ещё детьми."
+    source: { kind: authored }
+  - form: "umiałyśmy"
+    pl: "Nie umiałyśmy tego wcześniej."
+    ru: "Раньше мы этого не умели."
+    source: { kind: authored }
+  - form: "umiałyśmy"
+    pl: "Umiałyśmy śpiewać na głosy."
+    ru: "Мы умели петь на голоса."
+    source: { kind: authored }
+  - form: "umie"
+    pl: "On umie pływać."
+    ru: "Он умеет плавать."
+    source: { kind: tatoeba, id: 358787 }
+  - form: "umie"
+    pl: "On nie umie pływać."
+    ru: "Он не умеет плавать."
+    source: { kind: tatoeba, id: 357825 }
+  - form: "umie"
+    pl: "Ten ptak umie latać."
+    ru: "Эта птица умеет летать."
+    source: { kind: tatoeba, id: 2183377 }
+  - form: "umiecie"
+    pl: "Umiecie pływać, prawda?"
+    ru: "Вы ведь умеете плавать?"
+    source: { kind: translated, id: 10590294 }
+  - form: "umiecie"
+    pl: "Jeśli umiecie przeczytać to zdanie, znaczy, że umiecie czytać."
+    ru: "Если вы умеете прочесть это предложение, значит, умеете читать."
+    source: { kind: translated, id: 951354 }
+  - form: "umiecie"
+    pl: "Umiecie mówić po polsku?"
+    ru: "Вы умеете говорить по-польски?"
+    source: { kind: authored }
+  - form: "umieć"
+    pl: "Chciałbym umieć pływać."
+    ru: "Хотел бы я уметь плавать."
+    source: { kind: translated, id: 599889 }
+  - form: "umieć"
+    pl: "Każdy powinien umieć pływać."
+    ru: "Каждый должен уметь плавать."
+    source: { kind: translated, id: 751598 }
+  - form: "umieć"
+    pl: "Tom powinien umieć to zrobić."
+    ru: "Том должен суметь это сделать."
+    source: { kind: translated, id: 3746167 }
+  - form: "umiej"
+    pl: "Umiej przegrywać."
+    ru: "Умей проигрывать."
+    source: { kind: authored }
+  - form: "umiej"
+    pl: "Umiej się znaleźć w każdej sytuacji."
+    ru: "Умей держаться в любой ситуации."
+    source: { kind: authored }
+  - form: "umiej"
+    pl: "Umiej słuchać."
+    ru: "Умей слушать."
+    source: { kind: authored }
+  - form: "umieją"
+    pl: "Króliki umieją pływać?"
+    ru: "Кролики умеют плавать?"
+    source: { kind: tatoeba, id: 2264538 }
+  - form: "umieją"
+    pl: "Psy umieją pływać."
+    ru: "Собаки умеют плавать."
+    source: { kind: translated, id: 353868 }
+  - form: "umieją"
+    pl: "Strusie nie umieją latać."
+    ru: "Страусы не умеют летать."
+    source: { kind: translated, id: 568461 }
+  - form: "umiejąc"
+    pl: "Nie umiejąc pływać, został na brzegu."
+    ru: "Не умея плавать, он остался на берегу."
+    source: { kind: authored }
+  - form: "umiejąc"
+    pl: "Umiejąc czytać, radził sobie wszędzie."
+    ru: "Умея читать, он справлялся везде."
+    source: { kind: authored }
+  - form: "umiejąc"
+    pl: "Nie umiejąc odpowiedzieć, zamilkł."
+    ru: "Не умея ответить, он умолк."
+    source: { kind: authored }
+  - form: "umiejąca"
+    pl: "Osoba umiejąca słuchać jest rzadkością."
+    ru: "Человек, умеющий слушать, — редкость."
+    source: { kind: authored }
+  - form: "umiejąca"
+    pl: "Dziewczyna umiejąca pływać nie bała się wody."
+    ru: "Девочка, умеющая плавать, не боялась воды."
+    source: { kind: authored }
+  - form: "umiejąca"
+    pl: "To kobieta umiejąca wszystko."
+    ru: "Это женщина, умеющая всё."
+    source: { kind: authored }
+  - form: "umiejącą"
+    pl: "Znam osobę umiejącą pływać."
+    ru: "Я знаю человека, умеющего плавать."
+    source: { kind: authored }
+  - form: "umiejącą"
+    pl: "Zatrudnili kobietę umiejącą liczyć."
+    ru: "Наняли женщину, умеющую считать."
+    source: { kind: authored }
+  - form: "umiejącą"
+    pl: "Widziałem dziewczynkę umiejącą już czytać."
+    ru: "Я видел девочку, уже умеющую читать."
+    source: { kind: authored }
+  - form: "umiejące"
+    pl: "Dzieci umiejące czytać radzą sobie lepiej."
+    ru: "Дети, умеющие читать, справляются лучше."
+    source: { kind: authored }
+  - form: "umiejące"
+    pl: "Zwierzęta umiejące pływać przetrwały."
+    ru: "Животные, умеющие плавать, выжили."
+    source: { kind: authored }
+  - form: "umiejące"
+    pl: "To dziecko umiejące liczyć do stu."
+    ru: "Это ребёнок, умеющий считать до ста."
+    source: { kind: authored }
+  - form: "umiejącego"
+    pl: "Szukamy kogoś umiejącego pływać."
+    ru: "Мы ищем кого-нибудь, кто умеет плавать."
+    source: { kind: authored }
+  - form: "umiejącego"
+    pl: "Nie ma tu nikogo umiejącego liczyć."
+    ru: "Здесь нет никого, кто умел бы считать."
+    source: { kind: authored }
+  - form: "umiejącego"
+    pl: "Znaleźli ucznia umiejącego czytać."
+    ru: "Они нашли ученика, умеющего читать."
+    source: { kind: authored }
+  - form: "umiejącej"
+    pl: "Szukamy osoby umiejącej pływać."
+    ru: "Мы ищем человека, умеющего плавать."
+    source: { kind: authored }
+  - form: "umiejącej"
+    pl: "Nie ma tu kobiety umiejącej liczyć."
+    ru: "Здесь нет женщины, умеющей считать."
+    source: { kind: authored }
+  - form: "umiejącej"
+    pl: "To praca dla osoby umiejącej słuchać."
+    ru: "Это работа для человека, умеющего слушать."
+    source: { kind: authored }
+  - form: "umiejącemu"
+    pl: "Pomogli uczniowi umiejącemu czytać."
+    ru: "Они помогли ученику, умеющему читать."
+    source: { kind: authored }
+  - form: "umiejącemu"
+    pl: "Dziecku umiejącemu liczyć jest łatwiej."
+    ru: "Ребёнку, умеющему считать, легче."
+    source: { kind: authored }
+  - form: "umiejącemu"
+    pl: "Nie ufa nikomu umiejącemu kłamać."
+    ru: "Он не доверяет никому, кто умеет врать."
+    source: { kind: authored }
+  - form: "umiejący"
+    pl: "Umiejący słuchać człowiek jest rzadkością."
+    ru: "Умеющий слушать человек — редкость."
+    source: { kind: authored }
+  - form: "umiejący"
+    pl: "Umiejący czytać uczeń radzi sobie lepiej."
+    ru: "Умеющий читать ученик справляется лучше."
+    source: { kind: authored }
+  - form: "umiejący"
+    pl: "To pracownik umiejący wszystko."
+    ru: "Это работник, умеющий всё."
+    source: { kind: authored }
+  - form: "umiejących"
+    pl: "Mało jest ludzi umiejących słuchać."
+    ru: "Мало людей, умеющих слушать."
+    source: { kind: authored }
+  - form: "umiejących"
+    pl: "Szukają pracowników umiejących liczyć."
+    ru: "Они ищут работников, умеющих считать."
+    source: { kind: authored }
+  - form: "umiejących"
+    pl: "Wśród umiejących pływać był i on."
+    ru: "Среди умеющих плавать был и он."
+    source: { kind: authored }
+  - form: "umiejącym"
+    pl: "Był człowiekiem umiejącym słuchać."
+    ru: "Он был человеком, умеющим слушать."
+    source: { kind: authored }
+  - form: "umiejącym"
+    pl: "Pomogli dzieciom umiejącym czytać."
+    ru: "Они помогли детям, умеющим читать."
+    source: { kind: authored }
+  - form: "umiejącym"
+    pl: "Mówili o uczniu umiejącym liczyć."
+    ru: "Они говорили об ученике, умеющем считать."
+    source: { kind: authored }
+  - form: "umiejącymi"
+    pl: "Pracuje z ludźmi umiejącymi słuchać."
+    ru: "Он работает с людьми, умеющими слушать."
+    source: { kind: authored }
+  - form: "umiejącymi"
+    pl: "Zajmuje się dziećmi umiejącymi już czytać."
+    ru: "Он занимается детьми, уже умеющими читать."
+    source: { kind: authored }
+  - form: "umiejącymi"
+    pl: "Otoczył się ludźmi umiejącymi milczeć."
+    ru: "Он окружил себя людьми, умеющими молчать."
+    source: { kind: authored }
+  - form: "umiejcie"
+    pl: "Umiejcie przegrywać."
+    ru: "Умейте проигрывать."
+    source: { kind: authored }
+  - form: "umiejcie"
+    pl: "Umiejcie słuchać."
+    ru: "Умейте слушать."
+    source: { kind: authored }
+  - form: "umiejcie"
+    pl: "Umiejcie się znaleźć."
+    ru: "Умейте себя держать."
+    source: { kind: authored }
+  - form: "umiejmy"
+    pl: "Umiejmy przegrywać."
+    ru: "Будем уметь проигрывать."
+    source: { kind: authored }
+  - form: "umiejmy"
+    pl: "Umiejmy słuchać."
+    ru: "Будем уметь слушать."
+    source: { kind: authored }
+  - form: "umiejmy"
+    pl: "Umiejmy się cieszyć drobiazgami."
+    ru: "Будем уметь радоваться мелочам."
+    source: { kind: authored }
+  - form: "umieli"
+    pl: "Czy oni będą umieli przeczytać te słowa?"
+    ru: "Смогут ли они прочесть эти слова?"
+    source: { kind: translated, id: 732988 }
+  - form: "umieli"
+    pl: "Dwaj bracia nie umieli się ze sobą dogadać."
+    ru: "Двое братьев не умели поладить друг с другом."
+    source: { kind: translated, id: 5960539 }
+  - form: "umieli"
+    pl: "Oni wiedzieli, że on to zrobił, ale nie umieli tego udowodnić."
+    ru: "Они знали, что это сделал он, но не сумели доказать."
+    source: { kind: translated, id: 5201386 }
+  - form: "umieliby"
+    pl: "Umieliby to zrobić lepiej."
+    ru: "Они сумели бы сделать это лучше."
+    source: { kind: authored }
+  - form: "umieliby"
+    pl: "Nie umieliby żyć inaczej."
+    ru: "Они не сумели бы жить иначе."
+    source: { kind: authored }
+  - form: "umieliby"
+    pl: "Gdyby chcieli, umieliby pomóc."
+    ru: "Если бы захотели, они сумели бы помочь."
+    source: { kind: authored }
+  - form: "umielibyście"
+    pl: "Umielibyście to zrobić?"
+    ru: "Вы сумели бы это сделать?"
+    source: { kind: authored }
+  - form: "umielibyście"
+    pl: "Nie umielibyście żyć inaczej."
+    ru: "Вы не сумели бы жить иначе."
+    source: { kind: authored }
+  - form: "umielibyście"
+    pl: "Gdybyście chcieli, umielibyście pomóc."
+    ru: "Если бы вы захотели, вы сумели бы помочь."
+    source: { kind: authored }
+  - form: "umielibyśmy"
+    pl: "Umielibyśmy to naprawić."
+    ru: "Мы сумели бы это починить."
+    source: { kind: authored }
+  - form: "umielibyśmy"
+    pl: "Nie umielibyśmy kłamać."
+    ru: "Мы не сумели бы соврать."
+    source: { kind: authored }
+  - form: "umielibyśmy"
+    pl: "Gdybyśmy chcieli, umielibyśmy pomóc."
+    ru: "Если бы мы захотели, мы сумели бы помочь."
+    source: { kind: authored }
+  - form: "umieliście"
+    pl: "Umieliście pływać już jako dzieci."
+    ru: "Вы умели плавать ещё детьми."
+    source: { kind: authored }
+  - form: "umieliście"
+    pl: "Nie umieliście tego wcześniej."
+    ru: "Раньше вы этого не умели."
+    source: { kind: authored }
+  - form: "umieliście"
+    pl: "Skąd umieliście tę piosenkę?"
+    ru: "Откуда вы знали эту песню?"
+    source: { kind: authored }
+  - form: "umieliśmy"
+    pl: "Umieliśmy pływać już jako dzieci."
+    ru: "Мы умели плавать ещё детьми."
+    source: { kind: authored }
+  - form: "umieliśmy"
+    pl: "Nie umieliśmy tego wcześniej."
+    ru: "Раньше мы этого не умели."
+    source: { kind: authored }
+  - form: "umieliśmy"
+    pl: "Umieliśmy śpiewać na głosy."
+    ru: "Мы умели петь на голоса."
+    source: { kind: authored }
+  - form: "umiem"
+    pl: "Nie umiem latać."
+    ru: "Я не умею летать."
+    source: { kind: tatoeba, id: 956981 }
+  - form: "umiem"
+    pl: "Nie umiem kłamać."
+    ru: "Я не умею врать."
+    source: { kind: tatoeba, id: 13830839 }
+  - form: "umiem"
+    pl: "Umiem czytać w myślach."
+    ru: "Я могу читать мысли."
+    source: { kind: tatoeba, id: 2495934 }
+  - form: "umiemy"
+    pl: "Dlaczego nie umiemy żyć razem w pokoju?"
+    ru: "Почему мы не умеем жить вместе в мире?"
+    source: { kind: translated, id: 3786705 }
+  - form: "umiemy"
+    pl: "Różnimy się od zwierząt tym, że umiemy mówić."
+    ru: "Мы отличаемся от животных тем, что умеем говорить."
+    source: { kind: translated, id: 704038 }
+  - form: "umiemy"
+    pl: "Musimy wykonać tę pracę najlepiej jak umiemy."
+    ru: "Мы должны сделать эту работу так хорошо, как умеем."
+    source: { kind: translated, id: 760451 }
+  - form: "umiesz"
+    pl: "Umiesz pisać?"
+    ru: "Ты умеешь писать?"
+    source: { kind: tatoeba, id: 5336646 }
+  - form: "umiesz"
+    pl: "Umiesz gwizdać?"
+    ru: "Ты умеешь свистеть?"
+    source: { kind: tatoeba, id: 2406023 }
+  - form: "umiesz"
+    pl: "Umiesz grać w szachy?"
+    ru: "Ты умеешь играть в шахматы?"
+    source: { kind: tatoeba, id: 355897 }

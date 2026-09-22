@@ -1,0 +1,474 @@
+# review
+id: powazny
+format: 2
+lemma: "poważny"
+rank: 707
+pos: adj
+pron: { cyr: "пова́жны" }
+senses:
+  - id: serious
+    ru: "серьёзный (о деле, проблеме)"
+    examples:
+      - pl: "Mam poważny problem."
+        ru: "У меня большая проблема."
+        source: { kind: tatoeba, id: 352273 }
+      - pl: "To poważny problem."
+        ru: "Это серьёзная проблема."
+        source: { kind: translated, id: 1605911 }
+      - pl: "To poważna sprawa."
+        ru: "Это серьёзное дело."
+        source: { kind: translated, id: 8506654 }
+  - id: nothing
+    ru: "nic poważnego — ничего серьёзного"
+    examples:
+      - pl: "To nic poważnego."
+        ru: "Это несерьёзно."
+        source: { kind: tatoeba, id: 565978 }
+      - pl: "To nie było nic poważnego."
+        ru: "Ничего серьёзного не было."
+        source: { kind: translated, id: 8767822 }
+      - pl: "Czy to poważne?"
+        ru: "Это серьёзно?"
+        source: { kind: translated, id: 349130 }
+  - id: person
+    ru: "серьёзный (о человеке)"
+    examples:
+      - pl: "On jest bardzo poważną osobą."
+        ru: "Он очень серьёзный человек."
+        source: { kind: translated, id: 1183668 }
+      - pl: "Jesteś taka poważna."
+        ru: "Ты такая серьёзная."
+        source: { kind: translated, id: 2218853 }
+      - pl: "Bądź poważny."
+        ru: "Будь серьёзен."
+        source: { kind: translated, id: 5627110 }
+  - id: grave
+    ru: "тяжёлый, опасный (о болезни, аварии)"
+    examples:
+      - pl: "Jesteś w poważnym niebezpieczeństwie."
+        ru: "Ты в серьезной опасности."
+        source: { kind: tatoeba, id: 6960332 }
+      - pl: "Ona cierpi na poważną chorobę."
+        ru: "Она страдает тяжёлой болезнью."
+        source: { kind: translated, id: 357743 }
+      - pl: "Autostrada była zamknięta z powodu poważnego wypadku."
+        ru: "Автострада была перекрыта из-за серьезной аварии."
+        source: { kind: tatoeba, id: 457421 }
+notes:
+  - { kind: false-friend, text: "Ложный друг наполовину: poważny — «серьёзный», но не «важный». «Важный» — это ważny. Оба слова от waga «вес», и различать их надо твёрдо: sprawa poważna «серьёзное дело», sprawa ważna «важное дело»." }
+  - { kind: usage, text: "muzyka poważna — это «классическая музыка», буквально «серьёзная». Запоминать лучше целиком." }
+  - { kind: usage, text: "nic poważnego «ничего серьёзного» — стандартный ответ о болезни или происшествии." }
+  - { kind: usage, text: "Степени правильные: poważny — poważniejszy — najpoważniejszy. mieć poważne zamiary «иметь серьёзные намерения» говорят о сватовстве." }
+collocations:
+  - { pl: "poważny problem", ru: "серьёзная проблема" }
+  - { pl: "nic poważnego", ru: "ничего серьёзного" }
+  - { pl: "muzyka poważna", ru: "классическая музыка" }
+  - { pl: "poważne zamiary", ru: "серьёзные намерения" }
+family:
+  - { pl: "waga", ru: "вес", relation: root }
+  - { pl: "ważny", ru: "важный", relation: root }
+  - { pl: "poważnie", ru: "серьёзно", relation: derived }
+  - { pl: "powaga", ru: "серьёзность", relation: derived }
+etymology: "От waga «вес» с приставкой po- — буквально «весомый». Русское «важный» восходит к тому же корню, поэтому польское ważny значит «важный», а poważny — «серьёзный»."
+memory: "poważny — «серьёзный», и рядом живёт ważny — «важный». Оба от waga «вес», но путать их нельзя: sprawa poważna «серьёзное дело», sprawa ważna «важное дело». Два оборота стоит взять целиком: nic poważnego «ничего серьёзного» и muzyka poważna — это «классическая музыка», буквально «серьёзная»."
+idioms:
+  - { pl: "nic poważnego", ru: "ничего серьёзного" }
+  - { pl: "mieć poważne zamiary", ru: "иметь серьёзные намерения" }
+  - { pl: "muzyka poważna", ru: "классическая музыка" }
+formExamples:
+  - form: "najpoważniejsi"
+    pl: "Najpoważniejsi kandydaci odpadli."
+    ru: "Самые серьёзные кандидаты отсеялись."
+    source: { kind: authored }
+  - form: "najpoważniejsi"
+    pl: "To najpoważniejsi ludzie w firmie."
+    ru: "Это самые серьёзные люди в фирме."
+    source: { kind: authored }
+  - form: "najpoważniejsi"
+    pl: "Najpoważniejsi uczniowie siedzą z przodu."
+    ru: "Самые серьёзные ученики сидят впереди."
+    source: { kind: authored }
+  - form: "najpoważniejsza"
+    pl: "Brak inżynierów to najpoważniejsza przeszkoda w rozwoju naszej firmy."
+    ru: "Нехватка инженеров — самое серьёзное препятствие в развитии нашей фирмы."
+    source: { kind: translated, id: 631450 }
+  - form: "najpoważniejsza"
+    pl: "To najpoważniejsza sprawa dnia."
+    ru: "Это самое серьёзное дело дня."
+    source: { kind: authored }
+  - form: "najpoważniejsza"
+    pl: "Najpoważniejsza awaria zdarzyła się w nocy."
+    ru: "Самая серьёзная авария случилась ночью."
+    source: { kind: authored }
+  - form: "najpoważniejszą"
+    pl: "Ubóstwo jest wciąż najpoważniejszą przyczyną przestępczości."
+    ru: "Бедность всё ещё самая серьёзная причина преступности."
+    source: { kind: translated, id: 659759 }
+  - form: "najpoważniejszą"
+    pl: "Uznali to za najpoważniejszą przeszkodę."
+    ru: "Это сочли самым серьёзным препятствием."
+    source: { kind: authored }
+  - form: "najpoważniejszą"
+    pl: "Dostał najpoważniejszą rolę w sztuce."
+    ru: "Он получил самую серьёзную роль в пьесе."
+    source: { kind: authored }
+  - form: "najpoważniejsze"
+    pl: "To najpoważniejsze zarzuty."
+    ru: "Это самые серьёзные обвинения."
+    source: { kind: authored }
+  - form: "najpoważniejsze"
+    pl: "Najpoważniejsze błędy już poprawiono."
+    ru: "Самые серьёзные ошибки уже исправили."
+    source: { kind: authored }
+  - form: "najpoważniejsze"
+    pl: "Są i najpoważniejsze powody."
+    ru: "Есть и самые серьёзные причины."
+    source: { kind: authored }
+  - form: "najpoważniejszego"
+    pl: "Szukam najpoważniejszego partnera."
+    ru: "Я ищу самого серьёзного партнёра."
+    source: { kind: authored }
+  - form: "najpoważniejszego"
+    pl: "Nie znaleziono najpoważniejszego błędu."
+    ru: "Самую серьёзную ошибку не нашли."
+    source: { kind: authored }
+  - form: "najpoważniejszego"
+    pl: "Dotyczy to najpoważniejszego zarzutu."
+    ru: "Это касается самого серьёзного обвинения."
+    source: { kind: authored }
+  - form: "najpoważniejszej"
+    pl: "Nie ma tu najpoważniejszej sprawy."
+    ru: "Самого серьёзного дела здесь нет."
+    source: { kind: authored }
+  - form: "najpoważniejszej"
+    pl: "Doszło do najpoważniejszej awarii od lat."
+    ru: "Произошла самая серьёзная авария за годы."
+    source: { kind: authored }
+  - form: "najpoważniejszej"
+    pl: "Szukali najpoważniejszej przyczyny."
+    ru: "Они искали самую серьёзную причину."
+    source: { kind: authored }
+  - form: "najpoważniejszemu"
+    pl: "Przyjrzał się najpoważniejszemu problemowi."
+    ru: "Он присмотрелся к самой серьёзной проблеме."
+    source: { kind: authored }
+  - form: "najpoważniejszemu"
+    pl: "Dał pierwszeństwo najpoważniejszemu zadaniu."
+    ru: "Он отдал предпочтение самой серьёзной задаче."
+    source: { kind: authored }
+  - form: "najpoważniejszemu"
+    pl: "Nie ufa najpoważniejszemu z zarzutów."
+    ru: "Он не доверяет самому серьёзному из обвинений."
+    source: { kind: authored }
+  - form: "najpoważniejszy"
+    pl: "To najpoważniejszy problem firmy."
+    ru: "Это самая серьёзная проблема фирмы."
+    source: { kind: authored }
+  - form: "najpoważniejszy"
+    pl: "Najpoważniejszy błąd popełniono na początku."
+    ru: "Самую серьёзную ошибку совершили в начале."
+    source: { kind: authored }
+  - form: "najpoważniejszy"
+    pl: "Uznano go za najpoważniejszy zarzut."
+    ru: "Его сочли самым серьёзным обвинением."
+    source: { kind: authored }
+  - form: "najpoważniejszych"
+    pl: "To jeden z najpoważniejszych problemów."
+    ru: "Это одна из самых серьёзных проблем."
+    source: { kind: authored }
+  - form: "najpoważniejszych"
+    pl: "Wśród najpoważniejszych spraw była i ta."
+    ru: "Среди самых серьёзных дел было и это."
+    source: { kind: authored }
+  - form: "najpoważniejszych"
+    pl: "Unikali najpoważniejszych tematów."
+    ru: "Они избегали самых серьёзных тем."
+    source: { kind: authored }
+  - form: "najpoważniejszym"
+    pl: "Najpoważniejszym tonem powtórzył pytanie."
+    ru: "Самым серьёзным тоном он повторил вопрос."
+    source: { kind: authored }
+  - form: "najpoważniejszym"
+    pl: "Przyjrzał się najpoważniejszym sprawom."
+    ru: "Он присмотрелся к самым серьёзным делам."
+    source: { kind: authored }
+  - form: "najpoważniejszym"
+    pl: "Zajął się najpoważniejszym problemem."
+    ru: "Он занялся самой серьёзной проблемой."
+    source: { kind: authored }
+  - form: "najpoważniejszymi"
+    pl: "Zajął się najpoważniejszymi sprawami."
+    ru: "Он занялся самыми серьёзными делами."
+    source: { kind: authored }
+  - form: "najpoważniejszymi"
+    pl: "Między najpoważniejszymi zarzutami a resztą jest przepaść."
+    ru: "Между самыми серьёзными обвинениями и остальными пропасть."
+    source: { kind: authored }
+  - form: "najpoważniejszymi"
+    pl: "Wrócił z najpoważniejszymi zarzutami."
+    ru: "Он вернулся с самыми серьёзными обвинениями."
+    source: { kind: authored }
+  - form: "poważna"
+    pl: "To poważna sprawa."
+    ru: "Это серьёзное дело."
+    source: { kind: translated, id: 8506654 }
+  - form: "poważna"
+    pl: "Jesteś taka poważna."
+    ru: "Ты такая серьёзная."
+    source: { kind: translated, id: 2218853 }
+  - form: "poważna"
+    pl: "Sprawa jest poważna."
+    ru: "Дело серьёзное."
+    source: { kind: translated, id: 8506652 }
+  - form: "poważną"
+    pl: "On jest bardzo poważną osobą."
+    ru: "Он очень серьёзный человек."
+    source: { kind: translated, id: 1183668 }
+  - form: "poważną"
+    pl: "Ona cierpi na poważną chorobę."
+    ru: "Она страдает тяжёлой болезнью."
+    source: { kind: translated, id: 357743 }
+  - form: "poważną"
+    pl: "Wszyscy uważaliśmy sytuację za poważną."
+    ru: "Мы все считали ситуацию серьёзной."
+    source: { kind: translated, id: 709307 }
+  - form: "poważne"
+    pl: "Tom ma poważne kłopoty."
+    ru: "У Тома серьёзные неприятности."
+    source: { kind: tatoeba, id: 3184779 }
+  - form: "poważne"
+    pl: "Czy to poważne?"
+    ru: "Это серьёзно?"
+    source: { kind: translated, id: 349130 }
+  - form: "poważne"
+    pl: "To było poważne."
+    ru: "Это было серьёзно."
+    source: { kind: translated, id: 3430392 }
+  - form: "poważnego"
+    pl: "To nic poważnego."
+    ru: "Это несерьёзно."
+    source: { kind: tatoeba, id: 565978 }
+  - form: "poważnego"
+    pl: "Autostrada była zamknięta z powodu poważnego wypadku."
+    ru: "Автострада была перекрыта из-за серьезной аварии."
+    source: { kind: tatoeba, id: 457421 }
+  - form: "poważnego"
+    pl: "To nie było nic poważnego."
+    ru: "Ничего серьёзного не было."
+    source: { kind: translated, id: 8767822 }
+  - form: "poważnej"
+    pl: "Ona chce poważnej relacji."
+    ru: "Она хочет серьёзных отношений."
+    source: { kind: translated, id: 3835991 }
+  - form: "poważnej"
+    pl: "Nie popełniłeś poważnej zbrodni."
+    ru: "Ты не совершил тяжкого преступления."
+    source: { kind: translated, id: 4467927 }
+  - form: "poważnej"
+    pl: "Nie popełniłaś poważnej zbrodni."
+    ru: "Ты не совершила тяжкого преступления."
+    source: { kind: translated, id: 4467929 }
+  - form: "poważnemu"
+    pl: "Przyjrzał się poważnemu problemowi."
+    ru: "Он присмотрелся к серьёзной проблеме."
+    source: { kind: authored }
+  - form: "poważnemu"
+    pl: "Nie ufa poważnemu tonowi listu."
+    ru: "Он не доверяет серьёзному тону письма."
+    source: { kind: authored }
+  - form: "poważnemu"
+    pl: "Dzięki poważnemu podejściu wszystko się udało."
+    ru: "Благодаря серьёзному подходу всё удалось."
+    source: { kind: authored }
+  - form: "poważni"
+    pl: "Jesteśmy poważni."
+    ru: "Мы серьёзны."
+    source: { kind: translated, id: 3522543 }
+  - form: "poważni"
+    pl: "Bądźcie poważni."
+    ru: "Будьте серьёзны."
+    source: { kind: authored }
+  - form: "poważni"
+    pl: "Ci ludzie są bardzo poważni."
+    ru: "Эти люди очень серьёзные."
+    source: { kind: authored }
+  - form: "poważniejsi"
+    pl: "Starsi uczniowie są poważniejsi."
+    ru: "Старшие ученики серьёзнее."
+    source: { kind: authored }
+  - form: "poważniejsi"
+    pl: "Po tej rozmowie stali się poważniejsi."
+    ru: "После того разговора они стали серьёзнее."
+    source: { kind: authored }
+  - form: "poważniejsi"
+    pl: "Poważniejsi kandydaci odpadli."
+    ru: "Более серьёзные кандидаты отсеялись."
+    source: { kind: authored }
+  - form: "poważniejsza"
+    pl: "Sytuacja międzynarodowa robi się coraz poważniejsza."
+    ru: "Международная обстановка становится всё серьёзнее."
+    source: { kind: translated, id: 751519 }
+  - form: "poważniejsza"
+    pl: "Ta sprawa jest poważniejsza."
+    ru: "Это дело серьёзнее."
+    source: { kind: authored }
+  - form: "poważniejsza"
+    pl: "Choroba okazała się poważniejsza."
+    ru: "Болезнь оказалась серьёзнее."
+    source: { kind: authored }
+  - form: "poważniejszą"
+    pl: "Uznali sprawę za poważniejszą."
+    ru: "Дело сочли более серьёзным."
+    source: { kind: authored }
+  - form: "poważniejszą"
+    pl: "Dostał poważniejszą rolę."
+    ru: "Он получил более серьёзную роль."
+    source: { kind: authored }
+  - form: "poważniejszą"
+    pl: "Ma poważniejszą chorobę, niż sądzono."
+    ru: "У него болезнь серьёзнее, чем думали."
+    source: { kind: authored }
+  - form: "poważniejsze"
+    pl: "To poważniejsze kłopoty."
+    ru: "Это более серьёзные неприятности."
+    source: { kind: authored }
+  - form: "poważniejsze"
+    pl: "Poważniejsze błędy poprawiono najpierw."
+    ru: "Более серьёзные ошибки исправили сначала."
+    source: { kind: authored }
+  - form: "poważniejsze"
+    pl: "Są poważniejsze powody."
+    ru: "Есть более серьёзные причины."
+    source: { kind: authored }
+  - form: "poważniejszego"
+    pl: "Nie stało się nic poważniejszego."
+    ru: "Ничего серьёзнее не случилось."
+    source: { kind: authored }
+  - form: "poważniejszego"
+    pl: "Szukam poważniejszego partnera."
+    ru: "Я ищу более серьёзного партнёра."
+    source: { kind: authored }
+  - form: "poważniejszego"
+    pl: "Nie ma tu nic poważniejszego."
+    ru: "Ничего серьёзнее здесь нет."
+    source: { kind: authored }
+  - form: "poważniejszej"
+    pl: "Nie ma tu poważniejszej sprawy."
+    ru: "Более серьёзного дела здесь нет."
+    source: { kind: authored }
+  - form: "poważniejszej"
+    pl: "Szukali poważniejszej przyczyny."
+    ru: "Они искали более серьёзную причину."
+    source: { kind: authored }
+  - form: "poważniejszej"
+    pl: "Doszło do poważniejszej awarii."
+    ru: "Произошла более серьёзная авария."
+    source: { kind: authored }
+  - form: "poważniejszemu"
+    pl: "Przyjrzał się poważniejszemu problemowi."
+    ru: "Он присмотрелся к более серьёзной проблеме."
+    source: { kind: authored }
+  - form: "poważniejszemu"
+    pl: "Dał pierwszeństwo poważniejszemu zadaniu."
+    ru: "Он отдал предпочтение более серьёзной задаче."
+    source: { kind: authored }
+  - form: "poważniejszemu"
+    pl: "Nie ufa poważniejszemu tonowi."
+    ru: "Он не доверяет более серьёзному тону."
+    source: { kind: authored }
+  - form: "poważniejszy"
+    pl: "Mam o wiele poważniejszy problem."
+    ru: "У меня гораздо более серьёзная проблема."
+    source: { kind: translated, id: 5283703 }
+  - form: "poważniejszy"
+    pl: "Z czasem problem stawał się coraz poważniejszy."
+    ru: "Со временем проблема становилась всё серьёзнее."
+    source: { kind: translated, id: 792353 }
+  - form: "poważniejszy"
+    pl: "Drugi błąd był poważniejszy."
+    ru: "Вторая ошибка была серьёзнее."
+    source: { kind: authored }
+  - form: "poważniejszych"
+    pl: "Nie ma tu poważniejszych problemów."
+    ru: "Более серьёзных проблем здесь нет."
+    source: { kind: authored }
+  - form: "poważniejszych"
+    pl: "Wśród poważniejszych spraw była i ta."
+    ru: "Среди более серьёзных дел было и это."
+    source: { kind: authored }
+  - form: "poważniejszych"
+    pl: "Unikali poważniejszych tematów."
+    ru: "Они избегали более серьёзных тем."
+    source: { kind: authored }
+  - form: "poważniejszym"
+    pl: "Z roku na rok zanieczyszczenie środowiska staje się coraz poważniejszym problemem."
+    ru: "Из года в год загрязнение среды становится всё более серьёзной проблемой."
+    source: { kind: translated, id: 3369235 }
+  - form: "poważniejszym"
+    pl: "W poważniejszym tonie powtórzył pytanie."
+    ru: "Более серьёзным тоном он повторил вопрос."
+    source: { kind: authored }
+  - form: "poważniejszym"
+    pl: "Przyjrzał się poważniejszym sprawom."
+    ru: "Он присмотрелся к более серьёзным делам."
+    source: { kind: authored }
+  - form: "poważniejszymi"
+    pl: "Zajął się poważniejszymi sprawami."
+    ru: "Он занялся более серьёзными делами."
+    source: { kind: authored }
+  - form: "poważniejszymi"
+    pl: "Między poważniejszymi a błahymi problemami jest różnica."
+    ru: "Между более серьёзными и пустяковыми проблемами есть разница."
+    source: { kind: authored }
+  - form: "poważniejszymi"
+    pl: "Wrócił z poważniejszymi zarzutami."
+    ru: "Он вернулся с более серьёзными обвинениями."
+    source: { kind: authored }
+  - form: "poważny"
+    pl: "Mam poważny problem."
+    ru: "У меня большая проблема."
+    source: { kind: tatoeba, id: 352273 }
+  - form: "poważny"
+    pl: "Bądź poważny."
+    ru: "Будь серьёзен."
+    source: { kind: translated, id: 5627110 }
+  - form: "poważny"
+    pl: "To poważny problem."
+    ru: "Это серьёзная проблема."
+    source: { kind: translated, id: 1605911 }
+  - form: "poważnych"
+    pl: "Tom jest w poważnych kłopotach."
+    ru: "У Тома серьёзные неприятности."
+    source: { kind: translated, id: 6598830 }
+  - form: "poważnych"
+    pl: "Jane jest w poważnych kłopotach."
+    ru: "У Джейн серьёзные неприятности."
+    source: { kind: translated, id: 591613 }
+  - form: "poważnych"
+    pl: "Nie żartuj w poważnych sprawach."
+    ru: "Не шути в серьёзных делах."
+    source: { kind: translated, id: 897682 }
+  - form: "poważnym"
+    pl: "Jesteś w poważnym niebezpieczeństwie."
+    ru: "Ты в серьезной опасности."
+    source: { kind: tatoeba, id: 6960332 }
+  - form: "poważnym"
+    pl: "Nigdy nie byłem w poważnym związku."
+    ru: "Я никогда не был в серьёзных отношениях."
+    source: { kind: translated, id: 10768428 }
+  - form: "poważnym"
+    pl: "Ona jest bardzo poważnym człowiekiem."
+    ru: "Она очень серьёзный человек."
+    source: { kind: translated, id: 1183691 }
+  - form: "poważnymi"
+    pl: "Mamy do czynienia z poważnymi problemami w mieście."
+    ru: "Мы имеем дело с серьёзными проблемами в городе."
+    source: { kind: translated, id: 12454026 }
+  - form: "poważnymi"
+    pl: "Rosja zmaga się z poważnymi trudnościami finansowymi."
+    ru: "Россия борется с серьёзными финансовыми трудностями."
+    source: { kind: translated, id: 1571151 }
+  - form: "poważnymi"
+    pl: "Zajął się poważnymi sprawami."
+    ru: "Он занялся серьёзными делами."
+    source: { kind: authored }

@@ -1,0 +1,176 @@
+# review
+id: kontrola
+format: 2
+lemma: "kontrola"
+rank: 711
+pos: noun
+pron: { cyr: "контро́ля" }
+senses:
+  - id: control
+    ru: "контроль, власть над чем-л."
+    examples:
+      - pl: "Stała kontrola jakości naszych produktów jest dla nas bardzo ważna."
+        ru: "Постоянный контроль качества наших продуктов очень важен для нас."
+        source: { kind: tatoeba, id: 11700906 }
+      - pl: "Przejąć kontrolę."
+        ru: "Перехватить контроль."
+        source: { kind: translated, id: 5652095 }
+      - pl: "Tom traci kontrolę."
+        ru: "Том теряет контроль."
+        source: { kind: translated, id: 6598881 }
+  - id: under
+    ru: "pod kontrolą — под контролем"
+    examples:
+      - pl: "Wszystko pod kontrolą."
+        ru: "Всё под контролем."
+        source: { kind: translated, id: 4412566 }
+      - pl: "Mam wszystko pod kontrolą."
+        ru: "У меня всё под контролем."
+        source: { kind: translated, id: 3929675 }
+      - pl: "To się wymyka spod kontroli."
+        ru: "Это выходит из-под контроля."
+        source: { kind: translated, id: 3869229 }
+  - id: check
+    ru: "проверка, досмотр"
+    note: "Значение, которого у русского «контроль» почти нет."
+    examples:
+      - pl: "Bileciki do kontroli!"
+        ru: "Билетики на проверку!"
+        source: { kind: translated, id: 6113082 }
+      - pl: "Byłem u dentysty na kontroli zębów."
+        ru: "Я был у дантиста на осмотре зубов."
+        source: { kind: translated, id: 770332 }
+      - pl: "Kontrola biletów trwała chwilę."
+        ru: "Проверка билетов заняла минуту."
+        source: { kind: authored }
+  - id: lose
+    ru: "stracić kontrolę — потерять контроль"
+    examples:
+      - pl: "Straciłam kontrolę."
+        ru: "Я потеряла контроль."
+        source: { kind: translated, id: 10627014 }
+      - pl: "Mamy wszystko pod kontrolą."
+        ru: "У нас всё под контролем."
+        source: { kind: translated, id: 2256164 }
+      - pl: "Stracił kontrolę nad samochodem."
+        ru: "Он потерял контроль над машиной."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Род не совпадает с русским: польское kontrola — женского рода, русский «контроль» — мужского. Поэтому ta kontrola, pod kontrolą, kontrola jakości." }
+  - { kind: usage, text: "У слова есть второе значение, которого русский «контроль» почти не знает, — «проверка, досмотр»: kontrola biletów «проверка билетов», kontrola graniczna «пограничный контроль». Bileciki do kontroli! — то, что слышишь в польском трамвае." }
+  - { kind: government, text: "pod kontrolą — творительный падеж; wymykać się spod kontroli — родительный; kontrola nad czymś — творительный: kontrola nad sytuacją." }
+  - { kind: usage, text: "Опорные глаголы: przejąć kontrolę «взять контроль», stracić kontrolę «потерять контроль», mieć coś pod kontrolą «держать под контролем»." }
+collocations:
+  - { pl: "pod kontrolą", ru: "под контролем" }
+  - { pl: "kontrola jakości", ru: "контроль качества" }
+  - { pl: "kontrola graniczna", ru: "пограничный контроль" }
+  - { pl: "stracić kontrolę", ru: "потерять контроль" }
+family:
+  - { pl: "kontrolować", ru: "контролировать", relation: derived }
+  - { pl: "kontroler", ru: "контролёр", relation: derived }
+  - { pl: "kontrolny", ru: "контрольный", relation: derived }
+etymology: "Через французское contrôle (от contre-rôle «встречный список») — то же заимствование, что русский «контроль», но в польском слово стало женского рода."
+memory: "kontrola — «контроль», но женского рода, в отличие от русского: ta kontrola, pod kontrolą, kontrola jakości. И у слова есть второе значение, которого русский «контроль» почти не знает, — «проверка»: kontrola biletów, kontrola graniczna. Bileciki do kontroli! — это то, что слышишь в польском трамвае."
+idioms:
+  - { pl: "mieć wszystko pod kontrolą", ru: "держать всё под контролем" }
+  - { pl: "wymykać się spod kontroli", ru: "выходить из-под контроля" }
+  - { pl: "bileciki do kontroli", ru: "билетики на проверку" }
+formExamplesSkip:
+  - { form: "kontrolo", reason: "звательный падеж у неодушевлённого отвлечённого существительного не употребляется" }
+formExamples:
+  - form: "kontrola"
+    pl: "Stała kontrola jakości naszych produktów jest dla nas bardzo ważna."
+    ru: "Постоянный контроль качества наших продуктов очень важен для нас."
+    source: { kind: tatoeba, id: 11700906 }
+  - form: "kontrola"
+    pl: "Kontrola biletów trwała chwilę."
+    ru: "Проверка билетов заняла минуту."
+    source: { kind: authored }
+  - form: "kontrola"
+    pl: "Kontrola graniczna zajęła godzinę."
+    ru: "Пограничный контроль занял час."
+    source: { kind: authored }
+  - form: "kontrolach"
+    pl: "Mówili o kontrolach na granicy."
+    ru: "Они говорили о проверках на границе."
+    source: { kind: authored }
+  - form: "kontrolach"
+    pl: "W tych kontrolach nie ma nic nowego."
+    ru: "В этих проверках нет ничего нового."
+    source: { kind: authored }
+  - form: "kontrolach"
+    pl: "W obu kontrolach nic nie znaleziono."
+    ru: "В обеих проверках ничего не нашли."
+    source: { kind: authored }
+  - form: "kontrolami"
+    pl: "Zajmuje się kontrolami jakości."
+    ru: "Он занимается проверками качества."
+    source: { kind: authored }
+  - form: "kontrolami"
+    pl: "Między kontrolami mija rok."
+    ru: "Между проверками проходит год."
+    source: { kind: authored }
+  - form: "kontrolami"
+    pl: "Kieruje kontrolami w firmie."
+    ru: "Он руководит проверками в фирме."
+    source: { kind: authored }
+  - form: "kontrolą"
+    pl: "Wszystko pod kontrolą."
+    ru: "Всё под контролем."
+    source: { kind: translated, id: 4412566 }
+  - form: "kontrolą"
+    pl: "Mam wszystko pod kontrolą."
+    ru: "У меня всё под контролем."
+    source: { kind: translated, id: 3929675 }
+  - form: "kontrolą"
+    pl: "Mamy wszystko pod kontrolą."
+    ru: "У нас всё под контролем."
+    source: { kind: translated, id: 2256164 }
+  - form: "kontrole"
+    pl: "Kontrole graniczne przywrócono."
+    ru: "Пограничный контроль вернули."
+    source: { kind: authored }
+  - form: "kontrole"
+    pl: "Kontrole biletów są tu częste."
+    ru: "Проверки билетов здесь частые."
+    source: { kind: authored }
+  - form: "kontrole"
+    pl: "Przeprowadzają kontrole co miesiąc."
+    ru: "Они проводят проверки каждый месяц."
+    source: { kind: authored }
+  - form: "kontrolę"
+    pl: "Przejąć kontrolę."
+    ru: "Перехватить контроль."
+    source: { kind: translated, id: 5652095 }
+  - form: "kontrolę"
+    pl: "Straciłam kontrolę."
+    ru: "Я потеряла контроль."
+    source: { kind: translated, id: 10627014 }
+  - form: "kontrolę"
+    pl: "Tom traci kontrolę."
+    ru: "Том теряет контроль."
+    source: { kind: translated, id: 6598881 }
+  - form: "kontroli"
+    pl: "Bileciki do kontroli!"
+    ru: "Билетики на проверку!"
+    source: { kind: translated, id: 6113082 }
+  - form: "kontroli"
+    pl: "To się wymyka spod kontroli."
+    ru: "Это выходит из-под контроля."
+    source: { kind: translated, id: 3869229 }
+  - form: "kontroli"
+    pl: "Byłem u dentysty na kontroli zębów."
+    ru: "Я был у дантиста на осмотре зубов."
+    source: { kind: translated, id: 770332 }
+  - form: "kontrolom"
+    pl: "Przyjrzał się kontrolom jakości."
+    ru: "Он присмотрелся к проверкам качества."
+    source: { kind: authored }
+  - form: "kontrolom"
+    pl: "Dzięki kontrolom wykryto usterkę."
+    ru: "Благодаря проверкам обнаружили неисправность."
+    source: { kind: authored }
+  - form: "kontrolom"
+    pl: "Nie ufa takim kontrolom."
+    ru: "Он не доверяет таким проверкам."
+    source: { kind: authored }

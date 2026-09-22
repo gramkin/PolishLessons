@@ -1,0 +1,186 @@
+# review
+id: budynek
+format: 2
+lemma: "budynek"
+rank: 710
+pos: noun
+pron: { cyr: "буды́нэк" }
+senses:
+  - id: building
+    ru: "здание, постройка"
+    examples:
+      - pl: "Co to za budynek?"
+        ru: "Что это за здание?"
+        source: { kind: translated, id: 362818 }
+      - pl: "Znalazłem ten budynek."
+        ru: "Я нашёл это здание."
+        source: { kind: translated, id: 361005 }
+      - pl: "Opuśćmy budynek."
+        ru: "Давайте покинем здание."
+        source: { kind: translated, id: 6603200 }
+  - id: inside
+    ru: "w budynku — в здании"
+    examples:
+      - pl: "W budynku są kamery."
+        ru: "В здании есть камеры."
+        source: { kind: tatoeba, id: 6773379 }
+      - pl: "Czy w tym budynku wolno fotografować?"
+        ru: "В этом здании можно фотографировать?"
+        source: { kind: tatoeba, id: 1083975 }
+      - pl: "Widok ze szczytu tego budynku był wspaniały."
+        ru: "Вид с вершины этого здания был великолепным."
+        source: { kind: tatoeba, id: 1685315 }
+  - id: plural
+    ru: "здания, корпуса"
+    examples:
+      - pl: "Te budynki mają 500 lat."
+        ru: "Этим зданиям пятьсот лет."
+        source: { kind: translated, id: 367173 }
+      - pl: "Budynki mają kilka pięter."
+        ru: "В зданиях по нескольку этажей."
+        source: { kind: translated, id: 5900484 }
+      - pl: "W Nowym Yorku jest mnóstwo wysokich budynków."
+        ru: "В Нью-Йорке множество высоких зданий."
+        source: { kind: translated, id: 1366405 }
+  - id: outside
+    ru: "przed budynkiem — перед зданием"
+    note: "После przed и za — творительный падеж."
+    examples:
+      - pl: "Przed budynkiem stoi samochód."
+        ru: "Перед зданием стоит машина."
+        source: { kind: translated, id: 789049 }
+      - pl: "Tom zaparkował przed budynkiem."
+        ru: "Том припарковался перед зданием."
+        source: { kind: translated, id: 6473398 }
+      - pl: "Zaparkował samochód za budynkiem."
+        ru: "Он припарковал машину за зданием."
+        source: { kind: translated, id: 959730 }
+notes:
+  - { kind: usage, text: "Беглое e: оно есть только в именительном budynek, а во всех остальных формах выпадает — w budynku, przed budynkiem, pięć budynków. Русское «замок — замка» устроено так же." }
+  - { kind: usage, text: "budynek — постройка вообще, о доме как о жилье говорят dom. Konkretne здания имеют свои слова: dworzec «вокзал», szpital «больница»." }
+  - { kind: government, text: "przed budynkiem и za budynkiem требуют творительного, w budynku — предложного." }
+  - { kind: usage, text: "Родня прозрачная: budować «строить», budowa «стройка», budowla «сооружение»." }
+collocations:
+  - { pl: "w budynku", ru: "в здании" }
+  - { pl: "przed budynkiem", ru: "перед зданием" }
+  - { pl: "budynek mieszkalny", ru: "жилой дом" }
+  - { pl: "opuścić budynek", ru: "покинуть здание" }
+family:
+  - { pl: "budować", ru: "строить", relation: root }
+  - { pl: "budowa", ru: "стройка", relation: derived }
+  - { pl: "budowla", ru: "сооружение", relation: derived }
+etymology: "От budować «строить», а сам корень пришёл через средневерхненемецкое büding «постройка»."
+memory: "budynek — «здание», от budować «строить». Главное в склонении — беглое e: оно живёт только в именительном. Budynek, но w budynku, przed budynkiem, pięć budynków — ровно как русское «замок — замка». И не путайте с dom: budynek — постройка вообще, dom — дом как жильё."
+idioms:
+  - { pl: "opuścić budynek", ru: "покинуть здание" }
+  - { pl: "budynek mieszkalny", ru: "жилой дом" }
+  - { pl: "przed budynkiem", ru: "перед зданием" }
+formExamples:
+  - form: "budynek"
+    pl: "Opuśćmy budynek."
+    ru: "Давайте покинем здание."
+    source: { kind: translated, id: 6603200 }
+  - form: "budynek"
+    pl: "Co to za budynek?"
+    ru: "Что это за здание?"
+    source: { kind: translated, id: 362818 }
+  - form: "budynek"
+    pl: "Znalazłem ten budynek."
+    ru: "Я нашёл это здание."
+    source: { kind: translated, id: 361005 }
+  - form: "budynkach"
+    pl: "W pięciopiętrowych budynkach nie ma windy."
+    ru: "В пятиэтажках нет лифтов."
+    source: { kind: tatoeba, id: 3655768 }
+  - form: "budynkach"
+    pl: "W tych budynkach mieszka sto rodzin."
+    ru: "В этих зданиях живёт сто семей."
+    source: { kind: authored }
+  - form: "budynkach"
+    pl: "W obu budynkach są windy."
+    ru: "В обоих зданиях есть лифты."
+    source: { kind: authored }
+  - form: "budynkami"
+    pl: "Między budynkami jest wąska uliczka."
+    ru: "Между зданиями узкая улочка."
+    source: { kind: authored }
+  - form: "budynkami"
+    pl: "Zajmuje się starymi budynkami."
+    ru: "Он занимается старыми зданиями."
+    source: { kind: authored }
+  - form: "budynkami"
+    pl: "Przeszli między budynkami na podwórze."
+    ru: "Они прошли между зданиями во двор."
+    source: { kind: authored }
+  - form: "budynki"
+    pl: "Te budynki mają 500 lat."
+    ru: "Этим зданиям пятьсот лет."
+    source: { kind: translated, id: 367173 }
+  - form: "budynki"
+    pl: "Oba budynki się spaliły."
+    ru: "Оба здания сгорели."
+    source: { kind: translated, id: 6672550 }
+  - form: "budynki"
+    pl: "Budynki mają kilka pięter."
+    ru: "В зданиях по нескольку этажей."
+    source: { kind: translated, id: 5900484 }
+  - form: "budynkiem"
+    pl: "Przed budynkiem stoi samochód."
+    ru: "Перед зданием стоит машина."
+    source: { kind: translated, id: 789049 }
+  - form: "budynkiem"
+    pl: "Tom zaparkował przed budynkiem."
+    ru: "Том припарковался перед зданием."
+    source: { kind: translated, id: 6473398 }
+  - form: "budynkiem"
+    pl: "Zaparkował samochód za budynkiem."
+    ru: "Он припарковал машину за зданием."
+    source: { kind: translated, id: 959730 }
+  - form: "budynkom"
+    pl: "Przyjrzał się tym budynkom uważnie."
+    ru: "Он внимательно присмотрелся к этим зданиям."
+    source: { kind: authored }
+  - form: "budynkom"
+    pl: "Dzięki nowym budynkom dzielnica ożyła."
+    ru: "Благодаря новым зданиям район ожил."
+    source: { kind: authored }
+  - form: "budynkom"
+    pl: "Nie ufa starym budynkom bez remontu."
+    ru: "Он не доверяет старым зданиям без ремонта."
+    source: { kind: authored }
+  - form: "budynkowi"
+    pl: "Przyjrzał się budynkowi z bliska."
+    ru: "Он рассмотрел здание вблизи."
+    source: { kind: authored }
+  - form: "budynkowi"
+    pl: "Nowemu budynkowi brakuje windy."
+    ru: "Новому зданию не хватает лифта."
+    source: { kind: authored }
+  - form: "budynkowi"
+    pl: "Staremu budynkowi grozi rozbiórka."
+    ru: "Старому зданию грозит снос."
+    source: { kind: authored }
+  - form: "budynków"
+    pl: "W Nowym Yorku jest mnóstwo wysokich budynków."
+    ru: "В Нью-Йорке множество высоких зданий."
+    source: { kind: translated, id: 1366405 }
+  - form: "budynków"
+    pl: "W Kioto jest sporo słynnych starych budynków."
+    ru: "В Киото немало знаменитых старых зданий."
+    source: { kind: translated, id: 3127322 }
+  - form: "budynków"
+    pl: "To jest jeden z najstarszych budynków w Australii."
+    ru: "Это одно из старейших зданий в Австралии."
+    source: { kind: translated, id: 8524981 }
+  - form: "budynku"
+    pl: "W budynku są kamery."
+    ru: "В здании есть камеры."
+    source: { kind: tatoeba, id: 6773379 }
+  - form: "budynku"
+    pl: "Czy w tym budynku wolno fotografować?"
+    ru: "В этом здании можно фотографировать?"
+    source: { kind: tatoeba, id: 1083975 }
+  - form: "budynku"
+    pl: "Widok ze szczytu tego budynku był wspaniały."
+    ru: "Вид с вершины этого здания был великолепным."
+    source: { kind: tatoeba, id: 1685315 }

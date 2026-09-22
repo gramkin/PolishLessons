@@ -1,0 +1,164 @@
+# review
+id: szesc
+format: 2
+lemma: "sześć"
+rank: 706
+pos: num
+pron: { cyr: "шэсьць" }
+senses:
+  - id: six
+    ru: "шесть (обычный счёт)"
+    examples:
+      - pl: "Jest ich sześć osób."
+        ru: "Их шестеро."
+        source: { kind: tatoeba, id: 357111 }
+      - pl: "Owady mają sześć nóg."
+        ru: "У насекомых шесть ног."
+        source: { kind: tatoeba, id: 12698365 }
+      - pl: "Bóg stworzył świat w sześć dni."
+        ru: "Бог сотворил мир за шесть дней."
+        source: { kind: tatoeba, id: 513481 }
+  - id: virile
+    ru: "sześciu — шесть, когда среди считаемых есть мужчины"
+    note: "Мужско-личная форма числительного."
+    examples:
+      - pl: "Przeszliśmy około sześciu kilometrów."
+        ru: "Мы прошли пешком около шести километров."
+        source: { kind: tatoeba, id: 722344 }
+      - pl: "Monarcha miał sześciu synów."
+        ru: "У монарха было шесть сыновей."
+        source: { kind: translated, id: 3996380 }
+      - pl: "Mieszkam w Salwadorze od sześciu lat."
+        ru: "Я живу в Сальвадоре шесть лет."
+        source: { kind: translated, id: 715003 }
+  - id: collective
+    ru: "sześcioro — шестеро (дети, смешанные группы)"
+    examples:
+      - pl: "Na kolacji mieliśmy sześcioro gości."
+        ru: "На ужине у нас было шестеро гостей."
+        source: { kind: translated, id: 365107 }
+      - pl: "W ten weekend sześcioro z nas jedzie na wycieczkę na plażę."
+        ru: "В эти выходные шестеро из нас едут на пляж."
+        source: { kind: translated, id: 352843 }
+      - pl: "Mają sześcioro dzieci."
+        ru: "У них шестеро детей."
+        source: { kind: authored }
+  - id: instrumental
+    ru: "sześcioma — шестью"
+    examples:
+      - pl: "Tom kupił dom z sześcioma pokojami."
+        ru: "Том купил дом с шестью комнатами."
+        source: { kind: tatoeba, id: 3622620 }
+      - pl: "Chwali się, że mówi sześcioma językami."
+        ru: "Он хвастается, что говорит на шести языках."
+        source: { kind: translated, id: 364151 }
+      - pl: "Przyszedł z sześcioma przyjaciółmi."
+        ru: "Он пришёл с шестью друзьями."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Главная трудность не в самом слове, а в выборе формы. sześć — обычный счёт: sześć dni, sześć książek. sześciu — если среди считаемых есть хоть один мужчина: sześciu synów, sześciu studentów. sześcioro — собирательное: дети и смешанные группы, sześcioro dzieci, sześcioro gości." }
+  - { kind: government, text: "После sześć идёт родительный множественного, а сказуемое стоит в среднем роде единственного числа: Było sześć osób «Было шесть человек»." }
+  - { kind: usage, text: "Собирательное sześcioro склоняется через суффикс -org-: sześcioro, sześciorga, sześciorgu, sześciorgiem. Эта модель общая для всех собирательных: dwoje, troje, czworo." }
+  - { kind: usage, text: "pal sześć — «чёрт с ним, наплевать», ходовое разговорное выражение." }
+collocations:
+  - { pl: "sześć dni", ru: "шесть дней" }
+  - { pl: "sześciu synów", ru: "шестеро сыновей" }
+  - { pl: "sześcioro dzieci", ru: "шестеро детей" }
+  - { pl: "pal sześć", ru: "чёрт с ним" }
+family:
+  - { pl: "szósty", ru: "шестой", relation: derived }
+  - { pl: "sześćdziesiąt", ru: "шестьдесят", relation: derived }
+  - { pl: "sześcian", ru: "куб", relation: derived }
+etymology: "Праславянское *šestь — то же самое слово, что русское «шесть»."
+memory: "Само слово узнаётся сразу: sześć — «шесть». Трудность в другом: у поляка на один счёт три формы. sześć — обычный счёт (sześć dni). sześciu — если среди считаемых есть мужчины (sześciu synów). sześcioro — собирательное, для детей и смешанных групп (sześcioro dzieci), и склоняется оно через -org-: sześciorga, sześciorgu, sześciorgiem."
+idioms:
+  - { pl: "pal sześć", ru: "чёрт с ним" }
+  - { pl: "gdzie kucharek sześć, tam nie ma co jeść", ru: "у семи нянек дитя без глазу" }
+  - { pl: "sześcioro dzieci", ru: "шестеро детей" }
+formExamplesSkip:
+  - { form: "sześcio", reason: "не самостоятельное слово, а связанная основа сложных слов: sześciolatek, sześciopak" }
+formExamples:
+  - form: "sześcioma"
+    pl: "Tom kupił dom z sześcioma pokojami."
+    ru: "Том купил дом с шестью комнатами."
+    source: { kind: tatoeba, id: 3622620 }
+  - form: "sześcioma"
+    pl: "Chwali się, że mówi sześcioma językami."
+    ru: "Он хвастается, что говорит на шести языках."
+    source: { kind: translated, id: 364151 }
+  - form: "sześcioma"
+    pl: "Przyszedł z sześcioma przyjaciółmi."
+    ru: "Он пришёл с шестью друзьями."
+    source: { kind: authored }
+  - form: "sześciorga"
+    pl: "Jest matką sześciorga dzieci."
+    ru: "Она мать шестерых детей."
+    source: { kind: authored }
+  - form: "sześciorga"
+    pl: "Nie ma tu sześciorga chętnych."
+    ru: "Шестерых желающих здесь нет."
+    source: { kind: authored }
+  - form: "sześciorga"
+    pl: "Dotyczy to sześciorga uczniów."
+    ru: "Это касается шестерых учеников."
+    source: { kind: authored }
+  - form: "sześciorgiem"
+    pl: "Przyszła z sześciorgiem dzieci."
+    ru: "Она пришла с шестью детьми."
+    source: { kind: authored }
+  - form: "sześciorgiem"
+    pl: "Opiekuje się sześciorgiem dzieci."
+    ru: "Она заботится о шестерых детях."
+    source: { kind: authored }
+  - form: "sześciorgiem"
+    pl: "Rozmawiał z sześciorgiem świadków."
+    ru: "Он говорил с шестью свидетелями."
+    source: { kind: authored }
+  - form: "sześciorgu"
+    pl: "Pomógł sześciorgu dzieciom."
+    ru: "Он помог шестерым детям."
+    source: { kind: authored }
+  - form: "sześciorgu"
+    pl: "Mówił o sześciorgu rodzeństwa."
+    ru: "Он говорил о шестерых братьях и сёстрах."
+    source: { kind: authored }
+  - form: "sześciorgu"
+    pl: "Przyjrzał się sześciorgu kandydatom."
+    ru: "Он присмотрелся к шестерым кандидатам."
+    source: { kind: authored }
+  - form: "sześcioro"
+    pl: "Na kolacji mieliśmy sześcioro gości."
+    ru: "На ужине у нас было шестеро гостей."
+    source: { kind: translated, id: 365107 }
+  - form: "sześcioro"
+    pl: "W ten weekend sześcioro z nas jedzie na wycieczkę na plażę."
+    ru: "В эти выходные шестеро из нас едут на пляж."
+    source: { kind: translated, id: 352843 }
+  - form: "sześcioro"
+    pl: "Mają sześcioro dzieci."
+    ru: "У них шестеро детей."
+    source: { kind: authored }
+  - form: "sześciu"
+    pl: "Przeszliśmy około sześciu kilometrów."
+    ru: "Мы прошли пешком около шести километров."
+    source: { kind: tatoeba, id: 722344 }
+  - form: "sześciu"
+    pl: "Monarcha miał sześciu synów."
+    ru: "У монарха было шесть сыновей."
+    source: { kind: translated, id: 3996380 }
+  - form: "sześciu"
+    pl: "Mieszkam w Salwadorze od sześciu lat."
+    ru: "Я живу в Сальвадоре шесть лет."
+    source: { kind: translated, id: 715003 }
+  - form: "sześć"
+    pl: "Jest ich sześć osób."
+    ru: "Их шестеро."
+    source: { kind: tatoeba, id: 357111 }
+  - form: "sześć"
+    pl: "Owady mają sześć nóg."
+    ru: "У насекомых шесть ног."
+    source: { kind: tatoeba, id: 12698365 }
+  - form: "sześć"
+    pl: "Bóg stworzył świat w sześć dni."
+    ru: "Бог сотворил мир за шесть дней."
+    source: { kind: tatoeba, id: 513481 }
