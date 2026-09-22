@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **314** |
-| В очереди       | **535** |
+| Карточка готова | **318** |
+| В очереди       | **531** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -327,7 +327,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [dzisiaj](/slovo/dzisiaj), `zdarzyć`, [się](/slovo/sie), `okoliczność`, [niezwykły](/slovo/niezwykly)</sub>
 - żyć — ✅ [żyć](/slovo/zyc) · verb
 - **Dwa tygodnie już minęło od jego ucieczki, a dotychczas nikt go nie widział i nikt o nim nie słyszał**  
-  <sub>слова: [dwa](/slovo/dwa), [tydzień](/slovo/tydzien), [już](/slovo/juz), `minąć`, [od](/slovo/od), [on](/slovo/on), `ucieczka`, [a](/slovo/a), [dotychczas](/slovo/dotychczas), [nikt](/slovo/nikt), [nie](/slovo/nie), [widzieć](/slovo/widziec), [i](/slovo/i), [o](/slovo/o), [słyszeć](/slovo/slyszec)</sub>
+  <sub>слова: [dwa](/slovo/dwa), [tydzień](/slovo/tydzien), [już](/slovo/juz), [minąć](/slovo/minac), [od](/slovo/od), [on](/slovo/on), `ucieczka`, [a](/slovo/a), [dotychczas](/slovo/dotychczas), [nikt](/slovo/nikt), [nie](/slovo/nie), [widzieć](/slovo/widziec), [i](/slovo/i), [o](/slovo/o), [słyszeć](/slovo/slyszec)</sub>
 - pozywienia — ⛔ не распознано
 - nabierać — 🟡 `nabierać` · verb · rank 2152
 - **Nabierać otuchy (приободриться)**  
@@ -453,7 +453,7 @@ pnpm dict:status && pnpm generate
 - **wspiąłem się**  
   <sub>слова: `wspiąć`, [się](/slovo/sie)</sub>
 - **Ukrywszy się za skałą**  
-  <sub>слова: `ukryć`, [się](/slovo/sie), [za](/slovo/za), [skała](/slovo/skala)</sub>
+  <sub>слова: [ukryć](/slovo/ukryc), [się](/slovo/sie), [za](/slovo/za), [skała](/slovo/skala)</sub>
 - **A więc to była schadzka umówiona**  
   <sub>слова: [a](/slovo/a), [więc](/slovo/wiec), [to](/slovo/to), `była`, [schadzka](/slovo/schadzka), `umówić`</sub>
 - Wstrętnym — 🟡 `wstrętny` · adj · rank 2236
@@ -580,7 +580,7 @@ pnpm dict:status && pnpm generate
 - zajście — 🟡 `zajście` · noun · rank 2336
 - zmierzał — 🟡 `zmierzać` · verb · rank 1498
 - **każdy w kłopocie udawał się do niego**  
-  <sub>слова: [każdy](/slovo/kazdy), [w](/slovo/w), [kłopot](/slovo/klopot), `udawać`, [się](/slovo/sie), [do](/slovo/do), [on](/slovo/on)</sub>
+  <sub>слова: [każdy](/slovo/kazdy), [w](/slovo/w), [kłopot](/slovo/klopot), [udawać](/slovo/udawac), [się](/slovo/sie), [do](/slovo/do), [on](/slovo/on)</sub>
 - zauważyłem — ✅ [zauważyć](/slovo/zauwazyc) · verb
 - nietknięty — 🟡 `nietknięty` · adj · rank 2337
 - **otóż moja żona znalazła w popiele z kominka niedopalony szczątek listu**  
@@ -603,7 +603,7 @@ pnpm dict:status && pnpm generate
 - **Wątpię, czy doktor zobaczy jeszcze swego ulubieńca**  
   <sub>слова: `wątpić`, [czy](/slovo/czy), [doktor](/slovo/doktor), [zobaczyć](/slovo/zobaczyc), [jeszcze](/slovo/jeszcze), [swój](/slovo/swoj), `ulubieniec`</sub>
 - **— Zdaje mi się — odparł**  
-  <sub>слова: `zdawać`, [się](/slovo/sie), `odeprzeć`</sub>
+  <sub>слова: [zdawać](/slovo/zdawac), [się](/slovo/sie), `odeprzeć`</sub>
 - **Ojciec wyparł jej się**  
   <sub>слова: [ojciec](/slovo/ojciec), `wyprzeć`, [on](/slovo/on), [się](/slovo/sie)</sub>
 - **Biedna kobieta ma ciężkie życie**  
@@ -665,7 +665,7 @@ pnpm dict:status && pnpm generate
 - **— Bez wątpienia — odparłem — ale skąd pan wie, że on kryje się na bagnie?**  
   <sub>слова: [bez](/slovo/bez), `wątpić`, `odeprzeć`, [ale](/slovo/ale), [skąd](/slovo/skad), [pan](/slovo/pan), [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [on](/slovo/on), `kryć`, [się](/slovo/sie), [na](/slovo/na), [bagno](/slovo/bagno)</sub>
 - **Udawałem, że ta wiadomość jest mi zupełnie obojętna**  
-  <sub>слова: `udawać`, [że](/slovo/ze), [ten](/slovo/ten), [wiadomość](/slovo/wiadomosc), [być](/slovo/byc), [zupełnie](/slovo/zupelnie), `obojętny`</sub>
+  <sub>слова: [udawać](/slovo/udawac), [że](/slovo/ze), [ten](/slovo/ten), [wiadomość](/slovo/wiadomosc), [być](/slovo/byc), [zupełnie](/slovo/zupelnie), `obojętny`</sub>
 - **Jeżeli potrafię wydobyć z niego więcej faktów, oszczędzi mi to czasu i trudu**  
   <sub>слова: [jeżeli](/slovo/jezeli), [potrafić](/slovo/potrafic), `wydobyć`, [z](/slovo/z), [on](/slovo/on), [więcej](/slovo/wiecej), [fakt](/slovo/fakt), `oszczędzić`, [to](/slovo/to), [czas](/slovo/czas), [i](/slovo/i), `trud`</sub>
 - **— Więc pan wątpi?**  
@@ -695,7 +695,7 @@ pnpm dict:status && pnpm generate
 - **— Tak, wtedy cię ujrzałem**  
   <sub>слова: [tak](/slovo/tak), [wtedy](/slovo/wtedy), [ty](/slovo/ty), `ujrzeć`</sub>
 - **— Więc posługujesz się mną, a jednak mi nie ufasz… — zawołałem z goryczą. — Zdaje mi się, że zasłużyłem na zaufanie**  
-  <sub>слова: [więc](/slovo/wiec), `posługiwać`, [się](/slovo/sie), [ja](/slovo/ja), [a](/slovo/a), [jednak](/slovo/jednak), [nie](/slovo/nie), [ufać](/slovo/ufac), `zawołać`, [z](/slovo/z), `gorycz`, `zdawać`, [że](/slovo/ze), `zasłużyć`, [na](/slovo/na), `zaufanie`</sub>
+  <sub>слова: [więc](/slovo/wiec), `posługiwać`, [się](/slovo/sie), [ja](/slovo/ja), [a](/slovo/a), [jednak](/slovo/jednak), [nie](/slovo/nie), [ufać](/slovo/ufac), `zawołać`, [z](/slovo/z), `gorycz`, [zdawać](/slovo/zdawac), [że](/slovo/ze), `zasłużyć`, [na](/slovo/na), `zaufanie`</sub>
 - **zniechęcić się**  
   <sub>слова: `zniechęcić`, [się](/slovo/sie)</sub>
 - **Nie zniechęcaj się!**  
