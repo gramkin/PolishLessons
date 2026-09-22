@@ -1,0 +1,827 @@
+# review
+id: nosic
+format: 2
+lemma: "nosić"
+rank: 616
+pos: verb
+aspect: imperf
+pron: { cyr: "но́сиць" }
+senses:
+  - id: wear
+    ru: "носить (одежду, очки) — постоянно, вообще"
+    note: "О том, что надето сейчас, говорят mieć na sobie."
+    examples:
+      - pl: "On nosi okulary."
+        ru: "Он носит очки."
+        source: { kind: tatoeba, id: 351350 }
+      - pl: "On nosi wełniany sweter."
+        ru: "Он носит шерстяной свитер."
+        source: { kind: tatoeba, id: 7969903 }
+      - pl: "Nie noszę już okularów."
+        ru: "Я больше не ношу очки."
+        source: { kind: tatoeba, id: 351914 }
+  - id: carry
+    ru: "носить (многократно, в разные стороны)"
+    note: "Парный к nieść «нести» — ровно как русская пара «носить / нести»."
+    examples:
+      - pl: "Najbezpieczniej jest nosić szelki."
+        ru: "Безопаснее всего носить подтяжки."
+        source: { kind: translated, id: 1366409 }
+      - pl: "Zimą noś ciepłe ubrania."
+        ru: "Зимой носи тёплую одежду."
+        source: { kind: translated, id: 827728 }
+      - pl: "Jesteśmy przyzwyczajeni do noszenia butów."
+        ru: "Мы привыкли носить обувь."
+        source: { kind: translated, id: 13342306 }
+  - id: bear-name
+    ru: "nosić imię, nazwisko — носить имя, фамилию"
+    note: "Ulica nosi imię poety «Улица носит имя поэта»."
+    examples:
+      - pl: "Most nosi imię króla."
+        ru: "Мост носит имя короля."
+        source: { kind: authored }
+      - pl: "Wnuczka nosi imię babki."
+        ru: "Внучка носит имя бабушки."
+        source: { kind: authored }
+      - pl: "Miasto nosiło wtedy inną nazwę."
+        ru: "Город носил тогда другое название."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "nosić — многократный глагол, парный к nieść «нести», и различаются они ровно как в русском: niosę książkę «несу книгу» (сейчас, в одну сторону), noszę okulary «ношу очки» (вообще, постоянно)." }
+  - { kind: government, text: "Прямое дополнение в винительном: nosi okulary, nosi garnitur. При отрицании — родительный: nie noszę okularów «я не ношу очков»." }
+  - { kind: false-friend, text: "On nosi okulary значит «он носит очки вообще». Если очки на нём прямо сейчас, поляк скажет ma na sobie или po prostu ma okulary — nosić для одного момента не годится." }
+  - { kind: usage, text: "Причастия живые и частотные: noszący okulary «носящий очки», sukienka noszona w Bawarii «платье, которое носят в Баварии», noszone ubrania «ношеная одежда»." }
+  - { kind: usage, text: "Отглагольное существительное — noszenie: przyzwyczajony do noszenia butów «привыкший носить обувь»." }
+collocations:
+  - { pl: "nosić okulary", ru: "носить очки" }
+  - { pl: "nosić mundurek", ru: "носить школьную форму" }
+  - { pl: "nosić imię", ru: "носить имя" }
+  - { pl: "nosić na rękach", ru: "носить на руках" }
+family:
+  - { pl: "nieść", ru: "нести", relation: root }
+  - { pl: "noszenie", ru: "ношение", relation: derived }
+  - { pl: "nosiciel", ru: "носитель", relation: derived }
+  - { pl: "przynosić", ru: "приносить", relation: derived }
+etymology: "Праславянское *nositi — то же слово, что русское «носить». Пара nosić / nieść в точности повторяет русскую пару «носить / нести»."
+memory: "nosić — «носить», и пара у него та же, что в русском: nosić относится к nieść ровно как «носить» к «нести». Niosę książkę — несу прямо сейчас, в одну сторону; noszę okulary — ношу вообще, постоянно. Об одежде держите в голове ещё одну границу: On nosi okulary значит «носит вообще», а про то, что на нём в эту минуту, поляк скажет ma na sobie. И отрицание тянет родительный: nie noszę okularów."
+idioms:
+  - { pl: "nosić okulary", ru: "носить очки" }
+  - { pl: "nosić na rękach", ru: "носить на руках" }
+  - { pl: "nosić imię", ru: "носить имя" }
+formExamples:
+  - form: "nosi"
+    pl: "On nosi okulary."
+    ru: "Он носит очки."
+    source: { kind: tatoeba, id: 351350 }
+  - form: "nosi"
+    pl: "On nosi rękawiczki"
+    ru: "Он носит перчатки."
+    source: { kind: tatoeba, id: 10747865 }
+  - form: "nosi"
+    pl: "On nosi wełniany sweter."
+    ru: "Он носит шерстяной свитер."
+    source: { kind: tatoeba, id: 7969903 }
+  - form: "nosicie"
+    pl: "Jakie rozmiary nosicie?"
+    ru: "Какие размеры вы носите?"
+    source: { kind: authored }
+  - form: "nosicie"
+    pl: "Nosicie mundurki w szkole?"
+    ru: "Вы носите форму в школе?"
+    source: { kind: authored }
+  - form: "nosicie"
+    pl: "Nie nosicie okularów."
+    ru: "Вы не носите очков."
+    source: { kind: authored }
+  - form: "nosić"
+    pl: "Lubisz nosić garnitury?"
+    ru: "Ты любишь носить костюмы?"
+    source: { kind: translated, id: 7184850 }
+  - form: "nosić"
+    pl: "Najbezpieczniej jest nosić szelki."
+    ru: "Безопаснее всего носить подтяжки."
+    source: { kind: translated, id: 1366409 }
+  - form: "nosić"
+    pl: "Nie będę tego nosić."
+    ru: "Я не буду это носить."
+    source: { kind: translated, id: 8734607 }
+  - form: "nosili"
+    pl: "Spodnie nosili Germanowie i Celtowie, Rzymianie nie."
+    ru: "Штаны носили германцы и кельты, римляне — нет."
+    source: { kind: translated, id: 1366411 }
+  - form: "nosili"
+    pl: "Uczniowie nosili mundurki."
+    ru: "Ученики носили форму."
+    source: { kind: authored }
+  - form: "nosili"
+    pl: "Nosili go na rękach."
+    ru: "Его носили на руках."
+    source: { kind: authored }
+  - form: "nosiliby"
+    pl: "Nosiliby mundurki, gdyby szkoła wymagała."
+    ru: "Они носили бы форму, если бы школа требовала."
+    source: { kind: authored }
+  - form: "nosiliby"
+    pl: "Nie nosiliby okularów."
+    ru: "Они не носили бы очков."
+    source: { kind: authored }
+  - form: "nosiliby"
+    pl: "Nosiliby ciepłe ubrania zimą."
+    ru: "Зимой они носили бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosilibyście"
+    pl: "Nosilibyście mundurki?"
+    ru: "Вы носили бы форму?"
+    source: { kind: authored }
+  - form: "nosilibyście"
+    pl: "Nie nosilibyście okularów."
+    ru: "Вы не носили бы очков."
+    source: { kind: authored }
+  - form: "nosilibyście"
+    pl: "Nosilibyście ciepłe ubrania zimą."
+    ru: "Зимой вы носили бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosilibyśmy"
+    pl: "Nosilibyśmy mundurki, gdyby szkoła wymagała."
+    ru: "Мы носили бы форму, если бы школа требовала."
+    source: { kind: authored }
+  - form: "nosilibyśmy"
+    pl: "Nie nosilibyśmy okularów."
+    ru: "Мы не носили бы очков."
+    source: { kind: authored }
+  - form: "nosilibyśmy"
+    pl: "Nosilibyśmy ciepłe ubrania zimą."
+    ru: "Зимой мы носили бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiliście"
+    pl: "Nosiliście mundurki w szkole?"
+    ru: "Вы носили форму в школе?"
+    source: { kind: authored }
+  - form: "nosiliście"
+    pl: "Nie nosiliście okularów."
+    ru: "Вы не носили очков."
+    source: { kind: authored }
+  - form: "nosiliście"
+    pl: "Nosiliście ciepłe ubrania zimą."
+    ru: "Зимой вы носили тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiliśmy"
+    pl: "Nosiliśmy mundurki w szkole."
+    ru: "Мы носили форму в школе."
+    source: { kind: authored }
+  - form: "nosiliśmy"
+    pl: "Nosiliśmy wodę ze studni."
+    ru: "Мы носили воду из колодца."
+    source: { kind: authored }
+  - form: "nosiliśmy"
+    pl: "Nosiliśmy nawzajem swoje ubrania."
+    ru: "Мы носили одежду друг друга."
+    source: { kind: authored }
+  - form: "nosił"
+    pl: "Nosił okulary."
+    ru: "Он носил очки."
+    source: { kind: translated, id: 10600848 }
+  - form: "nosił"
+    pl: "Nosił to Tom."
+    ru: "Это носил Том."
+    source: { kind: translated, id: 5652046 }
+  - form: "nosił"
+    pl: "Tom nosił okulary."
+    ru: "Том носил очки."
+    source: { kind: translated, id: 9117295 }
+  - form: "nosiła"
+    pl: "Nosiła czarny kapelusz."
+    ru: "Она носила чёрную шляпу."
+    source: { kind: tatoeba, id: 7185024 }
+  - form: "nosiła"
+    pl: "Nosiła włosy splecione w warkocze."
+    ru: "Она носила волосы, заплетённые в косы."
+    source: { kind: tatoeba, id: 571141 }
+  - form: "nosiła"
+    pl: "Nosiła maskę."
+    ru: "Она носила маску."
+    source: { kind: translated, id: 9348361 }
+  - form: "nosiłaby"
+    pl: "Nosiłaby okulary, gdyby musiała."
+    ru: "Она носила бы очки, если бы пришлось."
+    source: { kind: authored }
+  - form: "nosiłaby"
+    pl: "Nie nosiłaby tego kapelusza."
+    ru: "Она не носила бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłaby"
+    pl: "Nosiłaby ciepłe ubrania zimą."
+    ru: "Зимой она носила бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłabym"
+    pl: "Nosiłabym okulary, gdybym musiała."
+    ru: "Я носила бы очки, если бы пришлось."
+    source: { kind: authored }
+  - form: "nosiłabym"
+    pl: "Nie nosiłabym tego kapelusza."
+    ru: "Я не носила бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłabym"
+    pl: "Nosiłabym ciepłe ubrania zimą."
+    ru: "Зимой я носила бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłabyś"
+    pl: "Nosiłabyś okulary?"
+    ru: "Ты носила бы очки?"
+    source: { kind: authored }
+  - form: "nosiłabyś"
+    pl: "Nie nosiłabyś tego kapelusza."
+    ru: "Ты не носила бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłabyś"
+    pl: "Nosiłabyś ciepłe ubrania zimą."
+    ru: "Зимой ты носила бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłam"
+    pl: "Próbuję znaleźć tę czarną spódnicę, którą nosiłam w zeszłym tygodniu."
+    ru: "Я пытаюсь найти ту чёрную юбку, которую носила на прошлой неделе."
+    source: { kind: translated, id: 6549733 }
+  - form: "nosiłam"
+    pl: "Nosiłam okulary od dziecka."
+    ru: "Я носила очки с детства."
+    source: { kind: authored }
+  - form: "nosiłam"
+    pl: "Nie nosiłam wtedy kapelusza."
+    ru: "Тогда я не носила шляпу."
+    source: { kind: authored }
+  - form: "nosiłaś"
+    pl: "Nosiłaś okulary?"
+    ru: "Ты носила очки?"
+    source: { kind: authored }
+  - form: "nosiłaś"
+    pl: "Nie nosiłaś tego kapelusza."
+    ru: "Ты не носила эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłaś"
+    pl: "Jaki rozmiar nosiłaś?"
+    ru: "Какой размер ты носила?"
+    source: { kind: authored }
+  - form: "nosiłby"
+    pl: "Nosiłby okulary, gdyby musiał."
+    ru: "Он носил бы очки, если бы пришлось."
+    source: { kind: authored }
+  - form: "nosiłby"
+    pl: "Nie nosiłby tego kapelusza."
+    ru: "Он не носил бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłby"
+    pl: "Nosiłby ciepłe ubrania zimą."
+    ru: "Зимой он носил бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłbym"
+    pl: "Nosiłbym okulary, gdybym musiał."
+    ru: "Я носил бы очки, если бы пришлось."
+    source: { kind: authored }
+  - form: "nosiłbym"
+    pl: "Nie nosiłbym tego kapelusza."
+    ru: "Я не носил бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłbym"
+    pl: "Nosiłbym ciepłe ubrania zimą."
+    ru: "Зимой я носил бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłbyś"
+    pl: "Nosiłbyś okulary?"
+    ru: "Ты носил бы очки?"
+    source: { kind: authored }
+  - form: "nosiłbyś"
+    pl: "Nie nosiłbyś tego kapelusza."
+    ru: "Ты не носил бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiłbyś"
+    pl: "Nosiłbyś ciepłe ubrania zimą."
+    ru: "Зимой ты носил бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłem"
+    pl: "Nie nosiłem kamizelki ratunkowej."
+    ru: "Я не носил спасательный жилет."
+    source: { kind: translated, id: 10593841 }
+  - form: "nosiłem"
+    pl: "Co w tym czasie nosiłem? Przypominasz sobie jeszcze?"
+    ru: "Что я тогда носил? Ты ещё помнишь?"
+    source: { kind: translated, id: 11272515 }
+  - form: "nosiłem"
+    pl: "Nigdy też nie nosiłem butów. Prawdę mówiąc, nigdy nie służyłem w wojsku."
+    ru: "И обуви я никогда не носил. По правде говоря, я никогда не служил в армии."
+    source: { kind: translated, id: 13570149 }
+  - form: "nosiłeś"
+    pl: "Nosiłeś okulary?"
+    ru: "Ты носил очки?"
+    source: { kind: authored }
+  - form: "nosiłeś"
+    pl: "Jaki rozmiar nosiłeś?"
+    ru: "Какой размер ты носил?"
+    source: { kind: authored }
+  - form: "nosiłeś"
+    pl: "Nie nosiłeś tego kapelusza."
+    ru: "Ты не носил эту шляпу."
+    source: { kind: authored }
+  - form: "nosiło"
+    pl: "Dziecko nosiło okulary od piątego roku życia."
+    ru: "Ребёнок носил очки с пяти лет."
+    source: { kind: authored }
+  - form: "nosiło"
+    pl: "Wielu uczniów nosiło mundurki."
+    ru: "Многие ученики носили форму."
+    source: { kind: authored }
+  - form: "nosiło"
+    pl: "Miasto nosiło wtedy inną nazwę."
+    ru: "Город носил тогда другое название."
+    source: { kind: authored }
+  - form: "nosiłoby"
+    pl: "Dziecko nosiłoby okulary, gdyby musiało."
+    ru: "Ребёнок носил бы очки, если бы пришлось."
+    source: { kind: authored }
+  - form: "nosiłoby"
+    pl: "Miasto nosiłoby inną nazwę."
+    ru: "Город носил бы другое название."
+    source: { kind: authored }
+  - form: "nosiłoby"
+    pl: "Nie nosiłoby tego kapelusza."
+    ru: "Оно не носило бы эту шляпу."
+    source: { kind: authored }
+  - form: "nosiły"
+    pl: "Dziewczyny nosiły mundurki."
+    ru: "Девушки носили форму."
+    source: { kind: authored }
+  - form: "nosiły"
+    pl: "Ulice nosiły imiona poetów."
+    ru: "Улицы носили имена поэтов."
+    source: { kind: authored }
+  - form: "nosiły"
+    pl: "Dzieci nosiły ciepłe ubrania."
+    ru: "Дети носили тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłyby"
+    pl: "Dziewczyny nosiłyby mundurki, gdyby szkoła wymagała."
+    ru: "Девушки носили бы форму, если бы школа требовала."
+    source: { kind: authored }
+  - form: "nosiłyby"
+    pl: "Ulice nosiłyby imiona poetów."
+    ru: "Улицы носили бы имена поэтов."
+    source: { kind: authored }
+  - form: "nosiłyby"
+    pl: "Nie nosiłyby okularów."
+    ru: "Они не носили бы очков."
+    source: { kind: authored }
+  - form: "nosiłybyście"
+    pl: "Nosiłybyście mundurki?"
+    ru: "Вы носили бы форму?"
+    source: { kind: authored }
+  - form: "nosiłybyście"
+    pl: "Nie nosiłybyście okularów."
+    ru: "Вы не носили бы очков."
+    source: { kind: authored }
+  - form: "nosiłybyście"
+    pl: "Nosiłybyście ciepłe ubrania zimą."
+    ru: "Зимой вы носили бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłybyśmy"
+    pl: "Nosiłybyśmy mundurki, gdyby szkoła wymagała."
+    ru: "Мы носили бы форму, если бы школа требовала."
+    source: { kind: authored }
+  - form: "nosiłybyśmy"
+    pl: "Nie nosiłybyśmy okularów."
+    ru: "Мы не носили бы очков."
+    source: { kind: authored }
+  - form: "nosiłybyśmy"
+    pl: "Nosiłybyśmy ciepłe ubrania zimą."
+    ru: "Зимой мы носили бы тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłyście"
+    pl: "Nosiłyście mundurki w szkole?"
+    ru: "Вы носили форму в школе?"
+    source: { kind: authored }
+  - form: "nosiłyście"
+    pl: "Nie nosiłyście okularów."
+    ru: "Вы не носили очков."
+    source: { kind: authored }
+  - form: "nosiłyście"
+    pl: "Nosiłyście ciepłe ubrania zimą."
+    ru: "Зимой вы носили тёплую одежду."
+    source: { kind: authored }
+  - form: "nosiłyśmy"
+    pl: "Nosiłyśmy mundurki w szkole."
+    ru: "Мы носили форму в школе."
+    source: { kind: authored }
+  - form: "nosiłyśmy"
+    pl: "Nie nosiłyśmy okularów."
+    ru: "Мы не носили очков."
+    source: { kind: authored }
+  - form: "nosiłyśmy"
+    pl: "Nosiłyśmy ciepłe ubrania zimą."
+    ru: "Зимой мы носили тёплую одежду."
+    source: { kind: authored }
+  - form: "nosimy"
+    pl: "W naszej szkole nosimy mundurki."
+    ru: "В нашей школе мы носим форму."
+    source: { kind: authored }
+  - form: "nosimy"
+    pl: "Nosimy identyfikatory."
+    ru: "Мы носим бейджи."
+    source: { kind: authored }
+  - form: "nosimy"
+    pl: "Zimą nosimy ciepłe ubrania."
+    ru: "Зимой мы носим тёплую одежду."
+    source: { kind: authored }
+  - form: "nosisz"
+    pl: "Nosisz sweter, który Ci podarowałam?"
+    ru: "Ты носишь свитер, который я тебе подарила?"
+    source: { kind: tatoeba, id: 13547172 }
+  - form: "nosisz"
+    pl: "Jaki rozmiar nosisz?"
+    ru: "Какой у тебя размер?"
+    source: { kind: translated, id: 669644 }
+  - form: "nosisz"
+    pl: "Czemu nosisz rękawiczki?"
+    ru: "Почему ты носишь перчатки?"
+    source: { kind: translated, id: 3051507 }
+  - form: "noszą"
+    pl: "Anglia to kraj, w którym policjanci nie noszą broni."
+    ru: "Англия — страна, где полицейские не носят оружия."
+    source: { kind: translated, id: 956708 }
+  - form: "noszą"
+    pl: "Wszyscy noszą identyfikatory."
+    ru: "Все носят бейджи."
+    source: { kind: translated, id: 3990242 }
+  - form: "noszą"
+    pl: "Noszą drogie pierścionki."
+    ru: "Они носят дорогие кольца."
+    source: { kind: translated, id: 7868823 }
+  - form: "nosząc"
+    pl: "Nosząc okulary, widzi wyraźnie."
+    ru: "Нося очки, он видит чётко."
+    source: { kind: authored }
+  - form: "nosząc"
+    pl: "Przepłynął basen nosząc zegarek."
+    ru: "Он переплыл бассейн, не сняв часов."
+    source: { kind: authored }
+  - form: "nosząc"
+    pl: "Nosząc ciężary, nadwyrężył plecy."
+    ru: "Нося тяжести, он надорвал спину."
+    source: { kind: authored }
+  - form: "nosząca"
+    pl: "Kobieta nosząca okulary weszła do sali."
+    ru: "Женщина в очках вошла в зал."
+    source: { kind: authored }
+  - form: "nosząca"
+    pl: "Nosząca mundur straż stała przy bramie."
+    ru: "Охрана в мундирах стояла у ворот."
+    source: { kind: authored }
+  - form: "nosząca"
+    pl: "Wnuczka nosząca imię babki przyjechała."
+    ru: "Внучка, носящая имя бабушки, приехала."
+    source: { kind: authored }
+  - form: "noszącą"
+    pl: "Widziałem kobietę noszącą czarny kapelusz."
+    ru: "Я видел женщину в чёрной шляпе."
+    source: { kind: authored }
+  - form: "noszącą"
+    pl: "Spotkał dziewczynę noszącą mundur."
+    ru: "Он встретил девушку в мундире."
+    source: { kind: authored }
+  - form: "noszącą"
+    pl: "Zna wnuczkę noszącą imię babki."
+    ru: "Он знает внучку, носящую имя бабушки."
+    source: { kind: authored }
+  - form: "noszące"
+    pl: "Dzieci noszące mundurki wróciły ze szkoły."
+    ru: "Дети в школьной форме вернулись из школы."
+    source: { kind: authored }
+  - form: "noszące"
+    pl: "Osoby noszące okulary widzą to inaczej."
+    ru: "Люди в очках видят это иначе."
+    source: { kind: authored }
+  - form: "noszące"
+    pl: "Ulice noszące imiona poetów są w centrum."
+    ru: "Улицы, носящие имена поэтов, в центре."
+    source: { kind: authored }
+  - form: "noszącego"
+    pl: "Spotkał chłopca noszącego okulary."
+    ru: "Он встретил мальчика в очках."
+    source: { kind: authored }
+  - form: "noszącego"
+    pl: "Nie widziałem nikogo noszącego mundur."
+    ru: "Я не видел никого в мундире."
+    source: { kind: authored }
+  - form: "noszącego"
+    pl: "Szukam mężczyzny noszącego kapelusz."
+    ru: "Я ищу мужчину в шляпе."
+    source: { kind: authored }
+  - form: "noszącej"
+    pl: "Pomógł kobiecie noszącej ciężkie torby."
+    ru: "Он помог женщине с тяжёлыми сумками."
+    source: { kind: authored }
+  - form: "noszącej"
+    pl: "Nie ma tu osoby noszącej to nazwisko."
+    ru: "Здесь нет человека с такой фамилией."
+    source: { kind: authored }
+  - form: "noszącej"
+    pl: "Przyjrzał się dziewczynie noszącej mundur."
+    ru: "Он присмотрелся к девушке в мундире."
+    source: { kind: authored }
+  - form: "noszącemu"
+    pl: "Pomógł mężczyźnie noszącemu worki."
+    ru: "Он помог мужчине, носившему мешки."
+    source: { kind: authored }
+  - form: "noszącemu"
+    pl: "Przyjrzał się chłopcu noszącemu okulary."
+    ru: "Он присмотрелся к мальчику в очках."
+    source: { kind: authored }
+  - form: "noszącemu"
+    pl: "Nie ufa noszącemu mundur strażnikowi."
+    ru: "Он не доверяет охраннику в мундире."
+    source: { kind: authored }
+  - form: "noszący"
+    pl: "Mężczyzna noszący kapelusz czekał przy drzwiach."
+    ru: "Мужчина в шляпе ждал у двери."
+    source: { kind: authored }
+  - form: "noszący"
+    pl: "Noszący mundur wchodzą bez kolejki."
+    ru: "Люди в мундирах входят без очереди."
+    source: { kind: authored }
+  - form: "noszący"
+    pl: "To most noszący imię króla."
+    ru: "Это мост, носящий имя короля."
+    source: { kind: authored }
+  - form: "noszących"
+    pl: "Wśród noszących okulary było wielu uczniów."
+    ru: "Среди носящих очки было много учеников."
+    source: { kind: authored }
+  - form: "noszących"
+    pl: "Nie ma tu osób noszących mundury."
+    ru: "Здесь нет людей в мундирах."
+    source: { kind: authored }
+  - form: "noszących"
+    pl: "Szukam ulic noszących imiona poetów."
+    ru: "Я ищу улицы, носящие имена поэтов."
+    source: { kind: authored }
+  - form: "noszącym"
+    pl: "Pomógł noszącym worki robotnikom."
+    ru: "Он помог рабочим, носившим мешки."
+    source: { kind: authored }
+  - form: "noszącym"
+    pl: "Rozmawiał z chłopcem noszącym okulary."
+    ru: "Он говорил с мальчиком в очках."
+    source: { kind: authored }
+  - form: "noszącym"
+    pl: "Ufa tylko noszącym mundur."
+    ru: "Он доверяет только людям в мундире."
+    source: { kind: authored }
+  - form: "noszącymi"
+    pl: "Rozmawiał z uczniami noszącymi mundurki."
+    ru: "Он говорил с учениками в форме."
+    source: { kind: authored }
+  - form: "noszącymi"
+    pl: "Między noszącymi okulary a resztą nie ma różnicy."
+    ru: "Между носящими очки и остальными нет разницы."
+    source: { kind: authored }
+  - form: "noszącymi"
+    pl: "Wrócił z noszącymi bagaże tragarzami."
+    ru: "Он вернулся с носильщиками, тащившими багаж."
+    source: { kind: authored }
+  - form: "noszeni"
+    pl: "Zwycięzcy byli noszeni na rękach."
+    ru: "Победителей носили на руках."
+    source: { kind: authored }
+  - form: "noszeni"
+    pl: "Ranni byli noszeni na noszach."
+    ru: "Раненых носили на носилках."
+    source: { kind: authored }
+  - form: "noszeni"
+    pl: "Chorzy byli noszeni przez sanitariuszy."
+    ru: "Больных носили санитары."
+    source: { kind: authored }
+  - form: "noszenia"
+    pl: "Jesteśmy przyzwyczajeni do noszenia butów."
+    ru: "Мы привыкли носить обувь."
+    source: { kind: translated, id: 13342306 }
+  - form: "noszenia"
+    pl: "To pudełko jest za cieżkie do noszenia."
+    ru: "Эта коробка слишком тяжёлая, чтобы её нести."
+    source: { kind: translated, id: 1359987 }
+  - form: "noszenia"
+    pl: "W dalszym ciągu nie jestem przyzwyczajony do noszenia kasku."
+    ru: "Я до сих пор не привык носить каску."
+    source: { kind: translated, id: 5190302 }
+  - form: "noszenie"
+    pl: "Regulamin szkoły nakazuje uczniom noszenie fartuszków."
+    ru: "Устав школы предписывает ученикам носить фартуки."
+    source: { kind: translated, id: 600782 }
+  - form: "noszenie"
+    pl: "Noszenie w kieszeni małej latarki może się przydać."
+    ru: "Носить в кармане маленький фонарик может пригодиться."
+    source: { kind: translated, id: 960944 }
+  - form: "noszenie"
+    pl: "Noszenie kasku jest obowiązkowe."
+    ru: "Ношение каски обязательно."
+    source: { kind: authored }
+  - form: "noszeniem"
+    pl: "Zmęczył się noszeniem worków."
+    ru: "Он устал от переноски мешков."
+    source: { kind: authored }
+  - form: "noszeniem"
+    pl: "Zajmuje się noszeniem bagaży."
+    ru: "Он занимается переноской багажа."
+    source: { kind: authored }
+  - form: "noszeniem"
+    pl: "Przed noszeniem wypierz koszulę."
+    ru: "Перед ноской постирай рубашку."
+    source: { kind: authored }
+  - form: "noszeniu"
+    pl: "Czy będą przyjemne w noszeniu?"
+    ru: "Будут ли они приятны в носке?"
+    source: { kind: translated, id: 956940 }
+  - form: "noszeniu"
+    pl: "Chłopak koniecznie upierał się przy noszeniu długich włosów."
+    ru: "Мальчик непременно настаивал на ношении длинных волос."
+    source: { kind: translated, id: 927278 }
+  - form: "noszeniu"
+    pl: "Mówili o noszeniu mundurków."
+    ru: "Они говорили о ношении формы."
+    source: { kind: authored }
+  - form: "noszę"
+    pl: "Nie noszę już okularów."
+    ru: "Я больше не ношу очки."
+    source: { kind: tatoeba, id: 351914 }
+  - form: "noszę"
+    pl: "Nigdy nie noszę zegarka."
+    ru: "Я никогда не ношу часы."
+    source: { kind: tatoeba, id: 10168303 }
+  - form: "noszę"
+    pl: "Noszę garnitur, ale nie noszę krawata."
+    ru: "Я ношу костюм, но не ношу галстук."
+    source: { kind: tatoeba, id: 453569 }
+  - form: "noszona"
+    pl: "Ta sukienka była noszona w Bawarii."
+    ru: "Это платье носили в Баварии."
+    source: { kind: authored }
+  - form: "noszona"
+    pl: "Korona noszona przez królów zaginęła."
+    ru: "Корона, которую носили короли, пропала."
+    source: { kind: authored }
+  - form: "noszona"
+    pl: "Ta bluzka jest już noszona."
+    ru: "Эта блузка уже ношеная."
+    source: { kind: authored }
+  - form: "noszoną"
+    pl: "Kupił noszoną kurtkę."
+    ru: "Он купил ношеную куртку."
+    source: { kind: authored }
+  - form: "noszoną"
+    pl: "Uznali ją za noszoną."
+    ru: "Её сочли ношеной."
+    source: { kind: authored }
+  - form: "noszoną"
+    pl: "Widziałem sukienkę noszoną w Bawarii."
+    ru: "Я видел платье, которое носят в Баварии."
+    source: { kind: authored }
+  - form: "noszone"
+    pl: "Noszone ubrania oddali biednym."
+    ru: "Ношеную одежду отдали бедным."
+    source: { kind: authored }
+  - form: "noszone"
+    pl: "Te buty są noszone codziennie."
+    ru: "Эту обувь носят каждый день."
+    source: { kind: authored }
+  - form: "noszone"
+    pl: "Noszone przez lata, wciąż wyglądają dobrze."
+    ru: "Их носили годами, и они всё ещё хорошо выглядят."
+    source: { kind: authored }
+  - form: "noszonego"
+    pl: "Szukam noszonego płaszcza."
+    ru: "Я ищу ношеное пальто."
+    source: { kind: authored }
+  - form: "noszonego"
+    pl: "Nie ma tu noszonego munduru."
+    ru: "Ношеного мундира здесь нет."
+    source: { kind: authored }
+  - form: "noszonego"
+    pl: "Cena noszonego ubrania jest niższa."
+    ru: "Цена ношеной одежды ниже."
+    source: { kind: authored }
+  - form: "noszonej"
+    pl: "Dirndl to rodzaj sukienki noszonej w Bawarii."
+    ru: "Дирндль — это платье, которое носят в Баварии."
+    source: { kind: authored }
+  - form: "noszonej"
+    pl: "Szukam koszuli noszonej przez dziadka."
+    ru: "Я ищу рубашку, которую носил дед."
+    source: { kind: authored }
+  - form: "noszonej"
+    pl: "Nie ma tu bluzki noszonej na co dzień."
+    ru: "Здесь нет блузки на каждый день."
+    source: { kind: authored }
+  - form: "noszonemu"
+    pl: "Przyjrzał się noszonemu płaszczowi."
+    ru: "Он присмотрелся к ношеному пальто."
+    source: { kind: authored }
+  - form: "noszonemu"
+    pl: "Dzięki noszonemu amuletowi czuł się pewniej."
+    ru: "Благодаря носимому амулету он чувствовал себя увереннее."
+    source: { kind: authored }
+  - form: "noszonemu"
+    pl: "Nie ufa noszonemu obuwiu."
+    ru: "Он не доверяет ношеной обуви."
+    source: { kind: authored }
+  - form: "noszono"
+    pl: "Dawniej noszono kapelusze."
+    ru: "Раньше носили шляпы."
+    source: { kind: authored }
+  - form: "noszono"
+    pl: "Noszono go na rękach."
+    ru: "Его носили на руках."
+    source: { kind: authored }
+  - form: "noszono"
+    pl: "W tej wsi noszono stroje ludowe."
+    ru: "В этой деревне носили народные костюмы."
+    source: { kind: authored }
+  - form: "noszony"
+    pl: "Ten zegarek był noszony przez dziadka."
+    ru: "Эти часы носил дед."
+    source: { kind: authored }
+  - form: "noszony"
+    pl: "To mundur noszony od lat."
+    ru: "Это мундир, который носят годами."
+    source: { kind: authored }
+  - form: "noszony"
+    pl: "Płaszcz noszony na co dzień szybko się zniszczył."
+    ru: "Пальто, которое носили каждый день, быстро износилось."
+    source: { kind: authored }
+  - form: "noszonych"
+    pl: "Wśród noszonych ubrań było kilka sukienek."
+    ru: "Среди ношеной одежды было несколько платьев."
+    source: { kind: authored }
+  - form: "noszonych"
+    pl: "Nie ma tu noszonych butów."
+    ru: "Ношеной обуви здесь нет."
+    source: { kind: authored }
+  - form: "noszonych"
+    pl: "Szukam noszonych płaszczy."
+    ru: "Я ищу ношеные пальто."
+    source: { kind: authored }
+  - form: "noszonym"
+    pl: "W noszonym płaszczu było ciepło."
+    ru: "В ношеном пальто было тепло."
+    source: { kind: authored }
+  - form: "noszonym"
+    pl: "Przyjrzał się noszonym butom."
+    ru: "Он присмотрелся к ношеной обуви."
+    source: { kind: authored }
+  - form: "noszonym"
+    pl: "Chodzi w noszonym swetrze."
+    ru: "Он ходит в ношеном свитере."
+    source: { kind: authored }
+  - form: "noszonymi"
+    pl: "Zajęli się noszonymi ubraniami."
+    ru: "Они занялись ношеной одеждой."
+    source: { kind: authored }
+  - form: "noszonymi"
+    pl: "Między noszonymi a nowymi rzeczami jest różnica."
+    ru: "Между ношеными и новыми вещами есть разница."
+    source: { kind: authored }
+  - form: "noszonymi"
+    pl: "Wrócił z noszonymi butami."
+    ru: "Он вернулся с ношеной обувью."
+    source: { kind: authored }
+  - form: "noś"
+    pl: "Noś jedwabne skarpety!"
+    ru: "Носи шёлковые носки!"
+    source: { kind: translated, id: 12239904 }
+  - form: "noś"
+    pl: "Zimą noś ciepłe ubrania."
+    ru: "Зимой носи тёплую одежду."
+    source: { kind: translated, id: 827728 }
+  - form: "noś"
+    pl: "Nie noś drewna w lesie."
+    ru: "Не носи дрова в лес."
+    source: { kind: translated, id: 2827320 }
+  - form: "noście"
+    pl: "Noście ciepłe ubrania zimą."
+    ru: "Носите зимой тёплую одежду."
+    source: { kind: authored }
+  - form: "noście"
+    pl: "Nie noście tych butów."
+    ru: "Не носите эту обувь."
+    source: { kind: authored }
+  - form: "noście"
+    pl: "Noście identyfikatory."
+    ru: "Носите бейджи."
+    source: { kind: authored }
+  - form: "nośmy"
+    pl: "Nośmy ciepłe ubrania zimą."
+    ru: "Будем носить зимой тёплую одежду."
+    source: { kind: authored }
+  - form: "nośmy"
+    pl: "Nie nośmy tych butów."
+    ru: "Не будем носить эту обувь."
+    source: { kind: authored }
+  - form: "nośmy"
+    pl: "Nośmy identyfikatory."
+    ru: "Будем носить бейджи."
+    source: { kind: authored }

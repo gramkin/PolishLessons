@@ -1,0 +1,858 @@
+# review
+id: uczyc
+format: 2
+depth: deep
+lemma: "uczyć"
+rank: 615
+pos: verb
+aspect: imperf
+pron: { cyr: "у́чыць" }
+senses:
+  - id: teach
+    ru: "учить кого-л. чему-л. (винительный + родительный)"
+    note: "uczyć KOGOŚ CZEGOŚ: Tom uczy Mary francuskiego."
+    examples:
+      - pl: "Tom uczy Mary francuskiego."
+        ru: "Том учит Мэри французскому."
+        source: { kind: tatoeba, id: 5508767 }
+      - pl: "Od jak dawna uczysz niemieckiego?"
+        ru: "Давно ты немецкий учишь?"
+        source: { kind: tatoeba, id: 6771302 }
+      - pl: "Uczyłam w Bostonie."
+        ru: "Я преподавала в Бостоне."
+        source: { kind: translated, id: 12225679 }
+  - id: learn
+    ru: "uczyć się czegoś — учиться чему-л., изучать что-л. (родительный)"
+    note: "Русский здесь ставит дательный («учиться чему-то»), польский — родительный."
+    examples:
+      - pl: "Uczę się czeskiego."
+        ru: "Я учу чешский."
+        source: { kind: tatoeba, id: 1564704 }
+      - pl: "Muszę się uczyć japońskiego."
+        ru: "Я должен учить японский."
+        source: { kind: tatoeba, id: 368178 }
+      - pl: "On się szybko uczy."
+        ru: "Он быстро учится."
+        source: { kind: tatoeba, id: 1627112 }
+  - id: scholar
+    ru: "uczony — учёный (застывшее причастие, ставшее существительным)"
+    note: "Ровно как русское «учёный» — тоже причастие от «учить»."
+    examples:
+      - pl: "To powszechnie szanowany uczony."
+        ru: "Он ученый, которого все уважают."
+        source: { kind: tatoeba, id: 351390 }
+      - pl: "Powiedział, że chciałby zostać uczonym."
+        ru: "Он сказал, что хотел бы стать учёным."
+        source: { kind: tatoeba, id: 13084444 }
+      - pl: "Uczeni chyba znają prawdę."
+        ru: "Учёные, наверное, знают правду."
+        source: { kind: translated, id: 359932 }
+  - id: learner
+    ru: "uczący się — учащийся, изучающий"
+    note: "Действительное причастие: osoby uczące się angielskiego."
+    examples:
+      - pl: "Uczący się zebrali się przed szkołą."
+        ru: "Учащиеся собрались перед школой."
+        source: { kind: tatoeba, id: 5907122 }
+      - pl: "Nie widziałem nikogo uczącego się."
+        ru: "Я не видел никого, кто бы занимался."
+        source: { kind: translated, id: 3801745 }
+      - pl: "Ile może być szkół uczących języka polskiego w Chinach?"
+        ru: "Сколько может быть в Китае школ, обучающих польскому языку?"
+        source: { kind: translated, id: 3743890 }
+  - id: schooling
+    ru: "uczenie (się) — обучение, учение"
+    note: "Powtarzanie jest matką uczenia się «Повторение — мать учения»."
+    examples:
+      - pl: "Powtarzanie jest matką uczenia się."
+        ru: "Повторение — мать учения."
+        source: { kind: translated, id: 13024926 }
+      - pl: "Praca mojej siostry polega na uczeniu angielskiego."
+        ru: "Работа моей сестры состоит в обучении английскому."
+        source: { kind: translated, id: 353946 }
+      - pl: "Musimy unowocześnić nasze metody uczenia."
+        ru: "Нам надо осовременить наши методы обучения."
+        source: { kind: translated, id: 357703 }
+notes:
+  - { kind: government, text: "Главное отличие от русского: uczyć KOGOŚ CZEGOŚ — винительный плюс родительный. Tom uczy Mary francuskiego «Том учит Мэри французскому». Русский во второй позиции ставит дательный, поляк — родительный." }
+  - { kind: government, text: "То же и в возвратном: uczyć się CZEGOŚ — родительный. Uczę się polskiego «Я учу польский», uczymy się arabskiego. Не «uczyć się polskiemu»." }
+  - { kind: usage, text: "Пара uczyć / uczyć się переворачивает смысл: uczyć — «учить кого-то», uczyć się — «учиться самому». Без się глагол обязательно требует ученика." }
+  - { kind: false-friend, text: "uczony — это не прилагательное «учёный» в смысле «умный», а существительное «учёный, исследователь»: to wybitny uczony. По происхождению это страдательное причастие от uczyć — ровно как русское «учёный» от «учить»." }
+  - { kind: usage, text: "Совершенный вид — nauczyć (się): nauczyłem się polskiego «я выучил польский». Приставка na- даёт результат." }
+  - { kind: usage, text: "Родня обширна: uczeń «ученик», nauczyciel «учитель», nauka «наука, учёба», uczelnia «вуз»." }
+collocations:
+  - { pl: "uczyć się czegoś", ru: "учиться чему-либо" }
+  - { pl: "uczyć kogoś czegoś", ru: "учить кого-либо чему-либо" }
+  - { pl: "uczyć się na pamięć", ru: "учить наизусть" }
+  - { pl: "uczący się", ru: "учащийся" }
+  - { pl: "uczony", ru: "учёный" }
+family:
+  - { pl: "nauczyć", ru: "научить", relation: aspect }
+  - { pl: "uczeń", ru: "ученик", relation: derived }
+  - { pl: "nauczyciel", ru: "учитель", relation: derived }
+  - { pl: "nauka", ru: "наука, учёба", relation: derived }
+  - { pl: "uczony", ru: "учёный", relation: derived }
+etymology: "Праславянское *učiti — то же слово, что русское «учить». Отсюда же uczeń «ученик», nauka «наука» и uczony «учёный»."
+memory: "uczyć — «учить», и ловушек тут две. Первая — падежи: uczyć KOGOŚ CZEGOŚ, винительный плюс родительный. Tom uczy Mary francuskiego, а по-русски «учит Мэри французскому», дательный. И возвратное так же: uczę się polskiego, родительный, а не «polskiemu». Вторая — сама пара uczyć / uczyć się: без się вам нужен ученик, с się вы учитесь сами. А uczony — застывшее страдательное причастие, ставшее существительным «учёный», ровно как в русском."
+idioms:
+  - { pl: "uczyć się na błędach", ru: "учиться на ошибках" }
+  - { pl: "uczyć się na pamięć", ru: "учить наизусть" }
+  - { pl: "powtarzanie jest matką uczenia się", ru: "повторение — мать учения" }
+  - { pl: "uczyć kogoś rozumu", ru: "учить кого-то уму-разуму" }
+formExamples:
+  - form: "ucz"
+    pl: "Ucz się!"
+    ru: "Учись!"
+    source: { kind: translated, id: 838988 }
+  - form: "ucz"
+    pl: "Ucz się pilnie."
+    ru: "Учись прилежно."
+    source: { kind: authored }
+  - form: "ucz"
+    pl: "Ucz dzieci cierpliwości."
+    ru: "Учи детей терпению."
+    source: { kind: authored }
+  - form: "uczą"
+    pl: "Uczą się esperanto."
+    ru: "Они учат эсперанто."
+    source: { kind: translated, id: 3607043 }
+  - form: "uczą"
+    pl: "Wietnamczycy szybko się uczą."
+    ru: "Вьетнамцы быстро учатся."
+    source: { kind: translated, id: 1552531 }
+  - form: "uczą"
+    pl: "Uczą dzieci pływać."
+    ru: "Они учат детей плавать."
+    source: { kind: authored }
+  - form: "ucząc"
+    pl: "Uczy się ucząc innych."
+    ru: "Учатся, обучая других."
+    source: { kind: translated, id: 12191525 }
+  - form: "ucząc"
+    pl: "Często ucząc się słucham muzyki."
+    ru: "Занимаясь, я часто слушаю музыку."
+    source: { kind: translated, id: 876857 }
+  - form: "ucząc"
+    pl: "Utrudniasz sobie, ucząc się takich rzeczy."
+    ru: "Ты усложняешь себе жизнь, изучая такие вещи."
+    source: { kind: translated, id: 623602 }
+  - form: "ucząca"
+    pl: "Ucząca się młodzież wypełniła salę."
+    ru: "Учащаяся молодёжь заполнила зал."
+    source: { kind: authored }
+  - form: "ucząca"
+    pl: "To ucząca historia."
+    ru: "Это поучительная история."
+    source: { kind: authored }
+  - form: "ucząca"
+    pl: "Ucząca się grupa siedziała w kącie."
+    ru: "Учащаяся группа сидела в углу."
+    source: { kind: authored }
+  - form: "uczącą"
+    pl: "Widziałem uczącą się dziewczynę."
+    ru: "Я видел учащуюся девушку."
+    source: { kind: authored }
+  - form: "uczącą"
+    pl: "Uznali ją za uczącą się pilnie."
+    ru: "Её сочли прилежно учащейся."
+    source: { kind: authored }
+  - form: "uczącą"
+    pl: "Spotkał uczącą się grupę."
+    ru: "Он встретил учащуюся группу."
+    source: { kind: authored }
+  - form: "uczące"
+    pl: "Osoby uczące się angielskiego często mylą te słowa."
+    ru: "Изучающие английский часто путают эти слова."
+    source: { kind: authored }
+  - form: "uczące"
+    pl: "Dzieci uczące się w domu też zdają egzaminy."
+    ru: "Дети, учащиеся дома, тоже сдают экзамены."
+    source: { kind: authored }
+  - form: "uczące"
+    pl: "Szkoły uczące polskiego są w wielu krajach."
+    ru: "Школы, обучающие польскому, есть во многих странах."
+    source: { kind: authored }
+  - form: "uczącego"
+    pl: "Nie widziałem nikogo uczącego się."
+    ru: "Я не видел никого, кто бы занимался."
+    source: { kind: translated, id: 3801745 }
+  - form: "uczącego"
+    pl: "Spotkał uczącego się brata w bibliotece."
+    ru: "Он встретил занимающегося брата в библиотеке."
+    source: { kind: authored }
+  - form: "uczącego"
+    pl: "Widziałem uczącego się chłopca."
+    ru: "Я видел занимающегося мальчика."
+    source: { kind: authored }
+  - form: "uczącej"
+    pl: "Pomogli uczącej się dziewczynie."
+    ru: "Они помогли учащейся девушке."
+    source: { kind: authored }
+  - form: "uczącej"
+    pl: "Nie ma tu uczącej się młodzieży."
+    ru: "Здесь нет учащейся молодёжи."
+    source: { kind: authored }
+  - form: "uczącej"
+    pl: "Przyjrzał się uczącej się grupie."
+    ru: "Он присмотрелся к учащейся группе."
+    source: { kind: authored }
+  - form: "uczącemu"
+    pl: "Pomogli uczącemu się chłopcu."
+    ru: "Они помогли учащемуся мальчику."
+    source: { kind: authored }
+  - form: "uczącemu"
+    pl: "Przyjrzeli się uczącemu się dziecku."
+    ru: "Они присмотрелись к учащемуся ребёнку."
+    source: { kind: authored }
+  - form: "uczącemu"
+    pl: "Dzięki uczącemu się bratu znalazł pracę."
+    ru: "Благодаря учащемуся брату он нашёл работу."
+    source: { kind: authored }
+  - form: "uczący"
+    pl: "Uczący się zebrali się przed szkołą."
+    ru: "Учащиеся собрались перед школой."
+    source: { kind: tatoeba, id: 5907122 }
+  - form: "uczący"
+    pl: "Uczący się szybko robią postępy."
+    ru: "Учащиеся быстро делают успехи."
+    source: { kind: authored }
+  - form: "uczący"
+    pl: "To uczący się dorośli, nie dzieci."
+    ru: "Это учащиеся взрослые, а не дети."
+    source: { kind: authored }
+  - form: "uczących"
+    pl: "Ile może być szkół uczących języka polskiego w Chinach?"
+    ru: "Сколько может быть в Китае школ, обучающих польскому языку?"
+    source: { kind: translated, id: 3743890 }
+  - form: "uczących"
+    pl: "Wśród uczących się było wielu dorosłych."
+    ru: "Среди учащихся было много взрослых."
+    source: { kind: authored }
+  - form: "uczących"
+    pl: "Nie ma tu uczących się dzieci."
+    ru: "Здесь нет учащихся детей."
+    source: { kind: authored }
+  - form: "uczącym"
+    pl: "Pomógł uczącym się studentom."
+    ru: "Он помог учащимся студентам."
+    source: { kind: authored }
+  - form: "uczącym"
+    pl: "Rozmawiał z uczącym się bratem."
+    ru: "Он беседовал с учащимся братом."
+    source: { kind: authored }
+  - form: "uczącym"
+    pl: "W uczącym się mózgu powstają nowe połączenia."
+    ru: "В учащемся мозге возникают новые связи."
+    source: { kind: authored }
+  - form: "uczącymi"
+    pl: "Rozmawiał z uczącymi się studentami."
+    ru: "Он беседовал с учащимися студентами."
+    source: { kind: authored }
+  - form: "uczącymi"
+    pl: "Między uczącymi się a nauczycielami jest różnica."
+    ru: "Между учащимися и учителями есть разница."
+    source: { kind: authored }
+  - form: "uczącymi"
+    pl: "Wrócił z uczącymi się dziećmi."
+    ru: "Он вернулся с учащимися детьми."
+    source: { kind: authored }
+  - form: "uczcie"
+    pl: "Uczcie się!"
+    ru: "Учитесь!"
+    source: { kind: translated, id: 8095889 }
+  - form: "uczcie"
+    pl: "Uczcie się francuskiego."
+    ru: "Учите французский."
+    source: { kind: translated, id: 10596343 }
+  - form: "uczcie"
+    pl: "Uczcie się na błędach."
+    ru: "Учитесь на ошибках."
+    source: { kind: authored }
+  - form: "uczeni"
+    pl: "Uczeni chyba znają prawdę."
+    ru: "Учёные, наверное, знают правду."
+    source: { kind: translated, id: 359932 }
+  - form: "uczeni"
+    pl: "Uczeni badają obecnie dno oceanu."
+    ru: "Учёные сейчас исследуют дно океана."
+    source: { kind: translated, id: 542062 }
+  - form: "uczeni"
+    pl: "Uczeni uważają to odkrycie za istotne."
+    ru: "Учёные считают это открытие важным."
+    source: { kind: translated, id: 352744 }
+  - form: "uczenia"
+    pl: "Musimy unowocześnić nasze metody uczenia."
+    ru: "Нам надо осовременить наши методы обучения."
+    source: { kind: translated, id: 357703 }
+  - form: "uczenia"
+    pl: "Powtarzanie jest matką uczenia się."
+    ru: "Повторение — мать учения."
+    source: { kind: translated, id: 13024926 }
+  - form: "uczenia"
+    pl: "Twoja metoda uczenia angielskiego jest idiotyczna."
+    ru: "Твой метод обучения английскому никуда не годится."
+    source: { kind: translated, id: 722112 }
+  - form: "uczenie"
+    pl: "Uczenie się nowego języka jest fajne."
+    ru: "Учить новый язык — это здорово."
+    source: { kind: translated, id: 10770760 }
+  - form: "uczenie"
+    pl: "Nauczanie dzieci jest łatwiejsze niż uczenie dorosłych."
+    ru: "Учить детей легче, чем учить взрослых."
+    source: { kind: translated, id: 2150115 }
+  - form: "uczenie"
+    pl: "Uczenie się języka obcego może być zabawą."
+    ru: "Изучение иностранного языка может быть забавой."
+    source: { kind: translated, id: 8950111 }
+  - form: "uczeniem"
+    pl: "Mój wuj zajmował się uczeniem gotowania."
+    ru: "Мой дядя занимался обучением готовке."
+    source: { kind: translated, id: 357382 }
+  - form: "uczeniem"
+    pl: "Jestem tancerzem z zawodu, zajmuję się uczeniem tańca jazzowego."
+    ru: "Я танцор по профессии, занимаюсь обучением джазовому танцу."
+    source: { kind: translated, id: 858506 }
+  - form: "uczeniem"
+    pl: "Zajmuje się uczeniem dzieci muzyki."
+    ru: "Он занимается обучением детей музыке."
+    source: { kind: authored }
+  - form: "uczeniu"
+    pl: "Praca mojej siostry polega na uczeniu angielskiego."
+    ru: "Работа моей сестры состоит в обучении английскому."
+    source: { kind: translated, id: 353946 }
+  - form: "uczeniu"
+    pl: "Czy kiedykolwiek myślałeś o uczeniu się francuskiego?"
+    ru: "Ты когда-нибудь думал об изучении французского?"
+    source: { kind: translated, id: 6602823 }
+  - form: "uczeniu"
+    pl: "Kształcenie nie polega tylko na uczeniu różnych faktów."
+    ru: "Образование состоит не только в обучении разным фактам."
+    source: { kind: translated, id: 935992 }
+  - form: "uczę"
+    pl: "Uczę się czeskiego."
+    ru: "Я учу чешский."
+    source: { kind: tatoeba, id: 1564704 }
+  - form: "uczę"
+    pl: "Jeszcze się uczę."
+    ru: "Я ещё учусь."
+    source: { kind: tatoeba, id: 3743807 }
+  - form: "uczę"
+    pl: "Uczę się pisania na komputerze."
+    ru: "Я учусь писать на компьютере."
+    source: { kind: tatoeba, id: 542060 }
+  - form: "uczmy"
+    pl: "Uczmy się angielskiego."
+    ru: "Давайте учить английский."
+    source: { kind: translated, id: 1603695 }
+  - form: "uczmy"
+    pl: "Od teraz uczmy się rano."
+    ru: "Давайте отныне заниматься по утрам."
+    source: { kind: translated, id: 8679330 }
+  - form: "uczmy"
+    pl: "Uczmy się dużo, by być wielkimi ludźmi."
+    ru: "Будем много учиться, чтобы стать большими людьми."
+    source: { kind: translated, id: 737234 }
+  - form: "uczona"
+    pl: "Ta uczona odkryła nowy lek."
+    ru: "Эта учёная открыла новое лекарство."
+    source: { kind: authored }
+  - form: "uczona"
+    pl: "Uczona z Krakowa dostała nagrodę."
+    ru: "Учёная из Кракова получила премию."
+    source: { kind: authored }
+  - form: "uczona"
+    pl: "To uczona rozmowa, nie plotki."
+    ru: "Это учёный разговор, а не сплетни."
+    source: { kind: authored }
+  - form: "uczoną"
+    pl: "Była wielką uczoną, podobnego przykładu próżno szukać w historii."
+    ru: "Она была великой учёной, подобного примера напрасно искать в истории."
+    source: { kind: translated, id: 750542 }
+  - form: "uczoną"
+    pl: "Znam ją jako wybitną uczoną."
+    ru: "Я знаю её как выдающуюся учёную."
+    source: { kind: authored }
+  - form: "uczoną"
+    pl: "Uznali ją za uczoną światowej klasy."
+    ru: "Её признали учёной мирового класса."
+    source: { kind: authored }
+  - form: "uczone"
+    pl: "Uczone psy potrafią wiele."
+    ru: "Дрессированные собаки умеют многое."
+    source: { kind: authored }
+  - form: "uczone"
+    pl: "To słowa uczone, nie potoczne."
+    ru: "Это книжные слова, а не разговорные."
+    source: { kind: authored }
+  - form: "uczone"
+    pl: "Dzieci uczone w domu też zdają egzaminy."
+    ru: "Дети, обучаемые дома, тоже сдают экзамены."
+    source: { kind: authored }
+  - form: "uczonego"
+    pl: "Ludzie uważali go za wielkiego uczonego."
+    ru: "Люди считали его великим учёным."
+    source: { kind: translated, id: 639867 }
+  - form: "uczonego"
+    pl: "Wczoraj na lotnisku spotkałem słynnego uczonego."
+    ru: "Вчера в аэропорту я встретил знаменитого учёного."
+    source: { kind: translated, id: 840180 }
+  - form: "uczonego"
+    pl: "On w naszym społeczeństwie uchodzi za uczonego."
+    ru: "В нашем обществе он слывёт учёным."
+    source: { kind: translated, id: 739267 }
+  - form: "uczonej"
+    pl: "Słuchali uczonej z uwagą."
+    ru: "Они слушали учёную внимательно."
+    source: { kind: authored }
+  - form: "uczonej"
+    pl: "Pomogli uczonej z Krakowa."
+    ru: "Они помогли учёной из Кракова."
+    source: { kind: authored }
+  - form: "uczonej"
+    pl: "Nagrodę przyznano uczonej z Poznania."
+    ru: "Премию присудили учёной из Познани."
+    source: { kind: authored }
+  - form: "uczonemu"
+    pl: "Pomogli uczonemu z Krakowa."
+    ru: "Они помогли учёному из Кракова."
+    source: { kind: authored }
+  - form: "uczonemu"
+    pl: "Przyznano nagrodę uczonemu z Poznania."
+    ru: "Премию присудили учёному из Познани."
+    source: { kind: authored }
+  - form: "uczonemu"
+    pl: "Dzięki uczonemu odkryto lek."
+    ru: "Благодаря учёному нашли лекарство."
+    source: { kind: authored }
+  - form: "uczono"
+    pl: "Uczono nas łaciny."
+    ru: "Нас учили латыни."
+    source: { kind: authored }
+  - form: "uczono"
+    pl: "Dawniej uczono kaligrafii."
+    ru: "Раньше учили каллиграфии."
+    source: { kind: authored }
+  - form: "uczono"
+    pl: "Nie uczono go pływać."
+    ru: "Его не учили плавать."
+    source: { kind: authored }
+  - form: "uczony"
+    pl: "To powszechnie szanowany uczony."
+    ru: "Он ученый, которого все уважают."
+    source: { kind: tatoeba, id: 351390 }
+  - form: "uczony"
+    pl: "To wybitny uczony."
+    ru: "Это выдающийся учёный."
+    source: { kind: translated, id: 521420 }
+  - form: "uczony"
+    pl: "To uczony w każdym calu."
+    ru: "Это учёный до мозга костей."
+    source: { kind: translated, id: 416758 }
+  - form: "uczonych"
+    pl: "On jest jednym z najznakomitszych uczonych na świecie."
+    ru: "Он один из самых выдающихся учёных в мире."
+    source: { kind: translated, id: 532155 }
+  - form: "uczonych"
+    pl: "Spotkał wielu uczonych na konferencji."
+    ru: "Он встретил многих учёных на конференции."
+    source: { kind: authored }
+  - form: "uczonych"
+    pl: "Wśród uczonych panuje spór."
+    ru: "Среди учёных идёт спор."
+    source: { kind: authored }
+  - form: "uczonym"
+    pl: "Powiedział, że chciałby zostać uczonym."
+    ru: "Он сказал, что хотел бы стать учёным."
+    source: { kind: tatoeba, id: 13084444 }
+  - form: "uczonym"
+    pl: "On jest uczonym."
+    ru: "Он учёный."
+    source: { kind: translated, id: 356406 }
+  - form: "uczonym"
+    pl: "On jest prawdziwym uczonym."
+    ru: "Он настоящий учёный."
+    source: { kind: translated, id: 780333 }
+  - form: "uczonymi"
+    pl: "Rozmawiał z uczonymi z całego świata."
+    ru: "Он беседовал с учёными со всего мира."
+    source: { kind: authored }
+  - form: "uczonymi"
+    pl: "Między uczonymi a politykami jest przepaść."
+    ru: "Между учёными и политиками пропасть."
+    source: { kind: authored }
+  - form: "uczonymi"
+    pl: "Zgodził się z uczonymi."
+    ru: "Он согласился с учёными."
+    source: { kind: authored }
+  - form: "uczy"
+    pl: "On się szybko uczy."
+    ru: "Он быстро учится."
+    source: { kind: tatoeba, id: 1627112 }
+  - form: "uczy"
+    pl: "Tom uczy się programowania."
+    ru: "Том учится программированию."
+    source: { kind: tatoeba, id: 5370010 }
+  - form: "uczy"
+    pl: "Tom uczy Mary francuskiego."
+    ru: "Том учит Мэри французскому."
+    source: { kind: tatoeba, id: 5508767 }
+  - form: "uczycie"
+    pl: "Słyszałam, że uczycie się angielskiego?"
+    ru: "Я слышал, вы изучаете английский язык?"
+    source: { kind: tatoeba, id: 10747410 }
+  - form: "uczycie"
+    pl: "Czegokolwiek byście się uczyli, uczycie się tego dla siebie."
+    ru: "Что бы вы ни изучали - вы изучаете это для себя."
+    source: { kind: tatoeba, id: 13660037 }
+  - form: "uczycie"
+    pl: "Uczycie się esperanto."
+    ru: "Вы учите эсперанто."
+    source: { kind: translated, id: 3607031 }
+  - form: "uczyć"
+    pl: "Muszę się uczyć japońskiego."
+    ru: "Я должен учить японский."
+    source: { kind: tatoeba, id: 368178 }
+  - form: "uczyć"
+    pl: "Będę się dużo uczyć."
+    ru: "Я буду много учиться."
+    source: { kind: tatoeba, id: 2706123 }
+  - form: "uczyć"
+    pl: "Chcę uczyć się hiszpańskiego."
+    ru: "Я хочу учить испанский."
+    source: { kind: tatoeba, id: 5969969 }
+  - form: "uczyli"
+    pl: "Wszyscy uczniowie w klasie uczyli się dobrze."
+    ru: "Все ученики в классе учились хорошо."
+    source: { kind: translated, id: 716907 }
+  - form: "uczyli"
+    pl: "Czy w twojej szkole, oprócz maszynopisania, nie uczyli zdrowego rozsądku?"
+    ru: "В твоей школе, кроме машинописи, здравому смыслу не учили?"
+    source: { kind: translated, id: 735782 }
+  - form: "uczyli"
+    pl: "Uczyli nas łaciny."
+    ru: "Нас учили латыни."
+    source: { kind: authored }
+  - form: "uczyliby"
+    pl: "Uczyliby się, gdyby mieli czas."
+    ru: "Они учились бы, если бы у них было время."
+    source: { kind: authored }
+  - form: "uczyliby"
+    pl: "Nie uczyliby dzieci łaciny."
+    ru: "Они не учили бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyliby"
+    pl: "Uczyliby się polskiego."
+    ru: "Они учили бы польский."
+    source: { kind: authored }
+  - form: "uczylibyście"
+    pl: "Uczylibyście się polskiego?"
+    ru: "Вы бы учили польский?"
+    source: { kind: authored }
+  - form: "uczylibyście"
+    pl: "Nie uczylibyście dzieci łaciny."
+    ru: "Вы не учили бы детей латыни."
+    source: { kind: authored }
+  - form: "uczylibyście"
+    pl: "Uczylibyście się szybciej w grupie."
+    ru: "В группе вы учились бы быстрее."
+    source: { kind: authored }
+  - form: "uczylibyśmy"
+    pl: "Uczylibyśmy się, gdybyśmy mieli czas."
+    ru: "Мы учились бы, если бы у нас было время."
+    source: { kind: authored }
+  - form: "uczylibyśmy"
+    pl: "Nie uczylibyśmy dzieci łaciny."
+    ru: "Мы не учили бы детей латыни."
+    source: { kind: authored }
+  - form: "uczylibyśmy"
+    pl: "Uczylibyśmy się polskiego."
+    ru: "Мы учили бы польский."
+    source: { kind: authored }
+  - form: "uczyliście"
+    pl: "Czego uczyliście się w szkole?"
+    ru: "Что вы учили в школе?"
+    source: { kind: authored }
+  - form: "uczyliście"
+    pl: "Uczyliście dzieci łaciny?"
+    ru: "Вы учили детей латыни?"
+    source: { kind: authored }
+  - form: "uczyliście"
+    pl: "Uczyliście się cały wieczór."
+    ru: "Вы занимались весь вечер."
+    source: { kind: authored }
+  - form: "uczyliśmy"
+    pl: "Uczyliśmy się."
+    ru: "Мы учились."
+    source: { kind: translated, id: 14016433 }
+  - form: "uczyliśmy"
+    pl: "Uczyliśmy się angielskiego."
+    ru: "Мы учили английский."
+    source: { kind: translated, id: 365329 }
+  - form: "uczyliśmy"
+    pl: "Uczyliśmy się chińskiego 2 lata."
+    ru: "Мы учили китайский два года."
+    source: { kind: translated, id: 3109623 }
+  - form: "uczył"
+    pl: "Będę się dużo uczył."
+    ru: "Я буду много учиться."
+    source: { kind: tatoeba, id: 2706124 }
+  - form: "uczył"
+    pl: "Wczoraj uczył się cały wieczór."
+    ru: "Вчера он учился весь вечер."
+    source: { kind: tatoeba, id: 924570 }
+  - form: "uczył"
+    pl: "Gorliwie uczył się, by wstąpić do koledżu."
+    ru: "Он усердно учился, чтобы поступить в колледж."
+    source: { kind: tatoeba, id: 6017141 }
+  - form: "uczyła"
+    pl: "Uczyła się szybko."
+    ru: "Она быстро училась."
+    source: { kind: tatoeba, id: 10091401 }
+  - form: "uczyła"
+    pl: "Będę się dużo uczyła."
+    ru: "Я буду много учиться."
+    source: { kind: tatoeba, id: 2706125 }
+  - form: "uczyła"
+    pl: "Wiera uczyła nie niemieckiego, ale holenderskiego."
+    ru: "Вера учила не немецкий, а голландский."
+    source: { kind: tatoeba, id: 13731628 }
+  - form: "uczyłaby"
+    pl: "Uczyłaby się, gdyby miała czas."
+    ru: "Она училась бы, если бы у неё было время."
+    source: { kind: authored }
+  - form: "uczyłaby"
+    pl: "Nie uczyłaby dzieci łaciny."
+    ru: "Она не учила бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłaby"
+    pl: "Uczyłaby się polskiego."
+    ru: "Она учила бы польский."
+    source: { kind: authored }
+  - form: "uczyłabym"
+    pl: "Uczyłabym się, gdybym miała czas."
+    ru: "Я училась бы, если бы у меня было время."
+    source: { kind: authored }
+  - form: "uczyłabym"
+    pl: "Nie uczyłabym dzieci łaciny."
+    ru: "Я не учила бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłabym"
+    pl: "Uczyłabym się polskiego."
+    ru: "Я учила бы польский."
+    source: { kind: authored }
+  - form: "uczyłabyś"
+    pl: "Uczyłabyś się szybciej w grupie."
+    ru: "В группе ты училась бы быстрее."
+    source: { kind: authored }
+  - form: "uczyłabyś"
+    pl: "Czego uczyłabyś się najchętniej?"
+    ru: "Что ты учила бы охотнее всего?"
+    source: { kind: authored }
+  - form: "uczyłabyś"
+    pl: "Nie uczyłabyś dzieci łaciny."
+    ru: "Ты не учила бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłam"
+    pl: "Uczyłam się."
+    ru: "Я училась."
+    source: { kind: translated, id: 10626977 }
+  - form: "uczyłam"
+    pl: "Uczyłam w Bostonie."
+    ru: "Я преподавала в Бостоне."
+    source: { kind: translated, id: 12225679 }
+  - form: "uczyłam"
+    pl: "W gimnazjum na sprawdziany uczyłam się na przerwach między lekcjami."
+    ru: "В гимназии я готовилась к контрольным на переменах между уроками."
+    source: { kind: translated, id: 11150127 }
+  - form: "uczyłaś"
+    pl: "Czemu uczyłaś się francuskiego?"
+    ru: "Почему ты учила французский?"
+    source: { kind: translated, id: 13439442 }
+  - form: "uczyłaś"
+    pl: "Uczyłaś się cały wieczór."
+    ru: "Ты училась весь вечер."
+    source: { kind: authored }
+  - form: "uczyłaś"
+    pl: "Czego uczyłaś dzieci?"
+    ru: "Чему ты учила детей?"
+    source: { kind: authored }
+  - form: "uczyłby"
+    pl: "Uczyłby się, gdyby miał czas."
+    ru: "Он учился бы, если бы у него было время."
+    source: { kind: authored }
+  - form: "uczyłby"
+    pl: "Nie uczyłby dzieci łaciny."
+    ru: "Он не учил бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłby"
+    pl: "Uczyłby się polskiego."
+    ru: "Он учил бы польский."
+    source: { kind: authored }
+  - form: "uczyłbym"
+    pl: "Gdybym miał więcej czasu, uczyłbym się francuskiego."
+    ru: "Если бы у меня было больше времени, я учил бы французский."
+    source: { kind: translated, id: 760369 }
+  - form: "uczyłbym"
+    pl: "Uczyłbym się chętniej w grupie."
+    ru: "Я учился бы охотнее в группе."
+    source: { kind: authored }
+  - form: "uczyłbym"
+    pl: "Nie uczyłbym dzieci łaciny."
+    ru: "Я не учил бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłbyś"
+    pl: "Uczyłbyś się szybciej w grupie."
+    ru: "В группе ты учился бы быстрее."
+    source: { kind: authored }
+  - form: "uczyłbyś"
+    pl: "Czego uczyłbyś się najchętniej?"
+    ru: "Что ты учил бы охотнее всего?"
+    source: { kind: authored }
+  - form: "uczyłbyś"
+    pl: "Nie uczyłbyś dzieci łaciny."
+    ru: "Ты не учил бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłem"
+    pl: "Powodem dla którego dostałem złą ocenę jest to, że się nie uczyłem."
+    ru: "Причина, почему я получил плохую оценку в том, что я не учил."
+    source: { kind: tatoeba, id: 2793185 }
+  - form: "uczyłem"
+    pl: "Uczyłem się."
+    ru: "Я учился."
+    source: { kind: translated, id: 10626976 }
+  - form: "uczyłem"
+    pl: "Zeszłej nocy uczyłem się."
+    ru: "Вчера вечером я занимался."
+    source: { kind: translated, id: 368869 }
+  - form: "uczyłeś"
+    pl: "Sam się uczyłeś?"
+    ru: "Ты сам учился?"
+    source: { kind: translated, id: 935380 }
+  - form: "uczyłeś"
+    pl: "Dlaczego uczyłeś się francuskiego?"
+    ru: "Почему ты учил французский?"
+    source: { kind: translated, id: 13439440 }
+  - form: "uczyłeś"
+    pl: "Gdzie uczyłeś się języka włoskiego?"
+    ru: "Где ты учил итальянский?"
+    source: { kind: translated, id: 590712 }
+  - form: "uczyło"
+    pl: "Wielu przyjaciół Tatoeba uczyło się esperanta."
+    ru: "Многие друзья Tatoeba учили эсперанто."
+    source: { kind: translated, id: 1787874 }
+  - form: "uczyło"
+    pl: "Dziecko uczyło się czytać."
+    ru: "Ребёнок учился читать."
+    source: { kind: authored }
+  - form: "uczyło"
+    pl: "Wiele osób uczyło się tego na pamięć."
+    ru: "Многие учили это наизусть."
+    source: { kind: authored }
+  - form: "uczyłoby"
+    pl: "Dziecko uczyłoby się chętniej z obrazkami."
+    ru: "Ребёнок учился бы охотнее с картинками."
+    source: { kind: authored }
+  - form: "uczyłoby"
+    pl: "Samo nie uczyłoby się wcale."
+    ru: "Само оно не училось бы вовсе."
+    source: { kind: authored }
+  - form: "uczyłoby"
+    pl: "Uczyłoby się szybciej w grupie."
+    ru: "В группе оно училось бы быстрее."
+    source: { kind: authored }
+  - form: "uczyły"
+    pl: "Dzieci uczyły się cały wieczór."
+    ru: "Дети занимались весь вечер."
+    source: { kind: authored }
+  - form: "uczyły"
+    pl: "Uczyły się polskiego przez rok."
+    ru: "Они учили польский год."
+    source: { kind: authored }
+  - form: "uczyły"
+    pl: "Siostry uczyły w tej samej szkole."
+    ru: "Сёстры преподавали в одной школе."
+    source: { kind: authored }
+  - form: "uczyłyby"
+    pl: "Dzieci uczyłyby się chętniej z obrazkami."
+    ru: "Дети учились бы охотнее с картинками."
+    source: { kind: authored }
+  - form: "uczyłyby"
+    pl: "Same nie uczyłyby się wcale."
+    ru: "Сами они не учились бы вовсе."
+    source: { kind: authored }
+  - form: "uczyłyby"
+    pl: "Uczyłyby się polskiego."
+    ru: "Они учили бы польский."
+    source: { kind: authored }
+  - form: "uczyłybyście"
+    pl: "Uczyłybyście się polskiego?"
+    ru: "Вы бы учили польский?"
+    source: { kind: authored }
+  - form: "uczyłybyście"
+    pl: "Nie uczyłybyście dzieci łaciny."
+    ru: "Вы не учили бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłybyście"
+    pl: "Uczyłybyście się szybciej w grupie."
+    ru: "В группе вы учились бы быстрее."
+    source: { kind: authored }
+  - form: "uczyłybyśmy"
+    pl: "Uczyłybyśmy się, gdybyśmy miały czas."
+    ru: "Мы учились бы, если бы у нас было время."
+    source: { kind: authored }
+  - form: "uczyłybyśmy"
+    pl: "Nie uczyłybyśmy dzieci łaciny."
+    ru: "Мы не учили бы детей латыни."
+    source: { kind: authored }
+  - form: "uczyłybyśmy"
+    pl: "Uczyłybyśmy się polskiego."
+    ru: "Мы учили бы польский."
+    source: { kind: authored }
+  - form: "uczyłyście"
+    pl: "Czego uczyłyście się w szkole?"
+    ru: "Что вы учили в школе?"
+    source: { kind: authored }
+  - form: "uczyłyście"
+    pl: "Uczyłyście się cały wieczór."
+    ru: "Вы занимались весь вечер."
+    source: { kind: authored }
+  - form: "uczyłyście"
+    pl: "Uczyłyście dzieci łaciny?"
+    ru: "Вы учили детей латыни?"
+    source: { kind: authored }
+  - form: "uczyłyśmy"
+    pl: "Uczyłyśmy się."
+    ru: "Мы учились."
+    source: { kind: translated, id: 14016434 }
+  - form: "uczyłyśmy"
+    pl: "Uczyłyśmy się polskiego przez rok."
+    ru: "Мы учили польский год."
+    source: { kind: authored }
+  - form: "uczyłyśmy"
+    pl: "Uczyłyśmy dzieci muzyki."
+    ru: "Мы учили детей музыке."
+    source: { kind: authored }
+  - form: "uczymy"
+    pl: "Uczymy się arabskiego."
+    ru: "Мы изучаем арабский."
+    source: { kind: tatoeba, id: 1133699 }
+  - form: "uczymy"
+    pl: "Uczymy się czytać i pisać."
+    ru: "Мы учимся читать и писать."
+    source: { kind: tatoeba, id: 826630 }
+  - form: "uczymy"
+    pl: "Uczymy się chińskiego."
+    ru: "Мы учим китайский."
+    source: { kind: translated, id: 555312 }
+  - form: "uczysz"
+    pl: "Jak uczysz się niderlandzkiego?"
+    ru: "Как ты учишь нидерландский?"
+    source: { kind: tatoeba, id: 11319197 }
+  - form: "uczysz"
+    pl: "Czego się uczysz w szkole?"
+    ru: "Что ты учишь в школе?"
+    source: { kind: tatoeba, id: 362512 }
+  - form: "uczysz"
+    pl: "Od jak dawna uczysz niemieckiego?"
+    ru: "Давно ты немецкий учишь?"
+    source: { kind: tatoeba, id: 6771302 }
