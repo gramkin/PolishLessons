@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **287** |
-| В очереди       | **562** |
+| Карточка готова | **288** |
+| В очереди       | **561** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -695,7 +695,7 @@ pnpm dict:status && pnpm generate
 - **— Tak, wtedy cię ujrzałem**  
   <sub>слова: [tak](/slovo/tak), [wtedy](/slovo/wtedy), [ty](/slovo/ty), `ujrzeć`</sub>
 - **— Więc posługujesz się mną, a jednak mi nie ufasz… — zawołałem z goryczą. — Zdaje mi się, że zasłużyłem na zaufanie**  
-  <sub>слова: [więc](/slovo/wiec), `posługiwać`, [się](/slovo/sie), [ja](/slovo/ja), [a](/slovo/a), [jednak](/slovo/jednak), [nie](/slovo/nie), `ufać`, `zawołać`, [z](/slovo/z), `gorycz`, `zdawać`, [że](/slovo/ze), `zasłużyć`, [na](/slovo/na), `zaufanie`</sub>
+  <sub>слова: [więc](/slovo/wiec), `posługiwać`, [się](/slovo/sie), [ja](/slovo/ja), [a](/slovo/a), [jednak](/slovo/jednak), [nie](/slovo/nie), [ufać](/slovo/ufac), `zawołać`, [z](/slovo/z), `gorycz`, `zdawać`, [że](/slovo/ze), `zasłużyć`, [na](/slovo/na), `zaufanie`</sub>
 - **zniechęcić się**  
   <sub>слова: `zniechęcić`, [się](/slovo/sie)</sub>
 - **Nie zniechęcaj się!**  
