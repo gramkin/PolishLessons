@@ -49,6 +49,12 @@ exclude:
   - byla
   # an English title, not Polish vocabulary: its lines are "miss Stapleton" — same as "sir"
   - miss
+  # the detective, not Polish vocabulary: both lines are "Sherlocka Holmesa" — the same
+  # case as holmes, watson, baskerville and stapleton
+  - sherlock
+  # not a lemma but a slice of the adjective "własny": every candidate is agreement
+  # (na własne oczy, własnego życia, własnym uszom) and the wlasny card owns the forms
+  - wlasne
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
