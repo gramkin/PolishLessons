@@ -1,0 +1,173 @@
+# review
+id: pojecie
+format: 2
+lemma: "pojęcie"
+rank: 701
+pos: noun
+pron: { cyr: "пойэ́ньце" }
+senses:
+  - id: concept
+    ru: "понятие, представление"
+    examples:
+      - pl: "To pojęcie ma wiele znaczeń."
+        ru: "Это понятие имеет много значений."
+        source: { kind: translated, id: 2246838 }
+      - pl: "Masz o tym jakieś pojęcie?"
+        ru: "Ты имеешь об этом хоть какое-то представление?"
+        source: { kind: translated, id: 6157245 }
+      - pl: "Jaka jest różnica między tymi pojęciami?"
+        ru: "В чём разница между этими понятиями?"
+        source: { kind: translated, id: 11627635 }
+  - id: no-idea
+    ru: "nie mieć pojęcia — не иметь понятия"
+    note: "Требует родительного падежа."
+    examples:
+      - pl: "Nie mam pojęcia."
+        ru: "Понятия не имею."
+        source: { kind: tatoeba, id: 350147 }
+      - pl: "Nie mam zielonego pojęcia."
+        ru: "Не имею ни малейшего понятия."
+        source: { kind: authored }
+      - pl: "Nie miał pojęcia, co robić."
+        ru: "Он понятия не имел, что делать."
+        source: { kind: authored }
+  - id: abstract
+    ru: "pojęcie abstrakcyjne — абстрактное понятие"
+    examples:
+      - pl: "Dla niego głód był pojęciem abstrakcyjnym. Zawsze miał wystarczająco jedzenia."
+        ru: "Для него голод был абстрактным понятием. Еды у него всегда хватало."
+        source: { kind: translated, id: 1693332 }
+      - pl: "To pojęcie jest trudne do zdefiniowania."
+        ru: "Это понятие трудно определить."
+        source: { kind: authored }
+      - pl: "Między tymi pojęciami jest różnica."
+        ru: "Между этими понятиями есть разница."
+        source: { kind: authored }
+  - id: beyond
+    ru: "przechodzić ludzkie pojęcie — уму непостижимо"
+    examples:
+      - pl: "To przechodzi ludzkie pojęcie."
+        ru: "Это уму непостижимо."
+        source: { kind: authored }
+      - pl: "Jego upór przechodzi ludzkie pojęcie."
+        ru: "Его упрямство уму непостижимо."
+        source: { kind: authored }
+      - pl: "Takie okrucieństwo przechodzi ludzkie pojęcie."
+        ru: "Такая жестокость уму непостижима."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "nie mieć pojęcia требует родительного падежа: Nie mam pojęcia «Понятия не имею». Усилитель — zielonego: nie mam zielonego pojęcia «не имею ни малейшего понятия»." }
+  - { kind: usage, text: "Перед придаточным ставится запятая, в отличие от того, как это часто пишут в сети: Nie mam pojęcia, gdzie jestem." }
+  - { kind: usage, text: "Родня прозрачная: pojąć «понять, постичь», pojętny «понятливый», niepojęty «непостижимый»." }
+  - { kind: usage, text: "przechodzić ludzkie pojęcie — «уму непостижимо», буквально «превосходит человеческое понятие»." }
+collocations:
+  - { pl: "nie mieć pojęcia", ru: "не иметь понятия" }
+  - { pl: "pojęcie abstrakcyjne", ru: "абстрактное понятие" }
+  - { pl: "podstawowe pojęcia", ru: "основные понятия" }
+family:
+  - { pl: "pojąć", ru: "понять, постичь", relation: root }
+  - { pl: "pojętny", ru: "понятливый", relation: derived }
+  - { pl: "niepojęty", ru: "непостижимый", relation: derived }
+etymology: "От pojąć «постичь», а это po + jąć «взять» — ровно та же сборка, что в русском «по-нятие» от «по-нять»."
+memory: "pojęcie собрано в точности как русское «понятие»: po + jąć «взять», то есть «по-нять». Главная фраза — nie mam pojęcia «понятия не имею», с родительным падежом и усилителем zielonego: nie mam zielonego pojęcia. А przechodzić ludzkie pojęcie значит «уму непостижимо»."
+idioms:
+  - { pl: "nie mieć zielonego pojęcia", ru: "не иметь ни малейшего понятия" }
+  - { pl: "nie mam pojęcia", ru: "понятия не имею" }
+  - { pl: "przechodzić ludzkie pojęcie", ru: "уму непостижимо" }
+formExamples:
+  - form: "pojęcia"
+    pl: "Nie mam pojęcia."
+    ru: "Понятия не имею."
+    source: { kind: tatoeba, id: 350147 }
+  - form: "pojęcia"
+    pl: "Nie mam zielonego pojęcia."
+    ru: "Не имею ни малейшего понятия."
+    source: { kind: authored }
+  - form: "pojęcia"
+    pl: "Nie mam pojęcia, gdzie jestem."
+    ru: "Понятия не имею, где я."
+    source: { kind: authored }
+  - form: "pojęciach"
+    pl: "W tych pojęciach kryje się różnica."
+    ru: "В этих понятиях скрывается разница."
+    source: { kind: authored }
+  - form: "pojęciach"
+    pl: "Mówili o pojęciach abstrakcyjnych."
+    ru: "Они говорили об абстрактных понятиях."
+    source: { kind: authored }
+  - form: "pojęciach"
+    pl: "W obu pojęciach jest coś wspólnego."
+    ru: "В обоих понятиях есть что-то общее."
+    source: { kind: authored }
+  - form: "pojęciami"
+    pl: "Jaka jest różnica między tymi pojęciami?"
+    ru: "В чём разница между этими понятиями?"
+    source: { kind: translated, id: 11627635 }
+  - form: "pojęciami"
+    pl: "Operuje pojęciami abstrakcyjnymi."
+    ru: "Он оперирует абстрактными понятиями."
+    source: { kind: authored }
+  - form: "pojęciami"
+    pl: "Zajmujemy się pojęciami podstawowymi."
+    ru: "Мы занимаемся основными понятиями."
+    source: { kind: authored }
+  - form: "pojęcie"
+    pl: "Masz o tym jakieś pojęcie?"
+    ru: "Ты имеешь об этом хоть какое-то представление?"
+    source: { kind: translated, id: 6157245 }
+  - form: "pojęcie"
+    pl: "To pojęcie ma wiele znaczeń."
+    ru: "Это понятие имеет много значений."
+    source: { kind: translated, id: 2246838 }
+  - form: "pojęcie"
+    pl: "To przechodzi ludzkie pojęcie."
+    ru: "Это уму непостижимо."
+    source: { kind: authored }
+  - form: "pojęciem"
+    pl: "Dla niego głód był pojęciem abstrakcyjnym. Zawsze miał wystarczająco jedzenia."
+    ru: "Для него голод был абстрактным понятием. Еды у него всегда хватало."
+    source: { kind: translated, id: 1693332 }
+  - form: "pojęciem"
+    pl: "Wolność jest pojęciem szerokim."
+    ru: "Свобода — понятие широкое."
+    source: { kind: authored }
+  - form: "pojęciem"
+    pl: "Pod tym pojęciem kryje się wiele."
+    ru: "Под этим понятием скрывается многое."
+    source: { kind: authored }
+  - form: "pojęciom"
+    pl: "Przyjrzał się tym pojęciom uważnie."
+    ru: "Он внимательно присмотрелся к этим понятиям."
+    source: { kind: authored }
+  - form: "pojęciom"
+    pl: "Dzięki tym pojęciom wszystko stało się jasne."
+    ru: "Благодаря этим понятиям всё стало ясно."
+    source: { kind: authored }
+  - form: "pojęciom"
+    pl: "Nie ufa pojęciom bez definicji."
+    ru: "Он не доверяет понятиям без определения."
+    source: { kind: authored }
+  - form: "pojęciu"
+    pl: "Mówimy o pojęciu wolności."
+    ru: "Мы говорим о понятии свободы."
+    source: { kind: authored }
+  - form: "pojęciu"
+    pl: "Przyjrzyjmy się temu pojęciu bliżej."
+    ru: "Присмотримся к этому понятию поближе."
+    source: { kind: authored }
+  - form: "pojęciu"
+    pl: "W tym pojęciu mieści się wiele."
+    ru: "В это понятие вмещается многое."
+    source: { kind: authored }
+  - form: "pojęć"
+    pl: "Nie myl tych dwóch pojęć."
+    ru: "Не путай эти два понятия."
+    source: { kind: authored }
+  - form: "pojęć"
+    pl: "Nie ma tu trudnych pojęć."
+    ru: "Трудных понятий здесь нет."
+    source: { kind: authored }
+  - form: "pojęć"
+    pl: "To jedno z podstawowych pojęć fizyki."
+    ru: "Это одно из основных понятий физики."
+    source: { kind: authored }

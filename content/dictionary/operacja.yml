@@ -1,0 +1,176 @@
+# review
+id: operacja
+format: 2
+lemma: "operacja"
+rank: 702
+pos: noun
+pron: { cyr: "опэра́цья" }
+senses:
+  - id: surgery
+    ru: "операция (хирургическая)"
+    examples:
+      - pl: "Czeka pana operacja."
+        ru: "Вас ждёт операция."
+        source: { kind: translated, id: 363646 }
+      - pl: "Potrzebuję operacji."
+        ru: "Мне нужна операция."
+        source: { kind: translated, id: 5961887 }
+      - pl: "Twój brat doszedł do siebie po operacji."
+        ru: "Твой брат оправился после операции."
+        source: { kind: translated, id: 12044099 }
+  - id: undergo
+    ru: "mieć / przejść operację — перенести операцию"
+    examples:
+      - pl: "Miał operację."
+        ru: "Ему сделали операцию."
+        source: { kind: translated, id: 5961885 }
+      - pl: "Przeszedł skomplikowaną operację."
+        ru: "Он перенёс сложную операцию."
+        source: { kind: authored }
+      - pl: "Musi przejść operację serca."
+        ru: "Ему предстоит операция на сердце."
+        source: { kind: authored }
+  - id: military
+    ru: "операция (военная, полицейская)"
+    examples:
+      - pl: "Operacja wojskowa trwała trzy dni."
+        ru: "Военная операция длилась три дня."
+        source: { kind: authored }
+      - pl: "Policja przeprowadziła operację o świcie."
+        ru: "Полиция провела операцию на рассвете."
+        source: { kind: authored }
+      - pl: "To była operacja ratunkowa."
+        ru: "Это была спасательная операция."
+        source: { kind: authored }
+  - id: technical
+    ru: "операция (банковская, вычислительная)"
+    examples:
+      - pl: "Operacja bankowa nie doszła do skutku."
+        ru: "Банковская операция не состоялась."
+        source: { kind: authored }
+      - pl: "Każda operacja jest zapisywana."
+        ru: "Каждая операция записывается."
+        source: { kind: authored }
+      - pl: "To prosta operacja matematyczna."
+        ru: "Это простая математическая операция."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Ударение, как всегда в польском, на предпоследнем слоге: opera-cja, «опэра́цья». Сочетание -cja читается слитно, одним слогом." }
+  - { kind: government, text: "potrzebować требует родительного: Potrzebuję operacji «Мне нужна операция». Так же после bez i po: bez operacji, po operacji." }
+  - { kind: usage, text: "Родительный множественного совпадает с родительным единственного — operacji. Устаревший вариант operacyj сегодня не употребляется." }
+  - { kind: usage, text: "Готовые сочетания: mieć operację и przejść operację «перенести операцию», przeprowadzić operację «провести операцию»." }
+collocations:
+  - { pl: "przejść operację", ru: "перенести операцию" }
+  - { pl: "przeprowadzić operację", ru: "провести операцию" }
+  - { pl: "po operacji", ru: "после операции" }
+  - { pl: "bez operacji", ru: "без операции" }
+family:
+  - { pl: "operować", ru: "оперировать", relation: root }
+  - { pl: "operacyjny", ru: "операционный", relation: derived }
+  - { pl: "pooperacyjny", ru: "послеоперационный", relation: derived }
+etymology: "Через латинское operatio «работа, действие» от opus «труд» — то же заимствование, что русская «операция»."
+memory: "operacja — «операция», и на ней держится целое правило: латинское -tio даёт в польском -cja там, где русский даёт -ция. Отсюда stacja, lekcja, informacja, operacja — все женского рода, все с родительным на -cji: operacji. Ударение на предпоследнем слоге: опэра́цья."
+idioms:
+  - { pl: "przejść operację", ru: "перенести операцию" }
+  - { pl: "przeprowadzić operację", ru: "провести операцию" }
+  - { pl: "operacja się udała, ale pacjent zmarł", ru: "операция прошла успешно, но пациент умер" }
+formExamplesSkip:
+  - { form: "operacjo", reason: "звательный падеж у неодушевлённого отвлечённого существительного не употребляется" }
+  - { form: "operacyj", reason: "устаревший вариант родительного множественного; сегодня говорят operacji" }
+formExamples:
+  - form: "operacja"
+    pl: "Czeka pana operacja."
+    ru: "Вас ждёт операция."
+    source: { kind: translated, id: 363646 }
+  - form: "operacja"
+    pl: "Jak długo trwa operacja?"
+    ru: "Сколько длится операция?"
+    source: { kind: translated, id: 11497652 }
+  - form: "operacja"
+    pl: "Operacja nie może czekać."
+    ru: "Операция не может ждать."
+    source: { kind: translated, id: 415211 }
+  - form: "operacjach"
+    pl: "W takich operacjach liczy się czas."
+    ru: "В таких операциях важно время."
+    source: { kind: authored }
+  - form: "operacjach"
+    pl: "Mówili o operacjach ratunkowych."
+    ru: "Они говорили о спасательных операциях."
+    source: { kind: authored }
+  - form: "operacjach"
+    pl: "W obu operacjach brał udział."
+    ru: "Он участвовал в обеих операциях."
+    source: { kind: authored }
+  - form: "operacjami"
+    pl: "Zajmuje się operacjami serca."
+    ru: "Он занимается операциями на сердце."
+    source: { kind: authored }
+  - form: "operacjami"
+    pl: "Między tymi operacjami jest różnica."
+    ru: "Между этими операциями есть разница."
+    source: { kind: authored }
+  - form: "operacjami"
+    pl: "Kieruje operacjami wojskowymi."
+    ru: "Он руководит военными операциями."
+    source: { kind: authored }
+  - form: "operacją"
+    pl: "Przed operacją nie wolno jeść."
+    ru: "Перед операцией нельзя есть."
+    source: { kind: authored }
+  - form: "operacją"
+    pl: "Zajął się operacją osobiście."
+    ru: "Он занялся операцией лично."
+    source: { kind: authored }
+  - form: "operacją"
+    pl: "Między operacją a wypisem minął tydzień."
+    ru: "Между операцией и выпиской прошла неделя."
+    source: { kind: authored }
+  - form: "operacje"
+    pl: "Takie operacje są dziś rutyną."
+    ru: "Такие операции сегодня рутина."
+    source: { kind: authored }
+  - form: "operacje"
+    pl: "Lekarze przeprowadzają operacje codziennie."
+    ru: "Врачи проводят операции каждый день."
+    source: { kind: authored }
+  - form: "operacje"
+    pl: "Operacje wojskowe trwały tydzień."
+    ru: "Военные операции длились неделю."
+    source: { kind: authored }
+  - form: "operację"
+    pl: "Miał operację."
+    ru: "Ему сделали операцию."
+    source: { kind: translated, id: 5961885 }
+  - form: "operację"
+    pl: "Miałam operację."
+    ru: "Мне делали операцию."
+    source: { kind: translated, id: 5961880 }
+  - form: "operację"
+    pl: "Przeszedł skomplikowaną operację."
+    ru: "Он перенёс сложную операцию."
+    source: { kind: authored }
+  - form: "operacji"
+    pl: "Potrzebuję operacji."
+    ru: "Мне нужна операция."
+    source: { kind: translated, id: 5961887 }
+  - form: "operacji"
+    pl: "Czy nie obędę się bez operacji?"
+    ru: "А может, я обойдусь без операции?"
+    source: { kind: translated, id: 7868584 }
+  - form: "operacji"
+    pl: "Twój brat doszedł do siebie po operacji."
+    ru: "Твой брат оправился после операции."
+    source: { kind: translated, id: 12044099 }
+  - form: "operacjom"
+    pl: "Dzięki tym operacjom wielu przeżyło."
+    ru: "Благодаря этим операциям многие выжили."
+    source: { kind: authored }
+  - form: "operacjom"
+    pl: "Przyjrzał się operacjom bankowym."
+    ru: "Он присмотрелся к банковским операциям."
+    source: { kind: authored }
+  - form: "operacjom"
+    pl: "Nie ufa takim operacjom."
+    ru: "Он не доверяет таким операциям."
+    source: { kind: authored }

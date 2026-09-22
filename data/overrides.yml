@@ -85,6 +85,17 @@ exclude:
   # an English given name used as a Tatoeba placeholder character, like the
   # already-excluded john and jack; its candidates are all "Michael ..." lines
   - michael
+  # not a Polish word: every candidate matches the English conjunction inside
+  # untranslated fragments (Chuck's Bar and Grill, Stars and Stripes) or the
+  # unrelated names Ando and Andy. Same junk class as john and jack.
+  - anda
+  # three candidates across ten forms, and two are the given name Frank. The
+  # currency sense is too thinly attested here to card honestly.
+  - frank
+  # not a lemma but the vocative of Jezus, which is ranked separately at 1395.
+  # All seven candidates are the exclamation (Jezu!, O Jezu!, Jezu Chryste!).
+  # Same shape as the excluded rany, whose lemma is rana.
+  - jezu
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
@@ -117,3 +128,6 @@ pos:
   # tagged as a noun, but every candidate is the telephone interjection
   # (Halo!, Halo?, Halo, jesteś jeszcze?) and the paradigm has a single form
   halo: interj
+  # tagged as a noun, but every candidate is the ordinal numeral: rozdzial
+  # trzeci, trzeciego kwietnia, na trzecim miejscu, plus the fraction dwie trzecie
+  trzeci: num

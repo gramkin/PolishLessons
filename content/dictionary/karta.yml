@@ -1,0 +1,189 @@
+# review
+id: karta
+format: 2
+lemma: "karta"
+rank: 697
+pos: noun
+pron: { cyr: "ка́рта" }
+senses:
+  - id: payment-card
+    ru: "карта (банковская)"
+    note: "płacić kartą — творительный без предлога."
+    examples:
+      - pl: "Gotówka czy karta?"
+        ru: "Наличные или карта?"
+        source: { kind: translated, id: 6067375 }
+      - pl: "Zapłacił kartą kredytową."
+        ru: "Он заплатил кредитной картой."
+        source: { kind: translated, id: 3857218 }
+      - pl: "Do kiedy karta kredytowa jest ważna?"
+        ru: "До какого числа действительна кредитная карта?"
+        source: { kind: translated, id: 4925099 }
+  - id: playing-cards
+    ru: "карты (игральные)"
+    examples:
+      - pl: "Lubię tasować karty."
+        ru: "Я люблю тасовать карты."
+        source: { kind: tatoeba, id: 3743804 }
+      - pl: "Łuskali słonecznik i grali w karty."
+        ru: "Они лузгали семечки и играли в карты."
+        source: { kind: tatoeba, id: 3176883 }
+      - pl: "Zagrajmy w karty."
+        ru: "Давайте сыграем в карты."
+        source: { kind: translated, id: 368478 }
+  - id: card-document
+    ru: "карточка, талон: karta pokładowa"
+    examples:
+      - pl: "Poproszę kartę pokładową."
+        ru: "Посадочный талон, пожалуйста."
+        source: { kind: translated, id: 9679662 }
+      - pl: "Włóż kartę."
+        ru: "Вставьте карту."
+        source: { kind: translated, id: 524345 }
+      - pl: "Oto moja karta."
+        ru: "Вот моя карточка."
+        source: { kind: translated, id: 8547564 }
+  - id: menu
+    ru: "меню (в ресторане)"
+    note: "Poproszę kartę «Меню, пожалуйста»."
+    examples:
+      - pl: "Poproszę kartę."
+        ru: "Меню, пожалуйста."
+        source: { kind: translated, id: 2363401 }
+      - pl: "Kelner przyniósł kartę."
+        ru: "Официант принёс меню."
+        source: { kind: authored }
+      - pl: "Co jest dziś w karcie?"
+        ru: "Что сегодня в меню?"
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Польское karta — это НЕ географическая карта: карта местности по-польски mapa. karta покрывает банковскую карту, игральные карты, карточку-талон и ресторанное меню." }
+  - { kind: government, text: "«Платить картой» — творительный без предлога: płacić kartą, zapłacić kartą kredytową, ровно как в русском." }
+  - { kind: usage, text: "В ресторане Poproszę kartę значит «Меню, пожалуйста», а не «карту»." }
+  - { kind: usage, text: "Идиома совпадает с русской: szczęściarz w kartach, pechowiec w miłości «везёт в картах — не везёт в любви»." }
+collocations:
+  - { pl: "płacić kartą", ru: "платить картой" }
+  - { pl: "grać w karty", ru: "играть в карты" }
+  - { pl: "Poproszę kartę", ru: "Меню, пожалуйста" }
+  - { pl: "mapa", ru: "географическая карта" }
+family:
+  - { pl: "kartka", ru: "листок, открытка", relation: derived }
+  - { pl: "mapa", ru: "карта местности", relation: root }
+  - { pl: "kartoteka", ru: "картотека", relation: derived }
+etymology: "Из латинского charta «лист папируса» через немецкий — то же заимствование, что и русская «карта»."
+memory: "karta — «карта», но НЕ географическая: карта местности по-польски mapa. Польское karta покрывает банковскую карту (płacić kartą, творительный без предлога), игральные карты (grać w karty), карточку-талон и ресторанное меню — Poproszę kartę значит «Меню, пожалуйста». Идиома та же, что в русском: szczęściarz w kartach, pechowiec w miłości."
+idioms:
+  - { pl: "płacić kartą", ru: "платить картой" }
+  - { pl: "grać w karty", ru: "играть в карты" }
+  - { pl: "Poproszę kartę", ru: "Меню, пожалуйста" }
+formExamplesSkip:
+  - { form: "karto", reason: "звательный падеж неодушевлённого существительного: единственный корпусный пример («Ten karto jest za duży») неграмматичен, к карте по-польски не обращаются" }
+formExamples:
+  - form: "karcie"
+    pl: "Na karcie zabrakło środków."
+    ru: "На карте не хватило средств."
+    source: { kind: authored }
+  - form: "karcie"
+    pl: "W karcie dań nie było ryb."
+    ru: "В меню не было рыбы."
+    source: { kind: authored }
+  - form: "karcie"
+    pl: "Podpis na karcie się zatarł."
+    ru: "Подпись на карте стёрлась."
+    source: { kind: authored }
+  - form: "kart"
+    pl: "Mam niepełną talię kart."
+    ru: "У меня неполная колода карт."
+    source: { kind: translated, id: 3743806 }
+  - form: "kart"
+    pl: "Których kart kredytowych mogę użyć?"
+    ru: "Какими кредитными картами я могу воспользоваться?"
+    source: { kind: translated, id: 449653 }
+  - form: "kart"
+    pl: "Zniknął z kart historii."
+    ru: "Он исчез со страниц истории."
+    source: { kind: translated, id: 356522 }
+  - form: "karta"
+    pl: "Gotówka czy karta?"
+    ru: "Наличные или карта?"
+    source: { kind: translated, id: 6067375 }
+  - form: "karta"
+    pl: "Oto moja karta."
+    ru: "Вот моя карточка."
+    source: { kind: translated, id: 8547564 }
+  - form: "karta"
+    pl: "Karta była ważna do stycznia 2006."
+    ru: "Карта была действительна до января две тысячи шестого."
+    source: { kind: translated, id: 6099857 }
+  - form: "kartach"
+    pl: "Szczęściarz w kartach, pechowiec w miłości."
+    ru: "Везёт в картах — не везёт в любви."
+    source: { kind: translated, id: 3026059 }
+  - form: "kartach"
+    pl: "W kartach szczęścia mu nie brakowało."
+    ru: "В картах ему везло."
+    source: { kind: authored }
+  - form: "kartach"
+    pl: "Mówili o kartach kredytowych."
+    ru: "Они говорили о кредитных картах."
+    source: { kind: authored }
+  - form: "kartami"
+    pl: "Grali kartami do rana."
+    ru: "Они играли в карты до утра."
+    source: { kind: authored }
+  - form: "kartami"
+    pl: "Płacimy wyłącznie kartami."
+    ru: "Мы платим исключительно картами."
+    source: { kind: authored }
+  - form: "kartami"
+    pl: "Między kartami a gotówką wybiera karty."
+    ru: "Между картами и наличными он выбирает карты."
+    source: { kind: authored }
+  - form: "kartą"
+    pl: "Zapłacił kartą kredytową."
+    ru: "Он заплатил кредитной картой."
+    source: { kind: translated, id: 3857218 }
+  - form: "kartą"
+    pl: "On płaci kartą."
+    ru: "Он платит картой."
+    source: { kind: translated, id: 8671638 }
+  - form: "kartą"
+    pl: "Zapłaciłem kartą kredytową."
+    ru: "Я заплатил кредитной картой."
+    source: { kind: translated, id: 10599050 }
+  - form: "kartę"
+    pl: "Włóż kartę."
+    ru: "Вставьте карту."
+    source: { kind: translated, id: 524345 }
+  - form: "kartę"
+    pl: "Poproszę kartę."
+    ru: "Меню, пожалуйста."
+    source: { kind: translated, id: 2363401 }
+  - form: "kartę"
+    pl: "Poproszę kartę pokładową."
+    ru: "Посадочный талон, пожалуйста."
+    source: { kind: translated, id: 9679662 }
+  - form: "kartom"
+    pl: "Dzięki kartom płatniczym podróż jest łatwiejsza."
+    ru: "Благодаря платёжным картам поездка проще."
+    source: { kind: authored }
+  - form: "kartom"
+    pl: "Przyjrzał się kartom w talii."
+    ru: "Он присмотрелся к картам в колоде."
+    source: { kind: authored }
+  - form: "kartom"
+    pl: "Nie ufa kartom zbliżeniowym."
+    ru: "Он не доверяет бесконтактным картам."
+    source: { kind: authored }
+  - form: "karty"
+    pl: "Lubię tasować karty."
+    ru: "Я люблю тасовать карты."
+    source: { kind: tatoeba, id: 3743804 }
+  - form: "karty"
+    pl: "Łuskali słonecznik i grali w karty."
+    ru: "Они лузгали семечки и играли в карты."
+    source: { kind: tatoeba, id: 3176883 }
+  - form: "karty"
+    pl: "Zagrajmy w karty."
+    ru: "Давайте сыграем в карты."
+    source: { kind: translated, id: 368478 }
