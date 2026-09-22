@@ -59,6 +59,13 @@ exclude:
   # (na drogach, dróg), the adjective "drogi" (Krawat jest zbyt drogi) and the
   # vocative "mój drogi". The droga card already owns the noun forms.
   - drogi
+  # an English given name used as a Tatoeba placeholder character, not Polish
+  # vocabulary; PoliMorf invents a paradigm for it (Jacka, Jackiem) — same as john
+  - jack
+  # tagged adj, but it is not a lemma: the candidates split three ways — the noun
+  # "rana" (Czas leczy rany, od rana), the verb "ranić" (Odrzucenie rani) and the
+  # interjection "o rany". The rana card will own the noun forms.
+  - rany
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
