@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **284** |
-| В очереди       | **565** |
+| Карточка готова | **287** |
+| В очереди       | **562** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -288,7 +288,7 @@ pnpm dict:status && pnpm generate
 - **Mamy dużo dzikich storczyków. Lubię ten kwiat.**  
   <sub>слова: [mama](/slovo/mama), [dużo](/slovo/duzo), `dziki`, `storczyk`, [lubić](/slovo/lubic), [ten](/slovo/ten), `kwiat`</sub>
 - **Rumieniec oblał jej śliczną twarzyczkę**  
-  <sub>слова: `rumieniec`, `oblać`, [on](/slovo/on), `śliczny`, `twarzyczka`</sub>
+  <sub>слова: `rumieniec`, `oblać`, [on](/slovo/on), [śliczny](/slovo/sliczny), `twarzyczka`</sub>
 - obcowanie — 🟡 `obcowanie` · noun · rank 2130
 - urabianie — 🟡 `urabiać` · verb · rank 2131
 - ucierpiała — 🟡 `ucierpieć` · verb · rank 2132
@@ -440,7 +440,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [nie](/slovo/nie), `szczędzić`, `koszt`</sub>
 - siedzibie — 🟡 `siedziba` · noun · rank 2102
 - **Nie dalej jak dziś sir Henryk miał przykrą niespodziankę**  
-  <sub>слова: [nie](/slovo/nie), [daleko](/slovo/daleko), [jak](/slovo/jak), [dziś](/slovo/dzis), `przykry`, `niespodzianka`</sub>
+  <sub>слова: [nie](/slovo/nie), [daleko](/slovo/daleko), [jak](/slovo/jak), [dziś](/slovo/dzis), [przykry](/slovo/przykry), `niespodzianka`</sub>
 - **istnieją przeszkody**  
   <sub>слова: [istnieć](/slovo/istniec), `przeszkoda`</sub>
 - narzucam — 🟡 `narzucać` · verb · rank 2230
@@ -734,7 +734,7 @@ pnpm dict:status && pnpm generate
 - **— Jeżeli pan zastosujesz się do moich wskazówek i poleceń, nie pytając o ich przyczynę, to uda mi się może rozwikłać tajemnicę. Nie wątpię…**  
   <sub>слова: [jeżeli](/slovo/jezeli), [pan](/slovo/pan), `zastosować`, [się](/slovo/sie), [do](/slovo/do), [mój](/slovo/moj), `wskazówka`, [i](/slovo/i), `polecenie`, [nie](/slovo/nie), [pytać](/slovo/pytac), [o](/slovo/o), [on](/slovo/on), `przyczyna`, [to](/slovo/to), [udać](/slovo/udac), [móc](/slovo/moc), `rozwikłać`, [tajemnica](/slovo/tajemnica), `wątpić`</sub>
 - **Patrząc na Sherlocka, spostrzegłem, że tłumi wewnętrzne wzburzenie.**  
-  <sub>слова: [patrzeć](/slovo/patrzec), [na](/slovo/na), `spostrzec`, [że](/slovo/ze), `tłumić`, `wewnętrzny`, `wzburzenie`</sub>
+  <sub>слова: [patrzeć](/slovo/patrzec), [na](/slovo/na), `spostrzec`, [że](/slovo/ze), `tłumić`, [wewnętrzny](/slovo/wewnetrzny), `wzburzenie`</sub>
 - **— Co cię uderza? — zapytał.**  
   <sub>слова: [co](/slovo/co), [ty](/slovo/ty), `uderzać`, [zapytać](/slovo/zapytac)</sub>
 - **Nazajutrz wstałem bardzo wcześnie, ale Holmes już mnie wyprzedził. Był ubrany do wyjścia.**  
