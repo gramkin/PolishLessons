@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **273** |
-| В очереди       | **576** |
+| Карточка готова | **284** |
+| В очереди       | **565** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -129,13 +129,13 @@ pnpm dict:status && pnpm generate
 - ułatwi — 🟡 `ułatwić` · verb · rank 2038
 - **— Zrobię, jak pan chcesz.**  
   <sub>слова: [zrobić](/slovo/zrobic), [jak](/slovo/jak), [pan](/slovo/pan), [chcieć](/slovo/chciec)</sub>
-- wyjątkowa — 🟡 `wyjątkowy` · adj · rank 997
+- wyjątkowa — ✅ [wyjątkowy](/slovo/wyjatkowy) · adj
 - miarkujesz — 🟡 `miarkować` · verb · rank 2037
 - Pochlebiam — 🟡 `pochlebiać` · verb · rank 2039
 - kwaterę — 🟡 `kwatera` · noun · rank 2040
 - błędzie — ✅ [błąd](/slovo/blad) · noun
 - **Czy nie znajdujesz, że wyrażone poglądy są bardzo głębokie?**  
-  <sub>слова: [czy](/slovo/czy), [nie](/slovo/nie), `znajdować`, [że](/slovo/ze), `wyrazić`, `poglądy`, [być](/slovo/byc), [bardzo](/slovo/bardzo), `głęboki`</sub>
+  <sub>слова: [czy](/slovo/czy), [nie](/slovo/nie), `znajdować`, [że](/slovo/ze), `wyrazić`, `poglądy`, [być](/slovo/byc), [bardzo](/slovo/bardzo), [głęboki](/slovo/gleboki)</sub>
 - **Nie boję się bawić**  
   <sub>слова: [nie](/slovo/nie), [bać](/slovo/bac), [się](/slovo/sie), [bawić](/slovo/bawic)</sub>
 - **Tu się nie pali**  
@@ -260,7 +260,7 @@ pnpm dict:status && pnpm generate
 - dziedziniec — 🟡 `dziedziniec` · noun · rank 2106
 - kuferki — 🟡 `kuferek` · noun · rank 2107
 - zsiadając — 🟡 `zsiadać` · verb · rank 2108
-- zmęczony — 🟡 `zmęczony` · adj · rank 1079
+- zmęczony — ✅ [zmęczony](/slovo/zmeczony) · adj
 - **Odwróciłem się pewien, że ujrzę doktora Mortimera, lecz ku mojemu zdziwieniu, zobaczyłem nieznajomego.**  
   <sub>слова: `odwrócić`, [się](/slovo/sie), [pewien](/slovo/pewien), [że](/slovo/ze), `ujrzeć`, [doktor](/slovo/doktor), [lecz](/slovo/lecz), `ku`, [mój](/slovo/moj), `zdziwienie`, [zobaczyć](/slovo/zobaczyc), [nieznajomy](/slovo/nieznajomy)</sub>
 - **złamała mu się noga, zepsuł mi się samochód.**  
@@ -302,7 +302,7 @@ pnpm dict:status && pnpm generate
 - pożegnać — 🟡 `pożegnać` · verb · rank 1606
 - gościniec — 🟡 `gościniec` · noun · rank 2137
 - **Na miłość boską, bądź ze mną szczera, miss Stapleton.**  
-  <sub>слова: [na](/slovo/na), [miłość](/slovo/milosc), `boski`, [bądź](/slovo/badz), [z](/slovo/z), [ja](/slovo/ja), `szczery`, `miss`</sub>
+  <sub>слова: [na](/slovo/na), [miłość](/slovo/milosc), [boski](/slovo/boski), [bądź](/slovo/badz), [z](/slovo/z), [ja](/slovo/ja), [szczery](/slovo/szczery), `miss`</sub>
 - przejęciem — 🟡 `przejąć` · verb · rank 1358
 - ciążącej — 🟡 `ciążyć` · verb · rank 2139
 - **— Słyszałeś pan legendę o psie?**  
@@ -315,7 +315,7 @@ pnpm dict:status && pnpm generate
 - albowiem — 🟡 `albowiem` · conj · rank 2143
 - bowiem — 🟡 `bowiem` · conj · rank 2144
 - **Im dłużej tu bawię, tym bardziej czuję się smutny i zaniepokojony**  
-  <sub>слова: [on](/slovo/on), [długo](/slovo/dlugo), [tu](/slovo/tu), [bawić](/slovo/bawic), [ten](/slovo/ten), [bardziej](/slovo/bardziej), [czuć](/slovo/czuc), [się](/slovo/sie), `smutny`, [i](/slovo/i), `zaniepokoić`</sub>
+  <sub>слова: [on](/slovo/on), [długo](/slovo/dlugo), [tu](/slovo/tu), [bawić](/slovo/bawic), [ten](/slovo/ten), [bardziej](/slovo/bardziej), [czuć](/slovo/czuc), [się](/slovo/sie), [smutny](/slovo/smutny), [i](/slovo/i), `zaniepokoić`</sub>
 - gęsto — 🟡 `gęsto` · adv · rank 2146
 - zasiewają — 🟡 `zasiewać` · verb · rank 2147
 - należy — ✅ [należeć](/slovo/nalezec) · verb
@@ -324,7 +324,7 @@ pnpm dict:status && pnpm generate
 - warownią — 🟡 `warownia` · noun · rank 2150
 - okoliczność — 🟡 `okoliczność` · noun · rank 2151
 - **Dzisiaj zdarzyła się okoliczność niezwykła**  
-  <sub>слова: [dzisiaj](/slovo/dzisiaj), `zdarzyć`, [się](/slovo/sie), `okoliczność`, `niezwykły`</sub>
+  <sub>слова: [dzisiaj](/slovo/dzisiaj), `zdarzyć`, [się](/slovo/sie), `okoliczność`, [niezwykły](/slovo/niezwykly)</sub>
 - żyć — ✅ [żyć](/slovo/zyc) · verb
 - **Dwa tygodnie już minęło od jego ucieczki, a dotychczas nikt go nie widział i nikt o nim nie słyszał**  
   <sub>слова: [dwa](/slovo/dwa), [tydzień](/slovo/tydzien), [już](/slovo/juz), `minąć`, [od](/slovo/od), [on](/slovo/on), `ucieczka`, [a](/slovo/a), [dotychczas](/slovo/dotychczas), [nikt](/slovo/nikt), [nie](/slovo/nie), [widzieć](/slovo/widziec), [i](/slovo/i), [o](/slovo/o), [słyszeć](/slovo/slyszec)</sub>
@@ -390,7 +390,7 @@ pnpm dict:status && pnpm generate
 - **A jednak sam fakt może się wydać błahy.**  
   <sub>слова: [a](/slovo/a), [jednak](/slovo/jednak), [sam](/slovo/sam), [fakt](/slovo/fakt), [móc](/slovo/moc), [się](/slovo/sie), `wydać`, `błahy`</sub>
 - **Wiesz, że mam sen lekki, a od chwili, gdym tu przybył w charakterze anioła-stróża, sypiam z otwartymi oczyma, jak zając.**  
-  <sub>слова: [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [mama](/slovo/mama), [sen](/slovo/sen), `lekki`, [a](/slovo/a), [od](/slovo/od), [chwila](/slovo/chwila), [gdy](/slovo/gdy), [tu](/slovo/tu), `przybyć`, [w](/slovo/w), `charakter`, `sypiać`, [z](/slovo/z), [otworzyć](/slovo/otworzyc), [oko](/slovo/oko), [jak](/slovo/jak)</sub>
+  <sub>слова: [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [mama](/slovo/mama), [sen](/slovo/sen), [lekki](/slovo/lekki), [a](/slovo/a), [od](/slovo/od), [chwila](/slovo/chwila), [gdy](/slovo/gdy), [tu](/slovo/tu), `przybyć`, [w](/slovo/w), `charakter`, `sypiać`, [z](/slovo/z), [otworzyć](/slovo/otworzyc), [oko](/slovo/oko), [jak](/slovo/jak)</sub>
 - błahy — 🟡 `błahy` · adj · rank 2191
 - rzucany — 🟡 `rzucać` · verb · rank 1353
 - zakradającego — 🟡 `zakradać` · verb · rank 2194
@@ -445,7 +445,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [istnieć](/slovo/istniec), `przeszkoda`</sub>
 - narzucam — 🟡 `narzucać` · verb · rank 2230
 - **Byłem w trudnym położeniu**  
-  <sub>слова: `były`, [w](/slovo/w), [trudny](/slovo/trudny), `położyć`</sub>
+  <sub>слова: [były](/slovo/byly), [w](/slovo/w), [trudny](/slovo/trudny), `położyć`</sub>
 - zafrasowany — 🟡 `zafrasować` · verb · rank 2231
 - **odwrócił się**  
   <sub>слова: `odwrócić`, [się](/slovo/sie)</sub>
@@ -522,7 +522,7 @@ pnpm dict:status && pnpm generate
 - współczucia — 🟡 `współczucie` · noun · rank 2287
 - **Musimy wpaść na niego znienacka**  
   <sub>слова: [musieć](/slovo/musiec), [wpaść](/slovo/wpasc), [na](/slovo/na), [on](/slovo/on), [znienacka](/slovo/znienacka)</sub>
-- Podobno — 🟡 `podobny` · adj · rank 564
+- Podobno — ✅ [podobny](/slovo/podobny) · adj
 - **Zaległa znowu cisza, przerażająca, złowroga**  
   <sub>слова: `zalec`, [znowu](/slovo/znowu), `cisza`, `przerażać`, `złowrogi`</sub>
 - **W jego głosie brzmiał tłumiony strach**  
@@ -611,7 +611,7 @@ pnpm dict:status && pnpm generate
 - **— Z czegóż się utrzymuje?**  
   <sub>слова: [z](/slovo/z), [czegóż](/slovo/czegoz), [się](/slovo/sie), `utrzymywać`</sub>
 - indagacji — 🟡 `indagacja` · noun · rank 2358
-- podejrzanej — 🟡 `podejrzany` · adj · rank 946
+- podejrzanej — ✅ [podejrzany](/slovo/podejrzany) · adj
 - łańcucha — 🟡 `łańcuch` · noun · rank 2359
 - **Nie darmo tyle lat przebywam w towarzystwie Sherlocka Holmesa**  
   <sub>слова: [nie](/slovo/nie), [darmo](/slovo/darmo), [tyle](/slovo/tyle), `lato`, `przebywać`, [w](/slovo/w), `towarzystwo`</sub>
