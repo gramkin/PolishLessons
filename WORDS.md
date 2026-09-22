@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **294** |
-| В очереди       | **555** |
+| Карточка готова | **297** |
+| В очереди       | **552** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -86,7 +86,7 @@ pnpm dict:status && pnpm generate
 - Wreszcie — ✅ [wreszcie](/slovo/wreszcie) · part
 - olbrzymiego — 🟡 `olbrzymi` · adj · rank 2018
 - dostrzegł — 🟡 `dostrzec` · verb · rank 2019
-- zauważył — 🟡 `zauważyć` · verb · rank 593
+- zauważył — ✅ [zauważyć](/slovo/zauwazyc) · verb
 - gdybym — ✅ [gdyby](/slovo/gdyby) · conj
 - wejście — 🟡 `wejście` · noun · rank 2020
 - szczegół — 🟡 `szczegół` · noun · rank 1284
@@ -114,7 +114,7 @@ pnpm dict:status && pnpm generate
 - dziedzic — 🟡 `dziedzic` · noun · rank 2029
 - **pójdzie wniwecz**  
   <sub>слова: [pójść](/slovo/pojsc), [wniwecz](/slovo/wniwecz)</sub>
-- zastanawiać — 🟡 `zastanawiać` · verb · rank 652
+- zastanawiać — ✅ [zastanawiać](/slovo/zastanawiac) · verb
 - święcie — 🟡 `święcie` · adv · rank 2030
 - Wszak — 🟡 `wszak` · part · rank 2031
 - **— Gotów jestem przypuszczać, że tak jest.**  
@@ -246,7 +246,7 @@ pnpm dict:status && pnpm generate
 - zwężka — 🟡 `zwężka` · noun · rank 2098
 - trzepieośki — ⛔ не распознано
 - ściotkowy — ⛔ не распознано
-- opuścił — 🟡 `opuścić` · verb · rank 546
+- opuścił — ✅ [opuścić](/slovo/opuscic) · verb
 - poderżnąć — 🟡 `poderżnąć` · verb · rank 2099
 - gardło — 🟡 `gardło` · noun · rank 1753
 - jałową — 🟡 `jałowy` · adj · rank 2100
@@ -310,7 +310,7 @@ pnpm dict:status && pnpm generate
 - **— Nie wierzę w te brednie.**  
   <sub>слова: [nie](/slovo/nie), [wierzyć](/slovo/wierzyc), [w](/slovo/w), [ten](/slovo/ten), `brednia`</sub>
 - koniecznie — 🟡 `koniecznie` · adv · rank 2142
-- opuszczenia — 🟡 `opuścić` · verb · rank 546
+- opuszczenia — ✅ [opuścić](/slovo/opuscic) · verb
 - pragnę — 🟡 `pragnąć` · verb · rank 932
 - albowiem — 🟡 `albowiem` · conj · rank 2143
 - bowiem — 🟡 `bowiem` · conj · rank 2144
@@ -384,8 +384,8 @@ pnpm dict:status && pnpm generate
 - względzie — 🟡 `wzgląd` · noun · rank 1029
 - niewiasta — 🟡 `niewiasta` · noun · rank 2188
 - zgryzotę — 🟡 `zgryzota` · noun · rank 2189
-- zastanawiam — 🟡 `zastanawiać` · verb · rank 652
-- Zauważyłem — 🟡 `zauważyć` · verb · rank 593
+- zastanawiam — ✅ [zastanawiać](/slovo/zastanawiac) · verb
+- Zauważyłem — ✅ [zauważyć](/slovo/zauwazyc) · verb
 - posądzeniach — 🟡 `posądzenie` · noun · rank 2190
 - **A jednak sam fakt może się wydać błahy.**  
   <sub>слова: [a](/slovo/a), [jednak](/slovo/jednak), [sam](/slovo/sam), [fakt](/slovo/fakt), [móc](/slovo/moc), [się](/slovo/sie), `wydać`, `błahy`</sub>
@@ -581,7 +581,7 @@ pnpm dict:status && pnpm generate
 - zmierzał — 🟡 `zmierzać` · verb · rank 1498
 - **każdy w kłopocie udawał się do niego**  
   <sub>слова: [każdy](/slovo/kazdy), [w](/slovo/w), [kłopot](/slovo/klopot), `udawać`, [się](/slovo/sie), [do](/slovo/do), [on](/slovo/on)</sub>
-- zauważyłem — 🟡 `zauważyć` · verb · rank 593
+- zauważyłem — ✅ [zauważyć](/slovo/zauwazyc) · verb
 - nietknięty — 🟡 `nietknięty` · adj · rank 2337
 - **otóż moja żona znalazła w popiele z kominka niedopalony szczątek listu**  
   <sub>слова: [otóż](/slovo/otoz), [żona](/slovo/zona), [znaleźć](/slovo/znalezc), [w](/slovo/w), `popiół`, [z](/slovo/z), `kominek`, `dopalić`, `szczątek`, `list`</sub>

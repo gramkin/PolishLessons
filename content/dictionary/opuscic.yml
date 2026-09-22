@@ -1,0 +1,703 @@
+# review
+id: opuscic
+format: 2
+lemma: "opuścić"
+rank: 546
+pos: verb
+aspect: perf
+pron: { cyr: "опу́сьциць" }
+senses:
+  - id: leave
+    ru: "покинуть, оставить (место, человека)"
+    examples:
+      - pl: "Oni opuścili miasto godzinę temu."
+        ru: "Они покинули город час назад."
+        source: { kind: tatoeba, id: 3660903 }
+      - pl: "Załoga opuściła statek."
+        ru: "Экипаж покинул судно."
+        source: { kind: tatoeba, id: 2563939 }
+      - pl: "Nigdy cię nie opuszczę."
+        ru: "Я никогда тебя не покину."
+        source: { kind: translated, id: 1449845 }
+  - id: lower
+    ru: "опустить (руки, голову, глаза)"
+    note: "Здесь opuścić буквально «опустить вниз»: opuść ręce, z opuszczoną głową."
+    examples:
+      - pl: "Opuść ręce."
+        ru: "Опусти руки."
+        source: { kind: translated, id: 349159 }
+      - pl: "Opuściłem ramiona."
+        ru: "Я опустил руки."
+        source: { kind: translated, id: 10236881 }
+      - pl: "Tom idzie powoli z opuszczoną głową."
+        ru: "Том идёт медленно, опустив голову."
+        source: { kind: translated, id: 8809842 }
+  - id: skip
+    ru: "пропустить (урок, вопрос, строку)"
+    examples:
+      - pl: "Opuściła na egzaminie czwarte pytanie."
+        ru: "Она пропустила на экзамене четвёртый вопрос."
+        source: { kind: translated, id: 406287 }
+      - pl: "Nigdy nie opuściłem lekcji."
+        ru: "Я никогда не пропускал уроков."
+        source: { kind: translated, id: 3679842 }
+      - pl: "Czy coś opuściłem?"
+        ru: "Я что-нибудь пропустил?"
+        source: { kind: translated, id: 640697 }
+notes:
+  - { kind: usage, text: "Три значения расходятся далеко: opuścić miasto «покинуть город», opuścić ręce «опустить руки», opuścić lekcję «пропустить урок». Контекст различает их надёжно." }
+  - { kind: usage, text: "Формы opuszczę, opuścisz, opuści — БУДУЩЕЕ время: глагол совершенного вида. Несовершенный — opuszczać." }
+  - { kind: false-friend, text: "Причастие opuszczony значит «заброшенный, покинутый»: opuszczony dom «заброшенный дом». Русское «опущенный» ему соответствует только в прямом смысле (opuszczona głowa «опущенная голова»)." }
+  - { kind: usage, text: "Обратите внимание на чередование ść → szcz по всей парадигме: opuścić, но opuszczę, opuszczony, opuszczenie." }
+collocations:
+  - { pl: "opuścić miasto", ru: "покинуть город" }
+  - { pl: "opuścić ręce", ru: "опустить руки" }
+  - { pl: "opuścić lekcję", ru: "пропустить урок" }
+  - { pl: "opuszczony dom", ru: "заброшенный дом" }
+family:
+  - { pl: "opuszczać", ru: "покидать, опускать", relation: derived }
+  - { pl: "opuszczenie", ru: "оставление, пропуск", relation: derived }
+  - { pl: "opuszczony", ru: "заброшенный", relation: derived }
+etymology: "Приставка o- плюс puścić «пустить», от праславянского *pustiti — то же слово, что русское «пустить». Буквально «отпустить от себя». По всей парадигме идёт чередование ść → szcz: opuścić, но opuszczę, opuszczony."
+memory: "opuścić — «покинуть», но у глагола три расходящихся значения: opuścić miasto «покинуть город», opuścić ręce «опустить руки», opuścić lekcję «пропустить урок». Контекст различает их надёжно. Формы opuszczę, opuścisz — будущее время. И запомните чередование ść → szcz, оно проходит через всю парадигму: opuścić, opuszczę, opuszczony, opuszczenie. Причастие opuszczony чаще всего значит «заброшенный»: opuszczony dom."
+idioms:
+  - { pl: "opuścić ręce", ru: "опустить руки" }
+  - { pl: "opuszczony dom", ru: "заброшенный дом" }
+  - { pl: "opuścić statek", ru: "покинуть судно" }
+formExamples:
+  - form: "opuszczą"
+    pl: "Opuszczą miasto o świcie."
+    ru: "Они покинут город на рассвете."
+    source: { kind: authored }
+  - form: "opuszczą"
+    pl: "Nie opuszczą nas w potrzebie."
+    ru: "Они не покинут нас в беде."
+    source: { kind: authored }
+  - form: "opuszczą"
+    pl: "Opuszczą szkołę po maturze."
+    ru: "Они покинут школу после выпускных."
+    source: { kind: authored }
+  - form: "opuszczeni"
+    pl: "Zostali opuszczeni przez wszystkich."
+    ru: "Они были покинуты всеми."
+    source: { kind: authored }
+  - form: "opuszczeni"
+    pl: "Czuli się opuszczeni i samotni."
+    ru: "Они чувствовали себя покинутыми и одинокими."
+    source: { kind: authored }
+  - form: "opuszczeni"
+    pl: "Opuszczeni żołnierze bronili się sami."
+    ru: "Покинутые солдаты защищались сами."
+    source: { kind: authored }
+  - form: "opuszczenia"
+    pl: "Rodzice chłopca zmusili go do opuszczenia szkoły."
+    ru: "Родители мальчика заставили его бросить школу."
+    source: { kind: translated, id: 676859 }
+  - form: "opuszczenia"
+    pl: "Żałował opuszczenia rodzinnego domu."
+    ru: "Он жалел, что покинул родной дом."
+    source: { kind: authored }
+  - form: "opuszczenia"
+    pl: "Nie było powodu do opuszczenia zajęć."
+    ru: "Не было причины пропускать занятия."
+    source: { kind: authored }
+  - form: "opuszczenie"
+    pl: "Ona zdecydowała się na opuszczenie firmy."
+    ru: "Она решилась покинуть фирму."
+    source: { kind: translated, id: 1085470 }
+  - form: "opuszczenie"
+    pl: "Opuszczenie statku zajęło godzinę."
+    ru: "Оставление судна заняло час."
+    source: { kind: authored }
+  - form: "opuszczenie"
+    pl: "Opuszczenie jednej linijki zmieniło sens."
+    ru: "Пропуск одной строки изменил смысл."
+    source: { kind: authored }
+  - form: "opuszczeniem"
+    pl: "Przed opuszczeniem domu zgasił światło."
+    ru: "Перед уходом из дома он погасил свет."
+    source: { kind: authored }
+  - form: "opuszczeniem"
+    pl: "Między opuszczeniem szkoły a pracą minął rok."
+    ru: "Между уходом из школы и работой прошёл год."
+    source: { kind: authored }
+  - form: "opuszczeniem"
+    pl: "Zaskoczył nas opuszczeniem zebrania."
+    ru: "Он удивил нас тем, что покинул собрание."
+    source: { kind: authored }
+  - form: "opuszczeniu"
+    pl: "Po opuszczeniu miasta odetchnął."
+    ru: "Покинув город, он вздохнул свободнее."
+    source: { kind: authored }
+  - form: "opuszczeniu"
+    pl: "Mówili o opuszczeniu statku."
+    ru: "Они говорили об оставлении судна."
+    source: { kind: authored }
+  - form: "opuszczeniu"
+    pl: "Po opuszczeniu szkoły znalazł pracę."
+    ru: "Покинув школу, он нашёл работу."
+    source: { kind: authored }
+  - form: "opuszczę"
+    pl: "Ja nie opuszczę ciebie ponownie."
+    ru: "Я не покину тебя снова."
+    source: { kind: tatoeba, id: 13781653 }
+  - form: "opuszczę"
+    pl: "Nie opuszczę cię."
+    ru: "Я тебя не покину."
+    source: { kind: translated, id: 3841244 }
+  - form: "opuszczę"
+    pl: "Przyrzekam, że cię nigdy nie opuszczę."
+    ru: "Обещаю, что никогда тебя не покину."
+    source: { kind: translated, id: 967039 }
+  - form: "opuszczona"
+    pl: "Wieś była opuszczona od lat."
+    ru: "Деревня была заброшена много лет."
+    source: { kind: authored }
+  - form: "opuszczona"
+    pl: "Została opuszczona przez przyjaciół."
+    ru: "Она была покинута друзьями."
+    source: { kind: authored }
+  - form: "opuszczona"
+    pl: "Ta kopalnia jest opuszczona."
+    ru: "Эта шахта заброшена."
+    source: { kind: authored }
+  - form: "opuszczoną"
+    pl: "Tom idzie powoli z opuszczoną głową."
+    ru: "Том идёт медленно, опустив голову."
+    source: { kind: translated, id: 8809842 }
+  - form: "opuszczoną"
+    pl: "Znalazł opuszczoną wioskę."
+    ru: "Он нашёл заброшенную деревню."
+    source: { kind: authored }
+  - form: "opuszczoną"
+    pl: "Szedł z opuszczoną głową."
+    ru: "Он шёл с опущенной головой."
+    source: { kind: authored }
+  - form: "opuszczone"
+    pl: "Dżungla pochłonęła to opuszczone miasto."
+    ru: "Джунгли поглотили этот заброшенный город."
+    source: { kind: translated, id: 13971330 }
+  - form: "opuszczone"
+    pl: "Te wsie są od lat opuszczone."
+    ru: "Эти деревни годами заброшены."
+    source: { kind: authored }
+  - form: "opuszczone"
+    pl: "Gniazda zostały opuszczone."
+    ru: "Гнёзда были покинуты."
+    source: { kind: authored }
+  - form: "opuszczonego"
+    pl: "Jako test odwagi, może wejdziesz teraz do tamtego opuszczonego budynku? Jest podobno znany jako nawiedzone miejsce."
+    ru: "На спор — может, зайдёшь сейчас в то заброшенное здание?"
+    source: { kind: translated, id: 3464583 }
+  - form: "opuszczonego"
+    pl: "Nie znalazł opuszczonego domu."
+    ru: "Он не нашёл заброшенного дома."
+    source: { kind: authored }
+  - form: "opuszczonego"
+    pl: "Szukali opuszczonego kota."
+    ru: "Они искали брошенного кота."
+    source: { kind: authored }
+  - form: "opuszczonej"
+    pl: "Nie znalazł opuszczonej wsi na mapie."
+    ru: "Он не нашёл заброшенной деревни на карте."
+    source: { kind: authored }
+  - form: "opuszczonej"
+    pl: "Mieszkali w opuszczonej chacie."
+    ru: "Они жили в заброшенной хате."
+    source: { kind: authored }
+  - form: "opuszczonej"
+    pl: "Historia opuszczonej kopalni jest ponura."
+    ru: "История заброшенной шахты мрачна."
+    source: { kind: authored }
+  - form: "opuszczonemu"
+    pl: "Pomogli opuszczonemu psu."
+    ru: "Они помогли брошенному псу."
+    source: { kind: authored }
+  - form: "opuszczonemu"
+    pl: "Przyjrzyj się opuszczonemu budynkowi."
+    ru: "Присмотрись к заброшенному зданию."
+    source: { kind: authored }
+  - form: "opuszczonemu"
+    pl: "Dali schronienie opuszczonemu dziecku."
+    ru: "Они дали приют брошенному ребёнку."
+    source: { kind: authored }
+  - form: "opuszczono"
+    pl: "Opuszczono statek w ciągu godziny."
+    ru: "Судно покинули в течение часа."
+    source: { kind: authored }
+  - form: "opuszczono"
+    pl: "Wieś opuszczono po powodzi."
+    ru: "Деревню покинули после наводнения."
+    source: { kind: authored }
+  - form: "opuszczono"
+    pl: "Opuszczono flagę do połowy masztu."
+    ru: "Флаг приспустили до середины мачты."
+    source: { kind: authored }
+  - form: "opuszczony"
+    pl: "Jest opuszczony."
+    ru: "Он заброшен."
+    source: { kind: translated, id: 6328351 }
+  - form: "opuszczony"
+    pl: "Cały budynek był opuszczony."
+    ru: "Всё здание было заброшено."
+    source: { kind: translated, id: 4953071 }
+  - form: "opuszczony"
+    pl: "Dom na rogu wygląda na opuszczony."
+    ru: "Дом на углу выглядит заброшенным."
+    source: { kind: translated, id: 3697591 }
+  - form: "opuszczonych"
+    pl: "Nie ma tu opuszczonych domów."
+    ru: "Здесь нет заброшенных домов."
+    source: { kind: authored }
+  - form: "opuszczonych"
+    pl: "Wśród opuszczonych wsi była i nasza."
+    ru: "Среди заброшенных деревень была и наша."
+    source: { kind: authored }
+  - form: "opuszczonych"
+    pl: "Zajmuje się losem opuszczonych zwierząt."
+    ru: "Он занимается судьбой брошенных животных."
+    source: { kind: authored }
+  - form: "opuszczonym"
+    pl: "Ukrył się w opuszczonym budynku."
+    ru: "Он спрятался в заброшенном здании."
+    source: { kind: translated, id: 527558 }
+  - form: "opuszczonym"
+    pl: "Wszystkie meble w opuszczonym domu były pokryte kurzem."
+    ru: "Вся мебель в заброшенном доме была покрыта пылью."
+    source: { kind: translated, id: 10996827 }
+  - form: "opuszczonym"
+    pl: "Mieszkali w opuszczonym gospodarstwie."
+    ru: "Они жили на заброшенном хуторе."
+    source: { kind: authored }
+  - form: "opuszczonymi"
+    pl: "Opiekuje się opuszczonymi zwierzętami."
+    ru: "Он заботится о брошенных животных."
+    source: { kind: authored }
+  - form: "opuszczonymi"
+    pl: "Między opuszczonymi domami rosła trawa."
+    ru: "Между заброшенными домами росла трава."
+    source: { kind: authored }
+  - form: "opuszczonymi"
+    pl: "Zajmują się opuszczonymi dziećmi."
+    ru: "Они занимаются брошенными детьми."
+    source: { kind: authored }
+  - form: "opuści"
+    pl: "Kiedy Tomek opuści Boston?"
+    ru: "Когда Том покинет Бостон?"
+    source: { kind: translated, id: 12453982 }
+  - form: "opuści"
+    pl: "Czy Grecja opuści strefę euro?"
+    ru: "Покинет ли Греция еврозону?"
+    source: { kind: translated, id: 2278934 }
+  - form: "opuści"
+    pl: "Wierzę, że siła ducha nigdy cię nie opuści."
+    ru: "Я верю, что сила духа никогда тебя не покинет."
+    source: { kind: translated, id: 440440 }
+  - form: "opuścicie"
+    pl: "Kiedy opuścicie Warszawę?"
+    ru: "Когда вы покинете Варшаву?"
+    source: { kind: authored }
+  - form: "opuścicie"
+    pl: "Nie opuścicie nas, prawda?"
+    ru: "Вы нас не покинете, правда?"
+    source: { kind: authored }
+  - form: "opuścicie"
+    pl: "Opuścicie salę po egzaminie."
+    ru: "Вы покинете зал после экзамена."
+    source: { kind: authored }
+  - form: "opuścić"
+    pl: "Opuścić statek!"
+    ru: "Покинуть судно!"
+    source: { kind: translated, id: 5627116 }
+  - form: "opuścić"
+    pl: "Musiał opuścić wioskę."
+    ru: "Ему пришлось покинуть деревню."
+    source: { kind: translated, id: 366943 }
+  - form: "opuścić"
+    pl: "Zamierzam opuścić szkołę."
+    ru: "Я собираюсь бросить школу."
+    source: { kind: translated, id: 458454 }
+  - form: "opuścili"
+    pl: "Oni opuścili miasto godzinę temu."
+    ru: "Они покинули город час назад."
+    source: { kind: tatoeba, id: 3660903 }
+  - form: "opuścili"
+    pl: "Oni opuścili pokój."
+    ru: "Они покинули комнату."
+    source: { kind: translated, id: 12954442 }
+  - form: "opuścili"
+    pl: "Opuścili go przyjaciele."
+    ru: "Друзья его покинули."
+    source: { kind: translated, id: 980244 }
+  - form: "opuściliby"
+    pl: "Opuściliby wieś, gdyby mieli dokąd."
+    ru: "Они покинули бы деревню, будь им куда."
+    source: { kind: authored }
+  - form: "opuściliby"
+    pl: "Nie opuściliby statku pierwsi."
+    ru: "Они не покинули бы судно первыми."
+    source: { kind: authored }
+  - form: "opuściliby"
+    pl: "Opuściliby zebranie wcześniej."
+    ru: "Они покинули бы собрание раньше."
+    source: { kind: authored }
+  - form: "opuścilibyście"
+    pl: "Opuścilibyście dom rodzinny?"
+    ru: "Вы покинули бы родной дом?"
+    source: { kind: authored }
+  - form: "opuścilibyście"
+    pl: "Nie opuścilibyście przyjaciela."
+    ru: "Вы не покинули бы друга."
+    source: { kind: authored }
+  - form: "opuścilibyście"
+    pl: "Opuścilibyście zajęcia?"
+    ru: "Вы пропустили бы занятия?"
+    source: { kind: authored }
+  - form: "opuścilibyśmy"
+    pl: "Opuścilibyśmy miasto o świcie."
+    ru: "Мы покинули бы город на рассвете."
+    source: { kind: authored }
+  - form: "opuścilibyśmy"
+    pl: "Nie opuścilibyśmy was."
+    ru: "Мы не покинули бы вас."
+    source: { kind: authored }
+  - form: "opuścilibyśmy"
+    pl: "Opuścilibyśmy jedno zadanie."
+    ru: "Мы пропустили бы одно задание."
+    source: { kind: authored }
+  - form: "opuściliście"
+    pl: "Dlaczego opuściliście zebranie?"
+    ru: "Почему вы покинули собрание?"
+    source: { kind: authored }
+  - form: "opuściliście"
+    pl: "Opuściliście miasto na czas."
+    ru: "Вы покинули город вовремя."
+    source: { kind: authored }
+  - form: "opuściliście"
+    pl: "Opuściliście jedną linijkę."
+    ru: "Вы пропустили одну строку."
+    source: { kind: authored }
+  - form: "opuściliśmy"
+    pl: "Opuściliśmy dom."
+    ru: "Мы покинули дом."
+    source: { kind: translated, id: 12954415 }
+  - form: "opuściliśmy"
+    pl: "Opuściliśmy Afrykę na zawsze."
+    ru: "Мы покинули Африку навсегда."
+    source: { kind: translated, id: 789124 }
+  - form: "opuściliśmy"
+    pl: "Opuściliśmy zebranie przed końcem."
+    ru: "Мы покинули собрание до конца."
+    source: { kind: authored }
+  - form: "opuścił"
+    pl: "Opuścił firmę."
+    ru: "Он покинул фирму."
+    source: { kind: translated, id: 4757770 }
+  - form: "opuścił"
+    pl: "Tom opuścił dom."
+    ru: "Том покинул дом."
+    source: { kind: translated, id: 4258322 }
+  - form: "opuścił"
+    pl: "Tom nas opuścił."
+    ru: "Том нас покинул."
+    source: { kind: translated, id: 8547670 }
+  - form: "opuściła"
+    pl: "Załoga opuściła statek."
+    ru: "Экипаж покинул судно."
+    source: { kind: tatoeba, id: 2563939 }
+  - form: "opuściła"
+    pl: "Opuściła firmę."
+    ru: "Она покинула фирму."
+    source: { kind: translated, id: 4757769 }
+  - form: "opuściła"
+    pl: "Ona opuściła szkołę dwa lata temu."
+    ru: "Она бросила школу два года назад."
+    source: { kind: translated, id: 528929 }
+  - form: "opuściłaby"
+    pl: "Opuściłaby firmę, gdyby miała inną ofertę."
+    ru: "Она покинула бы фирму, будь у неё другое предложение."
+    source: { kind: authored }
+  - form: "opuściłaby"
+    pl: "Nie opuściłaby dzieci."
+    ru: "Она не покинула бы детей."
+    source: { kind: authored }
+  - form: "opuściłaby"
+    pl: "Opuściłaby jedno pytanie."
+    ru: "Она пропустила бы один вопрос."
+    source: { kind: authored }
+  - form: "opuściłabym"
+    pl: "Opuściłabym to miejsce od razu."
+    ru: "Я покинула бы это место сразу."
+    source: { kind: authored }
+  - form: "opuściłabym"
+    pl: "Nie opuściłabym cię."
+    ru: "Я не покинула бы тебя."
+    source: { kind: authored }
+  - form: "opuściłabym"
+    pl: "Opuściłabym jedną lekcję."
+    ru: "Я пропустила бы один урок."
+    source: { kind: authored }
+  - form: "opuściłabyś"
+    pl: "Opuściłabyś dla niego kraj?"
+    ru: "Ты покинула бы ради него страну?"
+    source: { kind: authored }
+  - form: "opuściłabyś"
+    pl: "Nie opuściłabyś przyjaciółki."
+    ru: "Ты не покинула бы подругу."
+    source: { kind: authored }
+  - form: "opuściłabyś"
+    pl: "Opuściłabyś zajęcia?"
+    ru: "Ты пропустила бы занятия?"
+    source: { kind: authored }
+  - form: "opuściłam"
+    pl: "Opuściłam dom o świcie."
+    ru: "Я покинула дом на рассвете."
+    source: { kind: authored }
+  - form: "opuściłam"
+    pl: "Opuściłam jedno pytanie."
+    ru: "Я пропустила один вопрос."
+    source: { kind: authored }
+  - form: "opuściłam"
+    pl: "Nigdy go nie opuściłam."
+    ru: "Я никогда его не покидала."
+    source: { kind: authored }
+  - form: "opuściłaś"
+    pl: "Dlaczego opuściłaś szkołę?"
+    ru: "Почему ты бросила школу?"
+    source: { kind: authored }
+  - form: "opuściłaś"
+    pl: "Opuściłaś nas bez słowa."
+    ru: "Ты покинула нас без слова."
+    source: { kind: authored }
+  - form: "opuściłaś"
+    pl: "Opuściłaś jedną stronę."
+    ru: "Ты пропустила одну страницу."
+    source: { kind: authored }
+  - form: "opuściłby"
+    pl: "Opuściłby miasto, gdyby mógł."
+    ru: "Он покинул бы город, если бы мог."
+    source: { kind: authored }
+  - form: "opuściłby"
+    pl: "Nikt nie opuściłby go w potrzebie."
+    ru: "Никто не покинул бы его в беде."
+    source: { kind: authored }
+  - form: "opuściłby"
+    pl: "Opuściłby lekcję tylko z powodu choroby."
+    ru: "Он пропустил бы урок только по болезни."
+    source: { kind: authored }
+  - form: "opuściłbym"
+    pl: "Opuściłbym to miasto bez żalu."
+    ru: "Я покинул бы этот город без сожаления."
+    source: { kind: authored }
+  - form: "opuściłbym"
+    pl: "Nie opuściłbym cię nigdy."
+    ru: "Я никогда бы тебя не покинул."
+    source: { kind: authored }
+  - form: "opuściłbym"
+    pl: "Opuściłbym jedno pytanie."
+    ru: "Я пропустил бы один вопрос."
+    source: { kind: authored }
+  - form: "opuściłbyś"
+    pl: "Opuściłbyś dom rodzinny?"
+    ru: "Ты покинул бы родной дом?"
+    source: { kind: authored }
+  - form: "opuściłbyś"
+    pl: "Nie opuściłbyś przyjaciela."
+    ru: "Ты не покинул бы друга."
+    source: { kind: authored }
+  - form: "opuściłbyś"
+    pl: "Opuściłbyś zajęcia dla tego?"
+    ru: "Ты пропустил бы занятия ради этого?"
+    source: { kind: authored }
+  - form: "opuściłem"
+    pl: "Opuściłem ramiona."
+    ru: "Я опустил руки."
+    source: { kind: translated, id: 10236881 }
+  - form: "opuściłem"
+    pl: "Opuściłem moją żonę."
+    ru: "Я оставил жену."
+    source: { kind: translated, id: 8732553 }
+  - form: "opuściłem"
+    pl: "Nigdy nie opuściłem lekcji."
+    ru: "Я никогда не пропускал уроков."
+    source: { kind: translated, id: 3679842 }
+  - form: "opuściłeś"
+    pl: "Opuściłeś mnie."
+    ru: "Ты меня покинул."
+    source: { kind: translated, id: 3817518 }
+  - form: "opuściłeś"
+    pl: "Dlaczego mnie opuściłeś?"
+    ru: "Почему ты меня покинул?"
+    source: { kind: translated, id: 3430071 }
+  - form: "opuściłeś"
+    pl: "Czemu opuściłeś Australię?"
+    ru: "Почему ты покинул Австралию?"
+    source: { kind: translated, id: 6603027 }
+  - form: "opuściło"
+    pl: "Dwóch graczy opuściło mecz."
+    ru: "Двое игроков покинули матч."
+    source: { kind: translated, id: 12069405 }
+  - form: "opuściło"
+    pl: "Dziecko opuściło salę bez słowa."
+    ru: "Ребёнок покинул зал без слова."
+    source: { kind: authored }
+  - form: "opuściło"
+    pl: "Szczęście go opuściło."
+    ru: "Удача его покинула."
+    source: { kind: authored }
+  - form: "opuściłoby"
+    pl: "Dziecko nie opuściłoby matki."
+    ru: "Ребёнок не покинул бы мать."
+    source: { kind: authored }
+  - form: "opuściłoby"
+    pl: "To opuściłoby ważny szczegół."
+    ru: "Это опустило бы важную деталь."
+    source: { kind: authored }
+  - form: "opuściłoby"
+    pl: "Wojsko opuściłoby miasto bez walki."
+    ru: "Войско покинуло бы город без боя."
+    source: { kind: authored }
+  - form: "opuściły"
+    pl: "Moje siły mnie całkiem opuściły."
+    ru: "Силы меня совсем оставили."
+    source: { kind: translated, id: 9686493 }
+  - form: "opuściły"
+    pl: "Ptaki naraz opuściły swoje gniazda."
+    ru: "Птицы разом покинули свои гнёзда."
+    source: { kind: translated, id: 4817830 }
+  - form: "opuściły"
+    pl: "Dziewczyny opuściły salę pierwsze."
+    ru: "Девушки покинули зал первыми."
+    source: { kind: authored }
+  - form: "opuściłyby"
+    pl: "Ptaki opuściłyby gniazda wcześniej."
+    ru: "Птицы покинули бы гнёзда раньше."
+    source: { kind: authored }
+  - form: "opuściłyby"
+    pl: "Dziewczyny nie opuściłyby drużyny."
+    ru: "Девушки не покинули бы команду."
+    source: { kind: authored }
+  - form: "opuściłyby"
+    pl: "Siły opuściłyby go po godzinie."
+    ru: "Силы покинули бы его через час."
+    source: { kind: authored }
+  - form: "opuściłybyście"
+    pl: "Opuściłybyście nas?"
+    ru: "Вы покинули бы нас?"
+    source: { kind: authored }
+  - form: "opuściłybyście"
+    pl: "Nie opuściłybyście przyjaciółki."
+    ru: "Вы не покинули бы подругу."
+    source: { kind: authored }
+  - form: "opuściłybyście"
+    pl: "Opuściłybyście zajęcia?"
+    ru: "Вы пропустили бы занятия?"
+    source: { kind: authored }
+  - form: "opuściłybyśmy"
+    pl: "Opuściłybyśmy miasto razem."
+    ru: "Мы вместе покинули бы город."
+    source: { kind: authored }
+  - form: "opuściłybyśmy"
+    pl: "Nie opuściłybyśmy jej."
+    ru: "Мы не покинули бы её."
+    source: { kind: authored }
+  - form: "opuściłybyśmy"
+    pl: "Opuściłybyśmy jedno pytanie."
+    ru: "Мы пропустили бы один вопрос."
+    source: { kind: authored }
+  - form: "opuściłyście"
+    pl: "Kiedy opuściłyście dom?"
+    ru: "Когда вы покинули дом?"
+    source: { kind: authored }
+  - form: "opuściłyście"
+    pl: "Opuściłyście nas bez pożegnania."
+    ru: "Вы покинули нас не попрощавшись."
+    source: { kind: authored }
+  - form: "opuściłyście"
+    pl: "Opuściłyście jedną linijkę."
+    ru: "Вы пропустили одну строку."
+    source: { kind: authored }
+  - form: "opuściłyśmy"
+    pl: "Opuściłyśmy miasto razem."
+    ru: "Мы вместе покинули город."
+    source: { kind: authored }
+  - form: "opuściłyśmy"
+    pl: "Opuściłyśmy zebranie wcześniej."
+    ru: "Мы покинули собрание раньше."
+    source: { kind: authored }
+  - form: "opuściłyśmy"
+    pl: "Opuściłyśmy jedno zadanie."
+    ru: "Мы пропустили одно задание."
+    source: { kind: authored }
+  - form: "opuścimy"
+    pl: "Obiecaliśmy sobie, że się nie opuścimy."
+    ru: "Мы обещали друг другу, что не покинем друг друга."
+    source: { kind: translated, id: 919537 }
+  - form: "opuścimy"
+    pl: "Opuścimy miasto o świcie."
+    ru: "Мы покинем город на рассвете."
+    source: { kind: authored }
+  - form: "opuścimy"
+    pl: "Nie opuścimy cię w potrzebie."
+    ru: "Мы не покинем тебя в беде."
+    source: { kind: authored }
+  - form: "opuścisz"
+    pl: "Będziemy okropnie tęsknić jeżeli opuścisz Japonię."
+    ru: "Мы будем ужасно скучать, если ты покинешь Японию."
+    source: { kind: translated, id: 524563 }
+  - form: "opuścisz"
+    pl: "Kiedy opuścisz szpital?"
+    ru: "Когда ты выпишешься из больницы?"
+    source: { kind: authored }
+  - form: "opuścisz"
+    pl: "Opuścisz nas tak po prostu?"
+    ru: "Ты вот так просто нас покинешь?"
+    source: { kind: authored }
+  - form: "opuściwszy"
+    pl: "Opuściwszy miasto, odetchnął."
+    ru: "Покинув город, он вздохнул свободнее."
+    source: { kind: authored }
+  - form: "opuściwszy"
+    pl: "Opuściwszy szkołę, poszedł do pracy."
+    ru: "Покинув школу, он пошёл работать."
+    source: { kind: authored }
+  - form: "opuściwszy"
+    pl: "Opuściwszy głowę, milczał."
+    ru: "Опустив голову, он молчал."
+    source: { kind: authored }
+  - form: "opuść"
+    pl: "Opuść ręce."
+    ru: "Опусти руки."
+    source: { kind: translated, id: 349159 }
+  - form: "opuść"
+    pl: "Opuść pokój."
+    ru: "Покинь комнату."
+    source: { kind: translated, id: 1351749 }
+  - form: "opuść"
+    pl: "Opuść miasto."
+    ru: "Покинь город."
+    source: { kind: translated, id: 12453610 }
+  - form: "opuśćcie"
+    pl: "Opuśćcie statek."
+    ru: "Покиньте судно."
+    source: { kind: translated, id: 10596408 }
+  - form: "opuśćcie"
+    pl: "Opuśćcie broń."
+    ru: "Опустите оружие."
+    source: { kind: authored }
+  - form: "opuśćcie"
+    pl: "Opuśćcie salę po dzwonku."
+    ru: "Покиньте зал после звонка."
+    source: { kind: authored }
+  - form: "opuśćmy"
+    pl: "Opuśćmy budynek."
+    ru: "Покинем здание."
+    source: { kind: translated, id: 6603200 }
+  - form: "opuśćmy"
+    pl: "Opuśćmy to miejsce."
+    ru: "Покинем это место."
+    source: { kind: authored }
+  - form: "opuśćmy"
+    pl: "Opuśćmy ten temat."
+    ru: "Опустим эту тему."
+    source: { kind: authored }
