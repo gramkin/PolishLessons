@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **311** |
-| В очереди       | **538** |
+| Карточка готова | **314** |
+| В очереди       | **535** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -56,7 +56,7 @@ pnpm dict:status && pnpm generate
 
 ## Список
 
-- ktokolwiek — 🟡 `ktokolwiek` · noun · rank 729
+- ktokolwiek — ✅ [ktokolwiek](/slovo/ktokolwiek) · noun
 - wynikającego — 🟡 `wynikać` · verb · rank 2001
 - mianowicie — ✅ [mianowicie](/slovo/mianowicie) · conj
 - handlujący — 🟡 `handlować` · verb · rank 2002
@@ -264,7 +264,7 @@ pnpm dict:status && pnpm generate
 - **Odwróciłem się pewien, że ujrzę doktora Mortimera, lecz ku mojemu zdziwieniu, zobaczyłem nieznajomego.**  
   <sub>слова: `odwrócić`, [się](/slovo/sie), [pewien](/slovo/pewien), [że](/slovo/ze), `ujrzeć`, [doktor](/slovo/doktor), [lecz](/slovo/lecz), `ku`, [mój](/slovo/moj), `zdziwienie`, [zobaczyć](/slovo/zobaczyc), [nieznajomy](/slovo/nieznajomy)</sub>
 - **złamała mu się noga, zepsuł mi się samochód.**  
-  <sub>слова: `złamać`, [on](/slovo/on), [się](/slovo/sie), [noga](/slovo/noga), `zepsuć`, [samochód](/slovo/samochod)</sub>
+  <sub>слова: [złamać](/slovo/zlamac), [on](/slovo/on), [się](/slovo/sie), [noga](/slovo/noga), `zepsuć`, [samochód](/slovo/samochod)</sub>
 - biedak — 🟡 `biedak` · noun · rank 2112
 - **— Pan je zgłębiłeś?**  
   <sub>слова: [pan](/slovo/pan), [on](/slovo/on), `zgłębić`</sub>
@@ -390,7 +390,7 @@ pnpm dict:status && pnpm generate
 - **A jednak sam fakt może się wydać błahy.**  
   <sub>слова: [a](/slovo/a), [jednak](/slovo/jednak), [sam](/slovo/sam), [fakt](/slovo/fakt), [móc](/slovo/moc), [się](/slovo/sie), [wydać](/slovo/wydac), `błahy`</sub>
 - **Wiesz, że mam sen lekki, a od chwili, gdym tu przybył w charakterze anioła-stróża, sypiam z otwartymi oczyma, jak zając.**  
-  <sub>слова: [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [mama](/slovo/mama), [sen](/slovo/sen), [lekki](/slovo/lekki), [a](/slovo/a), [od](/slovo/od), [chwila](/slovo/chwila), [gdy](/slovo/gdy), [tu](/slovo/tu), `przybyć`, [w](/slovo/w), `charakter`, `sypiać`, [z](/slovo/z), [otworzyć](/slovo/otworzyc), [oko](/slovo/oko), [jak](/slovo/jak)</sub>
+  <sub>слова: [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [mama](/slovo/mama), [sen](/slovo/sen), [lekki](/slovo/lekki), [a](/slovo/a), [od](/slovo/od), [chwila](/slovo/chwila), [gdy](/slovo/gdy), [tu](/slovo/tu), [przybyć](/slovo/przybyc), [w](/slovo/w), `charakter`, `sypiać`, [z](/slovo/z), [otworzyć](/slovo/otworzyc), [oko](/slovo/oko), [jak](/slovo/jak)</sub>
 - błahy — 🟡 `błahy` · adj · rank 2191
 - rzucany — 🟡 `rzucać` · verb · rank 1353
 - zakradającego — 🟡 `zakradać` · verb · rank 2194
