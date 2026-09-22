@@ -1,0 +1,61 @@
+# review
+id: poniewaz
+format: 2
+lemma: "ponieważ"
+rank: 288
+pos: conj
+pron: { cyr: "поне́важ" }
+senses:
+  - id: because
+    ru: "потому что, так как"
+    examples:
+      - pl: "Jestem zmęczona ponieważ biegałam."
+        ru: "Я устала, потому что бегала."
+        source: { kind: tatoeba, id: 6109619 }
+      - pl: "Ponieważ tam jest."
+        ru: "Потому что он там."
+        source: { kind: translated, id: 539979 }
+      - pl: "Nie przyszedł, ponieważ był chory."
+        ru: "Он не пришёл, потому что был болен."
+        source: { kind: authored }
+  - id: since
+    ru: "поскольку (в начале предложения)"
+    note: "В отличие от bo, ponieważ может открывать предложение."
+    examples:
+      - pl: "Ponieważ pada, zostajemy w domu."
+        ru: "Поскольку идёт дождь, мы остаёмся дома."
+        source: { kind: authored }
+      - pl: "Ponieważ nie miał czasu, odwołał spotkanie."
+        ru: "Поскольку у него не было времени, он отменил встречу."
+        source: { kind: authored }
+      - pl: "Ponieważ jesteś tu pierwszy raz, pokażę ci miasto."
+        ru: "Раз ты здесь впервые, я покажу тебе город."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Главное отличие от bo: ponieważ может стоять в начале предложения, а bo — только в середине. Ponieważ pada, zostajemy w domu, но Zostajemy w domu, bo pada." }
+  - { kind: usage, text: "Третий синоним — dlatego że; он тоже идёт после главного предложения." }
+  - { kind: usage, text: "Перед ponieważ в середине предложения ставится запятая: Nie przyszedł, ponieważ był chory." }
+collocations:
+  - { pl: "ponieważ tak", ru: "потому что так" }
+  - { pl: "ponieważ nie", ru: "поскольку не" }
+  - { pl: "właśnie dlatego", ru: "именно поэтому" }
+  - { pl: "dlatego że", ru: "потому что" }
+etymology: "Сложный союз, сложившийся из нескольких слов (po + niż + że); синонимы — bo и dlatego że."
+memory: "ponieważ и bo оба значат «потому что», но ponieważ может открывать предложение: Ponieważ pada, zostajemy w domu. А bo — только в середине."
+idioms:
+  - { pl: "ponieważ tak trzeba", ru: "потому что так надо" }
+  - { pl: "dlatego że", ru: "потому что" }
+  - { pl: "właśnie dlatego", ru: "именно поэтому" }
+formExamples:
+  - form: "ponieważ"
+    pl: "Jestem zmęczona ponieważ biegałam."
+    ru: "Я устала, потому что бегала."
+    source: { kind: tatoeba, id: 6109619 }
+  - form: "ponieważ"
+    pl: "Ponieważ tam jest."
+    ru: "Потому что он там."
+    source: { kind: translated, id: 539979 }
+  - form: "ponieważ"
+    pl: "Ponieważ pada, zostajemy w domu."
+    ru: "Поскольку идёт дождь, мы остаёмся дома."
+    source: { kind: authored }

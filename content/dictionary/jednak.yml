@@ -1,0 +1,64 @@
+# review
+id: jednak
+format: 2
+lemma: "jednak"
+rank: 376
+pos: conj
+pron: { cyr: "е́днак" }
+senses:
+  - id: however
+    ru: "однако, но"
+    examples:
+      - pl: "Sprzęt wrócił z gwarancji, jednak usterka nie została naprawiona."
+        ru: "Оборудование вернулось с гарантийного ремонта, однако неисправность не была устранена."
+        source: { kind: tatoeba, id: 6207860 }
+      - pl: "Chciałem przyjść, jednak zachorowałem."
+        ru: "Я хотел прийти, однако заболел."
+        source: { kind: authored }
+      - pl: "Jest drogi, jednak wart swojej ceny."
+        ru: "Он дорогой, однако стоит своих денег."
+        source: { kind: authored }
+  - id: after-all
+    ru: "всё-таки, всё же"
+    examples:
+      - pl: "Jednak odmówię."
+        ru: "И всё-таки я откажусь."
+        source: { kind: translated, id: 6729704 }
+      - pl: "A jednak się kręci."
+        ru: "И всё-таки она вертится."
+        source: { kind: authored }
+      - pl: "Jednak przyszedł."
+        ru: "Он всё-таки пришёл."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "jednak вводит противопоставление — «однако, всё же»: Jest mały, jednak silny «Он маленький, однако сильный»." }
+  - { kind: usage, text: "a jednak — усиленное «и всё-таки»: A jednak się kręci «И всё-таки она вертится»." }
+  - { kind: usage, text: "В отличие от ale «но», jednak не обязано стоять в начале придаточного: On jednak przyszedł «Он всё-таки пришёл» — слово спокойно уходит внутрь предложения." }
+  - { kind: false-friend, text: "Не путайте jednak «однако» с jedna «одна» (женский род от jeden) и jednakowy «одинаковый»." }
+collocations:
+  - { pl: "a jednak", ru: "и всё-таки" }
+  - { pl: "jednak nie", ru: "всё-таки нет" }
+  - { pl: "jednak tak", ru: "всё-таки да" }
+etymology: "Из jedno «одно» с суффиксом -ak; русское «однако» устроено точно так же — «одно» + «как»."
+memory: "jednak — «однако, всё-таки», и собрано оно из того же кирпича, что русское «однако»: внутри jedno «одно». Запомните фразу A jednak się kręci — «И всё-таки она вертится»."
+idioms:
+  - { pl: "a jednak", ru: "и всё-таки" }
+  - { pl: "a jednak się kręci", ru: "и всё-таки она вертится" }
+  - { pl: "jednak nie", ru: "всё-таки нет" }
+formExamples:
+  - form: "jednak"
+    pl: "Sprzęt wrócił z gwarancji, jednak usterka nie została naprawiona."
+    ru: "Оборудование вернулось с гарантийного ремонта, однако неисправность не была устранена."
+    source: { kind: tatoeba, id: 6207860 }
+  - form: "jednak"
+    pl: "Jednak odmówię."
+    ru: "И всё-таки я откажусь."
+    source: { kind: translated, id: 6729704 }
+  - form: "jednak"
+    pl: "Jest mały, jednak silny."
+    ru: "Он маленький, однако сильный."
+    source: { kind: authored }
+  - form: "jednak"
+    pl: "Jednak masz rację."
+    ru: "И всё же ты прав."
+    source: { kind: authored }

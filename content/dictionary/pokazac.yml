@@ -1,0 +1,687 @@
+# review
+id: pokazac
+format: 2
+lemma: "pokazać"
+rank: 268
+pos: verb
+aspect: perf
+pron: { cyr: "пока́заць" }
+senses:
+  - id: show
+    ru: "показать (что-либо)"
+    examples:
+      - pl: "Pokaż nam drogę!"
+        ru: "Покажи нам дорогу!"
+        source: { kind: tatoeba, id: 8446168 }
+      - pl: "Pokaż mi pieniądze."
+        ru: "Покажи мне деньги."
+        source: { kind: tatoeba, id: 3526139 }
+      - pl: "Pokazał mi swój album."
+        ru: "Он показал мне свой альбом."
+        source: { kind: tatoeba, id: 742715 }
+  - id: show-to
+    ru: "показать кому-либо; pokazać się — показаться, появиться"
+    note: "pokazać komuś coś — дательный и винительный, как в русском."
+    examples:
+      - pl: "Tom pokazał mi to."
+        ru: "Том показал мне это."
+        source: { kind: tatoeba, id: 3416422 }
+      - pl: "Pokazał tobie zdjęcie?"
+        ru: "Он показал тебе фотографию?"
+        source: { kind: tatoeba, id: 3696314 }
+      - pl: "Pokażę ci, że mam rację."
+        ru: "Я докажу тебе, что прав."
+        source: { kind: tatoeba, id: 6316952 }
+notes:
+  - { kind: usage, text: "Управление совпадает с русским: pokazać komuś coś — Pokaż mi drogę «Покажи мне дорогу», Pokazał nam zdjęcia." }
+  - { kind: usage, text: "Возвратное pokazać się значит «показаться, появиться»: Pokazało się słońce «Показалось солнце»." }
+  - { kind: usage, text: "Несовершенный вид — pokazywać: Pokazuję mu miasto." }
+  - { kind: usage, text: "Корень kazać значит «велеть», но в паре с po- дал «показать» — как русские «казать», «показать», «сказать»." }
+collocations:
+  - { pl: "pokazać drogę", ru: "показать дорогу" }
+  - { pl: "pokazać się", ru: "показаться" }
+  - { pl: "pokaż mi", ru: "покажи мне" }
+  - { pl: "czas pokaże", ru: "время покажет" }
+etymology: "Из po- + kazać, от праславянского *kazati «показывать, говорить»; тот же корень, что в русских «казать», «показать», «сказать»."
+memory: "pokazać — «показать», и управление как в русском: pokazać komuś coś, Pokaż mi drogę. А pokazać się значит «показаться, появиться»."
+idioms:
+  - { pl: "pokazać język", ru: "показать язык" }
+  - { pl: "pokazać, gdzie raki zimują", ru: "показать, где раки зимуют" }
+  - { pl: "pokazać klasę", ru: "показать класс" }
+formExamples:
+  - form: "pokazać"
+    pl: "Chciałam najpierw pokazać tobie."
+    ru: "Я хотела сперва показать тебе."
+    source: { kind: tatoeba, id: 13660066 }
+  - form: "pokazać"
+    pl: "Chciałem pokazać mu twoją książkę."
+    ru: "Я хотел показать ему твою книгу."
+    source: { kind: tatoeba, id: 6684570 }
+  - form: "pokazać"
+    pl: "Możesz mi pokazać?"
+    ru: "Можешь мне показать?"
+    source: { kind: translated, id: 2995847 }
+  - form: "pokazali"
+    pl: "Pokazali nam wszystkie swoje rodzinne zdjęcia."
+    ru: "Они показали нам все свои семейные фотографии."
+    source: { kind: translated, id: 6404037 }
+  - form: "pokazali"
+    pl: "Pokazali nam drogę."
+    ru: "Они показали нам дорогу."
+    source: { kind: authored }
+  - form: "pokazali"
+    pl: "Pokazali się dopiero wieczorem."
+    ru: "Они появились только вечером."
+    source: { kind: authored }
+  - form: "pokazaliby"
+    pl: "Pokazaliby nam drogę, gdyby ją znali."
+    ru: "Они показали бы нам дорогу, если бы знали её."
+    source: { kind: authored }
+  - form: "pokazaliby"
+    pl: "Bez zgody nie pokazaliby zdjęć."
+    ru: "Без разрешения они не показали бы фотографии."
+    source: { kind: authored }
+  - form: "pokazaliby"
+    pl: "Czy pokazaliby nam mieszkanie?"
+    ru: "Показали бы они нам квартиру?"
+    source: { kind: authored }
+  - form: "pokazalibyście"
+    pl: "Pokazalibyście nam miasto?"
+    ru: "Вы показали бы нам город?"
+    source: { kind: authored }
+  - form: "pokazalibyście"
+    pl: "Gdybyście mieli czas, pokazalibyście nam zdjęcia."
+    ru: "Если бы у вас было время, вы показали бы нам фотографии."
+    source: { kind: authored }
+  - form: "pokazalibyście"
+    pl: "Czy pokazalibyście mu drogę?"
+    ru: "Вы показали бы ему дорогу?"
+    source: { kind: authored }
+  - form: "pokazalibyśmy"
+    pl: "Pokazalibyśmy wam miasto, ale pada."
+    ru: "Мы показали бы вам город, но идёт дождь."
+    source: { kind: authored }
+  - form: "pokazalibyśmy"
+    pl: "Gdybyśmy mieli zdjęcia, pokazalibyśmy je."
+    ru: "Если бы у нас были фотографии, мы показали бы их."
+    source: { kind: authored }
+  - form: "pokazalibyśmy"
+    pl: "Chętnie pokazalibyśmy wam dom."
+    ru: "Мы охотно показали бы вам дом."
+    source: { kind: authored }
+  - form: "pokazaliście"
+    pl: "Pokazaliście im drogę?"
+    ru: "Вы показали им дорогу?"
+    source: { kind: authored }
+  - form: "pokazaliście"
+    pl: "Dlaczego nie pokazaliście nam zdjęć?"
+    ru: "Почему вы не показали нам фотографии?"
+    source: { kind: authored }
+  - form: "pokazaliście"
+    pl: "Pokazaliście się dopiero wieczorem."
+    ru: "Вы появились только вечером."
+    source: { kind: authored }
+  - form: "pokazaliśmy"
+    pl: "Pokazaliśmy mu kilka zdjęć Alp."
+    ru: "Мы показали ему несколько фотографий Альп."
+    source: { kind: translated, id: 701608 }
+  - form: "pokazaliśmy"
+    pl: "Pokazaliśmy im drogę."
+    ru: "Мы показали им дорогу."
+    source: { kind: authored }
+  - form: "pokazaliśmy"
+    pl: "Pokazaliśmy mu całe miasto."
+    ru: "Мы показали ему весь город."
+    source: { kind: authored }
+  - form: "pokazał"
+    pl: "Tom pokazał mi to."
+    ru: "Том показал мне это."
+    source: { kind: tatoeba, id: 3416422 }
+  - form: "pokazał"
+    pl: "Pokazał tobie zdjęcie?"
+    ru: "Он показал тебе фотографию?"
+    source: { kind: tatoeba, id: 3696314 }
+  - form: "pokazał"
+    pl: "Pokazał mi swój album."
+    ru: "Он показал мне свой альбом."
+    source: { kind: tatoeba, id: 742715 }
+  - form: "pokazała"
+    pl: "Pokazała mi to."
+    ru: "Она мне это показала."
+    source: { kind: translated, id: 10607705 }
+  - form: "pokazała"
+    pl: "Pokazała nam drogę."
+    ru: "Она показала нам дорогу."
+    source: { kind: authored }
+  - form: "pokazała"
+    pl: "Pokazała się dopiero wieczorem."
+    ru: "Она появилась только вечером."
+    source: { kind: authored }
+  - form: "pokazałaby"
+    pl: "Pokazałaby nam drogę, gdyby ją znała."
+    ru: "Она показала бы нам дорогу, если бы знала её."
+    source: { kind: authored }
+  - form: "pokazałaby"
+    pl: "Bez zgody nie pokazałaby zdjęć."
+    ru: "Без разрешения она не показала бы фотографии."
+    source: { kind: authored }
+  - form: "pokazałaby"
+    pl: "Czy pokazałaby nam mieszkanie?"
+    ru: "Показала бы она нам квартиру?"
+    source: { kind: authored }
+  - form: "pokazałabym"
+    pl: "Pokazałabym ci jak to zrobić, gdybyś tylko zapytał."
+    ru: "Я показала бы тебе, как это сделать, если бы ты только спросил."
+    source: { kind: translated, id: 6404151 }
+  - form: "pokazałabym"
+    pl: "Pokazałabym ci miasto."
+    ru: "Я показала бы тебе город."
+    source: { kind: authored }
+  - form: "pokazałabym"
+    pl: "Bez zgody nie pokazałabym zdjęć."
+    ru: "Без разрешения я не показала бы фотографии."
+    source: { kind: authored }
+  - form: "pokazałabyś"
+    pl: "Pokazałabyś mi drogę?"
+    ru: "Ты показала бы мне дорогу?"
+    source: { kind: authored }
+  - form: "pokazałabyś"
+    pl: "Gdybyś miała czas, pokazałabyś mi miasto?"
+    ru: "Если бы у тебя было время, ты показала бы мне город?"
+    source: { kind: authored }
+  - form: "pokazałabyś"
+    pl: "Czy pokazałabyś nam zdjęcia?"
+    ru: "Ты показала бы нам фотографии?"
+    source: { kind: authored }
+  - form: "pokazałam"
+    pl: "Już pokazałam Tomowi jak to zrobić."
+    ru: "Я уже показала Тому, как это сделать."
+    source: { kind: translated, id: 6404070 }
+  - form: "pokazałam"
+    pl: "Pokazałam mu drogę."
+    ru: "Я показала ему дорогу."
+    source: { kind: authored }
+  - form: "pokazałam"
+    pl: "Pokazałam im zdjęcia z wakacji."
+    ru: "Я показала им фотографии с каникул."
+    source: { kind: authored }
+  - form: "pokazałaś"
+    pl: "Pokazałaś mu zdjęcia?"
+    ru: "Ты показала ему фотографии?"
+    source: { kind: authored }
+  - form: "pokazałaś"
+    pl: "Dobrze, że pokazałaś mi drogę."
+    ru: "Хорошо, что ты показала мне дорогу."
+    source: { kind: authored }
+  - form: "pokazałaś"
+    pl: "Nie pokazałaś się na spotkaniu."
+    ru: "Ты не появилась на встрече."
+    source: { kind: authored }
+  - form: "pokazałby"
+    pl: "Tom pokazałby ci jak to zrobić."
+    ru: "Том показал бы тебе, как это сделать."
+    source: { kind: translated, id: 6404068 }
+  - form: "pokazałby"
+    pl: "Pokazałby nam drogę, gdyby ją znał."
+    ru: "Он показал бы нам дорогу, если бы знал её."
+    source: { kind: authored }
+  - form: "pokazałby"
+    pl: "Czy pokazałby nam mieszkanie?"
+    ru: "Показал бы он нам квартиру?"
+    source: { kind: authored }
+  - form: "pokazałbym"
+    pl: "Pokazałbym ci jak to zrobić."
+    ru: "Я показал бы тебе, как это сделать."
+    source: { kind: translated, id: 6404071 }
+  - form: "pokazałbym"
+    pl: "Pokazałbym ci miasto."
+    ru: "Я показал бы тебе город."
+    source: { kind: authored }
+  - form: "pokazałbym"
+    pl: "Bez zgody nie pokazałbym zdjęć."
+    ru: "Без разрешения я не показал бы фотографии."
+    source: { kind: authored }
+  - form: "pokazałbyś"
+    pl: "Pokazałbyś mi drogę?"
+    ru: "Ты показал бы мне дорогу?"
+    source: { kind: authored }
+  - form: "pokazałbyś"
+    pl: "Gdybyś miał czas, pokazałbyś mi miasto?"
+    ru: "Если бы у тебя было время, ты показал бы мне город?"
+    source: { kind: authored }
+  - form: "pokazałbyś"
+    pl: "Czy pokazałbyś nam zdjęcia?"
+    ru: "Ты показал бы нам фотографии?"
+    source: { kind: authored }
+  - form: "pokazałem"
+    pl: "Pokazałem jej zegarek."
+    ru: "Я показал ей часы."
+    source: { kind: translated, id: 11849437 }
+  - form: "pokazałem"
+    pl: "Pokazałem mu drogę."
+    ru: "Я показал ему дорогу."
+    source: { kind: authored }
+  - form: "pokazałem"
+    pl: "Pokazałem im zdjęcia z wakacji."
+    ru: "Я показал им фотографии с каникул."
+    source: { kind: authored }
+  - form: "pokazałeś"
+    pl: "Cieszę się, że pokazałeś mi jak to robić."
+    ru: "Я рад, что ты показал мне, как это делать."
+    source: { kind: translated, id: 8809844 }
+  - form: "pokazałeś"
+    pl: "Pokazałeś mu zdjęcia?"
+    ru: "Ты показал ему фотографии?"
+    source: { kind: authored }
+  - form: "pokazałeś"
+    pl: "Nie pokazałeś się na spotkaniu."
+    ru: "Ты не появился на встрече."
+    source: { kind: authored }
+  - form: "pokazało"
+    pl: "Pokazało się słońce."
+    ru: "Показалось солнце."
+    source: { kind: translated, id: 10155196 }
+  - form: "pokazało"
+    pl: "Dziecko pokazało mi rysunek."
+    ru: "Ребёнок показал мне рисунок."
+    source: { kind: authored }
+  - form: "pokazało"
+    pl: "Badanie pokazało coś innego."
+    ru: "Исследование показало другое."
+    source: { kind: authored }
+  - form: "pokazałoby"
+    pl: "Badanie pokazałoby coś innego."
+    ru: "Исследование показало бы другое."
+    source: { kind: authored }
+  - form: "pokazałoby"
+    pl: "Dziecko pokazałoby ci rysunek."
+    ru: "Ребёнок показал бы тебе рисунок."
+    source: { kind: authored }
+  - form: "pokazałoby"
+    pl: "To pokazałoby prawdę."
+    ru: "Это показало бы правду."
+    source: { kind: authored }
+  - form: "pokazały"
+    pl: "Pokazały się owoce nauki i wyniki poszybowały w górę."
+    ru: "Показались плоды учёбы, и результаты взлетели вверх."
+    source: { kind: translated, id: 368857 }
+  - form: "pokazały"
+    pl: "Badania pokazały coś innego."
+    ru: "Исследования показали другое."
+    source: { kind: authored }
+  - form: "pokazały"
+    pl: "Dziewczyny pokazały nam drogę."
+    ru: "Девушки показали нам дорогу."
+    source: { kind: authored }
+  - form: "pokazałyby"
+    pl: "Badania pokazałyby coś innego."
+    ru: "Исследования показали бы другое."
+    source: { kind: authored }
+  - form: "pokazałyby"
+    pl: "Pokazałyby nam drogę, gdyby ją znały."
+    ru: "Они показали бы нам дорогу, если бы знали её."
+    source: { kind: authored }
+  - form: "pokazałyby"
+    pl: "Czy pokazałyby nam mieszkanie?"
+    ru: "Показали бы они нам квартиру?"
+    source: { kind: authored }
+  - form: "pokazałybyście"
+    pl: "Pokazałybyście nam miasto?"
+    ru: "Вы показали бы нам город?"
+    source: { kind: authored }
+  - form: "pokazałybyście"
+    pl: "Gdybyście miały czas, pokazałybyście nam zdjęcia."
+    ru: "Если бы у вас было время, вы показали бы нам фотографии."
+    source: { kind: authored }
+  - form: "pokazałybyście"
+    pl: "Czy pokazałybyście mu drogę?"
+    ru: "Вы показали бы ему дорогу?"
+    source: { kind: authored }
+  - form: "pokazałybyśmy"
+    pl: "Pokazałybyśmy wam miasto, ale pada."
+    ru: "Мы показали бы вам город, но идёт дождь."
+    source: { kind: authored }
+  - form: "pokazałybyśmy"
+    pl: "Gdybyśmy miały zdjęcia, pokazałybyśmy je."
+    ru: "Если бы у нас были фотографии, мы показали бы их."
+    source: { kind: authored }
+  - form: "pokazałybyśmy"
+    pl: "Chętnie pokazałybyśmy wam dom."
+    ru: "Мы охотно показали бы вам дом."
+    source: { kind: authored }
+  - form: "pokazałyście"
+    pl: "Pokazałyście im drogę?"
+    ru: "Вы показали им дорогу?"
+    source: { kind: authored }
+  - form: "pokazałyście"
+    pl: "Dlaczego nie pokazałyście nam zdjęć?"
+    ru: "Почему вы не показали нам фотографии?"
+    source: { kind: authored }
+  - form: "pokazałyście"
+    pl: "Pokazałyście się dopiero wieczorem."
+    ru: "Вы появились только вечером."
+    source: { kind: authored }
+  - form: "pokazałyśmy"
+    pl: "Pokazałyśmy im drogę."
+    ru: "Мы показали им дорогу."
+    source: { kind: authored }
+  - form: "pokazałyśmy"
+    pl: "Pokazałyśmy mu całe miasto."
+    ru: "Мы показали ему весь город."
+    source: { kind: authored }
+  - form: "pokazałyśmy"
+    pl: "Pokazałyśmy się dopiero wieczorem."
+    ru: "Мы появились только вечером."
+    source: { kind: authored }
+  - form: "pokazana"
+    pl: "Scena została pokazana w zwolnionym tempie."
+    ru: "Сцену показали в замедленном темпе."
+    source: { kind: translated, id: 6404016 }
+  - form: "pokazana"
+    pl: "Ta droga jest pokazana na mapie."
+    ru: "Эта дорога показана на карте."
+    source: { kind: authored }
+  - form: "pokazana"
+    pl: "Wystawa pokazana w Krakowie jedzie do Warszawy."
+    ru: "Выставка, показанная в Кракове, едет в Варшаву."
+    source: { kind: authored }
+  - form: "pokazaną"
+    pl: "Znam drogę pokazaną na mapie."
+    ru: "Я знаю дорогу, показанную на карте."
+    source: { kind: authored }
+  - form: "pokazaną"
+    pl: "Widziałem wystawę pokazaną w Krakowie."
+    ru: "Я видел выставку, показанную в Кракове."
+    source: { kind: authored }
+  - form: "pokazaną"
+    pl: "Pamiętam scenę pokazaną w zwolnionym tempie."
+    ru: "Я помню сцену, показанную в замедленном темпе."
+    source: { kind: authored }
+  - form: "pokazane"
+    pl: "Gdzie są te trzy nagie posągi pokazane na wystawie?"
+    ru: "Где те три обнажённые статуи, показанные на выставке?"
+    source: { kind: translated, id: 401178 }
+  - form: "pokazane"
+    pl: "Wyniki zostały pokazane wszystkim."
+    ru: "Результаты показали всем."
+    source: { kind: authored }
+  - form: "pokazane"
+    pl: "Zdjęcia pokazane na wystawie zrobiły wrażenie."
+    ru: "Фотографии, показанные на выставке, произвели впечатление."
+    source: { kind: authored }
+  - form: "pokazanego"
+    pl: "Nie znam filmu pokazanego wczoraj."
+    ru: "Я не знаю фильма, показанного вчера."
+    source: { kind: authored }
+  - form: "pokazanego"
+    pl: "Szukam zdjęcia pokazanego na wystawie."
+    ru: "Я ищу фотографию, показанную на выставке."
+    source: { kind: authored }
+  - form: "pokazanego"
+    pl: "Nie ma tu nic pokazanego po raz pierwszy."
+    ru: "Здесь нет ничего показанного впервые."
+    source: { kind: authored }
+  - form: "pokazanej"
+    pl: "Mówimy o wystawie pokazanej w Krakowie."
+    ru: "Мы говорим о выставке, показанной в Кракове."
+    source: { kind: authored }
+  - form: "pokazanej"
+    pl: "Nie znam drogi pokazanej na tej mapie."
+    ru: "Я не знаю дороги, показанной на этой карте."
+    source: { kind: authored }
+  - form: "pokazanej"
+    pl: "Przyjrzyj się scenie pokazanej na końcu."
+    ru: "Присмотрись к сцене, показанной в конце."
+    source: { kind: authored }
+  - form: "pokazanemu"
+    pl: "Przyjrzyj się pokazanemu wczoraj filmowi."
+    ru: "Присмотрись к показанному вчера фильму."
+    source: { kind: authored }
+  - form: "pokazanemu"
+    pl: "Dzięki pokazanemu na mapie skrótowi zdążyliśmy."
+    ru: "Благодаря показанному на карте сокращению пути мы успели."
+    source: { kind: authored }
+  - form: "pokazanemu"
+    pl: "Nie ufam pokazanemu wynikowi."
+    ru: "Я не доверяю показанному результату."
+    source: { kind: authored }
+  - form: "pokazani"
+    pl: "Bohaterowie są pokazani bez upiększeń."
+    ru: "Герои показаны без прикрас."
+    source: { kind: authored }
+  - form: "pokazani"
+    pl: "Zostali pokazani w telewizji."
+    ru: "Их показали по телевизору."
+    source: { kind: authored }
+  - form: "pokazani"
+    pl: "Nie chcemy być pokazani w złym świetle."
+    ru: "Мы не хотим, чтобы нас показали в дурном свете."
+    source: { kind: authored }
+  - form: "pokazania"
+    pl: "Tom powiedział, że ma nam coś jeszcze do pokazania."
+    ru: "Том сказал, что ему есть что нам ещё показать."
+    source: { kind: translated, id: 6535896 }
+  - form: "pokazania"
+    pl: "Nie ma tu nic do pokazania."
+    ru: "Здесь нечего показывать."
+    source: { kind: authored }
+  - form: "pokazania"
+    pl: "Szukał okazji do pokazania swoich zdjęć."
+    ru: "Он искал повод показать свои фотографии."
+    source: { kind: authored }
+  - form: "pokazanie"
+    pl: "Proszę o pokazanie paszportu."
+    ru: "Предъявите паспорт, пожалуйста."
+    source: { kind: translated, id: 13225431 }
+  - form: "pokazanie"
+    pl: "Pokazanie drogi zajęło chwilę."
+    ru: "Показать дорогу заняло минуту."
+    source: { kind: authored }
+  - form: "pokazanie"
+    pl: "Pokazanie prawdy bywa trudne."
+    ru: "Показать правду бывает трудно."
+    source: { kind: authored }
+  - form: "pokazaniem"
+    pl: "Przed pokazaniem zdjęć poprosił o zgodę."
+    ru: "Перед показом фотографий он попросил разрешения."
+    source: { kind: authored }
+  - form: "pokazaniem"
+    pl: "Zajął się pokazaniem miasta gościom."
+    ru: "Он занялся показом города гостям."
+    source: { kind: authored }
+  - form: "pokazaniem"
+    pl: "Między pokazaniem a premierą minął rok."
+    ru: "Между показом и премьерой прошёл год."
+    source: { kind: authored }
+  - form: "pokazaniu"
+    pl: "Po pokazaniu paszportu wpuszczono nas."
+    ru: "После предъявления паспорта нас впустили."
+    source: { kind: authored }
+  - form: "pokazaniu"
+    pl: "Mówiliśmy o pokazaniu zdjęć rodzinie."
+    ru: "Мы говорили о том, чтобы показать фотографии семье."
+    source: { kind: authored }
+  - form: "pokazaniu"
+    pl: "Dzięki pokazaniu drogi trafiliśmy na czas."
+    ru: "Благодаря тому, что нам показали дорогу, мы успели вовремя."
+    source: { kind: authored }
+  - form: "pokazano"
+    pl: "Pokazano im drzwi."
+    ru: "Им указали на дверь."
+    source: { kind: translated, id: 13655530 }
+  - form: "pokazano"
+    pl: "Pokazano nam całe miasto."
+    ru: "Нам показали весь город."
+    source: { kind: authored }
+  - form: "pokazano"
+    pl: "Film pokazano w telewizji."
+    ru: "Фильм показали по телевизору."
+    source: { kind: authored }
+  - form: "pokazany"
+    pl: "Krótki film zostanie pokazany podczas ceremonii otwarcia."
+    ru: "Короткий фильм покажут во время церемонии открытия."
+    source: { kind: translated, id: 6404082 }
+  - form: "pokazany"
+    pl: "Ten obraz był pokazany w Paryżu."
+    ru: "Эта картина была показана в Париже."
+    source: { kind: authored }
+  - form: "pokazany"
+    pl: "Skrót pokazany na mapie okazał się dłuższy."
+    ru: "Путь, показанный на карте как короткий, оказался длиннее."
+    source: { kind: authored }
+  - form: "pokazanych"
+    pl: "Wśród pokazanych zdjęć było i moje."
+    ru: "Среди показанных фотографий была и моя."
+    source: { kind: authored }
+  - form: "pokazanych"
+    pl: "Nie znam pokazanych wczoraj filmów."
+    ru: "Я не знаю показанных вчера фильмов."
+    source: { kind: authored }
+  - form: "pokazanych"
+    pl: "Mówimy o pokazanych na wystawie obrazach."
+    ru: "Мы говорим о показанных на выставке картинах."
+    source: { kind: authored }
+  - form: "pokazanym"
+    pl: "Mówię o filmie pokazanym wczoraj."
+    ru: "Я говорю о фильме, показанном вчера."
+    source: { kind: authored }
+  - form: "pokazanym"
+    pl: "Dzięki pokazanym zdjęciom wszystko zrozumieli."
+    ru: "Благодаря показанным фотографиям они всё поняли."
+    source: { kind: authored }
+  - form: "pokazanym"
+    pl: "Przyjrzyj się pokazanym wynikom."
+    ru: "Присмотрись к показанным результатам."
+    source: { kind: authored }
+  - form: "pokazanymi"
+    pl: "Zachwycał się pokazanymi obrazami."
+    ru: "Он восхищался показанными картинами."
+    source: { kind: authored }
+  - form: "pokazanymi"
+    pl: "Między pokazanymi zdjęciami było jedno stare."
+    ru: "Среди показанных фотографий была одна старая."
+    source: { kind: authored }
+  - form: "pokazanymi"
+    pl: "Zajmujemy się pokazanymi na wystawie pracami."
+    ru: "Мы занимаемся показанными на выставке работами."
+    source: { kind: authored }
+  - form: "pokazawszy"
+    pl: "Pokazawszy paszport, wszedł do środka."
+    ru: "Показав паспорт, он вошёл внутрь."
+    source: { kind: authored }
+  - form: "pokazawszy"
+    pl: "Pokazawszy nam drogę, odszedł."
+    ru: "Показав нам дорогу, он ушёл."
+    source: { kind: authored }
+  - form: "pokazawszy"
+    pl: "Pokazawszy zdjęcia, zamilkł."
+    ru: "Показав фотографии, он замолчал."
+    source: { kind: authored }
+  - form: "pokaż"
+    pl: "Pokaż nam drogę!"
+    ru: "Покажи нам дорогу!"
+    source: { kind: tatoeba, id: 8446168 }
+  - form: "pokaż"
+    pl: "Pokaż mi pieniądze."
+    ru: "Покажи мне деньги."
+    source: { kind: tatoeba, id: 3526139 }
+  - form: "pokaż"
+    pl: "Pokaż mi na mapie gdzie znajduje się Puerto Rico."
+    ru: "Покажи мне на карте, где находится Пуэрто-Рико."
+    source: { kind: tatoeba, id: 6313349 }
+  - form: "pokażą"
+    pl: "Pokażą miasto turystom."
+    ru: "Они покажут город туристам."
+    source: { kind: translated, id: 11883075 }
+  - form: "pokażą"
+    pl: "Pokażą nam drogę."
+    ru: "Они покажут нам дорогу."
+    source: { kind: authored }
+  - form: "pokażą"
+    pl: "Wyniki pokażą prawdę."
+    ru: "Результаты покажут правду."
+    source: { kind: authored }
+  - form: "pokażcie"
+    pl: "Pokażcie się."
+    ru: "Покажитесь."
+    source: { kind: translated, id: 10599086 }
+  - form: "pokażcie"
+    pl: "Pokażcie nam drogę."
+    ru: "Покажите нам дорогу."
+    source: { kind: authored }
+  - form: "pokażcie"
+    pl: "Pokażcie mi to jeszcze raz."
+    ru: "Покажите мне это ещё раз."
+    source: { kind: authored }
+  - form: "pokaże"
+    pl: "Czas pokaże."
+    ru: "Время покажет."
+    source: { kind: translated, id: 535453 }
+  - form: "pokaże"
+    pl: "Kto nam pokaże drogę?"
+    ru: "Кто покажет нам дорогу?"
+    source: { kind: authored }
+  - form: "pokaże"
+    pl: "Pokaże się dopiero wieczorem."
+    ru: "Он появится только вечером."
+    source: { kind: authored }
+  - form: "pokażecie"
+    pl: "Pokażecie nam miasto?"
+    ru: "Вы покажете нам город?"
+    source: { kind: authored }
+  - form: "pokażecie"
+    pl: "Kiedy pokażecie nam zdjęcia?"
+    ru: "Когда вы покажете нам фотографии?"
+    source: { kind: authored }
+  - form: "pokażecie"
+    pl: "Pokażecie mu drogę."
+    ru: "Вы покажете ему дорогу."
+    source: { kind: authored }
+  - form: "pokażemy"
+    pl: "Pokażemy wam miasto."
+    ru: "Мы покажем вам город."
+    source: { kind: authored }
+  - form: "pokażemy"
+    pl: "Pokażemy ci, jak to działa."
+    ru: "Мы покажем тебе, как это работает."
+    source: { kind: authored }
+  - form: "pokażemy"
+    pl: "Pokażemy im drogę."
+    ru: "Мы покажем им дорогу."
+    source: { kind: authored }
+  - form: "pokażesz"
+    pl: "Pokażesz mi książkę?"
+    ru: "Покажешь мне книгу?"
+    source: { kind: translated, id: 3500002 }
+  - form: "pokażesz"
+    pl: "Pokażesz mi drogę?"
+    ru: "Покажешь мне дорогу?"
+    source: { kind: authored }
+  - form: "pokażesz"
+    pl: "Kiedy pokażesz nam zdjęcia?"
+    ru: "Когда ты покажешь нам фотографии?"
+    source: { kind: authored }
+  - form: "pokażę"
+    pl: "Pokażę ci, że mam rację."
+    ru: "Я докажу тебе, что прав."
+    source: { kind: tatoeba, id: 6316952 }
+  - form: "pokażę"
+    pl: "Coś wam pokażę."
+    ru: "Я вам кое-что покажу."
+    source: { kind: translated, id: 10806632 }
+  - form: "pokażę"
+    pl: "Pokażę ci drogę."
+    ru: "Я покажу тебе дорогу."
+    source: { kind: authored }
+  - form: "pokażmy"
+    pl: "Pokażmy im miasto."
+    ru: "Покажем им город."
+    source: { kind: authored }
+  - form: "pokażmy"
+    pl: "Pokażmy, co potrafimy."
+    ru: "Покажем, на что мы способны."
+    source: { kind: authored }
+  - form: "pokażmy"
+    pl: "Pokażmy mu drogę."
+    ru: "Покажем ему дорогу."
+    source: { kind: authored }

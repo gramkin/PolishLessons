@@ -1,0 +1,60 @@
+# review
+id: az
+format: 2
+lemma: "aż"
+rank: 300
+pos: part
+pron: { cyr: "аж" }
+senses:
+  - id: until
+    ru: "пока не; вплоть до (предел)"
+    examples:
+      - pl: "Zawsze czytam, aż zasnę."
+        ru: "Я всегда читаю, пока не усну."
+        source: { kind: tatoeba, id: 540116 }
+      - pl: "Będziemy razem aż do końca."
+        ru: "Мы будем вместе до конца."
+        source: { kind: tatoeba, id: 982347 }
+      - pl: "Czekaj, aż wrócę."
+        ru: "Жди, пока я не вернусь."
+        source: { kind: authored }
+  - id: intensifier
+    ru: "аж, настолько (усиление)"
+    examples:
+      - pl: "Aż mnie szczęka zabolała."
+        ru: "Аж скулы свело."
+        source: { kind: tatoeba, id: 13785417 }
+      - pl: "Nie jestem aż tak pijana."
+        ru: "Я не настолько пьяная."
+        source: { kind: tatoeba, id: 6554190 }
+      - pl: "Było tak zimno, że aż drżał."
+        ru: "Было так холодно, что он дрожал."
+        source: { kind: tatoeba, id: 3621257 }
+notes:
+  - { kind: usage, text: "В значении предела aż вводит придаточное: Czekam, aż wrócisz «Жду, пока ты не вернёшься». Обратите внимание: по-польски без «не»." }
+  - { kind: usage, text: "aż do значит «вплоть до»: aż do końca «до самого конца», aż do rana «до самого утра»." }
+  - { kind: usage, text: "Как усилитель aż отвечает русскому «аж, настолько»: Aż tak? «Настолько?», nie aż tak — «не настолько»." }
+collocations:
+  - { pl: "aż do końca", ru: "до самого конца" }
+  - { pl: "aż tak", ru: "настолько" }
+  - { pl: "czekać, aż", ru: "ждать, пока" }
+  - { pl: "nie aż tak", ru: "не настолько" }
+etymology: "Праславянское *a + *že; та же частица že, что в русском «же»."
+memory: "aż — «пока не» и «аж»: Czekam, aż wrócisz «Жду, пока ты не вернёшься» (по-польски без «не»), Aż tak? «Настолько?»."
+idioms:
+  - { pl: "aż do końca", ru: "до самого конца" }
+  - { pl: "aż tak", ru: "настолько" }
+  - { pl: "aż strach pomyśleć", ru: "аж страшно подумать" }
+formExamples:
+  - form: "aż"
+    pl: "Zawsze czytam, aż zasnę."
+    ru: "Я всегда читаю, пока не усну."
+    source: { kind: tatoeba, id: 540116 }
+  - form: "aż"
+    pl: "Aż mnie szczęka zabolała."
+    ru: "Аж скулы свело."
+    source: { kind: tatoeba, id: 13785417 }
+  - form: "aż"
+    pl: "Nie jestem aż tak pijana."
+    ru: "Я не настолько пьяная."
+    source: { kind: tatoeba, id: 6554190 }

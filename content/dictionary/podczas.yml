@@ -1,0 +1,72 @@
+# review
+id: podczas
+format: 2
+lemma: "podczas"
+rank: 433
+pos: prep
+pron: { cyr: "по́тчас" }
+senses:
+  - id: during
+    ru: "во время, в течение"
+    examples:
+      - pl: "Nie piję podczas pracy."
+        ru: "Я не пью во время работы."
+        source: { kind: tatoeba, id: 12949430 }
+      - pl: "Podczas letnich wakacji spotkałem piękną kobietę."
+        ru: "Во время летних каникул я встретил красивую женщину."
+        source: { kind: tatoeba, id: 762729 }
+      - pl: "Skończyły mi się pieniądze podczas pobytu w Indiach."
+        ru: "Во время моего пребывания в Индии у меня вышли деньги."
+        source: { kind: tatoeba, id: 3421518 }
+  - id: during-event
+    ru: "во время (о событии)"
+    examples:
+      - pl: "Dach został uszkodzony podczas burzy."
+        ru: "Крыша была повреждена штормом."
+        source: { kind: tatoeba, id: 363024 }
+      - pl: "Wielu straciło swoje domy podczas trzęsienia ziemi."
+        ru: "Многие потеряли свои жилища в результате землетрясения."
+        source: { kind: tatoeba, id: 458227 }
+      - pl: "Podczas podróży po Europie odwiedziliśmy wiele pięknych miast i zabytków."
+        ru: "Во время путешествия по Европе мы посетили много красивых городов и памятников старины."
+        source: { kind: tatoeba, id: 12453958 }
+notes:
+  - { kind: usage, text: "Предлог требует родительного падежа: podczas pracy «во время работы», podczas wojny «во время войны»." }
+  - { kind: usage, text: "Составной союз podczas gdy значит «в то время как»: Podczas gdy on spał, ja pracowałem." }
+  - { kind: usage, text: "Слово разбирается прозрачно: pod + czas, буквально «под время»." }
+  - { kind: false-friend, text: "Не путайте podczas «во время» с przez «в течение»: Czytałem przez godzinę «Я читал в течение часа», но Czytałem podczas lekcji «Я читал во время урока»." }
+collocations:
+  - { pl: "podczas pracy", ru: "во время работы" }
+  - { pl: "podczas wojny", ru: "во время войны" }
+  - { pl: "podczas gdy", ru: "в то время как" }
+etymology: "Из pod + czas «время» — буквально «под время». Русское «во время» собрано тем же способом, только с другим предлогом."
+memory: "podczas — «во время», и разбирается оно прозрачно: pod + czas. Требует родительного падежа: podczas pracy. А podczas gdy значит «в то время как»."
+idioms:
+  - { pl: "podczas gdy", ru: "в то время как" }
+  - { pl: "podczas pracy", ru: "во время работы" }
+  - { pl: "podczas wojny", ru: "во время войны" }
+formExamples:
+  - form: "podczas"
+    pl: "Nie piję podczas pracy."
+    ru: "Я не пью во время работы."
+    source: { kind: tatoeba, id: 12949430 }
+  - form: "podczas"
+    pl: "Dach został uszkodzony podczas burzy."
+    ru: "Крыша была повреждена штормом."
+    source: { kind: tatoeba, id: 363024 }
+  - form: "podczas"
+    pl: "Podczas letnich wakacji spotkałem piękną kobietę."
+    ru: "Во время летних каникул я встретил красивую женщину."
+    source: { kind: tatoeba, id: 762729 }
+  - form: "podczas"
+    pl: "Podczas lekcji nie rozmawiamy."
+    ru: "Во время урока мы не разговариваем."
+    source: { kind: authored }
+  - form: "podczas"
+    pl: "Zasnął podczas filmu."
+    ru: "Он заснул во время фильма."
+    source: { kind: authored }
+  - form: "podczas"
+    pl: "Podczas gdy on spał, ja pracowałem."
+    ru: "В то время как он спал, я работал."
+    source: { kind: authored }

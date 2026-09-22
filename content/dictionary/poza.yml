@@ -1,0 +1,70 @@
+# review
+id: poza
+format: 2
+lemma: "poza"
+rank: 355
+pos: prep
+pron: { cyr: "по́за" }
+senses:
+  - id: except
+    ru: "кроме, помимо (с творительным падежом)"
+    examples:
+      - pl: "Nie ma dla mnie nikogo poza tobą."
+        ru: "Для меня не существует никого, кроме тебя."
+        source: { kind: tatoeba, id: 13784855 }
+      - pl: "Nikt poza Tobą nie może mnie uszczęśliwić."
+        ru: "Никто, кроме тебя, не может сделать меня счастливой."
+        source: { kind: tatoeba, id: 1452366 }
+      - pl: "W pokoju nie było niczego poza starym fotelem."
+        ru: "В комнате не было ничего, кроме старого кресла."
+        source: { kind: tatoeba, id: 7185217 }
+  - id: outside
+    ru: "вне, за пределами"
+    examples:
+      - pl: "On nie zna żadnych języków obcych poza angielskim."
+        ru: "Он не знает никаких иностранных языков, кроме английского."
+        source: { kind: tatoeba, id: 697467 }
+      - pl: "W szufladzie niczego nie było poza czterema woskowymi świecami."
+        ru: "В выдвижном ящике ничего не было, кроме четырёх восковых свечей."
+        source: { kind: tatoeba, id: 6161003 }
+      - pl: "Nie ma nikogo poza tobą, dla mnie."
+        ru: "Для меня не существует никого, кроме тебя."
+        source: { kind: tatoeba, id: 13784856 }
+notes:
+  - { kind: usage, text: "poza требует творительного падежа: poza tobą «кроме тебя», poza domem «вне дома», poza mną «кроме меня»." }
+  - { kind: usage, text: "Второе значение — «вне, за пределами»: poza sezonem «вне сезона», poza pracą «вне работы», poza miastem «за городом»." }
+  - { kind: false-friend, text: "Существует и существительное poza «поза» (Przybrała pozę damy) — другое слово с тем же написанием; здесь разбирается предлог." }
+collocations:
+  - { pl: "poza tym", ru: "кроме того" }
+  - { pl: "poza domem", ru: "вне дома" }
+  - { pl: "poza miastem", ru: "за городом" }
+  - { pl: "nikt poza tobą", ru: "никто кроме тебя" }
+etymology: "Из po + za — буквально «по ту сторону»; отсюда оба значения: «за пределами» и «кроме»."
+memory: "poza — предлог «кроме, помимо» с творительным падежом: nikogo poza tobą «никого, кроме тебя». А существительное poza «поза» — другое слово."
+idioms:
+  - { pl: "poza tym", ru: "кроме того" }
+  - { pl: "poza domem", ru: "вне дома" }
+  - { pl: "poza sezonem", ru: "вне сезона" }
+formExamplesSkip:
+  - { form: "pozach", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozami", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozie", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozo", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozom", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozy", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozą", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "pozę", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+  - { form: "póz", reason: "форма существительного poza «поза» — другого слова с тем же написанием" }
+formExamples:
+  - form: "poza"
+    pl: "Nie ma dla mnie nikogo poza tobą."
+    ru: "Для меня не существует никого, кроме тебя."
+    source: { kind: translated, id: 13784855 }
+  - form: "poza"
+    pl: "Poza tym wszystko jest w porządku."
+    ru: "Кроме того, всё в порядке."
+    source: { kind: authored }
+  - form: "poza"
+    pl: "Mieszkają poza miastem."
+    ru: "Они живут за городом."
+    source: { kind: authored }

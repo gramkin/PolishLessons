@@ -1,0 +1,73 @@
+# review
+id: nad
+format: 2
+lemma: "nad"
+rank: 241
+pos: prep
+pron: { cyr: "нат" }
+senses:
+  - id: above
+    ru: "над (о месте) — с творительным падежом"
+    examples:
+      - pl: "Sęp leciał nad lasem."
+        ru: "Гриф летел над лесом."
+        source: { kind: tatoeba, id: 6156403 }
+      - pl: "Nad miastem leci samolot."
+        ru: "Над городом летит самолёт."
+        source: { kind: tatoeba, id: 912639 }
+      - pl: "Zamek wznosi się nad miastem."
+        ru: "Замок возвышается над городом."
+        source: { kind: tatoeba, id: 1772939 }
+  - id: towards-water
+    ru: "к, на (о направлении к воде) — с винительным; над (о занятии)"
+    note: "nad jezioro «на озеро» — направление; nad jeziorem «на озере» — место."
+    examples:
+      - pl: "Jedziemy jutro rowerem nad jezioro."
+        ru: "Завтра мы поедем на велосипеде к озеру."
+        source: { kind: tatoeba, id: 3284065 }
+      - pl: "Nasz samolot leciał nad chmurami."
+        ru: "Наш самолёт летел над облаками."
+        source: { kind: tatoeba, id: 4735591 }
+      - pl: "Pracuję nad nową książką."
+        ru: "Я работаю над новой книгой."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Падеж различает место и направление: jadę nad morze «еду на море» (винительный), jestem nad morzem «я на море» (творительный)." }
+  - { kind: usage, text: "Перед mną появляется беглое -e, ровно как в русском: nade mną = «надо мной». Так же nade wszystko «превыше всего»." }
+  - { kind: usage, text: "pracować nad czymś — «работать над чем-то»; zastanawiać się nad czymś — «размышлять над чем-то»." }
+collocations:
+  - { pl: "nad morzem", ru: "на море" }
+  - { pl: "nade wszystko", ru: "превыше всего" }
+  - { pl: "pracować nad czymś", ru: "работать над чем-то" }
+  - { pl: "nad ranem", ru: "под утро" }
+etymology: "Праславянское *nadъ — то же слово, что русское «над»."
+memory: "nad — «над», и беглое -e появляется там же, где в русском: nade mną «надо мной». А с винительным падежом nad значит «к воде»: jedziemy nad morze «едем на море»."
+idioms:
+  - { pl: "nade wszystko", ru: "превыше всего" }
+  - { pl: "nad wyraz", ru: "сверх меры" }
+  - { pl: "postawić kropkę nad i", ru: "поставить точку над i" }
+formExamples:
+  - form: "nad"
+    pl: "Sęp leciał nad lasem."
+    ru: "Гриф летел над лесом."
+    source: { kind: tatoeba, id: 6156403 }
+  - form: "nad"
+    pl: "Nad pustynią krąży sęp."
+    ru: "Над пустыней кружит гриф."
+    source: { kind: tatoeba, id: 5959970 }
+  - form: "nad"
+    pl: "Nad miastem leci samolot."
+    ru: "Над городом летит самолёт."
+    source: { kind: tatoeba, id: 912639 }
+  - form: "nade"
+    pl: "On jest nade mną."
+    ru: "Он надо мной."
+    source: { kind: translated, id: 3806003 }
+  - form: "nade"
+    pl: "Nade wszystko cenię spokój."
+    ru: "Превыше всего я ценю покой."
+    source: { kind: authored }
+  - form: "nade"
+    pl: "Niebo nade mną było czyste."
+    ru: "Небо надо мной было чистым."
+    source: { kind: authored }

@@ -1,0 +1,61 @@
+# review
+id: jako
+format: 2
+lemma: "jako"
+rank: 211
+pos: prep
+pron: { cyr: "я́ко" }
+senses:
+  - id: as-role
+    ru: "как, в качестве (роль, профессия)"
+    note: "После jako стоит именительный падеж, а не творительный, как в русском."
+    examples:
+      - pl: "Pracuję jako kurier."
+        ru: "Я работаю курьером."
+        source: { kind: tatoeba, id: 4605219 }
+      - pl: "Tom pracuje jako górnik."
+        ru: "Том работает шахтёром."
+        source: { kind: tatoeba, id: 12949555 }
+      - pl: "Jest słynny jako lekarz."
+        ru: "Он известен как врач."
+        source: { kind: tatoeba, id: 901384 }
+  - id: being
+    ru: "будучи кем-либо, в бытность"
+    examples:
+      - pl: "Jako dziecko bał się ciem."
+        ru: "Ребенком он боялся ночных мотыльков."
+        source: { kind: tatoeba, id: 6634737 }
+      - pl: "Jego dni jako polityka są policzone."
+        ru: "Его дни как политика сочтены."
+        source: { kind: tatoeba, id: 11765040 }
+      - pl: "Pogardzają nami jako żółtodziobami."
+        ru: "К нам относятся с пренебрежением как к молокососам."
+        source: { kind: tatoeba, id: 744104 }
+notes:
+  - { kind: government, text: "Pracuję jako nauczyciel — «Работаю учителем»: после jako именительный падеж, тогда как русский ставит творительный." }
+  - { kind: false-friend, text: "Не путайте jako и jak: jak — «как» в сравнении (biały jak śnieg «белый как снег»), jako — «в качестве» (jako lekarz «как врач, в качестве врача»)." }
+  - { kind: usage, text: "jako że значит «поскольку», jako tako — «так себе», jako taki — «как таковой»." }
+collocations:
+  - { pl: "pracować jako", ru: "работать кем-то" }
+  - { pl: "jako że", ru: "поскольку" }
+  - { pl: "jako tako", ru: "так себе" }
+  - { pl: "traktować jako", ru: "рассматривать как" }
+etymology: "Из jak с частицей -o; тот же корень, что в jak «как». Русское «как» покрывает оба слова, поэтому их легко спутать."
+memory: "jako — «в качестве»: pracuję jako lekarz «работаю врачом», причём с именительным падежом. А jak — «как» в сравнении: biały jak śnieg."
+idioms:
+  - { pl: "jako tako", ru: "так себе" }
+  - { pl: "jako że", ru: "поскольку" }
+  - { pl: "jako taki", ru: "как таковой" }
+formExamples:
+  - form: "jako"
+    pl: "Pracuję jako ślusarz."
+    ru: "Я работаю слесарем."
+    source: { kind: tatoeba, id: 5536963 }
+  - form: "jako"
+    pl: "Jako nauczyciel muszę być cierpliwy."
+    ru: "Как учитель я должен быть терпеливым."
+    source: { kind: authored }
+  - form: "jako"
+    pl: "Traktuję to jako komplement."
+    ru: "Я воспринимаю это как комплимент."
+    source: { kind: authored }
