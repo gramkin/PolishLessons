@@ -1,0 +1,717 @@
+# review
+id: nazwac
+format: 2
+lemma: "nazwać"
+rank: 668
+pos: verb
+aspect: perf
+aspectPair: nazywac
+pron: { cyr: "на́зваць" }
+senses:
+  - id: call-someone
+    ru: "назвать кого-л. кем-л. (винительный + творительный)"
+    note: "nazwał mnie tchórzem — управление совпадает с русским."
+    examples:
+      - pl: "Mój przyjaciel nazwał mnie tchórzem."
+        ru: "Мой друг назвал меня трусом."
+        source: { kind: tatoeba, id: 2145981 }
+      - pl: "Nazwał cię wręcz hipokrytą."
+        ru: "Он прямо назвал тебя лицемером."
+        source: { kind: translated, id: 551590 }
+      - pl: "Trudno go nazwać dżentelmenem."
+        ru: "Его трудно назвать джентльменом."
+        source: { kind: translated, id: 411554 }
+  - id: give-a-name
+    ru: "дать имя, назвать"
+    examples:
+      - pl: "Nazwali psa Shiro."
+        ru: "Они назвали пса Широ."
+        source: { kind: translated, id: 368392 }
+      - pl: "Nazwali statek Mayflower."
+        ru: "Они назвали корабль «Мэйфлауэр»."
+        source: { kind: translated, id: 760244 }
+      - pl: "Nazwałem kota \"Tama\"."
+        ru: "Я назвал кота «Тама»."
+        source: { kind: translated, id: 5489387 }
+  - id: named
+    ru: "nazwany — названный"
+    examples:
+      - pl: "Dziecko zostało nazwane John, po swym wujku."
+        ru: "Ребёнка назвали Джоном, в честь дяди."
+        source: { kind: translated, id: 643797 }
+      - pl: "Klaczkę nazwano \"Kometa\", ponieważ była bardzo szybka."
+        ru: "Кобылку назвали «Комета», потому что она была очень быстрой."
+        source: { kind: translated, id: 12470206 }
+      - pl: "Mary otrzymała nagrodę za swoją kompozycję nazwaną \"Sekretna miłość\"."
+        ru: "Мэри получила награду за композицию под названием «Тайная любовь»."
+        source: { kind: translated, id: 4225509 }
+  - id: call-it
+    ru: "Nazwij to jak chcesz — называй как хочешь"
+    examples:
+      - pl: "Nazwij to jak chcesz."
+        ru: "Называй это как хочешь."
+        source: { kind: tatoeba, id: 6109745 }
+      - pl: "Nazwijmy rzeczy po imieniu."
+        ru: "Назовём вещи своими именами."
+        source: { kind: translated, id: 7362450 }
+      - pl: "\"Skąd taki przesąd?\" \"Nazwijmy to mądrością ludową.\""
+        ru: "Назовём это народной мудростью."
+        source: { kind: translated, id: 501978 }
+notes:
+  - { kind: government, text: "nazwać kogoś KIMŚ — винительный плюс творительный: nazwał mnie tchórzem «назвал меня трусом». Здесь польский и русский совпадают полностью." }
+  - { kind: false-friend, text: "Главная ловушка не в самом глаголе, а в омонимии: формы nazwie, nazwę, nazwą совпадают с падежами существительного nazwa «название», и в тексте вам гораздо чаще попадётся именно оно — pod nazwą, o nazwie ambient, zmienić nazwę pliku." }
+  - { kind: usage, text: "Несовершенный вид — nazywać, а возвратное nazywać się значит «называться, зваться»: Jak się nazywasz? «Как тебя зовут?»." }
+  - { kind: usage, text: "Оборот nazwać rzeczy po imieniu «назвать вещи своими именами» — калька того же выражения." }
+collocations:
+  - { pl: "nazwać rzeczy po imieniu", ru: "назвать вещи своими именами" }
+  - { pl: "Jak się nazywasz?", ru: "Как тебя зовут?" }
+  - { pl: "nazwać kogoś kimś", ru: "назвать кого-либо кем-либо" }
+  - { pl: "pod nazwą", ru: "под названием" }
+family:
+  - { pl: "nazywać", ru: "называть", relation: aspect }
+  - { pl: "zwać", ru: "звать", relation: root }
+  - { pl: "nazwa", ru: "название", relation: derived }
+  - { pl: "nazwisko", ru: "фамилия", relation: derived }
+etymology: "Приставка na- плюс zwać «звать», праславянское *zъvati — то же слово, что русское «звать». «Назвать» собрано тем же способом."
+memory: "nazwać — «назвать», и собрано оно как русское: na- плюс zwać. Управление совпадает: nazwać kogoś KIMŚ, винительный плюс творительный — nazwał mnie tchórzem. Главная ловушка не в глаголе, а в омонимии: формы nazwie, nazwę, nazwą совпадают с падежами существительного nazwa «название», и в тексте вам чаще попадётся именно оно — pod nazwą, zmienić nazwę pliku. Несовершенный вид — nazywać, а nazywać się значит «зваться»."
+idioms:
+  - { pl: "nazwać rzeczy po imieniu", ru: "назвать вещи своими именами" }
+  - { pl: "Jak się nazywasz?", ru: "Как тебя зовут?" }
+  - { pl: "pod nazwą", ru: "под названием" }
+formExamples:
+  - form: "nazwać"
+    pl: "Trudno go nazwać dżentelmenem."
+    ru: "Его трудно назвать джентльменом."
+    source: { kind: translated, id: 411554 }
+  - form: "nazwać"
+    pl: "Można go nazwać molem książkowym."
+    ru: "Его можно назвать книжным червём."
+    source: { kind: translated, id: 412905 }
+  - form: "nazwać"
+    pl: "Jane trudno nazwać znakomitą pianistką."
+    ru: "Джейн трудно назвать выдающейся пианисткой."
+    source: { kind: translated, id: 657369 }
+  - form: "nazwali"
+    pl: "Nazwali psa Shiro."
+    ru: "Они назвали пса Широ."
+    source: { kind: translated, id: 368392 }
+  - form: "nazwali"
+    pl: "Nazwali statek Mayflower."
+    ru: "Они назвали корабль «Мэйфлауэр»."
+    source: { kind: translated, id: 760244 }
+  - form: "nazwali"
+    pl: "Nazwali swojego psa Lucky."
+    ru: "Они назвали свою собаку Лаки."
+    source: { kind: translated, id: 538961 }
+  - form: "nazwaliby"
+    pl: "Nazwaliby go bohaterem."
+    ru: "Они назвали бы его героем."
+    source: { kind: authored }
+  - form: "nazwaliby"
+    pl: "Nie nazwaliby tego przypadkiem."
+    ru: "Они не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwaliby"
+    pl: "Nazwaliby córkę po babci."
+    ru: "Они назвали бы дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwalibyście"
+    pl: "Nazwalibyście go bohaterem?"
+    ru: "Вы назвали бы его героем?"
+    source: { kind: authored }
+  - form: "nazwalibyście"
+    pl: "Nie nazwalibyście tego przypadkiem."
+    ru: "Вы не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwalibyście"
+    pl: "Jak nazwalibyście tego psa?"
+    ru: "Как бы вы назвали эту собаку?"
+    source: { kind: authored }
+  - form: "nazwalibyśmy"
+    pl: "Nazwalibyśmy go bohaterem."
+    ru: "Мы назвали бы его героем."
+    source: { kind: authored }
+  - form: "nazwalibyśmy"
+    pl: "Nie nazwalibyśmy tego przypadkiem."
+    ru: "Мы не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwalibyśmy"
+    pl: "Nazwalibyśmy córkę po babci."
+    ru: "Мы назвали бы дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwaliście"
+    pl: "Jak nazwaliście psa?"
+    ru: "Как вы назвали пса?"
+    source: { kind: authored }
+  - form: "nazwaliście"
+    pl: "Nazwaliście go bohaterem."
+    ru: "Вы назвали его героем."
+    source: { kind: authored }
+  - form: "nazwaliście"
+    pl: "Nie nazwaliście tego przypadkiem."
+    ru: "Вы не назвали это случайностью."
+    source: { kind: authored }
+  - form: "nazwaliśmy"
+    pl: "Nazwaliśmy psa Tim."
+    ru: "Мы назвали пса Тим."
+    source: { kind: translated, id: 361211 }
+  - form: "nazwaliśmy"
+    pl: "Nazwaliśmy psa „White”."
+    ru: "Мы назвали пса «Уайт»."
+    source: { kind: translated, id: 899567 }
+  - form: "nazwaliśmy"
+    pl: "Nazwaliśmy córkę po babci."
+    ru: "Мы назвали дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwał"
+    pl: "Mój przyjaciel nazwał mnie tchórzem."
+    ru: "Мой друг назвал меня трусом."
+    source: { kind: tatoeba, id: 2145981 }
+  - form: "nazwał"
+    pl: "Nazwał swojego psa Popeye."
+    ru: "Он назвал свою собаку Попай."
+    source: { kind: translated, id: 531706 }
+  - form: "nazwał"
+    pl: "Nazwał cię wręcz hipokrytą."
+    ru: "Он прямо назвал тебя лицемером."
+    source: { kind: translated, id: 551590 }
+  - form: "nazwała"
+    pl: "Dlaczego tak go nazwała?"
+    ru: "Почему она его так назвала?"
+    source: { kind: translated, id: 12187500 }
+  - form: "nazwała"
+    pl: "Nazwała córkę po babci."
+    ru: "Она назвала дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwała"
+    pl: "Nazwała go swoim najlepszym przyjacielem."
+    ru: "Она назвала его своим лучшим другом."
+    source: { kind: authored }
+  - form: "nazwałaby"
+    pl: "Nazwałaby go bohaterem."
+    ru: "Она назвала бы его героем."
+    source: { kind: authored }
+  - form: "nazwałaby"
+    pl: "Nie nazwałaby tego przypadkiem."
+    ru: "Она не назвала бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałaby"
+    pl: "Nazwałaby córkę po babci."
+    ru: "Она назвала бы дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwałabym"
+    pl: "Nazwałabym go bohaterem."
+    ru: "Я назвала бы его героем."
+    source: { kind: authored }
+  - form: "nazwałabym"
+    pl: "Nie nazwałabym tego przypadkiem."
+    ru: "Я не назвала бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałabym"
+    pl: "Nazwałabym córkę po babci."
+    ru: "Я назвала бы дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwałabyś"
+    pl: "Nazwałabyś go bohaterem?"
+    ru: "Ты назвала бы его героем?"
+    source: { kind: authored }
+  - form: "nazwałabyś"
+    pl: "Nie nazwałabyś tego przypadkiem."
+    ru: "Ты не назвала бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałabyś"
+    pl: "Jak nazwałabyś tego psa?"
+    ru: "Как бы ты назвала эту собаку?"
+    source: { kind: authored }
+  - form: "nazwałam"
+    pl: "Nazwałam córkę po babci."
+    ru: "Я назвала дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwałam"
+    pl: "Nazwałam go swoim przyjacielem."
+    ru: "Я назвала его своим другом."
+    source: { kind: authored }
+  - form: "nazwałam"
+    pl: "Nazwałam plik inaczej."
+    ru: "Я назвала файл иначе."
+    source: { kind: authored }
+  - form: "nazwałaś"
+    pl: "Jak nazwałaś psa?"
+    ru: "Как ты назвала пса?"
+    source: { kind: authored }
+  - form: "nazwałaś"
+    pl: "Nazwałaś go bohaterem."
+    ru: "Ты назвала его героем."
+    source: { kind: authored }
+  - form: "nazwałaś"
+    pl: "Dlaczego tak go nazwałaś?"
+    ru: "Почему ты его так назвала?"
+    source: { kind: authored }
+  - form: "nazwałby"
+    pl: "Nazwałby go bohaterem."
+    ru: "Он назвал бы его героем."
+    source: { kind: authored }
+  - form: "nazwałby"
+    pl: "Nie nazwałby tego przypadkiem."
+    ru: "Он не назвал бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałby"
+    pl: "Nazwałby syna po dziadku."
+    ru: "Он назвал бы сына в честь деда."
+    source: { kind: authored }
+  - form: "nazwałbym"
+    pl: "Nazwałbym go bohaterem."
+    ru: "Я назвал бы его героем."
+    source: { kind: authored }
+  - form: "nazwałbym"
+    pl: "Nie nazwałbym tego przypadkiem."
+    ru: "Я не назвал бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałbym"
+    pl: "Nazwałbym syna po dziadku."
+    ru: "Я назвал бы сына в честь деда."
+    source: { kind: authored }
+  - form: "nazwałbyś"
+    pl: "Nazwałbyś go bohaterem?"
+    ru: "Ты назвал бы его героем?"
+    source: { kind: authored }
+  - form: "nazwałbyś"
+    pl: "Nie nazwałbyś tego przypadkiem."
+    ru: "Ты не назвал бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałbyś"
+    pl: "Jak nazwałbyś tego psa?"
+    ru: "Как бы ты назвал эту собаку?"
+    source: { kind: authored }
+  - form: "nazwałem"
+    pl: "Nazwałem kota \"Tama\"."
+    ru: "Я назвал кота «Тама»."
+    source: { kind: translated, id: 5489387 }
+  - form: "nazwałem"
+    pl: "Nazwałem go przyjacielem."
+    ru: "Я назвал его другом."
+    source: { kind: authored }
+  - form: "nazwałem"
+    pl: "Nazwałem syna po dziadku."
+    ru: "Я назвал сына в честь деда."
+    source: { kind: authored }
+  - form: "nazwałeś"
+    pl: "Jak nazwałeś psa?"
+    ru: "Как ты назвал пса?"
+    source: { kind: authored }
+  - form: "nazwałeś"
+    pl: "Nazwałeś go bohaterem."
+    ru: "Ты назвал его героем."
+    source: { kind: authored }
+  - form: "nazwałeś"
+    pl: "Dlaczego tak go nazwałeś?"
+    ru: "Почему ты его так назвал?"
+    source: { kind: authored }
+  - form: "nazwało"
+    pl: "Dziecko nazwało kota Mruczek."
+    ru: "Ребёнок назвал кота Мурлыка."
+    source: { kind: authored }
+  - form: "nazwało"
+    pl: "Wiele osób nazwało go bohaterem."
+    ru: "Многие назвали его героем."
+    source: { kind: authored }
+  - form: "nazwało"
+    pl: "Miasto nazwało ulicę po poecie."
+    ru: "Город назвал улицу в честь поэта."
+    source: { kind: authored }
+  - form: "nazwałoby"
+    pl: "Dziecko nazwałoby kota inaczej."
+    ru: "Ребёнок назвал бы кота иначе."
+    source: { kind: authored }
+  - form: "nazwałoby"
+    pl: "Miasto nazwałoby ulicę po poecie."
+    ru: "Город назвал бы улицу в честь поэта."
+    source: { kind: authored }
+  - form: "nazwałoby"
+    pl: "Żadne z nich nie nazwałoby go tchórzem."
+    ru: "Никто из них не назвал бы его трусом."
+    source: { kind: authored }
+  - form: "nazwały"
+    pl: "Dziewczyny nazwały psa Lucky."
+    ru: "Девушки назвали пса Лаки."
+    source: { kind: authored }
+  - form: "nazwały"
+    pl: "Gazety nazwały go bohaterem."
+    ru: "Газеты назвали его героем."
+    source: { kind: authored }
+  - form: "nazwały"
+    pl: "Obie szkoły nazwały salę po poecie."
+    ru: "Обе школы назвали зал в честь поэта."
+    source: { kind: authored }
+  - form: "nazwałyby"
+    pl: "Gazety nazwałyby go bohaterem."
+    ru: "Газеты назвали бы его героем."
+    source: { kind: authored }
+  - form: "nazwałyby"
+    pl: "Dziewczyny nazwałyby psa inaczej."
+    ru: "Девушки назвали бы пса иначе."
+    source: { kind: authored }
+  - form: "nazwałyby"
+    pl: "Nie nazwałyby tego przypadkiem."
+    ru: "Они не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałybyście"
+    pl: "Nazwałybyście go bohaterem?"
+    ru: "Вы назвали бы его героем?"
+    source: { kind: authored }
+  - form: "nazwałybyście"
+    pl: "Nie nazwałybyście tego przypadkiem."
+    ru: "Вы не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałybyście"
+    pl: "Jak nazwałybyście tego psa?"
+    ru: "Как бы вы назвали эту собаку?"
+    source: { kind: authored }
+  - form: "nazwałybyśmy"
+    pl: "Nazwałybyśmy go bohaterem."
+    ru: "Мы назвали бы его героем."
+    source: { kind: authored }
+  - form: "nazwałybyśmy"
+    pl: "Nie nazwałybyśmy tego przypadkiem."
+    ru: "Мы не назвали бы это случайностью."
+    source: { kind: authored }
+  - form: "nazwałybyśmy"
+    pl: "Nazwałybyśmy córkę po babci."
+    ru: "Мы назвали бы дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwałyście"
+    pl: "Jak nazwałyście psa?"
+    ru: "Как вы назвали пса?"
+    source: { kind: authored }
+  - form: "nazwałyście"
+    pl: "Nazwałyście go bohaterem."
+    ru: "Вы назвали его героем."
+    source: { kind: authored }
+  - form: "nazwałyście"
+    pl: "Nie nazwałyście tego przypadkiem."
+    ru: "Вы не назвали это случайностью."
+    source: { kind: authored }
+  - form: "nazwałyśmy"
+    pl: "Nazwałyśmy psa Lucky."
+    ru: "Мы назвали пса Лаки."
+    source: { kind: authored }
+  - form: "nazwałyśmy"
+    pl: "Nazwałyśmy go bohaterem."
+    ru: "Мы назвали его героем."
+    source: { kind: authored }
+  - form: "nazwałyśmy"
+    pl: "Nazwałyśmy córkę po babci."
+    ru: "Мы назвали дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwana"
+    pl: "Ulica została nazwana po poecie."
+    ru: "Улица названа в честь поэта."
+    source: { kind: authored }
+  - form: "nazwana"
+    pl: "Córka nazwana po babci ma na imię Anna."
+    ru: "Дочь, названную в честь бабушки, зовут Анна."
+    source: { kind: authored }
+  - form: "nazwana"
+    pl: "Była nazwana bohaterką."
+    ru: "Её называли героиней."
+    source: { kind: authored }
+  - form: "nazwaną"
+    pl: "Mary otrzymała nagrodę za swoją kompozycję nazwaną \"Sekretna miłość\"."
+    ru: "Мэри получила награду за композицию под названием «Тайная любовь»."
+    source: { kind: translated, id: 4225509 }
+  - form: "nazwaną"
+    pl: "Odebrał nagrodę za pracę nazwaną skromnie „Notatki”."
+    ru: "Он получил награду за работу, скромно названную «Заметки»."
+    source: { kind: authored }
+  - form: "nazwaną"
+    pl: "Widziałem ulicę nazwaną po poecie."
+    ru: "Я видел улицу, названную в честь поэта."
+    source: { kind: authored }
+  - form: "nazwane"
+    pl: "Dziecko zostało nazwane John, po swym wujku."
+    ru: "Ребёнка назвали Джоном, в честь дяди."
+    source: { kind: translated, id: 643797 }
+  - form: "nazwane"
+    pl: "Ulice zostały nazwane po poetach."
+    ru: "Улицы назвали в честь поэтов."
+    source: { kind: authored }
+  - form: "nazwane"
+    pl: "Te gwiazdy są nazwane po bogach."
+    ru: "Эти звёзды названы в честь богов."
+    source: { kind: authored }
+  - form: "nazwanego"
+    pl: "Nie znam mostu nazwanego po nim."
+    ru: "Я не знаю моста, названного в его честь."
+    source: { kind: authored }
+  - form: "nazwanego"
+    pl: "Szukam pliku nazwanego inaczej."
+    ru: "Я ищу файл, названный иначе."
+    source: { kind: authored }
+  - form: "nazwanego"
+    pl: "Historia chłopca nazwanego po dziadku jest znana."
+    ru: "История мальчика, названного в честь деда, известна."
+    source: { kind: authored }
+  - form: "nazwanej"
+    pl: "Nie znam ulicy nazwanej po poecie."
+    ru: "Я не знаю улицы, названной в честь поэта."
+    source: { kind: authored }
+  - form: "nazwanej"
+    pl: "Szukam kompozycji nazwanej „Sekretna miłość”."
+    ru: "Я ищу композицию под названием «Тайная любовь»."
+    source: { kind: authored }
+  - form: "nazwanej"
+    pl: "Historia dziewczynki nazwanej po babci jest znana."
+    ru: "История девочки, названной в честь бабушки, известна."
+    source: { kind: authored }
+  - form: "nazwanemu"
+    pl: "Przyjrzał się mostowi nazwanemu po królu."
+    ru: "Он присмотрелся к мосту, названному в честь короля."
+    source: { kind: authored }
+  - form: "nazwanemu"
+    pl: "Nie ufał plikowi nazwanemu inaczej."
+    ru: "Он не доверял файлу, названному иначе."
+    source: { kind: authored }
+  - form: "nazwanemu"
+    pl: "Dzięki dziecku nazwanemu po dziadku pamięć przetrwała."
+    ru: "Благодаря ребёнку, названному в честь деда, память сохранилась."
+    source: { kind: authored }
+  - form: "nazwani"
+    pl: "Błogosławieni, którzy wprowadzają pokój, albowiem oni będą nazwani synami Bożymi."
+    ru: "Блаженны миротворцы, ибо они будут наречены сынами Божиими."
+    source: { kind: translated, id: 5320391 }
+  - form: "nazwani"
+    pl: "Zostali nazwani bohaterami."
+    ru: "Их назвали героями."
+    source: { kind: authored }
+  - form: "nazwani"
+    pl: "Nazwani zdrajcami, musieli uciekać."
+    ru: "Названные предателями, они были вынуждены бежать."
+    source: { kind: authored }
+  - form: "nazwania"
+    pl: "Nie ma sposobu nazwania tego inaczej."
+    ru: "Назвать это иначе невозможно."
+    source: { kind: authored }
+  - form: "nazwania"
+    pl: "Unikał nazwania rzeczy po imieniu."
+    ru: "Он избегал называть вещи своими именами."
+    source: { kind: authored }
+  - form: "nazwania"
+    pl: "Czas nazwania dziecka nadszedł."
+    ru: "Настало время дать ребёнку имя."
+    source: { kind: authored }
+  - form: "nazwanie"
+    pl: "Nazwanie rzeczy po imieniu wymaga odwagi."
+    ru: "Назвать вещи своими именами требует смелости."
+    source: { kind: authored }
+  - form: "nazwanie"
+    pl: "Nazwanie dziecka zajęło im miesiąc."
+    ru: "Выбрать имя ребёнку заняло у них месяц."
+    source: { kind: authored }
+  - form: "nazwanie"
+    pl: "Nazwanie go tchórzem było krzywdzące."
+    ru: "Назвать его трусом было несправедливо."
+    source: { kind: authored }
+  - form: "nazwaniem"
+    pl: "Przed nazwaniem dziecka długo się spierali."
+    ru: "Перед тем как дать ребёнку имя, они долго спорили."
+    source: { kind: authored }
+  - form: "nazwaniem"
+    pl: "Zajął się nazwaniem nowych ulic."
+    ru: "Он занялся наименованием новых улиц."
+    source: { kind: authored }
+  - form: "nazwaniem"
+    pl: "Między nazwaniem a zrozumieniem jest różnica."
+    ru: "Между «назвать» и «понять» есть разница."
+    source: { kind: authored }
+  - form: "nazwaniu"
+    pl: "Po nazwaniu dziecka odetchnęli."
+    ru: "Дав ребёнку имя, они перевели дух."
+    source: { kind: authored }
+  - form: "nazwaniu"
+    pl: "Mówili o nazwaniu ulicy po poecie."
+    ru: "Они говорили о наименовании улицы в честь поэта."
+    source: { kind: authored }
+  - form: "nazwaniu"
+    pl: "Po nazwaniu rzeczy po imieniu zapadła cisza."
+    ru: "После того как вещи назвали своими именами, настала тишина."
+    source: { kind: authored }
+  - form: "nazwano"
+    pl: "Mamisynkiem go nazwano."
+    ru: "Маменькиным сынком его назвали."
+    source: { kind: translated, id: 1348948 }
+  - form: "nazwano"
+    pl: "Klaczkę nazwano \"Kometa\", ponieważ była bardzo szybka."
+    ru: "Кобылку назвали «Комета», потому что она была очень быстрой."
+    source: { kind: translated, id: 12470206 }
+  - form: "nazwano"
+    pl: "Most nazwano imieniem króla."
+    ru: "Мост назвали именем короля."
+    source: { kind: authored }
+  - form: "nazwany"
+    pl: "Most nazwany imieniem króla stoi do dziś."
+    ru: "Мост, названный именем короля, стоит до сих пор."
+    source: { kind: authored }
+  - form: "nazwany"
+    pl: "Został nazwany bohaterem."
+    ru: "Его назвали героем."
+    source: { kind: authored }
+  - form: "nazwany"
+    pl: "Syn nazwany po dziadku ma na imię Jan."
+    ru: "Сына, названного в честь деда, зовут Ян."
+    source: { kind: authored }
+  - form: "nazwanych"
+    pl: "Wśród ulic nazwanych po poetach jest i ta."
+    ru: "Среди улиц, названных в честь поэтов, есть и эта."
+    source: { kind: authored }
+  - form: "nazwanych"
+    pl: "Liczba gwiazd nazwanych po ludziach rośnie."
+    ru: "Число звёзд, названных в честь людей, растёт."
+    source: { kind: authored }
+  - form: "nazwanych"
+    pl: "Nie ma tu plików nazwanych inaczej."
+    ru: "Файлов, названных иначе, здесь нет."
+    source: { kind: authored }
+  - form: "nazwanym"
+    pl: "W mieście nazwanym po królu jest zamek."
+    ru: "В городе, названном в честь короля, есть замок."
+    source: { kind: authored }
+  - form: "nazwanym"
+    pl: "Przyjrzał się ulicom nazwanym po poetach."
+    ru: "Он присмотрелся к улицам, названным в честь поэтов."
+    source: { kind: authored }
+  - form: "nazwanym"
+    pl: "Zajął się plikiem nazwanym inaczej."
+    ru: "Он занялся файлом, названным иначе."
+    source: { kind: authored }
+  - form: "nazwanymi"
+    pl: "Zajęli się ulicami nazwanymi po poetach."
+    ru: "Они занялись улицами, названными в честь поэтов."
+    source: { kind: authored }
+  - form: "nazwanymi"
+    pl: "Między nazwanymi a bezimiennymi jest różnica."
+    ru: "Между названными и безымянными есть разница."
+    source: { kind: authored }
+  - form: "nazwanymi"
+    pl: "Wrócił z plikami nazwanymi po nowemu."
+    ru: "Он вернулся с файлами, названными по-новому."
+    source: { kind: authored }
+  - form: "nazwawszy"
+    pl: "Nazwawszy go tchórzem, pożałował."
+    ru: "Назвав его трусом, он пожалел."
+    source: { kind: authored }
+  - form: "nazwawszy"
+    pl: "Nazwawszy dziecko po dziadku, odetchnęli."
+    ru: "Назвав ребёнка в честь деда, они перевели дух."
+    source: { kind: authored }
+  - form: "nazwawszy"
+    pl: "Nazwawszy rzeczy po imieniu, zamilkł."
+    ru: "Назвав вещи своими именами, он умолк."
+    source: { kind: authored }
+  - form: "nazwą"
+    pl: "Nazwą go bohaterem."
+    ru: "Его назовут героем."
+    source: { kind: authored }
+  - form: "nazwą"
+    pl: "Nie nazwą tego przypadkiem."
+    ru: "Это не назовут случайностью."
+    source: { kind: authored }
+  - form: "nazwą"
+    pl: "Kiedyś nazwą tę ulicę po nim."
+    ru: "Когда-нибудь эту улицу назовут в его честь."
+    source: { kind: authored }
+  - form: "nazwę"
+    pl: "Nazwę psa Burek."
+    ru: "Я назову пса Бурек."
+    source: { kind: authored }
+  - form: "nazwę"
+    pl: "Nie nazwę go przyjacielem."
+    ru: "Я не назову его другом."
+    source: { kind: authored }
+  - form: "nazwę"
+    pl: "Nazwę rzeczy po imieniu."
+    ru: "Я назову вещи своими именами."
+    source: { kind: authored }
+  - form: "nazwie"
+    pl: "On nazwie syna po dziadku."
+    ru: "Он назовёт сына в честь деда."
+    source: { kind: authored }
+  - form: "nazwie"
+    pl: "Nikt go nie nazwie tchórzem."
+    ru: "Никто не назовёт его трусом."
+    source: { kind: authored }
+  - form: "nazwie"
+    pl: "Kto nazwie tego psa?"
+    ru: "Кто назовёт эту собаку?"
+    source: { kind: authored }
+  - form: "nazwiecie"
+    pl: "Jak nazwiecie tego psa?"
+    ru: "Как вы назовёте эту собаку?"
+    source: { kind: authored }
+  - form: "nazwiecie"
+    pl: "Nie nazwiecie go tchórzem."
+    ru: "Вы не назовёте его трусом."
+    source: { kind: authored }
+  - form: "nazwiecie"
+    pl: "Nazwiecie rzeczy po imieniu?"
+    ru: "Вы назовёте вещи своими именами?"
+    source: { kind: authored }
+  - form: "nazwiemy"
+    pl: "Nazwiemy córkę po babci."
+    ru: "Мы назовём дочь в честь бабушки."
+    source: { kind: authored }
+  - form: "nazwiemy"
+    pl: "Nie nazwiemy go tchórzem."
+    ru: "Мы не назовём его трусом."
+    source: { kind: authored }
+  - form: "nazwiemy"
+    pl: "Nazwiemy rzeczy po imieniu."
+    ru: "Мы назовём вещи своими именами."
+    source: { kind: authored }
+  - form: "nazwiesz"
+    pl: "Jak nazwiesz swoje dziecko?"
+    ru: "Как ты назовёшь своего ребёнка?"
+    source: { kind: translated, id: 1000613 }
+  - form: "nazwiesz"
+    pl: "Jak nazwiesz tego psa?"
+    ru: "Как ты назовёшь эту собаку?"
+    source: { kind: authored }
+  - form: "nazwiesz"
+    pl: "Nie nazwiesz go tchórzem."
+    ru: "Ты не назовёшь его трусом."
+    source: { kind: authored }
+  - form: "nazwij"
+    pl: "Nazwij to jak chcesz."
+    ru: "Называй это как хочешь."
+    source: { kind: tatoeba, id: 6109745 }
+  - form: "nazwij"
+    pl: "Nazwij go po imieniu."
+    ru: "Назови его по имени."
+    source: { kind: authored }
+  - form: "nazwij"
+    pl: "Nazwij plik inaczej."
+    ru: "Назови файл иначе."
+    source: { kind: authored }
+  - form: "nazwijcie"
+    pl: "Nazwijcie go po imieniu."
+    ru: "Назовите его по имени."
+    source: { kind: authored }
+  - form: "nazwijcie"
+    pl: "Nazwijcie rzeczy po imieniu."
+    ru: "Назовите вещи своими именами."
+    source: { kind: authored }
+  - form: "nazwijcie"
+    pl: "Nazwijcie plik inaczej."
+    ru: "Назовите файл иначе."
+    source: { kind: authored }
+  - form: "nazwijmy"
+    pl: "Nazwijmy rzeczy po imieniu."
+    ru: "Назовём вещи своими именами."
+    source: { kind: translated, id: 7362450 }
+  - form: "nazwijmy"
+    pl: "\"Skąd taki przesąd?\" \"Nazwijmy to mądrością ludową.\""
+    ru: "Назовём это народной мудростью."
+    source: { kind: translated, id: 501978 }
+  - form: "nazwijmy"
+    pl: "Nazwijmy go po prostu przyjacielem."
+    ru: "Назовём его просто другом."
+    source: { kind: authored }

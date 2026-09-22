@@ -1,0 +1,706 @@
+# review
+id: umierac
+format: 2
+lemma: "umierać"
+rank: 665
+pos: verb
+aspect: imperf
+aspectPair: umrzec
+pron: { cyr: "уме́раць" }
+senses:
+  - id: die
+    ru: "умирать"
+    examples:
+      - pl: "Ludzie umierają każdego dnia."
+        ru: "Люди умирают каждый день."
+        source: { kind: tatoeba, id: 3576127 }
+      - pl: "Tom zrozumiał, że umiera."
+        ru: "Том понял, что умирает."
+        source: { kind: tatoeba, id: 6895143 }
+      - pl: "Wszyscy umierają."
+        ru: "Все умирают."
+        source: { kind: translated, id: 3847582 }
+  - id: die-of
+    ru: "umierać Z czegoś — умирать от чего-л."
+    note: "Польский берёт z с родительным там, где русский говорит «от»."
+    examples:
+      - pl: "Umiera z głodu."
+        ru: "Он умирает от голода."
+        source: { kind: tatoeba, id: 12470203 }
+      - pl: "Umieram z głodu!"
+        ru: "Умираю с голоду!"
+        source: { kind: translated, id: 352675 }
+      - pl: "Umieramy z głodu."
+        ru: "Мы умираем с голоду."
+        source: { kind: translated, id: 8500401 }
+  - id: dying
+    ru: "umierający — умирающий"
+    note: "Часто стоит именной частью: Pies był umierający."
+    examples:
+      - pl: "Pies był umierający."
+        ru: "Пёс умирал."
+        source: { kind: translated, id: 355263 }
+      - pl: "Tom jest umierający."
+        ru: "Том умирает."
+        source: { kind: translated, id: 4467735 }
+      - pl: "Twoja matka jest umierająca."
+        ru: "Твоя мать умирает."
+        source: { kind: translated, id: 357430 }
+  - id: die-for
+    ru: "umierać za coś, dla czegoś — умирать за что-л."
+    examples:
+      - pl: "Patrioci zawsze mówią o umieraniu dla kraju, a o zabijaniu innych - nigdy."
+        ru: "Патриоты всегда говорят о смерти за родину и никогда — об убийстве других."
+        source: { kind: translated, id: 639806 }
+      - pl: "Umierali za ojczyznę."
+        ru: "Они умирали за родину."
+        source: { kind: authored }
+      - pl: "Nie warto umierać za pieniądze."
+        ru: "За деньги умирать не стоит."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Причина смерти идёт через z с родительным: umierać z głodu «умирать от голода», z gorąca «от жары», z nudów «от скуки». Русское «от» отвечает здесь польскому z, а не od." }
+  - { kind: usage, text: "Umieram z głodu! — обиходное преувеличение, ровно как русское «умираю с голоду»." }
+  - { kind: usage, text: "Совершенный вид — umrzeć: umierał długo, w końcu umarł." }
+  - { kind: usage, text: "Причастие umierający «умирающий» часто стоит именной частью сказуемого: Pies był umierający «Пёс умирал»." }
+  - { kind: usage, text: "«Умирать за родину» можно двояко: umierać za ojczyznę и umierać dla ojczyzny — оба оборота живы." }
+collocations:
+  - { pl: "umierać z głodu", ru: "умирать от голода" }
+  - { pl: "Umieram z głodu!", ru: "Умираю с голоду!" }
+  - { pl: "umierać za ojczyznę", ru: "умирать за родину" }
+  - { pl: "umierający", ru: "умирающий" }
+family:
+  - { pl: "umrzeć", ru: "умереть", relation: aspect }
+  - { pl: "śmierć", ru: "смерть", relation: root }
+  - { pl: "umieranie", ru: "умирание", relation: derived }
+etymology: "Приставка u- плюс mierać, многократное от mrzeć «мереть», праславянское *merti — то же гнездо, что русские «умирать», «мереть» и «смерть»."
+memory: "umierać — «умирать», и корень тот же, что в русском. Запомнить надо предлог причины: umierać Z głodu, z gorąca, z nudów — польский берёт z с родительным там, где русский говорит «от». Обиходное Umieram z głodu! значит ровно то же, что «умираю с голоду». Совершенный вид — umrzeć, а причастие umierający «умирающий» часто стоит именной частью: Pies był umierający."
+idioms:
+  - { pl: "umierać z głodu", ru: "умирать от голода" }
+  - { pl: "Umieram z głodu!", ru: "Умираю с голоду!" }
+  - { pl: "umierać za ojczyznę", ru: "умирать за родину" }
+formExamples:
+  - form: "umiera"
+    pl: "Umiera z głodu."
+    ru: "Он умирает от голода."
+    source: { kind: tatoeba, id: 12470203 }
+  - form: "umiera"
+    pl: "Tom zrozumiał, że umiera."
+    ru: "Том понял, что умирает."
+    source: { kind: tatoeba, id: 6895143 }
+  - form: "umiera"
+    pl: "Pszczoła gryzie tylko raz, a potem umiera."
+    ru: "Пчела жалит только один раз, а потом умирает."
+    source: { kind: tatoeba, id: 6156496 }
+  - form: "umieracie"
+    pl: "Umieracie z głodu?"
+    ru: "Вы умираете с голоду?"
+    source: { kind: authored }
+  - form: "umieracie"
+    pl: "Nie umieracie, tylko narzekacie."
+    ru: "Вы не умираете, а жалуетесь."
+    source: { kind: authored }
+  - form: "umieracie"
+    pl: "Umieracie z nudów na tych zebraniach."
+    ru: "Вы умираете от скуки на этих собраниях."
+    source: { kind: authored }
+  - form: "umierać"
+    pl: "Nie chcą umierać."
+    ru: "Они не хотят умирать."
+    source: { kind: tatoeba, id: 6554086 }
+  - form: "umierać"
+    pl: "Każdemu żal umierać."
+    ru: "Всякому жаль умирать."
+    source: { kind: translated, id: 415227 }
+  - form: "umierać"
+    pl: "Nie chcę umierać."
+    ru: "Я не хочу умирать."
+    source: { kind: translated, id: 6305668 }
+  - form: "umieraj"
+    pl: "Nie umieraj!"
+    ru: "Не умирай."
+    source: { kind: tatoeba, id: 3701853 }
+  - form: "umieraj"
+    pl: "Proszę, nie umieraj!"
+    ru: "Пожалуйста, не умирай!"
+    source: { kind: translated, id: 2601512 }
+  - form: "umieraj"
+    pl: "Nie umieraj tak młodo."
+    ru: "Не умирай таким молодым."
+    source: { kind: authored }
+  - form: "umierają"
+    pl: "Ludzie umierają każdego dnia."
+    ru: "Люди умирают каждый день."
+    source: { kind: tatoeba, id: 3576127 }
+  - form: "umierają"
+    pl: "Wszyscy umierają."
+    ru: "Все умирают."
+    source: { kind: translated, id: 3847582 }
+  - form: "umierają"
+    pl: "Palacze umierają młodziej."
+    ru: "Курильщики умирают моложе."
+    source: { kind: translated, id: 3945404 }
+  - form: "umierając"
+    pl: "Siedziała w cieniu, umierając z gorąca i wachlowała się kolorowym magazynem."
+    ru: "Она сидела в тени изнывая от жары и обмахивалась глянцевым журналом."
+    source: { kind: tatoeba, id: 836972 }
+  - form: "umierając"
+    pl: "Umierając, prosił o wodę."
+    ru: "Умирая, он просил воды."
+    source: { kind: authored }
+  - form: "umierając"
+    pl: "Umierając z nudów, wyszedł z sali."
+    ru: "Умирая от скуки, он вышел из зала."
+    source: { kind: authored }
+  - form: "umierająca"
+    pl: "Jestem umierająca."
+    ru: "Я умираю."
+    source: { kind: translated, id: 4467740 }
+  - form: "umierająca"
+    pl: "Twoja matka jest umierająca."
+    ru: "Твоя мать умирает."
+    source: { kind: translated, id: 357430 }
+  - form: "umierająca"
+    pl: "Umierająca kobieta prosiła o księdza."
+    ru: "Умирающая женщина просила священника."
+    source: { kind: authored }
+  - form: "umierającą"
+    pl: "Zastał umierającą matkę."
+    ru: "Он застал умирающую мать."
+    source: { kind: authored }
+  - form: "umierającą"
+    pl: "Uznali ją za umierającą."
+    ru: "Её сочли умирающей."
+    source: { kind: authored }
+  - form: "umierającą"
+    pl: "Widział umierającą sarnę."
+    ru: "Он видел умирающую косулю."
+    source: { kind: authored }
+  - form: "umierające"
+    pl: "Umierające drzewa wycięto."
+    ru: "Умирающие деревья вырубили."
+    source: { kind: authored }
+  - form: "umierające"
+    pl: "To umierające miasteczko."
+    ru: "Это умирающий городок."
+    source: { kind: authored }
+  - form: "umierające"
+    pl: "Umierające zwierzęta zabrano do lecznicy."
+    ru: "Умирающих животных забрали в лечебницу."
+    source: { kind: authored }
+  - form: "umierającego"
+    pl: "Zawołali księdza do umierającego."
+    ru: "Они позвали священника к умирающему."
+    source: { kind: authored }
+  - form: "umierającego"
+    pl: "Nie zostawili umierającego psa."
+    ru: "Они не бросили умирающего пса."
+    source: { kind: authored }
+  - form: "umierającego"
+    pl: "Głos umierającego był ledwo słyszalny."
+    ru: "Голос умирающего был едва слышен."
+    source: { kind: authored }
+  - form: "umierającej"
+    pl: "Zawołali księdza do umierającej kobiety."
+    ru: "Они позвали священника к умирающей женщине."
+    source: { kind: authored }
+  - form: "umierającej"
+    pl: "Głos umierającej był ledwo słyszalny."
+    ru: "Голос умирающей был едва слышен."
+    source: { kind: authored }
+  - form: "umierającej"
+    pl: "Nie zostawili umierającej suki."
+    ru: "Они не бросили умирающую собаку."
+    source: { kind: authored }
+  - form: "umierającemu"
+    pl: "Podali wodę umierającemu."
+    ru: "Умирающему подали воды."
+    source: { kind: authored }
+  - form: "umierającemu"
+    pl: "Przyjrzał się umierającemu drzewu."
+    ru: "Он присмотрелся к умирающему дереву."
+    source: { kind: authored }
+  - form: "umierającemu"
+    pl: "Dzięki lekarzowi umierającemu ulżyło."
+    ru: "Благодаря врачу умирающему стало легче."
+    source: { kind: authored }
+  - form: "umierający"
+    pl: "Jestem umierający."
+    ru: "Я умираю."
+    source: { kind: translated, id: 4467739 }
+  - form: "umierający"
+    pl: "Pies był umierający."
+    ru: "Пёс умирал."
+    source: { kind: translated, id: 355263 }
+  - form: "umierający"
+    pl: "Tom jest umierający."
+    ru: "Том умирает."
+    source: { kind: translated, id: 4467735 }
+  - form: "umierających"
+    pl: "Wśród umierających byli starcy."
+    ru: "Среди умирающих были старики."
+    source: { kind: authored }
+  - form: "umierających"
+    pl: "Liczba umierających rosła."
+    ru: "Число умирающих росло."
+    source: { kind: authored }
+  - form: "umierających"
+    pl: "Nie ma tu umierających drzew."
+    ru: "Умирающих деревьев здесь нет."
+    source: { kind: authored }
+  - form: "umierającym"
+    pl: "Podali wodę umierającym."
+    ru: "Умирающим подали воды."
+    source: { kind: authored }
+  - form: "umierającym"
+    pl: "W umierającym mieście zapadła cisza."
+    ru: "В умирающем городе настала тишина."
+    source: { kind: authored }
+  - form: "umierającym"
+    pl: "Zajął się umierającym ogrodem."
+    ru: "Он занялся умирающим садом."
+    source: { kind: authored }
+  - form: "umierającymi"
+    pl: "Opiekowali się umierającymi."
+    ru: "Они ухаживали за умирающими."
+    source: { kind: authored }
+  - form: "umierającymi"
+    pl: "Między umierającymi a zdrowymi postawiono ścianę."
+    ru: "Между умирающими и здоровыми поставили стену."
+    source: { kind: authored }
+  - form: "umierającymi"
+    pl: "Wrócił z umierającymi zwierzętami."
+    ru: "Он вернулся с умирающими животными."
+    source: { kind: authored }
+  - form: "umierajcie"
+    pl: "Nie umierajcie tak młodo."
+    ru: "Не умирайте такими молодыми."
+    source: { kind: authored }
+  - form: "umierajcie"
+    pl: "Nie umierajcie za darmo."
+    ru: "Не умирайте задаром."
+    source: { kind: authored }
+  - form: "umierajcie"
+    pl: "Nie umierajcie z głodu, zjedzcie coś."
+    ru: "Не умирайте с голоду, поешьте."
+    source: { kind: authored }
+  - form: "umierajmy"
+    pl: "Nie umierajmy za darmo."
+    ru: "Не будем умирать задаром."
+    source: { kind: authored }
+  - form: "umierajmy"
+    pl: "Nie umierajmy z nudów."
+    ru: "Не будем умирать от скуки."
+    source: { kind: authored }
+  - form: "umierajmy"
+    pl: "Umierajmy godnie, jeśli już trzeba."
+    ru: "Будем умирать достойно, если уж надо."
+    source: { kind: authored }
+  - form: "umierali"
+    pl: "Oni kolejno umierali."
+    ru: "Они умирали один за другим."
+    source: { kind: translated, id: 4653144 }
+  - form: "umierali"
+    pl: "Oni prawie umierali z głodu."
+    ru: "Они чуть не умирали от голода."
+    source: { kind: translated, id: 1589308 }
+  - form: "umierali"
+    pl: "Żołnierze obu stron umierali milionami."
+    ru: "Солдаты обеих сторон умирали миллионами."
+    source: { kind: translated, id: 13627003 }
+  - form: "umieraliby"
+    pl: "Umieraliby z głodu bez pomocy."
+    ru: "Без помощи они умирали бы с голоду."
+    source: { kind: authored }
+  - form: "umieraliby"
+    pl: "Nie umieraliby za darmo."
+    ru: "Задаром они не умирали бы."
+    source: { kind: authored }
+  - form: "umieraliby"
+    pl: "Umieraliby z nudów na tych zebraniach."
+    ru: "Они умирали бы от скуки на этих собраниях."
+    source: { kind: authored }
+  - form: "umieralibyście"
+    pl: "Umieralibyście z głodu bez pomocy."
+    ru: "Без помощи вы умирали бы с голоду."
+    source: { kind: authored }
+  - form: "umieralibyście"
+    pl: "Nie umieralibyście za darmo."
+    ru: "Задаром вы не умирали бы."
+    source: { kind: authored }
+  - form: "umieralibyście"
+    pl: "Umieralibyście z nudów."
+    ru: "Вы умирали бы от скуки."
+    source: { kind: authored }
+  - form: "umieralibyśmy"
+    pl: "Umieralibyśmy z głodu bez pomocy."
+    ru: "Без помощи мы умирали бы с голоду."
+    source: { kind: authored }
+  - form: "umieralibyśmy"
+    pl: "Nie umieralibyśmy za darmo."
+    ru: "Задаром мы не умирали бы."
+    source: { kind: authored }
+  - form: "umieralibyśmy"
+    pl: "Umieralibyśmy z nudów."
+    ru: "Мы умирали бы от скуки."
+    source: { kind: authored }
+  - form: "umieraliście"
+    pl: "Umieraliście z nudów?"
+    ru: "Вы умирали от скуки?"
+    source: { kind: authored }
+  - form: "umieraliście"
+    pl: "Umieraliście z głodu na tej wyprawie."
+    ru: "Вы умирали с голоду в том походе."
+    source: { kind: authored }
+  - form: "umieraliście"
+    pl: "Nie umieraliście, tylko narzekaliście."
+    ru: "Вы не умирали, а жаловались."
+    source: { kind: authored }
+  - form: "umieraliśmy"
+    pl: "Umieraliśmy z nudów."
+    ru: "Мы умирали от скуки."
+    source: { kind: authored }
+  - form: "umieraliśmy"
+    pl: "Umieraliśmy z głodu na tej wyprawie."
+    ru: "Мы умирали с голоду в том походе."
+    source: { kind: authored }
+  - form: "umieraliśmy"
+    pl: "Nie umieraliśmy, tylko odpoczywaliśmy."
+    ru: "Мы не умирали, а отдыхали."
+    source: { kind: authored }
+  - form: "umierał"
+    pl: "Tom umierał."
+    ru: "Том умирал."
+    source: { kind: translated, id: 3500108 }
+  - form: "umierał"
+    pl: "Ten człowiek umierał."
+    ru: "Этот человек умирал."
+    source: { kind: translated, id: 669646 }
+  - form: "umierał"
+    pl: "Nie chcę, żebyś umierał."
+    ru: "Я не хочу, чтобы ты умирал."
+    source: { kind: translated, id: 3945594 }
+  - form: "umierała"
+    pl: "Umierała powoli, całą zimę."
+    ru: "Она умирала медленно, всю зиму."
+    source: { kind: authored }
+  - form: "umierała"
+    pl: "Umierała z nudów na tych zebraniach."
+    ru: "Она умирала от скуки на этих собраниях."
+    source: { kind: authored }
+  - form: "umierała"
+    pl: "Nie umierała, tylko spała."
+    ru: "Она не умирала, а спала."
+    source: { kind: authored }
+  - form: "umierałaby"
+    pl: "Umierałaby z głodu bez pomocy."
+    ru: "Без помощи она умирала бы с голоду."
+    source: { kind: authored }
+  - form: "umierałaby"
+    pl: "Nie umierałaby za darmo."
+    ru: "Задаром она не умирала бы."
+    source: { kind: authored }
+  - form: "umierałaby"
+    pl: "Umierałaby z nudów."
+    ru: "Она умирала бы от скуки."
+    source: { kind: authored }
+  - form: "umierałabym"
+    pl: "Umierałabym z głodu bez pomocy."
+    ru: "Без помощи я умирала бы с голоду."
+    source: { kind: authored }
+  - form: "umierałabym"
+    pl: "Nie umierałabym za darmo."
+    ru: "Задаром я не умирала бы."
+    source: { kind: authored }
+  - form: "umierałabym"
+    pl: "Umierałabym z nudów."
+    ru: "Я умирала бы от скуки."
+    source: { kind: authored }
+  - form: "umierałabyś"
+    pl: "Umierałabyś z głodu bez pomocy."
+    ru: "Без помощи ты умирала бы с голоду."
+    source: { kind: authored }
+  - form: "umierałabyś"
+    pl: "Nie umierałabyś za darmo."
+    ru: "Задаром ты не умирала бы."
+    source: { kind: authored }
+  - form: "umierałabyś"
+    pl: "Umierałabyś z nudów."
+    ru: "Ты умирала бы от скуки."
+    source: { kind: authored }
+  - form: "umierałam"
+    pl: "Umierałam z nudów."
+    ru: "Я умирала от скуки."
+    source: { kind: authored }
+  - form: "umierałam"
+    pl: "Umierałam z głodu po pracy."
+    ru: "Я умирала с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałam"
+    pl: "Nie umierałam, tylko odpoczywałam."
+    ru: "Я не умирала, а отдыхала."
+    source: { kind: authored }
+  - form: "umierałaś"
+    pl: "Umierałaś z nudów?"
+    ru: "Ты умирала от скуки?"
+    source: { kind: authored }
+  - form: "umierałaś"
+    pl: "Umierałaś z głodu po pracy."
+    ru: "Ты умирала с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałaś"
+    pl: "Nie umierałaś, tylko narzekałaś."
+    ru: "Ты не умирала, а жаловалась."
+    source: { kind: authored }
+  - form: "umierałby"
+    pl: "Umierałby z głodu bez pomocy."
+    ru: "Без помощи он умирал бы с голоду."
+    source: { kind: authored }
+  - form: "umierałby"
+    pl: "Nie umierałby za darmo."
+    ru: "Задаром он не умирал бы."
+    source: { kind: authored }
+  - form: "umierałby"
+    pl: "Umierałby z nudów na tych zebraniach."
+    ru: "Он умирал бы от скуки на этих собраниях."
+    source: { kind: authored }
+  - form: "umierałbym"
+    pl: "Umierałbym z głodu bez pomocy."
+    ru: "Без помощи я умирал бы с голоду."
+    source: { kind: authored }
+  - form: "umierałbym"
+    pl: "Nie umierałbym za darmo."
+    ru: "Задаром я не умирал бы."
+    source: { kind: authored }
+  - form: "umierałbym"
+    pl: "Umierałbym z nudów."
+    ru: "Я умирал бы от скуки."
+    source: { kind: authored }
+  - form: "umierałbyś"
+    pl: "Umierałbyś z głodu bez pomocy."
+    ru: "Без помощи ты умирал бы с голоду."
+    source: { kind: authored }
+  - form: "umierałbyś"
+    pl: "Nie umierałbyś za darmo."
+    ru: "Задаром ты не умирал бы."
+    source: { kind: authored }
+  - form: "umierałbyś"
+    pl: "Umierałbyś z nudów."
+    ru: "Ты умирал бы от скуки."
+    source: { kind: authored }
+  - form: "umierałem"
+    pl: "Umierałem z nudów."
+    ru: "Я умирал от скуки."
+    source: { kind: authored }
+  - form: "umierałem"
+    pl: "Umierałem z głodu po pracy."
+    ru: "Я умирал с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałem"
+    pl: "Nie umierałem, tylko odpoczywałem."
+    ru: "Я не умирал, а отдыхал."
+    source: { kind: authored }
+  - form: "umierałeś"
+    pl: "Umierałeś z nudów?"
+    ru: "Ты умирал от скуки?"
+    source: { kind: authored }
+  - form: "umierałeś"
+    pl: "Umierałeś z głodu po pracy."
+    ru: "Ты умирал с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałeś"
+    pl: "Nie umierałeś, tylko narzekałeś."
+    ru: "Ты не умирал, а жаловался."
+    source: { kind: authored }
+  - form: "umierało"
+    pl: "Dziecko umierało z gorączki."
+    ru: "Ребёнок умирал от жара."
+    source: { kind: authored }
+  - form: "umierało"
+    pl: "Wiele osób umierało z głodu."
+    ru: "Многие умирали от голода."
+    source: { kind: authored }
+  - form: "umierało"
+    pl: "Miasto umierało powoli."
+    ru: "Город медленно умирал."
+    source: { kind: authored }
+  - form: "umierałoby"
+    pl: "Dziecko umierałoby z gorączki."
+    ru: "Ребёнок умирал бы от жара."
+    source: { kind: authored }
+  - form: "umierałoby"
+    pl: "Miasto umierałoby powoli."
+    ru: "Город умирал бы медленно."
+    source: { kind: authored }
+  - form: "umierałoby"
+    pl: "Żadne drzewo nie umierałoby z braku wody."
+    ru: "Ни одно дерево не гибло бы от нехватки воды."
+    source: { kind: authored }
+  - form: "umierały"
+    pl: "One kolejno umierały."
+    ru: "Они умирали одна за другой."
+    source: { kind: translated, id: 4653145 }
+  - form: "umierały"
+    pl: "Drzewa umierały z braku wody."
+    ru: "Деревья гибли от нехватки воды."
+    source: { kind: authored }
+  - form: "umierały"
+    pl: "Kobiety umierały przy porodzie."
+    ru: "Женщины умирали при родах."
+    source: { kind: authored }
+  - form: "umierałyby"
+    pl: "Drzewa umierałyby z braku wody."
+    ru: "Деревья гибли бы от нехватки воды."
+    source: { kind: authored }
+  - form: "umierałyby"
+    pl: "Kobiety umierałyby przy porodzie."
+    ru: "Женщины умирали бы при родах."
+    source: { kind: authored }
+  - form: "umierałyby"
+    pl: "Nie umierałyby za darmo."
+    ru: "Задаром они не умирали бы."
+    source: { kind: authored }
+  - form: "umierałybyście"
+    pl: "Umierałybyście z głodu bez pomocy."
+    ru: "Без помощи вы умирали бы с голоду."
+    source: { kind: authored }
+  - form: "umierałybyście"
+    pl: "Nie umierałybyście za darmo."
+    ru: "Задаром вы не умирали бы."
+    source: { kind: authored }
+  - form: "umierałybyście"
+    pl: "Umierałybyście z nudów."
+    ru: "Вы умирали бы от скуки."
+    source: { kind: authored }
+  - form: "umierałybyśmy"
+    pl: "Umierałybyśmy z głodu bez pomocy."
+    ru: "Без помощи мы умирали бы с голоду."
+    source: { kind: authored }
+  - form: "umierałybyśmy"
+    pl: "Nie umierałybyśmy za darmo."
+    ru: "Задаром мы не умирали бы."
+    source: { kind: authored }
+  - form: "umierałybyśmy"
+    pl: "Umierałybyśmy z nudów."
+    ru: "Мы умирали бы от скуки."
+    source: { kind: authored }
+  - form: "umierałyście"
+    pl: "Umierałyście z nudów?"
+    ru: "Вы умирали от скуки?"
+    source: { kind: authored }
+  - form: "umierałyście"
+    pl: "Umierałyście z głodu po pracy."
+    ru: "Вы умирали с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałyście"
+    pl: "Nie umierałyście, tylko narzekałyście."
+    ru: "Вы не умирали, а жаловались."
+    source: { kind: authored }
+  - form: "umierałyśmy"
+    pl: "Umierałyśmy z nudów."
+    ru: "Мы умирали от скуки."
+    source: { kind: authored }
+  - form: "umierałyśmy"
+    pl: "Umierałyśmy z głodu po pracy."
+    ru: "Мы умирали с голоду после работы."
+    source: { kind: authored }
+  - form: "umierałyśmy"
+    pl: "Nie umierałyśmy, tylko odpoczywałyśmy."
+    ru: "Мы не умирали, а отдыхали."
+    source: { kind: authored }
+  - form: "umieram"
+    pl: "Umieram."
+    ru: "Я умираю."
+    source: { kind: translated, id: 2144803 }
+  - form: "umieram"
+    pl: "Nie umieram."
+    ru: "Я не умираю."
+    source: { kind: translated, id: 10623566 }
+  - form: "umieram"
+    pl: "Umieram z głodu!"
+    ru: "Умираю с голоду!"
+    source: { kind: translated, id: 352675 }
+  - form: "umieramy"
+    pl: "Umieramy."
+    ru: "Мы умираем."
+    source: { kind: translated, id: 8755812 }
+  - form: "umieramy"
+    pl: "Dlaczego umieramy?"
+    ru: "Почему мы умираем?"
+    source: { kind: translated, id: 5926677 }
+  - form: "umieramy"
+    pl: "Umieramy z głodu."
+    ru: "Мы умираем с голоду."
+    source: { kind: translated, id: 8500401 }
+  - form: "umierania"
+    pl: "To nie śmierci się boję, tylko umierania."
+    ru: "Я боюсь не смерти, а умирания."
+    source: { kind: translated, id: 7891423 }
+  - form: "umierania"
+    pl: "Boi się umierania, nie śmierci."
+    ru: "Он боится умирания, а не смерти."
+    source: { kind: authored }
+  - form: "umierania"
+    pl: "Nie ma łatwego sposobu umierania."
+    ru: "Лёгкого способа умирать не бывает."
+    source: { kind: authored }
+  - form: "umieranie"
+    pl: "Starzenie się nie jest dobre, lecz umieranie za młodu również nie."
+    ru: "Стареть нехорошо, но умирать молодым тоже."
+    source: { kind: translated, id: 4413345 }
+  - form: "umieranie"
+    pl: "Umieranie to nic, więc zacznij żyć - to mniej zabawne i trwa dłużej."
+    ru: "Умирать — это ничто, так что начни жить."
+    source: { kind: translated, id: 940944 }
+  - form: "umieranie"
+    pl: "Powolne umieranie lasu widać co roku."
+    ru: "Медленное умирание леса видно каждый год."
+    source: { kind: authored }
+  - form: "umieraniem"
+    pl: "Między umieraniem a śmiercią jest różnica."
+    ru: "Между умиранием и смертью есть разница."
+    source: { kind: authored }
+  - form: "umieraniem"
+    pl: "Zmęczył się umieraniem ze strachu."
+    ru: "Он устал умирать от страха."
+    source: { kind: authored }
+  - form: "umieraniem"
+    pl: "Przed umieraniem broni się każdy."
+    ru: "От умирания защищается каждый."
+    source: { kind: authored }
+  - form: "umieraniu"
+    pl: "Patrioci zawsze mówią o umieraniu dla kraju, a o zabijaniu innych - nigdy."
+    ru: "Патриоты всегда говорят о смерти за родину и никогда — об убийстве других."
+    source: { kind: translated, id: 639806 }
+  - form: "umieraniu"
+    pl: "Mówili o umieraniu za ojczyznę."
+    ru: "Они говорили о смерти за родину."
+    source: { kind: authored }
+  - form: "umieraniu"
+    pl: "W umieraniu nie ma nic romantycznego."
+    ru: "В умирании нет ничего романтического."
+    source: { kind: authored }
+  - form: "umierano"
+    pl: "Dawniej umierano wcześnie."
+    ru: "Раньше умирали рано."
+    source: { kind: authored }
+  - form: "umierano"
+    pl: "Umierano tu z głodu."
+    ru: "Здесь умирали от голода."
+    source: { kind: authored }
+  - form: "umierano"
+    pl: "Nie umierano za takie sprawy."
+    ru: "За такие дела не умирали."
+    source: { kind: authored }
+  - form: "umierasz"
+    pl: "Umierasz."
+    ru: "Ты умираешь."
+    source: { kind: translated, id: 5665246 }
+  - form: "umierasz"
+    pl: "Jeśli nie jesz, umierasz."
+    ru: "Если не ешь, умираешь."
+    source: { kind: translated, id: 350786 }
+  - form: "umierasz"
+    pl: "Umierasz z głodu?"
+    ru: "Ты умираешь с голоду?"
+    source: { kind: authored }

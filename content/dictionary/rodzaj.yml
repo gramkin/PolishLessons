@@ -1,0 +1,190 @@
+# review
+id: rodzaj
+format: 2
+lemma: "rodzaj"
+rank: 660
+pos: noun
+pron: { cyr: "ро́дзай" }
+senses:
+  - id: kind
+    ru: "вид, род, сорт"
+    examples:
+      - pl: "Który rodzaj mąki wybrać?"
+        ru: "Какой вид муки выбрать?"
+        source: { kind: tatoeba, id: 6155981 }
+      - pl: "Który rodzaj ryby jest zdrowszy: ryba morska czy słodkowodna?"
+        ru: "Какая рыба полезнее: морская или пресноводная?"
+        source: { kind: tatoeba, id: 13006901 }
+      - pl: "To rodzaj chleba."
+        ru: "Это вид хлеба."
+        source: { kind: translated, id: 351522 }
+  - id: what-kind
+    ru: "jakiego rodzaju — какого рода, какой"
+    note: "Буквально «какого рода»: Jakiego rodzaju muzyki słuchasz?"
+    examples:
+      - pl: "Jakiego rodzaju muzyki słuchasz?"
+        ru: "Какую музыку ты слушаешь?"
+        source: { kind: translated, id: 575397 }
+      - pl: "Jakiego rodzaju pracy szukasz?"
+        ru: "Какую работу ты ищешь?"
+        source: { kind: translated, id: 6159837 }
+      - pl: "Nie lubię tego rodzaju muzyki."
+        ru: "Я не люблю такую музыку."
+        source: { kind: translated, id: 527799 }
+  - id: a-sort-of
+    ru: "rodzajem — нечто вроде, своего рода"
+    note: "Творительный передаёт русское «своего рода»."
+    examples:
+      - pl: "Fotograf jest rodzajem malarza."
+        ru: "Фотограф — своего рода художник."
+        source: { kind: translated, id: 11745003 }
+      - pl: "Mafia jest rodzajem organizacji przestępczej."
+        ru: "Мафия — своего рода преступная организация."
+        source: { kind: translated, id: 1645338 }
+      - pl: "\"Shiitake\" jest rodzajem grzyba."
+        ru: "«Шиитаке» — это вид гриба."
+        source: { kind: translated, id: 3398958 }
+  - id: gender
+    ru: "род (грамматический)"
+    note: "rodzaj męski, żeński, nijaki — терминология совпадает с русской."
+    examples:
+      - pl: "To rzeczownik rodzaju męskiego."
+        ru: "Это существительное мужского рода."
+        source: { kind: authored }
+      - pl: "W polskim są trzy rodzaje gramatyczne."
+        ru: "В польском три грамматических рода."
+        source: { kind: authored }
+      - pl: "Jakiego rodzaju jest to słowo?"
+        ru: "Какого рода это слово?"
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "В грамматике rodzaj значит «род»: rodzaj męski «мужской», żeński «женский», nijaki «средний». Терминология совпадает с русской." }
+  - { kind: government, text: "Оборот jakiego rodzaju значит «какого рода, какой»: Jakiego rodzaju muzyki słuchasz? — буквально «какого рода музыку слушаешь»." }
+  - { kind: usage, text: "Творительный rodzajem передаёт «нечто вроде, своего рода»: Mafia jest rodzajem organizacji przestępczej." }
+  - { kind: usage, text: "Родительный множественного двоякий: обычное rodzajów и редкое rodzai." }
+collocations:
+  - { pl: "jakiego rodzaju", ru: "какого рода" }
+  - { pl: "rodzaj męski", ru: "мужской род" }
+  - { pl: "tego rodzaju", ru: "такого рода" }
+  - { pl: "różne rodzaje", ru: "разные виды" }
+family:
+  - { pl: "rodzić", ru: "рождать", relation: root }
+  - { pl: "ród", ru: "род", relation: root }
+  - { pl: "rodzina", ru: "семья", relation: derived }
+etymology: "От rodzić «рождать», праславянское *rodъ — то же слово, что русские «род», «родить» и «народ»."
+memory: "rodzaj — «вид, род», и корень тот же, что в русском «род». Работает оно в трёх местах. Просто «вид, сорт»: To rodzaj chleba. Грамматический род: rodzaj męski, żeński, nijaki — терминология совпадает с русской. И оборот jakiego rodzaju «какого рода»: Jakiego rodzaju muzyki słuchasz? Отдельно запомните творительный rodzajem «нечто вроде»: Mafia jest rodzajem organizacji przestępczej."
+idioms:
+  - { pl: "jakiego rodzaju", ru: "какого рода" }
+  - { pl: "rodzaj męski", ru: "мужской род" }
+  - { pl: "tego rodzaju", ru: "такого рода" }
+formExamplesSkip:
+  - { form: "rodzai", reason: "редкий вариант родительного множественного: обычная форма — rodzajów, и именно она встречается в живом языке" }
+formExamples:
+  - form: "rodzaj"
+    pl: "Który rodzaj mąki wybrać?"
+    ru: "Какой вид муки выбрать?"
+    source: { kind: tatoeba, id: 6155981 }
+  - form: "rodzaj"
+    pl: "Który rodzaj ryby jest zdrowszy: ryba morska czy słodkowodna?"
+    ru: "Какая рыба полезнее: морская или пресноводная?"
+    source: { kind: tatoeba, id: 13006901 }
+  - form: "rodzaj"
+    pl: "To rodzaj chleba."
+    ru: "Это вид хлеба."
+    source: { kind: translated, id: 351522 }
+  - form: "rodzajach"
+    pl: "Mówili o rodzajach gramatycznych."
+    ru: "Они говорили о грамматических родах."
+    source: { kind: authored }
+  - form: "rodzajach"
+    pl: "W obu rodzajach kawy jest kofeina."
+    ru: "В обоих сортах кофе есть кофеин."
+    source: { kind: authored }
+  - form: "rodzajach"
+    pl: "W tych rodzajach broni trudno się połapać."
+    ru: "В этих видах оружия трудно разобраться."
+    source: { kind: authored }
+  - form: "rodzajami"
+    pl: "Zajmuje się rodzajami skał."
+    ru: "Он занимается видами горных пород."
+    source: { kind: authored }
+  - form: "rodzajami"
+    pl: "Między tymi rodzajami jest wyraźna różnica."
+    ru: "Между этими видами есть явная разница."
+    source: { kind: authored }
+  - form: "rodzajami"
+    pl: "Wrócił z trzema rodzajami herbaty."
+    ru: "Он вернулся с тремя сортами чая."
+    source: { kind: authored }
+  - form: "rodzaje"
+    pl: "Istnieją różne rodzaje kawy."
+    ru: "Есть разные сорта кофе."
+    source: { kind: translated, id: 8550049 }
+  - form: "rodzaje"
+    pl: "Pewne rodzaje pożywienia czynią nas spragnionymi."
+    ru: "Некоторые виды пищи вызывают жажду."
+    source: { kind: translated, id: 749431 }
+  - form: "rodzaje"
+    pl: "W tym sklepie sprzedają różnego rodzaje towarów."
+    ru: "В этом магазине продают разного рода товары."
+    source: { kind: translated, id: 709392 }
+  - form: "rodzajem"
+    pl: "\"Shiitake\" jest rodzajem grzyba."
+    ru: "«Шиитаке» — это вид гриба."
+    source: { kind: translated, id: 3398958 }
+  - form: "rodzajem"
+    pl: "Fotograf jest rodzajem malarza."
+    ru: "Фотограф — своего рода художник."
+    source: { kind: translated, id: 11745003 }
+  - form: "rodzajem"
+    pl: "Mafia jest rodzajem organizacji przestępczej."
+    ru: "Мафия — своего рода преступная организация."
+    source: { kind: translated, id: 1645338 }
+  - form: "rodzajom"
+    pl: "Przyjrzał się rodzajom gramatycznym."
+    ru: "Он присмотрелся к грамматическим родам."
+    source: { kind: authored }
+  - form: "rodzajom"
+    pl: "Dzięki nowym rodzajom nawozów plony wzrosły."
+    ru: "Благодаря новым видам удобрений урожаи выросли."
+    source: { kind: authored }
+  - form: "rodzajom"
+    pl: "Nie ufa nowym rodzajom leków."
+    ru: "Он не доверяет новым видам лекарств."
+    source: { kind: authored }
+  - form: "rodzajowi"
+    pl: "Przyjrzał się temu rodzajowi grzybów."
+    ru: "Он присмотрелся к этому виду грибов."
+    source: { kind: authored }
+  - form: "rodzajowi"
+    pl: "Dzięki temu rodzajowi nawozu plon wzrósł."
+    ru: "Благодаря этому виду удобрения урожай вырос."
+    source: { kind: authored }
+  - form: "rodzajowi"
+    pl: "Nie ufa temu rodzajowi leków."
+    ru: "Он не доверяет этому виду лекарств."
+    source: { kind: authored }
+  - form: "rodzajów"
+    pl: "Na świecie jest 10 rodzajów ludzi: ci którzy rozumieją system dwójkowy i ci którzy go nie rozumieją"
+    ru: "В мире есть 10 типов людей: те, кто понимает двоичную систему счисления, и те, кто не понимает."
+    source: { kind: tatoeba, id: 526774 }
+  - form: "rodzajów"
+    pl: "Czytałem wiele rodzajów książek."
+    ru: "Я читал много разных книг."
+    source: { kind: translated, id: 2120179 }
+  - form: "rodzajów"
+    pl: "Ile rodzajów warzyw uprawiasz w ogródku?"
+    ru: "Сколько видов овощей ты выращиваешь в огороде?"
+    source: { kind: translated, id: 961047 }
+  - form: "rodzaju"
+    pl: "Jakiego rodzaju muzyki słuchasz?"
+    ru: "Какую музыку ты слушаешь?"
+    source: { kind: translated, id: 575397 }
+  - form: "rodzaju"
+    pl: "Jakiego rodzaju pracy szukasz?"
+    ru: "Какую работу ты ищешь?"
+    source: { kind: translated, id: 6159837 }
+  - form: "rodzaju"
+    pl: "Nie lubię tego rodzaju muzyki."
+    ru: "Я не люблю такую музыку."
+    source: { kind: translated, id: 527799 }
