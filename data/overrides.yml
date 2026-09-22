@@ -73,6 +73,12 @@ exclude:
   # pages. NOTE: the patrzył- past is therefore covered nowhere yet — folding those
   # forms into the patrzec card is the open question.
   - patrzyć
+  # not a lemma but the neuter form of "możliwy", which is ranked separately at
+  # 1456: the draft paradigm here is truncated to six forms (możliwe, możliwego,
+  # możliwemu, możliwych, możliwym, możliwymi) with no feminine and no virile, and
+  # every candidate is predicative — Całkiem możliwe, Jak to możliwe? Carding it
+  # would put one adjective on two pages, as patrzyć would have.
+  - możliwe
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
@@ -102,3 +108,6 @@ pos:
   # "ktokolwiek" is tagged as a noun; it is kto + -kolwiek, a pronoun, and it
   # declines like kto (kogokolwiek, komukolwiek, kimkolwiek)
   ktokolwiek: pron
+  # tagged as a noun, but every candidate is the telephone interjection
+  # (Halo!, Halo?, Halo, jesteś jeszcze?) and the paradigm has a single form
+  halo: interj
