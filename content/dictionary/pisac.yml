@@ -1,0 +1,825 @@
+# review
+id: pisac
+format: 2
+lemma: "pisać"
+rank: 532
+pos: verb
+aspect: imperf
+pron: { cyr: "пи́саць" }
+senses:
+  - id: write
+    ru: "писать (что-л. — винительный, как в русском)"
+    note: "Прямое дополнение в винительном: piszę list."
+    examples:
+      - pl: "Umiesz pisać?"
+        ru: "Ты умеешь писать?"
+        source: { kind: tatoeba, id: 5336646 }
+      - pl: "On pisze książki."
+        ru: "Он пишет книги."
+        source: { kind: tatoeba, id: 1393347 }
+      - pl: "Piszę list."
+        ru: "Я пишу письмо."
+        source: { kind: translated, id: 2164635 }
+  - id: write-to
+    ru: "pisać do kogoś — писать кому-либо"
+    note: "Главное отличие: с предлогом do и родительным, а не с дательным."
+    examples:
+      - pl: "Pisała do rodziców przynajmniej raz w tygodniu."
+        ru: "Она писала родителям минимум раз в неделю."
+        source: { kind: translated, id: 882892 }
+      - pl: "Nie znała jego adresu, więc do niego nie pisała."
+        ru: "Она не знала его адреса, поэтому ему не писала."
+        source: { kind: translated, id: 771750 }
+      - pl: "Nie pisz do mnie takich długich listów."
+        ru: "Не пиши мне таких длинных писем."
+        source: { kind: tatoeba, id: 1783757 }
+  - id: destined
+    ru: "pisane komuś — суждено кому-либо"
+    note: "Застывший оборот с причастием: co komu pisane «кому что суждено»."
+    examples:
+      - pl: "Było jej pisane umrzeć młodo."
+        ru: "Ей было суждено умереть молодой."
+        source: { kind: translated, id: 837082 }
+      - pl: "Patrz, zmarł tak nagle. A taki był zdrowy... Nikt nie wie, co komu pisane."
+        ru: "Смотри, умер так внезапно. А такой был здоровый... Никто не знает, кому что суждено."
+        source: { kind: translated, id: 959782 }
+      - pl: "Widać tak było pisane."
+        ru: "Видно, так было суждено."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "«Писать кому-то» по-польски строится иначе: pisać DO kogoś, с предлогом do и родительным — pisać do rodziców «писать родителям». Дательного падежа здесь нет." }
+  - { kind: usage, text: "pisać na komputerze «печатать на компьютере», pisać na maszynie «печатать на машинке», pisać na temat czegoś «писать на тему чего-либо»." }
+  - { kind: usage, text: "Совершенный вид — napisać: napisałem list «я написал письмо»." }
+  - { kind: usage, text: "Причастие в обороте pisane komuś значит «суждено»: Nikt nie wie, co komu pisane." }
+collocations:
+  - { pl: "pisać list", ru: "писать письмо" }
+  - { pl: "pisać do kogoś", ru: "писать кому-либо" }
+  - { pl: "pisać na komputerze", ru: "печатать на компьютере" }
+  - { pl: "co komu pisane", ru: "кому что суждено" }
+family:
+  - { pl: "napisać", ru: "написать", relation: derived }
+  - { pl: "pismo", ru: "письмо; письменность", relation: derived }
+  - { pl: "pisarz", ru: "писатель", relation: derived }
+etymology: "От праславянского *pьsati «писать, рисовать» — то же слово, что русское «писать»; отсюда же pismo «письмо, письменность» и pisarz «писатель»."
+memory: "pisać — «писать», и прямое дополнение как в русском: piszę list. Но «писать КОМУ-ТО» строится иначе: pisać DO kogoś, с предлогом do и родительным — pisała do rodziców «она писала родителям», никакого дательного. Совершенный вид — napisać. И запомните застывший оборот pisane komuś «суждено кому-то»: Nikt nie wie, co komu pisane."
+idioms:
+  - { pl: "pisać do kogoś", ru: "писать кому-либо" }
+  - { pl: "co komu pisane", ru: "кому что суждено" }
+  - { pl: "pisać na komputerze", ru: "печатать на компьютере" }
+formExamples:
+  - form: "pisać"
+    pl: "Umiesz pisać?"
+    ru: "Ты умеешь писать?"
+    source: { kind: tatoeba, id: 5336646 }
+  - form: "pisać"
+    pl: "Uczymy się czytać i pisać."
+    ru: "Мы учимся читать и писать."
+    source: { kind: tatoeba, id: 826630 }
+  - form: "pisać"
+    pl: "Co on teraz będzie pisać?"
+    ru: "Что он теперь будет писать?"
+    source: { kind: tatoeba, id: 13184069 }
+  - form: "pisali"
+    pl: "Pisali do siebie przez lata."
+    ru: "Они писали друг другу годами."
+    source: { kind: authored }
+  - form: "pisali"
+    pl: "Uczniowie pisali test."
+    ru: "Ученики писали тест."
+    source: { kind: authored }
+  - form: "pisali"
+    pl: "Nie pisali o tym w gazetach."
+    ru: "Об этом не писали в газетах."
+    source: { kind: authored }
+  - form: "pisaliby"
+    pl: "Pisaliby częściej, gdyby mieli czas."
+    ru: "Они писали бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisaliby"
+    pl: "Nie pisaliby o tym."
+    ru: "Они не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisaliby"
+    pl: "Pisaliby do nas co tydzień."
+    ru: "Они писали бы нам каждую неделю."
+    source: { kind: authored }
+  - form: "pisalibyście"
+    pl: "Pisalibyście częściej, gdybyście mieli czas."
+    ru: "Вы писали бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisalibyście"
+    pl: "Nie pisalibyście o tym."
+    ru: "Вы не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisalibyście"
+    pl: "Pisalibyście do nas co tydzień?"
+    ru: "Вы писали бы нам каждую неделю?"
+    source: { kind: authored }
+  - form: "pisalibyśmy"
+    pl: "Pisalibyśmy częściej, gdybyśmy mieli czas."
+    ru: "Мы писали бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisalibyśmy"
+    pl: "Nie pisalibyśmy o tym."
+    ru: "Мы не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisalibyśmy"
+    pl: "Pisalibyśmy do was co tydzień."
+    ru: "Мы писали бы вам каждую неделю."
+    source: { kind: authored }
+  - form: "pisaliście"
+    pl: "Pisaliście do niego?"
+    ru: "Вы ему писали?"
+    source: { kind: authored }
+  - form: "pisaliście"
+    pl: "Co pisaliście na egzaminie?"
+    ru: "Что вы писали на экзамене?"
+    source: { kind: authored }
+  - form: "pisaliście"
+    pl: "Nie pisaliście o tym ani słowa."
+    ru: "Вы об этом ни слова не написали."
+    source: { kind: authored }
+  - form: "pisaliśmy"
+    pl: "Nie mówiłem im, co pisaliśmy w tej internetowej wiadomości."
+    ru: "Я не говорил им, что мы писали в том сообщении."
+    source: { kind: translated, id: 4969703 }
+  - form: "pisaliśmy"
+    pl: "Pisaliśmy list wspólnie."
+    ru: "Мы писали письмо вместе."
+    source: { kind: authored }
+  - form: "pisaliśmy"
+    pl: "Nie pisaliśmy o tym nikomu."
+    ru: "Мы никому об этом не писали."
+    source: { kind: authored }
+  - form: "pisał"
+    pl: "On pisał list."
+    ru: "Он писал письмо."
+    source: { kind: tatoeba, id: 3660780 }
+  - form: "pisał"
+    pl: "Tom pisał Mary długie listy."
+    ru: "Том писал Мэри длинные письма."
+    source: { kind: tatoeba, id: 11319003 }
+  - form: "pisał"
+    pl: "Chociaż Gogol urodził się na Ukrainie, pisał tylko po rosyjsku."
+    ru: "Несмотря на то что Гоголь родился на Украине, писал он только по-русски."
+    source: { kind: tatoeba, id: 11516396 }
+  - form: "pisała"
+    pl: "Pisała do rodziców przynajmniej raz w tygodniu."
+    ru: "Она писала родителям минимум раз в неделю."
+    source: { kind: translated, id: 882892 }
+  - form: "pisała"
+    pl: "Nie znała jego adresu, więc do niego nie pisała."
+    ru: "Она не знала его адреса, поэтому ему не писала."
+    source: { kind: translated, id: 771750 }
+  - form: "pisała"
+    pl: "Pisała wiersze od dziecka."
+    ru: "Она писала стихи с детства."
+    source: { kind: authored }
+  - form: "pisałaby"
+    pl: "Pisałaby częściej, gdyby miała czas."
+    ru: "Она писала бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałaby"
+    pl: "Nie pisałaby o tym."
+    ru: "Она не писала бы об этом."
+    source: { kind: authored }
+  - form: "pisałaby"
+    pl: "Pisałaby do nas co tydzień."
+    ru: "Она писала бы нам каждую неделю."
+    source: { kind: authored }
+  - form: "pisałabym"
+    pl: "Pisałabym częściej, gdybym miała czas."
+    ru: "Я писала бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałabym"
+    pl: "Nie pisałabym o tym."
+    ru: "Я не писала бы об этом."
+    source: { kind: authored }
+  - form: "pisałabym"
+    pl: "Pisałabym do was co tydzień."
+    ru: "Я писала бы вам каждую неделю."
+    source: { kind: authored }
+  - form: "pisałabyś"
+    pl: "Pisałabyś częściej, gdybyś miała czas."
+    ru: "Ты писала бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałabyś"
+    pl: "Nie pisałabyś o tym."
+    ru: "Ты не писала бы об этом."
+    source: { kind: authored }
+  - form: "pisałabyś"
+    pl: "Pisałabyś do nas co tydzień?"
+    ru: "Ты писала бы нам каждую неделю?"
+    source: { kind: authored }
+  - form: "pisałam"
+    pl: "Dawno nie pisałam listu."
+    ru: "Я давно не писала писем."
+    source: { kind: translated, id: 7891438 }
+  - form: "pisałam"
+    pl: "Pisałam do niego co tydzień."
+    ru: "Я писала ему каждую неделю."
+    source: { kind: authored }
+  - form: "pisałam"
+    pl: "Nie pisałam o tym nikomu."
+    ru: "Я никому об этом не писала."
+    source: { kind: authored }
+  - form: "pisałaś"
+    pl: "Pisałaś do niego?"
+    ru: "Ты ему писала?"
+    source: { kind: authored }
+  - form: "pisałaś"
+    pl: "Co pisałaś na egzaminie?"
+    ru: "Что ты писала на экзамене?"
+    source: { kind: authored }
+  - form: "pisałaś"
+    pl: "Nie pisałaś o tym ani słowa."
+    ru: "Ты об этом ни слова не написала."
+    source: { kind: authored }
+  - form: "pisałby"
+    pl: "Pisałby częściej, gdyby miał czas."
+    ru: "Он писал бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałby"
+    pl: "Nikt nie pisałby o tym."
+    ru: "Никто не писал бы об этом."
+    source: { kind: authored }
+  - form: "pisałby"
+    pl: "Pisałby do nas co tydzień."
+    ru: "Он писал бы нам каждую неделю."
+    source: { kind: authored }
+  - form: "pisałbym"
+    pl: "Pisałbym częściej, gdybym miał czas."
+    ru: "Я писал бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałbym"
+    pl: "Nie pisałbym o tym."
+    ru: "Я не писал бы об этом."
+    source: { kind: authored }
+  - form: "pisałbym"
+    pl: "Pisałbym do was co tydzień."
+    ru: "Я писал бы вам каждую неделю."
+    source: { kind: authored }
+  - form: "pisałbyś"
+    pl: "Pisałbyś częściej, gdybyś miał czas."
+    ru: "Ты писал бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałbyś"
+    pl: "Nie pisałbyś o tym."
+    ru: "Ты не писал бы об этом."
+    source: { kind: authored }
+  - form: "pisałbyś"
+    pl: "Pisałbyś do nas co tydzień?"
+    ru: "Ты писал бы нам каждую неделю?"
+    source: { kind: authored }
+  - form: "pisałem"
+    pl: "Przykro mi, że tak długo do ciebie nie pisałem."
+    ru: "Мне жаль, что я так долго тебе не писал."
+    source: { kind: tatoeba, id: 2148526 }
+  - form: "pisałem"
+    pl: "Cały ranek pisałem listy."
+    ru: "Всё утро я писал письма."
+    source: { kind: translated, id: 359373 }
+  - form: "pisałem"
+    pl: "Kiedy przyszedł, pisałem list."
+    ru: "Когда он пришёл, я писал письмо."
+    source: { kind: translated, id: 735845 }
+  - form: "pisałeś"
+    pl: "Pisałeś do niego?"
+    ru: "Ты ему писал?"
+    source: { kind: authored }
+  - form: "pisałeś"
+    pl: "Co pisałeś na egzaminie?"
+    ru: "Что ты писал на экзамене?"
+    source: { kind: authored }
+  - form: "pisałeś"
+    pl: "Nie pisałeś o tym ani słowa."
+    ru: "Ты об этом ни слова не написал."
+    source: { kind: authored }
+  - form: "pisało"
+    pl: "Nie pamiętam, jak się pisało jej nazwisko."
+    ru: "Я не помню, как писалась её фамилия."
+    source: { kind: translated, id: 959731 }
+  - form: "pisało"
+    pl: "Dziecko pisało powoli."
+    ru: "Ребёнок писал медленно."
+    source: { kind: authored }
+  - form: "pisało"
+    pl: "W gazecie pisało, że będzie deszcz."
+    ru: "В газете писали, что будет дождь."
+    source: { kind: authored }
+  - form: "pisałoby"
+    pl: "Dziecko pisałoby ładniej, gdyby się starało."
+    ru: "Ребёнок писал бы красивее, если бы старался."
+    source: { kind: authored }
+  - form: "pisałoby"
+    pl: "Wiele osób pisałoby o tym inaczej."
+    ru: "Многие писали бы об этом иначе."
+    source: { kind: authored }
+  - form: "pisałoby"
+    pl: "To pióro pisałoby lepiej po wymianie wkładu."
+    ru: "Эта ручка писала бы лучше после замены стержня."
+    source: { kind: authored }
+  - form: "pisały"
+    pl: "Dzieci pisały list do babci."
+    ru: "Дети писали письмо бабушке."
+    source: { kind: authored }
+  - form: "pisały"
+    pl: "Gazety pisały o tym tygodniami."
+    ru: "Газеты писали об этом неделями."
+    source: { kind: authored }
+  - form: "pisały"
+    pl: "Dziewczyny pisały do siebie codziennie."
+    ru: "Девушки писали друг другу каждый день."
+    source: { kind: authored }
+  - form: "pisałyby"
+    pl: "Gazety pisałyby o tym tygodniami."
+    ru: "Газеты писали бы об этом неделями."
+    source: { kind: authored }
+  - form: "pisałyby"
+    pl: "Dzieci pisałyby ładniej, gdyby się starały."
+    ru: "Дети писали бы красивее, если бы старались."
+    source: { kind: authored }
+  - form: "pisałyby"
+    pl: "Nie pisałyby o tym."
+    ru: "Они не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisałybyście"
+    pl: "Pisałybyście częściej, gdybyście miały czas."
+    ru: "Вы писали бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałybyście"
+    pl: "Nie pisałybyście o tym."
+    ru: "Вы не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisałybyście"
+    pl: "Pisałybyście do nas co tydzień?"
+    ru: "Вы писали бы нам каждую неделю?"
+    source: { kind: authored }
+  - form: "pisałybyśmy"
+    pl: "Pisałybyśmy częściej, gdybyśmy miały czas."
+    ru: "Мы писали бы чаще, если бы было время."
+    source: { kind: authored }
+  - form: "pisałybyśmy"
+    pl: "Nie pisałybyśmy o tym."
+    ru: "Мы не писали бы об этом."
+    source: { kind: authored }
+  - form: "pisałybyśmy"
+    pl: "Pisałybyśmy do was co tydzień."
+    ru: "Мы писали бы вам каждую неделю."
+    source: { kind: authored }
+  - form: "pisałyście"
+    pl: "Pisałyście do niego?"
+    ru: "Вы ему писали?"
+    source: { kind: authored }
+  - form: "pisałyście"
+    pl: "Co pisałyście na egzaminie?"
+    ru: "Что вы писали на экзамене?"
+    source: { kind: authored }
+  - form: "pisałyście"
+    pl: "Nie pisałyście o tym ani słowa."
+    ru: "Вы об этом ни слова не написали."
+    source: { kind: authored }
+  - form: "pisałyśmy"
+    pl: "Pisałyśmy do siebie codziennie."
+    ru: "Мы писали друг другу каждый день."
+    source: { kind: authored }
+  - form: "pisałyśmy"
+    pl: "Co pisałyśmy na egzaminie, już nie pamiętam."
+    ru: "Что мы писали на экзамене, я уже не помню."
+    source: { kind: authored }
+  - form: "pisałyśmy"
+    pl: "Nie pisałyśmy o tym."
+    ru: "Мы об этом не писали."
+    source: { kind: authored }
+  - form: "pisana"
+    pl: "Książka była pisana w pośpiechu, zawiera więc mnóstwo błędów."
+    ru: "Книга писалась в спешке, поэтому в ней масса ошибок."
+    source: { kind: translated, id: 353892 }
+  - form: "pisana"
+    pl: "Ta książka była pisana latami."
+    ru: "Эта книга писалась годами."
+    source: { kind: authored }
+  - form: "pisana"
+    pl: "Kartka była pisana ręcznie."
+    ru: "Открытка была написана от руки."
+    source: { kind: authored }
+  - form: "pisaną"
+    pl: "Sprawdził pisaną wczoraj pracę."
+    ru: "Он проверил написанную вчера работу."
+    source: { kind: authored }
+  - form: "pisaną"
+    pl: "Uznali tę kartkę za pisaną ręcznie."
+    ru: "Они сочли, что открытка написана от руки."
+    source: { kind: authored }
+  - form: "pisaną"
+    pl: "Widział pisaną po polsku tablicę."
+    ru: "Он видел табличку, написанную по-польски."
+    source: { kind: authored }
+  - form: "pisane"
+    pl: "Było jej pisane umrzeć młodo."
+    ru: "Ей было суждено умереть молодой."
+    source: { kind: translated, id: 837082 }
+  - form: "pisane"
+    pl: "Patrz, zmarł tak nagle. A taki był zdrowy... Nikt nie wie, co komu pisane."
+    ru: "Смотри, умер так внезапно. А такой был здоровый... Никто не знает, кому что суждено."
+    source: { kind: translated, id: 959782 }
+  - form: "pisane"
+    pl: "Te listy były pisane po polsku."
+    ru: "Эти письма были написаны по-польски."
+    source: { kind: authored }
+  - form: "pisanego"
+    pl: "Nie pamiętam pisanego wtedy listu."
+    ru: "Я не помню письма, написанного тогда."
+    source: { kind: authored }
+  - form: "pisanego"
+    pl: "Nie ma tu nic pisanego ręcznie."
+    ru: "Здесь нет ничего написанного от руки."
+    source: { kind: authored }
+  - form: "pisanego"
+    pl: "Szukali pisanego po polsku dokumentu."
+    ru: "Они искали документ, написанный по-польски."
+    source: { kind: authored }
+  - form: "pisanej"
+    pl: "Nie pamiętam pisanej wtedy pracy."
+    ru: "Я не помню работы, написанной тогда."
+    source: { kind: authored }
+  - form: "pisanej"
+    pl: "Po pisanej naprędce notatce zostały błędy."
+    ru: "В наспех написанной записке остались ошибки."
+    source: { kind: authored }
+  - form: "pisanej"
+    pl: "Szukali pisanej ręcznie kartki."
+    ru: "Они искали написанную от руки открытку."
+    source: { kind: authored }
+  - form: "pisanemu"
+    pl: "Przyjrzyj się pisanemu ręcznie listowi."
+    ru: "Присмотрись к написанному от руки письму."
+    source: { kind: authored }
+  - form: "pisanemu"
+    pl: "Nie ufaj pisanemu naprędce raportowi."
+    ru: "Не доверяй наспех написанному отчёту."
+    source: { kind: authored }
+  - form: "pisanemu"
+    pl: "Dzięki pisanemu regulaminowi wszystko było jasne."
+    ru: "Благодаря письменному регламенту всё было ясно."
+    source: { kind: authored }
+  - form: "pisani"
+    pl: "Bohaterowie tej powieści są pisani z życia."
+    ru: "Герои этого романа написаны с натуры."
+    source: { kind: authored }
+  - form: "pisani"
+    pl: "Święci na ikonach są pisani według kanonu."
+    ru: "Святых на иконах пишут по канону."
+    source: { kind: authored }
+  - form: "pisani"
+    pl: "Byli pisani jako postacie drugoplanowe."
+    ru: "Их писали как второстепенных персонажей."
+    source: { kind: authored }
+  - form: "pisania"
+    pl: "Masz coś do pisania?"
+    ru: "У тебя есть чем записать?"
+    source: { kind: tatoeba, id: 1735687 }
+  - form: "pisania"
+    pl: "Uczę się pisania na komputerze."
+    ru: "Я учусь писать на компьютере."
+    source: { kind: tatoeba, id: 542060 }
+  - form: "pisania"
+    pl: "Wszystkie systemy pisania mają wady i zalety."
+    ru: "Все системы письма имеют свои преимущества и недостатки."
+    source: { kind: tatoeba, id: 2151468 }
+  - form: "pisanie"
+    pl: "Tom lubi pisanie."
+    ru: "Том любит писать."
+    source: { kind: translated, id: 6157347 }
+  - form: "pisanie"
+    pl: "Pisanie nie jest łatwe."
+    ru: "Писать нелегко."
+    source: { kind: translated, id: 11694399 }
+  - form: "pisanie"
+    pl: "Pisanie mi nie wychodzi."
+    ru: "У меня не получается писать."
+    source: { kind: translated, id: 13030284 }
+  - form: "pisaniem"
+    pl: "Jest zajęta pisaniem raportów."
+    ru: "Она занята написанием отчётов."
+    source: { kind: translated, id: 575392 }
+  - form: "pisaniem"
+    pl: "Sekretarka jest zmęczona pisaniem."
+    ru: "Секретарша устала печатать."
+    source: { kind: translated, id: 776059 }
+  - form: "pisaniem"
+    pl: "Jest zajęty pisaniem listu."
+    ru: "Он занят написанием письма."
+    source: { kind: translated, id: 1349109 }
+  - form: "pisaniu"
+    pl: "Jest świetna w pisaniu wypracowań."
+    ru: "Она отлично пишет сочинения."
+    source: { kind: translated, id: 351510 }
+  - form: "pisaniu"
+    pl: "Osiągnęła mistrzostwo w pisaniu na maszynie."
+    ru: "Она достигла мастерства в машинописи."
+    source: { kind: translated, id: 758402 }
+  - form: "pisaniu"
+    pl: "Spędził trzy lata na pisaniu tej powieści."
+    ru: "Он провёл три года за написанием этого романа."
+    source: { kind: translated, id: 558506 }
+  - form: "pisano"
+    pl: "Niegdyś pisano o tym w czasopismach."
+    ru: "Когда-то об этом писали в журналах."
+    source: { kind: translated, id: 13067875 }
+  - form: "pisano"
+    pl: "Dawniej pisano gęsim piórem."
+    ru: "Раньше писали гусиным пером."
+    source: { kind: authored }
+  - form: "pisano"
+    pl: "O tym nie pisano w gazetach."
+    ru: "Об этом не писали в газетах."
+    source: { kind: authored }
+  - form: "pisany"
+    pl: "Jego list, pisany w pośpiechu, był trudny do odczytania."
+    ru: "Его письмо, написанное в спешке, было трудно разобрать."
+    source: { kind: translated, id: 369000 }
+  - form: "pisany"
+    pl: "Ten list był pisany ręcznie."
+    ru: "Это письмо было написано от руки."
+    source: { kind: authored }
+  - form: "pisany"
+    pl: "Tekst pisany kursywą trudniej się czyta."
+    ru: "Текст, написанный курсивом, читается труднее."
+    source: { kind: authored }
+  - form: "pisanych"
+    pl: "Wśród pisanych ręcznie listów był jeden po francusku."
+    ru: "Среди написанных от руки писем было одно по-французски."
+    source: { kind: authored }
+  - form: "pisanych"
+    pl: "Nie ma tu pisanych wczoraj notatek."
+    ru: "Здесь нет вчерашних записей."
+    source: { kind: authored }
+  - form: "pisanych"
+    pl: "Liczba pisanych prac rośnie."
+    ru: "Число написанных работ растёт."
+    source: { kind: authored }
+  - form: "pisanym"
+    pl: "W pisanym po polsku liście było kilka błędów."
+    ru: "В написанном по-польски письме было несколько ошибок."
+    source: { kind: authored }
+  - form: "pisanym"
+    pl: "Nie ufaj pisanym naprędce raportom."
+    ru: "Не доверяй наспех написанным отчётам."
+    source: { kind: authored }
+  - form: "pisanym"
+    pl: "Zajął się pisanym od ręki testamentem."
+    ru: "Он занялся завещанием, написанным от руки."
+    source: { kind: authored }
+  - form: "pisanymi"
+    pl: "Zajmuje się listami pisanymi ręcznie."
+    ru: "Он занимается письмами, написанными от руки."
+    source: { kind: authored }
+  - form: "pisanymi"
+    pl: "Między pisanymi wtedy tekstami był jeden ważny."
+    ru: "Среди написанных тогда текстов был один важный."
+    source: { kind: authored }
+  - form: "pisanymi"
+    pl: "Zaskoczył nas pisanymi po rosyjsku notatkami."
+    ru: "Он удивил нас записями на русском."
+    source: { kind: authored }
+  - form: "pisz"
+    pl: "Nie pisz tego!"
+    ru: "Не пиши этого!"
+    source: { kind: tatoeba, id: 1348834 }
+  - form: "pisz"
+    pl: "Nie pisz do mnie takich długich listów."
+    ru: "Не пиши мне таких длинных писем."
+    source: { kind: tatoeba, id: 1783757 }
+  - form: "pisz"
+    pl: "Nigdy nie pisz słów \"barszcz\" i \"szczi\" po niemiecku!"
+    ru: "Никогда не пишите слова \"борщ\" и \"щи\" по-немецки!"
+    source: { kind: tatoeba, id: 2099403 }
+  - form: "piszą"
+    pl: "Do kogo piszą państwo list?"
+    ru: "Кому вы пишете письмо?"
+    source: { kind: tatoeba, id: 13784989 }
+  - form: "piszą"
+    pl: "Piszą."
+    ru: "Они пишут."
+    source: { kind: translated, id: 9671737 }
+  - form: "piszą"
+    pl: "Piszą historię."
+    ru: "Они пишут историю."
+    source: { kind: translated, id: 9671741 }
+  - form: "pisząc"
+    pl: "Pisząc, zawsze ma słownik do dyspozycji."
+    ru: "Когда он пишет, у него всегда под рукой словарь."
+    source: { kind: translated, id: 1005059 }
+  - form: "pisząc"
+    pl: "Ona zrobiła wiele błędów, pisząc to sprawozdanie."
+    ru: "Она сделала много ошибок, когда писала этот отчёт."
+    source: { kind: translated, id: 3334691 }
+  - form: "pisząc"
+    pl: "Pisząc list do ważnej osoby należy się starać napisać go piękną polszczyzną."
+    ru: "Когда пишешь письмо важному человеку, стоит постараться написать его красивым польским."
+    source: { kind: translated, id: 2185967 }
+  - form: "pisząca"
+    pl: "Kobieta pisząca list podniosła głowę."
+    ru: "Женщина, писавшая письмо, подняла голову."
+    source: { kind: authored }
+  - form: "pisząca"
+    pl: "To autorka pisząca po polsku i po szwedzku."
+    ru: "Это писательница, пишущая по-польски и по-шведски."
+    source: { kind: authored }
+  - form: "pisząca"
+    pl: "Dziewczyna pisząca w zeszycie nie słuchała."
+    ru: "Девочка, писавшая в тетради, не слушала."
+    source: { kind: authored }
+  - form: "piszącą"
+    pl: "Znam dziewczynę piszącą wiersze."
+    ru: "Я знаю девушку, пишущую стихи."
+    source: { kind: authored }
+  - form: "piszącą"
+    pl: "Widział kobietę piszącą list."
+    ru: "Он видел женщину, писавшую письмо."
+    source: { kind: authored }
+  - form: "piszącą"
+    pl: "Pamiętam babcię piszącą kartki na święta."
+    ru: "Я помню бабушку, писавшую открытки к праздникам."
+    source: { kind: authored }
+  - form: "piszące"
+    pl: "Dzieci piszące list siedziały cicho."
+    ru: "Дети, писавшие письмо, сидели тихо."
+    source: { kind: authored }
+  - form: "piszące"
+    pl: "Osoby piszące ręcznie są dziś rzadkie."
+    ru: "Люди, пишущие от руки, сегодня редкость."
+    source: { kind: authored }
+  - form: "piszące"
+    pl: "Te piszące maszyny dawno wyszły z użycia."
+    ru: "Эти пишущие машинки давно вышли из употребления."
+    source: { kind: authored }
+  - form: "piszącego"
+    pl: "Nie znam nikogo piszącego tak szybko."
+    ru: "Я не знаю никого, кто пишет так быстро."
+    source: { kind: authored }
+  - form: "piszącego"
+    pl: "Zauważyli chłopca piszącego w zeszycie."
+    ru: "Они заметили мальчика, писавшего в тетради."
+    source: { kind: authored }
+  - form: "piszącego"
+    pl: "Trudno przerwać piszącego autora."
+    ru: "Трудно прервать пишущего автора."
+    source: { kind: authored }
+  - form: "piszącej"
+    pl: "Nie przeszkadzaj piszącej siostrze."
+    ru: "Не мешай пишущей сестре."
+    source: { kind: authored }
+  - form: "piszącej"
+    pl: "Przyglądał się piszącej dziewczynie."
+    ru: "Он смотрел на пишущую девушку."
+    source: { kind: authored }
+  - form: "piszącej"
+    pl: "Historia piszącej po nocach matki jest znana."
+    ru: "История матери, пишущей по ночам, известна."
+    source: { kind: authored }
+  - form: "piszącemu"
+    pl: "Nie przeszkadzaj piszącemu ojcu."
+    ru: "Не мешай пишущему отцу."
+    source: { kind: authored }
+  - form: "piszącemu"
+    pl: "Przyjrzyj się piszącemu uczniowi."
+    ru: "Присмотрись к пишущему ученику."
+    source: { kind: authored }
+  - form: "piszącemu"
+    pl: "Dzięki piszącemu protokół sekretarzowi wszystko zapisano."
+    ru: "Благодаря писавшему протокол секретарю всё записали."
+    source: { kind: authored }
+  - form: "piszący"
+    pl: "Nasza firma stworzyła flamaster piszący wszystkimi kolorami tęczy."
+    ru: "Наша фирма создала фломастер, пишущий всеми цветами радуги."
+    source: { kind: tatoeba, id: 6207686 }
+  - form: "piszący"
+    pl: "Dziennikarz, piszący o nielegalnych działaniach rządu, zginął w tajemniczych okolicznościach."
+    ru: "Журналист, пишущий о незаконных действиях правительства, погиб при таинственных обстоятельствах."
+    source: { kind: tatoeba, id: 6207687 }
+  - form: "piszący"
+    pl: "Taki paradoks, poeta piszący prozę."
+    ru: "Такой парадокс: поэт, пишущий прозу."
+    source: { kind: translated, id: 6207690 }
+  - form: "piszących"
+    pl: "Wśród piszących był jeden dziennikarz."
+    ru: "Среди пишущих был один журналист."
+    source: { kind: authored }
+  - form: "piszących"
+    pl: "Nie lubię ludzi piszących bez namysłu."
+    ru: "Я не люблю людей, пишущих без раздумий."
+    source: { kind: authored }
+  - form: "piszących"
+    pl: "Liczba piszących po polsku rośnie."
+    ru: "Число пишущих по-польски растёт."
+    source: { kind: authored }
+  - form: "piszącym"
+    pl: "Rozmawiał z piszącym reportaż dziennikarzem."
+    ru: "Он говорил с журналистом, писавшим репортаж."
+    source: { kind: authored }
+  - form: "piszącym"
+    pl: "Nie przeszkadzaj piszącym uczniom."
+    ru: "Не мешай пишущим ученикам."
+    source: { kind: authored }
+  - form: "piszącym"
+    pl: "W piszącym tłumie panowała cisza."
+    ru: "В пишущей толпе царила тишина."
+    source: { kind: authored }
+  - form: "piszącymi"
+    pl: "Zajmuje się dziećmi piszącymi z trudem."
+    ru: "Он занимается детьми, пишущими с трудом."
+    source: { kind: authored }
+  - form: "piszącymi"
+    pl: "Między piszącymi uczniami panowała cisza."
+    ru: "Среди пишущих учеников царила тишина."
+    source: { kind: authored }
+  - form: "piszącymi"
+    pl: "Rozmawiał z piszącymi po polsku autorami."
+    ru: "Он говорил с авторами, пишущими по-польски."
+    source: { kind: authored }
+  - form: "piszcie"
+    pl: "Nigdy nie piszcie wyrazów \"borszcz\" i \"szczi\" po niemiecku!"
+    ru: "Никогда не пишите слова \"борщ\" и \"щи\" по-немецки!"
+    source: { kind: tatoeba, id: 2176494 }
+  - form: "piszcie"
+    pl: "Piszcie!"
+    ru: "Пишите!"
+    source: { kind: translated, id: 11261801 }
+  - form: "piszcie"
+    pl: "Piszcie czytelnie."
+    ru: "Пишите разборчиво."
+    source: { kind: translated, id: 10597435 }
+  - form: "pisze"
+    pl: "On pisze książki."
+    ru: "Он пишет книги."
+    source: { kind: tatoeba, id: 1393347 }
+  - form: "pisze"
+    pl: "Ona pisze książki."
+    ru: "Она пишет книги."
+    source: { kind: tatoeba, id: 10115720 }
+  - form: "pisze"
+    pl: "On pisze zupełnie nieczytelnie."
+    ru: "Он пишет совершенно неразборчиво."
+    source: { kind: tatoeba, id: 350113 }
+  - form: "piszecie"
+    pl: "Do kogo piszecie list?"
+    ru: "Кому вы пишете письмо?"
+    source: { kind: tatoeba, id: 13784991 }
+  - form: "piszecie"
+    pl: "Co piszecie?"
+    ru: "Что вы пишете?"
+    source: { kind: translated, id: 8696069 }
+  - form: "piszecie"
+    pl: "Piszecie listy miłosne?"
+    ru: "Вы пишете любовные письма?"
+    source: { kind: translated, id: 8571644 }
+  - form: "piszemy"
+    pl: "Piszemy."
+    ru: "Мы пишем."
+    source: { kind: translated, id: 13782566 }
+  - form: "piszemy"
+    pl: "Piszemy listy."
+    ru: "Мы пишем письма."
+    source: { kind: translated, id: 8770367 }
+  - form: "piszemy"
+    pl: "Piszemy na temat śląskiej literatury."
+    ru: "Мы пишем о силезской литературе."
+    source: { kind: translated, id: 12940609 }
+  - form: "piszesz"
+    pl: "Dla kogo piszesz list?"
+    ru: "Кому ты пишешь письмо?"
+    source: { kind: tatoeba, id: 13784832 }
+  - form: "piszesz"
+    pl: "Nie zawsze rozumiem wszystko, co piszesz."
+    ru: "Я не всегда понимаю всё, что ты пишешь."
+    source: { kind: tatoeba, id: 3600105 }
+  - form: "piszesz"
+    pl: "Piszesz do rodziców?"
+    ru: "Ты пишешь родителям?"
+    source: { kind: authored }
+  - form: "piszę"
+    pl: "Piszę bzdury."
+    ru: "Я пишу ерунду."
+    source: { kind: translated, id: 1350197 }
+  - form: "piszę"
+    pl: "Piszę list."
+    ru: "Я пишу письмо."
+    source: { kind: translated, id: 2164635 }
+  - form: "piszę"
+    pl: "Piszę książkę."
+    ru: "Я пишу книгу."
+    source: { kind: translated, id: 3050314 }
+  - form: "piszmy"
+    pl: "Piszmy na zmianę."
+    ru: "Будем писать по очереди."
+    source: { kind: translated, id: 923064 }
+  - form: "piszmy"
+    pl: "Piszmy krócej."
+    ru: "Будем писать короче."
+    source: { kind: authored }
+  - form: "piszmy"
+    pl: "Nie piszmy o tym."
+    ru: "Не будем об этом писать."
+    source: { kind: authored }
