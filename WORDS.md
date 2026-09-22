@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **297** |
-| В очереди       | **552** |
+| Карточка готова | **298** |
+| В очереди       | **551** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -412,7 +412,7 @@ pnpm dict:status && pnpm generate
 - toczyć — 🟡 `toczyć` · verb · rank 2208
 - namiętnie — 🟡 `namiętnie` · adv · rank 2209
 - zaskakująco — 🟡 `zaskakująco` · adv · rank 2210
-- obawiać — 🟡 `obawiać` · verb · rank 760
+- obawiać — ✅ [obawiać](/slovo/obawiac) · verb
 - **Wygląda na to, że trafiliśmy we właściwe miejsce.**  
   <sub>слова: [wyglądać](/slovo/wygladac), [na](/slovo/na), [to](/slovo/to), [że](/slovo/ze), [trafić](/slovo/trafic), `we`, [właściwy](/slovo/wlasciwy), [miejsce](/slovo/miejsce)</sub>
 - masarz — 🟡 `masarz` · noun · rank 2212
