@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **293** |
-| В очереди       | **556** |
+| Карточка готова | **294** |
+| В очереди       | **555** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -414,7 +414,7 @@ pnpm dict:status && pnpm generate
 - zaskakująco — 🟡 `zaskakująco` · adv · rank 2210
 - obawiać — 🟡 `obawiać` · verb · rank 760
 - **Wygląda na to, że trafiliśmy we właściwe miejsce.**  
-  <sub>слова: [wyglądać](/slovo/wygladac), [na](/slovo/na), [to](/slovo/to), [że](/slovo/ze), `trafić`, `we`, [właściwy](/slovo/wlasciwy), [miejsce](/slovo/miejsce)</sub>
+  <sub>слова: [wyglądać](/slovo/wygladac), [na](/slovo/na), [to](/slovo/to), [że](/slovo/ze), [trafić](/slovo/trafic), `we`, [właściwy](/slovo/wlasciwy), [miejsce](/slovo/miejsce)</sub>
 - masarz — 🟡 `masarz` · noun · rank 2212
 - spójrzcie — ✅ [spojrzeć](/slovo/spojrzec) · verb
 - mistrzowski — 🟡 `mistrzowski` · adj · rank 2213
