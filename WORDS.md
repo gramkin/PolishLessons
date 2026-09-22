@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **310** |
-| В очереди       | **539** |
+| Карточка готова | **311** |
+| В очереди       | **538** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -62,7 +62,7 @@ pnpm dict:status && pnpm generate
 - handlujący — 🟡 `handlować` · verb · rank 2002
 - określić — 🟡 `określić` · verb · rank 2003
 - twarz — ✅ [twarz](/slovo/twarz) · noun
-- tłumaczą — 🟡 `tłumaczyć` · verb · rank 529
+- tłumaczą — ✅ [tłumaczyć](/slovo/tlumaczyc) · verb
 - przedawnioną — 🟡 `przedawnić` · verb · rank 2004
 - sędzia — 🟡 `sędzia` · noun · rank 993
 - majątek — 🟡 `majątek` · noun · rank 2005
