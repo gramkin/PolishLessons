@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **288** |
-| В очереди       | **561** |
+| Карточка готова | **290** |
+| В очереди       | **559** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -538,7 +538,7 @@ pnpm dict:status && pnpm generate
 - niebawem — 🟡 `niebawem` · adv · rank 2010
 - ustawicznie — 🟡 `ustawicznie` · adv · rank 2301
 - **Wreszcie, zdyszani, usiedliśmy na skale, patrząc za nim, dopóki nam nie znikł sprzed oczu**  
-  <sub>слова: [wreszcie](/slovo/wreszcie), `zdyszeć`, `usiąść`, [na](/slovo/na), [skała](/slovo/skala), [patrzeć](/slovo/patrzec), [za](/slovo/za), [on](/slovo/on), [dopóki](/slovo/dopoki), [my](/slovo/my), [nie](/slovo/nie), `zniknąć`, [sprzed](/slovo/sprzed), [oko](/slovo/oko)</sub>
+  <sub>слова: [wreszcie](/slovo/wreszcie), `zdyszeć`, [usiąść](/slovo/usiasc), [na](/slovo/na), [skała](/slovo/skala), [patrzeć](/slovo/patrzec), [za](/slovo/za), [on](/slovo/on), [dopóki](/slovo/dopoki), [my](/slovo/my), [nie](/slovo/nie), [zniknąć](/slovo/zniknac), [sprzed](/slovo/sprzed), [oko](/slovo/oko)</sub>
 - zaniechali — 🟡 `zaniechać` · verb · rank 2303
 - szczycie — 🟡 `szczyt` · noun · rank 1706
 - przestrzeń — 🟡 `przestrzeń` · noun · rank 1640
