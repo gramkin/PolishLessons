@@ -82,6 +82,9 @@ exclude:
   # a stray single letter from the corpus, tagged part; the same junk class
   # as the excluded "c". Its candidates are list markers and initials.
   - d
+  # an English given name used as a Tatoeba placeholder character, like the
+  # already-excluded john and jack; its candidates are all "Michael ..." lines
+  - michael
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

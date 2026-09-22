@@ -1,0 +1,839 @@
+# review
+id: strzelac
+format: 2
+lemma: "strzelać"
+rank: 656
+pos: verb
+aspect: imperf
+pron: { cyr: "стшэ́ляць" }
+senses:
+  - id: shoot
+    ru: "стрелять"
+    note: "Nie strzelaj! «Не стреляй!»"
+    examples:
+      - pl: "Stój, bo strzelam!"
+        ru: "Стой, или я буду стрелять!"
+        source: { kind: tatoeba, id: 6320399 }
+      - pl: "Nie strzelaj!"
+        ru: "Не стреляй!"
+        source: { kind: translated, id: 8621013 }
+      - pl: "Nie strzelać!"
+        ru: "Не стрелять!"
+        source: { kind: translated, id: 6329000 }
+  - id: shoot-at
+    ru: "strzelać DO kogoś — стрелять в кого-л. (do с родительным)"
+    note: "Русское «в» с винительным здесь не работает."
+    examples:
+      - pl: "Tom strzelał z procy do szczurów."
+        ru: "Том стрелял из рогатки по крысам."
+        source: { kind: translated, id: 10604151 }
+      - pl: "Strzelali do ptaków."
+        ru: "Они стреляли по птицам."
+        source: { kind: authored }
+      - pl: "Nie strzelaj do niego!"
+        ru: "Не стреляй в него!"
+        source: { kind: authored }
+  - id: shoot-from
+    ru: "strzelać Z czegoś — стрелять из чего-л."
+    note: "Здесь польский и русский совпадают."
+    examples:
+      - pl: "Strzelanie z łuku jest męczące."
+        ru: "Стрельба из лука утомительна."
+        source: { kind: translated, id: 1362184 }
+      - pl: "Dźwięk strzelania z karabinu przełamał poranną ciszę."
+        ru: "Звук выстрела из карабина нарушил утреннюю тишину."
+        source: { kind: translated, id: 8763015 }
+      - pl: "Uczył się strzelać z łuku."
+        ru: "Он учился стрелять из лука."
+        source: { kind: authored }
+  - id: score
+    ru: "strzelać gola — забивать гол"
+    examples:
+      - pl: "On świetnie strzela."
+        ru: "Он отлично бьёт по воротам."
+        source: { kind: translated, id: 837092 }
+      - pl: "Strzelał gole w każdym meczu."
+        ru: "Он забивал голы в каждом матче."
+        source: { kind: authored }
+      - pl: "Nasza drużyna nie strzela goli."
+        ru: "Наша команда не забивает голов."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Два предлога, и один расходится с русским. «Стрелять ИЗ чего-то» — strzelać Z czegoś с родительным, как в русском: z łuku, z karabinu. А «стрелять В кого-то» — strzelać DO kogoś, тоже с родительным: strzelał do szczurów. Русское «в» с винительным здесь не годится." }
+  - { kind: usage, text: "Обе конструкции видно разом: Tom strzelał z procy do szczurów «Том стрелял из рогатки по крысам»." }
+  - { kind: usage, text: "В футболе strzelać gola значит «забивать гол»: strzelał gole w każdym meczu." }
+  - { kind: usage, text: "Обиходные формулы: Nie strzelaj! «Не стреляй!», Stój, bo strzelam! «Стой, стрелять буду!»." }
+  - { kind: usage, text: "Совершенный вид — strzelić или wystrzelić; отглагольное существительное — strzelanie." }
+collocations:
+  - { pl: "Nie strzelaj!", ru: "Не стреляй!" }
+  - { pl: "strzelać do kogoś", ru: "стрелять в кого-либо" }
+  - { pl: "strzelać z łuku", ru: "стрелять из лука" }
+  - { pl: "strzelać gola", ru: "забивать гол" }
+family:
+  - { pl: "strzała", ru: "стрела", relation: root }
+  - { pl: "strzelba", ru: "ружьё", relation: derived }
+  - { pl: "wystrzelić", ru: "выстрелить", relation: aspect }
+  - { pl: "strzelec", ru: "стрелок", relation: derived }
+etymology: "От strzała «стрела», праславянское *strěla — то же слово, что русское «стрела». «Стрелять» собрано тем же способом."
+memory: "strzelać — «стрелять», и корень тот же: strzała «стрела». Запомнить надо предлоги. «Стрелять ИЗ чего-то» совпадает с русским: strzelać z łuku, z karabinu. А вот «стрелять В кого-то» по-польски strzelać DO kogoś — снова do с родительным, а не «в» с винительным. Обе конструкции видны разом в Tom strzelał z procy do szczurów. И держите в уме футбольное strzelać gola «забивать гол»."
+idioms:
+  - { pl: "Nie strzelaj!", ru: "Не стреляй!" }
+  - { pl: "strzelać gola", ru: "забивать гол" }
+  - { pl: "Człowiek strzela, Pan Bóg kule nosi", ru: "Человек предполагает, а Бог располагает" }
+formExamples:
+  - form: "strzela"
+    pl: "Człowiek strzela, Pan Bóg kule nosi."
+    ru: "Человек стреляет, а пули носит Господь Бог."
+    source: { kind: translated, id: 365785 }
+  - form: "strzela"
+    pl: "On świetnie strzela."
+    ru: "Он отлично бьёт по воротам."
+    source: { kind: translated, id: 837092 }
+  - form: "strzela"
+    pl: "Czołg strzela szybciej."
+    ru: "Танк стреляет быстрее."
+    source: { kind: translated, id: 12281469 }
+  - form: "strzelacie"
+    pl: "Strzelacie z łuku?"
+    ru: "Вы стреляете из лука?"
+    source: { kind: authored }
+  - form: "strzelacie"
+    pl: "Nie strzelacie do ptaków."
+    ru: "Вы не стреляете по птицам."
+    source: { kind: authored }
+  - form: "strzelacie"
+    pl: "Strzelacie za mało goli."
+    ru: "Вы забиваете слишком мало голов."
+    source: { kind: authored }
+  - form: "strzelać"
+    pl: "Będę strzelać."
+    ru: "Я буду стрелять."
+    source: { kind: tatoeba, id: 5662070 }
+  - form: "strzelać"
+    pl: "Przestań strzelać."
+    ru: "Перестань стрелять."
+    source: { kind: translated, id: 5629676 }
+  - form: "strzelać"
+    pl: "Nie strzelać!"
+    ru: "Не стрелять!"
+    source: { kind: translated, id: 6329000 }
+  - form: "strzelaj"
+    pl: "Strzelaj!"
+    ru: "Стреляй!"
+    source: { kind: translated, id: 8607306 }
+  - form: "strzelaj"
+    pl: "Nie strzelaj!"
+    ru: "Не стреляй!"
+    source: { kind: translated, id: 8621013 }
+  - form: "strzelaj"
+    pl: "Czekaj, nie strzelaj!"
+    ru: "Погоди, не стреляй!"
+    source: { kind: translated, id: 6309348 }
+  - form: "strzelają"
+    pl: "Strzelają do celu co sobotę."
+    ru: "Они стреляют по мишени каждую субботу."
+    source: { kind: authored }
+  - form: "strzelają"
+    pl: "Nie strzelają do ptaków."
+    ru: "Они не стреляют по птицам."
+    source: { kind: authored }
+  - form: "strzelają"
+    pl: "Strzelają gole w każdym meczu."
+    ru: "Они забивают голы в каждом матче."
+    source: { kind: authored }
+  - form: "strzelając"
+    pl: "Strzelając z procy, wybił szybę."
+    ru: "Стреляя из рогатки, он выбил стекло."
+    source: { kind: authored }
+  - form: "strzelając"
+    pl: "Strzelając do celu, ćwiczył cierpliwość."
+    ru: "Стреляя по мишени, он упражнял терпение."
+    source: { kind: authored }
+  - form: "strzelając"
+    pl: "Strzelając gole, zdobył sławę."
+    ru: "Забивая голы, он добыл славу."
+    source: { kind: authored }
+  - form: "strzelająca"
+    pl: "Strzelająca z łuku dziewczyna wygrała zawody."
+    ru: "Стрелявшая из лука девушка выиграла соревнования."
+    source: { kind: authored }
+  - form: "strzelająca"
+    pl: "To drużyna strzelająca najwięcej goli."
+    ru: "Это команда, забивающая больше всего голов."
+    source: { kind: authored }
+  - form: "strzelająca"
+    pl: "Strzelająca co chwilę armata budziła miasto."
+    ru: "Стрелявшая то и дело пушка будила город."
+    source: { kind: authored }
+  - form: "strzelającą"
+    pl: "Znam dziewczynę strzelającą z łuku."
+    ru: "Я знаю девушку, стреляющую из лука."
+    source: { kind: authored }
+  - form: "strzelającą"
+    pl: "Uznali tę drużynę za najlepiej strzelającą."
+    ru: "Эту команду сочли лучше всех забивающей."
+    source: { kind: authored }
+  - form: "strzelającą"
+    pl: "Widział armatę strzelającą co godzinę."
+    ru: "Он видел пушку, стрелявшую каждый час."
+    source: { kind: authored }
+  - form: "strzelające"
+    pl: "Strzelające armaty słychać było w całym mieście."
+    ru: "Стрелявшие пушки было слышно по всему городу."
+    source: { kind: authored }
+  - form: "strzelające"
+    pl: "To drużyny strzelające najwięcej goli."
+    ru: "Это команды, забивающие больше всего голов."
+    source: { kind: authored }
+  - form: "strzelające"
+    pl: "Strzelające dzieci bawiły się w wojnę."
+    ru: "Стрелявшие дети играли в войну."
+    source: { kind: authored }
+  - form: "strzelającego"
+    pl: "Nie znam zawodnika strzelającego tyle goli."
+    ru: "Я не знаю спортсмена, забивающего столько голов."
+    source: { kind: authored }
+  - form: "strzelającego"
+    pl: "Szukam chłopca strzelającego z łuku."
+    ru: "Я ищу мальчика, стреляющего из лука."
+    source: { kind: authored }
+  - form: "strzelającego"
+    pl: "Nie widziałem nikogo strzelającego do celu."
+    ru: "Я не видел никого, стреляющего по мишени."
+    source: { kind: authored }
+  - form: "strzelającej"
+    pl: "Szukam zawodniczki strzelającej z łuku."
+    ru: "Я ищу спортсменку, стреляющую из лука."
+    source: { kind: authored }
+  - form: "strzelającej"
+    pl: "Nie ma tu drużyny strzelającej tyle goli."
+    ru: "Здесь нет команды, забивающей столько голов."
+    source: { kind: authored }
+  - form: "strzelającej"
+    pl: "Bał się armaty strzelającej co godzinę."
+    ru: "Он боялся пушки, стрелявшей каждый час."
+    source: { kind: authored }
+  - form: "strzelającemu"
+    pl: "Przyjrzał się chłopcu strzelającemu z łuku."
+    ru: "Он присмотрелся к мальчику, стреляющему из лука."
+    source: { kind: authored }
+  - form: "strzelającemu"
+    pl: "Kibicowali napastnikowi strzelającemu gole."
+    ru: "Они болели за нападающего, забивающего голы."
+    source: { kind: authored }
+  - form: "strzelającemu"
+    pl: "Dzięki strzelającemu celnie strzelcowi wygrali."
+    ru: "Благодаря метко стрелявшему стрелку они выиграли."
+    source: { kind: authored }
+  - form: "strzelający"
+    pl: "Strzelający do celu zawodnik był spokojny."
+    ru: "Стрелявший по мишени спортсмен был спокоен."
+    source: { kind: authored }
+  - form: "strzelający"
+    pl: "To najlepiej strzelający napastnik ligi."
+    ru: "Это лучший бомбардир лиги."
+    source: { kind: authored }
+  - form: "strzelający"
+    pl: "Strzelający z łuku chłopiec ćwiczył godzinami."
+    ru: "Стрелявший из лука мальчик упражнялся часами."
+    source: { kind: authored }
+  - form: "strzelających"
+    pl: "Wśród strzelających byli sami myśliwi."
+    ru: "Среди стрелявших были одни охотники."
+    source: { kind: authored }
+  - form: "strzelających"
+    pl: "Nie ma tu zawodników strzelających z łuku."
+    ru: "Здесь нет спортсменов, стреляющих из лука."
+    source: { kind: authored }
+  - form: "strzelających"
+    pl: "Szukam drużyn strzelających dużo goli."
+    ru: "Я ищу команды, забивающие много голов."
+    source: { kind: authored }
+  - form: "strzelającym"
+    pl: "Przyjrzał się strzelającym zawodnikom."
+    ru: "Он присмотрелся к стреляющим спортсменам."
+    source: { kind: authored }
+  - form: "strzelającym"
+    pl: "W strzelającym co godzinę dziale nie było prochu."
+    ru: "В стрелявшем каждый час орудии не было пороха."
+    source: { kind: authored }
+  - form: "strzelającym"
+    pl: "Kibicowali strzelającym gole napastnikom."
+    ru: "Они болели за нападающих, забивающих голы."
+    source: { kind: authored }
+  - form: "strzelającymi"
+    pl: "Rozmawiał ze strzelającymi z łuku zawodnikami."
+    ru: "Он говорил со спортсменами, стреляющими из лука."
+    source: { kind: authored }
+  - form: "strzelającymi"
+    pl: "Między strzelającymi a obserwatorami była bariera."
+    ru: "Между стрелявшими и наблюдателями был барьер."
+    source: { kind: authored }
+  - form: "strzelającymi"
+    pl: "Wrócił ze strzelającymi celnie myśliwymi."
+    ru: "Он вернулся с метко стрелявшими охотниками."
+    source: { kind: authored }
+  - form: "strzelajcie"
+    pl: "Nie strzelajcie!"
+    ru: "Не стреляйте!"
+    source: { kind: authored }
+  - form: "strzelajcie"
+    pl: "Strzelajcie tylko do celu."
+    ru: "Стреляйте только по мишени."
+    source: { kind: authored }
+  - form: "strzelajcie"
+    pl: "Nie strzelajcie do ptaków."
+    ru: "Не стреляйте по птицам."
+    source: { kind: authored }
+  - form: "strzelajmy"
+    pl: "Nie strzelajmy do ptaków."
+    ru: "Не будем стрелять по птицам."
+    source: { kind: authored }
+  - form: "strzelajmy"
+    pl: "Strzelajmy tylko do celu."
+    ru: "Будем стрелять только по мишени."
+    source: { kind: authored }
+  - form: "strzelajmy"
+    pl: "Strzelajmy z łuku w sobotę."
+    ru: "Постреляем из лука в субботу."
+    source: { kind: authored }
+  - form: "strzelali"
+    pl: "Strzelali do celu przez godzinę."
+    ru: "Они стреляли по мишени час."
+    source: { kind: authored }
+  - form: "strzelali"
+    pl: "Nie strzelali do ptaków."
+    ru: "Они не стреляли по птицам."
+    source: { kind: authored }
+  - form: "strzelali"
+    pl: "Strzelali z łuku co sobotę."
+    ru: "Они стреляли из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelaliby"
+    pl: "Strzelaliby do celu, gdyby mieli broń."
+    ru: "Они стреляли бы по мишени, будь у них оружие."
+    source: { kind: authored }
+  - form: "strzelaliby"
+    pl: "Nie strzelaliby do ptaków."
+    ru: "Они не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelaliby"
+    pl: "Strzelaliby z łuku co sobotę."
+    ru: "Они стреляли бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelalibyście"
+    pl: "Strzelalibyście do celu?"
+    ru: "Вы стреляли бы по мишени?"
+    source: { kind: authored }
+  - form: "strzelalibyście"
+    pl: "Nie strzelalibyście do ptaków."
+    ru: "Вы не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelalibyście"
+    pl: "Strzelalibyście z łuku?"
+    ru: "Вы стреляли бы из лука?"
+    source: { kind: authored }
+  - form: "strzelalibyśmy"
+    pl: "Strzelalibyśmy do celu, gdybyśmy mieli broń."
+    ru: "Мы стреляли бы по мишени, будь у нас оружие."
+    source: { kind: authored }
+  - form: "strzelalibyśmy"
+    pl: "Nie strzelalibyśmy do ptaków."
+    ru: "Мы не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelalibyśmy"
+    pl: "Strzelalibyśmy z łuku co sobotę."
+    ru: "Мы стреляли бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelaliście"
+    pl: "Strzelaliście do celu?"
+    ru: "Вы стреляли по мишени?"
+    source: { kind: authored }
+  - form: "strzelaliście"
+    pl: "Nie strzelaliście do ptaków."
+    ru: "Вы не стреляли по птицам."
+    source: { kind: authored }
+  - form: "strzelaliście"
+    pl: "Strzelaliście z łuku co sobotę."
+    ru: "Вы стреляли из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelaliśmy"
+    pl: "Strzelaliśmy do celu przez godzinę."
+    ru: "Мы стреляли по мишени час."
+    source: { kind: authored }
+  - form: "strzelaliśmy"
+    pl: "Nie strzelaliśmy do ptaków."
+    ru: "Мы не стреляли по птицам."
+    source: { kind: authored }
+  - form: "strzelaliśmy"
+    pl: "Strzelaliśmy z łuku co sobotę."
+    ru: "Мы стреляли из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelał"
+    pl: "Nie ruszaj się, bo będę strzelał!"
+    ru: "Не двигайся, а то буду стрелять!"
+    source: { kind: translated, id: 3602220 }
+  - form: "strzelał"
+    pl: "Tom strzelał z procy do szczurów."
+    ru: "Том стрелял из рогатки по крысам."
+    source: { kind: translated, id: 10604151 }
+  - form: "strzelał"
+    pl: "Strzelał do celu przez godzinę."
+    ru: "Он стрелял по мишени час."
+    source: { kind: authored }
+  - form: "strzelała"
+    pl: "Strzelała z łuku od dziecka."
+    ru: "Она стреляла из лука с детства."
+    source: { kind: authored }
+  - form: "strzelała"
+    pl: "Nie strzelała do ptaków."
+    ru: "Она не стреляла по птицам."
+    source: { kind: authored }
+  - form: "strzelała"
+    pl: "Armata strzelała co godzinę."
+    ru: "Пушка стреляла каждый час."
+    source: { kind: authored }
+  - form: "strzelałaby"
+    pl: "Strzelałaby do celu, gdyby miała broń."
+    ru: "Она стреляла бы по мишени, будь у неё оружие."
+    source: { kind: authored }
+  - form: "strzelałaby"
+    pl: "Nie strzelałaby do ptaków."
+    ru: "Она не стреляла бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałaby"
+    pl: "Armata strzelałaby co godzinę."
+    ru: "Пушка стреляла бы каждый час."
+    source: { kind: authored }
+  - form: "strzelałabym"
+    pl: "Strzelałabym do celu, gdybym miała broń."
+    ru: "Я стреляла бы по мишени, будь у меня оружие."
+    source: { kind: authored }
+  - form: "strzelałabym"
+    pl: "Nie strzelałabym do ptaków."
+    ru: "Я не стреляла бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałabym"
+    pl: "Strzelałabym z łuku co sobotę."
+    ru: "Я стреляла бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelałabyś"
+    pl: "Strzelałabyś do celu?"
+    ru: "Ты стреляла бы по мишени?"
+    source: { kind: authored }
+  - form: "strzelałabyś"
+    pl: "Nie strzelałabyś do ptaków."
+    ru: "Ты не стреляла бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałabyś"
+    pl: "Strzelałabyś z łuku?"
+    ru: "Ты стреляла бы из лука?"
+    source: { kind: authored }
+  - form: "strzelałam"
+    pl: "Strzelałam z łuku od dziecka."
+    ru: "Я стреляла из лука с детства."
+    source: { kind: authored }
+  - form: "strzelałam"
+    pl: "Nie strzelałam do ptaków."
+    ru: "Я не стреляла по птицам."
+    source: { kind: authored }
+  - form: "strzelałam"
+    pl: "Strzelałam do celu przez godzinę."
+    ru: "Я стреляла по мишени час."
+    source: { kind: authored }
+  - form: "strzelałaś"
+    pl: "Strzelałaś z łuku?"
+    ru: "Ты стреляла из лука?"
+    source: { kind: authored }
+  - form: "strzelałaś"
+    pl: "Nie strzelałaś do ptaków."
+    ru: "Ты не стреляла по птицам."
+    source: { kind: authored }
+  - form: "strzelałaś"
+    pl: "Strzelałaś do celu przez godzinę."
+    ru: "Ты стреляла по мишени час."
+    source: { kind: authored }
+  - form: "strzelałby"
+    pl: "Strzelałby do celu, gdyby miał broń."
+    ru: "Он стрелял бы по мишени, будь у него оружие."
+    source: { kind: authored }
+  - form: "strzelałby"
+    pl: "Nie strzelałby do ptaków."
+    ru: "Он не стрелял бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałby"
+    pl: "Strzelałby z łuku co sobotę."
+    ru: "Он стрелял бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelałbym"
+    pl: "Strzelałbym do celu, gdybym miał broń."
+    ru: "Я стрелял бы по мишени, будь у меня оружие."
+    source: { kind: authored }
+  - form: "strzelałbym"
+    pl: "Nie strzelałbym do ptaków."
+    ru: "Я не стрелял бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałbym"
+    pl: "Strzelałbym z łuku co sobotę."
+    ru: "Я стрелял бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelałbyś"
+    pl: "Strzelałbyś do celu?"
+    ru: "Ты стрелял бы по мишени?"
+    source: { kind: authored }
+  - form: "strzelałbyś"
+    pl: "Nie strzelałbyś do ptaków."
+    ru: "Ты не стрелял бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałbyś"
+    pl: "Strzelałbyś z łuku?"
+    ru: "Ты стрелял бы из лука?"
+    source: { kind: authored }
+  - form: "strzelałem"
+    pl: "Strzelałem z łuku od dziecka."
+    ru: "Я стрелял из лука с детства."
+    source: { kind: authored }
+  - form: "strzelałem"
+    pl: "Nie strzelałem do ptaków."
+    ru: "Я не стрелял по птицам."
+    source: { kind: authored }
+  - form: "strzelałem"
+    pl: "Strzelałem do celu przez godzinę."
+    ru: "Я стрелял по мишени час."
+    source: { kind: authored }
+  - form: "strzelałeś"
+    pl: "Strzelałeś z łuku?"
+    ru: "Ты стрелял из лука?"
+    source: { kind: authored }
+  - form: "strzelałeś"
+    pl: "Nie strzelałeś do ptaków."
+    ru: "Ты не стрелял по птицам."
+    source: { kind: authored }
+  - form: "strzelałeś"
+    pl: "Strzelałeś do celu przez godzinę."
+    ru: "Ты стрелял по мишени час."
+    source: { kind: authored }
+  - form: "strzelało"
+    pl: "Dziecko strzelało z procy."
+    ru: "Ребёнок стрелял из рогатки."
+    source: { kind: authored }
+  - form: "strzelało"
+    pl: "Działo strzelało co godzinę."
+    ru: "Орудие стреляло каждый час."
+    source: { kind: authored }
+  - form: "strzelało"
+    pl: "Wielu z nich strzelało do celu."
+    ru: "Многие из них стреляли по мишени."
+    source: { kind: authored }
+  - form: "strzelałoby"
+    pl: "Dziecko strzelałoby z procy."
+    ru: "Ребёнок стрелял бы из рогатки."
+    source: { kind: authored }
+  - form: "strzelałoby"
+    pl: "Działo strzelałoby co godzinę."
+    ru: "Орудие стреляло бы каждый час."
+    source: { kind: authored }
+  - form: "strzelałoby"
+    pl: "Żadne dziecko nie strzelałoby do ptaków."
+    ru: "Никакой ребёнок не стрелял бы по птицам."
+    source: { kind: authored }
+  - form: "strzelały"
+    pl: "Armaty strzelały całą noc."
+    ru: "Пушки стреляли всю ночь."
+    source: { kind: authored }
+  - form: "strzelały"
+    pl: "Dzieci strzelały z proc."
+    ru: "Дети стреляли из рогаток."
+    source: { kind: authored }
+  - form: "strzelały"
+    pl: "Dziewczyny strzelały z łuku."
+    ru: "Девушки стреляли из лука."
+    source: { kind: authored }
+  - form: "strzelałyby"
+    pl: "Armaty strzelałyby całą noc."
+    ru: "Пушки стреляли бы всю ночь."
+    source: { kind: authored }
+  - form: "strzelałyby"
+    pl: "Dzieci strzelałyby z proc."
+    ru: "Дети стреляли бы из рогаток."
+    source: { kind: authored }
+  - form: "strzelałyby"
+    pl: "Nie strzelałyby do ptaków."
+    ru: "Они не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałybyście"
+    pl: "Strzelałybyście do celu?"
+    ru: "Вы стреляли бы по мишени?"
+    source: { kind: authored }
+  - form: "strzelałybyście"
+    pl: "Nie strzelałybyście do ptaków."
+    ru: "Вы не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałybyście"
+    pl: "Strzelałybyście z łuku?"
+    ru: "Вы стреляли бы из лука?"
+    source: { kind: authored }
+  - form: "strzelałybyśmy"
+    pl: "Strzelałybyśmy do celu, gdybyśmy miały broń."
+    ru: "Мы стреляли бы по мишени, будь у нас оружие."
+    source: { kind: authored }
+  - form: "strzelałybyśmy"
+    pl: "Nie strzelałybyśmy do ptaków."
+    ru: "Мы не стреляли бы по птицам."
+    source: { kind: authored }
+  - form: "strzelałybyśmy"
+    pl: "Strzelałybyśmy z łuku co sobotę."
+    ru: "Мы стреляли бы из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelałyście"
+    pl: "Strzelałyście do celu?"
+    ru: "Вы стреляли по мишени?"
+    source: { kind: authored }
+  - form: "strzelałyście"
+    pl: "Nie strzelałyście do ptaków."
+    ru: "Вы не стреляли по птицам."
+    source: { kind: authored }
+  - form: "strzelałyście"
+    pl: "Strzelałyście z łuku co sobotę."
+    ru: "Вы стреляли из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelałyśmy"
+    pl: "Strzelałyśmy do celu przez godzinę."
+    ru: "Мы стреляли по мишени час."
+    source: { kind: authored }
+  - form: "strzelałyśmy"
+    pl: "Nie strzelałyśmy do ptaków."
+    ru: "Мы не стреляли по птицам."
+    source: { kind: authored }
+  - form: "strzelałyśmy"
+    pl: "Strzelałyśmy z łuku co sobotę."
+    ru: "Мы стреляли из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelam"
+    pl: "Stój, bo strzelam!"
+    ru: "Стой, или я буду стрелять!"
+    source: { kind: tatoeba, id: 6320399 }
+  - form: "strzelam"
+    pl: "Strzelam."
+    ru: "Я стреляю."
+    source: { kind: translated, id: 8608410 }
+  - form: "strzelam"
+    pl: "Stój spokojnie albo strzelam."
+    ru: "Стой смирно, или я стреляю."
+    source: { kind: translated, id: 542053 }
+  - form: "strzelamy"
+    pl: "Strzelamy."
+    ru: "Мы стреляем."
+    source: { kind: translated, id: 8734599 }
+  - form: "strzelamy"
+    pl: "Strzelamy z łuku co sobotę."
+    ru: "Мы стреляем из лука каждую субботу."
+    source: { kind: authored }
+  - form: "strzelamy"
+    pl: "Nie strzelamy do ptaków."
+    ru: "Мы не стреляем по птицам."
+    source: { kind: authored }
+  - form: "strzelana"
+    pl: "Bramka strzelana głową jest trudniejsza."
+    ru: "Гол, забитый головой, труднее."
+    source: { kind: authored }
+  - form: "strzelana"
+    pl: "Zwierzyna strzelana jesienią bywa chuda."
+    ru: "Зверь, добытый осенью, бывает тощим."
+    source: { kind: authored }
+  - form: "strzelana"
+    pl: "Ta tarcza jest strzelana co tydzień."
+    ru: "По этой мишени стреляют каждую неделю."
+    source: { kind: authored }
+  - form: "strzelaną"
+    pl: "Obejrzał bramkę strzelaną głową."
+    ru: "Он посмотрел гол, забитый головой."
+    source: { kind: authored }
+  - form: "strzelaną"
+    pl: "Uznali tę bramkę za strzelaną z przypadku."
+    ru: "Этот гол сочли забитым случайно."
+    source: { kind: authored }
+  - form: "strzelaną"
+    pl: "Widział tarczę strzelaną co tydzień."
+    ru: "Он видел мишень, по которой стреляли каждую неделю."
+    source: { kind: authored }
+  - form: "strzelane"
+    pl: "Gole strzelane z dystansu cieszą najbardziej."
+    ru: "Голы, забитые издали, радуют больше всего."
+    source: { kind: authored }
+  - form: "strzelane"
+    pl: "Tarcze strzelane co tydzień szybko się niszczą."
+    ru: "Мишени, по которым стреляют каждую неделю, быстро портятся."
+    source: { kind: authored }
+  - form: "strzelane"
+    pl: "Były strzelane z bliska."
+    ru: "По ним стреляли с близкого расстояния."
+    source: { kind: authored }
+  - form: "strzelanego"
+    pl: "Nie widziałem gola strzelanego z rzutu wolnego."
+    ru: "Я не видел гола, забитого со штрафного."
+    source: { kind: authored }
+  - form: "strzelanego"
+    pl: "Szukam celu strzelanego co sobotę."
+    ru: "Я ищу мишень, по которой стреляют каждую субботу."
+    source: { kind: authored }
+  - form: "strzelanego"
+    pl: "Historia tego strzelanego gola jest znana."
+    ru: "История этого забитого гола известна."
+    source: { kind: authored }
+  - form: "strzelanej"
+    pl: "Nie widziałem bramki strzelanej głową."
+    ru: "Я не видел гола, забитого головой."
+    source: { kind: authored }
+  - form: "strzelanej"
+    pl: "Szukam tarczy strzelanej co tydzień."
+    ru: "Я ищу мишень, по которой стреляют каждую неделю."
+    source: { kind: authored }
+  - form: "strzelanej"
+    pl: "Bez strzelanej bramki mecz byłby nudny."
+    ru: "Без забитого гола матч был бы скучным."
+    source: { kind: authored }
+  - form: "strzelanemu"
+    pl: "Przyjrzał się strzelanemu celowi."
+    ru: "Он присмотрелся к мишени, по которой стреляли."
+    source: { kind: authored }
+  - form: "strzelanemu"
+    pl: "Kibicowali strzelanemu z dystansu golowi."
+    ru: "Они радовались голу, забитому издали."
+    source: { kind: authored }
+  - form: "strzelanemu"
+    pl: "Nie ufał strzelanemu bez ostrzeżenia."
+    ru: "Он не доверял стрельбе без предупреждения."
+    source: { kind: authored }
+  - form: "strzelani"
+    pl: "Zostali strzelani z ukrycia."
+    ru: "По ним стреляли из укрытия."
+    source: { kind: authored }
+  - form: "strzelani"
+    pl: "Strzelani bez ostrzeżenia, rozbiegli się."
+    ru: "Обстрелянные без предупреждения, они разбежались."
+    source: { kind: authored }
+  - form: "strzelani"
+    pl: "Byli strzelani z daleka."
+    ru: "По ним стреляли издалека."
+    source: { kind: authored }
+  - form: "strzelania"
+    pl: "Dźwięk strzelania z karabinu przełamał poranną ciszę."
+    ru: "Звук выстрела из карабина нарушил утреннюю тишину."
+    source: { kind: translated, id: 8763015 }
+  - form: "strzelania"
+    pl: "Uczył się strzelania z łuku."
+    ru: "Он учился стрельбе из лука."
+    source: { kind: authored }
+  - form: "strzelania"
+    pl: "Zakazano strzelania w parku."
+    ru: "Стрелять в парке запретили."
+    source: { kind: authored }
+  - form: "strzelanie"
+    pl: "Strzelanie z łuku jest męczące."
+    ru: "Стрельба из лука утомительна."
+    source: { kind: translated, id: 1362184 }
+  - form: "strzelanie"
+    pl: "Strzelanie do celu wymaga wprawy."
+    ru: "Стрельба по мишени требует навыка."
+    source: { kind: authored }
+  - form: "strzelanie"
+    pl: "Strzelanie goli to jego specjalność."
+    ru: "Забивать голы — его специальность."
+    source: { kind: authored }
+  - form: "strzelaniem"
+    pl: "Zmęczył się strzelaniem do celu."
+    ru: "Он устал стрелять по мишени."
+    source: { kind: authored }
+  - form: "strzelaniem"
+    pl: "Przed strzelaniem sprawdź broń."
+    ru: "Перед стрельбой проверь оружие."
+    source: { kind: authored }
+  - form: "strzelaniem"
+    pl: "Zajmuje się strzelaniem z łuku."
+    ru: "Он занимается стрельбой из лука."
+    source: { kind: authored }
+  - form: "strzelaniu"
+    pl: "Po strzelaniu wrócili do domu."
+    ru: "После стрельбы они вернулись домой."
+    source: { kind: authored }
+  - form: "strzelaniu"
+    pl: "Mówili o strzelaniu z łuku."
+    ru: "Они говорили о стрельбе из лука."
+    source: { kind: authored }
+  - form: "strzelaniu"
+    pl: "W strzelaniu do celu liczy się spokój."
+    ru: "В стрельбе по мишени важно спокойствие."
+    source: { kind: authored }
+  - form: "strzelano"
+    pl: "Strzelano do celu przez godzinę."
+    ru: "По мишени стреляли час."
+    source: { kind: authored }
+  - form: "strzelano"
+    pl: "Dawniej strzelano z łuku."
+    ru: "Раньше стреляли из лука."
+    source: { kind: authored }
+  - form: "strzelano"
+    pl: "Nie strzelano do ptaków."
+    ru: "По птицам не стреляли."
+    source: { kind: authored }
+  - form: "strzelany"
+    pl: "Gol strzelany z rzutu wolnego był piękny."
+    ru: "Гол, забитый со штрафного, был красив."
+    source: { kind: authored }
+  - form: "strzelany"
+    pl: "Ten cel jest strzelany co sobotę."
+    ru: "По этой мишени стреляют каждую субботу."
+    source: { kind: authored }
+  - form: "strzelany"
+    pl: "Był strzelany z bliska."
+    ru: "По нему стреляли с близкого расстояния."
+    source: { kind: authored }
+  - form: "strzelanych"
+    pl: "Wśród strzelanych goli był jeden z rzutu wolnego."
+    ru: "Среди забитых голов был один со штрафного."
+    source: { kind: authored }
+  - form: "strzelanych"
+    pl: "Liczba strzelanych bramek rosła."
+    ru: "Число забитых мячей росло."
+    source: { kind: authored }
+  - form: "strzelanych"
+    pl: "Nie ma tu strzelanych tarcz."
+    ru: "Мишеней, по которым стреляли, здесь нет."
+    source: { kind: authored }
+  - form: "strzelanym"
+    pl: "W strzelanym z dystansu golu było coś pięknego."
+    ru: "В голе, забитом издали, было что-то красивое."
+    source: { kind: authored }
+  - form: "strzelanym"
+    pl: "Przyjrzał się strzelanym tarczom."
+    ru: "Он присмотрелся к мишеням, по которым стреляли."
+    source: { kind: authored }
+  - form: "strzelanym"
+    pl: "Zajął się strzelanym co tydzień celem."
+    ru: "Он занялся мишенью, по которой стреляли каждую неделю."
+    source: { kind: authored }
+  - form: "strzelanymi"
+    pl: "Zajęli się strzelanymi tarczami."
+    ru: "Они занялись мишенями, по которым стреляли."
+    source: { kind: authored }
+  - form: "strzelanymi"
+    pl: "Między strzelanymi a obronionymi bramkami jest różnica."
+    ru: "Между забитыми и отражёнными мячами есть разница."
+    source: { kind: authored }
+  - form: "strzelanymi"
+    pl: "Wrócił ze strzelanymi co tydzień tarczami."
+    ru: "Он вернулся с мишенями, по которым стреляли каждую неделю."
+    source: { kind: authored }
+  - form: "strzelasz"
+    pl: "Strzelasz z łuku?"
+    ru: "Ты стреляешь из лука?"
+    source: { kind: authored }
+  - form: "strzelasz"
+    pl: "Nie strzelasz do ptaków."
+    ru: "Ты не стреляешь по птицам."
+    source: { kind: authored }
+  - form: "strzelasz"
+    pl: "Strzelasz gola w każdym meczu."
+    ru: "Ты забиваешь гол в каждом матче."
+    source: { kind: authored }

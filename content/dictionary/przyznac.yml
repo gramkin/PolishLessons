@@ -1,0 +1,718 @@
+# review
+id: przyznac
+format: 2
+lemma: "przyznać"
+rank: 649
+pos: verb
+aspect: perf
+pron: { cyr: "пшы́знаць" }
+senses:
+  - id: admit
+    ru: "признать (что-л.)"
+    note: "przyznać, że... — признать факт."
+    examples:
+      - pl: "Musisz przyznać, że się myliłeś."
+        ru: "Ты должен признать, что ошибался."
+        source: { kind: tatoeba, id: 750526 }
+      - pl: "Przyznał, że skłamał."
+        ru: "Он признал, что солгал."
+        source: { kind: translated, id: 365534 }
+      - pl: "Przyznała, że nie miała racji."
+        ru: "Она признала, что была неправа."
+        source: { kind: translated, id: 1465640 }
+  - id: confess
+    ru: "przyznać się DO czegoś — признаться в чём-л."
+    note: "Предлог do с родительным, а не «в» с предложным."
+    examples:
+      - pl: "Muszę się przyznać, że się myliłem."
+        ru: "Должен признать, что я ошибался."
+        source: { kind: tatoeba, id: 1284533 }
+      - pl: "Przyznaj się!"
+        ru: "Признайся!"
+        source: { kind: translated, id: 12359625 }
+      - pl: "Przyznała się do błędu."
+        ru: "Она признала ошибку."
+        source: { kind: translated, id: 2679759 }
+  - id: guilt
+    ru: "przyznać się do winy — признать вину"
+    examples:
+      - pl: "Podpisali przyznanie się do winy."
+        ru: "Они подписали признание вины."
+        source: { kind: translated, id: 6534239 }
+      - pl: "Przyznanie się do winy to połowa drogi do jej wybaczenia."
+        ru: "Признание вины — полпути к её прощению."
+        source: { kind: translated, id: 349080 }
+      - pl: "Wyrzuty sumienia zmusiły go do przyznania się do winy."
+        ru: "Угрызения совести заставили его признать вину."
+        source: { kind: translated, id: 1354988 }
+  - id: award
+    ru: "przyznać coś komuś — присудить, назначить"
+    note: "Третье значение, далёкое от «признать»."
+    examples:
+      - pl: "Przyznano mi zapomogę naukową."
+        ru: "Мне назначили научное пособие."
+        source: { kind: translated, id: 367008 }
+      - pl: "Ziemia została przyznana najstarszemu synowi."
+        ru: "Земля была присуждена старшему сыну."
+        source: { kind: translated, id: 814605 }
+      - pl: "Przyznano jej nagrodę główną."
+        ru: "Ей присудили главную премию."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Два управления, и их надо развести. Признать факт — przyznać, że...: Przyznał, że skłamał. Признаться в чём-то — przyznać się DO czegoś, с предлогом do и родительным: przyznać się do winy, przyznała się do błędu." }
+  - { kind: false-friend, text: "Русское «признаться В чём-то» здесь подводит: по-польски только do с родительным. Не «w winie», а do winy." }
+  - { kind: usage, text: "Третье значение — «присудить, назначить, предоставить»: przyznano mi stypendium «мне назначили стипендию», ziemię przyznano synowi." }
+  - { kind: usage, text: "Несовершенный вид — przyznawać: przyznawał się powoli, w końcu się przyznał." }
+  - { kind: usage, text: "Отглагольное существительное — przyznanie: przyznanie się do winy «признание вины»." }
+collocations:
+  - { pl: "przyznać się do winy", ru: "признать вину" }
+  - { pl: "Przyznaj się!", ru: "Признайся!" }
+  - { pl: "trzeba przyznać", ru: "надо признать" }
+  - { pl: "przyznać nagrodę", ru: "присудить награду" }
+family:
+  - { pl: "przyznawać", ru: "признавать", relation: aspect }
+  - { pl: "znać", ru: "знать", relation: root }
+  - { pl: "przyznanie", ru: "признание", relation: derived }
+etymology: "Приставка przy- плюс znać «знать», праславянское *znati — то же слово, что русское «знать». «Признать» собрано тем же способом: «при-» плюс «знать»."
+memory: "przyznać — «признать», и собрано оно как русское: przy- плюс znać. Развести надо два управления. Признать факт — przyznać, że...: Przyznał, że skłamał. А признаться в чём-то — przyznać się DO czegoś, с предлогом do и родительным: przyznać się do winy. Русское «признаться В чём-то» здесь подводит. И держите в уме третье значение, далёкое от первых двух: przyznano mi stypendium «мне назначили стипендию»."
+idioms:
+  - { pl: "przyznać się do winy", ru: "признать вину" }
+  - { pl: "Przyznaj się!", ru: "Признайся!" }
+  - { pl: "trzeba przyznać", ru: "надо признать" }
+formExamples:
+  - form: "przyzna"
+    pl: "Tom się nie przyzna."
+    ru: "Том не признается."
+    source: { kind: translated, id: 6441746 }
+  - form: "przyzna"
+    pl: "Tom nie przyzna się do winy."
+    ru: "Том не признает вину."
+    source: { kind: translated, id: 6441747 }
+  - form: "przyzna"
+    pl: "Prędzej piekło zamarznie, niż Tom przyzna, że się myli."
+    ru: "Скорее ад замёрзнет, чем Том признает, что ошибается."
+    source: { kind: translated, id: 3663688 }
+  - form: "przyznacie"
+    pl: "Przyznacie się do winy?"
+    ru: "Вы признаете вину?"
+    source: { kind: authored }
+  - form: "przyznacie"
+    pl: "Nigdy się nie przyznacie."
+    ru: "Вы никогда не признаетесь."
+    source: { kind: authored }
+  - form: "przyznacie"
+    pl: "Przyznacie mu nagrodę?"
+    ru: "Вы присудите ему награду?"
+    source: { kind: authored }
+  - form: "przyznać"
+    pl: "Musisz przyznać, że się myliłeś."
+    ru: "Ты должен признать, что ошибался."
+    source: { kind: tatoeba, id: 750526 }
+  - form: "przyznać"
+    pl: "Muszę się przyznać, że się myliłem."
+    ru: "Должен признать, что я ошибался."
+    source: { kind: tatoeba, id: 1284533 }
+  - form: "przyznać"
+    pl: "Nie chciała tego przyznać."
+    ru: "Она не хотела этого признавать."
+    source: { kind: translated, id: 5222086 }
+  - form: "przyznaj"
+    pl: "Przyznaj się!"
+    ru: "Признайся!"
+    source: { kind: translated, id: 12359625 }
+  - form: "przyznaj"
+    pl: "Lepiej do wszystkiego się przyznaj."
+    ru: "Лучше во всём признайся."
+    source: { kind: translated, id: 13657529 }
+  - form: "przyznaj"
+    pl: "Przyznaj się, o mnie nie pomyślałeś."
+    ru: "Признайся, ты обо мне не подумал."
+    source: { kind: translated, id: 1348739 }
+  - form: "przyznają"
+    pl: "Wątpię, że Tom i Mary przyznają się, że nie wiedzą jak to zrobić."
+    ru: "Сомневаюсь, что Том и Мэри признаются, что не знают, как это сделать."
+    source: { kind: translated, id: 9686899 }
+  - form: "przyznają"
+    pl: "Nigdy się nie przyznają."
+    ru: "Они никогда не признаются."
+    source: { kind: authored }
+  - form: "przyznają"
+    pl: "Przyznają mu stypendium."
+    ru: "Ему назначат стипендию."
+    source: { kind: authored }
+  - form: "przyznajcie"
+    pl: "Przyznajcie, nigdy wcześniej nie próbowałyście tego robić."
+    ru: "Признайтесь, вы никогда раньше не пробовали этого делать."
+    source: { kind: translated, id: 6406086 }
+  - form: "przyznajcie"
+    pl: "Przyznajcie się do winy."
+    ru: "Признайте вину."
+    source: { kind: authored }
+  - form: "przyznajcie"
+    pl: "Przyznajcie, że mam rację."
+    ru: "Признайте, что я прав."
+    source: { kind: authored }
+  - form: "przyznajmy"
+    pl: "Przyznajmy się do błędu."
+    ru: "Признаем ошибку."
+    source: { kind: authored }
+  - form: "przyznajmy"
+    pl: "Przyznajmy, że nie mamy racji."
+    ru: "Признаем, что мы неправы."
+    source: { kind: authored }
+  - form: "przyznajmy"
+    pl: "Przyznajmy mu nagrodę."
+    ru: "Присудим ему награду."
+    source: { kind: authored }
+  - form: "przyznali"
+    pl: "Tom i Mary przyznali, że nie mieli racji."
+    ru: "Том и Мэри признали, что были неправы."
+    source: { kind: tatoeba, id: 8108619 }
+  - form: "przyznali"
+    pl: "Przyznali się do winy."
+    ru: "Они признали вину."
+    source: { kind: authored }
+  - form: "przyznali"
+    pl: "Przyznali mu nagrodę główną."
+    ru: "Ему присудили главную премию."
+    source: { kind: authored }
+  - form: "przyznaliby"
+    pl: "Przyznaliby się, gdyby ich przyciśnięto."
+    ru: "Они признались бы, если бы на них нажали."
+    source: { kind: authored }
+  - form: "przyznaliby"
+    pl: "Nie przyznaliby się do winy."
+    ru: "Они не признали бы вину."
+    source: { kind: authored }
+  - form: "przyznaliby"
+    pl: "Przyznaliby mu nagrodę."
+    ru: "Они присудили бы ему награду."
+    source: { kind: authored }
+  - form: "przyznalibyście"
+    pl: "Przyznalibyście się do winy?"
+    ru: "Вы признали бы вину?"
+    source: { kind: authored }
+  - form: "przyznalibyście"
+    pl: "Nie przyznalibyście się nigdy."
+    ru: "Вы никогда не признались бы."
+    source: { kind: authored }
+  - form: "przyznalibyście"
+    pl: "Przyznalibyście mu nagrodę?"
+    ru: "Вы присудили бы ему награду?"
+    source: { kind: authored }
+  - form: "przyznalibyśmy"
+    pl: "Przyznalibyśmy się, gdyby trzeba było."
+    ru: "Мы признались бы, если бы понадобилось."
+    source: { kind: authored }
+  - form: "przyznalibyśmy"
+    pl: "Nie przyznalibyśmy się do winy."
+    ru: "Мы не признали бы вину."
+    source: { kind: authored }
+  - form: "przyznalibyśmy"
+    pl: "Przyznalibyśmy mu nagrodę."
+    ru: "Мы присудили бы ему награду."
+    source: { kind: authored }
+  - form: "przyznaliście"
+    pl: "Przyznaliście się do winy?"
+    ru: "Вы признали вину?"
+    source: { kind: authored }
+  - form: "przyznaliście"
+    pl: "Nie przyznaliście się nigdy."
+    ru: "Вы так и не признались."
+    source: { kind: authored }
+  - form: "przyznaliście"
+    pl: "Przyznaliście mu nagrodę."
+    ru: "Вы присудили ему награду."
+    source: { kind: authored }
+  - form: "przyznaliśmy"
+    pl: "Przyznaliśmy się do zabicia Mary."
+    ru: "Мы признались в убийстве Мэри."
+    source: { kind: translated, id: 6771209 }
+  - form: "przyznaliśmy"
+    pl: "Przyznaliśmy się do błędu."
+    ru: "Мы признали ошибку."
+    source: { kind: authored }
+  - form: "przyznaliśmy"
+    pl: "Przyznaliśmy, że nie mamy racji."
+    ru: "Мы признали, что неправы."
+    source: { kind: authored }
+  - form: "przyznał"
+    pl: "Przyznał, że skłamał."
+    ru: "Он признал, что солгал."
+    source: { kind: translated, id: 365534 }
+  - form: "przyznał"
+    pl: "Złodziej przyznał się."
+    ru: "Вор признался."
+    source: { kind: translated, id: 12453703 }
+  - form: "przyznał"
+    pl: "Przyznał, że brał łapówki."
+    ru: "Он признал, что брал взятки."
+    source: { kind: translated, id: 357209 }
+  - form: "przyznała"
+    pl: "Przyznała się do błędu."
+    ru: "Она признала ошибку."
+    source: { kind: translated, id: 2679759 }
+  - form: "przyznała"
+    pl: "Przyznała się, że skłamała."
+    ru: "Она призналась, что солгала."
+    source: { kind: translated, id: 10548163 }
+  - form: "przyznała"
+    pl: "Przyznała, że nie miała racji."
+    ru: "Она признала, что была неправа."
+    source: { kind: translated, id: 1465640 }
+  - form: "przyznałaby"
+    pl: "Przyznałaby się, gdyby ją przyciśnięto."
+    ru: "Она призналась бы, если бы на неё нажали."
+    source: { kind: authored }
+  - form: "przyznałaby"
+    pl: "Nie przyznałaby się do winy."
+    ru: "Она не признала бы вину."
+    source: { kind: authored }
+  - form: "przyznałaby"
+    pl: "Przyznałaby mu nagrodę."
+    ru: "Она присудила бы ему награду."
+    source: { kind: authored }
+  - form: "przyznałabym"
+    pl: "Przyznałabym się, gdyby trzeba było."
+    ru: "Я призналась бы, если бы понадобилось."
+    source: { kind: authored }
+  - form: "przyznałabym"
+    pl: "Nie przyznałabym się do winy."
+    ru: "Я не признала бы вину."
+    source: { kind: authored }
+  - form: "przyznałabym"
+    pl: "Przyznałabym mu nagrodę."
+    ru: "Я присудила бы ему награду."
+    source: { kind: authored }
+  - form: "przyznałabyś"
+    pl: "Przyznałabyś się do winy?"
+    ru: "Ты признала бы вину?"
+    source: { kind: authored }
+  - form: "przyznałabyś"
+    pl: "Nie przyznałabyś się nigdy."
+    ru: "Ты никогда не призналась бы."
+    source: { kind: authored }
+  - form: "przyznałabyś"
+    pl: "Przyznałabyś mu nagrodę?"
+    ru: "Ты присудила бы ему награду?"
+    source: { kind: authored }
+  - form: "przyznałam"
+    pl: "Przyznałam się do winy."
+    ru: "Я признала вину."
+    source: { kind: authored }
+  - form: "przyznałam"
+    pl: "Przyznałam, że nie mam racji."
+    ru: "Я признала, что неправа."
+    source: { kind: authored }
+  - form: "przyznałam"
+    pl: "Nigdy się nie przyznałam."
+    ru: "Я так и не призналась."
+    source: { kind: authored }
+  - form: "przyznałaś"
+    pl: "Przyznałaś się do winy?"
+    ru: "Ты признала вину?"
+    source: { kind: authored }
+  - form: "przyznałaś"
+    pl: "Przyznałaś, że nie masz racji."
+    ru: "Ты признала, что неправа."
+    source: { kind: authored }
+  - form: "przyznałaś"
+    pl: "Nigdy się nie przyznałaś."
+    ru: "Ты так и не призналась."
+    source: { kind: authored }
+  - form: "przyznałby"
+    pl: "Przyznałby się, gdyby go przyciśnięto."
+    ru: "Он признался бы, если бы на него нажали."
+    source: { kind: authored }
+  - form: "przyznałby"
+    pl: "Nie przyznałby się do winy."
+    ru: "Он не признал бы вину."
+    source: { kind: authored }
+  - form: "przyznałby"
+    pl: "Przyznałby mu nagrodę."
+    ru: "Он присудил бы ему награду."
+    source: { kind: authored }
+  - form: "przyznałbym"
+    pl: "Przyznałbym się, gdyby trzeba było."
+    ru: "Я признался бы, если бы понадобилось."
+    source: { kind: authored }
+  - form: "przyznałbym"
+    pl: "Nie przyznałbym się do winy."
+    ru: "Я не признал бы вину."
+    source: { kind: authored }
+  - form: "przyznałbym"
+    pl: "Przyznałbym mu nagrodę."
+    ru: "Я присудил бы ему награду."
+    source: { kind: authored }
+  - form: "przyznałbyś"
+    pl: "Przyznałbyś się do winy?"
+    ru: "Ты признал бы вину?"
+    source: { kind: authored }
+  - form: "przyznałbyś"
+    pl: "Nie przyznałbyś się nigdy."
+    ru: "Ты никогда не признался бы."
+    source: { kind: authored }
+  - form: "przyznałbyś"
+    pl: "Przyznałbyś mu nagrodę?"
+    ru: "Ты присудил бы ему награду?"
+    source: { kind: authored }
+  - form: "przyznałem"
+    pl: "Przyznałem się."
+    ru: "Я признался."
+    source: { kind: translated, id: 8617250 }
+  - form: "przyznałem"
+    pl: "Przyznałem, że nie za bardzo lubię Toma."
+    ru: "Я признался, что не очень люблю Тома."
+    source: { kind: translated, id: 13353098 }
+  - form: "przyznałem"
+    pl: "Przyznałem się do winy."
+    ru: "Я признал вину."
+    source: { kind: authored }
+  - form: "przyznałeś"
+    pl: "Przyznałeś się do winy?"
+    ru: "Ты признал вину?"
+    source: { kind: authored }
+  - form: "przyznałeś"
+    pl: "Przyznałeś, że nie masz racji."
+    ru: "Ты признал, что неправ."
+    source: { kind: authored }
+  - form: "przyznałeś"
+    pl: "Nigdy się nie przyznałeś."
+    ru: "Ты так и не признался."
+    source: { kind: authored }
+  - form: "przyznało"
+    pl: "Dziecko przyznało się do kłamstwa."
+    ru: "Ребёнок признался во лжи."
+    source: { kind: authored }
+  - form: "przyznało"
+    pl: "Wiele osób przyznało mu rację."
+    ru: "Многие признали его правоту."
+    source: { kind: authored }
+  - form: "przyznało"
+    pl: "Miasto przyznało jej honorowe obywatelstwo."
+    ru: "Город присвоил ей почётное гражданство."
+    source: { kind: authored }
+  - form: "przyznałoby"
+    pl: "Dziecko przyznałoby się do kłamstwa."
+    ru: "Ребёнок признался бы во лжи."
+    source: { kind: authored }
+  - form: "przyznałoby"
+    pl: "Miasto przyznałoby jej tytuł."
+    ru: "Город присвоил бы ей титул."
+    source: { kind: authored }
+  - form: "przyznałoby"
+    pl: "Żadne z nich nie przyznałoby się."
+    ru: "Никто из них не признался бы."
+    source: { kind: authored }
+  - form: "przyznały"
+    pl: "Dziewczyny przyznały się do winy."
+    ru: "Девушки признали вину."
+    source: { kind: authored }
+  - form: "przyznały"
+    pl: "Obie strony przyznały mu rację."
+    ru: "Обе стороны признали его правоту."
+    source: { kind: authored }
+  - form: "przyznały"
+    pl: "Władze przyznały jej odszkodowanie."
+    ru: "Власти назначили ей компенсацию."
+    source: { kind: authored }
+  - form: "przyznałyby"
+    pl: "Dziewczyny przyznałyby się do winy."
+    ru: "Девушки признали бы вину."
+    source: { kind: authored }
+  - form: "przyznałyby"
+    pl: "Obie strony przyznałyby mu rację."
+    ru: "Обе стороны признали бы его правоту."
+    source: { kind: authored }
+  - form: "przyznałyby"
+    pl: "Nie przyznałyby się nigdy."
+    ru: "Они никогда не признались бы."
+    source: { kind: authored }
+  - form: "przyznałybyście"
+    pl: "Przyznałybyście się do winy?"
+    ru: "Вы признали бы вину?"
+    source: { kind: authored }
+  - form: "przyznałybyście"
+    pl: "Nie przyznałybyście się nigdy."
+    ru: "Вы никогда не признались бы."
+    source: { kind: authored }
+  - form: "przyznałybyście"
+    pl: "Przyznałybyście mu nagrodę?"
+    ru: "Вы присудили бы ему награду?"
+    source: { kind: authored }
+  - form: "przyznałybyśmy"
+    pl: "Przyznałybyśmy się, gdyby trzeba było."
+    ru: "Мы признались бы, если бы понадобилось."
+    source: { kind: authored }
+  - form: "przyznałybyśmy"
+    pl: "Nie przyznałybyśmy się do winy."
+    ru: "Мы не признали бы вину."
+    source: { kind: authored }
+  - form: "przyznałybyśmy"
+    pl: "Przyznałybyśmy mu nagrodę."
+    ru: "Мы присудили бы ему награду."
+    source: { kind: authored }
+  - form: "przyznałyście"
+    pl: "Przyznałyście się do winy?"
+    ru: "Вы признали вину?"
+    source: { kind: authored }
+  - form: "przyznałyście"
+    pl: "Przyznałyście, że nie macie racji."
+    ru: "Вы признали, что неправы."
+    source: { kind: authored }
+  - form: "przyznałyście"
+    pl: "Nigdy się nie przyznałyście."
+    ru: "Вы так и не признались."
+    source: { kind: authored }
+  - form: "przyznałyśmy"
+    pl: "Przyznałyśmy się do winy."
+    ru: "Мы признали вину."
+    source: { kind: authored }
+  - form: "przyznałyśmy"
+    pl: "Przyznałyśmy, że nie mamy racji."
+    ru: "Мы признали, что неправы."
+    source: { kind: authored }
+  - form: "przyznałyśmy"
+    pl: "Nigdy się nie przyznałyśmy."
+    ru: "Мы так и не признались."
+    source: { kind: authored }
+  - form: "przyznam"
+    pl: "Przyznam, że nie rozumiem."
+    ru: "Признаюсь, я не понимаю."
+    source: { kind: translated, id: 964946 }
+  - form: "przyznam"
+    pl: "Przyznam, że byłem w błędzie."
+    ru: "Признаюсь, я был неправ."
+    source: { kind: translated, id: 547977 }
+  - form: "przyznam"
+    pl: "Nie przyznam się do winy."
+    ru: "Я не признаю вину."
+    source: { kind: translated, id: 3841287 }
+  - form: "przyznamy"
+    pl: "Przyznamy się do błędu."
+    ru: "Мы признаем ошибку."
+    source: { kind: authored }
+  - form: "przyznamy"
+    pl: "Nigdy się nie przyznamy."
+    ru: "Мы никогда не признаемся."
+    source: { kind: authored }
+  - form: "przyznamy"
+    pl: "Przyznamy mu stypendium."
+    ru: "Мы назначим ему стипендию."
+    source: { kind: authored }
+  - form: "przyznana"
+    pl: "Ziemia została przyznana najstarszemu synowi."
+    ru: "Земля была присуждена старшему сыну."
+    source: { kind: translated, id: 814605 }
+  - form: "przyznana"
+    pl: "Nagroda została przyznana jednogłośnie."
+    ru: "Премия была присуждена единогласно."
+    source: { kind: authored }
+  - form: "przyznana"
+    pl: "Pomoc przyznana rodzinie była niewielka."
+    ru: "Помощь, назначенная семье, была невелика."
+    source: { kind: authored }
+  - form: "przyznaną"
+    pl: "Wydał całą przyznaną kwotę."
+    ru: "Он потратил всю назначенную сумму."
+    source: { kind: authored }
+  - form: "przyznaną"
+    pl: "Uznali nagrodę za przyznaną słusznie."
+    ru: "Награду сочли присуждённой справедливо."
+    source: { kind: authored }
+  - form: "przyznaną"
+    pl: "Odebrał przyznaną mu nagrodę."
+    ru: "Он получил присуждённую ему награду."
+    source: { kind: authored }
+  - form: "przyznane"
+    pl: "Nagrody zostały przyznane wczoraj."
+    ru: "Награды были присуждены вчера."
+    source: { kind: authored }
+  - form: "przyznane"
+    pl: "Przyznane stypendia ogłoszono w maju."
+    ru: "Назначенные стипендии объявили в мае."
+    source: { kind: authored }
+  - form: "przyznane"
+    pl: "Prawa przyznane ustawą są nienaruszalne."
+    ru: "Права, предоставленные законом, неприкосновенны."
+    source: { kind: authored }
+  - form: "przyznanego"
+    pl: "Nie starczyło przyznanego czasu."
+    ru: "Предоставленного времени не хватило."
+    source: { kind: authored }
+  - form: "przyznanego"
+    pl: "Szukam przyznanego wcześniej grantu."
+    ru: "Я ищу ранее назначенный грант."
+    source: { kind: authored }
+  - form: "przyznanego"
+    pl: "Wysokość przyznanego stypendium go zaskoczyła."
+    ru: "Размер назначенной стипендии его удивил."
+    source: { kind: authored }
+  - form: "przyznanej"
+    pl: "Nie starczyło przyznanej kwoty."
+    ru: "Назначенной суммы не хватило."
+    source: { kind: authored }
+  - form: "przyznanej"
+    pl: "Wysokość przyznanej pomocy go zaskoczyła."
+    ru: "Размер назначенной помощи его удивил."
+    source: { kind: authored }
+  - form: "przyznanej"
+    pl: "Bez przyznanej zgody nic nie zrobimy."
+    ru: "Без предоставленного согласия мы ничего не сделаем."
+    source: { kind: authored }
+  - form: "przyznanemu"
+    pl: "Przyjrzał się przyznanemu stypendium."
+    ru: "Он присмотрелся к назначенной стипендии."
+    source: { kind: authored }
+  - form: "przyznanemu"
+    pl: "Dzięki przyznanemu grantowi ruszyły badania."
+    ru: "Благодаря назначенному гранту начались исследования."
+    source: { kind: authored }
+  - form: "przyznanemu"
+    pl: "Nie ufał przyznanemu terminowi."
+    ru: "Он не доверял предоставленному сроку."
+    source: { kind: authored }
+  - form: "przyznani"
+    pl: "Zostali przyznani do tej samej grupy."
+    ru: "Их определили в одну и ту же группу."
+    source: { kind: authored }
+  - form: "przyznani"
+    pl: "Przyznani stypendyści spotkali się w auli."
+    ru: "Утверждённые стипендиаты встретились в актовом зале."
+    source: { kind: authored }
+  - form: "przyznani"
+    pl: "Byli przyznani jednogłośnie."
+    ru: "Их утвердили единогласно."
+    source: { kind: authored }
+  - form: "przyznania"
+    pl: "Została zmuszona do przyznania się."
+    ru: "Её заставили признаться."
+    source: { kind: translated, id: 676833 }
+  - form: "przyznania"
+    pl: "Zmuszono mnie do przyznania się."
+    ru: "Меня заставили признаться."
+    source: { kind: translated, id: 713420 }
+  - form: "przyznania"
+    pl: "Wyrzuty sumienia zmusiły go do przyznania się do winy."
+    ru: "Угрызения совести заставили его признать вину."
+    source: { kind: translated, id: 1354988 }
+  - form: "przyznanie"
+    pl: "Podpisali przyznanie się do winy."
+    ru: "Они подписали признание вины."
+    source: { kind: translated, id: 6534239 }
+  - form: "przyznanie"
+    pl: "Przyznanie się do winy to połowa drogi do jej wybaczenia."
+    ru: "Признание вины — полпути к её прощению."
+    source: { kind: translated, id: 349080 }
+  - form: "przyznanie"
+    pl: "Przyznanie stypendium zajęło miesiąc."
+    ru: "Назначение стипендии заняло месяц."
+    source: { kind: authored }
+  - form: "przyznaniem"
+    pl: "Jego milczenie było w istocie przyznaniem się do winy."
+    ru: "Его молчание было по сути признанием вины."
+    source: { kind: translated, id: 830301 }
+  - form: "przyznaniem"
+    pl: "Przed przyznaniem nagrody długo obradowali."
+    ru: "Перед присуждением премии они долго совещались."
+    source: { kind: authored }
+  - form: "przyznaniem"
+    pl: "Milczenie bywa przyznaniem racji."
+    ru: "Молчание бывает признанием правоты."
+    source: { kind: authored }
+  - form: "przyznaniu"
+    pl: "Po przyznaniu się poczuł ulgę."
+    ru: "Признавшись, он почувствовал облегчение."
+    source: { kind: authored }
+  - form: "przyznaniu"
+    pl: "Mówili o przyznaniu nagrody."
+    ru: "Они говорили о присуждении награды."
+    source: { kind: authored }
+  - form: "przyznaniu"
+    pl: "Po przyznaniu grantu ruszyły badania."
+    ru: "После назначения гранта начались исследования."
+    source: { kind: authored }
+  - form: "przyznano"
+    pl: "Przyznano mi zapomogę naukową."
+    ru: "Мне назначили научное пособие."
+    source: { kind: translated, id: 367008 }
+  - form: "przyznano"
+    pl: "Przyznano mu nagrodę główną."
+    ru: "Ему присудили главную премию."
+    source: { kind: authored }
+  - form: "przyznano"
+    pl: "Przyznano nam dodatkowy termin."
+    ru: "Нам предоставили дополнительный срок."
+    source: { kind: authored }
+  - form: "przyznany"
+    pl: "Grant przyznany w zeszłym roku już się skończył."
+    ru: "Грант, назначенный в прошлом году, уже закончился."
+    source: { kind: authored }
+  - form: "przyznany"
+    pl: "Tytuł został mu przyznany pośmiertnie."
+    ru: "Титул был присуждён ему посмертно."
+    source: { kind: authored }
+  - form: "przyznany"
+    pl: "Przyznany termin okazał się za krótki."
+    ru: "Предоставленный срок оказался слишком коротким."
+    source: { kind: authored }
+  - form: "przyznanych"
+    pl: "Wśród przyznanych nagród była główna."
+    ru: "Среди присуждённых наград была главная."
+    source: { kind: authored }
+  - form: "przyznanych"
+    pl: "Liczba przyznanych stypendiów wzrosła."
+    ru: "Число назначенных стипендий выросло."
+    source: { kind: authored }
+  - form: "przyznanych"
+    pl: "Nie ma tu przyznanych grantów."
+    ru: "Назначенных грантов здесь нет."
+    source: { kind: authored }
+  - form: "przyznanym"
+    pl: "W przyznanym terminie zdążyli."
+    ru: "В предоставленный срок они успели."
+    source: { kind: authored }
+  - form: "przyznanym"
+    pl: "Przyjrzał się przyznanym nagrodom."
+    ru: "Он присмотрелся к присуждённым наградам."
+    source: { kind: authored }
+  - form: "przyznanym"
+    pl: "Zajął się przyznanym grantem."
+    ru: "Он занялся назначенным грантом."
+    source: { kind: authored }
+  - form: "przyznanymi"
+    pl: "Zajęli się przyznanymi grantami."
+    ru: "Они занялись назначенными грантами."
+    source: { kind: authored }
+  - form: "przyznanymi"
+    pl: "Między przyznanymi a obiecanymi kwotami była różnica."
+    ru: "Между назначенными и обещанными суммами была разница."
+    source: { kind: authored }
+  - form: "przyznanymi"
+    pl: "Wrócił z przyznanymi nagrodami."
+    ru: "Он вернулся с присуждёнными наградами."
+    source: { kind: authored }
+  - form: "przyznasz"
+    pl: "Przyznasz, że miałem rację."
+    ru: "Ты признаешь, что я был прав."
+    source: { kind: authored }
+  - form: "przyznasz"
+    pl: "Nigdy się nie przyznasz."
+    ru: "Ты никогда не признаешься."
+    source: { kind: authored }
+  - form: "przyznasz"
+    pl: "Przyznasz mu nagrodę?"
+    ru: "Ты присудишь ему награду?"
+    source: { kind: authored }
+  - form: "przyznawszy"
+    pl: "Przyznawszy się do winy, poczuł ulgę."
+    ru: "Признав вину, он почувствовал облегчение."
+    source: { kind: authored }
+  - form: "przyznawszy"
+    pl: "Przyznawszy mu nagrodę, wyszli."
+    ru: "Присудив ему награду, они вышли."
+    source: { kind: authored }
+  - form: "przyznawszy"
+    pl: "Przyznawszy błąd, zamilkł."
+    ru: "Признав ошибку, он замолчал."
+    source: { kind: authored }
