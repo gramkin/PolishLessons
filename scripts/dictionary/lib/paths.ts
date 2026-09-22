@@ -23,6 +23,7 @@ export const SOURCE_URLS: Record<SourceName, string> = {
 export const DATA = {
   lock: 'data/sources.lock.json',
   ranked: 'data/ranked.json',
+  words: 'data/words.json',
   overrides: 'data/overrides.yml',
   drafts: 'data/drafts',
   batches: 'data/batches',

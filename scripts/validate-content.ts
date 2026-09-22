@@ -1,5 +1,6 @@
-import { existsSync, readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
+import { DATA } from './dictionary/lib/paths'
+import { readRegistry } from './dictionary/lib/registry'
 import { loadContent } from './lib/load-content'
 import { validateContent } from './lib/validate'
 import { validateDictionary } from './lib/validate-dictionary'
@@ -8,8 +9,10 @@ import { validateDictionary } from './lib/validate-dictionary'
 const REQUIRE_LESSON_CARDS = false
 
 const bundle = loadContent(resolve(process.cwd(), 'content'))
-const rankedPath = resolve(process.cwd(), 'data/ranked.json')
-const ranked = existsSync(rankedPath) ? JSON.parse(readFileSync(rankedPath, 'utf8')) : null
+// The card registry is the frequency list plus the hand-curated words; a missing
+// frequency file disables the cross-check entirely, as before.
+const rankedEntries = readRegistry(DATA.ranked)
+const ranked = rankedEntries.length > 0 ? [...rankedEntries, ...readRegistry(DATA.words)] : null
 const lessonWordIds = bundle.words.flatMap((file) =>
   ((file.data as { words?: { id: string }[] })?.words ?? []).map((w) => w.id),
 )

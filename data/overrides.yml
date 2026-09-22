@@ -5,11 +5,42 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # "si" is Spanish text in the corpus, not a Polish word: its only example is
+  # "Si me preguntas, es un poco rara"
+  - si
+  # "miał" ranks high only as the past tense of "mieć"; the noun (coal dust) has
+  # no examples of its own
+  - miał
   - miąć
   - dosycić
   - mamić
   - taka
   - jaka
+  # the foreign spelling of the interjection; its only corpus line is a bare "Oh."
+  # (Polish "och" is kept and gets its own card)
+  - oh
+  # English title, not a Polish word: its one example is a translated line of
+  # English dialogue, and PoliMorf invents a paradigm for it (sira, sirowie, sirów)
+  - sir
+  # the bare letter / language name; its only example is "C# jest podobny do Javy."
+  - c
+  # not the noun: every candidate is the -ego genitive of a foreign surname
+  # ("Kennedy'ego", "Billy'ego"), matched by suffix
+  - ego
+  # an English given name, not Polish vocabulary: every corpus line uses John as a
+  # Tatoeba placeholder character beside Tom and Mary, and PoliMorf invents a Polish
+  # paradigm for it (Johnowie, Johnach, Johnów)
+  - john
+  # not a lemma but the feminine slice of "twój": the form "twoja" already belongs to
+  # the twoj card, the draft paradigm is just twoja/twoje/twojej/twoją/twoich/twoim,
+  # and it is mis-tagged as a noun — the same defect as "taka" and "jaka" above
+  - twoja
+  # the dative of "ja": the form already belongs to the ja card, and it ranks on its
+  # own only because the frequency list counts surface forms — same defect as "twoja"
+  - mi
+  # the feminine of "mój": Wiktionary itself glosses it "lp ż od: mój", and the moj card
+  # already owns the form — same defect as "twoja"
+  - moja
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
@@ -27,3 +58,7 @@ pos:
   # "niż" is listed as the noun (weather low, lowland); the frequent word is
   # the comparative conjunction "than"
   niz: conj
+  # "zbyt" is listed as the noun (sales); the frequent word is the adverb "too"
+  zbyt: adv
+  # "dzisiaj" is listed as a noun; it is an adverb, like its short form "dziś"
+  dzisiaj: adv

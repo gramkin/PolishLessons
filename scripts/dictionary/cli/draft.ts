@@ -1,9 +1,10 @@
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import type { RankedLemma } from '../lib/rank'
 import { stableJson } from '../lib/build'
 import { buildDraft, renderBatchReport } from '../lib/draft'
 import { DATA, SOURCES } from '../lib/paths'
+import { readAllRegistries } from '../lib/registry'
 import { readPolimorf } from '../lib/polimorf'
 import { buildTokenIndex, readTatoeba } from '../lib/tatoeba'
 import { readWiktionary } from '../lib/wiktionary'
@@ -15,7 +16,7 @@ const argValue = (name: string) => {
   return i >= 0 ? args[i + 1] : undefined
 }
 
-const ranked = JSON.parse(readFileSync(DATA.ranked, 'utf8')) as RankedLemma[]
+const ranked = readAllRegistries()
 const batch = argValue('--batch')
 const ids = argValue('--ids')
 
