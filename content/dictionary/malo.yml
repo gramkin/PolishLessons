@@ -1,0 +1,104 @@
+# review
+id: malo
+format: 2
+lemma: "mało"
+rank: 544
+pos: adv
+pron: { cyr: "ма́уо" }
+senses:
+  - id: little
+    ru: "мало (чего-л. — с родительным)"
+    note: "Как и в русском, требует родительного: mało czasu «мало времени»."
+    examples:
+      - pl: "Mam mało książek."
+        ru: "У меня мало книг."
+        source: { kind: tatoeba, id: 6157987 }
+      - pl: "Mamy bardzo mało czasu."
+        ru: "У нас очень мало времени."
+        source: { kind: tatoeba, id: 5196956 }
+      - pl: "Bardzo mało o tym wiemy."
+        ru: "Мы очень мало об этом знаем."
+        source: { kind: tatoeba, id: 6688742 }
+  - id: less
+    ru: "mniej — меньше (сравнительная степень)"
+    note: "Супплетивная форма: mało — mniej — najmniej."
+    examples:
+      - pl: "Mógłbyś oglądać mniej telewizji."
+        ru: "Ты бы поменьше телевизор смотрел."
+        source: { kind: tatoeba, id: 13084398 }
+      - pl: "Wydaję na ubrania mniej niż moja siostra."
+        ru: "Я трачу меньше денег на одежду, чем моя сестра."
+        source: { kind: tatoeba, id: 363548 }
+      - pl: "Mam coraz mniej czasu na czytanie."
+        ru: "У меня всё меньше времени на чтение."
+        source: { kind: tatoeba, id: 513479 }
+  - id: least
+    ru: "najmniej — меньше всего; co najmniej — по меньшей мере"
+    note: "Оборот co najmniej очень частый: co najmniej osiem godzin."
+    examples:
+      - pl: "Mają co najmniej dziesięcioro dzieci."
+        ru: "У них не меньше десяти детей."
+        source: { kind: tatoeba, id: 13786632 }
+      - pl: "Wycieczka potrwa co najmniej osiem godzin."
+        ru: "Экскурсия продлится не менее восьми часов."
+        source: { kind: tatoeba, id: 351530 }
+      - pl: "W piątki jestem najmniej zajęty."
+        ru: "По пятницам я занят меньше всего."
+        source: { kind: translated, id: 365349 }
+notes:
+  - { kind: government, text: "mało требует родительного падежа: mało czasu «мало времени», mało książek «мало книг». Управление совпадает с русским." }
+  - { kind: usage, text: "Степени сравнения супплетивны, как в русском: mało — mniej — najmniej («мало — меньше — меньше всего»)." }
+  - { kind: usage, text: "co najmniej значит «по меньшей мере»: Wycieczka potrwa co najmniej osiem godzin." }
+  - { kind: usage, text: "Застывшие сочетания: mało kto «мало кто», mało co «мало что», mało tego «мало того»." }
+collocations:
+  - { pl: "mało czasu", ru: "мало времени" }
+  - { pl: "co najmniej", ru: "по меньшей мере" }
+  - { pl: "mało kto", ru: "мало кто" }
+  - { pl: "coraz mniej", ru: "всё меньше" }
+family:
+  - { pl: "mały", ru: "маленький", relation: root }
+  - { pl: "mniejszy", ru: "меньший", relation: derived }
+  - { pl: "zmaleć", ru: "уменьшиться", relation: derived }
+etymology: "От праславянского *malъ «малый» — то же слово, что русское «мало»; отсюда же mały «маленький»."
+memory: "mało — «мало», и управление то же, что в русском: родительный падеж, mało czasu «мало времени». Степени сравнения супплетивны и опять как в русском: mało — mniej — najmniej. Запомните два оборота: co najmniej «по меньшей мере» (co najmniej osiem godzin) и mało kto «мало кто»."
+idioms:
+  - { pl: "co najmniej", ru: "по меньшей мере" }
+  - { pl: "mało kto", ru: "мало кто" }
+  - { pl: "ni mniej, ni więcej", ru: "ни больше ни меньше" }
+formExamples:
+  - form: "mało"
+    pl: "Mam mało książek."
+    ru: "У меня мало книг."
+    source: { kind: tatoeba, id: 6157987 }
+  - form: "mało"
+    pl: "Mamy bardzo mało czasu."
+    ru: "У нас очень мало времени."
+    source: { kind: tatoeba, id: 5196956 }
+  - form: "mało"
+    pl: "Mało kto przyszedł na konferencję."
+    ru: "Мало кто пришел на собрание."
+    source: { kind: tatoeba, id: 751839 }
+  - form: "mniej"
+    pl: "Mógłbyś oglądać mniej telewizji."
+    ru: "Ты бы поменьше телевизор смотрел."
+    source: { kind: tatoeba, id: 13084398 }
+  - form: "mniej"
+    pl: "Wydaję na ubrania mniej niż moja siostra."
+    ru: "Я трачу меньше денег на одежду, чем моя сестра."
+    source: { kind: tatoeba, id: 363548 }
+  - form: "mniej"
+    pl: "Mam coraz mniej czasu na czytanie."
+    ru: "У меня всё меньше времени на чтение."
+    source: { kind: tatoeba, id: 513479 }
+  - form: "najmniej"
+    pl: "Mają co najmniej dziesięcioro dzieci."
+    ru: "У них не меньше десяти детей."
+    source: { kind: tatoeba, id: 13786632 }
+  - form: "najmniej"
+    pl: "Wycieczka potrwa co najmniej osiem godzin."
+    ru: "Экскурсия продлится не менее восьми часов."
+    source: { kind: tatoeba, id: 351530 }
+  - form: "najmniej"
+    pl: "W piątki jestem najmniej zajęty."
+    ru: "По пятницам я занят меньше всего."
+    source: { kind: translated, id: 365349 }
