@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **318** |
-| В очереди       | **531** |
+| Карточка готова | **320** |
+| В очереди       | **529** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -346,7 +346,7 @@ pnpm dict:status && pnpm generate
 - **Byłby ciekawym studium dla ciebie**  
   <sub>слова: [być](/slovo/byc), [ciekawy](/slovo/ciekawy), `studium`, [dla](/slovo/dla), [ty](/slovo/ty)</sub>
 - **Nasz baronet zaczyna interesować się żywo piękną sąsiadką**  
-  <sub>слова: [nasz](/slovo/nasz), [baronet](/slovo/baronet), [zaczynać](/slovo/zaczynac), `interesować`, [się](/slovo/sie), [żywo](/slovo/zywo), [piękny](/slovo/piekny), `sąsiadka`</sub>
+  <sub>слова: [nasz](/slovo/nasz), [baronet](/slovo/baronet), [zaczynać](/slovo/zaczynac), [interesować](/slovo/interesowac), [się](/slovo/sie), [żywo](/slovo/zywo), [piękny](/slovo/piekny), `sąsiadka`</sub>
 - wzruszony — 🟡 `wzruszony` · adj · rank 2166
 - kilkakrotnie — 🟡 `kilkakrotnie` · adv · rank 2167
 - oddziaływanie — 🟡 `oddziaływanie` · noun · rank 2168
@@ -621,7 +621,7 @@ pnpm dict:status && pnpm generate
 - **Czy jeszcze grasuje?**  
   <sub>слова: [czy](/slovo/czy), [jeszcze](/slovo/jeszcze), `grasować`</sub>
 - **Spodziewam się, że już go tu nie ma; nie dawał znaku życia od dnia, gdy po raz ostatni zaniosłem mu żywność**  
-  <sub>слова: `spodziewać`, [się](/slovo/sie), [że](/slovo/ze), [już](/slovo/juz), [on](/slovo/on), [tu](/slovo/tu), [nie](/slovo/nie), [mój](/slovo/moj), [dawać](/slovo/dawac), `znak`, [życie](/slovo/zycie), [od](/slovo/od), [dzień](/slovo/dzien), [gdy](/slovo/gdy), [po](/slovo/po), [raz](/slovo/raz), [ostatni](/slovo/ostatni), `zanieść`, `żywność`</sub>
+  <sub>слова: [spodziewać](/slovo/spodziewac), [się](/slovo/sie), [że](/slovo/ze), [już](/slovo/juz), [on](/slovo/on), [tu](/slovo/tu), [nie](/slovo/nie), [mój](/slovo/moj), [dawać](/slovo/dawac), `znak`, [życie](/slovo/zycie), [od](/slovo/od), [dzień](/slovo/dzien), [gdy](/slovo/gdy), [po](/slovo/po), [raz](/slovo/raz), [ostatni](/slovo/ostatni), `zanieść`, `żywność`</sub>
 - odezwania — 🟡 `odezwać` · verb · rank 2367
 - **Wahał się**  
   <sub>слова: `wahać`, [się](/slovo/sie)</sub>
@@ -726,7 +726,7 @@ pnpm dict:status && pnpm generate
 - wyrzutkiem — 🟡 `wyrzutek` · noun · rank 2436
 - zatarg — 🟡 `zatarg` · noun · rank 2437
 - **spodziewam się rzucić na nie światło**  
-  <sub>слова: `spodziewać`, [się](/slovo/sie), [rzucić](/slovo/rzucic), [na](/slovo/na), [nie](/slovo/nie), [światło](/slovo/swiatlo)</sub>
+  <sub>слова: [spodziewać](/slovo/spodziewac), [się](/slovo/sie), [rzucić](/slovo/rzucic), [na](/slovo/na), [nie](/slovo/nie), [światło](/slovo/swiatlo)</sub>
 - kaganiec — 🟡 `kaganiec` · noun · rank 2438
 - **Rozporządzaj pan mną do woli**  
   <sub>слова: `rozporządzać`, [pan](/slovo/pan), [ja](/slovo/ja), [do](/slovo/do), `woli`</sub>
