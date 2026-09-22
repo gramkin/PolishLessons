@@ -1,0 +1,825 @@
+# review
+id: obchodzic
+format: 2
+lemma: "obchodzić"
+rank: 547
+pos: verb
+aspect: imperf
+pron: { cyr: "обхо́дзиць" }
+senses:
+  - id: celebrate
+    ru: "отмечать, праздновать"
+    note: "obchodzić urodziny «отмечать день рождения», obchodzić święto «отмечать праздник»."
+    examples:
+      - pl: "W Indiach Dzień Republiki obchodzi się 26 stycznia."
+        ru: "В Индии День республики празднуется 26 января."
+        source: { kind: tatoeba, id: 952117 }
+      - pl: "Obchodzę urodziny dwudziestego drugiego marca."
+        ru: "Я отмечаю день рождения двадцать второго марта."
+        source: { kind: translated, id: 7881656 }
+      - pl: "14 lutego Amerykanie obchodzą Walentynki."
+        ru: "14 февраля американцы отмечают День святого Валентина."
+        source: { kind: translated, id: 841691 }
+  - id: concern
+    ru: "Kogo to obchodzi? — кого это волнует?"
+    note: "Безлично: подлежащее — to, а лицо стоит в винительном: nic mnie to nie obchodzi."
+    examples:
+      - pl: "Kogo to obchodzi?"
+        ru: "Кого это волнует?"
+        source: { kind: translated, id: 5627104 }
+      - pl: "Nikogo to nie będzie obchodzić."
+        ru: "Это никого не будет волновать."
+        source: { kind: translated, id: 3750051 }
+      - pl: "Moje poglądy mało kogo w firmie obchodzą."
+        ru: "Мои взгляды мало кого в фирме волнуют."
+        source: { kind: translated, id: 840302 }
+  - id: handle
+    ru: "obchodzić się z czymś — обращаться с чем-л.; obchodzić przepisy — обходить правила"
+    note: "С się и творительным падежом: obchodzić się ostrożnie z czymś."
+    examples:
+      - pl: "Musimy obchodzić się z tym ostrożnie."
+        ru: "Мы должны обращаться с этим осторожно."
+        source: { kind: translated, id: 758289 }
+      - pl: "Obchodź się ze szklankami ostrożnie."
+        ru: "Обращайся со стаканами осторожно."
+        source: { kind: translated, id: 355553 }
+      - pl: "Ona umie obchodzić przepisy."
+        ru: "Она умеет обходить правила."
+        source: { kind: translated, id: 358953 }
+notes:
+  - { kind: usage, text: "Три расходящихся значения: obchodzić urodziny «отмечать», Kogo to obchodzi? «кого это волнует», obchodzić przepisy «обходить правила»." }
+  - { kind: government, text: "В значении «волновать» глагол безличный: подлежащее — to, а человек стоит в винительном: nic mnie to nie obchodzi «меня это совсем не волнует»." }
+  - { kind: government, text: "obchodzić się z czymś «обращаться с чем-либо» требует się и творительного падежа: obchodź się ostrożnie ze szklankami." }
+  - { kind: usage, text: "Совершенный вид зависит от значения: obejść przepisy «обойти правила», но для «отмечать» пары нет — говорят просто obchodzić." }
+collocations:
+  - { pl: "obchodzić urodziny", ru: "отмечать день рождения" }
+  - { pl: "Kogo to obchodzi?", ru: "Кого это волнует?" }
+  - { pl: "obchodzić się z czymś", ru: "обращаться с чем-либо" }
+  - { pl: "obchodzić przepisy", ru: "обходить правила" }
+family:
+  - { pl: "chodzić", ru: "ходить", relation: root }
+  - { pl: "obejść", ru: "обойти", relation: derived }
+  - { pl: "obchody", ru: "торжества", relation: derived }
+etymology: "Приставка ob- плюс chodzić «ходить», от праславянского *choditi — буквально «обходить». Значение «отмечать» выросло из обрядового обхода, а «волновать» — из «касаться, иметь отношение»."
+memory: "obchodzić — один глагол с тремя расходящимися значениями. Первое: obchodzić urodziny «отмечать день рождения». Второе — безличное: Kogo to obchodzi? «Кого это волнует?», nic mnie to nie obchodzi «меня это совсем не волнует», где лицо стоит в винительном. Третье: obchodzić przepisy «обходить правила» и obchodzić się z czymś «обращаться с чем-либо» — с się и творительным."
+idioms:
+  - { pl: "obchodzić urodziny", ru: "отмечать день рождения" }
+  - { pl: "Kogo to obchodzi?", ru: "Кого это волнует?" }
+  - { pl: "obchodzić się z czymś", ru: "обращаться с чем-либо" }
+formExamples:
+  - form: "obchodzą"
+    pl: "14 lutego Amerykanie obchodzą Walentynki."
+    ru: "14 февраля американцы отмечают День святого Валентина."
+    source: { kind: translated, id: 841691 }
+  - form: "obchodzą"
+    pl: "Moje poglądy mało kogo w firmie obchodzą."
+    ru: "Мои взгляды мало кого в фирме волнуют."
+    source: { kind: translated, id: 840302 }
+  - form: "obchodzą"
+    pl: "Japończycy podobno nie obchodzą Bożego Narodzenia tak samo jak Amerykanie."
+    ru: "Японцы, говорят, отмечают Рождество не так, как американцы."
+    source: { kind: translated, id: 461117 }
+  - form: "obchodząc"
+    pl: "Musisz być ostrożny obchodząc się z nitrogliceryną."
+    ru: "Нужно быть осторожным, обращаясь с нитроглицерином."
+    source: { kind: translated, id: 2809417 }
+  - form: "obchodząc"
+    pl: "Obchodząc urodziny, zaprosił sąsiadów."
+    ru: "Отмечая день рождения, он позвал соседей."
+    source: { kind: authored }
+  - form: "obchodząc"
+    pl: "Obchodząc przepisy, ryzykował karę."
+    ru: "Обходя правила, он рисковал штрафом."
+    source: { kind: authored }
+  - form: "obchodząca"
+    pl: "Rodzina obchodząca jubileusz zaprosiła sąsiadów."
+    ru: "Семья, отмечавшая юбилей, пригласила соседей."
+    source: { kind: authored }
+  - form: "obchodząca"
+    pl: "To osoba obchodząca wszystkie święta."
+    ru: "Это человек, отмечающий все праздники."
+    source: { kind: authored }
+  - form: "obchodząca"
+    pl: "Firma obchodząca rocznicę wydała album."
+    ru: "Фирма, отмечавшая годовщину, выпустила альбом."
+    source: { kind: authored }
+  - form: "obchodzącą"
+    pl: "Znam rodzinę obchodzącą wszystkie święta."
+    ru: "Я знаю семью, отмечающую все праздники."
+    source: { kind: authored }
+  - form: "obchodzącą"
+    pl: "Widział firmę obchodzącą stulecie."
+    ru: "Он видел фирму, отмечающую столетие."
+    source: { kind: authored }
+  - form: "obchodzącą"
+    pl: "Pamiętam babcię obchodzącą imieniny hucznie."
+    ru: "Я помню бабушку, шумно отмечавшую именины."
+    source: { kind: authored }
+  - form: "obchodzące"
+    pl: "Dzieci obchodzące imieniny dostały prezenty."
+    ru: "Дети, отмечавшие именины, получили подарки."
+    source: { kind: authored }
+  - form: "obchodzące"
+    pl: "Rodziny obchodzące święta razem są szczęśliwsze."
+    ru: "Семьи, отмечающие праздники вместе, счастливее."
+    source: { kind: authored }
+  - form: "obchodzące"
+    pl: "Miasta obchodzące jubileusz przyciągają turystów."
+    ru: "Города, отмечающие юбилей, притягивают туристов."
+    source: { kind: authored }
+  - form: "obchodzącego"
+    pl: "Nie znam nikogo obchodzącego to święto."
+    ru: "Я не знаю никого, кто отмечает этот праздник."
+    source: { kind: authored }
+  - form: "obchodzącego"
+    pl: "Zauważyli chłopca obchodzącego urodziny."
+    ru: "Они заметили мальчика, отмечавшего день рождения."
+    source: { kind: authored }
+  - form: "obchodzącego"
+    pl: "Trudno zrozumieć człowieka obchodzącego przepisy."
+    ru: "Трудно понять человека, обходящего правила."
+    source: { kind: authored }
+  - form: "obchodzącej"
+    pl: "Pomogli rodzinie obchodzącej jubileusz."
+    ru: "Они помогли семье, отмечавшей юбилей."
+    source: { kind: authored }
+  - form: "obchodzącej"
+    pl: "Nie przeszkadzaj obchodzącej imieniny sąsiadce."
+    ru: "Не мешай соседке, отмечающей именины."
+    source: { kind: authored }
+  - form: "obchodzącej"
+    pl: "Historia firmy obchodzącej stulecie jest ciekawa."
+    ru: "История фирмы, отмечающей столетие, интересна."
+    source: { kind: authored }
+  - form: "obchodzącemu"
+    pl: "Pomóż koledze obchodzącemu urodziny."
+    ru: "Помоги товарищу, отмечающему день рождения."
+    source: { kind: authored }
+  - form: "obchodzącemu"
+    pl: "Przyjrzyj się miastu obchodzącemu jubileusz."
+    ru: "Присмотрись к городу, отмечающему юбилей."
+    source: { kind: authored }
+  - form: "obchodzącemu"
+    pl: "Nie ufaj człowiekowi obchodzącemu przepisy."
+    ru: "Не доверяй человеку, обходящему правила."
+    source: { kind: authored }
+  - form: "obchodzący"
+    pl: "Obchodzący urodziny gospodarz był w świetnym humorze."
+    ru: "Отмечавший день рождения хозяин был в отличном настроении."
+    source: { kind: authored }
+  - form: "obchodzący"
+    pl: "Ludzie obchodzący święto zebrali się na rynku."
+    ru: "Люди, отмечавшие праздник, собрались на площади."
+    source: { kind: authored }
+  - form: "obchodzący"
+    pl: "Obchodzący przepisy kierowca stracił prawo jazdy."
+    ru: "Обходивший правила водитель лишился прав."
+    source: { kind: authored }
+  - form: "obchodzących"
+    pl: "Wśród obchodzących jubileusz był burmistrz."
+    ru: "Среди отмечавших юбилей был мэр."
+    source: { kind: authored }
+  - form: "obchodzących"
+    pl: "Nie lubię ludzi obchodzących przepisy."
+    ru: "Я не люблю людей, обходящих правила."
+    source: { kind: authored }
+  - form: "obchodzących"
+    pl: "Liczba obchodzących to święto spada."
+    ru: "Число отмечающих этот праздник падает."
+    source: { kind: authored }
+  - form: "obchodzącym"
+    pl: "Rozmawiał z sąsiadem obchodzącym imieniny."
+    ru: "Он говорил с соседом, отмечавшим именины."
+    source: { kind: authored }
+  - form: "obchodzącym"
+    pl: "Pomagają rodzinom obchodzącym święta samotnie."
+    ru: "Они помогают семьям, отмечающим праздники в одиночку."
+    source: { kind: authored }
+  - form: "obchodzącym"
+    pl: "W mieście obchodzącym jubileusz było tłoczno."
+    ru: "В городе, отмечавшем юбилей, было людно."
+    source: { kind: authored }
+  - form: "obchodzącymi"
+    pl: "Zajmuje się firmami obchodzącymi jubileusze."
+    ru: "Он занимается фирмами, отмечающими юбилеи."
+    source: { kind: authored }
+  - form: "obchodzącymi"
+    pl: "Między obchodzącymi święto gośćmi panował gwar."
+    ru: "Среди отмечавших праздник гостей стоял гул."
+    source: { kind: authored }
+  - form: "obchodzącymi"
+    pl: "Rozmawiał z obchodzącymi rocznicę mieszkańcami."
+    ru: "Он говорил с жителями, отмечавшими годовщину."
+    source: { kind: authored }
+  - form: "obchodzeni"
+    pl: "Jubilaci byli obchodzeni uroczyście."
+    ru: "Юбиляров чествовали торжественно."
+    source: { kind: authored }
+  - form: "obchodzeni"
+    pl: "Święci są obchodzeni każdego miesiąca."
+    ru: "Святых чествуют каждый месяц."
+    source: { kind: authored }
+  - form: "obchodzeni"
+    pl: "Patroni bywają obchodzeni skromnie."
+    ru: "Покровителей чествуют скромно."
+    source: { kind: authored }
+  - form: "obchodzenia"
+    pl: "Nie ma powodu do obchodzenia przepisów."
+    ru: "Нет причин обходить правила."
+    source: { kind: authored }
+  - form: "obchodzenia"
+    pl: "Unikał obchodzenia się z bronią."
+    ru: "Он избегал обращаться с оружием."
+    source: { kind: authored }
+  - form: "obchodzenia"
+    pl: "Miał dość obchodzenia cudzych świąt."
+    ru: "Ему надоело отмечать чужие праздники."
+    source: { kind: authored }
+  - form: "obchodzenie"
+    pl: "Obchodzenie przepisów kończy się źle."
+    ru: "Обход правил кончается плохо."
+    source: { kind: authored }
+  - form: "obchodzenie"
+    pl: "Obchodzenie urodzin to miły zwyczaj."
+    ru: "Отмечать день рождения — милый обычай."
+    source: { kind: authored }
+  - form: "obchodzenie"
+    pl: "Obchodzenie się z dziećmi wymaga cierpliwości."
+    ru: "Обращение с детьми требует терпения."
+    source: { kind: authored }
+  - form: "obchodzeniem"
+    pl: "Zajmuje się obchodzeniem przepisów."
+    ru: "Он занимается обходом правил."
+    source: { kind: authored }
+  - form: "obchodzeniem"
+    pl: "Między obchodzeniem a łamaniem prawa jest granica."
+    ru: "Между обходом и нарушением закона есть граница."
+    source: { kind: authored }
+  - form: "obchodzeniem"
+    pl: "Zaskoczył nas obchodzeniem się z gośćmi."
+    ru: "Он удивил нас обращением с гостями."
+    source: { kind: authored }
+  - form: "obchodzeniu"
+    pl: "W obchodzeniu się z ludźmi jest sztuka."
+    ru: "В обращении с людьми есть искусство."
+    source: { kind: authored }
+  - form: "obchodzeniu"
+    pl: "Mówili o obchodzeniu przepisów."
+    ru: "Они говорили об обходе правил."
+    source: { kind: authored }
+  - form: "obchodzeniu"
+    pl: "Po obchodzeniu świąt przyszła cisza."
+    ru: "После праздников наступила тишина."
+    source: { kind: authored }
+  - form: "obchodzę"
+    pl: "Obchodzę urodziny dwudziestego drugiego marca."
+    ru: "Я отмечаю день рождения двадцать второго марта."
+    source: { kind: translated, id: 7881656 }
+  - form: "obchodzę"
+    pl: "Nie obchodzę hucznie imienin."
+    ru: "Я не отмечаю шумно именины."
+    source: { kind: authored }
+  - form: "obchodzę"
+    pl: "Obchodzę się z tym ostrożnie."
+    ru: "Я обращаюсь с этим осторожно."
+    source: { kind: authored }
+  - form: "obchodzi"
+    pl: "W Indiach Dzień Republiki obchodzi się 26 stycznia."
+    ru: "В Индии День республики празднуется 26 января."
+    source: { kind: tatoeba, id: 952117 }
+  - form: "obchodzi"
+    pl: "Kogo to obchodzi?"
+    ru: "Кого это волнует?"
+    source: { kind: translated, id: 5627104 }
+  - form: "obchodzi"
+    pl: "Kogo obchodzi cudze zdanie?"
+    ru: "Кого волнует чужое мнение?"
+    source: { kind: authored }
+  - form: "obchodzicie"
+    pl: "Obchodzicie pięćdziesiątkę?"
+    ru: "Вы отмечаете пятидесятилетие?"
+    source: { kind: translated, id: 12947361 }
+  - form: "obchodzicie"
+    pl: "Jakie święta obchodzicie w domu?"
+    ru: "Какие праздники вы отмечаете дома?"
+    source: { kind: authored }
+  - form: "obchodzicie"
+    pl: "Obchodzicie rocznicę ślubu?"
+    ru: "Вы отмечаете годовщину свадьбы?"
+    source: { kind: authored }
+  - form: "obchodzić"
+    pl: "Ona umie obchodzić przepisy."
+    ru: "Она умеет обходить правила."
+    source: { kind: translated, id: 358953 }
+  - form: "obchodzić"
+    pl: "Nikogo to nie będzie obchodzić."
+    ru: "Это никого не будет волновать."
+    source: { kind: translated, id: 3750051 }
+  - form: "obchodzić"
+    pl: "Musimy obchodzić się z tym ostrożnie."
+    ru: "Мы должны обращаться с этим осторожно."
+    source: { kind: translated, id: 758289 }
+  - form: "obchodzili"
+    pl: "Sąsiedzi obchodzili imieniny co roku."
+    ru: "Соседи отмечали именины каждый год."
+    source: { kind: authored }
+  - form: "obchodzili"
+    pl: "Nie obchodzili tego święta."
+    ru: "Они не отмечали этот праздник."
+    source: { kind: authored }
+  - form: "obchodzili"
+    pl: "Obchodzili przepisy bez skrupułów."
+    ru: "Они обходили правила без зазрения совести."
+    source: { kind: authored }
+  - form: "obchodziliby"
+    pl: "Obchodziliby urodziny, gdyby mieli czas."
+    ru: "Они отмечали бы день рождения, будь у них время."
+    source: { kind: authored }
+  - form: "obchodziliby"
+    pl: "Nie obchodziliby tego święta."
+    ru: "Они не отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziliby"
+    pl: "Obchodziliby przepisy ostrożniej."
+    ru: "Они обходили бы правила осторожнее."
+    source: { kind: authored }
+  - form: "obchodzilibyście"
+    pl: "Obchodzilibyście rocznicę hucznie?"
+    ru: "Вы отмечали бы годовщину шумно?"
+    source: { kind: authored }
+  - form: "obchodzilibyście"
+    pl: "Nie obchodzilibyście tego święta."
+    ru: "Вы не отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodzilibyście"
+    pl: "Obchodzilibyście się z tym ostrożniej."
+    ru: "Вы обращались бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodzilibyśmy"
+    pl: "Obchodzilibyśmy urodziny w domu."
+    ru: "Мы отмечали бы день рождения дома."
+    source: { kind: authored }
+  - form: "obchodzilibyśmy"
+    pl: "Nie obchodzilibyśmy tego święta."
+    ru: "Мы не отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodzilibyśmy"
+    pl: "Obchodzilibyśmy się z tym ostrożniej."
+    ru: "Мы обращались бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziliście"
+    pl: "Obchodziliście rocznicę?"
+    ru: "Вы отмечали годовщину?"
+    source: { kind: authored }
+  - form: "obchodziliście"
+    pl: "Nie obchodziliście urodzin?"
+    ru: "Вы не отмечали день рождения?"
+    source: { kind: authored }
+  - form: "obchodziliście"
+    pl: "Jak obchodziliście święta?"
+    ru: "Как вы отмечали праздники?"
+    source: { kind: authored }
+  - form: "obchodziliśmy"
+    pl: "Obchodziliśmy jego urodziny."
+    ru: "Мы отмечали его день рождения."
+    source: { kind: translated, id: 590060 }
+  - form: "obchodziliśmy"
+    pl: "Obchodziliśmy rocznicę w gronie rodziny."
+    ru: "Мы отмечали годовщину в кругу семьи."
+    source: { kind: authored }
+  - form: "obchodziliśmy"
+    pl: "Nie obchodziliśmy tego święta."
+    ru: "Мы не отмечали этот праздник."
+    source: { kind: authored }
+  - form: "obchodził"
+    pl: "Obchodził urodziny w gronie przyjaciół."
+    ru: "Он отмечал день рождения в кругу друзей."
+    source: { kind: authored }
+  - form: "obchodził"
+    pl: "Nie obchodził go cudzy los."
+    ru: "Чужая судьба его не волновала."
+    source: { kind: authored }
+  - form: "obchodził"
+    pl: "Obchodził przepisy latami."
+    ru: "Он годами обходил правила."
+    source: { kind: authored }
+  - form: "obchodziła"
+    pl: "Nasza firma obchodziła 40. rocznicę powstania."
+    ru: "Наша фирма отмечала сорокалетие со дня основания."
+    source: { kind: translated, id: 927220 }
+  - form: "obchodziła"
+    pl: "Rodzina obchodziła jubileusz skromnie."
+    ru: "Семья отмечала юбилей скромно."
+    source: { kind: authored }
+  - form: "obchodziła"
+    pl: "Nie obchodziła jej cudza opinia."
+    ru: "Её не волновало чужое мнение."
+    source: { kind: authored }
+  - form: "obchodziłaby"
+    pl: "Obchodziłaby urodziny skromnie."
+    ru: "Она отмечала бы день рождения скромно."
+    source: { kind: authored }
+  - form: "obchodziłaby"
+    pl: "Nie obchodziłaby tego święta."
+    ru: "Она не отмечала бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłaby"
+    pl: "Obchodziłaby się z tym ostrożniej."
+    ru: "Она обращалась бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłabym"
+    pl: "Obchodziłabym urodziny w domu."
+    ru: "Я отмечала бы день рождения дома."
+    source: { kind: authored }
+  - form: "obchodziłabym"
+    pl: "Nie obchodziłabym tego święta."
+    ru: "Я не отмечала бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłabym"
+    pl: "Obchodziłabym się z tym ostrożniej."
+    ru: "Я обращалась бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłabyś"
+    pl: "Obchodziłabyś urodziny hucznie?"
+    ru: "Ты отмечала бы день рождения шумно?"
+    source: { kind: authored }
+  - form: "obchodziłabyś"
+    pl: "Nie obchodziłabyś tego święta."
+    ru: "Ты не отмечала бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłabyś"
+    pl: "Obchodziłabyś się z tym ostrożniej."
+    ru: "Ты обращалась бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłam"
+    pl: "Obchodziłam urodziny skromnie."
+    ru: "Я отмечала день рождения скромно."
+    source: { kind: authored }
+  - form: "obchodziłam"
+    pl: "Nie obchodziłam tego święta."
+    ru: "Я не отмечала этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłam"
+    pl: "Obchodziłam się z tym ostrożnie."
+    ru: "Я обращалась с этим осторожно."
+    source: { kind: authored }
+  - form: "obchodziłaś"
+    pl: "Obchodziłaś urodziny w domu?"
+    ru: "Ты отмечала день рождения дома?"
+    source: { kind: authored }
+  - form: "obchodziłaś"
+    pl: "Nie obchodziłaś tego święta."
+    ru: "Ты не отмечала этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłaś"
+    pl: "Jak obchodziłaś imieniny?"
+    ru: "Как ты отмечала именины?"
+    source: { kind: authored }
+  - form: "obchodziłby"
+    pl: "Obchodziłby urodziny, gdyby mógł."
+    ru: "Он отмечал бы день рождения, если бы мог."
+    source: { kind: authored }
+  - form: "obchodziłby"
+    pl: "Taki drobiazg nie obchodziłby nikogo."
+    ru: "Такая мелочь никого не волновала бы."
+    source: { kind: authored }
+  - form: "obchodziłby"
+    pl: "Obchodziłby przepisy ostrożniej."
+    ru: "Он обходил бы правила осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłbym"
+    pl: "Obchodziłbym urodziny w domu."
+    ru: "Я отмечал бы день рождения дома."
+    source: { kind: authored }
+  - form: "obchodziłbym"
+    pl: "Nie obchodziłbym tego święta."
+    ru: "Я не отмечал бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłbym"
+    pl: "Obchodziłbym się z tym ostrożniej."
+    ru: "Я обращался бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłbyś"
+    pl: "Obchodziłbyś urodziny hucznie?"
+    ru: "Ты отмечал бы день рождения шумно?"
+    source: { kind: authored }
+  - form: "obchodziłbyś"
+    pl: "Nie obchodziłbyś tego święta."
+    ru: "Ты не отмечал бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłbyś"
+    pl: "Obchodziłbyś się z tym ostrożniej."
+    ru: "Ты обращался бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłem"
+    pl: "Obchodziłem urodziny w domu."
+    ru: "Я отмечал день рождения дома."
+    source: { kind: authored }
+  - form: "obchodziłem"
+    pl: "Nie obchodziłem tego święta."
+    ru: "Я не отмечал этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłem"
+    pl: "Obchodziłem się z tym ostrożnie."
+    ru: "Я обращался с этим осторожно."
+    source: { kind: authored }
+  - form: "obchodziłeś"
+    pl: "Obchodziłeś urodziny w domu?"
+    ru: "Ты отмечал день рождения дома?"
+    source: { kind: authored }
+  - form: "obchodziłeś"
+    pl: "Nie obchodziłeś tego święta."
+    ru: "Ты не отмечал этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłeś"
+    pl: "Jak obchodziłeś imieniny?"
+    ru: "Как ты отмечал именины?"
+    source: { kind: authored }
+  - form: "obchodziło"
+    pl: "Toma by to nie obchodziło."
+    ru: "Тома бы это не волновало."
+    source: { kind: translated, id: 6441736 }
+  - form: "obchodziło"
+    pl: "Może cię to po prostu nie obchodziło."
+    ru: "Может, тебя это просто не волновало."
+    source: { kind: translated, id: 3857528 }
+  - form: "obchodziło"
+    pl: "Próbowałam udawać, że nic mnie to nie obchodziło."
+    ru: "Я пыталась делать вид, что меня это совсем не волнует."
+    source: { kind: translated, id: 6156542 }
+  - form: "obchodziłoby"
+    pl: "Dziecko obchodziłoby urodziny hucznie."
+    ru: "Ребёнок отмечал бы день рождения шумно."
+    source: { kind: authored }
+  - form: "obchodziłoby"
+    pl: "Nikogo to nie obchodziłoby."
+    ru: "Никого это не волновало бы."
+    source: { kind: authored }
+  - form: "obchodziłoby"
+    pl: "Wiele osób obchodziłoby to święto."
+    ru: "Многие отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziły"
+    pl: "Dziewczyny obchodziły imieniny razem."
+    ru: "Девушки отмечали именины вместе."
+    source: { kind: authored }
+  - form: "obchodziły"
+    pl: "Te sprawy nas nie obchodziły."
+    ru: "Эти дела нас не волновали."
+    source: { kind: authored }
+  - form: "obchodziły"
+    pl: "Firmy obchodziły przepisy bez trudu."
+    ru: "Фирмы легко обходили правила."
+    source: { kind: authored }
+  - form: "obchodziłyby"
+    pl: "Dziewczyny obchodziłyby imieniny razem."
+    ru: "Девушки отмечали бы именины вместе."
+    source: { kind: authored }
+  - form: "obchodziłyby"
+    pl: "Te sprawy nas nie obchodziłyby."
+    ru: "Эти дела нас не волновали бы."
+    source: { kind: authored }
+  - form: "obchodziłyby"
+    pl: "Firmy obchodziłyby przepisy bez trudu."
+    ru: "Фирмы легко обходили бы правила."
+    source: { kind: authored }
+  - form: "obchodziłybyście"
+    pl: "Obchodziłybyście rocznicę hucznie?"
+    ru: "Вы отмечали бы годовщину шумно?"
+    source: { kind: authored }
+  - form: "obchodziłybyście"
+    pl: "Nie obchodziłybyście tego święta."
+    ru: "Вы не отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłybyście"
+    pl: "Obchodziłybyście się z tym ostrożniej."
+    ru: "Вы обращались бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłybyśmy"
+    pl: "Obchodziłybyśmy rocznicę razem."
+    ru: "Мы отмечали бы годовщину вместе."
+    source: { kind: authored }
+  - form: "obchodziłybyśmy"
+    pl: "Nie obchodziłybyśmy tego święta."
+    ru: "Мы не отмечали бы этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłybyśmy"
+    pl: "Obchodziłybyśmy się z tym ostrożniej."
+    ru: "Мы обращались бы с этим осторожнее."
+    source: { kind: authored }
+  - form: "obchodziłyście"
+    pl: "Obchodziłyście rocznicę?"
+    ru: "Вы отмечали годовщину?"
+    source: { kind: authored }
+  - form: "obchodziłyście"
+    pl: "Nie obchodziłyście urodzin?"
+    ru: "Вы не отмечали день рождения?"
+    source: { kind: authored }
+  - form: "obchodziłyście"
+    pl: "Jak obchodziłyście święta?"
+    ru: "Как вы отмечали праздники?"
+    source: { kind: authored }
+  - form: "obchodziłyśmy"
+    pl: "Obchodziłyśmy rocznicę razem."
+    ru: "Мы отмечали годовщину вместе."
+    source: { kind: authored }
+  - form: "obchodziłyśmy"
+    pl: "Nie obchodziłyśmy tego święta."
+    ru: "Мы не отмечали этот праздник."
+    source: { kind: authored }
+  - form: "obchodziłyśmy"
+    pl: "Obchodziłyśmy się z tym ostrożnie."
+    ru: "Мы обращались с этим осторожно."
+    source: { kind: authored }
+  - form: "obchodzimy"
+    pl: "My najwyraźniej jej nie obchodzimy."
+    ru: "Мы её явно не волнуем."
+    source: { kind: translated, id: 903335 }
+  - form: "obchodzimy"
+    pl: "Obchodzimy imieniny babci."
+    ru: "Мы отмечаем именины бабушки."
+    source: { kind: authored }
+  - form: "obchodzimy"
+    pl: "Nie obchodzimy hucznie urodzin."
+    ru: "Мы не отмечаем дни рождения шумно."
+    source: { kind: authored }
+  - form: "obchodzisz"
+    pl: "Czy obchodzisz Wielkanoc w Brazylii?"
+    ru: "Ты отмечаешь Пасху в Бразилии?"
+    source: { kind: translated, id: 11914970 }
+  - form: "obchodzisz"
+    pl: "Kiedy obchodzisz urodziny?"
+    ru: "Когда ты отмечаешь день рождения?"
+    source: { kind: authored }
+  - form: "obchodzisz"
+    pl: "Czy obchodzisz imieniny?"
+    ru: "Ты отмечаешь именины?"
+    source: { kind: authored }
+  - form: "obchodzona"
+    pl: "Rocznica jest obchodzona w maju."
+    ru: "Годовщину отмечают в мае."
+    source: { kind: authored }
+  - form: "obchodzona"
+    pl: "Ta data była obchodzona uroczyście."
+    ru: "Эту дату отмечали торжественно."
+    source: { kind: authored }
+  - form: "obchodzona"
+    pl: "Wielkanoc jest obchodzona inaczej na wschodzie."
+    ru: "Пасху на востоке отмечают иначе."
+    source: { kind: authored }
+  - form: "obchodzoną"
+    pl: "Uznali tę datę za obchodzoną powszechnie."
+    ru: "Они сочли эту дату повсеместно отмечаемой."
+    source: { kind: authored }
+  - form: "obchodzoną"
+    pl: "Widział obchodzoną hucznie rocznicę."
+    ru: "Он видел шумно отмечавшуюся годовщину."
+    source: { kind: authored }
+  - form: "obchodzoną"
+    pl: "Pamięta obchodzoną tam tradycję."
+    ru: "Он помнит соблюдавшуюся там традицию."
+    source: { kind: authored }
+  - form: "obchodzone"
+    pl: "Te święta są obchodzone w całym kraju."
+    ru: "Эти праздники отмечают по всей стране."
+    source: { kind: authored }
+  - form: "obchodzone"
+    pl: "Imieniny bywają obchodzone hucznie."
+    ru: "Именины иногда отмечают шумно."
+    source: { kind: authored }
+  - form: "obchodzone"
+    pl: "Rocznice są tam obchodzone co roku."
+    ru: "Годовщины там отмечают каждый год."
+    source: { kind: authored }
+  - form: "obchodzonego"
+    pl: "Nie pamiętam obchodzonego wtedy święta."
+    ru: "Я не помню отмечавшегося тогда праздника."
+    source: { kind: authored }
+  - form: "obchodzonego"
+    pl: "Szukali obchodzonego dawniej zwyczaju."
+    ru: "Они искали некогда соблюдавшийся обычай."
+    source: { kind: authored }
+  - form: "obchodzonego"
+    pl: "Nie ma tu obchodzonego hucznie jubileuszu."
+    ru: "Здесь нет шумно отмечаемого юбилея."
+    source: { kind: authored }
+  - form: "obchodzonej"
+    pl: "Nie pamiętam obchodzonej wtedy rocznicy."
+    ru: "Я не помню отмечавшейся тогда годовщины."
+    source: { kind: authored }
+  - form: "obchodzonej"
+    pl: "Po obchodzonej w maju rocznicy zrobiło się cicho."
+    ru: "После отмеченной в мае годовщины стало тихо."
+    source: { kind: authored }
+  - form: "obchodzonej"
+    pl: "Szukali obchodzonej dawniej tradycji."
+    ru: "Они искали прежде соблюдавшуюся традицию."
+    source: { kind: authored }
+  - form: "obchodzonemu"
+    pl: "Przyjrzyj się obchodzonemu tu zwyczajowi."
+    ru: "Присмотрись к соблюдаемому здесь обычаю."
+    source: { kind: authored }
+  - form: "obchodzonemu"
+    pl: "Dzięki obchodzonemu świętu miasto ożyło."
+    ru: "Благодаря отмечаемому празднику город ожил."
+    source: { kind: authored }
+  - form: "obchodzonemu"
+    pl: "Nie ufaj obchodzonemu byle jak przepisowi."
+    ru: "Не доверяй кое-как соблюдаемому правилу."
+    source: { kind: authored }
+  - form: "obchodzono"
+    pl: "Dawniej obchodzono to święto inaczej."
+    ru: "Раньше этот праздник отмечали иначе."
+    source: { kind: authored }
+  - form: "obchodzono"
+    pl: "W tym domu obchodzono każde imieniny."
+    ru: "В этом доме отмечали каждые именины."
+    source: { kind: authored }
+  - form: "obchodzono"
+    pl: "Nie obchodzono wtedy urodzin."
+    ru: "Тогда дни рождения не отмечали."
+    source: { kind: authored }
+  - form: "obchodzony"
+    pl: "Ten dzień jest obchodzony od stu lat."
+    ru: "Этот день отмечают уже сто лет."
+    source: { kind: authored }
+  - form: "obchodzony"
+    pl: "Jubileusz był obchodzony skromnie."
+    ru: "Юбилей отмечали скромно."
+    source: { kind: authored }
+  - form: "obchodzony"
+    pl: "Zwyczaj jest wciąż obchodzony na wsi."
+    ru: "Обычай в деревне соблюдают до сих пор."
+    source: { kind: authored }
+  - form: "obchodzonych"
+    pl: "Wśród obchodzonych świąt jest i to."
+    ru: "Среди отмечаемых праздников есть и этот."
+    source: { kind: authored }
+  - form: "obchodzonych"
+    pl: "Nie ma tu obchodzonych dawniej rocznic."
+    ru: "Здесь нет прежде отмечавшихся годовщин."
+    source: { kind: authored }
+  - form: "obchodzonych"
+    pl: "Liczba obchodzonych świąt rośnie."
+    ru: "Число отмечаемых праздников растёт."
+    source: { kind: authored }
+  - form: "obchodzonym"
+    pl: "W obchodzonym co roku święcie jest coś ciepłego."
+    ru: "В ежегодно отмечаемом празднике есть что-то тёплое."
+    source: { kind: authored }
+  - form: "obchodzonym"
+    pl: "Nie ufaj obchodzonym dla formy zwyczajom."
+    ru: "Не доверяй обычаям, соблюдаемым для формы."
+    source: { kind: authored }
+  - form: "obchodzonym"
+    pl: "Zajął się obchodzonym w maju jubileuszem."
+    ru: "Он занялся отмечаемым в мае юбилеем."
+    source: { kind: authored }
+  - form: "obchodzonymi"
+    pl: "Zajmuje się świętami obchodzonymi na wsi."
+    ru: "Он занимается праздниками, отмечаемыми в деревне."
+    source: { kind: authored }
+  - form: "obchodzonymi"
+    pl: "Między obchodzonymi hucznie rocznicami była przerwa."
+    ru: "Между шумно отмечавшимися годовщинами был перерыв."
+    source: { kind: authored }
+  - form: "obchodzonymi"
+    pl: "Zaskoczył nas obchodzonymi tam zwyczajami."
+    ru: "Он удивил нас соблюдаемыми там обычаями."
+    source: { kind: authored }
+  - form: "obchodź"
+    pl: "Obchodź się ze szklankami ostrożnie."
+    ru: "Обращайся со стаканами осторожно."
+    source: { kind: translated, id: 355553 }
+  - form: "obchodź"
+    pl: "Obchodź przepisy na własne ryzyko."
+    ru: "Обходи правила на свой страх и риск."
+    source: { kind: authored }
+  - form: "obchodź"
+    pl: "Nie obchodź tego tematu."
+    ru: "Не обходи эту тему."
+    source: { kind: authored }
+  - form: "obchodźcie"
+    pl: "Obchodźcie urodziny, jak chcecie."
+    ru: "Отмечайте день рождения как хотите."
+    source: { kind: authored }
+  - form: "obchodźcie"
+    pl: "Nie obchodźcie przepisów."
+    ru: "Не обходите правила."
+    source: { kind: authored }
+  - form: "obchodźcie"
+    pl: "Obchodźcie się z tym ostrożnie."
+    ru: "Обращайтесь с этим осторожно."
+    source: { kind: authored }
+  - form: "obchodźmy"
+    pl: "Obchodźmy urodziny w domu."
+    ru: "Будем отмечать день рождения дома."
+    source: { kind: authored }
+  - form: "obchodźmy"
+    pl: "Nie obchodźmy tego święta."
+    ru: "Не будем отмечать этот праздник."
+    source: { kind: authored }
+  - form: "obchodźmy"
+    pl: "Obchodźmy się z tym ostrożnie."
+    ru: "Будем обращаться с этим осторожно."
+    source: { kind: authored }
