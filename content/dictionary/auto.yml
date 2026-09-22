@@ -1,0 +1,176 @@
+# review
+id: auto
+format: 2
+lemma: "auto"
+rank: 680
+pos: noun
+pron: { cyr: "а́уто" }
+senses:
+  - id: car
+    ru: "машина, автомобиль"
+    note: "Обиходнее, чем samochód."
+    examples:
+      - pl: "Tom kupił nowe auto."
+        ru: "Том купил новую машину."
+        source: { kind: tatoeba, id: 3516164 }
+      - pl: "Oni nie mają auta."
+        ru: "У них нет машины."
+        source: { kind: tatoeba, id: 2869226 }
+      - pl: "Czyje to auto?"
+        ru: "Чья это машина?"
+        source: { kind: translated, id: 1131653 }
+  - id: by-car
+    ru: "autem — на машине (творительный без предлога)"
+    note: "Как русское «ехать машиной»."
+    examples:
+      - pl: "Pojechali autem na dworzec."
+        ru: "Они поехали на машине на вокзал."
+        source: { kind: translated, id: 525782 }
+      - pl: "Jedziesz pociągiem czy autem?"
+        ru: "Ты едешь поездом или на машине?"
+        source: { kind: translated, id: 2397829 }
+      - pl: "Czy potrafisz kierować autem?"
+        ru: "Ты умеешь водить машину?"
+        source: { kind: translated, id: 3621955 }
+  - id: in-the-car
+    ru: "w aucie — в машине"
+    note: "Чередование t/ci в предложном."
+    examples:
+      - pl: "Zostanę w aucie."
+        ru: "Я останусь в машине."
+        source: { kind: translated, id: 10589455 }
+      - pl: "Tom przyjechał w czarnym aucie."
+        ru: "Том приехал на чёрной машине."
+        source: { kind: translated, id: 12170842 }
+      - pl: "Mówiłem, żebyś został w aucie."
+        ru: "Я же сказал, чтобы ты остался в машине."
+        source: { kind: translated, id: 13336014 }
+notes:
+  - { kind: false-friend, text: "Русское «авто» не склоняется, а польское auto склоняется полностью: auta, autu, autem, w aucie. Это обычное существительное среднего рода, а не несклоняемое заимствование." }
+  - { kind: government, text: "«Ехать на машине» — творительный без предлога: jechać autem, ровно как русское «ехать машиной». «В машине» — w aucie, с предложным." }
+  - { kind: usage, text: "Чередование в предложном: auto, но w aucie — t переходит в ci." }
+  - { kind: usage, text: "Более официальный синоним — samochód; auto звучит обиходнее и короче." }
+collocations:
+  - { pl: "jechać autem", ru: "ехать на машине" }
+  - { pl: "w aucie", ru: "в машине" }
+  - { pl: "nowe auto", ru: "новая машина" }
+  - { pl: "samochód", ru: "автомобиль" }
+family:
+  - { pl: "samochód", ru: "автомобиль", relation: root }
+  - { pl: "autobus", ru: "автобус", relation: derived }
+  - { pl: "automobil", ru: "автомобиль (устар.)", relation: root }
+etymology: "Сокращение от automobil, из греческого autós «сам» и латинского mobilis «подвижный» — то же слово, что русское «авто»."
+memory: "auto — «машина», и главное отличие от русского в том, что польское слово склоняется: auta, autu, autem, w aucie, тогда как русское «авто» неизменяемо. Управление совпадает — jechać autem, творительный без предлога. Следите за чередованием в предложном: w aucie, с ci вместо t. Более официально то же самое будет samochód."
+idioms:
+  - { pl: "jechać autem", ru: "ехать на машине" }
+  - { pl: "w aucie", ru: "в машине" }
+  - { pl: "nowe auto", ru: "новая машина" }
+formExamples:
+  - form: "aucie"
+    pl: "Zostanę w aucie."
+    ru: "Я останусь в машине."
+    source: { kind: translated, id: 10589455 }
+  - form: "aucie"
+    pl: "Tom przyjechał w czarnym aucie."
+    ru: "Том приехал на чёрной машине."
+    source: { kind: translated, id: 12170842 }
+  - form: "aucie"
+    pl: "Mówiłem, żebyś został w aucie."
+    ru: "Я же сказал, чтобы ты остался в машине."
+    source: { kind: translated, id: 13336014 }
+  - form: "aut"
+    pl: "Liczba aut wzrosła."
+    ru: "Число машин выросло."
+    source: { kind: translated, id: 3997531 }
+  - form: "aut"
+    pl: "Ile aut kupiła ta firma?"
+    ru: "Сколько машин купила эта фирма?"
+    source: { kind: translated, id: 12450113 }
+  - form: "aut"
+    pl: "Tom postanowił sprzedać Mary jedno ze swych aut."
+    ru: "Том решил продать Мэри одну из своих машин."
+    source: { kind: translated, id: 4573262 }
+  - form: "auta"
+    pl: "Oni nie mają auta."
+    ru: "У них нет машины."
+    source: { kind: tatoeba, id: 2869226 }
+  - form: "auta"
+    pl: "Wynocha z mojego auta!"
+    ru: "Вон из моей машины!"
+    source: { kind: tatoeba, id: 13785995 }
+  - form: "auta"
+    pl: "Potrzebuję twojego auta."
+    ru: "Мне нужна твоя машина."
+    source: { kind: translated, id: 4735528 }
+  - form: "autach"
+    pl: "W tych autach nie ma klimatyzacji."
+    ru: "В этих машинах нет кондиционера."
+    source: { kind: authored }
+  - form: "autach"
+    pl: "Mówili o autach elektrycznych."
+    ru: "Они говорили об электромобилях."
+    source: { kind: authored }
+  - form: "autach"
+    pl: "W obu autach coś stukało."
+    ru: "В обеих машинах что-то стучало."
+    source: { kind: authored }
+  - form: "autami"
+    pl: "Jeżdżą tylko dużymi autami."
+    ru: "Они ездят только на больших машинах."
+    source: { kind: authored }
+  - form: "autami"
+    pl: "Między autami było ciasno."
+    ru: "Между машинами было тесно."
+    source: { kind: authored }
+  - form: "autami"
+    pl: "Wrócił z dwoma autami z giełdy."
+    ru: "Он вернулся с двумя машинами с авторынка."
+    source: { kind: authored }
+  - form: "autem"
+    pl: "Pojechali autem na dworzec."
+    ru: "Они поехали на машине на вокзал."
+    source: { kind: translated, id: 525782 }
+  - form: "autem"
+    pl: "Jedziesz pociągiem czy autem?"
+    ru: "Ты едешь поездом или на машине?"
+    source: { kind: translated, id: 2397829 }
+  - form: "autem"
+    pl: "Czy potrafisz kierować autem?"
+    ru: "Ты умеешь водить машину?"
+    source: { kind: translated, id: 3621955 }
+  - form: "auto"
+    pl: "Tom kupił nowe auto."
+    ru: "Том купил новую машину."
+    source: { kind: tatoeba, id: 3516164 }
+  - form: "auto"
+    pl: "Auto jest gotowe."
+    ru: "Машина готова."
+    source: { kind: translated, id: 1131643 }
+  - form: "auto"
+    pl: "Czyje to auto?"
+    ru: "Чья это машина?"
+    source: { kind: translated, id: 1131653 }
+  - form: "autom"
+    pl: "Przyglądał się autom na parkingu."
+    ru: "Он рассматривал машины на стоянке."
+    source: { kind: authored }
+  - form: "autom"
+    pl: "Dzięki nowym autom firma przyspieszyła."
+    ru: "Благодаря новым машинам фирма ускорилась."
+    source: { kind: authored }
+  - form: "autom"
+    pl: "Nie ufa starym autom."
+    ru: "Он не доверяет старым машинам."
+    source: { kind: authored }
+  - form: "autu"
+    pl: "Przyjrzał się nowemu autu."
+    ru: "Он присмотрелся к новой машине."
+    source: { kind: authored }
+  - form: "autu"
+    pl: "Dzięki temu autu zdążyli na czas."
+    ru: "Благодаря этой машине они успели вовремя."
+    source: { kind: authored }
+  - form: "autu"
+    pl: "Nic temu autu nie brakuje."
+    ru: "Этой машине ничего не недостаёт."
+    source: { kind: authored }
