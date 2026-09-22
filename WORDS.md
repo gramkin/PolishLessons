@@ -29,8 +29,8 @@
 |                 |         |
 | --------------- | ------- |
 | Лемм всего      | **849** |
-| Карточка готова | **301** |
-| В очереди       | **548** |
+| Карточка готова | **305** |
+| В очереди       | **544** |
 | Не в словаре    | **34**  |
 
 ## Обозначения
@@ -217,7 +217,7 @@ pnpm dict:status && pnpm generate
 - wędlina — 🟡 `wędlina` · noun · rank 2083
 - przypalić — 🟡 `przypalić` · verb · rank 2084
 - zdjąć — ✅ [zdjąć](/slovo/zdjac) · verb
-- drużyna — 🟡 `drużyna` · noun · rank 774
+- drużyna — ✅ [drużyna](/slovo/druzyna) · noun
 - przyjrzeć — 🟡 `przyjrzeć` · verb · rank 2047
 - odmiana — 🟡 `odmiana` · noun · rank 2085
 - życzyć — 🟡 `życzyć` · verb · rank 869
@@ -388,7 +388,7 @@ pnpm dict:status && pnpm generate
 - Zauważyłem — ✅ [zauważyć](/slovo/zauwazyc) · verb
 - posądzeniach — 🟡 `posądzenie` · noun · rank 2190
 - **A jednak sam fakt może się wydać błahy.**  
-  <sub>слова: [a](/slovo/a), [jednak](/slovo/jednak), [sam](/slovo/sam), [fakt](/slovo/fakt), [móc](/slovo/moc), [się](/slovo/sie), `wydać`, `błahy`</sub>
+  <sub>слова: [a](/slovo/a), [jednak](/slovo/jednak), [sam](/slovo/sam), [fakt](/slovo/fakt), [móc](/slovo/moc), [się](/slovo/sie), [wydać](/slovo/wydac), `błahy`</sub>
 - **Wiesz, że mam sen lekki, a od chwili, gdym tu przybył w charakterze anioła-stróża, sypiam z otwartymi oczyma, jak zając.**  
   <sub>слова: [wiedzieć](/slovo/wiedziec), [że](/slovo/ze), [mama](/slovo/mama), [sen](/slovo/sen), [lekki](/slovo/lekki), [a](/slovo/a), [od](/slovo/od), [chwila](/slovo/chwila), [gdy](/slovo/gdy), [tu](/slovo/tu), `przybyć`, [w](/slovo/w), `charakter`, `sypiać`, [z](/slovo/z), [otworzyć](/slovo/otworzyc), [oko](/slovo/oko), [jak](/slovo/jak)</sub>
 - błahy — 🟡 `błahy` · adj · rank 2191
@@ -445,7 +445,7 @@ pnpm dict:status && pnpm generate
   <sub>слова: [istnieć](/slovo/istniec), `przeszkoda`</sub>
 - narzucam — 🟡 `narzucać` · verb · rank 2230
 - **Byłem w trudnym położeniu**  
-  <sub>слова: [były](/slovo/byly), [w](/slovo/w), [trudny](/slovo/trudny), `położyć`</sub>
+  <sub>слова: [były](/slovo/byly), [w](/slovo/w), [trudny](/slovo/trudny), [położyć](/slovo/polozyc)</sub>
 - zafrasowany — 🟡 `zafrasować` · verb · rank 2231
 - **odwrócił się**  
   <sub>слова: `odwrócić`, [się](/slovo/sie)</sub>
@@ -549,7 +549,7 @@ pnpm dict:status && pnpm generate
 - schwytać — 🟡 `schwytać` · verb · rank 2312
 - **Takie są przygody ostatniej nocy**  
   <sub>слова: [taki](/slovo/taki), [być](/slovo/byc), `przygoda`, [ostatni](/slovo/ostatni), [noc](/slovo/noc)</sub>
-- odkryć (Postąpiliśmy naprzód na drodze odkryć) — 🟡 `odkryć` · verb · rank 837
+- odkryć (Postąpiliśmy naprzód na drodze odkryć) — ✅ [odkryć](/slovo/odkryc) · verb
 - rzucić (zdołam rzucić na nie światło) — ✅ [rzucić](/slovo/rzucic) · verb
 - **Byłoby najlepiej, gdybyś mógł sam przyjechać**  
   <sub>слова: [być](/slovo/byc), [dobrze](/slovo/dobrze), [gdyby](/slovo/gdyby), [móc](/slovo/moc), [sam](/slovo/sam), [przyjechać](/slovo/przyjechac)</sub>
