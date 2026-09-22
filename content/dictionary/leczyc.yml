@@ -1,0 +1,839 @@
+# review
+id: leczyc
+format: 2
+lemma: "leczyć"
+rank: 626
+pos: verb
+aspect: imperf
+pron: { cyr: "ле́чыць" }
+senses:
+  - id: treat
+    ru: "лечить (кого-л.)"
+    note: "leczyć kogoś — винительный: lekarz leczy pacjenta."
+    examples:
+      - pl: "Tego pacjenta leczył doktor Bell ."
+        ru: "Этого пациента лечил доктор Белл."
+        source: { kind: translated, id: 1896006 }
+      - pl: "Wielu ludzi wierzy, że akupunktura może leczyć choroby."
+        ru: "Многие верят, что иглоукалывание может лечить болезни."
+        source: { kind: translated, id: 3942979 }
+      - pl: "Leczono ich odmrożenia."
+        ru: "Им лечили обморожения."
+        source: { kind: translated, id: 4916161 }
+  - id: heal
+    ru: "исцелять: Czas leczy rany «Время лечит раны»"
+    examples:
+      - pl: "Czas leczy rany."
+        ru: "Время всё лечит."
+        source: { kind: tatoeba, id: 349383 }
+      - pl: "Czas leczy wszystkie rany."
+        ru: "Время лечит все раны."
+        source: { kind: translated, id: 3207161 }
+      - pl: "Czas leczy złamane serca."
+        ru: "Время лечит разбитые сердца."
+        source: { kind: translated, id: 10466826 }
+  - id: be-treated
+    ru: "leczyć się na coś — лечиться от чего-л."
+    note: "Русское «от» отвечает польскому na с винительным."
+    examples:
+      - pl: "Czy kiedykolwiek leczyłeś się na gruźlicę?"
+        ru: "Ты когда-нибудь лечился от туберкулёза?"
+        source: { kind: translated, id: 12040896 }
+      - pl: "Czy kiedykolwiek leczyliście się na gruźlicę?"
+        ru: "Вы когда-нибудь лечились от туберкулёза?"
+        source: { kind: translated, id: 12040898 }
+      - pl: "Z zaziębienia leczyłem się tydzień."
+        ru: "Я неделю лечился от простуды."
+        source: { kind: translated, id: 718988 }
+  - id: treatment
+    ru: "leczenie — лечение"
+    note: "Lepiej zapobiegać niż leczyć «Лучше предупреждать, чем лечить»."
+    examples:
+      - pl: "Leczenie przeziębienia trwało tydzień."
+        ru: "На лечение простуды ушла неделя."
+        source: { kind: tatoeba, id: 1459941 }
+      - pl: "Potrzebujesz leczenia."
+        ru: "Тебе нужно лечение."
+        source: { kind: translated, id: 2519099 }
+      - pl: "Zapobieganie jest o wiele bardziej efektywne niż leczenie."
+        ru: "Профилактика гораздо эффективнее лечения."
+        source: { kind: translated, id: 4769027 }
+notes:
+  - { kind: false-friend, text: "Форма lecz — омоним, и это главная ловушка. Это и повелительное «лечи!», и очень частый союз «но, а»: Nie jestem lekarzem, lecz nauczycielem «Я не врач, а учитель». В живом тексте вам почти всегда попадётся именно союз, а не глагол." }
+  - { kind: government, text: "«Лечить кого-то» — винительный: lekarz leczy pacjenta. А вот «лечиться ОТ чего-то» по-польски leczyć się NA coś, с предлогом na и винительным: leczyć się na gruźlicę «лечиться от туберкулёза». Там, где русский берёт «от», поляк ставит na." }
+  - { kind: usage, text: "Совершенный вид — wyleczyć «вылечить»: wyleczył się z grypy." }
+  - { kind: usage, text: "Существительное — leczenie «лечение»: potrzebujesz leczenia «тебе нужно лечение», w trakcie leczenia «в ходе лечения»." }
+  - { kind: usage, text: "Пословица, которую стоит знать целиком: Lepiej zapobiegać niż leczyć «Лучше предупреждать, чем лечить»." }
+collocations:
+  - { pl: "leczyć się na coś", ru: "лечиться от чего-либо" }
+  - { pl: "Czas leczy rany", ru: "Время лечит раны" }
+  - { pl: "potrzebować leczenia", ru: "нуждаться в лечении" }
+  - { pl: "wyleczyć", ru: "вылечить" }
+family:
+  - { pl: "lek", ru: "лекарство", relation: root }
+  - { pl: "lekarz", ru: "врач", relation: derived }
+  - { pl: "leczenie", ru: "лечение", relation: derived }
+  - { pl: "wyleczyć", ru: "вылечить", relation: aspect }
+etymology: "От lek «лекарство», праславянское *lěkъ — тот же корень, что в русских «лекарство», «лекарь» и «лечить»."
+memory: "leczyć — «лечить», и корень тот же: lek «лекарство». Два места, где легко ошибиться. Первое — управление: «лечиться ОТ чего-то» по-польски будет leczyć się NA coś, с предлогом na и винительным — leczyć się na gruźlicę. Второе — омоним: форма lecz это не только «лечи!», но и очень частый союз «но, а», и в тексте вам почти всегда попадётся именно он: Nie jestem lekarzem, lecz nauczycielem «Я не врач, а учитель»."
+idioms:
+  - { pl: "Czas leczy rany", ru: "Время лечит раны" }
+  - { pl: "Lepiej zapobiegać niż leczyć", ru: "Лучше предупреждать, чем лечить" }
+  - { pl: "leczyć się na coś", ru: "лечиться от чего-либо" }
+formExamples:
+  - form: "lecz"
+    pl: "Lecz się, bo źle wyglądasz."
+    ru: "Лечись, а то ты плохо выглядишь."
+    source: { kind: authored }
+  - form: "lecz"
+    pl: "Lecz najpierw ranę."
+    ru: "Сначала лечи рану."
+    source: { kind: authored }
+  - form: "lecz"
+    pl: "Lecz kaszel, zanim się rozwinie."
+    ru: "Лечи кашель, пока он не разошёлся."
+    source: { kind: authored }
+  - form: "leczą"
+    pl: "Lekarze leczą chorych."
+    ru: "Врачи лечат больных."
+    source: { kind: authored }
+  - form: "leczą"
+    pl: "Leczą tu wyłącznie dzieci."
+    ru: "Здесь лечат исключительно детей."
+    source: { kind: authored }
+  - form: "leczą"
+    pl: "Zioła leczą wiele dolegliwości."
+    ru: "Травы лечат многие недомогания."
+    source: { kind: authored }
+  - form: "lecząc"
+    pl: "Lecząc chorych, sam się zaraził."
+    ru: "Леча больных, он сам заразился."
+    source: { kind: authored }
+  - form: "lecząc"
+    pl: "Lecząc objawy, nie usuniesz przyczyny."
+    ru: "Леча симптомы, причину не устранишь."
+    source: { kind: authored }
+  - form: "lecząc"
+    pl: "Lecząc się, wrócił do formy."
+    ru: "Лечась, он вернулся в форму."
+    source: { kind: authored }
+  - form: "lecząca"
+    pl: "Lecząca go lekarka jest z Krakowa."
+    ru: "Лечащая его врач из Кракова."
+    source: { kind: authored }
+  - form: "lecząca"
+    pl: "To woda lecząca rany."
+    ru: "Это вода, исцеляющая раны."
+    source: { kind: authored }
+  - form: "lecząca"
+    pl: "Lecząca moc ziół jest znana od wieków."
+    ru: "Целебная сила трав известна веками."
+    source: { kind: authored }
+  - form: "leczącą"
+    pl: "Znam lekarkę leczącą dzieci."
+    ru: "Я знаю врача, лечащего детей."
+    source: { kind: authored }
+  - form: "leczącą"
+    pl: "Pił wodę leczącą rany."
+    ru: "Он пил воду, исцеляющую раны."
+    source: { kind: authored }
+  - form: "leczącą"
+    pl: "Uznali tę moc za leczącą."
+    ru: "Эту силу сочли целебной."
+    source: { kind: authored }
+  - form: "leczące"
+    pl: "Zioła leczące kaszel rosną tu wszędzie."
+    ru: "Травы, лечащие кашель, растут здесь везде."
+    source: { kind: authored }
+  - form: "leczące"
+    pl: "To środki leczące objawy."
+    ru: "Это средства, лечащие симптомы."
+    source: { kind: authored }
+  - form: "leczące"
+    pl: "Leczące właściwości tej wody są znane."
+    ru: "Целебные свойства этой воды известны."
+    source: { kind: authored }
+  - form: "leczącego"
+    pl: "Zapytaj lekarza leczącego."
+    ru: "Спроси лечащего врача."
+    source: { kind: authored }
+  - form: "leczącego"
+    pl: "Nie znam specjalisty leczącego tę chorobę."
+    ru: "Я не знаю специалиста, лечащего эту болезнь."
+    source: { kind: authored }
+  - form: "leczącego"
+    pl: "Szukam lekarza leczącego dzieci."
+    ru: "Я ищу врача, лечащего детей."
+    source: { kind: authored }
+  - form: "leczącej"
+    pl: "Zapytaj lekarki leczącej dzieci."
+    ru: "Спроси врача, лечащего детей."
+    source: { kind: authored }
+  - form: "leczącej"
+    pl: "Nie ma tu wody leczącej rany."
+    ru: "Здесь нет воды, исцеляющей раны."
+    source: { kind: authored }
+  - form: "leczącej"
+    pl: "Dzięki leczącej mocy ziół wyzdrowiał."
+    ru: "Благодаря целебной силе трав он выздоровел."
+    source: { kind: authored }
+  - form: "leczącemu"
+    pl: "Zaufaj lekarzowi leczącemu."
+    ru: "Доверься лечащему врачу."
+    source: { kind: authored }
+  - form: "leczącemu"
+    pl: "Powiedz o tym leczącemu cię specjaliście."
+    ru: "Скажи об этом лечащему тебя специалисту."
+    source: { kind: authored }
+  - form: "leczącemu"
+    pl: "Dzięki leczącemu go lekarzowi wyzdrowiał."
+    ru: "Благодаря лечащему его врачу он выздоровел."
+    source: { kind: authored }
+  - form: "leczący"
+    pl: "Lekarz leczący dzieci musi być cierpliwy."
+    ru: "Врач, лечащий детей, должен быть терпеливым."
+    source: { kind: authored }
+  - form: "leczący"
+    pl: "To mój lekarz leczący."
+    ru: "Это мой лечащий врач."
+    source: { kind: authored }
+  - form: "leczący"
+    pl: "Leczący go specjalista przyjechał z Krakowa."
+    ru: "Лечащий его специалист приехал из Кракова."
+    source: { kind: authored }
+  - form: "leczących"
+    pl: "Wśród leczących go lekarzy był specjalista."
+    ru: "Среди лечивших его врачей был специалист."
+    source: { kind: authored }
+  - form: "leczących"
+    pl: "Nie ma tu ziół leczących kaszel."
+    ru: "Здесь нет трав, лечащих кашель."
+    source: { kind: authored }
+  - form: "leczących"
+    pl: "Szukam środków leczących objawy."
+    ru: "Я ищу средства, лечащие симптомы."
+    source: { kind: authored }
+  - form: "leczącym"
+    pl: "Powiedz o tym lekarzom leczącym."
+    ru: "Скажи об этом лечащим врачам."
+    source: { kind: authored }
+  - form: "leczącym"
+    pl: "Rozmawiał z leczącym go specjalistą."
+    ru: "Он говорил с лечащим его специалистом."
+    source: { kind: authored }
+  - form: "leczącym"
+    pl: "W leczącym powietrzu gór szybko wyzdrowiał."
+    ru: "В целебном воздухе гор он быстро выздоровел."
+    source: { kind: authored }
+  - form: "leczącymi"
+    pl: "Rozmawiał z leczącymi go lekarzami."
+    ru: "Он говорил с лечившими его врачами."
+    source: { kind: authored }
+  - form: "leczącymi"
+    pl: "Między leczącymi a diagnozującymi jest różnica."
+    ru: "Между лечащими и диагностирующими есть разница."
+    source: { kind: authored }
+  - form: "leczącymi"
+    pl: "Wrócił z ziołami leczącymi kaszel."
+    ru: "Он вернулся с травами, лечащими кашель."
+    source: { kind: authored }
+  - form: "leczcie"
+    pl: "Leczcie się u dobrego lekarza."
+    ru: "Лечитесь у хорошего врача."
+    source: { kind: authored }
+  - form: "leczcie"
+    pl: "Leczcie przyczynę, nie objawy."
+    ru: "Лечите причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczcie"
+    pl: "Nie leczcie się sami."
+    ru: "Не лечитесь сами."
+    source: { kind: authored }
+  - form: "leczeni"
+    pl: "Chorzy byli leczeni w szpitalu."
+    ru: "Больных лечили в больнице."
+    source: { kind: authored }
+  - form: "leczeni"
+    pl: "Leczeni pacjenci szybko wracali do domu."
+    ru: "Пролеченные пациенты быстро возвращались домой."
+    source: { kind: authored }
+  - form: "leczeni"
+    pl: "Byli leczeni przez najlepszych lekarzy."
+    ru: "Их лечили лучшие врачи."
+    source: { kind: authored }
+  - form: "leczenia"
+    pl: "Potrzebujesz leczenia."
+    ru: "Тебе нужно лечение."
+    source: { kind: translated, id: 2519099 }
+  - form: "leczenia"
+    pl: "Tom potrzebuje leczenia."
+    ru: "Тому нужно лечение."
+    source: { kind: translated, id: 3851804 }
+  - form: "leczenia"
+    pl: "W trakcie leczenia nie wolno pić alkoholu."
+    ru: "Во время лечения нельзя пить алкоголь."
+    source: { kind: authored }
+  - form: "leczenie"
+    pl: "Leczenie przeziębienia trwało tydzień."
+    ru: "На лечение простуды ушла неделя."
+    source: { kind: tatoeba, id: 1459941 }
+  - form: "leczenie"
+    pl: "Zapobieganie jest o wiele bardziej efektywne niż leczenie."
+    ru: "Профилактика гораздо эффективнее лечения."
+    source: { kind: translated, id: 4769027 }
+  - form: "leczenie"
+    pl: "Leczenie pijawkami stosowane jest na świecie od niepamiętnych czasów."
+    ru: "Лечение пиявками применяется в мире с незапамятных времён."
+    source: { kind: translated, id: 7960564 }
+  - form: "leczeniem"
+    pl: "Zajmuje się leczeniem dzieci."
+    ru: "Он занимается лечением детей."
+    source: { kind: authored }
+  - form: "leczeniem"
+    pl: "Przed leczeniem trzeba postawić diagnozę."
+    ru: "Перед лечением надо поставить диагноз."
+    source: { kind: authored }
+  - form: "leczeniem"
+    pl: "Zmęczył się długim leczeniem."
+    ru: "Он устал от долгого лечения."
+    source: { kind: authored }
+  - form: "leczeniu"
+    pl: "Ten lekarz specjalizuje się w leczeniu chorób związanych z jedzeniem."
+    ru: "Этот врач специализируется на лечении болезней, связанных с питанием."
+    source: { kind: translated, id: 1002708 }
+  - form: "leczeniu"
+    pl: "Specjalizuje się w leczeniu dzieci."
+    ru: "Он специализируется на лечении детей."
+    source: { kind: authored }
+  - form: "leczeniu"
+    pl: "Po leczeniu poczuł się lepiej."
+    ru: "После лечения он почувствовал себя лучше."
+    source: { kind: authored }
+  - form: "leczę"
+    pl: "Leczę się na nadciśnienie."
+    ru: "Я лечусь от гипертонии."
+    source: { kind: authored }
+  - form: "leczę"
+    pl: "Leczę chorych od dwudziestu lat."
+    ru: "Я лечу больных двадцать лет."
+    source: { kind: authored }
+  - form: "leczę"
+    pl: "Nie leczę się sam."
+    ru: "Я не лечусь сам."
+    source: { kind: authored }
+  - form: "leczmy"
+    pl: "Leczmy się u dobrego lekarza."
+    ru: "Будем лечиться у хорошего врача."
+    source: { kind: authored }
+  - form: "leczmy"
+    pl: "Leczmy przyczynę, nie objawy."
+    ru: "Будем лечить причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczmy"
+    pl: "Nie leczmy się sami."
+    ru: "Не будем лечиться сами."
+    source: { kind: authored }
+  - form: "leczona"
+    pl: "Była leczona w szpitalu."
+    ru: "Её лечили в больнице."
+    source: { kind: authored }
+  - form: "leczona"
+    pl: "Choroba leczona wcześnie szybko mija."
+    ru: "Болезнь, которую лечат рано, быстро проходит."
+    source: { kind: authored }
+  - form: "leczona"
+    pl: "Rana leczona ziołami zagoiła się."
+    ru: "Рана, которую лечили травами, зажила."
+    source: { kind: authored }
+  - form: "leczoną"
+    pl: "Znam leczoną tu pacjentkę."
+    ru: "Я знаю пациентку, которую здесь лечат."
+    source: { kind: authored }
+  - form: "leczoną"
+    pl: "Uznali chorobę za leczoną."
+    ru: "Болезнь сочли пролеченной."
+    source: { kind: authored }
+  - form: "leczoną"
+    pl: "Widziałem leczoną ziołami ranę."
+    ru: "Я видел рану, которую лечили травами."
+    source: { kind: authored }
+  - form: "leczone"
+    pl: "Dzieci leczone w tym szpitalu szybko zdrowieją."
+    ru: "Дети, которых лечат в этой больнице, быстро выздоравливают."
+    source: { kind: authored }
+  - form: "leczone"
+    pl: "Te choroby są leczone antybiotykami."
+    ru: "Эти болезни лечат антибиотиками."
+    source: { kind: authored }
+  - form: "leczone"
+    pl: "Rany leczone wcześnie goją się lepiej."
+    ru: "Раны, которые лечат рано, заживают лучше."
+    source: { kind: authored }
+  - form: "leczonego"
+    pl: "Nie znam leczonego tu pacjenta."
+    ru: "Я не знаю пациента, которого здесь лечат."
+    source: { kind: authored }
+  - form: "leczonego"
+    pl: "Szukam leczonego u niego chorego."
+    ru: "Я ищу больного, лечившегося у него."
+    source: { kind: authored }
+  - form: "leczonego"
+    pl: "Stan leczonego pacjenta się poprawił."
+    ru: "Состояние лечащегося пациента улучшилось."
+    source: { kind: authored }
+  - form: "leczonej"
+    pl: "Stan leczonej pacjentki się poprawił."
+    ru: "Состояние лечащейся пациентки улучшилось."
+    source: { kind: authored }
+  - form: "leczonej"
+    pl: "Nie ma tu leczonej u nas chorej."
+    ru: "Здесь нет больной, лечившейся у нас."
+    source: { kind: authored }
+  - form: "leczonej"
+    pl: "Po leczonej wcześnie chorobie nie ma śladu."
+    ru: "От рано пролеченной болезни не осталось следа."
+    source: { kind: authored }
+  - form: "leczonemu"
+    pl: "Pomogli leczonemu pacjentowi."
+    ru: "Они помогли лечащемуся пациенту."
+    source: { kind: authored }
+  - form: "leczonemu"
+    pl: "Przyjrzeli się leczonemu choremu."
+    ru: "Они осмотрели лечащегося больного."
+    source: { kind: authored }
+  - form: "leczonemu"
+    pl: "Dzięki leczonemu wcześnie urazowi wrócił do sportu."
+    ru: "Благодаря рано пролеченной травме он вернулся в спорт."
+    source: { kind: authored }
+  - form: "leczono"
+    pl: "Leczono ich odmrożenia."
+    ru: "Им лечили обморожения."
+    source: { kind: translated, id: 4916161 }
+  - form: "leczono"
+    pl: "Leczono go przez pół roku."
+    ru: "Его лечили полгода."
+    source: { kind: authored }
+  - form: "leczono"
+    pl: "Dawniej leczono ziołami."
+    ru: "Раньше лечили травами."
+    source: { kind: authored }
+  - form: "leczony"
+    pl: "Był leczony w szpitalu."
+    ru: "Его лечили в больнице."
+    source: { kind: authored }
+  - form: "leczony"
+    pl: "Pacjent leczony antybiotykami wyzdrowiał."
+    ru: "Пациент, которого лечили антибиотиками, выздоровел."
+    source: { kind: authored }
+  - form: "leczony"
+    pl: "Uraz leczony wcześnie nie zostawia śladu."
+    ru: "Рано пролеченная травма не оставляет следа."
+    source: { kind: authored }
+  - form: "leczonych"
+    pl: "Wśród leczonych pacjentów było wiele dzieci."
+    ru: "Среди лечившихся пациентов было много детей."
+    source: { kind: authored }
+  - form: "leczonych"
+    pl: "Nie ma tu leczonych antybiotykami chorych."
+    ru: "Здесь нет больных, которых лечат антибиотиками."
+    source: { kind: authored }
+  - form: "leczonych"
+    pl: "Liczba leczonych wzrosła."
+    ru: "Число лечащихся выросло."
+    source: { kind: authored }
+  - form: "leczonym"
+    pl: "Pomogli leczonym pacjentom."
+    ru: "Они помогли лечащимся пациентам."
+    source: { kind: authored }
+  - form: "leczonym"
+    pl: "W leczonym wcześnie urazie nie ma nic groźnego."
+    ru: "В рано пролеченной травме нет ничего опасного."
+    source: { kind: authored }
+  - form: "leczonym"
+    pl: "Zajął się leczonym chorym."
+    ru: "Он занялся лечащимся больным."
+    source: { kind: authored }
+  - form: "leczonymi"
+    pl: "Zajęli się leczonymi pacjentami."
+    ru: "Они занялись лечащимися пациентами."
+    source: { kind: authored }
+  - form: "leczonymi"
+    pl: "Między leczonymi a zdrowymi jest różnica."
+    ru: "Между лечащимися и здоровыми есть разница."
+    source: { kind: authored }
+  - form: "leczonymi"
+    pl: "Wrócił z leczonymi dziećmi."
+    ru: "Он вернулся с лечившимися детьми."
+    source: { kind: authored }
+  - form: "leczy"
+    pl: "Czas leczy rany."
+    ru: "Время всё лечит."
+    source: { kind: tatoeba, id: 349383 }
+  - form: "leczy"
+    pl: "Czas leczy wszystkie rany."
+    ru: "Время лечит все раны."
+    source: { kind: translated, id: 3207161 }
+  - form: "leczy"
+    pl: "Czas leczy złamane serca."
+    ru: "Время лечит разбитые сердца."
+    source: { kind: translated, id: 10466826 }
+  - form: "leczycie"
+    pl: "Leczycie tu dzieci?"
+    ru: "Вы лечите здесь детей?"
+    source: { kind: authored }
+  - form: "leczycie"
+    pl: "Czym leczycie gorączkę?"
+    ru: "Чем вы лечите жар?"
+    source: { kind: authored }
+  - form: "leczycie"
+    pl: "Nie leczycie przyczyny."
+    ru: "Вы не лечите причину."
+    source: { kind: authored }
+  - form: "leczyć"
+    pl: "Lepiej zapobiegać niż leczyć."
+    ru: "Лучше предупреждать, чем лечить."
+    source: { kind: translated, id: 357632 }
+  - form: "leczyć"
+    pl: "Wielu ludzi wierzy, że akupunktura może leczyć choroby."
+    ru: "Многие верят, что иглоукалывание может лечить болезни."
+    source: { kind: translated, id: 3942979 }
+  - form: "leczyć"
+    pl: "Trzeba leczyć przyczynę, nie objawy."
+    ru: "Лечить надо причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyli"
+    pl: "Leczyli go przez pół roku."
+    ru: "Они лечили его полгода."
+    source: { kind: authored }
+  - form: "leczyli"
+    pl: "Lekarze leczyli rannych całą noc."
+    ru: "Врачи лечили раненых всю ночь."
+    source: { kind: authored }
+  - form: "leczyli"
+    pl: "Leczyli się u tego samego lekarza."
+    ru: "Они лечились у одного и того же врача."
+    source: { kind: authored }
+  - form: "leczyliby"
+    pl: "Leczyliby go, gdyby przyszedł wcześniej."
+    ru: "Они лечили бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyliby"
+    pl: "Nie leczyliby się sami."
+    ru: "Сами они не лечились бы."
+    source: { kind: authored }
+  - form: "leczyliby"
+    pl: "Leczyliby przyczynę, nie objawy."
+    ru: "Они лечили бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczylibyście"
+    pl: "Leczylibyście go sami?"
+    ru: "Вы лечили бы его сами?"
+    source: { kind: authored }
+  - form: "leczylibyście"
+    pl: "Nie leczylibyście przyczyny."
+    ru: "Вы не лечили бы причину."
+    source: { kind: authored }
+  - form: "leczylibyście"
+    pl: "Leczylibyście się u specjalisty."
+    ru: "Вы лечились бы у специалиста."
+    source: { kind: authored }
+  - form: "leczylibyśmy"
+    pl: "Leczylibyśmy go, gdyby przyszedł wcześniej."
+    ru: "Мы лечили бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczylibyśmy"
+    pl: "Nie leczylibyśmy się sami."
+    ru: "Мы не лечились бы сами."
+    source: { kind: authored }
+  - form: "leczylibyśmy"
+    pl: "Leczylibyśmy przyczynę, nie objawy."
+    ru: "Мы лечили бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyliście"
+    pl: "Czy kiedykolwiek leczyliście się na gruźlicę?"
+    ru: "Вы когда-нибудь лечились от туберкулёза?"
+    source: { kind: translated, id: 12040898 }
+  - form: "leczyliście"
+    pl: "Leczyliście go sami?"
+    ru: "Вы лечили его сами?"
+    source: { kind: authored }
+  - form: "leczyliście"
+    pl: "Czym leczyliście gorączkę?"
+    ru: "Чем вы лечили жар?"
+    source: { kind: authored }
+  - form: "leczyliśmy"
+    pl: "Leczyliśmy go przez miesiąc."
+    ru: "Мы лечили его месяц."
+    source: { kind: authored }
+  - form: "leczyliśmy"
+    pl: "Leczyliśmy się u dobrego lekarza."
+    ru: "Мы лечились у хорошего врача."
+    source: { kind: authored }
+  - form: "leczyliśmy"
+    pl: "Nie leczyliśmy się sami."
+    ru: "Мы не лечились сами."
+    source: { kind: authored }
+  - form: "leczył"
+    pl: "Tego pacjenta leczył doktor Bell ."
+    ru: "Этого пациента лечил доктор Белл."
+    source: { kind: translated, id: 1896006 }
+  - form: "leczył"
+    pl: "Leczył chorych przez trzydzieści lat."
+    ru: "Он лечил больных тридцать лет."
+    source: { kind: authored }
+  - form: "leczył"
+    pl: "Leczył się na serce."
+    ru: "Он лечился от сердца."
+    source: { kind: authored }
+  - form: "leczyła"
+    pl: "Leczyła chorych przez trzydzieści lat."
+    ru: "Она лечила больных тридцать лет."
+    source: { kind: authored }
+  - form: "leczyła"
+    pl: "Leczyła się na serce."
+    ru: "Она лечилась от сердца."
+    source: { kind: authored }
+  - form: "leczyła"
+    pl: "Babcia leczyła nas ziołami."
+    ru: "Бабушка лечила нас травами."
+    source: { kind: authored }
+  - form: "leczyłaby"
+    pl: "Leczyłaby go, gdyby przyszedł wcześniej."
+    ru: "Она лечила бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyłaby"
+    pl: "Nie leczyłaby się sama."
+    ru: "Сама она не лечилась бы."
+    source: { kind: authored }
+  - form: "leczyłaby"
+    pl: "Leczyłaby przyczynę, nie objawy."
+    ru: "Она лечила бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłabym"
+    pl: "Leczyłabym go, gdyby przyszedł wcześniej."
+    ru: "Я лечила бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyłabym"
+    pl: "Nie leczyłabym się sama."
+    ru: "Сама я не лечилась бы."
+    source: { kind: authored }
+  - form: "leczyłabym"
+    pl: "Leczyłabym przyczynę, nie objawy."
+    ru: "Я лечила бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłabyś"
+    pl: "Leczyłabyś go sama?"
+    ru: "Ты лечила бы его сама?"
+    source: { kind: authored }
+  - form: "leczyłabyś"
+    pl: "Nie leczyłabyś przyczyny."
+    ru: "Ты не лечила бы причину."
+    source: { kind: authored }
+  - form: "leczyłabyś"
+    pl: "Leczyłabyś się u specjalisty."
+    ru: "Ты лечилась бы у специалиста."
+    source: { kind: authored }
+  - form: "leczyłam"
+    pl: "Leczyłam go przez miesiąc."
+    ru: "Я лечила его месяц."
+    source: { kind: authored }
+  - form: "leczyłam"
+    pl: "Leczyłam się na nadciśnienie."
+    ru: "Я лечилась от гипертонии."
+    source: { kind: authored }
+  - form: "leczyłam"
+    pl: "Nigdy nie leczyłam się sama."
+    ru: "Я никогда не лечилась сама."
+    source: { kind: authored }
+  - form: "leczyłaś"
+    pl: "Leczyłaś go sama?"
+    ru: "Ты лечила его сама?"
+    source: { kind: authored }
+  - form: "leczyłaś"
+    pl: "Czym leczyłaś gorączkę?"
+    ru: "Чем ты лечила жар?"
+    source: { kind: authored }
+  - form: "leczyłaś"
+    pl: "Leczyłaś się na coś?"
+    ru: "Ты от чего-то лечилась?"
+    source: { kind: authored }
+  - form: "leczyłby"
+    pl: "Leczyłby go, gdyby przyszedł wcześniej."
+    ru: "Он лечил бы его, если бы тот пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyłby"
+    pl: "Nie leczyłby się sam."
+    ru: "Сам он не лечился бы."
+    source: { kind: authored }
+  - form: "leczyłby"
+    pl: "Leczyłby przyczynę, nie objawy."
+    ru: "Он лечил бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłbym"
+    pl: "Leczyłbym go, gdyby przyszedł wcześniej."
+    ru: "Я лечил бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyłbym"
+    pl: "Nie leczyłbym się sam."
+    ru: "Сам я не лечился бы."
+    source: { kind: authored }
+  - form: "leczyłbym"
+    pl: "Leczyłbym przyczynę, nie objawy."
+    ru: "Я лечил бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłbyś"
+    pl: "Leczyłbyś go sam?"
+    ru: "Ты лечил бы его сам?"
+    source: { kind: authored }
+  - form: "leczyłbyś"
+    pl: "Nie leczyłbyś przyczyny."
+    ru: "Ты не лечил бы причину."
+    source: { kind: authored }
+  - form: "leczyłbyś"
+    pl: "Leczyłbyś się u specjalisty."
+    ru: "Ты лечился бы у специалиста."
+    source: { kind: authored }
+  - form: "leczyłem"
+    pl: "Z zaziębienia leczyłem się tydzień."
+    ru: "Я неделю лечился от простуды."
+    source: { kind: translated, id: 718988 }
+  - form: "leczyłem"
+    pl: "Leczyłem go przez miesiąc."
+    ru: "Я лечил его месяц."
+    source: { kind: authored }
+  - form: "leczyłem"
+    pl: "Nigdy nie leczyłem się u niego."
+    ru: "Я никогда не лечился у него."
+    source: { kind: authored }
+  - form: "leczyłeś"
+    pl: "Czy kiedykolwiek leczyłeś się na gruźlicę?"
+    ru: "Ты когда-нибудь лечился от туберкулёза?"
+    source: { kind: translated, id: 12040896 }
+  - form: "leczyłeś"
+    pl: "Leczyłeś go sam?"
+    ru: "Ты лечил его сам?"
+    source: { kind: authored }
+  - form: "leczyłeś"
+    pl: "Czym leczyłeś gorączkę?"
+    ru: "Чем ты лечил жар?"
+    source: { kind: authored }
+  - form: "leczyło"
+    pl: "Dziecko leczyło się przez rok."
+    ru: "Ребёнок лечился год."
+    source: { kind: authored }
+  - form: "leczyło"
+    pl: "Wiele osób leczyło się u niego."
+    ru: "Многие лечились у него."
+    source: { kind: authored }
+  - form: "leczyło"
+    pl: "To lekarstwo leczyło wszystko."
+    ru: "Это лекарство лечило всё."
+    source: { kind: authored }
+  - form: "leczyłoby"
+    pl: "Dziecko leczyłoby się dłużej."
+    ru: "Ребёнок лечился бы дольше."
+    source: { kind: authored }
+  - form: "leczyłoby"
+    pl: "To lekarstwo leczyłoby wszystko."
+    ru: "Это лекарство лечило бы всё."
+    source: { kind: authored }
+  - form: "leczyłoby"
+    pl: "Nic nie leczyłoby go szybciej."
+    ru: "Ничто не лечило бы его быстрее."
+    source: { kind: authored }
+  - form: "leczyły"
+    pl: "Zioła leczyły wiele dolegliwości."
+    ru: "Травы лечили многие недомогания."
+    source: { kind: authored }
+  - form: "leczyły"
+    pl: "Lekarki leczyły rannych całą noc."
+    ru: "Врачи лечили раненых всю ночь."
+    source: { kind: authored }
+  - form: "leczyły"
+    pl: "Dzieci leczyły się przez rok."
+    ru: "Дети лечились год."
+    source: { kind: authored }
+  - form: "leczyłyby"
+    pl: "Zioła leczyłyby wiele dolegliwości."
+    ru: "Травы лечили бы многие недомогания."
+    source: { kind: authored }
+  - form: "leczyłyby"
+    pl: "Nie leczyłyby się same."
+    ru: "Сами они не лечились бы."
+    source: { kind: authored }
+  - form: "leczyłyby"
+    pl: "Leczyłyby przyczynę, nie objawy."
+    ru: "Они лечили бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłybyście"
+    pl: "Leczyłybyście go same?"
+    ru: "Вы лечили бы его сами?"
+    source: { kind: authored }
+  - form: "leczyłybyście"
+    pl: "Nie leczyłybyście przyczyny."
+    ru: "Вы не лечили бы причину."
+    source: { kind: authored }
+  - form: "leczyłybyście"
+    pl: "Leczyłybyście się u specjalisty."
+    ru: "Вы лечились бы у специалиста."
+    source: { kind: authored }
+  - form: "leczyłybyśmy"
+    pl: "Leczyłybyśmy go, gdyby przyszedł wcześniej."
+    ru: "Мы лечили бы его, если бы он пришёл раньше."
+    source: { kind: authored }
+  - form: "leczyłybyśmy"
+    pl: "Nie leczyłybyśmy się same."
+    ru: "Сами мы не лечились бы."
+    source: { kind: authored }
+  - form: "leczyłybyśmy"
+    pl: "Leczyłybyśmy przyczynę, nie objawy."
+    ru: "Мы лечили бы причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczyłyście"
+    pl: "Leczyłyście go same?"
+    ru: "Вы лечили его сами?"
+    source: { kind: authored }
+  - form: "leczyłyście"
+    pl: "Czym leczyłyście gorączkę?"
+    ru: "Чем вы лечили жар?"
+    source: { kind: authored }
+  - form: "leczyłyście"
+    pl: "Leczyłyście się u tego lekarza?"
+    ru: "Вы лечились у этого врача?"
+    source: { kind: authored }
+  - form: "leczyłyśmy"
+    pl: "Leczyłyśmy go przez miesiąc."
+    ru: "Мы лечили его месяц."
+    source: { kind: authored }
+  - form: "leczyłyśmy"
+    pl: "Leczyłyśmy się u dobrego lekarza."
+    ru: "Мы лечились у хорошего врача."
+    source: { kind: authored }
+  - form: "leczyłyśmy"
+    pl: "Nie leczyłyśmy się same."
+    ru: "Сами мы не лечились."
+    source: { kind: authored }
+  - form: "leczymy"
+    pl: "Leczymy tu dzieci."
+    ru: "Мы лечим здесь детей."
+    source: { kind: authored }
+  - form: "leczymy"
+    pl: "Leczymy przyczynę, nie objawy."
+    ru: "Мы лечим причину, а не симптомы."
+    source: { kind: authored }
+  - form: "leczymy"
+    pl: "Nie leczymy się sami."
+    ru: "Мы не лечимся сами."
+    source: { kind: authored }
+  - form: "leczysz"
+    pl: "Leczysz się na coś?"
+    ru: "Ты от чего-то лечишься?"
+    source: { kind: authored }
+  - form: "leczysz"
+    pl: "Czym leczysz kaszel?"
+    ru: "Чем ты лечишь кашель?"
+    source: { kind: authored }
+  - form: "leczysz"
+    pl: "Nie leczysz przyczyny."
+    ru: "Ты не лечишь причину."
+    source: { kind: authored }

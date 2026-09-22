@@ -1,0 +1,723 @@
+# review
+id: zadac
+format: 2
+lemma: "zadać"
+rank: 629
+pos: verb
+aspect: perf
+pron: { cyr: "за́даць" }
+senses:
+  - id: ask
+    ru: "задать (вопрос)"
+    note: "zadać komuś pytanie — дательный плюс винительный, как в русском."
+    examples:
+      - pl: "Czy mogę zadać kolejne pytanie?"
+        ru: "Могу я задать следующий вопрос?"
+        source: { kind: tatoeba, id: 10609197 }
+      - pl: "Nauczyciel zadał mi trudne pytanie."
+        ru: "Учитель задал мне сложный вопрос."
+        source: { kind: tatoeba, id: 720178 }
+      - pl: "Tom zadał Marii wiele pytań."
+        ru: "Том задал Мэри много вопросов."
+        source: { kind: tatoeba, id: 5369972 }
+  - id: assign
+    ru: "задать (урок); zadanie — задание, задача"
+    note: "zadanie domowe «домашнее задание», zadanie matematyczne «задача»."
+    examples:
+      - pl: "Dzisiaj zadali mi dużo lekcji."
+        ru: "Сегодня мне задали много уроков."
+        source: { kind: tatoeba, id: 9803515 }
+      - pl: "Zrobię zadanie domowe."
+        ru: "Я сделаю домашнее задание."
+        source: { kind: tatoeba, id: 1564697 }
+      - pl: "Czy skończyłeś już zadanie domowe?"
+        ru: "Ты уже закончил домашнее задание?"
+        source: { kind: tatoeba, id: 575611 }
+  - id: inflict
+    ru: "причинить, нанести: zadać ból, zadać cios"
+    note: "zadać ból «причинить боль», zadać ranę «нанести рану»."
+    examples:
+      - pl: "Przepraszam za ból, który zadałem tobie i twojej rodzinie."
+        ru: "Прости за боль, которую я причинил тебе и твоей семье."
+        source: { kind: tatoeba, id: 5489462 }
+      - pl: "Zadał przeciwnikowi cios."
+        ru: "Он нанёс противнику удар."
+        source: { kind: authored }
+      - pl: "Nie chciał nikomu zadać bólu."
+        ru: "Он не хотел никому причинить боли."
+        source: { kind: authored }
+  - id: take-trouble
+    ru: "zadać sobie trud — взять на себя труд"
+    examples:
+      - pl: "Dziękuję, że zadałeś sobie trud odprowadzenia mnie."
+        ru: "Спасибо, что взял на себя труд проводить меня."
+        source: { kind: translated, id: 903737 }
+      - pl: "Zadała sobie trud, by wszystko sprawdzić."
+        ru: "Она взяла на себя труд всё проверить."
+        source: { kind: authored }
+      - pl: "Nikt nie zadał sobie trudu, by zapytać."
+        ru: "Никто не взял на себя труд спросить."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "zadać komuś coś — дательный плюс винительный: zadał mi pytanie «задал мне вопрос». Здесь польский и русский совпадают полностью." }
+  - { kind: usage, text: "Несовершенный вид — zadawać: zadawał pytania jedno po drugim «он задавал вопросы одно за другим»." }
+  - { kind: usage, text: "Отглагольное существительное zadanie несёт оба русских значения сразу: zadanie domowe «домашнее задание» и zadanie matematyczne «задача по математике»." }
+  - { kind: usage, text: "Третье значение — «причинить, нанести»: zadać ból «причинить боль», zadać cios «нанести удар», zadać ranę «нанести рану»." }
+  - { kind: usage, text: "Оборот zadać sobie trud значит «взять на себя труд»: Nikt nie zadał sobie trudu, by zapytać." }
+collocations:
+  - { pl: "zadać pytanie", ru: "задать вопрос" }
+  - { pl: "zadanie domowe", ru: "домашнее задание" }
+  - { pl: "zadać ból", ru: "причинить боль" }
+  - { pl: "zadać sobie trud", ru: "взять на себя труд" }
+family:
+  - { pl: "zadawać", ru: "задавать", relation: aspect }
+  - { pl: "dać", ru: "дать", relation: root }
+  - { pl: "zadanie", ru: "задание, задача", relation: derived }
+etymology: "Приставка za- плюс dać «дать», праславянское *dati — то же строение, что у русского «задать»: «за-» плюс «дать»."
+memory: "zadać — «задать», и слово собрано ровно как русское: za- плюс dać. Три значения держатся вместе. Вопрос: zadać pytanie, с дательным и винительным, как по-русски. Урок: zadali mi dużo lekcji, а существительное zadanie несёт сразу оба русских смысла — «задание» и «задача». И третье, которое легко упустить: «причинить, нанести» — zadać ból, zadać cios. Плюс оборот zadać sobie trud «взять на себя труд»."
+idioms:
+  - { pl: "zadać pytanie", ru: "задать вопрос" }
+  - { pl: "zadanie domowe", ru: "домашнее задание" }
+  - { pl: "zadać ból", ru: "причинить боль" }
+  - { pl: "zadać sobie trud", ru: "взять на себя труд" }
+formExamples:
+  - form: "zada"
+    pl: "Kto zada pierwsze pytanie?"
+    ru: "Кто задаст первый вопрос?"
+    source: { kind: authored }
+  - form: "zada"
+    pl: "Nauczyciel zada nam pracę domową."
+    ru: "Учитель задаст нам домашнюю работу."
+    source: { kind: authored }
+  - form: "zada"
+    pl: "Cios zada mu przeciwnik."
+    ru: "Удар нанесёт ему противник."
+    source: { kind: authored }
+  - form: "zadacie"
+    pl: "Zadacie mu to pytanie?"
+    ru: "Вы зададите ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadacie"
+    pl: "Nie zadacie nam pracy domowej?"
+    ru: "Вы не зададите нам домашнюю работу?"
+    source: { kind: authored }
+  - form: "zadacie"
+    pl: "Zadacie sobie trud i sprawdzicie."
+    ru: "Вы возьмёте на себя труд и проверите."
+    source: { kind: authored }
+  - form: "zadać"
+    pl: "Czy mogę zadać kolejne pytanie?"
+    ru: "Могу я задать следующий вопрос?"
+    source: { kind: tatoeba, id: 10609197 }
+  - form: "zadać"
+    pl: "Aby zadać pytanie, należy podnieść rękę."
+    ru: "Чтобы задать вопрос, необходимо поднять руку."
+    source: { kind: tatoeba, id: 13785907 }
+  - form: "zadać"
+    pl: "Tom chciał zadać pytanie, ale uznał, że nie warto."
+    ru: "Том хотел задать вопрос, но решил, что не стоит."
+    source: { kind: tatoeba, id: 4716841 }
+  - form: "zadadzą"
+    pl: "Zadadzą mu kilka pytań."
+    ru: "Они зададут ему несколько вопросов."
+    source: { kind: authored }
+  - form: "zadadzą"
+    pl: "Nie zadadzą nam pracy domowej."
+    ru: "Они не зададут нам домашней работы."
+    source: { kind: authored }
+  - form: "zadadzą"
+    pl: "Zadadzą cios o świcie."
+    ru: "Они нанесут удар на рассвете."
+    source: { kind: authored }
+  - form: "zadaj"
+    pl: "Zadaj swoje pytanie."
+    ru: "Задай свой вопрос."
+    source: { kind: translated, id: 8771243 }
+  - form: "zadaj"
+    pl: "Zadaj mi łatwiejsze pytanie."
+    ru: "Задай мне вопрос полегче."
+    source: { kind: translated, id: 3026053 }
+  - form: "zadaj"
+    pl: "Zadaj to pytanie nauczycielowi."
+    ru: "Задай этот вопрос учителю."
+    source: { kind: authored }
+  - form: "zadajcie"
+    pl: "Zadajcie mu to pytanie."
+    ru: "Задайте ему этот вопрос."
+    source: { kind: authored }
+  - form: "zadajcie"
+    pl: "Nie zadajcie dzieciom zbyt wiele."
+    ru: "Не задавайте детям слишком много."
+    source: { kind: authored }
+  - form: "zadajcie"
+    pl: "Zadajcie sobie trud i sprawdźcie."
+    ru: "Возьмите на себя труд и проверьте."
+    source: { kind: authored }
+  - form: "zadajmy"
+    pl: "Zadajmy mu to pytanie."
+    ru: "Зададим ему этот вопрос."
+    source: { kind: authored }
+  - form: "zadajmy"
+    pl: "Zadajmy sobie trud i sprawdźmy."
+    ru: "Возьмём на себя труд и проверим."
+    source: { kind: authored }
+  - form: "zadajmy"
+    pl: "Zadajmy uczniom mniej pracy."
+    ru: "Зададим ученикам меньше работы."
+    source: { kind: authored }
+  - form: "zadali"
+    pl: "Dzisiaj zadali mi dużo lekcji."
+    ru: "Сегодня мне задали много уроков."
+    source: { kind: tatoeba, id: 9803515 }
+  - form: "zadali"
+    pl: "Zadali nam mnóstwo pytań."
+    ru: "Они задали нам множество вопросов."
+    source: { kind: authored }
+  - form: "zadali"
+    pl: "Zadali cios w najsłabszy punkt."
+    ru: "Они нанесли удар в самое слабое место."
+    source: { kind: authored }
+  - form: "zadaliby"
+    pl: "Zadaliby to pytanie, gdyby mogli."
+    ru: "Они задали бы этот вопрос, если бы могли."
+    source: { kind: authored }
+  - form: "zadaliby"
+    pl: "Nie zadaliby nam pracy domowej."
+    ru: "Они не задали бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadaliby"
+    pl: "Zadaliby cios pierwsi."
+    ru: "Они нанесли бы удар первыми."
+    source: { kind: authored }
+  - form: "zadalibyście"
+    pl: "Zadalibyście mu to pytanie?"
+    ru: "Вы бы задали ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadalibyście"
+    pl: "Nie zadalibyście nam pracy domowej."
+    ru: "Вы не задали бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadalibyście"
+    pl: "Zadalibyście sobie trud?"
+    ru: "Вы взяли бы на себя труд?"
+    source: { kind: authored }
+  - form: "zadalibyśmy"
+    pl: "Zadalibyśmy to pytanie, gdybyśmy mogli."
+    ru: "Мы задали бы этот вопрос, если бы могли."
+    source: { kind: authored }
+  - form: "zadalibyśmy"
+    pl: "Nie zadalibyśmy wam pracy domowej."
+    ru: "Мы не задали бы вам домашней работы."
+    source: { kind: authored }
+  - form: "zadalibyśmy"
+    pl: "Zadalibyśmy sobie trud i sprawdzili."
+    ru: "Мы взяли бы на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadaliście"
+    pl: "Zadaliście mu to pytanie?"
+    ru: "Вы задали ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadaliście"
+    pl: "Nie zadaliście nam pracy domowej."
+    ru: "Вы не задали нам домашней работы."
+    source: { kind: authored }
+  - form: "zadaliście"
+    pl: "Zadaliście sobie trud i sprawdziliście."
+    ru: "Вы взяли на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadaliśmy"
+    pl: "Zadaliśmy mu kilka pytań."
+    ru: "Мы задали ему несколько вопросов."
+    source: { kind: authored }
+  - form: "zadaliśmy"
+    pl: "Nie zadaliśmy wam pracy domowej."
+    ru: "Мы не задали вам домашней работы."
+    source: { kind: authored }
+  - form: "zadaliśmy"
+    pl: "Zadaliśmy sobie trud i sprawdziliśmy."
+    ru: "Мы взяли на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadał"
+    pl: "Nauczyciel zadał mi trudne pytanie."
+    ru: "Учитель задал мне сложный вопрос."
+    source: { kind: tatoeba, id: 720178 }
+  - form: "zadał"
+    pl: "Tom zadał Marii wiele pytań."
+    ru: "Том задал Мэри много вопросов."
+    source: { kind: tatoeba, id: 5369972 }
+  - form: "zadał"
+    pl: "Zadał niezręczne pytanie."
+    ru: "Он задал неловкий вопрос."
+    source: { kind: translated, id: 2679488 }
+  - form: "zadała"
+    pl: "Emily zadała mi pytanie."
+    ru: "Эмили задала мне вопрос."
+    source: { kind: tatoeba, id: 5493498 }
+  - form: "zadała"
+    pl: "Zadała mi pytanie."
+    ru: "Она задала мне вопрос."
+    source: { kind: translated, id: 712364 }
+  - form: "zadała"
+    pl: "Pani zadała uczniom prace domową."
+    ru: "Учительница задала ученикам домашнюю работу."
+    source: { kind: translated, id: 1357137 }
+  - form: "zadałaby"
+    pl: "Zadałaby to pytanie, gdyby mogła."
+    ru: "Она задала бы этот вопрос, если бы могла."
+    source: { kind: authored }
+  - form: "zadałaby"
+    pl: "Nie zadałaby nam pracy domowej."
+    ru: "Она не задала бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałaby"
+    pl: "Zadałaby sobie trud i sprawdziła."
+    ru: "Она взяла бы на себя труд и проверила."
+    source: { kind: authored }
+  - form: "zadałabym"
+    pl: "Zadałabym to pytanie, gdybym mogła."
+    ru: "Я задала бы этот вопрос, если бы могла."
+    source: { kind: authored }
+  - form: "zadałabym"
+    pl: "Nie zadałabym wam pracy domowej."
+    ru: "Я не задала бы вам домашней работы."
+    source: { kind: authored }
+  - form: "zadałabym"
+    pl: "Zadałabym sobie trud i sprawdziła."
+    ru: "Я взяла бы на себя труд и проверила."
+    source: { kind: authored }
+  - form: "zadałabyś"
+    pl: "Zadałabyś mu to pytanie?"
+    ru: "Ты бы задала ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadałabyś"
+    pl: "Nie zadałabyś nam pracy domowej."
+    ru: "Ты не задала бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałabyś"
+    pl: "Zadałabyś sobie trud?"
+    ru: "Ты взяла бы на себя труд?"
+    source: { kind: authored }
+  - form: "zadałam"
+    pl: "Zadałam mu trudne pytanie."
+    ru: "Я задала ему трудный вопрос."
+    source: { kind: authored }
+  - form: "zadałam"
+    pl: "Nie zadałam wam pracy domowej."
+    ru: "Я не задала вам домашней работы."
+    source: { kind: authored }
+  - form: "zadałam"
+    pl: "Zadałam sobie trud i sprawdziłam."
+    ru: "Я взяла на себя труд и проверила."
+    source: { kind: authored }
+  - form: "zadałaś"
+    pl: "Uważam, że zadałaś wystarczającą ilość pytań."
+    ru: "По-моему, ты задала достаточно вопросов."
+    source: { kind: translated, id: 13301291 }
+  - form: "zadałaś"
+    pl: "Zadałaś mi trudne pytanie."
+    ru: "Ты задала мне трудный вопрос."
+    source: { kind: authored }
+  - form: "zadałaś"
+    pl: "Dlaczego zadałaś to pytanie?"
+    ru: "Почему ты задала этот вопрос?"
+    source: { kind: authored }
+  - form: "zadałby"
+    pl: "Zadałby to pytanie, gdyby mógł."
+    ru: "Он задал бы этот вопрос, если бы мог."
+    source: { kind: authored }
+  - form: "zadałby"
+    pl: "Nie zadałby nam pracy domowej."
+    ru: "Он не задал бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałby"
+    pl: "Zadałby cios pierwszy."
+    ru: "Он нанёс бы удар первым."
+    source: { kind: authored }
+  - form: "zadałbym"
+    pl: "Zadałbym to pytanie, gdybym mógł."
+    ru: "Я задал бы этот вопрос, если бы мог."
+    source: { kind: authored }
+  - form: "zadałbym"
+    pl: "Nie zadałbym wam pracy domowej."
+    ru: "Я не задал бы вам домашней работы."
+    source: { kind: authored }
+  - form: "zadałbym"
+    pl: "Zadałbym sobie trud i sprawdził."
+    ru: "Я взял бы на себя труд и проверил."
+    source: { kind: authored }
+  - form: "zadałbyś"
+    pl: "Zadałbyś mu to pytanie?"
+    ru: "Ты бы задал ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadałbyś"
+    pl: "Nie zadałbyś nam pracy domowej."
+    ru: "Ты не задал бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałbyś"
+    pl: "Zadałbyś sobie trud?"
+    ru: "Ты взял бы на себя труд?"
+    source: { kind: authored }
+  - form: "zadałem"
+    pl: "Przepraszam za ból, który zadałem tobie i twojej rodzinie."
+    ru: "Прости за боль, которую я причинил тебе и твоей семье."
+    source: { kind: tatoeba, id: 5489462 }
+  - form: "zadałem"
+    pl: "Zadałem mu pytanie."
+    ru: "Я задал ему вопрос."
+    source: { kind: translated, id: 712428 }
+  - form: "zadałem"
+    pl: "Zadałem jej trudne pytanie."
+    ru: "Я задал ей трудный вопрос."
+    source: { kind: translated, id: 529620 }
+  - form: "zadałeś"
+    pl: "Dziękuję, że zadałeś sobie trud odprowadzenia mnie."
+    ru: "Спасибо, что взял на себя труд проводить меня."
+    source: { kind: translated, id: 903737 }
+  - form: "zadałeś"
+    pl: "Zadałeś mi trudne pytanie."
+    ru: "Ты задал мне трудный вопрос."
+    source: { kind: authored }
+  - form: "zadałeś"
+    pl: "Dlaczego zadałeś to pytanie?"
+    ru: "Почему ты задал этот вопрос?"
+    source: { kind: authored }
+  - form: "zadało"
+    pl: "Dziecko zadało proste pytanie."
+    ru: "Ребёнок задал простой вопрос."
+    source: { kind: authored }
+  - form: "zadało"
+    pl: "Wiele osób zadało to samo pytanie."
+    ru: "Многие задали тот же вопрос."
+    source: { kind: authored }
+  - form: "zadało"
+    pl: "Uderzenie zadało mu ból."
+    ru: "Удар причинил ему боль."
+    source: { kind: authored }
+  - form: "zadałoby"
+    pl: "Dziecko zadałoby proste pytanie."
+    ru: "Ребёнок задал бы простой вопрос."
+    source: { kind: authored }
+  - form: "zadałoby"
+    pl: "To zadałoby mu wiele bólu."
+    ru: "Это причинило бы ему много боли."
+    source: { kind: authored }
+  - form: "zadałoby"
+    pl: "Nic nie zadałoby mu większego cierpienia."
+    ru: "Ничто не причинило бы ему большего страдания."
+    source: { kind: authored }
+  - form: "zadały"
+    pl: "Dzieci zadały mnóstwo pytań."
+    ru: "Дети задали множество вопросов."
+    source: { kind: authored }
+  - form: "zadały"
+    pl: "Rany zadały mu wielki ból."
+    ru: "Раны причинили ему сильную боль."
+    source: { kind: authored }
+  - form: "zadały"
+    pl: "Nauczycielki zadały pracę domową."
+    ru: "Учительницы задали домашнюю работу."
+    source: { kind: authored }
+  - form: "zadałyby"
+    pl: "Dzieci zadałyby mnóstwo pytań."
+    ru: "Дети задали бы множество вопросов."
+    source: { kind: authored }
+  - form: "zadałyby"
+    pl: "Te rany zadałyby wielki ból."
+    ru: "Эти раны причинили бы сильную боль."
+    source: { kind: authored }
+  - form: "zadałyby"
+    pl: "Nie zadałyby nam pracy domowej."
+    ru: "Они не задали бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałybyście"
+    pl: "Zadałybyście mu to pytanie?"
+    ru: "Вы бы задали ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadałybyście"
+    pl: "Nie zadałybyście nam pracy domowej."
+    ru: "Вы не задали бы нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałybyście"
+    pl: "Zadałybyście sobie trud?"
+    ru: "Вы взяли бы на себя труд?"
+    source: { kind: authored }
+  - form: "zadałybyśmy"
+    pl: "Zadałybyśmy to pytanie, gdybyśmy mogły."
+    ru: "Мы задали бы этот вопрос, если бы могли."
+    source: { kind: authored }
+  - form: "zadałybyśmy"
+    pl: "Nie zadałybyśmy wam pracy domowej."
+    ru: "Мы не задали бы вам домашней работы."
+    source: { kind: authored }
+  - form: "zadałybyśmy"
+    pl: "Zadałybyśmy sobie trud i sprawdziły."
+    ru: "Мы взяли бы на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadałyście"
+    pl: "Zadałyście mu to pytanie?"
+    ru: "Вы задали ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadałyście"
+    pl: "Nie zadałyście nam pracy domowej."
+    ru: "Вы не задали нам домашней работы."
+    source: { kind: authored }
+  - form: "zadałyście"
+    pl: "Zadałyście sobie trud i sprawdziłyście."
+    ru: "Вы взяли на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadałyśmy"
+    pl: "Zadałyśmy mu kilka pytań."
+    ru: "Мы задали ему несколько вопросов."
+    source: { kind: authored }
+  - form: "zadałyśmy"
+    pl: "Nie zadałyśmy wam pracy domowej."
+    ru: "Мы не задали вам домашней работы."
+    source: { kind: authored }
+  - form: "zadałyśmy"
+    pl: "Zadałyśmy sobie trud i sprawdziłyśmy."
+    ru: "Мы взяли на себя труд и проверили."
+    source: { kind: authored }
+  - form: "zadam"
+    pl: "Zadam ci te pytania."
+    ru: "Я задам тебе эти вопросы."
+    source: { kind: translated, id: 7703688 }
+  - form: "zadam"
+    pl: "Pozwól, że zadam Tomowi proste pytanie."
+    ru: "Позволь, я задам Тому простой вопрос."
+    source: { kind: translated, id: 3856195 }
+  - form: "zadam"
+    pl: "Miałbyś coś przeciwko jeśli zadam ci pytanie?"
+    ru: "Ты не против, если я задам тебе вопрос?"
+    source: { kind: translated, id: 4837822 }
+  - form: "zadamy"
+    pl: "Zadamy mu kilka pytań."
+    ru: "Мы зададим ему несколько вопросов."
+    source: { kind: authored }
+  - form: "zadamy"
+    pl: "Nie zadamy wam pracy domowej."
+    ru: "Мы не зададим вам домашней работы."
+    source: { kind: authored }
+  - form: "zadamy"
+    pl: "Zadamy sobie trud i sprawdzimy."
+    ru: "Мы возьмём на себя труд и проверим."
+    source: { kind: authored }
+  - form: "zadana"
+    pl: "Praca domowa została zadana wczoraj."
+    ru: "Домашняя работа была задана вчера."
+    source: { kind: authored }
+  - form: "zadana"
+    pl: "Rana zadana nożem długo się goiła."
+    ru: "Рана, нанесённая ножом, долго заживала."
+    source: { kind: authored }
+  - form: "zadana"
+    pl: "Ta lekcja jest zadana na jutro."
+    ru: "Этот урок задан на завтра."
+    source: { kind: authored }
+  - form: "zadaną"
+    pl: "Odrobił zadaną pracę."
+    ru: "Он сделал заданную работу."
+    source: { kind: authored }
+  - form: "zadaną"
+    pl: "Uznali ranę za zadaną nożem."
+    ru: "Рану сочли нанесённой ножом."
+    source: { kind: authored }
+  - form: "zadaną"
+    pl: "Przeczytał zadaną lekturę."
+    ru: "Он прочитал заданное чтение."
+    source: { kind: authored }
+  - form: "zadane"
+    pl: "Mam mnóstwo zadane."
+    ru: "Мне много задано."
+    source: { kind: translated, id: 731969 }
+  - form: "zadane"
+    pl: "Nie mam nic zadane."
+    ru: "Мне ничего не задано."
+    source: { kind: translated, id: 1411967 }
+  - form: "zadane"
+    pl: "Pytanie zostało zadane po angielsku."
+    ru: "Вопрос был задан по-английски."
+    source: { kind: translated, id: 6533123 }
+  - form: "zadane"
+    pl: "Zadane lekcje leżą na biurku."
+    ru: "Заданные уроки лежат на столе."
+    source: { kind: authored }
+  - form: "zadanego"
+    pl: "Nie odrobił zadanego ćwiczenia."
+    ru: "Он не сделал заданное упражнение."
+    source: { kind: authored }
+  - form: "zadanego"
+    pl: "Szukam zadanego tekstu."
+    ru: "Я ищу заданный текст."
+    source: { kind: authored }
+  - form: "zadanego"
+    pl: "Nie pamiętam zadanego tematu."
+    ru: "Я не помню заданную тему."
+    source: { kind: authored }
+  - form: "zadanej"
+    pl: "Nie odrobił zadanej pracy."
+    ru: "Он не сделал заданную работу."
+    source: { kind: authored }
+  - form: "zadanej"
+    pl: "Bez zadanej lektury nic nie zrozumiesz."
+    ru: "Без заданного чтения ты ничего не поймёшь."
+    source: { kind: authored }
+  - form: "zadanej"
+    pl: "Szukali zadanej strony w podręczniku."
+    ru: "Они искали заданную страницу в учебнике."
+    source: { kind: authored }
+  - form: "zadanemu"
+    pl: "Przyjrzał się zadanemu ćwiczeniu."
+    ru: "Он присмотрелся к заданному упражнению."
+    source: { kind: authored }
+  - form: "zadanemu"
+    pl: "Dzięki zadanemu tematowi wiele przeczytał."
+    ru: "Благодаря заданной теме он много прочитал."
+    source: { kind: authored }
+  - form: "zadanemu"
+    pl: "Nie poświęcił uwagi zadanemu materiałowi."
+    ru: "Он не уделил внимания заданному материалу."
+    source: { kind: authored }
+  - form: "zadani"
+    pl: "Zadani pracą uczniowie siedzieli do nocy."
+    ru: "Заваленные заданием ученики сидели до ночи."
+    source: { kind: authored }
+  - form: "zadani"
+    pl: "Zadani obowiązkami, nie mieli czasu."
+    ru: "Загруженные обязанностями, они не имели времени."
+    source: { kind: authored }
+  - form: "zadani"
+    pl: "Zadani pytaniami milczeli."
+    ru: "Засыпанные вопросами, они молчали."
+    source: { kind: authored }
+  - form: "zadania"
+    pl: "Skończyłem zadania domowe."
+    ru: "Я закончил домашние задания."
+    source: { kind: translated, id: 973167 }
+  - form: "zadania"
+    pl: "Szef przydzielił zadania."
+    ru: "Начальник распределил задания."
+    source: { kind: translated, id: 2607565 }
+  - form: "zadania"
+    pl: "Skończyłeś już zadania domowe?"
+    ru: "Ты уже закончил домашние задания?"
+    source: { kind: translated, id: 832534 }
+  - form: "zadanie"
+    pl: "Zrobię zadanie domowe."
+    ru: "Я сделаю домашнее задание."
+    source: { kind: tatoeba, id: 1564697 }
+  - form: "zadanie"
+    pl: "Czy skończyłeś już zadanie domowe?"
+    ru: "Ты уже закончил домашнее задание?"
+    source: { kind: tatoeba, id: 575611 }
+  - form: "zadanie"
+    pl: "Uważam swoje zadanie za wykonane."
+    ru: "Я считаю свою задачу выполненной."
+    source: { kind: tatoeba, id: 12624975 }
+  - form: "zadaniem"
+    pl: "Dzięki za pomoc z zadaniem domowym."
+    ru: "Спасибо за помощь с домашним заданием."
+    source: { kind: tatoeba, id: 3610570 }
+  - form: "zadaniem"
+    pl: "Zadaniem studenta jest się uczyć."
+    ru: "Задача студента — учиться."
+    source: { kind: translated, id: 525520 }
+  - form: "zadaniem"
+    pl: "Zadaniem żołnierzy było zniszczenie tego mostu."
+    ru: "Задачей солдат было разрушить этот мост."
+    source: { kind: translated, id: 349568 }
+  - form: "zadaniu"
+    pl: "Mój brat pomógł mi w zadaniu domowym."
+    ru: "Брат помог мне с домашним заданием."
+    source: { kind: translated, id: 3486556 }
+  - form: "zadaniu"
+    pl: "Nie mogę się połapać w tym zadaniu."
+    ru: "Я не могу разобраться в этой задаче."
+    source: { kind: translated, id: 13661930 }
+  - form: "zadaniu"
+    pl: "Tom chce, żebyś pomógł mu w zadaniu domowym."
+    ru: "Том хочет, чтобы ты помог ему с домашним заданием."
+    source: { kind: translated, id: 4017749 }
+  - form: "zadano"
+    pl: "Każdemu uczniowi zadano jedno pytanie."
+    ru: "Каждому ученику задали один вопрос."
+    source: { kind: translated, id: 349598 }
+  - form: "zadano"
+    pl: "Zadano mi trudne pytanie."
+    ru: "Мне задали трудный вопрос."
+    source: { kind: authored }
+  - form: "zadano"
+    pl: "Zadano uczniom pracę domową."
+    ru: "Ученикам задали домашнюю работу."
+    source: { kind: authored }
+  - form: "zadany"
+    pl: "Zadany temat okazał się trudny."
+    ru: "Заданная тема оказалась трудной."
+    source: { kind: authored }
+  - form: "zadany"
+    pl: "Cios zadany z bliska był groźny."
+    ru: "Удар, нанесённый с близкого расстояния, был опасен."
+    source: { kind: authored }
+  - form: "zadany"
+    pl: "Zadany materiał trzeba powtórzyć."
+    ru: "Заданный материал надо повторить."
+    source: { kind: authored }
+  - form: "zadanych"
+    pl: "Nie odrobił zadanych ćwiczeń."
+    ru: "Он не сделал заданные упражнения."
+    source: { kind: authored }
+  - form: "zadanych"
+    pl: "Wśród zadanych pytań było kilka trudnych."
+    ru: "Среди заданных вопросов было несколько трудных."
+    source: { kind: authored }
+  - form: "zadanych"
+    pl: "Nie ma tu zadanych lektur."
+    ru: "Заданного чтения здесь нет."
+    source: { kind: authored }
+  - form: "zadanym"
+    pl: "W zadanym temacie nie ma nic trudnego."
+    ru: "В заданной теме нет ничего трудного."
+    source: { kind: authored }
+  - form: "zadanym"
+    pl: "Zajął się zadanym ćwiczeniem."
+    ru: "Он занялся заданным упражнением."
+    source: { kind: authored }
+  - form: "zadanym"
+    pl: "Odpowiedział zadanym pytaniom bez wahania."
+    ru: "Он ответил на заданные вопросы без колебаний."
+    source: { kind: authored }
+  - form: "zadanymi"
+    pl: "Zajęli się zadanymi ćwiczeniami."
+    ru: "Они занялись заданными упражнениями."
+    source: { kind: authored }
+  - form: "zadanymi"
+    pl: "Między zadanymi a dodatkowymi zadaniami jest różnica."
+    ru: "Между заданными и дополнительными задачами есть разница."
+    source: { kind: authored }
+  - form: "zadanymi"
+    pl: "Wrócił z zadanymi lekturami."
+    ru: "Он вернулся с заданным чтением."
+    source: { kind: authored }
+  - form: "zadasz"
+    pl: "Zadasz mu to pytanie?"
+    ru: "Ты задашь ему этот вопрос?"
+    source: { kind: authored }
+  - form: "zadasz"
+    pl: "Nie zadasz mi trudnego pytania."
+    ru: "Ты не задашь мне трудного вопроса."
+    source: { kind: authored }
+  - form: "zadasz"
+    pl: "Zadasz sobie trud i sprawdzisz."
+    ru: "Ты возьмёшь на себя труд и проверишь."
+    source: { kind: authored }
+  - form: "zadawszy"
+    pl: "Zadawszy pytanie, czekał na odpowiedź."
+    ru: "Задав вопрос, он ждал ответа."
+    source: { kind: authored }
+  - form: "zadawszy"
+    pl: "Zadawszy cios, cofnął się."
+    ru: "Нанеся удар, он отступил."
+    source: { kind: authored }
+  - form: "zadawszy"
+    pl: "Zadawszy sobie trud, wszystko sprawdził."
+    ru: "Взяв на себя труд, он всё проверил."
+    source: { kind: authored }
