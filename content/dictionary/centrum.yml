@@ -1,0 +1,90 @@
+# review
+id: centrum
+format: 2
+lemma: "centrum"
+rank: 1008
+pos: noun
+pron: { cyr: "цэ́нтрум" }
+senses:
+  - id: centre
+    ru: "центр (города)"
+    examples:
+      - pl: "Tramwaj odwiezie cię do centrum."
+        ru: "Трамвай отвезёт тебя в центр."
+        source: { kind: translated, id: 10138170 }
+      - pl: "W centrum Kioto był ogromny korek."
+        ru: "В центре Киото была огромная пробка."
+        source: { kind: translated, id: 1180609 }
+      - pl: "Dworzec znajduje się w centrum miasta."
+        ru: "Вокзал находится в центре города."
+        source: { kind: translated, id: 1354588 }
+  - id: middle
+    ru: "середина, центр (чего-то)"
+    examples:
+      - pl: "Kościół znajduje się w centrum wsi."
+        ru: "Церковь находится в центре деревни."
+        source: { kind: translated, id: 3683325 }
+      - pl: "Stół stoi w centrum pokoju."
+        ru: "Стол стоит в центре комнаты."
+        source: { kind: authored }
+      - pl: "To jest w samym centrum wydarzeń."
+        ru: "Это в самом центре событий."
+        source: { kind: authored }
+  - id: facility
+    ru: "centrum handlowe — торговый центр"
+    examples:
+      - pl: "Gdzie jest najbliższe centrum handlowe?"
+        ru: "Где ближайший торговый центр?"
+        source: { kind: translated, id: 357288 }
+      - pl: "Idziemy do centrum handlowego."
+        ru: "Мы идём в торговый центр."
+        source: { kind: authored }
+      - pl: "W mieście otwarto centrum kultury."
+        ru: "В городе открыли центр культуры."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "В единственном числе слово не склоняется: w centrum, do centrum, z centrum — форма всегда одна. Русское «центр» склоняется, польское нет, и это главная особенность." }
+  - { kind: usage, text: "Множественное число неправильное и книжное: centra, centrów. В обычной речи оно почти не встречается." }
+  - { kind: usage, text: "centrum handlowe «торговый центр», centrum miasta «центр города», centrum kultury «центр культуры» — прилагательное при этом склоняется обычно." }
+  - { kind: usage, text: "Синоним для «середины» — środek. Но «центр города» будет только centrum, а не środek miasta." }
+collocations:
+  - { pl: "centrum miasta", ru: "центр города" }
+  - { pl: "centrum handlowe", ru: "торговый центр" }
+  - { pl: "w centrum", ru: "в центре" }
+  - { pl: "do centrum", ru: "в центр" }
+family:
+  - { pl: "centralny", ru: "центральный", relation: derived }
+  - { pl: "środek", ru: "середина", relation: root }
+etymology: "Из латинского centrum «середина» — тем же путём, что и русский «центр». Но польский оставил слово несклоняемым в единственном числе."
+memory: "centrum — «центр», и главная особенность не значение, а склонение: в единственном числе слово не меняется совсем. W centrum, do centrum, z centrum — форма одна и та же."
+idioms:
+  - { pl: "centrum miasta", ru: "центр города" }
+  - { pl: "centrum handlowe", ru: "торговый центр" }
+  - { pl: "w centrum uwagi", ru: "в центре внимания" }
+formExamplesSkip:
+  - { form: "centra", reason: "в единственном числе слово не склоняется, а множественное число (centra, centrów) книжное и в живой речи почти не встречается" }
+  - { form: "centrach", reason: "в единственном числе слово не склоняется, а множественное число (centra, centrów) книжное и в живой речи почти не встречается" }
+  - { form: "centrami", reason: "в единственном числе слово не склоняется, а множественное число (centra, centrów) книжное и в живой речи почти не встречается" }
+  - { form: "centrom", reason: "в единственном числе слово не склоняется, а множественное число (centra, centrów) книжное и в живой речи почти не встречается" }
+  - { form: "centrów", reason: "в единственном числе слово не склоняется, а множественное число (centra, centrów) книжное и в живой речи почти не встречается" }
+formExamples:
+  - form: "centrum"
+    pl: "Tramwaj odwiezie cię do centrum."
+    ru: "Трамвай отвезёт тебя в центр."
+    source: { kind: translated, id: 10138170 }
+  - form: "centrum"
+    pl: "W centrum Kioto był ogromny korek."
+    ru: "В центре Киото была огромная пробка."
+    source: { kind: translated, id: 1180609 }
+  - form: "centrum"
+    pl: "Kościół znajduje się w centrum wsi."
+    ru: "Церковь находится в центре деревни."
+    source: { kind: translated, id: 3683325 }
+  - form: "centrum"
+    pl: "Dworzec znajduje się w centrum miasta."
+    ru: "Вокзал находится в центре города."
+    source: { kind: translated, id: 1354588 }
+  - form: "centrum"
+    pl: "Gdzie jest najbliższe centrum handlowe?"
+    ru: "Где ближайший торговый центр?"
+    source: { kind: translated, id: 357288 }

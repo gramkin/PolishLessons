@@ -1,0 +1,147 @@
+# review
+id: lek
+format: 2
+lemma: "lek"
+rank: 1014
+pos: noun
+pron: { cyr: "лек" }
+senses:
+  - id: medicine
+    ru: "лекарство"
+    examples:
+      - pl: "Potrzebny mi lek na kaszel."
+        ru: "Мне нужно лекарство от кашля."
+        source: { kind: translated, id: 821038 }
+      - pl: "Ten lek ci pomoże."
+        ru: "Это лекарство тебе поможет."
+        source: { kind: translated, id: 821053 }
+      - pl: "Lek zadziałał."
+        ru: "Лекарство подействовало."
+        source: { kind: translated, id: 8903271 }
+  - id: for-what
+    ru: "lek na coś — лекарство от чего-то"
+    note: "Предлог na с винительным, тогда как русский берёт «от» с родительным."
+    examples:
+      - pl: "Antybiotyki są lekiem na infekcje."
+        ru: "Антибиотики — лекарство от инфекций."
+        source: { kind: translated, id: 3942978 }
+      - pl: "Nie możesz kupić tego leku bez recepty."
+        ru: "Ты не можешь купить это лекарство без рецепта."
+        source: { kind: translated, id: 2189394 }
+      - pl: "Dlaczego bierzesz ten lek?"
+        ru: "Почему ты принимаешь это лекарство?"
+        source: { kind: translated, id: 8767752 }
+  - id: plural
+    ru: "leki — лекарства"
+    examples:
+      - pl: "Lekarz przepisał mu leki."
+        ru: "Врач прописал ему лекарства."
+        source: { kind: translated, id: 3464063 }
+      - pl: "Zapisz na tej kartce leki, których potrzebujesz."
+        ru: "Запишите на этом листе нужные вам лекарства."
+        source: { kind: translated, id: 10695711 }
+      - pl: "Muszę wziąć leki."
+        ru: "Мне надо принять лекарства."
+        source: { kind: translated, id: 3887848 }
+notes:
+  - { kind: false-friend, text: "Не путайте lek «лекарство» и lęk «страх, тревога» — это разные слова, которые различает только носовая ę. Mam lek «У меня есть лекарство», но Mam lęk «У меня тревога»." }
+  - { kind: government, text: "lek NA coś — «лекарство ОТ чего-то», с предлогом na и винительным падежом: lek na kaszel «лекарство от кашля». Русское «от» с родительным здесь не работает." }
+  - { kind: usage, text: "Синоним — lekarstwo, оно чуть более разговорное. Однокоренные: lekarz «врач», leczyć «лечить», leczenie «лечение»." }
+  - { kind: usage, text: "Не путайте корень и с прилагательным lekki «лёгкий» — там другое слово и другое происхождение." }
+collocations:
+  - { pl: "lek na kaszel", ru: "лекарство от кашля" }
+  - { pl: "brać leki", ru: "принимать лекарства" }
+  - { pl: "przepisać leki", ru: "прописать лекарства" }
+  - { pl: "bez recepty", ru: "без рецепта" }
+family:
+  - { pl: "lekarz", ru: "врач", relation: root, id: lekarz }
+  - { pl: "leczyć", ru: "лечить", relation: derived }
+  - { pl: "lekarstwo", ru: "лекарство", relation: derived }
+etymology: "Праславянское *lěkъ, заимствованное из германского. Русские «лекарь» и «лекарство» — из того же источника, так что корень общий."
+memory: "lek — «лекарство», и главное тут два различения. Во-первых, lek «лекарство» против lęk «страх» — разница только в носовой ę. Во-вторых, падеж: lek NA coś, с предлогом na и винительным."
+idioms:
+  - { pl: "lek na kaszel", ru: "лекарство от кашля" }
+  - { pl: "brać leki", ru: "принимать лекарства" }
+  - { pl: "lek bez recepty", ru: "лекарство без рецепта" }
+formExamplesSkip:
+  - { form: "leka", reason: "родительный падеж единственного числа: в живой речи берут форму leku" }
+  - { form: "lekach", reason: "предложный падеж множественного числа в живой речи почти не встречается" }
+  - { form: "lekom", reason: "дательный падеж множественного числа встречается крайне редко" }
+  - { form: "lekowi", reason: "дательный падеж единственного числа в живой речи почти не встречается" }
+formExamples:
+  - form: "lek"
+    pl: "Potrzebny mi lek na kaszel."
+    ru: "Мне нужно лекарство от кашля."
+    source: { kind: translated, id: 821038 }
+  - form: "lek"
+    pl: "Lek zadziałał."
+    ru: "Лекарство подействовало."
+    source: { kind: translated, id: 8903271 }
+  - form: "lek"
+    pl: "Ten lek ci pomoże."
+    ru: "Это лекарство тебе поможет."
+    source: { kind: translated, id: 821053 }
+  - form: "lek"
+    pl: "Dlaczego bierzesz ten lek?"
+    ru: "Почему ты принимаешь это лекарство?"
+    source: { kind: translated, id: 8767752 }
+  - form: "lekami"
+    pl: "Kolesia skazano za bezprawny handel lekami."
+    ru: "Парня осудили за незаконную торговлю лекарствами."
+    source: { kind: translated, id: 13897026 }
+  - form: "lekami"
+    pl: "Handel lekami jest kontrolowany."
+    ru: "Торговля лекарствами контролируется."
+    source: { kind: authored }
+  - form: "lekami"
+    pl: "Leczy go silnymi lekami."
+    ru: "Он лечит его сильными лекарствами."
+    source: { kind: authored }
+  - form: "leki"
+    pl: "Lekarz przepisał mu leki."
+    ru: "Врач прописал ему лекарства."
+    source: { kind: translated, id: 3464063 }
+  - form: "leki"
+    pl: "Zapisz na tej kartce leki, których potrzebujesz."
+    ru: "Запишите на этом листе нужные вам лекарства."
+    source: { kind: translated, id: 10695711 }
+  - form: "leki"
+    pl: "Muszę wziąć leki."
+    ru: "Мне надо принять лекарства."
+    source: { kind: translated, id: 3887848 }
+  - form: "lekiem"
+    pl: "Antybiotyki są lekiem na infekcje."
+    ru: "Антибиотики — лекарство от инфекций."
+    source: { kind: translated, id: 3942978 }
+  - form: "lekiem"
+    pl: "Czas bywa najlepszym lekiem."
+    ru: "Время бывает лучшим лекарством."
+    source: { kind: authored }
+  - form: "lekiem"
+    pl: "Leczy się nowym lekiem."
+    ru: "Он лечится новым лекарством."
+    source: { kind: authored }
+  - form: "leków"
+    pl: "Cierpisz na choroby, które wymagają podawania leków?"
+    ru: "Страдаете ли вы болезнями, требующими приёма лекарств?"
+    source: { kind: translated, id: 10695709 }
+  - form: "leków"
+    pl: "Potrzebuję tych leków."
+    ru: "Мне нужны эти лекарства."
+    source: { kind: translated, id: 2470656 }
+  - form: "leków"
+    pl: "Choroba może ustąpić pod wpływem leków."
+    ru: "Болезнь может отступить под действием лекарств."
+    source: { kind: translated, id: 914755 }
+  - form: "leku"
+    pl: "Działanie tego leku było zadziwiające."
+    ru: "Действие этого лекарства было поразительным."
+    source: { kind: translated, id: 959694 }
+  - form: "leku"
+    pl: "Nie możesz kupić tego leku bez recepty."
+    ru: "Ты не можешь купить это лекарство без рецепта."
+    source: { kind: translated, id: 2189394 }
+  - form: "leku"
+    pl: "Postaram się stopniowo zmniejszać dawkę leku."
+    ru: "Я постараюсь постепенно уменьшать дозу лекарства."
+    source: { kind: translated, id: 6381367 }

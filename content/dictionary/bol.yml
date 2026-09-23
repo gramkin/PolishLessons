@@ -1,0 +1,135 @@
+# review
+id: bol
+format: 2
+lemma: "ból"
+rank: 1005
+pos: noun
+pron: { cyr: "буль" }
+senses:
+  - id: pain
+    ru: "боль"
+    examples:
+      - pl: "Ból był straszny."
+        ru: "Боль была ужасная."
+        source: { kind: translated, id: 354672 }
+      - pl: "Ból był nieznośny."
+        ru: "Боль была невыносимой."
+        source: { kind: translated, id: 362988 }
+      - pl: "Mężczyzna jęczał z bólu."
+        ru: "Мужчина стонал от боли."
+        source: { kind: translated, id: 6306798 }
+  - id: headache
+    ru: "ból głowy, ból zęba — головная, зубная боль"
+    examples:
+      - pl: "Mam lekki ból głowy."
+        ru: "У меня лёгкая головная боль."
+        source: { kind: translated, id: 4731749 }
+      - pl: "Miał silny ból głowy."
+        ru: "У него сильно болела голова."
+        source: { kind: translated, id: 364513 }
+      - pl: "Mam silny ból zęba."
+        ru: "У меня сильно болит зуб."
+        source: { kind: translated, id: 10584417 }
+  - id: from-pain
+    ru: "z bólu — от боли"
+    examples:
+      - pl: "Krzyczał z bólu."
+        ru: "Он кричал от боли."
+        source: { kind: translated, id: 830379 }
+      - pl: "Cierpiał z bólu."
+        ru: "Он страдал от боли."
+        source: { kind: translated, id: 403726 }
+      - pl: "Ta wiadomość sprawiła jej dużo bólu."
+        ru: "Эта весть причинила ей много боли."
+        source: { kind: translated, id: 3460235 }
+notes:
+  - { kind: false-friend, text: "Род не совпадает: польское ból мужского рода (ten ból, silny ból), а русское «боль» женского. Сказать «ta ból» нельзя." }
+  - { kind: usage, text: "ból głowy «головная боль», ból zęba «зубная боль» — с родительным падежом, буквально «боль головы, боль зуба»." }
+  - { kind: usage, text: "Два способа сказать одно: Mam ból głowy «У меня головная боль» и Boli mnie głowa «У меня болит голова». Второй в живой речи чаще." }
+  - { kind: usage, text: "Множественное bóle значит «боли»: Mam silne bóle «У меня сильные боли». Родительный множественного в живой речи — bóli." }
+collocations:
+  - { pl: "ból głowy", ru: "головная боль" }
+  - { pl: "ból zęba", ru: "зубная боль" }
+  - { pl: "z bólu", ru: "от боли" }
+  - { pl: "silny ból", ru: "сильная боль" }
+family:
+  - { pl: "boleć", ru: "болеть", relation: root, id: bolec }
+  - { pl: "bolesny", ru: "болезненный", relation: derived }
+  - { pl: "boleśnie", ru: "болезненно", relation: derived }
+etymology: "Праславянское *bolь — то же слово, что русская «боль». Разошёлся только род: в польском оно мужское, ten ból."
+memory: "ból — «боль», но мужского рода: ten ból, silny ból, z bólu. Запомните ból głowy «головная боль» с родительным и то, что чаще скажут Boli mnie głowa."
+idioms:
+  - { pl: "ból głowy", ru: "головная боль" }
+  - { pl: "pękać z bólu", ru: "разрываться от боли" }
+  - { pl: "przyprawiać o ból głowy", ru: "доставлять головную боль" }
+formExamplesSkip:
+  - { form: "bólach", reason: "предложный падеж множественного числа в живой речи почти не встречается" }
+  - { form: "bólami", reason: "творительный падеж множественного числа в живой речи почти не встречается" }
+  - { form: "bólom", reason: "дательный падеж множественного числа встречается крайне редко" }
+  - { form: "bólowi", reason: "дательный падеж единственного числа в живой речи почти не встречается" }
+  - { form: "bólów", reason: "вариант родительного падежа множественного числа: в живой речи берут форму bóli" }
+formExamples:
+  - form: "ból"
+    pl: "Ból był straszny."
+    ru: "Боль была ужасная."
+    source: { kind: translated, id: 354672 }
+  - form: "ból"
+    pl: "Ból był nieznośny."
+    ru: "Боль была невыносимой."
+    source: { kind: translated, id: 362988 }
+  - form: "ból"
+    pl: "Mam silny ból zęba."
+    ru: "У меня сильно болит зуб."
+    source: { kind: translated, id: 10584417 }
+  - form: "ból"
+    pl: "Mam lekki ból głowy."
+    ru: "У меня лёгкая головная боль."
+    source: { kind: translated, id: 4731749 }
+  - form: "bóle"
+    pl: "Dokuczają mi nieznośne bóle."
+    ru: "У меня невыносимые боли."
+    source: { kind: translated, id: 2894983 }
+  - form: "bóle"
+    pl: "On ma bóle głowy."
+    ru: "У него головные боли."
+    source: { kind: translated, id: 1660302 }
+  - form: "bóle"
+    pl: "Tom ma silne bóle."
+    ru: "У Тома сильные боли."
+    source: { kind: translated, id: 10055500 }
+  - form: "bólem"
+    pl: "Tom obudził się z bólem głowy."
+    ru: "Том проснулся с головной болью."
+    source: { kind: translated, id: 2395758 }
+  - form: "bólem"
+    pl: "Tom obudził się z okropnym bólem głowy."
+    ru: "Том проснулся с жуткой головной болью."
+    source: { kind: translated, id: 2681027 }
+  - form: "bólem"
+    pl: "Obawiam się, że musisz nauczyć się żyć z bólem."
+    ru: "Боюсь, тебе придётся научиться жить с болью."
+    source: { kind: translated, id: 973155 }
+  - form: "bóli"
+    pl: "Dostał ostrych bóli żołądka."
+    ru: "У него начались острые боли в животе."
+    source: { kind: translated, id: 4725732 }
+  - form: "bóli"
+    pl: "Doznał silnych bóli brzucha."
+    ru: "Он испытал сильные боли в животе."
+    source: { kind: authored }
+  - form: "bóli"
+    pl: "Po operacji nie miał bóli."
+    ru: "После операции у него не было болей."
+    source: { kind: authored }
+  - form: "bólu"
+    pl: "Mężczyzna jęczał z bólu."
+    ru: "Мужчина стонал от боли."
+    source: { kind: translated, id: 6306798 }
+  - form: "bólu"
+    pl: "Ta wiadomość sprawiła jej dużo bólu."
+    ru: "Эта весть причинила ей много боли."
+    source: { kind: translated, id: 3460235 }
+  - form: "bólu"
+    pl: "Krzyczał z bólu."
+    ru: "Он кричал от боли."
+    source: { kind: translated, id: 830379 }
