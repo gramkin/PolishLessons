@@ -1,0 +1,59 @@
+# review
+id: pomiedzy
+format: 2
+lemma: "pomiędzy"
+rank: 1122
+pos: prep
+pron: { cyr: "поме́ндзы" }
+senses:
+  - id: between
+    ru: "между (о положении)"
+    examples:
+      - pl: "Zostaw miejsce pomiędzy liniami."
+        ru: "Оставь место между линиями."
+        source: { kind: tatoeba, id: 1353789 }
+      - pl: "Dworzec leży pomiędzy tymi dwoma miastami."
+        ru: "Вокзал находится между этими двумя городами."
+        source: { kind: translated, id: 352445 }
+      - pl: "Pomiędzy braćmi jest silna więź."
+        ru: "Между братьями крепкая связь."
+        source: { kind: translated, id: 482731 }
+  - id: choice
+    ru: "между (о выборе и различии)"
+    examples:
+      - pl: "Muszę wybrać pomiędzy tymi dwoma."
+        ru: "Я должен выбрать между этими двумя."
+        source: { kind: translated, id: 4834438 }
+      - pl: "Nie powinno być pomiędzy nami żadnych tajemnic."
+        ru: "Между нами не должно быть никаких секретов."
+        source: { kind: tatoeba, id: 4740497 }
+notes:
+  - { kind: usage, text: "pomiędzy — усиленный вариант предлога między, значение у них одно и то же. Приставка po- добавляет только оттенок книжности." }
+  - { kind: government, text: "Падежи те же, что у między: с творительным о положении (pomiędzy domami «между домами»), с винительным о направлении (wejść pomiędzy ludzi «войти в толпу»)." }
+  - { kind: usage, text: "В живой речи чаще говорят między; pomiędzy привычнее в письменной и официальной." }
+  - { kind: usage, text: "czytać pomiędzy wierszami «читать между строк» — оборот совпадает с русским." }
+collocations:
+  - { pl: "pomiędzy nami", ru: "между нами" }
+  - { pl: "pomiędzy wierszami", ru: "между строк" }
+  - { pl: "wybierać pomiędzy", ru: "выбирать между" }
+family:
+  - { pl: "między", ru: "между", relation: root, id: miedzy }
+  - { pl: "pośród", ru: "среди", relation: derived }
+etymology: "Приставка po- плюс między «между», а то — от miedza «межа». Русское «между» происходит от той же «межи»."
+memory: "pomiędzy — то же самое, что między «между», только чуть книжнее. Падежи те же: творительный о положении, винительный о направлении. В разговоре чаще скажут просто między."
+idioms:
+  - { pl: "czytać pomiędzy wierszami", ru: "читать между строк" }
+  - { pl: "pomiędzy nami", ru: "между нами" }
+formExamples:
+  - form: "pomiędzy"
+    pl: "Zostaw miejsce pomiędzy liniami."
+    ru: "Оставь место между линиями."
+    source: { kind: tatoeba, id: 1353789 }
+  - form: "pomiędzy"
+    pl: "Dworzec leży pomiędzy tymi dwoma miastami."
+    ru: "Вокзал находится между этими двумя городами."
+    source: { kind: translated, id: 352445 }
+  - form: "pomiędzy"
+    pl: "Nie powinno być pomiędzy nami żadnych tajemnic."
+    ru: "Между нами не должно быть никаких секретов."
+    source: { kind: tatoeba, id: 4740497 }

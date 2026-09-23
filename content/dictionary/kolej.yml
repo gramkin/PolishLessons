@@ -1,0 +1,89 @@
+# review
+id: kolej
+format: 2
+lemma: "kolej"
+rank: 1119
+pos: noun
+pron: { cyr: "ко́лей" }
+senses:
+  - id: turn
+    ru: "очередь (чья-то)"
+    examples:
+      - pl: "Moja kolej?"
+        ru: "Моя очередь?"
+        source: { kind: tatoeba, id: 2122198 }
+      - pl: "Czyja kolej?"
+        ru: "Чья очередь?"
+        source: { kind: tatoeba, id: 12569825 }
+      - pl: "Czekam na swoją kolej."
+        ru: "Я жду своей очереди."
+        source: { kind: tatoeba, id: 4328008 }
+  - id: in-turn
+    ru: "po kolei — по очереди, по порядку"
+    examples:
+      - pl: "Śpiewali po kolei na scenie."
+        ru: "Они пели на сцене по очереди."
+        source: { kind: translated, id: 352487 }
+      - pl: "Spotkam się z wszystkimi po kolei."
+        ru: "Я встречусь со всеми по очереди."
+        source: { kind: translated, id: 361074 }
+  - id: railway
+    ru: "железная дорога"
+    examples:
+      - pl: "Kolej łączy oba miasta."
+        ru: "Железная дорога соединяет оба города."
+        source: { kind: authored }
+      - pl: "Pracuje na kolei."
+        ru: "Он работает на железной дороге."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Женский род на согласный: ta kolej, tej kolei. Родительный и предложный совпадают — kolei." }
+  - { kind: false-friend, text: "Два значения сразу: «железная дорога» и «очередь». А русская «колея» — это другое слово, koleina." }
+  - { kind: usage, text: "Twoja kolej «твоя очередь», po kolei «по очереди, по порядку». Очередь как строй людей — это kolejka." }
+  - { kind: usage, text: "koleje losu значит «превратности судьбы» — буквально «чередования судьбы»." }
+collocations:
+  - { pl: "po kolei", ru: "по очереди" }
+  - { pl: "twoja kolej", ru: "твоя очередь" }
+  - { pl: "kolej żelazna", ru: "железная дорога" }
+  - { pl: "koleje losu", ru: "превратности судьбы" }
+family:
+  - { pl: "kolejny", ru: "очередной, следующий", relation: derived, id: kolejny }
+  - { pl: "kolejka", ru: "очередь; узкоколейка", relation: derived }
+  - { pl: "kolejowy", ru: "железнодорожный", relation: derived }
+etymology: "От koło «колесо, круг» — буквально «то, что чередуется, идёт по кругу». Отсюда сразу и «очередь», и «железная дорога». Русская «колея» — родственное слово с третьим значением."
+memory: "kolej — женского рода и значит две вещи сразу: «железная дорога» и «очередь». Twoja kolej «твоя очередь», po kolei «по очереди». Очередь как строй людей — kolejka, а русская «колея» — koleina."
+idioms:
+  - { pl: "po kolei", ru: "по очереди" }
+  - { pl: "twoja kolej", ru: "твоя очередь" }
+  - { pl: "koleje losu", ru: "превратности судьбы" }
+formExamplesSkip:
+  - { form: "kolejach", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "kolejami", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "koleją", reason: "в корпусе нет примеров: творительный падеж единственного числа у этого слова редок" }
+  - { form: "koleje", reason: "в корпусе нет примеров; форма живёт прежде всего в обороте koleje losu" }
+  - { form: "kolejom", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+formExamples:
+  - form: "kolei"
+    pl: "Śpiewali po kolei na scenie."
+    ru: "Они пели на сцене по очереди."
+    source: { kind: translated, id: 352487 }
+  - form: "kolei"
+    pl: "Wejdźmy do autobusu po kolei."
+    ru: "Давайте войдём в автобус по очереди."
+    source: { kind: translated, id: 4653148 }
+  - form: "kolei"
+    pl: "Spotkam się z wszystkimi po kolei."
+    ru: "Я встречусь со всеми по очереди."
+    source: { kind: translated, id: 361074 }
+  - form: "kolej"
+    pl: "Moja kolej?"
+    ru: "Моя очередь?"
+    source: { kind: tatoeba, id: 2122198 }
+  - form: "kolej"
+    pl: "Czyja kolej?"
+    ru: "Чья очередь?"
+    source: { kind: tatoeba, id: 12569825 }
+  - form: "kolej"
+    pl: "Twoja kolej."
+    ru: "Твоя очередь."
+    source: { kind: translated, id: 525435 }

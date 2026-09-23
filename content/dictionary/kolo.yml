@@ -1,0 +1,133 @@
+# review
+id: kolo
+format: 2
+lemma: "koło"
+rank: 1117
+pos: noun
+pron: { cyr: "ко́уо" }
+senses:
+  - id: wheel
+    ru: "колесо"
+    examples:
+      - pl: "Rowery mają dwa koła."
+        ru: "У велосипедов два колеса."
+        source: { kind: translated, id: 6689521 }
+      - pl: "Tom napompował koło."
+        ru: "Том накачал колесо."
+        source: { kind: translated, id: 6534268 }
+      - pl: "Koła zaczęły się powoli obracać."
+        ru: "Колёса начали медленно вращаться."
+        source: { kind: translated, id: 948066 }
+  - id: circle
+    ru: "круг, окружность"
+    examples:
+      - pl: "Siedzieliśmy w kole."
+        ru: "Мы сидели в кругу."
+        source: { kind: translated, id: 3750345 }
+      - pl: "Ustawiły się w kole."
+        ru: "Они встали в круг."
+        source: { kind: translated, id: 12240074 }
+  - id: preposition
+    ru: "koło — около, возле (предлог с родительным)"
+    examples:
+      - pl: "Usiadł koło niej."
+        ru: "Он сел возле неё."
+        source: { kind: tatoeba, id: 522770 }
+      - pl: "Koło mojego domu jest kościół."
+        ru: "Возле моего дома есть церковь."
+        source: { kind: tatoeba, id: 1239930 }
+  - id: club
+    ru: "кружок, общество"
+    examples:
+      - pl: "Zapisał się do koła teatralnego."
+        ru: "Он записался в театральный кружок."
+        source: { kind: authored }
+      - pl: "Koło łowieckie zorganizowało polowanie."
+        ru: "Охотничье общество устроило охоту."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "koło — сразу два слова: существительное «колесо, круг» и предлог «около, возле». Usiadł koło niej «Он сел возле неё», но Samochód ma cztery koła «У машины четыре колеса»." }
+  - { kind: government, text: "Предлог koło требует родительного падежа: koło domu «возле дома», koło poczty «возле почты». Он разговорнее книжного obok с тем же значением." }
+  - { kind: usage, text: "Третье значение — «кружок, общество»: koło naukowe «научный кружок», koło gospodyń wiejskich «кружок сельских хозяек»." }
+  - { kind: pronunciation, text: "ł читается как у, поэтому koło звучит «коуо», а не «коло»." }
+collocations:
+  - { pl: "koło ratunkowe", ru: "спасательный круг" }
+  - { pl: "błędne koło", ru: "порочный круг" }
+  - { pl: "piąte koło u wozu", ru: "пятое колесо в телеге" }
+  - { pl: "koło naukowe", ru: "научный кружок" }
+family:
+  - { pl: "kolej", ru: "железная дорога; очередь", relation: derived, id: kolej }
+  - { pl: "kółko", ru: "кружок, колёсико", relation: derived }
+  - { pl: "okrągły", ru: "круглый", relation: derived }
+etymology: "Праславянское *kolo «колесо» — то же слово, что русское «колесо» и «около». Предлог koło и русское «около» устроены одинаково: «по кругу от чего-то», отсюда и «возле»."
+memory: "koło — сразу два слова: существительное «колесо, круг» и предлог «около, возле» с родительным падежом. Koło domu «возле дома», но cztery koła «четыре колеса». А kolej «железная дорога» — его прямая родня."
+idioms:
+  - { pl: "błędne koło", ru: "порочный круг" }
+  - { pl: "piąte koło u wozu", ru: "пятое колесо в телеге" }
+  - { pl: "koło ratunkowe", ru: "спасательный круг" }
+formExamplesSkip:
+  - { form: "kołach", reason: "в корпусе нет примеров: предложный падеж множественного числа у этого слова редок" }
+  - { form: "kołami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
+  - { form: "kołom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+  - { form: "kołu", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "kole"
+    pl: "Siedzieliśmy w kole."
+    ru: "Мы сидели в кругу."
+    source: { kind: translated, id: 3750345 }
+  - form: "kole"
+    pl: "Ustawiły się w kole."
+    ru: "Они встали в круг."
+    source: { kind: translated, id: 12240074 }
+  - form: "kole"
+    pl: "Potrafię jeździć na jednym kole."
+    ru: "Я умею ездить на одном колесе."
+    source: { kind: translated, id: 6553652 }
+  - form: "koła"
+    pl: "Rowery mają dwa koła."
+    ru: "У велосипедов два колеса."
+    source: { kind: translated, id: 6689521 }
+  - form: "koła"
+    pl: "Samochody mają cztery koła."
+    ru: "У машин четыре колеса."
+    source: { kind: translated, id: 6689524 }
+  - form: "koła"
+    pl: "Koła zaczęły się powoli obracać."
+    ru: "Колёса начали медленно вращаться."
+    source: { kind: translated, id: 948066 }
+  - form: "kołem"
+    pl: "Nie chcę być piątym kołem u wozu."
+    ru: "Не хочу быть пятым колесом в телеге."
+    source: { kind: translated, id: 13655252 }
+  - form: "kołem"
+    pl: "Samochód uderzył kołem w krawężnik."
+    ru: "Машина ударилась колесом о бордюр."
+    source: { kind: authored }
+  - form: "kołem"
+    pl: "Zakreślił to kołem."
+    ru: "Он обвёл это кругом."
+    source: { kind: authored }
+  - form: "koło"
+    pl: "Usiadł koło niej."
+    ru: "Он сел возле неё."
+    source: { kind: tatoeba, id: 522770 }
+  - form: "koło"
+    pl: "Koło mojego domu jest kościół."
+    ru: "Возле моего дома есть церковь."
+    source: { kind: tatoeba, id: 1239930 }
+  - form: "koło"
+    pl: "Tom napompował koło."
+    ru: "Том накачал колесо."
+    source: { kind: translated, id: 6534268 }
+  - form: "kół"
+    pl: "Myśliwi z kilkunastu kół łowieckich po raz kolejny zorganizowali polowanie na lisy."
+    ru: "Охотники из полутора десятков охотничьих обществ в очередной раз устроили охоту на лис."
+    source: { kind: translated, id: 6156516 }
+  - form: "kół"
+    pl: "Rower nie ma kół."
+    ru: "У велосипеда нет колёс."
+    source: { kind: authored }
+  - form: "kół"
+    pl: "Brakuje dwóch kół."
+    ru: "Не хватает двух колёс."
+    source: { kind: authored }

@@ -1,0 +1,135 @@
+# review
+id: list
+format: 2
+lemma: "list"
+rank: 1116
+pos: noun
+pron: { cyr: "лист" }
+senses:
+  - id: letter
+    ru: "письмо"
+    examples:
+      - pl: "Czytam list."
+        ru: "Я читаю письмо."
+        source: { kind: tatoeba, id: 12655232 }
+      - pl: "Napisałem list."
+        ru: "Я написал письмо."
+        source: { kind: tatoeba, id: 2146669 }
+      - pl: "Muszę napisać list."
+        ru: "Мне надо написать письмо."
+        source: { kind: tatoeba, id: 529750 }
+  - id: write
+    ru: "писать, отправлять письма"
+    examples:
+      - pl: "Kto napisał te dwa listy?"
+        ru: "Кто написал эти два письма?"
+        source: { kind: tatoeba, id: 588396 }
+      - pl: "Nie pisz do mnie takich długich listów."
+        ru: "Не пиши мне таких длинных писем."
+        source: { kind: tatoeba, id: 1783757 }
+  - id: kinds
+    ru: "виды писем: list polecony, list gończy"
+    examples:
+      - pl: "Wysłałem list polecony."
+        ru: "Я отправил заказное письмо."
+        source: { kind: authored }
+      - pl: "Za nim rozesłano list gończy."
+        ru: "За ним разослали ориентировку."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "list значит только «письмо». Лист бумаги — это kartka, лист дерева — liść, а список — lista. Четыре разных слова там, где русский обходится двумя." }
+  - { kind: usage, text: "Часть форм совпадает со словом lista «список»: listy это и «письма» (от list), и «списка» (от lista); listach и listami общие для обоих. Различает только контекст." }
+  - { kind: usage, text: "Мужской род неодушевлённый: ten list, tego listu, tym listem." }
+  - { kind: usage, text: "Устойчивые виды: list polecony «заказное письмо», list gończy «ориентировка на розыск», list motywacyjny «сопроводительное письмо»." }
+collocations:
+  - { pl: "napisać list", ru: "написать письмо" }
+  - { pl: "wysłać list", ru: "отправить письмо" }
+  - { pl: "list polecony", ru: "заказное письмо" }
+  - { pl: "list gończy", ru: "ориентировка" }
+family:
+  - { pl: "listonosz", ru: "почтальон", relation: derived }
+  - { pl: "listowny", ru: "письменный", relation: derived }
+etymology: "Праславянское *listъ «лист» — то же слово, что русский «лист». Значение «письмо» выросло из «листа бумаги», а сам лист дерева получил отдельное слово liść. Русский пошёл другим путём: «письмо» от «писать»."
+memory: "list — это «письмо», а не «лист». Лист бумаги будет kartka, лист дерева — liść, а список — lista. И помните про совпадение форм: listy это и «письма», и «списка»."
+idioms:
+  - { pl: "list polecony", ru: "заказное письмо" }
+  - { pl: "list gończy", ru: "ориентировка, розыск" }
+  - { pl: "napisać list", ru: "написать письмо" }
+formExamplesSkip:
+  - { form: "liście", reason: "по написанию совпадает сразу с двумя другими словами: liść «лист дерева» и lista «список». Все примеры корпуса относятся к ним, а не к слову list, и форма отдана карточке lista" }
+  - { form: "listach", reason: "в корпусе нет примеров для этого слова; форма вдобавок совпадает с формой слова lista «список»" }
+  - { form: "listom", reason: "в корпусе нет примеров для этого слова; форма вдобавок совпадает с формой слова lista «список»" }
+  - { form: "listowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "list"
+    pl: "Czytam list."
+    ru: "Я читаю письмо."
+    source: { kind: tatoeba, id: 12655232 }
+  - form: "list"
+    pl: "Napisałem list."
+    ru: "Я написал письмо."
+    source: { kind: tatoeba, id: 2146669 }
+  - form: "list"
+    pl: "Muszę napisać list."
+    ru: "Мне надо написать письмо."
+    source: { kind: tatoeba, id: 529750 }
+  - form: "listami"
+    pl: "Męczyli mnie swoimi przydługimi listami."
+    ru: "Они замучили меня своими длиннющими письмами."
+    source: { kind: translated, id: 2297610 }
+  - form: "listami"
+    pl: "Wymieniali się listami przez lata."
+    ru: "Они обменивались письмами годами."
+    source: { kind: authored }
+  - form: "listami"
+    pl: "Szuflada jest wypełniona listami."
+    ru: "Ящик набит письмами."
+    source: { kind: authored }
+  - form: "listem"
+    pl: "Nie mam czasu zajmować się tym listem. Mógłbyś się nim zająć ty?"
+    ru: "У меня нет времени заниматься этим письмом. Мог бы ты им заняться?"
+    source: { kind: translated, id: 4197515 }
+  - form: "listem"
+    pl: "Zajmę się tym listem jutro."
+    ru: "Я займусь этим письмом завтра."
+    source: { kind: authored }
+  - form: "listem"
+    pl: "Przyszedł z listem w ręku."
+    ru: "Он пришёл с письмом в руке."
+    source: { kind: authored }
+  - form: "listów"
+    pl: "Nie pisz do mnie takich długich listów."
+    ru: "Не пиши мне таких длинных писем."
+    source: { kind: tatoeba, id: 1783757 }
+  - form: "listów"
+    pl: "Muszę napisać parę listów."
+    ru: "Мне нужно написать пару писем."
+    source: { kind: translated, id: 7868575 }
+  - form: "listów"
+    pl: "Moja matka nienawidzi pisania listów."
+    ru: "Моя мать ненавидит писать письма."
+    source: { kind: translated, id: 627706 }
+  - form: "listu"
+    pl: "Nie zapomnij wysłać tego listu."
+    ru: "Не забудь отправить это письмо."
+    source: { kind: tatoeba, id: 359854 }
+  - form: "listu"
+    pl: "Nie piszę listu."
+    ru: "Я не пишу письма."
+    source: { kind: translated, id: 2816228 }
+  - form: "listu"
+    pl: "Jest zajęty pisaniem listu."
+    ru: "Он занят написанием письма."
+    source: { kind: translated, id: 1349109 }
+  - form: "listy"
+    pl: "Kto napisał te dwa listy?"
+    ru: "Кто написал эти два письма?"
+    source: { kind: tatoeba, id: 588396 }
+  - form: "listy"
+    pl: "Napisała do mnie dwa listy."
+    ru: "Она написала мне два письма."
+    source: { kind: tatoeba, id: 12624943 }
+  - form: "listy"
+    pl: "Tom pisał Mary długie listy."
+    ru: "Том писал Мэри длинные письма."
+    source: { kind: tatoeba, id: 11319003 }
