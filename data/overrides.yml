@@ -536,6 +536,13 @@ exclude:
   # Helen (Helen wygrala nagrode, Helen ma siedemnascie lat), а не польская
   # Helena, у которой всего три примера. 8 из 10 форм пусты
   - helena
+  # "jeff" — английское личное имя, попавшее в ранг через переводные
+  # предложения Tatoeba. Все три кандидата дают голый именительный падеж
+  # (Wszyscy mówią na niego Jeff), а остальные девять форм пустые.
+  # Парадигма Jeffa/Jeffowi ничем не отличается от любого мужского имени и
+  # ничего не объясняет в польском языке. Тот же класс, что sean, william,
+  # larry, jenny, chuck, thomas и donna
+  - jeff
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
