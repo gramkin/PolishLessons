@@ -5,6 +5,9 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # междометие без единого кандидата в корпусе: ни одного примера на
+  # единственную форму, тот же класс, что oh и rany
+  - uh
   # имя собственное: единственная форма — личное имя (Joe wygladal wczoraj
   # na smutnego, To pan White dal Joe'mu ten bilet)
   - joe

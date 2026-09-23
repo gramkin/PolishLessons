@@ -1,0 +1,559 @@
+# review
+id: pozostac
+format: 2
+lemma: "pozostać"
+rank: 880
+pos: verb
+aspect: perf
+pron: { cyr: "позо́стаць" }
+senses:
+  - id: remain
+    ru: "остаться"
+    examples:
+      - pl: "Oni chcieliby pozostać w domu."
+        ru: "Они хотели бы остаться дома."
+        source: { kind: tatoeba, id: 4454168 }
+      - pl: "Marzenie powinno pozostać marzeniem."
+        ru: "Мечта должна оставаться мечтой."
+        source: { kind: tatoeba, id: 12760592 }
+      - pl: "Pozostał bez słów."
+        ru: "Он остался без слов."
+        source: { kind: translated, id: 10708011 }
+  - id: stay-state
+    ru: "остаться каким-л. (+ творительный или прилагательное)"
+    examples:
+      - pl: "Pozostała niezamężna aż do śmierci."
+        ru: "Она осталась незамужней до самой смерти."
+        source: { kind: translated, id: 524658 }
+      - pl: "Po wygraniu nagrody Nobla pozostała równie skromna jak dotychczas."
+        ru: "После Нобелевской премии она осталась такой же скромной, как и прежде."
+        source: { kind: translated, id: 1351258 }
+      - pl: "Pozostałem spokojny i skoncentrowany."
+        ru: "Я остался спокойным и сосредоточенным."
+        source: { kind: translated, id: 9684422 }
+  - id: the-rest
+    ru: "pozostali — остальные, прочие"
+    note: "Причастие в роли существительного."
+    examples:
+      - pl: "Tom postanowił się nie odzywać, dopóki wszyscy pozostali nie wygłoszą swoich opinii."
+        ru: "Том решил не отзываться, пока все остальные не выразят свои мнения."
+        source: { kind: tatoeba, id: 4573263 }
+      - pl: "Kim są pozostali?"
+        ru: "Кто остальные?"
+        source: { kind: translated, id: 8734649 }
+      - pl: "Pozostały tylko dwa dni."
+        ru: "Осталось только два дня."
+        source: { kind: translated, id: 941978 }
+notes:
+  - { kind: usage, text: "Несовершенный вид — pozostawać. Близкий по смыслу zostać тоже значит «остаться», но pozostać звучит книжнее и подчёркивает, что состояние сохранилось: Pozostał spokojny «Он остался спокоен»." }
+  - { kind: government, text: "После pozostać имя сказуемого стоит в творительном: pozostać przyjaciółmi «остаться друзьями», pozostać tajemnicą «остаться тайной». С прилагательным — именительный: pozostał spokojny." }
+  - { kind: usage, text: "Форма pozostali значит ещё и «остальные, прочие»: Kim są pozostali? «Кто остальные?». Это причастие, ставшее существительным." }
+  - { kind: usage, text: "Безличное pozostaje значит «остаётся (только)»: Pozostało nam tylko czekanie «Нам осталось только ждать»." }
+collocations:
+  - { pl: "pozostać w kontakcie", ru: "оставаться на связи" }
+  - { pl: "pozostali", ru: "остальные" }
+  - { pl: "pozostać tajemnicą", ru: "остаться тайной" }
+  - { pl: "niech to pozostanie między nami", ru: "пусть это останется между нами" }
+family:
+  - { pl: "zostać", ru: "остаться, стать", relation: root, id: zostac }
+  - { pl: "pozostały", ru: "оставшийся", relation: derived }
+  - { pl: "pozostałość", ru: "остаток", relation: derived }
+etymology: "Из po- + zostać «остаться», от stać «стоять». Русское «остаться» собрано от того же корня, так что слова прозрачно соответствуют друг другу."
+memory: "pozostać — «остаться», книжнее, чем zostać, и с упором на то, что состояние сохранилось: Pozostał spokojny. После глагола творительный падеж: pozostać przyjaciółmi. И запомните pozostali «остальные» — причастие, ставшее существительным."
+idioms:
+  - { pl: "pozostać w kontakcie", ru: "оставаться на связи" }
+  - { pl: "niech to pozostanie między nami", ru: "пусть это останется между нами" }
+  - { pl: "pozostali", ru: "остальные" }
+formExamples:
+  - form: "pozostać"
+    pl: "Oni chcieliby pozostać w domu."
+    ru: "Они хотели бы остаться дома."
+    source: { kind: tatoeba, id: 4454168 }
+  - form: "pozostać"
+    pl: "Marzenie powinno pozostać marzeniem."
+    ru: "Мечта должна оставаться мечтой."
+    source: { kind: tatoeba, id: 12760592 }
+  - form: "pozostać"
+    pl: "Wolałbym pozostać w cieniu."
+    ru: "Я предпочёл бы остаться в тени."
+    source: { kind: authored }
+  - form: "pozostali"
+    pl: "Tom postanowił się nie odzywać, dopóki wszyscy pozostali nie wygłoszą swoich opinii."
+    ru: "Том решил не отзываться, пока все остальные не выразят свои мнения."
+    source: { kind: tatoeba, id: 4573263 }
+  - form: "pozostali"
+    pl: "Kim są pozostali?"
+    ru: "Кто остальные?"
+    source: { kind: translated, id: 8734649 }
+  - form: "pozostali"
+    pl: "Pozostali czekali na korytarzu."
+    ru: "Остальные ждали в коридоре."
+    source: { kind: authored }
+  - form: "pozostaliby"
+    pl: "Pozostaliby dłużej, gdyby mogli."
+    ru: "Они остались бы дольше, если бы могли."
+    source: { kind: authored }
+  - form: "pozostaliby"
+    pl: "Nie pozostaliby tu na noc."
+    ru: "Они не остались бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostaliby"
+    pl: "Pozostaliby przyjaciółmi mimo wszystko."
+    ru: "Они остались бы друзьями несмотря ни на что."
+    source: { kind: authored }
+  - form: "pozostalibyście"
+    pl: "Pozostalibyście dłużej?"
+    ru: "Вы остались бы дольше?"
+    source: { kind: authored }
+  - form: "pozostalibyście"
+    pl: "Nie pozostalibyście tu na noc."
+    ru: "Вы не остались бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostalibyście"
+    pl: "Pozostalibyście przyjaciółmi?"
+    ru: "Вы остались бы друзьями?"
+    source: { kind: authored }
+  - form: "pozostalibyśmy"
+    pl: "Pozostalibyśmy dłużej, gdyby nie pogoda."
+    ru: "Мы остались бы дольше, если бы не погода."
+    source: { kind: authored }
+  - form: "pozostalibyśmy"
+    pl: "Nie pozostalibyśmy tu na noc."
+    ru: "Мы не остались бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostalibyśmy"
+    pl: "Pozostalibyśmy przyjaciółmi."
+    ru: "Мы остались бы друзьями."
+    source: { kind: authored }
+  - form: "pozostaliście"
+    pl: "Pozostaliście do końca?"
+    ru: "Вы остались до конца?"
+    source: { kind: authored }
+  - form: "pozostaliście"
+    pl: "Pozostaliście wierni sobie."
+    ru: "Вы остались верны себе."
+    source: { kind: authored }
+  - form: "pozostaliście"
+    pl: "Dlaczego pozostaliście w mieście?"
+    ru: "Почему вы остались в городе?"
+    source: { kind: authored }
+  - form: "pozostaliśmy"
+    pl: "Pozostaliśmy do końca."
+    ru: "Мы остались до конца."
+    source: { kind: authored }
+  - form: "pozostaliśmy"
+    pl: "Pozostaliśmy wierni sobie."
+    ru: "Мы остались верны себе."
+    source: { kind: authored }
+  - form: "pozostaliśmy"
+    pl: "Pozostaliśmy w mieście na zimę."
+    ru: "Мы остались в городе на зиму."
+    source: { kind: authored }
+  - form: "pozostał"
+    pl: "Pozostał bez słów."
+    ru: "Он остался без слов."
+    source: { kind: translated, id: 10708011 }
+  - form: "pozostał"
+    pl: "Pozostał tylko niesmak."
+    ru: "Остался только неприятный осадок."
+    source: { kind: translated, id: 7610572 }
+  - form: "pozostał"
+    pl: "Pozostał wierny swoim zasadom."
+    ru: "Он остался верен своим принципам."
+    source: { kind: authored }
+  - form: "pozostała"
+    pl: "Pozostała niezamężna aż do śmierci."
+    ru: "Она осталась незамужней до самой смерти."
+    source: { kind: translated, id: 524658 }
+  - form: "pozostała"
+    pl: "Po wygraniu nagrody Nobla pozostała równie skromna jak dotychczas."
+    ru: "После Нобелевской премии она осталась такой же скромной, как и прежде."
+    source: { kind: translated, id: 1351258 }
+  - form: "pozostała"
+    pl: "Pozostała w domu do wieczora."
+    ru: "Она осталась дома до вечера."
+    source: { kind: authored }
+  - form: "pozostałaby"
+    pl: "Pozostałaby dłużej, gdyby mogła."
+    ru: "Она осталась бы дольше, если бы могла."
+    source: { kind: authored }
+  - form: "pozostałaby"
+    pl: "Nie pozostałaby tu na noc."
+    ru: "Она не осталась бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałaby"
+    pl: "Pozostałaby wierna sobie."
+    ru: "Она осталась бы верна себе."
+    source: { kind: authored }
+  - form: "pozostałabym"
+    pl: "Pozostałabym dłużej, gdybym mogła."
+    ru: "Я осталась бы дольше, если бы могла."
+    source: { kind: authored }
+  - form: "pozostałabym"
+    pl: "Nie pozostałabym tu na noc."
+    ru: "Я не осталась бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałabym"
+    pl: "Pozostałabym przy swoim zdaniu."
+    ru: "Я осталась бы при своём мнении."
+    source: { kind: authored }
+  - form: "pozostałabyś"
+    pl: "Pozostałabyś dłużej?"
+    ru: "Ты осталась бы дольше?"
+    source: { kind: authored }
+  - form: "pozostałabyś"
+    pl: "Nie pozostałabyś tu na noc."
+    ru: "Ты не осталась бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałabyś"
+    pl: "Pozostałabyś wierna sobie?"
+    ru: "Ты осталась бы верна себе?"
+    source: { kind: authored }
+  - form: "pozostałam"
+    pl: "Pozostałam w domu do wieczora."
+    ru: "Я осталась дома до вечера."
+    source: { kind: authored }
+  - form: "pozostałam"
+    pl: "Pozostałam przy swoim zdaniu."
+    ru: "Я осталась при своём мнении."
+    source: { kind: authored }
+  - form: "pozostałam"
+    pl: "Pozostałam sama w pustym mieszkaniu."
+    ru: "Я осталась одна в пустой квартире."
+    source: { kind: authored }
+  - form: "pozostałaś"
+    pl: "Pozostałaś do końca?"
+    ru: "Ты осталась до конца?"
+    source: { kind: authored }
+  - form: "pozostałaś"
+    pl: "Pozostałaś wierna sobie."
+    ru: "Ты осталась верна себе."
+    source: { kind: authored }
+  - form: "pozostałaś"
+    pl: "Dlaczego pozostałaś w mieście?"
+    ru: "Почему ты осталась в городе?"
+    source: { kind: authored }
+  - form: "pozostałby"
+    pl: "Pozostałby dłużej, gdyby mógł."
+    ru: "Он остался бы дольше, если бы мог."
+    source: { kind: authored }
+  - form: "pozostałby"
+    pl: "Nie pozostałby tu na noc."
+    ru: "Он не остался бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałby"
+    pl: "Pozostałby wierny sobie."
+    ru: "Он остался бы верен себе."
+    source: { kind: authored }
+  - form: "pozostałbym"
+    pl: "Pozostałbym dłużej, gdybym mógł."
+    ru: "Я остался бы дольше, если бы мог."
+    source: { kind: authored }
+  - form: "pozostałbym"
+    pl: "Nie pozostałbym tu na noc."
+    ru: "Я не остался бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałbym"
+    pl: "Pozostałbym przy swoim zdaniu."
+    ru: "Я остался бы при своём мнении."
+    source: { kind: authored }
+  - form: "pozostałbyś"
+    pl: "Pozostałbyś dłużej?"
+    ru: "Ты остался бы дольше?"
+    source: { kind: authored }
+  - form: "pozostałbyś"
+    pl: "Nie pozostałbyś tu na noc."
+    ru: "Ты не остался бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałbyś"
+    pl: "Pozostałbyś wierny sobie?"
+    ru: "Ты остался бы верен себе?"
+    source: { kind: authored }
+  - form: "pozostałem"
+    pl: "Pozostałem spokojny i skoncentrowany."
+    ru: "Я остался спокойным и сосредоточенным."
+    source: { kind: translated, id: 9684422 }
+  - form: "pozostałem"
+    pl: "Pozostałem sam w pustym biurze."
+    ru: "Я остался один в пустом офисе."
+    source: { kind: authored }
+  - form: "pozostałem"
+    pl: "Pozostałem przy swoim zdaniu."
+    ru: "Я остался при своём мнении."
+    source: { kind: authored }
+  - form: "pozostałeś"
+    pl: "Pozostałeś do końca?"
+    ru: "Ты остался до конца?"
+    source: { kind: authored }
+  - form: "pozostałeś"
+    pl: "Pozostałeś wierny sobie."
+    ru: "Ты остался верен себе."
+    source: { kind: authored }
+  - form: "pozostałeś"
+    pl: "Dlaczego pozostałeś w mieście?"
+    ru: "Почему ты остался в городе?"
+    source: { kind: authored }
+  - form: "pozostało"
+    pl: "Morderstwo pozostało zagadką."
+    ru: "Убийство осталось загадкой."
+    source: { kind: translated, id: 12193827 }
+  - form: "pozostało"
+    pl: "Pozostało nam tylko czekanie."
+    ru: "Нам осталось только ждать."
+    source: { kind: translated, id: 12044066 }
+  - form: "pozostało"
+    pl: "Nic nam nie pozostało."
+    ru: "Нам ничего не осталось."
+    source: { kind: authored }
+  - form: "pozostałoby"
+    pl: "Nic nam nie pozostałoby."
+    ru: "Нам ничего не осталось бы."
+    source: { kind: authored }
+  - form: "pozostałoby"
+    pl: "Pozostałoby tylko czekanie."
+    ru: "Осталось бы только ждать."
+    source: { kind: authored }
+  - form: "pozostałoby"
+    pl: "Miasto pozostałoby puste."
+    ru: "Город остался бы пустым."
+    source: { kind: authored }
+  - form: "pozostały"
+    pl: "Pozostały tylko dwa dni."
+    ru: "Осталось только два дня."
+    source: { kind: translated, id: 941978 }
+  - form: "pozostały"
+    pl: "Pozostały przyjaciółkami."
+    ru: "Они остались подругами."
+    source: { kind: translated, id: 10605256 }
+  - form: "pozostały"
+    pl: "Pozostały tylko wspomnienia."
+    ru: "Остались только воспоминания."
+    source: { kind: authored }
+  - form: "pozostałyby"
+    pl: "Pozostałyby tylko wspomnienia."
+    ru: "Остались бы только воспоминания."
+    source: { kind: authored }
+  - form: "pozostałyby"
+    pl: "Ceny pozostałyby bez zmian."
+    ru: "Цены остались бы без изменений."
+    source: { kind: authored }
+  - form: "pozostałyby"
+    pl: "Pozostałyby przyjaciółkami."
+    ru: "Они остались бы подругами."
+    source: { kind: authored }
+  - form: "pozostałybyście"
+    pl: "Pozostałybyście dłużej?"
+    ru: "Вы остались бы дольше?"
+    source: { kind: authored }
+  - form: "pozostałybyście"
+    pl: "Nie pozostałybyście tu na noc."
+    ru: "Вы не остались бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałybyście"
+    pl: "Pozostałybyście przyjaciółkami?"
+    ru: "Вы остались бы подругами?"
+    source: { kind: authored }
+  - form: "pozostałybyśmy"
+    pl: "Pozostałybyśmy dłużej."
+    ru: "Мы остались бы дольше."
+    source: { kind: authored }
+  - form: "pozostałybyśmy"
+    pl: "Nie pozostałybyśmy tu na noc."
+    ru: "Мы не остались бы тут на ночь."
+    source: { kind: authored }
+  - form: "pozostałybyśmy"
+    pl: "Pozostałybyśmy przyjaciółkami."
+    ru: "Мы остались бы подругами."
+    source: { kind: authored }
+  - form: "pozostałyście"
+    pl: "Pozostałyście do końca?"
+    ru: "Вы остались до конца?"
+    source: { kind: authored }
+  - form: "pozostałyście"
+    pl: "Pozostałyście wierne sobie."
+    ru: "Вы остались верны себе."
+    source: { kind: authored }
+  - form: "pozostałyście"
+    pl: "Dlaczego pozostałyście w mieście?"
+    ru: "Почему вы остались в городе?"
+    source: { kind: authored }
+  - form: "pozostałyśmy"
+    pl: "Pozostałyśmy do końca."
+    ru: "Мы остались до конца."
+    source: { kind: authored }
+  - form: "pozostałyśmy"
+    pl: "Pozostałyśmy wierne sobie."
+    ru: "Мы остались верны себе."
+    source: { kind: authored }
+  - form: "pozostałyśmy"
+    pl: "Pozostałyśmy w mieście na zimę."
+    ru: "Мы остались в городе на зиму."
+    source: { kind: authored }
+  - form: "pozostaną"
+    pl: "Ceny pozostaną w miejscu."
+    ru: "Цены останутся на месте."
+    source: { kind: translated, id: 362445 }
+  - form: "pozostaną"
+    pl: "Chłopcy pozostaną chłopcami."
+    ru: "Мальчишки останутся мальчишками."
+    source: { kind: translated, id: 529046 }
+  - form: "pozostaną"
+    pl: "Zasady pozostaną bez zmian."
+    ru: "Правила останутся без изменений."
+    source: { kind: authored }
+  - form: "pozostanę"
+    pl: "Pozostanę w tle."
+    ru: "Я останусь в тени."
+    source: { kind: translated, id: 9686893 }
+  - form: "pozostanę"
+    pl: "Pozostanę tu do rana."
+    ru: "Я останусь здесь до утра."
+    source: { kind: authored }
+  - form: "pozostanę"
+    pl: "Pozostanę przy swoim zdaniu."
+    ru: "Я останусь при своём мнении."
+    source: { kind: authored }
+  - form: "pozostania"
+    pl: "Tom próbował przekonać Mary do pozostania w Bostonie."
+    ru: "Том пытался убедить Мэри остаться в Бостоне."
+    source: { kind: translated, id: 3687152 }
+  - form: "pozostania"
+    pl: "Namawiał ją do pozostania."
+    ru: "Он уговаривал её остаться."
+    source: { kind: authored }
+  - form: "pozostania"
+    pl: "Nie widział powodu do pozostania."
+    ru: "Он не видел причины оставаться."
+    source: { kind: authored }
+  - form: "pozostanie"
+    pl: "Niech to pozostanie tajemnicą."
+    ru: "Пусть это останется тайной."
+    source: { kind: translated, id: 568257 }
+  - form: "pozostanie"
+    pl: "Ale to pozostanie między nami."
+    ru: "Но это останется между нами."
+    source: { kind: translated, id: 4285608 }
+  - form: "pozostanie"
+    pl: "To pozostanie między nami."
+    ru: "Это останется между нами."
+    source: { kind: authored }
+  - form: "pozostaniecie"
+    pl: "Pozostaniecie z nami?"
+    ru: "Вы останетесь с нами?"
+    source: { kind: authored }
+  - form: "pozostaniecie"
+    pl: "Pozostaniecie wierni sobie."
+    ru: "Вы останетесь верны себе."
+    source: { kind: authored }
+  - form: "pozostaniecie"
+    pl: "Jak długo pozostaniecie w Polsce?"
+    ru: "Как долго вы останетесь в Польше?"
+    source: { kind: authored }
+  - form: "pozostaniem"
+    pl: "Głosowałem za pozostaniem."
+    ru: "Я голосовал за то, чтобы остаться."
+    source: { kind: translated, id: 11467245 }
+  - form: "pozostaniem"
+    pl: "Wahał się między wyjazdem a pozostaniem."
+    ru: "Он колебался между отъездом и тем, чтобы остаться."
+    source: { kind: authored }
+  - form: "pozostaniem"
+    pl: "Skończyło się pozostaniem w domu."
+    ru: "Кончилось тем, что остались дома."
+    source: { kind: authored }
+  - form: "pozostaniemy"
+    pl: "Pozostaniemy w kontakcie."
+    ru: "Мы останемся на связи."
+    source: { kind: authored }
+  - form: "pozostaniemy"
+    pl: "Pozostaniemy tu do rana."
+    ru: "Мы останемся здесь до утра."
+    source: { kind: authored }
+  - form: "pozostaniemy"
+    pl: "Pozostaniemy przy swoim zdaniu."
+    ru: "Мы останемся при своём мнении."
+    source: { kind: authored }
+  - form: "pozostaniesz"
+    pl: "Jak długo pozostaniesz w Japonii?"
+    ru: "Как долго ты останешься в Японии?"
+    source: { kind: translated, id: 527730 }
+  - form: "pozostaniesz"
+    pl: "Pozostaniesz z nami?"
+    ru: "Ты останешься с нами?"
+    source: { kind: authored }
+  - form: "pozostaniesz"
+    pl: "Pozostaniesz wierny sobie."
+    ru: "Ты останешься верен себе."
+    source: { kind: authored }
+  - form: "pozostaniu"
+    pl: "Po pozostaniu w mieście żałował."
+    ru: "Он жалел, что остался в городе."
+    source: { kind: authored }
+  - form: "pozostaniu"
+    pl: "Mówili o pozostaniu na zimę."
+    ru: "Они говорили о том, чтобы остаться на зиму."
+    source: { kind: authored }
+  - form: "pozostaniu"
+    pl: "W pozostaniu nie było nic dziwnego."
+    ru: "В том, чтобы остаться, не было ничего странного."
+    source: { kind: authored }
+  - form: "pozostano"
+    pl: "Pozostano przy dawnym zwyczaju."
+    ru: "Остались при прежнем обычае."
+    source: { kind: authored }
+  - form: "pozostano"
+    pl: "Pozostano w mieście na zimę."
+    ru: "Остались в городе на зиму."
+    source: { kind: authored }
+  - form: "pozostano"
+    pl: "Pozostano przy pierwotnym planie."
+    ru: "Остались при первоначальном плане."
+    source: { kind: authored }
+  - form: "pozostań"
+    pl: "Pozostań uważna!"
+    ru: "Оставайся внимательной!"
+    source: { kind: translated, id: 12232684 }
+  - form: "pozostań"
+    pl: "Pozostań w pokoju!"
+    ru: "Оставайся в комнате!"
+    source: { kind: translated, id: 2255948 }
+  - form: "pozostań"
+    pl: "Pozostań ze mną."
+    ru: "Останься со мной."
+    source: { kind: authored }
+  - form: "pozostańcie"
+    pl: "Pozostańcie uważne."
+    ru: "Оставайтесь внимательными."
+    source: { kind: translated, id: 12232671 }
+  - form: "pozostańcie"
+    pl: "Pozostańcie na miejscach."
+    ru: "Оставайтесь на местах."
+    source: { kind: authored }
+  - form: "pozostańcie"
+    pl: "Pozostańcie w kontakcie."
+    ru: "Оставайтесь на связи."
+    source: { kind: authored }
+  - form: "pozostańmy"
+    pl: "Pozostańmy w kontakcie."
+    ru: "Останемся на связи."
+    source: { kind: translated, id: 1046555 }
+  - form: "pozostańmy"
+    pl: "Pozostańmy przy tym temacie."
+    ru: "Останемся на этой теме."
+    source: { kind: authored }
+  - form: "pozostańmy"
+    pl: "Pozostańmy tu do rana."
+    ru: "Останемся здесь до утра."
+    source: { kind: authored }
+  - form: "pozostawszy"
+    pl: "Pozostawszy sam, odetchnął."
+    ru: "Оставшись один, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "pozostawszy"
+    pl: "Pozostawszy bez pracy, wyjechał."
+    ru: "Оставшись без работы, он уехал."
+    source: { kind: authored }
+  - form: "pozostawszy"
+    pl: "Pozostawszy w mieście, znalazł nowe zajęcie."
+    ru: "Оставшись в городе, он нашёл новое занятие."
+    source: { kind: authored }

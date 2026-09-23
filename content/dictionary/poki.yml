@@ -1,0 +1,77 @@
+# review
+id: poki
+format: 2
+lemma: "póki"
+rank: 875
+pos: conj
+pron: { cyr: "пу́ки" }
+senses:
+  - id: while
+    ru: "пока, до тех пор пока"
+    examples:
+      - pl: "Póki tu jesteś, ja zostanę."
+        ru: "Пока ты здесь, я останусь."
+        source: { kind: tatoeba, id: 832809 }
+      - pl: "Póki żyję, będę walczył."
+        ru: "Пока я жив, буду бороться."
+        source: { kind: authored }
+      - pl: "Korzystaj, póki możesz."
+        ru: "Пользуйся, пока можешь."
+        source: { kind: authored }
+  - id: poki-co
+    ru: "póki co — пока что, на данный момент"
+    note: "Устойчивое сочетание, очень частое в разговоре."
+    examples:
+      - pl: "Póki co zastanów się, co powiesz rodzicom."
+        ru: "Ты пока думай, что родителям скажешь."
+        source: { kind: tatoeba, id: 13547058 }
+      - pl: "Póki co zastanówcie się, co powiecie rodzicom."
+        ru: "Вы пока думайте, что родителям скажете."
+        source: { kind: tatoeba, id: 13547055 }
+      - pl: "Póki co nic nie wiadomo."
+        ru: "Пока что ничего не известно."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Союз вводит временной предел: Póki tu jesteś, ja zostanę «Пока ты здесь, я останусь». Более полный и книжный вариант — dopóki, значение то же." }
+  - { kind: usage, text: "Отрицательная пара — póki nie «пока не»: Czekaj, póki nie wrócę «Жди, пока я не вернусь». Отрицание тут, как и в русском, не отменяет смысла." }
+  - { kind: usage, text: "póki co значит «пока что, на данный момент» — это готовый оборот, а не свободное сочетание: Póki co nic nie wiadomo." }
+  - { kind: false-friend, text: "Русское «пока» шире польского póki: как прощание («пока!») это cześć или na razie, а в значении «пока что» — póki co или na razie. Сам союз póki только временной." }
+collocations:
+  - { pl: "póki co", ru: "пока что" }
+  - { pl: "póki nie", ru: "пока не" }
+  - { pl: "póki czas", ru: "пока есть время" }
+  - { pl: "dopóki", ru: "до тех пор пока" }
+family:
+  - { pl: "dopóki", ru: "до тех пор пока", relation: root }
+  - { pl: "dopóty", ru: "до тех пор", relation: root }
+etymology: "Из po + ki, старой формы вопросительного местоимения — буквально «до какого времени». Русское «пока» собрано похоже, от «по ка»."
+memory: "póki — «пока, до тех пор пока», только о времени. Книжный вариант — dopóki. Запомните оборот póki co «пока что» и пословицу Kuj żelazo, póki gorące. А вот прощание «Пока!» по-польски будет cześć или na razie — póki для этого не годится."
+idioms:
+  - { pl: "póki co", ru: "пока что" }
+  - { pl: "kuj żelazo, póki gorące", ru: "куй железо, пока горячо" }
+  - { pl: "póki czas", ru: "пока есть время" }
+formExamples:
+  - form: "póki"
+    pl: "Póki tu jesteś, ja zostanę."
+    ru: "Пока ты здесь, я останусь."
+    source: { kind: tatoeba, id: 832809 }
+  - form: "póki"
+    pl: "Póki co zastanów się, co powiesz rodzicom."
+    ru: "Ты пока думай, что родителям скажешь."
+    source: { kind: tatoeba, id: 13547058 }
+  - form: "póki"
+    pl: "Póki co zastanówcie się, co powiecie rodzicom."
+    ru: "Вы пока думайте, что родителям скажете."
+    source: { kind: tatoeba, id: 13547055 }
+  - form: "póki"
+    pl: "Póki żyję, będę walczył."
+    ru: "Пока я жив, буду бороться."
+    source: { kind: authored }
+  - form: "póki"
+    pl: "Czekaj, póki nie wrócę."
+    ru: "Жди, пока я не вернусь."
+    source: { kind: authored }
+  - form: "póki"
+    pl: "Kuj żelazo, póki gorące."
+    ru: "Куй железо, пока горячо."
+    source: { kind: authored }
