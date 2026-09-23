@@ -1,0 +1,75 @@
+# review
+id: serio
+format: 2
+lemma: "serio"
+rank: 900
+pos: adv
+pron: { cyr: "се́рьо" }
+senses:
+  - id: seriously
+    ru: "серьёзно, всерьёз"
+    examples:
+      - pl: "Nie bierz tego na serio. Tylko żartuję."
+        ru: "Не воспринимайте это всерьёз. Я же шучу."
+        source: { kind: tatoeba, id: 361216 }
+      - pl: "Serio, nie jestem aż tak głupia, żeby mu kasę pożyczać."
+        ru: "Я не такая дура, чтобы одалживать ему деньги."
+        source: { kind: tatoeba, id: 13785285 }
+      - pl: "Mówię serio."
+        ru: "Я говорю серьёзно."
+        source: { kind: authored }
+  - id: na-serio
+    ru: "na serio — всерьёз, по-настоящему"
+    examples:
+      - pl: "Nie bierz tego na serio."
+        ru: "Не принимай это всерьёз."
+        source: { kind: authored }
+      - pl: "Zabrał się do tego na serio."
+        ru: "Он взялся за это всерьёз."
+        source: { kind: authored }
+      - pl: "Czy mówisz na serio?"
+        ru: "Ты это всерьёз?"
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Слово не склоняется и не меняется: это наречие, пришедшее из латыни в готовом виде. Поэтому форм у него нет вовсе, хотя в словарях оно иногда помечено как прилагательное." }
+  - { kind: usage, text: "brać coś na serio — «принимать что-то всерьёз», самое частое сочетание: Nie bierz tego na serio «Не принимай это всерьёз»." }
+  - { kind: usage, text: "В начале фразы Serio? значит «Серьёзно?, Правда?» — обычная разговорная переспрашивающая реплика." }
+  - { kind: usage, text: "Близкое по смыслу poważnie тоже значит «серьёзно», но это обычное наречие от poważny. Оборот pół żartem, pół serio — «полушутя, полусерьёзно»." }
+collocations:
+  - { pl: "na serio", ru: "всерьёз" }
+  - { pl: "brać na serio", ru: "принимать всерьёз" }
+  - { pl: "mówić serio", ru: "говорить серьёзно" }
+  - { pl: "pół żartem, pół serio", ru: "полушутя, полусерьёзно" }
+family:
+  - { pl: "żart", ru: "шутка", relation: antonym, id: zart }
+etymology: "Прямо из латинского sēriō «серьёзно, всерьёз». Русское «серьёзно» пришло из того же гнезда, но через французское sérieux."
+memory: "serio — «серьёзно, всерьёз», слово неизменяемое: ни падежей, ни рода у него нет. Главное сочетание — brać coś na serio «принимать всерьёз». А Serio? в разговоре значит «Правда?». Рядом живёт poważnie, обычное наречие от poważny."
+idioms:
+  - { pl: "na serio", ru: "всерьёз" }
+  - { pl: "brać na serio", ru: "принимать всерьёз" }
+  - { pl: "pół żartem, pół serio", ru: "полушутя, полусерьёзно" }
+formExamples:
+  - form: "serio"
+    pl: "Nie bierz tego na serio. Tylko żartuję."
+    ru: "Не воспринимайте это всерьёз. Я же шучу."
+    source: { kind: tatoeba, id: 361216 }
+  - form: "serio"
+    pl: "Serio, nie jestem aż tak głupia, żeby mu kasę pożyczać."
+    ru: "Я не такая дура, чтобы одалживать ему деньги."
+    source: { kind: tatoeba, id: 13785285 }
+  - form: "serio"
+    pl: "Mówię serio."
+    ru: "Я говорю серьёзно."
+    source: { kind: authored }
+  - form: "serio"
+    pl: "Nie bierz tego na serio."
+    ru: "Не принимай это всерьёз."
+    source: { kind: authored }
+  - form: "serio"
+    pl: "Serio? Nie wierzę."
+    ru: "Серьёзно? Не верю."
+    source: { kind: authored }
+  - form: "serio"
+    pl: "Zabrał się do nauki na serio."
+    ru: "Он взялся за учёбу всерьёз."
+    source: { kind: authored }

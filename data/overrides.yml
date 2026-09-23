@@ -5,6 +5,9 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # имя собственное: все кандидаты — личное имя (Ben, pozmywaj naczynia;
+  # Ben wlozyl rece do kieszeni) либо Big Ben
+  - ben
   # аббревиатура без единого кандидата в корпусе
   - fbi
   # не самостоятельное слово: все кандидаты до единого — Nowy Jork
