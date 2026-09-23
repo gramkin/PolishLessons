@@ -5,6 +5,12 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # аббревиатура без единого кандидата в корпусе
+  - fbi
+  # не самостоятельное слово: все кандидаты до единого — Nowy Jork
+  # (Nowy Jork to duze miasto, Ona mieszka w Nowym Jorku); Jork отдельно
+  # не встречается ни разу
+  - jork
   # междометие без единого кандидата в корпусе: ни одного примера на
   # единственную форму, тот же класс, что oh и rany
   - uh

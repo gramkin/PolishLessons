@@ -1,0 +1,188 @@
+# review
+id: dziadek
+format: 2
+lemma: "dziadek"
+rank: 895
+pos: noun
+pron: { cyr: "дзя́дэк" }
+senses:
+  - id: grandfather
+    ru: "дедушка"
+    examples:
+      - pl: "To mój dziadek."
+        ru: "Это мой дедушка."
+        source: { kind: tatoeba, id: 10695791 }
+      - pl: "Ile twój dziadek ma lat?"
+        ru: "Сколько лет твоему дедушке?"
+        source: { kind: tatoeba, id: 1548177 }
+      - pl: "Mój dziadek lubi spacerować."
+        ru: "Мой дедушка любит гулять."
+        source: { kind: tatoeba, id: 393346 }
+  - id: grandparents
+    ru: "dziadkowie — дедушка с бабушкой, прародители"
+    note: "Множественное число покрывает обоих сразу, как państwo покрывает пару."
+    examples:
+      - pl: "To są moi dziadkowie."
+        ru: "Это мои дедушка с бабушкой."
+        source: { kind: tatoeba, id: 10695790 }
+      - pl: "Jego dziadkowie są ze Śląska."
+        ru: "Его дедушка с бабушкой из Силезии."
+        source: { kind: translated, id: 2246965 }
+      - pl: "Dzieci kochają swoje babcie i dziadków, bo niczego im nie odmawiają."
+        ru: "Дети любят бабушек и дедушек, потому что они ни в чём им не отказывают."
+        source: { kind: tatoeba, id: 12727090 }
+  - id: vocative
+    ru: "dziadku! — обращение к дедушке"
+    examples:
+      - pl: "Cześć dziadku."
+        ru: "Привет, дедушка."
+        source: { kind: translated, id: 1205989 }
+      - pl: "Bez wątpienia dostał imię po dziadku."
+        ru: "Несомненно, его назвали в честь деда."
+        source: { kind: translated, id: 745434 }
+      - pl: "Opowiedz dziadkowi wiersz, którego się nauczyłeś."
+        ru: "Ну, расскажи дедушке стихотворение, которое ты выучил."
+        source: { kind: tatoeba, id: 12907223 }
+notes:
+  - { kind: usage, text: "Множественное dziadkowie значит не только «дедушки», но и «дедушка с бабушкой» вместе — как русское «бабушка с дедушкой» одним словом. Moi dziadkowie «мои бабушка и дедушка»." }
+  - { kind: usage, text: "Звательный падеж dziadku! употребляется живо: Cześć, dziadku! «Привет, дедушка!». В русском звательной формы нет, и про неё легко забыть." }
+  - { kind: usage, text: "Прадед — pradziadek, а грубоватое dziad значит «старик, дед» и звучит пренебрежительно. Женская пара — babcia." }
+  - { kind: usage, text: "dziadek do orzechów — «щелкунчик» (орехокол), отсюда и название балета. А gdyby babcia miała wąsy, toby była dziadkiem — «если бы да кабы»." }
+collocations:
+  - { pl: "mój dziadek", ru: "мой дедушка" }
+  - { pl: "dziadkowie", ru: "бабушка с дедушкой" }
+  - { pl: "dziadek do orzechów", ru: "щелкунчик" }
+  - { pl: "pradziadek", ru: "прадед" }
+family:
+  - { pl: "dziad", ru: "дед, старик", relation: root }
+  - { pl: "pradziadek", ru: "прадед", relation: derived }
+  - { pl: "babcia", ru: "бабушка", relation: root, id: babcia }
+etymology: "Уменьшительное от dziad «дед, старик», праславянское *dědъ. Русское «дед» — то же слово, а польское dziadek относится к нему как «дедушка» к «деду»."
+memory: "dziadek — «дедушка». Главное запомнить множественное: dziadkowie значит не только «дедушки», но и «бабушка с дедушкой» вместе. И не забывайте звательный падеж — Cześć, dziadku! Грубоватое dziad значит «старик», а dziadek do orzechów — «щелкунчик»."
+idioms:
+  - { pl: "dziadkowie", ru: "бабушка с дедушкой" }
+  - { pl: "dziadek do orzechów", ru: "щелкунчик" }
+  - { pl: "gdyby babcia miała wąsy, toby była dziadkiem", ru: "если бы да кабы" }
+formExamplesSkip:
+  - { form: "dziadki", reason: "множественное число от dziadek в значении «дедушка» — dziadkowie; форма dziadki звучит пренебрежительно и в этом значении не употребляется" }
+formExamples:
+  - form: "dziadek"
+    pl: "To mój dziadek."
+    ru: "Это мой дедушка."
+    source: { kind: tatoeba, id: 10695791 }
+  - form: "dziadek"
+    pl: "Ile twój dziadek ma lat?"
+    ru: "Сколько лет твоему дедушке?"
+    source: { kind: tatoeba, id: 1548177 }
+  - form: "dziadek"
+    pl: "Mój dziadek lubi spacerować."
+    ru: "Мой дедушка любит гулять."
+    source: { kind: tatoeba, id: 393346 }
+  - form: "dziadka"
+    pl: "Tom jest wciąż u dziadka."
+    ru: "Том всё ещё у своего деда."
+    source: { kind: tatoeba, id: 13830846 }
+  - form: "dziadka"
+    pl: "Mój pradziadek przeżył mojego dziadka."
+    ru: "Мой прадед пережил моего деда."
+    source: { kind: tatoeba, id: 4197525 }
+  - form: "dziadka"
+    pl: "Była wychowywana przez swojego dziadka."
+    ru: "Она была воспитана дедушкой."
+    source: { kind: tatoeba, id: 8881807 }
+  - form: "dziadkach"
+    pl: "O dziadkach opowiadała godzinami."
+    ru: "О бабушке с дедушкой она рассказывала часами."
+    source: { kind: authored }
+  - form: "dziadkach"
+    pl: "W dziadkach jest spokój, którego nam brakuje."
+    ru: "В стариках есть покой, которого нам не хватает."
+    source: { kind: authored }
+  - form: "dziadkach"
+    pl: "Myślę o dziadkach coraz częściej."
+    ru: "Я всё чаще думаю о бабушке с дедушкой."
+    source: { kind: authored }
+  - form: "dziadkami"
+    pl: "Tom rozmawia z dziadkami po francusku."
+    ru: "Том говорит с бабушкой и дедушкой по-французски."
+    source: { kind: translated, id: 5882625 }
+  - form: "dziadkami"
+    pl: "Mieszkali z dziadkami przez rok."
+    ru: "Они год жили с бабушкой и дедушкой."
+    source: { kind: authored }
+  - form: "dziadkami"
+    pl: "Między dziadkami a wnukami jest szczególna więź."
+    ru: "Между дедами и внуками особая связь."
+    source: { kind: authored }
+  - form: "dziadkiem"
+    pl: "Właśnie zostałem dziadkiem."
+    ru: "Я только что стал дедушкой."
+    source: { kind: tatoeba, id: 8664425 }
+  - form: "dziadkiem"
+    pl: "Jestem dziadkiem."
+    ru: "Я дедушка."
+    source: { kind: translated, id: 3749926 }
+  - form: "dziadkiem"
+    pl: "Opiekuję się moim dziadkiem."
+    ru: "Я забочусь о своём дедушке."
+    source: { kind: translated, id: 2482535 }
+  - form: "dziadkom"
+    pl: "Dzieci pomagają dziadkom w ogrodzie."
+    ru: "Дети помогают дедушке с бабушкой в саду."
+    source: { kind: authored }
+  - form: "dziadkom"
+    pl: "Zawdzięczam dziadkom bardzo wiele."
+    ru: "Я очень многим обязан бабушке с дедушкой."
+    source: { kind: authored }
+  - form: "dziadkom"
+    pl: "Kupili dziadkom bilety."
+    ru: "Они купили билеты бабушке с дедушкой."
+    source: { kind: authored }
+  - form: "dziadkowi"
+    pl: "Opowiedz dziadkowi wiersz, którego się nauczyłeś."
+    ru: "Ну, расскажи дедушке стихотворение, которое ты выучил."
+    source: { kind: tatoeba, id: 12907223 }
+  - form: "dziadkowi"
+    pl: "Pomagam mojemu dziadkowi."
+    ru: "Я помогаю своему дедушке."
+    source: { kind: translated, id: 2679945 }
+  - form: "dziadkowi"
+    pl: "To dziadkowi zawdzięczam to, kim jestem dziś."
+    ru: "Именно дедушке я обязан тем, кто я сегодня."
+    source: { kind: translated, id: 542063 }
+  - form: "dziadkowie"
+    pl: "To są moi dziadkowie."
+    ru: "Это мои дедушка с бабушкой."
+    source: { kind: tatoeba, id: 10695790 }
+  - form: "dziadkowie"
+    pl: "Jego dziadkowie są ze Śląska."
+    ru: "Его дедушка с бабушкой из Силезии."
+    source: { kind: translated, id: 2246965 }
+  - form: "dziadkowie"
+    pl: "Oboje moi dziadkowie nie żyją."
+    ru: "Оба моих деда умерли."
+    source: { kind: translated, id: 361041 }
+  - form: "dziadków"
+    pl: "Dzieci kochają swoje babcie i dziadków, bo niczego im nie odmawiają."
+    ru: "Дети любят бабушек и дедушек, потому что они ни в чём им не отказывают."
+    source: { kind: tatoeba, id: 12727090 }
+  - form: "dziadków"
+    pl: "Odwiedzamy dziadków co niedzielę."
+    ru: "Мы навещаем бабушку с дедушкой каждое воскресенье."
+    source: { kind: authored }
+  - form: "dziadków"
+    pl: "Nie pamiętam swoich dziadków."
+    ru: "Я не помню своих бабушку и дедушку."
+    source: { kind: authored }
+  - form: "dziadku"
+    pl: "Cześć dziadku."
+    ru: "Привет, дедушка."
+    source: { kind: translated, id: 1205989 }
+  - form: "dziadku"
+    pl: "Bez wątpienia dostał imię po dziadku."
+    ru: "Несомненно, его назвали в честь деда."
+    source: { kind: translated, id: 745434 }
+  - form: "dziadku"
+    pl: "Opowiedz coś, dziadku."
+    ru: "Расскажи что-нибудь, дедушка."
+    source: { kind: authored }
