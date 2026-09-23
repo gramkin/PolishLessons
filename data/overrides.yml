@@ -515,6 +515,12 @@ exclude:
   # парадигмы вдобавок состоит из форм с апострофом (Larry’ego, Larry’emu).
   # Класс sean, william, thomas
   - larry
+  # 9 из 11 форм пусты, и из трёх кандидатов два — титул при английском имени
+  # (Niedawno zechcial zadzwonic do mnie pan senator McCain. Senator McCain
+  # toczyl dluga walke). Самостоятельно слово стоит лишь однажды
+  # (Mysle o kandydowaniu na senatora), ни одна форма не набирает трёх
+  # примеров. Класс jork: слово держится чужим именем
+  - senator
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

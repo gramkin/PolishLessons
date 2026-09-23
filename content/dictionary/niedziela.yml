@@ -1,0 +1,129 @@
+# review
+id: niedziela
+format: 2
+lemma: "niedziela"
+rank: 1862
+pos: noun
+pron: { cyr: "недзе́ля" }
+senses:
+  - id: sunday
+    ru: "воскресенье"
+    examples:
+      - pl: "Wczoraj była niedziela."
+        ru: "Вчера было воскресенье."
+        source: { kind: tatoeba, id: 354019 }
+      - pl: "Jutro będzie niedziela."
+        ru: "Завтра воскресенье."
+        source: { kind: tatoeba, id: 4451410 }
+      - pl: "Niedziela to ostatni dzień tygodnia."
+        ru: "Воскресенье - последний день недели."
+        source: { kind: tatoeba, id: 356536 }
+  - id: on-sunday
+    ru: "в воскресенье, по воскресеньям"
+    examples:
+      - pl: "Gramy w niedzielę."
+        ru: "Мы играем в воскресенье."
+        source: { kind: tatoeba, id: 6031120 }
+      - pl: "Pracuję w niedziele."
+        ru: "Я работаю по воскресеньям."
+        source: { kind: tatoeba, id: 5699790 }
+      - pl: "Nie pracujemy w niedziele."
+        ru: "Мы не работаем по воскресеньям."
+        source: { kind: tatoeba, id: 412922 }
+notes:
+  - { kind: government, text: "Когда — w niedzielę (винительный падеж): gramy w niedzielę. По воскресеньям — w niedziele, тоже винительный, но множественное число: pracuję w niedziele." }
+  - { kind: false-friend, text: "Главная ловушка: польское niedziela значит «воскресенье», а русское «неделя» — это tydzień. Слова похожи, а означают разное." }
+  - { kind: usage, text: "Само слово от nie dzielić «не делать»: воскресенье — день, когда не работают. Русское «неделя» имело то же значение, а потом стало обозначать семь дней." }
+  - { kind: usage, text: "Дни недели пишутся со строчной буквы: niedziela, poniedziałek. И poniedziałek буквально значит «после воскресенья»." }
+collocations:
+  - { pl: "w niedzielę", ru: "в воскресенье" }
+  - { pl: "w niedziele", ru: "по воскресеньям" }
+  - { pl: "co niedziela", ru: "каждое воскресенье" }
+family:
+  - { pl: "poniedziałek", ru: "понедельник", relation: root }
+  - { pl: "sobota", ru: "суббота", relation: root, id: sobota }
+  - { pl: "tydzień", ru: "неделя", relation: root, id: tydzien }
+etymology: "От nie dzielić «не делать, не работать»: день, когда не трудятся. Русское «неделя» значило то же самое, но потом стало названием семи дней — отсюда и ловушка."
+memory: "niedziela — «воскресенье», а не «неделя»: неделя по-польски tydzień. В воскресенье — w niedzielę, по воскресеньям — w niedziele."
+idioms:
+  - { pl: "w niedzielę", ru: "в воскресенье" }
+  - { pl: "w niedziele", ru: "по воскресеньям" }
+  - { pl: "od niedzieli", ru: "с воскресенья" }
+formExamplesSkip:
+  - { form: "niedzielach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "niedzielami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "niedzielo", reason: "звательная форма, в корпусе примеров нет" }
+  - { form: "niedzielom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "niedziel"
+    pl: "Nienawidzę niedziel."
+    ru: "Я ненавижу воскресенья."
+    source: { kind: translated, id: 10598386 }
+  - form: "niedziel"
+    pl: "On pracuje codziennie oprócz niedziel."
+    ru: "Он работает каждый день, кроме воскресений."
+    source: { kind: translated, id: 983432 }
+  - form: "niedziel"
+    pl: "Większość nie lubi niedziel, ale ja je lubię."
+    ru: "Большинство не любит воскресенья, а я их люблю."
+    source: { kind: translated, id: 7875659 }
+  - form: "niedziela"
+    pl: "Wczoraj była niedziela."
+    ru: "Вчера было воскресенье."
+    source: { kind: tatoeba, id: 354019 }
+  - form: "niedziela"
+    pl: "Jutro będzie niedziela."
+    ru: "Завтра воскресенье."
+    source: { kind: tatoeba, id: 4451410 }
+  - form: "niedziela"
+    pl: "Niedziela to ostatni dzień tygodnia."
+    ru: "Воскресенье - последний день недели."
+    source: { kind: tatoeba, id: 356536 }
+  - form: "niedzielą"
+    pl: "Sny są niedzielą dla myśli."
+    ru: "Сны — это воскресенье для мысли."
+    source: { kind: tatoeba, id: 12689739 }
+  - form: "niedzielą"
+    pl: "Między sobotą a niedzielą nic się nie zmieni."
+    ru: "Между субботой и воскресеньем ничего не изменится."
+    source: { kind: authored }
+  - form: "niedzielą"
+    pl: "Przed niedzielą muszę skończyć."
+    ru: "До воскресенья мне надо закончить."
+    source: { kind: authored }
+  - form: "niedziele"
+    pl: "Pracuję w niedziele."
+    ru: "Я работаю по воскресеньям."
+    source: { kind: tatoeba, id: 5699790 }
+  - form: "niedziele"
+    pl: "Co robisz w niedziele?"
+    ru: "Что ты делаешь по воскресеньям?"
+    source: { kind: tatoeba, id: 3926291 }
+  - form: "niedziele"
+    pl: "Nie pracujemy w niedziele."
+    ru: "Мы не работаем по воскресеньям."
+    source: { kind: tatoeba, id: 412922 }
+  - form: "niedzielę"
+    pl: "Gramy w niedzielę."
+    ru: "Мы играем в воскресенье."
+    source: { kind: tatoeba, id: 6031120 }
+  - form: "niedzielę"
+    pl: "Nie pracuję w niedzielę."
+    ru: "Я не работаю в воскресенье."
+    source: { kind: tatoeba, id: 529577 }
+  - form: "niedzielę"
+    pl: "Czy jesteś zajęty w niedzielę po południu?"
+    ru: "Ты занят в воскресенье после полудня?"
+    source: { kind: tatoeba, id: 351435 }
+  - form: "niedzieli"
+    pl: "Pada od niedzieli."
+    ru: "Дождь идёт с воскресенья."
+    source: { kind: translated, id: 8768495 }
+  - form: "niedzieli"
+    pl: "Zostaniemy tu do niedzieli."
+    ru: "Мы останемся здесь до воскресенья."
+    source: { kind: translated, id: 1824968 }
+  - form: "niedzieli"
+    pl: "Po niedzieli przychodzi poniedziałek."
+    ru: "После воскресенья приходит понедельник."
+    source: { kind: translated, id: 516549 }
