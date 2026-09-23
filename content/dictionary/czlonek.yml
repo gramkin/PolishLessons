@@ -1,0 +1,188 @@
+# review
+id: czlonek
+format: 2
+lemma: "członek"
+rank: 953
+pos: noun
+pron: { cyr: "чўо́нэк" }
+senses:
+  - id: member
+    ru: "член (организации, клуба)"
+    examples:
+      - pl: "Ile osób może zaprosić członek klubu?"
+        ru: "Сколько человек может пригласить член клуба?"
+        source: { kind: translated, id: 751488 }
+      - pl: "Członek tajnej organizacji popełnił samobójstwo."
+        ru: "Член тайной организации покончил с собой."
+        source: { kind: translated, id: 10836576 }
+      - pl: "Tom jest członkiem komitetu."
+        ru: "Том — член комитета."
+        source: { kind: translated, id: 4467956 }
+  - id: of-family
+    ru: "член семьи, участник группы"
+    examples:
+      - pl: "Ten kot to właściwie członek naszej rodziny."
+        ru: "Этот кот, по сути, член нашей семьи."
+        source: { kind: translated, id: 780324 }
+      - pl: "Jesteś członkiem zespołu."
+        ru: "Ты член команды."
+        source: { kind: translated, id: 13030390 }
+      - pl: "Zostałem wybrany na członka drużyny."
+        ru: "Меня выбрали в состав команды."
+        source: { kind: translated, id: 3041709 }
+  - id: plural
+    ru: "członkowie — члены (о людях)"
+    note: "Множественное мужского лица — członkowie, а не «członki»."
+    examples:
+      - pl: "Członkowie klubu zebrali się w sali konferencyjnej."
+        ru: "Члены клуба собрались в конференц-зале."
+        source: { kind: tatoeba, id: 369051 }
+      - pl: "Wszyscy członkowie byli obecni."
+        ru: "Все члены присутствовали."
+        source: { kind: translated, id: 6635704 }
+      - pl: "Komitet liczy 15 członków."
+        ru: "В комитете пятнадцать членов."
+        source: { kind: translated, id: 592356 }
+notes:
+  - { kind: usage, text: "Множественное число мужского лица — członkowie «члены (люди)». Форма członki к людям не относится: так называют части чего-либо, например механизма." }
+  - { kind: government, text: "После być и zostać — творительный падеж: jest członkiem komitetu «он член комитета», został wybrany na członka «его выбрали членом» — тут винительный после na." }
+  - { kind: usage, text: "У слова есть и анатомическое значение, как у русского «член», но в корпусе оно не встречается ни разу: в обиходе słowo значит прежде всего «участник, член организации»." }
+  - { kind: usage, text: "Женская пара — członkini «член (о женщине)». Членство — członkostwo, а отдельная часть чего-то — człon." }
+collocations:
+  - { pl: "członek klubu", ru: "член клуба" }
+  - { pl: "członek rodziny", ru: "член семьи" }
+  - { pl: "członkowie komitetu", ru: "члены комитета" }
+  - { pl: "członkostwo", ru: "членство" }
+family:
+  - { pl: "członkini", ru: "член (о женщине)", relation: derived }
+  - { pl: "członkostwo", ru: "членство", relation: derived }
+  - { pl: "człon", ru: "звено, часть", relation: root }
+etymology: "От człon «звено, часть», праславянское *čelnъ. Русское «член» — то же слово, и оба языка развили из «части» значение «участник»."
+memory: "członek — «член» организации, клуба, семьи. Множественное мужского лица — członkowie, а не «członki»: последнее относится к частям механизма. После być — творительный: jest członkiem komitetu. Женская пара — członkini."
+idioms:
+  - { pl: "członek klubu", ru: "член клуба" }
+  - { pl: "członek rodziny", ru: "член семьи" }
+  - { pl: "członkowie komitetu", ru: "члены комитета" }
+formExamplesSkip:
+  - { form: "członki", reason: "множественное число о людях — członkowie; форма członki относится к частям механизма, а не к членам организации" }
+formExamples:
+  - form: "członek"
+    pl: "Ile osób może zaprosić członek klubu?"
+    ru: "Сколько человек может пригласить член клуба?"
+    source: { kind: translated, id: 751488 }
+  - form: "członek"
+    pl: "Ten kot to właściwie członek naszej rodziny."
+    ru: "Этот кот, по сути, член нашей семьи."
+    source: { kind: translated, id: 780324 }
+  - form: "członek"
+    pl: "Członek tajnej organizacji popełnił samobójstwo."
+    ru: "Член тайной организации покончил с собой."
+    source: { kind: translated, id: 10836576 }
+  - form: "członka"
+    pl: "Potrzebujemy następnego członka."
+    ru: "Нам нужен ещё один участник."
+    source: { kind: translated, id: 8376133 }
+  - form: "członka"
+    pl: "Zostałem wybrany na członka drużyny."
+    ru: "Меня выбрали в состав команды."
+    source: { kind: translated, id: 3041709 }
+  - form: "członka"
+    pl: "Było włamanie do rezydencji członka rządu."
+    ru: "В резиденцию члена правительства проникли воры."
+    source: { kind: translated, id: 705248 }
+  - form: "członkach"
+    pl: "O nowych członkach mówiono na zebraniu."
+    ru: "О новых членах говорили на собрании."
+    source: { kind: authored }
+  - form: "członkach"
+    pl: "W tych członkach zespołu jest zapał."
+    ru: "В этих членах команды есть задор."
+    source: { kind: authored }
+  - form: "członkach"
+    pl: "Mówili o członkach komisji."
+    ru: "Они говорили о членах комиссии."
+    source: { kind: authored }
+  - form: "członkami"
+    pl: "I on, i ja jesteśmy członkami tego klubu."
+    ru: "И он, и я являемся членами этого клуба."
+    source: { kind: tatoeba, id: 10768424 }
+  - form: "członkami"
+    pl: "Osoby nie będące członkami płacą 50 dolarów więcej."
+    ru: "Лица, не состоящие в членах, платят на пятьдесят долларов больше."
+    source: { kind: translated, id: 362530 }
+  - form: "członkami"
+    pl: "Ci mężczyźni są najmądrzejszymi członkami plemienia."
+    ru: "Эти мужчины — самые мудрые члены племени."
+    source: { kind: translated, id: 12260880 }
+  - form: "członkiem"
+    pl: "Tom nie jest członkiem."
+    ru: "Том не член."
+    source: { kind: translated, id: 5699045 }
+  - form: "członkiem"
+    pl: "Jesteś członkiem zespołu."
+    ru: "Ты член команды."
+    source: { kind: translated, id: 13030390 }
+  - form: "członkiem"
+    pl: "Tom jest członkiem komitetu."
+    ru: "Том — член комитета."
+    source: { kind: translated, id: 4467956 }
+  - form: "członkom"
+    pl: "Rozesłano członkom zaproszenia."
+    ru: "Членам разослали приглашения."
+    source: { kind: authored }
+  - form: "członkom"
+    pl: "Dzięki członkom klub przetrwał."
+    ru: "Благодаря членам клуб выжил."
+    source: { kind: authored }
+  - form: "członkom"
+    pl: "Przyjrzał się nowym członkom."
+    ru: "Он присмотрелся к новым членам."
+    source: { kind: authored }
+  - form: "członkowi"
+    pl: "Przyznano członkowi nagrodę."
+    ru: "Члену клуба вручили награду."
+    source: { kind: authored }
+  - form: "członkowi"
+    pl: "Odmówiono członkowi wstępu."
+    ru: "Члену организации отказали во входе."
+    source: { kind: authored }
+  - form: "członkowi"
+    pl: "Pomógł nowemu członkowi zespołu."
+    ru: "Он помог новому члену команды."
+    source: { kind: authored }
+  - form: "członkowie"
+    pl: "Członkowie klubu zebrali się w sali konferencyjnej."
+    ru: "Члены клуба собрались в конференц-зале."
+    source: { kind: tatoeba, id: 369051 }
+  - form: "członkowie"
+    pl: "Kim są głosujący członkowie?"
+    ru: "Кто из членов имеет право голоса?"
+    source: { kind: translated, id: 13582202 }
+  - form: "członkowie"
+    pl: "Wszyscy członkowie byli obecni."
+    ru: "Все члены присутствовали."
+    source: { kind: translated, id: 6635704 }
+  - form: "członków"
+    pl: "Komitet liczy 15 członków."
+    ru: "В комитете пятнадцать членов."
+    source: { kind: translated, id: 592356 }
+  - form: "członków"
+    pl: "Klub ma trzydziestu członków."
+    ru: "В клубе тридцать членов."
+    source: { kind: translated, id: 451117 }
+  - form: "członków"
+    pl: "Ten klub ma ponad 50 członków."
+    ru: "В этом клубе больше пятидесяти членов."
+    source: { kind: translated, id: 349566 }
+  - form: "członku"
+    pl: "W tym członku zespołu widać talent."
+    ru: "В этом члене команды виден талант."
+    source: { kind: authored }
+  - form: "członku"
+    pl: "O tym członku klubu mówi się wiele."
+    ru: "Об этом члене клуба много говорят."
+    source: { kind: authored }
+  - form: "członku"
+    pl: "Po nowym członku widać zapał."
+    ru: "По новому члену виден задор."
+    source: { kind: authored }

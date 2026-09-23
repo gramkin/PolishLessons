@@ -1,0 +1,692 @@
+# review
+id: odpowiadac
+format: 2
+lemma: "odpowiadać"
+rank: 949
+pos: verb
+aspect: imperf
+aspectPair: odpowiedziec
+pron: { cyr: "отповя́даць" }
+senses:
+  - id: answer
+    ru: "отвечать (на вопрос, на звонок)"
+    examples:
+      - pl: "Dlaczego Mary nie odpowiada na moje telefony?"
+        ru: "Почему Мэри не отвечает на мои звонки?"
+        source: { kind: tatoeba, id: 5924081 }
+      - pl: "Dlaczego przestała mi odpowiadać?"
+        ru: "Почему она перестала мне отвечать?"
+        source: { kind: tatoeba, id: 11264114 }
+      - pl: "Dlaczego nie odpowiadasz?"
+        ru: "Почему ты не отвечаешь?"
+        source: { kind: translated, id: 10616061 }
+  - id: suit
+    ru: "odpowiadać komuś — подходить, устраивать кого-л."
+    note: "Совсем не «отвечать»: речь о том, что нечто устраивает."
+    examples:
+      - pl: "Ta książka odpowiada twoim potrzebom."
+        ru: "Эта книга отвечает твоим потребностям."
+        source: { kind: tatoeba, id: 352484 }
+      - pl: "Nie potrafię znaleźć pracy, która by mi odpowiadała."
+        ru: "Я не могу найти работу, которая бы мне подходила."
+        source: { kind: translated, id: 6441531 }
+      - pl: "Towarzystwo Toma mi odpowiadało."
+        ru: "Общество Тома меня устраивало."
+        source: { kind: translated, id: 10698017 }
+  - id: responsible
+    ru: "odpowiadać za coś — отвечать за что-л., нести ответственность"
+    examples:
+      - pl: "Za małoletnie dzieci odpowiadają rodzice."
+        ru: "Родители несут ответственность за несовершеннолетних детей."
+        source: { kind: tatoeba, id: 12016252 }
+      - pl: "Nie odpowiadam za to, co zrobił Tom."
+        ru: "Я не отвечаю за то, что сделал Том."
+        source: { kind: translated, id: 7905726 }
+      - pl: "Odpowiadał za konserwację świątyni."
+        ru: "Он отвечал за содержание храма."
+        source: { kind: translated, id: 13091025 }
+notes:
+  - { kind: government, text: "Три разных управления, и путать их нельзя. odpowiadać NA coś «отвечать на что-то» — винительный после na. odpowiadać komuś «устраивать кого-то» — дательный без предлога. odpowiadać ZA coś «отвечать за что-то» — винительный после za." }
+  - { kind: false-friend, text: "Значение «устраивать, подходить» для русского уха неожиданно: Ta książka odpowiada twoim potrzebom значит «Эта книга отвечает твоим потребностям», а Towarzystwo Toma mi odpowiadało — «Общество Тома меня устраивало»." }
+  - { kind: usage, text: "Совершенный вид — odpowiedzieć, но только в значении «ответить». Для «устраивать» и «отвечать за» пара не образуется: это состояния." }
+  - { kind: usage, text: "Однокоренные вам уже знакомы: odpowiedź «ответ», odpowiedni «подходящий», odpowiedzialny «ответственный». Все три смысла глагола видны в этом гнезде." }
+collocations:
+  - { pl: "odpowiadać na pytanie", ru: "отвечать на вопрос" }
+  - { pl: "to mi odpowiada", ru: "это мне подходит" }
+  - { pl: "odpowiadać za coś", ru: "отвечать за что-то" }
+  - { pl: "odpowiedzialny", ru: "ответственный" }
+family:
+  - { pl: "odpowiedzieć", ru: "ответить", relation: aspect, id: odpowiedziec }
+  - { pl: "odpowiedź", ru: "ответ", relation: root, id: odpowiedz }
+  - { pl: "odpowiedni", ru: "подходящий", relation: root, id: odpowiedni }
+etymology: "Из od- + powiadać «говорить», того же корня, что powiedzieć «сказать». Русское «отвечать» собрано иначе, от «вет» — «слово, совет», но мысль та же."
+memory: "odpowiadać — не только «отвечать». Три управления, три смысла: odpowiadać NA pytanie «отвечать на вопрос», odpowiadać komuś «устраивать кого-то» (To mi odpowiada «Мне это подходит») и odpowiadać ZA coś «отвечать за что-то». Совершенный вид — odpowiedzieć, но только для первого значения."
+idioms:
+  - { pl: "odpowiadać na pytanie", ru: "отвечать на вопрос" }
+  - { pl: "to mi odpowiada", ru: "это мне подходит" }
+  - { pl: "odpowiadać za coś", ru: "отвечать за что-то" }
+formExamples:
+  - form: "odpowiada"
+    pl: "Ta książka odpowiada twoim potrzebom."
+    ru: "Эта книга отвечает твоим потребностям."
+    source: { kind: tatoeba, id: 352484 }
+  - form: "odpowiada"
+    pl: "Dlaczego Mary nie odpowiada na moje telefony?"
+    ru: "Почему Мэри не отвечает на мои звонки?"
+    source: { kind: tatoeba, id: 5924081 }
+  - form: "odpowiada"
+    pl: "Ten termin mi odpowiada."
+    ru: "Этот срок мне подходит."
+    source: { kind: authored }
+  - form: "odpowiadacie"
+    pl: "Odpowiadacie za cały projekt."
+    ru: "Вы отвечаете за весь проект."
+    source: { kind: authored }
+  - form: "odpowiadacie"
+    pl: "Dlaczego nie odpowiadacie?"
+    ru: "Почему вы не отвечаете?"
+    source: { kind: authored }
+  - form: "odpowiadacie"
+    pl: "Odpowiadacie zawsze tak późno."
+    ru: "Вы всегда отвечаете так поздно."
+    source: { kind: authored }
+  - form: "odpowiadać"
+    pl: "Dlaczego przestała mi odpowiadać?"
+    ru: "Почему она перестала мне отвечать?"
+    source: { kind: tatoeba, id: 11264114 }
+  - form: "odpowiadać"
+    pl: "Powinnam odpowiadać?"
+    ru: "Мне следует отвечать?"
+    source: { kind: translated, id: 7969895 }
+  - form: "odpowiadać"
+    pl: "Nie musisz odpowiadać od razu."
+    ru: "Тебе не нужно отвечать сразу."
+    source: { kind: authored }
+  - form: "odpowiadaj"
+    pl: "Nie mówię w twoim języku, odpowiadaj na pytania tylko „tak” lub „nie”."
+    ru: "Я не говорю по-вашему. Отвечайте на вопросы только \"да\" или \"нет\"."
+    source: { kind: tatoeba, id: 10695715 }
+  - form: "odpowiadaj"
+    pl: "Odpowiadaj."
+    ru: "Отвечай."
+    source: { kind: translated, id: 11261686 }
+  - form: "odpowiadaj"
+    pl: "Odpowiadaj krótko i jasno."
+    ru: "Отвечай коротко и ясно."
+    source: { kind: authored }
+  - form: "odpowiadają"
+    pl: "Za małoletnie dzieci odpowiadają rodzice."
+    ru: "Родители несут ответственность за несовершеннолетних детей."
+    source: { kind: tatoeba, id: 12016252 }
+  - form: "odpowiadają"
+    pl: "Jej czyny odpowiadają słowom."
+    ru: "Её дела соответствуют словам."
+    source: { kind: translated, id: 448833 }
+  - form: "odpowiadają"
+    pl: "Warunki nam odpowiadają."
+    ru: "Условия нам подходят."
+    source: { kind: authored }
+  - form: "odpowiadając"
+    pl: "Odpowiadając, uśmiechnął się."
+    ru: "Отвечая, он улыбнулся."
+    source: { kind: authored }
+  - form: "odpowiadając"
+    pl: "Odpowiadając za dział, musiał wiedzieć wszystko."
+    ru: "Отвечая за отдел, он должен был знать всё."
+    source: { kind: authored }
+  - form: "odpowiadając"
+    pl: "Nie odpowiadając nic, wyszedł."
+    ru: "Ничего не ответив, он вышел."
+    source: { kind: authored }
+  - form: "odpowiadająca"
+    pl: "Osoba odpowiadająca za kasę była nieobecna."
+    ru: "Отвечавшая за кассу была в отсутствии."
+    source: { kind: authored }
+  - form: "odpowiadająca"
+    pl: "Praca odpowiadająca moim oczekiwaniom to rzadkość."
+    ru: "Работа, отвечающая моим ожиданиям, — редкость."
+    source: { kind: authored }
+  - form: "odpowiadająca"
+    pl: "Odpowiadająca za projekt szefowa zabrała głos."
+    ru: "Отвечающая за проект начальница взяла слово."
+    source: { kind: authored }
+  - form: "odpowiadającą"
+    pl: "Znalazł pracę odpowiadającą jego kwalifikacjom."
+    ru: "Он нашёл работу, соответствующую его квалификации."
+    source: { kind: authored }
+  - form: "odpowiadającą"
+    pl: "Wybrał ofertę odpowiadającą budżetowi."
+    ru: "Он выбрал предложение, отвечающее бюджету."
+    source: { kind: authored }
+  - form: "odpowiadającą"
+    pl: "Uznali cenę za odpowiadającą jakości."
+    ru: "Цену сочли соответствующей качеству."
+    source: { kind: authored }
+  - form: "odpowiadające"
+    pl: "Warunki odpowiadające obu stronom udało się znaleźć."
+    ru: "Условия, устраивающие обе стороны, удалось найти."
+    source: { kind: authored }
+  - form: "odpowiadające"
+    pl: "Osoby odpowiadające za projekt spotkały się rano."
+    ru: "Отвечающие за проект встретились утром."
+    source: { kind: authored }
+  - form: "odpowiadające"
+    pl: "Rozwiązania odpowiadające potrzebom są drogie."
+    ru: "Решения, отвечающие потребностям, дороги."
+    source: { kind: authored }
+  - form: "odpowiadającego"
+    pl: "Nie ma tu nikogo odpowiadającego za kasę."
+    ru: "Здесь нет никого, отвечающего за кассу."
+    source: { kind: authored }
+  - form: "odpowiadającego"
+    pl: "Szukam rozwiązania odpowiadającego potrzebom."
+    ru: "Я ищу решение, отвечающее потребностям."
+    source: { kind: authored }
+  - form: "odpowiadającego"
+    pl: "Dotyczy to pracownika odpowiadającego za dział."
+    ru: "Это касается сотрудника, отвечающего за отдел."
+    source: { kind: authored }
+  - form: "odpowiadającej"
+    pl: "Nie ma tu osoby odpowiadającej za kasę."
+    ru: "Здесь нет человека, отвечающего за кассу."
+    source: { kind: authored }
+  - form: "odpowiadającej"
+    pl: "Szukam oferty odpowiadającej budżetowi."
+    ru: "Я ищу предложение, отвечающее бюджету."
+    source: { kind: authored }
+  - form: "odpowiadającej"
+    pl: "Dotyczy to firmy odpowiadającej za dostawy."
+    ru: "Это касается фирмы, отвечающей за поставки."
+    source: { kind: authored }
+  - form: "odpowiadającemu"
+    pl: "Przyjrzał się pracownikowi odpowiadającemu za dział."
+    ru: "Он присмотрелся к сотруднику, отвечающему за отдел."
+    source: { kind: authored }
+  - form: "odpowiadającemu"
+    pl: "Zaufał rozwiązaniu odpowiadającemu obu stronom."
+    ru: "Он доверился решению, устраивающему обе стороны."
+    source: { kind: authored }
+  - form: "odpowiadającemu"
+    pl: "Podziękował odpowiadającemu za projekt koledze."
+    ru: "Он поблагодарил коллегу, отвечавшего за проект."
+    source: { kind: authored }
+  - form: "odpowiadający"
+    pl: "Pracownik odpowiadający za kasę zachorował."
+    ru: "Сотрудник, отвечающий за кассу, заболел."
+    source: { kind: authored }
+  - form: "odpowiadający"
+    pl: "To wariant odpowiadający naszym potrzebom."
+    ru: "Это вариант, отвечающий нашим потребностям."
+    source: { kind: authored }
+  - form: "odpowiadający"
+    pl: "Odpowiadający za projekt zabrał głos."
+    ru: "Отвечающий за проект взял слово."
+    source: { kind: authored }
+  - form: "odpowiadających"
+    pl: "Nie ma tu osób odpowiadających za dostawy."
+    ru: "Здесь нет людей, отвечающих за поставки."
+    source: { kind: authored }
+  - form: "odpowiadających"
+    pl: "Wśród odpowiadających za projekt był i on."
+    ru: "Среди отвечающих за проект был и он."
+    source: { kind: authored }
+  - form: "odpowiadających"
+    pl: "Szukam ofert odpowiadających budżetowi."
+    ru: "Я ищу предложения, отвечающие бюджету."
+    source: { kind: authored }
+  - form: "odpowiadającym"
+    pl: "Mówili o pracowniku odpowiadającym za dział."
+    ru: "Они говорили о сотруднике, отвечающем за отдел."
+    source: { kind: authored }
+  - form: "odpowiadającym"
+    pl: "Przyjrzał się warunkom odpowiadającym obu stronom."
+    ru: "Он присмотрелся к условиям, устраивающим обе стороны."
+    source: { kind: authored }
+  - form: "odpowiadającym"
+    pl: "Zajął się rozwiązaniem odpowiadającym potrzebom."
+    ru: "Он занялся решением, отвечающим потребностям."
+    source: { kind: authored }
+  - form: "odpowiadającymi"
+    pl: "Zajmuje się osobami odpowiadającymi za dostawy."
+    ru: "Он занимается людьми, отвечающими за поставки."
+    source: { kind: authored }
+  - form: "odpowiadającymi"
+    pl: "Między odpowiadającymi a wykonawcami jest różnica."
+    ru: "Между отвечающими и исполнителями есть разница."
+    source: { kind: authored }
+  - form: "odpowiadającymi"
+    pl: "Rozmawiał z odpowiadającymi za projekt."
+    ru: "Он говорил с отвечающими за проект."
+    source: { kind: authored }
+  - form: "odpowiadajcie"
+    pl: "Nie odpowiadajcie!"
+    ru: "Не отвечайте!"
+    source: { kind: translated, id: 13528119 }
+  - form: "odpowiadajcie"
+    pl: "Odpowiadajcie po kolei."
+    ru: "Отвечайте по очереди."
+    source: { kind: authored }
+  - form: "odpowiadajcie"
+    pl: "Nie odpowiadajcie pochopnie."
+    ru: "Не отвечайте сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadajmy"
+    pl: "Odpowiadajmy spokojnie."
+    ru: "Будем отвечать спокойно."
+    source: { kind: authored }
+  - form: "odpowiadajmy"
+    pl: "Nie odpowiadajmy pochopnie."
+    ru: "Не будем отвечать сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadajmy"
+    pl: "Odpowiadajmy po kolei."
+    ru: "Будем отвечать по очереди."
+    source: { kind: authored }
+  - form: "odpowiadali"
+    pl: "Studenci odpowiadali kolejno."
+    ru: "Студенты отвечали по очереди."
+    source: { kind: translated, id: 4653153 }
+  - form: "odpowiadali"
+    pl: "Studenci odpowiadali po kolei."
+    ru: "Студенты отвечали один за другим."
+    source: { kind: translated, id: 4653152 }
+  - form: "odpowiadali"
+    pl: "Odpowiadali za bezpieczeństwo gości."
+    ru: "Они отвечали за безопасность гостей."
+    source: { kind: authored }
+  - form: "odpowiadaliby"
+    pl: "Odpowiadaliby chętniej na proste pytania."
+    ru: "Они охотнее отвечали бы на простые вопросы."
+    source: { kind: authored }
+  - form: "odpowiadaliby"
+    pl: "Nie odpowiadaliby za cudze błędy."
+    ru: "Они не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadaliby"
+    pl: "Odpowiadaliby za cały dział."
+    ru: "Они отвечали бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadalibyście"
+    pl: "Odpowiadalibyście za cały projekt."
+    ru: "Вы отвечали бы за весь проект."
+    source: { kind: authored }
+  - form: "odpowiadalibyście"
+    pl: "Nie odpowiadalibyście za cudze błędy."
+    ru: "Вы не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadalibyście"
+    pl: "Odpowiadalibyście chętniej na proste pytania."
+    ru: "Вы охотнее отвечали бы на простые вопросы."
+    source: { kind: authored }
+  - form: "odpowiadalibyśmy"
+    pl: "Odpowiadalibyśmy za cały projekt."
+    ru: "Мы отвечали бы за весь проект."
+    source: { kind: authored }
+  - form: "odpowiadalibyśmy"
+    pl: "Nie odpowiadalibyśmy za cudze błędy."
+    ru: "Мы не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadalibyśmy"
+    pl: "Odpowiadalibyśmy po kolei."
+    ru: "Мы отвечали бы по очереди."
+    source: { kind: authored }
+  - form: "odpowiadaliście"
+    pl: "Odpowiadaliście za bezpieczeństwo."
+    ru: "Вы отвечали за безопасность."
+    source: { kind: authored }
+  - form: "odpowiadaliście"
+    pl: "Dlaczego nie odpowiadaliście?"
+    ru: "Почему вы не отвечали?"
+    source: { kind: authored }
+  - form: "odpowiadaliście"
+    pl: "Odpowiadaliście po kolei."
+    ru: "Вы отвечали по очереди."
+    source: { kind: authored }
+  - form: "odpowiadaliśmy"
+    pl: "Odpowiadaliśmy za bezpieczeństwo."
+    ru: "Мы отвечали за безопасность."
+    source: { kind: authored }
+  - form: "odpowiadaliśmy"
+    pl: "Odpowiadaliśmy po kolei."
+    ru: "Мы отвечали по очереди."
+    source: { kind: authored }
+  - form: "odpowiadaliśmy"
+    pl: "Nigdy nie odpowiadaliśmy pochopnie."
+    ru: "Мы никогда не отвечали сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadał"
+    pl: "Nie będę odpowiadał na pytania."
+    ru: "Я не буду отвечать на вопросы."
+    source: { kind: translated, id: 6305738 }
+  - form: "odpowiadał"
+    pl: "Odpowiadał za konserwację świątyni."
+    ru: "Он отвечал за содержание храма."
+    source: { kind: translated, id: 13091025 }
+  - form: "odpowiadał"
+    pl: "Odpowiadał krótko i rzeczowo."
+    ru: "Он отвечал коротко и по делу."
+    source: { kind: authored }
+  - form: "odpowiadała"
+    pl: "Ona odpowiadała płacząc."
+    ru: "Она отвечала, плача."
+    source: { kind: translated, id: 1972201 }
+  - form: "odpowiadała"
+    pl: "Nie potrafię znaleźć pracy, która by mi odpowiadała."
+    ru: "Я не могу найти работу, которая бы мне подходила."
+    source: { kind: translated, id: 6441531 }
+  - form: "odpowiadała"
+    pl: "Odpowiadała za kuchnię."
+    ru: "Она отвечала за кухню."
+    source: { kind: authored }
+  - form: "odpowiadałaby"
+    pl: "Odpowiadałaby za kuchnię."
+    ru: "Она отвечала бы за кухню."
+    source: { kind: authored }
+  - form: "odpowiadałaby"
+    pl: "Odpowiadałaby chętniej na listy."
+    ru: "Она охотнее отвечала бы на письма."
+    source: { kind: authored }
+  - form: "odpowiadałaby"
+    pl: "Nie odpowiadałaby za cudze błędy."
+    ru: "Она не отвечала бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałabym"
+    pl: "Odpowiadałabym za cały dział."
+    ru: "Я отвечала бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadałabym"
+    pl: "Nie odpowiadałabym za cudze błędy."
+    ru: "Я не отвечала бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałabym"
+    pl: "Odpowiadałabym chętniej na listy."
+    ru: "Я охотнее отвечала бы на письма."
+    source: { kind: authored }
+  - form: "odpowiadałabyś"
+    pl: "Odpowiadałabyś za cały dział."
+    ru: "Ты отвечала бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadałabyś"
+    pl: "Nie odpowiadałabyś za cudze błędy."
+    ru: "Ты не отвечала бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałabyś"
+    pl: "Odpowiadałabyś chętniej na listy?"
+    ru: "Ты охотнее отвечала бы на письма?"
+    source: { kind: authored }
+  - form: "odpowiadałam"
+    pl: "Odpowiadałam za kasę."
+    ru: "Я отвечала за кассу."
+    source: { kind: authored }
+  - form: "odpowiadałam"
+    pl: "Odpowiadałam na listy co wieczór."
+    ru: "Я отвечала на письма каждый вечер."
+    source: { kind: authored }
+  - form: "odpowiadałam"
+    pl: "Nigdy nie odpowiadałam pochopnie."
+    ru: "Я никогда не отвечала сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadałaś"
+    pl: "Odpowiadałaś za kasę?"
+    ru: "Ты отвечала за кассу?"
+    source: { kind: authored }
+  - form: "odpowiadałaś"
+    pl: "Dlaczego nie odpowiadałaś?"
+    ru: "Почему ты не отвечала?"
+    source: { kind: authored }
+  - form: "odpowiadałaś"
+    pl: "Odpowiadałaś zawsze spokojnie."
+    ru: "Ты всегда отвечала спокойно."
+    source: { kind: authored }
+  - form: "odpowiadałby"
+    pl: "Odpowiadałby za cały dział."
+    ru: "Он отвечал бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadałby"
+    pl: "Nie odpowiadałby za cudze błędy."
+    ru: "Он не отвечал бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałby"
+    pl: "Odpowiadałby chętniej na proste pytania."
+    ru: "Он охотнее отвечал бы на простые вопросы."
+    source: { kind: authored }
+  - form: "odpowiadałbym"
+    pl: "Odpowiadałbym za cały dział."
+    ru: "Я отвечал бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadałbym"
+    pl: "Nie odpowiadałbym za cudze błędy."
+    ru: "Я не отвечал бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałbym"
+    pl: "Odpowiadałbym chętniej na listy."
+    ru: "Я охотнее отвечал бы на письма."
+    source: { kind: authored }
+  - form: "odpowiadałbyś"
+    pl: "Odpowiadałbyś za cały dział."
+    ru: "Ты отвечал бы за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadałbyś"
+    pl: "Nie odpowiadałbyś za cudze błędy."
+    ru: "Ты не отвечал бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałbyś"
+    pl: "Odpowiadałbyś chętniej na listy?"
+    ru: "Ты охотнее отвечал бы на письма?"
+    source: { kind: authored }
+  - form: "odpowiadałem"
+    pl: "Odpowiadałem za kasę."
+    ru: "Я отвечал за кассу."
+    source: { kind: authored }
+  - form: "odpowiadałem"
+    pl: "Odpowiadałem na listy co wieczór."
+    ru: "Я отвечал на письма каждый вечер."
+    source: { kind: authored }
+  - form: "odpowiadałem"
+    pl: "Nigdy nie odpowiadałem pochopnie."
+    ru: "Я никогда не отвечал сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadałeś"
+    pl: "Nigdy nie odpowiadałeś na moje telefony."
+    ru: "Ты никогда не отвечал на мои звонки."
+    source: { kind: translated, id: 6157217 }
+  - form: "odpowiadałeś"
+    pl: "Odpowiadałeś za cały zespół."
+    ru: "Ты отвечал за всю команду."
+    source: { kind: authored }
+  - form: "odpowiadałeś"
+    pl: "Dlaczego nie odpowiadałeś?"
+    ru: "Почему ты не отвечал?"
+    source: { kind: authored }
+  - form: "odpowiadało"
+    pl: "Towarzystwo Toma mi odpowiadało."
+    ru: "Общество Тома меня устраивало."
+    source: { kind: translated, id: 10698017 }
+  - form: "odpowiadało"
+    pl: "Dziecko odpowiadało cicho."
+    ru: "Ребёнок отвечал тихо."
+    source: { kind: authored }
+  - form: "odpowiadało"
+    pl: "To rozwiązanie nikomu nie odpowiadało."
+    ru: "Это решение никого не устраивало."
+    source: { kind: authored }
+  - form: "odpowiadałoby"
+    pl: "Czy odpowiadałoby panu rozpocząć pracę od jutra?"
+    ru: "Вас устроило бы начать работу с завтрашнего дня?"
+    source: { kind: translated, id: 3647815 }
+  - form: "odpowiadałoby"
+    pl: "Czy jutro odpowiadałoby panu?"
+    ru: "Вас устроило бы завтра?"
+    source: { kind: authored }
+  - form: "odpowiadałoby"
+    pl: "To nikomu nie odpowiadałoby."
+    ru: "Это никого не устроило бы."
+    source: { kind: authored }
+  - form: "odpowiadały"
+    pl: "Jej czyny odpowiadały słowom."
+    ru: "Её дела соответствовали словам."
+    source: { kind: authored }
+  - form: "odpowiadały"
+    pl: "Warunki nam odpowiadały."
+    ru: "Условия нас устраивали."
+    source: { kind: authored }
+  - form: "odpowiadały"
+    pl: "Dziewczyny odpowiadały po kolei."
+    ru: "Девушки отвечали по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałyby"
+    pl: "Takie warunki odpowiadałyby nam bardziej."
+    ru: "Такие условия устроили бы нас больше."
+    source: { kind: authored }
+  - form: "odpowiadałyby"
+    pl: "Nie odpowiadałyby za cudze błędy."
+    ru: "Они не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałyby"
+    pl: "Odpowiadałyby po kolei."
+    ru: "Они отвечали бы по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałybyście"
+    pl: "Odpowiadałybyście za cały projekt."
+    ru: "Вы отвечали бы за весь проект."
+    source: { kind: authored }
+  - form: "odpowiadałybyście"
+    pl: "Nie odpowiadałybyście za cudze błędy."
+    ru: "Вы не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałybyście"
+    pl: "Odpowiadałybyście po kolei."
+    ru: "Вы отвечали бы по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałybyśmy"
+    pl: "Odpowiadałybyśmy za cały projekt."
+    ru: "Мы отвечали бы за весь проект."
+    source: { kind: authored }
+  - form: "odpowiadałybyśmy"
+    pl: "Nie odpowiadałybyśmy za cudze błędy."
+    ru: "Мы не отвечали бы за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadałybyśmy"
+    pl: "Odpowiadałybyśmy po kolei."
+    ru: "Мы отвечали бы по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałyście"
+    pl: "Odpowiadałyście za kasę?"
+    ru: "Вы отвечали за кассу?"
+    source: { kind: authored }
+  - form: "odpowiadałyście"
+    pl: "Dlaczego nie odpowiadałyście?"
+    ru: "Почему вы не отвечали?"
+    source: { kind: authored }
+  - form: "odpowiadałyście"
+    pl: "Odpowiadałyście po kolei."
+    ru: "Вы отвечали по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałyśmy"
+    pl: "Odpowiadałyśmy za kasę."
+    ru: "Мы отвечали за кассу."
+    source: { kind: authored }
+  - form: "odpowiadałyśmy"
+    pl: "Odpowiadałyśmy po kolei."
+    ru: "Мы отвечали по очереди."
+    source: { kind: authored }
+  - form: "odpowiadałyśmy"
+    pl: "Nigdy nie odpowiadałyśmy pochopnie."
+    ru: "Мы никогда не отвечали сгоряча."
+    source: { kind: authored }
+  - form: "odpowiadam"
+    pl: "Odpowiadam kontrpytaniem."
+    ru: "Я отвечаю встречным вопросом."
+    source: { kind: translated, id: 8671644 }
+  - form: "odpowiadam"
+    pl: "Nie odpowiadam za to, co zrobił Tom."
+    ru: "Я не отвечаю за то, что сделал Том."
+    source: { kind: translated, id: 7905726 }
+  - form: "odpowiadam"
+    pl: "Odpowiadam za ten dział."
+    ru: "Я отвечаю за этот отдел."
+    source: { kind: authored }
+  - form: "odpowiadamy"
+    pl: "Odpowiadamy za cały dział."
+    ru: "Мы отвечаем за весь отдел."
+    source: { kind: authored }
+  - form: "odpowiadamy"
+    pl: "Odpowiadamy na listy w ciągu doby."
+    ru: "Мы отвечаем на письма в течение суток."
+    source: { kind: authored }
+  - form: "odpowiadamy"
+    pl: "Nie odpowiadamy za cudze błędy."
+    ru: "Мы не отвечаем за чужие ошибки."
+    source: { kind: authored }
+  - form: "odpowiadania"
+    pl: "Nie ma potrzeby odpowiadania na ten list."
+    ru: "Нет нужды отвечать на это письмо."
+    source: { kind: translated, id: 581287 }
+  - form: "odpowiadania"
+    pl: "Unikał odpowiadania na pytania."
+    ru: "Он избегал отвечать на вопросы."
+    source: { kind: authored }
+  - form: "odpowiadania"
+    pl: "Nie ma obowiązku odpowiadania."
+    ru: "Отвечать не обязан."
+    source: { kind: authored }
+  - form: "odpowiadanie"
+    pl: "Odpowiadanie na listy zajmuje mu ranek."
+    ru: "Ответы на письма занимают у него утро."
+    source: { kind: authored }
+  - form: "odpowiadanie"
+    pl: "Odpowiadanie pytaniem na pytanie irytuje."
+    ru: "Отвечать вопросом на вопрос раздражает."
+    source: { kind: authored }
+  - form: "odpowiadanie"
+    pl: "Odpowiadanie za innych bywa ciężkie."
+    ru: "Отвечать за других бывает тяжело."
+    source: { kind: authored }
+  - form: "odpowiadaniem"
+    pl: "Masz nic nie robić poza siedzeniem tu i odpowiadaniem na pytania lekarza."
+    ru: "Тебе не нужно делать ничего, кроме как сидеть здесь и отвечать на вопросы врача."
+    source: { kind: translated, id: 1181750 }
+  - form: "odpowiadaniem"
+    pl: "Zmęczył się odpowiadaniem na listy."
+    ru: "Он устал отвечать на письма."
+    source: { kind: authored }
+  - form: "odpowiadaniem"
+    pl: "Przed odpowiadaniem policz do dziesięciu."
+    ru: "Прежде чем отвечать, сосчитай до десяти."
+    source: { kind: authored }
+  - form: "odpowiadaniu"
+    pl: "Po odpowiadaniu na pytania był wyczerpany."
+    ru: "После ответов на вопросы он был измотан."
+    source: { kind: authored }
+  - form: "odpowiadaniu"
+    pl: "Mówili o odpowiadaniu na skargi."
+    ru: "Они говорили об ответах на жалобы."
+    source: { kind: authored }
+  - form: "odpowiadaniu"
+    pl: "W odpowiadaniu liczy się spokój."
+    ru: "В ответах важно спокойствие."
+    source: { kind: authored }
+  - form: "odpowiadano"
+    pl: "Na listy odpowiadano z opóźnieniem."
+    ru: "На письма отвечали с опозданием."
+    source: { kind: authored }
+  - form: "odpowiadano"
+    pl: "Nigdy nie odpowiadano nam wprost."
+    ru: "Нам никогда не отвечали прямо."
+    source: { kind: authored }
+  - form: "odpowiadano"
+    pl: "Odpowiadano krótko i rzeczowo."
+    ru: "Отвечали коротко и по делу."
+    source: { kind: authored }
+  - form: "odpowiadasz"
+    pl: "Dlaczego nie odpowiadasz?"
+    ru: "Почему ты не отвечаешь?"
+    source: { kind: translated, id: 10616061 }
+  - form: "odpowiadasz"
+    pl: "Czemu mi nie odpowiadasz?"
+    ru: "Почему ты мне не отвечаешь?"
+    source: { kind: translated, id: 3257486 }
+  - form: "odpowiadasz"
+    pl: "Odpowiadasz za to osobiście."
+    ru: "Ты отвечаешь за это лично."
+    source: { kind: authored }
