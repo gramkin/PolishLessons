@@ -1,0 +1,95 @@
+# review
+id: wzrok
+format: 2
+lemma: "wzrok"
+rank: 1876
+pos: noun
+pron: { cyr: "взрок" }
+senses:
+  - id: eyesight
+    ru: "зрение"
+    examples:
+      - pl: "Ma dobry wzrok."
+        ru: "У него хорошее зрение."
+        source: { kind: translated, id: 1350545 }
+      - pl: "Mam marny wzrok."
+        ru: "У меня плохое зрение."
+        source: { kind: translated, id: 732921 }
+      - pl: "Tom stracił wzrok."
+        ru: "Том потерял зрение."
+        source: { kind: translated, id: 12180514 }
+  - id: gaze
+    ru: "взгляд"
+    examples:
+      - pl: "Odwrócić wzrok."
+        ru: "Отвести взгляд."
+        source: { kind: translated, id: 5660018 }
+      - pl: "Nie patrz na mnie takim wzrokiem."
+        ru: "Не смотри на меня таким взглядом."
+        source: { kind: translated, id: 3760143 }
+      - pl: "Unikał jej wzroku."
+        ru: "Он избегал её взгляда."
+        source: { kind: translated, id: 6671273 }
+notes:
+  - { kind: false-friend, text: "Одно слово покрывает два русских: «зрение» (stracić wzrok «потерять зрение») и «взгляд» (odwrócić wzrok «отвести взгляд»). Контекст решает." }
+  - { kind: government, text: "Смотреть каким-то взглядом — patrzeć jakimś wzrokiem (творительный падеж): patrzyła na niego gniewnym wzrokiem." }
+  - { kind: usage, text: "zasięg wzroku — «поле зрения»: zniknął z zasięgu wzroku «он скрылся из виду»." }
+  - { kind: usage, text: "Глаз — oko, а зрение как чувство — wzrok; проверить зрение — zbadać wzrok." }
+collocations:
+  - { pl: "stracić wzrok", ru: "потерять зрение" }
+  - { pl: "odwrócić wzrok", ru: "отвести взгляд" }
+  - { pl: "zasięg wzroku", ru: "поле зрения" }
+family:
+  - { pl: "wzrokowy", ru: "зрительный", relation: root }
+  - { pl: "oko", ru: "глаз", relation: root, id: oko }
+  - { pl: "widzieć", ru: "видеть", relation: root, id: widziec }
+etymology: "От wzrok, того же корня, что zrok и русское «зрак», «зрение». Значение «взгляд» развилось из «зрения»."
+memory: "wzrok — сразу «зрение» и «взгляд»: stracić wzrok «потерять зрение», odwrócić wzrok «отвести взгляд». Глаз — oko, отдельное слово."
+idioms:
+  - { pl: "stracić wzrok", ru: "потерять зрение" }
+  - { pl: "odwrócić wzrok", ru: "отвести взгляд" }
+  - { pl: "zasięg wzroku", ru: "поле зрения" }
+formExamplesSkip:
+  - { form: "wzrokach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wzrokami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wzroki", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wzrokom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wzrokowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wzroków", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "wzrok"
+    pl: "Wytęż wzrok!"
+    ru: "Напряги зрение!"
+    source: { kind: translated, id: 6849499 }
+  - form: "wzrok"
+    pl: "Ma dobry wzrok."
+    ru: "У него хорошее зрение."
+    source: { kind: translated, id: 1350545 }
+  - form: "wzrok"
+    pl: "Tom stracił wzrok."
+    ru: "Том потерял зрение."
+    source: { kind: translated, id: 12180514 }
+  - form: "wzrokiem"
+    pl: "Wodził wzrokiem za dziewczyną."
+    ru: "Он водил взглядом за девушкой."
+    source: { kind: translated, id: 2239277 }
+  - form: "wzrokiem"
+    pl: "Nie patrz na mnie takim wzrokiem."
+    ru: "Не смотри на меня таким взглядом."
+    source: { kind: translated, id: 3760143 }
+  - form: "wzrokiem"
+    pl: "Patrzyła na niego gniewnym wzrokiem."
+    ru: "Она смотрела на него гневным взглядом."
+    source: { kind: translated, id: 1604678 }
+  - form: "wzroku"
+    pl: "Unikał jej wzroku."
+    ru: "Он избегал её взгляда."
+    source: { kind: translated, id: 6671273 }
+  - form: "wzroku"
+    pl: "Proszę o zbadanie mi wzroku."
+    ru: "Прошу проверить мне зрение."
+    source: { kind: translated, id: 914991 }
+  - form: "wzroku"
+    pl: "Samolot odleciał i wkrótce zniknął z zasięgu wzroku."
+    ru: "Самолёт улетел и вскоре скрылся из виду."
+    source: { kind: translated, id: 2146518 }

@@ -521,6 +521,21 @@ exclude:
   # (Mysle o kandydowaniu na senatora), ни одна форма не набирает трёх
   # примеров. Класс jork: слово держится чужим именем
   - senator
+  # не самостоятельное слово: все пять кандидатов — Los Angeles (Planuje
+  # pojechac do Los Angeles, Los Angeles jest drugim najwiekszym miastem).
+  # Angeles отдельно не встречается ни разу. Класс jork
+  - angeles
+  # не личное имя, а название заведения: все шесть кандидатов — английское
+  # Chuck's Diner и Chuck's Bar and Grill вместе с апострофом
+  # (Jadlem nieraz w Chuck's Diner). 9 из 10 форм пусты
+  - chuck
+  # имя собственное: единственная форма, все четыре кандидата — личное имя
+  # (Jenny tanczy sambe, To pistolet Jenny). Класс sean, william, larry
+  - jenny
+  # ранг набирает другое написание: 8 из 11 кандидатов — английская форма
+  # Helen (Helen wygrala nagrode, Helen ma siedemnascie lat), а не польская
+  # Helena, у которой всего три примера. 8 из 10 форм пусты
+  - helena
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
