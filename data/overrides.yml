@@ -643,6 +643,21 @@ exclude:
   # napisal w zeszlym roku), девять форм из десяти пусты. Класс ed, karen,
   # josh, taylor
   - phil
+  # "vegas" — английское слово внутри названия Las Vegas, к тому же помеченное
+  # как частица. Единственная форма, и та без единого кандидата. Точно та же
+  # картина, что у street; класс angeles (ранг 1879) и jork (ранг 902),
+  # оба уже исключены
+  - vegas
+  # "niemiec" — дефект лемматизации: в одной парадигме сошлись страна и народ,
+  # причём лемматизатор оба записал со строчной буквы. Все кандидаты на форму
+  # niemcy — это Niemcy «Германия» (Niemcy to zimny kraj, Niemcy granicza z
+  # Francja), а все кандидаты на саму форму niemiec — родительный z Niemiec
+  # «из Германии», то есть снова страна. Человеком «немец» остаются только
+  # niemcem, niemcow, niemcami. Ни niemcy, ни niemiecki не числятся ни в одном
+  # реестре, так что для половины со страной правильного места нет. Wiktionary
+  # вдобавок толкует niemiec как «немецкий язык» и «лютеранин» — значения,
+  # которых нет ни в одном примере
+  - niemiec
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
