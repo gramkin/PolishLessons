@@ -1,0 +1,133 @@
+# review
+id: proces
+format: 2
+lemma: "proces"
+rank: 1073
+pos: noun
+pron: { cyr: "про́цэс" }
+senses:
+  - id: process
+    ru: "процесс, ход событий"
+    examples:
+      - pl: "Ten proces nie jest otwarty dla publiczności."
+        ru: "Этот процесс не является открытым для общественности."
+        source: { kind: tatoeba, id: 356517 }
+      - pl: "To powolny proces."
+        ru: "Это медленный процесс."
+        source: { kind: translated, id: 10667886 }
+      - pl: "To jest złożony proces."
+        ru: "Это сложный процесс."
+        source: { kind: translated, id: 5961870 }
+  - id: trial
+    ru: "судебный процесс, дело"
+    examples:
+      - pl: "Jestem oskarżycielem w tym procesie."
+        ru: "Я обвинитель в этом процессе."
+        source: { kind: translated, id: 3382415 }
+      - pl: "Zawieszenie procesu jest niemożliwe."
+        ru: "Приостановить процесс невозможно."
+        source: { kind: translated, id: 904537 }
+  - id: computing
+    ru: "процесс (в информатике)"
+    examples:
+      - pl: "W tle działa wiele procesów."
+        ru: "В фоне работает много процессов."
+        source: { kind: authored }
+      - pl: "Wszystkie procesy zostały zatrzymane."
+        ru: "Все процессы были остановлены."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Мужской род неодушевлённый: ten proces, tego procesu." }
+  - { kind: usage, text: "Второе значение — судебное: proces sądowy «судебный процесс», wytoczyć komuś proces «подать на кого-то в суд»." }
+  - { kind: government, text: "w procesie czegoś «в процессе чего-то» — предложный падеж, как в русском: w procesie produkcji." }
+  - { kind: usage, text: "Родственное procesor значит «процессор», а proces в информатике — запущенная программа, ровно как в русском." }
+collocations:
+  - { pl: "proces sądowy", ru: "судебный процесс" }
+  - { pl: "w procesie", ru: "в процессе" }
+  - { pl: "wytoczyć proces", ru: "подать в суд" }
+family:
+  - { pl: "procesowy", ru: "процессуальный", relation: derived }
+  - { pl: "procesor", ru: "процессор", relation: derived }
+etymology: "Из латинского processus «продвижение, ход» от procedere «идти вперёд». Русский «процесс» — то же заимствование."
+memory: "proces — «процесс» во всех смыслах, включая судебный: wytoczyć komuś proces значит «подать на кого-то в суд». Мужской род, родительный procesu."
+idioms:
+  - { pl: "proces sądowy", ru: "судебный процесс" }
+  - { pl: "wytoczyć proces", ru: "подать в суд" }
+formExamplesSkip:
+  - { form: "procesach", reason: "в корпусе нет примеров: предложный падеж множественного числа у этого слова редок" }
+  - { form: "procesami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
+  - { form: "procesom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+  - { form: "procesowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "proces"
+    pl: "Ten proces nie jest otwarty dla publiczności."
+    ru: "Этот процесс не является открытым для общественности."
+    source: { kind: tatoeba, id: 356517 }
+  - form: "proces"
+    pl: "To powolny proces."
+    ru: "Это медленный процесс."
+    source: { kind: translated, id: 10667886 }
+  - form: "proces"
+    pl: "To jest złożony proces."
+    ru: "Это сложный процесс."
+    source: { kind: translated, id: 5961870 }
+  - form: "procesem"
+    pl: "Nauka języka jest długim procesem."
+    ru: "Изучение языка — долгий процесс."
+    source: { kind: authored }
+  - form: "procesem"
+    pl: "Kieruje całym procesem produkcji."
+    ru: "Он руководит всем процессом производства."
+    source: { kind: authored }
+  - form: "procesem"
+    pl: "Zajmujemy się procesem rekrutacji."
+    ru: "Мы занимаемся процессом набора."
+    source: { kind: authored }
+  - form: "procesie"
+    pl: "Jestem oskarżycielem w tym procesie."
+    ru: "Я обвинитель в этом процессе."
+    source: { kind: translated, id: 3382415 }
+  - form: "procesie"
+    pl: "Drożdże grają główną rolę w procesie wzrostu chleba."
+    ru: "Дрожжи играют главную роль в процессе подъёма теста."
+    source: { kind: translated, id: 3046753 }
+  - form: "procesie"
+    pl: "W procesie sądowym liczą się dowody."
+    ru: "В судебном процессе важны доказательства."
+    source: { kind: authored }
+  - form: "procesów"
+    pl: "Jest jeszcze jedna kategoria procesów, którą sobie dziś omówimy."
+    ru: "Есть ещё одна категория процессов, которую мы сегодня разберём."
+    source: { kind: translated, id: 6304105 }
+  - form: "procesów"
+    pl: "Sąd prowadzi dziesiątki procesów."
+    ru: "Суд ведёт десятки процессов."
+    source: { kind: authored }
+  - form: "procesów"
+    pl: "W tle działa wiele procesów."
+    ru: "В фоне работает много процессов."
+    source: { kind: authored }
+  - form: "procesu"
+    pl: "Zawieszenie procesu jest niemożliwe."
+    ru: "Приостановить процесс невозможно."
+    source: { kind: translated, id: 904537 }
+  - form: "procesu"
+    pl: "Podczas procesu utrzymywał, że działał w ramach obrony koniecznej, i został oczyszczony z zarzutów."
+    ru: "Во время процесса он утверждал, что действовал в рамках необходимой обороны, и был оправдан."
+    source: { kind: translated, id: 3749353 }
+  - form: "procesu"
+    pl: "Nie da się zatrzymać tego procesu."
+    ru: "Этот процесс не остановить."
+    source: { kind: authored }
+  - form: "procesy"
+    pl: "Procesy trwają latami."
+    ru: "Процессы длятся годами."
+    source: { kind: authored }
+  - form: "procesy"
+    pl: "Te procesy zachodzą powoli."
+    ru: "Эти процессы идут медленно."
+    source: { kind: authored }
+  - form: "procesy"
+    pl: "Wszystkie procesy zostały zatrzymane."
+    ru: "Все процессы были остановлены."
+    source: { kind: authored }

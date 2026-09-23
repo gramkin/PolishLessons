@@ -1,0 +1,150 @@
+# review
+id: stol
+format: 2
+lemma: "stół"
+rank: 1074
+pos: noun
+pron: { cyr: "стуу" }
+senses:
+  - id: furniture
+    ru: "стол (мебель)"
+    examples:
+      - pl: "To jest stół."
+        ru: "Это стол."
+        source: { kind: tatoeba, id: 356394 }
+      - pl: "Na stole był kot."
+        ru: "На столе был кот."
+        source: { kind: tatoeba, id: 513475 }
+      - pl: "Ten stół jest ciężki."
+        ru: "Этот стол тяжёлый."
+        source: { kind: tatoeba, id: 1085493 }
+  - id: meal
+    ru: "стол (еда, угощение); накрывать на стол"
+    examples:
+      - pl: "Po kolacji posprzątała ze stołu."
+        ru: "После обеда она убрала со стола."
+        source: { kind: tatoeba, id: 440564 }
+      - pl: "Nakryj do stołu, proszę."
+        ru: "Накрой на стол, пожалуйста."
+        source: { kind: authored }
+      - pl: "Zaprosili nas do stołu."
+        ru: "Нас пригласили к столу."
+        source: { kind: authored }
+  - id: figurative
+    ru: "стол переговоров; «на столе» о вопросе"
+    examples:
+      - pl: "Usiedli do stołu rokowań."
+        ru: "Они сели за стол переговоров."
+        source: { kind: authored }
+      - pl: "Sprawa wróciła na stół."
+        ru: "Вопрос снова на столе."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Чередование ó/o: именительный stół с ó, а во всех остальных падежах o — stołu, stole, stołem, stoły. Это регулярное польское чередование в закрытом слоге." }
+  - { kind: government, text: "Предлоги другие, чем в русском: nakryć do stołu «накрыть на стол», siąść do stołu «сесть за стол» — предлог do с родительным. А «за столом» — przy stole, предложный." }
+  - { kind: usage, text: "Уменьшительное stolik значит «столик», в том числе ресторанный: Zarezerwowałem stolik «Я забронировал столик»." }
+  - { kind: usage, text: "okrągły stół «круглый стол» — и мебель, и переговоры, ровно как в русском." }
+collocations:
+  - { pl: "nakryć do stołu", ru: "накрыть на стол" }
+  - { pl: "przy stole", ru: "за столом" }
+  - { pl: "pod stołem", ru: "под столом" }
+  - { pl: "okrągły stół", ru: "круглый стол" }
+family:
+  - { pl: "stolik", ru: "столик", relation: derived }
+  - { pl: "stołowy", ru: "столовый", relation: derived }
+  - { pl: "stolarz", ru: "столяр", relation: derived }
+etymology: "Праславянское *stolъ, первоначально «то, что постелено», от *stьlati «стелить». Русское «стол» — то же слово; в русском от него осталось ещё и «престол»."
+memory: "stół — «стол», но следите за чередованием: stół с ó, а дальше везде o — stołu, stole, stołem. И предлоги другие: nakryć do stołu «накрыть на стол», siąść do stołu «сесть за стол», но przy stole «за столом»."
+idioms:
+  - { pl: "nakryć do stołu", ru: "накрыть на стол" }
+  - { pl: "okrągły stół", ru: "круглый стол" }
+  - { pl: "pod stołem", ru: "под столом" }
+formExamplesSkip:
+  - { form: "stołami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
+  - { form: "stołom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+  - { form: "stołowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "stole"
+    pl: "Na stole był kot."
+    ru: "На столе был кот."
+    source: { kind: tatoeba, id: 513475 }
+  - form: "stole"
+    pl: "Klucz leży na stole."
+    ru: "Ключ лежит на столе."
+    source: { kind: tatoeba, id: 1925937 }
+  - form: "stole"
+    pl: "Książka leży na stole."
+    ru: "Книга лежит на столе."
+    source: { kind: tatoeba, id: 2345967 }
+  - form: "stołach"
+    pl: "Dorsz to bez wątpienia jedna z najpopularniejszych ryb na polskich stołach."
+    ru: "Треска — без сомнения одна из самых популярных рыб на польских столах."
+    source: { kind: translated, id: 12968332 }
+  - form: "stołach"
+    pl: "Dorsz i łosoś to dwa bardzo popularne gatunki ryb, które często goszczą na naszych stołach."
+    ru: "Треска и лосось — два очень популярных вида рыбы, которые часто бывают на наших столах."
+    source: { kind: translated, id: 12968336 }
+  - form: "stołach"
+    pl: "Na stołach leżały kwiaty."
+    ru: "На столах лежали цветы."
+    source: { kind: authored }
+  - form: "stołem"
+    pl: "Pod stołem siedzi kot."
+    ru: "Под столом сидит кот."
+    source: { kind: tatoeba, id: 2202155 }
+  - form: "stołem"
+    pl: "Tom schował się pod stołem."
+    ru: "Том спрятался под стол."
+    source: { kind: tatoeba, id: 776363 }
+  - form: "stołem"
+    pl: "Jaka jest różnica między stołem a krzesłem?"
+    ru: "В чем разница между столом и стулом?"
+    source: { kind: tatoeba, id: 12137894 }
+  - form: "stołów"
+    pl: "W tej sali jest ponad 50 stołów."
+    ru: "В этом зале больше пятидесяти столов."
+    source: { kind: translated, id: 2247141 }
+  - form: "stołów"
+    pl: "Nie ma wolnych stołów."
+    ru: "Свободных столов нет."
+    source: { kind: authored }
+  - form: "stołów"
+    pl: "Potrzebujemy więcej stołów."
+    ru: "Нам нужно больше столов."
+    source: { kind: authored }
+  - form: "stołu"
+    pl: "Wyłaź spod stołu."
+    ru: "Вылезай из-под стола!"
+    source: { kind: tatoeba, id: 592699 }
+  - form: "stołu"
+    pl: "Nie połam mojego nowego stołu."
+    ru: "Не сломай мой новый стол."
+    source: { kind: tatoeba, id: 12960403 }
+  - form: "stołu"
+    pl: "Po kolacji posprzątała ze stołu."
+    ru: "После обеда она убрала со стола."
+    source: { kind: tatoeba, id: 440564 }
+  - form: "stoły"
+    pl: "Poustawiajcie równo stoły w klasie."
+    ru: "Расставьте ровно столы в классе."
+    source: { kind: translated, id: 901457 }
+  - form: "stoły"
+    pl: "W sali stoją długie stoły."
+    ru: "В зале стоят длинные столы."
+    source: { kind: authored }
+  - form: "stoły"
+    pl: "Stoły są już nakryte."
+    ru: "Столы уже накрыты."
+    source: { kind: authored }
+  - form: "stół"
+    pl: "To jest stół."
+    ru: "Это стол."
+    source: { kind: tatoeba, id: 356394 }
+  - form: "stół"
+    pl: "W pokoju stoi stół."
+    ru: "В комнате стоит стол."
+    source: { kind: tatoeba, id: 2116628 }
+  - form: "stół"
+    pl: "Ten stół jest ciężki."
+    ru: "Этот стол тяжёлый."
+    source: { kind: tatoeba, id: 1085493 }

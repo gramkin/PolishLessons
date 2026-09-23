@@ -1,0 +1,124 @@
+# review
+id: kuchnia
+format: 2
+lemma: "kuchnia"
+rank: 1069
+pos: noun
+pron: { cyr: "ку́хня" }
+senses:
+  - id: room
+    ru: "кухня (помещение)"
+    examples:
+      - pl: "Tom, Mary i John są w kuchni."
+        ru: "Том, Мэри и Джон на кухне."
+        source: { kind: tatoeba, id: 3807891 }
+      - pl: "Czy w kuchni jest ekspres do kawy?"
+        ru: "Есть ли на кухне кофеварка?"
+        source: { kind: tatoeba, id: 8396958 }
+      - pl: "To jest moja kuchnia."
+        ru: "Это моя кухня."
+        source: { kind: translated, id: 10543454 }
+  - id: cuisine
+    ru: "кухня (национальная, способ готовки)"
+    examples:
+      - pl: "Lubię chińską kuchnię."
+        ru: "Я люблю китайскую кухню."
+        source: { kind: translated, id: 5585045 }
+      - pl: "Grecka kuchnia jest ciekawa."
+        ru: "Греческая кухня интересная."
+        source: { kind: translated, id: 11261075 }
+  - id: inside
+    ru: "od kuchni — изнутри, с изнанки"
+    examples:
+      - pl: "Znam tę firmę od kuchni."
+        ru: "Я знаю эту фирму изнутри."
+        source: { kind: authored }
+      - pl: "Pokazał nam teatr od kuchni."
+        ru: "Он показал нам театр изнутри."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Женский род на -ia: kuchnia, kuchni, kuchnię. Родительный, дательный и предложный совпадают — kuchni." }
+  - { kind: usage, text: "Два основных значения, как и в русском: комната и национальная кухня — kuchnia polska «польская кухня»." }
+  - { kind: false-friend, text: "Плита — это не kuchnia, а kuchenka. Слово kuchnia в значении «плита» осталось только в обороте kuchnia węglowa «угольная плита»." }
+  - { kind: usage, text: "znać coś od kuchni «знать что-то изнутри» — о закулисной стороне дела." }
+collocations:
+  - { pl: "kuchnia polska", ru: "польская кухня" }
+  - { pl: "w kuchni", ru: "на кухне" }
+  - { pl: "kuchnia polowa", ru: "полевая кухня" }
+  - { pl: "od kuchni", ru: "изнутри" }
+family:
+  - { pl: "kuchenny", ru: "кухонный", relation: derived }
+  - { pl: "kuchenka", ru: "плита, плитка", relation: derived }
+  - { pl: "kucharz", ru: "повар", relation: derived }
+etymology: "От немецкого корня kuch- «готовить» (ср. kochen) плюс суффикс -nia. Русская «кухня» пришла из того же немецкого источника."
+memory: "kuchnia — и «кухня» как комната, и «кухня» как национальная: kuchnia polska. Женский род, родительный kuchni. А плита — отдельное слово kuchenka."
+idioms:
+  - { pl: "kuchnia polowa", ru: "полевая кухня" }
+  - { pl: "znać od kuchni", ru: "знать изнутри" }
+formExamplesSkip:
+  - { form: "kuchen", reason: "устаревший вариант родительного падежа множественного числа; нормой является kuchni" }
+  - { form: "kuchniach", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "kuchniami", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "kuchnio", reason: "звательный падеж у этого слова в живой речи не употребляется" }
+  - { form: "kuchniom", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+formExamples:
+  - form: "kuchni"
+    pl: "Tom, Mary i John są w kuchni."
+    ru: "Том, Мэри и Джон на кухне."
+    source: { kind: tatoeba, id: 3807891 }
+  - form: "kuchni"
+    pl: "Czy w kuchni jest ekspres do kawy?"
+    ru: "Есть ли на кухне кофеварка?"
+    source: { kind: tatoeba, id: 8396958 }
+  - form: "kuchni"
+    pl: "Jest w kuchni."
+    ru: "Он на кухне."
+    source: { kind: translated, id: 2103204 }
+  - form: "kuchnia"
+    pl: "To jest moja kuchnia."
+    ru: "Это моя кухня."
+    source: { kind: translated, id: 10543454 }
+  - form: "kuchnia"
+    pl: "Kuchnia jest na trzecim piętrze."
+    ru: "Кухня на третьем этаже."
+    source: { kind: translated, id: 7185212 }
+  - form: "kuchnia"
+    pl: "Grecka kuchnia jest ciekawa."
+    ru: "Греческая кухня интересная."
+    source: { kind: translated, id: 11261075 }
+  - form: "kuchnią"
+    pl: "Mieszkam sam i tęsknię za maminą kuchnią."
+    ru: "Я живу один и скучаю по маминой кухне."
+    source: { kind: translated, id: 357872 }
+  - form: "kuchnią"
+    pl: "Pokój z kuchnią kosztuje więcej."
+    ru: "Комната с кухней стоит дороже."
+    source: { kind: authored }
+  - form: "kuchnią"
+    pl: "Między kuchnią a salonem są drzwi."
+    ru: "Между кухней и гостиной есть дверь."
+    source: { kind: authored }
+  - form: "kuchnie"
+    pl: "Lubię kuchnie azjatyckie, a szczególnie tajską."
+    ru: "Я люблю азиатские кухни, особенно тайскую."
+    source: { kind: translated, id: 502880 }
+  - form: "kuchnie"
+    pl: "W bloku wszystkie kuchnie są małe."
+    ru: "В этом доме все кухни маленькие."
+    source: { kind: authored }
+  - form: "kuchnie"
+    pl: "Kuchnie świata to jego pasja."
+    ru: "Кухни мира — его страсть."
+    source: { kind: authored }
+  - form: "kuchnię"
+    pl: "Lubię chińską kuchnię."
+    ru: "Я люблю китайскую кухню."
+    source: { kind: translated, id: 5585045 }
+  - form: "kuchnię"
+    pl: "Musimy posprzątać kuchnię."
+    ru: "Нам нужно убрать кухню."
+    source: { kind: translated, id: 8757586 }
+  - form: "kuchnię"
+    pl: "Uwielbiam włoską kuchnię."
+    ru: "Обожаю итальянскую кухню."
+    source: { kind: translated, id: 966969 }
