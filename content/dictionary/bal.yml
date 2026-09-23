@@ -1,0 +1,83 @@
+# review
+id: bal
+format: 2
+lemma: "bal"
+rank: 1806
+pos: noun
+pron: { cyr: "баль" }
+senses:
+  - id: ball
+    ru: "бал"
+    examples:
+      - pl: "Kiedy kota nie ma, myszy robią bal."
+        ru: "Когда кота нет, мыши устраивают бал."
+        source: { kind: translated, id: 13654223 }
+      - pl: "Dawniej panny szukały mężów na wystawnych balach."
+        ru: "Раньше девушки искали мужей на пышных балах."
+        source: { kind: translated, id: 6207837 }
+      - pl: "Idziemy na bal przebierańców."
+        ru: "Мы идём на костюмированный бал."
+        source: { kind: authored }
+  - id: ball-event
+    ru: "бал (пойти, устроить)"
+    examples:
+      - pl: "Zaprosił ją na bal."
+        ru: "Он пригласил её на бал."
+        source: { kind: authored }
+      - pl: "Bal trwał do rana."
+        ru: "Бал длился до утра."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Форма bali в таблице ниже почти всегда принадлежит глаголу bać się «бояться»: Bali się dużego psa значит «они боялись большой собаки»." }
+  - { kind: usage, text: "bal maturalny — польский выпускной бал, аналог русского выпускного; bal przebierańców — костюмированный бал." }
+  - { kind: government, text: "На бал — na bal (винительный падеж), на балу — na balu (предложный)." }
+  - { kind: usage, text: "У слова есть и второе, техническое значение — «бревно, брус»: domek z bali «дом из брёвен»." }
+collocations:
+  - { pl: "iść na bal", ru: "идти на бал" }
+  - { pl: "bal maturalny", ru: "выпускной бал" }
+  - { pl: "bal przebierańców", ru: "костюмированный бал" }
+family:
+  - { pl: "balowy", ru: "бальный", relation: root }
+  - { pl: "taniec", ru: "танец", relation: root, id: taniec }
+  - { pl: "impreza", ru: "вечеринка", relation: root, id: impreza }
+etymology: "Из французского bal через немецкий — тем же путём, что русское «бал». Значение совпадает полностью."
+memory: "bal — «бал»: iść na bal, bal maturalny «выпускной бал». Осторожно: форма bali обычно принадлежит глаголу bać się «бояться»."
+idioms:
+  - { pl: "iść na bal", ru: "идти на бал" }
+  - { pl: "bal maturalny", ru: "выпускной бал" }
+  - { pl: "bal przebierańców", ru: "костюмированный бал" }
+formExamplesSkip:
+  - { form: "bala", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "balami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "bale", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "balem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "bali", reason: "в корпусе четыре из шести примеров на эту форму принадлежат глаголу bać się «бояться» (Bali się dużego psa), а остальные — значению «бревно», поэтому примеры не приводятся" }
+  - { form: "balom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "balowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "balów", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "balu", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "bal"
+    pl: "Kiedy kota nie ma, myszy robią bal."
+    ru: "Когда кота нет, мыши устраивают бал."
+    source: { kind: translated, id: 13654223 }
+  - form: "bal"
+    pl: "Zaprosił ją na bal."
+    ru: "Он пригласил её на бал."
+    source: { kind: authored }
+  - form: "bal"
+    pl: "Bal trwał do rana."
+    ru: "Бал длился до утра."
+    source: { kind: authored }
+  - form: "balach"
+    pl: "Dawniej panny szukały mężów na wystawnych balach."
+    ru: "Раньше девушки искали мужей на пышных балах."
+    source: { kind: translated, id: 6207837 }
+  - form: "balach"
+    pl: "Na balach grała orkiestra."
+    ru: "На балах играл оркестр."
+    source: { kind: authored }
+  - form: "balach"
+    pl: "Bywał na wszystkich balach w mieście."
+    ru: "Он бывал на всех балах в городе."
+    source: { kind: authored }

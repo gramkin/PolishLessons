@@ -1,0 +1,82 @@
+# review
+id: straz
+format: 2
+lemma: "straż"
+rank: 1795
+pos: noun
+pron: { cyr: "страш" }
+senses:
+  - id: fire-brigade
+    ru: "straż pożarna — пожарная охрана"
+    examples:
+      - pl: "Dzwoń na straż pożarną!"
+        ru: "Звони в пожарную охрану!"
+        source: { kind: translated, id: 10793789 }
+      - pl: "Straż pożarna zapobiegła pożarowi."
+        ru: "Пожарная охрана предотвратила пожар."
+        source: { kind: translated, id: 6533131 }
+      - pl: "Zadzwoń do straży pożarnej!"
+        ru: "Позвони в пожарную часть!"
+        source: { kind: translated, id: 10793790 }
+  - id: guard
+    ru: "охрана, стража, караул"
+    examples:
+      - pl: "Straż pożarna jest zaraz przy posterunku policji."
+        ru: "Пожарная часть прямо рядом с полицейским участком."
+        source: { kind: translated, id: 712351 }
+      - pl: "Straż i policja przez cztery godziny szukały bomby, której nie było."
+        ru: "Охрана и полиция четыре часа искали бомбу, которой не было."
+        source: { kind: translated, id: 6207832 }
+      - pl: "Straż pilnuje wejścia."
+        ru: "Охрана следит за входом."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "В живой речи слово почти всегда стоит в сочетании straż pożarna «пожарная охрана»; само straż без определения значит «стража, караул»." }
+  - { kind: usage, text: "Пожарный — strażak; полиция — policja, отдельное слово." }
+  - { kind: government, text: "Звонить в пожарную — dzwonić na straż pożarną (винительный с na) или do straży pożarnej (родительный с do)." }
+  - { kind: false-friend, text: "Русское «стража» и польское straż — одно слово; но «сторож» по-польски stróż, с ó." }
+collocations:
+  - { pl: "straż pożarna", ru: "пожарная охрана" }
+  - { pl: "straż graniczna", ru: "пограничная служба" }
+  - { pl: "stać na straży", ru: "стоять на страже" }
+family:
+  - { pl: "strażak", ru: "пожарный", relation: root }
+  - { pl: "strzec", ru: "стеречь", relation: root }
+  - { pl: "policja", ru: "полиция", relation: root, id: policja }
+etymology: "Праславянское *storža — то же слово, что русское «стража»; польское ra на месте русского «оро», как в straż и «сторожить»."
+memory: "straż — «стража, охрана», но в живой речи почти всегда straż pożarna «пожарная охрана». Пожарный — strażak."
+idioms:
+  - { pl: "straż pożarna", ru: "пожарная охрана" }
+  - { pl: "stać na straży", ru: "стоять на страже" }
+  - { pl: "straż graniczna", ru: "пограничная служба" }
+formExamplesSkip:
+  - { form: "strażach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "strażami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "strażą", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "straże", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "strażom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "straż"
+    pl: "Dzwoń na straż pożarną!"
+    ru: "Звони в пожарную охрану!"
+    source: { kind: translated, id: 10793789 }
+  - form: "straż"
+    pl: "Straż pożarna zapobiegła pożarowi."
+    ru: "Пожарная охрана предотвратила пожар."
+    source: { kind: translated, id: 6533131 }
+  - form: "straż"
+    pl: "Straż pożarna jest zaraz przy posterunku policji."
+    ru: "Пожарная часть прямо рядом с полицейским участком."
+    source: { kind: translated, id: 712351 }
+  - form: "straży"
+    pl: "Zadzwoń do straży pożarnej!"
+    ru: "Позвони в пожарную часть!"
+    source: { kind: translated, id: 10793790 }
+  - form: "straży"
+    pl: "Stał na straży całą noc."
+    ru: "Он стоял на страже всю ночь."
+    source: { kind: authored }
+  - form: "straży"
+    pl: "Nie ma tu straży."
+    ru: "Здесь нет охраны."
+    source: { kind: authored }
