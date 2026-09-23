@@ -1,0 +1,80 @@
+# review
+id: gang
+format: 2
+lemma: "gang"
+rank: 1749
+pos: noun
+pron: { cyr: "ганк" }
+senses:
+  - id: gang
+    ru: "банда, преступная группировка"
+    examples:
+      - pl: "Gang planował napad."
+        ru: "Банда планировала налёт."
+        source: { kind: translated, id: 733086 }
+      - pl: "Gang stał się rodziną Fadila."
+        ru: "Банда стала для Фадиля семьёй."
+        source: { kind: translated, id: 6156465 }
+      - pl: "Śledzenie gangu było niebezpieczną przygodą."
+        ru: "Слежка за бандой была опасным приключением."
+        source: { kind: translated, id: 841701 }
+  - id: gang-member
+    ru: "банда (в сочетаниях: член банды, главарь)"
+    examples:
+      - pl: "Należał do gangu."
+        ru: "Он состоял в банде."
+        source: { kind: authored }
+      - pl: "Policja rozbiła gang."
+        ru: "Полиция разгромила банду."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Заимствование из английского gang. Польские синонимы — banda и szajka, оба разговорные." }
+  - { kind: government, text: "Состоять в банде — należeć do gangu (родительный падеж с do); член банды — członek gangu." }
+  - { kind: pronunciation, text: "Конечное g оглушается: слово звучит как «ганк», хотя пишется gang." }
+  - { kind: false-friend, text: "Русское «банда» по-польски тоже banda, так что gang — это более новое, газетное слово про организованную преступность." }
+collocations:
+  - { pl: "należeć do gangu", ru: "состоять в банде" }
+  - { pl: "członek gangu", ru: "член банды" }
+  - { pl: "rozbić gang", ru: "разгромить банду" }
+family:
+  - { pl: "gangster", ru: "гангстер", relation: root }
+  - { pl: "banda", ru: "банда", relation: root }
+etymology: "Из английского gang «шайка», пришедшего в польский в XX веке. Русское «банда» — из итальянского, поэтому слова разного происхождения."
+memory: "gang — «банда», организованная преступная группа. Читается «ганк»: конечное g оглушается. Состоять в банде — należeć do gangu."
+idioms:
+  - { pl: "należeć do gangu", ru: "состоять в банде" }
+  - { pl: "członek gangu", ru: "член банды" }
+  - { pl: "rozbić gang", ru: "разгромить банду" }
+formExamplesSkip:
+  - { form: "gangach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangiem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "gangów", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "gang"
+    pl: "Gang planował napad."
+    ru: "Банда планировала налёт."
+    source: { kind: translated, id: 733086 }
+  - form: "gang"
+    pl: "Gang stał się rodziną Fadila."
+    ru: "Банда стала для Фадиля семьёй."
+    source: { kind: translated, id: 6156465 }
+  - form: "gang"
+    pl: "Gang działał od lat."
+    ru: "Банда действовала много лет."
+    source: { kind: authored }
+  - form: "gangu"
+    pl: "Śledzenie gangu było niebezpieczną przygodą."
+    ru: "Слежка за бандой была опасным приключением."
+    source: { kind: translated, id: 841701 }
+  - form: "gangu"
+    pl: "Należał do gangu."
+    ru: "Он состоял в банде."
+    source: { kind: authored }
+  - form: "gangu"
+    pl: "Szukają szefa gangu."
+    ru: "Они ищут главаря банды."
+    source: { kind: authored }

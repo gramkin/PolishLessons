@@ -478,6 +478,15 @@ exclude:
   # тоже carded (Co sie dzialo?). На само dzialo "пушка" остаётся два
   # примера на девять форм — меньше порога в три на форму. Класс graca
   - dzialo
+  # призрачная лемма: словарь даёт только мастерскую степень в восточных
+  # единоборствах, и ни один кандидат ей не соответствует. Все 8 примеров на
+  # dan и все 7 на dana — личное имя Dan (Dan kupil nowy komputer, samochod
+  # Dana); 7 из 8 на danie — другое существительное, danie "блюдо" (To jest
+  # moje ulubione danie); dany — прилагательное "данный". Класс graca
+  - dan
+  # имя собственное: 9 из 10 форм пусты, все восемь кандидатов — личное имя
+  # (Ted dlugo na nia czekal, Ted lubi grac na trabce). Класс peter, leo, emma
+  - ted
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
