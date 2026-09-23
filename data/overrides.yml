@@ -417,6 +417,12 @@ exclude:
   # кандидата, и два из них — Martin Luther King, то есть фамилия внутри
   # устойчивого имени, как Jork в Nowy Jork. Класс john, brian, kevin, charles
   - martin
+  # имя собственное, и парадигма вдобавок засорена тремя разными словами:
+  # собственно именем (Mark ukonczyl Harvard), существительным marka
+  # "марка, бренд" (To okropna marka) и оборотом nocny marek "сова"
+  # (Jestem nocnym markiem) — это отдельное нарицательное. У самого имени
+  # три кандидата и 6 из 10 форм пусты. Класс john, kevin, charles, martin
+  - mark
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
