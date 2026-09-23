@@ -5,6 +5,12 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # имя собственное: все кандидаты — личное имя (Nazywam sie James, Jim to
+  # skrocona wersja imienia James), косвенные формы пусты
+  - james
+  # имя собственное: David Beckham jest Anglikiem, David jest bardzo aktywny;
+  # кроме именительного кандидатов нет вообще
+  - david
   # "si" is Spanish text in the corpus, not a Polish word: its only example is
   # "Si me preguntas, es un poco rara"
   - si

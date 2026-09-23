@@ -1,0 +1,175 @@
+# review
+id: napis
+format: 2
+lemma: "napis"
+rank: 835
+pos: noun
+pron: { cyr: "на́пис" }
+senses:
+  - id: inscription
+    ru: "надпись"
+    examples:
+      - pl: "Napis INRI znaczy po łacinie: Jezus Nazarejczyk Król Żydowski."
+        ru: "Надпись INRI на латыни означает \"Иисус Назарей, Царь Иудейский\"."
+        source: { kind: tatoeba, id: 2737877 }
+      - pl: "Napis na szyldzie wyblakł."
+        ru: "Надпись на вывеске выцвела."
+        source: { kind: translated, id: 525485 }
+      - pl: "Uwaga na napis na ścianie."
+        ru: "Обрати внимание на надпись на стене."
+        source: { kind: translated, id: 908243 }
+  - id: subtitles
+    ru: "napisy (мн. ч.) — субтитры"
+    note: "Во множественном числе слово значит «субтитры» — значения «надписи» тут уже нет."
+    examples:
+      - pl: "Napisy nie są włączone."
+        ru: "Субтитры не включены."
+        source: { kind: tatoeba, id: 13552958 }
+      - pl: "Czy film ma napisy?"
+        ru: "В фильме есть субтитры?"
+        source: { kind: translated, id: 10572725 }
+      - pl: "Wolno czytam, dlatego nie nadążam za napisami."
+        ru: "Я медленно читаю, поэтому не поспеваю за субтитрами."
+        source: { kind: tatoeba, id: 12470270 }
+notes:
+  - { kind: false-friend, text: "Во множественном числе napisy — это «субтитры», а не «надписи»: Czy film ma napisy? «В фильме есть субтитры?». Русское «надписи» так перевести нельзя." }
+  - { kind: usage, text: "Единственное число — обычная «надпись»: napis na ścianie, napis na szyldzie." }
+  - { kind: usage, text: "Слово разбирается прозрачно: na + pis-, от pisać «писать», ровно как русское «на-пись»." }
+  - { kind: usage, text: "Глагол napisać «написать» — того же корня, но это совершенный вид от pisać, а не производное от napis." }
+collocations:
+  - { pl: "napis na ścianie", ru: "надпись на стене" }
+  - { pl: "film z napisami", ru: "фильм с субтитрами" }
+  - { pl: "włączyć napisy", ru: "включить субтитры" }
+  - { pl: "napis ostrzegawczy", ru: "предупреждающая надпись" }
+family:
+  - { pl: "pisać", ru: "писать", relation: root }
+  - { pl: "napisać", ru: "написать", relation: root }
+  - { pl: "pismo", ru: "письмо, шрифт", relation: derived }
+  - { pl: "podpis", ru: "подпись", relation: derived }
+etymology: "Из na- + pis-, от pisać «писать» — ровно как русское «на-пись». Корень тот же, что в pismo и podpis."
+memory: "napis — «надпись», разбирается как na + pisać, в точности как русское слово. Но во множественном числе napisy значит «субтитры»: Czy film ma napisy? — и это главное, что стоит запомнить."
+idioms:
+  - { pl: "film z napisami", ru: "фильм с субтитрами" }
+  - { pl: "napisy końcowe", ru: "финальные титры" }
+  - { pl: "napis na ścianie", ru: "надпись на стене" }
+formExamples:
+  - form: "napis"
+    pl: "Napis INRI znaczy po łacinie: Jezus Nazarejczyk Król Żydowski."
+    ru: "Надпись INRI на латыни означает \"Иисус Назарей, Царь Иудейский\"."
+    source: { kind: tatoeba, id: 2737877 }
+  - form: "napis"
+    pl: "Napis na szyldzie wyblakł."
+    ru: "Надпись на вывеске выцвела."
+    source: { kind: translated, id: 525485 }
+  - form: "napis"
+    pl: "Uwaga na napis na ścianie."
+    ru: "Обрати внимание на надпись на стене."
+    source: { kind: translated, id: 908243 }
+  - form: "napisach"
+    pl: "W napisach był błąd."
+    ru: "В субтитрах была ошибка."
+    source: { kind: authored }
+  - form: "napisach"
+    pl: "O tych napisach nikt nie wiedział."
+    ru: "Об этих надписях никто не знал."
+    source: { kind: authored }
+  - form: "napisach"
+    pl: "W napisach końcowych wymieniono tłumacza."
+    ru: "В финальных титрах упомянули переводчика."
+    source: { kind: authored }
+  - form: "napisami"
+    pl: "Wolno czytam, dlatego nie nadążam za napisami."
+    ru: "Я медленно читаю, поэтому не поспеваю за субтитрами."
+    source: { kind: tatoeba, id: 12470270 }
+  - form: "napisami"
+    pl: "Obejrzyj scenę z napisami."
+    ru: "Посмотри сцену с субтитрами."
+    source: { kind: translated, id: 8418002 }
+  - form: "napisami"
+    pl: "Możesz obejrzeć filmy z angielskimi napisami używając tego linku."
+    ru: "По этой ссылке можно посмотреть фильмы с английскими субтитрами."
+    source: { kind: translated, id: 3603021 }
+  - form: "napisem"
+    pl: "Tabliczka z napisem \"Uwaga\"."
+    ru: "Табличка с надписью «Осторожно»."
+    source: { kind: authored }
+  - form: "napisem"
+    pl: "Pod napisem ktoś dopisał datę."
+    ru: "Под надписью кто-то дописал дату."
+    source: { kind: authored }
+  - form: "napisem"
+    pl: "Zajął się napisem nad wejściem."
+    ru: "Он занялся надписью над входом."
+    source: { kind: authored }
+  - form: "napisie"
+    pl: "W napisie był błąd."
+    ru: "В надписи была ошибка."
+    source: { kind: authored }
+  - form: "napisie"
+    pl: "O tym napisie mówiło całe miasto."
+    ru: "Об этой надписи говорил весь город."
+    source: { kind: authored }
+  - form: "napisie"
+    pl: "Na napisie widniała data."
+    ru: "На надписи виднелась дата."
+    source: { kind: authored }
+  - form: "napisom"
+    pl: "Dzięki napisom zrozumiałem film."
+    ru: "Благодаря субтитрам я понял фильм."
+    source: { kind: authored }
+  - form: "napisom"
+    pl: "Przyglądał się napisom na ścianach."
+    ru: "Он разглядывал надписи на стенах."
+    source: { kind: authored }
+  - form: "napisom"
+    pl: "Nie wierzę takim napisom."
+    ru: "Я не верю таким надписям."
+    source: { kind: authored }
+  - form: "napisowi"
+    pl: "Przyjrzał się napisowi na murze."
+    ru: "Он присмотрелся к надписи на стене."
+    source: { kind: authored }
+  - form: "napisowi"
+    pl: "Dzięki napisowi trafiliśmy na miejsce."
+    ru: "Благодаря надписи мы нашли место."
+    source: { kind: authored }
+  - form: "napisowi"
+    pl: "Nie ufał temu napisowi."
+    ru: "Он не доверял этой надписи."
+    source: { kind: authored }
+  - form: "napisów"
+    pl: "Nie rozumiem niczego bez napisów."
+    ru: "Я ничего не понимаю без субтитров."
+    source: { kind: translated, id: 10572730 }
+  - form: "napisów"
+    pl: "Nie zrozumiem niczego bez napisów."
+    ru: "Я ничего не пойму без субтитров."
+    source: { kind: translated, id: 10572733 }
+  - form: "napisów"
+    pl: "Nie ma tu żadnych napisów."
+    ru: "Здесь нет никаких надписей."
+    source: { kind: authored }
+  - form: "napisu"
+    pl: "Nie mogę odczytać tego napisu."
+    ru: "Я не могу разобрать эту надпись."
+    source: { kind: authored }
+  - form: "napisu"
+    pl: "Brakuje napisu na drzwiach."
+    ru: "На двери не хватает надписи."
+    source: { kind: authored }
+  - form: "napisu"
+    pl: "Treść napisu była dziwna."
+    ru: "Содержание надписи было странным."
+    source: { kind: authored }
+  - form: "napisy"
+    pl: "Napisy nie są włączone."
+    ru: "Субтитры не включены."
+    source: { kind: tatoeba, id: 13552958 }
+  - form: "napisy"
+    pl: "Czy film ma napisy?"
+    ru: "В фильме есть субтитры?"
+    source: { kind: translated, id: 10572725 }
+  - form: "napisy"
+    pl: "Czy zrobicie napisy w esperanto?"
+    ru: "Вы сделаете субтитры на эсперанто?"
+    source: { kind: translated, id: 2224156 }

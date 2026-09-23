@@ -1,0 +1,76 @@
+# review
+id: obok
+format: 2
+lemma: "obok"
+rank: 839
+pos: prep
+pron: { cyr: "о́бок" }
+senses:
+  - id: beside
+    ru: "возле, рядом с (+ родительный)"
+    examples:
+      - pl: "Mój dom jest obok kościoła."
+        ru: "Мой дом возле церкви."
+        source: { kind: tatoeba, id: 4818113 }
+      - pl: "Drugie lustro wisi obok drzwi."
+        ru: "Второе зеркало висит рядом с дверью."
+        source: { kind: tatoeba, id: 1550617 }
+      - pl: "Obok przystanku stał kiosk z czasopismami."
+        ru: "Возле остановки стоял киоск с журналами."
+        source: { kind: tatoeba, id: 7960573 }
+  - id: adverb
+    ru: "рядом; мимо (без дополнения)"
+    examples:
+      - pl: "Mieszka obok."
+        ru: "Он живёт рядом."
+        source: { kind: authored }
+      - pl: "Przeszedł obok i nie przywitał się."
+        ru: "Он прошёл мимо и не поздоровался."
+        source: { kind: authored }
+      - pl: "Usiedli obok siebie."
+        ru: "Они сели рядом друг с другом."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "obok требует родительного падежа: obok domu «возле дома», obok kościoła «возле церкви». Русское «возле» и «около» ведут себя так же." }
+  - { kind: usage, text: "Без дополнения obok работает как наречие «рядом, мимо»: Mieszka obok «Живёт рядом», Przeszedł obok «Прошёл мимо»." }
+  - { kind: usage, text: "Близкие по смыслу koło и przy тоже с родительным, но przy значит скорее «при, вплотную»: przy stole «за столом», obok stołu «рядом со столом»." }
+  - { kind: usage, text: "obok siebie — «рядом друг с другом»: Siedzieli obok siebie." }
+collocations:
+  - { pl: "obok domu", ru: "возле дома" }
+  - { pl: "obok siebie", ru: "рядом друг с другом" }
+  - { pl: "tuż obok", ru: "совсем рядом" }
+  - { pl: "mieszkać obok", ru: "жить рядом" }
+family:
+  - { pl: "bok", ru: "бок, сторона", relation: root }
+  - { pl: "poboczny", ru: "побочный", relation: derived }
+etymology: "Из ob- + bok «бок» — буквально «сбоку, при боке». Русское «бок» того же корня, а «о-бок» когда-то значило ровно то же."
+memory: "obok — «возле, рядом с», и разбирается прозрачно: ob + bok, то есть «сбоку». Требует родительного падежа: obok domu. Без дополнения превращается в наречие: Mieszka obok «Живёт рядом», Przeszedł obok «Прошёл мимо»."
+idioms:
+  - { pl: "obok siebie", ru: "рядом друг с другом" }
+  - { pl: "tuż obok", ru: "совсем рядом" }
+  - { pl: "przejść obok", ru: "пройти мимо" }
+formExamples:
+  - form: "obok"
+    pl: "Mój dom jest obok kościoła."
+    ru: "Мой дом возле церкви."
+    source: { kind: tatoeba, id: 4818113 }
+  - form: "obok"
+    pl: "Drugie lustro wisi obok drzwi."
+    ru: "Второе зеркало висит рядом с дверью."
+    source: { kind: tatoeba, id: 1550617 }
+  - form: "obok"
+    pl: "Obok przystanku stał kiosk z czasopismami."
+    ru: "Возле остановки стоял киоск с журналами."
+    source: { kind: tatoeba, id: 7960573 }
+  - form: "obok"
+    pl: "Mieszka tuż obok."
+    ru: "Он живёт совсем рядом."
+    source: { kind: authored }
+  - form: "obok"
+    pl: "Przeszedł obok bez słowa."
+    ru: "Он прошёл мимо без слова."
+    source: { kind: authored }
+  - form: "obok"
+    pl: "Siedzieli obok siebie przez cały wieczór."
+    ru: "Они сидели рядом весь вечер."
+    source: { kind: authored }
