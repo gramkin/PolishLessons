@@ -658,6 +658,20 @@ exclude:
   # вдобавок толкует niemiec как «немецкий язык» и «лютеранин» — значения,
   # которых нет ни в одном примере
   - niemiec
+  # "porucznik" — единственный кандидат на десять форм (Zostal zdegradowany
+  # do porucznika), девять форм пусты, и даже этот один пример — не
+  # именительный падеж. Для карточки формата 2 три примера на форму пришлось
+  # бы выдумать целиком. Класс immunitet, ed, phil
+  - porucznik
+  # "korekta" — единственный кандидат на десять форм (Wiele potrzebnych korekt
+  # nie moglo byc naniesionych), девять форм пусты, и этот пример — родительный
+  # множественного, а не словарная форма. Класс immunitet, porucznik
+  - korekta
+  # "wspolnik" — ни одного кандидата ни в одной из десяти форм. Слово реальное
+  # («компаньон, соучастник»), но корпусом не подтверждено вовсе, а выдумывать
+  # три примера на каждую форму значило бы сочинить карточку целиком.
+  # Класс lord, komandor
+  - wspolnik
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
