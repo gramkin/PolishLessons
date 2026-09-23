@@ -197,6 +197,16 @@ exclude:
   # значение "vocative: папа! (обращение — форма tato)". Ранжировщик посчитал
   # звательный падеж отдельным словом
   - tato
+  # имя собственное: Wiktionary даёт "imię żeńskie", лемма с заглавной буквы,
+  # и все 30 кандидатов до единого — переводы Tatoeba про Toma и Mary
+  # (Maria jest wróżką, Tom pocałował Marię w policzek). Тот же класс,
+  # что julia, jimmy, max, anna
+  - maria
+  # не лемма, а срез парадигмы карточки gosc (ранг 660): из одиннадцати форм
+  # семь уже разобраны там примерами (gość, gościa, gości, goście, gościom,
+  # gościu, gościach) и ни одна не помечена пропуском. Тот же класс, что
+  # moja, swoje, cie, tato
+  - goscia
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
