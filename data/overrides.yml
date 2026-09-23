@@ -437,6 +437,18 @@ exclude:
   # иностранных имён собственных (San Francisco, San Diego, san-stefanski),
   # а единственный "sanie" — опечатка вместо w stanie. Класс in, e, la, van, de
   - san
+  # имя собственное: 9 из 10 форм пусты, единственный кандидат — личное имя
+  # (Juz nigdy nie pojde na zakupy z Jasonem)
+  - jason
+  # призрачная лемма с чужими примерами: grac стоит в ranked.json под рангом
+  # 245 с карточкой, gra — под 387. Само слово graca "мотыга" редкое, 9 из 10
+  # форм пусты, а все три кандидата — английское имя Grace (Grace jeszcze nie
+  # wrocila). В парадигме вдобавок числится grac, инфинитив carded-глагола
+  - graca
+  # ни одного кандидата в корпусе: все 11 форм пусты. Проверялось как вопрос
+  # регистра (разговорное "мент"), но решает не регистр, а отсутствие
+  # примеров — класс clark и walter. Нейтральное policjant уже есть
+  - gliniarz
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
