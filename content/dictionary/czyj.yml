@@ -1,0 +1,141 @@
+# review
+id: czyj
+format: 2
+lemma: "czyj"
+rank: 1715
+pos: pron
+pron: { cyr: "чый" }
+senses:
+  - id: whose
+    ru: "чей (вопрос о владельце)"
+    examples:
+      - pl: "Czyj to ołówek?"
+        ru: "Чей это карандаш?"
+        source: { kind: tatoeba, id: 709266 }
+      - pl: "Czyja kolej?"
+        ru: "Чья очередь?"
+        source: { kind: tatoeba, id: 12569825 }
+      - pl: "Czyje to piwo?"
+        ru: "Чьё это пиво?"
+        source: { kind: tatoeba, id: 4869587 }
+  - id: whose-embedded
+    ru: "чей (в придаточном вопросе)"
+    examples:
+      - pl: "Wiesz, czyje to książki?"
+        ru: "Ты знаешь, чьи это книжки?"
+        source: { kind: tatoeba, id: 13045921 }
+      - pl: "Po czyjej jesteś stronie?"
+        ru: "На чьей ты стороне?"
+        source: { kind: tatoeba, id: 3749802 }
+      - pl: "Czyim synem jesteś?"
+        ru: "Чей ты сын?"
+        source: { kind: translated, id: 2196538 }
+notes:
+  - { kind: usage, text: "Склоняется как прилагательное и согласуется с предметом, а не с владельцем: czyja książka «чья книга», czyje auto «чья машина» — ровно как русское «чей»." }
+  - { kind: usage, text: "Чаще всего в обороте Czyj to jest…? или коротко Czyj to…?: Czyj to rower? «Чей это велосипед?»" }
+  - { kind: government, text: "После предлога падеж задаёт предлог: po czyjej stronie «на чьей стороне», z czyim psem «с чьей собакой»." }
+  - { kind: false-friend, text: "Не путайте czyj «чей» с czy «ли, разве»: Czy to twoje? значит «Это твоё?», а Czyje to? — «Чьё это?»" }
+collocations:
+  - { pl: "czyj to?", ru: "чей это?" }
+  - { pl: "czyja kolej", ru: "чья очередь" }
+  - { pl: "po czyjej stronie", ru: "на чьей стороне" }
+family:
+  - { pl: "kto", ru: "кто", relation: root, id: kto }
+  - { pl: "mój", ru: "мой", relation: root, id: moj }
+  - { pl: "twój", ru: "твой", relation: root, id: twoj }
+etymology: "Праславянское *čьjь — то же слово, что русское «чей», и склоняется оно так же."
+memory: "czyj — «чей», и ведёт себя точно как русское: согласуется с предметом (czyja książka, czyje auto), а не с владельцем. Не путайте с czy «ли»."
+idioms:
+  - { pl: "czyja kolej?", ru: "чья очередь?" }
+  - { pl: "po czyjej stronie?", ru: "на чьей стороне?" }
+  - { pl: "czyj to?", ru: "чей это?" }
+formExamplesSkip:
+  - { form: "czyi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "czyich", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "czyimi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "czyjemu", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "czyim"
+    pl: "Czyim synem jesteś?"
+    ru: "Чей ты сын?"
+    source: { kind: translated, id: 2196538 }
+  - form: "czyim"
+    pl: "Z czyim psem bawi się Tom?"
+    ru: "С чьей собакой играет Том?"
+    source: { kind: translated, id: 1591097 }
+  - form: "czyim"
+    pl: "Czyim samochodem wczoraj jechałeś?"
+    ru: "На чьей машине ты вчера ехал?"
+    source: { kind: translated, id: 6729231 }
+  - form: "czyj"
+    pl: "Czyj to ołówek?"
+    ru: "Чей это карандаш?"
+    source: { kind: tatoeba, id: 709266 }
+  - form: "czyj"
+    pl: "Czyj to sweter?"
+    ru: "Чей это свитер?"
+    source: { kind: tatoeba, id: 8651066 }
+  - form: "czyj"
+    pl: "Czyj to telefon?"
+    ru: "Чей это телефон?"
+    source: { kind: tatoeba, id: 3460668 }
+  - form: "czyja"
+    pl: "Czyja kolej?"
+    ru: "Чья очередь?"
+    source: { kind: tatoeba, id: 12569825 }
+  - form: "czyja"
+    pl: "Czyja to wina?"
+    ru: "Чья это вина?"
+    source: { kind: translated, id: 552981 }
+  - form: "czyja"
+    pl: "Czyja to gitara?"
+    ru: "Чья это гитара?"
+    source: { kind: translated, id: 730373 }
+  - form: "czyją"
+    pl: "Czyją córką jest Julia?"
+    ru: "Чья Юлия дочь?"
+    source: { kind: translated, id: 2905776 }
+  - form: "czyją"
+    pl: "Czyją książkę czytasz?"
+    ru: "Чью книгу ты читаешь?"
+    source: { kind: authored }
+  - form: "czyją"
+    pl: "Nie wiem, czyją to jest winą."
+    ru: "Я не знаю, чья это вина."
+    source: { kind: authored }
+  - form: "czyje"
+    pl: "Czyje to piwo?"
+    ru: "Чьё это пиво?"
+    source: { kind: tatoeba, id: 4869587 }
+  - form: "czyje"
+    pl: "Czyje to biuro?"
+    ru: "Чей это офис?"
+    source: { kind: tatoeba, id: 5909166 }
+  - form: "czyje"
+    pl: "Wiesz, czyje to książki?"
+    ru: "Ты знаешь, чьи это книжки?"
+    source: { kind: tatoeba, id: 13045921 }
+  - form: "czyjego"
+    pl: "Czyjego parasola użyłeś?"
+    ru: "Чьим зонтом ты воспользовался?"
+    source: { kind: translated, id: 10667441 }
+  - form: "czyjego"
+    pl: "Czyjego psa jest to zdjęcie?"
+    ru: "Чьей собаки это фото?"
+    source: { kind: authored }
+  - form: "czyjego"
+    pl: "Nie pamiętam, czyjego auta użyliśmy."
+    ru: "Я не помню, чьей машиной мы воспользовались."
+    source: { kind: authored }
+  - form: "czyjej"
+    pl: "Po czyjej jesteś stronie?"
+    ru: "На чьей ты стороне?"
+    source: { kind: tatoeba, id: 3749802 }
+  - form: "czyjej"
+    pl: "W czyjej torbie to znalazłeś?"
+    ru: "В чьей сумке ты это нашёл?"
+    source: { kind: authored }
+  - form: "czyjej"
+    pl: "Nie wiem, w czyjej firmie pracuje."
+    ru: "Я не знаю, в чьей фирме он работает."
+    source: { kind: authored }
