@@ -157,6 +157,11 @@ exclude:
   # самого zemrzeć (zemrę, zemrze, zemrzeć, zemrzyj) пусты, а заполнены только
   # zmarł, zmarła, zmarli, zmarło — прошедшее время umrzeć
   - zemrzeć
+  # та же лемма, что карточка tata (ранг 184): весь набор форм совпадает
+  # (tacie, tatą, tatę, tato, taty), а у карточки tata уже есть отдельное
+  # значение "vocative: папа! (обращение — форма tato)". Ранжировщик посчитал
+  # звательный падеж отдельным словом
+  - tato
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
