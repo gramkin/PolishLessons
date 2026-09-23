@@ -149,6 +149,14 @@ exclude:
   # michael and anna. Every candidate is the name, and the paradigm is built
   # from apostrophe forms (George'a, George'em) with zero attestation.
   - george
+  # имя собственное: лемма henr (единица индуктивности) не встречается ни разу,
+  # все кандидаты — английское имя Henry (Henry James był rodowitym Amerykaninem,
+  # Mój kolega Henry wczoraj nie przyszedł na zajęcia)
+  - henr
+  # парадигма целиком заимствована у umrzeć (карточка есть, ранг 311): все формы
+  # самого zemrzeć (zemrę, zemrze, zemrzeć, zemrzyj) пусты, а заполнены только
+  # zmarł, zmarła, zmarli, zmarło — прошедшее время umrzeć
+  - zemrzeć
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

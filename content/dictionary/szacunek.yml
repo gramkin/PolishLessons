@@ -1,0 +1,127 @@
+# review
+id: szacunek
+format: 2
+lemma: "szacunek"
+rank: 980
+pos: noun
+pron: { cyr: "шацу́нэк" }
+senses:
+  - id: respect
+    ru: "уважение"
+    examples:
+      - pl: "Zasługują na szacunek."
+        ru: "Они заслуживают уважения."
+        source: { kind: translated, id: 3084471 }
+      - pl: "Chcę twojego szacunku."
+        ru: "Я хочу твоего уважения."
+        source: { kind: translated, id: 3095481 }
+      - pl: "Tom nie ma szacunku dla nikogo."
+        ru: "Том ни к кому не испытывает уважения."
+        source: { kind: translated, id: 5441534 }
+  - id: with-respect
+    ru: "z szacunkiem — с уважением"
+    examples:
+      - pl: "Traktuj ją z szacunkiem."
+        ru: "Обращайся с ней с уважением."
+        source: { kind: translated, id: 2991682 }
+      - pl: "Traktuj starszych ludzi z szacunkiem!"
+        ru: "Обращайся с пожилыми людьми с уважением!"
+        source: { kind: translated, id: 5488169 }
+      - pl: "Z całym szacunkiem."
+        ru: "При всём уважении."
+        source: { kind: translated, id: 348663 }
+  - id: estimate
+    ru: "оценка, расчёт (в мн. ч. szacunki)"
+    note: "Второе значение, которого у русского «уважения» нет."
+    examples:
+      - pl: "W naszych szacunkach założyliśmy margines błędu."
+        ru: "В наших расчётах мы заложили погрешность."
+        source: { kind: translated, id: 348983 }
+      - pl: "Według szacunków ekspertów koszt wzrośnie."
+        ru: "По оценкам экспертов, стоимость вырастет."
+        source: { kind: authored }
+      - pl: "To tylko wstępny szacunek."
+        ru: "Это лишь предварительная оценка."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "mieć szacunek DLA kogoś «уважать кого-то» — предлог dla с родительным. Русский обходится винительным без предлога, так что оборот надо запоминать целиком." }
+  - { kind: usage, text: "z szacunkiem — «с уважением»: traktować kogoś z szacunkiem. Z całym szacunkiem значит «при всём уважении» и обычно предваряет возражение." }
+  - { kind: usage, text: "Szacunek! как отдельная реплика — разговорное «Респект!, Уважаю!»." }
+  - { kind: usage, text: "Второе значение — «оценка, расчёт»: według szacunków «по оценкам». В этом смысле слово обычно стоит во множественном числе." }
+collocations:
+  - { pl: "z szacunkiem", ru: "с уважением" }
+  - { pl: "brak szacunku", ru: "отсутствие уважения" }
+  - { pl: "mieć szacunek dla", ru: "уважать" }
+  - { pl: "według szacunków", ru: "по оценкам" }
+family:
+  - { pl: "szanować", ru: "уважать", relation: root }
+  - { pl: "szanowny", ru: "уважаемый", relation: derived }
+etymology: "Из немецкого Schätzung «оценка» — отсюда и второе значение «расчёт». Значение «уважение» развилось позже: ценить человека значит высоко его оценивать."
+memory: "szacunek — «уважение», но управление своё: mieć szacunek DLA kogoś, с предлогом dla. Z całym szacunkiem «при всём уважении» обычно предваряет возражение. А во множественном szacunki значит «оценки, расчёты»."
+idioms:
+  - { pl: "z całym szacunkiem", ru: "при всём уважении" }
+  - { pl: "z szacunkiem", ru: "с уважением" }
+  - { pl: "według szacunków", ru: "по оценкам" }
+formExamplesSkip:
+  - { form: "szacunki", reason: "именительный множественного в значении «оценки» встречается редко: обычно берут родительный według szacunków" }
+  - { form: "szacunkami", reason: "творительный множественного числа в живой речи почти не встречается" }
+  - { form: "szacunkom", reason: "дательный множественного числа встречается крайне редко" }
+  - { form: "szacunkowi", reason: "дательный единственного числа в живой речи почти не встречается" }
+  - { form: "szacunków", reason: "родительный множественного: встречается почти только в обороте według szacunków" }
+formExamples:
+  - form: "szacunek"
+    pl: "Szacunek!"
+    ru: "Уважаю!"
+    source: { kind: translated, id: 350156 }
+  - form: "szacunek"
+    pl: "Okaż szacunek."
+    ru: "Прояви уважение."
+    source: { kind: translated, id: 8617364 }
+  - form: "szacunek"
+    pl: "Zasługują na szacunek."
+    ru: "Они заслуживают уважения."
+    source: { kind: translated, id: 3084471 }
+  - form: "szacunek"
+    pl: "Mam szacunek wobec wierzących."
+    ru: "Я с уважением отношусь к верующим."
+    source: { kind: translated, id: 2125492 }
+  - form: "szacunkach"
+    pl: "W naszych szacunkach założyliśmy margines błędu."
+    ru: "В наших расчётах мы заложили погрешность."
+    source: { kind: translated, id: 348983 }
+  - form: "szacunkach"
+    pl: "W tych szacunkach jest błąd."
+    ru: "В этих расчётах есть ошибка."
+    source: { kind: authored }
+  - form: "szacunkach"
+    pl: "Mówili o szacunkach kosztów."
+    ru: "Они говорили об оценках расходов."
+    source: { kind: authored }
+  - form: "szacunkiem"
+    pl: "Z całym szacunkiem."
+    ru: "При всём уважении."
+    source: { kind: translated, id: 348663 }
+  - form: "szacunkiem"
+    pl: "Traktuj ją z szacunkiem."
+    ru: "Обращайся с ней с уважением."
+    source: { kind: translated, id: 2991682 }
+  - form: "szacunkiem"
+    pl: "Mary cieszy się powszechnym szacunkiem."
+    ru: "Мэри пользуется всеобщим уважением."
+    source: { kind: translated, id: 2218914 }
+  - form: "szacunku"
+    pl: "Chcę twojego szacunku."
+    ru: "Я хочу твоего уважения."
+    source: { kind: translated, id: 3095481 }
+  - form: "szacunku"
+    pl: "Okazywali brak szacunku."
+    ru: "Они проявляли неуважение."
+    source: { kind: translated, id: 12188844 }
+  - form: "szacunku"
+    pl: "Jest godzien naszego szacunku."
+    ru: "Он достоин нашего уважения."
+    source: { kind: translated, id: 2502499 }
+  - form: "szacunku"
+    pl: "Tom nie ma szacunku dla nikogo."
+    ru: "Том ни к кому не испытывает уважения."
+    source: { kind: translated, id: 5441534 }
