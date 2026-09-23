@@ -92,6 +92,15 @@ exclude:
   # only other attested form is "Gardzisz Nickiem" -- capitalised throughout -- and
   # 8 of the 10 forms have no corpus at all. Same class as john, jack and sir.
   - nick
+  # not a lemma but a misspelling of "cie", the clitic accusative of "ty": every
+  # candidate drops the diacritic -- "Ide cie zabic", "Trudno cie rozpoznac",
+  # "Nikt cie nie uslyszy" -- where correct Polish is "cie" with the ogonek. The
+  # forms belong to the carded ty paradigm, same class as the excluded twoja.
+  - cie
+  # a female given name (Wiktionary: "imie zenskie"), capitalised in the lemma
+  # itself, and every candidate is the name -- "Julia spiewa", "Romeo ozenil sie
+  # z Julia", "Nos Julii jest piekny". Same class as anna, charlie and michael.
+  - julia
   # tagged adj, but it is not a lemma: the candidates split three ways — the noun
   # "rana" (Czas leczy rany, od rana), the verb "ranić" (Odrzucenie rani) and the
   # interjection "o rany". The rana card will own the noun forms.

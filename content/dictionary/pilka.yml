@@ -1,0 +1,138 @@
+# review
+id: pilka
+format: 2
+lemma: "piłka"
+rank: 1091
+pos: noun
+pron: { cyr: "пи́ука" }
+senses:
+  - id: ball
+    ru: "мяч"
+    examples:
+      - pl: "Gdzie jest moja piłka?"
+        ru: "Где мой мяч?"
+        source: { kind: translated, id: 8493730 }
+      - pl: "Rzuć piłkę."
+        ru: "Брось мяч."
+        source: { kind: translated, id: 363665 }
+      - pl: "Ziemia ma kształt piłki."
+        ru: "Земля имеет форму мяча."
+        source: { kind: translated, id: 12334708 }
+  - id: football
+    ru: "piłka nożna — футбол"
+    examples:
+      - pl: "Piłka nożna to mój ulubiony sport."
+        ru: "Футбол - мой любимый вид спорта."
+        source: { kind: tatoeba, id: 530635 }
+      - pl: "Grałem w piłkę nożną."
+        ru: "Я играл в футбол."
+        source: { kind: tatoeba, id: 363709 }
+      - pl: "Nienawidzę piłki nożnej."
+        ru: "Я ненавижу футбол."
+        source: { kind: tatoeba, id: 2967787 }
+  - id: playing
+    ru: "игра с мячом, футбол как занятие"
+    examples:
+      - pl: "Jestem dobry w piłce nożnej."
+        ru: "Я хорошо играю в футбол."
+        source: { kind: translated, id: 364558 }
+      - pl: "Szaleję za piłką nożną."
+        ru: "Я схожу с ума по футболу."
+        source: { kind: translated, id: 552501 }
+notes:
+  - { kind: usage, text: "Футбол по-польски — piłka nożna, буквально «ножной мяч». Отдельного слова вроде русского «футбол» нет." }
+  - { kind: government, text: "grać w piłkę «играть в мяч, играть в футбол» — предлог w с винительным падежом, ровно как в русском «играть в мяч»." }
+  - { kind: false-friend, text: "У слова есть омоним: piłka значит ещё и «ножовка», маленькая piła «пила». Различает только контекст." }
+  - { kind: usage, text: "Женский род: ta piłka, tej piłki. Футболист — piłkarz." }
+collocations:
+  - { pl: "piłka nożna", ru: "футбол" }
+  - { pl: "grać w piłkę", ru: "играть в мяч" }
+  - { pl: "rzucić piłkę", ru: "бросить мяч" }
+  - { pl: "mecz piłki nożnej", ru: "футбольный матч" }
+family:
+  - { pl: "piłkarz", ru: "футболист", relation: derived }
+  - { pl: "piłkarski", ru: "футбольный", relation: derived }
+  - { pl: "piła", ru: "пила", relation: root }
+etymology: "Из латинского pila «мяч, шар», заимствовано ещё в XV веке. Омонимичное piłka «ножовка» — совсем другое слово, уменьшительное от piła «пила»."
+memory: "piłka — «мяч», женский род. Футбол будет piłka nożna, буквально «ножной мяч», и играют в него grać w piłkę. Не путайте с омонимом piłka «ножовка», от piła «пила»."
+idioms:
+  - { pl: "piłka nożna", ru: "футбол" }
+  - { pl: "piłka jest po twojej stronie", ru: "мяч на твоей стороне" }
+formExamplesSkip:
+  - { form: "piłkach", reason: "в корпусе нет примеров: предложный падеж множественного числа у этого слова редок" }
+  - { form: "piłkami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
+  - { form: "piłko", reason: "звательный падеж у этого слова в живой речи не употребляется" }
+  - { form: "piłkom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+formExamples:
+  - form: "piłce"
+    pl: "Skup się na piłce."
+    ru: "Сосредоточься на мяче."
+    source: { kind: translated, id: 7351908 }
+  - form: "piłce"
+    pl: "Jestem dobry w piłce nożnej."
+    ru: "Я хорошо играю в футбол."
+    source: { kind: translated, id: 364558 }
+  - form: "piłce"
+    pl: "Jest mistrzynią w piłce nożnej."
+    ru: "Она чемпионка по футболу."
+    source: { kind: translated, id: 970336 }
+  - form: "piłek"
+    pl: "Żadna z piłek nie jest żółta."
+    ru: "Ни один из мячей не жёлтый."
+    source: { kind: translated, id: 982473 }
+  - form: "piłek"
+    pl: "Nie pójdziesz poszukać zgubionych piłek?"
+    ru: "Не пойдёшь поискать потерянные мячи?"
+    source: { kind: translated, id: 508871 }
+  - form: "piłek"
+    pl: "W koszu nie ma piłek."
+    ru: "В корзине нет мячей."
+    source: { kind: authored }
+  - form: "piłka"
+    pl: "Piłka nożna to nie gra w szachy."
+    ru: "Футбол – это не игра в шахматы."
+    source: { kind: tatoeba, id: 12218623 }
+  - form: "piłka"
+    pl: "Piłka nożna to mój ulubiony sport."
+    ru: "Футбол - мой любимый вид спорта."
+    source: { kind: tatoeba, id: 530635 }
+  - form: "piłka"
+    pl: "Gdzie jest moja piłka?"
+    ru: "Где мой мяч?"
+    source: { kind: translated, id: 8493730 }
+  - form: "piłką"
+    pl: "Rzucił piłką."
+    ru: "Он бросил мяч."
+    source: { kind: translated, id: 731871 }
+  - form: "piłką"
+    pl: "Szaleję za piłką nożną."
+    ru: "Я схожу с ума по футболу."
+    source: { kind: translated, id: 552501 }
+  - form: "piłką"
+    pl: "Ten chłopak często rozbija piłką okna."
+    ru: "Этот мальчик часто разбивает мячом окна."
+    source: { kind: translated, id: 737270 }
+  - form: "piłkę"
+    pl: "Grałem w piłkę nożną."
+    ru: "Я играл в футбол."
+    source: { kind: tatoeba, id: 363709 }
+  - form: "piłkę"
+    pl: "Tom lubi oglądać piłkę nożną."
+    ru: "Том любит смотреть футбол."
+    source: { kind: tatoeba, id: 7184842 }
+  - form: "piłkę"
+    pl: "Rzuć piłkę."
+    ru: "Брось мяч."
+    source: { kind: translated, id: 363665 }
+  - form: "piłki"
+    pl: "Nienawidzę piłki nożnej."
+    ru: "Я ненавижу футбол."
+    source: { kind: tatoeba, id: 2967787 }
+  - form: "piłki"
+    pl: "Znasz zasady piłki nożnej?"
+    ru: "Ты знаешь правила футбола?"
+    source: { kind: tatoeba, id: 363608 }
+  - form: "piłki"
+    pl: "Ziemia ma kształt piłki."
+    ru: "Земля имеет форму мяча."
+    source: { kind: translated, id: 12334708 }
