@@ -53,8 +53,8 @@ describe('commons', () => {
   })
 
   it('sends a User-Agent carrying a URL, which Wikimedia requires', async () => {
-    const fetchImpl = vi.fn(async (_url: string, _init?: RequestInit) =>
-      new Response(JSON.stringify(response)),
+    const fetchImpl = vi.fn(
+      async (_url: string, _init?: RequestInit) => new Response(JSON.stringify(response)),
     )
     await fetchAudioMeta(['Pl-dom.ogg'], fetchImpl as unknown as typeof fetch)
     const init = fetchImpl.mock.calls[0]![1]!
