@@ -1,0 +1,694 @@
+# review
+id: spadac
+format: 2
+lemma: "spadać"
+rank: 770
+pos: verb
+aspect: imperf
+pron: { cyr: "спа́даць" }
+senses:
+  - id: fall
+    ru: "падать, опадать"
+    examples:
+      - pl: "W październiku zaczynają spadać liście."
+        ru: "В октябре начинают падать листья."
+        source: { kind: tatoeba, id: 5487881 }
+      - pl: "Liście już spadają z drzew."
+        ru: "Листья уже опадают с деревьев."
+        source: { kind: tatoeba, id: 6849525 }
+      - pl: "Liście spadają powoli."
+        ru: "Листья падают медленно."
+        source: { kind: translated, id: 4558048 }
+  - id: drop
+    ru: "снижаться, падать (о ценах, температуре)"
+    examples:
+      - pl: "Spada."
+        ru: "Падает."
+        source: { kind: translated, id: 10598420 }
+      - pl: "Temperatura gwałtownie spada."
+        ru: "Температура резко падает."
+        source: { kind: authored }
+      - pl: "Ceny spadają z miesiąca na miesiąc."
+        ru: "Цены падают из месяца в месяц."
+        source: { kind: authored }
+  - id: shooting-star
+    ru: "spadająca gwiazda — падающая звезда"
+    examples:
+      - pl: "Właśnie zobaczyłem spadającą gwiazdę."
+        ru: "Я только что видел падающую звезду."
+        source: { kind: tatoeba, id: 1591782 }
+      - pl: "O, spadająca gwiazda!"
+        ru: "О, падающая звезда!"
+        source: { kind: translated, id: 732973 }
+      - pl: "Spadająca gwiazda przecięła niebo."
+        ru: "Падающая звезда прочертила небо."
+        source: { kind: translated, id: 951181 }
+  - id: go-away
+    ru: "Spadaj! — Проваливай!"
+    note: "Грубовато, но печатно."
+    examples:
+      - pl: "Spadaj stąd!"
+        ru: "Проваливай отсюда!"
+        source: { kind: tatoeba, id: 5909111 }
+      - pl: "Spadaj!"
+        ru: "Проваливай!"
+        source: { kind: translated, id: 623563 }
+      - pl: "Muszę spadać."
+        ru: "Мне пора сваливать."
+        source: { kind: translated, id: 7610590 }
+notes:
+  - { kind: register, text: "Spadaj! значит «Проваливай!» — грубовато, но не непристойно: так отшивают назойливого. А Muszę spadać «Мне пора сваливать» говорят о себе, и это просто разговорно." }
+  - { kind: government, text: "Откуда падать — z с родительным: spadać z drzewa, spadać z drabiny. До какого уровня — do с родительным: ceny spadły do zera." }
+  - { kind: usage, text: "kamień spadł mi z serca — «камень с души свалился»: идиома совпадает с русской дословно." }
+  - { kind: usage, text: "Существительное spadek совмещает два значения сразу: «падение» (spadek cen) и «наследство» (dostać spadek). Совершенный вид глагола — spaść." }
+collocations:
+  - { pl: "spadać z drzewa", ru: "падать с дерева" }
+  - { pl: "spadająca gwiazda", ru: "падающая звезда" }
+  - { pl: "ceny spadają", ru: "цены падают" }
+  - { pl: "Spadaj!", ru: "Проваливай!" }
+family:
+  - { pl: "spaść", ru: "упасть", relation: aspect }
+  - { pl: "padać", ru: "падать", relation: root }
+  - { pl: "spadek", ru: "падение; наследство", relation: derived }
+  - { pl: "upadek", ru: "падение", relation: derived }
+etymology: "s- + padać «падать», праславянское *pasti — то же слово, что русские «падать» и «упасть»."
+memory: "spadać — «падать», от padać, как русское «с-падать». Две вещи возьмите отдельно. Spadaj! значит «Проваливай!» — грубовато, но печатно, а Muszę spadać — «мне пора сваливать». И существительное spadek совмещает два значения сразу: «падение» (spadek cen) и «наследство» (dostać spadek)."
+idioms:
+  - { pl: "Spadaj!", ru: "Проваливай!" }
+  - { pl: "spadająca gwiazda", ru: "падающая звезда" }
+  - { pl: "kamień spadł mi z serca", ru: "камень с души свалился" }
+formExamplesSkip:
+  - { form: "spadano", reason: "безличной формы у этого глагола нет: падают сами, безличное «падалось» не употребляется" }
+formExamples:
+  - form: "spada"
+    pl: "Spada."
+    ru: "Падает."
+    source: { kind: translated, id: 10598420 }
+  - form: "spada"
+    pl: "Temperatura gwałtownie spada."
+    ru: "Температура резко падает."
+    source: { kind: authored }
+  - form: "spada"
+    pl: "Liść spada z drzewa."
+    ru: "Лист падает с дерева."
+    source: { kind: authored }
+  - form: "spadacie"
+    pl: "Spadacie czy zostajecie?"
+    ru: "Вы сваливаете или остаётесь?"
+    source: { kind: authored }
+  - form: "spadacie"
+    pl: "Spadacie z tempem."
+    ru: "Вы сбавляете темп."
+    source: { kind: authored }
+  - form: "spadacie"
+    pl: "Uważajcie, spadacie z drabiny."
+    ru: "Осторожно, вы падаете с лестницы."
+    source: { kind: authored }
+  - form: "spadać"
+    pl: "W październiku zaczynają spadać liście."
+    ru: "В октябре начинают падать листья."
+    source: { kind: tatoeba, id: 5487881 }
+  - form: "spadać"
+    pl: "Muszę spadać."
+    ru: "Мне пора сваливать."
+    source: { kind: translated, id: 7610590 }
+  - form: "spadać"
+    pl: "Ceny zaczynają spadać."
+    ru: "Цены начинают падать."
+    source: { kind: authored }
+  - form: "spadaj"
+    pl: "Spadaj stąd!"
+    ru: "Проваливай отсюда!"
+    source: { kind: tatoeba, id: 5909111 }
+  - form: "spadaj"
+    pl: "Spadaj!"
+    ru: "Проваливай!"
+    source: { kind: translated, id: 623563 }
+  - form: "spadaj"
+    pl: "Spadaj i nie wracaj."
+    ru: "Проваливай и не возвращайся."
+    source: { kind: authored }
+  - form: "spadają"
+    pl: "Liście już spadają z drzew."
+    ru: "Листья уже опадают с деревьев."
+    source: { kind: tatoeba, id: 6849525 }
+  - form: "spadają"
+    pl: "Liście spadają powoli."
+    ru: "Листья падают медленно."
+    source: { kind: translated, id: 4558048 }
+  - form: "spadają"
+    pl: "Ceny spadają z miesiąca na miesiąc."
+    ru: "Цены падают из месяца в месяц."
+    source: { kind: authored }
+  - form: "spadając"
+    pl: "Spadając, złamałem żebro."
+    ru: "Падая, я сломал ребро."
+    source: { kind: translated, id: 4516782 }
+  - form: "spadając"
+    pl: "Uderzyłeś się w głowę spadając z drabiny?"
+    ru: "Ты ударился головой, падая с лестницы?"
+    source: { kind: translated, id: 11890319 }
+  - form: "spadając"
+    pl: "Spadając, zdążył krzyknąć."
+    ru: "Падая, он успел крикнуть."
+    source: { kind: authored }
+  - form: "spadająca"
+    pl: "O, spadająca gwiazda!"
+    ru: "О, падающая звезда!"
+    source: { kind: translated, id: 732973 }
+  - form: "spadająca"
+    pl: "Spadająca gwiazda przecięła niebo."
+    ru: "Падающая звезда прочертила небо."
+    source: { kind: translated, id: 951181 }
+  - form: "spadająca"
+    pl: "Spadająca temperatura zaskoczyła wszystkich."
+    ru: "Падающая температура всех удивила."
+    source: { kind: authored }
+  - form: "spadającą"
+    pl: "Właśnie zobaczyłem spadającą gwiazdę."
+    ru: "Я только что видел падающую звезду."
+    source: { kind: tatoeba, id: 1591782 }
+  - form: "spadającą"
+    pl: "Pomyśl życzenie, kiedy widzisz spadającą gwiazdę."
+    ru: "Загадай желание, когда увидишь падающую звезду."
+    source: { kind: translated, id: 3271584 }
+  - form: "spadającą"
+    pl: "Widziałem spadającą gwiazdę nad lasem."
+    ru: "Я видел падающую звезду над лесом."
+    source: { kind: authored }
+  - form: "spadające"
+    pl: "Uwaga na spadające kamienie."
+    ru: "Осторожно, падающие камни."
+    source: { kind: translated, id: 6733901 }
+  - form: "spadające"
+    pl: "Spadające głazy zablokowały przejazd."
+    ru: "Падающие глыбы перекрыли проезд."
+    source: { kind: translated, id: 369432 }
+  - form: "spadające"
+    pl: "Spadające ceny ucieszyły kupujących."
+    ru: "Падающие цены обрадовали покупателей."
+    source: { kind: authored }
+  - form: "spadającego"
+    pl: "Uważaj na spadającego sopla."
+    ru: "Берегись падающей сосульки."
+    source: { kind: authored }
+  - form: "spadającego"
+    pl: "Nie ma tu spadającego kursu."
+    ru: "Падающего курса здесь нет."
+    source: { kind: authored }
+  - form: "spadającego"
+    pl: "Bali się spadającego drzewa."
+    ru: "Они боялись падающего дерева."
+    source: { kind: authored }
+  - form: "spadającej"
+    pl: "Bali się spadającej gałęzi."
+    ru: "Они боялись падающей ветки."
+    source: { kind: authored }
+  - form: "spadającej"
+    pl: "Nie ma tu spadającej temperatury."
+    ru: "Падающей температуры здесь нет."
+    source: { kind: authored }
+  - form: "spadającej"
+    pl: "Przestraszyli się spadającej ceny."
+    ru: "Они испугались падающей цены."
+    source: { kind: authored }
+  - form: "spadającemu"
+    pl: "Przyjrzał się spadającemu liściowi."
+    ru: "Он присмотрелся к падающему листу."
+    source: { kind: authored }
+  - form: "spadającemu"
+    pl: "Nie ufa spadającemu kursowi."
+    ru: "Он не доверяет падающему курсу."
+    source: { kind: authored }
+  - form: "spadającemu"
+    pl: "Dzięki spadającemu śniegu zrobiło się jasno."
+    ru: "Благодаря падающему снегу стало светло."
+    source: { kind: authored }
+  - form: "spadający"
+    pl: "Spadający kamień zabił go na miejscu."
+    ru: "Падающий камень убил его на месте."
+    source: { kind: translated, id: 836949 }
+  - form: "spadający"
+    pl: "Spadający kurs przestraszył inwestorów."
+    ru: "Падающий курс напугал инвесторов."
+    source: { kind: authored }
+  - form: "spadający"
+    pl: "Spadający śnieg przykrył dachy."
+    ru: "Падающий снег укрыл крыши."
+    source: { kind: authored }
+  - form: "spadających"
+    pl: "Widzieliśmy wiele spadających gwiazd około północy."
+    ru: "Около полуночи мы видели много падающих звёзд."
+    source: { kind: translated, id: 4408542 }
+  - form: "spadających"
+    pl: "Ryzyko śmierci z powodu spadających części samolotów jest 30 razy większe niż zabicie przez rekina."
+    ru: "Риск погибнуть от падающих частей самолёта в тридцать раз выше, чем быть убитым акулой."
+    source: { kind: translated, id: 1571180 }
+  - form: "spadających"
+    pl: "Bali się spadających kamieni."
+    ru: "Они боялись падающих камней."
+    source: { kind: authored }
+  - form: "spadającym"
+    pl: "W spadającym śniegu nic nie widać."
+    ru: "В падающем снеге ничего не видно."
+    source: { kind: authored }
+  - form: "spadającym"
+    pl: "Przyjrzał się spadającym liściom."
+    ru: "Он присмотрелся к падающим листьям."
+    source: { kind: authored }
+  - form: "spadającym"
+    pl: "Zajął się spadającym kursem akcji."
+    ru: "Он занялся падающим курсом акций."
+    source: { kind: authored }
+  - form: "spadającymi"
+    pl: "Zajmuje się spadającymi cenami."
+    ru: "Он занимается падающими ценами."
+    source: { kind: authored }
+  - form: "spadającymi"
+    pl: "Pod spadającymi liśćmi szli w milczeniu."
+    ru: "Под падающими листьями они шли молча."
+    source: { kind: authored }
+  - form: "spadającymi"
+    pl: "Między spadającymi a rosnącymi kursami jest różnica."
+    ru: "Между падающими и растущими курсами есть разница."
+    source: { kind: authored }
+  - form: "spadajcie"
+    pl: "Spadajcie stąd!"
+    ru: "Проваливайте отсюда!"
+    source: { kind: authored }
+  - form: "spadajcie"
+    pl: "Spadajcie, robi się późno."
+    ru: "Сваливайте, уже поздно."
+    source: { kind: authored }
+  - form: "spadajcie"
+    pl: "Nie spadajcie z drabiny."
+    ru: "Не падайте с лестницы."
+    source: { kind: authored }
+  - form: "spadajmy"
+    pl: "Spadajmy stąd."
+    ru: "Сваливаем отсюда."
+    source: { kind: authored }
+  - form: "spadajmy"
+    pl: "Spadajmy, robi się późno."
+    ru: "Сваливаем, уже поздно."
+    source: { kind: authored }
+  - form: "spadajmy"
+    pl: "Nie spadajmy z tempa."
+    ru: "Не будем сбавлять темп."
+    source: { kind: authored }
+  - form: "spadali"
+    pl: "Spadali z drabiny jeden po drugim."
+    ru: "Они падали с лестницы один за другим."
+    source: { kind: authored }
+  - form: "spadali"
+    pl: "Spadali z koni na zakręcie."
+    ru: "Они падали с коней на повороте."
+    source: { kind: authored }
+  - form: "spadali"
+    pl: "Nie spadali nigdy wcześniej."
+    ru: "Раньше они никогда не падали."
+    source: { kind: authored }
+  - form: "spadaliby"
+    pl: "Spadaliby z drabiny bez asekuracji."
+    ru: "Они падали бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadaliby"
+    pl: "Nie spadaliby, gdyby uważali."
+    ru: "Они не падали бы, если бы были осторожны."
+    source: { kind: authored }
+  - form: "spadaliby"
+    pl: "Spadaliby z tempa pod koniec."
+    ru: "Они сбавляли бы темп под конец."
+    source: { kind: authored }
+  - form: "spadalibyście"
+    pl: "Spadalibyście z drabiny bez asekuracji."
+    ru: "Вы падали бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadalibyście"
+    pl: "Nie spadalibyście, gdybyście uważali."
+    ru: "Вы не падали бы, если бы были осторожны."
+    source: { kind: authored }
+  - form: "spadalibyście"
+    pl: "Spadalibyście z tempa."
+    ru: "Вы сбавляли бы темп."
+    source: { kind: authored }
+  - form: "spadalibyśmy"
+    pl: "Spadalibyśmy z drabiny bez asekuracji."
+    ru: "Мы падали бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadalibyśmy"
+    pl: "Nie spadalibyśmy, gdybyśmy uważali."
+    ru: "Мы не падали бы, если бы были осторожны."
+    source: { kind: authored }
+  - form: "spadalibyśmy"
+    pl: "Spadalibyśmy z tempa."
+    ru: "Мы сбавляли бы темп."
+    source: { kind: authored }
+  - form: "spadaliście"
+    pl: "Spadaliście z drabiny?"
+    ru: "Вы падали с лестницы?"
+    source: { kind: authored }
+  - form: "spadaliście"
+    pl: "Nie spadaliście nigdy wcześniej."
+    ru: "Раньше вы никогда не падали."
+    source: { kind: authored }
+  - form: "spadaliście"
+    pl: "Spadaliście z tempa pod koniec."
+    ru: "Вы сбавляли темп под конец."
+    source: { kind: authored }
+  - form: "spadaliśmy"
+    pl: "Spadaliśmy z drabiny raz po raz."
+    ru: "Мы падали с лестницы раз за разом."
+    source: { kind: authored }
+  - form: "spadaliśmy"
+    pl: "Nie spadaliśmy nigdy wcześniej."
+    ru: "Раньше мы никогда не падали."
+    source: { kind: authored }
+  - form: "spadaliśmy"
+    pl: "Spadaliśmy z tempa pod koniec."
+    ru: "Мы сбавляли темп под конец."
+    source: { kind: authored }
+  - form: "spadał"
+    pl: "Śnieg spadał całą noc."
+    ru: "Снег падал всю ночь."
+    source: { kind: authored }
+  - form: "spadał"
+    pl: "Kurs spadał przez tydzień."
+    ru: "Курс падал неделю."
+    source: { kind: authored }
+  - form: "spadał"
+    pl: "Spadał z drabiny dwa razy."
+    ru: "Он падал с лестницы дважды."
+    source: { kind: authored }
+  - form: "spadała"
+    pl: "Proponuję zaczesać grzywkę, żeby nie spadała na czoło."
+    ru: "Советую зачесать чёлку, чтобы она не падала на лоб."
+    source: { kind: translated, id: 364330 }
+  - form: "spadała"
+    pl: "Temperatura spadała przez całą noc."
+    ru: "Температура падала всю ночь."
+    source: { kind: authored }
+  - form: "spadała"
+    pl: "Gwiazda spadała powoli."
+    ru: "Звезда падала медленно."
+    source: { kind: authored }
+  - form: "spadałaby"
+    pl: "Temperatura spadałaby bez ogrzewania."
+    ru: "Без отопления температура падала бы."
+    source: { kind: authored }
+  - form: "spadałaby"
+    pl: "Gwiazda spadałaby wolniej."
+    ru: "Звезда падала бы медленнее."
+    source: { kind: authored }
+  - form: "spadałaby"
+    pl: "Nie spadałaby, gdyby uważała."
+    ru: "Она не падала бы, если бы была осторожна."
+    source: { kind: authored }
+  - form: "spadałabym"
+    pl: "Spadałabym z drabiny bez asekuracji."
+    ru: "Я падала бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałabym"
+    pl: "Nie spadałabym, gdybym uważała."
+    ru: "Я не падала бы, если бы была осторожна."
+    source: { kind: authored }
+  - form: "spadałabym"
+    pl: "Spadałabym z tempa pod koniec."
+    ru: "Я сбавляла бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałabyś"
+    pl: "Spadałabyś z drabiny bez asekuracji."
+    ru: "Ты падала бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałabyś"
+    pl: "Nie spadałabyś, gdybyś uważała."
+    ru: "Ты не падала бы, если бы была осторожна."
+    source: { kind: authored }
+  - form: "spadałabyś"
+    pl: "Spadałabyś z tempa pod koniec."
+    ru: "Ты сбавляла бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałam"
+    pl: "Spadałam z drabiny dwa razy."
+    ru: "Я падала с лестницы дважды."
+    source: { kind: authored }
+  - form: "spadałam"
+    pl: "Nigdy wcześniej nie spadałam."
+    ru: "Раньше я никогда не падала."
+    source: { kind: authored }
+  - form: "spadałam"
+    pl: "Spadałam z tempa pod koniec."
+    ru: "Я сбавляла темп под конец."
+    source: { kind: authored }
+  - form: "spadałaś"
+    pl: "Spadałaś kiedyś z drabiny?"
+    ru: "Ты когда-нибудь падала с лестницы?"
+    source: { kind: authored }
+  - form: "spadałaś"
+    pl: "Nigdy wcześniej nie spadałaś."
+    ru: "Раньше ты никогда не падала."
+    source: { kind: authored }
+  - form: "spadałaś"
+    pl: "Spadałaś z tempa pod koniec."
+    ru: "Ты сбавляла темп под конец."
+    source: { kind: authored }
+  - form: "spadałby"
+    pl: "Kurs spadałby bez interwencji."
+    ru: "Без вмешательства курс падал бы."
+    source: { kind: authored }
+  - form: "spadałby"
+    pl: "Nie spadałby, gdyby uważał."
+    ru: "Он не падал бы, если бы был осторожен."
+    source: { kind: authored }
+  - form: "spadałby"
+    pl: "Śnieg spadałby całą noc."
+    ru: "Снег падал бы всю ночь."
+    source: { kind: authored }
+  - form: "spadałbym"
+    pl: "Spadałbym z drabiny bez asekuracji."
+    ru: "Я падал бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałbym"
+    pl: "Nie spadałbym, gdybym uważał."
+    ru: "Я не падал бы, если бы был осторожен."
+    source: { kind: authored }
+  - form: "spadałbym"
+    pl: "Spadałbym z tempa pod koniec."
+    ru: "Я сбавлял бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałbyś"
+    pl: "Spadałbyś z drabiny bez asekuracji."
+    ru: "Ты падал бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałbyś"
+    pl: "Nie spadałbyś, gdybyś uważał."
+    ru: "Ты не падал бы, если бы был осторожен."
+    source: { kind: authored }
+  - form: "spadałbyś"
+    pl: "Spadałbyś z tempa pod koniec."
+    ru: "Ты сбавлял бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałem"
+    pl: "Spadałem z drabiny dwa razy."
+    ru: "Я падал с лестницы дважды."
+    source: { kind: authored }
+  - form: "spadałem"
+    pl: "Nigdy wcześniej nie spadałem."
+    ru: "Раньше я никогда не падал."
+    source: { kind: authored }
+  - form: "spadałem"
+    pl: "Spadałem z tempa pod koniec."
+    ru: "Я сбавлял темп под конец."
+    source: { kind: authored }
+  - form: "spadałeś"
+    pl: "Spadałeś kiedyś z drabiny?"
+    ru: "Ты когда-нибудь падал с лестницы?"
+    source: { kind: authored }
+  - form: "spadałeś"
+    pl: "Nigdy wcześniej nie spadałeś."
+    ru: "Раньше ты никогда не падал."
+    source: { kind: authored }
+  - form: "spadałeś"
+    pl: "Spadałeś z tempa pod koniec."
+    ru: "Ты сбавлял темп под конец."
+    source: { kind: authored }
+  - form: "spadało"
+    pl: "Dziecko spadało z roweru raz po raz."
+    ru: "Ребёнок падал с велосипеда раз за разом."
+    source: { kind: authored }
+  - form: "spadało"
+    pl: "Wiele liści spadało na ścieżkę."
+    ru: "Много листьев падало на тропинку."
+    source: { kind: authored }
+  - form: "spadało"
+    pl: "Nic wtedy nie spadało z półki."
+    ru: "Тогда ничего не падало с полки."
+    source: { kind: authored }
+  - form: "spadałoby"
+    pl: "Dziecko spadałoby z roweru bez kółek."
+    ru: "Ребёнок падал бы с велосипеда без колёсиков."
+    source: { kind: authored }
+  - form: "spadałoby"
+    pl: "Wiele liści spadałoby na ścieżkę."
+    ru: "Много листьев падало бы на тропинку."
+    source: { kind: authored }
+  - form: "spadałoby"
+    pl: "Nic stąd nie spadałoby samo."
+    ru: "Ничего отсюда само не падало бы."
+    source: { kind: authored }
+  - form: "spadały"
+    pl: "Spadały krople."
+    ru: "Падали капли."
+    source: { kind: translated, id: 10115344 }
+  - form: "spadały"
+    pl: "Dziś w nocy patrzmy w niebo, bo będą spadały meteoryty."
+    ru: "Сегодня ночью посмотрим на небо: будут падать метеориты."
+    source: { kind: translated, id: 6302078 }
+  - form: "spadały"
+    pl: "Ceny spadały przez cały rok."
+    ru: "Цены падали весь год."
+    source: { kind: authored }
+  - form: "spadałyby"
+    pl: "Ceny spadałyby bez interwencji."
+    ru: "Без вмешательства цены падали бы."
+    source: { kind: authored }
+  - form: "spadałyby"
+    pl: "Liście spadałyby wolniej."
+    ru: "Листья падали бы медленнее."
+    source: { kind: authored }
+  - form: "spadałyby"
+    pl: "Nie spadałyby, gdyby było cieplej."
+    ru: "Они не падали бы, будь теплее."
+    source: { kind: authored }
+  - form: "spadałybyście"
+    pl: "Spadałybyście z drabiny bez asekuracji."
+    ru: "Вы падали бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałybyście"
+    pl: "Nie spadałybyście, gdybyście uważały."
+    ru: "Вы не падали бы, если бы были осторожны."
+    source: { kind: authored }
+  - form: "spadałybyście"
+    pl: "Spadałybyście z tempa pod koniec."
+    ru: "Вы сбавляли бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałybyśmy"
+    pl: "Spadałybyśmy z drabiny bez asekuracji."
+    ru: "Мы падали бы с лестницы без страховки."
+    source: { kind: authored }
+  - form: "spadałybyśmy"
+    pl: "Nie spadałybyśmy, gdybyśmy uważały."
+    ru: "Мы не падали бы, если бы были осторожны."
+    source: { kind: authored }
+  - form: "spadałybyśmy"
+    pl: "Spadałybyśmy z tempa pod koniec."
+    ru: "Мы сбавляли бы темп под конец."
+    source: { kind: authored }
+  - form: "spadałyście"
+    pl: "Spadałyście kiedyś z drabiny?"
+    ru: "Вы когда-нибудь падали с лестницы?"
+    source: { kind: authored }
+  - form: "spadałyście"
+    pl: "Nigdy wcześniej nie spadałyście."
+    ru: "Раньше вы никогда не падали."
+    source: { kind: authored }
+  - form: "spadałyście"
+    pl: "Spadałyście z tempa pod koniec."
+    ru: "Вы сбавляли темп под конец."
+    source: { kind: authored }
+  - form: "spadałyśmy"
+    pl: "Spadałyśmy z drabiny raz po raz."
+    ru: "Мы падали с лестницы раз за разом."
+    source: { kind: authored }
+  - form: "spadałyśmy"
+    pl: "Nigdy wcześniej nie spadałyśmy."
+    ru: "Раньше мы никогда не падали."
+    source: { kind: authored }
+  - form: "spadałyśmy"
+    pl: "Spadałyśmy z tempa pod koniec."
+    ru: "Мы сбавляли темп под конец."
+    source: { kind: authored }
+  - form: "spadam"
+    pl: "Spadam."
+    ru: "Я сваливаю."
+    source: { kind: translated, id: 3922728 }
+  - form: "spadam"
+    pl: "Spadam, robi się późno."
+    ru: "Я сваливаю, уже поздно."
+    source: { kind: authored }
+  - form: "spadam"
+    pl: "Spadam z drabiny!"
+    ru: "Я падаю с лестницы!"
+    source: { kind: authored }
+  - form: "spadamy"
+    pl: "Spadamy stąd."
+    ru: "Сваливаем отсюда."
+    source: { kind: authored }
+  - form: "spadamy"
+    pl: "Spadamy z tempa."
+    ru: "Мы сбавляем темп."
+    source: { kind: authored }
+  - form: "spadamy"
+    pl: "Spadamy w rankingu."
+    ru: "Мы падаем в рейтинге."
+    source: { kind: authored }
+  - form: "spadania"
+    pl: "Boję się spadania."
+    ru: "Я боюсь падения."
+    source: { kind: translated, id: 349083 }
+  - form: "spadania"
+    pl: "Boi się spadania z wysokości."
+    ru: "Он боится падения с высоты."
+    source: { kind: authored }
+  - form: "spadania"
+    pl: "Bez spadania nie ma nauki jazdy."
+    ru: "Без падений не научишься кататься."
+    source: { kind: authored }
+  - form: "spadanie"
+    pl: "Spadanie liści zaczyna się we wrześniu."
+    ru: "Листопад начинается в сентябре."
+    source: { kind: authored }
+  - form: "spadanie"
+    pl: "Spadanie z wysokości jest niebezpieczne."
+    ru: "Падать с высоты опасно."
+    source: { kind: authored }
+  - form: "spadanie"
+    pl: "Spadanie kursu trwało tydzień."
+    ru: "Падение курса длилось неделю."
+    source: { kind: authored }
+  - form: "spadaniem"
+    pl: "Przed spadaniem chroni asekuracja."
+    ru: "От падения защищает страховка."
+    source: { kind: authored }
+  - form: "spadaniem"
+    pl: "Skończyło się spadaniem z drabiny."
+    ru: "Кончилось падением с лестницы."
+    source: { kind: authored }
+  - form: "spadaniem"
+    pl: "Między spadaniem a lataniem jest różnica."
+    ru: "Между падением и полётом есть разница."
+    source: { kind: authored }
+  - form: "spadaniu"
+    pl: "Po spadaniu kursu przyszło odbicie."
+    ru: "После падения курса пришёл отскок."
+    source: { kind: authored }
+  - form: "spadaniu"
+    pl: "Mówili o spadaniu liści."
+    ru: "Они говорили о листопаде."
+    source: { kind: authored }
+  - form: "spadaniu"
+    pl: "W spadaniu nie ma nic przyjemnego."
+    ru: "В падении нет ничего приятного."
+    source: { kind: authored }
+  - form: "spadasz"
+    pl: "Spadasz z drabiny!"
+    ru: "Ты падаешь с лестницы!"
+    source: { kind: authored }
+  - form: "spadasz"
+    pl: "Spadasz w rankingu."
+    ru: "Ты падаешь в рейтинге."
+    source: { kind: authored }
+  - form: "spadasz"
+    pl: "Spadasz czy zostajesz?"
+    ru: "Ты сваливаешь или остаёшься?"
+    source: { kind: authored }
