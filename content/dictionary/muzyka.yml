@@ -1,0 +1,144 @@
+# review
+id: muzyka
+format: 2
+lemma: "muzyka"
+rank: 716
+pos: noun
+pron: { cyr: "му́зыка" }
+senses:
+  - id: music
+    ru: "музыка"
+    examples:
+      - pl: "Interesuje mnie muzyka."
+        ru: "Я интересуюсь музыкой."
+        source: { kind: tatoeba, id: 1612710 }
+      - pl: "Muzyka to wspólny język ludzkości."
+        ru: "Музыка - общий язык для всего человечества."
+        source: { kind: tatoeba, id: 525580 }
+      - pl: "Słyszę muzykę."
+        ru: "Я слышу музыку."
+        source: { kind: tatoeba, id: 5909114 }
+  - id: listen
+    ru: "słuchać muzyki — слушать музыку (родительный!)"
+    note: "Польский требует родительного там, где русский ставит винительный."
+    examples:
+      - pl: "Ona słucha muzyki."
+        ru: "Она слушает музыку."
+        source: { kind: tatoeba, id: 8506031 }
+      - pl: "Nie lubię muzyki."
+        ru: "Я не люблю музыку."
+        source: { kind: tatoeba, id: 364115 }
+      - pl: "Nie rozumiem muzyki."
+        ru: "Я не понимаю музыку."
+        source: { kind: tatoeba, id: 563621 }
+  - id: interest
+    ru: "interesować się muzyką — интересоваться музыкой (творительный)"
+    examples:
+      - pl: "Pasjonuję się malarstwem i muzyką."
+        ru: "Я увлекаюсь живописью и музыкой."
+        source: { kind: tatoeba, id: 2123988 }
+      - pl: "Interesuję się muzyką."
+        ru: "Я интересуюсь музыкой."
+        source: { kind: translated, id: 1612709 }
+      - pl: "Interesujesz się muzyką?"
+        ru: "Ты интересуешься музыкой?"
+        source: { kind: translated, id: 591371 }
+  - id: love
+    ru: "lubić / uwielbiać muzykę — любить музыку (винительный)"
+    examples:
+      - pl: "Moja matka uwielbia muzykę."
+        ru: "Моя мама любит музыку."
+        source: { kind: tatoeba, id: 2422742 }
+      - pl: "Lubię muzykę, zwłaszcza klasyczną."
+        ru: "Я люблю музыку, особенно классическую."
+        source: { kind: tatoeba, id: 952124 }
+      - pl: "Włącz muzykę."
+        ru: "Включи музыку."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Ударение не по общему правилу. Слова на -yka/-ika ударяются на третий слог от конца: MU-zy-ka, как matematyka, fizyka, gramatyka, logika. Это исключение из польского правила о предпоследнем слоге — и совпадает с русским «му́зыка»." }
+  - { kind: false-friend, text: "Рядом живёт омоним muzyk — «музыкант», мужского рода. Формы muzyk и muzykami в текстах почти всегда принадлежат ему, а не слову muzyka." }
+  - { kind: government, text: "Słucham muzyki — родительный падеж, а не винительный, как в русском «слушаю музыку». Зато interesować się muzyką — творительный, как и по-русски." }
+  - { kind: usage, text: "Готовые сочетания: muzyka poważna «классическая музыка», muzyka ludowa «народная музыка», kocia muzyka «кошачий концерт»." }
+collocations:
+  - { pl: "słuchać muzyki", ru: "слушать музыку" }
+  - { pl: "interesować się muzyką", ru: "интересоваться музыкой" }
+  - { pl: "muzyka poważna", ru: "классическая музыка" }
+  - { pl: "muzyka ludowa", ru: "народная музыка" }
+family:
+  - { pl: "muzyk", ru: "музыкант", relation: derived }
+  - { pl: "muzyczny", ru: "музыкальный", relation: derived }
+  - { pl: "muzykalny", ru: "музыкальный (о человеке)", relation: derived }
+etymology: "Через латинское musica из греческого μουσική «искусство муз» — то же заимствование, что русская «музыка»."
+memory: "Слово знакомое, но ловушек две. Ударение: muzyka падает на третий слог от конца — му́зыка, как matematyka и fizyka; вся эта группа на -yka выламывается из польского правила о предпоследнем слоге. И управление: słuchać muzyki требует родительного падежа, а не винительного, как русское «слушать музыку»."
+idioms:
+  - { pl: "słuchać muzyki", ru: "слушать музыку" }
+  - { pl: "muzyka poważna", ru: "классическая музыка" }
+  - { pl: "kocia muzyka", ru: "кошачий концерт" }
+formExamplesSkip:
+  - { form: "muzyk", reason: "омонимия: все кандидаты в корпусе — формы отдельного слова muzyk «музыкант», а не родительный множественного от muzyka" }
+  - { form: "muzykami", reason: "muzyka — неисчисляемое, множественного числа у него нет" }
+  - { form: "muzykach", reason: "muzyka — неисчисляемое, множественного числа у него нет" }
+  - { form: "muzykom", reason: "muzyka — неисчисляемое, множественного числа у него нет" }
+  - { form: "muzyko", reason: "звательный падеж у неодушевлённого отвлечённого существительного не употребляется" }
+formExamples:
+  - form: "muzyce"
+    pl: "Mówiłem o muzyce."
+    ru: "Я говорил о музыке."
+    source: { kind: translated, id: 751808 }
+  - form: "muzyce"
+    pl: "Tom mówił o muzyce."
+    ru: "Том говорил о музыке."
+    source: { kind: translated, id: 11616967 }
+  - form: "muzyce"
+    pl: "Rozmawiają o muzyce."
+    ru: "Они разговаривают о музыке."
+    source: { kind: translated, id: 393023 }
+  - form: "muzyka"
+    pl: "Interesuje mnie muzyka."
+    ru: "Я интересуюсь музыкой."
+    source: { kind: tatoeba, id: 1612710 }
+  - form: "muzyka"
+    pl: "Muzyka to wspólny język ludzkości."
+    ru: "Музыка - общий язык для всего человечества."
+    source: { kind: tatoeba, id: 525580 }
+  - form: "muzyka"
+    pl: "Muzyka gra cicho w tle."
+    ru: "Музыка тихо играет на фоне."
+    source: { kind: authored }
+  - form: "muzyką"
+    pl: "Pasjonuję się malarstwem i muzyką."
+    ru: "Я увлекаюсь живописью и музыкой."
+    source: { kind: tatoeba, id: 2123988 }
+  - form: "muzyką"
+    pl: "Interesuję się muzyką."
+    ru: "Я интересуюсь музыкой."
+    source: { kind: translated, id: 1612709 }
+  - form: "muzyką"
+    pl: "Interesujesz się muzyką?"
+    ru: "Ты интересуешься музыкой?"
+    source: { kind: translated, id: 591371 }
+  - form: "muzykę"
+    pl: "Słyszę muzykę."
+    ru: "Я слышу музыку."
+    source: { kind: tatoeba, id: 5909114 }
+  - form: "muzykę"
+    pl: "Moja matka uwielbia muzykę."
+    ru: "Моя мама любит музыку."
+    source: { kind: tatoeba, id: 2422742 }
+  - form: "muzykę"
+    pl: "Lubię muzykę, zwłaszcza klasyczną."
+    ru: "Я люблю музыку, особенно классическую."
+    source: { kind: tatoeba, id: 952124 }
+  - form: "muzyki"
+    pl: "Nie lubię muzyki."
+    ru: "Я не люблю музыку."
+    source: { kind: tatoeba, id: 364115 }
+  - form: "muzyki"
+    pl: "Ona słucha muzyki."
+    ru: "Она слушает музыку."
+    source: { kind: tatoeba, id: 8506031 }
+  - form: "muzyki"
+    pl: "Nie rozumiem muzyki."
+    ru: "Я не понимаю музыку."
+    source: { kind: tatoeba, id: 563621 }

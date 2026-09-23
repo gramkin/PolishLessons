@@ -1,0 +1,662 @@
+# review
+id: opowiedziec
+format: 2
+lemma: "opowiedzieć"
+rank: 724
+pos: verb
+aspect: perf
+pron: { cyr: "оповедзе́ць" }
+senses:
+  - id: tell
+    ru: "рассказать"
+    examples:
+      - pl: "Opowiedział mi ciekawą historię."
+        ru: "Он рассказал мне интересную историю."
+        source: { kind: tatoeba, id: 1627141 }
+      - pl: "Opowiedz, jak to wszystko było."
+        ru: "Расскажи, как всё было."
+        source: { kind: tatoeba, id: 5659817 }
+      - pl: "Możesz nam o tym opowiedzieć?"
+        ru: "Ты можешь нам об этом рассказать?"
+        source: { kind: translated, id: 9686245 }
+  - id: tell-about
+    ru: "opowiedzieć O czymś — рассказать о чём-л. (предложный)"
+    examples:
+      - pl: "Chcę, żebyś mi opowiedział o tym, co się zdarzyło."
+        ru: "Я хочу, чтобы ты рассказал мне о том, что произошло."
+        source: { kind: tatoeba, id: 6769142 }
+      - pl: "Opowiedziała o skutkach swojej nieostrożności."
+        ru: "Она рассказала о результате своей беспечности."
+        source: { kind: tatoeba, id: 640297 }
+      - pl: "Opowiem o tobie."
+        ru: "Я расскажу о тебе."
+        source: { kind: translated, id: 2827430 }
+  - id: vs-odpowiedziec
+    ru: "opowiedzieć «рассказать» ≠ odpowiedzieć «ответить»"
+    note: "Слова отличаются одной буквой."
+    examples:
+      - pl: "Opowiem ci o Japonii."
+        ru: "Я расскажу тебе о Японии."
+        source: { kind: translated, id: 12564885 }
+      - pl: "Opowiedz mi o tym, a potem odpowiedz na pytanie."
+        ru: "Расскажи мне об этом, а потом ответь на вопрос."
+        source: { kind: authored }
+      - pl: "Opowiedział historię, ale nie odpowiedział na pytanie."
+        ru: "Он рассказал историю, но не ответил на вопрос."
+        source: { kind: authored }
+  - id: tell-someone
+    ru: "opowiedzieć KOMUŚ — рассказать кому-л. (дательный)"
+    examples:
+      - pl: "Opowiedziałem jemu historię."
+        ru: "Я рассказал ему историю."
+        source: { kind: tatoeba, id: 13633152 }
+      - pl: "Ja im wszystko opowiedziałem."
+        ru: "Я им всё рассказал."
+        source: { kind: tatoeba, id: 6314037 }
+      - pl: "Opowiedziała mi ciekawą historię."
+        ru: "Она рассказала мне интересную историю."
+        source: { kind: translated, id: 368958 }
+notes:
+  - { kind: false-friend, text: "Опаснейшая пара: opowiedzieć «рассказать» и odpowiedzieć «ответить» отличаются одной буквой. Opowiedz mi o tym «Расскажи мне об этом», но Odpowiedz mi «Ответь мне». Разводить их помогают приставки: o- значит «об, вокруг», od- — «от»." }
+  - { kind: government, text: "Три падежа сразу: opowiedzieć KOMUŚ (дательный) O CZYMŚ (предложный), а что именно — винительный: opowiedzieć bratu o wakacjach, opowiedzieć historię." }
+  - { kind: usage, text: "Спрягается как powiedzieć: opowiem, opowiesz, opowie, opowiemy, opowiecie, а в третьем лице множественного opowiedzą." }
+  - { kind: usage, text: "С się слово меняет значение: opowiedzieć się ZA czymś — «высказаться за что-то», opowiedzieć się przeciw «высказаться против». Существительные — opowieść «повесть» и opowiadanie «рассказ»; несовершенный вид — opowiadać." }
+collocations:
+  - { pl: "opowiedzieć historię", ru: "рассказать историю" }
+  - { pl: "opowiedzieć o czymś", ru: "рассказать о чём-либо" }
+  - { pl: "opowiedzieć się za czymś", ru: "высказаться за что-либо" }
+  - { pl: "opowiadać bajki", ru: "рассказывать сказки" }
+family:
+  - { pl: "opowiadać", ru: "рассказывать", relation: aspect }
+  - { pl: "opowieść", ru: "повесть, рассказ", relation: derived }
+  - { pl: "powiedzieć", ru: "сказать", relation: root }
+  - { pl: "odpowiedzieć", ru: "ответить", relation: root }
+etymology: "o- + powiedzieć «сказать», от wiedzieć «знать» — так же, как русское «рас-сказать» сделано от «сказать»."
+memory: "opowiedzieć — «рассказать», и держать его надо рядом с odpowiedzieć «ответить»: слова отличаются одной буквой. Opowiedz mi o tym «Расскажи мне об этом», но Odpowiedz mi «Ответь мне». Управление тройное: opowiedzieć KOMUŚ o CZYMŚ. Спрягается как powiedzieć: opowiem, opowiesz, opowie, а в третьем лице множественного opowiedzą."
+idioms:
+  - { pl: "opowiedzieć historię", ru: "рассказать историю" }
+  - { pl: "opowiedzieć się za czymś", ru: "высказаться за что-либо" }
+  - { pl: "opowiadać bajki", ru: "рассказывать сказки" }
+formExamplesSkip:
+  - { form: "opowiedzenia", reason: "отглагольного существительного от opowiedzieć нет; «рассказ» — это opowieść или opowiadanie" }
+  - { form: "opowiedzenie", reason: "отглагольного существительного от opowiedzieć нет; «рассказ» — это opowieść или opowiadanie" }
+  - { form: "opowiedzeniem", reason: "отглагольного существительного от opowiedzieć нет; «рассказ» — это opowieść или opowiadanie" }
+  - { form: "opowiedzeniu", reason: "отглагольного существительного от opowiedzieć нет; «рассказ» — это opowieść или opowiadanie" }
+  - { form: "opowiedziani", reason: "страдательное причастие мужского лица не употребляется: рассказывают историю, а не людей" }
+formExamples:
+  - form: "opowie"
+    pl: "Tom ci opowie."
+    ru: "Том тебе расскажет."
+    source: { kind: translated, id: 8450737 }
+  - form: "opowie"
+    pl: "Opowie nam o wakacjach."
+    ru: "Он расскажет нам о каникулах."
+    source: { kind: authored }
+  - form: "opowie"
+    pl: "Nikt nam tego nie opowie."
+    ru: "Никто нам этого не расскажет."
+    source: { kind: authored }
+  - form: "opowiecie"
+    pl: "Opowiecie nam o podróży?"
+    ru: "Вы расскажете нам о поездке?"
+    source: { kind: authored }
+  - form: "opowiecie"
+    pl: "Nic nam nie opowiecie?"
+    ru: "Вы нам ничего не расскажете?"
+    source: { kind: authored }
+  - form: "opowiecie"
+    pl: "Opowiecie tę historię jeszcze raz."
+    ru: "Вы расскажете эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiedz"
+    pl: "Opowiedz, jak to wszystko było."
+    ru: "Расскажи, как всё было."
+    source: { kind: tatoeba, id: 5659817 }
+  - form: "opowiedz"
+    pl: "Opowiedz dziadkowi wiersz, którego się nauczyłeś."
+    ru: "Ну, расскажи дедушке стихотворение, которое ты выучил."
+    source: { kind: tatoeba, id: 12907223 }
+  - form: "opowiedz"
+    pl: "Opowiedz mi o tym, a potem odpowiedz na pytanie."
+    ru: "Расскажи мне об этом, а потом ответь на вопрос."
+    source: { kind: authored }
+  - form: "opowiedzą"
+    pl: "Opowiedzą nam o podróży."
+    ru: "Они расскажут нам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzą"
+    pl: "Nic nam nie opowiedzą."
+    ru: "Они нам ничего не расскажут."
+    source: { kind: authored }
+  - form: "opowiedzą"
+    pl: "Opowiedzą tę historię dzieciom."
+    ru: "Они расскажут эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedzcie"
+    pl: "Opowiedzcie mi trochę o sobie."
+    ru: "Расскажите мне немного о себе."
+    source: { kind: translated, id: 12060447 }
+  - form: "opowiedzcie"
+    pl: "Opowiedzcie o wakacjach."
+    ru: "Расскажите о каникулах."
+    source: { kind: authored }
+  - form: "opowiedzcie"
+    pl: "Opowiedzcie nam tę historię."
+    ru: "Расскажите нам эту историю."
+    source: { kind: authored }
+  - form: "opowiedział"
+    pl: "Opowiedział mi ciekawą historię."
+    ru: "Он рассказал мне интересную историю."
+    source: { kind: tatoeba, id: 1627141 }
+  - form: "opowiedział"
+    pl: "Chcę, żebyś mi opowiedział o tym, co się zdarzyło."
+    ru: "Я хочу, чтобы ты рассказал мне о том, что произошло."
+    source: { kind: tatoeba, id: 6769142 }
+  - form: "opowiedział"
+    pl: "Opowiedział historię, ale nie odpowiedział na pytanie."
+    ru: "Он рассказал историю, но не ответил на вопрос."
+    source: { kind: authored }
+  - form: "opowiedziała"
+    pl: "Opowiedziała o skutkach swojej nieostrożności."
+    ru: "Она рассказала о результате своей беспечности."
+    source: { kind: tatoeba, id: 640297 }
+  - form: "opowiedziała"
+    pl: "Opowiedziała mi ciekawą historię."
+    ru: "Она рассказала мне интересную историю."
+    source: { kind: translated, id: 368958 }
+  - form: "opowiedziała"
+    pl: "Opowiedziała mi o wakacjach."
+    ru: "Она рассказала мне о каникулах."
+    source: { kind: authored }
+  - form: "opowiedziałaby"
+    pl: "Opowiedziałaby ci wszystko."
+    ru: "Она рассказала бы тебе всё."
+    source: { kind: authored }
+  - form: "opowiedziałaby"
+    pl: "Nie opowiedziałaby tego nikomu."
+    ru: "Она не рассказала бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałaby"
+    pl: "Opowiedziałaby o wakacjach, gdyby ją poprosić."
+    ru: "Она рассказала бы о каникулах, если её попросить."
+    source: { kind: authored }
+  - form: "opowiedziałabym"
+    pl: "Opowiedziałabym ci wszystko."
+    ru: "Я рассказала бы тебе всё."
+    source: { kind: authored }
+  - form: "opowiedziałabym"
+    pl: "Nie opowiedziałabym tego nikomu."
+    ru: "Я не рассказала бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałabym"
+    pl: "Opowiedziałabym o wakacjach."
+    ru: "Я рассказала бы о каникулах."
+    source: { kind: authored }
+  - form: "opowiedziałabyś"
+    pl: "Opowiedziałabyś mi o tym?"
+    ru: "Ты рассказала бы мне об этом?"
+    source: { kind: authored }
+  - form: "opowiedziałabyś"
+    pl: "Nie opowiedziałabyś tego nikomu."
+    ru: "Ты не рассказала бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałabyś"
+    pl: "Opowiedziałabyś nam tę historię?"
+    ru: "Ты рассказала бы нам эту историю?"
+    source: { kind: authored }
+  - form: "opowiedziałam"
+    pl: "Opowiedziałam im o wakacjach."
+    ru: "Я рассказала им о каникулах."
+    source: { kind: authored }
+  - form: "opowiedziałam"
+    pl: "Nic mu nie opowiedziałam."
+    ru: "Я ему ничего не рассказала."
+    source: { kind: authored }
+  - form: "opowiedziałam"
+    pl: "Opowiedziałam tę historię dzieciom."
+    ru: "Я рассказала эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedziałaś"
+    pl: "Ty jemu nigdy o tym nie opowiedziałaś."
+    ru: "Ты ему никогда об этом не рассказывала."
+    source: { kind: translated, id: 1581278 }
+  - form: "opowiedziałaś"
+    pl: "Opowiedziałaś mu o wszystkim?"
+    ru: "Ты рассказала ему обо всём?"
+    source: { kind: authored }
+  - form: "opowiedziałaś"
+    pl: "Opowiedziałaś nam ciekawą historię."
+    ru: "Ты рассказала нам интересную историю."
+    source: { kind: authored }
+  - form: "opowiedziałby"
+    pl: "Opowiedziałby ci wszystko."
+    ru: "Он рассказал бы тебе всё."
+    source: { kind: authored }
+  - form: "opowiedziałby"
+    pl: "Nie opowiedziałby tego nikomu."
+    ru: "Он не рассказал бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałby"
+    pl: "Opowiedziałby o wakacjach, gdyby go poprosić."
+    ru: "Он рассказал бы о каникулах, если его попросить."
+    source: { kind: authored }
+  - form: "opowiedziałbym"
+    pl: "Gdybym chciał cię przestraszyć, opowiedziałbym ci, o czym śniłem przed kilkoma tygodniami."
+    ru: "Если бы я хотел тебя напугать, я рассказал бы, что мне снилось несколько недель назад."
+    source: { kind: translated, id: 3686378 }
+  - form: "opowiedziałbym"
+    pl: "Opowiedziałbym ci wszystko."
+    ru: "Я рассказал бы тебе всё."
+    source: { kind: authored }
+  - form: "opowiedziałbym"
+    pl: "Nie opowiedziałbym tego nikomu."
+    ru: "Я не рассказал бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałbyś"
+    pl: "Opowiedziałbyś nam historię?"
+    ru: "Ты рассказал бы нам историю?"
+    source: { kind: translated, id: 4537638 }
+  - form: "opowiedziałbyś"
+    pl: "Opowiedziałbyś mi o tym?"
+    ru: "Ты рассказал бы мне об этом?"
+    source: { kind: authored }
+  - form: "opowiedziałbyś"
+    pl: "Nie opowiedziałbyś tego nikomu."
+    ru: "Ты не рассказал бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałem"
+    pl: "Opowiedziałem jemu historię."
+    ru: "Я рассказал ему историю."
+    source: { kind: tatoeba, id: 13633152 }
+  - form: "opowiedziałem"
+    pl: "Ja im wszystko opowiedziałem."
+    ru: "Я им всё рассказал."
+    source: { kind: tatoeba, id: 6314037 }
+  - form: "opowiedziałem"
+    pl: "Opowiedziałem im o wakacjach."
+    ru: "Я рассказал им о каникулах."
+    source: { kind: authored }
+  - form: "opowiedziałeś"
+    pl: "Szkoda, że opowiedziałeś o tym mojej matce."
+    ru: "Жаль, что ты рассказал об этом моей матери."
+    source: { kind: translated, id: 521228 }
+  - form: "opowiedziałeś"
+    pl: "Szkoda, że wtedy nie opowiedziałeś mi tej całej historii."
+    ru: "Жаль, что ты тогда не рассказал мне всю эту историю."
+    source: { kind: translated, id: 2405774 }
+  - form: "opowiedziałeś"
+    pl: "Opowiedziałeś mu o wszystkim?"
+    ru: "Ты рассказал ему обо всём?"
+    source: { kind: authored }
+  - form: "opowiedziało"
+    pl: "Dziecko opowiedziało o szkole."
+    ru: "Ребёнок рассказал о школе."
+    source: { kind: authored }
+  - form: "opowiedziało"
+    pl: "Wiele osób opowiedziało o tym samym."
+    ru: "Многие рассказали об одном и том же."
+    source: { kind: authored }
+  - form: "opowiedziało"
+    pl: "Żadne z nich nic nie opowiedziało."
+    ru: "Никто из них ничего не рассказал."
+    source: { kind: authored }
+  - form: "opowiedziałoby"
+    pl: "Dziecko opowiedziałoby o szkole."
+    ru: "Ребёнок рассказал бы о школе."
+    source: { kind: authored }
+  - form: "opowiedziałoby"
+    pl: "Wiele osób opowiedziałoby to samo."
+    ru: "Многие рассказали бы то же самое."
+    source: { kind: authored }
+  - form: "opowiedziałoby"
+    pl: "Żadne z nich nic nie opowiedziałoby."
+    ru: "Никто из них ничего не рассказал бы."
+    source: { kind: authored }
+  - form: "opowiedziały"
+    pl: "Dziewczyny opowiedziały o podróży."
+    ru: "Девочки рассказали о поездке."
+    source: { kind: authored }
+  - form: "opowiedziały"
+    pl: "Nic nam nie opowiedziały."
+    ru: "Они нам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedziały"
+    pl: "Opowiedziały tę historię dzieciom."
+    ru: "Они рассказали эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedziałyby"
+    pl: "Opowiedziałyby wam o podróży."
+    ru: "Они рассказали бы вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedziałyby"
+    pl: "Nie opowiedziałyby tego nikomu."
+    ru: "Они не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałyby"
+    pl: "Opowiedziałyby tę historię jeszcze raz."
+    ru: "Они рассказали бы эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiedziałybyście"
+    pl: "Opowiedziałybyście nam o podróży?"
+    ru: "Вы рассказали бы нам о поездке?"
+    source: { kind: authored }
+  - form: "opowiedziałybyście"
+    pl: "Nie opowiedziałybyście tego nikomu."
+    ru: "Вы не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałybyście"
+    pl: "Opowiedziałybyście tę historię?"
+    ru: "Вы рассказали бы эту историю?"
+    source: { kind: authored }
+  - form: "opowiedziałybyśmy"
+    pl: "Opowiedziałybyśmy wam o podróży."
+    ru: "Мы рассказали бы вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedziałybyśmy"
+    pl: "Nie opowiedziałybyśmy tego nikomu."
+    ru: "Мы не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedziałybyśmy"
+    pl: "Opowiedziałybyśmy tę historię jeszcze raz."
+    ru: "Мы рассказали бы эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiedziałyście"
+    pl: "Opowiedziałyście nam o podróży."
+    ru: "Вы рассказали нам о поездке."
+    source: { kind: authored }
+  - form: "opowiedziałyście"
+    pl: "Nic nam nie opowiedziałyście."
+    ru: "Вы нам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedziałyście"
+    pl: "Opowiedziałyście tę historię dzieciom."
+    ru: "Вы рассказали эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedziałyśmy"
+    pl: "Opowiedziałyśmy wam o podróży."
+    ru: "Мы рассказали вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedziałyśmy"
+    pl: "Nic wam nie opowiedziałyśmy."
+    ru: "Мы вам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedziałyśmy"
+    pl: "Opowiedziałyśmy tę historię dzieciom."
+    ru: "Мы рассказали эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedziana"
+    pl: "Historia została opowiedziana do końca."
+    ru: "История была рассказана до конца."
+    source: { kind: authored }
+  - form: "opowiedziana"
+    pl: "Ta bajka jest już opowiedziana."
+    ru: "Эта сказка уже рассказана."
+    source: { kind: authored }
+  - form: "opowiedziana"
+    pl: "Opowiedziana na głos, brzmiała inaczej."
+    ru: "Рассказанная вслух, она звучала иначе."
+    source: { kind: authored }
+  - form: "opowiedzianą"
+    pl: "Znam tę historię opowiedzianą przez babcię."
+    ru: "Я знаю эту историю, рассказанную бабушкой."
+    source: { kind: authored }
+  - form: "opowiedzianą"
+    pl: "Uznali historię za opowiedzianą do końca."
+    ru: "Историю сочли рассказанной до конца."
+    source: { kind: authored }
+  - form: "opowiedzianą"
+    pl: "Usłyszał bajkę opowiedzianą po raz setny."
+    ru: "Он услышал сказку, рассказанную в сотый раз."
+    source: { kind: authored }
+  - form: "opowiedziane"
+    pl: "Wszystko zostało opowiedziane."
+    ru: "Всё было рассказано."
+    source: { kind: authored }
+  - form: "opowiedziane"
+    pl: "Opowiedziane historie zostały w pamięci."
+    ru: "Рассказанные истории остались в памяти."
+    source: { kind: authored }
+  - form: "opowiedziane"
+    pl: "Te bajki są już opowiedziane."
+    ru: "Эти сказки уже рассказаны."
+    source: { kind: authored }
+  - form: "opowiedzianego"
+    pl: "Nie pamiętam opowiedzianego wczoraj żartu."
+    ru: "Я не помню рассказанной вчера шутки."
+    source: { kind: authored }
+  - form: "opowiedzianego"
+    pl: "Szukam opowiedzianego kiedyś wiersza."
+    ru: "Я ищу когда-то рассказанное стихотворение."
+    source: { kind: authored }
+  - form: "opowiedzianego"
+    pl: "Nie ma tu nic opowiedzianego do końca."
+    ru: "Здесь ничего не рассказано до конца."
+    source: { kind: authored }
+  - form: "opowiedzianej"
+    pl: "Nie pamiętam opowiedzianej wczoraj historii."
+    ru: "Я не помню рассказанной вчера истории."
+    source: { kind: authored }
+  - form: "opowiedzianej"
+    pl: "Szukam opowiedzianej kiedyś bajki."
+    ru: "Я ищу когда-то рассказанную сказку."
+    source: { kind: authored }
+  - form: "opowiedzianej"
+    pl: "Po opowiedzianej historii zapadła cisza."
+    ru: "После рассказанной истории наступила тишина."
+    source: { kind: authored }
+  - form: "opowiedzianemu"
+    pl: "Przyjrzał się opowiedzianemu zdarzeniu."
+    ru: "Он присмотрелся к рассказанному случаю."
+    source: { kind: authored }
+  - form: "opowiedzianemu"
+    pl: "Nie ufa opowiedzianemu naprędce alibi."
+    ru: "Он не доверяет наспех рассказанному алиби."
+    source: { kind: authored }
+  - form: "opowiedzianemu"
+    pl: "Dzięki opowiedzianemu snowi wszystko zrozumiał."
+    ru: "Благодаря рассказанному сну он всё понял."
+    source: { kind: authored }
+  - form: "opowiedziano"
+    pl: "Opowiedziano nam o wypadku."
+    ru: "Нам рассказали о происшествии."
+    source: { kind: authored }
+  - form: "opowiedziano"
+    pl: "Wszystko opowiedziano od początku."
+    ru: "Всё рассказали с начала."
+    source: { kind: authored }
+  - form: "opowiedziano"
+    pl: "Nic nam nie opowiedziano."
+    ru: "Нам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedziany"
+    pl: "Ten wątek nie został opowiedziany."
+    ru: "Эта линия не была рассказана."
+    source: { kind: authored }
+  - form: "opowiedziany"
+    pl: "Opowiedziany na głos żart stracił urok."
+    ru: "Рассказанная вслух шутка потеряла прелесть."
+    source: { kind: authored }
+  - form: "opowiedziany"
+    pl: "Film jest opowiedziany z perspektywy dziecka."
+    ru: "Фильм рассказан с точки зрения ребёнка."
+    source: { kind: authored }
+  - form: "opowiedzianych"
+    pl: "Nie pamiętam opowiedzianych wczoraj historii."
+    ru: "Я не помню рассказанных вчера историй."
+    source: { kind: authored }
+  - form: "opowiedzianych"
+    pl: "Wśród opowiedzianych bajek była i ta."
+    ru: "Среди рассказанных сказок была и эта."
+    source: { kind: authored }
+  - form: "opowiedzianych"
+    pl: "Szukam opowiedzianych kiedyś anegdot."
+    ru: "Я ищу когда-то рассказанные анекдоты."
+    source: { kind: authored }
+  - form: "opowiedzianym"
+    pl: "W opowiedzianym żarcie nie było nic śmiesznego."
+    ru: "В рассказанной шутке не было ничего смешного."
+    source: { kind: authored }
+  - form: "opowiedzianym"
+    pl: "Przyjrzał się opowiedzianym zdarzeniom."
+    ru: "Он присмотрелся к рассказанным событиям."
+    source: { kind: authored }
+  - form: "opowiedzianym"
+    pl: "Zajął się opowiedzianym wątkiem."
+    ru: "Он занялся рассказанной линией."
+    source: { kind: authored }
+  - form: "opowiedzianymi"
+    pl: "Zajął się opowiedzianymi historiami."
+    ru: "Он занялся рассказанными историями."
+    source: { kind: authored }
+  - form: "opowiedzianymi"
+    pl: "Między opowiedzianymi a przemilczanymi faktami jest różnica."
+    ru: "Между рассказанными и умолчанными фактами есть разница."
+    source: { kind: authored }
+  - form: "opowiedzianymi"
+    pl: "Wrócił z opowiedzianymi na nowo bajkami."
+    ru: "Он вернулся с заново рассказанными сказками."
+    source: { kind: authored }
+  - form: "opowiedziawszy"
+    pl: "Opowiedziawszy historię, zamilkł."
+    ru: "Рассказав историю, он умолк."
+    source: { kind: authored }
+  - form: "opowiedziawszy"
+    pl: "Opowiedziawszy wszystko, poczuł ulgę."
+    ru: "Рассказав всё, он почувствовал облегчение."
+    source: { kind: authored }
+  - form: "opowiedziawszy"
+    pl: "Opowiedziawszy bajkę, zgasił światło."
+    ru: "Рассказав сказку, он погасил свет."
+    source: { kind: authored }
+  - form: "opowiedzieć"
+    pl: "Możesz nam o tym opowiedzieć?"
+    ru: "Ты можешь нам об этом рассказать?"
+    source: { kind: translated, id: 9686245 }
+  - form: "opowiedzieć"
+    pl: "Chciałeś opowiedzieć mi o wolności?"
+    ru: "Ты хотел рассказать мне о свободе?"
+    source: { kind: translated, id: 6154903 }
+  - form: "opowiedzieć"
+    pl: "Chcę ci coś opowiedzieć."
+    ru: "Я хочу тебе кое-что рассказать."
+    source: { kind: authored }
+  - form: "opowiedzieli"
+    pl: "Troje studentów miało krótkie wystąpienia. Przedstawili się i opowiedzieli o swoich krajach."
+    ru: "Трое студентов коротко выступили. Они представились и рассказали о своих странах."
+    source: { kind: translated, id: 711190 }
+  - form: "opowiedzieli"
+    pl: "Opowiedzieli nam o podróży."
+    ru: "Они рассказали нам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzieli"
+    pl: "Nic nam nie opowiedzieli."
+    ru: "Они нам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedzieliby"
+    pl: "Opowiedzieliby wam o podróży."
+    ru: "Они рассказали бы вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzieliby"
+    pl: "Nie opowiedzieliby tego nikomu."
+    ru: "Они не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedzieliby"
+    pl: "Opowiedzieliby tę historię jeszcze raz."
+    ru: "Они рассказали бы эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiedzielibyście"
+    pl: "Opowiedzielibyście nam o podróży?"
+    ru: "Вы рассказали бы нам о поездке?"
+    source: { kind: authored }
+  - form: "opowiedzielibyście"
+    pl: "Nie opowiedzielibyście tego nikomu."
+    ru: "Вы не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedzielibyście"
+    pl: "Opowiedzielibyście tę historię?"
+    ru: "Вы рассказали бы эту историю?"
+    source: { kind: authored }
+  - form: "opowiedzielibyśmy"
+    pl: "Opowiedzielibyśmy wam o podróży."
+    ru: "Мы рассказали бы вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzielibyśmy"
+    pl: "Nie opowiedzielibyśmy tego nikomu."
+    ru: "Мы не рассказали бы этого никому."
+    source: { kind: authored }
+  - form: "opowiedzielibyśmy"
+    pl: "Opowiedzielibyśmy tę historię jeszcze raz."
+    ru: "Мы рассказали бы эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiedzieliście"
+    pl: "Opowiedzieliście nam o podróży."
+    ru: "Вы рассказали нам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzieliście"
+    pl: "Nic nam nie opowiedzieliście."
+    ru: "Вы нам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedzieliście"
+    pl: "Opowiedzieliście tę historię dzieciom."
+    ru: "Вы рассказали эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedzieliśmy"
+    pl: "Opowiedzieliśmy wam o podróży."
+    ru: "Мы рассказали вам о поездке."
+    source: { kind: authored }
+  - form: "opowiedzieliśmy"
+    pl: "Nic wam nie opowiedzieliśmy."
+    ru: "Мы вам ничего не рассказали."
+    source: { kind: authored }
+  - form: "opowiedzieliśmy"
+    pl: "Opowiedzieliśmy tę historię dzieciom."
+    ru: "Мы рассказали эту историю детям."
+    source: { kind: authored }
+  - form: "opowiedzmy"
+    pl: "Opowiedzmy im o wakacjach."
+    ru: "Расскажем им о каникулах."
+    source: { kind: authored }
+  - form: "opowiedzmy"
+    pl: "Opowiedzmy tę historię od początku."
+    ru: "Расскажем эту историю с начала."
+    source: { kind: authored }
+  - form: "opowiedzmy"
+    pl: "Nie opowiedzmy za dużo."
+    ru: "Не будем рассказывать слишком много."
+    source: { kind: authored }
+  - form: "opowiem"
+    pl: "Opowiem o tobie."
+    ru: "Я расскажу о тебе."
+    source: { kind: translated, id: 2827430 }
+  - form: "opowiem"
+    pl: "Opowiem ci o Japonii."
+    ru: "Я расскажу тебе о Японии."
+    source: { kind: translated, id: 12564885 }
+  - form: "opowiem"
+    pl: "Opowiem ci wszystko jutro."
+    ru: "Я расскажу тебе всё завтра."
+    source: { kind: authored }
+  - form: "opowiemy"
+    pl: "Opowiemy wam o wakacjach."
+    ru: "Мы расскажем вам о каникулах."
+    source: { kind: authored }
+  - form: "opowiemy"
+    pl: "Nic wam nie opowiemy."
+    ru: "Мы вам ничего не расскажем."
+    source: { kind: authored }
+  - form: "opowiemy"
+    pl: "Opowiemy tę historię jeszcze raz."
+    ru: "Мы расскажем эту историю ещё раз."
+    source: { kind: authored }
+  - form: "opowiesz"
+    pl: "Opowiesz o tym Tomowi?"
+    ru: "Ты расскажешь об этом Тому?"
+    source: { kind: translated, id: 8706257 }
+  - form: "opowiesz"
+    pl: "Opowiesz mi w końcu o Tomku czy nie?"
+    ru: "Ты наконец расскажешь мне о Томеке или нет?"
+    source: { kind: translated, id: 6441674 }
+  - form: "opowiesz"
+    pl: "Opowiesz mi o wakacjach?"
+    ru: "Ты расскажешь мне о каникулах?"
+    source: { kind: authored }

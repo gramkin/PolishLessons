@@ -1,0 +1,717 @@
+# review
+id: spoznic
+format: 2
+lemma: "spóźnić"
+rank: 723
+pos: verb
+aspect: perf
+pron: { cyr: "спу́зьниць" }
+senses:
+  - id: be-late
+    ru: "spóźnić się — опоздать"
+    note: "Глагол живёт только с się."
+    examples:
+      - pl: "Tom spóźnił się do pracy."
+        ru: "Том опоздал на работу."
+        source: { kind: tatoeba, id: 8160905 }
+      - pl: "Nikt się nie spóźnił."
+        ru: "Никто не опоздал."
+        source: { kind: tatoeba, id: 351950 }
+      - pl: "Spóźnili się."
+        ru: "Они опоздали."
+        source: { kind: translated, id: 10593307 }
+  - id: late-for
+    ru: "spóźnić się NA coś — опоздать на что-л. (винительный)"
+    examples:
+      - pl: "Spóźnili się na ostatni pociąg."
+        ru: "Они опоздали на последний поезд."
+        source: { kind: tatoeba, id: 3457091 }
+      - pl: "Spóźniliśmy się na tramwaj."
+        ru: "Мы опоздали на трамвай."
+        source: { kind: tatoeba, id: 10138136 }
+      - pl: "Postaraj się nie spóźnić na kolację."
+        ru: "Постарайся не опоздать к ужину."
+        source: { kind: tatoeba, id: 3195709 }
+  - id: delay
+    ru: "spóźnienie — опоздание"
+    examples:
+      - pl: "Wybacz spóźnienie."
+        ru: "Прости за опоздание."
+        source: { kind: translated, id: 613359 }
+      - pl: "Przeprosił za spóźnienie."
+        ru: "Он извинился за опоздание."
+        source: { kind: translated, id: 1626577 }
+      - pl: "Pociąg miał 10 minut spóźnienia."
+        ru: "Поезд опоздал на десять минут."
+        source: { kind: translated, id: 365217 }
+  - id: late-adj
+    ru: "spóźniony — опоздавший; Jestem spóźniony «Я опаздываю»"
+    note: "Там, где русский ставит глагол, поляк ставит причастие."
+    examples:
+      - pl: "Jestem spóźniony."
+        ru: "Я опаздываю."
+        source: { kind: translated, id: 5662097 }
+      - pl: "Jesteś spóźniony."
+        ru: "Ты опаздываешь."
+        source: { kind: translated, id: 10593308 }
+      - pl: "Jesteśmy spóźnieni."
+        ru: "Мы опаздываем."
+        source: { kind: translated, id: 2913190 }
+notes:
+  - { kind: government, text: "Два управления, и их надо развести. Опоздать НА что-то — spóźnić się NA coś, с винительным: spóźnić się na pociąg, na lekcję. Опоздать КУДА-то — spóźnić się DO czegoś, с родительным: spóźnić się do pracy, do szkoły." }
+  - { kind: usage, text: "Глагол употребляется только с się: spóźnić się. Формы без частицы не существует." }
+  - { kind: usage, text: "Причастие spóźniony работает сказуемым: Jestem spóźniony буквально значит «я опоздавший», то есть «я опаздываю». Русский в этом месте ставит глагол, польский — причастие." }
+  - { kind: usage, text: "Существительное spóźnienie очень ходовое: Przepraszam za spóźnienie «Извините за опоздание», Pociąg ma dziesięć minut spóźnienia «Поезд опаздывает на десять минут». Несовершенный вид — spóźniać się." }
+collocations:
+  - { pl: "spóźnić się na pociąg", ru: "опоздать на поезд" }
+  - { pl: "spóźnić się do pracy", ru: "опоздать на работу" }
+  - { pl: "przepraszam za spóźnienie", ru: "извините за опоздание" }
+  - { pl: "być spóźnionym", ru: "опаздывать" }
+family:
+  - { pl: "późny", ru: "поздний", relation: root }
+  - { pl: "późno", ru: "поздно", relation: root }
+  - { pl: "spóźniać się", ru: "опаздывать", relation: aspect }
+  - { pl: "spóźnienie", ru: "опоздание", relation: derived }
+etymology: "От późny «поздний» с приставкой s- — то же гнездо, что русские «поздний» и «опоздать»."
+memory: "spóźnić się — «опоздать», от późny «поздний», ровно как русское «опоздать» от «поздно». Глагол живёт только с się. Управление надо развести: spóźnić się NA pociąg «опоздать на поезд» — винительный, но spóźnić się DO pracy «опоздать на работу» — родительный. И запомните Jestem spóźniony: буквально «я опоздавший» — там, где русский ставит глагол, поляк ставит причастие."
+idioms:
+  - { pl: "przepraszam za spóźnienie", ru: "извините за опоздание" }
+  - { pl: "spóźnić się na pociąg", ru: "опоздать на поезд" }
+  - { pl: "być spóźnionym", ru: "опаздывать" }
+formExamples:
+  - form: "spóźni"
+    pl: "Tom wiedział, że Mary się spóźni."
+    ru: "Том знал, что Мэри опоздает."
+    source: { kind: tatoeba, id: 3695171 }
+  - form: "spóźni"
+    pl: "Jest możliwość, że Tom się spóźni."
+    ru: "Есть вероятность, что Том опоздает."
+    source: { kind: tatoeba, id: 1059706 }
+  - form: "spóźni"
+    pl: "Pociąg się chyba spóźni."
+    ru: "Поезд, кажется, опоздает."
+    source: { kind: authored }
+  - form: "spóźnią"
+    pl: "Moim zdaniem oni się spóźnią."
+    ru: "По-моему, они опоздают."
+    source: { kind: translated, id: 3109640 }
+  - form: "spóźnią"
+    pl: "Co zrobimy, jeżeli Tom i Mary się spóźnią?"
+    ru: "Что мы будем делать, если Том и Мэри опоздают?"
+    source: { kind: translated, id: 12058253 }
+  - form: "spóźnią"
+    pl: "Znowu się spóźnią."
+    ru: "Они опять опоздают."
+    source: { kind: authored }
+  - form: "spóźnicie"
+    pl: "Spóźnicie się na pociąg."
+    ru: "Вы опоздаете на поезд."
+    source: { kind: authored }
+  - form: "spóźnicie"
+    pl: "Jeśli nie wyjdziecie, spóźnicie się."
+    ru: "Если не выйдете, вы опоздаете."
+    source: { kind: authored }
+  - form: "spóźnicie"
+    pl: "Czy się nie spóźnicie?"
+    ru: "Вы не опоздаете?"
+    source: { kind: authored }
+  - form: "spóźnić"
+    pl: "Postaraj się nie spóźnić na kolację."
+    ru: "Постарайся не опоздать к ужину."
+    source: { kind: tatoeba, id: 3195709 }
+  - form: "spóźnić"
+    pl: "Możemy się spóźnić."
+    ru: "Мы можем опоздать."
+    source: { kind: translated, id: 3313338 }
+  - form: "spóźnić"
+    pl: "Nie chcę się spóźnić."
+    ru: "Я не хочу опоздать."
+    source: { kind: authored }
+  - form: "spóźnieni"
+    pl: "Jesteśmy spóźnieni."
+    ru: "Мы опаздываем."
+    source: { kind: translated, id: 2913190 }
+  - form: "spóźnieni"
+    pl: "Nie jesteśmy spóźnieni."
+    ru: "Мы не опаздываем."
+    source: { kind: translated, id: 3086106 }
+  - form: "spóźnieni"
+    pl: "Byliśmy spóźnieni o godzinę."
+    ru: "Мы опоздали на час."
+    source: { kind: authored }
+  - form: "spóźnienia"
+    pl: "Pociąg miał 10 minut spóźnienia."
+    ru: "Поезд опоздал на десять минут."
+    source: { kind: translated, id: 365217 }
+  - form: "spóźnienia"
+    pl: "Powodem spóźnienia była zła pogoda."
+    ru: "Причиной опоздания была плохая погода."
+    source: { kind: translated, id: 349583 }
+  - form: "spóźnienia"
+    pl: "Nie znoszę spóźnienia."
+    ru: "Я терпеть не могу опоздания."
+    source: { kind: authored }
+  - form: "spóźnienie"
+    pl: "Wybacz spóźnienie."
+    ru: "Прости за опоздание."
+    source: { kind: translated, id: 613359 }
+  - form: "spóźnienie"
+    pl: "Przeprosił za spóźnienie."
+    ru: "Он извинился за опоздание."
+    source: { kind: translated, id: 1626577 }
+  - form: "spóźnienie"
+    pl: "Spóźnienie wyniosło pół godziny."
+    ru: "Опоздание составило полчаса."
+    source: { kind: authored }
+  - form: "spóźnieniem"
+    pl: "Niepokoili się jej spóźnieniem."
+    ru: "Они беспокоились из-за её опоздания."
+    source: { kind: translated, id: 915031 }
+  - form: "spóźnieniem"
+    pl: "Przyszedł z dużym spóźnieniem."
+    ru: "Он пришёл с большим опозданием."
+    source: { kind: authored }
+  - form: "spóźnieniem"
+    pl: "Przed spóźnieniem ostrzegał szef."
+    ru: "Об опоздании предупреждал начальник."
+    source: { kind: authored }
+  - form: "spóźnieniu"
+    pl: "Po spóźnieniu musiał tłumaczyć się szefowi."
+    ru: "После опоздания ему пришлось объясняться с начальником."
+    source: { kind: authored }
+  - form: "spóźnieniu"
+    pl: "Mówili o spóźnieniu pociągu."
+    ru: "Они говорили об опоздании поезда."
+    source: { kind: authored }
+  - form: "spóźnieniu"
+    pl: "Po spóźnieniu nie wpuszczono go na salę."
+    ru: "После опоздания его не пустили в зал."
+    source: { kind: authored }
+  - form: "spóźnię"
+    pl: "Spóźnię się."
+    ru: "Я опоздаю."
+    source: { kind: translated, id: 6309164 }
+  - form: "spóźnię"
+    pl: "Nie spóźnię się."
+    ru: "Я не опоздаю."
+    source: { kind: translated, id: 6313954 }
+  - form: "spóźnię"
+    pl: "Chyba się dzisiaj spóźnię."
+    ru: "Кажется, я сегодня опоздаю."
+    source: { kind: authored }
+  - form: "spóźnij"
+    pl: "Nie spóźnij się."
+    ru: "Не опаздывай."
+    source: { kind: translated, id: 3446231 }
+  - form: "spóźnij"
+    pl: "Nie spóźnij się!"
+    ru: "Не опоздай!"
+    source: { kind: translated, id: 6729643 }
+  - form: "spóźnij"
+    pl: "Nie spóźnij się na pociąg."
+    ru: "Не опоздай на поезд."
+    source: { kind: authored }
+  - form: "spóźnijcie"
+    pl: "Nie spóźnijcie się."
+    ru: "Не опаздывайте."
+    source: { kind: authored }
+  - form: "spóźnijcie"
+    pl: "Nie spóźnijcie się na pociąg."
+    ru: "Не опоздайте на поезд."
+    source: { kind: authored }
+  - form: "spóźnijcie"
+    pl: "Tylko się nie spóźnijcie!"
+    ru: "Только не опоздайте!"
+    source: { kind: authored }
+  - form: "spóźnijmy"
+    pl: "Nie spóźnijmy się."
+    ru: "Не будем опаздывать."
+    source: { kind: authored }
+  - form: "spóźnijmy"
+    pl: "Nie spóźnijmy się na pociąg."
+    ru: "Не опоздаем на поезд."
+    source: { kind: authored }
+  - form: "spóźnijmy"
+    pl: "Tylko się nie spóźnijmy."
+    ru: "Только бы нам не опоздать."
+    source: { kind: authored }
+  - form: "spóźnili"
+    pl: "Spóźnili się na ostatni pociąg."
+    ru: "Они опоздали на последний поезд."
+    source: { kind: tatoeba, id: 3457091 }
+  - form: "spóźnili"
+    pl: "Spóźnili się."
+    ru: "Они опоздали."
+    source: { kind: translated, id: 10593307 }
+  - form: "spóźnili"
+    pl: "Spóźnili się do pracy."
+    ru: "Они опоздали на работу."
+    source: { kind: authored }
+  - form: "spóźniliby"
+    pl: "Spóźniliby się, gdyby nie taksówka."
+    ru: "Они опоздали бы, если бы не такси."
+    source: { kind: authored }
+  - form: "spóźniliby"
+    pl: "Nie spóźniliby się na pociąg."
+    ru: "Они не опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniliby"
+    pl: "Spóźniliby się do pracy."
+    ru: "Они опоздали бы на работу."
+    source: { kind: authored }
+  - form: "spóźnilibyście"
+    pl: "Spóźnilibyście się na pociąg."
+    ru: "Вы опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźnilibyście"
+    pl: "Nie spóźnilibyście się, gdybyście wyszli wcześniej."
+    ru: "Вы не опоздали бы, если бы вышли раньше."
+    source: { kind: authored }
+  - form: "spóźnilibyście"
+    pl: "Spóźnilibyście się do teatru."
+    ru: "Вы опоздали бы в театр."
+    source: { kind: authored }
+  - form: "spóźnilibyśmy"
+    pl: "Spóźnilibyśmy się na pociąg."
+    ru: "Мы опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźnilibyśmy"
+    pl: "Nie spóźnilibyśmy się, gdybyśmy wyszli wcześniej."
+    ru: "Мы не опоздали бы, если бы вышли раньше."
+    source: { kind: authored }
+  - form: "spóźnilibyśmy"
+    pl: "Spóźnilibyśmy się do teatru."
+    ru: "Мы опоздали бы в театр."
+    source: { kind: authored }
+  - form: "spóźniliście"
+    pl: "Znowu się spóźniliście."
+    ru: "Вы снова опоздали."
+    source: { kind: translated, id: 8730391 }
+  - form: "spóźniliście"
+    pl: "Spóźniliście się na lekcję."
+    ru: "Вы опоздали на урок."
+    source: { kind: authored }
+  - form: "spóźniliście"
+    pl: "Czemu się spóźniliście?"
+    ru: "Почему вы опоздали?"
+    source: { kind: authored }
+  - form: "spóźniliśmy"
+    pl: "Spóźniliśmy się na tramwaj."
+    ru: "Мы опоздали на трамвай."
+    source: { kind: tatoeba, id: 10138136 }
+  - form: "spóźniliśmy"
+    pl: "Spóźniliśmy się z powodu burzy."
+    ru: "Мы опоздали из-за шторма."
+    source: { kind: tatoeba, id: 904475 }
+  - form: "spóźniliśmy"
+    pl: "Spóźniliśmy się do teatru."
+    ru: "Мы опоздали в театр."
+    source: { kind: authored }
+  - form: "spóźnił"
+    pl: "Nikt się nie spóźnił."
+    ru: "Никто не опоздал."
+    source: { kind: tatoeba, id: 351950 }
+  - form: "spóźnił"
+    pl: "Tom spóźnił się do pracy."
+    ru: "Том опоздал на работу."
+    source: { kind: tatoeba, id: 8160905 }
+  - form: "spóźnił"
+    pl: "Spóźnił się na pociąg."
+    ru: "Он опоздал на поезд."
+    source: { kind: authored }
+  - form: "spóźniła"
+    pl: "Ona zbyt późno poszła spać i spóźniła się do szkoły."
+    ru: "Она слишком поздно пошла спать и опоздала в школу."
+    source: { kind: tatoeba, id: 2299187 }
+  - form: "spóźniła"
+    pl: "Spóźniła się, jak zawsze."
+    ru: "Она опоздала, как всегда."
+    source: { kind: translated, id: 523382 }
+  - form: "spóźniła"
+    pl: "Spóźniła się na pociąg."
+    ru: "Она опоздала на поезд."
+    source: { kind: authored }
+  - form: "spóźniłaby"
+    pl: "Spóźniłaby się, gdyby nie taksówka."
+    ru: "Она опоздала бы, если бы не такси."
+    source: { kind: authored }
+  - form: "spóźniłaby"
+    pl: "Nie spóźniłaby się na pociąg."
+    ru: "Она не опоздала бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłaby"
+    pl: "Spóźniłaby się do pracy."
+    ru: "Она опоздала бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłabym"
+    pl: "Spóźniłabym się, gdyby nie taksówka."
+    ru: "Я опоздала бы, если бы не такси."
+    source: { kind: authored }
+  - form: "spóźniłabym"
+    pl: "Nie spóźniłabym się na pociąg."
+    ru: "Я не опоздала бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłabym"
+    pl: "Spóźniłabym się do pracy."
+    ru: "Я опоздала бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłabyś"
+    pl: "Spóźniłabyś się na pociąg."
+    ru: "Ты опоздала бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłabyś"
+    pl: "Nie spóźniłabyś się, gdybyś wyszła wcześniej."
+    ru: "Ты не опоздала бы, если бы вышла раньше."
+    source: { kind: authored }
+  - form: "spóźniłabyś"
+    pl: "Spóźniłabyś się do pracy."
+    ru: "Ты опоздала бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłam"
+    pl: "Spóźniłam się tylko pięć minut."
+    ru: "Я опоздала только на пять минут."
+    source: { kind: tatoeba, id: 6320427 }
+  - form: "spóźniłam"
+    pl: "Spóźniłam się dzisiaj do pracy."
+    ru: "Сегодня я опоздала на работу."
+    source: { kind: tatoeba, id: 6320428 }
+  - form: "spóźniłam"
+    pl: "Spóźniłam się na pociąg."
+    ru: "Я опоздала на поезд."
+    source: { kind: authored }
+  - form: "spóźniłaś"
+    pl: "Spóźniłaś się na pociąg."
+    ru: "Ты опоздала на поезд."
+    source: { kind: authored }
+  - form: "spóźniłaś"
+    pl: "Znowu się spóźniłaś."
+    ru: "Ты опять опоздала."
+    source: { kind: authored }
+  - form: "spóźniłaś"
+    pl: "Czemu się spóźniłaś?"
+    ru: "Почему ты опоздала?"
+    source: { kind: authored }
+  - form: "spóźniłby"
+    pl: "Spóźniłby się, gdyby nie taksówka."
+    ru: "Он опоздал бы, если бы не такси."
+    source: { kind: authored }
+  - form: "spóźniłby"
+    pl: "Nie spóźniłby się na pociąg."
+    ru: "Он не опоздал бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłby"
+    pl: "Spóźniłby się do pracy."
+    ru: "Он опоздал бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłbym"
+    pl: "Spóźniłbym się, gdyby nie taksówka."
+    ru: "Я опоздал бы, если бы не такси."
+    source: { kind: authored }
+  - form: "spóźniłbym"
+    pl: "Nie spóźniłbym się na pociąg."
+    ru: "Я не опоздал бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłbym"
+    pl: "Spóźniłbym się do pracy."
+    ru: "Я опоздал бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłbyś"
+    pl: "Spóźniłbyś się na pociąg."
+    ru: "Ты опоздал бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłbyś"
+    pl: "Nie spóźniłbyś się, gdybyś wyszedł wcześniej."
+    ru: "Ты не опоздал бы, если бы вышел раньше."
+    source: { kind: authored }
+  - form: "spóźniłbyś"
+    pl: "Spóźniłbyś się do pracy."
+    ru: "Ты опоздал бы на работу."
+    source: { kind: authored }
+  - form: "spóźniłem"
+    pl: "Spóźniłem się?"
+    ru: "Я опоздал?"
+    source: { kind: translated, id: 8432459 }
+  - form: "spóźniłem"
+    pl: "Trochę się spóźniłem."
+    ru: "Я немного опоздал."
+    source: { kind: translated, id: 8768402 }
+  - form: "spóźniłem"
+    pl: "Spóźniłem się na pociąg."
+    ru: "Я опоздал на поезд."
+    source: { kind: authored }
+  - form: "spóźniłeś"
+    pl: "Znowu się spóźniłeś."
+    ru: "Ты опять опоздал."
+    source: { kind: tatoeba, id: 10596956 }
+  - form: "spóźniłeś"
+    pl: "Spóźniłeś się."
+    ru: "Ты опоздал."
+    source: { kind: translated, id: 5664870 }
+  - form: "spóźniłeś"
+    pl: "Spóźniłeś się na lekcję."
+    ru: "Ты опоздал на урок."
+    source: { kind: authored }
+  - form: "spóźniło"
+    pl: "Kilka osób się spóźniło."
+    ru: "Несколько человек опоздали."
+    source: { kind: translated, id: 3615738 }
+  - form: "spóźniło"
+    pl: "Dziecko spóźniło się do szkoły."
+    ru: "Ребёнок опоздал в школу."
+    source: { kind: authored }
+  - form: "spóźniło"
+    pl: "Wiele osób się spóźniło."
+    ru: "Многие опоздали."
+    source: { kind: authored }
+  - form: "spóźniłoby"
+    pl: "Dziecko spóźniłoby się do szkoły."
+    ru: "Ребёнок опоздал бы в школу."
+    source: { kind: authored }
+  - form: "spóźniłoby"
+    pl: "Wiele osób spóźniłoby się bez przypomnienia."
+    ru: "Многие опоздали бы без напоминания."
+    source: { kind: authored }
+  - form: "spóźniłoby"
+    pl: "Żadne z nich nie spóźniłoby się."
+    ru: "Никто из них не опоздал бы."
+    source: { kind: authored }
+  - form: "spóźniły"
+    pl: "Trochę się spóźniły."
+    ru: "Они немного опоздали."
+    source: { kind: translated, id: 12832619 }
+  - form: "spóźniły"
+    pl: "Dziewczyny spóźniły się na pociąg."
+    ru: "Девочки опоздали на поезд."
+    source: { kind: authored }
+  - form: "spóźniły"
+    pl: "Autobusy spóźniły się z powodu korków."
+    ru: "Автобусы опоздали из-за пробок."
+    source: { kind: authored }
+  - form: "spóźniłyby"
+    pl: "Dziewczyny spóźniłyby się na pociąg."
+    ru: "Девочки опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłyby"
+    pl: "Autobusy spóźniłyby się przez korki."
+    ru: "Автобусы опоздали бы из-за пробок."
+    source: { kind: authored }
+  - form: "spóźniłyby"
+    pl: "Nie spóźniłyby się do teatru."
+    ru: "Они не опоздали бы в театр."
+    source: { kind: authored }
+  - form: "spóźniłybyście"
+    pl: "Spóźniłybyście się na pociąg."
+    ru: "Вы опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłybyście"
+    pl: "Nie spóźniłybyście się, gdybyście wyszły wcześniej."
+    ru: "Вы не опоздали бы, если бы вышли раньше."
+    source: { kind: authored }
+  - form: "spóźniłybyście"
+    pl: "Spóźniłybyście się do teatru."
+    ru: "Вы опоздали бы в театр."
+    source: { kind: authored }
+  - form: "spóźniłybyśmy"
+    pl: "Spóźniłybyśmy się na pociąg."
+    ru: "Мы опоздали бы на поезд."
+    source: { kind: authored }
+  - form: "spóźniłybyśmy"
+    pl: "Nie spóźniłybyśmy się, gdybyśmy wyszły wcześniej."
+    ru: "Мы не опоздали бы, если бы вышли раньше."
+    source: { kind: authored }
+  - form: "spóźniłybyśmy"
+    pl: "Spóźniłybyśmy się do teatru."
+    ru: "Мы опоздали бы в театр."
+    source: { kind: authored }
+  - form: "spóźniłyście"
+    pl: "Spóźniłyście się na pociąg."
+    ru: "Вы опоздали на поезд."
+    source: { kind: authored }
+  - form: "spóźniłyście"
+    pl: "Znowu się spóźniłyście."
+    ru: "Вы опять опоздали."
+    source: { kind: authored }
+  - form: "spóźniłyście"
+    pl: "Czemu się spóźniłyście?"
+    ru: "Почему вы опоздали?"
+    source: { kind: authored }
+  - form: "spóźniłyśmy"
+    pl: "Spóźniłyśmy się na pociąg."
+    ru: "Мы опоздали на поезд."
+    source: { kind: authored }
+  - form: "spóźniłyśmy"
+    pl: "Znowu się spóźniłyśmy."
+    ru: "Мы опять опоздали."
+    source: { kind: authored }
+  - form: "spóźniłyśmy"
+    pl: "Spóźniłyśmy się do teatru."
+    ru: "Мы опоздали в театр."
+    source: { kind: authored }
+  - form: "spóźnimy"
+    pl: "Chyba trochę się spóźnimy."
+    ru: "Кажется, мы немного опоздаем."
+    source: { kind: translated, id: 987558 }
+  - form: "spóźnimy"
+    pl: "Pospiesz się, bo się spóźnimy!"
+    ru: "Поторопись, а то опоздаем!"
+    source: { kind: translated, id: 588424 }
+  - form: "spóźnimy"
+    pl: "Jeśli nie wyjdziemy, spóźnimy się."
+    ru: "Если мы не выйдем, мы опоздаем."
+    source: { kind: authored }
+  - form: "spóźniona"
+    pl: "Jesteś spóźniona."
+    ru: "Ты опаздываешь."
+    source: { kind: translated, id: 10593309 }
+  - form: "spóźniona"
+    pl: "Ona jest spóźniona."
+    ru: "Она опаздывает."
+    source: { kind: translated, id: 2808978 }
+  - form: "spóźniona"
+    pl: "Jest spóźniona o dziesięć minut."
+    ru: "Она опаздывает на десять минут."
+    source: { kind: authored }
+  - form: "spóźnioną"
+    pl: "Spóźnioną dostawę przypisałem korkom na drodze."
+    ru: "Опоздавшую доставку я списал на пробки на дороге."
+    source: { kind: translated, id: 1453212 }
+  - form: "spóźnioną"
+    pl: "Zastał spóźnioną grupę przed wejściem."
+    ru: "Он застал опоздавшую группу перед входом."
+    source: { kind: authored }
+  - form: "spóźnioną"
+    pl: "Widziałem spóźnioną uczennicę."
+    ru: "Я видел опоздавшую ученицу."
+    source: { kind: authored }
+  - form: "spóźnione"
+    pl: "Dzieci były spóźnione."
+    ru: "Дети опоздали."
+    source: { kind: authored }
+  - form: "spóźnione"
+    pl: "Spóźnione autobusy stały w korku."
+    ru: "Опоздавшие автобусы стояли в пробке."
+    source: { kind: authored }
+  - form: "spóźnione"
+    pl: "Spóźnione życzenia i tak ucieszyły."
+    ru: "Запоздалые пожелания всё равно обрадовали."
+    source: { kind: authored }
+  - form: "spóźnionego"
+    pl: "Nie wpuszczono spóźnionego widza."
+    ru: "Опоздавшего зрителя не впустили."
+    source: { kind: authored }
+  - form: "spóźnionego"
+    pl: "Szukali spóźnionego pasażera."
+    ru: "Они искали опоздавшего пассажира."
+    source: { kind: authored }
+  - form: "spóźnionego"
+    pl: "Nie ma tu spóźnionego gościa."
+    ru: "Опоздавшего гостя здесь нет."
+    source: { kind: authored }
+  - form: "spóźnionej"
+    pl: "Nie wpuszczono spóźnionej grupy."
+    ru: "Опоздавшую группу не впустили."
+    source: { kind: authored }
+  - form: "spóźnionej"
+    pl: "Szukali spóźnionej uczennicy."
+    ru: "Они искали опоздавшую ученицу."
+    source: { kind: authored }
+  - form: "spóźnionej"
+    pl: "Po spóźnionej dostawie zmienili firmę."
+    ru: "После опоздавшей доставки они сменили фирму."
+    source: { kind: authored }
+  - form: "spóźnionemu"
+    pl: "Spóźnionemu widzowi wskazano miejsce z tyłu."
+    ru: "Опоздавшему зрителю указали место сзади."
+    source: { kind: authored }
+  - form: "spóźnionemu"
+    pl: "Nie ufa spóźnionemu kurierowi."
+    ru: "Он не доверяет опаздывающему курьеру."
+    source: { kind: authored }
+  - form: "spóźnionemu"
+    pl: "Przyjrzał się spóźnionemu pociągowi."
+    ru: "Он присмотрелся к опоздавшему поезду."
+    source: { kind: authored }
+  - form: "spóźniono"
+    pl: "Dostawę spóźniono o tydzień."
+    ru: "Доставку задержали на неделю."
+    source: { kind: authored }
+  - form: "spóźniono"
+    pl: "Spóźniono wypłatę."
+    ru: "Выплату задержали."
+    source: { kind: authored }
+  - form: "spóźniono"
+    pl: "Nie spóźniono ani jednego pociągu."
+    ru: "Ни один поезд не задержали."
+    source: { kind: authored }
+  - form: "spóźniony"
+    pl: "Jestem spóźniony."
+    ru: "Я опаздываю."
+    source: { kind: translated, id: 5662097 }
+  - form: "spóźniony"
+    pl: "Jesteś spóźniony."
+    ru: "Ты опаздываешь."
+    source: { kind: translated, id: 10593308 }
+  - form: "spóźniony"
+    pl: "Spóźniony pasażer wbiegł do wagonu."
+    ru: "Опоздавший пассажир вбежал в вагон."
+    source: { kind: authored }
+  - form: "spóźnionych"
+    pl: "W pełni zarezerwowany na noc, hotel musiał odprawić kilku spóźnionych gości."
+    ru: "Отель, забронированный на ночь полностью, был вынужден отказать нескольким опоздавшим гостям."
+    source: { kind: translated, id: 1594707 }
+  - form: "spóźnionych"
+    pl: "Nie wpuszczają spóźnionych widzów."
+    ru: "Опоздавших зрителей не впускают."
+    source: { kind: authored }
+  - form: "spóźnionych"
+    pl: "Wśród spóźnionych byłem i ja."
+    ru: "Среди опоздавших был и я."
+    source: { kind: authored }
+  - form: "spóźnionym"
+    pl: "W spóźnionym pociągu było tłoczno."
+    ru: "В опоздавшем поезде было тесно."
+    source: { kind: authored }
+  - form: "spóźnionym"
+    pl: "Przyjrzał się spóźnionym gościom."
+    ru: "Он присмотрелся к опоздавшим гостям."
+    source: { kind: authored }
+  - form: "spóźnionym"
+    pl: "Zajął się spóźnionym transportem."
+    ru: "Он занялся опоздавшим транспортом."
+    source: { kind: authored }
+  - form: "spóźnionymi"
+    pl: "Zajmuje się spóźnionymi dostawami."
+    ru: "Он занимается опоздавшими доставками."
+    source: { kind: authored }
+  - form: "spóźnionymi"
+    pl: "Rozmawiał ze spóźnionymi gośćmi."
+    ru: "Он говорил с опоздавшими гостями."
+    source: { kind: authored }
+  - form: "spóźnionymi"
+    pl: "Między spóźnionymi a punktualnymi jest przepaść."
+    ru: "Между опаздывающими и пунктуальными пропасть."
+    source: { kind: authored }
+  - form: "spóźnisz"
+    pl: "Idź, bo się spóźnisz."
+    ru: "Иди, а то опоздаешь."
+    source: { kind: tatoeba, id: 12105204 }
+  - form: "spóźnisz"
+    pl: "Nie spóźnisz się, tak?"
+    ru: "Ты ведь не опоздаешь?"
+    source: { kind: translated, id: 4046786 }
+  - form: "spóźnisz"
+    pl: "Jeśli się nie pospieszysz, spóźnisz się."
+    ru: "Если не поторопишься, опоздаешь."
+    source: { kind: authored }
+  - form: "spóźniwszy"
+    pl: "Spóźniwszy się na pociąg, wrócił do domu."
+    ru: "Опоздав на поезд, он вернулся домой."
+    source: { kind: authored }
+  - form: "spóźniwszy"
+    pl: "Spóźniwszy się, przeprosił szefa."
+    ru: "Опоздав, он извинился перед начальником."
+    source: { kind: authored }
+  - form: "spóźniwszy"
+    pl: "Spóźniwszy się do teatru, czekali na przerwę."
+    ru: "Опоздав в театр, они ждали антракта."
+    source: { kind: authored }
