@@ -1,0 +1,124 @@
+# review
+id: urodziny
+format: 2
+lemma: "urodziny"
+rank: 1003
+pos: noun
+pron: { cyr: "уродзи́ны" }
+senses:
+  - id: birthday
+    ru: "день рождения"
+    note: "Слово существует только во множественном числе."
+    examples:
+      - pl: "Jutro mam urodziny."
+        ru: "Завтра мой день рождения."
+        source: { kind: translated, id: 3460275 }
+      - pl: "Moje urodziny są w lipcu."
+        ru: "Мой день рождения в июле."
+        source: { kind: translated, id: 3458123 }
+      - pl: "Wczoraj były moje urodziny."
+        ru: "Вчера был мой день рождения."
+        source: { kind: translated, id: 544535 }
+  - id: occasion
+    ru: "z okazji urodzin — по случаю дня рождения"
+    examples:
+      - pl: "Wszystkiego najlepszego z okazji urodzin!"
+        ru: "Поздравляю с днём рождения!"
+        source: { kind: translated, id: 2908721 }
+      - pl: "Przyjaciele urządzili mi obchody urodzin."
+        ru: "Друзья устроили мне празднование дня рождения."
+        source: { kind: translated, id: 415356 }
+      - pl: "Tom dał Mary przypinkę z okazji jej urodzin."
+        ru: "Том подарил Мэри значок на её день рождения."
+        source: { kind: translated, id: 8529826 }
+  - id: at-party
+    ru: "na urodzinach — на дне рождения"
+    examples:
+      - pl: "Zapomniał o moich urodzinach."
+        ru: "Он забыл про мой день рождения."
+        source: { kind: translated, id: 12569758 }
+      - pl: "Jak było na twoich urodzinach?"
+        ru: "Как прошёл твой день рождения?"
+        source: { kind: translated, id: 393315 }
+      - pl: "Tom znowu zapomniał w tym roku o moich urodzinach."
+        ru: "Том снова в этом году забыл про мой день рождения."
+        source: { kind: translated, id: 3887769 }
+notes:
+  - { kind: usage, text: "Слово существует только во множественном числе: единственного urodzina не бывает. Русский «день рождения» — единственное, польские urodziny — всегда множественное." }
+  - { kind: usage, text: "Отсюда и согласование: Moje urodziny SĄ w lipcu «Мой день рождения в июле», глагол во множественном числе. Сказать «jest» нельзя." }
+  - { kind: usage, text: "Стандартное поздравление — Wszystkiego najlepszego z okazji urodzin! буквально «Всего наилучшего по случаю дня рождения»." }
+  - { kind: false-friend, text: "Не путайте urodziny «день рождения» с urodzenie «рождение»: data urodzenia «дата рождения» — вот там единственное число. Ещё есть imieniny «именины», тоже только множественное." }
+collocations:
+  - { pl: "z okazji urodzin", ru: "по случаю дня рождения" }
+  - { pl: "na urodzinach", ru: "на дне рождения" }
+  - { pl: "prezent na urodziny", ru: "подарок на день рождения" }
+  - { pl: "przyjęcie urodzinowe", ru: "день рождения (праздник)" }
+family:
+  - { pl: "urodzić", ru: "родить", relation: root, id: urodzic }
+  - { pl: "urodzenie", ru: "рождение", relation: derived }
+  - { pl: "imieniny", ru: "именины", relation: derived }
+etymology: "От urodzić «родить» с суффиксом -iny. Названия праздников в польском регулярно множественные: urodziny, imieniny, chrzciny — как русские «именины» и «крестины»."
+memory: "urodziny — «день рождения», но слово всегда во множественном числе, единственного просто нет: Moje urodziny SĄ w lipcu. И поздравление целиком: Wszystkiego najlepszego z okazji urodzin!"
+idioms:
+  - { pl: "wszystkiego najlepszego z okazji urodzin!", ru: "с днём рождения!" }
+  - { pl: "z okazji urodzin", ru: "по случаю дня рождения" }
+  - { pl: "prezent na urodziny", ru: "подарок на день рождения" }
+formExamplesSkip:
+  - { form: "urodzinom", reason: "дательный падеж в живой речи не встречается: слово живёт в формах urodziny, urodzin, urodzinach" }
+formExamples:
+  - form: "urodzin"
+    pl: "Wszystkiego najlepszego z okazji urodzin!"
+    ru: "Поздравляю с днём рождения!"
+    source: { kind: translated, id: 2908721 }
+  - form: "urodzin"
+    pl: "Przyjaciele urządzili mi obchody urodzin."
+    ru: "Друзья устроили мне празднование дня рождения."
+    source: { kind: translated, id: 415356 }
+  - form: "urodzin"
+    pl: "Tom dał Mary przypinkę z okazji jej urodzin."
+    ru: "Том подарил Мэри значок на её день рождения."
+    source: { kind: translated, id: 8529826 }
+  - form: "urodzin"
+    pl: "Wysłałem mu gratulacje z okazji urodzin syna."
+    ru: "Я послал ему поздравление по случаю рождения сына."
+    source: { kind: translated, id: 1518023 }
+  - form: "urodzinach"
+    pl: "Zapomniał o moich urodzinach."
+    ru: "Он забыл про мой день рождения."
+    source: { kind: translated, id: 12569758 }
+  - form: "urodzinach"
+    pl: "Jak było na twoich urodzinach?"
+    ru: "Как прошёл твой день рождения?"
+    source: { kind: translated, id: 393315 }
+  - form: "urodzinach"
+    pl: "Tom znowu zapomniał w tym roku o moich urodzinach."
+    ru: "Том снова в этом году забыл про мой день рождения."
+    source: { kind: translated, id: 3887769 }
+  - form: "urodzinami"
+    pl: "Nigdy nie przepadałem za urodzinami."
+    ru: "Я никогда не любил дни рождения."
+    source: { kind: translated, id: 6305433 }
+  - form: "urodzinami"
+    pl: "Wydanie tej książki zbiegło się z urodzinami autora."
+    ru: "Выход этой книги совпал с днём рождения автора."
+    source: { kind: translated, id: 349594 }
+  - form: "urodzinami"
+    pl: "Tydzień przed urodzinami kupiła prezent."
+    ru: "За неделю до дня рождения она купила подарок."
+    source: { kind: authored }
+  - form: "urodziny"
+    pl: "Jutro mam urodziny."
+    ru: "Завтра мой день рождения."
+    source: { kind: translated, id: 3460275 }
+  - form: "urodziny"
+    pl: "Moje urodziny są w lipcu."
+    ru: "Мой день рождения в июле."
+    source: { kind: translated, id: 3458123 }
+  - form: "urodziny"
+    pl: "Wczoraj były moje urodziny."
+    ru: "Вчера был мой день рождения."
+    source: { kind: translated, id: 544535 }
+  - form: "urodziny"
+    pl: "Urodziny mam 10. listopada."
+    ru: "Мой день рождения десятого ноября."
+    source: { kind: translated, id: 2607612 }

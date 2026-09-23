@@ -1,0 +1,653 @@
+# review
+id: pojac
+format: 2
+lemma: "pojąć"
+rank: 994
+pos: verb
+aspect: perf
+pron: { cyr: "по́йонць" }
+senses:
+  - id: grasp
+    ru: "постичь, понять (книжное)"
+    examples:
+      - pl: "Niełatwo pojąć jego teorię."
+        ru: "Его теорию нелегко постичь."
+        source: { kind: translated, id: 966863 }
+      - pl: "Ten inteligentny chłopak pojął zasady geometrii."
+        ru: "Этот смышлёный мальчик постиг основы геометрии."
+        source: { kind: translated, id: 921645 }
+      - pl: "Pojmiesz wartość czasu dopiero wtedy, gdy ci go zabraknie."
+        ru: "Ты поймёшь цену времени только тогда, когда его тебе не хватит."
+        source: { kind: translated, id: 1007431 }
+  - id: cannot-grasp
+    ru: "nie móc pojąć — не мочь взять в толк"
+    examples:
+      - pl: "Trudno mi pojąć kryptowalutę."
+        ru: "Мне трудно понять криптовалюту."
+        source: { kind: translated, id: 12147069 }
+      - pl: "Nie mogliśmy pojąć jej logiki."
+        ru: "Мы не могли постичь её логику."
+        source: { kind: translated, id: 3752521 }
+      - pl: "Musiało upłynąć sporo lat, abym w pełni pojął znaczenie nauczania Mistrza."
+        ru: "Должно быть, прошло немало лет, прежде чем я вполне постиг смысл учения Мастера."
+        source: { kind: translated, id: 13786686 }
+  - id: take-wife
+    ru: "pojąć za żonę — взять в жёны (устаревшее)"
+    note: "Старое значение «взять»: оно и объясняет странные формы будущего pojmę, pojmiesz."
+    examples:
+      - pl: "Pojął ją za żonę."
+        ru: "Он взял её в жёны."
+        source: { kind: authored }
+      - pl: "Pojmę cię za żonę."
+        ru: "Я возьму тебя в жёны."
+        source: { kind: authored }
+      - pl: "Pojął za żonę córkę sąsiada."
+        ru: "Он взял в жёны дочь соседа."
+        source: { kind: authored }
+notes:
+  - { kind: register, text: "Книжный глагол. В обычной речи «понять» — это zrozumieć. Pojąć звучит возвышенно и чаще всего встречается в отрицании: nie mogę pojąć «не могу взять в толк»." }
+  - { kind: usage, text: "Будущее время нерегулярное: основа меняется с poję- на pojm-, отсюда pojmę, pojmiesz, pojmie. То же гнездо, что у pojmować «постигать»." }
+  - { kind: usage, text: "Отглагольное существительное pojęcie «понятие» отделилось настолько, что живёт своей жизнью и разобрано в отдельной карточке: Nie mam pojęcia «Понятия не имею»." }
+  - { kind: usage, text: "Старое значение «взять» сохранилось в обороте pojąć za żonę «взять в жёны» — его можно встретить в литературе и церковном языке." }
+collocations:
+  - { pl: "nie mogę pojąć", ru: "не могу взять в толк" }
+  - { pl: "trudno pojąć", ru: "трудно постичь" }
+  - { pl: "pojąć sens", ru: "постичь смысл" }
+  - { pl: "pojąć za żonę", ru: "взять в жёны" }
+family:
+  - { pl: "pojmować", ru: "постигать", relation: aspect }
+  - { pl: "pojęcie", ru: "понятие", relation: derived, id: pojecie }
+  - { pl: "pojętny", ru: "понятливый", relation: derived }
+etymology: "Приставка po- + jąć «взять», праславянское *jęti. Буквально «взять умом» — русское «понять» собрано ровно из тех же частей, это прямые родственники."
+memory: "pojąć — книжное «постичь», буквально «взять умом»: po- + jąć, как русское «понять». В живой речи говорят zrozumieć, а pojąć чаще в отрицании: nie mogę pojąć. Будущее нерегулярное: pojmę, pojmiesz."
+idioms:
+  - { pl: "nie mogę pojąć", ru: "не могу взять в толк" }
+  - { pl: "nie do pojęcia", ru: "уму непостижимо" }
+  - { pl: "pojąć za żonę", ru: "взять в жёны" }
+formExamplesSkip:
+  - { form: "pojęcie", reason: "отглагольное существительное «понятие» давно отделилось от глагола и разобрано в отдельной карточке (ранг 701)" }
+  - { form: "pojęcia", reason: "отглагольное существительное «понятие» разобрано в отдельной карточке: там же оборот nie mam pojęcia" }
+  - { form: "pojęciem", reason: "отглагольное существительное «понятие» разобрано в отдельной карточке (ранг 701)" }
+  - { form: "pojęciu", reason: "отглагольное существительное «понятие» разобрано в отдельной карточке (ранг 701)" }
+  - { form: "pojęci", reason: "мужско-личная форма страдательного причастия: постигают мысль или смысл, а не людей, поэтому форма не употребляется" }
+formExamples:
+  - form: "pojąć"
+    pl: "za cholerę nie mogę pojąć"
+    ru: "Хоть убей, не могу понять."
+    source: { kind: translated, id: 9584351 }
+  - form: "pojąć"
+    pl: "Niełatwo pojąć jego teorię."
+    ru: "Его теорию нелегко постичь."
+    source: { kind: translated, id: 966863 }
+  - form: "pojąć"
+    pl: "Trudno mi pojąć kryptowalutę."
+    ru: "Мне трудно понять криптовалюту."
+    source: { kind: translated, id: 12147069 }
+  - form: "pojąć"
+    pl: "Nie mogliśmy pojąć jej logiki."
+    ru: "Мы не могли постичь её логику."
+    source: { kind: translated, id: 3752521 }
+  - form: "pojął"
+    pl: "Ten inteligentny chłopak pojął zasady geometrii."
+    ru: "Этот смышлёный мальчик постиг основы геометрии."
+    source: { kind: translated, id: 921645 }
+  - form: "pojął"
+    pl: "Musiało upłynąć sporo lat, abym w pełni pojął znaczenie nauczania Mistrza."
+    ru: "Должно быть, прошло немало лет, прежде чем я вполне постиг смысл учения Мастера."
+    source: { kind: translated, id: 13786686 }
+  - form: "pojął"
+    pl: "Pojął ją za żonę."
+    ru: "Он взял её в жёны."
+    source: { kind: authored }
+  - form: "pojąłby"
+    pl: "Pojąłby to, gdyby chciał."
+    ru: "Он понял бы это, если бы захотел."
+    source: { kind: authored }
+  - form: "pojąłby"
+    pl: "Nie pojąłby tego nikt."
+    ru: "Этого никто бы не постиг."
+    source: { kind: authored }
+  - form: "pojąłby"
+    pl: "Pojąłby sens po latach."
+    ru: "Он постиг бы смысл спустя годы."
+    source: { kind: authored }
+  - form: "pojąłbym"
+    pl: "Nie pojąłbym tego bez pomocy."
+    ru: "Я не постиг бы этого без помощи."
+    source: { kind: authored }
+  - form: "pojąłbym"
+    pl: "Pojąłbym to szybciej na spokojnie."
+    ru: "Я понял бы это быстрее в спокойной обстановке."
+    source: { kind: authored }
+  - form: "pojąłbym"
+    pl: "Chętnie pojąłbym jego logikę."
+    ru: "Я с удовольствием постиг бы его логику."
+    source: { kind: authored }
+  - form: "pojąłbyś"
+    pl: "Pojąłbyś to od razu?"
+    ru: "Ты понял бы это сразу?"
+    source: { kind: authored }
+  - form: "pojąłbyś"
+    pl: "Nie pojąłbyś tego bez wyjaśnień."
+    ru: "Ты не понял бы этого без объяснений."
+    source: { kind: authored }
+  - form: "pojąłbyś"
+    pl: "Pojąłbyś sens tej książki."
+    ru: "Ты постиг бы смысл этой книги."
+    source: { kind: authored }
+  - form: "pojąłem"
+    pl: "Minęły lata, nim w pełni pojąłem nauki Mistrza."
+    ru: "Прошли годы, прежде чем я вполне постиг учение Мастера."
+    source: { kind: translated, id: 12469941 }
+  - form: "pojąłem"
+    pl: "Wiele lat mi zajęło, zanim ostatecznie pojąłem nauczanie Mistrza."
+    ru: "Мне понадобилось много лет, чтобы окончательно постичь учение Мастера."
+    source: { kind: translated, id: 13786412 }
+  - form: "pojąłem"
+    pl: "Wreszcie pojąłem, o co chodzi."
+    ru: "Наконец я понял, в чём дело."
+    source: { kind: authored }
+  - form: "pojąłeś"
+    pl: "Pojąłeś wreszcie?"
+    ru: "Ты наконец понял?"
+    source: { kind: authored }
+  - form: "pojąłeś"
+    pl: "Nie pojąłeś ani słowa."
+    ru: "Ты не понял ни слова."
+    source: { kind: authored }
+  - form: "pojąłeś"
+    pl: "Pojąłeś sens tej przypowieści?"
+    ru: "Ты постиг смысл этой притчи?"
+    source: { kind: authored }
+  - form: "pojąwszy"
+    pl: "Pojąwszy sens, zamilkł."
+    ru: "Постигнув смысл, он замолчал."
+    source: { kind: authored }
+  - form: "pojąwszy"
+    pl: "Pojąwszy prawdę, odszedł."
+    ru: "Постигнув правду, он ушёл."
+    source: { kind: authored }
+  - form: "pojąwszy"
+    pl: "Pojąwszy błąd, poprawił się."
+    ru: "Поняв ошибку, он исправился."
+    source: { kind: authored }
+  - form: "pojęli"
+    pl: "Pojęli sens dopiero po latach."
+    ru: "Они постигли смысл только спустя годы."
+    source: { kind: authored }
+  - form: "pojęli"
+    pl: "Nie pojęli jego logiki."
+    ru: "Они не постигли его логику."
+    source: { kind: authored }
+  - form: "pojęli"
+    pl: "Uczniowie pojęli zasadę szybko."
+    ru: "Ученики быстро постигли правило."
+    source: { kind: authored }
+  - form: "pojęliby"
+    pl: "Pojęliby to szybciej z przykładem."
+    ru: "Они поняли бы это быстрее на примере."
+    source: { kind: authored }
+  - form: "pojęliby"
+    pl: "Nie pojęliby tego bez pomocy."
+    ru: "Они не постигли бы этого без помощи."
+    source: { kind: authored }
+  - form: "pojęliby"
+    pl: "Pojęliby sens po namyśle."
+    ru: "Они постигли бы смысл, поразмыслив."
+    source: { kind: authored }
+  - form: "pojęlibyście"
+    pl: "Pojęlibyście to od razu?"
+    ru: "Вы поняли бы это сразу?"
+    source: { kind: authored }
+  - form: "pojęlibyście"
+    pl: "Nie pojęlibyście tego bez wyjaśnień."
+    ru: "Вы не поняли бы этого без объяснений."
+    source: { kind: authored }
+  - form: "pojęlibyście"
+    pl: "Pojęlibyście sens tej książki."
+    ru: "Вы постигли бы смысл этой книги."
+    source: { kind: authored }
+  - form: "pojęlibyśmy"
+    pl: "Pojęlibyśmy to razem."
+    ru: "Мы постигли бы это вместе."
+    source: { kind: authored }
+  - form: "pojęlibyśmy"
+    pl: "Nie pojęlibyśmy tego sami."
+    ru: "Мы не постигли бы этого сами."
+    source: { kind: authored }
+  - form: "pojęlibyśmy"
+    pl: "Pojęlibyśmy sens po namyśle."
+    ru: "Мы постигли бы смысл, поразмыслив."
+    source: { kind: authored }
+  - form: "pojęliście"
+    pl: "Pojęliście, o co chodzi?"
+    ru: "Вы поняли, в чём дело?"
+    source: { kind: authored }
+  - form: "pojęliście"
+    pl: "Nie pojęliście ani słowa."
+    ru: "Вы не поняли ни слова."
+    source: { kind: authored }
+  - form: "pojęliście"
+    pl: "Pojęliście sens tej przypowieści?"
+    ru: "Вы постигли смысл этой притчи?"
+    source: { kind: authored }
+  - form: "pojęliśmy"
+    pl: "Pojęliśmy to dopiero wieczorem."
+    ru: "Мы поняли это только вечером."
+    source: { kind: authored }
+  - form: "pojęliśmy"
+    pl: "Nie pojęliśmy jego logiki."
+    ru: "Мы не постигли его логику."
+    source: { kind: authored }
+  - form: "pojęliśmy"
+    pl: "Pojęliśmy sens po latach."
+    ru: "Мы постигли смысл спустя годы."
+    source: { kind: authored }
+  - form: "pojęła"
+    pl: "Pojęła sens jego słów."
+    ru: "Она постигла смысл его слов."
+    source: { kind: authored }
+  - form: "pojęła"
+    pl: "Nie pojęła ani słowa."
+    ru: "Она не поняла ни слова."
+    source: { kind: authored }
+  - form: "pojęła"
+    pl: "Wreszcie pojęła, o co chodzi."
+    ru: "Наконец она поняла, в чём дело."
+    source: { kind: authored }
+  - form: "pojęłaby"
+    pl: "Pojęłaby to szybciej z przykładem."
+    ru: "Она поняла бы это быстрее на примере."
+    source: { kind: authored }
+  - form: "pojęłaby"
+    pl: "Nie pojęłaby tego bez pomocy."
+    ru: "Она не постигла бы этого без помощи."
+    source: { kind: authored }
+  - form: "pojęłaby"
+    pl: "Pojęłaby sens po namyśle."
+    ru: "Она постигла бы смысл, поразмыслив."
+    source: { kind: authored }
+  - form: "pojęłabym"
+    pl: "Nie pojęłabym tego sama."
+    ru: "Я не постигла бы этого сама."
+    source: { kind: authored }
+  - form: "pojęłabym"
+    pl: "Pojęłabym to szybciej na spokojnie."
+    ru: "Я поняла бы это быстрее в спокойной обстановке."
+    source: { kind: authored }
+  - form: "pojęłabym"
+    pl: "Chętnie pojęłabym jego logikę."
+    ru: "Я с удовольствием постигла бы его логику."
+    source: { kind: authored }
+  - form: "pojęłabyś"
+    pl: "Pojęłabyś to od razu?"
+    ru: "Ты поняла бы это сразу?"
+    source: { kind: authored }
+  - form: "pojęłabyś"
+    pl: "Nie pojęłabyś tego bez wyjaśnień."
+    ru: "Ты не поняла бы этого без объяснений."
+    source: { kind: authored }
+  - form: "pojęłabyś"
+    pl: "Pojęłabyś sens tej książki."
+    ru: "Ты постигла бы смысл этой книги."
+    source: { kind: authored }
+  - form: "pojęłam"
+    pl: "Minęły lata, nim w pełni pojęłam nauki Mistrza."
+    ru: "Прошли годы, прежде чем я вполне постигла учение Мастера."
+    source: { kind: translated, id: 13786047 }
+  - form: "pojęłam"
+    pl: "Wreszcie pojęłam, o co chodzi."
+    ru: "Наконец я поняла, в чём дело."
+    source: { kind: authored }
+  - form: "pojęłam"
+    pl: "Nie pojęłam jego logiki."
+    ru: "Я не постигла его логику."
+    source: { kind: authored }
+  - form: "pojęłaś"
+    pl: "Pojęłaś wreszcie?"
+    ru: "Ты наконец поняла?"
+    source: { kind: authored }
+  - form: "pojęłaś"
+    pl: "Nie pojęłaś ani słowa."
+    ru: "Ты не поняла ни слова."
+    source: { kind: authored }
+  - form: "pojęłaś"
+    pl: "Pojęłaś sens tej przypowieści?"
+    ru: "Ты постигла смысл этой притчи?"
+    source: { kind: authored }
+  - form: "pojęło"
+    pl: "Niewielu, jeśli w ogóle, Amerykanów pojęło znaczenie tego, co zostało osiągnięte."
+    ru: "Немногие американцы, если вообще кто-то, постигли значение достигнутого."
+    source: { kind: translated, id: 11266083 }
+  - form: "pojęło"
+    pl: "Dziecko pojęło zasadę od razu."
+    ru: "Ребёнок сразу постиг правило."
+    source: { kind: authored }
+  - form: "pojęło"
+    pl: "Niewiele osób to pojęło."
+    ru: "Немногие это постигли."
+    source: { kind: authored }
+  - form: "pojęłoby"
+    pl: "Dziecko pojęłoby to na przykładzie."
+    ru: "Ребёнок понял бы это на примере."
+    source: { kind: authored }
+  - form: "pojęłoby"
+    pl: "Nie pojęłoby tego bez pomocy."
+    ru: "Оно не постигло бы этого без помощи."
+    source: { kind: authored }
+  - form: "pojęłoby"
+    pl: "Pojęłoby sens po latach."
+    ru: "Оно постигло бы смысл спустя годы."
+    source: { kind: authored }
+  - form: "pojęły"
+    pl: "Dzieci pojęły zasadę szybko."
+    ru: "Дети быстро постигли правило."
+    source: { kind: authored }
+  - form: "pojęły"
+    pl: "Nie pojęły jego logiki."
+    ru: "Они не постигли его логику."
+    source: { kind: authored }
+  - form: "pojęły"
+    pl: "Pojęły sens dopiero po latach."
+    ru: "Они постигли смысл только спустя годы."
+    source: { kind: authored }
+  - form: "pojęłyby"
+    pl: "Pojęłyby to szybciej z przykładem."
+    ru: "Они поняли бы это быстрее на примере."
+    source: { kind: authored }
+  - form: "pojęłyby"
+    pl: "Nie pojęłyby tego bez pomocy."
+    ru: "Они не постигли бы этого без помощи."
+    source: { kind: authored }
+  - form: "pojęłyby"
+    pl: "Pojęłyby sens po namyśle."
+    ru: "Они постигли бы смысл, поразмыслив."
+    source: { kind: authored }
+  - form: "pojęłybyście"
+    pl: "Pojęłybyście to od razu?"
+    ru: "Вы поняли бы это сразу?"
+    source: { kind: authored }
+  - form: "pojęłybyście"
+    pl: "Nie pojęłybyście tego bez wyjaśnień."
+    ru: "Вы не поняли бы этого без объяснений."
+    source: { kind: authored }
+  - form: "pojęłybyście"
+    pl: "Pojęłybyście sens tej książki."
+    ru: "Вы постигли бы смысл этой книги."
+    source: { kind: authored }
+  - form: "pojęłybyśmy"
+    pl: "Pojęłybyśmy to razem."
+    ru: "Мы постигли бы это вместе."
+    source: { kind: authored }
+  - form: "pojęłybyśmy"
+    pl: "Nie pojęłybyśmy tego same."
+    ru: "Мы не постигли бы этого сами."
+    source: { kind: authored }
+  - form: "pojęłybyśmy"
+    pl: "Pojęłybyśmy sens po namyśle."
+    ru: "Мы постигли бы смысл, поразмыслив."
+    source: { kind: authored }
+  - form: "pojęłyście"
+    pl: "Pojęłyście, o co chodzi?"
+    ru: "Вы поняли, в чём дело?"
+    source: { kind: authored }
+  - form: "pojęłyście"
+    pl: "Nie pojęłyście ani słowa."
+    ru: "Вы не поняли ни слова."
+    source: { kind: authored }
+  - form: "pojęłyście"
+    pl: "Pojęłyście sens tej przypowieści?"
+    ru: "Вы постигли смысл этой притчи?"
+    source: { kind: authored }
+  - form: "pojęłyśmy"
+    pl: "Pojęłyśmy to dopiero wieczorem."
+    ru: "Мы поняли это только вечером."
+    source: { kind: authored }
+  - form: "pojęłyśmy"
+    pl: "Nie pojęłyśmy jego logiki."
+    ru: "Мы не постигли его логику."
+    source: { kind: authored }
+  - form: "pojęłyśmy"
+    pl: "Pojęłyśmy sens po latach."
+    ru: "Мы постигли смысл спустя годы."
+    source: { kind: authored }
+  - form: "pojęta"
+    pl: "Wolność źle pojęta prowadzi do chaosu."
+    ru: "Неверно понятая свобода ведёт к хаосу."
+    source: { kind: authored }
+  - form: "pojęta"
+    pl: "Ta zasada jest pojęta opacznie."
+    ru: "Это правило понято превратно."
+    source: { kind: authored }
+  - form: "pojęta"
+    pl: "Sprawiedliwość pojęta wąsko krzywdzi."
+    ru: "Справедливость, понятая узко, несправедлива."
+    source: { kind: authored }
+  - form: "pojętą"
+    pl: "Krytykował wolność źle pojętą."
+    ru: "Он критиковал неверно понятую свободу."
+    source: { kind: authored }
+  - form: "pojętą"
+    pl: "Odrzucił zasadę opacznie pojętą."
+    ru: "Он отверг превратно понятое правило."
+    source: { kind: authored }
+  - form: "pojętą"
+    pl: "Uznał wolność źle pojętą za zagrożenie."
+    ru: "Он счёл неверно понятую свободу угрозой."
+    source: { kind: authored }
+  - form: "pojęte"
+    pl: "Te zasady są źle pojęte."
+    ru: "Эти правила поняты неверно."
+    source: { kind: authored }
+  - form: "pojęte"
+    pl: "Dobro źle pojęte szkodzi."
+    ru: "Добро, понятое неверно, вредит."
+    source: { kind: authored }
+  - form: "pojęte"
+    pl: "Słowa pojęte dosłownie brzmią groźnie."
+    ru: "Слова, понятые буквально, звучат грозно."
+    source: { kind: authored }
+  - form: "pojętego"
+    pl: "Nie ma tu nic źle pojętego."
+    ru: "Здесь нет ничего неверно понятого."
+    source: { kind: authored }
+  - form: "pojętego"
+    pl: "Broni dobra szeroko pojętego."
+    ru: "Он защищает широко понимаемое благо."
+    source: { kind: authored }
+  - form: "pojętego"
+    pl: "Unikał patriotyzmu źle pojętego."
+    ru: "Он избегал ложно понятого патриотизма."
+    source: { kind: authored }
+  - form: "pojętej"
+    pl: "Mówił o wolności źle pojętej."
+    ru: "Он говорил о неверно понятой свободе."
+    source: { kind: authored }
+  - form: "pojętej"
+    pl: "Bronił sprawiedliwości szeroko pojętej."
+    ru: "Он защищал широко понимаемую справедливость."
+    source: { kind: authored }
+  - form: "pojętej"
+    pl: "Nie ma zasady opacznie pojętej."
+    ru: "Нет правила, понятого превратно."
+    source: { kind: authored }
+  - form: "pojętemu"
+    pl: "Sprzeciwiał się dobru źle pojętemu."
+    ru: "Он противился неверно понятому благу."
+    source: { kind: authored }
+  - form: "pojętemu"
+    pl: "Nie ufał patriotyzmowi opacznie pojętemu."
+    ru: "Он не доверял превратно понятому патриотизму."
+    source: { kind: authored }
+  - form: "pojętemu"
+    pl: "Przyglądał się prawu szeroko pojętemu."
+    ru: "Он рассматривал широко понимаемое право."
+    source: { kind: authored }
+  - form: "pojęto"
+    pl: "Jego słowa pojęto opacznie."
+    ru: "Его слова поняли превратно."
+    source: { kind: authored }
+  - form: "pojęto"
+    pl: "Sens pojęto dopiero po latach."
+    ru: "Смысл поняли только спустя годы."
+    source: { kind: authored }
+  - form: "pojęto"
+    pl: "Zasadę pojęto zbyt wąsko."
+    ru: "Правило поняли слишком узко."
+    source: { kind: authored }
+  - form: "pojęty"
+    pl: "Patriotyzm źle pojęty bywa groźny."
+    ru: "Ложно понятый патриотизм бывает опасен."
+    source: { kind: authored }
+  - form: "pojęty"
+    pl: "Ten sens został pojęty opacznie."
+    ru: "Этот смысл был понят превратно."
+    source: { kind: authored }
+  - form: "pojęty"
+    pl: "Obowiązek szeroko pojęty to więcej niż praca."
+    ru: "Широко понимаемый долг — это больше, чем работа."
+    source: { kind: authored }
+  - form: "pojętych"
+    pl: "Nie lubię zasad źle pojętych."
+    ru: "Я не люблю неверно понятые правила."
+    source: { kind: authored }
+  - form: "pojętych"
+    pl: "Mówił o wartościach opacznie pojętych."
+    ru: "Он говорил о превратно понятых ценностях."
+    source: { kind: authored }
+  - form: "pojętych"
+    pl: "Wśród słów źle pojętych było i moje."
+    ru: "Среди неверно понятых слов было и моё."
+    source: { kind: authored }
+  - form: "pojętym"
+    pl: "W dobru źle pojętym kryje się szkoda."
+    ru: "В неверно понятом благе кроется вред."
+    source: { kind: authored }
+  - form: "pojętym"
+    pl: "Mówimy o prawie szeroko pojętym."
+    ru: "Мы говорим о широко понимаемом праве."
+    source: { kind: authored }
+  - form: "pojętym"
+    pl: "Nie ufa patriotyzmowi opacznie pojętym."
+    ru: "Он не доверяет превратно понятому патриотизму."
+    source: { kind: authored }
+  - form: "pojętymi"
+    pl: "Gardził wartościami źle pojętymi."
+    ru: "Он презирал неверно понятые ценности."
+    source: { kind: authored }
+  - form: "pojętymi"
+    pl: "Zajmuje się zasadami szeroko pojętymi."
+    ru: "Он занимается широко понимаемыми правилами."
+    source: { kind: authored }
+  - form: "pojętymi"
+    pl: "Między słowami źle pojętymi było jedno prawdziwe."
+    ru: "Среди неверно понятых слов было одно верное."
+    source: { kind: authored }
+  - form: "pojmą"
+    pl: "Pojmą to dopiero po latach."
+    ru: "Они поймут это только спустя годы."
+    source: { kind: authored }
+  - form: "pojmą"
+    pl: "Czy pojmą sens tej przypowieści?"
+    ru: "Постигнут ли они смысл этой притчи?"
+    source: { kind: authored }
+  - form: "pojmą"
+    pl: "Nigdy nie pojmą jego logiki."
+    ru: "Они никогда не постигнут его логику."
+    source: { kind: authored }
+  - form: "pojmę"
+    pl: "Nigdy tego nie pojmę."
+    ru: "Я никогда этого не пойму."
+    source: { kind: authored }
+  - form: "pojmę"
+    pl: "Pojmę to z czasem."
+    ru: "Я пойму это со временем."
+    source: { kind: authored }
+  - form: "pojmę"
+    pl: "Pojmę cię za żonę."
+    ru: "Я возьму тебя в жёны."
+    source: { kind: authored }
+  - form: "pojmie"
+    pl: "Kto pojmie sens tych słów?"
+    ru: "Кто постигнет смысл этих слов?"
+    source: { kind: authored }
+  - form: "pojmie"
+    pl: "Nikt tego nie pojmie."
+    ru: "Никто этого не поймёт."
+    source: { kind: authored }
+  - form: "pojmie"
+    pl: "Pojmie to dopiero dorosły."
+    ru: "Это поймёт только взрослый."
+    source: { kind: authored }
+  - form: "pojmiecie"
+    pl: "Pojmiecie to z czasem."
+    ru: "Вы поймёте это со временем."
+    source: { kind: authored }
+  - form: "pojmiecie"
+    pl: "Czy pojmiecie sens tej książki?"
+    ru: "Постигнете ли вы смысл этой книги?"
+    source: { kind: authored }
+  - form: "pojmiecie"
+    pl: "Nigdy nie pojmiecie jego logiki."
+    ru: "Вы никогда не постигнете его логику."
+    source: { kind: authored }
+  - form: "pojmiemy"
+    pl: "Pojmiemy to razem."
+    ru: "Мы поймём это вместе."
+    source: { kind: authored }
+  - form: "pojmiemy"
+    pl: "Nigdy nie pojmiemy jego logiki."
+    ru: "Мы никогда не постигнем его логику."
+    source: { kind: authored }
+  - form: "pojmiemy"
+    pl: "Pojmiemy sens dopiero po latach."
+    ru: "Мы постигнем смысл только спустя годы."
+    source: { kind: authored }
+  - form: "pojmiesz"
+    pl: "Pojmiesz wartość czasu dopiero wtedy, gdy ci go zabraknie."
+    ru: "Ты поймёшь цену времени только тогда, когда его тебе не хватит."
+    source: { kind: translated, id: 1007431 }
+  - form: "pojmiesz"
+    pl: "Pojmiesz to z czasem."
+    ru: "Ты поймёшь это со временем."
+    source: { kind: authored }
+  - form: "pojmiesz"
+    pl: "Nigdy nie pojmiesz jego logiki."
+    ru: "Ты никогда не постигнешь его логику."
+    source: { kind: authored }
+  - form: "pojmij"
+    pl: "Pojmij wreszcie, o co chodzi."
+    ru: "Пойми наконец, в чём дело."
+    source: { kind: authored }
+  - form: "pojmij"
+    pl: "Pojmij sens tych słów."
+    ru: "Постигни смысл этих слов."
+    source: { kind: authored }
+  - form: "pojmij"
+    pl: "Pojmij, że to niemożliwe."
+    ru: "Пойми, что это невозможно."
+    source: { kind: authored }
+  - form: "pojmijcie"
+    pl: "Pojmijcie wreszcie, o co chodzi."
+    ru: "Поймите наконец, в чём дело."
+    source: { kind: authored }
+  - form: "pojmijcie"
+    pl: "Pojmijcie sens tych słów."
+    ru: "Постигните смысл этих слов."
+    source: { kind: authored }
+  - form: "pojmijcie"
+    pl: "Pojmijcie, że to niemożliwe."
+    ru: "Поймите, что это невозможно."
+    source: { kind: authored }
+  - form: "pojmijmy"
+    pl: "Pojmijmy wreszcie, o co chodzi."
+    ru: "Поймём наконец, в чём дело."
+    source: { kind: authored }
+  - form: "pojmijmy"
+    pl: "Pojmijmy sens tych słów."
+    ru: "Постигнем смысл этих слов."
+    source: { kind: authored }
+  - form: "pojmijmy"
+    pl: "Pojmijmy, że to niemożliwe."
+    ru: "Поймём, что это невозможно."
+    source: { kind: authored }

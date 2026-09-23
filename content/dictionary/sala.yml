@@ -1,0 +1,152 @@
+# review
+id: sala
+format: 2
+lemma: "sala"
+rank: 999
+pos: noun
+pron: { cyr: "са́ля" }
+senses:
+  - id: hall
+    ru: "зал, аудитория, палата"
+    examples:
+      - pl: "Sala wybuchła śmiechem."
+        ru: "Зал разразился смехом."
+        source: { kind: translated, id: 3878216 }
+      - pl: "Gdzie jest sala konferencyjna?"
+        ru: "Где конференц-зал?"
+        source: { kind: translated, id: 12832429 }
+      - pl: "Członkowie klubu zebrali się w sali konferencyjnej."
+        ru: "Члены клуба собрались в конференц-зале."
+        source: { kind: translated, id: 369051 }
+  - id: named
+    ru: "sala sądowa, operacyjna, konferencyjna — зал суда, операционная, конференц-зал"
+    examples:
+      - pl: "Sędzia wszedł na salę sądową."
+        ru: "Судья вошёл в зал суда."
+        source: { kind: translated, id: 13789566 }
+      - pl: "Zakaz wstępu na salę operacyjną."
+        ru: "Вход в операционную запрещён."
+        source: { kind: translated, id: 11523770 }
+      - pl: "Tę salę koncertową wybudowano w 2013 roku."
+        ru: "Этот концертный зал построили в 2013 году."
+        source: { kind: translated, id: 13062238 }
+  - id: in-hall
+    ru: "na sali — в зале (о присутствующих)"
+    examples:
+      - pl: "Czy jest na sali lekarz?"
+        ru: "Есть в зале врач?"
+        source: { kind: translated, id: 966888 }
+      - pl: "Usiedliśmy na końcu sali."
+        ru: "Мы сели в конце зала."
+        source: { kind: translated, id: 663877 }
+      - pl: "Proszę nie biegać w sali."
+        ru: "Пожалуйста, не бегайте в зале."
+        source: { kind: translated, id: 793140 }
+notes:
+  - { kind: false-friend, text: "Осторожно с формой salami: это и творительный падеж множественного числа от sala «залами», и несклоняемое salami — колбаса. В корпусе почти все примеры про колбасу: Łosoś to ryba, salami to kiełbasa." }
+  - { kind: usage, text: "С прилагательным слово даёт названия помещений: sala sądowa «зал суда», sala operacyjna «операционная», sala konferencyjna «конференц-зал», sala wykładowa «лекционная»." }
+  - { kind: usage, text: "na sali «в зале» — о присутствующих: Czy jest na sali lekarz? «Есть в зале врач?». А w sali — о самом помещении." }
+  - { kind: usage, text: "Слово того же латинского происхождения, что русский «зал», но в польском оно женского рода и значит ещё «аудитория» и больничную «палату»." }
+collocations:
+  - { pl: "sala sądowa", ru: "зал суда" }
+  - { pl: "sala operacyjna", ru: "операционная" }
+  - { pl: "sala konferencyjna", ru: "конференц-зал" }
+  - { pl: "na sali", ru: "в зале" }
+family:
+  - { pl: "salka", ru: "небольшой зал, комнатка", relation: derived }
+  - { pl: "salon", ru: "гостиная, салон", relation: derived }
+etymology: "Из латинского sala через немецкий Saal — тот же источник, что у русского «зал». Но в польском слово женского рода и покрывает ещё «аудиторию» и больничную «палату»."
+memory: "sala — «зал, аудитория, палата»: sala sądowa, sala operacyjna, sala konferencyjna. И запомните ловушку: salami — это не только «залами», но и колбаса салями."
+idioms:
+  - { pl: "sala sądowa", ru: "зал суда" }
+  - { pl: "na sali", ru: "в зале" }
+  - { pl: "śmiech na sali", ru: "смех в зале" }
+formExamplesSkip:
+  - { form: "salach", reason: "предложный падеж множественного числа в живой речи почти не встречается" }
+  - { form: "salo", reason: "звательный падеж: к залу не обращаются, форма не употребляется" }
+  - { form: "salom", reason: "дательный падеж множественного числа встречается крайне редко" }
+formExamples:
+  - form: "sal"
+    pl: "W szkole nie ma wolnych sal."
+    ru: "В школе нет свободных залов."
+    source: { kind: authored }
+  - form: "sal"
+    pl: "Większość sal jest zajęta."
+    ru: "Большинство залов занято."
+    source: { kind: authored }
+  - form: "sal"
+    pl: "Brakuje nam sal wykładowych."
+    ru: "Нам не хватает лекционных залов."
+    source: { kind: authored }
+  - form: "sala"
+    pl: "Sala wybuchła śmiechem."
+    ru: "Зал разразился смехом."
+    source: { kind: translated, id: 3878216 }
+  - form: "sala"
+    pl: "Sala do zebrań jest zajęta."
+    ru: "Зал для собраний занят."
+    source: { kind: translated, id: 675494 }
+  - form: "sala"
+    pl: "Gdzie jest sala konferencyjna?"
+    ru: "Где конференц-зал?"
+    source: { kind: translated, id: 12832429 }
+  - form: "salami"
+    pl: "Między salami jest korytarz."
+    ru: "Между залами коридор."
+    source: { kind: authored }
+  - form: "salami"
+    pl: "Zarządza salami konferencyjnymi."
+    ru: "Он управляет конференц-залами."
+    source: { kind: authored }
+  - form: "salami"
+    pl: "Chodził między salami szpitala."
+    ru: "Он ходил между больничными палатами."
+    source: { kind: authored }
+  - form: "salą"
+    pl: "Proszę czekać pod salą 213."
+    ru: "Пожалуйста, подождите у аудитории 213."
+    source: { kind: translated, id: 365147 }
+  - form: "salą"
+    pl: "Za salą jest korytarz."
+    ru: "За залом коридор."
+    source: { kind: authored }
+  - form: "salą"
+    pl: "Przed salą czekali studenci."
+    ru: "Перед аудиторией ждали студенты."
+    source: { kind: authored }
+  - form: "sale"
+    pl: "Wszystkie sale są zajęte."
+    ru: "Все залы заняты."
+    source: { kind: authored }
+  - form: "sale"
+    pl: "Sale wykładowe są na piętrze."
+    ru: "Лекционные залы этажом выше."
+    source: { kind: authored }
+  - form: "sale"
+    pl: "Otworzyli nowe sale koncertowe."
+    ru: "Открыли новые концертные залы."
+    source: { kind: authored }
+  - form: "salę"
+    pl: "Sędzia wszedł na salę sądową."
+    ru: "Судья вошёл в зал суда."
+    source: { kind: translated, id: 13789566 }
+  - form: "salę"
+    pl: "Zakaz wstępu na salę operacyjną."
+    ru: "Вход в операционную запрещён."
+    source: { kind: translated, id: 11523770 }
+  - form: "salę"
+    pl: "Tę salę koncertową wybudowano w 2013 roku."
+    ru: "Этот концертный зал построили в 2013 году."
+    source: { kind: translated, id: 13062238 }
+  - form: "sali"
+    pl: "Członkowie klubu zebrali się w sali konferencyjnej."
+    ru: "Члены клуба собрались в конференц-зале."
+    source: { kind: translated, id: 369051 }
+  - form: "sali"
+    pl: "Czy jest na sali lekarz?"
+    ru: "Есть в зале врач?"
+    source: { kind: translated, id: 966888 }
+  - form: "sali"
+    pl: "Usiedliśmy na końcu sali."
+    ru: "Мы сели в конце зала."
+    source: { kind: translated, id: 663877 }
