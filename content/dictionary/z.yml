@@ -28,9 +28,23 @@ senses:
       - pl: "Jesteś ze mną?"
         ru: "Ты со мной?"
         source: { kind: tatoeba, id: 5489611 }
+  - id: material-cause
+    ru: "от (причина), из (материал) — с родительным падежом"
+    examples:
+      - pl: "Zbladłeś ze strachu."
+        ru: "Ты побледнел от страха."
+        source: { kind: tatoeba, id: 3460166 }
+      - pl: "Chciałbym umrzeć ze śmiechu."
+        ru: "Я умираю со смеху."
+        source: { kind: translated, id: 792317 }
+      - pl: "Stół jest z drewna."
+        ru: "Стол из дерева."
+        source: { kind: authored }
 notes:
   - { kind: government, text: "Два падежа, два значения: z Rosji «из России» (родительный), z tobą «с тобой» (творительный)." }
   - { kind: usage, text: "Перед скоплением согласных и перед mną пишется ze: ze szkoły, ze mną — как русское «со»." }
+  - { kind: false-friend, text: "Творительный падеж без предлога значит орудие, с предлогом z — совместность. Pisze długopisem «пишет ручкой», но Idzie z bratem «идёт с братом». По-русски в обоих случаях один творительный, и это самая частая ошибка." }
+  - { kind: usage, text: "Третье значение — причина и материал, оба с родительным: ze strachu «от страха», ze złości «со злости», z drewna «из дерева», z wełny «из шерсти»." }
 collocations:
   - { pl: "z powrotem", ru: "обратно" }
   - { pl: "ze sobą", ru: "с собой" }
@@ -66,3 +80,11 @@ formExamples:
     pl: "Zbladłeś ze strachu."
     ru: "Ты побледнел от страха."
     source: { kind: tatoeba, id: 3460166 }
+  - form: "z"
+    pl: "Mieszkam z rodzicami."
+    ru: "Я живу с родителями."
+    source: { kind: tatoeba, id: 527257 }
+  - form: "ze"
+    pl: "Chcesz zatańczyć ze mną?"
+    ru: "Хочешь потанцевать со мной?"
+    source: { kind: tatoeba, id: 382592 }

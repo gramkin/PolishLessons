@@ -28,9 +28,23 @@ senses:
       - pl: "On jest inteligentniejszy ode mnie."
         ru: "Он умнее меня."
         source: { kind: tatoeba, id: 529618 }
+  - id: depends
+    ru: "от (зависимость, специальность)"
+    examples:
+      - pl: "To zależy od kontekstu."
+        ru: "Это зависит от контекста."
+        source: { kind: tatoeba, id: 364814 }
+      - pl: "Jest specjalistą od astronomii."
+        ru: "Он специалист по астрономии."
+        source: { kind: tatoeba, id: 3460820 }
+      - pl: "Mieszkam tu od 1990 roku."
+        ru: "Я живу здесь с 1990-го года."
+        source: { kind: tatoeba, id: 951296 }
 notes:
   - { kind: government, text: "od требует родительного падежа, как русское «от»." }
   - { kind: usage, text: "При сравнении od заменяет русское «чем»: starszy ode mnie «старше меня», lepszy od ciebie «лучше тебя»." }
+  - { kind: usage, text: "Начало отсчёта во времени — od, там где по-русски «с»: od 1990 roku «с 1990 года», od dawna «давно», od rana «с утра»." }
+  - { kind: usage, text: "specjalista od czegoś «специалист по чему-то» и zależeć od czegoś «зависеть от чего-то» — оба с od, хотя по-русски предлоги разные." }
 collocations:
   - { pl: "od razu", ru: "сразу" }
   - { pl: "od kiedy", ru: "с каких пор" }
@@ -66,3 +80,11 @@ formExamples:
     pl: "On jest inteligentniejszy ode mnie."
     ru: "Он умнее меня."
     source: { kind: tatoeba, id: 529618 }
+  - form: "od"
+    pl: "To zależy od kontekstu."
+    ru: "Это зависит от контекста."
+    source: { kind: tatoeba, id: 364814 }
+  - form: "od"
+    pl: "Od razu się zaprzyjaźniliśmy."
+    ru: "Мы сразу подружились."
+    source: { kind: tatoeba, id: 722090 }

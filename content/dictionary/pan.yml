@@ -28,9 +28,23 @@ senses:
       - pl: "Ten pan czeka na ciebie."
         ru: "Этот господин ждёт тебя."
         source: { kind: authored }
+  - id: title
+    ru: "пан, господин (перед именем, фамилией или должностью)"
+    examples:
+      - pl: "Pan Kowalski już przyszedł."
+        ru: "Пан Ковальский уже пришёл."
+        source: { kind: authored }
+      - pl: "Proszę pana doktora."
+        ru: "Пожалуйста, доктор."
+        source: { kind: authored }
+      - pl: "To pan Nowak, nasz sąsiad."
+        ru: "Это пан Новак, наш сосед."
+        source: { kind: authored }
 notes:
   - { kind: usage, text: "После pan глагол стоит в третьем лице: Czy pan wie? «Вы знаете?». Множественное: panowie «господа», panie «дамы», państwo «дамы и господа»." }
   - { kind: usage, text: "В обращении обязателен звательный падеж: panie doktorze «доктор», panie Kowalski «пан Ковальский»." }
+  - { kind: false-friend, text: "Вежливое «вы» к одному мужчине — это pan с глаголом в третьем лице, а не wy: Czy pan mówi po polsku? Обращение на wy к одному человеку по-польски звучит грубо или по-деревенски." }
+  - { kind: usage, text: "Перед фамилией и должностью pan обязателен там, где русский обходится без него: pan Kowalski «Ковальский», pan doktor «доктор». Опустить его — невежливо." }
 collocations:
   - { pl: "proszę pana", ru: "извините (к мужчине)" }
   - { pl: "pan młody", ru: "жених" }

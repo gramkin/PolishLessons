@@ -29,9 +29,23 @@ senses:
       - pl: "Tom znał rosyjski lepiej niż angielski."
         ru: "Том русский знал лучше, чем английский."
         source: { kind: tatoeba, id: 10768443 }
+  - id: be-expert
+    ru: "znać się na czymś — разбираться в чём-либо"
+    examples:
+      - pl: "Nie znam się na tym."
+        ru: "Я в этом не разбираюсь."
+        source: { kind: authored }
+      - pl: "On zna się na komputerach."
+        ru: "Он разбирается в компьютерах."
+        source: { kind: authored }
+      - pl: "Znamy się od lat."
+        ru: "Мы знакомы много лет."
+        source: { kind: authored }
 notes:
   - { kind: false-friend, text: "znać — быть знакомым с кем-то или чем-то, wiedzieć — знать факт: Znam Tomka, ale nie wiem, gdzie mieszka." }
   - { kind: usage, text: "Оборот dać znać значит «дать знать, сообщить»." }
+  - { kind: usage, text: "Возвратное znać się меняет смысл дважды: znamy się «мы знакомы друг с другом», но znać się na czymś «разбираться в чём-то». Это один из самых заметных сдвигов, которые даёт się." }
+  - { kind: government, text: "znać требует прямого дополнения в винительном: znam ten film. При отрицании — родительный: nie znam tego filmu." }
 collocations:
   - { pl: "dać znać", ru: "дать знать" }
   - { pl: "znać na pamięć", ru: "знать наизусть" }

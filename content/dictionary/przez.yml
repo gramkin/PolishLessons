@@ -28,9 +28,23 @@ senses:
       - pl: "Spóźnili się przez korki."
         ru: "Они опоздали из-за пробок."
         source: { kind: authored }
+  - id: across
+    ru: "через (о пересечении пространства)"
+    examples:
+      - pl: "Wisła przepływa przez Warszawę."
+        ru: "Висла протекает через Варшаву."
+        source: { kind: tatoeba, id: 2735337 }
+      - pl: "Staruszka przechodzi przez ulicę."
+        ru: "Старушка переходит дорогу."
+        source: { kind: tatoeba, id: 2962770 }
+      - pl: "Wąż pełznie przez pustynię."
+        ru: "Змея ползёт через пустыню."
+        source: { kind: tatoeba, id: 12692269 }
 notes:
   - { kind: government, text: "przez требует винительного падежа." }
   - { kind: usage, text: "В страдательном обороте przez вводит деятеля: zrobione przez dzieci «сделано детьми»." }
+  - { kind: usage, text: "Причина тоже через przez: spóźnił się przez korki «опоздал из-за пробок», przeze mnie «из-за меня». Перед mnie предлог удлиняется до przeze." }
+  - { kind: false-friend, text: "Русский творительный деятеля («написано Томом») по-польски невозможен: нужен przez с винительным — napisany przez Tomka." }
 collocations:
   - { pl: "przez telefon", ru: "по телефону" }
   - { pl: "przez przypadek", ru: "случайно" }
@@ -40,6 +54,7 @@ memory: "przez = «через», но ещё и «по» (przez telefon «по �
 idioms:
   - { pl: "przez przypadek", ru: "случайно" }
   - { pl: "sam przez się", ru: "сам по себе" }
+  - { pl: "przez cały czas", ru: "всё время" }
 formExamples:
   - form: "przez"
     pl: "Przeszedł przez ulicę."
@@ -65,3 +80,11 @@ formExamples:
     pl: "Stół jest robiony przeze mnie."
     ru: "Этот стол сделан мной."
     source: { kind: translated, id: 1777137 }
+  - form: "przez"
+    pl: "Wisła przepływa przez Warszawę."
+    ru: "Висла протекает через Варшаву."
+    source: { kind: tatoeba, id: 2735337 }
+  - form: "przez"
+    pl: "Staruszka przechodzi przez ulicę."
+    ru: "Старушка переходит дорогу."
+    source: { kind: tatoeba, id: 2962770 }

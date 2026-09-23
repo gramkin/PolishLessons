@@ -28,9 +28,23 @@ senses:
       - pl: "To nie jest mój dom."
         ru: "Это не мой дом."
         source: { kind: authored }
+  - id: tag-question
+    ru: "в переспросе и в составе отрицательных ответов"
+    examples:
+      - pl: "Nie, siadaj."
+        ru: "Нет, садись."
+        source: { kind: tatoeba, id: 393097 }
+      - pl: "Nie przegram!"
+        ru: "Не проиграю!"
+        source: { kind: tatoeba, id: 1166433 }
+      - pl: "Nie wracam."
+        ru: "Я не вернусь."
+        source: { kind: tatoeba, id: 349175 }
 notes:
   - { kind: usage, text: "С глаголами пишется раздельно (nie wiem), с прилагательными и наречиями слитно (niedobry, niedobrze) — как в русском." }
   - { kind: usage, text: "Двойное отрицание обязательно: Nikt nic nie wie «Никто ничего не знает»." }
+  - { kind: government, text: "Отрицание переводит прямое дополнение из винительного в родительный: Mam czas → Nie mam czasu, Znam go → Nie znam go. В русском такого сдвига нет, и его пропускают чаще всего." }
+  - { kind: usage, text: "Переспрос строится частицей prawda? или самим nie в конце: Idziesz, nie? «Ты идёшь, нет?». Ответ на отрицательный вопрос по-польски прямой: Nie lubisz? — Nie «Не любишь? — Нет (не люблю)»." }
 collocations:
   - { pl: "nie ma", ru: "нет, не имеется" }
   - { pl: "już nie", ru: "больше не" }
@@ -54,3 +68,19 @@ formExamples:
     pl: "Nie płacz."
     ru: "Не плачь."
     source: { kind: tatoeba, id: 959747 }
+  - form: "nie"
+    pl: "Nie wracam."
+    ru: "Я не вернусь."
+    source: { kind: tatoeba, id: 349175 }
+  - form: "nie"
+    pl: "Nie pracuję."
+    ru: "Я не работаю."
+    source: { kind: tatoeba, id: 531782 }
+  - form: "nie"
+    pl: "Nie, siadaj."
+    ru: "Нет, садись."
+    source: { kind: tatoeba, id: 393097 }
+  - form: "nie"
+    pl: "Nie przegram!"
+    ru: "Не проиграю!"
+    source: { kind: tatoeba, id: 1166433 }

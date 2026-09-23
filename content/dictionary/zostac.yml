@@ -29,9 +29,23 @@ senses:
       - pl: "Ile zostało kanapek?"
         ru: "Сколько осталось бутербродов?"
         source: { kind: tatoeba, id: 349153 }
+  - id: passive
+    ru: "вспомогательный глагол страдательного залога"
+    examples:
+      - pl: "Dom został sprzedany."
+        ru: "Дом был продан."
+        source: { kind: authored }
+      - pl: "List został wysłany wczoraj."
+        ru: "Письмо было отправлено вчера."
+        source: { kind: authored }
+      - pl: "Zostanie to zrobione jutro."
+        ru: "Это будет сделано завтра."
+        source: { kind: authored }
 notes:
   - { kind: usage, text: "Значение «стать кем-то» требует творительного падежа: zostać lekarzem «стать врачом»." }
   - { kind: usage, text: "zostać + причастие образует страдательный залог: dom został sprzedany «дом был продан»." }
+  - { kind: false-friend, text: "Различайте zostać и stać się: zostać lekarzem «стать врачом» — о профессии и роли, с творительным; stać się значит «случиться» или «сделаться» и с профессиями не употребляется." }
+  - { kind: usage, text: "Страдательный залог с zostać описывает однократное действие (dom został sprzedany), а с być — состояние: dom jest sprzedany «дом продан»." }
 collocations:
   - { pl: "zostać w domu", ru: "остаться дома" }
   - { pl: "zostać lekarzem", ru: "стать врачом" }

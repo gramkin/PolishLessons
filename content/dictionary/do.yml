@@ -28,9 +28,23 @@ senses:
       - pl: "Do rychłego!"
         ru: "До скорого!"
         source: { kind: tatoeba, id: 827777 }
+  - id: to-person
+    ru: "к (к человеку), в (в заведение) — всегда с родительным"
+    examples:
+      - pl: "Idę do lekarza."
+        ru: "Я иду к врачу."
+        source: { kind: tatoeba, id: 453427 }
+      - pl: "Idę do sklepu."
+        ru: "Я иду в магазин."
+        source: { kind: tatoeba, id: 656188 }
+      - pl: "Idę do parku."
+        ru: "Я иду в парк."
+        source: { kind: tatoeba, id: 365163 }
 notes:
   - { kind: government, text: "do требует родительного падежа: do domu, do Polski, do ciebie." }
   - { kind: usage, text: "Русское «в» при направлении передаётся именно через do: jadę do Warszawy «еду в Варшаву». Предлог w отвечает только на вопрос «где»." }
+  - { kind: false-friend, text: "К человеку — тоже do, а не «к»: idę do lekarza «иду к врачу», dzwonię do matki «звоню матери». Русское «к» с дательным здесь не работает вовсе." }
+  - { kind: usage, text: "Пара na и do для мест: на открытые пространства и мероприятия идут na (na pocztę, na koncert), в здания и к людям — do (do sklepu, do lekarza)." }
 collocations:
   - { pl: "do widzenia", ru: "до свидания" }
   - { pl: "do jutra", ru: "до завтра" }
@@ -54,3 +68,19 @@ formExamples:
     pl: "Idę do domu."
     ru: "Я иду домой."
     source: { kind: tatoeba, id: 623143 }
+  - form: "do"
+    pl: "Idę do lekarza."
+    ru: "Я иду к врачу."
+    source: { kind: tatoeba, id: 453427 }
+  - form: "do"
+    pl: "Idę do sklepu."
+    ru: "Я иду в магазин."
+    source: { kind: tatoeba, id: 656188 }
+  - form: "do"
+    pl: "Idę do parku."
+    ru: "Я иду в парк."
+    source: { kind: tatoeba, id: 365163 }
+  - form: "do"
+    pl: "Nie do wiary!"
+    ru: "Невероятно!"
+    source: { kind: tatoeba, id: 980938 }

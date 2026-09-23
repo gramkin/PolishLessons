@@ -29,10 +29,23 @@ senses:
       - pl: "Będę strzelać."
         ru: "Я буду стрелять."
         source: { kind: tatoeba, id: 5662070 }
+  - id: exist
+    ru: "быть, иметься, находиться (о наличии)"
+    examples:
+      - pl: "Jest tu ktoś?"
+        ru: "Здесь кто-нибудь есть?"
+        source: { kind: authored }
+      - pl: "Nie było go w domu."
+        ru: "Его не было дома."
+        source: { kind: authored }
+      - pl: "Wczoraj nie było deszczu."
+        ru: "Вчера дождя не было."
+        source: { kind: authored }
 notes:
   - { kind: usage, text: "Настоящее время нерегулярно: jestem, jesteś, jest, jesteśmy, jesteście, są." }
   - { kind: usage, text: "В отличие от русского, связку опускать нельзя: Jestem studentem «Я студент», On jest wysoki «Он высокий»." }
   - { kind: usage, text: "Простое будущее: będę + инфинитив или форма на -ł: będę czytać = będę czytał." }
+  - { kind: government, text: "Отрицание наличия — не nie jest, а nie ma с родительным падежом, и глагол при этом не меняется по лицам: Nie ma go «Его нет», Nie było czasu «Не было времени», Nie będzie problemu «Проблемы не будет»." }
 collocations:
   - { pl: "być może", ru: "может быть" }
   - { pl: "co będzie, to będzie", ru: "будь что будет" }

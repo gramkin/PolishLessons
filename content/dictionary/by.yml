@@ -28,8 +28,23 @@ senses:
       - pl: "Kto by pomyślał?"
         ru: "Кто бы подумал?"
         source: { kind: authored }
+  - id: purpose-clause
+    ru: "чтобы (цель при другом подлежащем и в безличных оборотах)"
+    examples:
+      - pl: "Ryzykował życiem, by ją uratować."
+        ru: "Он рисковал жизнью, чтобы спасти её."
+        source: { kind: tatoeba, id: 364812 }
+      - pl: "Czytam, by się czegoś dowiedzieć."
+        ru: "Я читаю, чтобы что-нибудь узнать."
+        source: { kind: tatoeba, id: 951307 }
+      - pl: "Ważne jest, by jeździć ostrożnie."
+        ru: "Важно водить аккуратно."
+        source: { kind: translated, id: 368080 }
 notes:
   - { kind: usage, text: "В сослагательном наклонении by обычно срастается с глаголом: zrobiłbym «я бы сделал». Отдельно стоит в союзах by, żeby, aby." }
+  - { kind: usage, text: "Личные окончания приклеиваются к by, а не к глаголу: zrobiłbym «я бы сделал», zrobiłbyś «ты бы сделал», zrobilibyśmy «мы бы сделали». Русское «бы» неизменяемо, и это главное расхождение." }
+  - { kind: usage, text: "Частица подвижна: она может отойти к первому ударному слову — Ja bym tego nie zrobił наряду с Ja nie zrobiłbym tego. Дважды её ставить нельзя." }
+  - { kind: false-friend, text: "by как союз цели равнозначно żeby и aby: Chcę, by wrócił = Chcę, żeby wrócił. После него глагол стоит в форме прошедшего времени, а не в инфинитиве, если подлежащие разные." }
 collocations:
   - { pl: "żeby", ru: "чтобы" }
   - { pl: "aby", ru: "чтобы" }
@@ -38,6 +53,7 @@ memory: "by = «бы» и по происхождению, и по работе.
 idioms:
   - { pl: "kto by pomyślał", ru: "кто бы мог подумать" }
   - { pl: "by nie powiedzieć", ru: "чтобы не сказать" }
+  - { pl: "jak by nie było", ru: "как бы то ни было" }
 formExamples:
   - form: "by"
     pl: "Co by zrobił Jezus?"
@@ -51,3 +67,19 @@ formExamples:
     pl: "Tomowi by się spodobało."
     ru: "Тому бы понравилось."
     source: { kind: tatoeba, id: 12564131 }
+  - form: "by"
+    pl: "Ryzykował życiem, by ją uratować."
+    ru: "Он рисковал жизнью, чтобы спасти её."
+    source: { kind: tatoeba, id: 364812 }
+  - form: "by"
+    pl: "Czytam, by się czegoś dowiedzieć."
+    ru: "Я читаю, чтобы что-нибудь узнать."
+    source: { kind: tatoeba, id: 951307 }
+  - form: "by"
+    pl: "Zrobi wszystko, by zarobić pieniądze."
+    ru: "Он сделает всё, чтобы заработать деньги."
+    source: { kind: translated, id: 2176456 }
+  - form: "by"
+    pl: "Ważne jest, by jeździć ostrożnie."
+    ru: "Важно водить аккуратно."
+    source: { kind: translated, id: 368080 }

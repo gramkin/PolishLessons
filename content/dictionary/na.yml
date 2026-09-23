@@ -28,9 +28,23 @@ senses:
       - pl: "Polowali na lisy."
         ru: "Они охотились на лис."
         source: { kind: tatoeba, id: 535877 }
+  - id: purpose
+    ru: "на (для чего, на какой срок); при вызове и ответе"
+    examples:
+      - pl: "Odpowiedz na pytanie."
+        ru: "Ответь на вопрос."
+        source: { kind: tatoeba, id: 349045 }
+      - pl: "Zadzwoń na policję!"
+        ru: "Вызывай полицию!"
+        source: { kind: tatoeba, id: 569981 }
+      - pl: "Wystarczy na dzisiaj."
+        ru: "На сегодня хватит."
+        source: { kind: tatoeba, id: 565545 }
 notes:
   - { kind: government, text: "Винительный падеж при направлении (na stół), предложный при месте (na stole) — ровно как в русском." }
   - { kind: usage, text: "na + винительный также означает срок или назначение: na dziś «на сегодня», na jutro «на завтра»." }
+  - { kind: false-friend, text: "Выбор между na и w для мест не совпадает с русским. Говорят na poczcie «на почте», na uniwersytecie «в университете», na wsi «в деревне», но w domu «дома», w szkole «в школе». Список приходится запоминать." }
+  - { kind: usage, text: "Ряд глаголов требует именно na: odpowiedzieć na pytanie «ответить на вопрос», czekać na kogoś «ждать кого-то», patrzeć na coś «смотреть на что-то», zadzwonić na policję «вызвать полицию»." }
 collocations:
   - { pl: "na pewno", ru: "наверняка" }
   - { pl: "na razie", ru: "пока" }
@@ -54,3 +68,19 @@ formExamples:
     pl: "Na pomoc!"
     ru: "На помощь!"
     source: { kind: tatoeba, id: 12572539 }
+  - form: "na"
+    pl: "Odpowiedz na pytanie."
+    ru: "Ответь на вопрос."
+    source: { kind: tatoeba, id: 349045 }
+  - form: "na"
+    pl: "Zadzwoń na policję!"
+    ru: "Вызывай полицию!"
+    source: { kind: tatoeba, id: 569981 }
+  - form: "na"
+    pl: "Wystarczy na dzisiaj."
+    ru: "На сегодня хватит."
+    source: { kind: tatoeba, id: 565545 }
+  - form: "na"
+    pl: "Wygląda na smutną."
+    ru: "Она выглядит грустной."
+    source: { kind: tatoeba, id: 610625 }

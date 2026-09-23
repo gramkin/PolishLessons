@@ -29,9 +29,23 @@ senses:
       - pl: "Może i masz rację."
         ru: "Возможно, ты и права."
         source: { kind: tatoeba, id: 1118408 }
+  - id: permission
+    ru: "можно ли, разрешено (просьба о разрешении)"
+    examples:
+      - pl: "Czy mogę wejść?"
+        ru: "Можно войти?"
+        source: { kind: authored }
+      - pl: "Możesz już iść."
+        ru: "Ты можешь уже идти."
+        source: { kind: authored }
+      - pl: "Tu nie mogę palić."
+        ru: "Здесь я не могу курить."
+        source: { kind: authored }
 notes:
   - { kind: usage, text: "Форма третьего лица może работает и как вводное слово «может быть»: Może później «Может быть, позже»." }
   - { kind: usage, text: "В прошедшем времени чередование ó/o: mógł, но mogła, mogli — как в русском «мог — могла»." }
+  - { kind: false-friend, text: "Три польских глагола делят одно русское «мочь, уметь»: móc — иметь возможность или разрешение (Czy mogę wejść?), umieć — владеть навыком (Umiem pływać «Умею плавать»), potrafić — справляться с задачей. Выбрать móc там, где нужен umieć, — самая частая ошибка." }
+  - { kind: usage, text: "Безличное można значит «можно», nie można — «нельзя»: Tu można palić, Tu nie można palić. Это отдельное слово, а не форма móc." }
 collocations:
   - { pl: "może być", ru: "сойдёт, пойдёт" }
   - { pl: "nie może być", ru: "не может быть" }

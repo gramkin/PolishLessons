@@ -28,8 +28,23 @@ senses:
       - pl: "Pytam o drogę."
         ru: "Я спрашиваю дорогу."
         source: { kind: authored }
+  - id: time
+    ru: "в (о часах) — с предложным падежом"
+    examples:
+      - pl: "O której wstajesz?"
+        ru: "Во сколько ты встаёшь?"
+        source: { kind: tatoeba, id: 545054 }
+      - pl: "Samolot odlatuje o 17:30."
+        ru: "Вылет самолёта в 17:30."
+        source: { kind: tatoeba, id: 998726 }
+      - pl: "Spotkajmy się o piątej."
+        ru: "Встретимся в пять."
+        source: { kind: authored }
 notes:
   - { kind: government, text: "Два падежа: o czym myślisz (предложный) «о чём думаешь», но prosić o pomoc (винительный) «просить о помощи»." }
+  - { kind: usage, text: "Время всегда через o + предложный: o piątej «в пять», o północy «в полночь», o której? «во сколько?». Русское «в» с винительным здесь не работает." }
+  - { kind: false-friend, text: "Просьба идёт с винительным, а не с предложным: proszę o sól «передайте соль», poproszę o rachunek «счёт, пожалуйста». По-русски «просить о» требует предложного, и это сбивает." }
+  - { kind: usage, text: "Безличное chodzi o coś значит «речь идёт о чём-то», а o co chodzi? — «в чём дело?»." }
 collocations:
   - { pl: "chodzi o", ru: "речь идёт о" }
   - { pl: "prosić o", ru: "просить о" }
@@ -53,3 +68,19 @@ formExamples:
     pl: "Proszę o uwagę."
     ru: "Прошу внимания."
     source: { kind: tatoeba, id: 908249 }
+  - form: "o"
+    pl: "O czym mówisz?"
+    ru: "О чём ты?"
+    source: { kind: tatoeba, id: 1599043 }
+  - form: "o"
+    pl: "Poproszę o sól."
+    ru: "Пожалуйста, соль."
+    source: { kind: tatoeba, id: 1604367 }
+  - form: "o"
+    pl: "O której wstajesz?"
+    ru: "Во сколько ты встаёшь?"
+    source: { kind: tatoeba, id: 545054 }
+  - form: "o"
+    pl: "Samolot odlatuje o 17:30."
+    ru: "Вылет самолёта в 17:30."
+    source: { kind: tatoeba, id: 998726 }

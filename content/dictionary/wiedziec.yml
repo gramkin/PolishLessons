@@ -29,9 +29,23 @@ senses:
       - pl: "Co wiesz?"
         ru: "Что ты знаешь?"
         source: { kind: tatoeba, id: 9679260 }
+  - id: know-about
+    ru: "знать о чём-либо (wiedzieć o czymś)"
+    examples:
+      - pl: "Wiem o tym."
+        ru: "Я об этом знаю."
+        source: { kind: authored }
+      - pl: "Nikt o tym nie wie."
+        ru: "Никто об этом не знает."
+        source: { kind: authored }
+      - pl: "Nie wiedziałem o niczym."
+        ru: "Я ни о чём не знал."
+        source: { kind: authored }
 notes:
   - { kind: false-friend, text: "wiedzieć — знать факт, znać — быть знакомым с человеком или вещью: Znam Tomka, ale nie wiem, gdzie jest." }
   - { kind: usage, text: "Спряжение нерегулярное: wiem, wiesz, wie, wiemy, wiecie, wiedzą — прошедшее при этом обычное: wiedziałem." }
+  - { kind: government, text: "О чём-то знают с предлогом o и предложным падежом: wiem o tym «я об этом знаю». Прямое дополнение у wiedzieć невозможно — нельзя сказать wiem to, нужно wiem o tym или wiem, że..." }
+  - { kind: usage, text: "Оборот kto wie «кто знает» и nie wiadomo «неизвестно» работают безлично; nie wiadomo не изменяется вовсе." }
 collocations:
   - { pl: "nie wiem", ru: "я не знаю" }
   - { pl: "o ile wiem", ru: "насколько я знаю" }
