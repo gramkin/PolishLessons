@@ -1,0 +1,132 @@
+# review
+id: akcja
+format: 2
+lemma: "akcja"
+rank: 964
+pos: noun
+pron: { cyr: "а́кцья" }
+senses:
+  - id: action
+    ru: "акция, операция, действие"
+    examples:
+      - pl: "To była przemyślana akcja."
+        ru: "Это была продуманная операция."
+        source: { kind: translated, id: 7875254 }
+      - pl: "Ruszam do akcji."
+        ru: "Я перехожу к действию."
+        source: { kind: translated, id: 12955905 }
+      - pl: "Jest człowiekiem akcji."
+        ru: "Он человек дела."
+        source: { kind: translated, id: 6154827 }
+  - id: plot
+    ru: "действие, сюжет (фильма, пьесы)"
+    note: "Значения, которого у русской «акции» нет."
+    examples:
+      - pl: "Akcja tej sztuki dzieje się we Francji."
+        ru: "Действие этой пьесы происходит во Франции."
+        source: { kind: translated, id: 746122 }
+      - pl: "Akcja sztuki rozgrywa się w górskiej wiosce."
+        ru: "Действие пьесы разворачивается в горной деревне."
+        source: { kind: translated, id: 516457 }
+      - pl: "Akcja filmu toczy się w Warszawie."
+        ru: "Действие фильма происходит в Варшаве."
+        source: { kind: authored }
+  - id: shares
+    ru: "акции (ценные бумаги)"
+    examples:
+      - pl: "Akcje nagle spadły."
+        ru: "Акции внезапно упали."
+        source: { kind: translated, id: 756537 }
+      - pl: "Ceny akcji spadły."
+        ru: "Цены акций упали."
+        source: { kind: translated, id: 10599839 }
+      - pl: "Tom zainwestował swoje pieniądze w akcje."
+        ru: "Том вложил свои деньги в акции."
+        source: { kind: translated, id: 10705812 }
+notes:
+  - { kind: false-friend, text: "Кроме привычной «акции» — и мероприятия, и ценной бумаги — слово значит «действие, сюжет» произведения: Akcja filmu toczy się w Warszawie «Действие фильма происходит в Варшаве». Этого значения у русского слова нет." }
+  - { kind: usage, text: "film akcji — «боевик», буквально «фильм действия», с родительным падежом." }
+  - { kind: usage, text: "ruszyć do akcji, wkroczyć do akcji — «перейти к действию, вступить в дело». А w akcji значит «в деле»: widzieć kogoś w akcji." }
+  - { kind: usage, text: "В значении ценных бумаг слово живёт во множественном числе: kupić akcje «купить акции», ceny akcji «цены акций»." }
+collocations:
+  - { pl: "akcja ratunkowa", ru: "спасательная операция" }
+  - { pl: "film akcji", ru: "боевик" }
+  - { pl: "akcja charytatywna", ru: "благотворительная акция" }
+  - { pl: "ceny akcji", ru: "цены акций" }
+family:
+  - { pl: "akcjonariusz", ru: "акционер", relation: derived }
+  - { pl: "akcyjny", ru: "акционерный", relation: derived }
+etymology: "Из латинского actio «действие» — через немецкий, как и русская «акция». Русское слово взяло значения «мероприятие» и «ценная бумага», польское добавило к ним ещё и «сюжет»."
+memory: "akcja — «акция» и в смысле мероприятия, и в смысле ценной бумаги, но есть третье значение: «действие, сюжет». Akcja filmu toczy się w Warszawie «Действие фильма происходит в Варшаве». Отсюда же film akcji — «боевик»."
+idioms:
+  - { pl: "człowiek akcji", ru: "человек дела" }
+  - { pl: "ruszyć do akcji", ru: "перейти к действию" }
+  - { pl: "w akcji", ru: "в деле, в действии" }
+formExamplesSkip:
+  - { form: "akcjami", reason: "косвенные падежи множественного числа встречаются в основном в финансовых текстах" }
+  - { form: "akcjach", reason: "косвенные падежи множественного числа встречаются в основном в финансовых текстах" }
+  - { form: "akcją", reason: "творительный падеж единственного числа в живой речи почти не встречается" }
+  - { form: "akcjom", reason: "дательный падеж множественного числа встречается крайне редко" }
+  - { form: "akcjo", reason: "звательный падеж: к акции не обращаются, форма не употребляется" }
+  - { form: "akcyj", reason: "устаревший родительный падеж множественного числа: современная форма — akcji" }
+formExamples:
+  - form: "akcja"
+    pl: "To była przemyślana akcja."
+    ru: "Это была продуманная операция."
+    source: { kind: translated, id: 7875254 }
+  - form: "akcja"
+    pl: "Akcja tej sztuki dzieje się we Francji."
+    ru: "Действие этой пьесы происходит во Франции."
+    source: { kind: translated, id: 746122 }
+  - form: "akcja"
+    pl: "Akcja sztuki rozgrywa się w górskiej wiosce."
+    ru: "Действие пьесы разворачивается в горной деревне."
+    source: { kind: translated, id: 516457 }
+  - form: "akcja"
+    pl: "Wszyscy wiemy, że ta akcja była błędem."
+    ru: "Все мы знаем, что эта акция была ошибкой."
+    source: { kind: translated, id: 13880817 }
+  - form: "akcje"
+    pl: "Akcje nagle spadły."
+    ru: "Акции внезапно упали."
+    source: { kind: translated, id: 756537 }
+  - form: "akcje"
+    pl: "Akcje tej firmy wygenerowały duży zysk."
+    ru: "Акции этой фирмы принесли большую прибыль."
+    source: { kind: translated, id: 1474320 }
+  - form: "akcje"
+    pl: "Akcje poszły w dół w ciągu jednej nocy."
+    ru: "Акции упали за одну ночь."
+    source: { kind: translated, id: 734274 }
+  - form: "akcje"
+    pl: "Tom zainwestował swoje pieniądze w akcje."
+    ru: "Том вложил свои деньги в акции."
+    source: { kind: translated, id: 10705812 }
+  - form: "akcję"
+    pl: "Policja przeprowadziła akcję ratunkową."
+    ru: "Полиция провела спасательную операцию."
+    source: { kind: authored }
+  - form: "akcję"
+    pl: "Zorganizowali akcję charytatywną."
+    ru: "Они организовали благотворительную акцию."
+    source: { kind: authored }
+  - form: "akcję"
+    pl: "Przerwali akcję z powodu pogody."
+    ru: "Они прервали операцию из-за погоды."
+    source: { kind: authored }
+  - form: "akcji"
+    pl: "Jest człowiekiem akcji."
+    ru: "Он человек дела."
+    source: { kind: translated, id: 6154827 }
+  - form: "akcji"
+    pl: "Ruszam do akcji."
+    ru: "Я перехожу к действию."
+    source: { kind: translated, id: 12955905 }
+  - form: "akcji"
+    pl: "Ceny akcji spadły."
+    ru: "Цены акций упали."
+    source: { kind: translated, id: 10599839 }
+  - form: "akcji"
+    pl: "Gdzie mogę pobrać filmy akcji za darmo?"
+    ru: "Где можно бесплатно скачать боевики?"
+    source: { kind: translated, id: 3085087 }

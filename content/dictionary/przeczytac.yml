@@ -1,0 +1,694 @@
+# review
+id: przeczytac
+format: 2
+lemma: "przeczytać"
+rank: 965
+pos: verb
+aspect: perf
+aspectPair: czytac
+pron: { cyr: "пшэчы́таць" }
+senses:
+  - id: read-through
+    ru: "прочитать (до конца)"
+    examples:
+      - pl: "Warto przeczytać tę opowieść."
+        ru: "Этот рассказ стоит прочитать."
+        source: { kind: translated, id: 364062 }
+      - pl: "Już przeczytałem książkę."
+        ru: "Я уже прочитал книгу."
+        source: { kind: translated, id: 11750140 }
+      - pl: "Weź książkę i przeczytaj ją!"
+        ru: "Возьми книгу и прочитай её!"
+        source: { kind: translated, id: 349042 }
+  - id: read-aloud
+    ru: "прочитать вслух"
+    examples:
+      - pl: "Przeczytała wiersz na głos."
+        ru: "Она прочитала стихотворение вслух."
+        source: { kind: translated, id: 701572 }
+      - pl: "Przeczytaj list."
+        ru: "Прочитай письмо."
+        source: { kind: translated, id: 13528108 }
+      - pl: "Przeczytaj dwa pierwsze zdania."
+        ru: "Прочитай два первых предложения."
+        source: { kind: translated, id: 5907096 }
+  - id: reading
+    ru: "przeczytanie — прочтение"
+    note: "Отглагольное существительное: po przeczytaniu «по прочтении»."
+    examples:
+      - pl: "Przeczytanie tej książki to dobry pomysł."
+        ru: "Прочитать эту книгу — хорошая идея."
+        source: { kind: translated, id: 555406 }
+      - pl: "Żadna książka nie jest warta przeczytania."
+        ru: "Ни одна книга не стоит прочтения."
+        source: { kind: translated, id: 2235031 }
+      - pl: "Podarła list po przeczytaniu."
+        ru: "Она порвала письмо после прочтения."
+        source: { kind: translated, id: 1594609 }
+notes:
+  - { kind: usage, text: "Совершенный вид к czytać. Czytał książkę «он читал книгу» — о процессе; przeczytał książkę «он прочитал книгу» — до конца." }
+  - { kind: usage, text: "warto przeczytać — «стоит прочитать». А с существительным — wart przeczytania, с родительным падежом: książka warta przeczytania." }
+  - { kind: government, text: "po przeczytaniu «после прочтения» — предлог po с предложным падежом отглагольного существительного. Русское «по прочтении» устроено точно так же." }
+  - { kind: usage, text: "przeczytawszy «прочитав» — книжное деепричастие совершенного вида. В разговорной речи вместо него говорят po przeczytaniu." }
+collocations:
+  - { pl: "warto przeczytać", ru: "стоит прочитать" }
+  - { pl: "przeczytać na głos", ru: "прочитать вслух" }
+  - { pl: "po przeczytaniu", ru: "после прочтения" }
+  - { pl: "wart przeczytania", ru: "стоящий прочтения" }
+family:
+  - { pl: "czytać", ru: "читать", relation: aspect, id: czytac }
+  - { pl: "czytelnik", ru: "читатель", relation: root }
+  - { pl: "odczytać", ru: "прочесть, расшифровать", relation: derived }
+etymology: "Приставка prze- + czytać. Приставка значит «сквозь, до конца» — ровно как русское «про-» в «прочитать». Слова совпадают буквально, морфема в морфему."
+memory: "przeczytać — совершенный вид к czytać, и собрано оно как русское «прочитать»: prze- = «про-». Czytał «читал» о процессе, przeczytał «прочитал» до конца. Запомните po przeczytaniu «по прочтении» и wart przeczytania «стоящий прочтения»."
+idioms:
+  - { pl: "przeczytać od deski do deski", ru: "прочитать от корки до корки" }
+  - { pl: "przeczytać między wierszami", ru: "прочитать между строк" }
+  - { pl: "wart przeczytania", ru: "стоящий прочтения" }
+formExamplesSkip:
+  - { form: "przeczytani", reason: "мужско-личная форма страдательного причастия: читают тексты, а не людей, поэтому форма не употребляется" }
+formExamples:
+  - form: "przeczyta"
+    pl: "Niech pan przeczyta list."
+    ru: "Прочтите письмо."
+    source: { kind: translated, id: 13528109 }
+  - form: "przeczyta"
+    pl: "Pytanie, czy przeczyta ten list czy nie."
+    ru: "Вопрос в том, прочитает он это письмо или нет."
+    source: { kind: translated, id: 3961011 }
+  - form: "przeczyta"
+    pl: "Chłopak potrafi zapamiętać wszystko co przeczyta."
+    ru: "Мальчик способен запомнить всё, что прочитает."
+    source: { kind: translated, id: 1259283 }
+  - form: "przeczytacie"
+    pl: "Przeczytacie to do jutra?"
+    ru: "Прочитаете это к завтрашнему дню?"
+    source: { kind: authored }
+  - form: "przeczytacie"
+    pl: "Kiedy przeczytacie cały rozdział?"
+    ru: "Когда вы прочитаете всю главу?"
+    source: { kind: authored }
+  - form: "przeczytacie"
+    pl: "Mam nadzieję, że przeczytacie mój list."
+    ru: "Надеюсь, вы прочитаете моё письмо."
+    source: { kind: authored }
+  - form: "przeczytać"
+    pl: "Warto przeczytać tę opowieść."
+    ru: "Этот рассказ стоит прочитать."
+    source: { kind: translated, id: 364062 }
+  - form: "przeczytać"
+    pl: "Książkę, którą warto przeczytać, warto przeczytać dwukrotnie."
+    ru: "Книгу, которую стоит прочитать, стоит прочитать дважды."
+    source: { kind: translated, id: 2909648 }
+  - form: "przeczytać"
+    pl: "Muszę coś przeczytać."
+    ru: "Мне нужно кое-что прочитать."
+    source: { kind: translated, id: 8756057 }
+  - form: "przeczytaj"
+    pl: "Weź książkę i przeczytaj ją!"
+    ru: "Возьми книгу и прочитай её!"
+    source: { kind: translated, id: 349042 }
+  - form: "przeczytaj"
+    pl: "Przeczytaj dwa pierwsze zdania."
+    ru: "Прочитай два первых предложения."
+    source: { kind: translated, id: 5907096 }
+  - form: "przeczytaj"
+    pl: "Przeczytaj list."
+    ru: "Прочитай письмо."
+    source: { kind: translated, id: 13528108 }
+  - form: "przeczytają"
+    pl: "Czy oni przeczytają mój artykuł?"
+    ru: "Прочитают ли они мою статью?"
+    source: { kind: authored }
+  - form: "przeczytają"
+    pl: "Uczniowie przeczytają wiersz na głos."
+    ru: "Ученики прочитают стихотворение вслух."
+    source: { kind: authored }
+  - form: "przeczytają"
+    pl: "Przeczytają to dopiero jutro."
+    ru: "Они прочитают это только завтра."
+    source: { kind: authored }
+  - form: "przeczytajcie"
+    pl: "Przeczytajcie to."
+    ru: "Прочитайте это."
+    source: { kind: translated, id: 8095900 }
+  - form: "przeczytajcie"
+    pl: "Przeczytajcie rozdział trzeci."
+    ru: "Прочитайте третью главу."
+    source: { kind: translated, id: 10604922 }
+  - form: "przeczytajcie"
+    pl: "Przeczytajcie uważnie instrukcję."
+    ru: "Прочитайте внимательно инструкцию."
+    source: { kind: authored }
+  - form: "przeczytajmy"
+    pl: "Przeczytajmy to razem."
+    ru: "Прочитаем это вместе."
+    source: { kind: authored }
+  - form: "przeczytajmy"
+    pl: "Przeczytajmy jeszcze jeden rozdział."
+    ru: "Прочитаем ещё одну главу."
+    source: { kind: authored }
+  - form: "przeczytajmy"
+    pl: "Przeczytajmy list na głos."
+    ru: "Прочитаем письмо вслух."
+    source: { kind: authored }
+  - form: "przeczytali"
+    pl: "Tom i Maria przeczytali razem książkę."
+    ru: "Том и Мария прочитали книгу вместе."
+    source: { kind: translated, id: 11264446 }
+  - form: "przeczytali"
+    pl: "Przeczytali wszystkie listy."
+    ru: "Они прочитали все письма."
+    source: { kind: authored }
+  - form: "przeczytali"
+    pl: "Uczniowie przeczytali lekturę w wakacje."
+    ru: "Ученики прочитали заданную книгу на каникулах."
+    source: { kind: authored }
+  - form: "przeczytaliby"
+    pl: "Przeczytaliby państwo Tomowi bajkę na dobranoc?"
+    ru: "Прочитали бы вы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680222 }
+  - form: "przeczytaliby"
+    pl: "Przeczytaliby to, gdyby mieli czas."
+    ru: "Они прочитали бы это, если бы у них было время."
+    source: { kind: authored }
+  - form: "przeczytaliby"
+    pl: "Chętnie przeczytaliby twój artykuł."
+    ru: "Они с удовольствием прочитали бы твою статью."
+    source: { kind: authored }
+  - form: "przeczytalibyście"
+    pl: "Przeczytalibyście Tomowi bajkę na dobranoc?"
+    ru: "Вы прочитали бы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680219 }
+  - form: "przeczytalibyście"
+    pl: "Przeczytalibyście to do jutra?"
+    ru: "Прочитали бы вы это к завтрашнему дню?"
+    source: { kind: authored }
+  - form: "przeczytalibyście"
+    pl: "Przeczytalibyście mój list, gdybym poprosił?"
+    ru: "Прочитали бы вы моё письмо, если бы я попросил?"
+    source: { kind: authored }
+  - form: "przeczytalibyśmy"
+    pl: "Przeczytalibyśmy to razem."
+    ru: "Мы прочитали бы это вместе."
+    source: { kind: authored }
+  - form: "przeczytalibyśmy"
+    pl: "Przeczytalibyśmy książkę w tydzień."
+    ru: "Мы прочитали бы книгу за неделю."
+    source: { kind: authored }
+  - form: "przeczytalibyśmy"
+    pl: "Chętnie przeczytalibyśmy twoje opowiadanie."
+    ru: "Мы с удовольствием прочитали бы твой рассказ."
+    source: { kind: authored }
+  - form: "przeczytaliście"
+    pl: "Przeczytaliście to?"
+    ru: "Вы это прочитали?"
+    source: { kind: translated, id: 8715154 }
+  - form: "przeczytaliście"
+    pl: "Dlaczego nie przeczytaliście gazety?"
+    ru: "Почему вы не прочитали газету?"
+    source: { kind: translated, id: 2247360 }
+  - form: "przeczytaliście"
+    pl: "Przeczytaliście już cały rozdział?"
+    ru: "Вы уже прочитали всю главу?"
+    source: { kind: authored }
+  - form: "przeczytaliśmy"
+    pl: "Przeczytaliśmy książkę w dwa dni."
+    ru: "Мы прочитали книгу за два дня."
+    source: { kind: authored }
+  - form: "przeczytaliśmy"
+    pl: "Przeczytaliśmy twój list z uwagą."
+    ru: "Мы прочитали твоё письмо внимательно."
+    source: { kind: authored }
+  - form: "przeczytaliśmy"
+    pl: "Wczoraj przeczytaliśmy ostatni rozdział."
+    ru: "Вчера мы прочитали последнюю главу."
+    source: { kind: authored }
+  - form: "przeczytał"
+    pl: "Uważnie przeczytał list, po czym go spalił."
+    ru: "Он внимательно прочёл письмо, после чего сжёг его."
+    source: { kind: translated, id: 7180694 }
+  - form: "przeczytał"
+    pl: "Tylko on przeczytał list."
+    ru: "Только он прочитал письмо."
+    source: { kind: translated, id: 354044 }
+  - form: "przeczytał"
+    pl: "Ile książek pan przeczytał?"
+    ru: "Сколько книг вы прочитали?"
+    source: { kind: translated, id: 440315 }
+  - form: "przeczytała"
+    pl: "Ona przeczytała wszystkie książki o muminkach."
+    ru: "Она прочла все книги о муми-троллях."
+    source: { kind: translated, id: 11318267 }
+  - form: "przeczytała"
+    pl: "Przeczytała wiersz na głos."
+    ru: "Она прочитала стихотворение вслух."
+    source: { kind: translated, id: 701572 }
+  - form: "przeczytała"
+    pl: "Przeczytała streszczenie \"Wojny i pokoju\"."
+    ru: "Она прочитала краткое содержание «Войны и мира»."
+    source: { kind: translated, id: 365252 }
+  - form: "przeczytałaby"
+    pl: "Przeczytałaby pani Tomowi bajkę na dobranoc?"
+    ru: "Вы прочитали бы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680220 }
+  - form: "przeczytałaby"
+    pl: "Przeczytałaby to, gdyby miała okulary."
+    ru: "Она прочитала бы это, если бы у неё были очки."
+    source: { kind: authored }
+  - form: "przeczytałaby"
+    pl: "Chętnie przeczytałaby twój wiersz."
+    ru: "Она с удовольствием прочитала бы твоё стихотворение."
+    source: { kind: authored }
+  - form: "przeczytałabym"
+    pl: "Przeczytałabym tę książkę jeszcze raz."
+    ru: "Я прочитала бы эту книгу ещё раз."
+    source: { kind: authored }
+  - form: "przeczytałabym"
+    pl: "Przeczytałabym, ale nie mam czasu."
+    ru: "Я прочитала бы, но у меня нет времени."
+    source: { kind: authored }
+  - form: "przeczytałabym"
+    pl: "Chętnie przeczytałabym twoje opowiadanie."
+    ru: "Я с удовольствием прочитала бы твой рассказ."
+    source: { kind: authored }
+  - form: "przeczytałabyś"
+    pl: "Przeczytałabyś Tomowi bajkę na dobranoc?"
+    ru: "Ты прочитала бы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680218 }
+  - form: "przeczytałabyś"
+    pl: "Przeczytałabyś to dla mnie?"
+    ru: "Ты прочитала бы это для меня?"
+    source: { kind: authored }
+  - form: "przeczytałabyś"
+    pl: "Przeczytałabyś tę książkę w tydzień?"
+    ru: "Ты прочитала бы эту книгу за неделю?"
+    source: { kind: authored }
+  - form: "przeczytałam"
+    pl: "Krzysztof Kolumb stał się moim ulubionym bohaterem, po tym jak przeczytałam wszystkie jego historie."
+    ru: "Христофор Колумб стал моим любимым героем, после того как я прочитала все его истории."
+    source: { kind: translated, id: 5975482 }
+  - form: "przeczytałam"
+    pl: "Już przeczytałam ten raport."
+    ru: "Я уже прочитала этот отчёт."
+    source: { kind: translated, id: 6109664 }
+  - form: "przeczytałam"
+    pl: "Przeczytałam wszystkie jego powieści."
+    ru: "Я прочитала все его романы."
+    source: { kind: translated, id: 1133968 }
+  - form: "przeczytałaś"
+    pl: "Ile książek przeczytałaś?"
+    ru: "Сколько книг ты прочитала?"
+    source: { kind: translated, id: 12564142 }
+  - form: "przeczytałaś"
+    pl: "Przeczytałaś FAQ?"
+    ru: "Ты прочитала FAQ?"
+    source: { kind: translated, id: 3584628 }
+  - form: "przeczytałaś"
+    pl: "Przeczytałaś już ten rozdział?"
+    ru: "Ты уже прочитала эту главу?"
+    source: { kind: authored }
+  - form: "przeczytałby"
+    pl: "Przeczytałby pan Tomowi bajkę na dobranoc?"
+    ru: "Вы прочитали бы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680221 }
+  - form: "przeczytałby"
+    pl: "Przeczytałby to, gdyby go poproszono."
+    ru: "Он прочитал бы это, если бы его попросили."
+    source: { kind: authored }
+  - form: "przeczytałby"
+    pl: "Przeczytałby książkę w jeden wieczór."
+    ru: "Он прочитал бы книгу за один вечер."
+    source: { kind: authored }
+  - form: "przeczytałbym"
+    pl: "Przeczytałbym tę powieść, gdyby była interesująca."
+    ru: "Я прочитал бы этот роман, если бы он был интересным."
+    source: { kind: translated, id: 10587654 }
+  - form: "przeczytałbym"
+    pl: "Przeczytałbym to jeszcze raz."
+    ru: "Я прочитал бы это ещё раз."
+    source: { kind: authored }
+  - form: "przeczytałbym"
+    pl: "Chętnie przeczytałbym twój artykuł."
+    ru: "Я с удовольствием прочитал бы твою статью."
+    source: { kind: authored }
+  - form: "przeczytałbyś"
+    pl: "Przeczytałbyś Tomowi bajkę na dobranoc?"
+    ru: "Ты прочитал бы Тому сказку на ночь?"
+    source: { kind: translated, id: 3680217 }
+  - form: "przeczytałbyś"
+    pl: "Przeczytałbyś to dla mnie?"
+    ru: "Ты прочитал бы это для меня?"
+    source: { kind: authored }
+  - form: "przeczytałbyś"
+    pl: "Przeczytałbyś tę książkę w tydzień?"
+    ru: "Ты прочитал бы эту книгу за неделю?"
+    source: { kind: authored }
+  - form: "przeczytałem"
+    pl: "Już przeczytałem książkę."
+    ru: "Я уже прочитал книгу."
+    source: { kind: translated, id: 11750140 }
+  - form: "przeczytałem"
+    pl: "Przeczytałem o tym w gazecie."
+    ru: "Я прочёл об этом в газете."
+    source: { kind: translated, id: 360084 }
+  - form: "przeczytałem"
+    pl: "Przeczytałem tę książkę trzy razy."
+    ru: "Я прочёл эту книгу три раза."
+    source: { kind: translated, id: 8664187 }
+  - form: "przeczytałeś"
+    pl: "Przeczytałeś to?"
+    ru: "Ты это прочитал?"
+    source: { kind: translated, id: 4837659 }
+  - form: "przeczytałeś"
+    pl: "Ile książek przeczytałeś?"
+    ru: "Сколько книг ты прочитал?"
+    source: { kind: translated, id: 525490 }
+  - form: "przeczytałeś"
+    pl: "Przeczytałeś wszystko?"
+    ru: "Ты всё прочитал?"
+    source: { kind: translated, id: 590788 }
+  - form: "przeczytało"
+    pl: "Tylko dwudziestu studnetów przeczytało książkę"
+    ru: "Только двадцать студентов прочитали книгу."
+    source: { kind: translated, id: 2829769 }
+  - form: "przeczytało"
+    pl: "Dziecko przeczytało pierwsze zdanie."
+    ru: "Ребёнок прочитал первое предложение."
+    source: { kind: authored }
+  - form: "przeczytało"
+    pl: "Tę książkę przeczytało wielu ludzi."
+    ru: "Эту книгу прочитали многие."
+    source: { kind: authored }
+  - form: "przeczytałoby"
+    pl: "Dziecko przeczytałoby to samo."
+    ru: "Ребёнок прочитал бы это сам."
+    source: { kind: authored }
+  - form: "przeczytałoby"
+    pl: "Dziecko przeczytałoby więcej, gdyby miało czas."
+    ru: "Ребёнок прочитал бы больше, если бы у него было время."
+    source: { kind: authored }
+  - form: "przeczytałoby"
+    pl: "Każde dziecko przeczytałoby tę bajkę z przyjemnością."
+    ru: "Любой ребёнок прочитал бы эту сказку с удовольствием."
+    source: { kind: authored }
+  - form: "przeczytały"
+    pl: "Dziewczynki przeczytały całą książkę."
+    ru: "Девочки прочитали всю книгу."
+    source: { kind: authored }
+  - form: "przeczytały"
+    pl: "Obie grupy przeczytały ten sam tekst."
+    ru: "Обе группы прочитали один и тот же текст."
+    source: { kind: authored }
+  - form: "przeczytały"
+    pl: "Dzieci przeczytały bajkę przed snem."
+    ru: "Дети прочитали сказку перед сном."
+    source: { kind: authored }
+  - form: "przeczytałyby"
+    pl: "Przeczytałyby to, gdyby miały czas."
+    ru: "Они прочитали бы это, если бы у них было время."
+    source: { kind: authored }
+  - form: "przeczytałyby"
+    pl: "Dziewczynki przeczytałyby tę bajkę razem."
+    ru: "Девочки прочитали бы эту сказку вместе."
+    source: { kind: authored }
+  - form: "przeczytałyby"
+    pl: "Chętnie przeczytałyby twoje opowiadanie."
+    ru: "Они с удовольствием прочитали бы твой рассказ."
+    source: { kind: authored }
+  - form: "przeczytałybyście"
+    pl: "Przeczytałybyście to do jutra?"
+    ru: "Прочитали бы вы это к завтрашнему дню?"
+    source: { kind: authored }
+  - form: "przeczytałybyście"
+    pl: "Przeczytałybyście mój list?"
+    ru: "Прочитали бы вы моё письмо?"
+    source: { kind: authored }
+  - form: "przeczytałybyście"
+    pl: "Przeczytałybyście tę książkę razem?"
+    ru: "Прочитали бы вы эту книгу вместе?"
+    source: { kind: authored }
+  - form: "przeczytałybyśmy"
+    pl: "Przeczytałybyśmy to razem."
+    ru: "Мы прочитали бы это вместе."
+    source: { kind: authored }
+  - form: "przeczytałybyśmy"
+    pl: "Przeczytałybyśmy książkę w tydzień."
+    ru: "Мы прочитали бы книгу за неделю."
+    source: { kind: authored }
+  - form: "przeczytałybyśmy"
+    pl: "Chętnie przeczytałybyśmy twój wiersz."
+    ru: "Мы с удовольствием прочитали бы твоё стихотворение."
+    source: { kind: authored }
+  - form: "przeczytałyście"
+    pl: "Przeczytałyście już ten rozdział?"
+    ru: "Вы уже прочитали эту главу?"
+    source: { kind: authored }
+  - form: "przeczytałyście"
+    pl: "Dlaczego nie przeczytałyście listu?"
+    ru: "Почему вы не прочитали письмо?"
+    source: { kind: authored }
+  - form: "przeczytałyście"
+    pl: "Przeczytałyście całą książkę w weekend?"
+    ru: "Вы прочитали всю книгу за выходные?"
+    source: { kind: authored }
+  - form: "przeczytałyśmy"
+    pl: "Przeczytałyśmy książkę w dwa dni."
+    ru: "Мы прочитали книгу за два дня."
+    source: { kind: authored }
+  - form: "przeczytałyśmy"
+    pl: "Wczoraj przeczytałyśmy ostatni rozdział."
+    ru: "Вчера мы прочитали последнюю главу."
+    source: { kind: authored }
+  - form: "przeczytałyśmy"
+    pl: "Przeczytałyśmy twój list z uwagą."
+    ru: "Мы прочитали твоё письмо внимательно."
+    source: { kind: authored }
+  - form: "przeczytam"
+    pl: "Przeczytam to."
+    ru: "Я это прочитаю."
+    source: { kind: translated, id: 10542215 }
+  - form: "przeczytam"
+    pl: "Nie przeczytam tego."
+    ru: "Я этого не прочитаю."
+    source: { kind: translated, id: 3841292 }
+  - form: "przeczytam"
+    pl: "Mogę iść się bawić, jak przeczytam tę książkę?"
+    ru: "Можно я пойду играть, когда прочитаю эту книгу?"
+    source: { kind: translated, id: 448811 }
+  - form: "przeczytamy"
+    pl: "Przeczytamy to jutro na lekcji."
+    ru: "Мы прочитаем это завтра на уроке."
+    source: { kind: authored }
+  - form: "przeczytamy"
+    pl: "Przeczytamy razem pierwszy rozdział."
+    ru: "Мы прочитаем вместе первую главу."
+    source: { kind: authored }
+  - form: "przeczytamy"
+    pl: "Kiedy przeczytamy resztę?"
+    ru: "Когда мы прочитаем остальное?"
+    source: { kind: authored }
+  - form: "przeczytana"
+    pl: "Książka została przeczytana."
+    ru: "Книга была прочитана."
+    source: { kind: translated, id: 2250502 }
+  - form: "przeczytana"
+    pl: "Ta strona jest już przeczytana."
+    ru: "Эта страница уже прочитана."
+    source: { kind: authored }
+  - form: "przeczytana"
+    pl: "Wiadomość została przeczytana."
+    ru: "Сообщение было прочитано."
+    source: { kind: authored }
+  - form: "przeczytaną"
+    pl: "Odłożył przeczytaną książkę na półkę."
+    ru: "Он положил прочитанную книгу на полку."
+    source: { kind: authored }
+  - form: "przeczytaną"
+    pl: "Trzymał w ręku przeczytaną gazetę."
+    ru: "Он держал в руке прочитанную газету."
+    source: { kind: authored }
+  - form: "przeczytaną"
+    pl: "Oddał mi przeczytaną powieść."
+    ru: "Он вернул мне прочитанный роман."
+    source: { kind: authored }
+  - form: "przeczytane"
+    pl: "Kasowanie czyichś komentarzy po tym jak zostały przeczytane nie jest wzięciem odpowiedzialności za swoje własne słowa."
+    ru: "Удалять чужие комментарии после того, как они были прочитаны, — это не значит отвечать за свои слова."
+    source: { kind: translated, id: 9670787 }
+  - form: "przeczytane"
+    pl: "Wszystkie listy są już przeczytane."
+    ru: "Все письма уже прочитаны."
+    source: { kind: authored }
+  - form: "przeczytane"
+    pl: "Te strony zostały przeczytane wczoraj."
+    ru: "Эти страницы были прочитаны вчера."
+    source: { kind: authored }
+  - form: "przeczytanego"
+    pl: "Nie pamiętam przeczytanego wczoraj rozdziału."
+    ru: "Я не помню прочитанной вчера главы."
+    source: { kind: authored }
+  - form: "przeczytanego"
+    pl: "Szukam przeczytanego już artykułu."
+    ru: "Я ищу уже прочитанную статью."
+    source: { kind: authored }
+  - form: "przeczytanego"
+    pl: "Treść przeczytanego listu ją zasmuciła."
+    ru: "Содержание прочитанного письма её огорчило."
+    source: { kind: authored }
+  - form: "przeczytanej"
+    pl: "Nie pamiętam przeczytanej książki."
+    ru: "Я не помню прочитанную книгу."
+    source: { kind: authored }
+  - form: "przeczytanej"
+    pl: "Treść przeczytanej wiadomości była dziwna."
+    ru: "Содержание прочитанного сообщения было странным."
+    source: { kind: authored }
+  - form: "przeczytanej"
+    pl: "Mówił o przeczytanej właśnie powieści."
+    ru: "Он говорил о только что прочитанном романе."
+    source: { kind: authored }
+  - form: "przeczytanemu"
+    pl: "Dzięki przeczytanemu artykułowi wiem więcej."
+    ru: "Благодаря прочитанной статье я знаю больше."
+    source: { kind: authored }
+  - form: "przeczytanemu"
+    pl: "Przyglądał się przeczytanemu listowi."
+    ru: "Он рассматривал прочитанное письмо."
+    source: { kind: authored }
+  - form: "przeczytanemu"
+    pl: "Zawdzięcza to przeczytanemu poradnikowi."
+    ru: "Он обязан этим прочитанному руководству."
+    source: { kind: authored }
+  - form: "przeczytania"
+    pl: "Żadna książka nie jest warta przeczytania."
+    ru: "Ни одна книга не стоит прочтения."
+    source: { kind: translated, id: 2235031 }
+  - form: "przeczytania"
+    pl: "Nie każda książka jest warta przeczytania."
+    ru: "Не каждая книга стоит прочтения."
+    source: { kind: translated, id: 10464415 }
+  - form: "przeczytania"
+    pl: "Opowieść jest warta ponownego przeczytania."
+    ru: "Рассказ стоит повторного прочтения."
+    source: { kind: translated, id: 676933 }
+  - form: "przeczytanie"
+    pl: "Przeczytanie tej książki to dobry pomysł."
+    ru: "Прочитать эту книгу — хорошая идея."
+    source: { kind: translated, id: 555406 }
+  - form: "przeczytanie"
+    pl: "Przeczytanie tej książki nie potrwa długo."
+    ru: "Прочтение этой книги не займёт много времени."
+    source: { kind: translated, id: 355473 }
+  - form: "przeczytanie"
+    pl: "Przeczytanie tej książki zajmie około tygodnia."
+    ru: "Прочтение этой книги займёт около недели."
+    source: { kind: translated, id: 12040900 }
+  - form: "przeczytaniem"
+    pl: "Zazwyczaj patrzę na obrazki przed przeczytaniem tekstu."
+    ru: "Обычно я смотрю на картинки перед прочтением текста."
+    source: { kind: translated, id: 3125668 }
+  - form: "przeczytaniem"
+    pl: "Przed przeczytaniem listu usiadł."
+    ru: "Перед прочтением письма он сел."
+    source: { kind: authored }
+  - form: "przeczytaniem"
+    pl: "Zastanów się przed przeczytaniem odpowiedzi."
+    ru: "Подумай перед прочтением ответа."
+    source: { kind: authored }
+  - form: "przeczytaniu"
+    pl: "Podarła list po przeczytaniu."
+    ru: "Она порвала письмо после прочтения."
+    source: { kind: translated, id: 1594609 }
+  - form: "przeczytaniu"
+    pl: "Posmutniał po przeczytaniu listu."
+    ru: "Он погрустнел после прочтения письма."
+    source: { kind: translated, id: 3584634 }
+  - form: "przeczytaniu"
+    pl: "Po przeczytaniu listu rozerwała go na strzępy."
+    ru: "Прочитав письмо, она разорвала его в клочья."
+    source: { kind: translated, id: 1351253 }
+  - form: "przeczytano"
+    pl: "Przeczytano wyrok."
+    ru: "Прочитали приговор."
+    source: { kind: authored }
+  - form: "przeczytano"
+    pl: "Na lekcji przeczytano cały rozdział."
+    ru: "На уроке прочитали всю главу."
+    source: { kind: authored }
+  - form: "przeczytano"
+    pl: "List przeczytano na głos."
+    ru: "Письмо прочитали вслух."
+    source: { kind: authored }
+  - form: "przeczytany"
+    pl: "Ten list został przeczytany."
+    ru: "Это письмо было прочитано."
+    source: { kind: authored }
+  - form: "przeczytany"
+    pl: "Artykuł był przeczytany przez wszystkich."
+    ru: "Статья была прочитана всеми."
+    source: { kind: authored }
+  - form: "przeczytany"
+    pl: "Tekst został przeczytany na głos."
+    ru: "Текст был прочитан вслух."
+    source: { kind: authored }
+  - form: "przeczytanych"
+    pl: "Nie pamiętam wszystkich przeczytanych książek."
+    ru: "Я не помню всех прочитанных книг."
+    source: { kind: authored }
+  - form: "przeczytanych"
+    pl: "Mam listę przeczytanych lektur."
+    ru: "У меня есть список прочитанных книг."
+    source: { kind: authored }
+  - form: "przeczytanych"
+    pl: "Wśród przeczytanych artykułów nie było tego."
+    ru: "Среди прочитанных статей этой не было."
+    source: { kind: authored }
+  - form: "przeczytanym"
+    pl: "Mówił o przeczytanym wczoraj artykule."
+    ru: "Он говорил о прочитанной вчера статье."
+    source: { kind: authored }
+  - form: "przeczytanym"
+    pl: "W przeczytanym liście nie było nic nowego."
+    ru: "В прочитанном письме не было ничего нового."
+    source: { kind: authored }
+  - form: "przeczytanym"
+    pl: "Zaskoczył mnie przeczytanym wierszem."
+    ru: "Он удивил меня прочитанным стихотворением."
+    source: { kind: authored }
+  - form: "przeczytanymi"
+    pl: "Półka była zastawiona przeczytanymi książkami."
+    ru: "Полка была заставлена прочитанными книгами."
+    source: { kind: authored }
+  - form: "przeczytanymi"
+    pl: "Nie interesuję się przeczytanymi już gazetami."
+    ru: "Меня не интересуют уже прочитанные газеты."
+    source: { kind: authored }
+  - form: "przeczytanymi"
+    pl: "Podzielił się przeczytanymi artykułami."
+    ru: "Он поделился прочитанными статьями."
+    source: { kind: authored }
+  - form: "przeczytasz"
+    pl: "Kiedy przeczytasz tę książkę, odłóż ją na poprzednie miejsce."
+    ru: "Прочтёшь эту книгу — положи её на прежнее место."
+    source: { kind: translated, id: 840231 }
+  - form: "przeczytasz"
+    pl: "Przeczytasz ten podręcznik?"
+    ru: "Ты прочитаешь этот учебник?"
+    source: { kind: translated, id: 2493479 }
+  - form: "przeczytasz"
+    pl: "Czemu po prostu nie przeczytasz instrukcji?"
+    ru: "Почему ты просто не прочитаешь инструкцию?"
+    source: { kind: translated, id: 8948298 }
+  - form: "przeczytawszy"
+    pl: "Zasmucił się, przeczytawszy list."
+    ru: "Прочитав письмо, он опечалился."
+    source: { kind: translated, id: 3584642 }
+  - form: "przeczytawszy"
+    pl: "Zrobił się smutny, przeczytawszy list."
+    ru: "Прочитав письмо, он стал грустным."
+    source: { kind: translated, id: 3584632 }
+  - form: "przeczytawszy"
+    pl: "Przeczytawszy artykuł, zmienił zdanie."
+    ru: "Прочитав статью, он изменил мнение."
+    source: { kind: authored }

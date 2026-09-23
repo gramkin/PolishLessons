@@ -1,0 +1,121 @@
+# review
+id: jazda
+format: 2
+lemma: "jazda"
+rank: 960
+pos: noun
+pron: { cyr: "я́зда" }
+senses:
+  - id: riding
+    ru: "езда, поездка"
+    examples:
+      - pl: "Jazda rowerem po drodze wzdłóż otoczonej drzewami rzeki naprawdę poprawia humor."
+        ru: "Катание на велосипеде по дорожке вдоль окаймлённой деревьями реки в самом деле поднимает настроение."
+        source: { kind: tatoeba, id: 10768349 }
+      - pl: "Jazda autobusem trwa."
+        ru: "Поездка на автобусе продолжается."
+        source: { kind: translated, id: 8745455 }
+      - pl: "Bardzo lubię jazdę na rowerze."
+        ru: "Я очень люблю кататься на велосипеде."
+        source: { kind: translated, id: 10620893 }
+  - id: licence
+    ru: "prawo jazdy — водительские права"
+    note: "Буквально «право езды»: родительный падеж."
+    examples:
+      - pl: "Poproszę o prawo jazdy."
+        ru: "Ваши водительские права, пожалуйста."
+        source: { kind: translated, id: 965200 }
+      - pl: "Twoje prawo jazdy wygasło."
+        ru: "Твои водительские права просрочены."
+        source: { kind: translated, id: 526820 }
+      - pl: "Dał jej ostrzeżenie za szybką jazdę."
+        ru: "Он дал ей предупреждение за быструю езду."
+        source: { kind: translated, id: 558491 }
+  - id: timetable
+    ru: "rozkład jazdy — расписание движения"
+    examples:
+      - pl: "Próbowałem jazdy konnej."
+        ru: "Я попробовал верховую езду."
+        source: { kind: translated, id: 366080 }
+      - pl: "Co wolisz, jazdę na rowerze, czy bieganie?"
+        ru: "Что ты предпочитаешь: велосипед или бег?"
+        source: { kind: translated, id: 1353973 }
+      - pl: "Po ośmiogodzinnej jeździe Tom już po prostu nie mógł dłużej prowadzić."
+        ru: "После восьми часов езды Том просто не мог вести дальше."
+        source: { kind: translated, id: 4818096 }
+notes:
+  - { kind: usage, text: "prawo jazdy — «водительские права», буквально «право езды», с родительным падежом. Это самое частое сочетание со словом." }
+  - { kind: usage, text: "rozkład jazdy — «расписание движения» транспорта. Тоже родительный: jazdy." }
+  - { kind: usage, text: "Предложный падеж нерегулярный: не «w jaździe» от jazda, а именно jeździe, с чередованием a — e, как в las — w lesie." }
+  - { kind: usage, text: "Разговорное Ale jazda! значит «Ну и дела!, Вот это да!». А jazda! как команда — «поехали!, живо!»." }
+collocations:
+  - { pl: "prawo jazdy", ru: "водительские права" }
+  - { pl: "rozkład jazdy", ru: "расписание движения" }
+  - { pl: "jazda na rowerze", ru: "езда на велосипеде" }
+  - { pl: "ale jazda!", ru: "ну и дела!" }
+family:
+  - { pl: "jechać", ru: "ехать", relation: root, id: jechac }
+  - { pl: "jeździć", ru: "ездить", relation: root }
+  - { pl: "jezdnia", ru: "проезжая часть", relation: derived }
+etymology: "От jechać «ехать», праславянское *jazda. Русское «езда» — то же слово, и гнездо совпадает: jechać — ехать, jeździć — ездить."
+memory: "jazda — «езда, поездка». Главное сочетание — prawo jazdy «водительские права», буквально «право езды». Ещё rozkład jazdy «расписание движения». И запомните нерегулярный предложный: не «w jaździe» от основы jazd-, а w jeździe."
+idioms:
+  - { pl: "prawo jazdy", ru: "водительские права" }
+  - { pl: "rozkład jazdy", ru: "расписание движения" }
+  - { pl: "jazda na rowerze", ru: "езда на велосипеде" }
+formExamplesSkip:
+  - { form: "jazd", reason: "отвлечённое существительное: множественного числа jazda в живой речи почти не образует" }
+  - { form: "jazdach", reason: "отвлечённое существительное: множественного числа jazda в живой речи почти не образует" }
+  - { form: "jazdami", reason: "отвлечённое существительное: множественного числа jazda в живой речи почти не образует" }
+  - { form: "jazdom", reason: "отвлечённое существительное: множественного числа jazda в живой речи почти не образует" }
+  - { form: "jazdą", reason: "творительный падеж в живой речи почти не встречается: о езде говорят в родительном и винительном" }
+  - { form: "jazdo", reason: "звательный падеж: к езде не обращаются, форма не встречается" }
+formExamples:
+  - form: "jazda"
+    pl: "Jazda rowerem po drodze wzdłóż otoczonej drzewami rzeki naprawdę poprawia humor."
+    ru: "Катание на велосипеде по дорожке вдоль окаймлённой деревьями реки в самом деле поднимает настроение."
+    source: { kind: tatoeba, id: 10768349 }
+  - form: "jazda"
+    pl: "Jazda autobusem trwa."
+    ru: "Поездка на автобусе продолжается."
+    source: { kind: translated, id: 8745455 }
+  - form: "jazda"
+    pl: "Jazda autobusem potrwa."
+    ru: "Поездка на автобусе займёт время."
+    source: { kind: translated, id: 533638 }
+  - form: "jazdę"
+    pl: "Bardzo lubię jazdę na rowerze."
+    ru: "Я очень люблю кататься на велосипеде."
+    source: { kind: translated, id: 10620893 }
+  - form: "jazdę"
+    pl: "Dał jej ostrzeżenie za szybką jazdę."
+    ru: "Он дал ей предупреждение за быструю езду."
+    source: { kind: translated, id: 558491 }
+  - form: "jazdę"
+    pl: "Co wolisz, jazdę na rowerze, czy bieganie?"
+    ru: "Что ты предпочитаешь: велосипед или бег?"
+    source: { kind: translated, id: 1353973 }
+  - form: "jazdy"
+    pl: "Poproszę o prawo jazdy."
+    ru: "Ваши водительские права, пожалуйста."
+    source: { kind: translated, id: 965200 }
+  - form: "jazdy"
+    pl: "Próbowałem jazdy konnej."
+    ru: "Я попробовал верховую езду."
+    source: { kind: translated, id: 366080 }
+  - form: "jazdy"
+    pl: "Twoje prawo jazdy wygasło."
+    ru: "Твои водительские права просрочены."
+    source: { kind: translated, id: 526820 }
+  - form: "jeździe"
+    pl: "Po ośmiogodzinnej jeździe Tom już po prostu nie mógł dłużej prowadzić."
+    ru: "После восьми часов езды Том просто не мог вести дальше."
+    source: { kind: translated, id: 4818096 }
+  - form: "jeździe"
+    pl: "Musisz skręcić w lewo kiedy dotrzesz do skrzyżowania jeśli chcesz jechać skrótem i nie masz nic przeciwko jeździe bocznymi drogami."
+    ru: "Тебе надо повернуть налево на перекрёстке, если хочешь срезать и не против езды по боковым дорогам."
+    source: { kind: translated, id: 11148679 }
+  - form: "jeździe"
+    pl: "Po jeździe konnej bolą go plecy."
+    ru: "После верховой езды у него болит спина."
+    source: { kind: authored }
