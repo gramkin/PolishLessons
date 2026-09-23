@@ -1,0 +1,163 @@
+# review
+id: wart
+format: 2
+lemma: "wart"
+rank: 1075
+pos: adj
+pron: { cyr: "варт" }
+senses:
+  - id: worth
+    ru: "стоящий (какой-то суммы), ценой в"
+    examples:
+      - pl: "Ile wart jest ten pierścionek?"
+        ru: "Сколько стоит это кольцо?"
+        source: { kind: translated, id: 3495448 }
+      - pl: "Prawdziwa przyjaźń jest więcej warta niż pieniądze."
+        ru: "Настоящая дружба дороже денег."
+        source: { kind: tatoeba, id: 644048 }
+      - pl: "Ile to jest warte?"
+        ru: "Сколько это стоит?"
+        source: { kind: translated, id: 8654407 }
+  - id: worth-doing
+    ru: "wart zrobienia — стоит того, чтобы сделать"
+    examples:
+      - pl: "Tamten film jest wart zobaczenia."
+        ru: "Тот фильм стоит посмотреть."
+        source: { kind: translated, id: 1790665 }
+      - pl: "To muzeum jest warte odwiedzenia."
+        ru: "Этот музей стоит посетить."
+        source: { kind: translated, id: 3871996 }
+      - pl: "W Kioto jest wiele miejsc wartych obejrzenia."
+        ru: "В Киото много мест, которые стоит посмотреть."
+        source: { kind: translated, id: 355910 }
+  - id: deserving
+    ru: "достойный чего-то"
+    examples:
+      - pl: "To jest warte uwagi."
+        ru: "Это достойно внимания."
+        source: { kind: translated, id: 2502490 }
+      - pl: "Jest człowiekiem wartym zaufania."
+        ru: "Он человек, достойный доверия."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Главное в этом слове — управление: wart требует родительного падежа. Wart uwagi «достоин внимания», wart obejrzenia «стоит посмотреть». По-русски здесь был бы инфинитив («стоит посмотреть»), а по-польски отглагольное существительное." }
+  - { kind: usage, text: "У слова две формы: краткая wart, warta, warte, warci и полная warty, warta, warte. Краткая идёт после jest, полная склоняется как обычное прилагательное." }
+  - { kind: usage, text: "Родственное наречие warto значит «стоит» и строится с инфинитивом: Warto zobaczyć «Стоит посмотреть» — вот здесь польский совпадает с русским." }
+  - { kind: false-friend, text: "nic nie wart значит «ничего не стоит, никудышный», а не «бесплатный». Бесплатный — darmowy." }
+collocations:
+  - { pl: "wart uwagi", ru: "достойный внимания" }
+  - { pl: "wart zobaczenia", ru: "стоит посмотреть" }
+  - { pl: "nic nie wart", ru: "ничего не стоит" }
+  - { pl: "więcej wart", ru: "ценнее" }
+family:
+  - { pl: "wartość", ru: "ценность, стоимость", relation: root }
+  - { pl: "warto", ru: "стоит (сделать)", relation: derived }
+  - { pl: "wartościowy", ru: "ценный", relation: derived }
+etymology: "Из немецкого wert «ценный, стоящий» — того же корня, что английское worth. В русском на этом месте своё слово, «стоящий», от «стоить»."
+memory: "wart — «стоящий, достойный», и главное тут падеж: wart чего-то, родительный. Wart uwagi «достоин внимания», wart obejrzenia «стоит посмотреть» — по-русски здесь инфинитив, а по-польски существительное. С инфинитивом строится родственное warto."
+idioms:
+  - { pl: "gra nie warta świeczki", ru: "игра не стоит свеч" }
+  - { pl: "wart zachodu", ru: "стоящий хлопот" }
+  - { pl: "nic nie wart", ru: "ничего не стоит" }
+formExamplesSkip:
+  - { form: "warci", reason: "в корпусе нет примеров для формы мужского лица множественного числа" }
+  - { form: "wartej", reason: "в корпусе нет примеров для этой падежной формы" }
+  - { form: "wartemu", reason: "в корпусе нет примеров для этой падежной формы" }
+  - { form: "wartymi", reason: "в корпусе нет примеров для этой падежной формы" }
+formExamples:
+  - form: "wart"
+    pl: "Ile wart jest ten pierścionek?"
+    ru: "Сколько стоит это кольцо?"
+    source: { kind: translated, id: 3495448 }
+  - form: "wart"
+    pl: "Tamten film jest wart zobaczenia."
+    ru: "Тот фильм стоит посмотреть."
+    source: { kind: translated, id: 1790665 }
+  - form: "wart"
+    pl: "Ten płaszcz kosztuje majątek, ale jest wart swojej ceny."
+    ru: "Это пальто стоит целое состояние, но своих денег стоит."
+    source: { kind: translated, id: 393308 }
+  - form: "warta"
+    pl: "Prawdziwa przyjaźń jest więcej warta niż pieniądze."
+    ru: "Настоящая дружба дороже денег."
+    source: { kind: tatoeba, id: 644048 }
+  - form: "warta"
+    pl: "Gra nie jest warta świeczki."
+    ru: "Игра не стоит свеч."
+    source: { kind: translated, id: 590745 }
+  - form: "warta"
+    pl: "Ta oferta jest warta rozważenia."
+    ru: "Это предложение стоит рассмотреть."
+    source: { kind: translated, id: 3049241 }
+  - form: "wartą"
+    pl: "Przewodnik wskazał rzecz wartą oglądnięcia."
+    ru: "Гид указал на вещь, которую стоит посмотреть."
+    source: { kind: translated, id: 593996 }
+  - form: "wartą"
+    pl: "Uznali sprawę za wartą uwagi."
+    ru: "Они сочли дело достойным внимания."
+    source: { kind: authored }
+  - form: "wartą"
+    pl: "Znalazł książkę wartą przeczytania."
+    ru: "Он нашёл книгу, которую стоит прочитать."
+    source: { kind: authored }
+  - form: "warte"
+    pl: "Ile to jest warte?"
+    ru: "Сколько это стоит?"
+    source: { kind: translated, id: 8654407 }
+  - form: "warte"
+    pl: "To jest warte uwagi."
+    ru: "Это достойно внимания."
+    source: { kind: translated, id: 2502490 }
+  - form: "warte"
+    pl: "To muzeum jest warte odwiedzenia."
+    ru: "Этот музей стоит посетить."
+    source: { kind: translated, id: 3871996 }
+  - form: "wartego"
+    pl: "Bądź cicho, albo powiedz coś wartego słuchania."
+    ru: "Молчи или скажи что-нибудь, что стоит послушать."
+    source: { kind: translated, id: 777835 }
+  - form: "wartego"
+    pl: "Nie znalazł nic wartego uwagi."
+    ru: "Он не нашёл ничего достойного внимания."
+    source: { kind: authored }
+  - form: "wartego"
+    pl: "Szukam filmu wartego obejrzenia."
+    ru: "Я ищу фильм, который стоит посмотреть."
+    source: { kind: authored }
+  - form: "warty"
+    pl: "Nowy Jork jest warty wizyty."
+    ru: "Нью-Йорк стоит посетить."
+    source: { kind: translated, id: 2502494 }
+  - form: "warty"
+    pl: "Ten film jest warty obejrzenia."
+    ru: "Этот фильм стоит посмотреть."
+    source: { kind: translated, id: 7868597 }
+  - form: "warty"
+    pl: "Ten artykuł jest warty uważnego przestudiowania."
+    ru: "Эту статью стоит внимательно изучить."
+    source: { kind: translated, id: 2502484 }
+  - form: "wartych"
+    pl: "W Kioto jest wiele miejsc wartych obejrzenia."
+    ru: "В Киото много мест, которые стоит посмотреть."
+    source: { kind: translated, id: 355910 }
+  - form: "wartych"
+    pl: "Jest niewiele programów telewizyjnych wartych obejrzenia."
+    ru: "Телепередач, которые стоит смотреть, немного."
+    source: { kind: translated, id: 2502488 }
+  - form: "wartych"
+    pl: "Mamy kilka pomysłów wartych rozważenia."
+    ru: "У нас есть несколько идей, достойных рассмотрения."
+    source: { kind: authored }
+  - form: "wartym"
+    pl: "Rzym jest miastem wartym odwiedzenia."
+    ru: "Рим — город, который стоит посетить."
+    source: { kind: translated, id: 6535901 }
+  - form: "wartym"
+    pl: "Jest człowiekiem wartym zaufania."
+    ru: "Он человек, достойный доверия."
+    source: { kind: authored }
+  - form: "wartym"
+    pl: "Okazał się partnerem wartym zaufania."
+    ru: "Он оказался партнёром, достойным доверия."
+    source: { kind: authored }

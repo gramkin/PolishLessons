@@ -1,0 +1,157 @@
+# review
+id: gazeta
+format: 2
+lemma: "gazeta"
+rank: 1077
+pos: noun
+pron: { cyr: "газэ́та" }
+senses:
+  - id: newspaper
+    ru: "газета"
+    examples:
+      - pl: "Gdzie jest nasza gazeta?"
+        ru: "Где наша газета?"
+        source: { kind: tatoeba, id: 5974897 }
+      - pl: "Czytam gazetę."
+        ru: "Я читаю газету."
+        source: { kind: tatoeba, id: 10584443 }
+      - pl: "On czyta gazetę."
+        ru: "Он читает газету."
+        source: { kind: tatoeba, id: 3294990 }
+  - id: press
+    ru: "газета как источник новостей: w gazecie «в газете»"
+    examples:
+      - pl: "Przeczytałem o tym w gazecie."
+        ru: "Я прочёл об этом в газете."
+        source: { kind: tatoeba, id: 360084 }
+      - pl: "Nie należy wierzyć we wszystko, co jest napisane w gazecie."
+        ru: "Нельзя верить всему, что написано в газете."
+        source: { kind: tatoeba, id: 4716818 }
+  - id: buy
+    ru: "покупать, выписывать газету"
+    examples:
+      - pl: "Prenumeruję dwie gazety."
+        ru: "Я выписываю две газеты."
+        source: { kind: translated, id: 3611728 }
+      - pl: "Gazety sprzedawane są w kiosku."
+        ru: "Газеты продаются в киоске."
+        source: { kind: tatoeba, id: 2122242 }
+notes:
+  - { kind: usage, text: "Женский род, склоняется как kobieta: gazeta, gazety, gazecie, gazetę." }
+  - { kind: usage, text: "w gazecie «в газете» — предложный падеж, ровно как в русском: Przeczytałem o tym w gazecie." }
+  - { kind: false-friend, text: "Журнал — это не gazeta, а czasopismo или magazyn. А dziennik — ежедневная газета, и заодно «дневник»." }
+  - { kind: usage, text: "prenumerować gazetę значит «выписывать газету» — слово из латыни, а не из русского «подписываться»." }
+collocations:
+  - { pl: "czytać gazetę", ru: "читать газету" }
+  - { pl: "w gazecie", ru: "в газете" }
+  - { pl: "dzisiejsza gazeta", ru: "сегодняшняя газета" }
+  - { pl: "prenumerować gazetę", ru: "выписывать газету" }
+family:
+  - { pl: "gazetowy", ru: "газетный", relation: derived }
+  - { pl: "gazetka", ru: "газетка, листовка", relation: derived }
+  - { pl: "gazeciarz", ru: "газетчик, разносчик газет", relation: derived }
+etymology: "Через французское gazette из венецианского gazeta — названия мелкой монеты, за которую в XVI веке в Венеции продавали листок новостей. Русская «газета» — то же слово."
+memory: "gazeta — «газета», женский род, и предлог тот же, что в русском: w gazecie. А вот журнал — это не gazeta, а czasopismo; dziennik же значит и «ежедневная газета», и «дневник»."
+idioms:
+  - { pl: "pisać w gazecie", ru: "писать в газете" }
+  - { pl: "dzisiejsza gazeta", ru: "сегодняшняя газета" }
+formExamplesSkip:
+  - { form: "gazeto", reason: "звательный падеж у этого слова в живой речи не употребляется" }
+  - { form: "gazetom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+formExamples:
+  - form: "gazecie"
+    pl: "Przeczytałem o tym w gazecie."
+    ru: "Я прочёл об этом в газете."
+    source: { kind: tatoeba, id: 360084 }
+  - form: "gazecie"
+    pl: "Zamieścili jego zdjęcie w gazecie."
+    ru: "Его фотография была в газете."
+    source: { kind: tatoeba, id: 981797 }
+  - form: "gazecie"
+    pl: "Nie należy wierzyć we wszystko, co jest napisane w gazecie."
+    ru: "Нельзя верить всему, что написано в газете."
+    source: { kind: tatoeba, id: 4716818 }
+  - form: "gazet"
+    pl: "On nigdy nie czyta gazet."
+    ru: "Он никогда не читает газет."
+    source: { kind: tatoeba, id: 10747416 }
+  - form: "gazet"
+    pl: "Nigdy nie widziałem u Toma ani gazet, ani książek."
+    ru: "Я никогда не видел у Тома ни газет, ни книг."
+    source: { kind: tatoeba, id: 5662160 }
+  - form: "gazet"
+    pl: "Część gazet przekręciła tę wiadomość."
+    ru: "Часть газет исказила эту новость."
+    source: { kind: translated, id: 369235 }
+  - form: "gazeta"
+    pl: "Gdzie jest nasza gazeta?"
+    ru: "Где наша газета?"
+    source: { kind: tatoeba, id: 5974897 }
+  - form: "gazeta"
+    pl: "Gazeta jeszcze nie opublikowała swego artykułu."
+    ru: "Газета ещё не опубликовала его статью."
+    source: { kind: tatoeba, id: 1592127 }
+  - form: "gazeta"
+    pl: "To jest gazeta."
+    ru: "Это газета."
+    source: { kind: translated, id: 3578553 }
+  - form: "gazetach"
+    pl: "To jeszcze nie wyszło w gazetach."
+    ru: "Об этом ещё не писали в газетах."
+    source: { kind: translated, id: 3048572 }
+  - form: "gazetach"
+    pl: "Ta historia została opisana we wszystkich gazetach."
+    ru: "Эта история была описана во всех газетах."
+    source: { kind: translated, id: 970748 }
+  - form: "gazetach"
+    pl: "Ludzie wierzą we wszystko, co jest napisane w gazetach."
+    ru: "Люди верят всему, что написано в газетах."
+    source: { kind: translated, id: 525459 }
+  - form: "gazetami"
+    pl: "Co możesz zrobić ze starymi gazetami i czasopismami?"
+    ru: "Что можно сделать со старыми газетами и журналами?"
+    source: { kind: translated, id: 7960577 }
+  - form: "gazetami"
+    pl: "Stół był zawalony gazetami."
+    ru: "Стол был завален газетами."
+    source: { kind: authored }
+  - form: "gazetami"
+    pl: "Owinął buty gazetami."
+    ru: "Он обернул ботинки газетами."
+    source: { kind: authored }
+  - form: "gazetą"
+    pl: "Jaka jest różnica między czasopismem a gazetą?"
+    ru: "В чём разница между журналом и газетой?"
+    source: { kind: translated, id: 7960553 }
+  - form: "gazetą"
+    pl: "Zasłonił twarz gazetą."
+    ru: "Он закрыл лицо газетой."
+    source: { kind: authored }
+  - form: "gazetą"
+    pl: "Siedzi nad gazetą od rana."
+    ru: "Он сидит над газетой с утра."
+    source: { kind: authored }
+  - form: "gazetę"
+    pl: "Czytam gazetę."
+    ru: "Я читаю газету."
+    source: { kind: tatoeba, id: 10584443 }
+  - form: "gazetę"
+    pl: "On czyta gazetę."
+    ru: "Он читает газету."
+    source: { kind: tatoeba, id: 3294990 }
+  - form: "gazetę"
+    pl: "Jaką gazetę czytasz?"
+    ru: "Какую газету ты читаешь?"
+    source: { kind: tatoeba, id: 2810311 }
+  - form: "gazety"
+    pl: "Gazety sprzedawane są w kiosku."
+    ru: "Газеты продаются в киоске."
+    source: { kind: tatoeba, id: 2122242 }
+  - form: "gazety"
+    pl: "Ja tam kupiłem książki, czasopisma i gazety."
+    ru: "Там я купил книги, журналы, газеты."
+    source: { kind: tatoeba, id: 2501341 }
+  - form: "gazety"
+    pl: "Prenumeruję dwie gazety."
+    ru: "Я выписываю две газеты."
+    source: { kind: translated, id: 3611728 }

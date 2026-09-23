@@ -1,0 +1,114 @@
+# review
+id: strach
+format: 2
+lemma: "strach"
+rank: 1080
+pos: noun
+pron: { cyr: "страх" }
+senses:
+  - id: fear
+    ru: "страх"
+    examples:
+      - pl: "Strach ma wielkie oczy."
+        ru: "У страха глаза велики."
+        source: { kind: tatoeba, id: 1188690 }
+      - pl: "Zbladłeś ze strachu."
+        ru: "Ты побледнел от страха."
+        source: { kind: tatoeba, id: 3460166 }
+      - pl: "Mogą pokonać swój strach."
+        ru: "Они могут побороть свой страх."
+        source: { kind: translated, id: 2587151 }
+  - id: scarecrow
+    ru: "strach na wróble — пугало"
+    examples:
+      - pl: "Na polu stoi strach na wróble."
+        ru: "В поле стоит пугало."
+        source: { kind: authored }
+      - pl: "Ten strach nie odstrasza już ptaków."
+        ru: "Это пугало уже не пугает птиц."
+        source: { kind: authored }
+  - id: from-fear
+    ru: "ze strachu — от страха"
+    examples:
+      - pl: "Zbladł ze strachu."
+        ru: "Он побледнел от страха."
+        source: { kind: translated, id: 2217030 }
+      - pl: "On drży ze strachu na sam widok psa."
+        ru: "Он дрожит от страха уже от вида собаки."
+        source: { kind: tatoeba, id: 513485 }
+notes:
+  - { kind: government, text: "ze strachu «от страха» — предлог z с родительным падежом, а не «от», как в русском: Zbladł ze strachu «Он побледнел от страха»." }
+  - { kind: government, text: "strach przed czymś «страх перед чем-то» — предлог przed с творительным, здесь польский и русский совпадают." }
+  - { kind: false-friend, text: "strach na wróble — это «пугало», буквально «страх на воробьёв». Отдельного слова вроде русского «пугало» в польском нет." }
+  - { kind: usage, text: "Безличное strach значит «страшно»: Strach pomyśleć «Страшно подумать»." }
+collocations:
+  - { pl: "ze strachu", ru: "от страха" }
+  - { pl: "strach przed", ru: "страх перед" }
+  - { pl: "strach na wróble", ru: "пугало" }
+  - { pl: "paniczny strach", ru: "панический страх" }
+family:
+  - { pl: "bać się", ru: "бояться", relation: root, id: bac }
+  - { pl: "straszny", ru: "страшный", relation: derived, id: straszny }
+  - { pl: "straszyć", ru: "пугать", relation: derived }
+etymology: "Праславянское *strachъ — то же слово, что русский «страх», без изменений в значении."
+memory: "strach — «страх», мужской род. Главное запомнить оборот ze strachu «от страха»: предлог z с родительным, а не «от». И strach na wróble значит «пугало»."
+idioms:
+  - { pl: "strach ma wielkie oczy", ru: "у страха глаза велики" }
+  - { pl: "najeść się strachu", ru: "натерпеться страху" }
+  - { pl: "strachy na Lachy", ru: "пустые страшилки" }
+formExamplesSkip:
+  - { form: "stracha", reason: "в корпусе нет примеров; эта форма живёт в основном в обороте najeść się stracha «натерпеться страху»" }
+  - { form: "strachach", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "strachami", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "strachom", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "strachowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+  - { form: "strachy", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+formExamples:
+  - form: "strach"
+    pl: "Strach ma wielkie oczy."
+    ru: "У страха глаза велики."
+    source: { kind: tatoeba, id: 1188690 }
+  - form: "strach"
+    pl: "Strach zwycięża."
+    ru: "Страх побеждает."
+    source: { kind: translated, id: 6306782 }
+  - form: "strach"
+    pl: "Mogą pokonać swój strach."
+    ru: "Они могут побороть свой страх."
+    source: { kind: translated, id: 2587151 }
+  - form: "strachem"
+    pl: "Był sparaliżowany strachem."
+    ru: "Он был парализован страхом."
+    source: { kind: translated, id: 826638 }
+  - form: "strachem"
+    pl: "Walczył ze strachem przed wodą."
+    ru: "Он боролся со страхом перед водой."
+    source: { kind: authored }
+  - form: "strachem"
+    pl: "Patrzył na mnie ze strachem."
+    ru: "Он смотрел на меня со страхом."
+    source: { kind: authored }
+  - form: "strachów"
+    pl: "Zazwyczaj nie pozwalasz innym zobaczyć twoich strachów."
+    ru: "Обычно ты не даёшь другим увидеть свои страхи."
+    source: { kind: translated, id: 13783769 }
+  - form: "strachów"
+    pl: "Nie da się uciec od własnych strachów."
+    ru: "От собственных страхов не убежишь."
+    source: { kind: authored }
+  - form: "strachów"
+    pl: "Lista jego strachów jest długa."
+    ru: "Список его страхов длинный."
+    source: { kind: authored }
+  - form: "strachu"
+    pl: "Zbladłeś ze strachu."
+    ru: "Ты побледнел от страха."
+    source: { kind: tatoeba, id: 3460166 }
+  - form: "strachu"
+    pl: "On drży ze strachu na sam widok psa."
+    ru: "Он дрожит от страха уже от вида собаки."
+    source: { kind: tatoeba, id: 513485 }
+  - form: "strachu"
+    pl: "Zbladł ze strachu."
+    ru: "Он побледнел от страха."
+    source: { kind: translated, id: 2217030 }

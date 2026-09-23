@@ -86,6 +86,12 @@ exclude:
   # an English given name used as a Tatoeba placeholder character, not Polish
   # vocabulary; PoliMorf invents a paradigm for it (Jacka, Jackiem) — same as john
   - jack
+  # "nick" here is the English given name Nick, not the Polish borrowing for an
+  # online handle: all five lines under the base form are "Nick jest mi winny
+  # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
+  # only other attested form is "Gardzisz Nickiem" -- capitalised throughout -- and
+  # 8 of the 10 forms have no corpus at all. Same class as john, jack and sir.
+  - nick
   # tagged adj, but it is not a lemma: the candidates split three ways — the noun
   # "rana" (Czas leczy rany, od rana), the verb "ranić" (Odrzucenie rani) and the
   # interjection "o rany". The rana card will own the noun forms.
