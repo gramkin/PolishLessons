@@ -1,0 +1,681 @@
+# review
+id: trwac
+format: 2
+lemma: "trwać"
+rank: 923
+pos: verb
+aspect: imperf
+pron: { cyr: "трваць" }
+senses:
+  - id: last
+    ru: "длиться, продолжаться"
+    examples:
+      - pl: "Jak długo to trwa?"
+        ru: "Как долго это длится?"
+        source: { kind: tatoeba, id: 6313128 }
+      - pl: "Wojna trwała cztery lata."
+        ru: "Война продолжалась четыре года."
+        source: { kind: tatoeba, id: 3373931 }
+      - pl: "Korek trwał godzinę."
+        ru: "Пробка длилась час."
+        source: { kind: tatoeba, id: 7868549 }
+  - id: forever
+    ru: "trwać wiecznie — длиться вечно"
+    examples:
+      - pl: "Wiem, że nic nie trwa wiecznie."
+        ru: "Я знаю, что ничто не длится вечно."
+        source: { kind: tatoeba, id: 4953052 }
+      - pl: "Ani radość ani smutek nie trwają wiecznie."
+        ru: "Ни радость, ни печаль не длятся вечно."
+        source: { kind: tatoeba, id: 3754116 }
+      - pl: "Prawdziwa przyjaźń będzie trwać zawsze."
+        ru: "Настоящая дружба будет длиться вечно."
+        source: { kind: tatoeba, id: 6602721 }
+  - id: persist
+    ru: "trwać przy czymś — держаться чего-л., упорствовать"
+    note: "С предлогом przy глагол значит «не отступать»."
+    examples:
+      - pl: "Trwali w małżeństwie z myślą o dzieciach."
+        ru: "Они не разводились ради детей."
+        source: { kind: translated, id: 842090 }
+      - pl: "Trwał przy swoim zdaniu."
+        ru: "Он держался своего мнения."
+        source: { kind: authored }
+      - pl: "Trwamy przy dawnych zwyczajach."
+        ru: "Мы держимся прежних обычаев."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Подлежащее при глаголе — обычно событие или отрезок времени, а не человек: Wojna trwała cztery lata «Война длилась четыре года», Film trwał dwie godziny." }
+  - { kind: government, text: "trwać PRZY czymś значит «держаться чего-то, упорствовать»: trwać przy swoim zdaniu «стоять на своём». Тут подлежащим уже бывает человек." }
+  - { kind: usage, text: "Совершенного вида у глагола по сути нет: «продлиться» передаётся через potrwać. Ile to potrwa? «Сколько это продлится?»." }
+  - { kind: usage, text: "Прилагательное trwały значит «прочный, долговечный», существительное trwanie — «длительность». А nietrwały — «непрочный»." }
+collocations:
+  - { pl: "jak długo to trwa?", ru: "как долго это длится?" }
+  - { pl: "trwać wiecznie", ru: "длиться вечно" }
+  - { pl: "trwać przy swoim", ru: "стоять на своём" }
+  - { pl: "trwały", ru: "прочный" }
+family:
+  - { pl: "potrwać", ru: "продлиться", relation: aspect }
+  - { pl: "trwały", ru: "прочный", relation: derived }
+  - { pl: "trwanie", ru: "длительность", relation: derived }
+etymology: "Праславянское *trъvati «сносить, длиться». В русском прямого потомка нет — «длиться» слово другого корня, — так что trwać запоминается отдельно."
+memory: "trwać — «длиться, продолжаться». Подлежащее обычно событие, а не человек: Wojna trwała cztery lata. Но с предлогом przy глагол меняет роль: trwać przy swoim zdaniu «стоять на своём». Совершенный вид — potrwać: Ile to potrwa?"
+idioms:
+  - { pl: "jak długo to trwa?", ru: "как долго это длится?" }
+  - { pl: "trwać wiecznie", ru: "длиться вечно" }
+  - { pl: "trwać przy swoim", ru: "стоять на своём" }
+formExamplesSkip:
+  - { form: "trwano", reason: "trwać — непереходный глагол: страдательных форм он не образует" }
+formExamples:
+  - form: "trwa"
+    pl: "Jak długo to trwa?"
+    ru: "Как долго это длится?"
+    source: { kind: tatoeba, id: 6313128 }
+  - form: "trwa"
+    pl: "Wiem, że nic nie trwa wiecznie."
+    ru: "Я знаю, что ничто не длится вечно."
+    source: { kind: tatoeba, id: 4953052 }
+  - form: "trwa"
+    pl: "Spotkanie trwa już godzinę."
+    ru: "Встреча длится уже час."
+    source: { kind: authored }
+  - form: "trwacie"
+    pl: "Jak długo trwacie przy tym pomyśle?"
+    ru: "Как долго вы держитесь этой идеи?"
+    source: { kind: authored }
+  - form: "trwacie"
+    pl: "Trwacie w milczeniu od godziny."
+    ru: "Вы молчите уже час."
+    source: { kind: authored }
+  - form: "trwacie"
+    pl: "Trwacie przy swoim zdaniu."
+    ru: "Вы стоите на своём."
+    source: { kind: authored }
+  - form: "trwać"
+    pl: "Prawdziwa przyjaźń będzie trwać zawsze."
+    ru: "Настоящая дружба будет длиться вечно."
+    source: { kind: tatoeba, id: 6602721 }
+  - form: "trwać"
+    pl: "Będzie to trwać długo?"
+    ru: "Это будет долго длиться?"
+    source: { kind: translated, id: 8765920 }
+  - form: "trwać"
+    pl: "To nie może trwać wiecznie."
+    ru: "Это не может длиться вечно."
+    source: { kind: authored }
+  - form: "trwaj"
+    pl: "Trwaj przy swoim zdaniu."
+    ru: "Стой на своём."
+    source: { kind: authored }
+  - form: "trwaj"
+    pl: "Trwaj w postanowieniu."
+    ru: "Держись своего решения."
+    source: { kind: authored }
+  - form: "trwaj"
+    pl: "Nie trwaj w tym uporze."
+    ru: "Не упорствуй."
+    source: { kind: authored }
+  - form: "trwają"
+    pl: "Ani radość ani smutek nie trwają wiecznie."
+    ru: "Ни радость, ни печаль не длятся вечно."
+    source: { kind: tatoeba, id: 3754116 }
+  - form: "trwają"
+    pl: "Trwają zamieszki."
+    ru: "Беспорядки продолжаются."
+    source: { kind: translated, id: 12227265 }
+  - form: "trwają"
+    pl: "Prace trwają od wiosny."
+    ru: "Работы идут с весны."
+    source: { kind: authored }
+  - form: "trwając"
+    pl: "Trwając przy swoim, stracił przyjaciół."
+    ru: "Упорствуя, он потерял друзей."
+    source: { kind: authored }
+  - form: "trwając"
+    pl: "Trwając w milczeniu, czekali na wyrok."
+    ru: "Храня молчание, они ждали приговора."
+    source: { kind: authored }
+  - form: "trwając"
+    pl: "Trwając latami, spór stał się nawykiem."
+    ru: "Длясь годами, спор стал привычкой."
+    source: { kind: authored }
+  - form: "trwająca"
+    pl: "Trwająca od rana ulewa nie ustaje."
+    ru: "Идущий с утра ливень не прекращается."
+    source: { kind: authored }
+  - form: "trwająca"
+    pl: "Cisza trwająca zbyt długo niepokoi."
+    ru: "Тишина, длящаяся слишком долго, тревожит."
+    source: { kind: authored }
+  - form: "trwająca"
+    pl: "Wojna trwająca cztery lata wyniszczyła kraj."
+    ru: "Война, длившаяся четыре года, разорила страну."
+    source: { kind: authored }
+  - form: "trwającą"
+    pl: "Przerwano trwającą godzinę dyskusję."
+    ru: "Прервали длившуюся час дискуссию."
+    source: { kind: authored }
+  - form: "trwającą"
+    pl: "Obserwował trwającą od rana ulewę."
+    ru: "Он наблюдал идущий с утра ливень."
+    source: { kind: authored }
+  - form: "trwającą"
+    pl: "Uznali ciszę za trwającą zbyt długo."
+    ru: "Тишину сочли слишком долгой."
+    source: { kind: authored }
+  - form: "trwające"
+    pl: "Trwające prace utrudniają przejazd."
+    ru: "Идущие работы затрудняют проезд."
+    source: { kind: authored }
+  - form: "trwające"
+    pl: "Rozmowy trwające od rana nic nie dały."
+    ru: "Переговоры, идущие с утра, ничего не дали."
+    source: { kind: authored }
+  - form: "trwające"
+    pl: "Trwające deszcze zalały pola."
+    ru: "Идущие дожди залили поля."
+    source: { kind: authored }
+  - form: "trwającego"
+    pl: "Nie ma końca trwającego sporu."
+    ru: "Идущему спору не видно конца."
+    source: { kind: authored }
+  - form: "trwającego"
+    pl: "Dotyczy to trwającego remontu."
+    ru: "Это касается идущего ремонта."
+    source: { kind: authored }
+  - form: "trwającego"
+    pl: "Szukam protokołu z trwającego posiedzenia."
+    ru: "Я ищу протокол идущего заседания."
+    source: { kind: authored }
+  - form: "trwającej"
+    pl: "Nie ma końca trwającej dyskusji."
+    ru: "Идущей дискуссии не видно конца."
+    source: { kind: authored }
+  - form: "trwającej"
+    pl: "Dotyczy to trwającej od rana ulewy."
+    ru: "Это касается идущего с утра ливня."
+    source: { kind: authored }
+  - form: "trwającej"
+    pl: "Szukam protokołu z trwającej rozprawy."
+    ru: "Я ищу протокол идущего заседания суда."
+    source: { kind: authored }
+  - form: "trwającemu"
+    pl: "Przyjrzał się trwającemu sporowi."
+    ru: "Он присмотрелся к идущему спору."
+    source: { kind: authored }
+  - form: "trwającemu"
+    pl: "Położono kres trwającemu hałasowi."
+    ru: "Идущему шуму положили конец."
+    source: { kind: authored }
+  - form: "trwającemu"
+    pl: "Przyglądał się trwającemu remontowi."
+    ru: "Он наблюдал за идущим ремонтом."
+    source: { kind: authored }
+  - form: "trwający"
+    pl: "Trwający od rana deszcz nie ustaje."
+    ru: "Идущий с утра дождь не прекращается."
+    source: { kind: authored }
+  - form: "trwający"
+    pl: "To spór trwający od lat."
+    ru: "Это спор, идущий уже годы."
+    source: { kind: authored }
+  - form: "trwający"
+    pl: "Remont trwający pół roku wreszcie się skończył."
+    ru: "Ремонт, шедший полгода, наконец кончился."
+    source: { kind: authored }
+  - form: "trwających"
+    pl: "Nie ma tu prac trwających dłużej niż rok."
+    ru: "Здесь нет работ, идущих дольше года."
+    source: { kind: authored }
+  - form: "trwających"
+    pl: "Wśród trwających sporów ten jest najstarszy."
+    ru: "Среди идущих споров этот самый старый."
+    source: { kind: authored }
+  - form: "trwających"
+    pl: "Szukam danych o trwających remontach."
+    ru: "Я ищу данные об идущих ремонтах."
+    source: { kind: authored }
+  - form: "trwającym"
+    pl: "Aby stawić czoła trwającym rosyjskim kampaniom dezinformacyjnym, musimy opracować narodową strategię przeciwdziałania dezinformacji."
+    ru: "Чтобы противостоять продолжающимся российским кампаниям дезинформации, нужна национальная стратегия."
+    source: { kind: translated, id: 13832477 }
+  - form: "trwającym"
+    pl: "W trwającym sporze nikt nie ustępuje."
+    ru: "В продолжающемся споре никто не уступает."
+    source: { kind: authored }
+  - form: "trwającym"
+    pl: "Przyjrzał się trwającym pracom."
+    ru: "Он присмотрелся к идущим работам."
+    source: { kind: authored }
+  - form: "trwającymi"
+    pl: "Zajmuje się trwającymi sprawami."
+    ru: "Он занимается идущими делами."
+    source: { kind: authored }
+  - form: "trwającymi"
+    pl: "Między trwającymi a zakończonymi projektami jest różnica."
+    ru: "Между идущими и завершёнными проектами есть разница."
+    source: { kind: authored }
+  - form: "trwającymi"
+    pl: "Wrócił z trwającymi wciąż wątpliwościami."
+    ru: "Он вернулся с всё ещё длящимися сомнениями."
+    source: { kind: authored }
+  - form: "trwajcie"
+    pl: "Trwajcie przy swoim zdaniu."
+    ru: "Стойте на своём."
+    source: { kind: authored }
+  - form: "trwajcie"
+    pl: "Trwajcie w postanowieniu."
+    ru: "Держитесь своего решения."
+    source: { kind: authored }
+  - form: "trwajcie"
+    pl: "Nie trwajcie w tym uporze."
+    ru: "Не упорствуйте."
+    source: { kind: authored }
+  - form: "trwajmy"
+    pl: "Trwajmy przy swoim zdaniu."
+    ru: "Будем стоять на своём."
+    source: { kind: authored }
+  - form: "trwajmy"
+    pl: "Trwajmy w postanowieniu."
+    ru: "Будем держаться решения."
+    source: { kind: authored }
+  - form: "trwajmy"
+    pl: "Nie trwajmy w tym uporze."
+    ru: "Не будем упорствовать."
+    source: { kind: authored }
+  - form: "trwali"
+    pl: "Trwali w małżeństwie z myślą o dzieciach."
+    ru: "Они не разводились ради детей."
+    source: { kind: translated, id: 842090 }
+  - form: "trwali"
+    pl: "Trwali przy swoim zdaniu do końca."
+    ru: "Они стояли на своём до конца."
+    source: { kind: authored }
+  - form: "trwali"
+    pl: "Trwali w milczeniu."
+    ru: "Они хранили молчание."
+    source: { kind: authored }
+  - form: "trwaliby"
+    pl: "Trwaliby przy swoim, gdyby mogli."
+    ru: "Они стояли бы на своём, если бы могли."
+    source: { kind: authored }
+  - form: "trwaliby"
+    pl: "Nie trwaliby w tym uporze."
+    ru: "Они не упорствовали бы."
+    source: { kind: authored }
+  - form: "trwaliby"
+    pl: "Trwaliby w milczeniu."
+    ru: "Они хранили бы молчание."
+    source: { kind: authored }
+  - form: "trwalibyście"
+    pl: "Trwalibyście przy swoim zdaniu?"
+    ru: "Вы стояли бы на своём?"
+    source: { kind: authored }
+  - form: "trwalibyście"
+    pl: "Nie trwalibyście w tym uporze."
+    ru: "Вы не упорствовали бы."
+    source: { kind: authored }
+  - form: "trwalibyście"
+    pl: "Trwalibyście w milczeniu."
+    ru: "Вы хранили бы молчание."
+    source: { kind: authored }
+  - form: "trwalibyśmy"
+    pl: "Trwalibyśmy przy swoim zdaniu."
+    ru: "Мы стояли бы на своём."
+    source: { kind: authored }
+  - form: "trwalibyśmy"
+    pl: "Nie trwalibyśmy w tym uporze."
+    ru: "Мы не упорствовали бы."
+    source: { kind: authored }
+  - form: "trwalibyśmy"
+    pl: "Trwalibyśmy w milczeniu."
+    ru: "Мы хранили бы молчание."
+    source: { kind: authored }
+  - form: "trwaliście"
+    pl: "Trwaliście przy swoim zdaniu?"
+    ru: "Вы стояли на своём?"
+    source: { kind: authored }
+  - form: "trwaliście"
+    pl: "Trwaliście w milczeniu."
+    ru: "Вы хранили молчание."
+    source: { kind: authored }
+  - form: "trwaliście"
+    pl: "Długo trwaliście przy tym pomyśle."
+    ru: "Вы долго держались этой идеи."
+    source: { kind: authored }
+  - form: "trwaliśmy"
+    pl: "Trwaliśmy przy swoim zdaniu."
+    ru: "Мы стояли на своём."
+    source: { kind: authored }
+  - form: "trwaliśmy"
+    pl: "Trwaliśmy w milczeniu."
+    ru: "Мы хранили молчание."
+    source: { kind: authored }
+  - form: "trwaliśmy"
+    pl: "Długo trwaliśmy przy tym pomyśle."
+    ru: "Мы долго держались этой идеи."
+    source: { kind: authored }
+  - form: "trwał"
+    pl: "Korek trwał godzinę."
+    ru: "Пробка длилась час."
+    source: { kind: tatoeba, id: 7868549 }
+  - form: "trwał"
+    pl: "Film trwał 2 godziny."
+    ru: "Фильм длился два часа."
+    source: { kind: translated, id: 349028 }
+  - form: "trwał"
+    pl: "Koncert trwał trzy godziny."
+    ru: "Концерт длился три часа."
+    source: { kind: authored }
+  - form: "trwała"
+    pl: "Wojna trwała cztery lata."
+    ru: "Война продолжалась четыре года."
+    source: { kind: tatoeba, id: 3373931 }
+  - form: "trwała"
+    pl: "Wojna trwała dwa lata."
+    ru: "Война длилась два года."
+    source: { kind: translated, id: 1517165 }
+  - form: "trwała"
+    pl: "Cisza trwała długo."
+    ru: "Тишина длилась долго."
+    source: { kind: authored }
+  - form: "trwałaby"
+    pl: "Cisza trwałaby dłużej."
+    ru: "Тишина длилась бы дольше."
+    source: { kind: authored }
+  - form: "trwałaby"
+    pl: "Wojna trwałaby latami."
+    ru: "Война длилась бы годами."
+    source: { kind: authored }
+  - form: "trwałaby"
+    pl: "Rozmowa trwałaby w nieskończoność."
+    ru: "Разговор длился бы бесконечно."
+    source: { kind: authored }
+  - form: "trwałabym"
+    pl: "Trwałabym przy swoim zdaniu."
+    ru: "Я стояла бы на своём."
+    source: { kind: authored }
+  - form: "trwałabym"
+    pl: "Nie trwałabym w tym uporze."
+    ru: "Я не упорствовала бы."
+    source: { kind: authored }
+  - form: "trwałabym"
+    pl: "Trwałabym w milczeniu."
+    ru: "Я хранила бы молчание."
+    source: { kind: authored }
+  - form: "trwałabyś"
+    pl: "Trwałabyś przy swoim zdaniu?"
+    ru: "Ты стояла бы на своём?"
+    source: { kind: authored }
+  - form: "trwałabyś"
+    pl: "Nie trwałabyś w tym uporze."
+    ru: "Ты не упорствовала бы."
+    source: { kind: authored }
+  - form: "trwałabyś"
+    pl: "Trwałabyś w milczeniu."
+    ru: "Ты хранила бы молчание."
+    source: { kind: authored }
+  - form: "trwałam"
+    pl: "Trwałam przy swoim zdaniu."
+    ru: "Я стояла на своём."
+    source: { kind: authored }
+  - form: "trwałam"
+    pl: "Trwałam w milczeniu."
+    ru: "Я хранила молчание."
+    source: { kind: authored }
+  - form: "trwałam"
+    pl: "Długo trwałam przy tym pomyśle."
+    ru: "Я долго держалась этой идеи."
+    source: { kind: authored }
+  - form: "trwałaś"
+    pl: "Trwałaś przy swoim zdaniu?"
+    ru: "Ты стояла на своём?"
+    source: { kind: authored }
+  - form: "trwałaś"
+    pl: "Trwałaś w milczeniu."
+    ru: "Ты хранила молчание."
+    source: { kind: authored }
+  - form: "trwałaś"
+    pl: "Długo trwałaś przy tym pomyśle."
+    ru: "Ты долго держалась этой идеи."
+    source: { kind: authored }
+  - form: "trwałby"
+    pl: "Spór trwałby latami."
+    ru: "Спор длился бы годами."
+    source: { kind: authored }
+  - form: "trwałby"
+    pl: "Remont trwałby pół roku."
+    ru: "Ремонт длился бы полгода."
+    source: { kind: authored }
+  - form: "trwałby"
+    pl: "Trwałby przy swoim zdaniu."
+    ru: "Он стоял бы на своём."
+    source: { kind: authored }
+  - form: "trwałbym"
+    pl: "Trwałbym przy swoim zdaniu."
+    ru: "Я стоял бы на своём."
+    source: { kind: authored }
+  - form: "trwałbym"
+    pl: "Nie trwałbym w tym uporze."
+    ru: "Я не упорствовал бы."
+    source: { kind: authored }
+  - form: "trwałbym"
+    pl: "Trwałbym w milczeniu."
+    ru: "Я хранил бы молчание."
+    source: { kind: authored }
+  - form: "trwałbyś"
+    pl: "Trwałbyś przy swoim zdaniu?"
+    ru: "Ты стоял бы на своём?"
+    source: { kind: authored }
+  - form: "trwałbyś"
+    pl: "Nie trwałbyś w tym uporze."
+    ru: "Ты не упорствовал бы."
+    source: { kind: authored }
+  - form: "trwałbyś"
+    pl: "Trwałbyś w milczeniu."
+    ru: "Ты хранил бы молчание."
+    source: { kind: authored }
+  - form: "trwałem"
+    pl: "Trwałem przy swoim zdaniu."
+    ru: "Я стоял на своём."
+    source: { kind: authored }
+  - form: "trwałem"
+    pl: "Trwałem w milczeniu."
+    ru: "Я хранил молчание."
+    source: { kind: authored }
+  - form: "trwałem"
+    pl: "Długo trwałem przy tym pomyśle."
+    ru: "Я долго держался этой идеи."
+    source: { kind: authored }
+  - form: "trwałeś"
+    pl: "Trwałeś przy swoim zdaniu?"
+    ru: "Ты стоял на своём?"
+    source: { kind: authored }
+  - form: "trwałeś"
+    pl: "Trwałeś w milczeniu."
+    ru: "Ты хранил молчание."
+    source: { kind: authored }
+  - form: "trwałeś"
+    pl: "Długo trwałeś przy tym pomyśle."
+    ru: "Ты долго держался этой идеи."
+    source: { kind: authored }
+  - form: "trwało"
+    pl: "Leczenie przeziębienia trwało tydzień."
+    ru: "На лечение простуды ушла неделя."
+    source: { kind: tatoeba, id: 1459941 }
+  - form: "trwało"
+    pl: "To nie trwało długo."
+    ru: "Это длилось недолго."
+    source: { kind: translated, id: 3841300 }
+  - form: "trwało"
+    pl: "Czekanie trwało w nieskończoność."
+    ru: "Ожидание длилось бесконечно."
+    source: { kind: authored }
+  - form: "trwałoby"
+    pl: "To trwałoby w nieskończoność."
+    ru: "Это длилось бы бесконечно."
+    source: { kind: authored }
+  - form: "trwałoby"
+    pl: "Spotkanie trwałoby dłużej."
+    ru: "Встреча длилась бы дольше."
+    source: { kind: authored }
+  - form: "trwałoby"
+    pl: "Czekanie trwałoby godzinami."
+    ru: "Ожидание длилось бы часами."
+    source: { kind: authored }
+  - form: "trwały"
+    pl: "Oklaski trwały całą godzinę."
+    ru: "Аплодисменты длились целый час."
+    source: { kind: tatoeba, id: 1350420 }
+  - form: "trwały"
+    pl: "Zamieszki trwały 3 dni."
+    ru: "Беспорядки длились три дня."
+    source: { kind: translated, id: 1451482 }
+  - form: "trwały"
+    pl: "Rozmowy trwały do rana."
+    ru: "Переговоры шли до утра."
+    source: { kind: authored }
+  - form: "trwałyby"
+    pl: "Gdyby wina leżała tylko po jednej stronie, kłótnie nie trwałyby długo."
+    ru: "Если бы вина лежала лишь на одной стороне, ссоры не длились бы долго."
+    source: { kind: translated, id: 734364 }
+  - form: "trwałyby"
+    pl: "Prace trwałyby dłużej bez pomocy."
+    ru: "Работы длились бы дольше без помощи."
+    source: { kind: authored }
+  - form: "trwałyby"
+    pl: "Rozmowy trwałyby w nieskończoność."
+    ru: "Переговоры длились бы бесконечно."
+    source: { kind: authored }
+  - form: "trwałybyście"
+    pl: "Trwałybyście przy swoim zdaniu?"
+    ru: "Вы стояли бы на своём?"
+    source: { kind: authored }
+  - form: "trwałybyście"
+    pl: "Nie trwałybyście w tym uporze."
+    ru: "Вы не упорствовали бы."
+    source: { kind: authored }
+  - form: "trwałybyście"
+    pl: "Trwałybyście w milczeniu."
+    ru: "Вы хранили бы молчание."
+    source: { kind: authored }
+  - form: "trwałybyśmy"
+    pl: "Trwałybyśmy przy swoim zdaniu."
+    ru: "Мы стояли бы на своём."
+    source: { kind: authored }
+  - form: "trwałybyśmy"
+    pl: "Nie trwałybyśmy w tym uporze."
+    ru: "Мы не упорствовали бы."
+    source: { kind: authored }
+  - form: "trwałybyśmy"
+    pl: "Trwałybyśmy w milczeniu."
+    ru: "Мы хранили бы молчание."
+    source: { kind: authored }
+  - form: "trwałyście"
+    pl: "Trwałyście przy swoim zdaniu?"
+    ru: "Вы стояли на своём?"
+    source: { kind: authored }
+  - form: "trwałyście"
+    pl: "Trwałyście w milczeniu."
+    ru: "Вы хранили молчание."
+    source: { kind: authored }
+  - form: "trwałyście"
+    pl: "Długo trwałyście przy tym pomyśle."
+    ru: "Вы долго держались этой идеи."
+    source: { kind: authored }
+  - form: "trwałyśmy"
+    pl: "Trwałyśmy przy swoim zdaniu."
+    ru: "Мы стояли на своём."
+    source: { kind: authored }
+  - form: "trwałyśmy"
+    pl: "Trwałyśmy w milczeniu."
+    ru: "Мы хранили молчание."
+    source: { kind: authored }
+  - form: "trwałyśmy"
+    pl: "Długo trwałyśmy przy tym pomyśle."
+    ru: "Мы долго держались этой идеи."
+    source: { kind: authored }
+  - form: "trwam"
+    pl: "Trwam przy swoim zdaniu."
+    ru: "Я стою на своём."
+    source: { kind: authored }
+  - form: "trwam"
+    pl: "Trwam w postanowieniu."
+    ru: "Я держусь своего решения."
+    source: { kind: authored }
+  - form: "trwam"
+    pl: "Trwam przy dawnych zwyczajach."
+    ru: "Я держусь прежних обычаев."
+    source: { kind: authored }
+  - form: "trwamy"
+    pl: "Trwamy przy swoim zdaniu."
+    ru: "Мы стоим на своём."
+    source: { kind: authored }
+  - form: "trwamy"
+    pl: "Trwamy w postanowieniu."
+    ru: "Мы держимся своего решения."
+    source: { kind: authored }
+  - form: "trwamy"
+    pl: "Trwamy przy dawnych zwyczajach."
+    ru: "Мы держимся прежних обычаев."
+    source: { kind: authored }
+  - form: "trwania"
+    pl: "W czasie trwania projektu biorące udział kraje i regiony będą porównywać i wymieniać doświadczenia w celu ulepszenia kompetencji społecznych ludności i współpracowników służby zdrowia."
+    ru: "В течение срока действия проекта участвующие страны и регионы смогут сравнить и обменяться опытом в области национальных и региональных стратегий для улучшения социальной компетенции населения и сотрудников здравоохранения."
+    source: { kind: tatoeba, id: 1846963 }
+  - form: "trwania"
+    pl: "Czas trwania filmu to dwie godziny."
+    ru: "Продолжительность фильма — два часа."
+    source: { kind: authored }
+  - form: "trwania"
+    pl: "W czasie trwania remontu sklep jest zamknięty."
+    ru: "На время ремонта магазин закрыт."
+    source: { kind: authored }
+  - form: "trwanie"
+    pl: "Trwanie w takim sporze nie ma sensu."
+    ru: "Упорствовать в таком споре бессмысленно."
+    source: { kind: authored }
+  - form: "trwanie"
+    pl: "Trwanie filmu to dwie godziny."
+    ru: "Продолжительность фильма — два часа."
+    source: { kind: authored }
+  - form: "trwanie"
+    pl: "Trwanie przy swoim wymaga odwagi."
+    ru: "Стоять на своём требует смелости."
+    source: { kind: authored }
+  - form: "trwaniem"
+    pl: "Zmęczył się trwaniem w niepewności."
+    ru: "Он устал пребывать в неизвестности."
+    source: { kind: authored }
+  - form: "trwaniem"
+    pl: "Przed trwaniem w uporze ostrzegano go."
+    ru: "Его предостерегали от упорства."
+    source: { kind: authored }
+  - form: "trwaniem"
+    pl: "Skończyło się trwaniem przy dawnym planie."
+    ru: "Кончилось тем, что остались при прежнем плане."
+    source: { kind: authored }
+  - form: "trwaniu"
+    pl: "Po trwaniu w ciszy ktoś wreszcie przemówił."
+    ru: "После долгого молчания кто-то наконец заговорил."
+    source: { kind: authored }
+  - form: "trwaniu"
+    pl: "Mówili o trwaniu remontu."
+    ru: "Они говорили о длительности ремонта."
+    source: { kind: authored }
+  - form: "trwaniu"
+    pl: "W trwaniu przy swoim jest i upór, i wierność."
+    ru: "В том, чтобы стоять на своём, есть и упрямство, и верность."
+    source: { kind: authored }
+  - form: "trwasz"
+    pl: "Trwasz przy swoim zdaniu?"
+    ru: "Ты стоишь на своём?"
+    source: { kind: authored }
+  - form: "trwasz"
+    pl: "Trwasz w postanowieniu."
+    ru: "Ты держишься своего решения."
+    source: { kind: authored }
+  - form: "trwasz"
+    pl: "Trwasz przy dawnych zwyczajach."
+    ru: "Ты держишься прежних обычаев."
+    source: { kind: authored }

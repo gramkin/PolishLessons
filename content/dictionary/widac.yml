@@ -1,0 +1,89 @@
+# review
+id: widac
+format: 2
+lemma: "widać"
+rank: 922
+pos: adv
+pron: { cyr: "ви́даць" }
+senses:
+  - id: visible
+    ru: "видно, видать (безлично)"
+    note: "Слово неизменяемое: подлежащего при нём нет."
+    examples:
+      - pl: "Na ulicy nie było widać ani jednej duszy."
+        ru: "На улице не было видно ни души."
+        source: { kind: tatoeba, id: 3460669 }
+      - pl: "Na niebie nie było widać ani jednej gwiazdy."
+        ru: "На небе не было видно ни одной звезды."
+        source: { kind: tatoeba, id: 620825 }
+      - pl: "Była gęsta mgła, nie było widać nic na wyciągnięcie ręki."
+        ru: "Была густая мгла, не было видно дальше вытянутой руки."
+        source: { kind: tatoeba, id: 349502 }
+  - id: evident
+    ru: "widać, że… — видно, что…"
+    examples:
+      - pl: "Widać było, że Tom płakał."
+        ru: "Было видно, что Том плакал."
+        source: { kind: tatoeba, id: 6315336 }
+      - pl: "Widać, że się cieszy."
+        ru: "Видно, что он рад."
+        source: { kind: authored }
+      - pl: "Widać było, że kłamie."
+        ru: "Было видно, что он лжёт."
+        source: { kind: authored }
+  - id: apparently
+    ru: "видимо, по-видимому (вводное)"
+    examples:
+      - pl: "Widać nie zdążył na pociąg."
+        ru: "Видимо, он не успел на поезд."
+        source: { kind: authored }
+      - pl: "Widać tak miało być."
+        ru: "Видно, так тому и быть."
+        source: { kind: authored }
+      - pl: "Nikogo nie ma, widać wyszli."
+        ru: "Никого нет, видимо, вышли."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Слово безличное и неизменяемое: подлежащего при нём не бывает, как у русского «видно». Прошедшее время строится с było: Widać było, że Tom płakał «Было видно, что Том плакал». Будущее — będzie widać." }
+  - { kind: government, text: "При отрицании дополнение уходит в родительный, как и в русском: Nie było widać ani jednej gwiazdy «Не было видно ни одной звезды»." }
+  - { kind: usage, text: "Во вводном употреблении значит «видимо, по-видимому»: Widać tak miało być «Видно, так тому и быть»." }
+  - { kind: usage, text: "Не путайте с глаголом widzieć «видеть»: у того есть лицо и число (widzę, widzisz), а widać — застывшая безличная форма." }
+collocations:
+  - { pl: "widać, że", ru: "видно, что" }
+  - { pl: "widać było", ru: "было видно" }
+  - { pl: "nie widać", ru: "не видно" }
+  - { pl: "widać gołym okiem", ru: "видно невооружённым глазом" }
+family:
+  - { pl: "widzieć", ru: "видеть", relation: root, id: widziec }
+  - { pl: "widok", ru: "вид", relation: derived }
+etymology: "Застывшая форма от widzieć «видеть». Русское «видно» и «видать» устроены так же — это тоже безличные формы от «видеть»."
+memory: "widać — «видно», слово безличное и неизменяемое: подлежащего при нём нет. Прошедшее — widać było, будущее — będzie widać. Во вводном употреблении значит «видимо»: Widać tak miało być. Не путайте с widzieć, у которого есть лицо и число."
+idioms:
+  - { pl: "widać, że", ru: "видно, что" }
+  - { pl: "widać gołym okiem", ru: "видно невооружённым глазом" }
+  - { pl: "widać jak na dłoni", ru: "видно как на ладони" }
+formExamples:
+  - form: "widać"
+    pl: "Widać było, że Tom płakał."
+    ru: "Было видно, что Том плакал."
+    source: { kind: tatoeba, id: 6315336 }
+  - form: "widać"
+    pl: "Na ulicy nie było widać ani jednej duszy."
+    ru: "На улице не было видно ни души."
+    source: { kind: tatoeba, id: 3460669 }
+  - form: "widać"
+    pl: "Na niebie nie było widać ani jednej gwiazdy."
+    ru: "На небе не было видно ни одной звезды."
+    source: { kind: tatoeba, id: 620825 }
+  - form: "widać"
+    pl: "Była gęsta mgła, nie było widać nic na wyciągnięcie ręki."
+    ru: "Была густая мгла, не было видно дальше вытянутой руки."
+    source: { kind: tatoeba, id: 349502 }
+  - form: "widać"
+    pl: "Widać, że się cieszy."
+    ru: "Видно, что он рад."
+    source: { kind: authored }
+  - form: "widać"
+    pl: "Widać tak miało być."
+    ru: "Видно, так тому и быть."
+    source: { kind: authored }

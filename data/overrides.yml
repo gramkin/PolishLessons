@@ -5,6 +5,9 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # имя собственное: все кандидаты — личное имя (Peter kocha Jane,
+  # Czy to ty, Peter?), косвенные формы почти пусты
+  - peter
   # имя собственное: все кандидаты — личное имя (Ben, pozmywaj naczynia;
   # Ben wlozyl rece do kieszeni) либо Big Ben
   - ben
