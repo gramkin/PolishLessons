@@ -91,6 +91,15 @@ exclude:
   # character ("Daniel ma znajomości w branży filmowej.", "Daniela zadzwoniła do mnie do
   # domu.") — and 8 of the 10 forms have no corpus at all. Same class as john, jack and nick.
   - daniel
+  # not a lemma: "um" has no corpus of its own (8 of its 10 forms are empty, the base
+  # form among them) and every candidate belongs to a different word — each "umie" is the
+  # verb umieć ("On umie pływać.", "Ten ptak umie latać.") and each "umów" is the genitive
+  # plural of umowa ("Umów należy dotrzymywać."). Same defect as byla and drogi.
+  - um
+  # an English surname used as a Tatoeba placeholder, not Polish vocabulary: the lemma is
+  # capitalised, has a single form, and all three lines are the person ("Pan Lee jest
+  # świetnym rozmówcą.", "Lee nosił swoje najlepsze ubranie."). Same class as john and nick.
+  - lee
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
