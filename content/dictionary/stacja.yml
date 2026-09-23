@@ -1,0 +1,134 @@
+# review
+id: stacja
+format: 2
+lemma: "stacja"
+rank: 1136
+pos: noun
+pron: { cyr: "ста́цья" }
+senses:
+  - id: station
+    ru: "станция, остановочный пункт"
+    examples:
+      - pl: "To mała stacja."
+        ru: "Это маленькая станция."
+        source: { kind: tatoeba, id: 13788497 }
+      - pl: "Gdzie jest stacja?"
+        ru: "Где вокзал?"
+        source: { kind: translated, id: 569901 }
+      - pl: "Droga prowadzi do stacji."
+        ru: "Эта дорога ведёт к станции."
+        source: { kind: tatoeba, id: 526352 }
+  - id: petrol
+    ru: "stacja benzynowa — заправка"
+    examples:
+      - pl: "Tom wjechał na stację benzynową."
+        ru: "Том заехал на заправку."
+        source: { kind: translated, id: 7184874 }
+      - pl: "Sami stał przed stacją benzynową."
+        ru: "Сами стоял перед заправкой."
+        source: { kind: translated, id: 8809783 }
+  - id: broadcast
+    ru: "станция (радио, телевидение)"
+    examples:
+      - pl: "Ta stacja nadaje po polsku."
+        ru: "Эта станция вещает по-польски."
+        source: { kind: authored }
+      - pl: "Przełącz na inną stację."
+        ru: "Переключи на другую станцию."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Большой вокзал по-польски dworzec: Dworzec Centralny «Центральный вокзал». Stacja — это скорее станция, остановочный пункт, в том числе станция метро." }
+  - { kind: usage, text: "Женский род на -ja: stacja, stacji, stację. Родительный, дательный и предложный совпадают — stacji." }
+  - { kind: usage, text: "stacja benzynowa «заправка», stacja metra «станция метро», stacja telewizyjna «телеканал»." }
+  - { kind: usage, text: "na następnej stacji «на следующей станции» — предложный падеж, как в русском." }
+collocations:
+  - { pl: "stacja kolejowa", ru: "железнодорожная станция" }
+  - { pl: "stacja benzynowa", ru: "заправка" }
+  - { pl: "stacja metra", ru: "станция метро" }
+  - { pl: "na następnej stacji", ru: "на следующей станции" }
+family:
+  - { pl: "stacyjny", ru: "станционный", relation: derived }
+  - { pl: "stacyjka", ru: "замок зажигания", relation: derived }
+etymology: "Из латинского statio «стоянка, место стояния», от stare «стоять». Русская «станция» — то же заимствование."
+memory: "stacja — «станция», женский род. Но большой вокзал по-польски dworzec: Dworzec Centralny. Stacja это скорее остановочный пункт, а ещё stacja benzynowa «заправка»."
+idioms:
+  - { pl: "stacja benzynowa", ru: "заправка" }
+  - { pl: "na następnej stacji", ru: "на следующей станции" }
+formExamplesSkip:
+  - { form: "stacje", reason: "в корпусе нет примеров: именительный падеж множественного числа у этого слова редок" }
+  - { form: "stacjo", reason: "звательный падеж у этого слова в живой речи не употребляется" }
+  - { form: "stacjom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+  - { form: "stacyj", reason: "устаревший вариант родительного падежа множественного числа; нормой является stacji" }
+formExamples:
+  - form: "stacja"
+    pl: "To mała stacja."
+    ru: "Это маленькая станция."
+    source: { kind: tatoeba, id: 13788497 }
+  - form: "stacja"
+    pl: "Gdzie jest stacja?"
+    ru: "Где вокзал?"
+    source: { kind: translated, id: 569901 }
+  - form: "stacja"
+    pl: "Jaka jest następna stacja?"
+    ru: "Какая следующая станция?"
+    source: { kind: translated, id: 737236 }
+  - form: "stacjach"
+    pl: "Ten pociąg zatrzymuje się na wszystkich stacjach."
+    ru: "Этот поезд останавливается на всех станциях."
+    source: { kind: translated, id: 3926280 }
+  - form: "stacjach"
+    pl: "Na wszystkich stacjach są kasy."
+    ru: "На всех станциях есть кассы."
+    source: { kind: authored }
+  - form: "stacjach"
+    pl: "Na tych stacjach pociąg nie staje."
+    ru: "На этих станциях поезд не останавливается."
+    source: { kind: authored }
+  - form: "stacjami"
+    pl: "Wraz z deregulacją i samoobsługowymi stacjami benzynowymi, ceny paliw trochę spadły."
+    ru: "С дерегуляцией и заправками самообслуживания цены на топливо немного упали."
+    source: { kind: translated, id: 951198 }
+  - form: "stacjami"
+    pl: "Między stacjami jest dziesięć kilometrów."
+    ru: "Между станциями десять километров."
+    source: { kind: authored }
+  - form: "stacjami"
+    pl: "Zarządza dwiema stacjami."
+    ru: "Он управляет двумя станциями."
+    source: { kind: authored }
+  - form: "stacją"
+    pl: "Sami stał przed stacją benzynową."
+    ru: "Сами стоял перед заправкой."
+    source: { kind: translated, id: 8809783 }
+  - form: "stacją"
+    pl: "Spotkajmy się przed stacją."
+    ru: "Давай встретимся перед вокзалом."
+    source: { kind: authored }
+  - form: "stacją"
+    pl: "Między stacją a domem jest park."
+    ru: "Между вокзалом и домом есть парк."
+    source: { kind: authored }
+  - form: "stację"
+    pl: "Przybyłem na stację."
+    ru: "Я приехал на вокзал."
+    source: { kind: translated, id: 603120 }
+  - form: "stację"
+    pl: "Czy podwieziesz mnie na stację?"
+    ru: "Подвезёшь меня до вокзала?"
+    source: { kind: translated, id: 9038843 }
+  - form: "stację"
+    pl: "Tom wjechał na stację benzynową."
+    ru: "Том заехал на заправку."
+    source: { kind: translated, id: 7184874 }
+  - form: "stacji"
+    pl: "Droga prowadzi do stacji."
+    ru: "Эта дорога ведёт к станции."
+    source: { kind: tatoeba, id: 526352 }
+  - form: "stacji"
+    pl: "Na następnej stacji mamy przesiadkę."
+    ru: "На следующей станции у нас пересадка."
+    source: { kind: tatoeba, id: 5975477 }
+  - form: "stacji"
+    pl: "Wysiadam na następnej stacji."
+    ru: "Я выхожу на следующей станции."
+    source: { kind: translated, id: 440597 }
