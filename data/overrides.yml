@@ -245,6 +245,16 @@ exclude:
   # uwagi) либо предикатив warto «стоит». На существительное warta «караул»
   # приходится всего два примера: Rotmistrz nie stoi na warcie и Kto ma wartę?
   - warta
+  # в корпусе нет ни одного примера самой леммы: восемь форм из десяти пусты,
+  # а все три кандидата — вообще другие слова. Два раза это японская фамилия
+  # Ito (Czy p. Ito uczy historii?, Taro Ito został uznany za winnego), один
+  # раз — английское it внутри англоязычной фразы. Значения в Wiktionary нет
+  - ita
+  # единственное число уже карточкованной леммы rodzice «родители» (ранг 517):
+  # формы rodzice, rodziców, rodzicom, rodzicami, rodzicach разобраны там
+  # примерами. Сами формы единственного числа пусты до единой: rodzic,
+  # rodzicem, rodzicowi, rodzicu. Тот же класс, что tato при карточке tata
+  - rodzic
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
