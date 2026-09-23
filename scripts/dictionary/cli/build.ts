@@ -30,10 +30,20 @@ const wantedAudio = [...drafts.values()]
   .map((d) => d.audioFile)
   .filter((f): f is string => f !== null && !(f in cache))
 if (wantedAudio.length > 0) {
-  const fetched = await fetchAudioMeta(wantedAudio)
-  for (const file of wantedAudio) cache[file] = fetched.get(file) ?? null
-  mkdirSync(dirname(DATA.audioCache), { recursive: true })
-  writeFileSync(DATA.audioCache, stableJson(cache))
+  // A Commons outage must not brick the build, and it must not be recorded as
+  // "this word has no audio" either: on failure leave the cache untouched so a
+  // later run retries these files.
+  try {
+    const fetched = await fetchAudioMeta(wantedAudio)
+    for (const file of wantedAudio) cache[file] = fetched.get(file) ?? null
+    mkdirSync(dirname(DATA.audioCache), { recursive: true })
+    writeFileSync(DATA.audioCache, stableJson(cache))
+  } catch (error) {
+    console.warn(
+      `! audio metadata unavailable for ${wantedAudio.length} file(s), continuing without it`,
+    )
+    console.warn(`  ${error instanceof Error ? error.message : String(error)}`)
+  }
 }
 
 const lock = JSON.parse(readFileSync(DATA.lock, 'utf8')) as Record<string, { sha256: string }>

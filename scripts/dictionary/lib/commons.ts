@@ -25,6 +25,13 @@ export function stripHtml(html: string): string {
 
 type Json = Record<string, unknown>
 
+// Wikimedia rejects generic User-Agents with a 403 and an HTML error page; the
+// string has to identify the tool and carry a URL. Override COMMONS_USER_AGENT
+// to point at a real contact address for this project.
+const USER_AGENT =
+  process.env.COMMONS_USER_AGENT ??
+  'polski-dictionary-build/1.0 (+https://www.mediawiki.org/wiki/API:Etiquette)'
+
 export function parseCommonsResponse(json: unknown): AudioMeta[] {
   const pages = (((json as Json)?.query as Json)?.pages as Json[] | undefined) ?? []
   const result: AudioMeta[] = []
@@ -63,9 +70,21 @@ export async function fetchAudioMeta(
       formatversion: '2',
     })
     const response = await fetchImpl(`https://commons.wikimedia.org/w/api.php?${params}`, {
-      headers: { 'User-Agent': 'polski-dictionary-build/1.0' },
+      headers: { 'User-Agent': USER_AGENT },
     })
-    for (const meta of parseCommonsResponse(await response.json())) result.set(meta.file, meta)
+    const body = await response.text()
+    if (!response.ok) {
+      throw new Error(
+        `commons: HTTP ${response.status} for ${files.length} file(s): ${body.slice(0, 120)}`,
+      )
+    }
+    let json: unknown
+    try {
+      json = JSON.parse(body)
+    } catch {
+      throw new Error(`commons: response was not JSON: ${body.slice(0, 120)}`)
+    }
+    for (const meta of parseCommonsResponse(json)) result.set(meta.file, meta)
   }
   return result
 }

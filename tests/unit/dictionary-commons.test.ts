@@ -51,4 +51,21 @@ describe('commons', () => {
     )
     expect(meta.get('Pl-mieć.ogg')?.license).toBe('CC BY 2.5')
   })
+
+  it('sends a User-Agent carrying a URL, which Wikimedia requires', async () => {
+    const fetchImpl = vi.fn(async (_url: string, _init?: RequestInit) =>
+      new Response(JSON.stringify(response)),
+    )
+    await fetchAudioMeta(['Pl-dom.ogg'], fetchImpl as unknown as typeof fetch)
+    const init = fetchImpl.mock.calls[0]![1]!
+    const headers = init.headers as Record<string, string>
+    expect(headers['User-Agent']).toMatch(/https?:\/\//)
+  })
+
+  it('reports a failed request instead of choking on the error page', async () => {
+    const fetchImpl = vi.fn(async () => new Response('<!DOCTYPE html>', { status: 403 }))
+    await expect(
+      fetchAudioMeta(['Pl-dom.ogg'], fetchImpl as unknown as typeof fetch),
+    ).rejects.toThrow(/403/)
+  })
 })
