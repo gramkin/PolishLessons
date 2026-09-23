@@ -1,0 +1,146 @@
+# review
+id: pociag
+format: 2
+lemma: "pociąg"
+rank: 1101
+pos: noun
+pron: { cyr: "по́цёнк" }
+senses:
+  - id: train
+    ru: "поезд"
+    examples:
+      - pl: "Czekam na pociąg."
+        ru: "Я жду поезд."
+        source: { kind: tatoeba, id: 705304 }
+      - pl: "Gdzie jest pociąg?"
+        ru: "Где поезд?"
+        source: { kind: tatoeba, id: 4412297 }
+      - pl: "Pociąg odjeżdża z dworca."
+        ru: "Поезд отходит от станции."
+        source: { kind: tatoeba, id: 11264419 }
+  - id: by-train
+    ru: "jechać pociągiem — ехать на поезде"
+    examples:
+      - pl: "Jechałem pociągiem dwanaście godzin."
+        ru: "Я ехал на поезде двенадцать часов."
+        source: { kind: tatoeba, id: 668738 }
+      - pl: "Pojedźmy pociągiem."
+        ru: "Поедем поездом."
+        source: { kind: translated, id: 3446230 }
+  - id: attraction
+    ru: "влечение, тяга (pociąg do czegoś)"
+    examples:
+      - pl: "Ma pociąg do hazardu."
+        ru: "У него тяга к азартным играм."
+        source: { kind: authored }
+      - pl: "Czuł do niej pociąg."
+        ru: "Он чувствовал к ней влечение."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "jechać pociągiem «ехать на поезде» — творительный падеж без предлога. Русское «на поезде» требует предлога, польское нет." }
+  - { kind: usage, text: "Опоздать — spóźnić się na pociąg, успеть — zdążyć na pociąg: предлог na с винительным, как в русском." }
+  - { kind: usage, text: "Второе значение — «влечение, тяга»: pociąg do alkoholu «тяга к алкоголю», pociąg fizyczny «физическое влечение»." }
+  - { kind: usage, text: "Мужской род неодушевлённый: ten pociąg, tego pociągu, tym pociągiem." }
+collocations:
+  - { pl: "jechać pociągiem", ru: "ехать на поезде" }
+  - { pl: "spóźnić się na pociąg", ru: "опоздать на поезд" }
+  - { pl: "rozkład pociągów", ru: "расписание поездов" }
+  - { pl: "pociąg do czegoś", ru: "тяга к чему-то" }
+family:
+  - { pl: "pociągać", ru: "притягивать, привлекать", relation: root }
+  - { pl: "ciągnąć", ru: "тянуть", relation: root }
+  - { pl: "pociągowy", ru: "тяговый", relation: derived }
+etymology: "От pociągać «тянуть, притягивать» — буквально «то, что тянут». Русский «поезд» собран от «ездить»: картинка другая, а вещь та же. Отсюда же второе значение «влечение»."
+memory: "pociąg — «поезд», и ездят на нём jechać pociągiem, творительный падеж без предлога. Второе значение — «влечение, тяга»: pociąg do czegoś. Оба идут от pociągać «притягивать»."
+idioms:
+  - { pl: "jechać pociągiem", ru: "ехать на поезде" }
+  - { pl: "spóźnić się na pociąg", ru: "опоздать на поезд" }
+  - { pl: "ostatni pociąg", ru: "последний поезд" }
+formExamplesSkip:
+  - { form: "pociągach", reason: "в корпусе нет примеров: предложный падеж множественного числа у этого слова редок" }
+  - { form: "pociągowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "pociąg"
+    pl: "Czekam na pociąg."
+    ru: "Я жду поезд."
+    source: { kind: tatoeba, id: 705304 }
+  - form: "pociąg"
+    pl: "Gdzie jest pociąg?"
+    ru: "Где поезд?"
+    source: { kind: tatoeba, id: 4412297 }
+  - form: "pociąg"
+    pl: "Pociąg odjeżdża z dworca."
+    ru: "Поезд отходит от станции."
+    source: { kind: tatoeba, id: 11264419 }
+  - form: "pociągami"
+    pl: "Lubię jeździć pociągami."
+    ru: "Я люблю ездить на поездах."
+    source: { kind: translated, id: 972928 }
+  - form: "pociągami"
+    pl: "Tom nigdy nie jeździ pociągami."
+    ru: "Том никогда не ездит на поездах."
+    source: { kind: translated, id: 9686684 }
+  - form: "pociągami"
+    pl: "Jak ja nie lubię jeździć brudnymi pociągami."
+    ru: "Как же я не люблю ездить в грязных поездах."
+    source: { kind: translated, id: 2177628 }
+  - form: "pociągi"
+    pl: "Lubię pociągi."
+    ru: "Я люблю поезда."
+    source: { kind: translated, id: 2470031 }
+  - form: "pociągi"
+    pl: "Pociągi jeżdżą według rozkładu jazdy."
+    ru: "Поезда ходят по расписанию."
+    source: { kind: translated, id: 1351840 }
+  - form: "pociągi"
+    pl: "Wszystkie pociągi w kraju są dla ciebie darmowe."
+    ru: "Проезд во всех поездах страны для вас бесплатный."
+    source: { kind: tatoeba, id: 10695831 }
+  - form: "pociągiem"
+    pl: "Pojedźmy pociągiem."
+    ru: "Поедем поездом."
+    source: { kind: translated, id: 3446230 }
+  - form: "pociągiem"
+    pl: "Lubię podróżować pociągiem."
+    ru: "Я люблю путешествовать поездом."
+    source: { kind: translated, id: 592329 }
+  - form: "pociągiem"
+    pl: "Jechałem pociągiem dwanaście godzin."
+    ru: "Я ехал на поезде двенадцать часов."
+    source: { kind: tatoeba, id: 668738 }
+  - form: "pociągom"
+    pl: "Co jest ciekawego w robieniu zdjęć pociągom?"
+    ru: "Что интересного в том, чтобы фотографировать поезда?"
+    source: { kind: translated, id: 3484276 }
+  - form: "pociągom"
+    pl: "Przyglądał się pociągom godzinami."
+    ru: "Он часами разглядывал поезда."
+    source: { kind: authored }
+  - form: "pociągom"
+    pl: "Pociągom towarowym ustępuje się drogi."
+    ru: "Товарным поездам уступают дорогу."
+    source: { kind: authored }
+  - form: "pociągów"
+    pl: "Tom nigdy nie korzysta z pociągów."
+    ru: "Том никогда не пользуется поездами."
+    source: { kind: translated, id: 9686683 }
+  - form: "pociągów"
+    pl: "Rozkład pociągów wisi na peronie."
+    ru: "Расписание поездов висит на перроне."
+    source: { kind: authored }
+  - form: "pociągów"
+    pl: "Nie ma tu pociągów nocnych."
+    ru: "Ночных поездов здесь нет."
+    source: { kind: authored }
+  - form: "pociągu"
+    pl: "Wysiadł z pociągu."
+    ru: "Он сошёл с поезда."
+    source: { kind: translated, id: 364743 }
+  - form: "pociągu"
+    pl: "Wsiadłem do pociągu."
+    ru: "Я сел в поезд."
+    source: { kind: translated, id: 2247115 }
+  - form: "pociągu"
+    pl: "Spotkałem ją przypadkiem w pociągu."
+    ru: "Я случайно встретил её в поезде."
+    source: { kind: tatoeba, id: 5492395 }

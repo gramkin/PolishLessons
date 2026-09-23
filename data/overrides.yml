@@ -101,6 +101,16 @@ exclude:
   # itself, and every candidate is the name -- "Julia spiewa", "Romeo ozenil sie
   # z Julia", "Nos Julii jest piekny". Same class as anna, charlie and michael.
   - julia
+  # an English given name used as a Tatoeba placeholder, like the already-excluded
+  # john, jack, michael, charlie and julia. The lemma is capitalised (Jimmy), all
+  # five candidates are the name, 9 of the 10 forms have no corpus, and PoliMorf
+  # invents apostrophe forms for it (Jimmy'ego, Jimmy'emu).
+  - jimmy
+  # not a lemma but the genitive singular of "dno" (bottom): the whole paradigm
+  # listed under it is dno's -- den, dna, dnie, dno, dny -- and every candidate is
+  # "do dna", "bez dna", "na dnie jeziora", "dno morza". The homograph "dna" (gout)
+  # has no corpus support here at all. Same class as cie and twoja.
+  - dna
   # tagged adj, but it is not a lemma: the candidates split three ways — the noun
   # "rana" (Czas leczy rany, od rana), the verb "ranić" (Odrzucenie rani) and the
   # interjection "o rany". The rana card will own the noun forms.

@@ -1,0 +1,88 @@
+# review
+id: lunch
+format: 2
+lemma: "lunch"
+rank: 1110
+pos: noun
+pron: { cyr: "ланч" }
+senses:
+  - id: meal
+    ru: "ланч, лёгкий дневной приём пищи"
+    examples:
+      - pl: "Jemy lunch."
+        ru: "Мы обедаем."
+        source: { kind: translated, id: 9679466 }
+      - pl: "Czas zjeść lunch."
+        ru: "Пора обедать."
+        source: { kind: translated, id: 600289 }
+      - pl: "Zjadłem szybki lunch."
+        ru: "Я быстро пообедал."
+        source: { kind: translated, id: 3334650 }
+  - id: time
+    ru: "pora lunchu — обеденное время"
+    examples:
+      - pl: "Tom jest w porze lunchu."
+        ru: "Том на обеде."
+        source: { kind: translated, id: 4735515 }
+      - pl: "Nie jadam lunchu."
+        ru: "Я не обедаю днём."
+        source: { kind: translated, id: 12062202 }
+notes:
+  - { kind: false-friend, text: "lunch и obiad — не одно и то же. Obiad это главная еда дня, обычно между двумя и четырьмя, а lunch — лёгкий дневной перекус, чаще рабочий." }
+  - { kind: pronunciation, text: "Английское заимствование, читается «ланч». Склоняется при этом вполне по-польски: lunchu, lunchem." }
+  - { kind: usage, text: "Мужской род неодушевлённый: ten lunch, tego lunchu, przed lunchem." }
+  - { kind: usage, text: "przerwa na lunch «перерыв на обед» — стандартный оборот офисной речи." }
+collocations:
+  - { pl: "zjeść lunch", ru: "пообедать" }
+  - { pl: "pora lunchu", ru: "обеденное время" }
+  - { pl: "przerwa na lunch", ru: "перерыв на обед" }
+  - { pl: "lunch biznesowy", ru: "бизнес-ланч" }
+etymology: "Из английского lunch, сокращения от luncheon. В польском слово закрепилось за лёгким дневным перекусом, тогда как главная еда дня осталась за своим словом obiad."
+memory: "lunch читается «ланч» и значит лёгкий дневной перекус, обычно на работе. Главная еда дня — это obiad, и путать их не стоит. Склоняется по-польски: lunchu, lunchem."
+idioms:
+  - { pl: "pora lunchu", ru: "обеденное время" }
+  - { pl: "przerwa na lunch", ru: "перерыв на обед" }
+formExamplesSkip:
+  - { form: "lunchach", reason: "в корпусе нет примеров: множественное число у этого заимствования редко" }
+  - { form: "lunchami", reason: "в корпусе нет примеров: множественное число у этого заимствования редко" }
+  - { form: "lunche", reason: "в корпусе нет примеров: множественное число у этого заимствования редко" }
+  - { form: "lunchom", reason: "в корпусе нет примеров: множественное число у этого заимствования редко" }
+  - { form: "lunchowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+  - { form: "lunchów", reason: "в корпусе нет примеров: множественное число у этого заимствования редко" }
+formExamples:
+  - form: "lunch"
+    pl: "Jemy lunch."
+    ru: "Мы обедаем."
+    source: { kind: translated, id: 9679466 }
+  - form: "lunch"
+    pl: "Czas zjeść lunch."
+    ru: "Пора обедать."
+    source: { kind: translated, id: 600289 }
+  - form: "lunch"
+    pl: "Zjadłem szybki lunch."
+    ru: "Я быстро пообедал."
+    source: { kind: translated, id: 3334650 }
+  - form: "lunchem"
+    pl: "Myję ręce przed lunchem."
+    ru: "Я мою руки перед обедом."
+    source: { kind: translated, id: 453565 }
+  - form: "lunchem"
+    pl: "Spotkajmy się przed lunchem."
+    ru: "Давай встретимся перед обедом."
+    source: { kind: authored }
+  - form: "lunchem"
+    pl: "Rozmawialiśmy nad lunchem."
+    ru: "Мы разговаривали за обедом."
+    source: { kind: authored }
+  - form: "lunchu"
+    pl: "Nie jadam lunchu."
+    ru: "Я не обедаю днём."
+    source: { kind: translated, id: 12062202 }
+  - form: "lunchu"
+    pl: "Tom jest w porze lunchu."
+    ru: "Том на обеде."
+    source: { kind: translated, id: 4735515 }
+  - form: "lunchu"
+    pl: "Wpadłam na Toma podczas lunchu."
+    ru: "Я столкнулась с Томом во время обеда."
+    source: { kind: translated, id: 6157437 }
