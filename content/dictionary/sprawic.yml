@@ -1,0 +1,703 @@
+# review
+id: sprawic
+format: 2
+lemma: "sprawić"
+rank: 915
+pos: verb
+aspect: perf
+pron: { cyr: "спра́виць" }
+senses:
+  - id: cause-that
+    ru: "sprawić, że… — сделать так, что…"
+    note: "Самая частая конструкция: придаточное с że."
+    examples:
+      - pl: "Sprawię, że będziesz szczęśliwa."
+        ru: "Я сделаю так, что ты будешь счастлива."
+        source: { kind: translated, id: 552199 }
+      - pl: "Sprawiła, że się uśmiechnąłem."
+        ru: "Она заставила меня улыбнуться."
+        source: { kind: translated, id: 1824918 }
+      - pl: "Sprawią, że będziesz szczęśliwa."
+        ru: "Они сделают так, что ты будешь счастлива."
+        source: { kind: translated, id: 7043508 }
+  - id: cause-feeling
+    ru: "sprawić komuś przyjemność, przykrość — доставить радость, огорчить"
+    examples:
+      - pl: "To sprawiło mi przyjemność."
+        ru: "Это доставило мне удовольствие."
+        source: { kind: translated, id: 8506651 }
+      - pl: "Tom sprawił mi zawód."
+        ru: "Том меня разочаровал."
+        source: { kind: translated, id: 4869582 }
+      - pl: "Chyba sprawiłem mu przykrość."
+        ru: "Кажется, я его огорчил."
+        source: { kind: translated, id: 362013 }
+  - id: buy
+    ru: "sprawić sobie coś — купить себе, обзавестись"
+    examples:
+      - pl: "Sprawiłeś sobie nową komórkę?"
+        ru: "Ты завёл себе новый телефон?"
+        source: { kind: translated, id: 5704259 }
+      - pl: "Sprawili sobie psa."
+        ru: "Они завели себе собаку."
+        source: { kind: authored }
+      - pl: "Sprawiła sobie nowy płaszcz."
+        ru: "Она купила себе новое пальто."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Самая частая конструкция — sprawić, że… «сделать так, что…»: Sprawię, że będziesz szczęśliwa. Русский чаще скажет «я сделаю тебя счастливой», без придаточного." }
+  - { kind: usage, text: "sprawić komuś przyjemność «доставить кому-то удовольствие», sprawić przykrość «огорчить», sprawić zawód «разочаровать», sprawić kłopot «доставить хлопоты» — дательный на человека, винительный на чувство." }
+  - { kind: usage, text: "sprawić sobie coś значит «купить себе, обзавестись»: sprawić sobie psa «завести собаку»." }
+  - { kind: false-friend, text: "Форма spraw совпадает с родительным множественного от существительного sprawa «дело»: Mam kilka spraw «У меня несколько дел». Повелительное наклонение глагола выглядит так же, различает только контекст." }
+collocations:
+  - { pl: "sprawić przyjemność", ru: "доставить удовольствие" }
+  - { pl: "sprawić zawód", ru: "разочаровать" }
+  - { pl: "sprawić, że", ru: "сделать так, что" }
+  - { pl: "sprawić sobie", ru: "обзавестись" }
+family:
+  - { pl: "sprawiać", ru: "делать, причинять", relation: aspect }
+  - { pl: "sprawa", ru: "дело", relation: root, id: sprawa }
+  - { pl: "sprawca", ru: "виновник", relation: derived }
+etymology: "От sprawa «дело», того же корня, что prawy «правый» и naprawić «починить». Буквально «сделать дело», отсюда «сделать так, что»."
+memory: "sprawić — «сделать так, что»: Sprawię, że będziesz szczęśliwa. Отсюда же sprawić komuś przyjemność «доставить удовольствие» и sprawić zawód «разочаровать». А sprawić sobie coś значит «обзавестись». Осторожно с формой spraw: так же выглядит родительный множественного от sprawa «дело»."
+idioms:
+  - { pl: "sprawić przyjemność", ru: "доставить удовольствие" }
+  - { pl: "sprawić zawód", ru: "разочаровать" }
+  - { pl: "sprawić sobie", ru: "обзавестись" }
+formExamples:
+  - form: "spraw"
+    pl: "Spraw, żeby się uśmiechnęła."
+    ru: "Сделай так, чтобы она улыбнулась."
+    source: { kind: authored }
+  - form: "spraw"
+    pl: "Spraw sobie wreszcie nowy telefon."
+    ru: "Купи себе наконец новый телефон."
+    source: { kind: authored }
+  - form: "spraw"
+    pl: "Nie spraw mu zawodu."
+    ru: "Не разочаруй его."
+    source: { kind: authored }
+  - form: "sprawcie"
+    pl: "Sprawcie, żeby się uśmiechnęła."
+    ru: "Сделайте так, чтобы она улыбнулась."
+    source: { kind: authored }
+  - form: "sprawcie"
+    pl: "Sprawcie sobie nowy samochód."
+    ru: "Обзаведитесь новой машиной."
+    source: { kind: authored }
+  - form: "sprawcie"
+    pl: "Nie sprawcie mu zawodu."
+    ru: "Не разочаруйте его."
+    source: { kind: authored }
+  - form: "sprawi"
+    pl: "To sprawi, że zyskamy na czasie."
+    ru: "Это позволит нам выиграть время."
+    source: { kind: translated, id: 8755284 }
+  - form: "sprawi"
+    pl: "Ta historia sprawi przyjemność każdemu dziecku."
+    ru: "Эта история доставит удовольствие любому ребёнку."
+    source: { kind: translated, id: 6157607 }
+  - form: "sprawi"
+    pl: "To nie sprawi ci kłopotu."
+    ru: "Это не доставит тебе хлопот."
+    source: { kind: authored }
+  - form: "sprawią"
+    pl: "Sprawią, że będziesz szczęśliwa."
+    ru: "Они сделают так, что ты будешь счастлива."
+    source: { kind: translated, id: 7043508 }
+  - form: "sprawią"
+    pl: "Sprawią mu przykrość."
+    ru: "Они его огорчат."
+    source: { kind: authored }
+  - form: "sprawią"
+    pl: "Te zmiany nic nie sprawią."
+    ru: "Эти перемены ничего не изменят."
+    source: { kind: authored }
+  - form: "sprawicie"
+    pl: "Sprawicie mu tym przyjemność."
+    ru: "Вы этим доставите ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawicie"
+    pl: "Nie sprawicie mu zawodu."
+    ru: "Вы его не разочаруете."
+    source: { kind: authored }
+  - form: "sprawicie"
+    pl: "Sprawicie sobie nowy dom?"
+    ru: "Вы обзаведётесь новым домом?"
+    source: { kind: authored }
+  - form: "sprawić"
+    pl: "Możesz sprawić, aby działał?"
+    ru: "Ты можешь сделать так, чтобы он работал?"
+    source: { kind: translated, id: 12041107 }
+  - form: "sprawić"
+    pl: "Nie chciałem sprawić kłopotu."
+    ru: "Я не хотел доставить хлопот."
+    source: { kind: translated, id: 13560412 }
+  - form: "sprawić"
+    pl: "Chciał sprawić jej przyjemność."
+    ru: "Он хотел доставить ей удовольствие."
+    source: { kind: authored }
+  - form: "sprawieni"
+    pl: "Zostali sprawieni na nowo przez tę wiadomość."
+    ru: "Эта весть словно переменила их."
+    source: { kind: authored }
+  - form: "sprawieni"
+    pl: "Sprawieni tym obrotem spraw, zamilkli."
+    ru: "Поражённые таким оборотом дела, они умолкли."
+    source: { kind: authored }
+  - form: "sprawieni"
+    pl: "Byli sprawieni jak nowi."
+    ru: "Они были как новенькие."
+    source: { kind: authored }
+  - form: "sprawienia"
+    pl: "Nie ma sposobu sprawienia mu radości."
+    ru: "Нет способа его обрадовать."
+    source: { kind: authored }
+  - form: "sprawienia"
+    pl: "Szukał sposobu sprawienia jej przyjemności."
+    ru: "Он искал способ доставить ей удовольствие."
+    source: { kind: authored }
+  - form: "sprawienia"
+    pl: "Sprawa dotyczy sprawienia nowego sprzętu."
+    ru: "Дело касается покупки новой техники."
+    source: { kind: authored }
+  - form: "sprawienie"
+    pl: "Sprawienie jej przyjemności nie było trudne."
+    ru: "Доставить ей удовольствие было нетрудно."
+    source: { kind: authored }
+  - form: "sprawienie"
+    pl: "Sprawienie sobie psa to duża decyzja."
+    ru: "Завести собаку — большое решение."
+    source: { kind: authored }
+  - form: "sprawienie"
+    pl: "Sprawienie nowego sprzętu kosztowało fortunę."
+    ru: "Покупка новой техники стоила состояние."
+    source: { kind: authored }
+  - form: "sprawieniem"
+    pl: "Zajął się sprawieniem nowego sprzętu."
+    ru: "Он занялся покупкой новой техники."
+    source: { kind: authored }
+  - form: "sprawieniem"
+    pl: "Przed sprawieniem psa przemyśl to."
+    ru: "Прежде чем заводить собаку, подумай."
+    source: { kind: authored }
+  - form: "sprawieniem"
+    pl: "Skończyło się sprawieniem nowego auta."
+    ru: "Кончилось покупкой новой машины."
+    source: { kind: authored }
+  - form: "sprawieniu"
+    pl: "Po sprawieniu psa życie się zmieniło."
+    ru: "После того как завели собаку, жизнь изменилась."
+    source: { kind: authored }
+  - form: "sprawieniu"
+    pl: "Mówili o sprawieniu nowego sprzętu."
+    ru: "Они говорили о покупке новой техники."
+    source: { kind: authored }
+  - form: "sprawieniu"
+    pl: "W sprawieniu jej radości pomogli wszyscy."
+    ru: "Обрадовать её помогли все."
+    source: { kind: authored }
+  - form: "sprawię"
+    pl: "Sprawię, że będziesz szczęśliwa."
+    ru: "Я сделаю так, что ты будешь счастлива."
+    source: { kind: translated, id: 552199 }
+  - form: "sprawię"
+    pl: "Sprawię, że ten ptak zaśpiewa, zobaczysz!"
+    ru: "Я сделаю так, что эта птица запоёт, вот увидишь!"
+    source: { kind: translated, id: 3295003 }
+  - form: "sprawię"
+    pl: "Sprawię ci prezent."
+    ru: "Я сделаю тебе подарок."
+    source: { kind: authored }
+  - form: "sprawili"
+    pl: "Sprawili sobie nowy samochód."
+    ru: "Они обзавелись новой машиной."
+    source: { kind: authored }
+  - form: "sprawili"
+    pl: "Sprawili nam wielką radość."
+    ru: "Они доставили нам большую радость."
+    source: { kind: authored }
+  - form: "sprawili"
+    pl: "Sprawili, że wszystko ruszyło."
+    ru: "Они сделали так, что всё сдвинулось."
+    source: { kind: authored }
+  - form: "sprawiliby"
+    pl: "Sprawiliby mu tym przyjemność."
+    ru: "Они этим доставили бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiliby"
+    pl: "Nie sprawiliby mu zawodu."
+    ru: "Они его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawiliby"
+    pl: "Sprawiliby sobie nowy dom."
+    ru: "Они обзавелись бы новым домом."
+    source: { kind: authored }
+  - form: "sprawilibyście"
+    pl: "Sprawilibyście mu tym przyjemność."
+    ru: "Вы этим доставили бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawilibyście"
+    pl: "Nie sprawilibyście mu zawodu."
+    ru: "Вы его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawilibyście"
+    pl: "Sprawilibyście sobie nowy dom?"
+    ru: "Вы обзавелись бы новым домом?"
+    source: { kind: authored }
+  - form: "sprawilibyśmy"
+    pl: "Sprawilibyśmy mu tym przyjemność."
+    ru: "Мы этим доставили бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawilibyśmy"
+    pl: "Nie sprawilibyśmy mu zawodu."
+    ru: "Мы его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawilibyśmy"
+    pl: "Sprawilibyśmy sobie nowy dom."
+    ru: "Мы обзавелись бы новым домом."
+    source: { kind: authored }
+  - form: "sprawiliście"
+    pl: "Sprawiliście nam wielką radość."
+    ru: "Вы доставили нам большую радость."
+    source: { kind: authored }
+  - form: "sprawiliście"
+    pl: "Nie sprawiliście mu zawodu."
+    ru: "Вы его не разочаровали."
+    source: { kind: authored }
+  - form: "sprawiliście"
+    pl: "Sprawiliście sobie nowy samochód?"
+    ru: "Вы обзавелись новой машиной?"
+    source: { kind: authored }
+  - form: "sprawiliśmy"
+    pl: "Sprawiliśmy, że zapłakał."
+    ru: "Мы довели его до слёз."
+    source: { kind: translated, id: 13008063 }
+  - form: "sprawiliśmy"
+    pl: "Sprawiliśmy sobie nowy samochód."
+    ru: "Мы обзавелись новой машиной."
+    source: { kind: authored }
+  - form: "sprawiliśmy"
+    pl: "Sprawiliśmy jej przyjemność."
+    ru: "Мы доставили ей удовольствие."
+    source: { kind: authored }
+  - form: "sprawił"
+    pl: "Tom sprawił mi zawód."
+    ru: "Том меня разочаровал."
+    source: { kind: translated, id: 4869582 }
+  - form: "sprawił"
+    pl: "Czyżbym sprawił mu przykrość?"
+    ru: "Неужели я его огорчил?"
+    source: { kind: translated, id: 841759 }
+  - form: "sprawił"
+    pl: "Sprawił sobie nowy rower."
+    ru: "Он купил себе новый велосипед."
+    source: { kind: authored }
+  - form: "sprawiła"
+    pl: "Ta wiadomość sprawiła jej dużo bólu."
+    ru: "Эти вести причинили ей много боли."
+    source: { kind: tatoeba, id: 3460235 }
+  - form: "sprawiła"
+    pl: "Sprawiła, że się uśmiechnąłem."
+    ru: "Она заставила меня улыбнуться."
+    source: { kind: translated, id: 1824918 }
+  - form: "sprawiła"
+    pl: "Sprawiła mu przykrość."
+    ru: "Она его огорчила."
+    source: { kind: authored }
+  - form: "sprawiłaby"
+    pl: "Sprawiłaby mu tym przyjemność."
+    ru: "Она этим доставила бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłaby"
+    pl: "Nie sprawiłaby mu zawodu."
+    ru: "Она его не разочаровала бы."
+    source: { kind: authored }
+  - form: "sprawiłaby"
+    pl: "Sprawiłaby sobie nowy płaszcz."
+    ru: "Она купила бы себе новое пальто."
+    source: { kind: authored }
+  - form: "sprawiłabym"
+    pl: "Sprawiłabym mu tym przyjemność."
+    ru: "Я этим доставила бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłabym"
+    pl: "Nie sprawiłabym mu zawodu."
+    ru: "Я его не разочаровала бы."
+    source: { kind: authored }
+  - form: "sprawiłabym"
+    pl: "Sprawiłabym sobie nowy płaszcz."
+    ru: "Я купила бы себе новое пальто."
+    source: { kind: authored }
+  - form: "sprawiłabyś"
+    pl: "Sprawiłabyś mu tym przyjemność."
+    ru: "Ты этим доставила бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłabyś"
+    pl: "Nie sprawiłabyś mu zawodu."
+    ru: "Ты его не разочаровала бы."
+    source: { kind: authored }
+  - form: "sprawiłabyś"
+    pl: "Sprawiłabyś sobie nowy płaszcz?"
+    ru: "Ты купила бы себе новое пальто?"
+    source: { kind: authored }
+  - form: "sprawiłam"
+    pl: "Sprawiłam, że nawet Tom się roześmiał."
+    ru: "Я рассмешила даже Тома."
+    source: { kind: translated, id: 7893837 }
+  - form: "sprawiłam"
+    pl: "Sprawiłam sobie nowy płaszcz."
+    ru: "Я купила себе новое пальто."
+    source: { kind: authored }
+  - form: "sprawiłam"
+    pl: "Sprawiłam mu zawód."
+    ru: "Я его разочаровала."
+    source: { kind: authored }
+  - form: "sprawiłaś"
+    pl: "Sprawiłaś mu wielką radość."
+    ru: "Ты доставила ему большую радость."
+    source: { kind: authored }
+  - form: "sprawiłaś"
+    pl: "Nie sprawiłaś mu zawodu."
+    ru: "Ты его не разочаровала."
+    source: { kind: authored }
+  - form: "sprawiłaś"
+    pl: "Sprawiłaś sobie nowy płaszcz?"
+    ru: "Ты купила себе новое пальто?"
+    source: { kind: authored }
+  - form: "sprawiłby"
+    pl: "Sprawiłby mu tym przyjemność."
+    ru: "Он этим доставил бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłby"
+    pl: "Nie sprawiłby mu zawodu."
+    ru: "Он его не разочаровал бы."
+    source: { kind: authored }
+  - form: "sprawiłby"
+    pl: "Sprawiłby sobie nowy rower."
+    ru: "Он купил бы себе новый велосипед."
+    source: { kind: authored }
+  - form: "sprawiłbym"
+    pl: "Sprawiłbym mu tym przyjemność."
+    ru: "Я этим доставил бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłbym"
+    pl: "Nie sprawiłbym mu zawodu."
+    ru: "Я его не разочаровал бы."
+    source: { kind: authored }
+  - form: "sprawiłbym"
+    pl: "Sprawiłbym sobie nowy rower."
+    ru: "Я купил бы себе новый велосипед."
+    source: { kind: authored }
+  - form: "sprawiłbyś"
+    pl: "Sprawiłbyś mu tym przyjemność."
+    ru: "Ты этим доставил бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłbyś"
+    pl: "Nie sprawiłbyś mu zawodu."
+    ru: "Ты его не разочаровал бы."
+    source: { kind: authored }
+  - form: "sprawiłbyś"
+    pl: "Sprawiłbyś sobie nowy rower?"
+    ru: "Ты купил бы себе новый велосипед?"
+    source: { kind: authored }
+  - form: "sprawiłem"
+    pl: "Chyba sprawiłem mu przykrość."
+    ru: "Кажется, я его огорчил."
+    source: { kind: translated, id: 362013 }
+  - form: "sprawiłem"
+    pl: "Myślę, że sprawiłem mu przykrość."
+    ru: "Думаю, я его огорчил."
+    source: { kind: translated, id: 365215 }
+  - form: "sprawiłem"
+    pl: "Sprawiłem sobie psa."
+    ru: "Я завёл себе собаку."
+    source: { kind: authored }
+  - form: "sprawiłeś"
+    pl: "Sprawiłeś mi ból."
+    ru: "Ты причинил мне боль."
+    source: { kind: translated, id: 8771020 }
+  - form: "sprawiłeś"
+    pl: "Sprawiłeś sobie nową komórkę?"
+    ru: "Ты завёл себе новый телефон?"
+    source: { kind: translated, id: 5704259 }
+  - form: "sprawiłeś"
+    pl: "Sprawiłeś nam wielką radość."
+    ru: "Ты доставил нам большую радость."
+    source: { kind: authored }
+  - form: "sprawiło"
+    pl: "To sprawiło mi przyjemność."
+    ru: "Это доставило мне удовольствие."
+    source: { kind: translated, id: 8506651 }
+  - form: "sprawiło"
+    pl: "Pływanie sprawiło mi radość."
+    ru: "Плавание доставило мне радость."
+    source: { kind: translated, id: 8739356 }
+  - form: "sprawiło"
+    pl: "To sprawiło mu zawód."
+    ru: "Это его разочаровало."
+    source: { kind: authored }
+  - form: "sprawiłoby"
+    pl: "To sprawiłoby mi przyjemność."
+    ru: "Это доставило бы мне удовольствие."
+    source: { kind: translated, id: 8627440 }
+  - form: "sprawiłoby"
+    pl: "Sprawiłoby mu to przykrość."
+    ru: "Это его огорчило бы."
+    source: { kind: authored }
+  - form: "sprawiłoby"
+    pl: "Nic innego nie sprawiłoby mu takiej radości."
+    ru: "Ничто другое не доставило бы ему такой радости."
+    source: { kind: authored }
+  - form: "sprawiły"
+    pl: "Liczne darowizny na cele dobroczynne sprawiły, że poczuł się kimś ważnym."
+    ru: "Многочисленные пожертвования на благотворительность заставили его почувствовать себя значимым."
+    source: { kind: translated, id: 935252 }
+  - form: "sprawiły"
+    pl: "Te słowa sprawiły jej ból."
+    ru: "Эти слова причинили ей боль."
+    source: { kind: authored }
+  - form: "sprawiły"
+    pl: "Zmiany sprawiły, że wszystko ruszyło."
+    ru: "Перемены сделали так, что всё сдвинулось."
+    source: { kind: authored }
+  - form: "sprawiłyby"
+    pl: "Te słowa sprawiłyby jej ból."
+    ru: "Эти слова причинили бы ей боль."
+    source: { kind: authored }
+  - form: "sprawiłyby"
+    pl: "Zmiany sprawiłyby, że wszystko ruszy."
+    ru: "Перемены сделали бы так, что всё сдвинулось бы."
+    source: { kind: authored }
+  - form: "sprawiłyby"
+    pl: "Nie sprawiłyby mu zawodu."
+    ru: "Они его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawiłybyście"
+    pl: "Sprawiłybyście mu tym przyjemność."
+    ru: "Вы этим доставили бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłybyście"
+    pl: "Nie sprawiłybyście mu zawodu."
+    ru: "Вы его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawiłybyście"
+    pl: "Sprawiłybyście sobie nowy dom?"
+    ru: "Вы обзавелись бы новым домом?"
+    source: { kind: authored }
+  - form: "sprawiłybyśmy"
+    pl: "Sprawiłybyśmy mu tym przyjemność."
+    ru: "Мы этим доставили бы ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawiłybyśmy"
+    pl: "Nie sprawiłybyśmy mu zawodu."
+    ru: "Мы его не разочаровали бы."
+    source: { kind: authored }
+  - form: "sprawiłybyśmy"
+    pl: "Sprawiłybyśmy sobie nowy dom."
+    ru: "Мы обзавелись бы новым домом."
+    source: { kind: authored }
+  - form: "sprawiłyście"
+    pl: "Sprawiłyście nam wielką radość."
+    ru: "Вы доставили нам большую радость."
+    source: { kind: authored }
+  - form: "sprawiłyście"
+    pl: "Nie sprawiłyście mu zawodu."
+    ru: "Вы его не разочаровали."
+    source: { kind: authored }
+  - form: "sprawiłyście"
+    pl: "Sprawiłyście sobie nowy samochód?"
+    ru: "Вы обзавелись новой машиной?"
+    source: { kind: authored }
+  - form: "sprawiłyśmy"
+    pl: "Sprawiłyśmy mu wielką radość."
+    ru: "Мы доставили ему большую радость."
+    source: { kind: authored }
+  - form: "sprawiłyśmy"
+    pl: "Nie sprawiłyśmy mu zawodu."
+    ru: "Мы его не разочаровали."
+    source: { kind: authored }
+  - form: "sprawiłyśmy"
+    pl: "Sprawiłyśmy sobie nowy samochód."
+    ru: "Мы обзавелись новой машиной."
+    source: { kind: authored }
+  - form: "sprawimy"
+    pl: "Sprawimy mu tym przyjemność."
+    ru: "Мы этим доставим ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawimy"
+    pl: "Nie sprawimy mu zawodu."
+    ru: "Мы его не разочаруем."
+    source: { kind: authored }
+  - form: "sprawimy"
+    pl: "Sprawimy sobie nowy dom."
+    ru: "Мы обзаведёмся новым домом."
+    source: { kind: authored }
+  - form: "sprawiona"
+    pl: "Sprawiona mu przykrość długo bolała."
+    ru: "Причинённая ему обида долго болела."
+    source: { kind: authored }
+  - form: "sprawiona"
+    pl: "Radość sprawiona drobiazgiem bywa największa."
+    ru: "Радость от мелочи бывает самой большой."
+    source: { kind: authored }
+  - form: "sprawiona"
+    pl: "Przyjemność sprawiona bezinteresownie jest cenna."
+    ru: "Бескорыстно доставленная радость ценна."
+    source: { kind: authored }
+  - form: "sprawioną"
+    pl: "Pamiętał przykrość sprawioną mu wtedy."
+    ru: "Он помнил обиду, причинённую ему тогда."
+    source: { kind: authored }
+  - form: "sprawioną"
+    pl: "Docenił radość sprawioną drobiazgiem."
+    ru: "Он оценил радость от мелочи."
+    source: { kind: authored }
+  - form: "sprawioną"
+    pl: "Uznał przykrość za sprawioną niechcący."
+    ru: "Он счёл обиду нечаянной."
+    source: { kind: authored }
+  - form: "sprawione"
+    pl: "Sprawione mu przykrości poszły w niepamięć."
+    ru: "Причинённые ему обиды забылись."
+    source: { kind: authored }
+  - form: "sprawione"
+    pl: "Radości sprawione dzieciom zostają na lata."
+    ru: "Радости, доставленные детям, остаются на годы."
+    source: { kind: authored }
+  - form: "sprawione"
+    pl: "Kłopoty sprawione niechcący też bolą."
+    ru: "Хлопоты, причинённые нечаянно, тоже ранят."
+    source: { kind: authored }
+  - form: "sprawionego"
+    pl: "Nie ma tu nic sprawionego na pokaz."
+    ru: "Здесь нет ничего сделанного напоказ."
+    source: { kind: authored }
+  - form: "sprawionego"
+    pl: "Szukam sprawionego niedawno sprzętu."
+    ru: "Я ищу недавно купленную технику."
+    source: { kind: authored }
+  - form: "sprawionego"
+    pl: "Dotyczy to sprawionego jej zawodu."
+    ru: "Это касается причинённого ей разочарования."
+    source: { kind: authored }
+  - form: "sprawionej"
+    pl: "Nie ma tu sprawionej niedawno rzeczy."
+    ru: "Здесь нет недавно купленной вещи."
+    source: { kind: authored }
+  - form: "sprawionej"
+    pl: "Szukam sprawionej mu przykrości w papierach."
+    ru: "Я ищу в бумагах след причинённой ему обиды."
+    source: { kind: authored }
+  - form: "sprawionej"
+    pl: "Dotyczy to sprawionej jej radości."
+    ru: "Это касается доставленной ей радости."
+    source: { kind: authored }
+  - form: "sprawionemu"
+    pl: "Przyjrzał się sprawionemu niedawno sprzętowi."
+    ru: "Он присмотрелся к недавно купленной технике."
+    source: { kind: authored }
+  - form: "sprawionemu"
+    pl: "Nie ufał sprawionemu naprędce wrażeniu."
+    ru: "Он не доверял наспех произведённому впечатлению."
+    source: { kind: authored }
+  - form: "sprawionemu"
+    pl: "Poświęcił uwagę sprawionemu kłopotowi."
+    ru: "Он уделил внимание причинённым хлопотам."
+    source: { kind: authored }
+  - form: "sprawiono"
+    pl: "Sprawiono mu nowy garnitur."
+    ru: "Ему справили новый костюм."
+    source: { kind: authored }
+  - form: "sprawiono"
+    pl: "Sprawiono dzieciom prawdziwą radość."
+    ru: "Детям доставили настоящую радость."
+    source: { kind: authored }
+  - form: "sprawiono"
+    pl: "Nigdy nie sprawiono mu zawodu."
+    ru: "Его никогда не разочаровывали."
+    source: { kind: authored }
+  - form: "sprawiony"
+    pl: "Sprawiony na wiosnę rower wciąż jest nowy."
+    ru: "Купленный весной велосипед всё ещё новый."
+    source: { kind: authored }
+  - form: "sprawiony"
+    pl: "Zawód sprawiony bliskim boli najbardziej."
+    ru: "Разочарование, причинённое близким, ранит сильнее всего."
+    source: { kind: authored }
+  - form: "sprawiony"
+    pl: "Prezent sprawiony bez okazji cieszy podwójnie."
+    ru: "Подарок без повода радует вдвойне."
+    source: { kind: authored }
+  - form: "sprawionych"
+    pl: "Nie ma tu sprawionych niedawno rzeczy."
+    ru: "Недавно купленных вещей здесь нет."
+    source: { kind: authored }
+  - form: "sprawionych"
+    pl: "Wśród sprawionych przykrości była i ta."
+    ru: "Среди причинённых обид была и эта."
+    source: { kind: authored }
+  - form: "sprawionych"
+    pl: "Szukam sprawionych na wiosnę mebli."
+    ru: "Я ищу купленную весной мебель."
+    source: { kind: authored }
+  - form: "sprawionym"
+    pl: "W sprawionym naprędce stroju czuł się źle."
+    ru: "В наспех справленном костюме ему было неловко."
+    source: { kind: authored }
+  - form: "sprawionym"
+    pl: "Przyjrzał się sprawionym niedawno meblom."
+    ru: "Он присмотрелся к недавно купленной мебели."
+    source: { kind: authored }
+  - form: "sprawionym"
+    pl: "Zajął się sprawionym jej kłopotem."
+    ru: "Он занялся причинёнными ей хлопотами."
+    source: { kind: authored }
+  - form: "sprawionymi"
+    pl: "Cieszył się sprawionymi dzieciom prezentami."
+    ru: "Он радовался подаркам, купленным детям."
+    source: { kind: authored }
+  - form: "sprawionymi"
+    pl: "Między sprawionymi a obiecanymi rzeczami jest różnica."
+    ru: "Между купленными и обещанными вещами есть разница."
+    source: { kind: authored }
+  - form: "sprawionymi"
+    pl: "Wrócił ze sprawionymi na targu zakupami."
+    ru: "Он вернулся с покупками, сделанными на рынке."
+    source: { kind: authored }
+  - form: "sprawisz"
+    pl: "Sprawisz mu tym przyjemność."
+    ru: "Ты этим доставишь ему удовольствие."
+    source: { kind: authored }
+  - form: "sprawisz"
+    pl: "Nie sprawisz mu zawodu."
+    ru: "Ты его не разочаруешь."
+    source: { kind: authored }
+  - form: "sprawisz"
+    pl: "Sprawisz sobie nowy rower?"
+    ru: "Ты купишь себе новый велосипед?"
+    source: { kind: authored }
+  - form: "sprawiwszy"
+    pl: "Sprawiwszy jej przyjemność, odszedł."
+    ru: "Доставив ей удовольствие, он ушёл."
+    source: { kind: authored }
+  - form: "sprawiwszy"
+    pl: "Sprawiwszy sobie psa, zmienił tryb życia."
+    ru: "Заведя собаку, он изменил образ жизни."
+    source: { kind: authored }
+  - form: "sprawiwszy"
+    pl: "Sprawiwszy tyle kłopotu, przeprosił."
+    ru: "Доставив столько хлопот, он извинился."
+    source: { kind: authored }
+  - form: "sprawmy"
+    pl: "Sprawmy jej przyjemność."
+    ru: "Доставим ей удовольствие."
+    source: { kind: authored }
+  - form: "sprawmy"
+    pl: "Sprawmy sobie nowy samochód."
+    ru: "Обзаведёмся новой машиной."
+    source: { kind: authored }
+  - form: "sprawmy"
+    pl: "Nie sprawmy mu zawodu."
+    ru: "Не разочаруем его."
+    source: { kind: authored }

@@ -1,0 +1,76 @@
+# review
+id: okolo
+format: 2
+lemma: "około"
+rank: 916
+pos: prep
+pron: { cyr: "око́уо" }
+senses:
+  - id: about
+    ru: "около, приблизительно (о количестве)"
+    note: "Требует родительного падежа."
+    examples:
+      - pl: "Przeszliśmy około sześciu kilometrów."
+        ru: "Мы прошли пешком около шести километров."
+        source: { kind: tatoeba, id: 722344 }
+      - pl: "Każdego roku eksportuje się około tysiąca ton mąki."
+        ru: "Ежегодно экспортируется около тысячи тонн муки."
+        source: { kind: tatoeba, id: 4328659 }
+      - pl: "Czekaliśmy około godziny."
+        ru: "Мы ждали около часа."
+        source: { kind: authored }
+  - id: time
+    ru: "около (о времени)"
+    examples:
+      - pl: "Około wpół do dziesiątej Ci pasuje?"
+        ru: "Полдевятого тебя бы устроило?"
+        source: { kind: tatoeba, id: 13785277 }
+      - pl: "Przyjdę około piątej."
+        ru: "Я приду около пяти."
+        source: { kind: authored }
+      - pl: "Wrócił około północy."
+        ru: "Он вернулся около полуночи."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Предлог требует родительного падежа: około godziny «около часа», około stu osób «около ста человек». Русское «около» ведёт себя точно так же." }
+  - { kind: usage, text: "Слово говорит о приблизительности — количества или времени, но не о месте. «Около дома» в пространственном смысле будет koło domu или obok domu." }
+  - { kind: usage, text: "Разговорные замены — mniej więcej «более или менее» и jakieś: jakieś sto osób «человек сто»." }
+  - { kind: usage, text: "Форма у слова одна: это предлог, он не склоняется. В словарях его иногда помечают как частицу." }
+collocations:
+  - { pl: "około godziny", ru: "около часа" }
+  - { pl: "około piątej", ru: "около пяти" }
+  - { pl: "około stu osób", ru: "около ста человек" }
+  - { pl: "mniej więcej", ru: "более или менее" }
+family:
+  - { pl: "koło", ru: "возле, около (о месте)", relation: root }
+etymology: "Из o + koło «круг», буквально «вокруг». Русское «около» собрано ровно так же, от «коло» — старого названия круга."
+memory: "około — «около, приблизительно», и требует родительного падежа: około godziny, około piątej. Но только о количестве и времени: «около дома» в пространственном смысле будет koło domu или obok domu. Формы у слова одна — это предлог."
+idioms:
+  - { pl: "około godziny", ru: "около часа" }
+  - { pl: "około piątej", ru: "около пяти" }
+  - { pl: "około stu osób", ru: "около ста человек" }
+formExamples:
+  - form: "około"
+    pl: "Około wpół do dziesiątej Ci pasuje?"
+    ru: "Полдевятого тебя бы устроило?"
+    source: { kind: tatoeba, id: 13785277 }
+  - form: "około"
+    pl: "Przeszliśmy około sześciu kilometrów."
+    ru: "Мы прошли пешком около шести километров."
+    source: { kind: tatoeba, id: 722344 }
+  - form: "około"
+    pl: "Każdego roku eksportuje się około tysiąca ton mąki."
+    ru: "Ежегодно экспортируется около тысячи тонн муки."
+    source: { kind: tatoeba, id: 4328659 }
+  - form: "około"
+    pl: "Czekaliśmy około godziny."
+    ru: "Мы ждали около часа."
+    source: { kind: authored }
+  - form: "około"
+    pl: "Przyjdę około piątej."
+    ru: "Я приду около пяти."
+    source: { kind: authored }
+  - form: "około"
+    pl: "Na sali było około stu osób."
+    ru: "В зале было около ста человек."
+    source: { kind: authored }
