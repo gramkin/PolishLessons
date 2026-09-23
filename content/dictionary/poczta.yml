@@ -1,0 +1,118 @@
+# review
+id: poczta
+format: 2
+lemma: "poczta"
+rank: 1776
+pos: noun
+pron: { cyr: "по́чта" }
+senses:
+  - id: post-office
+    ru: "почта (учреждение, здание)"
+    examples:
+      - pl: "To poczta, a to bank."
+        ru: "Это почта, а то - банк."
+        source: { kind: tatoeba, id: 353936 }
+      - pl: "Przepraszam, gdzie jest poczta?"
+        ru: "Извините, где почта?"
+        source: { kind: translated, id: 930153 }
+      - pl: "Pracuję na poczcie."
+        ru: "Я работаю на почте."
+        source: { kind: translated, id: 8630130 }
+  - id: mail
+    ru: "почта (корреспонденция); почтой"
+    examples:
+      - pl: "Masz pocztę."
+        ru: "Тебе письмо."
+        source: { kind: translated, id: 10602671 }
+      - pl: "Czy wyślesz to pocztą?"
+        ru: "Ты пошлёшь это почтой?"
+        source: { kind: tatoeba, id: 356343 }
+      - pl: "Wysyłam książkę pocztą."
+        ru: "Я отправляю книгу почтой."
+        source: { kind: translated, id: 766154 }
+notes:
+  - { kind: government, text: "На почте — na poczcie (предложный падеж), на почту — na pocztę (винительный): idę na pocztę «я иду на почту»." }
+  - { kind: usage, text: "Чем — pocztą, творительный падеж: wysłać pocztą «отправить почтой», pocztą lotniczą «авиапочтой»." }
+  - { kind: usage, text: "poczta elektroniczna — «электронная почта»; в разговоре чаще говорят mejl или mail." }
+  - { kind: usage, text: "poczta pantoflowa — «сарафанное радио», буквально «тапочная почта»." }
+collocations:
+  - { pl: "na poczcie", ru: "на почте" }
+  - { pl: "wysłać pocztą", ru: "отправить почтой" }
+  - { pl: "poczta elektroniczna", ru: "электронная почта" }
+family:
+  - { pl: "pocztowy", ru: "почтовый", relation: root }
+  - { pl: "pocztówka", ru: "открытка", relation: root }
+  - { pl: "list", ru: "письмо", relation: root, id: list }
+etymology: "Из итальянского posta через немецкий — тем же путём, что русское «почта». Слова совпадают полностью."
+memory: "poczta — и учреждение, и корреспонденция: idę na pocztę «иду на почту», wysłać pocztą «отправить почтой». Электронная — poczta elektroniczna."
+idioms:
+  - { pl: "poczta elektroniczna", ru: "электронная почта" }
+  - { pl: "poczta pantoflowa", ru: "сарафанное радио" }
+  - { pl: "wysłać pocztą", ru: "отправить почтой" }
+formExamplesSkip:
+  - { form: "poczt", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "pocztach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "pocztami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "poczto", reason: "звательная форма, в корпусе примеров нет" }
+  - { form: "pocztom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "poczcie"
+    pl: "Pracuję na poczcie."
+    ru: "Я работаю на почте."
+    source: { kind: translated, id: 8630130 }
+  - form: "poczcie"
+    pl: "List zgubił się na poczcie."
+    ru: "Письмо потерялось на почте."
+    source: { kind: tatoeba, id: 2346390 }
+  - form: "poczcie"
+    pl: "Znaczki możesz kupić w każdej poczcie."
+    ru: "Марки можно купить на любой почте."
+    source: { kind: translated, id: 3865991 }
+  - form: "poczta"
+    pl: "To poczta, a to bank."
+    ru: "Это почта, а то - банк."
+    source: { kind: tatoeba, id: 353936 }
+  - form: "poczta"
+    pl: "Przepraszam, gdzie jest poczta?"
+    ru: "Извините, где почта?"
+    source: { kind: translated, id: 930153 }
+  - form: "poczta"
+    pl: "Przed dworcem jest poczta."
+    ru: "Перед вокзалом почта."
+    source: { kind: translated, id: 711117 }
+  - form: "pocztą"
+    pl: "Czy wyślesz to pocztą?"
+    ru: "Ты пошлёшь это почтой?"
+    source: { kind: tatoeba, id: 356343 }
+  - form: "pocztą"
+    pl: "Proszę pocztą lotniczą."
+    ru: "Авиапочтой, пожалуйста."
+    source: { kind: translated, id: 701570 }
+  - form: "pocztą"
+    pl: "Wysyłam książkę pocztą."
+    ru: "Я отправляю книгу почтой."
+    source: { kind: translated, id: 766154 }
+  - form: "pocztę"
+    pl: "Masz pocztę."
+    ru: "Тебе письмо."
+    source: { kind: translated, id: 10602671 }
+  - form: "pocztę"
+    pl: "Idę na pocztę."
+    ru: "Я иду на почту."
+    source: { kind: translated, id: 3011903 }
+  - form: "pocztę"
+    pl: "Poszedłem na pocztę."
+    ru: "Я пошёл на почту."
+    source: { kind: tatoeba, id: 6320435 }
+  - form: "poczty"
+    pl: "Przeszedł koło poczty."
+    ru: "Он прошёл мимо почты."
+    source: { kind: translated, id: 355799 }
+  - form: "poczty"
+    pl: "Bank jest obok poczty."
+    ru: "Банк рядом с почтой."
+    source: { kind: translated, id: 2169507 }
+  - form: "poczty"
+    pl: "Nie mogę sprawdzić poczty, bo serwer padł."
+    ru: "Не могу проверить почту, потому что сервер упал."
+    source: { kind: tatoeba, id: 357389 }

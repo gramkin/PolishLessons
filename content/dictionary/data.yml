@@ -1,0 +1,106 @@
+# review
+id: data
+format: 2
+lemma: "data"
+rank: 1774
+pos: noun
+pron: { cyr: "да́та" }
+senses:
+  - id: date
+    ru: "дата, число"
+    examples:
+      - pl: "Jaka jest dzisiaj data?"
+        ru: "Какое сегодня число?"
+        source: { kind: translated, id: 702127 }
+      - pl: "Jaka jest twoja data urodzenia?"
+        ru: "Какая у тебя дата рождения?"
+        source: { kind: tatoeba, id: 733630 }
+      - pl: "Data ważności tego mleka minęła."
+        ru: "Срок годности этого молока истёк."
+        source: { kind: translated, id: 7558735 }
+  - id: set-date
+    ru: "дата (назначить, вписать, уточнить)"
+    examples:
+      - pl: "Ustalmy datę pikniku."
+        ru: "Давайте назначим дату пикника."
+        source: { kind: translated, id: 991303 }
+      - pl: "Proszę tu wpisać datę urodzenia."
+        ru: "Впишите здесь, пожалуйста, дату рождения."
+        source: { kind: translated, id: 765750 }
+      - pl: "Nie jestem pewien dokładnej daty."
+        ru: "Я не уверен в точной дате."
+        source: { kind: translated, id: 352623 }
+notes:
+  - { kind: false-friend, text: "Форма dacie в таблице ниже принадлежит не этому слову, а глаголу dać: dacie radę значит «вы справитесь», а не что-либо про дату." }
+  - { kind: government, text: "Назначить дату — ustalić datę (винительный падеж); до этой даты — przed tą datą (творительный)." }
+  - { kind: usage, text: "data urodzenia — «дата рождения», data ważności — «срок годности», буквально «дата действительности»." }
+  - { kind: usage, text: "Русское «дата» и польское data — одно латинское слово, но по-русски ещё говорят «число», а по-польски в этом смысле тоже data: Jaka jest dzisiaj data?" }
+collocations:
+  - { pl: "data urodzenia", ru: "дата рождения" }
+  - { pl: "data ważności", ru: "срок годности" }
+  - { pl: "ustalić datę", ru: "назначить дату" }
+family:
+  - { pl: "datować", ru: "датировать", relation: root }
+  - { pl: "dzień", ru: "день", relation: root, id: dzien }
+etymology: "Из латинского data «данная», от datum — так начинались средневековые письма. Русское «дата» пришло тем же путём."
+memory: "data — «дата» и «число»: Jaka jest dzisiaj data? «Какое сегодня число?». Осторожно: форма dacie принадлежит глаголу dać, а не этому слову."
+idioms:
+  - { pl: "data urodzenia", ru: "дата рождения" }
+  - { pl: "data ważności", ru: "срок годности" }
+  - { pl: "ustalić datę", ru: "назначить дату" }
+formExamplesSkip:
+  - { form: "dacie", reason: "в корпусе оба примера на эту форму принадлежат другому слову — глаголу dać «дать» во 2-м лице множественного числа (Nie martwcie się, dacie radę), поэтому примеры не приводятся" }
+  - { form: "dat", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "datach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "datami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "dato", reason: "звательная форма, в корпусе примеров нет" }
+  - { form: "datom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "data"
+    pl: "Jaka jest dzisiaj data?"
+    ru: "Какое сегодня число?"
+    source: { kind: translated, id: 702127 }
+  - form: "data"
+    pl: "Jaka jest twoja data urodzenia?"
+    ru: "Какая у тебя дата рождения?"
+    source: { kind: tatoeba, id: 733630 }
+  - form: "data"
+    pl: "Data ważności tego mleka minęła."
+    ru: "Срок годности этого молока истёк."
+    source: { kind: translated, id: 7558735 }
+  - form: "datą"
+    pl: "Nie widziałem jej przed tą datą."
+    ru: "Я не видел её до этой даты."
+    source: { kind: translated, id: 585676 }
+  - form: "datą"
+    pl: "Pod tą datą nic nie zapisano."
+    ru: "Под этой датой ничего не записано."
+    source: { kind: authored }
+  - form: "datą"
+    pl: "List był opatrzony datą."
+    ru: "Письмо было помечено датой."
+    source: { kind: authored }
+  - form: "datę"
+    pl: "Napisz datę."
+    ru: "Напиши дату."
+    source: { kind: translated, id: 13033554 }
+  - form: "datę"
+    pl: "Ustalmy datę pikniku."
+    ru: "Давайте назначим дату пикника."
+    source: { kind: translated, id: 991303 }
+  - form: "datę"
+    pl: "Jak zmienić datę w zegarku?"
+    ru: "Как сменить дату на часах?"
+    source: { kind: tatoeba, id: 8617750 }
+  - form: "daty"
+    pl: "Wszystko zależy od daty."
+    ru: "Всё зависит от даты."
+    source: { kind: translated, id: 924540 }
+  - form: "daty"
+    pl: "Nie jestem pewien dokładnej daty."
+    ru: "Я не уверен в точной дате."
+    source: { kind: translated, id: 352623 }
+  - form: "daty"
+    pl: "Weźmy bilet bez oznaczonej daty."
+    ru: "Возьмём билет без указанной даты."
+    source: { kind: translated, id: 351986 }

@@ -1,0 +1,92 @@
+# review
+id: mina
+format: 2
+lemma: "mina"
+rank: 1779
+pos: noun
+pron: { cyr: "ми́на" }
+senses:
+  - id: face
+    ru: "выражение лица, мина"
+    examples:
+      - pl: "Zrobiłem minę."
+        ru: "Я состроил гримасу."
+        source: { kind: translated, id: 10203122 }
+      - pl: "Zrobił smutną minę i wyszedł."
+        ru: "Он состроил грустную мину и вышел."
+        source: { kind: translated, id: 367739 }
+      - pl: "Nie rób takiej miny."
+        ru: "Не делай такое лицо."
+        source: { kind: translated, id: 1357169 }
+  - id: explosive
+    ru: "мина (взрывное устройство)"
+    examples:
+      - pl: "Wjechał na minę i jego jeep eksplodował."
+        ru: "Он наехал на мину, и его джип взорвался."
+        source: { kind: translated, id: 818712 }
+      - pl: "Saperzy rozbroili minę."
+        ru: "Сапёры обезвредили мину."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Формы minie и miną в таблице ниже принадлежат глаголу minąć «пройти, миновать»: Minie rok значит «пройдёт год», а не что-либо про мину." }
+  - { kind: usage, text: "robić minę — «строить рожицу, корчить мину»; stroić miny — «кривляться». Это основное, повседневное значение слова." }
+  - { kind: usage, text: "robić dobrą minę do złej gry — «делать хорошую мину при плохой игре», выражение совпадает с русским целиком." }
+  - { kind: government, text: "Строить мину кому-то — stroić miny do kogoś: stroiła miny do tamtej kobiety." }
+collocations:
+  - { pl: "robić minę", ru: "строить мину" }
+  - { pl: "kwaśna mina", ru: "кислая мина" }
+  - { pl: "stroić miny", ru: "кривляться" }
+family:
+  - { pl: "minka", ru: "гримаска", relation: root }
+  - { pl: "twarz", ru: "лицо", relation: root, id: twarz }
+etymology: "Из французского mine «выражение лица» — отсюда же русская «мина» в обоих значениях. Взрывное устройство названо по подкопу, слово другого происхождения."
+memory: "mina — прежде всего «выражение лица»: robić minę «строить мину», kwaśna mina «кислая мина». Осторожно: minie и miną — это формы глагола minąć «миновать»."
+idioms:
+  - { pl: "robić dobrą minę do złej gry", ru: "делать хорошую мину при плохой игре" }
+  - { pl: "kwaśna mina", ru: "кислая мина" }
+  - { pl: "stroić miny", ru: "кривляться" }
+formExamplesSkip:
+  - { form: "min", reason: "единственный кандидат на эту форму — иностранное имя собственное, а не польское слово" }
+  - { form: "mina", reason: "единственный кандидат на эту форму — личное имя Mina, а не нарицательное слово" }
+  - { form: "minami", reason: "единственный кандидат на эту форму — иностранное имя собственное, а не польское слово" }
+  - { form: "miną", reason: "в корпусе все примеры на эту форму принадлежат другому слову — глаголу minąć «пройти, миновать» (Minie rok zanim się znowu zobaczymy), поэтому примеры не приводятся" }
+  - { form: "minie", reason: "в корпусе все примеры на эту форму принадлежат другому слову — глаголу minąć «пройти, миновать» (Minie rok zanim się znowu zobaczymy), поэтому примеры не приводятся" }
+  - { form: "mino", reason: "звательная форма, в корпусе примеров нет" }
+  - { form: "minom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "minach"
+    pl: "Po ich minach można sądzić, że ponieśli porażkę."
+    ru: "По их лицам можно судить, что они потерпели неудачу."
+    source: { kind: translated, id: 365055 }
+  - form: "minach"
+    pl: "Po minach poznałem, że coś się stało."
+    ru: "По лицам я понял, что что-то случилось."
+    source: { kind: authored }
+  - form: "minach"
+    pl: "W ich minach było zdziwienie."
+    ru: "В их лицах было удивление."
+    source: { kind: authored }
+  - form: "minę"
+    pl: "Zrobiłem minę."
+    ru: "Я состроил гримасу."
+    source: { kind: translated, id: 10203122 }
+  - form: "minę"
+    pl: "Zrobił smutną minę i wyszedł."
+    ru: "Он состроил грустную мину и вышел."
+    source: { kind: translated, id: 367739 }
+  - form: "minę"
+    pl: "Nauczyciel zrobił groźną minę."
+    ru: "Учитель сделал грозное лицо."
+    source: { kind: translated, id: 701618 }
+  - form: "miny"
+    pl: "Nie rób takiej miny."
+    ru: "Не делай такое лицо."
+    source: { kind: translated, id: 1357169 }
+  - form: "miny"
+    pl: "Nie rób takiej kwaśnej miny."
+    ru: "Не делай такую кислую мину."
+    source: { kind: translated, id: 3033713 }
+  - form: "miny"
+    pl: "Stroiła miny do tamtej kobiety."
+    ru: "Она кривлялась, глядя на ту женщину."
+    source: { kind: translated, id: 1594618 }
