@@ -389,6 +389,11 @@ exclude:
   # польское название кузова. Значение "минивэн" в корпусе не встречается
   # ни разу. Тот же класс, что in, e и la
   - van
+  # не самостоятельное слово: словарь даёт только название буквы d и
+  # вульгарное усечение, и ни того, ни другого в корпусе нет. Все десять
+  # кандидатов — иностранные фрагменты имён собственных (Tour de France,
+  # Rio de Janeiro, Valse de la lune). Тот же класс, что in, e, la и van
+  - de
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
