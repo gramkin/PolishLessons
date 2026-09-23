@@ -1,0 +1,173 @@
+# review
+id: bank
+format: 2
+lemma: "bank"
+rank: 862
+pos: noun
+pron: { cyr: "банк" }
+senses:
+  - id: bank
+    ru: "банк"
+    examples:
+      - pl: "Gdzie jest bank?"
+        ru: "Где банк?"
+        source: { kind: tatoeba, id: 10586178 }
+      - pl: "To poczta, a to bank."
+        ru: "Это почта, а то - банк."
+        source: { kind: tatoeba, id: 353936 }
+      - pl: "Czy bank jest otwarty?"
+        ru: "Банк открыт?"
+        source: { kind: tatoeba, id: 5336340 }
+  - id: in-bank
+    ru: "w banku, do banku — в банке, в банк"
+    examples:
+      - pl: "Nie mam konta w banku."
+        ru: "У меня нет счёта в банке."
+        source: { kind: tatoeba, id: 12955875 }
+      - pl: "Idź do banku."
+        ru: "Иди в банк."
+        source: { kind: translated, id: 525466 }
+      - pl: "Idę do banku."
+        ru: "Я иду в банк."
+        source: { kind: translated, id: 2349194 }
+  - id: plural
+    ru: "banki — банки (как учреждения)"
+    examples:
+      - pl: "Banki są dzisiaj zamknięte."
+        ru: "Банки сегодня закрыты."
+        source: { kind: translated, id: 3637588 }
+      - pl: "Banki są otwierane o dziewiątej."
+        ru: "Банки открываются в девять."
+        source: { kind: translated, id: 1459805 }
+      - pl: "Większość dużych banków wprowadza ten system."
+        ru: "Большинство крупных банков вводит эту систему."
+        source: { kind: translated, id: 365084 }
+notes:
+  - { kind: usage, text: "Предложный падеж — w banku «в банке», винительный с do — do banku «в банк»: Idę do banku." }
+  - { kind: usage, text: "Разговорное na bank значит «точно, наверняка»: Na bank przyjdzie «Он точно придёт». А mieć coś jak w banku — «быть в чём-то совершенно уверенным»." }
+  - { kind: usage, text: "Производные прозрачны: bankowy «банковский», bankier «банкир», bankomat «банкомат», konto w banku «счёт в банке»." }
+  - { kind: false-friend, text: "Не путайте с русским «банка» (стеклянная) — это słoik. Польское bank только финансовое учреждение." }
+collocations:
+  - { pl: "konto w banku", ru: "счёт в банке" }
+  - { pl: "iść do banku", ru: "идти в банк" }
+  - { pl: "na bank", ru: "наверняка" }
+  - { pl: "bankomat", ru: "банкомат" }
+family:
+  - { pl: "bankowy", ru: "банковский", relation: derived }
+  - { pl: "bankier", ru: "банкир", relation: derived }
+  - { pl: "bankomat", ru: "банкомат", relation: derived }
+etymology: "Через немецкое Bank из итальянского banco «скамья, стол менялы». Русское «банк» пришло тем же путём, так что слова совпадают."
+memory: "bank — «банк», без ловушек, но не путайте со стеклянной «банкой»: та по-польски słoik. Запомните w banku «в банке» и do banku «в банк», а из разговорного — na bank «наверняка» и mieć jak w banku «быть уверенным на все сто»."
+idioms:
+  - { pl: "na bank", ru: "наверняка" }
+  - { pl: "mieć jak w banku", ru: "быть совершенно уверенным" }
+  - { pl: "konto w banku", ru: "счёт в банке" }
+formExamples:
+  - form: "bank"
+    pl: "Gdzie jest bank?"
+    ru: "Где банк?"
+    source: { kind: tatoeba, id: 10586178 }
+  - form: "bank"
+    pl: "To poczta, a to bank."
+    ru: "Это почта, а то - банк."
+    source: { kind: tatoeba, id: 353936 }
+  - form: "bank"
+    pl: "Czy bank jest otwarty?"
+    ru: "Банк открыт?"
+    source: { kind: tatoeba, id: 5336340 }
+  - form: "bankach"
+    pl: "W obu bankach kolejki są długie."
+    ru: "В обоих банках длинные очереди."
+    source: { kind: authored }
+  - form: "bankach"
+    pl: "O tych bankach pisała prasa."
+    ru: "Об этих банках писала пресса."
+    source: { kind: authored }
+  - form: "bankach"
+    pl: "Trzyma pieniądze w dwóch bankach."
+    ru: "Он держит деньги в двух банках."
+    source: { kind: authored }
+  - form: "bankami"
+    pl: "Między bankami trwa konkurencja."
+    ru: "Между банками идёт конкуренция."
+    source: { kind: authored }
+  - form: "bankami"
+    pl: "Zajmuje się bankami od lat."
+    ru: "Он занимается банками много лет."
+    source: { kind: authored }
+  - form: "bankami"
+    pl: "Porównał warunki między bankami."
+    ru: "Он сравнил условия между банками."
+    source: { kind: authored }
+  - form: "banki"
+    pl: "Banki są dzisiaj zamknięte."
+    ru: "Банки сегодня закрыты."
+    source: { kind: translated, id: 3637588 }
+  - form: "banki"
+    pl: "Banki są otwierane o dziewiątej."
+    ru: "Банки открываются в девять."
+    source: { kind: translated, id: 1459805 }
+  - form: "banki"
+    pl: "Banki podniosły oprocentowanie."
+    ru: "Банки подняли процентную ставку."
+    source: { kind: authored }
+  - form: "bankiem"
+    pl: "Poczta jest między szkołą a bankiem."
+    ru: "Почта находится между школой и банком."
+    source: { kind: translated, id: 11481170 }
+  - form: "bankiem"
+    pl: "Sklep znajdziesz między bankiem a szkołą."
+    ru: "Магазин ты найдёшь между банком и школой."
+    source: { kind: translated, id: 364173 }
+  - form: "bankiem"
+    pl: "Rozmawiał z bankiem o kredycie."
+    ru: "Он говорил с банком о кредите."
+    source: { kind: authored }
+  - form: "bankom"
+    pl: "Nie ufam bankom."
+    ru: "Я не доверяю банкам."
+    source: { kind: authored }
+  - form: "bankom"
+    pl: "Dzięki bankom kredyt stał się dostępny."
+    ru: "Благодаря банкам кредит стал доступным."
+    source: { kind: authored }
+  - form: "bankom"
+    pl: "Przyjrzał się bankom uważniej."
+    ru: "Он присмотрелся к банкам внимательнее."
+    source: { kind: authored }
+  - form: "bankowi"
+    pl: "„Któremu bankowi można ufać?“ - „Żadnemu.“"
+    ru: "«Какому банку можно доверять?» — «Никакому.»"
+    source: { kind: translated, id: 4408611 }
+  - form: "bankowi"
+    pl: "Spłacił bankowi cały dług."
+    ru: "Он выплатил банку весь долг."
+    source: { kind: authored }
+  - form: "bankowi"
+    pl: "Nie ufał temu bankowi."
+    ru: "Он не доверял этому банку."
+    source: { kind: authored }
+  - form: "banków"
+    pl: "Większość dużych banków wprowadza ten system."
+    ru: "Большинство крупных банков вводит эту систему."
+    source: { kind: translated, id: 365084 }
+  - form: "banków"
+    pl: "Świat jest chory z powodu swoich pieniędzy, banków i budżetów."
+    ru: "Мир болен из-за своих денег, банков и бюджетов."
+    source: { kind: translated, id: 2278964 }
+  - form: "banków"
+    pl: "W mieście jest kilka banków."
+    ru: "В городе несколько банков."
+    source: { kind: authored }
+  - form: "banku"
+    pl: "Nie mam konta w banku."
+    ru: "У меня нет счёта в банке."
+    source: { kind: tatoeba, id: 12955875 }
+  - form: "banku"
+    pl: "Idź do banku."
+    ru: "Иди в банк."
+    source: { kind: translated, id: 525466 }
+  - form: "banku"
+    pl: "Idę do banku."
+    ru: "Я иду в банк."
+    source: { kind: translated, id: 2349194 }
