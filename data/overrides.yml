@@ -262,6 +262,13 @@ exclude:
   # При этом у obiecować нет ни значения, ни вида в Wiktionary, а формы
   # obiecywał и obiecywano, различающие основу -ywa-, есть только у obiecywać
   - obiecowac
+  # лемма существует как польское слово (mary «носилки для покойника,
+  # катафалк», множественное от mara), но в корпусе нет ни одного примера
+  # именно этого слова: все тридцать кандидатов — английское имя Mary
+  # (Mary umie pływać, On zna Mary, Tom pocałuje Mary), а форма mar — тоже
+  # имя (Mar zraniła się w łokieć). Частотность целиком наведена именем.
+  # Тот же класс, что maria и anna
+  - mary
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
