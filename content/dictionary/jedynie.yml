@@ -1,0 +1,90 @@
+# review
+id: jedynie
+format: 2
+lemma: "jedynie"
+rank: 797
+pos: part
+pron: { cyr: "еды́не" }
+senses:
+  - id: only
+    ru: "лишь, только"
+    examples:
+      - pl: "Możemy jedynie czekać."
+        ru: "Мы можем лишь ждать."
+        source: { kind: translated, id: 3706403 }
+      - pl: "To jedynie początek."
+        ru: "Это лишь начало."
+        source: { kind: authored }
+      - pl: "Powiedział jedynie kilka słów."
+        ru: "Он сказал лишь несколько слов."
+        source: { kind: authored }
+  - id: vs-tylko
+    ru: "jedynie — книжнее, чем tylko"
+    note: "Значение то же, регистр выше."
+    examples:
+      - pl: "Chodzi jedynie o czas."
+        ru: "Речь идёт лишь о времени."
+        source: { kind: authored }
+      - pl: "Zostało jedynie pięć minut."
+        ru: "Осталось лишь пять минут."
+        source: { kind: authored }
+      - pl: "Brakuje jedynie podpisu."
+        ru: "Не хватает лишь подписи."
+        source: { kind: authored }
+  - id: bookish
+    ru: "в книжной и афористической речи"
+    examples:
+      - pl: "Śmierć jest jedynie horyzontem. A horyzont to tylko ograniczenie naszego pola widzenia."
+        ru: "Смерть - это только горизонт. А горизонт - это не что иное, как ограниченность поля зрения."
+        source: { kind: tatoeba, id: 723988 }
+      - pl: "To jedynie kwestia czasu."
+        ru: "Это лишь вопрос времени."
+        source: { kind: authored }
+      - pl: "Pozostaje jedynie czekać."
+        ru: "Остаётся лишь ждать."
+        source: { kind: authored }
+  - id: restriction
+    ru: "jedynie wtedy, gdy… — лишь тогда, когда…"
+    examples:
+      - pl: "Pomoże jedynie wtedy, gdy poprosisz."
+        ru: "Он поможет лишь тогда, когда попросишь."
+        source: { kind: authored }
+      - pl: "Wejdziesz jedynie z biletem."
+        ru: "Войдёшь лишь с билетом."
+        source: { kind: authored }
+      - pl: "Liczy się jedynie wynik."
+        ru: "Важен лишь результат."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "jedynie и tylko значат одно и то же — «только, лишь», — но jedynie заметно книжнее. В разговоре берут tylko, в тексте и в афоризме — jedynie." }
+  - { kind: usage, text: "Слово от jeden «один», как русское «единственно» от «один». Родня: jedyny «единственный», jedynka «единица», jedynak «единственный сын»." }
+  - { kind: usage, text: "Обычно стоит прямо перед тем словом, которое ограничивает: Powiedział jedynie kilka słów «Он сказал лишь несколько слов»." }
+  - { kind: usage, text: "Слово не изменяется." }
+collocations:
+  - { pl: "jedynie kwestia czasu", ru: "лишь вопрос времени" }
+  - { pl: "pozostaje jedynie", ru: "остаётся лишь" }
+  - { pl: "liczy się jedynie", ru: "важен лишь" }
+family:
+  - { pl: "jeden", ru: "один", relation: root }
+  - { pl: "jedyny", ru: "единственный", relation: derived }
+  - { pl: "tylko", ru: "только", relation: root }
+  - { pl: "jedynak", ru: "единственный сын", relation: derived }
+etymology: "От jeden «один» — как русское «единственно» связано с «один»."
+memory: "jedynie значит то же, что tylko — «только, лишь», — но заметно книжнее: в разговоре берут tylko, в тексте и в афоризме jedynie. Слово идёт от jeden «один», как русское «единственно» от «один», и не изменяется."
+idioms:
+  - { pl: "jedynie kwestia czasu", ru: "лишь вопрос времени" }
+  - { pl: "pozostaje jedynie", ru: "остаётся лишь" }
+  - { pl: "liczy się jedynie", ru: "важен лишь" }
+formExamples:
+  - form: "jedynie"
+    pl: "Możemy jedynie czekać."
+    ru: "Мы можем лишь ждать."
+    source: { kind: translated, id: 3706403 }
+  - form: "jedynie"
+    pl: "To jedynie kwestia czasu."
+    ru: "Это лишь вопрос времени."
+    source: { kind: authored }
+  - form: "jedynie"
+    pl: "Liczy się jedynie wynik."
+    ru: "Важен лишь результат."
+    source: { kind: authored }

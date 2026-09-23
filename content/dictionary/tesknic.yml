@@ -1,0 +1,649 @@
+# review
+id: tesknic
+format: 2
+lemma: "tęsknić"
+rank: 796
+pos: verb
+aspect: imperf
+pron: { cyr: "тэ́нскниць" }
+senses:
+  - id: miss
+    ru: "tęsknić ZA kimś — скучать по кому-л. (творительный!)"
+    note: "Русский ставит дательный с «по», польский — творительный с za."
+    examples:
+      - pl: "Ona tęskni za nim."
+        ru: "Она скучает по нему."
+        source: { kind: tatoeba, id: 8763478 }
+      - pl: "Tęsknię za tobą."
+        ru: "Грущу без тебя."
+        source: { kind: tatoeba, id: 864109 }
+      - pl: "Tęsknisz za mną?"
+        ru: "Скучаешь по мне?"
+        source: { kind: translated, id: 7680879 }
+  - id: missed
+    ru: "tęskniłem za tobą — я скучал по тебе"
+    examples:
+      - pl: "Tęskniłem za tobą."
+        ru: "Я скучал по тебе."
+        source: { kind: translated, id: 410091 }
+      - pl: "Bardzo za tobą tęskniłem."
+        ru: "Я очень по тебе скучал."
+        source: { kind: translated, id: 1348640 }
+      - pl: "W ogóle za mną nie tęskniłeś?"
+        ru: "Ты совсем по мне не скучал?"
+        source: { kind: tatoeba, id: 6689541 }
+  - id: homesick
+    ru: "tęsknić za domem — скучать по дому"
+    examples:
+      - pl: "Tom tęsknił za domem."
+        ru: "Том скучал по дому."
+        source: { kind: translated, id: 8765410 }
+      - pl: "Tęsknicie za domem?"
+        ru: "Скучаете по дому?"
+        source: { kind: translated, id: 8457902 }
+      - pl: "Ludzie z wielkich miast tęsknią za życiem na wsi."
+        ru: "Люди из больших городов тоскуют по деревенской жизни."
+        source: { kind: translated, id: 976153 }
+  - id: will-miss
+    ru: "będę tęsknić — буду скучать"
+    examples:
+      - pl: "Będę za tobą tęsknić."
+        ru: "Я буду по тебе скучать."
+        source: { kind: translated, id: 2213011 }
+      - pl: "Będę za wami tęsknić."
+        ru: "Я буду по вам скучать."
+        source: { kind: translated, id: 3363574 }
+      - pl: "Tęskniliśmy za Tomem."
+        ru: "Мы скучали по Тому."
+        source: { kind: tatoeba, id: 3127245 }
+notes:
+  - { kind: government, text: "Главное отличие от русского — падеж. tęsknić ZA kimś, ZA czymś требует творительного: Tęsknię za tobą «Скучаю по тебе», tęsknić za domem «скучать по дому». Русский в этом месте ставит дательный с предлогом «по»." }
+  - { kind: usage, text: "Корень тот же, что в русской «тоске»: праславянское *tǫska. Отсюда существительное tęsknota «тоска» — а отглагольное tęsknienie практически не употребляется." }
+  - { kind: usage, text: "Совершенный вид — zatęsknić «затосковать». Прилагательное tęskny «тоскливый», наречие tęsknie." }
+  - { kind: usage, text: "Будущее строится с инфинитивом: Będę za tobą tęsknić «Я буду по тебе скучать» — или с формой на -ła: Będę tęskniła." }
+collocations:
+  - { pl: "tęsknić za kimś", ru: "скучать по кому-либо" }
+  - { pl: "tęsknić za domem", ru: "скучать по дому" }
+  - { pl: "będę tęsknić", ru: "буду скучать" }
+  - { pl: "tęsknota", ru: "тоска" }
+family:
+  - { pl: "tęsknota", ru: "тоска", relation: derived }
+  - { pl: "tęskny", ru: "тоскливый", relation: derived }
+  - { pl: "zatęsknić", ru: "затосковать", relation: aspect }
+etymology: "От tęskny «тоскливый», праславянское *tǫska — то же слово, что русские «тоска» и «тошно»."
+memory: "tęsknić — «скучать, тосковать», и корень тот же, что в русской «тоске». Главное отличие — падеж: tęsknić ZA kimś требует творительного там, где русский ставит дательный с «по». Tęsknię za tobą значит «Скучаю по тебе». Существительное — tęsknota, а совершенный вид — zatęsknić."
+idioms:
+  - { pl: "tęsknić za kimś", ru: "скучать по кому-либо" }
+  - { pl: "tęsknić za domem", ru: "скучать по дому" }
+  - { pl: "tęsknota", ru: "тоска" }
+formExamplesSkip:
+  - { form: "tęsknienia", reason: "отглагольного существительного от tęsknić нет; «тоска» — это tęsknota" }
+  - { form: "tęsknienie", reason: "отглагольного существительного от tęsknić нет; «тоска» — это tęsknota" }
+  - { form: "tęsknieniem", reason: "отглагольного существительного от tęsknić нет; «тоска» — это tęsknota" }
+  - { form: "tęsknieniu", reason: "отглагольного существительного от tęsknić нет; «тоска» — это tęsknota" }
+  - { form: "tęskniono", reason: "безличной формы у этого глагола нет: тоскует всегда кто-то конкретный" }
+formExamples:
+  - form: "tęskni"
+    pl: "Ona tęskni za nim."
+    ru: "Она скучает по нему."
+    source: { kind: tatoeba, id: 8763478 }
+  - form: "tęskni"
+    pl: "Ona za nim tęskni."
+    ru: "Она по нему скучает."
+    source: { kind: tatoeba, id: 10610881 }
+  - form: "tęskni"
+    pl: "Tęskni za domem."
+    ru: "Он скучает по дому."
+    source: { kind: authored }
+  - form: "tęsknią"
+    pl: "Ludzie z wielkich miast tęsknią za życiem na wsi."
+    ru: "Люди из больших городов тоскуют по деревенской жизни."
+    source: { kind: translated, id: 976153 }
+  - form: "tęsknią"
+    pl: "Tęsknią za dziećmi."
+    ru: "Они скучают по детям."
+    source: { kind: authored }
+  - form: "tęsknią"
+    pl: "Tęsknią za dawnymi czasami."
+    ru: "Они тоскуют по прежним временам."
+    source: { kind: authored }
+  - form: "tęskniąc"
+    pl: "Tęskniąc za domem, pisał listy."
+    ru: "Тоскуя по дому, он писал письма."
+    source: { kind: authored }
+  - form: "tęskniąc"
+    pl: "Tęskniąc za nią, milczał."
+    ru: "Тоскуя по ней, он молчал."
+    source: { kind: authored }
+  - form: "tęskniąc"
+    pl: "Nie tęskniąc za niczym, ruszył dalej."
+    ru: "Ни по чему не тоскуя, он двинулся дальше."
+    source: { kind: authored }
+  - form: "tęskniąca"
+    pl: "Tęskniąca za domem dziewczyna pisała listy."
+    ru: "Тоскующая по дому девочка писала письма."
+    source: { kind: authored }
+  - form: "tęskniąca"
+    pl: "To matka tęskniąca za synem."
+    ru: "Это мать, тоскующая по сыну."
+    source: { kind: authored }
+  - form: "tęskniąca"
+    pl: "Tęskniąca dusza nie zna spokoju."
+    ru: "Тоскующая душа не знает покоя."
+    source: { kind: authored }
+  - form: "tęskniącą"
+    pl: "Znam osobę tęskniącą za domem."
+    ru: "Я знаю человека, тоскующего по дому."
+    source: { kind: authored }
+  - form: "tęskniącą"
+    pl: "Widziałem matkę tęskniącą za synem."
+    ru: "Я видел мать, тоскующую по сыну."
+    source: { kind: authored }
+  - form: "tęskniącą"
+    pl: "Pocieszał dziewczynę tęskniącą za rodziną."
+    ru: "Он утешал девочку, тоскующую по семье."
+    source: { kind: authored }
+  - form: "tęskniące"
+    pl: "Dzieci tęskniące za domem źle sypiają."
+    ru: "Дети, тоскующие по дому, плохо спят."
+    source: { kind: authored }
+  - form: "tęskniące"
+    pl: "To serca tęskniące za wolnością."
+    ru: "Это сердца, тоскующие по свободе."
+    source: { kind: authored }
+  - form: "tęskniące"
+    pl: "Tęskniące psy wyją nocami."
+    ru: "Тоскующие собаки воют ночами."
+    source: { kind: authored }
+  - form: "tęskniącego"
+    pl: "Szukam kogoś tęskniącego za domem."
+    ru: "Я ищу кого-нибудь, тоскующего по дому."
+    source: { kind: authored }
+  - form: "tęskniącego"
+    pl: "Nie ma tu nikogo tęskniącego za miastem."
+    ru: "Здесь нет никого, кто тоскует по городу."
+    source: { kind: authored }
+  - form: "tęskniącego"
+    pl: "Pocieszał chłopca tęskniącego za matką."
+    ru: "Он утешал мальчика, тоскующего по матери."
+    source: { kind: authored }
+  - form: "tęskniącej"
+    pl: "Szukam osoby tęskniącej za domem."
+    ru: "Я ищу человека, тоскующего по дому."
+    source: { kind: authored }
+  - form: "tęskniącej"
+    pl: "Nie ma tu duszy tęskniącej za spokojem."
+    ru: "Здесь нет души, тоскующей по покою."
+    source: { kind: authored }
+  - form: "tęskniącej"
+    pl: "Pomógł dziewczynie tęskniącej za rodziną."
+    ru: "Он помог девочке, тоскующей по семье."
+    source: { kind: authored }
+  - form: "tęskniącemu"
+    pl: "Pomógł tęskniącemu za domem chłopcu."
+    ru: "Он помог тоскующему по дому мальчику."
+    source: { kind: authored }
+  - form: "tęskniącemu"
+    pl: "Przyjrzał się tęskniącemu psu."
+    ru: "Он присмотрелся к тоскующей собаке."
+    source: { kind: authored }
+  - form: "tęskniącemu"
+    pl: "Nie odmówił tęskniącemu za rodziną żołnierzowi."
+    ru: "Он не отказал тоскующему по семье солдату."
+    source: { kind: authored }
+  - form: "tęskniący"
+    pl: "Tęskniący za domem żołnierz pisał co tydzień."
+    ru: "Тоскующий по дому солдат писал каждую неделю."
+    source: { kind: authored }
+  - form: "tęskniący"
+    pl: "To człowiek tęskniący za spokojem."
+    ru: "Это человек, тоскующий по покою."
+    source: { kind: authored }
+  - form: "tęskniący"
+    pl: "Tęskniący pies czekał przy drzwiach."
+    ru: "Тоскующий пёс ждал у двери."
+    source: { kind: authored }
+  - form: "tęskniących"
+    pl: "Mało jest ludzi tęskniących za dawnymi czasami."
+    ru: "Мало людей, тоскующих по прежним временам."
+    source: { kind: authored }
+  - form: "tęskniących"
+    pl: "Wśród tęskniących za domem był i on."
+    ru: "Среди тоскующих по дому был и он."
+    source: { kind: authored }
+  - form: "tęskniących"
+    pl: "Szukają dzieci tęskniących za rodziną."
+    ru: "Они ищут детей, тоскующих по семье."
+    source: { kind: authored }
+  - form: "tęskniącym"
+    pl: "Był człowiekiem tęskniącym za spokojem."
+    ru: "Он был человеком, тоскующим по покою."
+    source: { kind: authored }
+  - form: "tęskniącym"
+    pl: "Przyjrzał się tęskniącym za domem dzieciom."
+    ru: "Он присмотрелся к тоскующим по дому детям."
+    source: { kind: authored }
+  - form: "tęskniącym"
+    pl: "Mówili o żołnierzu tęskniącym za rodziną."
+    ru: "Они говорили о солдате, тоскующем по семье."
+    source: { kind: authored }
+  - form: "tęskniącymi"
+    pl: "Pracuje z dziećmi tęskniącymi za domem."
+    ru: "Он работает с детьми, тоскующими по дому."
+    source: { kind: authored }
+  - form: "tęskniącymi"
+    pl: "Między tęskniącymi a pogodzonymi jest różnica."
+    ru: "Между тоскующими и смирившимися есть разница."
+    source: { kind: authored }
+  - form: "tęskniącymi"
+    pl: "Zajmuje się żołnierzami tęskniącymi za krajem."
+    ru: "Он занимается солдатами, тоскующими по родине."
+    source: { kind: authored }
+  - form: "tęsknicie"
+    pl: "Tęsknicie za domem?"
+    ru: "Скучаете по дому?"
+    source: { kind: translated, id: 8457902 }
+  - form: "tęsknicie"
+    pl: "Tęsknicie za Tomem?"
+    ru: "Скучаете по Тому?"
+    source: { kind: translated, id: 9367540 }
+  - form: "tęsknicie"
+    pl: "Tęsknicie za latem?"
+    ru: "Скучаете по лету?"
+    source: { kind: authored }
+  - form: "tęsknić"
+    pl: "Będę za tobą tęsknić."
+    ru: "Я буду по тебе скучать."
+    source: { kind: translated, id: 2213011 }
+  - form: "tęsknić"
+    pl: "Będę za wami tęsknić."
+    ru: "Я буду по вам скучать."
+    source: { kind: translated, id: 3363574 }
+  - form: "tęsknić"
+    pl: "Nie chcę za nikim tęsknić."
+    ru: "Я не хочу ни по кому скучать."
+    source: { kind: authored }
+  - form: "tęsknię"
+    pl: "Tęsknię za tobą."
+    ru: "Грущу без тебя."
+    source: { kind: tatoeba, id: 864109 }
+  - form: "tęsknię"
+    pl: "Tęsknię za armią."
+    ru: "Я скучаю по армии."
+    source: { kind: tatoeba, id: 10615392 }
+  - form: "tęsknię"
+    pl: "Tęsknię za domem."
+    ru: "Я скучаю по дому."
+    source: { kind: authored }
+  - form: "tęsknij"
+    pl: "Nie tęsknij za mną za bardzo."
+    ru: "Не скучай по мне слишком."
+    source: { kind: authored }
+  - form: "tęsknij"
+    pl: "Tęsknij, ale nie rozpaczaj."
+    ru: "Скучай, но не отчаивайся."
+    source: { kind: authored }
+  - form: "tęsknij"
+    pl: "Nie tęsknij za tym, co minęło."
+    ru: "Не тоскуй по тому, что прошло."
+    source: { kind: authored }
+  - form: "tęsknijcie"
+    pl: "Nie tęsknijcie za mną za bardzo."
+    ru: "Не скучайте по мне слишком."
+    source: { kind: authored }
+  - form: "tęsknijcie"
+    pl: "Tęsknijcie, ale nie rozpaczajcie."
+    ru: "Скучайте, но не отчаивайтесь."
+    source: { kind: authored }
+  - form: "tęsknijcie"
+    pl: "Nie tęsknijcie za tym, co minęło."
+    ru: "Не тоскуйте по тому, что прошло."
+    source: { kind: authored }
+  - form: "tęsknijmy"
+    pl: "Nie tęsknijmy za tym, co minęło."
+    ru: "Не будем тосковать по тому, что прошло."
+    source: { kind: authored }
+  - form: "tęsknijmy"
+    pl: "Tęsknijmy, ale żyjmy dalej."
+    ru: "Будем скучать, но жить дальше."
+    source: { kind: authored }
+  - form: "tęsknijmy"
+    pl: "Nie tęsknijmy za sobą za bardzo."
+    ru: "Не будем слишком скучать друг по другу."
+    source: { kind: authored }
+  - form: "tęsknili"
+    pl: "Tęsknili za domem przez całą zimę."
+    ru: "Они скучали по дому всю зиму."
+    source: { kind: authored }
+  - form: "tęsknili"
+    pl: "Tęsknili za sobą nawzajem."
+    ru: "Они скучали друг по другу."
+    source: { kind: authored }
+  - form: "tęsknili"
+    pl: "Nigdy za nikim nie tęsknili."
+    ru: "Они никогда ни по кому не скучали."
+    source: { kind: authored }
+  - form: "tęskniliby"
+    pl: "Tęskniliby za domem."
+    ru: "Они скучали бы по дому."
+    source: { kind: authored }
+  - form: "tęskniliby"
+    pl: "Nie tęskniliby za nikim."
+    ru: "Они ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęskniliby"
+    pl: "Tęskniliby za sobą nawzajem."
+    ru: "Они скучали бы друг по другу."
+    source: { kind: authored }
+  - form: "tęsknilibyście"
+    pl: "Tęsknilibyście za domem?"
+    ru: "Вы скучали бы по дому?"
+    source: { kind: authored }
+  - form: "tęsknilibyście"
+    pl: "Nie tęsknilibyście za nikim."
+    ru: "Вы ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęsknilibyście"
+    pl: "Tęsknilibyście za latem."
+    ru: "Вы скучали бы по лету."
+    source: { kind: authored }
+  - form: "tęsknilibyśmy"
+    pl: "Tęsknilibyśmy za domem."
+    ru: "Мы скучали бы по дому."
+    source: { kind: authored }
+  - form: "tęsknilibyśmy"
+    pl: "Nie tęsknilibyśmy za nikim."
+    ru: "Мы ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęsknilibyśmy"
+    pl: "Tęsknilibyśmy za latem."
+    ru: "Мы скучали бы по лету."
+    source: { kind: authored }
+  - form: "tęskniliście"
+    pl: "Tęskniliście za domem?"
+    ru: "Вы скучали по дому?"
+    source: { kind: authored }
+  - form: "tęskniliście"
+    pl: "Tęskniliście za sobą nawzajem."
+    ru: "Вы скучали друг по другу."
+    source: { kind: authored }
+  - form: "tęskniliście"
+    pl: "Nigdy za nikim nie tęskniliście."
+    ru: "Вы никогда ни по кому не скучали."
+    source: { kind: authored }
+  - form: "tęskniliśmy"
+    pl: "Tęskniliśmy za Tomem."
+    ru: "Мы скучали по Тому."
+    source: { kind: tatoeba, id: 3127245 }
+  - form: "tęskniliśmy"
+    pl: "Tęskniliśmy za tobą."
+    ru: "Мы по тебе скучали."
+    source: { kind: translated, id: 6935665 }
+  - form: "tęskniliśmy"
+    pl: "Tęskniliśmy za domem."
+    ru: "Мы скучали по дому."
+    source: { kind: authored }
+  - form: "tęsknił"
+    pl: "Tom tęsknił za domem."
+    ru: "Том скучал по дому."
+    source: { kind: translated, id: 8765410 }
+  - form: "tęsknił"
+    pl: "Czy ktoś za mną tęsknił?"
+    ru: "Кто-нибудь по мне скучал?"
+    source: { kind: translated, id: 8722920 }
+  - form: "tęsknił"
+    pl: "Tęsknił za rodziną przez lata."
+    ru: "Он годами тосковал по семье."
+    source: { kind: authored }
+  - form: "tęskniła"
+    pl: "Mary tęskniła za tobą."
+    ru: "Мэри по тебе скучала."
+    source: { kind: translated, id: 3438241 }
+  - form: "tęskniła"
+    pl: "Będę za tobą tęskniła, kiedy odejdziesz."
+    ru: "Я буду по тебе скучать, когда ты уйдёшь."
+    source: { kind: translated, id: 2470071 }
+  - form: "tęskniła"
+    pl: "Tęskniła za rodziną."
+    ru: "Она скучала по семье."
+    source: { kind: authored }
+  - form: "tęskniłaby"
+    pl: "Tęskniłaby za domem."
+    ru: "Она скучала бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłaby"
+    pl: "Nie tęskniłaby za nikim."
+    ru: "Она ни по кому не скучала бы."
+    source: { kind: authored }
+  - form: "tęskniłaby"
+    pl: "Tęskniłaby za latem."
+    ru: "Она скучала бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłabym"
+    pl: "Tęskniłabym za domem."
+    ru: "Я скучала бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłabym"
+    pl: "Nie tęskniłabym za nikim."
+    ru: "Я ни по кому не скучала бы."
+    source: { kind: authored }
+  - form: "tęskniłabym"
+    pl: "Tęskniłabym za latem."
+    ru: "Я скучала бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłabyś"
+    pl: "Tęskniłabyś za domem?"
+    ru: "Ты скучала бы по дому?"
+    source: { kind: authored }
+  - form: "tęskniłabyś"
+    pl: "Nie tęskniłabyś za nikim."
+    ru: "Ты ни по кому не скучала бы."
+    source: { kind: authored }
+  - form: "tęskniłabyś"
+    pl: "Tęskniłabyś za latem?"
+    ru: "Ты скучала бы по лету?"
+    source: { kind: authored }
+  - form: "tęskniłam"
+    pl: "Bardzo za tobą tęskniłam."
+    ru: "Я очень по тебе скучала."
+    source: { kind: translated, id: 1395836 }
+  - form: "tęskniłam"
+    pl: "Bardzo za wami tęskniłam."
+    ru: "Я очень по вам скучала."
+    source: { kind: translated, id: 12061905 }
+  - form: "tęskniłam"
+    pl: "Tęskniłam za domem."
+    ru: "Я скучала по дому."
+    source: { kind: authored }
+  - form: "tęskniłaś"
+    pl: "Tęskniłaś za mną?"
+    ru: "Ты по мне скучала?"
+    source: { kind: translated, id: 3634747 }
+  - form: "tęskniłaś"
+    pl: "Tęskniłaś za Grecją, gdy wyjechałaś do Niemiec?"
+    ru: "Ты скучала по Греции, когда уехала в Германию?"
+    source: { kind: translated, id: 11361686 }
+  - form: "tęskniłaś"
+    pl: "Tęskniłaś za domem?"
+    ru: "Ты скучала по дому?"
+    source: { kind: authored }
+  - form: "tęskniłby"
+    pl: "Tęskniłby za domem."
+    ru: "Он скучал бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłby"
+    pl: "Nie tęskniłby za nikim."
+    ru: "Он ни по кому не скучал бы."
+    source: { kind: authored }
+  - form: "tęskniłby"
+    pl: "Tęskniłby za latem."
+    ru: "Он скучал бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłbym"
+    pl: "Tęskniłbym za domem."
+    ru: "Я скучал бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłbym"
+    pl: "Nie tęskniłbym za nikim."
+    ru: "Я ни по кому не скучал бы."
+    source: { kind: authored }
+  - form: "tęskniłbym"
+    pl: "Tęskniłbym za latem."
+    ru: "Я скучал бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłbyś"
+    pl: "Tęskniłbyś za domem?"
+    ru: "Ты скучал бы по дому?"
+    source: { kind: authored }
+  - form: "tęskniłbyś"
+    pl: "Nie tęskniłbyś za nikim."
+    ru: "Ты ни по кому не скучал бы."
+    source: { kind: authored }
+  - form: "tęskniłbyś"
+    pl: "Tęskniłbyś za latem?"
+    ru: "Ты скучал бы по лету?"
+    source: { kind: authored }
+  - form: "tęskniłem"
+    pl: "Tęskniłem za tobą."
+    ru: "Я скучал по тебе."
+    source: { kind: translated, id: 410091 }
+  - form: "tęskniłem"
+    pl: "Bardzo za tobą tęskniłem."
+    ru: "Я очень по тебе скучал."
+    source: { kind: translated, id: 1348640 }
+  - form: "tęskniłem"
+    pl: "Tęskniłem za domem."
+    ru: "Я скучал по дому."
+    source: { kind: authored }
+  - form: "tęskniłeś"
+    pl: "W ogóle za mną nie tęskniłeś?"
+    ru: "Ты совсем по мне не скучал?"
+    source: { kind: tatoeba, id: 6689541 }
+  - form: "tęskniłeś"
+    pl: "Tęskniłeś za mną?"
+    ru: "Ты по мне скучал?"
+    source: { kind: translated, id: 401154 }
+  - form: "tęskniłeś"
+    pl: "Tęskniłeś za domem?"
+    ru: "Ты скучал по дому?"
+    source: { kind: authored }
+  - form: "tęskniło"
+    pl: "Dziecko tęskniło za matką."
+    ru: "Ребёнок тосковал по матери."
+    source: { kind: authored }
+  - form: "tęskniło"
+    pl: "Wiele osób tęskniło za dawnymi czasami."
+    ru: "Многие тосковали по прежним временам."
+    source: { kind: authored }
+  - form: "tęskniło"
+    pl: "Żadne z nich nie tęskniło za miastem."
+    ru: "Никто из них не скучал по городу."
+    source: { kind: authored }
+  - form: "tęskniłoby"
+    pl: "Dziecko tęskniłoby za matką."
+    ru: "Ребёнок тосковал бы по матери."
+    source: { kind: authored }
+  - form: "tęskniłoby"
+    pl: "Wiele osób tęskniłoby za domem."
+    ru: "Многие скучали бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłoby"
+    pl: "Żadne z nich nie tęskniłoby za miastem."
+    ru: "Никто из них не скучал бы по городу."
+    source: { kind: authored }
+  - form: "tęskniły"
+    pl: "Dziewczyny tęskniły za domem."
+    ru: "Девочки скучали по дому."
+    source: { kind: authored }
+  - form: "tęskniły"
+    pl: "Psy tęskniły za panem."
+    ru: "Собаки тосковали по хозяину."
+    source: { kind: authored }
+  - form: "tęskniły"
+    pl: "Nigdy za nikim nie tęskniły."
+    ru: "Они никогда ни по кому не скучали."
+    source: { kind: authored }
+  - form: "tęskniłyby"
+    pl: "Tęskniłyby za domem."
+    ru: "Они скучали бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłyby"
+    pl: "Nie tęskniłyby za nikim."
+    ru: "Они ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęskniłyby"
+    pl: "Tęskniłyby za latem."
+    ru: "Они скучали бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłybyście"
+    pl: "Tęskniłybyście za domem?"
+    ru: "Вы скучали бы по дому?"
+    source: { kind: authored }
+  - form: "tęskniłybyście"
+    pl: "Nie tęskniłybyście za nikim."
+    ru: "Вы ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęskniłybyście"
+    pl: "Tęskniłybyście za latem."
+    ru: "Вы скучали бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłybyśmy"
+    pl: "Tęskniłybyśmy za domem."
+    ru: "Мы скучали бы по дому."
+    source: { kind: authored }
+  - form: "tęskniłybyśmy"
+    pl: "Nie tęskniłybyśmy za nikim."
+    ru: "Мы ни по кому не скучали бы."
+    source: { kind: authored }
+  - form: "tęskniłybyśmy"
+    pl: "Tęskniłybyśmy za latem."
+    ru: "Мы скучали бы по лету."
+    source: { kind: authored }
+  - form: "tęskniłyście"
+    pl: "Tęskniłyście za domem?"
+    ru: "Вы скучали по дому?"
+    source: { kind: authored }
+  - form: "tęskniłyście"
+    pl: "Tęskniłyście za sobą nawzajem."
+    ru: "Вы скучали друг по другу."
+    source: { kind: authored }
+  - form: "tęskniłyście"
+    pl: "Nigdy za nikim nie tęskniłyście."
+    ru: "Вы никогда ни по кому не скучали."
+    source: { kind: authored }
+  - form: "tęskniłyśmy"
+    pl: "Tęskniłyśmy za domem."
+    ru: "Мы скучали по дому."
+    source: { kind: authored }
+  - form: "tęskniłyśmy"
+    pl: "Tęskniłyśmy za sobą nawzajem."
+    ru: "Мы скучали друг по другу."
+    source: { kind: authored }
+  - form: "tęskniłyśmy"
+    pl: "Nigdy za nikim nie tęskniłyśmy."
+    ru: "Мы никогда ни по кому не скучали."
+    source: { kind: authored }
+  - form: "tęsknimy"
+    pl: "Też za tobą tęsknimy."
+    ru: "Мы тоже по тебе скучаем."
+    source: { kind: translated, id: 8539842 }
+  - form: "tęsknimy"
+    pl: "Bardzo za panem tęsknimy."
+    ru: "Мы очень по вам скучаем."
+    source: { kind: translated, id: 11630333 }
+  - form: "tęsknimy"
+    pl: "Tęsknimy za latem."
+    ru: "Мы скучаем по лету."
+    source: { kind: authored }
+  - form: "tęsknisz"
+    pl: "Tęsknisz za mną?"
+    ru: "Скучаешь по мне?"
+    source: { kind: translated, id: 7680879 }
+  - form: "tęsknisz"
+    pl: "Tęsknisz za Tomem?"
+    ru: "Скучаешь по Тому?"
+    source: { kind: translated, id: 9367543 }
+  - form: "tęsknisz"
+    pl: "Tęsknisz za domem?"
+    ru: "Скучаешь по дому?"
+    source: { kind: authored }

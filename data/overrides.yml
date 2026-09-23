@@ -116,6 +116,11 @@ exclude:
   # forms Ann and Annie, the harvested idioms are all swieta Anna weather
   # proverbs, and the harvested etymology belongs to an asteroid named Anna.
   - anna
+  # not a lemma but the past tense of musiec, exactly like the excluded mial
+  # (past tense of miec). The registry capitalises it as the surname Musial,
+  # but every candidate across every form is the verb: Tom musial to zrobic,
+  # Musialem isc, Musiala odpoczac.
+  - musial
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

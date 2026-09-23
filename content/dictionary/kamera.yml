@@ -1,0 +1,188 @@
+# review
+id: kamera
+format: 2
+lemma: "kamera"
+rank: 790
+pos: noun
+pron: { cyr: "каме́ра" }
+senses:
+  - id: camera
+    ru: "видеокамера"
+    examples:
+      - pl: "Telewidz widzi tylko to, co pokaże kamera."
+        ru: "Телезритель видит только то, что покажет камера."
+        source: { kind: translated, id: 357902 }
+      - pl: "Ta nowa kamera jest bardzo łatwa w użyciu."
+        ru: "Эта новая камера очень проста в использовании."
+        source: { kind: translated, id: 10776823 }
+      - pl: "W tej kamerze nie ma taśmy."
+        ru: "В этой камере нет плёнки."
+        source: { kind: translated, id: 6306804 }
+  - id: cameras
+    ru: "kamery — камеры (наблюдения)"
+    examples:
+      - pl: "W budynku są kamery."
+        ru: "В здании есть камеры."
+        source: { kind: tatoeba, id: 6773379 }
+      - pl: "Gdzie są kamery?"
+        ru: "Где камеры?"
+        source: { kind: translated, id: 13788142 }
+      - pl: "Nie dotykaj kamery."
+        ru: "Не трогай камеру."
+        source: { kind: translated, id: 12574241 }
+  - id: buy
+    ru: "kupić kamerę — купить камеру"
+    examples:
+      - pl: "Kupiłem kamerę internetową."
+        ru: "Я купил веб-камеру."
+        source: { kind: translated, id: 12061530 }
+      - pl: "Kupiłam kamerę internetową."
+        ru: "Я купила веб-камеру."
+        source: { kind: translated, id: 12061533 }
+      - pl: "Masz taką samą kamerę jak ja."
+        ru: "У тебя такая же камера, как у меня."
+        source: { kind: translated, id: 393000 }
+  - id: vs-aparat
+    ru: "kamera «видеокамера» ≠ aparat «фотоаппарат»"
+    note: "Русское «камера» шире обоих."
+    examples:
+      - pl: "Co zrobiłeś z kamerą?"
+        ru: "Что ты сделал с камерой?"
+        source: { kind: translated, id: 1352178 }
+      - pl: "Mary rozglądała się za swoją kamerą."
+        ru: "Мэри искала свою камеру."
+        source: { kind: translated, id: 12069037 }
+      - pl: "To nie kamera, tylko aparat."
+        ru: "Это не видеокамера, а фотоаппарат."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Слово уже русского. Польское kamera — это только видеокамера или камера наблюдения. Фотоаппарат — aparat (fotograficzny), а тюремная камера — cela. Русское «камера» покрывает всё это сразу." }
+  - { kind: government, text: "nagrywać kamerą «снимать камерой» — творительный падеж; w kamerze «в камере» — предложный." }
+  - { kind: usage, text: "Ходовые: kamera internetowa «веб-камера», kamera ochrony «камера наблюдения», kamera cofania «камера заднего вида»." }
+  - { kind: usage, text: "Ударение, как обычно, на предпоследнем слоге: ka-ME-ra." }
+collocations:
+  - { pl: "kamera internetowa", ru: "веб-камера" }
+  - { pl: "kamera ochrony", ru: "камера наблюдения" }
+  - { pl: "nagrywać kamerą", ru: "снимать камерой" }
+  - { pl: "aparat fotograficzny", ru: "фотоаппарат" }
+family:
+  - { pl: "aparat", ru: "фотоаппарат", relation: root }
+  - { pl: "cela", ru: "тюремная камера", relation: root }
+  - { pl: "nagrywać", ru: "записывать", relation: root }
+etymology: "Через латинское camera «свод, комната» — то же заимствование, что русская «камера», но значение в польском сузилось."
+memory: "kamera уже русского слова: по-польски это только видеокамера или камера наблюдения. Фотоаппарат — aparat, а тюремная камера — cela. Русское «камера» покрывает всё это сразу, и на этом легко ошибиться: To nie kamera, tylko aparat."
+idioms:
+  - { pl: "kamera internetowa", ru: "веб-камера" }
+  - { pl: "kamera ochrony", ru: "камера наблюдения" }
+  - { pl: "nagrywać kamerą", ru: "снимать камерой" }
+formExamplesSkip:
+  - { form: "kamero", reason: "звательный падеж у неодушевлённого существительного не употребляется" }
+formExamples:
+  - form: "kamer"
+    pl: "W sklepie nie ma już tych kamer."
+    ru: "В магазине этих камер больше нет."
+    source: { kind: authored }
+  - form: "kamer"
+    pl: "Unikał kamer przez całą drogę."
+    ru: "Он избегал камер всю дорогу."
+    source: { kind: authored }
+  - form: "kamer"
+    pl: "Na korytarzu nie ma kamer."
+    ru: "В коридоре нет камер."
+    source: { kind: authored }
+  - form: "kamera"
+    pl: "Telewidz widzi tylko to, co pokaże kamera."
+    ru: "Телезритель видит только то, что покажет камера."
+    source: { kind: translated, id: 357902 }
+  - form: "kamera"
+    pl: "Ta nowa kamera jest bardzo łatwa w użyciu."
+    ru: "Эта новая камера очень проста в использовании."
+    source: { kind: translated, id: 10776823 }
+  - form: "kamera"
+    pl: "Kamera nagrywa bez przerwy."
+    ru: "Камера пишет без перерыва."
+    source: { kind: authored }
+  - form: "kamerach"
+    pl: "Na kamerach widać wszystko."
+    ru: "На камерах видно всё."
+    source: { kind: authored }
+  - form: "kamerach"
+    pl: "Mówili o kamerach na skrzyżowaniu."
+    ru: "Они говорили о камерах на перекрёстке."
+    source: { kind: authored }
+  - form: "kamerach"
+    pl: "W obu kamerach zapis się urwał."
+    ru: "В обеих камерах запись оборвалась."
+    source: { kind: authored }
+  - form: "kamerami"
+    pl: "Budynek jest obstawiony kamerami."
+    ru: "Здание обставлено камерами."
+    source: { kind: authored }
+  - form: "kamerami"
+    pl: "Między kamerami jest martwe pole."
+    ru: "Между камерами есть мёртвая зона."
+    source: { kind: authored }
+  - form: "kamerami"
+    pl: "Zajmuje się kamerami przemysłowymi."
+    ru: "Он занимается промышленными камерами."
+    source: { kind: authored }
+  - form: "kamerą"
+    pl: "Co zrobiłeś z kamerą?"
+    ru: "Что ты сделал с камерой?"
+    source: { kind: translated, id: 1352178 }
+  - form: "kamerą"
+    pl: "Mary rozglądała się za swoją kamerą."
+    ru: "Мэри искала свою камеру."
+    source: { kind: translated, id: 12069037 }
+  - form: "kamerą"
+    pl: "Nagrywał wszystko kamerą."
+    ru: "Он снимал всё камерой."
+    source: { kind: authored }
+  - form: "kamerę"
+    pl: "Kupiłem kamerę internetową."
+    ru: "Я купил веб-камеру."
+    source: { kind: translated, id: 12061530 }
+  - form: "kamerę"
+    pl: "Kupiłam kamerę internetową."
+    ru: "Я купила веб-камеру."
+    source: { kind: translated, id: 12061533 }
+  - form: "kamerę"
+    pl: "Masz taką samą kamerę jak ja."
+    ru: "У тебя такая же камера, как у меня."
+    source: { kind: translated, id: 393000 }
+  - form: "kamerom"
+    pl: "Przyjrzał się kamerom na budynku."
+    ru: "Он присмотрелся к камерам на здании."
+    source: { kind: authored }
+  - form: "kamerom"
+    pl: "Dzięki kamerom złapano złodzieja."
+    ru: "Благодаря камерам поймали вора."
+    source: { kind: authored }
+  - form: "kamerom"
+    pl: "Nie ufa kamerom w sklepach."
+    ru: "Он не доверяет камерам в магазинах."
+    source: { kind: authored }
+  - form: "kamery"
+    pl: "W budynku są kamery."
+    ru: "В здании есть камеры."
+    source: { kind: tatoeba, id: 6773379 }
+  - form: "kamery"
+    pl: "Gdzie są kamery?"
+    ru: "Где камеры?"
+    source: { kind: translated, id: 13788142 }
+  - form: "kamery"
+    pl: "Nie dotykaj kamery."
+    ru: "Не трогай камеру."
+    source: { kind: translated, id: 12574241 }
+  - form: "kamerze"
+    pl: "W tej kamerze nie ma taśmy."
+    ru: "В этой камере нет плёнки."
+    source: { kind: translated, id: 6306804 }
+  - form: "kamerze"
+    pl: "W kamerze skończyła się bateria."
+    ru: "В камере села батарея."
+    source: { kind: authored }
+  - form: "kamerze"
+    pl: "Opowiadał o nowej kamerze."
+    ru: "Он рассказывал о новой камере."
+    source: { kind: authored }
