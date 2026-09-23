@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path'
 import { parse as parseYaml } from 'yaml'
 import { CONTENT, DATA, SOURCES } from '../lib/paths'
 import { readPolimorf } from '../lib/polimorf'
-import { applyStatuses, cardStatuses } from '../lib/status'
+import { applyExclusions, applyStatuses, cardStatuses } from '../lib/status'
 import {
   AGLT_SUFFIXES,
   buildFormIndex,
@@ -47,7 +47,11 @@ const ranked = rankLemmas(freq, index, overrides, { iterations: 5, limit: LEMMA_
 mkdirSync(dirname(DATA.ranked), { recursive: true })
 writeFileSync(
   DATA.ranked,
-  `${JSON.stringify(applyStatuses(ranked, cardStatuses(CONTENT.cards)), null, 2)}\n`,
+  `${JSON.stringify(
+    applyExclusions(applyStatuses(ranked, cardStatuses(CONTENT.cards)), overrides.excludeNotes),
+    null,
+    2,
+  )}\n`,
 )
 console.log(
   `✓ ${DATA.ranked}: ${ranked.length} lemmas; top 10: ${ranked

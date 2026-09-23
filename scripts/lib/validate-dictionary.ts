@@ -5,7 +5,12 @@ import {
   type Card,
   type FormsFile,
 } from '../../shared/dictionary'
-import { AGLT_SUFFIXES } from '../dictionary/lib/rank'
+import {
+  AGLT_SUFFIXES,
+  EXCLUSION_REASONS,
+  REASONS_NEEDING_SEE,
+  type ExclusionNote,
+} from '../dictionary/lib/rank'
 import { affirmativeForms } from '../dictionary/lib/draft'
 import { tokenize } from '../dictionary/lib/tatoeba'
 import type { DataFile } from './load-content'
@@ -15,6 +20,8 @@ export interface DictionaryBundle {
   forms: DataFile[]
   ranked: { id: string; lemma: string; rank: number }[] | null
   lessonWordIds: string[]
+  /** The exclude list and its notes from data/overrides.yml; omitted disables the check. */
+  exclusions?: { exclude: string[]; notes: Record<string, ExclusionNote> }
 }
 
 export function exampleHasForm(text: string, forms: Set<string>): boolean {
@@ -209,6 +216,37 @@ export function validateDictionary(
     const other = rankOwner.get(card.rank)
     if (other) errors.push(`${path}: duplicate rank ${card.rank} (also ${other})`)
     else rankOwner.set(card.rank, path)
+  }
+
+  // Every exclusion carries a checkable reason: the prose lives in YAML comments, but the
+  // registry itself must say why, and a form-of must name the card that owns the paradigm.
+  if (bundle.exclusions) {
+    const { exclude, notes } = bundle.exclusions
+    const excluded = new Set(exclude)
+    for (const id of exclude) {
+      const note = notes[id]
+      if (!note) {
+        errors.push(`overrides: excluded "${id}" has no entry in excludeNotes`)
+        continue
+      }
+      if (!EXCLUSION_REASONS.includes(note.why)) {
+        errors.push(
+          `overrides: excludeNotes "${id}": unknown why "${note.why}" (expected ${EXCLUSION_REASONS.join(', ')})`,
+        )
+        continue
+      }
+      const needsSee = REASONS_NEEDING_SEE.includes(note.why)
+      if (needsSee && !note.see)
+        errors.push(`overrides: excludeNotes "${id}": why "${note.why}" requires a see target`)
+      if (!needsSee && note.see)
+        errors.push(`overrides: excludeNotes "${id}": why "${note.why}" must not have a see target`)
+      if (note.see && !cards.has(note.see))
+        errors.push(`overrides: excludeNotes "${id}": see "${note.see}" is not a card`)
+    }
+    for (const id of Object.keys(notes)) {
+      if (!excluded.has(id))
+        errors.push(`overrides: excludeNotes has "${id}", which is not excluded`)
+    }
   }
 
   for (const id of bundle.lessonWordIds) {

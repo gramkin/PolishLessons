@@ -16,10 +16,35 @@ export interface FrequencyEntry {
   count: number
 }
 
+/**
+ * Why a lemma is excluded. A closed vocabulary so the registry can be checked:
+ * form-of and variant-of point at the card that owns the paradigm, the rest stand alone.
+ */
+export const EXCLUSION_REASONS = [
+  'form-of',
+  'variant-of',
+  'foreign',
+  'proper-noun',
+  'no-corpus',
+  'not-a-lemma',
+] as const
+export type ExclusionReason = (typeof EXCLUSION_REASONS)[number]
+
+/** Reasons that name the card carrying the word instead. */
+export const REASONS_NEEDING_SEE: readonly ExclusionReason[] = ['form-of', 'variant-of']
+
+export interface ExclusionNote {
+  why: ExclusionReason
+  /** The card that owns this form; required for form-of and variant-of, absent otherwise. */
+  see?: string
+}
+
 export interface Overrides {
   forms: Record<string, string>
   add: { lemma: string; pos: CardPos; forms: string[] }[]
   exclude: string[]
+  /** Short machine-readable reason per excluded id; the prose stays in YAML comments. */
+  excludeNotes: Record<string, ExclusionNote>
   pos: Record<string, CardPos>
 }
 
@@ -28,6 +53,8 @@ export interface RankedLemma {
   format?: number | null
   /** Depth of the card for this lemma; null when no card exists yet. */
   depth?: CardDepth | null
+  /** Why this lemma is excluded, or null when it is not; stamped from data/overrides.yml. */
+  excluded?: ExclusionNote | null
   rank: number
   id: string
   lemma: string
@@ -80,6 +107,7 @@ export function parseOverrides(yamlText: string): Overrides {
     forms: raw.forms ?? {},
     add: raw.add ?? [],
     exclude: raw.exclude ?? [],
+    excludeNotes: raw.excludeNotes ?? {},
     pos: raw.pos ?? {},
   }
 }

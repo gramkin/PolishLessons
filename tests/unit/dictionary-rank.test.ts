@@ -40,8 +40,17 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [sobie] }
 exclude: [mamić]
+excludeNotes:
+  mamić: { why: not-a-lemma }
 pos: {}
 `)
+
+describe('parseOverrides', () => {
+  it('reads exclusion notes, defaulting to an empty map', () => {
+    expect(overrides.excludeNotes).toEqual({ mamić: { why: 'not-a-lemma' } })
+    expect(parseOverrides('exclude: [x]').excludeNotes).toEqual({})
+  })
+})
 
 describe('form index', () => {
   const index = buildFormIndex(rows)

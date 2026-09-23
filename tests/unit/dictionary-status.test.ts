@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { applyStatuses, summarize, type CardStatus } from '../../scripts/dictionary/lib/status'
+import {
+  applyExclusions,
+  applyStatuses,
+  summarize,
+  type CardStatus,
+} from '../../scripts/dictionary/lib/status'
 import type { RankedLemma } from '../../scripts/dictionary/lib/rank'
 import { CARD_FORMAT } from '../../shared/dictionary'
 
@@ -20,6 +25,17 @@ describe('dictionary status', () => {
     expect(stamped.map((e) => e.format)).toEqual([CARD_FORMAT, null, null])
     expect(stamped.map((e) => e.depth)).toEqual(['deep', null, null])
     expect(stamped[0]!.lemma).toBe('on')
+  })
+
+  it('stamps the exclusion note onto excluded lemmas and leaves the rest alone', () => {
+    const stamped = applyExclusions(ranked, { byc: { why: 'form-of', see: 'on' } })
+    expect(stamped.map((e) => e.excluded)).toEqual([null, { why: 'form-of', see: 'on' }, null])
+  })
+
+  it('preserves fields the stamping does not own', () => {
+    const noted = applyExclusions(ranked, { byc: { why: 'no-corpus' } })
+    const stamped = applyStatuses(noted, new Map())
+    expect(stamped[1]).toMatchObject({ lemma: 'być', rank: 2, excluded: { why: 'no-corpus' } })
   })
 
   it('separates current cards from ones that need an upgrade and lists the deep ones', () => {

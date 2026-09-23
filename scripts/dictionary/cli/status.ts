@@ -1,7 +1,8 @@
-import { writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync } from 'node:fs'
 import { CONTENT, DATA } from '../lib/paths'
+import { parseOverrides } from '../lib/rank'
 import { readRegistry } from '../lib/registry'
-import { applyStatuses, cardStatuses, summarize } from '../lib/status'
+import { applyExclusions, applyStatuses, cardStatuses, summarize } from '../lib/status'
 import { CARD_FORMAT } from '../../../shared/dictionary'
 
 // Two registries, one convention: data/ranked.json is generated from the frequency
@@ -11,9 +12,12 @@ const ranked = readRegistry(DATA.ranked)
 const words = readRegistry(DATA.words)
 const statuses = cardStatuses(CONTENT.cards)
 
-const stampedRanked = applyStatuses(ranked, statuses)
+// Exclusion notes are stamped alongside the card status: overrides.yml is the source of
+// truth, the registry only carries a copy, so dict:rank can never leave a stale reason.
+const notes = parseOverrides(readFileSync(DATA.overrides, 'utf8')).excludeNotes
+const stampedRanked = applyExclusions(applyStatuses(ranked, statuses), notes)
 writeFileSync(DATA.ranked, `${JSON.stringify(stampedRanked, null, 2)}\n`)
-const stampedWords = applyStatuses(words, statuses)
+const stampedWords = applyExclusions(applyStatuses(words, statuses), notes)
 if (words.length > 0) writeFileSync(DATA.words, `${JSON.stringify(stampedWords, null, 2)}\n`)
 
 const s = summarize([...stampedRanked, ...stampedWords], statuses)

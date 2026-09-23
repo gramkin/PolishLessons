@@ -50,6 +50,7 @@ function bundle(): DictionaryBundle {
     ],
     ranked: [{ id: 'dom', lemma: 'dom', rank: 120 }],
     lessonWordIds: ['dom'],
+    exclusions: { exclude: ['mial'], notes: { mial: { why: 'form-of', see: 'dom' } } },
   }
 }
 
@@ -74,6 +75,52 @@ describe('validateDictionary', () => {
       errors: [],
       warnings: [`dictionary/dom.yml: card format 1, current is ${CARD_FORMAT} — needs an upgrade`],
     })
+  })
+
+  it('requires a note for every exclusion, with a known reason and a real see target', () => {
+    const missing = bundle()
+    missing.exclusions = {
+      exclude: ['mial', 'ben'],
+      notes: { mial: { why: 'form-of', see: 'dom' } },
+    }
+    expect(validateDictionary(missing, { requireLessonCards: false }).errors).toContain(
+      'overrides: excluded "ben" has no entry in excludeNotes',
+    )
+
+    const badWhy = bundle()
+    badWhy.exclusions = { exclude: ['mial'], notes: { mial: { why: 'nonsense' } } }
+    expect(validateDictionary(badWhy, { requireLessonCards: false }).errors[0]).toMatch(
+      /excludeNotes "mial": unknown why "nonsense"/,
+    )
+
+    const badSee = bundle()
+    badSee.exclusions = {
+      exclude: ['mial'],
+      notes: { mial: { why: 'form-of', see: 'nieistnieje' } },
+    }
+    expect(validateDictionary(badSee, { requireLessonCards: false }).errors).toContain(
+      'overrides: excludeNotes "mial": see "nieistnieje" is not a card',
+    )
+
+    const stray = bundle()
+    stray.exclusions = { exclude: [], notes: { mial: { why: 'form-of' } } }
+    expect(validateDictionary(stray, { requireLessonCards: false }).errors).toContain(
+      'overrides: excludeNotes has "mial", which is not excluded',
+    )
+  })
+
+  it('requires see on form-of and variant-of, and rejects it elsewhere', () => {
+    const noSee = bundle()
+    noSee.exclusions = { exclude: ['mial'], notes: { mial: { why: 'form-of' } } }
+    expect(validateDictionary(noSee, { requireLessonCards: false }).errors).toContain(
+      'overrides: excludeNotes "mial": why "form-of" requires a see target',
+    )
+
+    const extraSee = bundle()
+    extraSee.exclusions = { exclude: ['mial'], notes: { mial: { why: 'no-corpus', see: 'dom' } } }
+    expect(validateDictionary(extraSee, { requireLessonCards: false }).errors).toContain(
+      'overrides: excludeNotes "mial": why "no-corpus" must not have a see target',
+    )
   })
 
   it('checks example counts and forms', () => {

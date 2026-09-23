@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { parse as parseYaml } from 'yaml'
 import { CARD_FORMAT, type CardDepth } from '../../../shared/dictionary'
-import type { RankedLemma } from './rank'
+import type { ExclusionNote, RankedLemma } from './rank'
 
 export interface CardStatus {
   format: number
@@ -35,6 +35,18 @@ export function applyStatuses(
     const status = statuses.get(entry.id)
     return { ...entry, format: status?.format ?? null, depth: status?.depth ?? null }
   })
+}
+
+/**
+ * Stamps the exclusion note onto every lemma listed in data/overrides.yml, null otherwise.
+ * Spreads the entry like applyStatuses does, so the two compose in either order and neither
+ * drops a field the other owns.
+ */
+export function applyExclusions(
+  ranked: RankedLemma[],
+  notes: Record<string, ExclusionNote>,
+): RankedLemma[] {
+  return ranked.map((entry) => ({ ...entry, excluded: notes[entry.id] ?? null }))
 }
 
 export interface StatusSummary {

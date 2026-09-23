@@ -1,5 +1,7 @@
+import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { DATA } from './dictionary/lib/paths'
+import { parseOverrides } from './dictionary/lib/rank'
 import { readRegistry } from './dictionary/lib/registry'
 import { loadContent } from './lib/load-content'
 import { validateContent } from './lib/validate'
@@ -16,10 +18,14 @@ const ranked = rankedEntries.length > 0 ? [...rankedEntries, ...readRegistry(DAT
 const lessonWordIds = bundle.words.flatMap((file) =>
   ((file.data as { words?: { id: string }[] })?.words ?? []).map((w) => w.id),
 )
+// Every exclusion must say why it is one, so the registry can be checked rather than
+// read: the prose stays in YAML comments, the machine-readable reason lives beside it.
+const overrides = parseOverrides(readFileSync(DATA.overrides, 'utf8'))
+const exclusions = { exclude: overrides.exclude, notes: overrides.excludeNotes }
 
 const errors = validateContent(bundle)
 const dictionary = validateDictionary(
-  { cards: bundle.cards, forms: bundle.forms, ranked, lessonWordIds },
+  { cards: bundle.cards, forms: bundle.forms, ranked, lessonWordIds, exclusions },
   { requireLessonCards: REQUIRE_LESSON_CARDS },
 )
 errors.push(...dictionary.errors)

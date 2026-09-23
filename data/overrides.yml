@@ -696,6 +696,170 @@ exclude:
   # на десять форм — английское имя Don Jones (Chcialbym mianowac Dona Jonesa
   # przewodniczacym), девять форм пусты. Класс jackson, karen
   - don
+excludeNotes:
+  # Machine-readable reason per exclusion; the evidence prose stays in the comments
+  # above each id in the exclude list. form-of and variant-of name the card that owns
+  # the paradigm. Enforced by pnpm validate.
+  peter: { why: proper-noun }
+  ben: { why: proper-noun }
+  fbi: { why: no-corpus }
+  jork: { why: not-a-lemma }
+  uh: { why: no-corpus }
+  joe: { why: proper-noun }
+  james: { why: proper-noun }
+  david: { why: proper-noun }
+  si: { why: foreign }
+  "miał": { why: form-of, see: miec }
+  "miąć": { why: not-a-lemma }  # TODO: no evidence recorded for this pre-existing entry
+  "dosycić": { why: variant-of, see: dosc }  # TODO: no evidence recorded for this pre-existing entry
+  "mamić": { why: not-a-lemma }  # TODO: no evidence recorded for this pre-existing entry
+  taka: { why: form-of, see: taki }  # TODO: no evidence recorded for this pre-existing entry
+  jaka: { why: form-of, see: jaki }  # TODO: no evidence recorded for this pre-existing entry
+  oh: { why: foreign }
+  sir: { why: foreign }
+  c: { why: not-a-lemma }
+  ego: { why: proper-noun }
+  john: { why: proper-noun }
+  twoja: { why: form-of, see: twoj }
+  mi: { why: form-of, see: ja }
+  moja: { why: form-of, see: moj }
+  we: { why: form-of, see: w }
+  byla: { why: form-of, see: byc }
+  miss: { why: foreign }
+  sherlock: { why: proper-noun }
+  wlasne: { why: form-of, see: wlasny }
+  drogi: { why: not-a-lemma }
+  jack: { why: proper-noun }
+  daniel: { why: proper-noun }
+  um: { why: no-corpus }
+  lee: { why: proper-noun }
+  scott: { why: proper-noun }
+  chris: { why: proper-noun }
+  jedyna: { why: form-of, see: jedyny }
+  bill: { why: proper-noun }
+  e: { why: not-a-lemma }
+  sara: { why: proper-noun }
+  la: { why: foreign }
+  in: { why: foreign }
+  eric: { why: proper-noun }
+  adam: { why: proper-noun }
+  dolec: { why: no-corpus }
+  juz-2: { why: no-corpus }
+  matt: { why: proper-noun }
+  cela: { why: no-corpus }
+  rachela: { why: proper-noun }
+  wiec-2: { why: no-corpus }
+  nick: { why: proper-noun }
+  cie: { why: form-of, see: ty }
+  julia: { why: proper-noun }
+  jimmy: { why: proper-noun }
+  dna: { why: not-a-lemma }
+  max: { why: proper-noun }
+  swoje: { why: form-of, see: swoj }
+  rany: { why: not-a-lemma }
+  "patrzyć": { why: variant-of, see: patrzec }
+  "możliwe": { why: form-of, see: mozliwy }
+  d: { why: not-a-lemma }
+  michael: { why: proper-noun }
+  anda: { why: foreign }
+  frank: { why: proper-noun }
+  jezu: { why: form-of, see: jezus }
+  mial: { why: form-of, see: miec }
+  mozliwe: { why: form-of, see: mozliwy }
+  charlie: { why: proper-noun }
+  okay: { why: variant-of, see: okej }
+  anna: { why: proper-noun }
+  musial: { why: form-of, see: musiec }
+  george: { why: proper-noun }
+  henr: { why: proper-noun }
+  "zemrzeć": { why: variant-of, see: umrzec }
+  tato: { why: variant-of, see: tata }
+  maria: { why: proper-noun }
+  goscia: { why: form-of, see: gosc }
+  paul: { why: proper-noun }
+  harry: { why: proper-noun }
+  jim: { why: proper-noun }
+  podoba: { why: form-of, see: podobac }
+  wyprawiac: { why: no-corpus }
+  ray: { why: proper-noun }
+  warta: { why: not-a-lemma }
+  ita: { why: proper-noun }
+  rodzic: { why: form-of, see: rodzice }
+  obiecowac: { why: variant-of, see: obiecywac }
+  mary: { why: no-corpus }
+  ryan: { why: proper-noun }
+  richard: { why: proper-noun }
+  brian: { why: proper-noun }
+  bob: { why: foreign }
+  van: { why: no-corpus }
+  de: { why: not-a-lemma }
+  kevin: { why: proper-noun }
+  ha: { why: foreign }
+  kapitana: { why: form-of, see: kapitan }
+  charles: { why: proper-noun }
+  martin: { why: proper-noun }
+  mark: { why: proper-noun }
+  carl: { why: proper-noun }
+  clark: { why: no-corpus }
+  walter: { why: proper-noun }
+  san: { why: not-a-lemma }
+  jason: { why: proper-noun }
+  graca: { why: foreign }
+  gliniarz: { why: no-corpus }
+  carter: { why: no-corpus }
+  angela: { why: proper-noun }
+  beda: { why: proper-noun }
+  cia: { why: no-corpus }
+  leo: { why: proper-noun }
+  emma: { why: proper-noun }
+  dzialo: { why: not-a-lemma }
+  dan: { why: proper-noun }
+  ted: { why: proper-noun }
+  pospieszyc-2: { why: variant-of, see: pospieszyc }
+  new: { why: foreign }
+  sean: { why: proper-noun }
+  william: { why: proper-noun }
+  donna: { why: no-corpus }
+  thomas: { why: proper-noun }
+  larry: { why: proper-noun }
+  senator: { why: foreign }
+  angeles: { why: not-a-lemma }
+  chuck: { why: proper-noun }
+  jenny: { why: proper-noun }
+  helena: { why: foreign }
+  jeff: { why: proper-noun }
+  josh: { why: proper-noun }
+  taylor: { why: proper-noun }
+  abba: { why: proper-noun }
+  pokaz: { why: not-a-lemma }
+  tysiace: { why: form-of, see: tysiac }
+  wola: { why: not-a-lemma }
+  km: { why: not-a-lemma }
+  karen: { why: proper-noun }
+  show: { why: foreign }
+  odbic: { why: not-a-lemma }
+  jackson: { why: proper-noun }
+  street: { why: foreign }
+  immunitet: { why: no-corpus }
+  mil: { why: form-of, see: mila }
+  powiesc: { why: not-a-lemma }
+  lord: { why: no-corpus }
+  smith: { why: proper-noun }
+  komandor: { why: no-corpus }
+  ed: { why: proper-noun }
+  phil: { why: proper-noun }
+  vegas: { why: no-corpus }
+  niemiec: { why: not-a-lemma }
+  porucznik: { why: no-corpus }
+  korekta: { why: no-corpus }
+  wspolnik: { why: no-corpus }
+  patrzyc: { why: variant-of, see: patrzec }
+  choc: { why: variant-of, see: chociaz }
+  spytac: { why: variant-of, see: zapytac }
+  dosyc: { why: variant-of, see: dosc }
+  zemrzec: { why: variant-of, see: umrzec }
+  don: { why: no-corpus }
+
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
