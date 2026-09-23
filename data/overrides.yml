@@ -111,6 +111,16 @@ exclude:
   # "do dna", "bez dna", "na dnie jeziora", "dno morza". The homograph "dna" (gout)
   # has no corpus support here at all. Same class as cie and twoja.
   - dna
+  # a given name with no corpus support whatsoever: zero candidates, and all ten
+  # forms empty. PoliMorf invents a full Polish paradigm for it (Maksa, Maksowie,
+  # Maksow) from the capitalised lemma "Max". Same class as john, jack, michael,
+  # charlie, anna, julia and jimmy, but with even less evidence than those.
+  - max
+  # not a lemma but a slice of the carded swoj paradigm: its six forms (swoich,
+  # swoim, swoimi, swoje, swojego, swojemu) all belong to swoj, and swoj.yml
+  # already exemplifies the form swoje with "Bil swoje dzieci", "Kocham swoje
+  # miasto" and "Kazdy ma swoje wady". Same class as twoja, cie and dna.
+  - swoje
   # tagged adj, but it is not a lemma: the candidates split three ways — the noun
   # "rana" (Czas leczy rany, od rana), the verb "ranić" (Odrzucenie rani) and the
   # interjection "o rany". The rana card will own the noun forms.
