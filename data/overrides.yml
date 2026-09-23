@@ -423,6 +423,20 @@ exclude:
   # (Jestem nocnym markiem) — это отдельное нарицательное. У самого имени
   # три кандидата и 6 из 10 форм пусты. Класс john, kevin, charles, martin
   - mark
+  # имя собственное: 9 из 11 форм пусты, все пять кандидатов — личное имя
+  # (To jest Carl, Carl wyglada na bardzo szczesliwego)
+  - carl
+  # ни одного кандидата в корпусе: все десять форм пусты, словарных значений
+  # тоже нет. Класс clark/walter — имена без единого примера
+  - clark
+  # ни одного кандидата в корпусе: все десять форм пусты при словарной помете
+  # "imie meskie"
+  - walter
+  # не самостоятельное слово: словарь даёт устаревшую греческую букву и марку
+  # грузовика, ни того ни другого в корпусе нет. Все кандидаты — фрагменты
+  # иностранных имён собственных (San Francisco, San Diego, san-stefanski),
+  # а единственный "sanie" — опечатка вместо w stanie. Класс in, e, la, van, de
+  - san
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
