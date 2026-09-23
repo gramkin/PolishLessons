@@ -374,6 +374,16 @@ exclude:
   # из десяти пусты, все шесть кандидатов — английское имя (Od kiedy Richard
   # jest żonaty?, Will i Richard zazwyczaj pracują w nocy)
   - richard
+  # имя собственное: лемма Brian с большой буквы, словарная помета
+  # "imie meskie"; 8 из 10 форм пусты, все кандидаты до единого —
+  # Tatoeba-заглушки (Brian kupil Kate szminke, Brian poszedl do szkoly
+  # z Kate). Тот же класс, что john, eric, matt, chris
+  - brian
+  # словарь даёт польские значения (бумажный змей, бобслейные сани), но
+  # в корпусе нет ни одного: все 30 кандидатов — английское имя Bob
+  # (Bob i Tom sa bracmi, Bob to moj przyjaciel). Растение «боб» —
+  # это bob с диакритикой над o, отдельная лемма. Класс bill
+  - bob
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
