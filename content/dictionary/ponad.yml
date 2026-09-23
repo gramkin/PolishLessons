@@ -1,0 +1,92 @@
+# review
+id: ponad
+format: 2
+lemma: "ponad"
+rank: 748
+pos: prep
+pron: { cyr: "по́над" }
+senses:
+  - id: more-than
+    ru: "ponad + винительный — больше, свыше"
+    examples:
+      - pl: "Te dęby mają ponad sto lat."
+        ru: "Этим дубам больше ста лет."
+        source: { kind: tatoeba, id: 8670295 }
+      - pl: "Ponad sześćdziesiąt osób zostało aresztowanych."
+        ru: "Более шестидесяти человек было арестовано."
+        source: { kind: tatoeba, id: 3657921 }
+      - pl: "Czekaliśmy ponad godzinę."
+        ru: "Мы ждали больше часа."
+        source: { kind: authored }
+  - id: above-all
+    ru: "ponad wszystko — больше всего на свете"
+    examples:
+      - pl: "Kocham Cię ponad wszystko na świecie."
+        ru: "Я люблю тебя больше всего на свете."
+        source: { kind: tatoeba, id: 1630777 }
+      - pl: "Ceni wolność ponad wszystko."
+        ru: "Он ценит свободу больше всего."
+        source: { kind: authored }
+      - pl: "Kocha muzykę ponad wszystko."
+        ru: "Он любит музыку больше всего."
+        source: { kind: authored }
+  - id: above
+    ru: "ponad + творительный — над"
+    note: "Тот же предлог, другой падеж, другое значение."
+    examples:
+      - pl: "Samolot leciał ponad chmurami."
+        ru: "Самолёт летел над облаками."
+        source: { kind: authored }
+      - pl: "Ponad miastem wisiała mgła."
+        ru: "Над городом висел туман."
+        source: { kind: authored }
+      - pl: "Ponad nami rozciągało się niebo."
+        ru: "Над нами простиралось небо."
+        source: { kind: authored }
+  - id: beyond
+    ru: "ponad siły, ponad miarę — сверх сил, сверх меры"
+    examples:
+      - pl: "To zadanie ponad moje siły."
+        ru: "Эта задача сверх моих сил."
+        source: { kind: authored }
+      - pl: "Pracował ponad miarę."
+        ru: "Он работал сверх меры."
+        source: { kind: authored }
+      - pl: "To ponad moje możliwości."
+        ru: "Это выше моих возможностей."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Два падежа — два значения. С винительным ponad значит «больше, свыше»: ponad sto lat «больше ста лет», ponad godzinę «больше часа». С творительным — «над»: ponad chmurami «над облаками»." }
+  - { kind: false-friend, text: "Не путайте с nad. Простое «над» — это nad (nad stołem «над столом»), а ponad добавляет оттенок «поверх, выше» и умеет значить «больше чем», чего nad не может." }
+  - { kind: usage, text: "ponad wszystko — «больше всего на свете»: Kocham cię ponad wszystko." }
+  - { kind: usage, text: "Устойчивые: ponad siły «сверх сил», ponad miarę «сверх меры», ponad wiek «не по годам»." }
+collocations:
+  - { pl: "ponad sto lat", ru: "больше ста лет" }
+  - { pl: "ponad wszystko", ru: "больше всего" }
+  - { pl: "ponad chmurami", ru: "над облаками" }
+  - { pl: "ponad siły", ru: "сверх сил" }
+family:
+  - { pl: "nad", ru: "над", relation: root }
+  - { pl: "ponadto", ru: "кроме того", relation: derived }
+  - { pl: "nadmiar", ru: "избыток", relation: root }
+etymology: "po + nad — усиленная форма предлога nad «над», то же гнездо, что русское «над»."
+memory: "ponad работает на два падежа, и от падежа зависит значение. С винительным это «больше, свыше»: ponad sto lat, ponad godzinę. С творительным — «над»: ponad chmurami. Простое «над» — это nad, а ponad добавляет «поверх, выше» и умеет значить «больше чем». И запомните оборот ponad wszystko «больше всего на свете»."
+idioms:
+  - { pl: "ponad wszystko", ru: "больше всего на свете" }
+  - { pl: "ponad siły", ru: "сверх сил" }
+  - { pl: "ponad miarę", ru: "сверх меры" }
+formExamplesSkip:
+  - { form: "ponade", reason: "вокализованной формы у этого предлога нет: говорят ponad wszystko, ponad nami" }
+formExamples:
+  - form: "ponad"
+    pl: "Te dęby mają ponad sto lat."
+    ru: "Этим дубам больше ста лет."
+    source: { kind: tatoeba, id: 8670295 }
+  - form: "ponad"
+    pl: "Kocham Cię ponad wszystko na świecie."
+    ru: "Я люблю тебя больше всего на свете."
+    source: { kind: tatoeba, id: 1630777 }
+  - form: "ponad"
+    pl: "Ponad sześćdziesiąt osób zostało aresztowanych."
+    ru: "Более шестидесяти человек было арестовано."
+    source: { kind: tatoeba, id: 3657921 }

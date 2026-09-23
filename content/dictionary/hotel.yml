@@ -1,0 +1,186 @@
+# review
+id: hotel
+format: 2
+lemma: "hotel"
+rank: 753
+pos: noun
+pron: { cyr: "хо́тэль" }
+senses:
+  - id: hotel
+    ru: "гостиница, отель"
+    examples:
+      - pl: "To jest hotel."
+        ru: "Это гостиница."
+        source: { kind: tatoeba, id: 935257 }
+      - pl: "Tam jest hotel."
+        ru: "Там есть отель."
+        source: { kind: tatoeba, id: 5917016 }
+      - pl: "To nie jest hotel."
+        ru: "Это не отель."
+        source: { kind: tatoeba, id: 13788366 }
+  - id: to-hotel
+    ru: "do hotelu — в гостиницу"
+    examples:
+      - pl: "Weź taksówkę do hotelu."
+        ru: "Возьми такси до отеля."
+        source: { kind: tatoeba, id: 382581 }
+      - pl: "Nie wolno chodzić gołym po hotelu."
+        ru: "Нельзя ходить по гостинице голым."
+        source: { kind: tatoeba, id: 3460174 }
+      - pl: "Idę do hotelu."
+        ru: "Я иду в гостиницу."
+        source: { kind: translated, id: 13206468 }
+  - id: hotels
+    ru: "hotele — гостиницы"
+    examples:
+      - pl: "W pewien weekend wszystkie hotele w mieście były pełne."
+        ru: "В одни выходные все гостиницы в городе были заполнены."
+        source: { kind: translated, id: 951353 }
+      - pl: "Istnieją specjalne hotele dla psów, w których można zostawić psa na czas wakacji."
+        ru: "Существуют особые гостиницы для собак, где можно оставить пса на время отпуска."
+        source: { kind: translated, id: 12044169 }
+      - pl: "W sezonie turystycznym wiele hoteli podnosi ceny."
+        ru: "В туристический сезон многие гостиницы поднимают цены."
+        source: { kind: translated, id: 2979595 }
+  - id: at-hotel
+    ru: "w hotelach — в гостиницах"
+    examples:
+      - pl: "Poza sezonem miejsca w hotelach są tańsze."
+        ru: "Вне сезона места в гостиницах дешевле."
+        source: { kind: translated, id: 1352180 }
+      - pl: "Latem wielu młodych ludzi będzie pracować w tutejszych hotelach."
+        ru: "Летом много молодёжи будет работать в здешних гостиницах."
+        source: { kind: translated, id: 11523649 }
+      - pl: "Czy jest autobus między hotelem a lotniskiem?"
+        ru: "Есть ли автобус между гостиницей и аэропортом?"
+        source: { kind: translated, id: 670321 }
+notes:
+  - { kind: usage, text: "У слова неожиданная родня. Французское hôtel восходит к латинскому hospes «гость», а от того же корня идут польские gość «гость», gospoda «трактир», gospodarz «хозяин» и даже szpital «больница». Гостиница и больница оказываются двоюродными." }
+  - { kind: government, text: "do hotelu «в гостиницу» — родительный падеж; w hotelu «в гостинице» — предложный; przed hotelem «перед гостиницей» — творительный." }
+  - { kind: usage, text: "Ходовое: zarezerwować hotel «забронировать гостиницу», recepcja «стойка регистрации», hotel pracowniczy «общежитие»." }
+  - { kind: pronunciation, text: "Ударение, как всегда, на предпоследний слог: HO-tel. Конечное l мягкое, слово звучит «хо́тэль»." }
+collocations:
+  - { pl: "do hotelu", ru: "в гостиницу" }
+  - { pl: "w hotelu", ru: "в гостинице" }
+  - { pl: "zarezerwować hotel", ru: "забронировать гостиницу" }
+  - { pl: "przed hotelem", ru: "перед гостиницей" }
+family:
+  - { pl: "gość", ru: "гость", relation: root }
+  - { pl: "gospoda", ru: "трактир", relation: root }
+  - { pl: "gospodarz", ru: "хозяин", relation: root }
+  - { pl: "szpital", ru: "больница", relation: root }
+etymology: "Французское hôtel из позднелатинского hospitale, от hospes «гость» — из того же праиндоевропейского корня, что gość, gospoda, gospodarz и szpital."
+memory: "hotel — слово международное, но родня у него неожиданная: французское hôtel идёт от латинского hospes «гость», а от того же корня польские gość, gospoda, gospodarz и даже szpital. Гостиница и больница оказываются двоюродными. Управление обычное: do hotelu, w hotelu, przed hotelem."
+idioms:
+  - { pl: "zarezerwować hotel", ru: "забронировать гостиницу" }
+  - { pl: "w hotelu", ru: "в гостинице" }
+  - { pl: "do hotelu", ru: "в гостиницу" }
+formExamples:
+  - form: "hotel"
+    pl: "To jest hotel."
+    ru: "Это гостиница."
+    source: { kind: tatoeba, id: 935257 }
+  - form: "hotel"
+    pl: "Tam jest hotel."
+    ru: "Там есть отель."
+    source: { kind: tatoeba, id: 5917016 }
+  - form: "hotel"
+    pl: "To nie jest hotel."
+    ru: "Это не отель."
+    source: { kind: tatoeba, id: 13788366 }
+  - form: "hotelach"
+    pl: "Poza sezonem miejsca w hotelach są tańsze."
+    ru: "Вне сезона места в гостиницах дешевле."
+    source: { kind: translated, id: 1352180 }
+  - form: "hotelach"
+    pl: "Jeżdżą autobusy, które zatrzymują się w kilku hotelach w Tokio."
+    ru: "Ходят автобусы, которые останавливаются у нескольких гостиниц в Токио."
+    source: { kind: translated, id: 357588 }
+  - form: "hotelach"
+    pl: "Latem wielu młodych ludzi będzie pracować w tutejszych hotelach."
+    ru: "Летом много молодёжи будет работать в здешних гостиницах."
+    source: { kind: translated, id: 11523649 }
+  - form: "hotelami"
+    pl: "Między hotelami kursuje autobus."
+    ru: "Между гостиницами ходит автобус."
+    source: { kind: authored }
+  - form: "hotelami"
+    pl: "Zajmuje się hotelami w całym kraju."
+    ru: "Он занимается гостиницами по всей стране."
+    source: { kind: authored }
+  - form: "hotelami"
+    pl: "Wybierał między dwoma hotelami."
+    ru: "Он выбирал между двумя гостиницами."
+    source: { kind: authored }
+  - form: "hotele"
+    pl: "W pewien weekend wszystkie hotele w mieście były pełne."
+    ru: "В одни выходные все гостиницы в городе были заполнены."
+    source: { kind: translated, id: 951353 }
+  - form: "hotele"
+    pl: "Istnieją specjalne hotele dla psów, w których można zostawić psa na czas wakacji."
+    ru: "Существуют особые гостиницы для собак, где можно оставить пса на время отпуска."
+    source: { kind: translated, id: 12044169 }
+  - form: "hotele"
+    pl: "W mieście otwarto dwa nowe hotele."
+    ru: "В городе открыли две новые гостиницы."
+    source: { kind: authored }
+  - form: "hotelem"
+    pl: "Czy jest autobus między hotelem a lotniskiem?"
+    ru: "Есть ли автобус между гостиницей и аэропортом?"
+    source: { kind: translated, id: 670321 }
+  - form: "hotelem"
+    pl: "Mężczyzna stojący przed hotelem spytał mnie, czy potrzebuję taksówki."
+    ru: "Мужчина, стоявший перед гостиницей, спросил меня, нужно ли мне такси."
+    source: { kind: translated, id: 10514025 }
+  - form: "hotelem"
+    pl: "Przed hotelem stoi taksówka."
+    ru: "Перед гостиницей стоит такси."
+    source: { kind: authored }
+  - form: "hoteli"
+    pl: "Czy masz listę hoteli?"
+    ru: "У тебя есть список гостиниц?"
+    source: { kind: translated, id: 6324451 }
+  - form: "hoteli"
+    pl: "Jest szalenie wybredna w wyborze hoteli."
+    ru: "Она страшно придирчива в выборе гостиниц."
+    source: { kind: translated, id: 944222 }
+  - form: "hoteli"
+    pl: "W sezonie turystycznym wiele hoteli podnosi ceny."
+    ru: "В туристический сезон многие гостиницы поднимают цены."
+    source: { kind: translated, id: 2979595 }
+  - form: "hotelom"
+    pl: "Przyjrzał się okolicznym hotelom."
+    ru: "Он присмотрелся к окрестным гостиницам."
+    source: { kind: authored }
+  - form: "hotelom"
+    pl: "Dzięki nowym hotelom przyjeżdża więcej turystów."
+    ru: "Благодаря новым гостиницам приезжает больше туристов."
+    source: { kind: authored }
+  - form: "hotelom"
+    pl: "Nie ufa tanim hotelom."
+    ru: "Он не доверяет дешёвым гостиницам."
+    source: { kind: authored }
+  - form: "hotelowi"
+    pl: "Przyjrzał się nowemu hotelowi."
+    ru: "Он присмотрелся к новой гостинице."
+    source: { kind: authored }
+  - form: "hotelowi"
+    pl: "Temu hotelowi brakuje windy."
+    ru: "Этой гостинице не хватает лифта."
+    source: { kind: authored }
+  - form: "hotelowi"
+    pl: "Dzięki temu hotelowi miasto ożyło."
+    ru: "Благодаря этой гостинице город ожил."
+    source: { kind: authored }
+  - form: "hotelu"
+    pl: "Weź taksówkę do hotelu."
+    ru: "Возьми такси до отеля."
+    source: { kind: tatoeba, id: 382581 }
+  - form: "hotelu"
+    pl: "Nie wolno chodzić gołym po hotelu."
+    ru: "Нельзя ходить по гостинице голым."
+    source: { kind: tatoeba, id: 3460174 }
+  - form: "hotelu"
+    pl: "Idę do hotelu."
+    ru: "Я иду в гостиницу."
+    source: { kind: translated, id: 13206468 }

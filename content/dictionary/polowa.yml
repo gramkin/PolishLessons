@@ -1,0 +1,188 @@
+# review
+id: polowa
+format: 2
+lemma: "połowa"
+rank: 754
+pos: noun
+pron: { cyr: "поуо́ва" }
+senses:
+  - id: half
+    ru: "половина"
+    examples:
+      - pl: "Pierwszy cios to połowa walki."
+        ru: "Первый удар — это половина боя."
+        source: { kind: tatoeba, id: 516529 }
+      - pl: "Dobry początek to połowa roboty."
+        ru: "Хорошее начало — половина дела."
+        source: { kind: tatoeba, id: 442808 }
+      - pl: "Połowa jabłek zgniła."
+        ru: "Половина яблок сгнила."
+        source: { kind: translated, id: 349429 }
+  - id: half-acc
+    ru: "połowę — половину (винительный)"
+    examples:
+      - pl: "Daj mi połowę."
+        ru: "Дай мне половину."
+        source: { kind: translated, id: 6729742 }
+      - pl: "Tom zjadł połowę ciasta."
+        ru: "Том съел половину торта."
+        source: { kind: translated, id: 6554359 }
+      - pl: "Potem zjem drugą połowę."
+        ru: "Потом съем вторую половину."
+        source: { kind: translated, id: 6882722 }
+  - id: in-half
+    ru: "w połowie — наполовину; в середине"
+    note: "Два значения одного оборота."
+    examples:
+      - pl: "Już jestem w połowie drogi, która nie ma końca."
+        ru: "Я уже прошёл половину пути, который бесконечен."
+        source: { kind: tatoeba, id: 1826286 }
+      - pl: "Jestem w połowie Polką."
+        ru: "Я наполовину полька."
+        source: { kind: translated, id: 12987467 }
+      - pl: "Zegnij kartkę w połowie."
+        ru: "Согни листок пополам."
+        source: { kind: translated, id: 363780 }
+  - id: up-to-half
+    ru: "do połowy — до половины"
+    examples:
+      - pl: "Był do połowy pełen."
+        ru: "Он был наполовину полон."
+        source: { kind: translated, id: 11581334 }
+      - pl: "Przepiła całą swoją pensję przed połową miesiąca."
+        ru: "Она пропила всю зарплату ещё до середины месяца."
+        source: { kind: translated, id: 12203571 }
+      - pl: "Szklanka jest do połowy pusta."
+        ru: "Стакан наполовину пуст."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Осторожно с формой połów: это родительный множественного от połowa («половин»), но точно так же выглядит отдельное существительное połów «улов, лов». Различает их только контекст: dwie połowy «две половины», но dobry połów «хороший улов»." }
+  - { kind: usage, text: "Оборот w połowie работает двояко: «наполовину» (Jestem w połowie Polką «Я наполовину полька») и «в середине» (w połowie drogi «на середине пути», w połowie miesiąca «в середине месяца»)." }
+  - { kind: usage, text: "В спорте połowa — это «тайм»: pierwsza połowa meczu. А druga połowa в разговоре — «вторая половинка», о супруге." }
+  - { kind: government, text: "do połowy «до половины» требует родительного, po połowie значит «поровну»: Podzielili się po połowie." }
+collocations:
+  - { pl: "w połowie drogi", ru: "на середине пути" }
+  - { pl: "do połowy", ru: "до половины" }
+  - { pl: "po połowie", ru: "поровну" }
+  - { pl: "druga połowa", ru: "вторая половина" }
+family:
+  - { pl: "pół", ru: "пол-, половина", relation: root }
+  - { pl: "połówka", ru: "половинка", relation: derived }
+  - { pl: "półtora", ru: "полтора", relation: root }
+etymology: "От pół «половина», праславянское *polъ — то же слово, что русские «пол-», «половина» и «полтора»."
+memory: "połowa — «половина», от pół, как русское «пол-». Запомните двойной оборот w połowie: он значит и «наполовину» (w połowie Polką), и «в середине» (w połowie drogi). И следите за формой połów — это родительный множественного от połowa, а отдельно существует точно такое же слово połów «улов»."
+idioms:
+  - { pl: "w połowie drogi", ru: "на середине пути" }
+  - { pl: "druga połowa", ru: "вторая половина" }
+  - { pl: "po połowie", ru: "поровну" }
+formExamplesSkip:
+  - { form: "połowo", reason: "звательный падеж у неодушевлённого существительного не употребляется" }
+formExamples:
+  - form: "połowa"
+    pl: "Pierwszy cios to połowa walki."
+    ru: "Первый удар — это половина боя."
+    source: { kind: tatoeba, id: 516529 }
+  - form: "połowa"
+    pl: "Dobry początek to połowa roboty."
+    ru: "Хорошее начало — половина дела."
+    source: { kind: tatoeba, id: 442808 }
+  - form: "połowa"
+    pl: "Połowa jabłek zgniła."
+    ru: "Половина яблок сгнила."
+    source: { kind: translated, id: 349429 }
+  - form: "połowach"
+    pl: "W obu połowach meczu padły gole."
+    ru: "В обоих таймах матча были голы."
+    source: { kind: authored }
+  - form: "połowach"
+    pl: "Mówili o połowach zysku."
+    ru: "Они говорили о половинах прибыли."
+    source: { kind: authored }
+  - form: "połowach"
+    pl: "W tych połowach nie ma symetrii."
+    ru: "В этих половинах нет симметрии."
+    source: { kind: authored }
+  - form: "połowami"
+    pl: "Podzielili ciasto połowami."
+    ru: "Они поделили торт пополам."
+    source: { kind: authored }
+  - form: "połowami"
+    pl: "Między połowami boiska biegnie linia."
+    ru: "Между половинами поля проходит линия."
+    source: { kind: authored }
+  - form: "połowami"
+    pl: "Zajął się obiema połowami."
+    ru: "Он занялся обеими половинами."
+    source: { kind: authored }
+  - form: "połową"
+    pl: "Przepiła całą swoją pensję przed połową miesiąca."
+    ru: "Она пропила всю зарплату ещё до середины месяца."
+    source: { kind: translated, id: 12203571 }
+  - form: "połową"
+    pl: "Podzielił się ze mną połową kanapki."
+    ru: "Он поделился со мной половиной бутерброда."
+    source: { kind: authored }
+  - form: "połową"
+    pl: "Między połową a całością jest różnica."
+    ru: "Между половиной и целым есть разница."
+    source: { kind: authored }
+  - form: "połowę"
+    pl: "Daj mi połowę."
+    ru: "Дай мне половину."
+    source: { kind: translated, id: 6729742 }
+  - form: "połowę"
+    pl: "Tom zjadł połowę ciasta."
+    ru: "Том съел половину торта."
+    source: { kind: translated, id: 6554359 }
+  - form: "połowę"
+    pl: "Potem zjem drugą połowę."
+    ru: "Потом съем вторую половину."
+    source: { kind: translated, id: 6882722 }
+  - form: "połowie"
+    pl: "Już jestem w połowie drogi, która nie ma końca."
+    ru: "Я уже прошёл половину пути, который бесконечен."
+    source: { kind: tatoeba, id: 1826286 }
+  - form: "połowie"
+    pl: "Jestem w połowie Polką."
+    ru: "Я наполовину полька."
+    source: { kind: translated, id: 12987467 }
+  - form: "połowie"
+    pl: "Zegnij kartkę w połowie."
+    ru: "Согни листок пополам."
+    source: { kind: translated, id: 363780 }
+  - form: "połowom"
+    pl: "Przyjrzał się obu połowom."
+    ru: "Он присмотрелся к обеим половинам."
+    source: { kind: authored }
+  - form: "połowom"
+    pl: "Dzięki równym połowom nikt się nie skarżył."
+    ru: "Благодаря равным половинам никто не жаловался."
+    source: { kind: authored }
+  - form: "połowom"
+    pl: "Nie ufa takim połowom."
+    ru: "Он не доверяет таким половинам."
+    source: { kind: authored }
+  - form: "połowy"
+    pl: "Był do połowy pełen."
+    ru: "Он был наполовину полон."
+    source: { kind: translated, id: 11581334 }
+  - form: "połowy"
+    pl: "Było do połowy pełne."
+    ru: "Оно было наполовину полным."
+    source: { kind: translated, id: 11581329 }
+  - form: "połowy"
+    pl: "Do połowy drogi szli piechotą."
+    ru: "До середины пути они шли пешком."
+    source: { kind: authored }
+  - form: "połów"
+    pl: "Mecz składa się z dwóch połów."
+    ru: "Матч состоит из двух таймов."
+    source: { kind: authored }
+  - form: "połów"
+    pl: "Suma obu połów daje całość."
+    ru: "Сумма обеих половин даёт целое."
+    source: { kind: authored }
+  - form: "połów"
+    pl: "Nie ma tu dwóch równych połów."
+    ru: "Двух равных половин здесь нет."
+    source: { kind: authored }

@@ -1,0 +1,793 @@
+# review
+id: chronic
+format: 2
+lemma: "chronić"
+rank: 752
+pos: verb
+aspect: imperf
+pron: { cyr: "хро́ниць" }
+senses:
+  - id: protect
+    ru: "защищать, охранять"
+    examples:
+      - pl: "Będę Cię chronić."
+        ru: "Я буду тебя защищать."
+        source: { kind: translated, id: 4940388 }
+      - pl: "Możemy cię chronić."
+        ru: "Мы можем тебя защитить."
+        source: { kind: translated, id: 3706537 }
+      - pl: "Dlaczego ją chronisz?"
+        ru: "Почему ты её защищаешь?"
+        source: { kind: translated, id: 13350578 }
+  - id: protect-from
+    ru: "chronić PRZED czymś — защищать от чего-л. (творительный)"
+    note: "После przed — творительный падеж."
+    examples:
+      - pl: "Jego czarne okulary przeciwsłoneczne chroniły jego oczy przed Słońcem."
+        ru: "Его чёрные солнечные очки защищали глаза от солнца."
+        source: { kind: translated, id: 12375506 }
+      - pl: "Chroniliśmy się przed niebezpieczeństwem."
+        ru: "Мы укрывались от опасности."
+        source: { kind: translated, id: 355762 }
+      - pl: "Krem chroni przed słońcem."
+        ru: "Крем защищает от солнца."
+        source: { kind: authored }
+  - id: protected
+    ru: "gatunek chroniony — охраняемый вид"
+    examples:
+      - pl: "Borsuk jest zwierzęciem chronionym."
+        ru: "Барсук — охраняемое животное."
+        source: { kind: tatoeba, id: 6155822 }
+      - pl: "Krokodyl należy do gatunków chronionych."
+        ru: "Крокодил относится к охраняемым видам."
+        source: { kind: translated, id: 10469047 }
+      - pl: "Wieloryby powinny być chronionym gatunkiem."
+        ru: "Киты должны быть охраняемым видом."
+        source: { kind: translated, id: 2125503 }
+  - id: god-protect
+    ru: "Boże, chroń… — Боже, храни…"
+    examples:
+      - pl: "Boże chroń Ukrainę!"
+        ru: "Боже, храни Украину!"
+        source: { kind: tatoeba, id: 3008270 }
+      - pl: "Chroń mnie."
+        ru: "Защити меня."
+        source: { kind: translated, id: 10596360 }
+      - pl: "Chrońcie mnie."
+        ru: "Защитите меня."
+        source: { kind: translated, id: 10596361 }
+notes:
+  - { kind: government, text: "chronić kogoś PRZED czymś — «защищать кого-то от чего-то», и после przed идёт творительный падеж: chronić przed słońcem, chronić przed zimnem. Русское «от» с родительным здесь не помогает." }
+  - { kind: usage, text: "Существительное от этого глагола — ochrona «защита, охрана»; отглагольное chronienie практически не употребляется." }
+  - { kind: usage, text: "Причастие chroniony значит «охраняемый»: gatunek chroniony «охраняемый вид», obszar chroniony «охраняемая территория»." }
+  - { kind: usage, text: "Корень тот же, что в русских «хранить» и «хоронить». Родня: ochrona «охрана», schronienie «убежище», ochroniarz «охранник»." }
+collocations:
+  - { pl: "chronić przed czymś", ru: "защищать от чего-либо" }
+  - { pl: "gatunek chroniony", ru: "охраняемый вид" }
+  - { pl: "chronić dzieci", ru: "защищать детей" }
+  - { pl: "ochrona środowiska", ru: "охрана окружающей среды" }
+family:
+  - { pl: "ochrona", ru: "охрана, защита", relation: derived }
+  - { pl: "schronienie", ru: "убежище", relation: derived }
+  - { pl: "ochroniarz", ru: "охранник", relation: derived }
+  - { pl: "chroniony", ru: "охраняемый", relation: derived }
+etymology: "Праславянское *xorniti «беречь» — то же слово, что русские «хранить» и «хоронить»; в польском корень дал chron-."
+memory: "chronić — «защищать, охранять», и корень тот же, что в русских «хранить» и «хоронить». Управление надо запомнить: chronić kogoś PRZED czymś, и после przed идёт творительный падеж — krem chroni przed słońcem. Существительное от глагола — ochrona, а причастие chroniony значит «охраняемый»: gatunek chroniony."
+idioms:
+  - { pl: "chronić przed słońcem", ru: "защищать от солнца" }
+  - { pl: "gatunek chroniony", ru: "охраняемый вид" }
+  - { pl: "Boże, chroń…", ru: "Боже, храни…" }
+formExamplesSkip:
+  - { form: "chronienia", reason: "отглагольного существительного от chronić нет; «защита, охрана» — это ochrona" }
+  - { form: "chronienie", reason: "отглагольного существительного от chronić нет; «защита, охрана» — это ochrona" }
+  - { form: "chronieniem", reason: "отглагольного существительного от chronić нет; «защита, охрана» — это ochrona" }
+  - { form: "chronieniu", reason: "отглагольного существительного от chronić нет; «защита, охрана» — это ochrona" }
+formExamples:
+  - form: "chroni"
+    pl: "Pan je chroni."
+    ru: "Вы их защищаете."
+    source: { kind: translated, id: 13786018 }
+  - form: "chroni"
+    pl: "Krem chroni przed słońcem."
+    ru: "Крем защищает от солнца."
+    source: { kind: authored }
+  - form: "chroni"
+    pl: "Dach chroni dom przed deszczem."
+    ru: "Крыша защищает дом от дождя."
+    source: { kind: authored }
+  - form: "chronią"
+    pl: "Państwo je chronią."
+    ru: "Вы их защищаете."
+    source: { kind: translated, id: 13786025 }
+  - form: "chronią"
+    pl: "Mury chronią miasto przed wiatrem."
+    ru: "Стены защищают город от ветра."
+    source: { kind: authored }
+  - form: "chronią"
+    pl: "Rodzice chronią dzieci."
+    ru: "Родители защищают детей."
+    source: { kind: authored }
+  - form: "chroniąc"
+    pl: "Chroniąc oczy przed słońcem, zmrużył powieki."
+    ru: "Защищая глаза от солнца, он прищурился."
+    source: { kind: authored }
+  - form: "chroniąc"
+    pl: "Chroniąc dzieci, zapomniał o sobie."
+    ru: "Защищая детей, он забыл о себе."
+    source: { kind: authored }
+  - form: "chroniąc"
+    pl: "Chroniąc las, chronimy siebie."
+    ru: "Защищая лес, мы защищаем себя."
+    source: { kind: authored }
+  - form: "chroniąca"
+    pl: "Ściana chroniąca dom przed wiatrem runęła."
+    ru: "Стена, защищавшая дом от ветра, рухнула."
+    source: { kind: authored }
+  - form: "chroniąca"
+    pl: "To warstwa chroniąca przed wilgocią."
+    ru: "Это слой, защищающий от влаги."
+    source: { kind: authored }
+  - form: "chroniąca"
+    pl: "Osoba chroniąca świadka nie spała całą noc."
+    ru: "Человек, охранявший свидетеля, не спал всю ночь."
+    source: { kind: authored }
+  - form: "chroniącą"
+    pl: "Znam warstwę chroniącą przed wilgocią."
+    ru: "Я знаю слой, защищающий от влаги."
+    source: { kind: authored }
+  - form: "chroniącą"
+    pl: "Widziałem ścianę chroniącą dom."
+    ru: "Я видел стену, защищающую дом."
+    source: { kind: authored }
+  - form: "chroniącą"
+    pl: "Zbudowali tamę chroniącą wieś."
+    ru: "Они построили дамбу, защищающую деревню."
+    source: { kind: authored }
+  - form: "chroniące"
+    pl: "Drzewa chroniące dom przed słońcem wycięto."
+    ru: "Деревья, защищавшие дом от солнца, вырубили."
+    source: { kind: authored }
+  - form: "chroniące"
+    pl: "To okulary chroniące oczy."
+    ru: "Это очки, защищающие глаза."
+    source: { kind: authored }
+  - form: "chroniące"
+    pl: "Mury chroniące miasto stoją do dziś."
+    ru: "Стены, защищающие город, стоят до сих пор."
+    source: { kind: authored }
+  - form: "chroniącego"
+    pl: "Szukam kremu chroniącego przed słońcem."
+    ru: "Я ищу крем, защищающий от солнца."
+    source: { kind: authored }
+  - form: "chroniącego"
+    pl: "Nie ma tu muru chroniącego przed wiatrem."
+    ru: "Здесь нет стены, защищающей от ветра."
+    source: { kind: authored }
+  - form: "chroniącego"
+    pl: "Dotyczy to prawa chroniącego lasy."
+    ru: "Это касается закона, охраняющего леса."
+    source: { kind: authored }
+  - form: "chroniącej"
+    pl: "Szukam warstwy chroniącej przed wilgocią."
+    ru: "Я ищу слой, защищающий от влаги."
+    source: { kind: authored }
+  - form: "chroniącej"
+    pl: "Nie ma tu tamy chroniącej wieś."
+    ru: "Здесь нет дамбы, защищающей деревню."
+    source: { kind: authored }
+  - form: "chroniącej"
+    pl: "Dotyczy to ustawy chroniącej przyrodę."
+    ru: "Это касается закона, охраняющего природу."
+    source: { kind: authored }
+  - form: "chroniącemu"
+    pl: "Przyjrzał się murowi chroniącemu miasto."
+    ru: "Он присмотрелся к стене, защищающей город."
+    source: { kind: authored }
+  - form: "chroniącemu"
+    pl: "Dzięki dachowi chroniącemu przed deszczem przetrwali noc."
+    ru: "Благодаря крыше, защищавшей от дождя, они пережили ночь."
+    source: { kind: authored }
+  - form: "chroniącemu"
+    pl: "Nie ufa prawu chroniącemu tylko silnych."
+    ru: "Он не доверяет закону, защищающему только сильных."
+    source: { kind: authored }
+  - form: "chroniący"
+    pl: "Chroniący las strażnik zna każdą ścieżkę."
+    ru: "Охраняющий лес сторож знает каждую тропу."
+    source: { kind: authored }
+  - form: "chroniący"
+    pl: "To krem chroniący przed słońcem."
+    ru: "Это крем, защищающий от солнца."
+    source: { kind: authored }
+  - form: "chroniący"
+    pl: "Mur chroniący miasto zbudowano dawno."
+    ru: "Стену, защищающую город, построили давно."
+    source: { kind: authored }
+  - form: "chroniących"
+    pl: "Nie ma tu drzew chroniących przed wiatrem."
+    ru: "Здесь нет деревьев, защищающих от ветра."
+    source: { kind: authored }
+  - form: "chroniących"
+    pl: "Wśród praw chroniących przyrodę jest i to."
+    ru: "Среди законов, охраняющих природу, есть и этот."
+    source: { kind: authored }
+  - form: "chroniących"
+    pl: "Szukam okularów chroniących oczy."
+    ru: "Я ищу очки, защищающие глаза."
+    source: { kind: authored }
+  - form: "chroniącym"
+    pl: "Złoty golem był strażnikiem chroniącym skarbu."
+    ru: "Золотой голем был стражем, охранявшим сокровище."
+    source: { kind: translated, id: 6316797 }
+  - form: "chroniącym"
+    pl: "Mówili o murze chroniącym miasto."
+    ru: "Они говорили о стене, защищающей город."
+    source: { kind: authored }
+  - form: "chroniącym"
+    pl: "Był człowiekiem chroniącym swoich ludzi."
+    ru: "Он был человеком, защищающим своих людей."
+    source: { kind: authored }
+  - form: "chroniącymi"
+    pl: "Otoczyli się murami chroniącymi przed wiatrem."
+    ru: "Они окружили себя стенами, защищающими от ветра."
+    source: { kind: authored }
+  - form: "chroniącymi"
+    pl: "Zajmuje się prawami chroniącymi przyrodę."
+    ru: "Он занимается законами, охраняющими природу."
+    source: { kind: authored }
+  - form: "chroniącymi"
+    pl: "Wrócił z kremami chroniącymi przed słońcem."
+    ru: "Он вернулся с кремами, защищающими от солнца."
+    source: { kind: authored }
+  - form: "chronicie"
+    pl: "Chronicie je."
+    ru: "Вы их защищаете."
+    source: { kind: translated, id: 13786023 }
+  - form: "chronicie"
+    pl: "Chronicie dzieci przed zimnem."
+    ru: "Вы защищаете детей от холода."
+    source: { kind: authored }
+  - form: "chronicie"
+    pl: "Przed czym chronicie ten las?"
+    ru: "От чего вы защищаете этот лес?"
+    source: { kind: authored }
+  - form: "chronić"
+    pl: "Będę Cię chronić."
+    ru: "Я буду тебя защищать."
+    source: { kind: translated, id: 4940388 }
+  - form: "chronić"
+    pl: "Możemy cię chronić."
+    ru: "Мы можем тебя защитить."
+    source: { kind: translated, id: 3706537 }
+  - form: "chronić"
+    pl: "Trzeba chronić środowisko."
+    ru: "Нужно охранять окружающую среду."
+    source: { kind: authored }
+  - form: "chronieni"
+    pl: "Świadkowie są chronieni przez policję."
+    ru: "Свидетелей охраняет полиция."
+    source: { kind: authored }
+  - form: "chronieni"
+    pl: "Czuli się chronieni."
+    ru: "Они чувствовали себя защищёнными."
+    source: { kind: authored }
+  - form: "chronieni"
+    pl: "Chronieni prawem, mogli mówić otwarcie."
+    ru: "Защищённые законом, они могли говорить открыто."
+    source: { kind: authored }
+  - form: "chronię"
+    pl: "Chronię dzieci przed zimnem."
+    ru: "Я защищаю детей от холода."
+    source: { kind: authored }
+  - form: "chronię"
+    pl: "Chronię oczy przed słońcem."
+    ru: "Я защищаю глаза от солнца."
+    source: { kind: authored }
+  - form: "chronię"
+    pl: "Nie chronię nikogo na siłę."
+    ru: "Я никого не защищаю насильно."
+    source: { kind: authored }
+  - form: "chronili"
+    pl: "Chronili las przed wycinką."
+    ru: "Они защищали лес от вырубки."
+    source: { kind: authored }
+  - form: "chronili"
+    pl: "Zawsze go chronili."
+    ru: "Они всегда его защищали."
+    source: { kind: authored }
+  - form: "chronili"
+    pl: "Chronili dzieci przed zimnem."
+    ru: "Они защищали детей от холода."
+    source: { kind: authored }
+  - form: "chroniliby"
+    pl: "Chroniliby las, gdyby mogli."
+    ru: "Они защищали бы лес, если бы могли."
+    source: { kind: authored }
+  - form: "chroniliby"
+    pl: "Nie chroniliby nikogo na siłę."
+    ru: "Они никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chroniliby"
+    pl: "Chroniliby dzieci przed zimnem."
+    ru: "Они защищали бы детей от холода."
+    source: { kind: authored }
+  - form: "chronilibyście"
+    pl: "Chronilibyście las?"
+    ru: "Вы защищали бы лес?"
+    source: { kind: authored }
+  - form: "chronilibyście"
+    pl: "Nie chronilibyście nikogo na siłę."
+    ru: "Вы никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chronilibyście"
+    pl: "Chronilibyście dzieci przed zimnem."
+    ru: "Вы защищали бы детей от холода."
+    source: { kind: authored }
+  - form: "chronilibyśmy"
+    pl: "Chronilibyśmy las, gdybyśmy mogli."
+    ru: "Мы защищали бы лес, если бы могли."
+    source: { kind: authored }
+  - form: "chronilibyśmy"
+    pl: "Nie chronilibyśmy nikogo na siłę."
+    ru: "Мы никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chronilibyśmy"
+    pl: "Chronilibyśmy dzieci przed zimnem."
+    ru: "Мы защищали бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniliście"
+    pl: "Chroniliście las przed wycinką."
+    ru: "Вы защищали лес от вырубки."
+    source: { kind: authored }
+  - form: "chroniliście"
+    pl: "Zawsze go chroniliście."
+    ru: "Вы всегда его защищали."
+    source: { kind: authored }
+  - form: "chroniliście"
+    pl: "Przed czym chroniliście dom?"
+    ru: "От чего вы защищали дом?"
+    source: { kind: authored }
+  - form: "chroniliśmy"
+    pl: "Zawsze cię chroniliśmy."
+    ru: "Мы всегда тебя защищали."
+    source: { kind: translated, id: 13045994 }
+  - form: "chroniliśmy"
+    pl: "Chroniliśmy się przed niebezpieczeństwem."
+    ru: "Мы укрывались от опасности."
+    source: { kind: translated, id: 355762 }
+  - form: "chroniliśmy"
+    pl: "Chroniliśmy las przed wycinką."
+    ru: "Мы защищали лес от вырубки."
+    source: { kind: authored }
+  - form: "chronił"
+    pl: "Będę cię chronił."
+    ru: "Я буду тебя защищать."
+    source: { kind: translated, id: 10571196 }
+  - form: "chronił"
+    pl: "Obiecuję, że będę cię chronił."
+    ru: "Обещаю, что буду тебя защищать."
+    source: { kind: translated, id: 967044 }
+  - form: "chronił"
+    pl: "Chronił dzieci przed zimnem."
+    ru: "Он защищал детей от холода."
+    source: { kind: authored }
+  - form: "chroniła"
+    pl: "Chroniła dzieci przed zimnem."
+    ru: "Она защищала детей от холода."
+    source: { kind: authored }
+  - form: "chroniła"
+    pl: "Zawsze go chroniła."
+    ru: "Она всегда его защищала."
+    source: { kind: authored }
+  - form: "chroniła"
+    pl: "Ściana chroniła dom przed wiatrem."
+    ru: "Стена защищала дом от ветра."
+    source: { kind: authored }
+  - form: "chroniłaby"
+    pl: "Chroniłaby dzieci przed zimnem."
+    ru: "Она защищала бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłaby"
+    pl: "Nie chroniłaby nikogo na siłę."
+    ru: "Она никого не защищала бы насильно."
+    source: { kind: authored }
+  - form: "chroniłaby"
+    pl: "Chroniłaby las, gdyby mogła."
+    ru: "Она защищала бы лес, если бы могла."
+    source: { kind: authored }
+  - form: "chroniłabym"
+    pl: "Chroniłabym dzieci przed zimnem."
+    ru: "Я защищала бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłabym"
+    pl: "Nie chroniłabym nikogo na siłę."
+    ru: "Я никого не защищала бы насильно."
+    source: { kind: authored }
+  - form: "chroniłabym"
+    pl: "Chroniłabym las, gdybym mogła."
+    ru: "Я защищала бы лес, если бы могла."
+    source: { kind: authored }
+  - form: "chroniłabyś"
+    pl: "Chroniłabyś dzieci przed zimnem?"
+    ru: "Ты защищала бы детей от холода?"
+    source: { kind: authored }
+  - form: "chroniłabyś"
+    pl: "Nie chroniłabyś nikogo na siłę."
+    ru: "Ты никого не защищала бы насильно."
+    source: { kind: authored }
+  - form: "chroniłabyś"
+    pl: "Chroniłabyś las?"
+    ru: "Ты защищала бы лес?"
+    source: { kind: authored }
+  - form: "chroniłam"
+    pl: "Chroniłam dzieci przed zimnem."
+    ru: "Я защищала детей от холода."
+    source: { kind: authored }
+  - form: "chroniłam"
+    pl: "Zawsze go chroniłam."
+    ru: "Я всегда его защищала."
+    source: { kind: authored }
+  - form: "chroniłam"
+    pl: "Chroniłam oczy przed słońcem."
+    ru: "Я защищала глаза от солнца."
+    source: { kind: authored }
+  - form: "chroniłaś"
+    pl: "Chroniłaś dzieci przed zimnem?"
+    ru: "Ты защищала детей от холода?"
+    source: { kind: authored }
+  - form: "chroniłaś"
+    pl: "Zawsze go chroniłaś."
+    ru: "Ты всегда его защищала."
+    source: { kind: authored }
+  - form: "chroniłaś"
+    pl: "Przed czym chroniłaś dom?"
+    ru: "От чего ты защищала дом?"
+    source: { kind: authored }
+  - form: "chroniłby"
+    pl: "Chroniłby dzieci przed zimnem."
+    ru: "Он защищал бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłby"
+    pl: "Nie chroniłby nikogo na siłę."
+    ru: "Он никого не защищал бы насильно."
+    source: { kind: authored }
+  - form: "chroniłby"
+    pl: "Chroniłby las, gdyby mógł."
+    ru: "Он защищал бы лес, если бы мог."
+    source: { kind: authored }
+  - form: "chroniłbym"
+    pl: "Chroniłbym dzieci przed zimnem."
+    ru: "Я защищал бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłbym"
+    pl: "Nie chroniłbym nikogo na siłę."
+    ru: "Я никого не защищал бы насильно."
+    source: { kind: authored }
+  - form: "chroniłbym"
+    pl: "Chroniłbym las, gdybym mógł."
+    ru: "Я защищал бы лес, если бы мог."
+    source: { kind: authored }
+  - form: "chroniłbyś"
+    pl: "Chroniłbyś dzieci przed zimnem?"
+    ru: "Ты защищал бы детей от холода?"
+    source: { kind: authored }
+  - form: "chroniłbyś"
+    pl: "Nie chroniłbyś nikogo na siłę."
+    ru: "Ты никого не защищал бы насильно."
+    source: { kind: authored }
+  - form: "chroniłbyś"
+    pl: "Chroniłbyś las?"
+    ru: "Ты защищал бы лес?"
+    source: { kind: authored }
+  - form: "chroniłem"
+    pl: "Chroniłem dzieci przed zimnem."
+    ru: "Я защищал детей от холода."
+    source: { kind: authored }
+  - form: "chroniłem"
+    pl: "Zawsze go chroniłem."
+    ru: "Я всегда его защищал."
+    source: { kind: authored }
+  - form: "chroniłem"
+    pl: "Chroniłem oczy przed słońcem."
+    ru: "Я защищал глаза от солнца."
+    source: { kind: authored }
+  - form: "chroniłeś"
+    pl: "Chroniłeś dzieci przed zimnem?"
+    ru: "Ты защищал детей от холода?"
+    source: { kind: authored }
+  - form: "chroniłeś"
+    pl: "Zawsze go chroniłeś."
+    ru: "Ты всегда его защищал."
+    source: { kind: authored }
+  - form: "chroniłeś"
+    pl: "Przed czym chroniłeś dom?"
+    ru: "От чего ты защищал дом?"
+    source: { kind: authored }
+  - form: "chroniło"
+    pl: "Drzewo chroniło dom przed słońcem."
+    ru: "Дерево защищало дом от солнца."
+    source: { kind: authored }
+  - form: "chroniło"
+    pl: "Wiele osób chroniło ten las."
+    ru: "Многие защищали этот лес."
+    source: { kind: authored }
+  - form: "chroniło"
+    pl: "Nic go wtedy nie chroniło."
+    ru: "Тогда его ничто не защищало."
+    source: { kind: authored }
+  - form: "chroniłoby"
+    pl: "Drzewo chroniłoby dom przed słońcem."
+    ru: "Дерево защищало бы дом от солнца."
+    source: { kind: authored }
+  - form: "chroniłoby"
+    pl: "To chroniłoby las przed ogniem."
+    ru: "Это защищало бы лес от огня."
+    source: { kind: authored }
+  - form: "chroniłoby"
+    pl: "Takie prawo chroniłoby tylko silnych."
+    ru: "Такой закон защищал бы только сильных."
+    source: { kind: authored }
+  - form: "chroniły"
+    pl: "Jego czarne okulary przeciwsłoneczne chroniły jego oczy przed Słońcem."
+    ru: "Его чёрные солнечные очки защищали глаза от солнца."
+    source: { kind: translated, id: 12375506 }
+  - form: "chroniły"
+    pl: "Mury chroniły miasto przed wiatrem."
+    ru: "Стены защищали город от ветра."
+    source: { kind: authored }
+  - form: "chroniły"
+    pl: "Drzewa chroniły dom przed słońcem."
+    ru: "Деревья защищали дом от солнца."
+    source: { kind: authored }
+  - form: "chroniłyby"
+    pl: "Mury chroniłyby miasto przed wiatrem."
+    ru: "Стены защищали бы город от ветра."
+    source: { kind: authored }
+  - form: "chroniłyby"
+    pl: "Drzewa chroniłyby dom przed słońcem."
+    ru: "Деревья защищали бы дом от солнца."
+    source: { kind: authored }
+  - form: "chroniłyby"
+    pl: "Nie chroniłyby nikogo na siłę."
+    ru: "Они никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chroniłybyście"
+    pl: "Chroniłybyście las?"
+    ru: "Вы защищали бы лес?"
+    source: { kind: authored }
+  - form: "chroniłybyście"
+    pl: "Nie chroniłybyście nikogo na siłę."
+    ru: "Вы никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chroniłybyście"
+    pl: "Chroniłybyście dzieci przed zimnem."
+    ru: "Вы защищали бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłybyśmy"
+    pl: "Chroniłybyśmy las, gdybyśmy mogły."
+    ru: "Мы защищали бы лес, если бы могли."
+    source: { kind: authored }
+  - form: "chroniłybyśmy"
+    pl: "Nie chroniłybyśmy nikogo na siłę."
+    ru: "Мы никого не защищали бы насильно."
+    source: { kind: authored }
+  - form: "chroniłybyśmy"
+    pl: "Chroniłybyśmy dzieci przed zimnem."
+    ru: "Мы защищали бы детей от холода."
+    source: { kind: authored }
+  - form: "chroniłyście"
+    pl: "Chroniłyście las przed wycinką."
+    ru: "Вы защищали лес от вырубки."
+    source: { kind: authored }
+  - form: "chroniłyście"
+    pl: "Zawsze go chroniłyście."
+    ru: "Вы всегда его защищали."
+    source: { kind: authored }
+  - form: "chroniłyście"
+    pl: "Przed czym chroniłyście dom?"
+    ru: "От чего вы защищали дом?"
+    source: { kind: authored }
+  - form: "chroniłyśmy"
+    pl: "Chroniłyśmy las przed wycinką."
+    ru: "Мы защищали лес от вырубки."
+    source: { kind: authored }
+  - form: "chroniłyśmy"
+    pl: "Zawsze go chroniłyśmy."
+    ru: "Мы всегда его защищали."
+    source: { kind: authored }
+  - form: "chroniłyśmy"
+    pl: "Chroniłyśmy dzieci przed zimnem."
+    ru: "Мы защищали детей от холода."
+    source: { kind: authored }
+  - form: "chronimy"
+    pl: "Chronimy las przed wycinką."
+    ru: "Мы защищаем лес от вырубки."
+    source: { kind: authored }
+  - form: "chronimy"
+    pl: "Chronimy dane hasłem."
+    ru: "Мы защищаем данные паролем."
+    source: { kind: authored }
+  - form: "chronimy"
+    pl: "Chronimy się przed deszczem."
+    ru: "Мы укрываемся от дождя."
+    source: { kind: authored }
+  - form: "chroniona"
+    pl: "Ta wieś jest chroniona tamą."
+    ru: "Эта деревня защищена дамбой."
+    source: { kind: authored }
+  - form: "chroniona"
+    pl: "Była chroniona przez policję."
+    ru: "Её охраняла полиция."
+    source: { kind: authored }
+  - form: "chroniona"
+    pl: "Chroniona prawem, czuła się bezpiecznie."
+    ru: "Защищённая законом, она чувствовала себя в безопасности."
+    source: { kind: authored }
+  - form: "chronioną"
+    pl: "Zastał wieś chronioną tamą."
+    ru: "Он застал деревню, защищённую дамбой."
+    source: { kind: authored }
+  - form: "chronioną"
+    pl: "Uznali tę dolinę za chronioną."
+    ru: "Эту долину признали охраняемой."
+    source: { kind: authored }
+  - form: "chronioną"
+    pl: "Widziałem strefę chronioną przez straż."
+    ru: "Я видел зону, охраняемую стражей."
+    source: { kind: authored }
+  - form: "chronione"
+    pl: "Środowisko musi być chronione."
+    ru: "Среда должна быть защищена."
+    source: { kind: translated, id: 3750360 }
+  - form: "chronione"
+    pl: "Te gatunki są chronione prawem."
+    ru: "Эти виды охраняются законом."
+    source: { kind: authored }
+  - form: "chronione"
+    pl: "Dane są chronione hasłem."
+    ru: "Данные защищены паролем."
+    source: { kind: authored }
+  - form: "chronionego"
+    pl: "Nie ma tu chronionego gatunku."
+    ru: "Охраняемого вида здесь нет."
+    source: { kind: authored }
+  - form: "chronionego"
+    pl: "Szukam obszaru chronionego prawem."
+    ru: "Я ищу территорию, охраняемую законом."
+    source: { kind: authored }
+  - form: "chronionego"
+    pl: "Dotyczy to chronionego lasu."
+    ru: "Это касается охраняемого леса."
+    source: { kind: authored }
+  - form: "chronionej"
+    pl: "Nie ma tu chronionej doliny."
+    ru: "Охраняемой долины здесь нет."
+    source: { kind: authored }
+  - form: "chronionej"
+    pl: "Szukam strefy chronionej prawem."
+    ru: "Я ищу зону, охраняемую законом."
+    source: { kind: authored }
+  - form: "chronionej"
+    pl: "Dotyczy to chronionej przyrody."
+    ru: "Это касается охраняемой природы."
+    source: { kind: authored }
+  - form: "chronionemu"
+    pl: "Przyjrzał się chronionemu gatunkowi."
+    ru: "Он присмотрелся к охраняемому виду."
+    source: { kind: authored }
+  - form: "chronionemu"
+    pl: "Dzięki chronionemu lasowi rzeka nie wyschła."
+    ru: "Благодаря охраняемому лесу река не высохла."
+    source: { kind: authored }
+  - form: "chronionemu"
+    pl: "Nie ufa chronionemu tylko na papierze obszarowi."
+    ru: "Он не доверяет территории, охраняемой лишь на бумаге."
+    source: { kind: authored }
+  - form: "chroniono"
+    pl: "Las chroniono od stuleci."
+    ru: "Лес охраняли веками."
+    source: { kind: authored }
+  - form: "chroniono"
+    pl: "Świadka chroniono dzień i noc."
+    ru: "Свидетеля охраняли день и ночь."
+    source: { kind: authored }
+  - form: "chroniono"
+    pl: "Tej doliny nie chroniono wcale."
+    ru: "Эту долину не охраняли вовсе."
+    source: { kind: authored }
+  - form: "chroniony"
+    pl: "Czuję się chroniony."
+    ru: "Я чувствую себя защищённым."
+    source: { kind: translated, id: 8770936 }
+  - form: "chroniony"
+    pl: "Tom musi być chroniony."
+    ru: "Тома нужно защитить."
+    source: { kind: translated, id: 3754147 }
+  - form: "chroniony"
+    pl: "Ten obszar jest chroniony."
+    ru: "Эта территория охраняется."
+    source: { kind: authored }
+  - form: "chronionych"
+    pl: "Krokodyl należy do gatunków chronionych."
+    ru: "Крокодил относится к охраняемым видам."
+    source: { kind: translated, id: 10469047 }
+  - form: "chronionych"
+    pl: "Wśród chronionych gatunków jest i bocian."
+    ru: "Среди охраняемых видов есть и аист."
+    source: { kind: authored }
+  - form: "chronionych"
+    pl: "Nie ma tu chronionych roślin."
+    ru: "Охраняемых растений здесь нет."
+    source: { kind: authored }
+  - form: "chronionym"
+    pl: "Borsuk jest zwierzęciem chronionym."
+    ru: "Барсук — охраняемое животное."
+    source: { kind: tatoeba, id: 6155822 }
+  - form: "chronionym"
+    pl: "Wieloryby powinny być chronionym gatunkiem."
+    ru: "Киты должны быть охраняемым видом."
+    source: { kind: translated, id: 2125503 }
+  - form: "chronionym"
+    pl: "Zajął się chronionym obszarem."
+    ru: "Он занялся охраняемой территорией."
+    source: { kind: authored }
+  - form: "chronionymi"
+    pl: "Zajmuje się chronionymi gatunkami."
+    ru: "Он занимается охраняемыми видами."
+    source: { kind: authored }
+  - form: "chronionymi"
+    pl: "Między chronionymi a zwykłymi lasami jest różnica."
+    ru: "Между охраняемыми и обычными лесами есть разница."
+    source: { kind: authored }
+  - form: "chronionymi"
+    pl: "Wrócił z chronionymi okazami."
+    ru: "Он вернулся с охраняемыми экземплярами."
+    source: { kind: authored }
+  - form: "chronisz"
+    pl: "Dlaczego ją chronisz?"
+    ru: "Почему ты её защищаешь?"
+    source: { kind: translated, id: 13350578 }
+  - form: "chronisz"
+    pl: "Przed czym chronisz dom?"
+    ru: "От чего ты защищаешь дом?"
+    source: { kind: authored }
+  - form: "chronisz"
+    pl: "Chronisz dzieci przed zimnem."
+    ru: "Ты защищаешь детей от холода."
+    source: { kind: authored }
+  - form: "chroń"
+    pl: "Boże chroń Ukrainę!"
+    ru: "Боже, храни Украину!"
+    source: { kind: tatoeba, id: 3008270 }
+  - form: "chroń"
+    pl: "Chroń mnie."
+    ru: "Защити меня."
+    source: { kind: translated, id: 10596360 }
+  - form: "chroń"
+    pl: "Chroń oczy przed słońcem."
+    ru: "Защищай глаза от солнца."
+    source: { kind: authored }
+  - form: "chrońcie"
+    pl: "Chrońcie mnie."
+    ru: "Защитите меня."
+    source: { kind: translated, id: 10596361 }
+  - form: "chrońcie"
+    pl: "Chrońcie las przed ogniem."
+    ru: "Защищайте лес от огня."
+    source: { kind: authored }
+  - form: "chrońcie"
+    pl: "Chrońcie dzieci przed zimnem."
+    ru: "Защищайте детей от холода."
+    source: { kind: authored }
+  - form: "chrońmy"
+    pl: "Chrońmy środowisko."
+    ru: "Будем беречь окружающую среду."
+    source: { kind: authored }
+  - form: "chrońmy"
+    pl: "Chrońmy las przed ogniem."
+    ru: "Будем защищать лес от огня."
+    source: { kind: authored }
+  - form: "chrońmy"
+    pl: "Chrońmy to, co mamy."
+    ru: "Будем беречь то, что имеем."
+    source: { kind: authored }
