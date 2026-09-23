@@ -1,0 +1,108 @@
+# review
+id: tytul
+format: 2
+lemma: "tytuł"
+rank: 1969
+pos: noun
+pron: { cyr: "ты́туу" }
+senses:
+  - id: title-work
+    ru: "заглавие, название (книги, фильма)"
+    examples:
+      - pl: "Jaki jest tytuł tego filmu?"
+        ru: "Какое название у этого фильма?"
+        source: { kind: translated, id: 3125568 }
+      - pl: "Jaki jest tytuł rozdziału?"
+        ru: "Какое название у главы?"
+        source: { kind: translated, id: 11487440 }
+      - pl: "Hymn Szkocji nosi tytuł „Kwiat Szkocji”."
+        ru: "Гимн Шотландии носит название «Цветок Шотландии»."
+        source: { kind: translated, id: 973080 }
+      - pl: "Tytuł tej powieści jest zaczerpnięty z Biblii."
+        ru: "Название этого романа взято из Библии."
+        source: { kind: translated, id: 892187 }
+      - pl: "Tytuł filmu wyjaśnia piosenka wprowadzająca."
+        ru: "Название фильма объясняет вступительная песня."
+        source: { kind: translated, id: 2246979 }
+      - pl: "Zaśpiewała piosenkę, której tytułu nie znam."
+        ru: "Она спела песню, названия которой я не знаю."
+        source: { kind: translated, id: 2246804 }
+  - id: title-rank
+    ru: "титул, звание"
+    examples:
+      - pl: "Król nadał mu tytuł szlachecki."
+        ru: "Король присвоил ему дворянский титул."
+        source: { kind: tatoeba, id: 6155811 }
+      - pl: "Obronił tytuł mistrza świata."
+        ru: "Он отстоял титул чемпиона мира."
+        source: { kind: authored }
+      - pl: "Otrzymał tytuł profesora."
+        ru: "Он получил звание профессора."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Оборот pod tytułem «под названием» — стандартный способ назвать произведение: książka pod tytułem «книга под названием»." }
+  - { kind: usage, text: "Второе значение — «титул, звание»: tytuł szlachecki «дворянский титул», tytuł mistrza «звание чемпиона»." }
+  - { kind: usage, text: "Рядом с карточкой nazwa «название»: nazwa — имя предмета или места, tytuł — заглавие произведения или звание человека." }
+collocations:
+  - { pl: "pod tytułem", ru: "под названием" }
+  - { pl: "tytuł filmu", ru: "название фильма" }
+  - { pl: "tytuł mistrza", ru: "звание чемпиона" }
+etymology: "Из латинского titulus «надпись, заглавие». Русский «титул» — то же заимствование, но в русском оно сузилось до звания, а польское tytuł покрывает ещё и заглавие книги."
+memory: "tytuł — и «заглавие», и «титул»: tytuł filmu «название фильма», tytuł szlachecki «дворянский титул». Оборот pod tytułem — «под названием»."
+idioms:
+  - { pl: "pod tytułem", ru: "под названием" }
+  - { pl: "tytuł filmu", ru: "название фильма" }
+  - { pl: "tytuł mistrza świata", ru: "звание чемпиона мира" }
+formExamplesSkip:
+  - { form: "tytule", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytułach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytułami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytułom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytułowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytułów", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "tytuły", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "tytuł"
+    pl: "Jaki jest tytuł rozdziału?"
+    ru: "Какое название у главы?"
+    source: { kind: translated, id: 11487440 }
+  - form: "tytuł"
+    pl: "Jaki jest tytuł tego filmu?"
+    ru: "Какое название у этого фильма?"
+    source: { kind: translated, id: 3125568 }
+  - form: "tytuł"
+    pl: "Król nadał mu tytuł szlachecki."
+    ru: "Король присвоил ему дворянский титул."
+    source: { kind: tatoeba, id: 6155811 }
+  - form: "tytuł"
+    pl: "Hymn Szkocji nosi tytuł „Kwiat Szkocji”."
+    ru: "Гимн Шотландии носит название «Цветок Шотландии»."
+    source: { kind: translated, id: 973080 }
+  - form: "tytuł"
+    pl: "Tytuł tej powieści jest zaczerpnięty z Biblii."
+    ru: "Название этого романа взято из Библии."
+    source: { kind: translated, id: 892187 }
+  - form: "tytułem"
+    pl: "Zagramy w grę pod tytułem szczyp i uciekaj?"
+    ru: "Сыграем в игру под названием «ущипни и беги»?"
+    source: { kind: translated, id: 1350990 }
+  - form: "tytułem"
+    pl: "Przepraszam, szukam książki pod tytułem „Tom i Mary”."
+    ru: "Извините, я ищу книгу под названием «Том и Мэри»."
+    source: { kind: translated, id: 3529056 }
+  - form: "tytułem"
+    pl: "Film pod tytułem „Popiół” zdobył nagrodę."
+    ru: "Фильм под названием «Пепел» получил награду."
+    source: { kind: authored }
+  - form: "tytułu"
+    pl: "Zaśpiewała piosenkę, której tytułu nie znam."
+    ru: "Она спела песню, названия которой я не знаю."
+    source: { kind: translated, id: 2246804 }
+  - form: "tytułu"
+    pl: "Nie pamiętam tytułu tej książki."
+    ru: "Я не помню названия этой книги."
+    source: { kind: authored }
+  - form: "tytułu"
+    pl: "Szukam tytułu do artykułu."
+    ru: "Я ищу заголовок для статьи."
+    source: { kind: authored }
