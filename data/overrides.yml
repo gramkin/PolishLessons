@@ -219,6 +219,17 @@ exclude:
   # Nie udało mu się obudzić Harry'ego, książka o Harrym Potterze). Парадигма
   # вдобавок содержит выдуманные формы с апострофом: Harry'ego, Harry'emu
   - harry
+  # имя собственное: ни одного значения в Wiktionary, лемма с заглавной буквы,
+  # шесть форм из десяти пусты, все кандидаты — личное имя (Jim, zamknij okno;
+  # Napisałem list do Jima; Mianowali Jima kierownikiem). Тот же класс, что
+  # уже исключённый jimmy, а также paul, harry, maria, peter, ben, joe
+  - jim
+  # не лемма, а форма 3-го лица глагола podobać się (карточка podobac, ранг 365,
+  # формат 2) — она уже разобрана там примером. Ранжировщик принял глагольную
+  # форму за существительное «podobizna»: из одиннадцати «именных» форм десять
+  # пусты, а единственная заполненная (podoba) содержит только глагол
+  # (Podoba mi się twój samochód, Nic mi się nie podoba, Podoba ci się ktoś?)
+  - podoba
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
