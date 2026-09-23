@@ -384,6 +384,11 @@ exclude:
   # (Bob i Tom sa bracmi, Bob to moj przyjaciel). Растение «боб» —
   # это bob с диакритикой над o, отдельная лемма. Класс bill
   - bob
+  # не самостоятельное слово: 9 из 10 форм пусты, единственный кандидат —
+  # голландская фамильная частица (Rodzina Van Hornow byla bogata), а не
+  # польское название кузова. Значение "минивэн" в корпусе не встречается
+  # ни разу. Тот же класс, что in, e и la
+  - van
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
