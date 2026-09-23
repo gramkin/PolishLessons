@@ -1,0 +1,703 @@
+# review
+id: przypomniec
+format: 2
+lemma: "przypomnieć"
+rank: 1037
+pos: verb
+aspect: perf
+pron: { cyr: "пшыпо́мнець" }
+senses:
+  - id: remind
+    ru: "przypomnieć komuś — напомнить кому-то"
+    examples:
+      - pl: "Przypomnij mi, bym jutro napisał list."
+        ru: "Напомни мне завтра написать письмо."
+        source: { kind: translated, id: 940915 }
+      - pl: "Przypomniał mi, abym nie zapomniał mojego paszportu."
+        ru: "Он напомнил мне не забыть паспорт."
+        source: { kind: translated, id: 539843 }
+      - pl: "Przypomnisz mi, żebym wysłał te listy?"
+        ru: "Ты напомнишь мне отправить эти письма?"
+        source: { kind: translated, id: 13783069 }
+  - id: recall
+    ru: "przypomnieć sobie — вспомнить"
+    note: "С sobie — «вспомнить», без него — «напомнить». Русский берёт два разных глагола."
+    examples:
+      - pl: "Nie mogę sobie przypomnieć."
+        ru: "Я не могу вспомнить."
+        source: { kind: translated, id: 669674 }
+      - pl: "O, przypomniałem sobie."
+        ru: "О, я вспомнил."
+        source: { kind: translated, id: 827348 }
+      - pl: "Przypomniałam sobie."
+        ru: "Я вспомнила."
+        source: { kind: translated, id: 5508776 }
+  - id: remind-of
+    ru: "coś przypomina komuś kogoś — что-то напоминает кому-то кого-то"
+    examples:
+      - pl: "Ta historia przypomniała mi o moim ojcu."
+        ru: "Эта история напомнила мне о моём отце."
+        source: { kind: translated, id: 11573484 }
+      - pl: "Jej historia przypomniała mi moich rodziców."
+        ru: "Её рассказ напомнил мне моих родителей."
+        source: { kind: translated, id: 832623 }
+      - pl: "To zdjęcie przypomniało mi Szkocję."
+        ru: "Эта фотография напомнила мне Шотландию."
+        source: { kind: translated, id: 956863 }
+notes:
+  - { kind: usage, text: "Ключевое различие: przypomnieć komuś coś — «напомнить кому-то», а przypomnieć SOBIE — «вспомнить». Одно польское слово там, где русский берёт два разных глагола." }
+  - { kind: government, text: "przypomnieć KOMUŚ, ŻEBY… — «напомнить кому-то, чтобы…», с дательным падежом: Przypomnij mi, żebym napisał list." }
+  - { kind: usage, text: "Оборот coś przypomina mi kogoś значит «что-то напоминает мне кого-то» — с винительным, без предлога: Ta historia przypomniała mi ojca." }
+  - { kind: usage, text: "Несовершенный вид — przypominać. Существительное przypomnienie значит «напоминание»." }
+collocations:
+  - { pl: "przypomnieć sobie", ru: "вспомнить" }
+  - { pl: "przypomnij mi", ru: "напомни мне" }
+  - { pl: "przypomina mi", ru: "напоминает мне" }
+  - { pl: "nie mogę sobie przypomnieć", ru: "не могу вспомнить" }
+family:
+  - { pl: "przypominać", ru: "напоминать", relation: aspect }
+  - { pl: "pamięć", ru: "память", relation: root, id: pamiec }
+  - { pl: "przypomnienie", ru: "напоминание", relation: derived }
+etymology: "Приставка przy- + pomnieć «помнить», от того же корня, что pamięć. Русское «припомнить» собрано ровно так же."
+memory: "Одно слово вместо двух русских: przypomnieć komuś — «напомнить», а przypomnieć SOBIE — «вспомнить». Разница только в sobie, и её легко не заметить: Nie mogę sobie przypomnieć «Не могу вспомнить»."
+idioms:
+  - { pl: "przypomnieć sobie", ru: "вспомнить" }
+  - { pl: "przypomnij mi", ru: "напомни мне" }
+  - { pl: "nie mogę sobie przypomnieć", ru: "не могу вспомнить" }
+formExamples:
+  - form: "przypomną"
+    pl: "Przypomną nam o tym jutro."
+    ru: "Они напомнят нам об этом завтра."
+    source: { kind: authored }
+  - form: "przypomną"
+    pl: "Czy przypomną sobie moje imię?"
+    ru: "Вспомнят ли они моё имя?"
+    source: { kind: authored }
+  - form: "przypomną"
+    pl: "Te zdjęcia przypomną im wakacje."
+    ru: "Эти фотографии напомнят им каникулы."
+    source: { kind: authored }
+  - form: "przypomnę"
+    pl: "Przypomnę ci."
+    ru: "Я тебе напомню."
+    source: { kind: translated, id: 13352332 }
+  - form: "przypomnę"
+    pl: "Przypomnę ci o spotkaniu."
+    ru: "Я напомню тебе о встрече."
+    source: { kind: authored }
+  - form: "przypomnę"
+    pl: "Przypomnę sobie jego nazwisko."
+    ru: "Я вспомню его фамилию."
+    source: { kind: authored }
+  - form: "przypomni"
+    pl: "Kto mi o tym przypomni?"
+    ru: "Кто мне об этом напомнит?"
+    source: { kind: authored }
+  - form: "przypomni"
+    pl: "To przypomni ci dzieciństwo."
+    ru: "Это напомнит тебе детство."
+    source: { kind: authored }
+  - form: "przypomni"
+    pl: "Nikt sobie tego nie przypomni."
+    ru: "Никто этого не вспомнит."
+    source: { kind: authored }
+  - form: "przypomniał"
+    pl: "Przypomniał jej o jej ojcu."
+    ru: "Он напомнил ей об её отце."
+    source: { kind: translated, id: 10799426 }
+  - form: "przypomniał"
+    pl: "Przypomniał mi, abym nie zapomniał mojego paszportu."
+    ru: "Он напомнил мне не забыть паспорт."
+    source: { kind: translated, id: 539843 }
+  - form: "przypomniał"
+    pl: "Tom przypomniał Mary, żeby to robiła."
+    ru: "Том напомнил Мэри, чтобы она это делала."
+    source: { kind: translated, id: 8809827 }
+  - form: "przypomniała"
+    pl: "Ta historia przypomniała mi o moim ojcu."
+    ru: "Эта история напомнила мне о моём отце."
+    source: { kind: translated, id: 11573484 }
+  - form: "przypomniała"
+    pl: "Jej historia przypomniała mi moich rodziców."
+    ru: "Её рассказ напомнил мне моих родителей."
+    source: { kind: translated, id: 832623 }
+  - form: "przypomniała"
+    pl: "Kiedy go usłyszałem, przypomniała mi się młodość."
+    ru: "Когда я его услышал, мне вспомнилась молодость."
+    source: { kind: translated, id: 739151 }
+  - form: "przypomniałaby"
+    pl: "Przypomniałaby mi, gdyby pamiętała."
+    ru: "Она напомнила бы мне, если бы помнила."
+    source: { kind: authored }
+  - form: "przypomniałaby"
+    pl: "Nie przypomniałaby sobie tego."
+    ru: "Она этого не вспомнила бы."
+    source: { kind: authored }
+  - form: "przypomniałaby"
+    pl: "Przypomniałaby mu o terminie."
+    ru: "Она напомнила бы ему о сроке."
+    source: { kind: authored }
+  - form: "przypomniałabym"
+    pl: "Przypomniałabym ci o tym."
+    ru: "Я напомнила бы тебе об этом."
+    source: { kind: authored }
+  - form: "przypomniałabym"
+    pl: "Nie przypomniałabym sobie jego imienia."
+    ru: "Я не вспомнила бы его имени."
+    source: { kind: authored }
+  - form: "przypomniałabym"
+    pl: "Przypomniałabym sobie po chwili."
+    ru: "Я вспомнила бы через минуту."
+    source: { kind: authored }
+  - form: "przypomniałabyś"
+    pl: "Przypomniałabyś mi o spotkaniu?"
+    ru: "Ты напомнила бы мне о встрече?"
+    source: { kind: authored }
+  - form: "przypomniałabyś"
+    pl: "Nie przypomniałabyś sobie tego."
+    ru: "Ты бы этого не вспомнила."
+    source: { kind: authored }
+  - form: "przypomniałabyś"
+    pl: "Przypomniałabyś sobie po chwili."
+    ru: "Ты вспомнила бы через минуту."
+    source: { kind: authored }
+  - form: "przypomniałam"
+    pl: "Przypomniałam sobie."
+    ru: "Я вспомнила."
+    source: { kind: translated, id: 5508776 }
+  - form: "przypomniałam"
+    pl: "Przypomniałam mu o spotkaniu."
+    ru: "Я напомнила ему о встрече."
+    source: { kind: authored }
+  - form: "przypomniałam"
+    pl: "Przypomniałam sobie jego twarz."
+    ru: "Я вспомнила его лицо."
+    source: { kind: authored }
+  - form: "przypomniałaś"
+    pl: "Przypomniałaś mi o tym w porę."
+    ru: "Ты вовремя мне об этом напомнила."
+    source: { kind: authored }
+  - form: "przypomniałaś"
+    pl: "Przypomniałaś sobie coś?"
+    ru: "Ты что-нибудь вспомнила?"
+    source: { kind: authored }
+  - form: "przypomniałaś"
+    pl: "Dobrze, że przypomniałaś."
+    ru: "Хорошо, что ты напомнила."
+    source: { kind: authored }
+  - form: "przypomniałby"
+    pl: "Przypomniałby mi, gdyby pamiętał."
+    ru: "Он напомнил бы мне, если бы помнил."
+    source: { kind: authored }
+  - form: "przypomniałby"
+    pl: "Nie przypomniałby sobie tego."
+    ru: "Он этого не вспомнил бы."
+    source: { kind: authored }
+  - form: "przypomniałby"
+    pl: "Przypomniałby sobie po chwili."
+    ru: "Он вспомнил бы через минуту."
+    source: { kind: authored }
+  - form: "przypomniałbym"
+    pl: "Przypomniałbym ci o tym."
+    ru: "Я напомнил бы тебе об этом."
+    source: { kind: authored }
+  - form: "przypomniałbym"
+    pl: "Nie przypomniałbym sobie jego imienia."
+    ru: "Я не вспомнил бы его имени."
+    source: { kind: authored }
+  - form: "przypomniałbym"
+    pl: "Przypomniałbym sobie po chwili."
+    ru: "Я вспомнил бы через минуту."
+    source: { kind: authored }
+  - form: "przypomniałbyś"
+    pl: "Przypomniałbyś mi o spotkaniu?"
+    ru: "Ты напомнил бы мне о встрече?"
+    source: { kind: authored }
+  - form: "przypomniałbyś"
+    pl: "Nie przypomniałbyś sobie tego."
+    ru: "Ты бы этого не вспомнил."
+    source: { kind: authored }
+  - form: "przypomniałbyś"
+    pl: "Przypomniałbyś sobie po chwili."
+    ru: "Ты вспомнил бы через минуту."
+    source: { kind: authored }
+  - form: "przypomniałem"
+    pl: "O, przypomniałem sobie."
+    ru: "О, я вспомнил."
+    source: { kind: translated, id: 827348 }
+  - form: "przypomniałem"
+    pl: "Dopiero później przypomniałem sobie jego nazwisko."
+    ru: "Только позже я вспомнил его фамилию."
+    source: { kind: translated, id: 728580 }
+  - form: "przypomniałem"
+    pl: "Nagle przypomniałem sobie, że zostawiłem portfel w domu."
+    ru: "Я вдруг вспомнил, что оставил кошелёк дома."
+    source: { kind: translated, id: 751620 }
+  - form: "przypomniałeś"
+    pl: "Przypomniałeś mi o tym w porę."
+    ru: "Ты вовремя мне об этом напомнил."
+    source: { kind: authored }
+  - form: "przypomniałeś"
+    pl: "Przypomniałeś sobie coś?"
+    ru: "Ты что-нибудь вспомнил?"
+    source: { kind: authored }
+  - form: "przypomniałeś"
+    pl: "Dobrze, że przypomniałeś."
+    ru: "Хорошо, что ты напомнил."
+    source: { kind: authored }
+  - form: "przypomniało"
+    pl: "To zdjęcie przypomniało mi Szkocję."
+    ru: "Эта фотография напомнила мне Шотландию."
+    source: { kind: translated, id: 956863 }
+  - form: "przypomniało"
+    pl: "To przypomniało mi dzieciństwo."
+    ru: "Это напомнило мне детство."
+    source: { kind: authored }
+  - form: "przypomniało"
+    pl: "Dziecko przypomniało sobie wierszyk."
+    ru: "Ребёнок вспомнил стишок."
+    source: { kind: authored }
+  - form: "przypomniałoby"
+    pl: "To przypomniałoby mu dom."
+    ru: "Это напомнило бы ему дом."
+    source: { kind: authored }
+  - form: "przypomniałoby"
+    pl: "Dziecko przypomniałoby sobie wierszyk."
+    ru: "Ребёнок вспомнил бы стишок."
+    source: { kind: authored }
+  - form: "przypomniałoby"
+    pl: "Zdjęcie przypomniałoby mu dawne lata."
+    ru: "Фотография напомнила бы ему давние годы."
+    source: { kind: authored }
+  - form: "przypomniały"
+    pl: "Jej słowa przypomniały mi szczęśliwe dzieciństwo."
+    ru: "Её слова напомнили мне счастливое детство."
+    source: { kind: translated, id: 758426 }
+  - form: "przypomniały"
+    pl: "Nagle, z jakiegoś powodu, przypomniały mi się czasy mojej młodości."
+    ru: "Вдруг мне почему-то вспомнились времена моей молодости."
+    source: { kind: translated, id: 11527891 }
+  - form: "przypomniały"
+    pl: "Kiedy usłyszałem, co opowiada, przypomniały mi się stare, dobre czasy."
+    ru: "Когда я услышал, что он рассказывает, мне вспомнились добрые старые времена."
+    source: { kind: translated, id: 737289 }
+  - form: "przypomniałyby"
+    pl: "Te zdjęcia przypomniałyby mu wakacje."
+    ru: "Эти фотографии напомнили бы ему каникулы."
+    source: { kind: authored }
+  - form: "przypomniałyby"
+    pl: "Jej słowa przypomniałyby mi dzieciństwo."
+    ru: "Её слова напомнили бы мне детство."
+    source: { kind: authored }
+  - form: "przypomniałyby"
+    pl: "Nie przypomniałyby sobie tego."
+    ru: "Они этого не вспомнили бы."
+    source: { kind: authored }
+  - form: "przypomniałybyście"
+    pl: "Przypomniałybyście mi o spotkaniu?"
+    ru: "Вы напомнили бы мне о встрече?"
+    source: { kind: authored }
+  - form: "przypomniałybyście"
+    pl: "Nie przypomniałybyście sobie tego."
+    ru: "Вы бы этого не вспомнили."
+    source: { kind: authored }
+  - form: "przypomniałybyście"
+    pl: "Przypomniałybyście mu o terminie?"
+    ru: "Вы напомнили бы ему о сроке?"
+    source: { kind: authored }
+  - form: "przypomniałybyśmy"
+    pl: "Przypomniałybyśmy ci o tym."
+    ru: "Мы напомнили бы тебе об этом."
+    source: { kind: authored }
+  - form: "przypomniałybyśmy"
+    pl: "Nie przypomniałybyśmy sobie tego."
+    ru: "Мы бы этого не вспомнили."
+    source: { kind: authored }
+  - form: "przypomniałybyśmy"
+    pl: "Przypomniałybyśmy mu o terminie."
+    ru: "Мы напомнили бы ему о сроке."
+    source: { kind: authored }
+  - form: "przypomniałyście"
+    pl: "Przypomniałyście mi o spotkaniu."
+    ru: "Вы напомнили мне о встрече."
+    source: { kind: authored }
+  - form: "przypomniałyście"
+    pl: "Przypomniałyście sobie coś?"
+    ru: "Вы что-нибудь вспомнили?"
+    source: { kind: authored }
+  - form: "przypomniałyście"
+    pl: "Dobrze, że przypomniałyście."
+    ru: "Хорошо, что вы напомнили."
+    source: { kind: authored }
+  - form: "przypomniałyśmy"
+    pl: "Przypomniałyśmy mu o terminie."
+    ru: "Мы напомнили ему о сроке."
+    source: { kind: authored }
+  - form: "przypomniałyśmy"
+    pl: "Przypomniałyśmy sobie tamten rok."
+    ru: "Мы вспомнили тот год."
+    source: { kind: authored }
+  - form: "przypomniałyśmy"
+    pl: "Przypomniałyśmy o spotkaniu wszystkim."
+    ru: "Мы напомнили о встрече всем."
+    source: { kind: authored }
+  - form: "przypomniana"
+    pl: "Sprawa została przypomniana na zebraniu."
+    ru: "О деле напомнили на собрании."
+    source: { kind: authored }
+  - form: "przypomniana"
+    pl: "Ta zasada jest co roku przypomniana."
+    ru: "Об этом правиле напоминают каждый год."
+    source: { kind: authored }
+  - form: "przypomniana"
+    pl: "Historia przypomniana po latach poruszyła wszystkich."
+    ru: "История, о которой напомнили спустя годы, тронула всех."
+    source: { kind: authored }
+  - form: "przypomnianą"
+    pl: "Omówili przypomnianą sprawę."
+    ru: "Они обсудили дело, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianą"
+    pl: "Zapisał przypomnianą datę."
+    ru: "Он записал дату, о которой ему напомнили."
+    source: { kind: authored }
+  - form: "przypomnianą"
+    pl: "Powtórzył przypomnianą zasadę."
+    ru: "Он повторил напомненное правило."
+    source: { kind: authored }
+  - form: "przypomniane"
+    pl: "Te zasady zostały przypomniane."
+    ru: "Об этих правилах напомнили."
+    source: { kind: authored }
+  - form: "przypomniane"
+    pl: "Fakty przypomniane w artykule są znane."
+    ru: "Факты, о которых напомнили в статье, известны."
+    source: { kind: authored }
+  - form: "przypomniane"
+    pl: "Terminy są przypomniane w mailu."
+    ru: "О сроках напомнили в письме."
+    source: { kind: authored }
+  - form: "przypomnianego"
+    pl: "Nie pamiętam przypomnianego terminu."
+    ru: "Я не помню срока, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianego"
+    pl: "Dotyczy to przypomnianego wcześniej faktu."
+    ru: "Это касается факта, о котором напомнили раньше."
+    source: { kind: authored }
+  - form: "przypomnianego"
+    pl: "Szukam przypomnianego adresu."
+    ru: "Я ищу адрес, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianej"
+    pl: "Dotyczy to przypomnianej sprawy."
+    ru: "Это касается дела, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianej"
+    pl: "Nie ma przypomnianej daty w kalendarzu."
+    ru: "В календаре нет даты, о которой напомнили."
+    source: { kind: authored }
+  - form: "przypomnianej"
+    pl: "Mówili o przypomnianej historii."
+    ru: "Они говорили об истории, о которой напомнили."
+    source: { kind: authored }
+  - form: "przypomnianemu"
+    pl: "Przyjrzeli się przypomnianemu faktowi."
+    ru: "Они присмотрелись к факту, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianemu"
+    pl: "Dzięki przypomnianemu terminowi zdążyli."
+    ru: "Благодаря напоминанию о сроке они успели."
+    source: { kind: authored }
+  - form: "przypomnianemu"
+    pl: "Nie ufał przypomnianemu naprędce szczegółowi."
+    ru: "Он не доверял наспех припомненной детали."
+    source: { kind: authored }
+  - form: "przypomniani"
+    pl: "Zapomniani bohaterowie zostali przypomniani."
+    ru: "О забытых героях напомнили."
+    source: { kind: authored }
+  - form: "przypomniani"
+    pl: "Autorzy są przypomniani w przedmowie."
+    ru: "Об авторах напоминают в предисловии."
+    source: { kind: authored }
+  - form: "przypomniani"
+    pl: "Byli przypomniani po latach."
+    ru: "О них напомнили спустя годы."
+    source: { kind: authored }
+  - form: "przypomniano"
+    pl: "Przypomniano nam o terminie."
+    ru: "Нам напомнили о сроке."
+    source: { kind: authored }
+  - form: "przypomniano"
+    pl: "Przypomniano zasady bezpieczeństwa."
+    ru: "Напомнили правила безопасности."
+    source: { kind: authored }
+  - form: "przypomniano"
+    pl: "Przypomniano o tym na zebraniu."
+    ru: "Об этом напомнили на собрании."
+    source: { kind: authored }
+  - form: "przypomniany"
+    pl: "Termin został przypomniany w mailu."
+    ru: "О сроке напомнили в письме."
+    source: { kind: authored }
+  - form: "przypomniany"
+    pl: "Ten fakt był przypomniany wielokrotnie."
+    ru: "Об этом факте напоминали многократно."
+    source: { kind: authored }
+  - form: "przypomniany"
+    pl: "Zwyczaj przypomniany po latach wrócił."
+    ru: "Обычай, о котором напомнили спустя годы, вернулся."
+    source: { kind: authored }
+  - form: "przypomnianych"
+    pl: "Nie ma tu przypomnianych faktów."
+    ru: "Здесь нет фактов, о которых напомнили."
+    source: { kind: authored }
+  - form: "przypomnianych"
+    pl: "Wśród przypomnianych spraw była i ta."
+    ru: "Среди дел, о которых напомнили, было и это."
+    source: { kind: authored }
+  - form: "przypomnianych"
+    pl: "Mówił o przypomnianych zasadach."
+    ru: "Он говорил о напомненных правилах."
+    source: { kind: authored }
+  - form: "przypomnianym"
+    pl: "W przypomnianym tekście był błąd."
+    ru: "В тексте, о котором напомнили, была ошибка."
+    source: { kind: authored }
+  - form: "przypomnianym"
+    pl: "Mówimy o przypomnianym terminie."
+    ru: "Мы говорим о сроке, о котором напомнили."
+    source: { kind: authored }
+  - form: "przypomnianym"
+    pl: "Zajął się przypomnianym problemem."
+    ru: "Он занялся проблемой, о которой напомнили."
+    source: { kind: authored }
+  - form: "przypomnianymi"
+    pl: "Zajmuje się przypomnianymi sprawami."
+    ru: "Он занимается делами, о которых напомнили."
+    source: { kind: authored }
+  - form: "przypomnianymi"
+    pl: "Między przypomnianymi faktami był jeden nowy."
+    ru: "Среди напомненных фактов был один новый."
+    source: { kind: authored }
+  - form: "przypomnianymi"
+    pl: "Pracuje z przypomnianymi danymi."
+    ru: "Он работает с напомненными данными."
+    source: { kind: authored }
+  - form: "przypomniawszy"
+    pl: "Przypomniawszy sobie adres, ruszył dalej."
+    ru: "Вспомнив адрес, он двинулся дальше."
+    source: { kind: authored }
+  - form: "przypomniawszy"
+    pl: "Przypomniawszy o terminie, wyszedł."
+    ru: "Напомнив о сроке, он вышел."
+    source: { kind: authored }
+  - form: "przypomniawszy"
+    pl: "Przypomniawszy sobie twarz, uśmiechnął się."
+    ru: "Вспомнив лицо, он улыбнулся."
+    source: { kind: authored }
+  - form: "przypomnicie"
+    pl: "Przypomnicie mi o spotkaniu?"
+    ru: "Вы напомните мне о встрече?"
+    source: { kind: authored }
+  - form: "przypomnicie"
+    pl: "Przypomnicie sobie z czasem."
+    ru: "Вы вспомните со временем."
+    source: { kind: authored }
+  - form: "przypomnicie"
+    pl: "Przypomnicie mu o terminie."
+    ru: "Вы напомните ему о сроке."
+    source: { kind: authored }
+  - form: "przypomnieć"
+    pl: "Nie mogę sobie przypomnieć."
+    ru: "Я не могу вспомнить."
+    source: { kind: translated, id: 669674 }
+  - form: "przypomnieć"
+    pl: "Muszę to sobie przypomnieć."
+    ru: "Мне надо это вспомнить."
+    source: { kind: translated, id: 6109715 }
+  - form: "przypomnieć"
+    pl: "Właśnie staram się sobie przypomnieć."
+    ru: "Я как раз пытаюсь вспомнить."
+    source: { kind: translated, id: 2031507 }
+  - form: "przypomnieli"
+    pl: "Przypomnieli nam o terminie."
+    ru: "Они напомнили нам о сроке."
+    source: { kind: authored }
+  - form: "przypomnieli"
+    pl: "Przypomnieli sobie tamten dzień."
+    ru: "Они вспомнили тот день."
+    source: { kind: authored }
+  - form: "przypomnieli"
+    pl: "Przypomnieli mu o obietnicy."
+    ru: "Они напомнили ему об обещании."
+    source: { kind: authored }
+  - form: "przypomnieliby"
+    pl: "Przypomnieliby nam, gdyby pamiętali."
+    ru: "Они напомнили бы нам, если бы помнили."
+    source: { kind: authored }
+  - form: "przypomnieliby"
+    pl: "Nie przypomnieliby sobie tego."
+    ru: "Они этого не вспомнили бы."
+    source: { kind: authored }
+  - form: "przypomnieliby"
+    pl: "Przypomnieliby mu o terminie."
+    ru: "Они напомнили бы ему о сроке."
+    source: { kind: authored }
+  - form: "przypomnielibyście"
+    pl: "Przypomnielibyście mi o spotkaniu?"
+    ru: "Вы напомнили бы мне о встрече?"
+    source: { kind: authored }
+  - form: "przypomnielibyście"
+    pl: "Nie przypomnielibyście sobie tego."
+    ru: "Вы бы этого не вспомнили."
+    source: { kind: authored }
+  - form: "przypomnielibyście"
+    pl: "Przypomnielibyście mu o terminie?"
+    ru: "Вы напомнили бы ему о сроке?"
+    source: { kind: authored }
+  - form: "przypomnielibyśmy"
+    pl: "Przypomnielibyśmy ci o tym."
+    ru: "Мы напомнили бы тебе об этом."
+    source: { kind: authored }
+  - form: "przypomnielibyśmy"
+    pl: "Nie przypomnielibyśmy sobie tego."
+    ru: "Мы бы этого не вспомнили."
+    source: { kind: authored }
+  - form: "przypomnielibyśmy"
+    pl: "Przypomnielibyśmy mu o terminie."
+    ru: "Мы напомнили бы ему о сроке."
+    source: { kind: authored }
+  - form: "przypomnieliście"
+    pl: "Przypomnieliście mi o spotkaniu."
+    ru: "Вы напомнили мне о встрече."
+    source: { kind: authored }
+  - form: "przypomnieliście"
+    pl: "Przypomnieliście sobie coś?"
+    ru: "Вы что-нибудь вспомнили?"
+    source: { kind: authored }
+  - form: "przypomnieliście"
+    pl: "Dobrze, że przypomnieliście."
+    ru: "Хорошо, что вы напомнили."
+    source: { kind: authored }
+  - form: "przypomnieliśmy"
+    pl: "Przypomnieliśmy mu o terminie."
+    ru: "Мы напомнили ему о сроке."
+    source: { kind: authored }
+  - form: "przypomnieliśmy"
+    pl: "Przypomnieliśmy sobie tamten rok."
+    ru: "Мы вспомнили тот год."
+    source: { kind: authored }
+  - form: "przypomnieliśmy"
+    pl: "Przypomnieliśmy o spotkaniu wszystkim."
+    ru: "Мы напомнили о встрече всем."
+    source: { kind: authored }
+  - form: "przypomnienia"
+    pl: "Nie potrzebuję przypomnienia."
+    ru: "Мне не нужно напоминание."
+    source: { kind: authored }
+  - form: "przypomnienia"
+    pl: "Wysłał mi przypomnienia o płatności."
+    ru: "Он прислал мне напоминания об оплате."
+    source: { kind: authored }
+  - form: "przypomnienia"
+    pl: "Bez przypomnienia bym zapomniał."
+    ru: "Без напоминания я бы забыл."
+    source: { kind: authored }
+  - form: "przypomnienie"
+    pl: "To jest przypomnienie o zaległej zapłacie."
+    ru: "Это напоминание о просроченном платеже."
+    source: { kind: translated, id: 3706679 }
+  - form: "przypomnienie"
+    pl: "Dziękuję za przypomnienie o spotkaniu, na którym muszę być."
+    ru: "Спасибо за напоминание о встрече, на которой мне надо быть."
+    source: { kind: translated, id: 393064 }
+  - form: "przypomnienie"
+    pl: "Tom poprosił Mary o przypomnienie, żeby zadzwonił rano do Johna."
+    ru: "Том попросил Мэри напомнить, чтобы он утром позвонил Джону."
+    source: { kind: translated, id: 3785920 }
+  - form: "przypomnieniem"
+    pl: "Zajął się przypomnieniem zasad."
+    ru: "Он занялся напоминанием правил."
+    source: { kind: authored }
+  - form: "przypomnieniem"
+    pl: "Przed przypomnieniem sprawdził termin."
+    ru: "Прежде чем напомнить, он проверил срок."
+    source: { kind: authored }
+  - form: "przypomnieniem"
+    pl: "To było delikatnym przypomnieniem."
+    ru: "Это было деликатным напоминанием."
+    source: { kind: authored }
+  - form: "przypomnieniu"
+    pl: "Po przypomnieniu zabrał się do pracy."
+    ru: "После напоминания он взялся за работу."
+    source: { kind: authored }
+  - form: "przypomnieniu"
+    pl: "Mówimy o przypomnieniu terminu."
+    ru: "Мы говорим о напоминании о сроке."
+    source: { kind: authored }
+  - form: "przypomnieniu"
+    pl: "Po przypomnieniu wszystko wróciło."
+    ru: "После напоминания всё вернулось."
+    source: { kind: authored }
+  - form: "przypomnij"
+    pl: "Przypomnij mi, bym jutro napisał list."
+    ru: "Напомни мне завтра написать письмо."
+    source: { kind: translated, id: 940915 }
+  - form: "przypomnij"
+    pl: "Przypomnij mi, że mam jutro iść do lekarza."
+    ru: "Напомни мне, что завтра мне надо к врачу."
+    source: { kind: translated, id: 999229 }
+  - form: "przypomnij"
+    pl: "Przypomnij mi, proszę, o napisaniu listu."
+    ru: "Напомни мне, пожалуйста, о письме."
+    source: { kind: translated, id: 3019532 }
+  - form: "przypomnijcie"
+    pl: "Przypomnijcie mi o spotkaniu."
+    ru: "Напомните мне о встрече."
+    source: { kind: authored }
+  - form: "przypomnijcie"
+    pl: "Przypomnijcie sobie tamten rok."
+    ru: "Вспомните тот год."
+    source: { kind: authored }
+  - form: "przypomnijcie"
+    pl: "Przypomnijcie mu o obietnicy."
+    ru: "Напомните ему об обещании."
+    source: { kind: authored }
+  - form: "przypomnijmy"
+    pl: "Przypomnijmy sobie zasady."
+    ru: "Вспомним правила."
+    source: { kind: authored }
+  - form: "przypomnijmy"
+    pl: "Przypomnijmy mu o terminie."
+    ru: "Напомним ему о сроке."
+    source: { kind: authored }
+  - form: "przypomnijmy"
+    pl: "Przypomnijmy, jak to było."
+    ru: "Вспомним, как это было."
+    source: { kind: authored }
+  - form: "przypomnimy"
+    pl: "Przypomnimy ci o terminie."
+    ru: "Мы напомним тебе о сроке."
+    source: { kind: authored }
+  - form: "przypomnimy"
+    pl: "Przypomnimy sobie tamten dzień."
+    ru: "Мы вспомним тот день."
+    source: { kind: authored }
+  - form: "przypomnimy"
+    pl: "Przypomnimy mu o obietnicy."
+    ru: "Мы напомним ему об обещании."
+    source: { kind: authored }
+  - form: "przypomnisz"
+    pl: "Przypomnisz mi, żebym wysłał te listy?"
+    ru: "Ты напомнишь мне отправить эти письма?"
+    source: { kind: translated, id: 13783069 }
+  - form: "przypomnisz"
+    pl: "Czy przypomnisz mi, żebym wysłał te listy?"
+    ru: "Ты напомнишь мне отправить эти письма?"
+    source: { kind: translated, id: 13783072 }
+  - form: "przypomnisz"
+    pl: "Przypomnisz sobie z czasem."
+    ru: "Ты вспомнишь со временем."
+    source: { kind: authored }
