@@ -116,6 +116,25 @@ exclude:
   # mężczyzną."), and the jedyny card already owns the forms. Same defect as taka, jaka,
   # twoja, moja and wlasne.
   - jedyna
+  # an English given name used as a Tatoeba placeholder: the lemma is lowercase, but every
+  # candidate is the capitalised person ("Kopę lat, Bill.", "Bill włączył telewizor.",
+  # "Wracaj szybko, Billu.") and PoliMorf invents a Polish paradigm for it (billa, billowi,
+  # billu, billowie). Not one line is the borrowing for a legislative bill. Same class as
+  # john, jack, nick, lee, scott and chris.
+  - bill
+  # the bare letter, not the interjection: Wiktionary glosses "e" as an exclamation, but
+  # every corpus candidate is the e-mail / e-learning prefix caught by hyphen matching
+  # ("Czy masz adres e-mail?", "Szyfruję swoje e-maile."). Not one line is the interjection.
+  # Same defects as ego (suffix matching) and c (bare letter name).
+  - e
+  # a given name with no corpus whatsoever: all ten forms are empty and the lemma has zero
+  # candidates, so there is nothing to build a card from. Same as wyprawiac, with the
+  # placeholder-name defect of sara on top.
+  - sara
+  # not a Polish word here: glossed as the solmisation note, but every candidate is foreign
+  # text -- "kanał La Manche" six times over, plus "Valse de la lune" and "La Giralda".
+  # Same defect as si, which is Spanish text rather than Polish.
+  - la
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
