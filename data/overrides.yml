@@ -594,6 +594,27 @@ exclude:
   # «отбил мяч». Ни одно значение не набирает трёх примеров без выдумывания.
   # Существительное odbior уже имеет карточку (ранг 1867)
   - odbic
+  # "jackson" — английская фамилия: Michael Jackson, Tom Jackson, pani
+  # Jackson, Jacksonowie. Всегда при человеке, самостоятельной леммой
+  # польского языка не является. Класс karen, josh, taylor, jeff
+  - jackson
+  # "street" — английское слово внутри названий улиц, к тому же помеченное
+  # как частица. Единственная форма, и все восемь кандидатов дают его в
+  # составе имени собственного (dom na Park Street, autobus na Main Street,
+  # Madrid Street). Самостоятельно не встречается ни разу; ulica уже имеет
+  # карточку (ранг 568). Класс angeles, jork
+  - street
+  # "immunitet" — один-единственный кандидат на десять форм (Mam immunitet),
+  # девять форм пусты. Для карточки формата 2 материала нет: три примера на
+  # форму пришлось бы выдумывать целиком
+  - immunitet
+  # "mil" — дефект лемматизации: это родительный падеж множественного числа
+  # от mila «миля», у которой уже есть карточка (ранг 1480): piec mil, 500
+  # mil dlugosci. Хуже того, парадигма собрала ещё два чужих слова — все
+  # примеры на форму mile принадлежат наречию mile «приятно» (mile widziany,
+  # mile zaskoczony), а на форму mili — прилагательному mili «милые»
+  # (Badzcie mili). Три разные леммы в одной парадигме. Класс tysiace
+  - mil
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
