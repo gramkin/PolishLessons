@@ -1,0 +1,93 @@
+# review
+id: majatek
+format: 2
+lemma: "majątek"
+rank: 2005
+pos: noun
+pron: { cyr: "майо́нтэк" }
+senses:
+  - id: property
+    ru: "имущество, состояние (то, чем владеют)"
+    examples:
+      - pl: "Tom zapisał w testamencie cały swój majątek miastu."
+        ru: "Том завещал всё своё имущество городу."
+        source: { kind: tatoeba, id: 8666082 }
+      - pl: "Odziedziczył majątek ojca."
+        ru: "Он унаследовал имущество отца."
+        source: { kind: translated, id: 737287 }
+      - pl: "Stracił większość majątku na spekulacjach."
+        ru: "Он потерял большую часть состояния на спекуляциях."
+        source: { kind: translated, id: 718955 }
+  - id: fortune
+    ru: "состояние, богатство"
+    examples:
+      - pl: "Tom zrobił majątek."
+        ru: "Том сколотил состояние."
+        source: { kind: translated, id: 6441707 }
+      - pl: "Ma na głowie tylko gromadzenie majątku."
+        ru: "У него на уме только накопление богатства."
+        source: { kind: translated, id: 832819 }
+  - id: estate
+    ru: "имение, поместье"
+    examples:
+      - pl: "Mieszkali w starym majątku pod Krakowem."
+        ru: "Они жили в старом имении под Краковом."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Три значения сразу: «имущество», «состояние, богатство» и «имение, поместье». Какое именно — видно из контекста." }
+  - { kind: usage, text: "zrobić majątek «сколотить состояние», kosztować majątek «стоить целое состояние» — очень частые обороты." }
+  - { kind: false-friend, text: "Не «майка» и не «май». Корень — mieć «иметь», ровно как русское «имущество» от «иметь»." }
+  - { kind: government, text: "Мужской неодушевлённый; родительный падеж — majątku (а не majątka)." }
+collocations:
+  - { pl: "cały majątek", ru: "всё имущество" }
+  - { pl: "zrobić majątek", ru: "сколотить состояние" }
+  - { pl: "majątek trwały", ru: "основные средства" }
+etymology: "От mieć «иметь»: majątek — «то, что имеешь». Русское «имущество» образовано от «иметь» ровно тем же способом."
+memory: "majątek от mieć «иметь» — как «имущество» от «иметь». Значит и имущество, и состояние, и поместье. Запомните kosztować majątek «стоить целое состояние»."
+idioms:
+  - { pl: "kosztować majątek", ru: "стоить целое состояние" }
+  - { pl: "zrobić majątek", ru: "сколотить состояние" }
+formExamplesSkip:
+  - { form: "majątkach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "majątkami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "majątki", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "majątkom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "majątkowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "majątków", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "majątek"
+    pl: "Tom zapisał w testamencie cały swój majątek miastu."
+    ru: "Том завещал всё своё имущество городу."
+    source: { kind: tatoeba, id: 8666082 }
+  - form: "majątek"
+    pl: "Odziedziczył majątek ojca."
+    ru: "Он унаследовал имущество отца."
+    source: { kind: translated, id: 737287 }
+  - form: "majątek"
+    pl: "Tom zrobił majątek."
+    ru: "Том сколотил состояние."
+    source: { kind: translated, id: 6441707 }
+  - form: "majątkiem"
+    pl: "Mike szczyci się majątkiem ojca."
+    ru: "Майк гордится имуществом отца."
+    source: { kind: translated, id: 951128 }
+  - form: "majątkiem"
+    pl: "Zarządza majątkiem firmy."
+    ru: "Он управляет имуществом фирмы."
+    source: { kind: authored }
+  - form: "majątkiem"
+    pl: "Rozporządził majątkiem w testamencie."
+    ru: "Он распорядился имуществом в завещании."
+    source: { kind: authored }
+  - form: "majątku"
+    pl: "Stracił większość majątku na spekulacjach."
+    ru: "Он потерял большую часть состояния на спекуляциях."
+    source: { kind: translated, id: 718955 }
+  - form: "majątku"
+    pl: "Ma na głowie tylko gromadzenie majątku."
+    ru: "У него на уме только накопление богатства."
+    source: { kind: translated, id: 832819 }
+  - form: "majątku"
+    pl: "Mieszka na majątku rady."
+    ru: "Он живёт в имении, принадлежащем совету."
+    source: { kind: translated, id: 12450199 }
