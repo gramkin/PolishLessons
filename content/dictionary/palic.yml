@@ -1,0 +1,822 @@
+# review
+id: palic
+format: 2
+lemma: "palić"
+rank: 977
+pos: verb
+aspect: imperf
+pron: { cyr: "па́лиць" }
+senses:
+  - id: smoke
+    ru: "курить"
+    examples:
+      - pl: "Nie palę."
+        ru: "Я не курю."
+        source: { kind: translated, id: 3600352 }
+      - pl: "Czy on pali?"
+        ru: "Он курит?"
+        source: { kind: translated, id: 11134178 }
+      - pl: "Rzuciłem palenie."
+        ru: "Я бросил курить."
+        source: { kind: translated, id: 351947 }
+  - id: burn
+    ru: "жечь, сжигать; palić się — гореть"
+    examples:
+      - pl: "Drzewo łatwo się pali."
+        ru: "Дерево легко горит."
+        source: { kind: translated, id: 937891 }
+      - pl: "Otworzył oczy i zobaczył, że świeca na stole jeszcze się pali."
+        ru: "Он открыл глаза и увидел, что свеча на столе всё ещё горит."
+        source: { kind: translated, id: 4719036 }
+      - pl: "Heretyków palono żywcem."
+        ru: "Еретиков сжигали заживо."
+        source: { kind: translated, id: 2947621 }
+  - id: burning
+    ru: "palący — палящий, жгучий; курящий"
+    examples:
+      - pl: "Palący czy niepalący?"
+        ru: "Курящий или некурящий?"
+        source: { kind: translated, id: 10603602 }
+      - pl: "Babcia używała parasolki, aby chronić się przed palącym letnim słońcem."
+        ru: "Бабушка пользовалась зонтиком, чтобы защититься от палящего летнего солнца."
+        source: { kind: translated, id: 11005872 }
+      - pl: "Dla palących czy niepalących?"
+        ru: "Для курящих или для некурящих?"
+        source: { kind: translated, id: 6067362 }
+notes:
+  - { kind: usage, text: "Два основных значения: «курить» (palę papierosy) и «жечь» (palić liście). Возвратное palić się значит «гореть»: Świeczka się pali." }
+  - { kind: usage, text: "Отглагольное существительное palenie — «курение»: rzucić palenie «бросить курить», zakaz palenia «курить запрещено». Это стандартная надпись на табличках." }
+  - { kind: usage, text: "Причастие palący субстантивировалось: palący «курящий», niepalący «некурящий», miejsce dla palących «место для курящих». В другом значении — «палящий»: palące słońce." }
+  - { kind: usage, text: "Единой видовой пары у глагола нет: zapalić значит «закурить, зажечь», spalić — «сжечь», wypalić — «выкурить, выжечь». Приставка каждый раз меняет смысл." }
+collocations:
+  - { pl: "palić papierosy", ru: "курить сигареты" }
+  - { pl: "rzucić palenie", ru: "бросить курить" }
+  - { pl: "zakaz palenia", ru: "курить запрещено" }
+  - { pl: "palić się", ru: "гореть" }
+family:
+  - { pl: "ogień", ru: "огонь", relation: root, id: ogien }
+  - { pl: "zapalić", ru: "закурить, зажечь", relation: derived }
+  - { pl: "spalić", ru: "сжечь", relation: derived }
+etymology: "Праславянское *paliti «заставлять гореть», каузатив к *polěti. Русское «палить» — то же слово, и «пылать», «пепел» ему родня."
+memory: "palić — и «курить», и «жечь». Palę «я курю», но Świeczka się pali «свеча горит». Запомните palenie «курение»: rzucić palenie «бросить курить», zakaz palenia — табличка «не курить»."
+idioms:
+  - { pl: "palić za sobą mosty", ru: "сжигать за собой мосты" }
+  - { pl: "nie pali się", ru: "не горит, не к спеху" }
+  - { pl: "palić jak smok", ru: "дымить как паровоз" }
+formExamples:
+  - form: "pal"
+    pl: "Nie pal tutaj."
+    ru: "Не кури здесь."
+    source: { kind: translated, id: 923040 }
+  - form: "pal"
+    pl: "Nie pal za dużo."
+    ru: "Не кури слишком много."
+    source: { kind: translated, id: 908203 }
+  - form: "pal"
+    pl: "Nie pal w łóżku!"
+    ru: "Не кури в постели!"
+    source: { kind: translated, id: 8768461 }
+  - form: "palą"
+    pl: "Nie znoszę ludzi, którzy palą w miejscach dla niepalących."
+    ru: "Терпеть не могу людей, которые курят в местах для некурящих."
+    source: { kind: translated, id: 5227452 }
+  - form: "palą"
+    pl: "Oni dużo palą."
+    ru: "Они много курят."
+    source: { kind: authored }
+  - form: "palą"
+    pl: "Świece palą się na stole."
+    ru: "Свечи горят на столе."
+    source: { kind: authored }
+  - form: "paląc"
+    pl: "Siedział na ławce, paląc papierosa."
+    ru: "Он сидел на скамейке, куря сигарету."
+    source: { kind: translated, id: 756471 }
+  - form: "paląc"
+    pl: "Paląc papierosa, patrzył w okno."
+    ru: "Куря сигарету, он смотрел в окно."
+    source: { kind: authored }
+  - form: "paląc"
+    pl: "Paląc liście, zatruwasz powietrze."
+    ru: "Сжигая листья, ты отравляешь воздух."
+    source: { kind: authored }
+  - form: "paląca"
+    pl: "Paląca kobieta stała przed wejściem."
+    ru: "Курящая женщина стояла перед входом."
+    source: { kind: authored }
+  - form: "paląca"
+    pl: "To paląca kwestia."
+    ru: "Это жгучий вопрос."
+    source: { kind: authored }
+  - form: "paląca"
+    pl: "Paląca świeca oświetlała pokój."
+    ru: "Горящая свеча освещала комнату."
+    source: { kind: authored }
+  - form: "palącą"
+    pl: "Widziałem palącą papierosa dziewczynę."
+    ru: "Я видел девушку, курящую сигарету."
+    source: { kind: authored }
+  - form: "palącą"
+    pl: "Poczuł palącą potrzebę snu."
+    ru: "Он почувствовал жгучую потребность во сне."
+    source: { kind: authored }
+  - form: "palącą"
+    pl: "Zgasił palącą się świecę."
+    ru: "Он погасил горящую свечу."
+    source: { kind: authored }
+  - form: "palące"
+    pl: "Palące słońce dokuczało nam cały dzień."
+    ru: "Палящее солнце донимало нас весь день."
+    source: { kind: authored }
+  - form: "palące"
+    pl: "To są palące problemy."
+    ru: "Это жгучие проблемы."
+    source: { kind: authored }
+  - form: "palące"
+    pl: "Palące się liście dymiły."
+    ru: "Горящие листья дымили."
+    source: { kind: authored }
+  - form: "palącego"
+    pl: "Nie znoszę palącego słońca."
+    ru: "Терпеть не могу палящего солнца."
+    source: { kind: authored }
+  - form: "palącego"
+    pl: "Nie zauważył palącego papierosa sąsiada."
+    ru: "Он не заметил курящего сигарету соседа."
+    source: { kind: authored }
+  - form: "palącego"
+    pl: "Szukam miejsca dla palącego gościa."
+    ru: "Я ищу место для курящего гостя."
+    source: { kind: authored }
+  - form: "palącej"
+    pl: "Nie ma tu palącej potrzeby."
+    ru: "Здесь нет жгучей необходимости."
+    source: { kind: authored }
+  - form: "palącej"
+    pl: "Przyglądał się palącej się świecy."
+    ru: "Он смотрел на горящую свечу."
+    source: { kind: authored }
+  - form: "palącej"
+    pl: "Mówili o palącej kwestii."
+    ru: "Они говорили о жгучем вопросе."
+    source: { kind: authored }
+  - form: "palącemu"
+    pl: "Powiedział to palącemu koledze."
+    ru: "Он сказал это курящему приятелю."
+    source: { kind: authored }
+  - form: "palącemu"
+    pl: "Przyglądał się palącemu ognisku."
+    ru: "Он смотрел на горящий костёр."
+    source: { kind: authored }
+  - form: "palącemu"
+    pl: "Nie przeszkadzaj palącemu sąsiadowi."
+    ru: "Не мешай курящему соседу."
+    source: { kind: authored }
+  - form: "palący"
+    pl: "Palący czy niepalący?"
+    ru: "Курящий или некурящий?"
+    source: { kind: translated, id: 10603602 }
+  - form: "palący"
+    pl: "Palący stali przed wejściem."
+    ru: "Курящие стояли перед входом."
+    source: { kind: authored }
+  - form: "palący"
+    pl: "Palący problem wymaga decyzji."
+    ru: "Жгучий вопрос требует решения."
+    source: { kind: authored }
+  - form: "palących"
+    pl: "Dla palących czy niepalących?"
+    ru: "Для курящих или для некурящих?"
+    source: { kind: translated, id: 6067362 }
+  - form: "palących"
+    pl: "Czy moglibyśmy dostać stolik w części dla palących?"
+    ru: "Можно нам столик в зоне для курящих?"
+    source: { kind: translated, id: 525633 }
+  - form: "palących"
+    pl: "Liczba palących spada."
+    ru: "Число курящих падает."
+    source: { kind: authored }
+  - form: "palącym"
+    pl: "Babcia używała parasolki, aby chronić się przed palącym letnim słońcem."
+    ru: "Бабушка пользовалась зонтиком, чтобы защититься от палящего летнего солнца."
+    source: { kind: translated, id: 11005872 }
+  - form: "palącym"
+    pl: "Siedzieli w palącym słońcu."
+    ru: "Они сидели под палящим солнцем."
+    source: { kind: authored }
+  - form: "palącym"
+    pl: "Pomógł palącym znaleźć miejsce."
+    ru: "Он помог курящим найти место."
+    source: { kind: authored }
+  - form: "palącymi"
+    pl: "Rozmawiał z palącymi gośćmi."
+    ru: "Он разговаривал с курящими гостями."
+    source: { kind: authored }
+  - form: "palącymi"
+    pl: "Między palącymi świecami stał krzyż."
+    ru: "Между горящими свечами стоял крест."
+    source: { kind: authored }
+  - form: "palącymi"
+    pl: "Zajmuje się palącymi problemami."
+    ru: "Он занимается жгучими проблемами."
+    source: { kind: authored }
+  - form: "palcie"
+    pl: "Nie palcie za sobą mostów."
+    ru: "Не жгите за собой мосты."
+    source: { kind: translated, id: 13661967 }
+  - form: "palcie"
+    pl: "Nie palcie tutaj."
+    ru: "Не курите здесь."
+    source: { kind: authored }
+  - form: "palcie"
+    pl: "Palcie świece ostrożnie."
+    ru: "Жгите свечи осторожно."
+    source: { kind: authored }
+  - form: "paleni"
+    pl: "Skazańcy byli paleni publicznie."
+    ru: "Осуждённых сжигали публично."
+    source: { kind: authored }
+  - form: "paleni"
+    pl: "Heretycy byli paleni na stosach."
+    ru: "Еретиков сжигали на кострах."
+    source: { kind: authored }
+  - form: "paleni"
+    pl: "Byli paleni przez inkwizycję."
+    ru: "Их сжигала инквизиция."
+    source: { kind: authored }
+  - form: "palenia"
+    pl: "Zakaz palenia."
+    ru: "Курить запрещено."
+    source: { kind: translated, id: 2616158 }
+  - form: "palenia"
+    pl: "Popadł w nawyk palenia."
+    ru: "Он приобрёл привычку курить."
+    source: { kind: translated, id: 4118887 }
+  - form: "palenia"
+    pl: "Lekarz zalecił mu rzucenie palenia."
+    ru: "Врач посоветовал ему бросить курить."
+    source: { kind: translated, id: 369022 }
+  - form: "palenie"
+    pl: "Rzuciłem palenie."
+    ru: "Я бросил курить."
+    source: { kind: translated, id: 351947 }
+  - form: "palenie"
+    pl: "Palenie szkodzi zdrowiu."
+    ru: "Курить вредно для здоровья."
+    source: { kind: translated, id: 598422 }
+  - form: "palenie"
+    pl: "Palenie wpływa na zdrowie."
+    ru: "Курение влияет на здоровье."
+    source: { kind: translated, id: 4731769 }
+  - form: "paleniem"
+    pl: "To nie jest łatwe, na zawsze skończyć z paleniem."
+    ru: "Нелегко навсегда покончить с курением."
+    source: { kind: translated, id: 6595784 }
+  - form: "paleniem"
+    pl: "Przed paleniem ogniska sprawdź pogodę."
+    ru: "Перед тем как жечь костёр, проверь погоду."
+    source: { kind: authored }
+  - form: "paleniem"
+    pl: "Walczy z paleniem od lat."
+    ru: "Он борется с курением годами."
+    source: { kind: authored }
+  - form: "paleniu"
+    pl: "Tom przyłapał Mary na paleniu."
+    ru: "Том застал Мэри за курением."
+    source: { kind: translated, id: 5397459 }
+  - form: "paleniu"
+    pl: "Moja matka jest przeciwna paleniu."
+    ru: "Моя мать против курения."
+    source: { kind: translated, id: 538523 }
+  - form: "paleniu"
+    pl: "Mówimy o paleniu w miejscach publicznych."
+    ru: "Мы говорим о курении в общественных местах."
+    source: { kind: authored }
+  - form: "palę"
+    pl: "Nie palę."
+    ru: "Я не курю."
+    source: { kind: translated, id: 3600352 }
+  - form: "palę"
+    pl: "Nie palę trawy."
+    ru: "Я не курю травку."
+    source: { kind: translated, id: 6156515 }
+  - form: "palę"
+    pl: "Nie palę i nie piję."
+    ru: "Я не курю и не пью."
+    source: { kind: translated, id: 6017168 }
+  - form: "pali"
+    pl: "Czy on pali?"
+    ru: "Он курит?"
+    source: { kind: translated, id: 11134178 }
+  - form: "pali"
+    pl: "Mój ojciec pali."
+    ru: "Мой отец курит."
+    source: { kind: translated, id: 357332 }
+  - form: "pali"
+    pl: "Drzewo łatwo się pali."
+    ru: "Дерево легко горит."
+    source: { kind: translated, id: 937891 }
+  - form: "palicie"
+    pl: "Palicie?"
+    ru: "Вы курите?"
+    source: { kind: translated, id: 8218816 }
+  - form: "palicie"
+    pl: "Jak długo już palicie?"
+    ru: "Как давно вы курите?"
+    source: { kind: translated, id: 8429239 }
+  - form: "palicie"
+    pl: "Czy palicie w domu?"
+    ru: "Вы курите дома?"
+    source: { kind: authored }
+  - form: "palić"
+    pl: "Nie wolno mu palić."
+    ru: "Ему нельзя курить."
+    source: { kind: translated, id: 2394439 }
+  - form: "palić"
+    pl: "W tym pokoju wolno palić."
+    ru: "В этой комнате можно курить."
+    source: { kind: translated, id: 2394581 }
+  - form: "palić"
+    pl: "Słyszałem, że przestałeś palić."
+    ru: "Я слышал, ты бросил курить."
+    source: { kind: translated, id: 5224125 }
+  - form: "palili"
+    pl: "Tom unikał miejsc, gdzie ludzie palili."
+    ru: "Том избегал мест, где люди курили."
+    source: { kind: translated, id: 3116533 }
+  - form: "palili"
+    pl: "Znam miasto, którego mieszkańcy nigdy nie palili papierosów."
+    ru: "Я знаю город, жители которого никогда не курили сигарет."
+    source: { kind: translated, id: 4156267 }
+  - form: "palili"
+    pl: "Palili ognisko nad rzeką."
+    ru: "Они жгли костёр у реки."
+    source: { kind: authored }
+  - form: "paliliby"
+    pl: "Paliliby mniej, gdyby wiedzieli."
+    ru: "Они курили бы меньше, если бы знали."
+    source: { kind: authored }
+  - form: "paliliby"
+    pl: "Nie paliliby w domu."
+    ru: "Они не курили бы дома."
+    source: { kind: authored }
+  - form: "paliliby"
+    pl: "Paliliby ognisko, ale pada."
+    ru: "Они жгли бы костёр, но идёт дождь."
+    source: { kind: authored }
+  - form: "palilibyście"
+    pl: "Palilibyście tutaj?"
+    ru: "Вы курили бы здесь?"
+    source: { kind: authored }
+  - form: "palilibyście"
+    pl: "Nie palilibyście przy dzieciach."
+    ru: "Вы не курили бы при детях."
+    source: { kind: authored }
+  - form: "palilibyście"
+    pl: "Palilibyście mniej bez stresu."
+    ru: "Вы курили бы меньше без стресса."
+    source: { kind: authored }
+  - form: "palilibyśmy"
+    pl: "Palilibyśmy mniej, gdyby było drożej."
+    ru: "Мы курили бы меньше, если бы было дороже."
+    source: { kind: authored }
+  - form: "palilibyśmy"
+    pl: "Nie palilibyśmy w mieszkaniu."
+    ru: "Мы не курили бы в квартире."
+    source: { kind: authored }
+  - form: "palilibyśmy"
+    pl: "Palilibyśmy ognisko co wieczór."
+    ru: "Мы жгли бы костёр каждый вечер."
+    source: { kind: authored }
+  - form: "paliliście"
+    pl: "Paliliście kiedyś?"
+    ru: "Вы когда-нибудь курили?"
+    source: { kind: authored }
+  - form: "paliliście"
+    pl: "Dlaczego paliliście w domu?"
+    ru: "Почему вы курили дома?"
+    source: { kind: authored }
+  - form: "paliliście"
+    pl: "Paliliście ognisko wczoraj?"
+    ru: "Вы вчера жгли костёр?"
+    source: { kind: authored }
+  - form: "paliliśmy"
+    pl: "Paliliśmy ognisko do rana."
+    ru: "Мы жгли костёр до утра."
+    source: { kind: authored }
+  - form: "paliliśmy"
+    pl: "Nigdy nie paliliśmy w domu."
+    ru: "Мы никогда не курили дома."
+    source: { kind: authored }
+  - form: "paliliśmy"
+    pl: "Paliliśmy dużo w młodości."
+    ru: "Мы много курили в молодости."
+    source: { kind: authored }
+  - form: "palił"
+    pl: "Tom palił."
+    ru: "Том курил."
+    source: { kind: translated, id: 3524712 }
+  - form: "palił"
+    pl: "Palił przez cały ten czas."
+    ru: "Он курил всё это время."
+    source: { kind: translated, id: 502993 }
+  - form: "palił"
+    pl: "Siedział tam i palił fajkę."
+    ru: "Он сидел там и курил трубку."
+    source: { kind: translated, id: 814446 }
+  - form: "paliła"
+    pl: "Siedziała i paliła."
+    ru: "Она сидела и курила."
+    source: { kind: translated, id: 9671438 }
+  - form: "paliła"
+    pl: "Świeczka paliła się całą noc."
+    ru: "Свечка горела всю ночь."
+    source: { kind: translated, id: 12716110 }
+  - form: "paliła"
+    pl: "Dałem jej znak, żeby nie paliła."
+    ru: "Я подал ей знак, чтобы она не курила."
+    source: { kind: translated, id: 11242452 }
+  - form: "paliłaby"
+    pl: "Paliłaby mniej, gdyby mogła."
+    ru: "Она курила бы меньше, если бы могла."
+    source: { kind: authored }
+  - form: "paliłaby"
+    pl: "Nie paliłaby przy dziecku."
+    ru: "Она не курила бы при ребёнке."
+    source: { kind: authored }
+  - form: "paliłaby"
+    pl: "Świeca paliłaby się dłużej."
+    ru: "Свеча горела бы дольше."
+    source: { kind: authored }
+  - form: "paliłabym"
+    pl: "Nie paliłabym w mieszkaniu."
+    ru: "Я не курила бы в квартире."
+    source: { kind: authored }
+  - form: "paliłabym"
+    pl: "Paliłabym mniej, gdybym mogła."
+    ru: "Я курила бы меньше, если бы могла."
+    source: { kind: authored }
+  - form: "paliłabym"
+    pl: "Paliłabym świece zamiast lampy."
+    ru: "Я жгла бы свечи вместо лампы."
+    source: { kind: authored }
+  - form: "paliłabyś"
+    pl: "Paliłabyś tutaj?"
+    ru: "Ты курила бы здесь?"
+    source: { kind: authored }
+  - form: "paliłabyś"
+    pl: "Nie paliłabyś przy dzieciach."
+    ru: "Ты не курила бы при детях."
+    source: { kind: authored }
+  - form: "paliłabyś"
+    pl: "Paliłabyś mniej bez stresu."
+    ru: "Ты курила бы меньше без стресса."
+    source: { kind: authored }
+  - form: "paliłam"
+    pl: "Nigdy nie paliłam."
+    ru: "Я никогда не курила."
+    source: { kind: translated, id: 5956212 }
+  - form: "paliłam"
+    pl: "Nigdy w życiu nie paliłam papierosa."
+    ru: "Я ни разу в жизни не курила сигарету."
+    source: { kind: translated, id: 10777135 }
+  - form: "paliłam"
+    pl: "Paliłam tylko na imprezach."
+    ru: "Я курила только на вечеринках."
+    source: { kind: authored }
+  - form: "paliłaś"
+    pl: "Paliłaś kiedyś?"
+    ru: "Ты когда-нибудь курила?"
+    source: { kind: authored }
+  - form: "paliłaś"
+    pl: "Dlaczego paliłaś w domu?"
+    ru: "Почему ты курила дома?"
+    source: { kind: authored }
+  - form: "paliłaś"
+    pl: "Paliłaś tu świece?"
+    ru: "Ты жгла тут свечи?"
+    source: { kind: authored }
+  - form: "paliłby"
+    pl: "Paliłby mniej, gdyby wiedział."
+    ru: "Он курил бы меньше, если бы знал."
+    source: { kind: authored }
+  - form: "paliłby"
+    pl: "Nie paliłby w domu."
+    ru: "Он не курил бы дома."
+    source: { kind: authored }
+  - form: "paliłby"
+    pl: "Ogień paliłby się dłużej."
+    ru: "Огонь горел бы дольше."
+    source: { kind: authored }
+  - form: "paliłbym"
+    pl: "Na twoim miejscu nie paliłbym latem ognia w lesie."
+    ru: "На твоём месте я не разводил бы летом огонь в лесу."
+    source: { kind: translated, id: 751467 }
+  - form: "paliłbym"
+    pl: "Nie paliłbym w mieszkaniu."
+    ru: "Я не курил бы в квартире."
+    source: { kind: authored }
+  - form: "paliłbym"
+    pl: "Paliłbym mniej, gdybym mógł."
+    ru: "Я курил бы меньше, если бы мог."
+    source: { kind: authored }
+  - form: "paliłbyś"
+    pl: "Paliłbyś tutaj?"
+    ru: "Ты курил бы здесь?"
+    source: { kind: authored }
+  - form: "paliłbyś"
+    pl: "Nie paliłbyś przy dzieciach."
+    ru: "Ты не курил бы при детях."
+    source: { kind: authored }
+  - form: "paliłbyś"
+    pl: "Paliłbyś mniej bez stresu."
+    ru: "Ты курил бы меньше без стресса."
+    source: { kind: authored }
+  - form: "paliłem"
+    pl: "Nigdy nie paliłem."
+    ru: "Я никогда не курил."
+    source: { kind: translated, id: 5956213 }
+  - form: "paliłem"
+    pl: "Paliłem za młodu."
+    ru: "Я курил в юности."
+    source: { kind: translated, id: 10567289 }
+  - form: "paliłem"
+    pl: "Wcześniej nie paliłem."
+    ru: "Раньше я не курил."
+    source: { kind: translated, id: 2607571 }
+  - form: "paliłeś"
+    pl: "Paliłeś?"
+    ru: "Ты курил?"
+    source: { kind: translated, id: 7893892 }
+  - form: "paliłeś"
+    pl: "Paliłeś kiedykolwiek?"
+    ru: "Ты когда-нибудь курил?"
+    source: { kind: translated, id: 3439189 }
+  - form: "paliłeś"
+    pl: "Kiedyś paliłeś, prawda?"
+    ru: "Ты ведь когда-то курил, правда?"
+    source: { kind: translated, id: 355208 }
+  - form: "paliło"
+    pl: "Paliło się."
+    ru: "Горело."
+    source: { kind: translated, id: 8755756 }
+  - form: "paliło"
+    pl: "Paliło się kilka świec."
+    ru: "Горело несколько свечей."
+    source: { kind: translated, id: 10468255 }
+  - form: "paliło"
+    pl: "W sali paliło się światło."
+    ru: "В зале горел свет."
+    source: { kind: translated, id: 959611 }
+  - form: "paliłoby"
+    pl: "Ognisko paliłoby się dłużej."
+    ru: "Костёр горел бы дольше."
+    source: { kind: authored }
+  - form: "paliłoby"
+    pl: "Światło paliłoby się całą noc."
+    ru: "Свет горел бы всю ночь."
+    source: { kind: authored }
+  - form: "paliłoby"
+    pl: "Dziecko nie paliłoby świec samo."
+    ru: "Ребёнок не жёг бы свечи сам."
+    source: { kind: authored }
+  - form: "paliły"
+    pl: "Świece paliły się na stole."
+    ru: "Свечи горели на столе."
+    source: { kind: authored }
+  - form: "paliły"
+    pl: "Kobiety paliły na balkonie."
+    ru: "Женщины курили на балконе."
+    source: { kind: authored }
+  - form: "paliły"
+    pl: "Ogniska paliły się na brzegu."
+    ru: "Костры горели на берегу."
+    source: { kind: authored }
+  - form: "paliłyby"
+    pl: "Świece paliłyby się dłużej."
+    ru: "Свечи горели бы дольше."
+    source: { kind: authored }
+  - form: "paliłyby"
+    pl: "Dziewczyny nie paliłyby przy dzieciach."
+    ru: "Девушки не курили бы при детях."
+    source: { kind: authored }
+  - form: "paliłyby"
+    pl: "Lampy paliłyby się całą noc."
+    ru: "Лампы горели бы всю ночь."
+    source: { kind: authored }
+  - form: "paliłybyście"
+    pl: "Paliłybyście tutaj?"
+    ru: "Вы курили бы здесь?"
+    source: { kind: authored }
+  - form: "paliłybyście"
+    pl: "Nie paliłybyście w domu."
+    ru: "Вы не курили бы дома."
+    source: { kind: authored }
+  - form: "paliłybyście"
+    pl: "Paliłybyście mniej bez stresu."
+    ru: "Вы курили бы меньше без стресса."
+    source: { kind: authored }
+  - form: "paliłybyśmy"
+    pl: "Nie paliłybyśmy w mieszkaniu."
+    ru: "Мы не курили бы в квартире."
+    source: { kind: authored }
+  - form: "paliłybyśmy"
+    pl: "Paliłybyśmy świece zamiast lampy."
+    ru: "Мы жгли бы свечи вместо лампы."
+    source: { kind: authored }
+  - form: "paliłybyśmy"
+    pl: "Paliłybyśmy mniej, gdybyśmy mogły."
+    ru: "Мы курили бы меньше, если бы могли."
+    source: { kind: authored }
+  - form: "paliłyście"
+    pl: "Paliłyście kiedyś?"
+    ru: "Вы когда-нибудь курили?"
+    source: { kind: authored }
+  - form: "paliłyście"
+    pl: "Dlaczego paliłyście w domu?"
+    ru: "Почему вы курили дома?"
+    source: { kind: authored }
+  - form: "paliłyście"
+    pl: "Paliłyście tu świece?"
+    ru: "Вы жгли тут свечи?"
+    source: { kind: authored }
+  - form: "paliłyśmy"
+    pl: "Nigdy nie paliłyśmy."
+    ru: "Мы никогда не курили."
+    source: { kind: authored }
+  - form: "paliłyśmy"
+    pl: "Paliłyśmy ognisko nad jeziorem."
+    ru: "Мы жгли костёр у озера."
+    source: { kind: authored }
+  - form: "paliłyśmy"
+    pl: "Paliłyśmy tylko na imprezach."
+    ru: "Мы курили только на вечеринках."
+    source: { kind: authored }
+  - form: "palimy"
+    pl: "My nie palimy podczas posiłku."
+    ru: "Мы не курим во время еды."
+    source: { kind: translated, id: 2827958 }
+  - form: "palimy"
+    pl: "Palimy ognisko co sobotę."
+    ru: "Мы жжём костёр каждую субботу."
+    source: { kind: authored }
+  - form: "palimy"
+    pl: "Nie palimy w domu."
+    ru: "Мы не курим дома."
+    source: { kind: authored }
+  - form: "palisz"
+    pl: "Palisz?"
+    ru: "Куришь?"
+    source: { kind: translated, id: 3600383 }
+  - form: "palisz"
+    pl: "Nie palisz, prawda?"
+    ru: "Ты ведь не куришь?"
+    source: { kind: translated, id: 1465651 }
+  - form: "palisz"
+    pl: "Jak długo już palisz?"
+    ru: "Как давно ты куришь?"
+    source: { kind: translated, id: 8721526 }
+  - form: "palmy"
+    pl: "Palmy ognisko na plaży."
+    ru: "Разожжём костёр на пляже."
+    source: { kind: authored }
+  - form: "palmy"
+    pl: "Nie palmy tutaj."
+    ru: "Не будем здесь курить."
+    source: { kind: authored }
+  - form: "palmy"
+    pl: "Palmy świece zamiast lampy."
+    ru: "Будем жечь свечи вместо лампы."
+    source: { kind: authored }
+  - form: "palona"
+    pl: "Kawa palona jest aromatyczna."
+    ru: "Жареный кофе ароматен."
+    source: { kind: authored }
+  - form: "palona"
+    pl: "Ta cegła jest palona."
+    ru: "Этот кирпич обожжённый."
+    source: { kind: authored }
+  - form: "palona"
+    pl: "Trawa była palona co wiosnę."
+    ru: "Траву жгли каждую весну."
+    source: { kind: authored }
+  - form: "paloną"
+    pl: "Lubię paloną kawę."
+    ru: "Я люблю жареный кофе."
+    source: { kind: authored }
+  - form: "paloną"
+    pl: "Kupił paloną cegłę."
+    ru: "Он купил обожжённый кирпич."
+    source: { kind: authored }
+  - form: "paloną"
+    pl: "Poczuł paloną gumę."
+    ru: "Он почувствовал запах жжёной резины."
+    source: { kind: authored }
+  - form: "palone"
+    pl: "Palone ziarna pachną cudownie."
+    ru: "Жареные зёрна чудесно пахнут."
+    source: { kind: authored }
+  - form: "palone"
+    pl: "Te cegły są palone."
+    ru: "Эти кирпичи обожжённые."
+    source: { kind: authored }
+  - form: "palone"
+    pl: "Liście były palone na podwórku."
+    ru: "Листья жгли во дворе."
+    source: { kind: authored }
+  - form: "palonego"
+    pl: "Nie lubię palonego cukru."
+    ru: "Я не люблю жжёный сахар."
+    source: { kind: authored }
+  - form: "palonego"
+    pl: "Szukam palonego ziarna."
+    ru: "Я ищу жареное зерно."
+    source: { kind: authored }
+  - form: "palonego"
+    pl: "Poczuł zapach palonego drewna."
+    ru: "Он почувствовал запах горящего дерева."
+    source: { kind: authored }
+  - form: "palonej"
+    pl: "Nie ma tu palonej kawy."
+    ru: "Здесь нет жареного кофе."
+    source: { kind: authored }
+  - form: "palonej"
+    pl: "Zapach palonej gumy był ostry."
+    ru: "Запах жжёной резины был резким."
+    source: { kind: authored }
+  - form: "palonej"
+    pl: "Mówili o palonej cegle."
+    ru: "Они говорили об обожжённом кирпиче."
+    source: { kind: authored }
+  - form: "palonemu"
+    pl: "Przyglądał się palonemu ognisku."
+    ru: "Он смотрел на горящий костёр."
+    source: { kind: authored }
+  - form: "palonemu"
+    pl: "Dzięki palonemu ziarnu kawa pachnie."
+    ru: "Благодаря обжаренному зерну кофе пахнет."
+    source: { kind: authored }
+  - form: "palonemu"
+    pl: "Nie ufa palonemu drewnu."
+    ru: "Он не доверяет обожжённому дереву."
+    source: { kind: authored }
+  - form: "palono"
+    pl: "Heretyków palono żywcem."
+    ru: "Еретиков сжигали заживо."
+    source: { kind: translated, id: 2947621 }
+  - form: "palono"
+    pl: "Dawniej palono świece."
+    ru: "Раньше жгли свечи."
+    source: { kind: authored }
+  - form: "palono"
+    pl: "Liście palono na podwórzu."
+    ru: "Листья жгли во дворе."
+    source: { kind: authored }
+  - form: "palony"
+    pl: "Cukier palony pachnie karmelem."
+    ru: "Жжёный сахар пахнет карамелью."
+    source: { kind: authored }
+  - form: "palony"
+    pl: "Ten dom był palony dwa razy."
+    ru: "Этот дом жгли дважды."
+    source: { kind: authored }
+  - form: "palony"
+    pl: "Palony migdał jest słodki."
+    ru: "Жареный миндаль сладкий."
+    source: { kind: authored }
+  - form: "palonych"
+    pl: "Nie lubię palonych migdałów."
+    ru: "Я не люблю жареный миндаль."
+    source: { kind: authored }
+  - form: "palonych"
+    pl: "Zapach palonych liści niósł się daleko."
+    ru: "Запах горящих листьев разносился далеко."
+    source: { kind: authored }
+  - form: "palonych"
+    pl: "Szukam palonych ziaren kawy."
+    ru: "Я ищу обжаренные кофейные зёрна."
+    source: { kind: authored }
+  - form: "palonym"
+    pl: "Mówimy o palonym drewnie."
+    ru: "Мы говорим о горящем дереве."
+    source: { kind: authored }
+  - form: "palonym"
+    pl: "W palonym ognisku trzaskały gałęzie."
+    ru: "В горящем костре трещали ветки."
+    source: { kind: authored }
+  - form: "palonym"
+    pl: "Zachwycał się palonym ziarnem."
+    ru: "Он восхищался обжаренным зерном."
+    source: { kind: authored }
+  - form: "palonymi"
+    pl: "Pachniało palonymi liśćmi."
+    ru: "Пахло горящими листьями."
+    source: { kind: authored }
+  - form: "palonymi"
+    pl: "Handluje palonymi ziarnami kawy."
+    ru: "Он торгует обжаренными кофейными зёрнами."
+    source: { kind: authored }
+  - form: "palonymi"
+    pl: "Między palonymi belkami nic nie zostało."
+    ru: "Между обгоревшими балками ничего не осталось."
+    source: { kind: authored }
