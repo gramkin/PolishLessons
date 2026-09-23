@@ -1,0 +1,112 @@
+# review
+id: stop
+format: 2
+lemma: "stop"
+rank: 1340
+pos: noun
+pron: { cyr: "стоп" }
+senses:
+  - id: alloy
+    ru: "сплав"
+    examples:
+      - pl: "Stal to stop żelaza z węglem."
+        ru: "Сталь — это сплав железа с углеродом."
+        source: { kind: translated, id: 536349 }
+      - pl: "Żeliwo jest stopem żelaza i węgla."
+        ru: "Чугун — это сплав железа и углерода."
+        source: { kind: translated, id: 1622991 }
+      - pl: "Ziemia ma jądro z ciekłego stopu żelaza i niklu."
+        ru: "У Земли ядро из жидкого сплава железа и никеля."
+        source: { kind: translated, id: 12450159 }
+  - id: stop-signal
+    ru: "стоп (сигнал, знак, команда)"
+    examples:
+      - pl: "Stop!"
+        ru: "Стоп!"
+        source: { kind: translated, id: 8608326 }
+      - pl: "Czerwone światło oznacza \"stop\"."
+        ru: "Красный свет означает «стоп»."
+        source: { kind: translated, id: 362966 }
+      - pl: "Powiedziałem stop."
+        ru: "Я сказал «стоп»."
+        source: { kind: translated, id: 10584516 }
+  - id: non-stop
+    ru: "non stop — без остановки"
+    examples:
+      - pl: "Pada non stop od trzech dni."
+        ru: "Дождь идёт без остановки три дня."
+        source: { kind: translated, id: 3152097 }
+      - pl: "Pracował non stop przez tydzień."
+        ru: "Он работал без остановки целую неделю."
+        source: { kind: authored }
+      - pl: "Muzyka grała non stop."
+        ru: "Музыка играла без остановки."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Главная ловушка: формы stopy, stopie, stopach принадлежат существительному stopa «стопа, нога» (карточка есть), а не этому слову. Само stop склоняется как stop, stopu, stopem." }
+  - { kind: usage, text: "Основное словарное значение — «сплав»: stop żelaza z węglem «сплав железа с углеродом»." }
+  - { kind: usage, text: "Второе значение заимствованное: Stop! как команда и знак «стоп», а также non stop «без остановки»." }
+  - { kind: pronunciation, text: "Односложное слово, читается «стоп», как русское. Конечное p глухое и так." }
+collocations:
+  - { pl: "stop żelaza", ru: "сплав железа" }
+  - { pl: "znak stop", ru: "знак «стоп»" }
+  - { pl: "non stop", ru: "без остановки" }
+etymology: "В значении «сплав» — от stopić «сплавить», от topić «плавить». В значении «стоп» — заимствование из английского stop. Два разных источника сошлись в одном слове."
+memory: "stop — прежде всего «сплав»: stop żelaza z węglem. Заимствованное значение — команда и знак «стоп», а также non stop. Главная ловушка: формы stopy, stopie, stopach принадлежат слову stopa «нога»."
+idioms:
+  - { pl: "stop żelaza", ru: "сплав железа" }
+  - { pl: "znak stop", ru: "знак «стоп»" }
+  - { pl: "non stop", ru: "без остановки" }
+formExamplesSkip:
+  - { form: "stopach", reason: "в корпусе эта форма принадлежит существительному stopa «стопа, нога» (карточка stopa, ранг 1058): Bolą mnie stopy, na prawej stopie tatuaż" }
+  - { form: "stopie", reason: "в корпусе эта форма принадлежит существительному stopa «стопа, нога» (карточка stopa, ранг 1058): Bolą mnie stopy, na prawej stopie tatuaż" }
+  - { form: "stopy", reason: "в корпусе эта форма принадлежит существительному stopa «стопа, нога» (карточка stopa, ранг 1058): Bolą mnie stopy, na prawej stopie tatuaż" }
+  - { form: "stopami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "stopom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "stopowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "stopów", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "stop"
+    pl: "Stop!"
+    ru: "Стоп!"
+    source: { kind: translated, id: 8608326 }
+  - form: "stop"
+    pl: "Powiedziałem stop."
+    ru: "Я сказал «стоп»."
+    source: { kind: translated, id: 10584516 }
+  - form: "stop"
+    pl: "Czerwone światło oznacza \"stop\"."
+    ru: "Красный свет означает «стоп»."
+    source: { kind: translated, id: 362966 }
+  - form: "stop"
+    pl: "Stal to stop żelaza z węglem."
+    ru: "Сталь — это сплав железа с углеродом."
+    source: { kind: translated, id: 536349 }
+  - form: "stop"
+    pl: "Pada non stop od trzech dni."
+    ru: "Дождь идёт без остановки три дня."
+    source: { kind: translated, id: 3152097 }
+  - form: "stopem"
+    pl: "Żeliwo jest stopem żelaza i węgla."
+    ru: "Чугун — это сплав железа и углерода."
+    source: { kind: translated, id: 1622991 }
+  - form: "stopem"
+    pl: "Mosiądz jest stopem miedzi i cynku."
+    ru: "Латунь — это сплав меди и цинка."
+    source: { kind: authored }
+  - form: "stopem"
+    pl: "Brąz jest stopem miedzi z cyną."
+    ru: "Бронза — это сплав меди с оловом."
+    source: { kind: authored }
+  - form: "stopu"
+    pl: "Ziemia ma jądro z ciekłego stopu żelaza i niklu."
+    ru: "У Земли ядро из жидкого сплава железа и никеля."
+    source: { kind: translated, id: 12450159 }
+  - form: "stopu"
+    pl: "Felgi są ze stopu aluminium."
+    ru: "Диски сделаны из алюминиевого сплава."
+    source: { kind: authored }
+  - form: "stopu"
+    pl: "Użyto stopu odpornego na korozję."
+    ru: "Использовали сплав, стойкий к коррозии."
+    source: { kind: authored }

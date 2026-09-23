@@ -269,6 +269,16 @@ exclude:
   # имя (Mar zraniła się w łokieć). Частотность целиком наведена именем.
   # Тот же класс, что maria и anna
   - mary
+  # имя собственное: ни значения, ни русского перевода в Wiktionary, девять форм
+  # из десяти пусты, и единственный кандидат — даже не человек, а название
+  # авиакомпании (Timuçin poleciał z Yozgatu do Warszawy liniami Ryan Air).
+  # Тот же класс, что ray, paul, harry, jim, maria
+  - ryan
+  # имя собственное: единственное значение в Wiktionary — «gw. (Górny Śląsk)
+  # imię męskie Ryszard», то есть силезская форма личного имени. Девять форм
+  # из десяти пусты, все шесть кандидатов — английское имя (Od kiedy Richard
+  # jest żonaty?, Will i Richard zazwyczaj pracują w nocy)
+  - richard
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
