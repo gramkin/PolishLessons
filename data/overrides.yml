@@ -86,6 +86,11 @@ exclude:
   # an English given name used as a Tatoeba placeholder character, not Polish
   # vocabulary; PoliMorf invents a paradigm for it (Jacka, Jackiem) — same as john
   - jack
+  # the given name Daniel, not the animal: Wiktionary glosses the lemma as the fallow
+  # deer (Dama dama), but not one corpus line is the deer — all seven are the placeholder
+  # character ("Daniel ma znajomości w branży filmowej.", "Daniela zadzwoniła do mnie do
+  # domu.") — and 8 of the 10 forms have no corpus at all. Same class as john, jack and nick.
+  - daniel
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
