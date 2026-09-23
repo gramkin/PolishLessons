@@ -1,0 +1,94 @@
+# review
+id: seria
+format: 2
+lemma: "seria"
+rank: 1057
+pos: noun
+pron: { cyr: "се́рья" }
+senses:
+  - id: series
+    ru: "серия, ряд (следующих друг за другом)"
+    examples:
+      - pl: "Seria wybuchów obróciła pracownię w ruinę."
+        ru: "Серия взрывов превратила мастерскую в руины."
+        source: { kind: translated, id: 349026 }
+      - pl: "Miałem potem całą serię nieszczęść."
+        ru: "Потом со мной случилась целая серия несчастий."
+        source: { kind: translated, id: 768801 }
+      - pl: "Przeprowadzili serię eksperymentów w nieważkości."
+        ru: "Они провели серию экспериментов в невесомости."
+        source: { kind: translated, id: 765875 }
+  - id: batch
+    ru: "серия, партия (одинаковых изделий)"
+    examples:
+      - pl: "Monety z borsukiem są osiemnastym zestawem z serii z zagrożonymi gatunkami zwierząt."
+        ru: "Монеты с барсуком — восемнадцатый набор из серии о видах животных под угрозой."
+        source: { kind: translated, id: 6155759 }
+      - pl: "Numer serii jest na opakowaniu."
+        ru: "Номер серии указан на упаковке."
+        source: { kind: authored }
+      - pl: "Wypuścili nową serię monet."
+        ru: "Выпустили новую серию монет."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Женский род на -ia: seria, serii, serię. Родительный, дательный и предложный совпадают — serii, с одним i." }
+  - { kind: false-friend, text: "Не путайте seria «серия» с serio «серьёзно, всерьёз». Это разные слова, а не падежи одного: Mówisz serio? «Ты серьёзно?»." }
+  - { kind: usage, text: "Отдельная серия сериала по-польски — odcinek. Слово seria значит «сезон» целиком либо «партия изделий»." }
+  - { kind: usage, text: "Ещё одно значение — «очередь» при стрельбе: seria z karabinu «очередь из винтовки»." }
+collocations:
+  - { pl: "seria wydarzeń", ru: "серия событий" }
+  - { pl: "numer serii", ru: "номер серии" }
+  - { pl: "cała seria", ru: "целая серия" }
+family:
+  - { pl: "seryjny", ru: "серийный", relation: derived }
+  - { pl: "serial", ru: "сериал", relation: derived }
+etymology: "Через французское série из латинского series «ряд, вереница, последовательность» — тот же источник, что у русского «серия»."
+memory: "seria — «серия, ряд, партия», женский род. Главная ловушка: serio это не падеж слова seria, а отдельное наречие «серьёзно» (Mówisz serio?). И отдельная серия сериала — не seria, а odcinek."
+idioms:
+  - { pl: "cała seria", ru: "целая серия" }
+  - { pl: "seria z karabinu", ru: "очередь из винтовки" }
+formExamplesSkip:
+  - { form: "serio", reason: "по написанию совпадает со звательным падежом, но все примеры корпуса относятся к отдельному наречию serio «серьёзно», у которого своя карточка" }
+  - { form: "seryj", reason: "устаревший вариант родительного падежа множественного числа; нормой является serii" }
+  - { form: "seriach", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "seriami", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "serie", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "seriom", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "serią", reason: "в корпусе нет примеров: творительный падеж единственного числа у этого слова редок" }
+formExamples:
+  - form: "seria"
+    pl: "Seria wybuchów obróciła pracownię w ruinę."
+    ru: "Серия взрывов превратила мастерскую в руины."
+    source: { kind: translated, id: 349026 }
+  - form: "seria"
+    pl: "Cała seria była wadliwa."
+    ru: "Вся партия оказалась бракованной."
+    source: { kind: authored }
+  - form: "seria"
+    pl: "Po wypadku zaczęła się seria kontroli."
+    ru: "После аварии началась серия проверок."
+    source: { kind: authored }
+  - form: "serię"
+    pl: "Miałem potem całą serię nieszczęść."
+    ru: "Потом со мной случилась целая серия несчастий."
+    source: { kind: translated, id: 768801 }
+  - form: "serię"
+    pl: "Przeprowadzili serię eksperymentów w nieważkości."
+    ru: "Они провели серию экспериментов в невесомости."
+    source: { kind: translated, id: 765875 }
+  - form: "serię"
+    pl: "Wypuścili nową serię monet."
+    ru: "Выпустили новую серию монет."
+    source: { kind: authored }
+  - form: "serii"
+    pl: "Monety z borsukiem są osiemnastym zestawem z serii z zagrożonymi gatunkami zwierząt."
+    ru: "Монеты с барсуком — восемнадцатый набор из серии о видах животных под угрозой."
+    source: { kind: translated, id: 6155759 }
+  - form: "serii"
+    pl: "Numer serii jest na opakowaniu."
+    ru: "Номер серии указан на упаковке."
+    source: { kind: authored }
+  - form: "serii"
+    pl: "Brakuje mi dwóch tomów z tej serii."
+    ru: "Мне не хватает двух томов из этой серии."
+    source: { kind: authored }
