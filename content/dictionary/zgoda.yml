@@ -1,0 +1,132 @@
+# review
+id: zgoda
+format: 2
+lemma: "zgoda"
+rank: 937
+pos: noun
+pron: { cyr: "зго́да" }
+senses:
+  - id: consent
+    ru: "согласие, разрешение"
+    examples:
+      - pl: "Milczenie oznacza zgodę."
+        ru: "Молчание — знак согласия."
+        source: { kind: tatoeba, id: 528440 }
+      - pl: "Udało mi się uzyskać zgodę rodziców na małżeństwo."
+        ru: "Мне удалось получить согласие родителей на брак."
+        source: { kind: tatoeba, id: 348715 }
+      - pl: "Bez twojej zgody nie zaczniemy."
+        ru: "Без твоего согласия мы не начнём."
+        source: { kind: tatoeba, id: 6467598 }
+  - id: agreed
+    ru: "Zgoda! — Согласен!, Договорились!"
+    note: "Готовая реплика согласия, отдельного глагола не нужно."
+    examples:
+      - pl: "Zgoda."
+        ru: "Согласен."
+        source: { kind: tatoeba, id: 726657 }
+      - pl: "Zgoda!"
+        ru: "Согласен!"
+        source: { kind: translated, id: 6904716 }
+      - pl: "Pełna zgoda."
+        ru: "Полное согласие."
+        source: { kind: translated, id: 536121 }
+  - id: harmony
+    ru: "w zgodzie — в согласии, в ладу"
+    examples:
+      - pl: "Żyli ze sobą w zgodzie."
+        ru: "Они жили друг с другом в согласии."
+        source: { kind: translated, id: 349219 }
+      - pl: "Jego poglądy stoją w zgodzie z moimi."
+        ru: "Его взгляды сходятся с моими."
+        source: { kind: translated, id: 2212716 }
+      - pl: "Potrzebujesz pisemnej zgody."
+        ru: "Тебе нужно письменное согласие."
+        source: { kind: translated, id: 7844149 }
+notes:
+  - { kind: usage, text: "Zgoda! в ответ значит «Согласен!, Договорились!». Это готовая реплика: глагол при ней не нужен, как и в русском «Согласен!»." }
+  - { kind: government, text: "wyrazić zgodę NA coś «дать согласие на что-то» — предлог na и винительный падеж; bez zgody «без согласия» — родительный." }
+  - { kind: usage, text: "żyć w zgodzie — «жить в согласии, в ладу»; być w zgodzie z czymś — «соответствовать чему-то»." }
+  - { kind: usage, text: "Глаголы того же гнезда уже знакомы: zgadzać się и zgodzić się «соглашаться». Отрицание — niezgoda «раздор»: Zgoda buduje, niezgoda rujnuje." }
+collocations:
+  - { pl: "zgoda!", ru: "согласен!" }
+  - { pl: "wyrazić zgodę", ru: "дать согласие" }
+  - { pl: "bez zgody", ru: "без согласия" }
+  - { pl: "żyć w zgodzie", ru: "жить в согласии" }
+family:
+  - { pl: "zgadzać się", ru: "соглашаться", relation: root, id: zgadzac }
+  - { pl: "zgodzić się", ru: "согласиться", relation: root, id: zgodzic }
+  - { pl: "niezgoda", ru: "раздор", relation: antonym }
+etymology: "От zgodzić się «согласиться», того же корня, что godzić «мирить» и godny «достойный». Русское «согласие» собрано иначе, от «голоса», но смысл совпал."
+memory: "zgoda — «согласие», и как реплика Zgoda! значит «Договорились!». Управление: wyrazić zgodę NA coś, с предлогом na. Оборот żyć w zgodzie — «жить в ладу». Глаголы гнезда вы уже знаете: zgadzać się и zgodzić się."
+idioms:
+  - { pl: "zgoda!", ru: "согласен!" }
+  - { pl: "wyrazić zgodę", ru: "дать согласие" }
+  - { pl: "zgoda buduje, niezgoda rujnuje", ru: "согласие созидает, раздор разрушает" }
+formExamplesSkip:
+  - { form: "zgód", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
+  - { form: "zgodach", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
+  - { form: "zgodami", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
+  - { form: "zgodom", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
+  - { form: "zgodo", reason: "звательный падеж: к согласию не обращаются, форма не встречается" }
+formExamples:
+  - form: "zgoda"
+    pl: "Zgoda."
+    ru: "Согласен."
+    source: { kind: tatoeba, id: 726657 }
+  - form: "zgoda"
+    pl: "Zgoda!"
+    ru: "Согласен!"
+    source: { kind: translated, id: 6904716 }
+  - form: "zgoda"
+    pl: "Pełna zgoda."
+    ru: "Полное согласие."
+    source: { kind: translated, id: 536121 }
+  - form: "zgodą"
+    pl: "Działał za zgodą rodziców."
+    ru: "Он действовал с согласия родителей."
+    source: { kind: authored }
+  - form: "zgodą"
+    pl: "Między zgodą a milczeniem jest różnica."
+    ru: "Между согласием и молчанием есть разница."
+    source: { kind: authored }
+  - form: "zgodą"
+    pl: "Ucieszył się jej zgodą."
+    ru: "Он обрадовался её согласию."
+    source: { kind: authored }
+  - form: "zgodę"
+    pl: "Milczenie oznacza zgodę."
+    ru: "Молчание — знак согласия."
+    source: { kind: tatoeba, id: 528440 }
+  - form: "zgodę"
+    pl: "Udało mi się uzyskać zgodę rodziców na małżeństwo."
+    ru: "Мне удалось получить согласие родителей на брак."
+    source: { kind: tatoeba, id: 348715 }
+  - form: "zgodę"
+    pl: "Wyraziłem zgodę."
+    ru: "Я выразил согласие."
+    source: { kind: translated, id: 8617531 }
+  - form: "zgody"
+    pl: "Bez twojej zgody nie zaczniemy."
+    ru: "Без твоего согласия мы не начнём."
+    source: { kind: tatoeba, id: 6467598 }
+  - form: "zgody"
+    pl: "Potrzebujesz pisemnej zgody."
+    ru: "Тебе нужно письменное согласие."
+    source: { kind: translated, id: 7844149 }
+  - form: "zgody"
+    pl: "Potrzebuje pan pisemnej zgody."
+    ru: "Вам нужно письменное согласие."
+    source: { kind: translated, id: 7844150 }
+  - form: "zgodzie"
+    pl: "Żyli ze sobą w zgodzie."
+    ru: "Они жили друг с другом в согласии."
+    source: { kind: translated, id: 349219 }
+  - form: "zgodzie"
+    pl: "Jego poglądy stoją w zgodzie z moimi."
+    ru: "Его взгляды сходятся с моими."
+    source: { kind: translated, id: 2212716 }
+  - form: "zgodzie"
+    pl: "On jest w zgodzie, z wszystkimi uczniami z klasy."
+    ru: "Он в ладу со всеми учениками класса."
+    source: { kind: translated, id: 749502 }
