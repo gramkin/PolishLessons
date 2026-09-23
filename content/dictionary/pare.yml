@@ -1,0 +1,92 @@
+# review
+id: pare
+format: 2
+lemma: "parę"
+rank: 849
+pos: num
+pron: { cyr: "па́рэ" }
+senses:
+  - id: a-few
+    ru: "несколько, пара (о небольшом числе)"
+    note: "Числительное значит «несколько», а не ровно два."
+    examples:
+      - pl: "Daj mi parę dni."
+        ru: "Дай мне пару дней."
+        source: { kind: tatoeba, id: 13106673 }
+      - pl: "W szufladzie znalazłam tylko parę świec."
+        ru: "В выдвижном ящике я нашла только пару свечей."
+        source: { kind: tatoeba, id: 6406107 }
+      - pl: "Zamówiliśmy parę nowych książek z zagranicy."
+        ru: "Мы заказали несколько новых книг из-за границы."
+        source: { kind: tatoeba, id: 2900632 }
+  - id: oblique
+    ru: "paru — несколько (косвенные падежи и мужской род)"
+    examples:
+      - pl: "Potrzebujemy paru minut."
+        ru: "Нам нужно несколько минут."
+        source: { kind: translated, id: 7703691 }
+      - pl: "Nauczyłem się paru rzeczy."
+        ru: "Я научился нескольким вещам."
+        source: { kind: translated, id: 11610890 }
+      - pl: "Spotkałam paru wędrowców na górze."
+        ru: "Я встретила нескольких путников в горах."
+        source: { kind: translated, id: 12180493 }
+notes:
+  - { kind: false-friend, text: "parę значит «несколько», а не обязательно «пара, два». Daj mi parę dni — «Дай мне несколько дней», а не «ровно два дня». Русское «пару дней» в разговорной речи ведёт себя так же." }
+  - { kind: government, text: "После parę идёт родительный падеж множественного числа: parę dni, parę osób, parę razy." }
+  - { kind: usage, text: "Форма paru употребляется в косвенных падежах и с мужским лицом: potrzebujemy paru minut, spotkałem paru kolegów." }
+  - { kind: usage, text: "Не путайте с существительным para «пара, чета» (para butów «пара обуви») и para «пар». У числительного значение размытое — «сколько-то»." }
+collocations:
+  - { pl: "parę dni", ru: "несколько дней" }
+  - { pl: "parę razy", ru: "несколько раз" }
+  - { pl: "parę osób", ru: "несколько человек" }
+  - { pl: "za parę minut", ru: "через несколько минут" }
+family:
+  - { pl: "para", ru: "пара", relation: root }
+  - { pl: "paręnaście", ru: "с десяток с лишним", relation: derived }
+  - { pl: "parokrotnie", ru: "неоднократно", relation: derived }
+etymology: "Винительный падеж от para «пара», а то — через немецкое посредство из латинского par «равный». Русское «пара» — то же слово, и разговорное «пару дней» развилось так же."
+memory: "parę — «несколько», а не «ровно два»: Daj mi parę dni «Дай мне несколько дней». Требует родительного множественного: parę razy, parę osób. В косвенных падежах и с мужским лицом — paru: potrzebujemy paru minut."
+idioms:
+  - { pl: "parę dni", ru: "несколько дней" }
+  - { pl: "parę razy", ru: "несколько раз" }
+  - { pl: "za parę minut", ru: "через несколько минут" }
+formExamplesSkip:
+  - { form: "paro", reason: "это звательная форма существительного para «пара», а не числительного" }
+formExamples:
+  - form: "parę"
+    pl: "Daj mi parę dni."
+    ru: "Дай мне пару дней."
+    source: { kind: tatoeba, id: 13106673 }
+  - form: "parę"
+    pl: "W szufladzie znalazłam tylko parę świec."
+    ru: "В выдвижном ящике я нашла только пару свечей."
+    source: { kind: tatoeba, id: 6406107 }
+  - form: "parę"
+    pl: "Zamówiliśmy parę nowych książek z zagranicy."
+    ru: "Мы заказали несколько новых книг из-за границы."
+    source: { kind: tatoeba, id: 2900632 }
+  - form: "paroma"
+    pl: "Rozmawiał z paroma osobami."
+    ru: "Он поговорил с несколькими людьми."
+    source: { kind: authored }
+  - form: "paroma"
+    pl: "Przyszedł z paroma kolegami."
+    ru: "Он пришёл с несколькими приятелями."
+    source: { kind: authored }
+  - form: "paroma"
+    pl: "Zajął się paroma sprawami naraz."
+    ru: "Он занялся несколькими делами сразу."
+    source: { kind: authored }
+  - form: "paru"
+    pl: "Potrzebujemy paru minut."
+    ru: "Нам нужно несколько минут."
+    source: { kind: translated, id: 7703691 }
+  - form: "paru"
+    pl: "Nauczyłem się paru rzeczy."
+    ru: "Я научился нескольким вещам."
+    source: { kind: translated, id: 11610890 }
+  - form: "paru"
+    pl: "Spotkałam paru wędrowców na górze."
+    ru: "Я встретила нескольких путников в горах."
+    source: { kind: translated, id: 12180493 }

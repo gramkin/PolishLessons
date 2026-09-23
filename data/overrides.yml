@@ -5,6 +5,9 @@ forms:
 add:
   - { lemma: siebie, pos: pron, forms: [siebie, sobie, sobą] }
 exclude:
+  # имя собственное: единственная форма — личное имя (Joe wygladal wczoraj
+  # na smutnego, To pan White dal Joe'mu ten bilet)
+  - joe
   # имя собственное: все кандидаты — личное имя (Nazywam sie James, Jim to
   # skrocona wersja imienia James), косвенные формы пусты
   - james
