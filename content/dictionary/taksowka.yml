@@ -1,0 +1,139 @@
+# review
+id: taksowka
+format: 2
+lemma: "taksówka"
+rank: 1785
+pos: noun
+pron: { cyr: "таксу́фка" }
+senses:
+  - id: taxi
+    ru: "такси"
+    examples:
+      - pl: "Taksówka czeka."
+        ru: "Такси ждёт."
+        source: { kind: translated, id: 8762881 }
+      - pl: "Taksówka przyjechała."
+        ru: "Такси приехало."
+        source: { kind: translated, id: 534107 }
+      - pl: "Taksówka jest droższa niż autobus."
+        ru: "Такси дороже автобуса."
+        source: { kind: translated, id: 8178518 }
+  - id: take-taxi
+    ru: "такси (взять, ехать на такси)"
+    examples:
+      - pl: "Weźmy taksówkę."
+        ru: "Давай возьмём такси."
+        source: { kind: tatoeba, id: 888195 }
+      - pl: "Weź taksówkę do hotelu."
+        ru: "Возьми такси до отеля."
+        source: { kind: tatoeba, id: 382581 }
+      - pl: "Jadę taksówką."
+        ru: "Я еду на такси."
+        source: { kind: translated, id: 8509103 }
+notes:
+  - { kind: false-friend, text: "Главное отличие от русского: taksówka склоняется как обычное существительное женского рода, а русское «такси» не склоняется вовсе. Wezmę taksówkę, jadę taksówką, wysiadłem z taksówki." }
+  - { kind: government, text: "На такси — taksówką (творительный падеж): pojedziemy taksówką. Взять такси — wziąć taksówkę (винительный)." }
+  - { kind: usage, text: "Водитель — taksówkarz или kierowca taksówki; стоянка — postój taksówek." }
+  - { kind: usage, text: "Слово образовано от taksa «такса, тариф» с уменьшительным суффиксом -ówka, как и русское «таксомотор» в старину." }
+collocations:
+  - { pl: "wziąć taksówkę", ru: "взять такси" }
+  - { pl: "jechać taksówką", ru: "ехать на такси" }
+  - { pl: "postój taksówek", ru: "стоянка такси" }
+family:
+  - { pl: "taksówkarz", ru: "таксист", relation: root }
+  - { pl: "samochód", ru: "машина", relation: root, id: samochod }
+etymology: "От taksa «такса, тариф» с суффиксом -ówka. Русское «такси» — усечение французского taximètre, поэтому оно не склоняется, а польское слово склоняется полностью."
+memory: "taksówka — «такси», но в отличие от русского оно склоняется: wezmę taksówkę, jadę taksówką, wysiadłem z taksówki. Таксист — taksówkarz."
+idioms:
+  - { pl: "wziąć taksówkę", ru: "взять такси" }
+  - { pl: "jechać taksówką", ru: "ехать на такси" }
+  - { pl: "postój taksówek", ru: "стоянка такси" }
+formExamplesSkip:
+  - { form: "taksówkach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "taksówko", reason: "звательная форма, в корпусе примеров нет" }
+  - { form: "taksówkom", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "taksówce"
+    pl: "To było nieostrożne z twojej strony, żeby zostawić aparat w taksówce."
+    ru: "С твоей стороны было неосторожно оставить фотоаппарат в такси."
+    source: { kind: translated, id: 7782780 }
+  - form: "taksówce"
+    pl: "Zapomniałem parasola w taksówce."
+    ru: "Я забыл зонт в такси."
+    source: { kind: authored }
+  - form: "taksówce"
+    pl: "W taksówce było bardzo ciepło."
+    ru: "В такси было очень тепло."
+    source: { kind: authored }
+  - form: "taksówek"
+    pl: "Nie wsiadaj do fałszywych taksówek."
+    ru: "Не садись в поддельные такси."
+    source: { kind: translated, id: 970728 }
+  - form: "taksówek"
+    pl: "Musiałem iść pieszo, bo nie było taksówek."
+    ru: "Мне пришлось идти пешком, потому что такси не было."
+    source: { kind: translated, id: 2120210 }
+  - form: "taksówek"
+    pl: "Dlaczego dzisiaj nie ma taksówek przy stacji?"
+    ru: "Почему сегодня у станции нет такси?"
+    source: { kind: translated, id: 531911 }
+  - form: "taksówka"
+    pl: "Taksówka czeka."
+    ru: "Такси ждёт."
+    source: { kind: translated, id: 8762881 }
+  - form: "taksówka"
+    pl: "Taksówka przyjechała."
+    ru: "Такси приехало."
+    source: { kind: translated, id: 534107 }
+  - form: "taksówka"
+    pl: "Taksówka jest droższa niż autobus."
+    ru: "Такси дороже автобуса."
+    source: { kind: translated, id: 8178518 }
+  - form: "taksówkami"
+    pl: "Jeździ się tu taksówkami? Tak, jeździ się."
+    ru: "Здесь ездят на такси? Да, ездят."
+    source: { kind: translated, id: 695717 }
+  - form: "taksówkami"
+    pl: "Nie jeżdżę taksówkami, chyba że jest to absolutnie konieczne."
+    ru: "Я не езжу на такси, разве что это совершенно необходимо."
+    source: { kind: translated, id: 510063 }
+  - form: "taksówkami"
+    pl: "Turyści jeżdżą tu taksówkami."
+    ru: "Туристы ездят здесь на такси."
+    source: { kind: authored }
+  - form: "taksówką"
+    pl: "Jadę taksówką."
+    ru: "Я еду на такси."
+    source: { kind: translated, id: 8509103 }
+  - form: "taksówką"
+    pl: "Pojadę taksówką."
+    ru: "Я поеду на такси."
+    source: { kind: translated, id: 8509101 }
+  - form: "taksówką"
+    pl: "Pojechałem taksówką, bo padało."
+    ru: "Я поехал на такси, потому что шёл дождь."
+    source: { kind: translated, id: 360289 }
+  - form: "taksówkę"
+    pl: "Weźmy taksówkę."
+    ru: "Давай возьмём такси."
+    source: { kind: tatoeba, id: 888195 }
+  - form: "taksówkę"
+    pl: "Wezmę taksówkę."
+    ru: "Я возьму такси."
+    source: { kind: translated, id: 8511381 }
+  - form: "taksówkę"
+    pl: "Weź taksówkę do hotelu."
+    ru: "Возьми такси до отеля."
+    source: { kind: tatoeba, id: 382581 }
+  - form: "taksówki"
+    pl: "Wysiadłem z taksówki."
+    ru: "Я вышел из такси."
+    source: { kind: translated, id: 357022 }
+  - form: "taksówki"
+    pl: "Został kierowcą taksówki."
+    ru: "Он стал водителем такси."
+    source: { kind: translated, id: 9686178 }
+  - form: "taksówki"
+    pl: "Dlaczego nie wziąłeś taksówki?"
+    ru: "Почему ты не взял такси?"
+    source: { kind: translated, id: 8444369 }

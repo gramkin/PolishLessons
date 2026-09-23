@@ -487,6 +487,12 @@ exclude:
   # имя собственное: 9 из 10 форм пусты, все восемь кандидатов — личное имя
   # (Ted dlugo na nia czekal, Ted lubi grac na trabce). Класс peter, leo, emma
   - ted
+  # дубль уже существующей карточки, а не омоним: ranked.json содержит
+  # pospieszyc под рангом 1507 с леммой "pospieszyć" и карточкой format 2,
+  # а здесь лемма "pośpieszyć" — тот же глагол в варианте написания через ś.
+  # Все кандидаты — Pospiesz sie!, то же значение, что у карточки 1507.
+  # Класс graca и kapitana: настоящая лемма уже описана под лучшим рангом
+  - pospieszyc-2
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
