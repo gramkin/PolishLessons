@@ -111,6 +111,11 @@ exclude:
   # the corpus -- not a second word, just a second way of writing the first;
   # okej.yml already documents the okej / OK / ok variants.
   - okay
+  # a given name, like the already-excluded charlie, john, jack and michael.
+  # Every candidate is the name, the paradigm is contaminated with the English
+  # forms Ann and Annie, the harvested idioms are all swieta Anna weather
+  # proverbs, and the harvested etymology belongs to an asteroid named Anna.
+  - anna
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

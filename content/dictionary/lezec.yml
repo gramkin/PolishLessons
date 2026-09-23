@@ -1,0 +1,694 @@
+# review
+id: lezec
+format: 2
+lemma: "leżeć"
+rank: 787
+pos: verb
+aspect: imperf
+pron: { cyr: "ле́жець" }
+senses:
+  - id: lie
+    ru: "лежать"
+    examples:
+      - pl: "Tom leży w łóżku."
+        ru: "Том лежит в постели."
+        source: { kind: tatoeba, id: 8768452 }
+      - pl: "Klucz leży na stole."
+        ru: "Ключ лежит на столе."
+        source: { kind: tatoeba, id: 1925937 }
+      - pl: "Leżę na moim łóżku."
+        ru: "Я лежу на своей кровати."
+        source: { kind: translated, id: 6157533 }
+  - id: in-bed
+    ru: "leżeć w łóżku — лежать в постели"
+    examples:
+      - pl: "Musiał leżeć w łóżku."
+        ru: "Ему пришлось лежать в постели."
+        source: { kind: translated, id: 450809 }
+      - pl: "Nie możesz leżeć w łóżku."
+        ru: "Тебе нельзя лежать в постели."
+        source: { kind: translated, id: 744077 }
+      - pl: "Leżałem w łóżku z grypą."
+        ru: "Я лежал в постели с гриппом."
+        source: { kind: translated, id: 933063 }
+  - id: fit
+    ru: "dobrze leżeć — хорошо сидеть (об одежде)"
+    note: "Поляк говорит «лежит» там, где русский — «сидит»."
+    examples:
+      - pl: "Czy dobrze leżą?"
+        ru: "Хорошо сидят?"
+        source: { kind: translated, id: 1133620 }
+      - pl: "Ta marynarka dobrze na tobie leży."
+        ru: "Этот пиджак хорошо на тебе сидит."
+        source: { kind: authored }
+      - pl: "Spodnie źle leżą w pasie."
+        ru: "Брюки плохо сидят в поясе."
+        source: { kind: authored }
+  - id: lie-on
+    ru: "leżeć na stole — лежать на столе"
+    examples:
+      - pl: "Na stole leżało dużo pieniędzy."
+        ru: "На столе лежало много денег."
+        source: { kind: tatoeba, id: 8658899 }
+      - pl: "Na półkach leżały bele aksamitu."
+        ru: "На полках лежали кипы бархата."
+        source: { kind: tatoeba, id: 6155819 }
+      - pl: "Jezioro leżało tuż obok jego domu."
+        ru: "Озеро лежало совсем рядом с его домом."
+        source: { kind: translated, id: 533671 }
+notes:
+  - { kind: false-friend, text: "Об одежде поляк говорит leżeć «лежать» там, где русский говорит «сидеть»: Ta marynarka dobrze leży «Этот пиджак хорошо сидит», Czy dobrze leżą? «Хорошо сидят?» — про брюки или туфли." }
+  - { kind: government, text: "leżeć NA czymś и leżeć W czymś — оба с предложным падежом: leżeć na stole, leżeć na plecach, leżeć w łóżku." }
+  - { kind: usage, text: "Идиомы: leżeć do góry brzuchem «лежать кверху брюхом, бездельничать», leżeć na sercu «лежать на сердце, заботить», leżeć odłogiem «лежать без дела»." }
+  - { kind: usage, text: "Не путайте leżeć «лежать» (состояние) и położyć «положить» (действие) — пара устроена как русская «лежать — положить». Родня: łóżko «кровать», łoże «ложе», leżak «шезлонг»." }
+collocations:
+  - { pl: "leżeć w łóżku", ru: "лежать в постели" }
+  - { pl: "leżeć na stole", ru: "лежать на столе" }
+  - { pl: "dobrze leżeć", ru: "хорошо сидеть" }
+  - { pl: "leżeć na plecach", ru: "лежать на спине" }
+family:
+  - { pl: "łóżko", ru: "кровать", relation: derived }
+  - { pl: "łoże", ru: "ложе", relation: derived }
+  - { pl: "położyć", ru: "положить", relation: root }
+  - { pl: "leżak", ru: "шезлонг", relation: derived }
+etymology: "Праславянское *ležati — то же слово, что русское «лежать»; отсюда же łóżko «кровать» и łoże «ложе»."
+memory: "leżeć — «лежать», слово то же самое. Главное отличие всплывает в разговоре об одежде: поляк говорит Ta marynarka dobrze leży — буквально «пиджак хорошо лежит» — там, где русский скажет «хорошо сидит». И возьмите две идиомы: leżeć do góry brzuchem «лежать кверху брюхом» и leżeć na sercu «лежать на сердце, заботить»."
+idioms:
+  - { pl: "dobrze leżeć", ru: "хорошо сидеть (об одежде)" }
+  - { pl: "leżeć do góry brzuchem", ru: "лежать кверху брюхом" }
+  - { pl: "leżeć na sercu", ru: "лежать на сердце" }
+formExamplesSkip:
+  - { form: "leżano", reason: "безличной формы у этого глагола нет: лежат сами, безличное «лежалось» не употребляется" }
+formExamples:
+  - form: "leż"
+    pl: "Leż!"
+    ru: "Лежать!"
+    source: { kind: translated, id: 8617235 }
+  - form: "leż"
+    pl: "Leż spokojnie."
+    ru: "Лежи спокойно."
+    source: { kind: translated, id: 5627142 }
+  - form: "leż"
+    pl: "Leż i odpoczywaj."
+    ru: "Лежи и отдыхай."
+    source: { kind: authored }
+  - form: "leżał"
+    pl: "Leżał na plecach."
+    ru: "Он лежал на спине."
+    source: { kind: translated, id: 3616077 }
+  - form: "leżał"
+    pl: "Tom leżał na wznak."
+    ru: "Том лежал навзничь."
+    source: { kind: translated, id: 968989 }
+  - form: "leżał"
+    pl: "Klucz leżał na stole."
+    ru: "Ключ лежал на столе."
+    source: { kind: authored }
+  - form: "leżała"
+    pl: "Z jakiegoś powodu książka, której szukałam, leżała na półce z czasopismami."
+    ru: "По какой-то причине книга, которую я искала, лежала на полке с журналами."
+    source: { kind: tatoeba, id: 7960576 }
+  - form: "leżała"
+    pl: "Leżała w łóżku na brzuchu."
+    ru: "Она лежала в кровати на животе."
+    source: { kind: translated, id: 590552 }
+  - form: "leżała"
+    pl: "Książka leżała na półce."
+    ru: "Книга лежала на полке."
+    source: { kind: authored }
+  - form: "leżałaby"
+    pl: "Leżałaby na plaży cały dzień."
+    ru: "Она лежала бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałaby"
+    pl: "Nie leżałaby na zimnej ziemi."
+    ru: "Она не лежала бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałaby"
+    pl: "Książka leżałaby na półce."
+    ru: "Книга лежала бы на полке."
+    source: { kind: authored }
+  - form: "leżałabym"
+    pl: "Leżałabym na plaży cały dzień."
+    ru: "Я лежала бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałabym"
+    pl: "Nie leżałabym na zimnej ziemi."
+    ru: "Я не лежала бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałabym"
+    pl: "Leżałabym dłużej, gdyby było ciepło."
+    ru: "Я лежала бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałabyś"
+    pl: "Leżałabyś na plaży cały dzień?"
+    ru: "Ты лежала бы на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałabyś"
+    pl: "Nie leżałabyś na zimnej ziemi."
+    ru: "Ты не лежала бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałabyś"
+    pl: "Leżałabyś dłużej, gdyby było ciepło."
+    ru: "Ты лежала бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałam"
+    pl: "Leżałam na plecach i patrzyłam na chmury."
+    ru: "Я лежала на спине и смотрела на облака."
+    source: { kind: tatoeba, id: 6300556 }
+  - form: "leżałam"
+    pl: "Leżałam w łóżku z gorączką."
+    ru: "Я лежала в постели с температурой."
+    source: { kind: authored }
+  - form: "leżałam"
+    pl: "Leżałam na trawie i patrzyłam w niebo."
+    ru: "Я лежала на траве и смотрела в небо."
+    source: { kind: authored }
+  - form: "leżałaś"
+    pl: "Leżałaś na plaży cały dzień?"
+    ru: "Ты лежала на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałaś"
+    pl: "Długo tak leżałaś."
+    ru: "Ты долго так лежала."
+    source: { kind: authored }
+  - form: "leżałaś"
+    pl: "Leżałaś z grypą tydzień."
+    ru: "Ты лежала с гриппом неделю."
+    source: { kind: authored }
+  - form: "leżałby"
+    pl: "Leżałby na plaży cały dzień."
+    ru: "Он лежал бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałby"
+    pl: "Nie leżałby na zimnej ziemi."
+    ru: "Он не лежал бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałby"
+    pl: "Klucz leżałby na stole."
+    ru: "Ключ лежал бы на столе."
+    source: { kind: authored }
+  - form: "leżałbym"
+    pl: "Leżałbym na plaży cały dzień."
+    ru: "Я лежал бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałbym"
+    pl: "Nie leżałbym na zimnej ziemi."
+    ru: "Я не лежал бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałbym"
+    pl: "Leżałbym dłużej, gdyby było ciepło."
+    ru: "Я лежал бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałbyś"
+    pl: "Leżałbyś na plaży cały dzień?"
+    ru: "Ты лежал бы на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałbyś"
+    pl: "Nie leżałbyś na zimnej ziemi."
+    ru: "Ты не лежал бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałbyś"
+    pl: "Leżałbyś dłużej, gdyby było ciepło."
+    ru: "Ты лежал бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałem"
+    pl: "Leżałem."
+    ru: "Я лежал."
+    source: { kind: translated, id: 8730429 }
+  - form: "leżałem"
+    pl: "Leżałem w łóżku z grypą."
+    ru: "Я лежал в постели с гриппом."
+    source: { kind: translated, id: 933063 }
+  - form: "leżałem"
+    pl: "Leżałem na plecach."
+    ru: "Я лежал на спине."
+    source: { kind: authored }
+  - form: "leżałeś"
+    pl: "Leżałeś na plaży cały dzień?"
+    ru: "Ты лежал на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałeś"
+    pl: "Długo tak leżałeś."
+    ru: "Ты долго так лежал."
+    source: { kind: authored }
+  - form: "leżałeś"
+    pl: "Leżałeś z grypą tydzień."
+    ru: "Ты лежал с гриппом неделю."
+    source: { kind: authored }
+  - form: "leżało"
+    pl: "Na stole leżało dużo pieniędzy."
+    ru: "На столе лежало много денег."
+    source: { kind: tatoeba, id: 8658899 }
+  - form: "leżało"
+    pl: "Jezioro leżało tuż obok jego domu."
+    ru: "Озеро лежало совсем рядом с его домом."
+    source: { kind: translated, id: 533671 }
+  - form: "leżało"
+    pl: "Dziecko leżało na kocu."
+    ru: "Ребёнок лежал на одеяле."
+    source: { kind: authored }
+  - form: "leżałoby"
+    pl: "Dziecko leżałoby na kocu."
+    ru: "Ребёнок лежал бы на одеяле."
+    source: { kind: authored }
+  - form: "leżałoby"
+    pl: "Wszystko leżałoby na swoim miejscu."
+    ru: "Всё лежало бы на своём месте."
+    source: { kind: authored }
+  - form: "leżałoby"
+    pl: "Jezioro leżałoby tuż za lasem."
+    ru: "Озеро лежало бы сразу за лесом."
+    source: { kind: authored }
+  - form: "leżały"
+    pl: "Na półkach leżały bele aksamitu."
+    ru: "На полках лежали кипы бархата."
+    source: { kind: tatoeba, id: 6155819 }
+  - form: "leżały"
+    pl: "Wszędzie na podłodze leżały płatki."
+    ru: "Повсюду на полу лежали хлопья."
+    source: { kind: translated, id: 7710794 }
+  - form: "leżały"
+    pl: "Książki leżały na podłodze."
+    ru: "Книги лежали на полу."
+    source: { kind: authored }
+  - form: "leżałyby"
+    pl: "Książki leżałyby na półce."
+    ru: "Книги лежали бы на полке."
+    source: { kind: authored }
+  - form: "leżałyby"
+    pl: "Nie leżałyby na zimnej ziemi."
+    ru: "Они не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałyby"
+    pl: "Rzeczy leżałyby tam, gdzie je zostawiono."
+    ru: "Вещи лежали бы там, где их оставили."
+    source: { kind: authored }
+  - form: "leżałybyście"
+    pl: "Leżałybyście na plaży cały dzień?"
+    ru: "Вы лежали бы на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałybyście"
+    pl: "Nie leżałybyście na zimnej ziemi."
+    ru: "Вы не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałybyście"
+    pl: "Leżałybyście dłużej, gdyby było ciepło."
+    ru: "Вы лежали бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałybyśmy"
+    pl: "Leżałybyśmy na plaży cały dzień."
+    ru: "Мы лежали бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałybyśmy"
+    pl: "Nie leżałybyśmy na zimnej ziemi."
+    ru: "Мы не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżałybyśmy"
+    pl: "Leżałybyśmy dłużej, gdyby było ciepło."
+    ru: "Мы лежали бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżałyście"
+    pl: "Leżałyście na plaży cały dzień?"
+    ru: "Вы лежали на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżałyście"
+    pl: "Długo tak leżałyście."
+    ru: "Вы долго так лежали."
+    source: { kind: authored }
+  - form: "leżałyście"
+    pl: "Leżałyście z grypą tydzień."
+    ru: "Вы лежали с гриппом неделю."
+    source: { kind: authored }
+  - form: "leżałyśmy"
+    pl: "Leżałyśmy na plaży cały dzień."
+    ru: "Мы лежали на пляже весь день."
+    source: { kind: authored }
+  - form: "leżałyśmy"
+    pl: "Leżałyśmy na trawie i rozmawiałyśmy."
+    ru: "Мы лежали на траве и разговаривали."
+    source: { kind: authored }
+  - form: "leżałyśmy"
+    pl: "Leżałyśmy z grypą tydzień."
+    ru: "Мы лежали с гриппом неделю."
+    source: { kind: authored }
+  - form: "leżą"
+    pl: "Chciałbyś może jeszcze dostać klucz do mieszkania, w którym leżą pieniądze?"
+    ru: "Может быть, тебе дать ещё ключ от квартиры, где деньги лежат?"
+    source: { kind: tatoeba, id: 1501496 }
+  - form: "leżą"
+    pl: "Czy dobrze leżą?"
+    ru: "Хорошо сидят?"
+    source: { kind: translated, id: 1133620 }
+  - form: "leżą"
+    pl: "Rzeczy leżą tam, gdzie je zostawiłeś."
+    ru: "Вещи лежат там, где ты их оставил."
+    source: { kind: authored }
+  - form: "leżąc"
+    pl: "Doskonale nauczył się języka angielskiego leżąc na sofie i pijąc piwo."
+    ru: "Он прекрасно выучил английский, лёжа на диване и попивая пиво."
+    source: { kind: translated, id: 3806040 }
+  - form: "leżąc"
+    pl: "Leżąc na plecach, patrzył w sufit."
+    ru: "Лёжа на спине, он смотрел в потолок."
+    source: { kind: authored }
+  - form: "leżąc"
+    pl: "Nie czytaj leżąc."
+    ru: "Не читай лёжа."
+    source: { kind: authored }
+  - form: "leżąca"
+    pl: "Leżąca na stole książka była otwarta."
+    ru: "Лежащая на столе книга была раскрыта."
+    source: { kind: authored }
+  - form: "leżąca"
+    pl: "To figura leżąca, nie stojąca."
+    ru: "Это фигура лежащая, а не стоящая."
+    source: { kind: authored }
+  - form: "leżąca"
+    pl: "Leżąca obok gazeta zniknęła."
+    ru: "Лежавшая рядом газета исчезла."
+    source: { kind: authored }
+  - form: "leżącą"
+    pl: "Wracając do domu, natrafiłem na martwą kunę, leżącą na środku chodnika."
+    ru: "По пути домой я наткнулся на мёртвую куницу, лежащую посреди тротуара."
+    source: { kind: tatoeba, id: 12471289 }
+  - form: "leżącą"
+    pl: "Zauważył leżącą na ławce gazetę."
+    ru: "Он заметил лежащую на скамейке газету."
+    source: { kind: authored }
+  - form: "leżącą"
+    pl: "Podniósł leżącą na ziemi monetę."
+    ru: "Он поднял лежащую на земле монету."
+    source: { kind: authored }
+  - form: "leżące"
+    pl: "Leżące na podłodze rzeczy trzeba posprzątać."
+    ru: "Лежащие на полу вещи надо убрать."
+    source: { kind: authored }
+  - form: "leżące"
+    pl: "Miejsca leżące są droższe."
+    ru: "Лежачие места дороже."
+    source: { kind: authored }
+  - form: "leżące"
+    pl: "Leżące odłogiem pola zarosły."
+    ru: "Лежащие под паром поля заросли."
+    source: { kind: authored }
+  - form: "leżącego"
+    pl: "Znalazła ojca leżącego w kuchni."
+    ru: "Она нашла отца лежащим на кухне."
+    source: { kind: translated, id: 757225 }
+  - form: "leżącego"
+    pl: "Policja znalazła Toma leżącego na podłodze z dziurą po kuli na środku czoła."
+    ru: "Полиция нашла Тома лежащим на полу."
+    source: { kind: translated, id: 3084392 }
+  - form: "leżącego"
+    pl: "Nie budź leżącego psa."
+    ru: "Не буди лежащую собаку."
+    source: { kind: authored }
+  - form: "leżącej"
+    pl: "Wystrzelił z pozycji leżącej."
+    ru: "Он выстрелил из положения лёжа."
+    source: { kind: translated, id: 8652404 }
+  - form: "leżącej"
+    pl: "Gdy się obudziłem, znajdowałem się w pozycji leżącej na podłodze."
+    ru: "Когда я проснулся, я лежал на полу."
+    source: { kind: translated, id: 585569 }
+  - form: "leżącej"
+    pl: "Strzelał z pozycji leżącej."
+    ru: "Он стрелял из положения лёжа."
+    source: { kind: authored }
+  - form: "leżącemu"
+    pl: "Pomógł leżącemu na chodniku człowiekowi."
+    ru: "Он помог человеку, лежащему на тротуаре."
+    source: { kind: authored }
+  - form: "leżącemu"
+    pl: "Przyjrzał się leżącemu psu."
+    ru: "Он присмотрелся к лежащей собаке."
+    source: { kind: authored }
+  - form: "leżącemu"
+    pl: "Nie przeszkadzaj leżącemu choremu."
+    ru: "Не мешай лежащему больному."
+    source: { kind: authored }
+  - form: "leżący"
+    pl: "Leżący na boku samochód blokował przejazd."
+    ru: "Лежащий на боку автомобиль перекрыл проезд."
+    source: { kind: translated, id: 365493 }
+  - form: "leżący"
+    pl: "Kiedy się obudzili, ujrzeli kamień leżący obok nich."
+    ru: "Когда они проснулись, то увидели рядом лежащий камень."
+    source: { kind: translated, id: 1166352 }
+  - form: "leżący"
+    pl: "Leżący na stole list był otwarty."
+    ru: "Лежащее на столе письмо было раскрыто."
+    source: { kind: authored }
+  - form: "leżących"
+    pl: "Nie widział leżących na ziemi kluczy."
+    ru: "Он не видел лежащих на земле ключей."
+    source: { kind: authored }
+  - form: "leżących"
+    pl: "Wśród leżących rzeczy był jego portfel."
+    ru: "Среди лежащих вещей был его кошелёк."
+    source: { kind: authored }
+  - form: "leżących"
+    pl: "Szukam leżących gdzieś dokumentów."
+    ru: "Я ищу лежащие где-то документы."
+    source: { kind: authored }
+  - form: "leżącym"
+    pl: "W leżącym na stole liście był czek."
+    ru: "В лежащем на столе письме был чек."
+    source: { kind: authored }
+  - form: "leżącym"
+    pl: "Przyjrzał się leżącym na półce książkom."
+    ru: "Он присмотрелся к лежащим на полке книгам."
+    source: { kind: authored }
+  - form: "leżącym"
+    pl: "Pomógł leżącym na ziemi rannym."
+    ru: "Он помог лежащим на земле раненым."
+    source: { kind: authored }
+  - form: "leżącymi"
+    pl: "Zajął się leżącymi na biurku papierami."
+    ru: "Он занялся лежащими на столе бумагами."
+    source: { kind: authored }
+  - form: "leżącymi"
+    pl: "Między leżącymi a stojącymi miejscami jest różnica."
+    ru: "Между лежачими и сидячими местами есть разница."
+    source: { kind: authored }
+  - form: "leżącymi"
+    pl: "Wrócił z leżącymi dotąd bezczynnie narzędziami."
+    ru: "Он вернулся с лежавшими до сих пор без дела инструментами."
+    source: { kind: authored }
+  - form: "leżcie"
+    pl: "Leżcie spokojnie."
+    ru: "Лежите спокойно."
+    source: { kind: authored }
+  - form: "leżcie"
+    pl: "Nie leżcie na zimnej ziemi."
+    ru: "Не лежите на холодной земле."
+    source: { kind: authored }
+  - form: "leżcie"
+    pl: "Leżcie i odpoczywajcie."
+    ru: "Лежите и отдыхайте."
+    source: { kind: authored }
+  - form: "leżeć"
+    pl: "Musiał leżeć w łóżku."
+    ru: "Ему пришлось лежать в постели."
+    source: { kind: translated, id: 450809 }
+  - form: "leżeć"
+    pl: "Nie możesz leżeć w łóżku."
+    ru: "Тебе нельзя лежать в постели."
+    source: { kind: translated, id: 744077 }
+  - form: "leżeć"
+    pl: "Lubię leżeć na trawie."
+    ru: "Я люблю лежать на траве."
+    source: { kind: authored }
+  - form: "leżeli"
+    pl: "Leżeli na sztucznej trawie."
+    ru: "Они лежали на искусственной траве."
+    source: { kind: translated, id: 358926 }
+  - form: "leżeli"
+    pl: "W południe oni leżeli w lesie, dla odpoczynku."
+    ru: "В полдень они лежали в лесу, отдыхая."
+    source: { kind: translated, id: 749504 }
+  - form: "leżeli"
+    pl: "Leżeli na plaży cały dzień."
+    ru: "Они лежали на пляже весь день."
+    source: { kind: authored }
+  - form: "leżeliby"
+    pl: "Leżeliby na plaży cały dzień."
+    ru: "Они лежали бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżeliby"
+    pl: "Nie leżeliby na zimnej ziemi."
+    ru: "Они не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżeliby"
+    pl: "Leżeliby i patrzyli w gwiazdy."
+    ru: "Они лежали бы и смотрели на звёзды."
+    source: { kind: authored }
+  - form: "leżelibyście"
+    pl: "Leżelibyście na plaży cały dzień?"
+    ru: "Вы лежали бы на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżelibyście"
+    pl: "Nie leżelibyście na zimnej ziemi."
+    ru: "Вы не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżelibyście"
+    pl: "Leżelibyście dłużej, gdyby było ciepło."
+    ru: "Вы лежали бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżelibyśmy"
+    pl: "Leżelibyśmy na plaży cały dzień."
+    ru: "Мы лежали бы на пляже весь день."
+    source: { kind: authored }
+  - form: "leżelibyśmy"
+    pl: "Nie leżelibyśmy na zimnej ziemi."
+    ru: "Мы не лежали бы на холодной земле."
+    source: { kind: authored }
+  - form: "leżelibyśmy"
+    pl: "Leżelibyśmy dłużej, gdyby było ciepło."
+    ru: "Мы лежали бы дольше, будь теплее."
+    source: { kind: authored }
+  - form: "leżeliście"
+    pl: "Leżeliście na plaży cały dzień?"
+    ru: "Вы лежали на пляже весь день?"
+    source: { kind: authored }
+  - form: "leżeliście"
+    pl: "Długo tam leżeliście."
+    ru: "Вы долго там лежали."
+    source: { kind: authored }
+  - form: "leżeliście"
+    pl: "Leżeliście z grypą tydzień."
+    ru: "Вы лежали с гриппом неделю."
+    source: { kind: authored }
+  - form: "leżeliśmy"
+    pl: "Mary i ja wczoraj leżeliśmy w łóżku z chorobą."
+    ru: "Мы с Мэри вчера лежали в постели больные."
+    source: { kind: translated, id: 921707 }
+  - form: "leżeliśmy"
+    pl: "Leżeliśmy na trawie i rozmawialiśmy."
+    ru: "Мы лежали на траве и разговаривали."
+    source: { kind: authored }
+  - form: "leżeliśmy"
+    pl: "Leżeliśmy na plaży do wieczora."
+    ru: "Мы лежали на пляже до вечера."
+    source: { kind: authored }
+  - form: "leżenia"
+    pl: "Nie ma tu miejsca do leżenia."
+    ru: "Здесь негде лечь."
+    source: { kind: authored }
+  - form: "leżenia"
+    pl: "Zmęczył się od samego leżenia."
+    ru: "Он устал от одного лежания."
+    source: { kind: authored }
+  - form: "leżenia"
+    pl: "Lekarz zabronił mu leżenia na plecach."
+    ru: "Врач запретил ему лежать на спине."
+    source: { kind: authored }
+  - form: "leżenie"
+    pl: "Leżenie bez ruchu szkodzi."
+    ru: "Лежать без движения вредно."
+    source: { kind: authored }
+  - form: "leżenie"
+    pl: "Leżenie na plaży to jego ulubione zajęcie."
+    ru: "Лежать на пляже — его любимое занятие."
+    source: { kind: authored }
+  - form: "leżenie"
+    pl: "Leżenie w łóżku przez tydzień osłabia."
+    ru: "Неделя в постели ослабляет."
+    source: { kind: authored }
+  - form: "leżeniem"
+    pl: "Zmęczył się leżeniem."
+    ru: "Он устал от лежания."
+    source: { kind: authored }
+  - form: "leżeniem"
+    pl: "Przed leżeniem rozłóż koc."
+    ru: "Прежде чем лечь, расстели одеяло."
+    source: { kind: authored }
+  - form: "leżeniem"
+    pl: "Między leżeniem a spaniem jest różnica."
+    ru: "Между лежанием и сном есть разница."
+    source: { kind: authored }
+  - form: "leżeniu"
+    pl: "Po leżeniu w łóżku trudno wstać."
+    ru: "После лежания в постели трудно встать."
+    source: { kind: authored }
+  - form: "leżeniu"
+    pl: "Mówili o leżeniu na plaży."
+    ru: "Они говорили о лежании на пляже."
+    source: { kind: authored }
+  - form: "leżeniu"
+    pl: "W leżeniu bez ruchu nie ma nic dobrego."
+    ru: "В лежании без движения нет ничего хорошего."
+    source: { kind: authored }
+  - form: "leżę"
+    pl: "Leżę na moim łóżku."
+    ru: "Я лежу на своей кровати."
+    source: { kind: translated, id: 6157533 }
+  - form: "leżę"
+    pl: "Leżę i odpoczywam."
+    ru: "Я лежу и отдыхаю."
+    source: { kind: authored }
+  - form: "leżę"
+    pl: "Leżę z grypą od tygodnia."
+    ru: "Я лежу с гриппом уже неделю."
+    source: { kind: authored }
+  - form: "leżmy"
+    pl: "Leżmy jeszcze chwilę."
+    ru: "Полежим ещё немного."
+    source: { kind: authored }
+  - form: "leżmy"
+    pl: "Nie leżmy na zimnej ziemi."
+    ru: "Не будем лежать на холодной земле."
+    source: { kind: authored }
+  - form: "leżmy"
+    pl: "Leżmy i patrzmy w gwiazdy."
+    ru: "Будем лежать и смотреть на звёзды."
+    source: { kind: authored }
+  - form: "leży"
+    pl: "Tom leży w łóżku."
+    ru: "Том лежит в постели."
+    source: { kind: tatoeba, id: 8768452 }
+  - form: "leży"
+    pl: "Klucz leży na stole."
+    ru: "Ключ лежит на столе."
+    source: { kind: tatoeba, id: 1925937 }
+  - form: "leży"
+    pl: "To leży mi na sercu."
+    ru: "Это лежит у меня на сердце."
+    source: { kind: authored }
+  - form: "leżycie"
+    pl: "Leżycie na trawie?"
+    ru: "Вы лежите на траве?"
+    source: { kind: authored }
+  - form: "leżycie"
+    pl: "Długo tak leżycie?"
+    ru: "Вы давно так лежите?"
+    source: { kind: authored }
+  - form: "leżycie"
+    pl: "Leżycie zbyt blisko brzegu."
+    ru: "Вы лежите слишком близко к краю."
+    source: { kind: authored }
+  - form: "leżymy"
+    pl: "Leżymy na plaży."
+    ru: "Мы лежим на пляже."
+    source: { kind: authored }
+  - form: "leżymy"
+    pl: "Leżymy z grypą już tydzień."
+    ru: "Мы лежим с гриппом уже неделю."
+    source: { kind: authored }
+  - form: "leżymy"
+    pl: "Leżymy i patrzymy w gwiazdy."
+    ru: "Мы лежим и смотрим на звёзды."
+    source: { kind: authored }
+  - form: "leżysz"
+    pl: "Leżysz na moim płaszczu."
+    ru: "Ты лежишь на моём пальто."
+    source: { kind: authored }
+  - form: "leżysz"
+    pl: "Długo tak leżysz?"
+    ru: "Ты давно так лежишь?"
+    source: { kind: authored }
+  - form: "leżysz"
+    pl: "Leżysz i nic nie robisz."
+    ru: "Ты лежишь и ничего не делаешь."
+    source: { kind: authored }

@@ -1,0 +1,92 @@
+# review
+id: nagle
+format: 2
+lemma: "nagle"
+rank: 775
+pos: adv
+pron: { cyr: "на́гле" }
+senses:
+  - id: suddenly
+    ru: "внезапно, вдруг"
+    examples:
+      - pl: "Nagle zaczęło padać."
+        ru: "Внезапно начался дождь."
+        source: { kind: tatoeba, id: 1592138 }
+      - pl: "Nagle wstał z krzesła."
+        ru: "Внезапно он встал со стула."
+        source: { kind: tatoeba, id: 3685306 }
+      - pl: "Wypadek zdarzył się nagle."
+        ru: "Авария произошла внезапно."
+        source: { kind: tatoeba, id: 2995884 }
+  - id: suddenly-died
+    ru: "zmarł nagle — умер внезапно"
+    examples:
+      - pl: "Zmarł nagle, w wieku pięćdziesięciu lat."
+        ru: "Он умер внезапно, в пятьдесят лет."
+        source: { kind: authored }
+      - pl: "Nagle zrobiło się cicho."
+        ru: "Вдруг стало тихо."
+        source: { kind: authored }
+      - pl: "Nagle ktoś zapukał do drzwi."
+        ru: "Вдруг кто-то постучал в дверь."
+        source: { kind: authored }
+  - id: proverb
+    ru: "co nagle, to po diable — поспешишь, людей насмешишь"
+    examples:
+      - pl: "Co nagle, to po diable."
+        ru: "Поспешишь — людей насмешишь."
+        source: { kind: authored }
+      - pl: "Nie rób nic nagle."
+        ru: "Не делай ничего второпях."
+        source: { kind: authored }
+      - pl: "Wszystko stało się nagle."
+        ru: "Всё случилось внезапно."
+        source: { kind: authored }
+  - id: vs-natychmiast
+    ru: "nagle «внезапно» ≠ natychmiast «немедленно»"
+    note: "Одно про неожиданность, другое про скорость."
+    examples:
+      - pl: "Nagle zachorował i natychmiast wezwano lekarza."
+        ru: "Он внезапно заболел, и немедленно вызвали врача."
+        source: { kind: authored }
+      - pl: "Nagle zmienił zdanie."
+        ru: "Он вдруг передумал."
+        source: { kind: authored }
+      - pl: "Nagle wszystko ucichło."
+        ru: "Внезапно всё стихло."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Слово идёт от nagły «внезапный», и это тот же корень, что в русском «наглый» — но значение разошлось полностью. Польское nagły значит только «внезапный»: nagły wypadek «несчастный случай», nagła śmierć «внезапная смерть»." }
+  - { kind: usage, text: "Не путайте с natychmiast «немедленно»: nagle про неожиданность события, natychmiast про скорость реакции." }
+  - { kind: usage, text: "Пословица co nagle, to po diable — «поспешишь, людей насмешишь», буквально «что второпях, то от чёрта»." }
+  - { kind: usage, text: "Степеней сравнения у наречия нет: «более внезапно» не говорят." }
+collocations:
+  - { pl: "nagle zachorować", ru: "внезапно заболеть" }
+  - { pl: "nagły wypadek", ru: "несчастный случай" }
+  - { pl: "co nagle, to po diable", ru: "поспешишь — людей насмешишь" }
+family:
+  - { pl: "nagły", ru: "внезапный", relation: root }
+  - { pl: "nagłość", ru: "внезапность", relation: derived }
+  - { pl: "natychmiast", ru: "немедленно", relation: root }
+etymology: "От nagły «внезапный», праславянское *naglъ — то же слово, что русское «наглый», у которого значение сместилось к «дерзкий»."
+memory: "nagle — «внезапно, вдруг», от nagły «внезапный». И вот где ловушка: русское «наглый» — это то же самое слово, но значение ушло к «дерзкий». Польское nagły значит только «внезапный»: nagły wypadek «несчастный случай». А пословица co nagle, to po diable — наше «поспешишь, людей насмешишь»."
+idioms:
+  - { pl: "co nagle, to po diable", ru: "поспешишь — людей насмешишь" }
+  - { pl: "nagły wypadek", ru: "несчастный случай" }
+  - { pl: "nagle zachorować", ru: "внезапно заболеть" }
+formExamplesSkip:
+  - { form: "naglej", reason: "степеней сравнения у этого наречия нет: «более внезапно» не говорят" }
+  - { form: "najnaglej", reason: "степеней сравнения у этого наречия нет: «более внезапно» не говорят" }
+formExamples:
+  - form: "nagle"
+    pl: "Nagle zaczęło padać."
+    ru: "Внезапно начался дождь."
+    source: { kind: tatoeba, id: 1592138 }
+  - form: "nagle"
+    pl: "Nagle wstał z krzesła."
+    ru: "Внезапно он встал со стула."
+    source: { kind: tatoeba, id: 3685306 }
+  - form: "nagle"
+    pl: "Wypadek zdarzył się nagle."
+    ru: "Авария произошла внезапно."
+    source: { kind: tatoeba, id: 2995884 }

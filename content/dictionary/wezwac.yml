@@ -1,0 +1,715 @@
+# review
+id: wezwac
+format: 2
+lemma: "wezwać"
+rank: 786
+pos: verb
+aspect: perf
+pron: { cyr: "вэ́зваць" }
+senses:
+  - id: call
+    ru: "вызвать (службу, человека)"
+    examples:
+      - pl: "Proszę wezwać pogotowie."
+        ru: "Вызовите скорую, пожалуйста."
+        source: { kind: tatoeba, id: 4716812 }
+      - pl: "Musimy wezwać pomoc."
+        ru: "Мы должны вызвать помощь."
+        source: { kind: translated, id: 3757018 }
+      - pl: "Tom wezwał lekarza."
+        ru: "Том вызвал врача."
+        source: { kind: translated, id: 3633700 }
+  - id: call-imp
+    ru: "Wezwij pogotowie! — Вызови скорую!"
+    examples:
+      - pl: "Wezwij pogotowie, proszę."
+        ru: "Вызови скорую, пожалуйста."
+        source: { kind: tatoeba, id: 4716813 }
+      - pl: "Wezwij pomoc."
+        ru: "Вызови помощь."
+        source: { kind: translated, id: 3933303 }
+      - pl: "Wezwijcie lekarza!"
+        ru: "Вызовите врача!"
+        source: { kind: translated, id: 6157951 }
+  - id: summoned
+    ru: "zostać wezwanym — быть вызванным"
+    examples:
+      - pl: "Został wezwany do wojska."
+        ru: "Его призвали в армию."
+        source: { kind: translated, id: 415388 }
+      - pl: "Zostałem wezwany zaraz po nim."
+        ru: "Меня вызвали сразу после него."
+        source: { kind: translated, id: 732923 }
+      - pl: "Uczniowie zebrali się na wezwanie dyrektora szkoły."
+        ru: "Ученики собрались по зову директора школы."
+        source: { kind: translated, id: 759577 }
+  - id: security
+    ru: "wezwać ochronę, policję — вызвать охрану, полицию"
+    examples:
+      - pl: "Niech ktoś wezwie ochronę!"
+        ru: "Пусть кто-нибудь вызовет охрану!"
+        source: { kind: translated, id: 8617222 }
+      - pl: "Wezwijcie ochronę!"
+        ru: "Вызовите охрану!"
+        source: { kind: translated, id: 8617218 }
+      - pl: "Jeśli nie skończycie walczyć, wezwę policję."
+        ru: "Если не прекратите драться, я вызову полицию."
+        source: { kind: translated, id: 3093192 }
+notes:
+  - { kind: usage, text: "Это глагол про вызов служб и людей: wezwać pogotowie «вызвать скорую», wezwać lekarza, wezwać policję, wezwać ochronę, wezwać taksówkę." }
+  - { kind: government, text: "Кого вызвать — винительный: wezwać lekarza. Куда — do с родительным: wezwać do sądu «вызвать в суд». Зачем — na с винительным: wezwać na pomoc." }
+  - { kind: usage, text: "wezwać na dywanik — «вызвать на ковёр»: идиома совпадает с русской дословно, вплоть до ковра." }
+  - { kind: usage, text: "Существительное wezwanie значит «вызов, повестка»: wezwanie do sądu. Несовершенный вид — wzywać." }
+collocations:
+  - { pl: "wezwać pogotowie", ru: "вызвать скорую" }
+  - { pl: "wezwać lekarza", ru: "вызвать врача" }
+  - { pl: "wezwać policję", ru: "вызвать полицию" }
+  - { pl: "wezwać na dywanik", ru: "вызвать на ковёр" }
+family:
+  - { pl: "wzywać", ru: "вызывать", relation: aspect }
+  - { pl: "zwać", ru: "звать", relation: root }
+  - { pl: "wezwanie", ru: "вызов, повестка", relation: derived }
+  - { pl: "nazwa", ru: "название", relation: root }
+etymology: "wez- (= wy-) + zwać «звать», праславянское *zъvati — то же слово, что русские «звать» и «вызвать»."
+memory: "wezwać — «вызвать», от zwać «звать», ровно как русское «вы-звать» от «звать». Это глагол про службы: wezwać pogotowie, wezwać lekarza, wezwać policję, wezwać ochronę. Идиома переносится дословно, вплоть до ковра: wezwać na dywanik значит «вызвать на ковёр». Несовершенный вид — wzywać."
+idioms:
+  - { pl: "wezwać pogotowie", ru: "вызвать скорую" }
+  - { pl: "wezwać na dywanik", ru: "вызвать на ковёр" }
+  - { pl: "wezwanie do sądu", ru: "повестка в суд" }
+formExamples:
+  - form: "wezwać"
+    pl: "Proszę wezwać pogotowie."
+    ru: "Вызовите скорую, пожалуйста."
+    source: { kind: tatoeba, id: 4716812 }
+  - form: "wezwać"
+    pl: "Musimy wezwać pomoc."
+    ru: "Мы должны вызвать помощь."
+    source: { kind: translated, id: 3757018 }
+  - form: "wezwać"
+    pl: "Trzeba wezwać ochronę."
+    ru: "Нужно вызвать охрану."
+    source: { kind: authored }
+  - form: "wezwali"
+    pl: "Natychmiast wezwali lekarza."
+    ru: "Они немедленно вызвали врача."
+    source: { kind: translated, id: 3615719 }
+  - form: "wezwali"
+    pl: "Wezwali policję."
+    ru: "Они вызвали полицию."
+    source: { kind: authored }
+  - form: "wezwali"
+    pl: "Wezwali go na dywanik."
+    ru: "Его вызвали на ковёр."
+    source: { kind: authored }
+  - form: "wezwaliby"
+    pl: "Wezwaliby pogotowie, gdyby trzeba."
+    ru: "Они вызвали бы скорую, если бы понадобилось."
+    source: { kind: authored }
+  - form: "wezwaliby"
+    pl: "Nie wezwaliby nikogo bez powodu."
+    ru: "Они никого не вызвали бы без причины."
+    source: { kind: authored }
+  - form: "wezwaliby"
+    pl: "Wezwaliby go na dywanik."
+    ru: "Они вызвали бы его на ковёр."
+    source: { kind: authored }
+  - form: "wezwalibyście"
+    pl: "Wezwalibyście pogotowie?"
+    ru: "Вы вызвали бы скорую?"
+    source: { kind: authored }
+  - form: "wezwalibyście"
+    pl: "Nie wezwalibyście policji?"
+    ru: "Вы не вызвали бы полицию?"
+    source: { kind: authored }
+  - form: "wezwalibyście"
+    pl: "Kogo wezwalibyście na świadka?"
+    ru: "Кого вы вызвали бы свидетелем?"
+    source: { kind: authored }
+  - form: "wezwalibyśmy"
+    pl: "Wezwalibyśmy pogotowie, gdyby trzeba."
+    ru: "Мы вызвали бы скорую, если бы понадобилось."
+    source: { kind: authored }
+  - form: "wezwalibyśmy"
+    pl: "Nie wezwalibyśmy nikogo bez powodu."
+    ru: "Мы никого не вызвали бы без причины."
+    source: { kind: authored }
+  - form: "wezwalibyśmy"
+    pl: "Wezwalibyśmy taksówkę."
+    ru: "Мы вызвали бы такси."
+    source: { kind: authored }
+  - form: "wezwaliście"
+    pl: "Wezwaliście pogotowie?"
+    ru: "Вы вызвали скорую?"
+    source: { kind: authored }
+  - form: "wezwaliście"
+    pl: "Kogo wezwaliście na świadka?"
+    ru: "Кого вы вызвали свидетелем?"
+    source: { kind: authored }
+  - form: "wezwaliście"
+    pl: "Nie wezwaliście policji."
+    ru: "Вы не вызвали полицию."
+    source: { kind: authored }
+  - form: "wezwaliśmy"
+    pl: "Wezwaliśmy lekarza."
+    ru: "Мы вызвали врача."
+    source: { kind: translated, id: 925888 }
+  - form: "wezwaliśmy"
+    pl: "Wezwaliśmy pogotowie."
+    ru: "Мы вызвали скорую."
+    source: { kind: authored }
+  - form: "wezwaliśmy"
+    pl: "Wezwaliśmy taksówkę."
+    ru: "Мы вызвали такси."
+    source: { kind: authored }
+  - form: "wezwał"
+    pl: "Tom wezwał Mary."
+    ru: "Том вызвал Мэри."
+    source: { kind: translated, id: 10598357 }
+  - form: "wezwał"
+    pl: "Tom wezwał lekarza."
+    ru: "Том вызвал врача."
+    source: { kind: translated, id: 3633700 }
+  - form: "wezwał"
+    pl: "Wezwał mnie do gabinetu."
+    ru: "Он вызвал меня в кабинет."
+    source: { kind: authored }
+  - form: "wezwała"
+    pl: "Wezwała pogotowie."
+    ru: "Она вызвала скорую."
+    source: { kind: authored }
+  - form: "wezwała"
+    pl: "Wezwała go do gabinetu."
+    ru: "Она вызвала его в кабинет."
+    source: { kind: authored }
+  - form: "wezwała"
+    pl: "Nie wezwała nikogo na pomoc."
+    ru: "Она никого не позвала на помощь."
+    source: { kind: authored }
+  - form: "wezwałaby"
+    pl: "Wezwałaby pogotowie, gdyby trzeba."
+    ru: "Она вызвала бы скорую, если бы понадобилось."
+    source: { kind: authored }
+  - form: "wezwałaby"
+    pl: "Nie wezwałaby nikogo bez powodu."
+    ru: "Она никого не вызвала бы без причины."
+    source: { kind: authored }
+  - form: "wezwałaby"
+    pl: "Wezwałaby taksówkę."
+    ru: "Она вызвала бы такси."
+    source: { kind: authored }
+  - form: "wezwałabym"
+    pl: "Wezwałabym pogotowie."
+    ru: "Я вызвала бы скорую."
+    source: { kind: authored }
+  - form: "wezwałabym"
+    pl: "Nie wezwałabym nikogo bez powodu."
+    ru: "Я никого не вызвала бы без причины."
+    source: { kind: authored }
+  - form: "wezwałabym"
+    pl: "Wezwałabym taksówkę."
+    ru: "Я вызвала бы такси."
+    source: { kind: authored }
+  - form: "wezwałabyś"
+    pl: "Wezwałabyś pogotowie?"
+    ru: "Ты вызвала бы скорую?"
+    source: { kind: authored }
+  - form: "wezwałabyś"
+    pl: "Nie wezwałabyś policji?"
+    ru: "Ты не вызвала бы полицию?"
+    source: { kind: authored }
+  - form: "wezwałabyś"
+    pl: "Kogo wezwałabyś na pomoc?"
+    ru: "Кого ты вызвала бы на помощь?"
+    source: { kind: authored }
+  - form: "wezwałam"
+    pl: "Wezwałam pogotowie."
+    ru: "Я вызвала скорую."
+    source: { kind: authored }
+  - form: "wezwałam"
+    pl: "Wezwałam taksówkę."
+    ru: "Я вызвала такси."
+    source: { kind: authored }
+  - form: "wezwałam"
+    pl: "Nie wezwałam nikogo na pomoc."
+    ru: "Я никого не позвала на помощь."
+    source: { kind: authored }
+  - form: "wezwałaś"
+    pl: "Wezwałaś pogotowie?"
+    ru: "Ты вызвала скорую?"
+    source: { kind: authored }
+  - form: "wezwałaś"
+    pl: "Wezwałaś taksówkę?"
+    ru: "Ты вызвала такси?"
+    source: { kind: authored }
+  - form: "wezwałaś"
+    pl: "Dlaczego nie wezwałaś lekarza?"
+    ru: "Почему ты не вызвала врача?"
+    source: { kind: authored }
+  - form: "wezwałby"
+    pl: "Wezwałby pogotowie, gdyby trzeba."
+    ru: "Он вызвал бы скорую, если бы понадобилось."
+    source: { kind: authored }
+  - form: "wezwałby"
+    pl: "Nie wezwałby nikogo bez powodu."
+    ru: "Он никого не вызвал бы без причины."
+    source: { kind: authored }
+  - form: "wezwałby"
+    pl: "Wezwałby taksówkę."
+    ru: "Он вызвал бы такси."
+    source: { kind: authored }
+  - form: "wezwałbym"
+    pl: "Wezwałbym pogotowie."
+    ru: "Я вызвал бы скорую."
+    source: { kind: authored }
+  - form: "wezwałbym"
+    pl: "Nie wezwałbym nikogo bez powodu."
+    ru: "Я никого не вызвал бы без причины."
+    source: { kind: authored }
+  - form: "wezwałbym"
+    pl: "Wezwałbym taksówkę."
+    ru: "Я вызвал бы такси."
+    source: { kind: authored }
+  - form: "wezwałbyś"
+    pl: "Czy wezwałbyś dla mnie taksówkę?"
+    ru: "Ты вызвал бы мне такси?"
+    source: { kind: translated, id: 1059766 }
+  - form: "wezwałbyś"
+    pl: "Wezwałbyś pogotowie?"
+    ru: "Ты вызвал бы скорую?"
+    source: { kind: authored }
+  - form: "wezwałbyś"
+    pl: "Nie wezwałbyś policji?"
+    ru: "Ты не вызвал бы полицию?"
+    source: { kind: authored }
+  - form: "wezwałem"
+    pl: "Wezwałem pomoc."
+    ru: "Я вызвал помощь."
+    source: { kind: translated, id: 10624155 }
+  - form: "wezwałem"
+    pl: "Wezwałem lekarza."
+    ru: "Я вызвал врача."
+    source: { kind: translated, id: 982794 }
+  - form: "wezwałem"
+    pl: "Wezwałem taksówkę."
+    ru: "Я вызвал такси."
+    source: { kind: authored }
+  - form: "wezwałeś"
+    pl: "Czemu nie wezwałeś lekarza?"
+    ru: "Почему ты не вызвал врача?"
+    source: { kind: translated, id: 4558190 }
+  - form: "wezwałeś"
+    pl: "Wezwałeś pogotowie?"
+    ru: "Ты вызвал скорую?"
+    source: { kind: authored }
+  - form: "wezwałeś"
+    pl: "Wezwałeś taksówkę?"
+    ru: "Ты вызвал такси?"
+    source: { kind: authored }
+  - form: "wezwało"
+    pl: "Wiele osób wezwało pomoc."
+    ru: "Многие вызвали помощь."
+    source: { kind: authored }
+  - form: "wezwało"
+    pl: "Dziecko wezwało pogotowie samo."
+    ru: "Ребёнок сам вызвал скорую."
+    source: { kind: authored }
+  - form: "wezwało"
+    pl: "Żadne z nich nie wezwało policji."
+    ru: "Никто из них не вызвал полицию."
+    source: { kind: authored }
+  - form: "wezwałoby"
+    pl: "Dziecko wezwałoby pogotowie."
+    ru: "Ребёнок вызвал бы скорую."
+    source: { kind: authored }
+  - form: "wezwałoby"
+    pl: "Wiele osób wezwałoby pomoc."
+    ru: "Многие вызвали бы помощь."
+    source: { kind: authored }
+  - form: "wezwałoby"
+    pl: "Żadne z nich nie wezwałoby policji."
+    ru: "Никто из них не вызвал бы полицию."
+    source: { kind: authored }
+  - form: "wezwały"
+    pl: "Dziewczyny wezwały pogotowie."
+    ru: "Девочки вызвали скорую."
+    source: { kind: authored }
+  - form: "wezwały"
+    pl: "Służby wezwały posiłki."
+    ru: "Службы вызвали подкрепление."
+    source: { kind: authored }
+  - form: "wezwały"
+    pl: "Nie wezwały nikogo na pomoc."
+    ru: "Они никого не позвали на помощь."
+    source: { kind: authored }
+  - form: "wezwałyby"
+    pl: "Wezwałyby pogotowie, gdyby trzeba."
+    ru: "Они вызвали бы скорую, если бы понадобилось."
+    source: { kind: authored }
+  - form: "wezwałyby"
+    pl: "Nie wezwałyby nikogo bez powodu."
+    ru: "Они никого не вызвали бы без причины."
+    source: { kind: authored }
+  - form: "wezwałyby"
+    pl: "Wezwałyby taksówkę."
+    ru: "Они вызвали бы такси."
+    source: { kind: authored }
+  - form: "wezwałybyście"
+    pl: "Wezwałybyście pogotowie?"
+    ru: "Вы вызвали бы скорую?"
+    source: { kind: authored }
+  - form: "wezwałybyście"
+    pl: "Nie wezwałybyście policji?"
+    ru: "Вы не вызвали бы полицию?"
+    source: { kind: authored }
+  - form: "wezwałybyście"
+    pl: "Kogo wezwałybyście na pomoc?"
+    ru: "Кого вы вызвали бы на помощь?"
+    source: { kind: authored }
+  - form: "wezwałybyśmy"
+    pl: "Wezwałybyśmy pogotowie."
+    ru: "Мы вызвали бы скорую."
+    source: { kind: authored }
+  - form: "wezwałybyśmy"
+    pl: "Nie wezwałybyśmy nikogo bez powodu."
+    ru: "Мы никого не вызвали бы без причины."
+    source: { kind: authored }
+  - form: "wezwałybyśmy"
+    pl: "Wezwałybyśmy taksówkę."
+    ru: "Мы вызвали бы такси."
+    source: { kind: authored }
+  - form: "wezwałyście"
+    pl: "Wezwałyście pogotowie?"
+    ru: "Вы вызвали скорую?"
+    source: { kind: authored }
+  - form: "wezwałyście"
+    pl: "Kogo wezwałyście na świadka?"
+    ru: "Кого вы вызвали свидетелем?"
+    source: { kind: authored }
+  - form: "wezwałyście"
+    pl: "Nie wezwałyście policji."
+    ru: "Вы не вызвали полицию."
+    source: { kind: authored }
+  - form: "wezwałyśmy"
+    pl: "Wezwałyśmy pogotowie."
+    ru: "Мы вызвали скорую."
+    source: { kind: authored }
+  - form: "wezwałyśmy"
+    pl: "Wezwałyśmy taksówkę."
+    ru: "Мы вызвали такси."
+    source: { kind: authored }
+  - form: "wezwałyśmy"
+    pl: "Nie wezwałyśmy nikogo na pomoc."
+    ru: "Мы никого не позвали на помощь."
+    source: { kind: authored }
+  - form: "wezwana"
+    pl: "Została wezwana na świadka."
+    ru: "Её вызвали свидетелем."
+    source: { kind: authored }
+  - form: "wezwana"
+    pl: "Karetka była wezwana o świcie."
+    ru: "Скорую вызвали на рассвете."
+    source: { kind: authored }
+  - form: "wezwana"
+    pl: "Wezwana pomoc dotarła szybko."
+    ru: "Вызванная помощь прибыла быстро."
+    source: { kind: authored }
+  - form: "wezwaną"
+    pl: "Zastał już wezwaną karetkę."
+    ru: "Он застал уже вызванную скорую."
+    source: { kind: authored }
+  - form: "wezwaną"
+    pl: "Widziałem wezwaną na pomoc ekipę."
+    ru: "Я видел вызванную на помощь бригаду."
+    source: { kind: authored }
+  - form: "wezwaną"
+    pl: "Uznali ją za wezwaną w trybie pilnym."
+    ru: "Её сочли вызванной в срочном порядке."
+    source: { kind: authored }
+  - form: "wezwane"
+    pl: "Służby zostały wezwane natychmiast."
+    ru: "Службы вызвали немедленно."
+    source: { kind: authored }
+  - form: "wezwane"
+    pl: "Wezwane posiłki dotarły w nocy."
+    ru: "Вызванное подкрепление прибыло ночью."
+    source: { kind: authored }
+  - form: "wezwane"
+    pl: "Dzieci zostały wezwane do domu."
+    ru: "Детей позвали домой."
+    source: { kind: authored }
+  - form: "wezwanego"
+    pl: "Nie ma tu wezwanego lekarza."
+    ru: "Вызванного врача здесь нет."
+    source: { kind: authored }
+  - form: "wezwanego"
+    pl: "Szukam wezwanego wczoraj świadka."
+    ru: "Я ищу вызванного вчера свидетеля."
+    source: { kind: authored }
+  - form: "wezwanego"
+    pl: "Dotyczy to wezwanego na dywanik pracownika."
+    ru: "Это касается вызванного на ковёр работника."
+    source: { kind: authored }
+  - form: "wezwanej"
+    pl: "Nie ma tu wezwanej karetki."
+    ru: "Вызванной скорой здесь нет."
+    source: { kind: authored }
+  - form: "wezwanej"
+    pl: "Szukam wezwanej wczoraj ekipy."
+    ru: "Я ищу вызванную вчера бригаду."
+    source: { kind: authored }
+  - form: "wezwanej"
+    pl: "Dotyczy to wezwanej na świadka sąsiadki."
+    ru: "Это касается вызванной свидетельницей соседки."
+    source: { kind: authored }
+  - form: "wezwanemu"
+    pl: "Wezwanemu lekarzowi podziękowali."
+    ru: "Вызванного врача поблагодарили."
+    source: { kind: authored }
+  - form: "wezwanemu"
+    pl: "Przyjrzał się wezwanemu świadkowi."
+    ru: "Он присмотрелся к вызванному свидетелю."
+    source: { kind: authored }
+  - form: "wezwanemu"
+    pl: "Dzięki wezwanemu w porę pogotowiu przeżył."
+    ru: "Благодаря вовремя вызванной скорой он выжил."
+    source: { kind: authored }
+  - form: "wezwani"
+    pl: "Zostali wezwani na przesłuchanie."
+    ru: "Их вызвали на допрос."
+    source: { kind: authored }
+  - form: "wezwani"
+    pl: "Wezwani świadkowie czekali na korytarzu."
+    ru: "Вызванные свидетели ждали в коридоре."
+    source: { kind: authored }
+  - form: "wezwani"
+    pl: "Byli wezwani do dyrektora."
+    ru: "Их вызвали к директору."
+    source: { kind: authored }
+  - form: "wezwania"
+    pl: "Nie ma tu wezwania do sądu."
+    ru: "Повестки в суд здесь нет."
+    source: { kind: authored }
+  - form: "wezwania"
+    pl: "Czekał na wezwania od rana."
+    ru: "Он ждал вызовов с утра."
+    source: { kind: authored }
+  - form: "wezwania"
+    pl: "Bez wezwania nikt nie przyjdzie."
+    ru: "Без вызова никто не придёт."
+    source: { kind: authored }
+  - form: "wezwanie"
+    pl: "Uczniowie zebrali się na wezwanie dyrektora szkoły."
+    ru: "Ученики собрались по зову директора школы."
+    source: { kind: translated, id: 759577 }
+  - form: "wezwanie"
+    pl: "Dostał wezwanie do sądu."
+    ru: "Он получил повестку в суд."
+    source: { kind: authored }
+  - form: "wezwanie"
+    pl: "Wezwanie przyszło pocztą."
+    ru: "Вызов пришёл по почте."
+    source: { kind: authored }
+  - form: "wezwaniem"
+    pl: "Przed wezwaniem pogotowia sprawdź puls."
+    ru: "Прежде чем вызвать скорую, проверь пульс."
+    source: { kind: authored }
+  - form: "wezwaniem"
+    pl: "Skończyło się wezwaniem policji."
+    ru: "Кончилось вызовом полиции."
+    source: { kind: authored }
+  - form: "wezwaniem"
+    pl: "Między wezwaniem a przyjazdem minął kwadrans."
+    ru: "Между вызовом и приездом прошло четверть часа."
+    source: { kind: authored }
+  - form: "wezwaniu"
+    pl: "Po wezwaniu pogotowia czekali w milczeniu."
+    ru: "Вызвав скорую, они ждали молча."
+    source: { kind: authored }
+  - form: "wezwaniu"
+    pl: "Mówili o wezwaniu do sądu."
+    ru: "Они говорили о повестке в суд."
+    source: { kind: authored }
+  - form: "wezwaniu"
+    pl: "Stawił się na wezwaniu punktualnie."
+    ru: "Он явился по вызову точно в срок."
+    source: { kind: authored }
+  - form: "wezwano"
+    pl: "Wezwano pogotowie."
+    ru: "Вызвали скорую."
+    source: { kind: authored }
+  - form: "wezwano"
+    pl: "Wezwano go do dyrektora."
+    ru: "Его вызвали к директору."
+    source: { kind: authored }
+  - form: "wezwano"
+    pl: "Policji nie wezwano."
+    ru: "Полицию не вызвали."
+    source: { kind: authored }
+  - form: "wezwany"
+    pl: "Został wezwany do wojska."
+    ru: "Его призвали в армию."
+    source: { kind: translated, id: 415388 }
+  - form: "wezwany"
+    pl: "Zostałem wezwany zaraz po nim."
+    ru: "Меня вызвали сразу после него."
+    source: { kind: translated, id: 732923 }
+  - form: "wezwany"
+    pl: "Został wezwany na świadka."
+    ru: "Его вызвали свидетелем."
+    source: { kind: authored }
+  - form: "wezwanych"
+    pl: "Wśród wezwanych świadków był i on."
+    ru: "Среди вызванных свидетелей был и он."
+    source: { kind: authored }
+  - form: "wezwanych"
+    pl: "Nie ma tu wezwanych na przesłuchanie."
+    ru: "Вызванных на допрос здесь нет."
+    source: { kind: authored }
+  - form: "wezwanych"
+    pl: "Szukam wezwanych wczoraj ekip."
+    ru: "Я ищу вызванные вчера бригады."
+    source: { kind: authored }
+  - form: "wezwanym"
+    pl: "Wezwanym świadkom kazano czekać."
+    ru: "Вызванным свидетелям велели ждать."
+    source: { kind: authored }
+  - form: "wezwanym"
+    pl: "Przyjrzał się wezwanym na pomoc służbom."
+    ru: "Он присмотрелся к вызванным на помощь службам."
+    source: { kind: authored }
+  - form: "wezwanym"
+    pl: "Zajął się wezwanym pracownikiem."
+    ru: "Он занялся вызванным работником."
+    source: { kind: authored }
+  - form: "wezwanymi"
+    pl: "Zajmuje się wezwanymi świadkami."
+    ru: "Он занимается вызванными свидетелями."
+    source: { kind: authored }
+  - form: "wezwanymi"
+    pl: "Rozmawiał z wezwanymi na przesłuchanie."
+    ru: "Он говорил с вызванными на допрос."
+    source: { kind: authored }
+  - form: "wezwanymi"
+    pl: "Między wezwanymi a zgłoszonymi jest różnica."
+    ru: "Между вызванными и заявившимися есть разница."
+    source: { kind: authored }
+  - form: "wezwawszy"
+    pl: "Wezwawszy pogotowie, usiadł przy chorym."
+    ru: "Вызвав скорую, он сел рядом с больным."
+    source: { kind: authored }
+  - form: "wezwawszy"
+    pl: "Wezwawszy policję, czekali na zewnątrz."
+    ru: "Вызвав полицию, они ждали снаружи."
+    source: { kind: authored }
+  - form: "wezwawszy"
+    pl: "Wezwawszy taksówkę, spakował walizki."
+    ru: "Вызвав такси, он собрал чемоданы."
+    source: { kind: authored }
+  - form: "wezwą"
+    pl: "Wezwą go na przesłuchanie."
+    ru: "Его вызовут на допрос."
+    source: { kind: authored }
+  - form: "wezwą"
+    pl: "Wezwą pogotowie, jeśli będzie trzeba."
+    ru: "Вызовут скорую, если понадобится."
+    source: { kind: authored }
+  - form: "wezwą"
+    pl: "Nikogo nie wezwą bez powodu."
+    ru: "Никого не вызовут без причины."
+    source: { kind: authored }
+  - form: "wezwę"
+    pl: "Jeśli nie skończycie walczyć, wezwę policję."
+    ru: "Если не прекратите драться, я вызову полицию."
+    source: { kind: translated, id: 3093192 }
+  - form: "wezwę"
+    pl: "Wezwę pogotowie."
+    ru: "Я вызову скорую."
+    source: { kind: authored }
+  - form: "wezwę"
+    pl: "Zaraz wezwę taksówkę."
+    ru: "Сейчас вызову такси."
+    source: { kind: authored }
+  - form: "wezwie"
+    pl: "Niech pan wezwie lekarza."
+    ru: "Пусть врача вызовет."
+    source: { kind: translated, id: 8732688 }
+  - form: "wezwie"
+    pl: "Niech ktoś wezwie ochronę!"
+    ru: "Пусть кто-нибудь вызовет охрану!"
+    source: { kind: translated, id: 8617222 }
+  - form: "wezwie"
+    pl: "Kto wezwie pomoc?"
+    ru: "Кто вызовет помощь?"
+    source: { kind: authored }
+  - form: "wezwiecie"
+    pl: "Wezwiecie pogotowie?"
+    ru: "Вы вызовете скорую?"
+    source: { kind: authored }
+  - form: "wezwiecie"
+    pl: "Kogo wezwiecie na świadka?"
+    ru: "Кого вы вызовете свидетелем?"
+    source: { kind: authored }
+  - form: "wezwiecie"
+    pl: "Nie wezwiecie policji?"
+    ru: "Вы не вызовете полицию?"
+    source: { kind: authored }
+  - form: "wezwiemy"
+    pl: "Wezwiemy pogotowie."
+    ru: "Мы вызовем скорую."
+    source: { kind: authored }
+  - form: "wezwiemy"
+    pl: "Wezwiemy go na rozmowę."
+    ru: "Мы вызовем его на разговор."
+    source: { kind: authored }
+  - form: "wezwiemy"
+    pl: "Nie wezwiemy nikogo bez powodu."
+    ru: "Мы никого не вызовем без причины."
+    source: { kind: authored }
+  - form: "wezwiesz"
+    pl: "Wezwiesz pogotowie?"
+    ru: "Ты вызовешь скорую?"
+    source: { kind: authored }
+  - form: "wezwiesz"
+    pl: "Kogo wezwiesz na pomoc?"
+    ru: "Кого ты вызовешь на помощь?"
+    source: { kind: authored }
+  - form: "wezwiesz"
+    pl: "Nie wezwiesz taksówki?"
+    ru: "Ты не вызовешь такси?"
+    source: { kind: authored }
+  - form: "wezwij"
+    pl: "Wezwij pogotowie, proszę."
+    ru: "Вызови скорую, пожалуйста."
+    source: { kind: tatoeba, id: 4716813 }
+  - form: "wezwij"
+    pl: "Wezwij pomoc."
+    ru: "Вызови помощь."
+    source: { kind: translated, id: 3933303 }
+  - form: "wezwij"
+    pl: "Wezwij taksówkę."
+    ru: "Вызови такси."
+    source: { kind: authored }
+  - form: "wezwijcie"
+    pl: "Wezwijcie lekarza!"
+    ru: "Вызовите врача!"
+    source: { kind: translated, id: 6157951 }
+  - form: "wezwijcie"
+    pl: "Wezwijcie ochronę!"
+    ru: "Вызовите охрану!"
+    source: { kind: translated, id: 8617218 }
+  - form: "wezwijcie"
+    pl: "Wezwijcie pogotowie!"
+    ru: "Вызовите скорую!"
+    source: { kind: authored }
+  - form: "wezwijmy"
+    pl: "Lepiej wezwijmy lekarza."
+    ru: "Лучше вызовем врача."
+    source: { kind: translated, id: 919282 }
+  - form: "wezwijmy"
+    pl: "Wezwijmy pogotowie."
+    ru: "Вызовем скорую."
+    source: { kind: authored }
+  - form: "wezwijmy"
+    pl: "Wezwijmy taksówkę."
+    ru: "Вызовем такси."
+    source: { kind: authored }

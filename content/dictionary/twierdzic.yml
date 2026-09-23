@@ -1,0 +1,704 @@
+# review
+id: twierdzic
+format: 2
+lemma: "twierdzić"
+rank: 777
+pos: verb
+aspect: imperf
+pron: { cyr: "тфе́рдзиць" }
+senses:
+  - id: claim
+    ru: "утверждать"
+    examples:
+      - pl: "Twierdził, że jest niewinny."
+        ru: "Он настаивал на том, что он невиновен."
+        source: { kind: tatoeba, id: 736790 }
+      - pl: "Twierdzi, że jest malarzem."
+        ru: "Он утверждает, что он художник."
+        source: { kind: translated, id: 1613954 }
+      - pl: "Tom twierdził, że widział UFO."
+        ru: "Том утверждал, что видел НЛО."
+        source: { kind: translated, id: 5224026 }
+  - id: claim-that
+    ru: "twierdzić, że… — утверждать, что…"
+    note: "Запятая перед że обязательна."
+    examples:
+      - pl: "Ona twierdzi, że była tam dwa razy, ale nie wierzę jej."
+        ru: "Она утверждает, что была там два раза, но я ей не верю."
+        source: { kind: tatoeba, id: 6154822 }
+      - pl: "Tom i John obaj twierdzą, że całowali się z Mary."
+        ru: "Том и Джон оба говорят, что целовались с Мэри."
+        source: { kind: tatoeba, id: 7164752 }
+      - pl: "Twierdzili, że obniżka podatków była jej zasługą."
+        ru: "Они утверждали, что снижение налогов — её заслуга."
+        source: { kind: translated, id: 603046 }
+  - id: affirmative
+    ru: "odpowiedź twierdząca — утвердительный ответ"
+    examples:
+      - pl: "Dał ci odpowiedź twierdzącą czy przeczącą?"
+        ru: "Он дал тебе утвердительный ответ или отрицательный?"
+        source: { kind: translated, id: 441244 }
+      - pl: "Dał odpowiedź twierdzącą."
+        ru: "Он дал утвердительный ответ."
+        source: { kind: authored }
+      - pl: "Oczekiwali odpowiedzi twierdzącej."
+        ru: "Они ожидали утвердительного ответа."
+        source: { kind: authored }
+  - id: theorem
+    ru: "twierdzenie — утверждение; теорема"
+    examples:
+      - pl: "Niezmienny rytm matematyki to definicja, twierdzenie, dowód."
+        ru: "Неизменный ритм математики: определение, теорема, доказательство."
+        source: { kind: translated, id: 6160498 }
+      - pl: "Wykażemy teraz, jak przy pomocy tego lematu udowodnić nasze główne twierdzenie."
+        ru: "Теперь покажем, как с помощью этой леммы доказать нашу главную теорему."
+        source: { kind: translated, id: 367728 }
+      - pl: "Oba twierdzenia są fałszywe."
+        ru: "Оба утверждения ложны."
+        source: { kind: translated, id: 10707663 }
+notes:
+  - { kind: usage, text: "Корень тот же, что в twardy «твёрдый»: утверждать — значит «стоять твёрдо». Русское «утверждать» от «твёрдый» собрано ровно так же, и из того же гнезда идёт twierdza «крепость»." }
+  - { kind: government, text: "Глагол почти всегда идёт с придаточным: twierdzić, że… Запятая перед że обязательна." }
+  - { kind: usage, text: "Существительное twierdzenie значит и «утверждение», и математическую «теорему»: twierdzenie Pitagorasa «теорема Пифагора»." }
+  - { kind: usage, text: "Причастие twierdzący значит «утвердительный»: odpowiedź twierdząca, в противоположность przecząca «отрицательный». Совершенный вид — stwierdzić «констатировать»: stwierdzić fakt." }
+collocations:
+  - { pl: "twierdzić, że…", ru: "утверждать, что…" }
+  - { pl: "odpowiedź twierdząca", ru: "утвердительный ответ" }
+  - { pl: "twierdzenie Pitagorasa", ru: "теорема Пифагора" }
+  - { pl: "stwierdzić fakt", ru: "констатировать факт" }
+family:
+  - { pl: "twardy", ru: "твёрдый", relation: root }
+  - { pl: "twierdza", ru: "крепость", relation: derived }
+  - { pl: "stwierdzić", ru: "констатировать", relation: aspect }
+  - { pl: "twierdzenie", ru: "утверждение; теорема", relation: derived }
+etymology: "От twardy «твёрдый» — утверждать значит «стоять твёрдо». Русское «утверждать» от «твёрдый» собрано ровно так же; из того же гнезда и twierdza «крепость»."
+memory: "twierdzić — «утверждать», и корень тот же, что в twardy «твёрдый»: утверждать значит «стоять твёрдо». Русское «утверждать» от «твёрдый» устроено так же, а из того же гнезда идёт twierdza «крепость». Существительное twierdzenie значит и «утверждение», и «теорему»: twierdzenie Pitagorasa."
+idioms:
+  - { pl: "twierdzić, że…", ru: "утверждать, что…" }
+  - { pl: "odpowiedź twierdząca", ru: "утвердительный ответ" }
+  - { pl: "twierdzenie Pitagorasa", ru: "теорема Пифагора" }
+formExamples:
+  - form: "twierdzą"
+    pl: "Tom i John obaj twierdzą, że całowali się z Mary."
+    ru: "Том и Джон оба говорят, что целовались с Мэри."
+    source: { kind: tatoeba, id: 7164752 }
+  - form: "twierdzą"
+    pl: "Twierdzą, że ramach gwarancji naprawiona zostanie każda usterka, niezależnie czy było to uszkodzenie mechaniczne, czy wada fabryczna."
+    ru: "Они утверждают, что по гарантии будет устранена любая неисправность."
+    source: { kind: translated, id: 6207859 }
+  - form: "twierdzą"
+    pl: "Twierdzą, że nic nie wiedzieli."
+    ru: "Они утверждают, что ничего не знали."
+    source: { kind: authored }
+  - form: "twierdząc"
+    pl: "Twierdząc tak, ryzykujesz."
+    ru: "Утверждая так, ты рискуешь."
+    source: { kind: authored }
+  - form: "twierdząc"
+    pl: "Odszedł, twierdząc, że ma dowody."
+    ru: "Он ушёл, утверждая, что у него есть доказательства."
+    source: { kind: authored }
+  - form: "twierdząc"
+    pl: "Nie twierdząc nic wprost, dał do zrozumienia."
+    ru: "Прямо ничего не утверждая, он дал понять."
+    source: { kind: authored }
+  - form: "twierdząca"
+    pl: "Odpowiedź twierdząca zamyka sprawę."
+    ru: "Утвердительный ответ закрывает дело."
+    source: { kind: authored }
+  - form: "twierdząca"
+    pl: "To forma twierdząca, nie pytająca."
+    ru: "Это утвердительная форма, а не вопросительная."
+    source: { kind: authored }
+  - form: "twierdząca"
+    pl: "Padła odpowiedź twierdząca."
+    ru: "Прозвучал утвердительный ответ."
+    source: { kind: authored }
+  - form: "twierdzącą"
+    pl: "Dał ci odpowiedź twierdzącą czy przeczącą?"
+    ru: "Он дал тебе утвердительный ответ или отрицательный?"
+    source: { kind: translated, id: 441244 }
+  - form: "twierdzącą"
+    pl: "Usłyszał odpowiedź twierdzącą."
+    ru: "Он услышал утвердительный ответ."
+    source: { kind: authored }
+  - form: "twierdzącą"
+    pl: "Uznali jego minę za twierdzącą."
+    ru: "Его выражение сочли утвердительным."
+    source: { kind: authored }
+  - form: "twierdzące"
+    pl: "Zdania twierdzące buduje się prościej."
+    ru: "Утвердительные предложения строятся проще."
+    source: { kind: authored }
+  - form: "twierdzące"
+    pl: "Otrzymali odpowiedzi twierdzące."
+    ru: "Они получили утвердительные ответы."
+    source: { kind: authored }
+  - form: "twierdzące"
+    pl: "To zdania twierdzące, nie przeczące."
+    ru: "Это утвердительные предложения, а не отрицательные."
+    source: { kind: authored }
+  - form: "twierdzącego"
+    pl: "Nie usłyszał nic twierdzącego."
+    ru: "Он не услышал ничего утвердительного."
+    source: { kind: authored }
+  - form: "twierdzącego"
+    pl: "Szukam zdania twierdzącego w tym tekście."
+    ru: "Я ищу утвердительное предложение в этом тексте."
+    source: { kind: authored }
+  - form: "twierdzącego"
+    pl: "Oczekiwali od niego twierdzącego gestu."
+    ru: "Они ждали от него утвердительного жеста."
+    source: { kind: authored }
+  - form: "twierdzącej"
+    pl: "Oczekiwali odpowiedzi twierdzącej."
+    ru: "Они ожидали утвердительного ответа."
+    source: { kind: authored }
+  - form: "twierdzącej"
+    pl: "Nie ma tu formy twierdzącej."
+    ru: "Утвердительной формы здесь нет."
+    source: { kind: authored }
+  - form: "twierdzącej"
+    pl: "Po odpowiedzi twierdzącej zamilkli."
+    ru: "После утвердительного ответа они умолкли."
+    source: { kind: authored }
+  - form: "twierdzącemu"
+    pl: "Nie ufa twierdzącemu bez dowodów."
+    ru: "Он не доверяет утверждающему без доказательств."
+    source: { kind: authored }
+  - form: "twierdzącemu"
+    pl: "Przyjrzał się twierdzącemu zdaniu."
+    ru: "Он присмотрелся к утвердительному предложению."
+    source: { kind: authored }
+  - form: "twierdzącemu"
+    pl: "Dał wiarę twierdzącemu świadkowi."
+    ru: "Он поверил утверждающему свидетелю."
+    source: { kind: authored }
+  - form: "twierdzący"
+    pl: "Twierdzący bez dowodów niewiele wnosi."
+    ru: "Утверждающий без доказательств мало что даёт."
+    source: { kind: authored }
+  - form: "twierdzący"
+    pl: "To tryb twierdzący."
+    ru: "Это утвердительная форма."
+    source: { kind: authored }
+  - form: "twierdzący"
+    pl: "Padł twierdzący gest głową."
+    ru: "Последовал утвердительный кивок головой."
+    source: { kind: authored }
+  - form: "twierdzących"
+    pl: "Wśród zdań twierdzących było i to."
+    ru: "Среди утвердительных предложений было и это."
+    source: { kind: authored }
+  - form: "twierdzących"
+    pl: "Nie ma tu odpowiedzi twierdzących."
+    ru: "Утвердительных ответов здесь нет."
+    source: { kind: authored }
+  - form: "twierdzących"
+    pl: "Szukam form twierdzących."
+    ru: "Я ищу утвердительные формы."
+    source: { kind: authored }
+  - form: "twierdzącym"
+    pl: "W zdaniu twierdzącym szyk jest prostszy."
+    ru: "В утвердительном предложении порядок проще."
+    source: { kind: authored }
+  - form: "twierdzącym"
+    pl: "Przyjrzał się twierdzącym odpowiedziom."
+    ru: "Он присмотрелся к утвердительным ответам."
+    source: { kind: authored }
+  - form: "twierdzącym"
+    pl: "Zajął się twierdzącym trybem wypowiedzi."
+    ru: "Он занялся утвердительной формой высказывания."
+    source: { kind: authored }
+  - form: "twierdzącymi"
+    pl: "Zajmuje się zdaniami twierdzącymi."
+    ru: "Он занимается утвердительными предложениями."
+    source: { kind: authored }
+  - form: "twierdzącymi"
+    pl: "Między zdaniami twierdzącymi a przeczącymi jest różnica."
+    ru: "Между утвердительными и отрицательными предложениями есть разница."
+    source: { kind: authored }
+  - form: "twierdzącymi"
+    pl: "Wrócił z odpowiedziami twierdzącymi."
+    ru: "Он вернулся с утвердительными ответами."
+    source: { kind: authored }
+  - form: "twierdzenia"
+    pl: "Oba twierdzenia są fałszywe."
+    ru: "Оба утверждения ложны."
+    source: { kind: translated, id: 10707663 }
+  - form: "twierdzenia"
+    pl: "Te twierdzenia nie mają naukowych podstaw."
+    ru: "У этих утверждений нет научных оснований."
+    source: { kind: translated, id: 8948709 }
+  - form: "twierdzenia"
+    pl: "Nie ma dowodu na poparcie tego twierdzenia."
+    ru: "Нет доказательства в поддержку этого утверждения."
+    source: { kind: authored }
+  - form: "twierdzenie"
+    pl: "Niezmienny rytm matematyki to definicja, twierdzenie, dowód."
+    ru: "Неизменный ритм математики: определение, теорема, доказательство."
+    source: { kind: translated, id: 6160498 }
+  - form: "twierdzenie"
+    pl: "Wykażemy teraz, jak przy pomocy tego lematu udowodnić nasze główne twierdzenie."
+    ru: "Теперь покажем, как с помощью этой леммы доказать нашу главную теорему."
+    source: { kind: translated, id: 367728 }
+  - form: "twierdzenie"
+    pl: "To twierdzenie wymaga dowodu."
+    ru: "Это утверждение требует доказательства."
+    source: { kind: authored }
+  - form: "twierdzeniem"
+    pl: "Nie zgadzam się z tym twierdzeniem."
+    ru: "Я не согласен с этим утверждением."
+    source: { kind: authored }
+  - form: "twierdzeniem"
+    pl: "Przed twierdzeniem warto mieć dowód."
+    ru: "Прежде чем утверждать, стоит иметь доказательство."
+    source: { kind: authored }
+  - form: "twierdzeniem"
+    pl: "Między twierdzeniem a dowodem jest przepaść."
+    ru: "Между утверждением и доказательством пропасть."
+    source: { kind: authored }
+  - form: "twierdzeniu"
+    pl: "W tym twierdzeniu jest błąd."
+    ru: "В этом утверждении есть ошибка."
+    source: { kind: authored }
+  - form: "twierdzeniu"
+    pl: "Mówili o twierdzeniu Pitagorasa."
+    ru: "Они говорили о теореме Пифагора."
+    source: { kind: authored }
+  - form: "twierdzeniu"
+    pl: "Po twierdzeniu następuje dowód."
+    ru: "За теоремой следует доказательство."
+    source: { kind: authored }
+  - form: "twierdzę"
+    pl: "Twierdzę, że to możliwe."
+    ru: "Я утверждаю, что это возможно."
+    source: { kind: authored }
+  - form: "twierdzę"
+    pl: "Niczego nie twierdzę na pewno."
+    ru: "Я ничего не утверждаю наверняка."
+    source: { kind: authored }
+  - form: "twierdzę"
+    pl: "Twierdzę coś wprost przeciwnego."
+    ru: "Я утверждаю прямо противоположное."
+    source: { kind: authored }
+  - form: "twierdzi"
+    pl: "Ona twierdzi, że była tam dwa razy, ale nie wierzę jej."
+    ru: "Она утверждает, что была там два раза, но я ей не верю."
+    source: { kind: tatoeba, id: 6154822 }
+  - form: "twierdzi"
+    pl: "Twierdzi, że jest malarzem."
+    ru: "Он утверждает, что он художник."
+    source: { kind: translated, id: 1613954 }
+  - form: "twierdzi"
+    pl: "Nikt tego nie twierdzi."
+    ru: "Этого никто не утверждает."
+    source: { kind: authored }
+  - form: "twierdzicie"
+    pl: "Twierdzicie, że nic nie wiecie?"
+    ru: "Вы утверждаете, что ничего не знаете?"
+    source: { kind: authored }
+  - form: "twierdzicie"
+    pl: "Co właściwie twierdzicie?"
+    ru: "Что вы, собственно, утверждаете?"
+    source: { kind: authored }
+  - form: "twierdzicie"
+    pl: "Twierdzicie coś zupełnie innego."
+    ru: "Вы утверждаете совсем другое."
+    source: { kind: authored }
+  - form: "twierdzić"
+    pl: "Śmiem twierdzić, że on jest niewinny."
+    ru: "Смею утверждать, что он невиновен."
+    source: { kind: translated, id: 7304023 }
+  - form: "twierdzić"
+    pl: "Ośmielam się twierdzić, że jest niewinny."
+    ru: "Осмелюсь утверждать, что он невиновен."
+    source: { kind: translated, id: 1086534 }
+  - form: "twierdzić"
+    pl: "Trudno twierdzić coś na pewno."
+    ru: "Трудно утверждать что-то наверняка."
+    source: { kind: authored }
+  - form: "twierdzili"
+    pl: "Twierdzili, że obniżka podatków była jej zasługą."
+    ru: "Они утверждали, что снижение налогов — её заслуга."
+    source: { kind: translated, id: 603046 }
+  - form: "twierdzili"
+    pl: "Twierdzili, że nic nie wiedzieli."
+    ru: "Они утверждали, что ничего не знали."
+    source: { kind: authored }
+  - form: "twierdzili"
+    pl: "Zawsze twierdzili swoje."
+    ru: "Они всегда стояли на своём."
+    source: { kind: authored }
+  - form: "twierdziliby"
+    pl: "Twierdziliby swoje do końca."
+    ru: "Они стояли бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziliby"
+    pl: "Nie twierdziliby tak bez dowodów."
+    ru: "Они не утверждали бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziliby"
+    pl: "Twierdziliby, że nic nie wiedzą."
+    ru: "Они утверждали бы, что ничего не знают."
+    source: { kind: authored }
+  - form: "twierdzilibyście"
+    pl: "Twierdzilibyście tak bez dowodów?"
+    ru: "Вы утверждали бы так без доказательств?"
+    source: { kind: authored }
+  - form: "twierdzilibyście"
+    pl: "Nie twierdzilibyście nic wprost."
+    ru: "Вы не утверждали бы ничего прямо."
+    source: { kind: authored }
+  - form: "twierdzilibyście"
+    pl: "Twierdzilibyście swoje do końca."
+    ru: "Вы стояли бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdzilibyśmy"
+    pl: "Nie twierdzilibyśmy tak bez dowodów."
+    ru: "Мы не утверждали бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdzilibyśmy"
+    pl: "Twierdzilibyśmy swoje do końca."
+    ru: "Мы стояли бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdzilibyśmy"
+    pl: "Twierdzilibyśmy coś przeciwnego."
+    ru: "Мы утверждали бы противоположное."
+    source: { kind: authored }
+  - form: "twierdziliście"
+    pl: "Twierdziliście, że nic nie wiecie."
+    ru: "Вы утверждали, что ничего не знаете."
+    source: { kind: authored }
+  - form: "twierdziliście"
+    pl: "Wcześniej twierdziliście inaczej."
+    ru: "Раньше вы утверждали иначе."
+    source: { kind: authored }
+  - form: "twierdziliście"
+    pl: "Co właściwie twierdziliście?"
+    ru: "Что вы, собственно, утверждали?"
+    source: { kind: authored }
+  - form: "twierdziliśmy"
+    pl: "Twierdziliśmy, że to możliwe."
+    ru: "Мы утверждали, что это возможно."
+    source: { kind: authored }
+  - form: "twierdziliśmy"
+    pl: "Nigdy tego nie twierdziliśmy."
+    ru: "Мы никогда этого не утверждали."
+    source: { kind: authored }
+  - form: "twierdziliśmy"
+    pl: "Twierdziliśmy swoje do końca."
+    ru: "Мы стояли на своём до конца."
+    source: { kind: authored }
+  - form: "twierdził"
+    pl: "Twierdził, że jest niewinny."
+    ru: "Он настаивал на том, что он невиновен."
+    source: { kind: tatoeba, id: 736790 }
+  - form: "twierdził"
+    pl: "Tom twierdził, że widział UFO."
+    ru: "Том утверждал, что видел НЛО."
+    source: { kind: translated, id: 5224026 }
+  - form: "twierdził"
+    pl: "Twierdził, że nic nie wiedział."
+    ru: "Он утверждал, что ничего не знал."
+    source: { kind: authored }
+  - form: "twierdziła"
+    pl: "Pomimo, że Mary twierdziła, że da radę to zrobić, to nie podołała."
+    ru: "Хотя Мэри утверждала, что справится, она не справилась."
+    source: { kind: translated, id: 9684364 }
+  - form: "twierdziła"
+    pl: "Twierdziła, że nic nie wiedziała."
+    ru: "Она утверждала, что ничего не знала."
+    source: { kind: authored }
+  - form: "twierdziła"
+    pl: "Twierdziła coś zupełnie innego."
+    ru: "Она утверждала совсем другое."
+    source: { kind: authored }
+  - form: "twierdziłaby"
+    pl: "Twierdziłaby swoje do końca."
+    ru: "Она стояла бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłaby"
+    pl: "Nie twierdziłaby tak bez dowodów."
+    ru: "Она не утверждала бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłaby"
+    pl: "Twierdziłaby, że nic nie wie."
+    ru: "Она утверждала бы, что ничего не знает."
+    source: { kind: authored }
+  - form: "twierdziłabym"
+    pl: "Nie twierdziłabym tak bez dowodów."
+    ru: "Я не утверждала бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłabym"
+    pl: "Twierdziłabym swoje do końca."
+    ru: "Я стояла бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłabym"
+    pl: "Twierdziłabym coś przeciwnego."
+    ru: "Я утверждала бы противоположное."
+    source: { kind: authored }
+  - form: "twierdziłabyś"
+    pl: "Twierdziłabyś tak bez dowodów?"
+    ru: "Ты утверждала бы так без доказательств?"
+    source: { kind: authored }
+  - form: "twierdziłabyś"
+    pl: "Nie twierdziłabyś nic wprost."
+    ru: "Ты не утверждала бы ничего прямо."
+    source: { kind: authored }
+  - form: "twierdziłabyś"
+    pl: "Twierdziłabyś swoje do końca."
+    ru: "Ты стояла бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłam"
+    pl: "Twierdziłam, że to możliwe."
+    ru: "Я утверждала, что это возможно."
+    source: { kind: authored }
+  - form: "twierdziłam"
+    pl: "Nigdy tego nie twierdziłam."
+    ru: "Я никогда этого не утверждала."
+    source: { kind: authored }
+  - form: "twierdziłam"
+    pl: "Twierdziłam swoje do końca."
+    ru: "Я стояла на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłaś"
+    pl: "Twierdziłaś, że kochasz Toma."
+    ru: "Ты утверждала, что любишь Тома."
+    source: { kind: translated, id: 6157416 }
+  - form: "twierdziłaś"
+    pl: "Twierdziłaś, że nic nie wiesz."
+    ru: "Ты утверждала, что ничего не знаешь."
+    source: { kind: authored }
+  - form: "twierdziłaś"
+    pl: "Wcześniej twierdziłaś inaczej."
+    ru: "Раньше ты утверждала иначе."
+    source: { kind: authored }
+  - form: "twierdziłby"
+    pl: "Twierdziłby swoje do końca."
+    ru: "Он стоял бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłby"
+    pl: "Nie twierdziłby tak bez dowodów."
+    ru: "Он не утверждал бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłby"
+    pl: "Twierdziłby, że nic nie wie."
+    ru: "Он утверждал бы, что ничего не знает."
+    source: { kind: authored }
+  - form: "twierdziłbym"
+    pl: "Nie twierdziłbym tak bez dowodów."
+    ru: "Я не утверждал бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłbym"
+    pl: "Twierdziłbym swoje do końca."
+    ru: "Я стоял бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłbym"
+    pl: "Twierdziłbym coś przeciwnego."
+    ru: "Я утверждал бы противоположное."
+    source: { kind: authored }
+  - form: "twierdziłbyś"
+    pl: "Twierdziłbyś tak bez dowodów?"
+    ru: "Ты утверждал бы так без доказательств?"
+    source: { kind: authored }
+  - form: "twierdziłbyś"
+    pl: "Nie twierdziłbyś nic wprost."
+    ru: "Ты не утверждал бы ничего прямо."
+    source: { kind: authored }
+  - form: "twierdziłbyś"
+    pl: "Twierdziłbyś swoje do końca."
+    ru: "Ты стоял бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłem"
+    pl: "Nigdy nie twierdziłem, że potrafię mówić po francusku."
+    ru: "Я никогда не утверждал, что умею говорить по-французски."
+    source: { kind: translated, id: 4812945 }
+  - form: "twierdziłem"
+    pl: "Twierdziłem, że to możliwe."
+    ru: "Я утверждал, что это возможно."
+    source: { kind: authored }
+  - form: "twierdziłem"
+    pl: "Nigdy tego nie twierdziłem."
+    ru: "Я никогда этого не утверждал."
+    source: { kind: authored }
+  - form: "twierdziłeś"
+    pl: "Twierdziłeś, że nic nie wiesz."
+    ru: "Ты утверждал, что ничего не знаешь."
+    source: { kind: authored }
+  - form: "twierdziłeś"
+    pl: "Wcześniej twierdziłeś inaczej."
+    ru: "Раньше ты утверждал иначе."
+    source: { kind: authored }
+  - form: "twierdziłeś"
+    pl: "Co właściwie twierdziłeś?"
+    ru: "Что ты, собственно, утверждал?"
+    source: { kind: authored }
+  - form: "twierdziło"
+    pl: "Wiele osób twierdziło to samo."
+    ru: "Многие утверждали то же самое."
+    source: { kind: authored }
+  - form: "twierdziło"
+    pl: "Dziecko twierdziło, że nic nie wzięło."
+    ru: "Ребёнок утверждал, что ничего не брал."
+    source: { kind: authored }
+  - form: "twierdziło"
+    pl: "Żadne z nich nie twierdziło inaczej."
+    ru: "Никто из них не утверждал иначе."
+    source: { kind: authored }
+  - form: "twierdziłoby"
+    pl: "Wiele osób twierdziłoby to samo."
+    ru: "Многие утверждали бы то же самое."
+    source: { kind: authored }
+  - form: "twierdziłoby"
+    pl: "Dziecko twierdziłoby swoje."
+    ru: "Ребёнок стоял бы на своём."
+    source: { kind: authored }
+  - form: "twierdziłoby"
+    pl: "Żadne z nich nie twierdziłoby inaczej."
+    ru: "Никто из них не утверждал бы иначе."
+    source: { kind: authored }
+  - form: "twierdziły"
+    pl: "Gazety twierdziły co innego."
+    ru: "Газеты утверждали другое."
+    source: { kind: authored }
+  - form: "twierdziły"
+    pl: "Obie strony twierdziły swoje."
+    ru: "Обе стороны стояли на своём."
+    source: { kind: authored }
+  - form: "twierdziły"
+    pl: "Dziewczyny twierdziły, że nic nie wiedzą."
+    ru: "Девочки утверждали, что ничего не знают."
+    source: { kind: authored }
+  - form: "twierdziłyby"
+    pl: "Gazety twierdziłyby co innego."
+    ru: "Газеты утверждали бы другое."
+    source: { kind: authored }
+  - form: "twierdziłyby"
+    pl: "Obie strony twierdziłyby swoje."
+    ru: "Обе стороны стояли бы на своём."
+    source: { kind: authored }
+  - form: "twierdziłyby"
+    pl: "Nie twierdziłyby tak bez dowodów."
+    ru: "Они не утверждали бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłybyście"
+    pl: "Twierdziłybyście tak bez dowodów?"
+    ru: "Вы утверждали бы так без доказательств?"
+    source: { kind: authored }
+  - form: "twierdziłybyście"
+    pl: "Nie twierdziłybyście nic wprost."
+    ru: "Вы не утверждали бы ничего прямо."
+    source: { kind: authored }
+  - form: "twierdziłybyście"
+    pl: "Twierdziłybyście swoje do końca."
+    ru: "Вы стояли бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłybyśmy"
+    pl: "Nie twierdziłybyśmy tak bez dowodów."
+    ru: "Мы не утверждали бы так без доказательств."
+    source: { kind: authored }
+  - form: "twierdziłybyśmy"
+    pl: "Twierdziłybyśmy swoje do końca."
+    ru: "Мы стояли бы на своём до конца."
+    source: { kind: authored }
+  - form: "twierdziłybyśmy"
+    pl: "Twierdziłybyśmy coś przeciwnego."
+    ru: "Мы утверждали бы противоположное."
+    source: { kind: authored }
+  - form: "twierdziłyście"
+    pl: "Twierdziłyście, że nic nie wiecie."
+    ru: "Вы утверждали, что ничего не знаете."
+    source: { kind: authored }
+  - form: "twierdziłyście"
+    pl: "Wcześniej twierdziłyście inaczej."
+    ru: "Раньше вы утверждали иначе."
+    source: { kind: authored }
+  - form: "twierdziłyście"
+    pl: "Co właściwie twierdziłyście?"
+    ru: "Что вы, собственно, утверждали?"
+    source: { kind: authored }
+  - form: "twierdziłyśmy"
+    pl: "Twierdziłyśmy, że to możliwe."
+    ru: "Мы утверждали, что это возможно."
+    source: { kind: authored }
+  - form: "twierdziłyśmy"
+    pl: "Nigdy tego nie twierdziłyśmy."
+    ru: "Мы никогда этого не утверждали."
+    source: { kind: authored }
+  - form: "twierdziłyśmy"
+    pl: "Twierdziłyśmy swoje do końca."
+    ru: "Мы стояли на своём до конца."
+    source: { kind: authored }
+  - form: "twierdzimy"
+    pl: "Twierdzimy, że to możliwe."
+    ru: "Мы утверждаем, что это возможно."
+    source: { kind: authored }
+  - form: "twierdzimy"
+    pl: "Niczego nie twierdzimy na pewno."
+    ru: "Мы ничего не утверждаем наверняка."
+    source: { kind: authored }
+  - form: "twierdzimy"
+    pl: "Twierdzimy coś wprost przeciwnego."
+    ru: "Мы утверждаем прямо противоположное."
+    source: { kind: authored }
+  - form: "twierdzisz"
+    pl: "Twierdzisz, że nie zamierzasz tego robić?"
+    ru: "Ты утверждаешь, что не собираешься этого делать?"
+    source: { kind: translated, id: 7970923 }
+  - form: "twierdzisz"
+    pl: "Twierdzisz, że to nieprawda?"
+    ru: "Ты утверждаешь, что это неправда?"
+    source: { kind: authored }
+  - form: "twierdzisz"
+    pl: "Co właściwie twierdzisz?"
+    ru: "Что ты, собственно, утверждаешь?"
+    source: { kind: authored }
+  - form: "twierdzono"
+    pl: "Dawniej twierdzono, że Ziemia jest płaska."
+    ru: "Раньше утверждали, что Земля плоская."
+    source: { kind: authored }
+  - form: "twierdzono"
+    pl: "Twierdzono tak przez wieki."
+    ru: "Так утверждали веками."
+    source: { kind: authored }
+  - form: "twierdzono"
+    pl: "Nigdy tego nie twierdzono wprost."
+    ru: "Прямо этого никогда не утверждали."
+    source: { kind: authored }
+  - form: "twierdź"
+    pl: "Nie twierdź nic bez dowodu."
+    ru: "Не утверждай ничего без доказательства."
+    source: { kind: authored }
+  - form: "twierdź"
+    pl: "Twierdź to, w co wierzysz."
+    ru: "Утверждай то, во что веришь."
+    source: { kind: authored }
+  - form: "twierdź"
+    pl: "Nie twierdź czegoś, czego nie wiesz."
+    ru: "Не утверждай того, чего не знаешь."
+    source: { kind: authored }
+  - form: "twierdźcie"
+    pl: "Nie twierdźcie nic bez dowodu."
+    ru: "Не утверждайте ничего без доказательства."
+    source: { kind: authored }
+  - form: "twierdźcie"
+    pl: "Twierdźcie to, w co wierzycie."
+    ru: "Утверждайте то, во что верите."
+    source: { kind: authored }
+  - form: "twierdźcie"
+    pl: "Nie twierdźcie czegoś, czego nie wiecie."
+    ru: "Не утверждайте того, чего не знаете."
+    source: { kind: authored }
+  - form: "twierdźmy"
+    pl: "Nie twierdźmy nic bez dowodu."
+    ru: "Не будем утверждать ничего без доказательства."
+    source: { kind: authored }
+  - form: "twierdźmy"
+    pl: "Twierdźmy to, w co wierzymy."
+    ru: "Будем утверждать то, во что верим."
+    source: { kind: authored }
+  - form: "twierdźmy"
+    pl: "Nie twierdźmy zbyt pochopnie."
+    ru: "Не будем утверждать слишком поспешно."
+    source: { kind: authored }

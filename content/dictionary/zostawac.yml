@@ -1,0 +1,705 @@
+# review
+id: zostawac
+format: 2
+lemma: "zostawać"
+rank: 778
+pos: verb
+aspect: imperf
+aspectPair: zostac
+pron: { cyr: "зоста́ваць" }
+senses:
+  - id: stay
+    ru: "оставаться"
+    examples:
+      - pl: "Idziesz czy zostajesz?"
+        ru: "Ты идёшь или остаёшься?"
+        source: { kind: tatoeba, id: 981792 }
+      - pl: "Zostajesz tam."
+        ru: "Ты остаёшься там."
+        source: { kind: translated, id: 8725854 }
+      - pl: "Zostaję w domu."
+        ru: "Я остаюсь дома."
+        source: { kind: translated, id: 5326063 }
+  - id: become
+    ru: "zostawać KIMŚ — становиться кем-л. (творительный!)"
+    note: "Второе значение, неожиданное для русского уха."
+    examples:
+      - pl: "Niewiele kobiet zostaje matkami."
+        ru: "Немногие женщины становятся матерями."
+        source: { kind: tatoeba, id: 668685 }
+      - pl: "Przez trzy lata zostawałem pracownikiem roku."
+        ru: "Три года подряд я становился работником года."
+        source: { kind: translated, id: 3886415 }
+      - pl: "Po studiach zostaje lekarzem."
+        ru: "После учёбы он становится врачом."
+        source: { kind: authored }
+  - id: stay-long
+    ru: "zostawać na długo — оставаться надолго"
+    examples:
+      - pl: "On zostaje na długo za każdym razem, kiedy przyjeżdża."
+        ru: "Он остается надолго всякий раз, как приедет."
+        source: { kind: tatoeba, id: 3660842 }
+      - pl: "Po prostu nie lubię zostawać z tyłu."
+        ru: "Я просто не люблю оставаться позади."
+        source: { kind: translated, id: 3897612 }
+      - pl: "Zimą zostajemy chętnie w domu."
+        ru: "Зимой мы охотно остаёмся дома."
+        source: { kind: translated, id: 4953547 }
+  - id: aspect
+    ru: "zostawać — процесс; zostać — один раз"
+    examples:
+      - pl: "Oni zostają, ja idę."
+        ru: "Они остаются, я ухожу."
+        source: { kind: translated, id: 12905149 }
+      - pl: "Zostajemy."
+        ru: "Мы остаёмся."
+        source: { kind: translated, id: 8746803 }
+      - pl: "Nie zostawaj w tyle!"
+        ru: "Не отставай!"
+        source: { kind: translated, id: 4746932 }
+notes:
+  - { kind: government, text: "Два значения, и второе — главное отличие от русского. zostawać значит «оставаться» (Zostaję w domu) и «становиться» (Niewiele kobiet zostaje matkami «Немногие женщины становятся матерями»). Во втором значении нужен творительный падеж: zostać lekarzem, zostać matką." }
+  - { kind: usage, text: "Совершенный вид — zostać, и он же строит страдательный залог: został zwolniony «его уволили», dom został sprzedany «дом был продан»." }
+  - { kind: usage, text: "nie zostawać w tyle — «не отставать», буквально «не оставаться позади»." }
+  - { kind: usage, text: "Родня: zostać «остаться; стать», zostawić «оставить (что-то где-то)», pozostawać «пребывать». Не путайте zostawać «оставаться» и zostawiać «оставлять»." }
+collocations:
+  - { pl: "zostawać w domu", ru: "оставаться дома" }
+  - { pl: "zostać kimś", ru: "стать кем-либо" }
+  - { pl: "nie zostawać w tyle", ru: "не отставать" }
+  - { pl: "zostać lekarzem", ru: "стать врачом" }
+family:
+  - { pl: "zostać", ru: "остаться; стать", relation: aspect }
+  - { pl: "stać", ru: "стоять", relation: root }
+  - { pl: "zostawić", ru: "оставить", relation: root }
+  - { pl: "pozostawać", ru: "пребывать", relation: root }
+etymology: "za- + stawać, от stać «стоять» — то же гнездо, что русские «оставаться» и «стать»."
+memory: "zostawać работает на два значения. Первое ожидаемое — «оставаться»: Zostaję w domu. Второе неожиданное — «становиться», и там нужен творительный падеж: Niewiele kobiet zostaje matkami «Немногие женщины становятся матерями». Совершенный вид zostać вдобавок строит страдательный залог: został zwolniony «его уволили»."
+idioms:
+  - { pl: "nie zostawać w tyle", ru: "не отставать" }
+  - { pl: "zostać kimś", ru: "стать кем-либо" }
+  - { pl: "zostawać w domu", ru: "оставаться дома" }
+formExamples:
+  - form: "zostają"
+    pl: "Oni zostają, ja idę."
+    ru: "Они остаются, я ухожу."
+    source: { kind: translated, id: 12905149 }
+  - form: "zostają"
+    pl: "W dzisiejszych czasach wszyscy nosimy maski, a Ci którzy odważą się je zdjąć zostają odtrąceni."
+    ru: "Сегодня все мы носим маски, а те, кто решается их снять, оказываются отвергнутыми."
+    source: { kind: translated, id: 10756408 }
+  - form: "zostają"
+    pl: "Zostają w domu na weekend."
+    ru: "Они остаются дома на выходные."
+    source: { kind: authored }
+  - form: "zostając"
+    pl: "Zostając w domu, uniknął burzy."
+    ru: "Оставшись дома, он избежал грозы."
+    source: { kind: authored }
+  - form: "zostając"
+    pl: "Zostając lekarzem, spełnił marzenie."
+    ru: "Став врачом, он исполнил мечту."
+    source: { kind: authored }
+  - form: "zostając"
+    pl: "Nie zostając w tyle, dogonił grupę."
+    ru: "Не отставая, он догнал группу."
+    source: { kind: authored }
+  - form: "zostająca"
+    pl: "Osoba zostająca w tyle traci kontakt z grupą."
+    ru: "Человек, отстающий от группы, теряет с ней связь."
+    source: { kind: authored }
+  - form: "zostająca"
+    pl: "To jedyna zostająca na noc pielęgniarka."
+    ru: "Это единственная медсестра, остающаяся на ночь."
+    source: { kind: authored }
+  - form: "zostająca"
+    pl: "Zostająca w domu matka też pracuje."
+    ru: "Мать, остающаяся дома, тоже работает."
+    source: { kind: authored }
+  - form: "zostającą"
+    pl: "Znam osobę zostającą zawsze do końca."
+    ru: "Я знаю человека, всегда остающегося до конца."
+    source: { kind: authored }
+  - form: "zostającą"
+    pl: "Widziałem grupę zostającą na noc."
+    ru: "Я видел группу, остающуюся на ночь."
+    source: { kind: authored }
+  - form: "zostającą"
+    pl: "Zauważył osobę zostającą w tyle."
+    ru: "Он заметил человека, отстающего от группы."
+    source: { kind: authored }
+  - form: "zostające"
+    pl: "Dzieci zostające w domu nudzą się."
+    ru: "Дети, остающиеся дома, скучают."
+    source: { kind: authored }
+  - form: "zostające"
+    pl: "Zostające resztki wyrzucamy."
+    ru: "Остающиеся объедки мы выбрасываем."
+    source: { kind: authored }
+  - form: "zostające"
+    pl: "To osoby zostające na noc."
+    ru: "Это люди, остающиеся на ночь."
+    source: { kind: authored }
+  - form: "zostającego"
+    pl: "Szukam kogoś zostającego na noc."
+    ru: "Я ищу кого-нибудь, остающегося на ночь."
+    source: { kind: authored }
+  - form: "zostającego"
+    pl: "Nie ma tu nikogo zostającego do końca."
+    ru: "Здесь нет никого, кто остаётся до конца."
+    source: { kind: authored }
+  - form: "zostającego"
+    pl: "Dotyczy to ucznia zostającego w tyle."
+    ru: "Это касается ученика, отстающего от класса."
+    source: { kind: authored }
+  - form: "zostającej"
+    pl: "Szukam osoby zostającej na noc."
+    ru: "Я ищу человека, остающегося на ночь."
+    source: { kind: authored }
+  - form: "zostającej"
+    pl: "Nie ma tu grupy zostającej do końca."
+    ru: "Здесь нет группы, остающейся до конца."
+    source: { kind: authored }
+  - form: "zostającej"
+    pl: "Dotyczy to uczennicy zostającej w tyle."
+    ru: "Это касается ученицы, отстающей от класса."
+    source: { kind: authored }
+  - form: "zostającemu"
+    pl: "Przyjrzał się zostającemu w tyle uczniowi."
+    ru: "Он присмотрелся к отстающему ученику."
+    source: { kind: authored }
+  - form: "zostającemu"
+    pl: "Dziękowali zostającemu na noc lekarzowi."
+    ru: "Они благодарили врача, остающегося на ночь."
+    source: { kind: authored }
+  - form: "zostającemu"
+    pl: "Nie ufa zostającemu bez powodu gościowi."
+    ru: "Он не доверяет гостю, остающемуся без причины."
+    source: { kind: authored }
+  - form: "zostający"
+    pl: "Zostający w tyle uczeń potrzebuje pomocy."
+    ru: "Отстающий ученик нуждается в помощи."
+    source: { kind: authored }
+  - form: "zostający"
+    pl: "To lekarz zostający na noc."
+    ru: "Это врач, остающийся на ночь."
+    source: { kind: authored }
+  - form: "zostający"
+    pl: "Zostający do końca widzowie bili brawo."
+    ru: "Зрители, оставшиеся до конца, аплодировали."
+    source: { kind: authored }
+  - form: "zostających"
+    pl: "Mało jest osób zostających do końca."
+    ru: "Мало людей, остающихся до конца."
+    source: { kind: authored }
+  - form: "zostających"
+    pl: "Wśród zostających na noc był i on."
+    ru: "Среди остающихся на ночь был и он."
+    source: { kind: authored }
+  - form: "zostających"
+    pl: "Szukają lekarzy zostających na dyżur."
+    ru: "Они ищут врачей, остающихся на дежурство."
+    source: { kind: authored }
+  - form: "zostającym"
+    pl: "Był człowiekiem zostającym zawsze do końca."
+    ru: "Он был человеком, всегда остающимся до конца."
+    source: { kind: authored }
+  - form: "zostającym"
+    pl: "Przyjrzał się zostającym w tyle uczniom."
+    ru: "Он присмотрелся к отстающим ученикам."
+    source: { kind: authored }
+  - form: "zostającym"
+    pl: "Mówili o lekarzu zostającym na noc."
+    ru: "Они говорили о враче, остающемся на ночь."
+    source: { kind: authored }
+  - form: "zostającymi"
+    pl: "Pracuje z osobami zostającymi na noc."
+    ru: "Он работает с людьми, остающимися на ночь."
+    source: { kind: authored }
+  - form: "zostającymi"
+    pl: "Zajmuje się uczniami zostającymi w tyle."
+    ru: "Он занимается отстающими учениками."
+    source: { kind: authored }
+  - form: "zostającymi"
+    pl: "Między zostającymi a wychodzącymi jest różnica."
+    ru: "Между остающимися и уходящими есть разница."
+    source: { kind: authored }
+  - form: "zostaje"
+    pl: "Niewiele kobiet zostaje matkami."
+    ru: "Немногие женщины становятся матерями."
+    source: { kind: tatoeba, id: 668685 }
+  - form: "zostaje"
+    pl: "On zostaje na długo za każdym razem, kiedy przyjeżdża."
+    ru: "Он остается надолго всякий раз, как приедет."
+    source: { kind: tatoeba, id: 3660842 }
+  - form: "zostaje"
+    pl: "Zostaje mi tylko czekać."
+    ru: "Мне остаётся только ждать."
+    source: { kind: authored }
+  - form: "zostajecie"
+    pl: "Zostajecie czy idziecie?"
+    ru: "Вы остаётесь или идёте?"
+    source: { kind: authored }
+  - form: "zostajecie"
+    pl: "Zostajecie do końca?"
+    ru: "Вы остаётесь до конца?"
+    source: { kind: authored }
+  - form: "zostajecie"
+    pl: "Zostajecie w tyle."
+    ru: "Вы отстаёте."
+    source: { kind: authored }
+  - form: "zostajemy"
+    pl: "Zostajemy."
+    ru: "Мы остаёмся."
+    source: { kind: translated, id: 8746803 }
+  - form: "zostajemy"
+    pl: "Zimą zostajemy chętnie w domu."
+    ru: "Зимой мы охотно остаёмся дома."
+    source: { kind: translated, id: 4953547 }
+  - form: "zostajemy"
+    pl: "Zostajemy do końca."
+    ru: "Мы остаёмся до конца."
+    source: { kind: authored }
+  - form: "zostajesz"
+    pl: "Idziesz czy zostajesz?"
+    ru: "Ты идёшь или остаёшься?"
+    source: { kind: tatoeba, id: 981792 }
+  - form: "zostajesz"
+    pl: "Zostajesz tam."
+    ru: "Ты остаёшься там."
+    source: { kind: translated, id: 8725854 }
+  - form: "zostajesz"
+    pl: "Zostajesz czy idziesz?"
+    ru: "Ты остаёшься или идёшь?"
+    source: { kind: authored }
+  - form: "zostaję"
+    pl: "Zostaję w domu."
+    ru: "Я остаюсь дома."
+    source: { kind: translated, id: 5326063 }
+  - form: "zostaję"
+    pl: "Zostaję w Osace."
+    ru: "Я остаюсь в Осаке."
+    source: { kind: translated, id: 357838 }
+  - form: "zostaję"
+    pl: "Zostaję do końca."
+    ru: "Я остаюсь до конца."
+    source: { kind: authored }
+  - form: "zostawać"
+    pl: "Po prostu nie lubię zostawać z tyłu."
+    ru: "Я просто не люблю оставаться позади."
+    source: { kind: translated, id: 3897612 }
+  - form: "zostawać"
+    pl: "Nie mam zamiaru zostawać tu w Bostonie."
+    ru: "Я не собираюсь оставаться тут, в Бостоне."
+    source: { kind: translated, id: 3828585 }
+  - form: "zostawać"
+    pl: "Nie chcę zostawać sam."
+    ru: "Я не хочу оставаться один."
+    source: { kind: authored }
+  - form: "zostawaj"
+    pl: "Nie zostawaj w tyle!"
+    ru: "Не отставай!"
+    source: { kind: translated, id: 4746932 }
+  - form: "zostawaj"
+    pl: "Lepiej nie zostawaj tu dłużej."
+    ru: "Лучше не оставайся тут дольше."
+    source: { kind: translated, id: 670427 }
+  - form: "zostawaj"
+    pl: "Zostawaj w domu, jest zimno."
+    ru: "Оставайся дома, холодно."
+    source: { kind: authored }
+  - form: "zostawajcie"
+    pl: "Zostawajcie w domu, jest zimno."
+    ru: "Оставайтесь дома, холодно."
+    source: { kind: authored }
+  - form: "zostawajcie"
+    pl: "Nie zostawajcie w tyle!"
+    ru: "Не отставайте!"
+    source: { kind: authored }
+  - form: "zostawajcie"
+    pl: "Zostawajcie do końca."
+    ru: "Оставайтесь до конца."
+    source: { kind: authored }
+  - form: "zostawajmy"
+    pl: "Zostawajmy do końca."
+    ru: "Останемся до конца."
+    source: { kind: authored }
+  - form: "zostawajmy"
+    pl: "Nie zostawajmy w tyle."
+    ru: "Не будем отставать."
+    source: { kind: authored }
+  - form: "zostawajmy"
+    pl: "Zostawajmy w domu przy takiej pogodzie."
+    ru: "Будем оставаться дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawali"
+    pl: "Zostawali w domu całą zimę."
+    ru: "Они оставались дома всю зиму."
+    source: { kind: authored }
+  - form: "zostawali"
+    pl: "Często zostawali do końca."
+    ru: "Они часто оставались до конца."
+    source: { kind: authored }
+  - form: "zostawali"
+    pl: "Zostawali w tyle na podbiegach."
+    ru: "Они отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawaliby"
+    pl: "Zostawaliby do końca, gdyby mogli."
+    ru: "Они оставались бы до конца, если бы могли."
+    source: { kind: authored }
+  - form: "zostawaliby"
+    pl: "Nie zostawaliby w tyle."
+    ru: "Они не отставали бы."
+    source: { kind: authored }
+  - form: "zostawaliby"
+    pl: "Zostawaliby w domu przy takiej pogodzie."
+    ru: "Они оставались бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawalibyście"
+    pl: "Zostawalibyście do końca?"
+    ru: "Вы оставались бы до конца?"
+    source: { kind: authored }
+  - form: "zostawalibyście"
+    pl: "Nie zostawalibyście w tyle."
+    ru: "Вы не отставали бы."
+    source: { kind: authored }
+  - form: "zostawalibyście"
+    pl: "Zostawalibyście w domu?"
+    ru: "Вы оставались бы дома?"
+    source: { kind: authored }
+  - form: "zostawalibyśmy"
+    pl: "Zostawalibyśmy do końca, gdybyśmy mogli."
+    ru: "Мы оставались бы до конца, если бы могли."
+    source: { kind: authored }
+  - form: "zostawalibyśmy"
+    pl: "Nie zostawalibyśmy w tyle."
+    ru: "Мы не отставали бы."
+    source: { kind: authored }
+  - form: "zostawalibyśmy"
+    pl: "Zostawalibyśmy w domu przy takiej pogodzie."
+    ru: "Мы оставались бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawaliście"
+    pl: "Zostawaliście do końca?"
+    ru: "Вы оставались до конца?"
+    source: { kind: authored }
+  - form: "zostawaliście"
+    pl: "Często zostawaliście w domu."
+    ru: "Вы часто оставались дома."
+    source: { kind: authored }
+  - form: "zostawaliście"
+    pl: "Zostawaliście w tyle na podbiegach."
+    ru: "Вы отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawaliśmy"
+    pl: "Zostawaliśmy do końca."
+    ru: "Мы оставались до конца."
+    source: { kind: authored }
+  - form: "zostawaliśmy"
+    pl: "Często zostawaliśmy w domu."
+    ru: "Мы часто оставались дома."
+    source: { kind: authored }
+  - form: "zostawaliśmy"
+    pl: "Zostawaliśmy w tyle na podbiegach."
+    ru: "Мы отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawał"
+    pl: "Zawsze zostawał do końca."
+    ru: "Он всегда оставался до конца."
+    source: { kind: authored }
+  - form: "zostawał"
+    pl: "Zostawał w domu przez całą zimę."
+    ru: "Он оставался дома всю зиму."
+    source: { kind: authored }
+  - form: "zostawał"
+    pl: "Co roku zostawał mistrzem."
+    ru: "Каждый год он становился чемпионом."
+    source: { kind: authored }
+  - form: "zostawała"
+    pl: "Ona odwiedza go częściej, ale nigdy długo nie zostawała."
+    ru: "Она навещает его чаще, но никогда не оставалась надолго."
+    source: { kind: translated, id: 4516045 }
+  - form: "zostawała"
+    pl: "Zawsze zostawała do końca."
+    ru: "Она всегда оставалась до конца."
+    source: { kind: authored }
+  - form: "zostawała"
+    pl: "Zostawała w tyle na każdym podbiegu."
+    ru: "Она отставала на каждом подъёме."
+    source: { kind: authored }
+  - form: "zostawałaby"
+    pl: "Zostawałaby do końca, gdyby mogła."
+    ru: "Она оставалась бы до конца, если бы могла."
+    source: { kind: authored }
+  - form: "zostawałaby"
+    pl: "Nie zostawałaby w tyle."
+    ru: "Она не отставала бы."
+    source: { kind: authored }
+  - form: "zostawałaby"
+    pl: "Zostawałaby w domu przy takiej pogodzie."
+    ru: "Она оставалась бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałabym"
+    pl: "Zostawałabym do końca, gdybym mogła."
+    ru: "Я оставалась бы до конца, если бы могла."
+    source: { kind: authored }
+  - form: "zostawałabym"
+    pl: "Nie zostawałabym w tyle."
+    ru: "Я не отставала бы."
+    source: { kind: authored }
+  - form: "zostawałabym"
+    pl: "Zostawałabym w domu przy takiej pogodzie."
+    ru: "Я оставалась бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałabyś"
+    pl: "Zostawałabyś do końca?"
+    ru: "Ты оставалась бы до конца?"
+    source: { kind: authored }
+  - form: "zostawałabyś"
+    pl: "Nie zostawałabyś w tyle."
+    ru: "Ты не отставала бы."
+    source: { kind: authored }
+  - form: "zostawałabyś"
+    pl: "Zostawałabyś w domu?"
+    ru: "Ты оставалась бы дома?"
+    source: { kind: authored }
+  - form: "zostawałam"
+    pl: "Zawsze zostawałam do końca."
+    ru: "Я всегда оставалась до конца."
+    source: { kind: authored }
+  - form: "zostawałam"
+    pl: "Zostawałam w domu przez całą zimę."
+    ru: "Я оставалась дома всю зиму."
+    source: { kind: authored }
+  - form: "zostawałam"
+    pl: "Co roku zostawałam mistrzynią."
+    ru: "Каждый год я становилась чемпионкой."
+    source: { kind: authored }
+  - form: "zostawałaś"
+    pl: "Zostawałaś do końca?"
+    ru: "Ты оставалась до конца?"
+    source: { kind: authored }
+  - form: "zostawałaś"
+    pl: "Często zostawałaś w domu."
+    ru: "Ты часто оставалась дома."
+    source: { kind: authored }
+  - form: "zostawałaś"
+    pl: "Zostawałaś w tyle na podbiegach."
+    ru: "Ты отставала на подъёмах."
+    source: { kind: authored }
+  - form: "zostawałby"
+    pl: "Zostawałby do końca, gdyby mógł."
+    ru: "Он оставался бы до конца, если бы мог."
+    source: { kind: authored }
+  - form: "zostawałby"
+    pl: "Nie zostawałby w tyle."
+    ru: "Он не отставал бы."
+    source: { kind: authored }
+  - form: "zostawałby"
+    pl: "Zostawałby w domu przy takiej pogodzie."
+    ru: "Он оставался бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałbym"
+    pl: "Zostawałbym do końca, gdybym mógł."
+    ru: "Я оставался бы до конца, если бы мог."
+    source: { kind: authored }
+  - form: "zostawałbym"
+    pl: "Nie zostawałbym w tyle."
+    ru: "Я не отставал бы."
+    source: { kind: authored }
+  - form: "zostawałbym"
+    pl: "Zostawałbym w domu przy takiej pogodzie."
+    ru: "Я оставался бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałbyś"
+    pl: "Zostawałbyś do końca?"
+    ru: "Ты оставался бы до конца?"
+    source: { kind: authored }
+  - form: "zostawałbyś"
+    pl: "Nie zostawałbyś w tyle."
+    ru: "Ты не отставал бы."
+    source: { kind: authored }
+  - form: "zostawałbyś"
+    pl: "Zostawałbyś w domu?"
+    ru: "Ты оставался бы дома?"
+    source: { kind: authored }
+  - form: "zostawałem"
+    pl: "Przez trzy lata zostawałem pracownikiem roku."
+    ru: "Три года подряд я становился работником года."
+    source: { kind: translated, id: 3886415 }
+  - form: "zostawałem"
+    pl: "Zawsze zostawałem do końca."
+    ru: "Я всегда оставался до конца."
+    source: { kind: authored }
+  - form: "zostawałem"
+    pl: "Zostawałem w domu przez całą zimę."
+    ru: "Я оставался дома всю зиму."
+    source: { kind: authored }
+  - form: "zostawałeś"
+    pl: "Zostawałeś do końca?"
+    ru: "Ты оставался до конца?"
+    source: { kind: authored }
+  - form: "zostawałeś"
+    pl: "Często zostawałeś w domu."
+    ru: "Ты часто оставался дома."
+    source: { kind: authored }
+  - form: "zostawałeś"
+    pl: "Zostawałeś w tyle na podbiegach."
+    ru: "Ты отставал на подъёмах."
+    source: { kind: authored }
+  - form: "zostawało"
+    pl: "Dziecko zostawało w domu z babcią."
+    ru: "Ребёнок оставался дома с бабушкой."
+    source: { kind: authored }
+  - form: "zostawało"
+    pl: "Wiele osób zostawało do końca."
+    ru: "Многие оставались до конца."
+    source: { kind: authored }
+  - form: "zostawało"
+    pl: "Zostawało coraz mniej czasu."
+    ru: "Оставалось всё меньше времени."
+    source: { kind: authored }
+  - form: "zostawałoby"
+    pl: "Dziecko zostawałoby w domu z babcią."
+    ru: "Ребёнок оставался бы дома с бабушкой."
+    source: { kind: authored }
+  - form: "zostawałoby"
+    pl: "Wiele osób zostawałoby do końca."
+    ru: "Многие оставались бы до конца."
+    source: { kind: authored }
+  - form: "zostawałoby"
+    pl: "Zostawałoby coraz mniej czasu."
+    ru: "Оставалось бы всё меньше времени."
+    source: { kind: authored }
+  - form: "zostawały"
+    pl: "Dziewczyny zostawały do końca."
+    ru: "Девочки оставались до конца."
+    source: { kind: authored }
+  - form: "zostawały"
+    pl: "Zostawały w tyle na podbiegach."
+    ru: "Они отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawały"
+    pl: "Zostawały tylko okruchy."
+    ru: "Оставались только крошки."
+    source: { kind: authored }
+  - form: "zostawałyby"
+    pl: "Zostawałyby do końca, gdyby mogły."
+    ru: "Они оставались бы до конца, если бы могли."
+    source: { kind: authored }
+  - form: "zostawałyby"
+    pl: "Nie zostawałyby w tyle."
+    ru: "Они не отставали бы."
+    source: { kind: authored }
+  - form: "zostawałyby"
+    pl: "Zostawałyby w domu przy takiej pogodzie."
+    ru: "Они оставались бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałybyście"
+    pl: "Zostawałybyście do końca?"
+    ru: "Вы оставались бы до конца?"
+    source: { kind: authored }
+  - form: "zostawałybyście"
+    pl: "Nie zostawałybyście w tyle."
+    ru: "Вы не отставали бы."
+    source: { kind: authored }
+  - form: "zostawałybyście"
+    pl: "Zostawałybyście w domu?"
+    ru: "Вы оставались бы дома?"
+    source: { kind: authored }
+  - form: "zostawałybyśmy"
+    pl: "Zostawałybyśmy do końca, gdybyśmy mogły."
+    ru: "Мы оставались бы до конца, если бы могли."
+    source: { kind: authored }
+  - form: "zostawałybyśmy"
+    pl: "Nie zostawałybyśmy w tyle."
+    ru: "Мы не отставали бы."
+    source: { kind: authored }
+  - form: "zostawałybyśmy"
+    pl: "Zostawałybyśmy w domu przy takiej pogodzie."
+    ru: "Мы оставались бы дома в такую погоду."
+    source: { kind: authored }
+  - form: "zostawałyście"
+    pl: "Zostawałyście do końca?"
+    ru: "Вы оставались до конца?"
+    source: { kind: authored }
+  - form: "zostawałyście"
+    pl: "Często zostawałyście w domu."
+    ru: "Вы часто оставались дома."
+    source: { kind: authored }
+  - form: "zostawałyście"
+    pl: "Zostawałyście w tyle na podbiegach."
+    ru: "Вы отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawałyśmy"
+    pl: "Zostawałyśmy do końca."
+    ru: "Мы оставались до конца."
+    source: { kind: authored }
+  - form: "zostawałyśmy"
+    pl: "Często zostawałyśmy w domu."
+    ru: "Мы часто оставались дома."
+    source: { kind: authored }
+  - form: "zostawałyśmy"
+    pl: "Zostawałyśmy w tyle na podbiegach."
+    ru: "Мы отставали на подъёмах."
+    source: { kind: authored }
+  - form: "zostawania"
+    pl: "Nie ma powodu do zostawania tu dłużej."
+    ru: "Нет повода оставаться здесь дольше."
+    source: { kind: authored }
+  - form: "zostawania"
+    pl: "Unikał zostawania sam na sam."
+    ru: "Он избегал оставаться наедине."
+    source: { kind: authored }
+  - form: "zostawania"
+    pl: "Bez zostawania po godzinach nie zdążą."
+    ru: "Не оставаясь сверхурочно, они не успеют."
+    source: { kind: authored }
+  - form: "zostawanie"
+    pl: "Zostawanie po godzinach męczy."
+    ru: "Оставаться сверхурочно утомляет."
+    source: { kind: authored }
+  - form: "zostawanie"
+    pl: "Zostawanie w tyle nikomu nie służy."
+    ru: "Отставать никому не на пользу."
+    source: { kind: authored }
+  - form: "zostawanie"
+    pl: "Zostawanie w domu bywa nudne."
+    ru: "Оставаться дома бывает скучно."
+    source: { kind: authored }
+  - form: "zostawaniem"
+    pl: "Zmęczył się zostawaniem po godzinach."
+    ru: "Он устал оставаться сверхурочно."
+    source: { kind: authored }
+  - form: "zostawaniem"
+    pl: "Przed zostawaniem na noc uprzedź rodzinę."
+    ru: "Прежде чем остаться на ночь, предупреди семью."
+    source: { kind: authored }
+  - form: "zostawaniem"
+    pl: "Skończyło się zostawaniem do rana."
+    ru: "Кончилось тем, что остались до утра."
+    source: { kind: authored }
+  - form: "zostawaniu"
+    pl: "Po zostawaniu po godzinach wracał późno."
+    ru: "Оставаясь сверхурочно, он возвращался поздно."
+    source: { kind: authored }
+  - form: "zostawaniu"
+    pl: "Mówili o zostawaniu na noc."
+    ru: "Они говорили о том, чтобы остаться на ночь."
+    source: { kind: authored }
+  - form: "zostawaniu"
+    pl: "W zostawaniu w tyle nie ma nic dobrego."
+    ru: "В отставании нет ничего хорошего."
+    source: { kind: authored }
+  - form: "zostawano"
+    pl: "Dawniej zostawano na wsi przez całe lato."
+    ru: "Раньше оставались в деревне на всё лето."
+    source: { kind: authored }
+  - form: "zostawano"
+    pl: "Zostawano po godzinach bez dodatkowej zapłaty."
+    ru: "Оставались сверхурочно без доплаты."
+    source: { kind: authored }
+  - form: "zostawano"
+    pl: "Nigdy nie zostawano tam na noc."
+    ru: "Там никогда не оставались на ночь."
+    source: { kind: authored }
