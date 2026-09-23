@@ -1,0 +1,115 @@
+# review
+id: przod
+format: 2
+lemma: "przód"
+rank: 1185
+pos: noun
+pron: { cyr: "пшут" }
+senses:
+  - id: front
+    ru: "перёд, передняя часть"
+    examples:
+      - pl: "Przód autobusu był wolny."
+        ru: "Перёд автобуса был свободен."
+        source: { kind: translated, id: 901250 }
+      - pl: "Proszę wypełnić przód."
+        ru: "Заполните, пожалуйста, лицевую сторону."
+        source: { kind: translated, id: 676871 }
+      - pl: "Chcę siedzieć z przodu."
+        ru: "Я хочу сидеть спереди."
+        source: { kind: translated, id: 10568168 }
+  - id: forward
+    ru: "do przodu — вперёд"
+    examples:
+      - pl: "Do przodu!"
+        ru: "Вперёд!"
+        source: { kind: translated, id: 12450092 }
+      - pl: "Zrobił krok do przodu."
+        ru: "Он сделал шаг вперёд."
+        source: { kind: translated, id: 3365221 }
+  - id: first
+    ru: "przodem — вперёд, первым"
+    examples:
+      - pl: "Panie przodem."
+        ru: "Сначала дамы."
+        source: { kind: tatoeba, id: 352119 }
+      - pl: "Panowie przodem."
+        ru: "Господа вперёд."
+        source: { kind: translated, id: 749135 }
+notes:
+  - { kind: government, text: "do przodu «вперёд» — предлог do с родительным падежом; z przodu «спереди» — z с родительным. Оба оборота застыли и не меняются." }
+  - { kind: usage, text: "Panie przodem «дамы вперёд» — устойчивая формула вежливости, творительный падеж без предлога." }
+  - { kind: usage, text: "Чередование ó/o: именительный przód с ó, а дальше przodu, przodem, przodzie." }
+  - { kind: false-friend, text: "Противоположность — tył «зад, задняя часть»: z przodu i z tyłu «спереди и сзади»." }
+collocations:
+  - { pl: "do przodu", ru: "вперёд" }
+  - { pl: "z przodu", ru: "спереди" }
+  - { pl: "panie przodem", ru: "дамы вперёд" }
+  - { pl: "przód i tył", ru: "перёд и зад" }
+family:
+  - { pl: "przed", ru: "перед", relation: root, id: przed }
+  - { pl: "przedni", ru: "передний", relation: derived }
+  - { pl: "tył", ru: "зад, задняя часть", relation: antonym }
+etymology: "От przed «перед» — то же слово, что русский «перёд». Чередование ó/o регулярное: przód, но przodu."
+memory: "przód — «перёд, передняя часть». Обороты застыли: do przodu «вперёд», z przodu «спереди», panie przodem «дамы вперёд». Противоположность — tył «зад»."
+idioms:
+  - { pl: "do przodu", ru: "вперёд" }
+  - { pl: "z przodu", ru: "спереди" }
+  - { pl: "panie przodem", ru: "дамы вперёд" }
+formExamplesSkip:
+  - { form: "przodach", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "przodami", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "przodom", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "przodowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+  - { form: "przodów", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "przody", reason: "в корпусе нет примеров: множественное число у этого слова редко" }
+  - { form: "przodzie", reason: "в корпусе нет примеров; рядом стоит вариант przedzie, который и встречается в обороте na przedzie" }
+formExamples:
+  - form: "przedzie"
+    pl: "Kto nie ma celu, zawsze może iść na przedzie."
+    ru: "У кого нет цели, тот всегда может идти впереди."
+    source: { kind: translated, id: 608551 }
+  - form: "przedzie"
+    pl: "Szedł na przedzie kolumny."
+    ru: "Он шёл впереди колонны."
+    source: { kind: authored }
+  - form: "przedzie"
+    pl: "Na przedzie jechał rower."
+    ru: "Впереди ехал велосипед."
+    source: { kind: authored }
+  - form: "przodem"
+    pl: "Panie przodem."
+    ru: "Сначала дамы."
+    source: { kind: tatoeba, id: 352119 }
+  - form: "przodem"
+    pl: "Panowie przodem."
+    ru: "Господа вперёд."
+    source: { kind: translated, id: 749135 }
+  - form: "przodem"
+    pl: "Idź przodem!"
+    ru: "Иди вперёд!"
+    source: { kind: translated, id: 12450101 }
+  - form: "przodu"
+    pl: "Do przodu!"
+    ru: "Вперёд!"
+    source: { kind: translated, id: 12450092 }
+  - form: "przodu"
+    pl: "Usiedliśmy z przodu."
+    ru: "Мы сели спереди."
+    source: { kind: tatoeba, id: 9533019 }
+  - form: "przodu"
+    pl: "Zrobił krok do przodu."
+    ru: "Он сделал шаг вперёд."
+    source: { kind: translated, id: 3365221 }
+  - form: "przód"
+    pl: "Proszę wypełnić przód."
+    ru: "Заполните, пожалуйста, лицевую сторону."
+    source: { kind: translated, id: 676871 }
+  - form: "przód"
+    pl: "Przód autobusu był wolny."
+    ru: "Перёд автобуса был свободен."
+    source: { kind: translated, id: 901250 }
+  - form: "przód"
+    pl: "Przód samochodu był uszkodzony."
+    ru: "Перёд машины был повреждён."
+    source: { kind: authored }

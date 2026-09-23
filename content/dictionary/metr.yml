@@ -1,0 +1,124 @@
+# review
+id: metr
+format: 2
+lemma: "metr"
+rank: 1178
+pos: noun
+pron: { cyr: "мэтр" }
+senses:
+  - id: unit
+    ru: "метр (единица длины)"
+    examples:
+      - pl: "Metr to 100 centymetrów."
+        ru: "Метр — это сто сантиметров."
+        source: { kind: translated, id: 524712 }
+      - pl: "Metr jest podstawową jednostką miary."
+        ru: "Метр — основная единица измерения."
+        source: { kind: translated, id: 4512706 }
+      - pl: "Ma 30 metrów długości."
+        ru: "Длина — тридцать метров."
+        source: { kind: translated, id: 364620 }
+  - id: height
+    ru: "о росте и размерах"
+    examples:
+      - pl: "Mam metr dziewięćdziesiąt wzrostu."
+        ru: "Во мне метр девяносто."
+        source: { kind: translated, id: 494565 }
+      - pl: "Jest wysoki na jakieś dwa i pół metra."
+        ru: "У него рост метра два с половиной."
+        source: { kind: tatoeba, id: 12574281 }
+  - id: square
+    ru: "metr kwadratowy, sześcienny — квадратный, кубический метр"
+    examples:
+      - pl: "Metr sześcienny odpowiada 1000 litrów."
+        ru: "Кубический метр — это тысяча литров."
+        source: { kind: translated, id: 526696 }
+      - pl: "Powierzchnia zakładu to 1000 metrów kwadratowych."
+        ru: "Площадь завода — тысяча квадратных метров."
+        source: { kind: translated, id: 355807 }
+notes:
+  - { kind: false-friend, text: "Осторожно: часть форм совпадает со словом metro «метро». Jadę metrem значит «Я еду на метро», а не «еду метром»; stacja metra — «станция метро»." }
+  - { kind: usage, text: "Мужской род неодушевлённый: ten metr, tego metra, dwa metry, pięć metrów." }
+  - { kind: usage, text: "metr kwadratowy «квадратный метр», metr sześcienny «кубический метр» — прилагательное идёт после существительного." }
+  - { kind: usage, text: "Устаревшее второе значение — «мэтр, учитель»: оно пришло из французского maître и в живой речи почти не встречается." }
+collocations:
+  - { pl: "metr kwadratowy", ru: "квадратный метр" }
+  - { pl: "dwa metry", ru: "два метра" }
+  - { pl: "sto metrów", ru: "сто метров" }
+family:
+  - { pl: "metrowy", ru: "метровый", relation: derived }
+  - { pl: "centymetr", ru: "сантиметр", relation: derived }
+  - { pl: "kilometr", ru: "километр", relation: derived }
+etymology: "Из греческого metron «мера» через французское mètre. Русский «метр» — то же заимствование. Омонимичное metro «метро» пришло другим путём, от chemin de fer métropolitain."
+memory: "metr — «метр», мужской род. Осторожно с формами metrem и metrze: они совпадают со словом metro «метро», и в корпусе это почти всегда именно метро."
+idioms:
+  - { pl: "metr kwadratowy", ru: "квадратный метр" }
+  - { pl: "sto metrów", ru: "сто метров" }
+formExamplesSkip:
+  - { form: "metrem", reason: "по написанию совпадает с формой слова metro «метро», и все примеры корпуса относятся к нему, а не к единице длины: Jadę metrem «Я еду на метро», W metrze jest tłok «В метро тесно»" }
+  - { form: "metrze", reason: "по написанию совпадает с формой слова metro «метро», и все примеры корпуса относятся к нему, а не к единице длины: Jadę metrem «Я еду на метро», W metrze jest tłok «В метро тесно»" }
+  - { form: "metrami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
+  - { form: "metrom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
+  - { form: "metrowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+  - { form: "metrowie", reason: "эта форма принадлежит устаревшему значению «мэтр, учитель»; в корпусе примеров нет" }
+formExamples:
+  - form: "metr"
+    pl: "Metr to 100 centymetrów."
+    ru: "Метр — это сто сантиметров."
+    source: { kind: translated, id: 524712 }
+  - form: "metr"
+    pl: "Metr jest podstawową jednostką miary."
+    ru: "Метр — основная единица измерения."
+    source: { kind: translated, id: 4512706 }
+  - form: "metr"
+    pl: "Mam metr dziewięćdziesiąt wzrostu."
+    ru: "Во мне метр девяносто."
+    source: { kind: translated, id: 494565 }
+  - form: "metra"
+    pl: "Ten mur ma 27,5 metra długości."
+    ru: "Эта стена длиной двадцать семь с половиной метров."
+    source: { kind: translated, id: 716832 }
+  - form: "metra"
+    pl: "Milimetr jest mionową częścią metra."
+    ru: "Миллиметр — миллионная часть метра."
+    source: { kind: translated, id: 4512704 }
+  - form: "metra"
+    pl: "Jest wysoki na jakieś dwa i pół metra."
+    ru: "У него рост метра два с половиной."
+    source: { kind: tatoeba, id: 12574281 }
+  - form: "metrach"
+    pl: "Z tego, co pamiętamy, na 500 metrach jeszcze byliśmy nad chmurami."
+    ru: "Насколько мы помним, на 500 метрах мы ещё были над тучами."
+    source: { kind: tatoeba, id: 1736248 }
+  - form: "metrach"
+    pl: "Na stu metrach zwolnił."
+    ru: "На сотне метров он сбавил темп."
+    source: { kind: authored }
+  - form: "metrach"
+    pl: "Mówimy o metrach kwadratowych."
+    ru: "Мы говорим о квадратных метрах."
+    source: { kind: authored }
+  - form: "metrów"
+    pl: "Ma 30 metrów długości."
+    ru: "Длина — тридцать метров."
+    source: { kind: translated, id: 364620 }
+  - form: "metrów"
+    pl: "Ma 30 metrów szerokości."
+    ru: "Ширина — тридцать метров."
+    source: { kind: translated, id: 360311 }
+  - form: "metrów"
+    pl: "We mgle nie możesz widzieć dalej niż 10 metrów."
+    ru: "В тумане на десять метров вперёд ничего не видно."
+    source: { kind: tatoeba, id: 8333231 }
+  - form: "metry"
+    pl: "Odciął dwa metry liny."
+    ru: "Он отрезал два метра верёвки."
+    source: { kind: translated, id: 526933 }
+  - form: "metry"
+    pl: "To drzewo ma 3 metry obwodu."
+    ru: "Обхват этого дерева три метра."
+    source: { kind: translated, id: 781330 }
+  - form: "metry"
+    pl: "Ten otwór ma dwa metry średnicy."
+    ru: "Это отверстие два метра в диаметре."
+    source: { kind: tatoeba, id: 8287418 }
