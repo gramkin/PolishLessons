@@ -1,0 +1,705 @@
+# review
+id: cierpiec
+format: 2
+lemma: "cierpieć"
+rank: 743
+pos: verb
+aspect: imperf
+pron: { cyr: "це́рпець" }
+senses:
+  - id: suffer
+    ru: "страдать"
+    examples:
+      - pl: "Tom będzie cierpieć."
+        ru: "Том будет страдать."
+        source: { kind: tatoeba, id: 9532992 }
+      - pl: "Cierpię."
+        ru: "Я страдаю."
+        source: { kind: translated, id: 10222143 }
+      - pl: "On cierpi."
+        ru: "Он страдает."
+        source: { kind: translated, id: 10222176 }
+  - id: suffer-from
+    ru: "cierpieć NA coś — страдать чем-л. (о болезни)"
+    examples:
+      - pl: "Moja babcia cierpi na osteoporozę."
+        ru: "Моя бабушка страдает от остеопороза."
+        source: { kind: tatoeba, id: 3460233 }
+      - pl: "Cierpisz na choroby, które wymagają podawania leków?"
+        ru: "Страдаете ли вы заболеваниями, требующими приема лекарств?"
+        source: { kind: tatoeba, id: 10695709 }
+      - pl: "Czy cierpisz na brak apetytu?"
+        ru: "Ты страдаешь отсутствием аппетита?"
+        source: { kind: translated, id: 3416047 }
+  - id: hate
+    ru: "nie cierpieć CZEGOŚ — терпеть не могу, ненавижу"
+    note: "С дополнением в родительном падеже отрицание значит «ненавидеть»."
+    examples:
+      - pl: "Nie cierpię kawy."
+        ru: "Ненавижу кофе."
+        source: { kind: translated, id: 5927604 }
+      - pl: "Nie cierpię hałasu."
+        ru: "Терпеть не могу шума."
+        source: { kind: authored }
+      - pl: "Nie cierpię, kiedy się spóźniasz."
+        ru: "Терпеть не могу, когда ты опаздываешь."
+        source: { kind: authored }
+  - id: suffering
+    ru: "cierpienie — страдание"
+    examples:
+      - pl: "Jego serce było pełne cierpienia."
+        ru: "Его сердце наполнено печалью."
+        source: { kind: tatoeba, id: 368925 }
+      - pl: "Lepsza śmierć niż takie cierpienia."
+        ru: "Лучше смерть, чем такие страдания."
+        source: { kind: translated, id: 773081 }
+      - pl: "Lekarz złagodził jego cierpienie."
+        ru: "Врач облегчил его страдание."
+        source: { kind: translated, id: 734152 }
+notes:
+  - { kind: false-friend, text: "Главная ловушка слова — отрицание. Nie cierpię kawy значит не «я не страдаю от кофе», а «ненавижу кофе». Правило точное: nie cierpieć с дополнением в родительном падеже = «терпеть не могу». Без дополнения отрицание читается буквально: Czy Tom cierpiał? — «Том страдал?»." }
+  - { kind: government, text: "Болезнь вводится предлогом na с винительным: cierpieć na bezsenność «страдать бессонницей». Причина — z powodu с родительным: cierpieć z powodu suszy «страдать из-за засухи»." }
+  - { kind: usage, text: "Корень тот же, что в русском «терпеть», и всё гнездо об этом напоминает: cierpliwy «терпеливый», cierpliwość «терпение», cierpienie «страдание»." }
+  - { kind: usage, text: "Книжный оборот nie cierpieć zwłoki значит «не терпеть отлагательства»: Sprawa nie cierpi zwłoki." }
+collocations:
+  - { pl: "cierpieć na coś", ru: "страдать чем-либо" }
+  - { pl: "nie cierpieć czegoś", ru: "терпеть не мочь" }
+  - { pl: "cierpieć z powodu", ru: "страдать из-за" }
+  - { pl: "cierpliwość", ru: "терпение" }
+family:
+  - { pl: "cierpliwy", ru: "терпеливый", relation: derived }
+  - { pl: "cierpliwość", ru: "терпение", relation: derived }
+  - { pl: "cierpienie", ru: "страдание", relation: derived }
+  - { pl: "ścierpieć", ru: "стерпеть", relation: aspect }
+etymology: "Праславянское *sьrpěti «переносить, терпеть» — то же слово, что русское «терпеть»; перестановка согласных дала польское cierp- там, где русский даёт «терп-»."
+memory: "cierpieć — «страдать», а корень тот же, что в русском «терпеть»: отсюда cierpliwy «терпеливый» и cierpliwość «терпение». Главная ловушка — отрицание: nie cierpię kawy значит «ненавижу кофе», а вовсе не «не страдаю от кофе». Правило точное: nie cierpieć с дополнением в родительном = «терпеть не могу». Болезнь вводится предлогом na: cierpieć na bezsenność."
+idioms:
+  - { pl: "nie cierpieć czegoś", ru: "терпеть не мочь чего-либо" }
+  - { pl: "cierpieć na coś", ru: "страдать чем-либо" }
+  - { pl: "nie cierpieć zwłoki", ru: "не терпеть отлагательства" }
+formExamplesSkip:
+  - { form: "cierpiana", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianą", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpiane", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianego", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianej", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianemu", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpiani", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpiano", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpiany", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianych", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianym", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+  - { form: "cierpianymi", reason: "страдательных форм глагол не образует: страдают сами, а не «бывают страдаемы»" }
+formExamples:
+  - form: "cierp"
+    pl: "Cierp w milczeniu."
+    ru: "Страдай молча."
+    source: { kind: authored }
+  - form: "cierp"
+    pl: "Nie cierp za innych."
+    ru: "Не страдай за других."
+    source: { kind: authored }
+  - form: "cierp"
+    pl: "Cierp, skoroś sam chciał."
+    ru: "Терпи, раз сам хотел."
+    source: { kind: authored }
+  - form: "cierpcie"
+    pl: "Cierpcie w milczeniu."
+    ru: "Страдайте молча."
+    source: { kind: authored }
+  - form: "cierpcie"
+    pl: "Nie cierpcie za innych."
+    ru: "Не страдайте за других."
+    source: { kind: authored }
+  - form: "cierpcie"
+    pl: "Nie cierpcie w samotności."
+    ru: "Не страдайте в одиночестве."
+    source: { kind: authored }
+  - form: "cierpi"
+    pl: "Moja babcia cierpi na osteoporozę."
+    ru: "Моя бабушка страдает от остеопороза."
+    source: { kind: tatoeba, id: 3460233 }
+  - form: "cierpi"
+    pl: "On cierpi."
+    ru: "Он страдает."
+    source: { kind: translated, id: 10222176 }
+  - form: "cierpi"
+    pl: "Nie cierpi hałasu."
+    ru: "Он терпеть не может шума."
+    source: { kind: authored }
+  - form: "cierpiał"
+    pl: "Cierpiał z bólu."
+    ru: "Он страдал от боли."
+    source: { kind: translated, id: 403726 }
+  - form: "cierpiał"
+    pl: "Czy Tom cierpiał?"
+    ru: "Том страдал?"
+    source: { kind: translated, id: 10222165 }
+  - form: "cierpiał"
+    pl: "Cierpiał na bezsenność."
+    ru: "Он страдал бессонницей."
+    source: { kind: authored }
+  - form: "cierpiała"
+    pl: "Lek, który zażyła, wyleczył ją z przykrego kaszlu, na który cierpiała."
+    ru: "Лекарство, которое она приняла, вылечило её от мучительного кашля, от которого она страдала."
+    source: { kind: translated, id: 10931167 }
+  - form: "cierpiała"
+    pl: "Cierpiała na bezsenność."
+    ru: "Она страдала бессонницей."
+    source: { kind: authored }
+  - form: "cierpiała"
+    pl: "Nie cierpiała hałasu."
+    ru: "Она терпеть не могла шума."
+    source: { kind: authored }
+  - form: "cierpiałaby"
+    pl: "Cierpiałaby w milczeniu."
+    ru: "Она страдала бы молча."
+    source: { kind: authored }
+  - form: "cierpiałaby"
+    pl: "Nie cierpiałaby tak bardzo."
+    ru: "Она не страдала бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałaby"
+    pl: "Cierpiałaby na bezsenność."
+    ru: "Она страдала бы бессонницей."
+    source: { kind: authored }
+  - form: "cierpiałabym"
+    pl: "Cierpiałabym w milczeniu."
+    ru: "Я страдала бы молча."
+    source: { kind: authored }
+  - form: "cierpiałabym"
+    pl: "Nie cierpiałabym tak bardzo."
+    ru: "Я не страдала бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałabym"
+    pl: "Cierpiałabym za nich."
+    ru: "Я страдала бы за них."
+    source: { kind: authored }
+  - form: "cierpiałabyś"
+    pl: "Cierpiałabyś w milczeniu?"
+    ru: "Ты страдала бы молча?"
+    source: { kind: authored }
+  - form: "cierpiałabyś"
+    pl: "Nie cierpiałabyś tak bardzo."
+    ru: "Ты не страдала бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałabyś"
+    pl: "Cierpiałabyś za nich?"
+    ru: "Ты страдала бы за них?"
+    source: { kind: authored }
+  - form: "cierpiałam"
+    pl: "Nie cierpiałam już wystarczająco?"
+    ru: "Разве я уже недостаточно настрадалась?"
+    source: { kind: translated, id: 7881995 }
+  - form: "cierpiałam"
+    pl: "Cierpiałam na bezsenność."
+    ru: "Я страдала бессонницей."
+    source: { kind: authored }
+  - form: "cierpiałam"
+    pl: "Nie cierpiałam hałasu."
+    ru: "Я терпеть не могла шума."
+    source: { kind: authored }
+  - form: "cierpiałaś"
+    pl: "Cierpiałaś na bezsenność?"
+    ru: "Ты страдала бессонницей?"
+    source: { kind: authored }
+  - form: "cierpiałaś"
+    pl: "Nie cierpiałaś hałasu."
+    ru: "Ты терпеть не могла шума."
+    source: { kind: authored }
+  - form: "cierpiałaś"
+    pl: "Długo cierpiałaś w milczeniu."
+    ru: "Ты долго страдала молча."
+    source: { kind: authored }
+  - form: "cierpiałby"
+    pl: "Nie cierpiałby tak bardzo."
+    ru: "Он не страдал бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałby"
+    pl: "Cierpiałby w milczeniu."
+    ru: "Он страдал бы молча."
+    source: { kind: authored }
+  - form: "cierpiałby"
+    pl: "Gdyby rzucił palenie, nie cierpiałby na tę chorobę."
+    ru: "Если бы он бросил курить, он не страдал бы этой болезнью."
+    source: { kind: authored }
+  - form: "cierpiałbym"
+    pl: "Cierpiałbym w milczeniu."
+    ru: "Я страдал бы молча."
+    source: { kind: authored }
+  - form: "cierpiałbym"
+    pl: "Nie cierpiałbym tak bardzo."
+    ru: "Я не страдал бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałbym"
+    pl: "Cierpiałbym za nich."
+    ru: "Я страдал бы за них."
+    source: { kind: authored }
+  - form: "cierpiałbyś"
+    pl: "Cierpiałbyś w milczeniu?"
+    ru: "Ты страдал бы молча?"
+    source: { kind: authored }
+  - form: "cierpiałbyś"
+    pl: "Nie cierpiałbyś tak bardzo."
+    ru: "Ты не страдал бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałbyś"
+    pl: "Cierpiałbyś za nich?"
+    ru: "Ты страдал бы за них?"
+    source: { kind: authored }
+  - form: "cierpiałem"
+    pl: "Cierpiałem."
+    ru: "Я страдал."
+    source: { kind: translated, id: 11261959 }
+  - form: "cierpiałem"
+    pl: "Początkowo nie cierpiałem tego."
+    ru: "Поначалу я этого терпеть не мог."
+    source: { kind: translated, id: 9423680 }
+  - form: "cierpiałem"
+    pl: "Cierpiałem na bezsenność."
+    ru: "Я страдал бессонницей."
+    source: { kind: authored }
+  - form: "cierpiałeś"
+    pl: "Cierpiałeś na bezsenność?"
+    ru: "Ты страдал бессонницей?"
+    source: { kind: authored }
+  - form: "cierpiałeś"
+    pl: "Nie cierpiałeś hałasu."
+    ru: "Ты терпеть не мог шума."
+    source: { kind: authored }
+  - form: "cierpiałeś"
+    pl: "Długo cierpiałeś w milczeniu."
+    ru: "Ты долго страдал молча."
+    source: { kind: authored }
+  - form: "cierpiało"
+    pl: "Dziecko cierpiało w milczeniu."
+    ru: "Ребёнок страдал молча."
+    source: { kind: authored }
+  - form: "cierpiało"
+    pl: "Wiele osób cierpiało z powodu suszy."
+    ru: "Многие страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiało"
+    pl: "Żadne z nich nie cierpiało głodu."
+    ru: "Никто из них не страдал от голода."
+    source: { kind: authored }
+  - form: "cierpiałoby"
+    pl: "Dziecko cierpiałoby w milczeniu."
+    ru: "Ребёнок страдал бы молча."
+    source: { kind: authored }
+  - form: "cierpiałoby"
+    pl: "Wiele osób cierpiałoby z powodu suszy."
+    ru: "Многие страдали бы из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiałoby"
+    pl: "Żadne z nich nie cierpiałoby głodu."
+    ru: "Никто из них не страдал бы от голода."
+    source: { kind: authored }
+  - form: "cierpiały"
+    pl: "Dzieci cierpiały z powodu głodu."
+    ru: "Дети страдали от голода."
+    source: { kind: authored }
+  - form: "cierpiały"
+    pl: "Rośliny cierpiały z powodu suszy."
+    ru: "Растения страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiały"
+    pl: "Nie cierpiały hałasu."
+    ru: "Они терпеть не могли шума."
+    source: { kind: authored }
+  - form: "cierpiałyby"
+    pl: "Rośliny cierpiałyby z powodu suszy."
+    ru: "Растения страдали бы из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiałyby"
+    pl: "Dzieci cierpiałyby w milczeniu."
+    ru: "Дети страдали бы молча."
+    source: { kind: authored }
+  - form: "cierpiałyby"
+    pl: "Nie cierpiałyby tak bardzo."
+    ru: "Они не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałybyście"
+    pl: "Cierpiałybyście w milczeniu?"
+    ru: "Вы страдали бы молча?"
+    source: { kind: authored }
+  - form: "cierpiałybyście"
+    pl: "Nie cierpiałybyście tak bardzo."
+    ru: "Вы не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałybyście"
+    pl: "Cierpiałybyście za nich?"
+    ru: "Вы страдали бы за них?"
+    source: { kind: authored }
+  - form: "cierpiałybyśmy"
+    pl: "Cierpiałybyśmy w milczeniu."
+    ru: "Мы страдали бы молча."
+    source: { kind: authored }
+  - form: "cierpiałybyśmy"
+    pl: "Nie cierpiałybyśmy tak bardzo."
+    ru: "Мы не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpiałybyśmy"
+    pl: "Cierpiałybyśmy za nich."
+    ru: "Мы страдали бы за них."
+    source: { kind: authored }
+  - form: "cierpiałyście"
+    pl: "Cierpiałyście z powodu suszy."
+    ru: "Вы страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiałyście"
+    pl: "Nie cierpiałyście hałasu."
+    ru: "Вы терпеть не могли шума."
+    source: { kind: authored }
+  - form: "cierpiałyście"
+    pl: "Długo cierpiałyście w milczeniu."
+    ru: "Вы долго страдали молча."
+    source: { kind: authored }
+  - form: "cierpiałyśmy"
+    pl: "Cierpiałyśmy z powodu suszy."
+    ru: "Мы страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpiałyśmy"
+    pl: "Nie cierpiałyśmy hałasu."
+    ru: "Мы терпеть не могли шума."
+    source: { kind: authored }
+  - form: "cierpiałyśmy"
+    pl: "Długo cierpiałyśmy w milczeniu."
+    ru: "Мы долго страдали молча."
+    source: { kind: authored }
+  - form: "cierpią"
+    pl: "Cierpią?"
+    ru: "Они страдают?"
+    source: { kind: translated, id: 9581370 }
+  - form: "cierpią"
+    pl: "Ludzie cierpią z powodu zakażenia źródeł wody."
+    ru: "Люди страдают из-за заражения источников воды."
+    source: { kind: translated, id: 12470017 }
+  - form: "cierpią"
+    pl: "Cierpią na tę samą chorobę."
+    ru: "Они страдают той же болезнью."
+    source: { kind: authored }
+  - form: "cierpiąc"
+    pl: "Cierpiąc w milczeniu, nie prosił o pomoc."
+    ru: "Страдая молча, он не просил помощи."
+    source: { kind: authored }
+  - form: "cierpiąc"
+    pl: "Cierpiąc na bezsenność, czytał nocami."
+    ru: "Страдая бессонницей, он читал ночами."
+    source: { kind: authored }
+  - form: "cierpiąc"
+    pl: "Nie cierpiąc hałasu, wyprowadził się na wieś."
+    ru: "Не терпя шума, он переехал в деревню."
+    source: { kind: authored }
+  - form: "cierpiąca"
+    pl: "Osoba cierpiąca na bezsenność źle sypia."
+    ru: "Человек, страдающий бессонницей, плохо спит."
+    source: { kind: authored }
+  - form: "cierpiąca"
+    pl: "To kobieta cierpiąca w milczeniu."
+    ru: "Это женщина, страдающая молча."
+    source: { kind: authored }
+  - form: "cierpiąca"
+    pl: "Roślina cierpiąca z powodu suszy usycha."
+    ru: "Растение, страдающее от засухи, сохнет."
+    source: { kind: authored }
+  - form: "cierpiącą"
+    pl: "Znam osobę cierpiącą na bezsenność."
+    ru: "Я знаю человека, страдающего бессонницей."
+    source: { kind: authored }
+  - form: "cierpiącą"
+    pl: "Widziałem kobietę cierpiącą w milczeniu."
+    ru: "Я видел женщину, страдающую молча."
+    source: { kind: authored }
+  - form: "cierpiącą"
+    pl: "Zbadali roślinę cierpiącą z powodu suszy."
+    ru: "Они исследовали растение, страдающее от засухи."
+    source: { kind: authored }
+  - form: "cierpiące"
+    pl: "Dzieci cierpiące z powodu głodu potrzebują pomocy."
+    ru: "Дети, страдающие от голода, нуждаются в помощи."
+    source: { kind: authored }
+  - form: "cierpiące"
+    pl: "Rośliny cierpiące z powodu suszy usychają."
+    ru: "Растения, страдающие от засухи, сохнут."
+    source: { kind: authored }
+  - form: "cierpiące"
+    pl: "To dziecko cierpiące na bezsenność."
+    ru: "Это ребёнок, страдающий бессонницей."
+    source: { kind: authored }
+  - form: "cierpiącego"
+    pl: "Szukam lekarza dla cierpiącego dziecka."
+    ru: "Я ищу врача для страдающего ребёнка."
+    source: { kind: authored }
+  - form: "cierpiącego"
+    pl: "Nie ma tu nikogo cierpiącego na bezsenność."
+    ru: "Здесь нет никого, страдающего бессонницей."
+    source: { kind: authored }
+  - form: "cierpiącego"
+    pl: "Zbadali pacjenta cierpiącego z powodu bólu."
+    ru: "Они осмотрели пациента, страдающего от боли."
+    source: { kind: authored }
+  - form: "cierpiącej"
+    pl: "Szukam pomocy dla cierpiącej rodziny."
+    ru: "Я ищу помощь для страдающей семьи."
+    source: { kind: authored }
+  - form: "cierpiącej"
+    pl: "Nie ma tu osoby cierpiącej na bezsenność."
+    ru: "Здесь нет человека, страдающего бессонницей."
+    source: { kind: authored }
+  - form: "cierpiącej"
+    pl: "To lek dla osoby cierpiącej z powodu bólu."
+    ru: "Это лекарство для человека, страдающего от боли."
+    source: { kind: authored }
+  - form: "cierpiącemu"
+    pl: "Pomogli cierpiącemu dziecku."
+    ru: "Они помогли страдающему ребёнку."
+    source: { kind: authored }
+  - form: "cierpiącemu"
+    pl: "Cierpiącemu pacjentowi podano lek."
+    ru: "Страдающему пациенту дали лекарство."
+    source: { kind: authored }
+  - form: "cierpiącemu"
+    pl: "Nie odmówił pomocy cierpiącemu sąsiadowi."
+    ru: "Он не отказал в помощи страдающему соседу."
+    source: { kind: authored }
+  - form: "cierpiący"
+    pl: "Cierpiący pacjent nie mógł zasnąć."
+    ru: "Страдающий пациент не мог заснуть."
+    source: { kind: authored }
+  - form: "cierpiący"
+    pl: "To człowiek cierpiący na bezsenność."
+    ru: "Это человек, страдающий бессонницей."
+    source: { kind: authored }
+  - form: "cierpiący"
+    pl: "Cierpiący w milczeniu nie prosi o pomoc."
+    ru: "Страдающий молча не просит помощи."
+    source: { kind: authored }
+  - form: "cierpiących"
+    pl: "Pomagają rodzinom cierpiących dzieci."
+    ru: "Они помогают семьям страдающих детей."
+    source: { kind: authored }
+  - form: "cierpiących"
+    pl: "Wśród cierpiących był i on."
+    ru: "Среди страдающих был и он."
+    source: { kind: authored }
+  - form: "cierpiących"
+    pl: "Nie ma tu cierpiących na bezsenność."
+    ru: "Здесь нет страдающих бессонницей."
+    source: { kind: authored }
+  - form: "cierpiącym"
+    pl: "Musimy dostarczyć dość żywności cierpiącym."
+    ru: "Мы должны доставить достаточно еды страдающим."
+    source: { kind: translated, id: 368139 }
+  - form: "cierpiącym"
+    pl: "Pomagają cierpiącym dzieciom."
+    ru: "Они помогают страдающим детям."
+    source: { kind: authored }
+  - form: "cierpiącym"
+    pl: "Mówili o cierpiącym pacjencie."
+    ru: "Они говорили о страдающем пациенте."
+    source: { kind: authored }
+  - form: "cierpiącymi"
+    pl: "Zajmuje się cierpiącymi dziećmi."
+    ru: "Он занимается страдающими детьми."
+    source: { kind: authored }
+  - form: "cierpiącymi"
+    pl: "Rozmawiał z cierpiącymi pacjentami."
+    ru: "Он говорил со страдающими пациентами."
+    source: { kind: authored }
+  - form: "cierpiącymi"
+    pl: "Między cierpiącymi a zdrowymi jest przepaść."
+    ru: "Между страдающими и здоровыми пропасть."
+    source: { kind: authored }
+  - form: "cierpicie"
+    pl: "Cierpicie na tę samą chorobę?"
+    ru: "Вы страдаете той же болезнью?"
+    source: { kind: authored }
+  - form: "cierpicie"
+    pl: "Nie cierpicie hałasu, prawda?"
+    ru: "Вы ведь терпеть не можете шума?"
+    source: { kind: authored }
+  - form: "cierpicie"
+    pl: "Cierpicie z powodu suszy."
+    ru: "Вы страдаете из-за засухи."
+    source: { kind: authored }
+  - form: "cierpieć"
+    pl: "Tom będzie cierpieć."
+    ru: "Том будет страдать."
+    source: { kind: tatoeba, id: 9532992 }
+  - form: "cierpieć"
+    pl: "Żyć znaczy cierpieć."
+    ru: "Жить значит страдать."
+    source: { kind: translated, id: 404434 }
+  - form: "cierpieć"
+    pl: "Nie chcę cierpieć w milczeniu."
+    ru: "Я не хочу страдать молча."
+    source: { kind: authored }
+  - form: "cierpieli"
+    pl: "Czy cierpieli?"
+    ru: "Они страдали?"
+    source: { kind: translated, id: 9581415 }
+  - form: "cierpieli"
+    pl: "Miejscowi cierpieli z powodu przedłużającej się suszy."
+    ru: "Местные страдали от затянувшейся засухи."
+    source: { kind: translated, id: 935209 }
+  - form: "cierpieli"
+    pl: "Cierpieli z powodu głodu."
+    ru: "Они страдали от голода."
+    source: { kind: authored }
+  - form: "cierpieliby"
+    pl: "Cierpieliby w milczeniu."
+    ru: "Они страдали бы молча."
+    source: { kind: authored }
+  - form: "cierpieliby"
+    pl: "Nie cierpieliby tak bardzo."
+    ru: "Они не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpieliby"
+    pl: "Cierpieliby z powodu suszy."
+    ru: "Они страдали бы из-за засухи."
+    source: { kind: authored }
+  - form: "cierpielibyście"
+    pl: "Cierpielibyście w milczeniu?"
+    ru: "Вы страдали бы молча?"
+    source: { kind: authored }
+  - form: "cierpielibyście"
+    pl: "Nie cierpielibyście tak bardzo."
+    ru: "Вы не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpielibyście"
+    pl: "Cierpielibyście za nich?"
+    ru: "Вы страдали бы за них?"
+    source: { kind: authored }
+  - form: "cierpielibyśmy"
+    pl: "Cierpielibyśmy w milczeniu."
+    ru: "Мы страдали бы молча."
+    source: { kind: authored }
+  - form: "cierpielibyśmy"
+    pl: "Nie cierpielibyśmy tak bardzo."
+    ru: "Мы не страдали бы так сильно."
+    source: { kind: authored }
+  - form: "cierpielibyśmy"
+    pl: "Cierpielibyśmy za nich."
+    ru: "Мы страдали бы за них."
+    source: { kind: authored }
+  - form: "cierpieliście"
+    pl: "Cierpieliście z powodu suszy."
+    ru: "Вы страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpieliście"
+    pl: "Nie cierpieliście hałasu."
+    ru: "Вы терпеть не могли шума."
+    source: { kind: authored }
+  - form: "cierpieliście"
+    pl: "Długo cierpieliście w milczeniu."
+    ru: "Вы долго страдали молча."
+    source: { kind: authored }
+  - form: "cierpieliśmy"
+    pl: "Cierpieliśmy z powodu suszy."
+    ru: "Мы страдали из-за засухи."
+    source: { kind: authored }
+  - form: "cierpieliśmy"
+    pl: "Nie cierpieliśmy hałasu."
+    ru: "Мы терпеть не могли шума."
+    source: { kind: authored }
+  - form: "cierpieliśmy"
+    pl: "Długo cierpieliśmy w milczeniu."
+    ru: "Мы долго страдали молча."
+    source: { kind: authored }
+  - form: "cierpienia"
+    pl: "Jego serce było pełne cierpienia."
+    ru: "Его сердце наполнено печалью."
+    source: { kind: tatoeba, id: 368925 }
+  - form: "cierpienia"
+    pl: "Lepsza śmierć niż takie cierpienia."
+    ru: "Лучше смерть, чем такие страдания."
+    source: { kind: translated, id: 773081 }
+  - form: "cierpienia"
+    pl: "Nie ma tu końca cierpienia."
+    ru: "Страданию здесь нет конца."
+    source: { kind: authored }
+  - form: "cierpienie"
+    pl: "Lekarz złagodził jego cierpienie."
+    ru: "Врач облегчил его страдание."
+    source: { kind: translated, id: 734152 }
+  - form: "cierpienie"
+    pl: "Nieodwzajemniona miłość to tylko niepotrzebne cierpienie."
+    ru: "Безответная любовь — это лишь ненужное страдание."
+    source: { kind: translated, id: 12755781 }
+  - form: "cierpienie"
+    pl: "Cierpienie go odmieniło."
+    ru: "Страдание его изменило."
+    source: { kind: authored }
+  - form: "cierpieniem"
+    pl: "Żył z cierpieniem przez lata."
+    ru: "Он жил со страданием годами."
+    source: { kind: authored }
+  - form: "cierpieniem"
+    pl: "Przed cierpieniem nikt nie ucieknie."
+    ru: "От страдания никто не убежит."
+    source: { kind: authored }
+  - form: "cierpieniem"
+    pl: "Między cierpieniem a bólem jest różnica."
+    ru: "Между страданием и болью есть разница."
+    source: { kind: authored }
+  - form: "cierpieniu"
+    pl: "W cierpieniu nie był sam."
+    ru: "В страдании он не был одинок."
+    source: { kind: authored }
+  - form: "cierpieniu"
+    pl: "Mówili o cierpieniu niewinnych."
+    ru: "Они говорили о страдании невинных."
+    source: { kind: authored }
+  - form: "cierpieniu"
+    pl: "Po cierpieniu przyszła ulga."
+    ru: "После страдания пришло облегчение."
+    source: { kind: authored }
+  - form: "cierpię"
+    pl: "Cierpię."
+    ru: "Я страдаю."
+    source: { kind: translated, id: 10222143 }
+  - form: "cierpię"
+    pl: "Nie cierpię kawy."
+    ru: "Ненавижу кофе."
+    source: { kind: translated, id: 5927604 }
+  - form: "cierpię"
+    pl: "Cierpię na bezsenność."
+    ru: "Я страдаю бессонницей."
+    source: { kind: authored }
+  - form: "cierpimy"
+    pl: "Cierpimy z powodu suszy."
+    ru: "Мы страдаем из-за засухи."
+    source: { kind: authored }
+  - form: "cierpimy"
+    pl: "Nie cierpimy hałasu."
+    ru: "Мы терпеть не можем шума."
+    source: { kind: authored }
+  - form: "cierpimy"
+    pl: "Cierpimy na tę samą chorobę."
+    ru: "Мы страдаем той же болезнью."
+    source: { kind: authored }
+  - form: "cierpisz"
+    pl: "Cierpisz na choroby, które wymagają podawania leków?"
+    ru: "Страдаете ли вы заболеваниями, требующими приема лекарств?"
+    source: { kind: tatoeba, id: 10695709 }
+  - form: "cierpisz"
+    pl: "Czy cierpisz na brak apetytu?"
+    ru: "Ты страдаешь отсутствием аппетита?"
+    source: { kind: translated, id: 3416047 }
+  - form: "cierpisz"
+    pl: "Nie cierpisz hałasu, prawda?"
+    ru: "Ты ведь терпеть не можешь шума?"
+    source: { kind: authored }
+  - form: "cierpmy"
+    pl: "Nie cierpmy w milczeniu."
+    ru: "Не будем страдать молча."
+    source: { kind: authored }
+  - form: "cierpmy"
+    pl: "Nie cierpmy za innych."
+    ru: "Не будем страдать за других."
+    source: { kind: authored }
+  - form: "cierpmy"
+    pl: "Cierpmy razem, skoro trzeba."
+    ru: "Будем страдать вместе, раз надо."
+    source: { kind: authored }

@@ -103,6 +103,14 @@ exclude:
   # the neuter of mozliwy, which is carded separately at 1456 -- the inflected
   # form outranking its own lemma is a lemmatizer artifact, not a second word.
   - mozliwe
+  # an English given name used as a Tatoeba placeholder, like the already-
+  # excluded john, jack and michael. The lemma is even capitalised (Charlie),
+  # and the candidates are Charlie Chaplin plus an apostrophe artifact.
+  - charlie
+  # the English spelling of okej, which is carded at 712. Zero candidates in
+  # the corpus -- not a second word, just a second way of writing the first;
+  # okej.yml already documents the okej / OK / ok variants.
+  - okay
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

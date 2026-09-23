@@ -1,0 +1,837 @@
+# review
+id: zmieniac
+format: 2
+lemma: "zmieniać"
+rank: 744
+pos: verb
+aspect: imperf
+aspectPair: zmienic
+pron: { cyr: "зменя́ць" }
+senses:
+  - id: change
+    ru: "менять, изменять"
+    examples:
+      - pl: "Chcemy zmieniać świat."
+        ru: "Мы хотим изменить мир."
+        source: { kind: tatoeba, id: 2194700 }
+      - pl: "Ale to nie zmienia wymiaru kary."
+        ru: "Но это не меняет размер наказания."
+        source: { kind: tatoeba, id: 3449889 }
+      - pl: "Po co to zmieniać?"
+        ru: "Зачем это менять?"
+        source: { kind: translated, id: 8722900 }
+  - id: change-itself
+    ru: "zmieniać się — меняться"
+    examples:
+      - pl: "Świat zmienia się coraz szybciej."
+        ru: "Мир меняется всё быстрее и быстрее."
+        source: { kind: tatoeba, id: 1918686 }
+      - pl: "Czasy się zmieniają i my zmieniamy się wraz z nimi."
+        ru: "Времена меняются, и мы меняемся вместе с ними."
+        source: { kind: tatoeba, id: 1397656 }
+      - pl: "Niektóre zwierzęta zmieniają płeć."
+        ru: "Некоторые животные меняют пол."
+        source: { kind: tatoeba, id: 3697586 }
+  - id: mind
+    ru: "zmieniać zdanie — менять мнение"
+    note: "Здесь zdanie значит «мнение», а не «предложение»."
+    examples:
+      - pl: "Często zmieniam zdanie."
+        ru: "Я часто меняю мнение."
+        source: { kind: translated, id: 3141075 }
+      - pl: "Dlaczego co chwila zmieniasz zdanie?"
+        ru: "Почему ты поминутно меняешь мнение?"
+        source: { kind: translated, id: 10548812 }
+      - pl: "Nie zmieniaj zdania."
+        ru: "Не передумывай."
+        source: { kind: translated, id: 359314 }
+  - id: aspect
+    ru: "zmieniać — процесс и повторение; zmienić — один раз"
+    examples:
+      - pl: "Każdego dnia zmieniał zdanie."
+        ru: "Каждый день он менял мнение."
+        source: { kind: translated, id: 2364053 }
+      - pl: "Zmieniał zdanie jak rękawiczki."
+        ru: "Он менял мнение как перчатки."
+        source: { kind: translated, id: 13008576 }
+      - pl: "Nie zmieniaj tematu."
+        ru: "Не меняй тему."
+        source: { kind: translated, id: 349239 }
+notes:
+  - { kind: usage, text: "Несовершенный zmieniać — про повторение и процесс, совершенный zmienić — про один раз: Ciągle zmienia zdanie «Он постоянно меняет мнение», но Zmienił zdanie «Он передумал»." }
+  - { kind: false-friend, text: "В обороте zmieniać zdanie слово zdanie значит «мнение», а не «предложение». Nie zmieniaj zdania переводится «Не передумывай»." }
+  - { kind: usage, text: "zmieniać jak rękawiczki — «менять как перчатки»: идиома совпадает с русской дословно." }
+  - { kind: usage, text: "Существительное zmiana значит и «изменение», и «смена» в рабочем смысле: zmiana pogody «перемена погоды», nocna zmiana «ночная смена»." }
+collocations:
+  - { pl: "zmieniać zdanie", ru: "менять мнение" }
+  - { pl: "zmieniać temat", ru: "менять тему" }
+  - { pl: "zmieniać się", ru: "меняться" }
+  - { pl: "zmiana pogody", ru: "перемена погоды" }
+family:
+  - { pl: "zmienić", ru: "изменить", relation: aspect }
+  - { pl: "zmiana", ru: "изменение, смена", relation: derived }
+  - { pl: "zmienny", ru: "переменчивый", relation: derived }
+  - { pl: "wymienić", ru: "обменять", relation: root }
+etymology: "z- + miana, от mienić «менять», праславянское *měna — то же гнездо, что русские «мена», «менять» и «измена»."
+memory: "zmieniać — «менять», корень тот же, что в русских «мена» и «менять». Несовершенный вид про повторение и процесс, совершенный zmienić — про один раз: Ciągle zmienia zdanie, но Zmienił zdanie «Он передумал». В обороте zmieniać zdanie слово zdanie значит «мнение», а не «предложение». А zmieniać jak rękawiczki переносится дословно."
+idioms:
+  - { pl: "zmieniać zdanie", ru: "менять мнение" }
+  - { pl: "zmieniać jak rękawiczki", ru: "менять как перчатки" }
+  - { pl: "zmieniać temat", ru: "менять тему" }
+formExamples:
+  - form: "zmienia"
+    pl: "Ale to nie zmienia wymiaru kary."
+    ru: "Но это не меняет размер наказания."
+    source: { kind: tatoeba, id: 3449889 }
+  - form: "zmienia"
+    pl: "Świat zmienia się coraz szybciej."
+    ru: "Мир меняется всё быстрее и быстрее."
+    source: { kind: tatoeba, id: 1918686 }
+  - form: "zmienia"
+    pl: "Nic się tu nie zmienia."
+    ru: "Здесь ничего не меняется."
+    source: { kind: authored }
+  - form: "zmieniacie"
+    pl: "Zmieniacie plany co chwila."
+    ru: "Вы поминутно меняете планы."
+    source: { kind: authored }
+  - form: "zmieniacie"
+    pl: "Dlaczego zmieniacie temat?"
+    ru: "Почему вы меняете тему?"
+    source: { kind: authored }
+  - form: "zmieniacie"
+    pl: "Zmieniacie się co godzinę?"
+    ru: "Вы меняетесь каждый час?"
+    source: { kind: authored }
+  - form: "zmieniać"
+    pl: "Chcemy zmieniać świat."
+    ru: "Мы хотим изменить мир."
+    source: { kind: tatoeba, id: 2194700 }
+  - form: "zmieniać"
+    pl: "Po co to zmieniać?"
+    ru: "Зачем это менять?"
+    source: { kind: translated, id: 8722900 }
+  - form: "zmieniać"
+    pl: "Nie chcę niczego zmieniać."
+    ru: "Я ничего не хочу менять."
+    source: { kind: authored }
+  - form: "zmieniaj"
+    pl: "Nie zmieniaj tematu."
+    ru: "Не меняй тему."
+    source: { kind: translated, id: 349239 }
+  - form: "zmieniaj"
+    pl: "Nie zmieniaj zdania."
+    ru: "Не передумывай."
+    source: { kind: translated, id: 359314 }
+  - form: "zmieniaj"
+    pl: "Nie zmieniaj planów w ostatniej chwili."
+    ru: "Не меняй планы в последнюю минуту."
+    source: { kind: authored }
+  - form: "zmieniają"
+    pl: "Niektóre zwierzęta zmieniają płeć."
+    ru: "Некоторые животные меняют пол."
+    source: { kind: tatoeba, id: 3697586 }
+  - form: "zmieniają"
+    pl: "Czasy się zmieniają i my zmieniamy się wraz z nimi."
+    ru: "Времена меняются, и мы меняемся вместе с ними."
+    source: { kind: tatoeba, id: 1397656 }
+  - form: "zmieniają"
+    pl: "Ceny zmieniają się co miesiąc."
+    ru: "Цены меняются каждый месяц."
+    source: { kind: authored }
+  - form: "zmieniając"
+    pl: "Zmieniając temat, uniknął odpowiedzi."
+    ru: "Меняя тему, он избежал ответа."
+    source: { kind: authored }
+  - form: "zmieniając"
+    pl: "Zmieniając plany, uprzedź nas."
+    ru: "Меняя планы, предупреди нас."
+    source: { kind: authored }
+  - form: "zmieniając"
+    pl: "Zmieniając zdanie co chwila, nikogo nie przekonasz."
+    ru: "Меняя мнение поминутно, никого не убедишь."
+    source: { kind: authored }
+  - form: "zmieniająca"
+    pl: "Osoba zmieniająca zdanie co chwila jest męcząca."
+    ru: "Человек, поминутно меняющий мнение, утомителен."
+    source: { kind: authored }
+  - form: "zmieniająca"
+    pl: "To firma zmieniająca nazwę co rok."
+    ru: "Это фирма, меняющая название каждый год."
+    source: { kind: authored }
+  - form: "zmieniająca"
+    pl: "Pogoda zmieniająca się tak szybko męczy."
+    ru: "Погода, меняющаяся так быстро, утомляет."
+    source: { kind: authored }
+  - form: "zmieniającą"
+    pl: "Znam firmę zmieniającą nazwę co rok."
+    ru: "Я знаю фирму, меняющую название каждый год."
+    source: { kind: authored }
+  - form: "zmieniającą"
+    pl: "Widziałem pogodę zmieniającą się w godzinę."
+    ru: "Я видел погоду, меняющуюся за час."
+    source: { kind: authored }
+  - form: "zmieniającą"
+    pl: "Spotkał osobę zmieniającą zdanie co chwila."
+    ru: "Он встретил человека, меняющего мнение поминутно."
+    source: { kind: authored }
+  - form: "zmieniające"
+    pl: "Zmieniające się ceny utrudniają planowanie."
+    ru: "Меняющиеся цены затрудняют планирование."
+    source: { kind: authored }
+  - form: "zmieniające"
+    pl: "Firmy zmieniające nazwy budzą nieufność."
+    ru: "Фирмы, меняющие названия, вызывают недоверие."
+    source: { kind: authored }
+  - form: "zmieniające"
+    pl: "To dzieci zmieniające zdanie co chwila."
+    ru: "Это дети, поминутно меняющие мнение."
+    source: { kind: authored }
+  - form: "zmieniającego"
+    pl: "Szukam kogoś zmieniającego opony."
+    ru: "Я ищу кого-нибудь, кто меняет шины."
+    source: { kind: authored }
+  - form: "zmieniającego"
+    pl: "Nie ma tu nikogo zmieniającego zdanie."
+    ru: "Здесь нет никого, кто меняет мнение."
+    source: { kind: authored }
+  - form: "zmieniającego"
+    pl: "Dotyczy to kursu zmieniającego się co dzień."
+    ru: "Это касается курса, меняющегося каждый день."
+    source: { kind: authored }
+  - form: "zmieniającej"
+    pl: "Szukam firmy zmieniającej opony."
+    ru: "Я ищу фирму, меняющую шины."
+    source: { kind: authored }
+  - form: "zmieniającej"
+    pl: "Nie ma tu osoby zmieniającej zdanie."
+    ru: "Здесь нет человека, меняющего мнение."
+    source: { kind: authored }
+  - form: "zmieniającej"
+    pl: "Dotyczy to pogody zmieniającej się co godzinę."
+    ru: "Это касается погоды, меняющейся каждый час."
+    source: { kind: authored }
+  - form: "zmieniającemu"
+    pl: "Nie ufa człowiekowi zmieniającemu zdanie co chwila."
+    ru: "Он не доверяет человеку, поминутно меняющему мнение."
+    source: { kind: authored }
+  - form: "zmieniającemu"
+    pl: "Przyjrzał się kursowi zmieniającemu się co dzień."
+    ru: "Он присмотрелся к курсу, меняющемуся каждый день."
+    source: { kind: authored }
+  - form: "zmieniającemu"
+    pl: "Dziecku zmieniającemu zdanie trudno pomóc."
+    ru: "Ребёнку, меняющему мнение, трудно помочь."
+    source: { kind: authored }
+  - form: "zmieniający"
+    pl: "Zmieniający zdanie co chwila nikogo nie przekona."
+    ru: "Меняющий мнение поминутно никого не убедит."
+    source: { kind: authored }
+  - form: "zmieniający"
+    pl: "To kurs zmieniający się co dzień."
+    ru: "Это курс, меняющийся каждый день."
+    source: { kind: authored }
+  - form: "zmieniający"
+    pl: "Zmieniający opony mechanik był zajęty."
+    ru: "Механик, меняющий шины, был занят."
+    source: { kind: authored }
+  - form: "zmieniających"
+    pl: "Mało jest ludzi zmieniających zdanie."
+    ru: "Мало людей, меняющих мнение."
+    source: { kind: authored }
+  - form: "zmieniających"
+    pl: "Wśród zmieniających pracę był i on."
+    ru: "Среди меняющих работу был и он."
+    source: { kind: authored }
+  - form: "zmieniających"
+    pl: "Szukają firm zmieniających opony."
+    ru: "Они ищут фирмы, меняющие шины."
+    source: { kind: authored }
+  - form: "zmieniającym"
+    pl: "Był człowiekiem zmieniającym zdanie co chwila."
+    ru: "Он был человеком, поминутно меняющим мнение."
+    source: { kind: authored }
+  - form: "zmieniającym"
+    pl: "Przyjrzał się kursom zmieniającym się co dzień."
+    ru: "Он присмотрелся к курсам, меняющимся каждый день."
+    source: { kind: authored }
+  - form: "zmieniającym"
+    pl: "Mówili o kliencie zmieniającym plany."
+    ru: "Они говорили о клиенте, меняющем планы."
+    source: { kind: authored }
+  - form: "zmieniającymi"
+    pl: "Pracuje z ludźmi zmieniającymi plany co chwila."
+    ru: "Он работает с людьми, поминутно меняющими планы."
+    source: { kind: authored }
+  - form: "zmieniającymi"
+    pl: "Zajmuje się kursami zmieniającymi się co dzień."
+    ru: "Он занимается курсами, меняющимися каждый день."
+    source: { kind: authored }
+  - form: "zmieniającymi"
+    pl: "Między zmieniającymi a stałymi cenami jest różnica."
+    ru: "Между меняющимися и постоянными ценами есть разница."
+    source: { kind: authored }
+  - form: "zmieniajcie"
+    pl: "Nie zmieniajcie tematu."
+    ru: "Не меняйте тему."
+    source: { kind: authored }
+  - form: "zmieniajcie"
+    pl: "Nie zmieniajcie planów w ostatniej chwili."
+    ru: "Не меняйте планы в последнюю минуту."
+    source: { kind: authored }
+  - form: "zmieniajcie"
+    pl: "Zmieniajcie się co godzinę."
+    ru: "Меняйтесь каждый час."
+    source: { kind: authored }
+  - form: "zmieniajmy"
+    pl: "Lepiej nie zmieniajmy planów."
+    ru: "Лучше не будем менять планы."
+    source: { kind: translated, id: 365108 }
+  - form: "zmieniajmy"
+    pl: "Nie zmieniajmy tematu."
+    ru: "Не будем менять тему."
+    source: { kind: authored }
+  - form: "zmieniajmy"
+    pl: "Zmieniajmy się co godzinę."
+    ru: "Будем меняться каждый час."
+    source: { kind: authored }
+  - form: "zmieniali"
+    pl: "Zmieniali plany co tydzień."
+    ru: "Они меняли планы каждую неделю."
+    source: { kind: authored }
+  - form: "zmieniali"
+    pl: "Nie zmieniali niczego przez lata."
+    ru: "Они ничего не меняли годами."
+    source: { kind: authored }
+  - form: "zmieniali"
+    pl: "Zmieniali się za kierownicą."
+    ru: "Они менялись за рулём."
+    source: { kind: authored }
+  - form: "zmienialiby"
+    pl: "Zmienialiby plany, gdyby mogli."
+    ru: "Они меняли бы планы, если бы могли."
+    source: { kind: authored }
+  - form: "zmienialiby"
+    pl: "Nie zmienialiby niczego."
+    ru: "Они ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmienialiby"
+    pl: "Zmienialiby się co godzinę."
+    ru: "Они менялись бы каждый час."
+    source: { kind: authored }
+  - form: "zmienialibyście"
+    pl: "Zmienialibyście plany?"
+    ru: "Вы меняли бы планы?"
+    source: { kind: authored }
+  - form: "zmienialibyście"
+    pl: "Nie zmienialibyście niczego."
+    ru: "Вы ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmienialibyście"
+    pl: "Zmienialibyście się co godzinę?"
+    ru: "Вы менялись бы каждый час?"
+    source: { kind: authored }
+  - form: "zmienialibyśmy"
+    pl: "Zmienialibyśmy plany, gdybyśmy mogli."
+    ru: "Мы меняли бы планы, если бы могли."
+    source: { kind: authored }
+  - form: "zmienialibyśmy"
+    pl: "Nie zmienialibyśmy niczego."
+    ru: "Мы ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmienialibyśmy"
+    pl: "Zmienialibyśmy się co godzinę."
+    ru: "Мы менялись бы каждый час."
+    source: { kind: authored }
+  - form: "zmienialiście"
+    pl: "Zmienialiście plany co tydzień."
+    ru: "Вы меняли планы каждую неделю."
+    source: { kind: authored }
+  - form: "zmienialiście"
+    pl: "Nie zmienialiście niczego."
+    ru: "Вы ничего не меняли."
+    source: { kind: authored }
+  - form: "zmienialiście"
+    pl: "Zmienialiście się za kierownicą?"
+    ru: "Вы менялись за рулём?"
+    source: { kind: authored }
+  - form: "zmienialiśmy"
+    pl: "Zmienialiśmy zasłony."
+    ru: "Мы меняли занавески."
+    source: { kind: translated, id: 11387986 }
+  - form: "zmienialiśmy"
+    pl: "Zmienialiśmy się podczas jazdy."
+    ru: "Мы менялись за рулём."
+    source: { kind: translated, id: 563500 }
+  - form: "zmienialiśmy"
+    pl: "Zmienialiśmy plany kilka razy."
+    ru: "Мы меняли планы несколько раз."
+    source: { kind: authored }
+  - form: "zmieniał"
+    pl: "Każdego dnia zmieniał zdanie."
+    ru: "Каждый день он менял мнение."
+    source: { kind: translated, id: 2364053 }
+  - form: "zmieniał"
+    pl: "Zmieniał zdanie jak rękawiczki."
+    ru: "Он менял мнение как перчатки."
+    source: { kind: translated, id: 13008576 }
+  - form: "zmieniał"
+    pl: "Nie zmieniał niczego przez lata."
+    ru: "Он ничего не менял годами."
+    source: { kind: authored }
+  - form: "zmieniała"
+    pl: "Zmieniała zdanie co chwila."
+    ru: "Она поминутно меняла мнение."
+    source: { kind: authored }
+  - form: "zmieniała"
+    pl: "Nie zmieniała niczego przez lata."
+    ru: "Она ничего не меняла годами."
+    source: { kind: authored }
+  - form: "zmieniała"
+    pl: "Pogoda zmieniała się z godziny na godzinę."
+    ru: "Погода менялась час от часу."
+    source: { kind: authored }
+  - form: "zmieniałaby"
+    pl: "Zmieniałaby plany, gdyby mogła."
+    ru: "Она меняла бы планы, если бы могла."
+    source: { kind: authored }
+  - form: "zmieniałaby"
+    pl: "Nie zmieniałaby niczego."
+    ru: "Она ничего не меняла бы."
+    source: { kind: authored }
+  - form: "zmieniałaby"
+    pl: "Zmieniałaby zdanie co chwila."
+    ru: "Она поминутно меняла бы мнение."
+    source: { kind: authored }
+  - form: "zmieniałabym"
+    pl: "Zmieniałabym plany, gdybym mogła."
+    ru: "Я меняла бы планы, если бы могла."
+    source: { kind: authored }
+  - form: "zmieniałabym"
+    pl: "Nie zmieniałabym niczego."
+    ru: "Я ничего не меняла бы."
+    source: { kind: authored }
+  - form: "zmieniałabym"
+    pl: "Zmieniałabym pracę co dwa lata."
+    ru: "Я меняла бы работу каждые два года."
+    source: { kind: authored }
+  - form: "zmieniałabyś"
+    pl: "Zmieniałabyś plany?"
+    ru: "Ты меняла бы планы?"
+    source: { kind: authored }
+  - form: "zmieniałabyś"
+    pl: "Nie zmieniałabyś niczego."
+    ru: "Ты ничего не меняла бы."
+    source: { kind: authored }
+  - form: "zmieniałabyś"
+    pl: "Zmieniałabyś pracę tak często?"
+    ru: "Ты меняла бы работу так часто?"
+    source: { kind: authored }
+  - form: "zmieniałam"
+    pl: "Zmieniałam plany kilka razy."
+    ru: "Я меняла планы несколько раз."
+    source: { kind: authored }
+  - form: "zmieniałam"
+    pl: "Nie zmieniałam zdania."
+    ru: "Я не меняла мнения."
+    source: { kind: authored }
+  - form: "zmieniałam"
+    pl: "Zmieniałam zasłony co sezon."
+    ru: "Я меняла занавески каждый сезон."
+    source: { kind: authored }
+  - form: "zmieniałaś"
+    pl: "Zmieniałaś plany?"
+    ru: "Ты меняла планы?"
+    source: { kind: authored }
+  - form: "zmieniałaś"
+    pl: "Nie zmieniałaś zdania."
+    ru: "Ты не меняла мнения."
+    source: { kind: authored }
+  - form: "zmieniałaś"
+    pl: "Jak często zmieniałaś pracę?"
+    ru: "Как часто ты меняла работу?"
+    source: { kind: authored }
+  - form: "zmieniałby"
+    pl: "Zmieniałby plany, gdyby mógł."
+    ru: "Он менял бы планы, если бы мог."
+    source: { kind: authored }
+  - form: "zmieniałby"
+    pl: "Nie zmieniałby niczego."
+    ru: "Он ничего не менял бы."
+    source: { kind: authored }
+  - form: "zmieniałby"
+    pl: "Zmieniałby zdanie co chwila."
+    ru: "Он поминутно менял бы мнение."
+    source: { kind: authored }
+  - form: "zmieniałbym"
+    pl: "Zmieniałbym plany, gdybym mógł."
+    ru: "Я менял бы планы, если бы мог."
+    source: { kind: authored }
+  - form: "zmieniałbym"
+    pl: "Nie zmieniałbym niczego."
+    ru: "Я ничего не менял бы."
+    source: { kind: authored }
+  - form: "zmieniałbym"
+    pl: "Zmieniałbym pracę co dwa lata."
+    ru: "Я менял бы работу каждые два года."
+    source: { kind: authored }
+  - form: "zmieniałbyś"
+    pl: "Zmieniałbyś plany?"
+    ru: "Ты менял бы планы?"
+    source: { kind: authored }
+  - form: "zmieniałbyś"
+    pl: "Nie zmieniałbyś niczego."
+    ru: "Ты ничего не менял бы."
+    source: { kind: authored }
+  - form: "zmieniałbyś"
+    pl: "Zmieniałbyś pracę tak często?"
+    ru: "Ты менял бы работу так часто?"
+    source: { kind: authored }
+  - form: "zmieniałem"
+    pl: "Zmieniałem plany kilka razy."
+    ru: "Я менял планы несколько раз."
+    source: { kind: authored }
+  - form: "zmieniałem"
+    pl: "Nie zmieniałem zdania."
+    ru: "Я не менял мнения."
+    source: { kind: authored }
+  - form: "zmieniałem"
+    pl: "Zmieniałem pracę co dwa lata."
+    ru: "Я менял работу каждые два года."
+    source: { kind: authored }
+  - form: "zmieniałeś"
+    pl: "Zmieniałeś plany?"
+    ru: "Ты менял планы?"
+    source: { kind: authored }
+  - form: "zmieniałeś"
+    pl: "Nie zmieniałeś zdania."
+    ru: "Ты не менял мнения."
+    source: { kind: authored }
+  - form: "zmieniałeś"
+    pl: "Jak często zmieniałeś pracę?"
+    ru: "Как часто ты менял работу?"
+    source: { kind: authored }
+  - form: "zmieniało"
+    pl: "Dziecko zmieniało zdanie co chwila."
+    ru: "Ребёнок поминутно менял мнение."
+    source: { kind: authored }
+  - form: "zmieniało"
+    pl: "Wiele się wtedy zmieniało."
+    ru: "Тогда многое менялось."
+    source: { kind: authored }
+  - form: "zmieniało"
+    pl: "Nic tego nie zmieniało."
+    ru: "Это ничего не меняло."
+    source: { kind: authored }
+  - form: "zmieniałoby"
+    pl: "To niczego nie zmieniałoby."
+    ru: "Это ничего не меняло бы."
+    source: { kind: authored }
+  - form: "zmieniałoby"
+    pl: "Dziecko zmieniałoby zdanie co chwila."
+    ru: "Ребёнок поминутно менял бы мнение."
+    source: { kind: authored }
+  - form: "zmieniałoby"
+    pl: "Wtedy wiele zmieniałoby się naraz."
+    ru: "Тогда многое менялось бы сразу."
+    source: { kind: authored }
+  - form: "zmieniały"
+    pl: "Zarówno Afganistan, jak i Iran w XX wieku kilkakrotnie zmieniały hymn."
+    ru: "И Афганистан, и Иран в двадцатом веке несколько раз меняли гимн."
+    source: { kind: translated, id: 982448 }
+  - form: "zmieniały"
+    pl: "Firmy zmieniały nazwy co rok."
+    ru: "Фирмы меняли названия каждый год."
+    source: { kind: authored }
+  - form: "zmieniały"
+    pl: "Plany zmieniały się z dnia na dzień."
+    ru: "Планы менялись изо дня в день."
+    source: { kind: authored }
+  - form: "zmieniałyby"
+    pl: "Firmy zmieniałyby nazwy co rok."
+    ru: "Фирмы меняли бы названия каждый год."
+    source: { kind: authored }
+  - form: "zmieniałyby"
+    pl: "Plany zmieniałyby się z dnia na dzień."
+    ru: "Планы менялись бы изо дня в день."
+    source: { kind: authored }
+  - form: "zmieniałyby"
+    pl: "Nie zmieniałyby niczego."
+    ru: "Они ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmieniałybyście"
+    pl: "Zmieniałybyście plany?"
+    ru: "Вы меняли бы планы?"
+    source: { kind: authored }
+  - form: "zmieniałybyście"
+    pl: "Nie zmieniałybyście niczego."
+    ru: "Вы ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmieniałybyście"
+    pl: "Zmieniałybyście się co godzinę?"
+    ru: "Вы менялись бы каждый час?"
+    source: { kind: authored }
+  - form: "zmieniałybyśmy"
+    pl: "Zmieniałybyśmy plany, gdybyśmy mogły."
+    ru: "Мы меняли бы планы, если бы могли."
+    source: { kind: authored }
+  - form: "zmieniałybyśmy"
+    pl: "Nie zmieniałybyśmy niczego."
+    ru: "Мы ничего не меняли бы."
+    source: { kind: authored }
+  - form: "zmieniałybyśmy"
+    pl: "Zmieniałybyśmy się co godzinę."
+    ru: "Мы менялись бы каждый час."
+    source: { kind: authored }
+  - form: "zmieniałyście"
+    pl: "Zmieniałyście plany co tydzień."
+    ru: "Вы меняли планы каждую неделю."
+    source: { kind: authored }
+  - form: "zmieniałyście"
+    pl: "Nie zmieniałyście niczego."
+    ru: "Вы ничего не меняли."
+    source: { kind: authored }
+  - form: "zmieniałyście"
+    pl: "Zmieniałyście zasłony co sezon?"
+    ru: "Вы меняли занавески каждый сезон?"
+    source: { kind: authored }
+  - form: "zmieniałyśmy"
+    pl: "Zmieniałyśmy plany kilka razy."
+    ru: "Мы меняли планы несколько раз."
+    source: { kind: authored }
+  - form: "zmieniałyśmy"
+    pl: "Nie zmieniałyśmy zdania."
+    ru: "Мы не меняли мнения."
+    source: { kind: authored }
+  - form: "zmieniałyśmy"
+    pl: "Zmieniałyśmy zasłony co sezon."
+    ru: "Мы меняли занавески каждый сезон."
+    source: { kind: authored }
+  - form: "zmieniam"
+    pl: "Często zmieniam zdanie."
+    ru: "Я часто меняю мнение."
+    source: { kind: translated, id: 3141075 }
+  - form: "zmieniam"
+    pl: "Nigdy nie zmieniam sposobu działania."
+    ru: "Я никогда не меняю способ действия."
+    source: { kind: translated, id: 837147 }
+  - form: "zmieniam"
+    pl: "Zmieniam plany."
+    ru: "Я меняю планы."
+    source: { kind: authored }
+  - form: "zmieniamy"
+    pl: "Zmieniamy to."
+    ru: "Мы это меняем."
+    source: { kind: translated, id: 3038396 }
+  - form: "zmieniamy"
+    pl: "Zmieniamy temat."
+    ru: "Мы меняем тему."
+    source: { kind: authored }
+  - form: "zmieniamy"
+    pl: "Zmieniamy się co godzinę."
+    ru: "Мы меняемся каждый час."
+    source: { kind: authored }
+  - form: "zmieniana"
+    pl: "Nazwa była zmieniana co rok."
+    ru: "Название менялось каждый год."
+    source: { kind: authored }
+  - form: "zmieniana"
+    pl: "Pościel jest zmieniana co tydzień."
+    ru: "Постельное бельё меняется каждую неделю."
+    source: { kind: authored }
+  - form: "zmieniana"
+    pl: "Data była zmieniana dwa razy."
+    ru: "Дата менялась дважды."
+    source: { kind: authored }
+  - form: "zmienianą"
+    pl: "Zastał nazwę już zmienianą."
+    ru: "Он застал название уже изменённым."
+    source: { kind: authored }
+  - form: "zmienianą"
+    pl: "Widziałem pościel zmienianą co tydzień."
+    ru: "Я видел бельё, которое меняют каждую неделю."
+    source: { kind: authored }
+  - form: "zmienianą"
+    pl: "Uznali datę za zbyt często zmienianą."
+    ru: "Дату сочли слишком часто меняемой."
+    source: { kind: authored }
+  - form: "zmieniane"
+    pl: "Plany są zmieniane co chwila."
+    ru: "Планы меняются поминутно."
+    source: { kind: authored }
+  - form: "zmieniane"
+    pl: "Ceny były zmieniane co miesiąc."
+    ru: "Цены менялись каждый месяц."
+    source: { kind: authored }
+  - form: "zmieniane"
+    pl: "Zmieniane co rok nazwy nikogo nie przekonują."
+    ru: "Меняемые каждый год названия никого не убеждают."
+    source: { kind: authored }
+  - form: "zmienianego"
+    pl: "Nie ma tu zmienianego co rok regulaminu."
+    ru: "Меняемого каждый год устава здесь нет."
+    source: { kind: authored }
+  - form: "zmienianego"
+    pl: "Szukam zmienianego niedawno cennika."
+    ru: "Я ищу недавно изменённый прайс."
+    source: { kind: authored }
+  - form: "zmienianego"
+    pl: "Dotyczy to zmienianego co miesiąc kursu."
+    ru: "Это касается меняемого каждый месяц курса."
+    source: { kind: authored }
+  - form: "zmienianej"
+    pl: "Nie ma tu zmienianej co rok nazwy."
+    ru: "Меняемого каждый год названия здесь нет."
+    source: { kind: authored }
+  - form: "zmienianej"
+    pl: "Szukam zmienianej niedawno umowy."
+    ru: "Я ищу недавно изменённый договор."
+    source: { kind: authored }
+  - form: "zmienianej"
+    pl: "Dotyczy to zmienianej co miesiąc ceny."
+    ru: "Это касается меняемой каждый месяц цены."
+    source: { kind: authored }
+  - form: "zmienianemu"
+    pl: "Przyjrzał się zmienianemu co rok regulaminowi."
+    ru: "Он присмотрелся к меняемому каждый год уставу."
+    source: { kind: authored }
+  - form: "zmienianemu"
+    pl: "Nie ufa zbyt często zmienianemu cennikowi."
+    ru: "Он не доверяет слишком часто меняемому прайсу."
+    source: { kind: authored }
+  - form: "zmienianemu"
+    pl: "Dzięki zmienianemu planowi zdążyli."
+    ru: "Благодаря изменённому плану они успели."
+    source: { kind: authored }
+  - form: "zmieniani"
+    pl: "Pracownicy byli zmieniani co miesiąc."
+    ru: "Работников меняли каждый месяц."
+    source: { kind: authored }
+  - form: "zmieniani"
+    pl: "Są zmieniani zbyt często."
+    ru: "Их меняют слишком часто."
+    source: { kind: authored }
+  - form: "zmieniani"
+    pl: "Zmieniani co rok trenerzy nic nie zbudują."
+    ru: "Меняемые каждый год тренеры ничего не построят."
+    source: { kind: authored }
+  - form: "zmieniania"
+    pl: "Nie ma potrzeby zmieniania planów."
+    ru: "Нет нужды менять планы."
+    source: { kind: authored }
+  - form: "zmieniania"
+    pl: "Unikał zmieniania tematu."
+    ru: "Он избегал менять тему."
+    source: { kind: authored }
+  - form: "zmieniania"
+    pl: "Bez zmieniania zasad nic nie ruszy."
+    ru: "Без изменения правил ничего не сдвинется."
+    source: { kind: authored }
+  - form: "zmienianie"
+    pl: "Ciągłe zmienianie zdania męczy."
+    ru: "Постоянная смена мнения утомляет."
+    source: { kind: authored }
+  - form: "zmienianie"
+    pl: "Zmienianie planów w ostatniej chwili to zły zwyczaj."
+    ru: "Менять планы в последнюю минуту — плохая привычка."
+    source: { kind: authored }
+  - form: "zmienianie"
+    pl: "Zmienianie opon zajęło godzinę."
+    ru: "Смена шин заняла час."
+    source: { kind: authored }
+  - form: "zmienianiem"
+    pl: "Zmęczył się ciągłym zmienianiem planów."
+    ru: "Он устал от постоянной смены планов."
+    source: { kind: authored }
+  - form: "zmienianiem"
+    pl: "Przed zmienianiem opon sprawdź ciśnienie."
+    ru: "Перед сменой шин проверь давление."
+    source: { kind: authored }
+  - form: "zmienianiem"
+    pl: "Skończyło się zmienianiem regulaminu."
+    ru: "Кончилось изменением устава."
+    source: { kind: authored }
+  - form: "zmienianiu"
+    pl: "Po zmienianiu opon wrócili na trasę."
+    ru: "После смены шин они вернулись на трассу."
+    source: { kind: authored }
+  - form: "zmienianiu"
+    pl: "Mówili o zmienianiu regulaminu."
+    ru: "Они говорили об изменении устава."
+    source: { kind: authored }
+  - form: "zmienianiu"
+    pl: "W zmienianiu zdania nie ma nic złego."
+    ru: "В смене мнения нет ничего плохого."
+    source: { kind: authored }
+  - form: "zmieniano"
+    pl: "Nazwę zmieniano trzy razy."
+    ru: "Название меняли трижды."
+    source: { kind: authored }
+  - form: "zmieniano"
+    pl: "Dawniej zmieniano opony ręcznie."
+    ru: "Раньше шины меняли вручную."
+    source: { kind: authored }
+  - form: "zmieniano"
+    pl: "Regulaminu nie zmieniano od lat."
+    ru: "Устав не меняли годами."
+    source: { kind: authored }
+  - form: "zmieniany"
+    pl: "Regulamin był zmieniany co rok."
+    ru: "Устав менялся каждый год."
+    source: { kind: authored }
+  - form: "zmieniany"
+    pl: "Cennik jest zmieniany co miesiąc."
+    ru: "Прайс меняется каждый месяц."
+    source: { kind: authored }
+  - form: "zmieniany"
+    pl: "Zmieniany co chwila plan nikomu nie służy."
+    ru: "Поминутно меняемый план никому не годится."
+    source: { kind: authored }
+  - form: "zmienianych"
+    pl: "Nie ma tu często zmienianych zasad."
+    ru: "Часто меняемых правил здесь нет."
+    source: { kind: authored }
+  - form: "zmienianych"
+    pl: "Wśród zmienianych co rok nazw była i ta."
+    ru: "Среди меняемых каждый год названий было и это."
+    source: { kind: authored }
+  - form: "zmienianych"
+    pl: "Szukam ostatnio zmienianych dokumentów."
+    ru: "Я ищу недавно изменённые документы."
+    source: { kind: authored }
+  - form: "zmienianym"
+    pl: "W zmienianym co rok regulaminie trudno się połapać."
+    ru: "В меняемом каждый год уставе трудно разобраться."
+    source: { kind: authored }
+  - form: "zmienianym"
+    pl: "Przyjrzał się zmienianym cenom."
+    ru: "Он присмотрелся к меняемым ценам."
+    source: { kind: authored }
+  - form: "zmienianym"
+    pl: "Zajął się zmienianym planem."
+    ru: "Он занялся изменяемым планом."
+    source: { kind: authored }
+  - form: "zmienianymi"
+    pl: "Zajmuje się często zmienianymi cenami."
+    ru: "Он занимается часто меняемыми ценами."
+    source: { kind: authored }
+  - form: "zmienianymi"
+    pl: "Między zmienianymi a stałymi zasadami jest różnica."
+    ru: "Между меняемыми и постоянными правилами есть разница."
+    source: { kind: authored }
+  - form: "zmienianymi"
+    pl: "Wrócił ze zmienianymi dokumentami."
+    ru: "Он вернулся с изменёнными документами."
+    source: { kind: authored }
+  - form: "zmieniasz"
+    pl: "Jak często zmieniasz żyletkę?"
+    ru: "Как часто ты меняешь лезвие?"
+    source: { kind: translated, id: 4923180 }
+  - form: "zmieniasz"
+    pl: "Dlaczego co chwila zmieniasz zdanie?"
+    ru: "Почему ты поминутно меняешь мнение?"
+    source: { kind: translated, id: 10548812 }
+  - form: "zmieniasz"
+    pl: "Zmieniasz plany za często."
+    ru: "Ты слишком часто меняешь планы."
+    source: { kind: authored }

@@ -1,0 +1,836 @@
+# review
+id: placic
+format: 2
+lemma: "płacić"
+rank: 740
+pos: verb
+aspect: imperf
+aspectPair: zaplacic
+pron: { cyr: "пуа́циць" }
+senses:
+  - id: pay
+    ru: "платить"
+    examples:
+      - pl: "Właśnie za to mi płacą."
+        ru: "За это они мне и платят."
+        source: { kind: tatoeba, id: 12567520 }
+      - pl: "Płacę gotówką."
+        ru: "Я плачу наличными."
+        source: { kind: tatoeba, id: 8763722 }
+      - pl: "Kto płaci?"
+        ru: "Кто платит?"
+        source: { kind: translated, id: 952207 }
+  - id: pay-for
+    ru: "płacić ZA coś — платить за что-л. (винительный)"
+    examples:
+      - pl: "Kto będzie za to wszystko płacić?"
+        ru: "Кто будет за всё это платить?"
+        source: { kind: tatoeba, id: 5909104 }
+      - pl: "To absurd, by płacić takie pieniądze za takie głupoty."
+        ru: "Это абсурдно - платить такие огромные деньги за такие глупости."
+        source: { kind: tatoeba, id: 709334 }
+      - pl: "Za wolność się płaci."
+        ru: "За свободу нужно платить."
+        source: { kind: tatoeba, id: 567095 }
+  - id: pay-with
+    ru: "płacić gotówką, kartą — платить наличными, картой (творительный)"
+    examples:
+      - pl: "Płacę kartą."
+        ru: "Я плачу картой."
+        source: { kind: authored }
+      - pl: "Płacimy przelewem."
+        ru: "Мы платим переводом."
+        source: { kind: authored }
+      - pl: "Czy można płacić gotówką?"
+        ru: "Можно платить наличными?"
+        source: { kind: authored }
+  - id: imperfective
+    ru: "płacić — процесс и привычка; zapłacić — один платёж"
+    examples:
+      - pl: "W naszej firmie kiepsko płacą."
+        ru: "В нашей фирме плохо платят."
+        source: { kind: translated, id: 745320 }
+      - pl: "Tom nic mi nie płacił."
+        ru: "Том мне ничего не платил."
+        source: { kind: translated, id: 4179291 }
+      - pl: "Kto płacił za lunch?"
+        ru: "Кто платил за обед?"
+        source: { kind: translated, id: 6441670 }
+notes:
+  - { kind: government, text: "Три падежа при одном глаголе. За что — винительный: płacić ZA bilet. Кому — дательный: płacić KOMUŚ. Чем — творительный: płacić GOTÓWKĄ, płacić KARTĄ." }
+  - { kind: usage, text: "Несовершенный płacić — это процесс или привычка, совершенный zapłacić — один законченный платёж: Zawsze płacę kartą «Я всегда плачу картой», но Zapłaciłem kartą «Я заплатил картой»." }
+  - { kind: usage, text: "Родня по деньгам: płaca «зарплата», opłata «плата, сбор», zapłata «оплата», płatność «платёж». Отглагольное płacenie — оплата как процесс." }
+  - { kind: usage, text: "słono za coś płacić — «дорого за что-то заплатить», буквально «солоно платить»." }
+collocations:
+  - { pl: "płacić za bilet", ru: "платить за билет" }
+  - { pl: "płacić gotówką", ru: "платить наличными" }
+  - { pl: "płacić kartą", ru: "платить картой" }
+  - { pl: "płacić rachunki", ru: "оплачивать счета" }
+family:
+  - { pl: "zapłacić", ru: "заплатить", relation: aspect }
+  - { pl: "płaca", ru: "зарплата", relation: derived }
+  - { pl: "opłata", ru: "плата, сбор", relation: derived }
+  - { pl: "płatność", ru: "платёж", relation: derived }
+etymology: "Праславянское *platiti, от *platъ «кусок полотна»: у древних славян отрезы полотна служили деньгами. Русские «платить» и «плата» — из того же гнезда."
+memory: "płacić — «платить», и этимология тут яркая: слово идёт от platъ «кусок полотна», потому что полотно у древних славян служило деньгами — отсюда же русские «платить» и «плата». Управление тройное: płacić ZA bilet (винительный), płacić KOMUŚ (дательный), płacić KARTĄ (творительный). Совершенный вид — zapłacić: Zawsze płacę kartą, но Zapłaciłem kartą."
+idioms:
+  - { pl: "płacić gotówką", ru: "платить наличными" }
+  - { pl: "słono za coś płacić", ru: "дорого за что-то заплатить" }
+  - { pl: "płacić z góry", ru: "платить вперёд" }
+formExamples:
+  - form: "płacą"
+    pl: "Właśnie za to mi płacą."
+    ru: "За это они мне и платят."
+    source: { kind: tatoeba, id: 12567520 }
+  - form: "płacą"
+    pl: "W naszej firmie kiepsko płacą."
+    ru: "В нашей фирме плохо платят."
+    source: { kind: translated, id: 745320 }
+  - form: "płacą"
+    pl: "Płacą za to niewiele."
+    ru: "За это платят немного."
+    source: { kind: authored }
+  - form: "płacąc"
+    pl: "Mężczyzna wyszedł z restauracji nie płacąc."
+    ru: "Мужчина вышел из ресторана, не заплатив."
+    source: { kind: translated, id: 8610203 }
+  - form: "płacąc"
+    pl: "Wyszedł, nie płacąc rachunku."
+    ru: "Он вышел, не оплатив счёт."
+    source: { kind: authored }
+  - form: "płacąc"
+    pl: "Płacąc kartą, oszczędzasz czas."
+    ru: "Платя картой, экономишь время."
+    source: { kind: authored }
+  - form: "płacąca"
+    pl: "Osoba płacąca gotówką dostaje rabat."
+    ru: "Человек, платящий наличными, получает скидку."
+    source: { kind: authored }
+  - form: "płacąca"
+    pl: "To firma płacąca podatki w Polsce."
+    ru: "Это фирма, платящая налоги в Польше."
+    source: { kind: authored }
+  - form: "płacąca"
+    pl: "Klientka płacąca kartą nie czekała."
+    ru: "Клиентка, платящая картой, не ждала."
+    source: { kind: authored }
+  - form: "płacącą"
+    pl: "Znam firmę płacącą podatki w terminie."
+    ru: "Я знаю фирму, платящую налоги в срок."
+    source: { kind: authored }
+  - form: "płacącą"
+    pl: "Obsłużył klientkę płacącą kartą."
+    ru: "Он обслужил клиентку, платящую картой."
+    source: { kind: authored }
+  - form: "płacącą"
+    pl: "Widziałem osobę płacącą gotówką."
+    ru: "Я видел человека, платящего наличными."
+    source: { kind: authored }
+  - form: "płacące"
+    pl: "Firmy płacące podatki w terminie mają ulgi."
+    ru: "Фирмы, платящие налоги в срок, имеют льготы."
+    source: { kind: authored }
+  - form: "płacące"
+    pl: "Dzieci płacące za bilet siedzą z tyłu."
+    ru: "Дети, платящие за билет, сидят сзади."
+    source: { kind: authored }
+  - form: "płacące"
+    pl: "Osoby płacące kartą stoją w innej kolejce."
+    ru: "Люди, платящие картой, стоят в другой очереди."
+    source: { kind: authored }
+  - form: "płacącego"
+    pl: "Szukam klienta płacącego gotówką."
+    ru: "Я ищу клиента, платящего наличными."
+    source: { kind: authored }
+  - form: "płacącego"
+    pl: "Nie ma tu nikogo płacącego w terminie."
+    ru: "Здесь нет никого, платящего в срок."
+    source: { kind: authored }
+  - form: "płacącego"
+    pl: "Obsłużył pasażera płacącego kartą."
+    ru: "Он обслужил пассажира, платящего картой."
+    source: { kind: authored }
+  - form: "płacącej"
+    pl: "Szukam firmy płacącej podatki w Polsce."
+    ru: "Я ищу фирму, платящую налоги в Польше."
+    source: { kind: authored }
+  - form: "płacącej"
+    pl: "Nie ma tu osoby płacącej gotówką."
+    ru: "Здесь нет человека, платящего наличными."
+    source: { kind: authored }
+  - form: "płacącej"
+    pl: "To rabat dla firmy płacącej w terminie."
+    ru: "Это скидка для фирмы, платящей в срок."
+    source: { kind: authored }
+  - form: "płacącemu"
+    pl: "Klientowi płacącemu gotówką dają rabat."
+    ru: "Клиенту, платящему наличными, дают скидку."
+    source: { kind: authored }
+  - form: "płacącemu"
+    pl: "Nie ufa nikomu płacącemu z opóźnieniem."
+    ru: "Он не доверяет никому, платящему с опозданием."
+    source: { kind: authored }
+  - form: "płacącemu"
+    pl: "Pasażerowi płacącemu kartą wydano paragon."
+    ru: "Пассажиру, платящему картой, выдали чек."
+    source: { kind: authored }
+  - form: "płacący"
+    pl: "Płacący gotówką klient jest rzadkością."
+    ru: "Клиент, платящий наличными, — редкость."
+    source: { kind: authored }
+  - form: "płacący"
+    pl: "To pasażer płacący pełną stawkę."
+    ru: "Это пассажир, платящий полную ставку."
+    source: { kind: authored }
+  - form: "płacący"
+    pl: "Płacący w terminie dostaje rabat."
+    ru: "Платящий в срок получает скидку."
+    source: { kind: authored }
+  - form: "płacących"
+    pl: "Mało jest klientów płacących gotówką."
+    ru: "Мало клиентов, платящих наличными."
+    source: { kind: authored }
+  - form: "płacących"
+    pl: "Wśród płacących w terminie był i on."
+    ru: "Среди платящих в срок был и он."
+    source: { kind: authored }
+  - form: "płacących"
+    pl: "Szukają firm płacących podatki w Polsce."
+    ru: "Они ищут фирмы, платящие налоги в Польше."
+    source: { kind: authored }
+  - form: "płacącym"
+    pl: "Klientom płacącym gotówką dają rabat."
+    ru: "Клиентам, платящим наличными, дают скидку."
+    source: { kind: authored }
+  - form: "płacącym"
+    pl: "Był człowiekiem płacącym zawsze w terminie."
+    ru: "Он был человеком, платящим всегда в срок."
+    source: { kind: authored }
+  - form: "płacącym"
+    pl: "Mówili o kliencie płacącym kartą."
+    ru: "Они говорили о клиенте, платящем картой."
+    source: { kind: authored }
+  - form: "płacącymi"
+    pl: "Pracuje z firmami płacącymi w terminie."
+    ru: "Он работает с фирмами, платящими в срок."
+    source: { kind: authored }
+  - form: "płacącymi"
+    pl: "Zajmuje się klientami płacącymi kartą."
+    ru: "Он занимается клиентами, платящими картой."
+    source: { kind: authored }
+  - form: "płacącymi"
+    pl: "Między płacącymi a dłużnikami jest przepaść."
+    ru: "Между платящими и должниками пропасть."
+    source: { kind: authored }
+  - form: "płaceni"
+    pl: "Są płaceni co miesiąc."
+    ru: "Им платят каждый месяц."
+    source: { kind: authored }
+  - form: "płaceni"
+    pl: "Pracownicy byli płaceni z opóźnieniem."
+    ru: "Работникам платили с опозданием."
+    source: { kind: authored }
+  - form: "płaceni"
+    pl: "Dobrze płaceni specjaliści nie odchodzą."
+    ru: "Хорошо оплачиваемые специалисты не уходят."
+    source: { kind: authored }
+  - form: "płacenia"
+    pl: "On odmówił płacenia rachunków."
+    ru: "Он отказался оплачивать счета."
+    source: { kind: tatoeba, id: 12959990 }
+  - form: "płacenia"
+    pl: "To moja kolej płacenia?"
+    ru: "Моя очередь платить?"
+    source: { kind: translated, id: 3495415 }
+  - form: "płacenia"
+    pl: "Unikał płacenia podatków."
+    ru: "Он уклонялся от уплаты налогов."
+    source: { kind: authored }
+  - form: "płacenie"
+    pl: "Płacenie rachunków zajmuje mu godzinę."
+    ru: "Оплата счетов занимает у него час."
+    source: { kind: authored }
+  - form: "płacenie"
+    pl: "Płacenie kartą jest wygodniejsze."
+    ru: "Платить картой удобнее."
+    source: { kind: authored }
+  - form: "płacenie"
+    pl: "Płacenie z góry bywa ryzykowne."
+    ru: "Платить вперёд бывает рискованно."
+    source: { kind: authored }
+  - form: "płaceniem"
+    pl: "Tom często czeka na ostatnią chwilę z płaceniem rachunków."
+    ru: "Том часто тянет с оплатой счетов до последней минуты."
+    source: { kind: translated, id: 5502917 }
+  - form: "płaceniem"
+    pl: "Przed płaceniem sprawdź rachunek."
+    ru: "Перед оплатой проверь счёт."
+    source: { kind: authored }
+  - form: "płaceniem"
+    pl: "Zwleka z płaceniem czynszu."
+    ru: "Он тянет с оплатой аренды."
+    source: { kind: authored }
+  - form: "płaceniu"
+    pl: "Po płaceniu rachunków nic nie zostaje."
+    ru: "После оплаты счетов ничего не остаётся."
+    source: { kind: authored }
+  - form: "płaceniu"
+    pl: "Mówili o płaceniu podatków."
+    ru: "Они говорили об уплате налогов."
+    source: { kind: authored }
+  - form: "płaceniu"
+    pl: "Po płaceniu kartą przyszedł SMS."
+    ru: "После оплаты картой пришло сообщение."
+    source: { kind: authored }
+  - form: "płacę"
+    pl: "Płacę gotówką."
+    ru: "Я плачу наличными."
+    source: { kind: tatoeba, id: 8763722 }
+  - form: "płacę"
+    pl: "Płacę za wszystko sam."
+    ru: "Я плачу за всё сам."
+    source: { kind: authored }
+  - form: "płacę"
+    pl: "Nie płacę za to ani grosza."
+    ru: "Я не плачу за это ни гроша."
+    source: { kind: authored }
+  - form: "płaci"
+    pl: "Za wolność się płaci."
+    ru: "За свободу нужно платить."
+    source: { kind: tatoeba, id: 567095 }
+  - form: "płaci"
+    pl: "Kto płaci?"
+    ru: "Кто платит?"
+    source: { kind: translated, id: 952207 }
+  - form: "płaci"
+    pl: "Nikt tu nie płaci gotówką."
+    ru: "Здесь никто не платит наличными."
+    source: { kind: authored }
+  - form: "płacicie"
+    pl: "Płacicie gotówką?"
+    ru: "Вы платите наличными?"
+    source: { kind: authored }
+  - form: "płacicie"
+    pl: "Ile płacicie za czynsz?"
+    ru: "Сколько вы платите за аренду?"
+    source: { kind: authored }
+  - form: "płacicie"
+    pl: "Nie płacicie za to nic."
+    ru: "Вы за это ничего не платите."
+    source: { kind: authored }
+  - form: "płacić"
+    pl: "Kto będzie za to wszystko płacić?"
+    ru: "Кто будет за всё это платить?"
+    source: { kind: tatoeba, id: 5909104 }
+  - form: "płacić"
+    pl: "To absurd, by płacić takie pieniądze za takie głupoty."
+    ru: "Это абсурдно - платить такие огромные деньги за такие глупости."
+    source: { kind: tatoeba, id: 709334 }
+  - form: "płacić"
+    pl: "Trzeba płacić z góry."
+    ru: "Платить нужно вперёд."
+    source: { kind: authored }
+  - form: "płacili"
+    pl: "Płacili zawsze gotówką."
+    ru: "Они всегда платили наличными."
+    source: { kind: authored }
+  - form: "płacili"
+    pl: "Nie płacili za mieszkanie."
+    ru: "Они не платили за квартиру."
+    source: { kind: authored }
+  - form: "płacili"
+    pl: "Płacili za bilety sami."
+    ru: "За билеты они платили сами."
+    source: { kind: authored }
+  - form: "płaciliby"
+    pl: "Płaciliby gotówką, gdyby mogli."
+    ru: "Они платили бы наличными, если бы могли."
+    source: { kind: authored }
+  - form: "płaciliby"
+    pl: "Nie płaciliby tyle za czynsz."
+    ru: "Они не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciliby"
+    pl: "Płaciliby za bilety sami."
+    ru: "За билеты они платили бы сами."
+    source: { kind: authored }
+  - form: "płacilibyście"
+    pl: "Płacilibyście gotówką?"
+    ru: "Вы платили бы наличными?"
+    source: { kind: authored }
+  - form: "płacilibyście"
+    pl: "Nie płacilibyście tyle za czynsz."
+    ru: "Вы не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płacilibyście"
+    pl: "Płacilibyście za bilety sami?"
+    ru: "За билеты вы платили бы сами?"
+    source: { kind: authored }
+  - form: "płacilibyśmy"
+    pl: "Płacilibyśmy gotówką, gdybyśmy mogli."
+    ru: "Мы платили бы наличными, если бы могли."
+    source: { kind: authored }
+  - form: "płacilibyśmy"
+    pl: "Nie płacilibyśmy tyle za czynsz."
+    ru: "Мы не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płacilibyśmy"
+    pl: "Płacilibyśmy za bilety sami."
+    ru: "За билеты мы платили бы сами."
+    source: { kind: authored }
+  - form: "płaciliście"
+    pl: "Płaciliście gotówką?"
+    ru: "Вы платили наличными?"
+    source: { kind: authored }
+  - form: "płaciliście"
+    pl: "Nie płaciliście za mieszkanie."
+    ru: "Вы не платили за квартиру."
+    source: { kind: authored }
+  - form: "płaciliście"
+    pl: "Ile płaciliście za czynsz?"
+    ru: "Сколько вы платили за аренду?"
+    source: { kind: authored }
+  - form: "płaciliśmy"
+    pl: "Płaciliśmy zawsze gotówką."
+    ru: "Мы всегда платили наличными."
+    source: { kind: authored }
+  - form: "płaciliśmy"
+    pl: "Nie płaciliśmy za mieszkanie."
+    ru: "Мы не платили за квартиру."
+    source: { kind: authored }
+  - form: "płaciliśmy"
+    pl: "Płaciliśmy za bilety sami."
+    ru: "За билеты мы платили сами."
+    source: { kind: authored }
+  - form: "płacił"
+    pl: "Kto płacił za lunch?"
+    ru: "Кто платил за обед?"
+    source: { kind: translated, id: 6441670 }
+  - form: "płacił"
+    pl: "Tom nic mi nie płacił."
+    ru: "Том мне ничего не платил."
+    source: { kind: translated, id: 4179291 }
+  - form: "płacił"
+    pl: "Płacił zawsze gotówką."
+    ru: "Он всегда платил наличными."
+    source: { kind: authored }
+  - form: "płaciła"
+    pl: "Płaciła zawsze gotówką."
+    ru: "Она всегда платила наличными."
+    source: { kind: authored }
+  - form: "płaciła"
+    pl: "Nie płaciła za mieszkanie."
+    ru: "Она не платила за квартиру."
+    source: { kind: authored }
+  - form: "płaciła"
+    pl: "Płaciła za bilety sama."
+    ru: "За билеты она платила сама."
+    source: { kind: authored }
+  - form: "płaciłaby"
+    pl: "Płaciłaby gotówką, gdyby mogła."
+    ru: "Она платила бы наличными, если бы могла."
+    source: { kind: authored }
+  - form: "płaciłaby"
+    pl: "Nie płaciłaby tyle za czynsz."
+    ru: "Она не платила бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłaby"
+    pl: "Płaciłaby za bilety sama."
+    ru: "За билеты она платила бы сама."
+    source: { kind: authored }
+  - form: "płaciłabym"
+    pl: "Płaciłabym gotówką, gdybym mogła."
+    ru: "Я платила бы наличными, если бы могла."
+    source: { kind: authored }
+  - form: "płaciłabym"
+    pl: "Nie płaciłabym tyle za czynsz."
+    ru: "Я не платила бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłabym"
+    pl: "Płaciłabym za bilety sama."
+    ru: "За билеты я платила бы сама."
+    source: { kind: authored }
+  - form: "płaciłabyś"
+    pl: "Płaciłabyś gotówką?"
+    ru: "Ты платила бы наличными?"
+    source: { kind: authored }
+  - form: "płaciłabyś"
+    pl: "Nie płaciłabyś tyle za czynsz."
+    ru: "Ты не платила бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłabyś"
+    pl: "Płaciłabyś za bilety sama?"
+    ru: "За билеты ты платила бы сама?"
+    source: { kind: authored }
+  - form: "płaciłam"
+    pl: "Płaciłam zawsze gotówką."
+    ru: "Я всегда платила наличными."
+    source: { kind: authored }
+  - form: "płaciłam"
+    pl: "Nie płaciłam za mieszkanie."
+    ru: "Я не платила за квартиру."
+    source: { kind: authored }
+  - form: "płaciłam"
+    pl: "Płaciłam za bilety sama."
+    ru: "За билеты я платила сама."
+    source: { kind: authored }
+  - form: "płaciłaś"
+    pl: "Płaciłaś gotówką?"
+    ru: "Ты платила наличными?"
+    source: { kind: authored }
+  - form: "płaciłaś"
+    pl: "Nie płaciłaś za mieszkanie."
+    ru: "Ты не платила за квартиру."
+    source: { kind: authored }
+  - form: "płaciłaś"
+    pl: "Ile płaciłaś za czynsz?"
+    ru: "Сколько ты платила за аренду?"
+    source: { kind: authored }
+  - form: "płaciłby"
+    pl: "Płaciłby gotówką, gdyby mógł."
+    ru: "Он платил бы наличными, если бы мог."
+    source: { kind: authored }
+  - form: "płaciłby"
+    pl: "Nie płaciłby tyle za czynsz."
+    ru: "Он не платил бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłby"
+    pl: "Płaciłby za bilety sam."
+    ru: "За билеты он платил бы сам."
+    source: { kind: authored }
+  - form: "płaciłbym"
+    pl: "Płaciłbym gotówką, gdybym mógł."
+    ru: "Я платил бы наличными, если бы мог."
+    source: { kind: authored }
+  - form: "płaciłbym"
+    pl: "Nie płaciłbym tyle za czynsz."
+    ru: "Я не платил бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłbym"
+    pl: "Płaciłbym za bilety sam."
+    ru: "За билеты я платил бы сам."
+    source: { kind: authored }
+  - form: "płaciłbyś"
+    pl: "Płaciłbyś gotówką?"
+    ru: "Ты платил бы наличными?"
+    source: { kind: authored }
+  - form: "płaciłbyś"
+    pl: "Nie płaciłbyś tyle za czynsz."
+    ru: "Ты не платил бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłbyś"
+    pl: "Płaciłbyś za bilety sam?"
+    ru: "За билеты ты платил бы сам?"
+    source: { kind: authored }
+  - form: "płaciłem"
+    pl: "Ja też wielokrotnie płaciłem mandaty za nieprawidłowe parkowanie."
+    ru: "Я сам несколько раз платил штрафы за неправильную парковку."
+    source: { kind: tatoeba, id: 733019 }
+  - form: "płaciłem"
+    pl: "Trzy lata temu płaciłem osiemdziesiąt lei; teraz płacę dwieście."
+    ru: "Три года назад я платил восемьдесят леев, теперь плачу двести."
+    source: { kind: translated, id: 11902604 }
+  - form: "płaciłem"
+    pl: "Płaciłem za bilety sam."
+    ru: "За билеты я платил сам."
+    source: { kind: authored }
+  - form: "płaciłeś"
+    pl: "Płaciłeś gotówką?"
+    ru: "Ты платил наличными?"
+    source: { kind: authored }
+  - form: "płaciłeś"
+    pl: "Nie płaciłeś za mieszkanie."
+    ru: "Ты не платил за квартиру."
+    source: { kind: authored }
+  - form: "płaciłeś"
+    pl: "Ile płaciłeś za czynsz?"
+    ru: "Сколько ты платил за аренду?"
+    source: { kind: authored }
+  - form: "płaciło"
+    pl: "Wiele osób płaciło gotówką."
+    ru: "Многие платили наличными."
+    source: { kind: authored }
+  - form: "płaciło"
+    pl: "Dziecko nie płaciło za bilet."
+    ru: "Ребёнок не платил за билет."
+    source: { kind: authored }
+  - form: "płaciło"
+    pl: "Żadne z nich nie płaciło czynszu."
+    ru: "Никто из них не платил аренду."
+    source: { kind: authored }
+  - form: "płaciłoby"
+    pl: "Dziecko nie płaciłoby za bilet."
+    ru: "Ребёнок не платил бы за билет."
+    source: { kind: authored }
+  - form: "płaciłoby"
+    pl: "Wiele osób płaciłoby gotówką."
+    ru: "Многие платили бы наличными."
+    source: { kind: authored }
+  - form: "płaciłoby"
+    pl: "Żadne z nich nie płaciłoby czynszu."
+    ru: "Никто из них не платил бы аренду."
+    source: { kind: authored }
+  - form: "płaciły"
+    pl: "Dziewczyny płaciły same za siebie."
+    ru: "Девочки платили сами за себя."
+    source: { kind: authored }
+  - form: "płaciły"
+    pl: "Firmy płaciły podatki na czas."
+    ru: "Фирмы платили налоги вовремя."
+    source: { kind: authored }
+  - form: "płaciły"
+    pl: "Nie płaciły za mieszkanie."
+    ru: "Они не платили за квартиру."
+    source: { kind: authored }
+  - form: "płaciłyby"
+    pl: "Firmy płaciłyby podatki na czas."
+    ru: "Фирмы платили бы налоги вовремя."
+    source: { kind: authored }
+  - form: "płaciłyby"
+    pl: "Nie płaciłyby tyle za czynsz."
+    ru: "Они не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłyby"
+    pl: "Płaciłyby za bilety same."
+    ru: "За билеты они платили бы сами."
+    source: { kind: authored }
+  - form: "płaciłybyście"
+    pl: "Płaciłybyście gotówką?"
+    ru: "Вы платили бы наличными?"
+    source: { kind: authored }
+  - form: "płaciłybyście"
+    pl: "Nie płaciłybyście tyle za czynsz."
+    ru: "Вы не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłybyście"
+    pl: "Płaciłybyście za bilety same?"
+    ru: "За билеты вы платили бы сами?"
+    source: { kind: authored }
+  - form: "płaciłybyśmy"
+    pl: "Płaciłybyśmy gotówką, gdybyśmy mogły."
+    ru: "Мы платили бы наличными, если бы могли."
+    source: { kind: authored }
+  - form: "płaciłybyśmy"
+    pl: "Nie płaciłybyśmy tyle za czynsz."
+    ru: "Мы не платили бы столько за аренду."
+    source: { kind: authored }
+  - form: "płaciłybyśmy"
+    pl: "Płaciłybyśmy za bilety same."
+    ru: "За билеты мы платили бы сами."
+    source: { kind: authored }
+  - form: "płaciłyście"
+    pl: "Płaciłyście gotówką?"
+    ru: "Вы платили наличными?"
+    source: { kind: authored }
+  - form: "płaciłyście"
+    pl: "Nie płaciłyście za mieszkanie."
+    ru: "Вы не платили за квартиру."
+    source: { kind: authored }
+  - form: "płaciłyście"
+    pl: "Ile płaciłyście za czynsz?"
+    ru: "Сколько вы платили за аренду?"
+    source: { kind: authored }
+  - form: "płaciłyśmy"
+    pl: "Płaciłyśmy zawsze gotówką."
+    ru: "Мы всегда платили наличными."
+    source: { kind: authored }
+  - form: "płaciłyśmy"
+    pl: "Nie płaciłyśmy za mieszkanie."
+    ru: "Мы не платили за квартиру."
+    source: { kind: authored }
+  - form: "płaciłyśmy"
+    pl: "Płaciłyśmy za bilety same."
+    ru: "За билеты мы платили сами."
+    source: { kind: authored }
+  - form: "płacimy"
+    pl: "My płacimy."
+    ru: "Платим мы."
+    source: { kind: translated, id: 8734625 }
+  - form: "płacimy"
+    pl: "Płacimy wysoki czynsz."
+    ru: "Мы платим высокую аренду."
+    source: { kind: translated, id: 3005217 }
+  - form: "płacimy"
+    pl: "Płacimy kartą."
+    ru: "Мы платим картой."
+    source: { kind: authored }
+  - form: "płacisz"
+    pl: "Płacisz."
+    ru: "Платишь ты."
+    source: { kind: translated, id: 5665232 }
+  - form: "płacisz"
+    pl: "Płacisz?"
+    ru: "Ты платишь?"
+    source: { kind: translated, id: 8746805 }
+  - form: "płacisz"
+    pl: "Płacisz gotówką czy kartą?"
+    ru: "Ты платишь наличными или картой?"
+    source: { kind: authored }
+  - form: "płacona"
+    pl: "Pensja jest płacona co miesiąc."
+    ru: "Зарплата выплачивается каждый месяц."
+    source: { kind: authored }
+  - form: "płacona"
+    pl: "Składka była płacona z opóźnieniem."
+    ru: "Взнос выплачивался с опозданием."
+    source: { kind: authored }
+  - form: "płacona"
+    pl: "Rata jest płacona przelewem."
+    ru: "Взнос выплачивается переводом."
+    source: { kind: authored }
+  - form: "płaconą"
+    pl: "Dostał pensję płaconą co miesiąc."
+    ru: "Он получил зарплату, выплачиваемую ежемесячно."
+    source: { kind: authored }
+  - form: "płaconą"
+    pl: "Uznali stawkę za dobrze płaconą."
+    ru: "Ставку сочли хорошо оплачиваемой."
+    source: { kind: authored }
+  - form: "płaconą"
+    pl: "Ma składkę płaconą przez firmę."
+    ru: "У него взнос, оплачиваемый фирмой."
+    source: { kind: authored }
+  - form: "płacone"
+    pl: "Rachunki są płacone na czas."
+    ru: "Счета оплачиваются вовремя."
+    source: { kind: authored }
+  - form: "płacone"
+    pl: "Składki były płacone przez firmę."
+    ru: "Взносы оплачивались фирмой."
+    source: { kind: authored }
+  - form: "płacone"
+    pl: "Dobrze płacone zajęcia są rzadkie."
+    ru: "Хорошо оплачиваемые занятия редки."
+    source: { kind: authored }
+  - form: "płaconego"
+    pl: "Nie ma tu dobrze płaconego etatu."
+    ru: "Хорошо оплачиваемой ставки здесь нет."
+    source: { kind: authored }
+  - form: "płaconego"
+    pl: "Szukam lepiej płaconego zajęcia."
+    ru: "Я ищу лучше оплачиваемую работу."
+    source: { kind: authored }
+  - form: "płaconego"
+    pl: "Dotyczy to płaconego z góry czynszu."
+    ru: "Это касается оплачиваемой вперёд аренды."
+    source: { kind: authored }
+  - form: "płaconej"
+    pl: "Nie ma tu dobrze płaconej pracy."
+    ru: "Хорошо оплачиваемой работы здесь нет."
+    source: { kind: authored }
+  - form: "płaconej"
+    pl: "Szukam lepiej płaconej posady."
+    ru: "Я ищу лучше оплачиваемую должность."
+    source: { kind: authored }
+  - form: "płaconej"
+    pl: "Dotyczy to płaconej z góry raty."
+    ru: "Это касается оплачиваемого вперёд взноса."
+    source: { kind: authored }
+  - form: "płaconemu"
+    pl: "Przyjrzał się płaconemu z góry czynszowi."
+    ru: "Он присмотрелся к оплачиваемой вперёд аренде."
+    source: { kind: authored }
+  - form: "płaconemu"
+    pl: "Nie ufa nisko płaconemu etatowi."
+    ru: "Он не доверяет низкооплачиваемой ставке."
+    source: { kind: authored }
+  - form: "płaconemu"
+    pl: "Dzięki dobrze płaconemu zajęciu spłacił dług."
+    ru: "Благодаря хорошо оплачиваемой работе он погасил долг."
+    source: { kind: authored }
+  - form: "płacono"
+    pl: "Płacono im co miesiąc."
+    ru: "Им платили каждый месяц."
+    source: { kind: authored }
+  - form: "płacono"
+    pl: "Dawniej płacono gotówką."
+    ru: "Раньше платили наличными."
+    source: { kind: authored }
+  - form: "płacono"
+    pl: "Za tę pracę nie płacono nic."
+    ru: "За эту работу не платили ничего."
+    source: { kind: authored }
+  - form: "płacony"
+    pl: "Czynsz jest płacony z góry."
+    ru: "Аренда оплачивается вперёд."
+    source: { kind: authored }
+  - form: "płacony"
+    pl: "Rachunek był płacony przelewem."
+    ru: "Счёт оплачивался переводом."
+    source: { kind: authored }
+  - form: "płacony"
+    pl: "Dobrze płacony etat trudno znaleźć."
+    ru: "Хорошо оплачиваемую ставку трудно найти."
+    source: { kind: authored }
+  - form: "płaconych"
+    pl: "Nie ma tu dobrze płaconych etatów."
+    ru: "Хорошо оплачиваемых ставок здесь нет."
+    source: { kind: authored }
+  - form: "płaconych"
+    pl: "Wśród płaconych z góry rat była i ta."
+    ru: "Среди оплачиваемых вперёд взносов был и этот."
+    source: { kind: authored }
+  - form: "płaconych"
+    pl: "Szukam lepiej płaconych zajęć."
+    ru: "Я ищу лучше оплачиваемые занятия."
+    source: { kind: authored }
+  - form: "płaconym"
+    pl: "W dobrze płaconym zawodzie brakuje ludzi."
+    ru: "В хорошо оплачиваемой профессии не хватает людей."
+    source: { kind: authored }
+  - form: "płaconym"
+    pl: "Przyjrzał się płaconym z góry ratom."
+    ru: "Он присмотрелся к оплачиваемым вперёд взносам."
+    source: { kind: authored }
+  - form: "płaconym"
+    pl: "Zajął się nisko płaconym personelem."
+    ru: "Он занялся низкооплачиваемым персоналом."
+    source: { kind: authored }
+  - form: "płaconymi"
+    pl: "Zajmuje się płaconymi z góry ratami."
+    ru: "Он занимается оплачиваемыми вперёд взносами."
+    source: { kind: authored }
+  - form: "płaconymi"
+    pl: "Między dobrze a nisko płaconymi etatami jest przepaść."
+    ru: "Между хорошо и низко оплачиваемыми ставками пропасть."
+    source: { kind: authored }
+  - form: "płaconymi"
+    pl: "Wrócił z płaconymi już rachunkami."
+    ru: "Он вернулся с уже оплаченными счетами."
+    source: { kind: authored }
+  - form: "płać"
+    pl: "Płać gotówką."
+    ru: "Плати наличными."
+    source: { kind: authored }
+  - form: "płać"
+    pl: "Nie płać za niego."
+    ru: "Не плати за него."
+    source: { kind: authored }
+  - form: "płać"
+    pl: "Płać z góry."
+    ru: "Плати вперёд."
+    source: { kind: authored }
+  - form: "płaćcie"
+    pl: "Płaćcie gotówką."
+    ru: "Платите наличными."
+    source: { kind: authored }
+  - form: "płaćcie"
+    pl: "Nie płaćcie za nich."
+    ru: "Не платите за них."
+    source: { kind: authored }
+  - form: "płaćcie"
+    pl: "Płaćcie z góry."
+    ru: "Платите вперёд."
+    source: { kind: authored }
+  - form: "płaćmy"
+    pl: "Płaćmy gotówką."
+    ru: "Будем платить наличными."
+    source: { kind: authored }
+  - form: "płaćmy"
+    pl: "Nie płaćmy za nich."
+    ru: "Не будем платить за них."
+    source: { kind: authored }
+  - form: "płaćmy"
+    pl: "Płaćmy z góry."
+    ru: "Будем платить вперёд."
+    source: { kind: authored }

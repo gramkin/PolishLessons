@@ -1,0 +1,189 @@
+# review
+id: umowa
+format: 2
+lemma: "umowa"
+rank: 741
+pos: noun
+pron: { cyr: "умо́ва" }
+senses:
+  - id: contract
+    ru: "договор, контракт"
+    examples:
+      - pl: "Podpisałeś umowę?"
+        ru: "Ты подписал контракт?"
+        source: { kind: tatoeba, id: 6062050 }
+      - pl: "Mam umowę."
+        ru: "У меня есть договор."
+        source: { kind: translated, id: 5014576 }
+      - pl: "Muszę to sprawdzić w umowie."
+        ru: "Мне нужно проверить это в договоре."
+        source: { kind: translated, id: 966785 }
+  - id: deal
+    ru: "Umowa stoi! — Договорились!"
+    note: "Ходовая разговорная формула."
+    examples:
+      - pl: "Umowa stoi?"
+        ru: "Договорились?"
+        source: { kind: translated, id: 730547 }
+      - pl: "Umowa stoi."
+        ru: "Договорились."
+        source: { kind: translated, id: 3127458 }
+      - pl: "Umowa podpisana?"
+        ru: "Договор подписан?"
+        source: { kind: translated, id: 13822453 }
+  - id: agreement
+    ru: "соглашение, уговор"
+    examples:
+      - pl: "On często działa wbrew naszej umowie."
+        ru: "Он часто действует против нашего соглашения."
+        source: { kind: tatoeba, id: 2145927 }
+      - pl: "To nie było zawarte w umowie."
+        ru: "Этого не было в договоре."
+        source: { kind: translated, id: 9686859 }
+      - pl: "Umowy się dotrzymuje."
+        ru: "Уговор надо держать."
+        source: { kind: translated, id: 3745972 }
+  - id: keep
+    ru: "dotrzymać umowy — соблюсти договор"
+    examples:
+      - pl: "Umów należy dotrzymywać."
+        ru: "Договоры нужно соблюдать."
+        source: { kind: translated, id: 4602281 }
+      - pl: "To jest zwyczajne naruszenie umowy."
+        ru: "Это обычное нарушение договора."
+        source: { kind: translated, id: 6903908 }
+      - pl: "Chcę podpisać umowy."
+        ru: "Я хочу подписать договоры."
+        source: { kind: translated, id: 3977818 }
+notes:
+  - { kind: false-friend, text: "Ловушка наоборот: слово не похоже ни на что русское, и его тянет понять как «условие». Но umowa — это «договор, контракт», а «условие» — warunek. Warunki umowy значит «условия договора»." }
+  - { kind: usage, text: "Umowa stoi! — «Договорились!», одна из самых ходовых разговорных формул." }
+  - { kind: usage, text: "Рядом живёт глагол umówić się «договориться, условиться о встрече»: Umówmy się na jutro. Поэтому форма umów — это и родительный множественного от umowa, и повелительное наклонение от umówić." }
+  - { kind: usage, text: "Виды договоров, которые слышишь постоянно: umowa o pracę «трудовой договор», umowa najmu «договор аренды». Разговорное umowa śmieciowa — о невыгодном временном договоре, буквально «мусорный»." }
+collocations:
+  - { pl: "umowa o pracę", ru: "трудовой договор" }
+  - { pl: "podpisać umowę", ru: "подписать договор" }
+  - { pl: "dotrzymać umowy", ru: "соблюсти договор" }
+  - { pl: "zgodnie z umową", ru: "согласно договору" }
+family:
+  - { pl: "umówić się", ru: "договориться", relation: derived }
+  - { pl: "mówić", ru: "говорить", relation: root }
+  - { pl: "umowny", ru: "условный, договорной", relation: derived }
+  - { pl: "warunek", ru: "условие", relation: root }
+etymology: "От umówić się «договориться», от mówić «говорить» — буквально «уговор». Русское «уговор» собрано ровно так же."
+memory: "umowa — «договор», и собрано слово как русское «уговор»: от mówić «говорить». Главное — не принять его за «условие»: условие это warunek, а warunki umowy значит «условия договора». Разговорное Umowa stoi! переводится «Договорились!». И держите рядом глагол umówić się «условиться о встрече»: форма umów — это и родительный множественного, и его повелительное наклонение."
+idioms:
+  - { pl: "Umowa stoi!", ru: "Договорились!" }
+  - { pl: "dżentelmeńska umowa", ru: "джентльменское соглашение" }
+  - { pl: "umowa o pracę", ru: "трудовой договор" }
+formExamplesSkip:
+  - { form: "umowo", reason: "звательный падеж у неодушевлённого существительного не употребляется" }
+formExamples:
+  - form: "umowa"
+    pl: "Umowa stoi?"
+    ru: "Договорились?"
+    source: { kind: translated, id: 730547 }
+  - form: "umowa"
+    pl: "Umowa stoi."
+    ru: "Договорились."
+    source: { kind: translated, id: 3127458 }
+  - form: "umowa"
+    pl: "Umowa podpisana?"
+    ru: "Договор подписан?"
+    source: { kind: translated, id: 13822453 }
+  - form: "umowach"
+    pl: "W obu umowach jest ten sam błąd."
+    ru: "В обоих договорах одна и та же ошибка."
+    source: { kind: authored }
+  - form: "umowach"
+    pl: "Mówili o umowach śmieciowych."
+    ru: "Они говорили о «мусорных» договорах."
+    source: { kind: authored }
+  - form: "umowach"
+    pl: "W tych umowach nie ma nic podejrzanego."
+    ru: "В этих договорах нет ничего подозрительного."
+    source: { kind: authored }
+  - form: "umowami"
+    pl: "Zajmuje się umowami z klientami."
+    ru: "Он занимается договорами с клиентами."
+    source: { kind: authored }
+  - form: "umowami"
+    pl: "Między tymi umowami jest różnica."
+    ru: "Между этими договорами есть разница."
+    source: { kind: authored }
+  - form: "umowami"
+    pl: "Wrócił z podpisanymi umowami."
+    ru: "Он вернулся с подписанными договорами."
+    source: { kind: authored }
+  - form: "umową"
+    pl: "Zgodnie z umową płaci co miesiąc."
+    ru: "Согласно договору он платит каждый месяц."
+    source: { kind: authored }
+  - form: "umową"
+    pl: "Przed umową negocjowali tydzień."
+    ru: "Перед договором они вели переговоры неделю."
+    source: { kind: authored }
+  - form: "umową"
+    pl: "Między umową a rzeczywistością jest przepaść."
+    ru: "Между договором и реальностью пропасть."
+    source: { kind: authored }
+  - form: "umowę"
+    pl: "Podpisałeś umowę?"
+    ru: "Ты подписал контракт?"
+    source: { kind: tatoeba, id: 6062050 }
+  - form: "umowę"
+    pl: "Mam umowę."
+    ru: "У меня есть договор."
+    source: { kind: translated, id: 5014576 }
+  - form: "umowę"
+    pl: "Podpisali umowę o pracę."
+    ru: "Они подписали трудовой договор."
+    source: { kind: authored }
+  - form: "umowie"
+    pl: "On często działa wbrew naszej umowie."
+    ru: "Он часто действует против нашего соглашения."
+    source: { kind: tatoeba, id: 2145927 }
+  - form: "umowie"
+    pl: "Muszę to sprawdzić w umowie."
+    ru: "Мне нужно проверить это в договоре."
+    source: { kind: translated, id: 966785 }
+  - form: "umowie"
+    pl: "To nie było zawarte w umowie."
+    ru: "Этого не было в договоре."
+    source: { kind: translated, id: 9686859 }
+  - form: "umowom"
+    pl: "Przyjrzał się obu umowom."
+    ru: "Он присмотрелся к обоим договорам."
+    source: { kind: authored }
+  - form: "umowom"
+    pl: "Nie ufa takim umowom."
+    ru: "Он не доверяет таким договорам."
+    source: { kind: authored }
+  - form: "umowom"
+    pl: "Dzięki tym umowom firma przetrwała."
+    ru: "Благодаря этим договорам фирма выжила."
+    source: { kind: authored }
+  - form: "umowy"
+    pl: "Chcę podpisać umowy."
+    ru: "Я хочу подписать договоры."
+    source: { kind: translated, id: 3977818 }
+  - form: "umowy"
+    pl: "Umowy się dotrzymuje."
+    ru: "Уговор надо держать."
+    source: { kind: translated, id: 3745972 }
+  - form: "umowy"
+    pl: "To jest zwyczajne naruszenie umowy."
+    ru: "Это обычное нарушение договора."
+    source: { kind: translated, id: 6903908 }
+  - form: "umów"
+    pl: "Umów należy dotrzymywać."
+    ru: "Договоры нужно соблюдать."
+    source: { kind: translated, id: 4602281 }
+  - form: "umów"
+    pl: "Chodziło o rozwiązywanie umów z firmami."
+    ru: "Речь шла о расторжении договоров с фирмами."
+    source: { kind: translated, id: 1350407 }
+  - form: "umów"
+    pl: "Nie dotrzymał żadnej z umów."
+    ru: "Он не сдержал ни одного из договоров."
+    source: { kind: authored }

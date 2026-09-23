@@ -1,0 +1,717 @@
+# review
+id: zakonczyc
+format: 2
+lemma: "zakończyć"
+rank: 737
+pos: verb
+aspect: perf
+aspectPair: konczyc
+pron: { cyr: "зако́ньчыць" }
+senses:
+  - id: finish
+    ru: "закончить, завершить"
+    examples:
+      - pl: "Możemy zakończyć?"
+        ru: "Мы можем закончить?"
+        source: { kind: translated, id: 2405990 }
+      - pl: "Możemy to zakończyć."
+        ru: "Мы можем это закончить."
+        source: { kind: translated, id: 4165052 }
+      - pl: "Zakończyliśmy tę dyskusję."
+        ru: "Мы закончили это обсуждение."
+        source: { kind: translated, id: 367333 }
+  - id: end
+    ru: "zakończyć się — закончиться"
+    note: "Разницу между «закончить» и «закончиться» делает się."
+    examples:
+      - pl: "Mecz zakończył się."
+        ru: "Матч закончился."
+        source: { kind: tatoeba, id: 3657952 }
+      - pl: "Jutro konferencja zakończy się."
+        ru: "Завтра конференция закончится."
+        source: { kind: tatoeba, id: 4717132 }
+      - pl: "Konferencja zakończyła się."
+        ru: "Конференция закончилась."
+        source: { kind: translated, id: 4717135 }
+  - id: ending
+    ru: "zakończenie — окончание, концовка"
+    examples:
+      - pl: "Zdradzili zakończenie."
+        ru: "Они выдали концовку."
+        source: { kind: translated, id: 6534334 }
+      - pl: "Zakończenie jest dużo ciekawsze."
+        ru: "Концовка гораздо интереснее."
+        source: { kind: translated, id: 2211722 }
+      - pl: "Uwielbiam szczęśliwe zakończenia."
+        ru: "Обожаю счастливые концовки."
+        source: { kind: translated, id: 2482556 }
+  - id: outcome
+    ru: "zakończyć się CZYMŚ — закончиться чем-л. (творительный)"
+    examples:
+      - pl: "Wszystkie nasze próby zakończyły się niepowodzeniem."
+        ru: "Все наши попытки закончились неудачей."
+        source: { kind: translated, id: 6177477 }
+      - pl: "Wszystko zakończyło się szczęśliwie."
+        ru: "Всё закончилось счастливо."
+        source: { kind: translated, id: 2981544 }
+      - pl: "Bez twojej rady, moja próba zakończyłaby się fiaskiem."
+        ru: "Без твоего совета моя попытка закончилась бы провалом."
+        source: { kind: translated, id: 827745 }
+notes:
+  - { kind: usage, text: "Без się глагол переходный, с się — непереходный, ровно как русское -ся: Zakończyliśmy dyskusję «Мы закончили обсуждение», но Dyskusja się zakończyła «Обсуждение закончилось»." }
+  - { kind: government, text: "zakończyć się CZYMŚ требует творительного падежа: zakończyć się sukcesem «закончиться успехом», zakończyć się niepowodzeniem «закончиться неудачей». Русский здесь ставит тот же падеж." }
+  - { kind: usage, text: "Несовершенный вид — kończyć. Рядом живёт почти синоним skończyć «окончить»: skończyć szkołę «окончить школу»." }
+  - { kind: usage, text: "Существительное zakończenie значит и «окончание», и «концовка, развязка»: szczęśliwe zakończenie «счастливый конец». Оборот na zakończenie — «в заключение»." }
+collocations:
+  - { pl: "zakończyć się sukcesem", ru: "закончиться успехом" }
+  - { pl: "szczęśliwe zakończenie", ru: "счастливый конец" }
+  - { pl: "zakończyć dyskusję", ru: "закончить обсуждение" }
+  - { pl: "na zakończenie", ru: "в заключение" }
+family:
+  - { pl: "kończyć", ru: "кончать", relation: aspect }
+  - { pl: "koniec", ru: "конец", relation: root }
+  - { pl: "skończyć", ru: "окончить", relation: root }
+  - { pl: "zakończenie", ru: "окончание", relation: derived }
+etymology: "za- + koniec «конец» — та же сборка, что русское «за-кончить»."
+memory: "zakończyć — «закончить», za- + koniec, ровно как русское «за-кончить». Разницу делает się: Zakończyliśmy dyskusję «Мы закончили обсуждение», но Dyskusja się zakończyła «Обсуждение закончилось». Управление совпадает с русским — zakończyć się sukcesem, творительный падеж. Несовершенный вид — kończyć."
+idioms:
+  - { pl: "zakończyć się sukcesem", ru: "закончиться успехом" }
+  - { pl: "szczęśliwe zakończenie", ru: "счастливый конец" }
+  - { pl: "na zakończenie", ru: "в заключение" }
+formExamples:
+  - form: "zakończ"
+    pl: "Zakończ ten spór."
+    ru: "Закончи этот спор."
+    source: { kind: authored }
+  - form: "zakończ"
+    pl: "Zakończ pracę do piątku."
+    ru: "Закончи работу к пятнице."
+    source: { kind: authored }
+  - form: "zakończ"
+    pl: "Zakończ list pozdrowieniami."
+    ru: "Закончи письмо приветом."
+    source: { kind: authored }
+  - form: "zakończą"
+    pl: "Zakończą prace w piątek."
+    ru: "Они закончат работы в пятницу."
+    source: { kind: authored }
+  - form: "zakończą"
+    pl: "Rozmowy zakończą się jutro."
+    ru: "Переговоры закончатся завтра."
+    source: { kind: authored }
+  - form: "zakończą"
+    pl: "Nie zakończą tego na czas."
+    ru: "Они не закончат это вовремя."
+    source: { kind: authored }
+  - form: "zakończcie"
+    pl: "Zakończcie ten spór."
+    ru: "Закончите этот спор."
+    source: { kind: authored }
+  - form: "zakończcie"
+    pl: "Zakończcie pracę do piątku."
+    ru: "Закончите работу к пятнице."
+    source: { kind: authored }
+  - form: "zakończcie"
+    pl: "Zakończcie spotkanie wcześniej."
+    ru: "Закончите встречу раньше."
+    source: { kind: authored }
+  - form: "zakończeni"
+    pl: "Zakończeni w pół zdania, zamilkli."
+    ru: "Оборванные на полуслове, они умолкли."
+    source: { kind: authored }
+  - form: "zakończeni"
+    pl: "Byli zakończeni przez przewodniczącego."
+    ru: "Их прервал председатель."
+    source: { kind: authored }
+  - form: "zakończeni"
+    pl: "Zakończeni w dyskusji, wyszli z sali."
+    ru: "Прерванные в обсуждении, они вышли из зала."
+    source: { kind: authored }
+  - form: "zakończenia"
+    pl: "Uwielbiam szczęśliwe zakończenia."
+    ru: "Обожаю счастливые концовки."
+    source: { kind: translated, id: 2482556 }
+  - form: "zakończenia"
+    pl: "Opowieść zmierzała do zakończenia."
+    ru: "Повесть шла к концовке."
+    source: { kind: translated, id: 416265 }
+  - form: "zakończenia"
+    pl: "Bez zakończenia sprawy nie ruszymy dalej."
+    ru: "Без завершения дела мы не двинемся дальше."
+    source: { kind: authored }
+  - form: "zakończenie"
+    pl: "Zdradzili zakończenie."
+    ru: "Они выдали концовку."
+    source: { kind: translated, id: 6534334 }
+  - form: "zakończenie"
+    pl: "Zakończenie jest dużo ciekawsze."
+    ru: "Концовка гораздо интереснее."
+    source: { kind: translated, id: 2211722 }
+  - form: "zakończenie"
+    pl: "Na zakończenie powiem krótko."
+    ru: "В заключение скажу коротко."
+    source: { kind: authored }
+  - form: "zakończeniem"
+    pl: "Przed zakończeniem spotkania zabrał głos."
+    ru: "Перед завершением встречи он взял слово."
+    source: { kind: authored }
+  - form: "zakończeniem"
+    pl: "Skończyło się zakończeniem sporu."
+    ru: "Кончилось завершением спора."
+    source: { kind: authored }
+  - form: "zakończeniem"
+    pl: "Między zakończeniem a wypłatą minął tydzień."
+    ru: "Между завершением и выплатой прошла неделя."
+    source: { kind: authored }
+  - form: "zakończeniu"
+    pl: "Mamy duże przeszkody w zakończeniu tego."
+    ru: "У нас большие препятствия с завершением этого."
+    source: { kind: translated, id: 734292 }
+  - form: "zakończeniu"
+    pl: "Po zakończeniu spotkania wrócili do pracy."
+    ru: "После завершения встречи они вернулись к работе."
+    source: { kind: authored }
+  - form: "zakończeniu"
+    pl: "Mówili o zakończeniu filmu."
+    ru: "Они говорили о концовке фильма."
+    source: { kind: authored }
+  - form: "zakończę"
+    pl: "Zakończę to jutro."
+    ru: "Я закончу это завтра."
+    source: { kind: authored }
+  - form: "zakończę"
+    pl: "Zakończę list pozdrowieniami."
+    ru: "Я закончу письмо приветом."
+    source: { kind: authored }
+  - form: "zakończę"
+    pl: "Nie zakończę tego na czas."
+    ru: "Я не закончу это вовремя."
+    source: { kind: authored }
+  - form: "zakończmy"
+    pl: "Zakończmy tę debatę."
+    ru: "Закончим эти дебаты."
+    source: { kind: translated, id: 3973750 }
+  - form: "zakończmy"
+    pl: "Zakończmy już tę rozmowę."
+    ru: "Давай уже закончим этот разговор."
+    source: { kind: translated, id: 904563 }
+  - form: "zakończmy"
+    pl: "Zakończmy to dzisiaj."
+    ru: "Закончим это сегодня."
+    source: { kind: authored }
+  - form: "zakończona"
+    pl: "Instalacja zakończona."
+    ru: "Установка завершена."
+    source: { kind: translated, id: 8448752 }
+  - form: "zakończona"
+    pl: "Praca jest już zakończona."
+    ru: "Работа уже завершена."
+    source: { kind: translated, id: 827335 }
+  - form: "zakończona"
+    pl: "Sprawa jest zakończona."
+    ru: "Дело завершено."
+    source: { kind: authored }
+  - form: "zakończoną"
+    pl: "Uznali sprawę za zakończoną."
+    ru: "Дело сочли завершённым."
+    source: { kind: authored }
+  - form: "zakończoną"
+    pl: "Zastał pracę już zakończoną."
+    ru: "Он застал работу уже завершённой."
+    source: { kind: authored }
+  - form: "zakończoną"
+    pl: "Podpisali umowę zakończoną aneksem."
+    ru: "Они подписали договор, завершённый приложением."
+    source: { kind: authored }
+  - form: "zakończone"
+    pl: "Rokowania zakończone."
+    ru: "Переговоры завершены."
+    source: { kind: translated, id: 365750 }
+  - form: "zakończone"
+    pl: "Przygotowania zakończone!"
+    ru: "Приготовления завершены!"
+    source: { kind: translated, id: 8608434 }
+  - form: "zakończone"
+    pl: "Prace zostały zakończone na czas."
+    ru: "Работы были завершены вовремя."
+    source: { kind: authored }
+  - form: "zakończonego"
+    pl: "Nie ma tu zakończonego projektu."
+    ru: "Завершённого проекта здесь нет."
+    source: { kind: authored }
+  - form: "zakończonego"
+    pl: "Szukam zakończonego wczoraj raportu."
+    ru: "Я ищу завершённый вчера отчёт."
+    source: { kind: authored }
+  - form: "zakończonego"
+    pl: "Dotyczy to zakończonego sporu."
+    ru: "Это касается завершённого спора."
+    source: { kind: authored }
+  - form: "zakończonej"
+    pl: "Nie ma tu zakończonej sprawy."
+    ru: "Завершённого дела здесь нет."
+    source: { kind: authored }
+  - form: "zakończonej"
+    pl: "Po zakończonej dyskusji zapadła cisza."
+    ru: "После завершённого обсуждения наступила тишина."
+    source: { kind: authored }
+  - form: "zakończonej"
+    pl: "Szukam zakończonej wczoraj umowy."
+    ru: "Я ищу завершённый вчера договор."
+    source: { kind: authored }
+  - form: "zakończonemu"
+    pl: "Przyjrzał się zakończonemu projektowi."
+    ru: "Он присмотрелся к завершённому проекту."
+    source: { kind: authored }
+  - form: "zakończonemu"
+    pl: "Nie ufa zbyt szybko zakończonemu śledztwu."
+    ru: "Он не доверяет слишком быстро завершённому следствию."
+    source: { kind: authored }
+  - form: "zakończonemu"
+    pl: "Dzięki zakończonemu remontowi wrócili do domu."
+    ru: "Благодаря завершённому ремонту они вернулись домой."
+    source: { kind: authored }
+  - form: "zakończono"
+    pl: "Prace zakończono w piątek."
+    ru: "Работы завершили в пятницу."
+    source: { kind: authored }
+  - form: "zakończono"
+    pl: "Śledztwo zakończono bez wyniku."
+    ru: "Следствие завершили без результата."
+    source: { kind: authored }
+  - form: "zakończono"
+    pl: "Rozmów nie zakończono."
+    ru: "Переговоры не завершили."
+    source: { kind: authored }
+  - form: "zakończony"
+    pl: "Projekt jest już zakończony."
+    ru: "Проект уже завершён."
+    source: { kind: authored }
+  - form: "zakończony"
+    pl: "Zakończony spór nikomu nie służył."
+    ru: "Завершённый спор никому не пошёл на пользу."
+    source: { kind: authored }
+  - form: "zakończony"
+    pl: "Remont został zakończony."
+    ru: "Ремонт был завершён."
+    source: { kind: authored }
+  - form: "zakończonych"
+    pl: "Wśród zakończonych spraw była i ta."
+    ru: "Среди завершённых дел было и это."
+    source: { kind: authored }
+  - form: "zakończonych"
+    pl: "Nie ma tu zakończonych projektów."
+    ru: "Завершённых проектов здесь нет."
+    source: { kind: authored }
+  - form: "zakończonych"
+    pl: "Szukam zakończonych umów."
+    ru: "Я ищу завершённые договоры."
+    source: { kind: authored }
+  - form: "zakończonym"
+    pl: "W zakończonym sporze nie było zwycięzcy."
+    ru: "В завершённом споре не было победителя."
+    source: { kind: authored }
+  - form: "zakończonym"
+    pl: "Przyjrzał się zakończonym pracom."
+    ru: "Он присмотрелся к завершённым работам."
+    source: { kind: authored }
+  - form: "zakończonym"
+    pl: "Zajął się zakończonym projektem."
+    ru: "Он занялся завершённым проектом."
+    source: { kind: authored }
+  - form: "zakończonymi"
+    pl: "Zajął się zakończonymi sprawami."
+    ru: "Он занялся завершёнными делами."
+    source: { kind: authored }
+  - form: "zakończonymi"
+    pl: "Między zakończonymi a trwającymi pracami jest różnica."
+    ru: "Между завершёнными и текущими работами есть разница."
+    source: { kind: authored }
+  - form: "zakończonymi"
+    pl: "Wrócił z zakończonymi umowami."
+    ru: "Он вернулся с завершёнными договорами."
+    source: { kind: authored }
+  - form: "zakończy"
+    pl: "Jutro konferencja zakończy się."
+    ru: "Завтра конференция закончится."
+    source: { kind: tatoeba, id: 4717132 }
+  - form: "zakończy"
+    pl: "Jak to się zakończy?"
+    ru: "Чем это закончится?"
+    source: { kind: translated, id: 3297218 }
+  - form: "zakończy"
+    pl: "Spotkanie zakończy się o piątej."
+    ru: "Встреча закончится в пять."
+    source: { kind: authored }
+  - form: "zakończycie"
+    pl: "Zakończycie prace do piątku?"
+    ru: "Вы закончите работы к пятнице?"
+    source: { kind: authored }
+  - form: "zakończycie"
+    pl: "Nie zakończycie tego na czas."
+    ru: "Вы не закончите это вовремя."
+    source: { kind: authored }
+  - form: "zakończycie"
+    pl: "Kiedy zakończycie spotkanie?"
+    ru: "Когда вы закончите встречу?"
+    source: { kind: authored }
+  - form: "zakończyć"
+    pl: "Możemy zakończyć?"
+    ru: "Мы можем закончить?"
+    source: { kind: translated, id: 2405990 }
+  - form: "zakończyć"
+    pl: "Możemy to zakończyć."
+    ru: "Мы можем это закончить."
+    source: { kind: translated, id: 4165052 }
+  - form: "zakończyć"
+    pl: "Chcę zakończyć ten spór."
+    ru: "Я хочу закончить этот спор."
+    source: { kind: authored }
+  - form: "zakończyli"
+    pl: "Zakończyli swoją misję."
+    ru: "Они завершили свою миссию."
+    source: { kind: translated, id: 1782506 }
+  - form: "zakończyli"
+    pl: "Ludzie zakończyli już przygotowania do podróży."
+    ru: "Люди уже завершили приготовления к поездке."
+    source: { kind: translated, id: 756507 }
+  - form: "zakończyli"
+    pl: "Zakończyli spotkanie wcześniej."
+    ru: "Они закончили встречу раньше."
+    source: { kind: authored }
+  - form: "zakończyliby"
+    pl: "Zakończyliby prace wcześniej."
+    ru: "Они закончили бы работы раньше."
+    source: { kind: authored }
+  - form: "zakończyliby"
+    pl: "Nie zakończyliby tego na czas."
+    ru: "Они не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończyliby"
+    pl: "Zakończyliby spór, gdyby mogli."
+    ru: "Они закончили бы спор, если бы могли."
+    source: { kind: authored }
+  - form: "zakończylibyście"
+    pl: "Zakończylibyście prace wcześniej?"
+    ru: "Вы закончили бы работы раньше?"
+    source: { kind: authored }
+  - form: "zakończylibyście"
+    pl: "Nie zakończylibyście tego na czas."
+    ru: "Вы не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończylibyście"
+    pl: "Zakończylibyście spór polubownie."
+    ru: "Вы закончили бы спор миром."
+    source: { kind: authored }
+  - form: "zakończylibyśmy"
+    pl: "Zakończylibyśmy prace wcześniej."
+    ru: "Мы закончили бы работы раньше."
+    source: { kind: authored }
+  - form: "zakończylibyśmy"
+    pl: "Nie zakończylibyśmy tego na czas."
+    ru: "Мы не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończylibyśmy"
+    pl: "Zakończylibyśmy spór polubownie."
+    ru: "Мы закончили бы спор миром."
+    source: { kind: authored }
+  - form: "zakończyliście"
+    pl: "Zakończyliście prace na czas."
+    ru: "Вы закончили работы вовремя."
+    source: { kind: authored }
+  - form: "zakończyliście"
+    pl: "Nic nie zakończyliście."
+    ru: "Вы ничего не закончили."
+    source: { kind: authored }
+  - form: "zakończyliście"
+    pl: "Kiedy zakończyliście spotkanie?"
+    ru: "Когда вы закончили встречу?"
+    source: { kind: authored }
+  - form: "zakończyliśmy"
+    pl: "Zakończyliśmy tę dyskusję."
+    ru: "Мы закончили это обсуждение."
+    source: { kind: translated, id: 367333 }
+  - form: "zakończyliśmy"
+    pl: "Zakończyliśmy pracę o piątej."
+    ru: "Мы закончили работу в пять."
+    source: { kind: authored }
+  - form: "zakończyliśmy"
+    pl: "Zakończyliśmy spór polubownie."
+    ru: "Мы закончили спор миром."
+    source: { kind: authored }
+  - form: "zakończył"
+    pl: "Mecz zakończył się."
+    ru: "Матч закончился."
+    source: { kind: tatoeba, id: 3657952 }
+  - form: "zakończył"
+    pl: "No nareszcie zakończył się ten niekończący się dzień."
+    ru: "Наконец-то закончился этот бесконечный день."
+    source: { kind: tatoeba, id: 6015200 }
+  - form: "zakończył"
+    pl: "Zakończył przemówienie żartem."
+    ru: "Он закончил речь шуткой."
+    source: { kind: authored }
+  - form: "zakończyła"
+    pl: "Konferencja zakończyła się."
+    ru: "Конференция закончилась."
+    source: { kind: translated, id: 4717135 }
+  - form: "zakończyła"
+    pl: "Bijatykę zakończyła policja."
+    ru: "Драку прекратила полиция."
+    source: { kind: translated, id: 1896050 }
+  - form: "zakończyła"
+    pl: "Zakończyła list pozdrowieniami."
+    ru: "Она закончила письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłaby"
+    pl: "Bez twojej rady, moja próba zakończyłaby się fiaskiem."
+    ru: "Без твоего совета моя попытка закончилась бы провалом."
+    source: { kind: translated, id: 827745 }
+  - form: "zakończyłaby"
+    pl: "Zakończyłaby spór, gdyby mogła."
+    ru: "Она закончила бы спор, если бы могла."
+    source: { kind: authored }
+  - form: "zakończyłaby"
+    pl: "Nie zakończyłaby tego tak szybko."
+    ru: "Она не закончила бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłabym"
+    pl: "Zakończyłabym spór, gdybym mogła."
+    ru: "Я закончила бы спор, если бы могла."
+    source: { kind: authored }
+  - form: "zakończyłabym"
+    pl: "Nie zakończyłabym tego tak szybko."
+    ru: "Я не закончила бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłabym"
+    pl: "Zakończyłabym list pozdrowieniami."
+    ru: "Я закончила бы письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłabyś"
+    pl: "Zakończyłabyś ten spór?"
+    ru: "Ты закончила бы этот спор?"
+    source: { kind: authored }
+  - form: "zakończyłabyś"
+    pl: "Nie zakończyłabyś tego tak szybko."
+    ru: "Ты не закончила бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłabyś"
+    pl: "Zakończyłabyś pracę do piątku?"
+    ru: "Ты закончила бы работу к пятнице?"
+    source: { kind: authored }
+  - form: "zakończyłam"
+    pl: "Zakończyłam pracę o piątej."
+    ru: "Я закончила работу в пять."
+    source: { kind: authored }
+  - form: "zakończyłam"
+    pl: "Zakończyłam list pozdrowieniami."
+    ru: "Я закончила письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłam"
+    pl: "Nie zakończyłam jeszcze raportu."
+    ru: "Я ещё не закончила отчёт."
+    source: { kind: authored }
+  - form: "zakończyłaś"
+    pl: "Zakończyłaś pracę?"
+    ru: "Ты закончила работу?"
+    source: { kind: authored }
+  - form: "zakończyłaś"
+    pl: "Zakończyłaś list pozdrowieniami."
+    ru: "Ты закончила письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłaś"
+    pl: "Nie zakończyłaś jeszcze raportu."
+    ru: "Ты ещё не закончила отчёт."
+    source: { kind: authored }
+  - form: "zakończyłby"
+    pl: "Zakończyłby spór, gdyby mógł."
+    ru: "Он закончил бы спор, если бы мог."
+    source: { kind: authored }
+  - form: "zakończyłby"
+    pl: "Nie zakończyłby tego tak szybko."
+    ru: "Он не закончил бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłby"
+    pl: "Zakończyłby list pozdrowieniami."
+    ru: "Он закончил бы письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłbym"
+    pl: "Zakończyłbym spór, gdybym mógł."
+    ru: "Я закончил бы спор, если бы мог."
+    source: { kind: authored }
+  - form: "zakończyłbym"
+    pl: "Nie zakończyłbym tego tak szybko."
+    ru: "Я не закончил бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłbym"
+    pl: "Zakończyłbym list pozdrowieniami."
+    ru: "Я закончил бы письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłbyś"
+    pl: "Zakończyłbyś ten spór?"
+    ru: "Ты закончил бы этот спор?"
+    source: { kind: authored }
+  - form: "zakończyłbyś"
+    pl: "Nie zakończyłbyś tego tak szybko."
+    ru: "Ты не закончил бы это так быстро."
+    source: { kind: authored }
+  - form: "zakończyłbyś"
+    pl: "Zakończyłbyś pracę do piątku?"
+    ru: "Ты закончил бы работу к пятнице?"
+    source: { kind: authored }
+  - form: "zakończyłem"
+    pl: "Zakończyłem pracę o piątej."
+    ru: "Я закончил работу в пять."
+    source: { kind: authored }
+  - form: "zakończyłem"
+    pl: "Zakończyłem list pozdrowieniami."
+    ru: "Я закончил письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłem"
+    pl: "Nie zakończyłem jeszcze raportu."
+    ru: "Я ещё не закончил отчёт."
+    source: { kind: authored }
+  - form: "zakończyłeś"
+    pl: "Zakończyłeś pracę?"
+    ru: "Ты закончил работу?"
+    source: { kind: authored }
+  - form: "zakończyłeś"
+    pl: "Zakończyłeś list pozdrowieniami."
+    ru: "Ты закончил письмо приветом."
+    source: { kind: authored }
+  - form: "zakończyłeś"
+    pl: "Nie zakończyłeś jeszcze raportu."
+    ru: "Ты ещё не закончил отчёт."
+    source: { kind: authored }
+  - form: "zakończyło"
+    pl: "Wszystko zakończyło się szczęśliwie."
+    ru: "Всё закончилось счастливо."
+    source: { kind: translated, id: 2981544 }
+  - form: "zakończyło"
+    pl: "Jak tylko zebranie zakończyło się, wrócili do pracy."
+    ru: "Как только собрание закончилось, они вернулись к работе."
+    source: { kind: translated, id: 730349 }
+  - form: "zakończyło"
+    pl: "Wszystko zakończyło się dobrze."
+    ru: "Всё закончилось хорошо."
+    source: { kind: authored }
+  - form: "zakończyłoby"
+    pl: "To zakończyłoby spór raz na zawsze."
+    ru: "Это закончило бы спор раз и навсегда."
+    source: { kind: authored }
+  - form: "zakończyłoby"
+    pl: "Spotkanie zakończyłoby się wcześniej."
+    ru: "Встреча закончилась бы раньше."
+    source: { kind: authored }
+  - form: "zakończyłoby"
+    pl: "Żadne słowo tego nie zakończyłoby."
+    ru: "Никакое слово этого не закончило бы."
+    source: { kind: authored }
+  - form: "zakończyły"
+    pl: "Wszystkie nasze próby zakończyły się niepowodzeniem."
+    ru: "Все наши попытки закончились неудачей."
+    source: { kind: translated, id: 6177477 }
+  - form: "zakończyły"
+    pl: "Rozmowy zakończyły się wczoraj."
+    ru: "Переговоры закончились вчера."
+    source: { kind: authored }
+  - form: "zakończyły"
+    pl: "Prace zakończyły się sukcesem."
+    ru: "Работы закончились успехом."
+    source: { kind: authored }
+  - form: "zakończyłyby"
+    pl: "Rozmowy zakończyłyby się sukcesem."
+    ru: "Переговоры закончились бы успехом."
+    source: { kind: authored }
+  - form: "zakończyłyby"
+    pl: "Prace zakończyłyby się w piątek."
+    ru: "Работы закончились бы в пятницу."
+    source: { kind: authored }
+  - form: "zakończyłyby"
+    pl: "Nie zakończyłyby tego na czas."
+    ru: "Они не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończyłybyście"
+    pl: "Zakończyłybyście prace wcześniej?"
+    ru: "Вы закончили бы работы раньше?"
+    source: { kind: authored }
+  - form: "zakończyłybyście"
+    pl: "Nie zakończyłybyście tego na czas."
+    ru: "Вы не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończyłybyście"
+    pl: "Zakończyłybyście spór polubownie."
+    ru: "Вы закончили бы спор миром."
+    source: { kind: authored }
+  - form: "zakończyłybyśmy"
+    pl: "Zakończyłybyśmy prace wcześniej."
+    ru: "Мы закончили бы работы раньше."
+    source: { kind: authored }
+  - form: "zakończyłybyśmy"
+    pl: "Nie zakończyłybyśmy tego na czas."
+    ru: "Мы не закончили бы это вовремя."
+    source: { kind: authored }
+  - form: "zakończyłybyśmy"
+    pl: "Zakończyłybyśmy spór polubownie."
+    ru: "Мы закончили бы спор миром."
+    source: { kind: authored }
+  - form: "zakończyłyście"
+    pl: "Zakończyłyście prace na czas."
+    ru: "Вы закончили работы вовремя."
+    source: { kind: authored }
+  - form: "zakończyłyście"
+    pl: "Nic nie zakończyłyście."
+    ru: "Вы ничего не закончили."
+    source: { kind: authored }
+  - form: "zakończyłyście"
+    pl: "Kiedy zakończyłyście spotkanie?"
+    ru: "Когда вы закончили встречу?"
+    source: { kind: authored }
+  - form: "zakończyłyśmy"
+    pl: "Zakończyłyśmy prace na czas."
+    ru: "Мы закончили работы вовремя."
+    source: { kind: authored }
+  - form: "zakończyłyśmy"
+    pl: "Zakończyłyśmy spór polubownie."
+    ru: "Мы закончили спор миром."
+    source: { kind: authored }
+  - form: "zakończyłyśmy"
+    pl: "Nie zakończyłyśmy jeszcze raportu."
+    ru: "Мы ещё не закончили отчёт."
+    source: { kind: authored }
+  - form: "zakończymy"
+    pl: "Zakończymy prace w piątek."
+    ru: "Мы закончим работы в пятницу."
+    source: { kind: authored }
+  - form: "zakończymy"
+    pl: "Nie zakończymy tego na czas."
+    ru: "Мы не закончим это вовремя."
+    source: { kind: authored }
+  - form: "zakończymy"
+    pl: "Zakończymy spotkanie wcześniej."
+    ru: "Мы закончим встречу раньше."
+    source: { kind: authored }
+  - form: "zakończysz"
+    pl: "Kiedy zakończysz przygotowania?"
+    ru: "Когда ты закончишь приготовления?"
+    source: { kind: translated, id: 1165250 }
+  - form: "zakończysz"
+    pl: "Zakończysz to do piątku?"
+    ru: "Ты закончишь это к пятнице?"
+    source: { kind: authored }
+  - form: "zakończysz"
+    pl: "Kiedy zakończysz pracę?"
+    ru: "Когда ты закончишь работу?"
+    source: { kind: authored }
+  - form: "zakończywszy"
+    pl: "Zakończywszy pracę, poszedł do domu."
+    ru: "Закончив работу, он пошёл домой."
+    source: { kind: authored }
+  - form: "zakończywszy"
+    pl: "Zakończywszy spór, podali sobie ręce."
+    ru: "Закончив спор, они пожали руки."
+    source: { kind: authored }
+  - form: "zakończywszy"
+    pl: "Zakończywszy list, zakleił kopertę."
+    ru: "Закончив письмо, он заклеил конверт."
+    source: { kind: authored }
