@@ -135,6 +135,24 @@ exclude:
   # text -- "kanał La Manche" six times over, plus "Valse de la lune" and "La Giralda".
   # Same defect as si, which is Spanish text rather than Polish.
   - la
+  # not a Polish noun: all four candidates are fragments of foreign or abbreviated
+  # expressions -- "lekarz in spe" (Latin), "Kiedy mam zrobić check-in?", "hole-in-one"
+  # and the abbreviation "m.in." for między innymi. Same class as e, la and si.
+  - in
+  # an English given name used as a Tatoeba placeholder: capitalised, 8 of its 10 forms
+  # have no corpus, and both candidates are the person ("Eric jest w naszej drużynie
+  # piłkarskiej.", "Erica jest bogatą i piękną młodą kobietą."). Same class as john and bill.
+  - eric
+  # a given name, not the biblical figure in any usable sense: capitalised, 8 of 10 forms
+  # empty, and only three candidates -- two of the name ("Adam Mickiewicz poetą wielkim
+  # był.") plus the fixed phrase "jabłko Adama". Contrast jezus and chryste, which are
+  # carded: those have rich corpus on every attested form and live idioms (Jezus Maria!,
+  # Jezu Chryste!). Adam has no genuine non-name use to build a card on.
+  - adam
+  # a ghost lemma with no corpus at all: zero candidates across all 57 forms. PoliMorf has
+  # built a verb paradigm (doległ, dolegli, dolegą) on top of what Wiktionary glosses as a
+  # noun meaning "dolar". Same zero-corpus defect as wyprawiac and sara.
+  - dolec
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
