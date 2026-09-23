@@ -1,0 +1,187 @@
+# review
+id: ciag
+format: 2
+lemma: "ciąg"
+rank: 817
+pos: noun
+pron: { cyr: "цёнк" }
+senses:
+  - id: within
+    ru: "w ciągu — в течение, за (какое-то время)"
+    note: "Самое частое употребление слова."
+    examples:
+      - pl: "Odpowiem w ciągu trzech dni."
+        ru: "Я отвечу в течение трёх дней."
+        source: { kind: tatoeba, id: 670387 }
+      - pl: "Dość trudno jest opanować francuski w ciągu 2-3 lat."
+        ru: "Довольно сложно выучить французский за 2—3 года."
+        source: { kind: tatoeba, id: 352003 }
+      - pl: "Będę w ciągu 10 minut."
+        ru: "Я буду в течение десяти минут."
+        source: { kind: translated, id: 5373088 }
+  - id: sequence
+    ru: "ряд, последовательность"
+    examples:
+      - pl: "Czeka mnie ciąg przygód."
+        ru: "Меня ждёт череда приключений."
+        source: { kind: translated, id: 2239290 }
+      - pl: "To ciąg liczb pierwszych."
+        ru: "Это последовательность простых чисел."
+        source: { kind: authored }
+      - pl: "Ciąg wydarzeń był zaskakujący."
+        ru: "Череда событий была неожиданной."
+        source: { kind: authored }
+  - id: continuation
+    ru: "ciąg dalszy — продолжение"
+    examples:
+      - pl: "Ciąg dalszy nastąpi."
+        ru: "Продолжение следует."
+        source: { kind: translated, id: 6308790 }
+      - pl: "Każdy dzień ma ciąg dalszy."
+        ru: "У каждого дня есть продолжение."
+        source: { kind: translated, id: 3718043 }
+      - pl: "Czekam na ciąg dalszy."
+        ru: "Я жду продолжения."
+        source: { kind: authored }
+  - id: still
+    ru: "w dalszym ciągu — по-прежнему, всё ещё"
+    examples:
+      - pl: "W dalszym ciągu nie wiem."
+        ru: "Я по-прежнему не знаю."
+        source: { kind: authored }
+      - pl: "W dalszym ciągu tu mieszka."
+        ru: "Он по-прежнему тут живёт."
+        source: { kind: authored }
+      - pl: "Sprawa w dalszym ciągu stoi."
+        ru: "Дело по-прежнему стоит."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Чаще всего слово встречается в обороте w ciągu «в течение, за»: w ciągu trzech dni «за три дня», w ciągu dnia «в течение дня». Русское «в течение» устроено похоже, но берёт другой корень." }
+  - { kind: usage, text: "Два других оборота стоит выучить целиком: ciąg dalszy nastąpi «продолжение следует» и w dalszym ciągu «по-прежнему, всё ещё»." }
+  - { kind: usage, text: "Прямое значение — «ряд, последовательность»: ciąg liczb «числовая последовательность», ciąg wydarzeń «череда событий». В технике это ещё и «тяга»." }
+  - { kind: usage, text: "Слово от ciągnąć «тянуть» — то же гнездо, что wyciągnąć «вытащить» и pociąg «поезд»." }
+collocations:
+  - { pl: "w ciągu dnia", ru: "в течение дня" }
+  - { pl: "ciąg dalszy", ru: "продолжение" }
+  - { pl: "w dalszym ciągu", ru: "по-прежнему" }
+  - { pl: "ciąg wydarzeń", ru: "череда событий" }
+family:
+  - { pl: "ciągnąć", ru: "тянуть", relation: root }
+  - { pl: "pociąg", ru: "поезд", relation: root }
+  - { pl: "wyciągnąć", ru: "вытащить", relation: root }
+  - { pl: "ciągły", ru: "непрерывный", relation: derived }
+etymology: "От ciągnąć «тянуть» — то же гнездо, что pociąg «поезд» и wyciągnąć «вытащить»."
+memory: "ciąg — «ряд, последовательность», от ciągnąć «тянуть», как pociąg «поезд». Но чаще всего слово попадается в оборотах, и их стоит выучить целиком: w ciągu «в течение, за» (w ciągu trzech dni), ciąg dalszy nastąpi «продолжение следует» и w dalszym ciągu «по-прежнему»."
+idioms:
+  - { pl: "w ciągu dnia", ru: "в течение дня" }
+  - { pl: "ciąg dalszy nastąpi", ru: "продолжение следует" }
+  - { pl: "w dalszym ciągu", ru: "по-прежнему" }
+formExamples:
+  - form: "ciąg"
+    pl: "Ciąg dalszy nastąpi."
+    ru: "Продолжение следует."
+    source: { kind: translated, id: 6308790 }
+  - form: "ciąg"
+    pl: "Czeka mnie ciąg przygód."
+    ru: "Меня ждёт череда приключений."
+    source: { kind: translated, id: 2239290 }
+  - form: "ciąg"
+    pl: "Każdy dzień ma ciąg dalszy."
+    ru: "У каждого дня есть продолжение."
+    source: { kind: translated, id: 3718043 }
+  - form: "ciągach"
+    pl: "W tych ciągach powtarza się wzór."
+    ru: "В этих последовательностях повторяется образец."
+    source: { kind: authored }
+  - form: "ciągach"
+    pl: "Mówili o ciągach komunikacyjnych."
+    ru: "Они говорили о транспортных путях."
+    source: { kind: authored }
+  - form: "ciągach"
+    pl: "W obu ciągach jest ten sam błąd."
+    ru: "В обеих последовательностях одна и та же ошибка."
+    source: { kind: authored }
+  - form: "ciągami"
+    pl: "Zajmuje się ciągami liczbowymi."
+    ru: "Он занимается числовыми последовательностями."
+    source: { kind: authored }
+  - form: "ciągami"
+    pl: "Między tymi ciągami jest zależność."
+    ru: "Между этими последовательностями есть зависимость."
+    source: { kind: authored }
+  - form: "ciągami"
+    pl: "Wrócił z gotowymi ciągami danych."
+    ru: "Он вернулся с готовыми последовательностями данных."
+    source: { kind: authored }
+  - form: "ciągi"
+    pl: "Ciągi liczb bywają nieskończone."
+    ru: "Числовые последовательности бывают бесконечными."
+    source: { kind: authored }
+  - form: "ciągi"
+    pl: "W tekście powtarzają się te same ciągi."
+    ru: "В тексте повторяются одни и те же последовательности."
+    source: { kind: authored }
+  - form: "ciągi"
+    pl: "Ciągi pieszych prowadzą do rynku."
+    ru: "Пешеходные пути ведут к площади."
+    source: { kind: authored }
+  - form: "ciągiem"
+    pl: "Zajął się ciągiem technologicznym."
+    ru: "Он занялся технологической цепочкой."
+    source: { kind: authored }
+  - form: "ciągiem"
+    pl: "Nad ciągiem wydarzeń nikt nie panował."
+    ru: "Чередой событий никто не управлял."
+    source: { kind: authored }
+  - form: "ciągiem"
+    pl: "Między jednym a drugim ciągiem jest przerwa."
+    ru: "Между одной и другой цепочкой есть перерыв."
+    source: { kind: authored }
+  - form: "ciągom"
+    pl: "Przyjrzał się ciągom liczb."
+    ru: "Он присмотрелся к числовым последовательностям."
+    source: { kind: authored }
+  - form: "ciągom"
+    pl: "Nie ufa takim ciągom przypadków."
+    ru: "Он не доверяет таким цепочкам совпадений."
+    source: { kind: authored }
+  - form: "ciągom"
+    pl: "Dzięki tym ciągom udało się odtworzyć kod."
+    ru: "Благодаря этим последовательностям удалось восстановить код."
+    source: { kind: authored }
+  - form: "ciągowi"
+    pl: "Przyjrzał się ciągowi liczb."
+    ru: "Он присмотрелся к последовательности чисел."
+    source: { kind: authored }
+  - form: "ciągowi"
+    pl: "Temu ciągowi brakuje logiki."
+    ru: "Этой последовательности не хватает логики."
+    source: { kind: authored }
+  - form: "ciągowi"
+    pl: "Dzięki ciągowi zdarzeń wszystko się wyjaśniło."
+    ru: "Благодаря череде событий всё выяснилось."
+    source: { kind: authored }
+  - form: "ciągów"
+    pl: "Nie ma tu długich ciągów."
+    ru: "Длинных последовательностей здесь нет."
+    source: { kind: authored }
+  - form: "ciągów"
+    pl: "Szukam ciągów powtarzających się w danych."
+    ru: "Я ищу повторяющиеся последовательности в данных."
+    source: { kind: authored }
+  - form: "ciągów"
+    pl: "Kilku ciągów brakuje w spisie."
+    ru: "Нескольких цепочек не хватает в списке."
+    source: { kind: authored }
+  - form: "ciągu"
+    pl: "Odpowiem w ciągu trzech dni."
+    ru: "Я отвечу в течение трёх дней."
+    source: { kind: tatoeba, id: 670387 }
+  - form: "ciągu"
+    pl: "Dość trudno jest opanować francuski w ciągu 2-3 lat."
+    ru: "Довольно сложно выучить французский за 2—3 года."
+    source: { kind: tatoeba, id: 352003 }
+  - form: "ciągu"
+    pl: "Będę w ciągu 10 minut."
+    ru: "Я буду в течение десяти минут."
+    source: { kind: translated, id: 5373088 }

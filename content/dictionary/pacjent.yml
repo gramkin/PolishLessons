@@ -1,0 +1,198 @@
+# review
+id: pacjent
+format: 2
+lemma: "pacjent"
+rank: 814
+pos: noun
+pron: { cyr: "па́цьент" }
+senses:
+  - id: patient
+    ru: "пациент"
+    examples:
+      - pl: "Pacjent stracił dużo krwi."
+        ru: "Пациент потерял много крови."
+        source: { kind: tatoeba, id: 6692580 }
+      - pl: "Tom to mój pacjent."
+        ru: "Том — мой пациент."
+        source: { kind: translated, id: 3996308 }
+      - pl: "Pacjent nie ma pulsu."
+        ru: "У пациента нет пульса."
+        source: { kind: translated, id: 4837766 }
+  - id: be-patient
+    ru: "być pacjentem — быть пациентом (творительный)"
+    examples:
+      - pl: "Jesteś pacjentem."
+        ru: "Ты пациент."
+        source: { kind: translated, id: 5665529 }
+      - pl: "Jestem pacjentem."
+        ru: "Я пациент."
+        source: { kind: translated, id: 10651471 }
+      - pl: "Tom jest moim pacjentem."
+        ru: "Том — мой пациент."
+        source: { kind: translated, id: 4999021 }
+  - id: to-patient
+    ru: "podać pacjentowi — дать пациенту (дательный)"
+    examples:
+      - pl: "Współczuję pacjentowi, któremu zabrano rybę."
+        ru: "Сочувствую пациенту, у которого забрали рыбу."
+        source: { kind: tatoeba, id: 12696081 }
+      - pl: "Pacjentowi pozwolono wstać."
+        ru: "Пациенту разрешили встать."
+        source: { kind: translated, id: 402697 }
+      - pl: "Lekarz podał pacjentowi lek."
+        ru: "Врач дал пациенту лекарство."
+        source: { kind: translated, id: 8761397 }
+  - id: patients
+    ru: "pacjenci — пациенты"
+    examples:
+      - pl: "Wszyscy pacjenci ostatecznie zmarli."
+        ru: "Все пациенты в конце концов умерли."
+        source: { kind: tatoeba, id: 13203444 }
+      - pl: "Pacjenci ciągle narzekają na tę pielęgniarkę."
+        ru: "Пациенты постоянно жалуются на эту медсестру."
+        source: { kind: translated, id: 12044162 }
+      - pl: "Pacjenci stoją w kolejce do lekarza specjalisty."
+        ru: "Пациенты стоят в очереди к врачу-специалисту."
+        source: { kind: translated, id: 3746672 }
+notes:
+  - { kind: usage, text: "Этимология говорящая: латинское patiens значит «страдающий, терпящий», так что пациент — буквально «тот, кто терпит». Та же идея, что в польском cierpieć «страдать», только корень другой." }
+  - { kind: government, text: "leczyć pacjenta «лечить пациента» — винительный; podać pacjentowi lek «дать пациенту лекарство» — дательный; kontakt z pacjentami — творительный." }
+  - { kind: usage, text: "Звательный pacjencie живой, как у всех слов о людях: Panie pacjencie, proszę usiąść." }
+  - { kind: usage, text: "Родня по теме: pacjentka «пациентка», lekarz «врач», szpital «больница», przychodnia «поликлиника»." }
+collocations:
+  - { pl: "leczyć pacjenta", ru: "лечить пациента" }
+  - { pl: "być pacjentem", ru: "быть пациентом" }
+  - { pl: "podać pacjentowi lek", ru: "дать пациенту лекарство" }
+  - { pl: "przyjąć pacjenta", ru: "принять пациента" }
+family:
+  - { pl: "pacjentka", ru: "пациентка", relation: derived }
+  - { pl: "lekarz", ru: "врач", relation: root }
+  - { pl: "szpital", ru: "больница", relation: root }
+  - { pl: "przychodnia", ru: "поликлиника", relation: root }
+etymology: "Через немецкое Patient из латинского patiens «страдающий, терпящий» — то же заимствование, что русский «пациент»."
+memory: "pacjent — «пациент», и этимология у слова говорящая: латинское patiens значит «страдающий, терпящий», так что пациент буквально «тот, кто терпит». Та же идея, что в польском cierpieć, только корень другой. Управление привычное: leczyć pacjenta (винительный), но podać pacjentowi lek (дательный)."
+idioms:
+  - { pl: "leczyć pacjenta", ru: "лечить пациента" }
+  - { pl: "być pacjentem", ru: "быть пациентом" }
+  - { pl: "przyjąć pacjenta", ru: "принять пациента" }
+formExamples:
+  - form: "pacjenci"
+    pl: "Wszyscy pacjenci ostatecznie zmarli."
+    ru: "Все пациенты в конце концов умерли."
+    source: { kind: tatoeba, id: 13203444 }
+  - form: "pacjenci"
+    pl: "Pacjenci ciągle narzekają na tę pielęgniarkę."
+    ru: "Пациенты постоянно жалуются на эту медсестру."
+    source: { kind: translated, id: 12044162 }
+  - form: "pacjenci"
+    pl: "Pacjenci stoją w kolejce do lekarza specjalisty."
+    ru: "Пациенты стоят в очереди к врачу-специалисту."
+    source: { kind: translated, id: 3746672 }
+  - form: "pacjencie"
+    pl: "Opowiedziała przy pacjencie kilka dowcipów i zaśpiewała parę zabawnych piosenek."
+    ru: "Она рассказала при пациенте несколько анекдотов и спела пару смешных песен."
+    source: { kind: translated, id: 7881195 }
+  - form: "pacjencie"
+    pl: "Panie pacjencie, proszę usiąść."
+    ru: "Пациент, присядьте, пожалуйста."
+    source: { kind: authored }
+  - form: "pacjencie"
+    pl: "O tym pacjencie lekarz mówił wczoraj."
+    ru: "Об этом пациенте врач говорил вчера."
+    source: { kind: authored }
+  - form: "pacjent"
+    pl: "Pacjent stracił dużo krwi."
+    ru: "Пациент потерял много крови."
+    source: { kind: tatoeba, id: 6692580 }
+  - form: "pacjent"
+    pl: "Tom to mój pacjent."
+    ru: "Том — мой пациент."
+    source: { kind: translated, id: 3996308 }
+  - form: "pacjent"
+    pl: "Pacjent nie ma pulsu."
+    ru: "У пациента нет пульса."
+    source: { kind: translated, id: 4837766 }
+  - form: "pacjenta"
+    pl: "Życie pacjenta było zagrożone."
+    ru: "Жизнь пациента была под угрозой."
+    source: { kind: translated, id: 2810212 }
+  - form: "pacjenta"
+    pl: "Tego pacjenta leczył doktor Bell ."
+    ru: "Этого пациента лечил доктор Белл."
+    source: { kind: translated, id: 1896006 }
+  - form: "pacjenta"
+    pl: "Terapeuta leczy pacjenta z urazem pleców."
+    ru: "Терапевт лечит пациента с травмой спины."
+    source: { kind: translated, id: 720263 }
+  - form: "pacjentach"
+    pl: "W tych pacjentach widać poprawę."
+    ru: "В этих пациентах видно улучшение."
+    source: { kind: authored }
+  - form: "pacjentach"
+    pl: "Mówili o pacjentach z oddziału."
+    ru: "Они говорили о пациентах из отделения."
+    source: { kind: authored }
+  - form: "pacjentach"
+    pl: "W obu pacjentach objawy były podobne."
+    ru: "У обоих пациентов симптомы были похожи."
+    source: { kind: authored }
+  - form: "pacjentami"
+    pl: "Higiena jest obowiązkiem personelu mającego kontakt z pacjentami."
+    ru: "Гигиена — обязанность персонала, контактирующего с пациентами."
+    source: { kind: translated, id: 6207697 }
+  - form: "pacjentami"
+    pl: "Rozmawiał z pacjentami po obchodzie."
+    ru: "Он говорил с пациентами после обхода."
+    source: { kind: authored }
+  - form: "pacjentami"
+    pl: "Zajmuje się pacjentami po operacjach."
+    ru: "Он занимается пациентами после операций."
+    source: { kind: authored }
+  - form: "pacjentem"
+    pl: "Jesteś pacjentem."
+    ru: "Ты пациент."
+    source: { kind: translated, id: 5665529 }
+  - form: "pacjentem"
+    pl: "Jestem pacjentem."
+    ru: "Я пациент."
+    source: { kind: translated, id: 10651471 }
+  - form: "pacjentem"
+    pl: "Tom jest moim pacjentem."
+    ru: "Том — мой пациент."
+    source: { kind: translated, id: 4999021 }
+  - form: "pacjentom"
+    pl: "Dobrzy lekarze udzielają pacjentom zrozumiałych wyjaśnień przy pomocy np. modeli anatomicznych."
+    ru: "Хорошие врачи дают пациентам понятные объяснения, например с помощью анатомических моделей."
+    source: { kind: translated, id: 919440 }
+  - form: "pacjentom"
+    pl: "Pielęgniarka rozdała pacjentom leki."
+    ru: "Медсестра раздала пациентам лекарства."
+    source: { kind: authored }
+  - form: "pacjentom"
+    pl: "Dzięki nowym lekom pacjentom jest lepiej."
+    ru: "Благодаря новым лекарствам пациентам лучше."
+    source: { kind: authored }
+  - form: "pacjentowi"
+    pl: "Współczuję pacjentowi, któremu zabrano rybę."
+    ru: "Сочувствую пациенту, у которого забрали рыбу."
+    source: { kind: tatoeba, id: 12696081 }
+  - form: "pacjentowi"
+    pl: "Pacjentowi pozwolono wstać."
+    ru: "Пациенту разрешили встать."
+    source: { kind: translated, id: 402697 }
+  - form: "pacjentowi"
+    pl: "Lekarz podał pacjentowi lek."
+    ru: "Врач дал пациенту лекарство."
+    source: { kind: translated, id: 8761397 }
+  - form: "pacjentów"
+    pl: "Tom jest jednym z moich pacjentów."
+    ru: "Том - один из моих пациентов."
+    source: { kind: tatoeba, id: 8716839 }
+  - form: "pacjentów"
+    pl: "Mam dużo pacjentów."
+    ru: "У меня много пациентов."
+    source: { kind: translated, id: 5187726 }
+  - form: "pacjentów"
+    pl: "Nie mam dużo pacjentów."
+    ru: "У меня не много пациентов."
+    source: { kind: translated, id: 5187802 }

@@ -1,0 +1,199 @@
+# review
+id: test
+format: 2
+lemma: "test"
+rank: 822
+pos: noun
+pron: { cyr: "тэст" }
+senses:
+  - id: test
+    ru: "тест, контрольная"
+    examples:
+      - pl: "To test."
+        ru: "Это тест."
+        source: { kind: translated, id: 12179008 }
+      - pl: "Robię test."
+        ru: "Я делаю тест."
+        source: { kind: translated, id: 13640110 }
+      - pl: "To był test."
+        ru: "Это был тест."
+        source: { kind: translated, id: 12179007 }
+  - id: study-for
+    ru: "uczyć się do testu — готовиться к тесту"
+    examples:
+      - pl: "Muszę się uczyć do testu."
+        ru: "Мне нужно готовиться к тесту."
+        source: { kind: translated, id: 1830777 }
+      - pl: "Ona nie zaliczy tego testu."
+        ru: "Она не сдаст этот тест."
+        source: { kind: translated, id: 11464763 }
+      - pl: "Kiedy byłem studentem, zawsze kułem całą noc przed testem."
+        ru: "Когда я был студентом, я всегда зубрил всю ночь перед тестом."
+        source: { kind: translated, id: 3603545 }
+  - id: on-test
+    ru: "na teście — на тесте"
+    examples:
+      - pl: "Powodzenia na teście."
+        ru: "Удачи на тесте."
+        source: { kind: translated, id: 3750132 }
+      - pl: "Zrobiłem duży błąd na teście."
+        ru: "Я сделал большую ошибку в тесте."
+        source: { kind: translated, id: 2006029 }
+      - pl: "Testy zaczynają się w tym tygodniu."
+        ru: "Тесты начинаются на этой неделе."
+        source: { kind: translated, id: 7938258 }
+  - id: vs-egzamin
+    ru: "test ≠ egzamin «экзамен» ≠ sprawdzian «контрольная»"
+    note: "Три разных слова там, где русский часто берёт одно."
+    examples:
+      - pl: "Nienawidzę testów."
+        ru: "Я ненавижу тесты."
+        source: { kind: translated, id: 12179001 }
+      - pl: "Nowy silnik musi przejść wszystkie wymagane testy."
+        ru: "Новый двигатель должен пройти все необходимые испытания."
+        source: { kind: translated, id: 13561784 }
+      - pl: "Odpadłem z powodu testu krwi."
+        ru: "Я не прошёл из-за анализа крови."
+        source: { kind: translated, id: 600334 }
+notes:
+  - { kind: false-friend, text: "Поляк различает три слова там, где русский часто обходится одним. test — тест или проверка; egzamin — экзамен, серьёзный и с комиссией; sprawdzian — школьная контрольная. Studenci zdają egzamin, uczniowie piszą sprawdzian." }
+  - { kind: government, text: "do testu «к тесту» — родительный падеж; na teście «на тесте» — предложный; zdać test «сдать тест» — винительный." }
+  - { kind: usage, text: "Второе значение — техническое испытание: Nowy silnik musi przejść wszystkie testy «Новый двигатель должен пройти все испытания». И медицинское: test krwi «анализ крови»." }
+  - { kind: usage, text: "Родня: testować «тестировать», testowy «тестовый». Слово пришло из английского, а туда — из латыни." }
+collocations:
+  - { pl: "zdać test", ru: "сдать тест" }
+  - { pl: "uczyć się do testu", ru: "готовиться к тесту" }
+  - { pl: "na teście", ru: "на тесте" }
+  - { pl: "test krwi", ru: "анализ крови" }
+family:
+  - { pl: "egzamin", ru: "экзамен", relation: root }
+  - { pl: "sprawdzian", ru: "контрольная", relation: root }
+  - { pl: "testować", ru: "тестировать", relation: derived }
+  - { pl: "próba", ru: "проба, испытание", relation: root }
+etymology: "Из английского test, а туда — из латинского testum «глиняный сосуд для пробы металла»."
+memory: "test — «тест», но поляк различает три слова там, где русский часто берёт одно: test это тест или проверка, egzamin — экзамен с комиссией, а sprawdzian — школьная контрольная. Управление обычное: uczyć się do testu, ale na teście. И не забывайте техническое значение: przejść testy «пройти испытания»."
+idioms:
+  - { pl: "zdać test", ru: "сдать тест" }
+  - { pl: "uczyć się do testu", ru: "готовиться к тесту" }
+  - { pl: "test krwi", ru: "анализ крови" }
+formExamples:
+  - form: "test"
+    pl: "To test."
+    ru: "Это тест."
+    source: { kind: translated, id: 12179008 }
+  - form: "test"
+    pl: "Robię test."
+    ru: "Я делаю тест."
+    source: { kind: translated, id: 13640110 }
+  - form: "test"
+    pl: "To był test."
+    ru: "Это был тест."
+    source: { kind: translated, id: 12179007 }
+  - form: "testach"
+    pl: "Na testach wypadł dobrze."
+    ru: "На тестах он показал себя хорошо."
+    source: { kind: authored }
+  - form: "testach"
+    pl: "Mówili o testach medycznych."
+    ru: "Они говорили о медицинских тестах."
+    source: { kind: authored }
+  - form: "testach"
+    pl: "W obu testach był ten sam błąd."
+    ru: "В обоих тестах была одна и та же ошибка."
+    source: { kind: authored }
+  - form: "testami"
+    pl: "Zajmuje się testami silników."
+    ru: "Он занимается испытаниями двигателей."
+    source: { kind: authored }
+  - form: "testami"
+    pl: "Między testami jest przerwa."
+    ru: "Между тестами есть перерыв."
+    source: { kind: authored }
+  - form: "testami"
+    pl: "Wrócił z gotowymi testami."
+    ru: "Он вернулся с готовыми тестами."
+    source: { kind: authored }
+  - form: "testem"
+    pl: "Kiedy byłem studentem, zawsze kułem całą noc przed testem."
+    ru: "Когда я был студентом, я всегда зубрил всю ночь перед тестом."
+    source: { kind: translated, id: 3603545 }
+  - form: "testem"
+    pl: "Przed testem wszyscy milczeli."
+    ru: "Перед тестом все молчали."
+    source: { kind: authored }
+  - form: "testem"
+    pl: "Między testem a wynikiem minął tydzień."
+    ru: "Между тестом и результатом прошла неделя."
+    source: { kind: authored }
+  - form: "testom"
+    pl: "Głośno sprzeciwiali się testom jądrowym."
+    ru: "Они громко выступали против ядерных испытаний."
+    source: { kind: translated, id: 712457 }
+  - form: "testom"
+    pl: "Ci wybrani będą musieli być poddani obszernym testom medycznym i psychologicznym."
+    ru: "Отобранным придётся пройти обширные медицинские и психологические тесты."
+    source: { kind: translated, id: 526616 }
+  - form: "testom"
+    pl: "Nie ufa takim testom."
+    ru: "Он не доверяет таким тестам."
+    source: { kind: authored }
+  - form: "testowi"
+    pl: "Przyjrzał się nowemu testowi."
+    ru: "Он присмотрелся к новому тесту."
+    source: { kind: authored }
+  - form: "testowi"
+    pl: "Temu testowi brakuje jednego pytania."
+    ru: "Этому тесту не хватает одного вопроса."
+    source: { kind: authored }
+  - form: "testowi"
+    pl: "Poddali silnik testowi wytrzymałości."
+    ru: "Двигатель подвергли испытанию на прочность."
+    source: { kind: authored }
+  - form: "testów"
+    pl: "Nienawidzę testów."
+    ru: "Я ненавижу тесты."
+    source: { kind: translated, id: 12179001 }
+  - form: "testów"
+    pl: "Nadal jest na etapie testów."
+    ru: "Он всё ещё на этапе испытаний."
+    source: { kind: translated, id: 7972334 }
+  - form: "testów"
+    pl: "Sami nie zdał jednego z testów."
+    ru: "Сами не сдал один из тестов."
+    source: { kind: translated, id: 7960678 }
+  - form: "testu"
+    pl: "Muszę się uczyć do testu."
+    ru: "Мне нужно готовиться к тесту."
+    source: { kind: translated, id: 1830777 }
+  - form: "testu"
+    pl: "Ona nie zaliczy tego testu."
+    ru: "Она не сдаст этот тест."
+    source: { kind: translated, id: 11464763 }
+  - form: "testu"
+    pl: "Odpadłem z powodu testu krwi."
+    ru: "Я не прошёл из-за анализа крови."
+    source: { kind: translated, id: 600334 }
+  - form: "testy"
+    pl: "Testy zaczynają się w tym tygodniu."
+    ru: "Тесты начинаются на этой неделе."
+    source: { kind: translated, id: 7938258 }
+  - form: "testy"
+    pl: "Czy oceniłeś testy?"
+    ru: "Ты проверил тесты?"
+    source: { kind: translated, id: 575606 }
+  - form: "testy"
+    pl: "Nowy silnik musi przejść wszystkie wymagane testy."
+    ru: "Новый двигатель должен пройти все необходимые испытания."
+    source: { kind: translated, id: 13561784 }
+  - form: "teście"
+    pl: "Powodzenia na teście."
+    ru: "Удачи на тесте."
+    source: { kind: translated, id: 3750132 }
+  - form: "teście"
+    pl: "Zrobiłem duży błąd na teście."
+    ru: "Я сделал большую ошибку в тесте."
+    source: { kind: translated, id: 2006029 }
+  - form: "teście"
+    pl: "Popełniłem duży błąd na teście."
+    ru: "Я допустил большую ошибку в тесте."
+    source: { kind: translated, id: 1991698 }

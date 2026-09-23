@@ -1,0 +1,90 @@
+# review
+id: oraz
+format: 2
+lemma: "oraz"
+rank: 823
+pos: conj
+pron: { cyr: "о́рас" }
+senses:
+  - id: and
+    ru: "и (книжное)"
+    examples:
+      - pl: "W muzeum są nowe eksponaty – kolekcja zabytkowych monet oraz ikon."
+        ru: "В музее новые экспонаты — коллекция древних монет и икон."
+        source: { kind: tatoeba, id: 8666135 }
+      - pl: "Wszystkie istoty ludzkie rodzą się wolne i równe w godności i prawach. Są one obdarzone rozumem i sumieniem oraz powinny postępować w stosunku do siebie wzajemnie w duchu braterstwa."
+        ru: "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства."
+        source: { kind: tatoeba, id: 348677 }
+      - pl: "Czas wyjawia prawdę oraz kłamstwo."
+        ru: "Время раскрывает правду и ложь."
+        source: { kind: translated, id: 669597 }
+  - id: last-pair
+    ru: "соединяет последнюю пару в перечислении"
+    note: "Именно там, где русский ставит последнее «и»."
+    examples:
+      - pl: "Kupiłem chleb, ser oraz mleko."
+        ru: "Я купил хлеб, сыр и молоко."
+        source: { kind: authored }
+      - pl: "Przyszli Anna, Piotr oraz Marek."
+        ru: "Пришли Анна, Пётр и Марек."
+        source: { kind: authored }
+      - pl: "Potrzebne są wniosek, zdjęcie oraz opłata."
+        ru: "Нужны заявление, фотография и оплата."
+        source: { kind: authored }
+  - id: never-first
+    ru: "никогда не открывает предложение"
+    examples:
+      - pl: "Zebrał dokumenty oraz podpisy."
+        ru: "Он собрал документы и подписи."
+        source: { kind: authored }
+      - pl: "Mówił o pracy oraz o rodzinie."
+        ru: "Он говорил о работе и о семье."
+        source: { kind: authored }
+      - pl: "Wymagane są wiedza oraz doświadczenie."
+        ru: "Требуются знания и опыт."
+        source: { kind: authored }
+  - id: register
+    ru: "oraz книжнее, чем i"
+    examples:
+      - pl: "W skład wchodzą woda oraz sól."
+        ru: "В состав входят вода и соль."
+        source: { kind: authored }
+      - pl: "Ustawa dotyczy szkół oraz przedszkoli."
+        ru: "Закон касается школ и детских садов."
+        source: { kind: authored }
+      - pl: "Zaprosili rodziców oraz nauczycieli."
+        ru: "Они пригласили родителей и учителей."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "oraz — книжный вариант союза i, и у него есть своё место: он соединяет последнюю пару в перечислении, там где русский ставит заключительное «и». Kupiłem chleb, ser oraz mleko." }
+  - { kind: usage, text: "Важное ограничение: oraz никогда не открывает предложение. Начать фразу с «И…» по-польски можно только через i, но не через oraz." }
+  - { kind: usage, text: "В живой речи почти не встречается — это язык документов, инструкций и научного текста." }
+  - { kind: usage, text: "Слово разбирается как o + raz «раз», буквально «за один раз, разом»." }
+collocations:
+  - { pl: "chleb oraz mleko", ru: "хлеб и молоко" }
+  - { pl: "wiedza oraz doświadczenie", ru: "знания и опыт" }
+  - { pl: "rodzice oraz nauczyciele", ru: "родители и учителя" }
+family:
+  - { pl: "i", ru: "и", relation: root }
+  - { pl: "a", ru: "а", relation: root }
+  - { pl: "raz", ru: "раз", relation: root }
+  - { pl: "także", ru: "также", relation: root }
+etymology: "o + raz «раз» — буквально «за один раз, разом»."
+memory: "oraz — книжный вариант союза i, и у него есть своё место в предложении: он соединяет последнюю пару в перечислении, там где русский ставит заключительное «и» — chleb, ser oraz mleko. Главное ограничение: oraz никогда не открывает предложение. И звучит он по-канцелярски: в разговоре берите i."
+idioms:
+  - { pl: "chleb oraz mleko", ru: "хлеб и молоко" }
+  - { pl: "wiedza oraz doświadczenie", ru: "знания и опыт" }
+  - { pl: "rodzice oraz nauczyciele", ru: "родители и учителя" }
+formExamples:
+  - form: "oraz"
+    pl: "W muzeum są nowe eksponaty – kolekcja zabytkowych monet oraz ikon."
+    ru: "В музее новые экспонаты — коллекция древних монет и икон."
+    source: { kind: tatoeba, id: 8666135 }
+  - form: "oraz"
+    pl: "Wszystkie istoty ludzkie rodzą się wolne i równe w godności i prawach. Są one obdarzone rozumem i sumieniem oraz powinny postępować w stosunku do siebie wzajemnie w duchu braterstwa."
+    ru: "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства."
+    source: { kind: tatoeba, id: 348677 }
+  - form: "oraz"
+    pl: "Czas wyjawia prawdę oraz kłamstwo."
+    ru: "Время раскрывает правду и ложь."
+    source: { kind: translated, id: 669597 }
