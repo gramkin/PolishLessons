@@ -1,0 +1,704 @@
+# review
+id: rozwiazac
+format: 2
+lemma: "rozwiązać"
+rank: 870
+pos: verb
+aspect: perf
+pron: { cyr: "розвьо́нзаць" }
+senses:
+  - id: solve
+    ru: "решить (задачу, проблему), разгадать"
+    examples:
+      - pl: "Pomożecie mi rozwiązać tę zagadkę?"
+        ru: "Вы поможете мне разгадать эту загадку?"
+        source: { kind: tatoeba, id: 12624929 }
+      - pl: "Rozwiązałem ten problem bez trudu."
+        ru: "Для меня не составило труда решить эту проблему."
+        source: { kind: tatoeba, id: 933157 }
+      - pl: "Rozwiąż problem."
+        ru: "Реши задачу."
+        source: { kind: translated, id: 5131824 }
+  - id: untie
+    ru: "развязать; распустить (о парламенте, организации)"
+    note: "Буквальное значение корня: roz- + wiązać «вязать»."
+    examples:
+      - pl: "Krawat ci się rozwiązał."
+        ru: "У тебя галстук развязался."
+        source: { kind: translated, id: 12351168 }
+      - pl: "Parlament został rozwiązany."
+        ru: "Парламент был распущен."
+        source: { kind: translated, id: 9679590 }
+      - pl: "Rozwiązał sznurowadła."
+        ru: "Он развязал шнурки."
+        source: { kind: authored }
+  - id: solution
+    ru: "rozwiązanie — решение, выход"
+    examples:
+      - pl: "To nie najlepsze rozwiązanie."
+        ru: "Это не лучшее решение."
+        source: { kind: tatoeba, id: 3460263 }
+      - pl: "Masz pięć minut na rozwiązanie problemu."
+        ru: "У тебя есть пять минут на решение проблемы."
+        source: { kind: tatoeba, id: 12712045 }
+      - pl: "Nie ma rozwiązania."
+        ru: "Решения нет."
+        source: { kind: translated, id: 8458046 }
+notes:
+  - { kind: government, text: "rozwiązać coś «решить что-то» — винительный падеж: rozwiązać problem, rozwiązać zagadkę. Несовершенный вид — rozwiązywać." }
+  - { kind: usage, text: "Корень буквальный: roz- + wiązać «вязать», то есть «развязать». Отсюда и «решить»: задача — это узел, который надо развязать. Русское «развязать» и «разрешить» устроены похоже." }
+  - { kind: usage, text: "С się глагол значит «развязаться»: Krawat ci się rozwiązał «У тебя галстук развязался»." }
+  - { kind: usage, text: "Об организациях и органах власти глагол значит «распустить»: Parlament został rozwiązany «Парламент был распущен», rozwiązać umowę «расторгнуть договор»." }
+collocations:
+  - { pl: "rozwiązać problem", ru: "решить проблему" }
+  - { pl: "rozwiązać zagadkę", ru: "разгадать загадку" }
+  - { pl: "rozwiązać umowę", ru: "расторгнуть договор" }
+  - { pl: "rozwiązanie", ru: "решение" }
+family:
+  - { pl: "rozwiązywać", ru: "решать", relation: aspect }
+  - { pl: "wiązać", ru: "вязать, связывать", relation: root }
+  - { pl: "rozwiązanie", ru: "решение", relation: derived }
+  - { pl: "związek", ru: "связь, союз", relation: derived }
+etymology: "Из roz- + wiązać «вязать» — буквально «развязать». Русское «разрешить» и «развязать» устроены так же: задача мыслится как узел."
+memory: "rozwiązać — «решить», но буквально «развязать»: внутри сидит wiązać «вязать». Отсюда и второе значение — развязать узел, и третье — распустить парламент или расторгнуть договор. Существительное rozwiązanie значит «решение, выход»."
+idioms:
+  - { pl: "rozwiązać problem", ru: "решить проблему" }
+  - { pl: "rozwiązać zagadkę", ru: "разгадать загадку" }
+  - { pl: "rozwiązać umowę", ru: "расторгнуть договор" }
+formExamples:
+  - form: "rozwiązać"
+    pl: "Pomożecie mi rozwiązać tę zagadkę?"
+    ru: "Вы поможете мне разгадать эту загадку?"
+    source: { kind: tatoeba, id: 12624929 }
+  - form: "rozwiązać"
+    pl: "Pomoże mi pan rozwiązać tę zagadkę?"
+    ru: "Вы поможете мне разгадать эту загадку?"
+    source: { kind: tatoeba, id: 12624931 }
+  - form: "rozwiązać"
+    pl: "Trzeba to jakoś rozwiązać."
+    ru: "Это надо как-то решить."
+    source: { kind: authored }
+  - form: "rozwiązali"
+    pl: "Dobrze rozwiązali ten problem."
+    ru: "Они хорошо решили эту проблему."
+    source: { kind: translated, id: 450787 }
+  - form: "rozwiązali"
+    pl: "Rozwiązali umowę przed terminem."
+    ru: "Они расторгли договор досрочно."
+    source: { kind: authored }
+  - form: "rozwiązali"
+    pl: "Rozwiązali zespół po roku."
+    ru: "Они распустили команду через год."
+    source: { kind: authored }
+  - form: "rozwiązaliby"
+    pl: "Rozwiązaliby problem szybciej."
+    ru: "Они решили бы проблему быстрее."
+    source: { kind: authored }
+  - form: "rozwiązaliby"
+    pl: "Nie rozwiązaliby tego sami."
+    ru: "Сами они этого не решили бы."
+    source: { kind: authored }
+  - form: "rozwiązaliby"
+    pl: "Rozwiązaliby umowę przed terminem."
+    ru: "Они расторгли бы договор досрочно."
+    source: { kind: authored }
+  - form: "rozwiązalibyście"
+    pl: "Rozwiązalibyście to sami?"
+    ru: "Вы решили бы это сами?"
+    source: { kind: authored }
+  - form: "rozwiązalibyście"
+    pl: "Nie rozwiązalibyście tego na czas."
+    ru: "Вы не решили бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązalibyście"
+    pl: "Jak rozwiązalibyście ten problem?"
+    ru: "Как бы вы решили эту проблему?"
+    source: { kind: authored }
+  - form: "rozwiązalibyśmy"
+    pl: "Rozwiązalibyśmy to sami."
+    ru: "Мы решили бы это сами."
+    source: { kind: authored }
+  - form: "rozwiązalibyśmy"
+    pl: "Nie rozwiązalibyśmy tego na czas."
+    ru: "Мы не решили бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązalibyśmy"
+    pl: "Rozwiązalibyśmy umowę polubownie."
+    ru: "Мы расторгли бы договор полюбовно."
+    source: { kind: authored }
+  - form: "rozwiązaliście"
+    pl: "Rozwiązaliście to sami?"
+    ru: "Вы решили это сами?"
+    source: { kind: authored }
+  - form: "rozwiązaliście"
+    pl: "Rozwiązaliście umowę w marcu."
+    ru: "Вы расторгли договор в марте."
+    source: { kind: authored }
+  - form: "rozwiązaliście"
+    pl: "Nic nie rozwiązaliście."
+    ru: "Вы ничего не решили."
+    source: { kind: authored }
+  - form: "rozwiązaliśmy"
+    pl: "Rozwiązaliśmy ten problem w tygodniu."
+    ru: "Мы решили эту проблему за неделю."
+    source: { kind: translated, id: 3705087 }
+  - form: "rozwiązaliśmy"
+    pl: "Rozwiązaliśmy problem drogą wzajemnych ustępstw."
+    ru: "Мы решили проблему путём взаимных уступок."
+    source: { kind: translated, id: 516456 }
+  - form: "rozwiązaliśmy"
+    pl: "Rozwiązaliśmy umowę polubownie."
+    ru: "Мы расторгли договор полюбовно."
+    source: { kind: authored }
+  - form: "rozwiązał"
+    pl: "Sam rozwiązał problem."
+    ru: "Он сам решил проблему."
+    source: { kind: translated, id: 6315394 }
+  - form: "rozwiązał"
+    pl: "Krawat ci się rozwiązał."
+    ru: "У тебя галстук развязался."
+    source: { kind: translated, id: 12351168 }
+  - form: "rozwiązał"
+    pl: "Rozwiązał zagadkę w pięć minut."
+    ru: "Он разгадал загадку за пять минут."
+    source: { kind: authored }
+  - form: "rozwiązała"
+    pl: "W jaki sposób rozwiązała problem?"
+    ru: "Каким образом она решила проблему?"
+    source: { kind: translated, id: 3637414 }
+  - form: "rozwiązała"
+    pl: "Nauka wcale nie rozwiązała wszystkich problemów życia."
+    ru: "Наука вовсе не решила всех проблем жизни."
+    source: { kind: translated, id: 645909 }
+  - form: "rozwiązała"
+    pl: "Rozwiązała sznurowadła dziecku."
+    ru: "Она развязала ребёнку шнурки."
+    source: { kind: authored }
+  - form: "rozwiązałaby"
+    pl: "Rozwiązałaby to sama."
+    ru: "Она решила бы это сама."
+    source: { kind: authored }
+  - form: "rozwiązałaby"
+    pl: "Nie rozwiązałaby tego na czas."
+    ru: "Она не решила бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałaby"
+    pl: "Rozwiązałaby zagadkę w pięć minut."
+    ru: "Она разгадала бы загадку за пять минут."
+    source: { kind: authored }
+  - form: "rozwiązałabym"
+    pl: "Rozwiązałabym to inaczej."
+    ru: "Я решила бы это иначе."
+    source: { kind: authored }
+  - form: "rozwiązałabym"
+    pl: "Nie rozwiązałabym tego na czas."
+    ru: "Я не решила бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałabym"
+    pl: "Rozwiązałabym umowę."
+    ru: "Я расторгла бы договор."
+    source: { kind: authored }
+  - form: "rozwiązałabyś"
+    pl: "Rozwiązałabyś to inaczej?"
+    ru: "Ты решила бы это иначе?"
+    source: { kind: authored }
+  - form: "rozwiązałabyś"
+    pl: "Nie rozwiązałabyś tego na czas."
+    ru: "Ты не решила бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałabyś"
+    pl: "Jak rozwiązałabyś ten problem?"
+    ru: "Как бы ты решила эту проблему?"
+    source: { kind: authored }
+  - form: "rozwiązałam"
+    pl: "Rozwiązałam wszystkie zadania."
+    ru: "Я решила все задачи."
+    source: { kind: authored }
+  - form: "rozwiązałam"
+    pl: "Rozwiązałam ten problem sama."
+    ru: "Я решила эту проблему сама."
+    source: { kind: authored }
+  - form: "rozwiązałam"
+    pl: "Nic jeszcze nie rozwiązałam."
+    ru: "Я ещё ничего не решила."
+    source: { kind: authored }
+  - form: "rozwiązałaś"
+    pl: "Rozwiązałaś zagadkę?"
+    ru: "Ты разгадала загадку?"
+    source: { kind: authored }
+  - form: "rozwiązałaś"
+    pl: "Rozwiązałaś to sama."
+    ru: "Ты решила это сама."
+    source: { kind: authored }
+  - form: "rozwiązałaś"
+    pl: "Nic nie rozwiązałaś."
+    ru: "Ты ничего не решила."
+    source: { kind: authored }
+  - form: "rozwiązałby"
+    pl: "Rozwiązałby to sam."
+    ru: "Он решил бы это сам."
+    source: { kind: authored }
+  - form: "rozwiązałby"
+    pl: "Nie rozwiązałby tego na czas."
+    ru: "Он не решил бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałby"
+    pl: "Rozwiązałby zagadkę w pięć minut."
+    ru: "Он разгадал бы загадку за пять минут."
+    source: { kind: authored }
+  - form: "rozwiązałbym"
+    pl: "Rozwiązałbym to inaczej."
+    ru: "Я решил бы это иначе."
+    source: { kind: authored }
+  - form: "rozwiązałbym"
+    pl: "Nie rozwiązałbym tego na czas."
+    ru: "Я не решил бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałbym"
+    pl: "Rozwiązałbym umowę."
+    ru: "Я расторг бы договор."
+    source: { kind: authored }
+  - form: "rozwiązałbyś"
+    pl: "Rozwiązałbyś to inaczej?"
+    ru: "Ты решил бы это иначе?"
+    source: { kind: authored }
+  - form: "rozwiązałbyś"
+    pl: "Nie rozwiązałbyś tego na czas."
+    ru: "Ты не решил бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałbyś"
+    pl: "Jak rozwiązałbyś ten problem?"
+    ru: "Как бы ты решил эту проблему?"
+    source: { kind: authored }
+  - form: "rozwiązałem"
+    pl: "Rozwiązałem ten problem bez trudu."
+    ru: "Для меня не составило труда решить эту проблему."
+    source: { kind: tatoeba, id: 933157 }
+  - form: "rozwiązałem"
+    pl: "Rozwiązałem to."
+    ru: "Я это решил."
+    source: { kind: translated, id: 8610260 }
+  - form: "rozwiązałem"
+    pl: "Rozwiązałem wszystkie zadania."
+    ru: "Я решил все задачи."
+    source: { kind: authored }
+  - form: "rozwiązałeś"
+    pl: "Jak rozwiązałeś problem?"
+    ru: "Как ты решил проблему?"
+    source: { kind: translated, id: 524929 }
+  - form: "rozwiązałeś"
+    pl: "Powiedz, jak rozwiązałeś ten problem."
+    ru: "Расскажи, как ты решил эту задачу."
+    source: { kind: translated, id: 369265 }
+  - form: "rozwiązałeś"
+    pl: "Rozwiązałeś zagadkę?"
+    ru: "Ты разгадал загадку?"
+    source: { kind: authored }
+  - form: "rozwiązało"
+    pl: "Nic tego nie rozwiązało."
+    ru: "Ничто этого не решило."
+    source: { kind: authored }
+  - form: "rozwiązało"
+    pl: "Dziecko rozwiązało zadanie samo."
+    ru: "Ребёнок решил задачу сам."
+    source: { kind: authored }
+  - form: "rozwiązało"
+    pl: "To rozwiązało sprawę raz na zawsze."
+    ru: "Это решило дело раз и навсегда."
+    source: { kind: authored }
+  - form: "rozwiązałoby"
+    pl: "Nic tego nie rozwiązałoby."
+    ru: "Ничто этого не решило бы."
+    source: { kind: authored }
+  - form: "rozwiązałoby"
+    pl: "Dziecko rozwiązałoby zadanie samo."
+    ru: "Ребёнок решил бы задачу сам."
+    source: { kind: authored }
+  - form: "rozwiązałoby"
+    pl: "To rozwiązałoby sprawę raz na zawsze."
+    ru: "Это решило бы дело раз и навсегда."
+    source: { kind: authored }
+  - form: "rozwiązały"
+    pl: "Dzieci same rozwiązały problem."
+    ru: "Дети сами решили проблему."
+    source: { kind: translated, id: 410040 }
+  - form: "rozwiązały"
+    pl: "Firmy rozwiązały umowę."
+    ru: "Фирмы расторгли договор."
+    source: { kind: authored }
+  - form: "rozwiązały"
+    pl: "Te zmiany nic nie rozwiązały."
+    ru: "Эти перемены ничего не решили."
+    source: { kind: authored }
+  - form: "rozwiązałyby"
+    pl: "Te zmiany nic nie rozwiązałyby."
+    ru: "Эти перемены ничего не решили бы."
+    source: { kind: authored }
+  - form: "rozwiązałyby"
+    pl: "Firmy rozwiązałyby umowę."
+    ru: "Фирмы расторгли бы договор."
+    source: { kind: authored }
+  - form: "rozwiązałyby"
+    pl: "Dzieci rozwiązałyby to same."
+    ru: "Дети решили бы это сами."
+    source: { kind: authored }
+  - form: "rozwiązałybyście"
+    pl: "Rozwiązałybyście to same?"
+    ru: "Вы решили бы это сами?"
+    source: { kind: authored }
+  - form: "rozwiązałybyście"
+    pl: "Nie rozwiązałybyście tego na czas."
+    ru: "Вы не решили бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałybyście"
+    pl: "Jak rozwiązałybyście ten problem?"
+    ru: "Как бы вы решили эту проблему?"
+    source: { kind: authored }
+  - form: "rozwiązałybyśmy"
+    pl: "Rozwiązałybyśmy to same."
+    ru: "Мы решили бы это сами."
+    source: { kind: authored }
+  - form: "rozwiązałybyśmy"
+    pl: "Nie rozwiązałybyśmy tego na czas."
+    ru: "Мы не решили бы это вовремя."
+    source: { kind: authored }
+  - form: "rozwiązałybyśmy"
+    pl: "Rozwiązałybyśmy umowę polubownie."
+    ru: "Мы расторгли бы договор полюбовно."
+    source: { kind: authored }
+  - form: "rozwiązałyście"
+    pl: "Rozwiązałyście to same?"
+    ru: "Вы решили это сами?"
+    source: { kind: authored }
+  - form: "rozwiązałyście"
+    pl: "Rozwiązałyście umowę w marcu."
+    ru: "Вы расторгли договор в марте."
+    source: { kind: authored }
+  - form: "rozwiązałyście"
+    pl: "Nic nie rozwiązałyście."
+    ru: "Вы ничего не решили."
+    source: { kind: authored }
+  - form: "rozwiązałyśmy"
+    pl: "Rozwiązałyśmy to same."
+    ru: "Мы решили это сами."
+    source: { kind: authored }
+  - form: "rozwiązałyśmy"
+    pl: "Rozwiązałyśmy wszystkie zadania."
+    ru: "Мы решили все задачи."
+    source: { kind: authored }
+  - form: "rozwiązałyśmy"
+    pl: "Nic jeszcze nie rozwiązałyśmy."
+    ru: "Мы ещё ничего не решили."
+    source: { kind: authored }
+  - form: "rozwiązana"
+    pl: "I sprawa rozwiązana!"
+    ru: "И дело решено!"
+    source: { kind: translated, id: 1603981 }
+  - form: "rozwiązana"
+    pl: "Sprawa została rozwiązana."
+    ru: "Дело было решено."
+    source: { kind: authored }
+  - form: "rozwiązana"
+    pl: "Rozwiązana zagadka przestaje ciekawić."
+    ru: "Разгаданная загадка перестаёт занимать."
+    source: { kind: authored }
+  - form: "rozwiązaną"
+    pl: "Uznali sprawę za rozwiązaną."
+    ru: "Дело сочли решённым."
+    source: { kind: authored }
+  - form: "rozwiązaną"
+    pl: "Pokazał rozwiązaną zagadkę."
+    ru: "Он показал разгаданную загадку."
+    source: { kind: authored }
+  - form: "rozwiązaną"
+    pl: "Widziałem rozwiązaną umowę."
+    ru: "Я видел расторгнутый договор."
+    source: { kind: authored }
+  - form: "rozwiązane"
+    pl: "Te zagadnienia zostaną rozwiązane w najbliższej przyszłości."
+    ru: "Эти проблемы будут решены в ближайшем будущем."
+    source: { kind: tatoeba, id: 1002577 }
+  - form: "rozwiązane"
+    pl: "Wszystkie twoje problemy zostały rozwiązane."
+    ru: "Все твои проблемы решены."
+    source: { kind: translated, id: 6156553 }
+  - form: "rozwiązane"
+    pl: "Rozwiązane zadania oddaj nauczycielowi."
+    ru: "Решённые задачи сдай учителю."
+    source: { kind: authored }
+  - form: "rozwiązanego"
+    pl: "Nie ma tu rozwiązanego zadania."
+    ru: "Решённой задачи здесь нет."
+    source: { kind: authored }
+  - form: "rozwiązanego"
+    pl: "Szukam rozwiązanego przykładu."
+    ru: "Я ищу решённый пример."
+    source: { kind: authored }
+  - form: "rozwiązanego"
+    pl: "Dotyczy to rozwiązanego problemu."
+    ru: "Это касается решённой проблемы."
+    source: { kind: authored }
+  - form: "rozwiązanej"
+    pl: "Nie ma tu rozwiązanej zagadki."
+    ru: "Разгаданной загадки здесь нет."
+    source: { kind: authored }
+  - form: "rozwiązanej"
+    pl: "Szukam rozwiązanej sprawy."
+    ru: "Я ищу решённое дело."
+    source: { kind: authored }
+  - form: "rozwiązanej"
+    pl: "Dotyczy to rozwiązanej umowy."
+    ru: "Это касается расторгнутого договора."
+    source: { kind: authored }
+  - form: "rozwiązanemu"
+    pl: "Przyjrzał się rozwiązanemu zadaniu."
+    ru: "Он присмотрелся к решённой задаче."
+    source: { kind: authored }
+  - form: "rozwiązanemu"
+    pl: "Dzięki rozwiązanemu problemowi odetchnęli."
+    ru: "Благодаря решённой проблеме они вздохнули спокойно."
+    source: { kind: authored }
+  - form: "rozwiązanemu"
+    pl: "Poświęcił uwagę rozwiązanemu przykładowi."
+    ru: "Он уделил внимание решённому примеру."
+    source: { kind: authored }
+  - form: "rozwiązani"
+    pl: "Zostali rozwiązani decyzją zarządu."
+    ru: "Их распустили решением правления."
+    source: { kind: authored }
+  - form: "rozwiązani"
+    pl: "Rozwiązani po roku, rozeszli się."
+    ru: "Распущенные через год, они разошлись."
+    source: { kind: authored }
+  - form: "rozwiązani"
+    pl: "Członkowie zespołu zostali rozwiązani."
+    ru: "Членов команды распустили."
+    source: { kind: authored }
+  - form: "rozwiązania"
+    pl: "Wiele problemów ekologicznych nabrało dzisiaj międzynarodowego charakteru i dla ich rozwiązania niezbędne są wspólne wysiłki wielu państw."
+    ru: "Многие экологические проблемы сегодня приобрели международный характер, и для их решения необходимы совместные усилия многих стран."
+    source: { kind: tatoeba, id: 8670299 }
+  - form: "rozwiązania"
+    pl: "Nie ma rozwiązania."
+    ru: "Решения нет."
+    source: { kind: translated, id: 8458046 }
+  - form: "rozwiązania"
+    pl: "Szukamy rozwiązania od tygodnia."
+    ru: "Мы ищем решение уже неделю."
+    source: { kind: authored }
+  - form: "rozwiązanie"
+    pl: "To nie najlepsze rozwiązanie."
+    ru: "Это не лучшее решение."
+    source: { kind: tatoeba, id: 3460263 }
+  - form: "rozwiązanie"
+    pl: "Masz pięć minut na rozwiązanie problemu."
+    ru: "У тебя есть пять минут на решение проблемы."
+    source: { kind: tatoeba, id: 12712045 }
+  - form: "rozwiązanie"
+    pl: "Znalazł proste rozwiązanie."
+    ru: "Он нашёл простое решение."
+    source: { kind: authored }
+  - form: "rozwiązaniem"
+    pl: "Śmierć nie jest rozwiązaniem."
+    ru: "Смерть не выход."
+    source: { kind: translated, id: 13910210 }
+  - form: "rozwiązaniem"
+    pl: "Poddawanie się nie jest rozwiązaniem."
+    ru: "Сдаваться — не выход."
+    source: { kind: translated, id: 960774 }
+  - form: "rozwiązaniem"
+    pl: "Ucieczka nie jest rozwiązaniem."
+    ru: "Бегство не выход."
+    source: { kind: authored }
+  - form: "rozwiązaniu"
+    pl: "Dziękujemy za pomoc w rozwiązaniu problemu."
+    ru: "Спасибо за помощь в решении проблемы."
+    source: { kind: translated, id: 10558539 }
+  - form: "rozwiązaniu"
+    pl: "Po rozwiązaniu umowy wyprowadzili się."
+    ru: "После расторжения договора они съехали."
+    source: { kind: authored }
+  - form: "rozwiązaniu"
+    pl: "Mówili o rozwiązaniu problemu."
+    ru: "Они говорили о решении проблемы."
+    source: { kind: authored }
+  - form: "rozwiązano"
+    pl: "Jak rozwiązano ten problem?"
+    ru: "Как решили эту проблему?"
+    source: { kind: translated, id: 2256407 }
+  - form: "rozwiązano"
+    pl: "Zespół rozwiązano po roku."
+    ru: "Команду распустили через год."
+    source: { kind: authored }
+  - form: "rozwiązano"
+    pl: "Umowę rozwiązano w marcu."
+    ru: "Договор расторгли в марте."
+    source: { kind: authored }
+  - form: "rozwiązany"
+    pl: "Problem rozwiązany."
+    ru: "Проблема решена."
+    source: { kind: translated, id: 5131350 }
+  - form: "rozwiązany"
+    pl: "Parlament został rozwiązany."
+    ru: "Парламент был распущен."
+    source: { kind: translated, id: 9679590 }
+  - form: "rozwiązany"
+    pl: "Rozwiązany węzeł już nie trzyma."
+    ru: "Развязанный узел больше не держит."
+    source: { kind: authored }
+  - form: "rozwiązanych"
+    pl: "Nie ma tu rozwiązanych zadań."
+    ru: "Решённых задач здесь нет."
+    source: { kind: authored }
+  - form: "rozwiązanych"
+    pl: "Wśród rozwiązanych spraw była i ta."
+    ru: "Среди решённых дел было и это."
+    source: { kind: authored }
+  - form: "rozwiązanych"
+    pl: "Szukam rozwiązanych przykładów."
+    ru: "Я ищу решённые примеры."
+    source: { kind: authored }
+  - form: "rozwiązanym"
+    pl: "W rozwiązanym zadaniu był błąd."
+    ru: "В решённой задаче была ошибка."
+    source: { kind: authored }
+  - form: "rozwiązanym"
+    pl: "Przyjrzał się rozwiązanym przykładom."
+    ru: "Он присмотрелся к решённым примерам."
+    source: { kind: authored }
+  - form: "rozwiązanym"
+    pl: "Zajął się rozwiązanym problemem."
+    ru: "Он занялся решённой проблемой."
+    source: { kind: authored }
+  - form: "rozwiązanymi"
+    pl: "Zajmuje się rozwiązanymi sprawami."
+    ru: "Он занимается решёнными делами."
+    source: { kind: authored }
+  - form: "rozwiązanymi"
+    pl: "Między rozwiązanymi a otwartymi sprawami jest różnica."
+    ru: "Между решёнными и открытыми делами есть разница."
+    source: { kind: authored }
+  - form: "rozwiązanymi"
+    pl: "Wrócił z rozwiązanymi zadaniami."
+    ru: "Он вернулся с решёнными задачами."
+    source: { kind: authored }
+  - form: "rozwiązawszy"
+    pl: "Rozwiązawszy zagadkę, odetchnął."
+    ru: "Разгадав загадку, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "rozwiązawszy"
+    pl: "Rozwiązawszy umowę, wyprowadzili się."
+    ru: "Расторгнув договор, они съехали."
+    source: { kind: authored }
+  - form: "rozwiązawszy"
+    pl: "Rozwiązawszy problem, wrócił do pracy."
+    ru: "Решив проблему, он вернулся к работе."
+    source: { kind: authored }
+  - form: "rozwiąż"
+    pl: "Rozwiąż problem."
+    ru: "Реши задачу."
+    source: { kind: translated, id: 5131824 }
+  - form: "rozwiąż"
+    pl: "Rozwiąż zagadkę."
+    ru: "Разгадай загадку."
+    source: { kind: translated, id: 13788575 }
+  - form: "rozwiąż"
+    pl: "Rozwiąż ten węzeł."
+    ru: "Развяжи этот узел."
+    source: { kind: authored }
+  - form: "rozwiążą"
+    pl: "Rozwiążą to do jutra."
+    ru: "Они решат это к завтрашнему дню."
+    source: { kind: authored }
+  - form: "rozwiążą"
+    pl: "Nic tym nie rozwiążą."
+    ru: "Этим они ничего не решат."
+    source: { kind: authored }
+  - form: "rozwiążą"
+    pl: "Rozwiążą umowę przed terminem."
+    ru: "Они расторгнут договор досрочно."
+    source: { kind: authored }
+  - form: "rozwiążcie"
+    pl: "Rozwiążcie to zadanie."
+    ru: "Решите эту задачу."
+    source: { kind: authored }
+  - form: "rozwiążcie"
+    pl: "Rozwiążcie zagadkę sami."
+    ru: "Разгадайте загадку сами."
+    source: { kind: authored }
+  - form: "rozwiążcie"
+    pl: "Rozwiążcie ten węzeł."
+    ru: "Развяжите этот узел."
+    source: { kind: authored }
+  - form: "rozwiąże"
+    pl: "Kłótnia niczego nie rozwiąże."
+    ru: "Ссора ничего не решит."
+    source: { kind: translated, id: 567009 }
+  - form: "rozwiąże"
+    pl: "Twój płacz niczego nie rozwiąże."
+    ru: "Твой плач ничего не решит."
+    source: { kind: translated, id: 3890479 }
+  - form: "rozwiąże"
+    pl: "Kto rozwiąże tę zagadkę?"
+    ru: "Кто разгадает эту загадку?"
+    source: { kind: authored }
+  - form: "rozwiążecie"
+    pl: "Jak rozwiążecie problem?"
+    ru: "Как вы решите проблему?"
+    source: { kind: translated, id: 5138545 }
+  - form: "rozwiążecie"
+    pl: "Rozwiążecie to sami?"
+    ru: "Вы решите это сами?"
+    source: { kind: authored }
+  - form: "rozwiążecie"
+    pl: "Nic tym nie rozwiążecie."
+    ru: "Этим вы ничего не решите."
+    source: { kind: authored }
+  - form: "rozwiążemy"
+    pl: "Rozwiążemy to razem."
+    ru: "Мы решим это вместе."
+    source: { kind: authored }
+  - form: "rozwiążemy"
+    pl: "Nic tym nie rozwiążemy."
+    ru: "Этим мы ничего не решим."
+    source: { kind: authored }
+  - form: "rozwiążemy"
+    pl: "Rozwiążemy umowę polubownie."
+    ru: "Мы расторгнем договор полюбовно."
+    source: { kind: authored }
+  - form: "rozwiążesz"
+    pl: "Niczego nie rozwiążesz płaczem."
+    ru: "Плачем ты ничего не решишь."
+    source: { kind: translated, id: 3890478 }
+  - form: "rozwiążesz"
+    pl: "Nie rozwiążesz zagadki, dopóki nie spotkasz się ze sprawcą."
+    ru: "Ты не разгадаешь загадку, пока не встретишься с виновником."
+    source: { kind: translated, id: 13561631 }
+  - form: "rozwiążesz"
+    pl: "Rozwiążesz to zadanie?"
+    ru: "Ты решишь эту задачу?"
+    source: { kind: authored }
+  - form: "rozwiążę"
+    pl: "Rozwiążę problem."
+    ru: "Я решу проблему."
+    source: { kind: translated, id: 11443091 }
+  - form: "rozwiążę"
+    pl: "Rozwiążę ten problem."
+    ru: "Я решу эту задачу."
+    source: { kind: translated, id: 3119359 }
+  - form: "rozwiążę"
+    pl: "Rozwiążę to do jutra."
+    ru: "Я решу это к завтрашнему дню."
+    source: { kind: authored }
+  - form: "rozwiążmy"
+    pl: "Rozwiążmy to razem."
+    ru: "Решим это вместе."
+    source: { kind: authored }
+  - form: "rozwiążmy"
+    pl: "Rozwiążmy tę zagadkę."
+    ru: "Разгадаем эту загадку."
+    source: { kind: authored }
+  - form: "rozwiążmy"
+    pl: "Rozwiążmy umowę."
+    ru: "Расторгнем договор."
+    source: { kind: authored }

@@ -1,0 +1,826 @@
+# review
+id: wynosic
+format: 2
+lemma: "wynosić"
+rank: 868
+pos: verb
+aspect: imperf
+pron: { cyr: "выно́сиць" }
+senses:
+  - id: amount
+    ru: "составлять, равняться (о сумме, числе)"
+    note: "Самое частое значение: подлежащее — величина, а не человек."
+    examples:
+      - pl: "Jego wzrost wynosi jakieś dwa i pół metra."
+        ru: "У него рост метра два с половиной."
+        source: { kind: tatoeba, id: 12574282 }
+      - pl: "Ile wynosi opłata?"
+        ru: "Сколько составляет плата?"
+        source: { kind: translated, id: 909221 }
+      - pl: "Widownia wynosiła blisko 1000 osób."
+        ru: "Зрителей было около тысячи человек."
+        source: { kind: translated, id: 1480643 }
+  - id: get-out
+    ru: "wynosić się — убираться, проваливать"
+    note: "Резко и грубовато, но печатно."
+    examples:
+      - pl: "Wynoś się!"
+        ru: "Убирайся!"
+        source: { kind: translated, id: 547705 }
+      - pl: "Wynoś się stąd!"
+        ru: "Убирайся отсюда!"
+        source: { kind: translated, id: 8608358 }
+      - pl: "Wynosimy się stąd. Gliny nadchodzą."
+        ru: "Уходим отсюда. Менты идут."
+        source: { kind: translated, id: 531835 }
+  - id: carry-out
+    ru: "выносить (наружу)"
+    examples:
+      - pl: "Tom mówi, że jest twoja kolej do wynoszenia śmieci."
+        ru: "Том говорит, что твоя очередь выносить мусор."
+        source: { kind: translated, id: 3707470 }
+      - pl: "Sprawy firmy nie powinny być wynoszone poza nią."
+        ru: "Дела фирмы не должны выноситься за её пределы."
+        source: { kind: translated, id: 989444 }
+      - pl: "Wynosi śmieci co wieczór."
+        ru: "Он выносит мусор каждый вечер."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Самое частое значение — «составлять, равняться»: Ile wynosi opłata? «Сколько составляет плата?», Jego długi wynoszą 100 tysięcy «Его долги составляют сто тысяч». Подлежащее тут величина, а не человек." }
+  - { kind: register, text: "Wynoś się! значит «Убирайся!» — резко и грубовато, но вполне печатно. Wynosimy się stąd «Уходим отсюда»." }
+  - { kind: government, text: "В прямом значении wynosić coś «выносить что-то» — винительный падеж: wynosić śmieci «выносить мусор»." }
+  - { kind: usage, text: "Совершенный вид — wynieść. На вынос (о еде) — na wynos: kawa na wynos «кофе с собой»." }
+collocations:
+  - { pl: "ile wynosi?", ru: "сколько составляет?" }
+  - { pl: "wynoś się!", ru: "убирайся!" }
+  - { pl: "wynosić śmieci", ru: "выносить мусор" }
+  - { pl: "na wynos", ru: "на вынос, с собой" }
+family:
+  - { pl: "wynieść", ru: "вынести", relation: aspect }
+  - { pl: "nosić", ru: "носить", relation: root }
+  - { pl: "wynos", ru: "вынос", relation: derived }
+etymology: "Из wy- + nosić «носить» — буквально «выносить». Русское «выносить» собрано ровно так же, но значение «составлять» развилось только в польском."
+memory: "wynosić — прежде всего «составлять, равняться»: Ile wynosi opłata? «Сколько составляет плата?». Буквальное значение — «выносить» (wynosić śmieci), а с się выходит резкое Wynoś się! «Убирайся!». Совершенный вид — wynieść, а kawa na wynos — «кофе с собой»."
+idioms:
+  - { pl: "ile wynosi?", ru: "сколько составляет?" }
+  - { pl: "wynoś się!", ru: "убирайся!" }
+  - { pl: "na wynos", ru: "с собой, на вынос" }
+formExamplesSkip:
+  - { form: "wynosiwszy", reason: "деепричастия на -wszy у глаголов несовершенного вида не бывает; для wynosić это wynosząc" }
+formExamples:
+  - form: "wynosi"
+    pl: "Jego wzrost wynosi jakieś dwa i pół metra."
+    ru: "У него рост метра два с половиной."
+    source: { kind: tatoeba, id: 12574282 }
+  - form: "wynosi"
+    pl: "Ile wynosi opłata?"
+    ru: "Сколько составляет плата?"
+    source: { kind: translated, id: 909221 }
+  - form: "wynosi"
+    pl: "Rachunek wynosi sto złotych."
+    ru: "Счёт составляет сто злотых."
+    source: { kind: authored }
+  - form: "wynosicie"
+    pl: "Ile wynosicie z magazynu dziennie?"
+    ru: "Сколько вы выносите со склада за день?"
+    source: { kind: authored }
+  - form: "wynosicie"
+    pl: "Wynosicie się czy zostajecie?"
+    ru: "Вы убираетесь или остаётесь?"
+    source: { kind: authored }
+  - form: "wynosicie"
+    pl: "Wynosicie śmieci po kolei?"
+    ru: "Вы выносите мусор по очереди?"
+    source: { kind: authored }
+  - form: "wynosić"
+    pl: "Właściciel kazał mu się wynosić, bo nie zapłacił czynszu."
+    ru: "Хозяин велел ему убираться, потому что тот не заплатил за квартиру."
+    source: { kind: translated, id: 404068 }
+  - form: "wynosić"
+    pl: "Zależnie od zwyczaju liczba kontynentów może wynosić od pięciu do siedmiu."
+    ru: "В зависимости от традиции число континентов может составлять от пяти до семи."
+    source: { kind: translated, id: 12378847 }
+  - form: "wynosić"
+    pl: "Suma może wynosić więcej."
+    ru: "Сумма может составлять больше."
+    source: { kind: authored }
+  - form: "wynosili"
+    pl: "Wynosili meble całe popołudnie."
+    ru: "Они выносили мебель весь день."
+    source: { kind: authored }
+  - form: "wynosili"
+    pl: "Wynosili się stąd w pośpiechu."
+    ru: "Они убирались отсюда в спешке."
+    source: { kind: authored }
+  - form: "wynosili"
+    pl: "Nigdy nie wynosili dokumentów."
+    ru: "Они никогда не выносили документов."
+    source: { kind: authored }
+  - form: "wynosiliby"
+    pl: "Wynosiliby meble szybciej we dwóch."
+    ru: "Вдвоём они выносили бы мебель быстрее."
+    source: { kind: authored }
+  - form: "wynosiliby"
+    pl: "Nie wynosiliby dokumentów."
+    ru: "Они не выносили бы документов."
+    source: { kind: authored }
+  - form: "wynosiliby"
+    pl: "Wynosiliby się stąd bez słowa."
+    ru: "Они убирались бы отсюда без слов."
+    source: { kind: authored }
+  - form: "wynosilibyście"
+    pl: "Wynosilibyście meble sami?"
+    ru: "Вы выносили бы мебель сами?"
+    source: { kind: authored }
+  - form: "wynosilibyście"
+    pl: "Nie wynosilibyście dokumentów."
+    ru: "Вы не выносили бы документов."
+    source: { kind: authored }
+  - form: "wynosilibyście"
+    pl: "Wynosilibyście się stąd?"
+    ru: "Вы убрались бы отсюда?"
+    source: { kind: authored }
+  - form: "wynosilibyśmy"
+    pl: "Wynosilibyśmy meble sami."
+    ru: "Мы выносили бы мебель сами."
+    source: { kind: authored }
+  - form: "wynosilibyśmy"
+    pl: "Nie wynosilibyśmy dokumentów."
+    ru: "Мы не выносили бы документов."
+    source: { kind: authored }
+  - form: "wynosilibyśmy"
+    pl: "Wynosilibyśmy się stąd bez słowa."
+    ru: "Мы убрались бы отсюда без слов."
+    source: { kind: authored }
+  - form: "wynosiliście"
+    pl: "Wynosiliście meble sami?"
+    ru: "Вы выносили мебель сами?"
+    source: { kind: authored }
+  - form: "wynosiliście"
+    pl: "Wynosiliście śmieci po kolei."
+    ru: "Вы выносили мусор по очереди."
+    source: { kind: authored }
+  - form: "wynosiliście"
+    pl: "Nic stąd nie wynosiliście."
+    ru: "Вы ничего отсюда не выносили."
+    source: { kind: authored }
+  - form: "wynosiliśmy"
+    pl: "Wynosiliśmy meble całe popołudnie."
+    ru: "Мы выносили мебель весь день."
+    source: { kind: authored }
+  - form: "wynosiliśmy"
+    pl: "Wynosiliśmy śmieci po kolei."
+    ru: "Мы выносили мусор по очереди."
+    source: { kind: authored }
+  - form: "wynosiliśmy"
+    pl: "Nic stąd nie wynosiliśmy."
+    ru: "Мы ничего отсюда не выносили."
+    source: { kind: authored }
+  - form: "wynosił"
+    pl: "Rachunek wynosił sto złotych."
+    ru: "Счёт составлял сто злотых."
+    source: { kind: authored }
+  - form: "wynosił"
+    pl: "Wynosił śmieci co wieczór."
+    ru: "Он выносил мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynosił"
+    pl: "Nigdy nie wynosił dokumentów."
+    ru: "Он никогда не выносил документов."
+    source: { kind: authored }
+  - form: "wynosiła"
+    pl: "Widownia wynosiła blisko 1000 osób."
+    ru: "Зрителей было около тысячи человек."
+    source: { kind: translated, id: 1480643 }
+  - form: "wynosiła"
+    pl: "W sumie liczba delegatów wynosiła dwadzieścia."
+    ru: "Всего делегатов было двадцать."
+    source: { kind: translated, id: 2309787 }
+  - form: "wynosiła"
+    pl: "Temperatura wynosiła trzydzieści stopni."
+    ru: "Температура составляла тридцать градусов."
+    source: { kind: authored }
+  - form: "wynosiłaby"
+    pl: "Opłata wynosiłaby więcej."
+    ru: "Плата составляла бы больше."
+    source: { kind: authored }
+  - form: "wynosiłaby"
+    pl: "Wynosiłaby śmieci, gdyby ktoś poprosił."
+    ru: "Она выносила бы мусор, если бы попросили."
+    source: { kind: authored }
+  - form: "wynosiłaby"
+    pl: "Temperatura wynosiłaby trzydzieści stopni."
+    ru: "Температура составляла бы тридцать градусов."
+    source: { kind: authored }
+  - form: "wynosiłabym"
+    pl: "Wynosiłabym śmieci co wieczór."
+    ru: "Я выносила бы мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynosiłabym"
+    pl: "Nie wynosiłabym stąd niczego."
+    ru: "Я ничего отсюда не выносила бы."
+    source: { kind: authored }
+  - form: "wynosiłabym"
+    pl: "Wynosiłabym się stąd bez żalu."
+    ru: "Я убралась бы отсюда без сожаления."
+    source: { kind: authored }
+  - form: "wynosiłabyś"
+    pl: "Wynosiłabyś śmieci co wieczór?"
+    ru: "Ты выносила бы мусор каждый вечер?"
+    source: { kind: authored }
+  - form: "wynosiłabyś"
+    pl: "Nie wynosiłabyś stąd niczego."
+    ru: "Ты ничего отсюда не выносила бы."
+    source: { kind: authored }
+  - form: "wynosiłabyś"
+    pl: "Wynosiłabyś się stąd?"
+    ru: "Ты убралась бы отсюда?"
+    source: { kind: authored }
+  - form: "wynosiłam"
+    pl: "Wynosiłam śmieci co wieczór."
+    ru: "Я выносила мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynosiłam"
+    pl: "Nigdy nie wynosiłam dokumentów."
+    ru: "Я никогда не выносила документов."
+    source: { kind: authored }
+  - form: "wynosiłam"
+    pl: "Wynosiłam meble przez godzinę."
+    ru: "Я выносила мебель целый час."
+    source: { kind: authored }
+  - form: "wynosiłaś"
+    pl: "Wynosiłaś śmieci co wieczór?"
+    ru: "Ты выносила мусор каждый вечер?"
+    source: { kind: authored }
+  - form: "wynosiłaś"
+    pl: "Nigdy nie wynosiłaś dokumentów."
+    ru: "Ты никогда не выносила документов."
+    source: { kind: authored }
+  - form: "wynosiłaś"
+    pl: "Wynosiłaś meble sama?"
+    ru: "Ты выносила мебель сама?"
+    source: { kind: authored }
+  - form: "wynosiłby"
+    pl: "Rachunek wynosiłby więcej."
+    ru: "Счёт составлял бы больше."
+    source: { kind: authored }
+  - form: "wynosiłby"
+    pl: "Wynosiłby śmieci, gdyby ktoś poprosił."
+    ru: "Он выносил бы мусор, если бы попросили."
+    source: { kind: authored }
+  - form: "wynosiłby"
+    pl: "Nie wynosiłby stąd niczego."
+    ru: "Он ничего отсюда не выносил бы."
+    source: { kind: authored }
+  - form: "wynosiłbym"
+    pl: "Wynosiłbym śmieci co wieczór."
+    ru: "Я выносил бы мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynosiłbym"
+    pl: "Nie wynosiłbym stąd niczego."
+    ru: "Я ничего отсюда не выносил бы."
+    source: { kind: authored }
+  - form: "wynosiłbym"
+    pl: "Wynosiłbym się stąd bez żalu."
+    ru: "Я убрался бы отсюда без сожаления."
+    source: { kind: authored }
+  - form: "wynosiłbyś"
+    pl: "Wynosiłbyś śmieci co wieczór?"
+    ru: "Ты выносил бы мусор каждый вечер?"
+    source: { kind: authored }
+  - form: "wynosiłbyś"
+    pl: "Nie wynosiłbyś stąd niczego."
+    ru: "Ты ничего отсюда не выносил бы."
+    source: { kind: authored }
+  - form: "wynosiłbyś"
+    pl: "Wynosiłbyś się stąd?"
+    ru: "Ты убрался бы отсюда?"
+    source: { kind: authored }
+  - form: "wynosiłem"
+    pl: "Wynosiłem śmieci co wieczór."
+    ru: "Я выносил мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynosiłem"
+    pl: "Nigdy nie wynosiłem dokumentów."
+    ru: "Я никогда не выносил документов."
+    source: { kind: authored }
+  - form: "wynosiłem"
+    pl: "Wynosiłem meble przez godzinę."
+    ru: "Я выносил мебель целый час."
+    source: { kind: authored }
+  - form: "wynosiłeś"
+    pl: "Wynosiłeś śmieci co wieczór?"
+    ru: "Ты выносил мусор каждый вечер?"
+    source: { kind: authored }
+  - form: "wynosiłeś"
+    pl: "Nigdy nie wynosiłeś dokumentów."
+    ru: "Ты никогда не выносил документов."
+    source: { kind: authored }
+  - form: "wynosiłeś"
+    pl: "Wynosiłeś meble sam?"
+    ru: "Ты выносил мебель сам?"
+    source: { kind: authored }
+  - form: "wynosiło"
+    pl: "Zaludnienie wynosiło milion osób."
+    ru: "Население составляло миллион человек."
+    source: { kind: authored }
+  - form: "wynosiło"
+    pl: "Dziecko wynosiło zabawki do ogrodu."
+    ru: "Ребёнок выносил игрушки в сад."
+    source: { kind: authored }
+  - form: "wynosiło"
+    pl: "Nic nie wynosiło więcej niż złotówkę."
+    ru: "Ничто не стоило больше злотого."
+    source: { kind: authored }
+  - form: "wynosiłoby"
+    pl: "Zaludnienie wynosiłoby milion osób."
+    ru: "Население составляло бы миллион человек."
+    source: { kind: authored }
+  - form: "wynosiłoby"
+    pl: "Dziecko wynosiłoby zabawki do ogrodu."
+    ru: "Ребёнок выносил бы игрушки в сад."
+    source: { kind: authored }
+  - form: "wynosiłoby"
+    pl: "Nic nie wynosiłoby więcej."
+    ru: "Ничто не составляло бы больше."
+    source: { kind: authored }
+  - form: "wynosiły"
+    pl: "Niektóre z taryf wynosiły nawet sześćdziesiąt procent."
+    ru: "Некоторые из тарифов составляли даже шестьдесят процентов."
+    source: { kind: translated, id: 8757456 }
+  - form: "wynosiły"
+    pl: "Koszty wynosiły dwa tysiące."
+    ru: "Расходы составляли две тысячи."
+    source: { kind: authored }
+  - form: "wynosiły"
+    pl: "Opłaty wynosiły tyle co zawsze."
+    ru: "Сборы составляли столько же, сколько всегда."
+    source: { kind: authored }
+  - form: "wynosiłyby"
+    pl: "Koszty wynosiłyby dwa tysiące."
+    ru: "Расходы составляли бы две тысячи."
+    source: { kind: authored }
+  - form: "wynosiłyby"
+    pl: "Opłaty wynosiłyby tyle co zawsze."
+    ru: "Сборы составляли бы столько же, сколько всегда."
+    source: { kind: authored }
+  - form: "wynosiłyby"
+    pl: "Dziewczyny wynosiłyby meble same."
+    ru: "Девушки выносили бы мебель сами."
+    source: { kind: authored }
+  - form: "wynosiłybyście"
+    pl: "Wynosiłybyście meble same?"
+    ru: "Вы выносили бы мебель сами?"
+    source: { kind: authored }
+  - form: "wynosiłybyście"
+    pl: "Nie wynosiłybyście stąd niczego."
+    ru: "Вы ничего отсюда не выносили бы."
+    source: { kind: authored }
+  - form: "wynosiłybyście"
+    pl: "Wynosiłybyście się stąd?"
+    ru: "Вы убрались бы отсюда?"
+    source: { kind: authored }
+  - form: "wynosiłybyśmy"
+    pl: "Wynosiłybyśmy meble same."
+    ru: "Мы выносили бы мебель сами."
+    source: { kind: authored }
+  - form: "wynosiłybyśmy"
+    pl: "Nie wynosiłybyśmy stąd niczego."
+    ru: "Мы ничего отсюда не выносили бы."
+    source: { kind: authored }
+  - form: "wynosiłybyśmy"
+    pl: "Wynosiłybyśmy się stąd bez żalu."
+    ru: "Мы убрались бы отсюда без сожаления."
+    source: { kind: authored }
+  - form: "wynosiłyście"
+    pl: "Wynosiłyście meble same?"
+    ru: "Вы выносили мебель сами?"
+    source: { kind: authored }
+  - form: "wynosiłyście"
+    pl: "Wynosiłyście śmieci po kolei."
+    ru: "Вы выносили мусор по очереди."
+    source: { kind: authored }
+  - form: "wynosiłyście"
+    pl: "Nic stąd nie wynosiłyście."
+    ru: "Вы ничего отсюда не выносили."
+    source: { kind: authored }
+  - form: "wynosiłyśmy"
+    pl: "Wynosiłyśmy meble całe popołudnie."
+    ru: "Мы выносили мебель весь день."
+    source: { kind: authored }
+  - form: "wynosiłyśmy"
+    pl: "Wynosiłyśmy śmieci po kolei."
+    ru: "Мы выносили мусор по очереди."
+    source: { kind: authored }
+  - form: "wynosiłyśmy"
+    pl: "Nic stąd nie wynosiłyśmy."
+    ru: "Мы ничего отсюда не выносили."
+    source: { kind: authored }
+  - form: "wynosimy"
+    pl: "Wynosimy się stąd. Gliny nadchodzą."
+    ru: "Уходим отсюда. Менты идут."
+    source: { kind: translated, id: 531835 }
+  - form: "wynosimy"
+    pl: "Wynosimy śmieci po kolei."
+    ru: "Мы выносим мусор по очереди."
+    source: { kind: authored }
+  - form: "wynosimy"
+    pl: "Wynosimy się o świcie."
+    ru: "Мы убираемся на рассвете."
+    source: { kind: authored }
+  - form: "wynosisz"
+    pl: "Ile wynosisz śmieci tygodniowo?"
+    ru: "Сколько раз в неделю ты выносишь мусор?"
+    source: { kind: authored }
+  - form: "wynosisz"
+    pl: "Wynosisz się czy zostajesz?"
+    ru: "Ты убираешься или остаёшься?"
+    source: { kind: authored }
+  - form: "wynosisz"
+    pl: "Nic stąd nie wynosisz."
+    ru: "Ты ничего отсюда не выносишь."
+    source: { kind: authored }
+  - form: "wynoszą"
+    pl: "Jego długi wynoszą ponad 1000 $."
+    ru: "Его долги составляют более тысячи долларов."
+    source: { kind: translated, id: 983833 }
+  - form: "wynoszą"
+    pl: "Jego długi wynoszą 100 tys. jenów."
+    ru: "Его долги составляют сто тысяч иен."
+    source: { kind: translated, id: 735671 }
+  - form: "wynoszą"
+    pl: "Koszty wynoszą tysiąc złotych."
+    ru: "Расходы составляют тысячу злотых."
+    source: { kind: authored }
+  - form: "wynosząc"
+    pl: "Wynosząc śmieci, spotkał sąsiadkę."
+    ru: "Вынося мусор, он встретил соседку."
+    source: { kind: authored }
+  - form: "wynosząc"
+    pl: "Wynosząc się stąd, nie obejrzał się."
+    ru: "Убираясь отсюда, он не обернулся."
+    source: { kind: authored }
+  - form: "wynosząc"
+    pl: "Nie wynosząc niczego, wyszedł."
+    ru: "Ничего не вынеся, он вышел."
+    source: { kind: authored }
+  - form: "wynosząca"
+    pl: "Kwota wynosząca tysiąc złotych jest niewielka."
+    ru: "Сумма в тысячу злотых невелика."
+    source: { kind: authored }
+  - form: "wynosząca"
+    pl: "Opłata wynosząca sto złotych zniechęca."
+    ru: "Плата в сто злотых отпугивает."
+    source: { kind: authored }
+  - form: "wynosząca"
+    pl: "Osoba wynosząca śmieci zostawiła drzwi otwarte."
+    ru: "Выносивший мусор оставил дверь открытой."
+    source: { kind: authored }
+  - form: "wynoszącą"
+    pl: "Zapłacił kwotę wynoszącą tysiąc złotych."
+    ru: "Он заплатил сумму в тысячу злотых."
+    source: { kind: authored }
+  - form: "wynoszącą"
+    pl: "Uznali opłatę wynoszącą sto złotych za wysoką."
+    ru: "Плату в сто злотых сочли высокой."
+    source: { kind: authored }
+  - form: "wynoszącą"
+    pl: "Widziałem osobę wynoszącą meble."
+    ru: "Я видел человека, выносившего мебель."
+    source: { kind: authored }
+  - form: "wynoszące"
+    pl: "Koszty wynoszące dwa tysiące są zbyt wysokie."
+    ru: "Расходы в две тысячи слишком высоки."
+    source: { kind: authored }
+  - form: "wynoszące"
+    pl: "Osoby wynoszące śmieci używają tylnego wyjścia."
+    ru: "Выносящие мусор пользуются задним выходом."
+    source: { kind: authored }
+  - form: "wynoszące"
+    pl: "Opłaty wynoszące tyle co zawsze nikogo nie dziwią."
+    ru: "Сборы в обычном размере никого не удивляют."
+    source: { kind: authored }
+  - form: "wynoszącego"
+    pl: "Nie ma tu nikogo wynoszącego śmieci."
+    ru: "Здесь нет никого, кто выносит мусор."
+    source: { kind: authored }
+  - form: "wynoszącego"
+    pl: "Szukam pracownika wynoszącego dokumenty."
+    ru: "Я ищу сотрудника, выносящего документы."
+    source: { kind: authored }
+  - form: "wynoszącego"
+    pl: "Dotyczy to rachunku wynoszącego tysiąc złotych."
+    ru: "Это касается счёта в тысячу злотых."
+    source: { kind: authored }
+  - form: "wynoszącej"
+    pl: "Nie ma tu osoby wynoszącej śmieci."
+    ru: "Здесь нет человека, выносящего мусор."
+    source: { kind: authored }
+  - form: "wynoszącej"
+    pl: "Dotyczy to opłaty wynoszącej sto złotych."
+    ru: "Это касается платы в сто злотых."
+    source: { kind: authored }
+  - form: "wynoszącej"
+    pl: "Szukam kobiety wynoszącej meble."
+    ru: "Я ищу женщину, выносившую мебель."
+    source: { kind: authored }
+  - form: "wynoszącemu"
+    pl: "Pomógł sąsiadowi wynoszącemu meble."
+    ru: "Он помог соседу, выносившему мебель."
+    source: { kind: authored }
+  - form: "wynoszącemu"
+    pl: "Przyjrzał się rachunkowi wynoszącemu tysiąc złotych."
+    ru: "Он присмотрелся к счёту в тысячу злотых."
+    source: { kind: authored }
+  - form: "wynoszącemu"
+    pl: "Nie ufał pracownikowi wynoszącemu dokumenty."
+    ru: "Он не доверял сотруднику, выносившему документы."
+    source: { kind: authored }
+  - form: "wynoszący"
+    pl: "Rachunek wynoszący tysiąc złotych zaskoczył go."
+    ru: "Счёт в тысячу злотых его удивил."
+    source: { kind: authored }
+  - form: "wynoszący"
+    pl: "Pracownik wynoszący dokumenty został zwolniony."
+    ru: "Сотрудника, выносившего документы, уволили."
+    source: { kind: authored }
+  - form: "wynoszący"
+    pl: "Wynoszący śmieci zostawił drzwi otwarte."
+    ru: "Выносивший мусор оставил дверь открытой."
+    source: { kind: authored }
+  - form: "wynoszących"
+    pl: "Nie ma tu osób wynoszących śmieci."
+    ru: "Здесь нет людей, выносящих мусор."
+    source: { kind: authored }
+  - form: "wynoszących"
+    pl: "Wśród kosztów wynoszących dwa tysiące był i ten."
+    ru: "Среди расходов в две тысячи был и этот."
+    source: { kind: authored }
+  - form: "wynoszących"
+    pl: "Szukam pracowników wynoszących dokumenty."
+    ru: "Я ищу сотрудников, выносящих документы."
+    source: { kind: authored }
+  - form: "wynoszącym"
+    pl: "W rachunku wynoszącym tysiąc złotych był błąd."
+    ru: "В счёте на тысячу злотых была ошибка."
+    source: { kind: authored }
+  - form: "wynoszącym"
+    pl: "Przyjrzał się kosztom wynoszącym dwa tysiące."
+    ru: "Он присмотрелся к расходам в две тысячи."
+    source: { kind: authored }
+  - form: "wynoszącym"
+    pl: "Zajął się pracownikiem wynoszącym dokumenty."
+    ru: "Он занялся сотрудником, выносившим документы."
+    source: { kind: authored }
+  - form: "wynoszącymi"
+    pl: "Zajmuje się kosztami wynoszącymi miliony."
+    ru: "Он занимается расходами в миллионы."
+    source: { kind: authored }
+  - form: "wynoszącymi"
+    pl: "Między opłatami wynoszącymi tyle a tamtymi jest różnica."
+    ru: "Между такими сборами и теми есть разница."
+    source: { kind: authored }
+  - form: "wynoszącymi"
+    pl: "Wrócił z rachunkami wynoszącymi fortunę."
+    ru: "Он вернулся со счетами на целое состояние."
+    source: { kind: authored }
+  - form: "wynoszeni"
+    pl: "Ranni byli wynoszeni na noszach."
+    ru: "Раненых выносили на носилках."
+    source: { kind: authored }
+  - form: "wynoszeni"
+    pl: "Wynoszeni jeden po drugim, milczeli."
+    ru: "Их выносили одного за другим, и они молчали."
+    source: { kind: authored }
+  - form: "wynoszeni"
+    pl: "Zostali wynoszeni przez strażaków."
+    ru: "Их выносили пожарные."
+    source: { kind: authored }
+  - form: "wynoszenia"
+    pl: "Tom mówi, że jest twoja kolej do wynoszenia śmieci."
+    ru: "Том говорит, что твоя очередь выносить мусор."
+    source: { kind: translated, id: 3707470 }
+  - form: "wynoszenia"
+    pl: "Nie znosi wynoszenia śmieci."
+    ru: "Он терпеть не может выносить мусор."
+    source: { kind: authored }
+  - form: "wynoszenia"
+    pl: "Zakazano wynoszenia dokumentów."
+    ru: "Выносить документы запретили."
+    source: { kind: authored }
+  - form: "wynoszenie"
+    pl: "Wynoszenie śmieci to jego obowiązek."
+    ru: "Выносить мусор — его обязанность."
+    source: { kind: authored }
+  - form: "wynoszenie"
+    pl: "Wynoszenie dokumentów jest zabronione."
+    ru: "Выносить документы запрещено."
+    source: { kind: authored }
+  - form: "wynoszenie"
+    pl: "Wynoszenie mebli zajęło godzinę."
+    ru: "Вынос мебели занял час."
+    source: { kind: authored }
+  - form: "wynoszeniem"
+    pl: "Zajął się wynoszeniem mebli."
+    ru: "Он занялся выносом мебели."
+    source: { kind: authored }
+  - form: "wynoszeniem"
+    pl: "Przed wynoszeniem śmieci zamknij worek."
+    ru: "Прежде чем выносить мусор, завяжи мешок."
+    source: { kind: authored }
+  - form: "wynoszeniem"
+    pl: "Skończyło się wynoszeniem wszystkiego na podwórze."
+    ru: "Кончилось тем, что всё вынесли во двор."
+    source: { kind: authored }
+  - form: "wynoszeniu"
+    pl: "Po wynoszeniu mebli był wyczerpany."
+    ru: "После выноса мебели он был измотан."
+    source: { kind: authored }
+  - form: "wynoszeniu"
+    pl: "Mówili o wynoszeniu dokumentów."
+    ru: "Они говорили о выносе документов."
+    source: { kind: authored }
+  - form: "wynoszeniu"
+    pl: "W wynoszeniu rzeczy pomógł sąsiad."
+    ru: "Вынести вещи помог сосед."
+    source: { kind: authored }
+  - form: "wynoszę"
+    pl: "Wynoszę śmieci co wieczór."
+    ru: "Я выношу мусор каждый вечер."
+    source: { kind: authored }
+  - form: "wynoszę"
+    pl: "Wynoszę się stąd."
+    ru: "Я убираюсь отсюда."
+    source: { kind: authored }
+  - form: "wynoszę"
+    pl: "Nic stąd nie wynoszę."
+    ru: "Я ничего отсюда не выношу."
+    source: { kind: authored }
+  - form: "wynoszona"
+    pl: "Skrzynia była wynoszona przez czterech ludzi."
+    ru: "Ящик выносили четверо."
+    source: { kind: authored }
+  - form: "wynoszona"
+    pl: "Wynoszona co rano, skrzynka zawsze wracała."
+    ru: "Ящик выносили каждое утро, и он всегда возвращался."
+    source: { kind: authored }
+  - form: "wynoszona"
+    pl: "Woda była wynoszona wiadrami."
+    ru: "Воду выносили вёдрами."
+    source: { kind: authored }
+  - form: "wynoszoną"
+    pl: "Widziałem skrzynię wynoszoną przez okno."
+    ru: "Я видел ящик, который выносили через окно."
+    source: { kind: authored }
+  - form: "wynoszoną"
+    pl: "Uznali rzecz za wynoszoną bezprawnie."
+    ru: "Вещь сочли вынесенной незаконно."
+    source: { kind: authored }
+  - form: "wynoszoną"
+    pl: "Pokazał listę wynoszoną z biura."
+    ru: "Он показал список, вынесенный из офиса."
+    source: { kind: authored }
+  - form: "wynoszone"
+    pl: "Sprawy firmy nie powinny być wynoszone poza nią."
+    ru: "Дела фирмы не должны выноситься за её пределы."
+    source: { kind: translated, id: 989444 }
+  - form: "wynoszone"
+    pl: "Śmieci są wynoszone co rano."
+    ru: "Мусор выносят каждое утро."
+    source: { kind: authored }
+  - form: "wynoszone"
+    pl: "Meble były wynoszone przez okno."
+    ru: "Мебель выносили через окно."
+    source: { kind: authored }
+  - form: "wynoszonego"
+    pl: "Nie ma tu nic wynoszonego z magazynu."
+    ru: "Здесь нет ничего вынесенного со склада."
+    source: { kind: authored }
+  - form: "wynoszonego"
+    pl: "Szukam dokumentu wynoszonego wczoraj."
+    ru: "Я ищу документ, вынесенный вчера."
+    source: { kind: authored }
+  - form: "wynoszonego"
+    pl: "Dotyczy to sprzętu wynoszonego z biura."
+    ru: "Это касается техники, выносимой из офиса."
+    source: { kind: authored }
+  - form: "wynoszonej"
+    pl: "Nie ma tu rzeczy wynoszonej z magazynu."
+    ru: "Здесь нет вещи, вынесенной со склада."
+    source: { kind: authored }
+  - form: "wynoszonej"
+    pl: "Szukam skrzyni wynoszonej wczoraj."
+    ru: "Я ищу ящик, вынесенный вчера."
+    source: { kind: authored }
+  - form: "wynoszonej"
+    pl: "Dotyczy to dokumentacji wynoszonej z biura."
+    ru: "Это касается документации, выносимой из офиса."
+    source: { kind: authored }
+  - form: "wynoszonemu"
+    pl: "Przyjrzał się wynoszonemu sprzętowi."
+    ru: "Он присмотрелся к выносимой технике."
+    source: { kind: authored }
+  - form: "wynoszonemu"
+    pl: "Nie ufał wynoszonemu z magazynu towarowi."
+    ru: "Он не доверял товару, выносимому со склада."
+    source: { kind: authored }
+  - form: "wynoszonemu"
+    pl: "Poświęcił uwagę wynoszonemu dokumentowi."
+    ru: "Он уделил внимание выносимому документу."
+    source: { kind: authored }
+  - form: "wynoszono"
+    pl: "Meble wynoszono przez okno."
+    ru: "Мебель выносили через окно."
+    source: { kind: authored }
+  - form: "wynoszono"
+    pl: "Rannych wynoszono na noszach."
+    ru: "Раненых выносили на носилках."
+    source: { kind: authored }
+  - form: "wynoszono"
+    pl: "Nigdy stąd nic nie wynoszono."
+    ru: "Отсюда никогда ничего не выносили."
+    source: { kind: authored }
+  - form: "wynoszony"
+    pl: "Sprzęt wynoszony z biura budzi podejrzenia."
+    ru: "Техника, выносимая из офиса, вызывает подозрения."
+    source: { kind: authored }
+  - form: "wynoszony"
+    pl: "Wynoszony co rano śmietnik stoi przy bramie."
+    ru: "Выносимый каждое утро бак стоит у ворот."
+    source: { kind: authored }
+  - form: "wynoszony"
+    pl: "Ranny był wynoszony powoli."
+    ru: "Раненого выносили медленно."
+    source: { kind: authored }
+  - form: "wynoszonych"
+    pl: "Nie ma tu rzeczy wynoszonych z magazynu."
+    ru: "Здесь нет вещей, вынесенных со склада."
+    source: { kind: authored }
+  - form: "wynoszonych"
+    pl: "Wśród wynoszonych dokumentów był i ten."
+    ru: "Среди выносимых документов был и этот."
+    source: { kind: authored }
+  - form: "wynoszonych"
+    pl: "Szukam sprzętów wynoszonych wczoraj."
+    ru: "Я ищу технику, вынесенную вчера."
+    source: { kind: authored }
+  - form: "wynoszonym"
+    pl: "W wynoszonym pudle były książki."
+    ru: "В выносимой коробке были книги."
+    source: { kind: authored }
+  - form: "wynoszonym"
+    pl: "Przyjrzał się wynoszonym meblom."
+    ru: "Он присмотрелся к выносимой мебели."
+    source: { kind: authored }
+  - form: "wynoszonym"
+    pl: "Zajął się wynoszonym sprzętem."
+    ru: "Он занялся выносимой техникой."
+    source: { kind: authored }
+  - form: "wynoszonymi"
+    pl: "Zajmuje się wynoszonymi dokumentami."
+    ru: "Он занимается выносимыми документами."
+    source: { kind: authored }
+  - form: "wynoszonymi"
+    pl: "Między wynoszonymi a zostawionymi rzeczami jest różnica."
+    ru: "Между вынесенными и оставленными вещами есть разница."
+    source: { kind: authored }
+  - form: "wynoszonymi"
+    pl: "Wrócił z wynoszonymi z biura papierami."
+    ru: "Он вернулся с вынесенными из офиса бумагами."
+    source: { kind: authored }
+  - form: "wynoś"
+    pl: "Wynoś się!"
+    ru: "Убирайся!"
+    source: { kind: translated, id: 547705 }
+  - form: "wynoś"
+    pl: "Wynoś się stąd!"
+    ru: "Убирайся отсюда!"
+    source: { kind: translated, id: 8608358 }
+  - form: "wynoś"
+    pl: "Wynoś się natychmiast."
+    ru: "Убирайся немедленно."
+    source: { kind: authored }
+  - form: "wynoście"
+    pl: "Wynoście się!"
+    ru: "Убирайтесь!"
+    source: { kind: translated, id: 1184792 }
+  - form: "wynoście"
+    pl: "Wynoście się! Wszyscy!"
+    ru: "Убирайтесь! Все!"
+    source: { kind: translated, id: 2137485 }
+  - form: "wynoście"
+    pl: "Wynoście się z mojego domu."
+    ru: "Убирайтесь из моего дома."
+    source: { kind: authored }
+  - form: "wynośmy"
+    pl: "Wynośmy się stąd."
+    ru: "Убираемся отсюда."
+    source: { kind: authored }
+  - form: "wynośmy"
+    pl: "Wynośmy meble po kolei."
+    ru: "Давай выносить мебель по очереди."
+    source: { kind: authored }
+  - form: "wynośmy"
+    pl: "Wynośmy śmieci zanim zacznie padać."
+    ru: "Вынесем мусор, пока не начался дождь."
+    source: { kind: authored }

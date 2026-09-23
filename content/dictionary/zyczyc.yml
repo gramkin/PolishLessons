@@ -1,0 +1,691 @@
+# review
+id: zyczyc
+format: 2
+lemma: "życzyć"
+rank: 869
+pos: verb
+aspect: imperf
+pron: { cyr: "жы́чыць" }
+senses:
+  - id: wish
+    ru: "желать (кому-л. чего-л.): дательный + родительный"
+    note: "Человек в дательном, желаемое в родительном — как в русском «желать тебе счастья»."
+    examples:
+      - pl: "Życzę sukcesów w pracy."
+        ru: "Желаю успехов в работе."
+        source: { kind: tatoeba, id: 13041610 }
+      - pl: "Życzę Ci zdrowia."
+        ru: "Желаю тебе здоровья."
+        source: { kind: translated, id: 1866777 }
+      - pl: "Życzyłem mu miłej podróży."
+        ru: "Я пожелал ему приятного путешествия."
+        source: { kind: translated, id: 3410626 }
+  - id: wish-sobie
+    ru: "życzyć sobie — желать, хотеть (вежливо)"
+    examples:
+      - pl: "Ile talerzy pan sobie życzy?"
+        ru: "Сколько ты хочешь тарелок?"
+        source: { kind: tatoeba, id: 730432 }
+      - pl: "Czego pan sobie życzy?"
+        ru: "Что вы желаете?"
+        source: { kind: translated, id: 8772621 }
+      - pl: "Jak sobie życzysz."
+        ru: "Как пожелаешь."
+        source: { kind: translated, id: 4131980 }
+  - id: noun
+    ru: "życzenie — желание, пожелание"
+    examples:
+      - pl: "Jedynym jego życzeniem było zobaczyć syna po raz ostatni."
+        ru: "Его единственным желанием было увидеть своего сына в последний раз."
+        source: { kind: tatoeba, id: 2475883 }
+      - pl: "Najlepsze życzenia!"
+        ru: "Наилучшие пожелания!"
+        source: { kind: translated, id: 4683827 }
+      - pl: "Powiedz życzenie."
+        ru: "Загадай желание."
+        source: { kind: translated, id: 991313 }
+notes:
+  - { kind: government, text: "Двойное управление: человек в дательном, желаемое в родительном. Życzę ci zdrowia «Желаю тебе здоровья», życzył rodzicom dobrej nocy «пожелал родителям спокойной ночи». Русский строит фразу точно так же." }
+  - { kind: usage, text: "Życz mi szczęścia — «Пожелай мне удачи». Ещё говорят Powodzenia! «Удачи!» — это уже готовая формула без глагола." }
+  - { kind: usage, text: "życzyć sobie значит «желать, хотеть» и звучит вежливо-отстранённо: Czego pan sobie życzy? «Что вы желаете?», Jak sobie życzysz «Как пожелаешь»." }
+  - { kind: usage, text: "Существительное życzenie — «желание, пожелание»: najlepsze życzenia «наилучшие пожелания», masz trzy życzenia «у тебя три желания». Прилагательное życzliwy значит «доброжелательный»." }
+collocations:
+  - { pl: "życzyć szczęścia", ru: "желать счастья" }
+  - { pl: "życz mi szczęścia", ru: "пожелай мне удачи" }
+  - { pl: "czego pan sobie życzy?", ru: "что вы желаете?" }
+  - { pl: "najlepsze życzenia", ru: "наилучшие пожелания" }
+family:
+  - { pl: "życzenie", ru: "желание", relation: derived }
+  - { pl: "życzliwy", ru: "доброжелательный", relation: derived }
+  - { pl: "życzliwość", ru: "доброжелательность", relation: derived }
+etymology: "Старое славянское слово того же гнезда, что pożyczyć «одолжить»: исходное значение — «наделять». В русском прямого родственника нет, «желать» слово другого корня."
+memory: "życzyć — «желать», и управление в точности русское: человек в дательном, желаемое в родительном — Życzę ci zdrowia. Запомните Życz mi szczęścia «Пожелай мне удачи» и вежливое Czego pan sobie życzy? «Что вы желаете?». Существительное — życzenie."
+idioms:
+  - { pl: "życz mi szczęścia", ru: "пожелай мне удачи" }
+  - { pl: "czego pan sobie życzy?", ru: "что вы желаете?" }
+  - { pl: "najlepsze życzenia", ru: "наилучшие пожелания" }
+formExamples:
+  - form: "życz"
+    pl: "Życz mi szczęścia."
+    ru: "Пожелай мне удачи."
+    source: { kind: translated, id: 357075 }
+  - form: "życz"
+    pl: "Proszę, życz mi szczęścia."
+    ru: "Пожалуйста, пожелай мне удачи."
+    source: { kind: translated, id: 393044 }
+  - form: "życz"
+    pl: "Życz mu zdrowia."
+    ru: "Пожелай ему здоровья."
+    source: { kind: authored }
+  - form: "życzą"
+    pl: "Jeżeli życzą sobie państwo zarezerwować inny pokój, prosimy o natychmiastowy kontakt."
+    ru: "Если вы желаете забронировать другой номер, просим немедленно связаться с нами."
+    source: { kind: translated, id: 357316 }
+  - form: "życzą"
+    pl: "Życzą ci powodzenia."
+    ru: "Они желают тебе удачи."
+    source: { kind: authored }
+  - form: "życzą"
+    pl: "Czego sobie życzą goście?"
+    ru: "Чего желают гости?"
+    source: { kind: authored }
+  - form: "życząc"
+    pl: "Życząc mu powodzenia, uścisnął mu dłoń."
+    ru: "Пожелав ему удачи, он пожал ему руку."
+    source: { kind: authored }
+  - form: "życząc"
+    pl: "Życząc sobie ciszy, wyjechał na wieś."
+    ru: "Желая тишины, он уехал в деревню."
+    source: { kind: authored }
+  - form: "życząc"
+    pl: "Nie życząc nikomu źle, milczał."
+    ru: "Никому не желая зла, он молчал."
+    source: { kind: authored }
+  - form: "życząca"
+    pl: "Osoba życząca sobie ciszy powinna usiąść z tyłu."
+    ru: "Желающий тишины пусть сядет сзади."
+    source: { kind: authored }
+  - form: "życząca"
+    pl: "To kobieta życząca wszystkim dobrze."
+    ru: "Это женщина, желающая всем добра."
+    source: { kind: authored }
+  - form: "życząca"
+    pl: "Życząca sobie zmian klasa zagłosowała inaczej."
+    ru: "Желавший перемен класс проголосовал иначе."
+    source: { kind: authored }
+  - form: "życzącą"
+    pl: "Znam osobę życzącą wszystkim dobrze."
+    ru: "Я знаю человека, желающего всем добра."
+    source: { kind: authored }
+  - form: "życzącą"
+    pl: "Spotkał kobietę życzącą sobie spokoju."
+    ru: "Он встретил женщину, желающую покоя."
+    source: { kind: authored }
+  - form: "życzącą"
+    pl: "Uznali ją za życzącą dobrze sąsiadkę."
+    ru: "Её сочли доброжелательной соседкой."
+    source: { kind: authored }
+  - form: "życzące"
+    pl: "Osoby życzące sobie ciszy siedzą z tyłu."
+    ru: "Желающие тишины сидят сзади."
+    source: { kind: authored }
+  - form: "życzące"
+    pl: "Dzieci życzące sobie prezentów piszą listy."
+    ru: "Дети, желающие подарков, пишут письма."
+    source: { kind: authored }
+  - form: "życzące"
+    pl: "Życzące dobrze sąsiadki pomogły od razu."
+    ru: "Доброжелательные соседки помогли сразу."
+    source: { kind: authored }
+  - form: "życzącego"
+    pl: "Nie ma tu nikogo życzącego mu źle."
+    ru: "Здесь нет никого, кто желал бы ему зла."
+    source: { kind: authored }
+  - form: "życzącego"
+    pl: "Szukam kogoś życzącego sobie zmian."
+    ru: "Я ищу того, кто желает перемен."
+    source: { kind: authored }
+  - form: "życzącego"
+    pl: "Dotyczy to ucznia życzącego sobie przeniesienia."
+    ru: "Это касается ученика, желающего перевода."
+    source: { kind: authored }
+  - form: "życzącej"
+    pl: "Nie ma tu osoby życzącej mu źle."
+    ru: "Здесь нет человека, который желал бы ему зла."
+    source: { kind: authored }
+  - form: "życzącej"
+    pl: "Szukam kobiety życzącej sobie zmian."
+    ru: "Я ищу женщину, желающую перемен."
+    source: { kind: authored }
+  - form: "życzącej"
+    pl: "Dotyczy to klasy życzącej sobie przerwy."
+    ru: "Это касается класса, желающего перемены."
+    source: { kind: authored }
+  - form: "życzącemu"
+    pl: "Pomógł koledze życzącemu sobie zmian."
+    ru: "Он помог коллеге, желающему перемен."
+    source: { kind: authored }
+  - form: "życzącemu"
+    pl: "Nie ufał życzącemu mu zbyt dobrze sąsiadowi."
+    ru: "Он не доверял соседу, желавшему ему слишком много добра."
+    source: { kind: authored }
+  - form: "życzącemu"
+    pl: "Doradził uczniowi życzącemu sobie przeniesienia."
+    ru: "Он посоветовал ученику, желающему перевода."
+    source: { kind: authored }
+  - form: "życzący"
+    pl: "Życzący sobie ciszy uczeń usiadł z tyłu."
+    ru: "Желавший тишины ученик сел сзади."
+    source: { kind: authored }
+  - form: "życzący"
+    pl: "To człowiek życzący wszystkim dobrze."
+    ru: "Это человек, желающий всем добра."
+    source: { kind: authored }
+  - form: "życzący"
+    pl: "Życzący sobie zmian głosowali inaczej."
+    ru: "Желающие перемен голосовали иначе."
+    source: { kind: authored }
+  - form: "życzących"
+    pl: "Nie ma tu osób życzących mu źle."
+    ru: "Здесь нет людей, желающих ему зла."
+    source: { kind: authored }
+  - form: "życzących"
+    pl: "Wśród życzących sobie zmian był i on."
+    ru: "Среди желающих перемен был и он."
+    source: { kind: authored }
+  - form: "życzących"
+    pl: "Szukam uczniów życzących sobie przeniesienia."
+    ru: "Я ищу учеников, желающих перевода."
+    source: { kind: authored }
+  - form: "życzącym"
+    pl: "Był człowiekiem życzącym wszystkim dobrze."
+    ru: "Он был человеком, желающим всем добра."
+    source: { kind: authored }
+  - form: "życzącym"
+    pl: "Przyjrzał się życzącym sobie zmian uczniom."
+    ru: "Он присмотрелся к ученикам, желающим перемен."
+    source: { kind: authored }
+  - form: "życzącym"
+    pl: "Mówili o koledze życzącym sobie przeniesienia."
+    ru: "Они говорили о коллеге, желающем перевода."
+    source: { kind: authored }
+  - form: "życzącymi"
+    pl: "Pracuje z ludźmi życzącymi sobie zmian."
+    ru: "Он работает с людьми, желающими перемен."
+    source: { kind: authored }
+  - form: "życzącymi"
+    pl: "Między życzącymi dobrze a obojętnymi jest różnica."
+    ru: "Между доброжелательными и равнодушными есть разница."
+    source: { kind: authored }
+  - form: "życzącymi"
+    pl: "Zajmuje się uczniami życzącymi sobie przeniesienia."
+    ru: "Он занимается учениками, желающими перевода."
+    source: { kind: authored }
+  - form: "życzcie"
+    pl: "Idę teraz na egzamin, życzcie mi szczęścia."
+    ru: "Иду сейчас на экзамен, пожелайте мне удачи."
+    source: { kind: tatoeba, id: 12655218 }
+  - form: "życzcie"
+    pl: "Życzcie mu powodzenia."
+    ru: "Пожелайте ему удачи."
+    source: { kind: authored }
+  - form: "życzcie"
+    pl: "Życzcie sobie czegoś."
+    ru: "Пожелайте себе чего-нибудь."
+    source: { kind: authored }
+  - form: "życzenia"
+    pl: "Najlepsze życzenia!"
+    ru: "Наилучшие пожелания!"
+    source: { kind: translated, id: 4683827 }
+  - form: "życzenia"
+    pl: "Masz trzy życzenia."
+    ru: "У тебя три желания."
+    source: { kind: translated, id: 11392592 }
+  - form: "życzenia"
+    pl: "Przekaż mu moje życzenia."
+    ru: "Передай ему мои пожелания."
+    source: { kind: authored }
+  - form: "życzenie"
+    pl: "Powiedz życzenie."
+    ru: "Загадай желание."
+    source: { kind: translated, id: 991313 }
+  - form: "życzenie"
+    pl: "Ma pan jakieś życzenie?"
+    ru: "У вас есть какое-нибудь пожелание?"
+    source: { kind: translated, id: 11608462 }
+  - form: "życzenie"
+    pl: "Spełniło się jej życzenie."
+    ru: "Её желание исполнилось."
+    source: { kind: authored }
+  - form: "życzeniem"
+    pl: "Jedynym jego życzeniem było zobaczyć syna po raz ostatni."
+    ru: "Его единственным желанием было увидеть своего сына в последний раз."
+    source: { kind: tatoeba, id: 2475883 }
+  - form: "życzeniem"
+    pl: "Moim życzeniem jest zdobyć tę górę."
+    ru: "Моё желание — покорить эту гору."
+    source: { kind: translated, id: 728707 }
+  - form: "życzeniem"
+    pl: "Zgodnie z jego życzeniem nic nie zmieniono."
+    ru: "По его желанию ничего не изменили."
+    source: { kind: authored }
+  - form: "życzeniu"
+    pl: "Po życzeniu wszystkiego dobrego wyszedł."
+    ru: "Пожелав всего хорошего, он вышел."
+    source: { kind: authored }
+  - form: "życzeniu"
+    pl: "Mówili o jego życzeniu."
+    ru: "Они говорили о его желании."
+    source: { kind: authored }
+  - form: "życzeniu"
+    pl: "W tym życzeniu nie ma nic dziwnego."
+    ru: "В этом желании нет ничего странного."
+    source: { kind: authored }
+  - form: "życzę"
+    pl: "Życzę sukcesów w pracy."
+    ru: "Желаю успехов в работе."
+    source: { kind: tatoeba, id: 13041610 }
+  - form: "życzę"
+    pl: "Życzę Ci zdrowia."
+    ru: "Желаю тебе здоровья."
+    source: { kind: translated, id: 1866777 }
+  - form: "życzę"
+    pl: "Życzę wam wszystkiego dobrego."
+    ru: "Желаю вам всего хорошего."
+    source: { kind: authored }
+  - form: "życzmy"
+    pl: "Życzmy im szczęścia."
+    ru: "Пожелаем им счастья."
+    source: { kind: authored }
+  - form: "życzmy"
+    pl: "Życzmy sobie spokojnego roku."
+    ru: "Пожелаем себе спокойного года."
+    source: { kind: authored }
+  - form: "życzmy"
+    pl: "Nie życzmy nikomu źle."
+    ru: "Не будем никому желать зла."
+    source: { kind: authored }
+  - form: "życzono"
+    pl: "Życzono im długiego życia."
+    ru: "Им желали долгой жизни."
+    source: { kind: authored }
+  - form: "życzono"
+    pl: "Nikomu nie życzono źle."
+    ru: "Никому не желали зла."
+    source: { kind: authored }
+  - form: "życzono"
+    pl: "Życzono nam powodzenia na drogę."
+    ru: "Нам пожелали удачи в дорогу."
+    source: { kind: authored }
+  - form: "życzy"
+    pl: "Ile talerzy pan sobie życzy?"
+    ru: "Сколько ты хочешь тарелок?"
+    source: { kind: tatoeba, id: 730432 }
+  - form: "życzy"
+    pl: "Czego pan sobie życzy?"
+    ru: "Что вы желаете?"
+    source: { kind: translated, id: 8772621 }
+  - form: "życzy"
+    pl: "Ona życzy ci dobrze."
+    ru: "Она желает тебе добра."
+    source: { kind: authored }
+  - form: "życzycie"
+    pl: "Czego sobie życzycie?"
+    ru: "Чего вы желаете?"
+    source: { kind: authored }
+  - form: "życzycie"
+    pl: "Życzycie im szczęścia?"
+    ru: "Вы желаете им счастья?"
+    source: { kind: authored }
+  - form: "życzycie"
+    pl: "Nie życzycie nikomu źle."
+    ru: "Вы никому не желаете зла."
+    source: { kind: authored }
+  - form: "życzyć"
+    pl: "Muszę jej życzyć dobrej nocy."
+    ru: "Я должен пожелать ей спокойной ночи."
+    source: { kind: translated, id: 7970903 }
+  - form: "życzyć"
+    pl: "Trudno życzyć czegoś lepszego."
+    ru: "Трудно пожелать чего-то лучшего."
+    source: { kind: authored }
+  - form: "życzyć"
+    pl: "Wypada życzyć im szczęścia."
+    ru: "Следует пожелать им счастья."
+    source: { kind: authored }
+  - form: "życzyli"
+    pl: "Goście życzyli młodej parze długiego i szczęśliwego życia."
+    ru: "Гости пожелали молодожёнам долгой и счастливой жизни."
+    source: { kind: translated, id: 856172 }
+  - form: "życzyli"
+    pl: "Życzyli nam powodzenia."
+    ru: "Они пожелали нам удачи."
+    source: { kind: authored }
+  - form: "życzyli"
+    pl: "Nigdy nie życzyli nam źle."
+    ru: "Они никогда не желали нам зла."
+    source: { kind: authored }
+  - form: "życzyliby"
+    pl: "Życzyliby wam szczęścia."
+    ru: "Они пожелали бы вам счастья."
+    source: { kind: authored }
+  - form: "życzyliby"
+    pl: "Nie życzyliby nikomu źle."
+    ru: "Они никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzyliby"
+    pl: "Życzyliby sobie spokoju."
+    ru: "Они хотели бы покоя."
+    source: { kind: authored }
+  - form: "życzylibyście"
+    pl: "Życzylibyście im szczęścia?"
+    ru: "Вы пожелали бы им счастья?"
+    source: { kind: authored }
+  - form: "życzylibyście"
+    pl: "Nie życzylibyście nikomu źle."
+    ru: "Вы никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzylibyście"
+    pl: "Życzylibyście sobie czegoś jeszcze?"
+    ru: "Вы хотели бы чего-нибудь ещё?"
+    source: { kind: authored }
+  - form: "życzylibyśmy"
+    pl: "Życzylibyśmy im szczęścia."
+    ru: "Мы пожелали бы им счастья."
+    source: { kind: authored }
+  - form: "życzylibyśmy"
+    pl: "Nie życzylibyśmy nikomu źle."
+    ru: "Мы никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzylibyśmy"
+    pl: "Życzylibyśmy sobie spokoju."
+    ru: "Мы хотели бы покоя."
+    source: { kind: authored }
+  - form: "życzyliście"
+    pl: "Życzyliście im szczęścia?"
+    ru: "Вы пожелали им счастья?"
+    source: { kind: authored }
+  - form: "życzyliście"
+    pl: "Nie życzyliście nikomu źle."
+    ru: "Вы никому не желали зла."
+    source: { kind: authored }
+  - form: "życzyliście"
+    pl: "Czego sobie życzyliście?"
+    ru: "Чего вы желали?"
+    source: { kind: authored }
+  - form: "życzyliśmy"
+    pl: "Życzyliśmy im szczęścia."
+    ru: "Мы пожелали им счастья."
+    source: { kind: authored }
+  - form: "życzyliśmy"
+    pl: "Nigdy nie życzyliśmy nikomu źle."
+    ru: "Мы никогда никому не желали зла."
+    source: { kind: authored }
+  - form: "życzyliśmy"
+    pl: "Życzyliśmy sobie spokojnego roku."
+    ru: "Мы желали себе спокойного года."
+    source: { kind: authored }
+  - form: "życzył"
+    pl: "On życzył rodzicom dobrej nocy."
+    ru: "Он пожелал родителям спокойной ночи."
+    source: { kind: tatoeba, id: 3660845 }
+  - form: "życzył"
+    pl: "Tomasz życzył Marii powodzenia."
+    ru: "Томаш пожелал Марии удачи."
+    source: { kind: translated, id: 2035076 }
+  - form: "życzył"
+    pl: "Życzył mi dobrej nocy."
+    ru: "Он пожелал мне спокойной ночи."
+    source: { kind: authored }
+  - form: "życzyła"
+    pl: "Życzyła mi dobrej nocy."
+    ru: "Она пожелала мне спокойной ночи."
+    source: { kind: translated, id: 730480 }
+  - form: "życzyła"
+    pl: "Życzyła im szczęścia."
+    ru: "Она пожелала им счастья."
+    source: { kind: authored }
+  - form: "życzyła"
+    pl: "Nigdy nie życzyła nikomu źle."
+    ru: "Она никогда никому не желала зла."
+    source: { kind: authored }
+  - form: "życzyłaby"
+    pl: "Życzyłaby sobie ciszy."
+    ru: "Она хотела бы тишины."
+    source: { kind: authored }
+  - form: "życzyłaby"
+    pl: "Nie życzyłaby nikomu takiego losu."
+    ru: "Она никому не пожелала бы такой судьбы."
+    source: { kind: authored }
+  - form: "życzyłaby"
+    pl: "Życzyłaby im szczęścia."
+    ru: "Она пожелала бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłabym"
+    pl: "Życzyłabym sobie ciszy."
+    ru: "Я хотела бы тишины."
+    source: { kind: authored }
+  - form: "życzyłabym"
+    pl: "Nie życzyłabym nikomu takiego losu."
+    ru: "Я никому не пожелала бы такой судьбы."
+    source: { kind: authored }
+  - form: "życzyłabym"
+    pl: "Życzyłabym im szczęścia."
+    ru: "Я пожелала бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłabyś"
+    pl: "Życzyłabyś sobie czegoś jeszcze?"
+    ru: "Ты хотела бы чего-нибудь ещё?"
+    source: { kind: authored }
+  - form: "życzyłabyś"
+    pl: "Nie życzyłabyś tego nikomu."
+    ru: "Ты не пожелала бы этого никому."
+    source: { kind: authored }
+  - form: "życzyłabyś"
+    pl: "Życzyłabyś im szczęścia?"
+    ru: "Ты пожелала бы им счастья?"
+    source: { kind: authored }
+  - form: "życzyłam"
+    pl: "Nigdy nie życzyłam nikomu śmierci, ale niektóre nekrologi czytałam z przyjemnością."
+    ru: "Я никогда никому не желала смерти, но некоторые некрологи читала с удовольствием."
+    source: { kind: translated, id: 5692917 }
+  - form: "życzyłam"
+    pl: "Życzyłam mu powodzenia."
+    ru: "Я пожелала ему удачи."
+    source: { kind: authored }
+  - form: "życzyłam"
+    pl: "Życzyłam sobie spokoju."
+    ru: "Я желала себе покоя."
+    source: { kind: authored }
+  - form: "życzyłaś"
+    pl: "Życzyłaś mu powodzenia?"
+    ru: "Ты пожелала ему удачи?"
+    source: { kind: authored }
+  - form: "życzyłaś"
+    pl: "Nigdy nie życzyłaś nikomu źle."
+    ru: "Ты никогда никому не желала зла."
+    source: { kind: authored }
+  - form: "życzyłaś"
+    pl: "Czego sobie życzyłaś?"
+    ru: "Чего ты желала?"
+    source: { kind: authored }
+  - form: "życzyłby"
+    pl: "On życzyłby sobie, aby mógł wymazać złe wspomnienia."
+    ru: "Он хотел бы стереть дурные воспоминания."
+    source: { kind: translated, id: 892393 }
+  - form: "życzyłby"
+    pl: "Życzyłby sobie ciszy."
+    ru: "Он хотел бы тишины."
+    source: { kind: authored }
+  - form: "życzyłby"
+    pl: "Nie życzyłby nikomu takiego losu."
+    ru: "Он никому не пожелал бы такой судьбы."
+    source: { kind: authored }
+  - form: "życzyłbym"
+    pl: "Życzyłbym sobie ciszy."
+    ru: "Я хотел бы тишины."
+    source: { kind: authored }
+  - form: "życzyłbym"
+    pl: "Nie życzyłbym nikomu takiego losu."
+    ru: "Я никому не пожелал бы такой судьбы."
+    source: { kind: authored }
+  - form: "życzyłbym"
+    pl: "Życzyłbym im szczęścia."
+    ru: "Я пожелал бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłbyś"
+    pl: "Życzyłbyś sobie herbaty albo kawy?"
+    ru: "Ты хотел бы чаю или кофе?"
+    source: { kind: translated, id: 2149155 }
+  - form: "życzyłbyś"
+    pl: "Nie życzyłbyś tego nikomu."
+    ru: "Ты не пожелал бы этого никому."
+    source: { kind: authored }
+  - form: "życzyłbyś"
+    pl: "Życzyłbyś sobie czegoś jeszcze?"
+    ru: "Ты хотел бы чего-нибудь ещё?"
+    source: { kind: authored }
+  - form: "życzyłem"
+    pl: "Życzyłem mu miłej podróży."
+    ru: "Я пожелал ему приятного путешествия."
+    source: { kind: translated, id: 3410626 }
+  - form: "życzyłem"
+    pl: "Życzyłem mu dobrej podróży."
+    ru: "Я пожелал ему доброго пути."
+    source: { kind: translated, id: 11351264 }
+  - form: "życzyłem"
+    pl: "Nigdy nie życzyłem mu źle."
+    ru: "Я никогда не желал ему зла."
+    source: { kind: authored }
+  - form: "życzyłeś"
+    pl: "Życzyłeś mu powodzenia?"
+    ru: "Ты пожелал ему удачи?"
+    source: { kind: authored }
+  - form: "życzyłeś"
+    pl: "Nigdy nie życzyłeś nikomu źle."
+    ru: "Ты никогда никому не желал зла."
+    source: { kind: authored }
+  - form: "życzyłeś"
+    pl: "Czego sobie życzyłeś?"
+    ru: "Чего ты желал?"
+    source: { kind: authored }
+  - form: "życzyło"
+    pl: "Dziecko życzyło sobie psa."
+    ru: "Ребёнок хотел собаку."
+    source: { kind: authored }
+  - form: "życzyło"
+    pl: "Wiele osób życzyło im szczęścia."
+    ru: "Многие пожелали им счастья."
+    source: { kind: authored }
+  - form: "życzyło"
+    pl: "Żadne z nich nie życzyło mu źle."
+    ru: "Ни один из них не желал ему зла."
+    source: { kind: authored }
+  - form: "życzyłoby"
+    pl: "Dziecko życzyłoby sobie psa."
+    ru: "Ребёнок хотел бы собаку."
+    source: { kind: authored }
+  - form: "życzyłoby"
+    pl: "Wiele osób życzyłoby im szczęścia."
+    ru: "Многие пожелали бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłoby"
+    pl: "Żadne z nich nie życzyłoby mu źle."
+    ru: "Ни один из них не пожелал бы ему зла."
+    source: { kind: authored }
+  - form: "życzyły"
+    pl: "Dziewczyny życzyły im szczęścia."
+    ru: "Девушки пожелали им счастья."
+    source: { kind: authored }
+  - form: "życzyły"
+    pl: "Nigdy nie życzyły nikomu źle."
+    ru: "Они никогда никому не желали зла."
+    source: { kind: authored }
+  - form: "życzyły"
+    pl: "Życzyły sobie spokojnych wakacji."
+    ru: "Они желали себе спокойных каникул."
+    source: { kind: authored }
+  - form: "życzyłyby"
+    pl: "Życzyłyby im szczęścia."
+    ru: "Они пожелали бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłyby"
+    pl: "Nie życzyłyby nikomu źle."
+    ru: "Они никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzyłyby"
+    pl: "Życzyłyby sobie spokoju."
+    ru: "Они хотели бы покоя."
+    source: { kind: authored }
+  - form: "życzyłybyście"
+    pl: "Życzyłybyście im szczęścia?"
+    ru: "Вы пожелали бы им счастья?"
+    source: { kind: authored }
+  - form: "życzyłybyście"
+    pl: "Nie życzyłybyście nikomu źle."
+    ru: "Вы никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzyłybyście"
+    pl: "Życzyłybyście sobie czegoś jeszcze?"
+    ru: "Вы хотели бы чего-нибудь ещё?"
+    source: { kind: authored }
+  - form: "życzyłybyśmy"
+    pl: "Życzyłybyśmy im szczęścia."
+    ru: "Мы пожелали бы им счастья."
+    source: { kind: authored }
+  - form: "życzyłybyśmy"
+    pl: "Nie życzyłybyśmy nikomu źle."
+    ru: "Мы никому не пожелали бы зла."
+    source: { kind: authored }
+  - form: "życzyłybyśmy"
+    pl: "Życzyłybyśmy sobie spokoju."
+    ru: "Мы хотели бы покоя."
+    source: { kind: authored }
+  - form: "życzyłyście"
+    pl: "Życzyłyście im szczęścia?"
+    ru: "Вы пожелали им счастья?"
+    source: { kind: authored }
+  - form: "życzyłyście"
+    pl: "Nie życzyłyście nikomu źle."
+    ru: "Вы никому не желали зла."
+    source: { kind: authored }
+  - form: "życzyłyście"
+    pl: "Czego sobie życzyłyście?"
+    ru: "Чего вы желали?"
+    source: { kind: authored }
+  - form: "życzyłyśmy"
+    pl: "Życzyłyśmy im szczęścia."
+    ru: "Мы пожелали им счастья."
+    source: { kind: authored }
+  - form: "życzyłyśmy"
+    pl: "Nigdy nie życzyłyśmy nikomu źle."
+    ru: "Мы никогда никому не желали зла."
+    source: { kind: authored }
+  - form: "życzyłyśmy"
+    pl: "Życzyłyśmy sobie spokojnego roku."
+    ru: "Мы желали себе спокойного года."
+    source: { kind: authored }
+  - form: "życzymy"
+    pl: "Życzymy powodzenia!"
+    ru: "Желаем удачи!"
+    source: { kind: translated, id: 8238401 }
+  - form: "życzymy"
+    pl: "Życzymy ci sukcesu."
+    ru: "Желаем тебе успеха."
+    source: { kind: translated, id: 8522805 }
+  - form: "życzymy"
+    pl: "Życzymy im szczęścia."
+    ru: "Желаем им счастья."
+    source: { kind: authored }
+  - form: "życzysz"
+    pl: "Jak sobie życzysz."
+    ru: "Как пожелаешь."
+    source: { kind: translated, id: 4131980 }
+  - form: "życzysz"
+    pl: "Cześć, czego sobie życzysz?"
+    ru: "Привет, что желаешь?"
+    source: { kind: translated, id: 1660207 }
+  - form: "życzysz"
+    pl: "Czego sobie życzysz na urodziny?"
+    ru: "Что ты хочешь на день рождения?"
+    source: { kind: authored }

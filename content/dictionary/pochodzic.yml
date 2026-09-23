@@ -1,0 +1,648 @@
+# review
+id: pochodzic
+format: 2
+lemma: "pochodzić"
+rank: 864
+pos: verb
+aspect: imperf
+pron: { cyr: "похо́дзиць" }
+senses:
+  - id: come-from
+    ru: "происходить, быть родом (откуда-л.)"
+    examples:
+      - pl: "Pochodzę z Rosji."
+        ru: "Я из России."
+        source: { kind: tatoeba, id: 599430 }
+      - pl: "Martyna pochodzi z Wrocławia."
+        ru: "Мартина родом из Вроцлава."
+        source: { kind: tatoeba, id: 919750 }
+      - pl: "Moi rodzice pochodzą z Chin."
+        ru: "Мои родители родом из Китая."
+        source: { kind: translated, id: 2734512 }
+  - id: origin
+    ru: "о происхождении слов, вещей, идей"
+    examples:
+      - pl: "Osiemdziesiąt procent angielskich słów pochodzi z innych języków."
+        ru: "Восемьдесят процентов английских слов происходят из других языков."
+        source: { kind: tatoeba, id: 6017149 }
+      - pl: "Demokracja to idea pochodząca od starożytnych Greków."
+        ru: "Демократия — идея, идущая от древних греков."
+        source: { kind: translated, id: 513487 }
+      - pl: "Lateks to naturalny składnik pochodzący z drzew kauczukowych."
+        ru: "Латекс — природный компонент, получаемый из каучуковых деревьев."
+        source: { kind: translated, id: 10794243 }
+  - id: noun
+    ru: "pochodzenie — происхождение"
+    examples:
+      - pl: "Jest z pochodzenia Niemcem."
+        ru: "Он немец по происхождению."
+        source: { kind: translated, id: 525057 }
+      - pl: "Pochodzenie tego słowa nie jest znane."
+        ru: "Происхождение этого слова неизвестно."
+        source: { kind: translated, id: 6148843 }
+      - pl: "Jest z pochodzenia Japończykiem."
+        ru: "Он японец по происхождению."
+        source: { kind: translated, id: 359167 }
+notes:
+  - { kind: government, text: "pochodzić Z czegoś «происходить откуда-то» — родительный после z: Pochodzę z Rosji. О человеке спрашивают Skąd pochodzisz? «Откуда ты родом?»." }
+  - { kind: usage, text: "Глагол описывает состояние, а не действие, поэтому повелительного наклонения у него нет. Формы pochodź, pochodźcie принадлежат другому глаголу — pochodzić «походить, побродить» (Pochodź trochę po pokoju)." }
+  - { kind: usage, text: "Существительное pochodzenie «происхождение» очень частое: z pochodzenia Niemcem «немец по происхождению», pochodzenie słowa «происхождение слова»." }
+  - { kind: usage, text: "Корень тот же, что в chodzić «ходить»: происходить — значит «идти откуда-то». Русское «происходить» устроено точно так же, от «ходить»." }
+collocations:
+  - { pl: "skąd pochodzisz?", ru: "откуда ты родом?" }
+  - { pl: "pochodzić z", ru: "происходить из" }
+  - { pl: "z pochodzenia", ru: "по происхождению" }
+  - { pl: "pochodzenie słowa", ru: "происхождение слова" }
+family:
+  - { pl: "chodzić", ru: "ходить", relation: root, id: chodzic }
+  - { pl: "pochodzenie", ru: "происхождение", relation: derived }
+  - { pl: "pochodny", ru: "производный", relation: derived }
+etymology: "Из po- + chodzić «ходить» — буквально «идти откуда-то». Русское «происходить» собрано ровно так же, от «ходить», так что логика полностью совпадает."
+memory: "pochodzić — «происходить, быть родом». Внутри сидит chodzić «ходить», как и в русском «происходить». Управление: pochodzić Z czegoś, Skąd pochodzisz? «Откуда ты родом?». Повелительного наклонения у глагола нет — pochodź! это уже другое слово, «походи немного»."
+idioms:
+  - { pl: "skąd pochodzisz?", ru: "откуда ты родом?" }
+  - { pl: "z pochodzenia", ru: "по происхождению" }
+  - { pl: "pochodzenie słowa", ru: "происхождение слова" }
+formExamplesSkip:
+  - { form: "pochodź", reason: "это формы другого глагола — pochodzić «походить, побродить»; у глагола «происходить» повелительного наклонения нет" }
+  - { form: "pochodźcie", reason: "это формы другого глагола — pochodzić «походить, побродить»; у глагола «происходить» повелительного наклонения нет" }
+  - { form: "pochodźmy", reason: "это формы другого глагола — pochodzić «походить, побродить»; у глагола «происходить» повелительного наклонения нет" }
+  - { form: "pochodziwszy", reason: "это формы другого глагола — pochodzić «походить, побродить»; у глагола «происходить» повелительного наклонения нет" }
+  - { form: "pochodzono", reason: "это формы другого глагола — pochodzić «походить, побродить»; у глагола «происходить» повелительного наклонения нет" }
+formExamples:
+  - form: "pochodzą"
+    pl: "Skąd pochodzą?"
+    ru: "Откуда они родом?"
+    source: { kind: translated, id: 2789906 }
+  - form: "pochodzą"
+    pl: "Moi rodzice pochodzą z Chin."
+    ru: "Мои родители родом из Китая."
+    source: { kind: translated, id: 2734512 }
+  - form: "pochodzą"
+    pl: "Te owoce pochodzą z Hiszpanii."
+    ru: "Эти фрукты из Испании."
+    source: { kind: authored }
+  - form: "pochodząc"
+    pl: "Pochodząc ze wsi, znał się na gospodarstwie."
+    ru: "Будучи родом из деревни, он разбирался в хозяйстве."
+    source: { kind: authored }
+  - form: "pochodząc"
+    pl: "Pochodząc z biednej rodziny, cenił każdy grosz."
+    ru: "Происходя из бедной семьи, он ценил каждый грош."
+    source: { kind: authored }
+  - form: "pochodząc"
+    pl: "Pochodząc z innego kraju, mówił z akcentem."
+    ru: "Будучи родом из другой страны, он говорил с акцентом."
+    source: { kind: authored }
+  - form: "pochodząca"
+    pl: "Demokracja to idea pochodząca od starożytnych Greków."
+    ru: "Демократия — идея, идущая от древних греков."
+    source: { kind: translated, id: 513487 }
+  - form: "pochodząca"
+    pl: "Rodzina pochodząca z Litwy osiadła tu dawno."
+    ru: "Семья родом из Литвы осела здесь давно."
+    source: { kind: authored }
+  - form: "pochodząca"
+    pl: "To tradycja pochodząca ze wschodu."
+    ru: "Это традиция, идущая с востока."
+    source: { kind: authored }
+  - form: "pochodzącą"
+    pl: "Znam rodzinę pochodzącą z Litwy."
+    ru: "Я знаю семью родом из Литвы."
+    source: { kind: authored }
+  - form: "pochodzącą"
+    pl: "Kupił rzeźbę pochodzącą z Afryki."
+    ru: "Он купил скульптуру родом из Африки."
+    source: { kind: authored }
+  - form: "pochodzącą"
+    pl: "Poznał kobietę pochodzącą z gór."
+    ru: "Он познакомился с женщиной родом из гор."
+    source: { kind: authored }
+  - form: "pochodzące"
+    pl: "Słowa pochodzące z greki są liczne."
+    ru: "Слов, идущих из греческого, много."
+    source: { kind: authored }
+  - form: "pochodzące"
+    pl: "Meble pochodzące z tamtych lat są cenne."
+    ru: "Мебель тех лет ценна."
+    source: { kind: authored }
+  - form: "pochodzące"
+    pl: "Rodziny pochodzące ze wsi osiedlały się w mieście."
+    ru: "Семьи из деревни селились в городе."
+    source: { kind: authored }
+  - form: "pochodzącego"
+    pl: "Nie ma tu słowa pochodzącego z łaciny."
+    ru: "Слова из латыни здесь нет."
+    source: { kind: authored }
+  - form: "pochodzącego"
+    pl: "Szukam obrazu pochodzącego z tej kolekcji."
+    ru: "Я ищу картину из этой коллекции."
+    source: { kind: authored }
+  - form: "pochodzącego"
+    pl: "Dotyczy to zwyczaju pochodzącego ze wschodu."
+    ru: "Это касается обычая, идущего с востока."
+    source: { kind: authored }
+  - form: "pochodzącej"
+    pl: "Nie ma tu rodziny pochodzącej z Litwy."
+    ru: "Семьи родом из Литвы здесь нет."
+    source: { kind: authored }
+  - form: "pochodzącej"
+    pl: "Szukam rzeźby pochodzącej z Afryki."
+    ru: "Я ищу скульптуру родом из Африки."
+    source: { kind: authored }
+  - form: "pochodzącej"
+    pl: "Dotyczy to tradycji pochodzącej z gór."
+    ru: "Это касается традиции, идущей с гор."
+    source: { kind: authored }
+  - form: "pochodzącemu"
+    pl: "Przyjrzał się zwyczajowi pochodzącemu ze wschodu."
+    ru: "Он присмотрелся к обычаю, идущему с востока."
+    source: { kind: authored }
+  - form: "pochodzącemu"
+    pl: "Pomógł uczniowi pochodzącemu ze wsi."
+    ru: "Он помог ученику родом из деревни."
+    source: { kind: authored }
+  - form: "pochodzącemu"
+    pl: "Nie ufał dokumentowi pochodzącemu z nieznanego źródła."
+    ru: "Он не доверял документу из неизвестного источника."
+    source: { kind: authored }
+  - form: "pochodzący"
+    pl: "Lateks to naturalny składnik pochodzący z drzew kauczukowych."
+    ru: "Латекс — природный компонент, получаемый из каучуковых деревьев."
+    source: { kind: translated, id: 10794243 }
+  - form: "pochodzący"
+    pl: "Zwyczaj pochodzący ze średniowiecza przetrwał."
+    ru: "Обычай, идущий из средневековья, сохранился."
+    source: { kind: authored }
+  - form: "pochodzący"
+    pl: "To obraz pochodzący z prywatnej kolekcji."
+    ru: "Это картина из частной коллекции."
+    source: { kind: authored }
+  - form: "pochodzących"
+    pl: "Statek był pełny uchodźców pochodzących z Kuby."
+    ru: "Корабль был полон беженцев из Кубы."
+    source: { kind: translated, id: 3191307 }
+  - form: "pochodzących"
+    pl: "Nie powinien Pan jeść ryb pochodzących z tej rzeki."
+    ru: "Вам не следует есть рыбу из этой реки."
+    source: { kind: translated, id: 3191318 }
+  - form: "pochodzących"
+    pl: "Szukam słów pochodzących z francuskiego."
+    ru: "Я ищу слова, происходящие из французского."
+    source: { kind: authored }
+  - form: "pochodzącym"
+    pl: "W słowie pochodzącym z greki jest ślad tamtej kultury."
+    ru: "В слове из греческого есть след той культуры."
+    source: { kind: authored }
+  - form: "pochodzącym"
+    pl: "Przyjrzał się meblom pochodzącym z tamtych lat."
+    ru: "Он присмотрелся к мебели тех лет."
+    source: { kind: authored }
+  - form: "pochodzącym"
+    pl: "Zajął się zwyczajem pochodzącym ze wsi."
+    ru: "Он занялся обычаем, идущим из деревни."
+    source: { kind: authored }
+  - form: "pochodzącymi"
+    pl: "Zajmuje się słowami pochodzącymi z łaciny."
+    ru: "Он занимается словами из латыни."
+    source: { kind: authored }
+  - form: "pochodzącymi"
+    pl: "Między zwyczajami pochodzącymi z różnych stron jest różnica."
+    ru: "Между обычаями из разных краёв есть разница."
+    source: { kind: authored }
+  - form: "pochodzącymi"
+    pl: "Wrócił z przedmiotami pochodzącymi z wykopalisk."
+    ru: "Он вернулся с предметами из раскопок."
+    source: { kind: authored }
+  - form: "pochodzenia"
+    pl: "Jest z pochodzenia Niemcem."
+    ru: "Он немец по происхождению."
+    source: { kind: translated, id: 525057 }
+  - form: "pochodzenia"
+    pl: "Jest z pochodzenia Japończykiem."
+    ru: "Он японец по происхождению."
+    source: { kind: translated, id: 359167 }
+  - form: "pochodzenia"
+    pl: "Nie znamy pochodzenia tego zwyczaju."
+    ru: "Мы не знаем происхождения этого обычая."
+    source: { kind: authored }
+  - form: "pochodzenie"
+    pl: "Czy znasz pochodzenie?"
+    ru: "Ты знаешь происхождение?"
+    source: { kind: translated, id: 11480800 }
+  - form: "pochodzenie"
+    pl: "Pochodzenie tego słowa nie jest znane."
+    ru: "Происхождение этого слова неизвестно."
+    source: { kind: translated, id: 6148843 }
+  - form: "pochodzenie"
+    pl: "Pochodzenie nie ma tu znaczenia."
+    ru: "Происхождение здесь не имеет значения."
+    source: { kind: authored }
+  - form: "pochodzeniem"
+    pl: "Interesuje się pochodzeniem nazwisk."
+    ru: "Он интересуется происхождением фамилий."
+    source: { kind: authored }
+  - form: "pochodzeniem"
+    pl: "Przed pochodzeniem słowa stoi znak zapytania."
+    ru: "Перед происхождением слова стоит знак вопроса."
+    source: { kind: authored }
+  - form: "pochodzeniem"
+    pl: "Nie przejmuje się pochodzeniem gości."
+    ru: "Его не волнует происхождение гостей."
+    source: { kind: authored }
+  - form: "pochodzeniu"
+    pl: "Mówili o pochodzeniu tego zwyczaju."
+    ru: "Они говорили о происхождении этого обычая."
+    source: { kind: authored }
+  - form: "pochodzeniu"
+    pl: "W pochodzeniu słowa tkwi zagadka."
+    ru: "В происхождении слова кроется загадка."
+    source: { kind: authored }
+  - form: "pochodzeniu"
+    pl: "Po pochodzeniu poznasz człowieka?"
+    ru: "По происхождению узнаешь человека?"
+    source: { kind: authored }
+  - form: "pochodzę"
+    pl: "Pochodzę z Rosji."
+    ru: "Я из России."
+    source: { kind: tatoeba, id: 599430 }
+  - form: "pochodzę"
+    pl: "Skąd pochodzę?"
+    ru: "Откуда я родом?"
+    source: { kind: translated, id: 2205825 }
+  - form: "pochodzę"
+    pl: "Pochodzę z małego miasta."
+    ru: "Я родом из маленького города."
+    source: { kind: authored }
+  - form: "pochodzi"
+    pl: "Martyna pochodzi z Wrocławia."
+    ru: "Мартина родом из Вроцлава."
+    source: { kind: tatoeba, id: 919750 }
+  - form: "pochodzi"
+    pl: "Osiemdziesiąt procent angielskich słów pochodzi z innych języków."
+    ru: "Восемьдесят процентов английских слов происходят из других языков."
+    source: { kind: tatoeba, id: 6017149 }
+  - form: "pochodzi"
+    pl: "To słowo pochodzi z łaciny."
+    ru: "Это слово происходит из латыни."
+    source: { kind: authored }
+  - form: "pochodzicie"
+    pl: "Skąd pochodzicie?"
+    ru: "Откуда вы родом?"
+    source: { kind: translated, id: 5150737 }
+  - form: "pochodzicie"
+    pl: "Z jakiego kraju pochodzicie?"
+    ru: "Из какой вы страны?"
+    source: { kind: authored }
+  - form: "pochodzicie"
+    pl: "Pochodzicie z tej samej wsi."
+    ru: "Вы родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodzić"
+    pl: "Takie łzy mogą pochodzić tylko z serca."
+    ru: "Такие слёзы могут идти только от сердца."
+    source: { kind: translated, id: 12714792 }
+  - form: "pochodzić"
+    pl: "To może pochodzić z XIX wieku."
+    ru: "Это может быть из девятнадцатого века."
+    source: { kind: authored }
+  - form: "pochodzić"
+    pl: "Słowo zdaje się pochodzić z greki."
+    ru: "Слово, кажется, происходит из греческого."
+    source: { kind: authored }
+  - form: "pochodzili"
+    pl: "Pochodzili z tej samej wsi."
+    ru: "Они были родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodzili"
+    pl: "Wszyscy pochodzili z rodzin robotniczych."
+    ru: "Все они были из рабочих семей."
+    source: { kind: authored }
+  - form: "pochodzili"
+    pl: "Pochodzili z różnych stron kraju."
+    ru: "Они были родом из разных краёв страны."
+    source: { kind: authored }
+  - form: "pochodziliby"
+    pl: "Pochodziliby z jednej wsi, gdyby wierzyć legendzie."
+    ru: "Они были бы родом из одной деревни, если верить легенде."
+    source: { kind: authored }
+  - form: "pochodziliby"
+    pl: "Nie pochodziliby z tej rodziny."
+    ru: "Они не происходили бы из этой семьи."
+    source: { kind: authored }
+  - form: "pochodziliby"
+    pl: "Pochodziliby z różnych stron kraju."
+    ru: "Они были бы родом из разных краёв страны."
+    source: { kind: authored }
+  - form: "pochodzilibyście"
+    pl: "Pochodzilibyście z jednej wsi?"
+    ru: "Вы были бы родом из одной деревни?"
+    source: { kind: authored }
+  - form: "pochodzilibyście"
+    pl: "Nie pochodzilibyście z tej rodziny."
+    ru: "Вы не происходили бы из этой семьи."
+    source: { kind: authored }
+  - form: "pochodzilibyście"
+    pl: "Pochodzilibyście z tego samego miasta."
+    ru: "Вы были бы родом из одного города."
+    source: { kind: authored }
+  - form: "pochodzilibyśmy"
+    pl: "Pochodzilibyśmy z jednej wsi."
+    ru: "Мы были бы родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodzilibyśmy"
+    pl: "Nie pochodzilibyśmy z tej rodziny."
+    ru: "Мы не происходили бы из этой семьи."
+    source: { kind: authored }
+  - form: "pochodzilibyśmy"
+    pl: "Pochodzilibyśmy z tego samego miasta."
+    ru: "Мы были бы родом из одного города."
+    source: { kind: authored }
+  - form: "pochodziliście"
+    pl: "Pochodziliście z jednej wsi?"
+    ru: "Вы были родом из одной деревни?"
+    source: { kind: authored }
+  - form: "pochodziliście"
+    pl: "Pochodziliście z rodzin robotniczych."
+    ru: "Вы были из рабочих семей."
+    source: { kind: authored }
+  - form: "pochodziliście"
+    pl: "Skąd pochodziliście?"
+    ru: "Откуда вы были родом?"
+    source: { kind: authored }
+  - form: "pochodziliśmy"
+    pl: "Pochodziliśmy z jednej wsi."
+    ru: "Мы были родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodziliśmy"
+    pl: "Pochodziliśmy z rodzin robotniczych."
+    ru: "Мы были из рабочих семей."
+    source: { kind: authored }
+  - form: "pochodziliśmy"
+    pl: "Wszyscy pochodziliśmy stamtąd."
+    ru: "Мы все были оттуда родом."
+    source: { kind: authored }
+  - form: "pochodził"
+    pl: "Był spokojnym człowiekiem, pochodził z dobrego domu."
+    ru: "Он был спокойным человеком, происходил из хорошей семьи."
+    source: { kind: translated, id: 736827 }
+  - form: "pochodził"
+    pl: "Jestem chrześcijaninem, ale mój ojciec pochodził z kenijskiej rodziny, która składa się z muzułmanów."
+    ru: "Я христианин, но мой отец происходил из кенийской семьи мусульман."
+    source: { kind: translated, id: 2394461 }
+  - form: "pochodził"
+    pl: "Pochodził z rodziny lekarzy."
+    ru: "Он происходил из семьи врачей."
+    source: { kind: authored }
+  - form: "pochodziła"
+    pl: "Dama pochodziła z dobrej rodziny."
+    ru: "Дама происходила из хорошей семьи."
+    source: { kind: translated, id: 3865323 }
+  - form: "pochodziła"
+    pl: "Pochodziła z małej wsi."
+    ru: "Она была родом из маленькой деревни."
+    source: { kind: authored }
+  - form: "pochodziła"
+    pl: "Ta tradycja pochodziła ze wschodu."
+    ru: "Эта традиция шла с востока."
+    source: { kind: authored }
+  - form: "pochodziłaby"
+    pl: "Pochodziłaby z dobrej rodziny."
+    ru: "Она была бы из хорошей семьи."
+    source: { kind: authored }
+  - form: "pochodziłaby"
+    pl: "Nie pochodziłaby stąd."
+    ru: "Она не была бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłaby"
+    pl: "Ta tradycja pochodziłaby ze wschodu."
+    ru: "Эта традиция шла бы с востока."
+    source: { kind: authored }
+  - form: "pochodziłabym"
+    pl: "Pochodziłabym z tej samej wsi."
+    ru: "Я была бы родом из той же деревни."
+    source: { kind: authored }
+  - form: "pochodziłabym"
+    pl: "Nie pochodziłabym stąd."
+    ru: "Я не была бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłabym"
+    pl: "Pochodziłabym z rodziny lekarzy."
+    ru: "Я была бы из семьи врачей."
+    source: { kind: authored }
+  - form: "pochodziłabyś"
+    pl: "Pochodziłabyś z tej samej wsi?"
+    ru: "Ты была бы родом из той же деревни?"
+    source: { kind: authored }
+  - form: "pochodziłabyś"
+    pl: "Nie pochodziłabyś stąd."
+    ru: "Ты не была бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłabyś"
+    pl: "Pochodziłabyś z dobrej rodziny."
+    ru: "Ты была бы из хорошей семьи."
+    source: { kind: authored }
+  - form: "pochodziłam"
+    pl: "Pochodziłam z małej wsi."
+    ru: "Я была родом из маленькой деревни."
+    source: { kind: authored }
+  - form: "pochodziłam"
+    pl: "Nie pochodziłam z bogatej rodziny."
+    ru: "Я была не из богатой семьи."
+    source: { kind: authored }
+  - form: "pochodziłam"
+    pl: "Pochodziłam z tego samego miasta co on."
+    ru: "Я была родом из того же города, что и он."
+    source: { kind: authored }
+  - form: "pochodziłaś"
+    pl: "Pochodziłaś z małej wsi?"
+    ru: "Ты была родом из маленькой деревни?"
+    source: { kind: authored }
+  - form: "pochodziłaś"
+    pl: "Nie pochodziłaś stąd."
+    ru: "Ты не была отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłaś"
+    pl: "Skąd pochodziłaś?"
+    ru: "Откуда ты была родом?"
+    source: { kind: authored }
+  - form: "pochodziłby"
+    pl: "Pochodziłby z dobrej rodziny."
+    ru: "Он был бы из хорошей семьи."
+    source: { kind: authored }
+  - form: "pochodziłby"
+    pl: "Nie pochodziłby stąd."
+    ru: "Он не был бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłby"
+    pl: "Ten zwyczaj pochodziłby ze wschodu."
+    ru: "Этот обычай шёл бы с востока."
+    source: { kind: authored }
+  - form: "pochodziłbym"
+    pl: "Pochodziłbym z tej samej wsi."
+    ru: "Я был бы родом из той же деревни."
+    source: { kind: authored }
+  - form: "pochodziłbym"
+    pl: "Nie pochodziłbym stąd."
+    ru: "Я не был бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłbym"
+    pl: "Pochodziłbym z rodziny lekarzy."
+    ru: "Я был бы из семьи врачей."
+    source: { kind: authored }
+  - form: "pochodziłbyś"
+    pl: "Pochodziłbyś z tej samej wsi?"
+    ru: "Ты был бы родом из той же деревни?"
+    source: { kind: authored }
+  - form: "pochodziłbyś"
+    pl: "Nie pochodziłbyś stąd."
+    ru: "Ты не был бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłbyś"
+    pl: "Pochodziłbyś z dobrej rodziny."
+    ru: "Ты был бы из хорошей семьи."
+    source: { kind: authored }
+  - form: "pochodziłem"
+    pl: "Pochodziłem z małego miasta."
+    ru: "Я был родом из маленького города."
+    source: { kind: authored }
+  - form: "pochodziłem"
+    pl: "Nie pochodziłem z bogatej rodziny."
+    ru: "Я был не из богатой семьи."
+    source: { kind: authored }
+  - form: "pochodziłem"
+    pl: "Pochodziłem stamtąd, co on."
+    ru: "Я был родом оттуда же, что и он."
+    source: { kind: authored }
+  - form: "pochodziłeś"
+    pl: "Pochodziłeś z małego miasta?"
+    ru: "Ты был родом из маленького города?"
+    source: { kind: authored }
+  - form: "pochodziłeś"
+    pl: "Nie pochodziłeś stąd."
+    ru: "Ты не был отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłeś"
+    pl: "Skąd pochodziłeś?"
+    ru: "Откуда ты был родом?"
+    source: { kind: authored }
+  - form: "pochodziło"
+    pl: "Jego zmartwienie pochodziło stąd, że otrzymał bardzo przykre wiadomości."
+    ru: "Его огорчение шло оттого, что он получил очень неприятные известия."
+    source: { kind: translated, id: 11569728 }
+  - form: "pochodziło"
+    pl: "To słowo pochodziło z gwary."
+    ru: "Это слово шло из говора."
+    source: { kind: authored }
+  - form: "pochodziło"
+    pl: "Wszystko pochodziło z jednego źródła."
+    ru: "Всё шло из одного источника."
+    source: { kind: authored }
+  - form: "pochodziłoby"
+    pl: "To słowo pochodziłoby z gwary."
+    ru: "Это слово шло бы из говора."
+    source: { kind: authored }
+  - form: "pochodziłoby"
+    pl: "Nic nie pochodziłoby z tego źródła."
+    ru: "Ничто не шло бы из этого источника."
+    source: { kind: authored }
+  - form: "pochodziłoby"
+    pl: "Wszystko pochodziłoby z jednego miejsca."
+    ru: "Всё шло бы из одного места."
+    source: { kind: authored }
+  - form: "pochodziły"
+    pl: "Te zwyczaje pochodziły ze wsi."
+    ru: "Эти обычаи шли из деревни."
+    source: { kind: authored }
+  - form: "pochodziły"
+    pl: "Meble pochodziły z tamtych lat."
+    ru: "Мебель была тех лет."
+    source: { kind: authored }
+  - form: "pochodziły"
+    pl: "Słowa te pochodziły z łaciny."
+    ru: "Эти слова шли из латыни."
+    source: { kind: authored }
+  - form: "pochodziłyby"
+    pl: "Te zwyczaje pochodziłyby ze wsi."
+    ru: "Эти обычаи шли бы из деревни."
+    source: { kind: authored }
+  - form: "pochodziłyby"
+    pl: "Słowa te pochodziłyby z łaciny."
+    ru: "Эти слова шли бы из латыни."
+    source: { kind: authored }
+  - form: "pochodziłyby"
+    pl: "Nie pochodziłyby z jednego źródła."
+    ru: "Они не шли бы из одного источника."
+    source: { kind: authored }
+  - form: "pochodziłybyście"
+    pl: "Pochodziłybyście z jednej wsi?"
+    ru: "Вы были бы родом из одной деревни?"
+    source: { kind: authored }
+  - form: "pochodziłybyście"
+    pl: "Nie pochodziłybyście stąd."
+    ru: "Вы не были бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłybyście"
+    pl: "Pochodziłybyście z dobrych rodzin."
+    ru: "Вы были бы из хороших семей."
+    source: { kind: authored }
+  - form: "pochodziłybyśmy"
+    pl: "Pochodziłybyśmy z jednej wsi."
+    ru: "Мы были бы родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodziłybyśmy"
+    pl: "Nie pochodziłybyśmy stąd."
+    ru: "Мы не были бы отсюда родом."
+    source: { kind: authored }
+  - form: "pochodziłybyśmy"
+    pl: "Pochodziłybyśmy z dobrych rodzin."
+    ru: "Мы были бы из хороших семей."
+    source: { kind: authored }
+  - form: "pochodziłyście"
+    pl: "Pochodziłyście z jednej wsi?"
+    ru: "Вы были родом из одной деревни?"
+    source: { kind: authored }
+  - form: "pochodziłyście"
+    pl: "Pochodziłyście z dobrych rodzin."
+    ru: "Вы были из хороших семей."
+    source: { kind: authored }
+  - form: "pochodziłyście"
+    pl: "Skąd pochodziłyście?"
+    ru: "Откуда вы были родом?"
+    source: { kind: authored }
+  - form: "pochodziłyśmy"
+    pl: "Pochodziłyśmy z jednej wsi."
+    ru: "Мы были родом из одной деревни."
+    source: { kind: authored }
+  - form: "pochodziłyśmy"
+    pl: "Pochodziłyśmy z dobrych rodzin."
+    ru: "Мы были из хороших семей."
+    source: { kind: authored }
+  - form: "pochodziłyśmy"
+    pl: "Wszystkie pochodziłyśmy stamtąd."
+    ru: "Мы все были оттуда родом."
+    source: { kind: authored }
+  - form: "pochodzimy"
+    pl: "Pochodzimy z Australii."
+    ru: "Мы родом из Австралии."
+    source: { kind: translated, id: 2734192 }
+  - form: "pochodzimy"
+    pl: "Pochodzimy z tego samego miasta."
+    ru: "Мы родом из одного города."
+    source: { kind: authored }
+  - form: "pochodzimy"
+    pl: "Wszyscy pochodzimy skądś."
+    ru: "Мы все откуда-то родом."
+    source: { kind: authored }
+  - form: "pochodzisz"
+    pl: "Skąd pochodzisz?"
+    ru: "Откуда ты родом?"
+    source: { kind: translated, id: 349084 }
+  - form: "pochodzisz"
+    pl: "Pochodzisz z Kolumbii."
+    ru: "Ты родом из Колумбии."
+    source: { kind: translated, id: 2499535 }
+  - form: "pochodzisz"
+    pl: "Z jakiej rodziny pochodzisz?"
+    ru: "Из какой ты семьи?"
+    source: { kind: authored }

@@ -1,0 +1,202 @@
+# review
+id: panstwo
+format: 2
+depth: deep
+lemma: "państwo"
+rank: 872
+pos: noun
+pron: { cyr: "па́ньство" }
+senses:
+  - id: state
+    ru: "государство"
+    examples:
+      - pl: "W 2014 roku Szkocja może stać się niepodległym państwem."
+        ru: "В 2014 году Шотландия может стать независимым государством."
+        source: { kind: tatoeba, id: 2378442 }
+      - pl: "Wiele państw zniosło karę śmierci."
+        ru: "Многие государства отменили смертную казнь."
+        source: { kind: translated, id: 982851 }
+      - pl: "W tym państwie doszło do inwazji \"pokojowej\"."
+        ru: "В этом государстве произошло «мирное» вторжение."
+        source: { kind: translated, id: 12674276 }
+  - id: states
+    ru: "państwa — государства, страны"
+    examples:
+      - pl: "Wiele problemów ekologicznych nabrało dzisiaj międzynarodowego charakteru i dla ich rozwiązania niezbędne są wspólne wysiłki wielu państw."
+        ru: "Многие экологические проблемы сегодня приобрели международный характер, и для их решения необходимы совместные усилия многих стран."
+        source: { kind: tatoeba, id: 8670299 }
+      - pl: "Delegacje obu państw spotkały się w Genewie."
+        ru: "Делегации обоих государств встретились в Женеве."
+        source: { kind: translated, id: 2218979 }
+      - pl: "Norwegia i Szwecja są państwami sąsiadującymi."
+        ru: "Норвегия и Швеция — соседние государства."
+        source: { kind: translated, id: 7868988 }
+  - id: polite-you
+    ru: "państwo — вежливое «вы» к смешанной группе (господа)"
+    note: "Самое частое значение в живой речи. Глагол при нём стоит в 3-м лице множественного числа."
+    examples:
+      - pl: "Państwo je chronią."
+        ru: "Вы их защищаете."
+        source: { kind: tatoeba, id: 13786025 }
+      - pl: "Niech państwo powiedzą."
+        ru: "Скажите."
+        source: { kind: tatoeba, id: 13784993 }
+      - pl: "Już bitą godzinę to państwu tłumaczę."
+        ru: "Я вам это уже битый час объясняю."
+        source: { kind: tatoeba, id: 12624964 }
+  - id: your
+    ru: "państwa — «ваш, ваши» (вежливое)"
+    examples:
+      - pl: "Zaraz wrócę z państwa napojami."
+        ru: "Сейчас вернусь с вашими напитками."
+        source: { kind: tatoeba, id: 3038435 }
+      - pl: "To może się źle dla państwa skończyć."
+        ru: "Это может плохо для вас закончиться."
+        source: { kind: tatoeba, id: 12624981 }
+      - pl: "Nienawidzę państwa!"
+        ru: "Я ненавижу вас!"
+        source: { kind: tatoeba, id: 13785914 }
+  - id: couple
+    ru: "państwo Kowalscy, państwo młodzi — супруги, молодожёны"
+    examples:
+      - pl: "Państwo Kowalscy mieszkają obok."
+        ru: "Супруги Ковальские живут рядом."
+        source: { kind: authored }
+      - pl: "Państwo młodzi wchodzą na salę."
+        ru: "Молодожёны входят в зал."
+        source: { kind: authored }
+      - pl: "Zaprosiliśmy państwa Nowaków."
+        ru: "Мы пригласили супругов Новаков."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Главная ловушка для русского: вежливое państwo требует глагола в 3-м лице МНОЖЕСТВЕННОГО числа, а не во 2-м. Państwo je chronią значит «Вы их защищаете», буквально «господа их защищают». Русское «вы» так не работает, и ошибка здесь очень заметна." }
+  - { kind: usage, text: "Система вежливости тройная: pan — к мужчине, pani — к женщине, państwo — к смешанной группе или к супружеской паре. К нескольким мужчинам — panowie, к нескольким женщинам — panie." }
+  - { kind: usage, text: "Родительный państwa значит «ваш, ваши»: z państwa napojami «с вашими напитками». Дательный państwu — «вам»: mówiłem państwu «я вам говорил»." }
+  - { kind: usage, text: "На письме вежливое Państwo принято писать с прописной буквы: Szanowni Państwo «Уважаемые господа», Przecież mówiłem Państwu «Я же вам говорил»." }
+  - { kind: usage, text: "То же слово значит «государство», и различает их только контекст: w tym państwie «в этом государстве», но mówiłem państwu «я вам говорил»." }
+  - { kind: usage, text: "Устойчивое państwo młodzi — «молодожёны», а państwo Kowalscy — «супруги Ковальские». Фамилия при этом стоит во множественном числе." }
+collocations:
+  - { pl: "Szanowni Państwo", ru: "Уважаемые господа" }
+  - { pl: "państwo młodzi", ru: "молодожёны" }
+  - { pl: "niepodległe państwo", ru: "независимое государство" }
+  - { pl: "państwa zdaniem", ru: "по вашему мнению" }
+family:
+  - { pl: "pan", ru: "господин", relation: root, id: pan }
+  - { pl: "pani", ru: "госпожа", relation: root, id: pani }
+  - { pl: "państwowy", ru: "государственный", relation: derived }
+etymology: "Из pan «господин» и суффикса -stwo: изначально «владение пана». Русское «государство» собрано ровно так же — от «государь», — так что логика словообразования полностью совпадает."
+memory: "państwo — это и «государство», и вежливое «вы» к смешанной группе. Второе важнее: система pan — pani — państwo работает всюду, а глагол при państwo стоит в 3-м лице множественного числа: Państwo je chronią «Вы их защищаете». Русское «вы» так не строится, и это главная ошибка. Родительный państwa значит «ваш», дательный państwu — «вам»."
+idioms:
+  - { pl: "Szanowni Państwo", ru: "Уважаемые господа" }
+  - { pl: "państwo młodzi", ru: "молодожёны" }
+  - { pl: "państwo w państwie", ru: "государство в государстве" }
+  - { pl: "państwo policyjne", ru: "полицейское государство" }
+formExamples:
+  - form: "państw"
+    pl: "Wiele problemów ekologicznych nabrało dzisiaj międzynarodowego charakteru i dla ich rozwiązania niezbędne są wspólne wysiłki wielu państw."
+    ru: "Многие экологические проблемы сегодня приобрели международный характер, и для их решения необходимы совместные усилия многих стран."
+    source: { kind: tatoeba, id: 8670299 }
+  - form: "państw"
+    pl: "Wiele państw zniosło karę śmierci."
+    ru: "Многие государства отменили смертную казнь."
+    source: { kind: translated, id: 982851 }
+  - form: "państw"
+    pl: "Delegacje obu państw spotkały się w Genewie."
+    ru: "Делегации обоих государств встретились в Женеве."
+    source: { kind: translated, id: 2218979 }
+  - form: "państwa"
+    pl: "Nienawidzę państwa!"
+    ru: "Я ненавижу вас!"
+    source: { kind: tatoeba, id: 13785914 }
+  - form: "państwa"
+    pl: "Zaraz wrócę z państwa napojami."
+    ru: "Сейчас вернусь с вашими напитками."
+    source: { kind: tatoeba, id: 3038435 }
+  - form: "państwa"
+    pl: "To może się źle dla państwa skończyć."
+    ru: "Это может плохо для вас закончиться."
+    source: { kind: tatoeba, id: 12624981 }
+  - form: "państwach"
+    pl: "W demokratycznych państwach często organizuje się referenda."
+    ru: "В демократических государствах часто проводят референдумы."
+    source: { kind: translated, id: 2378453 }
+  - form: "państwach"
+    pl: "W obu państwach obowiązuje ta sama waluta."
+    ru: "В обоих государствах одна и та же валюта."
+    source: { kind: authored }
+  - form: "państwach"
+    pl: "O tych państwach mało kto słyszał."
+    ru: "Об этих государствах мало кто слышал."
+    source: { kind: authored }
+  - form: "państwami"
+    pl: "Kraj graniczy z dwoma państwami."
+    ru: "Страна граничит с двумя государствами."
+    source: { kind: translated, id: 1836167 }
+  - form: "państwami"
+    pl: "Traktat to jakby kontrakt między państwami."
+    ru: "Договор — это что-то вроде контракта между государствами."
+    source: { kind: translated, id: 355974 }
+  - form: "państwami"
+    pl: "Norwegia i Szwecja są państwami sąsiadującymi."
+    ru: "Норвегия и Швеция — соседние государства."
+    source: { kind: translated, id: 7868988 }
+  - form: "państwem"
+    pl: "W 2014 roku Szkocja może stać się niepodległym państwem."
+    ru: "В 2014 году Шотландия может стать независимым государством."
+    source: { kind: tatoeba, id: 2378442 }
+  - form: "państwem"
+    pl: "Jestem państwem!"
+    ru: "Государство — это я!"
+    source: { kind: translated, id: 4674964 }
+  - form: "państwem"
+    pl: "Kto jest z państwem?"
+    ru: "Кто с вами?"
+    source: { kind: translated, id: 8727159 }
+  - form: "państwie"
+    pl: "W tym państwie doszło do inwazji \"pokojowej\"."
+    ru: "В этом государстве произошло «мирное» вторжение."
+    source: { kind: translated, id: 12674276 }
+  - form: "państwie"
+    pl: "Armia to państwo w państwie, to jedno z przekleństw naszych czasów."
+    ru: "Армия — государство в государстве, это одно из проклятий нашего времени."
+    source: { kind: translated, id: 409982 }
+  - form: "państwie"
+    pl: "Żyję w państwie, w którym cena litra wody przekracza cenę litra benzyny."
+    ru: "Я живу в государстве, где литр воды дороже литра бензина."
+    source: { kind: translated, id: 3188066 }
+  - form: "państwo"
+    pl: "Państwo je chronią."
+    ru: "Вы их защищаете."
+    source: { kind: tatoeba, id: 13786025 }
+  - form: "państwo"
+    pl: "Państwo ich chronią."
+    ru: "Вы их защищаете."
+    source: { kind: tatoeba, id: 13786024 }
+  - form: "państwo"
+    pl: "Niech państwo powiedzą."
+    ru: "Скажите."
+    source: { kind: tatoeba, id: 13784993 }
+  - form: "państwom"
+    pl: "Pomoc przyznano najbiedniejszym państwom."
+    ru: "Помощь предоставили беднейшим государствам."
+    source: { kind: authored }
+  - form: "państwom"
+    pl: "Dziękujemy państwom za przybycie."
+    ru: "Благодарим вас за то, что пришли."
+    source: { kind: authored }
+  - form: "państwom"
+    pl: "Przyjrzał się sąsiednim państwom."
+    ru: "Он присмотрелся к соседним государствам."
+    source: { kind: authored }
+  - form: "państwu"
+    pl: "Już bitą godzinę to państwu tłumaczę."
+    ru: "Я вам это уже битый час объясняю."
+    source: { kind: tatoeba, id: 12624964 }
+  - form: "państwu"
+    pl: "Tego państwu nie powiem, bo nie wiem."
+    ru: "Этого я вам не скажу, потому что не знаю."
+    source: { kind: tatoeba, id: 12624960 }
+  - form: "państwu"
+    pl: "Przecież mówiłem Państwu, żeby Państwo nie przychodzili!"
+    ru: "Я же сказал вам не приходить!"
+    source: { kind: tatoeba, id: 13547170 }
