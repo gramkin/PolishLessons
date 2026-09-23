@@ -1,0 +1,102 @@
+# review
+id: rano
+format: 2
+lemma: "rano"
+rank: 1167
+pos: noun
+pron: { cyr: "ра́но" }
+senses:
+  - id: morning
+    ru: "утром"
+    examples:
+      - pl: "Rano mam egzamin."
+        ru: "У меня утром экзамен."
+        source: { kind: tatoeba, id: 11234711 }
+      - pl: "On zaspał dziś rano."
+        ru: "Сегодня утром он проспал."
+        source: { kind: tatoeba, id: 568466 }
+      - pl: "Tom wstaje wcześnie rano."
+        ru: "Том встаёт рано утром."
+        source: { kind: tatoeba, id: 6030198 }
+  - id: from-morning
+    ru: "od rana — с утра"
+    examples:
+      - pl: "Mam zatkany nos od rana."
+        ru: "У меня с утра нос заложен."
+        source: { kind: tatoeba, id: 2177656 }
+      - pl: "Od rana mam lekką gorączkę."
+        ru: "У меня с утра небольшая температура."
+        source: { kind: tatoeba, id: 510069 }
+  - id: towards-morning
+    ru: "nad ranem — под утро"
+    examples:
+      - pl: "Była trzecia nad ranem."
+        ru: "Было три часа ночи."
+        source: { kind: translated, id: 5934319 }
+      - pl: "W Japonii, jest teraz trzecia nad ranem."
+        ru: "В Японии сейчас три часа ночи."
+        source: { kind: translated, id: 3032403 }
+notes:
+  - { kind: false-friend, text: "Осторожно: часть форм совпадает с отдельным словом rana «рана». Rana się zagoiła значит «Рана зажила», а Od rana pada — «С утра идёт дождь». Различает только смысл." }
+  - { kind: usage, text: "rano работает и как наречие «утром» (Jutro rano wyjeżdżamy), и как существительное среднего рода «утро»." }
+  - { kind: government, text: "od rana «с утра» — предлог od с родительным; nad ranem «под утро» — предлог nad с творительным; z rana «поутру» — книжный вариант od rana." }
+  - { kind: usage, text: "dziś rano «сегодня утром», jutro rano «завтра утром», wcześnie rano «рано утром» — самые частые сочетания." }
+collocations:
+  - { pl: "dziś rano", ru: "сегодня утром" }
+  - { pl: "jutro rano", ru: "завтра утром" }
+  - { pl: "od rana", ru: "с утра" }
+  - { pl: "nad ranem", ru: "под утро" }
+family:
+  - { pl: "ranek", ru: "утро", relation: derived }
+  - { pl: "ranny", ru: "утренний", relation: derived }
+  - { pl: "wcześnie", ru: "рано", relation: root }
+etymology: "Праславянское *rano — то же слово, что русское «рано» и «утро» в «спозаранку». В польском оно взяло на себя и наречие «утром», и существительное «утро»."
+memory: "rano — и наречие «утром», и существительное «утро»: dziś rano «сегодня утром». Обороты od rana «с утра» и nad ranem «под утро». Осторожно с rana: это ещё и форма слова rana «рана»."
+idioms:
+  - { pl: "od rana", ru: "с утра" }
+  - { pl: "nad ranem", ru: "под утро" }
+  - { pl: "dziś rano", ru: "сегодня утром" }
+formExamplesSkip:
+  - { form: "ran", reason: "по написанию совпадает с формой отдельного слова rana «рана», и все примеры корпуса относятся к нему: Tom zmarł z powodu ran «Том умер от ран»" }
+  - { form: "ranach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "ranami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "ranie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
+  - { form: "ranom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "ranu", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "rana"
+    pl: "Mam zatkany nos od rana."
+    ru: "У меня с утра нос заложен."
+    source: { kind: tatoeba, id: 2177656 }
+  - form: "rana"
+    pl: "Od rana mam lekką gorączkę."
+    ru: "У меня с утра небольшая температура."
+    source: { kind: tatoeba, id: 510069 }
+  - form: "rana"
+    pl: "Z rana ptaszki zaśpiewały."
+    ru: "Поутру пташечки запели."
+    source: { kind: tatoeba, id: 3460663 }
+  - form: "ranem"
+    pl: "Była trzecia nad ranem."
+    ru: "Было три часа ночи."
+    source: { kind: translated, id: 5934319 }
+  - form: "ranem"
+    pl: "W Japonii, jest teraz trzecia nad ranem."
+    ru: "В Японии сейчас три часа ночи."
+    source: { kind: translated, id: 3032403 }
+  - form: "ranem"
+    pl: "Jej zegarek pokazywał trzecią nad ranem."
+    ru: "Её часы показывали три часа ночи."
+    source: { kind: translated, id: 531852 }
+  - form: "rano"
+    pl: "Rano mam egzamin."
+    ru: "У меня утром экзамен."
+    source: { kind: tatoeba, id: 11234711 }
+  - form: "rano"
+    pl: "On zaspał dziś rano."
+    ru: "Сегодня утром он проспал."
+    source: { kind: tatoeba, id: 568466 }
+  - form: "rano"
+    pl: "Tom wstaje wcześnie rano."
+    ru: "Том встаёт рано утром."
+    source: { kind: tatoeba, id: 6030198 }
