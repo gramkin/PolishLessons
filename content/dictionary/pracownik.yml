@@ -1,0 +1,146 @@
+# review
+id: pracownik
+format: 2
+lemma: "pracownik"
+rank: 1152
+pos: noun
+pron: { cyr: "працо́вник" }
+senses:
+  - id: worker
+    ru: "работник, сотрудник"
+    examples:
+      - pl: "To nasz najlepszy pracownik."
+        ru: "Это наш лучший сотрудник."
+        source: { kind: tatoeba, id: 13694063 }
+      - pl: "To rzetelny pracownik."
+        ru: "Это добросовестный работник."
+        source: { kind: translated, id: 959132 }
+      - pl: "Firma uważa go za bardzo użytecznego pracownika."
+        ru: "Фирма считает его очень полезным работником."
+        source: { kind: translated, id: 951310 }
+  - id: be-worker
+    ru: "быть работником, работать кем-то"
+    examples:
+      - pl: "Jestem pracownikiem socjalnym."
+        ru: "Я социальный работник."
+        source: { kind: tatoeba, id: 2563942 }
+      - pl: "Jestem pracownikiem."
+        ru: "Я работник."
+        source: { kind: translated, id: 12031350 }
+  - id: staff
+    ru: "работники, персонал"
+    examples:
+      - pl: "Ilu pracowników zwolniłeś?"
+        ru: "Скольких работников ты уволил?"
+        source: { kind: translated, id: 10077491 }
+      - pl: "Zatrudnił kilku nowych pracowników."
+        ru: "Он нанял несколько новых работников."
+        source: { kind: translated, id: 2302828 }
+notes:
+  - { kind: usage, text: "Мужской одушевлённый: винительный совпадает с родительным — widzę pracownika. Множественное о людях — pracownicy." }
+  - { kind: usage, text: "Собрано прозрачно: praca «работа» плюс суффикс -ownik, ровно как русский «работник» от «работы»." }
+  - { kind: usage, text: "Частые сочетания: pracownik biurowy «офисный работник», pracownik socjalny «социальный работник», pracownik naukowy «научный сотрудник»." }
+  - { kind: false-friend, text: "Работодатель — это не pracownik, а pracodawca, буквально «дающий работу». Пара pracownik / pracodawca прозрачнее русской." }
+collocations:
+  - { pl: "pracownik biurowy", ru: "офисный работник" }
+  - { pl: "pracownik socjalny", ru: "социальный работник" }
+  - { pl: "zatrudnić pracownika", ru: "нанять работника" }
+  - { pl: "pracownicy firmy", ru: "работники фирмы" }
+family:
+  - { pl: "praca", ru: "работа", relation: root, id: praca }
+  - { pl: "pracować", ru: "работать", relation: root, id: pracowac }
+  - { pl: "pracodawca", ru: "работодатель", relation: derived }
+etymology: "От praca «работа» плюс суффикс -ownik. Русский «работник» собран из тех же частей и тем же способом."
+memory: "pracownik — «работник, сотрудник», мужской одушевлённый, множественное pracownicy. А работодатель — pracodawca, буквально «дающий работу»: пара выходит прозрачнее русской."
+idioms:
+  - { pl: "pracownik biurowy", ru: "офисный работник" }
+  - { pl: "pracownicy firmy", ru: "работники фирмы" }
+formExamplesSkip:
+  - { form: "pracownikach", reason: "в корпусе нет примеров: предложный падеж множественного числа у этого слова редок" }
+  - { form: "pracownikowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
+  - { form: "pracowniku", reason: "в корпусе нет примеров; форма живёт прежде всего в обращении" }
+formExamples:
+  - form: "pracownicy"
+    pl: "Pracownicy firmy zdecydowali się strajkować."
+    ru: "Работники фирмы решили бастовать."
+    source: { kind: translated, id: 594800 }
+  - form: "pracownicy"
+    pl: "Pracownicy mogą zastrajkować, żeby wymusić wyższe pensje albo żeby poprawić warunki pracy."
+    ru: "Работники могут устроить забастовку, чтобы выбить себе более высокие зарплаты или улучшить условия труда."
+    source: { kind: tatoeba, id: 968959 }
+  - form: "pracownicy"
+    pl: "Pracownicy tego zakładu przeprowadzili strajk."
+    ru: "Работники этого завода провели забастовку."
+    source: { kind: translated, id: 357067 }
+  - form: "pracownik"
+    pl: "To nasz najlepszy pracownik."
+    ru: "Это наш лучший сотрудник."
+    source: { kind: tatoeba, id: 13694063 }
+  - form: "pracownik"
+    pl: "To rzetelny pracownik."
+    ru: "Это добросовестный работник."
+    source: { kind: translated, id: 959132 }
+  - form: "pracownik"
+    pl: "Dobry pracownik jest dumny."
+    ru: "Хороший работник горд своим делом."
+    source: { kind: translated, id: 12031577 }
+  - form: "pracownika"
+    pl: "Wyszła za pracownika banku."
+    ru: "Она вышла замуж за работника банка."
+    source: { kind: translated, id: 368914 }
+  - form: "pracownika"
+    pl: "Firma uważa go za bardzo użytecznego pracownika."
+    ru: "Фирма считает его очень полезным работником."
+    source: { kind: translated, id: 951310 }
+  - form: "pracownika"
+    pl: "Potrzebuję każdego pracownika na służbie."
+    ru: "Мне нужен каждый работник на посту."
+    source: { kind: translated, id: 5271431 }
+  - form: "pracownikami"
+    pl: "Często mówi się, że Japończycy są dobrymi pracownikami."
+    ru: "Часто упоминается, что японцы - хорошие работники."
+    source: { kind: tatoeba, id: 348714 }
+  - form: "pracownikami"
+    pl: "Jesteśmy pracownikami społecznymi."
+    ru: "Мы социальные работники."
+    source: { kind: translated, id: 10604122 }
+  - form: "pracownikami"
+    pl: "Dobrze się dogaduje ze swymi pracownikami."
+    ru: "Он хорошо ладит со своими работниками."
+    source: { kind: translated, id: 357086 }
+  - form: "pracownikiem"
+    pl: "Jestem pracownikiem socjalnym."
+    ru: "Я социальный работник."
+    source: { kind: tatoeba, id: 2563942 }
+  - form: "pracownikiem"
+    pl: "Jestem pracownikiem."
+    ru: "Я работник."
+    source: { kind: translated, id: 12031350 }
+  - form: "pracownikiem"
+    pl: "Tom był świetnym pracownikiem."
+    ru: "Том был отличным работником."
+    source: { kind: translated, id: 5014750 }
+  - form: "pracownikom"
+    pl: "Ta firma zapewnia pracownikom mundurki."
+    ru: "Эта фирма обеспечивает работников формой."
+    source: { kind: translated, id: 722289 }
+  - form: "pracownikom"
+    pl: "Japońskie przedsiębiorstwa zwykle dają pracownikom uniformy."
+    ru: "Японские предприятия обычно выдают работникам униформу."
+    source: { kind: translated, id: 737254 }
+  - form: "pracownikom"
+    pl: "Gonzales podarował rower wszystkim swoim pracownikom w Europie."
+    ru: "Гонсалес подарил велосипед всем своим работникам в Европе."
+    source: { kind: translated, id: 360983 }
+  - form: "pracowników"
+    pl: "Ilu pracowników zwolniłeś?"
+    ru: "Скольких работников ты уволил?"
+    source: { kind: translated, id: 10077491 }
+  - form: "pracowników"
+    pl: "Ta firma szpiegowała własnych pracowników."
+    ru: "Эта компания шпионила за своими работниками."
+    source: { kind: tatoeba, id: 2974032 }
+  - form: "pracowników"
+    pl: "Zatrudnił kilku nowych pracowników."
+    ru: "Он нанял несколько новых работников."
+    source: { kind: translated, id: 2302828 }

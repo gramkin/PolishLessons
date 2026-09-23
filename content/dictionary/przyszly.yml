@@ -1,0 +1,124 @@
+# review
+id: przyszly
+format: 2
+lemma: "przyszły"
+rank: 1154
+pos: adj
+pron: { cyr: "пшы́шуы" }
+senses:
+  - id: next
+    ru: "следующий, будущий (о времени)"
+    examples:
+      - pl: "W przyszłym roku muszę zdać egzamin wstępny."
+        ru: "В следующем году я должен сдавать вступительные экзамены."
+        source: { kind: tatoeba, id: 351925 }
+      - pl: "Zobaczymy się w przyszłą środę."
+        ru: "Увидимся в следующую среду."
+        source: { kind: tatoeba, id: 6313342 }
+      - pl: "Do przyszłego tygodnia."
+        ru: "До следующей недели."
+        source: { kind: translated, id: 827810 }
+  - id: future
+    ru: "будущий (о поколениях, планах)"
+    examples:
+      - pl: "Życzymy mu wszelkich sukcesów w przyszłych staraniach."
+        ru: "Желаем ему всяческих успехов в будущих начинаниях."
+        source: { kind: translated, id: 6313778 }
+      - pl: "Mamy prawo żądać bezpiecznej przyszłości dla nas i dla przyszłych pokoleń."
+        ru: "Мы вправе требовать безопасного будущего для нас и для будущих поколений."
+        source: { kind: translated, id: 2148650 }
+  - id: time
+    ru: "w przyszłym roku, tygodniu, miesiącu"
+    examples:
+      - pl: "Planuję jechać do Europy w przyszłym tygodniu."
+        ru: "Я планирую поехать в Европу на следующей неделе."
+        source: { kind: tatoeba, id: 765707 }
+      - pl: "Jego nowa książka ukaże się w przyszłym miesiącu."
+        ru: "Его новая книга выйдет в следующем месяце."
+        source: { kind: tatoeba, id: 880900 }
+notes:
+  - { kind: false-friend, text: "Главная ловушка: формы przyszedł, przyszła, przyszli, przyszły одновременно принадлежат глаголу przyjść «прийти». Przyszła wiosna значит «Пришла весна», а не «будущая весна». Различает только контекст и место в предложении." }
+  - { kind: usage, text: "Самое частое употребление — с названиями отрезков времени: w przyszłym roku «в следующем году», w przyszłym tygodniu «на следующей неделе», w przyszłą niedzielę «в следующее воскресенье»." }
+  - { kind: usage, text: "czas przyszły — грамматический термин «будущее время»." }
+  - { kind: usage, text: "Родственное существительное przyszłość значит «будущее» и имеет свою карточку." }
+collocations:
+  - { pl: "w przyszłym roku", ru: "в следующем году" }
+  - { pl: "w przyszłym tygodniu", ru: "на следующей неделе" }
+  - { pl: "przyszłe pokolenia", ru: "будущие поколения" }
+  - { pl: "czas przyszły", ru: "будущее время" }
+family:
+  - { pl: "przyszłość", ru: "будущее", relation: root, id: przyszlosc }
+  - { pl: "przyjść", ru: "прийти", relation: root, id: przyjsc }
+etymology: "Причастие от przyjść «прийти», застывшее в значении «тот, который придёт» — то есть «будущий». Русское «будущий» собрано так же, от «быть»."
+memory: "przyszły — «будущий, следующий», и живёт прежде всего при отрезках времени: w przyszłym roku, w przyszłym tygodniu. Осторожно: przyszła, przyszli, przyszły — это ещё и прошедшее время глагола przyjść, так что Przyszła wiosna значит «Пришла весна»."
+idioms:
+  - { pl: "w przyszłym roku", ru: "в следующем году" }
+  - { pl: "czas przyszły", ru: "будущее время" }
+formExamplesSkip:
+  - { form: "przyszli", reason: "по написанию совпадает с формой прошедшего времени глагола przyjść «прийти», и все примеры корпуса относятся к нему: карточка przyjsc уже владеет этой формой (Przyszli., Przyszła wiosna., Dziś przyszły nowe meble.)" }
+  - { form: "przyszła", reason: "по написанию совпадает с формой прошедшего времени глагола przyjść «прийти», и все примеры корпуса относятся к нему: карточка przyjsc уже владеет этой формой (Przyszli., Przyszła wiosna., Dziś przyszły nowe meble.)" }
+  - { form: "przyszłe", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przyszłemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przyszły", reason: "по написанию совпадает с формой прошедшего времени глагола przyjść «прийти», и все примеры корпуса относятся к нему: карточка przyjsc уже владеет этой формой (Przyszli., Przyszła wiosna., Dziś przyszły nowe meble.)" }
+  - { form: "przyszłymi", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "przyszłą"
+    pl: "Zobaczymy się w przyszłą środę."
+    ru: "Увидимся в следующую среду."
+    source: { kind: tatoeba, id: 6313342 }
+  - form: "przyszłą"
+    pl: "W przyszłą niedzielę nie będzie mnie w domu."
+    ru: "В следующее воскресенье меня не будет дома."
+    source: { kind: tatoeba, id: 692016 }
+  - form: "przyszłą"
+    pl: "Będzie koncert w przyszłą niedzielę."
+    ru: "В следующее воскресенье будет концерт."
+    source: { kind: translated, id: 355199 }
+  - form: "przyszłego"
+    pl: "Do przyszłego tygodnia."
+    ru: "До следующей недели."
+    source: { kind: translated, id: 827810 }
+  - form: "przyszłego"
+    pl: "Mecz odłożono do przyszłego tygodnia."
+    ru: "Матч отложили до следующей недели."
+    source: { kind: translated, id: 365242 }
+  - form: "przyszłego"
+    pl: "Od przyszłego roku uczę się francuskiego."
+    ru: "Со следующего года я учу французский."
+    source: { kind: translated, id: 412942 }
+  - form: "przyszłej"
+    pl: "Muszę oddać moje sprawozdanie do przyszłej środy."
+    ru: "Я должен сдать свой отчёт до следующей среды."
+    source: { kind: translated, id: 733064 }
+  - form: "przyszłej"
+    pl: "Czekamy na wyniki przyszłej kontroli."
+    ru: "Мы ждём результатов будущей проверки."
+    source: { kind: authored }
+  - form: "przyszłej"
+    pl: "To sprawa przyszłej kadencji."
+    ru: "Это дело будущего созыва."
+    source: { kind: authored }
+  - form: "przyszłych"
+    pl: "Życzymy mu wszelkich sukcesów w przyszłych staraniach."
+    ru: "Желаем ему всяческих успехов в будущих начинаниях."
+    source: { kind: translated, id: 6313778 }
+  - form: "przyszłych"
+    pl: "Mamy prawo żądać bezpiecznej przyszłości dla nas i dla przyszłych pokoleń."
+    ru: "Мы вправе требовать безопасного будущего для нас и для будущих поколений."
+    source: { kind: translated, id: 2148650 }
+  - form: "przyszłych"
+    pl: "Myślimy o przyszłych pokoleniach."
+    ru: "Мы думаем о будущих поколениях."
+    source: { kind: authored }
+  - form: "przyszłym"
+    pl: "W przyszłym roku muszę zdać egzamin wstępny."
+    ru: "В следующем году я должен сдавать вступительные экзамены."
+    source: { kind: tatoeba, id: 351925 }
+  - form: "przyszłym"
+    pl: "Planuję jechać do Europy w przyszłym tygodniu."
+    ru: "Я планирую поехать в Европу на следующей неделе."
+    source: { kind: tatoeba, id: 765707 }
+  - form: "przyszłym"
+    pl: "Jego nowa książka ukaże się w przyszłym miesiącu."
+    ru: "Его новая книга выйдет в следующем месяце."
+    source: { kind: tatoeba, id: 880900 }
