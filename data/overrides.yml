@@ -153,6 +153,15 @@ exclude:
   # built a verb paradigm (doległ, dolegli, dolegą) on top of what Wiktionary glosses as a
   # noun meaning "dolar". Same zero-corpus defect as wyprawiac and sara.
   - dolec
+  # not a lemma: Wiktionary glosses juz as a 19th-century telegraph apparatus, 9 of its 10
+  # forms have no corpus, and all four candidates are simply the adverb "już" written
+  # without its diacritic ("Juz wyszedłem.", "Idę juz spać."). The juz card already owns
+  # those lines. Same defect as byla, drogi and um.
+  - juz-2
+  # an English given name used as a Tatoeba placeholder: capitalised, 9 of its 10 forms
+  # empty, and the single candidate is the person ("Dan usłyszał jak Matt i Linda się
+  # sprzeczali."). Same class as john, eric and bill.
+  - matt
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
