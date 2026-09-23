@@ -707,6 +707,10 @@ exclude:
   # merges three lemmas: spory "sizeable" (spora szansa), sporo "a lot" (sporo
   # razy) and spor "dispute" (gorace spory, po dlugim sporze).
   - spora
+  # rad: nine of ten candidates are forms of rada "advice/council", already
+  # carded (Dalem mu kilka rad, Potrzebuje rady, Byłam w radzie miasta). Only
+  # "Kto odkryl rad?" is the unrelated noun rad "radium".
+  - rad
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -874,6 +878,7 @@ excludeNotes:
   gotow: { why: variant-of, see: gotowy }
   pali: { why: form-of, see: palic }
   spora: { why: form-of, see: spory }
+  rad: { why: form-of, see: rada }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
