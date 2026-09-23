@@ -394,6 +394,15 @@ exclude:
   # кандидатов — иностранные фрагменты имён собственных (Tour de France,
   # Rio de Janeiro, Valse de la lune). Тот же класс, что in, e, la и van
   - de
+  # имя собственное: лемма Kevin с большой буквы, словарных значений нет
+  # вовсе, 9 из 10 форм пусты, единственный кандидат — Kevin zaniechal
+  # wyjazdu do Kanady. Тот же класс, что john, eric, brian, matt
+  - kevin
+  # словарь даёт только название буквы H, которого в корпусе нет ни разу.
+  # Оба кандидата — не слово: фрагмент детской считалки (Huhu-ha, huhu-ha,
+  # nasza zima zla) и смех по-английски (Ha ha). Класс oh, uh и rany —
+  # в отличие от ej, у которого 19 настоящих примеров оклика
+  - ha
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
