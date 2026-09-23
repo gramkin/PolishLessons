@@ -230,6 +230,21 @@ exclude:
   # пусты, а единственная заполненная (podoba) содержит только глагол
   # (Podoba mi się twój samochód, Nic mi się nie podoba, Podoba ci się ktoś?)
   - podoba
+  # ни одного кандидата в корпусе: все 63 формы пусты до единой, примеров нет
+  # вообще. Карточка была бы целиком выдуманной, без единого корпусного
+  # предложения. Тот же класс, что fbi и uh
+  - wyprawiac
+  # имя собственное: ни одного значения и ни одного русского перевода в
+  # Wiktionary, лемма с заглавной буквы, девять форм из десяти пусты, и всего
+  # один кандидат на всё слово — личное имя (Ray był gotów potwierdzić wersję
+  # Gary'ego). Тот же класс, что paul, harry, jim, maria, peter, ben, joe
+  - ray
+  # парадигма занята прилагательным wart «стоящий» (карточка wart): формы wart,
+  # warta, wartą, warty уже разобраны там примерами. Почти все кандидаты — это
+  # прилагательное (Gra nie jest warta świeczki, Twoja propozycja jest warta
+  # uwagi) либо предикатив warto «стоит». На существительное warta «караул»
+  # приходится всего два примера: Rotmistrz nie stoi na warcie и Kto ma wartę?
+  - warta
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
