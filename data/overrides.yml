@@ -110,6 +110,12 @@ exclude:
   # Contrast jezus at the adjacent rank, which is carded: that lemma has a real gloss,
   # Russian translations, rich corpus on every attested form and live idioms (Jezus Maria!).
   - chris
+  # not a lemma but the feminine/oblique slice of the adjective "jedyny": the whole form
+  # list (jedyna, jedyną, jedyne, jedynej, jedynych, jedynym, jedynymi) is that adjective's
+  # paradigm, every candidate is the adjective ("To jedyna alternatywa.", "Byłem jedynym
+  # mężczyzną."), and the jedyny card already owns the forms. Same defect as taka, jaka,
+  # twoja, moja and wlasne.
+  - jedyna
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
