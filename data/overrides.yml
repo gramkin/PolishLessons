@@ -566,6 +566,19 @@ exclude:
   # setki, где единственное число не числилось ни в одном реестре, здесь
   # исключение ничего не теряет
   - tysiace
+  # "wola" — ранг держит чужая парадигма. Из тридцати кандидатов формы wola,
+  # wolą, wolę, woli почти сплошь принадлежат глаголу wolec «предпочитать»
+  # (карточка, ранг 511): Wole kawe, Woli cisze, Jedni wola morze, inni gory.
+  # Существительное «воля» остаётся только в именительном, да и там два
+  # примера из восьми — «Отче наш» (badz wola Twoja). Класс mina / minac,
+  # latac / lata
+  - wola
+  # "km" — сокращение, а не лемма: единственная форма, и все девять кандидатов
+  # содержат её внутри единицы измерения (200 km/h, 6,5 km srednicy, 50 km od
+  # stolicy). Wiktionary вдобавок толкует km как karabin maszynowy «пулемёт» —
+  # значение, которого нет ни в одном примере. Метрическая единица metr уже
+  # имеет карточку
+  - km
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
