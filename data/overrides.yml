@@ -207,6 +207,18 @@ exclude:
   # gościu, gościach) и ни одна не помечена пропуском. Тот же класс, что
   # moja, swoje, cie, tato
   - goscia
+  # имя собственное: Wiktionary не даёт ни одного значения и ни одного русского
+  # перевода, лемма с заглавной буквы, семь форм из одиннадцати пусты. Все
+  # кандидаты — личное имя (Paul ma suche włosy, Jestem Paul, twój współlokator,
+  # Ośmiornica Paul miała rację), а форма Paula занята женским именем Paula
+  # (Paula jutro ma zamiar myć samochód), а не родительным падежом от Paul
+  - paul
+  # имя собственное: ни одного значения и ни одного русского перевода в
+  # Wiktionary, лемма с заглавной буквы, семь форм из девяти пусты, всего
+  # четыре кандидата — и все личное имя (Harry jest amerykańskim aktorem,
+  # Nie udało mu się obudzić Harry'ego, książka o Harrym Potterze). Парадигма
+  # вдобавок содержит выдуманные формы с апострофом: Harry'ego, Harry'emu
+  - harry
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
