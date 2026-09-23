@@ -437,14 +437,14 @@ describe('deep cards', () => {
     expect(warnings.some((w) => w.includes('depth bar'))).toBe(false)
   })
 
-  it('warns, without failing, when a deep card is below the bar', () => {
+  it('fails when a deep card is below the bar', () => {
     const { errors, warnings } = validateDictionary(deepBundle({}), { requireLessonCards: true })
-    expect(errors).toEqual([])
-    const warning = warnings.find((w) => w.includes('depth bar'))
-    expect(warning).toContain('1 senses (need 3)')
-    expect(warning).toContain('0 notes (need 4)')
-    expect(warning).toContain('5 example sentences (need 12)')
-    expect(warning).toContain('0 idioms (need 3)')
+    const error = errors.find((e) => e.includes('depth bar'))
+    expect(error).toContain('1 senses (need 3)')
+    expect(error).toContain('0 notes (need 4)')
+    expect(error).toContain('5 example sentences (need 12)')
+    expect(error).toContain('0 idioms (need 3)')
+    expect(warnings.some((w) => w.includes('depth bar'))).toBe(false)
   })
 
   it('accepts a deep card that clears the bar', () => {

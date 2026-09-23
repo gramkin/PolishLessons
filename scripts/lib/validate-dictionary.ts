@@ -39,6 +39,8 @@ const MIN_FORM_EXAMPLES = 3
 const MAX_SENSE_EXAMPLES = 6
 // A deep card earns its keep through explanation, not through sense count:
 // words like on or czas need more notes, not more invented meanings.
+// The backlog of under-written deep cards is cleared, so falling short is now an
+// error rather than a warning: a card marked deep must be worth the label.
 const DEEP_MIN_SENSES = 3
 const DEEP_MIN_NOTES = 4
 const DEEP_MIN_SENTENCES = 12
@@ -156,7 +158,7 @@ export function validateDictionary(
       if (card.idioms.length < DEEP_MIN_IDIOMS)
         short.push(`${card.idioms.length} idioms (need ${DEEP_MIN_IDIOMS})`)
       if (short.length > 0)
-        warnings.push(`${path}: deep card is below the depth bar — ${short.join(', ')}`)
+        errors.push(`${path}: deep card is below the depth bar — ${short.join(', ')}`)
     }
 
     if (formsFile && card.formExamples.length > 0) {
