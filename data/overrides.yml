@@ -497,6 +497,19 @@ exclude:
   # (Czytam "New York Timesa", Oni przybeda do New Delhi, ogloszenie w New
   # York Times). Класс si (испанский текст) и jork
   - new
+  # имя собственное: 9 из 10 форм пусты, единственный кандидат — личное имя
+  # (Sean jest bardzo podobny do Connera)
+  - sean
+  # имя собственное: 9 из 10 форм пусты, единственный кандидат — личное имя
+  # (William jest swietnie zorganizowany)
+  - william
+  # ни одного кандидата в корпусе: все десять форм пусты, как у fbi и cia
+  - donna
+  # имя собственное в английском написании: 8 из 10 форм пусты, все 13
+  # кандидатов — личное имя или фамилия (Thomas Edison wynalazl zarowke,
+  # Pani Thomas uczy nas historii). Польское Tomasz уже описано отдельно.
+  # Класс peter, james, david
+  - thomas
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
@@ -547,3 +560,7 @@ pos:
   # lada moment "вот-вот", plus the phrase nie lada "незаурядный". Three of the
   # four hits on the form lady are the English Lady (Lady Gaga), not Polish
   lada: part
+  # "narzeczony" is tagged as an adjective; it declines like one but works as
+  # a noun, "жених" (mój narzeczony), with the feminine narzeczona "невеста"
+  # carrying most of the corpus. Same shape as ukochany
+  narzeczony: noun
