@@ -1,0 +1,177 @@
+# review
+id: linia
+format: 2
+lemma: "linia"
+rank: 803
+pos: noun
+pron: { cyr: "ли́ня" }
+senses:
+  - id: line
+    ru: "линия (геометрическая)"
+    examples:
+      - pl: "Narysuj linię prostą."
+        ru: "Нарисуй прямую линию."
+        source: { kind: tatoeba, id: 591798 }
+      - pl: "Zróbcie prostą linię!"
+        ru: "Сделайте прямую линию!"
+        source: { kind: translated, id: 12240072 }
+      - pl: "Proszę pisać co drugą linię."
+        ru: "Пишите через строчку."
+        source: { kind: translated, id: 943631 }
+  - id: phone-line
+    ru: "Linia jest zajęta — линия занята"
+    examples:
+      - pl: "Linia jest znowu zajęta."
+        ru: "Линия снова занята."
+        source: { kind: translated, id: 10874309 }
+      - pl: "Linia jest wciąż zajęta."
+        ru: "Линия всё ещё занята."
+        source: { kind: translated, id: 10874310 }
+      - pl: "On dzwoni na drugiej linii."
+        ru: "Он звонит по второй линии."
+        source: { kind: translated, id: 646799 }
+  - id: railway
+    ru: "linia kolejowa — железнодорожная линия"
+    examples:
+      - pl: "Czerwone linie na mapie oznaczają linie kolejowe."
+        ru: "Красными линиями на карте показаны железные дороги."
+        source: { kind: tatoeba, id: 415287 }
+      - pl: "Planują połączyć miasta linią kolejową."
+        ru: "Они планируют соединить города железнодорожной линией."
+        source: { kind: translated, id: 921571 }
+      - pl: "Ta sztuczna góra otoczona jest linią kolejową."
+        ru: "Эта искусственная гора окружена железнодорожной линией."
+        source: { kind: translated, id: 2250756 }
+  - id: figure
+    ru: "dbać o linię — следить за фигурой"
+    note: "Значения «фигура» у русской «линии» нет."
+    examples:
+      - pl: "Próbowali przedrzeć się przez linie wroga."
+        ru: "Они попытались прорваться через линию фронта."
+        source: { kind: tatoeba, id: 914829 }
+      - pl: "Poniosłam porażkę na całej linii."
+        ru: "Я потерпела поражение по всей линии."
+        source: { kind: translated, id: 6534011 }
+      - pl: "Dba o linię od lat."
+        ru: "Она годами следит за фигурой."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Одно значение не совпадает с русским: dbać o linię значит «следить за фигурой». У русской «линии» такого смысла нет." }
+  - { kind: usage, text: "iść po linii najmniejszego oporu — «идти по линии наименьшего сопротивления», переносится дословно. А na całej linii значит «по всей линии», то есть «полностью»: przegrać na całej linii." }
+  - { kind: government, text: "w linii prostej «по прямой»; na linii «на линии»; między liniami «между строк»." }
+  - { kind: usage, text: "Форма linij — устаревший родительный множественного; сегодня говорят linii." }
+collocations:
+  - { pl: "linia kolejowa", ru: "железнодорожная линия" }
+  - { pl: "na całej linii", ru: "по всей линии" }
+  - { pl: "dbać o linię", ru: "следить за фигурой" }
+  - { pl: "linia jest zajęta", ru: "линия занята" }
+family:
+  - { pl: "liniowy", ru: "линейный", relation: derived }
+  - { pl: "podkreślić", ru: "подчеркнуть", relation: root }
+  - { pl: "kreska", ru: "чёрточка", relation: root }
+etymology: "Через немецкое Linie из латинского linea «льняная нить», от linum «лён» — то же заимствование, что русская «линия»."
+memory: "linia — «линия», и почти всё совпадает: геометрическая, телефонная (Linia jest zajęta), железнодорожная, линия фронта. Одно значение не совпадает: dbać o linię значит «следить за фигурой». И запомните na całej linii «по всей линии, полностью» — przegrać na całej linii."
+idioms:
+  - { pl: "na całej linii", ru: "по всей линии" }
+  - { pl: "iść po linii najmniejszego oporu", ru: "идти по линии наименьшего сопротивления" }
+  - { pl: "dbać o linię", ru: "следить за фигурой" }
+formExamplesSkip:
+  - { form: "linio", reason: "звательный падеж у неодушевлённого существительного не употребляется" }
+  - { form: "linij", reason: "устаревший вариант родительного множественного; современная форма — linii" }
+formExamples:
+  - form: "linia"
+    pl: "Linia była zbyt nisko."
+    ru: "Линия была слишком низко."
+    source: { kind: translated, id: 6327855 }
+  - form: "linia"
+    pl: "Linia jest znowu zajęta."
+    ru: "Линия снова занята."
+    source: { kind: translated, id: 10874309 }
+  - form: "linia"
+    pl: "Linia jest wciąż zajęta."
+    ru: "Линия всё ещё занята."
+    source: { kind: translated, id: 10874310 }
+  - form: "liniach"
+    pl: "Na tych liniach są opóźnienia."
+    ru: "На этих линиях есть опоздания."
+    source: { kind: authored }
+  - form: "liniach"
+    pl: "Mówili o liniach kolejowych."
+    ru: "Они говорили о железнодорожных линиях."
+    source: { kind: authored }
+  - form: "liniach"
+    pl: "W obu liniach są przerwy."
+    ru: "В обеих линиях есть перерывы."
+    source: { kind: authored }
+  - form: "liniami"
+    pl: "Zostaw miejsce pomiędzy liniami."
+    ru: "Оставь место между линиями."
+    source: { kind: tatoeba, id: 1353789 }
+  - form: "liniami"
+    pl: "Zostaw większą przerwę między liniami."
+    ru: "Оставь больший промежуток между линиями."
+    source: { kind: translated, id: 747145 }
+  - form: "liniami"
+    pl: "Komety poruszają się liniami krzywymi."
+    ru: "Кометы движутся по кривым линиям."
+    source: { kind: translated, id: 2277222 }
+  - form: "linią"
+    pl: "Podpisz się nad tą linią."
+    ru: "Распишись над этой линией."
+    source: { kind: translated, id: 3806006 }
+  - form: "linią"
+    pl: "Planują połączyć miasta linią kolejową."
+    ru: "Они планируют соединить города железнодорожной линией."
+    source: { kind: translated, id: 921571 }
+  - form: "linią"
+    pl: "Ta sztuczna góra otoczona jest linią kolejową."
+    ru: "Эта искусственная гора окружена железнодорожной линией."
+    source: { kind: translated, id: 2250756 }
+  - form: "linie"
+    pl: "Próbowali przedrzeć się przez linie wroga."
+    ru: "Они попытались прорваться через линию фронта."
+    source: { kind: tatoeba, id: 914829 }
+  - form: "linie"
+    pl: "Czerwone linie na mapie oznaczają linie kolejowe."
+    ru: "Красными линиями на карте показаны железные дороги."
+    source: { kind: tatoeba, id: 415287 }
+  - form: "linie"
+    pl: "Burza zerwała linie."
+    ru: "Буря оборвала линии."
+    source: { kind: translated, id: 395367 }
+  - form: "linię"
+    pl: "Narysuj linię prostą."
+    ru: "Нарисуй прямую линию."
+    source: { kind: tatoeba, id: 591798 }
+  - form: "linię"
+    pl: "Zróbcie prostą linię!"
+    ru: "Сделайте прямую линию!"
+    source: { kind: translated, id: 12240072 }
+  - form: "linię"
+    pl: "Proszę pisać co drugą linię."
+    ru: "Пишите через строчку."
+    source: { kind: translated, id: 943631 }
+  - form: "linii"
+    pl: "On dzwoni na drugiej linii."
+    ru: "Он звонит по второй линии."
+    source: { kind: translated, id: 646799 }
+  - form: "linii"
+    pl: "Tom pracuje na linii montażowej."
+    ru: "Том работает на сборочной линии."
+    source: { kind: translated, id: 7969921 }
+  - form: "linii"
+    pl: "Poniosłam porażkę na całej linii."
+    ru: "Я потерпела поражение по всей линии."
+    source: { kind: translated, id: 6534011 }
+  - form: "liniom"
+    pl: "Przyjrzał się liniom na mapie."
+    ru: "Он присмотрелся к линиям на карте."
+    source: { kind: authored }
+  - form: "liniom"
+    pl: "Dzięki nowym liniom dojazd jest szybszy."
+    ru: "Благодаря новым линиям добираться быстрее."
+    source: { kind: authored }
+  - form: "liniom"
+    pl: "Nie ufa krzywym liniom."
+    ru: "Он не доверяет кривым линиям."
+    source: { kind: authored }

@@ -121,6 +121,10 @@ exclude:
   # but every candidate across every form is the verb: Tom musial to zrobic,
   # Musialem isc, Musiala odpoczac.
   - musial
+  # an English given name, like the already-excluded charlie, john, jack,
+  # michael and anna. Every candidate is the name, and the paradigm is built
+  # from apostrophe forms (George'a, George'em) with zero attestation.
+  - george
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.

@@ -1,0 +1,90 @@
+# review
+id: zamiast
+format: 2
+lemma: "zamiast"
+rank: 810
+pos: conj
+pron: { cyr: "за́мяст" }
+senses:
+  - id: instead-of
+    ru: "вместо (кого-л., чего-л.) — с родительным"
+    note: "Управление совпадает с русским."
+    examples:
+      - pl: "Tomek poszedł tam zamiast mnie."
+        ru: "Том пошёл туда вместо меня."
+        source: { kind: tatoeba, id: 6137522 }
+      - pl: "Marta używa miodu zamiast cukru."
+        ru: "Марта использует мёд вместо сахара."
+        source: { kind: tatoeba, id: 6109650 }
+      - pl: "Poszła tam zamiast siostry."
+        ru: "Она пошла туда вместо сестры."
+        source: { kind: authored }
+  - id: instead-of-inf
+    ru: "zamiast + инфинитив — вместо того чтобы"
+    examples:
+      - pl: "Zamiast grać w gry, powinienem robić coś bardziej produktywnego."
+        ru: "Вместо того, чтобы играть в игры, мне нужно делать что-то более продуктивное."
+        source: { kind: tatoeba, id: 6154868 }
+      - pl: "Zamiast narzekać, zrób coś."
+        ru: "Вместо того чтобы жаловаться, сделай что-нибудь."
+        source: { kind: authored }
+      - pl: "Zamiast spać, czytał do rana."
+        ru: "Вместо того чтобы спать, он читал до утра."
+        source: { kind: authored }
+  - id: substitute
+    ru: "zamiast cukru — вместо сахара"
+    examples:
+      - pl: "Użyj oliwy zamiast masła."
+        ru: "Используй оливковое масло вместо сливочного."
+        source: { kind: authored }
+      - pl: "Wziął herbatę zamiast kawy."
+        ru: "Он взял чай вместо кофе."
+        source: { kind: authored }
+      - pl: "Przyszedł brat zamiast niego."
+        ru: "Пришёл брат вместо него."
+        source: { kind: authored }
+  - id: no-answer
+    ru: "zamiast odpowiedzi — вместо ответа"
+    examples:
+      - pl: "Zamiast odpowiedzi wzruszył ramionami."
+        ru: "Вместо ответа он пожал плечами."
+        source: { kind: authored }
+      - pl: "Zamiast zapłaty dostał obietnicę."
+        ru: "Вместо платы он получил обещание."
+        source: { kind: authored }
+      - pl: "Zamiast tego zrobił wszystko po swojemu."
+        ru: "Вместо этого он сделал всё по-своему."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "zamiast требует родительного падежа, как и русское «вместо»: zamiast mnie «вместо меня», zamiast cukru «вместо сахара»." }
+  - { kind: usage, text: "Со следующим глаголом берёт инфинитив: Zamiast grać, powinienem pracować «Вместо того чтобы играть, мне следует работать». Русский в этом месте разворачивает оборот в «вместо того чтобы»." }
+  - { kind: false-friend, text: "Не путайте zamiast «вместо» с оборотом w zamian za «в обмен на»: первое про замену, второе про обмен, и слово там другое — zamiana." }
+  - { kind: usage, text: "Слово разбирается как za + miast (старая форма miasto «место»): буквально «за место», ровно как русское «в-место»." }
+collocations:
+  - { pl: "zamiast mnie", ru: "вместо меня" }
+  - { pl: "zamiast cukru", ru: "вместо сахара" }
+  - { pl: "zamiast tego", ru: "вместо этого" }
+  - { pl: "w zamian za", ru: "в обмен на" }
+family:
+  - { pl: "miasto", ru: "город; (устар.) место", relation: root }
+  - { pl: "zamiana", ru: "замена", relation: derived }
+  - { pl: "zamienić", ru: "заменить", relation: derived }
+etymology: "za + miast, от старой формы miasto «место» — буквально «за место», ровно как русское «в-место»."
+memory: "zamiast — «вместо», и собрано оно точно как русское слово: za + miast от старого miasto «место». Управление тоже совпадает — родительный падеж: zamiast mnie, zamiast cukru. А с глаголом берёт инфинитив: Zamiast grać, powinienem pracować. Не путайте с w zamian za «в обмен на»."
+idioms:
+  - { pl: "zamiast mnie", ru: "вместо меня" }
+  - { pl: "zamiast tego", ru: "вместо этого" }
+  - { pl: "w zamian za", ru: "в обмен на" }
+formExamples:
+  - form: "zamiast"
+    pl: "Tomek poszedł tam zamiast mnie."
+    ru: "Том пошёл туда вместо меня."
+    source: { kind: tatoeba, id: 6137522 }
+  - form: "zamiast"
+    pl: "Marta używa miodu zamiast cukru."
+    ru: "Марта использует мёд вместо сахара."
+    source: { kind: tatoeba, id: 6109650 }
+  - form: "zamiast"
+    pl: "Zamiast grać w gry, powinienem robić coś bardziej produktywnego."
+    ru: "Вместо того, чтобы играть в игры, мне нужно делать что-то более продуктивное."
+    source: { kind: tatoeba, id: 6154868 }

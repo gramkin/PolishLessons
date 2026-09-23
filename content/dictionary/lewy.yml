@@ -1,0 +1,211 @@
+# review
+id: lewy
+format: 2
+lemma: "lewy"
+rank: 811
+pos: adj
+pron: { cyr: "ле́вы" }
+senses:
+  - id: left
+    ru: "левый (о стороне)"
+    examples:
+      - pl: "Boli mnie lewe ramię."
+        ru: "У меня болит левое плечо."
+        source: { kind: tatoeba, id: 2224061 }
+      - pl: "Lewy głośnik nie działa."
+        ru: "Левый динамик не работает."
+        source: { kind: translated, id: 13264462 }
+      - pl: "Lewy kierunkowskaz się zepsuł."
+        ru: "Левый поворотник сломался."
+        source: { kind: translated, id: 940899 }
+  - id: left-hand
+    ru: "lewa ręka — левая рука"
+    examples:
+      - pl: "Prawa ręka nie wie co czyni lewa."
+        ru: "Правая рука не ведает, что творит левая."
+        source: { kind: tatoeba, id: 2148306 }
+      - pl: "Ona pisze lewą ręką."
+        ru: "Она пишет левой рукой."
+        source: { kind: tatoeba, id: 356547 }
+      - pl: "Tom je lewą ręką, ale pisze prawą."
+        ru: "Том ест левой рукой, но пишет правой."
+        source: { kind: tatoeba, id: 1846157 }
+  - id: on-the-left
+    ru: "z lewej, po lewej — слева"
+    examples:
+      - pl: "Reflektory z lewej, z prawej, na początek pasa."
+        ru: "Прожектора слева, справа, в начало полосы."
+        source: { kind: tatoeba, id: 1736702 }
+      - pl: "Proszę jechać z lewej."
+        ru: "Пожалуйста, езжайте слева."
+        source: { kind: translated, id: 10901373 }
+      - pl: "Proszę jechać po lewej."
+        ru: "Пожалуйста, езжайте по левой стороне."
+        source: { kind: translated, id: 10901372 }
+  - id: fake
+    ru: "lewy — левый, липовый (разговорное)"
+    note: "Переносное значение совпадает с русским."
+    examples:
+      - pl: "Uważaj na lewe taryfy."
+        ru: "Берегись левых такси."
+        source: { kind: translated, id: 970773 }
+      - pl: "Gubernator wziął pieniądze z lewego konta."
+        ru: "Губернатор взял деньги с левого счёта."
+        source: { kind: translated, id: 823303 }
+      - pl: "Sprzedawał lewe dokumenty."
+        ru: "Он продавал липовые документы."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Переносное значение совпадает с русским до мелочей: lewy значит «левый, липовый, незаконный» — lewe dokumenty «липовые документы», lewe taryfy «левые такси», lewe konto «левый счёт»." }
+  - { kind: usage, text: "Две идиомы переносятся почти дословно: mieć dwie lewe ręce «руки не из того места» (буквально «иметь две левые руки») и wstać lewą nogą «встать не с той ноги» — поляк уточняет, что с левой." }
+  - { kind: government, text: "z lewej и po lewej значат «слева»; na lewo «налево»; na lewą stronę «наизнанку»." }
+  - { kind: usage, text: "Антоним — prawy, и он же значит «правый» в смысле «правильный, праведный»: этимологически lewy и построено как противоположность prawy." }
+collocations:
+  - { pl: "lewa ręka", ru: "левая рука" }
+  - { pl: "po lewej", ru: "слева" }
+  - { pl: "mieć dwie lewe ręce", ru: "руки не из того места" }
+  - { pl: "wstać lewą nogą", ru: "встать не с той ноги" }
+family:
+  - { pl: "prawy", ru: "правый", relation: root }
+  - { pl: "lewo", ru: "влево", relation: derived }
+  - { pl: "leworęczny", ru: "левша", relation: derived }
+  - { pl: "lewica", ru: "левые (в политике)", relation: derived }
+etymology: "Праславянское *lěvъ — то же слово, что русское «левый»; построено как противоположность prawy «правый»."
+memory: "lewy — «левый», слово то же самое, и переносное значение совпадает до мелочей: lewe dokumenty «липовые документы», lewe konto «левый счёт». Две идиомы тоже почти дословны: mieć dwie lewe ręce «руки не из того места» и wstać lewą nogą «встать не с той ноги» — поляк только уточняет, что нога левая."
+idioms:
+  - { pl: "mieć dwie lewe ręce", ru: "руки не из того места" }
+  - { pl: "wstać lewą nogą", ru: "встать не с той ноги" }
+  - { pl: "na lewą stronę", ru: "наизнанку" }
+formExamples:
+  - form: "lewa"
+    pl: "Prawa ręka nie wie co czyni lewa."
+    ru: "Правая рука не ведает, что творит левая."
+    source: { kind: tatoeba, id: 2148306 }
+  - form: "lewa"
+    pl: "Lewa ręka mi zdrętwiała."
+    ru: "Левая рука у меня онемела."
+    source: { kind: translated, id: 356544 }
+  - form: "lewa"
+    pl: "Lewa strona jest wolna."
+    ru: "Левая сторона свободна."
+    source: { kind: authored }
+  - form: "lewą"
+    pl: "Ona pisze lewą ręką."
+    ru: "Она пишет левой рукой."
+    source: { kind: tatoeba, id: 356547 }
+  - form: "lewą"
+    pl: "Wstałem dziś lewą nogą."
+    ru: "Я не с той ноги с утра встал."
+    source: { kind: tatoeba, id: 3078146 }
+  - form: "lewą"
+    pl: "Tom je lewą ręką, ale pisze prawą."
+    ru: "Том ест левой рукой, но пишет правой."
+    source: { kind: tatoeba, id: 1846157 }
+  - form: "lewe"
+    pl: "Boli mnie lewe ramię."
+    ru: "У меня болит левое плечо."
+    source: { kind: tatoeba, id: 2224061 }
+  - form: "lewe"
+    pl: "Uważaj na lewe taryfy."
+    ru: "Берегись левых такси."
+    source: { kind: translated, id: 970773 }
+  - form: "lewe"
+    pl: "Tom nie słyszy na lewe ucho."
+    ru: "Том не слышит на левое ухо."
+    source: { kind: translated, id: 1590757 }
+  - form: "lewego"
+    pl: "Gubernator wziął pieniądze z lewego konta."
+    ru: "Губернатор взял деньги с левого счёта."
+    source: { kind: translated, id: 823303 }
+  - form: "lewego"
+    pl: "Zauważyłeś kiedyś, że Toma prawe ucho jest sporo większe od lewego?"
+    ru: "Ты когда-нибудь замечал, что правое ухо Тома заметно больше левого?"
+    source: { kind: translated, id: 2428855 }
+  - form: "lewego"
+    pl: "Nie ma tu lewego buta."
+    ru: "Левого ботинка здесь нет."
+    source: { kind: authored }
+  - form: "lewej"
+    pl: "Reflektory z lewej, z prawej, na początek pasa."
+    ru: "Прожектора слева, справа, в начало полосы."
+    source: { kind: tatoeba, id: 1736702 }
+  - form: "lewej"
+    pl: "Proszę jechać z lewej."
+    ru: "Пожалуйста, езжайте слева."
+    source: { kind: translated, id: 10901373 }
+  - form: "lewej"
+    pl: "Proszę jechać po lewej."
+    ru: "Пожалуйста, езжайте по левой стороне."
+    source: { kind: translated, id: 10901372 }
+  - form: "lewemu"
+    pl: "Przyjrzał się lewemu skrzydłu budynku."
+    ru: "Он присмотрелся к левому крылу здания."
+    source: { kind: authored }
+  - form: "lewemu"
+    pl: "Lewemu butowi urwała się podeszwa."
+    ru: "У левого ботинка оторвалась подошва."
+    source: { kind: authored }
+  - form: "lewemu"
+    pl: "Nie ufa lewemu interesowi."
+    ru: "Он не доверяет левому делу."
+    source: { kind: authored }
+  - form: "lewi"
+    pl: "Lewi obrońcy grają wyżej."
+    ru: "Левые защитники играют выше."
+    source: { kind: authored }
+  - form: "lewi"
+    pl: "Lewi politycy wygrali wybory."
+    ru: "Левые политики выиграли выборы."
+    source: { kind: authored }
+  - form: "lewi"
+    pl: "Lewi zawodnicy są tu rzadkością."
+    ru: "Левши здесь редкость."
+    source: { kind: authored }
+  - form: "lewy"
+    pl: "Lewy głośnik nie działa."
+    ru: "Левый динамик не работает."
+    source: { kind: translated, id: 13264462 }
+  - form: "lewy"
+    pl: "Lewy kierunkowskaz się zepsuł."
+    ru: "Левый поворотник сломался."
+    source: { kind: translated, id: 940899 }
+  - form: "lewy"
+    pl: "Lewy but jest za ciasny."
+    ru: "Левый ботинок жмёт."
+    source: { kind: authored }
+  - form: "lewych"
+    pl: "Unikał lewych interesów."
+    ru: "Он избегал левых сделок."
+    source: { kind: authored }
+  - form: "lewych"
+    pl: "Nie ma tu lewych dokumentów."
+    ru: "Липовых документов здесь нет."
+    source: { kind: authored }
+  - form: "lewych"
+    pl: "Wśród lewych taryf trafiają się uczciwe."
+    ru: "Среди левых такси попадаются честные."
+    source: { kind: authored }
+  - form: "lewym"
+    pl: "Boli mnie staw w lewym barku."
+    ru: "У меня болит сустав в левом плече."
+    source: { kind: translated, id: 922410 }
+  - form: "lewym"
+    pl: "Zwierzę w lewym górnym narożniku to miał być smok."
+    ru: "Животное в левом верхнем углу должно было быть драконом."
+    source: { kind: translated, id: 356550 }
+  - form: "lewym"
+    pl: "W lewym rogu stoi szafa."
+    ru: "В левом углу стоит шкаф."
+    source: { kind: authored }
+  - form: "lewymi"
+    pl: "Zajmował się lewymi interesami."
+    ru: "Он занимался левыми делами."
+    source: { kind: authored }
+  - form: "lewymi"
+    pl: "Między lewymi a prawymi stronami jest różnica."
+    ru: "Между левыми и правыми страницами есть разница."
+    source: { kind: authored }
+  - form: "lewymi"
+    pl: "Obaj piszą lewymi rękami."
+    ru: "Оба пишут левыми руками."
+    source: { kind: authored }
