@@ -162,6 +162,16 @@ exclude:
   # empty, and the single candidate is the person ("Dan usłyszał jak Matt i Linda się
   # sprzeczali."). Same class as john, eric and bill.
   - matt
+  # not a lemma in any usable sense: the base form "cela" itself has no corpus, and of
+  # thirty candidates exactly one ("Ona została umieszczona w celi.") is this word. The
+  # forms carrying the rank belong to the masculine noun cel "goal": cel ("Widzę cel.",
+  # "Trafił w cel.", "Osiągnął cel.") and cele ("na cele dobroczynne"). The rank is
+  # borrowed wholesale from another word. Same defect as um, byla and juz-2.
+  #
+  # Contrast mila at the adjacent rank, which is carded despite a similar collision with
+  # the adjective mily: there the lemma has real corpus on its own base form and on mil
+  # and milę, so only the contaminated forms go to skips.
+  - cela
   # "nick" here is the English given name Nick, not the Polish borrowing for an
   # online handle: all five lines under the base form are "Nick jest mi winny
   # dziesiec dolarow", "Nick narzekal mi na wysokie ceny w Tokio" and the like, the
