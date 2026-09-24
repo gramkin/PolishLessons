@@ -730,6 +730,10 @@ exclude:
   # em is not a word: it is the instrumental ending stranded by the tokenizer
   # after an apostrophe or hyphen (Jest DJ-em, z Tom'em). One form, no paradigm.
   - em
+  # winna is registered pos: noun but every candidate is the adjective winny
+  # across an adjectival paradigm (winnym, winnych, winna) -- "uznany winnym
+  # morderstwa". winny is carded. Same bad-pos shape as kosci.
+  - winna
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -904,6 +908,7 @@ excludeNotes:
   braknac: { why: variant-of, see: brakowac }
   ciemnosci: { why: form-of, see: ciemnosc }
   em: { why: not-a-lemma }
+  winna: { why: form-of, see: winny }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
