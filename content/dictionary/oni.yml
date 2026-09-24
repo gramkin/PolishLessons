@@ -1,0 +1,54 @@
+# review
+id: oni
+format: 2
+lemma: "oni"
+rank: 2508
+pos: pron
+pron: { cyr: "о́ни" }
+senses:
+  - id: they-masc
+    ru: "они (когда есть хотя бы один мужчина)"
+    examples:
+      - pl: "Oni nienawidzili Toma."
+        ru: "Они ненавидели Тома."
+        source: { kind: tatoeba, id: 534115 }
+      - pl: "Oni wiecznie narzekają."
+        ru: "Они вечно жалуются."
+        source: { kind: tatoeba, id: 744234 }
+      - pl: "Oni są pilotami."
+        ru: "Они пилоты."
+        source: { kind: tatoeba, id: 831843 }
+  - id: they-people
+    ru: "они (о людях вообще)"
+    examples:
+      - pl: "Oni już wyszli."
+        ru: "Они уже вышли."
+        source: { kind: authored }
+      - pl: "Czy oni nas słyszą?"
+        ru: "Они нас слышат?"
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "ГЛАВНОЕ: польский различает два «они». Oni — если в группе есть хотя бы один мужчина; one — если мужчин нет. Русский такого различия не знает, и это одна из первых трудностей." }
+  - { kind: government, text: "Это мужской ЛИЧНЫЙ род. Он же меняет глагол в прошедшем времени: oni byli, но one były." }
+  - { kind: false-friend, text: "Русское «они» покрывает оба случая, поэтому выбор между oni и one приходится делать сознательно каждый раз." }
+  - { kind: usage, text: "Склонение: oni, ich, im, ich, nimi, nich. После предлога — nich, nimi." }
+collocations:
+  - { pl: "oni byli", ru: "они были (с мужчинами)" }
+  - { pl: "z nimi", ru: "с ними" }
+etymology: "Праславянское *oni; русское «они» — то же слово, но без различия по роду."
+memory: "oni — «они», если в группе есть мужчина; если мужчин нет — one. Глагол тоже меняется: oni byli, но one były."
+idioms:
+  - { pl: "oni byli", ru: "они были (с мужчинами)" }
+formExamples:
+  - form: "oni"
+    pl: "Oni nienawidzili Toma."
+    ru: "Они ненавидели Тома."
+    source: { kind: tatoeba, id: 534115 }
+  - form: "oni"
+    pl: "Oni wiecznie narzekają."
+    ru: "Они вечно жалуются."
+    source: { kind: tatoeba, id: 744234 }
+  - form: "oni"
+    pl: "Oni są pilotami."
+    ru: "Они пилоты."
+    source: { kind: tatoeba, id: 831843 }

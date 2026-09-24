@@ -1,0 +1,54 @@
+# review
+id: one
+format: 2
+lemma: "one"
+rank: 2507
+pos: pron
+pron: { cyr: "о́нэ" }
+senses:
+  - id: they-fem
+    ru: "они (без мужчин)"
+    examples:
+      - pl: "One mają racje."
+        ru: "Они правы."
+        source: { kind: tatoeba, id: 11319363 }
+      - pl: "Co one budują?"
+        ru: "Что они строят?"
+        source: { kind: tatoeba, id: 13655677 }
+      - pl: "Czego one tam szukały?"
+        ru: "Что они там искали?"
+        source: { kind: tatoeba, id: 6300164 }
+  - id: they-things
+    ru: "они (о предметах и животных)"
+    examples:
+      - pl: "Gdzie są książki? One leżą na stole."
+        ru: "Где книги? Они лежат на столе."
+        source: { kind: authored }
+      - pl: "One jeszcze nie przyszły."
+        ru: "Они ещё не пришли."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "ГЛАВНОЕ: one — это «они» обо всём, кроме групп с мужчинами: о женщинах, детях, животных и предметах. Если в группе есть хоть один мужчина, нужно oni." }
+  - { kind: government, text: "Это немужской род. В прошедшем времени глагол принимает -ły: one były, one przyszły — в отличие от oni byli, oni przyszli." }
+  - { kind: false-friend, text: "Не путайте one с английским one или с русским «оне» — устаревшей формой. Это обычное современное местоимение." }
+  - { kind: usage, text: "Склонение: one, ich, im, je, nimi, nich. Винительный je, а не ich — в отличие от oni." }
+collocations:
+  - { pl: "one były", ru: "они были (без мужчин)" }
+  - { pl: "one przyszły", ru: "они пришли" }
+etymology: "Праславянское *ony; русское «оне» было тем же различием, но исчезло."
+memory: "one — «они» о женщинах, детях, животных и предметах; с мужчинами нужно oni. Глагол: one były, но oni byli. Винительный — je."
+idioms:
+  - { pl: "one były", ru: "они были (без мужчин)" }
+formExamples:
+  - form: "one"
+    pl: "One mają racje."
+    ru: "Они правы."
+    source: { kind: tatoeba, id: 11319363 }
+  - form: "one"
+    pl: "Co one budują?"
+    ru: "Что они строят?"
+    source: { kind: tatoeba, id: 13655677 }
+  - form: "one"
+    pl: "Czego one tam szukały?"
+    ru: "Что они там искали?"
+    source: { kind: tatoeba, id: 6300164 }

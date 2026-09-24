@@ -1,0 +1,87 @@
+# review
+id: zakaz
+format: 2
+lemma: "zakaz"
+rank: 2528
+pos: noun
+pron: { cyr: "за́кас" }
+senses:
+  - id: ban
+    ru: "запрет"
+    examples:
+      - pl: "Zakaz kąpieli."
+        ru: "Купание запрещено."
+        source: { kind: translated, id: 350091 }
+      - pl: "Zakaz palenia."
+        ru: "Курение запрещено."
+        source: { kind: translated, id: 2616158 }
+      - pl: "Zakaz parkowania."
+        ru: "Стоянка запрещена."
+        source: { kind: translated, id: 3616109 }
+  - id: prohibition
+    ru: "запрет, запрещение"
+    examples:
+      - pl: "Przyszli mimo mojego zakazu."
+        ru: "Они пришли вопреки моему запрету."
+        source: { kind: translated, id: 5225250 }
+      - pl: "Zależnie od kraju trzeba mieć na uwadze, że zakazy alkoholu bywają całkiem surowe."
+        ru: "В зависимости от страны стоит иметь в виду, что запреты на алкоголь бывают весьма строгими."
+        source: { kind: translated, id: 13808847 }
+notes:
+  - { kind: false-friend, text: "ГЛАВНАЯ ловушка: zakaz — это ЗАПРЕТ, а не заказ. Заказ по-польски zamówienie. Корень kazać «велеть» с приставкой za-." }
+  - { kind: government, text: "Мужской неодушевлённый; родительный — zakazu. Запрет на что-л. — zakaz czegoś, с родительным: zakaz palenia «запрет курения»." }
+  - { kind: usage, text: "На табличках слово стоит первым: Zakaz palenia, Zakaz wstępu, Zakaz parkowania — это готовые надписи, которые видишь на улице." }
+  - { kind: usage, text: "Глагол zakazać «запретить»; прилагательное zakazany «запрещённый»." }
+collocations:
+  - { pl: "zakaz palenia", ru: "курение запрещено" }
+  - { pl: "zakaz wstępu", ru: "вход воспрещён" }
+etymology: "za- + kazać «велеть»; русский «заказ» — то же слово, но значение разошлось."
+memory: "zakaz — это ЗАПРЕТ, а не заказ: заказ по-польски zamówienie. На табличках: Zakaz palenia, Zakaz wstępu."
+idioms:
+  - { pl: "zakaz palenia", ru: "курение запрещено" }
+  - { pl: "zakaz wstępu", ru: "вход воспрещён" }
+formExamplesSkip:
+  - { form: "zakazach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazie", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zakazów", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "zakaz"
+    pl: "Zakaz kąpieli."
+    ru: "Купание запрещено."
+    source: { kind: translated, id: 350091 }
+  - form: "zakaz"
+    pl: "Zakaz palenia."
+    ru: "Курение запрещено."
+    source: { kind: translated, id: 2616158 }
+  - form: "zakaz"
+    pl: "Zakaz parkowania."
+    ru: "Стоянка запрещена."
+    source: { kind: translated, id: 3616109 }
+  - form: "zakazu"
+    pl: "Przyszli mimo mojego zakazu."
+    ru: "Они пришли вопреки моему запрету."
+    source: { kind: translated, id: 5225250 }
+  - form: "zakazu"
+    pl: "Nie ma zakazu wstępu."
+    ru: "Запрета на вход нет."
+    source: { kind: authored }
+  - form: "zakazu"
+    pl: "Przestrzegamy zakazu palenia."
+    ru: "Мы соблюдаем запрет курения."
+    source: { kind: authored }
+  - form: "zakazy"
+    pl: "Zależnie od kraju trzeba mieć na uwadze, że zakazy alkoholu bywają całkiem surowe."
+    ru: "В зависимости от страны стоит иметь в виду, что запреты на алкоголь бывают весьма строгими."
+    source: { kind: translated, id: 13808847 }
+  - form: "zakazy"
+    pl: "Zakazy obowiązują od stycznia."
+    ru: "Запреты действуют с января."
+    source: { kind: authored }
+  - form: "zakazy"
+    pl: "Wprowadzono nowe zakazy."
+    ru: "Ввели новые запреты."
+    source: { kind: authored }
