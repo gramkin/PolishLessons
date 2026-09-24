@@ -38,6 +38,8 @@ rows:
 :pron{pl="Znam Toma."} — Я знаю Тома.
 :pron{pl="Znam to miasto."} — Я знаю этот город.
 
+<!-- negative example: deliberately NOT :pron — the phrase is ungrammatical
+     and must not get a listen button that would read it aloud -->
 Нельзя сказать *znam, że…* — для факта нужен *wiedzieć*.
 
 ## Umieć — о навыке
