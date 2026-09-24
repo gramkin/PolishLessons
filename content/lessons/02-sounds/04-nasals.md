@@ -7,8 +7,6 @@ level: A1
 words: [zab, dab, maka, maz, pajak, was, reka, ges, pepek, mieso, piec, swiety, imie, pamiec, dziesiec, jezyk]
 ---
 
-<!-- review -->
-
 В польском сохранились **носовые гласные**, которые русский давно утратил.
 
 - **ą** звучит как «он» (перед b, p — «ом»): :pron{id="zab"}

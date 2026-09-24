@@ -7,8 +7,6 @@ level: A1
 words: [dzien-dobry, dobry-wieczor, czesc, do-widzenia, dobranoc, dziekuje, prosze, przepraszam, tak, nie]
 ---
 
-<!-- review -->
-
 ## Здравствуйте и привет
 
 ::compare-table

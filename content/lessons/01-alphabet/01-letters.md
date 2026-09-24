@@ -7,8 +7,6 @@ level: A1
 words: [dom, mama, tata, woda, ryba, noc, ulica, ksiazka, jablko, kawa, herbata]
 ---
 
-<!-- review -->
-
 Польский пишется латиницей, но звучит удивительно близко к русскому. Многие слова вы узнаете сразу: :pl-word{id="dom"}, :pl-word{id="mama"}, :pl-word{id="woda"}, :pl-word{id="ryba"}.
 
 Нажмите на польское слово, чтобы увидеть перевод и произношение, а кнопка 🔊 произнесёт его вслух.

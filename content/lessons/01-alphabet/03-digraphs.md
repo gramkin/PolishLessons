@@ -7,8 +7,6 @@ level: A1
 words: [dziewczyna, chlopiec, miasto, kawa]
 ---
 
-<!-- review -->
-
 Там, где в русском одна буква, польский часто пишет две.
 
 ## Твёрдые шипящие

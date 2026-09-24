@@ -7,8 +7,6 @@ level: A1
 words: [chleb, ucho, mucha, duch, chata, szkola, szum, kasza, mysz, szyja, czarny, czlowiek, czysty, cztery, zaba, zona, zolty, zyc, radosc, gosc, kosc, czesc-noun, mlodosc, byc, pic, bic, myc, miec, dzien, dzieci, dziewiec]
 ---
 
-<!-- review -->
-
 Эти соответствия почти не требуют запоминания: польское написание просто передаёт знакомые русские звуки.
 
 ## Шипящие и ch

@@ -7,8 +7,6 @@ level: A1
 words: [pan, pani, milo-mi, jak-sie-masz, imie, skad, mieszkac, mowic, rozumiec, polski, rosyjski, polska, rosja, dobrze, zle, bardzo, przyjaciel, kto, co, gdzie, jak]
 ---
 
-<!-- review -->
-
 ## Вежливое «вы»
 
 Вместо русского «вы» поляки говорят :pl-word{id="pan"} (мужчине) и :pl-word{id="pani"} (женщине), а глагол ставят в **третье лицо**, как будто говорят «он» или «она».

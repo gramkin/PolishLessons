@@ -7,8 +7,6 @@ level: A1
 words: [miasto, uroda, sklep, dywan, zapomniec, owoc, zakaz, czas, list, dworzec, zachod, rodzina, zawod, pytac, brak, jutro, dynia, pokoj, nagle, rok, lustro, wesele, krzeslo, obraz, czaszka, zdanie, sprawa, powiesc, stac, zalowac, won, duma, wies]
 ---
 
-<!-- review -->
-
 Сходство языков помогает, но иногда подводит. **Ложные друзья** — слова, похожие на русские, но с другим значением. Их лучше выучить сразу. В тексте они подчёркнуты красным пунктиром.
 
 ## Самые коварные

@@ -7,8 +7,6 @@ level: A1
 words: [byc, ja, ty, on, ona, my, wy, oni, one]
 ---
 
-<!-- review -->
-
 В русском мы говорим «Я студент», пропуская глагол. В польском глагол :pl-word{id="byc"} в настоящем времени **обязателен**: *Jestem studentem.*
 
 ::compare-table

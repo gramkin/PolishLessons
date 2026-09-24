@@ -7,8 +7,6 @@ level: A1
 words: [glowa, zloto, mlody, bloto, droga, krowa, broda, wrona, mleko]
 ---
 
-<!-- review -->
-
 В русском между согласными часто стоят сочетания **оро**, **оло**, **ере** («полногласие»). В польском на их месте одна гласная: **ro**, **ło**, **le**.
 
 ::cognate-list{pattern="ro-оро"}
