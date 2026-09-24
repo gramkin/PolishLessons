@@ -27,6 +27,7 @@ words: [mezczyzna, kolega, kierowca, poeta, artysta, turysta]
 ::compare-table
 ---
 headers: [Падеж, Форма, Пример]
+plColumns: [1, 2]
 rows:
   - [именительный, poeta, "ten wybitny poeta"]
   - [родительный, poety, "biografia tego poety"]

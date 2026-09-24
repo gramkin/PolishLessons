@@ -14,6 +14,7 @@ words: [kot, pies, ptak, brat, syn, ojciec, gest, samochod, kobieta, siostra, ma
 ::compare-table
 ---
 headers: [Род, Окончание, Примеры]
+plColumns: [2]
 rows:
   - [мужской, "согласная", "kot, pies, brat, samochód"]
   - [женский, "-a", "kobieta, siostra, noga"]
@@ -36,13 +37,13 @@ rows:
 
 Отдельно стоит запомнить слова на **-ość** — они всегда женские, как русские слова на **-ость**:
 
-*ta miłość* — любовь, *ta młodość* — молодость, *ta radość* — радость.
+:pron{pl="ta miłość"} — любовь, :pron{pl="ta młodość"} — молодость, :pron{pl="ta radość"} — радость.
 
 ## Один подвох: -um
 
 Заимствования на **-um** в польском **среднего** рода, а не мужского, как в русском:
 
-*to muzeum* — музей, *to centrum* — центр, *to liceum* — лицей.
+:pron{pl="to muzeum"} — музей, :pron{pl="to centrum"} — центр, :pron{pl="to liceum"} — лицей.
 
 И в единственном числе они не склоняются вовсе: *do muzeum*, *w muzeum*, *z muzeum* — форма всегда одна.
 

@@ -21,6 +21,7 @@ words: [nauczyciel, program, temat, problem, adres]
 ::compare-table
 ---
 headers: [Группа, Местоимение, Множественное, Пример]
+plColumns: [1, 2, 3]
 rows:
   - ["!мужской личный", oni, "-i / -y", "nauczyciele, poeci, bracia"]
   - [остальное, one, "-y / -i / -e", "kobiety, okna, psy, programy"]
@@ -31,8 +32,8 @@ rows:
 
 Сравните две фразы:
 
-*Nauczyciele byli zadowoleni.* — Учителя были довольны.
-*Programy były gotowe.* — Программы были готовы.
+:pron{pl="Nauczyciele byli zadowoleni."} — Учителя были довольны.
+:pron{pl="Programy były gotowe."} — Программы были готовы.
 
 Глагол тоже меняется: **byli** для мужского личного рода, **były** для всего остального. Разница в одной букве, но она обязательна.
 
@@ -40,7 +41,7 @@ rows:
 
 Почти всё. Слова :pl-word{id="program"}, :pl-word{id="temat"}, :pl-word{id="problem"}, :pl-word{id="adres"} — мужского рода в единственном числе, но во множественном берут окончание **-y** и местоимение **one**, потому что это не люди:
 
-*te programy*, *te tematy*, *one były*.
+:pron{pl="te programy"}, :pron{pl="te tematy"}, :pron{pl="one były"}.
 
 А вот :pl-word{id="nauczyciel"} — человек, и значит: *ci nauczyciele*, *oni byli*.
 
