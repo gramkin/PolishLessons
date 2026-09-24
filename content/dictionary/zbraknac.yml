@@ -1,0 +1,60 @@
+# review
+id: zbraknac
+format: 2
+lemma: "zbraknąć"
+rank: 2176
+pos: verb
+aspect: perf
+aspectPair: brakowac
+pron: { cyr: "збра́кнонць" }
+senses:
+  - id: run-out
+    ru: "не хватить, иссякнуть (безлично)"
+    examples:
+      - pl: "Zbrakło mi sił."
+        ru: "У меня не хватило сил."
+        source: { kind: authored }
+      - pl: "Zbrakło nam czasu."
+        ru: "Нам не хватило времени."
+        source: { kind: authored }
+      - pl: "W domu zbrakło chleba."
+        ru: "В доме не стало хлеба."
+        source: { kind: authored }
+  - id: be-missing
+    ru: "недостать, не оказаться"
+    examples:
+      - pl: "Zbrakło mu odwagi."
+        ru: "Ему не хватило смелости."
+        source: { kind: authored }
+      - pl: "Nagle zbrakło słów."
+        ru: "Вдруг не стало слов."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Безличный глагол: того, чего не хватило, ставят в РОДИТЕЛЬНЫЙ падеж, а человека — в дательный. Zbrakło mi sił «мне не хватило сил», ровно как русское «не хватило чего кому»." }
+  - { kind: usage, text: "Парадигма дефектная: живых форм всего четыре, и встречается слово практически только в прошедшем среднего рода — zbrakło." }
+  - { kind: usage, text: "Несовершенный вид — brakować, который уже есть в словаре." }
+  - { kind: false-friend, text: "Корень brak «нехватка, недостаток», который тоже есть отдельной карточкой." }
+collocations:
+  - { pl: "zbrakło sił", ru: "не хватило сил" }
+  - { pl: "zbrakło czasu", ru: "не хватило времени" }
+etymology: "z- + braknąć, от brak «нехватка»; ср. русское «браковать» и оборот «не хватает»."
+memory: "zbraknąć — безличное «не хватить»: zbrakło mi sił. Чего не хватило — родительный, кому — дательный, как в русском. Несовершенный вид — brakować."
+idioms:
+  - { pl: "zbrakło sił", ru: "не хватило сил" }
+formExamplesSkip:
+  - { form: "zbrakło", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zbrakłoby", reason: "условное наклонение; в корпусе примеров нет" }
+  - { form: "zbraknie", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "zbraknąć"
+    pl: "Może zbraknąć czasu."
+    ru: "Времени может не хватить."
+    source: { kind: authored }
+  - form: "zbraknąć"
+    pl: "Nie powinno zbraknąć chleba."
+    ru: "Хлеба не должно не хватить."
+    source: { kind: authored }
+  - form: "zbraknąć"
+    pl: "Obawiam się, że może zbraknąć miejsca."
+    ru: "Боюсь, места может не хватить."
+    source: { kind: authored }

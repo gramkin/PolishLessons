@@ -1,0 +1,61 @@
+# review
+id: posadzenie
+format: 2
+lemma: "posądzenie"
+rank: 2186
+pos: noun
+pron: { cyr: "посондзэ́не" }
+senses:
+  - id: accusation
+    ru: "подозрение, обвинение"
+    examples:
+      - pl: "Posądzenie okazało się bezpodstawne."
+        ru: "Подозрение оказалось безосновательным."
+        source: { kind: authored }
+      - pl: "Odrzucił posądzenie o kradzież."
+        ru: "Он отверг обвинение в краже."
+        source: { kind: authored }
+      - pl: "Żyła pod ciężarem posądzenia."
+        ru: "Она жила под тяжестью подозрения."
+        source: { kind: authored }
+  - id: suspicion
+    ru: "наговор, напраслина"
+    examples:
+      - pl: "Bronił się przed posądzeniem."
+        ru: "Он защищался от наговора."
+        source: { kind: authored }
+      - pl: "Takie posądzenie rani najbardziej."
+        ru: "Такая напраслина ранит сильнее всего."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Идентификатор карточки вводит в заблуждение: латиница стирает носовую ą, и posądzenie «подозрение» выглядит как posadzenie «усаживание». Это разные слова: posądzić «заподозрить» против posadzić «посадить»." }
+  - { kind: government, text: "В чём подозревают — предлог o с винительным: posądzenie o kradzież «обвинение в краже». Русский здесь ставит предложный." }
+  - { kind: usage, text: "Отглагольное существительное от posądzić. Слово книжное; обычное обвинение — oskarżenie, а подозрение — podejrzenie." }
+  - { kind: usage, text: "В корпусе не встречается, поэтому все примеры составлены вручную." }
+collocations:
+  - { pl: "posądzenie o kradzież", ru: "обвинение в краже" }
+etymology: "От posądzić «заподозрить», от sąd «суд, суждение»; ср. русское «осудить», «рассудить»."
+memory: "posądzenie — «подозрение, обвинение», от posądzić «заподозрить». Не путайте с posadzenie «усаживание» от posadzić: в латинице носовая ą пропадает и слова сливаются."
+idioms:
+  - { pl: "posądzenie o kradzież", ru: "обвинение в краже" }
+formExamplesSkip:
+  - { form: "posądzenia", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeniach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeniami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeniem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeniom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeniu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posądzeń", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "posądzenie"
+    pl: "Posądzenie okazało się bezpodstawne."
+    ru: "Подозрение оказалось безосновательным."
+    source: { kind: authored }
+  - form: "posądzenie"
+    pl: "Odrzucił posądzenie o kradzież."
+    ru: "Он отверг обвинение в краже."
+    source: { kind: authored }
+  - form: "posądzenie"
+    pl: "Takie posądzenie rani najbardziej."
+    ru: "Такая напраслина ранит сильнее всего."
+    source: { kind: authored }
