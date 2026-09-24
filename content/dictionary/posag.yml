@@ -1,0 +1,75 @@
+# review
+id: posag
+format: 2
+lemma: "posąg"
+rank: 2296
+pos: noun
+pron: { cyr: "по́сонк" }
+senses:
+  - id: statue
+    ru: "статуя, изваяние"
+    examples:
+      - pl: "Posąg nie ma głowy."
+        ru: "У статуи нет головы."
+        source: { kind: tatoeba, id: 1110207 }
+      - pl: "Na placu przed pałacem stał posąg z brązu."
+        ru: "На площади перед дворцом стояла бронзовая статуя."
+        source: { kind: tatoeba, id: 1350365 }
+      - pl: "Na cmentarzu jest posąg węża zjadającego swój własny ogon."
+        ru: "На кладбище есть статуя змеи, кусающей собственный хвост."
+        source: { kind: tatoeba, id: 6170138 }
+  - id: monument
+    ru: "изваяние, памятник"
+    examples:
+      - pl: "Gdzie są te trzy nagie posągi pokazane na wystawie?"
+        ru: "Где те три обнажённые статуи, что показывали на выставке?"
+        source: { kind: translated, id: 401178 }
+      - pl: "Posąg stoi na wysokim cokole."
+        ru: "Статуя стоит на высоком постаменте."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Идентификатор карточки вводит в заблуждение: латиница стирает носовую ą, и posąg «статуя» выглядит как posag «приданое». Это разные слова — ср. пары posądzenie/posadzenie и osądzić/osadzić." }
+  - { kind: government, text: "Мужской неодушевлённый; родительный — posągu." }
+  - { kind: usage, text: "Более общее слово для памятника — pomnik; posąg подчёркивает, что это изваяние человеческой фигуры." }
+  - { kind: usage, text: "Переносно stać jak posąg «стоять как изваяние», о неподвижности." }
+collocations:
+  - { pl: "posąg z brązu", ru: "бронзовая статуя" }
+  - { pl: "stać jak posąg", ru: "стоять как изваяние" }
+etymology: "Праславянское *posagъ «поставленное»; родственно sadzić «сажать, ставить». Слово posag «приданое» — другое, от sięgać."
+memory: "posąg — «статуя». Не путайте с posag «приданое»: в латинице носовая ą пропадает и слова сливаются, как в парах posądzenie/posadzenie и osądzić/osadzić."
+idioms:
+  - { pl: "posąg z brązu", ru: "бронзовая статуя" }
+  - { pl: "stać jak posąg", ru: "стоять как изваяние" }
+formExamplesSkip:
+  - { form: "posągach", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągami", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągiem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągowi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągów", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posągu", reason: "в корпусе нет примеров для этой формы" }
+formExamples:
+  - form: "posąg"
+    pl: "Posąg nie ma głowy."
+    ru: "У статуи нет головы."
+    source: { kind: tatoeba, id: 1110207 }
+  - form: "posąg"
+    pl: "Na placu przed pałacem stał posąg z brązu."
+    ru: "На площади перед дворцом стояла бронзовая статуя."
+    source: { kind: tatoeba, id: 1350365 }
+  - form: "posąg"
+    pl: "Na cmentarzu jest posąg węża zjadającego swój własny ogon."
+    ru: "На кладбище есть статуя змеи, кусающей собственный хвост."
+    source: { kind: tatoeba, id: 6170138 }
+  - form: "posągi"
+    pl: "Gdzie są te trzy nagie posągi pokazane na wystawie?"
+    ru: "Где те три обнажённые статуи, что показывали на выставке?"
+    source: { kind: translated, id: 401178 }
+  - form: "posągi"
+    pl: "W parku stoją stare posągi."
+    ru: "В парке стоят старые статуи."
+    source: { kind: authored }
+  - form: "posągi"
+    pl: "Posągi pokryła zieleń."
+    ru: "Статуи покрылись зеленью."
+    source: { kind: authored }

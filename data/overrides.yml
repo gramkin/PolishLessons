@@ -717,6 +717,9 @@ exclude:
   # lepiej is the suppletive comparative of the adverb dobrze, already carded
   # ("Lepiej poczekaj tutaj"). pos: noun is likewise wrong.
   - lepiej
+  # kosci is the genitive/nominative plural of kość, already carded
+  # ("do szpiku kości", "33 lub 34 kości"). pos: noun is what let it through.
+  - kosci
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -887,6 +890,7 @@ excludeNotes:
   rad: { why: form-of, see: rada }
   pyta: { why: form-of, see: pytac }
   lepiej: { why: form-of, see: dobrze }
+  kosci: { why: form-of, see: kosc }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
