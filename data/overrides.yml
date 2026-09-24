@@ -742,6 +742,11 @@ exclude:
   # The common noun for a hallway is hol, which has no card, so there is no
   # form-of target either -- proper-noun needs none.
   - hall
+  # woli is registered pos: adj, which it is not. Its candidates mix verb
+  # forms of wolec ("Woli cisze", "Wola Panstwo kawe?") with the noun wola
+  # ("wbrew swojej woli", "zgodnie z wola Boga"). wolec is carded and wola is
+  # NOT, so only the verb target resolves -- the noun wola stays uncarded.
+  - woli
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -919,6 +924,7 @@ excludeNotes:
   winna: { why: form-of, see: winny }
   gory: { why: form-of, see: gora }
   hall: { why: proper-noun }
+  woli: { why: form-of, see: wolec }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
