@@ -67,8 +67,8 @@ describe('storySchema', () => {
     expect(storySchema.safeParse(story).success).toBe(true)
   })
 
-  it('rejects unknown level', () => {
-    const story = { title: 'X', titleRu: 'Х', level: 'B2', sentences: [{ pl: 'a', ru: 'а' }] }
+  it('rejects a level outside the enum (B1/B2 are legal since books)', () => {
+    const story = { title: 'X', titleRu: 'Х', level: 'C1', sentences: [{ pl: 'a', ru: 'а' }] }
     expect(storySchema.safeParse(story).success).toBe(false)
   })
 })

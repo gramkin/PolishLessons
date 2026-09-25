@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-export const LEVELS = ['A1', 'A2'] as const
+export const LEVELS = ['A1', 'A2', 'B1', 'B2'] as const
 export const POS = [
   'noun',
   'verb',
@@ -57,6 +57,36 @@ export const storySchema = z.object({
   level: levelSchema,
   description: z.string().optional(),
   sentences: z.array(sentenceSchema).min(1),
+})
+
+// Books are read with the Ilya Frank method: each paragraph is split into chunks
+// carrying an inline Russian gloss, then repeated clean for a second, unaided pass.
+export const bookChunkSchema = z.object({ pl: text, ru: text })
+export const bookParagraphSchema = z.object({
+  clean: text,
+  chunks: z.array(bookChunkSchema).min(1),
+  /** exact surface form -> dictionary card id */
+  words: z.record(z.string(), wordId).optional(),
+})
+// Source and licence are structural, not decoration: a freely licensed translation
+// may require attribution and share-alike, so a book cannot be published without them.
+export const bookSourceSchema = z.object({
+  name: text,
+  url: text,
+  license: text,
+  licenseUrl: text,
+})
+export const bookSchema = z.object({
+  title: text,
+  titleRu: text,
+  author: text,
+  translator: z.string().optional(),
+  source: bookSourceSchema,
+  chapter: positiveInt,
+  chapterTitle: text,
+  chapterTitleRu: text,
+  level: levelSchema,
+  paragraphs: z.array(bookParagraphSchema).min(1),
 })
 
 export const lessonMetaSchema = z.object({
@@ -131,6 +161,8 @@ export type Pattern = z.infer<typeof patternSchema>
 export type Chapter = z.infer<typeof chapterSchema>
 export type Sentence = z.infer<typeof sentenceSchema>
 export type Story = z.infer<typeof storySchema>
+export type Book = z.infer<typeof bookSchema>
+export type BookParagraph = z.infer<typeof bookParagraphSchema>
 export type LessonMeta = z.infer<typeof lessonMetaSchema>
 export type LessonFrontmatter = z.infer<typeof lessonFrontmatterSchema>
 export type Question = z.infer<typeof questionSchema>
