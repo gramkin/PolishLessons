@@ -14,6 +14,19 @@ describe('highlightForms', () => {
     ])
   })
 
+  it('bolds an analytic form as a single span', () => {
+    expect(highlightForms('Będziemy zwiększać produkcję.', ['będziemy zwiększać'])).toEqual([
+      { text: 'Będziemy zwiększać', hl: true },
+      { text: ' produkcję.', hl: false },
+    ])
+  })
+
+  it('leaves an analytic form alone when its words are not adjacent', () => {
+    expect(highlightForms('Będziemy dużo zwiększać.', ['będziemy zwiększać'])).toEqual([
+      { text: 'Będziemy dużo zwiększać.', hl: false },
+    ])
+  })
+
   it('handles agglutinated endings and leaves partial matches alone', () => {
     expect(highlightForms('Miałem psa.', ['miał'])[0]).toEqual({ text: 'Miałem', hl: true })
     expect(highlightForms('Domowy obiad.', ['dom'])).toEqual([{ text: 'Domowy obiad.', hl: false }])

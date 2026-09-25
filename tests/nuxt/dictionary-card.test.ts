@@ -143,6 +143,34 @@ describe('dictionary card components', () => {
     expect(wrapper.find('.form-example').text()).toContain('Я готовлю обед.')
   })
 
+  it('makes an analytic future cell clickable', async () => {
+    const tables = [
+      {
+        title: 'Будущее время',
+        columns: ['Ед. ч.'],
+        rows: [{ label: '1-е лицо', cells: [['będę robić']] }],
+        extra: false,
+      },
+    ]
+    const formExamples = [
+      {
+        form: 'będę robić',
+        pl: 'Będę robić obiad.',
+        ru: 'Я буду готовить обед.',
+        source: { kind: 'authored' as const },
+      },
+    ]
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables, formExamples, cardId: card.id, negatedForms: [] },
+    })
+    const button = wrapper.find('button.form-button')
+    expect(button.exists()).toBe(true)
+    expect(button.text()).toBe('będę robić')
+    await button.trigger('click')
+    expect(wrapper.find('.form-example').text()).toContain('Я буду готовить обед.')
+    expect(wrapper.find('.form-example strong').text()).toBe('Będę robić')
+  })
+
   it('renders an origin section only when there is something to show', async () => {
     const empty = await mountSuspended(Origin, { props: {} })
     expect(empty.find('section').exists()).toBe(false)

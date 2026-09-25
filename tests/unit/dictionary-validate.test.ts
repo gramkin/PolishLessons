@@ -462,3 +462,82 @@ describe('deep cards', () => {
     expect(warnings.some((w) => w.includes('depth bar'))).toBe(false)
   })
 })
+
+describe('analytic forms', () => {
+  const entry = (form: string, pl: string) => ({
+    form,
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' },
+  })
+
+  // «będę domu» stands in for a real analytic cell such as «będę zwiększać»: composed for
+  // display from two words, so it lives in the tables and never in allForms.
+  function withAnalytic(entries: unknown[]) {
+    const b = bundle()
+    const forms = b.forms[0]!.data as { allForms: string[]; tables: unknown[] }
+    forms.allForms = ['dom', 'domu']
+    forms.tables = [
+      {
+        title: 'Будущее время',
+        columns: ['Ед. ч.'],
+        rows: [{ label: '1-е лицо', cells: [['będę domu']] }],
+        extra: false,
+      },
+    ]
+    ;(b.cards[0]!.data as Record<string, unknown>).formExamples = [
+      entry('dom', 'To jest dom.'),
+      entry('dom', 'Mój dom jest duży.'),
+      entry('dom', 'Tam stoi dom.'),
+      entry('domu', 'Wracam do domu.'),
+      entry('domu', 'Nie ma go w domu.'),
+      entry('domu', 'Idę do domu.'),
+      ...entries,
+    ]
+    return b
+  }
+
+  it('accepts examples for a cell composed of two words', () => {
+    const errors = validateDictionary(
+      withAnalytic([
+        entry('będę domu', 'Będę domu pilnował.'),
+        entry('będę domu', 'Jutro będę domu szukał.'),
+        entry('będę domu', 'Wkrótce będę domu bronił.'),
+      ]),
+      { requireLessonCards: false },
+    ).errors
+    expect(errors).toEqual([])
+  })
+
+  it('requires the words of the phrase to be adjacent and in order', () => {
+    const errors = validateDictionary(
+      withAnalytic([
+        entry('będę domu', 'Będę domu pilnował.'),
+        entry('będę domu', 'Jutro będę domu szukał.'),
+        entry('będę domu', 'Będę w domu.'),
+      ]),
+      { requireLessonCards: false },
+    ).errors
+    expect(errors).toContain(
+      'dictionary/dom.yml: form example for "będę domu" does not contain that form: "Będę w domu."',
+    )
+  })
+
+  it('rejects a phrase that is not a cell of the paradigm', () => {
+    const errors = validateDictionary(
+      withAnalytic([
+        entry('będę dom', 'Będę dom budował.'),
+        entry('będę dom', 'Jutro będę dom malował.'),
+        entry('będę dom', 'Wkrótce będę dom sprzedawał.'),
+      ]),
+      { requireLessonCards: false },
+    ).errors
+    expect(errors).toContain(
+      'dictionary/dom.yml: formExamples has "będę dom", which is not an affirmative form',
+    )
+  })
+
+  it('does not require analytic cells to be exemplified', () => {
+    expect(validateDictionary(withAnalytic([]), { requireLessonCards: false }).errors).toEqual([])
+  })
+})

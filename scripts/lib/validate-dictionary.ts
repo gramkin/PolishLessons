@@ -35,6 +35,22 @@ export function exampleHasForm(text: string, forms: Set<string>): boolean {
   )
 }
 
+/**
+ * Whether a sentence contains a form. Paradigm cells can be analytic — «będę zwiększać»,
+ * «niech zwiększa» are two words composed for display — so a phrase has to match as a run
+ * of adjacent tokens rather than as a single one.
+ */
+export function formInSentence(text: string, form: string): boolean {
+  const target = tokenize(form)
+  if (target.length === 0) return false
+  const tokens = tokenize(text)
+  if (target.length === 1) return tokens.includes(target[0]!)
+  for (let i = 0; i + target.length <= tokens.length; i += 1) {
+    if (target.every((part, k) => tokens[i + k] === part)) return true
+  }
+  return false
+}
+
 const MIN_FORM_EXAMPLES = 3
 const MAX_SENSE_EXAMPLES = 6
 // A deep card earns its keep through explanation, not through sense count:
@@ -163,6 +179,13 @@ export function validateDictionary(
 
     if (formsFile && card.formExamples.length > 0) {
       const expected = affirmativeForms(formsFile.allForms)
+      // Analytic cells («będę zwiększać», «niech zwiększa») are composed for display and never
+      // appear in allForms. They may carry examples, but are not required to: demanding them
+      // would fail every imperfective verb card at once.
+      const analytic = formsFile.tables.flatMap((table) =>
+        table.rows.flatMap((row) => row.cells.flatMap((cell) => cell.filter((f) => /\s/.test(f)))),
+      )
+      const allowed = new Set([...expected, ...analytic])
       const seen = new Map<string, number>()
       const sentences = new Set<string>()
       for (const entry of card.formExamples) {
@@ -172,10 +195,10 @@ export function validateDictionary(
           errors.push(`${path}: formExamples repeats "${entry.pl}" for "${entry.form}"`)
         }
         sentences.add(key)
-        if (!expected.includes(entry.form)) {
+        if (!allowed.has(entry.form)) {
           errors.push(`${path}: formExamples has "${entry.form}", which is not an affirmative form`)
         }
-        if (!tokenize(entry.pl).includes(entry.form.toLowerCase())) {
+        if (!formInSentence(entry.pl, entry.form)) {
           errors.push(
             `${path}: form example for "${entry.form}" does not contain that form: "${entry.pl}"`,
           )
@@ -190,7 +213,7 @@ export function validateDictionary(
       }
       const skipped = new Map(card.formExamplesSkip.map((s) => [s.form, s.reason]))
       for (const form of skipped.keys()) {
-        if (!expected.includes(form))
+        if (!allowed.has(form))
           errors.push(`${path}: formExamplesSkip has "${form}", which is not an affirmative form`)
         if (seen.has(form)) errors.push(`${path}: "${form}" is both skipped and exemplified`)
       }
