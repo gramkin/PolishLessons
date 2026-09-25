@@ -144,3 +144,62 @@ describe('verse', () => {
     expect(wrapper.findAll('p.clean')[1]!.classes()).not.toContain('verse')
   })
 })
+
+describe('scene breaks', () => {
+  // Carroll marks a jump in the narrative with a row of asterisks, and prints it
+  // two or three times over. It is punctuation, not a sentence: glossing it,
+  // linking it or offering to read it aloud is noise.
+  const asterisks = '* * * * * * *'
+  const withBreaks = bookSchema.parse({
+    title: 'Alicja',
+    titleRu: 'Алиса',
+    author: 'Lewis Carroll',
+    source: {
+      name: 'Project Gutenberg',
+      url: 'https://www.gutenberg.org/ebooks/11',
+      license: 'Public domain',
+      licenseUrl: 'https://www.gutenberg.org/policy/permission.html',
+    },
+    chapter: 1,
+    chapterTitle: 'W głąb króliczej nory',
+    chapterTitleRu: 'Вниз по кроличьей норе',
+    level: 'B1',
+    paragraphs: [
+      { clean: 'Alicja spadała.', chunks: [{ pl: 'Alicja spadała.', ru: 'Алиса падала.' }] },
+      { clean: asterisks, chunks: [{ pl: asterisks, ru: 'разрыв в повествовании' }] },
+      { clean: asterisks, chunks: [{ pl: asterisks, ru: 'разрыв в повествовании' }] },
+      { clean: asterisks, chunks: [{ pl: asterisks, ru: 'разрыв в повествовании' }] },
+      { clean: 'Wylądowała.', chunks: [{ pl: 'Wylądowała.', ru: 'Она приземлилась.' }] },
+    ],
+  })
+
+  it('renders a row of asterisks as a divider rather than a paragraph', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: withBreaks } })
+    expect(wrapper.findAll('section.para')).toHaveLength(2)
+    expect(wrapper.findAll('[role="separator"]')).toHaveLength(1)
+  })
+
+  it('collapses a repeated row into a single break', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: withBreaks } })
+    // Three rows in the source stand for one gap, not three.
+    expect(wrapper.findAll('[role="separator"]')).toHaveLength(1)
+  })
+
+  it('never glosses, links or offers to read the asterisks', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: withBreaks } })
+    expect(wrapper.text()).not.toContain('разрыв в повествовании')
+    for (const clean of wrapper.findAll('p.clean')) {
+      expect(clean.text()).not.toContain('*')
+    }
+    for (const glossed of wrapper.findAll('p.glossed')) {
+      expect(glossed.text()).not.toContain('*')
+    }
+  })
+
+  it('leaves the surrounding prose untouched', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: withBreaks } })
+    const cleans = wrapper.findAll('p.clean')
+    expect(cleans[0]!.text()).toContain('Alicja spadała.')
+    expect(cleans[1]!.text()).toContain('Wylądowała.')
+  })
+})

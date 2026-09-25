@@ -27,9 +27,14 @@ watch(mode, () => {
 
 // The clean repeat carries the word links: on the second, unaided pass the reader
 // is the one who needs the dictionary, not on the glossed pass.
+// A row of asterisks is a scene break, not language: there is nothing in it to
+// gloss, to look up, or to read aloud.
+const SCENE_BREAK = /^[*\s]+$/
+
 const paragraphs = computed(() =>
   props.book.paragraphs.map((paragraph, index) => ({
     index,
+    sceneBreak: paragraph.clean.includes('*') && SCENE_BREAK.test(paragraph.clean),
     // Chunks carry the spacing that rebuilds the source text, so the gloss and note
     // are trimmed here: otherwise the bracket renders as "( перевод".
     verse: paragraph.verse === true,
@@ -41,6 +46,12 @@ const paragraphs = computed(() =>
     clean: paragraph.clean,
     tokens: tokenizeSentence(paragraph.clean, paragraph.words),
   })),
+)
+
+// The source repeats the asterisk row two or three times to widen the gap. That
+// is typesetting, not three separate breaks, so a run collapses into one.
+const items = computed(() =>
+  paragraphs.value.filter((paragraph, i, all) => !(paragraph.sceneBreak && all[i - 1]?.sceneBreak)),
 )
 
 function ruVisible(index: number): boolean {
@@ -70,48 +81,58 @@ function toggle(index: number) {
       </button>
     </div>
 
-    <section v-for="p in paragraphs" :key="p.index" class="para">
-      <p
-        class="glossed"
-        lang="pl"
-        :class="{ tappable: mode === 'tap', verse: p.verse }"
-        @click="mode === 'tap' && toggle(p.index)"
+    <template v-for="p in items" :key="p.index">
+      <div
+        v-if="p.sceneBreak"
+        class="scene-break"
+        role="separator"
+        aria-label="Разрыв в повествовании"
       >
-        <template v-for="(chunk, k) in p.chunks" :key="k"
-          ><span class="pl">{{ chunk.pl }}</span
-          ><span v-if="ruVisible(p.index)" class="gloss" lang="ru">
-            ({{ chunk.ru
-            }}<template v-if="chunk.note"
-              >; <i class="note">{{ chunk.note }}</i></template
-            >)</span
-          ></template
+        * * *
+      </div>
+      <section v-else class="para">
+        <p
+          class="glossed"
+          lang="pl"
+          :class="{ tappable: mode === 'tap', verse: p.verse }"
+          @click="mode === 'tap' && toggle(p.index)"
         >
-        <button
-          v-if="mode === 'tap' && !ruVisible(p.index)"
-          type="button"
-          class="reveal"
-          :aria-expanded="false"
-          @click.stop="toggle(p.index)"
-        >
-          <span aria-hidden="true">↔</span>
-          <span class="sr-only">Показать перевод</span>
-        </button>
-      </p>
-      <p class="clean" lang="pl" :class="{ verse: p.verse }">
-        <template v-for="(token, k) in p.tokens" :key="k">
-          <NuxtLink
-            v-if="token.wordId"
-            class="book-word"
-            :to="`/slovo/${token.wordId}`"
-            target="_blank"
-            rel="noopener"
-            >{{ token.text }}</NuxtLink
+          <template v-for="(chunk, k) in p.chunks" :key="k"
+            ><span class="pl">{{ chunk.pl }}</span
+            ><span v-if="ruVisible(p.index)" class="gloss" lang="ru">
+              ({{ chunk.ru
+              }}<template v-if="chunk.note"
+                >; <i class="note">{{ chunk.note }}</i></template
+              >)</span
+            ></template
           >
-          <template v-else>{{ token.text }}</template>
-        </template>
-        <SpeakButton :text="p.clean" label="Читать абзац" />
-      </p>
-    </section>
+          <button
+            v-if="mode === 'tap' && !ruVisible(p.index)"
+            type="button"
+            class="reveal"
+            :aria-expanded="false"
+            @click.stop="toggle(p.index)"
+          >
+            <span aria-hidden="true">↔</span>
+            <span class="sr-only">Показать перевод</span>
+          </button>
+        </p>
+        <p class="clean" lang="pl" :class="{ verse: p.verse }">
+          <template v-for="(token, k) in p.tokens" :key="k">
+            <NuxtLink
+              v-if="token.wordId"
+              class="book-word"
+              :to="`/slovo/${token.wordId}`"
+              target="_blank"
+              rel="noopener"
+              >{{ token.text }}</NuxtLink
+            >
+            <template v-else>{{ token.text }}</template>
+          </template>
+          <SpeakButton :text="p.clean" label="Читать абзац" />
+        </p>
+      </section>
+    </template>
   </div>
 </template>
 
@@ -139,6 +160,13 @@ function toggle(index: number) {
 }
 .para {
   margin: 0 0 1.75rem;
+}
+.scene-break {
+  margin: 0 0 1.75rem;
+  color: var(--muted);
+  text-align: center;
+  letter-spacing: 0.5em;
+  user-select: none;
 }
 .glossed {
   margin: 0;
