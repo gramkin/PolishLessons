@@ -32,6 +32,7 @@ const paragraphs = computed(() =>
     index,
     // Chunks carry the spacing that rebuilds the source text, so the gloss and note
     // are trimmed here: otherwise the bracket renders as "( перевод".
+    verse: paragraph.verse === true,
     chunks: paragraph.chunks.map((chunk) => ({
       pl: chunk.pl,
       ru: chunk.ru.trim(),
@@ -73,7 +74,7 @@ function toggle(index: number) {
       <p
         class="glossed"
         lang="pl"
-        :class="{ tappable: mode === 'tap' }"
+        :class="{ tappable: mode === 'tap', verse: p.verse }"
         @click="mode === 'tap' && toggle(p.index)"
       >
         <template v-for="(chunk, k) in p.chunks" :key="k"
@@ -96,7 +97,7 @@ function toggle(index: number) {
           <span class="sr-only">Показать перевод</span>
         </button>
       </p>
-      <p class="clean" lang="pl">
+      <p class="clean" lang="pl" :class="{ verse: p.verse }">
         <template v-for="(token, k) in p.tokens" :key="k">
           <NuxtLink
             v-if="token.wordId"
@@ -155,6 +156,10 @@ function toggle(index: number) {
 }
 .note {
   font-style: italic;
+}
+/* Verse only: keep the line breaks the poem was written with. */
+.verse {
+  white-space: pre-line;
 }
 .clean {
   margin: 0.6rem 0 0;

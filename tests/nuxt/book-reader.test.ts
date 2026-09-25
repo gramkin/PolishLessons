@@ -100,3 +100,47 @@ describe('BookReader', () => {
     expect(wrapper.find('p.glossed').text()).toContain('Królicza nora przypominała tunel.')
   })
 })
+
+describe('verse', () => {
+  const poem = bookSchema.parse({
+    title: 'Alicja',
+    titleRu: 'Алиса',
+    author: 'Lewis Carroll',
+    source: {
+      name: 'Project Gutenberg',
+      url: 'https://www.gutenberg.org/ebooks/11',
+      license: 'Public domain',
+      licenseUrl: 'https://www.gutenberg.org/policy/permission.html',
+    },
+    chapter: 2,
+    chapterTitle: 'Jezioro łez',
+    chapterTitleRu: 'Море слёз',
+    level: 'B1',
+    paragraphs: [
+      {
+        clean: 'Pierwszy wers\nDrugi wers',
+        verse: true,
+        chunks: [
+          { pl: 'Pierwszy wers', ru: 'Первый стих' },
+          { pl: '\nDrugi wers', ru: 'Второй стих' },
+        ],
+      },
+      {
+        clean: 'Zwykły akapit.',
+        chunks: [{ pl: 'Zwykły akapit.', ru: 'Обычный абзац.' }],
+      },
+    ],
+  })
+
+  it('keeps the line breaks of a poem instead of running them together', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: poem } })
+    const paras = wrapper.findAll('p.clean')
+    expect(paras[0]!.classes()).toContain('verse')
+    expect(paras[0]!.text()).toContain('\n')
+  })
+
+  it('leaves prose paragraphs alone', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book: poem } })
+    expect(wrapper.findAll('p.clean')[1]!.classes()).not.toContain('verse')
+  })
+})

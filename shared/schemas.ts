@@ -78,6 +78,11 @@ export const bookParagraphSchema = z.object({
   en: z.string().optional(),
   /** true when the Polish is a draft translation awaiting a native check */
   draft: z.boolean().optional(),
+  /**
+   * Verse keeps its line breaks. Alice's poems parody Victorian schoolroom
+   * verse, so running their lines together would lose the point of them.
+   */
+  verse: z.boolean().optional(),
 })
 // Source and licence are structural, not decoration: a freely licensed translation
 // may require attribution and share-alike, so a book cannot be published without them.
