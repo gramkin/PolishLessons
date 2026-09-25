@@ -105,7 +105,8 @@ export function buildSearchDocs(bundle: ContentBundle): SearchDoc[] {
       id: `card:${card.data.id}`,
       type: 'word',
       title: `${card.data.lemma} — ${card.data.senses.map((s) => s.ru).join('; ')}`,
-      text: `${[...new Set([card.data.lemma, ...allForms])].join(' ')} ${card.data.senses.map((s) => s.ru).join(' ')}`,
+      text: `${card.data.lemma} ${card.data.senses.map((s) => s.ru).join(' ')}`,
+      forms: [...new Set([card.data.lemma, ...allForms])].join(' '),
       url: `/slovo/${card.data.id}`,
     })
   }

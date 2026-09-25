@@ -27,7 +27,12 @@ test('search finds a verb by an inflected form', async ({ page }) => {
   await gotoHydrated(page, '/')
   await page.keyboard.press('/')
   await page.getByRole('searchbox', { name: 'Поиск' }).fill('mam')
-  await page.locator('a.search-hit', { hasText: 'mieć' }).first().click()
+  // "mam" is a form of mieć, not a prefix of it, so this is the inflected-form
+  // lookup. Lessons are listed above the dictionary and 5.2 is itself about
+  // mieć, so the hit must be taken from the dictionary group to reach the card.
+  const words = page.locator('.search-group', { hasText: 'Словарь' })
+  await expect(words).toContainText('mieć')
+  await words.locator('a.search-hit[href="/slovo/miec"]').click()
   await expect(page).toHaveURL(/\/slovo\/miec\/?$/)
 })
 

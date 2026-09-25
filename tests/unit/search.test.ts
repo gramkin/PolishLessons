@@ -29,6 +29,107 @@ const docs: SearchDoc[] = [
 
 const index = createSearchIndex(docs)
 
+// The bug this guards against: word documents carry the whole inflection table,
+// and prefix matching scored a document once per matching form. A verb with
+// dozens of forms beginning "zab" outranked ząb, which matches exactly, and
+// mama outranked mieć for "mam". Both then fell outside the eight shown.
+const zabijac = ['zabijam', 'zabijasz', 'zabija', 'zabijamy', 'zabijacie', 'zabijaja']
+const mamaForms = ['mama', 'mamy', 'mamie', 'mame', 'mamo', 'mamom', 'mamami', 'mam']
+const inflected: SearchDoc[] = [
+  {
+    id: 'card:zab',
+    type: 'word',
+    title: 'ząb — зуб',
+    text: 'ząb зуб',
+    forms: 'ząb zęba zęby zębami',
+    url: '/slovo/zab',
+  },
+  {
+    id: 'card:zabijac',
+    type: 'word',
+    title: 'zabijać — убивать',
+    text: 'zabijać убивать',
+    forms: `zabijać ${zabijac.join(' ')}`,
+    url: '/slovo/zabijac',
+  },
+  {
+    id: 'card:miec',
+    type: 'word',
+    title: 'mieć — иметь',
+    text: 'mieć иметь',
+    forms: 'mieć mam masz ma mamy macie maja',
+    url: '/slovo/miec',
+  },
+  {
+    id: 'card:mama',
+    type: 'word',
+    title: 'mama — мама',
+    text: 'mama мама',
+    forms: `mama ${mamaForms.join(' ')}`,
+    url: '/slovo/mama',
+  },
+]
+const inflectedIndex = createSearchIndex(inflected)
+
+describe('ranking against inflection tables', () => {
+  it('puts the exact word above a verb whose many forms share the prefix', () => {
+    const hits = searchGrouped(inflectedIndex, 'zab')[0]!.hits
+    expect(hits[0]!.url).toBe('/slovo/zab')
+  })
+
+  it('finds a verb by an inflected form, above a noun that merely starts with it', () => {
+    const hits = searchGrouped(inflectedIndex, 'mam')[0]!.hits
+    expect(hits.map((h) => h.url)).toContain('/slovo/miec')
+  })
+
+  it('does not let the length penalty bury a verb with a long inflection table', () => {
+    // The real failure needed both halves: mieć carries dozens of forms, while
+    // przyjemność has "mam" sitting in a short title (Z kim mam przyjemność?).
+    // BM25 normalises by field length, so one exact match inside a long table
+    // scored below the short title, and mieć fell to twelfth of twenty-two.
+    const padding = Array.from({ length: 60 }, (_, i) => `forma${i}`).join(' ')
+    const withTable = createSearchIndex([
+      {
+        id: 'card:miec',
+        type: 'word',
+        title: 'mieć — иметь',
+        text: 'mieć иметь',
+        forms: `mieć mam masz ma mamy macie ${padding}`,
+        url: '/slovo/miec',
+      },
+      {
+        id: 'card:przyjemnosc',
+        type: 'word',
+        title: 'przyjemność — удовольствие; Z kim mam przyjemność?',
+        text: 'przyjemność удовольствие',
+        url: '/slovo/przyjemnosc',
+      },
+      {
+        id: 'card:tam',
+        type: 'word',
+        title: 'tam — там',
+        text: 'tam там',
+        forms: 'tam',
+        url: '/slovo/tam',
+      },
+    ])
+    const urls = searchGrouped(withTable, 'mam')[0]!.hits.map((h) => h.url)
+    expect(urls).toContain('/slovo/miec')
+    expect(urls.indexOf('/slovo/miec')).toBeLessThan(urls.indexOf('/slovo/przyjemnosc'))
+  })
+
+  it('still completes a headword typed only partly', () => {
+    const hits = searchGrouped(inflectedIndex, 'zabij')[0]!.hits
+    expect(hits[0]!.url).toBe('/slovo/zabijac')
+  })
+
+  it('does not match a fragment of an inflected form', () => {
+    // "zeb" is only part of zęba; prefixes over the table are what broke ranking.
+    const groups = searchGrouped(inflectedIndex, 'zeba')
+    expect(groups[0]!.hits.map((h) => h.url)).toContain('/slovo/zab')
+  })
+})
+
 describe('searchGrouped', () => {
   it('finds Polish words typed without diacritics', () => {
     const groups = searchGrouped(index, 'zab')

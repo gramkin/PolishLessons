@@ -120,7 +120,7 @@ describe('buildSearchDocs', () => {
 })
 
 describe('card documents', () => {
-  it('indexes cards by lemma, senses and all forms, replacing the lesson word document', () => {
+  it('keeps the inflected forms out of the gloss text, in a field of their own', () => {
     const withCard = {
       ...bundle,
       cards: [
@@ -169,7 +169,10 @@ describe('card documents', () => {
       id: 'card:zab',
       type: 'word',
       title: 'ząb — зуб',
-      text: 'ząb zęba zęby зуб',
+      // The forms live in their own field: searching a prefix across an
+      // inflection table ranks by how many forms share it, not by relevance.
+      text: 'ząb зуб',
+      forms: 'ząb zęba zęby',
       url: '/slovo/zab',
     })
     expect(docs.some((d) => d.id === 'word:zab')).toBe(false)
