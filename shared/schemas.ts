@@ -70,6 +70,14 @@ export const bookParagraphSchema = z.object({
   chunks: z.array(bookChunkSchema).min(1),
   /** exact surface form -> dictionary card id */
   words: z.record(z.string(), wordId).optional(),
+  /**
+   * The source sentence this paragraph was translated from, when the Polish is
+   * itself a translation rather than the original. Kept so every paragraph stays
+   * traceable to its source and coverage can be checked mechanically.
+   */
+  en: z.string().optional(),
+  /** true when the Polish is a draft translation awaiting a native check */
+  draft: z.boolean().optional(),
 })
 // Source and licence are structural, not decoration: a freely licensed translation
 // may require attribution and share-alike, so a book cannot be published without them.
