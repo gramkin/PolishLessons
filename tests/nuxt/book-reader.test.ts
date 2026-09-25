@@ -23,7 +23,11 @@ const book = bookSchema.parse({
       clean: 'Królicza nora przypominała tunel.',
       chunks: [
         { pl: 'Królicza nora', ru: 'Кроличья нора' },
-        { pl: ' przypominała tunel.', ru: ' напоминала туннель.' },
+        {
+          pl: ' przypominała tunel.',
+          ru: ' напоминала туннель',
+          note: 'przypominać coś — напоминать что-л., с винительным без предлога',
+        },
       ],
       words: { nora: 'nora', tunel: 'tunel' },
     },
@@ -31,12 +35,19 @@ const book = bookSchema.parse({
 })
 
 describe('BookReader', () => {
-  it('shows each chunk beside its gloss', async () => {
+  it('runs the Polish on continuously with each gloss bracketed after its chunk', async () => {
     const wrapper = await mountSuspended(BookReader, { props: { book } })
-    const chunks = wrapper.findAll('li.chunk')
-    expect(chunks).toHaveLength(2)
-    expect(chunks[0]!.find('.pl').text()).toBe('Królicza nora')
-    expect(chunks[0]!.find('.ru').text()).toBe('Кроличья нора')
+    const text = wrapper.find('p.glossed').text().replace(/\s+/g, ' ')
+    expect(text).toContain('Królicza nora (Кроличья нора)')
+    expect(text).toContain('przypominała tunel. (напоминала туннель;')
+    expect(wrapper.findAll('li.chunk')).toHaveLength(0)
+  })
+
+  it('carries the usage note inside the bracket', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book } })
+    const note = wrapper.find('p.glossed i.note')
+    expect(note.exists()).toBe(true)
+    expect(note.text()).toContain('przypominać coś')
   })
 
   it('repeats the paragraph clean, with the glosses left out', async () => {
@@ -56,15 +67,15 @@ describe('BookReader', () => {
 
   it('hides the gloss until asked in tap mode', async () => {
     const wrapper = await mountSuspended(BookReader, { props: { book, initialMode: 'tap' } })
-    expect(wrapper.find('.chunk .ru').exists()).toBe(false)
+    expect(wrapper.find('.gloss').exists()).toBe(false)
     await wrapper.find('button.reveal').trigger('click')
-    expect(wrapper.find('.chunk .ru').text()).toBe('Кроличья нора')
+    expect(wrapper.find('.gloss').text()).toContain('Кроличья нора')
   })
 
-  it('drops the glosses entirely in hide mode', async () => {
+  it('drops the glosses entirely in hide mode, leaving plain Polish', async () => {
     const wrapper = await mountSuspended(BookReader, { props: { book, initialMode: 'hide' } })
-    expect(wrapper.find('.chunk .ru').exists()).toBe(false)
+    expect(wrapper.find('.gloss').exists()).toBe(false)
     expect(wrapper.find('button.reveal').exists()).toBe(false)
-    expect(wrapper.find('p.clean').text()).toContain('Królicza nora')
+    expect(wrapper.find('p.glossed').text()).toContain('Królicza nora przypominała tunel.')
   })
 })

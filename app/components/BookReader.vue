@@ -30,7 +30,13 @@ watch(mode, () => {
 const paragraphs = computed(() =>
   props.book.paragraphs.map((paragraph, index) => ({
     index,
-    chunks: paragraph.chunks,
+    // Chunks carry the spacing that rebuilds the source text, so the gloss and note
+    // are trimmed here: otherwise the bracket renders as "( перевод".
+    chunks: paragraph.chunks.map((chunk) => ({
+      pl: chunk.pl,
+      ru: chunk.ru.trim(),
+      note: chunk.note?.trim(),
+    })),
     clean: paragraph.clean,
     tokens: tokenizeSentence(paragraph.clean, paragraph.words),
   })),
@@ -64,23 +70,32 @@ function toggle(index: number) {
     </div>
 
     <section v-for="p in paragraphs" :key="p.index" class="para">
-      <ol class="chunks">
-        <li v-for="(chunk, k) in p.chunks" :key="k" class="chunk">
-          <span class="pl" lang="pl">{{ chunk.pl }}</span>
-          <SpeakButton :text="chunk.pl" />
-          <span v-if="ruVisible(p.index)" class="ru">{{ chunk.ru }}</span>
-          <button
-            v-else-if="mode === 'tap'"
-            type="button"
-            class="reveal"
-            :aria-expanded="false"
-            @click="toggle(p.index)"
-          >
-            <span aria-hidden="true">↔</span>
-            <span class="sr-only">Показать перевод</span>
-          </button>
-        </li>
-      </ol>
+      <p
+        class="glossed"
+        lang="pl"
+        :class="{ tappable: mode === 'tap' }"
+        @click="mode === 'tap' && toggle(p.index)"
+      >
+        <template v-for="(chunk, k) in p.chunks" :key="k"
+          ><span class="pl">{{ chunk.pl }}</span
+          ><span v-if="ruVisible(p.index)" class="gloss" lang="ru">
+            ({{ chunk.ru
+            }}<template v-if="chunk.note"
+              >; <i class="note">{{ chunk.note }}</i></template
+            >)</span
+          ></template
+        >
+        <button
+          v-if="mode === 'tap' && !ruVisible(p.index)"
+          type="button"
+          class="reveal"
+          :aria-expanded="false"
+          @click.stop="toggle(p.index)"
+        >
+          <span aria-hidden="true">↔</span>
+          <span class="sr-only">Показать перевод</span>
+        </button>
+      </p>
       <p class="clean" lang="pl">
         <template v-for="(token, k) in p.tokens" :key="k">
           <NuxtLink v-if="token.wordId" class="book-word" :to="`/slovo/${token.wordId}`">{{
@@ -119,23 +134,22 @@ function toggle(index: number) {
 .para {
   margin: 0 0 1.75rem;
 }
-.chunks {
-  list-style: none;
+.glossed {
   margin: 0;
-  padding: 0;
+  line-height: 1.9;
 }
-.chunk {
-  padding: 0.1rem 0;
-  line-height: 1.5;
+.glossed.tappable {
+  cursor: pointer;
 }
-.chunk .pl {
+.glossed .pl {
   color: var(--accent-pl);
 }
-.chunk .ru {
+.gloss {
   color: var(--muted);
+  font-size: 0.9375em;
 }
-.chunk .ru::before {
-  content: ' — ';
+.note {
+  font-style: italic;
 }
 .clean {
   margin: 0.6rem 0 0;
@@ -157,8 +171,5 @@ function toggle(index: number) {
   color: var(--muted);
   cursor: pointer;
   font-size: 0.8em;
-}
-.mode-hide .chunk .pl {
-  color: inherit;
 }
 </style>

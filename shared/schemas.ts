@@ -61,7 +61,10 @@ export const storySchema = z.object({
 
 // Books are read with the Ilya Frank method: each paragraph is split into chunks
 // carrying an inline Russian gloss, then repeated clean for a second, unaided pass.
-export const bookChunkSchema = z.object({ pl: text, ru: text })
+// `note` carries the teaching: a set phrase, a case government, a false friend.
+// It rides inside the bracket next to the gloss, which is what separates the Frank
+// method from a plain parallel text.
+export const bookChunkSchema = z.object({ pl: text, ru: text, note: z.string().optional() })
 export const bookParagraphSchema = z.object({
   clean: text,
   chunks: z.array(bookChunkSchema).min(1),
