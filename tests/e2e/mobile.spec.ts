@@ -11,7 +11,8 @@ test('the sidebar is an overlay that closes after navigation', async ({ page }) 
   await page.getByRole('button', { name: 'Показать или скрыть оглавление' }).click()
   await expect(sidebar).toBeInViewport()
 
-  await sidebar.getByRole('link', { name: /1\.2/ }).click()
+  // Match the lesson by href: /1\.2/ also matches «11.2 Вещи и места» in chapter 11.
+  await sidebar.locator('a[href="/lessons/01-alphabet/02-stress"]').click()
   await expect(page).toHaveURL(/\/lessons\/01-alphabet\/02-stress\/?$/)
   await expect(sidebar).not.toBeInViewport()
 })
