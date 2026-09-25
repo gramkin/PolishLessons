@@ -24,6 +24,7 @@ useSeoMeta({
           <span lang="pl">{{ story.title }}</span>
         </NuxtLink>
         — {{ story.titleRu }} <span class="level">{{ story.level }}</span>
+        <SpeakButton :text="story.title" />
       </li>
     </ul>
   </article>

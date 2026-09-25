@@ -5,6 +5,11 @@ const props = defineProps<{ card: Card; index: Map<string, IndexEntry> }>()
 const aspectPair = computed(() =>
   props.card.aspectPair ? (props.index.get(props.card.aspectPair) ?? null) : null,
 )
+// 93% of cards repeat a phrase in both lists, which printed it twice. Show it once.
+const idioms = computed(() => {
+  const listed = new Set(props.card.collocations.map((c) => c.pl))
+  return props.card.idioms.filter((i) => !listed.has(i.pl))
+})
 const RELATION_NAMES = {
   derived: 'производное',
   aspect: 'видовая пара',
@@ -15,17 +20,17 @@ const RELATION_NAMES = {
 
 <template>
   <section
-    v-if="card.collocations.length > 0 || card.idioms.length > 0"
+    v-if="card.collocations.length > 0 || idioms.length > 0"
     id="sochetaniya"
     aria-labelledby="sochetaniya-title"
   >
     <h2 id="sochetaniya-title">Сочетания и выражения</h2>
     <ul>
       <li v-for="item in card.collocations" :key="item.pl">
-        <span lang="pl">{{ item.pl }}</span> — {{ item.ru }}
+        <span lang="pl">{{ item.pl }}</span> — {{ item.ru }} <SpeakButton :text="item.pl" />
       </li>
-      <li v-for="item in card.idioms" :key="item.pl" class="idiom">
-        <span lang="pl">{{ item.pl }}</span> — {{ item.ru }}
+      <li v-for="item in idioms" :key="item.pl" class="idiom">
+        <span lang="pl">{{ item.pl }}</span> — {{ item.ru }} <SpeakButton :text="item.pl" />
       </li>
     </ul>
   </section>
@@ -46,13 +51,26 @@ const RELATION_NAMES = {
         }}</NuxtLink>
         <span v-else lang="pl">{{ member.pl }}</span>
         — {{ member.ru }} <span class="relation">({{ RELATION_NAMES[member.relation] }})</span>
+        <SpeakButton :text="member.pl" />
       </li>
     </ul>
     <p v-if="card.synonyms.length > 0" class="lexicon">
-      <strong>Синонимы:</strong> <span lang="pl">{{ card.synonyms.join(', ') }}</span>
+      <strong>Синонимы:</strong>
+      <span v-for="(word, i) in card.synonyms" :key="word"
+        ><span lang="pl">{{ word }}</span> <SpeakButton :text="word" /><template
+          v-if="i < card.synonyms.length - 1"
+          >,
+        </template></span
+      >
     </p>
     <p v-if="card.antonyms.length > 0" class="lexicon">
-      <strong>Антонимы:</strong> <span lang="pl">{{ card.antonyms.join(', ') }}</span>
+      <strong>Антонимы:</strong>
+      <span v-for="(word, i) in card.antonyms" :key="word"
+        ><span lang="pl">{{ word }}</span> <SpeakButton :text="word" /><template
+          v-if="i < card.antonyms.length - 1"
+          >,
+        </template></span
+      >
     </p>
   </section>
 </template>

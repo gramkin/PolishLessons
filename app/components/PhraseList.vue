@@ -12,6 +12,7 @@ const emit = defineEmits<{ remove: [id: string] }>()
       <li v-for="phrase in phrases" :key="phrase.id">
         <span lang="pl">{{ phrase.pl }}</span>
         <span class="translation"> — {{ phrase.ru }}</span>
+        <SpeakButton :text="phrase.pl" />
         <NuxtLink v-if="phrase.from" :to="`/slovo/${phrase.from}`" class="origin"
           >источник</NuxtLink
         >

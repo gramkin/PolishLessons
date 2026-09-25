@@ -13,6 +13,7 @@ const meaning = computed(() => props.meaning ?? word.value?.falseFriend?.meaning
   <aside class="false-friend callout" role="note">
     <span class="icon" aria-hidden="true">⚠</span>
     <span><strong lang="pl">{{ polish }}</strong> ≠ {{ russian }}. Значит: {{ meaning }}</span>
+    <SpeakButton v-if="polish" :text="polish" />
   </aside>
 </template>
 

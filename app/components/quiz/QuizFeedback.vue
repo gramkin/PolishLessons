@@ -13,6 +13,7 @@ defineProps<{ verdict: Verdict; answer: string; explain?: string }>()
     <strong v-else
       >Неверно. Правильный ответ: <span lang="pl">{{ answer }}</span></strong
     >
+    <SpeakButton v-if="verdict !== 'correct'" :text="answer" />
     <p v-if="explain" class="explain">{{ explain }}</p>
   </div>
 </template>

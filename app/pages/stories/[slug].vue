@@ -17,7 +17,9 @@ useSeoMeta({
 <template>
   <article v-if="story" class="content">
     <h1 lang="pl">{{ story.title }}</h1>
-    <p class="subtitle">{{ story.titleRu }} · {{ story.level }}</p>
+    <p class="subtitle">
+      {{ story.titleRu }} · {{ story.level }} <SpeakButton :text="story.title" />
+    </p>
     <StoryView :story="story" :initial-mode="progress.settings.translationMode" />
   </article>
 </template>

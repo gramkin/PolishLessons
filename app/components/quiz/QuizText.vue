@@ -31,6 +31,7 @@ function submit() {
     <label :for="inputId" class="quiz-q">{{ question.q }}</label>
     <p v-if="hint" class="quiz-hint">
       Подсказка: <span lang="pl">{{ hint.pl }}</span> ↔ {{ hint.ru }}
+      <SpeakButton :text="hint.pl" />
     </p>
     <div class="row">
       <input
