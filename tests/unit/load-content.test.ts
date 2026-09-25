@@ -8,10 +8,12 @@ function makeRoot(): string {
   const root = mkdtempSync(join(tmpdir(), 'polski-content-'))
   mkdirSync(join(root, 'words'))
   mkdirSync(join(root, 'stories'))
+  mkdirSync(join(root, 'books'))
   mkdirSync(join(root, 'lessons', '01-alphabet'), { recursive: true })
   writeFileSync(join(root, 'chapters.yml'), 'chapters:\n  - number: 1\n    title: Алфавит\n')
   writeFileSync(join(root, 'words', 'basics.yml'), 'words:\n  - id: dom\n')
   writeFileSync(join(root, 'stories', 'kot.yml'), 'title: Kot\n')
+  writeFileSync(join(root, 'books', 'alicja.yml'), 'title: Alicja\n')
   writeFileSync(
     join(root, 'lessons', '01-alphabet', '01-letters.md'),
     '---\ntitle: Буквы\nchapter: 1\n---\n\n# Буквы\n',
@@ -27,6 +29,7 @@ describe('loadContent', () => {
     expect(bundle.patterns).toBeNull()
     expect(bundle.words.map((f) => f.path)).toEqual(['words/basics.yml'])
     expect(bundle.stories.map((f) => f.path)).toEqual(['stories/kot.yml'])
+    expect(bundle.books.map((f) => f.path)).toEqual(['books/alicja.yml'])
     expect(bundle.lessons).toHaveLength(1)
     expect(bundle.lessons[0]?.path).toBe('lessons/01-alphabet/01-letters.md')
     expect(bundle.lessons[0]?.frontmatter).toEqual({ title: 'Буквы', chapter: 1 })
@@ -41,6 +44,7 @@ describe('loadContent', () => {
       patterns: null,
       words: [],
       stories: [],
+      books: [],
       lessons: [],
       cheatsheet: null,
       cards: [],

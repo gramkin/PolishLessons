@@ -98,9 +98,14 @@ function toggle(index: number) {
       </p>
       <p class="clean" lang="pl">
         <template v-for="(token, k) in p.tokens" :key="k">
-          <NuxtLink v-if="token.wordId" class="book-word" :to="`/slovo/${token.wordId}`">{{
-            token.text
-          }}</NuxtLink>
+          <NuxtLink
+            v-if="token.wordId"
+            class="book-word"
+            :to="`/slovo/${token.wordId}`"
+            target="_blank"
+            rel="noopener"
+            >{{ token.text }}</NuxtLink
+          >
           <template v-else>{{ token.text }}</template>
         </template>
         <SpeakButton :text="p.clean" label="Читать абзац" />

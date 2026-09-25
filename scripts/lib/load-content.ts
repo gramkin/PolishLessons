@@ -19,6 +19,7 @@ export interface ContentBundle {
   patterns: DataFile | null
   words: DataFile[]
   stories: DataFile[]
+  books: DataFile[]
   lessons: MarkdownFile[]
   cheatsheet: MarkdownFile | null
   cards: DataFile[]
@@ -56,6 +57,7 @@ export function loadContent(root: string): ContentBundle {
     patterns: optional(join(root, 'patterns.yml'), (f) => readData(root, f)),
     words: listFiles(join(root, 'words'), '.yml').map((f) => readData(root, f)),
     stories: listFiles(join(root, 'stories'), '.yml').map((f) => readData(root, f)),
+    books: listFiles(join(root, 'books'), '.yml').map((f) => readData(root, f)),
     lessons: listFiles(join(root, 'lessons'), '.md').map((f) => readMarkdown(root, f)),
     cheatsheet: optional(join(root, 'cheatsheet.md'), (f) => readMarkdown(root, f)),
     cards: listFiles(join(root, 'dictionary'), '.yml').map((f) => readData(root, f)),

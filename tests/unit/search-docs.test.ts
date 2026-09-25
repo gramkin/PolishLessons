@@ -19,6 +19,7 @@ const bundle: ContentBundle = {
     data: { patterns: [{ id: 'x', pl: 'x', ru: 'х', rule: 'r' }] },
   },
   words: [{ path: 'words/a.yml', data: { words } }],
+  books: [],
   stories: [
     {
       path: 'stories/kot.yml',

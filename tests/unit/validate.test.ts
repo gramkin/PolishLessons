@@ -40,6 +40,7 @@ function validBundle(): ContentBundle {
         },
       },
     ],
+    books: [],
     stories: [
       {
         path: 'stories/kot.yml',
@@ -182,5 +183,80 @@ describe('validateContent', () => {
     const errors = validateContent(bundle)
     expect(errors.some((e) => e.startsWith('lessons/01/01.md: title:'))).toBe(true)
     expect(errors.some((e) => e.startsWith('lessons/01/01.md: level:'))).toBe(true)
+  })
+})
+
+describe('books', () => {
+  const source = {
+    name: 'Wolne Lektury',
+    url: 'https://wolnelektury.pl/',
+    license: 'Licencja Wolnej Sztuki 1.3',
+    licenseUrl: 'https://artlibre.org/licence/lal/pl/',
+  }
+
+  function withBook(paragraphs: unknown[], cards: { path: string; data: unknown }[] = []) {
+    const bundle = validBundle()
+    bundle.cards = cards
+    bundle.books = [
+      {
+        path: 'books/alicja-01.yml',
+        data: {
+          title: 'Alicja w Krainie Czarów',
+          titleRu: 'Алиса в Стране чудес',
+          author: 'Lewis Carroll',
+          translator: 'Jarek Westermark',
+          source,
+          chapter: 1,
+          chapterTitle: 'W głąb króliczej nory',
+          chapterTitleRu: 'Вниз по кроличьей норе',
+          level: 'B1',
+          paragraphs,
+        },
+      },
+    ]
+    return bundle
+  }
+
+  // The chunks carry the spacing that rebuilds the paragraph. Dropping it is
+  // invisible in the data and only shows up as ")слово" once rendered.
+  const good = {
+    clean: 'Kot widzi rzekę.',
+    chunks: [
+      { pl: 'Kot widzi', ru: 'Кот видит' },
+      { pl: ' rzekę.', ru: 'реку.', note: 'widzieć co — винительный падеж' },
+    ],
+  }
+
+  it('accepts a book whose chunks rebuild the paragraph', () => {
+    expect(validateContent(withBook([good]))).toEqual([])
+  })
+
+  it('rejects chunks that no longer rebuild the source text', () => {
+    const stripped = {
+      clean: 'Kot widzi rzekę.',
+      chunks: [
+        { pl: 'Kot widzi', ru: 'Кот видит' },
+        { pl: 'rzekę.', ru: 'реку.' },
+      ],
+    }
+    expect(validateContent(withBook([stripped]))).toContain(
+      'books/alicja-01.yml: paragraph 1: chunks do not rebuild the source text',
+    )
+  })
+
+  it('rejects a word link whose card does not exist', () => {
+    const cards = [{ path: 'dictionary/rzeka.yml', data: { id: 'rzeka' } }]
+    const bundle = withBook([{ ...good, words: { rzekę: 'nieistnieje' } }], cards)
+    expect(validateContent(bundle)).toContain(
+      'books/alicja-01.yml: paragraph 1: unknown card id "nieistnieje"',
+    )
+  })
+
+  it('rejects a linked form that is absent from the paragraph', () => {
+    const cards = [{ path: 'dictionary/rzeka.yml', data: { id: 'rzeka' } }]
+    const bundle = withBook([{ ...good, words: { kaczka: 'rzeka' } }], cards)
+    expect(validateContent(bundle)).toContain(
+      'books/alicja-01.yml: paragraph 1: form "kaczka" not found in the text',
+    )
   })
 })

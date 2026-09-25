@@ -1,5 +1,9 @@
 import { z } from 'zod'
 import {
+  bookChunkSchema,
+  bookParagraphSchema,
+  bookSchema,
+  bookSourceSchema,
   chapterFileSchema,
   chapterSchema,
   lessonFrontmatterSchema,
@@ -26,6 +30,15 @@ const wordFileStrict = wordFileSchema
   .strict()
 const storyStrict = storySchema
   .extend({ sentences: z.array(sentenceSchema.strict()).min(1) })
+  .strict()
+const bookParagraphStrict = bookParagraphSchema
+  .extend({ chunks: z.array(bookChunkSchema.strict()).min(1) })
+  .strict()
+const bookStrict = bookSchema
+  .extend({
+    paragraphs: z.array(bookParagraphStrict).min(1),
+    source: bookSourceSchema.strict(),
+  })
   .strict()
 
 const REFERENCE_COMPONENTS = ['pl-word', 'pron', 'false-friend', 'cognate-list']
@@ -185,6 +198,32 @@ export function validateContent(bundle: ContentBundle): string[] {
           errors.push(
             `${file.path}: sentence ${index + 1}: form "${form}" not found in Polish text`,
           )
+        }
+      }
+    })
+  }
+
+  // A book's chunks carry the spacing that rebuilds the source text. Stripping it
+  // is invisible in the data and only shows up as ")слово" on the page, so the
+  // rebuild is asserted here rather than trusted.
+  const cardIds = new Set(
+    bundle.cards
+      .map((file) => (file.data as { id?: string } | null)?.id)
+      .filter((id): id is string => typeof id === 'string'),
+  )
+  for (const file of bundle.books) {
+    const book = parseWith(bookStrict, file.data, file.path, errors)
+    book?.paragraphs.forEach((paragraph, index) => {
+      const rebuilt = paragraph.chunks.map((chunk) => chunk.pl).join('')
+      if (rebuilt !== paragraph.clean) {
+        errors.push(`${file.path}: paragraph ${index + 1}: chunks do not rebuild the source text`)
+      }
+      for (const [form, id] of Object.entries(paragraph.words ?? {})) {
+        if (cardIds.size > 0 && !cardIds.has(id)) {
+          errors.push(`${file.path}: paragraph ${index + 1}: unknown card id "${id}"`)
+        }
+        if (!paragraph.clean.includes(form)) {
+          errors.push(`${file.path}: paragraph ${index + 1}: form "${form}" not found in the text`)
         }
       }
     })

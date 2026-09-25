@@ -43,6 +43,16 @@ describe('BookReader', () => {
     expect(wrapper.findAll('li.chunk')).toHaveLength(0)
   })
 
+  it('keeps the space between a closing bracket and the next chunk', async () => {
+    const wrapper = await mountSuspended(BookReader, { props: { book } })
+    // Chunks carry the spacing that rebuilds the source, so the glossed flow must
+    // read ") przypominała", never ")przypominała". Collapsing whitespace before
+    // asserting would hide exactly this bug, so only newlines are normalised.
+    const text = wrapper.find('p.glossed').text().replace(/\n+/g, ' ')
+    expect(text).toContain(') przypominała')
+    expect(text).not.toMatch(/\)\S/)
+  })
+
   it('carries the usage note inside the bracket', async () => {
     const wrapper = await mountSuspended(BookReader, { props: { book } })
     const note = wrapper.find('p.glossed i.note')
@@ -63,6 +73,17 @@ describe('BookReader', () => {
     const links = wrapper.findAll('p.clean a.book-word')
     expect(links).toHaveLength(2)
     expect(links.map((a) => a.attributes('href')).sort()).toEqual(['/slovo/nora', '/slovo/tunel'])
+  })
+
+  it('opens dictionary links in a new tab, without handing over the opener', () => {
+    // Reading should not be interrupted: looking a word up must not navigate the
+    // reader away from the page they are in the middle of.
+    return mountSuspended(BookReader, { props: { book } }).then((wrapper) => {
+      for (const link of wrapper.findAll('p.clean a.book-word')) {
+        expect(link.attributes('target')).toBe('_blank')
+        expect(link.attributes('rel')).toContain('noopener')
+      }
+    })
   })
 
   it('hides the gloss until asked in tap mode', async () => {
