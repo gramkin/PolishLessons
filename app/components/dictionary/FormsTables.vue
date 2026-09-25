@@ -22,6 +22,16 @@ const byForm = computed(() => {
   return map
 })
 const groups = computed(() => Object.entries(byForm.value))
+const skippedByForm = computed(() =>
+  Object.fromEntries(props.skipped.map((item) => [item.form, item.reason])),
+)
+// Forms shown in a table explain themselves there. What remains are forms that
+// appear in no table at all — 7213 of them across 582 cards — so the list below
+// stays, carrying only those.
+const tableCells = computed(
+  () => new Set(props.tables.flatMap((t) => t.rows.flatMap((r) => r.cells.flat()))),
+)
+const orphanSkips = computed(() => props.skipped.filter((s) => !tableCells.value.has(s.form)))
 </script>
 
 <template>
@@ -33,6 +43,7 @@ const groups = computed(() => Object.entries(byForm.value))
       :table="table"
       :examples="byForm"
       :card-id="cardId"
+      :skipped="skippedByForm"
     />
     <details v-if="extra.length > 0" class="all-forms">
       <summary>Все формы</summary>
@@ -42,6 +53,7 @@ const groups = computed(() => Object.entries(byForm.value))
         :table="table"
         :examples="byForm"
         :card-id="cardId"
+        :skipped="skippedByForm"
       />
     </details>
     <p v-if="negatedForms.length > 0" class="negation">
@@ -49,8 +61,8 @@ const groups = computed(() => Object.entries(byForm.value))
       <span lang="pl">{{ negatedForms.slice(0, 3).join(', ') }}</span
       >. Отдельных примеров для таких форм нет.
     </p>
-    <ul v-if="skipped.length > 0" class="skipped">
-      <li v-for="item in skipped" :key="item.form">
+    <ul v-if="orphanSkips.length > 0" class="skipped">
+      <li v-for="item in orphanSkips" :key="item.form">
         <span lang="pl" class="form-name">{{ item.form }}</span> — {{ item.reason }}
       </li>
     </ul>

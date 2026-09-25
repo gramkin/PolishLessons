@@ -6,6 +6,8 @@ const props = defineProps<{
   table: FormsTable
   examples?: Record<string, FormExample[]>
   cardId?: string
+  /** form -> why it carries no example, for the forms shown in this table */
+  skipped?: Record<string, string>
 }>()
 
 const selected = ref<string | null>(null)
@@ -15,6 +17,25 @@ const shown = computed(() => (selected.value ? (props.examples?.[selected.value]
 function examplesFor(form: string): FormExample[] {
   return props.examples?.[form] ?? []
 }
+
+// A form with no example is explained right under its own table: the reader
+// looking at «Повелительное наклонение» should not have to hunt for the reason.
+const tableSkips = computed(() => {
+  const reasons = props.skipped ?? {}
+  const grouped = new Map<string, string[]>()
+  for (const row of props.table.rows) {
+    for (const cell of row.cells) {
+      for (const form of cell) {
+        const reason = reasons[form]
+        if (!reason) continue
+        const forms = grouped.get(reason) ?? []
+        if (!forms.includes(form)) forms.push(form)
+        grouped.set(reason, forms)
+      }
+    }
+  }
+  return [...grouped].map(([reason, forms]) => ({ reason, forms }))
+})
 
 function toggle(form: string) {
   selected.value = selected.value === form ? null : form
@@ -53,7 +74,7 @@ function toggle(form: string) {
                   >
                     {{ form }}
                   </button>
-                  <span v-else>{{ form }}</span>
+                  <span v-else :class="{ 'is-skipped': skipped?.[form] }">{{ form }}</span>
                   <template v-if="k < cell.length - 1">, </template>
                 </template>
               </template>
@@ -63,6 +84,11 @@ function toggle(form: string) {
         </tbody>
       </table>
     </div>
+    <ul v-if="tableSkips.length > 0" class="table-skips">
+      <li v-for="item in tableSkips" :key="item.reason">
+        <span lang="pl">{{ item.forms.join(', ') }}</span> — {{ item.reason }}
+      </li>
+    </ul>
     <div :id="panelId" class="form-example" aria-live="polite">
       <template v-if="shown.length > 0">
         <p class="form-example-head">
@@ -108,6 +134,19 @@ tbody th {
   font-weight: 400;
   color: var(--muted);
   text-align: left;
+}
+.table-skips {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+.table-skips [lang='pl'] {
+  color: var(--accent-pl);
+}
+.is-skipped {
+  color: var(--muted);
 }
 .form-button {
   font: inherit;
