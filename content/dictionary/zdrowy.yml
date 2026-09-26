@@ -67,22 +67,27 @@ formExamplesSkip:
   - { form: "najzdrowszej", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najzdrowszemu", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najzdrowszy", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzdrowszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najzdrowszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najzdrowszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zdrowemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdrowsi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdrowsza", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zdrowszą", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "zdrowszego", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zdrowszej", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "zdrowszemu", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zdrowszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "zdrowszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "zdrowszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zdrowy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdrowymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "najzdrowszych"
+    pl: "Brokuły to jedne z najzdrowszych warzyw."
+    ru: "Брокколи — один из самых полезных овощей."
+    source: { kind: translated, id: 931106 }
+  - form: "najzdrowszych"
+    pl: "To jedna z najzdrowszych diet na świecie."
+    ru: "Это одна из самых здоровых диет в мире."
+    source: { kind: authored }
+  - form: "najzdrowszych"
+    pl: "Szukamy najzdrowszych produktów dla dzieci."
+    ru: "Мы ищем самые полезные продукты для детей."
+    source: { kind: authored }
   - form: "zdrowa"
     pl: "Jestem zdrowa."
     ru: "Я здорова."
@@ -155,6 +160,18 @@ formExamples:
     pl: "Mój dwulatek nie chce jeść zdrowej żywności, którą próbuję go karmić."
     ru: "Мой двухлетний сын не хочет есть здоровую еду, которой я пытаюсь его кормить."
     source: { kind: translated, id: 997612 }
+  - form: "zdrowemu"
+    pl: "Jaki sens zdrowemu człowiekowi leżeć w szpitalu?"
+    ru: "Какой смысл здоровому человеку лежать в больнице?"
+    source: { kind: translated, id: 1570631 }
+  - form: "zdrowemu"
+    pl: "Zdrowemu dziecku nie trzeba witamin."
+    ru: "Здоровому ребёнку витамины не нужны."
+    source: { kind: authored }
+  - form: "zdrowemu"
+    pl: "Przyglądaliśmy się zdrowemu drzewu obok chorego."
+    ru: "Мы присматривались к здоровому дереву рядом с больным."
+    source: { kind: authored }
   - form: "zdrowi"
     pl: "Są młodzi i zdrowi."
     ru: "Они молодые и здоровые."
@@ -171,6 +188,30 @@ formExamples:
     pl: "Zdrowi i chorzy nie myślą tak samo."
     ru: "Здоровые и больные думают по-разному."
     source: { kind: translated, id: 4730353 }
+  - form: "zdrowsza"
+    pl: "Jesteś młodsza, zdrowsza i silniejsza. Możesz to zrobić."
+    ru: "Ты моложе, здоровее и сильнее. Ты можешь это сделать."
+    source: { kind: translated, id: 5969992 }
+  - form: "zdrowsza"
+    pl: "Ta dieta jest zdrowsza od poprzedniej."
+    ru: "Эта диета полезнее предыдущей."
+    source: { kind: authored }
+  - form: "zdrowsza"
+    pl: "Po wakacjach babcia wygląda zdrowsza."
+    ru: "После отпуска бабушка выглядит здоровее."
+    source: { kind: authored }
+  - form: "zdrowszą"
+    pl: "Jesteś młodszą, zdrowszą i silniejszą osobą. Możesz to zrobić."
+    ru: "Ты более молодой, более здоровый и более сильный человек. Ты можешь это сделать."
+    source: { kind: translated, id: 5969993 }
+  - form: "zdrowszą"
+    pl: "Wybrał zdrowszą opcję w menu."
+    ru: "Он выбрал более полезный вариант в меню."
+    source: { kind: authored }
+  - form: "zdrowszą"
+    pl: "Uważam tę metodę za zdrowszą."
+    ru: "Я считаю этот метод более здоровым."
+    source: { kind: authored }
   - form: "zdrowsze"
     pl: "On je teraz zdrowsze jedzenie."
     ru: "Он теперь ест более здоровую пищу."
@@ -183,6 +224,18 @@ formExamples:
     pl: "Niektórzy uważają, że jedzenie w domu jest zdrowsze niż na mieście."
     ru: "Некоторые считают, что домашняя еда полезнее, чем в городе."
     source: { kind: translated, id: 1000600 }
+  - form: "zdrowszej"
+    pl: "Matka próbowała zachęcić mnie do zdrowszej diety."
+    ru: "Мать пыталась склонить меня к более здоровой диете."
+    source: { kind: translated, id: 997151 }
+  - form: "zdrowszej"
+    pl: "Szukamy zdrowszej alternatywy dla cukru."
+    ru: "Мы ищем более полезную замену сахару."
+    source: { kind: authored }
+  - form: "zdrowszej"
+    pl: "Dzięki zdrowszej diecie schudł pięć kilogramów."
+    ru: "Благодаря более здоровой диете он похудел на пять килограммов."
+    source: { kind: authored }
   - form: "zdrowszy"
     pl: "Gdybyś jadł mniej hamburgerów, pewnie byłbyś zdrowszy."
     ru: "Если бы ты ел меньше гамбургеров, то, возможно, был бы здоровее."
@@ -195,6 +248,30 @@ formExamples:
     pl: "Jesteś młodszy, zdrowszy i silniejszy. Możesz to zrobić."
     ru: "Ты моложе, здоровее и сильнее. Ты можешь это сделать."
     source: { kind: translated, id: 5969991 }
+  - form: "zdrowszych"
+    pl: "Malaryczny klimat sprawił, że mieszkańcy podróżowali do zdrowszych miejsc."
+    ru: "Малярийный климат привёл к тому, что жители уезжали в более здоровые места."
+    source: { kind: translated, id: 7682103 }
+  - form: "zdrowszych"
+    pl: "Potrzebujemy zdrowszych nawyków."
+    ru: "Нам нужны более здоровые привычки."
+    source: { kind: authored }
+  - form: "zdrowszych"
+    pl: "Wśród zdrowszych produktów są warzywa i kasze."
+    ru: "Среди более полезных продуктов — овощи и крупы."
+    source: { kind: authored }
+  - form: "zdrowy"
+    pl: "Jestem zdrowy."
+    ru: "Я здоров."
+    source: { kind: tatoeba, id: 525035 }
+  - form: "zdrowy"
+    pl: "Bądź zdrowy!"
+    ru: "Будь здоров!"
+    source: { kind: translated, id: 12135522 }
+  - form: "zdrowy"
+    pl: "Po badaniach okazało się, że jest zdrowy."
+    ru: "После обследования оказалось, что он здоров."
+    source: { kind: authored }
   - form: "zdrowych"
     pl: "Zakładników uwolniono całych i zdrowych."
     ru: "Заложников освободили целыми и невредимыми."
