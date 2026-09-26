@@ -61,10 +61,8 @@ idioms:
 formExamplesSkip:
   - { form: "utrzymacie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "utrzymaj", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "utrzymają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymajcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "utrzymajmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "utrzymali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -73,22 +71,15 @@ formExamplesSkip:
   - { form: "utrzymałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "utrzymałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "utrzymałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "utrzymałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "utrzymałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "utrzymało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "utrzymały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "utrzymałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "utrzymałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "utrzymam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymamy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "utrzymana", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "utrzymaną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
@@ -103,7 +94,6 @@ formExamplesSkip:
   - { form: "utrzymanych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "utrzymanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "utrzymanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "utrzymasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "utrzymawszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
   - form: "utrzyma"
@@ -138,6 +128,30 @@ formExamples:
     pl: "Jego pensja jest zbyt mała, by utrzymać rodzinę."
     ru: "Его зарплаты слишком мало, чтобы содержать семью."
     source: { kind: translated, id: 354074 }
+  - form: "utrzymają"
+    pl: "Utrzymają rodzinę z jednej pensji."
+    ru: "Они прокормят семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymają"
+    pl: "Nie utrzymają tego tempa."
+    ru: "Они не удержат этот темп."
+    source: { kind: authored }
+  - form: "utrzymają"
+    pl: "Utrzymają porządek do rana."
+    ru: "Они удержат порядок до утра."
+    source: { kind: authored }
+  - form: "utrzymali"
+    pl: "Utrzymali dom w dobrym stanie."
+    ru: "Они содержали дом в хорошем состоянии."
+    source: { kind: authored }
+  - form: "utrzymali"
+    pl: "Nie utrzymali przewagi."
+    ru: "Они не удержали преимущество."
+    source: { kind: authored }
+  - form: "utrzymali"
+    pl: "Utrzymali rodzinę z jednej pensji."
+    ru: "Они прокормили семью на одну зарплату."
+    source: { kind: authored }
   - form: "utrzymał"
     pl: "Utrzymał równowagę."
     ru: "Он удержал равновесие."
@@ -161,6 +175,90 @@ formExamples:
   - form: "utrzymała"
     pl: "Firma utrzymała pozycję na rynku."
     ru: "Фирма удержала позицию на рынке."
+    source: { kind: authored }
+  - form: "utrzymałam"
+    pl: "Utrzymałam rodzinę z jednej pensji."
+    ru: "Я прокормила семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymałam"
+    pl: "Nie utrzymałam równowagi."
+    ru: "Я не удержала равновесие."
+    source: { kind: authored }
+  - form: "utrzymałam"
+    pl: "Utrzymałam to w tajemnicy."
+    ru: "Я сохранила это в тайне."
+    source: { kind: authored }
+  - form: "utrzymałaś"
+    pl: "Utrzymałaś rodzinę z jednej pensji."
+    ru: "Ты прокормила семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymałaś"
+    pl: "Nie utrzymałaś równowagi."
+    ru: "Ты не удержала равновесие."
+    source: { kind: authored }
+  - form: "utrzymałaś"
+    pl: "Utrzymałaś to w tajemnicy."
+    ru: "Ты сохранила это в тайне."
+    source: { kind: authored }
+  - form: "utrzymałem"
+    pl: "Utrzymałem rodzinę z jednej pensji."
+    ru: "Я прокормил семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymałem"
+    pl: "Nie utrzymałem równowagi."
+    ru: "Я не удержал равновесие."
+    source: { kind: authored }
+  - form: "utrzymałem"
+    pl: "Utrzymałem to w tajemnicy."
+    ru: "Я сохранил это в тайне."
+    source: { kind: authored }
+  - form: "utrzymałeś"
+    pl: "Utrzymałeś rodzinę z jednej pensji."
+    ru: "Ты прокормил семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymałeś"
+    pl: "Nie utrzymałeś równowagi."
+    ru: "Ты не удержал равновесие."
+    source: { kind: authored }
+  - form: "utrzymałeś"
+    pl: "Utrzymałeś to w tajemnicy."
+    ru: "Ты сохранил это в тайне."
+    source: { kind: authored }
+  - form: "utrzymało"
+    pl: "Miasto utrzymało szpital."
+    ru: "Город содержал больницу."
+    source: { kind: authored }
+  - form: "utrzymało"
+    pl: "Wiele rodzin utrzymało gospodarstwa."
+    ru: "Многие семьи сохранили хозяйства."
+    source: { kind: authored }
+  - form: "utrzymało"
+    pl: "Dziecko nie utrzymało równowagi."
+    ru: "Ребёнок не удержал равновесие."
+    source: { kind: authored }
+  - form: "utrzymały"
+    pl: "Kobiety utrzymały gospodarstwo."
+    ru: "Женщины сохранили хозяйство."
+    source: { kind: authored }
+  - form: "utrzymały"
+    pl: "Firmy utrzymały ceny."
+    ru: "Фирмы удержали цены."
+    source: { kind: authored }
+  - form: "utrzymały"
+    pl: "Nie utrzymały przewagi."
+    ru: "Они не удержали преимущество."
+    source: { kind: authored }
+  - form: "utrzymam"
+    pl: "Utrzymam rodzinę z jednej pensji."
+    ru: "Я прокормлю семью на одну зарплату."
+    source: { kind: authored }
+  - form: "utrzymam"
+    pl: "Nie utrzymam tego dłużej."
+    ru: "Я не удержу это дольше."
+    source: { kind: authored }
+  - form: "utrzymam"
+    pl: "Utrzymam to w tajemnicy."
+    ru: "Я сохраню это в тайне."
     source: { kind: authored }
   - form: "utrzymania"
     pl: "Koszty utrzymania rosną."
@@ -202,3 +300,15 @@ formExamples:
     pl: "On ma liczną rodzinę na utrzymaniu."
     ru: "У него многочисленная семья на содержании."
     source: { kind: translated, id: 418302 }
+  - form: "utrzymasz"
+    pl: "Utrzymasz rodzinę z jednej pensji?"
+    ru: "Ты прокормишь семью на одну зарплату?"
+    source: { kind: authored }
+  - form: "utrzymasz"
+    pl: "Nie utrzymasz tego dłużej."
+    ru: "Ты не удержишь это дольше."
+    source: { kind: authored }
+  - form: "utrzymasz"
+    pl: "Utrzymasz to w tajemnicy?"
+    ru: "Ты сохранишь это в тайне?"
+    source: { kind: authored }

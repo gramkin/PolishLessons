@@ -59,7 +59,6 @@ idioms:
   - { pl: "oskarżyć o morderstwo", ru: "обвинить в убийстве" }
   - { pl: "ława oskarżonych", ru: "скамья подсудимых" }
 formExamplesSkip:
-  - { form: "oskarż", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "oskarżeni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "oskarżenie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
@@ -81,15 +80,10 @@ formExamplesSkip:
   - { form: "oskarżyłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "oskarżyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oskarżyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżyłby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "oskarżyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oskarżyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżyłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "oskarżyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżyłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -97,6 +91,18 @@ formExamplesSkip:
   - { form: "oskarżyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "oskarżywszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
+  - form: "oskarż"
+    pl: "Oskarż go, jeśli masz dowody."
+    ru: "Обвини его, если у тебя есть доказательства."
+    source: { kind: authored }
+  - form: "oskarż"
+    pl: "Oskarż winnego, nie świadka."
+    ru: "Обвиняй виновного, а не свидетеля."
+    source: { kind: authored }
+  - form: "oskarż"
+    pl: "Najpierw sprawdź, potem oskarż."
+    ru: "Сначала проверь, потом обвиняй."
+    source: { kind: authored }
   - form: "oskarżą"
     pl: "Oskarżą go o kradzież."
     ru: "Они обвинят его в краже."
@@ -269,6 +275,30 @@ formExamples:
     pl: "Część posłów oskarżyła prezydenta o masowe mordy."
     ru: "Часть парламентариев обвинила президента в массовых убийствах."
     source: { kind: tatoeba, id: 3243624 }
+  - form: "oskarżyłam"
+    pl: "Oskarżyłam go o kradzież."
+    ru: "Я обвинила его в краже."
+    source: { kind: authored }
+  - form: "oskarżyłam"
+    pl: "Nigdy nikogo nie oskarżyłam."
+    ru: "Я никогда никого не обвиняла."
+    source: { kind: authored }
+  - form: "oskarżyłam"
+    pl: "Oskarżyłam go niesłusznie."
+    ru: "Я обвинила его несправедливо."
+    source: { kind: authored }
+  - form: "oskarżyłaś"
+    pl: "Oskarżyłaś go o kradzież."
+    ru: "Ты обвинила его в краже."
+    source: { kind: authored }
+  - form: "oskarżyłaś"
+    pl: "Nigdy nikogo nie oskarżyłaś."
+    ru: "Ты никогда никого не обвиняла."
+    source: { kind: authored }
+  - form: "oskarżyłaś"
+    pl: "Oskarżyłaś go niesłusznie."
+    ru: "Ты обвинила его несправедливо."
+    source: { kind: authored }
   - form: "oskarżyłem"
     pl: "Oskarżyłem go o oszustwo."
     ru: "Я обвинил его в мошенничестве."
@@ -280,6 +310,42 @@ formExamples:
   - form: "oskarżyłem"
     pl: "Oskarżyłem go zbyt pochopnie."
     ru: "Я обвинил его слишком поспешно."
+    source: { kind: authored }
+  - form: "oskarżyłeś"
+    pl: "Oskarżyłeś go o kradzież."
+    ru: "Ты обвинил его в краже."
+    source: { kind: authored }
+  - form: "oskarżyłeś"
+    pl: "Nigdy nikogo nie oskarżyłeś."
+    ru: "Ты никогда никого не обвинял."
+    source: { kind: authored }
+  - form: "oskarżyłeś"
+    pl: "Oskarżyłeś go niesłusznie."
+    ru: "Ты обвинил его несправедливо."
+    source: { kind: authored }
+  - form: "oskarżyło"
+    pl: "Wiele osób oskarżyło dyrektora."
+    ru: "Многие обвинили директора."
+    source: { kind: authored }
+  - form: "oskarżyło"
+    pl: "Miasto oskarżyło firmę o oszustwo."
+    ru: "Город обвинил фирму в мошенничестве."
+    source: { kind: authored }
+  - form: "oskarżyło"
+    pl: "Dziecko oskarżyło kolegę o kłamstwo."
+    ru: "Ребёнок обвинил приятеля во лжи."
+    source: { kind: authored }
+  - form: "oskarżyły"
+    pl: "Kobiety oskarżyły go o oszustwo."
+    ru: "Женщины обвинили его в мошенничестве."
+    source: { kind: authored }
+  - form: "oskarżyły"
+    pl: "Obie strony oskarżyły się nawzajem."
+    ru: "Обе стороны обвинили друг друга."
+    source: { kind: authored }
+  - form: "oskarżyły"
+    pl: "Gazety oskarżyły rząd o kłamstwo."
+    ru: "Газеты обвинили правительство во лжи."
     source: { kind: authored }
   - form: "oskarżymy"
     pl: "Oskarżymy go o kradzież."
