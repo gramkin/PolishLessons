@@ -37,6 +37,7 @@ senses:
         ru: "Новый отель попросил гостей об отзывах."
         source: { kind: translated, id: 817202 }
 notes:
+  - { kind: usage, text: "Форма opinij — устаревший родительный множественного; современная норма opinii (nie ma dwóch opinii «двух мнений быть не может»), поэтому opinij оставлена без примеров. Так у всех слов на -ja и -ia: lekcja — lekcji, stacja — stacji." }
   - { kind: usage, text: "Слово покрывает и «мнение», и «репутацию»: moja opinia «моё мнение», но dobra opinia «хорошая репутация»." }
   - { kind: usage, text: "opinia publiczna — «общественное мнение», устойчивое сочетание." }
   - { kind: false-friend, text: "Школьная оценка — это ocena, а не opinia; opinia — письменный отзыв или заключение специалиста." }
@@ -53,11 +54,8 @@ idioms:
   - { pl: "w mojej opinii", ru: "по моему мнению" }
   - { pl: "ilu ludzi, tyle opinii", ru: "сколько людей, столько мнений" }
 formExamplesSkip:
-  - { form: "opiniach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "opiniami", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opinij", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opinio", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "opiniom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "opinia"
     pl: "To opinia laika."
@@ -71,6 +69,30 @@ formExamples:
     pl: "Jaka jest pana opinia na ten temat?"
     ru: "Какое у вас мнение на эту тему?"
     source: { kind: tatoeba, id: 6327940 }
+  - form: "opiniach"
+    pl: "O tych opiniach mówi raport."
+    ru: "Об этих мнениях говорит отчёт."
+    source: { kind: authored }
+  - form: "opiniach"
+    pl: "W tych opiniach nie ma zgody."
+    ru: "В этих мнениях нет согласия."
+    source: { kind: authored }
+  - form: "opiniach"
+    pl: "W opiniach biegłych są sprzeczności."
+    ru: "В заключениях экспертов есть противоречия."
+    source: { kind: authored }
+  - form: "opiniami"
+    pl: "Wymienili się opiniami."
+    ru: "Они обменялись мнениями."
+    source: { kind: authored }
+  - form: "opiniami"
+    pl: "Między opiniami a faktami jest różnica."
+    ru: "Между мнениями и фактами есть разница."
+    source: { kind: authored }
+  - form: "opiniami"
+    pl: "Kieruje się cudzymi opiniami."
+    ru: "Он руководствуется чужими мнениями."
+    source: { kind: authored }
   - form: "opinią"
     pl: "Zgadzam się z twoją opinią."
     ru: "Я согласен с твоим мнением."
@@ -119,3 +141,15 @@ formExamples:
     pl: "Nie myl opinii z faktami."
     ru: "Не путай мнения с фактами."
     source: { kind: translated, id: 3847068 }
+  - form: "opiniom"
+    pl: "Przyjrzyj się tym opiniom."
+    ru: "Присмотрись к этим отзывам."
+    source: { kind: authored }
+  - form: "opiniom"
+    pl: "Dzięki dobrym opiniom dostał pracę."
+    ru: "Благодаря хорошим отзывам он получил работу."
+    source: { kind: authored }
+  - form: "opiniom"
+    pl: "Nie ufaj anonimowym opiniom."
+    ru: "Не доверяй анонимным отзывам."
+    source: { kind: authored }

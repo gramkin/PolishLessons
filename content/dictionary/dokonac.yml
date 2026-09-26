@@ -57,17 +57,13 @@ formExamplesSkip:
   - { form: "dokonałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dokonałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dokonałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dokonałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "dokonałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "dokonam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dokonana", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dokonaną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dokonane", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -81,7 +77,6 @@ formExamplesSkip:
   - { form: "dokonany", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dokonanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dokonanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dokonawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
   - form: "dokona"
@@ -180,6 +175,18 @@ formExamples:
     pl: "Komisja dokonała oceny projektu."
     ru: "Комиссия произвела оценку проекта."
     source: { kind: authored }
+  - form: "dokonałam"
+    pl: "Dokonałam wyboru."
+    ru: "Я сделала выбор."
+    source: { kind: authored }
+  - form: "dokonałam"
+    pl: "Dokonałam zmian w umowie."
+    ru: "Я внесла изменения в договор."
+    source: { kind: authored }
+  - form: "dokonałam"
+    pl: "Niczego wielkiego nie dokonałam."
+    ru: "Ничего великого я не совершила."
+    source: { kind: authored }
   - form: "dokonałaś"
     pl: "Dokonałaś wyboru."
     ru: "Ты сделала выбор."
@@ -228,6 +235,30 @@ formExamples:
     pl: "Dokonałeś mądrego wyboru."
     ru: "Ты сделал мудрый выбор."
     source: { kind: translated, id: 12351090 }
+  - form: "dokonało"
+    pl: "Wiele osób dokonało wyboru."
+    ru: "Многие сделали выбор."
+    source: { kind: authored }
+  - form: "dokonało"
+    pl: "Miasto dokonało zmian w budżecie."
+    ru: "Город внёс изменения в бюджет."
+    source: { kind: authored }
+  - form: "dokonało"
+    pl: "Dziecko dokonało odkrycia."
+    ru: "Ребёнок совершил открытие."
+    source: { kind: authored }
+  - form: "dokonały"
+    pl: "Kobiety dokonały wyboru."
+    ru: "Женщины сделали выбор."
+    source: { kind: authored }
+  - form: "dokonały"
+    pl: "Firmy dokonały zmian w cennikach."
+    ru: "Фирмы внесли изменения в прейскуранты."
+    source: { kind: authored }
+  - form: "dokonały"
+    pl: "Te zmiany dokonały przełomu."
+    ru: "Эти перемены совершили перелом."
+    source: { kind: authored }
   - form: "dokonałyście"
     pl: "Dokonałyście mądrego wyboru."
     ru: "Вы сделали мудрый выбор."
@@ -239,6 +270,18 @@ formExamples:
   - form: "dokonałyście"
     pl: "Dokonałyście wielkiej rzeczy."
     ru: "Вы совершили великое дело."
+    source: { kind: authored }
+  - form: "dokonam"
+    pl: "Dokonam wyboru jutro."
+    ru: "Я сделаю выбор завтра."
+    source: { kind: authored }
+  - form: "dokonam"
+    pl: "Dokonam zmian w umowie."
+    ru: "Я внесу изменения в договор."
+    source: { kind: authored }
+  - form: "dokonam"
+    pl: "Niczego wielkiego nie dokonam."
+    ru: "Ничего великого я не совершу."
     source: { kind: authored }
   - form: "dokonamy"
     pl: "Razem dokonamy wielkich rzeczy."
@@ -287,4 +330,16 @@ formExamples:
   - form: "dokonanymi"
     pl: "Jesteśmy zaskoczeni dokonanymi odkryciami."
     ru: "Мы удивлены сделанными открытиями."
+    source: { kind: authored }
+  - form: "dokonasz"
+    pl: "Dokonasz wyboru jutro?"
+    ru: "Ты сделаешь выбор завтра?"
+    source: { kind: authored }
+  - form: "dokonasz"
+    pl: "Dokonasz zmian w umowie."
+    ru: "Ты внесёшь изменения в договор."
+    source: { kind: authored }
+  - form: "dokonasz"
+    pl: "Niczego wielkiego nie dokonasz."
+    ru: "Ничего великого ты не совершишь."
     source: { kind: authored }

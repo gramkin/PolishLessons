@@ -32,6 +32,7 @@ senses:
         ru: "Строительство началось 20 октября 2013 года."
         source: { kind: tatoeba, id: 8617640 }
 notes:
+  - { kind: usage, text: "Мужско-личной формы rozpoczęci не бывает: начинают работу, стройку, год или разговор, а не людей, поэтому она оставлена без примеров. Причастие живёт при вещах: rozpoczęty remont «начатый ремонт», budowa została rozpoczęta." }
   - { kind: usage, text: "Без się — «начать что-то» (rozpocząć pracę), с się — «начаться» (spotkanie się rozpoczęło). Та же пара, что у zacząć и zacząć się." }
   - { kind: usage, text: "rozpocząć звучит официальнее, чем zacząć: в объявлениях и документах обычно rozpocząć, в разговоре — zacząć." }
   - { kind: government, text: "Без się требует винительного падежа: rozpocząć naukę «начать учёбу», rozpocząć pracę «начать работу»." }
@@ -50,8 +51,6 @@ formExamplesSkip:
   - { form: "rozpocząłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpocząłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpocząłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "rozpocząłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpocząłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpocząwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "rozpoczęci", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpoczęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -61,28 +60,14 @@ formExamplesSkip:
   - { form: "rozpoczęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "rozpoczęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczęłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpoczęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "rozpoczęłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "rozpoczęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "rozpoczęta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczętego", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpoczętej", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "rozpoczętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczęto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczęty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczętymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpoczną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozpocznę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpoczniecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "rozpoczniesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozpocznijcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
 formExamples:
   - form: "rozpocząć"
@@ -109,6 +94,30 @@ formExamples:
     pl: "Rozpoczął się pościg za złodziejem."
     ru: "Началась погоня за вором."
     source: { kind: translated, id: 355561 }
+  - form: "rozpocząłem"
+    pl: "Rozpocząłem nową pracę."
+    ru: "Я начал новую работу."
+    source: { kind: authored }
+  - form: "rozpocząłem"
+    pl: "Rozpocząłem naukę od zera."
+    ru: "Я начал учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpocząłem"
+    pl: "Nie rozpocząłem jeszcze remontu."
+    ru: "Ремонт я ещё не начал."
+    source: { kind: authored }
+  - form: "rozpocząłeś"
+    pl: "Rozpocząłeś nową pracę."
+    ru: "Ты начал новую работу."
+    source: { kind: authored }
+  - form: "rozpocząłeś"
+    pl: "Rozpocząłeś naukę od zera."
+    ru: "Ты начал учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpocząłeś"
+    pl: "Nie rozpocząłeś jeszcze remontu."
+    ru: "Ремонт ты ещё не начал."
+    source: { kind: authored }
   - form: "rozpoczęcia"
     pl: "Nie mogłem doczekać się rozpoczęcia gry."
     ru: "Я не мог дождаться начала игры."
@@ -193,6 +202,30 @@ formExamples:
     pl: "Licytacja rozpoczęła się od trzystu dolarów."
     ru: "Торги начались с трёхсот долларов."
     source: { kind: translated, id: 11002480 }
+  - form: "rozpoczęłam"
+    pl: "Rozpoczęłam nową pracę."
+    ru: "Я начала новую работу."
+    source: { kind: authored }
+  - form: "rozpoczęłam"
+    pl: "Rozpoczęłam naukę od zera."
+    ru: "Я начала учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpoczęłam"
+    pl: "Nie rozpoczęłam jeszcze remontu."
+    ru: "Ремонт я ещё не начала."
+    source: { kind: authored }
+  - form: "rozpoczęłaś"
+    pl: "Rozpoczęłaś nową pracę."
+    ru: "Ты начала новую работу."
+    source: { kind: authored }
+  - form: "rozpoczęłaś"
+    pl: "Rozpoczęłaś naukę od zera."
+    ru: "Ты начала учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpoczęłaś"
+    pl: "Nie rozpoczęłaś jeszcze remontu."
+    ru: "Ремонт ты ещё не начала."
+    source: { kind: authored }
   - form: "rozpoczęło"
     pl: "Rozpoczęło się polowanie na czarownice."
     ru: "Началась охота на ведьм."
@@ -217,6 +250,30 @@ formExamples:
     pl: "Prace rozpoczęły się w maju."
     ru: "Работы начались в мае."
     source: { kind: authored }
+  - form: "rozpoczęta"
+    pl: "Budowa została rozpoczęta wiosną."
+    ru: "Стройка была начата весной."
+    source: { kind: authored }
+  - form: "rozpoczęta"
+    pl: "Rozpoczęta praca musi być skończona."
+    ru: "Начатую работу надо закончить."
+    source: { kind: authored }
+  - form: "rozpoczęta"
+    pl: "Sprawa rozpoczęta w marcu trwa do dziś."
+    ru: "Дело, начатое в марте, тянется до сих пор."
+    source: { kind: authored }
+  - form: "rozpoczętą"
+    pl: "Uznali budowę za rozpoczętą."
+    ru: "Стройку сочли начатой."
+    source: { kind: authored }
+  - form: "rozpoczętą"
+    pl: "Zostawił rozpoczętą pracę."
+    ru: "Он бросил начатую работу."
+    source: { kind: authored }
+  - form: "rozpoczętą"
+    pl: "Nazwał tę sprawę rozpoczętą zbyt pochopnie."
+    ru: "Он назвал это дело начатым слишком поспешно."
+    source: { kind: authored }
   - form: "rozpoczęte"
     pl: "Śledztwo zostało rozpoczęte."
     ru: "Следствие начато."
@@ -228,6 +285,114 @@ formExamples:
   - form: "rozpoczęte"
     pl: "Prace zostały rozpoczęte w zeszłym roku."
     ru: "Работы были начаты в прошлом году."
+    source: { kind: authored }
+  - form: "rozpoczętego"
+    pl: "Nie zostawiaj rozpoczętego zdania."
+    ru: "Не бросай начатое предложение."
+    source: { kind: authored }
+  - form: "rozpoczętego"
+    pl: "Od rozpoczętego remontu minął rok."
+    ru: "С начатого ремонта прошёл год."
+    source: { kind: authored }
+  - form: "rozpoczętego"
+    pl: "Nie ma tu nic rozpoczętego."
+    ru: "Здесь ничего не начато."
+    source: { kind: authored }
+  - form: "rozpoczętemu"
+    pl: "Przyjrzyj się rozpoczętemu projektowi."
+    ru: "Присмотрись к начатому проекту."
+    source: { kind: authored }
+  - form: "rozpoczętemu"
+    pl: "Dzięki rozpoczętemu remontowi dom odżył."
+    ru: "Благодаря начатому ремонту дом ожил."
+    source: { kind: authored }
+  - form: "rozpoczętemu"
+    pl: "Nie dowierzał rozpoczętemu śledztwu."
+    ru: "Он не доверял начатому следствию."
+    source: { kind: authored }
+  - form: "rozpoczęto"
+    pl: "Rozpoczęto budowę mostu."
+    ru: "Начали строительство моста."
+    source: { kind: authored }
+  - form: "rozpoczęto"
+    pl: "Rozpoczęto śledztwo w tej sprawie."
+    ru: "По этому делу начали следствие."
+    source: { kind: authored }
+  - form: "rozpoczęto"
+    pl: "Rozpoczęto rok szkolny bez uroczystości."
+    ru: "Учебный год начали без торжеств."
+    source: { kind: authored }
+  - form: "rozpoczęty"
+    pl: "Rozpoczęty remont stanął."
+    ru: "Начатый ремонт встал."
+    source: { kind: authored }
+  - form: "rozpoczęty"
+    pl: "Rok rozpoczęty w deszczu skończył się słońcem."
+    ru: "Год, начатый дождём, кончился солнцем."
+    source: { kind: authored }
+  - form: "rozpoczęty"
+    pl: "Projekt rozpoczęty w marcu wciąż trwa."
+    ru: "Проект, начатый в марте, всё ещё идёт."
+    source: { kind: authored }
+  - form: "rozpoczętych"
+    pl: "Nie ma tu rozpoczętych spraw."
+    ru: "Начатых дел здесь нет."
+    source: { kind: authored }
+  - form: "rozpoczętych"
+    pl: "Z dwóch rozpoczętych budów została jedna."
+    ru: "Из двух начатых строек осталась одна."
+    source: { kind: authored }
+  - form: "rozpoczętych"
+    pl: "W rozpoczętych projektach brakuje pieniędzy."
+    ru: "В начатых проектах не хватает денег."
+    source: { kind: authored }
+  - form: "rozpoczętym"
+    pl: "W rozpoczętym remoncie brakuje pieniędzy."
+    ru: "В начатом ремонте не хватает денег."
+    source: { kind: authored }
+  - form: "rozpoczętym"
+    pl: "Z rozpoczętym projektem trzeba coś zrobić."
+    ru: "С начатым проектом надо что-то делать."
+    source: { kind: authored }
+  - form: "rozpoczętym"
+    pl: "Nie dowierzał rozpoczętym rozmowom."
+    ru: "Он не доверял начатым переговорам."
+    source: { kind: authored }
+  - form: "rozpoczętymi"
+    pl: "Zajmuje się rozpoczętymi sprawami."
+    ru: "Он занимается начатыми делами."
+    source: { kind: authored }
+  - form: "rozpoczętymi"
+    pl: "Między rozpoczętymi a skończonymi projektami jest przepaść."
+    ru: "Между начатыми и законченными проектами пропасть."
+    source: { kind: authored }
+  - form: "rozpoczętymi"
+    pl: "Nie chwal się rozpoczętymi pracami."
+    ru: "Не хвались начатыми работами."
+    source: { kind: authored }
+  - form: "rozpoczną"
+    pl: "Rozpoczną budowę wiosną."
+    ru: "Они начнут стройку весной."
+    source: { kind: authored }
+  - form: "rozpoczną"
+    pl: "Rozpoczną naukę we wrześniu."
+    ru: "Они начнут учёбу в сентябре."
+    source: { kind: authored }
+  - form: "rozpoczną"
+    pl: "Nie rozpoczną bez ciebie."
+    ru: "Без тебя они не начнут."
+    source: { kind: authored }
+  - form: "rozpocznę"
+    pl: "Rozpocznę nową pracę."
+    ru: "Я начну новую работу."
+    source: { kind: authored }
+  - form: "rozpocznę"
+    pl: "Rozpocznę naukę od zera."
+    ru: "Я начну учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpocznę"
+    pl: "Nie rozpocznę bez ciebie."
+    ru: "Без тебя я не начну."
     source: { kind: authored }
   - form: "rozpocznie"
     pl: "Kiedy się rozpocznie?"
@@ -252,6 +417,18 @@ formExamples:
   - form: "rozpoczniemy"
     pl: "Rozpoczniemy o dziewiątej."
     ru: "Мы начнём в девять."
+    source: { kind: authored }
+  - form: "rozpoczniesz"
+    pl: "Rozpoczniesz nową pracę?"
+    ru: "Ты начнёшь новую работу?"
+    source: { kind: authored }
+  - form: "rozpoczniesz"
+    pl: "Rozpoczniesz naukę od zera."
+    ru: "Ты начнёшь учёбу с нуля."
+    source: { kind: authored }
+  - form: "rozpoczniesz"
+    pl: "Nie rozpoczniesz bez nas."
+    ru: "Без нас ты не начнёшь."
     source: { kind: authored }
   - form: "rozpocznij"
     pl: "Rozpocznij test."
