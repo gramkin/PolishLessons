@@ -43,7 +43,7 @@ Static Nuxt 4 website teaching Polish (A1–A2) to Russian speakers, styled like
 - Story `words` map exact, case-sensitive forms in the Polish sentence (multi-word forms allowed) to word ids.
 - **Every standalone Polish example in a lesson must be speakable.** Wrap it in `:pron{pl="..."}` — the `Pron` component renders the Polish in `lang="pl"` and attaches a `SpeakButton`. Add `ru="..."` for chapters 1–3, where `shouldShowPron` (`AUTO_PRON_MAX_CHAPTER`) shows the transcription; later chapters hide it, so passing `ru` there is dead weight. Plain markdown italics render as `<em>` with no audio. Two deliberate exceptions stay plain: paradigm lists (`*mam, masz, ma, mamy, macie, mają*`) and arrow chains (`*poeta → poeci*`), because one button reading a six-form list aloud, or voicing “→”, is worse than none. When verifying, count `span.pron` in the generated HTML — **not** `speak-button`, which is gated on `useSpeech().supported` and populated in `onMounted`, so it can never appear in prerendered output.
 - `<!-- review -->` (Markdown) or `# review` (YAML) marks Polish the owner has not checked yet — keep it on new or edited content.
-- E2E tests depend on: lessons `01-alphabet/01-letters` and `01-alphabet/02-stress`, the 3-question final quiz in `02-sounds/01-rz`, story `kot-i-mysz`, word `zab`. Update `tests/e2e` in the same change if you alter them.
+- E2E tests depend on: lessons `01-alphabet/01-letters` and `01-alphabet/02-stress`, the 3-question final quiz in `02-sounds/01-rz`, story `kot-i-mysz`, word `zab`, book chapters `alicja-pl-01-krolicza-nora`, `alicja-pl-02-jezioro-lez` and `alicja-pl-12-zeznanie-alicji`. Update `tests/e2e` in the same change if you alter them.
 
 ## Testing notes
 

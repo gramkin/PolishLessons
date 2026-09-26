@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { bookSlug } from '~/utils/book'
 
-const { data: books } = await useAsyncData('content:books', () => queryCollection('books').all())
+const { data: books } = await useBookChapters()
 
 useSeoMeta({
   title: 'Книги',

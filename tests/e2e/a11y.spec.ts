@@ -6,6 +6,7 @@ const PAGES = [
   '/',
   '/lessons/02-sounds/01-rz',
   '/stories/kot-i-mysz',
+  '/books/alicja-pl-01-krolicza-nora',
   '/vocabulary',
   '/flashcards',
   '/settings',
