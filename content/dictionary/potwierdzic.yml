@@ -44,12 +44,8 @@ idioms:
   - { pl: "potwierdzić rezerwację", ru: "подтвердить бронь" }
   - { pl: "wyjątek potwierdza regułę", ru: "исключение подтверждает правило" }
 formExamplesSkip:
-  - { form: "potwierdzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "potwierdzeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "potwierdzę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "potwierdzi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "potwierdzicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "potwierdziliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "potwierdzilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "potwierdzilibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -73,8 +69,6 @@ formExamplesSkip:
   - { form: "potwierdziłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "potwierdziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "potwierdziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "potwierdzimy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "potwierdzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "potwierdziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "potwierdzoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzone", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -88,6 +82,18 @@ formExamplesSkip:
   - { form: "potwierdźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "potwierdźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
+  - form: "potwierdzą"
+    pl: "Potwierdzą rezerwację jutro."
+    ru: "Они подтвердят бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzą"
+    pl: "Świadkowie potwierdzą jego słowa."
+    ru: "Свидетели подтвердят его слова."
+    source: { kind: authored }
+  - form: "potwierdzą"
+    pl: "Nie potwierdzą niczego bez dokumentów."
+    ru: "Они ничего не подтвердят без документов."
+    source: { kind: authored }
   - form: "potwierdzenia"
     pl: "Nie rób żadnych zmian zanim nie dostaniesz potwierdzenia."
     ru: "Не вноси никаких изменений, пока не получишь подтверждения."
@@ -123,6 +129,42 @@ formExamples:
   - form: "potwierdzeniem"
     pl: "Wróć z potwierdzeniem zapłaty."
     ru: "Возвращайся с подтверждением оплаты."
+    source: { kind: authored }
+  - form: "potwierdzę"
+    pl: "Potwierdzę rezerwację jutro."
+    ru: "Я подтвержу бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzę"
+    pl: "Potwierdzę odbiór przesyłki."
+    ru: "Я подтвержу получение посылки."
+    source: { kind: authored }
+  - form: "potwierdzę"
+    pl: "Nie potwierdzę niczego bez dokumentów."
+    ru: "Я ничего не подтвержу без документов."
+    source: { kind: authored }
+  - form: "potwierdzi"
+    pl: "Potwierdzi rezerwację jutro."
+    ru: "Он подтвердит бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzi"
+    pl: "Świadek potwierdzi jego słowa."
+    ru: "Свидетель подтвердит его слова."
+    source: { kind: authored }
+  - form: "potwierdzi"
+    pl: "Nie potwierdzi niczego bez dokumentów."
+    ru: "Он ничего не подтвердит без документов."
+    source: { kind: authored }
+  - form: "potwierdzicie"
+    pl: "Potwierdzicie rezerwację jutro."
+    ru: "Вы подтвердите бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzicie"
+    pl: "Potwierdzicie odbiór przesyłki."
+    ru: "Вы подтвердите получение посылки."
+    source: { kind: authored }
+  - form: "potwierdzicie"
+    pl: "Nie potwierdzicie niczego bez dokumentów."
+    ru: "Вы ничего не подтвердите без документов."
     source: { kind: authored }
   - form: "potwierdzić"
     pl: "Proszę potwierdzić odbiór!"
@@ -172,6 +214,30 @@ formExamples:
     pl: "Policja potwierdziła tę informację."
     ru: "Полиция подтвердила эту информацию."
     source: { kind: authored }
+  - form: "potwierdzimy"
+    pl: "Potwierdzimy rezerwację jutro."
+    ru: "Мы подтвердим бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzimy"
+    pl: "Potwierdzimy odbiór przesyłki."
+    ru: "Мы подтвердим получение посылки."
+    source: { kind: authored }
+  - form: "potwierdzimy"
+    pl: "Nie potwierdzimy niczego bez dokumentów."
+    ru: "Мы ничего не подтвердим без документов."
+    source: { kind: authored }
+  - form: "potwierdzisz"
+    pl: "Potwierdzisz rezerwację jutro."
+    ru: "Ты подтвердишь бронь завтра."
+    source: { kind: authored }
+  - form: "potwierdzisz"
+    pl: "Potwierdzisz odbiór przesyłki."
+    ru: "Ты подтвердишь получение посылки."
+    source: { kind: authored }
+  - form: "potwierdzisz"
+    pl: "Nie potwierdzisz niczego bez dokumentów."
+    ru: "Ты ничего не подтвердишь без документов."
+    source: { kind: authored }
   - form: "potwierdzona"
     pl: "Tożsamość zaginionego dziecka została potwierdzona przez ubrania."
     ru: "Личность пропавшего ребёнка была установлена по одежде."
@@ -207,4 +273,28 @@ formExamples:
   - form: "potwierdź"
     pl: "Potwierdź odbiór paczki."
     ru: "Подтверди получение посылки."
+    source: { kind: authored }
+  - form: "niech potwierdzi"
+    pl: "Niech potwierdzi rezerwację jutro."
+    ru: "Пусть подтвердит бронь завтра."
+    source: { kind: authored }
+  - form: "niech potwierdzi"
+    pl: "Niech potwierdzi odbiór przesyłki."
+    ru: "Пусть подтвердит получение посылки."
+    source: { kind: authored }
+  - form: "niech potwierdzi"
+    pl: "Niech potwierdzi to na piśmie."
+    ru: "Пусть подтвердит это письменно."
+    source: { kind: authored }
+  - form: "niech potwierdzą"
+    pl: "Niech potwierdzą rezerwację jutro."
+    ru: "Пусть подтвердят бронь завтра."
+    source: { kind: authored }
+  - form: "niech potwierdzą"
+    pl: "Niech potwierdzą odbiór przesyłki."
+    ru: "Пусть подтвердят получение посылки."
+    source: { kind: authored }
+  - form: "niech potwierdzą"
+    pl: "Niech potwierdzą to na piśmie."
+    ru: "Пусть подтвердят это письменно."
     source: { kind: authored }
