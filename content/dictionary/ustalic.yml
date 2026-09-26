@@ -47,13 +47,10 @@ idioms:
   - { pl: "ustalić zasady", ru: "установить правила" }
   - { pl: "w ustalonym terminie", ru: "в оговорённый срок" }
 formExamplesSkip:
-  - { form: "ustalą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustaleni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "ustalenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "ustaleniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "ustaleniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ustalę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ustali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustalicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "ustaliliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustalilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -62,22 +59,15 @@ formExamplesSkip:
   - { form: "ustaliłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "ustaliłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ustaliłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustaliłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "ustaliłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ustaliłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ustaliło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustaliłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "ustaliły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustaliłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "ustaliłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "ustaliłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "ustalisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ustaliwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "ustalona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "ustaloną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -99,6 +89,18 @@ formExamples:
   - form: "ustal"
     pl: "Ustal termin spotkania."
     ru: "Назначь срок встречи."
+    source: { kind: authored }
+  - form: "ustalą"
+    pl: "Ustalą termin jutro."
+    ru: "Они назначат срок завтра."
+    source: { kind: authored }
+  - form: "ustalą"
+    pl: "Ustalą, kto zawinił."
+    ru: "Они установят, кто виноват."
+    source: { kind: authored }
+  - form: "ustalą"
+    pl: "Niczego nie ustalą bez ciebie."
+    ru: "Без тебя они ничего не решат."
     source: { kind: authored }
   - form: "ustalcie"
     pl: "Ustalcie granice."
@@ -123,6 +125,30 @@ formExamples:
   - form: "ustalenia"
     pl: "Nasze ustalenia są jasne."
     ru: "Наши договорённости ясны."
+    source: { kind: authored }
+  - form: "ustalę"
+    pl: "Ustalę termin jutro."
+    ru: "Я назначу срок завтра."
+    source: { kind: authored }
+  - form: "ustalę"
+    pl: "Ustalę, kto zawinił."
+    ru: "Я установлю, кто виноват."
+    source: { kind: authored }
+  - form: "ustalę"
+    pl: "Niczego nie ustalę bez ciebie."
+    ru: "Без тебя я ничего не решу."
+    source: { kind: authored }
+  - form: "ustali"
+    pl: "Ustali termin jutro."
+    ru: "Он назначит срок завтра."
+    source: { kind: authored }
+  - form: "ustali"
+    pl: "Ustali, kto zawinił."
+    ru: "Он установит, кто виноват."
+    source: { kind: authored }
+  - form: "ustali"
+    pl: "Niczego nie ustali bez ciebie."
+    ru: "Без тебя он ничего не решит."
     source: { kind: authored }
   - form: "ustalić"
     pl: "Próbujemy to ustalić."
@@ -184,6 +210,78 @@ formExamples:
     pl: "Komisja ustaliła nowe stawki."
     ru: "Комиссия установила новые ставки."
     source: { kind: authored }
+  - form: "ustaliłam"
+    pl: "Ustaliłam termin na piątek."
+    ru: "Я назначила срок на пятницу."
+    source: { kind: authored }
+  - form: "ustaliłam"
+    pl: "Ustaliłam, kto zawinił."
+    ru: "Я установила, кто виноват."
+    source: { kind: authored }
+  - form: "ustaliłam"
+    pl: "Niczego nie ustaliłam."
+    ru: "Я ничего не выяснила."
+    source: { kind: authored }
+  - form: "ustaliłaś"
+    pl: "Ustaliłaś termin na piątek."
+    ru: "Ты назначила срок на пятницу."
+    source: { kind: authored }
+  - form: "ustaliłaś"
+    pl: "Ustaliłaś, kto zawinił."
+    ru: "Ты установила, кто виноват."
+    source: { kind: authored }
+  - form: "ustaliłaś"
+    pl: "Niczego nie ustaliłaś."
+    ru: "Ты ничего не выяснила."
+    source: { kind: authored }
+  - form: "ustaliłem"
+    pl: "Ustaliłem termin na piątek."
+    ru: "Я назначил срок на пятницу."
+    source: { kind: authored }
+  - form: "ustaliłem"
+    pl: "Ustaliłem, kto zawinił."
+    ru: "Я установил, кто виноват."
+    source: { kind: authored }
+  - form: "ustaliłem"
+    pl: "Niczego nie ustaliłem."
+    ru: "Я ничего не выяснил."
+    source: { kind: authored }
+  - form: "ustaliłeś"
+    pl: "Ustaliłeś termin na piątek."
+    ru: "Ты назначил срок на пятницу."
+    source: { kind: authored }
+  - form: "ustaliłeś"
+    pl: "Ustaliłeś, kto zawinił."
+    ru: "Ты установил, кто виноват."
+    source: { kind: authored }
+  - form: "ustaliłeś"
+    pl: "Niczego nie ustaliłeś."
+    ru: "Ты ничего не выяснил."
+    source: { kind: authored }
+  - form: "ustaliło"
+    pl: "Śledztwo ustaliło przyczynę pożaru."
+    ru: "Следствие установило причину пожара."
+    source: { kind: authored }
+  - form: "ustaliło"
+    pl: "Wiele osób ustaliło to samo."
+    ru: "Многие выяснили то же самое."
+    source: { kind: authored }
+  - form: "ustaliło"
+    pl: "Miasto ustaliło nowe stawki."
+    ru: "Город установил новые ставки."
+    source: { kind: authored }
+  - form: "ustaliły"
+    pl: "Firmy ustaliły wspólną cenę."
+    ru: "Фирмы установили общую цену."
+    source: { kind: authored }
+  - form: "ustaliły"
+    pl: "Badania ustaliły przyczynę."
+    ru: "Исследования установили причину."
+    source: { kind: authored }
+  - form: "ustaliły"
+    pl: "Kobiety ustaliły termin spotkania."
+    ru: "Женщины назначили время встречи."
+    source: { kind: authored }
   - form: "ustalimy"
     pl: "Ustalimy, raz na zawsze, kto jest najlepszy."
     ru: "Мы установим раз и навсегда, кто лучший."
@@ -195,6 +293,18 @@ formExamples:
   - form: "ustalimy"
     pl: "Ustalimy zasady razem."
     ru: "Мы установим правила вместе."
+    source: { kind: authored }
+  - form: "ustalisz"
+    pl: "Ustalisz termin jutro?"
+    ru: "Ты назначишь срок завтра?"
+    source: { kind: authored }
+  - form: "ustalisz"
+    pl: "Ustalisz, kto zawinił."
+    ru: "Ты установишь, кто виноват."
+    source: { kind: authored }
+  - form: "ustalisz"
+    pl: "Niczego nie ustalisz bez nich."
+    ru: "Без них ты ничего не выяснишь."
     source: { kind: authored }
   - form: "ustalmy"
     pl: "Ustalmy to teraz."
