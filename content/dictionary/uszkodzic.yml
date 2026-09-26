@@ -56,12 +56,8 @@ idioms:
   - { pl: "plik jest uszkodzony", ru: "файл повреждён" }
   - { pl: "uszkodzenie ciała", ru: "телесное повреждение" }
 formExamplesSkip:
-  - { form: "uszkodzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodzeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodzeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodzili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodzilibyście", reason: "условное наклонение; в корпусе примеров нет" }
@@ -85,8 +81,6 @@ formExamplesSkip:
   - { form: "uszkodziłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uszkodziłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "uszkodzimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziwszy", reason: "деепричастие; в корпусе примеров нет" }
   - { form: "uszkodzoną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodzonego", reason: "в корпусе нет примеров для этой формы" }
@@ -98,6 +92,18 @@ formExamplesSkip:
   - { form: "uszkodźcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodźmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "uszkodzą"
+    pl: "Uszkodzą ekran, jeśli upuszczą telefon."
+    ru: "Они разобьют экран, если уронят телефон."
+    source: { kind: authored }
+  - form: "uszkodzą"
+    pl: "Uszkodzą sobie kolana na tym zjeździe."
+    ru: "Они повредят себе колени на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzą"
+    pl: "Nie uszkodzą niczego."
+    ru: "Они ничего не повредят."
+    source: { kind: authored }
   - form: "uszkodzenia"
     pl: "Niestety, Apple nie udziela gwarancji na przypadkowe uszkodzenia."
     ru: "К сожалению, Apple не даёт гарантии на случайные повреждения."
@@ -133,6 +139,42 @@ formExamples:
   - form: "uszkodzeniu"
     pl: "Mówimy o uszkodzeniu silnika."
     ru: "Мы говорим о повреждении двигателя."
+    source: { kind: authored }
+  - form: "uszkodzę"
+    pl: "Uszkodzę ekran, jeśli upuszczę telefon."
+    ru: "Я разобью экран, если уроню телефон."
+    source: { kind: authored }
+  - form: "uszkodzę"
+    pl: "Uszkodzę sobie kolano na tym zjeździe."
+    ru: "Я повреждю себе колено на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzę"
+    pl: "Nie uszkodzę niczego."
+    ru: "Я ничего не поврежу."
+    source: { kind: authored }
+  - form: "uszkodzi"
+    pl: "Uszkodzi ekran, jeśli upuści telefon."
+    ru: "Он разобьёт экран, если уронит телефон."
+    source: { kind: authored }
+  - form: "uszkodzi"
+    pl: "Uszkodzi sobie kolano na tym zjeździe."
+    ru: "Он повредит себе колено на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzi"
+    pl: "Nie uszkodzi niczego."
+    ru: "Он ничего не повредит."
+    source: { kind: authored }
+  - form: "uszkodzicie"
+    pl: "Uszkodzicie ekran, jeśli upuścicie telefon."
+    ru: "Вы разобьёте экран, если уроните телефон."
+    source: { kind: authored }
+  - form: "uszkodzicie"
+    pl: "Uszkodzicie sobie kolana na tym zjeździe."
+    ru: "Вы повредите себе колени на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzicie"
+    pl: "Nie uszkodzicie niczego."
+    ru: "Вы ничего не повредите."
     source: { kind: authored }
   - form: "uszkodzić"
     pl: "Byłoby lepiej tego nie uszkodzić."
@@ -185,6 +227,30 @@ formExamples:
   - form: "uszkodziło"
     pl: "Nic nie uszkodziło przesyłki."
     ru: "Ничто не повредило посылку."
+    source: { kind: authored }
+  - form: "uszkodzimy"
+    pl: "Uszkodzimy ekran, jeśli upuścimy telefon."
+    ru: "Мы разобьём экран, если уроним телефон."
+    source: { kind: authored }
+  - form: "uszkodzimy"
+    pl: "Uszkodzimy sobie kolana na tym zjeździe."
+    ru: "Мы повредим себе колени на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzimy"
+    pl: "Nie uszkodzimy niczego."
+    ru: "Мы ничего не повредим."
+    source: { kind: authored }
+  - form: "uszkodzisz"
+    pl: "Uszkodzisz ekran, jeśli upuścisz telefon."
+    ru: "Ты разобьёшь экран, если уронишь телефон."
+    source: { kind: authored }
+  - form: "uszkodzisz"
+    pl: "Uszkodzisz sobie kolano na tym zjeździe."
+    ru: "Ты повредишь себе колено на этом спуске."
+    source: { kind: authored }
+  - form: "uszkodzisz"
+    pl: "Nie uszkodzisz niczego."
+    ru: "Ты ничего не повредишь."
     source: { kind: authored }
   - form: "uszkodzona"
     pl: "Jego torba została mocno uszkodzona."
@@ -249,4 +315,28 @@ formExamples:
   - form: "uszkodzonych"
     pl: "Zebrano listę uszkodzonych budynków."
     ru: "Составили список повреждённых зданий."
+    source: { kind: authored }
+  - form: "niech uszkodzi"
+    pl: "Niech uszkodzi tylko opakowanie."
+    ru: "Пусть повредит только упаковку."
+    source: { kind: authored }
+  - form: "niech uszkodzi"
+    pl: "Niech uszkodzi zamek, byle nie drzwi."
+    ru: "Пусть повредит замок, лишь бы не дверь."
+    source: { kind: authored }
+  - form: "niech uszkodzi"
+    pl: "Niech uszkodzi, to i tak naprawimy."
+    ru: "Пусть повредит, мы всё равно починим."
+    source: { kind: authored }
+  - form: "niech uszkodzą"
+    pl: "Niech uszkodzą tylko opakowanie."
+    ru: "Пусть повредят только упаковку."
+    source: { kind: authored }
+  - form: "niech uszkodzą"
+    pl: "Niech uszkodzą zamek, byle nie drzwi."
+    ru: "Пусть повредят замок, лишь бы не дверь."
+    source: { kind: authored }
+  - form: "niech uszkodzą"
+    pl: "Niech uszkodzą, to i tak naprawimy."
+    ru: "Пусть повредят, мы всё равно починим."
     source: { kind: authored }
