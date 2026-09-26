@@ -52,17 +52,11 @@ formExamplesSkip:
   - { form: "skontaktowalibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "skontaktowaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "skontaktował", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skontaktowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktowałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "skontaktowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skontaktowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktowałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "skontaktowałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skontaktowało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktowałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "skontaktowałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -86,11 +80,8 @@ formExamplesSkip:
   - { form: "skontaktowanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "skontaktowanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "skontaktowawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "skontaktują", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktujcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "skontaktuje", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktujecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "skontaktujesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "skontaktujmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
   - form: "skontaktować"
@@ -117,6 +108,54 @@ formExamples:
     pl: "Skontaktowali się z nami wczoraj."
     ru: "Они связались с нами вчера."
     source: { kind: authored }
+  - form: "skontaktował"
+    pl: "Skontaktował się z nami wczoraj."
+    ru: "Он связался с нами вчера."
+    source: { kind: authored }
+  - form: "skontaktował"
+    pl: "Skontaktował mnie z prawnikiem."
+    ru: "Он свёл меня с юристом."
+    source: { kind: authored }
+  - form: "skontaktował"
+    pl: "Nie skontaktował się z nikim."
+    ru: "Он ни с кем не связался."
+    source: { kind: authored }
+  - form: "skontaktowała"
+    pl: "Skontaktowała się z nami wczoraj."
+    ru: "Она связалась с нами вчера."
+    source: { kind: authored }
+  - form: "skontaktowała"
+    pl: "Skontaktowała mnie z prawnikiem."
+    ru: "Она свела меня с юристом."
+    source: { kind: authored }
+  - form: "skontaktowała"
+    pl: "Nie skontaktowała się z nikim."
+    ru: "Она ни с кем не связалась."
+    source: { kind: authored }
+  - form: "skontaktowałam"
+    pl: "Skontaktowałam się z nimi wczoraj."
+    ru: "Я связалась с ними вчера."
+    source: { kind: authored }
+  - form: "skontaktowałam"
+    pl: "Skontaktowałam go z prawnikiem."
+    ru: "Я свела его с юристом."
+    source: { kind: authored }
+  - form: "skontaktowałam"
+    pl: "Nie skontaktowałam się z nikim."
+    ru: "Я ни с кем не связалась."
+    source: { kind: authored }
+  - form: "skontaktowałaś"
+    pl: "Skontaktowałaś się z nimi wczoraj."
+    ru: "Ты связалась с ними вчера."
+    source: { kind: authored }
+  - form: "skontaktowałaś"
+    pl: "Skontaktowałaś go z prawnikiem."
+    ru: "Ты свела его с юристом."
+    source: { kind: authored }
+  - form: "skontaktowałaś"
+    pl: "Nie skontaktowałaś się z nikim."
+    ru: "Ты ни с кем не связалась."
+    source: { kind: authored }
   - form: "skontaktowałbym"
     pl: "Gdybym znał jego adres, skontaktowałbym się z nim natychmiast."
     ru: "Если бы я знал его адрес, я бы немедленно с ним связался."
@@ -140,6 +179,30 @@ formExamples:
   - form: "skontaktowałem"
     pl: "Skontaktowałem się z biurem."
     ru: "Я связался с офисом."
+    source: { kind: authored }
+  - form: "skontaktowałeś"
+    pl: "Skontaktowałeś się z nimi wczoraj."
+    ru: "Ты связался с ними вчера."
+    source: { kind: authored }
+  - form: "skontaktowałeś"
+    pl: "Skontaktowałeś go z prawnikiem."
+    ru: "Ты свёл его с юристом."
+    source: { kind: authored }
+  - form: "skontaktowałeś"
+    pl: "Nie skontaktowałeś się z nikim."
+    ru: "Ты ни с кем не связался."
+    source: { kind: authored }
+  - form: "skontaktowało"
+    pl: "Wiele osób skontaktowało się z redakcją."
+    ru: "Многие связались с редакцией."
+    source: { kind: authored }
+  - form: "skontaktowało"
+    pl: "Biuro skontaktowało nas z klientem."
+    ru: "Контора свела нас с клиентом."
+    source: { kind: authored }
+  - form: "skontaktowało"
+    pl: "Dziecko skontaktowało się z babcią przez internet."
+    ru: "Ребёнок связался с бабушкой через интернет."
     source: { kind: authored }
   - form: "skontaktowały"
     pl: "Skontaktowały się ze swoimi lokalnymi politykami."
@@ -165,6 +228,30 @@ formExamples:
     pl: "Skontaktuj się z nią w razie pytań."
     ru: "Свяжись с ней, если будут вопросы."
     source: { kind: translated, id: 7868973 }
+  - form: "skontaktują"
+    pl: "Skontaktują się z tobą jutro."
+    ru: "Они свяжутся с тобой завтра."
+    source: { kind: authored }
+  - form: "skontaktują"
+    pl: "Skontaktują cię z prawnikiem."
+    ru: "Они сведут тебя с юристом."
+    source: { kind: authored }
+  - form: "skontaktują"
+    pl: "Nie skontaktują się z nikim."
+    ru: "Они ни с кем не свяжутся."
+    source: { kind: authored }
+  - form: "skontaktuje"
+    pl: "Skontaktuje się z tobą jutro."
+    ru: "Он свяжется с тобой завтра."
+    source: { kind: authored }
+  - form: "skontaktuje"
+    pl: "Skontaktuje cię z prawnikiem."
+    ru: "Он сведёт тебя с юристом."
+    source: { kind: authored }
+  - form: "skontaktuje"
+    pl: "Nie skontaktuje się z nikim."
+    ru: "Он ни с кем не свяжется."
+    source: { kind: authored }
   - form: "skontaktujemy"
     pl: "Skontaktujemy się z Tobą."
     ru: "Мы с тобой свяжемся."
@@ -177,6 +264,18 @@ formExamples:
     pl: "Skontaktujemy się tak szybko, jak to możliwe."
     ru: "Мы свяжемся как можно быстрее."
     source: { kind: translated, id: 12142428 }
+  - form: "skontaktujesz"
+    pl: "Skontaktujesz się z nimi jutro?"
+    ru: "Ты свяжешься с ними завтра?"
+    source: { kind: authored }
+  - form: "skontaktujesz"
+    pl: "Skontaktujesz mnie z prawnikiem."
+    ru: "Ты сведёшь меня с юристом."
+    source: { kind: authored }
+  - form: "skontaktujesz"
+    pl: "Nie skontaktujesz się z nikim."
+    ru: "Ты ни с кем не свяжешься."
+    source: { kind: authored }
   - form: "skontaktuję"
     pl: "Skontaktuję się z tobą."
     ru: "Я с тобой свяжусь."
