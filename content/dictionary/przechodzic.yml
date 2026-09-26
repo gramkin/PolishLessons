@@ -79,7 +79,6 @@ formExamplesSkip:
   - { form: "przechodzeniem", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "przechodzeniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "przechodzicie", reason: "в корпусе нет примеров для этой формы настоящего времени" }
-  - { form: "przechodzili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przechodziliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodzilibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodzilibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -87,13 +86,9 @@ formExamplesSkip:
   - { form: "przechodziłaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "przechodziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przechodziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przechodziłby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "przechodziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przechodziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przechodziłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "przechodziłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -235,6 +230,18 @@ formExamples:
     pl: "Tom nie ma ochoty przechodzić drugi raz tego samego."
     ru: "Тому не хочется проходить через то же самое второй раз."
     source: { kind: translated, id: 3207402 }
+  - form: "przechodzili"
+    pl: "Przechodzili przez most o świcie."
+    ru: "Они переходили мост на рассвете."
+    source: { kind: authored }
+  - form: "przechodzili"
+    pl: "Turyści przechodzili obok naszego domu."
+    ru: "Туристы проходили мимо нашего дома."
+    source: { kind: authored }
+  - form: "przechodzili"
+    pl: "Przechodzili wtedy przez trudny okres."
+    ru: "Они тогда переживали трудный период."
+    source: { kind: authored }
   - form: "przechodziliśmy"
     pl: "Kiedy przechodziliśmy przez przejście, wziąłem młodszą siostrę za rękę."
     ru: "Когда мы переходили по переходу, я взял младшую сестру за руку."
@@ -271,6 +278,30 @@ formExamples:
     pl: "Choroba przechodziła powoli."
     ru: "Болезнь проходила медленно."
     source: { kind: authored }
+  - form: "przechodziłam"
+    pl: "Przechodziłam obok poczty."
+    ru: "Я проходила мимо почты."
+    source: { kind: authored }
+  - form: "przechodziłam"
+    pl: "Przechodziłam przez park co rano."
+    ru: "Я проходила через парк каждое утро."
+    source: { kind: authored }
+  - form: "przechodziłam"
+    pl: "Przechodziłam wtedy przez trudny okres."
+    ru: "Я тогда переживала трудный период."
+    source: { kind: authored }
+  - form: "przechodziłaś"
+    pl: "Przechodziłaś obok poczty?"
+    ru: "Ты проходила мимо почты?"
+    source: { kind: authored }
+  - form: "przechodziłaś"
+    pl: "Przechodziłaś przez park co rano."
+    ru: "Ты проходила через парк каждое утро."
+    source: { kind: authored }
+  - form: "przechodziłaś"
+    pl: "Przechodziłaś wtedy przez trudny okres."
+    ru: "Ты тогда переживала трудный период."
+    source: { kind: authored }
   - form: "przechodziłem"
     pl: "Przechodziłem wczoraj koło niej."
     ru: "Вчера я проходил мимо неё."
@@ -282,6 +313,30 @@ formExamples:
   - form: "przechodziłem"
     pl: "Codziennie przechodziłem przez ten park."
     ru: "Каждый день я проходил через этот парк."
+    source: { kind: authored }
+  - form: "przechodziłeś"
+    pl: "Przechodziłeś obok poczty?"
+    ru: "Ты проходил мимо почты?"
+    source: { kind: authored }
+  - form: "przechodziłeś"
+    pl: "Przechodziłeś przez park co rano."
+    ru: "Ты проходил через парк каждое утро."
+    source: { kind: authored }
+  - form: "przechodziłeś"
+    pl: "Przechodziłeś wtedy przez trudny okres."
+    ru: "Ты тогда переживал трудный период."
+    source: { kind: authored }
+  - form: "przechodziło"
+    pl: "Przez most przechodziło wielu ludzi."
+    ru: "По мосту проходило много людей."
+    source: { kind: authored }
+  - form: "przechodziło"
+    pl: "Przechodziło mi przez myśl to samo."
+    ru: "Мне приходило в голову то же самое."
+    source: { kind: authored }
+  - form: "przechodziło"
+    pl: "Wszystko przechodziło powoli."
+    ru: "Всё проходило медленно."
     source: { kind: authored }
   - form: "przechodziły"
     pl: "Widziałem, jak dzieci przechodziły przez ulicę."

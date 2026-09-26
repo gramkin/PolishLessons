@@ -62,22 +62,17 @@ idioms:
   - { pl: "nie znajdować słów", ru: "не находить слов" }
   - { pl: "znajdować czas", ru: "находить время" }
 formExamplesSkip:
-  - { form: "znajdowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "znajdowaliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowalibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowalibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowaliście", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "znajdowaliśmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "znajdowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "znajdowałaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "znajdowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "znajdowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "znajdowałby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "znajdowałeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "znajdowałoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "znajdowałybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -123,6 +118,18 @@ formExamples:
     pl: "Trudno znajdować błędy we własnym tekście."
     ru: "Трудно находить ошибки в собственном тексте."
     source: { kind: authored }
+  - form: "znajdowali"
+    pl: "Znajdowali grzyby pod każdym drzewem."
+    ru: "Они находили грибы под каждым деревом."
+    source: { kind: authored }
+  - form: "znajdowali"
+    pl: "Znajdowali czas na rozmowę."
+    ru: "Они находили время для разговора."
+    source: { kind: authored }
+  - form: "znajdowali"
+    pl: "Nigdy nie znajdowali wymówek."
+    ru: "Они никогда не находили отговорок."
+    source: { kind: authored }
   - form: "znajdował"
     pl: "Hotel znajdował się blisko jeziora."
     ru: "Отель находился недалеко от озера."
@@ -135,6 +142,42 @@ formExamples:
     pl: "Za następnym budynkiem znajdował się magazyn na zboże."
     ru: "За следующим зданием находился зерновой склад."
     source: { kind: translated, id: 6320373 }
+  - form: "znajdowała"
+    pl: "Znajdowała czas na czytanie."
+    ru: "Она находила время на чтение."
+    source: { kind: authored }
+  - form: "znajdowała"
+    pl: "Zawsze znajdowała rozwiązanie."
+    ru: "Она всегда находила решение."
+    source: { kind: authored }
+  - form: "znajdowała"
+    pl: "Nie znajdowała słów."
+    ru: "Она не находила слов."
+    source: { kind: authored }
+  - form: "znajdowałam"
+    pl: "Znajdowałam czas na czytanie."
+    ru: "Я находила время на чтение."
+    source: { kind: authored }
+  - form: "znajdowałam"
+    pl: "Zawsze znajdowałam rozwiązanie."
+    ru: "Я всегда находила решение."
+    source: { kind: authored }
+  - form: "znajdowałam"
+    pl: "Nie znajdowałam słów."
+    ru: "Я не находила слов."
+    source: { kind: authored }
+  - form: "znajdowałaś"
+    pl: "Znajdowałaś czas na czytanie?"
+    ru: "Ты находила время на чтение?"
+    source: { kind: authored }
+  - form: "znajdowałaś"
+    pl: "Zawsze znajdowałaś rozwiązanie."
+    ru: "Ты всегда находила решение."
+    source: { kind: authored }
+  - form: "znajdowałaś"
+    pl: "Nie znajdowałaś słów."
+    ru: "Ты не находила слов."
+    source: { kind: authored }
   - form: "znajdowałem"
     pl: "Gdy się obudziłem, znajdowałem się w pozycji leżącej na podłodze."
     ru: "Когда я проснулся, я находился на полу в лежачем положении."
@@ -146,6 +189,18 @@ formExamples:
   - form: "znajdowałem"
     pl: "Zawsze znajdowałem czas na czytanie."
     ru: "Я всегда находил время на чтение."
+    source: { kind: authored }
+  - form: "znajdowałeś"
+    pl: "Znajdowałeś czas na czytanie?"
+    ru: "Ты находил время на чтение?"
+    source: { kind: authored }
+  - form: "znajdowałeś"
+    pl: "Zawsze znajdowałeś rozwiązanie."
+    ru: "Ты всегда находил решение."
+    source: { kind: authored }
+  - form: "znajdowałeś"
+    pl: "Nie znajdowałeś słów."
+    ru: "Ты не находил слов."
     source: { kind: authored }
   - form: "znajdowało"
     pl: "Czy wszystko, co należało do niego, znajdowało się w tej skrzyni?"
