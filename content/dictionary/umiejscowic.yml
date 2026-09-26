@@ -40,15 +40,11 @@ memory: "umiejscowić — «локализовать, поместить», бу
 idioms:
   - { pl: "umiejscowić ból", ru: "локализовать боль" }
 formExamplesSkip:
-  - { form: "umiejscowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umiejscowią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umiejscowicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowieni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowienia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowienie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowieniem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umiejscowię", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowij", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowijcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowijmy", reason: "в корпусе нет примеров для этой формы" }
@@ -78,7 +74,6 @@ formExamplesSkip:
   - { form: "umiejscowiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "umiejscowiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "umiejscowiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "umiejscowimy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowiona", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowioną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowione", reason: "в корпусе нет примеров для этой формы" }
@@ -90,12 +85,47 @@ formExamplesSkip:
   - { form: "umiejscowionych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowionym", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowionymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umiejscowisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscowiwszy", reason: "деепричастие; в корпусе примеров нет" }
   - { form: "umiejsców", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscówcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umiejscówmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "umiejscowi"
+    pl: "Umiejscowi akcję w Krakowie."
+    ru: "Он поместит действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowi"
+    pl: "Umiejscowi ból w okolicy kolana."
+    ru: "Он локализует боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowi"
+    pl: "Nie umiejscowi tego na mapie."
+    ru: "Он не найдёт это место на карте."
+    source: { kind: authored }
+  - form: "umiejscowią"
+    pl: "Umiejscowią akcję w Krakowie."
+    ru: "Они поместят действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowią"
+    pl: "Umiejscowią ból w okolicy kolana."
+    ru: "Они локализуют боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowią"
+    pl: "Nie umiejscowią tego na mapie."
+    ru: "Они не найдут это место на карте."
+    source: { kind: authored }
+  - form: "umiejscowicie"
+    pl: "Umiejscowicie akcję w Krakowie."
+    ru: "Вы поместите действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowicie"
+    pl: "Umiejscowicie ból w okolicy kolana."
+    ru: "Вы локализуете боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowicie"
+    pl: "Nie umiejscowicie tego na mapie."
+    ru: "Вы не найдёте это место на карте."
+    source: { kind: authored }
   - form: "umiejscowić"
     pl: "Trudno umiejscowić ból."
     ru: "Трудно локализовать боль."
@@ -107,4 +137,64 @@ formExamples:
   - form: "umiejscowić"
     pl: "Musimy umiejscowić problem."
     ru: "Мы должны локализовать проблему."
+    source: { kind: authored }
+  - form: "umiejscowię"
+    pl: "Umiejscowię akcję w Krakowie."
+    ru: "Я помещу действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowię"
+    pl: "Umiejscowię ból w okolicy kolana."
+    ru: "Я локализую боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowię"
+    pl: "Nie umiejscowię tego na mapie."
+    ru: "Я не найду это место на карте."
+    source: { kind: authored }
+  - form: "umiejscowimy"
+    pl: "Umiejscowimy akcję w Krakowie."
+    ru: "Мы поместим действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowimy"
+    pl: "Umiejscowimy ból w okolicy kolana."
+    ru: "Мы локализуем боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowimy"
+    pl: "Nie umiejscowimy tego na mapie."
+    ru: "Мы не найдём это место на карте."
+    source: { kind: authored }
+  - form: "umiejscowisz"
+    pl: "Umiejscowisz akcję w Krakowie."
+    ru: "Ты поместишь действие в Кракове."
+    source: { kind: authored }
+  - form: "umiejscowisz"
+    pl: "Umiejscowisz ból w okolicy kolana."
+    ru: "Ты локализуешь боль в области колена."
+    source: { kind: authored }
+  - form: "umiejscowisz"
+    pl: "Nie umiejscowisz tego na mapie."
+    ru: "Ты не найдёшь это место на карте."
+    source: { kind: authored }
+  - form: "niech umiejscowi"
+    pl: "Niech umiejscowi akcję w Krakowie."
+    ru: "Пусть поместит действие в Кракове."
+    source: { kind: authored }
+  - form: "niech umiejscowi"
+    pl: "Niech umiejscowi ból dokładnie."
+    ru: "Пусть точно локализует боль."
+    source: { kind: authored }
+  - form: "niech umiejscowi"
+    pl: "Niech umiejscowi to na mapie."
+    ru: "Пусть отметит это на карте."
+    source: { kind: authored }
+  - form: "niech umiejscowią"
+    pl: "Niech umiejscowią akcję w Krakowie."
+    ru: "Пусть поместят действие в Кракове."
+    source: { kind: authored }
+  - form: "niech umiejscowią"
+    pl: "Niech umiejscowią ból dokładnie."
+    ru: "Пусть точно локализуют боль."
+    source: { kind: authored }
+  - form: "niech umiejscowią"
+    pl: "Niech umiejscowią to na mapie."
+    ru: "Пусть отметят это на карте."
     source: { kind: authored }

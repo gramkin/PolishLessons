@@ -29,6 +29,7 @@ senses:
         ru: "Эти требования уже погашены давностью."
         source: { kind: authored }
 notes:
+  - { kind: government, text: "Будущее время дано только в третьем лице: подлежащее — то, что теряет силу (roszczenie, dług, przestępstwo), а не человек. Форм przedawnię, przedawnisz не бывает." }
   - { kind: usage, text: "Почти всегда с się: coś się przedawnia «что-л. теряет силу за давностью». Без się встречается редко." }
   - { kind: government, text: "Подлежащее — то, что теряет силу: roszczenie «требование», dług «долг», przestępstwo «преступление»." }
   - { kind: false-friend, text: "Не «представить» и не «предать». Корень — dawny «давний», как в русском «давность»." }
@@ -42,8 +43,6 @@ idioms:
   - { pl: "termin przedawnienia", ru: "срок давности" }
   - { pl: "ulec przedawnieniu", ru: "погаситься давностью" }
 formExamplesSkip:
-  - { form: "przedawni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przedawnią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przedawnicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przedawnieni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przedawnienia", reason: "в корпусе нет примеров для этой формы" }
@@ -95,6 +94,30 @@ formExamplesSkip:
   - { form: "przedawnisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przedawniwszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "przedawni"
+    pl: "Sprawa się przedawni za rok."
+    ru: "Дело будет закрыто за давностью через год."
+    source: { kind: authored }
+  - form: "przedawni"
+    pl: "Roszczenie się przedawni."
+    ru: "Требование погасится давностью."
+    source: { kind: authored }
+  - form: "przedawni"
+    pl: "Dług się nie przedawni tak szybko."
+    ru: "Долг так быстро не погасится давностью."
+    source: { kind: authored }
+  - form: "przedawnią"
+    pl: "Roszczenia się przedawnią za rok."
+    ru: "Требования погасятся давностью через год."
+    source: { kind: authored }
+  - form: "przedawnią"
+    pl: "Te sprawy się przedawnią."
+    ru: "Эти дела будут закрыты за давностью."
+    source: { kind: authored }
+  - form: "przedawnią"
+    pl: "Długi się nie przedawnią tak szybko."
+    ru: "Долги так быстро не погасятся давностью."
+    source: { kind: authored }
   - form: "przedawnić"
     pl: "Nie można przedawnić zbrodni wojennych."
     ru: "Военные преступления не имеют срока давности."
@@ -106,4 +129,28 @@ formExamples:
   - form: "przedawnić"
     pl: "Trudno przedawnić taki dług."
     ru: "Такой долг трудно погасить давностью."
+    source: { kind: authored }
+  - form: "niech przedawni"
+    pl: "Niech przedawni się ta sprawa."
+    ru: "Пусть это дело закроется за давностью."
+    source: { kind: authored }
+  - form: "niech przedawni"
+    pl: "Niech przedawni się roszczenie."
+    ru: "Пусть требование погасится давностью."
+    source: { kind: authored }
+  - form: "niech przedawni"
+    pl: "Niech przedawni się wreszcie."
+    ru: "Пусть наконец истечёт срок давности."
+    source: { kind: authored }
+  - form: "niech przedawnią"
+    pl: "Niech przedawnią się te sprawy."
+    ru: "Пусть эти дела закроются за давностью."
+    source: { kind: authored }
+  - form: "niech przedawnią"
+    pl: "Niech przedawnią się roszczenia."
+    ru: "Пусть требования погасятся давностью."
+    source: { kind: authored }
+  - form: "niech przedawnią"
+    pl: "Niech przedawnią się wreszcie."
+    ru: "Пусть наконец истекут сроки давности."
     source: { kind: authored }
