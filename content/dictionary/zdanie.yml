@@ -54,9 +54,6 @@ idioms:
   - { pl: "moim zdaniem", ru: "по моему мнению" }
   - { pl: "zmienić zdanie", ru: "передумать" }
   - { pl: "bez dwóch zdań", ru: "без сомнения" }
-formExamplesSkip:
-  - { form: "zdaniami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdaniom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zdania"
     pl: "Dodaj nowe zdania."
@@ -82,6 +79,18 @@ formExamples:
     pl: "W tych zdaniach są błędy."
     ru: "В этих предложениях есть ошибки."
     source: { kind: authored }
+  - form: "zdaniami"
+    pl: "Mówił krótkimi zdaniami."
+    ru: "Он говорил короткими предложениями."
+    source: { kind: authored }
+  - form: "zdaniami"
+    pl: "Między zdaniami robił pauzy."
+    ru: "Между предложениями он делал паузы."
+    source: { kind: authored }
+  - form: "zdaniami"
+    pl: "Wymienili się zdaniami na ten temat."
+    ru: "Они обменялись мнениями на эту тему."
+    source: { kind: authored }
   - form: "zdanie"
     pl: "Kocham to zdanie."
     ru: "Я люблю это предложение."
@@ -106,6 +115,18 @@ formExamples:
     pl: "Zgadzam się z jego zdaniem."
     ru: "Я согласен с его мнением."
     source: { kind: translated, id: 585855 }
+  - form: "zdaniom"
+    pl: "Przyjrzyj się tym zdaniom."
+    ru: "Присмотрись к этим предложениям."
+    source: { kind: authored }
+  - form: "zdaniom"
+    pl: "Dzięki krótkim zdaniom tekst jest jasny."
+    ru: "Благодаря коротким предложениям текст ясен."
+    source: { kind: authored }
+  - form: "zdaniom"
+    pl: "Nie ufaj takim zdaniom bez dowodów."
+    ru: "Не доверяй таким утверждениям без доказательств."
+    source: { kind: authored }
   - form: "zdaniu"
     pl: "W tym zdaniu jest błąd."
     ru: "В этом предложении есть ошибка."

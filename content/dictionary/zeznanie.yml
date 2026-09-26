@@ -42,11 +42,6 @@ idioms:
   - { pl: "składać zeznania", ru: "давать показания" }
   - { pl: "fałszywe zeznania", ru: "ложные показания" }
   - { pl: "zeznanie podatkowe", ru: "налоговая декларация" }
-formExamplesSkip:
-  - { form: "zeznaniach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zeznanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zeznaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zeznaniom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zeznania"
     pl: "Podpisały zeznania."
@@ -60,6 +55,18 @@ formExamples:
     pl: "Świadkowie muszą składać zeznania pod przysięgą."
     ru: "Свидетели должны давать показания под присягой."
     source: { kind: translated, id: 7334691 }
+  - form: "zeznaniach"
+    pl: "W tych zeznaniach są sprzeczności."
+    ru: "В этих показаниях есть противоречия."
+    source: { kind: authored }
+  - form: "zeznaniach"
+    pl: "O zeznaniach świadków mówi prokurator."
+    ru: "О показаниях свидетелей говорит прокурор."
+    source: { kind: authored }
+  - form: "zeznaniach"
+    pl: "W zeznaniach brakuje szczegółów."
+    ru: "В показаниях не хватает подробностей."
+    source: { kind: authored }
   - form: "zeznaniami"
     pl: "Te dowody zgadzają się z jego poprzednimi zeznaniami."
     ru: "Эти доказательства совпадают с его прежними показаниями."
@@ -71,6 +78,42 @@ formExamples:
   - form: "zeznaniami"
     pl: "Nie zgadza się to z zeznaniami."
     ru: "Это не сходится с показаниями."
+    source: { kind: authored }
+  - form: "zeznanie"
+    pl: "Podpisał zeznanie."
+    ru: "Он подписал показания."
+    source: { kind: authored }
+  - form: "zeznanie"
+    pl: "Zeznanie świadka było sprzeczne."
+    ru: "Показание свидетеля было противоречивым."
+    source: { kind: authored }
+  - form: "zeznanie"
+    pl: "Złożył zeznanie na policji."
+    ru: "Он дал показания в полиции."
+    source: { kind: authored }
+  - form: "zeznaniem"
+    pl: "Sprawa skończyła się zeznaniem świadka."
+    ru: "Дело кончилось показанием свидетеля."
+    source: { kind: authored }
+  - form: "zeznaniem"
+    pl: "Przed zeznaniem długo się wahał."
+    ru: "Перед дачей показаний он долго колебался."
+    source: { kind: authored }
+  - form: "zeznaniem"
+    pl: "Z tym zeznaniem coś jest nie tak."
+    ru: "С этим показанием что-то не так."
+    source: { kind: authored }
+  - form: "zeznaniom"
+    pl: "Przyjrzyj się tym zeznaniom."
+    ru: "Присмотрись к этим показаниям."
+    source: { kind: authored }
+  - form: "zeznaniom"
+    pl: "Dzięki zeznaniom świadków sprawa ruszyła."
+    ru: "Благодаря показаниям свидетелей дело сдвинулось."
+    source: { kind: authored }
+  - form: "zeznaniom"
+    pl: "Nie dawaj wiary tym zeznaniom."
+    ru: "Не верь этим показаниям."
     source: { kind: authored }
   - form: "zeznaniu"
     pl: "On zaprzeczył sam sobie kilka razy w swoim zeznaniu."
