@@ -60,13 +60,11 @@ idioms:
   - { pl: "ława oskarżonych", ru: "скамья подсудимых" }
 formExamplesSkip:
   - { form: "oskarż", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oskarżą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "oskarżeni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "oskarżenie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "oskarżeniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "oskarżeniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "oskarżę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "oskarżoną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "oskarżone", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
@@ -75,8 +73,6 @@ formExamplesSkip:
   - { form: "oskarżonych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "oskarżonym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "oskarżonymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "oskarży", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oskarżycie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "oskarżyliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżylibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżylibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -99,10 +95,20 @@ formExamplesSkip:
   - { form: "oskarżyłybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "oskarżyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "oskarżyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "oskarżymy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "oskarżysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oskarżywszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
+  - form: "oskarżą"
+    pl: "Oskarżą go o kradzież."
+    ru: "Они обвинят его в краже."
+    source: { kind: authored }
+  - form: "oskarżą"
+    pl: "Oskarżą ich o oszustwo."
+    ru: "Они обвинят их в мошенничестве."
+    source: { kind: authored }
+  - form: "oskarżą"
+    pl: "Nie oskarżą nikogo bez dowodów."
+    ru: "Они никого не обвинят без доказательств."
+    source: { kind: authored }
   - form: "oskarżenia"
     pl: "Ich oskarżenia mogą być prawdziwe."
     ru: "Их обвинения могут быть правдой."
@@ -114,6 +120,18 @@ formExamples:
   - form: "oskarżenia"
     pl: "Akt oskarżenia trafił do sądu."
     ru: "Обвинительное заключение поступило в суд."
+    source: { kind: authored }
+  - form: "oskarżę"
+    pl: "Oskarżę go o kradzież."
+    ru: "Я обвиню его в краже."
+    source: { kind: authored }
+  - form: "oskarżę"
+    pl: "Oskarżę ich o kłamstwo."
+    ru: "Я обвиню их во лжи."
+    source: { kind: authored }
+  - form: "oskarżę"
+    pl: "Nie oskarżę nikogo bez dowodów."
+    ru: "Я никого не обвиню без доказательств."
     source: { kind: authored }
   - form: "oskarżona"
     pl: "Byłaś błędnie oskarżona."
@@ -167,6 +185,30 @@ formExamples:
     pl: "Oskarżony został skazany na śmierć."
     ru: "Обвиняемый был приговорён к смерти."
     source: { kind: translated, id: 1191620 }
+  - form: "oskarży"
+    pl: "Oskarży go o kradzież."
+    ru: "Он обвинит его в краже."
+    source: { kind: authored }
+  - form: "oskarży"
+    pl: "Prokurator oskarży ich o oszustwo."
+    ru: "Прокурор обвинит их в мошенничестве."
+    source: { kind: authored }
+  - form: "oskarży"
+    pl: "Nikt nie oskarży cię bez dowodów."
+    ru: "Никто не обвинит тебя без доказательств."
+    source: { kind: authored }
+  - form: "oskarżycie"
+    pl: "Oskarżycie go o kradzież."
+    ru: "Вы обвините его в краже."
+    source: { kind: authored }
+  - form: "oskarżycie"
+    pl: "Oskarżycie ich o kłamstwo."
+    ru: "Вы обвините их во лжи."
+    source: { kind: authored }
+  - form: "oskarżycie"
+    pl: "Nie oskarżycie nikogo bez dowodów."
+    ru: "Вы никого не обвините без доказательств."
+    source: { kind: authored }
   - form: "oskarżyć"
     pl: "Musisz kogoś oskarżyć."
     ru: "Ты должен кого-то обвинить."
@@ -238,4 +280,52 @@ formExamples:
   - form: "oskarżyłem"
     pl: "Oskarżyłem go zbyt pochopnie."
     ru: "Я обвинил его слишком поспешно."
+    source: { kind: authored }
+  - form: "oskarżymy"
+    pl: "Oskarżymy go o kradzież."
+    ru: "Мы обвиним его в краже."
+    source: { kind: authored }
+  - form: "oskarżymy"
+    pl: "Oskarżymy ich o kłamstwo."
+    ru: "Мы обвиним их во лжи."
+    source: { kind: authored }
+  - form: "oskarżymy"
+    pl: "Nie oskarżymy nikogo bez dowodów."
+    ru: "Мы никого не обвиним без доказательств."
+    source: { kind: authored }
+  - form: "oskarżysz"
+    pl: "Oskarżysz go o kradzież."
+    ru: "Ты обвинишь его в краже."
+    source: { kind: authored }
+  - form: "oskarżysz"
+    pl: "Oskarżysz ich o kłamstwo."
+    ru: "Ты обвинишь их во лжи."
+    source: { kind: authored }
+  - form: "oskarżysz"
+    pl: "Nie oskarżysz nikogo bez dowodów."
+    ru: "Ты никого не обвинишь без доказательств."
+    source: { kind: authored }
+  - form: "niech oskarży"
+    pl: "Niech oskarży go o kradzież."
+    ru: "Пусть обвинит его в краже."
+    source: { kind: authored }
+  - form: "niech oskarży"
+    pl: "Niech oskarży, jeśli ma dowody."
+    ru: "Пусть обвиняет, если есть доказательства."
+    source: { kind: authored }
+  - form: "niech oskarży"
+    pl: "Niech oskarży przed sądem."
+    ru: "Пусть обвинит в суде."
+    source: { kind: authored }
+  - form: "niech oskarżą"
+    pl: "Niech oskarżą go o kradzież."
+    ru: "Пусть обвинят его в краже."
+    source: { kind: authored }
+  - form: "niech oskarżą"
+    pl: "Niech oskarżą, jeśli mają dowody."
+    ru: "Пусть обвиняют, если есть доказательства."
+    source: { kind: authored }
+  - form: "niech oskarżą"
+    pl: "Niech oskarżą przed sądem."
+    ru: "Пусть обвинят в суде."
     source: { kind: authored }
