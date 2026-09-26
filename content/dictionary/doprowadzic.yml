@@ -98,7 +98,6 @@ formExamplesSkip:
   - { form: "doprowadźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "doprowadźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "doprowadziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "doprowadziłoby", reason: "формы условного наклонения в корпусе не встречаются" }
 formExamples:
   - form: "doprowadzi"
     pl: "Ta droga doprowadzi cię tam."
@@ -195,6 +194,18 @@ formExamples:
   - form: "doprowadziło"
     pl: "To doprowadziło do wojny."
     ru: "Это привело к войне."
+    source: { kind: authored }
+  - form: "doprowadziłoby"
+    pl: "To doprowadziłoby mnie do szału."
+    ru: "Это свело бы меня с ума."
+    source: { kind: tatoeba, id: 13669941 }
+  - form: "doprowadziłoby"
+    pl: "To doprowadziłoby do wojny."
+    ru: "Это привело бы к войне."
+    source: { kind: authored }
+  - form: "doprowadziłoby"
+    pl: "Takie tempo doprowadziłoby nas do celu szybciej."
+    ru: "Такой темп привёл бы нас к цели быстрее."
     source: { kind: authored }
   - form: "doprowadziły"
     pl: "Twoje słowa doprowadziły Toma do płaczu."

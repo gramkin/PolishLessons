@@ -73,7 +73,6 @@ formExamplesSkip:
   - { form: "opowiadającymi", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "opowiadajcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "opowiadajmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "opowiadali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -85,7 +84,6 @@ formExamplesSkip:
   - { form: "opowiadałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadałby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "opowiadałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadało", reason: "в корпусе нет примеров для этой формы" }
@@ -111,7 +109,6 @@ formExamplesSkip:
   - { form: "opowiadanych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "opowiadanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "opowiadanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "opowiadasz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "opowiada"
     pl: "Tom opowiada historię."
@@ -185,6 +182,18 @@ formExamples:
     pl: "Udzielała wywiadów wszystkim czasopismom, opowiadając o każdym szczególe sprawy."
     ru: "Она давала интервью всем журналам, рассказывая о каждой подробности дела."
     source: { kind: translated, id: 12227280 }
+  - form: "opowiadali"
+    pl: "Starsi ludzie chętnie opowiadali historie o odwadze."
+    ru: "Пожилые люди охотно рассказывали истории о храбрости."
+    source: { kind: translated, id: 2606904 }
+  - form: "opowiadali"
+    pl: "Opowiadali o wojnie całymi wieczorami."
+    ru: "Они рассказывали о войне целыми вечерами."
+    source: { kind: authored }
+  - form: "opowiadali"
+    pl: "Żołnierze opowiadali o froncie."
+    ru: "Солдаты рассказывали о фронте."
+    source: { kind: authored }
   - form: "opowiadał"
     pl: "Opowiadał o podróży."
     ru: "Он рассказывал о поездке."
@@ -217,6 +226,18 @@ formExamples:
     pl: "Ona nigdy nie opowiadała o swoim pierwszym mężu."
     ru: "Она никогда не рассказывала о своём первом муже."
     source: { kind: tatoeba, id: 13116573 }
+  - form: "opowiadałbym"
+    pl: "Na twoim miejscu nie opowiadałbym takich bzdur"
+    ru: "На твоём месте я не рассказывал бы такой чепухи."
+    source: { kind: translated, id: 6099240 }
+  - form: "opowiadałbym"
+    pl: "Chętnie opowiadałbym o podróży godzinami."
+    ru: "Я охотно рассказывал бы о поездке часами."
+    source: { kind: authored }
+  - form: "opowiadałbym"
+    pl: "Nie opowiadałbym o tym nikomu."
+    ru: "Я никому не рассказывал бы об этом."
+    source: { kind: authored }
   - form: "opowiadałem"
     pl: "Opowiadałem mu o naszej szkole."
     ru: "Я рассказывал ему о нашей школе."
@@ -269,3 +290,15 @@ formExamples:
     pl: "Wszystkie wydarzenia opisane w tym opowiadaniu są wymyślone."
     ru: "Все события, описанные в этом рассказе, вымышлены."
     source: { kind: translated, id: 1505213 }
+  - form: "opowiadasz"
+    pl: "Dlaczego opowiadasz mi to teraz?"
+    ru: "Почему ты рассказываешь мне это сейчас?"
+    source: { kind: authored }
+  - form: "opowiadasz"
+    pl: "Opowiadasz ciekawie, słucham dalej."
+    ru: "Ты рассказываешь интересно, слушаю дальше."
+    source: { kind: authored }
+  - form: "opowiadasz"
+    pl: "Znowu opowiadasz tę samą historię."
+    ru: "Ты снова рассказываешь ту же историю."
+    source: { kind: authored }

@@ -99,7 +99,6 @@ formExamplesSkip:
   - { form: "twórz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "twórzcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "twórzmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "tworzony", reason: "формы страдательного причастия, в корпусе примеров нет" }
 formExamples:
   - form: "tworzą"
     pl: "Aminokwasy tworzą białka."
@@ -172,6 +171,18 @@ formExamples:
   - form: "tworzę"
     pl: "Tworzę muzykę od lat."
     ru: "Я создаю музыку много лет."
+    source: { kind: authored }
+  - form: "tworzony"
+    pl: "Gra wysyła gracza w dynamicznie tworzony świat."
+    ru: "Игра отправляет игрока в динамически создаваемый мир."
+    source: { kind: translated, id: 2265310 }
+  - form: "tworzony"
+    pl: "Dokument jest tworzony automatycznie."
+    ru: "Документ создаётся автоматически."
+    source: { kind: authored }
+  - form: "tworzony"
+    pl: "Nowy park będzie tworzony przez trzy lata."
+    ru: "Новый парк будет создаваться три года."
     source: { kind: authored }
   - form: "tworzy"
     pl: "Płonący meteoroid tworzy meteor."

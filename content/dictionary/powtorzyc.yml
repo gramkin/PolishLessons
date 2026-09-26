@@ -67,7 +67,6 @@ formExamplesSkip:
   - { form: "powtórzenie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "powtórzeniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "powtórzeniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "powtórzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzona", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "powtórzoną", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "powtórzone", reason: "формы страдательного причастия: в корпусе нет примеров" }
@@ -80,7 +79,6 @@ formExamplesSkip:
   - { form: "powtórzonym", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "powtórzonymi", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "powtórzycie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "powtórzyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzyliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzylibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzylibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -95,7 +93,6 @@ formExamplesSkip:
   - { form: "powtórzyłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzyłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "powtórzyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzyłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -121,6 +118,18 @@ formExamples:
     pl: "Powtórz to, proszę."
     ru: "Повтори это, пожалуйста."
     source: { kind: translated, id: 1476081 }
+  - form: "powtórzę"
+    pl: "Nie powtórzę ci tego."
+    ru: "Я тебе этого не повторю."
+    source: { kind: translated, id: 3739660 }
+  - form: "powtórzę"
+    pl: "Powtórzę pytanie jeszcze raz."
+    ru: "Я повторю вопрос ещё раз."
+    source: { kind: authored }
+  - form: "powtórzę"
+    pl: "Powtórzę materiał przed egzaminem."
+    ru: "Я повторю материал перед экзаменом."
+    source: { kind: authored }
   - form: "powtórzmy"
     pl: "Powtórzmy to."
     ru: "Давай это повторим."
@@ -165,6 +174,18 @@ formExamples:
     pl: "Przepraszam, czy możesz powtórzyć?"
     ru: "Извините, можете сказать это ещё раз?"
     source: { kind: tatoeba, id: 13789520 }
+  - form: "powtórzyli"
+    pl: "Byłoby lepiej jeśli byście powtórzyli historię przed egzaminem."
+    ru: "Было бы лучше, если бы вы повторили историю перед экзаменом."
+    source: { kind: tatoeba, id: 6018080 }
+  - form: "powtórzyli"
+    pl: "Powtórzyli eksperyment trzy razy."
+    ru: "Они повторили эксперимент три раза."
+    source: { kind: authored }
+  - form: "powtórzyli"
+    pl: "Uczniowie powtórzyli słówka przed lekcją."
+    ru: "Ученики повторили слова перед уроком."
+    source: { kind: authored }
   - form: "powtórzył"
     pl: "Tom powtórzył pytanie."
     ru: "Том повторил вопрос."
@@ -233,3 +254,15 @@ formExamples:
     pl: "Nigdy więcej nie pozwól, aby to się powtórzyło."
     ru: "Никогда больше не допускай, чтобы это повторилось."
     source: { kind: translated, id: 8617647 }
+  - form: "powtórzyły"
+    pl: "Dziewczyny powtórzyły piosenkę na bis."
+    ru: "Девушки повторили песню на бис."
+    source: { kind: authored }
+  - form: "powtórzyły"
+    pl: "Wyniki powtórzyły się w drugim badaniu."
+    ru: "Результаты повторились во втором исследовании."
+    source: { kind: authored }
+  - form: "powtórzyły"
+    pl: "Dzieci powtórzyły zdanie za nauczycielem."
+    ru: "Дети повторили предложение за учителем."
+    source: { kind: authored }

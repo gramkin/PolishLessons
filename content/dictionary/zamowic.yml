@@ -98,7 +98,6 @@ formExamplesSkip:
   - { form: "zamówionych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "zamówionym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "zamówionymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówiwszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
   - { form: "zamówmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
@@ -253,4 +252,16 @@ formExamples:
   - form: "zamówiłeś"
     pl: "Co zamówiłeś na deser?"
     ru: "Что ты заказал на десерт?"
+    source: { kind: authored }
+  - form: "zamówisz"
+    pl: "Jeśli zamówisz tonkatsu w tym miejscu, dostaniesz też górę kapusty."
+    ru: "Если закажешь тонкацу в этом месте, получишь ещё и гору капусты."
+    source: { kind: translated, id: 10203204 }
+  - form: "zamówisz"
+    pl: "Co zamówisz na deser?"
+    ru: "Что ты закажешь на десерт?"
+    source: { kind: authored }
+  - form: "zamówisz"
+    pl: "Zamówisz taksówkę czy pójdziemy pieszo?"
+    ru: "Ты закажешь такси или пойдём пешком?"
     source: { kind: authored }
