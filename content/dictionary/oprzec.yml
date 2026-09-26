@@ -35,6 +35,7 @@ senses:
         ru: "Я не мог устоять."
         source: { kind: translated, id: 2467068 }
 notes:
+  - { kind: usage, text: "Будущее время: oprę, oprzesz, oprze, oprzemy, oprzecie, oprą — глагол спрягается как przeć (prę, przesz, prze, prą). Повелительное — oprzyj, пожелательное — niech oprze, niech oprą." }
   - { kind: usage, text: "Совершенный вид; несовершенный — opierać." }
   - { kind: government, text: "Три разных управления: oprzeć coś o coś «прислонить что-л. к чему-л.» (винительный), oprzeć się na czymś «опереться на что-л.» (предложный), oprzeć się czemuś «устоять перед чем-л.» (дательный)." }
   - { kind: usage, text: "Причастие oparty «основанный» встречается чаще самого глагола: oparty na faktach «основанный на фактах»." }
@@ -80,16 +81,12 @@ formExamplesSkip:
   - { form: "opartych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opartym", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opartymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oprą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oprę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzał", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "oprzawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "oprze", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oprzecie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzej", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzeją", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzejcie", reason: "в корпусе нет примеров для этой формы" }
@@ -100,12 +97,10 @@ formExamplesSkip:
   - { form: "oprzeję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzejmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzeli", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oprzemy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzenia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzenie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzeniem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oprzesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzyjcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oprzyjmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
@@ -241,6 +236,54 @@ formExamples:
     pl: "Sondaż był oparty na próbie osób dorosłych."
     ru: "Опрос был основан на выборке взрослых."
     source: { kind: translated, id: 2770375 }
+  - form: "oprą"
+    pl: "Oprą drabinę o ścianę."
+    ru: "Они прислонят лестницу к стене."
+    source: { kind: authored }
+  - form: "oprą"
+    pl: "Oprą się na naszym ramieniu."
+    ru: "Они обопрутся на наше плечо."
+    source: { kind: authored }
+  - form: "oprą"
+    pl: "Nie oprą się pokusie."
+    ru: "Они не устоят перед соблазном."
+    source: { kind: authored }
+  - form: "oprę"
+    pl: "Oprę drabinę o ścianę."
+    ru: "Я прислоню лестницу к стене."
+    source: { kind: authored }
+  - form: "oprę"
+    pl: "Oprę się na twoim ramieniu."
+    ru: "Я обопрусь на твоё плечо."
+    source: { kind: authored }
+  - form: "oprę"
+    pl: "Nie oprę się pokusie."
+    ru: "Я не устою перед соблазном."
+    source: { kind: authored }
+  - form: "oprze"
+    pl: "Oprze drabinę o ścianę."
+    ru: "Он прислонит лестницу к стене."
+    source: { kind: authored }
+  - form: "oprze"
+    pl: "Oprze się na twoim ramieniu."
+    ru: "Он обопрётся на твоё плечо."
+    source: { kind: authored }
+  - form: "oprze"
+    pl: "Nikt nie oprze się pokusie."
+    ru: "Никто не устоит перед соблазном."
+    source: { kind: authored }
+  - form: "oprzecie"
+    pl: "Oprzecie drabinę o ścianę."
+    ru: "Вы прислоните лестницу к стене."
+    source: { kind: authored }
+  - form: "oprzecie"
+    pl: "Oprzecie się na naszym ramieniu."
+    ru: "Вы обопрётесь на наше плечо."
+    source: { kind: authored }
+  - form: "oprzecie"
+    pl: "Nie oprzecie się pokusie."
+    ru: "Вы не устоите перед соблазном."
+    source: { kind: authored }
   - form: "oprzeć"
     pl: "Nie mogłem się oprzeć."
     ru: "Я не мог устоять."
@@ -253,6 +296,30 @@ formExamples:
     pl: "Jak mógłbym się oprzeć?"
     ru: "Как бы я мог устоять?"
     source: { kind: translated, id: 10542372 }
+  - form: "oprzemy"
+    pl: "Oprzemy drabinę o ścianę."
+    ru: "Мы прислоним лестницу к стене."
+    source: { kind: authored }
+  - form: "oprzemy"
+    pl: "Oprzemy się na waszym ramieniu."
+    ru: "Мы обопрёмся на ваше плечо."
+    source: { kind: authored }
+  - form: "oprzemy"
+    pl: "Nie oprzemy się pokusie."
+    ru: "Мы не устоим перед соблазном."
+    source: { kind: authored }
+  - form: "oprzesz"
+    pl: "Oprzesz drabinę o ścianę."
+    ru: "Ты прислонишь лестницу к стене."
+    source: { kind: authored }
+  - form: "oprzesz"
+    pl: "Oprzesz się na moim ramieniu."
+    ru: "Ты обопрёшься на моё плечо."
+    source: { kind: authored }
+  - form: "oprzesz"
+    pl: "Nie oprzesz się pokusie."
+    ru: "Ты не устоишь перед соблазном."
+    source: { kind: authored }
   - form: "oprzyj"
     pl: "Oprzyj drabinę o ścianę."
     ru: "Прислони лестницу к стене."
@@ -264,4 +331,28 @@ formExamples:
   - form: "oprzyj"
     pl: "Oprzyj się na mnie."
     ru: "Обопрись на меня."
+    source: { kind: authored }
+  - form: "niech oprze"
+    pl: "Niech oprze drabinę o ścianę."
+    ru: "Пусть прислонит лестницу к стене."
+    source: { kind: authored }
+  - form: "niech oprze"
+    pl: "Niech oprze się na moim ramieniu."
+    ru: "Пусть обопрётся на моё плечо."
+    source: { kind: authored }
+  - form: "niech oprze"
+    pl: "Niech oprze wniosek na faktach."
+    ru: "Пусть обоснует вывод на фактах."
+    source: { kind: authored }
+  - form: "niech oprą"
+    pl: "Niech oprą drabinę o ścianę."
+    ru: "Пусть прислонят лестницу к стене."
+    source: { kind: authored }
+  - form: "niech oprą"
+    pl: "Niech oprą się na moim ramieniu."
+    ru: "Пусть обопрутся на моё плечо."
+    source: { kind: authored }
+  - form: "niech oprą"
+    pl: "Niech oprą wniosek na faktach."
+    ru: "Пусть обоснуют вывод на фактах."
     source: { kind: authored }
