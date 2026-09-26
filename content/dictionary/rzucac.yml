@@ -73,7 +73,6 @@ formExamplesSkip:
   - { form: "rzucającymi", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "rzucajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "rzucajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "rzucali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rzucaliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucalibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -82,14 +81,9 @@ formExamplesSkip:
   - { form: "rzucałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "rzucałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rzucałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rzucałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "rzucałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rzucałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rzucało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rzucałoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "rzucałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -173,6 +167,18 @@ formExamples:
     pl: "Rzucają palenie razem."
     ru: "Они бросают курить вместе."
     source: { kind: authored }
+  - form: "rzucali"
+    pl: "Rzucali kamienie do wody."
+    ru: "Они бросали камни в воду."
+    source: { kind: authored }
+  - form: "rzucali"
+    pl: "Rzucali palenie kilka razy."
+    ru: "Они несколько раз бросали курить."
+    source: { kind: authored }
+  - form: "rzucali"
+    pl: "Nie rzucali słów na wiatr."
+    ru: "Они не бросали слов на ветер."
+    source: { kind: authored }
   - form: "rzucał"
     pl: "Rzucał mięsem."
     ru: "Он ругался матом."
@@ -196,6 +202,66 @@ formExamples:
   - form: "rzucała"
     pl: "Rzucała wszystko na podłogę."
     ru: "Она бросала всё на пол."
+    source: { kind: authored }
+  - form: "rzucałam"
+    pl: "Rzucałam kamienie do wody."
+    ru: "Я бросала камни в воду."
+    source: { kind: authored }
+  - form: "rzucałam"
+    pl: "Rzucałam palenie kilka razy."
+    ru: "Я несколько раз бросала курить."
+    source: { kind: authored }
+  - form: "rzucałam"
+    pl: "Nie rzucałam słów na wiatr."
+    ru: "Я не бросала слов на ветер."
+    source: { kind: authored }
+  - form: "rzucałaś"
+    pl: "Rzucałaś kamienie do wody."
+    ru: "Ты бросала камни в воду."
+    source: { kind: authored }
+  - form: "rzucałaś"
+    pl: "Rzucałaś palenie kilka razy."
+    ru: "Ты несколько раз бросала курить."
+    source: { kind: authored }
+  - form: "rzucałaś"
+    pl: "Nie rzucałaś słów na wiatr."
+    ru: "Ты не бросала слов на ветер."
+    source: { kind: authored }
+  - form: "rzucałem"
+    pl: "Rzucałem kamienie do wody."
+    ru: "Я бросал камни в воду."
+    source: { kind: authored }
+  - form: "rzucałem"
+    pl: "Rzucałem palenie kilka razy."
+    ru: "Я несколько раз бросал курить."
+    source: { kind: authored }
+  - form: "rzucałem"
+    pl: "Nie rzucałem słów na wiatr."
+    ru: "Я не бросал слов на ветер."
+    source: { kind: authored }
+  - form: "rzucałeś"
+    pl: "Rzucałeś kamienie do wody."
+    ru: "Ты бросал камни в воду."
+    source: { kind: authored }
+  - form: "rzucałeś"
+    pl: "Rzucałeś palenie kilka razy."
+    ru: "Ты несколько раз бросал курить."
+    source: { kind: authored }
+  - form: "rzucałeś"
+    pl: "Nie rzucałeś słów na wiatr."
+    ru: "Ты не бросал слов на ветер."
+    source: { kind: authored }
+  - form: "rzucało"
+    pl: "Dziecko rzucało kamyki do wody."
+    ru: "Ребёнок бросал камешки в воду."
+    source: { kind: authored }
+  - form: "rzucało"
+    pl: "Wiele osób rzucało monety do fontanny."
+    ru: "Многие бросали монеты в фонтан."
+    source: { kind: authored }
+  - form: "rzucało"
+    pl: "Drzewo rzucało długi cień."
+    ru: "Дерево отбрасывало длинную тень."
     source: { kind: authored }
   - form: "rzucały"
     pl: "Dzieci rzucały kamieniami w psy."

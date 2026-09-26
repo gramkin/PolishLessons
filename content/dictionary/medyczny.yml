@@ -57,13 +57,19 @@ idioms:
   - { pl: "opieka medyczna", ru: "медицинская помощь" }
   - { pl: "badania medyczne", ru: "медосмотр" }
   - { pl: "ratownik medyczny", ru: "фельдшер скорой" }
-formExamplesSkip:
-  - { form: "medyczna", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "medycznemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "medyczni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "medyczny", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "medycznymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "medyczna"
+    pl: "Opieka medyczna jest tu bezpłatna."
+    ru: "Медицинская помощь здесь бесплатная."
+    source: { kind: authored }
+  - form: "medyczna"
+    pl: "Potrzebna jest pomoc medyczna."
+    ru: "Нужна медицинская помощь."
+    source: { kind: authored }
+  - form: "medyczna"
+    pl: "To decyzja medyczna, nie prawna."
+    ru: "Это медицинское решение, а не правовое."
+    source: { kind: authored }
   - form: "medyczną"
     pl: "Zawsze narzeka na złą opiekę medyczną."
     ru: "Он всегда жалуется на плохую медицинскую помощь."
@@ -116,6 +122,42 @@ formExamples:
     pl: "Wierzymy, że dobre zdrowie wynika z czegoś więcej niż tylko z opieki medycznej."
     ru: "Мы считаем, что хорошее здоровье — это больше, чем только медицинская помощь."
     source: { kind: translated, id: 11162498 }
+  - form: "medycznemu"
+    pl: "Przyjrzyj się temu medycznemu raportowi."
+    ru: "Присмотрись к этому медицинскому отчёту."
+    source: { kind: authored }
+  - form: "medycznemu"
+    pl: "Dzięki personelowi medycznemu przeżył."
+    ru: "Благодаря медицинскому персоналу он выжил."
+    source: { kind: authored }
+  - form: "medycznemu"
+    pl: "Nie ufaj temu medycznemu poradnikowi."
+    ru: "Не доверяй этому медицинскому справочнику."
+    source: { kind: authored }
+  - form: "medyczni"
+    pl: "Pracownicy medyczni strajkowali."
+    ru: "Медицинские работники бастовали."
+    source: { kind: authored }
+  - form: "medyczni"
+    pl: "Medyczni ratownicy dotarli pierwsi."
+    ru: "Медицинские спасатели прибыли первыми."
+    source: { kind: authored }
+  - form: "medyczni"
+    pl: "Studenci medyczni odbywają praktyki."
+    ru: "Студенты-медики проходят практику."
+    source: { kind: authored }
+  - form: "medyczny"
+    pl: "To sprzęt medyczny."
+    ru: "Это медицинское оборудование."
+    source: { kind: authored }
+  - form: "medyczny"
+    pl: "Potrzebny jest transport medyczny."
+    ru: "Нужен медицинский транспорт."
+    source: { kind: authored }
+  - form: "medyczny"
+    pl: "Wydano mu certyfikat medyczny."
+    ru: "Ему выдали медицинскую справку."
+    source: { kind: authored }
   - form: "medycznych"
     pl: "Nawet robaki kupuje się dla badań medycznych."
     ru: "Даже червей покупают для медицинских исследований."
@@ -140,3 +182,15 @@ formExamples:
     pl: "Ci wybrani będą musieli być poddani obszernym testom medycznym i psychologicznym."
     ru: "Отобранным придётся пройти обширные медицинские и психологические тесты."
     source: { kind: translated, id: 526616 }
+  - form: "medycznymi"
+    pl: "Zajmuje się badaniami medycznymi."
+    ru: "Он занимается медицинскими исследованиями."
+    source: { kind: authored }
+  - form: "medycznymi"
+    pl: "Między danymi medycznymi a prawnymi jest granica."
+    ru: "Между медицинскими и правовыми данными есть граница."
+    source: { kind: authored }
+  - form: "medycznymi"
+    pl: "Dysponują nowoczesnymi urządzeniami medycznymi."
+    ru: "Они располагают современными медицинскими приборами."
+    source: { kind: authored }
