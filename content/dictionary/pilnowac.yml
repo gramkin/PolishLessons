@@ -59,15 +59,11 @@ idioms:
   - { pl: "pilnować jak oka w głowie", ru: "беречь как зеницу ока" }
   - { pl: "pilnować terminów", ru: "соблюдать сроки" }
 formExamplesSkip:
-  - { form: "pilnować", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pilnowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pilnowaliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "pilnowalibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "pilnowalibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "pilnowaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "pilnowaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "pilnował", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pilnowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pilnowałaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "pilnowałabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "pilnowałabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -102,7 +98,6 @@ formExamplesSkip:
   - { form: "pilnowanych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "pilnowanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "pilnowanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "pilnują", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pilnując", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "pilnująca", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "pilnującą", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
@@ -120,6 +115,54 @@ formExamplesSkip:
   - { form: "pilnujesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pilnujmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "pilnować"
+    pl: "Musimy pilnować prawa i porządku."
+    ru: "Мы должны следить за законом и порядком."
+    source: { kind: translated, id: 369071 }
+  - form: "pilnować"
+    pl: "Trzeba pilnować dzieci na placu zabaw."
+    ru: "Нужно присматривать за детьми на детской площадке."
+    source: { kind: authored }
+  - form: "pilnować"
+    pl: "Kto będzie pilnować domu?"
+    ru: "Кто будет присматривать за домом?"
+    source: { kind: authored }
+  - form: "pilnowali"
+    pl: "Pilnowali na zmianę."
+    ru: "Они дежурили по очереди."
+    source: { kind: translated, id: 411570 }
+  - form: "pilnowali"
+    pl: "Sąsiedzi pilnowali naszego mieszkania."
+    ru: "Соседи присматривали за нашей квартирой."
+    source: { kind: authored }
+  - form: "pilnowali"
+    pl: "Pilnowali wejścia przez całą noc."
+    ru: "Они охраняли вход всю ночь."
+    source: { kind: authored }
+  - form: "pilnował"
+    pl: "Pies pilnował domu przez całą noc."
+    ru: "Собака сторожила дом всю ночь."
+    source: { kind: authored }
+  - form: "pilnował"
+    pl: "Dziadek pilnował wnuków w sobotę."
+    ru: "Дедушка присматривал за внуками в субботу."
+    source: { kind: authored }
+  - form: "pilnował"
+    pl: "Pilnował, żeby nikt nie wszedł."
+    ru: "Он следил, чтобы никто не вошёл."
+    source: { kind: authored }
+  - form: "pilnowała"
+    pl: "Czy ich matka pilnowała dziewczynek?"
+    ru: "Их мать присматривала за девочками?"
+    source: { kind: translated, id: 751109 }
+  - form: "pilnowała"
+    pl: "Pilnowała torby przez cały lot."
+    ru: "Она следила за сумкой весь полёт."
+    source: { kind: authored }
+  - form: "pilnowała"
+    pl: "Babcia pilnowała, żeby nikt nie zmókł."
+    ru: "Бабушка следила, чтобы никто не промок."
+    source: { kind: authored }
   - form: "pilnuj"
     pl: "Pilnuj swego nosa!"
     ru: "Не лезь не в своё дело!"
@@ -136,6 +179,18 @@ formExamples:
     pl: "Pilnuj, szewcze, kopyta."
     ru: "Всяк сверчок знай свой шесток."
     source: { kind: tatoeba, id: 359880 }
+  - form: "pilnują"
+    pl: "Strażnicy pilnują, aby wszystkie drzwi w muzeum były zamknięte."
+    ru: "Охранники следят, чтобы все двери в музее были закрыты."
+    source: { kind: translated, id: 10202717 }
+  - form: "pilnują"
+    pl: "Rodzice pilnują dzieci na basenie."
+    ru: "Родители присматривают за детьми в бассейне."
+    source: { kind: authored }
+  - form: "pilnują"
+    pl: "Psy pilnują stada owiec."
+    ru: "Собаки стерегут стадо овец."
+    source: { kind: authored }
   - form: "pilnuje"
     pl: "Pies pilnuje domu."
     ru: "Собака сторожит дом."

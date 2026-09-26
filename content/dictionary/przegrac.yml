@@ -61,7 +61,6 @@ idioms:
 formExamplesSkip:
   - { form: "przegracie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "przegraj", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "przegrają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przegrajcie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "przegrajmy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "przegraliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -71,8 +70,6 @@ formExamplesSkip:
   - { form: "przegrałaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "przegrałabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "przegrałabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "przegrałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przegrałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przegrałby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "przegrałbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "przegrałbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -84,7 +81,6 @@ formExamplesSkip:
   - { form: "przegrałybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "przegrałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "przegrałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "przegram", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przegrana", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "przegraną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "przegrane", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
@@ -101,7 +97,6 @@ formExamplesSkip:
   - { form: "przegranych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "przegranym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "przegranymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "przegrasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przegrawszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
   - form: "przegra"
@@ -132,6 +127,18 @@ formExamples:
     pl: "Kto walczy, może przegrać. Kto nie walczy - już przegrał."
     ru: "Кто борется, может проиграть. Кто не борется - уже проиграл."
     source: { kind: tatoeba, id: 2421546 }
+  - form: "przegrają"
+    pl: "Przegrają."
+    ru: "Они проиграют."
+    source: { kind: translated, id: 11443575 }
+  - form: "przegrają"
+    pl: "Czy Real Madryt wygra dziś? Jeśli przegrają z City, odpadną z turnieju."
+    ru: "Реал Мадрид сегодня выиграет? Если они проиграют «Сити», вылетят из турнира."
+    source: { kind: translated, id: 13048561 }
+  - form: "przegrają"
+    pl: "Jeśli nie zagrają lepiej, przegrają."
+    ru: "Если не сыграют лучше, проиграют."
+    source: { kind: authored }
   - form: "przegrali"
     pl: "Przegrali wojnę secesyjną."
     ru: "Они проиграли Гражданскую войну."
@@ -196,6 +203,30 @@ formExamples:
     pl: "Ku naszemu rozczarowaniu, nasza drużyna przegrała."
     ru: "К нашему разочарованию, наша команда проиграла."
     source: { kind: translated, id: 840224 }
+  - form: "przegrałam"
+    pl: "Przegrałam zakład."
+    ru: "Я проиграла пари."
+    source: { kind: translated, id: 3584797 }
+  - form: "przegrałam"
+    pl: "Jeszcze nie przegrałam."
+    ru: "Я ещё не проиграла."
+    source: { kind: translated, id: 6157929 }
+  - form: "przegrałam"
+    pl: "Przegrałam mecz, ale nie tracę wiary."
+    ru: "Я проиграла матч, но не теряю веры."
+    source: { kind: authored }
+  - form: "przegrałaś"
+    pl: "Przegrałaś."
+    ru: "Ты проиграла."
+    source: { kind: translated, id: 10597236 }
+  - form: "przegrałaś"
+    pl: "Przegrałaś zakład, płacisz."
+    ru: "Ты проиграла пари — платишь."
+    source: { kind: authored }
+  - form: "przegrałaś"
+    pl: "Nie przegrałaś jeszcze niczego."
+    ru: "Ты ещё ничего не проиграла."
+    source: { kind: authored }
   - form: "przegrałem"
     pl: "Przegrałem."
     ru: "Я проиграл."
@@ -220,6 +251,18 @@ formExamples:
     pl: "Przegrałeś. Poddaj się."
     ru: "Ты проиграл. Сдавайся."
     source: { kind: translated, id: 933134 }
+  - form: "przegram"
+    pl: "Nie przegram!"
+    ru: "Не проиграю!"
+    source: { kind: tatoeba, id: 1166433 }
+  - form: "przegram"
+    pl: "Boję się, że przegram."
+    ru: "Боюсь, что проиграю."
+    source: { kind: authored }
+  - form: "przegram"
+    pl: "Jeśli przegram, zapłacę."
+    ru: "Если проиграю, заплачу."
+    source: { kind: authored }
   - form: "przegramy"
     pl: "Nie przegramy."
     ru: "Мы не проиграем."
@@ -232,3 +275,15 @@ formExamples:
     pl: "Przegramy mecz, jeśli wszyscy nie będą grali świetnie."
     ru: "Мы проиграем матч, если все не будут играть отлично."
     source: { kind: translated, id: 368440 }
+  - form: "przegrasz"
+    pl: "Przegrasz."
+    ru: "Ты проиграешь."
+    source: { kind: translated, id: 4837865 }
+  - form: "przegrasz"
+    pl: "Przegrasz, jeśli się nie skupisz."
+    ru: "Ты проиграешь, если не сосредоточишься."
+    source: { kind: authored }
+  - form: "przegrasz"
+    pl: "Nie przegrasz z takim zespołem."
+    ru: "Ты не проиграешь с такой командой."
+    source: { kind: authored }

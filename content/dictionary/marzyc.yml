@@ -59,8 +59,6 @@ idioms:
   - { pl: "marzyć o czymś", ru: "мечтать о чём-то" }
   - { pl: "marzyć o niebieskich migdałach", ru: "витать в облаках" }
 formExamplesSkip:
-  - { form: "marz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "marzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "marząc", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "marząca", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "marzącą", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
@@ -83,7 +81,6 @@ formExamplesSkip:
   - { form: "marzylibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "marzyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "marzyliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "marzyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "marzyłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "marzyłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "marzyłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -100,8 +97,31 @@ formExamplesSkip:
   - { form: "marzyłybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "marzyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "marzyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "marzysz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "marz"
+    pl: "Zapomnij o przeszłości, trzymaj się teraźniejszości, marz o przyszłości."
+    ru: "Забудь о прошлом, держись настоящего, мечтай о будущем."
+    source: { kind: translated, id: 2900594 }
+  - form: "marz"
+    pl: "Marz o czymś większym."
+    ru: "Мечтай о чём-то большем."
+    source: { kind: authored }
+  - form: "marz"
+    pl: "Nie marz, tylko działaj."
+    ru: "Не мечтай, а действуй."
+    source: { kind: authored }
+  - form: "marzą"
+    pl: "O czym marzą wiewiórki?"
+    ru: "О чём мечтают белки?"
+    source: { kind: tatoeba, id: 5488122 }
+  - form: "marzą"
+    pl: "Dzieci marzą o wakacjach."
+    ru: "Дети мечтают о каникулах."
+    source: { kind: authored }
+  - form: "marzą"
+    pl: "Wszyscy marzą o spokoju."
+    ru: "Все мечтают о покое."
+    source: { kind: authored }
   - form: "marzenia"
     pl: "Marzenia się spełniają."
     ru: "Мечты сбываются."
@@ -214,6 +234,18 @@ formExamples:
     pl: "Jako dziecko Tom marzył o byciu światowej sławy pisarzem."
     ru: "В детстве Том мечтал стать всемирно известным писателем."
     source: { kind: translated, id: 7891535 }
+  - form: "marzyła"
+    pl: "Ona nigdy nie marzyła o spotkaniu go za granicą."
+    ru: "Она никогда не мечтала встретить его за границей."
+    source: { kind: translated, id: 748338 }
+  - form: "marzyła"
+    pl: "Marzyła o własnym domu."
+    ru: "Она мечтала о собственном доме."
+    source: { kind: authored }
+  - form: "marzyła"
+    pl: "Od dziecka marzyła o morzu."
+    ru: "С детства она мечтала о море."
+    source: { kind: authored }
   - form: "marzyłam"
     pl: "Kiedyś marzyłam o karierze modelki."
     ru: "Когда-то я мечтала о карьере модели."
@@ -253,4 +285,16 @@ formExamples:
   - form: "marzymy"
     pl: "Marzymy o własnym domu."
     ru: "Мы мечтаем о собственном доме."
+    source: { kind: authored }
+  - form: "marzysz"
+    pl: "Marzysz, by zostać milionerem."
+    ru: "Ты мечтаешь стать миллионером."
+    source: { kind: translated, id: 11272410 }
+  - form: "marzysz"
+    pl: "O czym marzysz najbardziej?"
+    ru: "О чём ты мечтаешь больше всего?"
+    source: { kind: authored }
+  - form: "marzysz"
+    pl: "Marzysz o podróży dookoła świata."
+    ru: "Ты мечтаешь о кругосветном путешествии."
     source: { kind: authored }
