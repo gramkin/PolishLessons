@@ -51,15 +51,11 @@ idioms:
   - { pl: "co mi przywiozłeś?", ru: "что ты мне привёз?" }
   - { pl: "przywieźć z podróży", ru: "привезти из поездки" }
 formExamplesSkip:
-  - { form: "przywiezie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przywieziecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przywieziemy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezieni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezienia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezienie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezieniem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przywieziesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywieziona", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezioną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiezione", reason: "в корпусе нет примеров для этой формы" }
@@ -81,8 +77,6 @@ formExamplesSkip:
   - { form: "przywieźliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przywieźliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przywieźmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przywiozą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przywiozę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiozł", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiozła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przywiozłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -101,6 +95,78 @@ formExamplesSkip:
   - { form: "przywiozłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przywiózłszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "przywiezie"
+    pl: "Przywiezie ci pamiątkę z Krakowa."
+    ru: "Он привезёт тебе сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywiezie"
+    pl: "Przywiezie zakupy samochodem."
+    ru: "Он привезёт покупки на машине."
+    source: { kind: authored }
+  - form: "przywiezie"
+    pl: "Nie przywiezie niczego ciężkiego."
+    ru: "Он не привезёт ничего тяжёлого."
+    source: { kind: authored }
+  - form: "przywieziecie"
+    pl: "Przywieziecie mi pamiątkę z Krakowa."
+    ru: "Вы привезёте мне сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywieziecie"
+    pl: "Przywieziecie zakupy samochodem."
+    ru: "Вы привезёте покупки на машине."
+    source: { kind: authored }
+  - form: "przywieziecie"
+    pl: "Nie przywieziecie niczego ciężkiego."
+    ru: "Вы не привезёте ничего тяжёлого."
+    source: { kind: authored }
+  - form: "przywieziemy"
+    pl: "Przywieziemy ci pamiątkę z Krakowa."
+    ru: "Мы привезём тебе сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywieziemy"
+    pl: "Przywieziemy zakupy samochodem."
+    ru: "Мы привезём покупки на машине."
+    source: { kind: authored }
+  - form: "przywieziemy"
+    pl: "Nie przywieziemy niczego ciężkiego."
+    ru: "Мы не привезём ничего тяжёлого."
+    source: { kind: authored }
+  - form: "przywieziesz"
+    pl: "Przywieziesz mi pamiątkę z Krakowa."
+    ru: "Ты привезёшь мне сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywieziesz"
+    pl: "Przywieziesz zakupy samochodem."
+    ru: "Ты привезёшь покупки на машине."
+    source: { kind: authored }
+  - form: "przywieziesz"
+    pl: "Nie przywieziesz niczego ciężkiego."
+    ru: "Ты не привезёшь ничего тяжёлого."
+    source: { kind: authored }
+  - form: "przywiozą"
+    pl: "Przywiozą ci pamiątkę z Krakowa."
+    ru: "Они привезут тебе сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywiozą"
+    pl: "Przywiozą zakupy samochodem."
+    ru: "Они привезут покупки на машине."
+    source: { kind: authored }
+  - form: "przywiozą"
+    pl: "Nie przywiozą niczego ciężkiego."
+    ru: "Они не привезут ничего тяжёлого."
+    source: { kind: authored }
+  - form: "przywiozę"
+    pl: "Przywiozę ci pamiątkę z Krakowa."
+    ru: "Я привезу тебе сувенир из Кракова."
+    source: { kind: authored }
+  - form: "przywiozę"
+    pl: "Przywiozę zakupy samochodem."
+    ru: "Я привезу покупки на машине."
+    source: { kind: authored }
+  - form: "przywiozę"
+    pl: "Nie przywiozę niczego ciężkiego."
+    ru: "Я не привезу ничего тяжёлого."
+    source: { kind: authored }
   - form: "przywiozłam"
     pl: "Przywiozłam ci ryż z Chin."
     ru: "Я привезла тебе рис из Китая."
@@ -160,4 +226,28 @@ formExamples:
   - form: "przywiózł"
     pl: "Sąsiad przywiózł nam drewno."
     ru: "Сосед привёз нам дрова."
+    source: { kind: authored }
+  - form: "niech przywiezie"
+    pl: "Niech przywiezie pamiątkę z Krakowa."
+    ru: "Пусть привезёт сувенир из Кракова."
+    source: { kind: authored }
+  - form: "niech przywiezie"
+    pl: "Niech przywiezie zakupy samochodem."
+    ru: "Пусть привезёт покупки на машине."
+    source: { kind: authored }
+  - form: "niech przywiezie"
+    pl: "Niech przywiezie, co obiecał."
+    ru: "Пусть привезёт, что обещал."
+    source: { kind: authored }
+  - form: "niech przywiozą"
+    pl: "Niech przywiozą pamiątkę z Krakowa."
+    ru: "Пусть привезут сувенир из Кракова."
+    source: { kind: authored }
+  - form: "niech przywiozą"
+    pl: "Niech przywiozą zakupy samochodem."
+    ru: "Пусть привезут покупки на машине."
+    source: { kind: authored }
+  - form: "niech przywiozą"
+    pl: "Niech przywiozą, co obiecali."
+    ru: "Пусть привезут, что обещали."
     source: { kind: authored }
