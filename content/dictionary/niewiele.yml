@@ -31,6 +31,7 @@ senses:
         ru: "Немногие студенты понимают латынь."
         source: { kind: translated, id: 362548 }
 notes:
+  - { kind: usage, text: "Формы niewiela, niewielą и niewielo оставлены без примеров: таких слов нет. Склонение — niewiele (именительный и винительный), niewielu (мужско-личная форма и косвенные падежи), niewieloma (творительный). niewielo- бывает только первой частью сложных слов." }
   - { kind: government, text: "Как и wiele, требует родительного падежа: niewiele pieniędzy «мало денег», niewielu studentów «немногие студенты»." }
   - { kind: usage, text: "Форма niewielu — мужско-личная, о мужчинах и смешанных группах. Обо всём остальном — niewiele: niewiele kobiet, niewiele książek." }
   - { kind: usage, text: "Niewiele brakowało! значит «Чуть не случилось!», буквально «немного не хватало»." }
@@ -49,7 +50,6 @@ formExamplesSkip:
   - { form: "niewiela", reason: "в корпусе нет примеров для этой формы" }
   - { form: "niewielą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "niewielo", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niewieloma", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "niewiele"
     pl: "To niewiele."
@@ -71,6 +71,18 @@ formExamples:
     pl: "Niewiele kobiet zostaje matkami."
     ru: "Немногие женщины становятся матерями."
     source: { kind: tatoeba, id: 668685 }
+  - form: "niewieloma"
+    pl: "Rozmawiał z niewieloma osobami."
+    ru: "Он говорил с немногими."
+    source: { kind: authored }
+  - form: "niewieloma"
+    pl: "Poradził sobie niewieloma słowami."
+    ru: "Он обошёлся немногими словами."
+    source: { kind: authored }
+  - form: "niewieloma"
+    pl: "Między niewieloma domami stoi kościół."
+    ru: "Между немногими домами стоит костёл."
+    source: { kind: authored }
   - form: "niewielu"
     pl: "Niewielu tak myśli."
     ru: "Немногие так думают."

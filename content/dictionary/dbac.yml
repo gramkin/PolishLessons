@@ -73,7 +73,6 @@ formExamplesSkip:
   - { form: "dbającymi", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "dbajcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "dbajmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "dbali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dbaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -82,16 +81,10 @@ formExamplesSkip:
   - { form: "dbałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "dbałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dbałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dbałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "dbałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dbałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dbało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dbałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "dbały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dbałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "dbałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -159,6 +152,18 @@ formExamples:
     pl: "Nie dbają o porządek w domu."
     ru: "Они не заботятся о порядке в доме."
     source: { kind: authored }
+  - form: "dbali"
+    pl: "Dbali o dom przez wiele lat."
+    ru: "Они заботились о доме много лет."
+    source: { kind: authored }
+  - form: "dbali"
+    pl: "Nie dbali o nic."
+    ru: "Они ни о чём не заботились."
+    source: { kind: authored }
+  - form: "dbali"
+    pl: "Dbali o zdrowie dzieci."
+    ru: "Они заботились о здоровье детей."
+    source: { kind: authored }
   - form: "dbał"
     pl: "Obiecuję, że będę o ciebie dbał."
     ru: "Обещаю, что буду о тебе заботиться."
@@ -182,6 +187,78 @@ formExamples:
   - form: "dbała"
     pl: "Nigdy nie dbała o opinie innych."
     ru: "Она никогда не заботилась о мнении других."
+    source: { kind: authored }
+  - form: "dbałam"
+    pl: "Dbałam o dom przez wiele lat."
+    ru: "Я заботилась о доме много лет."
+    source: { kind: authored }
+  - form: "dbałam"
+    pl: "Nie dbałam o to, co mówią."
+    ru: "Мне было всё равно, что говорят."
+    source: { kind: authored }
+  - form: "dbałam"
+    pl: "Dbałam o zdrowie dzieci."
+    ru: "Я заботилась о здоровье детей."
+    source: { kind: authored }
+  - form: "dbałaś"
+    pl: "Dbałaś o dom przez wiele lat."
+    ru: "Ты заботилась о доме много лет."
+    source: { kind: authored }
+  - form: "dbałaś"
+    pl: "Nie dbałaś o to, co mówią."
+    ru: "Тебе было всё равно, что говорят."
+    source: { kind: authored }
+  - form: "dbałaś"
+    pl: "Dbałaś o siebie?"
+    ru: "Ты о себе заботилась?"
+    source: { kind: authored }
+  - form: "dbałem"
+    pl: "Dbałem o dom przez wiele lat."
+    ru: "Я заботился о доме много лет."
+    source: { kind: authored }
+  - form: "dbałem"
+    pl: "Nie dbałem o to, co mówią."
+    ru: "Мне было всё равно, что говорят."
+    source: { kind: authored }
+  - form: "dbałem"
+    pl: "Dbałem o zdrowie."
+    ru: "Я заботился о здоровье."
+    source: { kind: authored }
+  - form: "dbałeś"
+    pl: "Dbałeś o dom przez wiele lat."
+    ru: "Ты заботился о доме много лет."
+    source: { kind: authored }
+  - form: "dbałeś"
+    pl: "Nie dbałeś o to, co mówią."
+    ru: "Тебе было всё равно, что говорят."
+    source: { kind: authored }
+  - form: "dbałeś"
+    pl: "Dbałeś o siebie?"
+    ru: "Ты о себе заботился?"
+    source: { kind: authored }
+  - form: "dbało"
+    pl: "Miasto dbało o park."
+    ru: "Город заботился о парке."
+    source: { kind: authored }
+  - form: "dbało"
+    pl: "Wiele rodzin dbało o ten zwyczaj."
+    ru: "Многие семьи берегли этот обычай."
+    source: { kind: authored }
+  - form: "dbało"
+    pl: "Dziecko nie dbało o porządek."
+    ru: "Ребёнок не заботился о порядке."
+    source: { kind: authored }
+  - form: "dbały"
+    pl: "Kobiety dbały o ogród."
+    ru: "Женщины ухаживали за садом."
+    source: { kind: authored }
+  - form: "dbały"
+    pl: "Firmy nie dbały o środowisko."
+    ru: "Фирмы не заботились об окружающей среде."
+    source: { kind: authored }
+  - form: "dbały"
+    pl: "Dbały o dom jak umiały."
+    ru: "Они заботились о доме как умели."
     source: { kind: authored }
   - form: "dbam"
     pl: "Dbam o ciebie."

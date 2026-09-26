@@ -59,7 +59,6 @@ idioms:
   - { pl: "odłożyć na czarną godzinę", ru: "отложить на чёрный день" }
   - { pl: "odłożyć ad acta", ru: "сдать в архив" }
 formExamplesSkip:
-  - { form: "odłożą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odłożeni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "odłożenia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "odłożenie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
@@ -84,24 +83,31 @@ formExamplesSkip:
   - { form: "odłożyłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "odłożyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odłożyłby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "odłożyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odłożyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odłożyłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "odłożyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odłożyłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "odłożyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "odłożyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "odłożymy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "odłożysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odłożywszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
   - { form: "odłóżcie", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "odłożą"
+    pl: "Odłożą spotkanie na jutro."
+    ru: "Они отложат встречу на завтра."
+    source: { kind: authored }
+  - form: "odłożą"
+    pl: "Odłożą książkę na miejsce."
+    ru: "Они положат книгу на место."
+    source: { kind: authored }
+  - form: "odłożą"
+    pl: "Nie odłożą tego dłużej."
+    ru: "Они больше не станут это откладывать."
+    source: { kind: authored }
   - form: "odłożę"
     pl: "Nie mając pracy, nie odłożę ani grosza."
     ru: "Без работы я не отложу ни гроша."
@@ -206,6 +212,18 @@ formExamples:
     pl: "Odłożyłam rozmowę na jutro."
     ru: "Я отложила разговор на завтра."
     source: { kind: authored }
+  - form: "odłożyłaś"
+    pl: "Odłożyłaś książkę na miejsce."
+    ru: "Ты положила книгу на место."
+    source: { kind: authored }
+  - form: "odłożyłaś"
+    pl: "Odłożyłaś spotkanie na jutro."
+    ru: "Ты отложила встречу на завтра."
+    source: { kind: authored }
+  - form: "odłożyłaś"
+    pl: "Nie odłożyłaś ani grosza."
+    ru: "Ты не отложила ни гроша."
+    source: { kind: authored }
   - form: "odłożyłem"
     pl: "Odłożyłem to."
     ru: "Я это отложил."
@@ -218,6 +236,54 @@ formExamples:
     pl: "Odłożyłem tam, gdzie było jego miejsce."
     ru: "Я положил туда, где было его место."
     source: { kind: translated, id: 3298979 }
+  - form: "odłożyłeś"
+    pl: "Odłożyłeś książkę na miejsce."
+    ru: "Ты положил книгу на место."
+    source: { kind: authored }
+  - form: "odłożyłeś"
+    pl: "Odłożyłeś spotkanie na jutro."
+    ru: "Ты отложил встречу на завтра."
+    source: { kind: authored }
+  - form: "odłożyłeś"
+    pl: "Nie odłożyłeś ani grosza."
+    ru: "Ты не отложил ни гроша."
+    source: { kind: authored }
+  - form: "odłożyło"
+    pl: "Miasto odłożyło remont na przyszły rok."
+    ru: "Город отложил ремонт на будущий год."
+    source: { kind: authored }
+  - form: "odłożyło"
+    pl: "Wiele osób odłożyło zakupy."
+    ru: "Многие отложили покупки."
+    source: { kind: authored }
+  - form: "odłożyło"
+    pl: "Dziecko odłożyło zabawkę."
+    ru: "Ребёнок отложил игрушку."
+    source: { kind: authored }
+  - form: "odłożyły"
+    pl: "Kobiety odłożyły trochę pieniędzy."
+    ru: "Женщины отложили немного денег."
+    source: { kind: authored }
+  - form: "odłożyły"
+    pl: "Firmy odłożyły inwestycje."
+    ru: "Фирмы отложили инвестиции."
+    source: { kind: authored }
+  - form: "odłożyły"
+    pl: "Odłożyły spotkanie na jutro."
+    ru: "Они отложили встречу на завтра."
+    source: { kind: authored }
+  - form: "odłożysz"
+    pl: "Odłożysz książkę na miejsce?"
+    ru: "Ты положишь книгу на место?"
+    source: { kind: authored }
+  - form: "odłożysz"
+    pl: "Odłożysz to na jutro."
+    ru: "Ты отложишь это на завтра."
+    source: { kind: authored }
+  - form: "odłożysz"
+    pl: "Nie odłożysz tego w nieskończoność."
+    ru: "Ты не будешь откладывать это бесконечно."
+    source: { kind: authored }
   - form: "odłóż"
     pl: "Odłóż to."
     ru: "Положи это."

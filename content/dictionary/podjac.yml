@@ -59,7 +59,6 @@ idioms:
   - { pl: "podjąć działania", ru: "предпринять действия" }
   - { pl: "podjąć ryzyko", ru: "пойти на риск" }
 formExamplesSkip:
-  - { form: "podejmą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podejmiecie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "podejmiemy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "podejmij", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
@@ -69,7 +68,6 @@ formExamplesSkip:
   - { form: "podjąłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjąłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjąwszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
-  - { form: "podjęci", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podjęciem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "podjęciu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "podjęliby", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -80,7 +78,6 @@ formExamplesSkip:
   - { form: "podjęłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjęłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjęłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "podjęłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podjęłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjęłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "podjęłybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -99,6 +96,18 @@ formExamplesSkip:
   - { form: "podjętym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "podjętymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "podejmą"
+    pl: "Podejmą decyzję jutro."
+    ru: "Они примут решение завтра."
+    source: { kind: authored }
+  - form: "podejmą"
+    pl: "Podejmą próbę jeszcze raz."
+    ru: "Они предпримут попытку ещё раз."
+    source: { kind: authored }
+  - form: "podejmą"
+    pl: "Nie podejmą takiego ryzyka."
+    ru: "Они не пойдут на такой риск."
+    source: { kind: authored }
   - form: "podejmę"
     pl: "Potem podejmę decyzję."
     ru: "Потом я приму решение."
@@ -195,6 +204,18 @@ formExamples:
     pl: "Przemyśl to, proszę, i powiedz mi, jaką decyzję podjąłeś."
     ru: "Подумай, пожалуйста, и скажи мне, какое решение ты принял."
     source: { kind: translated, id: 2243966 }
+  - form: "podjęci"
+    pl: "Goście zostali podjęci wystawnie."
+    ru: "Гостей приняли пышно."
+    source: { kind: authored }
+  - form: "podjęci"
+    pl: "Byliśmy podjęci po królewsku."
+    ru: "Нас приняли по-королевски."
+    source: { kind: authored }
+  - form: "podjęci"
+    pl: "Podjęci obiadem, zasiedzieli się do wieczora."
+    ru: "Принятые обедом, они засиделись до вечера."
+    source: { kind: authored }
   - form: "podjęcia"
     pl: "Mam decyzję do podjęcia."
     ru: "Мне нужно принять решение."
@@ -254,6 +275,18 @@ formExamples:
   - form: "podjęłam"
     pl: "Podjęłam próbę jeszcze raz."
     ru: "Я предприняла попытку ещё раз."
+    source: { kind: authored }
+  - form: "podjęłaś"
+    pl: "Podjęłaś słuszną decyzję."
+    ru: "Ты приняла верное решение."
+    source: { kind: authored }
+  - form: "podjęłaś"
+    pl: "Podjęłaś próbę i to się liczy."
+    ru: "Ты предприняла попытку, и это уже важно."
+    source: { kind: authored }
+  - form: "podjęłaś"
+    pl: "Nie podjęłaś jeszcze decyzji?"
+    ru: "Ты ещё не приняла решение?"
     source: { kind: authored }
   - form: "podjęło"
     pl: "Kiedy serce podjęło decyzję, niewiele już pozostaje do zdecydowania."

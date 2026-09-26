@@ -81,20 +81,14 @@ formExamplesSkip:
   - { form: "opowiadałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "opowiadałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "opowiadałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "opowiadałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "opowiadało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "opowiadały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "opowiadałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "opowiadałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "opowiadam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "opowiadamy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "opowiadana", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "opowiadaną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
@@ -226,6 +220,30 @@ formExamples:
     pl: "Ona nigdy nie opowiadała o swoim pierwszym mężu."
     ru: "Она никогда не рассказывала о своём первом муже."
     source: { kind: tatoeba, id: 13116573 }
+  - form: "opowiadałam"
+    pl: "Opowiadałam dzieciom bajki."
+    ru: "Я рассказывала детям сказки."
+    source: { kind: authored }
+  - form: "opowiadałam"
+    pl: "Opowiadałam o tym wczoraj."
+    ru: "Я рассказывала об этом вчера."
+    source: { kind: authored }
+  - form: "opowiadałam"
+    pl: "Nigdy o tym nie opowiadałam."
+    ru: "Я никогда об этом не рассказывала."
+    source: { kind: authored }
+  - form: "opowiadałaś"
+    pl: "Opowiadałaś dzieciom bajki."
+    ru: "Ты рассказывала детям сказки."
+    source: { kind: authored }
+  - form: "opowiadałaś"
+    pl: "Opowiadałaś o tym wczoraj."
+    ru: "Ты рассказывала об этом вчера."
+    source: { kind: authored }
+  - form: "opowiadałaś"
+    pl: "Nigdy o tym nie opowiadałaś."
+    ru: "Ты никогда об этом не рассказывала."
+    source: { kind: authored }
   - form: "opowiadałbym"
     pl: "Na twoim miejscu nie opowiadałbym takich bzdur"
     ru: "На твоём месте я не рассказывал бы такой чепухи."
@@ -250,6 +268,54 @@ formExamples:
     pl: "To jest ta książka, o której ci opowiadałem."
     ru: "Это та книга, о которой я тебе рассказывал."
     source: { kind: translated, id: 13426746 }
+  - form: "opowiadałeś"
+    pl: "Opowiadałeś dzieciom bajki."
+    ru: "Ты рассказывал детям сказки."
+    source: { kind: authored }
+  - form: "opowiadałeś"
+    pl: "Opowiadałeś o tym wczoraj."
+    ru: "Ты рассказывал об этом вчера."
+    source: { kind: authored }
+  - form: "opowiadałeś"
+    pl: "Nigdy o tym nie opowiadałeś."
+    ru: "Ты никогда об этом не рассказывал."
+    source: { kind: authored }
+  - form: "opowiadało"
+    pl: "Dziecko opowiadało o szkole."
+    ru: "Ребёнок рассказывал о школе."
+    source: { kind: authored }
+  - form: "opowiadało"
+    pl: "Wiele osób opowiadało o tym zdarzeniu."
+    ru: "Многие рассказывали об этом происшествии."
+    source: { kind: authored }
+  - form: "opowiadało"
+    pl: "Radio opowiadało o powodzi."
+    ru: "Радио рассказывало о наводнении."
+    source: { kind: authored }
+  - form: "opowiadały"
+    pl: "Kobiety opowiadały o dawnych czasach."
+    ru: "Женщины рассказывали о давних временах."
+    source: { kind: authored }
+  - form: "opowiadały"
+    pl: "Dzieci opowiadały o wycieczce."
+    ru: "Дети рассказывали об экскурсии."
+    source: { kind: authored }
+  - form: "opowiadały"
+    pl: "Gazety opowiadały o tym tygodniami."
+    ru: "Газеты рассказывали об этом неделями."
+    source: { kind: authored }
+  - form: "opowiadam"
+    pl: "Opowiadam dzieciom bajki."
+    ru: "Я рассказываю детям сказки."
+    source: { kind: authored }
+  - form: "opowiadam"
+    pl: "Opowiadam o tym po raz setny."
+    ru: "Я рассказываю об этом в сотый раз."
+    source: { kind: authored }
+  - form: "opowiadam"
+    pl: "Nie opowiadam nikomu o swoich sprawach."
+    ru: "Я никому не рассказываю о своих делах."
+    source: { kind: authored }
   - form: "opowiadania"
     pl: "Ona pisze opowiadania."
     ru: "Она пишет рассказы."
