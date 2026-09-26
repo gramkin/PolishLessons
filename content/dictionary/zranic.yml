@@ -51,15 +51,9 @@ idioms:
   - { pl: "zranić się w rękę", ru: "поранить руку" }
   - { pl: "czuć się zranionym", ru: "чувствовать себя обиженным" }
 formExamplesSkip:
-  - { form: "zranią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zranieni", reason: "формы страдательного причастия zraniony «раненый, обиженный», примеры даны при форме zraniony" }
   - { form: "zranienia", reason: "формы отглагольного существительного zranienie «ранение», в статье глагола примеры не приводятся" }
   - { form: "zranienie", reason: "формы отглагольного существительного zranienie «ранение», в статье глагола примеры не приводятся" }
-  - { form: "zranieniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranię", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zraniliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zranilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zranilibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -74,7 +68,6 @@ formExamplesSkip:
   - { form: "zraniłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zraniłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zraniłeś", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы того же времени" }
-  - { form: "zraniło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zraniłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zraniłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zraniłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -83,20 +76,10 @@ formExamplesSkip:
   - { form: "zraniłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "zranimy", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы того же времени" }
   - { form: "zraniona", reason: "формы страдательного причастия zraniony «раненый, обиженный», примеры даны при форме zraniony" }
-  - { form: "zranioną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zranione", reason: "формы страдательного причастия zraniony «раненый, обиженный», примеры даны при форме zraniony" }
-  - { form: "zranionego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranionej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranionemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zraniono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "zranionych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zranionym", reason: "формы страдательного причастия zraniony «раненый, обиженный», примеры даны при форме zraniony" }
-  - { form: "zranionymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zranisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zraniwszy", reason: "книжное деепричастие прошедшего времени, в корпусе примеров нет" }
-  - { form: "zrań", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zrańcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zrańmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zrani"
     pl: "Ktoś zrani Toma."
@@ -110,6 +93,30 @@ formExamples:
     pl: "Jestem przekonany, że Tom nie zrani Mary."
     ru: "Я убеждён, что Том не обидит Мэри."
     source: { kind: translated, id: 4158362 }
+  - form: "zranią"
+    pl: "Zranią cię tym słowem."
+    ru: "Этим словом тебя ранят."
+    source: { kind: authored }
+  - form: "zranią"
+    pl: "Ostre krawędzie zranią dziecko."
+    ru: "Острые края поранят ребёнка."
+    source: { kind: authored }
+  - form: "zranią"
+    pl: "Nikogo nie zranią."
+    ru: "Они никого не ранят."
+    source: { kind: authored }
+  - form: "zranicie"
+    pl: "Zranicie go tym słowem."
+    ru: "Этим словом вы его раните."
+    source: { kind: authored }
+  - form: "zranicie"
+    pl: "Zranicie się o te krawędzie."
+    ru: "Вы поранитесь об эти края."
+    source: { kind: authored }
+  - form: "zranicie"
+    pl: "Nikogo nie zranicie."
+    ru: "Вы никого не раните."
+    source: { kind: authored }
   - form: "zranić"
     pl: "Mogłem się zranić."
     ru: "Я мог пораниться."
@@ -122,6 +129,54 @@ formExamples:
     pl: "Tom bał się zranić uczucia Mary."
     ru: "Том боялся ранить чувства Мэри."
     source: { kind: translated, id: 3376522 }
+  - form: "zranieniem"
+    pl: "Groził mu zranieniem."
+    ru: "Он грозил ему увечьем."
+    source: { kind: authored }
+  - form: "zranieniem"
+    pl: "Między zranieniem ciała a zranieniem uczuć jest różnica."
+    ru: "Между раной телесной и раной душевной есть разница."
+    source: { kind: authored }
+  - form: "zranieniem"
+    pl: "Skończyło się zranieniem dłoni."
+    ru: "Кончилось раной на ладони."
+    source: { kind: authored }
+  - form: "zranieniu"
+    pl: "Po zranieniu ręki nie mógł pisać."
+    ru: "После ранения руки он не мог писать."
+    source: { kind: authored }
+  - form: "zranieniu"
+    pl: "O zranieniu uczuć mówi się rzadziej."
+    ru: "О ране в душе говорят реже."
+    source: { kind: authored }
+  - form: "zranieniu"
+    pl: "W tym zranieniu nie było nic przypadkowego."
+    ru: "В этом ранении не было ничего случайного."
+    source: { kind: authored }
+  - form: "zranię"
+    pl: "Zranię go tym słowem."
+    ru: "Этим словом я его раню."
+    source: { kind: authored }
+  - form: "zranię"
+    pl: "Zranię się o te krawędzie."
+    ru: "Я поранюсь об эти края."
+    source: { kind: authored }
+  - form: "zranię"
+    pl: "Nikogo nie zranię."
+    ru: "Я никого не раню."
+    source: { kind: authored }
+  - form: "zranili"
+    pl: "Zranili go tym słowem."
+    ru: "Этим словом они его ранили."
+    source: { kind: authored }
+  - form: "zranili"
+    pl: "Zranili się o drut kolczasty."
+    ru: "Они поранились о колючую проволоку."
+    source: { kind: authored }
+  - form: "zranili"
+    pl: "Nikogo nie zranili."
+    ru: "Они никого не ранили."
+    source: { kind: authored }
   - form: "zranił"
     pl: "Tom się zranił."
     ru: "Том поранился."
@@ -158,6 +213,18 @@ formExamples:
     pl: "Przepraszam, jeśli cię zraniłem."
     ru: "Прости, если я тебя обидел."
     source: { kind: translated, id: 355788 }
+  - form: "zraniło"
+    pl: "To zraniło go bardziej niż krzyk."
+    ru: "Это ранило его сильнее крика."
+    source: { kind: authored }
+  - form: "zraniło"
+    pl: "Dziecko zraniło się o szkło."
+    ru: "Ребёнок поранился о стекло."
+    source: { kind: authored }
+  - form: "zraniło"
+    pl: "Wiele osób zraniło się na tym progu."
+    ru: "Многие поранились об этот порог."
+    source: { kind: authored }
   - form: "zraniły"
     pl: "Zraniły mnie te słowa."
     ru: "Эти слова меня ранили."
@@ -170,6 +237,54 @@ formExamples:
     pl: "Jego słowa zraniły moje uczucia."
     ru: "Его слова ранили мои чувства."
     source: { kind: translated, id: 404018 }
+  - form: "zranioną"
+    pl: "Opatrzyli zranioną dłoń."
+    ru: "Они перевязали раненую ладонь."
+    source: { kind: authored }
+  - form: "zranioną"
+    pl: "Uznali ją za zranioną bardziej słowem niż czynem."
+    ru: "Её сочли раненной скорее словом, чем делом."
+    source: { kind: authored }
+  - form: "zranioną"
+    pl: "Widziałem zranioną sarnę przy drodze."
+    ru: "Я видел раненую косулю у дороги."
+    source: { kind: authored }
+  - form: "zranionego"
+    pl: "Nie zostawiaj zranionego zwierzęcia."
+    ru: "Не бросай раненое животное."
+    source: { kind: authored }
+  - form: "zranionego"
+    pl: "Szukam zranionego ptaka w krzakach."
+    ru: "Я ищу раненую птицу в кустах."
+    source: { kind: authored }
+  - form: "zranionego"
+    pl: "Nie ma tu nikogo zranionego."
+    ru: "Здесь нет никого раненого."
+    source: { kind: authored }
+  - form: "zranionej"
+    pl: "Opatrzył ranę na zranionej dłoni."
+    ru: "Он перевязал рану на поранённой ладони."
+    source: { kind: authored }
+  - form: "zranionej"
+    pl: "Nie ma tu zranionej sarny."
+    ru: "Раненой косули тут нет."
+    source: { kind: authored }
+  - form: "zranionej"
+    pl: "Pomógł zranionej kobiecie wstać."
+    ru: "Он помог раненой женщине встать."
+    source: { kind: authored }
+  - form: "zranionemu"
+    pl: "Pomóż zranionemu wstać."
+    ru: "Помоги раненому встать."
+    source: { kind: authored }
+  - form: "zranionemu"
+    pl: "Przyjrzyj się zranionemu palcowi."
+    ru: "Присмотрись к поранённому пальцу."
+    source: { kind: authored }
+  - form: "zranionemu"
+    pl: "Podali zranionemu wodę."
+    ru: "Раненому подали воды."
+    source: { kind: authored }
   - form: "zraniony"
     pl: "Tom został zraniony."
     ru: "Том был ранен."
@@ -182,3 +297,75 @@ formExamples:
     pl: "Aleksander został zraniony strzałą."
     ru: "Александр был ранен стрелой."
     source: { kind: translated, id: 12351300 }
+  - form: "zranionych"
+    pl: "Zabrali zranionych do szpitala."
+    ru: "Раненых увезли в больницу."
+    source: { kind: authored }
+  - form: "zranionych"
+    pl: "Nie ma tu zranionych."
+    ru: "Раненых тут нет."
+    source: { kind: authored }
+  - form: "zranionych"
+    pl: "Wśród zranionych byli i ratownicy."
+    ru: "Среди раненых были и спасатели."
+    source: { kind: authored }
+  - form: "zranionymi"
+    pl: "Zajmowali się zranionymi przez całą noc."
+    ru: "Они занимались ранеными всю ночь."
+    source: { kind: authored }
+  - form: "zranionymi"
+    pl: "Szpital był przepełniony zranionymi."
+    ru: "Больница была переполнена ранеными."
+    source: { kind: authored }
+  - form: "zranionymi"
+    pl: "Między zranionymi a poszkodowanymi jest różnica."
+    ru: "Между ранеными и пострадавшими есть разница."
+    source: { kind: authored }
+  - form: "zranisz"
+    pl: "Zranisz go tym słowem."
+    ru: "Этим словом ты его ранишь."
+    source: { kind: authored }
+  - form: "zranisz"
+    pl: "Zranisz się o te krawędzie."
+    ru: "Ты поранишься об эти края."
+    source: { kind: authored }
+  - form: "zranisz"
+    pl: "Nikogo nie zranisz."
+    ru: "Ты никого не ранишь."
+    source: { kind: authored }
+  - form: "zrań"
+    pl: "Nie zrań go tym słowem."
+    ru: "Не рань его этим словом."
+    source: { kind: authored }
+  - form: "zrań"
+    pl: "Nie zrań się o te krawędzie."
+    ru: "Не поранься об эти края."
+    source: { kind: authored }
+  - form: "zrań"
+    pl: "Nie zrań nikogo przypadkiem."
+    ru: "Не рань никого случайно."
+    source: { kind: authored }
+  - form: "zrańcie"
+    pl: "Nie zrańcie go tym słowem."
+    ru: "Не раньте его этим словом."
+    source: { kind: authored }
+  - form: "zrańcie"
+    pl: "Nie zrańcie się o te krawędzie."
+    ru: "Не пораньтесь об эти края."
+    source: { kind: authored }
+  - form: "zrańcie"
+    pl: "Nie zrańcie nikogo przypadkiem."
+    ru: "Не раньте никого случайно."
+    source: { kind: authored }
+  - form: "zrańmy"
+    pl: "Nie zrańmy go tym słowem."
+    ru: "Не будем ранить его этим словом."
+    source: { kind: authored }
+  - form: "zrańmy"
+    pl: "Nie zrańmy się o te krawędzie."
+    ru: "Не поранимся об эти края."
+    source: { kind: authored }
+  - form: "zrańmy"
+    pl: "Nie zrańmy nikogo przypadkiem."
+    ru: "Не раним никого случайно."
+    source: { kind: authored }
