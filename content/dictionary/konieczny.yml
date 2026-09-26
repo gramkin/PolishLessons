@@ -35,6 +35,7 @@ notes:
   - { kind: usage, text: "Средний род konieczne работает безлично: To konieczne «Это необходимо», Czy to konieczne? «Это обязательно?»" }
   - { kind: usage, text: "warunek konieczny — «необходимое условие»; obrona konieczna — «необходимая оборона», юридический термин." }
   - { kind: false-friend, text: "Рядом живёт potrzebny «нужный». konieczny сильнее: без него нельзя обойтись вовсе." }
+  - { kind: government, text: "Прилагательное называет безусловное свойство, поэтому степеней сравнения не образует: вещь либо konieczna, либо нет. При необходимости говорят bardziej konieczny." }
 collocations:
   - { pl: "to konieczne", ru: "это необходимо" }
   - { pl: "warunek konieczny", ru: "необходимое условие" }
@@ -50,10 +51,7 @@ idioms:
   - { pl: "warunek konieczny", ru: "необходимое условие" }
   - { pl: "obrona konieczna", ru: "необходимая оборона" }
 formExamplesSkip:
-  - { form: "koniecznego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "koniecznemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "konieczni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "konieczniejsi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "konieczniejsi", reason: "konieczny называет безусловное свойство: вещь либо необходима, либо нет. Синтетическая сравнительная степень от него не образуется — при нужде говорят bardziej konieczny" }
   - { form: "konieczniejsza", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "konieczniejszą", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "konieczniejsze", reason: "формы сравнительной степени, в корпусе примеров нет" }
@@ -64,9 +62,6 @@ formExamplesSkip:
   - { form: "konieczniejszych", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "konieczniejszym", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "konieczniejszymi", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "koniecznych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "koniecznym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "koniecznymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "najkonieczniejsi", reason: "формы превосходной степени, в корпусе примеров нет" }
   - { form: "najkonieczniejsza", reason: "формы превосходной степени, в корпусе примеров нет" }
   - { form: "najkonieczniejszą", reason: "формы превосходной степени, в корпусе примеров нет" }
@@ -115,6 +110,18 @@ formExamples:
     pl: "Czy to jest absolutnie konieczne?"
     ru: "Это абсолютно необходимо?"
     source: { kind: tatoeba, id: 5999401 }
+  - form: "koniecznego"
+    pl: "Nie ma tu nic koniecznego."
+    ru: "Здесь нет ничего необходимого."
+    source: { kind: authored }
+  - form: "koniecznego"
+    pl: "Szukam sprzętu koniecznego do pracy."
+    ru: "Я ищу оборудование, необходимое для работы."
+    source: { kind: authored }
+  - form: "koniecznego"
+    pl: "Od remontu koniecznego od lat nie ma ucieczki."
+    ru: "От ремонта, необходимого уже годы, не уйти."
+    source: { kind: authored }
   - form: "koniecznej"
     pl: "Podczas procesu utrzymywał, że działał w ramach obrony koniecznej, i został oczyszczony z zarzutów."
     ru: "Во время процесса он утверждал, что действовал в рамках необходимой обороны, и был оправдан."
@@ -126,6 +133,30 @@ formExamples:
   - form: "koniecznej"
     pl: "Mówimy o koniecznej zmianie."
     ru: "Мы говорим о необходимом изменении."
+    source: { kind: authored }
+  - form: "koniecznemu"
+    pl: "Koniecznemu remontowi nikt się nie sprzeciwi."
+    ru: "Необходимому ремонту никто не воспротивится."
+    source: { kind: authored }
+  - form: "koniecznemu"
+    pl: "Przyjrzyj się temu koniecznemu wydatkowi."
+    ru: "Присмотрись к этому необходимому расходу."
+    source: { kind: authored }
+  - form: "koniecznemu"
+    pl: "Daj pierwszeństwo koniecznemu zabiegowi."
+    ru: "Отдай предпочтение необходимой операции."
+    source: { kind: authored }
+  - form: "konieczni"
+    pl: "Do tej pracy konieczni są specjaliści."
+    ru: "Для этой работы необходимы специалисты."
+    source: { kind: authored }
+  - form: "konieczni"
+    pl: "Konieczni okazali się tłumacze."
+    ru: "Необходимыми оказались переводчики."
+    source: { kind: authored }
+  - form: "konieczni"
+    pl: "Na budowie konieczni są elektrycy."
+    ru: "На стройке необходимы электрики."
     source: { kind: authored }
   - form: "konieczny"
     pl: "Tylko szkoda, że konieczny jest własny grób."
@@ -139,3 +170,39 @@ formExamples:
     pl: "Jajko stanowi konieczny dodatek w wielu przepisach kulinarnych."
     ru: "Яйцо — необходимая добавка во многих кулинарных рецептах."
     source: { kind: translated, id: 989486 }
+  - form: "koniecznych"
+    pl: "Nie ma tu koniecznych narzędzi."
+    ru: "Здесь нет необходимых инструментов."
+    source: { kind: authored }
+  - form: "koniecznych"
+    pl: "Wśród koniecznych wydatków jest i ten."
+    ru: "Среди необходимых расходов есть и этот."
+    source: { kind: authored }
+  - form: "koniecznych"
+    pl: "Liczba koniecznych poprawek rośnie."
+    ru: "Число необходимых поправок растёт."
+    source: { kind: authored }
+  - form: "koniecznym"
+    pl: "W koniecznym zakresie remont wykonano."
+    ru: "В необходимом объёме ремонт выполнили."
+    source: { kind: authored }
+  - form: "koniecznym"
+    pl: "Koniecznym wydatkom nie da się zapobiec."
+    ru: "Необходимых расходов не избежать."
+    source: { kind: authored }
+  - form: "koniecznym"
+    pl: "Z koniecznym remontem dłużej nie zwlekaj."
+    ru: "С необходимым ремонтом больше не тяни."
+    source: { kind: authored }
+  - form: "koniecznymi"
+    pl: "Zajmujemy się koniecznymi poprawkami."
+    ru: "Мы занимаемся необходимыми поправками."
+    source: { kind: authored }
+  - form: "koniecznymi"
+    pl: "Między koniecznymi a pożądanymi zmianami jest różnica."
+    ru: "Между необходимыми и желательными переменами есть разница."
+    source: { kind: authored }
+  - form: "koniecznymi"
+    pl: "Z koniecznymi wydatkami trzeba się liczyć."
+    ru: "С необходимыми расходами надо считаться."
+    source: { kind: authored }
