@@ -7,9 +7,11 @@ const SIDEBAR_KEY = 'polski:sidebar'
 const route = useRoute()
 const { nav, prev, next, ready } = useLessonNav()
 const { isLessonCompleted } = useProgress()
-const { ready: wordsReady } = useWords()
-const { ready: patternsReady } = usePatterns()
-await Promise.all([ready, wordsReady, patternsReady])
+// Only the sidebar's own data loads here. Words and patterns are awaited by the
+// pages that actually render them: useAsyncData serialises whatever the layout
+// loads into every prerendered payload, and the 2362 dictionary card pages have
+// no use for 316 lesson words.
+await ready
 
 const currentPath = computed(() => normalizePath(route.path))
 const sidebarOpen = ref(true)

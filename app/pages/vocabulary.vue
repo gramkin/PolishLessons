@@ -9,9 +9,9 @@ useSeoMeta({
     'Частотный словарь польского языка для русскоговорящих: слова по частоте, переводы и подробные карточки.',
 })
 
-const { words } = useWords()
+const { words, ready: wordsReady } = useWords()
 const { entries: index, ready } = useDictionaryIndex()
-await ready
+await Promise.all([ready, wordsReady])
 
 const query = ref('')
 const pos = ref<CardPos | null>(null)

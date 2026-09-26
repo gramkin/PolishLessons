@@ -6,7 +6,9 @@ import { listTopics } from '~/utils/vocabulary'
 
 useSeoMeta({ title: 'Карточки', description: 'Повторение слов по системе Лейтнера.' })
 
-const { words } = useWords()
+const { words, ready: wordsReady } = useWords()
+// FlashcardSession highlights the cognate pattern behind a word.
+const { ready: patternsReady } = usePatterns()
 const {
   progress,
   loaded,
@@ -47,6 +49,7 @@ function onPhrasesFinish(result: { remembered: number; forgotten: number }) {
   phraseSession.value = null
 }
 const { data: lessonWords } = await useLessonWords()
+await Promise.all([wordsReady, patternsReady])
 const { data: chapters } = await useAsyncData('content:chapters', () =>
   queryCollection('chapters').first(),
 )

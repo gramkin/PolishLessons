@@ -6,10 +6,14 @@ const route = useRoute()
 const path = normalizePath(route.path)
 
 const { current, ready } = useLessonNav()
+// Lesson markdown renders PlWord, Pron, FalseFriend, CognateList and Quiz, all of
+// which read these synchronously, so both must resolve before the body renders.
+const { ready: wordsReady } = useWords()
+const { ready: patternsReady } = usePatterns()
 const { data: page } = await useAsyncData(`lesson:${path}`, () =>
   queryCollection('lessons').path(path).first(),
 )
-await ready
+await Promise.all([ready, wordsReady, patternsReady])
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Урок не найден', fatal: true })

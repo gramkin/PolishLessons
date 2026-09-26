@@ -1,8 +1,11 @@
 <script setup lang="ts">
 const route = useRoute()
 const slug = String(route.params.slug)
+// StoryView marks known words with PlWord, which reads the word list synchronously.
+const { ready: wordsReady } = useWords()
 const { data: story } = await useStory(slug)
 const { progress } = useProgress()
+await wordsReady
 
 if (!story.value) {
   throw createError({ statusCode: 404, statusMessage: 'История не найдена', fatal: true })
