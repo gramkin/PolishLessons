@@ -62,38 +62,26 @@ formExamplesSkip:
   - { form: "szkodzenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "szkodzeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "szkodzeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "szkodzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodzicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "szkodzili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodziliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodzilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodzilibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "szkodziliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "szkodził", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szkodziła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodziłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "szkodziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szkodziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodziłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "szkodziłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szkodziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szkodziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodziłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "szkodziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodziłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "szkodziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "szkodziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "szkodzimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "szkodzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodzono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "szkodź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szkodźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "szkodźmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
@@ -109,6 +97,18 @@ formExamples:
     pl: "Są takie lekarstwa, które nie tylko, że nie pomagają, ale wręcz szkodzą."
     ru: "Есть такие лекарства, которые не только не помогают, но прямо вредят."
     source: { kind: translated, id: 714922 }
+  - form: "szkodzę"
+    pl: "Nikomu nie szkodzę."
+    ru: "Я никому не врежу."
+    source: { kind: authored }
+  - form: "szkodzę"
+    pl: "Szkodzę sobie tym paleniem."
+    ru: "Я врежу себе этим курением."
+    source: { kind: authored }
+  - form: "szkodzę"
+    pl: "Czy komuś szkodzę?"
+    ru: "Разве я кому-то врежу?"
+    source: { kind: authored }
   - form: "szkodzi"
     pl: "Nie szkodzi"
     ru: "Ничего страшного."
@@ -132,6 +132,138 @@ formExamples:
   - form: "szkodzić"
     pl: "Nie chcę nikomu szkodzić."
     ru: "Я не хочу никому вредить."
+    source: { kind: authored }
+  - form: "szkodzili"
+    pl: "Szkodzili sobie nawzajem."
+    ru: "Они вредили друг другу."
+    source: { kind: authored }
+  - form: "szkodzili"
+    pl: "Nikomu nie szkodzili."
+    ru: "Они никому не вредили."
+    source: { kind: authored }
+  - form: "szkodzili"
+    pl: "Szkodzili firmie przez lata."
+    ru: "Они годами вредили фирме."
+    source: { kind: authored }
+  - form: "szkodził"
+    pl: "Szkodził sobie tym paleniem."
+    ru: "Он вредил себе этим курением."
+    source: { kind: authored }
+  - form: "szkodził"
+    pl: "Nikomu nie szkodził."
+    ru: "Он никому не вредил."
+    source: { kind: authored }
+  - form: "szkodził"
+    pl: "Szkodził firmie przez lata."
+    ru: "Он годами вредил фирме."
+    source: { kind: authored }
+  - form: "szkodziła"
+    pl: "Szkodziła sobie tym paleniem."
+    ru: "Она вредила себе этим курением."
+    source: { kind: authored }
+  - form: "szkodziła"
+    pl: "Nikomu nie szkodziła."
+    ru: "Она никому не вредила."
+    source: { kind: authored }
+  - form: "szkodziła"
+    pl: "Szkodziła firmie przez lata."
+    ru: "Она годами вредила фирме."
+    source: { kind: authored }
+  - form: "szkodziłam"
+    pl: "Szkodziłam sobie tym paleniem."
+    ru: "Я вредила себе этим курением."
+    source: { kind: authored }
+  - form: "szkodziłam"
+    pl: "Nikomu nie szkodziłam."
+    ru: "Я никому не вредила."
+    source: { kind: authored }
+  - form: "szkodziłam"
+    pl: "Szkodziłam sobie bez wiedzy."
+    ru: "Я вредила себе, сама того не зная."
+    source: { kind: authored }
+  - form: "szkodziłaś"
+    pl: "Szkodziłaś sobie tym paleniem."
+    ru: "Ты вредила себе этим курением."
+    source: { kind: authored }
+  - form: "szkodziłaś"
+    pl: "Nikomu nie szkodziłaś."
+    ru: "Ты никому не вредила."
+    source: { kind: authored }
+  - form: "szkodziłaś"
+    pl: "Szkodziłaś sobie bez wiedzy."
+    ru: "Ты вредила себе, сама того не зная."
+    source: { kind: authored }
+  - form: "szkodziłem"
+    pl: "Szkodziłem sobie tym paleniem."
+    ru: "Я вредил себе этим курением."
+    source: { kind: authored }
+  - form: "szkodziłem"
+    pl: "Nikomu nie szkodziłem."
+    ru: "Я никому не вредил."
+    source: { kind: authored }
+  - form: "szkodziłem"
+    pl: "Szkodziłem sobie bez wiedzy."
+    ru: "Я вредил себе, сам того не зная."
+    source: { kind: authored }
+  - form: "szkodziłeś"
+    pl: "Szkodziłeś sobie tym paleniem."
+    ru: "Ты вредил себе этим курением."
+    source: { kind: authored }
+  - form: "szkodziłeś"
+    pl: "Nikomu nie szkodziłeś."
+    ru: "Ты никому не вредил."
+    source: { kind: authored }
+  - form: "szkodziłeś"
+    pl: "Szkodziłeś sobie bez wiedzy."
+    ru: "Ты вредил себе, сам того не зная."
+    source: { kind: authored }
+  - form: "szkodziło"
+    pl: "Palenie szkodziło mu od lat."
+    ru: "Курение вредило ему годами."
+    source: { kind: authored }
+  - form: "szkodziło"
+    pl: "Wiele osób szkodziło sobie bez wiedzy."
+    ru: "Многие вредили себе, не зная того."
+    source: { kind: authored }
+  - form: "szkodziło"
+    pl: "Nic mu nie szkodziło."
+    ru: "Ничто ему не вредило."
+    source: { kind: authored }
+  - form: "szkodziły"
+    pl: "Te leki szkodziły bardziej, niż pomagały."
+    ru: "Эти лекарства вредили больше, чем помогали."
+    source: { kind: authored }
+  - form: "szkodziły"
+    pl: "Kobiety szkodziły sobie dietą."
+    ru: "Женщины вредили себе диетой."
+    source: { kind: authored }
+  - form: "szkodziły"
+    pl: "Mrozy szkodziły drzewom."
+    ru: "Морозы вредили деревьям."
+    source: { kind: authored }
+  - form: "szkodzisz"
+    pl: "Szkodzisz sobie tym paleniem."
+    ru: "Ты вредишь себе этим курением."
+    source: { kind: authored }
+  - form: "szkodzisz"
+    pl: "Nikomu nie szkodzisz."
+    ru: "Ты никому не вредишь."
+    source: { kind: authored }
+  - form: "szkodzisz"
+    pl: "Czy komuś szkodzisz?"
+    ru: "Разве ты кому-то вредишь?"
+    source: { kind: authored }
+  - form: "szkodź"
+    pl: "Przede wszystkim nie szkodź."
+    ru: "Прежде всего не навреди."
+    source: { kind: authored }
+  - form: "szkodź"
+    pl: "Nie szkodź sobie."
+    ru: "Не вреди себе."
+    source: { kind: authored }
+  - form: "szkodź"
+    pl: "Nie szkodź innym."
+    ru: "Не вреди другим."
     source: { kind: authored }
   - form: "będę szkodzić"
     pl: "Nie będę szkodzić nikomu."

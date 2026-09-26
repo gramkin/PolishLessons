@@ -52,13 +52,9 @@ formExamplesSkip:
   - { form: "poleciałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "poleciałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "poleciałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "poleciałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poleciałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poleciałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "poleciałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "poleciało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poleciałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "poleciały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poleciałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "poleciałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "poleciałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -72,7 +68,6 @@ formExamplesSkip:
   - { form: "polecielibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "polecieliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "polecimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "poleć", reason: "в корпусе нет примеров для этой формы" }
   - { form: "polećcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "polećmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
   - { form: "polecenia", reason: "форма принадлежит существительному polecenie «поручение, команда» (Musisz wykonywać polecenia), а не глаголу polecieć" }
@@ -140,6 +135,30 @@ formExamples:
     pl: "Poleciała do Londynu w poniedziałek."
     ru: "Она полетела в Лондон в понедельник."
     source: { kind: authored }
+  - form: "poleciałam"
+    pl: "Poleciałam do Krakowa rano."
+    ru: "Я улетела в Краков утром."
+    source: { kind: authored }
+  - form: "poleciałam"
+    pl: "Poleciałam pierwszym samolotem."
+    ru: "Я улетела первым самолётом."
+    source: { kind: authored }
+  - form: "poleciałam"
+    pl: "Nigdzie nie poleciałam."
+    ru: "Я никуда не улетела."
+    source: { kind: authored }
+  - form: "poleciałaś"
+    pl: "Poleciałaś do Krakowa rano."
+    ru: "Ты улетела в Краков утром."
+    source: { kind: authored }
+  - form: "poleciałaś"
+    pl: "Poleciałaś pierwszym samolotem."
+    ru: "Ты улетела первым самолётом."
+    source: { kind: authored }
+  - form: "poleciałaś"
+    pl: "Nigdzie nie poleciałaś."
+    ru: "Ты никуда не улетела."
+    source: { kind: authored }
   - form: "poleciałbym"
     pl: "Gdybym miał skrzydła, poleciałbym, by ją ratować."
     ru: "Если бы у меня были крылья, я полетел бы её спасать."
@@ -175,6 +194,30 @@ formExamples:
   - form: "poleciałeś"
     pl: "Nie poleciałeś z nami."
     ru: "Ты не полетел с нами."
+    source: { kind: authored }
+  - form: "poleciało"
+    pl: "Wiele osób poleciało na wakacje."
+    ru: "Многие улетели в отпуск."
+    source: { kind: authored }
+  - form: "poleciało"
+    pl: "Dziecko poleciało z babcią do Włoch."
+    ru: "Ребёнок улетел с бабушкой в Италию."
+    source: { kind: authored }
+  - form: "poleciało"
+    pl: "Kilkoro uczniów poleciało na olimpiadę."
+    ru: "Несколько учеников улетели на олимпиаду."
+    source: { kind: authored }
+  - form: "poleciały"
+    pl: "Ptaki poleciały na południe."
+    ru: "Птицы улетели на юг."
+    source: { kind: authored }
+  - form: "poleciały"
+    pl: "Dziewczyny poleciały do Rzymu."
+    ru: "Девушки улетели в Рим."
+    source: { kind: authored }
+  - form: "poleciały"
+    pl: "Liście poleciały z wiatrem."
+    ru: "Листья полетели по ветру."
     source: { kind: authored }
   - form: "polecieć"
     pl: "Chcę polecieć na księżyc."
@@ -212,3 +255,15 @@ formExamples:
     pl: "Polecieliśmy do Paryża, gdzie zostaliśmy na tydzień."
     ru: "Мы полетели в Париж, где остались на неделю."
     source: { kind: translated, id: 4828131 }
+  - form: "poleć"
+    pl: "Poleć do nas na weekend."
+    ru: "Прилетай к нам на выходные."
+    source: { kind: authored }
+  - form: "poleć"
+    pl: "Poleć pierwszym samolotem."
+    ru: "Лети первым самолётом."
+    source: { kind: authored }
+  - form: "poleć"
+    pl: "Nie poleć bez paszportu."
+    ru: "Не улети без паспорта."
+    source: { kind: authored }
