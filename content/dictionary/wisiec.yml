@@ -36,6 +36,7 @@ notes:
   - { kind: government, text: "Висеть на чём-то — wisieć na czymś (предложный падеж): wisi na ścianie. Быть должным кому-то — wisieć komuś (дательный)." }
   - { kind: usage, text: "wisieć na włosku — «висеть на волоске»; wisieć w powietrzu — «висеть в воздухе», о напряжении." }
   - { kind: usage, text: "Пословица Co ma wisieć, nie utonie — «Чему быть, того не миновать», буквально «кому висеть, тот не утонет»." }
+  - { kind: false-friend, text: "Не путайте wisieć «висеть» (непереходный, о состоянии) с wieszać «вешать» (переходный, о действии). Поэтому безличное wieszano flagi возможно, а wisiano — нет." }
 collocations:
   - { pl: "wisieć na ścianie", ru: "висеть на стене" }
   - { pl: "wisieć na włosku", ru: "висеть на волоске" }
@@ -51,49 +52,7 @@ idioms:
   - { pl: "co ma wisieć, nie utonie", ru: "чему быть, того не миновать" }
   - { pl: "ile ci wiszę?", ru: "сколько я тебе должен?" }
 formExamplesSkip:
-  - { form: "wisiała", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałaby", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałabym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałabyś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałby", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałbym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałbyś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiało", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałoby", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałyby", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałybyście", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałybyśmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałyście", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiałyśmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisiano", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisieli", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisieliby", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisielibyście", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisielibyśmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisieliście", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisieliśmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisząc", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wisząca", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszących", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszącymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiszeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiście", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wiśmy", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wisiano", reason: "безличная форма на -no подразумевает неназванных людей-деятелей, а wisieć описывает состояние предмета. Для этого смысла в языке есть форма переходного глагола wieszać: wieszano flagi «вешали флаги»" }
 formExamples:
   - form: "wisi"
     pl: "Mapa wisi na ścianie."
@@ -119,6 +78,162 @@ formExamples:
     pl: "Tam stał czarny stół i krzesła, a tu wisiał na ścianie zegar."
     ru: "Там стоял чёрный стол и стулья, а тут, на стене, висели часы."
     source: { kind: tatoeba, id: 11570720 }
+  - form: "wisiała"
+    pl: "Mapa wisiała na ścianie."
+    ru: "Карта висела на стене."
+    source: { kind: authored }
+  - form: "wisiała"
+    pl: "Lampa wisiała nisko nad stołem."
+    ru: "Лампа висела низко над столом."
+    source: { kind: authored }
+  - form: "wisiała"
+    pl: "Sprawa wisiała w powietrzu."
+    ru: "Дело висело в воздухе."
+    source: { kind: authored }
+  - form: "wisiałaby"
+    pl: "Mapa wisiałaby lepiej wyżej."
+    ru: "Карта висела бы лучше повыше."
+    source: { kind: authored }
+  - form: "wisiałaby"
+    pl: "Bez haka lampa nie wisiałaby wcale."
+    ru: "Без крюка лампа вообще не висела бы."
+    source: { kind: authored }
+  - form: "wisiałaby"
+    pl: "Wisiałaby tam do dziś, gdyby nie remont."
+    ru: "Она висела бы там до сих пор, если бы не ремонт."
+    source: { kind: authored }
+  - form: "wisiałabym"
+    pl: "Wisiałabym na drążku dłużej, gdybym mogła."
+    ru: "Я висела бы на перекладине дольше, если бы могла."
+    source: { kind: authored }
+  - form: "wisiałabym"
+    pl: "Bez tej pomocy wisiałabym im do dziś."
+    ru: "Без этой помощи я была бы им должна до сих пор."
+    source: { kind: authored }
+  - form: "wisiałabym"
+    pl: "Wisiałabym tam godzinę."
+    ru: "Я провисела бы там час."
+    source: { kind: authored }
+  - form: "wisiałabyś"
+    pl: "Wisiałabyś na drążku dłużej, gdybyś mogła."
+    ru: "Ты висела бы на перекладине дольше, если бы могла."
+    source: { kind: authored }
+  - form: "wisiałabyś"
+    pl: "Bez tej pomocy wisiałabyś im do dziś."
+    ru: "Без этой помощи ты была бы им должна до сих пор."
+    source: { kind: authored }
+  - form: "wisiałabyś"
+    pl: "Wisiałabyś tam godzinę."
+    ru: "Ты провисела бы там час."
+    source: { kind: authored }
+  - form: "wisiałam"
+    pl: "Wisiałam na drążku pół minuty."
+    ru: "Я висела на перекладине полминуты."
+    source: { kind: authored }
+  - form: "wisiałam"
+    pl: "Wisiałam ci jeszcze za bilet."
+    ru: "Я была тебе ещё должна за билет."
+    source: { kind: authored }
+  - form: "wisiałam"
+    pl: "Wisiałam na telefonie cały wieczór."
+    ru: "Я провисела на телефоне весь вечер."
+    source: { kind: authored }
+  - form: "wisiałaś"
+    pl: "Wisiałaś na drążku pół minuty."
+    ru: "Ты висела на перекладине полминуты."
+    source: { kind: authored }
+  - form: "wisiałaś"
+    pl: "Wisiałaś mi jeszcze za bilet."
+    ru: "Ты была мне ещё должна за билет."
+    source: { kind: authored }
+  - form: "wisiałaś"
+    pl: "Wisiałaś na telefonie cały wieczór."
+    ru: "Ты провисела на телефоне весь вечер."
+    source: { kind: authored }
+  - form: "wisiałby"
+    pl: "Obraz wisiałby lepiej wyżej."
+    ru: "Картина висела бы лучше повыше."
+    source: { kind: authored }
+  - form: "wisiałby"
+    pl: "Bez tego haka obraz nie wisiałby wcale."
+    ru: "Без этого крюка картина вообще не висела бы."
+    source: { kind: authored }
+  - form: "wisiałby"
+    pl: "Wisiałby tam do dziś, gdyby nie remont."
+    ru: "Он висел бы там до сих пор, если бы не ремонт."
+    source: { kind: authored }
+  - form: "wisiałbym"
+    pl: "Wisiałbym na drążku dłużej, gdybym mógł."
+    ru: "Я висел бы на перекладине дольше, если бы мог."
+    source: { kind: authored }
+  - form: "wisiałbym"
+    pl: "Bez tej pomocy wisiałbym im do dziś."
+    ru: "Без этой помощи я был бы им должен до сих пор."
+    source: { kind: authored }
+  - form: "wisiałbym"
+    pl: "Wisiałbym tam godzinę."
+    ru: "Я провисел бы там час."
+    source: { kind: authored }
+  - form: "wisiałbyś"
+    pl: "Wisiałbyś na drążku dłużej, gdybyś mógł."
+    ru: "Ты висел бы на перекладине дольше, если бы мог."
+    source: { kind: authored }
+  - form: "wisiałbyś"
+    pl: "Bez tej pomocy wisiałbyś im do dziś."
+    ru: "Без этой помощи ты был бы им должен до сих пор."
+    source: { kind: authored }
+  - form: "wisiałbyś"
+    pl: "Wisiałbyś tam godzinę."
+    ru: "Ты провисел бы там час."
+    source: { kind: authored }
+  - form: "wisiałem"
+    pl: "Wisiałem na drążku pół minuty."
+    ru: "Я висел на перекладине полминуты."
+    source: { kind: authored }
+  - form: "wisiałem"
+    pl: "Wisiałem ci jeszcze za bilet."
+    ru: "Я был тебе ещё должен за билет."
+    source: { kind: authored }
+  - form: "wisiałem"
+    pl: "Wisiałem na telefonie cały wieczór."
+    ru: "Я провисел на телефоне весь вечер."
+    source: { kind: authored }
+  - form: "wisiałeś"
+    pl: "Wisiałeś na drążku pół minuty."
+    ru: "Ты висел на перекладине полминуты."
+    source: { kind: authored }
+  - form: "wisiałeś"
+    pl: "Wisiałeś mi jeszcze za bilet."
+    ru: "Ты был мне ещё должен за билет."
+    source: { kind: authored }
+  - form: "wisiałeś"
+    pl: "Wisiałeś na telefonie cały wieczór."
+    ru: "Ты провисел на телефоне весь вечер."
+    source: { kind: authored }
+  - form: "wisiało"
+    pl: "Lustro wisiało krzywo."
+    ru: "Зеркало висело криво."
+    source: { kind: authored }
+  - form: "wisiało"
+    pl: "Coś wisiało w powietrzu."
+    ru: "Что-то висело в воздухе."
+    source: { kind: authored }
+  - form: "wisiało"
+    pl: "Nad miastem wisiało niskie niebo."
+    ru: "Над городом висело низкое небо."
+    source: { kind: authored }
+  - form: "wisiałoby"
+    pl: "Lustro wisiałoby lepiej wyżej."
+    ru: "Зеркало висело бы лучше повыше."
+    source: { kind: authored }
+  - form: "wisiałoby"
+    pl: "Nic tu nie wisiałoby bez tych haków."
+    ru: "Ничего бы тут не висело без этих крюков."
+    source: { kind: authored }
+  - form: "wisiałoby"
+    pl: "Wisiałoby tam do dziś, gdyby nie remont."
+    ru: "Оно висело бы там до сих пор, если бы не ремонт."
+    source: { kind: authored }
   - form: "wisiały"
     pl: "Jego rysunki wisiały na ścianie."
     ru: "Его рисунки висели на стене."
@@ -131,6 +246,78 @@ formExamples:
     pl: "Klucze wisiały przy drzwiach."
     ru: "Ключи висели у двери."
     source: { kind: authored }
+  - form: "wisiałyby"
+    pl: "Obrazy wisiałyby lepiej wyżej."
+    ru: "Картины висели бы лучше повыше."
+    source: { kind: authored }
+  - form: "wisiałyby"
+    pl: "Bez haków lampy nie wisiałyby wcale."
+    ru: "Без крюков лампы вообще не висели бы."
+    source: { kind: authored }
+  - form: "wisiałyby"
+    pl: "Wisiałyby tam do dziś, gdyby nie remont."
+    ru: "Они висели бы там до сих пор, если бы не ремонт."
+    source: { kind: authored }
+  - form: "wisiałybyście"
+    pl: "Wisiałybyście na drążku dłużej, gdybyście mogły."
+    ru: "Вы висели бы на перекладине дольше, если бы могли."
+    source: { kind: authored }
+  - form: "wisiałybyście"
+    pl: "Bez tej pomocy wisiałybyście im do dziś."
+    ru: "Без этой помощи вы были бы им должны до сих пор."
+    source: { kind: authored }
+  - form: "wisiałybyście"
+    pl: "Wisiałybyście tam do rana."
+    ru: "Вы провисели бы там до утра."
+    source: { kind: authored }
+  - form: "wisiałybyśmy"
+    pl: "Wisiałybyśmy na drążku dłużej, gdybyśmy mogły."
+    ru: "Мы висели бы на перекладине дольше, если бы могли."
+    source: { kind: authored }
+  - form: "wisiałybyśmy"
+    pl: "Bez tej pomocy wisiałybyśmy im do dziś."
+    ru: "Без этой помощи мы были бы им должны до сих пор."
+    source: { kind: authored }
+  - form: "wisiałybyśmy"
+    pl: "Wisiałybyśmy tam do rana."
+    ru: "Мы провисели бы там до утра."
+    source: { kind: authored }
+  - form: "wisiałyście"
+    pl: "Wisiałyście na drążku po kolei."
+    ru: "Вы висели на перекладине по очереди."
+    source: { kind: authored }
+  - form: "wisiałyście"
+    pl: "Wisiałyście mu za bilety."
+    ru: "Вы были ему должны за билеты."
+    source: { kind: authored }
+  - form: "wisiałyście"
+    pl: "Ile mu wisiałyście?"
+    ru: "Сколько вы ему были должны?"
+    source: { kind: authored }
+  - form: "wisiałyśmy"
+    pl: "Wisiałyśmy na drążku po kolei."
+    ru: "Мы висели на перекладине по очереди."
+    source: { kind: authored }
+  - form: "wisiałyśmy"
+    pl: "Wisiałyśmy mu za bilety."
+    ru: "Мы были ему должны за билеты."
+    source: { kind: authored }
+  - form: "wisiałyśmy"
+    pl: "Wisiałyśmy na telefonie cały wieczór."
+    ru: "Мы провисели на телефоне весь вечер."
+    source: { kind: authored }
+  - form: "wisicie"
+    pl: "Wisicie na drążku od minuty."
+    ru: "Вы висите на перекладине уже минуту."
+    source: { kind: authored }
+  - form: "wisicie"
+    pl: "Wisicie mi jeszcze za paliwo."
+    ru: "Вы мне ещё должны за бензин."
+    source: { kind: authored }
+  - form: "wisicie"
+    pl: "Ile mi wisicie?"
+    ru: "Сколько вы мне должны?"
+    source: { kind: authored }
   - form: "wisieć"
     pl: "Co ma wisieć nie utonie."
     ru: "Чему быть, того не миновать."
@@ -142,6 +329,90 @@ formExamples:
   - form: "wisieć"
     pl: "Obraz ma wisieć nad kominkiem."
     ru: "Картина должна висеть над камином."
+    source: { kind: authored }
+  - form: "wisieli"
+    pl: "Wisieli na drążku na czas."
+    ru: "Они висели на перекладине на время."
+    source: { kind: authored }
+  - form: "wisieli"
+    pl: "Wisieli mi sporo pieniędzy."
+    ru: "Они были мне должны немало денег."
+    source: { kind: authored }
+  - form: "wisieli"
+    pl: "Alpiniści wisieli na linie całą noc."
+    ru: "Альпинисты висели на верёвке всю ночь."
+    source: { kind: authored }
+  - form: "wisieliby"
+    pl: "Wisieliby na drążku dłużej, gdyby mogli."
+    ru: "Они висели бы на перекладине дольше, если бы могли."
+    source: { kind: authored }
+  - form: "wisieliby"
+    pl: "Bez tej pomocy wisieliby nam do dziś."
+    ru: "Без этой помощи они были бы нам должны до сих пор."
+    source: { kind: authored }
+  - form: "wisieliby"
+    pl: "Alpiniści wisieliby tam do rana."
+    ru: "Альпинисты провисели бы там до утра."
+    source: { kind: authored }
+  - form: "wisielibyście"
+    pl: "Wisielibyście na drążku dłużej, gdybyście mogli."
+    ru: "Вы висели бы на перекладине дольше, если бы могли."
+    source: { kind: authored }
+  - form: "wisielibyście"
+    pl: "Bez tej pomocy wisielibyście im do dziś."
+    ru: "Без этой помощи вы были бы им должны до сих пор."
+    source: { kind: authored }
+  - form: "wisielibyście"
+    pl: "Wisielibyście tam do rana."
+    ru: "Вы провисели бы там до утра."
+    source: { kind: authored }
+  - form: "wisielibyśmy"
+    pl: "Wisielibyśmy na drążku dłużej, gdybyśmy mogli."
+    ru: "Мы висели бы на перекладине дольше, если бы могли."
+    source: { kind: authored }
+  - form: "wisielibyśmy"
+    pl: "Bez tej pomocy wisielibyśmy im do dziś."
+    ru: "Без этой помощи мы были бы им должны до сих пор."
+    source: { kind: authored }
+  - form: "wisielibyśmy"
+    pl: "Wisielibyśmy tam do rana."
+    ru: "Мы провисели бы там до утра."
+    source: { kind: authored }
+  - form: "wisieliście"
+    pl: "Wisieliście na drążku po kolei."
+    ru: "Вы висели на перекладине по очереди."
+    source: { kind: authored }
+  - form: "wisieliście"
+    pl: "Wisieliście mu sporo."
+    ru: "Вы были ему должны немало."
+    source: { kind: authored }
+  - form: "wisieliście"
+    pl: "Ile mu wisieliście?"
+    ru: "Сколько вы ему были должны?"
+    source: { kind: authored }
+  - form: "wisieliśmy"
+    pl: "Wisieliśmy na drążku po kolei."
+    ru: "Мы висели на перекладине по очереди."
+    source: { kind: authored }
+  - form: "wisieliśmy"
+    pl: "Wisieliśmy mu sporo."
+    ru: "Мы были ему должны немало."
+    source: { kind: authored }
+  - form: "wisieliśmy"
+    pl: "Wisieliśmy na linie nad przepaścią."
+    ru: "Мы висели на верёвке над пропастью."
+    source: { kind: authored }
+  - form: "wisimy"
+    pl: "Wisimy na drążku od minuty."
+    ru: "Мы висим на перекладине уже минуту."
+    source: { kind: authored }
+  - form: "wisimy"
+    pl: "Wisimy mu jeszcze za paliwo."
+    ru: "Мы ему ещё должны за бензин."
+    source: { kind: authored }
+  - form: "wisimy"
+    pl: "Wisimy w powietrzu z tą decyzją."
+    ru: "Мы висим в воздухе с этим решением."
     source: { kind: authored }
   - form: "wisisz"
     pl: "Wisisz mi piwo."
@@ -167,6 +438,42 @@ formExamples:
     pl: "Ubrania wiszą w szafie."
     ru: "Одежда висит в шкафу."
     source: { kind: authored }
+  - form: "wisząc"
+    pl: "Wisząc na drążku, liczył sekundy."
+    ru: "Вися на перекладине, он считал секунды."
+    source: { kind: authored }
+  - form: "wisząc"
+    pl: "Wisząc na linie, nie patrz w dół."
+    ru: "Вися на верёвке, не смотри вниз."
+    source: { kind: authored }
+  - form: "wisząc"
+    pl: "Wisząc w powietrzu, decyzja psuła wszystkim nastrój."
+    ru: "Вися в воздухе, решение портило всем настроение."
+    source: { kind: authored }
+  - form: "wisząca"
+    pl: "Lampa wisząca nad stołem jest nowa."
+    ru: "Лампа, висящая над столом, новая."
+    source: { kind: authored }
+  - form: "wisząca"
+    pl: "Wisząca cisza była nie do zniesienia."
+    ru: "Повисшая тишина была невыносима."
+    source: { kind: authored }
+  - form: "wisząca"
+    pl: "Wisząca nad miastem mgła nie chciała opaść."
+    ru: "Висящий над городом туман не хотел оседать."
+    source: { kind: authored }
+  - form: "wiszącą"
+    pl: "Znam lampę wiszącą nad stołem."
+    ru: "Я знаю лампу, висящую над столом."
+    source: { kind: authored }
+  - form: "wiszącą"
+    pl: "Uznano mapę za wiszącą zbyt nisko."
+    ru: "Карту сочли висящей слишком низко."
+    source: { kind: authored }
+  - form: "wiszącą"
+    pl: "Widziałem mgłę wiszącą nad łąką."
+    ru: "Я видел туман, висящий над лугом."
+    source: { kind: authored }
   - form: "wiszące"
     pl: "Tom lubił patrzeć na obrazki wiszące na ścianach u Mary."
     ru: "Тому нравилось смотреть на картинки, висящие на стенах у Мэри."
@@ -178,6 +485,42 @@ formExamples:
   - form: "wiszące"
     pl: "Lampy wiszące nad stołem są nowe."
     ru: "Лампы, висящие над столом, новые."
+    source: { kind: authored }
+  - form: "wiszącego"
+    pl: "Nie ma tu nic wiszącego na ścianie."
+    ru: "Здесь нет ничего висящего на стене."
+    source: { kind: authored }
+  - form: "wiszącego"
+    pl: "Szukam obrazu wiszącego nad kominkiem."
+    ru: "Я ищу картину, висящую над камином."
+    source: { kind: authored }
+  - form: "wiszącego"
+    pl: "Od plakatu wiszącego na płocie nic nie zostało."
+    ru: "От плаката, висевшего на заборе, ничего не осталось."
+    source: { kind: authored }
+  - form: "wiszącej"
+    pl: "Nie znam lampy wiszącej nad stołem."
+    ru: "Я не знаю лампы, висящей над столом."
+    source: { kind: authored }
+  - form: "wiszącej"
+    pl: "Szukamy mapy wiszącej w sali."
+    ru: "Мы ищем карту, висящую в зале."
+    source: { kind: authored }
+  - form: "wiszącej"
+    pl: "Po mgle wiszącej nad łąką nie było śladu."
+    ru: "От тумана, висевшего над лугом, не было следа."
+    source: { kind: authored }
+  - form: "wiszącemu"
+    pl: "Przyjrzyj się obrazowi wiszącemu nad kominkiem."
+    ru: "Присмотрись к картине, висящей над камином."
+    source: { kind: authored }
+  - form: "wiszącemu"
+    pl: "Lustru wiszącemu krzywo nikt nie pomoże."
+    ru: "Криво висящему зеркалу никто не поможет."
+    source: { kind: authored }
+  - form: "wiszącemu"
+    pl: "Daj spokój plakatowi wiszącemu na płocie."
+    ru: "Оставь в покое плакат, висящий на заборе."
     source: { kind: authored }
   - form: "wiszący"
     pl: "Dłuższą chwilę patrzyłam na obraz wiszący na ścianie."
@@ -191,6 +534,90 @@ formExamples:
     pl: "Zegar wiszący nad drzwiami stanął."
     ru: "Часы, висящие над дверью, остановились."
     source: { kind: authored }
+  - form: "wiszących"
+    pl: "Nie ma tu obrazów wiszących krzywo."
+    ru: "Здесь нет криво висящих картин."
+    source: { kind: authored }
+  - form: "wiszących"
+    pl: "Wśród lamp wiszących nad stołem jest i ta."
+    ru: "Среди ламп, висящих над столом, есть и эта."
+    source: { kind: authored }
+  - form: "wiszących"
+    pl: "Liczba plakatów wiszących na płocie rośnie."
+    ru: "Число плакатов, висящих на заборе, растёт."
+    source: { kind: authored }
+  - form: "wiszącym"
+    pl: "W lustrze wiszącym krzywo wszystko jest przekrzywione."
+    ru: "В криво висящем зеркале всё перекошено."
+    source: { kind: authored }
+  - form: "wiszącym"
+    pl: "Obrazom wiszącym nad kominkiem nic nie grozi."
+    ru: "Картинам, висящим над камином, ничего не грозит."
+    source: { kind: authored }
+  - form: "wiszącym"
+    pl: "Z plakatem wiszącym na płocie nikt nic nie zrobił."
+    ru: "С плакатом, висящим на заборе, никто ничего не сделал."
+    source: { kind: authored }
+  - form: "wiszącymi"
+    pl: "Zajmujemy się lampami wiszącymi nad stołem."
+    ru: "Мы занимаемся лампами, висящими над столом."
+    source: { kind: authored }
+  - form: "wiszącymi"
+    pl: "Między obrazami wiszącymi tu a tam jest różnica."
+    ru: "Между картинами, висящими тут и там, есть разница."
+    source: { kind: authored }
+  - form: "wiszącymi"
+    pl: "Z plakatami wiszącymi na płocie trzeba coś zrobić."
+    ru: "С плакатами, висящими на заборе, надо что-то делать."
+    source: { kind: authored }
+  - form: "wiszenia"
+    pl: "Od wiszenia na drążku bolą ramiona."
+    ru: "От виса на перекладине болят плечи."
+    source: { kind: authored }
+  - form: "wiszenia"
+    pl: "Nie ma tu zwyczaju wiszenia na telefonie."
+    ru: "Тут нет привычки висеть на телефоне."
+    source: { kind: authored }
+  - form: "wiszenia"
+    pl: "Zabroniono wiszenia na barierce."
+    ru: "Висеть на перилах запретили."
+    source: { kind: authored }
+  - form: "wiszenie"
+    pl: "Wiszenie na drążku wzmacnia plecy."
+    ru: "Вис на перекладине укрепляет спину."
+    source: { kind: authored }
+  - form: "wiszenie"
+    pl: "Wiszenie w powietrzu przeciągało się."
+    ru: "Подвешенное состояние затягивалось."
+    source: { kind: authored }
+  - form: "wiszenie"
+    pl: "Wiszenie na telefonie zajęło mu wieczór."
+    ru: "Висение на телефоне заняло у него вечер."
+    source: { kind: authored }
+  - form: "wiszeniem"
+    pl: "Zmęczył się wiszeniem na drążku."
+    ru: "Он устал висеть на перекладине."
+    source: { kind: authored }
+  - form: "wiszeniem"
+    pl: "Między wiszeniem a podciąganiem jest różnica."
+    ru: "Между висом и подтягиванием есть разница."
+    source: { kind: authored }
+  - form: "wiszeniem"
+    pl: "Zaczął od rozgrzewki, skończył wiszeniem na drążku."
+    ru: "Он начал с разминки, кончил висом на перекладине."
+    source: { kind: authored }
+  - form: "wiszeniu"
+    pl: "W wiszeniu na drążku nie ma nic trudnego."
+    ru: "В висе на перекладине нет ничего трудного."
+    source: { kind: authored }
+  - form: "wiszeniu"
+    pl: "O wiszeniu na telefonie mówiła z wyrzutem."
+    ru: "О висении на телефоне она говорила с укором."
+    source: { kind: authored }
+  - form: "wiszeniu"
+    pl: "Po wiszeniu na linie bolały go dłonie."
+    ru: "После виса на верёвке у него болели ладони."
+    source: { kind: authored }
   - form: "wiszę"
     pl: "Ile ci wiszę?"
     ru: "Сколько я тебе должен?"
@@ -203,6 +630,42 @@ formExamples:
     pl: "Wiszę jej dziesięć dolarów."
     ru: "Я должен ей десять долларов."
     source: { kind: translated, id: 6360065 }
+  - form: "wiś"
+    pl: "Wiś na drążku jeszcze dziesięć sekund."
+    ru: "Повиси на перекладине ещё десять секунд."
+    source: { kind: authored }
+  - form: "wiś"
+    pl: "Nie wiś tak długo na telefonie."
+    ru: "Не виси так долго на телефоне."
+    source: { kind: authored }
+  - form: "wiś"
+    pl: "Wiś spokojnie, lina wytrzyma."
+    ru: "Виси спокойно, верёвка выдержит."
+    source: { kind: authored }
+  - form: "wiście"
+    pl: "Wiście na drążku jeszcze dziesięć sekund."
+    ru: "Повисите на перекладине ещё десять секунд."
+    source: { kind: authored }
+  - form: "wiście"
+    pl: "Nie wiście tak długo na telefonie."
+    ru: "Не висите так долго на телефоне."
+    source: { kind: authored }
+  - form: "wiście"
+    pl: "Wiście spokojnie, lina wytrzyma."
+    ru: "Висите спокойно, верёвка выдержит."
+    source: { kind: authored }
+  - form: "wiśmy"
+    pl: "Wiśmy na drążku jeszcze dziesięć sekund."
+    ru: "Повисим на перекладине ещё десять секунд."
+    source: { kind: authored }
+  - form: "wiśmy"
+    pl: "Nie wiśmy tak długo na telefonie."
+    ru: "Не будем висеть так долго на телефоне."
+    source: { kind: authored }
+  - form: "wiśmy"
+    pl: "Wiśmy spokojnie, lina wytrzyma."
+    ru: "Будем висеть спокойно, верёвка выдержит."
+    source: { kind: authored }
   - form: "będę wisieć"
     pl: "Będę wisieć na drążku minutę."
     ru: "Я буду висеть на турнике минуту."
