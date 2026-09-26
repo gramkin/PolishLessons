@@ -47,12 +47,10 @@ idioms:
   - { pl: "umieścić w internecie", ru: "разместить в интернете" }
   - { pl: "zostać umieszczonym", ru: "быть помещённым" }
 formExamplesSkip:
-  - { form: "umieszczą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieszczeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umieszczenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umieszczeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "umieszczę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieszczoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -60,8 +58,6 @@ formExamplesSkip:
   - { form: "umieszczonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "umieści", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umieścicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umieścili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieścilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -83,12 +79,22 @@ formExamplesSkip:
   - { form: "umieściłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "umieściłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "umieścimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "umieścisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "umieśćcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umieśćmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
+  - form: "umieszczą"
+    pl: "Umieszczą książkę na półce."
+    ru: "Они поместят книгу на полку."
+    source: { kind: authored }
+  - form: "umieszczą"
+    pl: "Umieszczą ogłoszenie w gazecie."
+    ru: "Они поместят объявление в газете."
+    source: { kind: authored }
+  - form: "umieszczą"
+    pl: "Nie umieszczą tam niczego."
+    ru: "Они туда ничего не поместят."
+    source: { kind: authored }
   - form: "umieszczeniu"
     pl: "Mówimy o umieszczeniu reklamy."
     ru: "Мы говорим о размещении рекламы."
@@ -100,6 +106,18 @@ formExamples:
   - form: "umieszczeniu"
     pl: "Zdecydowano o umieszczeniu go w szpitalu."
     ru: "Решили поместить его в больницу."
+    source: { kind: authored }
+  - form: "umieszczę"
+    pl: "Umieszczę książkę na półce."
+    ru: "Я помещу книгу на полку."
+    source: { kind: authored }
+  - form: "umieszczę"
+    pl: "Umieszczę ogłoszenie w gazecie."
+    ru: "Я помещу объявление в газете."
+    source: { kind: authored }
+  - form: "umieszczę"
+    pl: "Nie umieszczę tam niczego."
+    ru: "Я туда ничего не помещу."
     source: { kind: authored }
   - form: "umieszczona"
     pl: "Ona została umieszczona w celi."
@@ -148,6 +166,30 @@ formExamples:
   - form: "umieszczony"
     pl: "Znak jest umieszczony przy drodze."
     ru: "Знак размещён у дороги."
+    source: { kind: authored }
+  - form: "umieści"
+    pl: "Umieści książkę na półce."
+    ru: "Он поместит книгу на полку."
+    source: { kind: authored }
+  - form: "umieści"
+    pl: "Umieści ogłoszenie w gazecie."
+    ru: "Он поместит объявление в газете."
+    source: { kind: authored }
+  - form: "umieści"
+    pl: "Nie umieści tam niczego."
+    ru: "Он туда ничего не поместит."
+    source: { kind: authored }
+  - form: "umieścicie"
+    pl: "Umieścicie książkę na półce."
+    ru: "Вы поместите книгу на полку."
+    source: { kind: authored }
+  - form: "umieścicie"
+    pl: "Umieścicie ogłoszenie w gazecie."
+    ru: "Вы поместите объявление в газете."
+    source: { kind: authored }
+  - form: "umieścicie"
+    pl: "Nie umieścicie tam niczego."
+    ru: "Вы туда ничего не поместите."
     source: { kind: authored }
   - form: "umieścić"
     pl: "Udało im się umieścić satelitę na orbicie."
@@ -221,6 +263,30 @@ formExamples:
     pl: "Umieściłem plik w folderze."
     ru: "Я поместил файл в папку."
     source: { kind: authored }
+  - form: "umieścimy"
+    pl: "Umieścimy książkę na półce."
+    ru: "Мы поместим книгу на полку."
+    source: { kind: authored }
+  - form: "umieścimy"
+    pl: "Umieścimy ogłoszenie w gazecie."
+    ru: "Мы поместим объявление в газете."
+    source: { kind: authored }
+  - form: "umieścimy"
+    pl: "Nie umieścimy tam niczego."
+    ru: "Мы туда ничего не поместим."
+    source: { kind: authored }
+  - form: "umieścisz"
+    pl: "Umieścisz książkę na półce."
+    ru: "Ты поместишь книгу на полку."
+    source: { kind: authored }
+  - form: "umieścisz"
+    pl: "Umieścisz ogłoszenie w gazecie."
+    ru: "Ты поместишь объявление в газете."
+    source: { kind: authored }
+  - form: "umieścisz"
+    pl: "Nie umieścisz tam niczego."
+    ru: "Ты туда ничего не поместишь."
+    source: { kind: authored }
   - form: "umieść"
     pl: "Umieść naklejki z cenami na każdym towarze."
     ru: "Помести наклейки с ценами на каждом товаре."
@@ -233,3 +299,27 @@ formExamples:
     pl: "Natrzyj ziemniaki olejem roślinnym i umieść na przygotowanej blasze do pieczenia."
     ru: "Натри картофель растительным маслом и помести на подготовленный противень."
     source: { kind: translated, id: 13081735 }
+  - form: "niech umieszczą"
+    pl: "Niech umieszczą książkę na półce."
+    ru: "Пусть поместят книгу на полку."
+    source: { kind: authored }
+  - form: "niech umieszczą"
+    pl: "Niech umieszczą ogłoszenie w gazecie."
+    ru: "Пусть поместят объявление в газете."
+    source: { kind: authored }
+  - form: "niech umieszczą"
+    pl: "Niech umieszczą to wyżej."
+    ru: "Пусть поместят это повыше."
+    source: { kind: authored }
+  - form: "niech umieści"
+    pl: "Niech umieści książkę na półce."
+    ru: "Пусть поместит книгу на полку."
+    source: { kind: authored }
+  - form: "niech umieści"
+    pl: "Niech umieści ogłoszenie w gazecie."
+    ru: "Пусть поместит объявление в газете."
+    source: { kind: authored }
+  - form: "niech umieści"
+    pl: "Niech umieści to wyżej."
+    ru: "Пусть поместит это повыше."
+    source: { kind: authored }
