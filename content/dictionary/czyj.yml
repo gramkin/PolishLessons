@@ -49,12 +49,31 @@ idioms:
   - { pl: "czyja kolej?", ru: "чья очередь?" }
   - { pl: "po czyjej stronie?", ru: "на чьей стороне?" }
   - { pl: "czyj to?", ru: "чей это?" }
-formExamplesSkip:
-  - { form: "czyi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "czyich", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "czyimi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "czyjemu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "czyi"
+    pl: "Czyi to synowie?"
+    ru: "Чьи это сыновья?"
+    source: { kind: authored }
+  - form: "czyi"
+    pl: "Nie wiem, czyi to goście."
+    ru: "Я не знаю, чьи это гости."
+    source: { kind: authored }
+  - form: "czyi"
+    pl: "Czyi ludzie tu pracują?"
+    ru: "Чьи люди тут работают?"
+    source: { kind: authored }
+  - form: "czyich"
+    pl: "Czyich rad posłuchasz?"
+    ru: "Чьих советов ты послушаешь?"
+    source: { kind: authored }
+  - form: "czyich"
+    pl: "Nie wiem, czyich to rzeczy."
+    ru: "Я не знаю, чьи это вещи."
+    source: { kind: authored }
+  - form: "czyich"
+    pl: "Czyich dzieci szukasz?"
+    ru: "Чьих детей ты ищешь?"
+    source: { kind: authored }
   - form: "czyim"
     pl: "Czyim synem jesteś?"
     ru: "Чей ты сын?"
@@ -67,6 +86,18 @@ formExamples:
     pl: "Czyim samochodem wczoraj jechałeś?"
     ru: "На чьей машине ты вчера ехал?"
     source: { kind: translated, id: 6729231 }
+  - form: "czyimi"
+    pl: "Czyimi rękami to zrobiono?"
+    ru: "Чьими руками это сделано?"
+    source: { kind: authored }
+  - form: "czyimi"
+    pl: "Nie wiem, czyimi drogami tu dotarli."
+    ru: "Не знаю, чьими путями они сюда добрались."
+    source: { kind: authored }
+  - form: "czyimi"
+    pl: "Czyimi pieniędzmi za to zapłacono?"
+    ru: "Чьими деньгами за это заплатили?"
+    source: { kind: authored }
   - form: "czyj"
     pl: "Czyj to ołówek?"
     ru: "Чей это карандаш?"
@@ -138,4 +169,16 @@ formExamples:
   - form: "czyjej"
     pl: "Nie wiem, w czyjej firmie pracuje."
     ru: "Я не знаю, в чьей фирме он работает."
+    source: { kind: authored }
+  - form: "czyjemu"
+    pl: "Czyjemu słowu mam wierzyć?"
+    ru: "Чьему слову мне верить?"
+    source: { kind: authored }
+  - form: "czyjemu"
+    pl: "Nie wiem, czyjemu synowi to oddać."
+    ru: "Не знаю, чьему сыну это отдать."
+    source: { kind: authored }
+  - form: "czyjemu"
+    pl: "Czyjemu psu przyniosłeś jedzenie?"
+    ru: "Чьей собаке ты принёс еду?"
     source: { kind: authored }
