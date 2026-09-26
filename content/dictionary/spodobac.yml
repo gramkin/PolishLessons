@@ -60,7 +60,6 @@ formExamplesSkip:
   - { form: "spodobaj", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "spodobajcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "spodobajmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "spodobali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spodobaliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobalibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobalibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -69,25 +68,20 @@ formExamplesSkip:
   - { form: "spodobałaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "spodobałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spodobałby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "spodobałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "spodobały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spodobałyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "spodobałyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "spodobałyśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "spodobam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spodobamy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "spodobania", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "spodobanie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "spodobaniem", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "spodobaniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "spodobano", reason: "безличная форма прошедшего времени; в корпусе примеров нет" }
-  - { form: "spodobasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spodobawszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
 formExamples:
   - form: "spodoba"
@@ -126,6 +120,18 @@ formExamples:
     pl: "Te buty ci się spodobają."
     ru: "Эти туфли тебе понравятся."
     source: { kind: authored }
+  - form: "spodobali"
+    pl: "Spodobali się publiczności."
+    ru: "Они понравились публике."
+    source: { kind: authored }
+  - form: "spodobali"
+    pl: "Nowi sąsiedzi nam się spodobali."
+    ru: "Новые соседи нам понравились."
+    source: { kind: authored }
+  - form: "spodobali"
+    pl: "Nie spodobali się nikomu."
+    ru: "Они никому не понравились."
+    source: { kind: authored }
   - form: "spodobał"
     pl: "Spodobał ci się Rzym?"
     ru: "Тебе понравился Рим?"
@@ -150,6 +156,18 @@ formExamples:
     pl: "Bardzo spodobała się jej ta sukienka, ale jej nie kupiła."
     ru: "Ей очень понравилось это платье, но она его не купила."
     source: { kind: translated, id: 498381 }
+  - form: "spodobałam"
+    pl: "Spodobałam się jego rodzicom."
+    ru: "Я понравилась его родителям."
+    source: { kind: authored }
+  - form: "spodobałam"
+    pl: "Chyba mu się spodobałam."
+    ru: "Кажется, я ему понравилась."
+    source: { kind: authored }
+  - form: "spodobałam"
+    pl: "Nie spodobałam się nikomu."
+    ru: "Я никому не понравилась."
+    source: { kind: authored }
   - form: "spodobałaś"
     pl: "Spodobałaś mi się."
     ru: "Ты мне понравилась."
@@ -161,6 +179,18 @@ formExamples:
   - form: "spodobałaś"
     pl: "Od razu mi się spodobałaś."
     ru: "Ты мне сразу понравилась."
+    source: { kind: authored }
+  - form: "spodobałem"
+    pl: "Spodobałem się jego rodzicom."
+    ru: "Я понравился его родителям."
+    source: { kind: authored }
+  - form: "spodobałem"
+    pl: "Chyba jej się spodobałem."
+    ru: "Кажется, я ей понравился."
+    source: { kind: authored }
+  - form: "spodobałem"
+    pl: "Nie spodobałem się nikomu."
+    ru: "Я никому не понравился."
     source: { kind: authored }
   - form: "spodobałeś"
     pl: "Spodobałeś mi się."
@@ -198,3 +228,39 @@ formExamples:
     pl: "Tomowi nie spodobałoby się, gdyby się dowiedział, że Mary i John się spotykają."
     ru: "Тому бы не понравилось, если бы он узнал, что Мэри и Джон встречаются."
     source: { kind: translated, id: 3786113 }
+  - form: "spodobały"
+    pl: "Spodobały mi się te buty."
+    ru: "Мне понравились эти туфли."
+    source: { kind: authored }
+  - form: "spodobały"
+    pl: "Te zdjęcia wszystkim się spodobały."
+    ru: "Эти фотографии всем понравились."
+    source: { kind: authored }
+  - form: "spodobały"
+    pl: "Nie spodobały mi się wcale."
+    ru: "Они мне совсем не понравились."
+    source: { kind: authored }
+  - form: "spodobam"
+    pl: "Mam nadzieję, że im się spodobam."
+    ru: "Надеюсь, я им понравлюсь."
+    source: { kind: authored }
+  - form: "spodobam"
+    pl: "Nie spodobam się wszystkim."
+    ru: "Я не всем понравлюсь."
+    source: { kind: authored }
+  - form: "spodobam"
+    pl: "Spodobam się jego rodzicom."
+    ru: "Я понравлюсь его родителям."
+    source: { kind: authored }
+  - form: "spodobasz"
+    pl: "Spodobasz się jego rodzicom."
+    ru: "Ты понравишься его родителям."
+    source: { kind: authored }
+  - form: "spodobasz"
+    pl: "Nie spodobasz się wszystkim."
+    ru: "Ты не всем понравишься."
+    source: { kind: authored }
+  - form: "spodobasz"
+    pl: "Na pewno im się spodobasz."
+    ru: "Ты им наверняка понравишься."
+    source: { kind: authored }

@@ -62,7 +62,6 @@ idioms:
 formExamplesSkip:
   - { form: "uznacie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "uznaj", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "uznają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uznajcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "uznajmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "uznaliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -72,20 +71,15 @@ formExamplesSkip:
   - { form: "uznałaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "uznałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uznałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uznałby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "uznałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uznało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uznałoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "uznałyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "uznałyśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "uznam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uznamy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "uznaną", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "uznanego", reason: "в корпусе нет примеров для этой падежной формы причастия" }
@@ -96,7 +90,6 @@ formExamplesSkip:
   - { form: "uznaniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "uznanych", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "uznanymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
-  - { form: "uznasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uznawszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
 formExamples:
   - form: "uzna"
@@ -122,6 +115,18 @@ formExamples:
   - form: "uznać"
     pl: "Trudno to uznać za przypadek."
     ru: "Это трудно счесть случайностью."
+    source: { kind: authored }
+  - form: "uznają"
+    pl: "Uznają go za winnego."
+    ru: "Его признают виновным."
+    source: { kind: authored }
+  - form: "uznają"
+    pl: "Uznają nasze racje."
+    ru: "Они признают нашу правоту."
+    source: { kind: authored }
+  - form: "uznają"
+    pl: "Nie uznają tego dokumentu."
+    ru: "Они не признают этот документ."
     source: { kind: authored }
   - form: "uznali"
     pl: "Słyszałem że uznali ją za winną."
@@ -171,6 +176,30 @@ formExamples:
     pl: "Uznała to za komplement."
     ru: "Она сочла это комплиментом."
     source: { kind: authored }
+  - form: "uznałam"
+    pl: "Uznałam to za pomyłkę."
+    ru: "Я сочла это ошибкой."
+    source: { kind: authored }
+  - form: "uznałam"
+    pl: "Uznałam jego racje."
+    ru: "Я признала его правоту."
+    source: { kind: authored }
+  - form: "uznałam"
+    pl: "Nie uznałam tego dokumentu."
+    ru: "Я не признала этот документ."
+    source: { kind: authored }
+  - form: "uznałaś"
+    pl: "Uznałaś to za pomyłkę."
+    ru: "Ты сочла это ошибкой."
+    source: { kind: authored }
+  - form: "uznałaś"
+    pl: "Uznałaś jego racje."
+    ru: "Ты признала его правоту."
+    source: { kind: authored }
+  - form: "uznałaś"
+    pl: "Nie uznałaś tego dokumentu."
+    ru: "Ты не признала этот документ."
+    source: { kind: authored }
   - form: "uznałem"
     pl: "Uznałem, że najlepiej milczeć."
     ru: "Я счёл, что лучше промолчать."
@@ -183,6 +212,30 @@ formExamples:
     pl: "Uznałem go za bystrego chłopaka."
     ru: "Я счёл его смышлёным парнем."
     source: { kind: translated, id: 823272 }
+  - form: "uznałeś"
+    pl: "Uznałeś to za pomyłkę."
+    ru: "Ты счёл это ошибкой."
+    source: { kind: authored }
+  - form: "uznałeś"
+    pl: "Uznałeś jego racje."
+    ru: "Ты признал его правоту."
+    source: { kind: authored }
+  - form: "uznałeś"
+    pl: "Nie uznałeś tego dokumentu."
+    ru: "Ты не признал этот документ."
+    source: { kind: authored }
+  - form: "uznało"
+    pl: "Kolegium uznało go za winnego."
+    ru: "Коллегия признала его виновным."
+    source: { kind: authored }
+  - form: "uznało"
+    pl: "Miasto uznało nasze racje."
+    ru: "Город признал нашу правоту."
+    source: { kind: authored }
+  - form: "uznało"
+    pl: "Wiele osób uznało to za błąd."
+    ru: "Многие сочли это ошибкой."
+    source: { kind: authored }
   - form: "uznały"
     pl: "Polska była jednym z pierwszych krajów, które uznały Republikę Turcji."
     ru: "Польша была одной из первых стран, признавших Турецкую Республику."
@@ -194,6 +247,18 @@ formExamples:
   - form: "uznały"
     pl: "Obie strony uznały umowę."
     ru: "Обе стороны признали договор."
+    source: { kind: authored }
+  - form: "uznam"
+    pl: "Uznam to za pomyłkę."
+    ru: "Я сочту это ошибкой."
+    source: { kind: authored }
+  - form: "uznam"
+    pl: "Uznam jego racje."
+    ru: "Я признаю его правоту."
+    source: { kind: authored }
+  - form: "uznam"
+    pl: "Nie uznam tego dokumentu."
+    ru: "Я не признаю этот документ."
     source: { kind: authored }
   - form: "uznana"
     pl: "Dopiero kiedy ta koncepcja będzie formalnie uznana, będzie można zacząć myśleć o zmianach."
@@ -278,4 +343,16 @@ formExamples:
   - form: "uznanym"
     pl: "Jest uznanym autorytetem."
     ru: "Он признанный авторитет."
+    source: { kind: authored }
+  - form: "uznasz"
+    pl: "Uznasz to za pomyłkę."
+    ru: "Ты сочтёшь это ошибкой."
+    source: { kind: authored }
+  - form: "uznasz"
+    pl: "Uznasz jego racje?"
+    ru: "Ты признаешь его правоту?"
+    source: { kind: authored }
+  - form: "uznasz"
+    pl: "Nie uznasz tego dokumentu."
+    ru: "Ты не признаешь этот документ."
     source: { kind: authored }

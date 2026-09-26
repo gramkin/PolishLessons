@@ -38,6 +38,7 @@ senses:
         ru: "Я очень хорошо помню это происшествие."
         source: { kind: translated, id: 3696427 }
 notes:
+  - { kind: government, text: "Подлежащее у zdarzyć się — событие, а не человек: zdarzył się wypadek. Форм 1-го и 2-го лица (zdarzę się, zdarzyłem się) и повелительного zdarz в языке нет — карточка их и так пропускает. Личные формы множественного числа возможны только о людях, которые «попадаются»: zdarzyli się tacy, którzy odmówili." }
   - { kind: usage, text: "Глагол почти всегда идёт с się: zdarzyć się «случиться». Формы без się книжные и редкие." }
   - { kind: usage, text: "Несовершенный вид — zdarzać się: To się często zdarza «Это часто случается»." }
   - { kind: usage, text: "Отглагольное существительное zdarzenie значит «происшествие, событие»: miejsce zdarzenia «место происшествия» — оборот из сводок и протоколов." }
@@ -58,13 +59,11 @@ idioms:
   - { pl: "wszystko się może zdarzyć", ru: "всё может случиться" }
 formExamplesSkip:
   - { form: "zdarz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdarzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "zdarzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "zdarzono", reason: "безличная форма прошедшего времени; в корпусе примеров нет" }
   - { form: "zdarzycie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "zdarzyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzyliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zdarzylibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zdarzylibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -81,7 +80,6 @@ formExamplesSkip:
   - { form: "zdarzyłem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzyłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzyłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "zdarzyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzyłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zdarzyłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zdarzyłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -91,6 +89,18 @@ formExamplesSkip:
   - { form: "zdarzysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzywszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
 formExamples:
+  - form: "zdarzą"
+    pl: "Takie rzeczy się jeszcze zdarzą."
+    ru: "Такое ещё случится."
+    source: { kind: authored }
+  - form: "zdarzą"
+    pl: "Zdarzą się i lepsze dni."
+    ru: "Будут и лучшие дни."
+    source: { kind: authored }
+  - form: "zdarzą"
+    pl: "Wypadki zdarzą się prędzej czy później."
+    ru: "Аварии случатся рано или поздно."
+    source: { kind: authored }
   - form: "zdarzenia"
     pl: "Sami uciekł z miejsca zdarzenia."
     ru: "Сами сбежал с места происшествия."
@@ -163,6 +173,18 @@ formExamples:
     pl: "To się nie może zdarzyć."
     ru: "Этого не может случиться."
     source: { kind: translated, id: 3945955 }
+  - form: "zdarzyli"
+    pl: "Zdarzyli się tacy, którzy odmówili."
+    ru: "Нашлись такие, кто отказался."
+    source: { kind: authored }
+  - form: "zdarzyli"
+    pl: "Zdarzyli się wśród nich i uczciwi."
+    ru: "Попадались среди них и честные."
+    source: { kind: authored }
+  - form: "zdarzyli"
+    pl: "Zdarzyli się gorsi od niego."
+    ru: "Попадались и похуже него."
+    source: { kind: authored }
   - form: "zdarzył"
     pl: "Zdarzył się wypadek."
     ru: "Произошла авария."
@@ -199,3 +221,15 @@ formExamples:
     pl: "Chcę, żebyś mi opowiedział o tym, co się zdarzyło."
     ru: "Я хочу, чтобы ты рассказал мне о том, что произошло."
     source: { kind: tatoeba, id: 6769142 }
+  - form: "zdarzyły"
+    pl: "Zdarzyły się dwa wypadki."
+    ru: "Произошло две аварии."
+    source: { kind: authored }
+  - form: "zdarzyły"
+    pl: "Zdarzyły się rzeczy dziwniejsze."
+    ru: "Случались вещи и постраннее."
+    source: { kind: authored }
+  - form: "zdarzyły"
+    pl: "Nie zdarzyły się żadne kłopoty."
+    ru: "Никаких неприятностей не случилось."
+    source: { kind: authored }
