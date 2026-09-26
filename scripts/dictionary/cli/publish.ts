@@ -15,6 +15,8 @@ const cards = files.map((file) =>
   cardSchema.parse(parseYaml(readFileSync(join(CONTENT.cards, file), 'utf8'))),
 )
 
+const index = buildIndex(cards)
+
 rmSync(PUBLIC_DIR, { recursive: true, force: true })
 mkdirSync(join(PUBLIC_DIR, 'cards'), { recursive: true })
 for (const card of cards) {
@@ -23,8 +25,8 @@ for (const card of cards) {
   )
   writeFileSync(
     join(PUBLIC_DIR, 'cards', `${card.id}.json`),
-    JSON.stringify(buildPublishedCard(card, forms)),
+    JSON.stringify(buildPublishedCard(card, forms, index)),
   )
 }
-writeFileSync(join(PUBLIC_DIR, 'index.json'), stableJson(buildIndex(cards)))
+writeFileSync(join(PUBLIC_DIR, 'index.json'), stableJson(index))
 console.log(`✓ published ${cards.length} cards to ${PUBLIC_DIR}`)

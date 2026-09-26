@@ -138,7 +138,21 @@ export const indexEntrySchema = z.object({
   gloss: text,
 })
 
-export const publishedCardSchema = z.object({ card: cardSchema, forms: formsFileSchema })
+// A neighbouring or related word, small enough to bake into a card of its own.
+export const cardRefSchema = z.object({ id: cardId, lemma: text, rank: positiveInt })
+
+export const publishedCardSchema = z.object({
+  card: cardSchema,
+  forms: formsFileSchema,
+  // Precomputed at publish time. The card page used to load the whole index to
+  // find these few values, which serialised 332 KB of other words into every
+  // prerendered payload -- some 780 MB across the 2362 cards, and 332 KB down
+  // the wire on each visit.
+  prev: cardRefSchema.nullable(),
+  next: cardRefSchema.nullable(),
+  aspectPair: cardRefSchema.nullable(),
+  familyIds: z.array(cardId),
+})
 
 export type Example = z.infer<typeof exampleSchema>
 export type FormExample = z.infer<typeof formExampleSchema>
@@ -148,6 +162,7 @@ export type Card = z.infer<typeof cardSchema>
 export type FormsTable = z.infer<typeof formsTableSchema>
 export type Audio = z.infer<typeof audioSchema>
 export type FormsFile = z.infer<typeof formsFileSchema>
+export type CardRef = z.infer<typeof cardRefSchema>
 export type IndexEntry = z.infer<typeof indexEntrySchema>
 export type PublishedCard = z.infer<typeof publishedCardSchema>
 // Agglutinated person/conditional endings attached to past-tense forms (byłem = był + em).

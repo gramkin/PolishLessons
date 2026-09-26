@@ -7,7 +7,7 @@ import Origin from '~/components/dictionary/Origin.vue'
 import Notes from '~/components/dictionary/Notes.vue'
 import Related from '~/components/dictionary/Related.vue'
 import Sources from '~/components/dictionary/Sources.vue'
-import { cardSchema, formsFileSchema, type IndexEntry } from '../../shared/dictionary'
+import { cardSchema, formsFileSchema } from '../../shared/dictionary'
 
 const card = cardSchema.parse({
   id: 'robic',
@@ -69,9 +69,9 @@ const forms = formsFileSchema.parse({
   tatoeba: { '1': { pl: 'Co robisz?', ru: 'Что ты делаешь?' } },
 })
 
-const index = new Map<string, IndexEntry>([
-  ['zrobic', { id: 'zrobic', lemma: 'zrobić', rank: 60, pos: 'verb', gloss: 'сделать' }],
-])
+// Resolved at publish time rather than looked up from the whole index.
+const aspectPair = { id: 'zrobic', lemma: 'zrobić', rank: 60 }
+const familyIds = ['zrobic']
 
 describe('dictionary card components', () => {
   it('renders the header with pronunciation, rank and audio', async () => {
@@ -110,7 +110,7 @@ describe('dictionary card components', () => {
     const notes = await mountSuspended(Notes, { props: { notes: card.notes } })
     expect(notes.find('aside.note.is-false-friend').text()).toContain('Ложный друг.')
 
-    const related = await mountSuspended(Related, { props: { card, index } })
+    const related = await mountSuspended(Related, { props: { card, aspectPair, familyIds } })
     expect(related.find('a[href="/slovo/zrobic"]').text()).toBe('zrobić')
     expect(related.text()).toContain('robota — работа')
     expect(related.text()).toContain('robić zakupy — делать покупки')

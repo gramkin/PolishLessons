@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { rankNeighbours } from '~/utils/dictionary'
+import { cardNav } from '~/utils/dictionary'
 
 const route = useRoute()
 const id = String(route.params.id)
@@ -9,16 +9,15 @@ if (!data.value) {
   throw createError({ statusCode: 404, statusMessage: 'Слово не найдено', fatal: true })
 }
 
-const { entries, byId, ready } = useDictionaryIndex()
-await ready
 const negatedForms = computed(() => {
   const forms = data.value?.forms.allForms ?? []
   const set = new Set(forms.map((f) => f.toLowerCase()))
   return forms.filter((f) => f.toLowerCase().startsWith('nie') && set.has(f.toLowerCase().slice(3)))
 })
-const neighbours = computed(() =>
-  data.value ? rankNeighbours(entries.value, data.value.card.rank) : { prev: null, next: null },
-)
+const neighbours = computed(() => ({
+  prev: cardNav(data.value?.prev),
+  next: cardNav(data.value?.next),
+}))
 
 useSeoMeta({
   title: () =>
@@ -47,7 +46,11 @@ useSeoMeta({
     />
     <DictionaryOrigin :etymology="data.card.etymology" :memory="data.card.memory" />
     <DictionaryNotes :notes="data.card.notes" />
-    <DictionaryRelated :card="data.card" :index="byId" />
+    <DictionaryRelated
+      :card="data.card"
+      :aspect-pair="data.aspectPair"
+      :family-ids="data.familyIds"
+    />
     <DictionarySources :card="data.card" :forms="data.forms" />
     <PageNav :prev="neighbours.prev" :next="neighbours.next" label="Соседние слова" />
   </article>

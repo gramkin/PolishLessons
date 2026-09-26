@@ -133,8 +133,36 @@ describe('publish', () => {
     expect(buildIndex([card, second]).map((e) => e.id)).toEqual(['mama', 'dom'])
   })
 
-  it('pairs card and forms', () => {
+  it('pairs card and forms, and resolves what the page would otherwise need the index for', () => {
     const forms = buildFormsFile(card, draft, audio, sentences, versions)
-    expect(buildPublishedCard(card, forms)).toEqual({ card, forms })
+    const earlier = { ...card, id: 'mama', lemma: 'mama', rank: 101 }
+    const later = { ...card, id: 'zrobic', lemma: 'zrobić', rank: 140 }
+    const withFamily = {
+      ...card,
+      aspectPair: 'zrobic',
+      family: [
+        { pl: 'zrobić', ru: 'сделать', relation: 'aspect' as const, id: 'zrobic' },
+        { pl: 'domek', ru: 'домик', relation: 'derived' as const, id: 'domek' },
+        { pl: 'domowy', ru: 'домашний', relation: 'derived' as const, id: null },
+      ],
+    }
+    const index = buildIndex([withFamily, earlier, later])
+    const published = buildPublishedCard(withFamily, forms, index)
+
+    expect(published.card).toEqual(withFamily)
+    expect(published.forms).toEqual(forms)
+    expect(published.prev).toEqual({ id: 'mama', lemma: 'mama', rank: 101 })
+    expect(published.next).toEqual({ id: 'zrobic', lemma: 'zrobić', rank: 140 })
+    expect(published.aspectPair).toEqual({ id: 'zrobic', lemma: 'zrobić', rank: 140 })
+    // domek has no card and domowy has no id: neither can be linked.
+    expect(published.familyIds).toEqual(['zrobic'])
+  })
+
+  it('leaves the ends of the ranking without a neighbour', () => {
+    const forms = buildFormsFile(card, draft, audio, sentences, versions)
+    const other = { ...card, id: 'mama', lemma: 'mama', rank: 101 }
+    const index = buildIndex([card, other])
+    expect(buildPublishedCard(other, forms, index).prev).toBeNull()
+    expect(buildPublishedCard(card, forms, index).next).toBeNull()
   })
 })

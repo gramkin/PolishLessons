@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import type { Card, IndexEntry } from '#shared/dictionary'
+import type { Card, CardRef } from '#shared/dictionary'
 
-const props = defineProps<{ card: Card; index: Map<string, IndexEntry> }>()
-const aspectPair = computed(() =>
-  props.card.aspectPair ? (props.index.get(props.card.aspectPair) ?? null) : null,
-)
+// Resolved at publish time: the page no longer holds the whole dictionary index
+// just to look up one aspect pair and a few family members.
+const props = defineProps<{ card: Card; aspectPair: CardRef | null; familyIds: string[] }>()
 // 93% of cards repeat a phrase in both lists, which printed it twice. Show it once.
 const idioms = computed(() => {
   const listed = new Set(props.card.collocations.map((c) => c.pl))
@@ -46,9 +45,12 @@ const RELATION_NAMES = {
     </p>
     <ul>
       <li v-for="member in card.family" :key="member.pl">
-        <NuxtLink v-if="member.id && index.has(member.id)" :to="`/slovo/${member.id}`" lang="pl">{{
-          member.pl
-        }}</NuxtLink>
+        <NuxtLink
+          v-if="member.id && props.familyIds.includes(member.id)"
+          :to="`/slovo/${member.id}`"
+          lang="pl"
+          >{{ member.pl }}</NuxtLink
+        >
         <span v-else lang="pl">{{ member.pl }}</span>
         — {{ member.ru }} <span class="relation">({{ RELATION_NAMES[member.relation] }})</span>
         <SpeakButton :text="member.pl" />

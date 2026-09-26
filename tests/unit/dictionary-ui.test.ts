@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { highlightForms, rankBand, rankNeighbours, tatoebaUrl } from '../../app/utils/dictionary'
+import { cardNav, highlightForms, rankBand, tatoebaUrl } from '../../app/utils/dictionary'
 
 describe('highlightForms', () => {
   it('bolds whole-word forms case-insensitively', () => {
@@ -40,18 +40,16 @@ describe('rank helpers', () => {
     expect(rankBand(400)).toEqual({ start: 201, end: 400, label: '201–400' })
   })
 
-  it('finds neighbours among existing cards', () => {
-    const index = [
-      { id: 'w', lemma: 'w', rank: 5, pos: 'prep' as const, gloss: 'в' },
-      { id: 'miec', lemma: 'mieć', rank: 13, pos: 'verb' as const, gloss: 'иметь' },
-      { id: 'dom', lemma: 'dom', rank: 120, pos: 'noun' as const, gloss: 'дом' },
-    ]
-    expect(rankNeighbours(index, 13)).toEqual({
-      prev: { path: '/slovo/w', title: 'w', label: '№5' },
-      next: { path: '/slovo/dom', title: 'dom', label: '№120' },
+  it('turns a published neighbour into a nav link', () => {
+    // Neighbours arrive already resolved on the card, so nothing here reads the
+    // index: scanning it on the page is what bloated every prerendered payload.
+    expect(cardNav({ id: 'dom', lemma: 'dom', rank: 120 })).toEqual({
+      path: '/slovo/dom',
+      title: 'dom',
+      label: '№120',
     })
-    expect(rankNeighbours(index, 5).prev).toBeNull()
-    expect(rankNeighbours(index, 120).next).toBeNull()
+    expect(cardNav(null)).toBeNull()
+    expect(cardNav(undefined)).toBeNull()
   })
 
   it('links Tatoeba sentences', () => {

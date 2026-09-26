@@ -3,7 +3,7 @@ import { mountSuspended } from '@nuxt/test-utils/runtime'
 import Related from '~/components/dictionary/Related.vue'
 import PhraseList from '~/components/PhraseList.vue'
 import { resetSpeech } from '~/composables/useSpeech'
-import { cardSchema, type IndexEntry } from '../../shared/dictionary'
+import { cardSchema } from '../../shared/dictionary'
 
 class FakeUtterance {
   lang = ''
@@ -51,8 +51,6 @@ const card = cardSchema.parse({
   synonyms: ['gdzie'],
 })
 
-const index = new Map<string, IndexEntry>()
-
 beforeEach(() => {
   resetSpeech()
   installSpeech()
@@ -61,7 +59,9 @@ afterEach(() => vi.unstubAllGlobals())
 
 describe('listen buttons on Polish surfaces', () => {
   it('gives every collocation and idiom a listen button', async () => {
-    const wrapper = await mountSuspended(Related, { props: { card, index } })
+    const wrapper = await mountSuspended(Related, {
+      props: { card, aspectPair: null, familyIds: [] },
+    })
     const items = wrapper.findAll('#sochetaniya li')
     expect(items).toHaveLength(3)
     for (const item of items) {
@@ -73,7 +73,9 @@ describe('listen buttons on Polish surfaces', () => {
   })
 
   it('lists a phrase once when it is both a collocation and an idiom', async () => {
-    const wrapper = await mountSuspended(Related, { props: { card, index } })
+    const wrapper = await mountSuspended(Related, {
+      props: { card, aspectPair: null, familyIds: [] },
+    })
     const texts = wrapper.findAll('#sochetaniya li').map((li) => li.text())
     expect(texts.filter((t) => t.includes('dokąd idziesz?'))).toHaveLength(1)
     expect(texts.filter((t) => t.includes('nie wiem dokąd'))).toHaveLength(1)
@@ -83,7 +85,9 @@ describe('listen buttons on Polish surfaces', () => {
   })
 
   it('speaks related words and synonyms too', async () => {
-    const wrapper = await mountSuspended(Related, { props: { card, index } })
+    const wrapper = await mountSuspended(Related, {
+      props: { card, aspectPair: null, familyIds: [] },
+    })
     expect(wrapper.find('#rodstvennye li button.speak-button').attributes('aria-label')).toBe(
       'Произнести: skąd',
     )

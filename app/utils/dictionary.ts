@@ -1,4 +1,4 @@
-import { AGLT_SUFFIXES, type CardPos, type IndexEntry, type NoteKind } from '#shared/dictionary'
+import { AGLT_SUFFIXES, type CardPos, type CardRef, type NoteKind } from '#shared/dictionary'
 import type { NavLesson } from './nav'
 import type { Segment } from './pattern'
 
@@ -107,19 +107,10 @@ export function rankBand(rank: number, size = 200): { start: number; end: number
   return { start, end, label: `${start}–${end}` }
 }
 
-function toNav(entry: IndexEntry | undefined): NavLesson | null {
-  return entry ? { path: `/slovo/${entry.id}`, title: entry.lemma, label: `№${entry.rank}` } : null
-}
-
-export function rankNeighbours(
-  index: IndexEntry[],
-  rank: number,
-): { prev: NavLesson | null; next: NavLesson | null } {
-  const sorted = [...index].sort((a, b) => a.rank - b.rank)
-  return {
-    prev: toNav(sorted.filter((e) => e.rank < rank).pop()),
-    next: toNav(sorted.find((e) => e.rank > rank)),
-  }
+// Neighbours are resolved when the card is published, so nothing here scans the
+// index: doing that on the page is what put all 2362 entries into every payload.
+export function cardNav(ref: CardRef | null | undefined): NavLesson | null {
+  return ref ? { path: `/slovo/${ref.id}`, title: ref.lemma, label: `№${ref.rank}` } : null
 }
 
 export function tatoebaUrl(id: number): string {
