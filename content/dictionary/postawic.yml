@@ -68,7 +68,6 @@ idioms:
   - { pl: "postawić na nogi", ru: "поставить на ноги" }
 formExamplesSkip:
   - { form: "postawcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "postawią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postawicie", reason: "в корпусе нет примеров для этой формы настоящего времени" }
   - { form: "postawieni", reason: "в корпусе нет примеров для формы мужского лица страдательного причастия" }
   - { form: "postawienia", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
@@ -82,13 +81,9 @@ formExamplesSkip:
   - { form: "postawiłaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "postawiłabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "postawiłabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "postawiłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postawiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postawiłby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "postawiłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "postawiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postawiłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "postawiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postawiłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "postawiłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "postawiłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -101,7 +96,6 @@ formExamplesSkip:
   - { form: "postawionej", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "postawionemu", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "postawionymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
-  - { form: "postawisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postawiwszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
 formExamples:
   - form: "postaw"
@@ -127,6 +121,18 @@ formExamples:
   - form: "postawi"
     pl: "Kto postawi namiot?"
     ru: "Кто поставит палатку?"
+    source: { kind: authored }
+  - form: "postawią"
+    pl: "Postawią namiot nad jeziorem."
+    ru: "Они поставят палатку у озера."
+    source: { kind: authored }
+  - form: "postawią"
+    pl: "Postawią nam kawę."
+    ru: "Они угостят нас кофе."
+    source: { kind: authored }
+  - form: "postawią"
+    pl: "Nie postawią tu niczego bez zgody."
+    ru: "Они ничего здесь не поставят без согласия."
     source: { kind: authored }
   - form: "postawić"
     pl: "Zapomniałeś postawić kropki na końcu zdania."
@@ -200,6 +206,30 @@ formExamples:
     pl: "Postawiła pytanie wprost."
     ru: "Она поставила вопрос прямо."
     source: { kind: authored }
+  - form: "postawiłam"
+    pl: "Postawiłam kwiaty na stole."
+    ru: "Я поставила цветы на стол."
+    source: { kind: authored }
+  - form: "postawiłam"
+    pl: "Postawiłam mu kawę."
+    ru: "Я угостила его кофе."
+    source: { kind: authored }
+  - form: "postawiłam"
+    pl: "Nie postawiłam tam niczego."
+    ru: "Я там ничего не поставила."
+    source: { kind: authored }
+  - form: "postawiłaś"
+    pl: "Postawiłaś kwiaty na stole."
+    ru: "Ты поставила цветы на стол."
+    source: { kind: authored }
+  - form: "postawiłaś"
+    pl: "Postawiłaś mu kawę."
+    ru: "Ты угостила его кофе."
+    source: { kind: authored }
+  - form: "postawiłaś"
+    pl: "Nie postawiłaś tam niczego."
+    ru: "Ты там ничего не поставила."
+    source: { kind: authored }
   - form: "postawiłbym"
     pl: "Nie postawiłbym na to."
     ru: "Я бы на это не поставил."
@@ -236,6 +266,30 @@ formExamples:
     pl: "Postawiłeś mnie w trudnym położeniu."
     ru: "Ты поставил меня в трудное положение."
     source: { kind: translated, id: 567119 }
+  - form: "postawiło"
+    pl: "Miasto postawiło nowy most."
+    ru: "Город построил новый мост."
+    source: { kind: authored }
+  - form: "postawiło"
+    pl: "To postawiło nas w trudnej sytuacji."
+    ru: "Это поставило нас в трудное положение."
+    source: { kind: authored }
+  - form: "postawiło"
+    pl: "Nic nas nie postawiło na nogi."
+    ru: "Ничто не поставило нас на ноги."
+    source: { kind: authored }
+  - form: "postawiły"
+    pl: "Dzieci postawiły namiot w ogrodzie."
+    ru: "Дети поставили палатку в саду."
+    source: { kind: authored }
+  - form: "postawiły"
+    pl: "Te słowa postawiły go w trudnej sytuacji."
+    ru: "Эти слова поставили его в трудное положение."
+    source: { kind: authored }
+  - form: "postawiły"
+    pl: "Nie postawiły tam niczego."
+    ru: "Они там ничего не поставили."
+    source: { kind: authored }
   - form: "postawimy"
     pl: "A tutaj postawimy kanapę."
     ru: "А здесь мы поставим диван."
@@ -295,6 +349,18 @@ formExamples:
   - form: "postawionym"
     pl: "Mówił o źle postawionym pytaniu."
     ru: "Он говорил о плохо поставленном вопросе."
+    source: { kind: authored }
+  - form: "postawisz"
+    pl: "Postawisz kwiaty na stole."
+    ru: "Ты поставишь цветы на стол."
+    source: { kind: authored }
+  - form: "postawisz"
+    pl: "Postawisz mi kawę?"
+    ru: "Угостишь меня кофе?"
+    source: { kind: authored }
+  - form: "postawisz"
+    pl: "Nie postawisz tam niczego bez zgody."
+    ru: "Ты там ничего не поставишь без согласия."
     source: { kind: authored }
   - form: "postawmy"
     pl: "Postawmy choinkę tu."

@@ -58,8 +58,6 @@ idioms:
   - { pl: "złożyć życzenia", ru: "поздравить" }
   - { pl: "tak się złożyło", ru: "так вышло" }
 formExamplesSkip:
-  - { form: "złożą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "złożeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "złożeniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "złożoną", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "złożonego", reason: "в корпусе нет примеров для этой падежной формы причастия" }
@@ -69,7 +67,6 @@ formExamplesSkip:
   - { form: "złożonym", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "złożonymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "złożycie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "złożyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "złożyliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożylibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożylibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -77,8 +74,6 @@ formExamplesSkip:
   - { form: "złożyłaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożyłabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożyłabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "złożyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "złożyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "złożyłbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożyłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożyłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -87,11 +82,34 @@ formExamplesSkip:
   - { form: "złożyłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "złożyłyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "złożymy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "złożysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "złożywszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
   - { form: "złóżcie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "złóżmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
 formExamples:
+  - form: "złożą"
+    pl: "Złożą wniosek w poniedziałek."
+    ru: "Они подадут заявление в понедельник."
+    source: { kind: authored }
+  - form: "złożą"
+    pl: "Złożą parasol i wyjdą."
+    ru: "Они сложат зонт и выйдут."
+    source: { kind: authored }
+  - form: "złożą"
+    pl: "Nie złożą obietnic bez pokrycia."
+    ru: "Они не дадут пустых обещаний."
+    source: { kind: authored }
+  - form: "złożeni"
+    pl: "Zostali złożeni chorobą na tydzień."
+    ru: "Их на неделю свалила болезнь."
+    source: { kind: authored }
+  - form: "złożeni"
+    pl: "Byli złożeni grypą przez cały tydzień."
+    ru: "Они всю неделю лежали с гриппом."
+    source: { kind: authored }
+  - form: "złożeni"
+    pl: "Złożeni niemocą, nie wstawali z łóżek."
+    ru: "Сражённые немощью, они не вставали с постелей."
+    source: { kind: authored }
   - form: "złożenia"
     pl: "Przy tym kanji mamy tylko dwa złożenia."
     ru: "В этом кандзи у нас только два сочетания."
@@ -212,6 +230,18 @@ formExamples:
     pl: "Meble mogę sam złożyć."
     ru: "Мебель я могу собрать сам."
     source: { kind: translated, id: 11266362 }
+  - form: "złożyli"
+    pl: "Złożyli wniosek w poniedziałek."
+    ru: "Они подали заявление в понедельник."
+    source: { kind: authored }
+  - form: "złożyli"
+    pl: "Złożyli podpisy pod petycją."
+    ru: "Они поставили подписи под петицией."
+    source: { kind: authored }
+  - form: "złożyli"
+    pl: "Nie złożyli obietnic bez pokrycia."
+    ru: "Они не дали пустых обещаний."
+    source: { kind: authored }
   - form: "złożyliśmy"
     pl: "Złożyliśmy parasole i zaczęliśmy biec."
     ru: "Мы сложили зонты и побежали."
@@ -248,6 +278,30 @@ formExamples:
     pl: "Maria złożyła mnóstwo zwierząt z papieru kolorowego."
     ru: "Мария сложила множество животных из цветной бумаги."
     source: { kind: translated, id: 11111488 }
+  - form: "złożyłam"
+    pl: "Złożyłam wniosek w poniedziałek."
+    ru: "Я подала заявление в понедельник."
+    source: { kind: authored }
+  - form: "złożyłam"
+    pl: "Złożyłam podpis pod petycją."
+    ru: "Я поставила подпись под петицией."
+    source: { kind: authored }
+  - form: "złożyłam"
+    pl: "Nie złożyłam żadnej obietnicy."
+    ru: "Я не дала никаких обещаний."
+    source: { kind: authored }
+  - form: "złożyłaś"
+    pl: "Złożyłaś wniosek w poniedziałek."
+    ru: "Ты подала заявление в понедельник."
+    source: { kind: authored }
+  - form: "złożyłaś"
+    pl: "Złożyłaś podpis pod petycją."
+    ru: "Ты поставила подпись под петицией."
+    source: { kind: authored }
+  - form: "złożyłaś"
+    pl: "Nie złożyłaś żadnej obietnicy."
+    ru: "Ты не дала никаких обещаний."
+    source: { kind: authored }
   - form: "złożyłby"
     pl: "Gdyby miał czas, złożyłby nam wizytę."
     ru: "Если бы у него было время, он бы нас навестил."
@@ -319,6 +373,18 @@ formExamples:
   - form: "złożyłyśmy"
     pl: "Złożyłyśmy sobie życzenia."
     ru: "Мы поздравили друг друга."
+    source: { kind: authored }
+  - form: "złożysz"
+    pl: "Złożysz wniosek w poniedziałek?"
+    ru: "Ты подашь заявление в понедельник?"
+    source: { kind: authored }
+  - form: "złożysz"
+    pl: "Złożysz podpis pod petycją."
+    ru: "Ты поставишь подпись под петицией."
+    source: { kind: authored }
+  - form: "złożysz"
+    pl: "Nie złożysz obietnicy bez pokrycia."
+    ru: "Ты не дашь пустого обещания."
     source: { kind: authored }
   - form: "złóż"
     pl: "Złóż raport do jutra."
