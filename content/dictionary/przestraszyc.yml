@@ -52,13 +52,11 @@ idioms:
   - { pl: "byłem przestraszony", ru: "я был напуган" }
 formExamplesSkip:
   - { form: "przestrasz", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
-  - { form: "przestraszą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszenia", reason: "формы отглагольного существительного przestraszenie «испуг», в статье глагола примеры не приводятся" }
   - { form: "przestraszenie", reason: "формы отглагольного существительного przestraszenie «испуг», в статье глагола примеры не приводятся" }
   - { form: "przestraszeniem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przestraszę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszoną", reason: "формы страдательного причастия przestraszony «испуганный», примеры даны при формах przestraszony и przestraszona" }
   - { form: "przestraszone", reason: "формы страдательного причастия przestraszony «испуганный», примеры даны при формах przestraszony и przestraszona" }
@@ -66,8 +64,6 @@ formExamplesSkip:
   - { form: "przestraszono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
   - { form: "przestraszonym", reason: "формы страдательного причастия przestraszony «испуганный», примеры даны при формах przestraszony и przestraszona" }
   - { form: "przestraszonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przestraszy", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
-  - { form: "przestraszycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przestraszyliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przestraszylibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -90,10 +86,20 @@ formExamplesSkip:
   - { form: "przestraszyłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przestraszyłyście", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
   - { form: "przestraszyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "przestraszymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przestraszysz", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
   - { form: "przestraszywszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "przestraszą"
+    pl: "Przestraszą nas tą maską."
+    ru: "Они напугают нас этой маской."
+    source: { kind: authored }
+  - form: "przestraszą"
+    pl: "Przestraszą ptaki hałasem."
+    ru: "Они распугают птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszą"
+    pl: "Nie przestraszą nikogo."
+    ru: "Они никого не напугают."
+    source: { kind: authored }
   - form: "przestraszeni"
     pl: "Są przestraszeni."
     ru: "Они испуганы."
@@ -106,6 +112,18 @@ formExamples:
     pl: "Jesteśmy tylko przestraszeni."
     ru: "Мы просто испуганы."
     source: { kind: translated, id: 3038414 }
+  - form: "przestraszę"
+    pl: "Przestraszę cię tą maską."
+    ru: "Я напугаю тебя этой маской."
+    source: { kind: authored }
+  - form: "przestraszę"
+    pl: "Przestraszę ptaki hałasem."
+    ru: "Я распугаю птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszę"
+    pl: "Nie przestraszę nikogo."
+    ru: "Я никого не напугаю."
+    source: { kind: authored }
   - form: "przestraszona"
     pl: "Ona powiedziała wszystkim, że była przestraszona."
     ru: "Она сказала всем, что была напугана."
@@ -165,6 +183,30 @@ formExamples:
   - form: "przestraszonych"
     pl: "Widziałem wiele przestraszonych twarzy."
     ru: "Я видел много испуганных лиц."
+    source: { kind: authored }
+  - form: "przestraszy"
+    pl: "Przestraszy nas tą maską."
+    ru: "Он напугает нас этой маской."
+    source: { kind: authored }
+  - form: "przestraszy"
+    pl: "Przestraszy ptaki hałasem."
+    ru: "Он распугает птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszy"
+    pl: "Nie przestraszy nikogo."
+    ru: "Он никого не напугает."
+    source: { kind: authored }
+  - form: "przestraszycie"
+    pl: "Przestraszycie nas tą maską."
+    ru: "Вы напугаете нас этой маской."
+    source: { kind: authored }
+  - form: "przestraszycie"
+    pl: "Przestraszycie ptaki hałasem."
+    ru: "Вы распугаете птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszycie"
+    pl: "Nie przestraszycie nikogo."
+    ru: "Вы никого не напугаете."
     source: { kind: authored }
   - form: "przestraszyć"
     pl: "Nie chciałem cię przestraszyć."
@@ -226,3 +268,51 @@ formExamples:
     pl: "Dziecko przestraszyło się tego hałasu."
     ru: "Ребёнок испугался этого шума."
     source: { kind: translated, id: 927288 }
+  - form: "przestraszymy"
+    pl: "Przestraszymy go tą maską."
+    ru: "Мы напугаем его этой маской."
+    source: { kind: authored }
+  - form: "przestraszymy"
+    pl: "Przestraszymy ptaki hałasem."
+    ru: "Мы распугаем птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszymy"
+    pl: "Nie przestraszymy nikogo."
+    ru: "Мы никого не напугаем."
+    source: { kind: authored }
+  - form: "przestraszysz"
+    pl: "Przestraszysz mnie tą maską."
+    ru: "Ты напугаешь меня этой маской."
+    source: { kind: authored }
+  - form: "przestraszysz"
+    pl: "Przestraszysz ptaki hałasem."
+    ru: "Ты распугаешь птиц шумом."
+    source: { kind: authored }
+  - form: "przestraszysz"
+    pl: "Nie przestraszysz nikogo."
+    ru: "Ты никого не напугаешь."
+    source: { kind: authored }
+  - form: "niech przestraszy"
+    pl: "Niech przestraszy ptaki hałasem."
+    ru: "Пусть распугает птиц шумом."
+    source: { kind: authored }
+  - form: "niech przestraszy"
+    pl: "Niech przestraszy złodzieja."
+    ru: "Пусть напугает вора."
+    source: { kind: authored }
+  - form: "niech przestraszy"
+    pl: "Niech przestraszy się raz w życiu."
+    ru: "Пусть испугается хоть раз в жизни."
+    source: { kind: authored }
+  - form: "niech przestraszą"
+    pl: "Niech przestraszą ptaki hałasem."
+    ru: "Пусть распугают птиц шумом."
+    source: { kind: authored }
+  - form: "niech przestraszą"
+    pl: "Niech przestraszą złodzieja."
+    ru: "Пусть напугают вора."
+    source: { kind: authored }
+  - form: "niech przestraszą"
+    pl: "Niech przestraszą się raz w życiu."
+    ru: "Пусть испугаются хоть раз в жизни."
+    source: { kind: authored }
