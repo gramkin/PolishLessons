@@ -49,15 +49,19 @@ idioms:
   - { pl: "mój narzeczony", ru: "мой жених" }
   - { pl: "moja narzeczona", ru: "моя невеста" }
   - { pl: "narzeczeni", ru: "жених и невеста" }
-formExamplesSkip:
-  - { form: "narzeczeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczonemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "narzeczonymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "narzeczeni"
+    pl: "Narzeczeni stanęli przed ołtarzem."
+    ru: "Жених и невеста встали перед алтарём."
+    source: { kind: authored }
+  - form: "narzeczeni"
+    pl: "Narzeczeni wynajęli salę."
+    ru: "Жених с невестой сняли зал."
+    source: { kind: authored }
+  - form: "narzeczeni"
+    pl: "Byli narzeczeni od roku."
+    ru: "Они были помолвлены год."
+    source: { kind: authored }
   - form: "narzeczona"
     pl: "Moja narzeczona pojechała do Kanady."
     ru: "Моя невеста уехала в Канаду."
@@ -82,6 +86,18 @@ formExamples:
     pl: "Przyszedł z narzeczoną."
     ru: "Он пришёл с невестой."
     source: { kind: authored }
+  - form: "narzeczone"
+    pl: "Narzeczone czekały na fotografa."
+    ru: "Невесты ждали фотографа."
+    source: { kind: authored }
+  - form: "narzeczone"
+    pl: "Ich narzeczone przyjechały razem."
+    ru: "Их невесты приехали вместе."
+    source: { kind: authored }
+  - form: "narzeczone"
+    pl: "Narzeczone wybrały te same kwiaty."
+    ru: "Невесты выбрали одни и те же цветы."
+    source: { kind: authored }
   - form: "narzeczonego"
     pl: "Wyszłabym za mego narzeczonego, gdyby i on tego chciał."
     ru: "Я бы вышла за своего жениха, если бы и он этого хотел."
@@ -94,6 +110,30 @@ formExamples:
     pl: "Nie znam jej narzeczonego."
     ru: "Я не знаю её жениха."
     source: { kind: authored }
+  - form: "narzeczonej"
+    pl: "Kupił narzeczonej pierścionek."
+    ru: "Он купил невесте кольцо."
+    source: { kind: authored }
+  - form: "narzeczonej"
+    pl: "Nie znam jego narzeczonej."
+    ru: "Я не знаю его невесты."
+    source: { kind: authored }
+  - form: "narzeczonej"
+    pl: "O narzeczonej mówił bez przerwy."
+    ru: "О невесте он говорил без умолку."
+    source: { kind: authored }
+  - form: "narzeczonemu"
+    pl: "Kupiła narzeczonemu zegarek."
+    ru: "Она купила жениху часы."
+    source: { kind: authored }
+  - form: "narzeczonemu"
+    pl: "Przyjrzyj się jej narzeczonemu."
+    ru: "Присмотрись к её жениху."
+    source: { kind: authored }
+  - form: "narzeczonemu"
+    pl: "Powiedz to narzeczonemu."
+    ru: "Скажи это жениху."
+    source: { kind: authored }
   - form: "narzeczony"
     pl: "To mój narzeczony."
     ru: "Это мой жених."
@@ -105,4 +145,40 @@ formExamples:
   - form: "narzeczony"
     pl: "Jej narzeczony jest lekarzem."
     ru: "Её жених — врач."
+    source: { kind: authored }
+  - form: "narzeczonych"
+    pl: "Nie znam ich narzeczonych."
+    ru: "Я не знаю их женихов."
+    source: { kind: authored }
+  - form: "narzeczonych"
+    pl: "Wśród narzeczonych panowało zamieszanie."
+    ru: "Среди помолвленных царила суматоха."
+    source: { kind: authored }
+  - form: "narzeczonych"
+    pl: "Zdjęcie narzeczonych wisi w salonie."
+    ru: "Фотография жениха с невестой висит в гостиной."
+    source: { kind: authored }
+  - form: "narzeczonym"
+    pl: "Przyszła z narzeczonym."
+    ru: "Она пришла с женихом."
+    source: { kind: authored }
+  - form: "narzeczonym"
+    pl: "Rozmawiała z narzeczonym przez telefon."
+    ru: "Она говорила с женихом по телефону."
+    source: { kind: authored }
+  - form: "narzeczonym"
+    pl: "Narzeczonym gratulowali wszyscy."
+    ru: "Помолвленных поздравляли все."
+    source: { kind: authored }
+  - form: "narzeczonymi"
+    pl: "Przyszli z narzeczonymi."
+    ru: "Они пришли с невестами."
+    source: { kind: authored }
+  - form: "narzeczonymi"
+    pl: "Między narzeczonymi doszło do sporu."
+    ru: "Между женихом и невестой возник спор."
+    source: { kind: authored }
+  - form: "narzeczonymi"
+    pl: "Rozmawiali z narzeczonymi o ślubie."
+    ru: "Они говорили с невестами о свадьбе."
     source: { kind: authored }
