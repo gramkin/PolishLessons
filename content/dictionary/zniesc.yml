@@ -59,7 +59,6 @@ formExamplesSkip:
   - { form: "zniesienie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zniesieniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zniesieniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zniesiesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zniesioną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zniesionego", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zniesionej", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -67,32 +66,27 @@ formExamplesSkip:
   - { form: "zniesionym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zniesionymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "znieście", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "znieśli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "znieśliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "znieślibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "znieślibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "znieśliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "znieśliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "znieśmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zniosą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zniosł", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zniosł", reason: "такой формы нет: мужской род прошедшего времени — zniósł, с ó в закрытом слоге" }
   - { form: "zniosłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zniosłaś", reason: "формы повелительного наклонения в корпусе не встречаются" }
+  - { form: "zniosłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zniosłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zniosłeś", reason: "формы повелительного наклонения в корпусе не встречаются" }
+  - { form: "zniosłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zniosłoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zniosłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zniosłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zniósłszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zniesie"
     pl: "Tom mówi, że nie zniesie dłużej tego hałasu."
@@ -118,6 +112,18 @@ formExamples:
     pl: "Domagał się zniesienia różnic klasowych."
     ru: "Он требовал отмены классовых различий."
     source: { kind: translated, id: 766148 }
+  - form: "zniesiesz"
+    pl: "Nie zniesiesz tego hałasu."
+    ru: "Ты не вынесешь этого шума."
+    source: { kind: authored }
+  - form: "zniesiesz"
+    pl: "Zniesiesz walizkę na dół?"
+    ru: "Ты снесёшь чемодан вниз?"
+    source: { kind: authored }
+  - form: "zniesiesz"
+    pl: "Zniesiesz to jakoś."
+    ru: "Ты это как-нибудь вынесешь."
+    source: { kind: authored }
   - form: "zniesiona"
     pl: "Kara śmierci powinna zostać zniesiona."
     ru: "Смертная казнь должна быть отменена."
@@ -202,6 +208,30 @@ formExamples:
     pl: "Trzeba znieść karę śmierci."
     ru: "Нужно отменить смертную казнь."
     source: { kind: translated, id: 356446 }
+  - form: "znieśli"
+    pl: "Znieśli karę śmierci."
+    ru: "Они отменили смертную казнь."
+    source: { kind: authored }
+  - form: "znieśli"
+    pl: "Znieśli walizki na dół."
+    ru: "Они снесли чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieśli"
+    pl: "Nie znieśli tego hałasu."
+    ru: "Они не вынесли этого шума."
+    source: { kind: authored }
+  - form: "zniosą"
+    pl: "Zniosą ten podatek."
+    ru: "Они отменят этот налог."
+    source: { kind: authored }
+  - form: "zniosą"
+    pl: "Zniosą walizki na dół."
+    ru: "Они снесут чемоданы вниз."
+    source: { kind: authored }
+  - form: "zniosą"
+    pl: "Nie zniosą takiego hałasu."
+    ru: "Такого шума они не вынесут."
+    source: { kind: authored }
   - form: "zniosę"
     pl: "Dłużej tego nie zniosę!"
     ru: "Я больше этого не вынесу!"
@@ -226,6 +256,30 @@ formExamples:
     pl: "Wielka powódź zniosła kilka domów."
     ru: "Большое наводнение снесло несколько домов."
     source: { kind: translated, id: 831715 }
+  - form: "zniosłam"
+    pl: "Nie zniosłam tego hałasu."
+    ru: "Я не вынесла этого шума."
+    source: { kind: authored }
+  - form: "zniosłam"
+    pl: "Zniosłam walizkę na dół."
+    ru: "Я снесла чемодан вниз."
+    source: { kind: authored }
+  - form: "zniosłam"
+    pl: "Jakoś to zniosłam."
+    ru: "Я это как-то вынесла."
+    source: { kind: authored }
+  - form: "zniosłem"
+    pl: "Nie zniosłem tego hałasu."
+    ru: "Я не вынес этого шума."
+    source: { kind: authored }
+  - form: "zniosłem"
+    pl: "Zniosłem walizkę na dół."
+    ru: "Я снёс чемодан вниз."
+    source: { kind: authored }
+  - form: "zniosłem"
+    pl: "Jakoś to zniosłem."
+    ru: "Я это как-то вынес."
+    source: { kind: authored }
   - form: "zniosło"
     pl: "Wiele państw zniosło karę śmierci."
     ru: "Многие государства отменили смертную казнь."
@@ -261,4 +315,16 @@ formExamples:
   - form: "zniósł"
     pl: "Nie zniósł tej straty."
     ru: "Он не перенёс этой утраты."
+    source: { kind: authored }
+  - form: "zniósłszy"
+    pl: "Zniósłszy walizki na dół, usiadł."
+    ru: "Снеся чемоданы вниз, он сел."
+    source: { kind: authored }
+  - form: "zniósłszy"
+    pl: "Zniósłszy tyle upokorzeń, milczał."
+    ru: "Вынеся столько унижений, он молчал."
+    source: { kind: authored }
+  - form: "zniósłszy"
+    pl: "Zniósłszy podatek, rząd stracił wpływy."
+    ru: "Отменив налог, правительство потеряло поступления."
     source: { kind: authored }
