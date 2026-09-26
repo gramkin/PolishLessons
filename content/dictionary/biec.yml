@@ -44,6 +44,7 @@ senses:
         ru: "Пути идут параллельно дороге."
         source: { kind: translated, id: 5733253 }
 notes:
+  - { kind: usage, text: "Форма biegnięto оставлена без примеров: безличное на -no/-to от biec практически не встречается. Когда нужно сказать «бежали» без подлежащего, берут biegano — от многократного biegać." }
   - { kind: false-friend, text: "Польское biec — однонаправленное «бежать» (сейчас, в одну сторону), а biegać — многократное «бегать». Русская пара «бежать — бегать» устроена точно так же." }
   - { kind: usage, text: "О дорогах, путях и границах значит «пролегать, идти»: Droga biegnie wzdłuż morza «Дорога идёт вдоль моря»." }
   - { kind: usage, text: "Основа чередуется резко: инфинитив biec, но biegnę, biegniesz, biegnie в настоящем и biegł, biegła в прошедшем." }
@@ -66,12 +67,9 @@ formExamplesSkip:
   - { form: "biegłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "biegłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "biegłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "biegłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biegłby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "biegłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "biegłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "biegłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "biegło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biegłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "biegły", reason: "в корпусе эта форма встречается как прилагательное biegły «сведущий, беглый» (Chcę być biegły we francuskim), а не как форма этого глагола" }
   - { form: "biegłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -89,7 +87,6 @@ formExamplesSkip:
   - { form: "biegnących", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "biegnącym", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "biegnącymi", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
-  - { form: "biegnąć", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biegniecie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "biegniemy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "biegnięcia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
@@ -180,6 +177,18 @@ formExamples:
     pl: "Biegłam parkiem co rano."
     ru: "Я бегала по парку каждое утро."
     source: { kind: authored }
+  - form: "biegłaś"
+    pl: "Biegłaś przez park."
+    ru: "Ты бежала через парк."
+    source: { kind: authored }
+  - form: "biegłaś"
+    pl: "Biegłaś za autobusem?"
+    ru: "Ты бежала за автобусом?"
+    source: { kind: authored }
+  - form: "biegłaś"
+    pl: "Nie biegłaś zbyt szybko."
+    ru: "Ты бежала не слишком быстро."
+    source: { kind: authored }
   - form: "biegłem"
     pl: "Biegłem."
     ru: "Я бежал."
@@ -196,6 +205,30 @@ formExamples:
     pl: "Biegłem jak najszybciej, żeby ją dogonić."
     ru: "Я бежал как можно быстрее, чтобы её догнать."
     source: { kind: translated, id: 350766 }
+  - form: "biegłeś"
+    pl: "Biegłeś przez park."
+    ru: "Ты бежал через парк."
+    source: { kind: authored }
+  - form: "biegłeś"
+    pl: "Biegłeś za autobusem?"
+    ru: "Ты бежал за автобусом?"
+    source: { kind: authored }
+  - form: "biegłeś"
+    pl: "Nie biegłeś zbyt szybko."
+    ru: "Ты бежал не слишком быстро."
+    source: { kind: authored }
+  - form: "biegło"
+    pl: "Dziecko biegło przez podwórko."
+    ru: "Ребёнок бежал через двор."
+    source: { kind: authored }
+  - form: "biegło"
+    pl: "Wiele osób biegło w stronę wyjścia."
+    ru: "Много людей бежало к выходу."
+    source: { kind: authored }
+  - form: "biegło"
+    pl: "Kilkoro dzieci biegło przez łąkę."
+    ru: "Несколько детей бежали через луг."
+    source: { kind: authored }
   - form: "biegną"
     pl: "Tory biegną równolegle do drogi."
     ru: "Пути идут параллельно дороге."
@@ -220,6 +253,18 @@ formExamples:
     pl: "Biegnąc najszybciej jak umiem, zdołałem dogonić kolegę."
     ru: "Бежа так быстро, как умею, я сумел догнать товарища."
     source: { kind: translated, id: 552602 }
+  - form: "biegnąć"
+    pl: "Zaczął biegnąć w stronę bramy."
+    ru: "Он побежал к воротам."
+    source: { kind: authored }
+  - form: "biegnąć"
+    pl: "Wolę biegnąć niż iść."
+    ru: "Я предпочитаю бежать, а не идти."
+    source: { kind: authored }
+  - form: "biegnąć"
+    pl: "Nie da rady biegnąć tak długo."
+    ru: "Он не сможет бежать так долго."
+    source: { kind: authored }
   - form: "biegnę"
     pl: "Biegnę."
     ru: "Я бегу."

@@ -73,8 +73,6 @@ formExamplesSkip:
   - { form: "nadchodzeniem", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "nadchodzeniu", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "nadchodzicie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
-  - { form: "nadchodzić", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadchodzili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodziliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodzilibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodzilibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -83,25 +81,17 @@ formExamplesSkip:
   - { form: "nadchodziłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadchodziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadchodziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodziłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadchodziłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadchodziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadchodziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodziłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadchodziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodziłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadchodziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "nadchodziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "nadchodzimy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadchodzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodzono", reason: "безличная форма прошедшего времени: в корпусе нет примеров" }
-  - { form: "nadchodź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadchodźcie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "nadchodźmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
@@ -181,6 +171,30 @@ formExamples:
     pl: "Co roku, gdy nadchodzi lato, przypomina mi się tamta dziewczyna."
     ru: "Каждый год, как наступит лето, я вспоминаю ту девчонку."
     source: { kind: tatoeba, id: 10091393 }
+  - form: "nadchodzić"
+    pl: "Zaczęły nadchodzić pierwsze wieści."
+    ru: "Начали приходить первые вести."
+    source: { kind: authored }
+  - form: "nadchodzić"
+    pl: "Wiosna zaczyna nadchodzić."
+    ru: "Весна начинает приближаться."
+    source: { kind: authored }
+  - form: "nadchodzić"
+    pl: "Listy przestały nadchodzić."
+    ru: "Письма перестали приходить."
+    source: { kind: authored }
+  - form: "nadchodzili"
+    pl: "Nadchodzili powoli od strony lasu."
+    ru: "Они медленно подходили со стороны леса."
+    source: { kind: authored }
+  - form: "nadchodzili"
+    pl: "Goście nadchodzili przez cały wieczór."
+    ru: "Гости подходили весь вечер."
+    source: { kind: authored }
+  - form: "nadchodzili"
+    pl: "Nadchodzili jeden po drugim."
+    ru: "Они подходили один за другим."
+    source: { kind: authored }
   - form: "nadchodził"
     pl: "Nadchodził wieczór."
     ru: "Наступал вечер."
@@ -204,6 +218,102 @@ formExamples:
   - form: "nadchodziła"
     pl: "Powoli nadchodziła noc."
     ru: "Медленно наступала ночь."
+    source: { kind: authored }
+  - form: "nadchodziłam"
+    pl: "Nadchodziłam od strony rzeki."
+    ru: "Я подходила со стороны реки."
+    source: { kind: authored }
+  - form: "nadchodziłam"
+    pl: "Za każdym razem nadchodziłam za późno."
+    ru: "Каждый раз я приходила слишком поздно."
+    source: { kind: authored }
+  - form: "nadchodziłam"
+    pl: "Nadchodziłam, gdy już wszyscy siedzieli."
+    ru: "Я подходила, когда все уже сидели."
+    source: { kind: authored }
+  - form: "nadchodziłaś"
+    pl: "Nadchodziłaś od strony rzeki."
+    ru: "Ты подходила со стороны реки."
+    source: { kind: authored }
+  - form: "nadchodziłaś"
+    pl: "Za każdym razem nadchodziłaś za późno."
+    ru: "Каждый раз ты приходила слишком поздно."
+    source: { kind: authored }
+  - form: "nadchodziłaś"
+    pl: "Nadchodziłaś, gdy już wszyscy siedzieli."
+    ru: "Ты подходила, когда все уже сидели."
+    source: { kind: authored }
+  - form: "nadchodziłem"
+    pl: "Nadchodziłem od strony rzeki."
+    ru: "Я подходил со стороны реки."
+    source: { kind: authored }
+  - form: "nadchodziłem"
+    pl: "Za każdym razem nadchodziłem za późno."
+    ru: "Каждый раз я приходил слишком поздно."
+    source: { kind: authored }
+  - form: "nadchodziłem"
+    pl: "Nadchodziłem, gdy już wszyscy siedzieli."
+    ru: "Я подходил, когда все уже сидели."
+    source: { kind: authored }
+  - form: "nadchodziłeś"
+    pl: "Nadchodziłeś od strony rzeki."
+    ru: "Ты подходил со стороны реки."
+    source: { kind: authored }
+  - form: "nadchodziłeś"
+    pl: "Za każdym razem nadchodziłeś za późno."
+    ru: "Каждый раз ты приходил слишком поздно."
+    source: { kind: authored }
+  - form: "nadchodziłeś"
+    pl: "Nadchodziłeś, gdy już wszyscy siedzieli."
+    ru: "Ты подходил, когда все уже сидели."
+    source: { kind: authored }
+  - form: "nadchodziło"
+    pl: "Nadchodziło lato."
+    ru: "Приближалось лето."
+    source: { kind: authored }
+  - form: "nadchodziło"
+    pl: "Wiele listów nadchodziło z zagranicy."
+    ru: "Много писем приходило из-за границы."
+    source: { kind: authored }
+  - form: "nadchodziło"
+    pl: "Dziecko nadchodziło ścieżką."
+    ru: "Ребёнок шёл по тропинке."
+    source: { kind: authored }
+  - form: "nadchodziły"
+    pl: "Nadchodziły trudne czasy."
+    ru: "Приближались трудные времена."
+    source: { kind: authored }
+  - form: "nadchodziły"
+    pl: "Listy nadchodziły co tydzień."
+    ru: "Письма приходили каждую неделю."
+    source: { kind: authored }
+  - form: "nadchodziły"
+    pl: "Chmury nadchodziły od zachodu."
+    ru: "Тучи надвигались с запада."
+    source: { kind: authored }
+  - form: "nadchodzisz"
+    pl: "Nadchodzisz zawsze w ostatniej chwili."
+    ru: "Ты всегда приходишь в последний момент."
+    source: { kind: authored }
+  - form: "nadchodzisz"
+    pl: "Słyszę, że nadchodzisz."
+    ru: "Я слышу, что ты подходишь."
+    source: { kind: authored }
+  - form: "nadchodzisz"
+    pl: "Nadchodzisz od strony parku?"
+    ru: "Ты идёшь со стороны парка?"
+    source: { kind: authored }
+  - form: "nadchodź"
+    pl: "Nadchodź szybciej, czekamy!"
+    ru: "Подходи скорее, мы ждём!"
+    source: { kind: authored }
+  - form: "nadchodź"
+    pl: "Nie nadchodź teraz, jestem zajęty."
+    ru: "Не подходи сейчас, я занят."
+    source: { kind: authored }
+  - form: "nadchodź"
+    pl: "Nadchodź cicho, żeby nikt nie usłyszał."
+    ru: "Подходи тихо, чтобы никто не услышал."
     source: { kind: authored }
   - form: "będę nadchodzić"
     pl: "Będę nadchodzić od strony parku."

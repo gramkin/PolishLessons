@@ -43,6 +43,7 @@ senses:
         ru: "Том ест левой рукой, но пишет правой."
         source: { kind: tatoeba, id: 1846157 }
 notes:
+  - { kind: usage, text: "Форма prawsi оставлена без примеров: простой сравнительной степени у prawy нет. В значении «правый, с правой стороны» сравнение невозможно по смыслу, а в значении «честный, порядочный» говорят bardziej prawy. Живая мужско-личная форма — prawi: prawi ludzie «порядочные люди»." }
   - { kind: false-friend, text: "Главная ловушка: формы praw и prawa почти всегда принадлежат существительному prawo «право, закон» (карточка есть): przestrzegać praw «соблюдать законы», nie ma prawa «не имеет права». Прилагательное надёжно узнаётся в формах prawą, prawe, prawej, prawym." }
   - { kind: usage, text: "po prawej stronie «с правой стороны, справа» — самый частый оборот. Антоним — lewy «левый»." }
   - { kind: usage, text: "Второе значение — «честный, порядочный»: prawy człowiek «порядочный человек». Третье — политическое «правый»." }
@@ -72,8 +73,6 @@ formExamplesSkip:
   - { form: "najprawszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "praw", reason: "в корпусе эта форма почти всегда принадлежит существительному prawo «право, закон» (карточка prawo): przestrzegać praw, nie ma prawa się żenić" }
   - { form: "prawa", reason: "в корпусе эта форма почти всегда принадлежит существительному prawo «право, закон» (карточка prawo): przestrzegać praw, nie ma prawa się żenić" }
-  - { form: "prawemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "prawi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "prawsi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "prawsza", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "prawszą", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
@@ -85,8 +84,6 @@ formExamplesSkip:
   - { form: "prawszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "prawszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "prawszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "prawych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "prawymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "prawą"
     pl: "Podnieś prawą rękę."
@@ -148,6 +145,30 @@ formExamples:
     pl: "Budynek po prawej jest szkołą."
     ru: "Здание справа — это школа."
     source: { kind: translated, id: 3125764 }
+  - form: "prawemu"
+    pl: "Przyjrzyj się prawemu skrzydłu budynku."
+    ru: "Присмотрись к правому крылу здания."
+    source: { kind: authored }
+  - form: "prawemu"
+    pl: "Dzięki prawemu pasowi jedziemy szybciej."
+    ru: "Благодаря правой полосе мы едем быстрее."
+    source: { kind: authored }
+  - form: "prawemu"
+    pl: "Prawemu oku nic nie dolega."
+    ru: "С правым глазом всё в порядке."
+    source: { kind: authored }
+  - form: "prawi"
+    pl: "Prawi ludzie nie kłamią."
+    ru: "Порядочные люди не лгут."
+    source: { kind: authored }
+  - form: "prawi"
+    pl: "Byli to ludzie prawi i uczciwi."
+    ru: "Это были люди порядочные и честные."
+    source: { kind: authored }
+  - form: "prawi"
+    pl: "Prawi obywatele płacą podatki."
+    ru: "Порядочные граждане платят налоги."
+    source: { kind: authored }
   - form: "prawy"
     pl: "Prawy brzeg rzeki jest stromy."
     ru: "Правый берег реки крутой."
@@ -159,6 +180,18 @@ formExamples:
   - form: "prawy"
     pl: "Prawy but jest za ciasny."
     ru: "Правый ботинок слишком тесный."
+    source: { kind: authored }
+  - form: "prawych"
+    pl: "W prawych kieszeniach nic nie było."
+    ru: "В правых карманах ничего не было."
+    source: { kind: authored }
+  - form: "prawych"
+    pl: "Wśród prawych ludzi czuje się dobrze."
+    ru: "Среди порядочных людей ему хорошо."
+    source: { kind: authored }
+  - form: "prawych"
+    pl: "Trzymaj się prawych pasów."
+    ru: "Держись правых полос."
     source: { kind: authored }
   - form: "prawym"
     pl: "Masz komara na prawym przedramieniu."
@@ -172,3 +205,15 @@ formExamples:
     pl: "Sześć miesięcy temu miałem operację zaćmy w prawym oku."
     ru: "Полгода назад мне сделали операцию по поводу катаракты на правом глазу."
     source: { kind: translated, id: 3044940 }
+  - form: "prawymi"
+    pl: "Poruszał prawymi palcami z trudem."
+    ru: "Он с трудом шевелил пальцами правой руки."
+    source: { kind: authored }
+  - form: "prawymi"
+    pl: "Otoczony prawymi ludźmi, czuł się bezpiecznie."
+    ru: "Окружённый порядочными людьми, он чувствовал себя спокойно."
+    source: { kind: authored }
+  - form: "prawymi"
+    pl: "Między prawymi a lewymi drzwiami jest przejście."
+    ru: "Между правой и левой дверью есть проход."
+    source: { kind: authored }

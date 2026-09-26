@@ -64,20 +64,13 @@ formExamplesSkip:
   - { form: "związalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "związaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "związał", reason: "в корпусе нет примеров для этой формы" }
   - { form: "związałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "związałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "związałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "związałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "związałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "związałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "związało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "związałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "związały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "związałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "związałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -98,7 +91,6 @@ formExamplesSkip:
   - { form: "związanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "związanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "związawszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
-  - { form: "zwiąż", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zwiążcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zwiążmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
@@ -126,6 +118,18 @@ formExamples:
     pl: "Związali swoje życie z morzem."
     ru: "Они связали свою жизнь с морем."
     source: { kind: authored }
+  - form: "związał"
+    pl: "Związał paczkę sznurkiem."
+    ru: "Он перевязал свёрток верёвкой."
+    source: { kind: authored }
+  - form: "związał"
+    pl: "Związał życie z tym miastem."
+    ru: "Он связал жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związał"
+    pl: "Nie związał się z nikim na stałe."
+    ru: "Он ни с кем не связал себя надолго."
+    source: { kind: authored }
   - form: "związała"
     pl: "Związała go."
     ru: "Она его связала."
@@ -138,6 +142,78 @@ formExamples:
     pl: "Związała włosy wstążką."
     ru: "Она завязала волосы лентой."
     source: { kind: translated, id: 440611 }
+  - form: "związałam"
+    pl: "Związałam paczkę sznurkiem."
+    ru: "Я перевязала свёрток верёвкой."
+    source: { kind: authored }
+  - form: "związałam"
+    pl: "Związałam życie z tym miastem."
+    ru: "Я связала жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związałam"
+    pl: "Nie związałam się z nikim na stałe."
+    ru: "Я ни с кем не связала себя надолго."
+    source: { kind: authored }
+  - form: "związałaś"
+    pl: "Związałaś paczkę sznurkiem."
+    ru: "Ты перевязала свёрток верёвкой."
+    source: { kind: authored }
+  - form: "związałaś"
+    pl: "Związałaś życie z tym miastem."
+    ru: "Ты связала жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związałaś"
+    pl: "Nie związałaś się z nikim na stałe."
+    ru: "Ты ни с кем не связала себя надолго."
+    source: { kind: authored }
+  - form: "związałem"
+    pl: "Związałem paczkę sznurkiem."
+    ru: "Я перевязал свёрток верёвкой."
+    source: { kind: authored }
+  - form: "związałem"
+    pl: "Związałem życie z tym miastem."
+    ru: "Я связал жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związałem"
+    pl: "Nie związałem się z nikim na stałe."
+    ru: "Я ни с кем не связал себя надолго."
+    source: { kind: authored }
+  - form: "związałeś"
+    pl: "Związałeś paczkę sznurkiem."
+    ru: "Ты перевязал свёрток верёвкой."
+    source: { kind: authored }
+  - form: "związałeś"
+    pl: "Związałeś życie z tym miastem."
+    ru: "Ты связал жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związałeś"
+    pl: "Nie związałeś się z nikim na stałe."
+    ru: "Ты ни с кем не связал себя надолго."
+    source: { kind: authored }
+  - form: "związało"
+    pl: "Wiele osób związało życie z tym miastem."
+    ru: "Многие связали жизнь с этим городом."
+    source: { kind: authored }
+  - form: "związało"
+    pl: "Dziecko związało sznurowadła."
+    ru: "Ребёнок завязал шнурки."
+    source: { kind: authored }
+  - form: "związało"
+    pl: "To wydarzenie związało ich na zawsze."
+    ru: "Это событие связало их навсегда."
+    source: { kind: authored }
+  - form: "związały"
+    pl: "Kobiety związały paczki sznurkiem."
+    ru: "Женщины перевязали свёртки верёвкой."
+    source: { kind: authored }
+  - form: "związały"
+    pl: "Wspólne lata związały ich na zawsze."
+    ru: "Совместные годы связали их навсегда."
+    source: { kind: authored }
+  - form: "związały"
+    pl: "Dziewczyny związały włosy."
+    ru: "Девушки завязали волосы."
+    source: { kind: authored }
   - form: "związane"
     pl: "Mam związane ręce."
     ru: "У меня руки связаны."
@@ -166,6 +242,18 @@ formExamples:
     pl: "Ten lekarz specjalizuje się w leczeniu chorób związanych z jedzeniem."
     ru: "Этот врач специализируется на лечении болезней, связанных с питанием."
     source: { kind: translated, id: 1002708 }
+  - form: "zwiąż"
+    pl: "Zwiąż paczkę sznurkiem."
+    ru: "Перевяжи свёрток верёвкой."
+    source: { kind: authored }
+  - form: "zwiąż"
+    pl: "Zwiąż włosy, bo przeszkadzają."
+    ru: "Завяжи волосы, они мешают."
+    source: { kind: authored }
+  - form: "zwiąż"
+    pl: "Zwiąż te dwa fakty ze sobą."
+    ru: "Свяжи эти два факта между собой."
+    source: { kind: authored }
   - form: "zwiążą"
     pl: "Zwiążą sznurek na supeł."
     ru: "Они завяжут верёвку узлом."
