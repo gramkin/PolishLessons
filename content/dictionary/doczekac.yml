@@ -49,7 +49,6 @@ idioms:
 formExamplesSkip:
   - { form: "doczekacie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "doczekaj", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "doczekają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "doczekajmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
   - { form: "doczekaliby", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -57,27 +56,18 @@ formExamplesSkip:
   - { form: "doczekalibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "doczekaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "doczekał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doczekała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "doczekałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doczekałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "doczekałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doczekałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doczekało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "doczekały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "doczekałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "doczekałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "doczekam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekamy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
   - { form: "doczekana", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "doczekaną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -95,7 +85,6 @@ formExamplesSkip:
   - { form: "doczekanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "doczekanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "doczekanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "doczekasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doczekawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
   - form: "doczeka"
@@ -122,6 +111,18 @@ formExamples:
     pl: "Naprawdę nie mogę się tego doczekać."
     ru: "Я правда не могу этого дождаться."
     source: { kind: translated, id: 9684541 }
+  - form: "doczekają"
+    pl: "Doczekają się wnuków."
+    ru: "Они дождутся внуков."
+    source: { kind: authored }
+  - form: "doczekają"
+    pl: "Nie doczekają końca remontu."
+    ru: "Они не дождутся конца ремонта."
+    source: { kind: authored }
+  - form: "doczekają"
+    pl: "Doczekają lepszych czasów."
+    ru: "Они дождутся лучших времён."
+    source: { kind: authored }
   - form: "doczekali"
     pl: "Końca wojny doczekali jedynie martwi."
     ru: "Конца войны дождались только мёртвые."
@@ -133,4 +134,124 @@ formExamples:
   - form: "doczekali"
     pl: "Nie doczekali się pomocy."
     ru: "Они не дождались помощи."
+    source: { kind: authored }
+  - form: "doczekał"
+    pl: "Doczekał się wnuków."
+    ru: "Он дождался внуков."
+    source: { kind: authored }
+  - form: "doczekał"
+    pl: "Nie doczekał końca remontu."
+    ru: "Он не дождался конца ремонта."
+    source: { kind: authored }
+  - form: "doczekał"
+    pl: "Doczekał lepszych czasów."
+    ru: "Он дождался лучших времён."
+    source: { kind: authored }
+  - form: "doczekała"
+    pl: "Doczekała się wnuków."
+    ru: "Она дождалась внуков."
+    source: { kind: authored }
+  - form: "doczekała"
+    pl: "Nie doczekała końca remontu."
+    ru: "Она не дождалась конца ремонта."
+    source: { kind: authored }
+  - form: "doczekała"
+    pl: "Doczekała lepszych czasów."
+    ru: "Она дождалась лучших времён."
+    source: { kind: authored }
+  - form: "doczekałam"
+    pl: "Doczekałam się wnuków."
+    ru: "Я дождалась внуков."
+    source: { kind: authored }
+  - form: "doczekałam"
+    pl: "Nie doczekałam końca remontu."
+    ru: "Я не дождалась конца ремонта."
+    source: { kind: authored }
+  - form: "doczekałam"
+    pl: "Doczekałam lepszych czasów."
+    ru: "Я дождалась лучших времён."
+    source: { kind: authored }
+  - form: "doczekałaś"
+    pl: "Doczekałaś się wnuków."
+    ru: "Ты дождалась внуков."
+    source: { kind: authored }
+  - form: "doczekałaś"
+    pl: "Nie doczekałaś końca remontu."
+    ru: "Ты не дождалась конца ремонта."
+    source: { kind: authored }
+  - form: "doczekałaś"
+    pl: "Doczekałaś lepszych czasów."
+    ru: "Ты дождалась лучших времён."
+    source: { kind: authored }
+  - form: "doczekałem"
+    pl: "Doczekałem się wnuków."
+    ru: "Я дождался внуков."
+    source: { kind: authored }
+  - form: "doczekałem"
+    pl: "Nie doczekałem końca remontu."
+    ru: "Я не дождался конца ремонта."
+    source: { kind: authored }
+  - form: "doczekałem"
+    pl: "Doczekałem lepszych czasów."
+    ru: "Я дождался лучших времён."
+    source: { kind: authored }
+  - form: "doczekałeś"
+    pl: "Doczekałeś się wnuków."
+    ru: "Ты дождался внуков."
+    source: { kind: authored }
+  - form: "doczekałeś"
+    pl: "Nie doczekałeś końca remontu."
+    ru: "Ты не дождался конца ремонта."
+    source: { kind: authored }
+  - form: "doczekałeś"
+    pl: "Doczekałeś lepszych czasów."
+    ru: "Ты дождался лучших времён."
+    source: { kind: authored }
+  - form: "doczekało"
+    pl: "Wiele osób doczekało się nagrody."
+    ru: "Многие дождались награды."
+    source: { kind: authored }
+  - form: "doczekało"
+    pl: "Miasto doczekało się mostu."
+    ru: "Город дождался моста."
+    source: { kind: authored }
+  - form: "doczekało"
+    pl: "Dziecko nie doczekało końca bajki."
+    ru: "Ребёнок не дождался конца сказки."
+    source: { kind: authored }
+  - form: "doczekały"
+    pl: "Kobiety doczekały się emerytury."
+    ru: "Женщины дождались пенсии."
+    source: { kind: authored }
+  - form: "doczekały"
+    pl: "Te książki doczekały się wznowienia."
+    ru: "Эти книги дождались переиздания."
+    source: { kind: authored }
+  - form: "doczekały"
+    pl: "Nie doczekały końca remontu."
+    ru: "Они не дождались конца ремонта."
+    source: { kind: authored }
+  - form: "doczekam"
+    pl: "Nie doczekam końca remontu."
+    ru: "Я не дождусь конца ремонта."
+    source: { kind: authored }
+  - form: "doczekam"
+    pl: "Doczekam się wnuków."
+    ru: "Я дождусь внуков."
+    source: { kind: authored }
+  - form: "doczekam"
+    pl: "Doczekam lepszych czasów."
+    ru: "Я дождусь лучших времён."
+    source: { kind: authored }
+  - form: "doczekasz"
+    pl: "Nie doczekasz końca remontu."
+    ru: "Ты не дождёшься конца ремонта."
+    source: { kind: authored }
+  - form: "doczekasz"
+    pl: "Doczekasz się wnuków."
+    ru: "Ты дождёшься внуков."
+    source: { kind: authored }
+  - form: "doczekasz"
+    pl: "Doczekasz lepszych czasów."
+    ru: "Ты дождёшься лучших времён."
     source: { kind: authored }

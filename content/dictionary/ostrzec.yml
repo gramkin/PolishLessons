@@ -44,8 +44,6 @@ idioms:
   - { pl: "ostatnie ostrzeżenie", ru: "последнее предупреждение" }
   - { pl: "ostrzec przed niebezpieczeństwem", ru: "предупредить об опасности" }
 formExamplesSkip:
-  - { form: "ostrzegą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ostrzegli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzegliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzeglibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzeglibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -54,27 +52,20 @@ formExamplesSkip:
   - { form: "ostrzegłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ostrzegłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzegłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzegłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłszy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ostrzegły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzegłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "ostrzegłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "ostrzegłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "ostrzeżcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ostrzeże", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzeżecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "ostrzeżemy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "ostrzeżeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "ostrzeżeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ostrzeżesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ostrzeżmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "ostrzeżona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "ostrzeżoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -99,6 +90,18 @@ formExamples:
     pl: "Próbowałem cię ostrzec."
     ru: "Я пытался тебя предупредить."
     source: { kind: translated, id: 3806083 }
+  - form: "ostrzegą"
+    pl: "Ostrzegą nas w porę."
+    ru: "Они предупредят нас вовремя."
+    source: { kind: authored }
+  - form: "ostrzegą"
+    pl: "Ostrzegą sąsiadów przed burzą."
+    ru: "Они предупредят соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegą"
+    pl: "Nikogo nie ostrzegą."
+    ru: "Они никого не предупредят."
+    source: { kind: authored }
   - form: "ostrzegę"
     pl: "Ostrzegę go."
     ru: "Я его предупрежу."
@@ -110,6 +113,18 @@ formExamples:
   - form: "ostrzegę"
     pl: "Ostrzegę ich zawczasu."
     ru: "Я предупрежу их заранее."
+    source: { kind: authored }
+  - form: "ostrzegli"
+    pl: "Ostrzegli nas w porę."
+    ru: "Они предупредили нас вовремя."
+    source: { kind: authored }
+  - form: "ostrzegli"
+    pl: "Ostrzegli sąsiadów przed burzą."
+    ru: "Они предупредили соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegli"
+    pl: "Nikogo nie ostrzegli."
+    ru: "Они никого не предупредили."
     source: { kind: authored }
   - form: "ostrzegł"
     pl: "On nas ostrzegł."
@@ -135,6 +150,30 @@ formExamples:
     pl: "Matka ostrzegła mnie zawczasu."
     ru: "Мать предупредила меня заранее."
     source: { kind: authored }
+  - form: "ostrzegłam"
+    pl: "Ostrzegłam cię w porę."
+    ru: "Я предупредила тебя вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłam"
+    pl: "Ostrzegłam sąsiadów przed burzą."
+    ru: "Я предупредила соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłam"
+    pl: "Nikogo nie ostrzegłam."
+    ru: "Я никого не предупредила."
+    source: { kind: authored }
+  - form: "ostrzegłaś"
+    pl: "Ostrzegłaś mnie w porę."
+    ru: "Ты предупредила меня вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłaś"
+    pl: "Ostrzegłaś sąsiadów przed burzą."
+    ru: "Ты предупредила соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłaś"
+    pl: "Nikogo nie ostrzegłaś."
+    ru: "Ты никого не предупредила."
+    source: { kind: authored }
   - form: "ostrzegłem"
     pl: "Ostrzegłem go kilkakrotnie."
     ru: "Я предупреждал его несколько раз."
@@ -159,6 +198,42 @@ formExamples:
     pl: "Ostrzegłeś ich na czas."
     ru: "Ты предупредил их вовремя."
     source: { kind: authored }
+  - form: "ostrzegło"
+    pl: "Radio ostrzegło przed mrozem."
+    ru: "Радио предупредило о морозе."
+    source: { kind: authored }
+  - form: "ostrzegło"
+    pl: "Wiele osób ostrzegło nas przed tym."
+    ru: "Многие нас об этом предупреждали."
+    source: { kind: authored }
+  - form: "ostrzegło"
+    pl: "Dziecko ostrzegło matkę krzykiem."
+    ru: "Ребёнок предупредил мать криком."
+    source: { kind: authored }
+  - form: "ostrzegłszy"
+    pl: "Ostrzegłszy sąsiadów, wrócił do domu."
+    ru: "Предупредив соседей, он вернулся домой."
+    source: { kind: authored }
+  - form: "ostrzegłszy"
+    pl: "Ostrzegłszy nas w porę, zniknął."
+    ru: "Предупредив нас вовремя, он исчез."
+    source: { kind: authored }
+  - form: "ostrzegłszy"
+    pl: "Ostrzegłszy o burzy, zamknęli przystań."
+    ru: "Предупредив о буре, они закрыли пристань."
+    source: { kind: authored }
+  - form: "ostrzegły"
+    pl: "Służby ostrzegły przed powodzią."
+    ru: "Службы предупредили о наводнении."
+    source: { kind: authored }
+  - form: "ostrzegły"
+    pl: "Kobiety ostrzegły nas w porę."
+    ru: "Женщины предупредили нас вовремя."
+    source: { kind: authored }
+  - form: "ostrzegły"
+    pl: "Znaki ostrzegły kierowców."
+    ru: "Знаки предупредили водителей."
+    source: { kind: authored }
   - form: "ostrzeż"
     pl: "Ostrzeż Toma."
     ru: "Предупреди Тома."
@@ -170,6 +245,18 @@ formExamples:
   - form: "ostrzeż"
     pl: "Ostrzeż mnie następnym razem."
     ru: "Предупреди меня в следующий раз."
+    source: { kind: authored }
+  - form: "ostrzeże"
+    pl: "Ostrzeże nas w porę."
+    ru: "Он предупредит нас вовремя."
+    source: { kind: authored }
+  - form: "ostrzeże"
+    pl: "Ostrzeże sąsiadów przed burzą."
+    ru: "Он предупредит соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeże"
+    pl: "Nikogo nie ostrzeże."
+    ru: "Он никого не предупредит."
     source: { kind: authored }
   - form: "ostrzeżenia"
     pl: "Tom wyszedł bez ostrzeżenia."
@@ -206,6 +293,18 @@ formExamples:
   - form: "ostrzeżeniem"
     pl: "Z ostrzeżeniem czy bez, trzeba uważać."
     ru: "С предупреждением или без, надо быть внимательным."
+    source: { kind: authored }
+  - form: "ostrzeżesz"
+    pl: "Ostrzeżesz nas w porę?"
+    ru: "Ты предупредишь нас вовремя?"
+    source: { kind: authored }
+  - form: "ostrzeżesz"
+    pl: "Ostrzeżesz sąsiadów przed burzą."
+    ru: "Ты предупредишь соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeżesz"
+    pl: "Nikogo nie ostrzeżesz."
+    ru: "Ты никого не предупредишь."
     source: { kind: authored }
   - form: "ostrzeżony"
     pl: "Zostałem ostrzeżony."

@@ -63,23 +63,17 @@ formExamplesSkip:
   - { form: "zasłużonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zasłużonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zasłużonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużylibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużylibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zasłużyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zasłużyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -159,6 +153,18 @@ formExamples:
     pl: "Trzeba zasłużyć na nagrodę."
     ru: "Награду нужно заслужить."
     source: { kind: authored }
+  - form: "zasłużyli"
+    pl: "Zasłużyli na nagrodę."
+    ru: "Они заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyli"
+    pl: "Zasłużyli sobie na zaufanie."
+    ru: "Они заслужили доверие."
+    source: { kind: authored }
+  - form: "zasłużyli"
+    pl: "Niczym sobie na to nie zasłużyli."
+    ru: "Они ничем этого не заслужили."
+    source: { kind: authored }
   - form: "zasłużyliśmy"
     pl: "Myślę, że zasłużyliśmy na to."
     ru: "Думаю, мы это заслужили."
@@ -183,6 +189,42 @@ formExamples:
     pl: "Dan nie zasłużył na śmierć."
     ru: "Дэн не заслужил смерти."
     source: { kind: translated, id: 4148548 }
+  - form: "zasłużyła"
+    pl: "Zasłużyła na nagrodę."
+    ru: "Она заслужила награду."
+    source: { kind: authored }
+  - form: "zasłużyła"
+    pl: "Zasłużyła sobie na zaufanie."
+    ru: "Она заслужила доверие."
+    source: { kind: authored }
+  - form: "zasłużyła"
+    pl: "Niczym sobie na to nie zasłużyła."
+    ru: "Она ничем этого не заслужила."
+    source: { kind: authored }
+  - form: "zasłużyłam"
+    pl: "Zasłużyłam na nagrodę."
+    ru: "Я заслужила награду."
+    source: { kind: authored }
+  - form: "zasłużyłam"
+    pl: "Zasłużyłam sobie na zaufanie."
+    ru: "Я заслужила доверие."
+    source: { kind: authored }
+  - form: "zasłużyłam"
+    pl: "Niczym sobie na to nie zasłużyłam."
+    ru: "Я ничем этого не заслужила."
+    source: { kind: authored }
+  - form: "zasłużyłaś"
+    pl: "Zasłużyłaś na nagrodę."
+    ru: "Ты заслужила награду."
+    source: { kind: authored }
+  - form: "zasłużyłaś"
+    pl: "Zasłużyłaś sobie na zaufanie."
+    ru: "Ты заслужила доверие."
+    source: { kind: authored }
+  - form: "zasłużyłaś"
+    pl: "Niczym sobie na to nie zasłużyłaś."
+    ru: "Ты ничем этого не заслужила."
+    source: { kind: authored }
   - form: "zasłużyłem"
     pl: "Nie zasłużyłem na to."
     ru: "Я этого не заслужил."
@@ -206,6 +248,30 @@ formExamples:
   - form: "zasłużyłeś"
     pl: "Niczym sobie na to nie zasłużyłeś."
     ru: "Ты ничем этого не заслужил."
+    source: { kind: authored }
+  - form: "zasłużyło"
+    pl: "Wiele osób zasłużyło na nagrodę."
+    ru: "Многие заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyło"
+    pl: "Dziecko zasłużyło na pochwałę."
+    ru: "Ребёнок заслужил похвалу."
+    source: { kind: authored }
+  - form: "zasłużyło"
+    pl: "Miasto zasłużyło na ten tytuł."
+    ru: "Город заслужил это звание."
+    source: { kind: authored }
+  - form: "zasłużyły"
+    pl: "Kobiety zasłużyły na nagrodę."
+    ru: "Женщины заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyły"
+    pl: "Te wyniki zasłużyły na uznanie."
+    ru: "Эти результаты заслужили признание."
+    source: { kind: authored }
+  - form: "zasłużyły"
+    pl: "Niczym sobie na to nie zasłużyły."
+    ru: "Они ничем этого не заслужили."
     source: { kind: authored }
   - form: "zasłużymy"
     pl: "Zasłużymy na wasze zaufanie."
