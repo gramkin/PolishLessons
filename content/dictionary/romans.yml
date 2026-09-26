@@ -28,6 +28,7 @@ senses:
         ru: "Моя тринадцатилетняя дочь любит романтические фильмы."
         source: { kind: translated, id: 997609 }
 notes:
+  - { kind: usage, text: "Множественное число — romanse, а не romansy: существительные на -ans берут окончание -e (seans — seanse, kwadrans — kwadranse). Поэтому форма romansy оставлена без примеров." }
   - { kind: false-friend, text: "Главная ловушка: русский «роман» как книга — это по-польски powieść. Polskie romans — прежде всего любовная связь." }
   - { kind: government, text: "Роман с кем-то — romans z kimś (творительный падеж с z): ma romans z szefem." }
   - { kind: usage, text: "Как название жанра romans тоже существует — любовный роман, дамский роман. Но «Война и мир» — это powieść." }
@@ -46,13 +47,7 @@ idioms:
   - { pl: "romans biurowy", ru: "служебный роман" }
   - { pl: "skończyć romans", ru: "порвать роман" }
 formExamplesSkip:
-  - { form: "romansach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansów", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "romansy", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "romansy", reason: "такой формы нет: множественное от romans — romanse, как seans — seanse" }
 formExamples:
   - form: "romans"
     pl: "Miałeś romans."
@@ -66,6 +61,30 @@ formExamples:
     pl: "Ona ma romans z szefem."
     ru: "У неё роман с шефом."
     source: { kind: translated, id: 751866 }
+  - form: "romansach"
+    pl: "O tych romansach mówi całe miasto."
+    ru: "Об этих романах говорит весь город."
+    source: { kind: authored }
+  - form: "romansach"
+    pl: "W jej romansach zawsze jest morze."
+    ru: "В её романах всегда есть море."
+    source: { kind: authored }
+  - form: "romansach"
+    pl: "W dawnych romansach bohaterowie ginęli."
+    ru: "В старых романах герои погибали."
+    source: { kind: authored }
+  - form: "romansami"
+    pl: "Zajmuje się romansami historycznymi."
+    ru: "Он занимается историческими романами."
+    source: { kind: authored }
+  - form: "romansami"
+    pl: "Między romansami a kryminałami wybiera romanse."
+    ru: "Между романами и детективами она выбирает романы."
+    source: { kind: authored }
+  - form: "romansami"
+    pl: "Zasłynął romansami z gwiazdami."
+    ru: "Он прославился романами со звёздами."
+    source: { kind: authored }
   - form: "romanse"
     pl: "Mój ojciec miewał liczne romanse."
     ru: "У моего отца бывали многочисленные романы."
@@ -78,6 +97,18 @@ formExamples:
     pl: "Moja trzynastoletnia córka lubi romanse filmowe."
     ru: "Моя тринадцатилетняя дочь любит романтические фильмы."
     source: { kind: translated, id: 997609 }
+  - form: "romansem"
+    pl: "Skończyło się krótkim romansem."
+    ru: "Кончилось коротким романом."
+    source: { kind: authored }
+  - form: "romansem"
+    pl: "Nazwał tę książkę romansem."
+    ru: "Он назвал эту книгу романом."
+    source: { kind: authored }
+  - form: "romansem"
+    pl: "Przed romansem długo się wahała."
+    ru: "Перед романом она долго колебалась."
+    source: { kind: authored }
   - form: "romansie"
     pl: "Sami wiedział o romansie Layli z Faridem."
     ru: "Сами знал о романе Лейлы с Фаридом."
@@ -89,6 +120,42 @@ formExamples:
   - form: "romansie"
     pl: "W tym romansie nie było nic pięknego."
     ru: "В этом романе не было ничего красивого."
+    source: { kind: authored }
+  - form: "romansom"
+    pl: "Przyjrzyj się tym romansom."
+    ru: "Присмотрись к этим романам."
+    source: { kind: authored }
+  - form: "romansom"
+    pl: "Dzięki romansom wydawnictwo przetrwało."
+    ru: "Благодаря романам издательство выжило."
+    source: { kind: authored }
+  - form: "romansom"
+    pl: "Nie ufaj takim romansom."
+    ru: "Не доверяй таким романам."
+    source: { kind: authored }
+  - form: "romansowi"
+    pl: "Przyjrzyj się temu romansowi."
+    ru: "Присмотрись к этому роману."
+    source: { kind: authored }
+  - form: "romansowi"
+    pl: "Dzięki temu romansowi wydawnictwo przetrwało."
+    ru: "Благодаря этому роману издательство выжило."
+    source: { kind: authored }
+  - form: "romansowi"
+    pl: "Poświęcono romansowi cały rozdział."
+    ru: "Роману посвятили целую главу."
+    source: { kind: authored }
+  - form: "romansów"
+    pl: "W księgarni nie brakuje romansów."
+    ru: "В книжном романов хватает."
+    source: { kind: authored }
+  - form: "romansów"
+    pl: "Nie czytuje romansów."
+    ru: "Она не читает романов."
+    source: { kind: authored }
+  - form: "romansów"
+    pl: "Miał za sobą kilka romansów."
+    ru: "За плечами у него было несколько романов."
     source: { kind: authored }
   - form: "romansu"
     pl: "To był początek romansu."
