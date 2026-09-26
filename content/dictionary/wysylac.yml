@@ -58,26 +58,18 @@ formExamplesSkip:
   - { form: "wysyłającym", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "wysyłającymi", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "wysyłajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "wysyłali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysyłaliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłalibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "wysyłaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wysyłała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysyłałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wysyłałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysyłałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysyłałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wysyłałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysyłałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysyłało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysyłałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wysyłały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysyłałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wysyłałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -159,6 +151,18 @@ formExamples:
     pl: "Wysyłajcie zgłoszenia do piątku."
     ru: "Присылайте заявки до пятницы."
     source: { kind: authored }
+  - form: "wysyłali"
+    pl: "Wysyłali paczki co miesiąc."
+    ru: "Они отправляли посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłali"
+    pl: "Wysyłali dzieci na wieś."
+    ru: "Они отправляли детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłali"
+    pl: "Nic nam nie wysyłali."
+    ru: "Они нам ничего не присылали."
+    source: { kind: authored }
   - form: "wysyłał"
     pl: "Tom wysyłał Mary kwiaty."
     ru: "Том посылал Мэри цветы."
@@ -170,6 +174,90 @@ formExamples:
   - form: "wysyłał"
     pl: "Nie wysyłał nikomu wiadomości."
     ru: "Он никому не отправлял сообщений."
+    source: { kind: authored }
+  - form: "wysyłała"
+    pl: "Wysyłała paczki co miesiąc."
+    ru: "Она отправляла посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłała"
+    pl: "Wysyłała dzieci na wieś."
+    ru: "Она отправляла детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłała"
+    pl: "Nic nam nie wysyłała."
+    ru: "Она нам ничего не присылала."
+    source: { kind: authored }
+  - form: "wysyłałam"
+    pl: "Wysyłałam paczki co miesiąc."
+    ru: "Я отправляла посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłałam"
+    pl: "Wysyłałam dzieci na wieś."
+    ru: "Я отправляла детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłałam"
+    pl: "Nic wam nie wysyłałam."
+    ru: "Я вам ничего не присылала."
+    source: { kind: authored }
+  - form: "wysyłałaś"
+    pl: "Wysyłałaś paczki co miesiąc."
+    ru: "Ты отправляла посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłałaś"
+    pl: "Wysyłałaś dzieci na wieś."
+    ru: "Ты отправляла детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłałaś"
+    pl: "Nic nam nie wysyłałaś."
+    ru: "Ты нам ничего не присылала."
+    source: { kind: authored }
+  - form: "wysyłałem"
+    pl: "Wysyłałem paczki co miesiąc."
+    ru: "Я отправлял посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłałem"
+    pl: "Wysyłałem dzieci na wieś."
+    ru: "Я отправлял детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłałem"
+    pl: "Nic wam nie wysyłałem."
+    ru: "Я вам ничего не присылал."
+    source: { kind: authored }
+  - form: "wysyłałeś"
+    pl: "Wysyłałeś paczki co miesiąc."
+    ru: "Ты отправлял посылки каждый месяц."
+    source: { kind: authored }
+  - form: "wysyłałeś"
+    pl: "Wysyłałeś dzieci na wieś."
+    ru: "Ты отправлял детей в деревню."
+    source: { kind: authored }
+  - form: "wysyłałeś"
+    pl: "Nic nam nie wysyłałeś."
+    ru: "Ты нам ничего не присылал."
+    source: { kind: authored }
+  - form: "wysyłało"
+    pl: "Biuro wysyłało przypomnienia."
+    ru: "Контора рассылала напоминания."
+    source: { kind: authored }
+  - form: "wysyłało"
+    pl: "Wiele osób wysyłało zgłoszenia."
+    ru: "Многие отправляли заявки."
+    source: { kind: authored }
+  - form: "wysyłało"
+    pl: "Dziecko wysyłało babci rysunki."
+    ru: "Ребёнок отправлял бабушке рисунки."
+    source: { kind: authored }
+  - form: "wysyłały"
+    pl: "Firmy wysyłały oferty."
+    ru: "Фирмы рассылали предложения."
+    source: { kind: authored }
+  - form: "wysyłały"
+    pl: "Kobiety wysyłały paczki na front."
+    ru: "Женщины отправляли посылки на фронт."
+    source: { kind: authored }
+  - form: "wysyłały"
+    pl: "Nic nam nie wysyłały."
+    ru: "Они нам ничего не присылали."
     source: { kind: authored }
   - form: "wysyłam"
     pl: "Wysyłam Ci książkę."
