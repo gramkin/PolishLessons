@@ -47,9 +47,7 @@ idioms:
   - { pl: "stanowczo odmówić", ru: "решительно отказаться" }
   - { pl: "odmówić posłuszeństwa", ru: "отказать в повиновении" }
 formExamplesSkip:
-  - { form: "odmów", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odmówcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odmówicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "odmówieni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odmówienia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -64,12 +62,9 @@ formExamplesSkip:
   - { form: "odmówiłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odmówiłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odmówiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odmówiłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odmówiłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -90,6 +85,18 @@ formExamplesSkip:
   - { form: "odmówiwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "odmówmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
+  - form: "odmów"
+    pl: "Odmów, jeśli ci nie odpowiada."
+    ru: "Откажись, если тебе не подходит."
+    source: { kind: authored }
+  - form: "odmów"
+    pl: "Odmów grzecznie."
+    ru: "Откажи вежливо."
+    source: { kind: authored }
+  - form: "odmów"
+    pl: "Nie odmów mi tej przysługi."
+    ru: "Не откажи мне в этой услуге."
+    source: { kind: authored }
   - form: "odmówi"
     pl: "Tomek nie odmówi."
     ru: "Томек не откажет."
@@ -102,6 +109,18 @@ formExamples:
     pl: "Zapewne odmówi wysłuchania jego rady, gdyż go nie lubi."
     ru: "Вероятно, он откажется слушать его совет, потому что не любит его."
     source: { kind: translated, id: 10931168 }
+  - form: "odmówią"
+    pl: "Odmówią nam pomocy."
+    ru: "Они откажут нам в помощи."
+    source: { kind: authored }
+  - form: "odmówią"
+    pl: "Odmówią, jeśli im nie zapłacisz."
+    ru: "Они откажутся, если ты им не заплатишь."
+    source: { kind: authored }
+  - form: "odmówią"
+    pl: "Nikomu nie odmówią."
+    ru: "Они никому не откажут."
+    source: { kind: authored }
   - form: "odmówić"
     pl: "Muszę odmówić."
     ru: "Я должен отказаться."
@@ -174,6 +193,18 @@ formExamples:
     pl: "Odmówiłam udziału w projekcie."
     ru: "Я отказалась от участия в проекте."
     source: { kind: authored }
+  - form: "odmówiłaś"
+    pl: "Odmówiłaś mu pomocy."
+    ru: "Ты отказала ему в помощи."
+    source: { kind: authored }
+  - form: "odmówiłaś"
+    pl: "Odmówiłaś grzecznie."
+    ru: "Ты отказала вежливо."
+    source: { kind: authored }
+  - form: "odmówiłaś"
+    pl: "Nikomu nie odmówiłaś."
+    ru: "Ты никому не отказала."
+    source: { kind: authored }
   - form: "odmówiłem"
     pl: "Jasno odmówiłem."
     ru: "Я ясно отказался."
@@ -186,6 +217,30 @@ formExamples:
     pl: "Odmówiłem z powodów osobistych."
     ru: "Я отказался по личным причинам."
     source: { kind: translated, id: 4881833 }
+  - form: "odmówiłeś"
+    pl: "Odmówiłeś mu pomocy."
+    ru: "Ты отказал ему в помощи."
+    source: { kind: authored }
+  - form: "odmówiłeś"
+    pl: "Odmówiłeś grzecznie."
+    ru: "Ты отказал вежливо."
+    source: { kind: authored }
+  - form: "odmówiłeś"
+    pl: "Nikomu nie odmówiłeś."
+    ru: "Ты никому не отказал."
+    source: { kind: authored }
+  - form: "odmówiło"
+    pl: "Wiele osób odmówiło udziału."
+    ru: "Многие отказались от участия."
+    source: { kind: authored }
+  - form: "odmówiło"
+    pl: "Miasto odmówiło zgody."
+    ru: "Город отказал в согласии."
+    source: { kind: authored }
+  - form: "odmówiło"
+    pl: "Dziecko odmówiło jedzenia."
+    ru: "Ребёнок отказался от еды."
+    source: { kind: authored }
   - form: "odmówiły"
     pl: "Nogi odmówiły mu posłuszeństwa."
     ru: "Ноги отказались ему служить."
