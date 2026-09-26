@@ -50,13 +50,11 @@ idioms:
   - { pl: "zdradzić ojczyznę", ru: "предать родину" }
   - { pl: "zdradzić się z czymś", ru: "выдать себя чем-то" }
 formExamplesSkip:
-  - { form: "zdradzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdradzeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zdradzenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdradzenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdradzeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdradzeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zdradzi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdradzicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdradziliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdradzilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -66,7 +64,6 @@ formExamplesSkip:
   - { form: "zdradziłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdradziłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdradziłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zdradziłam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdradziłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdradziłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdradziłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -77,7 +74,6 @@ formExamplesSkip:
   - { form: "zdradziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zdradziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zdradzimy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zdradzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdradziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "zdradzona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zdradzoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -89,10 +85,21 @@ formExamplesSkip:
   - { form: "zdradzonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zdradzonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zdradzonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zdradź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdradźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdradźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
+  - form: "zdradzą"
+    pl: "Zdradzą ci sekret."
+    ru: "Они выдадут тебе секрет."
+    source: { kind: authored }
+  - form: "zdradzą"
+    pl: "Nigdy cię nie zdradzą."
+    ru: "Они никогда тебя не предадут."
+    source: { kind: authored }
+  - form: "zdradzą"
+    pl: "Zdradzą plan w ostatniej chwili."
+    ru: "Они раскроют план в последний момент."
+    source: { kind: authored }
   - form: "zdradzę"
     pl: "Nie zdradzę cię."
     ru: "Я тебя не предам."
@@ -105,6 +112,18 @@ formExamples:
     pl: "Zdradzę ci tajemnicę, jak to wszystko tutaj działa."
     ru: "Я открою тебе тайну, как здесь всё работает."
     source: { kind: translated, id: 991215 }
+  - form: "zdradzi"
+    pl: "Zdradzi ci sekret."
+    ru: "Он выдаст тебе секрет."
+    source: { kind: authored }
+  - form: "zdradzi"
+    pl: "Nigdy cię nie zdradzi."
+    ru: "Он никогда тебя не предаст."
+    source: { kind: authored }
+  - form: "zdradzi"
+    pl: "Jego twarz nic nie zdradzi."
+    ru: "Его лицо ничего не выдаст."
+    source: { kind: authored }
   - form: "zdradzić"
     pl: "Możesz zdradzić, ile ważysz?"
     ru: "Можешь открыть, сколько ты весишь?"
@@ -152,6 +171,18 @@ formExamples:
   - form: "zdradziła"
     pl: "Zdradziła męża."
     ru: "Она изменила мужу."
+    source: { kind: authored }
+  - form: "zdradziłam"
+    pl: "Zdradziłam ci sekret."
+    ru: "Я выдала тебе секрет."
+    source: { kind: authored }
+  - form: "zdradziłam"
+    pl: "Nigdy cię nie zdradziłam."
+    ru: "Я никогда тебя не предавала."
+    source: { kind: authored }
+  - form: "zdradziłam"
+    pl: "Nie zdradziłam nikomu ani słowa."
+    ru: "Я никому не проговорилась ни словом."
     source: { kind: authored }
   - form: "zdradziłaś"
     pl: "Zdradziłaś mnie?"
@@ -213,6 +244,18 @@ formExamples:
     pl: "Te słowa zdradziły prawdę."
     ru: "Эти слова выдали правду."
     source: { kind: authored }
+  - form: "zdradzisz"
+    pl: "Zdradzisz mi sekret?"
+    ru: "Ты выдашь мне секрет?"
+    source: { kind: authored }
+  - form: "zdradzisz"
+    pl: "Nigdy mnie nie zdradzisz."
+    ru: "Ты никогда меня не предашь."
+    source: { kind: authored }
+  - form: "zdradzisz"
+    pl: "Nie zdradzisz nikomu ani słowa."
+    ru: "Ты никому не проговоришься ни словом."
+    source: { kind: authored }
   - form: "zdradzony"
     pl: "Czułem się zdradzony."
     ru: "Я чувствовал себя преданным."
@@ -224,4 +267,16 @@ formExamples:
   - form: "zdradzony"
     pl: "Został zdradzony przez wspólnika."
     ru: "Он был предан сообщником."
+    source: { kind: authored }
+  - form: "zdradź"
+    pl: "Zdradź mi swój sekret."
+    ru: "Выдай мне свой секрет."
+    source: { kind: authored }
+  - form: "zdradź"
+    pl: "Zdradź chociaż jedno słowo."
+    ru: "Выдай хоть одно слово."
+    source: { kind: authored }
+  - form: "zdradź"
+    pl: "Nie zdradź nikomu, że tu byłem."
+    ru: "Не выдай никому, что я тут был."
     source: { kind: authored }

@@ -61,38 +61,36 @@ formExamplesSkip:
   - { form: "zdarzającymi", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "zdarzajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdarzajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zdarzali", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zdarzali", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
   - { form: "zdarzaliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzalibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zdarzaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zdarzał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdarzała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdarzałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zdarzałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdarzałaś", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zdarzałam", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
+  - { form: "zdarzałaś", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
   - { form: "zdarzałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zdarzałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdarzałeś", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zdarzałem", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
+  - { form: "zdarzałeś", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
   - { form: "zdarzałoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zdarzałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zdarzałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zdarzam", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zdarzam", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
   - { form: "zdarzamy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "zdarzania", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdarzanie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdarzaniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdarzaniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zdarzano", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "zdarzasz", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zdarzasz", reason: "форм 1-го и 2-го лица у zdarzać się нет: подлежащее — событие, а не человек (см. примечание к управлению)" }
 formExamples:
   - form: "zdarza"
     pl: "Tak, to się czasem zdarza."
@@ -130,6 +128,30 @@ formExamples:
     pl: "Wypadki zdarzają się codziennie."
     ru: "Аварии случаются каждый день."
     source: { kind: translated, id: 366561 }
+  - form: "zdarzał"
+    pl: "Zdarzał się czasem wypadek."
+    ru: "Иногда случалась авария."
+    source: { kind: authored }
+  - form: "zdarzał"
+    pl: "Zdarzał się błąd w obliczeniach."
+    ru: "В расчётах случалась ошибка."
+    source: { kind: authored }
+  - form: "zdarzał"
+    pl: "Taki przypadek zdarzał się rzadko."
+    ru: "Такой случай бывал редко."
+    source: { kind: authored }
+  - form: "zdarzała"
+    pl: "Zdarzała się awaria co kilka dni."
+    ru: "Авария случалась каждые несколько дней."
+    source: { kind: authored }
+  - form: "zdarzała"
+    pl: "Zdarzała się pomyłka, ale rzadko."
+    ru: "Ошибка случалась, но редко."
+    source: { kind: authored }
+  - form: "zdarzała"
+    pl: "Taka okazja zdarzała się raz w roku."
+    ru: "Такая возможность выпадала раз в год."
+    source: { kind: authored }
   - form: "zdarzało"
     pl: "To coś, co zdarzało się wielokrotnie."
     ru: "Это то, что случалось многократно."
