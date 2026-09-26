@@ -56,7 +56,6 @@ idioms:
   - { pl: "przeprowadzić badanie", ru: "провести исследование" }
   - { pl: "przeprowadzić plan do końca", ru: "довести план до конца" }
 formExamplesSkip:
-  - { form: "przeprowadzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprowadzeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeprowadzenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "przeprowadzeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -67,18 +66,14 @@ formExamplesSkip:
   - { form: "przeprowadziłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprowadziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprowadziłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprowadziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprowadziłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprowadziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprowadziłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprowadziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przeprowadziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "przeprowadzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprowadziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "przeprowadzoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeprowadzone", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -90,6 +85,18 @@ formExamplesSkip:
   - { form: "przeprowadzonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeprowadźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
 formExamples:
+  - form: "przeprowadzą"
+    pl: "Przeprowadzą badanie w przyszłym tygodniu."
+    ru: "Они проведут исследование на следующей неделе."
+    source: { kind: authored }
+  - form: "przeprowadzą"
+    pl: "Przeprowadzą nas przez most."
+    ru: "Они переведут нас через мост."
+    source: { kind: authored }
+  - form: "przeprowadzą"
+    pl: "Przeprowadzą się do nowego mieszkania."
+    ru: "Они переедут в новую квартиру."
+    source: { kind: authored }
   - form: "przeprowadzenia"
     pl: "Ten plan jest trudny do przeprowadzenia."
     ru: "Этот план будет сложно реализовать."
@@ -222,6 +229,18 @@ formExamples:
     pl: "Przeprowadziłam ankietę wśród studentów."
     ru: "Я провела опрос среди студентов."
     source: { kind: authored }
+  - form: "przeprowadziłaś"
+    pl: "Przeprowadziłaś badanie sama."
+    ru: "Ты провела исследование сама."
+    source: { kind: authored }
+  - form: "przeprowadziłaś"
+    pl: "Przeprowadziłaś nas przez most."
+    ru: "Ты перевела нас через мост."
+    source: { kind: authored }
+  - form: "przeprowadziłaś"
+    pl: "Przeprowadziłaś się w zeszłym roku."
+    ru: "Ты переехала в прошлом году."
+    source: { kind: authored }
   - form: "przeprowadziłbym"
     pl: "Gdybym miał więcej pieniędzy, przeprowadziłbym się do większego domu."
     ru: "Если бы у меня было больше денег, я бы переехал в дом побольше."
@@ -258,6 +277,30 @@ formExamples:
     pl: "Przeprowadziłeś badanie bardzo dokładnie."
     ru: "Ты провёл исследование очень точно."
     source: { kind: authored }
+  - form: "przeprowadziło"
+    pl: "Wiele osób przeprowadziło się na wieś."
+    ru: "Многие переехали в деревню."
+    source: { kind: authored }
+  - form: "przeprowadziło"
+    pl: "Miasto przeprowadziło remont."
+    ru: "Город провёл ремонт."
+    source: { kind: authored }
+  - form: "przeprowadziło"
+    pl: "Dziecko przeprowadziło babcię przez ulicę."
+    ru: "Ребёнок перевёл бабушку через улицу."
+    source: { kind: authored }
+  - form: "przeprowadziły"
+    pl: "Firmy przeprowadziły audyt."
+    ru: "Фирмы провели аудит."
+    source: { kind: authored }
+  - form: "przeprowadziły"
+    pl: "Kobiety przeprowadziły dzieci przez ulicę."
+    ru: "Женщины перевели детей через улицу."
+    source: { kind: authored }
+  - form: "przeprowadziły"
+    pl: "Przeprowadziły się do miasta."
+    ru: "Они переехали в город."
+    source: { kind: authored }
   - form: "przeprowadzimy"
     pl: "Dzisiaj przeprowadzimy doświadczenie dotyczące prawa Ohma."
     ru: "Сегодня мы проведём опыт по закону Ома."
@@ -269,6 +312,18 @@ formExamples:
   - form: "przeprowadzimy"
     pl: "Przeprowadzimy się latem."
     ru: "Мы переедем летом."
+    source: { kind: authored }
+  - form: "przeprowadzisz"
+    pl: "Przeprowadzisz badanie sam?"
+    ru: "Ты проведёшь исследование сам?"
+    source: { kind: authored }
+  - form: "przeprowadzisz"
+    pl: "Przeprowadzisz nas przez most."
+    ru: "Ты переведёшь нас через мост."
+    source: { kind: authored }
+  - form: "przeprowadzisz"
+    pl: "Przeprowadzisz się w przyszłym roku."
+    ru: "Ты переедешь в будущем году."
     source: { kind: authored }
   - form: "przeprowadzona"
     pl: "Przeprowadzona zostanie operacja na Dalekim Wschodzie."

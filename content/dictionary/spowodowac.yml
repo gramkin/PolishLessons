@@ -54,8 +54,6 @@ formExamplesSkip:
   - { form: "spowodowałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "spowodowałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "spowodowałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "spowodowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "spowodowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spowodowałbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "spowodowałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "spowodowałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -78,12 +76,9 @@ formExamplesSkip:
   - { form: "spowodowanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "spowodowawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "spowoduj", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "spowodują", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spowodujcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "spowodujecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "spowodujemy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "spowodujesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "spowoduję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spowodujmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
   - form: "spowodować"
@@ -146,6 +141,30 @@ formExamples:
     pl: "Burza spowodowała przerwę w dostawie prądu."
     ru: "Буря вызвала перебой в подаче тока."
     source: { kind: translated, id: 3430132 }
+  - form: "spowodowałam"
+    pl: "Spowodowałam wypadek."
+    ru: "Я стала причиной аварии."
+    source: { kind: authored }
+  - form: "spowodowałam"
+    pl: "Nie spowodowałam żadnych szkód."
+    ru: "Я не причинила никакого ущерба."
+    source: { kind: authored }
+  - form: "spowodowałam"
+    pl: "To ja spowodowałam zamieszanie."
+    ru: "Это я вызвала переполох."
+    source: { kind: authored }
+  - form: "spowodowałaś"
+    pl: "Spowodowałaś wypadek."
+    ru: "Ты стала причиной аварии."
+    source: { kind: authored }
+  - form: "spowodowałaś"
+    pl: "Nie spowodowałaś żadnych szkód."
+    ru: "Ты не причинила никакого ущерба."
+    source: { kind: authored }
+  - form: "spowodowałaś"
+    pl: "To ty spowodowałaś zamieszanie."
+    ru: "Это ты вызвала переполох."
+    source: { kind: authored }
   - form: "spowodowałby"
     pl: "Gdyby ten wypadek przydarzył się w mieście, spowodowałby tragedię."
     ru: "Если бы эта авария случилась в городе, она обернулась бы трагедией."
@@ -254,6 +273,18 @@ formExamples:
     pl: "Hałas spowodowany budową jest nie do zniesienia."
     ru: "Шум, вызванный стройкой, невыносим."
     source: { kind: authored }
+  - form: "spowodują"
+    pl: "Te zmiany spowodują chaos."
+    ru: "Эти перемены вызовут хаос."
+    source: { kind: authored }
+  - form: "spowodują"
+    pl: "Spowodują więcej szkody niż pożytku."
+    ru: "Они принесут больше вреда, чем пользы."
+    source: { kind: authored }
+  - form: "spowodują"
+    pl: "Nie spowodują żadnych zmian."
+    ru: "Никаких перемен они не вызовут."
+    source: { kind: authored }
   - form: "spowoduje"
     pl: "Czy dawanie psu czosnku nie spowoduje problemów?"
     ru: "Не приведёт ли к проблемам кормление собаки чесноком?"
@@ -265,4 +296,28 @@ formExamples:
   - form: "spowoduje"
     pl: "To spowoduje opóźnienie."
     ru: "Это вызовет задержку."
+    source: { kind: authored }
+  - form: "spowodujesz"
+    pl: "Spowodujesz tylko zamieszanie."
+    ru: "Ты вызовешь только переполох."
+    source: { kind: authored }
+  - form: "spowodujesz"
+    pl: "Niczego tym nie spowodujesz."
+    ru: "Этим ты ничего не добьёшься."
+    source: { kind: authored }
+  - form: "spowodujesz"
+    pl: "Spowodujesz więcej szkody niż pożytku."
+    ru: "Ты принесёшь больше вреда, чем пользы."
+    source: { kind: authored }
+  - form: "spowoduję"
+    pl: "Spowoduję tylko zamieszanie."
+    ru: "Я вызову только переполох."
+    source: { kind: authored }
+  - form: "spowoduję"
+    pl: "Niczego tym nie spowoduję."
+    ru: "Этим я ничего не добьюсь."
+    source: { kind: authored }
+  - form: "spowoduję"
+    pl: "Nie spowoduję żadnych szkód."
+    ru: "Никакого ущерба я не причиню."
     source: { kind: authored }
