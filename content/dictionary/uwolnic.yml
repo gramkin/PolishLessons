@@ -44,7 +44,6 @@ idioms:
   - { pl: "uwolnić zakładników", ru: "освободить заложников" }
   - { pl: "uwolnić od zarzutów", ru: "снять обвинения" }
 formExamplesSkip:
-  - { form: "uwolni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uwolnicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "uwolnienia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "uwolnieniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -58,15 +57,10 @@ formExamplesSkip:
   - { form: "uwolniłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "uwolniłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uwolniłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uwolniłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "uwolniłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uwolniło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uwolniłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "uwolniły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uwolniłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "uwolniłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -82,9 +76,20 @@ formExamplesSkip:
   - { form: "uwolnionych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "uwolnionym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "uwolnionymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "uwolnisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uwolniwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
+  - form: "uwolni"
+    pl: "Sąd go uwolni."
+    ru: "Суд его освободит."
+    source: { kind: authored }
+  - form: "uwolni"
+    pl: "To go uwolni od podejrzeń."
+    ru: "Это освободит его от подозрений."
+    source: { kind: authored }
+  - form: "uwolni"
+    pl: "Nikt nas stąd nie uwolni."
+    ru: "Никто нас отсюда не освободит."
+    source: { kind: authored }
   - form: "uwolnią"
     pl: "Jutro uwolnią więźniów."
     ru: "Завтра освободят заключённых."
@@ -205,6 +210,42 @@ formExamples:
     pl: "Uwolniła psa z łańcucha."
     ru: "Она спустила собаку с цепи."
     source: { kind: authored }
+  - form: "uwolniłam"
+    pl: "Uwolniłam ptaka z klatki."
+    ru: "Я выпустила птицу из клетки."
+    source: { kind: authored }
+  - form: "uwolniłam"
+    pl: "Uwolniłam się od tego obowiązku."
+    ru: "Я освободилась от этой обязанности."
+    source: { kind: authored }
+  - form: "uwolniłam"
+    pl: "Nikogo nie uwolniłam."
+    ru: "Я никого не освободила."
+    source: { kind: authored }
+  - form: "uwolniłaś"
+    pl: "Uwolniłaś ptaka z klatki."
+    ru: "Ты выпустила птицу из клетки."
+    source: { kind: authored }
+  - form: "uwolniłaś"
+    pl: "Uwolniłaś się od tego obowiązku."
+    ru: "Ты освободилась от этой обязанности."
+    source: { kind: authored }
+  - form: "uwolniłaś"
+    pl: "Nikogo nie uwolniłaś."
+    ru: "Ты никого не освободила."
+    source: { kind: authored }
+  - form: "uwolniłem"
+    pl: "Uwolniłem ptaka z klatki."
+    ru: "Я выпустил птицу из клетки."
+    source: { kind: authored }
+  - form: "uwolniłem"
+    pl: "Uwolniłem się od tego obowiązku."
+    ru: "Я освободился от этой обязанности."
+    source: { kind: authored }
+  - form: "uwolniłem"
+    pl: "Nikogo nie uwolniłem."
+    ru: "Я никого не освободил."
+    source: { kind: authored }
   - form: "uwolniłeś"
     pl: "Uwolniłeś potwora."
     ru: "Ты выпустил чудовище."
@@ -216,6 +257,30 @@ formExamples:
   - form: "uwolniłeś"
     pl: "Uwolniłeś nas od kłopotu."
     ru: "Ты избавил нас от хлопот."
+    source: { kind: authored }
+  - form: "uwolniło"
+    pl: "Wiele osób uwolniło się od długów."
+    ru: "Многие освободились от долгов."
+    source: { kind: authored }
+  - form: "uwolniło"
+    pl: "To uwolniło go od podejrzeń."
+    ru: "Это освободило его от подозрений."
+    source: { kind: authored }
+  - form: "uwolniło"
+    pl: "Dziecko uwolniło ptaka z klatki."
+    ru: "Ребёнок выпустил птицу из клетки."
+    source: { kind: authored }
+  - form: "uwolniły"
+    pl: "Kobiety uwolniły się od dawnych zobowiązań."
+    ru: "Женщины освободились от прежних обязательств."
+    source: { kind: authored }
+  - form: "uwolniły"
+    pl: "Nowe przepisy uwolniły rynek."
+    ru: "Новые правила освободили рынок."
+    source: { kind: authored }
+  - form: "uwolniły"
+    pl: "Nikogo nie uwolniły."
+    ru: "Они никого не освободили."
     source: { kind: authored }
   - form: "uwolniono"
     pl: "Zakładników uwolniono całych i zdrowych."
@@ -240,4 +305,16 @@ formExamples:
   - form: "uwolniony"
     pl: "Ptak został uwolniony."
     ru: "Птица была выпущена."
+    source: { kind: authored }
+  - form: "uwolnisz"
+    pl: "Uwolnisz ptaka z klatki?"
+    ru: "Ты выпустишь птицу из клетки?"
+    source: { kind: authored }
+  - form: "uwolnisz"
+    pl: "Uwolnisz się od tego obowiązku."
+    ru: "Ты освободишься от этой обязанности."
+    source: { kind: authored }
+  - form: "uwolnisz"
+    pl: "Nikogo stąd nie uwolnisz."
+    ru: "Ты никого отсюда не освободишь."
     source: { kind: authored }

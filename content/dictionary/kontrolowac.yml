@@ -49,21 +49,13 @@ formExamplesSkip:
   - { form: "kontrolowalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "kontrolowaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "kontrolował", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontrolowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontrolowałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontrolowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontrolowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontrolowałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontrolowałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontrolowałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontrolowało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontrolowałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontrolowały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontrolowałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontrolowałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -97,8 +89,6 @@ formExamplesSkip:
   - { form: "kontrolujcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "kontrolujecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "kontrolujemy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "kontrolujesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontroluję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontrolujmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
   - form: "kontrolować"
@@ -124,6 +114,102 @@ formExamples:
   - form: "kontrolowali"
     pl: "Rodzice kontrolowali jego oceny."
     ru: "Родители проверяли его оценки."
+    source: { kind: authored }
+  - form: "kontrolował"
+    pl: "Kontrolował każdy wydatek."
+    ru: "Он контролировал каждый расход."
+    source: { kind: authored }
+  - form: "kontrolował"
+    pl: "Kontrolował bilety w pociągu."
+    ru: "Он проверял билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolował"
+    pl: "Nie kontrolował sytuacji."
+    ru: "Он не контролировал ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowała"
+    pl: "Kontrolowała każdy wydatek."
+    ru: "Она контролировала каждый расход."
+    source: { kind: authored }
+  - form: "kontrolowała"
+    pl: "Kontrolowała bilety w pociągu."
+    ru: "Она проверяла билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolowała"
+    pl: "Nie kontrolowała sytuacji."
+    ru: "Она не контролировала ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowałam"
+    pl: "Kontrolowałam każdy wydatek."
+    ru: "Я контролировала каждый расход."
+    source: { kind: authored }
+  - form: "kontrolowałam"
+    pl: "Kontrolowałam bilety w pociągu."
+    ru: "Я проверяла билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolowałam"
+    pl: "Nie kontrolowałam sytuacji."
+    ru: "Я не контролировала ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowałaś"
+    pl: "Kontrolowałaś każdy wydatek."
+    ru: "Ты контролировала каждый расход."
+    source: { kind: authored }
+  - form: "kontrolowałaś"
+    pl: "Kontrolowałaś bilety w pociągu."
+    ru: "Ты проверяла билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolowałaś"
+    pl: "Nie kontrolowałaś sytuacji."
+    ru: "Ты не контролировала ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowałem"
+    pl: "Kontrolowałem każdy wydatek."
+    ru: "Я контролировал каждый расход."
+    source: { kind: authored }
+  - form: "kontrolowałem"
+    pl: "Kontrolowałem bilety w pociągu."
+    ru: "Я проверял билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolowałem"
+    pl: "Nie kontrolowałem sytuacji."
+    ru: "Я не контролировал ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowałeś"
+    pl: "Kontrolowałeś każdy wydatek."
+    ru: "Ты контролировал каждый расход."
+    source: { kind: authored }
+  - form: "kontrolowałeś"
+    pl: "Kontrolowałeś bilety w pociągu."
+    ru: "Ты проверял билеты в поезде."
+    source: { kind: authored }
+  - form: "kontrolowałeś"
+    pl: "Nie kontrolowałeś sytuacji."
+    ru: "Ты не контролировал ситуацию."
+    source: { kind: authored }
+  - form: "kontrolowało"
+    pl: "Wiele osób kontrolowało wyniki."
+    ru: "Многие проверяли результаты."
+    source: { kind: authored }
+  - form: "kontrolowało"
+    pl: "Państwo kontrolowało ceny."
+    ru: "Государство контролировало цены."
+    source: { kind: authored }
+  - form: "kontrolowało"
+    pl: "Dziecko nie kontrolowało siły."
+    ru: "Ребёнок не рассчитывал силу."
+    source: { kind: authored }
+  - form: "kontrolowały"
+    pl: "Kobiety kontrolowały budżet."
+    ru: "Женщины контролировали бюджет."
+    source: { kind: authored }
+  - form: "kontrolowały"
+    pl: "Służby kontrolowały granicę."
+    ru: "Службы контролировали границу."
+    source: { kind: authored }
+  - form: "kontrolowały"
+    pl: "Nie kontrolowały sytuacji."
+    ru: "Они не контролировали ситуацию."
     source: { kind: authored }
   - form: "kontrolowania"
     pl: "Uczy się kontrolowania emocji."
@@ -185,6 +271,30 @@ formExamples:
     pl: "Niech się pan kontroluje."
     ru: "Держите себя в руках."
     source: { kind: translated, id: 11636334 }
+  - form: "kontrolujesz"
+    pl: "Kontrolujesz wydatki?"
+    ru: "Ты контролируешь расходы?"
+    source: { kind: authored }
+  - form: "kontrolujesz"
+    pl: "Nie kontrolujesz sytuacji."
+    ru: "Ты не контролируешь ситуацию."
+    source: { kind: authored }
+  - form: "kontrolujesz"
+    pl: "Kontrolujesz każdy szczegół."
+    ru: "Ты контролируешь каждую деталь."
+    source: { kind: authored }
+  - form: "kontroluję"
+    pl: "Kontroluję wydatki."
+    ru: "Я контролирую расходы."
+    source: { kind: authored }
+  - form: "kontroluję"
+    pl: "Nie kontroluję sytuacji."
+    ru: "Я не контролирую ситуацию."
+    source: { kind: authored }
+  - form: "kontroluję"
+    pl: "Kontroluję każdy szczegół."
+    ru: "Я контролирую каждую деталь."
+    source: { kind: authored }
   - form: "będę kontrolować"
     pl: "Będę kontrolować bilety w pociągu."
     ru: "Я буду проверять билеты в поезде."
