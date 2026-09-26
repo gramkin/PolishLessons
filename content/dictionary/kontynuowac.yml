@@ -55,15 +55,10 @@ formExamplesSkip:
   - { form: "kontynuowałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontynuowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontynuowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontynuowałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontynuowałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontynuowało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontynuowałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "kontynuowały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontynuowałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "kontynuowałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -81,7 +76,6 @@ formExamplesSkip:
   - { form: "kontynuowanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "kontynuowanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "kontynuowanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "kontynuują", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontynuując", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "kontynuująca", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "kontynuującą", reason: "формы действительного причастия, в корпусе примеров нет" }
@@ -95,7 +89,6 @@ formExamplesSkip:
   - { form: "kontynuującymi", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "kontynuujcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "kontynuujecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "kontynuuję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kontynuujmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
   - form: "kontynuować"
@@ -146,6 +139,30 @@ formExamples:
     pl: "Rozmowa ich dwojga kontynuowała nieprzerwana."
     ru: "Разговор этих двоих продолжался без перерыва."
     source: { kind: translated, id: 13858594 }
+  - form: "kontynuowałam"
+    pl: "Kontynuowałam pracę mimo zmęczenia."
+    ru: "Я продолжала работу несмотря на усталость."
+    source: { kind: authored }
+  - form: "kontynuowałam"
+    pl: "Kontynuowałam naukę na uniwersytecie."
+    ru: "Я продолжала учёбу в университете."
+    source: { kind: authored }
+  - form: "kontynuowałam"
+    pl: "Nie kontynuowałam tego tematu."
+    ru: "Я не продолжала эту тему."
+    source: { kind: authored }
+  - form: "kontynuowałaś"
+    pl: "Kontynuowałaś pracę mimo zmęczenia."
+    ru: "Ты продолжала работу несмотря на усталость."
+    source: { kind: authored }
+  - form: "kontynuowałaś"
+    pl: "Kontynuowałaś naukę na uniwersytecie."
+    ru: "Ты продолжала учёбу в университете."
+    source: { kind: authored }
+  - form: "kontynuowałaś"
+    pl: "Nie kontynuowałaś tego tematu."
+    ru: "Ты не продолжала эту тему."
+    source: { kind: authored }
   - form: "kontynuowałem"
     pl: "Kontynuowałem pracę."
     ru: "Я продолжил работу."
@@ -157,6 +174,42 @@ formExamples:
   - form: "kontynuowałem"
     pl: "Kontynuowałem czytanie książki."
     ru: "Я продолжил читать книгу."
+    source: { kind: authored }
+  - form: "kontynuowałeś"
+    pl: "Kontynuowałeś pracę mimo zmęczenia."
+    ru: "Ты продолжал работу несмотря на усталость."
+    source: { kind: authored }
+  - form: "kontynuowałeś"
+    pl: "Kontynuowałeś naukę na uniwersytecie."
+    ru: "Ты продолжал учёбу в университете."
+    source: { kind: authored }
+  - form: "kontynuowałeś"
+    pl: "Nie kontynuowałeś tego tematu."
+    ru: "Ты не продолжал эту тему."
+    source: { kind: authored }
+  - form: "kontynuowało"
+    pl: "Wiele osób kontynuowało naukę."
+    ru: "Многие продолжали учёбу."
+    source: { kind: authored }
+  - form: "kontynuowało"
+    pl: "Miasto kontynuowało budowę mostu."
+    ru: "Город продолжал строительство моста."
+    source: { kind: authored }
+  - form: "kontynuowało"
+    pl: "Dziecko kontynuowało rysunek."
+    ru: "Ребёнок продолжал рисунок."
+    source: { kind: authored }
+  - form: "kontynuowały"
+    pl: "Firmy kontynuowały współpracę."
+    ru: "Фирмы продолжали сотрудничество."
+    source: { kind: authored }
+  - form: "kontynuowały"
+    pl: "Kobiety kontynuowały rozmowę."
+    ru: "Женщины продолжали разговор."
+    source: { kind: authored }
+  - form: "kontynuowały"
+    pl: "Dziewczyny kontynuowały wędrówkę."
+    ru: "Девушки продолжали поход."
     source: { kind: authored }
   - form: "kontynuowana"
     pl: "Gra będzie kontynuowana bez względu na pogodę."
@@ -218,6 +271,18 @@ formExamples:
     pl: "Kontynuuj czytanie."
     ru: "Продолжай читать."
     source: { kind: translated, id: 10597539 }
+  - form: "kontynuują"
+    pl: "Kontynuują prace nad projektem."
+    ru: "Они продолжают работу над проектом."
+    source: { kind: authored }
+  - form: "kontynuują"
+    pl: "Kontynuują rozmowy."
+    ru: "Они продолжают переговоры."
+    source: { kind: authored }
+  - form: "kontynuują"
+    pl: "Nie kontynuują tego tematu."
+    ru: "Они не продолжают эту тему."
+    source: { kind: authored }
   - form: "kontynuuje"
     pl: "Armia kontynuuje swoją operację antyterrorystyczną."
     ru: "Армия продолжает свою антитеррористическую операцию."
@@ -253,6 +318,18 @@ formExamples:
   - form: "kontynuujesz"
     pl: "Dlaczego kontynuujesz?"
     ru: "Почему ты продолжаешь?"
+    source: { kind: authored }
+  - form: "kontynuuję"
+    pl: "Kontynuuję pracę nad projektem."
+    ru: "Я продолжаю работу над проектом."
+    source: { kind: authored }
+  - form: "kontynuuję"
+    pl: "Kontynuuję naukę."
+    ru: "Я продолжаю учёбу."
+    source: { kind: authored }
+  - form: "kontynuuję"
+    pl: "Nie kontynuuję tego tematu."
+    ru: "Я не продолжаю эту тему."
     source: { kind: authored }
   - form: "będę kontynuować"
     pl: "Będę kontynuować pracę nad książką."
