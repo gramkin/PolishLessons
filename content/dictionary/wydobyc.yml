@@ -44,12 +44,6 @@ formExamplesSkip:
   - { form: "wydobądź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobądźcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobądźmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędzie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędziecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędziemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wydobędziesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobyci", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobycia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobyciem", reason: "в корпусе нет примеров для этой формы" }
@@ -93,6 +87,78 @@ formExamplesSkip:
   - { form: "wydobytymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wydobywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "wydobędą"
+    pl: "Wydobędą węgiel z kopalni."
+    ru: "Они добудут уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędą"
+    pl: "Wydobędą z niego prawdę."
+    ru: "Они вытянут из него правду."
+    source: { kind: authored }
+  - form: "wydobędą"
+    pl: "Nie wydobędą stąd ani słowa."
+    ru: "Они отсюда ни слова не вытянут."
+    source: { kind: authored }
+  - form: "wydobędę"
+    pl: "Wydobędę węgiel z kopalni."
+    ru: "Я добуду уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędę"
+    pl: "Wydobędę z niego prawdę."
+    ru: "Я вытяну из него правду."
+    source: { kind: authored }
+  - form: "wydobędę"
+    pl: "Nie wydobędę stąd ani słowa."
+    ru: "Я отсюда ни слова не вытяну."
+    source: { kind: authored }
+  - form: "wydobędzie"
+    pl: "Wydobędzie węgiel z kopalni."
+    ru: "Он добудет уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędzie"
+    pl: "Wydobędzie z niego prawdę."
+    ru: "Он вытянет из него правду."
+    source: { kind: authored }
+  - form: "wydobędzie"
+    pl: "Nie wydobędzie stąd ani słowa."
+    ru: "Он отсюда ни слова не вытянет."
+    source: { kind: authored }
+  - form: "wydobędziecie"
+    pl: "Wydobędziecie węgiel z kopalni."
+    ru: "Вы добудете уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędziecie"
+    pl: "Wydobędziecie z niego prawdę."
+    ru: "Вы вытяните из него правду."
+    source: { kind: authored }
+  - form: "wydobędziecie"
+    pl: "Nie wydobędziecie stąd ani słowa."
+    ru: "Вы отсюда ни слова не вытяните."
+    source: { kind: authored }
+  - form: "wydobędziemy"
+    pl: "Wydobędziemy węgiel z kopalni."
+    ru: "Мы добудем уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędziemy"
+    pl: "Wydobędziemy z niego prawdę."
+    ru: "Мы вытянем из него правду."
+    source: { kind: authored }
+  - form: "wydobędziemy"
+    pl: "Nie wydobędziemy stąd ani słowa."
+    ru: "Мы отсюда ни слова не вытянем."
+    source: { kind: authored }
+  - form: "wydobędziesz"
+    pl: "Wydobędziesz węgiel z kopalni."
+    ru: "Ты добудешь уголь из шахты."
+    source: { kind: authored }
+  - form: "wydobędziesz"
+    pl: "Wydobędziesz z niego prawdę."
+    ru: "Ты вытянешь из него правду."
+    source: { kind: authored }
+  - form: "wydobędziesz"
+    pl: "Nie wydobędziesz stąd ani słowa."
+    ru: "Ты отсюда ни слова не вытянешь."
+    source: { kind: authored }
   - form: "wydobycie"
     pl: "Wydobycie drewna jest zabronione."
     ru: "Добыча древесины запрещена."
@@ -116,4 +182,28 @@ formExamples:
   - form: "wydobyć"
     pl: "Trzeba wydobyć rannego spod gruzów."
     ru: "Нужно извлечь раненого из-под обломков."
+    source: { kind: authored }
+  - form: "niech wydobędzie"
+    pl: "Niech wydobędzie węgiel z kopalni."
+    ru: "Пусть добудет уголь из шахты."
+    source: { kind: authored }
+  - form: "niech wydobędzie"
+    pl: "Niech wydobędzie z niego prawdę."
+    ru: "Пусть вытянет из него правду."
+    source: { kind: authored }
+  - form: "niech wydobędzie"
+    pl: "Niech wydobędzie to na światło dzienne."
+    ru: "Пусть вытащит это на свет."
+    source: { kind: authored }
+  - form: "niech wydobędą"
+    pl: "Niech wydobędą węgiel z kopalni."
+    ru: "Пусть добудут уголь из шахты."
+    source: { kind: authored }
+  - form: "niech wydobędą"
+    pl: "Niech wydobędą z niego prawdę."
+    ru: "Пусть вытянут из него правду."
+    source: { kind: authored }
+  - form: "niech wydobędą"
+    pl: "Niech wydobędą to na światło dzienne."
+    ru: "Пусть вытащат это на свет."
     source: { kind: authored }
