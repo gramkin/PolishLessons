@@ -32,6 +32,7 @@ senses:
         ru: "Что пропало?"
         source: { kind: translated, id: 8547606 }
 notes:
+  - { kind: usage, text: "Безличная форма zaginięto оставлена без примеров: zaginąć непереходный, и форма на -no/-to у таких глаголов практически не встречается. Говорят ktoś zaginął, zaginęło dziecko." }
   - { kind: usage, text: "Глагол о людях значит «пропасть без вести»: zaginiony «пропавший без вести», osoba zaginiona «пропавший человек»." }
   - { kind: usage, text: "Базовая форма zaginąć в корпусе не встречается ни разу — слово живёт в прошедшем времени: zaginął, zaginęła, zaginęły." }
   - { kind: false-friend, text: "Не путайте с zaginać «загибать» — другой глагол, отличается одной буквой в основе (ą против a). В корпусе он не встречается вовсе." }
@@ -47,16 +48,10 @@ idioms:
   - { pl: "zaginąć bez śladu", ru: "пропасть без следа" }
   - { pl: "zgłosić zaginięcie", ru: "заявить о пропаже" }
 formExamplesSkip:
-  - { form: "zaginą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaginąć", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaginąłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginąłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginąłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zaginąłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaginąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaginąwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "zaginę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaginęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaginęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęlibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -65,8 +60,6 @@ formExamplesSkip:
   - { form: "zaginęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zaginęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaginęłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaginęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zaginęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -75,16 +68,38 @@ formExamplesSkip:
   - { form: "zaginęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "zaginiecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zaginiemy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "zaginiesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaginięcia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zaginięcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zaginięciem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zaginięciu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zaginięto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagiń", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagińcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zagińmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
+  - form: "zaginą"
+    pl: "Zaginą bez wieści."
+    ru: "Они пропадут без вести."
+    source: { kind: authored }
+  - form: "zaginą"
+    pl: "Takie listy zaginą w archiwum."
+    ru: "Такие письма затеряются в архиве."
+    source: { kind: authored }
+  - form: "zaginą"
+    pl: "Nie zaginą, jeśli je opiszesz."
+    ru: "Они не потеряются, если ты их подпишешь."
+    source: { kind: authored }
+  - form: "zaginąć"
+    pl: "Dokumenty mogły zaginąć w drodze."
+    ru: "Документы могли пропасть в дороге."
+    source: { kind: authored }
+  - form: "zaginąć"
+    pl: "Nie chcę zaginąć w tłumie."
+    ru: "Я не хочу затеряться в толпе."
+    source: { kind: authored }
+  - form: "zaginąć"
+    pl: "Taki list nie mógł zaginąć."
+    ru: "Такое письмо не могло пропасть."
+    source: { kind: authored }
   - form: "zaginął"
     pl: "Tom zaginął."
     ru: "Том пропал."
@@ -97,6 +112,54 @@ formExamples:
     pl: "Jeden z psów policyjnych zaginął."
     ru: "Одна из полицейских собак пропала."
     source: { kind: translated, id: 13944574 }
+  - form: "zaginąłem"
+    pl: "Zaginąłem na dwa dni."
+    ru: "Я пропал на два дня."
+    source: { kind: authored }
+  - form: "zaginąłem"
+    pl: "W tym mieście prawie zaginąłem."
+    ru: "В этом городе я едва не потерялся."
+    source: { kind: authored }
+  - form: "zaginąłem"
+    pl: "Nie zaginąłem, tylko wyłączyłem telefon."
+    ru: "Я не пропал, просто выключил телефон."
+    source: { kind: authored }
+  - form: "zaginąłeś"
+    pl: "Zaginąłeś na dwa dni."
+    ru: "Ты пропал на два дня."
+    source: { kind: authored }
+  - form: "zaginąłeś"
+    pl: "W tym mieście prawie zaginąłeś."
+    ru: "В этом городе ты едва не потерялся."
+    source: { kind: authored }
+  - form: "zaginąłeś"
+    pl: "Nie zaginąłeś, tylko wyłączyłeś telefon."
+    ru: "Ты не пропал, просто выключил телефон."
+    source: { kind: authored }
+  - form: "zaginę"
+    pl: "Nie zaginę w takim tłumie."
+    ru: "В такой толпе я не потеряюсь."
+    source: { kind: authored }
+  - form: "zaginę"
+    pl: "Zaginę na kilka dni."
+    ru: "Я пропаду на несколько дней."
+    source: { kind: authored }
+  - form: "zaginę"
+    pl: "Bez mapy tu zaginę."
+    ru: "Без карты я тут потеряюсь."
+    source: { kind: authored }
+  - form: "zaginęli"
+    pl: "Zaginęli w górach."
+    ru: "Они пропали в горах."
+    source: { kind: authored }
+  - form: "zaginęli"
+    pl: "Zaginęli bez wieści."
+    ru: "Они пропали без вести."
+    source: { kind: authored }
+  - form: "zaginęli"
+    pl: "Nie zaginęli — wrócili nad ranem."
+    ru: "Они не пропали — вернулись под утро."
+    source: { kind: authored }
   - form: "zaginęła"
     pl: "Tom wezwał policję i zgłosił, że jego córka zaginęła."
     ru: "Том вызвал полицию и заявил, что его дочь пропала."
@@ -108,6 +171,30 @@ formExamples:
   - form: "zaginęła"
     pl: "Paczka zaginęła po drodze."
     ru: "Посылка пропала по дороге."
+    source: { kind: authored }
+  - form: "zaginęłam"
+    pl: "Zaginęłam na dwa dni."
+    ru: "Я пропала на два дня."
+    source: { kind: authored }
+  - form: "zaginęłam"
+    pl: "W tym mieście prawie zaginęłam."
+    ru: "В этом городе я едва не потерялась."
+    source: { kind: authored }
+  - form: "zaginęłam"
+    pl: "Nie zaginęłam, tylko wyłączyłam telefon."
+    ru: "Я не пропала, просто выключила телефон."
+    source: { kind: authored }
+  - form: "zaginęłaś"
+    pl: "Zaginęłaś na dwa dni."
+    ru: "Ты пропала на два дня."
+    source: { kind: authored }
+  - form: "zaginęłaś"
+    pl: "W tym mieście prawie zaginęłaś."
+    ru: "В этом городе ты едва не потерялась."
+    source: { kind: authored }
+  - form: "zaginęłaś"
+    pl: "Nie zaginęłaś, tylko wyłączyłaś telefon."
+    ru: "Ты не пропала, просто выключила телефон."
     source: { kind: authored }
   - form: "zaginęło"
     pl: "Co zaginęło?"
@@ -144,4 +231,28 @@ formExamples:
   - form: "zaginie"
     pl: "Ta tradycja nie zaginie."
     ru: "Эта традиция не исчезнет."
+    source: { kind: authored }
+  - form: "zaginiesz"
+    pl: "Nie zaginiesz w takim tłumie."
+    ru: "В такой толпе ты не потеряешься."
+    source: { kind: authored }
+  - form: "zaginiesz"
+    pl: "Zaginiesz na kilka dni?"
+    ru: "Ты пропадёшь на несколько дней?"
+    source: { kind: authored }
+  - form: "zaginiesz"
+    pl: "Bez mapy tu zaginiesz."
+    ru: "Без карты ты тут потеряешься."
+    source: { kind: authored }
+  - form: "zagiń"
+    pl: "Zagiń mi z oczu."
+    ru: "Пропади с глаз моих."
+    source: { kind: authored }
+  - form: "zagiń"
+    pl: "Zagiń na chwilę, muszę pomyśleć."
+    ru: "Исчезни на минуту, мне надо подумать."
+    source: { kind: authored }
+  - form: "zagiń"
+    pl: "Nie zagiń mi znowu na tydzień."
+    ru: "Не пропадай у меня опять на неделю."
     source: { kind: authored }

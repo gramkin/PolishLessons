@@ -47,7 +47,6 @@ idioms:
   - { pl: "warto odwiedzić", ru: "стоит посетить" }
   - { pl: "odwiedzić stronę", ru: "посетить сайт" }
 formExamplesSkip:
-  - { form: "odwiedzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwiedzeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odwiedzeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "odwiedzeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -58,11 +57,8 @@ formExamplesSkip:
   - { form: "odwiedziłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odwiedziłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odwiedziłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odwiedziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwiedziłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odwiedziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwiedziłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odwiedziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwiedziłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odwiedziłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "odwiedziłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -82,6 +78,18 @@ formExamplesSkip:
   - { form: "odwiedzonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odwiedźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
 formExamples:
+  - form: "odwiedzą"
+    pl: "Odwiedzą nas w niedzielę."
+    ru: "Они навестят нас в воскресенье."
+    source: { kind: authored }
+  - form: "odwiedzą"
+    pl: "Odwiedzą muzeum po drodze."
+    ru: "Они посетят музей по дороге."
+    source: { kind: authored }
+  - form: "odwiedzą"
+    pl: "Nikogo nie odwiedzą."
+    ru: "Они никого не навестят."
+    source: { kind: authored }
   - form: "odwiedzenia"
     pl: "To muzeum jest warte odwiedzenia."
     ru: "Этот музей стоит посетить."
@@ -214,6 +222,18 @@ formExamples:
     pl: "Odwiedziłam trzy muzea."
     ru: "Я посетила три музея."
     source: { kind: authored }
+  - form: "odwiedziłaś"
+    pl: "Odwiedziłaś nas w niedzielę."
+    ru: "Ты навестила нас в воскресенье."
+    source: { kind: authored }
+  - form: "odwiedziłaś"
+    pl: "Odwiedziłaś muzeum po drodze."
+    ru: "Ты посетила музей по дороге."
+    source: { kind: authored }
+  - form: "odwiedziłaś"
+    pl: "Nikogo nie odwiedziłaś."
+    ru: "Ты никого не навестила."
+    source: { kind: authored }
   - form: "odwiedziłby"
     pl: "On też odwiedziłby Chiny."
     ru: "Он тоже посетил бы Китай."
@@ -262,6 +282,30 @@ formExamples:
     pl: "Nie umiem opisać, jak jestem szczęśliwy, że nas odwiedziłeś."
     ru: "Не могу описать, как я счастлив, что ты нас навестил."
     source: { kind: translated, id: 964999 }
+  - form: "odwiedziło"
+    pl: "Muzeum odwiedziło tysiąc osób."
+    ru: "Музей посетила тысяча человек."
+    source: { kind: authored }
+  - form: "odwiedziło"
+    pl: "Wiele osób odwiedziło chorego."
+    ru: "Многие навестили больного."
+    source: { kind: authored }
+  - form: "odwiedziło"
+    pl: "Dziecko odwiedziło babcię w szpitalu."
+    ru: "Ребёнок навестил бабушку в больнице."
+    source: { kind: authored }
+  - form: "odwiedziły"
+    pl: "Kobiety odwiedziły chorą sąsiadkę."
+    ru: "Женщины навестили больную соседку."
+    source: { kind: authored }
+  - form: "odwiedziły"
+    pl: "Wycieczki odwiedziły zamek."
+    ru: "Экскурсии посетили замок."
+    source: { kind: authored }
+  - form: "odwiedziły"
+    pl: "Nikogo nie odwiedziły."
+    ru: "Они никого не навестили."
+    source: { kind: authored }
   - form: "odwiedzimy"
     pl: "Odwiedzimy Cię jutro."
     ru: "Мы навестим тебя завтра."

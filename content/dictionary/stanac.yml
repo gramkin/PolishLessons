@@ -41,6 +41,7 @@ senses:
         ru: "Мартино встал на сторону Римы и защищал её."
         source: { kind: tatoeba, id: 12524367 }
 notes:
+  - { kind: usage, text: "Безличная форма stanięto оставлена без примеров: у непереходных глаголов положения форма на -no/-to почти не живёт. Когда нужно сказать «остановились на том, что…», берут средний род: stanęło na tym, że…" }
   - { kind: false-friend, text: "Форма stanie в текстах почти всегда принадлежит другим словам: w stanie «в состоянии» (существительное stan) и stanie się «случится» (глагол stać się). К stanąć «встать» она относится редко, поэтому в примерах пропущена." }
   - { kind: usage, text: "Отличайте stać «стоять» (быть в стоячем положении) от stanąć «встать, стать» (принять это положение). Русское «стоять — встать» различается так же." }
   - { kind: usage, text: "stanąć w kolejce — «встать в очередь»; stanąć na nogi — «встать на ноги», в том числе переносно." }
@@ -59,7 +60,6 @@ formExamplesSkip:
   - { form: "stanąłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanąłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanąłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "stanąwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "stanęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanęlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -68,8 +68,6 @@ formExamplesSkip:
   - { form: "stanęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "stanęło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "stanęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "stanęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -125,6 +123,18 @@ formExamples:
     pl: "Stanąłem po jego stronie w dyskusji."
     ru: "Я встал на его сторону в споре."
     source: { kind: translated, id: 356402 }
+  - form: "stanąłeś"
+    pl: "Stanąłeś w kolejce."
+    ru: "Ты встал в очередь."
+    source: { kind: authored }
+  - form: "stanąłeś"
+    pl: "Stanąłeś przed trudnym wyborem."
+    ru: "Ты оказался перед трудным выбором."
+    source: { kind: authored }
+  - form: "stanąłeś"
+    pl: "Stanąłeś na nogi po chorobie."
+    ru: "Ты встал на ноги после болезни."
+    source: { kind: authored }
   - form: "stanę"
     pl: "Szybko stanę na nogi."
     ru: "Я быстро встану на ноги."
@@ -184,6 +194,30 @@ formExamples:
   - form: "stanęłam"
     pl: "Stanęłam w kolejce do kasy."
     ru: "Я встала в очередь к кассе."
+    source: { kind: authored }
+  - form: "stanęłaś"
+    pl: "Stanęłaś w kolejce."
+    ru: "Ты встала в очередь."
+    source: { kind: authored }
+  - form: "stanęłaś"
+    pl: "Stanęłaś przed trudnym wyborem."
+    ru: "Ты оказалась перед трудным выбором."
+    source: { kind: authored }
+  - form: "stanęłaś"
+    pl: "Stanęłaś na nogi po chorobie."
+    ru: "Ты встала на ноги после болезни."
+    source: { kind: authored }
+  - form: "stanęło"
+    pl: "Stanęło na tym, że wyjeżdżamy."
+    ru: "Остановились на том, что уезжаем."
+    source: { kind: authored }
+  - form: "stanęło"
+    pl: "Miasto stanęło w korkach."
+    ru: "Город встал в пробках."
+    source: { kind: authored }
+  - form: "stanęło"
+    pl: "Wiele zakładów stanęło w zeszłym roku."
+    ru: "Многие заводы встали в прошлом году."
     source: { kind: authored }
   - form: "stanęły"
     pl: "Włosy stanęły mu dęba."

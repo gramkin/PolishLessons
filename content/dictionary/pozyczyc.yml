@@ -69,11 +69,8 @@ formExamplesSkip:
   - { form: "pożyczyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "pożyczyłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "pożyczyłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "pożyczyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pożyczyłby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "pożyczyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pożyczyłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "pożyczyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pożyczyłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "pożyczyłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "pożyczyłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -250,6 +247,18 @@ formExamples:
     pl: "Pożyczyłam mu książkę, ale on jej jeszcze nie oddał."
     ru: "Я одолжила ему книгу, но он её ещё не вернул."
     source: { kind: translated, id: 2178726 }
+  - form: "pożyczyłaś"
+    pl: "Pożyczyłaś mi samochód."
+    ru: "Ты одолжила мне машину."
+    source: { kind: authored }
+  - form: "pożyczyłaś"
+    pl: "Pożyczyłaś od niego pieniądze."
+    ru: "Ты заняла у него денег."
+    source: { kind: authored }
+  - form: "pożyczyłaś"
+    pl: "Nikomu nic nie pożyczyłaś."
+    ru: "Ты никому ничего не одолжила."
+    source: { kind: authored }
   - form: "pożyczyłbym"
     pl: "Trzeba było poprosić, pożyczyłbym ci tyle pieniędzy, ile potrzebowałeś."
     ru: "Надо было попросить, я одолжил бы тебе столько денег, сколько было нужно."
@@ -298,6 +307,30 @@ formExamples:
     pl: "Jutro oddam ci pieniądze, które mi pożyczyłeś."
     ru: "Завтра я верну тебе деньги, которые ты мне одолжил."
     source: { kind: translated, id: 3313673 }
+  - form: "pożyczyło"
+    pl: "Wiele osób pożyczyło mu pieniądze."
+    ru: "Многие одолжили ему денег."
+    source: { kind: authored }
+  - form: "pożyczyło"
+    pl: "Dziecko pożyczyło kredki od kolegi."
+    ru: "Ребёнок одолжил карандаши у приятеля."
+    source: { kind: authored }
+  - form: "pożyczyło"
+    pl: "Muzeum pożyczyło obraz od kolekcjonera."
+    ru: "Музей одолжил картину у коллекционера."
+    source: { kind: authored }
+  - form: "pożyczyły"
+    pl: "Kobiety pożyczyły sobie książki."
+    ru: "Женщины одолжили друг другу книги."
+    source: { kind: authored }
+  - form: "pożyczyły"
+    pl: "Biblioteki pożyczyły sobie zbiory."
+    ru: "Библиотеки одолжили друг другу фонды."
+    source: { kind: authored }
+  - form: "pożyczyły"
+    pl: "Nikomu nic nie pożyczyły."
+    ru: "Они никому ничего не одолжили."
+    source: { kind: authored }
   - form: "pożyczysz"
     pl: "Pożyczysz mi nóż?"
     ru: "Ты одолжишь мне свой нож?"
