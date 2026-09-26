@@ -70,7 +70,6 @@ idioms:
   - { pl: "bić rekord", ru: "бить рекорд" }
   - { pl: "bić się z myślami", ru: "терзаться сомнениями" }
 formExamplesSkip:
-  - { form: "bici", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biciu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "bijąc", reason: "в корпусе нет примеров для деепричастия настоящего времени" }
   - { form: "bijąca", reason: "в корпусе нет примеров для этой падежной формы действительного причастия" }
@@ -85,7 +84,6 @@ formExamplesSkip:
   - { form: "bijcie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "bijecie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "bijemy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "bijesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "bijmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "biliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "bilibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -94,12 +92,9 @@ formExamplesSkip:
   - { form: "biłaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "biłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "biłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biłby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "biłem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "biłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "biłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -107,11 +102,22 @@ formExamplesSkip:
   - { form: "biłyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "bitego", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "bitemu", reason: "в корпусе нет примеров для этой падежной формы причастия" }
-  - { form: "bito", reason: "в корпусе нет примеров для этой формы" }
   - { form: "bity", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "bitych", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "bitymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
 formExamples:
+  - form: "bici"
+    pl: "Byli bici na przesłuchaniach."
+    ru: "Их били на допросах."
+    source: { kind: authored }
+  - form: "bici"
+    pl: "Bici przez los, nie poddawali się."
+    ru: "Битые судьбой, они не сдавались."
+    source: { kind: authored }
+  - form: "bici"
+    pl: "Nie byli bici ani razu."
+    ru: "Их не били ни разу."
+    source: { kind: authored }
   - form: "bicia"
     pl: "Chciałbym wiedzieć, jak oduczyć moje dzieci bicia się między sobą."
     ru: "Я хотел бы знать, как отучить моих детей драться между собой."
@@ -208,6 +214,18 @@ formExamples:
     pl: "Zegar bije czwartą."
     ru: "Часы бьют четыре."
     source: { kind: translated, id: 909166 }
+  - form: "bijesz"
+    pl: "Bijesz brawo za głośno."
+    ru: "Ты слишком громко аплодируешь."
+    source: { kind: authored }
+  - form: "bijesz"
+    pl: "Bijesz w bęben zbyt mocno."
+    ru: "Ты слишком сильно бьёшь в барабан."
+    source: { kind: authored }
+  - form: "bijesz"
+    pl: "Nie bijesz rekordów, ale się starasz."
+    ru: "Рекордов ты не бьёшь, но стараешься."
+    source: { kind: authored }
   - form: "biję"
     pl: "Aleksander nie chce się uczyć, i dlatego ja biję Aleksandra."
     ru: "Александр не хочет учиться, и поэтому я бью Александра."
@@ -267,6 +285,42 @@ formExamples:
   - form: "biła"
     pl: "Matka nigdy go nie biła."
     ru: "Мать никогда его не била."
+    source: { kind: authored }
+  - form: "biłam"
+    pl: "Biłam brawo do końca."
+    ru: "Я аплодировала до конца."
+    source: { kind: authored }
+  - form: "biłam"
+    pl: "Biłam w bęben na próbie."
+    ru: "Я била в барабан на репетиции."
+    source: { kind: authored }
+  - form: "biłam"
+    pl: "Nigdy nikogo nie biłam."
+    ru: "Я никогда никого не била."
+    source: { kind: authored }
+  - form: "biłaś"
+    pl: "Biłaś brawo do końca."
+    ru: "Ты аплодировала до конца."
+    source: { kind: authored }
+  - form: "biłaś"
+    pl: "Biłaś w bęben na próbie."
+    ru: "Ты била в барабан на репетиции."
+    source: { kind: authored }
+  - form: "biłaś"
+    pl: "Nigdy nikogo nie biłaś."
+    ru: "Ты никогда никого не била."
+    source: { kind: authored }
+  - form: "biłem"
+    pl: "Biłem brawo do końca."
+    ru: "Я аплодировал до конца."
+    source: { kind: authored }
+  - form: "biłem"
+    pl: "Biłem w bęben na próbie."
+    ru: "Я бил в барабан на репетиции."
+    source: { kind: authored }
+  - form: "biłem"
+    pl: "Nigdy nikogo nie biłem."
+    ru: "Я никогда никого не бил."
     source: { kind: authored }
   - form: "biłeś"
     pl: "Biłeś się z Kenem?"
@@ -363,6 +417,18 @@ formExamples:
   - form: "bitej"
     pl: "Nie lubię bitej śmietany."
     ru: "Я не люблю взбитые сливки."
+    source: { kind: authored }
+  - form: "bito"
+    pl: "Bito w dzwony na trwogę."
+    ru: "Били в колокола, поднимая тревогу."
+    source: { kind: authored }
+  - form: "bito"
+    pl: "Bito brawo przez dziesięć minut."
+    ru: "Аплодировали десять минут."
+    source: { kind: authored }
+  - form: "bito"
+    pl: "Dawniej bito monety ręcznie."
+    ru: "Раньше монеты чеканили вручную."
     source: { kind: authored }
   - form: "bitym"
     pl: "Kiedy Nikodem bije Józefa, wtedy Nikodem jest bijącym, a Józef - bitym."

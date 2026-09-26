@@ -56,12 +56,10 @@ idioms:
   - { pl: "wyłączyć światło", ru: "выключить свет" }
   - { pl: "wyłączyć z gry", ru: "исключить из игры" }
 formExamplesSkip:
-  - { form: "wyłączeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączenia", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "wyłączenie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "wyłączeniem", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "wyłączeniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "wyłączę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "wyłączoną", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyłączonego", reason: "в корпусе нет примеров для этой падежной формы причастия" }
@@ -71,9 +69,7 @@ formExamplesSkip:
   - { form: "wyłączonych", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyłączonym", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyłączonymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
-  - { form: "wyłączy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączycie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "wyłączyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączyliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączylibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączylibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -84,16 +80,13 @@ formExamplesSkip:
   - { form: "wyłączyłby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączyłbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączyłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "wyłączyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączyłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "wyłączyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączyłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączyłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączyłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyłączyłyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "wyłączyłyśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "wyłączymy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "wyłączysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyłączywszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
 formExamples:
   - form: "wyłącz"
@@ -132,6 +125,30 @@ formExamples:
     pl: "Proszę, wyłączcie światło."
     ru: "Пожалуйста, выключите свет."
     source: { kind: authored }
+  - form: "wyłączeni"
+    pl: "Zostali wyłączeni z gry."
+    ru: "Их исключили из игры."
+    source: { kind: authored }
+  - form: "wyłączeni"
+    pl: "Wyłączeni z listy, nie mogli głosować."
+    ru: "Исключённые из списка, они не могли голосовать."
+    source: { kind: authored }
+  - form: "wyłączeni"
+    pl: "Byli wyłączeni z analizy."
+    ru: "Они были исключены из анализа."
+    source: { kind: authored }
+  - form: "wyłączę"
+    pl: "Wyłączę światło przed snem."
+    ru: "Я выключу свет перед сном."
+    source: { kind: authored }
+  - form: "wyłączę"
+    pl: "Wyłączę telefon na czas spotkania."
+    ru: "Я выключу телефон на время встречи."
+    source: { kind: authored }
+  - form: "wyłączę"
+    pl: "Nie wyłączę tego bez zgody."
+    ru: "Я не выключу это без разрешения."
+    source: { kind: authored }
   - form: "wyłączona"
     pl: "Nie wiem kiedy maszyna musi zostać wyłączona."
     ru: "Я не знаю, когда машину нужно выключить."
@@ -168,6 +185,18 @@ formExamples:
     pl: "Tom jest wyłączony z powodu grypy."
     ru: "Том выбыл из-за гриппа."
     source: { kind: translated, id: 4789066 }
+  - form: "wyłączy"
+    pl: "Wyłączy światło przed snem."
+    ru: "Он выключит свет перед сном."
+    source: { kind: authored }
+  - form: "wyłączy"
+    pl: "Automat wyłączy prąd o północy."
+    ru: "Автомат отключит ток в полночь."
+    source: { kind: authored }
+  - form: "wyłączy"
+    pl: "Nie wyłączy tego bez zgody."
+    ru: "Он не выключит это без разрешения."
+    source: { kind: authored }
   - form: "wyłączyć"
     pl: "Proszę wyłączyć radio."
     ru: "Выключите радио, пожалуйста."
@@ -180,6 +209,18 @@ formExamples:
     pl: "Możemy wyłączyć telewizor?"
     ru: "Можем выключить телевизор?"
     source: { kind: translated, id: 3435346 }
+  - form: "wyłączyli"
+    pl: "Wyłączyli prąd na godzinę."
+    ru: "Они отключили ток на час."
+    source: { kind: authored }
+  - form: "wyłączyli"
+    pl: "Wyłączyli go z zespołu."
+    ru: "Его исключили из команды."
+    source: { kind: authored }
+  - form: "wyłączyli"
+    pl: "Nie wyłączyli świateł."
+    ru: "Они не выключили свет."
+    source: { kind: authored }
   - form: "wyłączyliśmy"
     pl: "Odpłynęliśmy daleko od brzegu i wyłączyliśmy silnik."
     ru: "Мы отплыли подальше от берега и заглушили мотор."
@@ -264,3 +305,39 @@ formExamples:
     pl: "Wyłączyłeś komputer wychodząc z domu?"
     ru: "Ты выключил компьютер, уходя из дома?"
     source: { kind: translated, id: 7868571 }
+  - form: "wyłączyło"
+    pl: "Coś wyłączyło zasilanie."
+    ru: "Что-то отключило питание."
+    source: { kind: authored }
+  - form: "wyłączyło"
+    pl: "To wyłączyło go z gry na miesiąc."
+    ru: "Это вывело его из игры на месяц."
+    source: { kind: authored }
+  - form: "wyłączyło"
+    pl: "Nic nie wyłączyło alarmu."
+    ru: "Ничто не отключило сигнализацию."
+    source: { kind: authored }
+  - form: "wyłączyły"
+    pl: "Służby wyłączyły prąd na godzinę."
+    ru: "Службы отключили ток на час."
+    source: { kind: authored }
+  - form: "wyłączyły"
+    pl: "Te przepisy wyłączyły nas z przetargu."
+    ru: "Эти правила исключили нас из тендера."
+    source: { kind: authored }
+  - form: "wyłączyły"
+    pl: "Nie wyłączyły alarmu."
+    ru: "Они не отключили сигнализацию."
+    source: { kind: authored }
+  - form: "wyłączysz"
+    pl: "Wyłączysz światło przed snem?"
+    ru: "Ты выключишь свет перед сном?"
+    source: { kind: authored }
+  - form: "wyłączysz"
+    pl: "Wyłączysz telefon na czas spotkania."
+    ru: "Ты выключишь телефон на время встречи."
+    source: { kind: authored }
+  - form: "wyłączysz"
+    pl: "Nie wyłączysz tego bez zgody."
+    ru: "Ты не выключишь это без разрешения."
+    source: { kind: authored }

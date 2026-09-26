@@ -61,7 +61,6 @@ idioms:
 formExamplesSkip:
   - { form: "pokonacie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "pokonaj", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "pokonają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pokonajcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "pokonajmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "pokonaliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -70,14 +69,9 @@ formExamplesSkip:
   - { form: "pokonaliście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "pokonałaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "pokonałabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "pokonałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pokonałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pokonałby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "pokonałbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "pokonałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pokonało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pokonałoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "pokonały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pokonałyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "pokonałybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "pokonałybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -122,6 +116,18 @@ formExamples:
     pl: "Będzie musiał jeszcze pokonać wiele trudności."
     ru: "Ему ещё предстоит преодолеть огромные трудности."
     source: { kind: tatoeba, id: 365411 }
+  - form: "pokonają"
+    pl: "Pokonają przeciwnika w finale."
+    ru: "Они победят соперника в финале."
+    source: { kind: authored }
+  - form: "pokonają"
+    pl: "Pokonają tę trasę w dwa dni."
+    ru: "Они преодолеют этот маршрут за два дня."
+    source: { kind: authored }
+  - form: "pokonają"
+    pl: "Nie pokonają strachu tak łatwo."
+    ru: "Страх они так легко не преодолеют."
+    source: { kind: authored }
   - form: "pokonali"
     pl: "Pokonali nasz zespół trzema bramkami."
     ru: "Они обыграли нашу команду с разницей в три мяча."
@@ -182,6 +188,30 @@ formExamples:
     pl: "Sama pokonałabym tę trasę."
     ru: "Я бы сама преодолела этот маршрут."
     source: { kind: authored }
+  - form: "pokonałam"
+    pl: "Pokonałam przeciwnika w finale."
+    ru: "Я победила соперника в финале."
+    source: { kind: authored }
+  - form: "pokonałam"
+    pl: "Pokonałam tę trasę w dwa dni."
+    ru: "Я преодолела этот маршрут за два дня."
+    source: { kind: authored }
+  - form: "pokonałam"
+    pl: "Nie pokonałam strachu."
+    ru: "Я не преодолела страх."
+    source: { kind: authored }
+  - form: "pokonałaś"
+    pl: "Pokonałaś przeciwnika w finale."
+    ru: "Ты победила соперника в финале."
+    source: { kind: authored }
+  - form: "pokonałaś"
+    pl: "Pokonałaś tę trasę w dwa dni."
+    ru: "Ты преодолела этот маршрут за два дня."
+    source: { kind: authored }
+  - form: "pokonałaś"
+    pl: "Nie pokonałaś strachu."
+    ru: "Ты не преодолела страх."
+    source: { kind: authored }
   - form: "pokonałbym"
     pl: "Pokonałbym Toma w walce z palcem w nosie."
     ru: "Я бы победил Тома в драке одной левой."
@@ -205,6 +235,42 @@ formExamples:
   - form: "pokonałem"
     pl: "Pokonałem swój lęk."
     ru: "Я победил свой страх."
+    source: { kind: authored }
+  - form: "pokonałeś"
+    pl: "Pokonałeś przeciwnika w finale."
+    ru: "Ты победил соперника в финале."
+    source: { kind: authored }
+  - form: "pokonałeś"
+    pl: "Pokonałeś tę trasę w dwa dni."
+    ru: "Ты преодолел этот маршрут за два дня."
+    source: { kind: authored }
+  - form: "pokonałeś"
+    pl: "Nie pokonałeś strachu."
+    ru: "Ты не преодолел страх."
+    source: { kind: authored }
+  - form: "pokonało"
+    pl: "Zmęczenie pokonało go przed metą."
+    ru: "Усталость одолела его перед финишем."
+    source: { kind: authored }
+  - form: "pokonało"
+    pl: "To nas pokonało."
+    ru: "Это нас одолело."
+    source: { kind: authored }
+  - form: "pokonało"
+    pl: "Nic go nie pokonało."
+    ru: "Ничто его не одолело."
+    source: { kind: authored }
+  - form: "pokonały"
+    pl: "Trudności pokonały nasz zapał."
+    ru: "Трудности пересилили наш запал."
+    source: { kind: authored }
+  - form: "pokonały"
+    pl: "Pokonały przeciwniczki w finale."
+    ru: "Они победили соперниц в финале."
+    source: { kind: authored }
+  - form: "pokonały"
+    pl: "Nie pokonały strachu."
+    ru: "Они не преодолели страх."
     source: { kind: authored }
   - form: "pokonam"
     pl: "Nie pokonam ich."
