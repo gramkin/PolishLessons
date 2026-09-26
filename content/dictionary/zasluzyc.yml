@@ -46,13 +46,11 @@ idioms:
   - { pl: "dobrze sobie zasłużyć", ru: "вполне заслужить" }
 formExamplesSkip:
   - { form: "zasłuż", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zasłużą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zasłużenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zasłużenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zasłużeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zasłużeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "zasłużona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zasłużoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -65,8 +63,6 @@ formExamplesSkip:
   - { form: "zasłużonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zasłużonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zasłużonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłuży", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zasłużycie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zasłużyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zasłużyliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużylibyście", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -89,10 +85,20 @@ formExamplesSkip:
   - { form: "zasłużyłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zasłużyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zasłużyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zasłużymy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zasłużysz", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "zasłużywszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
+  - form: "zasłużą"
+    pl: "Zasłużą na nasze zaufanie."
+    ru: "Они заслужат наше доверие."
+    source: { kind: authored }
+  - form: "zasłużą"
+    pl: "Zasłużą na tę nagrodę."
+    ru: "Они заслужат эту награду."
+    source: { kind: authored }
+  - form: "zasłużą"
+    pl: "Nie zasłużą na naganę."
+    ru: "Они не заслужат выговора."
+    source: { kind: authored }
   - form: "zasłużeni"
     pl: "Eksperci gospodarczy kandydata Obamy to raczej zasłużeni neoliberałowie."
     ru: "Экономические эксперты кандидата Обамы — скорее заслуженные неолибералы."
@@ -104,6 +110,42 @@ formExamples:
   - form: "zasłużeni"
     pl: "Zasłużeni dostali medale."
     ru: "Заслуженные получили медали."
+    source: { kind: authored }
+  - form: "zasłużę"
+    pl: "Zasłużę na twoje zaufanie."
+    ru: "Я заслужу твоё доверие."
+    source: { kind: authored }
+  - form: "zasłużę"
+    pl: "Zasłużę na tę nagrodę."
+    ru: "Я заслужу эту награду."
+    source: { kind: authored }
+  - form: "zasłużę"
+    pl: "Nie zasłużę na naganę."
+    ru: "Я не заслужу выговора."
+    source: { kind: authored }
+  - form: "zasłuży"
+    pl: "Zasłuży na nasze zaufanie."
+    ru: "Он заслужит наше доверие."
+    source: { kind: authored }
+  - form: "zasłuży"
+    pl: "Zasłuży na tę nagrodę."
+    ru: "Он заслужит эту награду."
+    source: { kind: authored }
+  - form: "zasłuży"
+    pl: "Nie zasłuży na naganę."
+    ru: "Он не заслужит выговора."
+    source: { kind: authored }
+  - form: "zasłużycie"
+    pl: "Zasłużycie na nasze zaufanie."
+    ru: "Вы заслужите наше доверие."
+    source: { kind: authored }
+  - form: "zasłużycie"
+    pl: "Zasłużycie na tę nagrodę."
+    ru: "Вы заслужите эту награду."
+    source: { kind: authored }
+  - form: "zasłużycie"
+    pl: "Nie zasłużycie na naganę."
+    ru: "Вы не заслужите выговора."
     source: { kind: authored }
   - form: "zasłużyć"
     pl: "Na zaufanie trzeba sobie zasłużyć."
@@ -164,4 +206,52 @@ formExamples:
   - form: "zasłużyłeś"
     pl: "Niczym sobie na to nie zasłużyłeś."
     ru: "Ты ничем этого не заслужил."
+    source: { kind: authored }
+  - form: "zasłużymy"
+    pl: "Zasłużymy na wasze zaufanie."
+    ru: "Мы заслужим ваше доверие."
+    source: { kind: authored }
+  - form: "zasłużymy"
+    pl: "Zasłużymy na tę nagrodę."
+    ru: "Мы заслужим эту награду."
+    source: { kind: authored }
+  - form: "zasłużymy"
+    pl: "Nie zasłużymy na naganę."
+    ru: "Мы не заслужим выговора."
+    source: { kind: authored }
+  - form: "zasłużysz"
+    pl: "Zasłużysz na moje zaufanie."
+    ru: "Ты заслужишь моё доверие."
+    source: { kind: authored }
+  - form: "zasłużysz"
+    pl: "Zasłużysz na tę nagrodę."
+    ru: "Ты заслужишь эту награду."
+    source: { kind: authored }
+  - form: "zasłużysz"
+    pl: "Nie zasłużysz na naganę."
+    ru: "Ты не заслужишь выговора."
+    source: { kind: authored }
+  - form: "niech zasłuży"
+    pl: "Niech zasłuży na twoje zaufanie."
+    ru: "Пусть заслужит твоё доверие."
+    source: { kind: authored }
+  - form: "niech zasłuży"
+    pl: "Niech zasłuży na tę nagrodę."
+    ru: "Пусть заслужит эту награду."
+    source: { kind: authored }
+  - form: "niech zasłuży"
+    pl: "Niech zasłuży sobie na odpoczynek."
+    ru: "Пусть заслужит себе отдых."
+    source: { kind: authored }
+  - form: "niech zasłużą"
+    pl: "Niech zasłużą na twoje zaufanie."
+    ru: "Пусть заслужат твоё доверие."
+    source: { kind: authored }
+  - form: "niech zasłużą"
+    pl: "Niech zasłużą na tę nagrodę."
+    ru: "Пусть заслужат эту награду."
+    source: { kind: authored }
+  - form: "niech zasłużą"
+    pl: "Niech zasłużą sobie na odpoczynek."
+    ru: "Пусть заслужат себе отдых."
     source: { kind: authored }
