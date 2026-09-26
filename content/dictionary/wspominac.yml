@@ -63,7 +63,6 @@ formExamplesSkip:
   - { form: "wspominającym", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "wspominającymi", reason: "формы действительного причастия, в корпусе примеров нет" }
   - { form: "wspominajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "wspominali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wspominaliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominalibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -72,16 +71,10 @@ formExamplesSkip:
   - { form: "wspominałaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wspominałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wspominałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wspominałby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wspominałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wspominałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wspominało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wspominałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wspominały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wspominałyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wspominałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -103,7 +96,6 @@ formExamplesSkip:
   - { form: "wspominanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "wspominanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "wspominanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wspominasz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "wspomina"
     pl: "W książce nie wspomina o swoim zawodzie."
@@ -177,6 +169,18 @@ formExamples:
     pl: "Nie wspominajcie o tym przy dzieciach."
     ru: "Не упоминайте об этом при детях."
     source: { kind: authored }
+  - form: "wspominali"
+    pl: "Wspominali dawne czasy."
+    ru: "Они вспоминали былые времена."
+    source: { kind: authored }
+  - form: "wspominali"
+    pl: "Wspominali o tym przelotnie."
+    ru: "Они упоминали об этом вскользь."
+    source: { kind: authored }
+  - form: "wspominali"
+    pl: "Nie wspominali o pieniądzach."
+    ru: "Они не упоминали о деньгах."
+    source: { kind: authored }
   - form: "wspominał"
     pl: "Nigdy już o tym nie wspominał."
     ru: "Он больше никогда об этом не упоминал."
@@ -201,6 +205,78 @@ formExamples:
     pl: "Często wspominała dzieciństwo."
     ru: "Она часто вспоминала детство."
     source: { kind: authored }
+  - form: "wspominałam"
+    pl: "Wspominałam dawne czasy."
+    ru: "Я вспоминала былые времена."
+    source: { kind: authored }
+  - form: "wspominałam"
+    pl: "Wspominałam o tym przelotnie."
+    ru: "Я упоминала об этом вскользь."
+    source: { kind: authored }
+  - form: "wspominałam"
+    pl: "Nie wspominałam o pieniądzach."
+    ru: "Я не упоминала о деньгах."
+    source: { kind: authored }
+  - form: "wspominałaś"
+    pl: "Wspominałaś dawne czasy."
+    ru: "Ты вспоминала былые времена."
+    source: { kind: authored }
+  - form: "wspominałaś"
+    pl: "Wspominałaś o tym przelotnie."
+    ru: "Ты упоминала об этом вскользь."
+    source: { kind: authored }
+  - form: "wspominałaś"
+    pl: "Nie wspominałaś o pieniądzach."
+    ru: "Ты не упоминала о деньгах."
+    source: { kind: authored }
+  - form: "wspominałem"
+    pl: "Wspominałem dawne czasy."
+    ru: "Я вспоминал былые времена."
+    source: { kind: authored }
+  - form: "wspominałem"
+    pl: "Wspominałem o tym przelotnie."
+    ru: "Я упоминал об этом вскользь."
+    source: { kind: authored }
+  - form: "wspominałem"
+    pl: "Nie wspominałem o pieniądzach."
+    ru: "Я не упоминал о деньгах."
+    source: { kind: authored }
+  - form: "wspominałeś"
+    pl: "Wspominałeś dawne czasy."
+    ru: "Ты вспоминал былые времена."
+    source: { kind: authored }
+  - form: "wspominałeś"
+    pl: "Wspominałeś o tym przelotnie."
+    ru: "Ты упоминал об этом вскользь."
+    source: { kind: authored }
+  - form: "wspominałeś"
+    pl: "Nie wspominałeś o pieniądzach."
+    ru: "Ты не упоминал о деньгах."
+    source: { kind: authored }
+  - form: "wspominało"
+    pl: "Wiele osób wspominało tamten rok."
+    ru: "Многие вспоминали тот год."
+    source: { kind: authored }
+  - form: "wspominało"
+    pl: "Dziecko wspominało wakacje u babci."
+    ru: "Ребёнок вспоминал каникулы у бабушки."
+    source: { kind: authored }
+  - form: "wspominało"
+    pl: "Radio wspominało o opóźnieniach."
+    ru: "Радио упоминало о задержках."
+    source: { kind: authored }
+  - form: "wspominały"
+    pl: "Kobiety wspominały dawne czasy."
+    ru: "Женщины вспоминали былые времена."
+    source: { kind: authored }
+  - form: "wspominały"
+    pl: "Gazety wspominały o tym od tygodnia."
+    ru: "Газеты упоминали об этом целую неделю."
+    source: { kind: authored }
+  - form: "wspominały"
+    pl: "Nie wspominały o pieniądzach."
+    ru: "Они не упоминали о деньгах."
+    source: { kind: authored }
   - form: "wspominam"
     pl: "Wspominam pierwszy raz."
     ru: "Я вспоминаю первый раз."
@@ -224,6 +300,18 @@ formExamples:
   - form: "wspominamy"
     pl: "Często wspominamy tamte wakacje."
     ru: "Мы часто вспоминаем тот отпуск."
+    source: { kind: authored }
+  - form: "wspominasz"
+    pl: "Często wspominasz tamte lata?"
+    ru: "Ты часто вспоминаешь те годы?"
+    source: { kind: authored }
+  - form: "wspominasz"
+    pl: "Wspominasz o tym za każdym razem."
+    ru: "Ты упоминаешь об этом каждый раз."
+    source: { kind: authored }
+  - form: "wspominasz"
+    pl: "Nie wspominasz o pieniądzach."
+    ru: "Ты не упоминаешь о деньгах."
     source: { kind: authored }
   - form: "będę wspominać"
     pl: "Będę wspominać te wakacje z uśmiechem."
