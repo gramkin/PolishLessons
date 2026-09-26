@@ -32,6 +32,7 @@ notes:
   - { kind: usage, text: "bal maturalny — польский выпускной бал, аналог русского выпускного; bal przebierańców — костюмированный бал." }
   - { kind: government, text: "На бал — na bal (винительный падеж), на балу — na balu (предложный)." }
   - { kind: usage, text: "У слова есть и второе, техническое значение — «бревно, брус»: domek z bali «дом из брёвен»." }
+  - { kind: false-friend, text: "Два разных слова-омонима различаются родительным падежом: bal «бал» даёт balu, а bal «бревно, брус» даёт bala." }
 collocations:
   - { pl: "iść na bal", ru: "идти на бал" }
   - { pl: "bal maturalny", ru: "выпускной бал" }
@@ -47,15 +48,8 @@ idioms:
   - { pl: "bal maturalny", ru: "выпускной бал" }
   - { pl: "bal przebierańców", ru: "костюмированный бал" }
 formExamplesSkip:
-  - { form: "bala", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "balami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "bale", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "balem", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "bala", reason: "bal — два разных слова: «бал» (родительный balu) и «бревно, брус» (родительный bala). Форма bala принадлежит второму слову, которого эта карточка не описывает" }
   - { form: "bali", reason: "в корпусе четыре из шести примеров на эту форму принадлежат глаголу bać się «бояться» (Bali się dużego psa), а остальные — значению «бревно», поэтому примеры не приводятся" }
-  - { form: "balom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "balowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "balów", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "balu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "bal"
     pl: "Kiedy kota nie ma, myszy robią bal."
@@ -80,4 +74,88 @@ formExamples:
   - form: "balach"
     pl: "Bywał na wszystkich balach w mieście."
     ru: "Он бывал на всех балах в городе."
+    source: { kind: authored }
+  - form: "balami"
+    pl: "Sezon stał balami i koncertami."
+    ru: "Сезон держался балами и концертами."
+    source: { kind: authored }
+  - form: "balami"
+    pl: "Między balami była tygodniowa przerwa."
+    ru: "Между балами был недельный перерыв."
+    source: { kind: authored }
+  - form: "balami"
+    pl: "Zasłynęli wystawnymi balami."
+    ru: "Они прославились пышными балами."
+    source: { kind: authored }
+  - form: "bale"
+    pl: "Bale karnawałowe zaczynają się w styczniu."
+    ru: "Карнавальные балы начинаются в январе."
+    source: { kind: authored }
+  - form: "bale"
+    pl: "Dawniej bale trwały do rana."
+    ru: "Раньше балы длились до утра."
+    source: { kind: authored }
+  - form: "bale"
+    pl: "Bale odwołano z powodu żałoby."
+    ru: "Балы отменили из-за траура."
+    source: { kind: authored }
+  - form: "balem"
+    pl: "Przed balem wszyscy się denerwowali."
+    ru: "Перед балом все волновались."
+    source: { kind: authored }
+  - form: "balem"
+    pl: "Nad balem czuwał osobny komitet."
+    ru: "За балом следил отдельный комитет."
+    source: { kind: authored }
+  - form: "balem"
+    pl: "Sezon zakończono balem karnawałowym."
+    ru: "Сезон завершили карнавальным балом."
+    source: { kind: authored }
+  - form: "balom"
+    pl: "Przyjrzyj się dawnym balom."
+    ru: "Присмотрись к прежним балам."
+    source: { kind: authored }
+  - form: "balom"
+    pl: "Dzięki balom sezon się ożywił."
+    ru: "Благодаря балам сезон оживился."
+    source: { kind: authored }
+  - form: "balom"
+    pl: "Kres balom położyła wojna."
+    ru: "Конец балам положила война."
+    source: { kind: authored }
+  - form: "balowi"
+    pl: "Przyjrzyj się temu balowi."
+    ru: "Присмотрись к этому балу."
+    source: { kind: authored }
+  - form: "balowi"
+    pl: "Dzięki balowi zebrano pieniądze na szpital."
+    ru: "Благодаря балу собрали деньги на больницу."
+    source: { kind: authored }
+  - form: "balowi"
+    pl: "Poświęcono balowi cały rozdział."
+    ru: "Балу посвятили целую главу."
+    source: { kind: authored }
+  - form: "balów"
+    pl: "W karnawale nie brakuje balów."
+    ru: "В карнавал балов хватает."
+    source: { kind: authored }
+  - form: "balów"
+    pl: "Nie znoszę takich balów."
+    ru: "Я не выношу таких балов."
+    source: { kind: authored }
+  - form: "balów"
+    pl: "Sezon balów kończy się w lutym."
+    ru: "Сезон балов кончается в феврале."
+    source: { kind: authored }
+  - form: "balu"
+    pl: "Byliśmy na balu sylwestrowym."
+    ru: "Мы были на новогоднем балу."
+    source: { kind: authored }
+  - form: "balu"
+    pl: "Poznali się na balu."
+    ru: "Они познакомились на балу."
+    source: { kind: authored }
+  - form: "balu"
+    pl: "O balu mówiło całe miasto."
+    ru: "О бале говорил весь город."
     source: { kind: authored }
