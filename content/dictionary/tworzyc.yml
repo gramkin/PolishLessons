@@ -71,32 +71,23 @@ formExamplesSkip:
   - { form: "tworzonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "tworzonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "tworzycie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "tworzyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tworzyliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzylibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzylibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "tworzyliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "tworzyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tworzyłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "tworzyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tworzyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tworzyłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "tworzyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tworzyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tworzyłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "tworzyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tworzyłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "tworzyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "tworzyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "tworzysz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "twórz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "twórzcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "twórzmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
@@ -208,6 +199,18 @@ formExamples:
     pl: "Co by się działo, nie przestanę tworzyć muzyki."
     ru: "Что бы ни случилось, я не перестану создавать музыку."
     source: { kind: translated, id: 758306 }
+  - form: "tworzyli"
+    pl: "Tworzyli razem przez dziesięć lat."
+    ru: "Они творили вместе десять лет."
+    source: { kind: authored }
+  - form: "tworzyli"
+    pl: "Tworzyli nową firmę od zera."
+    ru: "Они создавали новую фирму с нуля."
+    source: { kind: authored }
+  - form: "tworzyli"
+    pl: "Tworzyli zespół, który wszyscy podziwiali."
+    ru: "Они составляли коллектив, которым все восхищались."
+    source: { kind: authored }
   - form: "tworzył"
     pl: "Co za łoś tworzył tę infografikę?!"
     ru: "Что за балбес делал эту инфографику?!"
@@ -219,6 +222,42 @@ formExamples:
   - form: "tworzył"
     pl: "Kto tworzył ten program?"
     ru: "Кто создавал эту программу?"
+    source: { kind: authored }
+  - form: "tworzyła"
+    pl: "Tworzyła muzykę przez całe życie."
+    ru: "Она сочиняла музыку всю жизнь."
+    source: { kind: authored }
+  - form: "tworzyła"
+    pl: "Tworzyła nową firmę od zera."
+    ru: "Она создавала новую фирму с нуля."
+    source: { kind: authored }
+  - form: "tworzyła"
+    pl: "Tworzyła zespół razem z mężem."
+    ru: "Она создавала коллектив вместе с мужем."
+    source: { kind: authored }
+  - form: "tworzyłam"
+    pl: "Tworzyłam muzykę przez całe życie."
+    ru: "Я сочиняла музыку всю жизнь."
+    source: { kind: authored }
+  - form: "tworzyłam"
+    pl: "Tworzyłam tę firmę od zera."
+    ru: "Я создавала эту фирму с нуля."
+    source: { kind: authored }
+  - form: "tworzyłam"
+    pl: "Nic wtedy nie tworzyłam."
+    ru: "Я тогда ничего не создавала."
+    source: { kind: authored }
+  - form: "tworzyłaś"
+    pl: "Tworzyłaś muzykę przez całe życie."
+    ru: "Ты сочиняла музыку всю жизнь."
+    source: { kind: authored }
+  - form: "tworzyłaś"
+    pl: "Tworzyłaś tę firmę od zera."
+    ru: "Ты создавала эту фирму с нуля."
+    source: { kind: authored }
+  - form: "tworzyłaś"
+    pl: "Nic wtedy nie tworzyłaś."
+    ru: "Ты тогда ничего не создавала."
     source: { kind: authored }
   - form: "tworzyłem"
     pl: "Wielokrotnie tworzyłem i przerabiałem to samo zdanie."
@@ -232,6 +271,42 @@ formExamples:
     pl: "Nigdy nie tworzyłem muzyki."
     ru: "Я никогда не создавал музыку."
     source: { kind: authored }
+  - form: "tworzyłeś"
+    pl: "Tworzyłeś muzykę przez całe życie."
+    ru: "Ты сочинял музыку всю жизнь."
+    source: { kind: authored }
+  - form: "tworzyłeś"
+    pl: "Tworzyłeś tę firmę od zera."
+    ru: "Ты создавал эту фирму с нуля."
+    source: { kind: authored }
+  - form: "tworzyłeś"
+    pl: "Nic wtedy nie tworzyłeś."
+    ru: "Ты тогда ничего не создавал."
+    source: { kind: authored }
+  - form: "tworzyło"
+    pl: "Wiele osób tworzyło ten projekt."
+    ru: "Многие создавали этот проект."
+    source: { kind: authored }
+  - form: "tworzyło"
+    pl: "Dziecko tworzyło własny świat z klocków."
+    ru: "Ребёнок создавал свой мир из кубиков."
+    source: { kind: authored }
+  - form: "tworzyło"
+    pl: "Kilkoro artystów tworzyło tę wystawę."
+    ru: "Несколько художников делали эту выставку."
+    source: { kind: authored }
+  - form: "tworzyły"
+    pl: "Kobiety tworzyły spółdzielnię."
+    ru: "Женщины создавали кооператив."
+    source: { kind: authored }
+  - form: "tworzyły"
+    pl: "Aminokwasy tworzyły długi łańcuch."
+    ru: "Аминокислоты образовывали длинную цепь."
+    source: { kind: authored }
+  - form: "tworzyły"
+    pl: "Te ulice tworzyły dawną starówkę."
+    ru: "Эти улицы составляли старый центр."
+    source: { kind: authored }
   - form: "tworzymy"
     pl: "Tworzymy dobry zespół."
     ru: "Мы составляем хорошую команду."
@@ -243,6 +318,30 @@ formExamples:
   - form: "tworzymy"
     pl: "Razem tworzymy całość."
     ru: "Вместе мы составляем целое."
+    source: { kind: authored }
+  - form: "tworzysz"
+    pl: "Co teraz tworzysz?"
+    ru: "Что ты сейчас создаёшь?"
+    source: { kind: authored }
+  - form: "tworzysz"
+    pl: "Tworzysz coś nowego?"
+    ru: "Ты создаёшь что-то новое?"
+    source: { kind: authored }
+  - form: "tworzysz"
+    pl: "Tworzysz wokół siebie dobrą atmosferę."
+    ru: "Ты создаёшь вокруг себя хорошую атмосферу."
+    source: { kind: authored }
+  - form: "twórz"
+    pl: "Twórz, nie czekaj na natchnienie."
+    ru: "Твори, не жди вдохновения."
+    source: { kind: authored }
+  - form: "twórz"
+    pl: "Twórz własne zasady."
+    ru: "Создавай собственные правила."
+    source: { kind: authored }
+  - form: "twórz"
+    pl: "Nie twórz problemów tam, gdzie ich nie ma."
+    ru: "Не создавай проблем там, где их нет."
     source: { kind: authored }
   - form: "będę tworzyć"
     pl: "Będę tworzyć nowe projekty."

@@ -51,13 +51,10 @@ idioms:
   - { pl: "nie dotknąć jedzenia", ru: "не притронуться к еде" }
   - { pl: "dotknąć dna", ru: "достичь дна" }
 formExamplesSkip:
-  - { form: "dotkną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dotknąłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknąłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknąłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknąwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "dotknę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dotknęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dotknęliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęlibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęlibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -66,7 +63,6 @@ formExamplesSkip:
   - { form: "dotknęłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "dotknęłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dotknęłoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "dotknęłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -75,7 +71,6 @@ formExamplesSkip:
   - { form: "dotknęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "dotkniecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "dotkniemy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "dotknięci", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dotknięcia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "dotknięcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "dotknięciu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -84,7 +79,6 @@ formExamplesSkip:
   - { form: "dotkniętego", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dotkniętej", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dotkniętemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dotknięto", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dotknięty", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dotkniętych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "dotkniętym", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -92,6 +86,18 @@ formExamplesSkip:
   - { form: "dotknijcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "dotknijmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
+  - form: "dotkną"
+    pl: "Dotkną ściany i wrócą."
+    ru: "Они коснутся стены и вернутся."
+    source: { kind: authored }
+  - form: "dotkną"
+    pl: "Reformy dotkną wszystkich."
+    ru: "Реформы затронут всех."
+    source: { kind: authored }
+  - form: "dotkną"
+    pl: "Nie dotkną niczego bez pozwolenia."
+    ru: "Они ничего не тронут без разрешения."
+    source: { kind: authored }
   - form: "dotknąć"
     pl: "Czy mogę dotknąć twojej brody?"
     ru: "Можно потрогать твою бороду?"
@@ -140,6 +146,30 @@ formExamples:
     pl: "Nie dotknąłeś jedzenia."
     ru: "Ты не притронулся к еде."
     source: { kind: authored }
+  - form: "dotknę"
+    pl: "Dotknę i sprawdzę, czy ciepłe."
+    ru: "Я потрогаю и проверю, тёплое ли."
+    source: { kind: authored }
+  - form: "dotknę"
+    pl: "Nie dotknę tego bez rękawic."
+    ru: "Я не притронусь к этому без перчаток."
+    source: { kind: authored }
+  - form: "dotknę"
+    pl: "Dotknę tematu tylko krótko."
+    ru: "Я затрону тему лишь коротко."
+    source: { kind: authored }
+  - form: "dotknęli"
+    pl: "Dotknęli ściany i wrócili."
+    ru: "Они коснулись стены и вернулись."
+    source: { kind: authored }
+  - form: "dotknęli"
+    pl: "Dotknęli drażliwego tematu."
+    ru: "Они затронули щекотливую тему."
+    source: { kind: authored }
+  - form: "dotknęli"
+    pl: "Nie dotknęli niczego."
+    ru: "Они ничего не тронули."
+    source: { kind: authored }
   - form: "dotknęła"
     pl: "Dotknęła mojej dłoni."
     ru: "Она коснулась моей ладони."
@@ -164,6 +194,18 @@ formExamples:
     pl: "Myślę, że dotknęłam nerwu."
     ru: "Кажется, я задела за живое."
     source: { kind: translated, id: 12194002 }
+  - form: "dotknęłaś"
+    pl: "Dotknęłaś ściany?"
+    ru: "Ты коснулась стены?"
+    source: { kind: authored }
+  - form: "dotknęłaś"
+    pl: "Dotknęłaś drażliwego tematu."
+    ru: "Ты затронула щекотливую тему."
+    source: { kind: authored }
+  - form: "dotknęłaś"
+    pl: "Nie dotknęłaś niczego."
+    ru: "Ты ничего не тронула."
+    source: { kind: authored }
   - form: "dotknęło"
     pl: "Jak wiele nieszczęść dotknęło te dzieci!"
     ru: "Сколько несчастий постигло этих детей!"
@@ -212,6 +254,18 @@ formExamples:
     pl: "Nie dotkniesz tego."
     ru: "Ты этого не тронешь."
     source: { kind: authored }
+  - form: "dotknięci"
+    pl: "Zostali dotknięci powodzią."
+    ru: "Их затронуло наводнение."
+    source: { kind: authored }
+  - form: "dotknięci"
+    pl: "Dotknięci tragedią sąsiedzi milczeli."
+    ru: "Соседи, которых коснулась трагедия, молчали."
+    source: { kind: authored }
+  - form: "dotknięci"
+    pl: "Najbardziej dotknięci byli najstarsi mieszkańcy."
+    ru: "Больше всего пострадали самые пожилые жители."
+    source: { kind: authored }
   - form: "dotknięciem"
     pl: "Przed dotknięciem jedzenia umyj ręce."
     ru: "Перед тем как трогать еду, вымой руки."
@@ -235,6 +289,18 @@ formExamples:
   - form: "dotknięte"
     pl: "Rodziny dotknięte kryzysem dostaną wsparcie."
     ru: "Семьи, затронутые кризисом, получат поддержку."
+    source: { kind: authored }
+  - form: "dotknięto"
+    pl: "Dotknięto drażliwego tematu."
+    ru: "Была затронута щекотливая тема."
+    source: { kind: authored }
+  - form: "dotknięto"
+    pl: "Na zebraniu dotknięto sprawy pieniędzy."
+    ru: "На собрании затронули вопрос денег."
+    source: { kind: authored }
+  - form: "dotknięto"
+    pl: "Nie dotknięto tu niczego od lat."
+    ru: "Здесь годами ничего не трогали."
     source: { kind: authored }
   - form: "dotknij"
     pl: "Dotknij tego."
