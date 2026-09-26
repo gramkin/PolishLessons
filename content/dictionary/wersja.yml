@@ -43,9 +43,7 @@ idioms:
   - { pl: "wersja wydarzeń", ru: "версия событий" }
   - { pl: "najnowsza wersja", ru: "новейшая версия" }
 formExamplesSkip:
-  - { form: "wersjach", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wersjo", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "wersjom", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wersyj", reason: "книжный вариант родительного множественного, в корпусе примеров нет" }
 formExamples:
   - form: "wersja"
@@ -60,6 +58,18 @@ formExamples:
     pl: "Darmowa wersja aplikacji zawiera reklamy."
     ru: "Бесплатная версия приложения содержит рекламу."
     source: { kind: translated, id: 12180488 }
+  - form: "wersjach"
+    pl: "W obu wersjach jest ten sam błąd."
+    ru: "В обеих версиях одна и та же ошибка."
+    source: { kind: authored }
+  - form: "wersjach"
+    pl: "O tych wersjach mówi instrukcja."
+    ru: "Об этих версиях говорит инструкция."
+    source: { kind: authored }
+  - form: "wersjach"
+    pl: "W nowszych wersjach programu tego nie ma."
+    ru: "В новых версиях программы этого нет."
+    source: { kind: authored }
   - form: "wersjami"
     pl: "Różnica między tymi wersjami nie jest oczywista."
     ru: "Разница между этими версиями неочевидна."
@@ -120,3 +130,15 @@ formExamples:
     pl: "Zaktualizowałem oprogramowanie do najnowszej wersji."
     ru: "Я обновил программу до новейшей версии."
     source: { kind: translated, id: 13087090 }
+  - form: "wersjom"
+    pl: "Przyjrzyj się tym wersjom."
+    ru: "Присмотрись к этим версиям."
+    source: { kind: authored }
+  - form: "wersjom"
+    pl: "Dzięki dwóm wersjom można je porównać."
+    ru: "Благодаря двум версиям их можно сравнить."
+    source: { kind: authored }
+  - form: "wersjom"
+    pl: "Nie ufaj takim wersjom wydarzeń."
+    ru: "Не доверяй таким версиям событий."
+    source: { kind: authored }

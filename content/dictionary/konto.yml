@@ -42,11 +42,6 @@ idioms:
   - { pl: "mieć czyste konto", ru: "иметь чистую репутацию" }
   - { pl: "na własne konto", ru: "на свой страх и риск" }
   - { pl: "stan konta", ru: "состояние счёта" }
-formExamplesSkip:
-  - { form: "kontach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kontu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "koncie"
     pl: "Jaki jest bilans na moim koncie?"
@@ -84,6 +79,30 @@ formExamples:
     pl: "Wyciągnął z konta 100 dolarów."
     ru: "Он снял со счёта сто долларов."
     source: { kind: translated, id: 350826 }
+  - form: "kontach"
+    pl: "Na tych kontach nie ma pieniędzy."
+    ru: "На этих счетах нет денег."
+    source: { kind: authored }
+  - form: "kontach"
+    pl: "O kontach walutowych mówi doradca."
+    ru: "О валютных счетах рассказывает консультант."
+    source: { kind: authored }
+  - form: "kontach"
+    pl: "W kontach firmowych panuje porządek."
+    ru: "В счетах фирмы порядок."
+    source: { kind: authored }
+  - form: "kontami"
+    pl: "Zarządza dwoma kontami."
+    ru: "Он управляет двумя счетами."
+    source: { kind: authored }
+  - form: "kontami"
+    pl: "Między kontami przelał całą sumę."
+    ru: "Между счетами он перевёл всю сумму."
+    source: { kind: authored }
+  - form: "kontami"
+    pl: "Zajmuje się kontami klientów."
+    ru: "Он занимается счетами клиентов."
+    source: { kind: authored }
   - form: "kontem"
     pl: "Jest problem z moim kontem."
     ru: "С моим аккаунтом проблема."
@@ -108,3 +127,27 @@ formExamples:
     pl: "Chcę zamknąć konto."
     ru: "Я хочу закрыть счёт."
     source: { kind: translated, id: 4837626 }
+  - form: "kontom"
+    pl: "Przyjrzyj się tym kontom."
+    ru: "Присмотрись к этим счетам."
+    source: { kind: authored }
+  - form: "kontom"
+    pl: "Dzięki osobnym kontom łatwiej liczyć wydatki."
+    ru: "С раздельными счетами легче считать расходы."
+    source: { kind: authored }
+  - form: "kontom"
+    pl: "Nie ufaj podejrzanym kontom."
+    ru: "Не доверяй подозрительным аккаунтам."
+    source: { kind: authored }
+  - form: "kontu"
+    pl: "Przyjrzyj się temu kontu."
+    ru: "Присмотрись к этому счёту."
+    source: { kind: authored }
+  - form: "kontu"
+    pl: "Dzięki temu kontu oszczędza więcej."
+    ru: "Благодаря этому счёту он копит больше."
+    source: { kind: authored }
+  - form: "kontu"
+    pl: "Nadano kontu nowy numer."
+    ru: "Счёту присвоили новый номер."
+    source: { kind: authored }

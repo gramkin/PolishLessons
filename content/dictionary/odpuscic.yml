@@ -50,7 +50,6 @@ idioms:
   - { pl: "odpuścić grzechy", ru: "отпустить грехи" }
   - { pl: "nie odpuszczać nikomu", ru: "никому не спускать" }
 formExamplesSkip:
-  - { form: "odpuszczą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuszczeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odpuszczenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "odpuszczeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -66,35 +65,39 @@ formExamplesSkip:
   - { form: "odpuszczonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odpuszczonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "odpuścicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odpuścili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuścilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuścilibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "odpuściliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "odpuścił", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odpuściła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "odpuściłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "odpuściłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odpuściło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "odpuściły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "odpuściłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "odpuściłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "odpuścimy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "odpuścisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odpuściwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "odpuśćmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
+  - form: "odpuszczą"
+    pl: "Odpuszczą ci ten raz."
+    ru: "На этот раз тебе спустят."
+    source: { kind: authored }
+  - form: "odpuszczą"
+    pl: "Nie odpuszczą tak łatwo."
+    ru: "Они так легко не отстанут."
+    source: { kind: authored }
+  - form: "odpuszczą"
+    pl: "Odpuszczą, kiedy zobaczą wyniki."
+    ru: "Они отстанут, когда увидят результаты."
+    source: { kind: authored }
   - form: "odpuszczenia"
     pl: "Nic nie może mnie zmusić do odpuszczenia sobie tego."
     ru: "Ничто не заставит меня отказаться от этого."
@@ -155,6 +158,42 @@ formExamples:
     pl: "Zamierzam odpuścić sobie lunch."
     ru: "Я собираюсь пропустить обед."
     source: { kind: translated, id: 6159855 }
+  - form: "odpuścili"
+    pl: "Odpuścili mu ten raz."
+    ru: "На этот раз ему спустили."
+    source: { kind: authored }
+  - form: "odpuścili"
+    pl: "Nie odpuścili tak łatwo."
+    ru: "Они так легко не отстали."
+    source: { kind: authored }
+  - form: "odpuścili"
+    pl: "Odpuścili dopiero pod wieczór."
+    ru: "Они отстали только к вечеру."
+    source: { kind: authored }
+  - form: "odpuścił"
+    pl: "Odpuścił mu ten raz."
+    ru: "На этот раз он ему спустил."
+    source: { kind: authored }
+  - form: "odpuścił"
+    pl: "Nie odpuścił tak łatwo."
+    ru: "Он так легко не отстал."
+    source: { kind: authored }
+  - form: "odpuścił"
+    pl: "Odpuścił sobie wieczorny bieg."
+    ru: "Он отказался от вечерней пробежки."
+    source: { kind: authored }
+  - form: "odpuściła"
+    pl: "Odpuściła mu ten raz."
+    ru: "На этот раз она ему спустила."
+    source: { kind: authored }
+  - form: "odpuściła"
+    pl: "Nie odpuściła tak łatwo."
+    ru: "Она так легко не отстала."
+    source: { kind: authored }
+  - form: "odpuściła"
+    pl: "Odpuściła sobie wieczorny bieg."
+    ru: "Она отказалась от вечерней пробежки."
+    source: { kind: authored }
   - form: "odpuściłam"
     pl: "Odpuściłam."
     ru: "Я отступилась."
@@ -167,6 +206,18 @@ formExamples:
     pl: "W końcu odpuściłam."
     ru: "В конце концов я отступилась."
     source: { kind: authored }
+  - form: "odpuściłaś"
+    pl: "Odpuściłaś mu ten raz."
+    ru: "На этот раз ты ему спустила."
+    source: { kind: authored }
+  - form: "odpuściłaś"
+    pl: "Nie odpuściłaś tak łatwo."
+    ru: "Ты так легко не отстала."
+    source: { kind: authored }
+  - form: "odpuściłaś"
+    pl: "Odpuściłaś sobie wieczorny bieg."
+    ru: "Ты отказалась от вечерней пробежки."
+    source: { kind: authored }
   - form: "odpuściłem"
     pl: "Odpuściłem."
     ru: "Я отступился."
@@ -178,6 +229,54 @@ formExamples:
   - form: "odpuściłem"
     pl: "Nie odpuściłem ani razu."
     ru: "Я ни разу не отступился."
+    source: { kind: authored }
+  - form: "odpuściłeś"
+    pl: "Odpuściłeś mu ten raz."
+    ru: "На этот раз ты ему спустил."
+    source: { kind: authored }
+  - form: "odpuściłeś"
+    pl: "Nie odpuściłeś tak łatwo."
+    ru: "Ты так легко не отстал."
+    source: { kind: authored }
+  - form: "odpuściłeś"
+    pl: "Odpuściłeś sobie wieczorny bieg."
+    ru: "Ты отказался от вечерней пробежки."
+    source: { kind: authored }
+  - form: "odpuściło"
+    pl: "Przeziębienie odpuściło po trzech dniach."
+    ru: "Простуда отпустила через три дня."
+    source: { kind: authored }
+  - form: "odpuściło"
+    pl: "Wiele osób odpuściło po pierwszej próbie."
+    ru: "Многие бросили после первой попытки."
+    source: { kind: authored }
+  - form: "odpuściło"
+    pl: "Dziecko odpuściło i poszło spać."
+    ru: "Ребёнок отступился и пошёл спать."
+    source: { kind: authored }
+  - form: "odpuściły"
+    pl: "Mrozy odpuściły pod koniec lutego."
+    ru: "Морозы отпустили в конце февраля."
+    source: { kind: authored }
+  - form: "odpuściły"
+    pl: "Bóle odpuściły po lekach."
+    ru: "Боли отпустили после лекарств."
+    source: { kind: authored }
+  - form: "odpuściły"
+    pl: "Kobiety odpuściły i wróciły do domu."
+    ru: "Женщины отступились и вернулись домой."
+    source: { kind: authored }
+  - form: "odpuścisz"
+    pl: "Odpuścisz mu ten raz?"
+    ru: "Ты ему на этот раз спустишь?"
+    source: { kind: authored }
+  - form: "odpuścisz"
+    pl: "Nie odpuścisz tak łatwo."
+    ru: "Ты так легко не отстанешь."
+    source: { kind: authored }
+  - form: "odpuścisz"
+    pl: "Odpuścisz sobie wieczorny bieg."
+    ru: "Ты откажешься от вечерней пробежки."
     source: { kind: authored }
   - form: "odpuść"
     pl: "Odpuść sobie!"
