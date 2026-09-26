@@ -61,7 +61,6 @@ idioms:
 formExamplesSkip:
   - { form: "żegna", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnacie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "żegnać", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnająca", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnającą", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
@@ -80,8 +79,6 @@ formExamplesSkip:
   - { form: "żegnalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "żegnaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "żegnał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żegnała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -100,7 +97,6 @@ formExamplesSkip:
   - { form: "żegnałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "żegnałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "żegnam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnamy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "żegnana", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnaną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
@@ -120,6 +116,18 @@ formExamplesSkip:
   - { form: "żegnanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnasz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "żegnać"
+    pl: "Będę się pomału żegnać."
+    ru: "Я потихоньку буду прощаться."
+    source: { kind: translated, id: 652400 }
+  - form: "żegnać"
+    pl: "Nie lubię żegnać przyjaciół."
+    ru: "Я не люблю прощаться с друзьями."
+    source: { kind: authored }
+  - form: "żegnać"
+    pl: "Trudno żegnać kogoś na zawsze."
+    ru: "Трудно прощаться с кем-то навсегда."
+    source: { kind: authored }
   - form: "żegnaj"
     pl: "Żegnaj!"
     ru: "Прощай!"
@@ -164,3 +172,39 @@ formExamples:
     pl: "Powiedział: \"Żegnajcie, moi przyjaciele\" i odszedł."
     ru: "Он сказал: «Прощайте, друзья мои» — и ушёл."
     source: { kind: translated, id: 524560 }
+  - form: "żegnał"
+    pl: "Będę się powoli żegnał."
+    ru: "Я буду медленно прощаться."
+    source: { kind: translated, id: 652805 }
+  - form: "żegnał"
+    pl: "Żegnał gości przy drzwiach."
+    ru: "Он прощался с гостями у двери."
+    source: { kind: authored }
+  - form: "żegnał"
+    pl: "Długo żegnał się z rodziną."
+    ru: "Он долго прощался с семьёй."
+    source: { kind: authored }
+  - form: "żegnała"
+    pl: "Zakonnica modliła i żegnała się."
+    ru: "Монахиня молилась и крестилась."
+    source: { kind: translated, id: 603231 }
+  - form: "żegnała"
+    pl: "Żegnała syna na dworcu."
+    ru: "Она провожала сына на вокзале."
+    source: { kind: authored }
+  - form: "żegnała"
+    pl: "Żegnała się z każdym osobno."
+    ru: "Она прощалась с каждым отдельно."
+    source: { kind: authored }
+  - form: "żegnam"
+    pl: "I na tym żegnam!"
+    ru: "На этом прощаюсь!"
+    source: { kind: translated, id: 1002682 }
+  - form: "żegnam"
+    pl: "Żegnam państwa."
+    ru: "Прощаюсь с вами."
+    source: { kind: authored }
+  - form: "żegnam"
+    pl: "Żegnam i dziękuję za wszystko."
+    ru: "Прощаюсь и благодарю за всё."
+    source: { kind: authored }

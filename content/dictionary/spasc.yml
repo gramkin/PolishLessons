@@ -60,7 +60,6 @@ idioms:
   - { pl: "ceny spadły", ru: "цены упали" }
   - { pl: "spaść na cztery łapy", ru: "упасть на четыре лапы" }
 formExamplesSkip:
-  - { form: "spadli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadlibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadlibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -69,12 +68,10 @@ formExamplesSkip:
   - { form: "spadłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "spadłam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadłby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "spadłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "spadłszy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -86,7 +83,6 @@ formExamplesSkip:
   - { form: "spadnę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadniecie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "spadniemy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "spadniesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spadnięcia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "spadnięcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "spadnięciem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
@@ -127,6 +123,18 @@ formExamplesSkip:
   - { form: "spaśli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "spaśmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "spadli"
+    pl: "Jeździec z koniem, którzy spadli z klifu, zostali wkrótce uratowani."
+    ru: "Всадника с конём, упавших с обрыва, вскоре спасли."
+    source: { kind: translated, id: 361890 }
+  - form: "spadli"
+    pl: "Alpiniści spadli w przepaść."
+    ru: "Альпинисты упали в пропасть."
+    source: { kind: authored }
+  - form: "spadli"
+    pl: "Chłopcy spadli z drabiny."
+    ru: "Мальчики упали с лестницы."
+    source: { kind: authored }
   - form: "spadł"
     pl: "Spadł z konia."
     ru: "Он упал с лошади."
@@ -159,6 +167,18 @@ formExamples:
     pl: "Wczoraj temperatura spadła do minus pięciu stopni Celsjusza."
     ru: "Вчера температура упала до минус пяти градусов по Цельсию."
     source: { kind: tatoeba, id: 12478710 }
+  - form: "spadłam"
+    pl: "Prawie spadłam z klifu."
+    ru: "Я чуть не упала с обрыва."
+    source: { kind: translated, id: 12259417 }
+  - form: "spadłam"
+    pl: "Spadłam z roweru i stłukłam kolano."
+    ru: "Я упала с велосипеда и разбила колено."
+    source: { kind: authored }
+  - form: "spadłam"
+    pl: "Spadłam ze schodów, ale nic mi nie jest."
+    ru: "Я упала с лестницы, но со мной всё в порядке."
+    source: { kind: authored }
   - form: "spadłem"
     pl: "Spadłem z roweru."
     ru: "Я упал с велосипеда."
@@ -171,6 +191,18 @@ formExamples:
     pl: "Zrobiłem sobie dziurę w dżinsach, kiedy spadłem z roweru."
     ru: "Я порвал джинсы, когда упал с велосипеда."
     source: { kind: tatoeba, id: 758412 }
+  - form: "spadłeś"
+    pl: "Kiedy ostatnio spadłeś z łóżka?"
+    ru: "Когда ты последний раз падал с кровати?"
+    source: { kind: translated, id: 5674999 }
+  - form: "spadłeś"
+    pl: "Spadłeś z roweru?"
+    ru: "Ты упал с велосипеда?"
+    source: { kind: authored }
+  - form: "spadłeś"
+    pl: "Spadłeś mi z nieba."
+    ru: "Ты мне как с неба свалился."
+    source: { kind: authored }
   - form: "spadło"
     pl: "Co spadło?"
     ru: "Что упало?"
@@ -231,6 +263,18 @@ formExamples:
     pl: "Zetnij to uschnięte drzewo, bo inaczej spadnie ci na dom."
     ru: "Повали это мёртвое дерево, иначе оно упадёт на твой дом."
     source: { kind: tatoeba, id: 933248 }
+  - form: "spadniesz"
+    pl: "Jeden krok, a spadniesz z klifu."
+    ru: "Один шаг — и ты упадёшь с обрыва."
+    source: { kind: translated, id: 12259436 }
+  - form: "spadniesz"
+    pl: "Uważaj, bo spadniesz!"
+    ru: "Осторожно, а то упадёшь!"
+    source: { kind: authored }
+  - form: "spadniesz"
+    pl: "Jeśli się nie złapiesz, spadniesz."
+    ru: "Если не ухватишься, упадёшь."
+    source: { kind: authored }
   - form: "spaść"
     pl: "Ceny powinny spaść."
     ru: "Цены должны упасть."

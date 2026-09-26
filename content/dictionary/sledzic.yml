@@ -75,7 +75,6 @@ formExamplesSkip:
   - { form: "śledzenia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "śledzeniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "śledzeniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "śledzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledzicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "śledzili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledziliby", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -83,17 +82,14 @@ formExamplesSkip:
   - { form: "śledzilibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе нет примеров" }
   - { form: "śledziliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе нет примеров" }
-  - { form: "śledziła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledziłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śledziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledziłby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śledziłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śledziłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "śledziły", reason: "в корпусе нет примеров для этой формы" }
@@ -128,6 +124,18 @@ formExamples:
   - form: "śledzenie"
     pl: "Śledzenie wiadomości zajmuje mi ranek."
     ru: "Слежение за новостями занимает у меня утро."
+    source: { kind: authored }
+  - form: "śledzę"
+    pl: "Śledzę każdy ich ruch."
+    ru: "Я слежу за каждым их движением."
+    source: { kind: translated, id: 4828116 }
+  - form: "śledzę"
+    pl: "Śledzę tę sprawę od miesiąca."
+    ru: "Я слежу за этим делом уже месяц."
+    source: { kind: authored }
+  - form: "śledzę"
+    pl: "Nie śledzę cię, przypadkiem tu jestem."
+    ru: "Я за тобой не слежу, я здесь случайно."
     source: { kind: authored }
   - form: "śledzi"
     pl: "Policja mnie śledzi."
@@ -165,6 +173,42 @@ formExamples:
     pl: "Tom poprosił mnie, żebym śledził Mary."
     ru: "Том попросил меня следить за Мэри."
     source: { kind: translated, id: 3782947 }
+  - form: "śledziła"
+    pl: "Policja śledziła ją aż do Paryża."
+    ru: "Полиция следила за ней до самого Парижа."
+    source: { kind: translated, id: 840195 }
+  - form: "śledziła"
+    pl: "Śledziła wiadomości przez cały wieczór."
+    ru: "Она следила за новостями весь вечер."
+    source: { kind: authored }
+  - form: "śledziła"
+    pl: "Kamera śledziła każdy ruch."
+    ru: "Камера следила за каждым движением."
+    source: { kind: authored }
+  - form: "śledziłaś"
+    pl: "Śledziłaś mnie?"
+    ru: "Ты за мной следила?"
+    source: { kind: translated, id: 3637545 }
+  - form: "śledziłaś"
+    pl: "Śledziłaś ten serial?"
+    ru: "Ты следила за этим сериалом?"
+    source: { kind: authored }
+  - form: "śledziłaś"
+    pl: "Czy śledziłaś wyniki wyborów?"
+    ru: "Ты следила за результатами выборов?"
+    source: { kind: authored }
+  - form: "śledziłeś"
+    pl: "Śledziłeś mnie?"
+    ru: "Ты за мной следил?"
+    source: { kind: translated, id: 3637543 }
+  - form: "śledziłeś"
+    pl: "Śledziłeś mecz do końca?"
+    ru: "Ты следил за матчем до конца?"
+    source: { kind: authored }
+  - form: "śledziłeś"
+    pl: "Śledziłeś tę dyskusję w internecie."
+    ru: "Ты следил за этой дискуссией в интернете."
+    source: { kind: authored }
   - form: "śledzisz"
     pl: "Śledzisz mnie?"
     ru: "Ты за мной следишь?"
