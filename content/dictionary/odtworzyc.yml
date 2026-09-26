@@ -41,12 +41,10 @@ memory: "odtworzyć — «воспроизвести» запись и «вос�
 idioms:
   - { pl: "odtworzyć nagranie", ru: "воспроизвести запись" }
 formExamplesSkip:
-  - { form: "odtworzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzenia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzenie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odtworzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzona", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzoną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzone", reason: "в корпусе нет примеров для этой формы" }
@@ -58,8 +56,6 @@ formExamplesSkip:
   - { form: "odtworzonych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzonym", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odtworzy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odtworzycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odtworzylibyście", reason: "условное наклонение; в корпусе примеров нет" }
@@ -86,12 +82,22 @@ formExamplesSkip:
   - { form: "odtworzyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odtworzyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "odtworzyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odtworzymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odtworzysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtworzywszy", reason: "деепричастие; в корпусе примеров нет" }
   - { form: "odtwórzcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odtwórzmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "odtworzą"
+    pl: "Odtworzą nagranie od początku."
+    ru: "Они проиграют запись с начала."
+    source: { kind: authored }
+  - form: "odtworzą"
+    pl: "Odtworzą przebieg wydarzeń."
+    ru: "Они воссоздадут ход событий."
+    source: { kind: authored }
+  - form: "odtworzą"
+    pl: "Nie odtworzą tego z pamięci."
+    ru: "Они не воспроизведут это по памяти."
+    source: { kind: authored }
   - form: "odtworzeniu"
     pl: "Po ponownym odtworzeniu taśmy sędzia przyznał, że piłka przekroczyła linię."
     ru: "Пересмотрев запись, судья признал, что мяч был в игре."
@@ -103,6 +109,42 @@ formExamples:
   - form: "odtworzeniu"
     pl: "Mówimy o odtworzeniu przebiegu wypadku."
     ru: "Мы говорим о восстановлении хода аварии."
+    source: { kind: authored }
+  - form: "odtworzę"
+    pl: "Odtworzę nagranie od początku."
+    ru: "Я проиграю запись с начала."
+    source: { kind: authored }
+  - form: "odtworzę"
+    pl: "Odtworzę przebieg wydarzeń."
+    ru: "Я воссоздам ход событий."
+    source: { kind: authored }
+  - form: "odtworzę"
+    pl: "Nie odtworzę tego z pamięci."
+    ru: "Я не воспроизведу это по памяти."
+    source: { kind: authored }
+  - form: "odtworzy"
+    pl: "Odtworzy nagranie od początku."
+    ru: "Он проиграет запись с начала."
+    source: { kind: authored }
+  - form: "odtworzy"
+    pl: "Odtworzy przebieg wydarzeń."
+    ru: "Он воссоздаст ход событий."
+    source: { kind: authored }
+  - form: "odtworzy"
+    pl: "Nie odtworzy tego z pamięci."
+    ru: "Он не воспроизведёт это по памяти."
+    source: { kind: authored }
+  - form: "odtworzycie"
+    pl: "Odtworzycie nagranie od początku."
+    ru: "Вы проиграете запись с начала."
+    source: { kind: authored }
+  - form: "odtworzycie"
+    pl: "Odtworzycie przebieg wydarzeń."
+    ru: "Вы воссоздадите ход событий."
+    source: { kind: authored }
+  - form: "odtworzycie"
+    pl: "Nie odtworzycie tego z pamięci."
+    ru: "Вы не воспроизведёте это по памяти."
     source: { kind: authored }
   - form: "odtworzyć"
     pl: "Spróbuj odtworzyć muzykę w swoim umyśle."
@@ -116,6 +158,30 @@ formExamples:
     pl: "Wciśnij zielony przycisk, by odtworzyć nagranie, a czerwony, by je zatrzymać."
     ru: "Нажми зелёную кнопку, чтобы воспроизвести запись."
     source: { kind: translated, id: 4438893 }
+  - form: "odtworzymy"
+    pl: "Odtworzymy nagranie od początku."
+    ru: "Мы проиграем запись с начала."
+    source: { kind: authored }
+  - form: "odtworzymy"
+    pl: "Odtworzymy przebieg wydarzeń."
+    ru: "Мы воссоздадим ход событий."
+    source: { kind: authored }
+  - form: "odtworzymy"
+    pl: "Nie odtworzymy tego z pamięci."
+    ru: "Мы не воспроизведём это по памяти."
+    source: { kind: authored }
+  - form: "odtworzysz"
+    pl: "Odtworzysz nagranie od początku."
+    ru: "Ты проиграешь запись с начала."
+    source: { kind: authored }
+  - form: "odtworzysz"
+    pl: "Odtworzysz przebieg wydarzeń."
+    ru: "Ты воссоздашь ход событий."
+    source: { kind: authored }
+  - form: "odtworzysz"
+    pl: "Nie odtworzysz tego z pamięci."
+    ru: "Ты не воспроизведёшь это по памяти."
+    source: { kind: authored }
   - form: "odtwórz"
     pl: "W głównym menu tego DVD nie ma przycisku 'odtwórz'."
     ru: "В главном меню этого DVD нет кнопки «воспроизвести»."
@@ -127,4 +193,28 @@ formExamples:
   - form: "odtwórz"
     pl: "Odtwórz to powoli."
     ru: "Воспроизведи это медленно."
+    source: { kind: authored }
+  - form: "niech odtworzy"
+    pl: "Niech odtworzy nagranie od początku."
+    ru: "Пусть проиграет запись с начала."
+    source: { kind: authored }
+  - form: "niech odtworzy"
+    pl: "Niech odtworzy przebieg wydarzeń."
+    ru: "Пусть воссоздаст ход событий."
+    source: { kind: authored }
+  - form: "niech odtworzy"
+    pl: "Niech odtworzy to dokładnie."
+    ru: "Пусть воспроизведёт это точно."
+    source: { kind: authored }
+  - form: "niech odtworzą"
+    pl: "Niech odtworzą nagranie od początku."
+    ru: "Пусть проиграют запись с начала."
+    source: { kind: authored }
+  - form: "niech odtworzą"
+    pl: "Niech odtworzą przebieg wydarzeń."
+    ru: "Пусть воссоздадут ход событий."
+    source: { kind: authored }
+  - form: "niech odtworzą"
+    pl: "Niech odtworzą to dokładnie."
+    ru: "Пусть воспроизведут это точно."
     source: { kind: authored }
