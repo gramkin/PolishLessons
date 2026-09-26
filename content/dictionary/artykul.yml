@@ -49,11 +49,6 @@ idioms:
   - { pl: "artykuły spożywcze", ru: "продовольственные товары" }
   - { pl: "napisać artykuł", ru: "написать статью" }
   - { pl: "artykuł wstępny", ru: "передовая статья" }
-formExamplesSkip:
-  - { form: "artykułami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "artykułem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "artykułom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "artykułowi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "artykule"
     pl: "Powiedz mi proszę, co sądzisz o tym artykule."
@@ -90,6 +85,54 @@ formExamples:
   - form: "artykułach"
     pl: "Pisał o tym w wielu artykułach."
     ru: "Он писал об этом во многих статьях."
+    source: { kind: authored }
+  - form: "artykułami"
+    pl: "Zajmuje się artykułami spożywczymi."
+    ru: "Он занимается продовольственными товарами."
+    source: { kind: authored }
+  - form: "artykułami"
+    pl: "Między artykułami a felietonami jest różnica."
+    ru: "Между статьями и фельетонами есть разница."
+    source: { kind: authored }
+  - form: "artykułami"
+    pl: "Zasypali redakcję artykułami."
+    ru: "Редакцию завалили статьями."
+    source: { kind: authored }
+  - form: "artykułem"
+    pl: "Sprawa skończyła się artykułem w gazecie."
+    ru: "Дело кончилось статьёй в газете."
+    source: { kind: authored }
+  - form: "artykułem"
+    pl: "Nad artykułem pracował tydzień."
+    ru: "Над статьёй он работал неделю."
+    source: { kind: authored }
+  - form: "artykułem"
+    pl: "Posłużył się artykułem kodeksu."
+    ru: "Он сослался на статью кодекса."
+    source: { kind: authored }
+  - form: "artykułom"
+    pl: "Przyjrzyj się tym artykułom."
+    ru: "Присмотрись к этим статьям."
+    source: { kind: authored }
+  - form: "artykułom"
+    pl: "Dzięki tym artykułom sprawa ujrzała światło dzienne."
+    ru: "Благодаря этим статьям дело вышло наружу."
+    source: { kind: authored }
+  - form: "artykułom"
+    pl: "Nie ufaj anonimowym artykułom."
+    ru: "Не доверяй анонимным статьям."
+    source: { kind: authored }
+  - form: "artykułowi"
+    pl: "Przyjrzyj się temu artykułowi."
+    ru: "Присмотрись к этой статье."
+    source: { kind: authored }
+  - form: "artykułowi"
+    pl: "Dzięki temu artykułowi sprawa ujrzała światło dzienne."
+    ru: "Благодаря этой статье дело вышло наружу."
+    source: { kind: authored }
+  - form: "artykułowi"
+    pl: "Nie ufaj temu artykułowi."
+    ru: "Не доверяй этой статье."
     source: { kind: authored }
   - form: "artykułów"
     pl: "Nie komentuję ich artykułów."

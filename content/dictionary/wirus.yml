@@ -49,11 +49,6 @@ idioms:
   - { pl: "wirus komputerowy", ru: "компьютерный вирус" }
   - { pl: "wirus grypy", ru: "вирус гриппа" }
   - { pl: "zarazić się wirusem", ru: "заразиться вирусом" }
-formExamplesSkip:
-  - { form: "wirusach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wirusie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wirusom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wirusowi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "wirus"
     pl: "To nie jest wirus."
@@ -79,6 +74,18 @@ formExamples:
     pl: "Nie możemy znaleźć wirusa w twojej krwi."
     ru: "Мы не можем найти вирус в твоей крови."
     source: { kind: translated, id: 11497312 }
+  - form: "wirusach"
+    pl: "O wirusach sezonowych mówi lekarz."
+    ru: "О сезонных вирусах рассказывает врач."
+    source: { kind: authored }
+  - form: "wirusach"
+    pl: "W tych wirusach nie ma nic nowego."
+    ru: "В этих вирусах нет ничего нового."
+    source: { kind: authored }
+  - form: "wirusach"
+    pl: "W wirusach komputerowych też są mody."
+    ru: "В компьютерных вирусах тоже есть мода."
+    source: { kind: authored }
   - form: "wirusami"
     pl: "Jak chronić komputer przed wirusami?"
     ru: "Как защитить компьютер от вирусов?"
@@ -102,6 +109,42 @@ formExamples:
   - form: "wirusem"
     pl: "Komputer jest zainfekowany wirusem."
     ru: "Компьютер заражён вирусом."
+    source: { kind: authored }
+  - form: "wirusie"
+    pl: "O tym wirusie mówi cały świat."
+    ru: "Об этом вирусе говорит весь мир."
+    source: { kind: authored }
+  - form: "wirusie"
+    pl: "W tym wirusie jest coś nietypowego."
+    ru: "В этом вирусе есть что-то нетипичное."
+    source: { kind: authored }
+  - form: "wirusie"
+    pl: "W wirusie komputerowym znaleziono podpis autora."
+    ru: "В компьютерном вирусе нашли подпись автора."
+    source: { kind: authored }
+  - form: "wirusom"
+    pl: "Przyjrzyj się tym wirusom pod mikroskopem."
+    ru: "Присмотрись к этим вирусам под микроскопом."
+    source: { kind: authored }
+  - form: "wirusom"
+    pl: "Dzięki szczepieniom opieramy się wirusom."
+    ru: "Благодаря прививкам мы сопротивляемся вирусам."
+    source: { kind: authored }
+  - form: "wirusom"
+    pl: "Nie daj wirusom się rozprzestrzenić."
+    ru: "Не дай вирусам распространиться."
+    source: { kind: authored }
+  - form: "wirusowi"
+    pl: "Przyjrzyj się temu wirusowi pod mikroskopem."
+    ru: "Присмотрись к этому вирусу под микроскопом."
+    source: { kind: authored }
+  - form: "wirusowi"
+    pl: "Dzięki szczepieniu oparł się wirusowi."
+    ru: "Благодаря прививке он устоял перед вирусом."
+    source: { kind: authored }
+  - form: "wirusowi"
+    pl: "Nie daj wirusowi się rozprzestrzenić."
+    ru: "Не дай вирусу распространиться."
     source: { kind: authored }
   - form: "wirusów"
     pl: "Antybiotyki nie zabijają wirusów."

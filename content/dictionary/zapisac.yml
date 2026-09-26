@@ -51,7 +51,6 @@ idioms:
   - { pl: "zapisz plik", ru: "сохрани файл" }
   - { pl: "zapisać się w historii", ru: "войти в историю" }
 formExamplesSkip:
-  - { form: "zapisali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisaliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisalibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisalibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -60,14 +59,12 @@ formExamplesSkip:
   - { form: "zapisałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zapisałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisałaś", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы того же времени" }
   - { form: "zapisałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisało", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы того же времени" }
   - { form: "zapisałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zapisały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zapisałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -76,26 +73,10 @@ formExamplesSkip:
   - { form: "zapisana", reason: "формы страдательного причастия zapisany «записанный», примеры даны при форме zapisany" }
   - { form: "zapisaną", reason: "формы страдательного причастия zapisany «записанный», примеры даны при форме zapisany" }
   - { form: "zapisane", reason: "формы страдательного причастия zapisany «записанный», примеры даны при форме zapisany" }
-  - { form: "zapisanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisania", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisanie", reason: "формы отглагольного существительного zapisanie «запись», в статье глагола примеры не приводятся" }
-  - { form: "zapisaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisano", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "zapisanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapisanymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisawszy", reason: "книжное деепричастие прошедшего времени, в корпусе примеров нет" }
-  - { form: "zapiszą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapiszcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapisze", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы того же времени" }
-  - { form: "zapiszecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapiszemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapiszesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapiszmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zapisać"
     pl: "Możesz to zapisać?"
@@ -109,6 +90,18 @@ formExamples:
     pl: "Muszę to zapisać bo zapomnę."
     ru: "Мне надо это записать, а то забуду."
     source: { kind: translated, id: 1348746 }
+  - form: "zapisali"
+    pl: "Zapisali dziecko do szkoły."
+    ru: "Они записали ребёнка в школу."
+    source: { kind: authored }
+  - form: "zapisali"
+    pl: "Zapisali wszystko w protokole."
+    ru: "Они записали всё в протокол."
+    source: { kind: authored }
+  - form: "zapisali"
+    pl: "Nic nie zapisali."
+    ru: "Они ничего не записали."
+    source: { kind: authored }
   - form: "zapisał"
     pl: "Zapisał numer telefonu."
     ru: "Он записал номер телефона."
@@ -132,6 +125,18 @@ formExamples:
   - form: "zapisała"
     pl: "Zapisała adres na kartce."
     ru: "Она записала адрес на листке."
+    source: { kind: authored }
+  - form: "zapisałam"
+    pl: "Zapisałam dziecko do szkoły."
+    ru: "Я записала ребёнка в школу."
+    source: { kind: authored }
+  - form: "zapisałam"
+    pl: "Zapisałam numer na kartce."
+    ru: "Я записала номер на бумажке."
+    source: { kind: authored }
+  - form: "zapisałam"
+    pl: "Nic nie zapisałam."
+    ru: "Я ничего не записала."
     source: { kind: authored }
   - form: "zapisałem"
     pl: "Zapisałem to."
@@ -157,6 +162,102 @@ formExamples:
     pl: "Zapisałeś jej nazwisko?"
     ru: "Ты записал её фамилию?"
     source: { kind: authored }
+  - form: "zapisały"
+    pl: "Kobiety zapisały dzieci na zajęcia."
+    ru: "Женщины записали детей на занятия."
+    source: { kind: authored }
+  - form: "zapisały"
+    pl: "Kamery zapisały całe zdarzenie."
+    ru: "Камеры записали всё происшествие."
+    source: { kind: authored }
+  - form: "zapisały"
+    pl: "Nic nie zapisały."
+    ru: "Они ничего не записали."
+    source: { kind: authored }
+  - form: "zapisanego"
+    pl: "Nie ma tu nic zapisanego."
+    ru: "Здесь ничего не записано."
+    source: { kind: authored }
+  - form: "zapisanego"
+    pl: "Szukam zapisanego numeru."
+    ru: "Я ищу записанный номер."
+    source: { kind: authored }
+  - form: "zapisanego"
+    pl: "Od zapisanego w umowie terminu minął rok."
+    ru: "С записанного в договоре срока прошёл год."
+    source: { kind: authored }
+  - form: "zapisanej"
+    pl: "Nie ma zapisanej daty."
+    ru: "Записанной даты нет."
+    source: { kind: authored }
+  - form: "zapisanej"
+    pl: "Szukam zapisanej gdzieś notatki."
+    ru: "Я ищу где-то записанную заметку."
+    source: { kind: authored }
+  - form: "zapisanej"
+    pl: "Trzymał się zapisanej w umowie kwoty."
+    ru: "Он держался записанной в договоре суммы."
+    source: { kind: authored }
+  - form: "zapisanemu"
+    pl: "Przyjrzyj się zapisanemu numerowi."
+    ru: "Присмотрись к записанному номеру."
+    source: { kind: authored }
+  - form: "zapisanemu"
+    pl: "Dzięki zapisanemu hasłu wszedł do systemu."
+    ru: "Благодаря записанному паролю он вошёл в систему."
+    source: { kind: authored }
+  - form: "zapisanemu"
+    pl: "Nie ufaj zapisanemu na serwetce adresowi."
+    ru: "Не доверяй адресу, записанному на салфетке."
+    source: { kind: authored }
+  - form: "zapisani"
+    pl: "Zapisani na kurs przyszli w komplecie."
+    ru: "Записанные на курс пришли в полном составе."
+    source: { kind: authored }
+  - form: "zapisani"
+    pl: "Byli zapisani do tej samej szkoły."
+    ru: "Они были записаны в одну школу."
+    source: { kind: authored }
+  - form: "zapisani"
+    pl: "Zapisani wcześniej mają pierwszeństwo."
+    ru: "Записанные раньше имеют преимущество."
+    source: { kind: authored }
+  - form: "zapisania"
+    pl: "Domagał się zapisania tego w protokole."
+    ru: "Он требовал записать это в протокол."
+    source: { kind: authored }
+  - form: "zapisania"
+    pl: "Bez zapisania numeru go nie znajdziesz."
+    ru: "Не записав номер, ты его не найдёшь."
+    source: { kind: authored }
+  - form: "zapisania"
+    pl: "Unikał zapisania swoich myśli."
+    ru: "Он избегал записывать свои мысли."
+    source: { kind: authored }
+  - form: "zapisaniem"
+    pl: "Między obietnicą a zapisaniem jej w umowie jest różnica."
+    ru: "Между обещанием и его записью в договоре есть разница."
+    source: { kind: authored }
+  - form: "zapisaniem"
+    pl: "Zmęczył się zapisaniem tych wszystkich nazwisk."
+    ru: "Он устал записывать все эти фамилии."
+    source: { kind: authored }
+  - form: "zapisaniem"
+    pl: "Skończyło się zapisaniem dziecka do innej szkoły."
+    ru: "Кончилось тем, что ребёнка записали в другую школу."
+    source: { kind: authored }
+  - form: "zapisaniu"
+    pl: "Po zapisaniu pliku zamknij program."
+    ru: "Сохранив файл, закрой программу."
+    source: { kind: authored }
+  - form: "zapisaniu"
+    pl: "W zapisaniu tego nie ma nic trudnego."
+    ru: "Записать это совсем не трудно."
+    source: { kind: authored }
+  - form: "zapisaniu"
+    pl: "O zapisaniu numeru zapomniał."
+    ru: "Записать номер он забыл."
+    source: { kind: authored }
   - form: "zapisany"
     pl: "Jesteś zapisany?"
     ru: "Ты записан?"
@@ -169,6 +270,42 @@ formExamples:
     pl: "Język polski zapisany fonetycznie wygląda jak mowa Mordoru."
     ru: "Польский язык, записанный фонетически, выглядит как речь Мордора."
     source: { kind: translated, id: 6684220 }
+  - form: "zapisanych"
+    pl: "Nie ma tu zapisanych numerów."
+    ru: "Записанных номеров тут нет."
+    source: { kind: authored }
+  - form: "zapisanych"
+    pl: "Z zapisanych uczniów przyszła połowa."
+    ru: "Из записанных учеников пришла половина."
+    source: { kind: authored }
+  - form: "zapisanych"
+    pl: "Lista zapisanych osób jest długa."
+    ru: "Список записанных длинный."
+    source: { kind: authored }
+  - form: "zapisanym"
+    pl: "W zapisanym zeszycie nie ma miejsca."
+    ru: "В исписанной тетради нет места."
+    source: { kind: authored }
+  - form: "zapisanym"
+    pl: "Poświęcił rozdział zapisanym wspomnieniom."
+    ru: "Он посвятил главу записанным воспоминаниям."
+    source: { kind: authored }
+  - form: "zapisanym"
+    pl: "Zajmuje się zapisanym materiałem."
+    ru: "Он занимается записанным материалом."
+    source: { kind: authored }
+  - form: "zapisanymi"
+    pl: "Zajmuje się zapisanymi rozmowami."
+    ru: "Он занимается записанными разговорами."
+    source: { kind: authored }
+  - form: "zapisanymi"
+    pl: "Między zapisanymi a zapamiętanymi faktami jest różnica."
+    ru: "Между записанными и запомненными фактами есть разница."
+    source: { kind: authored }
+  - form: "zapisanymi"
+    pl: "Posługuje się zapisanymi wcześniej notatkami."
+    ru: "Он пользуется заранее записанными заметками."
+    source: { kind: authored }
   - form: "zapisz"
     pl: "Zapisz się."
     ru: "Запишись."
@@ -181,6 +318,66 @@ formExamples:
     pl: "Zapisz na tej kartce leki, których potrzebujesz."
     ru: "Запишите на этом листе необходимые вам лекарства."
     source: { kind: tatoeba, id: 10695711 }
+  - form: "zapiszą"
+    pl: "Zapiszą dziecko do szkoły."
+    ru: "Они запишут ребёнка в школу."
+    source: { kind: authored }
+  - form: "zapiszą"
+    pl: "Zapiszą wszystko w protokole."
+    ru: "Они запишут всё в протокол."
+    source: { kind: authored }
+  - form: "zapiszą"
+    pl: "Nic nie zapiszą."
+    ru: "Они ничего не запишут."
+    source: { kind: authored }
+  - form: "zapiszcie"
+    pl: "Zapiszcie numer na kartce."
+    ru: "Запишите номер на бумажке."
+    source: { kind: authored }
+  - form: "zapiszcie"
+    pl: "Zapiszcie to w protokole."
+    ru: "Запишите это в протокол."
+    source: { kind: authored }
+  - form: "zapiszcie"
+    pl: "Nie zapiszcie niczego błędnie."
+    ru: "Не запишите ничего с ошибкой."
+    source: { kind: authored }
+  - form: "zapiszecie"
+    pl: "Zapiszecie dziecko do szkoły?"
+    ru: "Вы запишете ребёнка в школу?"
+    source: { kind: authored }
+  - form: "zapiszecie"
+    pl: "Zapiszecie wszystko w protokole."
+    ru: "Вы запишете всё в протокол."
+    source: { kind: authored }
+  - form: "zapiszecie"
+    pl: "Nic nie zapiszecie."
+    ru: "Вы ничего не запишете."
+    source: { kind: authored }
+  - form: "zapiszemy"
+    pl: "Zapiszemy dziecko do szkoły."
+    ru: "Мы запишем ребёнка в школу."
+    source: { kind: authored }
+  - form: "zapiszemy"
+    pl: "Zapiszemy wszystko w protokole."
+    ru: "Мы запишем всё в протокол."
+    source: { kind: authored }
+  - form: "zapiszemy"
+    pl: "Nic nie zapiszemy."
+    ru: "Мы ничего не запишем."
+    source: { kind: authored }
+  - form: "zapiszesz"
+    pl: "Zapiszesz numer na kartce?"
+    ru: "Ты запишешь номер на бумажке?"
+    source: { kind: authored }
+  - form: "zapiszesz"
+    pl: "Zapiszesz to w protokole."
+    ru: "Ты запишешь это в протокол."
+    source: { kind: authored }
+  - form: "zapiszesz"
+    pl: "Nic nie zapiszesz."
+    ru: "Ты ничего не запишешь."
+    source: { kind: authored }
   - form: "zapiszę"
     pl: "Pozwól, że to zapiszę."
     ru: "Позволь, я это запишу."
@@ -192,4 +389,16 @@ formExamples:
   - form: "zapiszę"
     pl: "Zapiszę to w kalendarzu."
     ru: "Я запишу это в календарь."
+    source: { kind: authored }
+  - form: "zapiszmy"
+    pl: "Zapiszmy numer na kartce."
+    ru: "Запишем номер на бумажке."
+    source: { kind: authored }
+  - form: "zapiszmy"
+    pl: "Zapiszmy to w protokole."
+    ru: "Запишем это в протокол."
+    source: { kind: authored }
+  - form: "zapiszmy"
+    pl: "Nie zapiszmy niczego błędnie."
+    ru: "Не запишем ничего с ошибкой."
     source: { kind: authored }

@@ -31,6 +31,7 @@ senses:
         ru: "Я не знаю, как показать это, поскольку это и так вполне ясно."
         source: { kind: tatoeba, id: 349057 }
 notes:
+  - { kind: usage, text: "Простая сравнительная степень oczywistszy образуется, но слово длинное, и обычно говорят bardziej oczywisty. Мужско-личная форма oczywiści при этом совершенно обычна: oczywiści faworyci «очевидные фавориты»." }
   - { kind: usage, text: "Средний род oczywiste работает как безличное «очевидно»: To oczywiste, że kłamał «Очевидно, что он лгал»." }
   - { kind: usage, text: "Наречие — oczywiście «конечно, разумеется», одно из самых частых слов в разговоре." }
   - { kind: government, text: "Считать что-то само собой разумеющимся — uważać coś za oczywiste (винительный с za)." }
@@ -61,11 +62,6 @@ formExamplesSkip:
   - { form: "najoczywistszych", reason: "формы превосходной степени, в корпусе примеров нет" }
   - { form: "najoczywistszym", reason: "формы превосходной степени, в корпусе примеров нет" }
   - { form: "najoczywistszymi", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "oczywistą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oczywistego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oczywistej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oczywistemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oczywistsi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "oczywistsza", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "oczywistszą", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "oczywistsze", reason: "формы сравнительной степени, в корпусе примеров нет" }
@@ -76,8 +72,6 @@ formExamplesSkip:
   - { form: "oczywistszych", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "oczywistszym", reason: "формы сравнительной степени, в корпусе примеров нет" }
   - { form: "oczywistszymi", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "oczywistymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "oczywiści", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "oczywista"
     pl: "Odpowiedź jest oczywista."
@@ -91,6 +85,18 @@ formExamples:
     pl: "Różnica między tymi wersjami nie jest oczywista."
     ru: "Разница между этими версиями не очевидна."
     source: { kind: translated, id: 352140 }
+  - form: "oczywistą"
+    pl: "Uznali tę odpowiedź za oczywistą."
+    ru: "Этот ответ сочли очевидным."
+    source: { kind: authored }
+  - form: "oczywistą"
+    pl: "Podał oczywistą przyczynę."
+    ru: "Он назвал очевидную причину."
+    source: { kind: authored }
+  - form: "oczywistą"
+    pl: "Powtórzył oczywistą prawdę."
+    ru: "Он повторил очевидную истину."
+    source: { kind: authored }
   - form: "oczywiste"
     pl: "To oczywiste."
     ru: "Это очевидно."
@@ -103,6 +109,54 @@ formExamples:
     pl: "To oczywiste, że kłamał."
     ru: "Очевидно, что он лгал."
     source: { kind: translated, id: 625126 }
+  - form: "oczywistego"
+    pl: "Nie ma tu nic oczywistego."
+    ru: "Здесь нет ничего очевидного."
+    source: { kind: authored }
+  - form: "oczywistego"
+    pl: "Szukam oczywistego wyjaśnienia."
+    ru: "Я ищу очевидное объяснение."
+    source: { kind: authored }
+  - form: "oczywistego"
+    pl: "Unikaj oczywistego wniosku."
+    ru: "Избегай очевидного вывода."
+    source: { kind: authored }
+  - form: "oczywistej"
+    pl: "Nie ma oczywistej odpowiedzi."
+    ru: "Очевидного ответа нет."
+    source: { kind: authored }
+  - form: "oczywistej"
+    pl: "Szukam oczywistej przyczyny."
+    ru: "Я ищу очевидную причину."
+    source: { kind: authored }
+  - form: "oczywistej"
+    pl: "Trzymał się oczywistej wersji."
+    ru: "Он держался очевидной версии."
+    source: { kind: authored }
+  - form: "oczywistemu"
+    pl: "Nie zaprzeczaj oczywistemu faktowi."
+    ru: "Не отрицай очевидного факта."
+    source: { kind: authored }
+  - form: "oczywistemu"
+    pl: "Przyjrzyj się temu oczywistemu błędowi."
+    ru: "Присмотрись к этой очевидной ошибке."
+    source: { kind: authored }
+  - form: "oczywistemu"
+    pl: "Nie ufaj zbyt oczywistemu rozwiązaniu."
+    ru: "Не доверяй слишком очевидному решению."
+    source: { kind: authored }
+  - form: "oczywistsi"
+    pl: "Z każdym rokiem faworyci są oczywistsi."
+    ru: "С каждым годом фавориты всё очевиднее."
+    source: { kind: authored }
+  - form: "oczywistsi"
+    pl: "Kandydaci stali się oczywistsi po debacie."
+    ru: "После дебатов кандидаты стали очевиднее."
+    source: { kind: authored }
+  - form: "oczywistsi"
+    pl: "Sprawcy bywają oczywistsi, niż się wydaje."
+    ru: "Виновные бывают очевиднее, чем кажется."
+    source: { kind: authored }
   - form: "oczywisty"
     pl: "Powód jest oczywisty."
     ru: "Причина очевидна."
@@ -138,4 +192,28 @@ formExamples:
   - form: "oczywistym"
     pl: "Stało się to oczywistym dla wszystkich."
     ru: "Это стало очевидным для всех."
+    source: { kind: authored }
+  - form: "oczywistymi"
+    pl: "Posługuje się oczywistymi argumentami."
+    ru: "Он пользуется очевидными доводами."
+    source: { kind: authored }
+  - form: "oczywistymi"
+    pl: "Między oczywistymi a pozornymi prawdami jest różnica."
+    ru: "Между очевидными и мнимыми истинами есть разница."
+    source: { kind: authored }
+  - form: "oczywistymi"
+    pl: "Zaskoczył nas oczywistymi pytaniami."
+    ru: "Он удивил нас очевидными вопросами."
+    source: { kind: authored }
+  - form: "oczywiści"
+    pl: "Oczywiści faworyci odpadli w pierwszej rundzie."
+    ru: "Очевидные фавориты вылетели в первом круге."
+    source: { kind: authored }
+  - form: "oczywiści"
+    pl: "Oczywiści kandydaci nie zawsze wygrywają."
+    ru: "Очевидные кандидаты не всегда побеждают."
+    source: { kind: authored }
+  - form: "oczywiści"
+    pl: "Oczywiści sprawcy mieli alibi."
+    ru: "У очевидных виновников было алиби."
     source: { kind: authored }
