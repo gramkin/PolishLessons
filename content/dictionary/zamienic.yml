@@ -57,6 +57,7 @@ notes:
   - { kind: government, text: "Обмен строится с предлогом na и винительным: zamienić krowę na konie «обменять корову на лошадей»." }
   - { kind: usage, text: "Возвратное zamienić się w coś значит «превратиться во что-то»: zamienił się w żabę «он превратился в лягушку»." }
   - { kind: usage, text: "Идиома zamienić się w słuch — «превратиться в слух», то есть приготовиться внимательно слушать." }
+  - { kind: usage, text: "Обычное отглагольное существительное здесь — zamiana «обмен, замена». Форма zamienienie возможна, но встречается редко и звучит книжно." }
 collocations:
   - { pl: "zamienić się miejscami", ru: "поменяться местами" }
   - { pl: "zamienić słowo", ru: "перекинуться словом" }
@@ -68,14 +69,6 @@ idioms:
   - { pl: "zamienić się w słuch", ru: "превратиться в слух" }
   - { pl: "zamienił stryjek siekierkę na kijek", ru: "променял дядюшка топор на палку" }
 formExamplesSkip:
-  - { form: "zamieni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienieni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienienia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienienie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienieniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienieniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamienilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamienilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -84,33 +77,52 @@ formExamplesSkip:
   - { form: "zamieniłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamieniłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamieniłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zamieniłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zamieniłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamieniło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zamieniły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamieniłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamieniłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zamieniłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "zamieniłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zamienimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamieniona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienioną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienione", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienionego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienionej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienionemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "zamienionych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienionym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienionymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamienisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamieniwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "zamień", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamieńcie", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "zamieni"
+    pl: "Zamieni krowę na konia."
+    ru: "Он обменяет корову на коня."
+    source: { kind: authored }
+  - form: "zamieni"
+    pl: "Zamieni to w żart."
+    ru: "Он превратит это в шутку."
+    source: { kind: authored }
+  - form: "zamieni"
+    pl: "Nikt tego nie zamieni."
+    ru: "Никто этого не обменяет."
+    source: { kind: authored }
+  - form: "zamienią"
+    pl: "Zamienią krowę na konia."
+    ru: "Они обменяют корову на коня."
+    source: { kind: authored }
+  - form: "zamienią"
+    pl: "Zamienią to w żart."
+    ru: "Они превратят это в шутку."
+    source: { kind: authored }
+  - form: "zamienią"
+    pl: "Nie zamienią tego na nic lepszego."
+    ru: "Они не обменяют это ни на что лучшее."
+    source: { kind: authored }
+  - form: "zamienicie"
+    pl: "Zamienicie krowę na konia?"
+    ru: "Вы обменяете корову на коня?"
+    source: { kind: authored }
+  - form: "zamienicie"
+    pl: "Zamienicie to w żart."
+    ru: "Вы превратите это в шутку."
+    source: { kind: authored }
+  - form: "zamienicie"
+    pl: "Nie zamienicie tego na nic lepszego."
+    ru: "Вы не обменяете это ни на что лучшее."
+    source: { kind: authored }
   - form: "zamienić"
     pl: "Proszę mi to zamienić."
     ru: "Поменяйте мне это, пожалуйста."
@@ -127,6 +139,66 @@ formExamples:
     pl: "Chciałbym zamienić na pokój od tyłu."
     ru: "Я хотел бы поменять номер на тот, что с задней стороны."
     source: { kind: translated, id: 410368 }
+  - form: "zamienieni"
+    pl: "Zamienieni w kamień, stali tam wieki."
+    ru: "Обращённые в камень, они стояли там века."
+    source: { kind: authored }
+  - form: "zamienieni"
+    pl: "W bajce byli zamienieni w łabędzie."
+    ru: "В сказке их превратили в лебедей."
+    source: { kind: authored }
+  - form: "zamienieni"
+    pl: "Zamienieni w słuch, czekali na wyrok."
+    ru: "Обратившись в слух, они ждали приговора."
+    source: { kind: authored }
+  - form: "zamienienia"
+    pl: "Domagają się zamienienia kary na grzywnę."
+    ru: "Они требуют замены наказания штрафом."
+    source: { kind: authored }
+  - form: "zamienienia"
+    pl: "Od zamienienia placu w parking minął rok."
+    ru: "С превращения площади в парковку прошёл год."
+    source: { kind: authored }
+  - form: "zamienienia"
+    pl: "Koszt zamienienia fabryki w muzeum był ogromny."
+    ru: "Стоимость превращения фабрики в музей была огромной."
+    source: { kind: authored }
+  - form: "zamienienie"
+    pl: "Zamienienie fabryki w muzeum kosztowało miliony."
+    ru: "Превращение фабрики в музей стоило миллионы."
+    source: { kind: authored }
+  - form: "zamienienie"
+    pl: "Zamienienie kary na grzywnę było łaską."
+    ru: "Замена наказания штрафом была милостью."
+    source: { kind: authored }
+  - form: "zamienienie"
+    pl: "Zamienienie placu w park zajęło dwa lata."
+    ru: "Превращение площади в парк заняло два года."
+    source: { kind: authored }
+  - form: "zamienieniem"
+    pl: "Skończyło się zamienieniem placu w parking."
+    ru: "Кончилось превращением площади в парковку."
+    source: { kind: authored }
+  - form: "zamienieniem"
+    pl: "Między remontem a zamienieniem budynku w muzeum jest różnica."
+    ru: "Между ремонтом и превращением здания в музей есть разница."
+    source: { kind: authored }
+  - form: "zamienieniem"
+    pl: "Zajmuje się zamienieniem kar na grzywny."
+    ru: "Он занимается заменой наказаний штрафами."
+    source: { kind: authored }
+  - form: "zamienieniu"
+    pl: "Po zamienieniu kary na grzywnę wyszedł na wolność."
+    ru: "После замены наказания штрафом он вышел на свободу."
+    source: { kind: authored }
+  - form: "zamienieniu"
+    pl: "O zamienieniu placu w park mówi uchwała."
+    ru: "О превращении площади в парк говорит постановление."
+    source: { kind: authored }
+  - form: "zamienieniu"
+    pl: "W zamienieniu fabryki w muzeum nie ma nic dziwnego."
+    ru: "В превращении фабрики в музей нет ничего странного."
+    source: { kind: authored }
   - form: "zamienię"
     pl: "Zamienię to."
     ru: "Я это поменяю."
@@ -191,6 +263,18 @@ formExamples:
     pl: "Zamieniłam bilety na inny dzień."
     ru: "Я поменяла билеты на другой день."
     source: { kind: authored }
+  - form: "zamieniłaś"
+    pl: "Zamieniłaś krowę na konia."
+    ru: "Ты обменяла корову на коня."
+    source: { kind: authored }
+  - form: "zamieniłaś"
+    pl: "Zamieniłaś to w żart."
+    ru: "Ты превратила это в шутку."
+    source: { kind: authored }
+  - form: "zamieniłaś"
+    pl: "Zamieniłaś się z nim miejscami."
+    ru: "Ты поменялась с ним местами."
+    source: { kind: authored }
   - form: "zamieniłby"
     pl: "Nie zamieniłby się pan ze mną miejscami?"
     ru: "Вы не поменялись бы со мной местами?"
@@ -227,6 +311,126 @@ formExamples:
     pl: "Zamieniłem się z nim miejscami."
     ru: "Я поменялся с ним местами."
     source: { kind: authored }
+  - form: "zamieniłeś"
+    pl: "Zamieniłeś krowę na konia."
+    ru: "Ты обменял корову на коня."
+    source: { kind: authored }
+  - form: "zamieniłeś"
+    pl: "Zamieniłeś to w żart."
+    ru: "Ты превратил это в шутку."
+    source: { kind: authored }
+  - form: "zamieniłeś"
+    pl: "Zamieniłeś się z nim miejscami."
+    ru: "Ты поменялся с ним местами."
+    source: { kind: authored }
+  - form: "zamieniło"
+    pl: "Dziecko zamieniło zabawki."
+    ru: "Ребёнок обменял игрушки."
+    source: { kind: authored }
+  - form: "zamieniło"
+    pl: "To zamieniło jego życie w koszmar."
+    ru: "Это превратило его жизнь в кошмар."
+    source: { kind: authored }
+  - form: "zamieniło"
+    pl: "Miasto zamieniło plac w park."
+    ru: "Город превратил площадь в парк."
+    source: { kind: authored }
+  - form: "zamieniły"
+    pl: "Dzieci zamieniły się zabawkami."
+    ru: "Дети обменялись игрушками."
+    source: { kind: authored }
+  - form: "zamieniły"
+    pl: "Te słowa zamieniły wieczór w kłótnię."
+    ru: "Эти слова превратили вечер в ссору."
+    source: { kind: authored }
+  - form: "zamieniły"
+    pl: "Deszcze zamieniły drogę w błoto."
+    ru: "Дожди превратили дорогу в грязь."
+    source: { kind: authored }
+  - form: "zamienimy"
+    pl: "Zamienimy krowę na konia."
+    ru: "Мы обменяем корову на коня."
+    source: { kind: authored }
+  - form: "zamienimy"
+    pl: "Zamienimy to w żart."
+    ru: "Мы превратим это в шутку."
+    source: { kind: authored }
+  - form: "zamienimy"
+    pl: "Nie zamienimy tego na nic lepszego."
+    ru: "Мы не обменяем это ни на что лучшее."
+    source: { kind: authored }
+  - form: "zamieniona"
+    pl: "Fabryka została zamieniona w muzeum."
+    ru: "Фабрику превратили в музей."
+    source: { kind: authored }
+  - form: "zamieniona"
+    pl: "Kara została zamieniona na grzywnę."
+    ru: "Наказание заменили штрафом."
+    source: { kind: authored }
+  - form: "zamieniona"
+    pl: "Sala jest zamieniona na magazyn."
+    ru: "Зал превращён в склад."
+    source: { kind: authored }
+  - form: "zamienioną"
+    pl: "Znam fabrykę zamienioną w muzeum."
+    ru: "Я знаю фабрику, превращённую в музей."
+    source: { kind: authored }
+  - form: "zamienioną"
+    pl: "Uznano karę za zamienioną na grzywnę."
+    ru: "Наказание сочли заменённым штрафом."
+    source: { kind: authored }
+  - form: "zamienioną"
+    pl: "Widziałem salę zamienioną na magazyn."
+    ru: "Я видел зал, превращённый в склад."
+    source: { kind: authored }
+  - form: "zamienione"
+    pl: "Fabryki zostały zamienione w muzea."
+    ru: "Фабрики превратили в музеи."
+    source: { kind: authored }
+  - form: "zamienione"
+    pl: "Zamienione monety okazały się fałszywe."
+    ru: "Подменённые монеты оказались фальшивыми."
+    source: { kind: authored }
+  - form: "zamienione"
+    pl: "Kary zostały zamienione na grzywny."
+    ru: "Наказания заменили штрафами."
+    source: { kind: authored }
+  - form: "zamienionego"
+    pl: "Nie ma tu nic zamienionego."
+    ru: "Здесь ничего не подменено."
+    source: { kind: authored }
+  - form: "zamienionego"
+    pl: "Szukam banknotu zamienionego na drobne."
+    ru: "Я ищу банкноту, разменянную на мелочь."
+    source: { kind: authored }
+  - form: "zamienionego"
+    pl: "Od placu zamienionego w parking nic nie zostało."
+    ru: "От площади, превращённой в парковку, ничего не осталось."
+    source: { kind: authored }
+  - form: "zamienionej"
+    pl: "Nie znam fabryki zamienionej w muzeum."
+    ru: "Я не знаю фабрики, превращённой в музей."
+    source: { kind: authored }
+  - form: "zamienionej"
+    pl: "Szukamy kary zamienionej na grzywnę."
+    ru: "Мы ищем наказание, заменённое штрафом."
+    source: { kind: authored }
+  - form: "zamienionej"
+    pl: "Po sali zamienionej na magazyn zostały regały."
+    ru: "От зала, превращённого в склад, остались стеллажи."
+    source: { kind: authored }
+  - form: "zamienionemu"
+    pl: "Przyjrzyj się placowi zamienionemu w park."
+    ru: "Присмотрись к площади, превращённой в парк."
+    source: { kind: authored }
+  - form: "zamienionemu"
+    pl: "Budynkowi zamienionemu w muzeum nic nie grozi."
+    ru: "Зданию, превращённому в музей, ничего не грозит."
+    source: { kind: authored }
+  - form: "zamienionemu"
+    pl: "Daj pierwszeństwo wyrokowi zamienionemu na grzywnę."
+    ru: "Отдай предпочтение приговору, заменённому штрафом."
+    source: { kind: authored }
   - form: "zamieniony"
     pl: "Tom został zamieniony w psa."
     ru: "Том был превращён в собаку."
@@ -238,6 +442,78 @@ formExamples:
   - form: "zamieniony"
     pl: "Stary młyn został zamieniony w hotel."
     ru: "Старая мельница была превращена в гостиницу."
+    source: { kind: authored }
+  - form: "zamienionych"
+    pl: "Nie ma tu monet zamienionych na drobne."
+    ru: "Здесь нет монет, разменянных на мелочь."
+    source: { kind: authored }
+  - form: "zamienionych"
+    pl: "Wśród fabryk zamienionych w muzea jest i ta."
+    ru: "Среди фабрик, превращённых в музеи, есть и эта."
+    source: { kind: authored }
+  - form: "zamienionych"
+    pl: "Liczba kar zamienionych na grzywny rośnie."
+    ru: "Число наказаний, заменённых штрафами, растёт."
+    source: { kind: authored }
+  - form: "zamienionym"
+    pl: "W budynku zamienionym w muzeum jest zimno."
+    ru: "В здании, превращённом в музей, холодно."
+    source: { kind: authored }
+  - form: "zamienionym"
+    pl: "Placom zamienionym w parkingi nikt nie pomoże."
+    ru: "Площадям, превращённым в парковки, никто не поможет."
+    source: { kind: authored }
+  - form: "zamienionym"
+    pl: "Z wyrokiem zamienionym na grzywnę było łatwiej."
+    ru: "С приговором, заменённым штрафом, было легче."
+    source: { kind: authored }
+  - form: "zamienionymi"
+    pl: "Zajmujemy się karami zamienionymi na grzywny."
+    ru: "Мы занимаемся наказаниями, заменёнными штрафами."
+    source: { kind: authored }
+  - form: "zamienionymi"
+    pl: "Między monetami zamienionymi a oryginalnymi jest różnica."
+    ru: "Между подменёнными и подлинными монетами есть разница."
+    source: { kind: authored }
+  - form: "zamienionymi"
+    pl: "Z fabrykami zamienionymi w muzea bywa kłopot."
+    ru: "С фабриками, превращёнными в музеи, бывают хлопоты."
+    source: { kind: authored }
+  - form: "zamienisz"
+    pl: "Zamienisz krowę na konia?"
+    ru: "Ты обменяешь корову на коня?"
+    source: { kind: authored }
+  - form: "zamienisz"
+    pl: "Zamienisz to w żart."
+    ru: "Ты превратишь это в шутку."
+    source: { kind: authored }
+  - form: "zamienisz"
+    pl: "Nie zamienisz tego na nic lepszego."
+    ru: "Ты не обменяешь это ни на что лучшее."
+    source: { kind: authored }
+  - form: "zamień"
+    pl: "Zamień krowę na konia."
+    ru: "Обменяй корову на коня."
+    source: { kind: authored }
+  - form: "zamień"
+    pl: "Zamień to w żart."
+    ru: "Преврати это в шутку."
+    source: { kind: authored }
+  - form: "zamień"
+    pl: "Zamień się ze mną miejscami."
+    ru: "Поменяйся со мной местами."
+    source: { kind: authored }
+  - form: "zamieńcie"
+    pl: "Zamieńcie krowę na konia."
+    ru: "Обменяйте корову на коня."
+    source: { kind: authored }
+  - form: "zamieńcie"
+    pl: "Zamieńcie to w żart."
+    ru: "Превратите это в шутку."
+    source: { kind: authored }
+  - form: "zamieńcie"
+    pl: "Zamieńcie się miejscami."
+    ru: "Поменяйтесь местами."
     source: { kind: authored }
   - form: "zamieńmy"
     pl: "Zamieńmy się miejscami."
