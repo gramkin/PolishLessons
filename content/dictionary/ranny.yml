@@ -43,6 +43,7 @@ senses:
         ru: "Он приучает себя рано вставать."
         source: { kind: translated, id: 919792 }
 notes:
+  - { kind: usage, text: "Форма ranniejsi оставлена без примеров: ranny не градуируется ни в значении «раненый», ни в значении «утренний» — нельзя быть «более раненым» или «более утренним»." }
   - { kind: false-friend, text: "Два разных слова слились в одно: ranny «раненый» (от rana «рана») и ranny «утренний» (от rano «утро»). Различает только контекст: ranny żołnierz «раненый солдат», но ranna zmiana «утренняя смена»." }
   - { kind: usage, text: "В значении «раненый» прилагательное легко становится существительным: ranni «раненые», rannych «раненых», rannego «раненого»." }
   - { kind: usage, text: "Ranny ptaszek — «ранняя пташка», о том, кто рано встаёт. Здесь ranny значит именно «утренний»." }
@@ -70,8 +71,6 @@ formExamplesSkip:
   - { form: "najranniejszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najranniejszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najranniejszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "ranną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rannemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ranniejsi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ranniejsza", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "ranniejszą", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
@@ -83,7 +82,6 @@ formExamplesSkip:
   - { form: "ranniejszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "ranniejszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "ranniejszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "rannymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "ranna"
     pl: "Jestem ranna."
@@ -101,6 +99,18 @@ formExamples:
     pl: "Została ranna w wypadku drogowym."
     ru: "Она была ранена в дорожной аварии."
     source: { kind: translated, id: 8630162 }
+  - form: "ranną"
+    pl: "Zabrali ranną kobietę do szpitala."
+    ru: "Раненую женщину увезли в больницу."
+    source: { kind: authored }
+  - form: "ranną"
+    pl: "Opatrzyli ranną nogę."
+    ru: "Они перевязали раненую ногу."
+    source: { kind: authored }
+  - form: "ranną"
+    pl: "Lubię ranną ciszę."
+    ru: "Я люблю утреннюю тишину."
+    source: { kind: authored }
   - form: "ranne"
     pl: "Dziecko zostało ranne."
     ru: "Ребёнок был ранен."
@@ -140,6 +150,18 @@ formExamples:
   - form: "rannej"
     pl: "Lekarz opatrzył rannej kobiecie nogę."
     ru: "Врач перевязал раненой женщине ногу."
+    source: { kind: authored }
+  - form: "rannemu"
+    pl: "Pomóż rannemu wstać."
+    ru: "Помоги раненому встать."
+    source: { kind: authored }
+  - form: "rannemu"
+    pl: "Podali rannemu wodę."
+    ru: "Раненому подали воды."
+    source: { kind: authored }
+  - form: "rannemu"
+    pl: "Dzięki rannemu spacerowi czuję się lepiej."
+    ru: "Благодаря утренней прогулке я чувствую себя лучше."
     source: { kind: authored }
   - form: "ranni"
     pl: "Są ranni?"
@@ -205,3 +227,15 @@ formExamples:
     pl: "Nie jestem rannym ptaszkiem."
     ru: "Я не ранняя пташка."
     source: { kind: tatoeba, id: 13901091 }
+  - form: "rannymi"
+    pl: "Zajmowali się rannymi przez całą noc."
+    ru: "Они занимались ранеными всю ночь."
+    source: { kind: authored }
+  - form: "rannymi"
+    pl: "Szpital był przepełniony rannymi."
+    ru: "Больница была переполнена ранеными."
+    source: { kind: authored }
+  - form: "rannymi"
+    pl: "Cieszę się rannymi godzinami."
+    ru: "Я радуюсь утренним часам."
+    source: { kind: authored }

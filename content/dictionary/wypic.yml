@@ -45,6 +45,7 @@ senses:
         ru: "Будь как я и выпей бокал вина."
         source: { kind: tatoeba, id: 5105343 }
 notes:
+  - { kind: usage, text: "Мужско-личной формы wypici не бывает: выпивают напиток, а не людей, поэтому эта форма оставлена без примеров. Причастие живёт в среднем и женском роде о выпитом: wypite mleko, wypita kawa." }
   - { kind: government, text: "Винительный падеж при полном объекте: wypić kawę «выпить кофе». При отрицании он меняется на родительный: nie wypił mleka «он не выпил молока»." }
   - { kind: usage, text: "Без дополнения wypić значит «выпить спиртного»: Tom lubi sobie wypić «Том любит выпить». Частица sobie как раз и подсказывает это значение." }
   - { kind: usage, text: "Тост строится с za и винительным: Wypijmy za zdrowie! «Выпьем за здоровье!»" }
@@ -64,7 +65,6 @@ formExamplesSkip:
   - { form: "wypicia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "wypicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "wypiciem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypiją", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wypijcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "wypijecie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "wypijemy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
@@ -78,9 +78,7 @@ formExamplesSkip:
   - { form: "wypiłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "wypiłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "wypiłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wypiłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wypiłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "wypiłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "wypiłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -143,6 +141,18 @@ formExamples:
     pl: "Bądź jak ja i wypij kieliszek wina."
     ru: "Будь как я и выпей бокал вина."
     source: { kind: tatoeba, id: 5105343 }
+  - form: "wypiją"
+    pl: "Wypiją kawę i wyjdą."
+    ru: "Они выпьют кофе и уйдут."
+    source: { kind: authored }
+  - form: "wypiją"
+    pl: "Wypiją za młodą parę."
+    ru: "Они выпьют за молодых."
+    source: { kind: authored }
+  - form: "wypiją"
+    pl: "Nie wypiją ani kropli."
+    ru: "Они не выпьют ни капли."
+    source: { kind: authored }
   - form: "wypije"
     pl: "Pana ból ustanie, jeśli wypije Pan to lekarstwo."
     ru: "Ваша боль пройдёт, если вы выпьете это лекарство."
@@ -295,3 +305,27 @@ formExamples:
     pl: "Wypiłeś ten sok pomarańczowy?"
     ru: "Ты выпил этот апельсиновый сок?"
     source: { kind: translated, id: 2736441 }
+  - form: "wypiło"
+    pl: "Dziecko wypiło całe mleko."
+    ru: "Ребёнок выпил всё молоко."
+    source: { kind: authored }
+  - form: "wypiło"
+    pl: "Wiele osób wypiło za dużo."
+    ru: "Многие выпили слишком много."
+    source: { kind: authored }
+  - form: "wypiło"
+    pl: "Kilkoro dzieci wypiło sok."
+    ru: "Несколько детей выпили сок."
+    source: { kind: authored }
+  - form: "wypiły"
+    pl: "Dzieci wypiły całe mleko."
+    ru: "Дети выпили всё молоко."
+    source: { kind: authored }
+  - form: "wypiły"
+    pl: "Wypiły kawę i wyszły."
+    ru: "Они выпили кофе и вышли."
+    source: { kind: authored }
+  - form: "wypiły"
+    pl: "Nie wypiły ani kropli."
+    ru: "Они не выпили ни капли."
+    source: { kind: authored }
