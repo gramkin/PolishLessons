@@ -60,7 +60,6 @@ idioms:
   - { pl: "kosztować fortunę", ru: "стоить целое состояние" }
   - { pl: "kosztować kogoś życie", ru: "стоить кому-то жизни" }
 formExamplesSkip:
-  - { form: "kosztowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kosztowaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -68,13 +67,9 @@ formExamplesSkip:
   - { form: "kosztowaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе нет примеров" }
   - { form: "kosztowałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "kosztowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kosztowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kosztowałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "kosztowałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kosztowałeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kosztowałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "kosztowałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -111,8 +106,6 @@ formExamplesSkip:
   - { form: "kosztujcie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "kosztujecie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "kosztujemy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "kosztujesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "kosztuję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "kosztujmy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
 formExamples:
   - form: "kosztować"
@@ -130,6 +123,18 @@ formExamples:
   - form: "kosztować"
     pl: "Chcesz kosztować tego sera?"
     ru: "Хочешь попробовать этого сыра?"
+    source: { kind: authored }
+  - form: "kosztowali"
+    pl: "Kosztowali każdej potrawy."
+    ru: "Они пробовали каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztowali"
+    pl: "Kosztowali zupy przed podaniem."
+    ru: "Они пробовали суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztowali"
+    pl: "Nie kosztowali surowego ciasta."
+    ru: "Они не пробовали сырое тесто."
     source: { kind: authored }
   - form: "kosztował"
     pl: "Ile kosztował bilet?"
@@ -174,6 +179,54 @@ formExamples:
   - form: "kosztowałaby"
     pl: "Nowa kuchnia kosztowałaby nas za dużo."
     ru: "Новая кухня обошлась бы нам слишком дорого."
+    source: { kind: authored }
+  - form: "kosztowałam"
+    pl: "Kosztowałam każdej potrawy."
+    ru: "Я пробовала каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztowałam"
+    pl: "Kosztowałam zupy przed podaniem."
+    ru: "Я пробовала суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztowałam"
+    pl: "Nie kosztowałam surowego ciasta."
+    ru: "Я не пробовала сырое тесто."
+    source: { kind: authored }
+  - form: "kosztowałaś"
+    pl: "Kosztowałaś każdej potrawy."
+    ru: "Ты пробовала каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztowałaś"
+    pl: "Kosztowałaś zupy przed podaniem."
+    ru: "Ты пробовала суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztowałaś"
+    pl: "Nie kosztowałaś surowego ciasta."
+    ru: "Ты не пробовала сырое тесто."
+    source: { kind: authored }
+  - form: "kosztowałem"
+    pl: "Kosztowałem każdej potrawy."
+    ru: "Я пробовал каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztowałem"
+    pl: "Kosztowałem zupy przed podaniem."
+    ru: "Я пробовал суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztowałem"
+    pl: "Nie kosztowałem surowego ciasta."
+    ru: "Я не пробовал сырое тесто."
+    source: { kind: authored }
+  - form: "kosztowałeś"
+    pl: "Kosztowałeś każdej potrawy."
+    ru: "Ты пробовал каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztowałeś"
+    pl: "Kosztowałeś zupy przed podaniem."
+    ru: "Ты пробовал суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztowałeś"
+    pl: "Nie kosztowałeś surowego ciasta."
+    ru: "Ты не пробовал сырое тесто."
     source: { kind: authored }
   - form: "kosztowało"
     pl: "Ile to kosztowało?"
@@ -251,6 +304,30 @@ formExamples:
     pl: "Książka kosztuje 10 złotych po zniżce."
     ru: "Книга стоит 10 злотых по скидке."
     source: { kind: tatoeba, id: 6319670 }
+  - form: "kosztujesz"
+    pl: "Kosztujesz zupy przed podaniem."
+    ru: "Ты пробуешь суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztujesz"
+    pl: "Kosztujesz każdej potrawy."
+    ru: "Ты пробуешь каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztujesz"
+    pl: "Nie kosztujesz surowego ciasta."
+    ru: "Ты не пробуешь сырое тесто."
+    source: { kind: authored }
+  - form: "kosztuję"
+    pl: "Kosztuję zupy przed podaniem."
+    ru: "Я пробую суп перед подачей."
+    source: { kind: authored }
+  - form: "kosztuję"
+    pl: "Kosztuję każdej potrawy."
+    ru: "Я пробую каждое блюдо."
+    source: { kind: authored }
+  - form: "kosztuję"
+    pl: "Nie kosztuję surowego ciasta."
+    ru: "Я не пробую сырое тесто."
+    source: { kind: authored }
   - form: "będę kosztować"
     pl: "Będę kosztować każdej potrawy."
     ru: "Я буду пробовать каждое блюдо."
