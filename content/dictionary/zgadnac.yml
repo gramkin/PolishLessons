@@ -44,6 +44,7 @@ senses:
         ru: "Ты никогда не угадаешь, кого я встретил сегодня утром."
         source: { kind: translated, id: 4158035 }
 notes:
+  - { kind: usage, text: "Мужско-личной формы zgadnięci не бывает: угадывают загадку, слово или ответ, а не людей, поэтому она оставлена без примеров. Причастие живёт при вещах: zgadnięte hasło «угаданный пароль», zagadka została zgadnięta." }
   - { kind: usage, text: "Zgadnij! «Угадай!» — самая частая форма: с неё начинают загадку или новость. Zgadnij, kogo spotkałem!" }
   - { kind: government, text: "zgadnąć coś «угадать что-то» — винительный падеж. С придаточным — zgadnąć, gdzie, kto или ile." }
   - { kind: usage, text: "Вид совершенный; несовершенный — zgadywać «угадывать, отгадывать». Существительное — zagadka «загадка»." }
@@ -59,7 +60,6 @@ idioms:
   - { pl: "nigdy nie zgadniesz", ru: "никогда не угадаешь" }
   - { pl: "zgadnij co", ru: "угадай что" }
 formExamplesSkip:
-  - { form: "zgadli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadlibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadlibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -71,18 +71,12 @@ formExamplesSkip:
   - { form: "zgadłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zgadłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zgadłszy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zgadłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "zgadłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zgadną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadnę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadnie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadniecie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadniemy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
@@ -91,20 +85,23 @@ formExamplesSkip:
   - { form: "zgadnięcie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadnięciem", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadnięciu", reason: "формы отглагольного существительного: в корпусе нет примеров" }
-  - { form: "zgadnięta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadniętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadnięte", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadniętego", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadniętej", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zgadniętemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadnięto", reason: "безличная форма прошедшего времени: в корпусе нет примеров" }
-  - { form: "zgadnięty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadniętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadniętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zgadniętymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zgadnijcie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadnijmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "zgadli"
+    pl: "Zgadli od razu."
+    ru: "Они угадали сразу."
+    source: { kind: authored }
+  - form: "zgadli"
+    pl: "Nie zgadli, o co chodzi."
+    ru: "Они не угадали, в чём дело."
+    source: { kind: authored }
+  - form: "zgadli"
+    pl: "Zgadli hasło za pierwszym razem."
+    ru: "Они угадали пароль с первого раза."
+    source: { kind: authored }
   - form: "zgadł"
     pl: "Ktoś zgadł?"
     ru: "Кто-нибудь угадал?"
@@ -169,6 +166,66 @@ formExamples:
     pl: "Zgadłem od razu."
     ru: "Я угадал сразу."
     source: { kind: authored }
+  - form: "zgadłeś"
+    pl: "Zgadłeś!"
+    ru: "Угадал!"
+    source: { kind: authored }
+  - form: "zgadłeś"
+    pl: "Nie zgadłeś ani razu."
+    ru: "Ты не угадал ни разу."
+    source: { kind: authored }
+  - form: "zgadłeś"
+    pl: "Zgadłeś, o co mi chodzi."
+    ru: "Ты угадал, о чём я."
+    source: { kind: authored }
+  - form: "zgadło"
+    pl: "Dziecko zgadło zagadkę."
+    ru: "Ребёнок отгадал загадку."
+    source: { kind: authored }
+  - form: "zgadło"
+    pl: "Wiele osób zgadło poprawnie."
+    ru: "Многие угадали правильно."
+    source: { kind: authored }
+  - form: "zgadło"
+    pl: "Kilkoro dzieci zgadło odpowiedź."
+    ru: "Несколько детей угадали ответ."
+    source: { kind: authored }
+  - form: "zgadłszy"
+    pl: "Zgadłszy hasło, otworzył drzwi."
+    ru: "Угадав пароль, он открыл дверь."
+    source: { kind: authored }
+  - form: "zgadłszy"
+    pl: "Zgadłszy odpowiedź, uśmiechnął się."
+    ru: "Угадав ответ, он улыбнулся."
+    source: { kind: authored }
+  - form: "zgadłszy"
+    pl: "Zgadłszy zagadkę, dostał nagrodę."
+    ru: "Отгадав загадку, он получил награду."
+    source: { kind: authored }
+  - form: "zgadły"
+    pl: "Dziewczyny zgadły od razu."
+    ru: "Девушки угадали сразу."
+    source: { kind: authored }
+  - form: "zgadły"
+    pl: "Dzieci zgadły zagadkę."
+    ru: "Дети отгадали загадку."
+    source: { kind: authored }
+  - form: "zgadły"
+    pl: "Nie zgadły, o co chodzi."
+    ru: "Они не угадали, в чём дело."
+    source: { kind: authored }
+  - form: "zgadną"
+    pl: "Zgadną od razu."
+    ru: "Они угадают сразу."
+    source: { kind: authored }
+  - form: "zgadną"
+    pl: "Nie zgadną, o co chodzi."
+    ru: "Они не угадают, в чём дело."
+    source: { kind: authored }
+  - form: "zgadną"
+    pl: "Zgadną hasło za pierwszym razem."
+    ru: "Они угадают пароль с первого раза."
+    source: { kind: authored }
   - form: "zgadnąć"
     pl: "Próbowałem zgadnąć, ile ona ma lat."
     ru: "Я пытался угадать, сколько ей лет."
@@ -181,6 +238,18 @@ formExamples:
     pl: "Jak mógłbym to zgadnąć? Zmieniasz zdanie co 3 sekundy."
     ru: "Как я мог бы это угадать? Ты меняешь мнение каждые три секунды."
     source: { kind: translated, id: 1593359 }
+  - form: "zgadnę"
+    pl: "Zgadnę za pierwszym razem."
+    ru: "Я угадаю с первого раза."
+    source: { kind: authored }
+  - form: "zgadnę"
+    pl: "Nie zgadnę, o co ci chodzi."
+    ru: "Я не угадаю, о чём ты."
+    source: { kind: authored }
+  - form: "zgadnę"
+    pl: "Zgadnę, ile masz lat."
+    ru: "Я угадаю, сколько тебе лет."
+    source: { kind: authored }
   - form: "zgadniesz"
     pl: "Zgadniesz, o czym myślę?"
     ru: "Угадаешь, о чём я думаю?"
@@ -192,6 +261,114 @@ formExamples:
   - form: "zgadniesz"
     pl: "Nigdy nie zgadniesz, co się stało."
     ru: "Ты никогда не угадаешь, что случилось."
+    source: { kind: authored }
+  - form: "zgadnięta"
+    pl: "Zagadka została zgadnięta."
+    ru: "Загадка была отгадана."
+    source: { kind: authored }
+  - form: "zgadnięta"
+    pl: "Odpowiedź była zgadnięta od razu."
+    ru: "Ответ был угадан сразу."
+    source: { kind: authored }
+  - form: "zgadnięta"
+    pl: "Liczba została zgadnięta przez dziecko."
+    ru: "Число угадал ребёнок."
+    source: { kind: authored }
+  - form: "zgadniętą"
+    pl: "Uznali zagadkę za zgadniętą."
+    ru: "Они признали загадку отгаданной."
+    source: { kind: authored }
+  - form: "zgadniętą"
+    pl: "Z raz zgadniętą odpowiedzią nie ma zabawy."
+    ru: "С однажды угаданным ответом уже неинтересно."
+    source: { kind: authored }
+  - form: "zgadniętą"
+    pl: "Nazwał tę zagadkę zgadniętą zbyt szybko."
+    ru: "Он назвал эту загадку отгаданной слишком быстро."
+    source: { kind: authored }
+  - form: "zgadnięte"
+    pl: "Hasło było zgadnięte od razu."
+    ru: "Пароль был угадан сразу."
+    source: { kind: authored }
+  - form: "zgadnięte"
+    pl: "Zgadnięte odpowiedzi zapisano na tablicy."
+    ru: "Угаданные ответы записали на доске."
+    source: { kind: authored }
+  - form: "zgadnięte"
+    pl: "Wszystkie zagadki są już zgadnięte."
+    ru: "Все загадки уже отгаданы."
+    source: { kind: authored }
+  - form: "zgadniętego"
+    pl: "Nie ma tu ani jednego zgadniętego hasła."
+    ru: "Здесь нет ни одного угаданного пароля."
+    source: { kind: authored }
+  - form: "zgadniętego"
+    pl: "Od zgadniętego słowa zaczęła się gra."
+    ru: "С угаданного слова началась игра."
+    source: { kind: authored }
+  - form: "zgadniętego"
+    pl: "Nie widziałem zgadniętego wyniku."
+    ru: "Я не видел угаданного результата."
+    source: { kind: authored }
+  - form: "zgadniętemu"
+    pl: "Przyjrzyj się zgadniętemu hasłu."
+    ru: "Присмотрись к угаданному паролю."
+    source: { kind: authored }
+  - form: "zgadniętemu"
+    pl: "Dzięki zgadniętemu słowu rozwiązali krzyżówkę."
+    ru: "Благодаря угаданному слову они решили кроссворд."
+    source: { kind: authored }
+  - form: "zgadniętemu"
+    pl: "Nie dowierzał zgadniętemu wynikowi."
+    ru: "Он не доверял угаданному результату."
+    source: { kind: authored }
+  - form: "zgadnięty"
+    pl: "Wynik zgadnięty za pierwszym razem."
+    ru: "Результат угадан с первого раза."
+    source: { kind: authored }
+  - form: "zgadnięty"
+    pl: "Numer był zgadnięty przypadkiem."
+    ru: "Номер был угадан случайно."
+    source: { kind: authored }
+  - form: "zgadnięty"
+    pl: "Zgadnięty poprawnie kod otworzył drzwi."
+    ru: "Правильно угаданный код открыл дверь."
+    source: { kind: authored }
+  - form: "zgadniętych"
+    pl: "Nie ma tu zgadniętych haseł."
+    ru: "Здесь нет угаданных паролей."
+    source: { kind: authored }
+  - form: "zgadniętych"
+    pl: "Z dziesięciu zgadniętych słów ułożyli zdanie."
+    ru: "Из десяти угаданных слов они составили предложение."
+    source: { kind: authored }
+  - form: "zgadniętych"
+    pl: "W zgadniętych odpowiedziach był błąd."
+    ru: "В угаданных ответах была ошибка."
+    source: { kind: authored }
+  - form: "zgadniętym"
+    pl: "W zgadniętym haśle brakuje litery."
+    ru: "В угаданном пароле не хватает буквы."
+    source: { kind: authored }
+  - form: "zgadniętym"
+    pl: "Ze zgadniętym kodem weszli do środka."
+    ru: "С угаданным кодом они вошли внутрь."
+    source: { kind: authored }
+  - form: "zgadniętym"
+    pl: "Nie dowierzał zgadniętym wynikom."
+    ru: "Он не доверял угаданным результатам."
+    source: { kind: authored }
+  - form: "zgadniętymi"
+    pl: "Z dwoma zgadniętymi hasłami wygrali."
+    ru: "С двумя угаданными паролями они выиграли."
+    source: { kind: authored }
+  - form: "zgadniętymi"
+    pl: "Cieszyli się zgadniętymi odpowiedziami."
+    ru: "Они радовались угаданным ответам."
+    source: { kind: authored }
+  - form: "zgadniętymi"
+    pl: "Między zgadniętymi a niezgadniętymi słowami jest przepaść."
+    ru: "Между угаданными и неугаданными словами — пропасть."
     source: { kind: authored }
   - form: "zgadnij"
     pl: "Zgadnij!"
