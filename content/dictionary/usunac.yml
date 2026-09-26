@@ -50,14 +50,10 @@ idioms:
   - { pl: "usunąć ząb", ru: "удалить зуб" }
   - { pl: "usunąć z listy", ru: "удалить из списка" }
 formExamplesSkip:
-  - { form: "usuną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunąłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunąłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunąłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "usunąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunąwszy", reason: "книжное деепричастие прошедшего времени, в корпусе примеров нет" }
-  - { form: "usunę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęlibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -66,37 +62,28 @@ formExamplesSkip:
   - { form: "usunęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "usunęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunęłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunęło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "usunęły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "usunęłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "usunęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "usuniecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunięci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunięcia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunięcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunięciem", reason: "формы отглагольного существительного usunięcie «удаление», в статье глагола примеры не приводятся" }
   - { form: "usunięciu", reason: "формы отглагольного существительного usunięcie «удаление», в статье глагола примеры не приводятся" }
-  - { form: "usunięta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usunięte", reason: "формы страдательного причастия usunięty «удалённый», примеры даны при форме usunięty" }
-  - { form: "usuniętego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usunięto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuniętymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuńcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "usuńmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "usuną"
+    pl: "Usuną wpis jutro."
+    ru: "Они удалят запись завтра."
+    source: { kind: authored }
+  - form: "usuną"
+    pl: "Usuną usterkę do wieczora."
+    ru: "Они устранят неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuną"
+    pl: "Nie usuną nikogo bez decyzji."
+    ru: "Они никого не удалят без решения."
+    source: { kind: authored }
   - form: "usunąć"
     pl: "Trzeba je usunąć."
     ru: "Их нужно удалить."
@@ -133,6 +120,42 @@ formExamples:
     pl: "Właśnie wszystko usunąłem."
     ru: "Я только что всё удалил."
     source: { kind: tatoeba, id: 13785396 }
+  - form: "usunąłeś"
+    pl: "Usunąłeś wpis bez pytania."
+    ru: "Ты удалил запись, не спросив."
+    source: { kind: authored }
+  - form: "usunąłeś"
+    pl: "Usunąłeś usterkę w godzinę."
+    ru: "Ты устранил неисправность за час."
+    source: { kind: authored }
+  - form: "usunąłeś"
+    pl: "Nikogo nie usunąłeś z listy."
+    ru: "Ты никого не удалил из списка."
+    source: { kind: authored }
+  - form: "usunę"
+    pl: "Usunę wpis jutro."
+    ru: "Я удалю запись завтра."
+    source: { kind: authored }
+  - form: "usunę"
+    pl: "Usunę usterkę do wieczora."
+    ru: "Я устраню неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usunę"
+    pl: "Nikogo nie usunę bez decyzji."
+    ru: "Я никого не удалю без решения."
+    source: { kind: authored }
+  - form: "usunęli"
+    pl: "Usunęli wpis bez pytania."
+    ru: "Они удалили запись, не спросив."
+    source: { kind: authored }
+  - form: "usunęli"
+    pl: "Usunęli go ze stanowiska."
+    ru: "Его убрали с должности."
+    source: { kind: authored }
+  - form: "usunęli"
+    pl: "Nikogo nie usunęli z listy."
+    ru: "Они никого не удалили из списка."
+    source: { kind: authored }
   - form: "usunęła"
     pl: "Usunęła wszystkie lekarstwa poza zasięg dzieci."
     ru: "Она убрала все лекарства подальше от детей."
@@ -144,6 +167,54 @@ formExamples:
   - form: "usunęła"
     pl: "Usunęła plamę z sukienki."
     ru: "Она вывела пятно с платья."
+    source: { kind: authored }
+  - form: "usunęłam"
+    pl: "Usunęłam wpis bez pytania."
+    ru: "Я удалила запись, не спросив."
+    source: { kind: authored }
+  - form: "usunęłam"
+    pl: "Usunęłam usterkę w godzinę."
+    ru: "Я устранила неисправность за час."
+    source: { kind: authored }
+  - form: "usunęłam"
+    pl: "Nikogo nie usunęłam z listy."
+    ru: "Я никого не удалила из списка."
+    source: { kind: authored }
+  - form: "usunęłaś"
+    pl: "Usunęłaś wpis bez pytania."
+    ru: "Ты удалила запись, не спросив."
+    source: { kind: authored }
+  - form: "usunęłaś"
+    pl: "Usunęłaś usterkę w godzinę."
+    ru: "Ты устранила неисправность за час."
+    source: { kind: authored }
+  - form: "usunęłaś"
+    pl: "Nikogo nie usunęłaś z listy."
+    ru: "Ты никого не удалила из списка."
+    source: { kind: authored }
+  - form: "usunęło"
+    pl: "Wiele osób usunęło konto po tej aferze."
+    ru: "Многие удалили аккаунт после этого скандала."
+    source: { kind: authored }
+  - form: "usunęło"
+    pl: "Miasto usunęło stare ławki."
+    ru: "Город убрал старые скамейки."
+    source: { kind: authored }
+  - form: "usunęło"
+    pl: "Dziecko usunęło plik przez przypadek."
+    ru: "Ребёнок случайно удалил файл."
+    source: { kind: authored }
+  - form: "usunęły"
+    pl: "Służby usunęły przeszkodę z drogi."
+    ru: "Службы убрали препятствие с дороги."
+    source: { kind: authored }
+  - form: "usunęły"
+    pl: "Kobiety usunęły swoje nazwiska z listy."
+    ru: "Женщины убрали свои фамилии из списка."
+    source: { kind: authored }
+  - form: "usunęły"
+    pl: "Firmy usunęły wpisy po wyroku."
+    ru: "Фирмы удалили записи после приговора."
     source: { kind: authored }
   - form: "usunie"
     pl: "Korporacja Toyota ogłosiła, że usunie 1000 pozycji tego roku."
@@ -157,6 +228,150 @@ formExamples:
     pl: "Lekarz usunie szwy jutro."
     ru: "Врач снимет швы завтра."
     source: { kind: authored }
+  - form: "usuniecie"
+    pl: "Usuniecie wpis jutro?"
+    ru: "Вы удалите запись завтра?"
+    source: { kind: authored }
+  - form: "usuniecie"
+    pl: "Usuniecie usterkę do wieczora."
+    ru: "Вы устраните неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuniecie"
+    pl: "Nikogo nie usuniecie bez decyzji."
+    ru: "Вы никого не удалите без решения."
+    source: { kind: authored }
+  - form: "usuniemy"
+    pl: "Usuniemy wpis jutro."
+    ru: "Мы удалим запись завтра."
+    source: { kind: authored }
+  - form: "usuniemy"
+    pl: "Usuniemy usterkę do wieczora."
+    ru: "Мы устраним неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuniemy"
+    pl: "Nikogo nie usuniemy bez decyzji."
+    ru: "Мы никого не удалим без решения."
+    source: { kind: authored }
+  - form: "usuniesz"
+    pl: "Usuniesz wpis jutro?"
+    ru: "Ты удалишь запись завтра?"
+    source: { kind: authored }
+  - form: "usuniesz"
+    pl: "Usuniesz usterkę do wieczora."
+    ru: "Ты устранишь неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuniesz"
+    pl: "Nikogo nie usuniesz bez decyzji."
+    ru: "Ты никого не удалишь без решения."
+    source: { kind: authored }
+  - form: "usunięci"
+    pl: "Zostali usunięci z listy uczestników."
+    ru: "Их убрали из списка участников."
+    source: { kind: authored }
+  - form: "usunięci"
+    pl: "Usunięci ze stanowisk urzędnicy odwołali się do sądu."
+    ru: "Снятые с должностей чиновники обратились в суд."
+    source: { kind: authored }
+  - form: "usunięci"
+    pl: "Usunięci z sali widzowie protestowali."
+    ru: "Выведенные из зала зрители протестовали."
+    source: { kind: authored }
+  - form: "usunięcia"
+    pl: "Domaga się usunięcia wpisu."
+    ru: "Он требует удаления записи."
+    source: { kind: authored }
+  - form: "usunięcia"
+    pl: "Bez usunięcia usterki nie ruszymy."
+    ru: "Без устранения неисправности мы не тронемся."
+    source: { kind: authored }
+  - form: "usunięcia"
+    pl: "Sąd zażądał usunięcia nazwiska z listy."
+    ru: "Суд потребовал убрать фамилию из списка."
+    source: { kind: authored }
+  - form: "usunięcie"
+    pl: "Usunięcie wpisu zajmie chwilę."
+    ru: "Удаление записи займёт минуту."
+    source: { kind: authored }
+  - form: "usunięcie"
+    pl: "Usunięcie migdałków to drobny zabieg."
+    ru: "Удаление миндалин — мелкая операция."
+    source: { kind: authored }
+  - form: "usunięcie"
+    pl: "Usunięcie awarii potrwa dzień."
+    ru: "Устранение аварии займёт день."
+    source: { kind: authored }
+  - form: "usunięta"
+    pl: "Usterka została usunięta."
+    ru: "Неисправность устранили."
+    source: { kind: authored }
+  - form: "usunięta"
+    pl: "Usunięta strona zniknęła z wyników."
+    ru: "Удалённая страница исчезла из результатов."
+    source: { kind: authored }
+  - form: "usunięta"
+    pl: "Ta wzmianka jest już usunięta."
+    ru: "Это упоминание уже удалено."
+    source: { kind: authored }
+  - form: "usuniętą"
+    pl: "Uznali stronę za usuniętą."
+    ru: "Страницу сочли удалённой."
+    source: { kind: authored }
+  - form: "usuniętą"
+    pl: "Zgłosił usuniętą wzmiankę do redakcji."
+    ru: "Он сообщил об удалённом упоминании в редакцию."
+    source: { kind: authored }
+  - form: "usuniętą"
+    pl: "Przywrócili omyłkowo usuniętą stronę."
+    ru: "Они вернули ошибочно удалённую страницу."
+    source: { kind: authored }
+  - form: "usuniętego"
+    pl: "Nie ma tu nic usuniętego."
+    ru: "Здесь ничего не удалено."
+    source: { kind: authored }
+  - form: "usuniętego"
+    pl: "Szukam omyłkowo usuniętego pliku."
+    ru: "Я ищу ошибочно удалённый файл."
+    source: { kind: authored }
+  - form: "usuniętego"
+    pl: "Od usuniętego wpisu zaczęła się awantura."
+    ru: "С удалённой записи и начался скандал."
+    source: { kind: authored }
+  - form: "usuniętej"
+    pl: "Nie ma usuniętej strony w archiwum."
+    ru: "Удалённой страницы в архиве нет."
+    source: { kind: authored }
+  - form: "usuniętej"
+    pl: "Szukam usuniętej wzmianki."
+    ru: "Я ищу удалённое упоминание."
+    source: { kind: authored }
+  - form: "usuniętej"
+    pl: "Domagał się przywrócenia usuniętej treści."
+    ru: "Он требовал вернуть удалённое содержимое."
+    source: { kind: authored }
+  - form: "usuniętemu"
+    pl: "Przyjrzyj się usuniętemu wpisowi."
+    ru: "Присмотрись к удалённой записи."
+    source: { kind: authored }
+  - form: "usuniętemu"
+    pl: "Dzięki usuniętemu plikowi zwolniło się miejsce."
+    ru: "Благодаря удалённому файлу освободилось место."
+    source: { kind: authored }
+  - form: "usuniętemu"
+    pl: "Przywrócono prawa usuniętemu użytkownikowi."
+    ru: "Удалённому пользователю вернули права."
+    source: { kind: authored }
+  - form: "usunięto"
+    pl: "Usunięto wpis bez wyjaśnienia."
+    ru: "Запись удалили без объяснений."
+    source: { kind: authored }
+  - form: "usunięto"
+    pl: "Usunięto go ze stanowiska w marcu."
+    ru: "Его сняли с должности в марте."
+    source: { kind: authored }
+  - form: "usunięto"
+    pl: "Usunięto usterkę tego samego dnia."
+    ru: "Неисправность устранили в тот же день."
+    source: { kind: authored }
   - form: "usunięty"
     pl: "Został usunięty z naszego klubu."
     ru: "Его исключили из нашего клуба."
@@ -169,6 +384,42 @@ formExamples:
     pl: "Ten polityk został usunięty z urzędu."
     ru: "Этот политик был отстранён от должности."
     source: { kind: translated, id: 10604883 }
+  - form: "usuniętych"
+    pl: "Nie ma tu usuniętych wpisów."
+    ru: "Удалённых записей тут нет."
+    source: { kind: authored }
+  - form: "usuniętych"
+    pl: "Z usuniętych plików odzyskano połowę."
+    ru: "Из удалённых файлов восстановили половину."
+    source: { kind: authored }
+  - form: "usuniętych"
+    pl: "Lista usuniętych nazwisk jest długa."
+    ru: "Список удалённых фамилий длинный."
+    source: { kind: authored }
+  - form: "usuniętym"
+    pl: "W usuniętym wpisie była cała treść."
+    ru: "В удалённой записи было всё содержание."
+    source: { kind: authored }
+  - form: "usuniętym"
+    pl: "Poświęcił rozdział usuniętym fragmentom."
+    ru: "Он посвятил главу удалённым фрагментам."
+    source: { kind: authored }
+  - form: "usuniętym"
+    pl: "Zajmuje się usuniętym archiwum."
+    ru: "Он занимается удалённым архивом."
+    source: { kind: authored }
+  - form: "usuniętymi"
+    pl: "Zajmuje się usuniętymi plikami."
+    ru: "Он занимается удалёнными файлами."
+    source: { kind: authored }
+  - form: "usuniętymi"
+    pl: "Między usuniętymi a ukrytymi wpisami jest różnica."
+    ru: "Между удалёнными и скрытыми записями есть разница."
+    source: { kind: authored }
+  - form: "usuniętymi"
+    pl: "Redakcja tłumaczyła się usuniętymi fragmentami."
+    ru: "Редакция оправдывалась удалёнными фрагментами."
+    source: { kind: authored }
   - form: "usuń"
     pl: "Usuń."
     ru: "Удали."
@@ -181,3 +432,27 @@ formExamples:
     pl: "Usuń niepotrzebne pliki aby zwolnić pamięć."
     ru: "Удали ненужные файлы, чтобы освободить память."
     source: { kind: tatoeba, id: 12889065 }
+  - form: "usuńcie"
+    pl: "Usuńcie ten wpis."
+    ru: "Удалите эту запись."
+    source: { kind: authored }
+  - form: "usuńcie"
+    pl: "Usuńcie usterkę do wieczora."
+    ru: "Устраните неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuńcie"
+    pl: "Nie usuńcie niczego przez pomyłkę."
+    ru: "Не удалите ничего по ошибке."
+    source: { kind: authored }
+  - form: "usuńmy"
+    pl: "Usuńmy ten wpis."
+    ru: "Удалим эту запись."
+    source: { kind: authored }
+  - form: "usuńmy"
+    pl: "Usuńmy usterkę do wieczora."
+    ru: "Устраним неисправность к вечеру."
+    source: { kind: authored }
+  - form: "usuńmy"
+    pl: "Nie usuńmy niczego przez pomyłkę."
+    ru: "Не удалим ничего по ошибке."
+    source: { kind: authored }
