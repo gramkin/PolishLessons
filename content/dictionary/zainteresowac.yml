@@ -57,7 +57,6 @@ idioms:
   - { pl: "zainteresować się czymś", ru: "заинтересоваться чем-то" }
   - { pl: "nie jestem zainteresowany", ru: "мне неинтересно" }
 formExamplesSkip:
-  - { form: "zainteresowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zainteresowaliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowalibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowalibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -66,13 +65,11 @@ formExamplesSkip:
   - { form: "zainteresowałaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "zainteresowałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zainteresowałby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałeś", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "zainteresowałoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "zainteresowały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zainteresowałyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "zainteresowałybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -84,12 +81,9 @@ formExamplesSkip:
   - { form: "zainteresowanym", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "zainteresowawszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
   - { form: "zainteresuj", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "zainteresują", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zainteresujcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "zainteresujecie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "zainteresujemy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "zainteresujesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zainteresuję", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zainteresujmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
 formExamples:
   - form: "zainteresować"
@@ -103,6 +97,18 @@ formExamples:
   - form: "zainteresować"
     pl: "Chcę cię tym zainteresować."
     ru: "Я хочу тебя этим заинтересовать."
+    source: { kind: authored }
+  - form: "zainteresowali"
+    pl: "Zainteresowali się historią miasta."
+    ru: "Они заинтересовались историей города."
+    source: { kind: authored }
+  - form: "zainteresowali"
+    pl: "Zainteresowali nas tą ofertą."
+    ru: "Они заинтересовали нас этим предложением."
+    source: { kind: authored }
+  - form: "zainteresowali"
+    pl: "Nie zainteresowali nikogo."
+    ru: "Они никого не заинтересовали."
     source: { kind: authored }
   - form: "zainteresował"
     pl: "Mój syn wcześnie zainteresował się polityką."
@@ -127,6 +133,18 @@ formExamples:
   - form: "zainteresowała"
     pl: "Zainteresowała ją ta propozycja."
     ru: "Её заинтересовало это предложение."
+    source: { kind: authored }
+  - form: "zainteresowałam"
+    pl: "Zainteresowałam się historią miasta."
+    ru: "Я заинтересовалась историей города."
+    source: { kind: authored }
+  - form: "zainteresowałam"
+    pl: "Zainteresowałam go tą ofertą."
+    ru: "Я заинтересовала его этим предложением."
+    source: { kind: authored }
+  - form: "zainteresowałam"
+    pl: "Nie zainteresowałam nikogo."
+    ru: "Я никого не заинтересовала."
     source: { kind: authored }
   - form: "zainteresowałaś"
     pl: "Jak zainteresowałaś się finansami?"
@@ -163,6 +181,18 @@ formExamples:
   - form: "zainteresowało"
     pl: "Nic ich nie zainteresowało."
     ru: "Ничто их не заинтересовало."
+    source: { kind: authored }
+  - form: "zainteresowały"
+    pl: "Te książki mnie zainteresowały."
+    ru: "Эти книги меня заинтересовали."
+    source: { kind: authored }
+  - form: "zainteresowały"
+    pl: "Zainteresowały się historią miasta."
+    ru: "Они заинтересовались историей города."
+    source: { kind: authored }
+  - form: "zainteresowały"
+    pl: "Nie zainteresowały nikogo."
+    ru: "Они никого не заинтересовали."
     source: { kind: authored }
   - form: "zainteresowana"
     pl: "Mary jest zainteresowana polityką."
@@ -308,6 +338,18 @@ formExamples:
     pl: "Spotkanie z zainteresowanymi odbędzie się jutro."
     ru: "Встреча с заинтересованными состоится завтра."
     source: { kind: authored }
+  - form: "zainteresują"
+    pl: "Zainteresują się historią miasta."
+    ru: "Они заинтересуются историей города."
+    source: { kind: authored }
+  - form: "zainteresują"
+    pl: "Te dane ich zainteresują."
+    ru: "Эти данные их заинтересуют."
+    source: { kind: authored }
+  - form: "zainteresują"
+    pl: "Nie zainteresują nikogo."
+    ru: "Они никого не заинтересуют."
+    source: { kind: authored }
   - form: "zainteresuje"
     pl: "Pomyślałam, że cię to zainteresuje."
     ru: "Я подумала, что тебя это заинтересует."
@@ -320,3 +362,27 @@ formExamples:
     pl: "Pomyślałem, że zainteresuje cię, że Tom został przyjęty na Harvard."
     ru: "Я подумал, что тебя заинтересует, что Тома приняли в Гарвард."
     source: { kind: translated, id: 3838612 }
+  - form: "zainteresujesz"
+    pl: "Zainteresujesz się historią miasta."
+    ru: "Ты заинтересуешься историей города."
+    source: { kind: authored }
+  - form: "zainteresujesz"
+    pl: "Zainteresujesz go tą ofertą."
+    ru: "Ты заинтересуешь его этим предложением."
+    source: { kind: authored }
+  - form: "zainteresujesz"
+    pl: "Nie zainteresujesz nikogo."
+    ru: "Ты никого не заинтересуешь."
+    source: { kind: authored }
+  - form: "zainteresuję"
+    pl: "Zainteresuję się historią miasta."
+    ru: "Я заинтересуюсь историей города."
+    source: { kind: authored }
+  - form: "zainteresuję"
+    pl: "Zainteresuję go tą ofertą."
+    ru: "Я заинтересую его этим предложением."
+    source: { kind: authored }
+  - form: "zainteresuję"
+    pl: "Nie zainteresuję nikogo."
+    ru: "Я никого не заинтересую."
+    source: { kind: authored }
