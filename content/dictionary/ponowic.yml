@@ -41,15 +41,11 @@ memory: "ponowić — «повторить, возобновить», слово
 idioms:
   - { pl: "ponowić próbę", ru: "повторить попытку" }
 formExamplesSkip:
-  - { form: "ponowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ponowią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ponowicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowieni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowienia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowienie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowieniem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ponowię", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowiliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "ponowilibyście", reason: "условное наклонение; в корпусе примеров нет" }
@@ -76,7 +72,6 @@ formExamplesSkip:
   - { form: "ponowiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "ponowiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "ponowiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "ponowimy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowiona", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowioną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowione", reason: "в корпусе нет примеров для этой формы" }
@@ -88,12 +83,47 @@ formExamplesSkip:
   - { form: "ponowionych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowionym", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowionymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "ponowisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponowiwszy", reason: "деепричастие; в корпусе примеров нет" }
   - { form: "ponów", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponówcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "ponówmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "ponowi"
+    pl: "Ponowi prośbę na piśmie."
+    ru: "Он повторит просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowi"
+    pl: "Ponowi subskrypcję na rok."
+    ru: "Он продлит подписку на год."
+    source: { kind: authored }
+  - form: "ponowi"
+    pl: "Nie ponowi tej oferty."
+    ru: "Он не повторит это предложение."
+    source: { kind: authored }
+  - form: "ponowią"
+    pl: "Ponowią prośbę na piśmie."
+    ru: "Они повторят просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowią"
+    pl: "Ponowią subskrypcję na rok."
+    ru: "Они продлят подписку на год."
+    source: { kind: authored }
+  - form: "ponowią"
+    pl: "Nie ponowią tej oferty."
+    ru: "Они не повторят это предложение."
+    source: { kind: authored }
+  - form: "ponowicie"
+    pl: "Ponowicie prośbę na piśmie."
+    ru: "Вы повторите просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowicie"
+    pl: "Ponowicie subskrypcję na rok."
+    ru: "Вы продлите подписку на год."
+    source: { kind: authored }
+  - form: "ponowicie"
+    pl: "Nie ponowicie tej oferty."
+    ru: "Вы не повторите это предложение."
+    source: { kind: authored }
   - form: "ponowić"
     pl: "Trzeba ponowić próbę."
     ru: "Нужно повторить попытку."
@@ -105,4 +135,64 @@ formExamples:
   - form: "ponowić"
     pl: "Postanowili ponowić rozmowy."
     ru: "Они решили возобновить переговоры."
+    source: { kind: authored }
+  - form: "ponowię"
+    pl: "Ponowię prośbę na piśmie."
+    ru: "Я повторю просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowię"
+    pl: "Ponowię subskrypcję na rok."
+    ru: "Я продлю подписку на год."
+    source: { kind: authored }
+  - form: "ponowię"
+    pl: "Nie ponowię tej oferty."
+    ru: "Я не повторю это предложение."
+    source: { kind: authored }
+  - form: "ponowimy"
+    pl: "Ponowimy prośbę na piśmie."
+    ru: "Мы повторим просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowimy"
+    pl: "Ponowimy subskrypcję na rok."
+    ru: "Мы продлим подписку на год."
+    source: { kind: authored }
+  - form: "ponowimy"
+    pl: "Nie ponowimy tej oferty."
+    ru: "Мы не повторим это предложение."
+    source: { kind: authored }
+  - form: "ponowisz"
+    pl: "Ponowisz prośbę na piśmie."
+    ru: "Ты повторишь просьбу письменно."
+    source: { kind: authored }
+  - form: "ponowisz"
+    pl: "Ponowisz subskrypcję na rok."
+    ru: "Ты продлишь подписку на год."
+    source: { kind: authored }
+  - form: "ponowisz"
+    pl: "Nie ponowisz tej oferty."
+    ru: "Ты не повторишь это предложение."
+    source: { kind: authored }
+  - form: "niech ponowi"
+    pl: "Niech ponowi prośbę na piśmie."
+    ru: "Пусть повторит просьбу письменно."
+    source: { kind: authored }
+  - form: "niech ponowi"
+    pl: "Niech ponowi subskrypcję na rok."
+    ru: "Пусть продлит подписку на год."
+    source: { kind: authored }
+  - form: "niech ponowi"
+    pl: "Niech ponowi próbę."
+    ru: "Пусть повторит попытку."
+    source: { kind: authored }
+  - form: "niech ponowią"
+    pl: "Niech ponowią prośbę na piśmie."
+    ru: "Пусть повторят просьбу письменно."
+    source: { kind: authored }
+  - form: "niech ponowią"
+    pl: "Niech ponowią subskrypcję na rok."
+    ru: "Пусть продлят подписку на год."
+    source: { kind: authored }
+  - form: "niech ponowią"
+    pl: "Niech ponowią próbę."
+    ru: "Пусть повторят попытку."
     source: { kind: authored }

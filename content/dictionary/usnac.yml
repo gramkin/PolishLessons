@@ -40,13 +40,11 @@ memory: "usnąć — «уснуть», книжнее чем zasnąć. Пару 
 idioms:
   - { pl: "nie móc usnąć", ru: "не мочь уснуть" }
 formExamplesSkip:
-  - { form: "usną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usnąłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "usnąłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "usnąłbyś", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "usnąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usnąwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "usnę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usnęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "usnęliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "usnęlibyście", reason: "условное наклонение; в корпусе примеров нет" }
@@ -65,10 +63,6 @@ formExamplesSkip:
   - { form: "usnęłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "usnęłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "usnęłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "uśnie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uśniecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uśniemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uśniesz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uśnięcia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uśnięcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uśnięciem", reason: "в корпусе нет примеров для этой формы" }
@@ -78,6 +72,18 @@ formExamplesSkip:
   - { form: "uśnijcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uśnijmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "usną"
+    pl: "Usną przy książce."
+    ru: "Они уснут над книгой."
+    source: { kind: authored }
+  - form: "usną"
+    pl: "Usną zaraz po północy."
+    ru: "Они уснут сразу после полуночи."
+    source: { kind: authored }
+  - form: "usną"
+    pl: "Nie usną w takim hałasie."
+    ru: "Они не уснут в таком шуме."
+    source: { kind: authored }
   - form: "usnąć"
     pl: "Uważaj, by nie usnąć."
     ru: "Смотри не усни."
@@ -114,6 +120,18 @@ formExamples:
     pl: "Usnąłem przy telewizorze."
     ru: "Я уснул перед телевизором."
     source: { kind: authored }
+  - form: "usnę"
+    pl: "Usnę przy książce."
+    ru: "Я усну над книгой."
+    source: { kind: authored }
+  - form: "usnę"
+    pl: "Usnę zaraz po północy."
+    ru: "Я усну сразу после полуночи."
+    source: { kind: authored }
+  - form: "usnę"
+    pl: "Nie usnę w takim hałasie."
+    ru: "Я не усну в таком шуме."
+    source: { kind: authored }
   - form: "usnęła"
     pl: "Usnęła nie zdejmując swetra."
     ru: "Она уснула, не сняв свитер."
@@ -137,4 +155,76 @@ formExamples:
   - form: "usnęło"
     pl: "Dziecko usnęło w wózku."
     ru: "Ребёнок уснул в коляске."
+    source: { kind: authored }
+  - form: "uśnie"
+    pl: "Uśnie przy książce."
+    ru: "Он уснёт над книгой."
+    source: { kind: authored }
+  - form: "uśnie"
+    pl: "Uśnie zaraz po północy."
+    ru: "Он уснёт сразу после полуночи."
+    source: { kind: authored }
+  - form: "uśnie"
+    pl: "Nie uśnie w takim hałasie."
+    ru: "Он не уснёт в таком шуме."
+    source: { kind: authored }
+  - form: "uśniecie"
+    pl: "Uśniecie przy książce."
+    ru: "Вы уснёте над книгой."
+    source: { kind: authored }
+  - form: "uśniecie"
+    pl: "Uśniecie zaraz po północy."
+    ru: "Вы уснёте сразу после полуночи."
+    source: { kind: authored }
+  - form: "uśniecie"
+    pl: "Nie uśniecie w takim hałasie."
+    ru: "Вы не уснёте в таком шуме."
+    source: { kind: authored }
+  - form: "uśniemy"
+    pl: "Uśniemy przy książce."
+    ru: "Мы уснём над книгой."
+    source: { kind: authored }
+  - form: "uśniemy"
+    pl: "Uśniemy zaraz po północy."
+    ru: "Мы уснём сразу после полуночи."
+    source: { kind: authored }
+  - form: "uśniemy"
+    pl: "Nie uśniemy w takim hałasie."
+    ru: "Мы не уснём в таком шуме."
+    source: { kind: authored }
+  - form: "uśniesz"
+    pl: "Uśniesz przy książce."
+    ru: "Ты уснёшь над книгой."
+    source: { kind: authored }
+  - form: "uśniesz"
+    pl: "Uśniesz zaraz po północy."
+    ru: "Ты уснёшь сразу после полуночи."
+    source: { kind: authored }
+  - form: "uśniesz"
+    pl: "Nie uśniesz w takim hałasie."
+    ru: "Ты не уснёшь в таком шуме."
+    source: { kind: authored }
+  - form: "niech usną"
+    pl: "Niech usną przy książce."
+    ru: "Пусть уснут над книгой."
+    source: { kind: authored }
+  - form: "niech usną"
+    pl: "Niech usną spokojnie."
+    ru: "Пусть спокойно уснут."
+    source: { kind: authored }
+  - form: "niech usną"
+    pl: "Niech usną wreszcie."
+    ru: "Пусть наконец уснут."
+    source: { kind: authored }
+  - form: "niech uśnie"
+    pl: "Niech uśnie przy książce."
+    ru: "Пусть уснёт над книгой."
+    source: { kind: authored }
+  - form: "niech uśnie"
+    pl: "Niech uśnie spokojnie."
+    ru: "Пусть спокойно уснёт."
+    source: { kind: authored }
+  - form: "niech uśnie"
+    pl: "Niech uśnie wreszcie."
+    ru: "Пусть наконец уснёт."
     source: { kind: authored }
