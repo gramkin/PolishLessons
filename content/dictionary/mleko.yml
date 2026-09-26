@@ -45,12 +45,19 @@ idioms:
   - { pl: "szklanka mleka", ru: "стакан молока" }
   - { pl: "kawa z mlekiem", ru: "кофе с молоком" }
   - { pl: "krew z mlekiem", ru: "кровь с молоком" }
-formExamplesSkip:
-  - { form: "mlek", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mlekach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mlekami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mlekom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "mlek"
+    pl: "W sklepie jest kilka rodzajów mlek roślinnych."
+    ru: "В магазине несколько видов растительного молока."
+    source: { kind: authored }
+  - form: "mlek"
+    pl: "Nie znosi mlek smakowych."
+    ru: "Он не выносит ароматизированное молоко."
+    source: { kind: authored }
+  - form: "mlek"
+    pl: "Wybór mlek jest duży."
+    ru: "Выбор молока большой."
+    source: { kind: authored }
   - form: "mleka"
     pl: "Dodaj trochę mleka."
     ru: "Добавь немного молока."
@@ -63,6 +70,30 @@ formExamples:
     pl: "Kupiłam dwie butelki mleka."
     ru: "Я купила две бутылки молока."
     source: { kind: tatoeba, id: 549982 }
+  - form: "mlekach"
+    pl: "O mlekach roślinnych mówi dietetyk."
+    ru: "О растительном молоке рассказывает диетолог."
+    source: { kind: authored }
+  - form: "mlekach"
+    pl: "W tych mlekach nie ma laktozy."
+    ru: "В этом молоке нет лактозы."
+    source: { kind: authored }
+  - form: "mlekach"
+    pl: "W mlekach smakowych jest dużo cukru."
+    ru: "В ароматизированном молоке много сахара."
+    source: { kind: authored }
+  - form: "mlekami"
+    pl: "Handluje mlekami roślinnymi."
+    ru: "Он торгует растительным молоком."
+    source: { kind: authored }
+  - form: "mlekami"
+    pl: "Między mlekami krowim a owsianym jest różnica."
+    ru: "Между коровьим и овсяным молоком есть разница."
+    source: { kind: authored }
+  - form: "mlekami"
+    pl: "Zajmuje się mlekami bez laktozy."
+    ru: "Он занимается безлактозным молоком."
+    source: { kind: authored }
   - form: "mlekiem"
     pl: "Chcę kawę z mlekiem."
     ru: "Я хочу кофе с молоком."
@@ -87,6 +118,18 @@ formExamples:
     pl: "Krowa daje mleko."
     ru: "Корова даёт молоко."
     source: { kind: tatoeba, id: 739244 }
+  - form: "mlekom"
+    pl: "Przyjrzyj się tym mlekom."
+    ru: "Присмотрись к этому молоку."
+    source: { kind: authored }
+  - form: "mlekom"
+    pl: "Dzięki mlekom roślinnym może pić kawę."
+    ru: "Благодаря растительному молоку он может пить кофе."
+    source: { kind: authored }
+  - form: "mlekom"
+    pl: "Nie ufaj mlekom bez daty."
+    ru: "Не доверяй молоку без даты."
+    source: { kind: authored }
   - form: "mleku"
     pl: "Podłoga w kuchni jest cała w mleku, bo żona rozbiła butelkę."
     ru: "Пол на кухне весь в молоке, так как жена разбила бутылку."
