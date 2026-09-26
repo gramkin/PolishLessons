@@ -50,11 +50,7 @@ idioms:
   - { pl: "dzielić sypialnię", ru: "делить спальню" }
   - { pl: "dzielnica sypialnia", ru: "спальный район" }
 formExamplesSkip:
-  - { form: "sypialniach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "sypialnią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sypialnio", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "sypialniom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "sypialń", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "sypialni"
     pl: "Jan wbiegł do sypialni."
@@ -80,6 +76,18 @@ formExamples:
     pl: "W moim nowym domu pokój dzienny jest na parterze, a sypialnia na pierwszym piętrze."
     ru: "В моём новом доме гостиная расположена на первом этаже, а спальня — на втором."
     source: { kind: tatoeba, id: 3395086 }
+  - form: "sypialniach"
+    pl: "W obu sypialniach są okna na południe."
+    ru: "В обеих спальнях окна на юг."
+    source: { kind: authored }
+  - form: "sypialniach"
+    pl: "O sypialniach mówi projekt mieszkania."
+    ru: "О спальнях говорит проект квартиры."
+    source: { kind: authored }
+  - form: "sypialniach"
+    pl: "W tych sypialniach jest za ciasno."
+    ru: "В этих спальнях слишком тесно."
+    source: { kind: authored }
   - form: "sypialniami"
     pl: "Tom ma w Bostonie skromny dom z dwoma sypialniami."
     ru: "У Тома в Бостоне скромный дом с двумя спальнями."
@@ -91,6 +99,18 @@ formExamples:
   - form: "sypialniami"
     pl: "Dom z czterema sypialniami jest za drogi."
     ru: "Дом с четырьмя спальнями слишком дорогой."
+    source: { kind: authored }
+  - form: "sypialnią"
+    pl: "Nad sypialnią jest strych."
+    ru: "Над спальней чердак."
+    source: { kind: authored }
+  - form: "sypialnią"
+    pl: "Zajął się sypialnią na końcu."
+    ru: "Спальней он занялся в последнюю очередь."
+    source: { kind: authored }
+  - form: "sypialnią"
+    pl: "Między sypialnią a łazienką jest korytarz."
+    ru: "Между спальней и ванной коридор."
     source: { kind: authored }
   - form: "sypialnie"
     pl: "Na pierwszym piętrze mamy cztery sypialnie."
@@ -115,4 +135,28 @@ formExamples:
   - form: "sypialnię"
     pl: "Pomalowaliśmy sypialnię na biało."
     ru: "Мы покрасили спальню в белый цвет."
+    source: { kind: authored }
+  - form: "sypialniom"
+    pl: "Przyjrzyj się tym sypialniom."
+    ru: "Присмотрись к этим спальням."
+    source: { kind: authored }
+  - form: "sypialniom"
+    pl: "Dzięki osobnym sypialniom dzieci śpią spokojnie."
+    ru: "Благодаря отдельным спальням дети спят спокойно."
+    source: { kind: authored }
+  - form: "sypialniom"
+    pl: "Nie odmawiaj sypialniom okien."
+    ru: "Не отказывай спальням в окнах."
+    source: { kind: authored }
+  - form: "sypialń"
+    pl: "Mieszkanie z dwóch sypialń jest za małe."
+    ru: "Квартира из двух спален мала."
+    source: { kind: authored }
+  - form: "sypialń"
+    pl: "Nie ma tu tylu sypialń."
+    ru: "Стольких спален тут нет."
+    source: { kind: authored }
+  - form: "sypialń"
+    pl: "Dom bez sypialń na parterze im nie pasuje."
+    ru: "Дом без спален на первом этаже им не подходит."
     source: { kind: authored }
