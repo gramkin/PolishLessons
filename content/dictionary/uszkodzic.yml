@@ -45,6 +45,7 @@ notes:
   - { kind: usage, text: "О частях тела употребляется с возвратным местоимением sobie: uszkodził sobie nogę «он повредил себе ногу»." }
   - { kind: usage, text: "Страдательное причастие uszkodzony «повреждённый» встречается едва ли не чаще самого глагола: plik jest uszkodzony «файл повреждён»." }
   - { kind: usage, text: "Отглагольное существительное — uszkodzenie «повреждение»." }
+  - { kind: false-friend, text: "О людях так не говорят. Повреждают вещь или часть тела — uszkodzić ekran, uszkodzić kolano, — а о пострадавших людях скажут ranni или poszkodowani." }
 collocations:
   - { pl: "uszkodzić sobie nogę", ru: "повредить себе ногу" }
   - { pl: "zostać uszkodzonym", ru: "быть повреждённым" }
@@ -56,41 +57,26 @@ idioms:
   - { pl: "plik jest uszkodzony", ru: "файл повреждён" }
   - { pl: "uszkodzenie ciała", ru: "телесное повреждение" }
 formExamplesSkip:
-  - { form: "uszkodzeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzili", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "uszkodzeni", reason: "uszkodzić говорится о вещи или о части тела, но не о человеке целиком: о пострадавших людях поляк скажет ranni «раненые» или poszkodowani «пострадавшие», а не uszkodzeni" }
   - { form: "uszkodziliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodzilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodzilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uszkodziliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "uszkodziła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uszkodziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uszkodziłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uszkodziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodziłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uszkodziłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uszkodziłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uszkodziwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "uszkodzoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzonemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uszkodzono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "uszkodzonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodzonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodź", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodźcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uszkodźmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "uszkodzą"
     pl: "Uszkodzą ekran, jeśli upuszczą telefon."
@@ -127,6 +113,18 @@ formExamples:
   - form: "uszkodzenie"
     pl: "Uszkodzenie widać gołym okiem."
     ru: "Повреждение видно невооружённым глазом."
+    source: { kind: authored }
+  - form: "uszkodzeniem"
+    pl: "Przed uszkodzeniem ekranu chroni etui."
+    ru: "От повреждения экрана защищает чехол."
+    source: { kind: authored }
+  - form: "uszkodzeniem"
+    pl: "Zajmuje się uszkodzeniem instalacji."
+    ru: "Он занимается повреждением проводки."
+    source: { kind: authored }
+  - form: "uszkodzeniem"
+    pl: "Między zadrapaniem a uszkodzeniem jest różnica."
+    ru: "Между царапиной и повреждением есть разница."
     source: { kind: authored }
   - form: "uszkodzeniu"
     pl: "Niezmiernie nam przykro, że zamówiony przez pana przedmiot uległ uszkodzeniu."
@@ -188,6 +186,18 @@ formExamples:
     pl: "Łatwo uszkodzić ten ekran."
     ru: "Этот экран легко повредить."
     source: { kind: authored }
+  - form: "uszkodzili"
+    pl: "Uszkodzili drzwi przy przeprowadzce."
+    ru: "Они повредили дверь при переезде."
+    source: { kind: authored }
+  - form: "uszkodzili"
+    pl: "Uszkodzili mu rękę."
+    ru: "Они повредили ему руку."
+    source: { kind: authored }
+  - form: "uszkodzili"
+    pl: "Nic nie uszkodzili."
+    ru: "Они ничего не повредили."
+    source: { kind: authored }
   - form: "uszkodził"
     pl: "Kiedy upadł, uszkodził sobie lewą nogę."
     ru: "Когда он упал, он повредил себе левую ногу."
@@ -204,6 +214,42 @@ formExamples:
     pl: "Wypadek uszkodził przednie koła jej wozu."
     ru: "Авария повредила передние колёса её машины."
     source: { kind: translated, id: 4917260 }
+  - form: "uszkodziła"
+    pl: "Uszkodziła ekran telefonu."
+    ru: "Она повредила экран телефона."
+    source: { kind: authored }
+  - form: "uszkodziła"
+    pl: "Uszkodziła sobie kolano."
+    ru: "Она повредила себе колено."
+    source: { kind: authored }
+  - form: "uszkodziła"
+    pl: "Nic nie uszkodziła."
+    ru: "Она ничего не повредила."
+    source: { kind: authored }
+  - form: "uszkodziłam"
+    pl: "Uszkodziłam ekran telefonu."
+    ru: "Я повредила экран телефона."
+    source: { kind: authored }
+  - form: "uszkodziłam"
+    pl: "Uszkodziłam sobie kolano."
+    ru: "Я повредила себе колено."
+    source: { kind: authored }
+  - form: "uszkodziłam"
+    pl: "Nic nie uszkodziłam."
+    ru: "Я ничего не повредила."
+    source: { kind: authored }
+  - form: "uszkodziłaś"
+    pl: "Uszkodziłaś ekran telefonu."
+    ru: "Ты повредила экран телефона."
+    source: { kind: authored }
+  - form: "uszkodziłaś"
+    pl: "Uszkodziłaś sobie kolano."
+    ru: "Ты повредила себе колено."
+    source: { kind: authored }
+  - form: "uszkodziłaś"
+    pl: "Nic nie uszkodziłaś."
+    ru: "Ты ничего не повредила."
+    source: { kind: authored }
   - form: "uszkodziłem"
     pl: "Uszkodziłem sobie bark."
     ru: "Я повредил себе плечо."
@@ -216,6 +262,18 @@ formExamples:
     pl: "Chyba uszkodziłem zamek."
     ru: "Кажется, я повредил замок."
     source: { kind: authored }
+  - form: "uszkodziłeś"
+    pl: "Uszkodziłeś ekran telefonu."
+    ru: "Ты повредил экран телефона."
+    source: { kind: authored }
+  - form: "uszkodziłeś"
+    pl: "Uszkodziłeś sobie kolano."
+    ru: "Ты повредил себе колено."
+    source: { kind: authored }
+  - form: "uszkodziłeś"
+    pl: "Nic nie uszkodziłeś."
+    ru: "Ты ничего не повредил."
+    source: { kind: authored }
   - form: "uszkodziło"
     pl: "Palenie uszkodziło mu płuca."
     ru: "Курение повредило ему лёгкие."
@@ -227,6 +285,18 @@ formExamples:
   - form: "uszkodziło"
     pl: "Nic nie uszkodziło przesyłki."
     ru: "Ничто не повредило посылку."
+    source: { kind: authored }
+  - form: "uszkodziły"
+    pl: "Dzieci uszkodziły zabawkę."
+    ru: "Дети сломали игрушку."
+    source: { kind: authored }
+  - form: "uszkodziły"
+    pl: "Mrozy uszkodziły rury."
+    ru: "Морозы повредили трубы."
+    source: { kind: authored }
+  - form: "uszkodziły"
+    pl: "Te uderzenia uszkodziły obudowę."
+    ru: "Эти удары повредили корпус."
     source: { kind: authored }
   - form: "uszkodzimy"
     pl: "Uszkodzimy ekran, jeśli upuścimy telefon."
@@ -264,6 +334,18 @@ formExamples:
     pl: "Skrzynia była uszkodzona."
     ru: "Ящик был повреждён."
     source: { kind: authored }
+  - form: "uszkodzoną"
+    pl: "Wymienił uszkodzoną część."
+    ru: "Он заменил повреждённую деталь."
+    source: { kind: authored }
+  - form: "uszkodzoną"
+    pl: "Uznano rurę za uszkodzoną."
+    ru: "Трубу сочли повреждённой."
+    source: { kind: authored }
+  - form: "uszkodzoną"
+    pl: "Widziałem uszkodzoną obudowę."
+    ru: "Я видел повреждённый корпус."
+    source: { kind: authored }
   - form: "uszkodzone"
     pl: "To biurko jest uszkodzone."
     ru: "Этот письменный стол повреждён."
@@ -276,6 +358,18 @@ formExamples:
     pl: "Pudełko zostało uszkodzone, ale jego zawartość jest nietknięta."
     ru: "Коробка была повреждена, но её содержимое цело."
     source: { kind: translated, id: 3416051 }
+  - form: "uszkodzonego"
+    pl: "Nie ma tu nic uszkodzonego."
+    ru: "Здесь нет ничего повреждённого."
+    source: { kind: authored }
+  - form: "uszkodzonego"
+    pl: "Szukam telefonu uszkodzonego wczoraj."
+    ru: "Я ищу телефон, повреждённый вчера."
+    source: { kind: authored }
+  - form: "uszkodzonego"
+    pl: "Od ekranu uszkodzonego przy upadku nie ma pożytku."
+    ru: "От экрана, повреждённого при падении, толку нет."
+    source: { kind: authored }
   - form: "uszkodzonej"
     pl: "Zażądał wymiany uszkodzonej części."
     ru: "Он потребовал замены повреждённой детали."
@@ -287,6 +381,18 @@ formExamples:
   - form: "uszkodzonej"
     pl: "Szukam uszkodzonej części."
     ru: "Я ищу повреждённую деталь."
+    source: { kind: authored }
+  - form: "uszkodzonemu"
+    pl: "Przyjrzyj się uszkodzonemu ekranowi."
+    ru: "Присмотрись к повреждённому экрану."
+    source: { kind: authored }
+  - form: "uszkodzonemu"
+    pl: "Uszkodzonemu autu nic już nie pomoże."
+    ru: "Повреждённой машине уже ничего не поможет."
+    source: { kind: authored }
+  - form: "uszkodzonemu"
+    pl: "Daj pierwszeństwo uszkodzonemu urządzeniu."
+    ru: "Отдай предпочтение повреждённому устройству."
     source: { kind: authored }
   - form: "uszkodzony"
     pl: "Czy jest uszkodzony?"
@@ -315,6 +421,66 @@ formExamples:
   - form: "uszkodzonych"
     pl: "Zebrano listę uszkodzonych budynków."
     ru: "Составили список повреждённых зданий."
+    source: { kind: authored }
+  - form: "uszkodzonym"
+    pl: "W uszkodzonym telefonie nic nie działa."
+    ru: "В повреждённом телефоне ничего не работает."
+    source: { kind: authored }
+  - form: "uszkodzonym"
+    pl: "Uszkodzonym rurom grozi pęknięcie."
+    ru: "Повреждённым трубам грозит разрыв."
+    source: { kind: authored }
+  - form: "uszkodzonym"
+    pl: "Z uszkodzonym kolanem nie pobiegniesz."
+    ru: "С повреждённым коленом не побежишь."
+    source: { kind: authored }
+  - form: "uszkodzonymi"
+    pl: "Zajmujemy się uszkodzonymi telefonami."
+    ru: "Мы занимаемся повреждёнными телефонами."
+    source: { kind: authored }
+  - form: "uszkodzonymi"
+    pl: "Między uszkodzonymi a zepsutymi urządzeniami jest różnica."
+    ru: "Между повреждёнными и сломанными устройствами есть разница."
+    source: { kind: authored }
+  - form: "uszkodzonymi"
+    pl: "Z uszkodzonymi rurami trzeba ostrożnie."
+    ru: "С повреждёнными трубами надо осторожно."
+    source: { kind: authored }
+  - form: "uszkodź"
+    pl: "Nie uszkodź ekranu."
+    ru: "Не повреди экран."
+    source: { kind: authored }
+  - form: "uszkodź"
+    pl: "Nie uszkodź sobie kolana."
+    ru: "Не повреди себе колено."
+    source: { kind: authored }
+  - form: "uszkodź"
+    pl: "Uszkodź zamek, jeśli inaczej się nie da."
+    ru: "Сломай замок, если иначе никак."
+    source: { kind: authored }
+  - form: "uszkodźcie"
+    pl: "Nie uszkodźcie ekranu."
+    ru: "Не повредите экран."
+    source: { kind: authored }
+  - form: "uszkodźcie"
+    pl: "Nie uszkodźcie sobie kolan."
+    ru: "Не повредите себе колени."
+    source: { kind: authored }
+  - form: "uszkodźcie"
+    pl: "Nie uszkodźcie niczego przy przeprowadzce."
+    ru: "Не повредите ничего при переезде."
+    source: { kind: authored }
+  - form: "uszkodźmy"
+    pl: "Nie uszkodźmy ekranu."
+    ru: "Не повредим экран."
+    source: { kind: authored }
+  - form: "uszkodźmy"
+    pl: "Nie uszkodźmy niczego przy przeprowadzce."
+    ru: "Не повредим ничего при переезде."
+    source: { kind: authored }
+  - form: "uszkodźmy"
+    pl: "Nie uszkodźmy rur podczas mrozów."
+    ru: "Не повредим трубы в морозы."
     source: { kind: authored }
   - form: "niech uszkodzi"
     pl: "Niech uszkodzi tylko opakowanie."
