@@ -57,8 +57,6 @@ idioms:
   - { pl: "wyobraź sobie", ru: "представь себе" }
   - { pl: "nie do wyobrażenia", ru: "невообразимо" }
 formExamplesSkip:
-  - { form: "wyobrazi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyobrazicie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
   - { form: "wyobrazili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyobraziliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyobrazilibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
@@ -84,16 +82,12 @@ formExamplesSkip:
   - { form: "wyobraziłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
   - { form: "wyobraziłyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
   - { form: "wyobraziłyśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "wyobrazimy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "wyobrazisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyobraziwszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется" }
   - { form: "wyobraźcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "wyobrażą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyobrażeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyobrażenia", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "wyobrażeniem", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "wyobrażeniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "wyobrażę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyobrażona", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyobrażoną", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyobrażone", reason: "в корпусе нет примеров для этой падежной формы причастия" }
@@ -106,6 +100,30 @@ formExamplesSkip:
   - { form: "wyobrażonym", reason: "в корпусе нет примеров для этой падежной формы причастия" }
   - { form: "wyobrażonymi", reason: "в корпусе нет примеров для этой падежной формы причастия" }
 formExamples:
+  - form: "wyobrazi"
+    pl: "Wyobrazi sobie, że jest na plaży."
+    ru: "Он представит себе, что он на пляже."
+    source: { kind: authored }
+  - form: "wyobrazi"
+    pl: "Wyobrazi sobie naszą minę."
+    ru: "Он представит себе наше лицо."
+    source: { kind: authored }
+  - form: "wyobrazi"
+    pl: "Nikt nie wyobrazi sobie tego lepiej."
+    ru: "Никто не представит себе это лучше."
+    source: { kind: authored }
+  - form: "wyobrazicie"
+    pl: "Wyobrazicie sobie, że jesteście na plaży."
+    ru: "Вы представите себе, что вы на пляже."
+    source: { kind: authored }
+  - form: "wyobrazicie"
+    pl: "Wyobrazicie sobie naszą minę."
+    ru: "Вы представите себе наше лицо."
+    source: { kind: authored }
+  - form: "wyobrazicie"
+    pl: "Nie wyobrazicie sobie, co się stało."
+    ru: "Вы не представите себе, что случилось."
+    source: { kind: authored }
   - form: "wyobrazić"
     pl: "Możesz sobie to wyobrazić?"
     ru: "Можешь себе это представить?"
@@ -129,6 +147,30 @@ formExamples:
   - form: "wyobraziła"
     pl: "Nigdy tego sobie nie wyobraziła."
     ru: "Она никогда себе этого не представляла."
+    source: { kind: authored }
+  - form: "wyobrazimy"
+    pl: "Wyobrazimy sobie, że jesteśmy na plaży."
+    ru: "Мы представим себе, что мы на пляже."
+    source: { kind: authored }
+  - form: "wyobrazimy"
+    pl: "Wyobrazimy sobie waszą minę."
+    ru: "Мы представим себе ваше лицо."
+    source: { kind: authored }
+  - form: "wyobrazimy"
+    pl: "Nie wyobrazimy sobie życia bez muzyki."
+    ru: "Мы не представим себе жизни без музыки."
+    source: { kind: authored }
+  - form: "wyobrazisz"
+    pl: "Wyobrazisz sobie, że jesteś na plaży."
+    ru: "Ты представишь себе, что ты на пляже."
+    source: { kind: authored }
+  - form: "wyobrazisz"
+    pl: "Wyobrazisz sobie moją minę."
+    ru: "Ты представишь себе моё лицо."
+    source: { kind: authored }
+  - form: "wyobrazisz"
+    pl: "Nie wyobrazisz sobie, co się stało."
+    ru: "Ты не представишь себе, что случилось."
     source: { kind: authored }
   - form: "wyobraź"
     pl: "Wyobraź sobie, że masz wehikuł czasu."
@@ -154,6 +196,18 @@ formExamples:
     pl: "Wyobraźmy sobie, że się udało."
     ru: "Представим, что получилось."
     source: { kind: authored }
+  - form: "wyobrażą"
+    pl: "Wyobrażą sobie, że są na plaży."
+    ru: "Они представят себе, что они на пляже."
+    source: { kind: authored }
+  - form: "wyobrażą"
+    pl: "Wyobrażą sobie naszą minę."
+    ru: "Они представят себе наше лицо."
+    source: { kind: authored }
+  - form: "wyobrażą"
+    pl: "Nie wyobrażą sobie życia bez muzyki."
+    ru: "Они не представят себе жизни без музыки."
+    source: { kind: authored }
   - form: "wyobrażenie"
     pl: "Masz dziwne wyobrażenie o szczęściu."
     ru: "У тебя странное представление о счастье."
@@ -166,3 +220,39 @@ formExamples:
     pl: "Moje wyobrażenie na jego temat nie pokrywało się z rzeczywistością."
     ru: "Моё представление о нём не совпадало с действительностью."
     source: { kind: translated, id: 6304062 }
+  - form: "wyobrażę"
+    pl: "Wyobrażę sobie, że jestem na plaży."
+    ru: "Я представлю себе, что я на пляже."
+    source: { kind: authored }
+  - form: "wyobrażę"
+    pl: "Wyobrażę sobie twoją minę."
+    ru: "Я представлю себе твоё лицо."
+    source: { kind: authored }
+  - form: "wyobrażę"
+    pl: "Nie wyobrażę sobie życia bez muzyki."
+    ru: "Я не представлю себе жизни без музыки."
+    source: { kind: authored }
+  - form: "niech wyobrazi"
+    pl: "Niech wyobrazi sobie, że jest na plaży."
+    ru: "Пусть представит себе, что он на пляже."
+    source: { kind: authored }
+  - form: "niech wyobrazi"
+    pl: "Niech wyobrazi sobie naszą sytuację."
+    ru: "Пусть представит себе наше положение."
+    source: { kind: authored }
+  - form: "niech wyobrazi"
+    pl: "Niech wyobrazi sobie coś lepszego."
+    ru: "Пусть представит себе что-нибудь получше."
+    source: { kind: authored }
+  - form: "niech wyobrażą"
+    pl: "Niech wyobrażą sobie, że są na plaży."
+    ru: "Пусть представят себе, что они на пляже."
+    source: { kind: authored }
+  - form: "niech wyobrażą"
+    pl: "Niech wyobrażą sobie naszą sytuację."
+    ru: "Пусть представят себе наше положение."
+    source: { kind: authored }
+  - form: "niech wyobrażą"
+    pl: "Niech wyobrażą sobie coś lepszego."
+    ru: "Пусть представят себе что-нибудь получше."
+    source: { kind: authored }
