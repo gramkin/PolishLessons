@@ -59,18 +59,11 @@ idioms:
   - { pl: "nadeszła pora", ru: "настала пора" }
   - { pl: "z nadejściem wiosny", ru: "с приходом весны" }
 formExamplesSkip:
-  - { form: "nadejdą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadejdę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadejdziecie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "nadejdziemy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "nadejdziesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadejdź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadejdźcie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
   - { form: "nadejdźmy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "nadejścia", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadejście", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "nadejściu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadeszli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadeszliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszlibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszlibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -79,8 +72,6 @@ formExamplesSkip:
   - { form: "nadeszłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadeszłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadeszłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nadeszłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadeszłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -90,10 +81,31 @@ formExamplesSkip:
   - { form: "nadszedłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadszedłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "nadszedłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "nadszedłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadszedłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nadszedłszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "nadejdą"
+    pl: "Nadejdą lepsze czasy."
+    ru: "Настанут лучшие времена."
+    source: { kind: authored }
+  - form: "nadejdą"
+    pl: "Wkrótce nadejdą mrozy."
+    ru: "Скоро настанут морозы."
+    source: { kind: authored }
+  - form: "nadejdą"
+    pl: "Listy nadejdą jutro."
+    ru: "Письма придут завтра."
+    source: { kind: authored }
+  - form: "nadejdę"
+    pl: "Nadejdę o świcie."
+    ru: "Я приду на рассвете."
+    source: { kind: authored }
+  - form: "nadejdę"
+    pl: "Nadejdę zaraz po tobie."
+    ru: "Я приду сразу после тебя."
+    source: { kind: authored }
+  - form: "nadejdę"
+    pl: "Nie nadejdę na czas."
+    ru: "Я не успею вовремя."
+    source: { kind: authored }
   - form: "nadejdzie"
     pl: "Niebawem nadejdzie wiosna."
     ru: "Скоро придёт весна."
@@ -110,6 +122,42 @@ formExamples:
     pl: "Nadejdzie czas, w którym pożałujesz swych czynów."
     ru: "Настанет время, когда ты пожалеешь о своих поступках."
     source: { kind: translated, id: 1353282 }
+  - form: "nadejdziesz"
+    pl: "Nadejdziesz o świcie?"
+    ru: "Ты придёшь на рассвете?"
+    source: { kind: authored }
+  - form: "nadejdziesz"
+    pl: "Jeśli nadejdziesz wcześniej, zaczekaj."
+    ru: "Если придёшь раньше, подожди."
+    source: { kind: authored }
+  - form: "nadejdziesz"
+    pl: "Nie nadejdziesz na czas."
+    ru: "Ты не успеешь вовремя."
+    source: { kind: authored }
+  - form: "nadejdź"
+    pl: "Nadejdź, wiosno!"
+    ru: "Приди, весна!"
+    source: { kind: authored }
+  - form: "nadejdź"
+    pl: "Nadejdź szybko, czekamy."
+    ru: "Приходи скорее, мы ждём."
+    source: { kind: authored }
+  - form: "nadejdź"
+    pl: "Nadejdź, zanim będzie za późno."
+    ru: "Приди, пока не поздно."
+    source: { kind: authored }
+  - form: "nadejścia"
+    pl: "Oczekujemy nadejścia wiosny."
+    ru: "Мы ждём прихода весны."
+    source: { kind: authored }
+  - form: "nadejścia"
+    pl: "Do nadejścia pomocy zostało kilka godzin."
+    ru: "До прихода помощи осталось несколько часов."
+    source: { kind: authored }
+  - form: "nadejścia"
+    pl: "Nie doczekał nadejścia listu."
+    ru: "Он не дождался прихода письма."
+    source: { kind: authored }
   - form: "nadejściem"
     pl: "Z nadejściem zimy dni stają się coraz krótsze."
     ru: "С наступлением зимы дни становятся всё короче."
@@ -122,6 +170,18 @@ formExamples:
     pl: "Przed nadejściem burzy zrobiło się cicho."
     ru: "Перед наступлением грозы стало тихо."
     source: { kind: authored }
+  - form: "nadejściu"
+    pl: "Po nadejściu wiosny wszystko rozkwitło."
+    ru: "С приходом весны всё расцвело."
+    source: { kind: authored }
+  - form: "nadejściu"
+    pl: "Przy nadejściu burzy zamknij okna."
+    ru: "При приближении грозы закрой окна."
+    source: { kind: authored }
+  - form: "nadejściu"
+    pl: "Dzięki nadejściu pomocy przetrwali."
+    ru: "Благодаря приходу помощи они выжили."
+    source: { kind: authored }
   - form: "nadejść"
     pl: "Pozwól mu nadejść."
     ru: "Дай ему подойти."
@@ -133,6 +193,18 @@ formExamples:
   - form: "nadejść"
     pl: "Pomoc miała nadejść o świcie."
     ru: "Помощь должна была прийти на рассвете."
+    source: { kind: authored }
+  - form: "nadeszli"
+    pl: "Nadeszli o świcie."
+    ru: "Они пришли на рассвете."
+    source: { kind: authored }
+  - form: "nadeszli"
+    pl: "Goście nadeszli przed zmrokiem."
+    ru: "Гости пришли до темноты."
+    source: { kind: authored }
+  - form: "nadeszli"
+    pl: "Ratownicy nadeszli w ostatniej chwili."
+    ru: "Спасатели подошли в последний момент."
     source: { kind: authored }
   - form: "nadeszła"
     pl: "Nadeszła zima."
@@ -150,6 +222,30 @@ formExamples:
     pl: "Nadeszła wiosna."
     ru: "Наступила весна."
     source: { kind: translated, id: 1173386 }
+  - form: "nadeszłam"
+    pl: "Nadeszłam za późno."
+    ru: "Я пришла слишком поздно."
+    source: { kind: authored }
+  - form: "nadeszłam"
+    pl: "Nadeszłam w samą porę."
+    ru: "Я пришла как раз вовремя."
+    source: { kind: authored }
+  - form: "nadeszłam"
+    pl: "Nadeszłam od strony lasu."
+    ru: "Я подошла со стороны леса."
+    source: { kind: authored }
+  - form: "nadeszłaś"
+    pl: "Nadeszłaś w samą porę."
+    ru: "Ты пришла как раз вовремя."
+    source: { kind: authored }
+  - form: "nadeszłaś"
+    pl: "Nadeszłaś za późno."
+    ru: "Ты пришла слишком поздно."
+    source: { kind: authored }
+  - form: "nadeszłaś"
+    pl: "Nadeszłaś od strony rzeki."
+    ru: "Ты подошла со стороны реки."
+    source: { kind: authored }
   - form: "nadeszło"
     pl: "Nadeszło lato."
     ru: "Наступило лето."
@@ -190,3 +286,39 @@ formExamples:
     pl: "Nadszedł czas, abyś powiedział jej prawdę."
     ru: "Пришло время, чтобы ты сказал ей правду."
     source: { kind: translated, id: 1857385 }
+  - form: "nadszedłem"
+    pl: "Nadszedłem w samą porę."
+    ru: "Я пришёл как раз вовремя."
+    source: { kind: authored }
+  - form: "nadszedłem"
+    pl: "Nadszedłem za późno."
+    ru: "Я пришёл слишком поздно."
+    source: { kind: authored }
+  - form: "nadszedłem"
+    pl: "Nadszedłem od strony lasu."
+    ru: "Я подошёл со стороны леса."
+    source: { kind: authored }
+  - form: "nadszedłeś"
+    pl: "Nadszedłeś w samą porę."
+    ru: "Ты пришёл как раз вовремя."
+    source: { kind: authored }
+  - form: "nadszedłeś"
+    pl: "Nadszedłeś za późno."
+    ru: "Ты пришёл слишком поздно."
+    source: { kind: authored }
+  - form: "nadszedłeś"
+    pl: "Nadszedłeś cicho."
+    ru: "Ты подошёл тихо."
+    source: { kind: authored }
+  - form: "nadszedłszy"
+    pl: "Nadszedłszy pod dom, zapukał."
+    ru: "Подойдя к дому, он постучал."
+    source: { kind: authored }
+  - form: "nadszedłszy"
+    pl: "Nadszedłszy z lasu, usiedli przy ogniu."
+    ru: "Придя из леса, они сели у огня."
+    source: { kind: authored }
+  - form: "nadszedłszy"
+    pl: "Nadszedłszy wcześniej, zdążył zająć miejsce."
+    ru: "Придя раньше, он успел занять место."
+    source: { kind: authored }
