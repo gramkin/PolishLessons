@@ -53,9 +53,7 @@ idioms:
   - { pl: "wprowadzić w życie", ru: "воплотить в жизнь" }
   - { pl: "wprowadzić się", ru: "въехать, вселиться" }
 formExamplesSkip:
-  - { form: "wprowadzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wprowadzeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wprowadzę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wprowadzicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "wprowadziliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadzilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -65,19 +63,15 @@ formExamplesSkip:
   - { form: "wprowadziłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wprowadziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wprowadziłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wprowadziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wprowadziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wprowadziłoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "wprowadziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "wprowadziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wprowadzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wprowadziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
   - { form: "wprowadzona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "wprowadzoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -90,6 +84,18 @@ formExamplesSkip:
   - { form: "wprowadźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "wprowadźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
 formExamples:
+  - form: "wprowadzą"
+    pl: "Wprowadzą nowe przepisy od stycznia."
+    ru: "Они введут новые правила с января."
+    source: { kind: authored }
+  - form: "wprowadzą"
+    pl: "Wprowadzą dane do systemu."
+    ru: "Они введут данные в систему."
+    source: { kind: authored }
+  - form: "wprowadzą"
+    pl: "Wprowadzą się w przyszłym miesiącu."
+    ru: "Они въедут в следующем месяце."
+    source: { kind: authored }
   - form: "wprowadzenia"
     pl: "Pomysł jest dobry, ale jest trudny do wprowadzenia."
     ru: "Идея хорошая, но её трудно внедрить."
@@ -137,6 +143,18 @@ formExamples:
   - form: "wprowadzeniu"
     pl: "We wprowadzeniu autor wyjaśnia cel."
     ru: "Во введении автор объясняет цель."
+    source: { kind: authored }
+  - form: "wprowadzę"
+    pl: "Wprowadzę nowe przepisy."
+    ru: "Я введу новые правила."
+    source: { kind: authored }
+  - form: "wprowadzę"
+    pl: "Wprowadzę dane do systemu."
+    ru: "Я введу данные в систему."
+    source: { kind: authored }
+  - form: "wprowadzę"
+    pl: "Wprowadzę się w przyszłym miesiącu."
+    ru: "Я въеду в следующем месяце."
     source: { kind: authored }
   - form: "wprowadzi"
     pl: "Tom wprowadzi się z powrotem do Bostonu."
@@ -210,6 +228,18 @@ formExamples:
     pl: "Wprowadziłam się w zeszłym roku."
     ru: "Я въехала в прошлом году."
     source: { kind: authored }
+  - form: "wprowadziłaś"
+    pl: "Wprowadziłaś dane do systemu."
+    ru: "Ты ввела данные в систему."
+    source: { kind: authored }
+  - form: "wprowadziłaś"
+    pl: "Wprowadziłaś nowe zasady."
+    ru: "Ты ввела новые правила."
+    source: { kind: authored }
+  - form: "wprowadziłaś"
+    pl: "Wprowadziłaś się w zeszłym roku."
+    ru: "Ты въехала в прошлом году."
+    source: { kind: authored }
   - form: "wprowadziłem"
     pl: "Wprowadziłem go w błąd."
     ru: "Я ввёл его в заблуждение."
@@ -222,6 +252,30 @@ formExamples:
     pl: "Właśnie się wprowadziłem."
     ru: "Я только что въехал."
     source: { kind: translated, id: 8705114 }
+  - form: "wprowadziłeś"
+    pl: "Wprowadziłeś dane do systemu."
+    ru: "Ты ввёл данные в систему."
+    source: { kind: authored }
+  - form: "wprowadziłeś"
+    pl: "Wprowadziłeś nowe zasady."
+    ru: "Ты ввёл новые правила."
+    source: { kind: authored }
+  - form: "wprowadziłeś"
+    pl: "Wprowadziłeś się w zeszłym roku."
+    ru: "Ты въехал в прошлом году."
+    source: { kind: authored }
+  - form: "wprowadziło"
+    pl: "Miasto wprowadziło nowe opłaty."
+    ru: "Город ввёл новые сборы."
+    source: { kind: authored }
+  - form: "wprowadziło"
+    pl: "Wiele firm wprowadziło zmiany."
+    ru: "Многие фирмы ввели изменения."
+    source: { kind: authored }
+  - form: "wprowadziło"
+    pl: "Dziecko wprowadziło do domu kota."
+    ru: "Ребёнок привёл в дом кота."
+    source: { kind: authored }
   - form: "wprowadziły"
     pl: "Niemcy wprowadziły system ubezpieczeń społecznych w latach 80. XIX wieku."
     ru: "Германия ввела систему социального страхования в восьмидесятых годах девятнадцатого века."
@@ -245,6 +299,18 @@ formExamples:
   - form: "wprowadzimy"
     pl: "Wprowadzimy poprawki jutro."
     ru: "Мы внесём поправки завтра."
+    source: { kind: authored }
+  - form: "wprowadzisz"
+    pl: "Wprowadzisz dane do systemu?"
+    ru: "Ты введёшь данные в систему?"
+    source: { kind: authored }
+  - form: "wprowadzisz"
+    pl: "Wprowadzisz nowe zasady."
+    ru: "Ты введёшь новые правила."
+    source: { kind: authored }
+  - form: "wprowadzisz"
+    pl: "Wprowadzisz się w przyszłym miesiącu."
+    ru: "Ты въедешь в следующем месяце."
     source: { kind: authored }
   - form: "wprowadzone"
     pl: "Nowe przepisy zostały wprowadzone."

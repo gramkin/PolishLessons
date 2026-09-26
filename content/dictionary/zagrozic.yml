@@ -38,6 +38,7 @@ senses:
         ru: "Эта птица под угрозой вымирания."
         source: { kind: tatoeba, id: 1165171 }
 notes:
+  - { kind: usage, text: "Повелительное наклонение — zagroź, без ó. Форма zagróź оставлена без примеров: она не нормативна. Чередование o/ó работает там, где слог закрывается в самой основе (mógł — mogła), а здесь основа остаётся той же: zagrozić — zagroź." }
   - { kind: usage, text: "Совершенный вид к grozić «угрожать»." }
   - { kind: government, text: "zagrozić komuś czymś — дательный лица и творительный того, чем грозят: Zagroziliśmy odejściem «Мы пригрозили уходом»." }
   - { kind: usage, text: "Отглагольное существительное zagrożenie «угроза, опасность» встречается заметно чаще самого глагола: zagrożenie wojną «угроза войны»." }
@@ -54,38 +55,26 @@ idioms:
   - { pl: "zagrozić komuś", ru: "пригрозить кому-либо" }
 formExamplesSkip:
   - { form: "zagrozicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zagrozili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagrozilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagrozilibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zagroził", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagroziła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagroziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagroziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zagroziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zagroziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zagrozimy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zagrozisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "zagroź", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagroźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zagroźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zagrożą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagrożę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zagrożoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zagrożonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zagrożonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -121,6 +110,18 @@ formExamples:
     pl: "Nie da się nam zagrozić."
     ru: "Нам невозможно угрожать."
     source: { kind: authored }
+  - form: "zagrozili"
+    pl: "Zagrozili, że odejdą."
+    ru: "Они пригрозили, что уйдут."
+    source: { kind: authored }
+  - form: "zagrozili"
+    pl: "Zagrozili nam sądem."
+    ru: "Они пригрозили нам судом."
+    source: { kind: authored }
+  - form: "zagrozili"
+    pl: "Nikomu nie zagrozili."
+    ru: "Они никому не угрожали."
+    source: { kind: authored }
   - form: "zagroziliśmy"
     pl: "Zagroziliśmy odejściem."
     ru: "Мы пригрозили уходом."
@@ -133,6 +134,54 @@ formExamples:
     pl: "Zagroziliśmy strajkiem."
     ru: "Мы пригрозили забастовкой."
     source: { kind: authored }
+  - form: "zagroził"
+    pl: "Zagroził, że odejdzie."
+    ru: "Он пригрозил, что уйдёт."
+    source: { kind: authored }
+  - form: "zagroził"
+    pl: "Zagroził nam sądem."
+    ru: "Он пригрозил нам судом."
+    source: { kind: authored }
+  - form: "zagroził"
+    pl: "Nikomu nie zagroził."
+    ru: "Он никому не угрожал."
+    source: { kind: authored }
+  - form: "zagroziła"
+    pl: "Zagroziła, że odejdzie."
+    ru: "Она пригрозила, что уйдёт."
+    source: { kind: authored }
+  - form: "zagroziła"
+    pl: "Zagroziła nam sądem."
+    ru: "Она пригрозила нам судом."
+    source: { kind: authored }
+  - form: "zagroziła"
+    pl: "Powódź zagroziła całej wsi."
+    ru: "Наводнение поставило под угрозу всю деревню."
+    source: { kind: authored }
+  - form: "zagroziłam"
+    pl: "Zagroziłam, że odejdę."
+    ru: "Я пригрозила, что уйду."
+    source: { kind: authored }
+  - form: "zagroziłam"
+    pl: "Zagroziłam mu sądem."
+    ru: "Я пригрозила ему судом."
+    source: { kind: authored }
+  - form: "zagroziłam"
+    pl: "Nikomu nie zagroziłam."
+    ru: "Я никому не угрожала."
+    source: { kind: authored }
+  - form: "zagroziłaś"
+    pl: "Zagroziłaś, że odejdziesz."
+    ru: "Ты пригрозила, что уйдёшь."
+    source: { kind: authored }
+  - form: "zagroziłaś"
+    pl: "Zagroziłaś mu sądem."
+    ru: "Ты пригрозила ему судом."
+    source: { kind: authored }
+  - form: "zagroziłaś"
+    pl: "Nikomu nie zagroziłaś."
+    ru: "Ты никому не угрожала."
+    source: { kind: authored }
   - form: "zagroziłem"
     pl: "Zagroziłem ujawnieniem jego tajemnicy."
     ru: "Я пригрозил раскрыть его тайну."
@@ -144,6 +193,78 @@ formExamples:
   - form: "zagroziłem"
     pl: "Nigdy nikomu nie zagroziłem."
     ru: "Я никогда никому не угрожал."
+    source: { kind: authored }
+  - form: "zagroziłeś"
+    pl: "Zagroziłeś, że odejdziesz."
+    ru: "Ты пригрозил, что уйдёшь."
+    source: { kind: authored }
+  - form: "zagroziłeś"
+    pl: "Zagroziłeś mu sądem."
+    ru: "Ты пригрозил ему судом."
+    source: { kind: authored }
+  - form: "zagroziłeś"
+    pl: "Nikomu nie zagroziłeś."
+    ru: "Ты никому не угрожал."
+    source: { kind: authored }
+  - form: "zagroziło"
+    pl: "Wiele osób zagroziło odejściem."
+    ru: "Многие пригрозили уходом."
+    source: { kind: authored }
+  - form: "zagroziło"
+    pl: "Osunięcie ziemi zagroziło domom."
+    ru: "Оползень поставил под угрозу дома."
+    source: { kind: authored }
+  - form: "zagroziło"
+    pl: "Nic nam nie zagroziło."
+    ru: "Ничто нам не угрожало."
+    source: { kind: authored }
+  - form: "zagroziły"
+    pl: "Firmy zagroziły wycofaniem się."
+    ru: "Фирмы пригрозили уходом."
+    source: { kind: authored }
+  - form: "zagroziły"
+    pl: "Powodzie zagroziły wsiom."
+    ru: "Наводнения поставили под угрозу деревни."
+    source: { kind: authored }
+  - form: "zagroziły"
+    pl: "Nikomu nie zagroziły."
+    ru: "Они никому не угрожали."
+    source: { kind: authored }
+  - form: "zagrozisz"
+    pl: "Zagrozisz mu sądem?"
+    ru: "Ты пригрозишь ему судом?"
+    source: { kind: authored }
+  - form: "zagrozisz"
+    pl: "Nikomu nie zagrozisz."
+    ru: "Ты никому не будешь угрожать."
+    source: { kind: authored }
+  - form: "zagrozisz"
+    pl: "Zagrozisz, że odejdziesz."
+    ru: "Ты пригрозишь, что уйдёшь."
+    source: { kind: authored }
+  - form: "zagroź"
+    pl: "Zagroź mu sądem."
+    ru: "Пригрози ему судом."
+    source: { kind: authored }
+  - form: "zagroź"
+    pl: "Zagroź, że odejdziesz."
+    ru: "Пригрози, что уйдёшь."
+    source: { kind: authored }
+  - form: "zagroź"
+    pl: "Zagroź im konsekwencjami."
+    ru: "Пригрози им последствиями."
+    source: { kind: authored }
+  - form: "zagrożą"
+    pl: "Zagrożą, że odejdą."
+    ru: "Они пригрозят, что уйдут."
+    source: { kind: authored }
+  - form: "zagrożą"
+    pl: "Zagrożą nam sądem."
+    ru: "Они пригрозят нам судом."
+    source: { kind: authored }
+  - form: "zagrożą"
+    pl: "Nikomu nie zagrożą."
+    ru: "Они никому не будут угрожать."
     source: { kind: authored }
   - form: "zagrożeni"
     pl: "Jesteśmy zagrożeni powodzią."
@@ -204,6 +325,18 @@ formExamples:
   - form: "zagrożeniu"
     pl: "Mówimy o zagrożeniu klimatycznym."
     ru: "Мы говорим об угрозе климату."
+    source: { kind: authored }
+  - form: "zagrożę"
+    pl: "Zagrożę mu sądem."
+    ru: "Я пригрожу ему судом."
+    source: { kind: authored }
+  - form: "zagrożę"
+    pl: "Nikomu nie zagrożę."
+    ru: "Я никому не буду угрожать."
+    source: { kind: authored }
+  - form: "zagrożę"
+    pl: "Zagrożę, że odejdę."
+    ru: "Я пригрожу, что уйду."
     source: { kind: authored }
   - form: "zagrożona"
     pl: "Moja reputacja jest zagrożona."

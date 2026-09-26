@@ -38,6 +38,7 @@ senses:
         ru: "Глаза его подвели."
         source: { kind: translated, id: 350032 }
 notes:
+  - { kind: usage, text: "В мужском роде прошедшего времени пишется zawiódł — с ó, потому что слог закрывается согласной. Как только после ł появляется гласная, возвращается o: zawiodła, zawiodło, zawiodłam, zawiodły, zawiedli. Формы zawiodł не существует. То же чередование в mógł — mogła, niósł — niosła." }
   - { kind: false-friend, text: "Не путайте zawieść «подвести, разочаровать» с zawieźć «отвезти»: разница только в ś/ź, а значения совершенно разные." }
   - { kind: usage, text: "Совершенный вид к zawodzić." }
   - { kind: government, text: "zawieść kogo, винительный: zawieść przyjaciela «подвести друга», zawieść oczekiwania «обмануть ожидания»." }
@@ -53,7 +54,6 @@ idioms:
   - { pl: "zawieść oczekiwania", ru: "обмануть ожидания" }
   - { pl: "zawiedziony w miłości", ru: "разочарованный в любви" }
 formExamplesSkip:
-  - { form: "zawiedli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawiedliby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiedlibyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiedlibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
@@ -74,26 +74,33 @@ formExamplesSkip:
   - { form: "zawiedzionymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zawiedźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "zawiedźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zawiodą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawiodł", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zawiodł", reason: "такой формы нет: мужской род прошедшего времени — zawiódł, с ó в закрытом слоге" }
   - { form: "zawiodłaby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłabym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zawiodłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawiodłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawiodłby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłbym", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zawiodło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawiodłoby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłyby", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
   - { form: "zawiodłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zawiódłszy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawiedliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zawiodłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
 formExamples:
+  - form: "zawiedli"
+    pl: "Zawiedli nas w najgorszym momencie."
+    ru: "Они подвели нас в худший момент."
+    source: { kind: authored }
+  - form: "zawiedli"
+    pl: "Nie zawiedli nikogo."
+    ru: "Они никого не подвели."
+    source: { kind: authored }
+  - form: "zawiedli"
+    pl: "Zawiedli oczekiwania kibiców."
+    ru: "Они обманули ожидания болельщиков."
+    source: { kind: authored }
   - form: "zawiedzeni"
     pl: "Są zawiedzeni synem."
     ru: "Они разочарованы сыном."
@@ -190,6 +197,18 @@ formExamples:
     pl: "Obiecuję cię nie zawieść."
     ru: "Обещаю тебя не подвести."
     source: { kind: translated, id: 10584739 }
+  - form: "zawiodą"
+    pl: "Nie zawiodą cię."
+    ru: "Они тебя не подведут."
+    source: { kind: authored }
+  - form: "zawiodą"
+    pl: "Zawiodą oczekiwania, jeśli tak dalej pójdzie."
+    ru: "Они обманут ожидания, если так пойдёт дальше."
+    source: { kind: authored }
+  - form: "zawiodą"
+    pl: "Hamulce nie zawiodą."
+    ru: "Тормоза не подведут."
+    source: { kind: authored }
   - form: "zawiodę"
     pl: "Nie zawiodę cię."
     ru: "Я тебя не подведу."
@@ -213,6 +232,30 @@ formExamples:
   - form: "zawiodła"
     pl: "Ta metoda zawiodła."
     ru: "Этот метод подвёл."
+    source: { kind: authored }
+  - form: "zawiodłam"
+    pl: "Zawiodłam cię i przepraszam."
+    ru: "Я тебя подвела и прошу прощения."
+    source: { kind: authored }
+  - form: "zawiodłam"
+    pl: "Nie zawiodłam nikogo."
+    ru: "Я никого не подвела."
+    source: { kind: authored }
+  - form: "zawiodłam"
+    pl: "Zawiodłam oczekiwania rodziców."
+    ru: "Я обманула ожидания родителей."
+    source: { kind: authored }
+  - form: "zawiodłaś"
+    pl: "Zawiodłaś mnie."
+    ru: "Ты меня подвела."
+    source: { kind: authored }
+  - form: "zawiodłaś"
+    pl: "Nie zawiodłaś nikogo."
+    ru: "Ты никого не подвела."
+    source: { kind: authored }
+  - form: "zawiodłaś"
+    pl: "Zawiodłaś oczekiwania rodziców."
+    ru: "Ты обманула ожидания родителей."
     source: { kind: authored }
   - form: "zawiodłem"
     pl: "Zawiodłem."
@@ -238,6 +281,18 @@ formExamples:
     pl: "Zawiodłeś nas wszystkich."
     ru: "Ты подвёл нас всех."
     source: { kind: authored }
+  - form: "zawiodło"
+    pl: "Serce go zawiodło."
+    ru: "Сердце его подвело."
+    source: { kind: authored }
+  - form: "zawiodło"
+    pl: "Wiele osób zawiodło nasze zaufanie."
+    ru: "Многие обманули наше доверие."
+    source: { kind: authored }
+  - form: "zawiodło"
+    pl: "Nic nas nie zawiodło tak jak pogoda."
+    ru: "Ничто не подвело нас так, как погода."
+    source: { kind: authored }
   - form: "zawiodły"
     pl: "Oczy go zawiodły."
     ru: "Глаза его подвели."
@@ -262,3 +317,15 @@ formExamples:
     pl: "On zawiódł drużynę."
     ru: "Он подвёл команду."
     source: { kind: translated, id: 12953760 }
+  - form: "zawiódłszy"
+    pl: "Zawiódłszy przyjaciela, nie mógł spać."
+    ru: "Подведя друга, он не мог спать."
+    source: { kind: authored }
+  - form: "zawiódłszy"
+    pl: "Zawiódłszy oczekiwania, wycofał się."
+    ru: "Обманув ожидания, он отступился."
+    source: { kind: authored }
+  - form: "zawiódłszy"
+    pl: "Zawiódłszy raz, trudno odzyskać zaufanie."
+    ru: "Подведя однажды, трудно вернуть доверие."
+    source: { kind: authored }
