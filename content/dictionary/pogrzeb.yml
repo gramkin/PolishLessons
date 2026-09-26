@@ -40,6 +40,7 @@ notes:
   - { kind: usage, text: "В польском это существительное мужского рода единственного числа: pogrzeb jest jutro «похороны завтра», буквально «похорон есть завтра». В русском слово только множественное." }
   - { kind: usage, text: "Предложный падеж — na pogrzebie «на похоронах»: byłem na pogrzebie «я был на похоронах»." }
   - { kind: false-friend, text: "Не путайте с формой глагола pogrzebać: pogrzeb в значении «покопайся» — это повелительное наклонение, совсем другое слово по употреблению." }
+  - { kind: false-friend, text: "Русское «похороны» существует только во множественном числе, а польское pogrzeb — обычное единственное: jeden pogrzeb, do pogrzebu, przed pogrzebem. Множественное pogrzeby значит «несколько разных похорон»." }
 collocations:
   - { pl: "pogrzeb jest jutro", ru: "похороны завтра" }
   - { pl: "na pogrzebie", ru: "на похоронах" }
@@ -50,13 +51,6 @@ idioms:
   - { pl: "na pogrzebie", ru: "на похоронах" }
   - { pl: "pójść na pogrzeb", ru: "пойти на похороны" }
   - { pl: "pogrzeb jest jutro", ru: "похороны завтра" }
-formExamplesSkip:
-  - { form: "pogrzebach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pogrzebami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pogrzebem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pogrzebom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pogrzebowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pogrzebu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "pogrzeb"
     pl: "Pogrzeb jest jutro."
@@ -78,6 +72,42 @@ formExamples:
     pl: "Pogrzeb Toma będzie w ten weekend."
     ru: "Похороны Тома будут в эти выходные."
     source: { kind: translated, id: 3300332 }
+  - form: "pogrzebach"
+    pl: "O takich pogrzebach mówi się latami."
+    ru: "О таких похоронах говорят годами."
+    source: { kind: authored }
+  - form: "pogrzebach"
+    pl: "Na wiejskich pogrzebach bywa cała wieś."
+    ru: "На деревенских похоронах бывает вся деревня."
+    source: { kind: authored }
+  - form: "pogrzebach"
+    pl: "W pogrzebach wojskowych jest surowość."
+    ru: "В воинских похоронах есть суровость."
+    source: { kind: authored }
+  - form: "pogrzebami"
+    pl: "Między tymi pogrzebami minął tydzień."
+    ru: "Между этими похоронами прошла неделя."
+    source: { kind: authored }
+  - form: "pogrzebami"
+    pl: "Zajmuje się pogrzebami od trzydziestu lat."
+    ru: "Он занимается похоронами тридцать лет."
+    source: { kind: authored }
+  - form: "pogrzebami"
+    pl: "Rok zapisał się pogrzebami."
+    ru: "Год запомнился похоронами."
+    source: { kind: authored }
+  - form: "pogrzebem"
+    pl: "Przed pogrzebem zebrali się w domu."
+    ru: "Перед похоронами они собрались дома."
+    source: { kind: authored }
+  - form: "pogrzebem"
+    pl: "Zajmuje się pogrzebem ojca."
+    ru: "Он занимается похоронами отца."
+    source: { kind: authored }
+  - form: "pogrzebem"
+    pl: "Między śmiercią a pogrzebem minęły trzy dni."
+    ru: "Между смертью и похоронами прошло три дня."
+    source: { kind: authored }
   - form: "pogrzebie"
     pl: "Bierzemy udział w pogrzebie."
     ru: "Мы участвуем в похоронах."
@@ -94,6 +124,30 @@ formExamples:
     pl: "Tom i Mary byli na pogrzebie Johna."
     ru: "Том и Мэри были на похоронах Джона."
     source: { kind: translated, id: 3838669 }
+  - form: "pogrzebom"
+    pl: "Przyjrzyj się tym pogrzebom."
+    ru: "Присмотрись к этим похоронам."
+    source: { kind: authored }
+  - form: "pogrzebom"
+    pl: "Takim pogrzebom towarzyszy orkiestra."
+    ru: "Такие похороны сопровождает оркестр."
+    source: { kind: authored }
+  - form: "pogrzebom"
+    pl: "Nie ufaj wystawnym pogrzebom."
+    ru: "Не доверяй пышным похоронам."
+    source: { kind: authored }
+  - form: "pogrzebowi"
+    pl: "Przyjrzyj się temu pogrzebowi."
+    ru: "Присмотрись к этим похоронам."
+    source: { kind: authored }
+  - form: "pogrzebowi"
+    pl: "Pogrzebowi towarzyszyła orkiestra."
+    ru: "Похороны сопровождал оркестр."
+    source: { kind: authored }
+  - form: "pogrzebowi"
+    pl: "Poświęcono pogrzebowi cały rozdział."
+    ru: "Похоронам посвятили целую главу."
+    source: { kind: authored }
   - form: "pogrzebów"
     pl: "Nienawidzę pogrzebów."
     ru: "Я ненавижу похороны."
@@ -105,6 +159,18 @@ formExamples:
   - form: "pogrzebów"
     pl: "Było w tym roku kilka pogrzebów."
     ru: "В этом году было несколько похорон."
+    source: { kind: authored }
+  - form: "pogrzebu"
+    pl: "Do pogrzebu został jeden dzień."
+    ru: "До похорон остался день."
+    source: { kind: authored }
+  - form: "pogrzebu"
+    pl: "Bez pogrzebu nie ma pożegnania."
+    ru: "Без похорон нет прощания."
+    source: { kind: authored }
+  - form: "pogrzebu"
+    pl: "Koszt pogrzebu był wysoki."
+    ru: "Стоимость похорон была высокой."
     source: { kind: authored }
   - form: "pogrzeby"
     pl: "Nasz proboszcz miał w tym tygodniu trzy pogrzeby."
