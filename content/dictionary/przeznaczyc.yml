@@ -51,14 +51,12 @@ idioms:
   - { pl: "przeznaczony dla", ru: "предназначенный для" }
   - { pl: "miejsce przeznaczenia", ru: "место назначения" }
 formExamplesSkip:
-  - { form: "przeznaczą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczenia", reason: "формы существительного przeznaczenie «предназначение, судьба», отдельного слова со своим значением, в статье глагола примеры не приводятся" }
   - { form: "przeznaczenie", reason: "формы существительного przeznaczenie «предназначение, судьба», отдельного слова со своим значением, в статье глагола примеры не приводятся" }
   - { form: "przeznaczeniem", reason: "формы существительного przeznaczenie «предназначение, судьба», отдельного слова со своим значением, в статье глагола примеры не приводятся" }
   - { form: "przeznaczeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeznaczę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczoną", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczonego", reason: "в корпусе нет примеров для этой формы" }
@@ -67,8 +65,6 @@ formExamplesSkip:
   - { form: "przeznaczono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
   - { form: "przeznaczonych", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeznaczy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeznaczycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczyć", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczyliby", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -96,8 +92,6 @@ formExamplesSkip:
   - { form: "przeznaczyłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeznaczyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przeznaczyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "przeznaczymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeznaczysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeznaczywszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "przeznacz"
@@ -111,6 +105,30 @@ formExamples:
   - form: "przeznacz"
     pl: "Przeznacz na to więcej czasu."
     ru: "Выдели на это больше времени."
+    source: { kind: authored }
+  - form: "przeznaczą"
+    pl: "Przeznaczą te pieniądze na remont."
+    ru: "Они выделят эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczą"
+    pl: "Przeznaczą godzinę na naukę."
+    ru: "Они выделят час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczą"
+    pl: "Nie przeznaczą na to ani grosza."
+    ru: "Они не выделят на это ни гроша."
+    source: { kind: authored }
+  - form: "przeznaczę"
+    pl: "Przeznaczę te pieniądze na remont."
+    ru: "Я выделю эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczę"
+    pl: "Przeznaczę godzinę na naukę."
+    ru: "Я выделю час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczę"
+    pl: "Nie przeznaczę na to ani grosza."
+    ru: "Я не выделю на это ни гроша."
     source: { kind: authored }
   - form: "przeznaczona"
     pl: "Sofa przeznaczona jest do salonu."
@@ -159,4 +177,76 @@ formExamples:
   - form: "przeznaczonym"
     pl: "Pracuje w pokoju przeznaczonym na biuro."
     ru: "Он работает в комнате, предназначенной под офис."
+    source: { kind: authored }
+  - form: "przeznaczy"
+    pl: "Przeznaczy te pieniądze na remont."
+    ru: "Он выделит эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczy"
+    pl: "Przeznaczy godzinę na naukę."
+    ru: "Он выделит час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczy"
+    pl: "Nie przeznaczy na to ani grosza."
+    ru: "Он не выделит на это ни гроша."
+    source: { kind: authored }
+  - form: "przeznaczycie"
+    pl: "Przeznaczycie te pieniądze na remont."
+    ru: "Вы выделите эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczycie"
+    pl: "Przeznaczycie godzinę na naukę."
+    ru: "Вы выделите час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczycie"
+    pl: "Nie przeznaczycie na to ani grosza."
+    ru: "Вы не выделите на это ни гроша."
+    source: { kind: authored }
+  - form: "przeznaczymy"
+    pl: "Przeznaczymy te pieniądze na remont."
+    ru: "Мы выделим эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczymy"
+    pl: "Przeznaczymy godzinę na naukę."
+    ru: "Мы выделим час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczymy"
+    pl: "Nie przeznaczymy na to ani grosza."
+    ru: "Мы не выделим на это ни гроша."
+    source: { kind: authored }
+  - form: "przeznaczysz"
+    pl: "Przeznaczysz te pieniądze na remont."
+    ru: "Ты выделишь эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "przeznaczysz"
+    pl: "Przeznaczysz godzinę na naukę."
+    ru: "Ты выделишь час на учёбу."
+    source: { kind: authored }
+  - form: "przeznaczysz"
+    pl: "Nie przeznaczysz na to ani grosza."
+    ru: "Ты не выделишь на это ни гроша."
+    source: { kind: authored }
+  - form: "niech przeznaczy"
+    pl: "Niech przeznaczy te pieniądze na remont."
+    ru: "Пусть выделит эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "niech przeznaczy"
+    pl: "Niech przeznaczy godzinę na naukę."
+    ru: "Пусть выделит час на учёбу."
+    source: { kind: authored }
+  - form: "niech przeznaczy"
+    pl: "Niech przeznaczy, ile uzna za stosowne."
+    ru: "Пусть выделит, сколько сочтёт нужным."
+    source: { kind: authored }
+  - form: "niech przeznaczą"
+    pl: "Niech przeznaczą te pieniądze na remont."
+    ru: "Пусть выделят эти деньги на ремонт."
+    source: { kind: authored }
+  - form: "niech przeznaczą"
+    pl: "Niech przeznaczą godzinę na naukę."
+    ru: "Пусть выделят час на учёбу."
+    source: { kind: authored }
+  - form: "niech przeznaczą"
+    pl: "Niech przeznaczą, ile uznają za stosowne."
+    ru: "Пусть выделят, сколько сочтут нужным."
     source: { kind: authored }
