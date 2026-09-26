@@ -35,6 +35,7 @@ notes:
   - { kind: usage, text: "Само по себе podobnie значит «похоже»: brzmi podobnie «звучит похоже»." }
   - { kind: false-friend, text: "Русское «подобно» книжное, а польское podobnie совершенно обычное, повседневное слово." }
   - { kind: usage, text: "Прилагательное — podobny «похожий»; być podobnym do kogoś «быть похожим на кого-то»." }
+  - { kind: false-friend, text: "Не путайте najpodobniej «более всего похоже» с najprawdopodobniej «вероятнее всего»: второе образовано от другого наречия, prawdopodobnie." }
 collocations:
   - { pl: "podobnie jak", ru: "так же как" }
   - { pl: "brzmi podobnie", ru: "звучит похоже" }
@@ -48,10 +49,19 @@ idioms:
   - { pl: "podobnie jak", ru: "так же как" }
   - { pl: "brzmi podobnie", ru: "звучит похоже" }
   - { pl: "wygląda podobnie", ru: "выглядит похоже" }
-formExamplesSkip:
-  - { form: "najpodobniej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podobniej", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "najpodobniej"
+    pl: "Ten portret wyszedł najpodobniej ze wszystkich."
+    ru: "Этот портрет вышел похожее всех."
+    source: { kind: authored }
+  - form: "najpodobniej"
+    pl: "Najpodobniej oddał twarz ojca."
+    ru: "Он вернее всех передал лицо отца."
+    source: { kind: authored }
+  - form: "najpodobniej"
+    pl: "Kto namaluje najpodobniej, ten wygra."
+    ru: "Кто нарисует похожее всех, тот выиграет."
+    source: { kind: authored }
   - form: "podobnie"
     pl: "Brzmi podobnie."
     ru: "Звучит похоже."
@@ -76,3 +86,15 @@ formExamples:
     pl: "Podobnie wszędzie pełno rozbitego szkła."
     ru: "Так же повсюду полно битого стекла."
     source: { kind: translated, id: 882942 }
+  - form: "podobniej"
+    pl: "Ten portret wyszedł podobniej niż tamten."
+    ru: "Этот портрет вышел похожее того."
+    source: { kind: authored }
+  - form: "podobniej"
+    pl: "Z każdym dniem mówi podobniej do ojca."
+    ru: "С каждым днём он говорит всё больше похоже на отца."
+    source: { kind: authored }
+  - form: "podobniej"
+    pl: "Nie da się namalować podobniej."
+    ru: "Похожее нарисовать невозможно."
+    source: { kind: authored }
