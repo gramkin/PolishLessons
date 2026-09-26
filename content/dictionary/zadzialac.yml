@@ -62,10 +62,8 @@ idioms:
 formExamplesSkip:
   - { form: "zadziałacie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałaj", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zadziałają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałajcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałajmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zadziałali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -74,28 +72,21 @@ formExamplesSkip:
   - { form: "zadziałałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "zadziałałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zadziałałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "zadziałałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zadziałałeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "zadziałały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "zadziałałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "zadziałałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zadziałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziałamy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
   - { form: "zadziałania", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałanie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałaniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałaniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zadziałano", reason: "безличная форма прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zadziałasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zadziaławszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
   - form: "zadziała"
@@ -126,6 +117,30 @@ formExamples:
     pl: "Lek powinien zadziałać w godzinę."
     ru: "Лекарство должно подействовать за час."
     source: { kind: authored }
+  - form: "zadziałają"
+    pl: "Tabletki zadziałają za godzinę."
+    ru: "Таблетки подействуют через час."
+    source: { kind: authored }
+  - form: "zadziałają"
+    pl: "Nowe przepisy zadziałają od stycznia."
+    ru: "Новые правила заработают с января."
+    source: { kind: authored }
+  - form: "zadziałają"
+    pl: "Nie zadziałają bez prądu."
+    ru: "Без электричества они не сработают."
+    source: { kind: authored }
+  - form: "zadziałali"
+    pl: "Zadziałali szybko i skutecznie."
+    ru: "Они действовали быстро и результативно."
+    source: { kind: authored }
+  - form: "zadziałali"
+    pl: "Zadziałali, zanim było za późno."
+    ru: "Они действовали, пока не стало поздно."
+    source: { kind: authored }
+  - form: "zadziałali"
+    pl: "Nie zadziałali na czas."
+    ru: "Они не среагировали вовремя."
+    source: { kind: authored }
   - form: "zadziałał"
     pl: "Lek zadziałał."
     ru: "Лекарство подействовало."
@@ -154,6 +169,54 @@ formExamples:
     pl: "Metoda zadziałała od razu."
     ru: "Метод сработал сразу."
     source: { kind: authored }
+  - form: "zadziałałam"
+    pl: "Zadziałałam szybko."
+    ru: "Я действовала быстро."
+    source: { kind: authored }
+  - form: "zadziałałam"
+    pl: "Zadziałałam, zanim było za późno."
+    ru: "Я действовала, пока не стало поздно."
+    source: { kind: authored }
+  - form: "zadziałałam"
+    pl: "Nie zadziałałam na czas."
+    ru: "Я не среагировала вовремя."
+    source: { kind: authored }
+  - form: "zadziałałaś"
+    pl: "Zadziałałaś szybko."
+    ru: "Ты действовала быстро."
+    source: { kind: authored }
+  - form: "zadziałałaś"
+    pl: "Zadziałałaś, zanim było za późno."
+    ru: "Ты действовала, пока не стало поздно."
+    source: { kind: authored }
+  - form: "zadziałałaś"
+    pl: "Nie zadziałałaś na czas."
+    ru: "Ты не среагировала вовремя."
+    source: { kind: authored }
+  - form: "zadziałałem"
+    pl: "Zadziałałem szybko."
+    ru: "Я действовал быстро."
+    source: { kind: authored }
+  - form: "zadziałałem"
+    pl: "Zadziałałem, zanim było za późno."
+    ru: "Я действовал, пока не стало поздно."
+    source: { kind: authored }
+  - form: "zadziałałem"
+    pl: "Nie zadziałałem na czas."
+    ru: "Я не среагировал вовремя."
+    source: { kind: authored }
+  - form: "zadziałałeś"
+    pl: "Zadziałałeś szybko."
+    ru: "Ты действовал быстро."
+    source: { kind: authored }
+  - form: "zadziałałeś"
+    pl: "Zadziałałeś, zanim było za późno."
+    ru: "Ты действовал, пока не стало поздно."
+    source: { kind: authored }
+  - form: "zadziałałeś"
+    pl: "Nie zadziałałeś na czas."
+    ru: "Ты не среагировал вовремя."
+    source: { kind: authored }
   - form: "zadziałało"
     pl: "Zadziałało!"
     ru: "Сработало!"
@@ -170,3 +233,39 @@ formExamples:
     pl: "Jestem szczęśliwy, że wszystko zadziałało."
     ru: "Я рад, что всё сработало."
     source: { kind: translated, id: 3686945 }
+  - form: "zadziałały"
+    pl: "Tabletki zadziałały od razu."
+    ru: "Таблетки подействовали сразу."
+    source: { kind: authored }
+  - form: "zadziałały"
+    pl: "Nowe przepisy zadziałały od stycznia."
+    ru: "Новые правила заработали с января."
+    source: { kind: authored }
+  - form: "zadziałały"
+    pl: "Hamulce nie zadziałały."
+    ru: "Тормоза не сработали."
+    source: { kind: authored }
+  - form: "zadziałam"
+    pl: "Zadziałam natychmiast."
+    ru: "Я действую немедленно."
+    source: { kind: authored }
+  - form: "zadziałam"
+    pl: "Zadziałam, zanim będzie za późno."
+    ru: "Я приму меры, пока не поздно."
+    source: { kind: authored }
+  - form: "zadziałam"
+    pl: "Nie zadziałam bez twojej zgody."
+    ru: "Без твоего согласия я ничего не предприму."
+    source: { kind: authored }
+  - form: "zadziałasz"
+    pl: "Zadziałasz natychmiast?"
+    ru: "Ты сразу примешь меры?"
+    source: { kind: authored }
+  - form: "zadziałasz"
+    pl: "Zadziałasz, zanim będzie za późno."
+    ru: "Ты примешь меры, пока не поздно."
+    source: { kind: authored }
+  - form: "zadziałasz"
+    pl: "Nie zadziałasz bez zgody."
+    ru: "Без согласия ты ничего не предпримешь."
+    source: { kind: authored }
