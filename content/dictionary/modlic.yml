@@ -45,6 +45,8 @@ notes:
   - { kind: government, text: "Молиться о чём-либо — modlić się o coś с винительным: modlę się o deszcz «молюсь о дожде». Молиться кому-либо — modlić się do kogoś: modlił się do Boga." }
   - { kind: pronunciation, text: "В повелительном наклонении пишется ó: módl się, módlcie się — не modl. Это чередование o и ó в корне." }
   - { kind: usage, text: "Существительное того же корня — modlitwa «молитва»." }
+  - { kind: government, text: "В настоящем времени корень с o — modlę się, modlisz się, modlimy się, — а в повелительном наклонении появляется ó: módl się, módlmy się, módlcie się. Чередование то же, что в mógł и mogła, только в неожиданном месте." }
+  - { kind: usage, text: "Обиходное существительное здесь — modlitwa «молитва»: odmówić modlitwę. Правильная отглагольная форма modlenie возможна, но встречается редко." }
 collocations:
   - { pl: "modlić się do Boga", ru: "молиться Богу" }
   - { pl: "modlić się o coś", ru: "молиться о чём-либо" }
@@ -56,21 +58,14 @@ idioms:
   - { pl: "módl się za mnie", ru: "помолись за меня" }
   - { pl: "módl się i pracuj", ru: "молись и работай" }
 formExamplesSkip:
-  - { form: "modlą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modląc", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modląca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "modlącą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modlące", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modlącemu", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modlący", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modlących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modlącym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "modlącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "modlenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "modlenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "modleniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "modleniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "modlicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modliliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modlilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modlilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -78,22 +73,41 @@ formExamplesSkip:
   - { form: "modliłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "modliłam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modliłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "modliło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modliłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "modliły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modliłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "modliłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "modliłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "modlimy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "modlono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "módlmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "modlą"
+    pl: "Modlą się codziennie."
+    ru: "Они молятся каждый день."
+    source: { kind: authored }
+  - form: "modlą"
+    pl: "Modlą się o zdrowie."
+    ru: "Они молятся о здоровье."
+    source: { kind: authored }
+  - form: "modlą"
+    pl: "Modlą się za nich od lat."
+    ru: "Они молятся за них годами."
+    source: { kind: authored }
+  - form: "modlącą"
+    pl: "Widziałem kobietę modlącą się w kaplicy."
+    ru: "Я видел женщину, молящуюся в часовне."
+    source: { kind: authored }
+  - form: "modlącą"
+    pl: "Poznał staruszkę modlącą się co rano."
+    ru: "Он познакомился со старушкой, молящейся каждое утро."
+    source: { kind: authored }
+  - form: "modlącą"
+    pl: "Zauważyłem postać modlącą się przy ołtarzu."
+    ru: "Я заметил фигуру, молящуюся у алтаря."
+    source: { kind: authored }
   - form: "modlącego"
     pl: "Funkcja modlitwy to nie wpłynięcie na Boga, a raczej zmiana natury modlącego się."
     ru: "Задача молитвы не в том, чтобы повлиять на Бога, а скорее в том, чтобы изменить природу молящегося."
@@ -118,6 +132,54 @@ formExamples:
     pl: "Nie przeszkadzaj modlącej się matce."
     ru: "Не мешай молящейся матери."
     source: { kind: authored }
+  - form: "modlenia"
+    pl: "Od modlenia się na głos wolała ciszę."
+    ru: "Молитве вслух она предпочитала тишину."
+    source: { kind: authored }
+  - form: "modlenia"
+    pl: "Nie ma tu zwyczaju modlenia się przed jedzeniem."
+    ru: "Здесь нет обычая молиться перед едой."
+    source: { kind: authored }
+  - form: "modlenia"
+    pl: "Czas modlenia wyznacza dzwon."
+    ru: "Время молитвы назначает колокол."
+    source: { kind: authored }
+  - form: "modlenie"
+    pl: "Modlenie się na głos nie jest tu zwyczajem."
+    ru: "Молиться вслух здесь не принято."
+    source: { kind: authored }
+  - form: "modlenie"
+    pl: "Modlenie przychodziło jej łatwo."
+    ru: "Молитва давалась ей легко."
+    source: { kind: authored }
+  - form: "modlenie"
+    pl: "Modlenie w ciszy trwało godzinę."
+    ru: "Молитва в тишине длилась час."
+    source: { kind: authored }
+  - form: "modleniem"
+    pl: "Zaczynał dzień modleniem."
+    ru: "Он начинал день молитвой."
+    source: { kind: authored }
+  - form: "modleniem"
+    pl: "Między śpiewem a modleniem jest różnica."
+    ru: "Между пением и молитвой есть разница."
+    source: { kind: authored }
+  - form: "modleniem"
+    pl: "Zmęczył się długim modleniem."
+    ru: "Он устал от долгой молитвы."
+    source: { kind: authored }
+  - form: "modleniu"
+    pl: "W modleniu szukał spokoju."
+    ru: "В молитве он искал покоя."
+    source: { kind: authored }
+  - form: "modleniu"
+    pl: "O modleniu się w pracy nikt tu nie mówi."
+    ru: "О молитве на работе здесь никто не говорит."
+    source: { kind: authored }
+  - form: "modleniu"
+    pl: "Po modleniu wrócili do stołu."
+    ru: "После молитвы они вернулись к столу."
+    source: { kind: authored }
   - form: "modlę"
     pl: "Modlę się."
     ru: "Я молюсь."
@@ -141,6 +203,18 @@ formExamples:
   - form: "modli"
     pl: "Babcia modli się każdego wieczoru."
     ru: "Бабушка молится каждый вечер."
+    source: { kind: authored }
+  - form: "modlicie"
+    pl: "Modlicie się codziennie?"
+    ru: "Вы молитесь каждый день?"
+    source: { kind: authored }
+  - form: "modlicie"
+    pl: "O co się modlicie?"
+    ru: "О чём вы молитесь?"
+    source: { kind: authored }
+  - form: "modlicie"
+    pl: "Modlicie się za nich od lat."
+    ru: "Вы молитесь за них годами."
     source: { kind: authored }
   - form: "modlić"
     pl: "Mogę cię nauczyć się modlić."
@@ -202,6 +276,18 @@ formExamples:
     pl: "Modliła się przy świecy."
     ru: "Она молилась при свече."
     source: { kind: authored }
+  - form: "modliłam"
+    pl: "Modliłam się codziennie."
+    ru: "Я молилась каждый день."
+    source: { kind: authored }
+  - form: "modliłam"
+    pl: "Modliłam się o zdrowie."
+    ru: "Я молилась о здоровье."
+    source: { kind: authored }
+  - form: "modliłam"
+    pl: "Modliłam się za nich od lat."
+    ru: "Я молилась за них годами."
+    source: { kind: authored }
   - form: "modliłaś"
     pl: "Modliłaś się o to."
     ru: "Ты молилась об этом."
@@ -237,6 +323,42 @@ formExamples:
   - form: "modliłeś"
     pl: "Modliłeś się za ojca."
     ru: "Ты молился за отца."
+    source: { kind: authored }
+  - form: "modliło"
+    pl: "Dziecko modliło się przed snem."
+    ru: "Ребёнок молился перед сном."
+    source: { kind: authored }
+  - form: "modliło"
+    pl: "Całe miasto modliło się o deszcz."
+    ru: "Весь город молился о дожде."
+    source: { kind: authored }
+  - form: "modliło"
+    pl: "Zgromadzenie modliło się w ciszy."
+    ru: "Собрание молилось в тишине."
+    source: { kind: authored }
+  - form: "modliły"
+    pl: "Dzieci modliły się przed snem."
+    ru: "Дети молились перед сном."
+    source: { kind: authored }
+  - form: "modliły"
+    pl: "Kobiety modliły się o deszcz."
+    ru: "Женщины молились о дожде."
+    source: { kind: authored }
+  - form: "modliły"
+    pl: "Modliły się w ciszy."
+    ru: "Они молились в тишине."
+    source: { kind: authored }
+  - form: "modlimy"
+    pl: "Modlimy się codziennie."
+    ru: "Мы молимся каждый день."
+    source: { kind: authored }
+  - form: "modlimy"
+    pl: "Modlimy się o zdrowie."
+    ru: "Мы молимся о здоровье."
+    source: { kind: authored }
+  - form: "modlimy"
+    pl: "Modlimy się za nich od lat."
+    ru: "Мы молимся за них годами."
     source: { kind: authored }
   - form: "modlisz"
     pl: "Kiedy się modlisz?"
@@ -277,4 +399,16 @@ formExamples:
   - form: "módlcie"
     pl: "Módlcie się w ciszy."
     ru: "Молитесь в тишине."
+    source: { kind: authored }
+  - form: "módlmy"
+    pl: "Módlmy się o zdrowie."
+    ru: "Помолимся о здоровье."
+    source: { kind: authored }
+  - form: "módlmy"
+    pl: "Módlmy się za nich."
+    ru: "Помолимся за них."
+    source: { kind: authored }
+  - form: "módlmy"
+    pl: "Módlmy się w ciszy."
+    ru: "Помолимся в тишине."
     source: { kind: authored }
