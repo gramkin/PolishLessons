@@ -47,26 +47,18 @@ idioms:
   - { pl: "sugeruję, żeby", ru: "предлагаю, чтобы" }
   - { pl: "cisza sugeruje zgodę", ru: "молчание — знак согласия" }
 formExamplesSkip:
-  - { form: "sugerowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sugerowaliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowalibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowalibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "sugerowaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "sugerowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sugerowałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "sugerowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "sugerowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sugerowałby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "sugerowałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "sugerowałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "sugerowało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sugerowałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "sugerowały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "sugerowałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "sugerowałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -117,6 +109,18 @@ formExamples:
     pl: "Nie chcę niczego sugerować."
     ru: "Я не хочу ни на что намекать."
     source: { kind: authored }
+  - form: "sugerowali"
+    pl: "Sugerowali inne rozwiązanie."
+    ru: "Они предлагали другое решение."
+    source: { kind: authored }
+  - form: "sugerowali"
+    pl: "Sugerowali, że to pomyłka."
+    ru: "Они намекали, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowali"
+    pl: "Niczego nie sugerowali."
+    ru: "Они ни на что не намекали."
+    source: { kind: authored }
   - form: "sugerował"
     pl: "Powinniśmy spróbować tego, co Tom sugerował."
     ru: "Нам следует попробовать то, что предлагал Том."
@@ -128,6 +132,90 @@ formExamples:
   - form: "sugerował"
     pl: "Nikt nie sugerował takiego rozwiązania."
     ru: "Никто не предлагал такого решения."
+    source: { kind: authored }
+  - form: "sugerowała"
+    pl: "Sugerowała inne rozwiązanie."
+    ru: "Она предлагала другое решение."
+    source: { kind: authored }
+  - form: "sugerowała"
+    pl: "Sugerowała, że to pomyłka."
+    ru: "Она намекала, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowała"
+    pl: "Niczego nie sugerowała."
+    ru: "Она ни на что не намекала."
+    source: { kind: authored }
+  - form: "sugerowałam"
+    pl: "Sugerowałam inne rozwiązanie."
+    ru: "Я предлагала другое решение."
+    source: { kind: authored }
+  - form: "sugerowałam"
+    pl: "Sugerowałam, że to pomyłka."
+    ru: "Я намекала, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowałam"
+    pl: "Niczego nie sugerowałam."
+    ru: "Я ни на что не намекала."
+    source: { kind: authored }
+  - form: "sugerowałaś"
+    pl: "Sugerowałaś inne rozwiązanie."
+    ru: "Ты предлагала другое решение."
+    source: { kind: authored }
+  - form: "sugerowałaś"
+    pl: "Sugerowałaś, że to pomyłka."
+    ru: "Ты намекала, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowałaś"
+    pl: "Niczego nie sugerowałaś."
+    ru: "Ты ни на что не намекала."
+    source: { kind: authored }
+  - form: "sugerowałem"
+    pl: "Sugerowałem inne rozwiązanie."
+    ru: "Я предлагал другое решение."
+    source: { kind: authored }
+  - form: "sugerowałem"
+    pl: "Sugerowałem, że to pomyłka."
+    ru: "Я намекал, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowałem"
+    pl: "Niczego nie sugerowałem."
+    ru: "Я ни на что не намекал."
+    source: { kind: authored }
+  - form: "sugerowałeś"
+    pl: "Sugerowałeś inne rozwiązanie."
+    ru: "Ты предлагал другое решение."
+    source: { kind: authored }
+  - form: "sugerowałeś"
+    pl: "Sugerowałeś, że to pomyłka."
+    ru: "Ты намекал, что это ошибка."
+    source: { kind: authored }
+  - form: "sugerowałeś"
+    pl: "Niczego nie sugerowałeś."
+    ru: "Ты ни на что не намекал."
+    source: { kind: authored }
+  - form: "sugerowało"
+    pl: "Wiele osób sugerowało inne rozwiązanie."
+    ru: "Многие предлагали другое решение."
+    source: { kind: authored }
+  - form: "sugerowało"
+    pl: "Nic nie sugerowało kłopotów."
+    ru: "Ничто не предвещало неприятностей."
+    source: { kind: authored }
+  - form: "sugerowało"
+    pl: "Zachowanie sugerowało coś innego."
+    ru: "Поведение наводило на другую мысль."
+    source: { kind: authored }
+  - form: "sugerowały"
+    pl: "Wyniki sugerowały błąd."
+    ru: "Результаты наводили на мысль об ошибке."
+    source: { kind: authored }
+  - form: "sugerowały"
+    pl: "Kobiety sugerowały inne rozwiązanie."
+    ru: "Женщины предлагали другое решение."
+    source: { kind: authored }
+  - form: "sugerowały"
+    pl: "Objawy sugerowały grypę."
+    ru: "Симптомы наводили на мысль о гриппе."
     source: { kind: authored }
   - form: "sugerują"
     pl: "Co sugerują jego słowa?"
