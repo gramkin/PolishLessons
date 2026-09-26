@@ -51,28 +51,11 @@ idioms:
   - { pl: "jestem wkurzony", ru: "я злой" }
   - { pl: "wkurzony do granic", ru: "злой до предела" }
 formExamplesSkip:
-  - { form: "wkurz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzeni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzenia", reason: "формы отглагольного существительного wkurzenie «раздражение», в статье глагола примеры не приводятся" }
   - { form: "wkurzenie", reason: "формы отглагольного существительного wkurzenie «раздражение», в статье глагола примеры не приводятся" }
   - { form: "wkurzeniem", reason: "формы отглагольного существительного wkurzenie «раздражение», в статье глагола примеры не приводятся" }
   - { form: "wkurzeniu", reason: "формы отглагольного существительного wkurzenie «раздражение», в статье глагола примеры не приводятся" }
-  - { form: "wkurzę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzonemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "wkurzonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzyć", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzyliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzylibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzylibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -81,23 +64,88 @@ formExamplesSkip:
   - { form: "wkurzyłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "wkurzyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzyłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "wkurzyłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzyłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "wkurzyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wkurzyłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "wkurzyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "wkurzyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "wkurzymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzysz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wkurzywszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "wkurz"
+    pl: "Nie wkurz go przed rozmową."
+    ru: "Не зли его перед разговором."
+    source: { kind: authored }
+  - form: "wkurz"
+    pl: "Nie wkurz się, to tylko żart."
+    ru: "Не злись, это просто шутка."
+    source: { kind: authored }
+  - form: "wkurz"
+    pl: "Wkurz ich, a nic nie wskórasz."
+    ru: "Разозлишь их — ничего не добьёшься."
+    source: { kind: authored }
+  - form: "wkurzą"
+    pl: "Wkurzą go tym pytaniem."
+    ru: "Они разозлят его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzą"
+    pl: "Wkurzą się, jeśli znowu się spóźni."
+    ru: "Они разозлятся, если он опять опоздает."
+    source: { kind: authored }
+  - form: "wkurzą"
+    pl: "Nikogo nie wkurzą."
+    ru: "Они никого не разозлят."
+    source: { kind: authored }
+  - form: "wkurzcie"
+    pl: "Nie wkurzcie go przed rozmową."
+    ru: "Не злите его перед разговором."
+    source: { kind: authored }
+  - form: "wkurzcie"
+    pl: "Nie wkurzcie się, to tylko żart."
+    ru: "Не злитесь, это просто шутка."
+    source: { kind: authored }
+  - form: "wkurzcie"
+    pl: "Nie wkurzcie nikogo przypadkiem."
+    ru: "Не разозлите никого случайно."
+    source: { kind: authored }
+  - form: "wkurzeni"
+    pl: "Wkurzeni kibice opuścili stadion."
+    ru: "Разозлённые болельщики покинули стадион."
+    source: { kind: authored }
+  - form: "wkurzeni"
+    pl: "Byli wkurzeni decyzją zarządu."
+    ru: "Они были злы на решение правления."
+    source: { kind: authored }
+  - form: "wkurzeni"
+    pl: "Wkurzeni sąsiedzi napisali skargę."
+    ru: "Разозлённые соседи написали жалобу."
+    source: { kind: authored }
+  - form: "wkurzę"
+    pl: "Wkurzę go tym pytaniem."
+    ru: "Я разозлю его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzę"
+    pl: "Wkurzę się, jeśli znowu się spóźni."
+    ru: "Я разозлюсь, если он опять опоздает."
+    source: { kind: authored }
+  - form: "wkurzę"
+    pl: "Nikogo nie wkurzę."
+    ru: "Я никого не разозлю."
+    source: { kind: authored }
+  - form: "wkurzmy"
+    pl: "Nie wkurzmy go przed rozmową."
+    ru: "Не будем злить его перед разговором."
+    source: { kind: authored }
+  - form: "wkurzmy"
+    pl: "Nie wkurzmy się o drobiazg."
+    ru: "Не будем злиться из-за пустяка."
+    source: { kind: authored }
+  - form: "wkurzmy"
+    pl: "Nie wkurzmy nikogo przypadkiem."
+    ru: "Не разозлим никого случайно."
+    source: { kind: authored }
   - form: "wkurzona"
     pl: "Jest mocno wkurzona."
     ru: "Она сильно разозлена."
@@ -110,6 +158,66 @@ formExamples:
     pl: "Moja matka musi być wkurzona."
     ru: "Моя мама, должно быть, злится."
     source: { kind: translated, id: 6554265 }
+  - form: "wkurzoną"
+    pl: "Zastał matkę wkurzoną telefonem."
+    ru: "Он застал мать, разозлённую звонком."
+    source: { kind: authored }
+  - form: "wkurzoną"
+    pl: "Uznali ją za wkurzoną bez powodu."
+    ru: "Её сочли разозлённой без причины."
+    source: { kind: authored }
+  - form: "wkurzoną"
+    pl: "Widziałem ją wkurzoną po zebraniu."
+    ru: "Я видел её злой после собрания."
+    source: { kind: authored }
+  - form: "wkurzone"
+    pl: "Wkurzone dzieci nie chciały słuchać."
+    ru: "Разозлённые дети не хотели слушать."
+    source: { kind: authored }
+  - form: "wkurzone"
+    pl: "Wkurzone głosy niosły się po korytarzu."
+    ru: "Злые голоса разносились по коридору."
+    source: { kind: authored }
+  - form: "wkurzone"
+    pl: "Konie były wkurzone upałem."
+    ru: "Кони были взвинчены жарой."
+    source: { kind: authored }
+  - form: "wkurzonego"
+    pl: "Nie zaczepiaj wkurzonego szefa."
+    ru: "Не задевай разозлённого начальника."
+    source: { kind: authored }
+  - form: "wkurzonego"
+    pl: "Nie ma tu nikogo wkurzonego."
+    ru: "Здесь нет никого разозлённого."
+    source: { kind: authored }
+  - form: "wkurzonego"
+    pl: "Unikaj wkurzonego sąsiada."
+    ru: "Избегай разозлённого соседа."
+    source: { kind: authored }
+  - form: "wkurzonej"
+    pl: "Nie przerywaj wkurzonej koleżance."
+    ru: "Не перебивай разозлённую коллегу."
+    source: { kind: authored }
+  - form: "wkurzonej"
+    pl: "Nie ma tu wkurzonej publiczności."
+    ru: "Разозлённой публики тут нет."
+    source: { kind: authored }
+  - form: "wkurzonej"
+    pl: "Głos wkurzonej kobiety niósł się daleko."
+    ru: "Голос разозлённой женщины разносился далеко."
+    source: { kind: authored }
+  - form: "wkurzonemu"
+    pl: "Nie tłumacz niczego wkurzonemu człowiekowi."
+    ru: "Разозлённому человеку ничего не объясняй."
+    source: { kind: authored }
+  - form: "wkurzonemu"
+    pl: "Daj wkurzonemu koledze ochłonąć."
+    ru: "Дай разозлённому приятелю остыть."
+    source: { kind: authored }
+  - form: "wkurzonemu"
+    pl: "Przyjrzyj się temu wkurzonemu tłumowi."
+    ru: "Присмотрись к этой разозлённой толпе."
+    source: { kind: authored }
   - form: "wkurzony"
     pl: "Jestem wkurzony."
     ru: "Я злой."
@@ -122,6 +230,42 @@ formExamples:
     pl: "Czemu Tom jest taki wkurzony?"
     ru: "Почему Том такой злой?"
     source: { kind: translated, id: 4151825 }
+  - form: "wkurzonych"
+    pl: "Nie ma tu wkurzonych."
+    ru: "Разозлённых тут нет."
+    source: { kind: authored }
+  - form: "wkurzonych"
+    pl: "Wśród wkurzonych klientów byli stali bywalcy."
+    ru: "Среди разозлённых клиентов были постоянные."
+    source: { kind: authored }
+  - form: "wkurzonych"
+    pl: "Z wkurzonych sąsiadów zrobił się komitet."
+    ru: "Из разозлённых соседей образовался комитет."
+    source: { kind: authored }
+  - form: "wkurzonym"
+    pl: "Powiedział to wkurzonym tonem."
+    ru: "Он сказал это злым тоном."
+    source: { kind: authored }
+  - form: "wkurzonym"
+    pl: "Pomógł wkurzonym sąsiadom się dogadać."
+    ru: "Он помог разозлённым соседям договориться."
+    source: { kind: authored }
+  - form: "wkurzonym"
+    pl: "W wkurzonym tłumie trudno o rozsądek."
+    ru: "В разозлённой толпе трудно с рассудком."
+    source: { kind: authored }
+  - form: "wkurzonymi"
+    pl: "Rozmawiał z wkurzonymi klientami."
+    ru: "Он говорил с разозлёнными клиентами."
+    source: { kind: authored }
+  - form: "wkurzonymi"
+    pl: "Między wkurzonymi a spokojnymi widzami była przepaść."
+    ru: "Между разозлёнными и спокойными зрителями была пропасть."
+    source: { kind: authored }
+  - form: "wkurzonymi"
+    pl: "Zajął się wkurzonymi pasażerami."
+    ru: "Он занялся разозлёнными пассажирами."
+    source: { kind: authored }
   - form: "wkurzy"
     pl: "Najpewniej bardzo się wkurzy."
     ru: "Он наверняка очень разозлится."
@@ -134,6 +278,42 @@ formExamples:
     pl: "Tom myślał, że Mary się na niego nie wkurzy."
     ru: "Том думал, что Мэри на него не разозлится."
     source: { kind: translated, id: 10768354 }
+  - form: "wkurzycie"
+    pl: "Wkurzycie go tym pytaniem."
+    ru: "Вы разозлите его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzycie"
+    pl: "Wkurzycie się, jeśli znowu się spóźni."
+    ru: "Вы разозлитесь, если он опять опоздает."
+    source: { kind: authored }
+  - form: "wkurzycie"
+    pl: "Nikogo nie wkurzycie."
+    ru: "Вы никого не разозлите."
+    source: { kind: authored }
+  - form: "wkurzyć"
+    pl: "Łatwo go wkurzyć."
+    ru: "Его легко разозлить."
+    source: { kind: authored }
+  - form: "wkurzyć"
+    pl: "Nie chcę nikogo wkurzyć."
+    ru: "Я не хочу никого злить."
+    source: { kind: authored }
+  - form: "wkurzyć"
+    pl: "Taka odpowiedź potrafi wkurzyć."
+    ru: "Такой ответ умеет выбесить."
+    source: { kind: authored }
+  - form: "wkurzyli"
+    pl: "Wkurzyli go tym pytaniem."
+    ru: "Они разозлили его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzyli"
+    pl: "Wkurzyli się na cały świat."
+    ru: "Они разозлились на весь свет."
+    source: { kind: authored }
+  - form: "wkurzyli"
+    pl: "Nikogo nie wkurzyli."
+    ru: "Они никого не разозлили."
+    source: { kind: authored }
   - form: "wkurzył"
     pl: "Wkurzył się."
     ru: "Он разозлился."
@@ -158,6 +338,30 @@ formExamples:
     pl: "Wkurzyła się i odłożyła słuchawkę."
     ru: "Она разозлилась и положила трубку."
     source: { kind: translated, id: 410294 }
+  - form: "wkurzyłam"
+    pl: "Wkurzyłam go tym pytaniem."
+    ru: "Я разозлила его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzyłam"
+    pl: "Wkurzyłam się na siebie."
+    ru: "Я разозлилась на себя."
+    source: { kind: authored }
+  - form: "wkurzyłam"
+    pl: "Nikogo nie wkurzyłam."
+    ru: "Я никого не разозлила."
+    source: { kind: authored }
+  - form: "wkurzyłaś"
+    pl: "Wkurzyłaś go tym pytaniem."
+    ru: "Ты разозлила его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzyłaś"
+    pl: "Wkurzyłaś się na siebie."
+    ru: "Ты разозлилась на себя."
+    source: { kind: authored }
+  - form: "wkurzyłaś"
+    pl: "Nikogo nie wkurzyłaś."
+    ru: "Ты никого не разозлила."
+    source: { kind: authored }
   - form: "wkurzyłem"
     pl: "Teraz to na serio się wkurzyłem!"
     ru: "Вот теперь я серьёзно разозлился!"
@@ -169,6 +373,18 @@ formExamples:
   - form: "wkurzyłem"
     pl: "Chyba go wkurzyłem."
     ru: "Кажется, я его разозлил."
+    source: { kind: authored }
+  - form: "wkurzyłeś"
+    pl: "Wkurzyłeś go tym pytaniem."
+    ru: "Ты разозлил его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzyłeś"
+    pl: "Wkurzyłeś się na siebie."
+    ru: "Ты разозлился на себя."
+    source: { kind: authored }
+  - form: "wkurzyłeś"
+    pl: "Nikogo nie wkurzyłeś."
+    ru: "Ты никого не разозлил."
     source: { kind: authored }
   - form: "wkurzyło"
     pl: "Coś wkurzyło Toma."
@@ -182,3 +398,51 @@ formExamples:
     pl: "Udał Greka, co mnie jeszcze bardziej wkurzyło."
     ru: "Он прикинулся дурачком, что разозлило меня ещё больше."
     source: { kind: translated, id: 356006 }
+  - form: "wkurzyły"
+    pl: "Te pytania wkurzyły całą salę."
+    ru: "Эти вопросы разозлили весь зал."
+    source: { kind: authored }
+  - form: "wkurzyły"
+    pl: "Kobiety wkurzyły się na organizatorów."
+    ru: "Женщины разозлились на организаторов."
+    source: { kind: authored }
+  - form: "wkurzyły"
+    pl: "Nikogo nie wkurzyły."
+    ru: "Они никого не разозлили."
+    source: { kind: authored }
+  - form: "wkurzymy"
+    pl: "Wkurzymy go tym pytaniem."
+    ru: "Мы разозлим его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzymy"
+    pl: "Wkurzymy się, jeśli znowu się spóźni."
+    ru: "Мы разозлимся, если он опять опоздает."
+    source: { kind: authored }
+  - form: "wkurzymy"
+    pl: "Nikogo nie wkurzymy."
+    ru: "Мы никого не разозлим."
+    source: { kind: authored }
+  - form: "wkurzysz"
+    pl: "Wkurzysz go tym pytaniem."
+    ru: "Ты разозлишь его этим вопросом."
+    source: { kind: authored }
+  - form: "wkurzysz"
+    pl: "Wkurzysz się, jeśli znowu się spóźni."
+    ru: "Ты разозлишься, если он опять опоздает."
+    source: { kind: authored }
+  - form: "wkurzysz"
+    pl: "Nikogo nie wkurzysz."
+    ru: "Ты никого не разозлишь."
+    source: { kind: authored }
+  - form: "wkurzywszy"
+    pl: "Wkurzywszy szefa, wyszedł bez słowa."
+    ru: "Разозлив начальника, он вышел молча."
+    source: { kind: authored }
+  - form: "wkurzywszy"
+    pl: "Wkurzywszy się, trzasnął drzwiami."
+    ru: "Разозлившись, он хлопнул дверью."
+    source: { kind: authored }
+  - form: "wkurzywszy"
+    pl: "Wkurzywszy wszystkich, przeprosił dopiero rano."
+    ru: "Разозлив всех, он извинился только утром."
+    source: { kind: authored }
