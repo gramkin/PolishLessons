@@ -31,6 +31,7 @@ senses:
         ru: "Я заплатил за покупку наличными."
         source: { kind: tatoeba, id: 356991 }
 notes:
+  - { kind: usage, text: "Обычно слово употребляется только в единственном: gotówka «наличные». Множественное gotówki живёт в бухгалтерском и обменном обиходе — когда речь о нескольких кассах или нескольких валютах сразу; примеры даны именно там." }
   - { kind: government, text: "«Платить наличными» — płacić gotówką, творительный падеж: по-русски тоже творительный, конструкции совпадают." }
   - { kind: usage, text: "«В наличных» — w gotówce: siedem dolarów w gotówce «семь долларов наличными»." }
   - { kind: usage, text: "Слово образовано от gotowy «готовый» — буквально «готовые деньги», то есть доступные сразу. Русское «наличные» построено от «налицо»." }
@@ -46,11 +47,7 @@ idioms:
   - { pl: "w gotówce", ru: "наличными" }
   - { pl: "brak gotówki", ru: "нехватка наличных" }
 formExamplesSkip:
-  - { form: "gotówek", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "gotówkach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "gotówkami", reason: "в корпусе нет примеров для этой формы" }
   - { form: "gotówko", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "gotówkom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "gotówce"
     pl: "Sami miała siedem dolarów w gotówce."
@@ -64,6 +61,18 @@ formExamples:
     pl: "Mam sto złotych w gotówce."
     ru: "У меня сто злотых наличными."
     source: { kind: authored }
+  - form: "gotówek"
+    pl: "Kantor obsługuje kilka gotówek naraz."
+    ru: "Обменник работает с несколькими валютами наличными сразу."
+    source: { kind: authored }
+  - form: "gotówek"
+    pl: "W raporcie rozliczono kilka gotówek z różnych kas."
+    ru: "В отчёте свели наличность из нескольких касс."
+    source: { kind: authored }
+  - form: "gotówek"
+    pl: "Nie ma tam żadnych gotówek do przeliczenia."
+    ru: "Никакой наличности для пересчёта там нет."
+    source: { kind: authored }
   - form: "gotówka"
     pl: "Gotówka czy karta?"
     ru: "Наличные или карта?"
@@ -75,6 +84,30 @@ formExamples:
   - form: "gotówka"
     pl: "Gotówka jest tu mile widziana."
     ru: "Наличные здесь приветствуются."
+    source: { kind: authored }
+  - form: "gotówkach"
+    pl: "W tych gotówkach łatwo się pomylić."
+    ru: "В этих суммах наличными легко ошибиться."
+    source: { kind: authored }
+  - form: "gotówkach"
+    pl: "O gotówkach w kasach mówi audyt."
+    ru: "О наличности в кассах говорит аудит."
+    source: { kind: authored }
+  - form: "gotówkach"
+    pl: "W gotówkach z różnych walut jest bałagan."
+    ru: "В наличности из разных валют бардак."
+    source: { kind: authored }
+  - form: "gotówkami"
+    pl: "Kasjer obraca różnymi gotówkami."
+    ru: "Кассир работает с разной наличностью."
+    source: { kind: authored }
+  - form: "gotówkami"
+    pl: "Między gotówkami a przelewami jest różnica."
+    ru: "Между наличными и переводами есть разница."
+    source: { kind: authored }
+  - form: "gotówkami"
+    pl: "Zajmuje się gotówkami w oddziałach."
+    ru: "Он занимается наличностью в отделениях."
     source: { kind: authored }
   - form: "gotówką"
     pl: "Płacę gotówką."
@@ -112,3 +145,15 @@ formExamples:
     pl: "Tom nie potrzebował gotówki."
     ru: "Тому не нужны были наличные."
     source: { kind: tatoeba, id: 10586438 }
+  - form: "gotówkom"
+    pl: "Przyjrzyj się tym gotówkom w raporcie."
+    ru: "Присмотрись к этой наличности в отчёте."
+    source: { kind: authored }
+  - form: "gotówkom"
+    pl: "Dzięki gotówkom w kasie firma przetrwała."
+    ru: "Благодаря наличности в кассе фирма выжила."
+    source: { kind: authored }
+  - form: "gotówkom"
+    pl: "Nie ufaj nieprzeliczonym gotówkom."
+    ru: "Не доверяй непересчитанной наличности."
+    source: { kind: authored }

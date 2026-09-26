@@ -46,11 +46,20 @@ idioms:
   - { pl: "to pomyłka", ru: "это ошибка" }
   - { pl: "popełnić pomyłkę", ru: "совершить ошибку" }
 formExamplesSkip:
-  - { form: "pomyłce", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pomyłkach", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pomyłko", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "pomyłkom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "pomyłce"
+    pl: "W tej pomyłce nie ma niczyjej winy."
+    ru: "В этой ошибке нет ничьей вины."
+    source: { kind: authored }
+  - form: "pomyłce"
+    pl: "O tej pomyłce mówi cała redakcja."
+    ru: "Об этой ошибке говорит вся редакция."
+    source: { kind: authored }
+  - form: "pomyłce"
+    pl: "Zawdzięczamy to pomyłce drukarza."
+    ru: "Этим мы обязаны ошибке наборщика."
+    source: { kind: authored }
   - form: "pomyłek"
     pl: "Nie należy bać się pomyłek."
     ru: "Не надо бояться ошибок."
@@ -75,6 +84,18 @@ formExamples:
     pl: "Przykro mi, to pomyłka."
     ru: "Мне жаль, это ошибка."
     source: { kind: translated, id: 7166460 }
+  - form: "pomyłkach"
+    pl: "O tych pomyłkach mówi sprostowanie."
+    ru: "Об этих ошибках говорит опровержение."
+    source: { kind: authored }
+  - form: "pomyłkach"
+    pl: "W tych pomyłkach jest system."
+    ru: "В этих ошибках есть система."
+    source: { kind: authored }
+  - form: "pomyłkach"
+    pl: "Na pomyłkach się uczymy."
+    ru: "На ошибках мы учимся."
+    source: { kind: authored }
   - form: "pomyłkami"
     pl: "Czasem polityczne konieczności okazują się być politycznymi pomyłkami."
     ru: "Иногда политическая необходимость оказывается политической ошибкой."
@@ -123,3 +144,15 @@ formExamples:
     pl: "Byłem speszony, kiedy moje pomyłki zostały wypunktowane."
     ru: "Я смутился, когда мои ошибки перечислили."
     source: { kind: translated, id: 1002665 }
+  - form: "pomyłkom"
+    pl: "Przyjrzyj się tym pomyłkom."
+    ru: "Присмотрись к этим ошибкам."
+    source: { kind: authored }
+  - form: "pomyłkom"
+    pl: "Dzięki takim pomyłkom uczymy się szybciej."
+    ru: "Благодаря таким ошибкам мы учимся быстрее."
+    source: { kind: authored }
+  - form: "pomyłkom"
+    pl: "Nie daj pomyłkom się powtórzyć."
+    ru: "Не дай ошибкам повториться."
+    source: { kind: authored }
