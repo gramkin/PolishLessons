@@ -60,13 +60,10 @@ idioms:
   - { pl: "na zamówienie", ru: "на заказ" }
 formExamplesSkip:
   - { form: "zamówcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zamówią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zamówieni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "zamówieniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "zamówieniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówiliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówilibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówilibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -74,13 +71,10 @@ formExamplesSkip:
   - { form: "zamówiłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówiłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówiłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zamówiłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "zamówiłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -112,6 +106,30 @@ formExamples:
   - form: "zamów"
     pl: "Zamów nam stolik na ósmą."
     ru: "Закажи нам столик на восемь."
+    source: { kind: authored }
+  - form: "zamówi"
+    pl: "Zamówi taksówkę."
+    ru: "Он закажет такси."
+    source: { kind: authored }
+  - form: "zamówi"
+    pl: "Zamówi kawę i ciastko."
+    ru: "Он закажет кофе и пирожное."
+    source: { kind: authored }
+  - form: "zamówi"
+    pl: "Nic nie zamówi bez ciebie."
+    ru: "Без тебя он ничего не закажет."
+    source: { kind: authored }
+  - form: "zamówią"
+    pl: "Zamówią taksówkę."
+    ru: "Они закажут такси."
+    source: { kind: authored }
+  - form: "zamówią"
+    pl: "Zamówią kawę i ciastko."
+    ru: "Они закажут кофе и пирожное."
+    source: { kind: authored }
+  - form: "zamówią"
+    pl: "Nic nie zamówią bez ciebie."
+    ru: "Без тебя они ничего не закажут."
     source: { kind: authored }
   - form: "zamówić"
     pl: "Proszę zamówić."
@@ -173,6 +191,18 @@ formExamples:
     pl: "Masz rację. Zamówię taksówkę."
     ru: "Ты прав. Я закажу такси."
     source: { kind: translated, id: 1086535 }
+  - form: "zamówili"
+    pl: "Zamówili taksówkę."
+    ru: "Они заказали такси."
+    source: { kind: authored }
+  - form: "zamówili"
+    pl: "Zamówili kawę i ciastko."
+    ru: "Они заказали кофе и пирожное."
+    source: { kind: authored }
+  - form: "zamówili"
+    pl: "Nic nie zamówili."
+    ru: "Они ничего не заказали."
+    source: { kind: authored }
   - form: "zamówiliśmy"
     pl: "Nie zamówiliśmy tego."
     ru: "Мы этого не заказывали."
@@ -225,6 +255,18 @@ formExamples:
     pl: "Zamówiłam książkę z Australii."
     ru: "Я заказала книгу из Австралии."
     source: { kind: translated, id: 10465025 }
+  - form: "zamówiłaś"
+    pl: "Zamówiłaś taksówkę?"
+    ru: "Ты заказала такси?"
+    source: { kind: authored }
+  - form: "zamówiłaś"
+    pl: "Zamówiłaś kawę i ciastko."
+    ru: "Ты заказала кофе и пирожное."
+    source: { kind: authored }
+  - form: "zamówiłaś"
+    pl: "Nic nie zamówiłaś."
+    ru: "Ты ничего не заказала."
+    source: { kind: authored }
   - form: "zamówiłem"
     pl: "Zamówiłem piwo."
     ru: "Я заказал пиво."
@@ -252,6 +294,30 @@ formExamples:
   - form: "zamówiłeś"
     pl: "Co zamówiłeś na deser?"
     ru: "Что ты заказал на десерт?"
+    source: { kind: authored }
+  - form: "zamówiło"
+    pl: "Wiele osób zamówiło ten model."
+    ru: "Многие заказали эту модель."
+    source: { kind: authored }
+  - form: "zamówiło"
+    pl: "Dziecko zamówiło lody."
+    ru: "Ребёнок заказал мороженое."
+    source: { kind: authored }
+  - form: "zamówiło"
+    pl: "Biuro zamówiło nowe krzesła."
+    ru: "Офис заказал новые стулья."
+    source: { kind: authored }
+  - form: "zamówiły"
+    pl: "Dziewczyny zamówiły herbatę."
+    ru: "Девушки заказали чай."
+    source: { kind: authored }
+  - form: "zamówiły"
+    pl: "Firmy zamówiły nowy sprzęt."
+    ru: "Фирмы заказали новое оборудование."
+    source: { kind: authored }
+  - form: "zamówiły"
+    pl: "Nic nie zamówiły."
+    ru: "Они ничего не заказали."
     source: { kind: authored }
   - form: "zamówisz"
     pl: "Jeśli zamówisz tonkatsu w tym miejscu, dostaniesz też górę kapusty."

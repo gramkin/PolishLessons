@@ -60,7 +60,6 @@ idioms:
   - { pl: "to się nie powtórzy", ru: "это не повторится" }
   - { pl: "powtórzyć błąd", ru: "повторить ошибку" }
 formExamplesSkip:
-  - { form: "powtórzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
   - { form: "powtórzeni", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "powtórzenia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
@@ -87,11 +86,9 @@ formExamplesSkip:
   - { form: "powtórzyłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "powtórzyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzyłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "powtórzyłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzyłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
   - { form: "powtórzyłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
@@ -99,7 +96,6 @@ formExamplesSkip:
   - { form: "powtórzyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "powtórzyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "powtórzymy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "powtórzysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "powtórzywszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
   - form: "powtórz"
@@ -118,6 +114,18 @@ formExamples:
     pl: "Powtórz to, proszę."
     ru: "Повтори это, пожалуйста."
     source: { kind: translated, id: 1476081 }
+  - form: "powtórzą"
+    pl: "Powtórzą pytanie."
+    ru: "Они повторят вопрос."
+    source: { kind: authored }
+  - form: "powtórzą"
+    pl: "Powtórzą koncert w przyszłym roku."
+    ru: "Они повторят концерт в будущем году."
+    source: { kind: authored }
+  - form: "powtórzą"
+    pl: "Nie powtórzą tego błędu."
+    ru: "Они не повторят этой ошибки."
+    source: { kind: authored }
   - form: "powtórzę"
     pl: "Nie powtórzę ci tego."
     ru: "Я тебе этого не повторю."
@@ -226,6 +234,18 @@ formExamples:
     pl: "Powtórzyłam pytanie głośniej."
     ru: "Я повторила вопрос громче."
     source: { kind: authored }
+  - form: "powtórzyłaś"
+    pl: "Powtórzyłaś pytanie."
+    ru: "Ты повторила вопрос."
+    source: { kind: authored }
+  - form: "powtórzyłaś"
+    pl: "Powtórzyłaś to samo dwa razy."
+    ru: "Ты повторила одно и то же дважды."
+    source: { kind: authored }
+  - form: "powtórzyłaś"
+    pl: "Nie powtórzyłaś tego błędu."
+    ru: "Ты не повторила этой ошибки."
+    source: { kind: authored }
   - form: "powtórzyłem"
     pl: "Tylko powtórzyłem jego opinię."
     ru: "Я лишь повторил его мнение."
@@ -242,6 +262,18 @@ formExamples:
     pl: "Powtórzyłem, co on powiedział, dokładnie tak, jak to powiedział."
     ru: "Я повторил то, что он сказал, в точности так, как он это сказал."
     source: { kind: translated, id: 529251 }
+  - form: "powtórzyłeś"
+    pl: "Powtórzyłeś pytanie."
+    ru: "Ты повторил вопрос."
+    source: { kind: authored }
+  - form: "powtórzyłeś"
+    pl: "Powtórzyłeś to samo dwa razy."
+    ru: "Ты повторил одно и то же дважды."
+    source: { kind: authored }
+  - form: "powtórzyłeś"
+    pl: "Nie powtórzyłeś tego błędu."
+    ru: "Ты не повторил этой ошибки."
+    source: { kind: authored }
   - form: "powtórzyło"
     pl: "Żeby się to więcej nie powtórzyło."
     ru: "Чтобы это больше не повторилось."
@@ -265,4 +297,16 @@ formExamples:
   - form: "powtórzyły"
     pl: "Dzieci powtórzyły zdanie za nauczycielem."
     ru: "Дети повторили предложение за учителем."
+    source: { kind: authored }
+  - form: "powtórzysz"
+    pl: "Powtórzysz pytanie?"
+    ru: "Ты повторишь вопрос?"
+    source: { kind: authored }
+  - form: "powtórzysz"
+    pl: "Powtórzysz to jeszcze raz."
+    ru: "Ты повторишь это ещё раз."
+    source: { kind: authored }
+  - form: "powtórzysz"
+    pl: "Nie powtórzysz tego błędu."
+    ru: "Ты не повторишь этой ошибки."
     source: { kind: authored }

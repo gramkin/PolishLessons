@@ -31,6 +31,7 @@ senses:
         ru: "Том работает над чем-то секретным."
         source: { kind: translated, id: 3778884 }
 notes:
+  - { kind: usage, text: "Форма tajniejsi оставлена без примеров: tajny не градуируется — документ либо секретный, либо нет, «более секретным» он не бывает. При необходимости говорят ściśle tajny «совершенно секретный». Живая мужско-личная форма — tajni: tajni współpracownicy «тайные сотрудники»." }
   - { kind: usage, text: "Ściśle tajne — «совершенно секретно», стандартный гриф на документах." }
   - { kind: usage, text: "Прилагательное от tajemnica «тайна», карточка которой уже есть. Рядом стоит tajemniczy «таинственный»." }
   - { kind: false-friend, text: "Tajny — «секретный, закрытый для посторонних», а tajemniczy — «загадочный, таинственный». Русское «тайный» покрывает оба." }
@@ -57,9 +58,6 @@ formExamplesSkip:
   - { form: "najtajniejszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najtajniejszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "najtajniejszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "tajną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tajnemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tajni", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tajniejsi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "tajniejsza", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "tajniejszą", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
@@ -71,8 +69,6 @@ formExamplesSkip:
   - { form: "tajniejszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "tajniejszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
   - { form: "tajniejszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "tajny", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tajnymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "tajna"
     pl: "Tajna misja."
@@ -85,6 +81,18 @@ formExamples:
   - form: "tajna"
     pl: "Tajna narada trwała do rana."
     ru: "Тайное совещание длилось до утра."
+    source: { kind: authored }
+  - form: "tajną"
+    pl: "Prowadzili tajną akcję."
+    ru: "Они вели тайную операцию."
+    source: { kind: authored }
+  - form: "tajną"
+    pl: "Podpisał tajną umowę."
+    ru: "Он подписал тайный договор."
+    source: { kind: authored }
+  - form: "tajną"
+    pl: "Nazwali to tajną misją."
+    ru: "Они назвали это тайной миссией."
     source: { kind: authored }
   - form: "tajne"
     pl: "To jest tajne."
@@ -122,6 +130,42 @@ formExamples:
     pl: "Należał do tajnej grupy."
     ru: "Он состоял в тайной группе."
     source: { kind: authored }
+  - form: "tajnemu"
+    pl: "Przyjrzyj się temu tajnemu dokumentowi."
+    ru: "Присмотрись к этому секретному документу."
+    source: { kind: authored }
+  - form: "tajnemu"
+    pl: "Dzięki tajnemu porozumieniu uniknięto wojny."
+    ru: "Благодаря тайному соглашению войны избежали."
+    source: { kind: authored }
+  - form: "tajnemu"
+    pl: "Nie ufaj tajnemu źródłu."
+    ru: "Не доверяй тайному источнику."
+    source: { kind: authored }
+  - form: "tajni"
+    pl: "Tajni współpracownicy zdradzili plan."
+    ru: "Тайные сотрудники выдали план."
+    source: { kind: authored }
+  - form: "tajni"
+    pl: "Na sali byli tajni agenci."
+    ru: "В зале были тайные агенты."
+    source: { kind: authored }
+  - form: "tajni"
+    pl: "Tajni funkcjonariusze obserwowali dom."
+    ru: "Сотрудники в штатском наблюдали за домом."
+    source: { kind: authored }
+  - form: "tajny"
+    pl: "To tajny dokument."
+    ru: "Это секретный документ."
+    source: { kind: authored }
+  - form: "tajny"
+    pl: "Plan był tajny do ostatniej chwili."
+    ru: "План был секретным до последней минуты."
+    source: { kind: authored }
+  - form: "tajny"
+    pl: "Mają tajny układ."
+    ru: "У них тайный сговор."
+    source: { kind: authored }
   - form: "tajnych"
     pl: "Norweski dyplomata pośredniczył w tajnych negocjacjach, które przyniosły historyczny dokument."
     ru: "Норвежский дипломат выступал посредником на тайных переговорах."
@@ -145,4 +189,16 @@ formExamples:
   - form: "tajnym"
     pl: "Pracuje nad tajnym projektem."
     ru: "Он работает над секретным проектом."
+    source: { kind: authored }
+  - form: "tajnymi"
+    pl: "Zajmuje się tajnymi dokumentami."
+    ru: "Он занимается секретными документами."
+    source: { kind: authored }
+  - form: "tajnymi"
+    pl: "Między tajnymi a jawnymi aktami jest różnica."
+    ru: "Между секретными и открытыми делами есть разница."
+    source: { kind: authored }
+  - form: "tajnymi"
+    pl: "Posługiwali się tajnymi znakami."
+    ru: "Они пользовались тайными знаками."
     source: { kind: authored }
