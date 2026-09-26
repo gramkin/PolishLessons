@@ -60,30 +60,20 @@ idioms:
   - { pl: "poszukać pracy", ru: "поискать работу" }
   - { pl: "poszukaj", ru: "поищи" }
 formExamplesSkip:
-  - { form: "poszuka", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukacie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "poszukają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukajcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "poszukali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
   - { form: "poszukaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "poszukał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poszukała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "poszukałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poszukałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "poszukałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poszukało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "poszukały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poszukałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "poszukałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -108,6 +98,18 @@ formExamplesSkip:
   - { form: "poszukanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "poszukawszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
+  - form: "poszuka"
+    pl: "Poszuka w słowniku."
+    ru: "Он посмотрит в словаре."
+    source: { kind: authored }
+  - form: "poszuka"
+    pl: "Poszuka kluczy w kieszeni."
+    ru: "Он поищет ключи в кармане."
+    source: { kind: authored }
+  - form: "poszuka"
+    pl: "Nikt za ciebie nie poszuka."
+    ru: "За тебя никто искать не будет."
+    source: { kind: authored }
   - form: "poszukać"
     pl: "Muszę poszukać długopisu."
     ru: "Мне нужно поискать ручку."
@@ -140,6 +142,18 @@ formExamples:
     pl: "Jeśli nie znasz znaczenia słowa, poszukaj w słowniku."
     ru: "Если не знаешь значения слова, поищи в словаре."
     source: { kind: tatoeba, id: 12565047 }
+  - form: "poszukają"
+    pl: "Poszukają w słowniku."
+    ru: "Они посмотрят в словаре."
+    source: { kind: authored }
+  - form: "poszukają"
+    pl: "Poszukają kluczy w kieszeni."
+    ru: "Они поищут ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukają"
+    pl: "Poszukają innego rozwiązania."
+    ru: "Они поищут другое решение."
+    source: { kind: authored }
   - form: "poszukajmy"
     pl: "Poszukajmy restauracji."
     ru: "Поищем ресторан."
@@ -152,6 +166,66 @@ formExamples:
     pl: "Poszukajmy innego wyjścia."
     ru: "Поищем другой выход."
     source: { kind: authored }
+  - form: "poszukali"
+    pl: "Poszukali w słowniku."
+    ru: "Они посмотрели в словаре."
+    source: { kind: authored }
+  - form: "poszukali"
+    pl: "Poszukali kluczy w kieszeni."
+    ru: "Они поискали ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukali"
+    pl: "Poszukali innego rozwiązania."
+    ru: "Они поискали другое решение."
+    source: { kind: authored }
+  - form: "poszukał"
+    pl: "Poszukał w słowniku."
+    ru: "Он посмотрел в словаре."
+    source: { kind: authored }
+  - form: "poszukał"
+    pl: "Poszukał kluczy w kieszeni."
+    ru: "Он поискал ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukał"
+    pl: "Poszukał innego rozwiązania."
+    ru: "Он поискал другое решение."
+    source: { kind: authored }
+  - form: "poszukała"
+    pl: "Poszukała w słowniku."
+    ru: "Она посмотрела в словаре."
+    source: { kind: authored }
+  - form: "poszukała"
+    pl: "Poszukała kluczy w kieszeni."
+    ru: "Она поискала ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukała"
+    pl: "Poszukała innego rozwiązania."
+    ru: "Она поискала другое решение."
+    source: { kind: authored }
+  - form: "poszukałam"
+    pl: "Poszukałam w słowniku."
+    ru: "Я посмотрела в словаре."
+    source: { kind: authored }
+  - form: "poszukałam"
+    pl: "Poszukałam kluczy w kieszeni."
+    ru: "Я поискала ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukałam"
+    pl: "Poszukałam innego rozwiązania."
+    ru: "Я поискала другое решение."
+    source: { kind: authored }
+  - form: "poszukałaś"
+    pl: "Poszukałaś w słowniku?"
+    ru: "Ты посмотрела в словаре?"
+    source: { kind: authored }
+  - form: "poszukałaś"
+    pl: "Poszukałaś kluczy w kieszeni."
+    ru: "Ты поискала ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukałaś"
+    pl: "Poszukałaś innego rozwiązania."
+    ru: "Ты поискала другое решение."
+    source: { kind: authored }
   - form: "poszukałem"
     pl: "Przygotowując się na wszelką ewentualność, poszukałem czegoś, co posłużyłoby za broń."
     ru: "Готовясь ко всякой неожиданности, я поискал что-нибудь, что послужило бы оружием."
@@ -163,6 +237,42 @@ formExamples:
   - form: "poszukałem"
     pl: "Poszukałem kluczy w kieszeni."
     ru: "Я поискал ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukałeś"
+    pl: "Poszukałeś w słowniku?"
+    ru: "Ты посмотрел в словаре?"
+    source: { kind: authored }
+  - form: "poszukałeś"
+    pl: "Poszukałeś kluczy w kieszeni."
+    ru: "Ты поискал ключи в кармане."
+    source: { kind: authored }
+  - form: "poszukałeś"
+    pl: "Poszukałeś innego rozwiązania."
+    ru: "Ты поискал другое решение."
+    source: { kind: authored }
+  - form: "poszukało"
+    pl: "Wiele osób poszukało pomocy."
+    ru: "Многие обратились за помощью."
+    source: { kind: authored }
+  - form: "poszukało"
+    pl: "Dziecko poszukało mamy w tłumie."
+    ru: "Ребёнок поискал маму в толпе."
+    source: { kind: authored }
+  - form: "poszukało"
+    pl: "Kilkoro uczniów poszukało odpowiedzi w książce."
+    ru: "Несколько учеников поискали ответ в книге."
+    source: { kind: authored }
+  - form: "poszukały"
+    pl: "Dziewczyny poszukały wolnego stolika."
+    ru: "Девушки поискали свободный столик."
+    source: { kind: authored }
+  - form: "poszukały"
+    pl: "Firmy poszukały nowych dostawców."
+    ru: "Фирмы поискали новых поставщиков."
+    source: { kind: authored }
+  - form: "poszukały"
+    pl: "Poszukały innego rozwiązania."
+    ru: "Они поискали другое решение."
     source: { kind: authored }
   - form: "poszukam"
     pl: "Poszukam jej."

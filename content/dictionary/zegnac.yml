@@ -59,9 +59,7 @@ idioms:
   - { pl: "żegnajcie", ru: "прощайте" }
   - { pl: "nie żegnając się", ru: "не прощаясь" }
 formExamplesSkip:
-  - { form: "żegna", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnacie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "żegnają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnająca", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnającą", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnające", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
@@ -73,7 +71,6 @@ formExamplesSkip:
   - { form: "żegnającym", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnającymi", reason: "формы действительного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnajmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "żegnali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnaliby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnalibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnalibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -82,16 +79,10 @@ formExamplesSkip:
   - { form: "żegnałaby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałabym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "żegnałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żegnałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnałby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałbym", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "żegnałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żegnałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żegnało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnałoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "żegnały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "żegnałyby", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
   - { form: "żegnałybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
@@ -114,8 +105,19 @@ formExamplesSkip:
   - { form: "żegnanych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
   - { form: "żegnanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "żegnasz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "żegna"
+    pl: "Żegna gości przy drzwiach."
+    ru: "Он провожает гостей у двери."
+    source: { kind: authored }
+  - form: "żegna"
+    pl: "Nikogo nie żegna."
+    ru: "Он ни с кем не прощается."
+    source: { kind: authored }
+  - form: "żegna"
+    pl: "Żegna lato z żalem."
+    ru: "Он с сожалением прощается с летом."
+    source: { kind: authored }
   - form: "żegnać"
     pl: "Będę się pomału żegnać."
     ru: "Я потихоньку буду прощаться."
@@ -144,6 +146,18 @@ formExamples:
     pl: "Żegnaj, przyjacielu!"
     ru: "Прощай, друг!"
     source: { kind: translated, id: 12191481 }
+  - form: "żegnają"
+    pl: "Żegnają gości przy drzwiach."
+    ru: "Они провожают гостей у двери."
+    source: { kind: authored }
+  - form: "żegnają"
+    pl: "Nikogo nie żegnają."
+    ru: "Они ни с кем не прощаются."
+    source: { kind: authored }
+  - form: "żegnają"
+    pl: "Żegnają lato z żalem."
+    ru: "Они с сожалением прощаются с летом."
+    source: { kind: authored }
   - form: "żegnając"
     pl: "Wyszedł nie żegnając się ze mną."
     ru: "Он ушёл, не попрощавшись со мной."
@@ -172,6 +186,18 @@ formExamples:
     pl: "Powiedział: \"Żegnajcie, moi przyjaciele\" i odszedł."
     ru: "Он сказал: «Прощайте, друзья мои» — и ушёл."
     source: { kind: translated, id: 524560 }
+  - form: "żegnali"
+    pl: "Żegnali gości przy drzwiach."
+    ru: "Они провожали гостей у двери."
+    source: { kind: authored }
+  - form: "żegnali"
+    pl: "Nikogo nie żegnali."
+    ru: "Они ни с кем не прощались."
+    source: { kind: authored }
+  - form: "żegnali"
+    pl: "Żegnali lato z żalem."
+    ru: "Они с сожалением прощались с летом."
+    source: { kind: authored }
   - form: "żegnał"
     pl: "Będę się powoli żegnał."
     ru: "Я буду медленно прощаться."
@@ -196,6 +222,78 @@ formExamples:
     pl: "Żegnała się z każdym osobno."
     ru: "Она прощалась с каждым отдельно."
     source: { kind: authored }
+  - form: "żegnałam"
+    pl: "Żegnałam gości przy drzwiach."
+    ru: "Я провожала гостей у двери."
+    source: { kind: authored }
+  - form: "żegnałam"
+    pl: "Nikogo nie żegnałam."
+    ru: "Я ни с кем не прощалась."
+    source: { kind: authored }
+  - form: "żegnałam"
+    pl: "Żegnałam lato z żalem."
+    ru: "Я с сожалением прощалась с летом."
+    source: { kind: authored }
+  - form: "żegnałaś"
+    pl: "Żegnałaś gości przy drzwiach."
+    ru: "Ты провожала гостей у двери."
+    source: { kind: authored }
+  - form: "żegnałaś"
+    pl: "Nikogo nie żegnałaś."
+    ru: "Ты ни с кем не прощалась."
+    source: { kind: authored }
+  - form: "żegnałaś"
+    pl: "Żegnałaś lato z żalem."
+    ru: "Ты с сожалением прощалась с летом."
+    source: { kind: authored }
+  - form: "żegnałem"
+    pl: "Żegnałem gości przy drzwiach."
+    ru: "Я провожал гостей у двери."
+    source: { kind: authored }
+  - form: "żegnałem"
+    pl: "Nikogo nie żegnałem."
+    ru: "Я ни с кем не прощался."
+    source: { kind: authored }
+  - form: "żegnałem"
+    pl: "Żegnałem lato z żalem."
+    ru: "Я с сожалением прощался с летом."
+    source: { kind: authored }
+  - form: "żegnałeś"
+    pl: "Żegnałeś gości przy drzwiach."
+    ru: "Ты провожал гостей у двери."
+    source: { kind: authored }
+  - form: "żegnałeś"
+    pl: "Nikogo nie żegnałeś."
+    ru: "Ты ни с кем не прощался."
+    source: { kind: authored }
+  - form: "żegnałeś"
+    pl: "Żegnałeś lato z żalem."
+    ru: "Ты с сожалением прощался с летом."
+    source: { kind: authored }
+  - form: "żegnało"
+    pl: "Dziecko żegnało babcię machaniem."
+    ru: "Ребёнок провожал бабушку, махая рукой."
+    source: { kind: authored }
+  - form: "żegnało"
+    pl: "Wiele osób żegnało odjeżdżający pociąg."
+    ru: "Многие провожали уходящий поезд."
+    source: { kind: authored }
+  - form: "żegnało"
+    pl: "Całe miasto żegnało bohatera."
+    ru: "Весь город прощался с героем."
+    source: { kind: authored }
+  - form: "żegnały"
+    pl: "Kobiety żegnały odjeżdżających."
+    ru: "Женщины провожали уезжающих."
+    source: { kind: authored }
+  - form: "żegnały"
+    pl: "Dzieci żegnały nas z okna."
+    ru: "Дети махали нам на прощание из окна."
+    source: { kind: authored }
+  - form: "żegnały"
+    pl: "Nikogo nie żegnały."
+    ru: "Они ни с кем не прощались."
+    source: { kind: authored }
   - form: "żegnam"
     pl: "I na tym żegnam!"
     ru: "На этом прощаюсь!"
@@ -207,6 +305,18 @@ formExamples:
   - form: "żegnam"
     pl: "Żegnam i dziękuję za wszystko."
     ru: "Прощаюсь и благодарю за всё."
+    source: { kind: authored }
+  - form: "żegnasz"
+    pl: "Żegnasz gości przy drzwiach?"
+    ru: "Ты провожаешь гостей у двери?"
+    source: { kind: authored }
+  - form: "żegnasz"
+    pl: "Nikogo nie żegnasz."
+    ru: "Ты ни с кем не прощаешься."
+    source: { kind: authored }
+  - form: "żegnasz"
+    pl: "Żegnasz lato z żalem."
+    ru: "Ты с сожалением прощаешься с летом."
     source: { kind: authored }
   - form: "będę żegnać"
     pl: "Będę żegnać gości przy drzwiach."
