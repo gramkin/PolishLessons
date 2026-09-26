@@ -44,6 +44,7 @@ notes:
   - { kind: government, text: "Требует винительного падежа лица: okłamać kogoś «обмануть кого-то», а не «кому-то». Okłamał mnie «Он меня обманул»." }
   - { kind: usage, text: "Совершенный вид к okłamywać. Рядом стоит kłamać «лгать», но оно непереходное: kłamie «он лжёт», без дополнения." }
   - { kind: usage, text: "Разница с карточкой kłamstwo: kłamstwo — «ложь» как вещь, okłamać — действие, направленное на человека." }
+  - { kind: government, text: "Обманывают в польском винительным падежом: okłamać kogoś, okłamał mnie. Русское «солгать кому-то» с дательным сюда не переносится — сказать okłamał mi нельзя." }
 collocations:
   - { pl: "okłamać kogoś", ru: "обмануть кого-либо" }
   - { pl: "okłamał mnie", ru: "он меня обманул" }
@@ -63,39 +64,14 @@ formExamplesSkip:
   - { form: "okłamałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "okłamałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "okłamałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "okłamałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "okłamałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "okłamało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "okłamałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "okłamały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "okłamałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "okłamałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "okłamałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "okłamałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "okłamałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "okłamana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamane", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamaniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamanymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "okłamawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "okłamcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamiecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamiemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłamiesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "okłammy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "okłam"
     pl: "Następnym razem mnie okłam. W tym przypadku wolałbym nie znać prawdy."
@@ -173,6 +149,18 @@ formExamples:
     pl: "Nie okłamałam cię."
     ru: "Я тебя не обманывала."
     source: { kind: translated, id: 3603480 }
+  - form: "okłamałaś"
+    pl: "Okłamałaś mnie."
+    ru: "Ты меня обманула."
+    source: { kind: authored }
+  - form: "okłamałaś"
+    pl: "Nigdy mnie nie okłamałaś."
+    ru: "Ты никогда меня не обманывала."
+    source: { kind: authored }
+  - form: "okłamałaś"
+    pl: "Okłamałaś nas wszystkich."
+    ru: "Ты обманула нас всех."
+    source: { kind: authored }
   - form: "okłamałby"
     pl: "Tom nie okłamałby Mary."
     ru: "Том не обманул бы Мэри."
@@ -225,6 +213,162 @@ formExamples:
     pl: "Okłamałeś mnie, prawda?"
     ru: "Ты меня обманул, правда?"
     source: { kind: translated, id: 709256 }
+  - form: "okłamało"
+    pl: "Dziecko okłamało nauczyciela."
+    ru: "Ребёнок обманул учителя."
+    source: { kind: authored }
+  - form: "okłamało"
+    pl: "Miasto okłamało mieszkańców."
+    ru: "Город обманул жителей."
+    source: { kind: authored }
+  - form: "okłamało"
+    pl: "To ogłoszenie okłamało kupujących."
+    ru: "Это объявление обмануло покупателей."
+    source: { kind: authored }
+  - form: "okłamały"
+    pl: "Dzieci okłamały nauczyciela."
+    ru: "Дети обманули учителя."
+    source: { kind: authored }
+  - form: "okłamały"
+    pl: "Te obietnice okłamały wszystkich."
+    ru: "Эти обещания обманули всех."
+    source: { kind: authored }
+  - form: "okłamały"
+    pl: "Gazety okłamały czytelników."
+    ru: "Газеты обманули читателей."
+    source: { kind: authored }
+  - form: "okłamana"
+    pl: "Czuła się okłamana."
+    ru: "Она чувствовала себя обманутой."
+    source: { kind: authored }
+  - form: "okłamana"
+    pl: "Okłamana raz, nie uwierzyła drugi."
+    ru: "Обманутая раз, второй она не поверила."
+    source: { kind: authored }
+  - form: "okłamana"
+    pl: "Została okłamana przez najbliższych."
+    ru: "Её обманули самые близкие."
+    source: { kind: authored }
+  - form: "okłamaną"
+    pl: "Trudno pocieszyć okłamaną koleżankę."
+    ru: "Трудно утешить обманутую коллегу."
+    source: { kind: authored }
+  - form: "okłamaną"
+    pl: "Uznano ją za okłamaną, nie za winną."
+    ru: "Её сочли обманутой, а не виноватой."
+    source: { kind: authored }
+  - form: "okłamaną"
+    pl: "Widziałem okłamaną publiczność."
+    ru: "Я видел обманутую публику."
+    source: { kind: authored }
+  - form: "okłamane"
+    pl: "Czuły się okłamane."
+    ru: "Они чувствовали себя обманутыми."
+    source: { kind: authored }
+  - form: "okłamane"
+    pl: "Okłamane dzieci tracą zaufanie."
+    ru: "Обманутые дети теряют доверие."
+    source: { kind: authored }
+  - form: "okłamane"
+    pl: "Zostały okłamane przez dorosłych."
+    ru: "Их обманули взрослые."
+    source: { kind: authored }
+  - form: "okłamanego"
+    pl: "Nie ma tu nikogo okłamanego."
+    ru: "Обманутых тут нет."
+    source: { kind: authored }
+  - form: "okłamanego"
+    pl: "Szukam świadka okłamanego przez obronę."
+    ru: "Я ищу свидетеля, обманутого защитой."
+    source: { kind: authored }
+  - form: "okłamanego"
+    pl: "Od człowieka okłamanego trudno oczekiwać zaufania."
+    ru: "От обманутого человека трудно ждать доверия."
+    source: { kind: authored }
+  - form: "okłamanej"
+    pl: "Nie przerywaj okłamanej koleżance."
+    ru: "Не перебивай обманутую коллегу."
+    source: { kind: authored }
+  - form: "okłamanej"
+    pl: "Historia okłamanej rodziny obiegła kraj."
+    ru: "История обманутой семьи обошла страну."
+    source: { kind: authored }
+  - form: "okłamanej"
+    pl: "Po okłamanej publiczności nie ma co oczekiwać oklasków."
+    ru: "От обманутой публики оваций не жди."
+    source: { kind: authored }
+  - form: "okłamanemu"
+    pl: "Okłamanemu dziecku trudno znowu zaufać."
+    ru: "Обманутому ребёнку трудно снова довериться."
+    source: { kind: authored }
+  - form: "okłamanemu"
+    pl: "Przyjrzyj się okłamanemu świadkowi."
+    ru: "Присмотрись к обманутому свидетелю."
+    source: { kind: authored }
+  - form: "okłamanemu"
+    pl: "Daj okłamanemu koledze czas."
+    ru: "Дай обманутому приятелю время."
+    source: { kind: authored }
+  - form: "okłamani"
+    pl: "Czuli się okłamani."
+    ru: "Они чувствовали себя обманутыми."
+    source: { kind: authored }
+  - form: "okłamani"
+    pl: "Okłamani wyborcy nie przyjdą znowu."
+    ru: "Обманутые избиратели снова не придут."
+    source: { kind: authored }
+  - form: "okłamani"
+    pl: "Zostali okłamani przez własnego szefa."
+    ru: "Их обманул собственный начальник."
+    source: { kind: authored }
+  - form: "okłamania"
+    pl: "Skutki okłamania rodziny były bolesne."
+    ru: "Последствия обмана семьи были болезненными."
+    source: { kind: authored }
+  - form: "okłamania"
+    pl: "Bał się okłamania własnych dzieci."
+    ru: "Он боялся обмануть собственных детей."
+    source: { kind: authored }
+  - form: "okłamania"
+    pl: "Nie da się uniknąć okłamania kogoś."
+    ru: "Обмана кого-нибудь не избежать."
+    source: { kind: authored }
+  - form: "okłamanie"
+    pl: "Okłamanie sądu to przestępstwo."
+    ru: "Обман суда — преступление."
+    source: { kind: authored }
+  - form: "okłamanie"
+    pl: "Okłamanie dziecka zawsze wychodzi na jaw."
+    ru: "Обман ребёнка всегда выходит наружу."
+    source: { kind: authored }
+  - form: "okłamanie"
+    pl: "Okłamanie przyjaciela kosztowało go przyjaźń."
+    ru: "Обман друга стоил ему дружбы."
+    source: { kind: authored }
+  - form: "okłamaniem"
+    pl: "Między przemilczeniem a okłamaniem jest różnica."
+    ru: "Между умолчанием и обманом есть разница."
+    source: { kind: authored }
+  - form: "okłamaniem"
+    pl: "Zaczął od drobiazgu, skończył okłamaniem rodziny."
+    ru: "Он начал с мелочи, кончил обманом семьи."
+    source: { kind: authored }
+  - form: "okłamaniem"
+    pl: "Groził okłamaniem sądu, gdyby go zmuszono."
+    ru: "Он грозил обмануть суд, если его заставят."
+    source: { kind: authored }
+  - form: "okłamaniu"
+    pl: "Po okłamaniu rodziny nie mógł spać."
+    ru: "Обманув семью, он не мог спать."
+    source: { kind: authored }
+  - form: "okłamaniu"
+    pl: "O okłamaniu sądu mówi akt oskarżenia."
+    ru: "Об обмане суда говорит обвинительное заключение."
+    source: { kind: authored }
+  - form: "okłamaniu"
+    pl: "W okłamaniu dziecka nie ma nic niewinnego."
+    ru: "В обмане ребёнка нет ничего невинного."
+    source: { kind: authored }
   - form: "okłamano"
     pl: "Tom wie, że go okłamano."
     ru: "Том знает, что его обманули."
@@ -237,6 +381,126 @@ formExamples:
     pl: "Wyglądało na to, że okłamano sąd."
     ru: "Было похоже, что суд обманули."
     source: { kind: authored }
+  - form: "okłamany"
+    pl: "Czuł się okłamany."
+    ru: "Он чувствовал себя обманутым."
+    source: { kind: authored }
+  - form: "okłamany"
+    pl: "Okłamany raz, nie uwierzył drugi."
+    ru: "Обманутый раз, второй он не поверил."
+    source: { kind: authored }
+  - form: "okłamany"
+    pl: "Został okłamany przez najbliższych."
+    ru: "Его обманули самые близкие."
+    source: { kind: authored }
+  - form: "okłamanych"
+    pl: "Nie ma tu okłamanych."
+    ru: "Обманутых тут нет."
+    source: { kind: authored }
+  - form: "okłamanych"
+    pl: "Wśród okłamanych byli i jego przyjaciele."
+    ru: "Среди обманутых были и его друзья."
+    source: { kind: authored }
+  - form: "okłamanych"
+    pl: "Liczba okłamanych klientów rośnie."
+    ru: "Число обманутых клиентов растёт."
+    source: { kind: authored }
+  - form: "okłamanym"
+    pl: "Okłamanym klientom trzeba wszystko wyjaśnić."
+    ru: "Обманутым клиентам надо всё объяснить."
+    source: { kind: authored }
+  - form: "okłamanym"
+    pl: "W okłamanym tłumie rośnie gniew."
+    ru: "В обманутой толпе растёт гнев."
+    source: { kind: authored }
+  - form: "okłamanym"
+    pl: "Z okłamanym świadkiem nikt nie rozmawiał."
+    ru: "С обманутым свидетелем никто не говорил."
+    source: { kind: authored }
+  - form: "okłamanymi"
+    pl: "Rozmawiał z okłamanymi klientami."
+    ru: "Он говорил с обманутыми клиентами."
+    source: { kind: authored }
+  - form: "okłamanymi"
+    pl: "Między okłamanymi a zawiedzionymi jest różnica."
+    ru: "Между обманутыми и разочарованными есть разница."
+    source: { kind: authored }
+  - form: "okłamanymi"
+    pl: "Zajął się okłamanymi wyborcami."
+    ru: "Он занялся обманутыми избирателями."
+    source: { kind: authored }
+  - form: "okłamcie"
+    pl: "Nie okłamcie go."
+    ru: "Не обманите его."
+    source: { kind: authored }
+  - form: "okłamcie"
+    pl: "Okłamcie ich, jeśli musicie."
+    ru: "Обманите их, если придётся."
+    source: { kind: authored }
+  - form: "okłamcie"
+    pl: "Nie okłamcie własnych dzieci."
+    ru: "Не обманите собственных детей."
+    source: { kind: authored }
+  - form: "okłamią"
+    pl: "Nie okłamią cię."
+    ru: "Тебя не обманут."
+    source: { kind: authored }
+  - form: "okłamią"
+    pl: "Okłamią go bez wahania."
+    ru: "Его обманут без колебаний."
+    source: { kind: authored }
+  - form: "okłamią"
+    pl: "Nikogo tym nie okłamią."
+    ru: "Этим они никого не обманут."
+    source: { kind: authored }
+  - form: "okłamie"
+    pl: "Nikt cię tu nie okłamie."
+    ru: "Тебя тут никто не обманет."
+    source: { kind: authored }
+  - form: "okłamie"
+    pl: "Okłamie cię bez mrugnięcia okiem."
+    ru: "Он обманет тебя не моргнув глазом."
+    source: { kind: authored }
+  - form: "okłamie"
+    pl: "Jeszcze raz mnie okłamie i koniec."
+    ru: "Ещё раз меня обманет — и всё."
+    source: { kind: authored }
+  - form: "okłamiecie"
+    pl: "Nie okłamiecie mnie."
+    ru: "Вы меня не обманете."
+    source: { kind: authored }
+  - form: "okłamiecie"
+    pl: "Okłamiecie go i co dalej?"
+    ru: "Обманете его — и что дальше?"
+    source: { kind: authored }
+  - form: "okłamiecie"
+    pl: "Nikogo tym nie okłamiecie."
+    ru: "Этим вы никого не обманете."
+    source: { kind: authored }
+  - form: "okłamiemy"
+    pl: "Nie okłamiemy go."
+    ru: "Мы его не обманем."
+    source: { kind: authored }
+  - form: "okłamiemy"
+    pl: "Okłamiemy ich i co dalej?"
+    ru: "Обманем их — и что дальше?"
+    source: { kind: authored }
+  - form: "okłamiemy"
+    pl: "Nikogo tym nie okłamiemy."
+    ru: "Этим мы никого не обманем."
+    source: { kind: authored }
+  - form: "okłamiesz"
+    pl: "Nie okłamiesz mnie."
+    ru: "Ты меня не обманешь."
+    source: { kind: authored }
+  - form: "okłamiesz"
+    pl: "Okłamiesz go i co dalej?"
+    ru: "Обманешь его — и что дальше?"
+    source: { kind: authored }
+  - form: "okłamiesz"
+    pl: "Nikogo tym nie okłamiesz."
+    ru: "Этим ты никого не обманешь."
+    source: { kind: authored }
   - form: "okłamię"
     pl: "Przysięgam, że nigdy więcej cię nie okłamię."
     ru: "Клянусь, что больше никогда тебя не обману."
@@ -248,4 +512,16 @@ formExamples:
   - form: "okłamię"
     pl: "Nie okłamię nikogo dla pieniędzy."
     ru: "Я никого не обману ради денег."
+    source: { kind: authored }
+  - form: "okłammy"
+    pl: "Nie okłammy go."
+    ru: "Не обманем его."
+    source: { kind: authored }
+  - form: "okłammy"
+    pl: "Nie okłammy własnych dzieci."
+    ru: "Не обманем собственных детей."
+    source: { kind: authored }
+  - form: "okłammy"
+    pl: "Okłammy ich choć raz dla żartu."
+    ru: "Обманем их хоть раз в шутку."
     source: { kind: authored }

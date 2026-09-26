@@ -57,6 +57,7 @@ notes:
   - { kind: usage, text: "Устойчивое dodać komuś otuchy / odwagi значит «придать кому-то бодрости, смелости» — с родительным падежом." }
   - { kind: usage, text: "В арифметике dodać значит «прибавить», отсюда dodawanie «сложение»." }
   - { kind: false-friend, text: "Пословица Nic dodać, nic ująć — «Ни прибавить, ни убавить», в точности как по-русски." }
+  - { kind: usage, text: "В современной речи глагол берёт и человека: dodać kogoś do grupy, do listy — zostali dodani do grupy «их добавили в группу»." }
 collocations:
   - { pl: "dodać soli", ru: "добавить соли" }
   - { pl: "dodać otuchy", ru: "придать бодрости" }
@@ -68,10 +69,6 @@ idioms:
   - { pl: "dodać otuchy", ru: "придать бодрости" }
   - { pl: "dodać soli", ru: "добавить соли" }
 formExamplesSkip:
-  - { form: "doda", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodacie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodadzą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodajcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dodaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -79,30 +76,41 @@ formExamplesSkip:
   - { form: "dodałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "dodałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dodałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "dodało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dodałoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dodałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "dodałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "dodamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dodanymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dodawszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "doda"
+    pl: "Kucharz doda soli."
+    ru: "Повар добавит соли."
+    source: { kind: authored }
+  - form: "doda"
+    pl: "Doda coś od siebie."
+    ru: "Он добавит что-то от себя."
+    source: { kind: authored }
+  - form: "doda"
+    pl: "To doda ci odwagi."
+    ru: "Это придаст тебе смелости."
+    source: { kind: authored }
+  - form: "dodacie"
+    pl: "Dodacie soli?"
+    ru: "Вы добавите соли?"
+    source: { kind: authored }
+  - form: "dodacie"
+    pl: "Dodacie coś od siebie?"
+    ru: "Вы добавите что-нибудь от себя?"
+    source: { kind: authored }
+  - form: "dodacie"
+    pl: "Nie dodacie nic nowego."
+    ru: "Вы не добавите ничего нового."
+    source: { kind: authored }
   - form: "dodać"
     pl: "Nic dodać, nic ująć."
     ru: "Ни убавить, ни прибавить."
@@ -119,6 +127,18 @@ formExamples:
     pl: "Można dodać oleju sezamowego i przypraw."
     ru: "Можно добавить кунжутного масла и приправ."
     source: { kind: translated, id: 352648 }
+  - form: "dodadzą"
+    pl: "Dodadzą soli."
+    ru: "Они добавят соли."
+    source: { kind: authored }
+  - form: "dodadzą"
+    pl: "Dodadzą coś od siebie."
+    ru: "Они добавят что-то от себя."
+    source: { kind: authored }
+  - form: "dodadzą"
+    pl: "Nie dodadzą nic nowego."
+    ru: "Они не добавят ничего нового."
+    source: { kind: authored }
   - form: "dodaj"
     pl: "Dodaj mięso."
     ru: "Добавь мясо."
@@ -131,6 +151,18 @@ formExamples:
     pl: "Dodaj trochę mleka."
     ru: "Добавь немного молока."
     source: { kind: tatoeba, id: 760299 }
+  - form: "dodajcie"
+    pl: "Dodajcie soli."
+    ru: "Добавьте соли."
+    source: { kind: authored }
+  - form: "dodajcie"
+    pl: "Dodajcie coś od siebie."
+    ru: "Добавьте что-нибудь от себя."
+    source: { kind: authored }
+  - form: "dodajcie"
+    pl: "Nie dodajcie za dużo cukru."
+    ru: "Не добавьте слишком много сахара."
+    source: { kind: authored }
   - form: "dodajmy"
     pl: "Znajdźmy zdania na ten temat z nowym słownictwem, dodajmy je do następującej listy: _____, a potem przetłumaczmy."
     ru: "Давайте найдём предложения на эту тему с новой лексикой и добавим их к следующему списку."
@@ -203,6 +235,18 @@ formExamples:
     pl: "Dodałam jeszcze jedno zdanie."
     ru: "Я добавила ещё одно предложение."
     source: { kind: authored }
+  - form: "dodałaś"
+    pl: "Dodałaś soli?"
+    ru: "Ты добавила соли?"
+    source: { kind: authored }
+  - form: "dodałaś"
+    pl: "Dodałaś coś od siebie."
+    ru: "Ты добавила что-то от себя."
+    source: { kind: authored }
+  - form: "dodałaś"
+    pl: "Nie dodałaś nic nowego."
+    ru: "Ты не добавила ничего нового."
+    source: { kind: authored }
   - form: "dodałem"
     pl: "Dodałem trochę mleka i jajka."
     ru: "Я добавил немного молока и яйца."
@@ -226,6 +270,18 @@ formExamples:
   - form: "dodałeś"
     pl: "Nie dodałeś cukru."
     ru: "Ты не добавил сахара."
+    source: { kind: authored }
+  - form: "dodało"
+    pl: "To dodało mu odwagi."
+    ru: "Это придало ему смелости."
+    source: { kind: authored }
+  - form: "dodało"
+    pl: "Dziecko dodało coś od siebie."
+    ru: "Ребёнок добавил что-то от себя."
+    source: { kind: authored }
+  - form: "dodało"
+    pl: "Miasto dodało pieniędzy na remont."
+    ru: "Город добавил денег на ремонт."
     source: { kind: authored }
   - form: "dodały"
     pl: "Twoje słowa dodały mu otuchy."
@@ -251,6 +307,42 @@ formExamples:
     pl: "Dodam nowe słowa do mojego słownika."
     ru: "Я добавлю новые слова в свой словарь."
     source: { kind: translated, id: 4815358 }
+  - form: "dodamy"
+    pl: "Dodamy soli."
+    ru: "Мы добавим соли."
+    source: { kind: authored }
+  - form: "dodamy"
+    pl: "Dodamy coś od siebie."
+    ru: "Мы добавим что-то от себя."
+    source: { kind: authored }
+  - form: "dodamy"
+    pl: "Nie dodamy nic nowego."
+    ru: "Мы не добавим ничего нового."
+    source: { kind: authored }
+  - form: "dodana"
+    pl: "Sól została dodana na końcu."
+    ru: "Соль добавили в конце."
+    source: { kind: authored }
+  - form: "dodana"
+    pl: "Ta uwaga była dodana później."
+    ru: "Это замечание добавили позже."
+    source: { kind: authored }
+  - form: "dodana"
+    pl: "Kwota dodana do rachunku wzbudziła spór."
+    ru: "Сумма, добавленная к счёту, вызвала спор."
+    source: { kind: authored }
+  - form: "dodaną"
+    pl: "Znam kwotę dodaną do rachunku."
+    ru: "Я знаю сумму, добавленную к счёту."
+    source: { kind: authored }
+  - form: "dodaną"
+    pl: "Uznano uwagę za dodaną później."
+    ru: "Замечание сочли добавленным позже."
+    source: { kind: authored }
+  - form: "dodaną"
+    pl: "Zobacz, jaką wartość dodaną ma ten projekt."
+    ru: "Посмотри, какую добавленную стоимость имеет этот проект."
+    source: { kind: authored }
   - form: "dodane"
     pl: "Dodane i usunięte elementy nie są od razu pokazywane."
     ru: "Добавленные и удалённые элементы показываются не сразу."
@@ -274,6 +366,42 @@ formExamples:
   - form: "dodanego"
     pl: "Bez dodanego mleka kawa jest gorzka."
     ru: "Без добавленного молока кофе горький."
+    source: { kind: authored }
+  - form: "dodanej"
+    pl: "Nie znam kwoty dodanej do rachunku."
+    ru: "Я не знаю суммы, добавленной к счёту."
+    source: { kind: authored }
+  - form: "dodanej"
+    pl: "Szukamy uwagi dodanej na marginesie."
+    ru: "Мы ищем замечание, добавленное на полях."
+    source: { kind: authored }
+  - form: "dodanej"
+    pl: "Po soli dodanej na końcu zupa jest lepsza."
+    ru: "От соли, добавленной в конце, суп лучше."
+    source: { kind: authored }
+  - form: "dodanemu"
+    pl: "Przyjrzyj się składnikowi dodanemu na końcu."
+    ru: "Присмотрись к ингредиенту, добавленному в конце."
+    source: { kind: authored }
+  - form: "dodanemu"
+    pl: "Punktowi dodanemu w ostatniej chwili nikt się nie sprzeciwił."
+    ru: "Пункту, добавленному в последнюю минуту, никто не возразил."
+    source: { kind: authored }
+  - form: "dodanemu"
+    pl: "Daj pierwszeństwo wnioskowi dodanemu do porządku obrad."
+    ru: "Отдай предпочтение вопросу, добавленному в повестку."
+    source: { kind: authored }
+  - form: "dodani"
+    pl: "Zostali dodani do grupy."
+    ru: "Их добавили в группу."
+    source: { kind: authored }
+  - form: "dodani"
+    pl: "Dodani do listy dostaną powiadomienie."
+    ru: "Добавленные в список получат уведомление."
+    source: { kind: authored }
+  - form: "dodani"
+    pl: "Nowi uczestnicy są już dodani do zespołu."
+    ru: "Новые участники уже добавлены в команду."
     source: { kind: authored }
   - form: "dodania"
     pl: "Macie coś do dodania?"
@@ -299,6 +427,18 @@ formExamples:
     pl: "Dodanie cukru nic nie zmieni."
     ru: "Добавление сахара ничего не изменит."
     source: { kind: authored }
+  - form: "dodaniem"
+    pl: "Przed dodaniem soli spróbuj zupy."
+    ru: "Перед добавлением соли попробуй суп."
+    source: { kind: authored }
+  - form: "dodaniem"
+    pl: "Zajmuje się dodaniem nowych punktów do umowy."
+    ru: "Он занимается добавлением новых пунктов в договор."
+    source: { kind: authored }
+  - form: "dodaniem"
+    pl: "Między dodaniem a wymieszaniem minęła chwila."
+    ru: "Между добавлением и размешиванием прошла минута."
+    source: { kind: authored }
   - form: "dodaniu"
     pl: "Dzięki dodaniu komentarzy kod jest bardziej przejrzysty."
     ru: "Благодаря добавлению комментариев код стал понятнее."
@@ -322,6 +462,54 @@ formExamples:
   - form: "dodano"
     pl: "Dodano nowy rozdział do książki."
     ru: "К книге добавили новую главу."
+    source: { kind: authored }
+  - form: "dodany"
+    pl: "Punkt został dodany do porządku obrad."
+    ru: "Пункт добавили в повестку."
+    source: { kind: authored }
+  - form: "dodany"
+    pl: "Cukier dodany na końcu się nie rozpuścił."
+    ru: "Сахар, добавленный в конце, не растворился."
+    source: { kind: authored }
+  - form: "dodany"
+    pl: "Ten rozdział jest dodany później."
+    ru: "Эта глава добавлена позже."
+    source: { kind: authored }
+  - form: "dodanych"
+    pl: "Nie ma tu punktów dodanych po terminie."
+    ru: "Пунктов, добавленных после срока, тут нет."
+    source: { kind: authored }
+  - form: "dodanych"
+    pl: "Wśród składników dodanych na końcu była sól."
+    ru: "Среди ингредиентов, добавленных в конце, была соль."
+    source: { kind: authored }
+  - form: "dodanych"
+    pl: "Liczba dodanych uczestników rośnie."
+    ru: "Число добавленных участников растёт."
+    source: { kind: authored }
+  - form: "dodanym"
+    pl: "W punkcie dodanym na końcu jest haczyk."
+    ru: "В пункте, добавленном в конце, есть подвох."
+    source: { kind: authored }
+  - form: "dodanym"
+    pl: "Składnikom dodanym na końcu trzeba dać czas."
+    ru: "Ингредиентам, добавленным в конце, надо дать время."
+    source: { kind: authored }
+  - form: "dodanym"
+    pl: "Z rozdziałem dodanym później nie ma problemu."
+    ru: "С главой, добавленной позже, проблем нет."
+    source: { kind: authored }
+  - form: "dodanymi"
+    pl: "Zajmujemy się punktami dodanymi do umowy."
+    ru: "Мы занимаемся пунктами, добавленными в договор."
+    source: { kind: authored }
+  - form: "dodanymi"
+    pl: "Między składnikami dodanymi na początku a na końcu jest różnica."
+    ru: "Между ингредиентами в начале и в конце есть разница."
+    source: { kind: authored }
+  - form: "dodanymi"
+    pl: "Z uwagami dodanymi na marginesie trzeba się liczyć."
+    ru: "С замечаниями на полях надо считаться."
     source: { kind: authored }
   - form: "dodasz"
     pl: "Jeśli dodasz więcej liści herbaty do imbryka, napar będzie smaczniejszy."

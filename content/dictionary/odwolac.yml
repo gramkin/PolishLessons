@@ -51,6 +51,8 @@ notes:
   - { kind: usage, text: "Страдательные формы odwołany, odwołana, odwołane «отменён, отменена, отменены» — обычная надпись на табло и в новостях." }
   - { kind: usage, text: "odwołać się do czegoś — «сослаться на что-то, прибегнуть к чему-то»; odwołać się od decyzji — «обжаловать решение»." }
   - { kind: usage, text: "Несовершенный вид — odwoływać: odwołuję «отменяю» — odwołam «отменю»." }
+  - { kind: usage, text: "Отглагольное существительное odwołanie значит не только «отмена», но и «апелляция, жалоба»: nie ma odwołania od tej decyzji «это решение обжалованию не подлежит», złożyć odwołanie «подать апелляцию»." }
+  - { kind: usage, text: "О человеке говорят odwołać kogoś ze stanowiska «отозвать, снять с должности»: minister został odwołany." }
 collocations:
   - { pl: "odwołać spotkanie", ru: "отменить встречу" }
   - { pl: "odwołać lot", ru: "отменить рейс" }
@@ -62,9 +64,6 @@ idioms:
   - { pl: "odwołać się od decyzji", ru: "обжаловать решение" }
   - { pl: "lot został odwołany", ru: "рейс отменён" }
 formExamplesSkip:
-  - { form: "odwoła", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołacie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołajcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwołaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -72,35 +71,41 @@ formExamplesSkip:
   - { form: "odwołałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odwołałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwołałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odwołałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwołałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odwołały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwołałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odwołałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "odwołałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odwołam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołaniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołanymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odwołasz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odwoławszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "odwoła"
+    pl: "Dyrektor odwoła zebranie."
+    ru: "Директор отменит собрание."
+    source: { kind: authored }
+  - form: "odwoła"
+    pl: "Nikt tego nie odwoła."
+    ru: "Никто этого не отменит."
+    source: { kind: authored }
+  - form: "odwoła"
+    pl: "Minister odwoła go ze stanowiska."
+    ru: "Министр отзовёт его с должности."
+    source: { kind: authored }
+  - form: "odwołacie"
+    pl: "Odwołacie zebranie?"
+    ru: "Вы отмените собрание?"
+    source: { kind: authored }
+  - form: "odwołacie"
+    pl: "Nie odwołacie tego, co powiedzieliście."
+    ru: "Вы не возьмёте назад то, что сказали."
+    source: { kind: authored }
+  - form: "odwołacie"
+    pl: "Odwołacie go ze stanowiska."
+    ru: "Вы отзовёте его с должности."
+    source: { kind: authored }
   - form: "odwołać"
     pl: "Możesz odwołać?"
     ru: "Ты можешь отменить?"
@@ -140,6 +145,18 @@ formExamples:
   - form: "odwołają"
     pl: "Jeśli będzie burza, odwołają koncert."
     ru: "Если будет гроза, концерт отменят."
+    source: { kind: authored }
+  - form: "odwołajcie"
+    pl: "Odwołajcie zebranie."
+    ru: "Отмените собрание."
+    source: { kind: authored }
+  - form: "odwołajcie"
+    pl: "Odwołajcie to, co powiedzieliście."
+    ru: "Возьмите назад то, что сказали."
+    source: { kind: authored }
+  - form: "odwołajcie"
+    pl: "Nie odwołajcie go zbyt pochopnie."
+    ru: "Не отзывайте его слишком поспешно."
     source: { kind: authored }
   - form: "odwołajmy"
     pl: "Lepiej odwołajmy wycieczkę."
@@ -205,6 +222,30 @@ formExamples:
     pl: "Firma odwołała spotkanie."
     ru: "Фирма отменила встречу."
     source: { kind: translated, id: 6534256 }
+  - form: "odwołałam"
+    pl: "Odwołałam zebranie."
+    ru: "Я отменила собрание."
+    source: { kind: authored }
+  - form: "odwołałam"
+    pl: "Nie odwołałam ani słowa."
+    ru: "Я не взяла назад ни слова."
+    source: { kind: authored }
+  - form: "odwołałam"
+    pl: "Odwołałam wizytę u lekarza."
+    ru: "Я отменила приём у врача."
+    source: { kind: authored }
+  - form: "odwołałaś"
+    pl: "Odwołałaś zebranie."
+    ru: "Ты отменила собрание."
+    source: { kind: authored }
+  - form: "odwołałaś"
+    pl: "Nie odwołałaś ani słowa."
+    ru: "Ты не взяла назад ни слова."
+    source: { kind: authored }
+  - form: "odwołałaś"
+    pl: "Odwołałaś wizytę u lekarza."
+    ru: "Ты отменила приём у врача."
+    source: { kind: authored }
   - form: "odwołałem"
     pl: "Odwołałem."
     ru: "Я отменил."
@@ -216,6 +257,66 @@ formExamples:
   - form: "odwołałem"
     pl: "Odwołałem wszystkie spotkania na dziś."
     ru: "Я отменил все встречи на сегодня."
+    source: { kind: authored }
+  - form: "odwołałeś"
+    pl: "Odwołałeś zebranie."
+    ru: "Ты отменил собрание."
+    source: { kind: authored }
+  - form: "odwołałeś"
+    pl: "Nie odwołałeś ani słowa."
+    ru: "Ты не взял назад ни слова."
+    source: { kind: authored }
+  - form: "odwołałeś"
+    pl: "Odwołałeś wizytę u lekarza."
+    ru: "Ты отменил приём у врача."
+    source: { kind: authored }
+  - form: "odwołało"
+    pl: "Ministerstwo odwołało konkurs."
+    ru: "Министерство отменило конкурс."
+    source: { kind: authored }
+  - form: "odwołało"
+    pl: "Miasto odwołało imprezę z powodu deszczu."
+    ru: "Город отменил мероприятие из-за дождя."
+    source: { kind: authored }
+  - form: "odwołało"
+    pl: "Nic tego nie odwołało."
+    ru: "Ничто этого не отменило."
+    source: { kind: authored }
+  - form: "odwołały"
+    pl: "Szkoły odwołały zajęcia."
+    ru: "Школы отменили занятия."
+    source: { kind: authored }
+  - form: "odwołały"
+    pl: "Linie lotnicze odwołały loty."
+    ru: "Авиакомпании отменили рейсы."
+    source: { kind: authored }
+  - form: "odwołały"
+    pl: "Te słowa niczego nie odwołały."
+    ru: "Эти слова ничего не отменили."
+    source: { kind: authored }
+  - form: "odwołam"
+    pl: "Odwołam zebranie."
+    ru: "Я отменю собрание."
+    source: { kind: authored }
+  - form: "odwołam"
+    pl: "Nie odwołam tego, co powiedziałem."
+    ru: "Я не возьму назад то, что сказал."
+    source: { kind: authored }
+  - form: "odwołam"
+    pl: "Odwołam wizytę u lekarza."
+    ru: "Я отменю приём у врача."
+    source: { kind: authored }
+  - form: "odwołamy"
+    pl: "Odwołamy zebranie."
+    ru: "Мы отменим собрание."
+    source: { kind: authored }
+  - form: "odwołamy"
+    pl: "Nie odwołamy tego, co powiedzieliśmy."
+    ru: "Мы не возьмём назад то, что сказали."
+    source: { kind: authored }
+  - form: "odwołamy"
+    pl: "Odwołamy go ze stanowiska."
+    ru: "Мы отзовём его с должности."
     source: { kind: authored }
   - form: "odwołana"
     pl: "Gra najprawdopodobniej zostanie odwołana."
@@ -229,6 +330,18 @@ formExamples:
     pl: "Szkoła została odwołana z powodu tajfunu."
     ru: "Занятия отменили из-за тайфуна."
     source: { kind: translated, id: 924468 }
+  - form: "odwołaną"
+    pl: "Znam imprezę odwołaną w ostatniej chwili."
+    ru: "Я знаю мероприятие, отменённое в последнюю минуту."
+    source: { kind: authored }
+  - form: "odwołaną"
+    pl: "Uznano decyzję za odwołaną."
+    ru: "Решение сочли отменённым."
+    source: { kind: authored }
+  - form: "odwołaną"
+    pl: "Zgłosił wizytę odwołaną w ostatniej chwili."
+    ru: "Он сообщил о приёме, отменённом в последнюю минуту."
+    source: { kind: authored }
   - form: "odwołane"
     pl: "Loty zostały odwołane."
     ru: "Рейсы отменили."
@@ -241,6 +354,66 @@ formExamples:
     pl: "Spotkanie zostało odwołane."
     ru: "Встречу отменили."
     source: { kind: translated, id: 6547843 }
+  - form: "odwołanego"
+    pl: "Nie ma tu nikogo odwołanego."
+    ru: "Здесь нет никого отозванного."
+    source: { kind: authored }
+  - form: "odwołanego"
+    pl: "Szukam ministra odwołanego w zeszłym roku."
+    ru: "Я ищу министра, отозванного в прошлом году."
+    source: { kind: authored }
+  - form: "odwołanego"
+    pl: "Od lotu odwołanego rano nie ma informacji."
+    ru: "О рейсе, отменённом утром, сведений нет."
+    source: { kind: authored }
+  - form: "odwołanej"
+    pl: "Nie znam imprezy odwołanej w ostatniej chwili."
+    ru: "Я не знаю мероприятия, отменённого в последнюю минуту."
+    source: { kind: authored }
+  - form: "odwołanej"
+    pl: "Szukamy wizyty odwołanej wczoraj."
+    ru: "Мы ищем приём, отменённый вчера."
+    source: { kind: authored }
+  - form: "odwołanej"
+    pl: "Po konferencji odwołanej w marcu nic nie zostało."
+    ru: "От конференции, отменённой в марте, ничего не осталось."
+    source: { kind: authored }
+  - form: "odwołanemu"
+    pl: "Odwołanemu urzędnikowi przysługuje odprawa."
+    ru: "Отозванному чиновнику полагается выходное пособие."
+    source: { kind: authored }
+  - form: "odwołanemu"
+    pl: "Przyjrzyj się odwołanemu lotowi."
+    ru: "Присмотрись к отменённому рейсу."
+    source: { kind: authored }
+  - form: "odwołanemu"
+    pl: "Daj odwołanemu dyrektorowi trochę czasu."
+    ru: "Дай отозванному директору немного времени."
+    source: { kind: authored }
+  - form: "odwołani"
+    pl: "Zostali odwołani ze stanowisk."
+    ru: "Их отозвали с должностей."
+    source: { kind: authored }
+  - form: "odwołani"
+    pl: "Odwołani urzędnicy złożyli skargę."
+    ru: "Отозванные чиновники подали жалобу."
+    source: { kind: authored }
+  - form: "odwołani"
+    pl: "Byli odwołani jeszcze przed końcem kadencji."
+    ru: "Их отозвали ещё до конца срока."
+    source: { kind: authored }
+  - form: "odwołania"
+    pl: "Nie ma odwołania od tej decyzji."
+    ru: "Обжалованию это решение не подлежит."
+    source: { kind: authored }
+  - form: "odwołania"
+    pl: "Termin odwołania minął."
+    ru: "Срок обжалования истёк."
+    source: { kind: authored }
+  - form: "odwołania"
+    pl: "Domagają się odwołania dyrektora."
+    ru: "Они требуют отставки директора."
+    source: { kind: authored }
   - form: "odwołanie"
     pl: "To było późne odwołanie."
     ru: "Это была поздняя отмена."
@@ -264,6 +437,18 @@ formExamples:
   - form: "odwołaniem"
     pl: "Zajął się odwołaniem od wyroku."
     ru: "Он занялся апелляцией на приговор."
+    source: { kind: authored }
+  - form: "odwołaniu"
+    pl: "Po odwołaniu lotu wrócili do domu."
+    ru: "После отмены рейса они вернулись домой."
+    source: { kind: authored }
+  - form: "odwołaniu"
+    pl: "O odwołaniu dyrektora zdecydowała rada."
+    ru: "Об отставке директора решил совет."
+    source: { kind: authored }
+  - form: "odwołaniu"
+    pl: "W odwołaniu napisał wszystko."
+    ru: "В апелляции он написал всё."
     source: { kind: authored }
   - form: "odwołano"
     pl: "Odwołano lot."
@@ -297,3 +482,51 @@ formExamples:
     pl: "Koniec świata odwołany."
     ru: "Конец света отменяется."
     source: { kind: translated, id: 13197401 }
+  - form: "odwołanych"
+    pl: "Nie ma tu odwołanych lotów."
+    ru: "Отменённых рейсов тут нет."
+    source: { kind: authored }
+  - form: "odwołanych"
+    pl: "Wśród odwołanych imprez jest i ta."
+    ru: "Среди отменённых мероприятий есть и это."
+    source: { kind: authored }
+  - form: "odwołanych"
+    pl: "Liczba odwołanych zajęć rośnie."
+    ru: "Число отменённых занятий растёт."
+    source: { kind: authored }
+  - form: "odwołanym"
+    pl: "Odwołanym urzędnikom przysługuje odprawa."
+    ru: "Отозванным чиновникам полагается пособие."
+    source: { kind: authored }
+  - form: "odwołanym"
+    pl: "W odwołanym locie było stu pasażerów."
+    ru: "В отменённом рейсе было сто пассажиров."
+    source: { kind: authored }
+  - form: "odwołanym"
+    pl: "Z odwołanym zebraniem nie ma problemu."
+    ru: "С отменённым собранием проблем нет."
+    source: { kind: authored }
+  - form: "odwołanymi"
+    pl: "Zajmujemy się lotami odwołanymi wczoraj."
+    ru: "Мы занимаемся рейсами, отменёнными вчера."
+    source: { kind: authored }
+  - form: "odwołanymi"
+    pl: "Między imprezami odwołanymi a przełożonymi jest różnica."
+    ru: "Между отменёнными и перенесёнными мероприятиями есть разница."
+    source: { kind: authored }
+  - form: "odwołanymi"
+    pl: "Z odwołanymi urzędnikami nikt nie rozmawiał."
+    ru: "С отозванными чиновниками никто не говорил."
+    source: { kind: authored }
+  - form: "odwołasz"
+    pl: "Odwołasz zebranie?"
+    ru: "Ты отменишь собрание?"
+    source: { kind: authored }
+  - form: "odwołasz"
+    pl: "Nie odwołasz tego, co powiedziałeś."
+    ru: "Ты не возьмёшь назад то, что сказал."
+    source: { kind: authored }
+  - form: "odwołasz"
+    pl: "Odwołasz go ze stanowiska."
+    ru: "Ты отзовёшь его с должности."
+    source: { kind: authored }
