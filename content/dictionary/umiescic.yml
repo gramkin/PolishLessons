@@ -58,7 +58,6 @@ formExamplesSkip:
   - { form: "umieszczonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "umieszczonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "umieścili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściliby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieścilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieścilibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -66,14 +65,10 @@ formExamplesSkip:
   - { form: "umieściłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umieściłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umieściłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umieściło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umieściły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umieściłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umieściłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -203,6 +198,18 @@ formExamples:
     pl: "Natrzeć ziemniaki olejem roślinnym i umieścić na przygotowanej blasze do pieczenia."
     ru: "Натереть картофель растительным маслом и поместить на подготовленный противень."
     source: { kind: translated, id: 13081738 }
+  - form: "umieścili"
+    pl: "Umieścili książkę na półce."
+    ru: "Они поставили книгу на полку."
+    source: { kind: authored }
+  - form: "umieścili"
+    pl: "Umieścili ogłoszenie w gazecie."
+    ru: "Они поместили объявление в газете."
+    source: { kind: authored }
+  - form: "umieścili"
+    pl: "Umieścili go w szpitalu."
+    ru: "Его поместили в больницу."
+    source: { kind: authored }
   - form: "umieściliście"
     pl: "Po cóż u diabła umieściliście to w menu?"
     ru: "Зачем вы вообще поместили это в меню?"
@@ -251,6 +258,18 @@ formExamples:
     pl: "Umieściłam dane w tabeli."
     ru: "Я разместила данные в таблице."
     source: { kind: authored }
+  - form: "umieściłaś"
+    pl: "Umieściłaś książkę na półce."
+    ru: "Ты поставила книгу на полку."
+    source: { kind: authored }
+  - form: "umieściłaś"
+    pl: "Umieściłaś ogłoszenie w gazecie."
+    ru: "Ты поместила объявление в газете."
+    source: { kind: authored }
+  - form: "umieściłaś"
+    pl: "Gdzie umieściłaś klucze?"
+    ru: "Куда ты положила ключи?"
+    source: { kind: authored }
   - form: "umieściłem"
     pl: "Umieściłem swoje imię na liście uczestników."
     ru: "Я поместил своё имя в список участников."
@@ -262,6 +281,42 @@ formExamples:
   - form: "umieściłem"
     pl: "Umieściłem plik w folderze."
     ru: "Я поместил файл в папку."
+    source: { kind: authored }
+  - form: "umieściłeś"
+    pl: "Umieściłeś książkę na półce."
+    ru: "Ты поставил книгу на полку."
+    source: { kind: authored }
+  - form: "umieściłeś"
+    pl: "Umieściłeś ogłoszenie w gazecie."
+    ru: "Ты поместил объявление в газете."
+    source: { kind: authored }
+  - form: "umieściłeś"
+    pl: "Gdzie umieściłeś klucze?"
+    ru: "Куда ты положил ключи?"
+    source: { kind: authored }
+  - form: "umieściło"
+    pl: "Wiele osób umieściło zdjęcia w sieci."
+    ru: "Многие выложили фотографии в сеть."
+    source: { kind: authored }
+  - form: "umieściło"
+    pl: "Miasto umieściło tablicę na murze."
+    ru: "Город поместил табличку на стене."
+    source: { kind: authored }
+  - form: "umieściło"
+    pl: "Dziecko umieściło rysunek na lodówce."
+    ru: "Ребёнок прикрепил рисунок на холодильник."
+    source: { kind: authored }
+  - form: "umieściły"
+    pl: "Kobiety umieściły ogłoszenie."
+    ru: "Женщины поместили объявление."
+    source: { kind: authored }
+  - form: "umieściły"
+    pl: "Firmy umieściły logo na stronie."
+    ru: "Фирмы разместили логотип на сайте."
+    source: { kind: authored }
+  - form: "umieściły"
+    pl: "Umieściły książki na półkach."
+    ru: "Они расставили книги по полкам."
     source: { kind: authored }
   - form: "umieścimy"
     pl: "Umieścimy książkę na półce."

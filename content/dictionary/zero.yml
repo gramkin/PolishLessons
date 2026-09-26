@@ -64,13 +64,19 @@ idioms:
   - { pl: "poniżej zera", ru: "ниже нуля" }
   - { pl: "zero absolutne", ru: "абсолютный ноль" }
   - { pl: "ogolony na zero", ru: "обритый наголо" }
-formExamplesSkip:
-  - { form: "zer", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zerach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zerami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zerom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zeru", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "zer"
+    pl: "W tej liczbie jest sześć zer."
+    ru: "В этом числе шесть нулей."
+    source: { kind: authored }
+  - form: "zer"
+    pl: "Nie liczył zer na czeku."
+    ru: "Он не считал нулей на чеке."
+    source: { kind: authored }
+  - form: "zer"
+    pl: "Po przecinku zostało kilka zer."
+    ru: "После запятой осталось несколько нулей."
+    source: { kind: authored }
   - form: "zera"
     pl: "Wystartowaliśmy od zera."
     ru: "Мы стартовали с нуля."
@@ -83,6 +89,30 @@ formExamples:
     pl: "Jest sześć stopni poniżej zera."
     ru: "Шесть градусов ниже нуля."
     source: { kind: translated, id: 3414031 }
+  - form: "zerach"
+    pl: "W tych zerach łatwo się pomylić."
+    ru: "В этих нулях легко ошибиться."
+    source: { kind: authored }
+  - form: "zerach"
+    pl: "O zerach i jedynkach mówi wykład."
+    ru: "О нулях и единицах рассказывает лекция."
+    source: { kind: authored }
+  - form: "zerach"
+    pl: "W zerach na końcu tkwi cała różnica."
+    ru: "Вся разница в нулях на конце."
+    source: { kind: authored }
+  - form: "zerami"
+    pl: "Liczba kończy się trzema zerami."
+    ru: "Число заканчивается тремя нулями."
+    source: { kind: authored }
+  - form: "zerami"
+    pl: "Między zerami a jedynkami nie ma nic."
+    ru: "Между нулями и единицами нет ничего."
+    source: { kind: authored }
+  - form: "zerami"
+    pl: "Operuje zerami i jedynkami."
+    ru: "Он оперирует нулями и единицами."
+    source: { kind: authored }
   - form: "zerem"
     pl: "Jestem zerem."
     ru: "Я ноль."
@@ -107,6 +137,30 @@ formExamples:
     pl: "Zero absolutne jest najniższą możliwą temperaturą."
     ru: "Абсолютный ноль — самая низкая возможная температура."
     source: { kind: translated, id: 2379978 }
+  - form: "zerom"
+    pl: "Przyjrzyj się tym zerom."
+    ru: "Присмотрись к этим нулям."
+    source: { kind: authored }
+  - form: "zerom"
+    pl: "Dzięki dodatkowym zerom suma urosła."
+    ru: "Из-за лишних нулей сумма выросла."
+    source: { kind: authored }
+  - form: "zerom"
+    pl: "Nie ufaj zerom na końcu."
+    ru: "Не доверяй нулям на конце."
+    source: { kind: authored }
+  - form: "zeru"
+    pl: "Przyjrzyj się temu zeru."
+    ru: "Присмотрись к этому нулю."
+    source: { kind: authored }
+  - form: "zeru"
+    pl: "Dzięki temu zeru wynik się zmienił."
+    ru: "Из-за этого нуля результат изменился."
+    source: { kind: authored }
+  - form: "zeru"
+    pl: "Nie daj się zwieść temu zeru."
+    ru: "Не дай этому нулю себя обмануть."
+    source: { kind: authored }
   - form: "zerze"
     pl: "Woda zamarza przy zerze stopni Celsjusza, nie?"
     ru: "Вода замерзает при нуле градусов Цельсия, верно?"

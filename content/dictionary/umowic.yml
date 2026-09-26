@@ -57,7 +57,6 @@ idioms:
   - { pl: "umówiona wizyta", ru: "назначенный приём" }
 formExamplesSkip:
   - { form: "umówcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "umówią", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umówicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umówienia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "umówieniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
@@ -68,15 +67,10 @@ formExamplesSkip:
   - { form: "umówiłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umówiłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umówiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umówiłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umówiłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "umówiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umówiłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "umówiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "umówiłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "umówiłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -105,6 +99,18 @@ formExamples:
   - form: "umówi"
     pl: "Sekretarka umówi spotkanie."
     ru: "Секретарь назначит встречу."
+    source: { kind: authored }
+  - form: "umówią"
+    pl: "Umówią cię na jutro."
+    ru: "Тебя запишут на завтра."
+    source: { kind: authored }
+  - form: "umówią"
+    pl: "Umówią się na piątek."
+    ru: "Они договорятся на пятницу."
+    source: { kind: authored }
+  - form: "umówią"
+    pl: "Nikogo nie umówią bez zgody."
+    ru: "Никого не запишут без согласия."
     source: { kind: authored }
   - form: "umówić"
     pl: "Mogę się umówić na badanie lekarskie?"
@@ -214,6 +220,30 @@ formExamples:
     pl: "Umówiła wizytę u lekarza."
     ru: "Она записалась на приём к врачу."
     source: { kind: authored }
+  - form: "umówiłam"
+    pl: "Umówiłam cię na jutro."
+    ru: "Я записала тебя на завтра."
+    source: { kind: authored }
+  - form: "umówiłam"
+    pl: "Umówiłam się na piątek."
+    ru: "Я договорилась на пятницу."
+    source: { kind: authored }
+  - form: "umówiłam"
+    pl: "Nikogo nie umówiłam."
+    ru: "Я никого не записала."
+    source: { kind: authored }
+  - form: "umówiłaś"
+    pl: "Umówiłaś mnie na jutro."
+    ru: "Ты записала меня на завтра."
+    source: { kind: authored }
+  - form: "umówiłaś"
+    pl: "Umówiłaś się na piątek."
+    ru: "Ты договорилась на пятницу."
+    source: { kind: authored }
+  - form: "umówiłaś"
+    pl: "Nikogo nie umówiłaś."
+    ru: "Ты никого не записала."
+    source: { kind: authored }
   - form: "umówiłem"
     pl: "Umówiłem się z nim o siódmej."
     ru: "Я договорился с ним на семь."
@@ -225,6 +255,42 @@ formExamples:
   - form: "umówiłem"
     pl: "Umówiłem się na jutro."
     ru: "Я договорился на завтра."
+    source: { kind: authored }
+  - form: "umówiłeś"
+    pl: "Umówiłeś mnie na jutro."
+    ru: "Ты записал меня на завтра."
+    source: { kind: authored }
+  - form: "umówiłeś"
+    pl: "Umówiłeś się na piątek."
+    ru: "Ты договорился на пятницу."
+    source: { kind: authored }
+  - form: "umówiłeś"
+    pl: "Nikogo nie umówiłeś."
+    ru: "Ты никого не записал."
+    source: { kind: authored }
+  - form: "umówiło"
+    pl: "Wiele osób umówiło się na ten termin."
+    ru: "Многие записались на этот срок."
+    source: { kind: authored }
+  - form: "umówiło"
+    pl: "Biuro umówiło nas na poniedziałek."
+    ru: "Контора записала нас на понедельник."
+    source: { kind: authored }
+  - form: "umówiło"
+    pl: "Dziecko umówiło się z kolegą."
+    ru: "Ребёнок договорился с приятелем."
+    source: { kind: authored }
+  - form: "umówiły"
+    pl: "Kobiety umówiły się na kawę."
+    ru: "Женщины договорились о кофе."
+    source: { kind: authored }
+  - form: "umówiły"
+    pl: "Firmy umówiły spotkanie."
+    ru: "Фирмы назначили встречу."
+    source: { kind: authored }
+  - form: "umówiły"
+    pl: "Nikogo nie umówiły."
+    ru: "Они никого не записали."
     source: { kind: authored }
   - form: "umówioną"
     pl: "Mam umówioną wizytę u lekarza."

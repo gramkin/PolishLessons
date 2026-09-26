@@ -56,26 +56,20 @@ formExamplesSkip:
   - { form: "przeprosiłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprosiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprosiłby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprosiłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeprosiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprosiłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przeprosiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeprosiłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przeprosimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
   - { form: "przeprosiwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "przeproszą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeproszeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeproszenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "przeproszenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "przeproszeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "przeproszę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeproszona", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeproszoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "przeproszone", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -174,6 +168,18 @@ formExamples:
     pl: "Przeprosiłam go szczerze."
     ru: "Я искренне перед ним извинилась."
     source: { kind: authored }
+  - form: "przeprosiłaś"
+    pl: "Przeprosiłaś go?"
+    ru: "Ты перед ним извинилась?"
+    source: { kind: authored }
+  - form: "przeprosiłaś"
+    pl: "Przeprosiłaś za spóźnienie."
+    ru: "Ты извинилась за опоздание."
+    source: { kind: authored }
+  - form: "przeprosiłaś"
+    pl: "Nikogo nie przeprosiłaś."
+    ru: "Ты ни перед кем не извинилась."
+    source: { kind: authored }
   - form: "przeprosiłem"
     pl: "Przeprosiłem."
     ru: "Я извинился."
@@ -185,6 +191,42 @@ formExamples:
   - form: "przeprosiłem"
     pl: "Przeprosiłem za swoje słowa."
     ru: "Я извинился за свои слова."
+    source: { kind: authored }
+  - form: "przeprosiłeś"
+    pl: "Przeprosiłeś go?"
+    ru: "Ты перед ним извинился?"
+    source: { kind: authored }
+  - form: "przeprosiłeś"
+    pl: "Przeprosiłeś za spóźnienie."
+    ru: "Ты извинился за опоздание."
+    source: { kind: authored }
+  - form: "przeprosiłeś"
+    pl: "Nikogo nie przeprosiłeś."
+    ru: "Ты ни перед кем не извинился."
+    source: { kind: authored }
+  - form: "przeprosiło"
+    pl: "Wiele osób przeprosiło za zamieszanie."
+    ru: "Многие извинились за путаницу."
+    source: { kind: authored }
+  - form: "przeprosiło"
+    pl: "Dziecko przeprosiło za hałas."
+    ru: "Ребёнок извинился за шум."
+    source: { kind: authored }
+  - form: "przeprosiło"
+    pl: "Miasto przeprosiło mieszkańców."
+    ru: "Город извинился перед жителями."
+    source: { kind: authored }
+  - form: "przeprosiły"
+    pl: "Kobiety przeprosiły za spóźnienie."
+    ru: "Женщины извинились за опоздание."
+    source: { kind: authored }
+  - form: "przeprosiły"
+    pl: "Firmy przeprosiły klientów."
+    ru: "Фирмы извинились перед клиентами."
+    source: { kind: authored }
+  - form: "przeprosiły"
+    pl: "Nikogo nie przeprosiły."
+    ru: "Они ни перед кем не извинились."
     source: { kind: authored }
   - form: "przeprosiłyśmy"
     pl: "Przeprosiłyśmy."
@@ -210,6 +252,18 @@ formExamples:
     pl: "Czy przeprosisz mamę?"
     ru: "Ты извинишься перед мамой?"
     source: { kind: authored }
+  - form: "przeproszą"
+    pl: "Przeproszą cię jutro."
+    ru: "Они извинятся перед тобой завтра."
+    source: { kind: authored }
+  - form: "przeproszą"
+    pl: "Przeproszą za spóźnienie."
+    ru: "Они извинятся за опоздание."
+    source: { kind: authored }
+  - form: "przeproszą"
+    pl: "Nikogo nie przeproszą."
+    ru: "Они ни перед кем не извинятся."
+    source: { kind: authored }
   - form: "przeproszeniem"
     pl: "Za przeproszeniem, muszę wyjść."
     ru: "С позволения сказать, мне нужно выйти."
@@ -221,6 +275,18 @@ formExamples:
   - form: "przeproszeniem"
     pl: "Za przeproszeniem, nie zgadzam się."
     ru: "С позволения сказать, я не согласен."
+    source: { kind: authored }
+  - form: "przeproszę"
+    pl: "Przeproszę go jutro."
+    ru: "Я извинюсь перед ним завтра."
+    source: { kind: authored }
+  - form: "przeproszę"
+    pl: "Przeproszę za spóźnienie."
+    ru: "Я извинюсь за опоздание."
+    source: { kind: authored }
+  - form: "przeproszę"
+    pl: "Nikogo nie przeproszę."
+    ru: "Я ни перед кем не извинюсь."
     source: { kind: authored }
   - form: "przeproś"
     pl: "Przeproś."
