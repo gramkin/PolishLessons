@@ -51,15 +51,11 @@ idioms:
   - { pl: "zdążyć na czas", ru: "успеть вовремя" }
   - { pl: "nie zdążę", ru: "я не успею" }
 formExamplesSkip:
-  - { form: "zdąż", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdążcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdążenia", reason: "формы отглагольного существительного, в статье глагола примеры не приводятся" }
   - { form: "zdążenie", reason: "формы отглагольного существительного, в статье глагола примеры не приводятся" }
   - { form: "zdążeniem", reason: "формы отглагольного существительного, в статье глагола примеры не приводятся" }
   - { form: "zdążeniu", reason: "формы отглагольного существительного, в статье глагола примеры не приводятся" }
-  - { form: "zdążmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdążono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
-  - { form: "zdążycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdążyli", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
   - { form: "zdążyliby", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
   - { form: "zdążylibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
@@ -73,17 +69,25 @@ formExamplesSkip:
   - { form: "zdążyłby", reason: "в корпусе единичные примеры; для карточки выбраны более частотные формы" }
   - { form: "zdążyłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zdążyłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zdążyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zdążyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdążyłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "zdążyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zdążyłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zdążyłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zdążyłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
   - { form: "zdążyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "zdążyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "zdążywszy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "zdąż"
+    pl: "Zdąż na ostatni pociąg."
+    ru: "Успей на последний поезд."
+    source: { kind: authored }
+  - form: "zdąż"
+    pl: "Zdąż przed zamknięciem sklepu."
+    ru: "Успей до закрытия магазина."
+    source: { kind: authored }
+  - form: "zdąż"
+    pl: "Zdąż z tym do piątku."
+    ru: "Успей с этим к пятнице."
+    source: { kind: authored }
   - form: "zdążą"
     pl: "Tom i Mary nie zdążą na czas."
     ru: "Том и Мэри не успеют вовремя."
@@ -95,6 +99,18 @@ formExamples:
   - form: "zdążą"
     pl: "Czy zdążą przed zmrokiem?"
     ru: "Успеют ли они до темноты?"
+    source: { kind: authored }
+  - form: "zdążcie"
+    pl: "Zdążcie na ostatni pociąg."
+    ru: "Успейте на последний поезд."
+    source: { kind: authored }
+  - form: "zdążcie"
+    pl: "Zdążcie przed zamknięciem sklepu."
+    ru: "Успейте до закрытия магазина."
+    source: { kind: authored }
+  - form: "zdążcie"
+    pl: "Zdążcie z tym do piątku."
+    ru: "Успейте с этим к пятнице."
     source: { kind: authored }
   - form: "zdążę"
     pl: "Nie zdążę."
@@ -108,6 +124,18 @@ formExamples:
     pl: "Zdążę na ostatni autobus."
     ru: "Я успею на последний автобус."
     source: { kind: authored }
+  - form: "zdążmy"
+    pl: "Zdążmy na ostatni pociąg."
+    ru: "Успеем на последний поезд."
+    source: { kind: authored }
+  - form: "zdążmy"
+    pl: "Zdążmy przed zamknięciem sklepu."
+    ru: "Успеем до закрытия магазина."
+    source: { kind: authored }
+  - form: "zdążmy"
+    pl: "Zdążmy z tym do piątku."
+    ru: "Успеем с этим к пятнице."
+    source: { kind: authored }
   - form: "zdąży"
     pl: "Tom nie zdąży."
     ru: "Том не успеет."
@@ -120,6 +148,18 @@ formExamples:
     pl: "Chyba nie zdąży na spotkanie."
     ru: "Кажется, он не успеет на встречу."
     source: { kind: translated, id: 368493 }
+  - form: "zdążycie"
+    pl: "Zdążycie na ostatni pociąg?"
+    ru: "Вы успеете на последний поезд?"
+    source: { kind: authored }
+  - form: "zdążycie"
+    pl: "Nie zdążycie przed zamknięciem."
+    ru: "Вы не успеете до закрытия."
+    source: { kind: authored }
+  - form: "zdążycie"
+    pl: "Zdążycie z tym do piątku?"
+    ru: "Вы успеете с этим к пятнице?"
+    source: { kind: authored }
   - form: "zdążyć"
     pl: "Muszę zdążyć na autobus."
     ru: "Мне нужно успеть на автобус."
@@ -180,6 +220,42 @@ formExamples:
     pl: "Na szczęście zdążyłem na czas."
     ru: "К счастью, я успел вовремя."
     source: { kind: tatoeba, id: 6328201 }
+  - form: "zdążyłeś"
+    pl: "Zdążyłeś na pociąg?"
+    ru: "Ты успел на поезд?"
+    source: { kind: authored }
+  - form: "zdążyłeś"
+    pl: "Nie zdążyłeś z tym do piątku."
+    ru: "Ты не успел с этим к пятнице."
+    source: { kind: authored }
+  - form: "zdążyłeś"
+    pl: "Ledwo zdążyłeś przed zamknięciem."
+    ru: "Ты еле успел до закрытия."
+    source: { kind: authored }
+  - form: "zdążyło"
+    pl: "Dziecko nie zdążyło na lekcje."
+    ru: "Ребёнок не успел на уроки."
+    source: { kind: authored }
+  - form: "zdążyło"
+    pl: "Ciasto nie zdążyło wyrosnąć."
+    ru: "Тесто не успело подняться."
+    source: { kind: authored }
+  - form: "zdążyło"
+    pl: "Słońce zdążyło już zajść."
+    ru: "Солнце уже успело зайти."
+    source: { kind: authored }
+  - form: "zdążyły"
+    pl: "Dzieci nie zdążyły na lekcje."
+    ru: "Дети не успели на уроки."
+    source: { kind: authored }
+  - form: "zdążyły"
+    pl: "Kwiaty zdążyły zakwitnąć."
+    ru: "Цветы успели зацвести."
+    source: { kind: authored }
+  - form: "zdążyły"
+    pl: "Pociągi nie zdążyły przed burzą."
+    ru: "Поезда не успели до грозы."
+    source: { kind: authored }
   - form: "zdążymy"
     pl: "Myślę, że spokojnie zdążymy."
     ru: "Думаю, мы спокойно успеем."
@@ -204,3 +280,15 @@ formExamples:
     pl: "Jeśli się pospieszysz, zdążysz."
     ru: "Если поторопишься, успеешь."
     source: { kind: translated, id: 360134 }
+  - form: "zdążywszy"
+    pl: "Zdążywszy na ostatni pociąg, odetchnął z ulgą."
+    ru: "Успев на последний поезд, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "zdążywszy"
+    pl: "Nie zdążywszy na samolot, wrócili do domu."
+    ru: "Не успев на самолёт, они вернулись домой."
+    source: { kind: authored }
+  - form: "zdążywszy"
+    pl: "Zdążywszy przed burzą, schowali siano."
+    ru: "Успев до грозы, они убрали сено."
+    source: { kind: authored }
