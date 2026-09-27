@@ -36,6 +36,8 @@ notes:
   - { kind: government, text: "objąć kogoś ramieniem «обнять кого-л. за плечи»; objąć coś wzrokiem «охватить что-л. взглядом»." }
   - { kind: usage, text: "Очень частые обороты с должностью и властью: objąć stanowisko «занять должность», objąć władzę «взять власть»." }
   - { kind: false-friend, text: "Здесь языки родственны: objąć — то же самое, что русское «объять, обнять», от старого jąć «взять»." }
+  - { kind: usage, text: "Отглагольное существительное objęcie значит и «вступление» (objęcie stanowiska), и, во множественном числе, «объятия»: rzucili się sobie w objęcia." }
+  - { kind: usage, text: "Причастие objęty очень частотно в значении «охваченный, подпадающий под»: objęty ochroną, objęty kwarantanną, objęty programem." }
 collocations:
   - { pl: "objąć stanowisko", ru: "занять должность" }
   - { pl: "objąć władzę", ru: "взять власть" }
@@ -47,22 +49,10 @@ idioms:
   - { pl: "objąć stanowisko", ru: "занять должность" }
   - { pl: "objąć kogoś ramieniem", ru: "обнять кого-л. за плечи" }
 formExamplesSkip:
-  - { form: "obejmą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmiecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmiemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmiesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmijcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "obejmijmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "objąłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objąłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objąłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "objąłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "objąwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "objęci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęcia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęciem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "objęliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęlibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęlibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -71,25 +61,37 @@ formExamplesSkip:
   - { form: "objęłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "objęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "objęłoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "objęłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "objęłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "objęta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objęty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "objętymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "obejmą"
+    pl: "Obejmą cię na pożegnanie."
+    ru: "Они обнимут тебя на прощание."
+    source: { kind: authored }
+  - form: "obejmą"
+    pl: "Obejmą stanowiska od stycznia."
+    ru: "Они займут должности с января."
+    source: { kind: authored }
+  - form: "obejmą"
+    pl: "Zmiany obejmą całą firmę."
+    ru: "Перемены охватят всю фирму."
+    source: { kind: authored }
+  - form: "obejmę"
+    pl: "Obejmę cię na pożegnanie."
+    ru: "Я обниму тебя на прощание."
+    source: { kind: authored }
+  - form: "obejmę"
+    pl: "Obejmę stanowisko od stycznia."
+    ru: "Я займу должность с января."
+    source: { kind: authored }
+  - form: "obejmę"
+    pl: "Nie obejmę tego wszystkiego naraz."
+    ru: "Я не охвачу всё это сразу."
+    source: { kind: authored }
   - form: "obejmie"
     pl: "On obejmie tę klasę."
     ru: "Он возьмёт этот класс."
@@ -102,6 +104,42 @@ formExamples:
     pl: "Nowa ustawa obejmie wszystkich."
     ru: "Новый закон охватит всех."
     source: { kind: authored }
+  - form: "obejmiecie"
+    pl: "Obejmiecie mnie na pożegnanie?"
+    ru: "Вы обнимете меня на прощание?"
+    source: { kind: authored }
+  - form: "obejmiecie"
+    pl: "Obejmiecie stanowiska od stycznia."
+    ru: "Вы займёте должности с января."
+    source: { kind: authored }
+  - form: "obejmiecie"
+    pl: "Nie obejmiecie tego wszystkiego naraz."
+    ru: "Вы не охватите всё это сразу."
+    source: { kind: authored }
+  - form: "obejmiemy"
+    pl: "Obejmiemy cię na pożegnanie."
+    ru: "Мы обнимем тебя на прощание."
+    source: { kind: authored }
+  - form: "obejmiemy"
+    pl: "Obejmiemy stanowiska od stycznia."
+    ru: "Мы займём должности с января."
+    source: { kind: authored }
+  - form: "obejmiemy"
+    pl: "Nie obejmiemy tego wszystkiego naraz."
+    ru: "Мы не охватим всё это сразу."
+    source: { kind: authored }
+  - form: "obejmiesz"
+    pl: "Obejmiesz mnie na pożegnanie?"
+    ru: "Ты обнимешь меня на прощание?"
+    source: { kind: authored }
+  - form: "obejmiesz"
+    pl: "Obejmiesz stanowisko od stycznia."
+    ru: "Ты займёшь должность с января."
+    source: { kind: authored }
+  - form: "obejmiesz"
+    pl: "Nie obejmiesz tego wszystkiego naraz."
+    ru: "Ты не охватишь всё это сразу."
+    source: { kind: authored }
   - form: "obejmij"
     pl: "Obejmij mnie."
     ru: "Обними меня."
@@ -113,6 +151,30 @@ formExamples:
   - form: "obejmij"
     pl: "Obejmij dziecko."
     ru: "Обними ребёнка."
+    source: { kind: authored }
+  - form: "obejmijcie"
+    pl: "Obejmijcie się na zgodę."
+    ru: "Обнимитесь в знак примирения."
+    source: { kind: authored }
+  - form: "obejmijcie"
+    pl: "Obejmijcie stanowiska od stycznia."
+    ru: "Займите должности с января."
+    source: { kind: authored }
+  - form: "obejmijcie"
+    pl: "Obejmijcie wzrokiem całą dolinę."
+    ru: "Охватите взглядом всю долину."
+    source: { kind: authored }
+  - form: "obejmijmy"
+    pl: "Obejmijmy się na zgodę."
+    ru: "Обнимемся в знак примирения."
+    source: { kind: authored }
+  - form: "obejmijmy"
+    pl: "Obejmijmy stanowiska od stycznia."
+    ru: "Займём должности с января."
+    source: { kind: authored }
+  - form: "obejmijmy"
+    pl: "Obejmijmy wzrokiem całą dolinę."
+    ru: "Охватим взглядом всю долину."
     source: { kind: authored }
   - form: "objąć"
     pl: "Bill był zbyt młody aby objąć stanowisko."
@@ -138,6 +200,54 @@ formExamples:
     pl: "Tomo objął swojego ojca."
     ru: "Томо обнял своего отца."
     source: { kind: translated, id: 4969689 }
+  - form: "objąłem"
+    pl: "Objąłem ją na pożegnanie."
+    ru: "Я обнял её на прощание."
+    source: { kind: authored }
+  - form: "objąłem"
+    pl: "Objąłem stanowisko w styczniu."
+    ru: "Я занял должность в январе."
+    source: { kind: authored }
+  - form: "objąłem"
+    pl: "Nie objąłem tego wszystkiego naraz."
+    ru: "Я не охватил всё это сразу."
+    source: { kind: authored }
+  - form: "objąłeś"
+    pl: "Objąłeś ją na pożegnanie."
+    ru: "Ты обнял её на прощание."
+    source: { kind: authored }
+  - form: "objąłeś"
+    pl: "Objąłeś stanowisko w styczniu."
+    ru: "Ты занял должность в январе."
+    source: { kind: authored }
+  - form: "objąłeś"
+    pl: "Nie objąłeś tego wszystkiego naraz."
+    ru: "Ты не охватил всё это сразу."
+    source: { kind: authored }
+  - form: "objęci"
+    pl: "Objęci programem uczniowie dostają obiady."
+    ru: "Ученики, охваченные программой, получают обеды."
+    source: { kind: authored }
+  - form: "objęci"
+    pl: "Byli objęci opieką od dziecka."
+    ru: "Они были под опекой с детства."
+    source: { kind: authored }
+  - form: "objęci"
+    pl: "Objęci amnestią wyszli na wolność."
+    ru: "Попавшие под амнистию вышли на свободу."
+    source: { kind: authored }
+  - form: "objęcia"
+    pl: "Rzucili się sobie w objęcia."
+    ru: "Они бросились друг другу в объятия."
+    source: { kind: authored }
+  - form: "objęcia"
+    pl: "Do objęcia stanowiska został tydzień."
+    ru: "До вступления в должность осталась неделя."
+    source: { kind: authored }
+  - form: "objęcia"
+    pl: "Bez objęcia ochroną park zniknie."
+    ru: "Без взятия под охрану парк исчезнет."
+    source: { kind: authored }
   - form: "objęcie"
     pl: "Objęcie stanowiska nastąpi w maju."
     ru: "Вступление в должность состоится в мае."
@@ -149,6 +259,18 @@ formExamples:
   - form: "objęcie"
     pl: "To było krótkie objęcie."
     ru: "Это было короткое объятие."
+    source: { kind: authored }
+  - form: "objęciem"
+    pl: "Przed objęciem stanowiska złożył przysięgę."
+    ru: "Перед вступлением в должность он принёс присягу."
+    source: { kind: authored }
+  - form: "objęciem"
+    pl: "Między wyborem a objęciem urzędu minął miesiąc."
+    ru: "Между выборами и вступлением в должность прошёл месяц."
+    source: { kind: authored }
+  - form: "objęciem"
+    pl: "Powitał ją serdecznym objęciem."
+    ru: "Он встретил её сердечным объятием."
     source: { kind: authored }
   - form: "objęciu"
     pl: "Będziemy spały w objęciu."
@@ -186,6 +308,42 @@ formExamples:
     pl: "Dziewczynka objęła ojca za szyję."
     ru: "Девочка обняла отца за шею."
     source: { kind: translated, id: 924533 }
+  - form: "objęłam"
+    pl: "Objęłam go na pożegnanie."
+    ru: "Я обняла его на прощание."
+    source: { kind: authored }
+  - form: "objęłam"
+    pl: "Objęłam stanowisko w styczniu."
+    ru: "Я заняла должность в январе."
+    source: { kind: authored }
+  - form: "objęłam"
+    pl: "Nie objęłam tego wszystkiego naraz."
+    ru: "Я не охватила всё это сразу."
+    source: { kind: authored }
+  - form: "objęłaś"
+    pl: "Objęłaś go na pożegnanie."
+    ru: "Ты обняла его на прощание."
+    source: { kind: authored }
+  - form: "objęłaś"
+    pl: "Objęłaś stanowisko w styczniu."
+    ru: "Ты заняла должность в январе."
+    source: { kind: authored }
+  - form: "objęłaś"
+    pl: "Nie objęłaś tego wszystkiego naraz."
+    ru: "Ты не охватила всё это сразу."
+    source: { kind: authored }
+  - form: "objęło"
+    pl: "Dziecko objęło matkę."
+    ru: "Ребёнок обнял мать."
+    source: { kind: authored }
+  - form: "objęło"
+    pl: "Miasto objęło patronat nad szkołą."
+    ru: "Город взял шефство над школой."
+    source: { kind: authored }
+  - form: "objęło"
+    pl: "Zamieszanie objęło całą salę."
+    ru: "Суматоха охватила весь зал."
+    source: { kind: authored }
   - form: "objęły"
     pl: "Objęły się."
     ru: "Они обнялись."
@@ -198,6 +356,30 @@ formExamples:
     pl: "Objęły się serdecznie."
     ru: "Они сердечно обнялись."
     source: { kind: translated, id: 12239887 }
+  - form: "objęta"
+    pl: "Cała wieś jest objęta kwarantanną."
+    ru: "Вся деревня на карантине."
+    source: { kind: authored }
+  - form: "objęta"
+    pl: "Sprawa jest objęta tajemnicą."
+    ru: "Дело покрыто тайной."
+    source: { kind: authored }
+  - form: "objęta"
+    pl: "Ziemia objęta ochroną nie może być sprzedana."
+    ru: "Земля под охраной не может быть продана."
+    source: { kind: authored }
+  - form: "objętą"
+    pl: "Znam wieś objętą kwarantanną."
+    ru: "Я знаю деревню, закрытую на карантин."
+    source: { kind: authored }
+  - form: "objętą"
+    pl: "Uznano sprawę za objętą tajemnicą."
+    ru: "Дело сочли покрытым тайной."
+    source: { kind: authored }
+  - form: "objętą"
+    pl: "Widziałem ziemię objętą ochroną."
+    ru: "Я видел землю под охраной."
+    source: { kind: authored }
   - form: "objęte"
     pl: "Tereny objęte wojną są niebezpieczne."
     ru: "Территории, охваченные войной, опасны."
@@ -210,6 +392,66 @@ formExamples:
     pl: "Wszystkie domy są objęte ubezpieczeniem."
     ru: "Все дома охвачены страховкой."
     source: { kind: authored }
+  - form: "objętego"
+    pl: "Nie ma tu nikogo objętego programem."
+    ru: "Здесь нет никого, охваченного программой."
+    source: { kind: authored }
+  - form: "objętego"
+    pl: "Szukam terenu objętego ochroną."
+    ru: "Я ищу территорию под охраной."
+    source: { kind: authored }
+  - form: "objętego"
+    pl: "Od ucznia objętego opieką wymaga się mniej."
+    ru: "От ученика под опекой требуют меньше."
+    source: { kind: authored }
+  - form: "objętej"
+    pl: "Nie znam wsi objętej kwarantanną."
+    ru: "Я не знаю деревни, закрытой на карантин."
+    source: { kind: authored }
+  - form: "objętej"
+    pl: "Szukamy sprawy objętej tajemnicą."
+    ru: "Мы ищем дело, покрытое тайной."
+    source: { kind: authored }
+  - form: "objętej"
+    pl: "Po ziemi objętej ochroną nie wolno jeździć."
+    ru: "По земле под охраной ездить нельзя."
+    source: { kind: authored }
+  - form: "objętemu"
+    pl: "Przyjrzyj się terenowi objętemu ochroną."
+    ru: "Присмотрись к территории под охраной."
+    source: { kind: authored }
+  - form: "objętemu"
+    pl: "Uczniowi objętemu programem należy się obiad."
+    ru: "Ученику, охваченному программой, полагается обед."
+    source: { kind: authored }
+  - form: "objętemu"
+    pl: "Daj pierwszeństwo obszarowi objętemu remontem."
+    ru: "Отдай предпочтение участку, охваченному ремонтом."
+    source: { kind: authored }
+  - form: "objęto"
+    pl: "Objęto go opieką lekarską."
+    ru: "Его взяли под врачебное наблюдение."
+    source: { kind: authored }
+  - form: "objęto"
+    pl: "Objęto ochroną cały park."
+    ru: "Весь парк взяли под охрану."
+    source: { kind: authored }
+  - form: "objęto"
+    pl: "Objęto amnestią kilkuset więźniów."
+    ru: "Под амнистию попали несколько сотен заключённых."
+    source: { kind: authored }
+  - form: "objęty"
+    pl: "Teren jest objęty ochroną."
+    ru: "Территория под охраной."
+    source: { kind: authored }
+  - form: "objęty"
+    pl: "Był objęty opieką od dziecka."
+    ru: "Он был под опекой с детства."
+    source: { kind: authored }
+  - form: "objęty"
+    pl: "Ten obszar jest objęty remontem."
+    ru: "Этот участок охвачен ремонтом."
+    source: { kind: authored }
   - form: "objętych"
     pl: "Nie dodawaj zdań ze źródeł objętych prawami autorskimi."
     ru: "Не добавляйте предложения из источников, защищённых авторским правом."
@@ -221,4 +463,28 @@ formExamples:
   - form: "objętych"
     pl: "Lista domów objętych remontem jest długa."
     ru: "Список домов, охваченных ремонтом, длинный."
+    source: { kind: authored }
+  - form: "objętym"
+    pl: "W terenie objętym ochroną nie wolno budować."
+    ru: "На территории под охраной строить нельзя."
+    source: { kind: authored }
+  - form: "objętym"
+    pl: "Uczniom objętym programem przysługuje obiad."
+    ru: "Ученикам, охваченным программой, полагается обед."
+    source: { kind: authored }
+  - form: "objętym"
+    pl: "Z obszarem objętym remontem trzeba się liczyć."
+    ru: "С участком, охваченным ремонтом, надо считаться."
+    source: { kind: authored }
+  - form: "objętymi"
+    pl: "Zajmujemy się terenami objętymi ochroną."
+    ru: "Мы занимаемся территориями под охраной."
+    source: { kind: authored }
+  - form: "objętymi"
+    pl: "Między sprawami objętymi tajemnicą a jawnymi jest różnica."
+    ru: "Между делами под грифом и открытыми есть разница."
+    source: { kind: authored }
+  - form: "objętymi"
+    pl: "Z obszarami objętymi remontem bywa kłopot."
+    ru: "С участками, охваченными ремонтом, бывают хлопоты."
     source: { kind: authored }
