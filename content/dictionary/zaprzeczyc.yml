@@ -33,6 +33,7 @@ notes:
   - { kind: usage, text: "Часто с придаточным: zaprzeczył, że… «он отрицал, что…» или zaprzeczyła, jakoby… «она отрицала, будто…»." }
   - { kind: usage, text: "Несовершенный вид — zaprzeczać; существительное zaprzeczenie «отрицание»." }
   - { kind: false-friend, text: "Корень przeczyć «противоречить» — ср. русское «перечить», «поперёк»." }
+  - { kind: government, text: "У глагола два управления: zaprzeczyć czemuś с дательным (zaprzeczyć oskarżeniom) и zaprzeczyć coś с винительным (nie można tego zaprzeczyć). Именно второе даёт страдательное причастие: teza zaprzeczona." }
 collocations:
   - { pl: "zaprzeczyć oskarżeniom", ru: "отвергнуть обвинения" }
   - { pl: "nie da się zaprzeczyć", ru: "нельзя отрицать" }
@@ -41,26 +42,8 @@ memory: "zaprzeczyć — «отрицать», но с ДАТЕЛЬНЫМ пад
 idioms:
   - { pl: "nie da się zaprzeczyć", ru: "нельзя отрицать" }
 formExamplesSkip:
-  - { form: "zaprzecz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zaprzeczeni", reason: "отрицают утверждение, слух или обвинение, но не человека. Страдательное причастие поэтому говорится о сказанном — teza zaprzeczona przez badania, — а мужско-личной формы у глагола нет" }
   - { form: "zaprzeczono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "zaprzeczony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaprzeczyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -69,24 +52,53 @@ formExamplesSkip:
   - { form: "zaprzeczyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaprzeczyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaprzeczyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaprzeczyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaprzeczyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaprzeczyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaprzeczyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zaprzeczyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "zaprzeczyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zaprzeczymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zaprzeczysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zaprzeczywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "zaprzecz"
+    pl: "Zaprzecz, jeśli to nieprawda."
+    ru: "Отрицай, если это неправда."
+    source: { kind: authored }
+  - form: "zaprzecz"
+    pl: "Zaprzecz oskarżeniom."
+    ru: "Отвергни обвинения."
+    source: { kind: authored }
+  - form: "zaprzecz"
+    pl: "Nie zaprzecz samemu sobie."
+    ru: "Не противоречь сам себе."
+    source: { kind: authored }
+  - form: "zaprzeczą"
+    pl: "Zaprzeczą oskarżeniom."
+    ru: "Они отвергнут обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczą"
+    pl: "Nie zaprzeczą faktom."
+    ru: "Фактам они не возразят."
+    source: { kind: authored }
+  - form: "zaprzeczą"
+    pl: "Zaprzeczą, że tam byli."
+    ru: "Они будут отрицать, что были там."
+    source: { kind: authored }
+  - form: "zaprzeczcie"
+    pl: "Zaprzeczcie, jeśli to nieprawda."
+    ru: "Отрицайте, если это неправда."
+    source: { kind: authored }
+  - form: "zaprzeczcie"
+    pl: "Zaprzeczcie oskarżeniom."
+    ru: "Отвергните обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczcie"
+    pl: "Nie zaprzeczcie samym sobie."
+    ru: "Не противоречьте сами себе."
+    source: { kind: authored }
   - form: "zaprzeczenia"
     pl: "Policja nie wierzyła w jego zaprzeczenia."
     ru: "Полиция не верила его отрицаниям."
@@ -98,6 +110,18 @@ formExamples:
   - form: "zaprzeczenia"
     pl: "Słuchaliśmy jego zaprzeczenia."
     ru: "Мы слушали его отрицание."
+    source: { kind: authored }
+  - form: "zaprzeczenie"
+    pl: "Zaprzeczenie nie wystarczy."
+    ru: "Одного отрицания мало."
+    source: { kind: authored }
+  - form: "zaprzeczenie"
+    pl: "Zaprzeczenie to figura logiczna."
+    ru: "Отрицание — логическая фигура."
+    source: { kind: authored }
+  - form: "zaprzeczenie"
+    pl: "Jego zaprzeczenie nikogo nie przekonało."
+    ru: "Его отрицание никого не убедило."
     source: { kind: authored }
   - form: "zaprzeczeniem"
     pl: "Jestem żywym zaprzeczeniem wiary."
@@ -111,6 +135,18 @@ formExamples:
     pl: "Odpowiedział zaprzeczeniem."
     ru: "Он ответил отрицанием."
     source: { kind: authored }
+  - form: "zaprzeczeniu"
+    pl: "Po zaprzeczeniu nikt mu nie uwierzył."
+    ru: "После отрицания ему никто не поверил."
+    source: { kind: authored }
+  - form: "zaprzeczeniu"
+    pl: "O zaprzeczeniu mówi protokół."
+    ru: "Об отрицании говорит протокол."
+    source: { kind: authored }
+  - form: "zaprzeczeniu"
+    pl: "W zaprzeczeniu oczywistego nie ma sensu."
+    ru: "В отрицании очевидного нет смысла."
+    source: { kind: authored }
   - form: "zaprzeczę"
     pl: "Nie zaprzeczę temu."
     ru: "Я не буду этого отрицать."
@@ -122,6 +158,42 @@ formExamples:
   - form: "zaprzeczę"
     pl: "Zaprzeczę każdemu zarzutowi."
     ru: "Я буду отрицать каждое обвинение."
+    source: { kind: authored }
+  - form: "zaprzeczmy"
+    pl: "Zaprzeczmy, jeśli to nieprawda."
+    ru: "Будем отрицать, если это неправда."
+    source: { kind: authored }
+  - form: "zaprzeczmy"
+    pl: "Zaprzeczmy oskarżeniom."
+    ru: "Отвергнем обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczmy"
+    pl: "Nie zaprzeczmy samym sobie."
+    ru: "Не будем противоречить сами себе."
+    source: { kind: authored }
+  - form: "zaprzeczona"
+    pl: "Ta teza została zaprzeczona."
+    ru: "Этот тезис был опровергнут."
+    source: { kind: authored }
+  - form: "zaprzeczona"
+    pl: "Plotka była zaprzeczona oficjalnie."
+    ru: "Слух опровергли официально."
+    source: { kind: authored }
+  - form: "zaprzeczona"
+    pl: "Informacja jest zaprzeczona przez ministerstwo."
+    ru: "Сведения опровергнуты министерством."
+    source: { kind: authored }
+  - form: "zaprzeczoną"
+    pl: "Znam tezę zaprzeczoną przez badania."
+    ru: "Я знаю тезис, опровергнутый исследованиями."
+    source: { kind: authored }
+  - form: "zaprzeczoną"
+    pl: "Uznano plotkę za zaprzeczoną."
+    ru: "Слух сочли опровергнутым."
+    source: { kind: authored }
+  - form: "zaprzeczoną"
+    pl: "Powtórzył informację zaprzeczoną oficjalnie."
+    ru: "Он повторил сведения, опровергнутые официально."
     source: { kind: authored }
   - form: "zaprzeczone"
     pl: "Te fakty zostały zaprzeczone."
@@ -135,6 +207,114 @@ formExamples:
     pl: "Jego słowa zostały zaprzeczone."
     ru: "Его слова были опровергнуты."
     source: { kind: authored }
+  - form: "zaprzeczonego"
+    pl: "Nie ma tu nic zaprzeczonego oficjalnie."
+    ru: "Здесь нет ничего официально опровергнутого."
+    source: { kind: authored }
+  - form: "zaprzeczonego"
+    pl: "Szukam faktu zaprzeczonego przez świadka."
+    ru: "Я ищу факт, опровергнутый свидетелем."
+    source: { kind: authored }
+  - form: "zaprzeczonego"
+    pl: "Od doniesienia zaprzeczonego przez ministerstwo nic nie zostało."
+    ru: "От сообщения, опровергнутого министерством, ничего не осталось."
+    source: { kind: authored }
+  - form: "zaprzeczonej"
+    pl: "Nie znam tezy zaprzeczonej tak szybko."
+    ru: "Я не знаю тезиса, опровергнутого так быстро."
+    source: { kind: authored }
+  - form: "zaprzeczonej"
+    pl: "Szukamy plotki zaprzeczonej oficjalnie."
+    ru: "Мы ищем слух, опровергнутый официально."
+    source: { kind: authored }
+  - form: "zaprzeczonej"
+    pl: "Po informacji zaprzeczonej przez rzecznika nic nie zostało."
+    ru: "От сведений, опровергнутых пресс-секретарём, ничего не осталось."
+    source: { kind: authored }
+  - form: "zaprzeczonemu"
+    pl: "Przyjrzyj się doniesieniu zaprzeczonemu oficjalnie."
+    ru: "Присмотрись к сообщению, опровергнутому официально."
+    source: { kind: authored }
+  - form: "zaprzeczonemu"
+    pl: "Faktowi zaprzeczonemu przez świadka nikt nie uwierzy."
+    ru: "Факту, опровергнутому свидетелем, никто не поверит."
+    source: { kind: authored }
+  - form: "zaprzeczonemu"
+    pl: "Daj pierwszeństwo zarzutowi zaprzeczonemu najwcześniej."
+    ru: "Отдай предпочтение обвинению, опровергнутому раньше всех."
+    source: { kind: authored }
+  - form: "zaprzeczony"
+    pl: "Ten fakt został zaprzeczony."
+    ru: "Этот факт был опровергнут."
+    source: { kind: authored }
+  - form: "zaprzeczony"
+    pl: "Zarzut jest zaprzeczony w piśmie."
+    ru: "Обвинение опровергнуто письменно."
+    source: { kind: authored }
+  - form: "zaprzeczony"
+    pl: "Ten zapis jest zaprzeczony przez inny."
+    ru: "Эта запись опровергается другой."
+    source: { kind: authored }
+  - form: "zaprzeczonych"
+    pl: "Nie ma tu doniesień zaprzeczonych oficjalnie."
+    ru: "Здесь нет сообщений, опровергнутых официально."
+    source: { kind: authored }
+  - form: "zaprzeczonych"
+    pl: "Wśród plotek zaprzeczonych przez rzecznika jest i ta."
+    ru: "Среди слухов, опровергнутых пресс-секретарём, есть и этот."
+    source: { kind: authored }
+  - form: "zaprzeczonych"
+    pl: "Liczba zaprzeczonych zarzutów rośnie."
+    ru: "Число опровергнутых обвинений растёт."
+    source: { kind: authored }
+  - form: "zaprzeczonym"
+    pl: "W doniesieniu zaprzeczonym oficjalnie nie ma prawdy."
+    ru: "В сообщении, опровергнутом официально, нет правды."
+    source: { kind: authored }
+  - form: "zaprzeczonym"
+    pl: "Faktom zaprzeczonym przez świadka nikt nie wierzy."
+    ru: "Фактам, опровергнутым свидетелем, никто не верит."
+    source: { kind: authored }
+  - form: "zaprzeczonym"
+    pl: "Z zarzutem zaprzeczonym w piśmie nic nie zrobisz."
+    ru: "С обвинением, опровергнутым письменно, ничего не сделаешь."
+    source: { kind: authored }
+  - form: "zaprzeczonymi"
+    pl: "Zajmujemy się plotkami zaprzeczonymi oficjalnie."
+    ru: "Мы занимаемся слухами, опровергнутыми официально."
+    source: { kind: authored }
+  - form: "zaprzeczonymi"
+    pl: "Między tezami zaprzeczonymi a spornymi jest różnica."
+    ru: "Между опровергнутыми и спорными тезисами есть разница."
+    source: { kind: authored }
+  - form: "zaprzeczonymi"
+    pl: "Z doniesieniami zaprzeczonymi przez rzecznika trzeba ostrożnie."
+    ru: "С сообщениями, опровергнутыми пресс-секретарём, надо осторожно."
+    source: { kind: authored }
+  - form: "zaprzeczy"
+    pl: "Nikt temu nie zaprzeczy."
+    ru: "Этому никто не возразит."
+    source: { kind: authored }
+  - form: "zaprzeczy"
+    pl: "Zaprzeczy oskarżeniom."
+    ru: "Он отвергнет обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczy"
+    pl: "Kto zaprzeczy faktom?"
+    ru: "Кто станет отрицать факты?"
+    source: { kind: authored }
+  - form: "zaprzeczycie"
+    pl: "Zaprzeczycie oskarżeniom?"
+    ru: "Вы отвергнете обвинения?"
+    source: { kind: authored }
+  - form: "zaprzeczycie"
+    pl: "Nie zaprzeczycie faktom."
+    ru: "Фактам вы не возразите."
+    source: { kind: authored }
+  - form: "zaprzeczycie"
+    pl: "Zaprzeczycie, że tam byliście?"
+    ru: "Станете отрицать, что были там?"
+    source: { kind: authored }
   - form: "zaprzeczyć"
     pl: "Nie mogłem zaprzeczyć."
     ru: "Я не мог возразить."
@@ -147,6 +327,18 @@ formExamples:
     pl: "Nie można tego zaprzeczyć."
     ru: "Этого нельзя отрицать."
     source: { kind: translated, id: 3445902 }
+  - form: "zaprzeczyli"
+    pl: "Zaprzeczyli oskarżeniom."
+    ru: "Они отвергли обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczyli"
+    pl: "Nie zaprzeczyli faktom."
+    ru: "Фактам они не возразили."
+    source: { kind: authored }
+  - form: "zaprzeczyli"
+    pl: "Zaprzeczyli, że tam byli."
+    ru: "Они отрицали, что были там."
+    source: { kind: authored }
   - form: "zaprzeczył"
     pl: "Zaprzeczył, by miał coś wspólnego z tym wypadkiem."
     ru: "Он отрицал, что имел отношение к этому происшествию."
@@ -171,6 +363,30 @@ formExamples:
     pl: "Mary zaprzeczyła, że Tom ją namówił, by to zrobiła."
     ru: "Мэри отрицала, что Том уговорил её это сделать."
     source: { kind: translated, id: 9684441 }
+  - form: "zaprzeczyłam"
+    pl: "Zaprzeczyłam oskarżeniom."
+    ru: "Я отвергла обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczyłam"
+    pl: "Nie zaprzeczyłam faktom."
+    ru: "Фактам я не возразила."
+    source: { kind: authored }
+  - form: "zaprzeczyłam"
+    pl: "Zaprzeczyłam, że tam byłam."
+    ru: "Я отрицала, что была там."
+    source: { kind: authored }
+  - form: "zaprzeczyłaś"
+    pl: "Zaprzeczyłaś oskarżeniom."
+    ru: "Ты отвергла обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczyłaś"
+    pl: "Nie zaprzeczyłaś faktom."
+    ru: "Фактам ты не возразила."
+    source: { kind: authored }
+  - form: "zaprzeczyłaś"
+    pl: "Zaprzeczyłaś, że tam byłaś."
+    ru: "Ты отрицала, что была там."
+    source: { kind: authored }
   - form: "zaprzeczyłem"
     pl: "Zaprzeczyłem."
     ru: "Я стал это отрицать."
@@ -182,4 +398,64 @@ formExamples:
   - form: "zaprzeczyłem"
     pl: "Od razu zaprzeczyłem."
     ru: "Я сразу стал отрицать."
+    source: { kind: authored }
+  - form: "zaprzeczyłeś"
+    pl: "Zaprzeczyłeś oskarżeniom."
+    ru: "Ты отверг обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczyłeś"
+    pl: "Nie zaprzeczyłeś faktom."
+    ru: "Фактам ты не возразил."
+    source: { kind: authored }
+  - form: "zaprzeczyłeś"
+    pl: "Zaprzeczyłeś, że tam byłeś."
+    ru: "Ты отрицал, что был там."
+    source: { kind: authored }
+  - form: "zaprzeczyło"
+    pl: "Ministerstwo zaprzeczyło doniesieniom."
+    ru: "Министерство опровергло сообщения."
+    source: { kind: authored }
+  - form: "zaprzeczyło"
+    pl: "Nic temu nie zaprzeczyło."
+    ru: "Ничто этому не противоречило."
+    source: { kind: authored }
+  - form: "zaprzeczyło"
+    pl: "Miasto zaprzeczyło plotkom."
+    ru: "Город опроверг слухи."
+    source: { kind: authored }
+  - form: "zaprzeczyły"
+    pl: "Władze zaprzeczyły doniesieniom."
+    ru: "Власти опровергли сообщения."
+    source: { kind: authored }
+  - form: "zaprzeczyły"
+    pl: "Fakty zaprzeczyły plotkom."
+    ru: "Факты опровергли слухи."
+    source: { kind: authored }
+  - form: "zaprzeczyły"
+    pl: "Obie strony zaprzeczyły."
+    ru: "Обе стороны всё отрицали."
+    source: { kind: authored }
+  - form: "zaprzeczymy"
+    pl: "Zaprzeczymy oskarżeniom."
+    ru: "Мы отвергнем обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczymy"
+    pl: "Nie zaprzeczymy faktom."
+    ru: "Фактам мы не возразим."
+    source: { kind: authored }
+  - form: "zaprzeczymy"
+    pl: "Zaprzeczymy, że tam byliśmy."
+    ru: "Мы будем отрицать, что были там."
+    source: { kind: authored }
+  - form: "zaprzeczysz"
+    pl: "Zaprzeczysz oskarżeniom?"
+    ru: "Ты отвергнешь обвинения?"
+    source: { kind: authored }
+  - form: "zaprzeczysz"
+    pl: "Nie zaprzeczysz faktom."
+    ru: "Фактам ты не возразишь."
+    source: { kind: authored }
+  - form: "zaprzeczysz"
+    pl: "Zaprzeczysz, że tam byłeś?"
+    ru: "Станешь отрицать, что был там?"
     source: { kind: authored }
