@@ -33,6 +33,7 @@ notes:
   - { kind: false-friend, text: "Корень posiłek «приём пищи, подкрепление»: буквально «подкрепляться чем-л.». Русское «посильный» тут ни при чём." }
   - { kind: usage, text: "Книжное слово; в обычной речи скажут korzystać z czegoś — и обратите внимание на другое управление: z с родительным падежом." }
   - { kind: usage, text: "Однокоренное прилагательное posiłkowy живёт в грамматике: czasownik posiłkowy «вспомогательный глагол». Это не форма глагола, а отдельное слово." }
+  - { kind: government, text: "Страдательного причастия у глагола нет: он идёт только с się и с творительным падежом, а без винительного дополнения причастие не образуется." }
 collocations:
   - { pl: "posiłkować się czymś", ru: "пользоваться чем-л." }
   - { pl: "posiłkować się pomocą", ru: "прибегать к помощи" }
@@ -41,53 +42,37 @@ memory: "posiłkować się czymś — книжное «пользоваться 
 idioms:
   - { pl: "posiłkować się czymś", ru: "пользоваться чем-л." }
 formExamplesSkip:
-  - { form: "posiłkowali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkowaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowaliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "posiłkowaliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "posiłkował", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkowałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "posiłkowałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkowałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "posiłkowałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkowałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "posiłkowały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkowałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "posiłkowałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "posiłkowałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "posiłkowana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowane", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowaniu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posiłkowana", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowaną", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowane", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanego", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanej", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanemu", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowani", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
   - { form: "posiłkowano", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "posiłkowany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkowanymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkuj", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkują", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "posiłkowany", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanych", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanym", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
+  - { form: "posiłkowanymi", reason: "глагол употребляется только с się и требует творительного падежа: posiłkować się słownikiem, и это записано в примечании к карточке — формы без się не существует. Винительного дополнения у него нет, а значит нет и страдательного причастия. Поэтому форм posiłkowany, posiłkowani в языке не бывает" }
   - { form: "posiłkując", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "posiłkująca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "posiłkującą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "posiłkujące", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "posiłkującego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "posiłkującej", reason: "причастная форма; в корпусе примеров нет" }
@@ -96,13 +81,6 @@ formExamplesSkip:
   - { form: "posiłkujących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "posiłkującym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "posiłkującymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "posiłkujcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkuje", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkujecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkujemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkujesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkuję", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "posiłkujmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "posiłkować"
     pl: "Nie musisz posiłkować się tłumaczem."
@@ -115,4 +93,280 @@ formExamples:
   - form: "posiłkować"
     pl: "Wolę nie posiłkować się cudzymi danymi."
     ru: "Я предпочитаю не пользоваться чужими данными."
+    source: { kind: authored }
+  - form: "posiłkowali"
+    pl: "Posiłkowali się słownikiem."
+    ru: "Они пользовались словарём."
+    source: { kind: authored }
+  - form: "posiłkowali"
+    pl: "Posiłkowali się danymi z raportu."
+    ru: "Они опирались на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkowali"
+    pl: "Nie posiłkowali się tłumaczem."
+    ru: "Они не прибегали к переводчику."
+    source: { kind: authored }
+  - form: "posiłkował"
+    pl: "Posiłkował się cytatami z kronik."
+    ru: "Он подкреплял себя цитатами из хроник."
+    source: { kind: authored }
+  - form: "posiłkował"
+    pl: "Posiłkował się pomocą sąsiadów."
+    ru: "Он пользовался помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkował"
+    pl: "Nie posiłkował się tłumaczem."
+    ru: "Он не прибегал к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowała"
+    pl: "Posiłkowała się cytatami z kronik."
+    ru: "Она подкрепляла себя цитатами из хроник."
+    source: { kind: authored }
+  - form: "posiłkowała"
+    pl: "Posiłkowała się pomocą sąsiadów."
+    ru: "Она пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowała"
+    pl: "Nie posiłkowała się tłumaczem."
+    ru: "Она не прибегала к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowałam"
+    pl: "Posiłkowałam się słownikiem."
+    ru: "Я пользовалась словарём."
+    source: { kind: authored }
+  - form: "posiłkowałam"
+    pl: "Posiłkowałam się pomocą sąsiadów."
+    ru: "Я пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowałam"
+    pl: "Nie posiłkowałam się tłumaczem."
+    ru: "Я не прибегала к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowałaś"
+    pl: "Posiłkowałaś się słownikiem."
+    ru: "Ты пользовалась словарём."
+    source: { kind: authored }
+  - form: "posiłkowałaś"
+    pl: "Posiłkowałaś się pomocą sąsiadów."
+    ru: "Ты пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowałaś"
+    pl: "Nie posiłkowałaś się tłumaczem."
+    ru: "Ты не прибегала к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowałem"
+    pl: "Posiłkowałem się słownikiem."
+    ru: "Я пользовался словарём."
+    source: { kind: authored }
+  - form: "posiłkowałem"
+    pl: "Posiłkowałem się pomocą sąsiadów."
+    ru: "Я пользовался помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowałem"
+    pl: "Nie posiłkowałem się tłumaczem."
+    ru: "Я не прибегал к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowałeś"
+    pl: "Posiłkowałeś się słownikiem."
+    ru: "Ты пользовался словарём."
+    source: { kind: authored }
+  - form: "posiłkowałeś"
+    pl: "Posiłkowałeś się pomocą sąsiadów."
+    ru: "Ты пользовался помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowałeś"
+    pl: "Nie posiłkowałeś się tłumaczem."
+    ru: "Ты не прибегал к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowało"
+    pl: "Biuro posiłkowało się danymi z raportu."
+    ru: "Бюро опиралось на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkowało"
+    pl: "Kilkoro z nich posiłkowało się słownikiem."
+    ru: "Несколько человек из них пользовались словарём."
+    source: { kind: authored }
+  - form: "posiłkowało"
+    pl: "Wydawnictwo posiłkowało się cytatami."
+    ru: "Издательство подкрепляло себя цитатами."
+    source: { kind: authored }
+  - form: "posiłkowały"
+    pl: "Firmy posiłkowały się danymi z raportu."
+    ru: "Фирмы опирались на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkowały"
+    pl: "Kobiety posiłkowały się pomocą sąsiadów."
+    ru: "Женщины пользовались помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkowały"
+    pl: "Redakcje posiłkowały się cytatami."
+    ru: "Редакции подкрепляли себя цитатами."
+    source: { kind: authored }
+  - form: "posiłkowania"
+    pl: "Bez posiłkowania się słownikiem nie da rady."
+    ru: "Без словаря не справиться."
+    source: { kind: authored }
+  - form: "posiłkowania"
+    pl: "Od posiłkowania się cytatami do plagiatu daleko."
+    ru: "От опоры на цитаты до плагиата далеко."
+    source: { kind: authored }
+  - form: "posiłkowania"
+    pl: "Nie ma tu potrzeby posiłkowania się tłumaczem."
+    ru: "Здесь нет нужды прибегать к переводчику."
+    source: { kind: authored }
+  - form: "posiłkowanie"
+    pl: "Posiłkowanie się słownikiem nie jest wstydem."
+    ru: "Пользоваться словарём не стыдно."
+    source: { kind: authored }
+  - form: "posiłkowanie"
+    pl: "Posiłkowanie się cudzą pomocą ma granice."
+    ru: "У обращения к чужой помощи есть границы."
+    source: { kind: authored }
+  - form: "posiłkowanie"
+    pl: "Posiłkowanie się danymi z raportu jest dozwolone."
+    ru: "Опираться на данные из отчёта разрешено."
+    source: { kind: authored }
+  - form: "posiłkowaniem"
+    pl: "Między cytowaniem a posiłkowaniem się jest różnica."
+    ru: "Между цитированием и опорой на источник есть разница."
+    source: { kind: authored }
+  - form: "posiłkowaniem"
+    pl: "Skończyło się posiłkowaniem cudzymi danymi."
+    ru: "Кончилось тем, что оперлись на чужие данные."
+    source: { kind: authored }
+  - form: "posiłkowaniem"
+    pl: "Zajął się posiłkowaniem swojej pracy cytatami."
+    ru: "Он занялся тем, что подкреплял работу цитатами."
+    source: { kind: authored }
+  - form: "posiłkowaniu"
+    pl: "W posiłkowaniu się słownikiem nie ma nic złego."
+    ru: "В том, чтобы пользоваться словарём, нет ничего плохого."
+    source: { kind: authored }
+  - form: "posiłkowaniu"
+    pl: "O posiłkowaniu się cudzą pomocą nikt nie wspomniał."
+    ru: "О чужой помощи никто не упомянул."
+    source: { kind: authored }
+  - form: "posiłkowaniu"
+    pl: "Po posiłkowaniu się raportem wnioski się zmieniły."
+    ru: "После опоры на отчёт выводы изменились."
+    source: { kind: authored }
+  - form: "posiłkuj"
+    pl: "Posiłkuj się słownikiem."
+    ru: "Пользуйся словарём."
+    source: { kind: authored }
+  - form: "posiłkuj"
+    pl: "Nie posiłkuj się tłumaczem."
+    ru: "Не прибегай к переводчику."
+    source: { kind: authored }
+  - form: "posiłkuj"
+    pl: "Posiłkuj się danymi z raportu."
+    ru: "Опирайся на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkują"
+    pl: "Posiłkują się słownikiem."
+    ru: "Они пользуются словарём."
+    source: { kind: authored }
+  - form: "posiłkują"
+    pl: "Nie posiłkują się tłumaczem."
+    ru: "Они не прибегают к переводчику."
+    source: { kind: authored }
+  - form: "posiłkują"
+    pl: "Posiłkują się danymi z raportu."
+    ru: "Они опираются на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkującą"
+    pl: "Znam redakcję posiłkującą się cytatami."
+    ru: "Я знаю редакцию, подкрепляющую себя цитатами."
+    source: { kind: authored }
+  - form: "posiłkującą"
+    pl: "Widzę osobę posiłkującą się słownikiem."
+    ru: "Я вижу человека, пользующегося словарём."
+    source: { kind: authored }
+  - form: "posiłkującą"
+    pl: "Uznano pracę za posiłkującą się cudzymi danymi."
+    ru: "Работу сочли опирающейся на чужие данные."
+    source: { kind: authored }
+  - form: "posiłkujcie"
+    pl: "Posiłkujcie się słownikiem."
+    ru: "Пользуйтесь словарём."
+    source: { kind: authored }
+  - form: "posiłkujcie"
+    pl: "Nie posiłkujcie się tłumaczem."
+    ru: "Не прибегайте к переводчику."
+    source: { kind: authored }
+  - form: "posiłkujcie"
+    pl: "Posiłkujcie się danymi z raportu."
+    ru: "Опирайтесь на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkuje"
+    pl: "Posiłkuje się słownikiem przy pracy."
+    ru: "Он пользуется словарём в работе."
+    source: { kind: authored }
+  - form: "posiłkuje"
+    pl: "Nie posiłkuje się niczyją pomocą."
+    ru: "Он не прибегает ни к чьей помощи."
+    source: { kind: authored }
+  - form: "posiłkuje"
+    pl: "Posiłkuje się danymi z raportu."
+    ru: "Он опирается на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkujecie"
+    pl: "Posiłkujecie się słownikiem."
+    ru: "Вы пользуетесь словарём."
+    source: { kind: authored }
+  - form: "posiłkujecie"
+    pl: "Nie posiłkujecie się tłumaczem."
+    ru: "Вы не прибегаете к переводчику."
+    source: { kind: authored }
+  - form: "posiłkujecie"
+    pl: "Posiłkujecie się pomocą sąsiadów."
+    ru: "Вы пользуетесь помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkujemy"
+    pl: "Posiłkujemy się słownikiem."
+    ru: "Мы пользуемся словарём."
+    source: { kind: authored }
+  - form: "posiłkujemy"
+    pl: "Nie posiłkujemy się tłumaczem."
+    ru: "Мы не прибегаем к переводчику."
+    source: { kind: authored }
+  - form: "posiłkujemy"
+    pl: "Posiłkujemy się pomocą sąsiadów."
+    ru: "Мы пользуемся помощью соседей."
+    source: { kind: authored }
+  - form: "posiłkujesz"
+    pl: "Posiłkujesz się słownikiem."
+    ru: "Ты пользуешься словарём."
+    source: { kind: authored }
+  - form: "posiłkujesz"
+    pl: "Nie posiłkujesz się tłumaczem."
+    ru: "Ты не прибегаешь к переводчику."
+    source: { kind: authored }
+  - form: "posiłkujesz"
+    pl: "Posiłkujesz się danymi z raportu."
+    ru: "Ты опираешься на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkuję"
+    pl: "Posiłkuję się słownikiem."
+    ru: "Я пользуюсь словарём."
+    source: { kind: authored }
+  - form: "posiłkuję"
+    pl: "Nie posiłkuję się tłumaczem."
+    ru: "Я не прибегаю к переводчику."
+    source: { kind: authored }
+  - form: "posiłkuję"
+    pl: "Posiłkuję się danymi z raportu."
+    ru: "Я опираюсь на данные из отчёта."
+    source: { kind: authored }
+  - form: "posiłkujmy"
+    pl: "Posiłkujmy się słownikiem."
+    ru: "Будем пользоваться словарём."
+    source: { kind: authored }
+  - form: "posiłkujmy"
+    pl: "Nie posiłkujmy się tłumaczem."
+    ru: "Не будем прибегать к переводчику."
+    source: { kind: authored }
+  - form: "posiłkujmy"
+    pl: "Posiłkujmy się danymi z raportu."
+    ru: "Будем опираться на данные из отчёта."
     source: { kind: authored }
