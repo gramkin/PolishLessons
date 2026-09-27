@@ -42,7 +42,6 @@ idioms:
   - { pl: "korzystając z okazji", ru: "пользуясь случаем" }
   - { pl: "korzystać z życia", ru: "наслаждаться жизнью" }
 formExamplesSkip:
-  - { form: "korzystacie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystająca", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "korzystające", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "korzystającego", reason: "причастная форма; в корпусе примеров нет" }
@@ -51,34 +50,22 @@ formExamplesSkip:
   - { form: "korzystających", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "korzystającym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "korzystającymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "korzystajcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystaliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "korzystała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "korzystałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "korzystałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "korzystały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "korzystałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "korzystałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "korzystanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "korzystaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "korzystano", reason: "безличная форма; в корпусе примеров нет" }
 formExamples:
   - form: "korzysta"
@@ -92,6 +79,18 @@ formExamples:
   - form: "korzysta"
     pl: "Kto korzysta z tego pokoju?"
     ru: "Кто пользуется этой комнатой?"
+    source: { kind: authored }
+  - form: "korzystacie"
+    pl: "Korzystacie z komputera?"
+    ru: "Вы пользуетесь компьютером?"
+    source: { kind: authored }
+  - form: "korzystacie"
+    pl: "Korzystacie z okazji."
+    ru: "Вы пользуетесь случаем."
+    source: { kind: authored }
+  - form: "korzystacie"
+    pl: "Nie korzystacie z pomocy."
+    ru: "Вы не пользуетесь помощью."
     source: { kind: authored }
   - form: "korzystać"
     pl: "Czy umiesz korzystać ze słownika?"
@@ -165,6 +164,42 @@ formExamples:
     pl: "Każdy korzystający z sali płaci."
     ru: "Каждый, кто пользуется залом, платит."
     source: { kind: authored }
+  - form: "korzystajcie"
+    pl: "Korzystajcie z okazji."
+    ru: "Пользуйтесь случаем."
+    source: { kind: authored }
+  - form: "korzystajcie"
+    pl: "Korzystajcie z pomocy."
+    ru: "Пользуйтесь помощью."
+    source: { kind: authored }
+  - form: "korzystajcie"
+    pl: "Nie korzystajcie z cudzych rzeczy."
+    ru: "Не пользуйтесь чужими вещами."
+    source: { kind: authored }
+  - form: "korzystajmy"
+    pl: "Korzystajmy z okazji."
+    ru: "Воспользуемся случаем."
+    source: { kind: authored }
+  - form: "korzystajmy"
+    pl: "Korzystajmy z pomocy."
+    ru: "Будем пользоваться помощью."
+    source: { kind: authored }
+  - form: "korzystajmy"
+    pl: "Nie korzystajmy z cudzych rzeczy."
+    ru: "Не будем пользоваться чужими вещами."
+    source: { kind: authored }
+  - form: "korzystali"
+    pl: "Korzystali z pomocy sąsiadów."
+    ru: "Они пользовались помощью соседей."
+    source: { kind: authored }
+  - form: "korzystali"
+    pl: "Korzystali z okazji."
+    ru: "Они пользовались случаем."
+    source: { kind: authored }
+  - form: "korzystali"
+    pl: "Nie korzystali z pociągów."
+    ru: "Они не пользовались поездами."
+    source: { kind: authored }
   - form: "korzystaliśmy"
     pl: "Korzystaliśmy z jego rad."
     ru: "Мы пользовались его советами."
@@ -189,6 +224,42 @@ formExamples:
     pl: "Nie korzystał z samochodu."
     ru: "Он не пользовался машиной."
     source: { kind: authored }
+  - form: "korzystała"
+    pl: "Korzystała z pomocy sąsiadów."
+    ru: "Она пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "korzystała"
+    pl: "Korzystała z okazji."
+    ru: "Она пользовалась случаем."
+    source: { kind: authored }
+  - form: "korzystała"
+    pl: "Nie korzystała z pociągów."
+    ru: "Она не пользовалась поездами."
+    source: { kind: authored }
+  - form: "korzystałam"
+    pl: "Korzystałam z pomocy sąsiadów."
+    ru: "Я пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "korzystałam"
+    pl: "Korzystałam z okazji."
+    ru: "Я пользовалась случаем."
+    source: { kind: authored }
+  - form: "korzystałam"
+    pl: "Nie korzystałam z pociągów."
+    ru: "Я не пользовалась поездами."
+    source: { kind: authored }
+  - form: "korzystałaś"
+    pl: "Korzystałaś z pomocy sąsiadów."
+    ru: "Ты пользовалась помощью соседей."
+    source: { kind: authored }
+  - form: "korzystałaś"
+    pl: "Korzystałaś z okazji."
+    ru: "Ты пользовалась случаем."
+    source: { kind: authored }
+  - form: "korzystałaś"
+    pl: "Nie korzystałaś z pociągów."
+    ru: "Ты не пользовалась поездами."
+    source: { kind: authored }
   - form: "korzystałem"
     pl: "W czasie podróży korzystałem z map."
     ru: "Во время путешествия я пользовался картами."
@@ -200,6 +271,42 @@ formExamples:
   - form: "korzystałem"
     pl: "Korzystałem z jego biblioteki."
     ru: "Я пользовался его библиотекой."
+    source: { kind: authored }
+  - form: "korzystałeś"
+    pl: "Korzystałeś z pomocy sąsiadów."
+    ru: "Ты пользовался помощью соседей."
+    source: { kind: authored }
+  - form: "korzystałeś"
+    pl: "Korzystałeś z okazji."
+    ru: "Ты пользовался случаем."
+    source: { kind: authored }
+  - form: "korzystałeś"
+    pl: "Nie korzystałeś z pociągów."
+    ru: "Ты не пользовался поездами."
+    source: { kind: authored }
+  - form: "korzystało"
+    pl: "Miasto korzystało z dotacji."
+    ru: "Город пользовался дотациями."
+    source: { kind: authored }
+  - form: "korzystało"
+    pl: "Dziecko korzystało z pomocy nauczyciela."
+    ru: "Ребёнок пользовался помощью учителя."
+    source: { kind: authored }
+  - form: "korzystało"
+    pl: "Niewiele osób z tego korzystało."
+    ru: "Немногие этим пользовались."
+    source: { kind: authored }
+  - form: "korzystały"
+    pl: "Gminy korzystały z dotacji."
+    ru: "Гмины пользовались дотациями."
+    source: { kind: authored }
+  - form: "korzystały"
+    pl: "Dzieci korzystały z pomocy nauczyciela."
+    ru: "Дети пользовались помощью учителя."
+    source: { kind: authored }
+  - form: "korzystały"
+    pl: "Firmy korzystały z ulg."
+    ru: "Фирмы пользовались льготами."
     source: { kind: authored }
   - form: "korzystam"
     pl: "Korzystam z każdej okazji, by zjeść coś włoskiego."
@@ -236,6 +343,42 @@ formExamples:
   - form: "korzystania"
     pl: "To instrukcja korzystania z urządzenia."
     ru: "Это инструкция по пользованию устройством."
+    source: { kind: authored }
+  - form: "korzystanie"
+    pl: "Korzystanie z telefonu jest zabronione."
+    ru: "Пользоваться телефоном запрещено."
+    source: { kind: authored }
+  - form: "korzystanie"
+    pl: "Korzystanie z pomocy nie jest wstydem."
+    ru: "Пользоваться помощью не стыдно."
+    source: { kind: authored }
+  - form: "korzystanie"
+    pl: "Korzystanie z okazji to sztuka."
+    ru: "Пользоваться случаем — искусство."
+    source: { kind: authored }
+  - form: "korzystaniem"
+    pl: "Między posiadaniem a korzystaniem jest różnica."
+    ru: "Между владением и пользованием есть разница."
+    source: { kind: authored }
+  - form: "korzystaniem"
+    pl: "Zajmuje się korzystaniem z funduszy."
+    ru: "Он занимается использованием фондов."
+    source: { kind: authored }
+  - form: "korzystaniem"
+    pl: "Skończyło się korzystaniem z cudzej pracy."
+    ru: "Кончилось использованием чужого труда."
+    source: { kind: authored }
+  - form: "korzystaniu"
+    pl: "W korzystaniu z pomocy nie ma wstydu."
+    ru: "В том, чтобы пользоваться помощью, нет стыда."
+    source: { kind: authored }
+  - form: "korzystaniu"
+    pl: "O korzystaniu z telefonu mówi regulamin."
+    ru: "О пользовании телефоном говорит регламент."
+    source: { kind: authored }
+  - form: "korzystaniu"
+    pl: "Po korzystaniu z sali posprzątaj."
+    ru: "После пользования залом прибери."
     source: { kind: authored }
   - form: "korzystasz"
     pl: "Czy korzystasz ze środków transportu publicznego?"
