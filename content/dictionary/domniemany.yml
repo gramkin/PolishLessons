@@ -32,6 +32,7 @@ notes:
   - { kind: government, text: "Склоняется как обычное прилагательное на -y: domniemany, domniemanego, domniemanemu." }
   - { kind: false-friend, text: "Ничего общего с dom «дом». Корень — mniemać «полагать, думать», родственное русскому «мнить», «мнение»." }
   - { kind: usage, text: "Рядом стоит существительное domniemanie «презумпция»: domniemanie niewinności «презумпция невиновности»." }
+  - { kind: usage, text: "Слово принадлежит юридическому языку: domniemany sprawca «предполагаемый преступник», domniemanie niewinności «презумпция невиновности»." }
 collocations:
   - { pl: "domniemany sprawca", ru: "предполагаемый виновник" }
   - { pl: "domniemana śmierć", ru: "предполагаемая смерть" }
@@ -39,18 +40,91 @@ etymology: "От domniemać «предположить», от mniemać «пол
 memory: "domniemany = «предполагаемый». Корень mniemać «полагать» — русское «мнить»: то, что лишь мнится, но не доказано. Отсюда domniemanie niewinności «презумпция невиновности»."
 idioms:
   - { pl: "domniemanie niewinności", ru: "презумпция невиновности" }
-formExamplesSkip:
-  - { form: "domniemana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemane", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "domniemanymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "domniemana"
+    pl: "To domniemana przyczyna pożaru."
+    ru: "Это предполагаемая причина пожара."
+    source: { kind: authored }
+  - form: "domniemana"
+    pl: "Jego wina jest wciąż domniemana."
+    ru: "Его вина всё ещё предполагаемая."
+    source: { kind: authored }
+  - form: "domniemana"
+    pl: "Domniemana autorka listu milczy."
+    ru: "Предполагаемая автор письма молчит."
+    source: { kind: authored }
+  - form: "domniemaną"
+    pl: "Uznano to za domniemaną przyczynę."
+    ru: "Это сочли предполагаемой причиной."
+    source: { kind: authored }
+  - form: "domniemaną"
+    pl: "Znam domniemaną autorkę listu."
+    ru: "Я знаю предполагаемого автора письма."
+    source: { kind: authored }
+  - form: "domniemaną"
+    pl: "Sąd bada domniemaną winę."
+    ru: "Суд исследует предполагаемую вину."
+    source: { kind: authored }
+  - form: "domniemane"
+    pl: "Domniemane przyczyny są dwie."
+    ru: "Предполагаемых причин две."
+    source: { kind: authored }
+  - form: "domniemane"
+    pl: "Te fakty są wciąż domniemane."
+    ru: "Эти факты всё ещё предполагаемые."
+    source: { kind: authored }
+  - form: "domniemane"
+    pl: "Domniemane zyski okazały się stratą."
+    ru: "Предполагаемая прибыль обернулась убытком."
+    source: { kind: authored }
+  - form: "domniemanego"
+    pl: "Zatrzymano domniemanego sprawcę."
+    ru: "Задержали предполагаемого преступника."
+    source: { kind: authored }
+  - form: "domniemanego"
+    pl: "Szukam domniemanego autora listu."
+    ru: "Я ищу предполагаемого автора письма."
+    source: { kind: authored }
+  - form: "domniemanego"
+    pl: "Od domniemanego winnego wymaga się dowodów."
+    ru: "От предполагаемого виновного требуют доказательств."
+    source: { kind: authored }
+  - form: "domniemanej"
+    pl: "Nie znam domniemanej przyczyny."
+    ru: "Я не знаю предполагаемой причины."
+    source: { kind: authored }
+  - form: "domniemanej"
+    pl: "Szukamy domniemanej autorki listu."
+    ru: "Мы ищем предполагаемого автора письма."
+    source: { kind: authored }
+  - form: "domniemanej"
+    pl: "Po domniemanej pomyłce nic nie zostało."
+    ru: "От предполагаемой ошибки ничего не осталось."
+    source: { kind: authored }
+  - form: "domniemanemu"
+    pl: "Domniemanemu sprawcy przysługuje obrońca."
+    ru: "Предполагаемому преступнику полагается защитник."
+    source: { kind: authored }
+  - form: "domniemanemu"
+    pl: "Przyjrzyj się domniemanemu autorowi."
+    ru: "Присмотрись к предполагаемому автору."
+    source: { kind: authored }
+  - form: "domniemanemu"
+    pl: "Daj domniemanemu winnemu szansę."
+    ru: "Дай предполагаемому виновному шанс."
+    source: { kind: authored }
+  - form: "domniemani"
+    pl: "Domniemani sprawcy zostali zatrzymani."
+    ru: "Предполагаемые преступники задержаны."
+    source: { kind: authored }
+  - form: "domniemani"
+    pl: "Domniemani autorzy listu milczą."
+    ru: "Предполагаемые авторы письма молчат."
+    source: { kind: authored }
+  - form: "domniemani"
+    pl: "Domniemani winni czekają na proces."
+    ru: "Предполагаемые виновные ждут суда."
+    source: { kind: authored }
   - form: "domniemany"
     pl: "To domniemany autor listu."
     ru: "Это предполагаемый автор письма."
@@ -62,4 +136,40 @@ formExamples:
   - form: "domniemany"
     pl: "Domniemany wyciek danych zbadano."
     ru: "Предполагаемую утечку данных расследовали."
+    source: { kind: authored }
+  - form: "domniemanych"
+    pl: "Nie ma tu domniemanych sprawców."
+    ru: "Здесь нет предполагаемых преступников."
+    source: { kind: authored }
+  - form: "domniemanych"
+    pl: "Wśród domniemanych autorów jest i on."
+    ru: "Среди предполагаемых авторов есть и он."
+    source: { kind: authored }
+  - form: "domniemanych"
+    pl: "Liczba domniemanych przyczyn rośnie."
+    ru: "Число предполагаемых причин растёт."
+    source: { kind: authored }
+  - form: "domniemanym"
+    pl: "Domniemanym sprawcom przysługuje obrońca."
+    ru: "Предполагаемым преступникам полагается защитник."
+    source: { kind: authored }
+  - form: "domniemanym"
+    pl: "W domniemanym motywie jest luka."
+    ru: "В предполагаемом мотиве есть пробел."
+    source: { kind: authored }
+  - form: "domniemanym"
+    pl: "Z domniemanym winnym rozmawia prokurator."
+    ru: "С предполагаемым виновным говорит прокурор."
+    source: { kind: authored }
+  - form: "domniemanymi"
+    pl: "Zajmujemy się domniemanymi sprawcami."
+    ru: "Мы занимаемся предполагаемыми преступниками."
+    source: { kind: authored }
+  - form: "domniemanymi"
+    pl: "Między domniemanymi a udowodnionymi faktami jest przepaść."
+    ru: "Между предполагаемыми и доказанными фактами пропасть."
+    source: { kind: authored }
+  - form: "domniemanymi"
+    pl: "Z domniemanymi przyczynami trzeba ostrożnie."
+    ru: "С предполагаемыми причинами надо осторожно."
     source: { kind: authored }
