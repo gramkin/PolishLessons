@@ -44,7 +44,6 @@ idioms:
 formExamplesSkip:
   - { form: "pozostając", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "pozostająca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "pozostającą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostające", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "pozostającego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "pozostającej", reason: "причастная форма; в корпусе примеров нет" }
@@ -53,42 +52,23 @@ formExamplesSkip:
   - { form: "pozostających", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "pozostającym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "pozostającymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "pozostajecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostajemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostajesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostaję", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawaj", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawajcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawaliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "pozostawaliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "pozostawała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "pozostawałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "pozostawałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "pozostawały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "pozostawałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "pozostawałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "pozostawania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pozostawaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "pozostawano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "pozostawawszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
@@ -104,6 +84,18 @@ formExamples:
     pl: "Dlaczego moje pytania pozostają bez odpowiedzi?"
     ru: "Почему мои вопросы остаются без ответа?"
     source: { kind: translated, id: 13032205 }
+  - form: "pozostającą"
+    pl: "Widzę sprawę pozostającą bez rozstrzygnięcia."
+    ru: "Я вижу дело, остающееся нерешённым."
+    source: { kind: authored }
+  - form: "pozostającą"
+    pl: "Znam osobę pozostającą bez pracy."
+    ru: "Я знаю человека, остающегося без работы."
+    source: { kind: authored }
+  - form: "pozostającą"
+    pl: "Uznano ją za pozostającą w cieniu."
+    ru: "Её сочли остающейся в тени."
+    source: { kind: authored }
   - form: "pozostaje"
     pl: "Podejrzany pozostaje na wolności."
     ru: "Подозреваемый остаётся на свободе."
@@ -116,6 +108,54 @@ formExamples:
     pl: "Powiedziane ulatuje, napisane pozostaje."
     ru: "Сказанное улетает, написанное остаётся."
     source: { kind: translated, id: 349097 }
+  - form: "pozostajecie"
+    pl: "Pozostajecie w domu?"
+    ru: "Вы остаётесь дома?"
+    source: { kind: authored }
+  - form: "pozostajecie"
+    pl: "Pozostajecie przy swoim zdaniu."
+    ru: "Вы остаётесь при своём мнении."
+    source: { kind: authored }
+  - form: "pozostajecie"
+    pl: "Pozostajecie bez pracy."
+    ru: "Вы остаётесь без работы."
+    source: { kind: authored }
+  - form: "pozostajemy"
+    pl: "Pozostajemy w domu."
+    ru: "Мы остаёмся дома."
+    source: { kind: authored }
+  - form: "pozostajemy"
+    pl: "Pozostajemy przy swoim zdaniu."
+    ru: "Мы остаёмся при своём мнении."
+    source: { kind: authored }
+  - form: "pozostajemy"
+    pl: "Pozostajemy bez pracy."
+    ru: "Мы остаёмся без работы."
+    source: { kind: authored }
+  - form: "pozostajesz"
+    pl: "Pozostajesz w domu?"
+    ru: "Ты остаёшься дома?"
+    source: { kind: authored }
+  - form: "pozostajesz"
+    pl: "Pozostajesz przy swoim zdaniu."
+    ru: "Ты остаёшься при своём мнении."
+    source: { kind: authored }
+  - form: "pozostajesz"
+    pl: "Pozostajesz bez pracy."
+    ru: "Ты остаёшься без работы."
+    source: { kind: authored }
+  - form: "pozostaję"
+    pl: "Pozostaję w domu."
+    ru: "Я остаюсь дома."
+    source: { kind: authored }
+  - form: "pozostaję"
+    pl: "Pozostaję przy swoim zdaniu."
+    ru: "Я остаюсь при своём мнении."
+    source: { kind: authored }
+  - form: "pozostaję"
+    pl: "Pozostaję z szacunkiem."
+    ru: "Остаюсь с уважением."
+    source: { kind: authored }
   - form: "pozostawać"
     pl: "Powinieneś pozostawać w kontakcie z panem Smith."
     ru: "Тебе следует оставаться на связи с господином Смитом."
@@ -128,6 +168,54 @@ formExamples:
     pl: "Wolę pozostawać w cieniu."
     ru: "Я предпочитаю оставаться в тени."
     source: { kind: authored }
+  - form: "pozostawaj"
+    pl: "Pozostawaj w kontakcie."
+    ru: "Оставайся на связи."
+    source: { kind: authored }
+  - form: "pozostawaj"
+    pl: "Pozostawaj przy swoim zdaniu."
+    ru: "Оставайся при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawaj"
+    pl: "Nie pozostawaj sam."
+    ru: "Не оставайся один."
+    source: { kind: authored }
+  - form: "pozostawajcie"
+    pl: "Pozostawajcie w kontakcie."
+    ru: "Оставайтесь на связи."
+    source: { kind: authored }
+  - form: "pozostawajcie"
+    pl: "Pozostawajcie przy swoim zdaniu."
+    ru: "Оставайтесь при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawajcie"
+    pl: "Nie pozostawajcie sami."
+    ru: "Не оставайтесь одни."
+    source: { kind: authored }
+  - form: "pozostawajmy"
+    pl: "Pozostawajmy w kontakcie."
+    ru: "Будем оставаться на связи."
+    source: { kind: authored }
+  - form: "pozostawajmy"
+    pl: "Pozostawajmy przy swoim zdaniu."
+    ru: "Останемся при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawajmy"
+    pl: "Nie pozostawajmy sami."
+    ru: "Не будем оставаться одни."
+    source: { kind: authored }
+  - form: "pozostawali"
+    pl: "Pozostawali w kontakcie."
+    ru: "Они оставались на связи."
+    source: { kind: authored }
+  - form: "pozostawali"
+    pl: "Pozostawali przy swoim zdaniu."
+    ru: "Они оставались при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawali"
+    pl: "Pozostawali bez pracy."
+    ru: "Они оставались без работы."
+    source: { kind: authored }
   - form: "pozostawał"
     pl: "Tom pozostawał spokojny."
     ru: "Том оставался спокойным."
@@ -139,4 +227,136 @@ formExamples:
   - form: "pozostawał"
     pl: "Pozostawał wierny swoim zasadom."
     ru: "Он оставался верен своим принципам."
+    source: { kind: authored }
+  - form: "pozostawała"
+    pl: "Pozostawała w domu."
+    ru: "Она оставалась дома."
+    source: { kind: authored }
+  - form: "pozostawała"
+    pl: "Pozostawała przy swoim zdaniu."
+    ru: "Она оставалась при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawała"
+    pl: "Sprawa pozostawała niejasna."
+    ru: "Дело оставалось неясным."
+    source: { kind: authored }
+  - form: "pozostawałam"
+    pl: "Pozostawałam w domu."
+    ru: "Я оставалась дома."
+    source: { kind: authored }
+  - form: "pozostawałam"
+    pl: "Pozostawałam przy swoim zdaniu."
+    ru: "Я оставалась при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawałam"
+    pl: "Pozostawałam bez pracy."
+    ru: "Я оставалась без работы."
+    source: { kind: authored }
+  - form: "pozostawałaś"
+    pl: "Pozostawałaś w domu."
+    ru: "Ты оставалась дома."
+    source: { kind: authored }
+  - form: "pozostawałaś"
+    pl: "Pozostawałaś przy swoim zdaniu."
+    ru: "Ты оставалась при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawałaś"
+    pl: "Pozostawałaś bez pracy."
+    ru: "Ты оставалась без работы."
+    source: { kind: authored }
+  - form: "pozostawałem"
+    pl: "Pozostawałem w domu."
+    ru: "Я оставался дома."
+    source: { kind: authored }
+  - form: "pozostawałem"
+    pl: "Pozostawałem przy swoim zdaniu."
+    ru: "Я оставался при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawałem"
+    pl: "Pozostawałem bez pracy."
+    ru: "Я оставался без работы."
+    source: { kind: authored }
+  - form: "pozostawałeś"
+    pl: "Pozostawałeś w domu."
+    ru: "Ты оставался дома."
+    source: { kind: authored }
+  - form: "pozostawałeś"
+    pl: "Pozostawałeś przy swoim zdaniu."
+    ru: "Ты оставался при своём мнении."
+    source: { kind: authored }
+  - form: "pozostawałeś"
+    pl: "Pozostawałeś bez pracy."
+    ru: "Ты оставался без работы."
+    source: { kind: authored }
+  - form: "pozostawało"
+    pl: "Dziecko pozostawało w domu."
+    ru: "Ребёнок оставался дома."
+    source: { kind: authored }
+  - form: "pozostawało"
+    pl: "Pytanie pozostawało bez odpowiedzi."
+    ru: "Вопрос оставался без ответа."
+    source: { kind: authored }
+  - form: "pozostawało"
+    pl: "Niewiele czasu pozostawało."
+    ru: "Времени оставалось немного."
+    source: { kind: authored }
+  - form: "pozostawały"
+    pl: "Drzwi pozostawały otwarte."
+    ru: "Дверь оставалась открытой."
+    source: { kind: authored }
+  - form: "pozostawały"
+    pl: "Pytania pozostawały bez odpowiedzi."
+    ru: "Вопросы оставались без ответа."
+    source: { kind: authored }
+  - form: "pozostawały"
+    pl: "Dzieci pozostawały w domu."
+    ru: "Дети оставались дома."
+    source: { kind: authored }
+  - form: "pozostawania"
+    pl: "Od pozostawania w cieniu się zaczęło."
+    ru: "С пребывания в тени всё началось."
+    source: { kind: authored }
+  - form: "pozostawania"
+    pl: "Nie znoszę pozostawania bez pracy."
+    ru: "Я не выношу оставаться без работы."
+    source: { kind: authored }
+  - form: "pozostawania"
+    pl: "Bez pozostawania w kontakcie przyjaźń gaśnie."
+    ru: "Без того, чтобы оставаться на связи, дружба гаснет."
+    source: { kind: authored }
+  - form: "pozostawanie"
+    pl: "Pozostawanie w cieniu mu odpowiada."
+    ru: "Оставаться в тени ему подходит."
+    source: { kind: authored }
+  - form: "pozostawanie"
+    pl: "Pozostawanie bez pracy męczy."
+    ru: "Оставаться без работы утомительно."
+    source: { kind: authored }
+  - form: "pozostawanie"
+    pl: "Pozostawanie w kontakcie wymaga wysiłku."
+    ru: "Оставаться на связи требует усилий."
+    source: { kind: authored }
+  - form: "pozostawaniem"
+    pl: "Zmęczył się pozostawaniem w cieniu."
+    ru: "Он устал оставаться в тени."
+    source: { kind: authored }
+  - form: "pozostawaniem"
+    pl: "Między odejściem a pozostawaniem jest różnica."
+    ru: "Между уходом и тем, чтобы остаться, есть разница."
+    source: { kind: authored }
+  - form: "pozostawaniem"
+    pl: "Skończyło się pozostawaniem bez pracy."
+    ru: "Кончилось тем, что он остался без работы."
+    source: { kind: authored }
+  - form: "pozostawaniu"
+    pl: "W pozostawaniu w cieniu jest spokój."
+    ru: "В пребывании в тени есть покой."
+    source: { kind: authored }
+  - form: "pozostawaniu"
+    pl: "O pozostawaniu bez pracy nie lubi mówić."
+    ru: "О том, что остался без работы, он говорить не любит."
+    source: { kind: authored }
+  - form: "pozostawaniu"
+    pl: "Po pozostawaniu w domu tęsknił za ludźmi."
+    ru: "После сидения дома он скучал по людям."
     source: { kind: authored }

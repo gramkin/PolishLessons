@@ -42,11 +42,6 @@ idioms:
   - { pl: "wysłuchać kogoś", ru: "выслушать кого-л." }
   - { pl: "wysłuchać opinii", ru: "выслушать мнение" }
 formExamplesSkip:
-  - { form: "wysłucha", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchacie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchają", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchajcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchajmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -54,33 +49,42 @@ formExamplesSkip:
   - { form: "wysłuchałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wysłuchałam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wysłuchałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wysłuchały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wysłuchałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "wysłuchałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "wysłuchamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchano", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "wysłuchany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wysłuchanymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wysłuchawszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "wysłucha"
+    pl: "Sąd wysłucha świadka."
+    ru: "Суд выслушает свидетеля."
+    source: { kind: authored }
+  - form: "wysłucha"
+    pl: "Nikt go nie wysłucha."
+    ru: "Никто его не выслушает."
+    source: { kind: authored }
+  - form: "wysłucha"
+    pl: "Wysłucha opinii do końca."
+    ru: "Он выслушает мнение до конца."
+    source: { kind: authored }
+  - form: "wysłuchacie"
+    pl: "Wysłuchacie świadka?"
+    ru: "Вы выслушаете свидетеля?"
+    source: { kind: authored }
+  - form: "wysłuchacie"
+    pl: "Wysłuchacie opinii do końca."
+    ru: "Вы выслушаете мнение до конца."
+    source: { kind: authored }
+  - form: "wysłuchacie"
+    pl: "Nie wysłuchacie tego dziś."
+    ru: "Сегодня вы это слушать не станете."
+    source: { kind: authored }
   - form: "wysłuchać"
     pl: "Należy wysłuchać obu stron."
     ru: "Следует выслушать обе стороны."
@@ -105,6 +109,42 @@ formExamples:
     pl: "Błagam, wysłuchaj do końca."
     ru: "Умоляю, выслушай до конца."
     source: { kind: translated, id: 366263 }
+  - form: "wysłuchają"
+    pl: "Wysłuchają świadka."
+    ru: "Они выслушают свидетеля."
+    source: { kind: authored }
+  - form: "wysłuchają"
+    pl: "Wysłuchają opinii do końca."
+    ru: "Они выслушают мнение до конца."
+    source: { kind: authored }
+  - form: "wysłuchają"
+    pl: "Nie wysłuchają tego dziś."
+    ru: "Сегодня они это слушать не станут."
+    source: { kind: authored }
+  - form: "wysłuchajcie"
+    pl: "Wysłuchajcie mnie do końca."
+    ru: "Выслушайте меня до конца."
+    source: { kind: authored }
+  - form: "wysłuchajcie"
+    pl: "Wysłuchajcie świadka."
+    ru: "Выслушайте свидетеля."
+    source: { kind: authored }
+  - form: "wysłuchajcie"
+    pl: "Wysłuchajcie opinii."
+    ru: "Выслушайте мнение."
+    source: { kind: authored }
+  - form: "wysłuchajmy"
+    pl: "Wysłuchajmy go do końca."
+    ru: "Выслушаем его до конца."
+    source: { kind: authored }
+  - form: "wysłuchajmy"
+    pl: "Wysłuchajmy świadka."
+    ru: "Выслушаем свидетеля."
+    source: { kind: authored }
+  - form: "wysłuchajmy"
+    pl: "Wysłuchajmy opinii."
+    ru: "Выслушаем мнение."
+    source: { kind: authored }
   - form: "wysłuchali"
     pl: "Panie i panowie, chciałbym, żebyście wysłuchali mojej opinii."
     ru: "Дамы и господа, я хотел бы, чтобы вы выслушали моё мнение."
@@ -153,6 +193,18 @@ formExamples:
     pl: "Nie wysłuchała mojej prośby."
     ru: "Она не вняла моей просьбе."
     source: { kind: authored }
+  - form: "wysłuchałam"
+    pl: "Wysłuchałam go do końca."
+    ru: "Я выслушала его до конца."
+    source: { kind: authored }
+  - form: "wysłuchałam"
+    pl: "Wysłuchałam wykładu."
+    ru: "Я прослушала лекцию."
+    source: { kind: authored }
+  - form: "wysłuchałam"
+    pl: "Nie wysłuchałam opinii."
+    ru: "Я не выслушала мнения."
+    source: { kind: authored }
   - form: "wysłuchałaś"
     pl: "Dziękuję, że porozmawiałaś ze mną, wysłuchałaś mnie."
     ru: "Спасибо, что поговорила со мной, выслушала меня."
@@ -177,6 +229,42 @@ formExamples:
     pl: "Wysłuchałem całego wykładu."
     ru: "Я выслушал всю лекцию."
     source: { kind: authored }
+  - form: "wysłuchałeś"
+    pl: "Wysłuchałeś go do końca?"
+    ru: "Ты выслушал его до конца?"
+    source: { kind: authored }
+  - form: "wysłuchałeś"
+    pl: "Wysłuchałeś wykładu."
+    ru: "Ты прослушал лекцию."
+    source: { kind: authored }
+  - form: "wysłuchałeś"
+    pl: "Nie wysłuchałeś opinii."
+    ru: "Ты не выслушал мнения."
+    source: { kind: authored }
+  - form: "wysłuchało"
+    pl: "Dziecko wysłuchało bajki."
+    ru: "Ребёнок выслушал сказку."
+    source: { kind: authored }
+  - form: "wysłuchało"
+    pl: "Żadne z nich nie wysłuchało go do końca."
+    ru: "Никто из них не выслушал его до конца."
+    source: { kind: authored }
+  - form: "wysłuchało"
+    pl: "Miasto wysłuchało skarg."
+    ru: "Город выслушал жалобы."
+    source: { kind: authored }
+  - form: "wysłuchały"
+    pl: "Dzieci wysłuchały bajki."
+    ru: "Дети выслушали сказку."
+    source: { kind: authored }
+  - form: "wysłuchały"
+    pl: "Sądy wysłuchały świadków."
+    ru: "Суды выслушали свидетелей."
+    source: { kind: authored }
+  - form: "wysłuchały"
+    pl: "Nie wysłuchały opinii."
+    ru: "Они не выслушали мнения."
+    source: { kind: authored }
   - form: "wysłucham"
     pl: "Wysłucham ciebie."
     ru: "Я тебя выслушаю."
@@ -188,6 +276,18 @@ formExamples:
   - form: "wysłucham"
     pl: "Wysłucham cię jutro."
     ru: "Я выслушаю тебя завтра."
+    source: { kind: authored }
+  - form: "wysłuchamy"
+    pl: "Wysłuchamy świadka."
+    ru: "Мы выслушаем свидетеля."
+    source: { kind: authored }
+  - form: "wysłuchamy"
+    pl: "Wysłuchamy opinii do końca."
+    ru: "Мы выслушаем мнение до конца."
+    source: { kind: authored }
+  - form: "wysłuchamy"
+    pl: "Nie wysłuchamy tego dziś."
+    ru: "Сегодня мы это слушать не станем."
     source: { kind: authored }
   - form: "wysłuchana"
     pl: "Niech będzie wysłuchana i druga strona."
@@ -201,6 +301,18 @@ formExamples:
     pl: "Jej skarga nie została wysłuchana."
     ru: "Её жалоба не была услышана."
     source: { kind: authored }
+  - form: "wysłuchaną"
+    pl: "Znam opinię wysłuchaną w milczeniu."
+    ru: "Я знаю мнение, выслушанное в молчании."
+    source: { kind: authored }
+  - form: "wysłuchaną"
+    pl: "Uznano skargę za wysłuchaną."
+    ru: "Жалобу сочли выслушанной."
+    source: { kind: authored }
+  - form: "wysłuchaną"
+    pl: "Widzieliśmy kobietę wysłuchaną przez sąd."
+    ru: "Мы видели женщину, выслушанную судом."
+    source: { kind: authored }
   - form: "wysłuchane"
     pl: "Moje modlitwy zostały wysłuchane."
     ru: "Мои молитвы были услышаны."
@@ -212,6 +324,54 @@ formExamples:
   - form: "wysłuchane"
     pl: "Nasze prośby nie zostały wysłuchane."
     ru: "Наши просьбы не были услышаны."
+    source: { kind: authored }
+  - form: "wysłuchanego"
+    pl: "Szukam świadka wysłuchanego w marcu."
+    ru: "Я ищу свидетеля, выслушанного в марте."
+    source: { kind: authored }
+  - form: "wysłuchanego"
+    pl: "Od wysłuchanego świadka zależy wyrok."
+    ru: "От выслушанного свидетеля зависит приговор."
+    source: { kind: authored }
+  - form: "wysłuchanego"
+    pl: "Nie widzę tu nikogo wysłuchanego do końca."
+    ru: "Я не вижу здесь никого, выслушанного до конца."
+    source: { kind: authored }
+  - form: "wysłuchanej"
+    pl: "Mówimy o opinii wysłuchanej w milczeniu."
+    ru: "Мы говорим о мнении, выслушанном в молчании."
+    source: { kind: authored }
+  - form: "wysłuchanej"
+    pl: "Nie ufam wysłuchanej pobieżnie relacji."
+    ru: "Я не доверяю бегло выслушанному рассказу."
+    source: { kind: authored }
+  - form: "wysłuchanej"
+    pl: "Dzięki wysłuchanej skardze sprawa ruszyła."
+    ru: "Благодаря выслушанной жалобе дело сдвинулось."
+    source: { kind: authored }
+  - form: "wysłuchanemu"
+    pl: "Przyjrzyj się temu wysłuchanemu świadkowi."
+    ru: "Присмотрись к этому выслушанному свидетелю."
+    source: { kind: authored }
+  - form: "wysłuchanemu"
+    pl: "Wysłuchanemu świadkowi podziękowano."
+    ru: "Выслушанного свидетеля поблагодарили."
+    source: { kind: authored }
+  - form: "wysłuchanemu"
+    pl: "Nie odmawiaj pomocy wysłuchanemu."
+    ru: "Не отказывай выслушанному в помощи."
+    source: { kind: authored }
+  - form: "wysłuchani"
+    pl: "Świadkowie zostali wysłuchani."
+    ru: "Свидетелей выслушали."
+    source: { kind: authored }
+  - form: "wysłuchani"
+    pl: "Nie byli wysłuchani do końca."
+    ru: "Их не выслушали до конца."
+    source: { kind: authored }
+  - form: "wysłuchani"
+    pl: "Wysłuchani przez sąd, wrócili do domu."
+    ru: "Выслушанные судом, они вернулись домой."
     source: { kind: authored }
   - form: "wysłuchania"
     pl: "Zapewne odmówi wysłuchania jego rady, gdyż go nie lubi."
@@ -237,6 +397,54 @@ formExamples:
     pl: "Wysłuchanie trwało godzinę."
     ru: "Слушание длилось час."
     source: { kind: authored }
+  - form: "wysłuchaniem"
+    pl: "Zajął się wysłuchaniem świadków."
+    ru: "Он занялся выслушиванием свидетелей."
+    source: { kind: authored }
+  - form: "wysłuchaniem"
+    pl: "Między przesłuchaniem a wysłuchaniem jest różnica."
+    ru: "Между допросом и выслушиванием есть разница."
+    source: { kind: authored }
+  - form: "wysłuchaniem"
+    pl: "Skończyło się wysłuchaniem skarg."
+    ru: "Кончилось выслушиванием жалоб."
+    source: { kind: authored }
+  - form: "wysłuchaniu"
+    pl: "Po wysłuchaniu świadka sąd odroczył sprawę."
+    ru: "Выслушав свидетеля, суд отложил дело."
+    source: { kind: authored }
+  - form: "wysłuchaniu"
+    pl: "O wysłuchaniu skargi nikt nie wie."
+    ru: "О выслушивании жалобы никто не знает."
+    source: { kind: authored }
+  - form: "wysłuchaniu"
+    pl: "W wysłuchaniu do końca jest szacunek."
+    ru: "В том, чтобы выслушать до конца, есть уважение."
+    source: { kind: authored }
+  - form: "wysłuchany"
+    pl: "Świadek został wysłuchany."
+    ru: "Свидетеля выслушали."
+    source: { kind: authored }
+  - form: "wysłuchany"
+    pl: "Apel nie był wysłuchany."
+    ru: "Призыв не был услышан."
+    source: { kind: authored }
+  - form: "wysłuchany"
+    pl: "Wysłuchany do końca, uspokoił się."
+    ru: "Выслушанный до конца, он успокоился."
+    source: { kind: authored }
+  - form: "wysłuchanych"
+    pl: "Nie ma tu wysłuchanych świadków."
+    ru: "Здесь нет выслушанных свидетелей."
+    source: { kind: authored }
+  - form: "wysłuchanych"
+    pl: "Wśród wysłuchanych był i on."
+    ru: "Среди выслушанных был и он."
+    source: { kind: authored }
+  - form: "wysłuchanych"
+    pl: "Od wysłuchanych opinii zależy decyzja."
+    ru: "От выслушанных мнений зависит решение."
+    source: { kind: authored }
   - form: "wysłuchanym"
     pl: "Stanisław Jerzy Lec kiedyś powiedział: \"Czasem trzeba zamilknąć, żeby zostać wysłuchanym.\""
     ru: "Станислав Ежи Лец однажды сказал: \"Иногда надо замолчать, чтобы тебя выслушали\"."
@@ -248,6 +456,18 @@ formExamples:
   - form: "wysłuchanym"
     pl: "Trudno być wysłuchanym w takim hałasie."
     ru: "Трудно быть выслушанным в таком шуме."
+    source: { kind: authored }
+  - form: "wysłuchanymi"
+    pl: "Między wysłuchanymi a zignorowanymi jest różnica."
+    ru: "Между выслушанными и оставленными без внимания есть разница."
+    source: { kind: authored }
+  - form: "wysłuchanymi"
+    pl: "Zajmuje się wysłuchanymi skargami."
+    ru: "Он занимается выслушанными жалобами."
+    source: { kind: authored }
+  - form: "wysłuchanymi"
+    pl: "Rozmawiał z wysłuchanymi świadkami."
+    ru: "Он говорил с выслушанными свидетелями."
     source: { kind: authored }
   - form: "wysłuchasz"
     pl: "Wysłuchasz mojej prośby?"
