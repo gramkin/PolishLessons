@@ -41,15 +41,7 @@ memory: "wyjawić — «раскрыть тайну», буквально «сд
 idioms:
   - { pl: "wyjawić tajemnicę", ru: "раскрыть тайну" }
 formExamplesSkip:
-  - { form: "wyjawcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawieni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawienia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawienie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawieniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawili", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wyjawieni", reason: "страдательное причастие мужского лица, а wyjawić ставит человека в ДАТЕЛЬНЫЙ падеж, а тайну — в винительный: wyjawić komuś tajemnicę. Подлежащим страдательного оборота становится тайна, но не человек" }
   - { form: "wyjawiliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -58,35 +50,17 @@ formExamplesSkip:
   - { form: "wyjawiłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyjawiłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyjawiłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyjawiłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawiłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyjawiłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyjawiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyjawiłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyjawiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "wyjawiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "wyjawimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawiona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawioną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawione", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyjawiono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "wyjawiony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyjawionymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyjawiwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "wyjawmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "wyjaw"
     pl: "Wyjaw swój sekret."
@@ -100,6 +74,18 @@ formExamples:
     pl: "Nie wyjaw nikomu."
     ru: "Никому не раскрывай."
     source: { kind: authored }
+  - form: "wyjawcie"
+    pl: "Wyjawcie prawdę."
+    ru: "Откройте правду."
+    source: { kind: authored }
+  - form: "wyjawcie"
+    pl: "Nie wyjawcie tajemnicy."
+    ru: "Не выдайте тайны."
+    source: { kind: authored }
+  - form: "wyjawcie"
+    pl: "Wyjawcie wszystko."
+    ru: "Откройте всё."
+    source: { kind: authored }
   - form: "wyjawi"
     pl: "Ona nie wyjawi kodu."
     ru: "Она не раскроет код."
@@ -111,6 +97,30 @@ formExamples:
   - form: "wyjawi"
     pl: "Nikt nie wyjawi jego imienia."
     ru: "Никто не раскроет его имени."
+    source: { kind: authored }
+  - form: "wyjawią"
+    pl: "Wyjawią prawdę."
+    ru: "Они откроют правду."
+    source: { kind: authored }
+  - form: "wyjawią"
+    pl: "Nie wyjawią tajemnicy."
+    ru: "Они не выдадут тайны."
+    source: { kind: authored }
+  - form: "wyjawią"
+    pl: "Wyjawią wszystko jutro."
+    ru: "Они всё откроют завтра."
+    source: { kind: authored }
+  - form: "wyjawicie"
+    pl: "Wyjawicie prawdę?"
+    ru: "Вы откроете правду?"
+    source: { kind: authored }
+  - form: "wyjawicie"
+    pl: "Nie wyjawicie tajemnicy."
+    ru: "Вы не выдадите тайны."
+    source: { kind: authored }
+  - form: "wyjawicie"
+    pl: "Wyjawicie wszystko jutro."
+    ru: "Вы всё откроете завтра."
     source: { kind: authored }
   - form: "wyjawić"
     pl: "Ona nie chciała wyjawić gdzie tak naprawdę to znalazła."
@@ -124,6 +134,54 @@ formExamples:
     pl: "Trudno wyjawić taką prawdę."
     ru: "Такую правду трудно открыть."
     source: { kind: authored }
+  - form: "wyjawienia"
+    pl: "Bez wyjawienia prawdy nie ma zgody."
+    ru: "Без раскрытия правды нет согласия."
+    source: { kind: authored }
+  - form: "wyjawienia"
+    pl: "Od wyjawienia nazwisk zaczęła się afera."
+    ru: "С оглашения фамилий началась история."
+    source: { kind: authored }
+  - form: "wyjawienia"
+    pl: "Domagali się wyjawienia szczegółów."
+    ru: "Они требовали раскрытия подробностей."
+    source: { kind: authored }
+  - form: "wyjawienie"
+    pl: "Wyjawienie prawdy kosztowało go posadę."
+    ru: "Раскрытие правды стоило ему места."
+    source: { kind: authored }
+  - form: "wyjawienie"
+    pl: "Wyjawienie tajemnicy było błędem."
+    ru: "Раскрытие тайны было ошибкой."
+    source: { kind: authored }
+  - form: "wyjawienie"
+    pl: "Wyjawienie nazwisk wywołało burzę."
+    ru: "Оглашение фамилий вызвало бурю."
+    source: { kind: authored }
+  - form: "wyjawieniem"
+    pl: "Zajął się wyjawieniem prawdy."
+    ru: "Он занялся раскрытием правды."
+    source: { kind: authored }
+  - form: "wyjawieniem"
+    pl: "Między ukryciem a wyjawieniem jest różnica."
+    ru: "Между сокрытием и раскрытием есть разница."
+    source: { kind: authored }
+  - form: "wyjawieniem"
+    pl: "Skończyło się wyjawieniem tajemnicy."
+    ru: "Кончилось раскрытием тайны."
+    source: { kind: authored }
+  - form: "wyjawieniu"
+    pl: "Po wyjawieniu prawdy zapadła cisza."
+    ru: "После раскрытия правды наступила тишина."
+    source: { kind: authored }
+  - form: "wyjawieniu"
+    pl: "O wyjawieniu nazwisk zadecydował sąd."
+    ru: "Об оглашении фамилий решил суд."
+    source: { kind: authored }
+  - form: "wyjawieniu"
+    pl: "W wyjawieniu tajemnicy nie ma nic dobrego."
+    ru: "В раскрытии тайны нет ничего хорошего."
+    source: { kind: authored }
   - form: "wyjawię"
     pl: "Nigdy nie wyjawię ci jej tajemnic!"
     ru: "Я никогда не выдам тебе её тайн!"
@@ -135,6 +193,18 @@ formExamples:
   - form: "wyjawię"
     pl: "Nigdy tego nie wyjawię."
     ru: "Я никогда этого не раскрою."
+    source: { kind: authored }
+  - form: "wyjawili"
+    pl: "Wyjawili prawdę."
+    ru: "Они открыли правду."
+    source: { kind: authored }
+  - form: "wyjawili"
+    pl: "Nie wyjawili tajemnicy."
+    ru: "Они не выдали тайны."
+    source: { kind: authored }
+  - form: "wyjawili"
+    pl: "Wyjawili wszystko wczoraj."
+    ru: "Они всё открыли вчера."
     source: { kind: authored }
   - form: "wyjawił"
     pl: "Nie wyjawił tajemnicy."
@@ -160,6 +230,210 @@ formExamples:
     pl: "Wyjawiła to tylko siostrze."
     ru: "Она открыла это только сестре."
     source: { kind: authored }
+  - form: "wyjawiłam"
+    pl: "Wyjawiłam mu prawdę."
+    ru: "Я открыла ему правду."
+    source: { kind: authored }
+  - form: "wyjawiłam"
+    pl: "Nie wyjawiłam tajemnicy."
+    ru: "Я не выдала тайны."
+    source: { kind: authored }
+  - form: "wyjawiłam"
+    pl: "Wyjawiłam wszystko wczoraj."
+    ru: "Я всё открыла вчера."
+    source: { kind: authored }
+  - form: "wyjawiłaś"
+    pl: "Wyjawiłaś mu prawdę."
+    ru: "Ты открыла ему правду."
+    source: { kind: authored }
+  - form: "wyjawiłaś"
+    pl: "Nie wyjawiłaś tajemnicy."
+    ru: "Ты не выдала тайны."
+    source: { kind: authored }
+  - form: "wyjawiłaś"
+    pl: "Wyjawiłaś wszystko wczoraj."
+    ru: "Ты всё открыла вчера."
+    source: { kind: authored }
+  - form: "wyjawiłem"
+    pl: "Wyjawiłem mu prawdę."
+    ru: "Я открыл ему правду."
+    source: { kind: authored }
+  - form: "wyjawiłem"
+    pl: "Nie wyjawiłem tajemnicy."
+    ru: "Я не выдал тайны."
+    source: { kind: authored }
+  - form: "wyjawiłem"
+    pl: "Wyjawiłem wszystko wczoraj."
+    ru: "Я всё открыл вчера."
+    source: { kind: authored }
+  - form: "wyjawiłeś"
+    pl: "Wyjawiłeś mu prawdę."
+    ru: "Ты открыл ему правду."
+    source: { kind: authored }
+  - form: "wyjawiłeś"
+    pl: "Nie wyjawiłeś tajemnicy."
+    ru: "Ты не выдал тайны."
+    source: { kind: authored }
+  - form: "wyjawiłeś"
+    pl: "Wyjawiłeś wszystko wczoraj."
+    ru: "Ты всё открыл вчера."
+    source: { kind: authored }
+  - form: "wyjawiło"
+    pl: "Dziecko wyjawiło tajemnicę."
+    ru: "Ребёнок выдал тайну."
+    source: { kind: authored }
+  - form: "wyjawiło"
+    pl: "Żadne z nich nie wyjawiło prawdy."
+    ru: "Никто из них не открыл правды."
+    source: { kind: authored }
+  - form: "wyjawiło"
+    pl: "Śledztwo wyjawiło całą historię."
+    ru: "Следствие раскрыло всю историю."
+    source: { kind: authored }
+  - form: "wyjawiły"
+    pl: "Dzieci wyjawiły tajemnicę."
+    ru: "Дети выдали тайну."
+    source: { kind: authored }
+  - form: "wyjawiły"
+    pl: "Dokumenty wyjawiły prawdę."
+    ru: "Документы открыли правду."
+    source: { kind: authored }
+  - form: "wyjawiły"
+    pl: "Nie wyjawiły niczego."
+    ru: "Они ничего не открыли."
+    source: { kind: authored }
+  - form: "wyjawimy"
+    pl: "Wyjawimy prawdę."
+    ru: "Мы откроем правду."
+    source: { kind: authored }
+  - form: "wyjawimy"
+    pl: "Nie wyjawimy tajemnicy."
+    ru: "Мы не выдадим тайны."
+    source: { kind: authored }
+  - form: "wyjawimy"
+    pl: "Wyjawimy wszystko jutro."
+    ru: "Мы всё откроем завтра."
+    source: { kind: authored }
+  - form: "wyjawiona"
+    pl: "Tajemnica została wyjawiona."
+    ru: "Тайну раскрыли."
+    source: { kind: authored }
+  - form: "wyjawiona"
+    pl: "Prawda nie była wyjawiona."
+    ru: "Правда не была открыта."
+    source: { kind: authored }
+  - form: "wyjawiona"
+    pl: "Wyjawiona przedwcześnie, straciła wagę."
+    ru: "Раскрытая преждевременно, она потеряла вес."
+    source: { kind: authored }
+  - form: "wyjawioną"
+    pl: "Znam tajemnicę wyjawioną w liście."
+    ru: "Я знаю тайну, раскрытую в письме."
+    source: { kind: authored }
+  - form: "wyjawioną"
+    pl: "Uznano prawdę za wyjawioną."
+    ru: "Правду сочли открытой."
+    source: { kind: authored }
+  - form: "wyjawioną"
+    pl: "Widzieliśmy wyjawioną w prasie listę."
+    ru: "Мы видели список, оглашённый в прессе."
+    source: { kind: authored }
+  - form: "wyjawione"
+    pl: "Nazwiska zostały wyjawione."
+    ru: "Фамилии огласили."
+    source: { kind: authored }
+  - form: "wyjawione"
+    pl: "Szczegóły nie były wyjawione."
+    ru: "Подробности не были раскрыты."
+    source: { kind: authored }
+  - form: "wyjawione"
+    pl: "Wyjawione przedwcześnie plany przepadły."
+    ru: "Раскрытые преждевременно планы пропали."
+    source: { kind: authored }
+  - form: "wyjawionego"
+    pl: "Nie ma tu nic wyjawionego."
+    ru: "Здесь нет ничего раскрытого."
+    source: { kind: authored }
+  - form: "wyjawionego"
+    pl: "Szukam sekretu wyjawionego w liście."
+    ru: "Я ищу секрет, раскрытый в письме."
+    source: { kind: authored }
+  - form: "wyjawionego"
+    pl: "Od wyjawionego nazwiska zaczęła się afera."
+    ru: "С оглашённой фамилии началась история."
+    source: { kind: authored }
+  - form: "wyjawionej"
+    pl: "Mówimy o tajemnicy wyjawionej w liście."
+    ru: "Мы говорим о тайне, раскрытой в письме."
+    source: { kind: authored }
+  - form: "wyjawionej"
+    pl: "Nie ufam wyjawionej pochopnie prawdzie."
+    ru: "Я не доверяю поспешно открытой правде."
+    source: { kind: authored }
+  - form: "wyjawionej"
+    pl: "Dzięki wyjawionej intrydze sprawa upadła."
+    ru: "Благодаря раскрытой интриге дело развалилось."
+    source: { kind: authored }
+  - form: "wyjawionemu"
+    pl: "Przyjrzyj się temu wyjawionemu sekretowi."
+    ru: "Присмотрись к этому раскрытому секрету."
+    source: { kind: authored }
+  - form: "wyjawionemu"
+    pl: "Wyjawionemu planowi nikt nie uwierzył."
+    ru: "Раскрытому плану никто не поверил."
+    source: { kind: authored }
+  - form: "wyjawionemu"
+    pl: "Dzięki wyjawionemu nazwisku znaleziono sprawcę."
+    ru: "Благодаря оглашённой фамилии нашли виновного."
+    source: { kind: authored }
+  - form: "wyjawiony"
+    pl: "Sekret został wyjawiony."
+    ru: "Секрет раскрыли."
+    source: { kind: authored }
+  - form: "wyjawiony"
+    pl: "Plan nie był wyjawiony."
+    ru: "План не был раскрыт."
+    source: { kind: authored }
+  - form: "wyjawiony"
+    pl: "Wyjawiony przedwcześnie, przepadł."
+    ru: "Раскрытый преждевременно, он пропал."
+    source: { kind: authored }
+  - form: "wyjawionych"
+    pl: "Nie ma tu wyjawionych nazwisk."
+    ru: "Здесь нет оглашённых фамилий."
+    source: { kind: authored }
+  - form: "wyjawionych"
+    pl: "Wśród wyjawionych sekretów był i ten."
+    ru: "Среди раскрытых секретов был и этот."
+    source: { kind: authored }
+  - form: "wyjawionych"
+    pl: "Od wyjawionych szczegółów zależy wyrok."
+    ru: "От раскрытых подробностей зависит приговор."
+    source: { kind: authored }
+  - form: "wyjawionym"
+    pl: "W wyjawionym planie była luka."
+    ru: "В раскрытом плане был пробел."
+    source: { kind: authored }
+  - form: "wyjawionym"
+    pl: "Wyjawionym sekretom nikt nie wierzy."
+    ru: "Раскрытым секретам никто не верит."
+    source: { kind: authored }
+  - form: "wyjawionym"
+    pl: "Z wyjawionym nazwiskiem poszło łatwiej."
+    ru: "С оглашённой фамилией пошло легче."
+    source: { kind: authored }
+  - form: "wyjawionymi"
+    pl: "Między ukrywanymi a wyjawionymi faktami jest różnica."
+    ru: "Между скрываемыми и раскрытыми фактами есть разница."
+    source: { kind: authored }
+  - form: "wyjawionymi"
+    pl: "Zajmuje się wyjawionymi dokumentami."
+    ru: "Он занимается раскрытыми документами."
+    source: { kind: authored }
+  - form: "wyjawionymi"
+    pl: "Gazeta żyje wyjawionymi sekretami."
+    ru: "Газета живёт раскрытыми секретами."
+    source: { kind: authored }
   - form: "wyjawisz"
     pl: "Wyjawisz mi tę tajemnicę?"
     ru: "Ты раскроешь мне эту тайну?"
@@ -171,4 +445,16 @@ formExamples:
   - form: "wyjawisz"
     pl: "Kiedy wyjawisz nam plan?"
     ru: "Когда ты раскроешь нам план?"
+    source: { kind: authored }
+  - form: "wyjawmy"
+    pl: "Wyjawmy prawdę."
+    ru: "Откроем правду."
+    source: { kind: authored }
+  - form: "wyjawmy"
+    pl: "Nie wyjawmy tajemnicy."
+    ru: "Не выдадим тайны."
+    source: { kind: authored }
+  - form: "wyjawmy"
+    pl: "Wyjawmy wszystko."
+    ru: "Откроем всё."
     source: { kind: authored }
