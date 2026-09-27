@@ -33,6 +33,7 @@ notes:
   - { kind: government, text: "Винительный падеж. Возвратное przypalić się значит, что пригорело само: mleko się przypaliło." }
   - { kind: false-friend, text: "Корень palić «жечь, курить» — ср. русское «палить». Но przypalić не «спалить дотла», а именно «подпалить, пригореть»." }
   - { kind: usage, text: "Существительное przypalenie значит «запах гари»: smakuje przypaleniem «отдаёт гарью»." }
+  - { kind: government, text: "Подгорает еда или ткань: przypalić mleko, przypalić koszulę. Об обожжённом человеке говорят poparzony, поэтому мужско-личной формы причастия у этого глагола нет." }
 collocations:
   - { pl: "przypalić mleko", ru: "сжечь молоко" }
   - { pl: "przypalony smak", ru: "пригорелый вкус" }
@@ -41,47 +42,26 @@ memory: "przypalić — «пригореть, подпалить», почти �
 idioms:
   - { pl: "przypalić mleko", ru: "сжечь молоко" }
 formExamplesSkip:
-  - { form: "przypalcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaleni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaleniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalili", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przypaleni", reason: "przypalić говорится о еде и о ткани — przypalić mleko, przypalić koszulę, — но не о человеке: об обожжённом скажут poparzony. Мужско-личного страдательного причастия глагол поэтому не даёт" }
   - { form: "przypaliliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypalilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypalilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przypaliliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przypaliła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przypaliłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przypaliłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaliłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przypaliłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przypaliłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaliłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaliło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przypaliłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przypaliły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przypaliłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przypaliłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przypaliłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przypaliwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "przypalmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypaloną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalonemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przypalono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "przypalonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przypalonymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "przypal"
     pl: "Nie przypal tosta."
@@ -107,6 +87,18 @@ formExamples:
     pl: "Nie przypalą obiadu."
     ru: "Они не сожгут обед."
     source: { kind: authored }
+  - form: "przypalcie"
+    pl: "Nie przypalcie tostów."
+    ru: "Не сожгите тосты."
+    source: { kind: authored }
+  - form: "przypalcie"
+    pl: "Nie przypalcie mleka."
+    ru: "Не сожгите молоко."
+    source: { kind: authored }
+  - form: "przypalcie"
+    pl: "Przypalcie skórkę na patelni."
+    ru: "Подрумяньте корочку на сковороде."
+    source: { kind: authored }
   - form: "przypalenia"
     pl: "To zupełnie nie jest zapach przypalenia."
     ru: "Это совсем не запах гари."
@@ -119,6 +111,18 @@ formExamples:
     pl: "Nie znoszę zapachu przypalenia."
     ru: "Я не выношу запаха гари."
     source: { kind: authored }
+  - form: "przypalenie"
+    pl: "Przypalenie mleka jest łatwe."
+    ru: "Сжечь молоко легко."
+    source: { kind: authored }
+  - form: "przypalenie"
+    pl: "Przypalenie zupy zepsuło obiad."
+    ru: "Пригоревший суп испортил обед."
+    source: { kind: authored }
+  - form: "przypalenie"
+    pl: "Przypalenie skórki nadaje smak."
+    ru: "Подрумяненная корочка придаёт вкус."
+    source: { kind: authored }
   - form: "przypaleniem"
     pl: "Ta kawa trochę smakuje przypaleniem."
     ru: "Этот кофе немного отдаёт гарью."
@@ -130,6 +134,18 @@ formExamples:
   - form: "przypaleniem"
     pl: "To danie zalatuje przypaleniem."
     ru: "Это блюдо отдаёт гарью."
+    source: { kind: authored }
+  - form: "przypaleniu"
+    pl: "Po przypaleniu mleka trzeba wietrzyć."
+    ru: "После пригоревшего молока надо проветрить."
+    source: { kind: authored }
+  - form: "przypaleniu"
+    pl: "O przypaleniu potrawy nikt nie wspomniał."
+    ru: "О пригоревшем блюде никто не упомянул."
+    source: { kind: authored }
+  - form: "przypaleniu"
+    pl: "W przypaleniu tostu nie ma tragedii."
+    ru: "В сожжённом тосте нет трагедии."
     source: { kind: authored }
   - form: "przypalę"
     pl: "Przypalę mleko, jeśli odejdę od kuchenki."
@@ -179,6 +195,18 @@ formExamples:
     pl: "Boję się przypalić naleśniki."
     ru: "Я боюсь сжечь блины."
     source: { kind: authored }
+  - form: "przypalili"
+    pl: "Przypalili tosty."
+    ru: "Они сожгли тосты."
+    source: { kind: authored }
+  - form: "przypalili"
+    pl: "Przypalili mleko."
+    ru: "Они сожгли молоко."
+    source: { kind: authored }
+  - form: "przypalili"
+    pl: "Nie przypalili niczego."
+    ru: "Они ничего не сожгли."
+    source: { kind: authored }
   - form: "przypalił"
     pl: "Tom przypalił ciastka."
     ru: "Том сжёг печенье."
@@ -190,6 +218,90 @@ formExamples:
   - form: "przypalił"
     pl: "Kucharz przypalił sos."
     ru: "Повар сжёг соус."
+    source: { kind: authored }
+  - form: "przypaliła"
+    pl: "Przypaliła tosty."
+    ru: "Она сожгла тосты."
+    source: { kind: authored }
+  - form: "przypaliła"
+    pl: "Przypaliła mleko."
+    ru: "Она сожгла молоко."
+    source: { kind: authored }
+  - form: "przypaliła"
+    pl: "Nie przypaliła niczego."
+    ru: "Она ничего не сожгла."
+    source: { kind: authored }
+  - form: "przypaliłam"
+    pl: "Przypaliłam tosty."
+    ru: "Я сожгла тосты."
+    source: { kind: authored }
+  - form: "przypaliłam"
+    pl: "Przypaliłam mleko."
+    ru: "Я сожгла молоко."
+    source: { kind: authored }
+  - form: "przypaliłam"
+    pl: "Nie przypaliłam niczego."
+    ru: "Я ничего не сожгла."
+    source: { kind: authored }
+  - form: "przypaliłaś"
+    pl: "Przypaliłaś tosty."
+    ru: "Ты сожгла тосты."
+    source: { kind: authored }
+  - form: "przypaliłaś"
+    pl: "Przypaliłaś mleko."
+    ru: "Ты сожгла молоко."
+    source: { kind: authored }
+  - form: "przypaliłaś"
+    pl: "Nie przypaliłaś niczego."
+    ru: "Ты ничего не сожгла."
+    source: { kind: authored }
+  - form: "przypaliłem"
+    pl: "Przypaliłem tosty."
+    ru: "Я сжёг тосты."
+    source: { kind: authored }
+  - form: "przypaliłem"
+    pl: "Przypaliłem mleko."
+    ru: "Я сжёг молоко."
+    source: { kind: authored }
+  - form: "przypaliłem"
+    pl: "Nie przypaliłem niczego."
+    ru: "Я ничего не сжёг."
+    source: { kind: authored }
+  - form: "przypaliłeś"
+    pl: "Przypaliłeś tosty."
+    ru: "Ты сжёг тосты."
+    source: { kind: authored }
+  - form: "przypaliłeś"
+    pl: "Przypaliłeś mleko."
+    ru: "Ты сжёг молоко."
+    source: { kind: authored }
+  - form: "przypaliłeś"
+    pl: "Nie przypaliłeś niczego."
+    ru: "Ты ничего не сжёг."
+    source: { kind: authored }
+  - form: "przypaliło"
+    pl: "Mleko się przypaliło."
+    ru: "Молоко пригорело."
+    source: { kind: authored }
+  - form: "przypaliło"
+    pl: "Dziecko przypaliło grzankę."
+    ru: "Ребёнок сжёг гренку."
+    source: { kind: authored }
+  - form: "przypaliło"
+    pl: "Coś się przypaliło w kuchni."
+    ru: "Что-то пригорело на кухне."
+    source: { kind: authored }
+  - form: "przypaliły"
+    pl: "Tosty się przypaliły."
+    ru: "Тосты пригорели."
+    source: { kind: authored }
+  - form: "przypaliły"
+    pl: "Dzieci przypaliły grzanki."
+    ru: "Дети сожгли гренки."
+    source: { kind: authored }
+  - form: "przypaliły"
+    pl: "Naleśniki się przypaliły."
+    ru: "Блины пригорели."
     source: { kind: authored }
   - form: "przypalimy"
     pl: "Przypalimy mleko, jeśli odejdziemy od kuchenki."
@@ -215,6 +327,90 @@ formExamples:
     pl: "Nie przypalisz obiadu."
     ru: "Ты не сожжёшь обед."
     source: { kind: authored }
+  - form: "przypalmy"
+    pl: "Nie przypalmy tostów."
+    ru: "Не сожжём тосты."
+    source: { kind: authored }
+  - form: "przypalmy"
+    pl: "Nie przypalmy mleka."
+    ru: "Не сожжём молоко."
+    source: { kind: authored }
+  - form: "przypalmy"
+    pl: "Przypalmy skórkę na patelni."
+    ru: "Подрумяним корочку на сковороде."
+    source: { kind: authored }
+  - form: "przypalona"
+    pl: "Zupa jest przypalona."
+    ru: "Суп пригорел."
+    source: { kind: authored }
+  - form: "przypalona"
+    pl: "Grzanka była przypalona."
+    ru: "Гренка была пригоревшей."
+    source: { kind: authored }
+  - form: "przypalona"
+    pl: "Ta patelnia jest przypalona."
+    ru: "Эта сковорода пригоревшая."
+    source: { kind: authored }
+  - form: "przypaloną"
+    pl: "Wyrzucił przypaloną grzankę."
+    ru: "Он выбросил пригоревшую гренку."
+    source: { kind: authored }
+  - form: "przypaloną"
+    pl: "Uznano zupę za przypaloną."
+    ru: "Суп сочли пригоревшим."
+    source: { kind: authored }
+  - form: "przypaloną"
+    pl: "Widziałem przypaloną patelnię."
+    ru: "Я видел пригоревшую сковороду."
+    source: { kind: authored }
+  - form: "przypalone"
+    pl: "Tosty są przypalone."
+    ru: "Тосты пригорели."
+    source: { kind: authored }
+  - form: "przypalone"
+    pl: "Przypalone mleko śmierdzi."
+    ru: "Пригоревшее молоко воняет."
+    source: { kind: authored }
+  - form: "przypalone"
+    pl: "Naleśniki są przypalone."
+    ru: "Блины пригорели."
+    source: { kind: authored }
+  - form: "przypalonego"
+    pl: "Nie ma tu nic przypalonego."
+    ru: "Здесь нет ничего пригоревшего."
+    source: { kind: authored }
+  - form: "przypalonego"
+    pl: "Czuć zapach przypalonego mleka."
+    ru: "Пахнет пригоревшим молоком."
+    source: { kind: authored }
+  - form: "przypalonego"
+    pl: "Od przypalonego tostu zrobiło się dymno."
+    ru: "От сожжённого тоста стало дымно."
+    source: { kind: authored }
+  - form: "przypalonej"
+    pl: "Czuć zapach przypalonej kaszy."
+    ru: "Пахнет пригоревшей кашей."
+    source: { kind: authored }
+  - form: "przypalonej"
+    pl: "Szukamy przyczyny przypalonej potrawy."
+    ru: "Мы ищем причину пригоревшего блюда."
+    source: { kind: authored }
+  - form: "przypalonej"
+    pl: "Po przypalonej zupie została woń."
+    ru: "От пригоревшего супа остался запах."
+    source: { kind: authored }
+  - form: "przypalonemu"
+    pl: "Przyjrzyj się przypalonemu garnkowi."
+    ru: "Присмотрись к пригоревшей кастрюле."
+    source: { kind: authored }
+  - form: "przypalonemu"
+    pl: "Przypalonemu mleku nic nie pomoże."
+    ru: "Пригоревшему молоку ничто не поможет."
+    source: { kind: authored }
+  - form: "przypalonemu"
+    pl: "Daj spokój przypalonemu tostowi."
+    ru: "Оставь сожжённый тост."
+    source: { kind: authored }
   - form: "przypalony"
     pl: "Ta kawa ma przypalony smak."
     ru: "У этого кофе пригорелый вкус."
@@ -226,6 +422,42 @@ formExamples:
   - form: "przypalony"
     pl: "Przypalony ryż trudno uratować."
     ru: "Пригоревший рис трудно спасти."
+    source: { kind: authored }
+  - form: "przypalonych"
+    pl: "Nie ma tu przypalonych tostów."
+    ru: "Пригоревших тостов тут нет."
+    source: { kind: authored }
+  - form: "przypalonych"
+    pl: "Wśród przypalonych grzanek jest i ta."
+    ru: "Среди пригоревших гренок есть и эта."
+    source: { kind: authored }
+  - form: "przypalonych"
+    pl: "Liczba przypalonych potraw rośnie."
+    ru: "Число пригоревших блюд растёт."
+    source: { kind: authored }
+  - form: "przypalonym"
+    pl: "W przypalonym mleku czuć gorycz."
+    ru: "В пригоревшем молоке чувствуется горечь."
+    source: { kind: authored }
+  - form: "przypalonym"
+    pl: "Przypalonym tostom nic nie pomoże."
+    ru: "Сожжённым тостам ничто не поможет."
+    source: { kind: authored }
+  - form: "przypalonym"
+    pl: "Z przypalonym garnkiem trzeba się namęczyć."
+    ru: "С пригоревшей кастрюлей придётся помучиться."
+    source: { kind: authored }
+  - form: "przypalonymi"
+    pl: "Zajmujemy się przypalonymi garnkami."
+    ru: "Мы занимаемся пригоревшими кастрюлями."
+    source: { kind: authored }
+  - form: "przypalonymi"
+    pl: "Między przypalonymi a przypieczonymi jest różnica."
+    ru: "Между пригоревшим и подрумяненным есть разница."
+    source: { kind: authored }
+  - form: "przypalonymi"
+    pl: "Z przypalonymi tostami nie ma co robić."
+    ru: "С сожжёнными тостами делать нечего."
     source: { kind: authored }
   - form: "niech przypali"
     pl: "Niech przypali mleko, jeśli musi."
