@@ -32,6 +32,7 @@ notes:
   - { kind: false-friend, text: "От przód «перёд», которое уже есть в словаре: предок — тот, кто впереди рода. Русское «предок» собрано тем же способом, от «пред»." }
   - { kind: usage, text: "Противоположность — potomek «потомок», мн. potomkowie." }
   - { kind: usage, text: "О вещах przodek значит «предшественник, ранняя разновидность»: Dyskietka to przodek dysku." }
+  - { kind: government, text: "Множественное число — przodkowie: przodki формы не ma, потому что это существительное мужского личного рода." }
 collocations:
   - { pl: "nasi przodkowie", ru: "наши предки" }
   - { pl: "czcić przodków", ru: "чтить предков" }
@@ -41,13 +42,7 @@ idioms:
   - { pl: "nasi przodkowie", ru: "наши предки" }
   - { pl: "czcić przodków", ru: "чтить предков" }
 formExamplesSkip:
-  - { form: "przodka", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodkach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodkami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodki", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodkiem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodkowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przodku", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przodki", reason: "форма образована генератором по ошибке, и примечание к карточке говорит об этом прямо: именительный множественного — przodkowie, а не przodki. Окончание -owie берут названия людей: ojcowie, panowie, przodkowie" }
 formExamples:
   - form: "przodek"
     pl: "Dyskietka to przodek dysku."
@@ -61,6 +56,54 @@ formExamples:
     pl: "Mój przodek był kowalem."
     ru: "Мой предок был кузнецом."
     source: { kind: authored }
+  - form: "przodka"
+    pl: "Szukam przodka z Irlandii."
+    ru: "Я ищу предка из Ирландии."
+    source: { kind: authored }
+  - form: "przodka"
+    pl: "Od przodka odziedziczył nazwisko."
+    ru: "От предка он унаследовал фамилию."
+    source: { kind: authored }
+  - form: "przodka"
+    pl: "Portret przodka wisi w sieni."
+    ru: "Портрет предка висит в сенях."
+    source: { kind: authored }
+  - form: "przodkach"
+    pl: "O przodkach mówi się przy stole."
+    ru: "О предках говорят за столом."
+    source: { kind: authored }
+  - form: "przodkach"
+    pl: "W przodkach szukają wzoru."
+    ru: "В предках ищут образец."
+    source: { kind: authored }
+  - form: "przodkach"
+    pl: "W opowieściach o przodkach jest duma."
+    ru: "В рассказах о предках есть гордость."
+    source: { kind: authored }
+  - form: "przodkami"
+    pl: "Szczyci się przodkami."
+    ru: "Он гордится предками."
+    source: { kind: authored }
+  - form: "przodkami"
+    pl: "Między potomkami a przodkami jest więź."
+    ru: "Между потомками и предками есть связь."
+    source: { kind: authored }
+  - form: "przodkami"
+    pl: "Zajmuje się przodkami rodziny."
+    ru: "Он занимается предками семьи."
+    source: { kind: authored }
+  - form: "przodkiem"
+    pl: "Szczyci się przodkiem rycerzem."
+    ru: "Он гордится предком-рыцарем."
+    source: { kind: authored }
+  - form: "przodkiem"
+    pl: "Między pradziadkiem a przodkiem jest różnica."
+    ru: "Между прадедом и предком есть разница."
+    source: { kind: authored }
+  - form: "przodkiem"
+    pl: "Interesuje się jednym przodkiem."
+    ru: "Он интересуется одним предком."
+    source: { kind: authored }
   - form: "przodkom"
     pl: "Zawdzięczamy to naszym przodkom."
     ru: "Мы обязаны этим нашим предкам."
@@ -72,6 +115,18 @@ formExamples:
   - form: "przodkom"
     pl: "Dziękujemy przodkom za tę ziemię."
     ru: "Мы благодарим предков за эту землю."
+    source: { kind: authored }
+  - form: "przodkowi"
+    pl: "Przyjrzyj się temu przodkowi."
+    ru: "Присмотрись к этому предку."
+    source: { kind: authored }
+  - form: "przodkowi"
+    pl: "Przodkowi zawdzięcza nazwisko."
+    ru: "Фамилией он обязан предку."
+    source: { kind: authored }
+  - form: "przodkowi"
+    pl: "Dzięki przodkowi rodzina ma ten dom."
+    ru: "Благодаря предку у семьи есть этот дом."
     source: { kind: authored }
   - form: "przodkowie"
     pl: "Skąd są twoi przodkowie?"
@@ -97,3 +152,15 @@ formExamples:
     pl: "Nasza rodzina miała kilku sławnych przodków."
     ru: "В нашей семье было несколько знаменитых предков."
     source: { kind: translated, id: 735938 }
+  - form: "przodku"
+    pl: "O tym przodku krążą legendy."
+    ru: "Об этом предке ходят легенды."
+    source: { kind: authored }
+  - form: "przodku"
+    pl: "W przodku rodu szukają wzoru."
+    ru: "В предке рода ищут образец."
+    source: { kind: authored }
+  - form: "przodku"
+    pl: "Po przodku odziedziczył upór."
+    ru: "От предка он унаследовал упрямство."
+    source: { kind: authored }
