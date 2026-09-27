@@ -48,8 +48,6 @@ idioms:
   - { pl: "wyrazić zgodę", ru: "дать согласие" }
   - { pl: "wyrazić się jasno", ru: "выразиться ясно" }
 formExamplesSkip:
-  - { form: "wyrazi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrazicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyraziliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyrazilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyrazilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -58,38 +56,43 @@ formExamplesSkip:
   - { form: "wyraziłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyraziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyraziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyraziłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyraziłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyraziło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyraziłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wyraziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyraziłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wyraziłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "wyraziłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "wyrazimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrazisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wyraziwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "wyraźcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyraźmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "wyrażeni", reason: "винительным дополнением здесь бывает мысль, согласие или мнение — wyrazić zgodę, wyrazić opinię, — но не человек. Страдательное причастие поэтому говорится о высказанном: opinia wyrażona wprost" }
   - { form: "wyrażono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "wyrażony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wyrażonymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "wyrazi"
+    pl: "Sąd wyrazi zgodę."
+    ru: "Суд даст согласие."
+    source: { kind: authored }
+  - form: "wyrazi"
+    pl: "Nie wyrazi opinii publicznie."
+    ru: "Он не выскажет мнения публично."
+    source: { kind: authored }
+  - form: "wyrazi"
+    pl: "Kto to wyrazi lepiej?"
+    ru: "Кто выразит это лучше?"
+    source: { kind: authored }
+  - form: "wyrazicie"
+    pl: "Wyrazicie zgodę?"
+    ru: "Вы дадите согласие?"
+    source: { kind: authored }
+  - form: "wyrazicie"
+    pl: "Nie wyrazicie opinii publicznie."
+    ru: "Вы не выскажете мнения публично."
+    source: { kind: authored }
+  - form: "wyrazicie"
+    pl: "Wyrazicie to lepiej niż ja."
+    ru: "Вы выразите это лучше меня."
+    source: { kind: authored }
   - form: "wyrazić"
     pl: "Trudno mi wyrazić myśli słowami."
     ru: "Мне сложно выразить свои мысли словами."
@@ -138,6 +141,30 @@ formExamples:
     pl: "Wyraziła to jednym słowem."
     ru: "Она выразила это одним словом."
     source: { kind: authored }
+  - form: "wyraziłam"
+    pl: "Wyraziłam zgodę."
+    ru: "Я дала согласие."
+    source: { kind: authored }
+  - form: "wyraziłam"
+    pl: "Wyraziłam swoje zdanie."
+    ru: "Я высказала своё мнение."
+    source: { kind: authored }
+  - form: "wyraziłam"
+    pl: "Nie wyraziłam opinii publicznie."
+    ru: "Я не высказала мнения публично."
+    source: { kind: authored }
+  - form: "wyraziłaś"
+    pl: "Wyraziłaś zgodę."
+    ru: "Ты дала согласие."
+    source: { kind: authored }
+  - form: "wyraziłaś"
+    pl: "Wyraziłaś swoje zdanie."
+    ru: "Ты высказала своё мнение."
+    source: { kind: authored }
+  - form: "wyraziłaś"
+    pl: "Nie wyraziłaś opinii publicznie."
+    ru: "Ты не высказала мнения публично."
+    source: { kind: authored }
   - form: "wyraziłem"
     pl: "Wyraziłem zgodę."
     ru: "Я дал согласие."
@@ -150,6 +177,66 @@ formExamples:
     pl: "Myślałem, że wyraziłem się jasno, co masz zrobić."
     ru: "Я думал, что ясно выразился, что тебе делать."
     source: { kind: translated, id: 3717922 }
+  - form: "wyraziłeś"
+    pl: "Wyraziłeś zgodę."
+    ru: "Ты дал согласие."
+    source: { kind: authored }
+  - form: "wyraziłeś"
+    pl: "Wyraziłeś swoje zdanie."
+    ru: "Ты высказал своё мнение."
+    source: { kind: authored }
+  - form: "wyraziłeś"
+    pl: "Nie wyraziłeś opinii publicznie."
+    ru: "Ты не высказал мнения публично."
+    source: { kind: authored }
+  - form: "wyraziło"
+    pl: "Miasto wyraziło zgodę."
+    ru: "Город дал согласие."
+    source: { kind: authored }
+  - form: "wyraziło"
+    pl: "Ministerstwo wyraziło opinię."
+    ru: "Министерство высказало мнение."
+    source: { kind: authored }
+  - form: "wyraziło"
+    pl: "Nic tego nie wyraziło lepiej."
+    ru: "Ничто не выразило этого лучше."
+    source: { kind: authored }
+  - form: "wyraziły"
+    pl: "Władze wyraziły zgodę."
+    ru: "Власти дали согласие."
+    source: { kind: authored }
+  - form: "wyraziły"
+    pl: "Te słowa wyraziły wszystko."
+    ru: "Эти слова выразили всё."
+    source: { kind: authored }
+  - form: "wyraziły"
+    pl: "Komisje wyraziły opinię."
+    ru: "Комиссии высказали мнение."
+    source: { kind: authored }
+  - form: "wyrazimy"
+    pl: "Wyrazimy zgodę."
+    ru: "Мы дадим согласие."
+    source: { kind: authored }
+  - form: "wyrazimy"
+    pl: "Nie wyrazimy opinii publicznie."
+    ru: "Мы не выскажем мнения публично."
+    source: { kind: authored }
+  - form: "wyrazimy"
+    pl: "Wyrazimy to prościej."
+    ru: "Мы выразим это проще."
+    source: { kind: authored }
+  - form: "wyrazisz"
+    pl: "Wyrazisz zgodę?"
+    ru: "Ты дашь согласие?"
+    source: { kind: authored }
+  - form: "wyrazisz"
+    pl: "Nie wyrazisz opinii publicznie."
+    ru: "Ты не выскажешь мнения публично."
+    source: { kind: authored }
+  - form: "wyrazisz"
+    pl: "Wyrazisz to lepiej niż ja."
+    ru: "Ты выразишь это лучше меня."
+    source: { kind: authored }
   - form: "wyraź"
     pl: "Wyraź swoje myśli."
     ru: "Вырази свои мысли."
@@ -161,6 +248,30 @@ formExamples:
   - form: "wyraź"
     pl: "Wyraź swoją opinię."
     ru: "Вырази своё мнение."
+    source: { kind: authored }
+  - form: "wyraźcie"
+    pl: "Wyraźcie zgodę na piśmie."
+    ru: "Дайте согласие письменно."
+    source: { kind: authored }
+  - form: "wyraźcie"
+    pl: "Wyraźcie swoje zdanie."
+    ru: "Выскажите своё мнение."
+    source: { kind: authored }
+  - form: "wyraźcie"
+    pl: "Wyraźcie to prościej."
+    ru: "Выразите это проще."
+    source: { kind: authored }
+  - form: "wyraźmy"
+    pl: "Wyraźmy zgodę na piśmie."
+    ru: "Дадим согласие письменно."
+    source: { kind: authored }
+  - form: "wyraźmy"
+    pl: "Wyraźmy swoje zdanie."
+    ru: "Выскажем своё мнение."
+    source: { kind: authored }
+  - form: "wyraźmy"
+    pl: "Wyraźmy to prościej."
+    ru: "Выразим это проще."
     source: { kind: authored }
   - form: "wyrażą"
     pl: "Żadne słowa nie wyrażą mojej radości."
@@ -210,6 +321,18 @@ formExamples:
     pl: "Nazwał to dziwnym wyrażeniem."
     ru: "Он назвал это странным выражением."
     source: { kind: authored }
+  - form: "wyrażeniu"
+    pl: "Po wyrażeniu zgody nie ma odwrotu."
+    ru: "После согласия обратного хода нет."
+    source: { kind: authored }
+  - form: "wyrażeniu"
+    pl: "O wyrażeniu opinii mówi regulamin."
+    ru: "О высказывании мнения говорит регламент."
+    source: { kind: authored }
+  - form: "wyrażeniu"
+    pl: "W tym wyrażeniu jest błąd."
+    ru: "В этом выражении есть ошибка."
+    source: { kind: authored }
   - form: "wyrażę"
     pl: "Pozwól, że wyrażę swoją osobistą opinię."
     ru: "Позволь мне высказать своё личное мнение."
@@ -233,4 +356,112 @@ formExamples:
   - form: "wyrażona"
     pl: "Zgoda wyrażona na piśmie jest ważna."
     ru: "Согласие, выраженное письменно, действительно."
+    source: { kind: authored }
+  - form: "wyrażoną"
+    pl: "Znam opinię wyrażoną w ankiecie."
+    ru: "Я знаю мнение, высказанное в анкете."
+    source: { kind: authored }
+  - form: "wyrażoną"
+    pl: "Uznano zgodę za wyrażoną milcząco."
+    ru: "Согласие сочли данным молчаливо."
+    source: { kind: authored }
+  - form: "wyrażoną"
+    pl: "Powtórzył myśl wyrażoną przez poprzednika."
+    ru: "Он повторил мысль, высказанную предшественником."
+    source: { kind: authored }
+  - form: "wyrażone"
+    pl: "Zgody zostały wyrażone na piśmie."
+    ru: "Согласия дали письменно."
+    source: { kind: authored }
+  - form: "wyrażone"
+    pl: "Wyrażone wątpliwości zapisano w protokole."
+    ru: "Высказанные сомнения записали в протокол."
+    source: { kind: authored }
+  - form: "wyrażone"
+    pl: "Te opinie są wyrażone wprost."
+    ru: "Эти мнения высказаны прямо."
+    source: { kind: authored }
+  - form: "wyrażonego"
+    pl: "Nie ma tu nic wyrażonego wprost."
+    ru: "Здесь нет ничего высказанного прямо."
+    source: { kind: authored }
+  - form: "wyrażonego"
+    pl: "Szukam zdania wyrażonego na piśmie."
+    ru: "Я ищу мнение, высказанное письменно."
+    source: { kind: authored }
+  - form: "wyrażonego"
+    pl: "Od życzenia wyrażonego wprost trudno się uchylić."
+    ru: "От высказанного прямо пожелания трудно уклониться."
+    source: { kind: authored }
+  - form: "wyrażonej"
+    pl: "Nie znam opinii wyrażonej tak ostro."
+    ru: "Я не знаю мнения, высказанного так резко."
+    source: { kind: authored }
+  - form: "wyrażonej"
+    pl: "Szukamy zgody wyrażonej na piśmie."
+    ru: "Мы ищем согласие, данное письменно."
+    source: { kind: authored }
+  - form: "wyrażonej"
+    pl: "Po myśli wyrażonej mimochodem został ślad."
+    ru: "От мысли, высказанной мимоходом, остался след."
+    source: { kind: authored }
+  - form: "wyrażonemu"
+    pl: "Przyjrzyj się zdaniu wyrażonemu na piśmie."
+    ru: "Присмотрись к мнению, высказанному письменно."
+    source: { kind: authored }
+  - form: "wyrażonemu"
+    pl: "Życzeniu wyrażonemu wprost trudno odmówić."
+    ru: "Пожеланию, высказанному прямо, трудно отказать."
+    source: { kind: authored }
+  - form: "wyrażonemu"
+    pl: "Daj pierwszeństwo wnioskowi wyrażonemu najjaśniej."
+    ru: "Отдай предпочтение выводу, выраженному яснее всех."
+    source: { kind: authored }
+  - form: "wyrażony"
+    pl: "Sprzeciw został wyrażony wprost."
+    ru: "Возражение высказали прямо."
+    source: { kind: authored }
+  - form: "wyrażony"
+    pl: "Ten pogląd jest wyrażony niejasno."
+    ru: "Этот взгляд выражен неясно."
+    source: { kind: authored }
+  - form: "wyrażony"
+    pl: "Warunek jest wyrażony w umowie."
+    ru: "Условие выражено в договоре."
+    source: { kind: authored }
+  - form: "wyrażonych"
+    pl: "Nie ma tu opinii wyrażonych wprost."
+    ru: "Здесь нет мнений, высказанных прямо."
+    source: { kind: authored }
+  - form: "wyrażonych"
+    pl: "Wśród wątpliwości wyrażonych w protokole jest i ta."
+    ru: "Среди сомнений в протоколе есть и это."
+    source: { kind: authored }
+  - form: "wyrażonych"
+    pl: "Liczba wyrażonych zgód rośnie."
+    ru: "Число данных согласий растёт."
+    source: { kind: authored }
+  - form: "wyrażonym"
+    pl: "W zdaniu wyrażonym na piśmie nie ma dwuznaczności."
+    ru: "В мнении, высказанном письменно, нет двусмысленности."
+    source: { kind: authored }
+  - form: "wyrażonym"
+    pl: "Opiniom wyrażonym wprost nikt nie zaprzeczy."
+    ru: "Мнениям, высказанным прямо, никто не возразит."
+    source: { kind: authored }
+  - form: "wyrażonym"
+    pl: "Z warunkiem wyrażonym w umowie trzeba się liczyć."
+    ru: "С условием, выраженным в договоре, надо считаться."
+    source: { kind: authored }
+  - form: "wyrażonymi"
+    pl: "Zajmujemy się opiniami wyrażonymi w ankiecie."
+    ru: "Мы занимаемся мнениями, высказанными в анкете."
+    source: { kind: authored }
+  - form: "wyrażonymi"
+    pl: "Między myślami wyrażonymi a przemilczanymi jest różnica."
+    ru: "Между высказанными и умолчанными мыслями есть разница."
+    source: { kind: authored }
+  - form: "wyrażonymi"
+    pl: "Ze zgodami wyrażonymi ustnie bywa kłopot."
+    ru: "С согласиями, данными устно, бывают хлопоты."
     source: { kind: authored }
