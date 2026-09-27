@@ -33,6 +33,7 @@ notes:
   - { kind: usage, text: "Несовершенный вид — przyglądać się." }
   - { kind: false-friend, text: "Корень -jrzeć тот же, что в spojrzeć «взглянуть» и ujrzeć «увидеть»; ср. русское «зреть», «взор», «зоркий»." }
   - { kind: usage, text: "Очень частая форма — повелительное przyjrzyj się «присмотрись»." }
+  - { kind: government, text: "Глагол возвратный и требует дательного: przyjrzeć się czemuś. Страдательного причастия он поэтому не образует вовсе — в отличие от stawić, где винительное дополнение есть." }
 collocations:
   - { pl: "przyjrzeć się sprawie", ru: "присмотреться к делу" }
   - { pl: "przyjrzyj się bliżej", ru: "присмотрись поближе" }
@@ -44,16 +45,10 @@ formExamplesSkip:
   - { form: "przyjrzałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przyjrzałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przyjrzałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przyjrzałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przyjrzałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przyjrzały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przyjrzałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -61,20 +56,11 @@ formExamplesSkip:
   - { form: "przyjrzałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przyjrzano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "przyjrzawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "przyjrzą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzeli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przyjrzeliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzelibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzelibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przyjrzeliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przyjrzeliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przyjrzenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przyjrzycie", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "przyjrzał"
     pl: "Poproszono mnie, żebym przyjrzał się sprawie."
@@ -100,6 +86,90 @@ formExamples:
     pl: "Przyjrzała mu się w milczeniu."
     ru: "Она молча его рассматривала."
     source: { kind: authored }
+  - form: "przyjrzałam"
+    pl: "Przyjrzałam się sprawie."
+    ru: "Я присмотрелась к делу."
+    source: { kind: authored }
+  - form: "przyjrzałam"
+    pl: "Przyjrzałam się jego twarzy."
+    ru: "Я вгляделась в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzałam"
+    pl: "Nie przyjrzałam się temu dokładnie."
+    ru: "Я к этому внимательно не присмотрелась."
+    source: { kind: authored }
+  - form: "przyjrzałaś"
+    pl: "Przyjrzałaś się sprawie."
+    ru: "Ты присмотрелась к делу."
+    source: { kind: authored }
+  - form: "przyjrzałaś"
+    pl: "Przyjrzałaś się jego twarzy."
+    ru: "Ты вгляделась в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzałaś"
+    pl: "Nie przyjrzałaś się temu dokładnie."
+    ru: "Ты к этому внимательно не присмотрелась."
+    source: { kind: authored }
+  - form: "przyjrzałem"
+    pl: "Przyjrzałem się sprawie."
+    ru: "Я присмотрелся к делу."
+    source: { kind: authored }
+  - form: "przyjrzałem"
+    pl: "Przyjrzałem się jego twarzy."
+    ru: "Я вгляделся в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzałem"
+    pl: "Nie przyjrzałem się temu dokładnie."
+    ru: "Я к этому внимательно не присмотрелся."
+    source: { kind: authored }
+  - form: "przyjrzałeś"
+    pl: "Przyjrzałeś się sprawie."
+    ru: "Ты присмотрелся к делу."
+    source: { kind: authored }
+  - form: "przyjrzałeś"
+    pl: "Przyjrzałeś się jego twarzy."
+    ru: "Ты вгляделся в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzałeś"
+    pl: "Nie przyjrzałeś się temu dokładnie."
+    ru: "Ты к этому внимательно не присмотрелся."
+    source: { kind: authored }
+  - form: "przyjrzało"
+    pl: "Dziecko przyjrzało się obrazkowi."
+    ru: "Ребёнок присмотрелся к картинке."
+    source: { kind: authored }
+  - form: "przyjrzało"
+    pl: "Miasto przyjrzało się sprawie."
+    ru: "Город присмотрелся к делу."
+    source: { kind: authored }
+  - form: "przyjrzało"
+    pl: "Nic się temu nie przyjrzało."
+    ru: "Ничто к этому не присмотрелось."
+    source: { kind: authored }
+  - form: "przyjrzały"
+    pl: "Dzieci przyjrzały się obrazkowi."
+    ru: "Дети присмотрелись к картинке."
+    source: { kind: authored }
+  - form: "przyjrzały"
+    pl: "Komisje przyjrzały się sprawie."
+    ru: "Комиссии присмотрелись к делу."
+    source: { kind: authored }
+  - form: "przyjrzały"
+    pl: "Kamery przyjrzały się wszystkiemu."
+    ru: "Камеры присмотрелись ко всему."
+    source: { kind: authored }
+  - form: "przyjrzą"
+    pl: "Przyjrzą się sprawie."
+    ru: "Они присмотрятся к делу."
+    source: { kind: authored }
+  - form: "przyjrzą"
+    pl: "Przyjrzą się temu jutro."
+    ru: "Они присмотрятся к этому завтра."
+    source: { kind: authored }
+  - form: "przyjrzą"
+    pl: "Nie przyjrzą się temu dokładnie."
+    ru: "Внимательно они к этому не присмотрятся."
+    source: { kind: authored }
   - form: "przyjrzeć"
     pl: "Chcę się bliżej przyjrzeć."
     ru: "Я хочу присмотреться поближе."
@@ -112,6 +182,102 @@ formExamples:
     pl: "Mógłbym się temu bliżej przyjrzeć?"
     ru: "Мог бы я присмотреться к этому поближе?"
     source: { kind: translated, id: 3649656 }
+  - form: "przyjrzeli"
+    pl: "Przyjrzeli się sprawie."
+    ru: "Они присмотрелись к делу."
+    source: { kind: authored }
+  - form: "przyjrzeli"
+    pl: "Przyjrzeli się jego twarzy."
+    ru: "Они вгляделись в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzeli"
+    pl: "Nie przyjrzeli się temu dokładnie."
+    ru: "Они к этому внимательно не присмотрелись."
+    source: { kind: authored }
+  - form: "przyjrzenia"
+    pl: "Bez przyjrzenia się z bliska nic nie zrozumiesz."
+    ru: "Не присмотревшись вблизи, ничего не поймёшь."
+    source: { kind: authored }
+  - form: "przyjrzenia"
+    pl: "Od przyjrzenia się sprawie zaczęto śledztwo."
+    ru: "С того, что присмотрелись к делу, началось следствие."
+    source: { kind: authored }
+  - form: "przyjrzenia"
+    pl: "Sprawa wymaga bliższego przyjrzenia."
+    ru: "Дело требует более близкого рассмотрения."
+    source: { kind: authored }
+  - form: "przyjrzenie"
+    pl: "Przyjrzenie się sprawie zajmie tydzień."
+    ru: "Присмотреться к делу займёт неделю."
+    source: { kind: authored }
+  - form: "przyjrzenie"
+    pl: "Przyjrzenie się z bliska wiele zmienia."
+    ru: "Взгляд вблизи многое меняет."
+    source: { kind: authored }
+  - form: "przyjrzenie"
+    pl: "Wystarczy jedno uważne przyjrzenie."
+    ru: "Достаточно одного внимательного взгляда."
+    source: { kind: authored }
+  - form: "przyjrzeniem"
+    pl: "Między spojrzeniem a przyjrzeniem jest różnica."
+    ru: "Между взглядом и рассмотрением есть разница."
+    source: { kind: authored }
+  - form: "przyjrzeniem"
+    pl: "Skończyło się przyjrzeniem z bliska."
+    ru: "Кончилось тем, что присмотрелись вблизи."
+    source: { kind: authored }
+  - form: "przyjrzeniem"
+    pl: "Zaskoczył nas uważnym przyjrzeniem."
+    ru: "Он удивил нас внимательным рассмотрением."
+    source: { kind: authored }
+  - form: "przyjrzeniu"
+    pl: "Po przyjrzeniu się z bliska zmienił zdanie."
+    ru: "Присмотревшись вблизи, он передумал."
+    source: { kind: authored }
+  - form: "przyjrzeniu"
+    pl: "O przyjrzeniu się sprawie mówi protokół."
+    ru: "О рассмотрении дела говорит протокол."
+    source: { kind: authored }
+  - form: "przyjrzeniu"
+    pl: "W przyjrzeniu się z bliska nie ma nic złego."
+    ru: "В том, чтобы присмотреться вблизи, нет ничего плохого."
+    source: { kind: authored }
+  - form: "przyjrzę"
+    pl: "Przyjrzę się sprawie."
+    ru: "Я присмотрюсь к делу."
+    source: { kind: authored }
+  - form: "przyjrzę"
+    pl: "Przyjrzę się temu jutro."
+    ru: "Я присмотрюсь к этому завтра."
+    source: { kind: authored }
+  - form: "przyjrzę"
+    pl: "Przyjrzę się jego twarzy."
+    ru: "Я вгляжусь в его лицо."
+    source: { kind: authored }
+  - form: "przyjrzy"
+    pl: "Sąd przyjrzy się sprawie."
+    ru: "Суд присмотрится к делу."
+    source: { kind: authored }
+  - form: "przyjrzy"
+    pl: "Nikt się temu nie przyjrzy."
+    ru: "Никто к этому не присмотрится."
+    source: { kind: authored }
+  - form: "przyjrzy"
+    pl: "Przyjrzy się temu jutro."
+    ru: "Он присмотрится к этому завтра."
+    source: { kind: authored }
+  - form: "przyjrzycie"
+    pl: "Przyjrzycie się sprawie?"
+    ru: "Вы присмотритесь к делу?"
+    source: { kind: authored }
+  - form: "przyjrzycie"
+    pl: "Przyjrzycie się temu jutro."
+    ru: "Вы присмотритесь к этому завтра."
+    source: { kind: authored }
+  - form: "przyjrzycie"
+    pl: "Nie przyjrzycie się temu dokładnie."
+    ru: "Внимательно вы к этому не присмотритесь."
+    source: { kind: authored }
   - form: "przyjrzyj"
     pl: "Przyjrzyj się."
     ru: "Присмотрись."
