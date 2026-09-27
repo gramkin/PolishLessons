@@ -43,8 +43,6 @@ idioms:
   - { pl: "nie przeczę", ru: "не отрицаю" }
   - { pl: "odpowiedź przecząca", ru: "отрицательный ответ" }
 formExamplesSkip:
-  - { form: "przecz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przecząc", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przecząca", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przeczące", reason: "причастная форма; в корпусе примеров нет" }
@@ -55,44 +53,49 @@ formExamplesSkip:
   - { form: "przeczących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przeczącym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przeczącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "przeczcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczmy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "przeczy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczyć", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przeczyliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przeczyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przeczyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przeczyłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przeczyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przeczyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przeczyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przeczyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przeczymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przeczysz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "przecz"
+    pl: "Nie przecz faktom."
+    ru: "Не отрицай фактов."
+    source: { kind: authored }
+  - form: "przecz"
+    pl: "Nie przecz sam sobie."
+    ru: "Не противоречь сам себе."
+    source: { kind: authored }
+  - form: "przecz"
+    pl: "Nie przecz, tylko słuchaj."
+    ru: "Не перечь, а слушай."
+    source: { kind: authored }
+  - form: "przeczą"
+    pl: "Fakty przeczą tej teorii."
+    ru: "Факты противоречат этой теории."
+    source: { kind: authored }
+  - form: "przeczą"
+    pl: "Nie przeczą oczywistości."
+    ru: "Они не отрицают очевидного."
+    source: { kind: authored }
+  - form: "przeczą"
+    pl: "Jego słowa przeczą czynom."
+    ru: "Его слова противоречат делам."
+    source: { kind: authored }
   - form: "przeczącą"
     pl: "Dał ci odpowiedź twierdzącą czy przeczącą?"
     ru: "Он дал тебе утвердительный ответ или отрицательный?"
@@ -104,6 +107,66 @@ formExamples:
   - form: "przeczącą"
     pl: "Odpowiedział formą przeczącą."
     ru: "Он ответил отрицательной формой."
+    source: { kind: authored }
+  - form: "przeczcie"
+    pl: "Nie przeczcie faktom."
+    ru: "Не отрицайте фактов."
+    source: { kind: authored }
+  - form: "przeczcie"
+    pl: "Nie przeczcie sami sobie."
+    ru: "Не противоречьте сами себе."
+    source: { kind: authored }
+  - form: "przeczcie"
+    pl: "Nie przeczcie, tylko słuchajcie."
+    ru: "Не перечьте, а слушайте."
+    source: { kind: authored }
+  - form: "przeczenia"
+    pl: "Bez przeczenia nie ma sporu."
+    ru: "Без отрицания нет спора."
+    source: { kind: authored }
+  - form: "przeczenia"
+    pl: "Od przeczenia do zgody daleka droga."
+    ru: "От отрицания до согласия далёкий путь."
+    source: { kind: authored }
+  - form: "przeczenia"
+    pl: "Nie znoszę ciągłego przeczenia."
+    ru: "Я не выношу постоянного пререкания."
+    source: { kind: authored }
+  - form: "przeczenie"
+    pl: "Przeczenie faktom do niczego nie prowadzi."
+    ru: "Отрицание фактов ни к чему не ведёт."
+    source: { kind: authored }
+  - form: "przeczenie"
+    pl: "W zdaniu jest podwójne przeczenie."
+    ru: "В предложении двойное отрицание."
+    source: { kind: authored }
+  - form: "przeczenie"
+    pl: "Przeczenie nie jest argumentem."
+    ru: "Отрицание — не аргумент."
+    source: { kind: authored }
+  - form: "przeczeniem"
+    pl: "Między milczeniem a przeczeniem jest różnica."
+    ru: "Между молчанием и отрицанием есть разница."
+    source: { kind: authored }
+  - form: "przeczeniem"
+    pl: "Odpowiedział przeczeniem."
+    ru: "Он ответил отрицанием."
+    source: { kind: authored }
+  - form: "przeczeniem"
+    pl: "Zajął się przeczeniem oczywistości."
+    ru: "Он занялся отрицанием очевидного."
+    source: { kind: authored }
+  - form: "przeczeniu"
+    pl: "W tym przeczeniu nie ma logiki."
+    ru: "В этом отрицании нет логики."
+    source: { kind: authored }
+  - form: "przeczeniu"
+    pl: "O przeczeniu faktom nie ma co mówić."
+    ru: "Об отрицании фактов не стоит и говорить."
+    source: { kind: authored }
+  - form: "przeczeniu"
+    pl: "Po przeczeniu nastąpiła zgoda."
+    ru: "После отрицания наступило согласие."
     source: { kind: authored }
   - form: "przeczę"
     pl: "Nie przeczę."
@@ -117,6 +180,66 @@ formExamples:
     pl: "Nie przeczę jego słowom."
     ru: "Я не перечу его словам."
     source: { kind: authored }
+  - form: "przeczmy"
+    pl: "Nie przeczmy faktom."
+    ru: "Не будем отрицать фактов."
+    source: { kind: authored }
+  - form: "przeczmy"
+    pl: "Nie przeczmy sami sobie."
+    ru: "Не будем противоречить сами себе."
+    source: { kind: authored }
+  - form: "przeczmy"
+    pl: "Nie przeczmy oczywistości."
+    ru: "Не будем отрицать очевидного."
+    source: { kind: authored }
+  - form: "przeczy"
+    pl: "Nikt nie przeczy faktom."
+    ru: "Никто не отрицает фактов."
+    source: { kind: authored }
+  - form: "przeczy"
+    pl: "To przeczy zdrowemu rozsądkowi."
+    ru: "Это противоречит здравому смыслу."
+    source: { kind: authored }
+  - form: "przeczy"
+    pl: "Jego uśmiech przeczy smutkowi."
+    ru: "Его улыбка противоречит грусти."
+    source: { kind: authored }
+  - form: "przeczycie"
+    pl: "Nie przeczycie faktom?"
+    ru: "Вы не отрицаете фактов?"
+    source: { kind: authored }
+  - form: "przeczycie"
+    pl: "Przeczycie sami sobie."
+    ru: "Вы сами себе противоречите."
+    source: { kind: authored }
+  - form: "przeczycie"
+    pl: "Czemu przeczycie oczywistości?"
+    ru: "Почему вы отрицаете очевидное?"
+    source: { kind: authored }
+  - form: "przeczyć"
+    pl: "Trudno przeczyć faktom."
+    ru: "Трудно отрицать факты."
+    source: { kind: authored }
+  - form: "przeczyć"
+    pl: "Nie ma sensu przeczyć oczywistości."
+    ru: "Нет смысла отрицать очевидное."
+    source: { kind: authored }
+  - form: "przeczyć"
+    pl: "Nie chcę ci przeczyć."
+    ru: "Я не хочу тебе перечить."
+    source: { kind: authored }
+  - form: "przeczyli"
+    pl: "Nie przeczyli faktom."
+    ru: "Они не отрицали фактов."
+    source: { kind: authored }
+  - form: "przeczyli"
+    pl: "Przeczyli sami sobie."
+    ru: "Они сами себе противоречили."
+    source: { kind: authored }
+  - form: "przeczyli"
+    pl: "Świadkowie przeczyli oskarżonemu."
+    ru: "Свидетели противоречили обвиняемому."
+    source: { kind: authored }
   - form: "przeczył"
     pl: "Jej melancholijny uśmiech przeczył smutkowi, który czuła, mając odjeżdżać."
     ru: "Её меланхоличная улыбка противоречила грусти, которую она чувствовала."
@@ -128,6 +251,114 @@ formExamples:
   - form: "przeczył"
     pl: "Nikt temu nie przeczył."
     ru: "Никто этому не перечил."
+    source: { kind: authored }
+  - form: "przeczyła"
+    pl: "Nie przeczyła faktom."
+    ru: "Она не отрицала фактов."
+    source: { kind: authored }
+  - form: "przeczyła"
+    pl: "Przeczyła sama sobie."
+    ru: "Она сама себе противоречила."
+    source: { kind: authored }
+  - form: "przeczyła"
+    pl: "Jej mina przeczyła słowom."
+    ru: "Её лицо противоречило словам."
+    source: { kind: authored }
+  - form: "przeczyłam"
+    pl: "Nie przeczyłam faktom."
+    ru: "Я не отрицала фактов."
+    source: { kind: authored }
+  - form: "przeczyłam"
+    pl: "Przeczyłam sama sobie."
+    ru: "Я сама себе противоречила."
+    source: { kind: authored }
+  - form: "przeczyłam"
+    pl: "Nigdy ci nie przeczyłam."
+    ru: "Я никогда тебе не перечила."
+    source: { kind: authored }
+  - form: "przeczyłaś"
+    pl: "Nie przeczyłaś faktom."
+    ru: "Ты не отрицала фактов."
+    source: { kind: authored }
+  - form: "przeczyłaś"
+    pl: "Przeczyłaś sama sobie."
+    ru: "Ты сама себе противоречила."
+    source: { kind: authored }
+  - form: "przeczyłaś"
+    pl: "Nigdy mi nie przeczyłaś."
+    ru: "Ты никогда мне не перечила."
+    source: { kind: authored }
+  - form: "przeczyłem"
+    pl: "Nie przeczyłem faktom."
+    ru: "Я не отрицал фактов."
+    source: { kind: authored }
+  - form: "przeczyłem"
+    pl: "Przeczyłem sam sobie."
+    ru: "Я сам себе противоречил."
+    source: { kind: authored }
+  - form: "przeczyłem"
+    pl: "Nigdy ci nie przeczyłem."
+    ru: "Я никогда тебе не перечил."
+    source: { kind: authored }
+  - form: "przeczyłeś"
+    pl: "Nie przeczyłeś faktom."
+    ru: "Ты не отрицал фактов."
+    source: { kind: authored }
+  - form: "przeczyłeś"
+    pl: "Przeczyłeś sam sobie."
+    ru: "Ты сам себе противоречил."
+    source: { kind: authored }
+  - form: "przeczyłeś"
+    pl: "Nigdy mi nie przeczyłeś."
+    ru: "Ты никогда мне не перечил."
+    source: { kind: authored }
+  - form: "przeczyło"
+    pl: "Nic nie przeczyło tej teorii."
+    ru: "Ничто не противоречило этой теории."
+    source: { kind: authored }
+  - form: "przeczyło"
+    pl: "Jego zachowanie przeczyło słowom."
+    ru: "Его поведение противоречило словам."
+    source: { kind: authored }
+  - form: "przeczyło"
+    pl: "Dziecko nie przeczyło matce."
+    ru: "Ребёнок не перечил матери."
+    source: { kind: authored }
+  - form: "przeczyły"
+    pl: "Fakty przeczyły tej teorii."
+    ru: "Факты противоречили этой теории."
+    source: { kind: authored }
+  - form: "przeczyły"
+    pl: "Jej słowa przeczyły czynom."
+    ru: "Её слова противоречили делам."
+    source: { kind: authored }
+  - form: "przeczyły"
+    pl: "Dzieci nie przeczyły matce."
+    ru: "Дети не перечили матери."
+    source: { kind: authored }
+  - form: "przeczymy"
+    pl: "Nie przeczymy faktom."
+    ru: "Мы не отрицаем фактов."
+    source: { kind: authored }
+  - form: "przeczymy"
+    pl: "Przeczymy sami sobie."
+    ru: "Мы сами себе противоречим."
+    source: { kind: authored }
+  - form: "przeczymy"
+    pl: "Nie przeczymy oczywistości."
+    ru: "Мы не отрицаем очевидного."
+    source: { kind: authored }
+  - form: "przeczysz"
+    pl: "Nie przeczysz faktom?"
+    ru: "Ты не отрицаешь фактов?"
+    source: { kind: authored }
+  - form: "przeczysz"
+    pl: "Przeczysz sam sobie."
+    ru: "Ты сам себе противоречишь."
+    source: { kind: authored }
+  - form: "przeczysz"
+    pl: "Czemu przeczysz oczywistości?"
+    ru: "Почему ты отрицаешь очевидное?"
     source: { kind: authored }
   - form: "będę przeczyć"
     pl: "Będę przeczyć każdemu zarzutowi."
