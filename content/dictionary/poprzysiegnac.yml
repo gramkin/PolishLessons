@@ -45,9 +45,6 @@ formExamplesSkip:
   - { form: "poprzysiągłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysiągłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysiągłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poprzysiągłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysiągłszy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poprzysięgliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięglibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięglibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -56,42 +53,13 @@ formExamplesSkip:
   - { form: "poprzysięgłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięgłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięgłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poprzysięgłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poprzysięgłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poprzysięgły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poprzysięgłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięgłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięgłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poprzysięgłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "poprzysięgłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "poprzysięgną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnąć", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięcia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięciem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięciu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięte", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnięty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgniętymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnij", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnijcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poprzysięgnijmy", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "poprzysięgnięci", reason: "страдательное причастие мужского лица, а клятвой скрепляют молчание, месть, верность или союз: poprzysięgnąć wierność. Человека не клянут в этом смысле, поэтому формы нет" }
 formExamples:
   - form: "poprzysiągł"
     pl: "Tom poprzysiągł kiedyś się zemścić."
@@ -117,6 +85,42 @@ formExamples:
     pl: "Poprzysiągłem, że wrócę."
     ru: "Я поклялся, что вернусь."
     source: { kind: authored }
+  - form: "poprzysiągłeś"
+    pl: "Poprzysiągłeś milczenie."
+    ru: "Ты поклялся молчать."
+    source: { kind: authored }
+  - form: "poprzysiągłeś"
+    pl: "Poprzysiągłeś zemstę."
+    ru: "Ты поклялся отомстить."
+    source: { kind: authored }
+  - form: "poprzysiągłeś"
+    pl: "Poprzysiągłeś wierność."
+    ru: "Ты поклялся в верности."
+    source: { kind: authored }
+  - form: "poprzysiągłszy"
+    pl: "Poprzysiągłszy milczenie, wyszedł."
+    ru: "Поклявшись молчать, он вышел."
+    source: { kind: authored }
+  - form: "poprzysiągłszy"
+    pl: "Poprzysiągłszy zemstę, ruszył w drogę."
+    ru: "Поклявшись отомстить, он двинулся в путь."
+    source: { kind: authored }
+  - form: "poprzysiągłszy"
+    pl: "Poprzysiągłszy wierność, uklęknął."
+    ru: "Поклявшись в верности, он преклонил колени."
+    source: { kind: authored }
+  - form: "poprzysięgli"
+    pl: "Poprzysięgli milczenie."
+    ru: "Они поклялись молчать."
+    source: { kind: authored }
+  - form: "poprzysięgli"
+    pl: "Poprzysięgli sobie zemstę."
+    ru: "Они поклялись друг другу отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgli"
+    pl: "Poprzysięgli wierność."
+    ru: "Они поклялись в верности."
+    source: { kind: authored }
   - form: "poprzysięgła"
     pl: "Poprzysięgła nigdy więcej się do mnie nie odezwać."
     ru: "Она поклялась больше никогда со мной не заговаривать."
@@ -128,4 +132,352 @@ formExamples:
   - form: "poprzysięgła"
     pl: "Poprzysięgła mu wierność."
     ru: "Она поклялась ему в верности."
+    source: { kind: authored }
+  - form: "poprzysięgłam"
+    pl: "Poprzysięgłam milczenie."
+    ru: "Я поклялась молчать."
+    source: { kind: authored }
+  - form: "poprzysięgłam"
+    pl: "Poprzysięgłam zemstę."
+    ru: "Я поклялась отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgłam"
+    pl: "Poprzysięgłam wierność."
+    ru: "Я поклялась в верности."
+    source: { kind: authored }
+  - form: "poprzysięgłaś"
+    pl: "Poprzysięgłaś milczenie."
+    ru: "Ты поклялась молчать."
+    source: { kind: authored }
+  - form: "poprzysięgłaś"
+    pl: "Poprzysięgłaś zemstę."
+    ru: "Ты поклялась отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgłaś"
+    pl: "Poprzysięgłaś wierność."
+    ru: "Ты поклялась в верности."
+    source: { kind: authored }
+  - form: "poprzysięgło"
+    pl: "Dziecko poprzysięgło milczenie."
+    ru: "Ребёнок поклялся молчать."
+    source: { kind: authored }
+  - form: "poprzysięgło"
+    pl: "Żadne z nich nie poprzysięgło wierności."
+    ru: "Никто из них не поклялся в верности."
+    source: { kind: authored }
+  - form: "poprzysięgło"
+    pl: "Miasto poprzysięgło obronę."
+    ru: "Город поклялся обороняться."
+    source: { kind: authored }
+  - form: "poprzysięgły"
+    pl: "Dzieci poprzysięgły milczenie."
+    ru: "Дети поклялись молчать."
+    source: { kind: authored }
+  - form: "poprzysięgły"
+    pl: "Rody poprzysięgły sobie zemstę."
+    ru: "Роды поклялись отомстить друг другу."
+    source: { kind: authored }
+  - form: "poprzysięgły"
+    pl: "Nie poprzysięgły wierności."
+    ru: "Они не поклялись в верности."
+    source: { kind: authored }
+  - form: "poprzysięgną"
+    pl: "Poprzysięgną milczenie."
+    ru: "Они поклянутся молчать."
+    source: { kind: authored }
+  - form: "poprzysięgną"
+    pl: "Poprzysięgną zemstę."
+    ru: "Они поклянутся отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgną"
+    pl: "Poprzysięgną wierność."
+    ru: "Они поклянутся в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnąć"
+    pl: "Trzeba poprzysięgnąć milczenie."
+    ru: "Надо поклясться молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnąć"
+    pl: "Można poprzysięgnąć zemstę."
+    ru: "Можно поклясться отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgnąć"
+    pl: "Kazano im poprzysięgnąć wierność."
+    ru: "Им велели поклясться в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnę"
+    pl: "Poprzysięgnę milczenie."
+    ru: "Я поклянусь молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnę"
+    pl: "Poprzysięgnę zemstę."
+    ru: "Я поклянусь отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgnę"
+    pl: "Poprzysięgnę wierność."
+    ru: "Я поклянусь в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnie"
+    pl: "Poprzysięgnie milczenie."
+    ru: "Он поклянётся молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnie"
+    pl: "Poprzysięgnie zemstę."
+    ru: "Он поклянётся отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgnie"
+    pl: "Nikt nie poprzysięgnie wierności."
+    ru: "Никто не поклянётся в верности."
+    source: { kind: authored }
+  - form: "poprzysięgniecie"
+    pl: "Poprzysięgniecie milczenie?"
+    ru: "Вы поклянётесь молчать?"
+    source: { kind: authored }
+  - form: "poprzysięgniecie"
+    pl: "Poprzysięgniecie zemstę."
+    ru: "Вы поклянётесь отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgniecie"
+    pl: "Poprzysięgniecie wierność."
+    ru: "Вы поклянётесь в верности."
+    source: { kind: authored }
+  - form: "poprzysięgniemy"
+    pl: "Poprzysięgniemy milczenie."
+    ru: "Мы поклянёмся молчать."
+    source: { kind: authored }
+  - form: "poprzysięgniemy"
+    pl: "Poprzysięgniemy zemstę."
+    ru: "Мы поклянёмся отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgniemy"
+    pl: "Poprzysięgniemy wierność."
+    ru: "Мы поклянёмся в верности."
+    source: { kind: authored }
+  - form: "poprzysięgniesz"
+    pl: "Poprzysięgniesz milczenie?"
+    ru: "Ты поклянёшься молчать?"
+    source: { kind: authored }
+  - form: "poprzysięgniesz"
+    pl: "Poprzysięgniesz zemstę."
+    ru: "Ты поклянёшься отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgniesz"
+    pl: "Poprzysięgniesz wierność."
+    ru: "Ты поклянёшься в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnięcia"
+    pl: "Bez poprzysięgnięcia wierności nie ma ślubu."
+    ru: "Без клятвы в верности нет венчания."
+    source: { kind: authored }
+  - form: "poprzysięgnięcia"
+    pl: "Od poprzysięgnięcia milczenia minął rok."
+    ru: "С клятвы молчать прошёл год."
+    source: { kind: authored }
+  - form: "poprzysięgnięcia"
+    pl: "Domagali się poprzysięgnięcia pokoju."
+    ru: "Они требовали клятвы о мире."
+    source: { kind: authored }
+  - form: "poprzysięgnięcie"
+    pl: "Poprzysięgnięcie wierności to obrzęd."
+    ru: "Клятва в верности — обряд."
+    source: { kind: authored }
+  - form: "poprzysięgnięcie"
+    pl: "Poprzysięgnięcie milczenia go związało."
+    ru: "Клятва молчать его связала."
+    source: { kind: authored }
+  - form: "poprzysięgnięcie"
+    pl: "Poprzysięgnięcie zemsty zmieniło mu życie."
+    ru: "Клятва отомстить изменила его жизнь."
+    source: { kind: authored }
+  - form: "poprzysięgnięciem"
+    pl: "Skończyło się poprzysięgnięciem zemsty."
+    ru: "Кончилось клятвой отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgnięciem"
+    pl: "Między obietnicą a poprzysięgnięciem jest różnica."
+    ru: "Между обещанием и клятвой есть разница."
+    source: { kind: authored }
+  - form: "poprzysięgnięciem"
+    pl: "Zajął się poprzysięgnięciem sojuszu."
+    ru: "Он занялся клятвенным скреплением союза."
+    source: { kind: authored }
+  - form: "poprzysięgnięciu"
+    pl: "Po poprzysięgnięciu milczenia zamilkli."
+    ru: "После клятвы молчать они умолкли."
+    source: { kind: authored }
+  - form: "poprzysięgnięciu"
+    pl: "O poprzysięgnięciu zemsty mówiła cała wieś."
+    ru: "О клятве отомстить говорила вся деревня."
+    source: { kind: authored }
+  - form: "poprzysięgnięciu"
+    pl: "W poprzysięgnięciu wierności jest powaga."
+    ru: "В клятве верности есть серьёзность."
+    source: { kind: authored }
+  - form: "poprzysięgnięta"
+    pl: "Wierność została poprzysięgnięta."
+    ru: "В верности поклялись."
+    source: { kind: authored }
+  - form: "poprzysięgnięta"
+    pl: "Zemsta nie była poprzysięgnięta."
+    ru: "В мести не клялись."
+    source: { kind: authored }
+  - form: "poprzysięgnięta"
+    pl: "Poprzysięgnięta wierność nie została złamana."
+    ru: "Клятвенная верность не была нарушена."
+    source: { kind: authored }
+  - form: "poprzysięgniętą"
+    pl: "Znam wierność poprzysięgniętą przed ołtarzem."
+    ru: "Я знаю верность, в которой поклялись у алтаря."
+    source: { kind: authored }
+  - form: "poprzysięgniętą"
+    pl: "Uznano zemstę za poprzysięgniętą."
+    ru: "Месть сочли клятвенной."
+    source: { kind: authored }
+  - form: "poprzysięgniętą"
+    pl: "Widzieliśmy poprzysięgniętą uroczyście obietnicę."
+    ru: "Мы видели торжественно данное клятвенное обещание."
+    source: { kind: authored }
+  - form: "poprzysięgnięte"
+    pl: "Milczenie zostało poprzysięgnięte."
+    ru: "В молчании поклялись."
+    source: { kind: authored }
+  - form: "poprzysięgnięte"
+    pl: "Śluby nie były poprzysięgnięte."
+    ru: "Обеты не были принесены."
+    source: { kind: authored }
+  - form: "poprzysięgnięte"
+    pl: "Poprzysięgnięte sojusze przetrwały."
+    ru: "Скреплённые клятвой союзы уцелели."
+    source: { kind: authored }
+  - form: "poprzysięgniętego"
+    pl: "Nie ma tu nic poprzysięgniętego."
+    ru: "Здесь нет ничего скреплённого клятвой."
+    source: { kind: authored }
+  - form: "poprzysięgniętego"
+    pl: "Szukam sojuszu poprzysięgniętego przed wiekami."
+    ru: "Я ищу союз, скреплённый клятвой века назад."
+    source: { kind: authored }
+  - form: "poprzysięgniętego"
+    pl: "Od poprzysięgniętego milczenia zależy życie."
+    ru: "От клятвенного молчания зависит жизнь."
+    source: { kind: authored }
+  - form: "poprzysięgniętej"
+    pl: "Mówimy o wierności poprzysięgniętej przed ołtarzem."
+    ru: "Мы говорим о верности, в которой поклялись у алтаря."
+    source: { kind: authored }
+  - form: "poprzysięgniętej"
+    pl: "Nie ufam zemście poprzysięgniętej w gniewie."
+    ru: "Я не доверяю мести, в которой поклялись в гневе."
+    source: { kind: authored }
+  - form: "poprzysięgniętej"
+    pl: "Dzięki poprzysięgniętej pomocy przetrwali."
+    ru: "Благодаря клятвенно обещанной помощи они выжили."
+    source: { kind: authored }
+  - form: "poprzysięgniętemu"
+    pl: "Przyjrzyj się temu poprzysięgniętemu sojuszowi."
+    ru: "Присмотрись к этому скреплённому клятвой союзу."
+    source: { kind: authored }
+  - form: "poprzysięgniętemu"
+    pl: "Poprzysięgniętemu ślubowi nikt nie uchybił."
+    ru: "Принесённому обету никто не изменил."
+    source: { kind: authored }
+  - form: "poprzysięgniętemu"
+    pl: "Dzięki poprzysięgniętemu rozejmowi ucichły walki."
+    ru: "Благодаря клятвенному перемирию бои стихли."
+    source: { kind: authored }
+  - form: "poprzysięgnięto"
+    pl: "Poprzysięgnięto milczenie."
+    ru: "Поклялись молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnięto"
+    pl: "Poprzysięgnięto zemstę."
+    ru: "Поклялись отомстить."
+    source: { kind: authored }
+  - form: "poprzysięgnięto"
+    pl: "Poprzysięgnięto sobie wierność."
+    ru: "Поклялись друг другу в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnięty"
+    pl: "Ślub został poprzysięgnięty."
+    ru: "Обет был принесён."
+    source: { kind: authored }
+  - form: "poprzysięgnięty"
+    pl: "Odwet nie był poprzysięgnięty."
+    ru: "В отмщении не клялись."
+    source: { kind: authored }
+  - form: "poprzysięgnięty"
+    pl: "Poprzysięgnięty sojusz przetrwał wieki."
+    ru: "Скреплённый клятвой союз пережил века."
+    source: { kind: authored }
+  - form: "poprzysięgniętych"
+    pl: "Nie ma tu poprzysięgniętych sojuszy."
+    ru: "Здесь нет скреплённых клятвой союзов."
+    source: { kind: authored }
+  - form: "poprzysięgniętych"
+    pl: "Wśród poprzysięgniętych ślubów ten był pierwszy."
+    ru: "Среди принесённых обетов этот был первым."
+    source: { kind: authored }
+  - form: "poprzysięgniętych"
+    pl: "Od poprzysięgniętych obietnic zależy pokój."
+    ru: "От клятвенных обещаний зависит мир."
+    source: { kind: authored }
+  - form: "poprzysięgniętym"
+    pl: "W poprzysięgniętym milczeniu było coś groźnego."
+    ru: "В клятвенном молчании было что-то грозное."
+    source: { kind: authored }
+  - form: "poprzysięgniętym"
+    pl: "Poprzysięgniętym ślubom nikt nie uchybił."
+    ru: "Принесённым обетам никто не изменил."
+    source: { kind: authored }
+  - form: "poprzysięgniętym"
+    pl: "Z poprzysięgniętym sojuszem przyszedł spokój."
+    ru: "Со скреплённым клятвой союзом пришёл покой."
+    source: { kind: authored }
+  - form: "poprzysięgniętymi"
+    pl: "Między wypowiedzianymi a poprzysięgniętymi słowami jest różnica."
+    ru: "Между сказанными и клятвенными словами есть разница."
+    source: { kind: authored }
+  - form: "poprzysięgniętymi"
+    pl: "Zajmuje się poprzysięgniętymi sojuszami."
+    ru: "Он занимается скреплёнными клятвой союзами."
+    source: { kind: authored }
+  - form: "poprzysięgniętymi"
+    pl: "Związali się poprzysięgniętymi ślubami."
+    ru: "Они связали себя принесёнными обетами."
+    source: { kind: authored }
+  - form: "poprzysięgnij"
+    pl: "Poprzysięgnij milczenie."
+    ru: "Поклянись молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnij"
+    pl: "Poprzysięgnij, że nie powiesz."
+    ru: "Поклянись, что не скажешь."
+    source: { kind: authored }
+  - form: "poprzysięgnij"
+    pl: "Poprzysięgnij wierność."
+    ru: "Поклянись в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnijcie"
+    pl: "Poprzysięgnijcie milczenie."
+    ru: "Поклянитесь молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnijcie"
+    pl: "Poprzysięgnijcie, że nie powiecie."
+    ru: "Поклянитесь, что не скажете."
+    source: { kind: authored }
+  - form: "poprzysięgnijcie"
+    pl: "Poprzysięgnijcie wierność."
+    ru: "Поклянитесь в верности."
+    source: { kind: authored }
+  - form: "poprzysięgnijmy"
+    pl: "Poprzysięgnijmy milczenie."
+    ru: "Поклянёмся молчать."
+    source: { kind: authored }
+  - form: "poprzysięgnijmy"
+    pl: "Poprzysięgnijmy, że nie powiemy."
+    ru: "Поклянёмся, что не скажем."
+    source: { kind: authored }
+  - form: "poprzysięgnijmy"
+    pl: "Poprzysięgnijmy wierność."
+    ru: "Поклянёмся в верности."
     source: { kind: authored }
