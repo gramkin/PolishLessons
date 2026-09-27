@@ -33,6 +33,7 @@ notes:
   - { kind: false-friend, text: "u- + chodzić «ходить». Русское «уходить» — то же слово, но польское uchodzić в этом прямом смысле почти не употребляется: «уходить» — wychodzić или odchodzić." }
   - { kind: usage, text: "Оборот ujść na sucho «сойти с рук» — буквально «выйти сухим». Uchodzić komuś na sucho «сходить кому-л. с рук»." }
   - { kind: usage, text: "Отсюда uchodźca «беженец» — тот, кто уходит. Совершенный вид — ujść." }
+  - { kind: government, text: "Глагол непереходный, поэтому страдательных причастий у него нет: формы вида uchodzony образованы генератором по ошибке." }
 collocations:
   - { pl: "uchodzić za kogoś", ru: "слыть кем-л." }
   - { pl: "ujść na sucho", ru: "сойти с рук" }
@@ -42,10 +43,8 @@ idioms:
   - { pl: "uchodzić za kogoś", ru: "слыть кем-л." }
   - { pl: "ujść na sucho", ru: "сойти с рук" }
 formExamplesSkip:
-  - { form: "uchodzą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodząc", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "uchodząca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "uchodzącą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodzące", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "uchodzącego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "uchodzącej", reason: "причастная форма; в корпусе примеров нет" }
@@ -54,55 +53,121 @@ formExamplesSkip:
   - { form: "uchodzących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "uchodzącym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "uchodzącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "uchodzeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzili", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "uchodzeni", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
   - { form: "uchodziliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodzilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodzilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uchodziliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "uchodziła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodziłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uchodziłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodziłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodziłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uchodziłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodziłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodziłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "uchodziły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodziłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "uchodziłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "uchodziłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "uchodzimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "uchodziwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "uchodzona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "uchodzona", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzoną", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzone", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonego", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonej", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonemu", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
   - { form: "uchodzono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "uchodzony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodzonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodź", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodźcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "uchodźmy", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "uchodzony", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonych", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonym", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "uchodzonymi", reason: "страдательного причастия у этого глагола нет: он непереходный. Слыть кем-л. — uchodzić ZA kogoś, с предлогом za, а во втором значении подлежащим бывает воздух или газ. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
 formExamples:
+  - form: "uchodzą"
+    pl: "Uchodzą za spokojnych ludzi."
+    ru: "Они слывут спокойными людьми."
+    source: { kind: authored }
+  - form: "uchodzą"
+    pl: "Gazy uchodzą przez szczelinę."
+    ru: "Газы выходят через щель."
+    source: { kind: authored }
+  - form: "uchodzą"
+    pl: "Nie uchodzą za ekspertów."
+    ru: "Они не слывут знатоками."
+    source: { kind: authored }
+  - form: "uchodzącą"
+    pl: "Znam kobietę uchodzącą za ekspertkę."
+    ru: "Я знаю женщину, слывущую знатоком."
+    source: { kind: authored }
+  - form: "uchodzącą"
+    pl: "Widzę parę uchodzącą z miasta."
+    ru: "Я вижу пару, уходящую из города."
+    source: { kind: authored }
+  - form: "uchodzącą"
+    pl: "Obserwuję wodę uchodzącą przez szczelinę."
+    ru: "Я наблюдаю воду, уходящую через щель."
+    source: { kind: authored }
+  - form: "uchodzenia"
+    pl: "Od uchodzenia powietrza balon opadł."
+    ru: "От выхода воздуха шар опустился."
+    source: { kind: authored }
+  - form: "uchodzenia"
+    pl: "Nie znoszę uchodzenia za kogoś innego."
+    ru: "Я не выношу слыть кем-то другим."
+    source: { kind: authored }
+  - form: "uchodzenia"
+    pl: "Bez uchodzenia gazu nie byłoby wybuchu."
+    ru: "Без утечки газа не было бы взрыва."
+    source: { kind: authored }
+  - form: "uchodzenie"
+    pl: "Uchodzenie powietrza słychać wyraźnie."
+    ru: "Как выходит воздух, слышно отчётливо."
+    source: { kind: authored }
+  - form: "uchodzenie"
+    pl: "Uchodzenie za kogoś innego bywa wygodne."
+    ru: "Слыть кем-то другим бывает удобно."
+    source: { kind: authored }
+  - form: "uchodzenie"
+    pl: "Uchodzenie gazu jest niebezpieczne."
+    ru: "Утечка газа опасна."
+    source: { kind: authored }
+  - form: "uchodzeniem"
+    pl: "Zajął się uchodzeniem gazu z instalacji."
+    ru: "Он занялся утечкой газа из установки."
+    source: { kind: authored }
+  - form: "uchodzeniem"
+    pl: "Między ulatnianiem a uchodzeniem jest różnica."
+    ru: "Между улетучиванием и утечкой есть разница."
+    source: { kind: authored }
+  - form: "uchodzeniem"
+    pl: "Skończyło się uchodzeniem powietrza."
+    ru: "Кончилось выходом воздуха."
+    source: { kind: authored }
+  - form: "uchodzeniu"
+    pl: "W uchodzeniu powietrza nie ma nic dziwnego."
+    ru: "В выходе воздуха нет ничего странного."
+    source: { kind: authored }
+  - form: "uchodzeniu"
+    pl: "O uchodzeniu gazu powiadomiono straż."
+    ru: "Об утечке газа сообщили пожарным."
+    source: { kind: authored }
+  - form: "uchodzeniu"
+    pl: "Po uchodzeniu powietrza balon zwiotczał."
+    ru: "После выхода воздуха шар обмяк."
+    source: { kind: authored }
+  - form: "uchodzę"
+    pl: "Uchodzę za spokojnego człowieka."
+    ru: "Я слыву спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodzę"
+    pl: "Nie uchodzę za eksperta."
+    ru: "Я не слыву знатоком."
+    source: { kind: authored }
+  - form: "uchodzę"
+    pl: "Uchodzę tu za obcego."
+    ru: "Здесь я слыву чужим."
+    source: { kind: authored }
   - form: "uchodzi"
     pl: "Uchodzi za studenta."
     ru: "Он слывёт студентом."
@@ -115,6 +180,18 @@ formExamples:
     pl: "On wygląda młodo jak na swój wiek, więc uchodzi za studenta."
     ru: "Он выглядит молодо для своих лет, поэтому слывёт студентом."
     source: { kind: translated, id: 2629532 }
+  - form: "uchodzicie"
+    pl: "Uchodzicie za spokojnych ludzi."
+    ru: "Вы слывёте спокойными людьми."
+    source: { kind: authored }
+  - form: "uchodzicie"
+    pl: "Nie uchodzicie za ekspertów."
+    ru: "Вы не слывёте знатоками."
+    source: { kind: authored }
+  - form: "uchodzicie"
+    pl: "Uchodzicie tu za obcych."
+    ru: "Здесь вы слывёте чужими."
+    source: { kind: authored }
   - form: "uchodzić"
     pl: "Nie powinny uchodzić mu na sucho takie rzeczy jak oszukiwanie ludzi."
     ru: "Такие вещи, как обман людей, не должны сходить ему с рук."
@@ -126,6 +203,18 @@ formExamples:
   - form: "uchodzić"
     pl: "Zaczęło uchodzić powietrze."
     ru: "Воздух начал выходить."
+    source: { kind: authored }
+  - form: "uchodzili"
+    pl: "Uchodzili za spokojnych ludzi."
+    ru: "Они слыли спокойными людьми."
+    source: { kind: authored }
+  - form: "uchodzili"
+    pl: "Uchodzili z miasta nocą."
+    ru: "Они уходили из города ночью."
+    source: { kind: authored }
+  - form: "uchodzili"
+    pl: "Nie uchodzili za ekspertów."
+    ru: "Они не слыли знатоками."
     source: { kind: authored }
   - form: "uchodził"
     pl: "Uchodził za znawcę."
@@ -139,6 +228,66 @@ formExamples:
     pl: "Gaz uchodził przez szczelinę."
     ru: "Газ выходил через щель."
     source: { kind: authored }
+  - form: "uchodziła"
+    pl: "Uchodziła za spokojną osobę."
+    ru: "Она слыла спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodziła"
+    pl: "Woda uchodziła przez szczelinę."
+    ru: "Вода уходила через щель."
+    source: { kind: authored }
+  - form: "uchodziła"
+    pl: "Nie uchodziła za ekspertkę."
+    ru: "Она не слыла знатоком."
+    source: { kind: authored }
+  - form: "uchodziłam"
+    pl: "Uchodziłam za spokojną osobę."
+    ru: "Я слыла спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodziłam"
+    pl: "Nie uchodziłam za ekspertkę."
+    ru: "Я не слыла знатоком."
+    source: { kind: authored }
+  - form: "uchodziłam"
+    pl: "Uchodziłam tu za obcą."
+    ru: "Здесь я слыла чужой."
+    source: { kind: authored }
+  - form: "uchodziłaś"
+    pl: "Uchodziłaś za spokojną osobę."
+    ru: "Ты слыла спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodziłaś"
+    pl: "Nie uchodziłaś za ekspertkę."
+    ru: "Ты не слыла знатоком."
+    source: { kind: authored }
+  - form: "uchodziłaś"
+    pl: "Uchodziłaś tu za obcą."
+    ru: "Здесь ты слыла чужой."
+    source: { kind: authored }
+  - form: "uchodziłem"
+    pl: "Uchodziłem za spokojnego człowieka."
+    ru: "Я слыл спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodziłem"
+    pl: "Nie uchodziłem za eksperta."
+    ru: "Я не слыл знатоком."
+    source: { kind: authored }
+  - form: "uchodziłem"
+    pl: "Uchodziłem tu za obcego."
+    ru: "Здесь я слыл чужим."
+    source: { kind: authored }
+  - form: "uchodziłeś"
+    pl: "Uchodziłeś za spokojnego człowieka."
+    ru: "Ты слыл спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodziłeś"
+    pl: "Nie uchodziłeś za eksperta."
+    ru: "Ты не слыл знатоком."
+    source: { kind: authored }
+  - form: "uchodziłeś"
+    pl: "Uchodziłeś tu za obcego."
+    ru: "Здесь ты слыл чужим."
+    source: { kind: authored }
   - form: "uchodziło"
     pl: "Jeszcze w średniowieczu mleko uchodziło za lek."
     ru: "Ещё в средние века молоко считалось лекарством."
@@ -150,6 +299,78 @@ formExamples:
   - form: "uchodziło"
     pl: "Dawniej uchodziło to za nieprzyzwoite."
     ru: "Прежде это считалось неприличным."
+    source: { kind: authored }
+  - form: "uchodziły"
+    pl: "Gazy uchodziły przez szczelinę."
+    ru: "Газы выходили через щель."
+    source: { kind: authored }
+  - form: "uchodziły"
+    pl: "Takie żarty uchodziły mu na sucho."
+    ru: "Такие шутки сходили ему с рук."
+    source: { kind: authored }
+  - form: "uchodziły"
+    pl: "Nie uchodziły za prawdziwe."
+    ru: "Их не считали настоящими."
+    source: { kind: authored }
+  - form: "uchodzimy"
+    pl: "Uchodzimy za spokojnych ludzi."
+    ru: "Мы слывём спокойными людьми."
+    source: { kind: authored }
+  - form: "uchodzimy"
+    pl: "Nie uchodzimy za ekspertów."
+    ru: "Мы не слывём знатоками."
+    source: { kind: authored }
+  - form: "uchodzimy"
+    pl: "Uchodzimy tu za obcych."
+    ru: "Здесь мы слывём чужими."
+    source: { kind: authored }
+  - form: "uchodzisz"
+    pl: "Uchodzisz za spokojnego człowieka."
+    ru: "Ты слывёшь спокойным человеком."
+    source: { kind: authored }
+  - form: "uchodzisz"
+    pl: "Nie uchodzisz za eksperta."
+    ru: "Ты не слывёшь знатоком."
+    source: { kind: authored }
+  - form: "uchodzisz"
+    pl: "Uchodzisz tu za obcego."
+    ru: "Здесь ты слывёшь чужим."
+    source: { kind: authored }
+  - form: "uchodź"
+    pl: "Uchodź stąd póki czas."
+    ru: "Уходи отсюда, пока не поздно."
+    source: { kind: authored }
+  - form: "uchodź"
+    pl: "Uchodź, zanim cię zobaczą."
+    ru: "Уходи, пока тебя не увидели."
+    source: { kind: authored }
+  - form: "uchodź"
+    pl: "Uchodź z miasta."
+    ru: "Уходи из города."
+    source: { kind: authored }
+  - form: "uchodźcie"
+    pl: "Uchodźcie stąd póki czas."
+    ru: "Уходите отсюда, пока не поздно."
+    source: { kind: authored }
+  - form: "uchodźcie"
+    pl: "Uchodźcie, zanim was zobaczą."
+    ru: "Уходите, пока вас не увидели."
+    source: { kind: authored }
+  - form: "uchodźcie"
+    pl: "Uchodźcie z miasta."
+    ru: "Уходите из города."
+    source: { kind: authored }
+  - form: "uchodźmy"
+    pl: "Uchodźmy stąd póki czas."
+    ru: "Уйдём отсюда, пока не поздно."
+    source: { kind: authored }
+  - form: "uchodźmy"
+    pl: "Uchodźmy, zanim nas zobaczą."
+    ru: "Уйдём, пока нас не увидели."
+    source: { kind: authored }
+  - form: "uchodźmy"
+    pl: "Uchodźmy z miasta."
+    ru: "Уйдём из города."
     source: { kind: authored }
   - form: "będę uchodzić"
     pl: "Będę uchodzić za znawcę."
