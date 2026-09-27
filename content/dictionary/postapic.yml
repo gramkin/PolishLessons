@@ -42,14 +42,6 @@ idioms:
   - { pl: "postąpić słusznie", ru: "поступить правильно" }
   - { pl: "postąpić za radą", ru: "поступить по совету" }
 formExamplesSkip:
-  - { form: "postąp", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpią", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpienia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpienie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpieniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "postąpieniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -57,22 +49,40 @@ formExamplesSkip:
   - { form: "postąpiliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "postąpiłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpiłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "postąpiłam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "postąpiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "postąpiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpiłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "postąpiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "postąpiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "postąpimy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "postąpisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "postąpiwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "postąpmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "postąp"
+    pl: "Postąp słusznie."
+    ru: "Поступи правильно."
+    source: { kind: authored }
+  - form: "postąp"
+    pl: "Postąp krok naprzód."
+    ru: "Сделай шаг вперёд."
+    source: { kind: authored }
+  - form: "postąp"
+    pl: "Postąp jak uważasz."
+    ru: "Поступи как считаешь нужным."
+    source: { kind: authored }
+  - form: "postąpcie"
+    pl: "Postąpcie słusznie."
+    ru: "Поступите правильно."
+    source: { kind: authored }
+  - form: "postąpcie"
+    pl: "Postąpcie krok naprzód."
+    ru: "Сделайте шаг вперёд."
+    source: { kind: authored }
+  - form: "postąpcie"
+    pl: "Postąpcie jak uważacie."
+    ru: "Поступите как считаете нужным."
+    source: { kind: authored }
   - form: "postąpi"
     pl: "On postąpi za moją radą."
     ru: "Он поступит по моему совету."
@@ -85,6 +95,30 @@ formExamples:
     pl: "Jestem pewien, że Tom postąpi słusznie."
     ru: "Я уверен, что Том поступит правильно."
     source: { kind: translated, id: 12832243 }
+  - form: "postąpią"
+    pl: "Jak postąpią w tej sytuacji?"
+    ru: "Как они поступят в этой ситуации?"
+    source: { kind: authored }
+  - form: "postąpią"
+    pl: "Postąpią słusznie."
+    ru: "Они поступят правильно."
+    source: { kind: authored }
+  - form: "postąpią"
+    pl: "Nie postąpią inaczej."
+    ru: "Иначе они не поступят."
+    source: { kind: authored }
+  - form: "postąpicie"
+    pl: "Jak postąpicie w tej sytuacji?"
+    ru: "Как вы поступите в этой ситуации?"
+    source: { kind: authored }
+  - form: "postąpicie"
+    pl: "Postąpicie słusznie."
+    ru: "Вы поступите правильно."
+    source: { kind: authored }
+  - form: "postąpicie"
+    pl: "Nie postąpicie inaczej."
+    ru: "Иначе вы не поступите."
+    source: { kind: authored }
   - form: "postąpić"
     pl: "Wierzę, że umiesz postąpić właściwie."
     ru: "Я верю, что ты сумеешь поступить правильно."
@@ -96,6 +130,54 @@ formExamples:
   - form: "postąpić"
     pl: "Chciał postąpić uczciwie."
     ru: "Он хотел поступить честно."
+    source: { kind: authored }
+  - form: "postąpienia"
+    pl: "Bez postąpienia naprzód nic się nie zmieni."
+    ru: "Без движения вперёд ничего не изменится."
+    source: { kind: authored }
+  - form: "postąpienia"
+    pl: "Od postąpienia zależy wszystko."
+    ru: "От поступка зависит всё."
+    source: { kind: authored }
+  - form: "postąpienia"
+    pl: "Brakuje mu postąpienia o krok."
+    ru: "Ему не хватает шага вперёд."
+    source: { kind: authored }
+  - form: "postąpienie"
+    pl: "Postąpienie o krok nic nie zmieniło."
+    ru: "Продвижение на шаг ничего не изменило."
+    source: { kind: authored }
+  - form: "postąpienie"
+    pl: "Postąpienie wbrew sumieniu jest trudne."
+    ru: "Поступить против совести трудно."
+    source: { kind: authored }
+  - form: "postąpienie"
+    pl: "Postąpienie słusznie wymaga odwagi."
+    ru: "Поступить правильно требует смелости."
+    source: { kind: authored }
+  - form: "postąpieniem"
+    pl: "Skończyło się postąpieniem o krok."
+    ru: "Кончилось шагом вперёд."
+    source: { kind: authored }
+  - form: "postąpieniem"
+    pl: "Między zamiarem a postąpieniem jest różnica."
+    ru: "Между намерением и поступком есть разница."
+    source: { kind: authored }
+  - form: "postąpieniem"
+    pl: "Zaskoczył nas postąpieniem wbrew radzie."
+    ru: "Он удивил нас поступком вопреки совету."
+    source: { kind: authored }
+  - form: "postąpieniu"
+    pl: "Po postąpieniu o krok zatrzymał się."
+    ru: "Сделав шаг, он остановился."
+    source: { kind: authored }
+  - form: "postąpieniu"
+    pl: "O jego postąpieniu mówiono długo."
+    ru: "О его поступке говорили долго."
+    source: { kind: authored }
+  - form: "postąpieniu"
+    pl: "W tym postąpieniu była odwaga."
+    ru: "В этом поступке была смелость."
     source: { kind: authored }
   - form: "postąpię"
     pl: "Postąpię zgodnie z twoją radą."
@@ -157,6 +239,18 @@ formExamples:
     pl: "Nie wiem, jak postąpiłabym na jej miejscu."
     ru: "Не знаю, как бы я поступила на её месте."
     source: { kind: authored }
+  - form: "postąpiłam"
+    pl: "Postąpiłam słusznie."
+    ru: "Я поступила правильно."
+    source: { kind: authored }
+  - form: "postąpiłam"
+    pl: "Nie postąpiłam inaczej."
+    ru: "Иначе я не поступила."
+    source: { kind: authored }
+  - form: "postąpiłam"
+    pl: "Czy dobrze postąpiłam?"
+    ru: "Правильно ли я поступила?"
+    source: { kind: authored }
   - form: "postąpiłaś"
     pl: "Głupio postąpiłaś i za to zapłacisz."
     ru: "Ты глупо поступила и за это заплатишь."
@@ -216,4 +310,64 @@ formExamples:
   - form: "postąpiłeś"
     pl: "Czy naprawdę tak postąpiłeś?"
     ru: "Ты правда так поступил?"
+    source: { kind: authored }
+  - form: "postąpiło"
+    pl: "Dziecko postąpiło słusznie."
+    ru: "Ребёнок поступил правильно."
+    source: { kind: authored }
+  - form: "postąpiło"
+    pl: "Żadne z nich nie postąpiło uczciwie."
+    ru: "Никто из них не поступил честно."
+    source: { kind: authored }
+  - form: "postąpiło"
+    pl: "Miasto postąpiło rozsądnie."
+    ru: "Город поступил разумно."
+    source: { kind: authored }
+  - form: "postąpiły"
+    pl: "Firmy postąpiły uczciwie."
+    ru: "Фирмы поступили честно."
+    source: { kind: authored }
+  - form: "postąpiły"
+    pl: "Dzieci postąpiły słusznie."
+    ru: "Дети поступили правильно."
+    source: { kind: authored }
+  - form: "postąpiły"
+    pl: "Nie postąpiły inaczej."
+    ru: "Иначе они не поступили."
+    source: { kind: authored }
+  - form: "postąpimy"
+    pl: "Jak postąpimy w tej sytuacji?"
+    ru: "Как мы поступим в этой ситуации?"
+    source: { kind: authored }
+  - form: "postąpimy"
+    pl: "Postąpimy słusznie."
+    ru: "Мы поступим правильно."
+    source: { kind: authored }
+  - form: "postąpimy"
+    pl: "Nie postąpimy inaczej."
+    ru: "Иначе мы не поступим."
+    source: { kind: authored }
+  - form: "postąpisz"
+    pl: "Jak postąpisz w tej sytuacji?"
+    ru: "Как ты поступишь в этой ситуации?"
+    source: { kind: authored }
+  - form: "postąpisz"
+    pl: "Postąpisz słusznie."
+    ru: "Ты поступишь правильно."
+    source: { kind: authored }
+  - form: "postąpisz"
+    pl: "Nie postąpisz inaczej."
+    ru: "Иначе ты не поступишь."
+    source: { kind: authored }
+  - form: "postąpmy"
+    pl: "Postąpmy słusznie."
+    ru: "Поступим правильно."
+    source: { kind: authored }
+  - form: "postąpmy"
+    pl: "Postąpmy krok naprzód."
+    ru: "Сделаем шаг вперёд."
+    source: { kind: authored }
+  - form: "postąpmy"
+    pl: "Postąpmy jak trzeba."
+    ru: "Поступим как надо."
     source: { kind: authored }

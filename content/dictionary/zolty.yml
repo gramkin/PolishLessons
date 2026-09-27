@@ -32,6 +32,7 @@ notes:
   - { kind: government, text: "Обычное прилагательное; наречие — żółto, существительное — żółć «жёлчь; жёлтый цвет»." }
   - { kind: usage, text: "Żółte strony — «жёлтые страницы», справочник. Ser żółty «твёрдый сыр», буквально «жёлтый сыр», в противоположность ser biały «творогу»." }
   - { kind: usage, text: "Не путайте żółty «жёлтый» с żółw «черепаха» — начало одинаковое, слова разные." }
+  - { kind: government, text: "Сравнительная степень — żółtszy; формы на żółciej- образованы от другой основы, от żółć «жёлчь»." }
 collocations:
   - { pl: "żółte strony", ru: "жёлтые страницы" }
   - { pl: "ser żółty", ru: "твёрдый сыр" }
@@ -63,8 +64,8 @@ formExamplesSkip:
   - { form: "najżółtszych", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najżółtszym", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najżółtszymi", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "żółci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółciejsi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "żółci", reason: "мужско-личная форма множественного числа, а żółty — это цвет предмета: żółty ser, żółte liście, żółta ściana. О людях так не говорят, поэтому формы нет" }
+  - { form: "żółciejsi", reason: "форма образована генератором по ошибке. Сравнительная степень от żółty строится как żółtszy, а основа żółci- принадлежит слову żółć «жёлчь», которое примечание к карточке называет отдельно" }
   - { form: "żółciejsza", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "żółciejszą", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "żółciejsze", reason: "сравнительная степень; в корпусе примеров нет" }
@@ -75,19 +76,7 @@ formExamplesSkip:
   - { form: "żółciejszych", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "żółciejszym", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "żółciejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "żółtemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtsi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtsza", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtsze", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtszymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "żółtymi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "żółtsi", reason: "мужско-личная форма множественного числа, а żółty — это цвет предмета: żółty ser, żółte liście, żółta ściana. О людях так не говорят, поэтому формы нет. Сравнительная степень żółtszy при этом обычна, но тоже о предметах" }
 formExamples:
   - form: "żółta"
     pl: "Oto żółta róża."
@@ -149,6 +138,138 @@ formExamples:
     pl: "Szli wzdłuż żółtej linii."
     ru: "Они шли вдоль жёлтой линии."
     source: { kind: authored }
+  - form: "żółtemu"
+    pl: "Przyjrzyj się temu żółtemu kwiatu."
+    ru: "Присмотрись к этому жёлтому цветку."
+    source: { kind: authored }
+  - form: "żółtemu"
+    pl: "Żółtemu serowi nie dorówna żaden inny."
+    ru: "Жёлтому сыру не сравнится никакой другой."
+    source: { kind: authored }
+  - form: "żółtemu"
+    pl: "Dzięki żółtemu światłu widać drogę."
+    ru: "Благодаря жёлтому свету видно дорогу."
+    source: { kind: authored }
+  - form: "żółtsza"
+    pl: "Ta ściana jest żółtsza."
+    ru: "Эта стена желтее."
+    source: { kind: authored }
+  - form: "żółtsza"
+    pl: "Żółtsza farba lepiej kryje."
+    ru: "Более жёлтая краска лучше кроет."
+    source: { kind: authored }
+  - form: "żółtsza"
+    pl: "Cytryna bywa żółtsza od banana."
+    ru: "Лимон бывает желтее банана."
+    source: { kind: authored }
+  - form: "żółtszą"
+    pl: "Znam żółtszą odmianę tego kwiatu."
+    ru: "Я знаю более жёлтую разновидность этого цветка."
+    source: { kind: authored }
+  - form: "żółtszą"
+    pl: "Uznano barwę za żółtszą."
+    ru: "Цвет сочли более жёлтым."
+    source: { kind: authored }
+  - form: "żółtszą"
+    pl: "Widzieliśmy żółtszą ścianę."
+    ru: "Мы видели более жёлтую стену."
+    source: { kind: authored }
+  - form: "żółtsze"
+    pl: "Te liście są żółtsze."
+    ru: "Эти листья желтее."
+    source: { kind: authored }
+  - form: "żółtsze"
+    pl: "Żółtsze odcienie są cieplejsze."
+    ru: "Более жёлтые оттенки теплее."
+    source: { kind: authored }
+  - form: "żółtsze"
+    pl: "Jajko bywa żółtsze wiosną."
+    ru: "Яйцо бывает желтее весной."
+    source: { kind: authored }
+  - form: "żółtszego"
+    pl: "Nie ma tu nic żółtszego."
+    ru: "Здесь нет ничего желтее."
+    source: { kind: authored }
+  - form: "żółtszego"
+    pl: "Szukam żółtszego odcienia."
+    ru: "Я ищу оттенок пожелтее."
+    source: { kind: authored }
+  - form: "żółtszego"
+    pl: "Od żółtszego sera zaczyna się smak."
+    ru: "С более жёлтого сыра начинается вкус."
+    source: { kind: authored }
+  - form: "żółtszej"
+    pl: "Nie znajdziesz żółtszej farby."
+    ru: "Ты не найдёшь краски желтее."
+    source: { kind: authored }
+  - form: "żółtszej"
+    pl: "W żółtszej poświacie wszystko wygląda inaczej."
+    ru: "В более жёлтом свете всё выглядит иначе."
+    source: { kind: authored }
+  - form: "żółtszej"
+    pl: "Dzięki żółtszej barwie napis jest widoczny."
+    ru: "Благодаря более жёлтому цвету надпись заметна."
+    source: { kind: authored }
+  - form: "żółtszemu"
+    pl: "Przyjrzyj się temu żółtszemu odcieniowi."
+    ru: "Присмотрись к этому более жёлтому оттенку."
+    source: { kind: authored }
+  - form: "żółtszemu"
+    pl: "Żółtszemu serowi przypisuje się dojrzałość."
+    ru: "Более жёлтому сыру приписывают зрелость."
+    source: { kind: authored }
+  - form: "żółtszemu"
+    pl: "Dzięki żółtszemu światłu jest przytulniej."
+    ru: "Благодаря более жёлтому свету уютнее."
+    source: { kind: authored }
+  - form: "żółtszy"
+    pl: "Ten ser jest żółtszy od tamtego."
+    ru: "Этот сыр желтее того."
+    source: { kind: authored }
+  - form: "żółtszy"
+    pl: "Liść stał się żółtszy."
+    ru: "Лист стал желтее."
+    source: { kind: authored }
+  - form: "żółtszy"
+    pl: "Żółtszy odcień pasuje lepiej."
+    ru: "Более жёлтый оттенок подходит лучше."
+    source: { kind: authored }
+  - form: "żółtszych"
+    pl: "Nie ma tu żółtszych odcieni."
+    ru: "Здесь нет более жёлтых оттенков."
+    source: { kind: authored }
+  - form: "żółtszych"
+    pl: "Wśród żółtszych liści wisiał jeden zielony."
+    ru: "Среди более жёлтых листьев висел один зелёный."
+    source: { kind: authored }
+  - form: "żółtszych"
+    pl: "Od żółtszych barw robi się ciepło."
+    ru: "От более жёлтых красок становится тепло."
+    source: { kind: authored }
+  - form: "żółtszym"
+    pl: "W żółtszym świetle wszystko wygląda inaczej."
+    ru: "В более жёлтом свете всё выглядит иначе."
+    source: { kind: authored }
+  - form: "żółtszym"
+    pl: "Żółtszym liściom bliżej do jesieni."
+    ru: "Более жёлтым листьям ближе до осени."
+    source: { kind: authored }
+  - form: "żółtszym"
+    pl: "Z żółtszym odcieniem ściana jest cieplejsza."
+    ru: "С более жёлтым оттенком стена теплее."
+    source: { kind: authored }
+  - form: "żółtszymi"
+    pl: "Między jaśniejszymi a żółtszymi barwami jest różnica."
+    ru: "Между более светлыми и более жёлтыми красками есть разница."
+    source: { kind: authored }
+  - form: "żółtszymi"
+    pl: "Zajmuje się żółtszymi odcieniami."
+    ru: "Он занимается более жёлтыми оттенками."
+    source: { kind: authored }
+  - form: "żółtszymi"
+    pl: "Pokój pomalowano żółtszymi farbami."
+    ru: "Комнату покрасили более жёлтыми красками."
+    source: { kind: authored }
   - form: "żółty"
     pl: "Kanarek to mały żółty ptak."
     ru: "Канарейка — маленькая желтая птичка."
@@ -185,3 +306,15 @@ formExamples:
     pl: "Pokolorował przestrzeń kosmiczną delikatnym żółtym kolorem."
     ru: "Он раскрасил космос нежным жёлтым цветом."
     source: { kind: translated, id: 13799402 }
+  - form: "żółtymi"
+    pl: "Między białymi a żółtymi kwiatami jest różnica."
+    ru: "Между белыми и жёлтыми цветами есть разница."
+    source: { kind: authored }
+  - form: "żółtymi"
+    pl: "Zajmuje się żółtymi serami."
+    ru: "Он занимается жёлтыми сырами."
+    source: { kind: authored }
+  - form: "żółtymi"
+    pl: "Pole świeciło żółtymi rzepakami."
+    ru: "Поле светилось жёлтым рапсом."
+    source: { kind: authored }

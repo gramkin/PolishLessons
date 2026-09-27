@@ -41,9 +41,7 @@ memory: "podążać za kimś — «следовать за кем-л.», с тв
 idioms:
   - { pl: "podążać za kimś", ru: "следовать за кем-л." }
 formExamplesSkip:
-  - { form: "podążacie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążająca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "podążającą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążające", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "podążającego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "podążającej", reason: "причастная форма; в корпусе примеров нет" }
@@ -52,8 +50,6 @@ formExamplesSkip:
   - { form: "podążających", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "podążającym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "podążającymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "podążajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -62,25 +58,15 @@ formExamplesSkip:
   - { form: "podążałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "podążałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "podążałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążałeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążałoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "podążałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "podążałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "podążam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "podążaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "podążano", reason: "безличная форма; в корпусе примеров нет" }
 formExamples:
   - form: "podąża"
@@ -94,6 +80,18 @@ formExamples:
   - form: "podąża"
     pl: "Pies podąża za panem."
     ru: "Собака идёт за хозяином."
+    source: { kind: authored }
+  - form: "podążacie"
+    pl: "Podążacie za nami?"
+    ru: "Вы идёте за нами?"
+    source: { kind: authored }
+  - form: "podążacie"
+    pl: "Podążacie w stronę miasta."
+    ru: "Вы направляетесь в сторону города."
+    source: { kind: authored }
+  - form: "podążacie"
+    pl: "Nie podążacie za modą."
+    ru: "Вы не следуете моде."
     source: { kind: authored }
   - form: "podążać"
     pl: "Przestań podążać za Tomem."
@@ -143,6 +141,18 @@ formExamples:
     pl: "Podążając za mapą, dotarli na miejsce."
     ru: "Следуя карте, они добрались до места."
     source: { kind: authored }
+  - form: "podążającą"
+    pl: "Widzę kobietę podążającą za nami."
+    ru: "Я вижу женщину, идущую за нами."
+    source: { kind: authored }
+  - form: "podążającą"
+    pl: "Znam grupę podążającą tą samą drogą."
+    ru: "Я знаю группу, идущую той же дорогой."
+    source: { kind: authored }
+  - form: "podążającą"
+    pl: "Uznano ją za podążającą za modą."
+    ru: "Её сочли следующей моде."
+    source: { kind: authored }
   - form: "podążajcie"
     pl: "Podążajcie za tym samochodem."
     ru: "Следуйте за той машиной."
@@ -154,6 +164,30 @@ formExamples:
   - form: "podążajcie"
     pl: "Podążajcie tą ścieżką."
     ru: "Идите по этой тропинке."
+    source: { kind: authored }
+  - form: "podążajmy"
+    pl: "Podążajmy za przewodnikiem."
+    ru: "Пойдём за проводником."
+    source: { kind: authored }
+  - form: "podążajmy"
+    pl: "Podążajmy w stronę miasta."
+    ru: "Направимся в сторону города."
+    source: { kind: authored }
+  - form: "podążajmy"
+    pl: "Nie podążajmy za modą."
+    ru: "Не будем следовать моде."
+    source: { kind: authored }
+  - form: "podążali"
+    pl: "Podążali za przewodnikiem."
+    ru: "Они шли за проводником."
+    source: { kind: authored }
+  - form: "podążali"
+    pl: "Podążali w stronę miasta."
+    ru: "Они направлялись в сторону города."
+    source: { kind: authored }
+  - form: "podążali"
+    pl: "Nie podążali za modą."
+    ru: "Они не следовали моде."
     source: { kind: authored }
   - form: "podążał"
     pl: "Podążał za nią."
@@ -179,6 +213,54 @@ formExamples:
     pl: "Podążała za nim bez słowa."
     ru: "Она шла за ним молча."
     source: { kind: authored }
+  - form: "podążałam"
+    pl: "Podążałam za tobą."
+    ru: "Я шла за тобой."
+    source: { kind: authored }
+  - form: "podążałam"
+    pl: "Podążałam w stronę miasta."
+    ru: "Я направлялась в сторону города."
+    source: { kind: authored }
+  - form: "podążałam"
+    pl: "Nie podążałam za modą."
+    ru: "Я не следовала моде."
+    source: { kind: authored }
+  - form: "podążałaś"
+    pl: "Podążałaś za mną."
+    ru: "Ты шла за мной."
+    source: { kind: authored }
+  - form: "podążałaś"
+    pl: "Podążałaś w stronę miasta."
+    ru: "Ты направлялась в сторону города."
+    source: { kind: authored }
+  - form: "podążałaś"
+    pl: "Nie podążałaś za modą."
+    ru: "Ты не следовала моде."
+    source: { kind: authored }
+  - form: "podążałem"
+    pl: "Podążałem za tobą."
+    ru: "Я шёл за тобой."
+    source: { kind: authored }
+  - form: "podążałem"
+    pl: "Podążałem w stronę miasta."
+    ru: "Я направлялся в сторону города."
+    source: { kind: authored }
+  - form: "podążałem"
+    pl: "Nie podążałem za modą."
+    ru: "Я не следовал моде."
+    source: { kind: authored }
+  - form: "podążałeś"
+    pl: "Podążałeś za mną."
+    ru: "Ты шёл за мной."
+    source: { kind: authored }
+  - form: "podążałeś"
+    pl: "Podążałeś w stronę miasta."
+    ru: "Ты направлялся в сторону города."
+    source: { kind: authored }
+  - form: "podążałeś"
+    pl: "Nie podążałeś za modą."
+    ru: "Ты не следовал моде."
+    source: { kind: authored }
   - form: "podążało"
     pl: "Dwóch detektywów podążało za podejrzanym."
     ru: "Двое детективов следовали за подозреваемым."
@@ -202,6 +284,78 @@ formExamples:
   - form: "podążały"
     pl: "Dzieci podążały za nauczycielką."
     ru: "Дети шли за учительницей."
+    source: { kind: authored }
+  - form: "podążam"
+    pl: "Podążam za tobą."
+    ru: "Я иду за тобой."
+    source: { kind: authored }
+  - form: "podążam"
+    pl: "Podążam w stronę miasta."
+    ru: "Я направляюсь в сторону города."
+    source: { kind: authored }
+  - form: "podążam"
+    pl: "Nie podążam za modą."
+    ru: "Я не следую моде."
+    source: { kind: authored }
+  - form: "podążamy"
+    pl: "Podążamy za tobą."
+    ru: "Мы идём за тобой."
+    source: { kind: authored }
+  - form: "podążamy"
+    pl: "Podążamy w stronę miasta."
+    ru: "Мы направляемся в сторону города."
+    source: { kind: authored }
+  - form: "podążamy"
+    pl: "Nie podążamy za modą."
+    ru: "Мы не следуем моде."
+    source: { kind: authored }
+  - form: "podążania"
+    pl: "Od podążania za modą zaczyna się kłopot."
+    ru: "Со следования моде начинается беда."
+    source: { kind: authored }
+  - form: "podążania"
+    pl: "Nie znoszę podążania za tłumem."
+    ru: "Я не выношу следования за толпой."
+    source: { kind: authored }
+  - form: "podążania"
+    pl: "Bez podążania za wskazówkami zabłądzisz."
+    ru: "Не следуя указаниям, заблудишься."
+    source: { kind: authored }
+  - form: "podążanie"
+    pl: "Podążanie za modą męczy."
+    ru: "Следование моде утомляет."
+    source: { kind: authored }
+  - form: "podążanie"
+    pl: "Podążanie tą drogą zajmie dzień."
+    ru: "Движение по этой дороге займёт день."
+    source: { kind: authored }
+  - form: "podążanie"
+    pl: "Podążanie za tłumem nie jest cnotą."
+    ru: "Следование за толпой не добродетель."
+    source: { kind: authored }
+  - form: "podążaniem"
+    pl: "Zmęczył się podążaniem za modą."
+    ru: "Он устал от следования моде."
+    source: { kind: authored }
+  - form: "podążaniem"
+    pl: "Między prowadzeniem a podążaniem jest różnica."
+    ru: "Между тем, чтобы вести, и тем, чтобы следовать, есть разница."
+    source: { kind: authored }
+  - form: "podążaniem"
+    pl: "Skończyło się podążaniem za tłumem."
+    ru: "Кончилось следованием за толпой."
+    source: { kind: authored }
+  - form: "podążaniu"
+    pl: "W podążaniu za modą nie ma sensu."
+    ru: "В следовании моде нет смысла."
+    source: { kind: authored }
+  - form: "podążaniu"
+    pl: "O podążaniu za mistrzem mówił z podziwem."
+    ru: "О следовании за мастером он говорил с восхищением."
+    source: { kind: authored }
+  - form: "podążaniu"
+    pl: "Po podążaniu pod górę przyszedł odpoczynek."
+    ru: "После подъёма в гору пришёл отдых."
     source: { kind: authored }
   - form: "podążasz"
     pl: "Podążasz we właściwym kierunku."
