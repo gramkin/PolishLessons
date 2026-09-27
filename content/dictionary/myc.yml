@@ -42,10 +42,7 @@ idioms:
   - { pl: "myć ręce", ru: "мыть руки" }
   - { pl: "ręka rękę myje", ru: "рука руку моет" }
 formExamplesSkip:
-  - { form: "myci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myjąca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myjące", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "myjącego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "myjącej", reason: "причастная форма; в корпусе примеров нет" }
@@ -54,40 +51,36 @@ formExamplesSkip:
   - { form: "myjących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "myjącym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "myjącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjecie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myli", reason: "форма совпадает с mylić się «ошибаться»; в корпусе она относится к тому глаголу" }
   - { form: "myliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "mylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "mylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myliście", reason: "единственный кандидат дублирует myłeś; отдельного примера нет" }
   - { form: "mył", reason: "единственный кандидат — длинное условное предложение, отвергнуто по качеству" }
-  - { form: "myła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłam", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "myłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "myta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "myte", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "myto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "myty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "mytymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "myci"
+    pl: "Pacjenci są myci co rano."
+    ru: "Пациентов моют каждое утро."
+    source: { kind: authored }
+  - form: "myci"
+    pl: "Chłopcy byli myci w wielkiej balii."
+    ru: "Мальчиков мыли в большом корыте."
+    source: { kind: authored }
+  - form: "myci"
+    pl: "Byli myci i karmieni przez siostry."
+    ru: "Их мыли и кормили сёстры."
+    source: { kind: authored }
   - form: "mycia"
     pl: "Płyn do mycia naczyń zniszczył mi skórę."
     ru: "Средство для мытья посуды испортило мне кожу."
@@ -99,6 +92,18 @@ formExamples:
   - form: "mycia"
     pl: "Unika mycia naczyń."
     ru: "Он избегает мытья посуды."
+    source: { kind: authored }
+  - form: "mycie"
+    pl: "Mycie rąk zajmuje chwilę."
+    ru: "Мытьё рук занимает минуту."
+    source: { kind: authored }
+  - form: "mycie"
+    pl: "Mycie okien to udręka."
+    ru: "Мытьё окон — мука."
+    source: { kind: authored }
+  - form: "mycie"
+    pl: "Mycie zębów wieczorem to nawyk."
+    ru: "Чистка зубов вечером — привычка."
     source: { kind: authored }
   - form: "myciem"
     pl: "Zajmowała się myciem naczyń."
@@ -172,6 +177,18 @@ formExamples:
     pl: "Skaleczył się, myjąc szklankę."
     ru: "Он порезался, моя стакан."
     source: { kind: authored }
+  - form: "myjącą"
+    pl: "Widzę kobietę myjącą okna."
+    ru: "Я вижу женщину, моющую окна."
+    source: { kind: authored }
+  - form: "myjącą"
+    pl: "Znam osobę myjącą auto co tydzień."
+    ru: "Я знаю человека, моющего машину каждую неделю."
+    source: { kind: authored }
+  - form: "myjącą"
+    pl: "Uznano ją za myjącą ręce zbyt często."
+    ru: "Её сочли моющей руки слишком часто."
+    source: { kind: authored }
   - form: "myjcie"
     pl: "Myjcie ręce przed jedzeniem."
     ru: "Мойте руки перед едой."
@@ -196,6 +213,18 @@ formExamples:
     pl: "Tom myje samochód."
     ru: "Том моет машину."
     source: { kind: tatoeba, id: 3633688 }
+  - form: "myjecie"
+    pl: "Myjecie ręce przed jedzeniem?"
+    ru: "Вы моете руки перед едой?"
+    source: { kind: authored }
+  - form: "myjecie"
+    pl: "Nie myjecie samochodu."
+    ru: "Вы не моете машину."
+    source: { kind: authored }
+  - form: "myjecie"
+    pl: "Myjecie okna co miesiąc."
+    ru: "Вы моете окна каждый месяц."
+    source: { kind: authored }
   - form: "myjemy"
     pl: "Myjemy się mydłem."
     ru: "Мы моемся мылом."
@@ -256,6 +285,30 @@ formExamples:
     pl: "Myliśmy ręce przed obiadem."
     ru: "Мы мыли руки перед обедом."
     source: { kind: authored }
+  - form: "myła"
+    pl: "Myła ręce przed jedzeniem."
+    ru: "Она мыла руки перед едой."
+    source: { kind: authored }
+  - form: "myła"
+    pl: "Nie myła samochodu."
+    ru: "Она не мыла машину."
+    source: { kind: authored }
+  - form: "myła"
+    pl: "Myła okna co miesiąc."
+    ru: "Она мыла окна каждый месяц."
+    source: { kind: authored }
+  - form: "myłam"
+    pl: "Myłam ręce przed jedzeniem."
+    ru: "Я мыла руки перед едой."
+    source: { kind: authored }
+  - form: "myłam"
+    pl: "Nie myłam samochodu."
+    ru: "Я не мыла машину."
+    source: { kind: authored }
+  - form: "myłam"
+    pl: "Myłam okna co miesiąc."
+    ru: "Я мыла окна каждый месяц."
+    source: { kind: authored }
   - form: "myłaś"
     pl: "Czym myłaś włosy?"
     ru: "Чем ты мыла волосы?"
@@ -292,6 +345,30 @@ formExamples:
     pl: "Czym myłeś włosy?"
     ru: "Чем ты мыл волосы?"
     source: { kind: translated, id: 12198110 }
+  - form: "myło"
+    pl: "Dziecko myło ręce."
+    ru: "Ребёнок мыл руки."
+    source: { kind: authored }
+  - form: "myło"
+    pl: "Żadne z nich nie myło naczyń."
+    ru: "Никто из них не мыл посуду."
+    source: { kind: authored }
+  - form: "myło"
+    pl: "Morze myło brzeg."
+    ru: "Море омывало берег."
+    source: { kind: authored }
+  - form: "myły"
+    pl: "Dzieci myły ręce."
+    ru: "Дети мыли руки."
+    source: { kind: authored }
+  - form: "myły"
+    pl: "Fale myły brzeg."
+    ru: "Волны омывали берег."
+    source: { kind: authored }
+  - form: "myły"
+    pl: "Nie myły naczyń."
+    ru: "Они не мыли посуду."
+    source: { kind: authored }
   - form: "myłyśmy"
     pl: "Myłyśmy ręce."
     ru: "Мы мыли руки."
@@ -303,6 +380,138 @@ formExamples:
   - form: "myłyśmy"
     pl: "Myłyśmy naczynia po kolacji."
     ru: "Мы мыли посуду после ужина."
+    source: { kind: authored }
+  - form: "myta"
+    pl: "Podłoga jest myta codziennie."
+    ru: "Пол моют каждый день."
+    source: { kind: authored }
+  - form: "myta"
+    pl: "Ta szyba nie była myta."
+    ru: "Это стекло не было вымыто."
+    source: { kind: authored }
+  - form: "myta"
+    pl: "Miska bywa myta rano."
+    ru: "Миску моют утром."
+    source: { kind: authored }
+  - form: "mytą"
+    pl: "Znam mytą szybę po blasku."
+    ru: "Вымытое стекло я узнаю по блеску."
+    source: { kind: authored }
+  - form: "mytą"
+    pl: "Uznano podłogę za mytą."
+    ru: "Пол сочли вымытым."
+    source: { kind: authored }
+  - form: "mytą"
+    pl: "Widzieliśmy mytą miskę."
+    ru: "Мы видели вымытую миску."
+    source: { kind: authored }
+  - form: "myte"
+    pl: "Okna są myte co miesiąc."
+    ru: "Окна моют каждый месяц."
+    source: { kind: authored }
+  - form: "myte"
+    pl: "Naczynia nie były myte."
+    ru: "Посуда не была вымыта."
+    source: { kind: authored }
+  - form: "myte"
+    pl: "Dziecko jest myte wieczorem."
+    ru: "Ребёнка моют вечером."
+    source: { kind: authored }
+  - form: "mytego"
+    pl: "Nie ma tu nic mytego."
+    ru: "Здесь нет ничего вымытого."
+    source: { kind: authored }
+  - form: "mytego"
+    pl: "Szukam mytego kubka."
+    ru: "Я ищу вымытую кружку."
+    source: { kind: authored }
+  - form: "mytego"
+    pl: "Od mytego naczynia zaczyna się porządek."
+    ru: "С вымытой посуды начинается порядок."
+    source: { kind: authored }
+  - form: "mytej"
+    pl: "Nie widzę mytej szyby."
+    ru: "Я не вижу вымытого стекла."
+    source: { kind: authored }
+  - form: "mytej"
+    pl: "W mytej misce nie ma resztek."
+    ru: "В вымытой миске нет остатков."
+    source: { kind: authored }
+  - form: "mytej"
+    pl: "Dzięki mytej podłodze pachnie czysto."
+    ru: "Благодаря вымытому полу пахнет чистотой."
+    source: { kind: authored }
+  - form: "mytemu"
+    pl: "Przyjrzyj się temu mytemu garnkowi."
+    ru: "Присмотрись к этой вымытой кастрюле."
+    source: { kind: authored }
+  - form: "mytemu"
+    pl: "Mytemu psu nikt nie ucieka."
+    ru: "От вымытого пса никто не убегает."
+    source: { kind: authored }
+  - form: "mytemu"
+    pl: "Dzięki mytemu autu widać kolor."
+    ru: "Благодаря вымытой машине виден цвет."
+    source: { kind: authored }
+  - form: "myto"
+    pl: "Naczynia myto po kolacji."
+    ru: "Посуду мыли после ужина."
+    source: { kind: authored }
+  - form: "myto"
+    pl: "Podłogę myto raz w tygodniu."
+    ru: "Пол мыли раз в неделю."
+    source: { kind: authored }
+  - form: "myto"
+    pl: "Dzieci myto w balii."
+    ru: "Детей мыли в корыте."
+    source: { kind: authored }
+  - form: "myty"
+    pl: "Samochód jest myty co tydzień."
+    ru: "Машину моют каждую неделю."
+    source: { kind: authored }
+  - form: "myty"
+    pl: "Ten garnek nie był myty."
+    ru: "Эта кастрюля не была вымыта."
+    source: { kind: authored }
+  - form: "myty"
+    pl: "Pies bywa myty raz w miesiącu."
+    ru: "Пса моют раз в месяц."
+    source: { kind: authored }
+  - form: "mytych"
+    pl: "Nie ma tu mytych naczyń."
+    ru: "Здесь нет вымытой посуды."
+    source: { kind: authored }
+  - form: "mytych"
+    pl: "Wśród mytych kubków stał jeden brudny."
+    ru: "Среди вымытых кружек стояла одна грязная."
+    source: { kind: authored }
+  - form: "mytych"
+    pl: "Od mytych rąk zaczyna się zdrowie."
+    ru: "С вымытых рук начинается здоровье."
+    source: { kind: authored }
+  - form: "mytym"
+    pl: "W mytym kubku nie ma osadu."
+    ru: "В вымытой кружке нет налёта."
+    source: { kind: authored }
+  - form: "mytym"
+    pl: "Mytym naczyniom nie grozi pleśń."
+    ru: "Вымытой посуде не грозит плесень."
+    source: { kind: authored }
+  - form: "mytym"
+    pl: "Z mytym psem przyjemniej."
+    ru: "С вымытым псом приятнее."
+    source: { kind: authored }
+  - form: "mytymi"
+    pl: "Między brudnymi a mytymi naczyniami jest różnica."
+    ru: "Между грязной и вымытой посудой есть разница."
+    source: { kind: authored }
+  - form: "mytymi"
+    pl: "Zajmuje się mytymi butelkami."
+    ru: "Он занимается вымытыми бутылками."
+    source: { kind: authored }
+  - form: "mytymi"
+    pl: "Wróciła z mytymi włosami."
+    ru: "Она вернулась с вымытыми волосами."
     source: { kind: authored }
   - form: "będę myć"
     pl: "Będę myć naczynia po kolacji."
