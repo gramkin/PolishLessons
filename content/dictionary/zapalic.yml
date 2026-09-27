@@ -57,6 +57,8 @@ notes:
   - { kind: usage, text: "Отглагольное существительное zapalenie значит не «зажигание», а «воспаление»: zapalenie płuc «воспаление лёгких», zapalenie ucha «отит»." }
   - { kind: usage, text: "Прилагательное zapalony значит «заядлый»: zapalony kolekcjoner «заядлый коллекционер»." }
   - { kind: usage, text: "О свете и двигателе: zapalić światło «включить свет», zapalić samochód «завести машину»." }
+  - { kind: usage, text: "Причастие zapalony зажило своей жизнью и значит «заядлый, увлечённый»: zapalony wędkarz «заядлый рыбак», zapaleni kibice «заядлые болельщики». О предмете оно по-прежнему значит «зажжённый»." }
+  - { kind: usage, text: "Отглагольное существительное zapalenie в медицинском языке значит «воспаление»: zapalenie płuc «воспаление лёгких»." }
 collocations:
   - { pl: "zapalić świecę", ru: "зажечь свечу" }
   - { pl: "zapalić światło", ru: "включить свет" }
@@ -68,12 +70,6 @@ idioms:
   - { pl: "zapalić światło", ru: "включить свет" }
   - { pl: "zapalenie płuc", ru: "воспаление лёгких" }
 formExamplesSkip:
-  - { form: "zapalą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapaleni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapaleniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapaleniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalicie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapaliliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapalilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapalilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -82,27 +78,16 @@ formExamplesSkip:
   - { form: "zapaliłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zapaliłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapaliłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zapaliłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapaliłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zapaliły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapaliłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zapaliłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "zapaliłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zapalimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zapaliwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "zapaloną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalonemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zapalonymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "zapal"
     pl: "Zapal świece."
@@ -120,6 +105,42 @@ formExamples:
     pl: "Zapal samochód."
     ru: "Заведи машину."
     source: { kind: translated, id: 5652529 }
+  - form: "zapalą"
+    pl: "Zapalą świecę."
+    ru: "Они зажгут свечу."
+    source: { kind: authored }
+  - form: "zapalą"
+    pl: "Zapalą światło."
+    ru: "Они включат свет."
+    source: { kind: authored }
+  - form: "zapalą"
+    pl: "Nie zapalą tu papierosa."
+    ru: "Они тут не закурят."
+    source: { kind: authored }
+  - form: "zapalcie"
+    pl: "Zapalcie świecę."
+    ru: "Зажгите свечу."
+    source: { kind: authored }
+  - form: "zapalcie"
+    pl: "Zapalcie światło."
+    ru: "Включите свет."
+    source: { kind: authored }
+  - form: "zapalcie"
+    pl: "Nie zapalcie tu papierosa."
+    ru: "Не закуривайте тут."
+    source: { kind: authored }
+  - form: "zapaleni"
+    pl: "Zapaleni kibice przyszli mimo deszczu."
+    ru: "Заядлые болельщики пришли несмотря на дождь."
+    source: { kind: authored }
+  - form: "zapaleni"
+    pl: "Byli zapaleni do pracy."
+    ru: "Они горели работой."
+    source: { kind: authored }
+  - form: "zapaleni"
+    pl: "Zapaleni wędkarze siedzą tu od świtu."
+    ru: "Заядлые рыбаки сидят тут с рассвета."
+    source: { kind: authored }
   - form: "zapalenia"
     pl: "Nie umiał pokonać chęci zapalenia drugiego papierosa."
     ru: "Он не смог побороть желание закурить вторую сигарету."
@@ -148,6 +169,30 @@ formExamples:
     pl: "Zapalenie opon mózgowych to straszna choroba."
     ru: "Воспаление мозговых оболочек — страшная болезнь."
     source: { kind: translated, id: 3002110 }
+  - form: "zapaleniem"
+    pl: "Leży z zapaleniem płuc."
+    ru: "Он лежит с воспалением лёгких."
+    source: { kind: authored }
+  - form: "zapaleniem"
+    pl: "Przed zapaleniem świecy odmówił modlitwę."
+    ru: "Перед тем как зажечь свечу, он прочёл молитву."
+    source: { kind: authored }
+  - form: "zapaleniem"
+    pl: "Między przeziębieniem a zapaleniem jest różnica."
+    ru: "Между простудой и воспалением есть разница."
+    source: { kind: authored }
+  - form: "zapaleniu"
+    pl: "Po zapaleniu światła zobaczyli bałagan."
+    ru: "Включив свет, они увидели беспорядок."
+    source: { kind: authored }
+  - form: "zapaleniu"
+    pl: "O zapaleniu płuc powiedział lekarz."
+    ru: "О воспалении лёгких сказал врач."
+    source: { kind: authored }
+  - form: "zapaleniu"
+    pl: "W zapaleniu świec jest coś uroczystego."
+    ru: "В зажигании свечей есть что-то торжественное."
+    source: { kind: authored }
   - form: "zapalę"
     pl: "Podczas przerwy zapalę papierosa."
     ru: "В перерыве я выкурю сигарету."
@@ -171,6 +216,18 @@ formExamples:
   - form: "zapali"
     pl: "Silnik nie zapali na mrozie."
     ru: "Двигатель не заведётся на морозе."
+    source: { kind: authored }
+  - form: "zapalicie"
+    pl: "Zapalicie świecę?"
+    ru: "Вы зажжёте свечу?"
+    source: { kind: authored }
+  - form: "zapalicie"
+    pl: "Zapalicie światło."
+    ru: "Вы включите свет."
+    source: { kind: authored }
+  - form: "zapalicie"
+    pl: "Nie zapalicie tu papierosa."
+    ru: "Вы тут не закурите."
     source: { kind: authored }
   - form: "zapalić"
     pl: "Chcę zapalić."
@@ -240,6 +297,18 @@ formExamples:
     pl: "Zapaliłam lampę na biurku."
     ru: "Я включила лампу на столе."
     source: { kind: authored }
+  - form: "zapaliłaś"
+    pl: "Zapaliłaś świecę."
+    ru: "Ты зажгла свечу."
+    source: { kind: authored }
+  - form: "zapaliłaś"
+    pl: "Zapaliłaś światło."
+    ru: "Ты включила свет."
+    source: { kind: authored }
+  - form: "zapaliłaś"
+    pl: "Nie zapaliłaś tu papierosa."
+    ru: "Ты тут не закурила."
+    source: { kind: authored }
   - form: "zapaliłem"
     pl: "Zapaliłem świecę."
     ru: "Я зажёг свечу."
@@ -252,6 +321,18 @@ formExamples:
     pl: "Uległem pokusie i zapaliłem papierosa."
     ru: "Я поддался искушению и закурил сигарету."
     source: { kind: translated, id: 360998 }
+  - form: "zapaliłeś"
+    pl: "Zapaliłeś świecę."
+    ru: "Ты зажёг свечу."
+    source: { kind: authored }
+  - form: "zapaliłeś"
+    pl: "Zapaliłeś światło."
+    ru: "Ты включил свет."
+    source: { kind: authored }
+  - form: "zapaliłeś"
+    pl: "Nie zapaliłeś tu papierosa."
+    ru: "Ты тут не закурил."
+    source: { kind: authored }
   - form: "zapaliło"
     pl: "Światło się zapaliło."
     ru: "Свет загорелся."
@@ -263,6 +344,42 @@ formExamples:
   - form: "zapaliło"
     pl: "Nic się nie zapaliło."
     ru: "Ничего не загорелось."
+    source: { kind: authored }
+  - form: "zapaliły"
+    pl: "Dzieci zapaliły świece."
+    ru: "Дети зажгли свечи."
+    source: { kind: authored }
+  - form: "zapaliły"
+    pl: "Lampy zapaliły się same."
+    ru: "Лампы зажглись сами."
+    source: { kind: authored }
+  - form: "zapaliły"
+    pl: "Te słowa zapaliły tłum."
+    ru: "Эти слова зажгли толпу."
+    source: { kind: authored }
+  - form: "zapalimy"
+    pl: "Zapalimy świecę."
+    ru: "Мы зажжём свечу."
+    source: { kind: authored }
+  - form: "zapalimy"
+    pl: "Zapalimy światło."
+    ru: "Мы включим свет."
+    source: { kind: authored }
+  - form: "zapalimy"
+    pl: "Nie zapalimy tu papierosa."
+    ru: "Мы тут не закурим."
+    source: { kind: authored }
+  - form: "zapalisz"
+    pl: "Zapalisz świecę?"
+    ru: "Ты зажжёшь свечу?"
+    source: { kind: authored }
+  - form: "zapalisz"
+    pl: "Zapalisz światło."
+    ru: "Ты включишь свет."
+    source: { kind: authored }
+  - form: "zapalisz"
+    pl: "Nie zapalisz tu papierosa."
+    ru: "Ты тут не закуришь."
     source: { kind: authored }
   - form: "zapalmy"
     pl: "Zapalmy parę świec."
@@ -288,6 +405,18 @@ formExamples:
     pl: "Lampa została zapalona."
     ru: "Лампа была включена."
     source: { kind: authored }
+  - form: "zapaloną"
+    pl: "Zostawił zapaloną lampę."
+    ru: "Он оставил зажжённую лампу."
+    source: { kind: authored }
+  - form: "zapaloną"
+    pl: "Uznano ją za zapaloną turystkę."
+    ru: "Её сочли заядлой туристкой."
+    source: { kind: authored }
+  - form: "zapaloną"
+    pl: "Widziałem zapaloną świecę w oknie."
+    ru: "Я видел зажжённую свечу в окне."
+    source: { kind: authored }
   - form: "zapalone"
     pl: "Mam zostawić zapalone światło?"
     ru: "Мне оставить свет включённым?"
@@ -299,6 +428,42 @@ formExamples:
   - form: "zapalone"
     pl: "Zostawiliśmy zapalone światła."
     ru: "Мы оставили свет включённым."
+    source: { kind: authored }
+  - form: "zapalonego"
+    pl: "Nie ma tu nikogo zapalonego do pracy."
+    ru: "Здесь нет никого, горящего работой."
+    source: { kind: authored }
+  - form: "zapalonego"
+    pl: "Szukam zapalonego wędkarza."
+    ru: "Я ищу заядлого рыбака."
+    source: { kind: authored }
+  - form: "zapalonego"
+    pl: "Od zapalonego papierosa poszedł dym."
+    ru: "От зажжённой сигареты пошёл дым."
+    source: { kind: authored }
+  - form: "zapalonej"
+    pl: "Nie znam zapalonej żeglarki."
+    ru: "Я не знаю заядлой яхтсменки."
+    source: { kind: authored }
+  - form: "zapalonej"
+    pl: "Przy zapalonej świecy czytał do rana."
+    ru: "При зажжённой свече он читал до утра."
+    source: { kind: authored }
+  - form: "zapalonej"
+    pl: "Po zapalonej lampie poznał, że wrócili."
+    ru: "По зажжённой лампе он понял, что они вернулись."
+    source: { kind: authored }
+  - form: "zapalonemu"
+    pl: "Zapalonemu wędkarzowi nie przeszkadza deszcz."
+    ru: "Заядлому рыбаку дождь не мешает."
+    source: { kind: authored }
+  - form: "zapalonemu"
+    pl: "Przyjrzyj się zapalonemu ogniu."
+    ru: "Присмотрись к разожжённому огню."
+    source: { kind: authored }
+  - form: "zapalonemu"
+    pl: "Daj spokój zapalonemu do pracy koledze."
+    ru: "Оставь в покое горящего работой приятеля."
     source: { kind: authored }
   - form: "zapalono"
     pl: "Zapalono światło."
@@ -324,6 +489,18 @@ formExamples:
     pl: "To zapalony wędkarz."
     ru: "Это заядлый рыбак."
     source: { kind: authored }
+  - form: "zapalonych"
+    pl: "Nie ma tu zapalonych świec."
+    ru: "Зажжённых свечей тут нет."
+    source: { kind: authored }
+  - form: "zapalonych"
+    pl: "Wśród zapalonych kibiców byli i starsi."
+    ru: "Среди заядлых болельщиков были и пожилые."
+    source: { kind: authored }
+  - form: "zapalonych"
+    pl: "Liczba zapalonych lamp rośnie."
+    ru: "Число зажжённых ламп растёт."
+    source: { kind: authored }
   - form: "zapalonym"
     pl: "Tom usnął przy zapalonym świetle."
     ru: "Том уснул при включённом свете."
@@ -336,3 +513,15 @@ formExamples:
     pl: "Mój dziadek był zapalonym kolekcjonerem znaczków."
     ru: "Мой дед был заядлым коллекционером марок."
     source: { kind: translated, id: 3942994 }
+  - form: "zapalonymi"
+    pl: "Szli z zapalonymi świecami."
+    ru: "Они шли с зажжёнными свечами."
+    source: { kind: authored }
+  - form: "zapalonymi"
+    pl: "Między zapalonymi a obojętnymi kibicami jest różnica."
+    ru: "Между заядлыми и равнодушными болельщиками есть разница."
+    source: { kind: authored }
+  - form: "zapalonymi"
+    pl: "Z zapalonymi lampami dom wygląda inaczej."
+    ru: "С зажжёнными лампами дом выглядит иначе."
+    source: { kind: authored }

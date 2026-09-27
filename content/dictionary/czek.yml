@@ -53,10 +53,6 @@ idioms:
   - { pl: "zapłacić czekiem", ru: "заплатить чеком" }
   - { pl: "czek podróżny", ru: "дорожный чек" }
   - { pl: "wypisać czek", ru: "выписать чек" }
-formExamplesSkip:
-  - { form: "czekach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "czekom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "czekowi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "czek"
     pl: "Dostałeś czek?"
@@ -74,6 +70,18 @@ formExamples:
     pl: "Wysłała mi w załączeniu czek."
     ru: "Она прислала мне чек в приложении."
     source: { kind: translated, id: 561626 }
+  - form: "czekach"
+    pl: "O tych czekach mówi księgowa."
+    ru: "Об этих чеках говорит бухгалтер."
+    source: { kind: authored }
+  - form: "czekach"
+    pl: "W czekach był błąd w kwocie."
+    ru: "В чеках была ошибка в сумме."
+    source: { kind: authored }
+  - form: "czekach"
+    pl: "Na czekach brakowało podpisu."
+    ru: "На чеках не хватало подписи."
+    source: { kind: authored }
   - form: "czekami"
     pl: "Zapłacę czekami podróżnymi."
     ru: "Я заплачу дорожными чеками."
@@ -114,6 +122,30 @@ formExamples:
     pl: "Czy mogę za książkę zapłacić czekiem?"
     ru: "Можно мне заплатить за книгу чеком?"
     source: { kind: translated, id: 751612 }
+  - form: "czekom"
+    pl: "Przyjrzyj się tym czekom."
+    ru: "Присмотрись к этим чекам."
+    source: { kind: authored }
+  - form: "czekom"
+    pl: "Nie ufaj takim czekom."
+    ru: "Не доверяй таким чекам."
+    source: { kind: authored }
+  - form: "czekom"
+    pl: "Dzięki czekom rozliczenie było prostsze."
+    ru: "Благодаря чекам расчёт был проще."
+    source: { kind: authored }
+  - form: "czekowi"
+    pl: "Przyjrzyj się temu czekowi."
+    ru: "Присмотрись к этому чеку."
+    source: { kind: authored }
+  - form: "czekowi"
+    pl: "Czekowi brakuje podpisu."
+    ru: "Чеку не хватает подписи."
+    source: { kind: authored }
+  - form: "czekowi"
+    pl: "Poświęcono czekowi osobny akapit."
+    ru: "Чеку посвятили отдельный абзац."
+    source: { kind: authored }
   - form: "czeków"
     pl: "W USA popularne jest wypisywanie czeków zamiast płacenia gotówką."
     ru: "В США принято выписывать чеки вместо оплаты наличными."
