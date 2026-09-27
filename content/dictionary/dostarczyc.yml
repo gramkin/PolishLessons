@@ -41,46 +41,24 @@ memory: "dostarczyć — «доставить, предоставить». Ко�
 idioms:
   - { pl: "dostarczyć paczkę", ru: "доставить посылку" }
 formExamplesSkip:
-  - { form: "dostarczą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczeni", reason: "единственный корпусный пример отвергнут по длине; примеры составлены вручную" }
-  - { form: "dostarczenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "dostarczyliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "dostarczyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "dostarczyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "dostarczyłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dostarczyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "dostarczyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dostarczyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "dostarczyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "dostarczysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dostarczywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
   - form: "dostarcz"
@@ -95,6 +73,30 @@ formExamples:
     pl: "Dostarcz mi dowody."
     ru: "Предоставь мне доказательства."
     source: { kind: authored }
+  - form: "dostarczą"
+    pl: "Dostarczą paczkę jutro."
+    ru: "Они доставят посылку завтра."
+    source: { kind: authored }
+  - form: "dostarczą"
+    pl: "Nie dostarczą tego dziś."
+    ru: "Сегодня они это не доставят."
+    source: { kind: authored }
+  - form: "dostarczą"
+    pl: "Dostarczą nam informacji."
+    ru: "Они предоставят нам сведения."
+    source: { kind: authored }
+  - form: "dostarczcie"
+    pl: "Dostarczcie paczkę na czas."
+    ru: "Доставьте посылку вовремя."
+    source: { kind: authored }
+  - form: "dostarczcie"
+    pl: "Dostarczcie nam informacji."
+    ru: "Предоставьте нам сведения."
+    source: { kind: authored }
+  - form: "dostarczcie"
+    pl: "Dostarczcie to do biura."
+    ru: "Доставьте это в контору."
+    source: { kind: authored }
   - form: "dostarczenia"
     pl: "Płatność za pobraniem oznacza płatność gotówką w chwili dostarczenia przesyłki."
     ru: "Оплата при получении означает оплату наличными в момент доставки отправления."
@@ -106,6 +108,30 @@ formExamples:
   - form: "dostarczenia"
     pl: "Żądają dostarczenia dowodów."
     ru: "Они требуют предоставления доказательств."
+    source: { kind: authored }
+  - form: "dostarczenie"
+    pl: "Dostarczenie paczki zajęło dzień."
+    ru: "Доставка посылки заняла день."
+    source: { kind: authored }
+  - form: "dostarczenie"
+    pl: "Dostarczenie dowodów jest obowiązkiem."
+    ru: "Представить доказательства — обязанность."
+    source: { kind: authored }
+  - form: "dostarczenie"
+    pl: "Dostarczenie wody uratowało wieś."
+    ru: "Доставка воды спасла деревню."
+    source: { kind: authored }
+  - form: "dostarczeniem"
+    pl: "Zajął się dostarczeniem towaru."
+    ru: "Он занялся доставкой товара."
+    source: { kind: authored }
+  - form: "dostarczeniem"
+    pl: "Między zamówieniem a dostarczeniem minął tydzień."
+    ru: "Между заказом и доставкой прошла неделя."
+    source: { kind: authored }
+  - form: "dostarczeniem"
+    pl: "Skończyło się dostarczeniem paczki."
+    ru: "Кончилось доставкой посылки."
     source: { kind: authored }
   - form: "dostarczeniu"
     pl: "Na wypadek opóźnienia w dostarczeniu mamy ubezpieczenie specjalne."
@@ -131,6 +157,18 @@ formExamples:
     pl: "Mam nadzieję, że dostarczę wam dobrej żywności za niską cenę."
     ru: "Надеюсь, я доставлю вам хорошую еду по низкой цене."
     source: { kind: translated, id: 997145 }
+  - form: "dostarczmy"
+    pl: "Dostarczmy paczkę na czas."
+    ru: "Доставим посылку вовремя."
+    source: { kind: authored }
+  - form: "dostarczmy"
+    pl: "Dostarczmy im informacji."
+    ru: "Предоставим им сведения."
+    source: { kind: authored }
+  - form: "dostarczmy"
+    pl: "Dostarczmy to do biura."
+    ru: "Доставим это в контору."
+    source: { kind: authored }
   - form: "dostarczona"
     pl: "Paczka została wczoraj dostarczona."
     ru: "Посылка была доставлена вчера."
@@ -143,6 +181,18 @@ formExamples:
     pl: "Ta paczka została dostarczona wczoraj."
     ru: "Эта посылка была доставлена вчера."
     source: { kind: translated, id: 900875 }
+  - form: "dostarczoną"
+    pl: "Znam paczkę dostarczoną wczoraj."
+    ru: "Я знаю посылку, доставленную вчера."
+    source: { kind: authored }
+  - form: "dostarczoną"
+    pl: "Uznano przesyłkę za dostarczoną."
+    ru: "Отправление сочли доставленным."
+    source: { kind: authored }
+  - form: "dostarczoną"
+    pl: "Widzieliśmy dostarczoną skrzynię."
+    ru: "Мы видели доставленный ящик."
+    source: { kind: authored }
   - form: "dostarczone"
     pl: "Kwiaty zostały dostarczone pod zły adres."
     ru: "Цветы были доставлены не по тому адресу."
@@ -154,6 +204,42 @@ formExamples:
   - form: "dostarczone"
     pl: "Dokumenty zostały dostarczone na czas."
     ru: "Документы были доставлены вовремя."
+    source: { kind: authored }
+  - form: "dostarczonego"
+    pl: "Nie ma tu nic dostarczonego."
+    ru: "Здесь нет ничего доставленного."
+    source: { kind: authored }
+  - form: "dostarczonego"
+    pl: "Szukam towaru dostarczonego wczoraj."
+    ru: "Я ищу товар, доставленный вчера."
+    source: { kind: authored }
+  - form: "dostarczonego"
+    pl: "Od dostarczonego paliwa zależy ogrzewanie."
+    ru: "От поставленного топлива зависит отопление."
+    source: { kind: authored }
+  - form: "dostarczonej"
+    pl: "Mówimy o paczce dostarczonej wczoraj."
+    ru: "Мы говорим о посылке, доставленной вчера."
+    source: { kind: authored }
+  - form: "dostarczonej"
+    pl: "Nie ufam dostarczonej informacji."
+    ru: "Я не доверяю предоставленным сведениям."
+    source: { kind: authored }
+  - form: "dostarczonej"
+    pl: "Dzięki dostarczonej wodzie przetrwali."
+    ru: "Благодаря доставленной воде они выжили."
+    source: { kind: authored }
+  - form: "dostarczonemu"
+    pl: "Przyjrzyj się temu dostarczonemu towarowi."
+    ru: "Присмотрись к этому доставленному товару."
+    source: { kind: authored }
+  - form: "dostarczonemu"
+    pl: "Dostarczonemu listowi brakuje znaczka."
+    ru: "На доставленном письме не хватает марки."
+    source: { kind: authored }
+  - form: "dostarczonemu"
+    pl: "Dzięki dostarczonemu paliwu ruszyli dalej."
+    ru: "Благодаря поставленному топливу они двинулись дальше."
     source: { kind: authored }
   - form: "dostarczono"
     pl: "Dostarczono nam mundury."
@@ -167,6 +253,54 @@ formExamples:
     pl: "Dostarczono nam opał na zimę."
     ru: "Нам доставили топливо на зиму."
     source: { kind: authored }
+  - form: "dostarczony"
+    pl: "Towar został dostarczony wczoraj."
+    ru: "Товар доставили вчера."
+    source: { kind: authored }
+  - form: "dostarczony"
+    pl: "List nie był dostarczony."
+    ru: "Письмо не было доставлено."
+    source: { kind: authored }
+  - form: "dostarczony"
+    pl: "Dostarczony na czas, uratował sytuację."
+    ru: "Доставленный вовремя, он спас положение."
+    source: { kind: authored }
+  - form: "dostarczonych"
+    pl: "Nie ma tu dostarczonych paczek."
+    ru: "Здесь нет доставленных посылок."
+    source: { kind: authored }
+  - form: "dostarczonych"
+    pl: "Wśród dostarczonych towarów brakuje jednego."
+    ru: "Среди доставленных товаров одного не хватает."
+    source: { kind: authored }
+  - form: "dostarczonych"
+    pl: "Od dostarczonych danych zależy raport."
+    ru: "От предоставленных данных зависит отчёт."
+    source: { kind: authored }
+  - form: "dostarczonym"
+    pl: "W dostarczonym pudle było pusto."
+    ru: "В доставленной коробке было пусто."
+    source: { kind: authored }
+  - form: "dostarczonym"
+    pl: "Dostarczonym paczkom brakuje etykiet."
+    ru: "На доставленных посылках не хватает этикеток."
+    source: { kind: authored }
+  - form: "dostarczonym"
+    pl: "Z dostarczonym towarem był problem."
+    ru: "С доставленным товаром была проблема."
+    source: { kind: authored }
+  - form: "dostarczonymi"
+    pl: "Między zamówionymi a dostarczonymi towarami jest różnica."
+    ru: "Между заказанными и доставленными товарами есть разница."
+    source: { kind: authored }
+  - form: "dostarczonymi"
+    pl: "Zajmuje się dostarczonymi przesyłkami."
+    ru: "Он занимается доставленными отправлениями."
+    source: { kind: authored }
+  - form: "dostarczonymi"
+    pl: "Magazyn zapełnił się dostarczonymi skrzyniami."
+    ru: "Склад заполнился доставленными ящиками."
+    source: { kind: authored }
   - form: "dostarczy"
     pl: "Obiecał, że dostarczy informacji."
     ru: "Он обещал предоставить информацию."
@@ -178,6 +312,18 @@ formExamples:
   - form: "dostarczy"
     pl: "Firma dostarczy towar w środę."
     ru: "Фирма доставит товар в среду."
+    source: { kind: authored }
+  - form: "dostarczycie"
+    pl: "Dostarczycie paczkę na czas?"
+    ru: "Вы доставите посылку вовремя?"
+    source: { kind: authored }
+  - form: "dostarczycie"
+    pl: "Nie dostarczycie tego dziś."
+    ru: "Сегодня вы это не доставите."
+    source: { kind: authored }
+  - form: "dostarczycie"
+    pl: "Dostarczycie nam informacji."
+    ru: "Вы предоставите нам сведения."
     source: { kind: authored }
   - form: "dostarczyć"
     pl: "Maszynie trzeba dostarczyć paliwa."
@@ -215,6 +361,90 @@ formExamples:
     pl: "Kurier dostarczył przesyłkę rano."
     ru: "Курьер доставил отправление утром."
     source: { kind: authored }
+  - form: "dostarczyła"
+    pl: "Dostarczyła paczkę na czas."
+    ru: "Она доставила посылку вовремя."
+    source: { kind: authored }
+  - form: "dostarczyła"
+    pl: "Nie dostarczyła nam informacji."
+    ru: "Она не предоставила нам сведений."
+    source: { kind: authored }
+  - form: "dostarczyła"
+    pl: "Dostarczyła dokumenty do biura."
+    ru: "Она доставила документы в контору."
+    source: { kind: authored }
+  - form: "dostarczyłam"
+    pl: "Dostarczyłam paczkę na czas."
+    ru: "Я доставила посылку вовремя."
+    source: { kind: authored }
+  - form: "dostarczyłam"
+    pl: "Nie dostarczyłam wam informacji."
+    ru: "Я не предоставила вам сведений."
+    source: { kind: authored }
+  - form: "dostarczyłam"
+    pl: "Dostarczyłam dokumenty do biura."
+    ru: "Я доставила документы в контору."
+    source: { kind: authored }
+  - form: "dostarczyłaś"
+    pl: "Dostarczyłaś paczkę na czas?"
+    ru: "Ты доставила посылку вовремя?"
+    source: { kind: authored }
+  - form: "dostarczyłaś"
+    pl: "Nie dostarczyłaś nam informacji."
+    ru: "Ты не предоставила нам сведений."
+    source: { kind: authored }
+  - form: "dostarczyłaś"
+    pl: "Dostarczyłaś dokumenty do biura."
+    ru: "Ты доставила документы в контору."
+    source: { kind: authored }
+  - form: "dostarczyłem"
+    pl: "Dostarczyłem paczkę na czas."
+    ru: "Я доставил посылку вовремя."
+    source: { kind: authored }
+  - form: "dostarczyłem"
+    pl: "Nie dostarczyłem wam informacji."
+    ru: "Я не предоставил вам сведений."
+    source: { kind: authored }
+  - form: "dostarczyłem"
+    pl: "Dostarczyłem dokumenty do biura."
+    ru: "Я доставил документы в контору."
+    source: { kind: authored }
+  - form: "dostarczyłeś"
+    pl: "Dostarczyłeś paczkę na czas?"
+    ru: "Ты доставил посылку вовремя?"
+    source: { kind: authored }
+  - form: "dostarczyłeś"
+    pl: "Nie dostarczyłeś nam informacji."
+    ru: "Ты не предоставил нам сведений."
+    source: { kind: authored }
+  - form: "dostarczyłeś"
+    pl: "Dostarczyłeś dokumenty do biura."
+    ru: "Ты доставил документы в контору."
+    source: { kind: authored }
+  - form: "dostarczyło"
+    pl: "Biuro dostarczyło dokumenty."
+    ru: "Контора доставила документы."
+    source: { kind: authored }
+  - form: "dostarczyło"
+    pl: "Żadne z nich nie dostarczyło dowodów."
+    ru: "Никто из них не представил доказательств."
+    source: { kind: authored }
+  - form: "dostarczyło"
+    pl: "Miasto dostarczyło paliwa."
+    ru: "Город поставил топливо."
+    source: { kind: authored }
+  - form: "dostarczyły"
+    pl: "Firmy dostarczyły towar na czas."
+    ru: "Фирмы доставили товар вовремя."
+    source: { kind: authored }
+  - form: "dostarczyły"
+    pl: "Wsie dostarczyły zboża."
+    ru: "Деревни поставили зерно."
+    source: { kind: authored }
+  - form: "dostarczyły"
+    pl: "Nie dostarczyły dowodów."
+    ru: "Они не представили доказательств."
+    source: { kind: authored }
   - form: "dostarczymy"
     pl: "Dostarczymy w ciągu tygodnia."
     ru: "Мы доставим в течение недели."
@@ -226,4 +456,16 @@ formExamples:
   - form: "dostarczymy"
     pl: "Dostarczymy dokumenty jutro."
     ru: "Мы доставим документы завтра."
+    source: { kind: authored }
+  - form: "dostarczysz"
+    pl: "Dostarczysz paczkę na czas?"
+    ru: "Ты доставишь посылку вовремя?"
+    source: { kind: authored }
+  - form: "dostarczysz"
+    pl: "Nie dostarczysz tego dziś."
+    ru: "Сегодня ты это не доставишь."
+    source: { kind: authored }
+  - form: "dostarczysz"
+    pl: "Dostarczysz nam informacji."
+    ru: "Ты предоставишь нам сведения."
     source: { kind: authored }
