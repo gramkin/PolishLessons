@@ -32,6 +32,7 @@ notes:
   - { kind: government, text: "Мужской неодушевлённый; родительный — egzemplarza, множественное — egzemplarze." }
   - { kind: usage, text: "w dwóch egzemplarzach «в двух экземплярах» — канцелярская формула, как в русском." }
   - { kind: usage, text: "В разговорной речи о человеке звучит иронически: niezły egzemplarz «ну и экземпляр»." }
+  - { kind: government, text: "Родительный падеж множественного числа — egzemplarzy. Существительные на -arz дают -y (lekarzy, pisarzy), а не -ów." }
 collocations:
   - { pl: "egzemplarz książki", ru: "экземпляр книги" }
   - { pl: "drugi egzemplarz", ru: "второй экземпляр" }
@@ -40,14 +41,7 @@ memory: "egzemplarz — «экземпляр», слово в обоих язы�
 idioms:
   - { pl: "w dwóch egzemplarzach", ru: "в двух экземплярах" }
 formExamplesSkip:
-  - { form: "egzemplarza", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzów", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "egzemplarzu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "egzemplarzów", reason: "существительные на -arz дают родительный падеж множественного числа на -y: lekarzy, pisarzy, egzemplarzy. Вариант на -ów у этого слова не употребляется" }
 formExamples:
   - form: "egzemplarz"
     pl: "Masz drugi egzemplarz tego klucza?"
@@ -61,6 +55,42 @@ formExamples:
     pl: "Masz jeszcze jakiś egzemplarz tego klucza?"
     ru: "У тебя есть ещё экземпляр этого ключа?"
     source: { kind: translated, id: 959569 }
+  - form: "egzemplarza"
+    pl: "Nie mam drugiego egzemplarza."
+    ru: "У меня нет второго экземпляра."
+    source: { kind: authored }
+  - form: "egzemplarza"
+    pl: "Szukam egzemplarza z pierwszego wydania."
+    ru: "Я ищу экземпляр первого издания."
+    source: { kind: authored }
+  - form: "egzemplarza"
+    pl: "Bez egzemplarza umowy nic nie załatwisz."
+    ru: "Без экземпляра договора ничего не добьёшься."
+    source: { kind: authored }
+  - form: "egzemplarzach"
+    pl: "W tych egzemplarzach brakuje stron."
+    ru: "В этих экземплярах не хватает страниц."
+    source: { kind: authored }
+  - form: "egzemplarzach"
+    pl: "O egzemplarzach archiwalnych mówi katalog."
+    ru: "Об архивных экземплярах говорит каталог."
+    source: { kind: authored }
+  - form: "egzemplarzach"
+    pl: "W obu egzemplarzach są pieczątki."
+    ru: "В обоих экземплярах есть печати."
+    source: { kind: authored }
+  - form: "egzemplarzami"
+    pl: "Między egzemplarzami jest różnica."
+    ru: "Между экземплярами есть разница."
+    source: { kind: authored }
+  - form: "egzemplarzami"
+    pl: "Zajmuje się egzemplarzami archiwalnymi."
+    ru: "Он занимается архивными экземплярами."
+    source: { kind: authored }
+  - form: "egzemplarzami"
+    pl: "Obdarował nas egzemplarzami książki."
+    ru: "Он одарил нас экземплярами книги."
+    source: { kind: authored }
   - form: "egzemplarze"
     pl: "Żądali, by wszystkie egzemplarze książki zostały zniszczone."
     ru: "Они требовали уничтожить все экземпляры книги."
@@ -72,6 +102,54 @@ formExamples:
   - form: "egzemplarze"
     pl: "Te egzemplarze są uszkodzone."
     ru: "Эти экземпляры повреждены."
+    source: { kind: authored }
+  - form: "egzemplarzem"
+    pl: "Dysponuję jednym egzemplarzem."
+    ru: "Я располагаю одним экземпляром."
+    source: { kind: authored }
+  - form: "egzemplarzem"
+    pl: "Między egzemplarzem a kopią jest różnica."
+    ru: "Между экземпляром и копией есть разница."
+    source: { kind: authored }
+  - form: "egzemplarzem"
+    pl: "Podzielił się egzemplarzem gazety."
+    ru: "Он поделился экземпляром газеты."
+    source: { kind: authored }
+  - form: "egzemplarzom"
+    pl: "Przyjrzyj się tym egzemplarzom."
+    ru: "Присмотрись к этим экземплярам."
+    source: { kind: authored }
+  - form: "egzemplarzom"
+    pl: "Dzięki tym egzemplarzom biblioteka ocalała."
+    ru: "Благодаря этим экземплярам библиотека уцелела."
+    source: { kind: authored }
+  - form: "egzemplarzom"
+    pl: "Nie ufaj takim egzemplarzom."
+    ru: "Не доверяй таким экземплярам."
+    source: { kind: authored }
+  - form: "egzemplarzowi"
+    pl: "Przyjrzyj się temu egzemplarzowi."
+    ru: "Присмотрись к этому экземпляру."
+    source: { kind: authored }
+  - form: "egzemplarzowi"
+    pl: "Egzemplarzowi brakuje okładki."
+    ru: "Экземпляру не хватает обложки."
+    source: { kind: authored }
+  - form: "egzemplarzowi"
+    pl: "Poświęcono egzemplarzowi osobny opis."
+    ru: "Экземпляру посвятили отдельное описание."
+    source: { kind: authored }
+  - form: "egzemplarzu"
+    pl: "W tym egzemplarzu brakuje strony."
+    ru: "В этом экземпляре не хватает страницы."
+    source: { kind: authored }
+  - form: "egzemplarzu"
+    pl: "O tym egzemplarzu mówi katalog."
+    ru: "Об этом экземпляре говорит каталог."
+    source: { kind: authored }
+  - form: "egzemplarzu"
+    pl: "Na egzemplarzu widnieje pieczątka."
+    ru: "На экземпляре стоит печать."
     source: { kind: authored }
   - form: "egzemplarzy"
     pl: "Książki Stanisława Lema zostały przetłumaczone na 41 języków i osiągnęły łączny nakład ponad 30 mln egzemplarzy."
