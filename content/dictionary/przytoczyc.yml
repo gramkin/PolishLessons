@@ -41,59 +41,111 @@ memory: "przytoczyć — «привести» пример или цитату, 
 idioms:
   - { pl: "przytoczyć przykład", ru: "привести пример" }
 formExamplesSkip:
-  - { form: "przytocz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przytoczeni", reason: "страдательное причастие мужского лица, а приводят пример, цитату или данные: примечание к карточке даёт przytoczyć przykład, przytoczyć cytat. Человека не приводят в этом смысле, поэтому формы нет" }
   - { form: "przytoczono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "przytoczony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyć", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przytoczyliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przytoczył", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przytoczyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przytoczyłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przytoczyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przytoczyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przytoczyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przytoczymy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przytoczysz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przytoczywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "przytocz"
+    pl: "Przytocz jeszcze jeden przykład."
+    ru: "Приведи ещё один пример."
+    source: { kind: authored }
+  - form: "przytocz"
+    pl: "Przytocz słowa poety."
+    ru: "Приведи слова поэта."
+    source: { kind: authored }
+  - form: "przytocz"
+    pl: "Przytocz dane z raportu."
+    ru: "Приведи данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczą"
+    pl: "Przytoczą jeszcze jeden przykład."
+    ru: "Они приведут ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczą"
+    pl: "Przytoczą słowa poety."
+    ru: "Они приведут слова поэта."
+    source: { kind: authored }
+  - form: "przytoczą"
+    pl: "Nie przytoczą tego z pamięci."
+    ru: "По памяти они это не приведут."
+    source: { kind: authored }
+  - form: "przytoczcie"
+    pl: "Przytoczcie jeszcze jeden przykład."
+    ru: "Приведите ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczcie"
+    pl: "Przytoczcie słowa poety."
+    ru: "Приведите слова поэта."
+    source: { kind: authored }
+  - form: "przytoczcie"
+    pl: "Przytoczcie dane z raportu."
+    ru: "Приведите данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczenia"
+    pl: "Bez przytoczenia źródła to tylko plotka."
+    ru: "Без ссылки на источник это лишь слух."
+    source: { kind: authored }
+  - form: "przytoczenia"
+    pl: "Od przytoczenia danych zaczął wykład."
+    ru: "С приведения данных он начал лекцию."
+    source: { kind: authored }
+  - form: "przytoczenia"
+    pl: "Domagali się przytoczenia dowodów."
+    ru: "Они требовали привести доказательства."
+    source: { kind: authored }
+  - form: "przytoczenie"
+    pl: "Przytoczenie cytatu zajęło chwilę."
+    ru: "Привести цитату заняло минуту."
+    source: { kind: authored }
+  - form: "przytoczenie"
+    pl: "Przytoczenie danych wymaga źródła."
+    ru: "Приведение данных требует источника."
+    source: { kind: authored }
+  - form: "przytoczenie"
+    pl: "Przytoczenie przykładu wszystko wyjaśniło."
+    ru: "Приведённый пример всё объяснил."
+    source: { kind: authored }
+  - form: "przytoczeniem"
+    pl: "Zajął się przytoczeniem źródeł."
+    ru: "Он занялся приведением источников."
+    source: { kind: authored }
+  - form: "przytoczeniem"
+    pl: "Między streszczeniem a przytoczeniem jest różnica."
+    ru: "Между пересказом и цитированием есть разница."
+    source: { kind: authored }
+  - form: "przytoczeniem"
+    pl: "Skończyło się przytoczeniem całego wiersza."
+    ru: "Кончилось тем, что привели всё стихотворение."
+    source: { kind: authored }
+  - form: "przytoczeniu"
+    pl: "Po przytoczeniu danych zapadła cisza."
+    ru: "После приведённых данных наступила тишина."
+    source: { kind: authored }
+  - form: "przytoczeniu"
+    pl: "O przytoczeniu tego cytatu nikt nie pamięta."
+    ru: "О том, что приводили эту цитату, никто не помнит."
+    source: { kind: authored }
+  - form: "przytoczeniu"
+    pl: "W przytoczeniu cudzych słów liczy się dokładność."
+    ru: "В цитировании чужих слов важна точность."
+    source: { kind: authored }
   - form: "przytoczę"
     pl: "Przytoczę wam jeszcze jeden przykład."
     ru: "Я приведу вам ещё один пример."
@@ -106,3 +158,303 @@ formExamples:
     pl: "Przytoczę pani jeszcze jeden przykład."
     ru: "Я приведу вам ещё один пример."
     source: { kind: tatoeba, id: 8658859 }
+  - form: "przytoczmy"
+    pl: "Przytoczmy jeszcze jeden przykład."
+    ru: "Приведём ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczmy"
+    pl: "Przytoczmy słowa poety."
+    ru: "Приведём слова поэта."
+    source: { kind: authored }
+  - form: "przytoczmy"
+    pl: "Przytoczmy dane z raportu."
+    ru: "Приведём данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczona"
+    pl: "Wypowiedź została przytoczona w całości."
+    ru: "Высказывание привели целиком."
+    source: { kind: authored }
+  - form: "przytoczona"
+    pl: "Liczba nie była przytoczona."
+    ru: "Число не было приведено."
+    source: { kind: authored }
+  - form: "przytoczona"
+    pl: "Przytoczona anegdota rozbawiła salę."
+    ru: "Приведённый анекдот рассмешил зал."
+    source: { kind: authored }
+  - form: "przytoczoną"
+    pl: "Znam anegdotę przytoczoną na wykładzie."
+    ru: "Я знаю анекдот, приведённый на лекции."
+    source: { kind: authored }
+  - form: "przytoczoną"
+    pl: "Uznano liczbę za przytoczoną bez źródła."
+    ru: "Число сочли приведённым без источника."
+    source: { kind: authored }
+  - form: "przytoczoną"
+    pl: "Widzieliśmy wypowiedź przytoczoną w prasie."
+    ru: "Мы видели высказывание, приведённое в прессе."
+    source: { kind: authored }
+  - form: "przytoczone"
+    pl: "Dane zostały przytoczone w raporcie."
+    ru: "Данные привели в отчёте."
+    source: { kind: authored }
+  - form: "przytoczone"
+    pl: "Słowa nie były przytoczone dokładnie."
+    ru: "Слова привели неточно."
+    source: { kind: authored }
+  - form: "przytoczone"
+    pl: "Przytoczone przykłady niczego nie dowodzą."
+    ru: "Приведённые примеры ничего не доказывают."
+    source: { kind: authored }
+  - form: "przytoczonego"
+    pl: "Nie ma tu nic przytoczonego z pamięci."
+    ru: "Здесь нет ничего приведённого по памяти."
+    source: { kind: authored }
+  - form: "przytoczonego"
+    pl: "Szukam cytatu przytoczonego na wykładzie."
+    ru: "Я ищу цитату, приведённую на лекции."
+    source: { kind: authored }
+  - form: "przytoczonego"
+    pl: "Od przytoczonego argumentu zależy wynik."
+    ru: "От приведённого довода зависит результат."
+    source: { kind: authored }
+  - form: "przytoczonej"
+    pl: "Mówimy o wypowiedzi przytoczonej w gazecie."
+    ru: "Мы говорим о высказывании, приведённом в газете."
+    source: { kind: authored }
+  - form: "przytoczonej"
+    pl: "Nie ufam liczbie przytoczonej bez źródła."
+    ru: "Я не доверяю числу, приведённому без источника."
+    source: { kind: authored }
+  - form: "przytoczonej"
+    pl: "Dzięki przytoczonej anegdocie sala się rozluźniła."
+    ru: "Благодаря приведённому анекдоту зал расслабился."
+    source: { kind: authored }
+  - form: "przytoczonemu"
+    pl: "Przyjrzyj się temu przytoczonemu argumentowi."
+    ru: "Присмотрись к этому приведённому доводу."
+    source: { kind: authored }
+  - form: "przytoczonemu"
+    pl: "Przytoczonemu cytatowi brakuje źródła."
+    ru: "Приведённой цитате не хватает источника."
+    source: { kind: authored }
+  - form: "przytoczonemu"
+    pl: "Dzięki przytoczonemu przykładowi wszystko stało się jasne."
+    ru: "Благодаря приведённому примеру всё стало ясно."
+    source: { kind: authored }
+  - form: "przytoczony"
+    pl: "Cytat został przytoczony w całości."
+    ru: "Цитату привели целиком."
+    source: { kind: authored }
+  - form: "przytoczony"
+    pl: "Przykład nie był przytoczony."
+    ru: "Пример не был приведён."
+    source: { kind: authored }
+  - form: "przytoczony"
+    pl: "Przytoczony argument przekonał salę."
+    ru: "Приведённый довод убедил зал."
+    source: { kind: authored }
+  - form: "przytoczonych"
+    pl: "Nie ma tu przytoczonych źródeł."
+    ru: "Здесь нет приведённых источников."
+    source: { kind: authored }
+  - form: "przytoczonych"
+    pl: "Wśród przytoczonych przykładów jeden był fałszywy."
+    ru: "Среди приведённых примеров один был ложным."
+    source: { kind: authored }
+  - form: "przytoczonych"
+    pl: "Od przytoczonych danych zależy wniosek."
+    ru: "От приведённых данных зависит вывод."
+    source: { kind: authored }
+  - form: "przytoczonym"
+    pl: "W przytoczonym cytacie brakuje słowa."
+    ru: "В приведённой цитате не хватает слова."
+    source: { kind: authored }
+  - form: "przytoczonym"
+    pl: "Przytoczonym danym nikt nie ufa."
+    ru: "Приведённым данным никто не доверяет."
+    source: { kind: authored }
+  - form: "przytoczonym"
+    pl: "Z przytoczonym przykładem wywód jest jasny."
+    ru: "С приведённым примером рассуждение ясно."
+    source: { kind: authored }
+  - form: "przytoczonymi"
+    pl: "Między zmyślonymi a przytoczonymi faktami jest różnica."
+    ru: "Между выдуманными и приведёнными фактами есть разница."
+    source: { kind: authored }
+  - form: "przytoczonymi"
+    pl: "Zajmuje się przytoczonymi w pracy źródłami."
+    ru: "Он занимается источниками, приведёнными в работе."
+    source: { kind: authored }
+  - form: "przytoczonymi"
+    pl: "Poparł tezę przytoczonymi danymi."
+    ru: "Он подкрепил тезис приведёнными данными."
+    source: { kind: authored }
+  - form: "przytoczy"
+    pl: "Przytoczy jeszcze jeden przykład."
+    ru: "Он приведёт ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczy"
+    pl: "Przytoczy słowa poety."
+    ru: "Он приведёт слова поэта."
+    source: { kind: authored }
+  - form: "przytoczy"
+    pl: "Nikt tego nie przytoczy z pamięci."
+    ru: "Никто не приведёт это по памяти."
+    source: { kind: authored }
+  - form: "przytoczycie"
+    pl: "Przytoczycie jeszcze jeden przykład?"
+    ru: "Вы приведёте ещё один пример?"
+    source: { kind: authored }
+  - form: "przytoczycie"
+    pl: "Przytoczycie słowa poety."
+    ru: "Вы приведёте слова поэта."
+    source: { kind: authored }
+  - form: "przytoczycie"
+    pl: "Nie przytoczycie tego z pamięci."
+    ru: "По памяти вы это не приведёте."
+    source: { kind: authored }
+  - form: "przytoczyć"
+    pl: "Można przytoczyć jeszcze jeden przykład."
+    ru: "Можно привести ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczyć"
+    pl: "Warto przytoczyć słowa poety."
+    ru: "Стоит привести слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyć"
+    pl: "Trudno przytoczyć to z pamięci."
+    ru: "Трудно привести это по памяти."
+    source: { kind: authored }
+  - form: "przytoczyli"
+    pl: "Przytoczyli słowa poety."
+    ru: "Они привели слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyli"
+    pl: "Przytoczyli dane z raportu."
+    ru: "Они привели данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyli"
+    pl: "Nie przytoczyli ani jednego przykładu."
+    ru: "Они не привели ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczył"
+    pl: "Przytoczył słowa poety."
+    ru: "Он привёл слова поэта."
+    source: { kind: authored }
+  - form: "przytoczył"
+    pl: "Przytoczył dane z raportu."
+    ru: "Он привёл данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczył"
+    pl: "Nie przytoczył ani jednego przykładu."
+    ru: "Он не привёл ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyła"
+    pl: "Przytoczyła słowa poety."
+    ru: "Она привела слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyła"
+    pl: "Przytoczyła dane z raportu."
+    ru: "Она привела данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyła"
+    pl: "Nie przytoczyła ani jednego przykładu."
+    ru: "Она не привела ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyłam"
+    pl: "Przytoczyłam słowa poety."
+    ru: "Я привела слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyłam"
+    pl: "Przytoczyłam dane z raportu."
+    ru: "Я привела данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyłam"
+    pl: "Nie przytoczyłam ani jednego przykładu."
+    ru: "Я не привела ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyłaś"
+    pl: "Przytoczyłaś słowa poety."
+    ru: "Ты привела слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyłaś"
+    pl: "Przytoczyłaś dane z raportu."
+    ru: "Ты привела данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyłaś"
+    pl: "Nie przytoczyłaś ani jednego przykładu."
+    ru: "Ты не привела ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyłem"
+    pl: "Przytoczyłem słowa poety."
+    ru: "Я привёл слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyłem"
+    pl: "Przytoczyłem dane z raportu."
+    ru: "Я привёл данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyłem"
+    pl: "Nie przytoczyłem ani jednego przykładu."
+    ru: "Я не привёл ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyłeś"
+    pl: "Przytoczyłeś słowa poety."
+    ru: "Ты привёл слова поэта."
+    source: { kind: authored }
+  - form: "przytoczyłeś"
+    pl: "Przytoczyłeś dane z raportu."
+    ru: "Ты привёл данные из отчёта."
+    source: { kind: authored }
+  - form: "przytoczyłeś"
+    pl: "Nie przytoczyłeś ani jednego przykładu."
+    ru: "Ты не привёл ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczyło"
+    pl: "Ministerstwo przytoczyło dane."
+    ru: "Министерство привело данные."
+    source: { kind: authored }
+  - form: "przytoczyło"
+    pl: "Żadne z nich nie przytoczyło przykładu."
+    ru: "Никто из них не привёл примера."
+    source: { kind: authored }
+  - form: "przytoczyło"
+    pl: "Pismo przytoczyło słowa świadka."
+    ru: "Издание привело слова свидетеля."
+    source: { kind: authored }
+  - form: "przytoczyły"
+    pl: "Gazety przytoczyły słowa premiera."
+    ru: "Газеты привели слова премьера."
+    source: { kind: authored }
+  - form: "przytoczyły"
+    pl: "Raporty przytoczyły te same dane."
+    ru: "Отчёты привели те же данные."
+    source: { kind: authored }
+  - form: "przytoczyły"
+    pl: "Nie przytoczyły żadnego przykładu."
+    ru: "Они не привели ни одного примера."
+    source: { kind: authored }
+  - form: "przytoczymy"
+    pl: "Przytoczymy jeszcze jeden przykład."
+    ru: "Мы приведём ещё один пример."
+    source: { kind: authored }
+  - form: "przytoczymy"
+    pl: "Przytoczymy słowa poety."
+    ru: "Мы приведём слова поэта."
+    source: { kind: authored }
+  - form: "przytoczymy"
+    pl: "Nie przytoczymy tego z pamięci."
+    ru: "По памяти мы это не приведём."
+    source: { kind: authored }
+  - form: "przytoczysz"
+    pl: "Przytoczysz jeszcze jeden przykład?"
+    ru: "Ты приведёшь ещё один пример?"
+    source: { kind: authored }
+  - form: "przytoczysz"
+    pl: "Przytoczysz słowa poety."
+    ru: "Ты приведёшь слова поэта."
+    source: { kind: authored }
+  - form: "przytoczysz"
+    pl: "Nie przytoczysz tego z pamięci."
+    ru: "По памяти ты это не приведёшь."
+    source: { kind: authored }
