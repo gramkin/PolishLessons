@@ -44,10 +44,7 @@ formExamplesSkip:
   - { form: "wstrząsnąłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnąłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnąłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wstrząsnąłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząsnąłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wstrząsnąwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "wstrząsnęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wstrząsnęliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęlibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęlibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -56,31 +53,12 @@ formExamplesSkip:
   - { form: "wstrząsnęłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wstrząsnęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząsnęłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząsnęło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wstrząsnęłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wstrząsnęły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wstrząsnęłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wstrząsnęłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "wstrząsnęłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "wstrząśnięcia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięciem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięciu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięte", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnięto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśniętymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnijcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wstrząśnijmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "wstrząsną"
     pl: "Wstrząsną butelką przed użyciem."
@@ -118,6 +96,30 @@ formExamples:
     pl: "Widok wstrząsnął nim do głębi."
     ru: "Зрелище потрясло его до глубины."
     source: { kind: authored }
+  - form: "wstrząsnąłem"
+    pl: "Wstrząsnąłem butelką."
+    ru: "Я встряхнул бутылку."
+    source: { kind: authored }
+  - form: "wstrząsnąłem"
+    pl: "Wstrząsnąłem nim tą wiadomością."
+    ru: "Я потряс его этой новостью."
+    source: { kind: authored }
+  - form: "wstrząsnąłem"
+    pl: "Nie wstrząsnąłem nikim."
+    ru: "Я никого не потряс."
+    source: { kind: authored }
+  - form: "wstrząsnąłeś"
+    pl: "Wstrząsnąłeś butelką."
+    ru: "Ты встряхнул бутылку."
+    source: { kind: authored }
+  - form: "wstrząsnąłeś"
+    pl: "Wstrząsnąłeś nim tą wiadomością."
+    ru: "Ты потряс его этой новостью."
+    source: { kind: authored }
+  - form: "wstrząsnąłeś"
+    pl: "Nie wstrząsnąłeś nikim."
+    ru: "Ты никого не потряс."
+    source: { kind: authored }
   - form: "wstrząsnę"
     pl: "Wstrząsnę butelką przed użyciem."
     ru: "Я взболтаю бутылку перед употреблением."
@@ -130,6 +132,18 @@ formExamples:
     pl: "Nie wstrząsnę nikim taką historią."
     ru: "Я никого не потрясу такой историей."
     source: { kind: authored }
+  - form: "wstrząsnęli"
+    pl: "Wstrząsnęli opinią publiczną."
+    ru: "Они потрясли общественное мнение."
+    source: { kind: authored }
+  - form: "wstrząsnęli"
+    pl: "Wstrząsnęli butelką przed użyciem."
+    ru: "Они встряхнули бутылку перед употреблением."
+    source: { kind: authored }
+  - form: "wstrząsnęli"
+    pl: "Nie wstrząsnęli nikim."
+    ru: "Они никого не потрясли."
+    source: { kind: authored }
   - form: "wstrząsnęła"
     pl: "Nowina wszystkimi wstrząsnęła."
     ru: "Известие всех потрясло."
@@ -141,6 +155,54 @@ formExamples:
   - form: "wstrząsnęła"
     pl: "Wiadomość wstrząsnęła rodziną."
     ru: "Весть потрясла семью."
+    source: { kind: authored }
+  - form: "wstrząsnęłam"
+    pl: "Wstrząsnęłam butelką."
+    ru: "Я встряхнула бутылку."
+    source: { kind: authored }
+  - form: "wstrząsnęłam"
+    pl: "Wstrząsnęłam nim tą wiadomością."
+    ru: "Я потрясла его этой новостью."
+    source: { kind: authored }
+  - form: "wstrząsnęłam"
+    pl: "Nie wstrząsnęłam nikim."
+    ru: "Я никого не потрясла."
+    source: { kind: authored }
+  - form: "wstrząsnęłaś"
+    pl: "Wstrząsnęłaś butelką."
+    ru: "Ты встряхнула бутылку."
+    source: { kind: authored }
+  - form: "wstrząsnęłaś"
+    pl: "Wstrząsnęłaś nim tą wiadomością."
+    ru: "Ты потрясла его этой новостью."
+    source: { kind: authored }
+  - form: "wstrząsnęłaś"
+    pl: "Nie wstrząsnęłaś nikim."
+    ru: "Ты никого не потрясла."
+    source: { kind: authored }
+  - form: "wstrząsnęło"
+    pl: "Wstrząsnęło nami to zdarzenie."
+    ru: "Это происшествие нас потрясло."
+    source: { kind: authored }
+  - form: "wstrząsnęło"
+    pl: "Miastem wstrząsnęło trzęsienie ziemi."
+    ru: "Город потрясло землетрясение."
+    source: { kind: authored }
+  - form: "wstrząsnęło"
+    pl: "Nic nami nie wstrząsnęło."
+    ru: "Ничто нас не потрясло."
+    source: { kind: authored }
+  - form: "wstrząsnęły"
+    pl: "Wieści wstrząsnęły miastem."
+    ru: "Вести потрясли город."
+    source: { kind: authored }
+  - form: "wstrząsnęły"
+    pl: "Wybuchy wstrząsnęły budynkiem."
+    ru: "Взрывы сотрясли здание."
+    source: { kind: authored }
+  - form: "wstrząsnęły"
+    pl: "Te obrazy wstrząsnęły widzami."
+    ru: "Эти кадры потрясли зрителей."
     source: { kind: authored }
   - form: "wstrząśnie"
     pl: "Wstrząśnie butelką przed użyciem."
@@ -202,6 +264,90 @@ formExamples:
     pl: "Wstrząśnięci milczeli długo."
     ru: "Потрясённые, они долго молчали."
     source: { kind: authored }
+  - form: "wstrząśnięcia"
+    pl: "Bez wstrząśnięcia butelką osad zostanie."
+    ru: "Не встряхнув бутылку, осадок останется."
+    source: { kind: authored }
+  - form: "wstrząśnięcia"
+    pl: "Od wstrząśnięcia mózgu minął tydzień."
+    ru: "С сотрясения мозга прошла неделя."
+    source: { kind: authored }
+  - form: "wstrząśnięcia"
+    pl: "Doznał wstrząśnięcia mózgu."
+    ru: "Он получил сотрясение мозга."
+    source: { kind: authored }
+  - form: "wstrząśnięcie"
+    pl: "Wstrząśnięcie butelką wystarczy."
+    ru: "Достаточно встряхнуть бутылку."
+    source: { kind: authored }
+  - form: "wstrząśnięcie"
+    pl: "Wstrząśnięcie opinią publiczną było celem."
+    ru: "Целью было потрясти общественное мнение."
+    source: { kind: authored }
+  - form: "wstrząśnięcie"
+    pl: "Wstrząśnięcie mózgu wymaga obserwacji."
+    ru: "Сотрясение мозга требует наблюдения."
+    source: { kind: authored }
+  - form: "wstrząśnięciem"
+    pl: "Przed wstrząśnięciem sprawdź zakrętkę."
+    ru: "Перед встряхиванием проверь крышку."
+    source: { kind: authored }
+  - form: "wstrząśnięciem"
+    pl: "Między zamieszaniem a wstrząśnięciem jest różnica."
+    ru: "Между размешиванием и встряхиванием есть разница."
+    source: { kind: authored }
+  - form: "wstrząśnięciem"
+    pl: "Skończyło się wstrząśnięciem mózgu."
+    ru: "Кончилось сотрясением мозга."
+    source: { kind: authored }
+  - form: "wstrząśnięciu"
+    pl: "Po wstrząśnięciu osad opada."
+    ru: "После встряхивания осадок оседает."
+    source: { kind: authored }
+  - form: "wstrząśnięciu"
+    pl: "O wstrząśnięciu mózgu mówił lekarz."
+    ru: "О сотрясении мозга говорил врач."
+    source: { kind: authored }
+  - form: "wstrząśnięciu"
+    pl: "We wstrząśnięciu butelką nie ma nic trudnego."
+    ru: "Встряхнуть бутылку нетрудно."
+    source: { kind: authored }
+  - form: "wstrząśnięta"
+    pl: "Była wstrząśnięta wiadomością."
+    ru: "Она была потрясена новостью."
+    source: { kind: authored }
+  - form: "wstrząśnięta"
+    pl: "Wstrząśnięta, usiadła na schodach."
+    ru: "Потрясённая, она села на ступени."
+    source: { kind: authored }
+  - form: "wstrząśnięta"
+    pl: "Cała wieś była wstrząśnięta."
+    ru: "Вся деревня была потрясена."
+    source: { kind: authored }
+  - form: "wstrząśniętą"
+    pl: "Znam tę wstrząśniętą minę."
+    ru: "Я знаю это потрясённое лицо."
+    source: { kind: authored }
+  - form: "wstrząśniętą"
+    pl: "Uznano ją za wstrząśniętą."
+    ru: "Её сочли потрясённой."
+    source: { kind: authored }
+  - form: "wstrząśniętą"
+    pl: "Zobaczył wstrząśniętą matkę."
+    ru: "Он увидел потрясённую мать."
+    source: { kind: authored }
+  - form: "wstrząśnięte"
+    pl: "Dzieci były wstrząśnięte."
+    ru: "Дети были потрясены."
+    source: { kind: authored }
+  - form: "wstrząśnięte"
+    pl: "Wstrząśnięte miasto milczało."
+    ru: "Потрясённый город молчал."
+    source: { kind: authored }
+  - form: "wstrząśnięte"
+    pl: "Wstrząśnięte tłumy wyszły na ulice."
+    ru: "Потрясённые толпы вышли на улицы."
+    source: { kind: authored }
   - form: "wstrząśniętego"
     pl: "Tom wygląda na wstrząśniętego."
     ru: "Том выглядит потрясённым."
@@ -213,6 +359,42 @@ formExamples:
   - form: "wstrząśniętego"
     pl: "Widziałem człowieka wstrząśniętego stratą."
     ru: "Я видел человека, потрясённого утратой."
+    source: { kind: authored }
+  - form: "wstrząśniętej"
+    pl: "Po wstrząśniętej minie poznasz prawdę."
+    ru: "По потрясённому лицу узнаешь правду."
+    source: { kind: authored }
+  - form: "wstrząśniętej"
+    pl: "Szukamy wstrząśniętej świadkini."
+    ru: "Мы ищем потрясённую свидетельницу."
+    source: { kind: authored }
+  - form: "wstrząśniętej"
+    pl: "Nie zapomni tej wstrząśniętej twarzy."
+    ru: "Он не забудет этого потрясённого лица."
+    source: { kind: authored }
+  - form: "wstrząśniętemu"
+    pl: "Przyjrzyj się wstrząśniętemu świadkowi."
+    ru: "Присмотрись к потрясённому свидетелю."
+    source: { kind: authored }
+  - form: "wstrząśniętemu"
+    pl: "Wstrząśniętemu dziecku trzeba pomóc."
+    ru: "Потрясённому ребёнку надо помочь."
+    source: { kind: authored }
+  - form: "wstrząśniętemu"
+    pl: "Nie dokładaj wstrząśniętemu ojcu zmartwień."
+    ru: "Не добавляй потрясённому отцу забот."
+    source: { kind: authored }
+  - form: "wstrząśnięto"
+    pl: "Wstrząśnięto butelką przed użyciem."
+    ru: "Бутылку встряхнули перед употреблением."
+    source: { kind: authored }
+  - form: "wstrząśnięto"
+    pl: "Opinią publiczną wstrząśnięto skutecznie."
+    ru: "Общественное мнение потрясли основательно."
+    source: { kind: authored }
+  - form: "wstrząśnięto"
+    pl: "Miastem wstrząśnięto do głębi."
+    ru: "Город потрясли до основания."
     source: { kind: authored }
   - form: "wstrząśnięty"
     pl: "Jesteś wstrząśnięty."
@@ -226,6 +408,42 @@ formExamples:
     pl: "Byłem wstrząśnięty tym, co powiedział."
     ru: "Я был потрясён тем, что он сказал."
     source: { kind: translated, id: 943591 }
+  - form: "wstrząśniętych"
+    pl: "Nie ma tu wstrząśniętych twarzy."
+    ru: "Здесь нет потрясённых лиц."
+    source: { kind: authored }
+  - form: "wstrząśniętych"
+    pl: "Wśród wstrząśniętych świadków był i on."
+    ru: "Среди потрясённых свидетелей был и он."
+    source: { kind: authored }
+  - form: "wstrząśniętych"
+    pl: "Liczba wstrząśniętych rosła."
+    ru: "Число потрясённых росло."
+    source: { kind: authored }
+  - form: "wstrząśniętym"
+    pl: "Wstrząśniętym świadkom podano wodę."
+    ru: "Потрясённым свидетелям подали воды."
+    source: { kind: authored }
+  - form: "wstrząśniętym"
+    pl: "W mieście wstrząśniętym wybuchem panowała cisza."
+    ru: "В городе, потрясённом взрывом, стояла тишина."
+    source: { kind: authored }
+  - form: "wstrząśniętym"
+    pl: "Ze wstrząśniętym dzieckiem trzeba ostrożnie."
+    ru: "С потрясённым ребёнком надо осторожно."
+    source: { kind: authored }
+  - form: "wstrząśniętymi"
+    pl: "Zajmuje się wstrząśniętymi świadkami."
+    ru: "Он занимается потрясёнными свидетелями."
+    source: { kind: authored }
+  - form: "wstrząśniętymi"
+    pl: "Między wstrząśniętymi a spokojnymi jest różnica."
+    ru: "Между потрясёнными и спокойными есть разница."
+    source: { kind: authored }
+  - form: "wstrząśniętymi"
+    pl: "Ze wstrząśniętymi widzami rozmawiano długo."
+    ru: "С потрясёнными зрителями говорили долго."
+    source: { kind: authored }
   - form: "wstrząśnij"
     pl: "Wstrząśnij przed użyciem."
     ru: "Взболтать перед употреблением."
@@ -237,6 +455,30 @@ formExamples:
   - form: "wstrząśnij"
     pl: "Wstrząśnij nim porządnie."
     ru: "Встряхни его как следует."
+    source: { kind: authored }
+  - form: "wstrząśnijcie"
+    pl: "Wstrząśnijcie butelką przed użyciem."
+    ru: "Встряхните бутылку перед употреблением."
+    source: { kind: authored }
+  - form: "wstrząśnijcie"
+    pl: "Wstrząśnijcie mieszaniną."
+    ru: "Встряхните смесь."
+    source: { kind: authored }
+  - form: "wstrząśnijcie"
+    pl: "Nie wstrząśnijcie zbyt mocno."
+    ru: "Не встряхните слишком сильно."
+    source: { kind: authored }
+  - form: "wstrząśnijmy"
+    pl: "Wstrząśnijmy butelką przed użyciem."
+    ru: "Встряхнём бутылку перед употреблением."
+    source: { kind: authored }
+  - form: "wstrząśnijmy"
+    pl: "Wstrząśnijmy mieszaniną."
+    ru: "Встряхнём смесь."
+    source: { kind: authored }
+  - form: "wstrząśnijmy"
+    pl: "Nie wstrząśnijmy zbyt mocno."
+    ru: "Не встряхнём слишком сильно."
     source: { kind: authored }
   - form: "niech wstrząsną"
     pl: "Niech wstrząsną butelką przed użyciem."
