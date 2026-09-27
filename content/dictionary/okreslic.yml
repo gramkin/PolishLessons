@@ -39,6 +39,7 @@ notes:
   - { kind: government, text: "określić coś jako coś «определить что-л. как что-л.»: określił go jako geniusza." }
   - { kind: usage, text: "Причастие określony «определённый» очень частотно: w określonym terminie «в определённый срок», ściśle określony «строго определённый»." }
   - { kind: false-friend, text: "Не «окрестить». Корень — kreślić «чертить», от kreska «черта»: определить значит «очертить»." }
+  - { kind: government, text: "Третье значение берёт человека винительным дополнением — określić kogoś jako kogoś, — и именно оно даёт мужско-личное страдательное причастие: zostali określeni jako grupa ryzyka." }
 collocations:
   - { pl: "określić warunki", ru: "определить условия" }
   - { pl: "w określonym terminie", ru: "в определённый срок" }
@@ -48,49 +49,74 @@ idioms:
   - { pl: "ściśle określony", ru: "строго определённый" }
   - { pl: "określić warunki", ru: "определить условия" }
 formExamplesSkip:
-  - { form: "określ", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określili", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określilibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "określiliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "określiła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "określiłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określiłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "określiłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określiłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określiło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "określiły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "określiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "określiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "określimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określisz", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określiwszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "określmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "określonemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "określono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "określonymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "określ"
+    pl: "Określ swoje stanowisko."
+    ru: "Определи свою позицию."
+    source: { kind: authored }
+  - form: "określ"
+    pl: "Określ termin i miejsce."
+    ru: "Определи срок и место."
+    source: { kind: authored }
+  - form: "określ"
+    pl: "Określ wielkość i kolor."
+    ru: "Укажи размер и цвет."
+    source: { kind: authored }
+  - form: "określą"
+    pl: "Określą termin."
+    ru: "Они определят срок."
+    source: { kind: authored }
+  - form: "określą"
+    pl: "Określą wysokość kary."
+    ru: "Они определят размер наказания."
+    source: { kind: authored }
+  - form: "określą"
+    pl: "Nie określą tego dokładnie."
+    ru: "Точно они этого не определят."
+    source: { kind: authored }
+  - form: "określcie"
+    pl: "Określcie swoje stanowisko."
+    ru: "Определите свою позицию."
+    source: { kind: authored }
+  - form: "określcie"
+    pl: "Określcie termin i miejsce."
+    ru: "Определите срок и место."
+    source: { kind: authored }
+  - form: "określcie"
+    pl: "Określcie wielkość i kolor."
+    ru: "Укажите размер и цвет."
+    source: { kind: authored }
+  - form: "określeni"
+    pl: "Zostali określeni jako grupa ryzyka."
+    ru: "Их определили как группу риска."
+    source: { kind: authored }
+  - form: "określeni"
+    pl: "Określeni mianem bohaterów, nie czuli się nimi."
+    ru: "Названные героями, они себя таковыми не чувствовали."
+    source: { kind: authored }
+  - form: "określeni"
+    pl: "Byli określeni w umowie z nazwiska."
+    ru: "Они были поимённо указаны в договоре."
+    source: { kind: authored }
   - form: "określenia"
     pl: "W celu określenia przyczyn wypadku była powołana komisja śledcza."
     ru: "Для определения причин происшествия была сформирована следственная комиссия."
@@ -115,6 +141,18 @@ formExamples:
     pl: "Możliwe jest określenie średnicy na podstawie obwodu?"
     ru: "Можно ли определить диаметр по длине окружности?"
     source: { kind: translated, id: 3749613 }
+  - form: "określeniem"
+    pl: "Zajmuje się określeniem przyczyny."
+    ru: "Он занимается определением причины."
+    source: { kind: authored }
+  - form: "określeniem"
+    pl: "Między nazwaniem a określeniem jest różnica."
+    ru: "Между наименованием и определением есть разница."
+    source: { kind: authored }
+  - form: "określeniem"
+    pl: "Posłużył się nietrafnym określeniem."
+    ru: "Он воспользовался неточным выражением."
+    source: { kind: authored }
   - form: "określeniu"
     pl: "Przywódcy mówili o określeniu granic państwowych."
     ru: "Лидеры говорили об определении государственных границ."
@@ -126,6 +164,42 @@ formExamples:
   - form: "określeniu"
     pl: "Problem leży w określeniu celu."
     ru: "Проблема в определении цели."
+    source: { kind: authored }
+  - form: "określę"
+    pl: "Określę termin."
+    ru: "Я определю срок."
+    source: { kind: authored }
+  - form: "określę"
+    pl: "Określę wysokość kary."
+    ru: "Я определю размер наказания."
+    source: { kind: authored }
+  - form: "określę"
+    pl: "Nie określę tego dokładnie."
+    ru: "Точно я этого не определю."
+    source: { kind: authored }
+  - form: "określi"
+    pl: "Lekarz określi przyczynę."
+    ru: "Врач определит причину."
+    source: { kind: authored }
+  - form: "określi"
+    pl: "Sąd określi wysokość kary."
+    ru: "Суд определит размер наказания."
+    source: { kind: authored }
+  - form: "określi"
+    pl: "Nikt tego nie określi dokładnie."
+    ru: "Никто этого точно не определит."
+    source: { kind: authored }
+  - form: "określicie"
+    pl: "Określicie termin?"
+    ru: "Вы определите срок?"
+    source: { kind: authored }
+  - form: "określicie"
+    pl: "Określicie wysokość kary."
+    ru: "Вы определите размер наказания."
+    source: { kind: authored }
+  - form: "określicie"
+    pl: "Nie określicie tego dokładnie."
+    ru: "Точно вы этого не определите."
     source: { kind: authored }
   - form: "określić"
     pl: "Praktycznie nie mogłem określić, kto jest kim."
@@ -139,6 +213,18 @@ formExamples:
     pl: "Trudno określić, co się stało."
     ru: "Трудно определить, что произошло."
     source: { kind: authored }
+  - form: "określili"
+    pl: "Określili termin na piątek."
+    ru: "Они назначили срок на пятницу."
+    source: { kind: authored }
+  - form: "określili"
+    pl: "Określili go jako geniusza."
+    ru: "Они назвали его гением."
+    source: { kind: authored }
+  - form: "określili"
+    pl: "Nie określili wysokości kary."
+    ru: "Они не определили размер наказания."
+    source: { kind: authored }
   - form: "określił"
     pl: "Nie określił jasno swego stanowiska."
     ru: "Он не определил ясно свою позицию."
@@ -150,6 +236,138 @@ formExamples:
   - form: "określił"
     pl: "Lekarz określił przyczynę choroby."
     ru: "Врач определил причину болезни."
+    source: { kind: authored }
+  - form: "określiła"
+    pl: "Określiła termin na piątek."
+    ru: "Она назначила срок на пятницу."
+    source: { kind: authored }
+  - form: "określiła"
+    pl: "Określiła go jako geniusza."
+    ru: "Она назвала его гением."
+    source: { kind: authored }
+  - form: "określiła"
+    pl: "Nie określiła wysokości kary."
+    ru: "Она не определила размер наказания."
+    source: { kind: authored }
+  - form: "określiłam"
+    pl: "Określiłam termin na piątek."
+    ru: "Я назначила срок на пятницу."
+    source: { kind: authored }
+  - form: "określiłam"
+    pl: "Określiłam go jako geniusza."
+    ru: "Я назвала его гением."
+    source: { kind: authored }
+  - form: "określiłam"
+    pl: "Nie określiłam wysokości kary."
+    ru: "Я не определила размер наказания."
+    source: { kind: authored }
+  - form: "określiłaś"
+    pl: "Określiłaś termin na piątek."
+    ru: "Ты назначила срок на пятницу."
+    source: { kind: authored }
+  - form: "określiłaś"
+    pl: "Określiłaś go jako geniusza."
+    ru: "Ты назвала его гением."
+    source: { kind: authored }
+  - form: "określiłaś"
+    pl: "Nie określiłaś wysokości kary."
+    ru: "Ты не определила размер наказания."
+    source: { kind: authored }
+  - form: "określiłem"
+    pl: "Określiłem termin na piątek."
+    ru: "Я назначил срок на пятницу."
+    source: { kind: authored }
+  - form: "określiłem"
+    pl: "Określiłem go jako geniusza."
+    ru: "Я назвал его гением."
+    source: { kind: authored }
+  - form: "określiłem"
+    pl: "Nie określiłem wysokości kary."
+    ru: "Я не определил размер наказания."
+    source: { kind: authored }
+  - form: "określiłeś"
+    pl: "Określiłeś termin na piątek."
+    ru: "Ты назначил срок на пятницу."
+    source: { kind: authored }
+  - form: "określiłeś"
+    pl: "Określiłeś go jako geniusza."
+    ru: "Ты назвал его гением."
+    source: { kind: authored }
+  - form: "określiłeś"
+    pl: "Nie określiłeś wysokości kary."
+    ru: "Ты не определил размер наказания."
+    source: { kind: authored }
+  - form: "określiło"
+    pl: "Ministerstwo określiło termin."
+    ru: "Министерство определило срок."
+    source: { kind: authored }
+  - form: "określiło"
+    pl: "To określiło jego los."
+    ru: "Это определило его судьбу."
+    source: { kind: authored }
+  - form: "określiło"
+    pl: "Prawo określiło wysokość kary."
+    ru: "Закон определил размер наказания."
+    source: { kind: authored }
+  - form: "określiły"
+    pl: "Przepisy określiły termin."
+    ru: "Правила определили срок."
+    source: { kind: authored }
+  - form: "określiły"
+    pl: "Te słowa określiły jego los."
+    ru: "Эти слова определили его судьбу."
+    source: { kind: authored }
+  - form: "określiły"
+    pl: "Komisje określiły wysokość kary."
+    ru: "Комиссии определили размер наказания."
+    source: { kind: authored }
+  - form: "określimy"
+    pl: "Określimy termin."
+    ru: "Мы определим срок."
+    source: { kind: authored }
+  - form: "określimy"
+    pl: "Określimy wysokość kary."
+    ru: "Мы определим размер наказания."
+    source: { kind: authored }
+  - form: "określimy"
+    pl: "Nie określimy tego dokładnie."
+    ru: "Точно мы этого не определим."
+    source: { kind: authored }
+  - form: "określisz"
+    pl: "Określisz termin?"
+    ru: "Ты определишь срок?"
+    source: { kind: authored }
+  - form: "określisz"
+    pl: "Określisz wysokość kary."
+    ru: "Ты определишь размер наказания."
+    source: { kind: authored }
+  - form: "określisz"
+    pl: "Nie określisz tego dokładnie."
+    ru: "Точно ты этого не определишь."
+    source: { kind: authored }
+  - form: "określmy"
+    pl: "Określmy swoje stanowisko."
+    ru: "Определим свою позицию."
+    source: { kind: authored }
+  - form: "określmy"
+    pl: "Określmy termin i miejsce."
+    ru: "Определим срок и место."
+    source: { kind: authored }
+  - form: "określmy"
+    pl: "Określmy wielkość i kolor."
+    ru: "Укажем размер и цвет."
+    source: { kind: authored }
+  - form: "określona"
+    pl: "Kara jest ściśle określona."
+    ru: "Наказание строго определено."
+    source: { kind: authored }
+  - form: "określona"
+    pl: "Data została określona."
+    ru: "Дата определена."
+    source: { kind: authored }
+  - form: "określona"
+    pl: "Wysokość opłaty jest określona w umowie."
+    ru: "Размер платы определён в договоре."
     source: { kind: authored }
   - form: "określoną"
     pl: "Organizmy mają określoną długość życia."
@@ -175,6 +393,18 @@ formExamples:
     pl: "Cele są już określone."
     ru: "Цели уже определены."
     source: { kind: authored }
+  - form: "określonego"
+    pl: "Nie ma tu nic ściśle określonego."
+    ru: "Здесь нет ничего строго определённого."
+    source: { kind: authored }
+  - form: "określonego"
+    pl: "Szukam terminu określonego w umowie."
+    ru: "Я ищу срок, определённый в договоре."
+    source: { kind: authored }
+  - form: "określonego"
+    pl: "Od dnia określonego w piśmie liczy się termin."
+    ru: "Со дня, указанного в письме, считается срок."
+    source: { kind: authored }
   - form: "określonej"
     pl: "Mieszkanie to nie posiadało określonej liczby pokojów."
     ru: "В этой квартире не было определённого числа комнат."
@@ -186,6 +416,18 @@ formExamples:
   - form: "określonej"
     pl: "Szukam książki o określonej tematyce."
     ru: "Я ищу книгу определённой тематики."
+    source: { kind: authored }
+  - form: "określonemu"
+    pl: "Przyjrzyj się terminowi określonemu w umowie."
+    ru: "Присмотрись к сроку, определённому в договоре."
+    source: { kind: authored }
+  - form: "określonemu"
+    pl: "Warunkowi określonemu w piśmie trudno sprostać."
+    ru: "Условию, указанному в письме, трудно соответствовать."
+    source: { kind: authored }
+  - form: "określonemu"
+    pl: "Daj pierwszeństwo celowi ściśle określonemu."
+    ru: "Отдай предпочтение строго определённой цели."
     source: { kind: authored }
   - form: "określony"
     pl: "Kiedy licznik osiągnie określony „szczęśliwy numer”, pokazuje się wiadomość."
@@ -223,3 +465,15 @@ formExamples:
     pl: "Muszę uporać się z tą pracą w określonym terminie."
     ru: "Я должен справиться с этой работой в определённый срок."
     source: { kind: translated, id: 903351 }
+  - form: "określonymi"
+    pl: "Zajmujemy się warunkami określonymi w umowie."
+    ru: "Мы занимаемся условиями, определёнными в договоре."
+    source: { kind: authored }
+  - form: "określonymi"
+    pl: "Między zasadami określonymi a domyślnymi jest różnica."
+    ru: "Между правилами определёнными и подразумеваемыми есть разница."
+    source: { kind: authored }
+  - form: "określonymi"
+    pl: "Z terminami określonymi w piśmie nie ma dyskusji."
+    ru: "Со сроками, указанными в письме, не спорят."
+    source: { kind: authored }
