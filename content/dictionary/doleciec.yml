@@ -40,28 +40,13 @@ memory: "dolecieć — «долететь», а также «донестись�
 idioms:
   - { pl: "dolecieć do celu", ru: "долететь до цели" }
 formExamplesSkip:
-  - { form: "dolecą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolecenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolecenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleceniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleceniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolecę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleciał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleciała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doleciałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "doleciałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleciałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doleciałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "doleciałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleciałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleciało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doleciałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "doleciały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "doleciałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "doleciałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -69,19 +54,204 @@ formExamplesSkip:
   - { form: "doleciałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "doleciano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "doleciawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "dolecicie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolecieli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "dolecieliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dolecielibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dolecielibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "dolecieliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "dolecieliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "dolecimy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolecisz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "doleć", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolećcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "dolećmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "dolecą"
+    pl: "Ptaki dolecą do Afryki."
+    ru: "Птицы долетят до Африки."
+    source: { kind: authored }
+  - form: "dolecą"
+    pl: "Nie dolecą bez przesiadki."
+    ru: "Без пересадки они не долетят."
+    source: { kind: authored }
+  - form: "dolecą"
+    pl: "Dźwięki dolecą z podwórka."
+    ru: "Звуки долетят со двора."
+    source: { kind: authored }
+  - form: "dolecenia"
+    pl: "Bez dolecenia na czas nic z tego."
+    ru: "Не долетев вовремя, ничего не выйдет."
+    source: { kind: authored }
+  - form: "dolecenia"
+    pl: "Od dolecenia do odprawy minęła godzina."
+    ru: "От прилёта до регистрации прошёл час."
+    source: { kind: authored }
+  - form: "dolecenia"
+    pl: "Zabrakło paliwa do dolecenia na miejsce."
+    ru: "Топлива, чтобы долететь до места, не хватило."
+    source: { kind: authored }
+  - form: "dolecenie"
+    pl: "Dolecenie tam zajmuje dwie godziny."
+    ru: "Долететь туда занимает два часа."
+    source: { kind: authored }
+  - form: "dolecenie"
+    pl: "Dolecenie na czas było cudem."
+    ru: "Долететь вовремя было чудом."
+    source: { kind: authored }
+  - form: "dolecenie"
+    pl: "Dolecenie bez przesiadki jest niemożliwe."
+    ru: "Долететь без пересадки невозможно."
+    source: { kind: authored }
+  - form: "doleceniem"
+    pl: "Przed doleceniem zapnij pasy."
+    ru: "Перед прилётом пристегни ремни."
+    source: { kind: authored }
+  - form: "doleceniem"
+    pl: "Między startem a doleceniem mijają dwie godziny."
+    ru: "Между взлётом и прилётом проходит два часа."
+    source: { kind: authored }
+  - form: "doleceniem"
+    pl: "Skończyło się doleceniem o świcie."
+    ru: "Кончилось тем, что долетели на рассвете."
+    source: { kind: authored }
+  - form: "doleceniu"
+    pl: "Po doleceniu na miejsce odpoczęli."
+    ru: "Долетев до места, они отдохнули."
+    source: { kind: authored }
+  - form: "doleceniu"
+    pl: "O doleceniu na czas nie było mowy."
+    ru: "О том, чтобы долететь вовремя, и речи не было."
+    source: { kind: authored }
+  - form: "doleceniu"
+    pl: "W doleceniu tam nie ma nic trudnego."
+    ru: "Долететь туда несложно."
+    source: { kind: authored }
+  - form: "dolecę"
+    pl: "Dolecę tam na czas."
+    ru: "Я долечу туда вовремя."
+    source: { kind: authored }
+  - form: "dolecę"
+    pl: "Nie dolecę bez przesiadki."
+    ru: "Без пересадки я не долечу."
+    source: { kind: authored }
+  - form: "dolecę"
+    pl: "Dolecę do Warszawy wieczorem."
+    ru: "Я долечу до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleci"
+    pl: "Samolot doleci o ósmej."
+    ru: "Самолёт долетит к восьми."
+    source: { kind: authored }
+  - form: "doleci"
+    pl: "Głos nie doleci tak daleko."
+    ru: "Голос так далеко не долетит."
+    source: { kind: authored }
+  - form: "doleci"
+    pl: "Zapach doleci z kuchni."
+    ru: "Запах долетит с кухни."
+    source: { kind: authored }
+  - form: "doleciał"
+    pl: "Samolot doleciał o ósmej."
+    ru: "Самолёт долетел к восьми."
+    source: { kind: authored }
+  - form: "doleciał"
+    pl: "Głos doleciał z podwórka."
+    ru: "Голос долетел со двора."
+    source: { kind: authored }
+  - form: "doleciał"
+    pl: "Nie doleciał na czas."
+    ru: "Он не долетел вовремя."
+    source: { kind: authored }
+  - form: "doleciała"
+    pl: "Wiadomość doleciała szybko."
+    ru: "Весть долетела быстро."
+    source: { kind: authored }
+  - form: "doleciała"
+    pl: "Doleciała do Warszawy wieczorem."
+    ru: "Она долетела до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleciała"
+    pl: "Nie doleciała na czas."
+    ru: "Она не долетела вовремя."
+    source: { kind: authored }
+  - form: "doleciałam"
+    pl: "Doleciałam tam na czas."
+    ru: "Я долетела туда вовремя."
+    source: { kind: authored }
+  - form: "doleciałam"
+    pl: "Doleciałam do Warszawy wieczorem."
+    ru: "Я долетела до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleciałam"
+    pl: "Nie doleciałam bez przesiadki."
+    ru: "Без пересадки я не долетела."
+    source: { kind: authored }
+  - form: "doleciałaś"
+    pl: "Doleciałaś tam na czas."
+    ru: "Ты долетела туда вовремя."
+    source: { kind: authored }
+  - form: "doleciałaś"
+    pl: "Doleciałaś do Warszawy wieczorem."
+    ru: "Ты долетела до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleciałaś"
+    pl: "Nie doleciałaś bez przesiadki."
+    ru: "Без пересадки ты не долетела."
+    source: { kind: authored }
+  - form: "doleciałem"
+    pl: "Doleciałem tam na czas."
+    ru: "Я долетел туда вовремя."
+    source: { kind: authored }
+  - form: "doleciałem"
+    pl: "Doleciałem do Warszawy wieczorem."
+    ru: "Я долетел до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleciałem"
+    pl: "Nie doleciałem bez przesiadki."
+    ru: "Без пересадки я не долетел."
+    source: { kind: authored }
+  - form: "doleciałeś"
+    pl: "Doleciałeś tam na czas."
+    ru: "Ты долетел туда вовремя."
+    source: { kind: authored }
+  - form: "doleciałeś"
+    pl: "Doleciałeś do Warszawy wieczorem."
+    ru: "Ты долетел до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleciałeś"
+    pl: "Nie doleciałeś bez przesiadki."
+    ru: "Без пересадки ты не долетел."
+    source: { kind: authored }
+  - form: "doleciało"
+    pl: "Z kuchni doleciało wołanie."
+    ru: "С кухни долетел оклик."
+    source: { kind: authored }
+  - form: "doleciało"
+    pl: "Coś doleciało z podwórka."
+    ru: "Что-то долетело со двора."
+    source: { kind: authored }
+  - form: "doleciało"
+    pl: "Nic tu nie doleciało."
+    ru: "Сюда ничего не долетело."
+    source: { kind: authored }
+  - form: "doleciały"
+    pl: "Ptaki doleciały do Afryki."
+    ru: "Птицы долетели до Африки."
+    source: { kind: authored }
+  - form: "doleciały"
+    pl: "Dźwięki doleciały z podwórka."
+    ru: "Звуки долетели со двора."
+    source: { kind: authored }
+  - form: "doleciały"
+    pl: "Samoloty doleciały o ósmej."
+    ru: "Самолёты долетели к восьми."
+    source: { kind: authored }
+  - form: "dolecicie"
+    pl: "Dolecicie tam na czas."
+    ru: "Вы долетите туда вовремя."
+    source: { kind: authored }
+  - form: "dolecicie"
+    pl: "Nie dolecicie bez przesiadki."
+    ru: "Без пересадки вы не долетите."
+    source: { kind: authored }
+  - form: "dolecicie"
+    pl: "Dolecicie do Warszawy wieczorem."
+    ru: "Вы долетите до Варшавы вечером."
+    source: { kind: authored }
   - form: "dolecieć"
     pl: "Trzeba dolecieć przed zmrokiem."
     ru: "Нужно долететь до темноты."
@@ -93,4 +263,76 @@ formExamples:
   - form: "dolecieć"
     pl: "Tak daleko trudno dolecieć."
     ru: "Так далеко трудно долететь."
+    source: { kind: authored }
+  - form: "dolecieli"
+    pl: "Dolecieli tam na czas."
+    ru: "Они долетели туда вовремя."
+    source: { kind: authored }
+  - form: "dolecieli"
+    pl: "Nie dolecieli bez przesiadki."
+    ru: "Без пересадки они не долетели."
+    source: { kind: authored }
+  - form: "dolecieli"
+    pl: "Dolecieli do Warszawy wieczorem."
+    ru: "Они долетели до Варшавы вечером."
+    source: { kind: authored }
+  - form: "dolecimy"
+    pl: "Dolecimy tam na czas."
+    ru: "Мы долетим туда вовремя."
+    source: { kind: authored }
+  - form: "dolecimy"
+    pl: "Nie dolecimy bez przesiadki."
+    ru: "Без пересадки мы не долетим."
+    source: { kind: authored }
+  - form: "dolecimy"
+    pl: "Dolecimy do Warszawy wieczorem."
+    ru: "Мы долетим до Варшавы вечером."
+    source: { kind: authored }
+  - form: "dolecisz"
+    pl: "Dolecisz tam na czas."
+    ru: "Ты долетишь туда вовремя."
+    source: { kind: authored }
+  - form: "dolecisz"
+    pl: "Nie dolecisz bez przesiadki."
+    ru: "Без пересадки ты не долетишь."
+    source: { kind: authored }
+  - form: "dolecisz"
+    pl: "Dolecisz do Warszawy wieczorem."
+    ru: "Ты долетишь до Варшавы вечером."
+    source: { kind: authored }
+  - form: "doleć"
+    pl: "Doleć tam na czas."
+    ru: "Долети туда вовремя."
+    source: { kind: authored }
+  - form: "doleć"
+    pl: "Doleć do nas na weekend."
+    ru: "Прилетай к нам на выходные."
+    source: { kind: authored }
+  - form: "doleć"
+    pl: "Doleć chociaż na jeden dzień."
+    ru: "Долети хотя бы на один день."
+    source: { kind: authored }
+  - form: "dolećcie"
+    pl: "Dolećcie tam na czas."
+    ru: "Долетите туда вовремя."
+    source: { kind: authored }
+  - form: "dolećcie"
+    pl: "Dolećcie do nas na weekend."
+    ru: "Прилетайте к нам на выходные."
+    source: { kind: authored }
+  - form: "dolećcie"
+    pl: "Dolećcie chociaż na jeden dzień."
+    ru: "Долетите хотя бы на один день."
+    source: { kind: authored }
+  - form: "dolećmy"
+    pl: "Dolećmy tam na czas."
+    ru: "Долетим туда вовремя."
+    source: { kind: authored }
+  - form: "dolećmy"
+    pl: "Dolećmy do nich na weekend."
+    ru: "Слетаем к ним на выходные."
+    source: { kind: authored }
+  - form: "dolećmy"
+    pl: "Dolećmy chociaż na jeden dzień."
+    ru: "Долетим хотя бы на один день."
     source: { kind: authored }
