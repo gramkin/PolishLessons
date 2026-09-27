@@ -41,12 +41,32 @@ idioms:
   - { pl: "rozwiązać zagadkę", ru: "разгадать загадку" }
   - { pl: "mówić zagadkami", ru: "говорить загадками" }
 formExamplesSkip:
-  - { form: "zagadce", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagadek", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagadkach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagadko", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zagadkom", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "zagadko", reason: "звательная форма, а zagadka — это загадка. Обращаться к ней некому, поэтому форма остаётся только в таблице склонения" }
 formExamples:
+  - form: "zagadce"
+    pl: "W tej zagadce jest haczyk."
+    ru: "В этой загадке есть подвох."
+    source: { kind: authored }
+  - form: "zagadce"
+    pl: "O tej zagadce mówi cała klasa."
+    ru: "Об этой загадке говорит весь класс."
+    source: { kind: authored }
+  - form: "zagadce"
+    pl: "Przyjrzyj się tej zagadce."
+    ru: "Присмотрись к этой загадке."
+    source: { kind: authored }
+  - form: "zagadek"
+    pl: "Nie ma tu zagadek."
+    ru: "Здесь нет загадок."
+    source: { kind: authored }
+  - form: "zagadek"
+    pl: "Książka jest pełna zagadek."
+    ru: "Книга полна загадок."
+    source: { kind: authored }
+  - form: "zagadek"
+    pl: "Od zagadek boli głowa."
+    ru: "От загадок болит голова."
+    source: { kind: authored }
   - form: "zagadka"
     pl: "W jego słowach kryje się jakaś zagadka."
     ru: "В его словах кроется какая-то загадка."
@@ -59,6 +79,18 @@ formExamples:
     pl: "Czy to zagadka?"
     ru: "Это загадка?"
     source: { kind: translated, id: 2139096 }
+  - form: "zagadkach"
+    pl: "W tych zagadkach jest logika."
+    ru: "В этих загадках есть логика."
+    source: { kind: authored }
+  - form: "zagadkach"
+    pl: "O tych zagadkach mówił nauczyciel."
+    ru: "Об этих загадках говорил учитель."
+    source: { kind: authored }
+  - form: "zagadkach"
+    pl: "W dziecięcych zagadkach bywa poezja."
+    ru: "В детских загадках бывает поэзия."
+    source: { kind: authored }
   - form: "zagadkami"
     pl: "Nie mów zagadkami."
     ru: "Не говорите загадками."
@@ -107,3 +139,15 @@ formExamples:
     pl: "Ja potrafię przedstawić rozwiązanie zagadki."
     ru: "Я могу представить решение загадки."
     source: { kind: translated, id: 2970133 }
+  - form: "zagadkom"
+    pl: "Przyjrzyj się tym zagadkom."
+    ru: "Присмотрись к этим загадкам."
+    source: { kind: authored }
+  - form: "zagadkom"
+    pl: "Zagadkom nie było końca."
+    ru: "Загадкам не было конца."
+    source: { kind: authored }
+  - form: "zagadkom"
+    pl: "Dzięki zagadkom dzieci ćwiczą myślenie."
+    ru: "Благодаря загадкам дети тренируют мышление."
+    source: { kind: authored }
