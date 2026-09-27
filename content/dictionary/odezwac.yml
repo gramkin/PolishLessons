@@ -50,30 +50,17 @@ formExamplesSkip:
   - { form: "odezwałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odezwałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odezwałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odezwałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "odezwałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "odezwałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odezwania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "odezwano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "odezwawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "odezwiecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwiemy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwiesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwijcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "odezwijmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "odezwać"
     pl: "Boisz się odezwać?"
@@ -135,6 +122,18 @@ formExamples:
     pl: "Nie odezwałam się ani słowem."
     ru: "Я не сказала ни слова."
     source: { kind: authored }
+  - form: "odezwałaś"
+    pl: "Nie odezwałaś się ani słowem."
+    ru: "Ты и словом не отозвалась."
+    source: { kind: authored }
+  - form: "odezwałaś"
+    pl: "Odezwałaś się dopiero wieczorem."
+    ru: "Ты отозвалась только вечером."
+    source: { kind: authored }
+  - form: "odezwałaś"
+    pl: "Czemu się nie odezwałaś?"
+    ru: "Почему ты не отозвалась?"
+    source: { kind: authored }
   - form: "odezwałem"
     pl: "Nie wiedziałem co powiedzieć, więc nie odezwałem się wcale."
     ru: "Я не знал, что сказать, поэтому вовсе не подал голоса."
@@ -146,6 +145,90 @@ formExamples:
   - form: "odezwałem"
     pl: "Odezwałem się pierwszy."
     ru: "Я заговорил первым."
+    source: { kind: authored }
+  - form: "odezwałeś"
+    pl: "Nie odezwałeś się ani słowem."
+    ru: "Ты и словом не отозвался."
+    source: { kind: authored }
+  - form: "odezwałeś"
+    pl: "Odezwałeś się dopiero wieczorem."
+    ru: "Ты отозвался только вечером."
+    source: { kind: authored }
+  - form: "odezwałeś"
+    pl: "Czemu się nie odezwałeś?"
+    ru: "Почему ты не отозвался?"
+    source: { kind: authored }
+  - form: "odezwało"
+    pl: "Dziecko odezwało się z kąta."
+    ru: "Ребёнок отозвался из угла."
+    source: { kind: authored }
+  - form: "odezwało"
+    pl: "Coś odezwało się w ciemności."
+    ru: "Что-то отозвалось в темноте."
+    source: { kind: authored }
+  - form: "odezwało"
+    pl: "Sumienie się odezwało."
+    ru: "Совесть отозвалась."
+    source: { kind: authored }
+  - form: "odezwały"
+    pl: "Dzwony odezwały się o świcie."
+    ru: "Колокола отозвались на рассвете."
+    source: { kind: authored }
+  - form: "odezwały"
+    pl: "Dzieci odezwały się z ogrodu."
+    ru: "Дети отозвались из сада."
+    source: { kind: authored }
+  - form: "odezwały"
+    pl: "Nie odezwały się ani słowem."
+    ru: "Они и словом не отозвались."
+    source: { kind: authored }
+  - form: "odezwania"
+    pl: "Bez odezwania się nic nie załatwisz."
+    ru: "Не отозвавшись, ничего не решишь."
+    source: { kind: authored }
+  - form: "odezwania"
+    pl: "Od odezwania się zależy wszystko."
+    ru: "От того, отзовёшься ли, зависит всё."
+    source: { kind: authored }
+  - form: "odezwania"
+    pl: "Nie doczekał się odezwania."
+    ru: "Он так и не дождался отклика."
+    source: { kind: authored }
+  - form: "odezwanie"
+    pl: "Odezwanie się do niego kosztowało ją wiele."
+    ru: "Заговорить с ним стоило ей многого."
+    source: { kind: authored }
+  - form: "odezwanie"
+    pl: "Odezwanie się w porę bywa trudne."
+    ru: "Отозваться вовремя бывает трудно."
+    source: { kind: authored }
+  - form: "odezwanie"
+    pl: "Odezwanie się pierwszym to odwaga."
+    ru: "Отозваться первым — это смелость."
+    source: { kind: authored }
+  - form: "odezwaniem"
+    pl: "Zaskoczył nas odezwaniem się po latach."
+    ru: "Он удивил нас, отозвавшись спустя годы."
+    source: { kind: authored }
+  - form: "odezwaniem"
+    pl: "Między milczeniem a odezwaniem jest różnica."
+    ru: "Между молчанием и откликом есть разница."
+    source: { kind: authored }
+  - form: "odezwaniem"
+    pl: "Skończyło się odezwaniem po latach."
+    ru: "Кончилось откликом спустя годы."
+    source: { kind: authored }
+  - form: "odezwaniu"
+    pl: "Po odezwaniu się zapadła cisza."
+    ru: "После отклика наступила тишина."
+    source: { kind: authored }
+  - form: "odezwaniu"
+    pl: "O jego odezwaniu się mówiła cała rodzina."
+    ru: "О его отклике говорила вся семья."
+    source: { kind: authored }
+  - form: "odezwaniu"
+    pl: "W tym odezwaniu było coś ciepłego."
+    ru: "В этом отклике было что-то тёплое."
     source: { kind: authored }
   - form: "odezwą"
     pl: "Uderz w stół, a nożyce się odezwą."
@@ -183,6 +266,42 @@ formExamples:
     pl: "Sami czekał aż Layla się odezwie, lecz nic nie odrzekła."
     ru: "Сами ждал, пока Лейла заговорит, но она ничего не ответила."
     source: { kind: translated, id: 13866376 }
+  - form: "odezwiecie"
+    pl: "Odezwiecie się jutro?"
+    ru: "Вы дадите о себе знать завтра?"
+    source: { kind: authored }
+  - form: "odezwiecie"
+    pl: "Nie odezwiecie się pierwsi."
+    ru: "Вы не отзовётесь первыми."
+    source: { kind: authored }
+  - form: "odezwiecie"
+    pl: "Kiedy się odezwiecie?"
+    ru: "Когда вы отзовётесь?"
+    source: { kind: authored }
+  - form: "odezwiemy"
+    pl: "Odezwiemy się jutro."
+    ru: "Мы дадим о себе знать завтра."
+    source: { kind: authored }
+  - form: "odezwiemy"
+    pl: "Nie odezwiemy się pierwsi."
+    ru: "Мы не отзовёмся первыми."
+    source: { kind: authored }
+  - form: "odezwiemy"
+    pl: "Wkrótce się odezwiemy."
+    ru: "Мы скоро отзовёмся."
+    source: { kind: authored }
+  - form: "odezwiesz"
+    pl: "Odezwiesz się jutro?"
+    ru: "Ты дашь о себе знать завтра?"
+    source: { kind: authored }
+  - form: "odezwiesz"
+    pl: "Nie odezwiesz się słowem."
+    ru: "Ты и словом не отзовёшься."
+    source: { kind: authored }
+  - form: "odezwiesz"
+    pl: "Kiedy się odezwiesz?"
+    ru: "Когда ты отзовёшься?"
+    source: { kind: authored }
   - form: "odezwij"
     pl: "Odezwij się czasem, napisz co słychać."
     ru: "Давай о себе знать, пиши, как дела."
@@ -194,4 +313,28 @@ formExamples:
   - form: "odezwij"
     pl: "Odezwij się, gdy dojedziesz."
     ru: "Дай о себе знать, когда доедешь."
+    source: { kind: authored }
+  - form: "odezwijcie"
+    pl: "Odezwijcie się, kiedy dotrzecie."
+    ru: "Дайте о себе знать, когда доберётесь."
+    source: { kind: authored }
+  - form: "odezwijcie"
+    pl: "Odezwijcie się choć słowem."
+    ru: "Отзовитесь хоть словом."
+    source: { kind: authored }
+  - form: "odezwijcie"
+    pl: "Odezwijcie się jutro."
+    ru: "Отзовитесь завтра."
+    source: { kind: authored }
+  - form: "odezwijmy"
+    pl: "Odezwijmy się do nich."
+    ru: "Дадим им о себе знать."
+    source: { kind: authored }
+  - form: "odezwijmy"
+    pl: "Odezwijmy się choć słowem."
+    ru: "Отзовёмся хоть словом."
+    source: { kind: authored }
+  - form: "odezwijmy"
+    pl: "Odezwijmy się jutro."
+    ru: "Отзовёмся завтра."
     source: { kind: authored }

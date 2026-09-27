@@ -50,13 +50,8 @@ formExamplesSkip:
   - { form: "najniedorzeczniejszych", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najniedorzeczniejszym", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najniedorzeczniejszymi", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "niedorzeczna", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzeczną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzeczni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzeczniejsi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "niedorzeczni", reason: "мужско-личная форма, а niedorzeczny описывает замысел, довод, слух или историю: niedorzeczny pomysł, niedorzeczny zarzut. Карточка не называет так людей, поэтому формы нет" }
+  - { form: "niedorzeczniejsi", reason: "мужско-личная форма, а niedorzeczny описывает замысел, довод, слух или историю: niedorzeczny pomysł, niedorzeczny zarzut. Карточка не называет так людей, поэтому формы нет. Сравнительная степень у слова есть, но она тоже не о людях" }
   - { form: "niedorzeczniejsza", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "niedorzeczniejszą", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "niedorzeczniejsze", reason: "сравнительная степень; в корпусе примеров нет" }
@@ -67,11 +62,31 @@ formExamplesSkip:
   - { form: "niedorzeczniejszych", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "niedorzeczniejszym", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "niedorzeczniejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "niedorzeczny", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "niedorzecznymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "niedorzeczna"
+    pl: "To niedorzeczna historia."
+    ru: "Это нелепая история."
+    source: { kind: authored }
+  - form: "niedorzeczna"
+    pl: "Jej wymówka była niedorzeczna."
+    ru: "Её отговорка была нелепой."
+    source: { kind: authored }
+  - form: "niedorzeczna"
+    pl: "Niedorzeczna plotka obiegła wieś."
+    ru: "Нелепая сплетня обошла деревню."
+    source: { kind: authored }
+  - form: "niedorzeczną"
+    pl: "Znam tę niedorzeczną historię."
+    ru: "Я знаю эту нелепую историю."
+    source: { kind: authored }
+  - form: "niedorzeczną"
+    pl: "Uznano plotkę za niedorzeczną."
+    ru: "Сплетню сочли нелепой."
+    source: { kind: authored }
+  - form: "niedorzeczną"
+    pl: "Widzieliśmy niedorzeczną scenę."
+    ru: "Мы видели нелепую сцену."
+    source: { kind: authored }
   - form: "niedorzeczne"
     pl: "Ale niedorzeczne!"
     ru: "Какая нелепость!"
@@ -83,4 +98,88 @@ formExamples:
   - form: "niedorzeczne"
     pl: "Niedorzeczne zarzuty odrzucono."
     ru: "Несуразные обвинения отвергли."
+    source: { kind: authored }
+  - form: "niedorzecznego"
+    pl: "Nie ma w tym nic niedorzecznego."
+    ru: "В этом нет ничего нелепого."
+    source: { kind: authored }
+  - form: "niedorzecznego"
+    pl: "Nie słuchaj niedorzecznego gadania."
+    ru: "Не слушай нелепой болтовни."
+    source: { kind: authored }
+  - form: "niedorzecznego"
+    pl: "Od niedorzecznego pomysłu się zaczęło."
+    ru: "С нелепой затеи всё началось."
+    source: { kind: authored }
+  - form: "niedorzecznej"
+    pl: "Nie wierz tej niedorzecznej plotce."
+    ru: "Не верь этой нелепой сплетне."
+    source: { kind: authored }
+  - form: "niedorzecznej"
+    pl: "W niedorzecznej historii był ślad prawdy."
+    ru: "В нелепой истории был след правды."
+    source: { kind: authored }
+  - form: "niedorzecznej"
+    pl: "Dzięki niedorzecznej wymówce się wykręcił."
+    ru: "Благодаря нелепой отговорке он выкрутился."
+    source: { kind: authored }
+  - form: "niedorzecznemu"
+    pl: "Przyjrzyj się temu niedorzecznemu pomysłowi."
+    ru: "Присмотрись к этой нелепой затее."
+    source: { kind: authored }
+  - form: "niedorzecznemu"
+    pl: "Niedorzecznemu zarzutowi nikt nie dał wiary."
+    ru: "Нелепому упрёку никто не поверил."
+    source: { kind: authored }
+  - form: "niedorzecznemu"
+    pl: "Nie ulegaj niedorzecznemu strachowi."
+    ru: "Не поддавайся нелепому страху."
+    source: { kind: authored }
+  - form: "niedorzeczny"
+    pl: "To niedorzeczny pomysł."
+    ru: "Это нелепая затея."
+    source: { kind: authored }
+  - form: "niedorzeczny"
+    pl: "Jego zarzut był niedorzeczny."
+    ru: "Его упрёк был нелепым."
+    source: { kind: authored }
+  - form: "niedorzeczny"
+    pl: "Niedorzeczny plan upadł."
+    ru: "Нелепый план провалился."
+    source: { kind: authored }
+  - form: "niedorzecznych"
+    pl: "Nie ma tu niedorzecznych pomysłów."
+    ru: "Здесь нет нелепых затей."
+    source: { kind: authored }
+  - form: "niedorzecznych"
+    pl: "Wśród niedorzecznych zarzutów był jeden słuszny."
+    ru: "Среди нелепых упрёков был один справедливый."
+    source: { kind: authored }
+  - form: "niedorzecznych"
+    pl: "Od niedorzecznych plotek zaczęła się afera."
+    ru: "С нелепых сплетен началась история."
+    source: { kind: authored }
+  - form: "niedorzecznym"
+    pl: "W niedorzecznym planie był jeden dobry punkt."
+    ru: "В нелепом плане был один хороший пункт."
+    source: { kind: authored }
+  - form: "niedorzecznym"
+    pl: "Niedorzecznym zarzutom nikt nie dał wiary."
+    ru: "Нелепым упрёкам никто не поверил."
+    source: { kind: authored }
+  - form: "niedorzecznym"
+    pl: "Z niedorzecznym pomysłem trudno dyskutować."
+    ru: "С нелепой затеей трудно спорить."
+    source: { kind: authored }
+  - form: "niedorzecznymi"
+    pl: "Między sensownymi a niedorzecznymi pomysłami jest przepaść."
+    ru: "Между разумными и нелепыми затеями пропасть."
+    source: { kind: authored }
+  - form: "niedorzecznymi"
+    pl: "Zajmuje się niedorzecznymi teoriami."
+    ru: "Он занимается нелепыми теориями."
+    source: { kind: authored }
+  - form: "niedorzecznymi"
+    pl: "Zmęczył nas niedorzecznymi pytaniami."
+    ru: "Он утомил нас нелепыми вопросами."
     source: { kind: authored }

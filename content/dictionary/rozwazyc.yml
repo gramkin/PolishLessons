@@ -67,12 +67,9 @@ idioms:
   - { pl: "warto rozważyć", ru: "стоит обдумать" }
   - { pl: "wszystko rozważywszy", ru: "взвесив всё" }
 formExamplesSkip:
-  - { form: "rozważą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozważcie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważeni", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "rozważenie", reason: "отглагольное существительное; в корпусе примеров нет" }
   - { form: "rozważeniem", reason: "отглагольное существительное; в корпусе примеров нет" }
-  - { form: "rozważę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważona", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "rozważoną", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "rozważone", reason: "причастная форма; в корпусе примеров нет" }
@@ -84,32 +81,23 @@ formExamplesSkip:
   - { form: "rozważonych", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "rozważonym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "rozważonymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "rozważy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozważycie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "rozważyliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "rozważyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "rozważyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozważyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "rozważyłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "rozważyło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "rozważyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "rozważyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "rozważyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "rozważymy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "rozważywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
   - form: "rozważ"
@@ -123,6 +111,30 @@ formExamples:
   - form: "rozważ"
     pl: "Rozważ to spokojnie."
     ru: "Обдумай это спокойно."
+    source: { kind: authored }
+  - form: "rozważą"
+    pl: "Rozważą twoją propozycję."
+    ru: "Они обдумают твоё предложение."
+    source: { kind: authored }
+  - form: "rozważą"
+    pl: "Jeszcze to rozważą."
+    ru: "Они это ещё обдумают."
+    source: { kind: authored }
+  - form: "rozważą"
+    pl: "Nie rozważą tego dziś."
+    ru: "Сегодня они это обдумывать не станут."
+    source: { kind: authored }
+  - form: "rozważcie"
+    pl: "Rozważcie to spokojnie."
+    ru: "Обдумайте это спокойно."
+    source: { kind: authored }
+  - form: "rozważcie"
+    pl: "Rozważcie wszystkie za i przeciw."
+    ru: "Взвесьте все за и против."
+    source: { kind: authored }
+  - form: "rozważcie"
+    pl: "Rozważcie jeszcze raz."
+    ru: "Обдумайте ещё раз."
     source: { kind: authored }
   - form: "rozważenia"
     pl: "Ta oferta jest warta rozważenia."
@@ -148,6 +160,18 @@ formExamples:
     pl: "Po dłuższym rozważeniu zgodziłem się."
     ru: "После долгих раздумий я согласился."
     source: { kind: authored }
+  - form: "rozważę"
+    pl: "Rozważę twoją propozycję."
+    ru: "Я обдумаю твоё предложение."
+    source: { kind: authored }
+  - form: "rozważę"
+    pl: "Jeszcze to rozważę."
+    ru: "Я это ещё обдумаю."
+    source: { kind: authored }
+  - form: "rozważę"
+    pl: "Nie rozważę tego dziś."
+    ru: "Сегодня я это обдумывать не стану."
+    source: { kind: authored }
   - form: "rozważmy"
     pl: "Rozważmy to jeszcze raz."
     ru: "Давайте обдумаем это ещё раз."
@@ -160,6 +184,30 @@ formExamples:
     pl: "Rozważmy, co może się wydarzyć najgorszego."
     ru: "Обдумаем, что худшего может случиться."
     source: { kind: translated, id: 600676 }
+  - form: "rozważy"
+    pl: "Sąd rozważy wniosek."
+    ru: "Суд рассмотрит ходатайство."
+    source: { kind: authored }
+  - form: "rozważy"
+    pl: "Rozważy propozycję do jutra."
+    ru: "Он обдумает предложение до завтра."
+    source: { kind: authored }
+  - form: "rozważy"
+    pl: "Nikt tego nie rozważy poważnie."
+    ru: "Никто не отнесётся к этому всерьёз."
+    source: { kind: authored }
+  - form: "rozważycie"
+    pl: "Rozważycie moją propozycję?"
+    ru: "Вы обдумаете моё предложение?"
+    source: { kind: authored }
+  - form: "rozważycie"
+    pl: "Jeszcze to rozważycie."
+    ru: "Вы это ещё обдумаете."
+    source: { kind: authored }
+  - form: "rozważycie"
+    pl: "Nie rozważycie tego dziś?"
+    ru: "Сегодня вы это обдумывать не станете?"
+    source: { kind: authored }
   - form: "rozważyć"
     pl: "Jego teorię warto rozważyć."
     ru: "Его теорию стоит рассмотреть."
@@ -196,6 +244,42 @@ formExamples:
     pl: "Dyrektor rozważył naszą prośbę."
     ru: "Директор рассмотрел нашу просьбу."
     source: { kind: authored }
+  - form: "rozważyła"
+    pl: "Rozważyła propozycję i odmówiła."
+    ru: "Она обдумала предложение и отказалась."
+    source: { kind: authored }
+  - form: "rozważyła"
+    pl: "Nie rozważyła wszystkich możliwości."
+    ru: "Она обдумала не все возможности."
+    source: { kind: authored }
+  - form: "rozważyła"
+    pl: "Rozważyła to spokojnie."
+    ru: "Она обдумала это спокойно."
+    source: { kind: authored }
+  - form: "rozważyłam"
+    pl: "Rozważyłam propozycję i odmówiłam."
+    ru: "Я обдумала предложение и отказалась."
+    source: { kind: authored }
+  - form: "rozważyłam"
+    pl: "Nie rozważyłam wszystkich możliwości."
+    ru: "Я обдумала не все возможности."
+    source: { kind: authored }
+  - form: "rozważyłam"
+    pl: "Rozważyłam to spokojnie."
+    ru: "Я обдумала это спокойно."
+    source: { kind: authored }
+  - form: "rozważyłaś"
+    pl: "Rozważyłaś propozycję?"
+    ru: "Ты обдумала предложение?"
+    source: { kind: authored }
+  - form: "rozważyłaś"
+    pl: "Nie rozważyłaś wszystkich możliwości."
+    ru: "Ты обдумала не все возможности."
+    source: { kind: authored }
+  - form: "rozważyłaś"
+    pl: "Rozważyłaś to spokojnie."
+    ru: "Ты обдумала это спокойно."
+    source: { kind: authored }
   - form: "rozważyłem"
     pl: "Rozważyłem różne czynniki zanim podjąłem działania."
     ru: "Я взвесил разные обстоятельства, прежде чем начать действовать."
@@ -207,6 +291,54 @@ formExamples:
   - form: "rozważyłem"
     pl: "Rozważyłem to jeszcze raz."
     ru: "Я обдумал это ещё раз."
+    source: { kind: authored }
+  - form: "rozważyłeś"
+    pl: "Rozważyłeś propozycję?"
+    ru: "Ты обдумал предложение?"
+    source: { kind: authored }
+  - form: "rozważyłeś"
+    pl: "Nie rozważyłeś wszystkich możliwości."
+    ru: "Ты обдумал не все возможности."
+    source: { kind: authored }
+  - form: "rozważyłeś"
+    pl: "Rozważyłeś to spokojnie."
+    ru: "Ты обдумал это спокойно."
+    source: { kind: authored }
+  - form: "rozważyło"
+    pl: "Ministerstwo rozważyło wniosek."
+    ru: "Министерство рассмотрело ходатайство."
+    source: { kind: authored }
+  - form: "rozważyło"
+    pl: "Żadne z nich nie rozważyło konsekwencji."
+    ru: "Никто из них не обдумал последствий."
+    source: { kind: authored }
+  - form: "rozważyło"
+    pl: "Miasto rozważyło kilka wariantów."
+    ru: "Город рассмотрел несколько вариантов."
+    source: { kind: authored }
+  - form: "rozważyły"
+    pl: "Firmy rozważyły ofertę."
+    ru: "Фирмы рассмотрели предложение."
+    source: { kind: authored }
+  - form: "rozważyły"
+    pl: "Strony rozważyły warunki."
+    ru: "Стороны обдумали условия."
+    source: { kind: authored }
+  - form: "rozważyły"
+    pl: "Nie rozważyły wszystkich możliwości."
+    ru: "Они обдумали не все возможности."
+    source: { kind: authored }
+  - form: "rozważymy"
+    pl: "Rozważymy twoją propozycję."
+    ru: "Мы обдумаем твоё предложение."
+    source: { kind: authored }
+  - form: "rozważymy"
+    pl: "Jeszcze to rozważymy."
+    ru: "Мы это ещё обдумаем."
+    source: { kind: authored }
+  - form: "rozważymy"
+    pl: "Nie rozważymy tego dziś."
+    ru: "Сегодня мы это обдумывать не станем."
     source: { kind: authored }
   - form: "rozważysz"
     pl: "Czy rozważysz kiedyś wyjście razem ze mną?"
