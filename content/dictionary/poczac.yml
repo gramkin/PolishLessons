@@ -42,18 +42,9 @@ idioms:
   - { pl: "co począć?", ru: "что делать?" }
   - { pl: "począwszy od", ru: "начиная с" }
 formExamplesSkip:
-  - { form: "począł", reason: "в корпусе нет примеров для этой формы" }
   - { form: "począłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "począłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "począłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "począłem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "począłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęci", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęcia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęciem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęciu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poczęliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęlibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęlibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -62,29 +53,12 @@ formExamplesSkip:
   - { form: "poczęłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęło", reason: "в корпусе нет примеров для этой формы" }
   - { form: "poczęłoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "poczęłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "poczęłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "poczęta", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęte", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęto", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczęty", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "poczętymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pocznij", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pocznijcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "pocznijmy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "począć"
     pl: "Co począć?"
@@ -98,6 +72,42 @@ formExamples:
     pl: "Cóż ja mam począć?"
     ru: "Что же мне делать?"
     source: { kind: translated, id: 4740494 }
+  - form: "począł"
+    pl: "Począł mówić powoli."
+    ru: "Он начал говорить медленно."
+    source: { kind: authored }
+  - form: "począł"
+    pl: "Deszcz począł padać."
+    ru: "Дождь начал идти."
+    source: { kind: authored }
+  - form: "począł"
+    pl: "Począł od początku."
+    ru: "Он начал с начала."
+    source: { kind: authored }
+  - form: "począłem"
+    pl: "Począłem mówić powoli."
+    ru: "Я начал говорить медленно."
+    source: { kind: authored }
+  - form: "począłem"
+    pl: "Począłem od początku."
+    ru: "Я начал с начала."
+    source: { kind: authored }
+  - form: "począłem"
+    pl: "Nie począłem jeszcze pracy."
+    ru: "Я ещё не начал работу."
+    source: { kind: authored }
+  - form: "począłeś"
+    pl: "Począłeś mówić powoli."
+    ru: "Ты начал говорить медленно."
+    source: { kind: authored }
+  - form: "począłeś"
+    pl: "Począłeś od początku."
+    ru: "Ты начал с начала."
+    source: { kind: authored }
+  - form: "począłeś"
+    pl: "Nie począłeś jeszcze pracy."
+    ru: "Ты ещё не начал работу."
+    source: { kind: authored }
   - form: "począwszy"
     pl: "Przewiduje się znaczące zmiany w prawie podatkowym począwszy od następnego roku."
     ru: "Предвидятся значительные изменения в налоговом праве начиная с января."
@@ -109,6 +119,78 @@ formExamples:
   - form: "począwszy"
     pl: "Począwszy od dziś obowiązują nowe zasady."
     ru: "Начиная с сегодняшнего дня действуют новые правила."
+    source: { kind: authored }
+  - form: "poczęci"
+    pl: "Poczęci tego samego roku, są prawie rówieśnikami."
+    ru: "Зачатые в один год, они почти ровесники."
+    source: { kind: authored }
+  - form: "poczęci"
+    pl: "Bliźniacy poczęci naturalnie urodzili się zdrowi."
+    ru: "Близнецы, зачатые естественно, родились здоровыми."
+    source: { kind: authored }
+  - form: "poczęci"
+    pl: "Poczęci wiosną, przyszli na świat zimą."
+    ru: "Зачатые весной, они появились на свет зимой."
+    source: { kind: authored }
+  - form: "poczęcia"
+    pl: "Od poczęcia minęło dziewięć miesięcy."
+    ru: "С зачатия прошло девять месяцев."
+    source: { kind: authored }
+  - form: "poczęcia"
+    pl: "Święto Niepokalanego Poczęcia wypada w grudniu."
+    ru: "Праздник Непорочного зачатия приходится на декабрь."
+    source: { kind: authored }
+  - form: "poczęcia"
+    pl: "Data poczęcia jest nieznana."
+    ru: "Дата зачатия неизвестна."
+    source: { kind: authored }
+  - form: "poczęcie"
+    pl: "Poczęcie dziecka to początek."
+    ru: "Зачатие ребёнка — это начало."
+    source: { kind: authored }
+  - form: "poczęcie"
+    pl: "Niepokalane Poczęcie jest świętem grudniowym."
+    ru: "Непорочное зачатие — декабрьский праздник."
+    source: { kind: authored }
+  - form: "poczęcie"
+    pl: "Poczęcie i narodziny dzieli dziewięć miesięcy."
+    ru: "Зачатие и рождение разделяют девять месяцев."
+    source: { kind: authored }
+  - form: "poczęciem"
+    pl: "Między poczęciem a narodzinami mija dziewięć miesięcy."
+    ru: "Между зачатием и рождением проходит девять месяцев."
+    source: { kind: authored }
+  - form: "poczęciem"
+    pl: "Zajmuje się poczęciem i rozwojem zarodka."
+    ru: "Он занимается зачатием и развитием зародыша."
+    source: { kind: authored }
+  - form: "poczęciem"
+    pl: "Przed poczęciem warto zbadać zdrowie."
+    ru: "Перед зачатием стоит проверить здоровье."
+    source: { kind: authored }
+  - form: "poczęciu"
+    pl: "O poczęciu mówi się w podręczniku biologii."
+    ru: "О зачатии говорится в учебнике биологии."
+    source: { kind: authored }
+  - form: "poczęciu"
+    pl: "Po poczęciu zarodek rośnie szybko."
+    ru: "После зачатия зародыш растёт быстро."
+    source: { kind: authored }
+  - form: "poczęciu"
+    pl: "W poczęciu nie ma nic tajemniczego."
+    ru: "В зачатии нет ничего таинственного."
+    source: { kind: authored }
+  - form: "poczęli"
+    pl: "Poczęli mówić powoli."
+    ru: "Они начали говорить медленно."
+    source: { kind: authored }
+  - form: "poczęli"
+    pl: "Poczęli od początku."
+    ru: "Они начали с начала."
+    source: { kind: authored }
+  - form: "poczęli"
+    pl: "Poczęli budować dom."
+    ru: "Они начали строить дом."
     source: { kind: authored }
   - form: "poczęła"
     pl: "Sława Cycerona poczęła rosnąć."
@@ -122,6 +204,42 @@ formExamples:
     pl: "Woda poczęła wrzeć."
     ru: "Вода начала кипеть."
     source: { kind: authored }
+  - form: "poczęłam"
+    pl: "Poczęłam mówić powoli."
+    ru: "Я начала говорить медленно."
+    source: { kind: authored }
+  - form: "poczęłam"
+    pl: "Poczęłam od początku."
+    ru: "Я начала с начала."
+    source: { kind: authored }
+  - form: "poczęłam"
+    pl: "Nie poczęłam jeszcze pracy."
+    ru: "Я ещё не начала работу."
+    source: { kind: authored }
+  - form: "poczęłaś"
+    pl: "Poczęłaś mówić powoli."
+    ru: "Ты начала говорить медленно."
+    source: { kind: authored }
+  - form: "poczęłaś"
+    pl: "Poczęłaś od początku."
+    ru: "Ты начала с начала."
+    source: { kind: authored }
+  - form: "poczęłaś"
+    pl: "Nie poczęłaś jeszcze pracy."
+    ru: "Ты ещё не начала работу."
+    source: { kind: authored }
+  - form: "poczęło"
+    pl: "Dziecko poczęło płakać."
+    ru: "Ребёнок начал плакать."
+    source: { kind: authored }
+  - form: "poczęło"
+    pl: "Niebo poczęło się chmurzyć."
+    ru: "Небо начало хмуриться."
+    source: { kind: authored }
+  - form: "poczęło"
+    pl: "Wszystko poczęło się od drobiazgu."
+    ru: "Всё началось с мелочи."
+    source: { kind: authored }
   - form: "poczęły"
     pl: "Liście drzew poczęły żółknąć."
     ru: "Листья деревьев начали желтеть."
@@ -133,6 +251,138 @@ formExamples:
   - form: "poczęły"
     pl: "Chmury poczęły się rozchodzić."
     ru: "Тучи начали расходиться."
+    source: { kind: authored }
+  - form: "poczęta"
+    pl: "Dziewczynka została poczęta wiosną."
+    ru: "Девочка была зачата весной."
+    source: { kind: authored }
+  - form: "poczęta"
+    pl: "Myśl poczęta w pośpiechu rzadko jest dobra."
+    ru: "Мысль, зачатая в спешке, редко бывает хорошей."
+    source: { kind: authored }
+  - form: "poczęta"
+    pl: "Idea poczęta na marginesie okazała się ważna."
+    ru: "Идея, зародившаяся на полях, оказалась важной."
+    source: { kind: authored }
+  - form: "poczętą"
+    pl: "Znam myśl poczętą w tamtych latach."
+    ru: "Я знаю мысль, зародившуюся в те годы."
+    source: { kind: authored }
+  - form: "poczętą"
+    pl: "Uznano ideę za poczętą pochopnie."
+    ru: "Идею сочли зародившейся опрометчиво."
+    source: { kind: authored }
+  - form: "poczętą"
+    pl: "Opisał pracę poczętą przed wojną."
+    ru: "Он описал работу, начатую до войны."
+    source: { kind: authored }
+  - form: "poczęte"
+    pl: "Dziecko poczęte wiosną urodzi się zimą."
+    ru: "Ребёнок, зачатый весной, родится зимой."
+    source: { kind: authored }
+  - form: "poczęte"
+    pl: "Poczęte plany trzeba dokończyć."
+    ru: "Начатые планы надо довести до конца."
+    source: { kind: authored }
+  - form: "poczęte"
+    pl: "Dzieci poczęte tego roku są liczne."
+    ru: "Детей, зачатых в этом году, много."
+    source: { kind: authored }
+  - form: "poczętego"
+    pl: "Nie ma tu nic poczętego w pośpiechu."
+    ru: "Здесь нет ничего начатого в спешке."
+    source: { kind: authored }
+  - form: "poczętego"
+    pl: "Szukam planu poczętego przed laty."
+    ru: "Я ищу план, начатый много лет назад."
+    source: { kind: authored }
+  - form: "poczętego"
+    pl: "Od dzieła poczętego w gniewie nie oczekuj wiele."
+    ru: "От дела, начатого в гневе, многого не жди."
+    source: { kind: authored }
+  - form: "poczętej"
+    pl: "Nie znam myśli poczętej tak pochopnie."
+    ru: "Я не знаю мысли, зародившейся так опрометчиво."
+    source: { kind: authored }
+  - form: "poczętej"
+    pl: "Szukamy idei poczętej w tamtych latach."
+    ru: "Мы ищем идею, зародившуюся в те годы."
+    source: { kind: authored }
+  - form: "poczętej"
+    pl: "Po pracy poczętej w pośpiechu widać braki."
+    ru: "По работе, начатой в спешке, видны изъяны."
+    source: { kind: authored }
+  - form: "poczętemu"
+    pl: "Przyjrzyj się dziełu poczętemu przed laty."
+    ru: "Присмотрись к делу, начатому много лет назад."
+    source: { kind: authored }
+  - form: "poczętemu"
+    pl: "Planowi poczętemu w pośpiechu brakuje podstaw."
+    ru: "Плану, начатому в спешке, не хватает оснований."
+    source: { kind: authored }
+  - form: "poczętemu"
+    pl: "Nie ufaj pomysłowi poczętemu w gniewie."
+    ru: "Не доверяй замыслу, родившемуся в гневе."
+    source: { kind: authored }
+  - form: "poczęto"
+    pl: "Poczęto budowę na wiosnę."
+    ru: "Строительство начали весной."
+    source: { kind: authored }
+  - form: "poczęto"
+    pl: "Poczęto mówić o zmianach."
+    ru: "Начали говорить о переменах."
+    source: { kind: authored }
+  - form: "poczęto"
+    pl: "Dzieło poczęto przed laty."
+    ru: "Дело начали много лет назад."
+    source: { kind: authored }
+  - form: "poczęty"
+    pl: "Plan poczęty w pośpiechu rzadko się udaje."
+    ru: "План, начатый в спешке, редко удаётся."
+    source: { kind: authored }
+  - form: "poczęty"
+    pl: "Chłopiec poczęty wiosną urodził się zimą."
+    ru: "Мальчик, зачатый весной, родился зимой."
+    source: { kind: authored }
+  - form: "poczęty"
+    pl: "Ten zamysł jest poczęty rozsądnie."
+    ru: "Этот замысел задуман разумно."
+    source: { kind: authored }
+  - form: "poczętych"
+    pl: "Nie ma tu planów poczętych w pośpiechu."
+    ru: "Здесь нет планов, начатых в спешке."
+    source: { kind: authored }
+  - form: "poczętych"
+    pl: "Wśród dzieł poczętych przed laty jest i to."
+    ru: "Среди дел, начатых много лет назад, есть и это."
+    source: { kind: authored }
+  - form: "poczętych"
+    pl: "Liczba dzieci poczętych tego roku rośnie."
+    ru: "Число детей, зачатых в этом году, растёт."
+    source: { kind: authored }
+  - form: "poczętym"
+    pl: "W dziele poczętym przed laty widać rozmach."
+    ru: "В деле, начатом много лет назад, виден размах."
+    source: { kind: authored }
+  - form: "poczętym"
+    pl: "Planom poczętym w pośpiechu brakuje podstaw."
+    ru: "Планам, начатым в спешке, не хватает оснований."
+    source: { kind: authored }
+  - form: "poczętym"
+    pl: "Z zamysłem poczętym rozsądnie idzie łatwiej."
+    ru: "С замыслом, задуманным разумно, идёт легче."
+    source: { kind: authored }
+  - form: "poczętymi"
+    pl: "Zajmuje się planami poczętymi przed laty."
+    ru: "Он занимается планами, начатыми много лет назад."
+    source: { kind: authored }
+  - form: "poczętymi"
+    pl: "Między dziełami poczętymi a dokończonymi jest różnica."
+    ru: "Между начатыми и завершёнными делами есть разница."
+    source: { kind: authored }
+  - form: "poczętymi"
+    pl: "Z pomysłami poczętymi w gniewie bywa kłopot."
+    ru: "С замыслами, родившимися в гневе, бывают проблемы."
     source: { kind: authored }
   - form: "poczną"
     pl: "Co oni poczną bez nas?"
@@ -205,6 +455,42 @@ formExamples:
   - form: "poczniesz"
     pl: "Nie poczniesz niczego bez zgody."
     ru: "Ты ничего не начнёшь без согласия."
+    source: { kind: authored }
+  - form: "pocznij"
+    pl: "Pocznij od początku."
+    ru: "Начни с начала."
+    source: { kind: authored }
+  - form: "pocznij"
+    pl: "Pocznij dzieło na nowo."
+    ru: "Начни дело заново."
+    source: { kind: authored }
+  - form: "pocznij"
+    pl: "Pocznij od tego, co pewne."
+    ru: "Начни с того, что известно точно."
+    source: { kind: authored }
+  - form: "pocznijcie"
+    pl: "Pocznijcie od początku."
+    ru: "Начните с начала."
+    source: { kind: authored }
+  - form: "pocznijcie"
+    pl: "Pocznijcie dzieło na nowo."
+    ru: "Начните дело заново."
+    source: { kind: authored }
+  - form: "pocznijcie"
+    pl: "Pocznijcie od tego, co pewne."
+    ru: "Начните с того, что известно точно."
+    source: { kind: authored }
+  - form: "pocznijmy"
+    pl: "Pocznijmy od początku."
+    ru: "Начнём с начала."
+    source: { kind: authored }
+  - form: "pocznijmy"
+    pl: "Pocznijmy dzieło na nowo."
+    ru: "Начнём дело заново."
+    source: { kind: authored }
+  - form: "pocznijmy"
+    pl: "Pocznijmy od tego, co pewne."
+    ru: "Начнём с того, что известно точно."
     source: { kind: authored }
   - form: "niech pocznie"
     pl: "Niech pocznie nowe życie."
