@@ -33,6 +33,7 @@ notes:
   - { kind: usage, text: "Отглагольное существительное porozumienie значит и «взаимопонимание», и «соглашение»: dojść do porozumienia «прийти к соглашению»." }
   - { kind: false-friend, text: "Корень rozumieć «понимать», который уже есть в словаре; ср. русское «разуметь», «разум»." }
   - { kind: usage, text: "Несовершенный вид — porozumiewać się." }
+  - { kind: government, text: "Повелительное наклонение — porozum się, porozumcie się: у глаголов на -umieć оно строится от голой основы, как rozum от rozumieć. Формы porozumiej нет." }
 collocations:
   - { pl: "porozumieć się z kimś", ru: "договориться с кем-л." }
   - { pl: "dojść do porozumienia", ru: "прийти к соглашению" }
@@ -42,22 +43,12 @@ idioms:
   - { pl: "porozumieć się z kimś", ru: "договориться с кем-л." }
   - { pl: "dojść do porozumienia", ru: "прийти к соглашению" }
 formExamplesSkip:
-  - { form: "porozum", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiał", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "porozumiałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumiałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumiałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "porozumiałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "porozumiałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumiałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "porozumiałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "porozumiałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "porozumiały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "porozumiałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumiałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumiałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -65,22 +56,86 @@ formExamplesSkip:
   - { form: "porozumiałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "porozumiano", reason: "безличная форма; в корпусе примеров нет" }
   - { form: "porozumiawszy", reason: "деепричастие; в корпусе примеров нет" }
-  - { form: "porozumie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiecie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiejcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiejmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumieli", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "porozumiej", reason: "форма образована генератором по ошибке. У глаголов на -umieć повелительное наклонение строится от голой основы: rozumieć даёт rozum, zrozumieć — zrozum, а porozumieć się — porozum się. Формы на -umiej в литературном языке нет" }
+  - { form: "porozumiejcie", reason: "форма образована генератором по ошибке. У глаголов на -umieć повелительное наклонение строится от голой основы: rozumieć даёт rozum, zrozumieć — zrozum, а porozumieć się — porozum się. Формы на -umiej в литературном языке нет" }
+  - { form: "porozumiejmy", reason: "форма образована генератором по ошибке. У глаголов на -umieć повелительное наклонение строится от голой основы: rozumieć даёт rozum, zrozumieć — zrozum, а porozumieć się — porozum się. Формы на -umiej в литературном языке нет" }
   - { form: "porozumieliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumielibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumielibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "porozumieliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "porozumiem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumieniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumieniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozumiesz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "porozummy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "porozum"
+    pl: "Porozum się z nim wreszcie."
+    ru: "Договорись с ним наконец."
+    source: { kind: authored }
+  - form: "porozum"
+    pl: "Porozum się z sąsiadem."
+    ru: "Договорись с соседом."
+    source: { kind: authored }
+  - form: "porozum"
+    pl: "Najpierw porozum się z szefem."
+    ru: "Сначала договорись с начальником."
+    source: { kind: authored }
+  - form: "porozumcie"
+    pl: "Porozumcie się wreszcie."
+    ru: "Договоритесь наконец."
+    source: { kind: authored }
+  - form: "porozumcie"
+    pl: "Porozumcie się z sąsiadem."
+    ru: "Договоритесь с соседом."
+    source: { kind: authored }
+  - form: "porozumcie"
+    pl: "Najpierw porozumcie się z szefem."
+    ru: "Сначала договоритесь с начальником."
+    source: { kind: authored }
+  - form: "porozumiał"
+    pl: "Porozumiał się z nimi po angielsku."
+    ru: "Он объяснился с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiał"
+    pl: "Nie porozumiał się z szefem."
+    ru: "Он не договорился с начальником."
+    source: { kind: authored }
+  - form: "porozumiał"
+    pl: "Wreszcie porozumiał się z sąsiadem."
+    ru: "Наконец он договорился с соседом."
+    source: { kind: authored }
+  - form: "porozumiała"
+    pl: "Porozumiała się z nimi po angielsku."
+    ru: "Она объяснилась с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiała"
+    pl: "Nie porozumiała się z szefem."
+    ru: "Она не договорилась с начальником."
+    source: { kind: authored }
+  - form: "porozumiała"
+    pl: "Wreszcie porozumiała się z sąsiadką."
+    ru: "Наконец она договорилась с соседкой."
+    source: { kind: authored }
+  - form: "porozumiałam"
+    pl: "Porozumiałam się z nimi po angielsku."
+    ru: "Я объяснилась с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiałam"
+    pl: "Nie porozumiałam się z szefem."
+    ru: "Я не договорилась с начальником."
+    source: { kind: authored }
+  - form: "porozumiałam"
+    pl: "Wreszcie porozumiałam się z sąsiadką."
+    ru: "Наконец я договорилась с соседкой."
+    source: { kind: authored }
+  - form: "porozumiałaś"
+    pl: "Porozumiałaś się z nimi po angielsku."
+    ru: "Ты объяснилась с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiałaś"
+    pl: "Nie porozumiałaś się z szefem."
+    ru: "Ты не договорилась с начальником."
+    source: { kind: authored }
+  - form: "porozumiałaś"
+    pl: "Wreszcie porozumiałaś się z sąsiadką."
+    ru: "Наконец ты договорилась с соседкой."
+    source: { kind: authored }
   - form: "porozumiałbym"
     pl: "Język chiński jest przydatny, ale trudny. Gdybym mówił po chińsku, porozumiałbym się z wielu ludźmi, bo najwięcej na świecie jest Chińczyków."
     ru: "Китайский полезен, но труден. Если бы я говорил по-китайски, я объяснился бы легче."
@@ -92,6 +147,78 @@ formExamples:
   - form: "porozumiałbym"
     pl: "Nie porozumiałbym się bez tłumacza."
     ru: "Без переводчика я бы не объяснился."
+    source: { kind: authored }
+  - form: "porozumiałem"
+    pl: "Porozumiałem się z nimi po angielsku."
+    ru: "Я объяснился с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiałem"
+    pl: "Nie porozumiałem się z szefem."
+    ru: "Я не договорился с начальником."
+    source: { kind: authored }
+  - form: "porozumiałem"
+    pl: "Wreszcie porozumiałem się z sąsiadem."
+    ru: "Наконец я договорился с соседом."
+    source: { kind: authored }
+  - form: "porozumiałeś"
+    pl: "Porozumiałeś się z nimi po angielsku."
+    ru: "Ты объяснился с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiałeś"
+    pl: "Nie porozumiałeś się z szefem."
+    ru: "Ты не договорился с начальником."
+    source: { kind: authored }
+  - form: "porozumiałeś"
+    pl: "Wreszcie porozumiałeś się z sąsiadem."
+    ru: "Наконец ты договорился с соседом."
+    source: { kind: authored }
+  - form: "porozumiało"
+    pl: "Dziecko porozumiało się z nimi na migi."
+    ru: "Ребёнок объяснился с ними жестами."
+    source: { kind: authored }
+  - form: "porozumiało"
+    pl: "Żadne z nich nie porozumiało się z szefem."
+    ru: "Никто из них не договорился с начальником."
+    source: { kind: authored }
+  - form: "porozumiało"
+    pl: "Rodzeństwo porozumiało się bez słów."
+    ru: "Брат с сестрой поняли друг друга без слов."
+    source: { kind: authored }
+  - form: "porozumiały"
+    pl: "Dzieci porozumiały się na migi."
+    ru: "Дети объяснились жестами."
+    source: { kind: authored }
+  - form: "porozumiały"
+    pl: "Strony porozumiały się co do ceny."
+    ru: "Стороны договорились о цене."
+    source: { kind: authored }
+  - form: "porozumiały"
+    pl: "Nie porozumiały się z szefem."
+    ru: "Они не договорились с начальником."
+    source: { kind: authored }
+  - form: "porozumie"
+    pl: "On się z nimi porozumie."
+    ru: "Он с ними объяснится."
+    source: { kind: authored }
+  - form: "porozumie"
+    pl: "Nikt się z nim nie porozumie."
+    ru: "Никто с ним не договорится."
+    source: { kind: authored }
+  - form: "porozumie"
+    pl: "Porozumie się nawet bez słów."
+    ru: "Он объяснится даже без слов."
+    source: { kind: authored }
+  - form: "porozumiecie"
+    pl: "Porozumiecie się z nimi po angielsku."
+    ru: "Вы объяснитесь с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiecie"
+    pl: "Nie porozumiecie się z szefem."
+    ru: "Вы не договоритесь с начальником."
+    source: { kind: authored }
+  - form: "porozumiecie"
+    pl: "Porozumiecie się nawet bez słów."
+    ru: "Вы объяснитесь даже без слов."
     source: { kind: authored }
   - form: "porozumieć"
     pl: "To rozmówki, pomogą ci się porozumieć."
@@ -117,6 +244,18 @@ formExamples:
     pl: "Nigdy się nie porozumieją."
     ru: "Они никогда не договорятся."
     source: { kind: authored }
+  - form: "porozumieli"
+    pl: "Porozumieli się co do ceny."
+    ru: "Они договорились о цене."
+    source: { kind: authored }
+  - form: "porozumieli"
+    pl: "Nie porozumieli się z szefem."
+    ru: "Они не договорились с начальником."
+    source: { kind: authored }
+  - form: "porozumieli"
+    pl: "Porozumieli się na migi."
+    ru: "Они объяснились жестами."
+    source: { kind: authored }
   - form: "porozumieliśmy"
     pl: "Porozumieliśmy się z pracownikami, których biuro jest zielone."
     ru: "Мы договорились с сотрудниками, чей офис зелёный."
@@ -128,6 +267,18 @@ formExamples:
   - form: "porozumieliśmy"
     pl: "W końcu się porozumieliśmy."
     ru: "В конце концов мы договорились."
+    source: { kind: authored }
+  - form: "porozumiem"
+    pl: "Porozumiem się z nimi po angielsku."
+    ru: "Я объяснюсь с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiem"
+    pl: "Nie porozumiem się z szefem."
+    ru: "Я не договорюсь с начальником."
+    source: { kind: authored }
+  - form: "porozumiem"
+    pl: "Porozumiem się nawet bez słów."
+    ru: "Я объяснюсь даже без слов."
     source: { kind: authored }
   - form: "porozumiemy"
     pl: "Jeśli kiedykolwiek nawiążemy kontakt z obcymi, jak się z nimi porozumiemy?"
@@ -164,4 +315,52 @@ formExamples:
   - form: "porozumienie"
     pl: "Podpisali porozumienie."
     ru: "Они подписали соглашение."
+    source: { kind: authored }
+  - form: "porozumieniem"
+    pl: "Między sporem a porozumieniem jest długa droga."
+    ru: "Между спором и соглашением длинный путь."
+    source: { kind: authored }
+  - form: "porozumieniem"
+    pl: "Skończyło się porozumieniem."
+    ru: "Кончилось соглашением."
+    source: { kind: authored }
+  - form: "porozumieniem"
+    pl: "Zajął się porozumieniem stron."
+    ru: "Он занялся соглашением сторон."
+    source: { kind: authored }
+  - form: "porozumieniu"
+    pl: "Po porozumieniu nastał spokój."
+    ru: "После соглашения наступил покой."
+    source: { kind: authored }
+  - form: "porozumieniu"
+    pl: "O porozumieniu stron nikt nie wie."
+    ru: "О соглашении сторон никто не знает."
+    source: { kind: authored }
+  - form: "porozumieniu"
+    pl: "Dzięki porozumieniu uniknięto sporu."
+    ru: "Благодаря соглашению спора избежали."
+    source: { kind: authored }
+  - form: "porozumiesz"
+    pl: "Porozumiesz się z nimi po angielsku."
+    ru: "Ты объяснишься с ними по-английски."
+    source: { kind: authored }
+  - form: "porozumiesz"
+    pl: "Nie porozumiesz się z szefem."
+    ru: "Ты не договоришься с начальником."
+    source: { kind: authored }
+  - form: "porozumiesz"
+    pl: "Porozumiesz się nawet bez słów."
+    ru: "Ты объяснишься даже без слов."
+    source: { kind: authored }
+  - form: "porozummy"
+    pl: "Porozummy się wreszcie."
+    ru: "Договоримся наконец."
+    source: { kind: authored }
+  - form: "porozummy"
+    pl: "Porozummy się z sąsiadem."
+    ru: "Договоримся с соседом."
+    source: { kind: authored }
+  - form: "porozummy"
+    pl: "Najpierw porozummy się z szefem."
+    ru: "Сначала договоримся с начальником."
     source: { kind: authored }
