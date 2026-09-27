@@ -28,6 +28,8 @@ notes:
   - { kind: register, text: "Очень грубое ругательство о мужчине, сильнее, чем dupek. Русские соответствия — «ублюдок», «мразь». В приличной речи неуместно совершенно." }
   - { kind: usage, text: "Образовано от kurwa с приставкой s-; всё гнездо этого корня относится к самой грубой лексике польского языка." }
   - { kind: usage, text: "В корпусе встречается почти исключительно в именительном падеже: Co za skurwiel!" }
+  - { kind: usage, text: "Форма skurwielu в примерах стоит только как предложный падеж (o tym skurwielu), но не как обращение: в обращении это прямое оскорбление. Так же построены карточки chuj и kutas." }
+  - { kind: government, text: "Множественное число у слова обычное: skurwiele в именительном, skurwieli в родительном — как nauczyciele и nauczycieli. Уничижительной формы, как у kutasy, здесь выбирать не приходится." }
 collocations:
   - { pl: "co za skurwiel", ru: "вот мразь" }
   - { pl: "arogancki skurwiel", ru: "наглый ублюдок" }
@@ -38,16 +40,6 @@ idioms:
   - { pl: "co za skurwiel", ru: "вот мразь" }
   - { pl: "arogancki skurwiel", ru: "наглый ублюдок" }
   - { pl: "zimny skurwiel", ru: "хладнокровный ублюдок" }
-formExamplesSkip:
-  - { form: "skurwiela", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwiele", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwieli", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "skurwielu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "skurwiel"
     pl: "Co za skurwiel!"
@@ -64,4 +56,112 @@ formExamples:
   - form: "skurwiel"
     pl: "Zimny skurwiel bez sumienia."
     ru: "Хладнокровный ублюдок без совести."
+    source: { kind: authored }
+  - form: "skurwiela"
+    pl: "Nie znam większego skurwiela."
+    ru: "Большего ублюдка я не знаю."
+    source: { kind: authored }
+  - form: "skurwiela"
+    pl: "Uznali go za skurwiela."
+    ru: "Его сочли ублюдком."
+    source: { kind: authored }
+  - form: "skurwiela"
+    pl: "Nie ma tu żadnego skurwiela."
+    ru: "Никакого ублюдка тут нет."
+    source: { kind: authored }
+  - form: "skurwielach"
+    pl: "O takich skurwielach lepiej nie mówić."
+    ru: "О таких ублюдках лучше не говорить."
+    source: { kind: authored }
+  - form: "skurwielach"
+    pl: "W tych skurwielach z filmu jest coś żałosnego."
+    ru: "В этих мразях из фильма есть что-то жалкое."
+    source: { kind: authored }
+  - form: "skurwielach"
+    pl: "Po skurwielach z tej historii nikt nie płacze."
+    ru: "По мразям из этой истории никто не плачет."
+    source: { kind: authored }
+  - form: "skurwielami"
+    pl: "Nazwał ich skurwielami."
+    ru: "Он назвал их ублюдками."
+    source: { kind: authored }
+  - form: "skurwielami"
+    pl: "Nie przejmuj się takimi skurwielami."
+    ru: "Не переживай из-за таких ублюдков."
+    source: { kind: authored }
+  - form: "skurwielami"
+    pl: "Między nimi a skurwielami nie ma różnicy."
+    ru: "Между ними и мразями нет разницы."
+    source: { kind: authored }
+  - form: "skurwiele"
+    pl: "Tacy skurwiele nigdy nie przepraszają."
+    ru: "Такие ублюдки никогда не извиняются."
+    source: { kind: authored }
+  - form: "skurwiele"
+    pl: "Skurwiele z tej opowieści dostają za swoje."
+    ru: "Мрази из этого рассказа получают своё."
+    source: { kind: authored }
+  - form: "skurwiele"
+    pl: "W tej historii skurwiele wygrywają."
+    ru: "В этой истории мрази побеждают."
+    source: { kind: authored }
+  - form: "skurwielem"
+    pl: "Nazwał go skurwielem i wyszedł."
+    ru: "Он назвал его ублюдком и вышел."
+    source: { kind: authored }
+  - form: "skurwielem"
+    pl: "Okazał się skurwielem."
+    ru: "Он оказался ублюдком."
+    source: { kind: authored }
+  - form: "skurwielem"
+    pl: "Między głupcem a skurwielem jest różnica."
+    ru: "Между дураком и мразью есть разница."
+    source: { kind: authored }
+  - form: "skurwieli"
+    pl: "Nie znoszę takich skurwieli."
+    ru: "Я не выношу таких ублюдков."
+    source: { kind: authored }
+  - form: "skurwieli"
+    pl: "W tej branży nie brakuje skurwieli."
+    ru: "В этой отрасли ублюдков хватает."
+    source: { kind: authored }
+  - form: "skurwieli"
+    pl: "Bez takich skurwieli byłoby spokojniej."
+    ru: "Без таких ублюдков было бы спокойнее."
+    source: { kind: authored }
+  - form: "skurwielom"
+    pl: "Takim skurwielom nie warto tłumaczyć."
+    ru: "Таким ублюдкам объяснять не стоит."
+    source: { kind: authored }
+  - form: "skurwielom"
+    pl: "Nie ustępuj takim skurwielom."
+    ru: "Не уступай таким ублюдкам."
+    source: { kind: authored }
+  - form: "skurwielom"
+    pl: "Nie wierz takim skurwielom."
+    ru: "Не верь таким ублюдкам."
+    source: { kind: authored }
+  - form: "skurwielowi"
+    pl: "Takiemu skurwielowi nie warto tłumaczyć."
+    ru: "Такому ублюдку объяснять не стоит."
+    source: { kind: authored }
+  - form: "skurwielowi"
+    pl: "Nie dał się nabrać temu skurwielowi."
+    ru: "Он не дал этому ублюдку себя провести."
+    source: { kind: authored }
+  - form: "skurwielowi"
+    pl: "Nie wierz takiemu skurwielowi."
+    ru: "Не верь такому ублюдку."
+    source: { kind: authored }
+  - form: "skurwielu"
+    pl: "O tym skurwielu z filmu mówi cały internet."
+    ru: "Об этом ублюдке из фильма говорит весь интернет."
+    source: { kind: authored }
+  - form: "skurwielu"
+    pl: "W tym skurwielu nie ma za grosz honoru."
+    ru: "В этом ублюдке нет ни капли чести."
+    source: { kind: authored }
+  - form: "skurwielu"
+    pl: "Nie mów o bracie jak o jakimś skurwielu."
+    ru: "Не говори о брате как о каком-то ублюдке."
     source: { kind: authored }
