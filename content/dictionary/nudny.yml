@@ -66,8 +66,6 @@ formExamplesSkip:
   - { form: "najnudniejszych", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszym", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszymi", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "nudnemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nudniejsi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "nudniejsza", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszą", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejsze", reason: "сравнительная степень; в корпусе примеров нет" }
@@ -77,8 +75,6 @@ formExamplesSkip:
   - { form: "nudniejszych", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszym", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudnych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "nudnymi", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "nudna"
     pl: "Szkoła jest nudna."
@@ -152,6 +148,18 @@ formExamples:
     pl: "Unikam nudnej lektury."
     ru: "Я избегаю скучного чтения."
     source: { kind: authored }
+  - form: "nudnemu"
+    pl: "Nudnemu wykładowi nikt nie pomoże."
+    ru: "Скучной лекции никто не поможет."
+    source: { kind: authored }
+  - form: "nudnemu"
+    pl: "Przyjrzyj się temu nudnemu filmowi."
+    ru: "Присмотрись к этому скучному фильму."
+    source: { kind: authored }
+  - form: "nudnemu"
+    pl: "Daj spokój nudnemu tematowi."
+    ru: "Оставь скучную тему."
+    source: { kind: authored }
   - form: "nudni"
     pl: "Wszyscy ludzie są nudni."
     ru: "Все люди скучные."
@@ -163,6 +171,18 @@ formExamples:
   - form: "nudni"
     pl: "Ci wykładowcy są nudni."
     ru: "Эти лекторы скучные."
+    source: { kind: authored }
+  - form: "nudniejsi"
+    pl: "Z roku na rok są nudniejsi."
+    ru: "Из года в год они скучнее."
+    source: { kind: authored }
+  - form: "nudniejsi"
+    pl: "Wykładowcy bywają nudniejsi od podręczników."
+    ru: "Лекторы бывают скучнее учебников."
+    source: { kind: authored }
+  - form: "nudniejsi"
+    pl: "Starsi nie są wcale nudniejsi."
+    ru: "Старшие вовсе не скучнее."
     source: { kind: authored }
   - form: "nudniejszego"
     pl: "Czy może być coś nudniejszego niż zajęcia z semantyki z Benem Steinem?"
@@ -196,6 +216,18 @@ formExamples:
     pl: "Piknik okazał się zaskakująco nudny."
     ru: "Пикник оказался на удивление скучным."
     source: { kind: translated, id: 843552 }
+  - form: "nudnych"
+    pl: "Nie znoszę nudnych filmów."
+    ru: "Я не выношу скучных фильмов."
+    source: { kind: authored }
+  - form: "nudnych"
+    pl: "Wśród nudnych wykładów ten był najgorszy."
+    ru: "Среди скучных лекций эта была худшей."
+    source: { kind: authored }
+  - form: "nudnych"
+    pl: "Unikam nudnych rozmów."
+    ru: "Я избегаю скучных разговоров."
+    source: { kind: authored }
   - form: "nudnym"
     pl: "Geometria, o której nic nie wiem, wydaję się bardzo nudnym przedmiotem."
     ru: "Геометрия, о которой я ничего не знаю, кажется мне очень скучным предметом."
@@ -207,4 +239,16 @@ formExamples:
   - form: "nudnym"
     pl: "Nie nazwałbym go nudnym."
     ru: "Я бы не назвал его скучным."
+    source: { kind: authored }
+  - form: "nudnymi"
+    pl: "Zanudził nas nudnymi opowieściami."
+    ru: "Он замучил нас скучными рассказами."
+    source: { kind: authored }
+  - form: "nudnymi"
+    pl: "Między nudnymi a spokojnymi wieczorami jest różnica."
+    ru: "Между скучными и спокойными вечерами есть разница."
+    source: { kind: authored }
+  - form: "nudnymi"
+    pl: "Z nudnymi tematami trudno o uwagę."
+    ru: "Со скучными темами трудно с вниманием."
     source: { kind: authored }

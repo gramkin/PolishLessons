@@ -40,6 +40,7 @@ notes:
   - { kind: false-friend, text: "Рядом с карточкой książka: książka — обычная книга, которую читают, księga — толстый том, священное писание или официальный реестр. Русское «книга» покрывает оба." }
   - { kind: usage, text: "В канцелярском языке: księga skarg «книга жалоб», księga gości «книга гостей», księgi wieczyste «поземельная книга»." }
   - { kind: usage, text: "Оборот czytać jak w otwartej księdze — «читать как в открытой книге», о человеке, которого легко понять." }
+  - { kind: government, text: "В родительном падеже множественного числа ę переходит в ą: księga, ale ksiąg. То же чередование, что в ręka и rąk." }
 collocations:
   - { pl: "święta księga", ru: "священная книга" }
   - { pl: "księga skarg", ru: "книга жалоб" }
@@ -51,13 +52,20 @@ idioms:
   - { pl: "księga skarg", ru: "книга жалоб" }
   - { pl: "czytać jak w otwartej księdze", ru: "читать как открытую книгу" }
 formExamplesSkip:
-  - { form: "ksiąg", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "księgach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "księgami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "księgę", reason: "в корпусе нет примеров для этой формы" }
   - { form: "księgo", reason: "звательная форма, в корпусе примеров нет" }
-  - { form: "księgom", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "ksiąg"
+    pl: "Nie znam tych ksiąg."
+    ru: "Я не знаю этих книг."
+    source: { kind: authored }
+  - form: "ksiąg"
+    pl: "Bez ksiąg rachunkowych nie ma kontroli."
+    ru: "Без бухгалтерских книг нет контроля."
+    source: { kind: authored }
+  - form: "ksiąg"
+    pl: "Regał pełen starych ksiąg."
+    ru: "Полка, полная старых книг."
+    source: { kind: authored }
   - form: "księdze"
     pl: "Czytałem w Tomie jak w otwartej księdze."
     ru: "Я читал Тома как открытую книгу."
@@ -82,6 +90,30 @@ formExamples:
     pl: "Ta księga liczy tysiąc stron."
     ru: "В этой книге тысяча страниц."
     source: { kind: authored }
+  - form: "księgach"
+    pl: "W tych księgach jest cała historia."
+    ru: "В этих книгах вся история."
+    source: { kind: authored }
+  - form: "księgach"
+    pl: "O księgach parafialnych mówi archiwista."
+    ru: "О приходских книгах говорит архивист."
+    source: { kind: authored }
+  - form: "księgach"
+    pl: "W księgach rachunkowych brakuje strony."
+    ru: "В бухгалтерских книгах не хватает страницы."
+    source: { kind: authored }
+  - form: "księgami"
+    pl: "Między księgami leżał list."
+    ru: "Между книгами лежало письмо."
+    source: { kind: authored }
+  - form: "księgami"
+    pl: "Zajmuje się starymi księgami."
+    ru: "Он занимается старинными книгами."
+    source: { kind: authored }
+  - form: "księgami"
+    pl: "Stół zastawiono księgami."
+    ru: "Стол заставили книгами."
+    source: { kind: authored }
   - form: "księgą"
     pl: "Koran jest świętą księgą muzułmanów."
     ru: "Коран — священная книга мусульман."
@@ -94,6 +126,18 @@ formExamples:
     pl: "Biblia jest dla nich świętą księgą."
     ru: "Библия для них священная книга."
     source: { kind: authored }
+  - form: "księgę"
+    pl: "Otworzył księgę na pierwszej stronie."
+    ru: "Он открыл книгу на первой странице."
+    source: { kind: authored }
+  - form: "księgę"
+    pl: "Zamknął księgę i wstał."
+    ru: "Он закрыл книгу и встал."
+    source: { kind: authored }
+  - form: "księgę"
+    pl: "Czytał go jak otwartą księgę."
+    ru: "Он читал его как открытую книгу."
+    source: { kind: authored }
   - form: "księgi"
     pl: "Czytanie z pierwszej księgi Samuela."
     ru: "Чтение из первой книги Самуила."
@@ -105,4 +149,16 @@ formExamples:
   - form: "księgi"
     pl: "Brakuje drugiej księgi tego dzieła."
     ru: "Не хватает второго тома этого труда."
+    source: { kind: authored }
+  - form: "księgom"
+    pl: "Przyjrzyj się tym księgom."
+    ru: "Присмотрись к этим книгам."
+    source: { kind: authored }
+  - form: "księgom"
+    pl: "Dzięki księgom parafialnym odtworzono rodzinę."
+    ru: "Благодаря приходским книгам восстановили род."
+    source: { kind: authored }
+  - form: "księgom"
+    pl: "Nie ufaj takim księgom."
+    ru: "Не доверяй таким книгам."
     source: { kind: authored }
