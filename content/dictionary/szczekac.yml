@@ -42,49 +42,32 @@ idioms:
   - { pl: "szczekać na kogoś", ru: "лаять на кого-л." }
   - { pl: "pies, który szczeka, nie gryzie", ru: "собака, которая лает, не кусает" }
 formExamplesSkip:
-  - { form: "szczekacie", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekając", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekająca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "szczekającą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekającej", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekającemu", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekający", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekających", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekającym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "szczekającymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "szczekajcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekaliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "szczekaliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "szczekała", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "szczekałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "szczekałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekałoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "szczekałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "szczekałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "szczekam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "szczekaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "szczekano", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "szczekasz", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "szczeka"
     pl: "Pies szczeka na obcych."
@@ -98,6 +81,18 @@ formExamples:
     pl: "Twój pies zawsze na mnie szczeka."
     ru: "Твоя собака всегда на меня лает."
     source: { kind: tatoeba, id: 11764965 }
+  - form: "szczekacie"
+    pl: "Szczekacie na wszystkich."
+    ru: "Вы на всех огрызаетесь."
+    source: { kind: authored }
+  - form: "szczekacie"
+    pl: "Czemu tak szczekacie?"
+    ru: "Почему вы так огрызаетесь?"
+    source: { kind: authored }
+  - form: "szczekacie"
+    pl: "Szczekacie, ale nie gryziecie."
+    ru: "Вы лаете, но не кусаете."
+    source: { kind: authored }
   - form: "szczekać"
     pl: "Pies przestał szczekać."
     ru: "Собака перестала лаять."
@@ -134,6 +129,18 @@ formExamples:
     pl: "Powiadają: Psy szczekają, karawana idzie dalej"
     ru: "Говорят: собаки лают, а караван идёт дальше."
     source: { kind: translated, id: 2493573 }
+  - form: "szczekającą"
+    pl: "Słyszę sukę szczekającą za płotem."
+    ru: "Я слышу собаку, лающую за забором."
+    source: { kind: authored }
+  - form: "szczekającą"
+    pl: "Znam psinę szczekającą na listonosza."
+    ru: "Я знаю собачонку, лающую на почтальона."
+    source: { kind: authored }
+  - form: "szczekającą"
+    pl: "Uznano ją za szczekającą bez powodu."
+    ru: "Её сочли лающей без повода."
+    source: { kind: authored }
   - form: "szczekające"
     pl: "Szczekające psy nie gryzą."
     ru: "Лающие собаки не кусают."
@@ -158,6 +165,42 @@ formExamples:
     pl: "Nie znoszę psa szczekającego nocą."
     ru: "Терпеть не могу собаку, лающую ночью."
     source: { kind: authored }
+  - form: "szczekajcie"
+    pl: "Nie szczekajcie na siebie."
+    ru: "Не огрызайтесь друг на друга."
+    source: { kind: authored }
+  - form: "szczekajcie"
+    pl: "Szczekajcie, ale nie gryźcie."
+    ru: "Лайте, но не кусайте."
+    source: { kind: authored }
+  - form: "szczekajcie"
+    pl: "Nie szczekajcie na gości."
+    ru: "Не лайте на гостей."
+    source: { kind: authored }
+  - form: "szczekajmy"
+    pl: "Nie szczekajmy na siebie."
+    ru: "Не будем огрызаться друг на друга."
+    source: { kind: authored }
+  - form: "szczekajmy"
+    pl: "Szczekajmy, ale nie gryźmy."
+    ru: "Будем лаять, но не кусать."
+    source: { kind: authored }
+  - form: "szczekajmy"
+    pl: "Nie szczekajmy na gości."
+    ru: "Не будем лаять на гостей."
+    source: { kind: authored }
+  - form: "szczekali"
+    pl: "Szczekali na siebie przez cały wieczór."
+    ru: "Они огрызались друг на друга весь вечер."
+    source: { kind: authored }
+  - form: "szczekali"
+    pl: "Nie szczekali na gości."
+    ru: "На гостей они не огрызались."
+    source: { kind: authored }
+  - form: "szczekali"
+    pl: "Szczekali ze złości."
+    ru: "Они огрызались со злости."
+    source: { kind: authored }
   - form: "szczekał"
     pl: "Pies szczekał i gryzł."
     ru: "Собака лаяла и кусалась."
@@ -170,6 +213,78 @@ formExamples:
     pl: "Pies ciągle na mnie szczekał przy bramie i nie pozwalał mi wejść."
     ru: "Собака всё лаяла на меня у ворот и не давала мне войти."
     source: { kind: translated, id: 10931191 }
+  - form: "szczekała"
+    pl: "Suka szczekała całą noc."
+    ru: "Собака лаяла всю ночь."
+    source: { kind: authored }
+  - form: "szczekała"
+    pl: "Szczekała na listonosza."
+    ru: "Она лаяла на почтальона."
+    source: { kind: authored }
+  - form: "szczekała"
+    pl: "Nie szczekała na swoich."
+    ru: "На своих она не лаяла."
+    source: { kind: authored }
+  - form: "szczekałam"
+    pl: "Przepraszam, że na ciebie szczekałam."
+    ru: "Прости, что я на тебя огрызалась."
+    source: { kind: authored }
+  - form: "szczekałam"
+    pl: "Nie szczekałam na nikogo."
+    ru: "Я ни на кого не огрызалась."
+    source: { kind: authored }
+  - form: "szczekałam"
+    pl: "Szczekałam ze złości."
+    ru: "Я огрызалась со злости."
+    source: { kind: authored }
+  - form: "szczekałaś"
+    pl: "Przepraszam, ale szczekałaś na mnie."
+    ru: "Извини, но ты на меня огрызалась."
+    source: { kind: authored }
+  - form: "szczekałaś"
+    pl: "Nie szczekałaś na nikogo?"
+    ru: "Ты ни на кого не огрызалась?"
+    source: { kind: authored }
+  - form: "szczekałaś"
+    pl: "Szczekałaś ze złości."
+    ru: "Ты огрызалась со злости."
+    source: { kind: authored }
+  - form: "szczekałem"
+    pl: "Przepraszam, że na ciebie szczekałem."
+    ru: "Прости, что я на тебя огрызался."
+    source: { kind: authored }
+  - form: "szczekałem"
+    pl: "Nie szczekałem na nikogo."
+    ru: "Я ни на кого не огрызался."
+    source: { kind: authored }
+  - form: "szczekałem"
+    pl: "Szczekałem ze złości."
+    ru: "Я огрызался со злости."
+    source: { kind: authored }
+  - form: "szczekałeś"
+    pl: "Przepraszam, ale szczekałeś na mnie."
+    ru: "Извини, но ты на меня огрызался."
+    source: { kind: authored }
+  - form: "szczekałeś"
+    pl: "Nie szczekałeś na nikogo?"
+    ru: "Ты ни на кого не огрызался?"
+    source: { kind: authored }
+  - form: "szczekałeś"
+    pl: "Szczekałeś ze złości."
+    ru: "Ты огрызался со злости."
+    source: { kind: authored }
+  - form: "szczekało"
+    pl: "Szczenię szczekało na cień."
+    ru: "Щенок лаял на тень."
+    source: { kind: authored }
+  - form: "szczekało"
+    pl: "Coś szczekało za płotem."
+    ru: "Что-то лаяло за забором."
+    source: { kind: authored }
+  - form: "szczekało"
+    pl: "Nic tam nie szczekało."
+    ru: "Там ничто не лаяло."
+    source: { kind: authored }
   - form: "szczekały"
     pl: "Psy szczekały całą noc."
     ru: "Собаки лаяли всю ночь."
@@ -182,6 +297,42 @@ formExamples:
     pl: "Gdzieś daleko szczekały psy."
     ru: "Где-то далеко лаяли собаки."
     source: { kind: authored }
+  - form: "szczekam"
+    pl: "Nie szczekam na nikogo."
+    ru: "Я ни на кого не лаю."
+    source: { kind: authored }
+  - form: "szczekam"
+    pl: "Przepraszam, że tak na ciebie szczekam."
+    ru: "Прости, что я так на тебя огрызаюсь."
+    source: { kind: authored }
+  - form: "szczekam"
+    pl: "Szczekam ze złości jak pies."
+    ru: "Я огрызаюсь со злости, как пёс."
+    source: { kind: authored }
+  - form: "szczekamy"
+    pl: "Nie szczekamy na nikogo."
+    ru: "Мы ни на кого не лаем."
+    source: { kind: authored }
+  - form: "szczekamy"
+    pl: "Szczekamy ze złości."
+    ru: "Мы огрызаемся со злости."
+    source: { kind: authored }
+  - form: "szczekamy"
+    pl: "Szczekamy, ale nie gryziemy."
+    ru: "Мы лаем, но не кусаем."
+    source: { kind: authored }
+  - form: "szczekania"
+    pl: "Od szczekania rozbolała mnie głowa."
+    ru: "От лая у меня разболелась голова."
+    source: { kind: authored }
+  - form: "szczekania"
+    pl: "Nie znoszę szczekania psów."
+    ru: "Я не выношу собачьего лая."
+    source: { kind: authored }
+  - form: "szczekania"
+    pl: "Bez szczekania nie ma psa."
+    ru: "Без лая нет собаки."
+    source: { kind: authored }
   - form: "szczekanie"
     pl: "Dla szlachetnego konia nie jest ważne szczekanie psa."
     ru: "Благородному коню не важен собачий лай."
@@ -193,6 +344,42 @@ formExamples:
   - form: "szczekanie"
     pl: "Szczekanie obudziło całą wieś."
     ru: "Лай разбудил всю деревню."
+    source: { kind: authored }
+  - form: "szczekaniem"
+    pl: "Obudził nas szczekaniem."
+    ru: "Он разбудил нас лаем."
+    source: { kind: authored }
+  - form: "szczekaniem"
+    pl: "Między warczeniem a szczekaniem jest różnica."
+    ru: "Между рычанием и лаем есть разница."
+    source: { kind: authored }
+  - form: "szczekaniem"
+    pl: "Pies przywitał nas szczekaniem."
+    ru: "Пёс встретил нас лаем."
+    source: { kind: authored }
+  - form: "szczekaniu"
+    pl: "W tym szczekaniu słychać strach."
+    ru: "В этом лае слышен страх."
+    source: { kind: authored }
+  - form: "szczekaniu"
+    pl: "O szczekaniu psa sąsiedzi pisali skargi."
+    ru: "На собачий лай соседи писали жалобы."
+    source: { kind: authored }
+  - form: "szczekaniu"
+    pl: "Po szczekaniu poznał, że to obcy."
+    ru: "По лаю он понял, что это чужой."
+    source: { kind: authored }
+  - form: "szczekasz"
+    pl: "Szczekasz na wszystkich."
+    ru: "Ты на всех огрызаешься."
+    source: { kind: authored }
+  - form: "szczekasz"
+    pl: "Czemu tak szczekasz?"
+    ru: "Почему ты так огрызаешься?"
+    source: { kind: authored }
+  - form: "szczekasz"
+    pl: "Szczekasz, ale nie gryziesz."
+    ru: "Ты лаешь, но не кусаешь."
     source: { kind: authored }
   - form: "będę szczekać"
     pl: "Będę szczekać na wszystkich ze złości."
