@@ -42,27 +42,7 @@ idioms:
   - { pl: "wystraszyć kogoś", ru: "напугать кого-л." }
   - { pl: "wystraszyć się", ru: "испугаться" }
 formExamplesSkip:
-  - { form: "wystrasz", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszą", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszę", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszonemu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wystraszono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "wystraszonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszyli", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wystraszyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -71,21 +51,137 @@ formExamplesSkip:
   - { form: "wystraszyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wystraszyłam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "wystraszyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wystraszyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "wystraszyłem", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wystraszyłoby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "wystraszyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "wystraszyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "wystraszymy", reason: "в корпусе нет примеров для этой формы" }
   - { form: "wystraszywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "wystrasz"
+    pl: "Nie wystrasz dzieci."
+    ru: "Не испугай детей."
+    source: { kind: authored }
+  - form: "wystrasz"
+    pl: "Wystrasz ptaki z pola."
+    ru: "Спугни птиц с поля."
+    source: { kind: authored }
+  - form: "wystrasz"
+    pl: "Nie wystrasz go tą opowieścią."
+    ru: "Не испугай его этой историей."
+    source: { kind: authored }
+  - form: "wystraszą"
+    pl: "Hałasy wystraszą ptaki."
+    ru: "Шумы спугнут птиц."
+    source: { kind: authored }
+  - form: "wystraszą"
+    pl: "Nikogo nie wystraszą."
+    ru: "Никого они не испугают."
+    source: { kind: authored }
+  - form: "wystraszą"
+    pl: "Wystraszą dzieci tą opowieścią."
+    ru: "Они испугают детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszcie"
+    pl: "Nie wystraszcie dzieci."
+    ru: "Не испугайте детей."
+    source: { kind: authored }
+  - form: "wystraszcie"
+    pl: "Wystraszcie ptaki z pola."
+    ru: "Спугните птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszcie"
+    pl: "Nie wystraszcie go tą opowieścią."
+    ru: "Не испугайте его этой историей."
+    source: { kind: authored }
+  - form: "wystraszeni"
+    pl: "Wystraszeni hałasem, uciekli."
+    ru: "Испуганные шумом, они убежали."
+    source: { kind: authored }
+  - form: "wystraszeni"
+    pl: "Wystraszeni ludzie wybiegli na ulicę."
+    ru: "Испуганные люди выбежали на улицу."
+    source: { kind: authored }
+  - form: "wystraszeni"
+    pl: "Byli wystraszeni."
+    ru: "Они были испуганы."
+    source: { kind: authored }
+  - form: "wystraszenia"
+    pl: "Bez wystraszenia ptaków się nie obyło."
+    ru: "Без того, чтобы спугнуть птиц, не обошлось."
+    source: { kind: authored }
+  - form: "wystraszenia"
+    pl: "Od wystraszenia dziecka zaczęły się kłopoty."
+    ru: "С испуга ребёнка начались неприятности."
+    source: { kind: authored }
+  - form: "wystraszenia"
+    pl: "Nie ma tu powodu do wystraszenia."
+    ru: "Здесь нет повода для испуга."
+    source: { kind: authored }
+  - form: "wystraszenie"
+    pl: "Wystraszenie ptaków było przypadkowe."
+    ru: "Птиц спугнули случайно."
+    source: { kind: authored }
+  - form: "wystraszenie"
+    pl: "Wystraszenie dziecka nie było zamiarem."
+    ru: "Испугать ребёнка не входило в намерения."
+    source: { kind: authored }
+  - form: "wystraszenie"
+    pl: "Wystraszenie go zajęło chwilę."
+    ru: "Испугать его заняло мгновение."
+    source: { kind: authored }
+  - form: "wystraszeniem"
+    pl: "Skończyło się wystraszeniem dzieci."
+    ru: "Кончилось тем, что напугали детей."
+    source: { kind: authored }
+  - form: "wystraszeniem"
+    pl: "Między żartem a wystraszeniem jest różnica."
+    ru: "Между шуткой и испугом есть разница."
+    source: { kind: authored }
+  - form: "wystraszeniem"
+    pl: "Zaczęło się wystraszeniem ptaków."
+    ru: "Началось с того, что спугнули птиц."
+    source: { kind: authored }
+  - form: "wystraszeniu"
+    pl: "Po wystraszeniu ptaków zapadła cisza."
+    ru: "После того как спугнули птиц, наступила тишина."
+    source: { kind: authored }
+  - form: "wystraszeniu"
+    pl: "O wystraszeniu dziecka nikt nie wspomniał."
+    ru: "О том, что ребёнка испугали, никто не упомянул."
+    source: { kind: authored }
+  - form: "wystraszeniu"
+    pl: "W wystraszeniu psa nie ma nic zabawnego."
+    ru: "В том, чтобы напугать собаку, нет ничего смешного."
+    source: { kind: authored }
+  - form: "wystraszę"
+    pl: "Nie wystraszę cię."
+    ru: "Я тебя не испугаю."
+    source: { kind: authored }
+  - form: "wystraszę"
+    pl: "Wystraszę ptaki z pola."
+    ru: "Я спугну птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszę"
+    pl: "Boję się, że go wystraszę."
+    ru: "Боюсь, что я его испугаю."
+    source: { kind: authored }
+  - form: "wystraszmy"
+    pl: "Nie wystraszmy dzieci."
+    ru: "Не испугаем детей."
+    source: { kind: authored }
+  - form: "wystraszmy"
+    pl: "Wystraszmy ptaki z pola."
+    ru: "Спугнём птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszmy"
+    pl: "Nie wystraszmy go tą opowieścią."
+    ru: "Не испугаем его этой историей."
+    source: { kind: authored }
   - form: "wystraszona"
     pl: "Wystraszona biedronka odleci z ręki, która ją trzyma."
     ru: "Испуганная божья коровка улетит с руки, которая её держит."
@@ -97,6 +193,30 @@ formExamples:
   - form: "wystraszona"
     pl: "Wystraszona dziewczynka zamilkła."
     ru: "Испуганная девочка замолчала."
+    source: { kind: authored }
+  - form: "wystraszoną"
+    pl: "Znam tę wystraszoną minę."
+    ru: "Я знаю это испуганное лицо."
+    source: { kind: authored }
+  - form: "wystraszoną"
+    pl: "Uznano ją za wystraszoną."
+    ru: "Её сочли испуганной."
+    source: { kind: authored }
+  - form: "wystraszoną"
+    pl: "Zobaczył wystraszoną dziewczynkę."
+    ru: "Он увидел испуганную девочку."
+    source: { kind: authored }
+  - form: "wystraszone"
+    pl: "Dzieci są wystraszone."
+    ru: "Дети испуганы."
+    source: { kind: authored }
+  - form: "wystraszone"
+    pl: "Wystraszone ptaki poderwały się z pola."
+    ru: "Испуганные птицы взлетели с поля."
+    source: { kind: authored }
+  - form: "wystraszone"
+    pl: "Wystraszone twarze patrzyły w okna."
+    ru: "Испуганные лица смотрели в окна."
     source: { kind: authored }
   - form: "wystraszonego"
     pl: "Mężczyzna niosący teczkę wyglądał na wystraszonego."
@@ -110,6 +230,30 @@ formExamples:
     pl: "Nie poznałem wystraszonego chłopca."
     ru: "Я не узнал испуганного мальчика."
     source: { kind: authored }
+  - form: "wystraszonej"
+    pl: "Nie znam tak wystraszonej dziewczynki."
+    ru: "Я не знаю такой испуганной девочки."
+    source: { kind: authored }
+  - form: "wystraszonej"
+    pl: "Po wystraszonej minie poznasz prawdę."
+    ru: "По испуганному лицу узнаешь правду."
+    source: { kind: authored }
+  - form: "wystraszonej"
+    pl: "Szukamy wystraszonej kotki."
+    ru: "Мы ищем испуганную кошку."
+    source: { kind: authored }
+  - form: "wystraszonemu"
+    pl: "Przyjrzyj się wystraszonemu dziecku."
+    ru: "Присмотрись к испуганному ребёнку."
+    source: { kind: authored }
+  - form: "wystraszonemu"
+    pl: "Wystraszonemu psu trzeba dać spokój."
+    ru: "Испуганную собаку надо оставить в покое."
+    source: { kind: authored }
+  - form: "wystraszonemu"
+    pl: "Pomóż wystraszonemu chłopcu."
+    ru: "Помоги испуганному мальчику."
+    source: { kind: authored }
   - form: "wystraszony"
     pl: "Tom przyznał, że był wystraszony."
     ru: "Том признал, что был напуган."
@@ -122,6 +266,66 @@ formExamples:
     pl: "Byłem wystraszony i zmęczony."
     ru: "Я был напуган и устал."
     source: { kind: authored }
+  - form: "wystraszonych"
+    pl: "Nie ma tu wystraszonych dzieci."
+    ru: "Здесь нет испуганных детей."
+    source: { kind: authored }
+  - form: "wystraszonych"
+    pl: "Wśród wystraszonych był i on."
+    ru: "Среди испуганных был и он."
+    source: { kind: authored }
+  - form: "wystraszonych"
+    pl: "Liczba wystraszonych rosła."
+    ru: "Число испуганных росло."
+    source: { kind: authored }
+  - form: "wystraszonym"
+    pl: "Wystraszonym dzieciom trzeba pomóc."
+    ru: "Испуганным детям надо помочь."
+    source: { kind: authored }
+  - form: "wystraszonym"
+    pl: "W tłumie wystraszonym hałasem zapanował chaos."
+    ru: "В толпе, испуганной шумом, началась паника."
+    source: { kind: authored }
+  - form: "wystraszonym"
+    pl: "Z wystraszonym psem trzeba ostrożnie."
+    ru: "С испуганной собакой надо осторожно."
+    source: { kind: authored }
+  - form: "wystraszonymi"
+    pl: "Zajmował się wystraszonymi dziećmi."
+    ru: "Он занимался испуганными детьми."
+    source: { kind: authored }
+  - form: "wystraszonymi"
+    pl: "Między wystraszonymi a spokojnymi jest różnica."
+    ru: "Между испуганными и спокойными есть разница."
+    source: { kind: authored }
+  - form: "wystraszonymi"
+    pl: "Z wystraszonymi zwierzętami trzeba ostrożnie."
+    ru: "С испуганными животными надо осторожно."
+    source: { kind: authored }
+  - form: "wystraszy"
+    pl: "Hałas wystraszy ptaki."
+    ru: "Шум спугнёт птиц."
+    source: { kind: authored }
+  - form: "wystraszy"
+    pl: "Nikogo to nie wystraszy."
+    ru: "Никого это не испугает."
+    source: { kind: authored }
+  - form: "wystraszy"
+    pl: "Wystraszy dzieci tą opowieścią."
+    ru: "Он испугает детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszycie"
+    pl: "Nie wystraszycie mnie."
+    ru: "Вы меня не испугаете."
+    source: { kind: authored }
+  - form: "wystraszycie"
+    pl: "Wystraszycie ptaki z pola."
+    ru: "Вы спугнёте птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszycie"
+    pl: "Wystraszycie dzieci tą opowieścią."
+    ru: "Вы испугаете детей этой историей."
+    source: { kind: authored }
   - form: "wystraszyć"
     pl: "Łatwo mnie wystraszyć."
     ru: "Меня легко напугать."
@@ -133,6 +337,18 @@ formExamples:
   - form: "wystraszyć"
     pl: "Nie chciałem cię wystraszyć."
     ru: "Я не хотел тебя напугать."
+    source: { kind: authored }
+  - form: "wystraszyli"
+    pl: "Wystraszyli dzieci tą opowieścią."
+    ru: "Они испугали детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszyli"
+    pl: "Nie wystraszyli nikogo."
+    ru: "Они никого не испугали."
+    source: { kind: authored }
+  - form: "wystraszyli"
+    pl: "Wystraszyli ptaki z pola."
+    ru: "Они спугнули птиц с поля."
     source: { kind: authored }
   - form: "wystraszył"
     pl: "Wystraszył dziewczynkę magicznymi sztuczkami."
@@ -158,6 +374,42 @@ formExamples:
     pl: "Wystraszyła się, gdy usłyszała wiadomości."
     ru: "Она испугалась, когда услышала новости."
     source: { kind: translated, id: 7970852 }
+  - form: "wystraszyłam"
+    pl: "Wystraszyłam dzieci tą opowieścią."
+    ru: "Я испугала детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszyłam"
+    pl: "Nie wystraszyłam nikogo."
+    ru: "Я никого не испугала."
+    source: { kind: authored }
+  - form: "wystraszyłam"
+    pl: "Wystraszyłam ptaki z pola."
+    ru: "Я спугнула птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszyłaś"
+    pl: "Wystraszyłaś dzieci tą opowieścią."
+    ru: "Ты испугала детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszyłaś"
+    pl: "Nie wystraszyłaś nikogo."
+    ru: "Ты никого не испугала."
+    source: { kind: authored }
+  - form: "wystraszyłaś"
+    pl: "Wystraszyłaś ptaki z pola."
+    ru: "Ты спугнула птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszyłem"
+    pl: "Wystraszyłem dzieci tą opowieścią."
+    ru: "Я испугал детей этой историей."
+    source: { kind: authored }
+  - form: "wystraszyłem"
+    pl: "Nie wystraszyłem nikogo."
+    ru: "Я никого не испугал."
+    source: { kind: authored }
+  - form: "wystraszyłem"
+    pl: "Wystraszyłem ptaki z pola."
+    ru: "Я спугнул птиц с поля."
+    source: { kind: authored }
   - form: "wystraszyłeś"
     pl: "Prawdopodobnie wystraszyłeś Toma."
     ru: "Ты, вероятно, напугал Тома."
@@ -193,6 +445,18 @@ formExamples:
   - form: "wystraszyły"
     pl: "Konie wystraszyły się burzy."
     ru: "Кони испугались грозы."
+    source: { kind: authored }
+  - form: "wystraszymy"
+    pl: "Nie wystraszymy cię."
+    ru: "Мы тебя не испугаем."
+    source: { kind: authored }
+  - form: "wystraszymy"
+    pl: "Wystraszymy ptaki z pola."
+    ru: "Мы спугнём птиц с поля."
+    source: { kind: authored }
+  - form: "wystraszymy"
+    pl: "Boimy się, że go wystraszymy."
+    ru: "Боимся, что мы его испугаем."
     source: { kind: authored }
   - form: "wystraszysz"
     pl: "Nie rób hałasu, bo wystraszysz ptactwo."
