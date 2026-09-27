@@ -33,6 +33,7 @@ notes:
   - { kind: usage, text: "Поговорка Śpiesz się powoli «Торопись медленно» — польский вариант латинского festina lente." }
   - { kind: false-friend, text: "Пишется через ś: śpieszyć. Вариант spieszyć без диакритики тоже встречается и считается допустимым, отсюда и ASCII-идентификатор карточки." }
   - { kind: usage, text: "Совершенный вид — pośpieszyć się. Родственное pośpiech «спешка», прилагательное pośpieszny «скорый» (pociąg pośpieszny «скорый поезд»)." }
+  - { kind: government, text: "Глагол идёт с się и не имеет прямого дополнения, поэтому страдательных причастий у него нет: формы вида śpieszony образованы генератором по ошибке." }
 collocations:
   - { pl: "śpieszyć się", ru: "спешить" }
   - { pl: "śpieszy mi się", ru: "я спешу" }
@@ -45,7 +46,6 @@ idioms:
 formExamplesSkip:
   - { form: "śpiesząc", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "śpiesząca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "śpieszącą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śpieszące", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "śpieszącego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "śpieszącej", reason: "причастная форма; в корпусе примеров нет" }
@@ -54,45 +54,33 @@ formExamplesSkip:
   - { form: "śpieszących", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "śpieszącym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "śpieszącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "śpieszeni", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszenia", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszenie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszeniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszeniu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszona", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszoną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszone", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonemu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "śpieszeni", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszona", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszoną", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszone", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonego", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonej", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonemu", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
   - { form: "śpieszono", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "śpieszony", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszonymi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszycie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "śpieszyli", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "śpieszony", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonych", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonym", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
+  - { form: "śpieszonymi", reason: "страдательного причастия у этого глагола нет. Примечание к карточке говорит, что он почти всегда идёт с się, а в безличном обороте лицо ставится в ДАТЕЛЬНЫЙ падеж: śpieszy mi się. Прямого дополнения нет, поэтому нечему становиться подлежащим страдательного оборота" }
   - { form: "śpieszyliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszylibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "śpieszyła", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śpieszyłaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "śpieszyłaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śpieszyłby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "śpieszyłeś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śpieszyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "śpieszyły", reason: "в корпусе нет примеров для этой формы" }
   - { form: "śpieszyłyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "śpieszyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "śpieszymy", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
   - form: "śpiesz"
     pl: "Śpiesz się powoli."
@@ -118,6 +106,18 @@ formExamples:
     pl: "Wszyscy śpieszą się do domu."
     ru: "Все спешат домой."
     source: { kind: authored }
+  - form: "śpieszącą"
+    pl: "Widzę kobietę śpieszącą na pociąg."
+    ru: "Я вижу женщину, спешащую на поезд."
+    source: { kind: authored }
+  - form: "śpieszącą"
+    pl: "Znam osobę śpieszącą się zawsze."
+    ru: "Я знаю человека, вечно спешащего."
+    source: { kind: authored }
+  - form: "śpieszącą"
+    pl: "Uznano ją za śpieszącą z pomocą."
+    ru: "Её сочли спешащей на помощь."
+    source: { kind: authored }
   - form: "śpieszcie"
     pl: "Nie śpieszcie się."
     ru: "Не спешите."
@@ -129,6 +129,54 @@ formExamples:
   - form: "śpieszcie"
     pl: "Nie śpieszcie się z odpowiedzią."
     ru: "Не спешите с ответом."
+    source: { kind: authored }
+  - form: "śpieszenia"
+    pl: "Od śpieszenia się rosną błędy."
+    ru: "От спешки растёт число ошибок."
+    source: { kind: authored }
+  - form: "śpieszenia"
+    pl: "Nie znoszę śpieszenia się rano."
+    ru: "Я не выношу утренней спешки."
+    source: { kind: authored }
+  - form: "śpieszenia"
+    pl: "Bez śpieszenia się zdążysz."
+    ru: "Без спешки ты успеешь."
+    source: { kind: authored }
+  - form: "śpieszenie"
+    pl: "Śpieszenie się nie popłaca."
+    ru: "Спешка не окупается."
+    source: { kind: authored }
+  - form: "śpieszenie"
+    pl: "Śpieszenie z pomocą to odruch."
+    ru: "Спешить на помощь — это порыв."
+    source: { kind: authored }
+  - form: "śpieszenie"
+    pl: "Śpieszenie na pociąg co rano męczy."
+    ru: "Спешить на поезд каждое утро утомительно."
+    source: { kind: authored }
+  - form: "śpieszeniem"
+    pl: "Zmęczył się śpieszeniem."
+    ru: "Он устал от спешки."
+    source: { kind: authored }
+  - form: "śpieszeniem"
+    pl: "Między pośpiechem a śpieszeniem się nie ma różnicy."
+    ru: "Между спешкой и торопливостью нет разницы."
+    source: { kind: authored }
+  - form: "śpieszeniem"
+    pl: "Skończyło się śpieszeniem na ostatnią chwilę."
+    ru: "Кончилось спешкой в последнюю минуту."
+    source: { kind: authored }
+  - form: "śpieszeniu"
+    pl: "W śpieszeniu się nie ma sensu."
+    ru: "В спешке нет смысла."
+    source: { kind: authored }
+  - form: "śpieszeniu"
+    pl: "O śpieszeniu z pomocą mówił ksiądz."
+    ru: "О том, чтобы спешить на помощь, говорил священник."
+    source: { kind: authored }
+  - form: "śpieszeniu"
+    pl: "Po śpieszeniu przyszło zmęczenie."
+    ru: "После спешки пришла усталость."
     source: { kind: authored }
   - form: "śpieszę"
     pl: "Tak, śpieszę się."
@@ -142,6 +190,18 @@ formExamples:
     pl: "Nie śpieszę się nigdzie."
     ru: "Я никуда не спешу."
     source: { kind: authored }
+  - form: "śpieszmy"
+    pl: "Śpieszmy się na pociąg."
+    ru: "Поспешим на поезд."
+    source: { kind: authored }
+  - form: "śpieszmy"
+    pl: "Nie śpieszmy się z decyzją."
+    ru: "Не будем спешить с решением."
+    source: { kind: authored }
+  - form: "śpieszmy"
+    pl: "Śpieszmy do domu."
+    ru: "Поспешим домой."
+    source: { kind: authored }
   - form: "śpieszy"
     pl: "Tom się śpieszy."
     ru: "Том спешит."
@@ -154,6 +214,18 @@ formExamples:
     pl: "Kiedy się człowiek śpieszy, łatwo jest popełnić błąd."
     ru: "Когда человек спешит, легко сделать ошибку."
     source: { kind: translated, id: 12036486 }
+  - form: "śpieszycie"
+    pl: "Śpieszycie się na pociąg?"
+    ru: "Вы спешите на поезд?"
+    source: { kind: authored }
+  - form: "śpieszycie"
+    pl: "Nie śpieszycie się z decyzją."
+    ru: "Вы не спешите с решением."
+    source: { kind: authored }
+  - form: "śpieszycie"
+    pl: "Śpieszycie do domu."
+    ru: "Вы спешите домой."
+    source: { kind: authored }
   - form: "śpieszyć"
     pl: "Muszę się śpieszyć."
     ru: "Мне нужно спешить."
@@ -165,6 +237,18 @@ formExamples:
   - form: "śpieszyć"
     pl: "Nie ma po co się śpieszyć."
     ru: "Спешить незачем."
+    source: { kind: authored }
+  - form: "śpieszyli"
+    pl: "Śpieszyli się na pociąg."
+    ru: "Они спешили на поезд."
+    source: { kind: authored }
+  - form: "śpieszyli"
+    pl: "Nie śpieszyli się z decyzją."
+    ru: "Они не спешили с решением."
+    source: { kind: authored }
+  - form: "śpieszyli"
+    pl: "Śpieszyli do domu."
+    ru: "Они спешили домой."
     source: { kind: authored }
   - form: "śpieszyliśmy"
     pl: "Nie śpieszyliśmy się."
@@ -190,6 +274,18 @@ formExamples:
     pl: "Nikt go nie śpieszył."
     ru: "Никто его не торопил."
     source: { kind: authored }
+  - form: "śpieszyła"
+    pl: "Śpieszyła się na pociąg."
+    ru: "Она спешила на поезд."
+    source: { kind: authored }
+  - form: "śpieszyła"
+    pl: "Nie śpieszyła się z decyzją."
+    ru: "Она не спешила с решением."
+    source: { kind: authored }
+  - form: "śpieszyła"
+    pl: "Śpieszyła do domu."
+    ru: "Она спешила домой."
+    source: { kind: authored }
   - form: "śpieszyłam"
     pl: "Nie śpieszyłam się."
     ru: "Я не спешила."
@@ -201,6 +297,18 @@ formExamples:
   - form: "śpieszyłam"
     pl: "Nigdzie się nie śpieszyłam."
     ru: "Я никуда не спешила."
+    source: { kind: authored }
+  - form: "śpieszyłaś"
+    pl: "Śpieszyłaś się na pociąg."
+    ru: "Ты спешила на поезд."
+    source: { kind: authored }
+  - form: "śpieszyłaś"
+    pl: "Nie śpieszyłaś się z decyzją."
+    ru: "Ты не спешила с решением."
+    source: { kind: authored }
+  - form: "śpieszyłaś"
+    pl: "Śpieszyłaś do domu."
+    ru: "Ты спешила домой."
     source: { kind: authored }
   - form: "śpieszyłem"
     pl: "Nie śpieszyłem się."
@@ -214,6 +322,18 @@ formExamples:
     pl: "Śpieszyłem się na spotkanie."
     ru: "Я спешил на встречу."
     source: { kind: authored }
+  - form: "śpieszyłeś"
+    pl: "Śpieszyłeś się na pociąg."
+    ru: "Ты спешил на поезд."
+    source: { kind: authored }
+  - form: "śpieszyłeś"
+    pl: "Nie śpieszyłeś się z decyzją."
+    ru: "Ты не спешил с решением."
+    source: { kind: authored }
+  - form: "śpieszyłeś"
+    pl: "Śpieszyłeś do domu."
+    ru: "Ты спешил домой."
+    source: { kind: authored }
   - form: "śpieszyło"
     pl: "Ponieważ mi się śpieszyło, musiałem wziąć taksówkę."
     ru: "Поскольку я спешил, мне пришлось взять такси."
@@ -226,6 +346,18 @@ formExamples:
     pl: "Śpieszyło jej się do domu."
     ru: "Она спешила домой."
     source: { kind: authored }
+  - form: "śpieszyły"
+    pl: "Dzieci śpieszyły do domu."
+    ru: "Дети спешили домой."
+    source: { kind: authored }
+  - form: "śpieszyły"
+    pl: "Zegary śpieszyły o pięć minut."
+    ru: "Часы спешили на пять минут."
+    source: { kind: authored }
+  - form: "śpieszyły"
+    pl: "Nie śpieszyły się z odpowiedzią."
+    ru: "Они не спешили с ответом."
+    source: { kind: authored }
   - form: "śpieszyłyśmy"
     pl: "Nie śpieszyłyśmy się."
     ru: "Мы не спешили."
@@ -237,6 +369,18 @@ formExamples:
   - form: "śpieszyłyśmy"
     pl: "Nigdzie się nie śpieszyłyśmy."
     ru: "Мы никуда не спешили."
+    source: { kind: authored }
+  - form: "śpieszymy"
+    pl: "Śpieszymy się na pociąg."
+    ru: "Мы спешим на поезд."
+    source: { kind: authored }
+  - form: "śpieszymy"
+    pl: "Nie śpieszymy się z decyzją."
+    ru: "Мы не спешим с решением."
+    source: { kind: authored }
+  - form: "śpieszymy"
+    pl: "Śpieszymy do domu."
+    ru: "Мы спешим домой."
     source: { kind: authored }
   - form: "śpieszysz"
     pl: "Śpieszysz się?"
