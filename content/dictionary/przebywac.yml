@@ -33,6 +33,7 @@ notes:
   - { kind: false-friend, text: "Не «прибывать» в смысле «приезжать»! Это ложный друг: przebywać значит «находиться, пребывать», а «прибыть» по-польски przybyć." }
   - { kind: usage, text: "Несовершенный вид. Родственный przebyć — совершенный по форме, но значение у него разошлось: «преодолеть, перенести»." }
   - { kind: usage, text: "Отглагольное существительное przebywanie «пребывание»: prawo do przebywania «право на пребывание»." }
+  - { kind: government, text: "Винительный падеж при этом глаголе обозначает только срок: przebywał trzy tygodnie. Прямого дополнения у него нет, поэтому страдательных форм przebywany, przebywani не существует." }
 collocations:
   - { pl: "przebywać w szpitalu", ru: "находиться в больнице" }
   - { pl: "przebywać za granicą", ru: "находиться за границей" }
@@ -42,12 +43,8 @@ idioms:
   - { pl: "przebywać w szpitalu", ru: "находиться в больнице" }
   - { pl: "przebywać za granicą", ru: "находиться за границей" }
 formExamplesSkip:
-  - { form: "przebywacie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywaj", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywają", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywając", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przebywająca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "przebywającą", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywające", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przebywającego", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przebywającej", reason: "причастная форма; в корпусе примеров нет" }
@@ -56,9 +53,6 @@ formExamplesSkip:
   - { form: "przebywających", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przebywającym", reason: "причастная форма; в корпусе примеров нет" }
   - { form: "przebywającymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "przebywajcie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -67,35 +61,27 @@ formExamplesSkip:
   - { form: "przebywałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przebywałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przebywałem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "przebywały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "przebywałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "przebywałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "przebywałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "przebywam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywane", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywaniu", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przebywana", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywaną", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywane", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanego", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanej", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanemu", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywani", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
   - { form: "przebywano", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "przebywany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "przebywanymi", reason: "в корпусе нет примеров для этой формы" }
+  - { form: "przebywany", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanych", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanym", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
+  - { form: "przebywanymi", reason: "глагол непереходный: przebywać w Londynie, przebywać za granicą — прямого дополнения у него не бывает. Винительный падеж в примечании к карточке обозначает срок (przebywał trzy tygodnie), а такой винительный меры подлежащим страдательного оборота не становится. Поэтому форм przebywany, przebywani в языке нет" }
 formExamples:
   - form: "przebywa"
     pl: "Prezydent obecnie przebywa w Miami."
@@ -109,6 +95,18 @@ formExamples:
     pl: "Przebywa tu w celu nauki japońskiego."
     ru: "Он находится здесь, чтобы учить японский."
     source: { kind: translated, id: 645910 }
+  - form: "przebywacie"
+    pl: "Przebywacie w Warszawie od roku?"
+    ru: "Вы живёте в Варшаве уже год?"
+    source: { kind: authored }
+  - form: "przebywacie"
+    pl: "Nie przebywacie tu na stałe."
+    ru: "Постоянно вы здесь не живёте."
+    source: { kind: authored }
+  - form: "przebywacie"
+    pl: "Przebywacie teraz za granicą."
+    ru: "Сейчас вы находитесь за границей."
+    source: { kind: authored }
   - form: "przebywać"
     pl: "Przebywać tutaj jest przyjemnie."
     ru: "Находиться здесь приятно."
@@ -121,6 +119,78 @@ formExamples:
     pl: "Jak długo on ma zamiar przebywać w Japonii?"
     ru: "Как долго он намерен пробыть в Японии?"
     source: { kind: translated, id: 728597 }
+  - form: "przebywaj"
+    pl: "Przebywaj częściej na świeżym powietrzu."
+    ru: "Чаще бывай на свежем воздухе."
+    source: { kind: authored }
+  - form: "przebywaj"
+    pl: "Nie przebywaj długo na słońcu."
+    ru: "Не находись долго на солнце."
+    source: { kind: authored }
+  - form: "przebywaj"
+    pl: "Przebywaj tam, gdzie ci dobrze."
+    ru: "Будь там, где тебе хорошо."
+    source: { kind: authored }
+  - form: "przebywają"
+    pl: "Przebywają w szpitalu od tygodnia."
+    ru: "Они находятся в больнице уже неделю."
+    source: { kind: authored }
+  - form: "przebywają"
+    pl: "Nie przebywają tu na stałe."
+    ru: "Постоянно они здесь не живут."
+    source: { kind: authored }
+  - form: "przebywają"
+    pl: "Przebywają teraz za granicą."
+    ru: "Сейчас они находятся за границей."
+    source: { kind: authored }
+  - form: "przebywającą"
+    pl: "Znam osobę przebywającą teraz za granicą."
+    ru: "Я знаю человека, находящегося сейчас за границей."
+    source: { kind: authored }
+  - form: "przebywającą"
+    pl: "Komisja odwiedziła pacjentkę przebywającą w szpitalu."
+    ru: "Комиссия навестила пациентку, находящуюся в больнице."
+    source: { kind: authored }
+  - form: "przebywającą"
+    pl: "Wspomniano rodzinę przebywającą za granicą."
+    ru: "Упомянули семью, находящуюся за границей."
+    source: { kind: authored }
+  - form: "przebywajcie"
+    pl: "Przebywajcie częściej na świeżym powietrzu."
+    ru: "Чаще бывайте на свежем воздухе."
+    source: { kind: authored }
+  - form: "przebywajcie"
+    pl: "Nie przebywajcie długo na słońcu."
+    ru: "Не находитесь долго на солнце."
+    source: { kind: authored }
+  - form: "przebywajcie"
+    pl: "Przebywajcie tam, gdzie wam dobrze."
+    ru: "Будьте там, где вам хорошо."
+    source: { kind: authored }
+  - form: "przebywajmy"
+    pl: "Przebywajmy częściej na świeżym powietrzu."
+    ru: "Будем чаще бывать на свежем воздухе."
+    source: { kind: authored }
+  - form: "przebywajmy"
+    pl: "Nie przebywajmy długo na słońcu."
+    ru: "Не будем долго находиться на солнце."
+    source: { kind: authored }
+  - form: "przebywajmy"
+    pl: "Przebywajmy tam, gdzie nam dobrze."
+    ru: "Будем там, где нам хорошо."
+    source: { kind: authored }
+  - form: "przebywali"
+    pl: "Przebywali w szpitalu przez tydzień."
+    ru: "Они пробыли в больнице неделю."
+    source: { kind: authored }
+  - form: "przebywali"
+    pl: "Nie przebywali tu na stałe."
+    ru: "Постоянно они здесь не жили."
+    source: { kind: authored }
+  - form: "przebywali"
+    pl: "Przebywali wtedy za granicą."
+    ru: "Тогда они находились за границей."
+    source: { kind: authored }
   - form: "przebywał"
     pl: "Czy jej wujek przebywał w Londynie?"
     ru: "Её дядя находился в Лондоне?"
@@ -157,6 +227,30 @@ formExamples:
     pl: "Przebywałam u rodziny."
     ru: "Я гостила у родни."
     source: { kind: authored }
+  - form: "przebywałaś"
+    pl: "Przebywałaś wtedy za granicą."
+    ru: "Тогда ты находилась за границей."
+    source: { kind: authored }
+  - form: "przebywałaś"
+    pl: "Przebywałaś w szpitalu przez tydzień."
+    ru: "Ты пробыла в больнице неделю."
+    source: { kind: authored }
+  - form: "przebywałaś"
+    pl: "Nie przebywałaś tu na stałe."
+    ru: "Постоянно ты здесь не жила."
+    source: { kind: authored }
+  - form: "przebywałem"
+    pl: "Przebywałem wtedy za granicą."
+    ru: "Тогда я находился за границей."
+    source: { kind: authored }
+  - form: "przebywałem"
+    pl: "Przebywałem w szpitalu przez tydzień."
+    ru: "Я пробыл в больнице неделю."
+    source: { kind: authored }
+  - form: "przebywałem"
+    pl: "Nie przebywałem tu na stałe."
+    ru: "Постоянно я здесь не жил."
+    source: { kind: authored }
   - form: "przebywałeś"
     pl: "Jak długo przebywałeś w Kanadzie?"
     ru: "Как долго ты пробыл в Канаде?"
@@ -168,6 +262,54 @@ formExamples:
   - form: "przebywałeś"
     pl: "Przebywałeś tam za długo."
     ru: "Ты пробыл там слишком долго."
+    source: { kind: authored }
+  - form: "przebywało"
+    pl: "Dziecko przebywało w szpitalu przez tydzień."
+    ru: "Ребёнок пробыл в больнице неделю."
+    source: { kind: authored }
+  - form: "przebywało"
+    pl: "W obozie przebywało stu ludzi."
+    ru: "В лагере находилось сто человек."
+    source: { kind: authored }
+  - form: "przebywało"
+    pl: "Wojsko przebywało w mieście miesiąc."
+    ru: "Войско пробыло в городе месяц."
+    source: { kind: authored }
+  - form: "przebywały"
+    pl: "Dzieci przebywały w szpitalu przez tydzień."
+    ru: "Дети пробыли в больнице неделю."
+    source: { kind: authored }
+  - form: "przebywały"
+    pl: "Ptaki przebywały tu do jesieni."
+    ru: "Птицы оставались здесь до осени."
+    source: { kind: authored }
+  - form: "przebywały"
+    pl: "Wojska przebywały w mieście miesiąc."
+    ru: "Войска пробыли в городе месяц."
+    source: { kind: authored }
+  - form: "przebywam"
+    pl: "Przebywam w Warszawie od roku."
+    ru: "Я живу в Варшаве уже год."
+    source: { kind: authored }
+  - form: "przebywam"
+    pl: "Nie przebywam tu na stałe."
+    ru: "Постоянно я здесь не живу."
+    source: { kind: authored }
+  - form: "przebywam"
+    pl: "Przebywam teraz za granicą."
+    ru: "Сейчас я нахожусь за границей."
+    source: { kind: authored }
+  - form: "przebywamy"
+    pl: "Przebywamy w Warszawie od roku."
+    ru: "Мы живём в Варшаве уже год."
+    source: { kind: authored }
+  - form: "przebywamy"
+    pl: "Nie przebywamy tu na stałe."
+    ru: "Постоянно мы здесь не живём."
+    source: { kind: authored }
+  - form: "przebywamy"
+    pl: "Przebywamy teraz za granicą."
+    ru: "Сейчас мы находимся за границей."
     source: { kind: authored }
   - form: "przebywania"
     pl: "Musimy mieć prawo do przebywania tutaj."
@@ -192,6 +334,30 @@ formExamples:
   - form: "przebywanie"
     pl: "Przebywanie tutaj jest zabronione."
     ru: "Находиться здесь запрещено."
+    source: { kind: authored }
+  - form: "przebywaniem"
+    pl: "Przed przebywaniem na słońcu chroni kapelusz."
+    ru: "От пребывания на солнце защищает шляпа."
+    source: { kind: authored }
+  - form: "przebywaniem"
+    pl: "Między mieszkaniem a przebywaniem jest różnica."
+    ru: "Между проживанием и пребыванием есть разница."
+    source: { kind: authored }
+  - form: "przebywaniem"
+    pl: "Zmęczył się przebywaniem w czterech ścianach."
+    ru: "Он устал от пребывания в четырёх стенах."
+    source: { kind: authored }
+  - form: "przebywaniu"
+    pl: "O przebywaniu na świeżym powietrzu mówił lekarz."
+    ru: "О пребывании на свежем воздухе говорил врач."
+    source: { kind: authored }
+  - form: "przebywaniu"
+    pl: "W przebywaniu za granicą nie ma nic złego."
+    ru: "В пребывании за границей нет ничего плохого."
+    source: { kind: authored }
+  - form: "przebywaniu"
+    pl: "Po przebywaniu w szpitalu potrzebował odpoczynku."
+    ru: "После пребывания в больнице ему нужен был отдых."
     source: { kind: authored }
   - form: "przebywasz"
     pl: "Jak długo przebywasz w Japonii?"
