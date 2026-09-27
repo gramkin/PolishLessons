@@ -42,10 +42,6 @@ idioms:
   - { pl: "zawołać kogoś", ru: "позвать кого-л." }
   - { pl: "zawołać o pomoc", ru: "позвать на помощь" }
 formExamplesSkip:
-  - { form: "zawołacie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołają", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołajmy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołali", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawołaliby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołalibyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
@@ -54,37 +50,16 @@ formExamplesSkip:
   - { form: "zawołałaby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałabym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zawołałam", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołałaś", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawołałby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałbym", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zawołałeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołało", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawołałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zawołały", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawołałyby", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałybyście", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "zawołałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "zawołałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zawołamy", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołana", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołaną", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołane", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanego", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanej", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanemu", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołani", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołania", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanie", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołaniem", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołaniu", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawołano", reason: "безличная форма; в корпусе примеров нет" }
-  - { form: "zawołany", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanych", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanym", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zawołanymi", reason: "в корпусе нет примеров для этой формы" }
   - { form: "zawoławszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
   - form: "zawoła"
@@ -98,6 +73,18 @@ formExamples:
   - form: "zawoła"
     pl: "Nikt cię nie zawoła."
     ru: "Никто тебя не позовёт."
+    source: { kind: authored }
+  - form: "zawołacie"
+    pl: "Zawołacie go na obiad?"
+    ru: "Вы позовёте его обедать?"
+    source: { kind: authored }
+  - form: "zawołacie"
+    pl: "Zawołacie lekarza."
+    ru: "Вы позовёте врача."
+    source: { kind: authored }
+  - form: "zawołacie"
+    pl: "Nie zawołacie nikogo."
+    ru: "Вы никого не позовёте."
     source: { kind: authored }
   - form: "zawołać"
     pl: "Możesz zawołać Toma?"
@@ -123,6 +110,18 @@ formExamples:
     pl: "Zawołaj mnie, gdy będziesz gotowy."
     ru: "Позови меня, когда будешь готов."
     source: { kind: translated, id: 3584605 }
+  - form: "zawołają"
+    pl: "Zawołają go na obiad."
+    ru: "Они позовут его обедать."
+    source: { kind: authored }
+  - form: "zawołają"
+    pl: "Zawołają lekarza."
+    ru: "Они позовут врача."
+    source: { kind: authored }
+  - form: "zawołają"
+    pl: "Nie zawołają nikogo."
+    ru: "Они никого не позовут."
+    source: { kind: authored }
   - form: "zawołajcie"
     pl: "Zawołajcie policję!"
     ru: "Позовите полицию!"
@@ -134,6 +133,30 @@ formExamples:
   - form: "zawołajcie"
     pl: "Zawołajcie lekarza."
     ru: "Позовите врача."
+    source: { kind: authored }
+  - form: "zawołajmy"
+    pl: "Zawołajmy go na obiad."
+    ru: "Позовём его обедать."
+    source: { kind: authored }
+  - form: "zawołajmy"
+    pl: "Zawołajmy lekarza."
+    ru: "Позовём врача."
+    source: { kind: authored }
+  - form: "zawołajmy"
+    pl: "Zawołajmy dzieci do domu."
+    ru: "Позовём детей домой."
+    source: { kind: authored }
+  - form: "zawołali"
+    pl: "Zawołali go na obiad."
+    ru: "Они позвали его обедать."
+    source: { kind: authored }
+  - form: "zawołali"
+    pl: "Zawołali lekarza."
+    ru: "Они позвали врача."
+    source: { kind: authored }
+  - form: "zawołali"
+    pl: "Nie zawołali nikogo."
+    ru: "Они никого не позвали."
     source: { kind: authored }
   - form: "zawołał"
     pl: "Zawołał głośno o pomoc."
@@ -159,6 +182,30 @@ formExamples:
     pl: "Zawołała mnie z ogrodu."
     ru: "Она позвала меня из сада."
     source: { kind: authored }
+  - form: "zawołałam"
+    pl: "Zawołałam go na obiad."
+    ru: "Я позвала его обедать."
+    source: { kind: authored }
+  - form: "zawołałam"
+    pl: "Zawołałam lekarza."
+    ru: "Я позвала врача."
+    source: { kind: authored }
+  - form: "zawołałam"
+    pl: "Nie zawołałam nikogo."
+    ru: "Я никого не позвала."
+    source: { kind: authored }
+  - form: "zawołałaś"
+    pl: "Zawołałaś go na obiad?"
+    ru: "Ты позвала его обедать?"
+    source: { kind: authored }
+  - form: "zawołałaś"
+    pl: "Zawołałaś lekarza."
+    ru: "Ты позвала врача."
+    source: { kind: authored }
+  - form: "zawołałaś"
+    pl: "Nie zawołałaś nikogo."
+    ru: "Ты никого не позвала."
+    source: { kind: authored }
   - form: "zawołałem"
     pl: "Zawołałem Toma."
     ru: "Я позвал Тома."
@@ -171,6 +218,42 @@ formExamples:
     pl: "Myślę, że wiesz, dlaczego cię zawołałem."
     ru: "Думаю, ты знаешь, зачем я тебя позвал."
     source: { kind: translated, id: 3410524 }
+  - form: "zawołałeś"
+    pl: "Zawołałeś go na obiad?"
+    ru: "Ты позвал его обедать?"
+    source: { kind: authored }
+  - form: "zawołałeś"
+    pl: "Zawołałeś lekarza."
+    ru: "Ты позвал врача."
+    source: { kind: authored }
+  - form: "zawołałeś"
+    pl: "Nie zawołałeś nikogo."
+    ru: "Ты никого не позвал."
+    source: { kind: authored }
+  - form: "zawołało"
+    pl: "Dziecko zawołało matkę."
+    ru: "Ребёнок позвал мать."
+    source: { kind: authored }
+  - form: "zawołało"
+    pl: "Żadne z nich nie zawołało pomocy."
+    ru: "Никто из них не позвал на помощь."
+    source: { kind: authored }
+  - form: "zawołało"
+    pl: "Coś zawołało z ciemności."
+    ru: "Что-то позвало из темноты."
+    source: { kind: authored }
+  - form: "zawołały"
+    pl: "Dzieci zawołały matkę."
+    ru: "Дети позвали мать."
+    source: { kind: authored }
+  - form: "zawołały"
+    pl: "Sąsiadki zawołały nas przez płot."
+    ru: "Соседки позвали нас через забор."
+    source: { kind: authored }
+  - form: "zawołały"
+    pl: "Nie zawołały nikogo."
+    ru: "Они никого не позвали."
+    source: { kind: authored }
   - form: "zawołam"
     pl: "Zawołam ją o trzeciej."
     ru: "Я позову её в три."
@@ -183,6 +266,198 @@ formExamples:
     pl: "Nie zawołam ich."
     ru: "Я их не позову."
     source: { kind: translated, id: 12189100 }
+  - form: "zawołamy"
+    pl: "Zawołamy go na obiad."
+    ru: "Мы позовём его обедать."
+    source: { kind: authored }
+  - form: "zawołamy"
+    pl: "Zawołamy lekarza."
+    ru: "Мы позовём врача."
+    source: { kind: authored }
+  - form: "zawołamy"
+    pl: "Nie zawołamy nikogo."
+    ru: "Мы никого не позовём."
+    source: { kind: authored }
+  - form: "zawołana"
+    pl: "Została zawołana do dyrektora."
+    ru: "Её вызвали к директору."
+    source: { kind: authored }
+  - form: "zawołana"
+    pl: "Nie była zawołana na obiad."
+    ru: "Её не звали обедать."
+    source: { kind: authored }
+  - form: "zawołana"
+    pl: "Zawołana po imieniu, odwróciła się."
+    ru: "Окликнутая по имени, она обернулась."
+    source: { kind: authored }
+  - form: "zawołaną"
+    pl: "Znam uczennicę zawołaną do dyrektora."
+    ru: "Я знаю ученицу, вызванную к директору."
+    source: { kind: authored }
+  - form: "zawołaną"
+    pl: "Uznano ją za zawołaną w porę."
+    ru: "Её сочли вызванной вовремя."
+    source: { kind: authored }
+  - form: "zawołaną"
+    pl: "Widzieliśmy zawołaną po imieniu dziewczynkę."
+    ru: "Мы видели девочку, окликнутую по имени."
+    source: { kind: authored }
+  - form: "zawołane"
+    pl: "Dziecko zostało zawołane do domu."
+    ru: "Ребёнка позвали домой."
+    source: { kind: authored }
+  - form: "zawołane"
+    pl: "Dzieci nie były zawołane na obiad."
+    ru: "Детей не звали обедать."
+    source: { kind: authored }
+  - form: "zawołane"
+    pl: "Zawołane po imieniu, odwróciły się."
+    ru: "Окликнутые по имени, они обернулись."
+    source: { kind: authored }
+  - form: "zawołanego"
+    pl: "Nie widzę tu nikogo zawołanego."
+    ru: "Я не вижу здесь никого вызванного."
+    source: { kind: authored }
+  - form: "zawołanego"
+    pl: "Szukam ucznia zawołanego do dyrektora."
+    ru: "Я ищу ученика, вызванного к директору."
+    source: { kind: authored }
+  - form: "zawołanego"
+    pl: "Od zawołanego lekarza wiele zależy."
+    ru: "От вызванного врача многое зависит."
+    source: { kind: authored }
+  - form: "zawołanej"
+    pl: "Mówimy o uczennicy zawołanej do dyrektora."
+    ru: "Мы говорим об ученице, вызванной к директору."
+    source: { kind: authored }
+  - form: "zawołanej"
+    pl: "Nie znam osoby zawołanej po imieniu."
+    ru: "Я не знаю человека, окликнутого по имени."
+    source: { kind: authored }
+  - form: "zawołanej"
+    pl: "Dzięki zawołanej w porę pomocy przeżył."
+    ru: "Благодаря вовремя вызванной помощи он выжил."
+    source: { kind: authored }
+  - form: "zawołanemu"
+    pl: "Przyjrzyj się temu zawołanemu chłopcu."
+    ru: "Присмотрись к этому вызванному мальчику."
+    source: { kind: authored }
+  - form: "zawołanemu"
+    pl: "Zawołanemu do dyrektora uczniowi zrzedła mina."
+    ru: "У вызванного к директору ученика вытянулось лицо."
+    source: { kind: authored }
+  - form: "zawołanemu"
+    pl: "Dzięki zawołanemu lekarzowi ocalał."
+    ru: "Благодаря вызванному врачу он уцелел."
+    source: { kind: authored }
+  - form: "zawołani"
+    pl: "Zostali zawołani do dyrektora."
+    ru: "Их вызвали к директору."
+    source: { kind: authored }
+  - form: "zawołani"
+    pl: "Zawołani po imieniu, odwrócili się."
+    ru: "Окликнутые по имени, они обернулись."
+    source: { kind: authored }
+  - form: "zawołani"
+    pl: "Nie byli zawołani na obiad."
+    ru: "Их не звали обедать."
+    source: { kind: authored }
+  - form: "zawołania"
+    pl: "Bez zawołania nikt nie przyjdzie."
+    ru: "Без зова никто не придёт."
+    source: { kind: authored }
+  - form: "zawołania"
+    pl: "Od zawołania do odpowiedzi minęła chwila."
+    ru: "От зова до ответа прошла минута."
+    source: { kind: authored }
+  - form: "zawołania"
+    pl: "Nie doczekał się zawołania."
+    ru: "Он так и не дождался зова."
+    source: { kind: authored }
+  - form: "zawołanie"
+    pl: "Zawołanie go zajęło chwilę."
+    ru: "Позвать его заняло минуту."
+    source: { kind: authored }
+  - form: "zawołanie"
+    pl: "Zawołanie o pomoc rozległo się w nocy."
+    ru: "Зов о помощи раздался ночью."
+    source: { kind: authored }
+  - form: "zawołanie"
+    pl: "Zawołanie rodu widniało na tarczy."
+    ru: "Девиз рода красовался на щите."
+    source: { kind: authored }
+  - form: "zawołaniem"
+    pl: "Zaskoczył nas zawołaniem."
+    ru: "Он удивил нас окриком."
+    source: { kind: authored }
+  - form: "zawołaniem"
+    pl: "Między szeptem a zawołaniem jest różnica."
+    ru: "Между шёпотом и окриком есть разница."
+    source: { kind: authored }
+  - form: "zawołaniem"
+    pl: "Skończyło się zawołaniem o pomoc."
+    ru: "Кончилось зовом о помощи."
+    source: { kind: authored }
+  - form: "zawołaniu"
+    pl: "Po zawołaniu odwrócił się."
+    ru: "После оклика он обернулся."
+    source: { kind: authored }
+  - form: "zawołaniu"
+    pl: "O zawołaniu rodu opowiada kronika."
+    ru: "О девизе рода рассказывает хроника."
+    source: { kind: authored }
+  - form: "zawołaniu"
+    pl: "W tym zawołaniu było przerażenie."
+    ru: "В этом зове был ужас."
+    source: { kind: authored }
+  - form: "zawołany"
+    pl: "Został zawołany do dyrektora."
+    ru: "Его вызвали к директору."
+    source: { kind: authored }
+  - form: "zawołany"
+    pl: "Nie był zawołany na obiad."
+    ru: "Его не звали обедать."
+    source: { kind: authored }
+  - form: "zawołany"
+    pl: "Zawołany po imieniu, odwrócił się."
+    ru: "Окликнутый по имени, он обернулся."
+    source: { kind: authored }
+  - form: "zawołanych"
+    pl: "Nie ma tu zawołanych uczniów."
+    ru: "Здесь нет вызванных учеников."
+    source: { kind: authored }
+  - form: "zawołanych"
+    pl: "Wśród zawołanych był i on."
+    ru: "Среди вызванных был и он."
+    source: { kind: authored }
+  - form: "zawołanych"
+    pl: "Od zawołanych świadków zależy sprawa."
+    ru: "От вызванных свидетелей зависит дело."
+    source: { kind: authored }
+  - form: "zawołanym"
+    pl: "Zawołanym do dyrektora uczniom zrzedły miny."
+    ru: "У вызванных к директору учеников вытянулись лица."
+    source: { kind: authored }
+  - form: "zawołanym"
+    pl: "Z zawołanym w porę lekarzem wszystko się udało."
+    ru: "С вовремя вызванным врачом всё удалось."
+    source: { kind: authored }
+  - form: "zawołanym"
+    pl: "W zawołanym na pomoc sąsiedzie znaleźli oparcie."
+    ru: "В соседе, позванном на помощь, они нашли опору."
+    source: { kind: authored }
+  - form: "zawołanymi"
+    pl: "Między zawołanymi a niewezwanymi jest różnica."
+    ru: "Между позванными и незваными есть разница."
+    source: { kind: authored }
+  - form: "zawołanymi"
+    pl: "Zajmuje się zawołanymi na pomoc sąsiadami."
+    ru: "Он занимается соседями, позванными на помощь."
+    source: { kind: authored }
+  - form: "zawołanymi"
+    pl: "Rozmawiał z zawołanymi świadkami."
+    ru: "Он говорил с вызванными свидетелями."
+    source: { kind: authored }
   - form: "zawołasz"
     pl: "Przyjdzie jeśli go zawołasz."
     ru: "Он придёт, если ты его позовёшь."
