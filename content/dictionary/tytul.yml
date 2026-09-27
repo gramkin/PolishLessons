@@ -53,15 +53,19 @@ idioms:
   - { pl: "pod tytułem", ru: "под названием" }
   - { pl: "tytuł filmu", ru: "название фильма" }
   - { pl: "tytuł mistrza świata", ru: "звание чемпиона мира" }
-formExamplesSkip:
-  - { form: "tytule", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytułach", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytułami", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytułom", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytułowi", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytułów", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "tytuły", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "tytule"
+    pl: "W tytule jest błąd."
+    ru: "В заглавии ошибка."
+    source: { kind: authored }
+  - form: "tytule"
+    pl: "O tytule rozmawialiśmy wczoraj."
+    ru: "О названии мы говорили вчера."
+    source: { kind: authored }
+  - form: "tytule"
+    pl: "Przy tym tytule siedział tydzień."
+    ru: "Над этим названием он сидел неделю."
+    source: { kind: authored }
   - form: "tytuł"
     pl: "Jaki jest tytuł rozdziału?"
     ru: "Какое название у главы?"
@@ -82,6 +86,30 @@ formExamples:
     pl: "Tytuł tej powieści jest zaczerpnięty z Biblii."
     ru: "Название этого романа взято из Библии."
     source: { kind: translated, id: 892187 }
+  - form: "tytułach"
+    pl: "W tych tytułach nie ma nic ciekawego."
+    ru: "В этих названиях нет ничего интересного."
+    source: { kind: authored }
+  - form: "tytułach"
+    pl: "O tytułach naukowych mówi regulamin."
+    ru: "Об учёных званиях говорит регламент."
+    source: { kind: authored }
+  - form: "tytułach"
+    pl: "W tytułach rozdziałów są cytaty."
+    ru: "В названиях глав есть цитаты."
+    source: { kind: authored }
+  - form: "tytułami"
+    pl: "Między tytułami obu wersji jest różnica."
+    ru: "Между названиями обеих версий есть разница."
+    source: { kind: authored }
+  - form: "tytułami"
+    pl: "Zajmuje się tytułami prasowymi."
+    ru: "Он занимается газетными заголовками."
+    source: { kind: authored }
+  - form: "tytułami"
+    pl: "Zasypał nas tytułami do wyboru."
+    ru: "Он завалил нас названиями на выбор."
+    source: { kind: authored }
   - form: "tytułem"
     pl: "Zagramy w grę pod tytułem szczyp i uciekaj?"
     ru: "Сыграем в игру под названием «ущипни и беги»?"
@@ -94,6 +122,42 @@ formExamples:
     pl: "Film pod tytułem „Popiół” zdobył nagrodę."
     ru: "Фильм под названием «Пепел» получил награду."
     source: { kind: authored }
+  - form: "tytułom"
+    pl: "Przyjrzyj się tym tytułom."
+    ru: "Присмотрись к этим названиям."
+    source: { kind: authored }
+  - form: "tytułom"
+    pl: "Nie ufaj krzykliwym tytułom."
+    ru: "Не доверяй крикливым заголовкам."
+    source: { kind: authored }
+  - form: "tytułom"
+    pl: "Dzięki dobrym tytułom książki się sprzedają."
+    ru: "Благодаря хорошим названиям книги продаются."
+    source: { kind: authored }
+  - form: "tytułowi"
+    pl: "Przyjrzyj się temu tytułowi."
+    ru: "Присмотрись к этому названию."
+    source: { kind: authored }
+  - form: "tytułowi"
+    pl: "Tytułowi brakuje wyrazistości."
+    ru: "Названию не хватает выразительности."
+    source: { kind: authored }
+  - form: "tytułowi"
+    pl: "Poświęcono tytułowi cały akapit."
+    ru: "Названию посвятили целый абзац."
+    source: { kind: authored }
+  - form: "tytułów"
+    pl: "Nie znam tych tytułów."
+    ru: "Я не знаю этих названий."
+    source: { kind: authored }
+  - form: "tytułów"
+    pl: "Bez tytułów trudno się połapać."
+    ru: "Без названий трудно разобраться."
+    source: { kind: authored }
+  - form: "tytułów"
+    pl: "Lista tytułów zajmuje stronę."
+    ru: "Список названий занимает страницу."
+    source: { kind: authored }
   - form: "tytułu"
     pl: "Zaśpiewała piosenkę, której tytułu nie znam."
     ru: "Она спела песню, названия которой я не знаю."
@@ -105,4 +169,16 @@ formExamples:
   - form: "tytułu"
     pl: "Szukam tytułu do artykułu."
     ru: "Я ищу заголовок для статьи."
+    source: { kind: authored }
+  - form: "tytuły"
+    pl: "Tytuły rozdziałów są zbyt długie."
+    ru: "Названия глав слишком длинные."
+    source: { kind: authored }
+  - form: "tytuły"
+    pl: "Tytuły naukowe nadaje uczelnia."
+    ru: "Учёные звания присваивает вуз."
+    source: { kind: authored }
+  - form: "tytuły"
+    pl: "Krzykliwe tytuły sprzedają gazety."
+    ru: "Крикливые заголовки продают газеты."
     source: { kind: authored }
