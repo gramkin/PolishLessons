@@ -41,24 +41,6 @@ memory: "począć — книжное «начать», но живёт преж�
 idioms:
   - { pl: "co począć?", ru: "что делать?" }
   - { pl: "począwszy od", ru: "начиная с" }
-formExamplesSkip:
-  - { form: "począłby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "począłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "począłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęlibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęlibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "poczęliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "poczęłaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "poczęłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "poczęłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
 formExamples:
   - form: "począć"
     pl: "Co począć?"
@@ -83,6 +65,42 @@ formExamples:
   - form: "począł"
     pl: "Począł od początku."
     ru: "Он начал с начала."
+    source: { kind: authored }
+  - form: "począłby"
+    pl: "Gdyby miał odwagę, począłby mówić prawdę."
+    ru: "Будь у него смелость, он начал бы говорить правду."
+    source: { kind: authored }
+  - form: "począłby"
+    pl: "Nikt nie począłby takiej pracy bez wsparcia."
+    ru: "Никто не начал бы такой работы без поддержки."
+    source: { kind: authored }
+  - form: "począłby"
+    pl: "Począłby nowe życie na wsi."
+    ru: "Он начал бы новую жизнь в деревне."
+    source: { kind: authored }
+  - form: "począłbym"
+    pl: "Począłbym wszystko od nowa."
+    ru: "Я начал бы всё заново."
+    source: { kind: authored }
+  - form: "począłbym"
+    pl: "Gdybym mógł, począłbym życie inaczej."
+    ru: "Если бы я мог, я начал бы жизнь иначе."
+    source: { kind: authored }
+  - form: "począłbym"
+    pl: "Nie wiem, co począłbym bez was."
+    ru: "Не знаю, что бы я делал без вас."
+    source: { kind: authored }
+  - form: "począłbyś"
+    pl: "Co począłbyś na moim miejscu?"
+    ru: "Что бы ты делал на моём месте?"
+    source: { kind: authored }
+  - form: "począłbyś"
+    pl: "Począłbyś wszystko od nowa?"
+    ru: "Ты начал бы всё заново?"
+    source: { kind: authored }
+  - form: "począłbyś"
+    pl: "Gdybyś miał wybór, począłbyś inaczej?"
+    ru: "Если бы у тебя был выбор, ты начал бы иначе?"
     source: { kind: authored }
   - form: "począłem"
     pl: "Począłem mówić powoli."
@@ -192,6 +210,66 @@ formExamples:
     pl: "Poczęli budować dom."
     ru: "Они начали строить дом."
     source: { kind: authored }
+  - form: "poczęliby"
+    pl: "Gdyby im pozwolono, poczęliby budowę wiosną."
+    ru: "Если бы им позволили, они начали бы стройку весной."
+    source: { kind: authored }
+  - form: "poczęliby"
+    pl: "Osadnicy poczęliby nowe życie za oceanem."
+    ru: "Переселенцы начали бы новую жизнь за океаном."
+    source: { kind: authored }
+  - form: "poczęliby"
+    pl: "Nie poczęliby tej pracy bez zgody."
+    ru: "Они не начали бы этой работы без согласия."
+    source: { kind: authored }
+  - form: "poczęlibyście"
+    pl: "Co poczęlibyście w takiej sytuacji?"
+    ru: "Что бы вы делали в такой ситуации?"
+    source: { kind: authored }
+  - form: "poczęlibyście"
+    pl: "Poczęlibyście wszystko od nowa?"
+    ru: "Вы начали бы всё заново?"
+    source: { kind: authored }
+  - form: "poczęlibyście"
+    pl: "Gdybyście mieli wybór, poczęlibyście inaczej?"
+    ru: "Будь у вас выбор, вы начали бы иначе?"
+    source: { kind: authored }
+  - form: "poczęlibyśmy"
+    pl: "Poczęlibyśmy wszystko od nowa."
+    ru: "Мы начали бы всё заново."
+    source: { kind: authored }
+  - form: "poczęlibyśmy"
+    pl: "Gdybyśmy mieli środki, poczęlibyśmy budowę."
+    ru: "Будь у нас средства, мы начали бы стройку."
+    source: { kind: authored }
+  - form: "poczęlibyśmy"
+    pl: "Razem poczęlibyśmy nowe życie."
+    ru: "Вместе мы начали бы новую жизнь."
+    source: { kind: authored }
+  - form: "poczęliście"
+    pl: "Kiedy poczęliście tę pracę?"
+    ru: "Когда вы начали эту работу?"
+    source: { kind: authored }
+  - form: "poczęliście"
+    pl: "Poczęliście wszystko od nowa."
+    ru: "Вы начали всё заново."
+    source: { kind: authored }
+  - form: "poczęliście"
+    pl: "Poczęliście budowę wiosną."
+    ru: "Вы начали стройку весной."
+    source: { kind: authored }
+  - form: "poczęliśmy"
+    pl: "Poczęliśmy wszystko od początku."
+    ru: "Мы начали всё сначала."
+    source: { kind: authored }
+  - form: "poczęliśmy"
+    pl: "Wiosną poczęliśmy budowę domu."
+    ru: "Весной мы начали строить дом."
+    source: { kind: authored }
+  - form: "poczęliśmy"
+    pl: "Poczęliśmy nowe życie w obcym mieście."
+    ru: "Мы начали новую жизнь в чужом городе."
+    source: { kind: authored }
   - form: "poczęła"
     pl: "Sława Cycerona poczęła rosnąć."
     ru: "Слава Цицерона начала расти."
@@ -203,6 +281,42 @@ formExamples:
   - form: "poczęła"
     pl: "Woda poczęła wrzeć."
     ru: "Вода начала кипеть."
+    source: { kind: authored }
+  - form: "poczęłaby"
+    pl: "Ona poczęłaby wszystko od nowa."
+    ru: "Она начала бы всё заново."
+    source: { kind: authored }
+  - form: "poczęłaby"
+    pl: "Gdyby mogła, poczęłaby inne życie."
+    ru: "Если бы могла, она начала бы другую жизнь."
+    source: { kind: authored }
+  - form: "poczęłaby"
+    pl: "Wiosną przyroda poczęłaby budzić się wcześniej."
+    ru: "Весной природа начала бы просыпаться раньше."
+    source: { kind: authored }
+  - form: "poczęłabym"
+    pl: "Poczęłabym wszystko od początku."
+    ru: "Я начала бы всё сначала."
+    source: { kind: authored }
+  - form: "poczęłabym"
+    pl: "Nie wiem, co poczęłabym bez tej pomocy."
+    ru: "Не знаю, что бы я делала без этой помощи."
+    source: { kind: authored }
+  - form: "poczęłabym"
+    pl: "Gdybym mogła, poczęłabym inaczej."
+    ru: "Если бы я могла, я начала бы иначе."
+    source: { kind: authored }
+  - form: "poczęłabyś"
+    pl: "Co poczęłabyś na jej miejscu?"
+    ru: "Что бы ты делала на её месте?"
+    source: { kind: authored }
+  - form: "poczęłabyś"
+    pl: "Poczęłabyś wszystko od nowa?"
+    ru: "Ты начала бы всё заново?"
+    source: { kind: authored }
+  - form: "poczęłabyś"
+    pl: "Gdybyś mogła, poczęłabyś inne życie?"
+    ru: "Если бы могла, ты начала бы другую жизнь?"
     source: { kind: authored }
   - form: "poczęłam"
     pl: "Poczęłam mówić powoli."
@@ -240,6 +354,18 @@ formExamples:
     pl: "Wszystko poczęło się od drobiazgu."
     ru: "Всё началось с мелочи."
     source: { kind: authored }
+  - form: "poczęłoby"
+    pl: "Dziecko poczęłoby płakać ze strachu."
+    ru: "Ребёнок начал бы плакать от страха."
+    source: { kind: authored }
+  - form: "poczęłoby"
+    pl: "Niebo poczęłoby szarzeć przed świtem."
+    ru: "Небо начало бы сереть перед рассветом."
+    source: { kind: authored }
+  - form: "poczęłoby"
+    pl: "Wszystko poczęłoby się od nowa."
+    ru: "Всё началось бы заново."
+    source: { kind: authored }
   - form: "poczęły"
     pl: "Liście drzew poczęły żółknąć."
     ru: "Листья деревьев начали желтеть."
@@ -251,6 +377,66 @@ formExamples:
   - form: "poczęły"
     pl: "Chmury poczęły się rozchodzić."
     ru: "Тучи начали расходиться."
+    source: { kind: authored }
+  - form: "poczęłyby"
+    pl: "Liście poczęłyby żółknąć wcześniej."
+    ru: "Листья начали бы желтеть раньше."
+    source: { kind: authored }
+  - form: "poczęłyby"
+    pl: "Gdyby nie mróz, kwiaty poczęłyby kwitnąć."
+    ru: "Если бы не мороз, цветы начали бы цвести."
+    source: { kind: authored }
+  - form: "poczęłyby"
+    pl: "Rzeki poczęłyby wzbierać po deszczach."
+    ru: "Реки начали бы подниматься после дождей."
+    source: { kind: authored }
+  - form: "poczęłybyście"
+    pl: "Co poczęłybyście na naszym miejscu?"
+    ru: "Что бы вы делали на нашем месте?"
+    source: { kind: authored }
+  - form: "poczęłybyście"
+    pl: "Poczęłybyście wszystko od nowa?"
+    ru: "Вы начали бы всё заново?"
+    source: { kind: authored }
+  - form: "poczęłybyście"
+    pl: "Gdybyście mogły, poczęłybyście inaczej?"
+    ru: "Если бы вы могли, вы начали бы иначе?"
+    source: { kind: authored }
+  - form: "poczęłybyśmy"
+    pl: "Poczęłybyśmy wszystko od początku."
+    ru: "Мы начали бы всё сначала."
+    source: { kind: authored }
+  - form: "poczęłybyśmy"
+    pl: "Gdybyśmy mogły, poczęłybyśmy inaczej."
+    ru: "Если бы мы могли, мы начали бы иначе."
+    source: { kind: authored }
+  - form: "poczęłybyśmy"
+    pl: "Razem poczęłybyśmy nowe życie."
+    ru: "Вместе мы начали бы новую жизнь."
+    source: { kind: authored }
+  - form: "poczęłyście"
+    pl: "Kiedy poczęłyście tę pracę?"
+    ru: "Когда вы начали эту работу?"
+    source: { kind: authored }
+  - form: "poczęłyście"
+    pl: "Poczęłyście wszystko od nowa."
+    ru: "Вы начали всё заново."
+    source: { kind: authored }
+  - form: "poczęłyście"
+    pl: "Poczęłyście naukę późno."
+    ru: "Вы начали учёбу поздно."
+    source: { kind: authored }
+  - form: "poczęłyśmy"
+    pl: "Poczęłyśmy wszystko od początku."
+    ru: "Мы начали всё сначала."
+    source: { kind: authored }
+  - form: "poczęłyśmy"
+    pl: "Wiosną poczęłyśmy remont."
+    ru: "Весной мы начали ремонт."
+    source: { kind: authored }
+  - form: "poczęłyśmy"
+    pl: "Poczęłyśmy nowe życie razem."
+    ru: "Мы начали новую жизнь вместе."
     source: { kind: authored }
   - form: "poczęta"
     pl: "Dziewczynka została poczęta wiosną."
