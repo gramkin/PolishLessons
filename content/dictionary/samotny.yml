@@ -68,7 +68,6 @@ formExamplesSkip:
   - { form: "najsamotniejszych", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
   - { form: "najsamotniejszym", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
   - { form: "najsamotniejszymi", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
-  - { form: "samotnemu", reason: "в корпусе нет примеров для этой падежной формы" }
   - { form: "samotniejsi", reason: "в корпусе нет примеров для этой падежной формы" }
   - { form: "samotniejsza", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
   - { form: "samotniejszą", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
@@ -80,7 +79,6 @@ formExamplesSkip:
   - { form: "samotniejszych", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
   - { form: "samotniejszym", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
   - { form: "samotniejszymi", reason: "в корпусе нет примеров для степеней сравнения: чаще говорят bardziej samotny" }
-  - { form: "samotnymi", reason: "в корпусе нет примеров для этой падежной формы" }
 formExamples:
   - form: "samotna"
     pl: "Ona była samotna."
@@ -142,6 +140,18 @@ formExamples:
     pl: "Unikał samotnej pracy."
     ru: "Он избегал работы в одиночку."
     source: { kind: authored }
+  - form: "samotnemu"
+    pl: "Pomógł samotnemu sąsiadowi."
+    ru: "Он помог одинокому соседу."
+    source: { kind: authored }
+  - form: "samotnemu"
+    pl: "Samotnemu ojcu przysługuje ulga."
+    ru: "Одинокому отцу полагается льгота."
+    source: { kind: authored }
+  - form: "samotnemu"
+    pl: "Nikt nie odmówił samotnemu człowiekowi pomocy."
+    ru: "Никто не отказал одинокому человеку в помощи."
+    source: { kind: authored }
   - form: "samotni"
     pl: "Istnieje możliwość, że Tom i Mary czują się samotni, ale nie sądzę, żeby tak było."
     ru: "Возможно, Том и Мэри чувствуют себя одинокими, но я так не думаю."
@@ -190,3 +200,15 @@ formExamples:
     pl: "Ciotka mieszka w samotnym domu na wsi."
     ru: "Тётя живёт в уединённом доме в деревне."
     source: { kind: translated, id: 923177 }
+  - form: "samotnymi"
+    pl: "Opiekuje się samotnymi seniorami."
+    ru: "Он заботится об одиноких пожилых людях."
+    source: { kind: authored }
+  - form: "samotnymi"
+    pl: "Między samotnymi domami ciągnie się pole."
+    ru: "Между одинокими домами тянется поле."
+    source: { kind: authored }
+  - form: "samotnymi"
+    pl: "Fundacja zajmuje się samotnymi matkami."
+    ru: "Фонд занимается одинокими матерями."
+    source: { kind: authored }
