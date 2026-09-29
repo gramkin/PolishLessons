@@ -53,40 +53,10 @@ idioms:
   - { pl: "znieść karę śmierci", ru: "отменить смертную казнь" }
   - { pl: "znieść jajko", ru: "снести яйцо" }
 formExamplesSkip:
-  - { form: "zniesiecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zniesiemy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zniesieni", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesienie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zniesieniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zniesieniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zniesioną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesionego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesionej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesionemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesionym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zniesionymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "znieście", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "znieśliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "znieślibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "znieślibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "znieśliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "znieśliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "znieśmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "zniosł", reason: "такой формы нет: мужской род прошедшего времени — zniósł, с ó в закрытом слоге" }
-  - { form: "zniosłaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłaś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zniosłby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłeś", reason: "в корпусе нет примеров для этой формы" }
-  - { form: "zniosłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zniosłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zniosłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
+  - { form: "zniosłby", reason: "такой формы нет: условное наклонение мужского рода строится от zniósł — zniósłby, zniósłbym, zniósłbyś, с ó, как и сама форма zniósł. Частица by не открывает слог обратно. Женские и множественные формы при этом верны: zniosła → zniosłaby, zniosły → zniosłyby, и 2-е лицо zniosłeś, zniosłaś тоже" }
+  - { form: "zniosłbym", reason: "такой формы нет: условное наклонение мужского рода строится от zniósł — zniósłby, zniósłbym, zniósłbyś, с ó, как и сама форма zniósł. Частица by не открывает слог обратно. Женские и множественные формы при этом верны: zniosła → zniosłaby, zniosły → zniosłyby, и 2-е лицо zniosłeś, zniosłaś тоже" }
+  - { form: "zniosłbyś", reason: "такой формы нет: условное наклонение мужского рода строится от zniósł — zniósłby, zniósłbym, zniósłbyś, с ó, как и сама форма zniósł. Частица by не открывает слог обратно. Женские и множественные формы при этом верны: zniosła → zniosłaby, zniosły → zniosłyby, и 2-е лицо zniosłeś, zniosłaś тоже" }
 formExamples:
   - form: "zniesie"
     pl: "Tom mówi, że nie zniesie dłużej tego hałasu."
@@ -100,6 +70,42 @@ formExamples:
     pl: "Kura zniesie jajko."
     ru: "Курица снесёт яйцо."
     source: { kind: authored }
+  - form: "zniesiecie"
+    pl: "Zniesiecie walizkę na dół?"
+    ru: "Вы снесёте чемодан вниз?"
+    source: { kind: authored }
+  - form: "zniesiecie"
+    pl: "Czy zniesiecie ten hałas?"
+    ru: "Вы вынесете этот шум?"
+    source: { kind: authored }
+  - form: "zniesiecie"
+    pl: "Zniesiecie ten podatek?"
+    ru: "Вы отмените этот налог?"
+    source: { kind: authored }
+  - form: "zniesiemy"
+    pl: "Zniesiemy walizki na dół."
+    ru: "Мы снесём чемоданы вниз."
+    source: { kind: authored }
+  - form: "zniesiemy"
+    pl: "Tego hałasu nie zniesiemy."
+    ru: "Этого шума мы не вынесем."
+    source: { kind: authored }
+  - form: "zniesiemy"
+    pl: "Zniesiemy ten podatek."
+    ru: "Мы отменим этот налог."
+    source: { kind: authored }
+  - form: "zniesieni"
+    pl: "Ranni zostali zniesieni z góry."
+    ru: "Раненых снесли с горы."
+    source: { kind: authored }
+  - form: "zniesieni"
+    pl: "Zniesieni ze stoku turyści trafili do szpitala."
+    ru: "Снесённые со склона туристы попали в больницу."
+    source: { kind: authored }
+  - form: "zniesieni"
+    pl: "Zniesieni przez ratowników, odzyskali siły."
+    ru: "Снесённые спасателями, они пришли в себя."
+    source: { kind: authored }
   - form: "zniesienia"
     pl: "To nie do zniesienia!"
     ru: "Это невыносимо!"
@@ -112,6 +118,42 @@ formExamples:
     pl: "Domagał się zniesienia różnic klasowych."
     ru: "Он требовал отмены классовых различий."
     source: { kind: translated, id: 766148 }
+  - form: "zniesienie"
+    pl: "Zniesienie kary śmierci było przełomem."
+    ru: "Отмена смертной казни была переломом."
+    source: { kind: authored }
+  - form: "zniesienie"
+    pl: "Zniesienie podatku ucieszyło wszystkich."
+    ru: "Отмена налога обрадовала всех."
+    source: { kind: authored }
+  - form: "zniesienie"
+    pl: "Zniesienie niewolnictwa zajęło lata."
+    ru: "Отмена рабства заняла годы."
+    source: { kind: authored }
+  - form: "zniesieniem"
+    pl: "Sprawa skończyła się zniesieniem podatku."
+    ru: "Дело кончилось отменой налога."
+    source: { kind: authored }
+  - form: "zniesieniem"
+    pl: "Przed zniesieniem kary śmierci trwała debata."
+    ru: "Перед отменой смертной казни шли споры."
+    source: { kind: authored }
+  - form: "zniesieniem"
+    pl: "Między zniesieniem a zawieszeniem przepisu jest różnica."
+    ru: "Между отменой и приостановкой правила есть разница."
+    source: { kind: authored }
+  - form: "zniesieniu"
+    pl: "Po zniesieniu podatku ceny spadły."
+    ru: "После отмены налога цены упали."
+    source: { kind: authored }
+  - form: "zniesieniu"
+    pl: "W zniesieniu kary śmierci widzieli postęp."
+    ru: "В отмене смертной казни они видели прогресс."
+    source: { kind: authored }
+  - form: "zniesieniu"
+    pl: "Dzięki zniesieniu granic podróże są łatwiejsze."
+    ru: "Благодаря отмене границ поездки стали легче."
+    source: { kind: authored }
   - form: "zniesiesz"
     pl: "Nie zniesiesz tego hałasu."
     ru: "Ты не вынесешь этого шума."
@@ -136,6 +178,18 @@ formExamples:
     pl: "Opłata została zniesiona."
     ru: "Плата была отменена."
     source: { kind: authored }
+  - form: "zniesioną"
+    pl: "Uważam tę karę za zniesioną."
+    ru: "Я считаю это наказание отменённым."
+    source: { kind: authored }
+  - form: "zniesioną"
+    pl: "Znam ustawę zniesioną przez sejm."
+    ru: "Я знаю закон, отменённый сеймом."
+    source: { kind: authored }
+  - form: "zniesioną"
+    pl: "Opisał granicę zniesioną przed laty."
+    ru: "Он описал границу, отменённую много лет назад."
+    source: { kind: authored }
   - form: "zniesione"
     pl: "Emerytury powinny zostać zniesione."
     ru: "Пенсии должны быть отменены."
@@ -147,6 +201,42 @@ formExamples:
   - form: "zniesione"
     pl: "Cła zostały zniesione."
     ru: "Пошлины были отменены."
+    source: { kind: authored }
+  - form: "zniesionego"
+    pl: "Dotyczy to podatku zniesionego przed rokiem."
+    ru: "Это касается налога, отменённого год назад."
+    source: { kind: authored }
+  - form: "zniesionego"
+    pl: "Nie ma tu przepisu zniesionego przez sejm."
+    ru: "Здесь нет правила, отменённого сеймом."
+    source: { kind: authored }
+  - form: "zniesionego"
+    pl: "Sprawa prawa zniesionego w zeszłym roku wróciła."
+    ru: "Дело закона, отменённого в прошлом году, вернулось."
+    source: { kind: authored }
+  - form: "zniesionej"
+    pl: "Dotyczy to kary zniesionej przed laty."
+    ru: "Это касается наказания, отменённого много лет назад."
+    source: { kind: authored }
+  - form: "zniesionej"
+    pl: "Brakuje tu ustawy zniesionej przez sejm."
+    ru: "Здесь не хватает закона, отменённого сеймом."
+    source: { kind: authored }
+  - form: "zniesionej"
+    pl: "Dzięki granicy zniesionej przed laty podróżujemy swobodnie."
+    ru: "Благодаря границе, отменённой много лет назад, мы ездим свободно."
+    source: { kind: authored }
+  - form: "zniesionemu"
+    pl: "Przyjrzyj się podatkowi zniesionemu przed rokiem."
+    ru: "Присмотрись к налогу, отменённому год назад."
+    source: { kind: authored }
+  - form: "zniesionemu"
+    pl: "Przepisowi zniesionemu przez sejm nikt nie żałuje."
+    ru: "О правиле, отменённом сеймом, никто не жалеет."
+    source: { kind: authored }
+  - form: "zniesionemu"
+    pl: "Dzięki obowiązkowi zniesionemu w zeszłym roku mamy spokój."
+    ru: "Благодаря обязанности, отменённой в прошлом году, у нас покой."
     source: { kind: authored }
   - form: "zniesiono"
     pl: "W ubiegłym roku zniesiono karę śmierci."
@@ -184,6 +274,30 @@ formExamples:
     pl: "Nie ma już zniesionych ograniczeń."
     ru: "Отменённых ограничений больше нет."
     source: { kind: authored }
+  - form: "zniesionym"
+    pl: "W zniesionym podatku nikt nie widzi straty."
+    ru: "В отменённом налоге никто не видит потери."
+    source: { kind: authored }
+  - form: "zniesionym"
+    pl: "Przyglądamy się zniesionym przepisom."
+    ru: "Мы смотрим на отменённые правила."
+    source: { kind: authored }
+  - form: "zniesionym"
+    pl: "O zniesionym obowiązku już nikt nie pamięta."
+    ru: "Об отменённой обязанности уже никто не помнит."
+    source: { kind: authored }
+  - form: "zniesionymi"
+    pl: "Zajmuje się zniesionymi przepisami."
+    ru: "Он занимается отменёнными правилами."
+    source: { kind: authored }
+  - form: "zniesionymi"
+    pl: "Między zniesionymi a zawieszonymi ustawami jest różnica."
+    ru: "Между отменёнными и приостановленными законами есть разница."
+    source: { kind: authored }
+  - form: "zniesionymi"
+    pl: "Pracuje nad granicami zniesionymi przed laty."
+    ru: "Он работает над границами, отменёнными много лет назад."
+    source: { kind: authored }
   - form: "znieś"
     pl: "Znieś tu książki."
     ru: "Снеси сюда книги."
@@ -195,6 +309,18 @@ formExamples:
   - form: "znieś"
     pl: "Znieś to na dół."
     ru: "Снеси это вниз."
+    source: { kind: authored }
+  - form: "znieście"
+    pl: "Znieście walizki na dół."
+    ru: "Снесите чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieście"
+    pl: "Znieście ten podatek."
+    ru: "Отмените этот налог."
+    source: { kind: authored }
+  - form: "znieście"
+    pl: "Znieście to jakoś."
+    ru: "Стерпите это как-нибудь."
     source: { kind: authored }
   - form: "znieść"
     pl: "Nie mogę go znieść."
@@ -219,6 +345,78 @@ formExamples:
   - form: "znieśli"
     pl: "Nie znieśli tego hałasu."
     ru: "Они не вынесли этого шума."
+    source: { kind: authored }
+  - form: "znieśliby"
+    pl: "Znieśliby walizki na dół."
+    ru: "Они снесли бы чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieśliby"
+    pl: "Chyba nie znieśliby tego hałasu."
+    ru: "Вряд ли они вынесли бы этот шум."
+    source: { kind: authored }
+  - form: "znieśliby"
+    pl: "Znieśliby ten podatek, gdyby mogli."
+    ru: "Они отменили бы этот налог, если бы могли."
+    source: { kind: authored }
+  - form: "znieślibyście"
+    pl: "Czy znieślibyście ten hałas?"
+    ru: "Вы вынесли бы этот шум?"
+    source: { kind: authored }
+  - form: "znieślibyście"
+    pl: "Znieślibyście walizki na dół?"
+    ru: "Вы снесли бы чемоданы вниз?"
+    source: { kind: authored }
+  - form: "znieślibyście"
+    pl: "Naprawdę znieślibyście ten podatek?"
+    ru: "Вы правда отменили бы этот налог?"
+    source: { kind: authored }
+  - form: "znieślibyśmy"
+    pl: "Znieślibyśmy walizki na dół."
+    ru: "Мы снесли бы чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieślibyśmy"
+    pl: "Chyba nie znieślibyśmy tego hałasu."
+    ru: "Вряд ли мы вынесли бы этот шум."
+    source: { kind: authored }
+  - form: "znieślibyśmy"
+    pl: "Znieślibyśmy ten podatek, gdybyśmy mogli."
+    ru: "Мы отменили бы этот налог, если бы могли."
+    source: { kind: authored }
+  - form: "znieśliście"
+    pl: "Znieśliście walizki na dół?"
+    ru: "Вы снесли чемоданы вниз?"
+    source: { kind: authored }
+  - form: "znieśliście"
+    pl: "Jak znieśliście ten hałas?"
+    ru: "Как вы вынесли этот шум?"
+    source: { kind: authored }
+  - form: "znieśliście"
+    pl: "Znieśliście to dzielnie."
+    ru: "Вы стерпели это мужественно."
+    source: { kind: authored }
+  - form: "znieśliśmy"
+    pl: "Znieśliśmy walizki na dół."
+    ru: "Мы снесли чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieśliśmy"
+    pl: "Znieśliśmy to dzielnie."
+    ru: "Мы стерпели это мужественно."
+    source: { kind: authored }
+  - form: "znieśliśmy"
+    pl: "Tego hałasu długo nie znieśliśmy."
+    ru: "Этот шум мы долго не выносили."
+    source: { kind: authored }
+  - form: "znieśmy"
+    pl: "Znieśmy walizki na dół."
+    ru: "Снесём чемоданы вниз."
+    source: { kind: authored }
+  - form: "znieśmy"
+    pl: "Znieśmy ten podatek."
+    ru: "Отменим этот налог."
+    source: { kind: authored }
+  - form: "znieśmy"
+    pl: "Znieśmy to razem."
+    ru: "Стерпим это вместе."
     source: { kind: authored }
   - form: "zniosą"
     pl: "Zniosą ten podatek."
@@ -256,6 +454,42 @@ formExamples:
     pl: "Wielka powódź zniosła kilka domów."
     ru: "Большое наводнение снесло несколько домов."
     source: { kind: translated, id: 831715 }
+  - form: "zniosłaby"
+    pl: "Zniosłaby walizkę na dół."
+    ru: "Она снесла бы чемодан вниз."
+    source: { kind: authored }
+  - form: "zniosłaby"
+    pl: "Chyba nie zniosłaby tego hałasu."
+    ru: "Вряд ли она вынесла бы этот шум."
+    source: { kind: authored }
+  - form: "zniosłaby"
+    pl: "Zniosłaby ten ból w milczeniu."
+    ru: "Она стерпела бы эту боль молча."
+    source: { kind: authored }
+  - form: "zniosłabym"
+    pl: "Zniosłabym walizkę na dół."
+    ru: "Я снесла бы чемодан вниз."
+    source: { kind: authored }
+  - form: "zniosłabym"
+    pl: "Raczej nie zniosłabym tego hałasu."
+    ru: "Вряд ли я вынесла бы этот шум."
+    source: { kind: authored }
+  - form: "zniosłabym"
+    pl: "Zniosłabym ten ból w milczeniu."
+    ru: "Я стерпела бы эту боль молча."
+    source: { kind: authored }
+  - form: "zniosłabyś"
+    pl: "Czy zniosłabyś ten hałas?"
+    ru: "Ты вынесла бы этот шум?"
+    source: { kind: authored }
+  - form: "zniosłabyś"
+    pl: "Zniosłabyś walizkę na dół?"
+    ru: "Ты снесла бы чемодан вниз?"
+    source: { kind: authored }
+  - form: "zniosłabyś"
+    pl: "Naprawdę zniosłabyś taki ból?"
+    ru: "Ты правда стерпела бы такую боль?"
+    source: { kind: authored }
   - form: "zniosłam"
     pl: "Nie zniosłam tego hałasu."
     ru: "Я не вынесла этого шума."
@@ -267,6 +501,18 @@ formExamples:
   - form: "zniosłam"
     pl: "Jakoś to zniosłam."
     ru: "Я это как-то вынесла."
+    source: { kind: authored }
+  - form: "zniosłaś"
+    pl: "Zniosłaś to dzielnie."
+    ru: "Ты стерпела это мужественно."
+    source: { kind: authored }
+  - form: "zniosłaś"
+    pl: "Jak zniosłaś ten hałas?"
+    ru: "Как ты вынесла этот шум?"
+    source: { kind: authored }
+  - form: "zniosłaś"
+    pl: "Zniosłaś walizkę na dół?"
+    ru: "Ты снесла чемодан вниз?"
     source: { kind: authored }
   - form: "zniosłem"
     pl: "Nie zniosłem tego hałasu."
@@ -280,6 +526,18 @@ formExamples:
     pl: "Jakoś to zniosłem."
     ru: "Я это как-то вынес."
     source: { kind: authored }
+  - form: "zniosłeś"
+    pl: "Zniosłeś to dzielnie."
+    ru: "Ты стерпел это мужественно."
+    source: { kind: authored }
+  - form: "zniosłeś"
+    pl: "Jak zniosłeś ten hałas?"
+    ru: "Как ты вынес этот шум?"
+    source: { kind: authored }
+  - form: "zniosłeś"
+    pl: "Zniosłeś walizkę na dół?"
+    ru: "Ты снёс чемодан вниз?"
+    source: { kind: authored }
   - form: "zniosło"
     pl: "Wiele państw zniosło karę śmierci."
     ru: "Многие государства отменили смертную казнь."
@@ -292,6 +550,18 @@ formExamples:
     pl: "Nic go nie zniosło z drogi."
     ru: "Ничто не снесло его с пути."
     source: { kind: authored }
+  - form: "zniosłoby"
+    pl: "Dziecko nie zniosłoby takiego hałasu."
+    ru: "Ребёнок не вынес бы такого шума."
+    source: { kind: authored }
+  - form: "zniosłoby"
+    pl: "Żadne prawo nie zniosłoby tej kary samo."
+    ru: "Никакой закон сам не отменил бы это наказание."
+    source: { kind: authored }
+  - form: "zniosłoby"
+    pl: "Miasto zniosłoby ten obowiązek chętnie."
+    ru: "Город охотно отменил бы эту обязанность."
+    source: { kind: authored }
   - form: "zniosły"
     pl: "Moje kury zniosły mniej jajek w zeszłym roku."
     ru: "Мои куры снесли меньше яиц в прошлом году."
@@ -303,6 +573,66 @@ formExamples:
   - form: "zniosły"
     pl: "Władze zniosły ograniczenia."
     ru: "Власти отменили ограничения."
+    source: { kind: authored }
+  - form: "zniosłyby"
+    pl: "Zniosłyby walizki na dół."
+    ru: "Они снесли бы чемоданы вниз."
+    source: { kind: authored }
+  - form: "zniosłyby"
+    pl: "Te przepisy zniosłyby stare ograniczenia."
+    ru: "Эти правила отменили бы старые ограничения."
+    source: { kind: authored }
+  - form: "zniosłyby"
+    pl: "Chyba nie zniosłyby tego hałasu."
+    ru: "Вряд ли они вынесли бы этот шум."
+    source: { kind: authored }
+  - form: "zniosłybyście"
+    pl: "Czy zniosłybyście ten hałas?"
+    ru: "Вы вынесли бы этот шум?"
+    source: { kind: authored }
+  - form: "zniosłybyście"
+    pl: "Zniosłybyście walizki na dół?"
+    ru: "Вы снесли бы чемоданы вниз?"
+    source: { kind: authored }
+  - form: "zniosłybyście"
+    pl: "Naprawdę zniosłybyście taki ból?"
+    ru: "Вы правда стерпели бы такую боль?"
+    source: { kind: authored }
+  - form: "zniosłybyśmy"
+    pl: "Zniosłybyśmy walizki na dół."
+    ru: "Мы снесли бы чемоданы вниз."
+    source: { kind: authored }
+  - form: "zniosłybyśmy"
+    pl: "Raczej nie zniosłybyśmy tego hałasu."
+    ru: "Вряд ли мы вынесли бы этот шум."
+    source: { kind: authored }
+  - form: "zniosłybyśmy"
+    pl: "Zniosłybyśmy ten ból w milczeniu."
+    ru: "Мы стерпели бы эту боль молча."
+    source: { kind: authored }
+  - form: "zniosłyście"
+    pl: "Zniosłyście to dzielnie."
+    ru: "Вы стерпели это мужественно."
+    source: { kind: authored }
+  - form: "zniosłyście"
+    pl: "Jak zniosłyście ten hałas?"
+    ru: "Как вы вынесли этот шум?"
+    source: { kind: authored }
+  - form: "zniosłyście"
+    pl: "Zniosłyście walizki na dół?"
+    ru: "Вы снесли чемоданы вниз?"
+    source: { kind: authored }
+  - form: "zniosłyśmy"
+    pl: "Zniosłyśmy to dzielnie."
+    ru: "Мы стерпели это мужественно."
+    source: { kind: authored }
+  - form: "zniosłyśmy"
+    pl: "Zniosłyśmy walizki na dół."
+    ru: "Мы снесли чемоданы вниз."
+    source: { kind: authored }
+  - form: "zniosłyśmy"
+    pl: "Tego hałasu długo nie zniosłyśmy."
+    ru: "Этот шум мы долго не выносили."
     source: { kind: authored }
   - form: "zniósł"
     pl: "Prezydent zniósł niewolnictwo."
