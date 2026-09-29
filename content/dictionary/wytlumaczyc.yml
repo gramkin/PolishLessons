@@ -45,38 +45,7 @@ idioms:
   - { pl: "nie ma wytłumaczenia", ru: "нет оправдания" }
   - { pl: "trudno to wytłumaczyć", ru: "это трудно объяснить" }
 formExamplesSkip:
-  - { form: "wytłumaczeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wytłumaczmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczona", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczone", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczony", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wytłumaczycie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wytłumaczyliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczylibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczylibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wytłumaczyliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wytłumaczyłaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wytłumaczyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wytłumaczyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wytłumaczymy", reason: "формы повелительного наклонения в корпусе не встречаются" }
+  - { form: "wytłumaczeni", reason: "страдательное причастие мужского лица требует, чтобы человек стоял в винительном падеже, а здесь винительный занимает объяснённое: wytłumaczyć COŚ komuś. Человек стоит в дательном (Wytłumacz MI to), а дательное дополнение в страдательный залог не переводится. Поэтому wytłumaczony говорят о теме, правиле, задаче, но не о людях" }
   - { form: "wytłumaczywszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
   - form: "wytłumacz"
@@ -139,6 +108,18 @@ formExamples:
     pl: "Co? Nie zrobiłeś pracy domowej bo grałeś w piłkę? To żadne wytłumaczenie."
     ru: "Что? Ты не сделал домашнее задание, потому что играл в футбол? Это не оправдание."
     source: { kind: translated, id: 603069 }
+  - form: "wytłumaczeniem"
+    pl: "Sprawa skończyła się krótkim wytłumaczeniem."
+    ru: "Дело кончилось коротким объяснением."
+    source: { kind: authored }
+  - form: "wytłumaczeniem"
+    pl: "Przed wytłumaczeniem zadania przeczytaj je sam."
+    ru: "Прежде чем объяснять задачу, прочти её сам."
+    source: { kind: authored }
+  - form: "wytłumaczeniem"
+    pl: "Między wytłumaczeniem a usprawiedliwieniem jest różnica."
+    ru: "Между объяснением и оправданием есть разница."
+    source: { kind: authored }
   - form: "wytłumaczeniu"
     pl: "Po wytłumaczeniu wszystko stało się jasne."
     ru: "После объяснения всё стало ясно."
@@ -163,6 +144,90 @@ formExamples:
     pl: "Później ci wszystko wytłumaczę."
     ru: "Позже я тебе всё объясню."
     source: { kind: translated, id: 3750224 }
+  - form: "wytłumaczmy"
+    pl: "Wytłumaczmy mu to spokojnie."
+    ru: "Объясним ему это спокойно."
+    source: { kind: authored }
+  - form: "wytłumaczmy"
+    pl: "Wytłumaczmy dzieciom zasady gry."
+    ru: "Объясним детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczmy"
+    pl: "Wytłumaczmy się, póki jest czas."
+    ru: "Объяснимся, пока есть время."
+    source: { kind: authored }
+  - form: "wytłumaczona"
+    pl: "Ta zasada jest dobrze wytłumaczona."
+    ru: "Это правило хорошо объяснено."
+    source: { kind: authored }
+  - form: "wytłumaczona"
+    pl: "Wytłumaczona na tablicy, stała się jasna."
+    ru: "Объяснённое на доске, оно стало понятным."
+    source: { kind: authored }
+  - form: "wytłumaczona"
+    pl: "Sprawa została wytłumaczona w dwóch zdaniach."
+    ru: "Дело объяснили в двух предложениях."
+    source: { kind: authored }
+  - form: "wytłumaczoną"
+    pl: "Znam zasadę wytłumaczoną na tablicy."
+    ru: "Я знаю правило, объяснённое на доске."
+    source: { kind: authored }
+  - form: "wytłumaczoną"
+    pl: "Uważam tę sprawę za wytłumaczoną."
+    ru: "Я считаю это дело объяснённым."
+    source: { kind: authored }
+  - form: "wytłumaczoną"
+    pl: "Opisał teorię wytłumaczoną dzieciom w pięć minut."
+    ru: "Он описал теорию, объяснённую детям за пять минут."
+    source: { kind: authored }
+  - form: "wytłumaczone"
+    pl: "Wytłumaczone na tablicy zadanie wydało się łatwe."
+    ru: "Объяснённая на доске задача показалась лёгкой."
+    source: { kind: authored }
+  - form: "wytłumaczone"
+    pl: "To zasady wytłumaczone dzieciom."
+    ru: "Это правила, объяснённые детям."
+    source: { kind: authored }
+  - form: "wytłumaczone"
+    pl: "Wszystko zostało wytłumaczone."
+    ru: "Всё объяснили."
+    source: { kind: authored }
+  - form: "wytłumaczonego"
+    pl: "Dotyczy to zadania wytłumaczonego na tablicy."
+    ru: "Это касается задачи, объяснённой на доске."
+    source: { kind: authored }
+  - form: "wytłumaczonego"
+    pl: "Nie ma tu nic wytłumaczonego do końca."
+    ru: "Здесь ничто не объяснено до конца."
+    source: { kind: authored }
+  - form: "wytłumaczonego"
+    pl: "Sens przepisu wytłumaczonego przez prawnika stał się jasny."
+    ru: "Смысл правила, объяснённого юристом, стал ясен."
+    source: { kind: authored }
+  - form: "wytłumaczonej"
+    pl: "Dotyczy to zasady wytłumaczonej na tablicy."
+    ru: "Это касается правила, объяснённого на доске."
+    source: { kind: authored }
+  - form: "wytłumaczonej"
+    pl: "Brakuje tu reguły wytłumaczonej po ludzku."
+    ru: "Здесь не хватает правила, объяснённого по-человечески."
+    source: { kind: authored }
+  - form: "wytłumaczonej"
+    pl: "Dzięki teorii wytłumaczonej prostym językiem wszyscy zdali."
+    ru: "Благодаря теории, объяснённой простым языком, все сдали."
+    source: { kind: authored }
+  - form: "wytłumaczonemu"
+    pl: "Przyjrzyj się zadaniu wytłumaczonemu na tablicy."
+    ru: "Присмотрись к задаче, объяснённой на доске."
+    source: { kind: authored }
+  - form: "wytłumaczonemu"
+    pl: "Przepisowi wytłumaczonemu przez prawnika nikt się już nie dziwi."
+    ru: "Правилу, объяснённому юристом, уже никто не удивляется."
+    source: { kind: authored }
+  - form: "wytłumaczonemu"
+    pl: "Dzięki zadaniu wytłumaczonemu krok po kroku zrozumiał resztę."
+    ru: "Благодаря задаче, объяснённой шаг за шагом, он понял остальное."
+    source: { kind: authored }
   - form: "wytłumaczono"
     pl: "Wytłumaczono nam wszystko od nowa."
     ru: "Нам всё объяснили заново."
@@ -175,6 +240,54 @@ formExamples:
     pl: "Wytłumaczono się z opóźnienia."
     ru: "За опоздание оправдались."
     source: { kind: authored }
+  - form: "wytłumaczony"
+    pl: "Ten temat jest dobrze wytłumaczony."
+    ru: "Эта тема хорошо объяснена."
+    source: { kind: authored }
+  - form: "wytłumaczony"
+    pl: "Wytłumaczony na tablicy wzór wydał się prosty."
+    ru: "Объяснённая на доске формула показалась простой."
+    source: { kind: authored }
+  - form: "wytłumaczony"
+    pl: "Każdy krok był wytłumaczony osobno."
+    ru: "Каждый шаг объяснили отдельно."
+    source: { kind: authored }
+  - form: "wytłumaczonych"
+    pl: "Brakuje tu zadań wytłumaczonych krok po kroku."
+    ru: "Здесь не хватает задач, объяснённых шаг за шагом."
+    source: { kind: authored }
+  - form: "wytłumaczonych"
+    pl: "Wśród wytłumaczonych zasad tej nie było."
+    ru: "Среди объяснённых правил этого не было."
+    source: { kind: authored }
+  - form: "wytłumaczonych"
+    pl: "Nie pamięta już wytłumaczonych mu reguł."
+    ru: "Он уже не помнит объяснённых ему правил."
+    source: { kind: authored }
+  - form: "wytłumaczonym"
+    pl: "W wytłumaczonym zadaniu nie ma już tajemnicy."
+    ru: "В объяснённой задаче уже нет тайны."
+    source: { kind: authored }
+  - form: "wytłumaczonym"
+    pl: "Przyglądamy się wytłumaczonym zasadom."
+    ru: "Мы смотрим на объяснённые правила."
+    source: { kind: authored }
+  - form: "wytłumaczonym"
+    pl: "O wytłumaczonym przepisie nikt już nie dyskutuje."
+    ru: "Об объяснённом правиле уже никто не спорит."
+    source: { kind: authored }
+  - form: "wytłumaczonymi"
+    pl: "Zajmuje się zasadami wytłumaczonymi na lekcji."
+    ru: "Он занимается правилами, объяснёнными на уроке."
+    source: { kind: authored }
+  - form: "wytłumaczonymi"
+    pl: "Między wytłumaczonymi a zapamiętanymi regułami jest przepaść."
+    ru: "Между объяснёнными и запомненными правилами — пропасть."
+    source: { kind: authored }
+  - form: "wytłumaczonymi"
+    pl: "Pracuje nad tematami wytłumaczonymi zbyt pobieżnie."
+    ru: "Он работает над темами, объяснёнными слишком бегло."
+    source: { kind: authored }
   - form: "wytłumaczy"
     pl: "Wytłumaczy ci wszystko jutro."
     ru: "Он объяснит тебе всё завтра."
@@ -186,6 +299,18 @@ formExamples:
   - form: "wytłumaczy"
     pl: "Nie wytłumaczy się z tego."
     ru: "Он за это не оправдается."
+    source: { kind: authored }
+  - form: "wytłumaczycie"
+    pl: "Wytłumaczycie mi to?"
+    ru: "Вы мне это объясните?"
+    source: { kind: authored }
+  - form: "wytłumaczycie"
+    pl: "Czy wytłumaczycie dzieciom zasady?"
+    ru: "Вы объясните детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczycie"
+    pl: "Wytłumaczycie się z tego spóźnienia?"
+    ru: "Вы объяснитесь за это опоздание?"
     source: { kind: authored }
   - form: "wytłumaczyć"
     pl: "Potrzebna wieczność, żeby wszystko wytłumaczyć."
@@ -211,6 +336,66 @@ formExamples:
     pl: "Nie wytłumaczyli się z tego."
     ru: "Они за это не оправдались."
     source: { kind: authored }
+  - form: "wytłumaczyliby"
+    pl: "Wytłumaczyliby mi to, gdyby mieli czas."
+    ru: "Они объяснили бы мне это, если бы у них было время."
+    source: { kind: authored }
+  - form: "wytłumaczyliby"
+    pl: "Chyba nie wytłumaczyliby się z tego."
+    ru: "Вряд ли они за это оправдались бы."
+    source: { kind: authored }
+  - form: "wytłumaczyliby"
+    pl: "Wytłumaczyliby dzieciom zasady gry."
+    ru: "Они объяснили бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczylibyście"
+    pl: "Czy wytłumaczylibyście mi to?"
+    ru: "Вы объяснили бы мне это?"
+    source: { kind: authored }
+  - form: "wytłumaczylibyście"
+    pl: "Wytłumaczylibyście dzieciom zasady?"
+    ru: "Вы объяснили бы детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczylibyście"
+    pl: "Naprawdę nie wytłumaczylibyście się z tego?"
+    ru: "Вы правда за это не оправдались бы?"
+    source: { kind: authored }
+  - form: "wytłumaczylibyśmy"
+    pl: "Wytłumaczylibyśmy ci to, gdybyśmy mieli czas."
+    ru: "Мы объяснили бы тебе это, если бы у нас было время."
+    source: { kind: authored }
+  - form: "wytłumaczylibyśmy"
+    pl: "Raczej nie wytłumaczylibyśmy się z tego."
+    ru: "Вряд ли мы за это оправдались бы."
+    source: { kind: authored }
+  - form: "wytłumaczylibyśmy"
+    pl: "Wytłumaczylibyśmy dzieciom zasady gry."
+    ru: "Мы объяснили бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyliście"
+    pl: "Wytłumaczyliście mu to?"
+    ru: "Вы ему это объяснили?"
+    source: { kind: authored }
+  - form: "wytłumaczyliście"
+    pl: "Dlaczego nie wytłumaczyliście dzieciom zasad?"
+    ru: "Почему вы не объяснили детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyliście"
+    pl: "Wytłumaczyliście się z tego spóźnienia."
+    ru: "Вы объяснились за это опоздание."
+    source: { kind: authored }
+  - form: "wytłumaczyliśmy"
+    pl: "Wytłumaczyliśmy mu to spokojnie."
+    ru: "Мы объяснили ему это спокойно."
+    source: { kind: authored }
+  - form: "wytłumaczyliśmy"
+    pl: "Wytłumaczyliśmy dzieciom zasady gry."
+    ru: "Мы объяснили детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyliśmy"
+    pl: "Ze spóźnienia wytłumaczyliśmy się od razu."
+    ru: "За опоздание мы объяснились сразу."
+    source: { kind: authored }
   - form: "wytłumaczył"
     pl: "Tom wytłumaczył Marii."
     ru: "Том объяснил Марии."
@@ -235,6 +420,42 @@ formExamples:
     pl: "Nie wytłumaczyła się z tego."
     ru: "Она за это не оправдалась."
     source: { kind: authored }
+  - form: "wytłumaczyłaby"
+    pl: "Wytłumaczyłaby mi to, gdyby miała czas."
+    ru: "Она объяснила бы мне это, если бы у неё было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłaby"
+    pl: "Chyba nie wytłumaczyłaby się z tego."
+    ru: "Вряд ли она за это оправдалась бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłaby"
+    pl: "Wytłumaczyłaby dzieciom zasady gry."
+    ru: "Она объяснила бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłabym"
+    pl: "Wytłumaczyłabym ci to, gdybym miała czas."
+    ru: "Я объяснила бы тебе это, если бы у меня было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłabym"
+    pl: "Raczej nie wytłumaczyłabym się z tego."
+    ru: "Вряд ли я за это оправдалась бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłabym"
+    pl: "Wytłumaczyłabym dzieciom zasady gry."
+    ru: "Я объяснила бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłabyś"
+    pl: "Czy wytłumaczyłabyś mi to?"
+    ru: "Ты объяснила бы мне это?"
+    source: { kind: authored }
+  - form: "wytłumaczyłabyś"
+    pl: "Wytłumaczyłabyś dzieciom zasady?"
+    ru: "Ты объяснила бы детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyłabyś"
+    pl: "Naprawdę nie wytłumaczyłabyś się z tego?"
+    ru: "Ты правда за это не оправдалась бы?"
+    source: { kind: authored }
   - form: "wytłumaczyłam"
     pl: "Wytłumaczyłam ci wszystko."
     ru: "Я объяснила тебе всё."
@@ -258,6 +479,42 @@ formExamples:
   - form: "wytłumaczyłaś"
     pl: "Wytłumaczyłaś mu zasady?"
     ru: "Ты объяснила ему правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyłby"
+    pl: "Wytłumaczyłby mi to, gdyby miał czas."
+    ru: "Он объяснил бы мне это, если бы у него было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłby"
+    pl: "Chyba nie wytłumaczyłby się z tego."
+    ru: "Вряд ли он за это оправдался бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłby"
+    pl: "Wytłumaczyłby dzieciom zasady gry."
+    ru: "Он объяснил бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłbym"
+    pl: "Wytłumaczyłbym ci to, gdybym miał czas."
+    ru: "Я объяснил бы тебе это, если бы у меня было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłbym"
+    pl: "Raczej nie wytłumaczyłbym się z tego."
+    ru: "Вряд ли я за это оправдался бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłbym"
+    pl: "Wytłumaczyłbym dzieciom zasady gry."
+    ru: "Я объяснил бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłbyś"
+    pl: "Czy wytłumaczyłbyś mi to?"
+    ru: "Ты объяснил бы мне это?"
+    source: { kind: authored }
+  - form: "wytłumaczyłbyś"
+    pl: "Wytłumaczyłbyś dzieciom zasady?"
+    ru: "Ты объяснил бы детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyłbyś"
+    pl: "Naprawdę nie wytłumaczyłbyś się z tego?"
+    ru: "Ты правда за это не оправдался бы?"
     source: { kind: authored }
   - form: "wytłumaczyłem"
     pl: "Dokładnie wytłumaczyłem studentowi istotę rzeczy."
@@ -295,6 +552,18 @@ formExamples:
     pl: "Nic tego nie wytłumaczyło."
     ru: "Ничто этого не объяснило."
     source: { kind: authored }
+  - form: "wytłumaczyłoby"
+    pl: "Dziecko wytłumaczyłoby to prościej."
+    ru: "Ребёнок объяснил бы это проще."
+    source: { kind: authored }
+  - form: "wytłumaczyłoby"
+    pl: "Żadne z nich nie wytłumaczyłoby się z tego."
+    ru: "Никто из них за это не оправдался бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłoby"
+    pl: "To jedno zdanie wytłumaczyłoby wszystko."
+    ru: "Это одно предложение объяснило бы всё."
+    source: { kind: authored }
   - form: "wytłumaczyły"
     pl: "Kobiety wytłumaczyły nam drogę."
     ru: "Женщины объяснили нам дорогу."
@@ -306,6 +575,78 @@ formExamples:
   - form: "wytłumaczyły"
     pl: "Nie wytłumaczyły się z opóźnienia."
     ru: "Они не объяснились по поводу опоздания."
+    source: { kind: authored }
+  - form: "wytłumaczyłyby"
+    pl: "Wytłumaczyłyby mi to, gdyby miały czas."
+    ru: "Они объяснили бы мне это, если бы у них было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłyby"
+    pl: "Te rysunki wytłumaczyłyby wszystko lepiej niż słowa."
+    ru: "Эти рисунки объяснили бы всё лучше слов."
+    source: { kind: authored }
+  - form: "wytłumaczyłyby"
+    pl: "Chyba nie wytłumaczyłyby się z tego."
+    ru: "Вряд ли они за это оправдались бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłybyście"
+    pl: "Czy wytłumaczyłybyście mi to?"
+    ru: "Вы объяснили бы мне это?"
+    source: { kind: authored }
+  - form: "wytłumaczyłybyście"
+    pl: "Wytłumaczyłybyście dzieciom zasady?"
+    ru: "Вы объяснили бы детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyłybyście"
+    pl: "Naprawdę nie wytłumaczyłybyście się z tego?"
+    ru: "Вы правда за это не оправдались бы?"
+    source: { kind: authored }
+  - form: "wytłumaczyłybyśmy"
+    pl: "Wytłumaczyłybyśmy ci to, gdybyśmy miały czas."
+    ru: "Мы объяснили бы тебе это, если бы у нас было время."
+    source: { kind: authored }
+  - form: "wytłumaczyłybyśmy"
+    pl: "Raczej nie wytłumaczyłybyśmy się z tego."
+    ru: "Вряд ли мы за это оправдались бы."
+    source: { kind: authored }
+  - form: "wytłumaczyłybyśmy"
+    pl: "Wytłumaczyłybyśmy dzieciom zasady gry."
+    ru: "Мы объяснили бы детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłyście"
+    pl: "Wytłumaczyłyście mu to?"
+    ru: "Вы ему это объяснили?"
+    source: { kind: authored }
+  - form: "wytłumaczyłyście"
+    pl: "Dlaczego nie wytłumaczyłyście dzieciom zasad?"
+    ru: "Почему вы не объяснили детям правила?"
+    source: { kind: authored }
+  - form: "wytłumaczyłyście"
+    pl: "Wytłumaczyłyście się z tego spóźnienia."
+    ru: "Вы объяснились за это опоздание."
+    source: { kind: authored }
+  - form: "wytłumaczyłyśmy"
+    pl: "Wytłumaczyłyśmy mu to spokojnie."
+    ru: "Мы объяснили ему это спокойно."
+    source: { kind: authored }
+  - form: "wytłumaczyłyśmy"
+    pl: "Wytłumaczyłyśmy dzieciom zasady gry."
+    ru: "Мы объяснили детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczyłyśmy"
+    pl: "Ze spóźnienia wytłumaczyłyśmy się od razu."
+    ru: "За опоздание мы объяснились сразу."
+    source: { kind: authored }
+  - form: "wytłumaczymy"
+    pl: "Wytłumaczymy ci to spokojnie."
+    ru: "Мы объясним тебе это спокойно."
+    source: { kind: authored }
+  - form: "wytłumaczymy"
+    pl: "Wytłumaczymy dzieciom zasady gry."
+    ru: "Мы объясним детям правила игры."
+    source: { kind: authored }
+  - form: "wytłumaczymy"
+    pl: "Wytłumaczymy się z tego spóźnienia."
+    ru: "Мы объяснимся за это опоздание."
     source: { kind: authored }
   - form: "wytłumaczysz"
     pl: "Jak wytłumaczysz swoje spóźnienie?"
