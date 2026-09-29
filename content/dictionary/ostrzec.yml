@@ -43,39 +43,6 @@ idioms:
   - { pl: "bez ostrzeżenia", ru: "без предупреждения" }
   - { pl: "ostatnie ostrzeżenie", ru: "последнее предупреждение" }
   - { pl: "ostrzec przed niebezpieczeństwem", ru: "предупредить об опасности" }
-formExamplesSkip:
-  - { form: "ostrzegliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzeglibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzeglibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "ostrzegliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "ostrzegłaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "ostrzegłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "ostrzegłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "ostrzeżcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ostrzeżecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ostrzeżemy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "ostrzeżeni", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "ostrzeżmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "ostrzeżona", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżone", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "ostrzeżonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
 formExamples:
   - form: "ostrzec"
     pl: "Muszę ostrzec Toma."
@@ -125,6 +92,66 @@ formExamples:
     pl: "Nikogo nie ostrzegli."
     ru: "Они никого не предупредили."
     source: { kind: authored }
+  - form: "ostrzegliby"
+    pl: "Ostrzegliby nas przed niebezpieczeństwem."
+    ru: "Они предупредили бы нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegliby"
+    pl: "Chyba nie ostrzegliby go na czas."
+    ru: "Вряд ли они предупредили бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegliby"
+    pl: "Ostrzegliby sąsiadów przed burzą."
+    ru: "Они предупредили бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeglibyście"
+    pl: "Czy ostrzeglibyście nas przed niebezpieczeństwem?"
+    ru: "Вы предупредили бы нас об опасности?"
+    source: { kind: authored }
+  - form: "ostrzeglibyście"
+    pl: "Ostrzeglibyście sąsiadów przed burzą?"
+    ru: "Вы предупредили бы соседей о буре?"
+    source: { kind: authored }
+  - form: "ostrzeglibyście"
+    pl: "Naprawdę nie ostrzeglibyście go?"
+    ru: "Вы правда не предупредили бы его?"
+    source: { kind: authored }
+  - form: "ostrzeglibyśmy"
+    pl: "Ostrzeglibyśmy was przed niebezpieczeństwem."
+    ru: "Мы предупредили бы вас об опасности."
+    source: { kind: authored }
+  - form: "ostrzeglibyśmy"
+    pl: "Raczej nie ostrzeglibyśmy go na czas."
+    ru: "Вряд ли мы предупредили бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzeglibyśmy"
+    pl: "Ostrzeglibyśmy sąsiadów przed burzą."
+    ru: "Мы предупредили бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegliście"
+    pl: "Ostrzegliście nas przed niebezpieczeństwem."
+    ru: "Вы предупредили нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegliście"
+    pl: "Dlaczego nie ostrzegliście go wcześniej?"
+    ru: "Почему вы не предупредили его раньше?"
+    source: { kind: authored }
+  - form: "ostrzegliście"
+    pl: "Ostrzegliście sąsiadów przed burzą."
+    ru: "Вы предупредили соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegliśmy"
+    pl: "Ostrzegliśmy was przed niebezpieczeństwem."
+    ru: "Мы предупредили вас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegliśmy"
+    pl: "Ostrzegliśmy go wcześniej."
+    ru: "Мы предупредили его раньше."
+    source: { kind: authored }
+  - form: "ostrzegliśmy"
+    pl: "Sąsiadów ostrzegliśmy przed burzą."
+    ru: "Соседей мы предупредили о буре."
+    source: { kind: authored }
   - form: "ostrzegł"
     pl: "On nas ostrzegł."
     ru: "Он нас предупредил."
@@ -149,6 +176,42 @@ formExamples:
     pl: "Matka ostrzegła mnie zawczasu."
     ru: "Мать предупредила меня заранее."
     source: { kind: authored }
+  - form: "ostrzegłaby"
+    pl: "Ostrzegłaby nas przed niebezpieczeństwem."
+    ru: "Она предупредила бы нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłaby"
+    pl: "Chyba nie ostrzegłaby go na czas."
+    ru: "Вряд ли она предупредила бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłaby"
+    pl: "Ostrzegłaby sąsiadów przed burzą."
+    ru: "Она предупредила бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłabym"
+    pl: "Ostrzegłabym cię przed niebezpieczeństwem."
+    ru: "Я предупредила бы тебя об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłabym"
+    pl: "Raczej nie ostrzegłabym go na czas."
+    ru: "Вряд ли я предупредила бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłabym"
+    pl: "Ostrzegłabym sąsiadów przed burzą."
+    ru: "Я предупредила бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłabyś"
+    pl: "Czy ostrzegłabyś mnie przed niebezpieczeństwem?"
+    ru: "Ты предупредила бы меня об опасности?"
+    source: { kind: authored }
+  - form: "ostrzegłabyś"
+    pl: "Ostrzegłabyś sąsiadów przed burzą?"
+    ru: "Ты предупредила бы соседей о буре?"
+    source: { kind: authored }
+  - form: "ostrzegłabyś"
+    pl: "Naprawdę nie ostrzegłabyś go?"
+    ru: "Ты правда не предупредила бы его?"
+    source: { kind: authored }
   - form: "ostrzegłam"
     pl: "Ostrzegłam cię w porę."
     ru: "Я предупредила тебя вовремя."
@@ -172,6 +235,42 @@ formExamples:
   - form: "ostrzegłaś"
     pl: "Nikogo nie ostrzegłaś."
     ru: "Ты никого не предупредила."
+    source: { kind: authored }
+  - form: "ostrzegłby"
+    pl: "Ostrzegłby nas przed niebezpieczeństwem."
+    ru: "Он предупредил бы нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłby"
+    pl: "Chyba nie ostrzegłby go na czas."
+    ru: "Вряд ли он предупредил бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłby"
+    pl: "Ostrzegłby sąsiadów przed burzą."
+    ru: "Он предупредил бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłbym"
+    pl: "Ostrzegłbym cię przed niebezpieczeństwem."
+    ru: "Я предупредил бы тебя об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłbym"
+    pl: "Raczej nie ostrzegłbym go na czas."
+    ru: "Вряд ли я предупредил бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłbym"
+    pl: "Ostrzegłbym sąsiadów przed burzą."
+    ru: "Я предупредил бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłbyś"
+    pl: "Czy ostrzegłbyś mnie przed niebezpieczeństwem?"
+    ru: "Ты предупредил бы меня об опасности?"
+    source: { kind: authored }
+  - form: "ostrzegłbyś"
+    pl: "Ostrzegłbyś sąsiadów przed burzą?"
+    ru: "Ты предупредил бы соседей о буре?"
+    source: { kind: authored }
+  - form: "ostrzegłbyś"
+    pl: "Naprawdę nie ostrzegłbyś go?"
+    ru: "Ты правда не предупредил бы его?"
     source: { kind: authored }
   - form: "ostrzegłem"
     pl: "Ostrzegłem go kilkakrotnie."
@@ -209,6 +308,18 @@ formExamples:
     pl: "Dziecko ostrzegło matkę krzykiem."
     ru: "Ребёнок предупредил мать криком."
     source: { kind: authored }
+  - form: "ostrzegłoby"
+    pl: "Dziecko ostrzegłoby matkę."
+    ru: "Ребёнок предупредил бы мать."
+    source: { kind: authored }
+  - form: "ostrzegłoby"
+    pl: "Żadne z nich nie ostrzegłoby nas na czas."
+    ru: "Никто из них не предупредил бы нас вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłoby"
+    pl: "Radio ostrzegłoby mieszkańców przed burzą."
+    ru: "Радио предупредило бы жителей о буре."
+    source: { kind: authored }
   - form: "ostrzegłszy"
     pl: "Ostrzegłszy sąsiadów, wrócił do domu."
     ru: "Предупредив соседей, он вернулся домой."
@@ -233,6 +344,66 @@ formExamples:
     pl: "Znaki ostrzegły kierowców."
     ru: "Знаки предупредили водителей."
     source: { kind: authored }
+  - form: "ostrzegłyby"
+    pl: "Ostrzegłyby nas przed niebezpieczeństwem."
+    ru: "Они предупредили бы нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłyby"
+    pl: "Te syreny ostrzegłyby całe miasto."
+    ru: "Эти сирены предупредили бы весь город."
+    source: { kind: authored }
+  - form: "ostrzegłyby"
+    pl: "Chyba nie ostrzegłyby go na czas."
+    ru: "Вряд ли они предупредили бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłybyście"
+    pl: "Czy ostrzegłybyście nas przed niebezpieczeństwem?"
+    ru: "Вы предупредили бы нас об опасности?"
+    source: { kind: authored }
+  - form: "ostrzegłybyście"
+    pl: "Ostrzegłybyście sąsiadów przed burzą?"
+    ru: "Вы предупредили бы соседей о буре?"
+    source: { kind: authored }
+  - form: "ostrzegłybyście"
+    pl: "Naprawdę nie ostrzegłybyście go?"
+    ru: "Вы правда не предупредили бы его?"
+    source: { kind: authored }
+  - form: "ostrzegłybyśmy"
+    pl: "Ostrzegłybyśmy was przed niebezpieczeństwem."
+    ru: "Мы предупредили бы вас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłybyśmy"
+    pl: "Raczej nie ostrzegłybyśmy go na czas."
+    ru: "Вряд ли мы предупредили бы его вовремя."
+    source: { kind: authored }
+  - form: "ostrzegłybyśmy"
+    pl: "Ostrzegłybyśmy sąsiadów przed burzą."
+    ru: "Мы предупредили бы соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłyście"
+    pl: "Ostrzegłyście nas przed niebezpieczeństwem."
+    ru: "Вы предупредили нас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłyście"
+    pl: "Dlaczego nie ostrzegłyście go wcześniej?"
+    ru: "Почему вы не предупредили его раньше?"
+    source: { kind: authored }
+  - form: "ostrzegłyście"
+    pl: "Ostrzegłyście sąsiadów przed burzą."
+    ru: "Вы предупредили соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzegłyśmy"
+    pl: "Ostrzegłyśmy was przed niebezpieczeństwem."
+    ru: "Мы предупредили вас об опасности."
+    source: { kind: authored }
+  - form: "ostrzegłyśmy"
+    pl: "Ostrzegłyśmy go wcześniej."
+    ru: "Мы предупредили его раньше."
+    source: { kind: authored }
+  - form: "ostrzegłyśmy"
+    pl: "Sąsiadów ostrzegłyśmy przed burzą."
+    ru: "Соседей мы предупредили о буре."
+    source: { kind: authored }
   - form: "ostrzeż"
     pl: "Ostrzeż Toma."
     ru: "Предупреди Тома."
@@ -245,6 +416,18 @@ formExamples:
     pl: "Ostrzeż mnie następnym razem."
     ru: "Предупреди меня в следующий раз."
     source: { kind: authored }
+  - form: "ostrzeżcie"
+    pl: "Ostrzeżcie go przed niebezpieczeństwem."
+    ru: "Предупредите его об опасности."
+    source: { kind: authored }
+  - form: "ostrzeżcie"
+    pl: "Ostrzeżcie sąsiadów przed burzą."
+    ru: "Предупредите соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeżcie"
+    pl: "Ostrzeżcie mnie, jeśli coś się zmieni."
+    ru: "Предупредите меня, если что-то изменится."
+    source: { kind: authored }
   - form: "ostrzeże"
     pl: "Ostrzeże nas w porę."
     ru: "Он предупредит нас вовремя."
@@ -256,6 +439,42 @@ formExamples:
   - form: "ostrzeże"
     pl: "Nikogo nie ostrzeże."
     ru: "Он никого не предупредит."
+    source: { kind: authored }
+  - form: "ostrzeżecie"
+    pl: "Ostrzeżecie go przed niebezpieczeństwem?"
+    ru: "Вы предупредите его об опасности?"
+    source: { kind: authored }
+  - form: "ostrzeżecie"
+    pl: "Czy ostrzeżecie sąsiadów?"
+    ru: "Вы предупредите соседей?"
+    source: { kind: authored }
+  - form: "ostrzeżecie"
+    pl: "Mam nadzieję, że ostrzeżecie mnie na czas."
+    ru: "Надеюсь, вы предупредите меня вовремя."
+    source: { kind: authored }
+  - form: "ostrzeżemy"
+    pl: "Ostrzeżemy go przed niebezpieczeństwem."
+    ru: "Мы предупредим его об опасности."
+    source: { kind: authored }
+  - form: "ostrzeżemy"
+    pl: "Ostrzeżemy sąsiadów przed burzą."
+    ru: "Мы предупредим соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeżemy"
+    pl: "Ostrzeżemy cię, jeśli coś się zmieni."
+    ru: "Мы предупредим тебя, если что-то изменится."
+    source: { kind: authored }
+  - form: "ostrzeżeni"
+    pl: "Zostali ostrzeżeni przed niebezpieczeństwem."
+    ru: "Их предупредили об опасности."
+    source: { kind: authored }
+  - form: "ostrzeżeni"
+    pl: "Ostrzeżeni w porę mieszkańcy opuścili dolinę."
+    ru: "Вовремя предупреждённые жители покинули долину."
+    source: { kind: authored }
+  - form: "ostrzeżeni"
+    pl: "Ostrzeżeni przez radio, zostali w domach."
+    ru: "Предупреждённые по радио, они остались дома."
     source: { kind: authored }
   - form: "ostrzeżenia"
     pl: "Tom wyszedł bez ostrzeżenia."
@@ -293,6 +512,18 @@ formExamples:
     pl: "Z ostrzeżeniem czy bez, trzeba uważać."
     ru: "С предупреждением или без, надо быть внимательным."
     source: { kind: authored }
+  - form: "ostrzeżeniu"
+    pl: "Po ostrzeżeniu wszyscy wrócili do domów."
+    ru: "После предупреждения все вернулись домой."
+    source: { kind: authored }
+  - form: "ostrzeżeniu"
+    pl: "W tym ostrzeżeniu nie było przesady."
+    ru: "В этом предупреждении не было преувеличения."
+    source: { kind: authored }
+  - form: "ostrzeżeniu"
+    pl: "Dzięki ostrzeżeniu zdążyli się schować."
+    ru: "Благодаря предупреждению они успели укрыться."
+    source: { kind: authored }
   - form: "ostrzeżesz"
     pl: "Ostrzeżesz nas w porę?"
     ru: "Ты предупредишь нас вовремя?"
@@ -304,6 +535,90 @@ formExamples:
   - form: "ostrzeżesz"
     pl: "Nikogo nie ostrzeżesz."
     ru: "Ты никого не предупредишь."
+    source: { kind: authored }
+  - form: "ostrzeżmy"
+    pl: "Ostrzeżmy go przed niebezpieczeństwem."
+    ru: "Предупредим его об опасности."
+    source: { kind: authored }
+  - form: "ostrzeżmy"
+    pl: "Ostrzeżmy sąsiadów przed burzą."
+    ru: "Предупредим соседей о буре."
+    source: { kind: authored }
+  - form: "ostrzeżmy"
+    pl: "Ostrzeżmy ich, póki jest czas."
+    ru: "Предупредим их, пока есть время."
+    source: { kind: authored }
+  - form: "ostrzeżona"
+    pl: "Została ostrzeżona przed niebezpieczeństwem."
+    ru: "Её предупредили об опасности."
+    source: { kind: authored }
+  - form: "ostrzeżona"
+    pl: "Ostrzeżona w porę, zawróciła z drogi."
+    ru: "Предупреждённая вовремя, она повернула назад."
+    source: { kind: authored }
+  - form: "ostrzeżona"
+    pl: "Ta wieś była ostrzeżona przed powodzią."
+    ru: "Эту деревню предупредили о наводнении."
+    source: { kind: authored }
+  - form: "ostrzeżoną"
+    pl: "Znam kobietę ostrzeżoną przed tym człowiekiem."
+    ru: "Я знаю женщину, предупреждённую об этом человеке."
+    source: { kind: authored }
+  - form: "ostrzeżoną"
+    pl: "Widzieli wieś ostrzeżoną przed powodzią."
+    ru: "Они видели деревню, предупреждённую о наводнении."
+    source: { kind: authored }
+  - form: "ostrzeżoną"
+    pl: "Opisał załogę ostrzeżoną w ostatniej chwili."
+    ru: "Он описал экипаж, предупреждённый в последнюю минуту."
+    source: { kind: authored }
+  - form: "ostrzeżone"
+    pl: "Ostrzeżone dzieci nie weszły na lód."
+    ru: "Предупреждённые дети не вышли на лёд."
+    source: { kind: authored }
+  - form: "ostrzeżone"
+    pl: "To wsie ostrzeżone przed powodzią."
+    ru: "Это деревни, предупреждённые о наводнении."
+    source: { kind: authored }
+  - form: "ostrzeżone"
+    pl: "Ostrzeżone w porę miasto ocalało."
+    ru: "Вовремя предупреждённый город уцелел."
+    source: { kind: authored }
+  - form: "ostrzeżonego"
+    pl: "Dotyczy to kierowcy ostrzeżonego przed mgłą."
+    ru: "Это касается водителя, предупреждённого о тумане."
+    source: { kind: authored }
+  - form: "ostrzeżonego"
+    pl: "Nie ma tu nikogo ostrzeżonego na czas."
+    ru: "Здесь нет никого, предупреждённого вовремя."
+    source: { kind: authored }
+  - form: "ostrzeżonego"
+    pl: "Sprawa żeglarza ostrzeżonego przed sztormem obiegła prasę."
+    ru: "История моряка, предупреждённого о шторме, обошла прессу."
+    source: { kind: authored }
+  - form: "ostrzeżonej"
+    pl: "Dotyczy to wsi ostrzeżonej przed powodzią."
+    ru: "Это касается деревни, предупреждённой о наводнении."
+    source: { kind: authored }
+  - form: "ostrzeżonej"
+    pl: "Brakuje tu kobiety ostrzeżonej w porę."
+    ru: "Здесь не хватает женщины, предупреждённой вовремя."
+    source: { kind: authored }
+  - form: "ostrzeżonej"
+    pl: "Dzięki załodze ostrzeżonej przez radio nikt nie zginął."
+    ru: "Благодаря экипажу, предупреждённому по радио, никто не погиб."
+    source: { kind: authored }
+  - form: "ostrzeżonemu"
+    pl: "Przyjrzyj się kierowcy ostrzeżonemu przed mgłą."
+    ru: "Присмотрись к водителю, предупреждённому о тумане."
+    source: { kind: authored }
+  - form: "ostrzeżonemu"
+    pl: "Podziękowali żeglarzowi ostrzeżonemu przez radio."
+    ru: "Они поблагодарили моряка, предупреждённого по радио."
+    source: { kind: authored }
+  - form: "ostrzeżonemu"
+    pl: "Dzięki chłopcu ostrzeżonemu w porę uniknięto wypadku."
+    ru: "Благодаря мальчику, предупреждённому вовремя, аварии избежали."
     source: { kind: authored }
   - form: "ostrzeżono"
     pl: "Ostrzeżono nas przed lawiną."
@@ -328,4 +643,40 @@ formExamples:
   - form: "ostrzeżony"
     pl: "Nie został ostrzeżony na czas."
     ru: "Его не предупредили вовремя."
+    source: { kind: authored }
+  - form: "ostrzeżonych"
+    pl: "Brakuje danych o ostrzeżonych mieszkańcach."
+    ru: "Не хватает данных о предупреждённых жителях."
+    source: { kind: authored }
+  - form: "ostrzeżonych"
+    pl: "Wśród ostrzeżonych był i on."
+    ru: "Среди предупреждённых был и он."
+    source: { kind: authored }
+  - form: "ostrzeżonych"
+    pl: "Lista ostrzeżonych wsi rośnie."
+    ru: "Список предупреждённых деревень растёт."
+    source: { kind: authored }
+  - form: "ostrzeżonym"
+    pl: "W ostrzeżonym mieście panował spokój."
+    ru: "В предупреждённом городе царил покой."
+    source: { kind: authored }
+  - form: "ostrzeżonym"
+    pl: "Przyglądamy się ostrzeżonym mieszkańcom."
+    ru: "Мы смотрим на предупреждённых жителей."
+    source: { kind: authored }
+  - form: "ostrzeżonym"
+    pl: "Nad ostrzeżonym miastem krążył helikopter."
+    ru: "Над предупреждённым городом кружил вертолёт."
+    source: { kind: authored }
+  - form: "ostrzeżonymi"
+    pl: "Zajmuje się ostrzeżonymi mieszkańcami."
+    ru: "Он занимается предупреждёнными жителями."
+    source: { kind: authored }
+  - form: "ostrzeżonymi"
+    pl: "Między ostrzeżonymi a zaskoczonymi jest różnica."
+    ru: "Между предупреждёнными и застигнутыми врасплох есть разница."
+    source: { kind: authored }
+  - form: "ostrzeżonymi"
+    pl: "Rozmawia z kierowcami ostrzeżonymi przed mgłą."
+    ru: "Он говорит с водителями, предупреждёнными о тумане."
     source: { kind: authored }
