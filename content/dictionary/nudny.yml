@@ -62,7 +62,6 @@ formExamplesSkip:
   - { form: "najnudniejszego", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszej", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszemu", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszy", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszych", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszym", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najnudniejszymi", reason: "превосходная степень; в корпусе примеров нет" }
@@ -71,11 +70,22 @@ formExamplesSkip:
   - { form: "nudniejsze", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszej", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszemu", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszy", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszych", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszym", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "nudniejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
 formExamples:
+  - form: "najnudniejszy"
+    pl: "To najnudniejszy przedmiot w szkole."
+    ru: "Это самый скучный предмет в школе."
+    source: { kind: authored }
+  - form: "najnudniejszy"
+    pl: "Najnudniejszy był wstęp."
+    ru: "Самым скучным было вступление."
+    source: { kind: authored }
+  - form: "najnudniejszy"
+    pl: "Trafił na najnudniejszy dyżur."
+    ru: "Ему достался самый скучный дежурный день."
+    source: { kind: authored }
   - form: "nudna"
     pl: "Szkoła jest nudna."
     ru: "Школа скучная."
@@ -195,6 +205,18 @@ formExamples:
   - form: "nudniejszego"
     pl: "Trudno o coś nudniejszego."
     ru: "Трудно найти что-то скучнее."
+    source: { kind: authored }
+  - form: "nudniejszy"
+    pl: "Drugi film był nudniejszy od pierwszego."
+    ru: "Второй фильм был скучнее первого."
+    source: { kind: authored }
+  - form: "nudniejszy"
+    pl: "Ten wykład jest nudniejszy niż poprzedni."
+    ru: "Эта лекция скучнее предыдущей."
+    source: { kind: authored }
+  - form: "nudniejszy"
+    pl: "Po przerwie mecz stał się nudniejszy."
+    ru: "После перерыва матч стал скучнее."
     source: { kind: authored }
   - form: "nudny"
     pl: "Jesteś nudny."

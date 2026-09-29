@@ -45,10 +45,19 @@ idioms:
   - { pl: "znacznie lepiej", ru: "значительно лучше" }
   - { pl: "znacznie więcej", ru: "значительно больше" }
   - { pl: "znacznie większy", ru: "значительно больший" }
-formExamplesSkip:
-  - { form: "znaczniej", reason: "сравнительная степень, в корпусе примеров нет" }
-  - { form: "najznaczniej", reason: "превосходная степень, в корпусе примеров нет" }
 formExamples:
+  - form: "najznaczniej"
+    pl: "Najznaczniej zmieniły się ceny mieszkań."
+    ru: "Значительнее всего изменились цены на квартиры."
+    source: { kind: authored }
+  - form: "najznaczniej"
+    pl: "To miasto zmieniło się najznaczniej."
+    ru: "Этот город изменился значительнее всего."
+    source: { kind: authored }
+  - form: "najznaczniej"
+    pl: "Najznaczniej wzrosły koszty energii."
+    ru: "Значительнее всего выросли затраты на энергию."
+    source: { kind: authored }
   - form: "znacznie"
     pl: "To znacznie ciekawsze."
     ru: "Это намного интереснее."
@@ -73,3 +82,15 @@ formExamples:
     pl: "Teraz w jeziorze jest znacznie więcej wody niż kiedyś."
     ru: "Сейчас в озере гораздо больше воды, чем раньше."
     source: { kind: tatoeba, id: 552593 }
+  - form: "znaczniej"
+    pl: "Ceny wzrosły znaczniej niż rok temu."
+    ru: "Цены выросли значительнее, чем год назад."
+    source: { kind: authored }
+  - form: "znaczniej"
+    pl: "Tym razem wynik poprawił się znaczniej."
+    ru: "На этот раз результат улучшился значительнее."
+    source: { kind: authored }
+  - form: "znaczniej"
+    pl: "Druga grupa zmieniła się znaczniej."
+    ru: "Вторая группа изменилась значительнее."
+    source: { kind: authored }

@@ -74,7 +74,6 @@ formExamplesSkip:
   - { form: "najspokojniejszego", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najspokojniejszej", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najspokojniejszemu", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najspokojniejszy", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najspokojniejszych", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najspokojniejszym", reason: "превосходная степень; в корпусе примеров нет" }
   - { form: "najspokojniejszymi", reason: "превосходная степень; в корпусе примеров нет" }
@@ -82,11 +81,22 @@ formExamplesSkip:
   - { form: "spokojniejsze", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "spokojniejszej", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "spokojniejszemu", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "spokojniejszy", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "spokojniejszych", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "spokojniejszym", reason: "сравнительная степень; в корпусе примеров нет" }
   - { form: "spokojniejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
 formExamples:
+  - form: "najspokojniejszy"
+    pl: "To najspokojniejszy uczeń w klasie."
+    ru: "Это самый спокойный ученик в классе."
+    source: { kind: authored }
+  - form: "najspokojniejszy"
+    pl: "Najspokojniejszy kąt jest przy oknie."
+    ru: "Самый спокойный угол — у окна."
+    source: { kind: authored }
+  - form: "najspokojniejszy"
+    pl: "Sierpień był najspokojniejszy."
+    ru: "Август был самым спокойным."
+    source: { kind: authored }
   - form: "spokojna"
     pl: "Bądź spokojna."
     ru: "Будь спокойна."
@@ -214,6 +224,18 @@ formExamples:
   - form: "spokojniejszego"
     pl: "Nie ma nic spokojniejszego od lasu."
     ru: "Нет ничего спокойнее леса."
+    source: { kind: authored }
+  - form: "spokojniejszy"
+    pl: "Od wakacji jest spokojniejszy."
+    ru: "С каникул он спокойнее."
+    source: { kind: authored }
+  - form: "spokojniejszy"
+    pl: "Ten pies jest spokojniejszy od tamtego."
+    ru: "Эта собака спокойнее той."
+    source: { kind: authored }
+  - form: "spokojniejszy"
+    pl: "Wieczór okazał się spokojniejszy, niż się bali."
+    ru: "Вечер оказался спокойнее, чем они боялись."
     source: { kind: authored }
   - form: "spokojny"
     pl: "Bądź spokojny."
