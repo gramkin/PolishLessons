@@ -57,38 +57,19 @@ idioms:
   - { pl: "czym mogę służyć", ru: "чем могу помочь" }
   - { pl: "nie służy mi", ru: "мне не на пользу" }
   - { pl: "służyć w wojsku", ru: "служить в армии" }
-formExamplesSkip:
-  - { form: "służ", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "służąc", reason: "в корпусе нет примеров для этой формы действительного причастия" }
-  - { form: "służące", reason: "в корпусе нет примеров для этой формы действительного причастия" }
-  - { form: "służącej", reason: "в корпусе нет примеров для этой формы действительного причастия" }
-  - { form: "służącemu", reason: "в корпусе нет примеров для этой формы действительного причастия" }
-  - { form: "służącymi", reason: "в корпусе нет примеров для этой формы действительного причастия" }
-  - { form: "służcie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "służenia", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "służeniem", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "służeniu", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
-  - { form: "służmy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "służycie", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
-  - { form: "służyliby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służylibyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służylibyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyliście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "służyliśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "służyłaby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłabym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłabyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłbym", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłbyś", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłoby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłyby", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłybyście", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłybyśmy", reason: "условное наклонение у этого глагола в корпусе не представлено; оно образуется по общему правилу — прибавлением by к форме прошедшего времени" }
-  - { form: "służyłyście", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "służyłyśmy", reason: "в корпусе нет примеров для этой формы прошедшего времени" }
-  - { form: "służymy", reason: "в корпусе нет примеров для этой формы повелительного наклонения" }
 formExamples:
+  - form: "służ"
+    pl: "Służ narodowi wiernie."
+    ru: "Служи народу верно."
+    source: { kind: authored }
+  - form: "służ"
+    pl: "Służ pomocą, kiedy możesz."
+    ru: "Помогай, когда можешь."
+    source: { kind: authored }
+  - form: "służ"
+    pl: "Służ przykładem."
+    ru: "Служи примером."
+    source: { kind: authored }
   - form: "służą"
     pl: "Do czego służą twoje palce?"
     ru: "Для чего служат твои пальцы?"
@@ -100,6 +81,18 @@ formExamples:
   - form: "służą"
     pl: "Te narzędzia służą do naprawy."
     ru: "Эти инструменты служат для ремонта."
+    source: { kind: authored }
+  - form: "służąc"
+    pl: "Służąc w wojsku, poznał cały kraj."
+    ru: "Служа в армии, он узнал всю страну."
+    source: { kind: authored }
+  - form: "służąc"
+    pl: "Służąc narodowi, nie szuka się nagród."
+    ru: "Служа народу, наград не ищут."
+    source: { kind: authored }
+  - form: "służąc"
+    pl: "Służąc pomocą, sam wiele zyskał."
+    ru: "Помогая другим, он сам многое приобрёл."
     source: { kind: authored }
   - form: "służąca"
     pl: "Służąca sprzątnęła podłogę."
@@ -125,6 +118,18 @@ formExamples:
     pl: "Zatrudnili nową służącą."
     ru: "Они наняли новую служанку."
     source: { kind: authored }
+  - form: "służące"
+    pl: "Służące sprzątały pokoje od rana."
+    ru: "Служанки убирали комнаты с утра."
+    source: { kind: authored }
+  - form: "służące"
+    pl: "To narzędzia służące do cięcia."
+    ru: "Это инструменты, служащие для резки."
+    source: { kind: authored }
+  - form: "służące"
+    pl: "Służące dawniej dziewczęta mieszkały na poddaszu."
+    ru: "Девушки, служившие прежде, жили на чердаке."
+    source: { kind: authored }
   - form: "służącego"
     pl: "Traktuj swego służącego lepiej."
     ru: "Обращайся со своим слугой лучше."
@@ -136,6 +141,30 @@ formExamples:
   - form: "służącego"
     pl: "Wezwał służącego."
     ru: "Он позвал слугу."
+    source: { kind: authored }
+  - form: "służącej"
+    pl: "Dotyczy to służącej z pierwszego piętra."
+    ru: "Это касается служанки с первого этажа."
+    source: { kind: authored }
+  - form: "służącej"
+    pl: "Brakuje tu pokoju dla służącej."
+    ru: "Здесь не хватает комнаты для служанки."
+    source: { kind: authored }
+  - form: "służącej"
+    pl: "Dzięki służącej znaleziono list."
+    ru: "Благодаря служанке письмо нашли."
+    source: { kind: authored }
+  - form: "służącemu"
+    pl: "Przyjrzyj się służącemu przy drzwiach."
+    ru: "Присмотрись к слуге у двери."
+    source: { kind: authored }
+  - form: "służącemu"
+    pl: "Podziękowali służącemu za pomoc."
+    ru: "Они поблагодарили слугу за помощь."
+    source: { kind: authored }
+  - form: "służącemu"
+    pl: "Dzięki służącemu poznaliśmy prawdę."
+    ru: "Благодаря слуге мы узнали правду."
     source: { kind: authored }
   - form: "służący"
     pl: "Jaki władca, taki służący."
@@ -173,6 +202,42 @@ formExamples:
     pl: "Mówił o służącym z pałacu."
     ru: "Он говорил о слуге из дворца."
     source: { kind: authored }
+  - form: "służącymi"
+    pl: "Zajmuje się narzędziami służącymi do cięcia."
+    ru: "Он занимается инструментами, служащими для резки."
+    source: { kind: authored }
+  - form: "służącymi"
+    pl: "Między służącymi a gośćmi była przepaść."
+    ru: "Между слугами и гостями была пропасть."
+    source: { kind: authored }
+  - form: "służącymi"
+    pl: "Rozmawia ze służącymi w kuchni."
+    ru: "Он говорит со слугами на кухне."
+    source: { kind: authored }
+  - form: "służcie"
+    pl: "Służcie narodowi wiernie."
+    ru: "Служите народу верно."
+    source: { kind: authored }
+  - form: "służcie"
+    pl: "Służcie pomocą, kiedy możecie."
+    ru: "Помогайте, когда можете."
+    source: { kind: authored }
+  - form: "służcie"
+    pl: "Służcie przykładem."
+    ru: "Служите примером."
+    source: { kind: authored }
+  - form: "służenia"
+    pl: "Dotyczy to służenia narodowi."
+    ru: "Это касается служения народу."
+    source: { kind: authored }
+  - form: "służenia"
+    pl: "Od służenia w wojsku minęły lata."
+    ru: "Со службы в армии прошли годы."
+    source: { kind: authored }
+  - form: "służenia"
+    pl: "Sposób służenia gościom był nienaganny."
+    ru: "Способ обслуживания гостей был безупречен."
+    source: { kind: authored }
   - form: "służenie"
     pl: "Służenie ludziom jest jego jedynym celem w życiu."
     ru: "Служение людям — его единственная цель в жизни."
@@ -185,6 +250,30 @@ formExamples:
     pl: "Służenie dwóm panom się nie uda."
     ru: "Служить двум господам не выйдет."
     source: { kind: authored }
+  - form: "służeniem"
+    pl: "Sprawa skończyła się służeniem pomocą."
+    ru: "Дело кончилось тем, что он помог."
+    source: { kind: authored }
+  - form: "służeniem"
+    pl: "Przed służeniem radą wysłuchaj do końca."
+    ru: "Прежде чем давать совет, выслушай до конца."
+    source: { kind: authored }
+  - form: "służeniem"
+    pl: "Między służeniem a usługiwaniem jest różnica."
+    ru: "Между служением и прислуживанием есть разница."
+    source: { kind: authored }
+  - form: "służeniu"
+    pl: "Po służeniu w wojsku wrócił na wieś."
+    ru: "После службы в армии он вернулся в деревню."
+    source: { kind: authored }
+  - form: "służeniu"
+    pl: "W służeniu narodowi nie ma nic wstydliwego."
+    ru: "В служении народу нет ничего постыдного."
+    source: { kind: authored }
+  - form: "służeniu"
+    pl: "Dzięki służeniu pomocą zyskał zaufanie."
+    ru: "Помогая другим, он заслужил доверие."
+    source: { kind: authored }
   - form: "służę"
     pl: "Uprzejmie służę pomocą."
     ru: "Охотно помогу."
@@ -196,6 +285,18 @@ formExamples:
   - form: "służę"
     pl: "Służę pomocą w każdej chwili."
     ru: "Я готов помочь в любой момент."
+    source: { kind: authored }
+  - form: "służmy"
+    pl: "Służmy narodowi wiernie."
+    ru: "Будем служить народу верно."
+    source: { kind: authored }
+  - form: "służmy"
+    pl: "Służmy pomocą, kiedy możemy."
+    ru: "Будем помогать, когда можем."
+    source: { kind: authored }
+  - form: "służmy"
+    pl: "Służmy przykładem."
+    ru: "Будем служить примером."
     source: { kind: authored }
   - form: "służono"
     pl: "Służono tu przez pokolenia."
@@ -221,6 +322,18 @@ formExamples:
     pl: "Wieprzowina mi nie służy."
     ru: "Свинина мне не на пользу."
     source: { kind: translated, id: 833016 }
+  - form: "służycie"
+    pl: "Służycie w wojsku?"
+    ru: "Вы служите в армии?"
+    source: { kind: authored }
+  - form: "służycie"
+    pl: "Czy służycie pomocą?"
+    ru: "Вы помогаете?"
+    source: { kind: authored }
+  - form: "służycie"
+    pl: "Komu właściwie służycie?"
+    ru: "Кому вы, собственно, служите?"
+    source: { kind: authored }
   - form: "służyć"
     pl: "Czym mogę służyć."
     ru: "Чем могу служить."
@@ -244,6 +357,66 @@ formExamples:
   - form: "służyli"
     pl: "Nie służyli nikomu."
     ru: "Они никому не служили."
+    source: { kind: authored }
+  - form: "służyliby"
+    pl: "Służyliby w wojsku, gdyby mogli."
+    ru: "Они служили бы в армии, если бы могли."
+    source: { kind: authored }
+  - form: "służyliby"
+    pl: "Chyba nie służyliby takiej sprawie."
+    ru: "Вряд ли они служили бы такому делу."
+    source: { kind: authored }
+  - form: "służyliby"
+    pl: "Służyliby narodowi wiernie."
+    ru: "Они служили бы народу верно."
+    source: { kind: authored }
+  - form: "służylibyście"
+    pl: "Czy służylibyście w wojsku?"
+    ru: "Вы служили бы в армии?"
+    source: { kind: authored }
+  - form: "służylibyście"
+    pl: "Służylibyście narodowi wiernie?"
+    ru: "Вы служили бы народу верно?"
+    source: { kind: authored }
+  - form: "służylibyście"
+    pl: "Naprawdę nie służylibyście takiej sprawie?"
+    ru: "Вы правда не служили бы такому делу?"
+    source: { kind: authored }
+  - form: "służylibyśmy"
+    pl: "Służylibyśmy w wojsku, gdybyśmy mogli."
+    ru: "Мы служили бы в армии, если бы могли."
+    source: { kind: authored }
+  - form: "służylibyśmy"
+    pl: "Raczej nie służylibyśmy takiej sprawie."
+    ru: "Вряд ли мы служили бы такому делу."
+    source: { kind: authored }
+  - form: "służylibyśmy"
+    pl: "Służylibyśmy narodowi wiernie."
+    ru: "Мы служили бы народу верно."
+    source: { kind: authored }
+  - form: "służyliście"
+    pl: "Służyliście w wojsku?"
+    ru: "Вы служили в армии?"
+    source: { kind: authored }
+  - form: "służyliście"
+    pl: "Dlaczego nie służyliście pomocą?"
+    ru: "Почему вы не помогли?"
+    source: { kind: authored }
+  - form: "służyliście"
+    pl: "Służyliście narodowi wiernie."
+    ru: "Вы служили народу верно."
+    source: { kind: authored }
+  - form: "służyliśmy"
+    pl: "Służyliśmy w wojsku razem."
+    ru: "Мы служили в армии вместе."
+    source: { kind: authored }
+  - form: "służyliśmy"
+    pl: "Służyliśmy narodowi wiernie."
+    ru: "Мы служили народу верно."
+    source: { kind: authored }
+  - form: "służyliśmy"
+    pl: "Pomocą służyliśmy zawsze."
+    ru: "Помощью мы служили всегда."
     source: { kind: authored }
   - form: "służył"
     pl: "Dobrze mi służył ten nóż."
@@ -269,6 +442,42 @@ formExamples:
     pl: "Maszyna służyła nam dziesięć lat."
     ru: "Машина служила нам десять лет."
     source: { kind: authored }
+  - form: "służyłaby"
+    pl: "Służyłaby w wojsku, gdyby mogła."
+    ru: "Она служила бы в армии, если бы могла."
+    source: { kind: authored }
+  - form: "służyłaby"
+    pl: "Chyba nie służyłaby takiej sprawie."
+    ru: "Вряд ли она служила бы такому делу."
+    source: { kind: authored }
+  - form: "służyłaby"
+    pl: "Ta sala służyłaby za jadalnię."
+    ru: "Этот зал служил бы столовой."
+    source: { kind: authored }
+  - form: "służyłabym"
+    pl: "Służyłabym w wojsku, gdybym mogła."
+    ru: "Я служила бы в армии, если бы могла."
+    source: { kind: authored }
+  - form: "służyłabym"
+    pl: "Raczej nie służyłabym takiej sprawie."
+    ru: "Вряд ли я служила бы такому делу."
+    source: { kind: authored }
+  - form: "służyłabym"
+    pl: "Służyłabym pomocą chętnie."
+    ru: "Я охотно помогла бы."
+    source: { kind: authored }
+  - form: "służyłabyś"
+    pl: "Czy służyłabyś w wojsku?"
+    ru: "Ты служила бы в армии?"
+    source: { kind: authored }
+  - form: "służyłabyś"
+    pl: "Służyłabyś pomocą?"
+    ru: "Ты помогла бы?"
+    source: { kind: authored }
+  - form: "służyłabyś"
+    pl: "Naprawdę nie służyłabyś takiej sprawie?"
+    ru: "Ты правда не служила бы такому делу?"
+    source: { kind: authored }
   - form: "służyłam"
     pl: "Służyłam w wojsku pięć lat."
     ru: "Я служила в армии пять лет."
@@ -292,6 +501,42 @@ formExamples:
   - form: "służyłaś"
     pl: "Nie służyłaś nikomu."
     ru: "Ты никому не служила."
+    source: { kind: authored }
+  - form: "służyłby"
+    pl: "Służyłby w wojsku, gdyby mógł."
+    ru: "Он служил бы в армии, если бы мог."
+    source: { kind: authored }
+  - form: "służyłby"
+    pl: "Chyba nie służyłby takiej sprawie."
+    ru: "Вряд ли он служил бы такому делу."
+    source: { kind: authored }
+  - form: "służyłby"
+    pl: "Taki klimat nie służyłby mu wcale."
+    ru: "Такой климат ему совсем не пошёл бы на пользу."
+    source: { kind: authored }
+  - form: "służyłbym"
+    pl: "Służyłbym w wojsku, gdybym mógł."
+    ru: "Я служил бы в армии, если бы мог."
+    source: { kind: authored }
+  - form: "służyłbym"
+    pl: "Raczej nie służyłbym takiej sprawie."
+    ru: "Вряд ли я служил бы такому делу."
+    source: { kind: authored }
+  - form: "służyłbym"
+    pl: "Służyłbym pomocą chętnie."
+    ru: "Я охотно помог бы."
+    source: { kind: authored }
+  - form: "służyłbyś"
+    pl: "Czy służyłbyś w wojsku?"
+    ru: "Ты служил бы в армии?"
+    source: { kind: authored }
+  - form: "służyłbyś"
+    pl: "Służyłbyś pomocą?"
+    ru: "Ты помог бы?"
+    source: { kind: authored }
+  - form: "służyłbyś"
+    pl: "Naprawdę nie służyłbyś takiej sprawie?"
+    ru: "Ты правда не служил бы такому делу?"
     source: { kind: authored }
   - form: "służyłem"
     pl: "Nigdy też nie nosiłem butów. Prawdę mówiąc, nigdy nie służyłem w wojsku."
@@ -329,6 +574,18 @@ formExamples:
     pl: "Nic to nie służyło sprawie."
     ru: "Это делу не служило."
     source: { kind: authored }
+  - form: "służyłoby"
+    pl: "Dziecko służyłoby za posłańca."
+    ru: "Ребёнок служил бы посыльным."
+    source: { kind: authored }
+  - form: "służyłoby"
+    pl: "Żadne z nich nie służyłoby takiej sprawie."
+    ru: "Никто из них не служил бы такому делу."
+    source: { kind: authored }
+  - form: "służyłoby"
+    pl: "To pudełko służyłoby do przechowywania listów."
+    ru: "Эта коробка служила бы для хранения писем."
+    source: { kind: authored }
   - form: "służyły"
     pl: "Te narzędzia służyły ojcu przez lata."
     ru: "Эти инструменты служили отцу годами."
@@ -340,6 +597,78 @@ formExamples:
   - form: "służyły"
     pl: "Nie służyły nikomu."
     ru: "Они никому не служили."
+    source: { kind: authored }
+  - form: "służyłyby"
+    pl: "Służyłyby w wojsku, gdyby mogły."
+    ru: "Они служили бы в армии, если бы могли."
+    source: { kind: authored }
+  - form: "służyłyby"
+    pl: "Te narzędzia służyłyby do cięcia."
+    ru: "Эти инструменты служили бы для резки."
+    source: { kind: authored }
+  - form: "służyłyby"
+    pl: "Chyba nie służyłyby takiej sprawie."
+    ru: "Вряд ли они служили бы такому делу."
+    source: { kind: authored }
+  - form: "służyłybyście"
+    pl: "Czy służyłybyście w wojsku?"
+    ru: "Вы служили бы в армии?"
+    source: { kind: authored }
+  - form: "służyłybyście"
+    pl: "Służyłybyście pomocą?"
+    ru: "Вы помогли бы?"
+    source: { kind: authored }
+  - form: "służyłybyście"
+    pl: "Naprawdę nie służyłybyście takiej sprawie?"
+    ru: "Вы правда не служили бы такому делу?"
+    source: { kind: authored }
+  - form: "służyłybyśmy"
+    pl: "Służyłybyśmy w wojsku, gdybyśmy mogły."
+    ru: "Мы служили бы в армии, если бы могли."
+    source: { kind: authored }
+  - form: "służyłybyśmy"
+    pl: "Raczej nie służyłybyśmy takiej sprawie."
+    ru: "Вряд ли мы служили бы такому делу."
+    source: { kind: authored }
+  - form: "służyłybyśmy"
+    pl: "Służyłybyśmy pomocą chętnie."
+    ru: "Мы охотно помогли бы."
+    source: { kind: authored }
+  - form: "służyłyście"
+    pl: "Służyłyście w wojsku?"
+    ru: "Вы служили в армии?"
+    source: { kind: authored }
+  - form: "służyłyście"
+    pl: "Dlaczego nie służyłyście pomocą?"
+    ru: "Почему вы не помогли?"
+    source: { kind: authored }
+  - form: "służyłyście"
+    pl: "Służyłyście narodowi wiernie."
+    ru: "Вы служили народу верно."
+    source: { kind: authored }
+  - form: "służyłyśmy"
+    pl: "Służyłyśmy w wojsku razem."
+    ru: "Мы служили в армии вместе."
+    source: { kind: authored }
+  - form: "służyłyśmy"
+    pl: "Służyłyśmy narodowi wiernie."
+    ru: "Мы служили народу верно."
+    source: { kind: authored }
+  - form: "służyłyśmy"
+    pl: "Pomocą służyłyśmy zawsze."
+    ru: "Помощью мы служили всегда."
+    source: { kind: authored }
+  - form: "służymy"
+    pl: "Służymy pomocą."
+    ru: "Мы помогаем."
+    source: { kind: authored }
+  - form: "służymy"
+    pl: "Służymy narodowi wiernie."
+    ru: "Мы служим народу верно."
+    source: { kind: authored }
+  - form: "służymy"
+    pl: "Chętnie służymy radą."
+    ru: "Мы охотно даём совет."
     source: { kind: authored }
   - form: "służysz"
     pl: "Służysz w wojsku?"
