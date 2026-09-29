@@ -86,7 +86,6 @@ formExamplesSkip:
   - { form: "zgadnięciem", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadnięciu", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadniętej", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zgadnięto", reason: "безличная форма прошедшего времени: в корпусе нет примеров" }
   - { form: "zgadnijcie", reason: "формы отглагольного существительного: в корпусе нет примеров" }
   - { form: "zgadnijmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
@@ -321,6 +320,18 @@ formExamples:
   - form: "zgadniętemu"
     pl: "Nie dowierzał zgadniętemu wynikowi."
     ru: "Он не доверял угаданному результату."
+    source: { kind: authored }
+  - form: "zgadnięto"
+    pl: "Zgadnięto od razu, o co chodzi."
+    ru: "Сразу угадали, в чём дело."
+    source: { kind: authored }
+  - form: "zgadnięto"
+    pl: "Zgadnięto hasło za pierwszym razem."
+    ru: "Пароль угадали с первого раза."
+    source: { kind: authored }
+  - form: "zgadnięto"
+    pl: "Zgadnięto, gdzie się ukrył."
+    ru: "Угадали, где он спрятался."
     source: { kind: authored }
   - form: "zgadnięty"
     pl: "Wynik zgadnięty za pierwszym razem."
