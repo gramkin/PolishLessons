@@ -45,41 +45,20 @@ idioms:
   - { pl: "zasłużyć na karę", ru: "заслужить наказание" }
   - { pl: "dobrze sobie zasłużyć", ru: "вполне заслужить" }
 formExamplesSkip:
-  - { form: "zasłuż", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zasłużcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zasłużmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zasłużona", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużone", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużony", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zasłużyliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużylibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużylibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zasłużyłaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zasłużyłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zasłużyłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
   - { form: "zasłużywszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
+  - form: "zasłuż"
+    pl: "Zasłuż na to."
+    ru: "Заслужи это."
+    source: { kind: authored }
+  - form: "zasłuż"
+    pl: "Zasłuż sobie na szacunek."
+    ru: "Заслужи уважение."
+    source: { kind: authored }
+  - form: "zasłuż"
+    pl: "Najpierw zasłuż na nagrodę."
+    ru: "Сначала заслужи награду."
+    source: { kind: authored }
   - form: "zasłużą"
     pl: "Zasłużą na nasze zaufanie."
     ru: "Они заслужат наше доверие."
@@ -91,6 +70,18 @@ formExamples:
   - form: "zasłużą"
     pl: "Nie zasłużą na naganę."
     ru: "Они не заслужат выговора."
+    source: { kind: authored }
+  - form: "zasłużcie"
+    pl: "Zasłużcie na nagrodę."
+    ru: "Заслужите награду."
+    source: { kind: authored }
+  - form: "zasłużcie"
+    pl: "Zasłużcie sobie na szacunek."
+    ru: "Заслужите уважение."
+    source: { kind: authored }
+  - form: "zasłużcie"
+    pl: "Najpierw zasłużcie na zaufanie."
+    ru: "Сначала заслужите доверие."
     source: { kind: authored }
   - form: "zasłużeni"
     pl: "Eksperci gospodarczy kandydata Obamy to raczej zasłużeni neoliberałowie."
@@ -104,6 +95,54 @@ formExamples:
     pl: "Zasłużeni dostali medale."
     ru: "Заслуженные получили медали."
     source: { kind: authored }
+  - form: "zasłużenia"
+    pl: "Od zasłużenia na nagrodę jest jeszcze daleko."
+    ru: "До того, чтобы заслужить награду, ещё далеко."
+    source: { kind: authored }
+  - form: "zasłużenia"
+    pl: "Dotyczy to zasłużenia na szacunek."
+    ru: "Это касается того, как заслужить уважение."
+    source: { kind: authored }
+  - form: "zasłużenia"
+    pl: "Sposób zasłużenia na zaufanie jest tylko jeden."
+    ru: "Способ заслужить доверие только один."
+    source: { kind: authored }
+  - form: "zasłużenie"
+    pl: "Zasłużenie wygrali mecz."
+    ru: "Они заслуженно выиграли матч."
+    source: { kind: authored }
+  - form: "zasłużenie"
+    pl: "Nagroda trafiła do niego zasłużenie."
+    ru: "Награда досталась ему заслуженно."
+    source: { kind: authored }
+  - form: "zasłużenie"
+    pl: "Zespół zasłużenie zajął pierwsze miejsce."
+    ru: "Команда заслуженно заняла первое место."
+    source: { kind: authored }
+  - form: "zasłużeniem"
+    pl: "Między zasłużeniem na nagrodę a jej odebraniem jest różnica."
+    ru: "Между тем, чтобы заслужить награду, и тем, чтобы её получить, есть разница."
+    source: { kind: authored }
+  - form: "zasłużeniem"
+    pl: "Przed zasłużeniem na zaufanie nie proś o nie."
+    ru: "Не проси доверия, пока его не заслужил."
+    source: { kind: authored }
+  - form: "zasłużeniem"
+    pl: "Sprawa skończyła się zasłużeniem na naganę."
+    ru: "Дело кончилось выговором, который он заслужил."
+    source: { kind: authored }
+  - form: "zasłużeniu"
+    pl: "Po zasłużeniu na nagrodę odebrał ją z dumą."
+    ru: "Заслужив награду, он принял её с гордостью."
+    source: { kind: authored }
+  - form: "zasłużeniu"
+    pl: "W zasłużeniu na szacunek nie ma skrótów."
+    ru: "Коротких путей к уважению нет."
+    source: { kind: authored }
+  - form: "zasłużeniu"
+    pl: "Dzięki zasłużeniu na zaufanie dostał tę pracę."
+    ru: "Заслужив доверие, он получил эту работу."
+    source: { kind: authored }
   - form: "zasłużę"
     pl: "Zasłużę na twoje zaufanie."
     ru: "Я заслужу твоё доверие."
@@ -116,6 +155,90 @@ formExamples:
     pl: "Nie zasłużę na naganę."
     ru: "Я не заслужу выговора."
     source: { kind: authored }
+  - form: "zasłużmy"
+    pl: "Zasłużmy na nagrodę."
+    ru: "Заслужим награду."
+    source: { kind: authored }
+  - form: "zasłużmy"
+    pl: "Zasłużmy sobie na szacunek."
+    ru: "Заслужим уважение."
+    source: { kind: authored }
+  - form: "zasłużmy"
+    pl: "Najpierw zasłużmy na zaufanie."
+    ru: "Сначала заслужим доверие."
+    source: { kind: authored }
+  - form: "zasłużona"
+    pl: "To zasłużona nagroda."
+    ru: "Это заслуженная награда."
+    source: { kind: authored }
+  - form: "zasłużona"
+    pl: "Ta nauczycielka jest zasłużona dla szkoły."
+    ru: "Эта учительница имеет заслуги перед школой."
+    source: { kind: authored }
+  - form: "zasłużona"
+    pl: "Zasłużona wygrana cieszy podwójnie."
+    ru: "Заслуженная победа радует вдвойне."
+    source: { kind: authored }
+  - form: "zasłużoną"
+    pl: "Dostał zasłużoną nagrodę."
+    ru: "Он получил заслуженную награду."
+    source: { kind: authored }
+  - form: "zasłużoną"
+    pl: "Uważam tę wygraną za zasłużoną."
+    ru: "Я считаю эту победу заслуженной."
+    source: { kind: authored }
+  - form: "zasłużoną"
+    pl: "Odebrał zasłużoną naganę."
+    ru: "Он получил заслуженный выговор."
+    source: { kind: authored }
+  - form: "zasłużone"
+    pl: "To zasłużone zwycięstwo."
+    ru: "Это заслуженная победа."
+    source: { kind: authored }
+  - form: "zasłużone"
+    pl: "Zasłużone oklaski trwały długo."
+    ru: "Заслуженные аплодисменты длились долго."
+    source: { kind: authored }
+  - form: "zasłużone"
+    pl: "Uważam te oklaski za zasłużone."
+    ru: "Я считаю эти аплодисменты заслуженными."
+    source: { kind: authored }
+  - form: "zasłużonego"
+    pl: "Dotyczy to zasłużonego pracownika."
+    ru: "Это касается заслуженного работника."
+    source: { kind: authored }
+  - form: "zasłużonego"
+    pl: "Nie ma tu nikogo zasłużonego dla miasta."
+    ru: "Здесь нет никого с заслугами перед городом."
+    source: { kind: authored }
+  - form: "zasłużonego"
+    pl: "Sprawa zasłużonego nauczyciela poruszyła wszystkich."
+    ru: "Дело заслуженного учителя тронуло всех."
+    source: { kind: authored }
+  - form: "zasłużonej"
+    pl: "Dotyczy to zasłużonej nauczycielki."
+    ru: "Это касается заслуженной учительницы."
+    source: { kind: authored }
+  - form: "zasłużonej"
+    pl: "Brakuje tu zasłużonej nagrody."
+    ru: "Здесь не хватает заслуженной награды."
+    source: { kind: authored }
+  - form: "zasłużonej"
+    pl: "Dzięki zasłużonej wygranej awansowali."
+    ru: "Благодаря заслуженной победе они вышли выше."
+    source: { kind: authored }
+  - form: "zasłużonemu"
+    pl: "Przyjrzyj się zasłużonemu pracownikowi."
+    ru: "Присмотрись к заслуженному работнику."
+    source: { kind: authored }
+  - form: "zasłużonemu"
+    pl: "Podziękowali zasłużonemu nauczycielowi."
+    ru: "Они поблагодарили заслуженного учителя."
+    source: { kind: authored }
+  - form: "zasłużonemu"
+    pl: "Dzięki zasłużonemu odpoczynkowi wrócił do sił."
+    ru: "Благодаря заслуженному отдыху он восстановил силы."
+    source: { kind: authored }
   - form: "zasłużono"
     pl: "Zasłużono na nagrodę."
     ru: "Награду заслужили."
@@ -127,6 +250,54 @@ formExamples:
   - form: "zasłużono"
     pl: "Uczciwie zasłużono na te pieniądze."
     ru: "Эти деньги заслужили честно."
+    source: { kind: authored }
+  - form: "zasłużony"
+    pl: "To zasłużony pracownik."
+    ru: "Это заслуженный работник."
+    source: { kind: authored }
+  - form: "zasłużony"
+    pl: "Zasłużony odpoczynek jest najlepszy."
+    ru: "Заслуженный отдых — самый лучший."
+    source: { kind: authored }
+  - form: "zasłużony"
+    pl: "Ten sukces jest w pełni zasłużony."
+    ru: "Этот успех вполне заслужен."
+    source: { kind: authored }
+  - form: "zasłużonych"
+    pl: "Brakuje danych o zasłużonych pracownikach."
+    ru: "Не хватает данных о заслуженных работниках."
+    source: { kind: authored }
+  - form: "zasłużonych"
+    pl: "Wśród zasłużonych był i on."
+    ru: "Среди заслуженных был и он."
+    source: { kind: authored }
+  - form: "zasłużonych"
+    pl: "Lista zasłużonych wisi w holu."
+    ru: "Список заслуженных висит в холле."
+    source: { kind: authored }
+  - form: "zasłużonym"
+    pl: "W zasłużonym odpoczynku nie ma nic złego."
+    ru: "В заслуженном отдыхе нет ничего плохого."
+    source: { kind: authored }
+  - form: "zasłużonym"
+    pl: "Przyglądamy się zasłużonym pracownikom."
+    ru: "Мы смотрим на заслуженных работников."
+    source: { kind: authored }
+  - form: "zasłużonym"
+    pl: "Nad zasłużonym zwycięstwem nikt nie dyskutuje."
+    ru: "Заслуженную победу никто не обсуждает."
+    source: { kind: authored }
+  - form: "zasłużonymi"
+    pl: "Zajmuje się zasłużonymi pracownikami."
+    ru: "Он занимается заслуженными работниками."
+    source: { kind: authored }
+  - form: "zasłużonymi"
+    pl: "Między zasłużonymi a szczęśliwymi jest różnica."
+    ru: "Между заслуженными и удачливыми есть разница."
+    source: { kind: authored }
+  - form: "zasłużonymi"
+    pl: "Rozmawia z nauczycielami zasłużonymi dla szkoły."
+    ru: "Он говорит с учителями, имеющими заслуги перед школой."
     source: { kind: authored }
   - form: "zasłuży"
     pl: "Zasłuży na nasze zaufanie."
@@ -176,6 +347,54 @@ formExamples:
     pl: "Niczym sobie na to nie zasłużyli."
     ru: "Они ничем этого не заслужили."
     source: { kind: authored }
+  - form: "zasłużyliby"
+    pl: "Zasłużyliby na nagrodę, gdyby się starali."
+    ru: "Они заслужили бы награду, если бы старались."
+    source: { kind: authored }
+  - form: "zasłużyliby"
+    pl: "Chyba nie zasłużyliby na takie słowa."
+    ru: "Вряд ли они заслужили бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyliby"
+    pl: "Zasłużyliby sobie na szacunek."
+    ru: "Они заслужили бы уважение."
+    source: { kind: authored }
+  - form: "zasłużylibyście"
+    pl: "Czy zasłużylibyście na nagrodę?"
+    ru: "Вы заслужили бы награду?"
+    source: { kind: authored }
+  - form: "zasłużylibyście"
+    pl: "Zasłużylibyście sobie na szacunek."
+    ru: "Вы заслужили бы уважение."
+    source: { kind: authored }
+  - form: "zasłużylibyście"
+    pl: "Naprawdę nie zasłużylibyście na takie słowa?"
+    ru: "Вы правда не заслужили бы таких слов?"
+    source: { kind: authored }
+  - form: "zasłużylibyśmy"
+    pl: "Zasłużylibyśmy na nagrodę, gdybyśmy się starali."
+    ru: "Мы заслужили бы награду, если бы старались."
+    source: { kind: authored }
+  - form: "zasłużylibyśmy"
+    pl: "Raczej nie zasłużylibyśmy na takie słowa."
+    ru: "Вряд ли мы заслужили бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużylibyśmy"
+    pl: "Zasłużylibyśmy sobie na szacunek."
+    ru: "Мы заслужили бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyliście"
+    pl: "Zasłużyliście na nagrodę."
+    ru: "Вы заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyliście"
+    pl: "Na takie słowa nie zasłużyliście."
+    ru: "Таких слов вы не заслужили."
+    source: { kind: authored }
+  - form: "zasłużyliście"
+    pl: "Czym sobie na to zasłużyliście?"
+    ru: "Чем вы это заслужили?"
+    source: { kind: authored }
   - form: "zasłużyliśmy"
     pl: "Myślę, że zasłużyliśmy na to."
     ru: "Думаю, мы это заслужили."
@@ -212,6 +431,42 @@ formExamples:
     pl: "Niczym sobie na to nie zasłużyła."
     ru: "Она ничем этого не заслужила."
     source: { kind: authored }
+  - form: "zasłużyłaby"
+    pl: "Zasłużyłaby na nagrodę, gdyby się starała."
+    ru: "Она заслужила бы награду, если бы старалась."
+    source: { kind: authored }
+  - form: "zasłużyłaby"
+    pl: "Chyba nie zasłużyłaby na takie słowa."
+    ru: "Вряд ли она заслужила бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłaby"
+    pl: "Zasłużyłaby sobie na szacunek."
+    ru: "Она заслужила бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłabym"
+    pl: "Zasłużyłabym na nagrodę, gdybym się starała."
+    ru: "Я заслужила бы награду, если бы старалась."
+    source: { kind: authored }
+  - form: "zasłużyłabym"
+    pl: "Raczej nie zasłużyłabym na takie słowa."
+    ru: "Вряд ли я заслужила бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłabym"
+    pl: "Zasłużyłabym sobie na szacunek."
+    ru: "Я заслужила бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłabyś"
+    pl: "Czy zasłużyłabyś na nagrodę?"
+    ru: "Ты заслужила бы награду?"
+    source: { kind: authored }
+  - form: "zasłużyłabyś"
+    pl: "Zasłużyłabyś sobie na szacunek."
+    ru: "Ты заслужила бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłabyś"
+    pl: "Naprawdę nie zasłużyłabyś na takie słowa?"
+    ru: "Ты правда не заслужила бы таких слов?"
+    source: { kind: authored }
   - form: "zasłużyłam"
     pl: "Zasłużyłam na nagrodę."
     ru: "Я заслужила награду."
@@ -235,6 +490,42 @@ formExamples:
   - form: "zasłużyłaś"
     pl: "Niczym sobie na to nie zasłużyłaś."
     ru: "Ты ничем этого не заслужила."
+    source: { kind: authored }
+  - form: "zasłużyłby"
+    pl: "Zasłużyłby na nagrodę, gdyby się starał."
+    ru: "Он заслужил бы награду, если бы старался."
+    source: { kind: authored }
+  - form: "zasłużyłby"
+    pl: "Chyba nie zasłużyłby na takie słowa."
+    ru: "Вряд ли он заслужил бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłby"
+    pl: "Zasłużyłby sobie na szacunek."
+    ru: "Он заслужил бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłbym"
+    pl: "Zasłużyłbym na nagrodę, gdybym się starał."
+    ru: "Я заслужил бы награду, если бы старался."
+    source: { kind: authored }
+  - form: "zasłużyłbym"
+    pl: "Raczej nie zasłużyłbym na takie słowa."
+    ru: "Вряд ли я заслужил бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłbym"
+    pl: "Zasłużyłbym sobie na szacunek."
+    ru: "Я заслужил бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłbyś"
+    pl: "Czy zasłużyłbyś na nagrodę?"
+    ru: "Ты заслужил бы награду?"
+    source: { kind: authored }
+  - form: "zasłużyłbyś"
+    pl: "Zasłużyłbyś sobie na szacunek."
+    ru: "Ты заслужил бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłbyś"
+    pl: "Naprawdę nie zasłużyłbyś na takie słowa?"
+    ru: "Ты правда не заслужил бы таких слов?"
     source: { kind: authored }
   - form: "zasłużyłem"
     pl: "Nie zasłużyłem na to."
@@ -272,6 +563,18 @@ formExamples:
     pl: "Miasto zasłużyło na ten tytuł."
     ru: "Город заслужил это звание."
     source: { kind: authored }
+  - form: "zasłużyłoby"
+    pl: "Dziecko zasłużyłoby na pochwałę."
+    ru: "Ребёнок заслужил бы похвалу."
+    source: { kind: authored }
+  - form: "zasłużyłoby"
+    pl: "Żadne z nich nie zasłużyłoby na nagrodę."
+    ru: "Никто из них не заслужил бы награды."
+    source: { kind: authored }
+  - form: "zasłużyłoby"
+    pl: "To miasto zasłużyłoby na lepszy los."
+    ru: "Этот город заслужил бы лучшей судьбы."
+    source: { kind: authored }
   - form: "zasłużyły"
     pl: "Kobiety zasłużyły na nagrodę."
     ru: "Женщины заслужили награду."
@@ -283,6 +586,66 @@ formExamples:
   - form: "zasłużyły"
     pl: "Niczym sobie na to nie zasłużyły."
     ru: "Они ничем этого не заслужили."
+    source: { kind: authored }
+  - form: "zasłużyłyby"
+    pl: "Zasłużyłyby na nagrodę, gdyby się starały."
+    ru: "Они заслужили бы награду, если бы старались."
+    source: { kind: authored }
+  - form: "zasłużyłyby"
+    pl: "Te dziewczyny zasłużyłyby na pochwałę."
+    ru: "Эти девушки заслужили бы похвалу."
+    source: { kind: authored }
+  - form: "zasłużyłyby"
+    pl: "Chyba nie zasłużyłyby na takie słowa."
+    ru: "Вряд ли они заслужили бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłybyście"
+    pl: "Czy zasłużyłybyście na nagrodę?"
+    ru: "Вы заслужили бы награду?"
+    source: { kind: authored }
+  - form: "zasłużyłybyście"
+    pl: "Zasłużyłybyście sobie na szacunek."
+    ru: "Вы заслужили бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłybyście"
+    pl: "Naprawdę nie zasłużyłybyście na takie słowa?"
+    ru: "Вы правда не заслужили бы таких слов?"
+    source: { kind: authored }
+  - form: "zasłużyłybyśmy"
+    pl: "Zasłużyłybyśmy na nagrodę, gdybyśmy się starały."
+    ru: "Мы заслужили бы награду, если бы старались."
+    source: { kind: authored }
+  - form: "zasłużyłybyśmy"
+    pl: "Raczej nie zasłużyłybyśmy na takie słowa."
+    ru: "Вряд ли мы заслужили бы такие слова."
+    source: { kind: authored }
+  - form: "zasłużyłybyśmy"
+    pl: "Zasłużyłybyśmy sobie na szacunek."
+    ru: "Мы заслужили бы уважение."
+    source: { kind: authored }
+  - form: "zasłużyłyście"
+    pl: "Zasłużyłyście na nagrodę."
+    ru: "Вы заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyłyście"
+    pl: "Na takie słowa nie zasłużyłyście."
+    ru: "Таких слов вы не заслужили."
+    source: { kind: authored }
+  - form: "zasłużyłyście"
+    pl: "Czym sobie na to zasłużyłyście?"
+    ru: "Чем вы это заслужили?"
+    source: { kind: authored }
+  - form: "zasłużyłyśmy"
+    pl: "Zasłużyłyśmy na nagrodę."
+    ru: "Мы заслужили награду."
+    source: { kind: authored }
+  - form: "zasłużyłyśmy"
+    pl: "Na takie słowa nie zasłużyłyśmy."
+    ru: "Таких слов мы не заслужили."
+    source: { kind: authored }
+  - form: "zasłużyłyśmy"
+    pl: "Czym sobie na to zasłużyłyśmy?"
+    ru: "Чем мы это заслужили?"
     source: { kind: authored }
   - form: "zasłużymy"
     pl: "Zasłużymy na wasze zaufanie."
