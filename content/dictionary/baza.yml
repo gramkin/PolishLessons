@@ -57,12 +57,22 @@ idioms:
   - { pl: "baza danych", ru: "база данных" }
   - { pl: "na bazie czegoś", ru: "на основе чего-то" }
 formExamplesSkip:
-  - { form: "baz", reason: "в корпусе нет примеров: родительный падеж множественного числа у этого слова редок" }
   - { form: "bazami", reason: "в корпусе нет примеров: творительный падеж множественного числа у этого слова редок" }
-  - { form: "bazą", reason: "в корпусе нет примеров: творительный падеж единственного числа у этого слова редок" }
   - { form: "bazo", reason: "звательный падеж у этого слова в живой речи не употребляется" }
   - { form: "bazom", reason: "в корпусе нет примеров: дательный падеж множественного числа у этого слова редок" }
 formExamples:
+  - form: "baz"
+    pl: "System korzysta z kilku baz danych."
+    ru: "Система использует несколько баз данных."
+    source: { kind: authored }
+  - form: "baz"
+    pl: "Wojsko zamknęło pięć baz."
+    ru: "Армия закрыла пять баз."
+    source: { kind: authored }
+  - form: "baz"
+    pl: "Nie mamy tylu baz."
+    ru: "У нас нет стольких баз."
+    source: { kind: authored }
   - form: "baza"
     pl: "Ta baza zawiera bardzo dużo błędów."
     ru: "В этой базе очень много ошибок."
@@ -86,6 +96,18 @@ formExamples:
   - form: "bazach"
     pl: "Szukaliśmy tego w dwóch bazach."
     ru: "Мы искали это в двух базах."
+    source: { kind: authored }
+  - form: "bazą"
+    pl: "Mleko jest bazą tego deseru."
+    ru: "Молоко — основа этого десерта."
+    source: { kind: authored }
+  - form: "bazą"
+    pl: "Między bazą a lotniskiem jest most."
+    ru: "Между базой и аэропортом есть мост."
+    source: { kind: authored }
+  - form: "bazą"
+    pl: "Pracujemy nad nową bazą danych."
+    ru: "Мы работаем над новой базой данных."
     source: { kind: authored }
   - form: "bazę"
     pl: "Zbudowali nową bazę na pustyni."

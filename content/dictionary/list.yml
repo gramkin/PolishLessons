@@ -57,7 +57,6 @@ idioms:
   - { pl: "napisać list", ru: "написать письмо" }
 formExamplesSkip:
   - { form: "liście", reason: "по написанию совпадает сразу с двумя другими словами: liść «лист дерева» и lista «список». Все примеры корпуса относятся к ним, а не к слову list, и форма отдана карточке lista" }
-  - { form: "listach", reason: "в корпусе нет примеров для этого слова; форма вдобавок совпадает с формой слова lista «список»" }
   - { form: "listom", reason: "в корпусе нет примеров для этого слова; форма вдобавок совпадает с формой слова lista «список»" }
   - { form: "listowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
 formExamples:
@@ -73,6 +72,18 @@ formExamples:
     pl: "Muszę napisać list."
     ru: "Мне надо написать письмо."
     source: { kind: tatoeba, id: 529750 }
+  - form: "listach"
+    pl: "W listach do siostry pisał o wojnie."
+    ru: "В письмах к сестре он писал о войне."
+    source: { kind: authored }
+  - form: "listach"
+    pl: "O tym mówi się w listach z frontu."
+    ru: "Об этом говорится в письмах с фронта."
+    source: { kind: authored }
+  - form: "listach"
+    pl: "Znalazłem to w starych listach."
+    ru: "Я нашёл это в старых письмах."
+    source: { kind: authored }
   - form: "listami"
     pl: "Męczyli mnie swoimi przydługimi listami."
     ru: "Они замучили меня своими длиннющими письмами."
