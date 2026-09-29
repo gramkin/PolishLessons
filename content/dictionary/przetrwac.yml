@@ -44,37 +44,8 @@ idioms:
   - { pl: "walczyć o przetrwanie", ru: "бороться за выживание" }
   - { pl: "przetrwać najgorsze", ru: "пережить самое худшее" }
 formExamplesSkip:
-  - { form: "przetrwacie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "przetrwaj", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "przetrwajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "przetrwajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "przetrwaliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "przetrwałaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "przetrwałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "przetrwałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "przetrwana", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwaną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwane", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwani", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwaniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "przetrwaniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "przetrwany", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "przetrwanymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
+  - { form: "przetrwani", reason: "мужско-личной формы не бывает: przetrwać берёт в дополнение то, что пережили — wojnę, kryzys, zimę, próbę czasu. Людей в этом смысле не «переживают», поэтому przetrwany склоняется о событиях и вещах: przetrwana zima, mury przetrwane przez wieki" }
   - { form: "przetrwawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "przetrwaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
 formExamples:
   - form: "przetrwa"
     pl: "Tom przetrwa."
@@ -88,6 +59,18 @@ formExamples:
     pl: "Czy gazeta przetrwa?"
     ru: "Выживет ли газета?"
     source: { kind: translated, id: 404541 }
+  - form: "przetrwacie"
+    pl: "Przetrwacie zimę?"
+    ru: "Вы переживёте зиму?"
+    source: { kind: authored }
+  - form: "przetrwacie"
+    pl: "Czy przetrwacie kryzys?"
+    ru: "Вы переживёте кризис?"
+    source: { kind: authored }
+  - form: "przetrwacie"
+    pl: "Przetrwacie najgorsze."
+    ru: "Вы переживёте самое худшее."
+    source: { kind: authored }
   - form: "przetrwać"
     pl: "Mogę przetrwać sam."
     ru: "Я могу выжить один."
@@ -100,6 +83,18 @@ formExamples:
     pl: "Tom zrobił to, by przetrwać."
     ru: "Том сделал это, чтобы выжить."
     source: { kind: translated, id: 8948452 }
+  - form: "przetrwaj"
+    pl: "Przetrwaj zimę."
+    ru: "Переживи зиму."
+    source: { kind: authored }
+  - form: "przetrwaj"
+    pl: "Przetrwaj najgorsze, potem będzie łatwiej."
+    ru: "Переживи худшее, потом будет легче."
+    source: { kind: authored }
+  - form: "przetrwaj"
+    pl: "Przetrwaj ten tydzień."
+    ru: "Продержись эту неделю."
+    source: { kind: authored }
   - form: "przetrwają"
     pl: "Mocni przetrwają, słabi zginą."
     ru: "Сильные выживут, слабые погибнут."
@@ -111,6 +106,30 @@ formExamples:
   - form: "przetrwają"
     pl: "Te drzewa przetrwają zimę."
     ru: "Эти деревья переживут зиму."
+    source: { kind: authored }
+  - form: "przetrwajcie"
+    pl: "Przetrwajcie zimę."
+    ru: "Переживите зиму."
+    source: { kind: authored }
+  - form: "przetrwajcie"
+    pl: "Przetrwajcie najgorsze, potem będzie łatwiej."
+    ru: "Переживите худшее, потом будет легче."
+    source: { kind: authored }
+  - form: "przetrwajcie"
+    pl: "Przetrwajcie ten tydzień."
+    ru: "Продержитесь эту неделю."
+    source: { kind: authored }
+  - form: "przetrwajmy"
+    pl: "Przetrwajmy zimę."
+    ru: "Переживём зиму."
+    source: { kind: authored }
+  - form: "przetrwajmy"
+    pl: "Przetrwajmy najgorsze, potem będzie łatwiej."
+    ru: "Переживём худшее, потом будет легче."
+    source: { kind: authored }
+  - form: "przetrwajmy"
+    pl: "Przetrwajmy ten tydzień."
+    ru: "Продержимся эту неделю."
     source: { kind: authored }
   - form: "przetrwali"
     pl: "Tom i Mary przetrwali."
@@ -124,6 +143,18 @@ formExamples:
     pl: "Przetrwali wojnę."
     ru: "Они пережили войну."
     source: { kind: authored }
+  - form: "przetrwaliby"
+    pl: "Przetrwaliby zimę w górach."
+    ru: "Они пережили бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwaliby"
+    pl: "Chyba nie przetrwaliby kryzysu."
+    ru: "Вряд ли они пережили бы кризис."
+    source: { kind: authored }
+  - form: "przetrwaliby"
+    pl: "Przetrwaliby najgorsze."
+    ru: "Они пережили бы самое худшее."
+    source: { kind: authored }
   - form: "przetrwalibyście"
     pl: "Przetrwalibyście sami w dziczy?"
     ru: "Вы бы выжили одни в дикой природе?"
@@ -135,6 +166,42 @@ formExamples:
   - form: "przetrwalibyście"
     pl: "Bez wody nie przetrwalibyście długo."
     ru: "Без воды вы бы долго не протянули."
+    source: { kind: authored }
+  - form: "przetrwalibyśmy"
+    pl: "Przetrwalibyśmy zimę w górach."
+    ru: "Мы пережили бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwalibyśmy"
+    pl: "Raczej nie przetrwalibyśmy kryzysu."
+    ru: "Вряд ли мы пережили бы кризис."
+    source: { kind: authored }
+  - form: "przetrwalibyśmy"
+    pl: "Przetrwalibyśmy najgorsze."
+    ru: "Мы пережили бы самое худшее."
+    source: { kind: authored }
+  - form: "przetrwaliście"
+    pl: "Przetrwaliście zimę?"
+    ru: "Вы пережили зиму?"
+    source: { kind: authored }
+  - form: "przetrwaliście"
+    pl: "Dlaczego nie przetrwaliście kryzysu?"
+    ru: "Почему вы не пережили кризис?"
+    source: { kind: authored }
+  - form: "przetrwaliście"
+    pl: "Przetrwaliście najgorsze."
+    ru: "Вы пережили самое худшее."
+    source: { kind: authored }
+  - form: "przetrwaliśmy"
+    pl: "Przetrwaliśmy zimę w górach."
+    ru: "Мы пережили зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwaliśmy"
+    pl: "Przetrwaliśmy kryzys."
+    ru: "Мы пережили кризис."
+    source: { kind: authored }
+  - form: "przetrwaliśmy"
+    pl: "Najgorsze przetrwaliśmy razem."
+    ru: "Худшее мы пережили вместе."
     source: { kind: authored }
   - form: "przetrwał"
     pl: "Tom nie przetrwał."
@@ -160,6 +227,30 @@ formExamples:
     pl: "Praca poety przetrwała próbę czasu."
     ru: "Труд поэта выдержал испытание временем."
     source: { kind: translated, id: 10472304 }
+  - form: "przetrwałaby"
+    pl: "Przetrwałaby zimę w górach."
+    ru: "Она пережила бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałaby"
+    pl: "Chyba nie przetrwałaby kryzysu."
+    ru: "Вряд ли она пережила бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałaby"
+    pl: "Ta firma przetrwałaby próbę czasu."
+    ru: "Эта фирма выдержала бы испытание временем."
+    source: { kind: authored }
+  - form: "przetrwałabym"
+    pl: "Przetrwałabym zimę w górach."
+    ru: "Я пережила бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałabym"
+    pl: "Raczej nie przetrwałabym kryzysu."
+    ru: "Вряд ли я пережила бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałabym"
+    pl: "Przetrwałabym najgorsze."
+    ru: "Я пережила бы самое худшее."
+    source: { kind: authored }
   - form: "przetrwałabyś"
     pl: "Przetrwałabyś sama w dziczy?"
     ru: "Ты бы выжила одна в дикой природе?"
@@ -195,6 +286,30 @@ formExamples:
   - form: "przetrwałaś"
     pl: "Jakoś przetrwałaś ten rok."
     ru: "Кое-как ты пережила этот год."
+    source: { kind: authored }
+  - form: "przetrwałby"
+    pl: "Przetrwałby zimę w górach."
+    ru: "Он пережил бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałby"
+    pl: "Chyba nie przetrwałby kryzysu."
+    ru: "Вряд ли он пережил бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałby"
+    pl: "Ten most przetrwałby wieki."
+    ru: "Этот мост простоял бы века."
+    source: { kind: authored }
+  - form: "przetrwałbym"
+    pl: "Przetrwałbym zimę w górach."
+    ru: "Я пережил бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałbym"
+    pl: "Raczej nie przetrwałbym kryzysu."
+    ru: "Вряд ли я пережил бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałbym"
+    pl: "Przetrwałbym najgorsze."
+    ru: "Я пережил бы самое худшее."
     source: { kind: authored }
   - form: "przetrwałbyś"
     pl: "Przetrwałbyś sam w dziczy?"
@@ -244,6 +359,18 @@ formExamples:
     pl: "Nic nie przetrwało."
     ru: "Ничего не уцелело."
     source: { kind: authored }
+  - form: "przetrwałoby"
+    pl: "Dziecko nie przetrwałoby takiej zimy."
+    ru: "Ребёнок не пережил бы такой зимы."
+    source: { kind: authored }
+  - form: "przetrwałoby"
+    pl: "Żadne z nich nie przetrwałoby kryzysu."
+    ru: "Никто из них не пережил бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałoby"
+    pl: "To miasto przetrwałoby oblężenie."
+    ru: "Этот город выдержал бы осаду."
+    source: { kind: authored }
   - form: "przetrwały"
     pl: "Domy przetrwały osunięcie ziemi nietknięte."
     ru: "Дома пережили оползень нетронутыми."
@@ -256,6 +383,18 @@ formExamples:
     pl: "Poeta umarł młodo, ale jego prace przetrwały wieki."
     ru: "Поэт умер молодым, но его труды пережили века."
     source: { kind: translated, id: 6304331 }
+  - form: "przetrwałyby"
+    pl: "Przetrwałyby zimę w górach."
+    ru: "Они пережили бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałyby"
+    pl: "Te mury przetrwałyby wieki."
+    ru: "Эти стены простояли бы века."
+    source: { kind: authored }
+  - form: "przetrwałyby"
+    pl: "Chyba nie przetrwałyby kryzysu."
+    ru: "Вряд ли они пережили бы кризис."
+    source: { kind: authored }
   - form: "przetrwałybyście"
     pl: "Przetrwałybyście same w dziczy?"
     ru: "Вы бы выжили одни в дикой местности?"
@@ -267,6 +406,42 @@ formExamples:
   - form: "przetrwałybyście"
     pl: "Przetrwałybyście taki mróz?"
     ru: "Вы бы пережили такой мороз?"
+    source: { kind: authored }
+  - form: "przetrwałybyśmy"
+    pl: "Przetrwałybyśmy zimę w górach."
+    ru: "Мы пережили бы зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałybyśmy"
+    pl: "Raczej nie przetrwałybyśmy kryzysu."
+    ru: "Вряд ли мы пережили бы кризис."
+    source: { kind: authored }
+  - form: "przetrwałybyśmy"
+    pl: "Przetrwałybyśmy najgorsze."
+    ru: "Мы пережили бы самое худшее."
+    source: { kind: authored }
+  - form: "przetrwałyście"
+    pl: "Przetrwałyście zimę?"
+    ru: "Вы пережили зиму?"
+    source: { kind: authored }
+  - form: "przetrwałyście"
+    pl: "Dlaczego nie przetrwałyście kryzysu?"
+    ru: "Почему вы не пережили кризис?"
+    source: { kind: authored }
+  - form: "przetrwałyście"
+    pl: "Przetrwałyście najgorsze."
+    ru: "Вы пережили самое худшее."
+    source: { kind: authored }
+  - form: "przetrwałyśmy"
+    pl: "Przetrwałyśmy zimę w górach."
+    ru: "Мы пережили зиму в горах."
+    source: { kind: authored }
+  - form: "przetrwałyśmy"
+    pl: "Przetrwałyśmy kryzys."
+    ru: "Мы пережили кризис."
+    source: { kind: authored }
+  - form: "przetrwałyśmy"
+    pl: "Najgorsze przetrwałyśmy razem."
+    ru: "Худшее мы пережили вместе."
     source: { kind: authored }
   - form: "przetrwam"
     pl: "Jestem jak karaluch, zawsze przetrwam."
@@ -292,6 +467,78 @@ formExamples:
     pl: "Razem przetrwamy wszystko."
     ru: "Вместе мы переживём всё."
     source: { kind: authored }
+  - form: "przetrwana"
+    pl: "Zima przetrwana w górach zmienia człowieka."
+    ru: "Зима, пережитая в горах, меняет человека."
+    source: { kind: authored }
+  - form: "przetrwana"
+    pl: "Ta wojna jest już przetrwana."
+    ru: "Эта война уже пережита."
+    source: { kind: authored }
+  - form: "przetrwana"
+    pl: "Przetrwana próba czasu mówi sama za siebie."
+    ru: "Выдержанное испытание временем говорит само за себя."
+    source: { kind: authored }
+  - form: "przetrwaną"
+    pl: "Znam zimę przetrwaną bez prądu."
+    ru: "Я знаю зиму, пережитую без электричества."
+    source: { kind: authored }
+  - form: "przetrwaną"
+    pl: "Uważam tę próbę za przetrwaną."
+    ru: "Я считаю это испытание выдержанным."
+    source: { kind: authored }
+  - form: "przetrwaną"
+    pl: "Opisał wojnę przetrwaną w piwnicy."
+    ru: "Он описал войну, пережитую в подвале."
+    source: { kind: authored }
+  - form: "przetrwane"
+    pl: "Przetrwane lata w ukryciu zostawiły ślad."
+    ru: "Пережитые в укрытии годы оставили след."
+    source: { kind: authored }
+  - form: "przetrwane"
+    pl: "To kryzysy przetrwane bez pomocy."
+    ru: "Это кризисы, пережитые без помощи."
+    source: { kind: authored }
+  - form: "przetrwane"
+    pl: "Przetrwane wieki nie zatarły napisu."
+    ru: "Прошедшие века не стёрли надпись."
+    source: { kind: authored }
+  - form: "przetrwanego"
+    pl: "Dotyczy to kryzysu przetrwanego bez pomocy."
+    ru: "Это касается кризиса, пережитого без помощи."
+    source: { kind: authored }
+  - form: "przetrwanego"
+    pl: "Nie ma tu nic przetrwanego w całości."
+    ru: "Здесь нет ничего уцелевшего целиком."
+    source: { kind: authored }
+  - form: "przetrwanego"
+    pl: "Pamięć roku przetrwanego w ukryciu nie blaknie."
+    ru: "Память о годе, пережитом в укрытии, не блёкнет."
+    source: { kind: authored }
+  - form: "przetrwanej"
+    pl: "Dotyczy to zimy przetrwanej bez prądu."
+    ru: "Это касается зимы, пережитой без электричества."
+    source: { kind: authored }
+  - form: "przetrwanej"
+    pl: "Brakuje tu relacji z wojny przetrwanej w piwnicy."
+    ru: "Здесь не хватает рассказа о войне, пережитой в подвале."
+    source: { kind: authored }
+  - form: "przetrwanej"
+    pl: "Dzięki próbie przetrwanej z honorem zyskali szacunek."
+    ru: "Благодаря испытанию, выдержанному с честью, они заслужили уважение."
+    source: { kind: authored }
+  - form: "przetrwanemu"
+    pl: "Przyjrzyj się kryzysowi przetrwanemu bez pomocy."
+    ru: "Присмотрись к кризису, пережитому без помощи."
+    source: { kind: authored }
+  - form: "przetrwanemu"
+    pl: "Murowi przetrwanemu przez wieki nic nie grozi."
+    ru: "Стене, простоявшей века, ничто не угрожает."
+    source: { kind: authored }
+  - form: "przetrwanemu"
+    pl: "Dzięki rokowi przetrwanemu w ukryciu spisał wspomnienia."
+    ru: "Благодаря году, пережитому в укрытии, он записал воспоминания."
+    source: { kind: authored }
   - form: "przetrwania"
     pl: "Jakie jest prawdopodobieństwo przetrwania?"
     ru: "Какова вероятность выживания?"
@@ -316,6 +563,30 @@ formExamples:
     pl: "Liczy się tylko przetrwanie."
     ru: "Важно только выживание."
     source: { kind: authored }
+  - form: "przetrwaniem"
+    pl: "Sprawa skończyła się przetrwaniem najgorszego."
+    ru: "Дело кончилось тем, что худшее пережили."
+    source: { kind: authored }
+  - form: "przetrwaniem"
+    pl: "Przed przetrwaniem zimy stoi jeszcze listopad."
+    ru: "До того как пережить зиму, есть ещё ноябрь."
+    source: { kind: authored }
+  - form: "przetrwaniem"
+    pl: "Między przetrwaniem a życiem jest różnica."
+    ru: "Между выживанием и жизнью есть разница."
+    source: { kind: authored }
+  - form: "przetrwaniu"
+    pl: "Po przetrwaniu zimy wszyscy odetchnęli."
+    ru: "Пережив зиму, все вздохнули."
+    source: { kind: authored }
+  - form: "przetrwaniu"
+    pl: "W przetrwaniu kryzysu pomogła oszczędność."
+    ru: "Пережить кризис помогла бережливость."
+    source: { kind: authored }
+  - form: "przetrwaniu"
+    pl: "Dzięki przetrwaniu najgorszego mają teraz spokój."
+    ru: "Пережив худшее, они теперь в покое."
+    source: { kind: authored }
   - form: "przetrwano"
     pl: "Przetrwano zimę bez strat."
     ru: "Зиму пережили без потерь."
@@ -327,6 +598,54 @@ formExamples:
   - form: "przetrwano"
     pl: "Jakoś przetrwano najgorsze."
     ru: "Кое-как пережили худшее."
+    source: { kind: authored }
+  - form: "przetrwany"
+    pl: "Ten kryzys jest już przetrwany."
+    ru: "Этот кризис уже пережит."
+    source: { kind: authored }
+  - form: "przetrwany"
+    pl: "Przetrwany bez pomocy rok zbliżył ich do siebie."
+    ru: "Пережитый без помощи год сблизил их."
+    source: { kind: authored }
+  - form: "przetrwany"
+    pl: "Rok przetrwany w ukryciu został opisany."
+    ru: "Год, пережитый в укрытии, был описан."
+    source: { kind: authored }
+  - form: "przetrwanych"
+    pl: "Brakuje danych o przetrwanych kryzysach."
+    ru: "Не хватает данных о пережитых кризисах."
+    source: { kind: authored }
+  - form: "przetrwanych"
+    pl: "Wśród przetrwanych zim ta była najgorsza."
+    ru: "Среди пережитых зим эта была худшей."
+    source: { kind: authored }
+  - form: "przetrwanych"
+    pl: "Lista przetrwanych prób jest długa."
+    ru: "Список выдержанных испытаний длинный."
+    source: { kind: authored }
+  - form: "przetrwanym"
+    pl: "W przetrwanym kryzysie było coś budującego."
+    ru: "В пережитом кризисе было что-то укрепляющее."
+    source: { kind: authored }
+  - form: "przetrwanym"
+    pl: "Przyglądamy się przetrwanym murom."
+    ru: "Мы смотрим на уцелевшие стены."
+    source: { kind: authored }
+  - form: "przetrwanym"
+    pl: "O przetrwanym roku nikt nie chciał mówić."
+    ru: "О пережитом годе никто не хотел говорить."
+    source: { kind: authored }
+  - form: "przetrwanymi"
+    pl: "Zajmuje się kryzysami przetrwanymi bez pomocy."
+    ru: "Он занимается кризисами, пережитыми без помощи."
+    source: { kind: authored }
+  - form: "przetrwanymi"
+    pl: "Między przetrwanymi a przegranymi próbami jest różnica."
+    ru: "Между выдержанными и проигранными испытаниями есть разница."
+    source: { kind: authored }
+  - form: "przetrwanymi"
+    pl: "Pracuje nad latami przetrwanymi w ukryciu."
+    ru: "Он работает над годами, пережитыми в укрытии."
     source: { kind: authored }
   - form: "przetrwasz"
     pl: "Przetrwasz najgorsze."
