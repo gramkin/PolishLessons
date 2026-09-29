@@ -62,38 +62,44 @@ idioms:
   - { pl: "wypić jednym haustem", ru: "выпить залпом" }
 formExamplesSkip:
   - { form: "wypici", reason: "мужско-личной формы не бывает: выпивают напиток, а не людей" }
-  - { form: "wypicia", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypiciem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypijcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypijecie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "wypijemy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "wypiliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypilibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypilibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "wypiłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "wypiłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "wypiłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "wypitą", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitego", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitej", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitemu", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypity", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitych", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitym", reason: "формы страдательного причастия: в корпусе нет примеров" }
-  - { form: "wypitymi", reason: "формы страдательного причастия: в корпусе нет примеров" }
   - { form: "wypiwszy", reason: "книжное деепричастие прошедшего времени: в корпусе слишком мало примеров" }
 formExamples:
+  - form: "wypicia"
+    pl: "Dotyczy to wypicia całej butelki."
+    ru: "Это касается того, что выпили целую бутылку."
+    source: { kind: authored }
+  - form: "wypicia"
+    pl: "Od wypicia kawy minęła godzina."
+    ru: "С того, как выпили кофе, прошёл час."
+    source: { kind: authored }
+  - form: "wypicia"
+    pl: "Nie ma tu nic do wypicia."
+    ru: "Здесь нечего выпить."
+    source: { kind: authored }
+  - form: "wypicie"
+    pl: "Wypicie całej butelki to za dużo."
+    ru: "Выпить целую бутылку — это слишком много."
+    source: { kind: authored }
+  - form: "wypicie"
+    pl: "Wypicie kawy zajęło mu chwilę."
+    ru: "Выпить кофе заняло у него минуту."
+    source: { kind: authored }
+  - form: "wypicie"
+    pl: "Samo wypicie wody nie wystarczy."
+    ru: "Одной воды выпить недостаточно."
+    source: { kind: authored }
+  - form: "wypiciem"
+    pl: "Sprawa skończyła się wypiciem toastu."
+    ru: "Дело кончилось тостом."
+    source: { kind: authored }
+  - form: "wypiciem"
+    pl: "Przed wypiciem kawy przeczytał gazetę."
+    ru: "Перед кофе он прочёл газету."
+    source: { kind: authored }
+  - form: "wypiciem"
+    pl: "Między wypiciem a zakąską minęła chwila."
+    ru: "Между рюмкой и закуской прошло мгновение."
+    source: { kind: authored }
   - form: "wypiciu"
     pl: "Po wypiciu kawy rozpoczęliśmy rozmowę."
     ru: "Выпив кофе, мы начали разговор."
@@ -150,6 +156,18 @@ formExamples:
     pl: "Nie wypiją ani kropli."
     ru: "Они не выпьют ни капли."
     source: { kind: authored }
+  - form: "wypijcie"
+    pl: "Wypijcie kawę, póki ciepła."
+    ru: "Выпейте кофе, пока горячий."
+    source: { kind: authored }
+  - form: "wypijcie"
+    pl: "Wypijcie za zdrowie!"
+    ru: "Выпейте за здоровье!"
+    source: { kind: authored }
+  - form: "wypijcie"
+    pl: "Wypijcie to do dna."
+    ru: "Выпейте это до дна."
+    source: { kind: authored }
   - form: "wypije"
     pl: "Pana ból ustanie, jeśli wypije Pan to lekarstwo."
     ru: "Ваша боль пройдёт, если вы выпьете это лекарство."
@@ -161,6 +179,30 @@ formExamples:
   - form: "wypije"
     pl: "Kto wypije ostatnią kawę?"
     ru: "Кто выпьет последний кофе?"
+    source: { kind: authored }
+  - form: "wypijecie"
+    pl: "Wypijecie kawę?"
+    ru: "Вы выпьете кофе?"
+    source: { kind: authored }
+  - form: "wypijecie"
+    pl: "Czy wypijecie za zdrowie?"
+    ru: "Вы выпьете за здоровье?"
+    source: { kind: authored }
+  - form: "wypijecie"
+    pl: "Wypijecie to do dna?"
+    ru: "Вы выпьете это до дна?"
+    source: { kind: authored }
+  - form: "wypijemy"
+    pl: "Wypijemy kawę."
+    ru: "Мы выпьем кофе."
+    source: { kind: authored }
+  - form: "wypijemy"
+    pl: "Wypijemy za zdrowie!"
+    ru: "Выпьем за здоровье!"
+    source: { kind: authored }
+  - form: "wypijemy"
+    pl: "Wypijemy to do dna."
+    ru: "Мы выпьем это до дна."
     source: { kind: authored }
   - form: "wypijesz"
     pl: "Jak wypijesz herbatę, ćwicz dalej."
@@ -210,6 +252,54 @@ formExamples:
     pl: "Goście wypili całe wino."
     ru: "Гости выпили всё вино."
     source: { kind: authored }
+  - form: "wypiliby"
+    pl: "Wypiliby kawę, gdyby była."
+    ru: "Они выпили бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiliby"
+    pl: "Chyba nie wypiliby całej butelki."
+    ru: "Вряд ли они выпили бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiliby"
+    pl: "Wypiliby za zdrowie gospodarzy."
+    ru: "Они выпили бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypilibyście"
+    pl: "Czy wypilibyście kawę?"
+    ru: "Вы выпили бы кофе?"
+    source: { kind: authored }
+  - form: "wypilibyście"
+    pl: "Wypilibyście za zdrowie gospodarzy?"
+    ru: "Вы выпили бы за здоровье хозяев?"
+    source: { kind: authored }
+  - form: "wypilibyście"
+    pl: "Naprawdę nie wypilibyście całej butelki?"
+    ru: "Вы правда не выпили бы целую бутылку?"
+    source: { kind: authored }
+  - form: "wypilibyśmy"
+    pl: "Wypilibyśmy kawę, gdyby była."
+    ru: "Мы выпили бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypilibyśmy"
+    pl: "Raczej nie wypilibyśmy całej butelki."
+    ru: "Вряд ли мы выпили бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypilibyśmy"
+    pl: "Wypilibyśmy za zdrowie gospodarzy."
+    ru: "Мы выпили бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiliście"
+    pl: "Wypiliście kawę?"
+    ru: "Вы выпили кофе?"
+    source: { kind: authored }
+  - form: "wypiliście"
+    pl: "Dlaczego nie wypiliście mleka?"
+    ru: "Почему вы не выпили молоко?"
+    source: { kind: authored }
+  - form: "wypiliście"
+    pl: "Wypiliście za zdrowie gospodarzy."
+    ru: "Вы выпили за здоровье хозяев."
+    source: { kind: authored }
   - form: "wypiliśmy"
     pl: "Wypiliśmy sporo."
     ru: "Мы немало выпили."
@@ -250,6 +340,42 @@ formExamples:
     pl: "Na koniec obiadu wypiła kawę."
     ru: "В конце обеда она выпила кофе."
     source: { kind: translated, id: 368993 }
+  - form: "wypiłaby"
+    pl: "Wypiłaby kawę, gdyby była."
+    ru: "Она выпила бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłaby"
+    pl: "Chyba nie wypiłaby całej butelki."
+    ru: "Вряд ли она выпила бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłaby"
+    pl: "Wypiłaby za zdrowie gospodarzy."
+    ru: "Она выпила бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłabym"
+    pl: "Wypiłabym kawę, gdyby była."
+    ru: "Я выпила бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłabym"
+    pl: "Raczej nie wypiłabym całej butelki."
+    ru: "Вряд ли я выпила бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłabym"
+    pl: "Wypiłabym za zdrowie gospodarzy."
+    ru: "Я выпила бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłabyś"
+    pl: "Czy wypiłabyś kawę?"
+    ru: "Ты выпила бы кофе?"
+    source: { kind: authored }
+  - form: "wypiłabyś"
+    pl: "Wypiłabyś za zdrowie gospodarzy?"
+    ru: "Ты выпила бы за здоровье хозяев?"
+    source: { kind: authored }
+  - form: "wypiłabyś"
+    pl: "Naprawdę nie wypiłabyś całej butelki?"
+    ru: "Ты правда не выпила бы целую бутылку?"
+    source: { kind: authored }
   - form: "wypiłam"
     pl: "Wypiłam herbatę."
     ru: "Я выпила чаю."
@@ -273,6 +399,42 @@ formExamples:
   - form: "wypiłaś"
     pl: "Wypiłaś już swoją kawę?"
     ru: "Ты уже выпила свой кофе?"
+    source: { kind: authored }
+  - form: "wypiłby"
+    pl: "Wypiłby kawę, gdyby była."
+    ru: "Он выпил бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłby"
+    pl: "Chyba nie wypiłby całej butelki."
+    ru: "Вряд ли он выпил бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłby"
+    pl: "Wypiłby sobie wieczorem."
+    ru: "Он выпил бы вечером."
+    source: { kind: authored }
+  - form: "wypiłbym"
+    pl: "Wypiłbym kawę, gdyby była."
+    ru: "Я выпил бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłbym"
+    pl: "Raczej nie wypiłbym całej butelki."
+    ru: "Вряд ли я выпил бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłbym"
+    pl: "Wypiłbym sobie wieczorem."
+    ru: "Я выпил бы вечером."
+    source: { kind: authored }
+  - form: "wypiłbyś"
+    pl: "Czy wypiłbyś kawę?"
+    ru: "Ты выпил бы кофе?"
+    source: { kind: authored }
+  - form: "wypiłbyś"
+    pl: "Wypiłbyś sobie wieczorem?"
+    ru: "Ты выпил бы вечером?"
+    source: { kind: authored }
+  - form: "wypiłbyś"
+    pl: "Naprawdę nie wypiłbyś całej butelki?"
+    ru: "Ты правда не выпил бы целую бутылку?"
     source: { kind: authored }
   - form: "wypiłem"
     pl: "Dziś rano wypiłem szklankę mleka."
@@ -314,6 +476,18 @@ formExamples:
     pl: "Kilkoro dzieci wypiło sok."
     ru: "Несколько детей выпили сок."
     source: { kind: authored }
+  - form: "wypiłoby"
+    pl: "Dziecko wypiłoby całą butelkę mleka."
+    ru: "Ребёнок выпил бы целую бутылку молока."
+    source: { kind: authored }
+  - form: "wypiłoby"
+    pl: "Żadne z nich nie wypiłoby tyle."
+    ru: "Никто из них столько не выпил бы."
+    source: { kind: authored }
+  - form: "wypiłoby"
+    pl: "To maleństwo wypiłoby wszystko naraz."
+    ru: "Этот малыш выпил бы всё разом."
+    source: { kind: authored }
   - form: "wypiły"
     pl: "Dzieci wypiły całe mleko."
     ru: "Дети выпили всё молоко."
@@ -325,6 +499,66 @@ formExamples:
   - form: "wypiły"
     pl: "Nie wypiły ani kropli."
     ru: "Они не выпили ни капли."
+    source: { kind: authored }
+  - form: "wypiłyby"
+    pl: "Wypiłyby kawę, gdyby była."
+    ru: "Они выпили бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłyby"
+    pl: "Te dziewczyny wypiłyby za zdrowie gospodarzy."
+    ru: "Эти девушки выпили бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłyby"
+    pl: "Chyba nie wypiłyby całej butelki."
+    ru: "Вряд ли они выпили бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłybyście"
+    pl: "Czy wypiłybyście kawę?"
+    ru: "Вы выпили бы кофе?"
+    source: { kind: authored }
+  - form: "wypiłybyście"
+    pl: "Wypiłybyście za zdrowie gospodarzy?"
+    ru: "Вы выпили бы за здоровье хозяев?"
+    source: { kind: authored }
+  - form: "wypiłybyście"
+    pl: "Naprawdę nie wypiłybyście całej butelki?"
+    ru: "Вы правда не выпили бы целую бутылку?"
+    source: { kind: authored }
+  - form: "wypiłybyśmy"
+    pl: "Wypiłybyśmy kawę, gdyby była."
+    ru: "Мы выпили бы кофе, если бы он был."
+    source: { kind: authored }
+  - form: "wypiłybyśmy"
+    pl: "Raczej nie wypiłybyśmy całej butelki."
+    ru: "Вряд ли мы выпили бы целую бутылку."
+    source: { kind: authored }
+  - form: "wypiłybyśmy"
+    pl: "Wypiłybyśmy za zdrowie gospodarzy."
+    ru: "Мы выпили бы за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłyście"
+    pl: "Wypiłyście kawę?"
+    ru: "Вы выпили кофе?"
+    source: { kind: authored }
+  - form: "wypiłyście"
+    pl: "Dlaczego nie wypiłyście mleka?"
+    ru: "Почему вы не выпили молоко?"
+    source: { kind: authored }
+  - form: "wypiłyście"
+    pl: "Wypiłyście za zdrowie gospodarzy."
+    ru: "Вы выпили за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłyśmy"
+    pl: "Wypiłyśmy kawę."
+    ru: "Мы выпили кофе."
+    source: { kind: authored }
+  - form: "wypiłyśmy"
+    pl: "Wypiłyśmy za zdrowie gospodarzy."
+    ru: "Мы выпили за здоровье хозяев."
+    source: { kind: authored }
+  - form: "wypiłyśmy"
+    pl: "Mleka nie wypiłyśmy wcale."
+    ru: "Молока мы не выпили вовсе."
     source: { kind: authored }
   - form: "wypita"
     pl: "Kawa była już wypita."
@@ -338,6 +572,18 @@ formExamples:
     pl: "Butelka została wypita do połowy."
     ru: "Бутылка была выпита наполовину."
     source: { kind: authored }
+  - form: "wypitą"
+    pl: "Zastał szklankę wypitą do dna."
+    ru: "Он застал стакан, выпитый до дна."
+    source: { kind: authored }
+  - form: "wypitą"
+    pl: "Uważam tę butelkę za wypitą."
+    ru: "Я считаю эту бутылку выпитой."
+    source: { kind: authored }
+  - form: "wypitą"
+    pl: "Widzieli kawę wypitą do połowy."
+    ru: "Они видели кофе, выпитый наполовину."
+    source: { kind: authored }
   - form: "wypite"
     pl: "Mleko zostało wypite przez kota."
     ru: "Молоко выпил кот."
@@ -350,6 +596,42 @@ formExamples:
     pl: "Wszystko wypite, nic nie zostało."
     ru: "Всё выпито, ничего не осталось."
     source: { kind: authored }
+  - form: "wypitego"
+    pl: "Dotyczy to wypitego mleka."
+    ru: "Это касается выпитого молока."
+    source: { kind: authored }
+  - form: "wypitego"
+    pl: "Nie ma tu nic wypitego do dna."
+    ru: "Здесь нет ничего выпитого до дна."
+    source: { kind: authored }
+  - form: "wypitego"
+    pl: "Zapach wypitego wina został w pokoju."
+    ru: "Запах выпитого вина остался в комнате."
+    source: { kind: authored }
+  - form: "wypitej"
+    pl: "Dotyczy to wypitej kawy."
+    ru: "Это касается выпитого кофе."
+    source: { kind: authored }
+  - form: "wypitej"
+    pl: "Brakuje tu butelki wypitej wczoraj."
+    ru: "Здесь не хватает бутылки, выпитой вчера."
+    source: { kind: authored }
+  - form: "wypitej"
+    pl: "Po wypitej herbacie zrobiło się cieplej."
+    ru: "После выпитого чая стало теплее."
+    source: { kind: authored }
+  - form: "wypitemu"
+    pl: "Przyjrzyj się kieliszkowi wypitemu do dna."
+    ru: "Присмотрись к рюмке, выпитой до дна."
+    source: { kind: authored }
+  - form: "wypitemu"
+    pl: "Wypitemu do dna kubkowi nic już nie trzeba."
+    ru: "Кружке, выпитой до дна, уже ничего не нужно."
+    source: { kind: authored }
+  - form: "wypitemu"
+    pl: "Dzięki wypitemu rosołowi wrócił mu głos."
+    ru: "Благодаря выпитому бульону к нему вернулся голос."
+    source: { kind: authored }
   - form: "wypito"
     pl: "Wypito całą beczkę."
     ru: "Выпили целую бочку."
@@ -361,4 +643,52 @@ formExamples:
   - form: "wypito"
     pl: "Do rana wypito wszystko."
     ru: "К утру выпили всё."
+    source: { kind: authored }
+  - form: "wypity"
+    pl: "Ten kieliszek jest już wypity."
+    ru: "Эта рюмка уже выпита."
+    source: { kind: authored }
+  - form: "wypity"
+    pl: "Wypity do dna kubek stał na stole."
+    ru: "Выпитая до дна кружка стояла на столе."
+    source: { kind: authored }
+  - form: "wypity"
+    pl: "Cały dzbanek był wypity."
+    ru: "Весь кувшин был выпит."
+    source: { kind: authored }
+  - form: "wypitych"
+    pl: "Brakuje danych o wypitych litrach."
+    ru: "Не хватает данных о выпитых литрах."
+    source: { kind: authored }
+  - form: "wypitych"
+    pl: "Wśród wypitych butelek ta była pierwsza."
+    ru: "Среди выпитых бутылок эта была первой."
+    source: { kind: authored }
+  - form: "wypitych"
+    pl: "Liczba wypitych kaw rośnie."
+    ru: "Число выпитых чашек кофе растёт."
+    source: { kind: authored }
+  - form: "wypitym"
+    pl: "W wypitym kieliszku został osad."
+    ru: "В выпитой рюмке остался осадок."
+    source: { kind: authored }
+  - form: "wypitym"
+    pl: "Przyglądamy się wypitym butelkom."
+    ru: "Мы смотрим на выпитые бутылки."
+    source: { kind: authored }
+  - form: "wypitym"
+    pl: "O wypitym winie nikt nie wspomniał."
+    ru: "О выпитом вине никто не упомянул."
+    source: { kind: authored }
+  - form: "wypitymi"
+    pl: "Zajmuje się wypitymi butelkami."
+    ru: "Он занимается выпитыми бутылками."
+    source: { kind: authored }
+  - form: "wypitymi"
+    pl: "Między wypitymi a pustymi kieliszkami jest różnica."
+    ru: "Между выпитыми и пустыми рюмками есть разница."
+    source: { kind: authored }
+  - form: "wypitymi"
+    pl: "Stół zastawiony wypitymi szklankami wyglądał smutno."
+    ru: "Стол, уставленный выпитыми стаканами, выглядел грустно."
     source: { kind: authored }
