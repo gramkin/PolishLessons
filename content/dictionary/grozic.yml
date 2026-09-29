@@ -49,44 +49,9 @@ idioms:
   - { pl: "grozi mu kara", ru: "ему грозит наказание" }
   - { pl: "nic nam nie grozi", ru: "нам ничего не грозит" }
 formExamplesSkip:
-  - { form: "grozicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "groziliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "grozilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "grozilibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "groziliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "groziłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "groziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "groziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "grozimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "groźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "groźmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "grożąc", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożąca", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącą", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożące", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącego", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącej", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącemu", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożący", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożących", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącym", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożącymi", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "grożenia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "grożenie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "grożeniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "grożeniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "gróź", reason: "форма не нормативна: повелительное наклонение — groź" }
-  - { form: "gróźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "gróźmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
+  - { form: "gróźcie", reason: "форма не нормативна: повелительное наклонение — groźcie. Глаголы этого типа сохраняют o во всех формах повелительного наклонения: prosić — proście, wozić — woźcie, nosić — noście. То же основание, по которому в карточке оставлена без примеров форма gróź" }
+  - { form: "gróźmy", reason: "форма не нормативна: повелительное наклонение — groźmy. Глаголы этого типа сохраняют o во всех формах повелительного наклонения: prosić — prośmy, wozić — woźmy, nosić — nośmy. То же основание, по которому в карточке оставлена без примеров форма gróź" }
 formExamples:
   - form: "grozi"
     pl: "To nam na pewno nie grozi."
@@ -100,6 +65,18 @@ formExamples:
     pl: "Ta chata grozi zawaleniem."
     ru: "Эта хата грозит обрушением."
     source: { kind: translated, id: 696395 }
+  - form: "grozicie"
+    pl: "Dlaczego mi grozicie?"
+    ru: "Почему вы мне угрожаете?"
+    source: { kind: authored }
+  - form: "grozicie"
+    pl: "Grozicie mu karą?"
+    ru: "Вы грозите ему наказанием?"
+    source: { kind: authored }
+  - form: "grozicie"
+    pl: "Nie grozicie nikomu."
+    ru: "Вы никому не угрожаете."
+    source: { kind: authored }
   - form: "grozić"
     pl: "Może im grozić niebezpieczeństwo."
     ru: "Им может грозить опасность."
@@ -123,6 +100,66 @@ formExamples:
   - form: "grozili"
     pl: "Grozili, że odejdą."
     ru: "Они угрожали, что уйдут."
+    source: { kind: authored }
+  - form: "groziliby"
+    pl: "Groziliby mu, gdyby mogli."
+    ru: "Они угрожали бы ему, если бы могли."
+    source: { kind: authored }
+  - form: "groziliby"
+    pl: "Nie groziliby nikomu bez powodu."
+    ru: "Без причины они никому не угрожали бы."
+    source: { kind: authored }
+  - form: "groziliby"
+    pl: "Groziliby palcem, ale nic więcej."
+    ru: "Они погрозили бы пальцем, но не более."
+    source: { kind: authored }
+  - form: "grozilibyście"
+    pl: "Czy grozilibyście komuś?"
+    ru: "Вы стали бы кому-нибудь угрожать?"
+    source: { kind: authored }
+  - form: "grozilibyście"
+    pl: "Grozilibyście mu karą?"
+    ru: "Вы грозили бы ему наказанием?"
+    source: { kind: authored }
+  - form: "grozilibyście"
+    pl: "Naprawdę nie grozilibyście nikomu?"
+    ru: "Вы правда никому не угрожали бы?"
+    source: { kind: authored }
+  - form: "grozilibyśmy"
+    pl: "Nigdy nie grozilibyśmy dziecku."
+    ru: "Ребёнку мы никогда не угрожали бы."
+    source: { kind: authored }
+  - form: "grozilibyśmy"
+    pl: "Grozilibyśmy mu sądem."
+    ru: "Мы грозили бы ему судом."
+    source: { kind: authored }
+  - form: "grozilibyśmy"
+    pl: "Grozilibyśmy palcem, nie więcej."
+    ru: "Мы погрозили бы пальцем, не больше."
+    source: { kind: authored }
+  - form: "groziliście"
+    pl: "Groziliście mu?"
+    ru: "Вы ему угрожали?"
+    source: { kind: authored }
+  - form: "groziliście"
+    pl: "Dlaczego groziliście sąsiadowi?"
+    ru: "Почему вы угрожали соседу?"
+    source: { kind: authored }
+  - form: "groziliście"
+    pl: "Nie groziliście nikomu."
+    ru: "Вы никому не угрожали."
+    source: { kind: authored }
+  - form: "groziliśmy"
+    pl: "Nie groziliśmy nikomu."
+    ru: "Мы никому не угрожали."
+    source: { kind: authored }
+  - form: "groziliśmy"
+    pl: "Groziliśmy mu sądem."
+    ru: "Мы грозили ему судом."
+    source: { kind: authored }
+  - form: "groziliśmy"
+    pl: "Groziliśmy tylko palcem."
+    ru: "Мы только грозили пальцем."
     source: { kind: authored }
   - form: "groził"
     pl: "On mi groził!"
@@ -160,6 +197,30 @@ formExamples:
     pl: "Bez umowy groziłaby nam grzywna."
     ru: "Без договора нам грозил бы штраф."
     source: { kind: authored }
+  - form: "groziłabym"
+    pl: "Nigdy nie groziłabym dziecku."
+    ru: "Ребёнку я никогда не угрожала бы."
+    source: { kind: authored }
+  - form: "groziłabym"
+    pl: "Groziłabym mu sądem."
+    ru: "Я грозила бы ему судом."
+    source: { kind: authored }
+  - form: "groziłabym"
+    pl: "Groziłabym palcem, nie więcej."
+    ru: "Я погрозила бы пальцем, не больше."
+    source: { kind: authored }
+  - form: "groziłabyś"
+    pl: "Czy groziłabyś komuś?"
+    ru: "Ты стала бы кому-нибудь угрожать?"
+    source: { kind: authored }
+  - form: "groziłabyś"
+    pl: "Groziłabyś mu karą?"
+    ru: "Ты грозила бы ему наказанием?"
+    source: { kind: authored }
+  - form: "groziłabyś"
+    pl: "Naprawdę nie groziłabyś nikomu?"
+    ru: "Ты правда никому не угрожала бы?"
+    source: { kind: authored }
   - form: "groziłam"
     pl: "Nigdy mu nie groziłam."
     ru: "Я никогда ему не угрожала."
@@ -183,6 +244,42 @@ formExamples:
   - form: "groziłaś"
     pl: "Groziłaś im sądem."
     ru: "Ты грозила им судом."
+    source: { kind: authored }
+  - form: "groziłby"
+    pl: "Groziłby mu, gdyby mógł."
+    ru: "Он угрожал бы ему, если бы мог."
+    source: { kind: authored }
+  - form: "groziłby"
+    pl: "Nie groziłby nikomu bez powodu."
+    ru: "Без причины он никому не угрожал бы."
+    source: { kind: authored }
+  - form: "groziłby"
+    pl: "Groziłby palcem, ale nic więcej."
+    ru: "Он погрозил бы пальцем, но не более."
+    source: { kind: authored }
+  - form: "groziłbym"
+    pl: "Nigdy nie groziłbym dziecku."
+    ru: "Ребёнку я никогда не угрожал бы."
+    source: { kind: authored }
+  - form: "groziłbym"
+    pl: "Groziłbym mu sądem."
+    ru: "Я грозил бы ему судом."
+    source: { kind: authored }
+  - form: "groziłbym"
+    pl: "Groziłbym palcem, nie więcej."
+    ru: "Я погрозил бы пальцем, не больше."
+    source: { kind: authored }
+  - form: "groziłbyś"
+    pl: "Czy groziłbyś komuś?"
+    ru: "Ты стал бы кому-нибудь угрожать?"
+    source: { kind: authored }
+  - form: "groziłbyś"
+    pl: "Groziłbyś mu karą?"
+    ru: "Ты грозил бы ему наказанием?"
+    source: { kind: authored }
+  - form: "groziłbyś"
+    pl: "Naprawdę nie groziłbyś nikomu?"
+    ru: "Ты правда никому не угрожал бы?"
     source: { kind: authored }
   - form: "groziłem"
     pl: "Nigdy mu nie groziłem."
@@ -220,6 +317,18 @@ formExamples:
     pl: "Nic mu nie groziło."
     ru: "Ему ничего не грозило."
     source: { kind: authored }
+  - form: "groziłoby"
+    pl: "Dziecko nie groziłoby nikomu."
+    ru: "Ребёнок никому не угрожал бы."
+    source: { kind: authored }
+  - form: "groziłoby"
+    pl: "Zawalenie groziłoby całej kamienicy."
+    ru: "Обрушение грозило бы всему дому."
+    source: { kind: authored }
+  - form: "groziłoby"
+    pl: "Żadne z nich nie groziłoby sąsiadowi."
+    ru: "Никто из них не стал бы угрожать соседу."
+    source: { kind: authored }
   - form: "groziły"
     pl: "Chmury groziły burzą."
     ru: "Тучи грозили бурей."
@@ -231,6 +340,78 @@ formExamples:
   - form: "groziły"
     pl: "Nikomu nie groziły."
     ru: "Они никому не угрожали."
+    source: { kind: authored }
+  - form: "groziłyby"
+    pl: "Groziłyby mu, gdyby mogły."
+    ru: "Они угрожали бы ему, если бы могли."
+    source: { kind: authored }
+  - form: "groziłyby"
+    pl: "Nie groziłyby nikomu bez powodu."
+    ru: "Без причины они никому не угрожали бы."
+    source: { kind: authored }
+  - form: "groziłyby"
+    pl: "Te mury groziłyby zawaleniem."
+    ru: "Эти стены грозили бы обрушением."
+    source: { kind: authored }
+  - form: "groziłybyście"
+    pl: "Czy groziłybyście komuś?"
+    ru: "Вы стали бы кому-нибудь угрожать?"
+    source: { kind: authored }
+  - form: "groziłybyście"
+    pl: "Groziłybyście mu karą?"
+    ru: "Вы грозили бы ему наказанием?"
+    source: { kind: authored }
+  - form: "groziłybyście"
+    pl: "Naprawdę nie groziłybyście nikomu?"
+    ru: "Вы правда никому не угрожали бы?"
+    source: { kind: authored }
+  - form: "groziłybyśmy"
+    pl: "Nigdy nie groziłybyśmy dziecku."
+    ru: "Ребёнку мы никогда не угрожали бы."
+    source: { kind: authored }
+  - form: "groziłybyśmy"
+    pl: "Groziłybyśmy mu sądem."
+    ru: "Мы грозили бы ему судом."
+    source: { kind: authored }
+  - form: "groziłybyśmy"
+    pl: "Groziłybyśmy palcem, nie więcej."
+    ru: "Мы погрозили бы пальцем, не больше."
+    source: { kind: authored }
+  - form: "groziłyście"
+    pl: "Groziłyście mu?"
+    ru: "Вы ему угрожали?"
+    source: { kind: authored }
+  - form: "groziłyście"
+    pl: "Dlaczego groziłyście sąsiadowi?"
+    ru: "Почему вы угрожали соседу?"
+    source: { kind: authored }
+  - form: "groziłyście"
+    pl: "Nie groziłyście nikomu."
+    ru: "Вы никому не угрожали."
+    source: { kind: authored }
+  - form: "groziłyśmy"
+    pl: "Nie groziłyśmy nikomu."
+    ru: "Мы никому не угрожали."
+    source: { kind: authored }
+  - form: "groziłyśmy"
+    pl: "Groziłyśmy mu sądem."
+    ru: "Мы грозили ему судом."
+    source: { kind: authored }
+  - form: "groziłyśmy"
+    pl: "Groziłyśmy tylko palcem."
+    ru: "Мы только грозили пальцем."
+    source: { kind: authored }
+  - form: "grozimy"
+    pl: "Nikomu nie grozimy."
+    ru: "Мы никому не угрожаем."
+    source: { kind: authored }
+  - form: "grozimy"
+    pl: "Grozimy mu sądem."
+    ru: "Мы грозим ему судом."
+    source: { kind: authored }
+  - form: "grozimy"
+    pl: "Grozimy tylko palcem."
+    ru: "Мы только грозим пальцем."
     source: { kind: authored }
   - form: "grozisz"
     pl: "Grozisz mi?"
@@ -256,6 +437,30 @@ formExamples:
     pl: "Nie groź dzieciom."
     ru: "Не пугай детей угрозами."
     source: { kind: authored }
+  - form: "groźcie"
+    pl: "Nie groźcie dziecku."
+    ru: "Не угрожайте ребёнку."
+    source: { kind: authored }
+  - form: "groźcie"
+    pl: "Groźcie palcem, nie słowem."
+    ru: "Грозите пальцем, а не словом."
+    source: { kind: authored }
+  - form: "groźcie"
+    pl: "Nigdy nie groźcie sąsiadom."
+    ru: "Никогда не угрожайте соседям."
+    source: { kind: authored }
+  - form: "groźmy"
+    pl: "Nie groźmy nikomu."
+    ru: "Не будем никому угрожать."
+    source: { kind: authored }
+  - form: "groźmy"
+    pl: "Groźmy palcem, nie słowem."
+    ru: "Будем грозить пальцем, а не словом."
+    source: { kind: authored }
+  - form: "groźmy"
+    pl: "Nigdy nie groźmy dziecku."
+    ru: "Никогда не будем угрожать ребёнку."
+    source: { kind: authored }
   - form: "grożą"
     pl: "Grożą nam sądem."
     ru: "Они грозят нам судом."
@@ -267,6 +472,186 @@ formExamples:
   - form: "grożą"
     pl: "Nikomu nie grożą."
     ru: "Они никому не угрожают."
+    source: { kind: authored }
+  - form: "grożąc"
+    pl: "Grożąc palcem, odszedł."
+    ru: "Погрозив пальцем, он ушёл."
+    source: { kind: authored }
+  - form: "grożąc"
+    pl: "Odmówił, grożąc sądem."
+    ru: "Он отказался, грозя судом."
+    source: { kind: authored }
+  - form: "grożąc"
+    pl: "Grożąc mu karą, niczego nie osiągniesz."
+    ru: "Угрожая ему наказанием, ты ничего не добьёшься."
+    source: { kind: authored }
+  - form: "grożąca"
+    pl: "Grożąca zawaleniem kamienica stoi pusta."
+    ru: "Дом, грозящий обрушением, стоит пустым."
+    source: { kind: authored }
+  - form: "grożąca"
+    pl: "To kara grożąca za kradzież."
+    ru: "Это наказание, грозящее за кражу."
+    source: { kind: authored }
+  - form: "grożąca"
+    pl: "Grożąca mu grzywna jest wysoka."
+    ru: "Грозящий ему штраф высок."
+    source: { kind: authored }
+  - form: "grożącą"
+    pl: "Znam karę grożącą za kradzież."
+    ru: "Я знаю наказание, грозящее за кражу."
+    source: { kind: authored }
+  - form: "grożącą"
+    pl: "Widzieli kamienicę grożącą zawaleniem."
+    ru: "Они видели дом, грозящий обрушением."
+    source: { kind: authored }
+  - form: "grożącą"
+    pl: "Opisał grzywnę grożącą sprawcy."
+    ru: "Он описал штраф, грозящий виновному."
+    source: { kind: authored }
+  - form: "grożące"
+    pl: "Grożące zawaleniem mury rozebrano."
+    ru: "Стены, грозившие обрушением, разобрали."
+    source: { kind: authored }
+  - form: "grożące"
+    pl: "To kary grożące za kradzież."
+    ru: "Это наказания, грозящие за кражу."
+    source: { kind: authored }
+  - form: "grożące"
+    pl: "Grożące mu sankcje są dotkliwe."
+    ru: "Грозящие ему санкции ощутимы."
+    source: { kind: authored }
+  - form: "grożącego"
+    pl: "Dotyczy to muru grożącego zawaleniem."
+    ru: "Это касается стены, грозящей обрушением."
+    source: { kind: authored }
+  - form: "grożącego"
+    pl: "Nie ma tu domu grożącego zawaleniem."
+    ru: "Здесь нет дома, грозящего обрушением."
+    source: { kind: authored }
+  - form: "grożącego"
+    pl: "Wysokość mandatu grożącego kierowcy jest znana."
+    ru: "Размер штрафа, грозящего водителю, известен."
+    source: { kind: authored }
+  - form: "grożącej"
+    pl: "Dotyczy to kary grożącej za kradzież."
+    ru: "Это касается наказания, грозящего за кражу."
+    source: { kind: authored }
+  - form: "grożącej"
+    pl: "Brakuje tu informacji o grzywnie grożącej sprawcy."
+    ru: "Здесь нет сведений о штрафе, грозящем виновному."
+    source: { kind: authored }
+  - form: "grożącej"
+    pl: "Dzięki karze grożącej za spóźnienie wszyscy są punktualni."
+    ru: "Благодаря наказанию за опоздание все пунктуальны."
+    source: { kind: authored }
+  - form: "grożącemu"
+    pl: "Przyjrzyj się murowi grożącemu zawaleniem."
+    ru: "Присмотрись к стене, грозящей обрушением."
+    source: { kind: authored }
+  - form: "grożącemu"
+    pl: "Przyglądali się domowi grożącemu zawaleniem."
+    ru: "Они разглядывали дом, грозящий обрушением."
+    source: { kind: authored }
+  - form: "grożącemu"
+    pl: "Dzięki mandatowi grożącemu kierowcom ruch jest spokojniejszy."
+    ru: "Благодаря штрафу, грозящему водителям, движение спокойнее."
+    source: { kind: authored }
+  - form: "grożący"
+    pl: "Grożący zawaleniem dom rozebrano."
+    ru: "Дом, грозивший обрушением, разобрали."
+    source: { kind: authored }
+  - form: "grożący"
+    pl: "To mandat grożący za spóźnienie."
+    ru: "Это штраф, грозящий за опоздание."
+    source: { kind: authored }
+  - form: "grożący"
+    pl: "Grożący mu wyrok jest surowy."
+    ru: "Грозящий ему приговор суров."
+    source: { kind: authored }
+  - form: "grożących"
+    pl: "Brakuje danych o karach grożących za kradzież."
+    ru: "Не хватает данных о наказаниях, грозящих за кражу."
+    source: { kind: authored }
+  - form: "grożących"
+    pl: "Wśród grożących mu sankcji jest grzywna."
+    ru: "Среди грозящих ему санкций есть штраф."
+    source: { kind: authored }
+  - form: "grożących"
+    pl: "Lista kar grożących kierowcom rośnie."
+    ru: "Список наказаний, грозящих водителям, растёт."
+    source: { kind: authored }
+  - form: "grożącym"
+    pl: "W domu grożącym zawaleniem nikt nie mieszka."
+    ru: "В доме, грозящем обрушением, никто не живёт."
+    source: { kind: authored }
+  - form: "grożącym"
+    pl: "Przyglądamy się murom grożącym zawaleniem."
+    ru: "Мы присматриваемся к стенам, грозящим обрушением."
+    source: { kind: authored }
+  - form: "grożącym"
+    pl: "Sprzeciwiamy się karom grożącym za drobiazgi."
+    ru: "Мы против наказаний, грозящих за мелочи."
+    source: { kind: authored }
+  - form: "grożącymi"
+    pl: "Zajmuje się karami grożącymi za kradzież."
+    ru: "Он занимается наказаниями, грозящими за кражу."
+    source: { kind: authored }
+  - form: "grożącymi"
+    pl: "Między sankcjami grożącymi sprawcy a resztą jest różnica."
+    ru: "Между санкциями, грозящими виновному, и остальными есть разница."
+    source: { kind: authored }
+  - form: "grożącymi"
+    pl: "Pracuje nad przepisami grożącymi wysoką grzywną."
+    ru: "Он работает над правилами, грозящими высоким штрафом."
+    source: { kind: authored }
+  - form: "grożenia"
+    pl: "Dotyczy to grożenia świadkowi."
+    ru: "Это касается угроз свидетелю."
+    source: { kind: authored }
+  - form: "grożenia"
+    pl: "Zaprzestał grożenia sąsiadom."
+    ru: "Он перестал угрожать соседям."
+    source: { kind: authored }
+  - form: "grożenia"
+    pl: "Sprawa grożenia bronią trafiła do sądu."
+    ru: "Дело об угрозе оружием дошло до суда."
+    source: { kind: authored }
+  - form: "grożenie"
+    pl: "Grożenie świadkowi jest przestępstwem."
+    ru: "Угроза свидетелю — преступление."
+    source: { kind: authored }
+  - form: "grożenie"
+    pl: "Grożenie palcem nikogo nie przekona."
+    ru: "Грозя пальцем, никого не убедишь."
+    source: { kind: authored }
+  - form: "grożenie"
+    pl: "Grożenie karą nic tu nie da."
+    ru: "Угроза наказанием здесь ничего не даст."
+    source: { kind: authored }
+  - form: "grożeniem"
+    pl: "Sprawa skończyła się grożeniem bronią."
+    ru: "Дело кончилось угрозой оружием."
+    source: { kind: authored }
+  - form: "grożeniem"
+    pl: "Przed grożeniem komukolwiek pomyśl."
+    ru: "Прежде чем кому-то угрожать, подумай."
+    source: { kind: authored }
+  - form: "grożeniem"
+    pl: "Między grożeniem a napaścią jest granica."
+    ru: "Между угрозой и нападением есть граница."
+    source: { kind: authored }
+  - form: "grożeniu"
+    pl: "Po grożeniu świadkowi został zatrzymany."
+    ru: "После угроз свидетелю его задержали."
+    source: { kind: authored }
+  - form: "grożeniu"
+    pl: "W grożeniu nie ma nic śmiesznego."
+    ru: "В угрозах нет ничего смешного."
+    source: { kind: authored }
+  - form: "grożeniu"
+    pl: "Zarzucono mu udział w grożeniu świadkowi."
+    ru: "Ему вменили участие в угрозах свидетелю."
     source: { kind: authored }
   - form: "grożę"
     pl: "Nie grożę ci."
