@@ -30,7 +30,7 @@
 | --------------- | ------- |
 | Лемм всего      | **983** |
 | Карточка готова | **898** |
-| В очереди       | **85** |
+| В очереди       | **85**  |
 | Не в словаре    | **44**  |
 
 ## Обозначения
@@ -858,4 +858,4 @@ pnpm dict:status && pnpm generate
 - marnowazć — ⛔ не распознано
 - Sięgano — 🟡 `sięgać` · verb · rank 2584
 - sięgać — 🟡 `sięgać` · verb · rank 2584
-- ubogi — 🟡 `ubogi` · noun · rank 2589
+- ubogi — 🟡 `ubogi` · adj · rank 2589
