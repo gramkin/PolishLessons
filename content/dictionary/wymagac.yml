@@ -47,43 +47,7 @@ idioms:
   - { pl: "spełniać wymagania", ru: "отвечать требованиям" }
   - { pl: "wymagane pola", ru: "обязательные поля" }
 formExamplesSkip:
-  - { form: "wymagacie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wymagające", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagającego", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagającemu", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagających", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagającym", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagającymi", reason: "формы действительного причастия, в корпусе примеров нет" }
-  - { form: "wymagajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wymagajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "wymagaliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagalibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagalibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wymagaliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wymagałaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "wymagałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wymagałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "wymagamy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "wymaganego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wymaganej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wymaganemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "wymagani", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wymaganie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wymaganiem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wymaganiu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "wymaganych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wymaganym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "wymaganymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
 formExamples:
   - form: "wymaga"
     pl: "To wymaga czasu."
@@ -97,6 +61,18 @@ formExamples:
     pl: "Dom wymaga naprawy."
     ru: "Дом требует ремонта."
     source: { kind: translated, id: 5961867 }
+  - form: "wymagacie"
+    pl: "Czego wymagacie ode mnie?"
+    ru: "Чего вы от меня требуете?"
+    source: { kind: authored }
+  - form: "wymagacie"
+    pl: "Wymagacie za dużo."
+    ru: "Вы требуете слишком много."
+    source: { kind: authored }
+  - form: "wymagacie"
+    pl: "Nie wymagacie niczego w zamian?"
+    ru: "Вы ничего не требуете взамен?"
+    source: { kind: authored }
   - form: "wymagać"
     pl: "Nie macie prawa tego ode mnie wymagać."
     ru: "Вы не имеете права этого от меня требовать."
@@ -169,6 +145,30 @@ formExamples:
     pl: "Maria jest bardzo wymagającą dziewczyną."
     ru: "Мария очень требовательная девушка."
     source: { kind: translated, id: 4484907 }
+  - form: "wymagające"
+    pl: "Wymagające cierpliwości zadania zostawiamy na koniec."
+    ru: "Задания, требующие терпения, мы оставляем напоследок."
+    source: { kind: authored }
+  - form: "wymagające"
+    pl: "To ćwiczenia wymagające czasu."
+    ru: "Это упражнения, требующие времени."
+    source: { kind: authored }
+  - form: "wymagające"
+    pl: "Wymagające dzieci szybko się nudzą."
+    ru: "Требовательные дети быстро скучают."
+    source: { kind: authored }
+  - form: "wymagającego"
+    pl: "Dotyczy to zadania wymagającego czasu."
+    ru: "Это касается задания, требующего времени."
+    source: { kind: authored }
+  - form: "wymagającego"
+    pl: "Nie znam nikogo wymagającego tak wiele."
+    ru: "Я не знаю никого, кто требовал бы так много."
+    source: { kind: authored }
+  - form: "wymagającego"
+    pl: "Boją się szefa wymagającego punktualności."
+    ru: "Они боятся начальника, требующего пунктуальности."
+    source: { kind: authored }
   - form: "wymagającej"
     pl: "On słucha tylko wymagającej muzyki."
     ru: "Он слушает только требовательную музыку."
@@ -180,6 +180,18 @@ formExamples:
   - form: "wymagającej"
     pl: "To zadanie dla osoby wymagającej."
     ru: "Это задание для требовательного человека."
+    source: { kind: authored }
+  - form: "wymagającemu"
+    pl: "Przyjrzyj się zadaniu wymagającemu cierpliwości."
+    ru: "Присмотрись к заданию, требующему терпения."
+    source: { kind: authored }
+  - form: "wymagającemu"
+    pl: "Ufamy szefowi wymagającemu punktualności."
+    ru: "Мы доверяем начальнику, требующему пунктуальности."
+    source: { kind: authored }
+  - form: "wymagającemu"
+    pl: "Dzięki nauczycielowi wymagającemu więcej klasa się poprawiła."
+    ru: "Благодаря учителю, требующему больше, класс подтянулся."
     source: { kind: authored }
   - form: "wymagający"
     pl: "Jesteś wymagający."
@@ -193,6 +205,66 @@ formExamples:
     pl: "Szef Toma jest bardzo wymagający."
     ru: "Начальник Тома очень требовательный."
     source: { kind: translated, id: 5896544 }
+  - form: "wymagających"
+    pl: "Brakuje ludzi wymagających od siebie więcej."
+    ru: "Не хватает людей, требующих от себя больше."
+    source: { kind: authored }
+  - form: "wymagających"
+    pl: "Mówimy o zadaniach wymagających czasu."
+    ru: "Мы говорим о заданиях, требующих времени."
+    source: { kind: authored }
+  - form: "wymagających"
+    pl: "Wśród wymagających szefów on jest najgorszy."
+    ru: "Среди требовательных начальников он худший."
+    source: { kind: authored }
+  - form: "wymagającym"
+    pl: "W zadaniu wymagającym cierpliwości nie ma skrótów."
+    ru: "В задании, требующем терпения, нет коротких путей."
+    source: { kind: authored }
+  - form: "wymagającym"
+    pl: "Przyglądamy się ćwiczeniom wymagającym czasu."
+    ru: "Мы присматриваемся к упражнениям, требующим времени."
+    source: { kind: authored }
+  - form: "wymagającym"
+    pl: "Dziękujemy nauczycielom wymagającym od nas więcej."
+    ru: "Мы благодарим учителей, требующих от нас больше."
+    source: { kind: authored }
+  - form: "wymagającymi"
+    pl: "Zajmuje się zadaniami wymagającymi cierpliwości."
+    ru: "Он занимается заданиями, требующими терпения."
+    source: { kind: authored }
+  - form: "wymagającymi"
+    pl: "Między ćwiczeniami wymagającymi czasu a resztą jest różnica."
+    ru: "Между упражнениями, требующими времени, и остальными есть разница."
+    source: { kind: authored }
+  - form: "wymagającymi"
+    pl: "Pracuje z dziećmi wymagającymi uwagi."
+    ru: "Он работает с детьми, требующими внимания."
+    source: { kind: authored }
+  - form: "wymagajcie"
+    pl: "Wymagajcie od siebie więcej."
+    ru: "Требуйте от себя больше."
+    source: { kind: authored }
+  - form: "wymagajcie"
+    pl: "Nie wymagajcie zbyt wiele."
+    ru: "Не требуйте слишком многого."
+    source: { kind: authored }
+  - form: "wymagajcie"
+    pl: "Wymagajcie punktualności."
+    ru: "Требуйте пунктуальности."
+    source: { kind: authored }
+  - form: "wymagajmy"
+    pl: "Wymagajmy więcej od siebie niż od innych."
+    ru: "Будем требовать от себя больше, чем от других."
+    source: { kind: authored }
+  - form: "wymagajmy"
+    pl: "Nie wymagajmy cudów."
+    ru: "Не будем требовать чудес."
+    source: { kind: authored }
+  - form: "wymagajmy"
+    pl: "Wymagajmy cierpliwości."
+    ru: "Будем требовать терпения."
+    source: { kind: authored }
   - form: "wymagali"
     pl: "Wymagali od nas punktualności."
     ru: "Они требовали от нас пунктуальности."
@@ -204,6 +276,66 @@ formExamples:
   - form: "wymagali"
     pl: "Nie wymagali niczego w zamian."
     ru: "Они ничего не требовали взамен."
+    source: { kind: authored }
+  - form: "wymagaliby"
+    pl: "Wymagaliby więcej, gdyby mogli."
+    ru: "Они требовали бы больше, если бы могли."
+    source: { kind: authored }
+  - form: "wymagaliby"
+    pl: "Nie wymagaliby tego od dziecka."
+    ru: "От ребёнка они этого не требовали бы."
+    source: { kind: authored }
+  - form: "wymagaliby"
+    pl: "Wymagaliby punktualności."
+    ru: "Они требовали бы пунктуальности."
+    source: { kind: authored }
+  - form: "wymagalibyście"
+    pl: "Czy wymagalibyście tego od dziecka?"
+    ru: "Вы требовали бы этого от ребёнка?"
+    source: { kind: authored }
+  - form: "wymagalibyście"
+    pl: "Wymagalibyście więcej?"
+    ru: "Вы требовали бы больше?"
+    source: { kind: authored }
+  - form: "wymagalibyście"
+    pl: "Naprawdę nie wymagalibyście niczego?"
+    ru: "Вы правда ничего не требовали бы?"
+    source: { kind: authored }
+  - form: "wymagalibyśmy"
+    pl: "Wymagalibyśmy więcej od siebie."
+    ru: "Мы требовали бы больше от себя."
+    source: { kind: authored }
+  - form: "wymagalibyśmy"
+    pl: "Nie wymagalibyśmy tego od dziecka."
+    ru: "От ребёнка мы этого не требовали бы."
+    source: { kind: authored }
+  - form: "wymagalibyśmy"
+    pl: "Wymagalibyśmy punktualności."
+    ru: "Мы требовали бы пунктуальности."
+    source: { kind: authored }
+  - form: "wymagaliście"
+    pl: "Czego wymagaliście od nas?"
+    ru: "Чего вы от нас требовали?"
+    source: { kind: authored }
+  - form: "wymagaliście"
+    pl: "Wymagaliście za dużo."
+    ru: "Вы требовали слишком много."
+    source: { kind: authored }
+  - form: "wymagaliście"
+    pl: "Niczego nie wymagaliście w zamian."
+    ru: "Ничего взамен вы не требовали."
+    source: { kind: authored }
+  - form: "wymagaliśmy"
+    pl: "Wymagaliśmy punktualności."
+    ru: "Мы требовали пунктуальности."
+    source: { kind: authored }
+  - form: "wymagaliśmy"
+    pl: "Nie wymagaliśmy niczego w zamian."
+    ru: "Ничего взамен мы не требовали."
+    source: { kind: authored }
+  - form: "wymagaliśmy"
+    pl: "Wymagaliśmy od siebie więcej."
+    ru: "От себя мы требовали больше."
     source: { kind: authored }
   - form: "wymagał"
     pl: "Chory człowiek wymagał stałej opieki."
@@ -229,6 +361,42 @@ formExamples:
     pl: "Ta rola wymagała wiele pracy."
     ru: "Эта роль требовала много работы."
     source: { kind: authored }
+  - form: "wymagałaby"
+    pl: "Wymagałaby więcej, gdyby mogła."
+    ru: "Она требовала бы больше, если бы могла."
+    source: { kind: authored }
+  - form: "wymagałaby"
+    pl: "Nie wymagałaby tego od dziecka."
+    ru: "От ребёнка она этого не требовала бы."
+    source: { kind: authored }
+  - form: "wymagałaby"
+    pl: "Taka praca wymagałaby czasu."
+    ru: "Такая работа потребовала бы времени."
+    source: { kind: authored }
+  - form: "wymagałabym"
+    pl: "Wymagałabym więcej od siebie."
+    ru: "Я требовала бы больше от себя."
+    source: { kind: authored }
+  - form: "wymagałabym"
+    pl: "Nie wymagałabym tego od dziecka."
+    ru: "От ребёнка я этого не требовала бы."
+    source: { kind: authored }
+  - form: "wymagałabym"
+    pl: "Wymagałabym punktualności."
+    ru: "Я требовала бы пунктуальности."
+    source: { kind: authored }
+  - form: "wymagałabyś"
+    pl: "Czy wymagałabyś tego od dziecka?"
+    ru: "Ты требовала бы этого от ребёнка?"
+    source: { kind: authored }
+  - form: "wymagałabyś"
+    pl: "Wymagałabyś więcej?"
+    ru: "Ты требовала бы больше?"
+    source: { kind: authored }
+  - form: "wymagałabyś"
+    pl: "Naprawdę nie wymagałabyś niczego?"
+    ru: "Ты правда ничего не требовала бы?"
+    source: { kind: authored }
   - form: "wymagałam"
     pl: "Wymagałam od siebie najwięcej."
     ru: "Больше всего я требовала от себя."
@@ -252,6 +420,42 @@ formExamples:
   - form: "wymagałaś"
     pl: "Nie wymagałaś niczego w zamian."
     ru: "Ты ничего не требовала взамен."
+    source: { kind: authored }
+  - form: "wymagałby"
+    pl: "Wymagałby więcej, gdyby mógł."
+    ru: "Он требовал бы больше, если бы мог."
+    source: { kind: authored }
+  - form: "wymagałby"
+    pl: "Nie wymagałby tego od dziecka."
+    ru: "От ребёнка он этого не требовал бы."
+    source: { kind: authored }
+  - form: "wymagałby"
+    pl: "Taki remont wymagałby czasu."
+    ru: "Такой ремонт потребовал бы времени."
+    source: { kind: authored }
+  - form: "wymagałbym"
+    pl: "Wymagałbym więcej od siebie."
+    ru: "Я требовал бы больше от себя."
+    source: { kind: authored }
+  - form: "wymagałbym"
+    pl: "Nie wymagałbym tego od dziecka."
+    ru: "От ребёнка я этого не требовал бы."
+    source: { kind: authored }
+  - form: "wymagałbym"
+    pl: "Wymagałbym punktualności."
+    ru: "Я требовал бы пунктуальности."
+    source: { kind: authored }
+  - form: "wymagałbyś"
+    pl: "Czy wymagałbyś tego od dziecka?"
+    ru: "Ты требовал бы этого от ребёнка?"
+    source: { kind: authored }
+  - form: "wymagałbyś"
+    pl: "Wymagałbyś więcej?"
+    ru: "Ты требовал бы больше?"
+    source: { kind: authored }
+  - form: "wymagałbyś"
+    pl: "Naprawdę nie wymagałbyś niczego?"
+    ru: "Ты правда ничего не требовал бы?"
     source: { kind: authored }
   - form: "wymagałem"
     pl: "Wymagałem od siebie najwięcej."
@@ -289,6 +493,18 @@ formExamples:
     pl: "Będzie to wymagało sporych nakładów finansowych i czasu."
     ru: "Это потребует значительных финансовых затрат и времени."
     source: { kind: translated, id: 933289 }
+  - form: "wymagałoby"
+    pl: "To wymagałoby czasu."
+    ru: "Это потребовало бы времени."
+    source: { kind: authored }
+  - form: "wymagałoby"
+    pl: "Takie rozwiązanie wymagałoby pieniędzy."
+    ru: "Такое решение потребовало бы денег."
+    source: { kind: authored }
+  - form: "wymagałoby"
+    pl: "Żadne z nich nie wymagałoby tego od dziecka."
+    ru: "Никто из них не требовал бы этого от ребёнка."
+    source: { kind: authored }
   - form: "wymagały"
     pl: "Te prace wymagały czasu."
     ru: "Эти работы требовали времени."
@@ -301,6 +517,66 @@ formExamples:
     pl: "Nie wymagały niczego w zamian."
     ru: "Они ничего не требовали взамен."
     source: { kind: authored }
+  - form: "wymagałyby"
+    pl: "Wymagałyby więcej, gdyby mogły."
+    ru: "Они требовали бы больше, если бы могли."
+    source: { kind: authored }
+  - form: "wymagałyby"
+    pl: "Takie zmiany wymagałyby czasu."
+    ru: "Такие перемены потребовали бы времени."
+    source: { kind: authored }
+  - form: "wymagałyby"
+    pl: "Nie wymagałyby tego od dziecka."
+    ru: "От ребёнка они этого не требовали бы."
+    source: { kind: authored }
+  - form: "wymagałybyście"
+    pl: "Czy wymagałybyście tego od dziecka?"
+    ru: "Вы требовали бы этого от ребёнка?"
+    source: { kind: authored }
+  - form: "wymagałybyście"
+    pl: "Wymagałybyście więcej?"
+    ru: "Вы требовали бы больше?"
+    source: { kind: authored }
+  - form: "wymagałybyście"
+    pl: "Naprawdę nie wymagałybyście niczego?"
+    ru: "Вы правда ничего не требовали бы?"
+    source: { kind: authored }
+  - form: "wymagałybyśmy"
+    pl: "Wymagałybyśmy więcej od siebie."
+    ru: "Мы требовали бы больше от себя."
+    source: { kind: authored }
+  - form: "wymagałybyśmy"
+    pl: "Nie wymagałybyśmy tego od dziecka."
+    ru: "От ребёнка мы этого не требовали бы."
+    source: { kind: authored }
+  - form: "wymagałybyśmy"
+    pl: "Wymagałybyśmy punktualności."
+    ru: "Мы требовали бы пунктуальности."
+    source: { kind: authored }
+  - form: "wymagałyście"
+    pl: "Czego wymagałyście od nas?"
+    ru: "Чего вы от нас требовали?"
+    source: { kind: authored }
+  - form: "wymagałyście"
+    pl: "Wymagałyście za dużo."
+    ru: "Вы требовали слишком много."
+    source: { kind: authored }
+  - form: "wymagałyście"
+    pl: "Niczego nie wymagałyście w zamian."
+    ru: "Ничего взамен вы не требовали."
+    source: { kind: authored }
+  - form: "wymagałyśmy"
+    pl: "Wymagałyśmy punktualności."
+    ru: "Мы требовали пунктуальности."
+    source: { kind: authored }
+  - form: "wymagałyśmy"
+    pl: "Nie wymagałyśmy niczego w zamian."
+    ru: "Ничего взамен мы не требовали."
+    source: { kind: authored }
+  - form: "wymagałyśmy"
+    pl: "Wymagałyśmy od siebie więcej."
+    ru: "От себя мы требовали больше."
+    source: { kind: authored }
   - form: "wymagam"
     pl: "Wymagam od was inicjatywy."
     ru: "Я требую от вас инициативы."
@@ -312,6 +588,18 @@ formExamples:
   - form: "wymagam"
     pl: "Wymagam ciszy."
     ru: "Я требую тишины."
+    source: { kind: authored }
+  - form: "wymagamy"
+    pl: "Wymagamy punktualności."
+    ru: "Мы требуем пунктуальности."
+    source: { kind: authored }
+  - form: "wymagamy"
+    pl: "Nie wymagamy niczego w zamian."
+    ru: "Ничего взамен мы не требуем."
+    source: { kind: authored }
+  - form: "wymagamy"
+    pl: "Czego wymagamy od siebie?"
+    ru: "Чего мы требуем от себя?"
     source: { kind: authored }
   - form: "wymagana"
     pl: "Co się tyczy tego, to wymagana jest zgoda rodziców."
@@ -349,6 +637,42 @@ formExamples:
     pl: "Wcześniejsze doświadczenie nie jest wymagane."
     ru: "Предыдущий опыт не требуется."
     source: { kind: translated, id: 9686413 }
+  - form: "wymaganego"
+    pl: "Dotyczy to dokumentu wymaganego przy wjeździe."
+    ru: "Это касается документа, требуемого при въезде."
+    source: { kind: authored }
+  - form: "wymaganego"
+    pl: "Nie ma tu podpisu wymaganego na wniosku."
+    ru: "Здесь нет подписи, обязательной на заявлении."
+    source: { kind: authored }
+  - form: "wymaganego"
+    pl: "Brak wymaganego hasła blokuje konto."
+    ru: "Отсутствие обязательного пароля блокирует учётную запись."
+    source: { kind: authored }
+  - form: "wymaganej"
+    pl: "Dotyczy to zgody wymaganej przy wjeździe."
+    ru: "Это касается согласия, требуемого при въезде."
+    source: { kind: authored }
+  - form: "wymaganej"
+    pl: "Brakuje tu pieczątki wymaganej na wniosku."
+    ru: "Здесь не хватает печати, обязательной на заявлении."
+    source: { kind: authored }
+  - form: "wymaganej"
+    pl: "Bez wymaganej zgody nic nie zrobimy."
+    ru: "Без обязательного согласия мы ничего не сделаем."
+    source: { kind: authored }
+  - form: "wymaganemu"
+    pl: "Przyjrzyj się dokumentowi wymaganemu przy wjeździe."
+    ru: "Присмотрись к документу, требуемому при въезде."
+    source: { kind: authored }
+  - form: "wymaganemu"
+    pl: "Przyglądali się podpisowi wymaganemu na wniosku."
+    ru: "Они разглядывали подпись, обязательную на заявлении."
+    source: { kind: authored }
+  - form: "wymaganemu"
+    pl: "Dzięki hasłu wymaganemu przy logowaniu konto jest bezpieczne."
+    ru: "Благодаря паролю, обязательному при входе, учётная запись защищена."
+    source: { kind: authored }
   - form: "wymagania"
     pl: "Ten uniwersytet ma wysokie wymagania."
     ru: "У этого университета высокие требования."
@@ -361,6 +685,42 @@ formExamples:
     pl: "Próbował spełnić wymagania swoich rodziców."
     ru: "Он пытался соответствовать требованиям своих родителей."
     source: { kind: translated, id: 603173 }
+  - form: "wymaganie"
+    pl: "To wymaganie jest zbyt wysokie."
+    ru: "Это требование слишком высокое."
+    source: { kind: authored }
+  - form: "wymaganie"
+    pl: "Wymaganie punktualności nikogo nie dziwi."
+    ru: "Требование пунктуальности никого не удивляет."
+    source: { kind: authored }
+  - form: "wymaganie"
+    pl: "Nowe wymaganie pojawiło się w regulaminie."
+    ru: "В правилах появилось новое требование."
+    source: { kind: authored }
+  - form: "wymaganiem"
+    pl: "Sprawa skończyła się wymaganiem nowych dokumentów."
+    ru: "Дело кончилось требованием новых документов."
+    source: { kind: authored }
+  - form: "wymaganiem"
+    pl: "Przed wymaganiem czegoś od innych spójrz na siebie."
+    ru: "Прежде чем требовать чего-то от других, посмотри на себя."
+    source: { kind: authored }
+  - form: "wymaganiem"
+    pl: "Punktualność jest tu podstawowym wymaganiem."
+    ru: "Пунктуальность здесь основное требование."
+    source: { kind: authored }
+  - form: "wymaganiu"
+    pl: "W tym wymaganiu nie ma nic dziwnego."
+    ru: "В этом требовании нет ничего странного."
+    source: { kind: authored }
+  - form: "wymaganiu"
+    pl: "Przyglądamy się nowemu wymaganiu w regulaminie."
+    ru: "Мы присматриваемся к новому требованию в правилах."
+    source: { kind: authored }
+  - form: "wymaganiu"
+    pl: "Dzięki temu wymaganiu wnioski są kompletne."
+    ru: "Благодаря этому требованию заявления полные."
+    source: { kind: authored }
   - form: "wymagano"
     pl: "Tom zrobił nawet więcej, niż od niego wymagano."
     ru: "Том сделал даже больше, чем от него требовали."
@@ -384,6 +744,42 @@ formExamples:
   - form: "wymagany"
     pl: "Wymagany staż to pięć lat."
     ru: "Требуемый стаж — пять лет."
+    source: { kind: authored }
+  - form: "wymaganych"
+    pl: "Brakuje wymaganych dokumentów."
+    ru: "Не хватает обязательных документов."
+    source: { kind: authored }
+  - form: "wymaganych"
+    pl: "Wśród wymaganych pól jest i to."
+    ru: "Среди обязательных полей есть и это."
+    source: { kind: authored }
+  - form: "wymaganych"
+    pl: "Lista wymaganych zgód rośnie."
+    ru: "Список обязательных согласий растёт."
+    source: { kind: authored }
+  - form: "wymaganym"
+    pl: "W wymaganym polu nie ma nic wpisanego."
+    ru: "В обязательном поле ничего не вписано."
+    source: { kind: authored }
+  - form: "wymaganym"
+    pl: "Przyglądamy się wymaganym dokumentom."
+    ru: "Мы присматриваемся к обязательным документам."
+    source: { kind: authored }
+  - form: "wymaganym"
+    pl: "Nad wymaganym podpisem długo się zastanawiał."
+    ru: "Над обязательной подписью он долго раздумывал."
+    source: { kind: authored }
+  - form: "wymaganymi"
+    pl: "Zajmuje się wymaganymi dokumentami."
+    ru: "Он занимается обязательными документами."
+    source: { kind: authored }
+  - form: "wymaganymi"
+    pl: "Między wymaganymi polami a resztą jest różnica."
+    ru: "Между обязательными полями и остальными есть разница."
+    source: { kind: authored }
+  - form: "wymaganymi"
+    pl: "Pracuje nad wymaganymi zgodami."
+    ru: "Он работает над обязательными согласиями."
     source: { kind: authored }
   - form: "wymagasz"
     pl: "Wymagasz pomocy lekarskiej."
