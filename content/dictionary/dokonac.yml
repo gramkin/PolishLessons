@@ -47,35 +47,7 @@ idioms:
   - { pl: "dokonać żywota", ru: "окончить свои дни" }
   - { pl: "dokonać niemożliwego", ru: "совершить невозможное" }
 formExamplesSkip:
-  - { form: "dokonacie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "dokonaj", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "dokonajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "dokonajmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "dokonaliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonalibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonalibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałaby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "dokonałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "dokonana", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonaną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonane", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonanego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonanej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonanemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonani", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonaniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "dokonaniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "dokonany", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonanych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "dokonanym", reason: "формы страдательного причастия, в корпусе примеров нет" }
+  - { form: "dokonani", reason: "dokonać управляет РОДИТЕЛЬНЫМ падежом: dokonać wyboru, odkrycia, zmian, płatności. Винительного дополнения у глагола нет, а мужско-личная форма страдательного причастия требует человека именно в винительном. Совершают выбор, открытие, платёж — но не людей. Средний и женский род при этом живы: fakt dokonany, zmiana dokonana" }
   - { form: "dokonawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
   - form: "dokona"
@@ -90,6 +62,18 @@ formExamples:
     pl: "Lekarz dokona zabiegu jutro."
     ru: "Врач проведёт операцию завтра."
     source: { kind: authored }
+  - form: "dokonacie"
+    pl: "Dokonacie wyboru?"
+    ru: "Вы сделаете выбор?"
+    source: { kind: authored }
+  - form: "dokonacie"
+    pl: "Czy dokonacie zmian?"
+    ru: "Вы внесёте изменения?"
+    source: { kind: authored }
+  - form: "dokonacie"
+    pl: "Dokonacie odkrycia, jeśli będziecie cierpliwi."
+    ru: "Вы сделаете открытие, если будете терпеливы."
+    source: { kind: authored }
   - form: "dokonać"
     pl: "Musisz tylko dokonać wyboru."
     ru: "Тебе нужно только сделать выбор."
@@ -102,6 +86,18 @@ formExamples:
     pl: "Chciałbym dokonać rezerwacji na pociąg ekspresowy odjeżdżający o szóstej wieczorem."
     ru: "Я хотел бы забронировать место на экспресс, отправляющийся в шесть вечера."
     source: { kind: translated, id: 3005000 }
+  - form: "dokonaj"
+    pl: "Dokonaj wyboru."
+    ru: "Сделай выбор."
+    source: { kind: authored }
+  - form: "dokonaj"
+    pl: "Dokonaj zmian w projekcie."
+    ru: "Внеси изменения в проект."
+    source: { kind: authored }
+  - form: "dokonaj"
+    pl: "Dokonaj w końcu wyboru."
+    ru: "Сделай наконец выбор."
+    source: { kind: authored }
   - form: "dokonają"
     pl: "Wkrótce dokonają wyboru."
     ru: "Скоро они сделают выбор."
@@ -114,6 +110,30 @@ formExamples:
     pl: "Dokonają zmian w regulaminie."
     ru: "Они внесут изменения в правила."
     source: { kind: authored }
+  - form: "dokonajcie"
+    pl: "Dokonajcie wyboru."
+    ru: "Сделайте выбор."
+    source: { kind: authored }
+  - form: "dokonajcie"
+    pl: "Dokonajcie zmian w projekcie."
+    ru: "Внесите изменения в проект."
+    source: { kind: authored }
+  - form: "dokonajcie"
+    pl: "Dokonajcie przeglądu dokumentów."
+    ru: "Проведите просмотр документов."
+    source: { kind: authored }
+  - form: "dokonajmy"
+    pl: "Dokonajmy wyboru."
+    ru: "Сделаем выбор."
+    source: { kind: authored }
+  - form: "dokonajmy"
+    pl: "Dokonajmy zmian w projekcie."
+    ru: "Внесём изменения в проект."
+    source: { kind: authored }
+  - form: "dokonajmy"
+    pl: "Dokonajmy przeglądu dokumentów."
+    ru: "Проведём просмотр документов."
+    source: { kind: authored }
   - form: "dokonali"
     pl: "Bandyci dokonali najazdu na wioskę."
     ru: "Бандиты совершили рейд на деревню."
@@ -125,6 +145,42 @@ formExamples:
   - form: "dokonali"
     pl: "Dokonali wielkiego odkrycia."
     ru: "Они совершили великое открытие."
+    source: { kind: authored }
+  - form: "dokonaliby"
+    pl: "Dokonaliby wyboru szybciej."
+    ru: "Они сделали бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonaliby"
+    pl: "Chyba nie dokonaliby takiego odkrycia."
+    ru: "Вряд ли они сделали бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonaliby"
+    pl: "Dokonaliby zmian w projekcie."
+    ru: "Они внесли бы изменения в проект."
+    source: { kind: authored }
+  - form: "dokonalibyście"
+    pl: "Czy dokonalibyście takiego wyboru?"
+    ru: "Вы сделали бы такой выбор?"
+    source: { kind: authored }
+  - form: "dokonalibyście"
+    pl: "Dokonalibyście zmian w projekcie?"
+    ru: "Вы внесли бы изменения в проект?"
+    source: { kind: authored }
+  - form: "dokonalibyście"
+    pl: "Naprawdę nie dokonalibyście przeglądu?"
+    ru: "Вы правда не провели бы просмотр?"
+    source: { kind: authored }
+  - form: "dokonalibyśmy"
+    pl: "Dokonalibyśmy wyboru szybciej."
+    ru: "Мы сделали бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonalibyśmy"
+    pl: "Raczej nie dokonalibyśmy takiego odkrycia."
+    ru: "Вряд ли мы сделали бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonalibyśmy"
+    pl: "Dokonalibyśmy zmian w projekcie."
+    ru: "Мы внесли бы изменения в проект."
     source: { kind: authored }
   - form: "dokonaliście"
     pl: "Dokonaliście mądrego wyboru."
@@ -174,6 +230,42 @@ formExamples:
     pl: "Komisja dokonała oceny projektu."
     ru: "Комиссия произвела оценку проекта."
     source: { kind: authored }
+  - form: "dokonałaby"
+    pl: "Dokonałaby wyboru szybciej."
+    ru: "Она сделала бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonałaby"
+    pl: "Chyba nie dokonałaby takiego odkrycia."
+    ru: "Вряд ли она сделала бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonałaby"
+    pl: "Dokonałaby zmian w projekcie."
+    ru: "Она внесла бы изменения в проект."
+    source: { kind: authored }
+  - form: "dokonałabym"
+    pl: "Dokonałabym wyboru szybciej."
+    ru: "Я сделала бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonałabym"
+    pl: "Raczej nie dokonałabym takiego odkrycia."
+    ru: "Вряд ли я сделала бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonałabym"
+    pl: "Dokonałabym zmian w projekcie."
+    ru: "Я внесла бы изменения в проект."
+    source: { kind: authored }
+  - form: "dokonałabyś"
+    pl: "Czy dokonałabyś takiego wyboru?"
+    ru: "Ты сделала бы такой выбор?"
+    source: { kind: authored }
+  - form: "dokonałabyś"
+    pl: "Dokonałabyś zmian w projekcie?"
+    ru: "Ты внесла бы изменения в проект?"
+    source: { kind: authored }
+  - form: "dokonałabyś"
+    pl: "Naprawdę nie dokonałabyś przeglądu?"
+    ru: "Ты правда не провела бы просмотр?"
+    source: { kind: authored }
   - form: "dokonałam"
     pl: "Dokonałam wyboru."
     ru: "Я сделала выбор."
@@ -198,6 +290,18 @@ formExamples:
     pl: "Dokonałaś właściwego wyboru."
     ru: "Ты сделала правильный выбор."
     source: { kind: authored }
+  - form: "dokonałby"
+    pl: "Dokonałby wyboru szybciej."
+    ru: "Он сделал бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonałby"
+    pl: "Chyba nie dokonałby takiego odkrycia."
+    ru: "Вряд ли он сделал бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonałby"
+    pl: "Dokonałby rzeczy niemożliwej."
+    ru: "Он совершил бы невозможное."
+    source: { kind: authored }
   - form: "dokonałbym"
     pl: "Gdyby nie twoja pomoc, nie dokonałbym tego."
     ru: "Если бы не твоя помощь, я бы этого не совершил."
@@ -209,6 +313,18 @@ formExamples:
   - form: "dokonałbym"
     pl: "Dokonałbym innego wyboru."
     ru: "Я сделал бы другой выбор."
+    source: { kind: authored }
+  - form: "dokonałbyś"
+    pl: "Czy dokonałbyś takiego wyboru?"
+    ru: "Ты сделал бы такой выбор?"
+    source: { kind: authored }
+  - form: "dokonałbyś"
+    pl: "Dokonałbyś zmian w projekcie?"
+    ru: "Ты внёс бы изменения в проект?"
+    source: { kind: authored }
+  - form: "dokonałbyś"
+    pl: "Naprawdę nie dokonałbyś przeglądu?"
+    ru: "Ты правда не провёл бы просмотр?"
     source: { kind: authored }
   - form: "dokonałem"
     pl: "Dokonałem odkrycia."
@@ -246,6 +362,18 @@ formExamples:
     pl: "Dziecko dokonało odkrycia."
     ru: "Ребёнок совершил открытие."
     source: { kind: authored }
+  - form: "dokonałoby"
+    pl: "Dziecko dokonałoby wyboru bez wahania."
+    ru: "Ребёнок сделал бы выбор без колебаний."
+    source: { kind: authored }
+  - form: "dokonałoby"
+    pl: "Żadne z nich nie dokonałoby takiego odkrycia."
+    ru: "Никто из них не сделал бы такого открытия."
+    source: { kind: authored }
+  - form: "dokonałoby"
+    pl: "To miasto dokonałoby wielkich zmian."
+    ru: "Этот город произвёл бы большие перемены."
+    source: { kind: authored }
   - form: "dokonały"
     pl: "Kobiety dokonały wyboru."
     ru: "Женщины сделали выбор."
@@ -258,6 +386,42 @@ formExamples:
     pl: "Te zmiany dokonały przełomu."
     ru: "Эти перемены совершили перелом."
     source: { kind: authored }
+  - form: "dokonałyby"
+    pl: "Dokonałyby wyboru szybciej."
+    ru: "Они сделали бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonałyby"
+    pl: "Te badania dokonałyby przełomu."
+    ru: "Эти исследования произвели бы перелом."
+    source: { kind: authored }
+  - form: "dokonałyby"
+    pl: "Chyba nie dokonałyby takiego odkrycia."
+    ru: "Вряд ли они сделали бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonałybyście"
+    pl: "Czy dokonałybyście takiego wyboru?"
+    ru: "Вы сделали бы такой выбор?"
+    source: { kind: authored }
+  - form: "dokonałybyście"
+    pl: "Dokonałybyście zmian w projekcie?"
+    ru: "Вы внесли бы изменения в проект?"
+    source: { kind: authored }
+  - form: "dokonałybyście"
+    pl: "Naprawdę nie dokonałybyście przeglądu?"
+    ru: "Вы правда не провели бы просмотр?"
+    source: { kind: authored }
+  - form: "dokonałybyśmy"
+    pl: "Dokonałybyśmy wyboru szybciej."
+    ru: "Мы сделали бы выбор быстрее."
+    source: { kind: authored }
+  - form: "dokonałybyśmy"
+    pl: "Raczej nie dokonałybyśmy takiego odkrycia."
+    ru: "Вряд ли мы сделали бы такое открытие."
+    source: { kind: authored }
+  - form: "dokonałybyśmy"
+    pl: "Dokonałybyśmy zmian w projekcie."
+    ru: "Мы внесли бы изменения в проект."
+    source: { kind: authored }
   - form: "dokonałyście"
     pl: "Dokonałyście mądrego wyboru."
     ru: "Вы сделали мудрый выбор."
@@ -269,6 +433,18 @@ formExamples:
   - form: "dokonałyście"
     pl: "Dokonałyście wielkiej rzeczy."
     ru: "Вы совершили великое дело."
+    source: { kind: authored }
+  - form: "dokonałyśmy"
+    pl: "Dokonałyśmy wyboru."
+    ru: "Мы сделали выбор."
+    source: { kind: authored }
+  - form: "dokonałyśmy"
+    pl: "Dokonałyśmy zmian w projekcie."
+    ru: "Мы внесли изменения в проект."
+    source: { kind: authored }
+  - form: "dokonałyśmy"
+    pl: "Wyboru dokonałyśmy wspólnie."
+    ru: "Выбор мы сделали вместе."
     source: { kind: authored }
   - form: "dokonam"
     pl: "Dokonam wyboru jutro."
@@ -294,6 +470,78 @@ formExamples:
     pl: "Dokonamy zmian w projekcie."
     ru: "Мы внесём изменения в проект."
     source: { kind: authored }
+  - form: "dokonana"
+    pl: "Zmiana została dokonana wczoraj."
+    ru: "Изменение внесли вчера."
+    source: { kind: authored }
+  - form: "dokonana"
+    pl: "Dokonana wczoraj zmiana już działa."
+    ru: "Внесённое вчера изменение уже работает."
+    source: { kind: authored }
+  - form: "dokonana"
+    pl: "Ta płatność jest już dokonana."
+    ru: "Этот платёж уже совершён."
+    source: { kind: authored }
+  - form: "dokonaną"
+    pl: "Znam zmianę dokonaną w ostatniej chwili."
+    ru: "Я знаю изменение, внесённое в последний момент."
+    source: { kind: authored }
+  - form: "dokonaną"
+    pl: "Uważam tę płatność za dokonaną."
+    ru: "Я считаю этот платёж совершённым."
+    source: { kind: authored }
+  - form: "dokonaną"
+    pl: "Opisał transakcję dokonaną przez bank."
+    ru: "Он описал сделку, совершённую банком."
+    source: { kind: authored }
+  - form: "dokonane"
+    pl: "Dokonane zmiany już widać."
+    ru: "Внесённые изменения уже видны."
+    source: { kind: authored }
+  - form: "dokonane"
+    pl: "To płatności dokonane w zeszłym miesiącu."
+    ru: "Это платежи, совершённые в прошлом месяце."
+    source: { kind: authored }
+  - form: "dokonane"
+    pl: "Wszystko zostało dokonane zgodnie z planem."
+    ru: "Всё совершено согласно плану."
+    source: { kind: authored }
+  - form: "dokonanego"
+    pl: "Dotyczy to wyboru dokonanego w pośpiechu."
+    ru: "Это касается выбора, сделанного в спешке."
+    source: { kind: authored }
+  - form: "dokonanego"
+    pl: "Nie ma tu nic dokonanego bez zgody."
+    ru: "Здесь нет ничего совершённого без согласия."
+    source: { kind: authored }
+  - form: "dokonanego"
+    pl: "Sens odkrycia dokonanego w tym laboratorium jest ogromny."
+    ru: "Значение открытия, сделанного в этой лаборатории, огромно."
+    source: { kind: authored }
+  - form: "dokonanej"
+    pl: "Dotyczy to zmiany dokonanej wczoraj."
+    ru: "Это касается изменения, внесённого вчера."
+    source: { kind: authored }
+  - form: "dokonanej"
+    pl: "Brakuje tu płatności dokonanej w terminie."
+    ru: "Здесь не хватает платежа, совершённого в срок."
+    source: { kind: authored }
+  - form: "dokonanej"
+    pl: "Dzięki transakcji dokonanej przez bank sprawa się zamknęła."
+    ru: "Благодаря сделке, совершённой банком, дело закрылось."
+    source: { kind: authored }
+  - form: "dokonanemu"
+    pl: "Przyjrzyj się wyborowi dokonanemu w pośpiechu."
+    ru: "Присмотрись к выбору, сделанному в спешке."
+    source: { kind: authored }
+  - form: "dokonanemu"
+    pl: "Odkryciu dokonanemu w tym laboratorium nikt nie zaprzeczy."
+    ru: "Открытию, сделанному в этой лаборатории, никто не возразит."
+    source: { kind: authored }
+  - form: "dokonanemu"
+    pl: "Dzięki przelewowi dokonanemu w terminie uniknęli kary."
+    ru: "Благодаря переводу, совершённому в срок, они избежали штрафа."
+    source: { kind: authored }
   - form: "dokonania"
     pl: "Jego dokonania naukowe są znane w świecie."
     ru: "Его научные достижения известны в мире."
@@ -318,6 +566,30 @@ formExamples:
     pl: "To było wielkie dokonanie."
     ru: "Это было большое достижение."
     source: { kind: authored }
+  - form: "dokonaniem"
+    pl: "Sprawa skończyła się dokonaniem wyboru."
+    ru: "Дело кончилось тем, что выбор сделали."
+    source: { kind: authored }
+  - form: "dokonaniem"
+    pl: "Przed dokonaniem wyboru przeczytaj warunki."
+    ru: "Прежде чем сделать выбор, прочти условия."
+    source: { kind: authored }
+  - form: "dokonaniem"
+    pl: "Między dokonaniem a ogłoszeniem odkrycia minął rok."
+    ru: "Между совершением и объявлением открытия прошёл год."
+    source: { kind: authored }
+  - form: "dokonaniu"
+    pl: "Po dokonaniu wyboru nie ma odwrotu."
+    ru: "После сделанного выбора отступать некуда."
+    source: { kind: authored }
+  - form: "dokonaniu"
+    pl: "W dokonaniu tego odkrycia pomógł przypadek."
+    ru: "Этому открытию помог случай."
+    source: { kind: authored }
+  - form: "dokonaniu"
+    pl: "Dzięki dokonaniu przeglądu znaleziono usterkę."
+    ru: "Благодаря проведённому осмотру нашли неисправность."
+    source: { kind: authored }
   - form: "dokonano"
     pl: "W elektronice dokonano ostatnio kilku odkryć."
     ru: "В электронике недавно сделали несколько открытий."
@@ -330,6 +602,42 @@ formExamples:
     pl: "W trakcie meczu w każdej drużynie dokonano zmian po pięciu zawodników."
     ru: "В ходе матча в каждой команде произвели по пять замен игроков."
     source: { kind: translated, id: 12204006 }
+  - form: "dokonany"
+    pl: "Wybór jest już dokonany."
+    ru: "Выбор уже сделан."
+    source: { kind: authored }
+  - form: "dokonany"
+    pl: "To fakt dokonany."
+    ru: "Это свершившийся факт."
+    source: { kind: authored }
+  - form: "dokonany"
+    pl: "Przelew został dokonany wczoraj."
+    ru: "Перевод совершили вчера."
+    source: { kind: authored }
+  - form: "dokonanych"
+    pl: "Brakuje danych o dokonanych zmianach."
+    ru: "Не хватает данных о внесённых изменениях."
+    source: { kind: authored }
+  - form: "dokonanych"
+    pl: "Wśród dokonanych odkryć to było największe."
+    ru: "Среди сделанных открытий это было крупнейшим."
+    source: { kind: authored }
+  - form: "dokonanych"
+    pl: "Lista dokonanych płatności rośnie."
+    ru: "Список совершённых платежей растёт."
+    source: { kind: authored }
+  - form: "dokonanym"
+    pl: "W dokonanym wyborze nie ma już nic do zmiany."
+    ru: "В сделанном выборе уже нечего менять."
+    source: { kind: authored }
+  - form: "dokonanym"
+    pl: "Przyglądamy się dokonanym zmianom."
+    ru: "Мы смотрим на внесённые изменения."
+    source: { kind: authored }
+  - form: "dokonanym"
+    pl: "O dokonanym odkryciu mówiono latami."
+    ru: "О сделанном открытии говорили годами."
+    source: { kind: authored }
   - form: "dokonanymi"
     pl: "Coraz łatwiej znaleźć pliki z nagraniami dźwiękowymi dokonanymi przez rodzimych użytkowników dowolnych języków, jakich tylko zechcemy się uczyć."
     ru: "Всё легче найти файлы со звуковыми записями, сделанными носителями любых языков, какие только мы захотим учить."
