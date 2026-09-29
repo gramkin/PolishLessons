@@ -59,38 +59,8 @@ idioms:
   - { pl: "postanowić coś zrobić", ru: "решить что-то сделать" }
   - { pl: "postanowienie sądu", ru: "постановление суда" }
 formExamplesSkip:
-  - { form: "postanowicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "postanowieni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowieniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "postanowieniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "postanowiliby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowilibyście", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowilibyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłaby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłabym", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłabyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłbym", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłbyś", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłoby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłyby", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłybyście", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłybyśmy", reason: "формы условного наклонения: в корпусе нет примеров" }
-  - { form: "postanowiłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "postanowiłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "postanowimy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "postanowiona", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowioną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionego", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionej", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionemu", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowiony", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "postanowionymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
+  - { form: "postanowieni", reason: "страдательное причастие мужского лица требует человека в винительном падеже, а postanowić человека дополнением не берёт: он управляет инфинитивом или придаточным с że — postanowił zostać lekarzem, postanowili, że zostaną. Поэтому postanowiony говорят о сроке, сумме, разделе имущества (w postanowionym terminie), но не о людях" }
   - { form: "postanowiwszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
-  - { form: "postanówcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "postanówmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
   - form: "postanowi"
     pl: "On osiąga wszystko, co sobie postanowi."
@@ -115,6 +85,18 @@ formExamples:
   - form: "postanowią"
     pl: "Nic nie postanowią bez ciebie."
     ru: "Без тебя они ничего не решат."
+    source: { kind: authored }
+  - form: "postanowicie"
+    pl: "Postanowicie zostać?"
+    ru: "Вы решите остаться?"
+    source: { kind: authored }
+  - form: "postanowicie"
+    pl: "Czy postanowicie to razem?"
+    ru: "Вы решите это вместе?"
+    source: { kind: authored }
+  - form: "postanowicie"
+    pl: "Postanowicie spróbować jeszcze raz?"
+    ru: "Вы решите попробовать ещё раз?"
     source: { kind: authored }
   - form: "postanowić"
     pl: "Musimy postanowić, kiedy wyruszamy."
@@ -152,6 +134,30 @@ formExamples:
     pl: "To było mądre postanowienie."
     ru: "Это было мудрое решение."
     source: { kind: authored }
+  - form: "postanowieniem"
+    pl: "Sprawa skończyła się postanowieniem sądu."
+    ru: "Дело кончилось постановлением суда."
+    source: { kind: authored }
+  - form: "postanowieniem"
+    pl: "Przed postanowieniem sądu nic nie zrobimy."
+    ru: "До постановления суда мы ничего не сделаем."
+    source: { kind: authored }
+  - form: "postanowieniem"
+    pl: "Między postanowieniem a wyrokiem jest różnica."
+    ru: "Между постановлением и приговором есть разница."
+    source: { kind: authored }
+  - form: "postanowieniu"
+    pl: "Po postanowieniu sądu sprawa ucichła."
+    ru: "После постановления суда дело затихло."
+    source: { kind: authored }
+  - form: "postanowieniu"
+    pl: "W tym postanowieniu nie ma niespodzianek."
+    ru: "В этом постановлении нет неожиданностей."
+    source: { kind: authored }
+  - form: "postanowieniu"
+    pl: "Dzięki postanowieniu sądu odzyskał dom."
+    ru: "Благодаря постановлению суда он вернул дом."
+    source: { kind: authored }
   - form: "postanowię"
     pl: "Postanowię jutro."
     ru: "Я решу завтра."
@@ -180,6 +186,42 @@ formExamples:
     pl: "Ponieważ nie mieli swoich dzieci, postanowili adoptować dziewczynkę."
     ru: "Поскольку своих детей у них не было, они решили удочерить девочку."
     source: { kind: translated, id: 917721 }
+  - form: "postanowiliby"
+    pl: "Postanowiliby spróbować jeszcze raz."
+    ru: "Они решили бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiliby"
+    pl: "Chyba nie postanowiliby się rozstać."
+    ru: "Вряд ли они решили бы расстаться."
+    source: { kind: authored }
+  - form: "postanowiliby"
+    pl: "Postanowiliby zostać na wsi."
+    ru: "Они решили бы остаться в деревне."
+    source: { kind: authored }
+  - form: "postanowilibyście"
+    pl: "Czy postanowilibyście się pobrać?"
+    ru: "Вы решили бы пожениться?"
+    source: { kind: authored }
+  - form: "postanowilibyście"
+    pl: "Postanowilibyście zostać na wsi?"
+    ru: "Вы решили бы остаться в деревне?"
+    source: { kind: authored }
+  - form: "postanowilibyście"
+    pl: "Naprawdę nie postanowilibyście spróbować?"
+    ru: "Вы правда не решили бы попробовать?"
+    source: { kind: authored }
+  - form: "postanowilibyśmy"
+    pl: "Postanowilibyśmy spróbować jeszcze raz."
+    ru: "Мы решили бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowilibyśmy"
+    pl: "Raczej nie postanowilibyśmy się rozstać."
+    ru: "Вряд ли мы решили бы расстаться."
+    source: { kind: authored }
+  - form: "postanowilibyśmy"
+    pl: "Postanowilibyśmy zostać na wsi."
+    ru: "Мы решили бы остаться в деревне."
+    source: { kind: authored }
   - form: "postanowiliście"
     pl: "Postanowiliście?"
     ru: "Вы решили?"
@@ -240,6 +282,42 @@ formExamples:
     pl: "Moja siostra postanowiła zostać nauczycielką."
     ru: "Моя сестра решила стать учительницей."
     source: { kind: translated, id: 675505 }
+  - form: "postanowiłaby"
+    pl: "Postanowiłaby zostać lekarką."
+    ru: "Она решила бы стать врачом."
+    source: { kind: authored }
+  - form: "postanowiłaby"
+    pl: "Chyba nie postanowiłaby się wyprowadzić."
+    ru: "Вряд ли она решила бы съехать."
+    source: { kind: authored }
+  - form: "postanowiłaby"
+    pl: "Postanowiłaby spróbować jeszcze raz."
+    ru: "Она решила бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłabym"
+    pl: "Postanowiłabym zostać lekarką."
+    ru: "Я решила бы стать врачом."
+    source: { kind: authored }
+  - form: "postanowiłabym"
+    pl: "Raczej nie postanowiłabym się wyprowadzić."
+    ru: "Вряд ли я решила бы съехать."
+    source: { kind: authored }
+  - form: "postanowiłabym"
+    pl: "Postanowiłabym spróbować jeszcze raz."
+    ru: "Я решила бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłabyś"
+    pl: "Czy postanowiłabyś zostać lekarką?"
+    ru: "Ты решила бы стать врачом?"
+    source: { kind: authored }
+  - form: "postanowiłabyś"
+    pl: "Postanowiłabyś spróbować jeszcze raz?"
+    ru: "Ты решила бы попробовать ещё раз?"
+    source: { kind: authored }
+  - form: "postanowiłabyś"
+    pl: "Naprawdę nie postanowiłabyś się wyprowadzić?"
+    ru: "Ты правда не решила бы съехать?"
+    source: { kind: authored }
   - form: "postanowiłam"
     pl: "Postanowiłam opuścić Boston."
     ru: "Я решила покинуть Бостон."
@@ -263,6 +341,42 @@ formExamples:
   - form: "postanowiłaś"
     pl: "Nic nie postanowiłaś bez niego."
     ru: "Без него ты ничего не решила."
+    source: { kind: authored }
+  - form: "postanowiłby"
+    pl: "Postanowiłby zostać lekarzem."
+    ru: "Он решил бы стать врачом."
+    source: { kind: authored }
+  - form: "postanowiłby"
+    pl: "Chyba nie postanowiłby się wyprowadzić."
+    ru: "Вряд ли он решил бы съехать."
+    source: { kind: authored }
+  - form: "postanowiłby"
+    pl: "Postanowiłby spróbować jeszcze raz."
+    ru: "Он решил бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłbym"
+    pl: "Postanowiłbym zostać lekarzem."
+    ru: "Я решил бы стать врачом."
+    source: { kind: authored }
+  - form: "postanowiłbym"
+    pl: "Raczej nie postanowiłbym się wyprowadzić."
+    ru: "Вряд ли я решил бы съехать."
+    source: { kind: authored }
+  - form: "postanowiłbym"
+    pl: "Postanowiłbym spróbować jeszcze raz."
+    ru: "Я решил бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłbyś"
+    pl: "Czy postanowiłbyś zostać lekarzem?"
+    ru: "Ты решил бы стать врачом?"
+    source: { kind: authored }
+  - form: "postanowiłbyś"
+    pl: "Postanowiłbyś spróbować jeszcze raz?"
+    ru: "Ты решил бы попробовать ещё раз?"
+    source: { kind: authored }
+  - form: "postanowiłbyś"
+    pl: "Naprawdę nie postanowiłbyś się wyprowadzić?"
+    ru: "Ты правда не решил бы съехать?"
     source: { kind: authored }
   - form: "postanowiłem"
     pl: "Postanowiłem jechać."
@@ -304,6 +418,18 @@ formExamples:
     pl: "Dziecko postanowiło się poprawić."
     ru: "Ребёнок решил исправиться."
     source: { kind: authored }
+  - form: "postanowiłoby"
+    pl: "Dziecko postanowiłoby zostać strażakiem."
+    ru: "Ребёнок решил бы стать пожарным."
+    source: { kind: authored }
+  - form: "postanowiłoby"
+    pl: "Żadne z nich nie postanowiłoby się wyprowadzić."
+    ru: "Никто из них не решил бы съехать."
+    source: { kind: authored }
+  - form: "postanowiłoby"
+    pl: "To miasto postanowiłoby zbudować most."
+    ru: "Этот город решил бы построить мост."
+    source: { kind: authored }
   - form: "postanowiły"
     pl: "Postanowiły, że razem będą szukały rozwiązania tego problemu."
     ru: "Они решили, что вместе будут искать решение этой проблемы."
@@ -315,6 +441,102 @@ formExamples:
   - form: "postanowiły"
     pl: "Władze postanowiły zamknąć most."
     ru: "Власти решили закрыть мост."
+    source: { kind: authored }
+  - form: "postanowiłyby"
+    pl: "Postanowiłyby spróbować jeszcze raz."
+    ru: "Они решили бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłyby"
+    pl: "Te dziewczyny postanowiłyby zostać lekarkami."
+    ru: "Эти девушки решили бы стать врачами."
+    source: { kind: authored }
+  - form: "postanowiłyby"
+    pl: "Chyba nie postanowiłyby się rozstać."
+    ru: "Вряд ли они решили бы расстаться."
+    source: { kind: authored }
+  - form: "postanowiłybyście"
+    pl: "Czy postanowiłybyście się pobrać?"
+    ru: "Вы решили бы пожениться?"
+    source: { kind: authored }
+  - form: "postanowiłybyście"
+    pl: "Postanowiłybyście zostać na wsi?"
+    ru: "Вы решили бы остаться в деревне?"
+    source: { kind: authored }
+  - form: "postanowiłybyście"
+    pl: "Naprawdę nie postanowiłybyście spróbować?"
+    ru: "Вы правда не решили бы попробовать?"
+    source: { kind: authored }
+  - form: "postanowiłybyśmy"
+    pl: "Postanowiłybyśmy spróbować jeszcze raz."
+    ru: "Мы решили бы попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłybyśmy"
+    pl: "Raczej nie postanowiłybyśmy się rozstać."
+    ru: "Вряд ли мы решили бы расстаться."
+    source: { kind: authored }
+  - form: "postanowiłybyśmy"
+    pl: "Postanowiłybyśmy zostać na wsi."
+    ru: "Мы решили бы остаться в деревне."
+    source: { kind: authored }
+  - form: "postanowiłyście"
+    pl: "Postanowiłyście się pobrać?"
+    ru: "Вы решили пожениться?"
+    source: { kind: authored }
+  - form: "postanowiłyście"
+    pl: "Dlaczego postanowiłyście zostać?"
+    ru: "Почему вы решили остаться?"
+    source: { kind: authored }
+  - form: "postanowiłyście"
+    pl: "Postanowiłyście spróbować jeszcze raz."
+    ru: "Вы решили попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłyśmy"
+    pl: "Postanowiłyśmy spróbować jeszcze raz."
+    ru: "Мы решили попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowiłyśmy"
+    pl: "Postanowiłyśmy zostać na wsi."
+    ru: "Мы решили остаться в деревне."
+    source: { kind: authored }
+  - form: "postanowiłyśmy"
+    pl: "Razem postanowiłyśmy się pobrać."
+    ru: "Вместе мы решили пожениться."
+    source: { kind: authored }
+  - form: "postanowimy"
+    pl: "Postanowimy to razem."
+    ru: "Мы решим это вместе."
+    source: { kind: authored }
+  - form: "postanowimy"
+    pl: "Postanowimy spróbować jeszcze raz."
+    ru: "Мы решим попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanowimy"
+    pl: "Jutro postanowimy, co dalej."
+    ru: "Завтра мы решим, что дальше."
+    source: { kind: authored }
+  - form: "postanowiona"
+    pl: "Data ślubu jest już postanowiona."
+    ru: "Дата свадьбы уже назначена."
+    source: { kind: authored }
+  - form: "postanowiona"
+    pl: "Kwota została postanowiona w umowie."
+    ru: "Сумма установлена договором."
+    source: { kind: authored }
+  - form: "postanowiona"
+    pl: "Ta sprawa jest postanowiona raz na zawsze."
+    ru: "Это дело решено раз и навсегда."
+    source: { kind: authored }
+  - form: "postanowioną"
+    pl: "Uważam tę sprawę za postanowioną."
+    ru: "Я считаю это дело решённым."
+    source: { kind: authored }
+  - form: "postanowioną"
+    pl: "Znam kwotę postanowioną w umowie."
+    ru: "Я знаю сумму, установленную договором."
+    source: { kind: authored }
+  - form: "postanowioną"
+    pl: "Opisał datę postanowioną przez sąd."
+    ru: "Он описал дату, назначенную судом."
     source: { kind: authored }
   - form: "postanowione"
     pl: "Postanowione."
@@ -328,6 +550,42 @@ formExamples:
     pl: "Nic nie zostało postanowione."
     ru: "Ничего не было решено."
     source: { kind: translated, id: 4957013 }
+  - form: "postanowionego"
+    pl: "Dotyczy to terminu postanowionego przez sąd."
+    ru: "Это касается срока, назначенного судом."
+    source: { kind: authored }
+  - form: "postanowionego"
+    pl: "Nie ma tu nic postanowionego na piśmie."
+    ru: "Здесь нет ничего установленного письменно."
+    source: { kind: authored }
+  - form: "postanowionego"
+    pl: "Trzymaj się terminu postanowionego w umowie."
+    ru: "Держись срока, установленного договором."
+    source: { kind: authored }
+  - form: "postanowionej"
+    pl: "Dotyczy to kwoty postanowionej w umowie."
+    ru: "Это касается суммы, установленной договором."
+    source: { kind: authored }
+  - form: "postanowionej"
+    pl: "Brakuje tu daty postanowionej przez sąd."
+    ru: "Здесь не хватает даты, назначенной судом."
+    source: { kind: authored }
+  - form: "postanowionej"
+    pl: "Dzięki kwocie postanowionej z góry uniknięto sporu."
+    ru: "Благодаря сумме, установленной заранее, спора избежали."
+    source: { kind: authored }
+  - form: "postanowionemu"
+    pl: "Przyjrzyj się terminowi postanowionemu przez sąd."
+    ru: "Присмотрись к сроку, назначенному судом."
+    source: { kind: authored }
+  - form: "postanowionemu"
+    pl: "Podziałowi majątku postanowionemu w testamencie nikt nie zaprzeczył."
+    ru: "Разделу имущества, установленному в завещании, никто не возразил."
+    source: { kind: authored }
+  - form: "postanowionemu"
+    pl: "Dzięki terminowi postanowionemu z góry wszystko poszło gładko."
+    ru: "Благодаря сроку, назначенному заранее, всё прошло гладко."
+    source: { kind: authored }
   - form: "postanowiono"
     pl: "Postanowiono odłożyć wyjazd."
     ru: "Решили отложить поездку."
@@ -339,6 +597,54 @@ formExamples:
   - form: "postanowiono"
     pl: "Postanowiono to wspólnie."
     ru: "Это решили сообща."
+    source: { kind: authored }
+  - form: "postanowiony"
+    pl: "Termin jest już postanowiony."
+    ru: "Срок уже назначен."
+    source: { kind: authored }
+  - form: "postanowiony"
+    pl: "Podział majątku został postanowiony w testamencie."
+    ru: "Раздел имущества установлен в завещании."
+    source: { kind: authored }
+  - form: "postanowiony"
+    pl: "Ten termin był postanowiony z góry."
+    ru: "Этот срок был назначен заранее."
+    source: { kind: authored }
+  - form: "postanowionych"
+    pl: "Brakuje danych o postanowionych terminach."
+    ru: "Не хватает данных о назначенных сроках."
+    source: { kind: authored }
+  - form: "postanowionych"
+    pl: "Wśród postanowionych kwot tej nie było."
+    ru: "Среди установленных сумм этой не было."
+    source: { kind: authored }
+  - form: "postanowionych"
+    pl: "Trzymamy się postanowionych zasad."
+    ru: "Мы держимся установленных правил."
+    source: { kind: authored }
+  - form: "postanowionym"
+    pl: "W postanowionym terminie stawili się wszyscy."
+    ru: "В назначенный срок явились все."
+    source: { kind: authored }
+  - form: "postanowionym"
+    pl: "Przyglądamy się postanowionym kwotom."
+    ru: "Мы смотрим на установленные суммы."
+    source: { kind: authored }
+  - form: "postanowionym"
+    pl: "O postanowionym podziale majątku nikt nie dyskutuje."
+    ru: "Об установленном разделе имущества никто не спорит."
+    source: { kind: authored }
+  - form: "postanowionymi"
+    pl: "Zajmuje się terminami postanowionymi przez sąd."
+    ru: "Он занимается сроками, назначенными судом."
+    source: { kind: authored }
+  - form: "postanowionymi"
+    pl: "Między postanowionymi a proponowanymi kwotami jest różnica."
+    ru: "Между установленными и предложенными суммами есть разница."
+    source: { kind: authored }
+  - form: "postanowionymi"
+    pl: "Pracuje nad zasadami postanowionymi w umowie."
+    ru: "Он работает над правилами, установленными договором."
     source: { kind: authored }
   - form: "postanowisz"
     pl: "Co postanowisz?"
@@ -363,4 +669,28 @@ formExamples:
   - form: "postanów"
     pl: "Postanów sam, nie pytaj innych."
     ru: "Реши сам, не спрашивай других."
+    source: { kind: authored }
+  - form: "postanówcie"
+    pl: "Postanówcie to razem."
+    ru: "Решите это вместе."
+    source: { kind: authored }
+  - form: "postanówcie"
+    pl: "Postanówcie wreszcie, co dalej."
+    ru: "Решите наконец, что дальше."
+    source: { kind: authored }
+  - form: "postanówcie"
+    pl: "Postanówcie spróbować jeszcze raz."
+    ru: "Решите попробовать ещё раз."
+    source: { kind: authored }
+  - form: "postanówmy"
+    pl: "Postanówmy to razem."
+    ru: "Решим это вместе."
+    source: { kind: authored }
+  - form: "postanówmy"
+    pl: "Postanówmy wreszcie, co dalej."
+    ru: "Решим наконец, что дальше."
+    source: { kind: authored }
+  - form: "postanówmy"
+    pl: "Postanówmy spróbować jeszcze raz."
+    ru: "Решим попробовать ещё раз."
     source: { kind: authored }
