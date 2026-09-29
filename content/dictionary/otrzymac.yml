@@ -59,39 +59,7 @@ idioms:
   - { pl: "otrzymać odpowiedź", ru: "получить ответ" }
   - { pl: "po otrzymaniu listu", ru: "по получении письма" }
 formExamplesSkip:
-  - { form: "otrzymacie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "otrzymaj", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "otrzymajcie", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "otrzymajmy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "otrzymaliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymalibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymalibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymaliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "otrzymałaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "otrzymałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "otrzymałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "otrzymamy", reason: "формы повелительного наклонения: в корпусе нет примеров" }
-  - { form: "otrzymana", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymaną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymane", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanego", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanej", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanemu", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymani", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymaniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "otrzymany", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "otrzymanymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
+  - { form: "otrzymani", reason: "мужско-личной страдательной формы у этого глагола не бывает: получают письмо, награду, ответ, право — вещь, а не человека. Человека не «получают»: его принимают, przyjęty. Остальные формы причастия в карточке есть с примерами: nagroda otrzymana wczoraj, list otrzymany w piątek" }
   - { form: "otrzymawszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
 formExamples:
   - form: "otrzyma"
@@ -106,6 +74,18 @@ formExamples:
     pl: "Ten kto pomaga innym, sam otrzyma od nich pomoc."
     ru: "Тот, кто помогает другим, сам получит от них помощь."
     source: { kind: translated, id: 12716106 }
+  - form: "otrzymacie"
+    pl: "Otrzymacie odpowiedź w piątek."
+    ru: "Вы получите ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymacie"
+    pl: "Czy otrzymacie nagrodę?"
+    ru: "Вы получите награду?"
+    source: { kind: authored }
+  - form: "otrzymacie"
+    pl: "Nie otrzymacie rabatu bez paragonu."
+    ru: "Без чека вы не получите скидку."
+    source: { kind: authored }
   - form: "otrzymać"
     pl: "Mogę otrzymać zwrot pieniędzy?"
     ru: "Могу я получить возврат денег?"
@@ -122,6 +102,18 @@ formExamples:
     pl: "Prawo jazdy można otrzymać od 18. roku życia."
     ru: "Водительские права можно получить с восемнадцати лет."
     source: { kind: translated, id: 356935 }
+  - form: "otrzymaj"
+    pl: "Otrzymaj zgodę na piśmie."
+    ru: "Получи согласие в письменном виде."
+    source: { kind: authored }
+  - form: "otrzymaj"
+    pl: "Otrzymaj potwierdzenie przed wyjazdem."
+    ru: "Получи подтверждение до отъезда."
+    source: { kind: authored }
+  - form: "otrzymaj"
+    pl: "Otrzymaj najpierw odpowiedź."
+    ru: "Сначала получи ответ."
+    source: { kind: authored }
   - form: "otrzymają"
     pl: "Jeśli zarejestrujesz się na Facebooku, twoje dane otrzymają służby wywiadowcze."
     ru: "Если ты зарегистрируешься в Фейсбуке, твои данные получат спецслужбы."
@@ -134,6 +126,30 @@ formExamples:
     pl: "Kiedy otrzymają odpowiedź?"
     ru: "Когда они получат ответ?"
     source: { kind: authored }
+  - form: "otrzymajcie"
+    pl: "Otrzymajcie zgodę na piśmie."
+    ru: "Получите согласие в письменном виде."
+    source: { kind: authored }
+  - form: "otrzymajcie"
+    pl: "Otrzymajcie potwierdzenie przed podpisem."
+    ru: "Получите подтверждение до подписи."
+    source: { kind: authored }
+  - form: "otrzymajcie"
+    pl: "Otrzymajcie najpierw odpowiedź."
+    ru: "Сначала получите ответ."
+    source: { kind: authored }
+  - form: "otrzymajmy"
+    pl: "Otrzymajmy zgodę na piśmie."
+    ru: "Получим согласие в письменном виде."
+    source: { kind: authored }
+  - form: "otrzymajmy"
+    pl: "Otrzymajmy potwierdzenie przed wyjazdem."
+    ru: "Получим подтверждение до отъезда."
+    source: { kind: authored }
+  - form: "otrzymajmy"
+    pl: "Otrzymajmy najpierw odpowiedź."
+    ru: "Сначала получим ответ."
+    source: { kind: authored }
   - form: "otrzymali"
     pl: "Otrzymali rozkaz powrotu."
     ru: "Они получили приказ вернуться."
@@ -145,6 +161,54 @@ formExamples:
   - form: "otrzymali"
     pl: "Uczniowie otrzymali nagrody."
     ru: "Ученики получили награды."
+    source: { kind: authored }
+  - form: "otrzymaliby"
+    pl: "Otrzymaliby nagrodę, gdyby wygrali."
+    ru: "Они получили бы награду, если бы выиграли."
+    source: { kind: authored }
+  - form: "otrzymaliby"
+    pl: "Nie otrzymaliby rabatu bez paragonu."
+    ru: "Без чека они не получили бы скидку."
+    source: { kind: authored }
+  - form: "otrzymaliby"
+    pl: "Otrzymaliby odpowiedź w piątek."
+    ru: "Они получили бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymalibyście"
+    pl: "Czy otrzymalibyście nagrodę?"
+    ru: "Вы получили бы награду?"
+    source: { kind: authored }
+  - form: "otrzymalibyście"
+    pl: "Otrzymalibyście odpowiedź w piątek?"
+    ru: "Вы получили бы ответ в пятницу?"
+    source: { kind: authored }
+  - form: "otrzymalibyście"
+    pl: "Naprawdę nie otrzymalibyście rabatu?"
+    ru: "Вы правда не получили бы скидку?"
+    source: { kind: authored }
+  - form: "otrzymalibyśmy"
+    pl: "Otrzymalibyśmy nagrodę, gdybyśmy wygrali."
+    ru: "Мы получили бы награду, если бы выиграли."
+    source: { kind: authored }
+  - form: "otrzymalibyśmy"
+    pl: "Nie otrzymalibyśmy rabatu bez paragonu."
+    ru: "Без чека мы не получили бы скидку."
+    source: { kind: authored }
+  - form: "otrzymalibyśmy"
+    pl: "Otrzymalibyśmy odpowiedź w piątek."
+    ru: "Мы получили бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymaliście"
+    pl: "Otrzymaliście odpowiedź?"
+    ru: "Вы получили ответ?"
+    source: { kind: authored }
+  - form: "otrzymaliście"
+    pl: "Nie otrzymaliście rabatu."
+    ru: "Скидку вы не получили."
+    source: { kind: authored }
+  - form: "otrzymaliście"
+    pl: "Otrzymaliście nagrodę w zeszłym roku."
+    ru: "Вы получили награду в прошлом году."
     source: { kind: authored }
   - form: "otrzymaliśmy"
     pl: "Otrzymaliśmy dużą paczkę."
@@ -190,6 +254,42 @@ formExamples:
     pl: "W 1979 Matka Teresa otrzymała pokojową nagrodę Nobla."
     ru: "В 1979 году мать Тереза получила Нобелевскую премию мира."
     source: { kind: translated, id: 1660313 }
+  - form: "otrzymałaby"
+    pl: "Otrzymałaby nagrodę, gdyby wygrała."
+    ru: "Она получила бы награду, если бы выиграла."
+    source: { kind: authored }
+  - form: "otrzymałaby"
+    pl: "Nie otrzymałaby rabatu bez paragonu."
+    ru: "Без чека она не получила бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałaby"
+    pl: "Otrzymałaby odpowiedź w piątek."
+    ru: "Она получила бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałabym"
+    pl: "Otrzymałabym nagrodę, gdybym wygrała."
+    ru: "Я получила бы награду, если бы выиграла."
+    source: { kind: authored }
+  - form: "otrzymałabym"
+    pl: "Nie otrzymałabym rabatu bez paragonu."
+    ru: "Без чека я не получила бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałabym"
+    pl: "Otrzymałabym odpowiedź w piątek."
+    ru: "Я получила бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałabyś"
+    pl: "Czy otrzymałabyś nagrodę?"
+    ru: "Ты получила бы награду?"
+    source: { kind: authored }
+  - form: "otrzymałabyś"
+    pl: "Otrzymałabyś odpowiedź w piątek?"
+    ru: "Ты получила бы ответ в пятницу?"
+    source: { kind: authored }
+  - form: "otrzymałabyś"
+    pl: "Naprawdę nie otrzymałabyś rabatu?"
+    ru: "Ты правда не получила бы скидку?"
+    source: { kind: authored }
   - form: "otrzymałam"
     pl: "Otrzymałam zaproszenie."
     ru: "Я получила приглашение."
@@ -213,6 +313,42 @@ formExamples:
   - form: "otrzymałaś"
     pl: "Otrzymałaś zaproszenie na ślub."
     ru: "Ты получила приглашение на свадьбу."
+    source: { kind: authored }
+  - form: "otrzymałby"
+    pl: "Otrzymałby nagrodę, gdyby wygrał."
+    ru: "Он получил бы награду, если бы выиграл."
+    source: { kind: authored }
+  - form: "otrzymałby"
+    pl: "Nie otrzymałby rabatu bez paragonu."
+    ru: "Без чека он не получил бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałby"
+    pl: "Otrzymałby odpowiedź w piątek."
+    ru: "Он получил бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałbym"
+    pl: "Otrzymałbym nagrodę, gdybym wygrał."
+    ru: "Я получил бы награду, если бы выиграл."
+    source: { kind: authored }
+  - form: "otrzymałbym"
+    pl: "Nie otrzymałbym rabatu bez paragonu."
+    ru: "Без чека я не получил бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałbym"
+    pl: "Otrzymałbym odpowiedź w piątek."
+    ru: "Я получил бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałbyś"
+    pl: "Czy otrzymałbyś nagrodę?"
+    ru: "Ты получил бы награду?"
+    source: { kind: authored }
+  - form: "otrzymałbyś"
+    pl: "Otrzymałbyś odpowiedź w piątek?"
+    ru: "Ты получил бы ответ в пятницу?"
+    source: { kind: authored }
+  - form: "otrzymałbyś"
+    pl: "Naprawdę nie otrzymałbyś rabatu?"
+    ru: "Ты правда не получил бы скидку?"
     source: { kind: authored }
   - form: "otrzymałem"
     pl: "Otrzymałem listy."
@@ -254,6 +390,18 @@ formExamples:
     pl: "Muzeum otrzymało nowy obraz."
     ru: "Музей получил новую картину."
     source: { kind: authored }
+  - form: "otrzymałoby"
+    pl: "Miasto otrzymałoby dotację."
+    ru: "Город получил бы дотацию."
+    source: { kind: authored }
+  - form: "otrzymałoby"
+    pl: "Dziecko otrzymałoby nagrodę."
+    ru: "Ребёнок получил бы награду."
+    source: { kind: authored }
+  - form: "otrzymałoby"
+    pl: "Żadne z nich nie otrzymałoby rabatu."
+    ru: "Никто из них не получил бы скидку."
+    source: { kind: authored }
   - form: "otrzymały"
     pl: "Wszystkie dziewczynki otrzymały nagrodę."
     ru: "Все девочки получили награду."
@@ -265,6 +413,66 @@ formExamples:
   - form: "otrzymały"
     pl: "Dzieci otrzymały nowe podręczniki."
     ru: "Дети получили новые учебники."
+    source: { kind: authored }
+  - form: "otrzymałyby"
+    pl: "Otrzymałyby nagrodę, gdyby wygrały."
+    ru: "Они получили бы награду, если бы выиграли."
+    source: { kind: authored }
+  - form: "otrzymałyby"
+    pl: "Te szkoły otrzymałyby dotację."
+    ru: "Эти школы получили бы дотацию."
+    source: { kind: authored }
+  - form: "otrzymałyby"
+    pl: "Nie otrzymałyby rabatu bez paragonu."
+    ru: "Без чека они не получили бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałybyście"
+    pl: "Czy otrzymałybyście nagrodę?"
+    ru: "Вы получили бы награду?"
+    source: { kind: authored }
+  - form: "otrzymałybyście"
+    pl: "Otrzymałybyście odpowiedź w piątek?"
+    ru: "Вы получили бы ответ в пятницу?"
+    source: { kind: authored }
+  - form: "otrzymałybyście"
+    pl: "Naprawdę nie otrzymałybyście rabatu?"
+    ru: "Вы правда не получили бы скидку?"
+    source: { kind: authored }
+  - form: "otrzymałybyśmy"
+    pl: "Otrzymałybyśmy nagrodę, gdybyśmy wygrały."
+    ru: "Мы получили бы награду, если бы выиграли."
+    source: { kind: authored }
+  - form: "otrzymałybyśmy"
+    pl: "Nie otrzymałybyśmy rabatu bez paragonu."
+    ru: "Без чека мы не получили бы скидку."
+    source: { kind: authored }
+  - form: "otrzymałybyśmy"
+    pl: "Otrzymałybyśmy odpowiedź w piątek."
+    ru: "Мы получили бы ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałyście"
+    pl: "Otrzymałyście odpowiedź?"
+    ru: "Вы получили ответ?"
+    source: { kind: authored }
+  - form: "otrzymałyście"
+    pl: "Nie otrzymałyście rabatu."
+    ru: "Скидку вы не получили."
+    source: { kind: authored }
+  - form: "otrzymałyście"
+    pl: "Otrzymałyście nagrodę w zeszłym roku."
+    ru: "Вы получили награду в прошлом году."
+    source: { kind: authored }
+  - form: "otrzymałyśmy"
+    pl: "Otrzymałyśmy odpowiedź w piątek."
+    ru: "Мы получили ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymałyśmy"
+    pl: "Nie otrzymałyśmy rabatu."
+    ru: "Скидку мы не получили."
+    source: { kind: authored }
+  - form: "otrzymałyśmy"
+    pl: "Otrzymałyśmy nagrodę w zeszłym roku."
+    ru: "Мы получили награду в прошлом году."
     source: { kind: authored }
   - form: "otrzymam"
     pl: "Co więcej otrzymam?"
@@ -278,6 +486,90 @@ formExamples:
     pl: "Czy otrzymam gdzieś choćby minimalną pomoc?"
     ru: "Получу ли я хоть где-нибудь минимальную помощь?"
     source: { kind: translated, id: 959003 }
+  - form: "otrzymamy"
+    pl: "Otrzymamy odpowiedź w piątek."
+    ru: "Мы получим ответ в пятницу."
+    source: { kind: authored }
+  - form: "otrzymamy"
+    pl: "Nie otrzymamy rabatu bez paragonu."
+    ru: "Без чека мы не получим скидку."
+    source: { kind: authored }
+  - form: "otrzymamy"
+    pl: "Otrzymamy nagrodę, jeśli wygramy."
+    ru: "Мы получим награду, если выиграем."
+    source: { kind: authored }
+  - form: "otrzymana"
+    pl: "Nagroda została otrzymana wczoraj."
+    ru: "Награда была получена вчера."
+    source: { kind: authored }
+  - form: "otrzymana"
+    pl: "Otrzymana w piątek odpowiedź była krótka."
+    ru: "Полученный в пятницу ответ был коротким."
+    source: { kind: authored }
+  - form: "otrzymana"
+    pl: "Ta zgoda jest otrzymana na piśmie."
+    ru: "Это согласие получено в письменном виде."
+    source: { kind: authored }
+  - form: "otrzymaną"
+    pl: "Znam odpowiedź otrzymaną w piątek."
+    ru: "Я знаю ответ, полученный в пятницу."
+    source: { kind: authored }
+  - form: "otrzymaną"
+    pl: "Widzieli nagrodę otrzymaną w zeszłym roku."
+    ru: "Они видели награду, полученную в прошлом году."
+    source: { kind: authored }
+  - form: "otrzymaną"
+    pl: "Opisał zgodę otrzymaną na piśmie."
+    ru: "Он описал согласие, полученное письменно."
+    source: { kind: authored }
+  - form: "otrzymane"
+    pl: "Otrzymane w piątek odpowiedzi były krótkie."
+    ru: "Полученные в пятницу ответы были короткими."
+    source: { kind: authored }
+  - form: "otrzymane"
+    pl: "To nagrody otrzymane w zeszłym roku."
+    ru: "Это награды, полученные в прошлом году."
+    source: { kind: authored }
+  - form: "otrzymane"
+    pl: "Otrzymane dane trzeba sprawdzić."
+    ru: "Полученные данные надо проверить."
+    source: { kind: authored }
+  - form: "otrzymanego"
+    pl: "Dotyczy to listu otrzymanego wczoraj."
+    ru: "Это касается письма, полученного вчера."
+    source: { kind: authored }
+  - form: "otrzymanego"
+    pl: "Nie ma tu potwierdzenia otrzymanego na piśmie."
+    ru: "Здесь нет подтверждения, полученного письменно."
+    source: { kind: authored }
+  - form: "otrzymanego"
+    pl: "Treść listu otrzymanego w piątek była krótka."
+    ru: "Текст письма, полученного в пятницу, был коротким."
+    source: { kind: authored }
+  - form: "otrzymanej"
+    pl: "Dotyczy to odpowiedzi otrzymanej w piątek."
+    ru: "Это касается ответа, полученного в пятницу."
+    source: { kind: authored }
+  - form: "otrzymanej"
+    pl: "Brakuje tu zgody otrzymanej na piśmie."
+    ru: "Здесь не хватает согласия, полученного письменно."
+    source: { kind: authored }
+  - form: "otrzymanej"
+    pl: "Dzięki nagrodzie otrzymanej w zeszłym roku wyjechał."
+    ru: "Благодаря награде, полученной в прошлом году, он уехал."
+    source: { kind: authored }
+  - form: "otrzymanemu"
+    pl: "Przyjrzyj się listowi otrzymanemu wczoraj."
+    ru: "Присмотрись к письму, полученному вчера."
+    source: { kind: authored }
+  - form: "otrzymanemu"
+    pl: "Ufamy potwierdzeniu otrzymanemu na piśmie."
+    ru: "Мы доверяем подтверждению, полученному письменно."
+    source: { kind: authored }
+  - form: "otrzymanemu"
+    pl: "Dzięki rabatowi otrzymanemu przy kasie zapłacili mniej."
+    ru: "Благодаря скидке, полученной на кассе, они заплатили меньше."
+    source: { kind: authored }
   - form: "otrzymania"
     pl: "To dziecko ucieszyło się z otrzymania prezentu."
     ru: "Этот ребёнок обрадовался полученному подарку."
@@ -302,6 +594,18 @@ formExamples:
     pl: "Warunkiem jest otrzymanie zgody."
     ru: "Условием является получение согласия."
     source: { kind: authored }
+  - form: "otrzymaniem"
+    pl: "Sprawa skończyła się otrzymaniem zgody."
+    ru: "Дело кончилось получением согласия."
+    source: { kind: authored }
+  - form: "otrzymaniem"
+    pl: "Przed otrzymaniem potwierdzenia nie płać."
+    ru: "Пока не получишь подтверждение, не плати."
+    source: { kind: authored }
+  - form: "otrzymaniem"
+    pl: "Między otrzymaniem a odpowiedzią minął tydzień."
+    ru: "Между получением и ответом прошла неделя."
+    source: { kind: authored }
   - form: "otrzymaniu"
     pl: "Proszę o odpowiedź natychmiast po otrzymaniu tego listu."
     ru: "Прошу ответить сразу по получении этого письма."
@@ -325,6 +629,54 @@ formExamples:
   - form: "otrzymano"
     pl: "Nie otrzymano żadnego listu."
     ru: "Не получили ни одного письма."
+    source: { kind: authored }
+  - form: "otrzymany"
+    pl: "List został otrzymany wczoraj."
+    ru: "Письмо было получено вчера."
+    source: { kind: authored }
+  - form: "otrzymany"
+    pl: "Otrzymany w piątek list był krótki."
+    ru: "Полученное в пятницу письмо было коротким."
+    source: { kind: authored }
+  - form: "otrzymany"
+    pl: "Ten rabat jest otrzymany przy kasie."
+    ru: "Эта скидка получена на кассе."
+    source: { kind: authored }
+  - form: "otrzymanych"
+    pl: "Brakuje danych o otrzymanych nagrodach."
+    ru: "Не хватает данных о полученных наградах."
+    source: { kind: authored }
+  - form: "otrzymanych"
+    pl: "Wśród otrzymanych listów ten jest najstarszy."
+    ru: "Среди полученных писем это самое старое."
+    source: { kind: authored }
+  - form: "otrzymanych"
+    pl: "Lista otrzymanych zgód rośnie."
+    ru: "Список полученных согласий растёт."
+    source: { kind: authored }
+  - form: "otrzymanym"
+    pl: "W otrzymanym liście nie było daty."
+    ru: "В полученном письме не было даты."
+    source: { kind: authored }
+  - form: "otrzymanym"
+    pl: "Przyglądamy się otrzymanym danym."
+    ru: "Мы присматриваемся к полученным данным."
+    source: { kind: authored }
+  - form: "otrzymanym"
+    pl: "Nad otrzymanym wynikiem długo myśleli."
+    ru: "Над полученным результатом они долго думали."
+    source: { kind: authored }
+  - form: "otrzymanymi"
+    pl: "Zajmuje się nagrodami otrzymanymi w zeszłym roku."
+    ru: "Он занимается наградами, полученными в прошлом году."
+    source: { kind: authored }
+  - form: "otrzymanymi"
+    pl: "Między danymi otrzymanymi a oczekiwanymi jest różnica."
+    ru: "Между полученными данными и ожидаемыми есть разница."
+    source: { kind: authored }
+  - form: "otrzymanymi"
+    pl: "Pracuje nad wynikami otrzymanymi w laboratorium."
+    ru: "Он работает над результатами, полученными в лаборатории."
     source: { kind: authored }
   - form: "otrzymasz"
     pl: "Otrzymasz nagrodę."
