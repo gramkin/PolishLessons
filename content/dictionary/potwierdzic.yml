@@ -69,7 +69,6 @@ formExamplesSkip:
   - { form: "potwierdzonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzonemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "potwierdzono", reason: "безличная форма прошедшего времени, в корпусе примеров нет" }
   - { form: "potwierdzonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "potwierdzonymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
@@ -315,6 +314,18 @@ formExamples:
   - form: "potwierdzona"
     pl: "Rezerwacja jest potwierdzona."
     ru: "Бронь подтверждена."
+    source: { kind: authored }
+  - form: "potwierdzono"
+    pl: "Potwierdzono rezerwację mailem."
+    ru: "Бронь подтвердили письмом."
+    source: { kind: authored }
+  - form: "potwierdzono"
+    pl: "Potwierdzono odbiór przesyłki."
+    ru: "Получение отправления подтвердили."
+    source: { kind: authored }
+  - form: "potwierdzono"
+    pl: "Diagnozę potwierdzono w szpitalu."
+    ru: "Диагноз подтвердили в больнице."
     source: { kind: authored }
   - form: "potwierdzony"
     pl: "Związek pomiędzy grupą krwi a osobowością nie został potwierdzony naukowo."
