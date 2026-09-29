@@ -54,36 +54,10 @@ idioms:
   - { pl: "gatunek zagrożony wymarciem", ru: "вид под угрозой вымирания" }
   - { pl: "zagrozić komuś", ru: "пригрозить кому-либо" }
 formExamplesSkip:
-  - { form: "zagrozicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zagroziliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagrozilibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagrozilibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zagroziłaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "zagroziłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zagroziłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "zagrozimy", reason: "формы повелительного наклонения в корпусе не встречаются" }
   - { form: "zagroziwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "zagroźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zagroźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "zagrożoną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zagrożonego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zagrożonej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zagrożonemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zagrożonych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "zagrożonym", reason: "формы страдательного причастия, в корпусе примеров нет" }
   - { form: "zagróź", reason: "форма не нормативна: повелительное наклонение — zagroź" }
-  - { form: "zagróźcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "zagróźmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
+  - { form: "zagróźcie", reason: "форма не нормативна: повелительное наклонение строится без ó — zagroź, zagroźcie, zagroźmy, ровно как уже отмечено при форме zagróź. Чередование o/ó работает там, где слог закрывается в самой основе, а здесь основа остаётся открытой" }
+  - { form: "zagróźmy", reason: "форма не нормативна: повелительное наклонение строится без ó — zagroź, zagroźcie, zagroźmy, ровно как уже отмечено при форме zagróź. Чередование o/ó работает там, где слог закрывается в самой основе, а здесь основа остаётся открытой" }
 formExamples:
   - form: "zagrozi"
     pl: "To zagrozi rozwojowi miasta."
@@ -96,6 +70,18 @@ formExamples:
   - form: "zagrozi"
     pl: "Susza zagrozi zbiorom."
     ru: "Засуха поставит под угрозу урожай."
+    source: { kind: authored }
+  - form: "zagrozicie"
+    pl: "Zagrozicie mu odejściem?"
+    ru: "Вы пригрозите ему уходом?"
+    source: { kind: authored }
+  - form: "zagrozicie"
+    pl: "Czy zagrozicie strajkiem?"
+    ru: "Вы пригрозите забастовкой?"
+    source: { kind: authored }
+  - form: "zagrozicie"
+    pl: "Zagrozicie im sądem?"
+    ru: "Вы пригрозите им судом?"
     source: { kind: authored }
   - form: "zagrozić"
     pl: "Ściganie Assange'a mogłoby zagrozić wolności słowa."
@@ -120,6 +106,54 @@ formExamples:
   - form: "zagrozili"
     pl: "Nikomu nie zagrozili."
     ru: "Они никому не угрожали."
+    source: { kind: authored }
+  - form: "zagroziliby"
+    pl: "Zagroziliby mu odejściem."
+    ru: "Они пригрозили бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziliby"
+    pl: "Chyba nie zagroziliby strajkiem."
+    ru: "Вряд ли они пригрозили бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziliby"
+    pl: "Zagroziliby sądem."
+    ru: "Они пригрозили бы судом."
+    source: { kind: authored }
+  - form: "zagrozilibyście"
+    pl: "Czy zagrozilibyście mu odejściem?"
+    ru: "Вы пригрозили бы ему уходом?"
+    source: { kind: authored }
+  - form: "zagrozilibyście"
+    pl: "Zagrozilibyście strajkiem?"
+    ru: "Вы пригрозили бы забастовкой?"
+    source: { kind: authored }
+  - form: "zagrozilibyście"
+    pl: "Naprawdę nie zagrozilibyście sądem?"
+    ru: "Вы правда не пригрозили бы судом?"
+    source: { kind: authored }
+  - form: "zagrozilibyśmy"
+    pl: "Zagrozilibyśmy mu odejściem."
+    ru: "Мы пригрозили бы ему уходом."
+    source: { kind: authored }
+  - form: "zagrozilibyśmy"
+    pl: "Raczej nie zagrozilibyśmy strajkiem."
+    ru: "Вряд ли мы пригрозили бы забастовкой."
+    source: { kind: authored }
+  - form: "zagrozilibyśmy"
+    pl: "Zagrozilibyśmy sądem."
+    ru: "Мы пригрозили бы судом."
+    source: { kind: authored }
+  - form: "zagroziliście"
+    pl: "Zagroziliście mu odejściem?"
+    ru: "Вы пригрозили ему уходом?"
+    source: { kind: authored }
+  - form: "zagroziliście"
+    pl: "Dlaczego zagroziliście strajkiem?"
+    ru: "Почему вы пригрозили забастовкой?"
+    source: { kind: authored }
+  - form: "zagroziliście"
+    pl: "Zagroziliście im sądem."
+    ru: "Вы пригрозили им судом."
     source: { kind: authored }
   - form: "zagroziliśmy"
     pl: "Zagroziliśmy odejściem."
@@ -157,6 +191,42 @@ formExamples:
     pl: "Powódź zagroziła całej wsi."
     ru: "Наводнение поставило под угрозу всю деревню."
     source: { kind: authored }
+  - form: "zagroziłaby"
+    pl: "Zagroziłaby mu odejściem."
+    ru: "Она пригрозила бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłaby"
+    pl: "Chyba nie zagroziłaby strajkiem."
+    ru: "Вряд ли она пригрозила бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłaby"
+    pl: "Susza zagroziłaby plonom."
+    ru: "Засуха поставила бы под угрозу урожай."
+    source: { kind: authored }
+  - form: "zagroziłabym"
+    pl: "Zagroziłabym mu odejściem."
+    ru: "Я пригрозила бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłabym"
+    pl: "Raczej nie zagroziłabym strajkiem."
+    ru: "Вряд ли я пригрозила бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłabym"
+    pl: "Zagroziłabym sądem."
+    ru: "Я пригрозила бы судом."
+    source: { kind: authored }
+  - form: "zagroziłabyś"
+    pl: "Czy zagroziłabyś mu odejściem?"
+    ru: "Ты пригрозила бы ему уходом?"
+    source: { kind: authored }
+  - form: "zagroziłabyś"
+    pl: "Zagroziłabyś strajkiem?"
+    ru: "Ты пригрозила бы забастовкой?"
+    source: { kind: authored }
+  - form: "zagroziłabyś"
+    pl: "Naprawdę nie zagroziłabyś sądem?"
+    ru: "Ты правда не пригрозила бы судом?"
+    source: { kind: authored }
   - form: "zagroziłam"
     pl: "Zagroziłam, że odejdę."
     ru: "Я пригрозила, что уйду."
@@ -180,6 +250,42 @@ formExamples:
   - form: "zagroziłaś"
     pl: "Nikomu nie zagroziłaś."
     ru: "Ты никому не угрожала."
+    source: { kind: authored }
+  - form: "zagroziłby"
+    pl: "Zagroziłby mu odejściem."
+    ru: "Он пригрозил бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłby"
+    pl: "Chyba nie zagroziłby strajkiem."
+    ru: "Вряд ли он пригрозил бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłby"
+    pl: "Ten plan zagroziłby rozwojowi miasta."
+    ru: "Этот план поставил бы под угрозу развитие города."
+    source: { kind: authored }
+  - form: "zagroziłbym"
+    pl: "Zagroziłbym mu odejściem."
+    ru: "Я пригрозил бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłbym"
+    pl: "Raczej nie zagroziłbym strajkiem."
+    ru: "Вряд ли я пригрозил бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłbym"
+    pl: "Zagroziłbym sądem."
+    ru: "Я пригрозил бы судом."
+    source: { kind: authored }
+  - form: "zagroziłbyś"
+    pl: "Czy zagroziłbyś mu odejściem?"
+    ru: "Ты пригрозил бы ему уходом?"
+    source: { kind: authored }
+  - form: "zagroziłbyś"
+    pl: "Zagroziłbyś strajkiem?"
+    ru: "Ты пригрозил бы забастовкой?"
+    source: { kind: authored }
+  - form: "zagroziłbyś"
+    pl: "Naprawdę nie zagroziłbyś sądem?"
+    ru: "Ты правда не пригрозил бы судом?"
     source: { kind: authored }
   - form: "zagroziłem"
     pl: "Zagroziłem ujawnieniem jego tajemnicy."
@@ -217,6 +323,18 @@ formExamples:
     pl: "Nic nam nie zagroziło."
     ru: "Ничто нам не угрожало."
     source: { kind: authored }
+  - form: "zagroziłoby"
+    pl: "Dziecko nie zagroziłoby nikomu."
+    ru: "Ребёнок никому не угрожал бы."
+    source: { kind: authored }
+  - form: "zagroziłoby"
+    pl: "Żadne z nich nie zagroziłoby strajkiem."
+    ru: "Никто из них не пригрозил бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłoby"
+    pl: "To zagroziłoby rozwojowi miasta."
+    ru: "Это поставило бы под угрозу развитие города."
+    source: { kind: authored }
   - form: "zagroziły"
     pl: "Firmy zagroziły wycofaniem się."
     ru: "Фирмы пригрозили уходом."
@@ -228,6 +346,78 @@ formExamples:
   - form: "zagroziły"
     pl: "Nikomu nie zagroziły."
     ru: "Они никому не угрожали."
+    source: { kind: authored }
+  - form: "zagroziłyby"
+    pl: "Zagroziłyby mu odejściem."
+    ru: "Они пригрозили бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłyby"
+    pl: "Te przepisy zagroziłyby małym firmom."
+    ru: "Эти правила поставили бы под угрозу малые фирмы."
+    source: { kind: authored }
+  - form: "zagroziłyby"
+    pl: "Chyba nie zagroziłyby strajkiem."
+    ru: "Вряд ли они пригрозили бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłybyście"
+    pl: "Czy zagroziłybyście mu odejściem?"
+    ru: "Вы пригрозили бы ему уходом?"
+    source: { kind: authored }
+  - form: "zagroziłybyście"
+    pl: "Zagroziłybyście strajkiem?"
+    ru: "Вы пригрозили бы забастовкой?"
+    source: { kind: authored }
+  - form: "zagroziłybyście"
+    pl: "Naprawdę nie zagroziłybyście sądem?"
+    ru: "Вы правда не пригрозили бы судом?"
+    source: { kind: authored }
+  - form: "zagroziłybyśmy"
+    pl: "Zagroziłybyśmy mu odejściem."
+    ru: "Мы пригрозили бы ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłybyśmy"
+    pl: "Raczej nie zagroziłybyśmy strajkiem."
+    ru: "Вряд ли мы пригрозили бы забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłybyśmy"
+    pl: "Zagroziłybyśmy sądem."
+    ru: "Мы пригрозили бы судом."
+    source: { kind: authored }
+  - form: "zagroziłyście"
+    pl: "Zagroziłyście mu odejściem?"
+    ru: "Вы пригрозили ему уходом?"
+    source: { kind: authored }
+  - form: "zagroziłyście"
+    pl: "Dlaczego zagroziłyście strajkiem?"
+    ru: "Почему вы пригрозили забастовкой?"
+    source: { kind: authored }
+  - form: "zagroziłyście"
+    pl: "Zagroziłyście im sądem."
+    ru: "Вы пригрозили им судом."
+    source: { kind: authored }
+  - form: "zagroziłyśmy"
+    pl: "Zagroziłyśmy mu odejściem."
+    ru: "Мы пригрозили ему уходом."
+    source: { kind: authored }
+  - form: "zagroziłyśmy"
+    pl: "Zagroziłyśmy strajkiem."
+    ru: "Мы пригрозили забастовкой."
+    source: { kind: authored }
+  - form: "zagroziłyśmy"
+    pl: "Sądem zagroziłyśmy na końcu."
+    ru: "Судом мы пригрозили в конце."
+    source: { kind: authored }
+  - form: "zagrozimy"
+    pl: "Zagrozimy mu odejściem."
+    ru: "Мы пригрозим ему уходом."
+    source: { kind: authored }
+  - form: "zagrozimy"
+    pl: "Zagrozimy strajkiem."
+    ru: "Мы пригрозим забастовкой."
+    source: { kind: authored }
+  - form: "zagrozimy"
+    pl: "Sądem zagrozimy na końcu."
+    ru: "Судом мы пригрозим в конце."
     source: { kind: authored }
   - form: "zagrozisz"
     pl: "Zagrozisz mu sądem?"
@@ -252,6 +442,30 @@ formExamples:
   - form: "zagroź"
     pl: "Zagroź im konsekwencjami."
     ru: "Пригрози им последствиями."
+    source: { kind: authored }
+  - form: "zagroźcie"
+    pl: "Zagroźcie mu odejściem."
+    ru: "Пригрозите ему уходом."
+    source: { kind: authored }
+  - form: "zagroźcie"
+    pl: "Zagroźcie strajkiem."
+    ru: "Пригрозите забастовкой."
+    source: { kind: authored }
+  - form: "zagroźcie"
+    pl: "Zagroźcie im sądem."
+    ru: "Пригрозите им судом."
+    source: { kind: authored }
+  - form: "zagroźmy"
+    pl: "Zagroźmy mu odejściem."
+    ru: "Пригрозим ему уходом."
+    source: { kind: authored }
+  - form: "zagroźmy"
+    pl: "Zagroźmy strajkiem."
+    ru: "Пригрозим забастовкой."
+    source: { kind: authored }
+  - form: "zagroźmy"
+    pl: "Zagroźmy im sądem."
+    ru: "Пригрозим им судом."
     source: { kind: authored }
   - form: "zagrożą"
     pl: "Zagrożą, że odejdą."
@@ -349,6 +563,18 @@ formExamples:
     pl: "Jej praca jest zagrożona."
     ru: "Её работа под угрозой."
     source: { kind: authored }
+  - form: "zagrożoną"
+    pl: "Znam wieś zagrożoną powodzią."
+    ru: "Я знаю деревню под угрозой наводнения."
+    source: { kind: authored }
+  - form: "zagrożoną"
+    pl: "Uważam tę reputację za zagrożoną."
+    ru: "Я считаю эту репутацию под угрозой."
+    source: { kind: authored }
+  - form: "zagrożoną"
+    pl: "Opisał przyrodę zagrożoną wycinką."
+    ru: "Он описал природу под угрозой вырубки."
+    source: { kind: authored }
   - form: "zagrożone"
     pl: "Jego życie jest zagrożone."
     ru: "Его жизнь в опасности."
@@ -361,6 +587,42 @@ formExamples:
     pl: "Życie pacjenta było zagrożone."
     ru: "Жизнь пациента была под угрозой."
     source: { kind: translated, id: 2810212 }
+  - form: "zagrożonego"
+    pl: "Dotyczy to gatunku zagrożonego wymarciem."
+    ru: "Это касается вида под угрозой вымирания."
+    source: { kind: authored }
+  - form: "zagrożonego"
+    pl: "Nie ma tu nikogo zagrożonego zwolnieniem."
+    ru: "Здесь нет никого под угрозой увольнения."
+    source: { kind: authored }
+  - form: "zagrożonego"
+    pl: "Los ptaka zagrożonego wymarciem jest niepewny."
+    ru: "Судьба птицы под угрозой вымирания неясна."
+    source: { kind: authored }
+  - form: "zagrożonej"
+    pl: "Dotyczy to wsi zagrożonej powodzią."
+    ru: "Это касается деревни под угрозой наводнения."
+    source: { kind: authored }
+  - form: "zagrożonej"
+    pl: "Brakuje tu reputacji zagrożonej plotką."
+    ru: "Здесь не хватает репутации под угрозой сплетни."
+    source: { kind: authored }
+  - form: "zagrożonej"
+    pl: "Dzięki wsi zagrożonej powodzią zbudowano wał."
+    ru: "Из-за деревни под угрозой наводнения построили вал."
+    source: { kind: authored }
+  - form: "zagrożonemu"
+    pl: "Przyjrzyj się gatunkowi zagrożonemu wymarciem."
+    ru: "Присмотрись к виду под угрозой вымирания."
+    source: { kind: authored }
+  - form: "zagrożonemu"
+    pl: "Miastu zagrożonemu powodzią przysłano pomoc."
+    ru: "Городу под угрозой наводнения прислали помощь."
+    source: { kind: authored }
+  - form: "zagrożonemu"
+    pl: "Dzięki lasowi zagrożonemu wycinką powstał park."
+    ru: "Благодаря лесу под угрозой вырубки появился парк."
+    source: { kind: authored }
   - form: "zagrożono"
     pl: "Zagrożono nam procesem."
     ru: "Нам пригрозили судом."
@@ -385,6 +647,30 @@ formExamples:
     pl: "Tomek był zagrożony."
     ru: "Томек был в опасности."
     source: { kind: translated, id: 13069686 }
+  - form: "zagrożonych"
+    pl: "Brakuje danych o gatunkach zagrożonych wymarciem."
+    ru: "Не хватает данных о видах под угрозой вымирания."
+    source: { kind: authored }
+  - form: "zagrożonych"
+    pl: "Wśród zagrożonych wsi była i nasza."
+    ru: "Среди деревень под угрозой была и наша."
+    source: { kind: authored }
+  - form: "zagrożonych"
+    pl: "Lista zagrożonych gatunków rośnie."
+    ru: "Список видов под угрозой растёт."
+    source: { kind: authored }
+  - form: "zagrożonym"
+    pl: "W mieście zagrożonym powodzią ogłoszono alarm."
+    ru: "В городе под угрозой наводнения объявили тревогу."
+    source: { kind: authored }
+  - form: "zagrożonym"
+    pl: "Przyglądamy się gatunkom zagrożonym wymarciem."
+    ru: "Мы смотрим на виды под угрозой вымирания."
+    source: { kind: authored }
+  - form: "zagrożonym"
+    pl: "O lesie zagrożonym wycinką mówiono latami."
+    ru: "О лесе под угрозой вырубки говорили годами."
+    source: { kind: authored }
   - form: "zagrożonymi"
     pl: "Monety z borsukiem są osiemnastym zestawem z serii z zagrożonymi gatunkami zwierząt."
     ru: "Монеты с барсуком — восемнадцатый набор из серии с исчезающими видами животных."
