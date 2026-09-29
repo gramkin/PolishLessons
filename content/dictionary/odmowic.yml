@@ -47,43 +47,8 @@ idioms:
   - { pl: "stanowczo odmówić", ru: "решительно отказаться" }
   - { pl: "odmówić posłuszeństwa", ru: "отказать в повиновении" }
 formExamplesSkip:
-  - { form: "odmówcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówicie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówieni", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówienia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówienie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówieniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówieniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "odmówiliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówilibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówilibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "odmówiliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "odmówiłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "odmówiłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "odmówimy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "odmówiona", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówioną", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówione", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionego", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionej", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionemu", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówiony", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionych", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionym", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówionymi", reason: "формы страдательного причастия, в корпусе примеров нет" }
-  - { form: "odmówiwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "odmówmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
+  - { form: "odmówieni", reason: "мужско-личной страдательной формы у этого глагола не бывает: odmówić komuś czegoś ставит человека в дательный падеж, а вещь — в родительный, поэтому человек никогда не бывает прямым дополнением и не может стать подлежащим страдательного оборота. Отказывают просьбе, заявлению, помощи: odmówiona prośba, odmówiony wniosek — эти формы в карточке есть с примерами. В корпусе из 131 МБ польских текстов odmówieni встречается 1 раз при 53 случаях обычного прошедшего времени" }
+  - { form: "odmówiwszy", reason: "книжное деепричастие прошедшего времени; в живой речи не употребляется. В корпусе из 131 МБ польских текстов встречается 1 раз — реже, чем doczekawszy (3) и dołączywszy (3), которые в словаре по той же причине оставлены без примеров" }
 formExamples:
   - form: "odmów"
     pl: "Odmów, jeśli ci nie odpowiada."
@@ -96,6 +61,18 @@ formExamples:
   - form: "odmów"
     pl: "Nie odmów mi tej przysługi."
     ru: "Не откажи мне в этой услуге."
+    source: { kind: authored }
+  - form: "odmówcie"
+    pl: "Odmówcie stanowczo."
+    ru: "Откажите решительно."
+    source: { kind: authored }
+  - form: "odmówcie"
+    pl: "Nie odmówcie mu pomocy."
+    ru: "Не откажите ему в помощи."
+    source: { kind: authored }
+  - form: "odmówcie"
+    pl: "Odmówcie pacierz przed snem."
+    ru: "Прочитайте молитву перед сном."
     source: { kind: authored }
   - form: "odmówi"
     pl: "Tomek nie odmówi."
@@ -121,6 +98,18 @@ formExamples:
     pl: "Nikomu nie odmówią."
     ru: "Они никому не откажут."
     source: { kind: authored }
+  - form: "odmówicie"
+    pl: "Czy odmówicie mu pomocy?"
+    ru: "Вы откажете ему в помощи?"
+    source: { kind: authored }
+  - form: "odmówicie"
+    pl: "Odmówicie stanowczo?"
+    ru: "Вы откажете решительно?"
+    source: { kind: authored }
+  - form: "odmówicie"
+    pl: "Nie odmówicie prośbie sąsiada."
+    ru: "Вы не откажете просьбе соседа."
+    source: { kind: authored }
   - form: "odmówić"
     pl: "Muszę odmówić."
     ru: "Я должен отказаться."
@@ -133,6 +122,54 @@ formExamples:
     pl: "Musiałem odmówić jego prośbie."
     ru: "Мне пришлось отказать его просьбе."
     source: { kind: translated, id: 924612 }
+  - form: "odmówienia"
+    pl: "Dotyczy to odmówienia pomocy."
+    ru: "Это касается отказа в помощи."
+    source: { kind: authored }
+  - form: "odmówienia"
+    pl: "Nie ma tu powodu do odmówienia prośbie."
+    ru: "Здесь нет повода отказать в просьбе."
+    source: { kind: authored }
+  - form: "odmówienia"
+    pl: "Sprawa odmówienia wniosku trafiła do sądu."
+    ru: "Дело об отказе по заявлению дошло до суда."
+    source: { kind: authored }
+  - form: "odmówienie"
+    pl: "Odmówienie pomocy było błędem."
+    ru: "Отказать в помощи было ошибкой."
+    source: { kind: authored }
+  - form: "odmówienie"
+    pl: "Odmówienie prośbie kosztowało go przyjaźń."
+    ru: "Отказ в просьбе стоил ему дружбы."
+    source: { kind: authored }
+  - form: "odmówienie"
+    pl: "Odmówienie pacierza zajęło chwilę."
+    ru: "Прочитать молитву заняло минуту."
+    source: { kind: authored }
+  - form: "odmówieniem"
+    pl: "Sprawa skończyła się odmówieniem pomocy."
+    ru: "Дело кончилось отказом в помощи."
+    source: { kind: authored }
+  - form: "odmówieniem"
+    pl: "Przed odmówieniem prośbie pomyśl."
+    ru: "Прежде чем отказать в просьбе, подумай."
+    source: { kind: authored }
+  - form: "odmówieniem"
+    pl: "Między odmówieniem a zgodą nie ma nic pośredniego."
+    ru: "Между отказом и согласием нет ничего среднего."
+    source: { kind: authored }
+  - form: "odmówieniu"
+    pl: "Po odmówieniu prośbie sąsiad się obraził."
+    ru: "После отказа в просьбе сосед обиделся."
+    source: { kind: authored }
+  - form: "odmówieniu"
+    pl: "W odmówieniu pomocy nie ma nic dobrego."
+    ru: "В отказе в помощи нет ничего хорошего."
+    source: { kind: authored }
+  - form: "odmówieniu"
+    pl: "Dzięki odmówieniu tej prośby uniknął kłopotów."
+    ru: "Отказав в этой просьбе, он избежал неприятностей."
+    source: { kind: authored }
   - form: "odmówię"
     pl: "Jednak odmówię."
     ru: "И всё же я откажусь."
@@ -156,6 +193,66 @@ formExamples:
   - form: "odmówili"
     pl: "Odmówili nam wstępu."
     ru: "Они отказали нам во входе."
+    source: { kind: authored }
+  - form: "odmówiliby"
+    pl: "Odmówiliby, gdyby mogli."
+    ru: "Они отказали бы, если бы могли."
+    source: { kind: authored }
+  - form: "odmówiliby"
+    pl: "Nie odmówiliby ci pomocy."
+    ru: "В помощи они тебе не отказали бы."
+    source: { kind: authored }
+  - form: "odmówiliby"
+    pl: "Odmówiliby posłuszeństwa."
+    ru: "Они отказались бы повиноваться."
+    source: { kind: authored }
+  - form: "odmówilibyście"
+    pl: "Czy odmówilibyście mu pomocy?"
+    ru: "Вы отказали бы ему в помощи?"
+    source: { kind: authored }
+  - form: "odmówilibyście"
+    pl: "Odmówilibyście stanowczo?"
+    ru: "Вы отказали бы решительно?"
+    source: { kind: authored }
+  - form: "odmówilibyście"
+    pl: "Naprawdę nie odmówilibyście prośbie?"
+    ru: "Вы правда не отказали бы в просьбе?"
+    source: { kind: authored }
+  - form: "odmówilibyśmy"
+    pl: "Odmówilibyśmy stanowczo."
+    ru: "Мы отказали бы решительно."
+    source: { kind: authored }
+  - form: "odmówilibyśmy"
+    pl: "Nie odmówilibyśmy ci pomocy."
+    ru: "В помощи мы тебе не отказали бы."
+    source: { kind: authored }
+  - form: "odmówilibyśmy"
+    pl: "Odmówilibyśmy takiej prośbie."
+    ru: "В такой просьбе мы отказали бы."
+    source: { kind: authored }
+  - form: "odmówiliście"
+    pl: "Dlaczego odmówiliście?"
+    ru: "Почему вы отказались?"
+    source: { kind: authored }
+  - form: "odmówiliście"
+    pl: "Odmówiliście mu pomocy."
+    ru: "Вы отказали ему в помощи."
+    source: { kind: authored }
+  - form: "odmówiliście"
+    pl: "Nie odmówiliście prośbie."
+    ru: "В просьбе вы не отказали."
+    source: { kind: authored }
+  - form: "odmówiliśmy"
+    pl: "Odmówiliśmy stanowczo."
+    ru: "Мы отказались решительно."
+    source: { kind: authored }
+  - form: "odmówiliśmy"
+    pl: "Nie odmówiliśmy mu pomocy."
+    ru: "В помощи мы ему не отказали."
+    source: { kind: authored }
+  - form: "odmówiliśmy"
+    pl: "Odmówiliśmy takiej prośbie."
+    ru: "В такой просьбе мы отказали."
     source: { kind: authored }
   - form: "odmówił"
     pl: "Tom odmówił."
@@ -181,6 +278,42 @@ formExamples:
     pl: "Odmówiła przyjęcia tych pieniędzy."
     ru: "Она отказалась принять эти деньги."
     source: { kind: translated, id: 696425 }
+  - form: "odmówiłaby"
+    pl: "Odmówiłaby, gdyby mogła."
+    ru: "Она отказала бы, если бы могла."
+    source: { kind: authored }
+  - form: "odmówiłaby"
+    pl: "Nie odmówiłaby ci pomocy."
+    ru: "В помощи она тебе не отказала бы."
+    source: { kind: authored }
+  - form: "odmówiłaby"
+    pl: "Odmówiłaby takiej prośbie."
+    ru: "В такой просьбе она отказала бы."
+    source: { kind: authored }
+  - form: "odmówiłabym"
+    pl: "Odmówiłabym stanowczo."
+    ru: "Я отказала бы решительно."
+    source: { kind: authored }
+  - form: "odmówiłabym"
+    pl: "Nie odmówiłabym ci pomocy."
+    ru: "В помощи я тебе не отказала бы."
+    source: { kind: authored }
+  - form: "odmówiłabym"
+    pl: "Odmówiłabym takiej prośbie."
+    ru: "В такой просьбе я отказала бы."
+    source: { kind: authored }
+  - form: "odmówiłabyś"
+    pl: "Czy odmówiłabyś mu pomocy?"
+    ru: "Ты отказала бы ему в помощи?"
+    source: { kind: authored }
+  - form: "odmówiłabyś"
+    pl: "Odmówiłabyś stanowczo?"
+    ru: "Ты отказала бы решительно?"
+    source: { kind: authored }
+  - form: "odmówiłabyś"
+    pl: "Naprawdę nie odmówiłabyś prośbie?"
+    ru: "Ты правда не отказала бы в просьбе?"
+    source: { kind: authored }
   - form: "odmówiłam"
     pl: "Odmówiłam Tomowi."
     ru: "Я отказала Тому."
@@ -204,6 +337,42 @@ formExamples:
   - form: "odmówiłaś"
     pl: "Nikomu nie odmówiłaś."
     ru: "Ты никому не отказала."
+    source: { kind: authored }
+  - form: "odmówiłby"
+    pl: "Odmówiłby, gdyby mógł."
+    ru: "Он отказал бы, если бы мог."
+    source: { kind: authored }
+  - form: "odmówiłby"
+    pl: "Nie odmówiłby ci pomocy."
+    ru: "В помощи он тебе не отказал бы."
+    source: { kind: authored }
+  - form: "odmówiłby"
+    pl: "Odmówiłby takiej prośbie."
+    ru: "В такой просьбе он отказал бы."
+    source: { kind: authored }
+  - form: "odmówiłbym"
+    pl: "Odmówiłbym stanowczo."
+    ru: "Я отказал бы решительно."
+    source: { kind: authored }
+  - form: "odmówiłbym"
+    pl: "Nie odmówiłbym ci pomocy."
+    ru: "В помощи я тебе не отказал бы."
+    source: { kind: authored }
+  - form: "odmówiłbym"
+    pl: "Odmówiłbym takiej prośbie."
+    ru: "В такой просьбе я отказал бы."
+    source: { kind: authored }
+  - form: "odmówiłbyś"
+    pl: "Czy odmówiłbyś mu pomocy?"
+    ru: "Ты отказал бы ему в помощи?"
+    source: { kind: authored }
+  - form: "odmówiłbyś"
+    pl: "Odmówiłbyś stanowczo?"
+    ru: "Ты отказал бы решительно?"
+    source: { kind: authored }
+  - form: "odmówiłbyś"
+    pl: "Naprawdę nie odmówiłbyś prośbie?"
+    ru: "Ты правда не отказал бы в просьбе?"
     source: { kind: authored }
   - form: "odmówiłem"
     pl: "Jasno odmówiłem."
@@ -241,6 +410,18 @@ formExamples:
     pl: "Dziecko odmówiło jedzenia."
     ru: "Ребёнок отказался от еды."
     source: { kind: authored }
+  - form: "odmówiłoby"
+    pl: "Dziecko odmówiłoby posłuszeństwa."
+    ru: "Ребёнок отказался бы слушаться."
+    source: { kind: authored }
+  - form: "odmówiłoby"
+    pl: "Żadne z nich nie odmówiłoby pomocy."
+    ru: "Никто из них не отказал бы в помощи."
+    source: { kind: authored }
+  - form: "odmówiłoby"
+    pl: "Ciało odmówiłoby posłuszeństwa po takim marszu."
+    ru: "Тело отказалось бы слушаться после такого перехода."
+    source: { kind: authored }
   - form: "odmówiły"
     pl: "Nogi odmówiły mu posłuszeństwa."
     ru: "Ноги отказались ему служить."
@@ -252,6 +433,150 @@ formExamples:
   - form: "odmówiły"
     pl: "Dziewczyny odmówiły udziału."
     ru: "Девушки отказались от участия."
+    source: { kind: authored }
+  - form: "odmówiłyby"
+    pl: "Odmówiłyby, gdyby mogły."
+    ru: "Они отказали бы, если бы могли."
+    source: { kind: authored }
+  - form: "odmówiłyby"
+    pl: "Nie odmówiłyby ci pomocy."
+    ru: "В помощи они тебе не отказали бы."
+    source: { kind: authored }
+  - form: "odmówiłyby"
+    pl: "Nogi odmówiłyby posłuszeństwa."
+    ru: "Ноги отказались бы слушаться."
+    source: { kind: authored }
+  - form: "odmówiłybyście"
+    pl: "Czy odmówiłybyście mu pomocy?"
+    ru: "Вы отказали бы ему в помощи?"
+    source: { kind: authored }
+  - form: "odmówiłybyście"
+    pl: "Odmówiłybyście stanowczo?"
+    ru: "Вы отказали бы решительно?"
+    source: { kind: authored }
+  - form: "odmówiłybyście"
+    pl: "Naprawdę nie odmówiłybyście prośbie?"
+    ru: "Вы правда не отказали бы в просьбе?"
+    source: { kind: authored }
+  - form: "odmówiłybyśmy"
+    pl: "Odmówiłybyśmy stanowczo."
+    ru: "Мы отказали бы решительно."
+    source: { kind: authored }
+  - form: "odmówiłybyśmy"
+    pl: "Nie odmówiłybyśmy ci pomocy."
+    ru: "В помощи мы тебе не отказали бы."
+    source: { kind: authored }
+  - form: "odmówiłybyśmy"
+    pl: "Odmówiłybyśmy takiej prośbie."
+    ru: "В такой просьбе мы отказали бы."
+    source: { kind: authored }
+  - form: "odmówiłyście"
+    pl: "Dlaczego odmówiłyście?"
+    ru: "Почему вы отказались?"
+    source: { kind: authored }
+  - form: "odmówiłyście"
+    pl: "Odmówiłyście mu pomocy."
+    ru: "Вы отказали ему в помощи."
+    source: { kind: authored }
+  - form: "odmówiłyście"
+    pl: "Nie odmówiłyście prośbie."
+    ru: "В просьбе вы не отказали."
+    source: { kind: authored }
+  - form: "odmówiłyśmy"
+    pl: "Odmówiłyśmy stanowczo."
+    ru: "Мы отказались решительно."
+    source: { kind: authored }
+  - form: "odmówiłyśmy"
+    pl: "Nie odmówiłyśmy mu pomocy."
+    ru: "В помощи мы ему не отказали."
+    source: { kind: authored }
+  - form: "odmówiłyśmy"
+    pl: "Odmówiłyśmy takiej prośbie."
+    ru: "В такой просьбе мы отказали."
+    source: { kind: authored }
+  - form: "odmówimy"
+    pl: "Odmówimy stanowczo."
+    ru: "Мы откажем решительно."
+    source: { kind: authored }
+  - form: "odmówimy"
+    pl: "Nie odmówimy ci pomocy."
+    ru: "В помощи мы тебе не откажем."
+    source: { kind: authored }
+  - form: "odmówimy"
+    pl: "Odmówimy pacierz przed snem."
+    ru: "Мы прочитаем молитву перед сном."
+    source: { kind: authored }
+  - form: "odmówiona"
+    pl: "Prośba została odmówiona."
+    ru: "В просьбе было отказано."
+    source: { kind: authored }
+  - form: "odmówiona"
+    pl: "Odmówiona pomoc bolała najbardziej."
+    ru: "Больнее всего был отказ в помощи."
+    source: { kind: authored }
+  - form: "odmówiona"
+    pl: "Modlitwa odmówiona szeptem ucichła."
+    ru: "Молитва, прочитанная шёпотом, стихла."
+    source: { kind: authored }
+  - form: "odmówioną"
+    pl: "Znam prośbę odmówioną bez wyjaśnienia."
+    ru: "Я знаю просьбу, отклонённую без объяснений."
+    source: { kind: authored }
+  - form: "odmówioną"
+    pl: "Opisał modlitwę odmówioną po cichu."
+    ru: "Он описал молитву, прочитанную тихо."
+    source: { kind: authored }
+  - form: "odmówioną"
+    pl: "Widzieli pomoc odmówioną w ostatniej chwili."
+    ru: "Они видели помощь, в которой отказали в последнюю минуту."
+    source: { kind: authored }
+  - form: "odmówione"
+    pl: "Odmówione prośby wracają na biurko."
+    ru: "Отклонённые просьбы возвращаются на стол."
+    source: { kind: authored }
+  - form: "odmówione"
+    pl: "To wnioski odmówione w zeszłym roku."
+    ru: "Это заявления, отклонённые в прошлом году."
+    source: { kind: authored }
+  - form: "odmówione"
+    pl: "Odmówione po cichu modlitwy nikną w szumie."
+    ru: "Прочитанные тихо молитвы тонут в шуме."
+    source: { kind: authored }
+  - form: "odmówionego"
+    pl: "Dotyczy to wniosku odmówionego w zeszłym roku."
+    ru: "Это касается заявления, отклонённого в прошлом году."
+    source: { kind: authored }
+  - form: "odmówionego"
+    pl: "Nie ma tu pisma odmówionego bez wyjaśnienia."
+    ru: "Здесь нет бумаги, отклонённой без объяснений."
+    source: { kind: authored }
+  - form: "odmówionego"
+    pl: "Treść pacierza odmówionego szeptem ledwo słychać."
+    ru: "Слова молитвы, прочитанной шёпотом, едва слышны."
+    source: { kind: authored }
+  - form: "odmówionej"
+    pl: "Dotyczy to prośby odmówionej bez wyjaśnienia."
+    ru: "Это касается просьбы, отклонённой без объяснений."
+    source: { kind: authored }
+  - form: "odmówionej"
+    pl: "Brakuje tu decyzji odmówionej w zeszłym roku."
+    ru: "Здесь не хватает решения, отклонённого в прошлом году."
+    source: { kind: authored }
+  - form: "odmówionej"
+    pl: "Dzięki modlitwie odmówionej wieczorem zasnął spokojnie."
+    ru: "Благодаря молитве, прочитанной вечером, он спокойно заснул."
+    source: { kind: authored }
+  - form: "odmówionemu"
+    pl: "Przyjrzyj się wnioskowi odmówionemu w zeszłym roku."
+    ru: "Присмотрись к заявлению, отклонённому в прошлом году."
+    source: { kind: authored }
+  - form: "odmówionemu"
+    pl: "Przyglądali się pismu odmówionemu bez wyjaśnienia."
+    ru: "Они разглядывали бумагу, отклонённую без объяснений."
+    source: { kind: authored }
+  - form: "odmówionemu"
+    pl: "Dzięki pacierzowi odmówionemu przed snem dziecko się uspokoiło."
+    ru: "Благодаря молитве, прочитанной перед сном, ребёнок успокоился."
     source: { kind: authored }
   - form: "odmówiono"
     pl: "Tomowi odmówiono zwolnienia warunkowego."
@@ -265,6 +590,54 @@ formExamples:
     pl: "Odmówiono mu wizy."
     ru: "Ему отказали в визе."
     source: { kind: authored }
+  - form: "odmówiony"
+    pl: "Wniosek został odmówiony."
+    ru: "Заявление отклонили."
+    source: { kind: authored }
+  - form: "odmówiony"
+    pl: "Odmówiony pacierz nie liczy się dwa razy."
+    ru: "Прочитанная молитва не считается дважды."
+    source: { kind: authored }
+  - form: "odmówiony"
+    pl: "Odmówiony bez wyjaśnienia wniosek wrócił na biurko."
+    ru: "Отклонённое без объяснений заявление вернулось на стол."
+    source: { kind: authored }
+  - form: "odmówionych"
+    pl: "Brakuje danych o odmówionych wnioskach."
+    ru: "Не хватает данных об отклонённых заявлениях."
+    source: { kind: authored }
+  - form: "odmówionych"
+    pl: "Wśród odmówionych próśb była i jego."
+    ru: "Среди отклонённых просьб была и его."
+    source: { kind: authored }
+  - form: "odmówionych"
+    pl: "Lista odmówionych wniosków rośnie."
+    ru: "Список отклонённых заявлений растёт."
+    source: { kind: authored }
+  - form: "odmówionym"
+    pl: "W odmówionym wniosku nie było błędów."
+    ru: "В отклонённом заявлении не было ошибок."
+    source: { kind: authored }
+  - form: "odmówionym"
+    pl: "Przyglądamy się prośbom odmówionym bez wyjaśnienia."
+    ru: "Мы присматриваемся к просьбам, отклонённым без объяснений."
+    source: { kind: authored }
+  - form: "odmówionym"
+    pl: "Nad odmówionym wnioskiem komisja myślała rok."
+    ru: "Над отклонённым заявлением комиссия думала год."
+    source: { kind: authored }
+  - form: "odmówionymi"
+    pl: "Zajmuje się wnioskami odmówionymi w zeszłym roku."
+    ru: "Он занимается заявлениями, отклонёнными в прошлом году."
+    source: { kind: authored }
+  - form: "odmówionymi"
+    pl: "Między prośbami odmówionymi a przyjętymi jest różnica."
+    ru: "Между отклонёнными просьбами и принятыми есть разница."
+    source: { kind: authored }
+  - form: "odmówionymi"
+    pl: "Pracuje nad wnioskami odmówionymi bez wyjaśnienia."
+    ru: "Он работает над заявлениями, отклонёнными без объяснений."
+    source: { kind: authored }
   - form: "odmówisz"
     pl: "Tom się wścieknie, jeśli odmówisz."
     ru: "Том взбесится, если ты откажешь."
@@ -276,4 +649,16 @@ formExamples:
   - form: "odmówisz"
     pl: "Czy odmówisz mi tej przysługi?"
     ru: "Ты откажешь мне в этой услуге?"
+    source: { kind: authored }
+  - form: "odmówmy"
+    pl: "Odmówmy stanowczo."
+    ru: "Откажем решительно."
+    source: { kind: authored }
+  - form: "odmówmy"
+    pl: "Nie odmówmy mu pomocy."
+    ru: "Не откажем ему в помощи."
+    source: { kind: authored }
+  - form: "odmówmy"
+    pl: "Odmówmy pacierz przed snem."
+    ru: "Прочитаем молитву перед сном."
     source: { kind: authored }
