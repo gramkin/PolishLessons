@@ -59,40 +59,8 @@ idioms:
   - { pl: "zamówić taksówkę", ru: "заказать такси" }
   - { pl: "na zamówienie", ru: "на заказ" }
 formExamplesSkip:
-  - { form: "zamówcie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówicie", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówieni", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówieniem", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówieniu", reason: "формы отглагольного существительного: в корпусе слишком мало примеров" }
-  - { form: "zamówiliby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówilibyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówilibyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zamówiłaby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłabym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłabyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłbym", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłbyś", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłoby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłyby", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłybyście", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłybyśmy", reason: "формы условного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zamówiłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени: в корпусе слишком мало примеров" }
-  - { form: "zamówimy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
-  - { form: "zamówiona", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówioną", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówione", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionego", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionej", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionemu", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówiony", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionych", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionym", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
-  - { form: "zamówionymi", reason: "формы страдательного причастия: в корпусе слишком мало примеров" }
+  - { form: "zamówieni", reason: "мужско-личной страдательной формы у этого глагола не бывает: заказывают пиццу, такси, костюм, столик — вещь или услугу, а не человека. Остальные формы причастия в карточке есть с примерами: zamówiona taksówka, garnitur zamówiony na miarę" }
   - { form: "zamówiwszy", reason: "книжное деепричастие прошедшего времени: в корпусе нет примеров" }
-  - { form: "zamówmy", reason: "формы повелительного наклонения: в корпусе слишком мало примеров" }
 formExamples:
   - form: "zamów"
     pl: "Zamów ekspertyzę u prawnika."
@@ -105,6 +73,18 @@ formExamples:
   - form: "zamów"
     pl: "Zamów nam stolik na ósmą."
     ru: "Закажи нам столик на восемь."
+    source: { kind: authored }
+  - form: "zamówcie"
+    pl: "Zamówcie pizzę."
+    ru: "Закажите пиццу."
+    source: { kind: authored }
+  - form: "zamówcie"
+    pl: "Zamówcie taksówkę."
+    ru: "Закажите такси."
+    source: { kind: authored }
+  - form: "zamówcie"
+    pl: "Zamówcie to na jutro."
+    ru: "Закажите это на завтра."
     source: { kind: authored }
   - form: "zamówi"
     pl: "Zamówi taksówkę."
@@ -129,6 +109,18 @@ formExamples:
   - form: "zamówią"
     pl: "Nic nie zamówią bez ciebie."
     ru: "Без тебя они ничего не закажут."
+    source: { kind: authored }
+  - form: "zamówicie"
+    pl: "Zamówicie pizzę?"
+    ru: "Вы закажете пиццу?"
+    source: { kind: authored }
+  - form: "zamówicie"
+    pl: "Czy zamówicie taksówkę?"
+    ru: "Вы закажете такси?"
+    source: { kind: authored }
+  - form: "zamówicie"
+    pl: "Nie zamówicie nic do picia?"
+    ru: "Вы ничего не закажете попить?"
     source: { kind: authored }
   - form: "zamówić"
     pl: "Proszę zamówić."
@@ -174,6 +166,30 @@ formExamples:
     pl: "Ciągle czekam na moje zamówienie."
     ru: "Я всё ещё жду свой заказ."
     source: { kind: translated, id: 526918 }
+  - form: "zamówieniem"
+    pl: "Sprawa skończyła się zamówieniem taksówki."
+    ru: "Дело кончилось заказом такси."
+    source: { kind: authored }
+  - form: "zamówieniem"
+    pl: "Przed zamówieniem sprawdź cenę."
+    ru: "Прежде чем заказывать, проверь цену."
+    source: { kind: authored }
+  - form: "zamówieniem"
+    pl: "Między zamówieniem a dostawą minął tydzień."
+    ru: "Между заказом и доставкой прошла неделя."
+    source: { kind: authored }
+  - form: "zamówieniu"
+    pl: "Po zamówieniu taksówki czekali pod bramą."
+    ru: "Заказав такси, они ждали у ворот."
+    source: { kind: authored }
+  - form: "zamówieniu"
+    pl: "W zamówieniu był błąd."
+    ru: "В заказе была ошибка."
+    source: { kind: authored }
+  - form: "zamówieniu"
+    pl: "Dzięki zamówieniu złożonemu w porę zdążyli."
+    ru: "Благодаря вовремя сделанному заказу они успели."
+    source: { kind: authored }
   - form: "zamówię"
     pl: "Zamówię pizzę."
     ru: "Я закажу пиццу."
@@ -201,6 +217,54 @@ formExamples:
   - form: "zamówili"
     pl: "Nic nie zamówili."
     ru: "Они ничего не заказали."
+    source: { kind: authored }
+  - form: "zamówiliby"
+    pl: "Zamówiliby pizzę, gdyby byli głodni."
+    ru: "Они заказали бы пиццу, если бы были голодны."
+    source: { kind: authored }
+  - form: "zamówiliby"
+    pl: "Nie zamówiliby nic do picia."
+    ru: "Попить они ничего не заказали бы."
+    source: { kind: authored }
+  - form: "zamówiliby"
+    pl: "Zamówiliby taksówkę na ósmą."
+    ru: "Они заказали бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówilibyście"
+    pl: "Czy zamówilibyście pizzę?"
+    ru: "Вы заказали бы пиццу?"
+    source: { kind: authored }
+  - form: "zamówilibyście"
+    pl: "Zamówilibyście taksówkę na ósmą?"
+    ru: "Вы заказали бы такси на восемь?"
+    source: { kind: authored }
+  - form: "zamówilibyście"
+    pl: "Naprawdę nie zamówilibyście nic?"
+    ru: "Вы правда ничего не заказали бы?"
+    source: { kind: authored }
+  - form: "zamówilibyśmy"
+    pl: "Zamówilibyśmy pizzę, gdybyśmy byli głodni."
+    ru: "Мы заказали бы пиццу, если бы были голодны."
+    source: { kind: authored }
+  - form: "zamówilibyśmy"
+    pl: "Nie zamówilibyśmy nic do picia."
+    ru: "Попить мы ничего не заказали бы."
+    source: { kind: authored }
+  - form: "zamówilibyśmy"
+    pl: "Zamówilibyśmy taksówkę na ósmą."
+    ru: "Мы заказали бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiliście"
+    pl: "Zamówiliście pizzę?"
+    ru: "Вы заказали пиццу?"
+    source: { kind: authored }
+  - form: "zamówiliście"
+    pl: "Nie zamówiliście nic do picia."
+    ru: "Попить вы ничего не заказали."
+    source: { kind: authored }
+  - form: "zamówiliście"
+    pl: "Zamówiliście taksówkę na ósmą."
+    ru: "Вы заказали такси на восемь."
     source: { kind: authored }
   - form: "zamówiliśmy"
     pl: "Nie zamówiliśmy tego."
@@ -242,6 +306,42 @@ formExamples:
     pl: "Iwona zamówiła z katalogu nową sofę."
     ru: "Ивона заказала по каталогу новый диван."
     source: { kind: translated, id: 6484592 }
+  - form: "zamówiłaby"
+    pl: "Zamówiłaby pizzę, gdyby była głodna."
+    ru: "Она заказала бы пиццу, если бы была голодна."
+    source: { kind: authored }
+  - form: "zamówiłaby"
+    pl: "Nie zamówiłaby nic do picia."
+    ru: "Попить она ничего не заказала бы."
+    source: { kind: authored }
+  - form: "zamówiłaby"
+    pl: "Zamówiłaby taksówkę na ósmą."
+    ru: "Она заказала бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłabym"
+    pl: "Zamówiłabym pizzę."
+    ru: "Я заказала бы пиццу."
+    source: { kind: authored }
+  - form: "zamówiłabym"
+    pl: "Nie zamówiłabym nic do picia."
+    ru: "Попить я ничего не заказала бы."
+    source: { kind: authored }
+  - form: "zamówiłabym"
+    pl: "Zamówiłabym taksówkę na ósmą."
+    ru: "Я заказала бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłabyś"
+    pl: "Czy zamówiłabyś pizzę?"
+    ru: "Ты заказала бы пиццу?"
+    source: { kind: authored }
+  - form: "zamówiłabyś"
+    pl: "Zamówiłabyś taksówkę na ósmą?"
+    ru: "Ты заказала бы такси на восемь?"
+    source: { kind: authored }
+  - form: "zamówiłabyś"
+    pl: "Naprawdę nie zamówiłabyś nic?"
+    ru: "Ты правда ничего не заказала бы?"
+    source: { kind: authored }
   - form: "zamówiłam"
     pl: "Zamówiłam pizzę."
     ru: "Я заказала пиццу."
@@ -265,6 +365,42 @@ formExamples:
   - form: "zamówiłaś"
     pl: "Nic nie zamówiłaś."
     ru: "Ты ничего не заказала."
+    source: { kind: authored }
+  - form: "zamówiłby"
+    pl: "Zamówiłby pizzę, gdyby był głodny."
+    ru: "Он заказал бы пиццу, если бы был голоден."
+    source: { kind: authored }
+  - form: "zamówiłby"
+    pl: "Nie zamówiłby nic do picia."
+    ru: "Попить он ничего не заказал бы."
+    source: { kind: authored }
+  - form: "zamówiłby"
+    pl: "Zamówiłby taksówkę na ósmą."
+    ru: "Он заказал бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłbym"
+    pl: "Zamówiłbym pizzę."
+    ru: "Я заказал бы пиццу."
+    source: { kind: authored }
+  - form: "zamówiłbym"
+    pl: "Nie zamówiłbym nic do picia."
+    ru: "Попить я ничего не заказал бы."
+    source: { kind: authored }
+  - form: "zamówiłbym"
+    pl: "Zamówiłbym taksówkę na ósmą."
+    ru: "Я заказал бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłbyś"
+    pl: "Czy zamówiłbyś pizzę?"
+    ru: "Ты заказал бы пиццу?"
+    source: { kind: authored }
+  - form: "zamówiłbyś"
+    pl: "Zamówiłbyś taksówkę na ósmą?"
+    ru: "Ты заказал бы такси на восемь?"
+    source: { kind: authored }
+  - form: "zamówiłbyś"
+    pl: "Naprawdę nie zamówiłbyś nic?"
+    ru: "Ты правда ничего не заказал бы?"
     source: { kind: authored }
   - form: "zamówiłem"
     pl: "Zamówiłem piwo."
@@ -306,6 +442,18 @@ formExamples:
     pl: "Biuro zamówiło nowe krzesła."
     ru: "Офис заказал новые стулья."
     source: { kind: authored }
+  - form: "zamówiłoby"
+    pl: "Dziecko zamówiłoby lody."
+    ru: "Ребёнок заказал бы мороженое."
+    source: { kind: authored }
+  - form: "zamówiłoby"
+    pl: "Biuro zamówiłoby taksówkę."
+    ru: "Контора заказала бы такси."
+    source: { kind: authored }
+  - form: "zamówiłoby"
+    pl: "Żadne z nich nie zamówiłoby deseru."
+    ru: "Никто из них не заказал бы десерт."
+    source: { kind: authored }
   - form: "zamówiły"
     pl: "Dziewczyny zamówiły herbatę."
     ru: "Девушки заказали чай."
@@ -317,6 +465,150 @@ formExamples:
   - form: "zamówiły"
     pl: "Nic nie zamówiły."
     ru: "Они ничего не заказали."
+    source: { kind: authored }
+  - form: "zamówiłyby"
+    pl: "Zamówiłyby pizzę, gdyby były głodne."
+    ru: "Они заказали бы пиццу, если бы были голодны."
+    source: { kind: authored }
+  - form: "zamówiłyby"
+    pl: "Te dziewczyny zamówiłyby deser."
+    ru: "Эти девушки заказали бы десерт."
+    source: { kind: authored }
+  - form: "zamówiłyby"
+    pl: "Nie zamówiłyby nic do picia."
+    ru: "Попить они ничего не заказали бы."
+    source: { kind: authored }
+  - form: "zamówiłybyście"
+    pl: "Czy zamówiłybyście pizzę?"
+    ru: "Вы заказали бы пиццу?"
+    source: { kind: authored }
+  - form: "zamówiłybyście"
+    pl: "Zamówiłybyście taksówkę na ósmą?"
+    ru: "Вы заказали бы такси на восемь?"
+    source: { kind: authored }
+  - form: "zamówiłybyście"
+    pl: "Naprawdę nie zamówiłybyście nic?"
+    ru: "Вы правда ничего не заказали бы?"
+    source: { kind: authored }
+  - form: "zamówiłybyśmy"
+    pl: "Zamówiłybyśmy pizzę."
+    ru: "Мы заказали бы пиццу."
+    source: { kind: authored }
+  - form: "zamówiłybyśmy"
+    pl: "Nie zamówiłybyśmy nic do picia."
+    ru: "Попить мы ничего не заказали бы."
+    source: { kind: authored }
+  - form: "zamówiłybyśmy"
+    pl: "Zamówiłybyśmy taksówkę na ósmą."
+    ru: "Мы заказали бы такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłyście"
+    pl: "Zamówiłyście pizzę?"
+    ru: "Вы заказали пиццу?"
+    source: { kind: authored }
+  - form: "zamówiłyście"
+    pl: "Nie zamówiłyście nic do picia."
+    ru: "Попить вы ничего не заказали."
+    source: { kind: authored }
+  - form: "zamówiłyście"
+    pl: "Zamówiłyście taksówkę na ósmą."
+    ru: "Вы заказали такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiłyśmy"
+    pl: "Zamówiłyśmy pizzę."
+    ru: "Мы заказали пиццу."
+    source: { kind: authored }
+  - form: "zamówiłyśmy"
+    pl: "Nie zamówiłyśmy nic do picia."
+    ru: "Попить мы ничего не заказали."
+    source: { kind: authored }
+  - form: "zamówiłyśmy"
+    pl: "Zamówiłyśmy taksówkę na ósmą."
+    ru: "Мы заказали такси на восемь."
+    source: { kind: authored }
+  - form: "zamówimy"
+    pl: "Zamówimy pizzę."
+    ru: "Мы закажем пиццу."
+    source: { kind: authored }
+  - form: "zamówimy"
+    pl: "Nie zamówimy nic do picia."
+    ru: "Попить мы ничего не закажем."
+    source: { kind: authored }
+  - form: "zamówimy"
+    pl: "Zamówimy taksówkę na ósmą."
+    ru: "Мы закажем такси на восемь."
+    source: { kind: authored }
+  - form: "zamówiona"
+    pl: "Pizza została zamówiona."
+    ru: "Пиццу заказали."
+    source: { kind: authored }
+  - form: "zamówiona"
+    pl: "Zamówiona taksówka czeka pod bramą."
+    ru: "Заказанное такси ждёт у ворот."
+    source: { kind: authored }
+  - form: "zamówiona"
+    pl: "Ta sukienka jest zamówiona na miarę."
+    ru: "Это платье заказано по мерке."
+    source: { kind: authored }
+  - form: "zamówioną"
+    pl: "Znam pizzę zamówioną przez internet."
+    ru: "Я знаю пиццу, заказанную через интернет."
+    source: { kind: authored }
+  - form: "zamówioną"
+    pl: "Widzieli taksówkę zamówioną na ósmą."
+    ru: "Они видели такси, заказанное на восемь."
+    source: { kind: authored }
+  - form: "zamówioną"
+    pl: "Opisał sukienkę zamówioną na miarę."
+    ru: "Он описал платье, заказанное по мерке."
+    source: { kind: authored }
+  - form: "zamówione"
+    pl: "Zamówione pizze już jadą."
+    ru: "Заказанные пиццы уже едут."
+    source: { kind: authored }
+  - form: "zamówione"
+    pl: "To dania zamówione przez internet."
+    ru: "Это блюда, заказанные через интернет."
+    source: { kind: authored }
+  - form: "zamówione"
+    pl: "Zamówione książki przyszły pocztą."
+    ru: "Заказанные книги пришли почтой."
+    source: { kind: authored }
+  - form: "zamówionego"
+    pl: "Dotyczy to dania zamówionego przez internet."
+    ru: "Это касается блюда, заказанного через интернет."
+    source: { kind: authored }
+  - form: "zamówionego"
+    pl: "Nie ma tu towaru zamówionego w zeszłym tygodniu."
+    ru: "Здесь нет товара, заказанного на прошлой неделе."
+    source: { kind: authored }
+  - form: "zamówionego"
+    pl: "Cena garnituru zamówionego na miarę jest wyższa."
+    ru: "Цена костюма, заказанного по мерке, выше."
+    source: { kind: authored }
+  - form: "zamówionej"
+    pl: "Dotyczy to pizzy zamówionej przez internet."
+    ru: "Это касается пиццы, заказанной через интернет."
+    source: { kind: authored }
+  - form: "zamówionej"
+    pl: "Brakuje tu taksówki zamówionej na ósmą."
+    ru: "Здесь не хватает такси, заказанного на восемь."
+    source: { kind: authored }
+  - form: "zamówionej"
+    pl: "Dzięki sukience zamówionej na miarę wyglądała świetnie."
+    ru: "Благодаря платью, заказанному по мерке, она выглядела прекрасно."
+    source: { kind: authored }
+  - form: "zamówionemu"
+    pl: "Przyjrzyj się daniu zamówionemu przez internet."
+    ru: "Присмотрись к блюду, заказанному через интернет."
+    source: { kind: authored }
+  - form: "zamówionemu"
+    pl: "Ufamy towarowi zamówionemu u sprawdzonej firmy."
+    ru: "Мы доверяем товару, заказанному у проверенной фирмы."
+    source: { kind: authored }
+  - form: "zamówionemu"
+    pl: "Dzięki garniturowi zamówionemu na miarę czuł się pewnie."
+    ru: "Благодаря костюму, заказанному по мерке, он чувствовал себя уверенно."
     source: { kind: authored }
   - form: "zamówiono"
     pl: "Zamówiono taksówkę na ósmą."
@@ -330,6 +622,54 @@ formExamples:
     pl: "Zamówiono nowe krzesła do sali."
     ru: "Новые стулья заказали в зал."
     source: { kind: authored }
+  - form: "zamówiony"
+    pl: "Towar został zamówiony."
+    ru: "Товар заказали."
+    source: { kind: authored }
+  - form: "zamówiony"
+    pl: "Zamówiony garnitur leży w pracowni."
+    ru: "Заказанный костюм лежит в ателье."
+    source: { kind: authored }
+  - form: "zamówiony"
+    pl: "Ten stolik jest zamówiony na ósmą."
+    ru: "Этот столик заказан на восемь."
+    source: { kind: authored }
+  - form: "zamówionych"
+    pl: "Brakuje danych o zamówionych towarach."
+    ru: "Не хватает данных о заказанных товарах."
+    source: { kind: authored }
+  - form: "zamówionych"
+    pl: "Wśród zamówionych dań jedno się nie zgadza."
+    ru: "Среди заказанных блюд одно не сходится."
+    source: { kind: authored }
+  - form: "zamówionych"
+    pl: "Lista zamówionych książek rośnie."
+    ru: "Список заказанных книг растёт."
+    source: { kind: authored }
+  - form: "zamówionym"
+    pl: "W zamówionym daniu brakowało sosu."
+    ru: "В заказанном блюде не хватало соуса."
+    source: { kind: authored }
+  - form: "zamówionym"
+    pl: "Przyglądamy się zamówionym towarom."
+    ru: "Мы присматриваемся к заказанным товарам."
+    source: { kind: authored }
+  - form: "zamówionym"
+    pl: "Nad zamówionym garniturem pracował tydzień."
+    ru: "Над заказанным костюмом он работал неделю."
+    source: { kind: authored }
+  - form: "zamówionymi"
+    pl: "Zajmuje się towarami zamówionymi przez internet."
+    ru: "Он занимается товарами, заказанными через интернет."
+    source: { kind: authored }
+  - form: "zamówionymi"
+    pl: "Między daniami zamówionymi a gotowymi jest różnica."
+    ru: "Между заказанными блюдами и готовыми есть разница."
+    source: { kind: authored }
+  - form: "zamówionymi"
+    pl: "Pracuje nad garniturami zamówionymi na miarę."
+    ru: "Он работает над костюмами, заказанными по мерке."
+    source: { kind: authored }
   - form: "zamówisz"
     pl: "Jeśli zamówisz tonkatsu w tym miejscu, dostaniesz też górę kapusty."
     ru: "Если закажешь тонкацу в этом месте, получишь ещё и гору капусты."
@@ -341,4 +681,16 @@ formExamples:
   - form: "zamówisz"
     pl: "Zamówisz taksówkę czy pójdziemy pieszo?"
     ru: "Ты закажешь такси или пойдём пешком?"
+    source: { kind: authored }
+  - form: "zamówmy"
+    pl: "Zamówmy pizzę."
+    ru: "Закажем пиццу."
+    source: { kind: authored }
+  - form: "zamówmy"
+    pl: "Zamówmy taksówkę."
+    ru: "Закажем такси."
+    source: { kind: authored }
+  - form: "zamówmy"
+    pl: "Zamówmy to na jutro."
+    ru: "Закажем это на завтра."
     source: { kind: authored }
