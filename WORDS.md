@@ -28,10 +28,10 @@
 
 |                 |         |
 | --------------- | ------- |
-| Лемм всего      | **849** |
-| Карточка готова | **320** |
-| В очереди       | **529** |
-| Не в словаре    | **34**  |
+| Лемм всего      | **983** |
+| Карточка готова | **898** |
+| В очереди       | **85** |
+| Не в словаре    | **44**  |
 
 ## Обозначения
 
@@ -745,3 +745,117 @@ pnpm dict:status && pnpm generate
   <sub>слова: [bo](/slovo/bo), [też](/slovo/tez), [tak](/slovo/tak), [być](/slovo/byc)</sub>
 - **— I ja gotów jestem ich wysłuchać.**  
   <sub>слова: [i](/slovo/i), [ja](/slovo/ja), `gotów`, [być](/slovo/byc), [on](/slovo/on), `wysłuchać`</sub>
+
+- **Dlaczego właśnie ja?**  
+  <sub>слова: [dlaczego](/slovo/dlaczego), [właśnie](/slovo/wlasnie), [ja](/slovo/ja)</sub>
+- **Czemu właśnie teraz?**  
+  <sub>слова: [co](/slovo/co), [właśnie](/slovo/wlasnie), [teraz](/slovo/teraz)</sub>
+- **— Trzeba było wcześniej zarezerwować. — Właśnie!**  
+  <sub>слова: [trzeba](/slovo/trzeba), [być](/slovo/byc), [wcześnie](/slovo/wczesnie), `zarezerwować`, [właśnie](/slovo/wlasnie)</sub>
+- **transportu. Gwarantuję wam, że nie jesteście w stanie zgadnąć, co sobie**  
+  <sub>слова: `transport`, `gwarantować`, [wy](/slovo/wy), [że](/slovo/ze), [nie](/slovo/nie), [być](/slovo/byc), [w](/slovo/w), [stan](/slovo/stan), [zgadnąć](/slovo/zgadnac), [co](/slovo/co), [siebie](/slovo/siebie)</sub>
+- **Mogę dać wam podpowiedź. Nie było dużego wyboru nawet.**  
+  <sub>слова: [móc](/slovo/moc), [dać](/slovo/dac), [wy](/slovo/wy), `podpowiedź`, [nie](/slovo/nie), [być](/slovo/byc), [duży](/slovo/duzy), [wybór](/slovo/wybor), [nawet](/slovo/nawet)</sub>
+- **zgadnąć, zanim to otworzę, zanim wszyscy się dowiedzą i zanim bęem sztabkę złota**  
+  <sub>слова: [zgadnąć](/slovo/zgadnac), [zanim](/slovo/zanim), [to](/slovo/to), [otworzyć](/slovo/otworzyc), [zanim](/slovo/zanim), [wszyscy](/slovo/wszyscy), [się](/slovo/sie), [dowiedzieć](/slovo/dowiedziec), [i](/slovo/i), [zanim](/slovo/zanim), `sztabka`, [złoto](/slovo/zloto)</sub>
+- zgarnąć — 🟡 `zgarnąć` · verb · rank 2605
+- otoczka — 🟡 `otoczka` · noun · rank 2570
+- **Jest tu sympatycznie. Jest tu wszystko, czego potrzebuję.**  
+  <sub>слова: [być](/slovo/byc), [tu](/slovo/tu), `sympatycznie`, [być](/slovo/byc), [tu](/slovo/tu), [wszystko](/slovo/wszystko), [co](/slovo/co), [potrzebować](/slovo/potrzebowac)</sub>
+- współdzielić — 🟡 `współdzielić` · verb · rank 2595
+- Przyznam szczerze — ✅ [przyznać](/slovo/przyznac)
+- **Kogo ja próbuję oszukać? Jestem świnią.**  
+  <sub>слова: [kto](/slovo/kto), [ja](/slovo/ja), [próbować](/slovo/probowac), `oszukać`, [być](/slovo/byc), [świnia](/slovo/swinia)</sub>
+- **Nie wiem czemu, ale jak zobaczyłem słowo pepperone, to jakoś tak po prostu zrobiło mi się miło na serduszku.**  
+  <sub>слова: [nie](/slovo/nie), [wiedzieć](/slovo/wiedziec), [co](/slovo/co), [ale](/slovo/ale), [jak](/slovo/jak), [zobaczyć](/slovo/zobaczyc), [słowo](/slovo/slowo), [to](/slovo/to), [jakoś](/slovo/jakos), [tak](/slovo/tak), [po](/slovo/po), [prosty](/slovo/prosty), [zrobić](/slovo/zrobic), [ja](/slovo/ja), [się](/slovo/sie), `miło`, [na](/slovo/na), `serduszko`</sub>
+- **A tak to spoko.**  
+  <sub>слова: [a](/slovo/a), [tak](/slovo/tak), [to](/slovo/to), [spoko](/slovo/spoko)</sub>
+- **Znalazłem jakiś budynek, do którego tutaj trzeba było przejść kontrolę policyjną i nie wnieść zakazanych rzeczy.**  
+  <sub>слова: [znaleźć](/slovo/znalezc), [jakiś](/slovo/jakis), [budynek](/slovo/budynek), [do](/slovo/do), [który](/slovo/ktory), [tutaj](/slovo/tutaj), [trzeba](/slovo/trzeba), [być](/slovo/byc), [przejść](/slovo/przejsc), [kontrola](/slovo/kontrola), `policyjny`, [i](/slovo/i), [nie](/slovo/nie), `wnieść`, `zakazać`, [rzecz](/slovo/rzecz)</sub>
+- **Wiem, może nie najmniej.**  
+  <sub>слова: [wiedzieć](/slovo/wiedziec), [może](/slovo/moze), [nie](/slovo/nie), [mało](/slovo/malo)</sub>
+- **To prawda, dało się taniej.**  
+  <sub>слова: [to](/slovo/to), [prawda](/slovo/prawda), [dać](/slovo/dac), [się](/slovo/sie), `tanio`</sub>
+- **Chodźcie, opowiem wam co nieco.**  
+  <sub>слова: [chodzić](/slovo/chodzic), [opowiedzieć](/slovo/opowiedziec), [wy](/slovo/wy), [co](/slovo/co), [nieco](/slovo/nieco)</sub>
+- **A to dlatego, że jest to przepyszne.**  
+  <sub>слова: [a](/slovo/a), [to](/slovo/to), [dlatego](/slovo/dlatego), [że](/slovo/ze), [być](/slovo/byc), [to](/slovo/to), `przepyszny`</sub>
+- **Dzięki, że obejrzałeś ten film.**  
+  <sub>слова: [dzięki](/slovo/dzieki), [że](/slovo/ze), [obejrzeć](/slovo/obejrzec), [ten](/slovo/ten), [film](/slovo/film)</sub>
+- udo — 🟡 `udo` · noun · rank 2590
+- cofanie — 🟡 `cofać` · verb · rank 2545
+- cofać — 🟡 `cofać` · verb · rank 2545
+- aż — ✅ [aż](/slovo/az)
+- podejmować — 🟡 `podejmować` · verb · rank 2572
+- **Był to pierwszy raz odkąd sam sobie kupiłem jedzenie od rozpoczęcia tego wyzwania**  
+  <sub>слова: [być](/slovo/byc), [to](/slovo/to), [pierwszy](/slovo/pierwszy), [raz](/slovo/raz), [odkąd](/slovo/odkad), [sam](/slovo/sam), [siebie](/slovo/siebie), [kupić](/slovo/kupic), `jedzenie`, [od](/slovo/od), [rozpocząć](/slovo/rozpoczac), [ten](/slovo/ten), [wyzwanie](/slovo/wyzwanie)</sub>
+- nolek — ⛔ не распознано
+- dołączyć — ✅ [dołączyć](/slovo/dolaczyc)
+- zazdrościć — 🟡 `zazdrościć` · verb · rank 2604
+- zdążyć — ✅ [zdążyć](/slovo/zdazyc)
+- męczyć — 🟡 `męczyć` · verb · rank 2558
+- męczący — 🟡 `męczący` · adj · rank 2559
+- przetestować — 🟡 `przetestować` · verb · rank 2579
+- cierpieć — ✅ [cierpieć](/slovo/cierpiec)
+- przerwa — ✅ [przerwa](/slovo/przerwa)
+- mięciutki — 🟡 `mięciutki` · adj · rank 2556
+- łazić — 🟡 `łazić` · verb · rank 2607
+- okrutnie — 🟡 `okrutnie` · adv · rank 2567
+- okropnie — 🟡 `okropnie` · adv · rank 2566
+- przysięgam — ✅ [przysięgać](/slovo/przysiegac)
+- okrutnie — 🟡 `okrutnie` · adv · rank 2567
+- nagrzać — 🟡 `nagrzać` · verb · rank 2560
+- czaicie — 🟡 `czaić` · verb · rank 2546
+- niepojęte — 🟡 `niepojęty` · adj · rank 2563
+- **Jeszcze nie kładę się spać ale już bardzo bym chciał**  
+  <sub>слова: [jeszcze](/slovo/jeszcze), [nie](/slovo/nie), `kłaść`, [się](/slovo/sie), [spać](/slovo/spac), [ale](/slovo/ale), [już](/slovo/juz), [bardzo](/slovo/bardzo), [by](/slovo/by), [chcieć](/slovo/chciec)</sub>
+- **Oby już nie było bo to bez sensu**  
+  <sub>слова: [oby](/slovo/oby), [już](/slovo/juz), [nie](/slovo/nie), [być](/slovo/byc), [bo](/slovo/bo), [to](/slovo/to), [bez](/slovo/bez), [sens](/slovo/sens)</sub>
+- pęcherzyk — 🟡 `pęcherzyk` · noun · rank 2580
+- powstrzymać — ✅ [powstrzymać](/slovo/powstrzymac)
+- zmierzać — ✅ [zmierzać](/slovo/zmierzac)
+- narzekać — 🟡 `narzekać` · verb · rank 2562
+- chrząstka — 🟡 `chrząstka` · noun · rank 2544
+- olać — 🟡 `olać` · verb · rank 2568
+- kontuzja — 🟡 `kontuzja` · noun · rank 2552
+- zajeżdżać — 🟡 `zajeżdżać` · verb · rank 2600
+- utrzymywać — ✅ [utrzymywać](/slovo/utrzymywac)
+- zadbać — 🟡 `zadbać` · verb · rank 2599
+- kuracja — 🟡 `kuracja` · noun · rank 2553
+- zabior — ⛔ не распознано
+- prowizorycznie — 🟡 `prowizorycznie` · adv · rank 2576
+- włączyć — ✅ [włączyć](/slovo/wlaczyc)
+- wszelaki — 🟡 `wszelaki` · adj · rank 2596
+- gonić — 🟡 `gonić` · verb · rank 2548
+- doberek — ⛔ не распознано
+- napięcie — 🟡 `napięcie` · noun · rank 2561
+- schabowy — 🟡 `schabowy` · adj · rank 2581
+- pierniczyć — 🟡 `pierniczyć` · verb · rank 2571
+- uderzyć — ✅ [uderzyć](/slovo/uderzyc)
+- odczuć — 🟡 `odczuć` · verb · rank 2564
+- siak — 🟡 `siak` · part · rank 2583
+- zasięg — ✅ [zasięg](/slovo/zasieg)
+- zrezygnować — ✅ [zrezygnować](/slovo/zrezygnowac)
+- ogarnąć — 🟡 `ogarnąć` · verb · rank 2565
+- utrudnić — 🟡 `utrudnić` · verb · rank 2593
+- unikać — 🟡 `unikać` · verb · rank 2592
+- marudzić — ✅ [marudzić](/slovo/marudzic)
+- dreptać — 🟡 `dreptać` · verb · rank 2547
+- beciak — ⛔ не распознано
+- zaklepać — 🟡 `zaklepać` · verb · rank 2602
+- trzew — ⛔ не распознано
+- wyznacznik — 🟡 `wyznacznik` · noun · rank 2598
+- kibicować — 🟡 `kibicować` · verb · rank 2551
+- przedłużyć — 🟡 `przedłużyć` · verb · rank 2577
+- denerwacja — ⛔ не распознано
+- matura — 🟡 `matura` · noun · rank 2555
+- zmęczenie — 🟡 `zmęczenie` · noun · rank 2606
+- pierniczyć — 🟡 `pierniczyć` · verb · rank 2571
+- zakać — ⛔ не распознано
+- wytarły — 🟡 `wytrzeć` · verb · rank 2597
+- ulga — 🟡 `ulga` · noun · rank 2591
+- podszyć — 🟡 `podszyć` · verb · rank 2574
+- marnowazć — ⛔ не распознано
+- Sięgano — 🟡 `sięgać` · verb · rank 2584
+- sięgać — 🟡 `sięgać` · verb · rank 2584
+- ubogi — 🟡 `ubogi` · noun · rank 2589
