@@ -44,32 +44,6 @@ idioms:
   - { pl: "postarać się o coś", ru: "раздобыть что-либо" }
   - { pl: "postarać się bardziej", ru: "постараться получше" }
   - { pl: "nie postarać się nawet", ru: "даже не попытаться" }
-formExamplesSkip:
-  - { form: "postaracie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postarajcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postarajmy", reason: "формы повелительного наклонения в корпусе не встречаются" }
-  - { form: "postaraliby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postaralibyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postaralibyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postaraliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "postaraliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "postarałaby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałabym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałabyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałbym", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałbyś", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałoby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałyby", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałybyście", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałybyśmy", reason: "формы условного наклонения в корпусе не встречаются" }
-  - { form: "postarałyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "postarałyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени в корпусе почти не встречаются" }
-  - { form: "postarania", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postaranie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postaraniem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postaraniu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "postarawszy", reason: "книжное деепричастие, в корпусе примеров нет" }
 formExamples:
   - form: "postara"
     pl: "Da radę, jeśli się postara."
@@ -83,6 +57,18 @@ formExamples:
     pl: "Tom postara się skończyć pracę najszybciej jak to możliwe."
     ru: "Том постарается закончить работу как можно быстрее."
     source: { kind: translated, id: 6602693 }
+  - form: "postaracie"
+    pl: "Postaracie się o bilety na piątek?"
+    ru: "Вы постараетесь достать билеты на пятницу?"
+    source: { kind: authored }
+  - form: "postaracie"
+    pl: "Jutro postaracie się o zaświadczenie."
+    ru: "Завтра вы постараетесь получить справку."
+    source: { kind: authored }
+  - form: "postaracie"
+    pl: "Czy postaracie się przyjść na czas?"
+    ru: "Вы постараетесь прийти вовремя?"
+    source: { kind: authored }
   - form: "postarać"
     pl: "Musisz się postarać."
     ru: "Ты должен постараться."
@@ -119,6 +105,30 @@ formExamples:
     pl: "Nie postarają się bardziej."
     ru: "Больше они стараться не будут."
     source: { kind: authored }
+  - form: "postarajcie"
+    pl: "Postarajcie się przyjść na czas."
+    ru: "Постарайтесь прийти вовремя."
+    source: { kind: authored }
+  - form: "postarajcie"
+    pl: "Postarajcie się o bilety z wyprzedzeniem."
+    ru: "Постарайтесь достать билеты заранее."
+    source: { kind: authored }
+  - form: "postarajcie"
+    pl: "Przynajmniej postarajcie się nie przeszkadzać."
+    ru: "По крайней мере постарайтесь не мешать."
+    source: { kind: authored }
+  - form: "postarajmy"
+    pl: "Postarajmy się przyjść na czas."
+    ru: "Постараемся прийти вовремя."
+    source: { kind: authored }
+  - form: "postarajmy"
+    pl: "Postarajmy się o bilety z wyprzedzeniem."
+    ru: "Постараемся достать билеты заранее."
+    source: { kind: authored }
+  - form: "postarajmy"
+    pl: "Przynajmniej postarajmy się nie przeszkadzać."
+    ru: "По крайней мере постараемся не мешать."
+    source: { kind: authored }
   - form: "postarali"
     pl: "Postarali się zdążyć."
     ru: "Они постарались успеть."
@@ -130,6 +140,66 @@ formExamples:
   - form: "postarali"
     pl: "Nie postarali się bardziej."
     ru: "Больше они не постарались."
+    source: { kind: authored }
+  - form: "postaraliby"
+    pl: "Postaraliby się bardziej, gdyby im na tym zależało."
+    ru: "Они постарались бы больше, если бы им это было важно."
+    source: { kind: authored }
+  - form: "postaraliby"
+    pl: "Rodzice postaraliby się o miejsce w żłobku."
+    ru: "Родители постарались бы о месте в яслях."
+    source: { kind: authored }
+  - form: "postaraliby"
+    pl: "Bez zachęty nie postaraliby się wcale."
+    ru: "Без поощрения они не постарались бы вовсе."
+    source: { kind: authored }
+  - form: "postaralibyście"
+    pl: "Postaralibyście się o bilety na piątek?"
+    ru: "Вы постарались бы достать билеты на пятницу?"
+    source: { kind: authored }
+  - form: "postaralibyście"
+    pl: "Czy postaralibyście się przyjść na czas?"
+    ru: "Вы постарались бы прийти вовремя?"
+    source: { kind: authored }
+  - form: "postaralibyście"
+    pl: "Kiedy postaralibyście się o zaświadczenie?"
+    ru: "Когда бы вы постарались получить справку?"
+    source: { kind: authored }
+  - form: "postaralibyśmy"
+    pl: "Postaralibyśmy się bardziej, gdybyśmy mieli czas."
+    ru: "Мы постарались бы больше, если бы у нас было время."
+    source: { kind: authored }
+  - form: "postaralibyśmy"
+    pl: "Chętnie postaralibyśmy się o te bilety."
+    ru: "Мы охотно постарались бы достать эти билеты."
+    source: { kind: authored }
+  - form: "postaralibyśmy"
+    pl: "Bez zachęty nie postaralibyśmy się wcale."
+    ru: "Без поощрения мы не постарались бы вовсе."
+    source: { kind: authored }
+  - form: "postaraliście"
+    pl: "Postaraliście się już o bilety?"
+    ru: "Вы уже постарались достать билеты?"
+    source: { kind: authored }
+  - form: "postaraliście"
+    pl: "Wczoraj postaraliście się o zaświadczenie."
+    ru: "Вчера вы постарались получить справку."
+    source: { kind: authored }
+  - form: "postaraliście"
+    pl: "Czy postaraliście się przyjść na czas?"
+    ru: "Вы постарались прийти вовремя?"
+    source: { kind: authored }
+  - form: "postaraliśmy"
+    pl: "Postaraliśmy się o bilety z wyprzedzeniem."
+    ru: "Мы постарались достать билеты заранее."
+    source: { kind: authored }
+  - form: "postaraliśmy"
+    pl: "Wczoraj postaraliśmy się o zaświadczenie."
+    ru: "Вчера мы постарались получить справку."
+    source: { kind: authored }
+  - form: "postaraliśmy"
+    pl: "O miejsce w żłobku postaraliśmy się w styczniu."
+    ru: "О месте в яслях мы постарались в январе."
     source: { kind: authored }
   - form: "postarał"
     pl: "Udałoby mi się gdybym się bardziej postarał."
@@ -155,6 +225,42 @@ formExamples:
     pl: "Nie postarała się bardziej."
     ru: "Больше она не постаралась."
     source: { kind: authored }
+  - form: "postarałaby"
+    pl: "Postarałaby się bardziej, gdyby jej na tym zależało."
+    ru: "Она постаралась бы больше, если бы ей это было важно."
+    source: { kind: authored }
+  - form: "postarałaby"
+    pl: "Siostra postarałaby się o bilety na piątek."
+    ru: "Сестра постаралась бы достать билеты на пятницу."
+    source: { kind: authored }
+  - form: "postarałaby"
+    pl: "Bez zachęty nie postarałaby się wcale."
+    ru: "Без поощрения она не постаралась бы вовсе."
+    source: { kind: authored }
+  - form: "postarałabym"
+    pl: "Postarałabym się bardziej, gdybym miała czas."
+    ru: "Я постаралась бы больше, если бы у меня было время."
+    source: { kind: authored }
+  - form: "postarałabym"
+    pl: "Chętnie postarałabym się o te bilety."
+    ru: "Я охотно постаралась бы достать эти билеты."
+    source: { kind: authored }
+  - form: "postarałabym"
+    pl: "Bez zachęty nie postarałabym się wcale."
+    ru: "Без поощрения я не постаралась бы вовсе."
+    source: { kind: authored }
+  - form: "postarałabyś"
+    pl: "Postarałabyś się o bilety na piątek?"
+    ru: "Ты постаралась бы достать билеты на пятницу?"
+    source: { kind: authored }
+  - form: "postarałabyś"
+    pl: "Czy postarałabyś się przyjść na czas?"
+    ru: "Ты постаралась бы прийти вовремя?"
+    source: { kind: authored }
+  - form: "postarałabyś"
+    pl: "Kiedy postarałabyś się o zaświadczenie?"
+    ru: "Когда бы ты постаралась получить справку?"
+    source: { kind: authored }
   - form: "postarałam"
     pl: "Postarałam się zdążyć."
     ru: "Я постаралась успеть."
@@ -178,6 +284,42 @@ formExamples:
   - form: "postarałaś"
     pl: "Nie postarałaś się bardziej."
     ru: "Больше ты не постаралась."
+    source: { kind: authored }
+  - form: "postarałby"
+    pl: "Postarałby się bardziej, gdyby mu na tym zależało."
+    ru: "Он постарался бы больше, если бы ему это было важно."
+    source: { kind: authored }
+  - form: "postarałby"
+    pl: "Brat postarałby się o bilety na piątek."
+    ru: "Брат постарался бы достать билеты на пятницу."
+    source: { kind: authored }
+  - form: "postarałby"
+    pl: "Bez zachęty nie postarałby się wcale."
+    ru: "Без поощрения он не постарался бы вовсе."
+    source: { kind: authored }
+  - form: "postarałbym"
+    pl: "Postarałbym się bardziej, gdybym miał czas."
+    ru: "Я постарался бы больше, если бы у меня было время."
+    source: { kind: authored }
+  - form: "postarałbym"
+    pl: "Chętnie postarałbym się o te bilety."
+    ru: "Я охотно постарался бы достать эти билеты."
+    source: { kind: authored }
+  - form: "postarałbym"
+    pl: "Bez zachęty nie postarałbym się wcale."
+    ru: "Без поощрения я не постарался бы вовсе."
+    source: { kind: authored }
+  - form: "postarałbyś"
+    pl: "Postarałbyś się o bilety na piątek?"
+    ru: "Ты постарался бы достать билеты на пятницу?"
+    source: { kind: authored }
+  - form: "postarałbyś"
+    pl: "Czy postarałbyś się przyjść na czas?"
+    ru: "Ты постарался бы прийти вовремя?"
+    source: { kind: authored }
+  - form: "postarałbyś"
+    pl: "Kiedy postarałbyś się o zaświadczenie?"
+    ru: "Когда бы ты постарался получить справку?"
     source: { kind: authored }
   - form: "postarałem"
     pl: "Postarałem się zdążyć."
@@ -215,6 +357,18 @@ formExamples:
     pl: "Miasto postarało się o dotację."
     ru: "Город постарался получить дотацию."
     source: { kind: authored }
+  - form: "postarałoby"
+    pl: "Dziecko postarałoby się bardziej przy babci."
+    ru: "Ребёнок постарался бы больше при бабушке."
+    source: { kind: authored }
+  - form: "postarałoby"
+    pl: "Postarałoby się o lepszą ocenę, gdyby chciało."
+    ru: "Оно постаралось бы о лучшей оценке, если бы хотело."
+    source: { kind: authored }
+  - form: "postarałoby"
+    pl: "To dziecko postarałoby się o miejsce w drużynie."
+    ru: "Этот ребёнок постарался бы о месте в команде."
+    source: { kind: authored }
   - form: "postarały"
     pl: "Kobiety postarały się o wsparcie."
     ru: "Женщины постарались получить поддержку."
@@ -226,6 +380,66 @@ formExamples:
   - form: "postarały"
     pl: "Nie postarały się bardziej."
     ru: "Больше они не постарались."
+    source: { kind: authored }
+  - form: "postarałyby"
+    pl: "Dziewczyny postarałyby się o bilety na piątek."
+    ru: "Девочки постарались бы достать билеты на пятницу."
+    source: { kind: authored }
+  - form: "postarałyby"
+    pl: "Postarałyby się bardziej, gdyby im na tym zależało."
+    ru: "Они постарались бы больше, если бы им это было важно."
+    source: { kind: authored }
+  - form: "postarałyby"
+    pl: "Bez zachęty nie postarałyby się wcale."
+    ru: "Без поощрения они не постарались бы вовсе."
+    source: { kind: authored }
+  - form: "postarałybyście"
+    pl: "Postarałybyście się o bilety na piątek?"
+    ru: "Вы постарались бы достать билеты на пятницу?"
+    source: { kind: authored }
+  - form: "postarałybyście"
+    pl: "Czy postarałybyście się przyjść na czas?"
+    ru: "Вы постарались бы прийти вовремя?"
+    source: { kind: authored }
+  - form: "postarałybyście"
+    pl: "Kiedy postarałybyście się o zaświadczenie?"
+    ru: "Когда бы вы постарались получить справку?"
+    source: { kind: authored }
+  - form: "postarałybyśmy"
+    pl: "Postarałybyśmy się bardziej, gdybyśmy miały czas."
+    ru: "Мы постарались бы больше, если бы у нас было время."
+    source: { kind: authored }
+  - form: "postarałybyśmy"
+    pl: "Chętnie postarałybyśmy się o te bilety."
+    ru: "Мы охотно постарались бы достать эти билеты."
+    source: { kind: authored }
+  - form: "postarałybyśmy"
+    pl: "Bez zachęty nie postarałybyśmy się wcale."
+    ru: "Без поощрения мы не постарались бы вовсе."
+    source: { kind: authored }
+  - form: "postarałyście"
+    pl: "Postarałyście się już o bilety?"
+    ru: "Вы уже постарались достать билеты?"
+    source: { kind: authored }
+  - form: "postarałyście"
+    pl: "Wczoraj postarałyście się o zaświadczenie."
+    ru: "Вчера вы постарались получить справку."
+    source: { kind: authored }
+  - form: "postarałyście"
+    pl: "Czy postarałyście się przyjść na czas?"
+    ru: "Вы постарались прийти вовремя?"
+    source: { kind: authored }
+  - form: "postarałyśmy"
+    pl: "Postarałyśmy się o bilety z wyprzedzeniem."
+    ru: "Мы постарались достать билеты заранее."
+    source: { kind: authored }
+  - form: "postarałyśmy"
+    pl: "Wczoraj postarałyśmy się o zaświadczenie."
+    ru: "Вчера мы постарались получить справку."
+    source: { kind: authored }
+  - form: "postarałyśmy"
+    pl: "O miejsce w żłobku postarałyśmy się w styczniu."
+    ru: "О месте в яслях мы постарались в январе."
     source: { kind: authored }
   - form: "postaram"
     pl: "Postaram się zapamiętać."
@@ -251,6 +465,54 @@ formExamples:
     pl: "Postaramy się zdążyć."
     ru: "Мы постараемся успеть."
     source: { kind: authored }
+  - form: "postarania"
+    pl: "Bez postarania się o dokumenty nic nie załatwisz."
+    ru: "Без хлопот о документах ничего не решишь."
+    source: { kind: authored }
+  - form: "postarania"
+    pl: "Od postarania się o wizę zaczęli przygotowania."
+    ru: "С хлопот о визе они начали подготовку."
+    source: { kind: authored }
+  - form: "postarania"
+    pl: "Nie widać tu żadnego postarania się."
+    ru: "Здесь не видно никакого старания."
+    source: { kind: authored }
+  - form: "postaranie"
+    pl: "Postaranie się o mieszkanie zajęło im dwa lata."
+    ru: "Хлопоты о квартире заняли у них два года."
+    source: { kind: authored }
+  - form: "postaranie"
+    pl: "Samo postaranie się nie wystarczy."
+    ru: "Одного старания недостаточно."
+    source: { kind: authored }
+  - form: "postaranie"
+    pl: "Postaranie się o zaświadczenie trwało tydzień."
+    ru: "Хлопоты о справке длились неделю."
+    source: { kind: authored }
+  - form: "postaraniem"
+    pl: "Przed postaraniem się o kredyt zebrali dokumenty."
+    ru: "Перед хлопотами о кредите они собрали документы."
+    source: { kind: authored }
+  - form: "postaraniem"
+    pl: "Między obietnicą a postaraniem się jest różnica."
+    ru: "Между обещанием и старанием есть разница."
+    source: { kind: authored }
+  - form: "postaraniem"
+    pl: "Zajęli się postaraniem się o lokal."
+    ru: "Они занялись хлопотами о помещении."
+    source: { kind: authored }
+  - form: "postaraniu"
+    pl: "Po postaraniu się o zgodę ruszyli z budową."
+    ru: "После хлопот о разрешении они начали стройку."
+    source: { kind: authored }
+  - form: "postaraniu"
+    pl: "O postaraniu się o miejsce w żłobku myślano od roku."
+    ru: "О хлопотах о месте в яслях думали год."
+    source: { kind: authored }
+  - form: "postaraniu"
+    pl: "Dzięki postaraniu się o tłumacza rozmowa doszła do skutku."
+    ru: "Благодаря хлопотам о переводчике разговор состоялся."
+    source: { kind: authored }
   - form: "postarano"
     pl: "Postarano się o dobre miejsca."
     ru: "Позаботились о хороших местах."
@@ -274,4 +536,16 @@ formExamples:
   - form: "postarasz"
     pl: "Postarasz się dla mnie?"
     ru: "Постараешься ради меня?"
+    source: { kind: authored }
+  - form: "postarawszy"
+    pl: "Postarawszy się o zgodę, ruszyli z budową."
+    ru: "Выхлопотав разрешение, они начали стройку."
+    source: { kind: authored }
+  - form: "postarawszy"
+    pl: "Postarawszy się o bilety, odetchnęli z ulgą."
+    ru: "Достав билеты, они вздохнули с облегчением."
+    source: { kind: authored }
+  - form: "postarawszy"
+    pl: "Postarawszy się o tłumacza, umówili spotkanie."
+    ru: "Найдя переводчика, они назначили встречу."
     source: { kind: authored }
