@@ -58,19 +58,140 @@ idioms:
   - { pl: "zielone światło", ru: "зелёный свет" }
   - { pl: "zielona herbata", ru: "зелёный чай" }
 formExamplesSkip:
-  - { form: "najzieleńsi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńsza", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszą", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńsze", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszego", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszej", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszemu", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszy", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszych", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszym", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "najzieleńszymi", reason: "формы сравнительной и превосходной степени: в корпусе нет примеров" }
-  - { form: "zieleni", reason: "в корпусе эта форма встречается как существительное zieleń «зелень» (ogródek pełen zieleni), а не как форма прилагательного" }
+  - { form: "zieleni", reason: "форма принадлежит не этому прилагательному, а существительному zieleń «зелень»: zieleni — её родительный, дательный и предложный падежи. Мужско-личная форма от zielony — zieloni, она уже стоит в карточке, а сравнительная — zieleńsi" }
 formExamples:
+  - form: "najzieleńsi"
+    pl: "Najzieleńsi byli nowicjusze."
+    ru: "Самыми зелёными были новички."
+    source: { kind: authored }
+  - form: "najzieleńsi"
+    pl: "To najzieleńsi z całej grupy."
+    ru: "Это самые зелёные из всей группы."
+    source: { kind: authored }
+  - form: "najzieleńsi"
+    pl: "Najzieleńsi okazali się studenci pierwszego roku."
+    ru: "Самыми зелёными оказались первокурсники."
+    source: { kind: authored }
+  - form: "najzieleńsza"
+    pl: "Najzieleńsza jest wiosną ta dolina."
+    ru: "Самая зелёная весной — эта долина."
+    source: { kind: authored }
+  - form: "najzieleńsza"
+    pl: "To najzieleńsza dzielnica miasta."
+    ru: "Это самый зелёный район города."
+    source: { kind: authored }
+  - form: "najzieleńsza"
+    pl: "Najzieleńsza była trawa przy rzece."
+    ru: "Самой зелёной была трава у реки."
+    source: { kind: authored }
+  - form: "najzieleńszą"
+    pl: "Wybrali najzieleńszą dzielnicę na dom."
+    ru: "Они выбрали самый зелёный район для дома."
+    source: { kind: authored }
+  - form: "najzieleńszą"
+    pl: "Uznano ją za najzieleńszą stolicę Europy."
+    ru: "Её признали самой зелёной столицей Европы."
+    source: { kind: authored }
+  - form: "najzieleńszą"
+    pl: "Widziałem najzieleńszą dolinę w życiu."
+    ru: "Я видел самую зелёную долину в жизни."
+    source: { kind: authored }
+  - form: "najzieleńsze"
+    pl: "Najzieleńsze są tu łąki nad rzeką."
+    ru: "Самые зелёные здесь луга у реки."
+    source: { kind: authored }
+  - form: "najzieleńsze"
+    pl: "To najzieleńsze miasta w kraju."
+    ru: "Это самые зелёные города в стране."
+    source: { kind: authored }
+  - form: "najzieleńsze"
+    pl: "Najzieleńsze liście rosną w cieniu."
+    ru: "Самые зелёные листья растут в тени."
+    source: { kind: authored }
+  - form: "najzieleńszego"
+    pl: "Szukamy najzieleńszego zakątka w mieście."
+    ru: "Мы ищем самый зелёный уголок в городе."
+    source: { kind: authored }
+  - form: "najzieleńszego"
+    pl: "Dotyczy to najzieleńszego parku w stolicy."
+    ru: "Это касается самого зелёного парка в столице."
+    source: { kind: authored }
+  - form: "najzieleńszego"
+    pl: "Nie ma tu najzieleńszego z ogrodów."
+    ru: "Здесь нет самого зелёного из садов."
+    source: { kind: authored }
+  - form: "najzieleńszej"
+    pl: "Dotyczy to najzieleńszej dzielnicy miasta."
+    ru: "Это касается самого зелёного района города."
+    source: { kind: authored }
+  - form: "najzieleńszej"
+    pl: "Brakuje tu najzieleńszej doliny."
+    ru: "Здесь не хватает самой зелёной долины."
+    source: { kind: authored }
+  - form: "najzieleńszej"
+    pl: "Dzięki najzieleńszej alei lato było znośne."
+    ru: "Благодаря самой зелёной аллее лето было сносным."
+    source: { kind: authored }
+  - form: "najzieleńszemu"
+    pl: "Przyjrzyj się najzieleńszemu zakątkowi parku."
+    ru: "Присмотрись к самому зелёному уголку парка."
+    source: { kind: authored }
+  - form: "najzieleńszemu"
+    pl: "Najzieleńszemu miastu przyznano nagrodę."
+    ru: "Самому зелёному городу присудили награду."
+    source: { kind: authored }
+  - form: "najzieleńszemu"
+    pl: "Dzięki najzieleńszemu podwórku dzieciom było chłodniej."
+    ru: "Благодаря самому зелёному двору детям было прохладнее."
+    source: { kind: authored }
+  - form: "najzieleńszy"
+    pl: "To najzieleńszy park w całym mieście."
+    ru: "Это самый зелёный парк во всём городе."
+    source: { kind: authored }
+  - form: "najzieleńszy"
+    pl: "Najzieleńszy okazał się stary sad."
+    ru: "Самым зелёным оказался старый сад."
+    source: { kind: authored }
+  - form: "najzieleńszy"
+    pl: "Najzieleńszy jest tu maj."
+    ru: "Самый зелёный здесь май."
+    source: { kind: authored }
+  - form: "najzieleńszych"
+    pl: "Wśród najzieleńszych miast Europy jest i ono."
+    ru: "Среди самых зелёных городов Европы есть и он."
+    source: { kind: authored }
+  - form: "najzieleńszych"
+    pl: "Brakuje nam najzieleńszych zakątków."
+    ru: "Нам не хватает самых зелёных уголков."
+    source: { kind: authored }
+  - form: "najzieleńszych"
+    pl: "Nie znam najzieleńszych dolin w kraju."
+    ru: "Я не знаю самых зелёных долин в стране."
+    source: { kind: authored }
+  - form: "najzieleńszym"
+    pl: "W najzieleńszym zakątku parku stoi ławka."
+    ru: "В самом зелёном уголке парка стоит скамейка."
+    source: { kind: authored }
+  - form: "najzieleńszym"
+    pl: "Przyglądamy się najzieleńszym dzielnicom."
+    ru: "Мы рассматриваем самые зелёные районы."
+    source: { kind: authored }
+  - form: "najzieleńszym"
+    pl: "O najzieleńszym mieście pisano wiele."
+    ru: "О самом зелёном городе писали много."
+    source: { kind: authored }
+  - form: "najzieleńszymi"
+    pl: "Zajmuje się najzieleńszymi dzielnicami miasta."
+    ru: "Он занимается самыми зелёными районами города."
+    source: { kind: authored }
+  - form: "najzieleńszymi"
+    pl: "Między najzieleńszymi parkami a skwerami jest różnica."
+    ru: "Между самыми зелёными парками и скверами есть разница."
+    source: { kind: authored }
+  - form: "najzieleńszymi"
+    pl: "Pracuje nad najzieleńszymi projektami."
+    ru: "Он работает над самыми зелёными проектами."
+    source: { kind: authored }
   - form: "zieleńsi"
     pl: "Nowi praktykanci są jeszcze zieleńsi niż my."
     ru: "Новые практиканты ещё зеленее нас."
