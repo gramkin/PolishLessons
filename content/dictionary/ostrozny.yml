@@ -42,26 +42,91 @@ idioms:
   - { pl: "bądź ostrożny", ru: "будь осторожен" }
   - { pl: "nie można być za ostrożnym", ru: "нельзя быть слишком осторожным" }
   - { pl: "ostrożny jak lis", ru: "осторожный как лиса" }
-formExamplesSkip:
-  - { form: "najostrożniejsi", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejsza", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszą", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejsze", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszego", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszej", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszemu", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszych", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszym", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "najostrożniejszymi", reason: "формы превосходной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejsi", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejsze", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszego", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszej", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszemu", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszych", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszym", reason: "формы сравнительной степени, в корпусе примеров нет" }
-  - { form: "ostrożniejszymi", reason: "формы сравнительной степени, в корпусе примеров нет" }
 formExamples:
+  - form: "najostrożniejsi"
+    pl: "Najostrożniejsi turyści zawrócili pierwsi."
+    ru: "Самые осторожные туристы повернули первыми."
+    source: { kind: authored }
+  - form: "najostrożniejsi"
+    pl: "To najostrożniejsi kierowcy w firmie."
+    ru: "Это самые осторожные водители в фирме."
+    source: { kind: authored }
+  - form: "najostrożniejsi"
+    pl: "Najostrożniejsi przeżyli tę zimę."
+    ru: "Самые осторожные пережили эту зиму."
+    source: { kind: authored }
+  - form: "najostrożniejsza"
+    pl: "To najostrożniejsza osoba w zespole."
+    ru: "Это самый осторожный человек в команде."
+    source: { kind: authored }
+  - form: "najostrożniejsza"
+    pl: "Najostrożniejsza ocena mówi o połowie."
+    ru: "Самая осторожная оценка говорит о половине."
+    source: { kind: authored }
+  - form: "najostrożniejsza"
+    pl: "Najostrożniejsza droga prowadzi doliną."
+    ru: "Самый осторожный путь ведёт долиной."
+    source: { kind: authored }
+  - form: "najostrożniejszą"
+    pl: "Wybrali najostrożniejszą wersję planu."
+    ru: "Они выбрали самый осторожный вариант плана."
+    source: { kind: authored }
+  - form: "najostrożniejszą"
+    pl: "Uznali tę ocenę za najostrożniejszą ze wszystkich."
+    ru: "Эту оценку они сочли самой осторожной из всех."
+    source: { kind: authored }
+  - form: "najostrożniejszą"
+    pl: "Znam najostrożniejszą drogę przez przełęcz."
+    ru: "Я знаю самый осторожный путь через перевал."
+    source: { kind: authored }
+  - form: "najostrożniejsze"
+    pl: "To najostrożniejsze podejście z możliwych."
+    ru: "Это самый осторожный подход из возможных."
+    source: { kind: authored }
+  - form: "najostrożniejsze"
+    pl: "Najostrożniejsze szacunki mówią o połowie."
+    ru: "Самые осторожные оценки говорят о половине."
+    source: { kind: authored }
+  - form: "najostrożniejsze"
+    pl: "Najostrożniejsze zwierzęta przetrwały zimę."
+    ru: "Самые осторожные животные пережили зиму."
+    source: { kind: authored }
+  - form: "najostrożniejszego"
+    pl: "Szukają najostrożniejszego przewodnika w dolinie."
+    ru: "Они ищут самого осторожного проводника в долине."
+    source: { kind: authored }
+  - form: "najostrożniejszego"
+    pl: "Dotyczy to najostrożniejszego szacunku kosztów."
+    ru: "Это касается самой осторожной оценки расходов."
+    source: { kind: authored }
+  - form: "najostrożniejszego"
+    pl: "Od najostrożniejszego wariantu zaczęli rozmowy."
+    ru: "С самого осторожного варианта они начали переговоры."
+    source: { kind: authored }
+  - form: "najostrożniejszej"
+    pl: "W najostrożniejszej wersji planu nie ma ryzyka."
+    ru: "В самом осторожном варианте плана нет риска."
+    source: { kind: authored }
+  - form: "najostrożniejszej"
+    pl: "Brakuje tu najostrożniejszej oceny kosztów."
+    ru: "Здесь не хватает самой осторожной оценки расходов."
+    source: { kind: authored }
+  - form: "najostrożniejszej"
+    pl: "Przyjrzyj się najostrożniejszej wersji umowy."
+    ru: "Присмотрись к самому осторожному варианту договора."
+    source: { kind: authored }
+  - form: "najostrożniejszemu"
+    pl: "Najostrożniejszemu kierowcy nic się nie stało."
+    ru: "С самым осторожным водителем ничего не случилось."
+    source: { kind: authored }
+  - form: "najostrożniejszemu"
+    pl: "Dzięki najostrożniejszemu podejściu uniknęli strat."
+    ru: "Благодаря самому осторожному подходу они избежали потерь."
+    source: { kind: authored }
+  - form: "najostrożniejszemu"
+    pl: "Przyjrzyj się najostrożniejszemu wariantowi planu."
+    ru: "Присмотрись к самому осторожному варианту плана."
+    source: { kind: authored }
   - form: "najostrożniejszy"
     pl: "To najostrożniejszy kierowca w firmie."
     ru: "Это самый осторожный водитель в фирме."
@@ -73,6 +138,42 @@ formExamples:
   - form: "najostrożniejszy"
     pl: "Wybrał najostrożniejszy sposób."
     ru: "Он выбрал самый осторожный способ."
+    source: { kind: authored }
+  - form: "najostrożniejszych"
+    pl: "Wśród najostrożniejszych turystów nie było ofiar."
+    ru: "Среди самых осторожных туристов не было жертв."
+    source: { kind: authored }
+  - form: "najostrożniejszych"
+    pl: "Lista najostrożniejszych wariantów jest krótka."
+    ru: "Список самых осторожных вариантов короткий."
+    source: { kind: authored }
+  - form: "najostrożniejszych"
+    pl: "O najostrożniejszych szacunkach mówiono na zebraniu."
+    ru: "О самых осторожных оценках говорили на собрании."
+    source: { kind: authored }
+  - form: "najostrożniejszym"
+    pl: "Najostrożniejszym kierowcom obniżono składkę."
+    ru: "Самым осторожным водителям снизили взнос."
+    source: { kind: authored }
+  - form: "najostrożniejszym"
+    pl: "W najostrożniejszym wariancie ryzyka nie ma wcale."
+    ru: "В самом осторожном варианте риска нет вовсе."
+    source: { kind: authored }
+  - form: "najostrożniejszym"
+    pl: "Stał się najostrożniejszym z całej trójki."
+    ru: "Он стал самым осторожным из всей тройки."
+    source: { kind: authored }
+  - form: "najostrożniejszymi"
+    pl: "Rozmawia z najostrożniejszymi inwestorami osobno."
+    ru: "Он говорит с самыми осторожными инвесторами отдельно."
+    source: { kind: authored }
+  - form: "najostrożniejszymi"
+    pl: "Między najostrożniejszymi a ryzykantami jest przepaść."
+    ru: "Между самыми осторожными и рисковыми пропасть."
+    source: { kind: authored }
+  - form: "najostrożniejszymi"
+    pl: "Zastąpiono je najostrożniejszymi szacunkami."
+    ru: "Их заменили самыми осторожными оценками."
     source: { kind: authored }
   - form: "ostrożna"
     pl: "Powiedzcie jej, żeby była ostrożna."
@@ -158,6 +259,18 @@ formExamples:
     pl: "Musimy być teraz bardzo ostrożni."
     ru: "Сейчас мы должны быть очень осторожны."
     source: { kind: tatoeba, id: 3754572 }
+  - form: "ostrożniejsi"
+    pl: "Po wypadku kierowcy stali się ostrożniejsi."
+    ru: "После аварии водители стали осторожнее."
+    source: { kind: authored }
+  - form: "ostrożniejsi"
+    pl: "Ostrożniejsi turyści zawrócili przed burzą."
+    ru: "Более осторожные туристы повернули назад перед грозой."
+    source: { kind: authored }
+  - form: "ostrożniejsi"
+    pl: "Z wiekiem jesteśmy ostrożniejsi."
+    ru: "С возрастом мы осторожнее."
+    source: { kind: authored }
   - form: "ostrożniejsza"
     pl: "Tom poradził Mary, żeby była ostrożniejsza."
     ru: "Том посоветовал Мэри быть осторожнее."
@@ -182,6 +295,54 @@ formExamples:
     pl: "Widzę ją ostrożniejszą niż kiedyś."
     ru: "Я вижу её осторожнее, чем прежде."
     source: { kind: authored }
+  - form: "ostrożniejsze"
+    pl: "Ostrożniejsze zwierzęta trzymają się z dala."
+    ru: "Более осторожные животные держатся поодаль."
+    source: { kind: authored }
+  - form: "ostrożniejsze"
+    pl: "To podejście jest ostrożniejsze od poprzedniego."
+    ru: "Этот подход осторожнее прежнего."
+    source: { kind: authored }
+  - form: "ostrożniejsze"
+    pl: "Ostrożniejsze szacunki mówią o połowie."
+    ru: "Более осторожные оценки говорят о половине."
+    source: { kind: authored }
+  - form: "ostrożniejszego"
+    pl: "Nie znam nikogo ostrożniejszego za kierownicą."
+    ru: "Я не знаю никого осторожнее за рулём."
+    source: { kind: authored }
+  - form: "ostrożniejszego"
+    pl: "Szukają przewodnika ostrożniejszego niż poprzedni."
+    ru: "Они ищут проводника осторожнее прежнего."
+    source: { kind: authored }
+  - form: "ostrożniejszego"
+    pl: "Od ostrożniejszego szacunku zaczęli rozmowy."
+    ru: "С более осторожной оценки они начали переговоры."
+    source: { kind: authored }
+  - form: "ostrożniejszej"
+    pl: "W ostrożniejszej wersji planu jest mniej ryzyka."
+    ru: "В более осторожном варианте плана меньше риска."
+    source: { kind: authored }
+  - form: "ostrożniejszej"
+    pl: "Nie ma ostrożniejszej osoby w tym zespole."
+    ru: "Нет более осторожного человека в этой команде."
+    source: { kind: authored }
+  - form: "ostrożniejszej"
+    pl: "Przyjrzyj się ostrożniejszej ocenie kosztów."
+    ru: "Присмотрись к более осторожной оценке расходов."
+    source: { kind: authored }
+  - form: "ostrożniejszemu"
+    pl: "Ostrożniejszemu kierowcy nic się nie stało."
+    ru: "С более осторожным водителем ничего не случилось."
+    source: { kind: authored }
+  - form: "ostrożniejszemu"
+    pl: "Dzięki ostrożniejszemu podejściu uniknęli strat."
+    ru: "Благодаря более осторожному подходу они избежали потерь."
+    source: { kind: authored }
+  - form: "ostrożniejszemu"
+    pl: "Przyjrzyj się ostrożniejszemu wariantowi planu."
+    ru: "Присмотрись к более осторожному варианту плана."
+    source: { kind: authored }
   - form: "ostrożniejszy"
     pl: "Muszę być ostrożniejszy."
     ru: "Мне нужно быть осторожнее."
@@ -193,6 +354,42 @@ formExamples:
   - form: "ostrożniejszy"
     pl: "Z wiekiem stał się ostrożniejszy."
     ru: "С возрастом он стал осторожнее."
+    source: { kind: authored }
+  - form: "ostrożniejszych"
+    pl: "Wśród ostrożniejszych turystów nie było ofiar."
+    ru: "Среди более осторожных туристов не было жертв."
+    source: { kind: authored }
+  - form: "ostrożniejszych"
+    pl: "Nie ma tu ostrożniejszych kierowców."
+    ru: "Здесь нет более осторожных водителей."
+    source: { kind: authored }
+  - form: "ostrożniejszych"
+    pl: "O ostrożniejszych szacunkach mówiono na zebraniu."
+    ru: "О более осторожных оценках говорили на собрании."
+    source: { kind: authored }
+  - form: "ostrożniejszym"
+    pl: "Ostrożniejszym kierowcom obniżono składkę."
+    ru: "Более осторожным водителям снизили взнос."
+    source: { kind: authored }
+  - form: "ostrożniejszym"
+    pl: "W ostrożniejszym wariancie ryzyko jest mniejsze."
+    ru: "В более осторожном варианте риск меньше."
+    source: { kind: authored }
+  - form: "ostrożniejszym"
+    pl: "Stał się ostrożniejszym człowiekiem po wypadku."
+    ru: "Он стал более осторожным человеком после аварии."
+    source: { kind: authored }
+  - form: "ostrożniejszymi"
+    pl: "Rozmawia z ostrożniejszymi inwestorami osobno."
+    ru: "Он говорит с более осторожными инвесторами отдельно."
+    source: { kind: authored }
+  - form: "ostrożniejszymi"
+    pl: "Między ostrożniejszymi a ryzykantami jest przepaść."
+    ru: "Между более осторожными и рисковыми пропасть."
+    source: { kind: authored }
+  - form: "ostrożniejszymi"
+    pl: "Zastąpiono je ostrożniejszymi szacunkami."
+    ru: "Их заменили более осторожными оценками."
     source: { kind: authored }
   - form: "ostrożny"
     pl: "Muszę być ostrożny."

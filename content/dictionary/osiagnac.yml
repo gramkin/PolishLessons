@@ -61,27 +61,7 @@ idioms:
   - { pl: "osiągnąć sukces", ru: "добиться успеха" }
   - { pl: "osiągnąć porozumienie", ru: "прийти к соглашению" }
 formExamplesSkip:
-  - { form: "osiągnąłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnąłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnąwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "osiągnęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęlibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "osiągnęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnęłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "osiągnęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "osiągniecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "osiągnięci", reason: "мужско-личной формы не бывает: достигают цели, договорённости или возраста, а не людей" }
-  - { form: "osiągniętej", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "osiągnijcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "osiągnijmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
 formExamples:
   - form: "osiągną"
     pl: "Obraz osiągną rekordową cenę na aukcji."
@@ -131,6 +111,30 @@ formExamples:
     pl: "Gdyby więcej pracował, osiągnąłby sukces."
     ru: "Если бы он больше работал, он добился бы успеха."
     source: { kind: authored }
+  - form: "osiągnąłbym"
+    pl: "Osiągnąłbym więcej, gdybym zaczął wcześniej."
+    ru: "Я достиг бы большего, если бы начал раньше."
+    source: { kind: authored }
+  - form: "osiągnąłbym"
+    pl: "Chętnie osiągnąłbym ten poziom w rok."
+    ru: "Я охотно достиг бы этого уровня за год."
+    source: { kind: authored }
+  - form: "osiągnąłbym"
+    pl: "Bez treningu nie osiągnąłbym niczego."
+    ru: "Без тренировок я не достиг бы ничего."
+    source: { kind: authored }
+  - form: "osiągnąłbyś"
+    pl: "Osiągnąłbyś więcej, gdybyś zaczął wcześniej."
+    ru: "Ты достиг бы большего, если бы начал раньше."
+    source: { kind: authored }
+  - form: "osiągnąłbyś"
+    pl: "Czy osiągnąłbyś ten wynik bez pomocy?"
+    ru: "Ты достиг бы этого результата без помощи?"
+    source: { kind: authored }
+  - form: "osiągnąłbyś"
+    pl: "Kiedy osiągnąłbyś ten poziom?"
+    ru: "Когда бы ты достиг этого уровня?"
+    source: { kind: authored }
   - form: "osiągnąłem"
     pl: "Osiągnąłem swój cel."
     ru: "Я достиг своей цели."
@@ -154,6 +158,18 @@ formExamples:
   - form: "osiągnąłeś"
     pl: "Jak osiągnąłeś taki wynik?"
     ru: "Как ты достиг такого результата?"
+    source: { kind: authored }
+  - form: "osiągnąwszy"
+    pl: "Osiągnąwszy cel, usiadł zmęczony."
+    ru: "Достигнув цели, он устало сел."
+    source: { kind: authored }
+  - form: "osiągnąwszy"
+    pl: "Osiągnąwszy porozumienie, podpisali umowę."
+    ru: "Достигнув соглашения, они подписали договор."
+    source: { kind: authored }
+  - form: "osiągnąwszy"
+    pl: "Osiągnąwszy szczyt, rozbili namiot."
+    ru: "Достигнув вершины, они разбили палатку."
     source: { kind: authored }
   - form: "osiągnę"
     pl: "Osiągnę swój cel."
@@ -179,6 +195,54 @@ formExamples:
     pl: "W końcu osiągnęli szczyt góry."
     ru: "В конце концов они достигли вершины горы."
     source: { kind: translated, id: 547304 }
+  - form: "osiągnęliby"
+    pl: "Osiągnęliby porozumienie, gdyby chcieli."
+    ru: "Они достигли бы соглашения, если бы хотели."
+    source: { kind: authored }
+  - form: "osiągnęliby"
+    pl: "Zawodnicy osiągnęliby lepszy wynik po treningu."
+    ru: "Спортсмены достигли бы лучшего результата после тренировок."
+    source: { kind: authored }
+  - form: "osiągnęliby"
+    pl: "Bez pomocy nie osiągnęliby niczego."
+    ru: "Без помощи они не достигли бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęlibyście"
+    pl: "Osiągnęlibyście więcej, gdybyście zaczęli wcześniej."
+    ru: "Вы достигли бы большего, если бы начали раньше."
+    source: { kind: authored }
+  - form: "osiągnęlibyście"
+    pl: "Czy osiągnęlibyście ten wynik bez pomocy?"
+    ru: "Вы достигли бы этого результата без помощи?"
+    source: { kind: authored }
+  - form: "osiągnęlibyście"
+    pl: "Kiedy osiągnęlibyście ten poziom?"
+    ru: "Когда бы вы достигли этого уровня?"
+    source: { kind: authored }
+  - form: "osiągnęlibyśmy"
+    pl: "Osiągnęlibyśmy więcej, gdybyśmy zaczęli wcześniej."
+    ru: "Мы достигли бы большего, если бы начали раньше."
+    source: { kind: authored }
+  - form: "osiągnęlibyśmy"
+    pl: "Chętnie osiągnęlibyśmy ten poziom w rok."
+    ru: "Мы охотно достигли бы этого уровня за год."
+    source: { kind: authored }
+  - form: "osiągnęlibyśmy"
+    pl: "Bez treningu nie osiągnęlibyśmy niczego."
+    ru: "Без тренировок мы не достигли бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęliście"
+    pl: "Osiągnęliście już porozumienie?"
+    ru: "Вы уже достигли соглашения?"
+    source: { kind: authored }
+  - form: "osiągnęliście"
+    pl: "Wczoraj osiągnęliście rekordowy wynik."
+    ru: "Вчера вы достигли рекордного результата."
+    source: { kind: authored }
+  - form: "osiągnęliście"
+    pl: "Czy osiągnęliście zamierzony cel?"
+    ru: "Вы достигли намеченной цели?"
+    source: { kind: authored }
   - form: "osiągnęliśmy"
     pl: "W końcu osiągnęliśmy kompromis."
     ru: "Наконец мы достигли компромисса."
@@ -203,6 +267,42 @@ formExamples:
     pl: "Temperatura osiągnęła wczoraj 37°C."
     ru: "Температура вчера достигла 37°C."
     source: { kind: translated, id: 484527 }
+  - form: "osiągnęłaby"
+    pl: "Osiągnęłaby więcej, gdyby miała czas."
+    ru: "Она достигла бы большего, если бы у неё было время."
+    source: { kind: authored }
+  - form: "osiągnęłaby"
+    pl: "Firma osiągnęłaby zysk już w pierwszym roku."
+    ru: "Фирма достигла бы прибыли уже в первый год."
+    source: { kind: authored }
+  - form: "osiągnęłaby"
+    pl: "Bez treningu nie osiągnęłaby niczego."
+    ru: "Без тренировок она не достигла бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęłabym"
+    pl: "Osiągnęłabym więcej, gdybym zaczęła wcześniej."
+    ru: "Я достигла бы большего, если бы начала раньше."
+    source: { kind: authored }
+  - form: "osiągnęłabym"
+    pl: "Chętnie osiągnęłabym ten poziom w rok."
+    ru: "Я охотно достигла бы этого уровня за год."
+    source: { kind: authored }
+  - form: "osiągnęłabym"
+    pl: "Bez treningu nie osiągnęłabym niczego."
+    ru: "Без тренировок я не достигла бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęłabyś"
+    pl: "Osiągnęłabyś więcej, gdybyś zaczęła wcześniej."
+    ru: "Ты достигла бы большего, если бы начала раньше."
+    source: { kind: authored }
+  - form: "osiągnęłabyś"
+    pl: "Czy osiągnęłabyś ten wynik bez pomocy?"
+    ru: "Ты достигла бы этого результата без помощи?"
+    source: { kind: authored }
+  - form: "osiągnęłabyś"
+    pl: "Kiedy osiągnęłabyś ten poziom?"
+    ru: "Когда бы ты достигла этого уровня?"
+    source: { kind: authored }
   - form: "osiągnęłam"
     pl: "Osiągnęłam swój cel."
     ru: "Я достигла своей цели."
@@ -239,6 +339,18 @@ formExamples:
     pl: "Dziecko osiągnęło wiek szkolny."
     ru: "Ребёнок достиг школьного возраста."
     source: { kind: authored }
+  - form: "osiągnęłoby"
+    pl: "Porozumienie osiągnęłoby skutek w tydzień."
+    ru: "Соглашение достигло бы результата за неделю."
+    source: { kind: authored }
+  - form: "osiągnęłoby"
+    pl: "Osiągnęłoby to więcej niż groźby."
+    ru: "Это достигло бы большего, чем угрозы."
+    source: { kind: authored }
+  - form: "osiągnęłoby"
+    pl: "To dziecko osiągnęłoby mistrzostwo w kilka lat."
+    ru: "Этот ребёнок достиг бы мастерства за несколько лет."
+    source: { kind: authored }
   - form: "osiągnęły"
     pl: "Książki Stanisława Lema zostały przetłumaczone na 41 języków i osiągnęły łączny nakład ponad 30 mln egzemplarzy."
     ru: "Книги Станислава Лема были переведены на 41 язык и выпущены общим тиражом более 30 миллионов экземпляров."
@@ -251,6 +363,66 @@ formExamples:
     pl: "Po wielu negocjacjach, strony sporu osiągnęły kompromis."
     ru: "После долгих переговоров стороны спора достигли компромисса."
     source: { kind: translated, id: 1637715 }
+  - form: "osiągnęłyby"
+    pl: "Firmy osiągnęłyby zysk już w pierwszym roku."
+    ru: "Фирмы достигли бы прибыли уже в первый год."
+    source: { kind: authored }
+  - form: "osiągnęłyby"
+    pl: "Osiągnęłyby porozumienie, gdyby chciały."
+    ru: "Они достигли бы соглашения, если бы хотели."
+    source: { kind: authored }
+  - form: "osiągnęłyby"
+    pl: "Bez pomocy nie osiągnęłyby niczego."
+    ru: "Без помощи они не достигли бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęłybyście"
+    pl: "Osiągnęłybyście więcej, gdybyście zaczęły wcześniej."
+    ru: "Вы достигли бы большего, если бы начали раньше."
+    source: { kind: authored }
+  - form: "osiągnęłybyście"
+    pl: "Czy osiągnęłybyście ten wynik bez pomocy?"
+    ru: "Вы достигли бы этого результата без помощи?"
+    source: { kind: authored }
+  - form: "osiągnęłybyście"
+    pl: "Kiedy osiągnęłybyście ten poziom?"
+    ru: "Когда бы вы достигли этого уровня?"
+    source: { kind: authored }
+  - form: "osiągnęłybyśmy"
+    pl: "Osiągnęłybyśmy więcej, gdybyśmy zaczęły wcześniej."
+    ru: "Мы достигли бы большего, если бы начали раньше."
+    source: { kind: authored }
+  - form: "osiągnęłybyśmy"
+    pl: "Chętnie osiągnęłybyśmy ten poziom w rok."
+    ru: "Мы охотно достигли бы этого уровня за год."
+    source: { kind: authored }
+  - form: "osiągnęłybyśmy"
+    pl: "Bez treningu nie osiągnęłybyśmy niczego."
+    ru: "Без тренировок мы не достигли бы ничего."
+    source: { kind: authored }
+  - form: "osiągnęłyście"
+    pl: "Osiągnęłyście już porozumienie?"
+    ru: "Вы уже достигли соглашения?"
+    source: { kind: authored }
+  - form: "osiągnęłyście"
+    pl: "Wczoraj osiągnęłyście rekordowy wynik."
+    ru: "Вчера вы достигли рекордного результата."
+    source: { kind: authored }
+  - form: "osiągnęłyście"
+    pl: "Czy osiągnęłyście zamierzony cel?"
+    ru: "Вы достигли намеченной цели?"
+    source: { kind: authored }
+  - form: "osiągnęłyśmy"
+    pl: "Osiągnęłyśmy porozumienie po długich rozmowach."
+    ru: "Мы достигли соглашения после долгих переговоров."
+    source: { kind: authored }
+  - form: "osiągnęłyśmy"
+    pl: "Wczoraj osiągnęłyśmy rekordowy wynik."
+    ru: "Вчера мы достигли рекордного результата."
+    source: { kind: authored }
+  - form: "osiągnęłyśmy"
+    pl: "Cel osiągnęłyśmy przed terminem."
+    ru: "Цели мы достигли до срока."
+    source: { kind: authored }
   - form: "osiągnie"
     pl: "Jestem pewien, że osiągnie sukces."
     ru: "Я уверен, что он добьётся успеха."
@@ -263,6 +435,18 @@ formExamples:
     pl: "Kto może zagwarantować, że on osiągnie sukces?"
     ru: "Кто может гарантировать, что он добьётся успеха?"
     source: { kind: translated, id: 965207 }
+  - form: "osiągniecie"
+    pl: "Osiągniecie ten poziom po roku pracy."
+    ru: "Вы достигнете этого уровня после года работы."
+    source: { kind: authored }
+  - form: "osiągniecie"
+    pl: "Czy osiągniecie porozumienie do piątku?"
+    ru: "Вы достигнете соглашения к пятнице?"
+    source: { kind: authored }
+  - form: "osiągniecie"
+    pl: "Bez treningu niczego nie osiągniecie."
+    ru: "Без тренировок вы ничего не достигнете."
+    source: { kind: authored }
   - form: "osiągniemy"
     pl: "Prawdopodobnie na późniejszym posiedzeniu osiągniemy wspólne stanowisko."
     ru: "Вероятно, на более позднем заседании мы достигнем общей позиции."
@@ -383,6 +567,18 @@ formExamples:
     pl: "Nie cofniemy osiągniętego wyniku."
     ru: "Достигнутый результат мы не отменим."
     source: { kind: authored }
+  - form: "osiągniętej"
+    pl: "Dotyczy to osiągniętej wczoraj zgody."
+    ru: "Это касается достигнутого вчера согласия."
+    source: { kind: authored }
+  - form: "osiągniętej"
+    pl: "Dzięki osiągniętej przewadze wygrali mecz."
+    ru: "Благодаря достигнутому преимуществу они выиграли матч."
+    source: { kind: authored }
+  - form: "osiągniętej"
+    pl: "W osiągniętej umowie brakuje jednego punktu."
+    ru: "В достигнутом договоре не хватает одного пункта."
+    source: { kind: authored }
   - form: "osiągniętemu"
     pl: "Przyjrzyj się osiągniętemu wynikowi."
     ru: "Присмотрись к достигнутому результату."
@@ -466,4 +662,28 @@ formExamples:
   - form: "osiągnij"
     pl: "Osiągnij to, co zaplanowałeś."
     ru: "Достигни того, что запланировал."
+    source: { kind: authored }
+  - form: "osiągnijcie"
+    pl: "Osiągnijcie wreszcie porozumienie!"
+    ru: "Достигните наконец соглашения!"
+    source: { kind: authored }
+  - form: "osiągnijcie"
+    pl: "Osiągnijcie ten poziom do końca sezonu."
+    ru: "Достигните этого уровня до конца сезона."
+    source: { kind: authored }
+  - form: "osiągnijcie"
+    pl: "Najpierw osiągnijcie zgodę, potem działajcie."
+    ru: "Сначала достигните согласия, потом действуйте."
+    source: { kind: authored }
+  - form: "osiągnijmy"
+    pl: "Osiągnijmy porozumienie jeszcze dziś."
+    ru: "Достигнем соглашения ещё сегодня."
+    source: { kind: authored }
+  - form: "osiągnijmy"
+    pl: "Osiągnijmy ten poziom do końca sezonu."
+    ru: "Достигнем этого уровня до конца сезона."
+    source: { kind: authored }
+  - form: "osiągnijmy"
+    pl: "Najpierw osiągnijmy zgodę, potem działajmy."
+    ru: "Сначала достигнем согласия, потом будем действовать."
     source: { kind: authored }
