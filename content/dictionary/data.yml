@@ -48,10 +48,19 @@ idioms:
   - { pl: "data urodzenia", ru: "дата рождения" }
   - { pl: "data ważności", ru: "срок годности" }
   - { pl: "ustalić datę", ru: "назначить дату" }
-formExamplesSkip:
-  - { form: "dacie", reason: "в корпусе оба примера на эту форму принадлежат другому слову — глаголу dać «дать» во 2-м лице множественного числа (Nie martwcie się, dacie radę), поэтому примеры не приводятся" }
-  - { form: "dato", reason: "звательная форма, в корпусе примеров нет" }
 formExamples:
+  - form: "dacie"
+    pl: "W tej dacie nikt już nie pamięta wydarzeń."
+    ru: "В эту дату никто уже не помнит событий."
+    source: { kind: authored }
+  - form: "dacie"
+    pl: "Po dacie ważności lek jest bezużyteczny."
+    ru: "После срока годности лекарство бесполезно."
+    source: { kind: authored }
+  - form: "dacie"
+    pl: "Przyjrzyj się tej dacie na dokumencie."
+    ru: "Присмотрись к этой дате на документе."
+    source: { kind: authored }
   - form: "dat"
     pl: "Nie pamiętam tylu dat."
     ru: "Я не помню столько дат."
@@ -124,6 +133,18 @@ formExamples:
     pl: "Jak zmienić datę w zegarku?"
     ru: "Как сменить дату на часах?"
     source: { kind: tatoeba, id: 8617750 }
+  - form: "dato"
+    pl: "Dato ślubu, nie daj się zapomnieć."
+    ru: "Дата свадьбы, не дай себя забыть."
+    source: { kind: authored }
+  - form: "dato"
+    pl: "Nieszczęsna dato, wszystko przez ciebie."
+    ru: "Несчастная дата, всё из-за тебя."
+    source: { kind: authored }
+  - form: "dato"
+    pl: "Dato dzisiejsza, zapiszemy cię w kronice."
+    ru: "Сегодняшняя дата, мы запишем тебя в хронику."
+    source: { kind: authored }
   - form: "datom"
     pl: "Przyjrzyj się tym datom."
     ru: "Присмотрись к этим датам."
