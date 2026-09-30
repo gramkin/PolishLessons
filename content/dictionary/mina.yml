@@ -49,9 +49,6 @@ formExamplesSkip:
   - { form: "min", reason: "единственный кандидат на эту форму — иностранное имя собственное, а не польское слово" }
   - { form: "mina", reason: "единственный кандидат на эту форму — личное имя Mina, а не нарицательное слово" }
   - { form: "minami", reason: "единственный кандидат на эту форму — иностранное имя собственное, а не польское слово" }
-  - { form: "miną", reason: "в корпусе все примеры на эту форму принадлежат другому слову — глаголу minąć «пройти, миновать» (Minie rok zanim się znowu zobaczymy), поэтому примеры не приводятся" }
-  - { form: "minie", reason: "в корпусе все примеры на эту форму принадлежат другому слову — глаголу minąć «пройти, миновать» (Minie rok zanim się znowu zobaczymy), поэтому примеры не приводятся" }
-  - { form: "mino", reason: "звательная форма, в корпусе примеров нет" }
 formExamples:
   - form: "minach"
     pl: "Po ich minach można sądzić, że ponieśli porażkę."
@@ -65,6 +62,18 @@ formExamples:
     pl: "W ich minach było zdziwienie."
     ru: "В их лицах было удивление."
     source: { kind: authored }
+  - form: "miną"
+    pl: "Z kwaśną miną odłożył widelec."
+    ru: "С кислой миной он отложил вилку."
+    source: { kind: authored }
+  - form: "miną"
+    pl: "Zdradził się miną, nie słowami."
+    ru: "Он выдал себя миной, не словами."
+    source: { kind: authored }
+  - form: "miną"
+    pl: "Z taką miną nie idzie się na wesele."
+    ru: "С такой миной на свадьбу не ходят."
+    source: { kind: authored }
   - form: "minę"
     pl: "Zrobiłem minę."
     ru: "Я состроил гримасу."
@@ -77,6 +86,30 @@ formExamples:
     pl: "Nauczyciel zrobił groźną minę."
     ru: "Учитель сделал грозное лицо."
     source: { kind: translated, id: 701618 }
+  - form: "minie"
+    pl: "Po jego minie poznałem wszystko."
+    ru: "По его мине я понял всё."
+    source: { kind: authored }
+  - form: "minie"
+    pl: "W tej minie było więcej pogardy niż złości."
+    ru: "В этой мине было больше презрения, чем злости."
+    source: { kind: authored }
+  - form: "minie"
+    pl: "Przyjrzyj się jego minie na tym zdjęciu."
+    ru: "Присмотрись к его мине на этом снимке."
+    source: { kind: authored }
+  - form: "mino"
+    pl: "Mino kwaśna, znikaj z jego twarzy!"
+    ru: "Кислая мина, исчезни с его лица!"
+    source: { kind: authored }
+  - form: "mino"
+    pl: "Głupia mino, zdradziłaś mnie znowu."
+    ru: "Глупая мина, ты меня снова выдала."
+    source: { kind: authored }
+  - form: "mino"
+    pl: "Mino niewinna, nikogo już nie zwiedziesz."
+    ru: "Невинная мина, ты уже никого не обманешь."
+    source: { kind: authored }
   - form: "minom"
     pl: "Przyjrzyj się tym minom na zdjęciu."
     ru: "Присмотрись к этим лицам на фотографии."
