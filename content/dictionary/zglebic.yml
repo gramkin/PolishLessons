@@ -49,24 +49,6 @@ formExamplesSkip:
   - { form: "zgłębij", reason: "форма образована генератором по ошибке. Повелительное наклонение у zgłębić строится усечением основы — zgłęb, zgłębcie, zgłębmy, как mówić даёт mów, а robić даёт rób. Окончание -ij бывает у глаголов со стечением согласных в основе, как zamknij, а у zgłębić основа кончается мягким губным, поэтому такой формы нет" }
   - { form: "zgłębijcie", reason: "форма образована генератором по ошибке. Повелительное наклонение у zgłębić строится усечением основы — zgłęb, zgłębcie, zgłębmy, как mówić даёт mów, а robić даёт rób. Окончание -ij бывает у глаголов со стечением согласных в основе, как zamknijcie, а у zgłębić основа кончается мягким губным, поэтому такой формы нет" }
   - { form: "zgłębijmy", reason: "форма образована генератором по ошибке. Повелительное наклонение у zgłębić строится усечением основы — zgłęb, zgłębcie, zgłębmy, как mówić даёт mów, а robić даёт rób. Окончание -ij бывает у глаголов со стечением согласных в основе, как zamknijmy, а у zgłębić основа кончается мягким губным, поэтому такой формы нет" }
-  - { form: "zgłębiliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębilibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębilibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zgłębiliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zgłębiłaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zgłębiłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zgłębiłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zgłębiwszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
   - form: "zgłęb"
     pl: "Zgłęb ten temat."
@@ -212,6 +194,66 @@ formExamples:
     pl: "Zgłębili podstawy gramatyki."
     ru: "Они досконально освоили основы грамматики."
     source: { kind: authored }
+  - form: "zgłębiliby"
+    pl: "Zgłębiliby temat do końca."
+    ru: "Они постигли бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiliby"
+    pl: "Chyba nie zgłębiliby tej tajemnicy."
+    ru: "Вряд ли они постигли бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiliby"
+    pl: "Dokładniej zgłębiliby całą sprawę."
+    ru: "Тщательнее они вникли бы во всё дело."
+    source: { kind: authored }
+  - form: "zgłębilibyście"
+    pl: "Czy zgłębilibyście ten temat do końca?"
+    ru: "Вы постигли бы эту тему до конца?"
+    source: { kind: authored }
+  - form: "zgłębilibyście"
+    pl: "Zgłębilibyście tę tajemnicę?"
+    ru: "Вы постигли бы эту тайну?"
+    source: { kind: authored }
+  - form: "zgłębilibyście"
+    pl: "Naprawdę zgłębilibyście całe zagadnienie?"
+    ru: "Вы правда вникли бы во весь вопрос?"
+    source: { kind: authored }
+  - form: "zgłębilibyśmy"
+    pl: "Zgłębilibyśmy temat do końca."
+    ru: "Мы постигли бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębilibyśmy"
+    pl: "Raczej nie zgłębilibyśmy tej tajemnicy."
+    ru: "Вряд ли мы постигли бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębilibyśmy"
+    pl: "Sprawę zgłębilibyśmy dokładniej."
+    ru: "Дело мы изучили бы тщательнее."
+    source: { kind: authored }
+  - form: "zgłębiliście"
+    pl: "Jak głęboko zgłębiliście ten temat?"
+    ru: "Как глубоко вы вникли в эту тему?"
+    source: { kind: authored }
+  - form: "zgłębiliście"
+    pl: "Zgłębiliście tajemnicę do końca."
+    ru: "Вы постигли тайну до конца."
+    source: { kind: authored }
+  - form: "zgłębiliście"
+    pl: "Sprawę zgłębiliście bardzo dokładnie."
+    ru: "Дело вы изучили очень тщательно."
+    source: { kind: authored }
+  - form: "zgłębiliśmy"
+    pl: "Zgłębiliśmy temat do końca."
+    ru: "Мы постигли тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiliśmy"
+    pl: "Tajemnicy nie zgłębiliśmy wcale."
+    ru: "Тайну мы вовсе не постигли."
+    source: { kind: authored }
+  - form: "zgłębiliśmy"
+    pl: "Sprawę zgłębiliśmy bardzo dokładnie."
+    ru: "Дело мы изучили очень тщательно."
+    source: { kind: authored }
   - form: "zgłębił"
     pl: "Zgłębił rzecz do końca."
     ru: "Он разобрался в деле до конца."
@@ -236,6 +278,42 @@ formExamples:
     pl: "Zgłębiła podstawy gramatyki."
     ru: "Она досконально освоила основы грамматики."
     source: { kind: authored }
+  - form: "zgłębiłaby"
+    pl: "Zgłębiłaby temat do końca."
+    ru: "Она постигла бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłaby"
+    pl: "Chyba nie zgłębiłaby tej tajemnicy."
+    ru: "Вряд ли она постигла бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiłaby"
+    pl: "Dokładniej zgłębiłaby całą sprawę."
+    ru: "Тщательнее она вникла бы во всё дело."
+    source: { kind: authored }
+  - form: "zgłębiłabym"
+    pl: "Zgłębiłabym temat do końca."
+    ru: "Я постигла бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłabym"
+    pl: "Raczej nie zgłębiłabym tej tajemnicy."
+    ru: "Вряд ли я постигла бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiłabym"
+    pl: "Sprawę zgłębiłabym dokładniej."
+    ru: "Дело я изучила бы тщательнее."
+    source: { kind: authored }
+  - form: "zgłębiłabyś"
+    pl: "Czy zgłębiłabyś ten temat do końca?"
+    ru: "Ты постигла бы эту тему до конца?"
+    source: { kind: authored }
+  - form: "zgłębiłabyś"
+    pl: "Zgłębiłabyś tę tajemnicę?"
+    ru: "Ты постигла бы эту тайну?"
+    source: { kind: authored }
+  - form: "zgłębiłabyś"
+    pl: "Naprawdę zgłębiłabyś całe zagadnienie?"
+    ru: "Ты правда вникла бы во весь вопрос?"
+    source: { kind: authored }
   - form: "zgłębiłam"
     pl: "Zgłębiłam rzecz do końca."
     ru: "Я разобралась в деле до конца."
@@ -259,6 +337,42 @@ formExamples:
   - form: "zgłębiłaś"
     pl: "Zgłębiłaś podstawy gramatyki."
     ru: "Ты досконально освоила основы грамматики."
+    source: { kind: authored }
+  - form: "zgłębiłby"
+    pl: "Zgłębiłby temat do końca."
+    ru: "Он постиг бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłby"
+    pl: "Chyba nie zgłębiłby tej tajemnicy."
+    ru: "Вряд ли он постиг бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiłby"
+    pl: "Dokładniej zgłębiłby całą sprawę."
+    ru: "Тщательнее он вник бы во всё дело."
+    source: { kind: authored }
+  - form: "zgłębiłbym"
+    pl: "Zgłębiłbym temat do końca."
+    ru: "Я постиг бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłbym"
+    pl: "Raczej nie zgłębiłbym tej tajemnicy."
+    ru: "Вряд ли я постиг бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiłbym"
+    pl: "Sprawę zgłębiłbym dokładniej."
+    ru: "Дело я изучил бы тщательнее."
+    source: { kind: authored }
+  - form: "zgłębiłbyś"
+    pl: "Czy zgłębiłbyś ten temat do końca?"
+    ru: "Ты постиг бы эту тему до конца?"
+    source: { kind: authored }
+  - form: "zgłębiłbyś"
+    pl: "Zgłębiłbyś tę tajemnicę?"
+    ru: "Ты постиг бы эту тайну?"
+    source: { kind: authored }
+  - form: "zgłębiłbyś"
+    pl: "Naprawdę zgłębiłbyś całe zagadnienie?"
+    ru: "Ты правда вник бы во весь вопрос?"
     source: { kind: authored }
   - form: "zgłębiłem"
     pl: "Zgłębiłem rzecz do końca."
@@ -296,6 +410,18 @@ formExamples:
     pl: "Nic tu nie zgłębiło sprawy."
     ru: "Ничто здесь не прояснило дела до конца."
     source: { kind: authored }
+  - form: "zgłębiłoby"
+    pl: "To dziecko zgłębiłoby każdy temat."
+    ru: "Этот ребёнок вник бы в любую тему."
+    source: { kind: authored }
+  - form: "zgłębiłoby"
+    pl: "Żadne z nich nie zgłębiłoby tajemnicy."
+    ru: "Ни один из них не постиг бы тайну."
+    source: { kind: authored }
+  - form: "zgłębiłoby"
+    pl: "Takie badanie zgłębiłoby całe zagadnienie."
+    ru: "Такое исследование охватило бы весь вопрос."
+    source: { kind: authored }
   - form: "zgłębiły"
     pl: "Pokolenia zgłębiły ten temat."
     ru: "Поколения досконально изучили эту тему."
@@ -307,6 +433,66 @@ formExamples:
   - form: "zgłębiły"
     pl: "Nie zgłębiły tajemnicy."
     ru: "Тайны они не постигли."
+    source: { kind: authored }
+  - form: "zgłębiłyby"
+    pl: "Te badania zgłębiłyby całe zagadnienie."
+    ru: "Эти исследования охватили бы весь вопрос."
+    source: { kind: authored }
+  - form: "zgłębiłyby"
+    pl: "Zgłębiłyby temat do końca."
+    ru: "Они постигли бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłyby"
+    pl: "Sprawę zgłębiłyby dokładniej."
+    ru: "Дело они изучили бы тщательнее."
+    source: { kind: authored }
+  - form: "zgłębiłybyście"
+    pl: "Czy zgłębiłybyście ten temat do końca?"
+    ru: "Вы постигли бы эту тему до конца?"
+    source: { kind: authored }
+  - form: "zgłębiłybyście"
+    pl: "Zgłębiłybyście tę tajemnicę?"
+    ru: "Вы постигли бы эту тайну?"
+    source: { kind: authored }
+  - form: "zgłębiłybyście"
+    pl: "Naprawdę zgłębiłybyście całe zagadnienie?"
+    ru: "Вы правда вникли бы во весь вопрос?"
+    source: { kind: authored }
+  - form: "zgłębiłybyśmy"
+    pl: "Zgłębiłybyśmy temat do końca."
+    ru: "Мы постигли бы тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłybyśmy"
+    pl: "Raczej nie zgłębiłybyśmy tej tajemnicy."
+    ru: "Вряд ли мы постигли бы эту тайну."
+    source: { kind: authored }
+  - form: "zgłębiłybyśmy"
+    pl: "Sprawę zgłębiłybyśmy dokładniej."
+    ru: "Дело мы изучили бы тщательнее."
+    source: { kind: authored }
+  - form: "zgłębiłyście"
+    pl: "Jak głęboko zgłębiłyście ten temat?"
+    ru: "Как глубоко вы вникли в эту тему?"
+    source: { kind: authored }
+  - form: "zgłębiłyście"
+    pl: "Zgłębiłyście tajemnicę do końca."
+    ru: "Вы постигли тайну до конца."
+    source: { kind: authored }
+  - form: "zgłębiłyście"
+    pl: "Sprawę zgłębiłyście bardzo dokładnie."
+    ru: "Дело вы изучили очень тщательно."
+    source: { kind: authored }
+  - form: "zgłębiłyśmy"
+    pl: "Zgłębiłyśmy temat do końca."
+    ru: "Мы постигли тему до конца."
+    source: { kind: authored }
+  - form: "zgłębiłyśmy"
+    pl: "Tajemnicy nie zgłębiłyśmy wcale."
+    ru: "Тайну мы вовсе не постигли."
+    source: { kind: authored }
+  - form: "zgłębiłyśmy"
+    pl: "Sprawę zgłębiłyśmy bardzo dokładnie."
+    ru: "Дело мы изучили очень тщательно."
     source: { kind: authored }
   - form: "zgłębimy"
     pl: "Zgłębimy ten temat."
@@ -463,6 +649,18 @@ formExamples:
   - form: "zgłębisz"
     pl: "Zgłębisz gramatykę do egzaminu."
     ru: "Ты углубишься в грамматику к экзамену."
+    source: { kind: authored }
+  - form: "zgłębiwszy"
+    pl: "Zgłębiwszy temat, napisał książkę."
+    ru: "Постигнув тему, он написал книгу."
+    source: { kind: authored }
+  - form: "zgłębiwszy"
+    pl: "Zgłębiwszy tajemnicę, zamilkł na zawsze."
+    ru: "Постигнув тайну, он замолчал навсегда."
+    source: { kind: authored }
+  - form: "zgłębiwszy"
+    pl: "Zgłębiwszy sprawę, zmienił zdanie."
+    ru: "Вникнув в дело, он переменил мнение."
     source: { kind: authored }
   - form: "zgłębmy"
     pl: "Zgłębmy ten temat."
