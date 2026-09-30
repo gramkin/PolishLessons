@@ -55,10 +55,6 @@ idioms:
   - { pl: "list polecony", ru: "заказное письмо" }
   - { pl: "list gończy", ru: "ориентировка, розыск" }
   - { pl: "napisać list", ru: "написать письмо" }
-formExamplesSkip:
-  - { form: "liście", reason: "по написанию совпадает сразу с двумя другими словами: liść «лист дерева» и lista «список». Все примеры корпуса относятся к ним, а не к слову list, и форма отдана карточке lista" }
-  - { form: "listom", reason: "в корпусе нет примеров для этого слова; форма вдобавок совпадает с формой слова lista «список»" }
-  - { form: "listowi", reason: "в корпусе нет примеров: дательный падеж единственного числа у этого слова редок" }
 formExamples:
   - form: "list"
     pl: "Czytam list."
@@ -108,6 +104,30 @@ formExamples:
     pl: "Przyszedł z listem w ręku."
     ru: "Он пришёл с письмом в руке."
     source: { kind: authored }
+  - form: "listom"
+    pl: "Listom z frontu nie było końca."
+    ru: "Письмам с фронта не было конца."
+    source: { kind: authored }
+  - form: "listom"
+    pl: "Przyjrzyj się tym listom uważnie."
+    ru: "Присмотрись к этим письмам внимательно."
+    source: { kind: authored }
+  - form: "listom"
+    pl: "Dzięki listom babci znamy tę historię."
+    ru: "Благодаря письмам бабушки мы знаем эту историю."
+    source: { kind: authored }
+  - form: "listowi"
+    pl: "Temu listowi nikt nie uwierzył."
+    ru: "Этому письму никто не поверил."
+    source: { kind: authored }
+  - form: "listowi"
+    pl: "Dzięki listowi od dyrektora dostał pracę."
+    ru: "Благодаря письму от директора он получил работу."
+    source: { kind: authored }
+  - form: "listowi"
+    pl: "Przyjrzyj się temu listowi jeszcze raz."
+    ru: "Присмотрись к этому письму ещё раз."
+    source: { kind: authored }
   - form: "listów"
     pl: "Nie pisz do mnie takich długich listów."
     ru: "Не пиши мне таких длинных писем."
@@ -144,3 +164,15 @@ formExamples:
     pl: "Tom pisał Mary długie listy."
     ru: "Том писал Мэри длинные письма."
     source: { kind: tatoeba, id: 11319003 }
+  - form: "liście"
+    pl: "W liście do matki nie wspomniał o chorobie."
+    ru: "В письме к матери он не упомянул о болезни."
+    source: { kind: authored }
+  - form: "liście"
+    pl: "O tym liście mówiło całe biuro."
+    ru: "Об этом письме говорила вся контора."
+    source: { kind: authored }
+  - form: "liście"
+    pl: "W ostatnim liście prosił o pomoc."
+    ru: "В последнем письме он просил о помощи."
+    source: { kind: authored }

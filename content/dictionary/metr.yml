@@ -55,8 +55,6 @@ idioms:
   - { pl: "metr kwadratowy", ru: "квадратный метр" }
   - { pl: "sto metrów", ru: "сто метров" }
 formExamplesSkip:
-  - { form: "metrem", reason: "по написанию совпадает с формой слова metro «метро», и все примеры корпуса относятся к нему, а не к единице длины: Jadę metrem «Я еду на метро», W metrze jest tłok «В метро тесно»" }
-  - { form: "metrze", reason: "по написанию совпадает с формой слова metro «метро», и все примеры корпуса относятся к нему, а не к единице длины: Jadę metrem «Я еду на метро», W metrze jest tłok «В метро тесно»" }
   - { form: "metrowie", reason: "эта форма принадлежит устаревшему значению «мэтр, учитель»; в корпусе примеров нет" }
 formExamples:
   - form: "metr"
@@ -107,6 +105,18 @@ formExamples:
     pl: "Posługuje się metrami, nie calami."
     ru: "Он пользуется метрами, а не дюймами."
     source: { kind: authored }
+  - form: "metrem"
+    pl: "Odmierzył deskę metrem stolarskim."
+    ru: "Он отмерил доску столярным метром."
+    source: { kind: authored }
+  - form: "metrem"
+    pl: "Różnią się od siebie metrem."
+    ru: "Они отличаются друг от друга на метр."
+    source: { kind: authored }
+  - form: "metrem"
+    pl: "Wysokość mierzy się metrem, nie krokami."
+    ru: "Высоту меряют метром, а не шагами."
+    source: { kind: authored }
   - form: "metrom"
     pl: "Metrom kwadratowym przypisano cenę."
     ru: "Квадратным метрам назначили цену."
@@ -155,3 +165,15 @@ formExamples:
     pl: "Ten otwór ma dwa metry średnicy."
     ru: "Это отверстие два метра в диаметре."
     source: { kind: tatoeba, id: 8287418 }
+  - form: "metrze"
+    pl: "W metrze sześciennym mieści się tysiąc litrów."
+    ru: "В кубическом метре помещается тысяча литров."
+    source: { kind: authored }
+  - form: "metrze"
+    pl: "O metrze bieżącym mówi się przy zakupie tkanin."
+    ru: "О погонном метре говорят при покупке тканей."
+    source: { kind: authored }
+  - form: "metrze"
+    pl: "Przy każdym metrze taśmy jest znacznik."
+    ru: "При каждом метре ленты есть метка."
+    source: { kind: authored }
