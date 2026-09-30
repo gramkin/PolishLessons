@@ -57,36 +57,21 @@ idioms:
   - { pl: "stanąć na nogi", ru: "встать на ноги" }
   - { pl: "włosy stanęły dęba", ru: "волосы встали дыбом" }
 formExamplesSkip:
-  - { form: "stanąłby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanąłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanąłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanąwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "stanęliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęlibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "stanęłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "stanęłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "stanęłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "staniecie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "staniemy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
-  - { form: "stanięcia", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "stanięcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "stanięciem", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "stanięciu", reason: "формы отглагольного существительного, в корпусе примеров нет" }
   - { form: "stanięto", reason: "безличная форма на -no/-to у непереходного глагола практически не живёт" }
-  - { form: "stańcie", reason: "формы отглагольного существительного, в корпусе примеров нет" }
-  - { form: "stańmy", reason: "формы повелительного наклонения, в корпусе примеров нет" }
   - { form: "stanie", reason: "форма почти всегда принадлежит другим словам: существительному stan (w stanie) и глаголу stać się" }
-  - { form: "staną", reason: "примеры в корпусе принадлежат глаголу stać się «стать» (staną się czerwone), а не stanąć «встать»" }
-  - { form: "staniesz", reason: "примеры в корпусе принадлежат глаголу stać się «стать» (staniesz się gruby), а не stanąć «встать»" }
 formExamples:
+  - form: "staną"
+    pl: "Pociągi staną na każdej stacji."
+    ru: "Поезда остановятся на каждой станции."
+    source: { kind: authored }
+  - form: "staną"
+    pl: "Jutro staną przed komisją."
+    ru: "Завтра они предстанут перед комиссией."
+    source: { kind: authored }
+  - form: "staną"
+    pl: "Wszyscy staną w jednym rzędzie."
+    ru: "Все встанут в один ряд."
+    source: { kind: authored }
   - form: "stanąć"
     pl: "Może pan tam stanąć?"
     ru: "Вы можете там встать?"
@@ -111,6 +96,42 @@ formExamples:
     pl: "Martino stanął po stronie Rimy i bronił jej."
     ru: "Мартино встал на сторону Римы и защищал её."
     source: { kind: tatoeba, id: 12524367 }
+  - form: "stanąłby"
+    pl: "Stanąłby w kolejce, gdyby było trzeba."
+    ru: "Он встал бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanąłby"
+    pl: "Brat stanąłby w drzwiach i nikogo nie wpuścił."
+    ru: "Брат встал бы в дверях и никого не впустил."
+    source: { kind: authored }
+  - form: "stanąłby"
+    pl: "Bez podpory nie stanąłby prosto."
+    ru: "Без опоры он не встал бы прямо."
+    source: { kind: authored }
+  - form: "stanąłbym"
+    pl: "Stanąłbym w kolejce, gdyby było trzeba."
+    ru: "Я встал бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanąłbym"
+    pl: "Bez podpory nie stanąłbym prosto."
+    ru: "Без опоры я не встал бы прямо."
+    source: { kind: authored }
+  - form: "stanąłbym"
+    pl: "Na twoim miejscu stanąłbym po jego stronie."
+    ru: "На твоём месте я встал бы на его сторону."
+    source: { kind: authored }
+  - form: "stanąłbyś"
+    pl: "Stanąłbyś w kolejce po bilety?"
+    ru: "Ты встал бы в очередь за билетами?"
+    source: { kind: authored }
+  - form: "stanąłbyś"
+    pl: "Czy stanąłbyś po mojej stronie?"
+    ru: "Ты встал бы на мою сторону?"
+    source: { kind: authored }
+  - form: "stanąłbyś"
+    pl: "Gdzie stanąłbyś, gdyby zabrakło miejsca?"
+    ru: "Где бы ты встал, если бы не хватило места?"
+    source: { kind: authored }
   - form: "stanąłem"
     pl: "Stanąłem obok niego."
     ru: "Я встал рядом с ним."
@@ -134,6 +155,18 @@ formExamples:
   - form: "stanąłeś"
     pl: "Stanąłeś na nogi po chorobie."
     ru: "Ты встал на ноги после болезни."
+    source: { kind: authored }
+  - form: "stanąwszy"
+    pl: "Stanąwszy w drzwiach, rozejrzał się po sali."
+    ru: "Встав в дверях, он оглядел зал."
+    source: { kind: authored }
+  - form: "stanąwszy"
+    pl: "Stanąwszy na szczycie, zobaczyli całą dolinę."
+    ru: "Встав на вершине, они увидели всю долину."
+    source: { kind: authored }
+  - form: "stanąwszy"
+    pl: "Stanąwszy przed komisją, stracił głos."
+    ru: "Встав перед комиссией, он потерял голос."
     source: { kind: authored }
   - form: "stanę"
     pl: "Szybko stanę na nogi."
@@ -159,6 +192,54 @@ formExamples:
     pl: "Doszli do dzielnicy bogaczy i stanęli przed ładną willą."
     ru: "Они дошли до квартала богачей и встали перед красивой виллой."
     source: { kind: translated, id: 2279153 }
+  - form: "stanęliby"
+    pl: "Stanęliby w kolejce, gdyby było trzeba."
+    ru: "Они встали бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęliby"
+    pl: "Sąsiedzi stanęliby po naszej stronie."
+    ru: "Соседи встали бы на нашу сторону."
+    source: { kind: authored }
+  - form: "stanęliby"
+    pl: "Bez podpory nie stanęliby prosto."
+    ru: "Без опоры они не встали бы прямо."
+    source: { kind: authored }
+  - form: "stanęlibyście"
+    pl: "Stanęlibyście w kolejce po bilety?"
+    ru: "Вы встали бы в очередь за билетами?"
+    source: { kind: authored }
+  - form: "stanęlibyście"
+    pl: "Czy stanęlibyście po mojej stronie?"
+    ru: "Вы встали бы на мою сторону?"
+    source: { kind: authored }
+  - form: "stanęlibyście"
+    pl: "Gdzie stanęlibyście, gdyby zabrakło miejsca?"
+    ru: "Где бы вы встали, если бы не хватило места?"
+    source: { kind: authored }
+  - form: "stanęlibyśmy"
+    pl: "Stanęlibyśmy w kolejce, gdyby było trzeba."
+    ru: "Мы встали бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęlibyśmy"
+    pl: "Bez podpory nie stanęlibyśmy prosto."
+    ru: "Без опоры мы не встали бы прямо."
+    source: { kind: authored }
+  - form: "stanęlibyśmy"
+    pl: "Na twoim miejscu stanęlibyśmy po jego stronie."
+    ru: "На твоём месте мы встали бы на его сторону."
+    source: { kind: authored }
+  - form: "stanęliście"
+    pl: "Stanęliście w złym miejscu."
+    ru: "Вы встали не в том месте."
+    source: { kind: authored }
+  - form: "stanęliście"
+    pl: "Wczoraj stanęliście w kolejce po bilety."
+    ru: "Вчера вы встали в очередь за билетами."
+    source: { kind: authored }
+  - form: "stanęliście"
+    pl: "Po czyjej stronie stanęliście?"
+    ru: "На чью сторону вы встали?"
+    source: { kind: authored }
   - form: "stanęliśmy"
     pl: "Stanęliśmy wobec trudnej sytuacji."
     ru: "Мы оказались перед трудной ситуацией."
@@ -183,6 +264,42 @@ formExamples:
     pl: "Stanęła przed nim i zażądała przeprosin."
     ru: "Она встала перед ним и потребовала извинений."
     source: { kind: translated, id: 3034164 }
+  - form: "stanęłaby"
+    pl: "Stanęłaby w kolejce, gdyby było trzeba."
+    ru: "Она встала бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęłaby"
+    pl: "Siostra stanęłaby w drzwiach i nikogo nie wpuściła."
+    ru: "Сестра встала бы в дверях и никого не впустила."
+    source: { kind: authored }
+  - form: "stanęłaby"
+    pl: "Bez podpory nie stanęłaby prosto."
+    ru: "Без опоры она не встала бы прямо."
+    source: { kind: authored }
+  - form: "stanęłabym"
+    pl: "Stanęłabym w kolejce, gdyby było trzeba."
+    ru: "Я встала бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęłabym"
+    pl: "Bez podpory nie stanęłabym prosto."
+    ru: "Без опоры я не встала бы прямо."
+    source: { kind: authored }
+  - form: "stanęłabym"
+    pl: "Na twoim miejscu stanęłabym po jego stronie."
+    ru: "На твоём месте я встала бы на его сторону."
+    source: { kind: authored }
+  - form: "stanęłabyś"
+    pl: "Stanęłabyś w kolejce po bilety?"
+    ru: "Ты встала бы в очередь за билетами?"
+    source: { kind: authored }
+  - form: "stanęłabyś"
+    pl: "Czy stanęłabyś po mojej stronie?"
+    ru: "Ты встала бы на мою сторону?"
+    source: { kind: authored }
+  - form: "stanęłabyś"
+    pl: "Gdzie stanęłabyś, gdyby zabrakło miejsca?"
+    ru: "Где бы ты встала, если бы не хватило места?"
+    source: { kind: authored }
   - form: "stanęłam"
     pl: "Szyja mi chrupnęła, gdy stanęłam na głowie."
     ru: "У меня хрустнула шея, когда я встала на голову."
@@ -219,6 +336,18 @@ formExamples:
     pl: "Wiele zakładów stanęło w zeszłym roku."
     ru: "Многие заводы встали в прошлом году."
     source: { kind: authored }
+  - form: "stanęłoby"
+    pl: "Dziecko stanęłoby na palcach, żeby sięgnąć półki."
+    ru: "Ребёнок встал бы на цыпочки, чтобы дотянуться до полки."
+    source: { kind: authored }
+  - form: "stanęłoby"
+    pl: "Auto stanęłoby na środku drogi."
+    ru: "Машина встала бы посреди дороги."
+    source: { kind: authored }
+  - form: "stanęłoby"
+    pl: "Całe miasto stanęłoby w korkach."
+    ru: "Весь город встал бы в пробках."
+    source: { kind: authored }
   - form: "stanęły"
     pl: "Włosy stanęły mu dęba."
     ru: "У него волосы встали дыбом."
@@ -230,6 +359,150 @@ formExamples:
   - form: "stanęły"
     pl: "Zegary stanęły o północy."
     ru: "Часы встали в полночь."
+    source: { kind: authored }
+  - form: "stanęłyby"
+    pl: "Stanęłyby w kolejce, gdyby było trzeba."
+    ru: "Они встали бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęłyby"
+    pl: "Pociągi stanęłyby na wszystkich stacjach."
+    ru: "Поезда встали бы на всех станциях."
+    source: { kind: authored }
+  - form: "stanęłyby"
+    pl: "Bez podpory nie stanęłyby prosto."
+    ru: "Без опоры они не встали бы прямо."
+    source: { kind: authored }
+  - form: "stanęłybyście"
+    pl: "Stanęłybyście w kolejce po bilety?"
+    ru: "Вы встали бы в очередь за билетами?"
+    source: { kind: authored }
+  - form: "stanęłybyście"
+    pl: "Czy stanęłybyście po mojej stronie?"
+    ru: "Вы встали бы на мою сторону?"
+    source: { kind: authored }
+  - form: "stanęłybyście"
+    pl: "Gdzie stanęłybyście, gdyby zabrakło miejsca?"
+    ru: "Где бы вы встали, если бы не хватило места?"
+    source: { kind: authored }
+  - form: "stanęłybyśmy"
+    pl: "Stanęłybyśmy w kolejce, gdyby było trzeba."
+    ru: "Мы встали бы в очередь, если бы было нужно."
+    source: { kind: authored }
+  - form: "stanęłybyśmy"
+    pl: "Bez podpory nie stanęłybyśmy prosto."
+    ru: "Без опоры мы не встали бы прямо."
+    source: { kind: authored }
+  - form: "stanęłybyśmy"
+    pl: "Na twoim miejscu stanęłybyśmy po jego stronie."
+    ru: "На твоём месте мы встали бы на его сторону."
+    source: { kind: authored }
+  - form: "stanęłyście"
+    pl: "Stanęłyście w złym miejscu."
+    ru: "Вы встали не в том месте."
+    source: { kind: authored }
+  - form: "stanęłyście"
+    pl: "Wczoraj stanęłyście w kolejce po bilety."
+    ru: "Вчера вы встали в очередь за билетами."
+    source: { kind: authored }
+  - form: "stanęłyście"
+    pl: "Po czyjej stronie stanęłyście?"
+    ru: "На чью сторону вы встали?"
+    source: { kind: authored }
+  - form: "stanęłyśmy"
+    pl: "Stanęłyśmy w złym miejscu."
+    ru: "Мы встали не в том месте."
+    source: { kind: authored }
+  - form: "stanęłyśmy"
+    pl: "Wczoraj stanęłyśmy w kolejce po bilety."
+    ru: "Вчера мы встали в очередь за билетами."
+    source: { kind: authored }
+  - form: "stanęłyśmy"
+    pl: "Po jego stronie stanęłyśmy od razu."
+    ru: "На его сторону мы встали сразу."
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "Gdzie staniecie na nocleg?"
+    ru: "Где вы остановитесь на ночлег?"
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "Jutro staniecie przed komisją."
+    ru: "Завтра вы предстанете перед комиссией."
+    source: { kind: authored }
+  - form: "staniecie"
+    pl: "W kolejce staniecie razem z nami."
+    ru: "В очередь вы встанете вместе с нами."
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "Gdzie staniemy na nocleg?"
+    ru: "Где мы остановимся на ночлег?"
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "Jutro staniemy przed komisją."
+    ru: "Завтра мы предстанем перед комиссией."
+    source: { kind: authored }
+  - form: "staniemy"
+    pl: "W kolejce staniemy razem z wami."
+    ru: "В очередь мы встанем вместе с вами."
+    source: { kind: authored }
+  - form: "staniesz"
+    pl: "Gdzie staniesz na nocleg?"
+    ru: "Где ты остановишься на ночлег?"
+    source: { kind: authored }
+  - form: "staniesz"
+    pl: "Jutro staniesz przed komisją."
+    ru: "Завтра ты предстанешь перед комиссией."
+    source: { kind: authored }
+  - form: "staniesz"
+    pl: "W kolejce staniesz razem z nami."
+    ru: "В очередь ты встанешь вместе с нами."
+    source: { kind: authored }
+  - form: "stanięcia"
+    pl: "Nie ma tu miejsca do stanięcia."
+    ru: "Здесь нет места, чтобы встать."
+    source: { kind: authored }
+  - form: "stanięcia"
+    pl: "Od stanięcia na nogi dzieliły go miesiące."
+    ru: "От того, чтобы встать на ноги, его отделяли месяцы."
+    source: { kind: authored }
+  - form: "stanięcia"
+    pl: "Bali się stanięcia przed komisją."
+    ru: "Они боялись предстать перед комиссией."
+    source: { kind: authored }
+  - form: "stanięcie"
+    pl: "Stanięcie na nogi zajęło mu rok."
+    ru: "Чтобы встать на ноги, ему понадобился год."
+    source: { kind: authored }
+  - form: "stanięcie"
+    pl: "Stanięcie przed sądem nikogo nie cieszy."
+    ru: "Предстать перед судом никого не радует."
+    source: { kind: authored }
+  - form: "stanięcie"
+    pl: "Stanięcie w kolejce to jeszcze nie zwycięstwo."
+    ru: "Встать в очередь — это ещё не победа."
+    source: { kind: authored }
+  - form: "stanięciem"
+    pl: "Przed stanięciem przed komisją długo ćwiczył."
+    ru: "Перед тем как предстать перед комиссией, он долго репетировал."
+    source: { kind: authored }
+  - form: "stanięciem"
+    pl: "Ze stanięciem na nogi nie było łatwo."
+    ru: "Встать на ноги было непросто."
+    source: { kind: authored }
+  - form: "stanięciem"
+    pl: "Przed stanięciem w kolejce sprawdź godziny."
+    ru: "Прежде чем встать в очередь, проверь часы."
+    source: { kind: authored }
+  - form: "stanięciu"
+    pl: "Po stanięciu na szczycie odetchnęli z ulgą."
+    ru: "Встав на вершину, они вздохнули с облегчением."
+    source: { kind: authored }
+  - form: "stanięciu"
+    pl: "Dzięki stanięciu w cieniu przetrwali upał."
+    ru: "Благодаря тому, что встали в тени, они пережили жару."
+    source: { kind: authored }
+  - form: "stanięciu"
+    pl: "Przyjrzyj się temu stanięciu w pół kroku."
+    ru: "Присмотрись к этой остановке на полушаге."
     source: { kind: authored }
   - form: "stań"
     pl: "Stań tam."
@@ -243,3 +516,27 @@ formExamples:
     pl: "Stań w kolejce."
     ru: "Встаньте в очередь."
     source: { kind: tatoeba, id: 10695782 }
+  - form: "stańcie"
+    pl: "Stańcie w rzędzie przy oknie."
+    ru: "Встаньте в ряд у окна."
+    source: { kind: authored }
+  - form: "stańcie"
+    pl: "Proszę, stańcie bliżej siebie."
+    ru: "Пожалуйста, встаньте ближе друг к другу."
+    source: { kind: authored }
+  - form: "stańcie"
+    pl: "Stańcie tam, gdzie widać scenę."
+    ru: "Встаньте там, откуда видно сцену."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy w cieniu, tu jest za gorąco."
+    ru: "Встанем в тени, здесь слишком жарко."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy na chwilę i odpocznijmy."
+    ru: "Остановимся на минутку и отдохнём."
+    source: { kind: authored }
+  - form: "stańmy"
+    pl: "Stańmy bliżej sceny."
+    ru: "Встанем ближе к сцене."
+    source: { kind: authored }
