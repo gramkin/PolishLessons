@@ -43,25 +43,10 @@ idioms:
   - { pl: "zanieść do domu", ru: "отнести домой" }
 formExamplesSkip:
   - { form: "zaniesieni", reason: "страдательное причастие мужского лица, а относят вещь: примечание к карточке даёт zanieść do pokoju, zaniosłem mu kawę, где человек стоит в дательном падеже как адресат. Подлежащим страдательного оборота становится вещь, но не он" }
-  - { form: "zanieście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zanieśliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zanieślibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zanieślibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zanieśliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zanieśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
   - { form: "zaniosł", reason: "форма образована генератором по ошибке: в закрытом слоге здесь обязательно ó. Мужская форма прошедшего времени пишется zaniósł, как в zaniósłszy, которое стоит рядом в той же таблице" }
-  - { form: "zaniosłaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zaniosłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zaniosłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
+  - { form: "zaniosłby", reason: "форма образована генератором по ошибке: в закрытом слоге здесь обязательно ó. Мужская форма прошедшего времени — zaniósł, и частица by слога не размыкает, так что правильно zaniósłby, zaniósłbym, zaniósłbyś — как mógł → mógłby. Форма zaniosł исключена выше по той же причине; правильных написаний генератор не выдал вовсе" }
+  - { form: "zaniosłbym", reason: "форма образована генератором по ошибке: в закрытом слоге здесь обязательно ó. Мужская форма прошедшего времени — zaniósł, и частица by слога не размыкает, так что правильно zaniósłby, zaniósłbym, zaniósłbyś — как mógł → mógłby. Форма zaniosł исключена выше по той же причине; правильных написаний генератор не выдал вовсе" }
+  - { form: "zaniosłbyś", reason: "форма образована генератором по ошибке: в закрытом слоге здесь обязательно ó. Мужская форма прошедшего времени — zaniósł, и частица by слога не размыкает, так что правильно zaniósłby, zaniósłbym, zaniósłbyś — как mógł → mógłby. Форма zaniosł исключена выше по той же причине; правильных написаний генератор не выдал вовсе" }
 formExamples:
   - form: "zaniesie"
     pl: "On zaniesie mi to pudło na pierwsze piętro."
@@ -303,6 +288,18 @@ formExamples:
     pl: "Zanieś to na pocztę."
     ru: "Отнеси это на почту."
     source: { kind: authored }
+  - form: "zanieście"
+    pl: "Zanieście to wszystko na górę."
+    ru: "Отнесите всё это наверх."
+    source: { kind: authored }
+  - form: "zanieście"
+    pl: "Zanieście mu kawę do pokoju."
+    ru: "Отнесите ему кофе в комнату."
+    source: { kind: authored }
+  - form: "zanieście"
+    pl: "Zanieście paczkę do domu."
+    ru: "Отнесите посылку домой."
+    source: { kind: authored }
   - form: "zanieść"
     pl: "Proszę zanieść te torby na górę."
     ru: "Отнесите, пожалуйста, эти сумки наверх."
@@ -327,6 +324,54 @@ formExamples:
     pl: "Nie zanieśli tego sami."
     ru: "Сами они это не отнесли."
     source: { kind: authored }
+  - form: "zanieśliby"
+    pl: "Zanieśliby paczkę do domu."
+    ru: "Они отнесли бы посылку домой."
+    source: { kind: authored }
+  - form: "zanieśliby"
+    pl: "Chyba nie zanieśliby tego na górę."
+    ru: "Вряд ли они отнесли бы это наверх."
+    source: { kind: authored }
+  - form: "zanieśliby"
+    pl: "Kawę zanieśliby mu do pokoju."
+    ru: "Кофе они отнесли бы ему в комнату."
+    source: { kind: authored }
+  - form: "zanieślibyście"
+    pl: "Czy zanieślibyście paczkę do domu?"
+    ru: "Вы отнесли бы посылку домой?"
+    source: { kind: authored }
+  - form: "zanieślibyście"
+    pl: "Zanieślibyście to na górę?"
+    ru: "Вы отнесли бы это наверх?"
+    source: { kind: authored }
+  - form: "zanieślibyście"
+    pl: "Naprawdę zanieślibyście mu kawę?"
+    ru: "Вы правда отнесли бы ему кофе?"
+    source: { kind: authored }
+  - form: "zanieślibyśmy"
+    pl: "Zanieślibyśmy paczkę do domu."
+    ru: "Мы отнесли бы посылку домой."
+    source: { kind: authored }
+  - form: "zanieślibyśmy"
+    pl: "Raczej nie zanieślibyśmy tego na górę."
+    ru: "Вряд ли мы отнесли бы это наверх."
+    source: { kind: authored }
+  - form: "zanieślibyśmy"
+    pl: "Kawę zanieślibyśmy mu do pokoju."
+    ru: "Кофе мы отнесли бы ему в комнату."
+    source: { kind: authored }
+  - form: "zanieśliście"
+    pl: "Gdzie zanieśliście tę paczkę?"
+    ru: "Куда вы отнесли эту посылку?"
+    source: { kind: authored }
+  - form: "zanieśliście"
+    pl: "Zanieśliście to na samą górę?"
+    ru: "Вы отнесли это на самый верх?"
+    source: { kind: authored }
+  - form: "zanieśliście"
+    pl: "Kawę zanieśliście mu do pokoju."
+    ru: "Кофе вы отнесли ему в комнату."
+    source: { kind: authored }
   - form: "zanieśliśmy"
     pl: "Zanieśliśmy ten komputer do biura."
     ru: "Мы отнесли этот компьютер в контору."
@@ -338,6 +383,18 @@ formExamples:
   - form: "zanieśliśmy"
     pl: "Zanieśliśmy mu obiad."
     ru: "Мы отнесли ему обед."
+    source: { kind: authored }
+  - form: "zanieśmy"
+    pl: "Zanieśmy to wszystko na górę."
+    ru: "Отнесём всё это наверх."
+    source: { kind: authored }
+  - form: "zanieśmy"
+    pl: "Zanieśmy mu kawę do pokoju."
+    ru: "Отнесём ему кофе в комнату."
+    source: { kind: authored }
+  - form: "zanieśmy"
+    pl: "Zanieśmy paczkę do domu."
+    ru: "Отнесём посылку домой."
     source: { kind: authored }
   - form: "zaniosą"
     pl: "Zaniosą mu kawę."
@@ -374,6 +431,42 @@ formExamples:
   - form: "zaniosła"
     pl: "Nie zaniosła tego sama."
     ru: "Сама она это не отнесла."
+    source: { kind: authored }
+  - form: "zaniosłaby"
+    pl: "Zaniosłaby paczkę do domu."
+    ru: "Она отнесла бы посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłaby"
+    pl: "Chyba nie zaniosłaby tego na górę."
+    ru: "Вряд ли она отнесла бы это наверх."
+    source: { kind: authored }
+  - form: "zaniosłaby"
+    pl: "Kawę zaniosłaby mu do pokoju."
+    ru: "Кофе она отнесла бы ему в комнату."
+    source: { kind: authored }
+  - form: "zaniosłabym"
+    pl: "Zaniosłabym paczkę do domu."
+    ru: "Я отнесла бы посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłabym"
+    pl: "Raczej nie zaniosłabym tego na górę."
+    ru: "Вряд ли я отнесла бы это наверх."
+    source: { kind: authored }
+  - form: "zaniosłabym"
+    pl: "Kawę zaniosłabym mu do pokoju."
+    ru: "Кофе я отнесла бы ему в комнату."
+    source: { kind: authored }
+  - form: "zaniosłabyś"
+    pl: "Czy zaniosłabyś paczkę do domu?"
+    ru: "Ты отнесла бы посылку домой?"
+    source: { kind: authored }
+  - form: "zaniosłabyś"
+    pl: "Zaniosłabyś to na górę?"
+    ru: "Ты отнесла бы это наверх?"
+    source: { kind: authored }
+  - form: "zaniosłabyś"
+    pl: "Naprawdę zaniosłabyś mu kawę?"
+    ru: "Ты правда отнесла бы ему кофе?"
     source: { kind: authored }
   - form: "zaniosłam"
     pl: "Zaniosłam mu kawę."
@@ -435,6 +528,18 @@ formExamples:
     pl: "Coś go zaniosło na drugi koniec miasta."
     ru: "Его занесло на другой конец города."
     source: { kind: authored }
+  - form: "zaniosłoby"
+    pl: "To dziecko zaniosłoby paczkę do domu."
+    ru: "Этот ребёнок отнёс бы посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłoby"
+    pl: "Żadne z nich nie zaniosłoby tego na górę."
+    ru: "Ни один из них не отнёс бы это наверх."
+    source: { kind: authored }
+  - form: "zaniosłoby"
+    pl: "Takie zwierzę zaniosłoby wszystko do nory."
+    ru: "Такой зверь утащил бы всё в нору."
+    source: { kind: authored }
   - form: "zaniosły"
     pl: "Dzieci zaniosły list na pocztę."
     ru: "Дети отнесли письмо на почту."
@@ -446,6 +551,66 @@ formExamples:
   - form: "zaniosły"
     pl: "Nie zaniosły torb."
     ru: "Они не отнесли сумок."
+    source: { kind: authored }
+  - form: "zaniosłyby"
+    pl: "Te dzieci zaniosłyby paczkę do domu."
+    ru: "Эти дети отнесли бы посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłyby"
+    pl: "Zaniosłyby to na górę bez skargi."
+    ru: "Они отнесли бы это наверх без жалоб."
+    source: { kind: authored }
+  - form: "zaniosłyby"
+    pl: "Kawę zaniosłyby mu do pokoju."
+    ru: "Кофе они отнесли бы ему в комнату."
+    source: { kind: authored }
+  - form: "zaniosłybyście"
+    pl: "Czy zaniosłybyście paczkę do domu?"
+    ru: "Вы отнесли бы посылку домой?"
+    source: { kind: authored }
+  - form: "zaniosłybyście"
+    pl: "Zaniosłybyście to na górę?"
+    ru: "Вы отнесли бы это наверх?"
+    source: { kind: authored }
+  - form: "zaniosłybyście"
+    pl: "Naprawdę zaniosłybyście mu kawę?"
+    ru: "Вы правда отнесли бы ему кофе?"
+    source: { kind: authored }
+  - form: "zaniosłybyśmy"
+    pl: "Zaniosłybyśmy paczkę do domu."
+    ru: "Мы отнесли бы посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłybyśmy"
+    pl: "Raczej nie zaniosłybyśmy tego na górę."
+    ru: "Вряд ли мы отнесли бы это наверх."
+    source: { kind: authored }
+  - form: "zaniosłybyśmy"
+    pl: "Kawę zaniosłybyśmy mu do pokoju."
+    ru: "Кофе мы отнесли бы ему в комнату."
+    source: { kind: authored }
+  - form: "zaniosłyście"
+    pl: "Gdzie zaniosłyście tę paczkę?"
+    ru: "Куда вы отнесли эту посылку?"
+    source: { kind: authored }
+  - form: "zaniosłyście"
+    pl: "Zaniosłyście to na samą górę?"
+    ru: "Вы отнесли это на самый верх?"
+    source: { kind: authored }
+  - form: "zaniosłyście"
+    pl: "Kawę zaniosłyście mu do pokoju."
+    ru: "Кофе вы отнесли ему в комнату."
+    source: { kind: authored }
+  - form: "zaniosłyśmy"
+    pl: "Zaniosłyśmy paczkę do domu."
+    ru: "Мы отнесли посылку домой."
+    source: { kind: authored }
+  - form: "zaniosłyśmy"
+    pl: "Na górę zaniosłyśmy wszystkie pudła."
+    ru: "Наверх мы отнесли все коробки."
+    source: { kind: authored }
+  - form: "zaniosłyśmy"
+    pl: "Kawę zaniosłyśmy mu do pokoju."
+    ru: "Кофе мы отнесли ему в комнату."
     source: { kind: authored }
   - form: "zaniósł"
     pl: "Ukradł matce telefon i zaniósł go do lombardu."
