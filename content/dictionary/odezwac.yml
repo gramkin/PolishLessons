@@ -41,25 +41,6 @@ memory: "odezwać się — «подать голос» и «дать о себе
 idioms:
   - { pl: "odezwać się do kogoś", ru: "обратиться к кому-л." }
   - { pl: "nie odezwać się ani słowem", ru: "не сказать ни слова" }
-formExamplesSkip:
-  - { form: "odezwaliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwalibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwalibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwaliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odezwaliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odezwałaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "odezwałyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odezwałyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "odezwawszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
   - form: "odezwać"
     pl: "Boisz się odezwać?"
@@ -85,6 +66,66 @@ formExamples:
     pl: "Odezwali się po tygodniu."
     ru: "Они дали о себе знать через неделю."
     source: { kind: authored }
+  - form: "odezwaliby"
+    pl: "Odezwaliby się pierwsi, gdyby nie duma."
+    ru: "Они отозвались бы первыми, если бы не гордость."
+    source: { kind: authored }
+  - form: "odezwaliby"
+    pl: "Koledzy odezwaliby się po tygodniu."
+    ru: "Товарищи отозвались бы через неделю."
+    source: { kind: authored }
+  - form: "odezwaliby"
+    pl: "Bez powodu nie odezwaliby się wcale."
+    ru: "Без причины они не отозвались бы вовсе."
+    source: { kind: authored }
+  - form: "odezwalibyście"
+    pl: "Odezwalibyście się po tylu latach?"
+    ru: "Вы отозвались бы после стольких лет?"
+    source: { kind: authored }
+  - form: "odezwalibyście"
+    pl: "Czy odezwalibyście się pierwsi?"
+    ru: "Вы отозвались бы первыми?"
+    source: { kind: authored }
+  - form: "odezwalibyście"
+    pl: "Kiedy odezwalibyście się najchętniej?"
+    ru: "Когда бы вы отозвались охотнее всего?"
+    source: { kind: authored }
+  - form: "odezwalibyśmy"
+    pl: "Odezwalibyśmy się pierwsi, gdybyśmy wiedzieli co powiedzieć."
+    ru: "Мы отозвались бы первыми, если бы знали, что сказать."
+    source: { kind: authored }
+  - form: "odezwalibyśmy"
+    pl: "Chętnie odezwalibyśmy się do nich jutro."
+    ru: "Мы охотно отозвались бы к ним завтра."
+    source: { kind: authored }
+  - form: "odezwalibyśmy"
+    pl: "Bez powodu nie odezwalibyśmy się wcale."
+    ru: "Без причины мы не отозвались бы вовсе."
+    source: { kind: authored }
+  - form: "odezwaliście"
+    pl: "Odezwaliście się wreszcie!"
+    ru: "Вы наконец отозвались!"
+    source: { kind: authored }
+  - form: "odezwaliście"
+    pl: "Wczoraj odezwaliście się pierwsi."
+    ru: "Вчера вы отозвались первыми."
+    source: { kind: authored }
+  - form: "odezwaliście"
+    pl: "Czy odezwaliście się do rodziców?"
+    ru: "Вы отозвались к родителям?"
+    source: { kind: authored }
+  - form: "odezwaliśmy"
+    pl: "Odezwaliśmy się do nich dopiero po roku."
+    ru: "Мы отозвались к ним только через год."
+    source: { kind: authored }
+  - form: "odezwaliśmy"
+    pl: "Wczoraj odezwaliśmy się pierwsi."
+    ru: "Вчера мы отозвались первыми."
+    source: { kind: authored }
+  - form: "odezwaliśmy"
+    pl: "Do redakcji odezwaliśmy się listownie."
+    ru: "В редакцию мы обратились письменно."
+    source: { kind: authored }
   - form: "odezwał"
     pl: "Nareszcie ktoś się odezwał."
     ru: "Наконец кто-то подал голос."
@@ -109,6 +150,42 @@ formExamples:
     pl: "Odezwała się dopiero wieczorem."
     ru: "Она дала о себе знать только вечером."
     source: { kind: authored }
+  - form: "odezwałaby"
+    pl: "Odezwałaby się pierwsza, gdyby nie duma."
+    ru: "Она отозвалась бы первой, если бы не гордость."
+    source: { kind: authored }
+  - form: "odezwałaby"
+    pl: "Siostra odezwałaby się po tygodniu milczenia."
+    ru: "Сестра отозвалась бы после недели молчания."
+    source: { kind: authored }
+  - form: "odezwałaby"
+    pl: "Bez powodu nie odezwałaby się wcale."
+    ru: "Без причины она не отозвалась бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałabym"
+    pl: "Odezwałabym się pierwsza, gdybym wiedziała co powiedzieć."
+    ru: "Я отозвалась бы первой, если бы знала, что сказать."
+    source: { kind: authored }
+  - form: "odezwałabym"
+    pl: "Chętnie odezwałabym się do nich jutro."
+    ru: "Я охотно отозвалась бы к ним завтра."
+    source: { kind: authored }
+  - form: "odezwałabym"
+    pl: "Bez powodu nie odezwałabym się wcale."
+    ru: "Без причины я не отозвалась бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałabyś"
+    pl: "Odezwałabyś się do niej po tylu latach?"
+    ru: "Ты отозвалась бы к ней после стольких лет?"
+    source: { kind: authored }
+  - form: "odezwałabyś"
+    pl: "Czy odezwałabyś się pierwsza?"
+    ru: "Ты отозвалась бы первой?"
+    source: { kind: authored }
+  - form: "odezwałabyś"
+    pl: "Kiedy odezwałabyś się najchętniej?"
+    ru: "Когда бы ты отозвалась охотнее всего?"
+    source: { kind: authored }
   - form: "odezwałam"
     pl: "Nie wiedziałam co powiedzieć, więc nie odezwałam się wcale."
     ru: "Я не знала, что сказать, поэтому вовсе не подала голоса."
@@ -132,6 +209,42 @@ formExamples:
   - form: "odezwałaś"
     pl: "Czemu się nie odezwałaś?"
     ru: "Почему ты не отозвалась?"
+    source: { kind: authored }
+  - form: "odezwałby"
+    pl: "Odezwałby się pierwszy, gdyby nie duma."
+    ru: "Он отозвался бы первым, если бы не гордость."
+    source: { kind: authored }
+  - form: "odezwałby"
+    pl: "Brat odezwałby się po tygodniu milczenia."
+    ru: "Брат отозвался бы после недели молчания."
+    source: { kind: authored }
+  - form: "odezwałby"
+    pl: "Bez powodu nie odezwałby się wcale."
+    ru: "Без причины он не отозвался бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałbym"
+    pl: "Odezwałbym się pierwszy, gdybym wiedział co powiedzieć."
+    ru: "Я отозвался бы первым, если бы знал, что сказать."
+    source: { kind: authored }
+  - form: "odezwałbym"
+    pl: "Chętnie odezwałbym się do nich jutro."
+    ru: "Я охотно отозвался бы к ним завтра."
+    source: { kind: authored }
+  - form: "odezwałbym"
+    pl: "Bez powodu nie odezwałbym się wcale."
+    ru: "Без причины я не отозвался бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałbyś"
+    pl: "Odezwałbyś się do niej po tylu latach?"
+    ru: "Ты отозвался бы к ней после стольких лет?"
+    source: { kind: authored }
+  - form: "odezwałbyś"
+    pl: "Czy odezwałbyś się pierwszy?"
+    ru: "Ты отозвался бы первым?"
+    source: { kind: authored }
+  - form: "odezwałbyś"
+    pl: "Kiedy odezwałbyś się najchętniej?"
+    ru: "Когда бы ты отозвался охотнее всего?"
     source: { kind: authored }
   - form: "odezwałem"
     pl: "Nie wiedziałem co powiedzieć, więc nie odezwałem się wcale."
@@ -169,6 +282,18 @@ formExamples:
     pl: "Sumienie się odezwało."
     ru: "Совесть отозвалась."
     source: { kind: authored }
+  - form: "odezwałoby"
+    pl: "Dziecko odezwałoby się, gdyby je zapytano."
+    ru: "Ребёнок отозвался бы, если бы его спросили."
+    source: { kind: authored }
+  - form: "odezwałoby"
+    pl: "Odezwałoby się sumienie, gdyby jakieś miał."
+    ru: "Отозвалась бы совесть, если бы она у него была."
+    source: { kind: authored }
+  - form: "odezwałoby"
+    pl: "To dziecko odezwałoby się pierwsze."
+    ru: "Этот ребёнок отозвался бы первым."
+    source: { kind: authored }
   - form: "odezwały"
     pl: "Dzwony odezwały się o świcie."
     ru: "Колокола отозвались на рассвете."
@@ -180,6 +305,66 @@ formExamples:
   - form: "odezwały"
     pl: "Nie odezwały się ani słowem."
     ru: "Они и словом не отозвались."
+    source: { kind: authored }
+  - form: "odezwałyby"
+    pl: "Dziewczyny odezwałyby się po tygodniu."
+    ru: "Девочки отозвались бы через неделю."
+    source: { kind: authored }
+  - form: "odezwałyby"
+    pl: "Odezwałyby się pierwsze, gdyby nie duma."
+    ru: "Они отозвались бы первыми, если бы не гордость."
+    source: { kind: authored }
+  - form: "odezwałyby"
+    pl: "Bez powodu nie odezwałyby się wcale."
+    ru: "Без причины они не отозвались бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałybyście"
+    pl: "Odezwałybyście się po tylu latach?"
+    ru: "Вы отозвались бы после стольких лет?"
+    source: { kind: authored }
+  - form: "odezwałybyście"
+    pl: "Czy odezwałybyście się pierwsze?"
+    ru: "Вы отозвались бы первыми?"
+    source: { kind: authored }
+  - form: "odezwałybyście"
+    pl: "Kiedy odezwałybyście się najchętniej?"
+    ru: "Когда бы вы отозвались охотнее всего?"
+    source: { kind: authored }
+  - form: "odezwałybyśmy"
+    pl: "Odezwałybyśmy się pierwsze, gdybyśmy wiedziały co powiedzieć."
+    ru: "Мы отозвались бы первыми, если бы знали, что сказать."
+    source: { kind: authored }
+  - form: "odezwałybyśmy"
+    pl: "Chętnie odezwałybyśmy się do nich jutro."
+    ru: "Мы охотно отозвались бы к ним завтра."
+    source: { kind: authored }
+  - form: "odezwałybyśmy"
+    pl: "Bez powodu nie odezwałybyśmy się wcale."
+    ru: "Без причины мы не отозвались бы вовсе."
+    source: { kind: authored }
+  - form: "odezwałyście"
+    pl: "Odezwałyście się wreszcie!"
+    ru: "Вы наконец отозвались!"
+    source: { kind: authored }
+  - form: "odezwałyście"
+    pl: "Wczoraj odezwałyście się pierwsze."
+    ru: "Вчера вы отозвались первыми."
+    source: { kind: authored }
+  - form: "odezwałyście"
+    pl: "Czy odezwałyście się do rodziców?"
+    ru: "Вы отозвались к родителям?"
+    source: { kind: authored }
+  - form: "odezwałyśmy"
+    pl: "Odezwałyśmy się do nich dopiero po roku."
+    ru: "Мы отозвались к ним только через год."
+    source: { kind: authored }
+  - form: "odezwałyśmy"
+    pl: "Wczoraj odezwałyśmy się pierwsze."
+    ru: "Вчера мы отозвались первыми."
+    source: { kind: authored }
+  - form: "odezwałyśmy"
+    pl: "Do redakcji odezwałyśmy się listownie."
+    ru: "В редакцию мы обратились письменно."
     source: { kind: authored }
   - form: "odezwania"
     pl: "Bez odezwania się nic nie załatwisz."
@@ -240,6 +425,18 @@ formExamples:
   - form: "odezwano"
     pl: "Nie odezwano się ani słowem."
     ru: "Не сказали ни слова."
+    source: { kind: authored }
+  - form: "odezwawszy"
+    pl: "Odezwawszy się pierwszy, przerwał ciszę."
+    ru: "Отозвавшись первым, он прервал тишину."
+    source: { kind: authored }
+  - form: "odezwawszy"
+    pl: "Odezwawszy się po latach, przeprosił za milczenie."
+    ru: "Отозвавшись через годы, он извинился за молчание."
+    source: { kind: authored }
+  - form: "odezwawszy"
+    pl: "Odezwawszy się z tylnego rzędu, zaskoczyła wszystkich."
+    ru: "Отозвавшись с заднего ряда, она удивила всех."
     source: { kind: authored }
   - form: "odezwą"
     pl: "Uderz w stół, a nożyce się odezwą."
