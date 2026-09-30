@@ -54,26 +54,91 @@ idioms:
   - { pl: "nudny film", ru: "скучный фильм" }
   - { pl: "nudny jak flaki z olejem", ru: "смертельно скучный" }
   - { pl: "najnudniejszy dzień", ru: "самый скучный день" }
-formExamplesSkip:
-  - { form: "najnudniejsi", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejsza", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszą", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejsze", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszego", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszej", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszemu", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszych", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszym", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "najnudniejszymi", reason: "превосходная степень; в корпусе примеров нет" }
-  - { form: "nudniejsza", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszą", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejsze", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszej", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszemu", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszych", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszym", reason: "сравнительная степень; в корпусе примеров нет" }
-  - { form: "nudniejszymi", reason: "сравнительная степень; в корпусе примеров нет" }
 formExamples:
+  - form: "najnudniejsi"
+    pl: "Najnudniejsi wykładowcy mówią monotonnie."
+    ru: "Самые скучные лекторы говорят монотонно."
+    source: { kind: authored }
+  - form: "najnudniejsi"
+    pl: "To najnudniejsi goście, jakich mieliśmy."
+    ru: "Это самые скучные гости, какие у нас были."
+    source: { kind: authored }
+  - form: "najnudniejsi"
+    pl: "Najnudniejsi okazali się urzędnicy."
+    ru: "Самыми скучными оказались чиновники."
+    source: { kind: authored }
+  - form: "najnudniejsza"
+    pl: "To najnudniejsza książka w całej serii."
+    ru: "Это самая скучная книга во всей серии."
+    source: { kind: authored }
+  - form: "najnudniejsza"
+    pl: "Najnudniejsza lekcja przypadła na piątek."
+    ru: "Самый скучный урок пришёлся на пятницу."
+    source: { kind: authored }
+  - form: "najnudniejsza"
+    pl: "Najnudniejsza część filmu jest na początku."
+    ru: "Самая скучная часть фильма в начале."
+    source: { kind: authored }
+  - form: "najnudniejszą"
+    pl: "Znam najnudniejszą wersję tego wykładu."
+    ru: "Я знаю самую скучную версию этой лекции."
+    source: { kind: authored }
+  - form: "najnudniejszą"
+    pl: "Uznali tę książkę za najnudniejszą w serii."
+    ru: "Эту книгу они сочли самой скучной в серии."
+    source: { kind: authored }
+  - form: "najnudniejszą"
+    pl: "Wybrali najnudniejszą, za to najkrótszą drogę."
+    ru: "Они выбрали самую скучную, зато самую короткую дорогу."
+    source: { kind: authored }
+  - form: "najnudniejsze"
+    pl: "To najnudniejsze zebranie w dziejach firmy."
+    ru: "Это самое скучное собрание в истории фирмы."
+    source: { kind: authored }
+  - form: "najnudniejsze"
+    pl: "Najnudniejsze wykłady są w poniedziałek rano."
+    ru: "Самые скучные лекции в понедельник утром."
+    source: { kind: authored }
+  - form: "najnudniejsze"
+    pl: "Najnudniejsze popołudnia spędzał w bibliotece."
+    ru: "Самые скучные вечера он проводил в библиотеке."
+    source: { kind: authored }
+  - form: "najnudniejszego"
+    pl: "Zaczęli od najnudniejszego punktu programu."
+    ru: "Они начали с самого скучного пункта программы."
+    source: { kind: authored }
+  - form: "najnudniejszego"
+    pl: "Dotyczy to najnudniejszego przedmiotu w szkole."
+    ru: "Это касается самого скучного предмета в школе."
+    source: { kind: authored }
+  - form: "najnudniejszego"
+    pl: "Od najnudniejszego wykładu uciekli po kwadransie."
+    ru: "С самой скучной лекции они сбежали через четверть часа."
+    source: { kind: authored }
+  - form: "najnudniejszej"
+    pl: "W najnudniejszej części filmu wszyscy zasnęli."
+    ru: "В самой скучной части фильма все заснули."
+    source: { kind: authored }
+  - form: "najnudniejszej"
+    pl: "Brakuje tu najnudniejszej części wykładu."
+    ru: "Здесь не хватает самой скучной части лекции."
+    source: { kind: authored }
+  - form: "najnudniejszej"
+    pl: "Przyjrzyj się najnudniejszej połowie programu."
+    ru: "Присмотрись к самой скучной половине программы."
+    source: { kind: authored }
+  - form: "najnudniejszemu"
+    pl: "Najnudniejszemu przedmiotowi poświęcili najmniej czasu."
+    ru: "Самому скучному предмету они посвятили меньше всего времени."
+    source: { kind: authored }
+  - form: "najnudniejszemu"
+    pl: "Dzięki najnudniejszemu filmowi wreszcie zasnął."
+    ru: "Благодаря самому скучному фильму он наконец заснул."
+    source: { kind: authored }
+  - form: "najnudniejszemu"
+    pl: "Przyjrzyj się najnudniejszemu fragmentowi wykładu."
+    ru: "Присмотрись к самому скучному фрагменту лекции."
+    source: { kind: authored }
   - form: "najnudniejszy"
     pl: "To najnudniejszy przedmiot w szkole."
     ru: "Это самый скучный предмет в школе."
@@ -85,6 +150,42 @@ formExamples:
   - form: "najnudniejszy"
     pl: "Trafił na najnudniejszy dyżur."
     ru: "Ему достался самый скучный дежурный день."
+    source: { kind: authored }
+  - form: "najnudniejszych"
+    pl: "Wśród najnudniejszych wykładów ten był pierwszy."
+    ru: "Среди самых скучных лекций эта была первой."
+    source: { kind: authored }
+  - form: "najnudniejszych"
+    pl: "Lista najnudniejszych przedmiotów jest krótka."
+    ru: "Список самых скучных предметов короткий."
+    source: { kind: authored }
+  - form: "najnudniejszych"
+    pl: "O najnudniejszych książkach nie chcę słyszeć."
+    ru: "О самых скучных книгах я не хочу слышать."
+    source: { kind: authored }
+  - form: "najnudniejszym"
+    pl: "W najnudniejszym towarzystwie nigdy nie byłem."
+    ru: "В самой скучной компании я никогда не бывал."
+    source: { kind: authored }
+  - form: "najnudniejszym"
+    pl: "Najnudniejszym wykładom nikt nie poświęca uwagi."
+    ru: "Самым скучным лекциям никто не уделяет внимания."
+    source: { kind: authored }
+  - form: "najnudniejszym"
+    pl: "Ten film okazał się najnudniejszym wyborem roku."
+    ru: "Этот фильм оказался самым скучным выбором года."
+    source: { kind: authored }
+  - form: "najnudniejszymi"
+    pl: "Zastąpiono je najnudniejszymi ćwiczeniami."
+    ru: "Их заменили самыми скучными упражнениями."
+    source: { kind: authored }
+  - form: "najnudniejszymi"
+    pl: "Między najnudniejszymi a ciekawymi lekcjami jest przepaść."
+    ru: "Между самыми скучными и интересными уроками пропасть."
+    source: { kind: authored }
+  - form: "najnudniejszymi"
+    pl: "Zajmuje się najnudniejszymi sprawami w firmie."
+    ru: "Он занимается самыми скучными делами в фирме."
     source: { kind: authored }
   - form: "nudna"
     pl: "Szkoła jest nudna."
@@ -194,6 +295,42 @@ formExamples:
     pl: "Starsi nie są wcale nudniejsi."
     ru: "Старшие вовсе не скучнее."
     source: { kind: authored }
+  - form: "nudniejsza"
+    pl: "Ta książka jest nudniejsza od filmu."
+    ru: "Эта книга скучнее фильма."
+    source: { kind: authored }
+  - form: "nudniejsza"
+    pl: "Druga połowa meczu była nudniejsza."
+    ru: "Второй тайм был скучнее."
+    source: { kind: authored }
+  - form: "nudniejsza"
+    pl: "Nudniejsza lekcja nie zdarzyła się nigdy."
+    ru: "Более скучного урока никогда не было."
+    source: { kind: authored }
+  - form: "nudniejszą"
+    pl: "Znam nudniejszą wersję tego wykładu."
+    ru: "Я знаю более скучную версию этой лекции."
+    source: { kind: authored }
+  - form: "nudniejszą"
+    pl: "Uznali tę książkę za nudniejszą od poprzedniej."
+    ru: "Эту книгу они сочли скучнее прежней."
+    source: { kind: authored }
+  - form: "nudniejszą"
+    pl: "Wybrali nudniejszą, za to krótszą drogę."
+    ru: "Они выбрали более скучную, зато более короткую дорогу."
+    source: { kind: authored }
+  - form: "nudniejsze"
+    pl: "Nudniejsze wykłady zdarzają się rzadko."
+    ru: "Более скучные лекции случаются редко."
+    source: { kind: authored }
+  - form: "nudniejsze"
+    pl: "To zebranie jest nudniejsze od poprzedniego."
+    ru: "Это собрание скучнее прежнего."
+    source: { kind: authored }
+  - form: "nudniejsze"
+    pl: "Nudniejsze popołudnia spędzał w bibliotece."
+    ru: "Более скучные вечера он проводил в библиотеке."
+    source: { kind: authored }
   - form: "nudniejszego"
     pl: "Czy może być coś nudniejszego niż zajęcia z semantyki z Benem Steinem?"
     ru: "Может ли быть что-то скучнее занятий по семантике с Беном Стайном?"
@@ -206,6 +343,30 @@ formExamples:
     pl: "Trudno o coś nudniejszego."
     ru: "Трудно найти что-то скучнее."
     source: { kind: authored }
+  - form: "nudniejszej"
+    pl: "W nudniejszej części filmu wszyscy zasnęli."
+    ru: "В более скучной части фильма все заснули."
+    source: { kind: authored }
+  - form: "nudniejszej"
+    pl: "Nie ma nudniejszej książki w tej serii."
+    ru: "Нет более скучной книги в этой серии."
+    source: { kind: authored }
+  - form: "nudniejszej"
+    pl: "Przyjrzyj się nudniejszej połowie programu."
+    ru: "Присмотрись к более скучной половине программы."
+    source: { kind: authored }
+  - form: "nudniejszemu"
+    pl: "Nudniejszemu przedmiotowi poświęcili najmniej czasu."
+    ru: "Более скучному предмету они посвятили меньше всего времени."
+    source: { kind: authored }
+  - form: "nudniejszemu"
+    pl: "Dzięki nudniejszemu filmowi wreszcie zasnął."
+    ru: "Благодаря более скучному фильму он наконец заснул."
+    source: { kind: authored }
+  - form: "nudniejszemu"
+    pl: "Przyjrzyj się nudniejszemu fragmentowi wykładu."
+    ru: "Присмотрись к более скучному фрагменту лекции."
+    source: { kind: authored }
   - form: "nudniejszy"
     pl: "Drugi film był nudniejszy od pierwszego."
     ru: "Второй фильм был скучнее первого."
@@ -217,6 +378,42 @@ formExamples:
   - form: "nudniejszy"
     pl: "Po przerwie mecz stał się nudniejszy."
     ru: "После перерыва матч стал скучнее."
+    source: { kind: authored }
+  - form: "nudniejszych"
+    pl: "Wśród nudniejszych wykładów ten był najgorszy."
+    ru: "Среди более скучных лекций эта была худшей."
+    source: { kind: authored }
+  - form: "nudniejszych"
+    pl: "Nie ma tu nudniejszych przedmiotów."
+    ru: "Здесь нет более скучных предметов."
+    source: { kind: authored }
+  - form: "nudniejszych"
+    pl: "O nudniejszych książkach nie chcę słyszeć."
+    ru: "О более скучных книгах я не хочу слышать."
+    source: { kind: authored }
+  - form: "nudniejszym"
+    pl: "W nudniejszym towarzystwie nigdy nie byłem."
+    ru: "В более скучной компании я никогда не бывал."
+    source: { kind: authored }
+  - form: "nudniejszym"
+    pl: "Nudniejszym wykładom nikt nie poświęca uwagi."
+    ru: "Более скучным лекциям никто не уделяет внимания."
+    source: { kind: authored }
+  - form: "nudniejszym"
+    pl: "Ten film okazał się nudniejszym wyborem."
+    ru: "Этот фильм оказался более скучным выбором."
+    source: { kind: authored }
+  - form: "nudniejszymi"
+    pl: "Zastąpiono je nudniejszymi ćwiczeniami."
+    ru: "Их заменили более скучными упражнениями."
+    source: { kind: authored }
+  - form: "nudniejszymi"
+    pl: "Między nudniejszymi a ciekawszymi lekcjami jest przepaść."
+    ru: "Между более скучными и более интересными уроками пропасть."
+    source: { kind: authored }
+  - form: "nudniejszymi"
+    pl: "Zajmuje się nudniejszymi sprawami w firmie."
+    ru: "Он занимается более скучными делами в фирме."
     source: { kind: authored }
   - form: "nudny"
     pl: "Jesteś nudny."
