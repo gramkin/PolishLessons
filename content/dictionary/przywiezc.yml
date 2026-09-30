@@ -51,24 +51,10 @@ idioms:
   - { pl: "co mi przywiozłeś?", ru: "что ты мне привёз?" }
   - { pl: "przywieźć z podróży", ru: "привезти из поездки" }
 formExamplesSkip:
-  - { form: "przywieźliby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywieźlibyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywieźlibyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywieźliście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "przywieźliśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
   - { form: "przywiozł", reason: "такой формы нет: мужской род прошедшего времени — przywiózł, с ó в закрытом слоге" }
-  - { form: "przywiozłaby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłabym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłabyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłbym", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłbyś", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłoby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłyby", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłybyście", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłybyśmy", reason: "формы условного наклонения, в корпусе примеров нет" }
-  - { form: "przywiozłyście", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
-  - { form: "przywiozłyśmy", reason: "формы 1-го и 2-го лица множественного числа прошедшего времени, в корпусе примеров нет" }
+  - { form: "przywiozłby", reason: "такой формы нет: частица by не добавляет слога и не открывает закрытый слог, поэтому мужской род условного наклонения — przywiózłby, с ó, как и в przywiózł" }
+  - { form: "przywiozłbym", reason: "такой формы нет: частица by не добавляет слога и не открывает закрытый слог, поэтому мужской род условного наклонения — przywiózłbym, с ó, как и в przywiózł" }
+  - { form: "przywiozłbyś", reason: "такой формы нет: частица by не добавляет слога и не открывает закрытый слог, поэтому мужской род условного наклонения — przywiózłbyś, с ó, как и в przywiózł" }
 formExamples:
   - form: "przywiezie"
     pl: "Przywiezie ci pamiątkę z Krakowa."
@@ -358,6 +344,66 @@ formExamples:
     pl: "Niczego nam nie przywieźli."
     ru: "Они нам ничего не привезли."
     source: { kind: authored }
+  - form: "przywieźliby"
+    pl: "Przywieźliby meble, gdyby mieli większe auto."
+    ru: "Они привезли бы мебель, если бы у них была машина побольше."
+    source: { kind: authored }
+  - form: "przywieźliby"
+    pl: "Sąsiedzi przywieźliby drewno z lasu."
+    ru: "Соседи привезли бы дрова из леса."
+    source: { kind: authored }
+  - form: "przywieźliby"
+    pl: "Bez przyczepy nie przywieźliby tych skrzyń."
+    ru: "Без прицепа они не привезли бы эти ящики."
+    source: { kind: authored }
+  - form: "przywieźlibyście"
+    pl: "Przywieźlibyście nam trochę jabłek?"
+    ru: "Вы привезли бы нам немного яблок?"
+    source: { kind: authored }
+  - form: "przywieźlibyście"
+    pl: "Czy przywieźlibyście te skrzynie jutro?"
+    ru: "Вы привезли бы эти ящики завтра?"
+    source: { kind: authored }
+  - form: "przywieźlibyście"
+    pl: "Kiedy przywieźlibyście meble?"
+    ru: "Когда бы вы привезли мебель?"
+    source: { kind: authored }
+  - form: "przywieźlibyśmy"
+    pl: "Przywieźlibyśmy meble, gdybyśmy mieli większe auto."
+    ru: "Мы привезли бы мебель, если бы у нас была машина побольше."
+    source: { kind: authored }
+  - form: "przywieźlibyśmy"
+    pl: "Chętnie przywieźlibyśmy wam drewno."
+    ru: "Мы охотно привезли бы вам дрова."
+    source: { kind: authored }
+  - form: "przywieźlibyśmy"
+    pl: "Bez przyczepy nie przywieźlibyśmy tych skrzyń."
+    ru: "Без прицепа мы не привезли бы эти ящики."
+    source: { kind: authored }
+  - form: "przywieźliście"
+    pl: "Przywieźliście już meble?"
+    ru: "Вы уже привезли мебель?"
+    source: { kind: authored }
+  - form: "przywieźliście"
+    pl: "Wczoraj przywieźliście drewno na zimę."
+    ru: "Вчера вы привезли дрова на зиму."
+    source: { kind: authored }
+  - form: "przywieźliście"
+    pl: "Czy przywieźliście owoce z sadu?"
+    ru: "Вы привезли фрукты из сада?"
+    source: { kind: authored }
+  - form: "przywieźliśmy"
+    pl: "Przywieźliśmy drewno na zimę."
+    ru: "Мы привезли дрова на зиму."
+    source: { kind: authored }
+  - form: "przywieźliśmy"
+    pl: "Wczoraj przywieźliśmy nowe meble."
+    ru: "Вчера мы привезли новую мебель."
+    source: { kind: authored }
+  - form: "przywieźliśmy"
+    pl: "Owoce przywieźliśmy prosto z sadu."
+    ru: "Фрукты мы привезли прямо из сада."
+    source: { kind: authored }
   - form: "przywieźmy"
     pl: "Przywieźmy im coś z podróży."
     ru: "Привезём им что-нибудь из поездки."
@@ -405,6 +451,42 @@ formExamples:
   - form: "przywiozła"
     pl: "Niczego nam nie przywiozła."
     ru: "Она нам ничего не привезла."
+    source: { kind: authored }
+  - form: "przywiozłaby"
+    pl: "Przywiozłaby meble, gdyby miała większe auto."
+    ru: "Она привезла бы мебель, если бы у неё была машина побольше."
+    source: { kind: authored }
+  - form: "przywiozłaby"
+    pl: "Siostra przywiozłaby owoce z targu."
+    ru: "Сестра привезла бы фрукты с рынка."
+    source: { kind: authored }
+  - form: "przywiozłaby"
+    pl: "Bez przyczepy nie przywiozłaby tych skrzyń."
+    ru: "Без прицепа она не привезла бы эти ящики."
+    source: { kind: authored }
+  - form: "przywiozłabym"
+    pl: "Przywiozłabym meble, gdybym miała większe auto."
+    ru: "Я привезла бы мебель, если бы у меня была машина побольше."
+    source: { kind: authored }
+  - form: "przywiozłabym"
+    pl: "Chętnie przywiozłabym wam drewno."
+    ru: "Я охотно привезла бы вам дрова."
+    source: { kind: authored }
+  - form: "przywiozłabym"
+    pl: "Bez przyczepy nie przywiozłabym tych skrzyń."
+    ru: "Без прицепа я не привезла бы эти ящики."
+    source: { kind: authored }
+  - form: "przywiozłabyś"
+    pl: "Przywiozłabyś nam trochę jabłek?"
+    ru: "Ты привезла бы нам немного яблок?"
+    source: { kind: authored }
+  - form: "przywiozłabyś"
+    pl: "Czy przywiozłabyś te skrzynie jutro?"
+    ru: "Ты привезла бы эти ящики завтра?"
+    source: { kind: authored }
+  - form: "przywiozłabyś"
+    pl: "Kiedy przywiozłabyś meble?"
+    ru: "Когда бы ты привезла мебель?"
     source: { kind: authored }
   - form: "przywiozłam"
     pl: "Przywiozłam ci ryż z Chin."
@@ -466,6 +548,18 @@ formExamples:
     pl: "Dziecko przywiozło babci rysunki."
     ru: "Ребёнок привёз бабушке рисунки."
     source: { kind: authored }
+  - form: "przywiozłoby"
+    pl: "To auto przywiozłoby całą rodzinę."
+    ru: "Эта машина привезла бы всю семью."
+    source: { kind: authored }
+  - form: "przywiozłoby"
+    pl: "Przywiozłoby to więcej towaru niż furgonetka."
+    ru: "Это привезло бы больше товара, чем фургон."
+    source: { kind: authored }
+  - form: "przywiozłoby"
+    pl: "Większe auto przywiozłoby wszystkie meble naraz."
+    ru: "Машина побольше привезла бы всю мебель сразу."
+    source: { kind: authored }
   - form: "przywiozły"
     pl: "Ciężarówki przywiozły materiały budowlane."
     ru: "Грузовики привезли стройматериалы."
@@ -477,6 +571,66 @@ formExamples:
   - form: "przywiozły"
     pl: "Niczego nam nie przywiozły."
     ru: "Они нам ничего не привезли."
+    source: { kind: authored }
+  - form: "przywiozłyby"
+    pl: "Ciężarówki przywiozłyby cały ładunek do wieczora."
+    ru: "Грузовики привезли бы весь груз к вечеру."
+    source: { kind: authored }
+  - form: "przywiozłyby"
+    pl: "Przywiozłyby meble, gdyby miały większe auto."
+    ru: "Они привезли бы мебель, если бы у них была машина побольше."
+    source: { kind: authored }
+  - form: "przywiozłyby"
+    pl: "Bez przyczepy nie przywiozłyby tych skrzyń."
+    ru: "Без прицепа они не привезли бы эти ящики."
+    source: { kind: authored }
+  - form: "przywiozłybyście"
+    pl: "Przywiozłybyście nam trochę jabłek?"
+    ru: "Вы привезли бы нам немного яблок?"
+    source: { kind: authored }
+  - form: "przywiozłybyście"
+    pl: "Czy przywiozłybyście te skrzynie jutro?"
+    ru: "Вы привезли бы эти ящики завтра?"
+    source: { kind: authored }
+  - form: "przywiozłybyście"
+    pl: "Kiedy przywiozłybyście meble?"
+    ru: "Когда бы вы привезли мебель?"
+    source: { kind: authored }
+  - form: "przywiozłybyśmy"
+    pl: "Przywiozłybyśmy meble, gdybyśmy miały większe auto."
+    ru: "Мы привезли бы мебель, если бы у нас была машина побольше."
+    source: { kind: authored }
+  - form: "przywiozłybyśmy"
+    pl: "Chętnie przywiozłybyśmy wam drewno."
+    ru: "Мы охотно привезли бы вам дрова."
+    source: { kind: authored }
+  - form: "przywiozłybyśmy"
+    pl: "Bez przyczepy nie przywiozłybyśmy tych skrzyń."
+    ru: "Без прицепа мы не привезли бы эти ящики."
+    source: { kind: authored }
+  - form: "przywiozłyście"
+    pl: "Przywiozłyście już meble?"
+    ru: "Вы уже привезли мебель?"
+    source: { kind: authored }
+  - form: "przywiozłyście"
+    pl: "Wczoraj przywiozłyście drewno na zimę."
+    ru: "Вчера вы привезли дрова на зиму."
+    source: { kind: authored }
+  - form: "przywiozłyście"
+    pl: "Czy przywiozłyście owoce z sadu?"
+    ru: "Вы привезли фрукты из сада?"
+    source: { kind: authored }
+  - form: "przywiozłyśmy"
+    pl: "Przywiozłyśmy drewno na zimę."
+    ru: "Мы привезли дрова на зиму."
+    source: { kind: authored }
+  - form: "przywiozłyśmy"
+    pl: "Wczoraj przywiozłyśmy nowe meble."
+    ru: "Вчера мы привезли новую мебель."
+    source: { kind: authored }
+  - form: "przywiozłyśmy"
+    pl: "Owoce przywiozłyśmy prosto z sadu."
+    ru: "Фрукты мы привезли прямо из сада."
     source: { kind: authored }
   - form: "przywiózł"
     pl: "Przywiózł kilka pamiątek."
