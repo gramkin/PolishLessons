@@ -42,32 +42,8 @@ idioms:
   - { pl: "myć ręce", ru: "мыть руки" }
   - { pl: "ręka rękę myje", ru: "рука руку моет" }
 formExamplesSkip:
-  - { form: "myjąca", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjące", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącego", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącej", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącemu", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjący", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjących", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącym", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myjącymi", reason: "причастная форма; в корпусе примеров нет" }
-  - { form: "myli", reason: "форма совпадает с mylić się «ошибаться»; в корпусе она относится к тому глаголу" }
-  - { form: "myliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "mylibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "mylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
   - { form: "myliście", reason: "единственный кандидат дублирует myłeś; отдельного примера нет" }
   - { form: "mył", reason: "единственный кандидат — длинное условное предложение, отвергнуто по качеству" }
-  - { form: "myłaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "myłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
 formExamples:
   - form: "myci"
     pl: "Pacjenci są myci co rano."
@@ -177,6 +153,18 @@ formExamples:
     pl: "Skaleczył się, myjąc szklankę."
     ru: "Он порезался, моя стакан."
     source: { kind: authored }
+  - form: "myjąca"
+    pl: "Myjąca okna kobieta stała na drabinie."
+    ru: "Моющая окна женщина стояла на лестнице."
+    source: { kind: authored }
+  - form: "myjąca"
+    pl: "Ta myjąca naczynia dziewczyna to moja siostra."
+    ru: "Эта моющая посуду девушка — моя сестра."
+    source: { kind: authored }
+  - form: "myjąca"
+    pl: "Myjąca podłogę sprzątaczka nie słyszała dzwonka."
+    ru: "Моющая пол уборщица не слышала звонка."
+    source: { kind: authored }
   - form: "myjącą"
     pl: "Widzę kobietę myjącą okna."
     ru: "Я вижу женщину, моющую окна."
@@ -188,6 +176,102 @@ formExamples:
   - form: "myjącą"
     pl: "Uznano ją za myjącą ręce zbyt często."
     ru: "Её сочли моющей руки слишком часто."
+    source: { kind: authored }
+  - form: "myjące"
+    pl: "Myjące ręce dzieci ustawiły się w kolejce."
+    ru: "Моющие руки дети выстроились в очередь."
+    source: { kind: authored }
+  - form: "myjące"
+    pl: "Myjące naczynia dziewczyny śmiały się głośno."
+    ru: "Моющие посуду девушки громко смеялись."
+    source: { kind: authored }
+  - form: "myjące"
+    pl: "Myjące szyby maszyny pracują nocą."
+    ru: "Моющие стёкла машины работают ночью."
+    source: { kind: authored }
+  - form: "myjącego"
+    pl: "Nie znam nikogo myjącego auto tak często."
+    ru: "Я не знаю никого, кто мыл бы машину так часто."
+    source: { kind: authored }
+  - form: "myjącego"
+    pl: "Szukają pracownika myjącego okna na wysokości."
+    ru: "Они ищут работника, моющего окна на высоте."
+    source: { kind: authored }
+  - form: "myjącego"
+    pl: "Dotyczy to chirurga myjącego ręce przed operacją."
+    ru: "Это касается хирурга, моющего руки перед операцией."
+    source: { kind: authored }
+  - form: "myjącej"
+    pl: "Dotyczy to kobiety myjącej okna na piętrze."
+    ru: "Это касается женщины, моющей окна на этаже."
+    source: { kind: authored }
+  - form: "myjącej"
+    pl: "Nie przeszkadzaj myjącej naczynia siostrze."
+    ru: "Не мешай моющей посуду сестре."
+    source: { kind: authored }
+  - form: "myjącej"
+    pl: "Dzięki sprzątaczce myjącej schody nikt się nie poślizgnął."
+    ru: "Благодаря уборщице, моющей лестницу, никто не поскользнулся."
+    source: { kind: authored }
+  - form: "myjącemu"
+    pl: "Pomóż myjącemu auto sąsiadowi."
+    ru: "Помоги моющему машину соседу."
+    source: { kind: authored }
+  - form: "myjącemu"
+    pl: "Przyjrzyj się myjącemu okna pracownikowi."
+    ru: "Присмотрись к работнику, моющему окна."
+    source: { kind: authored }
+  - form: "myjącemu"
+    pl: "Myjącemu ręce chirurgowi podano rękawiczki."
+    ru: "Моющему руки хирургу подали перчатки."
+    source: { kind: authored }
+  - form: "myjący"
+    pl: "Myjący samochód sąsiad pomachał mi ręką."
+    ru: "Моющий машину сосед помахал мне рукой."
+    source: { kind: authored }
+  - form: "myjący"
+    pl: "To myjący okna od rana pracownik."
+    ru: "Это работник, моющий окна с утра."
+    source: { kind: authored }
+  - form: "myjący"
+    pl: "Myjący ręce chirurg nie odwrócił głowy."
+    ru: "Моющий руки хирург не повернул головы."
+    source: { kind: authored }
+  - form: "myjących"
+    pl: "Wśród myjących auta byli sami studenci."
+    ru: "Среди моющих машины были одни студенты."
+    source: { kind: authored }
+  - form: "myjących"
+    pl: "Nie ma tu myjących okna pracowników."
+    ru: "Здесь нет работников, моющих окна."
+    source: { kind: authored }
+  - form: "myjących"
+    pl: "Liczba myjących ręce wzrosła po epidemii."
+    ru: "Число моющих руки выросло после эпидемии."
+    source: { kind: authored }
+  - form: "myjącym"
+    pl: "Pracownikom myjącym okna dano uprzęże."
+    ru: "Работникам, моющим окна, дали страховку."
+    source: { kind: authored }
+  - form: "myjącym"
+    pl: "W zakładzie myjącym auta kolejka sięgała ulicy."
+    ru: "В автомойке очередь доходила до улицы."
+    source: { kind: authored }
+  - form: "myjącym"
+    pl: "O chirurgu myjącym ręce mówi każdy podręcznik."
+    ru: "О хирурге, моющем руки, говорит каждый учебник."
+    source: { kind: authored }
+  - form: "myjącymi"
+    pl: "Rozmawia z myjącymi okna pracownikami."
+    ru: "Он говорит с работниками, моющими окна."
+    source: { kind: authored }
+  - form: "myjącymi"
+    pl: "Między myjącymi auta a sprzątaczkami jest różnica."
+    ru: "Между мойщиками машин и уборщицами есть разница."
+    source: { kind: authored }
+  - form: "myjącymi"
+    pl: "Opiekuje się myjącymi naczynia stażystami."
+    ru: "Он занимается стажёрами, моющими посуду."
     source: { kind: authored }
   - form: "myjcie"
     pl: "Myjcie ręce przed jedzeniem."
@@ -273,6 +357,54 @@ formExamples:
     pl: "Myjmy naczynia od razu."
     ru: "Будем мыть посуду сразу."
     source: { kind: authored }
+  - form: "myli"
+    pl: "Chłopcy myli ręce przed obiadem."
+    ru: "Мальчики мыли руки перед обедом."
+    source: { kind: authored }
+  - form: "myli"
+    pl: "Robotnicy myli auta przez cały dzień."
+    ru: "Рабочие мыли машины весь день."
+    source: { kind: authored }
+  - form: "myli"
+    pl: "Studenci myli okna za drobne pieniądze."
+    ru: "Студенты мыли окна за небольшие деньги."
+    source: { kind: authored }
+  - form: "myliby"
+    pl: "Myliby auta szybciej we dwóch."
+    ru: "Они мыли бы машины быстрее вдвоём."
+    source: { kind: authored }
+  - form: "myliby"
+    pl: "Studenci myliby okna za drobne pieniądze."
+    ru: "Студенты мыли бы окна за небольшие деньги."
+    source: { kind: authored }
+  - form: "myliby"
+    pl: "Bez ciepłej wody nie myliby naczyń."
+    ru: "Без горячей воды они не мыли бы посуду."
+    source: { kind: authored }
+  - form: "mylibyście"
+    pl: "Mylibyście naczynia częściej, gdybyście musieli."
+    ru: "Вы мыли бы посуду чаще, если бы были должны."
+    source: { kind: authored }
+  - form: "mylibyście"
+    pl: "Czy mylibyście okna na tej wysokości?"
+    ru: "Вы мыли бы окна на такой высоте?"
+    source: { kind: authored }
+  - form: "mylibyście"
+    pl: "Kiedy mylibyście auto najchętniej?"
+    ru: "Когда бы вы мыли машину охотнее всего?"
+    source: { kind: authored }
+  - form: "mylibyśmy"
+    pl: "Mylibyśmy auta szybciej we dwóch."
+    ru: "Мы мыли бы машины быстрее вдвоём."
+    source: { kind: authored }
+  - form: "mylibyśmy"
+    pl: "Chętnie mylibyśmy okna od zewnątrz."
+    ru: "Мы охотно мыли бы окна снаружи."
+    source: { kind: authored }
+  - form: "mylibyśmy"
+    pl: "Bez ciepłej wody nie mylibyśmy naczyń."
+    ru: "Без горячей воды мы не мыли бы посуду."
+    source: { kind: authored }
   - form: "myliśmy"
     pl: "Myliśmy ręce."
     ru: "Мы мыли руки."
@@ -297,6 +429,42 @@ formExamples:
     pl: "Myła okna co miesiąc."
     ru: "Она мыла окна каждый месяц."
     source: { kind: authored }
+  - form: "myłaby"
+    pl: "Myłaby okna częściej, gdyby nie strach wysokości."
+    ru: "Она мыла бы окна чаще, если бы не страх высоты."
+    source: { kind: authored }
+  - form: "myłaby"
+    pl: "Siostra myłaby naczynia co wieczór."
+    ru: "Сестра мыла бы посуду каждый вечер."
+    source: { kind: authored }
+  - form: "myłaby"
+    pl: "Bez ciepłej wody nie myłaby naczyń."
+    ru: "Без горячей воды она не мыла бы посуду."
+    source: { kind: authored }
+  - form: "myłabym"
+    pl: "Myłabym auto sama, gdybym miała węża."
+    ru: "Я мыла бы машину сама, если бы у меня был шланг."
+    source: { kind: authored }
+  - form: "myłabym"
+    pl: "Chętnie myłabym okna od zewnątrz."
+    ru: "Я охотно мыла бы окна снаружи."
+    source: { kind: authored }
+  - form: "myłabym"
+    pl: "Bez ciepłej wody nie myłabym naczyń."
+    ru: "Без горячей воды я не мыла бы посуду."
+    source: { kind: authored }
+  - form: "myłabyś"
+    pl: "Myłabyś naczynia częściej, gdybyś musiała."
+    ru: "Ты мыла бы посуду чаще, если бы была должна."
+    source: { kind: authored }
+  - form: "myłabyś"
+    pl: "Czy myłabyś okna na tej wysokości?"
+    ru: "Ты мыла бы окна на такой высоте?"
+    source: { kind: authored }
+  - form: "myłabyś"
+    pl: "Kiedy myłabyś auto najchętniej?"
+    ru: "Когда бы ты мыла машину охотнее всего?"
+    source: { kind: authored }
   - form: "myłam"
     pl: "Myłam ręce przed jedzeniem."
     ru: "Я мыла руки перед едой."
@@ -320,6 +488,42 @@ formExamples:
   - form: "myłaś"
     pl: "Myłaś ręce przed jedzeniem?"
     ru: "Ты мыла руки перед едой?"
+    source: { kind: authored }
+  - form: "myłby"
+    pl: "Myłby auto częściej, gdyby miał czas."
+    ru: "Он мыл бы машину чаще, если бы у него было время."
+    source: { kind: authored }
+  - form: "myłby"
+    pl: "Brat myłby okna co miesiąc."
+    ru: "Брат мыл бы окна каждый месяц."
+    source: { kind: authored }
+  - form: "myłby"
+    pl: "Bez ciepłej wody nie myłby naczyń."
+    ru: "Без горячей воды он не мыл бы посуду."
+    source: { kind: authored }
+  - form: "myłbym"
+    pl: "Myłbym auto sam, gdybym miał węża."
+    ru: "Я мыл бы машину сам, если бы у меня был шланг."
+    source: { kind: authored }
+  - form: "myłbym"
+    pl: "Chętnie myłbym okna od zewnątrz."
+    ru: "Я охотно мыл бы окна снаружи."
+    source: { kind: authored }
+  - form: "myłbym"
+    pl: "Bez ciepłej wody nie myłbym naczyń."
+    ru: "Без горячей воды я не мыл бы посуду."
+    source: { kind: authored }
+  - form: "myłbyś"
+    pl: "Myłbyś naczynia częściej, gdybyś musiał."
+    ru: "Ты мыл бы посуду чаще, если бы был должен."
+    source: { kind: authored }
+  - form: "myłbyś"
+    pl: "Czy myłbyś okna na tej wysokości?"
+    ru: "Ты мыл бы окна на такой высоте?"
+    source: { kind: authored }
+  - form: "myłbyś"
+    pl: "Kiedy myłbyś auto najchętniej?"
+    ru: "Когда бы ты мыл машину охотнее всего?"
     source: { kind: authored }
   - form: "myłem"
     pl: "Myłem włosy tylko raz w tygodniu."
@@ -357,6 +561,18 @@ formExamples:
     pl: "Morze myło brzeg."
     ru: "Море омывало берег."
     source: { kind: authored }
+  - form: "myłoby"
+    pl: "Dziecko myłoby ręce chętniej z mydłem."
+    ru: "Ребёнок мыл бы руки охотнее с мылом."
+    source: { kind: authored }
+  - form: "myłoby"
+    pl: "Myłoby się dłużej, gdyby woda była cieplejsza."
+    ru: "Оно мылось бы дольше, если бы вода была теплее."
+    source: { kind: authored }
+  - form: "myłoby"
+    pl: "To dziecko myłoby zęby samo."
+    ru: "Этот ребёнок чистил бы зубы сам."
+    source: { kind: authored }
   - form: "myły"
     pl: "Dzieci myły ręce."
     ru: "Дети мыли руки."
@@ -368,6 +584,54 @@ formExamples:
   - form: "myły"
     pl: "Nie myły naczyń."
     ru: "Они не мыли посуду."
+    source: { kind: authored }
+  - form: "myłyby"
+    pl: "Dziewczyny myłyby naczynia na zmianę."
+    ru: "Девочки мыли бы посуду по очереди."
+    source: { kind: authored }
+  - form: "myłyby"
+    pl: "Myłyby okna częściej, gdyby miały drabinę."
+    ru: "Они мыли бы окна чаще, если бы у них была лестница."
+    source: { kind: authored }
+  - form: "myłyby"
+    pl: "Bez ciepłej wody nie myłyby naczyń."
+    ru: "Без горячей воды они не мыли бы посуду."
+    source: { kind: authored }
+  - form: "myłybyście"
+    pl: "Myłybyście naczynia częściej, gdybyście musiały."
+    ru: "Вы мыли бы посуду чаще, если бы были должны."
+    source: { kind: authored }
+  - form: "myłybyście"
+    pl: "Czy myłybyście okna na tej wysokości?"
+    ru: "Вы мыли бы окна на такой высоте?"
+    source: { kind: authored }
+  - form: "myłybyście"
+    pl: "Kiedy myłybyście auto najchętniej?"
+    ru: "Когда бы вы мыли машину охотнее всего?"
+    source: { kind: authored }
+  - form: "myłybyśmy"
+    pl: "Myłybyśmy naczynia na zmianę."
+    ru: "Мы мыли бы посуду по очереди."
+    source: { kind: authored }
+  - form: "myłybyśmy"
+    pl: "Chętnie myłybyśmy okna od zewnątrz."
+    ru: "Мы охотно мыли бы окна снаружи."
+    source: { kind: authored }
+  - form: "myłybyśmy"
+    pl: "Bez ciepłej wody nie myłybyśmy naczyń."
+    ru: "Без горячей воды мы не мыли бы посуду."
+    source: { kind: authored }
+  - form: "myłyście"
+    pl: "Myłyście już naczynia?"
+    ru: "Вы уже помыли посуду?"
+    source: { kind: authored }
+  - form: "myłyście"
+    pl: "Wczoraj myłyście okna przez pół dnia."
+    ru: "Вчера вы мыли окна полдня."
+    source: { kind: authored }
+  - form: "myłyście"
+    pl: "Czy myłyście ręce przed obiadem?"
+    ru: "Вы мыли руки перед обедом?"
     source: { kind: authored }
   - form: "myłyśmy"
     pl: "Myłyśmy ręce."
