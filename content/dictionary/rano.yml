@@ -58,13 +58,22 @@ idioms:
   - { pl: "nad ranem", ru: "под утро" }
   - { pl: "dziś rano", ru: "сегодня утром" }
 formExamplesSkip:
-  - { form: "ran", reason: "по написанию совпадает с формой отдельного слова rana «рана», и все примеры корпуса относятся к нему: Tom zmarł z powodu ran «Том умер от ран»" }
   - { form: "ranach", reason: "это падежные формы отдельного слова rana «рана», у которого своя карточка" }
   - { form: "ranami", reason: "это падежные формы отдельного слова rana «рана», у которого своя карточка" }
-  - { form: "ranie", reason: "в корпусе нет примеров: косвенные падежи отглагольного существительного редки" }
   - { form: "ranom", reason: "это падежные формы отдельного слова rana «рана», у которого своя карточка" }
-  - { form: "ranu", reason: "в корпусе нет примеров для этой формы" }
 formExamples:
+  - form: "ran"
+    pl: "Nie pamiętam już tamtych chłodnych ran nad jeziorem."
+    ru: "Я уже не помню тех прохладных утр у озера."
+    source: { kind: authored }
+  - form: "ran"
+    pl: "Takich pogodnych ran we wrześniu bywa niewiele."
+    ru: "Таких ясных утр в сентябре бывает немного."
+    source: { kind: authored }
+  - form: "ran"
+    pl: "Od tamtych mroźnych ran minęło już kilka lat."
+    ru: "С тех морозных утр прошло уже несколько лет."
+    source: { kind: authored }
   - form: "rana"
     pl: "Mam zatkany nos od rana."
     ru: "У меня с утра нос заложен."
@@ -89,6 +98,18 @@ formExamples:
     pl: "Jej zegarek pokazywał trzecią nad ranem."
     ru: "Её часы показывали три часа ночи."
     source: { kind: translated, id: 531852 }
+  - form: "ranie"
+    pl: "O tym chłodnym ranie długo pamiętali."
+    ru: "Об этом прохладном утре они долго помнили."
+    source: { kind: authored }
+  - form: "ranie"
+    pl: "Po deszczowym ranie przyszło upalne południe."
+    ru: "После дождливого утра пришёл знойный полдень."
+    source: { kind: authored }
+  - form: "ranie"
+    pl: "W jednym ranie zmieściło się całe lato."
+    ru: "В одном утре уместилось целое лето."
+    source: { kind: authored }
   - form: "rano"
     pl: "Rano mam egzamin."
     ru: "У меня утром экзамен."
@@ -101,3 +122,15 @@ formExamples:
     pl: "Tom wstaje wcześnie rano."
     ru: "Том встаёт рано утром."
     source: { kind: tatoeba, id: 6030198 }
+  - form: "ranu"
+    pl: "Wczesnemu ranu zawdzięcza swoje najlepsze pomysły."
+    ru: "Раннему утру он обязан своими лучшими идеями."
+    source: { kind: authored }
+  - form: "ranu"
+    pl: "Dzięki chłodnemu ranu marsz był lżejszy."
+    ru: "Благодаря прохладному утру марш был легче."
+    source: { kind: authored }
+  - form: "ranu"
+    pl: "Przyjrzyj się temu zimowemu ranu."
+    ru: "Присмотрись к этому зимнему утру."
+    source: { kind: authored }
