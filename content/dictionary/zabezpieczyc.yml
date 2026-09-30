@@ -53,27 +53,19 @@ idioms:
   - { pl: "zabezpieczyć przed", ru: "защитить от" }
   - { pl: "system zabezpieczenia", ru: "система защиты" }
   - { pl: "zabezpieczony hasłem", ru: "защищённый паролем" }
-formExamplesSkip:
-  - { form: "zabezpiecz", reason: "единственный пример в корпусе — пародийный текст, непригодный для учебной карточки" }
-  - { form: "zabezpieczyliby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczylibyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczylibyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyliście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zabezpieczyliśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zabezpieczyłaby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłabym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłabyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłbym", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłbyś", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłoby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłyby", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłybyście", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłybyśmy", reason: "условное наклонение; в корпусе примеров нет" }
-  - { form: "zabezpieczyłyście", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zabezpieczyłyśmy", reason: "форма 1-го или 2-го лица множественного числа; в корпусе примеров нет" }
-  - { form: "zabezpieczywszy", reason: "деепричастие; в корпусе примеров нет" }
 formExamples:
+  - form: "zabezpiecz"
+    pl: "Zabezpiecz dom przed włamaniem."
+    ru: "Защити дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpiecz"
+    pl: "Zabezpiecz ten plik hasłem."
+    ru: "Защити этот файл паролем."
+    source: { kind: authored }
+  - form: "zabezpiecz"
+    pl: "Zabezpiecz dzieci przed chłodem."
+    ru: "Защити детей от холода."
+    source: { kind: authored }
   - form: "zabezpieczą"
     pl: "Zabezpieczą dokumenty."
     ru: "Они обезопасят документы."
@@ -362,6 +354,66 @@ formExamples:
     pl: "Nie zabezpieczyli niczego."
     ru: "Они ничего не обезопасили."
     source: { kind: authored }
+  - form: "zabezpieczyliby"
+    pl: "Zabezpieczyliby dom przed włamaniem."
+    ru: "Они защитили бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyliby"
+    pl: "Chyba nie zabezpieczyliby pliku hasłem."
+    ru: "Вряд ли они защитили бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyliby"
+    pl: "Przed powodzią zabezpieczyliby całą wieś."
+    ru: "От наводнения они защитили бы всю деревню."
+    source: { kind: authored }
+  - form: "zabezpieczylibyście"
+    pl: "Czy zabezpieczylibyście dom przed włamaniem?"
+    ru: "Вы защитили бы дом от взлома?"
+    source: { kind: authored }
+  - form: "zabezpieczylibyście"
+    pl: "Zabezpieczylibyście plik hasłem?"
+    ru: "Вы защитили бы файл паролем?"
+    source: { kind: authored }
+  - form: "zabezpieczylibyście"
+    pl: "Naprawdę zabezpieczylibyście wieś przed powodzią?"
+    ru: "Вы правда защитили бы деревню от наводнения?"
+    source: { kind: authored }
+  - form: "zabezpieczylibyśmy"
+    pl: "Zabezpieczylibyśmy dom przed włamaniem."
+    ru: "Мы защитили бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczylibyśmy"
+    pl: "Raczej nie zabezpieczylibyśmy pliku hasłem."
+    ru: "Вряд ли мы защитили бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczylibyśmy"
+    pl: "Przed powodzią zabezpieczylibyśmy całą wieś."
+    ru: "От наводнения мы защитили бы всю деревню."
+    source: { kind: authored }
+  - form: "zabezpieczyliście"
+    pl: "Jak zabezpieczyliście ten dom?"
+    ru: "Как вы защитили этот дом?"
+    source: { kind: authored }
+  - form: "zabezpieczyliście"
+    pl: "Zabezpieczyliście plik hasłem."
+    ru: "Вы защитили файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyliście"
+    pl: "Przed powodzią zabezpieczyliście całą wieś."
+    ru: "От наводнения вы защитили всю деревню."
+    source: { kind: authored }
+  - form: "zabezpieczyliśmy"
+    pl: "Zabezpieczyliśmy dom przed włamaniem."
+    ru: "Мы защитили дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyliśmy"
+    pl: "Plik zabezpieczyliśmy hasłem."
+    ru: "Файл мы защитили паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyliśmy"
+    pl: "Przed powodzią zabezpieczyliśmy całą wieś."
+    ru: "От наводнения мы защитили всю деревню."
+    source: { kind: authored }
   - form: "zabezpieczył"
     pl: "Zabezpieczył dokumenty."
     ru: "Он обезопасил документы."
@@ -386,6 +438,42 @@ formExamples:
     pl: "Nie zabezpieczyła niczego."
     ru: "Она ничего не обезопасила."
     source: { kind: authored }
+  - form: "zabezpieczyłaby"
+    pl: "Zabezpieczyłaby dom przed włamaniem."
+    ru: "Она защитила бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłaby"
+    pl: "Chyba nie zabezpieczyłaby pliku hasłem."
+    ru: "Вряд ли она защитила бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłaby"
+    pl: "Dzieci zabezpieczyłaby przed chłodem."
+    ru: "Детей она защитила бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłabym"
+    pl: "Zabezpieczyłabym dom przed włamaniem."
+    ru: "Я защитила бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłabym"
+    pl: "Raczej nie zabezpieczyłabym pliku hasłem."
+    ru: "Вряд ли я защитила бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłabym"
+    pl: "Dzieci zabezpieczyłabym przed chłodem."
+    ru: "Детей я защитила бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłabyś"
+    pl: "Czy zabezpieczyłabyś dom przed włamaniem?"
+    ru: "Ты защитила бы дом от взлома?"
+    source: { kind: authored }
+  - form: "zabezpieczyłabyś"
+    pl: "Zabezpieczyłabyś plik hasłem?"
+    ru: "Ты защитила бы файл паролем?"
+    source: { kind: authored }
+  - form: "zabezpieczyłabyś"
+    pl: "Naprawdę zabezpieczyłabyś wieś przed powodzią?"
+    ru: "Ты правда защитила бы деревню от наводнения?"
+    source: { kind: authored }
   - form: "zabezpieczyłam"
     pl: "Zabezpieczyłam dokumenty."
     ru: "Я обезопасила документы."
@@ -409,6 +497,42 @@ formExamples:
   - form: "zabezpieczyłaś"
     pl: "Nie zabezpieczyłaś niczego."
     ru: "Ты ничего не обезопасила."
+    source: { kind: authored }
+  - form: "zabezpieczyłby"
+    pl: "Zabezpieczyłby dom przed włamaniem."
+    ru: "Он защитил бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłby"
+    pl: "Chyba nie zabezpieczyłby pliku hasłem."
+    ru: "Вряд ли он защитил бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłby"
+    pl: "Dzieci zabezpieczyłby przed chłodem."
+    ru: "Детей он защитил бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłbym"
+    pl: "Zabezpieczyłbym dom przed włamaniem."
+    ru: "Я защитил бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłbym"
+    pl: "Raczej nie zabezpieczyłbym pliku hasłem."
+    ru: "Вряд ли я защитил бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłbym"
+    pl: "Dzieci zabezpieczyłbym przed chłodem."
+    ru: "Детей я защитил бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłbyś"
+    pl: "Czy zabezpieczyłbyś dom przed włamaniem?"
+    ru: "Ты защитил бы дом от взлома?"
+    source: { kind: authored }
+  - form: "zabezpieczyłbyś"
+    pl: "Zabezpieczyłbyś plik hasłem?"
+    ru: "Ты защитил бы файл паролем?"
+    source: { kind: authored }
+  - form: "zabezpieczyłbyś"
+    pl: "Naprawdę zabezpieczyłbyś wieś przed powodzią?"
+    ru: "Ты правда защитил бы деревню от наводнения?"
     source: { kind: authored }
   - form: "zabezpieczyłem"
     pl: "Zabezpieczyłem dokumenty."
@@ -446,6 +570,18 @@ formExamples:
     pl: "Nic ich nie zabezpieczyło."
     ru: "Ничто их не защитило."
     source: { kind: authored }
+  - form: "zabezpieczyłoby"
+    pl: "To zabezpieczyłoby dom przed włamaniem."
+    ru: "Это защитило бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłoby"
+    pl: "Żadne z nich nie zabezpieczyłoby pliku."
+    ru: "Ни одно из них не защитило бы файл."
+    source: { kind: authored }
+  - form: "zabezpieczyłoby"
+    pl: "Takie ubezpieczenie zabezpieczyłoby całą rodzinę."
+    ru: "Такая страховка обеспечила бы всю семью."
+    source: { kind: authored }
   - form: "zabezpieczyły"
     pl: "Służby zabezpieczyły teren."
     ru: "Службы оцепили территорию."
@@ -457,6 +593,66 @@ formExamples:
   - form: "zabezpieczyły"
     pl: "Wały zabezpieczyły miasto przed powodzią."
     ru: "Валы защитили город от паводка."
+    source: { kind: authored }
+  - form: "zabezpieczyłyby"
+    pl: "Te wały zabezpieczyłyby wieś przed powodzią."
+    ru: "Эти валы защитили бы деревню от наводнения."
+    source: { kind: authored }
+  - form: "zabezpieczyłyby"
+    pl: "Zabezpieczyłyby dom przed włamaniem."
+    ru: "Они защитили бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłyby"
+    pl: "Dzieci zabezpieczyłyby przed chłodem."
+    ru: "Детей они защитили бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłybyście"
+    pl: "Czy zabezpieczyłybyście dom przed włamaniem?"
+    ru: "Вы защитили бы дом от взлома?"
+    source: { kind: authored }
+  - form: "zabezpieczyłybyście"
+    pl: "Zabezpieczyłybyście plik hasłem?"
+    ru: "Вы защитили бы файл паролем?"
+    source: { kind: authored }
+  - form: "zabezpieczyłybyście"
+    pl: "Naprawdę zabezpieczyłybyście wieś przed powodzią?"
+    ru: "Вы правда защитили бы деревню от наводнения?"
+    source: { kind: authored }
+  - form: "zabezpieczyłybyśmy"
+    pl: "Zabezpieczyłybyśmy dom przed włamaniem."
+    ru: "Мы защитили бы дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłybyśmy"
+    pl: "Raczej nie zabezpieczyłybyśmy pliku hasłem."
+    ru: "Вряд ли мы защитили бы файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłybyśmy"
+    pl: "Dzieci zabezpieczyłybyśmy przed chłodem."
+    ru: "Детей мы защитили бы от холода."
+    source: { kind: authored }
+  - form: "zabezpieczyłyście"
+    pl: "Jak zabezpieczyłyście ten dom?"
+    ru: "Как вы защитили этот дом?"
+    source: { kind: authored }
+  - form: "zabezpieczyłyście"
+    pl: "Zabezpieczyłyście plik hasłem."
+    ru: "Вы защитили файл паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłyście"
+    pl: "Przed powodzią zabezpieczyłyście całą wieś."
+    ru: "От наводнения вы защитили всю деревню."
+    source: { kind: authored }
+  - form: "zabezpieczyłyśmy"
+    pl: "Zabezpieczyłyśmy dom przed włamaniem."
+    ru: "Мы защитили дом от взлома."
+    source: { kind: authored }
+  - form: "zabezpieczyłyśmy"
+    pl: "Plik zabezpieczyłyśmy hasłem."
+    ru: "Файл мы защитили паролем."
+    source: { kind: authored }
+  - form: "zabezpieczyłyśmy"
+    pl: "Przed powodzią zabezpieczyłyśmy całą wieś."
+    ru: "От наводнения мы защитили всю деревню."
     source: { kind: authored }
   - form: "zabezpieczymy"
     pl: "Zabezpieczymy dokumenty."
@@ -481,4 +677,16 @@ formExamples:
   - form: "zabezpieczysz"
     pl: "Nie zabezpieczysz wszystkiego."
     ru: "Всего ты не обезопасишь."
+    source: { kind: authored }
+  - form: "zabezpieczywszy"
+    pl: "Zabezpieczywszy dom, wyjechali na urlop."
+    ru: "Защитив дом, они уехали в отпуск."
+    source: { kind: authored }
+  - form: "zabezpieczywszy"
+    pl: "Zabezpieczywszy plik hasłem, wysłał go dalej."
+    ru: "Защитив файл паролем, он отправил его дальше."
+    source: { kind: authored }
+  - form: "zabezpieczywszy"
+    pl: "Zabezpieczywszy wieś przed powodzią, odetchnęli."
+    ru: "Защитив деревню от наводнения, они вздохнули."
     source: { kind: authored }
