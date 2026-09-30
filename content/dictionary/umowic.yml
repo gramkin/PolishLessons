@@ -55,10 +55,19 @@ idioms:
   - { pl: "umówić się", ru: "договориться" }
   - { pl: "jestem umówiony", ru: "у меня назначено" }
   - { pl: "umówiona wizyta", ru: "назначенный приём" }
-formExamplesSkip:
-  - { form: "umówiwszy", reason: "книжное деепричастие, в корпусе примеров нет" }
-  - { form: "umów", reason: "форма совпадает с родительным множественного существительного umowa «договор»; оба примера в корпусе — существительное (Umów należy dotrzymywać), а не повелительное наклонение" }
 formExamples:
+  - form: "umów"
+    pl: "Umów mnie na jutro u dentysty."
+    ru: "Запиши меня на завтра к зубному."
+    source: { kind: authored }
+  - form: "umów"
+    pl: "Umów spotkanie na przyszły tydzień."
+    ru: "Назначь встречу на следующую неделю."
+    source: { kind: authored }
+  - form: "umów"
+    pl: "Najpierw umów wizytę, potem przyjdź."
+    ru: "Сначала запишись на приём, потом приходи."
+    source: { kind: authored }
   - form: "umówcie"
     pl: "Umówcie się na wizytę."
     ru: "Запишитесь на приём."
@@ -658,6 +667,18 @@ formExamples:
   - form: "umówisz"
     pl: "Umówisz mnie na wizytę?"
     ru: "Запишешь меня на приём?"
+    source: { kind: authored }
+  - form: "umówiwszy"
+    pl: "Umówiwszy się na siódmą, wyszedł z biura."
+    ru: "Договорившись на семь, он вышел из офиса."
+    source: { kind: authored }
+  - form: "umówiwszy"
+    pl: "Umówiwszy wizytę u lekarza, odetchnęła z ulgą."
+    ru: "Записавшись к врачу, она вздохнула с облегчением."
+    source: { kind: authored }
+  - form: "umówiwszy"
+    pl: "Umówiwszy spotkanie, zapomniał o nim nazajutrz."
+    ru: "Договорившись о встрече, он назавтра о ней забыл."
     source: { kind: authored }
   - form: "umówmy"
     pl: "Umówmy się na spotkanie."
