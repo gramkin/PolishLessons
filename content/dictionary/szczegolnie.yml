@@ -45,10 +45,19 @@ idioms:
   - { pl: "szczególnie ważny", ru: "особенно важный" }
   - { pl: "nie szczególnie", ru: "не особенно" }
   - { pl: "nic szczególnego", ru: "ничего особенного" }
-formExamplesSkip:
-  - { form: "szczególniej", reason: "сравнительная степень, в корпусе примеров нет" }
-  - { form: "najszczególniej", reason: "превосходная степень, в корпусе примеров нет" }
 formExamples:
+  - form: "najszczególniej"
+    pl: "Ze wszystkich uczniów najszczególniej wyróżniał się Tomek."
+    ru: "Из всех учеников более всего выделялся Томек."
+    source: { kind: authored }
+  - form: "najszczególniej"
+    pl: "Najszczególniej zależało mu na jednej rzeczy."
+    ru: "Более всего ему была важна одна вещь."
+    source: { kind: authored }
+  - form: "najszczególniej"
+    pl: "Z całej wystawy najszczególniej zapamiętał ten obraz."
+    ru: "Из всей выставки более всего ему запомнилась эта картина."
+    source: { kind: authored }
   - form: "szczególnie"
     pl: "On szczególnie lubi pływanie."
     ru: "Он особенно любит плавание."
@@ -73,3 +82,15 @@ formExamples:
     pl: "Nie interesuję się tym jakoś szczególnie, ale coś kojarzę."
     ru: "Я специально этим не интересовался, но кое-что знаю."
     source: { kind: tatoeba, id: 13225507 }
+  - form: "szczególniej"
+    pl: "Lubię wszystkie pory roku, a szczególniej jesień."
+    ru: "Я люблю все времена года, а в особенности осень."
+    source: { kind: authored }
+  - form: "szczególniej"
+    pl: "Dotyczy to wszystkich, a szczególniej nowych pracowników."
+    ru: "Это касается всех, а в особенности новых сотрудников."
+    source: { kind: authored }
+  - form: "szczególniej"
+    pl: "Uważajcie na drodze, szczególniej po zmroku."
+    ru: "Будьте осторожны на дороге, в особенности после наступления темноты."
+    source: { kind: authored }
