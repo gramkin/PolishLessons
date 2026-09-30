@@ -65,10 +65,6 @@ idioms:
   - { pl: "pić kawę", ru: "пить кофе" }
   - { pl: "czarna kawa", ru: "чёрный кофе" }
   - { pl: "przy kawie", ru: "за чашкой кофе" }
-formExamplesSkip:
-  - { form: "kawach", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
-  - { form: "kawami", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
-  - { form: "kawom", reason: "у названия напитка множественного числа в живой речи нет: формы образуются морфологией, но в корпусе нет ни одного примера" }
 formExamples:
   - form: "kaw"
     pl: "Wypiliśmy pięć kaw."
@@ -94,6 +90,30 @@ formExamples:
     pl: "Ta kawa jest za słaba."
     ru: "Этот кофе слишком слабый."
     source: { kind: tatoeba, id: 10473539 }
+  - form: "kawach"
+    pl: "Rozmawiali przy dwóch kawach do północy."
+    ru: "Они разговаривали за двумя чашками кофе до полуночи."
+    source: { kind: authored }
+  - form: "kawach"
+    pl: "W tych kawach czuć palone ziarno."
+    ru: "В этих сортах кофе чувствуется жареное зерно."
+    source: { kind: authored }
+  - form: "kawach"
+    pl: "O drogich kawach z Etiopii mówi cały rynek."
+    ru: "О дорогих сортах кофе из Эфиопии говорит весь рынок."
+    source: { kind: authored }
+  - form: "kawami"
+    pl: "Wrócił z dwiema kawami w rękach."
+    ru: "Он вернулся с двумя чашками кофе в руках."
+    source: { kind: authored }
+  - form: "kawami"
+    pl: "Między kawami zrobili krótką przerwę."
+    ru: "Между чашками кофе они сделали короткий перерыв."
+    source: { kind: authored }
+  - form: "kawami"
+    pl: "Handluje kawami z Ameryki Południowej."
+    ru: "Он торгует сортами кофе из Южной Америки."
+    source: { kind: authored }
   - form: "kawą"
     pl: "Tom poplamił kawą całą moją koszulę."
     ru: "Том залил кофе всю мою рубашку."
@@ -141,6 +161,18 @@ formExamples:
   - form: "kawo"
     pl: "Kawo poranna, ratuj."
     ru: "Утренний кофе, спасай."
+    source: { kind: authored }
+  - form: "kawom"
+    pl: "Tanim kawom brakuje aromatu."
+    ru: "Дешёвым сортам кофе не хватает аромата."
+    source: { kind: authored }
+  - form: "kawom"
+    pl: "Przyjrzyj się kawom z tej palarni."
+    ru: "Присмотрись к сортам кофе из этой обжарочной."
+    source: { kind: authored }
+  - form: "kawom"
+    pl: "Kawom z ekspresu daleko do parzonych ręcznie."
+    ru: "Кофе из автомата далеко до завариваемого вручную."
     source: { kind: authored }
   - form: "kawy"
     pl: "Zrób kawy."
