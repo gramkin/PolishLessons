@@ -53,8 +53,6 @@ idioms:
   - { pl: "jestem studentem", ru: "я студент" }
   - { pl: "wieczny student", ru: "вечный студент" }
   - { pl: "studenci pierwszego roku", ru: "первокурсники" }
-formExamplesSkip:
-  - { form: "studencie", reason: "звательная форма, в корпусе примеров нет" }
 formExamples:
   - form: "studenci"
     pl: "Studenci to lubią."
@@ -72,6 +70,18 @@ formExamples:
     pl: "Studenci wybuchnęli śmiechem."
     ru: "Студенты расхохотались."
     source: { kind: translated, id: 1465662 }
+  - form: "studencie"
+    pl: "Studencie, proszę pokazać indeks."
+    ru: "Студент, прошу показать зачётку."
+    source: { kind: authored }
+  - form: "studencie"
+    pl: "Nie martw się, studencie, wszyscy tak zaczynali."
+    ru: "Не волнуйся, студент, все так начинали."
+    source: { kind: authored }
+  - form: "studencie"
+    pl: "Studencie pierwszego roku, witaj na uczelni!"
+    ru: "Студент первого курса, добро пожаловать в вуз!"
+    source: { kind: authored }
   - form: "student"
     pl: "Student się uczy."
     ru: "Студент учится."
