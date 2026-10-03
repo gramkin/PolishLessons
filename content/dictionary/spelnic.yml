@@ -1,0 +1,737 @@
+# review
+id: spelnic
+format: 2
+lemma: "spełnić"
+rank: 1854
+pos: verb
+pron: { cyr: "спе́униць" }
+senses:
+  - id: fulfil
+    ru: "исполнить (обещание, желание, мечту)"
+    examples:
+      - pl: "Spełnił obietnicę po dwudziestu latach."
+        ru: "Он исполнил обещание через двадцать лет."
+        source: { kind: authored }
+      - pl: "Spełniła życzenie dziecka."
+        ru: "Она исполнила желание ребёнка."
+        source: { kind: authored }
+      - pl: "Jej ostatnią prośbę spełniono."
+        ru: "Её последнюю просьбу исполнили."
+        source: { kind: authored }
+  - id: meet-conditions
+    ru: "выполнить (условия, нормы, требования)"
+    examples:
+      - pl: "Spełnimy wszystkie warunki."
+        ru: "Мы выполним все условия."
+        source: { kind: authored }
+      - pl: "Firma spełni wymagania do marca."
+        ru: "Фирма выполнит требования к марту."
+        source: { kind: authored }
+  - id: fulfilled
+    ru: "spełniony — реализовавшийся, состоявшийся"
+    examples:
+      - pl: "Spełniony zawodowo człowiek rzadko narzeka."
+        ru: "Реализовавшийся в профессии человек редко жалуется."
+        source: { kind: authored }
+      - pl: "Czuł się spełniony."
+        ru: "Он чувствовал себя состоявшимся."
+        source: { kind: authored }
+  - id: fulfilment
+    ru: "spełnienie — исполнение; самореализация"
+    examples:
+      - pl: "Spełnienie obietnicy zajęło mu dwadzieścia lat."
+        ru: "Исполнение обещания заняло у него двадцать лет."
+        source: { kind: authored }
+      - pl: "Spełnienie zawodowe nie przychodzi samo."
+        ru: "Самореализация не приходит сама."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Польский делит там, где русский нет. Spełnić берёт ОБЕЩАНИЯ и ЖЕЛАНИЯ: spełnić obietnicę, życzenie, marzenie, warunki. А wypełnić берёт ФОРМЫ и ПРОСТРАНСТВО: wypełnić formularz, lukę, przestrzeń. Русское «исполнить, выполнить» покрывает оба набора, поэтому границу приходится заучивать: нельзя spełnić formularza и нельзя wypełnić obietnicy." }
+  - { kind: usage, text: "У глагола ШЕСТЬ повелительных форм — два равноправных набора: spełnij, spełnijmy, spełnijcie и spełń, spełńmy, spełńcie. Именно поэтому парадигма насчитывает 56 форм, а не 53. Ровно та же двойственность у родственного wypełnić — оба глагола сидят на корне pełny «полный»." }
+  - { kind: government, text: "Исполняют ЧТО — винительный: spełnić obietnicę, spełnić warunki. Возвратное spełnić się значит «исполниться, осуществиться», и подлежащим при нём стоит само желание: marzenie się spełniło «мечта исполнилась». Причастие spełniony живёт самостоятельно в значении «состоявшийся»: spełniony zawodowo, spełniona matka." }
+collocations:
+  - { pl: "spełnić obietnicę", ru: "исполнить обещание" }
+  - { pl: "spełnić warunki", ru: "выполнить условия" }
+  - { pl: "marzenie się spełniło", ru: "мечта исполнилась" }
+family:
+  - { pl: "pełny", ru: "полный", relation: root, id: pelny }
+  - { pl: "wypełnić", ru: "заполнить; выполнить", relation: derived, id: wypelnic }
+  - { pl: "spełniać", ru: "исполнять", relation: aspect }
+etymology: "Приставка s- плюс pełnić, от pełny «полный», праславянское *pьlnъ — то же слово, что русское «полный». Русские «исполнить», «выполнить» и «наполнить» построены от того же корня теми же приставками, так что всё гнездо прозрачно; расходятся только сочетания, за которыми закрепились spełnić и wypełnić."
+memory: "spełnić — «исполнить» обещание, желание, мечту, условия. Для бланков и пустот нужен wypełnić: польский делит то, что русский покрывает одним «выполнить». Корень тот же, что «полный», и повелительных форм две: spełnij и spełń."
+idioms:
+  - { pl: "marzenie się spełniło", ru: "мечта исполнилась" }
+  - { pl: "spełnić czyjąś ostatnią wolę", ru: "исполнить чью-л. последнюю волю" }
+formExamples:
+  - form: "spełni"
+    pl: "Nikt nie spełni takiego warunku."
+    ru: "Никто не выполнит такое условие."
+    source: { kind: authored }
+  - form: "spełni"
+    pl: "Firma spełni wymagania do marca."
+    ru: "Фирма выполнит требования к марту."
+    source: { kind: authored }
+  - form: "spełni"
+    pl: "Spełni obietnicę, choćby po latach."
+    ru: "Он исполнит обещание, хоть и через годы."
+    source: { kind: authored }
+  - form: "spełnicie"
+    pl: "Czy spełnicie te warunki?"
+    ru: "Вы выполните эти условия?"
+    source: { kind: authored }
+  - form: "spełnicie"
+    pl: "Jeśli spełnicie normy, przejdziecie dalej."
+    ru: "Если выполните нормы, пройдёте дальше."
+    source: { kind: authored }
+  - form: "spełnicie"
+    pl: "Spełnicie naszą prośbę?"
+    ru: "Вы исполните нашу просьбу?"
+    source: { kind: authored }
+  - form: "spełnieni"
+    pl: "Spełnieni zawodowo ludzie rzadziej zmieniają pracę."
+    ru: "Реализовавшиеся в профессии люди реже меняют работу."
+    source: { kind: authored }
+  - form: "spełnieni"
+    pl: "Byliśmy spełnieni i spokojni."
+    ru: "Мы были состоявшимися и спокойными."
+    source: { kind: authored }
+  - form: "spełnieni"
+    pl: "Spełnieni rodzice nie żądają od dzieci wszystkiego."
+    ru: "Состоявшиеся родители не требуют от детей всего."
+    source: { kind: authored }
+  - form: "spełnienia"
+    pl: "Do spełnienia warunków brakuje jednego podpisu."
+    ru: "Для выполнения условий не хватает одной подписи."
+    source: { kind: authored }
+  - form: "spełnienia"
+    pl: "Bez spełnienia norm nie dostaną dotacji."
+    ru: "Без выполнения норм они не получат дотацию."
+    source: { kind: authored }
+  - form: "spełnienia"
+    pl: "Od spełnienia obietnicy minął rok."
+    ru: "С исполнения обещания прошёл год."
+    source: { kind: authored }
+  - form: "spełnienie"
+    pl: "Spełnienie obietnicy zajęło mu dwadzieścia lat."
+    ru: "Исполнение обещания заняло у него двадцать лет."
+    source: { kind: authored }
+  - form: "spełnienie"
+    pl: "Spełnienie warunków jest konieczne."
+    ru: "Выполнение условий необходимо."
+    source: { kind: authored }
+  - form: "spełnienie"
+    pl: "Spełnienie zawodowe nie przychodzi samo."
+    ru: "Самореализация не приходит сама."
+    source: { kind: authored }
+  - form: "spełnieniem"
+    pl: "Przed spełnieniem obietnicy długo się wahał."
+    ru: "Перед исполнением обещания он долго колебался."
+    source: { kind: authored }
+  - form: "spełnieniem"
+    pl: "Sprawa skończyła się spełnieniem wszystkich żądań."
+    ru: "Дело кончилось исполнением всех требований."
+    source: { kind: authored }
+  - form: "spełnieniem"
+    pl: "Między obietnicą a spełnieniem minęły lata."
+    ru: "Между обещанием и исполнением прошли годы."
+    source: { kind: authored }
+  - form: "spełnieniu"
+    pl: "Po spełnieniu warunków podpisano umowę."
+    ru: "После выполнения условий подписали договор."
+    source: { kind: authored }
+  - form: "spełnieniu"
+    pl: "Mówiono o spełnieniu jej ostatniej prośby."
+    ru: "Говорили об исполнении её последней просьбы."
+    source: { kind: authored }
+  - form: "spełnieniu"
+    pl: "W spełnieniu takiego życzenia nie ma nic trudnego."
+    ru: "В исполнении такого желания нет ничего трудного."
+    source: { kind: authored }
+  - form: "spełnij"
+    pl: "Spełnij obietnicę."
+    ru: "Исполни обещание."
+    source: { kind: authored }
+  - form: "spełnij"
+    pl: "Spełnij jedno życzenie."
+    ru: "Исполни одно желание."
+    source: { kind: authored }
+  - form: "spełnij"
+    pl: "Spełnij wreszcie swoje marzenie."
+    ru: "Исполни наконец свою мечту."
+    source: { kind: authored }
+  - form: "spełnijcie"
+    pl: "Spełnijcie obietnicę."
+    ru: "Исполните обещание."
+    source: { kind: authored }
+  - form: "spełnijcie"
+    pl: "Spełnijcie te warunki do piątku."
+    ru: "Выполните эти условия до пятницы."
+    source: { kind: authored }
+  - form: "spełnijcie"
+    pl: "Spełnijcie jej ostatnią prośbę."
+    ru: "Исполните её последнюю просьбу."
+    source: { kind: authored }
+  - form: "spełnijmy"
+    pl: "Spełnijmy obietnicę razem."
+    ru: "Исполним обещание вместе."
+    source: { kind: authored }
+  - form: "spełnijmy"
+    pl: "Spełnijmy jej jedno życzenie."
+    ru: "Исполним одно её желание."
+    source: { kind: authored }
+  - form: "spełnijmy"
+    pl: "Spełnijmy wszystkie warunki umowy."
+    ru: "Выполним все условия договора."
+    source: { kind: authored }
+  - form: "spełnili"
+    pl: "Spełnili obietnicę co do joty."
+    ru: "Они исполнили обещание до точки."
+    source: { kind: authored }
+  - form: "spełnili"
+    pl: "Spełnili wszystkie warunki."
+    ru: "Они выполнили все условия."
+    source: { kind: authored }
+  - form: "spełnili"
+    pl: "Życzenia nie spełnili nikomu."
+    ru: "Желание они никому не исполнили."
+    source: { kind: authored }
+  - form: "spełniliby"
+    pl: "Spełniliby obietnicę, gdyby im przypomnieć."
+    ru: "Они исполнили бы обещание, если им напомнить."
+    source: { kind: authored }
+  - form: "spełniliby"
+    pl: "Bez pieniędzy niczego nie spełniliby."
+    ru: "Без денег они ничего не исполнили бы."
+    source: { kind: authored }
+  - form: "spełniliby"
+    pl: "Chętnie spełniliby jej prośbę."
+    ru: "Они охотно исполнили бы её просьбу."
+    source: { kind: authored }
+  - form: "spełnilibyście"
+    pl: "Spełnilibyście takie życzenie?"
+    ru: "Вы исполнили бы такое желание?"
+    source: { kind: authored }
+  - form: "spełnilibyście"
+    pl: "Czy spełnilibyście te warunki?"
+    ru: "Вы выполнили бы эти условия?"
+    source: { kind: authored }
+  - form: "spełnilibyście"
+    pl: "Obietnicy nie spełnilibyście pod presją."
+    ru: "Обещание вы не исполнили бы под нажимом."
+    source: { kind: authored }
+  - form: "spełnilibyśmy"
+    pl: "Spełnilibyśmy wszystkie warunki."
+    ru: "Мы выполнили бы все условия."
+    source: { kind: authored }
+  - form: "spełnilibyśmy"
+    pl: "Bez dotacji niczego nie spełnilibyśmy."
+    ru: "Без дотации мы ничего не выполнили бы."
+    source: { kind: authored }
+  - form: "spełnilibyśmy"
+    pl: "Chętnie spełnilibyśmy jej prośbę."
+    ru: "Мы охотно исполнили бы её просьбу."
+    source: { kind: authored }
+  - form: "spełniliście"
+    pl: "Spełniliście obietnicę?"
+    ru: "Вы исполнили обещание?"
+    source: { kind: authored }
+  - form: "spełniliście"
+    pl: "Dlaczego nie spełniliście warunków?"
+    ru: "Почему вы не выполнили условия?"
+    source: { kind: authored }
+  - form: "spełniliście"
+    pl: "Czy spełniliście jej prośbę?"
+    ru: "Вы исполнили её просьбу?"
+    source: { kind: authored }
+  - form: "spełniliśmy"
+    pl: "Spełniliśmy wszystkie warunki."
+    ru: "Мы выполнили все условия."
+    source: { kind: authored }
+  - form: "spełniliśmy"
+    pl: "Spełniliśmy obietnicę daną ojcu."
+    ru: "Мы исполнили обещание, данное отцу."
+    source: { kind: authored }
+  - form: "spełniliśmy"
+    pl: "Życzenia nie spełniliśmy nikomu."
+    ru: "Желание мы никому не исполнили."
+    source: { kind: authored }
+  - form: "spełnimy"
+    pl: "Spełnimy wszystkie warunki."
+    ru: "Мы выполним все условия."
+    source: { kind: authored }
+  - form: "spełnimy"
+    pl: "Jeśli spełnimy normy, dostaniemy dotację."
+    ru: "Если выполним нормы, получим дотацию."
+    source: { kind: authored }
+  - form: "spełnimy"
+    pl: "Obietnicy nie spełnimy bez budżetu."
+    ru: "Обещание мы без бюджета не исполним."
+    source: { kind: authored }
+  - form: "spełniona"
+    pl: "Obietnica została spełniona."
+    ru: "Обещание было исполнено."
+    source: { kind: authored }
+  - form: "spełniona"
+    pl: "Spełniona zawodowo kobieta nie wraca do dawnej pracy."
+    ru: "Реализовавшаяся в профессии женщина не возвращается на прежнюю работу."
+    source: { kind: authored }
+  - form: "spełniona"
+    pl: "Jej prośba została spełniona."
+    ru: "Её просьба была исполнена."
+    source: { kind: authored }
+  - form: "spełnione"
+    pl: "Wszystkie warunki są spełnione."
+    ru: "Все условия выполнены."
+    source: { kind: authored }
+  - form: "spełnione"
+    pl: "Spełnione marzenia szybko się nudzą."
+    ru: "Исполнившиеся мечты быстро надоедают."
+    source: { kind: authored }
+  - form: "spełnione"
+    pl: "Jego życzenia zostały spełnione."
+    ru: "Его желания были исполнены."
+    source: { kind: authored }
+  - form: "spełnionego"
+    pl: "Nie ma tu ani jednego spełnionego warunku."
+    ru: "Здесь нет ни одного выполненного условия."
+    source: { kind: authored }
+  - form: "spełnionego"
+    pl: "Ze spełnionego marzenia zostało wspomnienie."
+    ru: "От исполнившейся мечты осталось воспоминание."
+    source: { kind: authored }
+  - form: "spełnionego"
+    pl: "Smak spełnionego obowiązku jest szczególny."
+    ru: "Вкус исполненного долга особый."
+    source: { kind: authored }
+  - form: "spełnionej"
+    pl: "O spełnionej obietnicy nikt nie pamięta."
+    ru: "Об исполненном обещании никто не помнит."
+    source: { kind: authored }
+  - form: "spełnionej"
+    pl: "Nie znam prośby spełnionej tak szybko."
+    ru: "Я не знаю просьбы, исполненной так быстро."
+    source: { kind: authored }
+  - form: "spełnionej"
+    pl: "Ze spełnionej groźby nic nie wyszło."
+    ru: "Из исполненной угрозы ничего не вышло."
+    source: { kind: authored }
+  - form: "spełnionemu"
+    pl: "Spełnionemu warunkowi nikt nie zaprzeczył."
+    ru: "Выполненному условию никто не возразил."
+    source: { kind: authored }
+  - form: "spełnionemu"
+    pl: "Dzięki spełnionemu marzeniu odzyskał spokój."
+    ru: "Благодаря исполнившейся мечте он вернул покой."
+    source: { kind: authored }
+  - form: "spełnionemu"
+    pl: "Przyjrzyj się temu spełnionemu wreszcie obowiązkowi."
+    ru: "Присмотрись к этому наконец исполненному долгу."
+    source: { kind: authored }
+  - form: "spełniono"
+    pl: "Wszystkie warunki spełniono."
+    ru: "Все условия выполнили."
+    source: { kind: authored }
+  - form: "spełniono"
+    pl: "Jej ostatnią prośbę spełniono."
+    ru: "Её последнюю просьбу исполнили."
+    source: { kind: authored }
+  - form: "spełniono"
+    pl: "Obietnicy nie spełniono do dziś."
+    ru: "Обещание не исполнено до сих пор."
+    source: { kind: authored }
+  - form: "spełniony"
+    pl: "Warunek jest spełniony."
+    ru: "Условие выполнено."
+    source: { kind: authored }
+  - form: "spełniony"
+    pl: "Spełniony zawodowo człowiek rzadko narzeka."
+    ru: "Реализовавшийся в профессии человек редко жалуется."
+    source: { kind: authored }
+  - form: "spełniony"
+    pl: "Czuł się spełniony."
+    ru: "Он чувствовал себя состоявшимся."
+    source: { kind: authored }
+  - form: "spełnionych"
+    pl: "Liczba spełnionych warunków rośnie."
+    ru: "Число выполненных условий растёт."
+    source: { kind: authored }
+  - form: "spełnionych"
+    pl: "O spełnionych obietnicach mówi się rzadziej."
+    ru: "Об исполненных обещаниях говорят реже."
+    source: { kind: authored }
+  - form: "spełnionych"
+    pl: "Połowa spełnionych marzeń rozczarowuje."
+    ru: "Половина исполнившихся мечтаний разочаровывает."
+    source: { kind: authored }
+  - form: "spełnionym"
+    pl: "W spełnionym życzeniu było coś smutnego."
+    ru: "В исполненном желании было что-то печальное."
+    source: { kind: authored }
+  - form: "spełnionym"
+    pl: "Spełnionym warunkom nikt nie protestował."
+    ru: "Против выполненных условий никто не возражал."
+    source: { kind: authored }
+  - form: "spełnionym"
+    pl: "Mówił o spełnionym marzeniu bez entuzjazmu."
+    ru: "Он говорил об исполнившейся мечте без восторга."
+    source: { kind: authored }
+  - form: "spełnionymi"
+    pl: "Między spełnionymi obietnicami była jedna ważna."
+    ru: "Среди исполненных обещаний было одно важное."
+    source: { kind: authored }
+  - form: "spełnionymi"
+    pl: "Zajmował się spełnionymi już wnioskami."
+    ru: "Он занимался уже исполненными заявлениями."
+    source: { kind: authored }
+  - form: "spełnionymi"
+    pl: "Cieszył się spełnionymi marzeniami."
+    ru: "Он радовался исполнившимся мечтам."
+    source: { kind: authored }
+  - form: "spełnioną"
+    pl: "Uznano obietnicę za spełnioną."
+    ru: "Обещание признали исполненным."
+    source: { kind: authored }
+  - form: "spełnioną"
+    pl: "Przyjęli prośbę za spełnioną."
+    ru: "Они приняли просьбу за исполненную."
+    source: { kind: authored }
+  - form: "spełnioną"
+    pl: "Odnotował spełnioną normę w raporcie."
+    ru: "Он отметил выполненную норму в отчёте."
+    source: { kind: authored }
+  - form: "spełnisz"
+    pl: "Czy spełnisz obietnicę?"
+    ru: "Ты исполнишь обещание?"
+    source: { kind: authored }
+  - form: "spełnisz"
+    pl: "Jeśli spełnisz warunki, dostaniesz kredyt."
+    ru: "Если выполнишь условия, получишь кредит."
+    source: { kind: authored }
+  - form: "spełnisz"
+    pl: "Spełnisz moje jedno życzenie?"
+    ru: "Исполнишь одно моё желание?"
+    source: { kind: authored }
+  - form: "spełniwszy"
+    pl: "Spełniwszy obietnicę, odszedł w spokoju."
+    ru: "Исполнив обещание, он ушёл спокойно."
+    source: { kind: authored }
+  - form: "spełniwszy"
+    pl: "Spełniwszy warunki, podpisali umowę."
+    ru: "Выполнив условия, они подписали договор."
+    source: { kind: authored }
+  - form: "spełniwszy"
+    pl: "Spełniwszy jej prośbę, zamknął drzwi."
+    ru: "Исполнив её просьбу, он закрыл дверь."
+    source: { kind: authored }
+  - form: "spełnią"
+    pl: "Spełnią obietnicę po wyborach."
+    ru: "Они исполнят обещание после выборов."
+    source: { kind: authored }
+  - form: "spełnią"
+    pl: "Bez pieniędzy niczego nie spełnią."
+    ru: "Без денег они ничего не исполнят."
+    source: { kind: authored }
+  - form: "spełnią"
+    pl: "Nowe przepisy spełnią oczekiwania mieszkańców."
+    ru: "Новые правила исполнят ожидания жителей."
+    source: { kind: authored }
+  - form: "spełnić"
+    pl: "Trzeba spełnić obietnicę."
+    ru: "Надо исполнить обещание."
+    source: { kind: authored }
+  - form: "spełnić"
+    pl: "Chciał spełnić marzenie ojca."
+    ru: "Он хотел исполнить мечту отца."
+    source: { kind: authored }
+  - form: "spełnić"
+    pl: "Trudno spełnić wszystkie warunki."
+    ru: "Трудно выполнить все условия."
+    source: { kind: authored }
+  - form: "spełnię"
+    pl: "Spełnię obietnicę do końca roku."
+    ru: "Я исполню обещание до конца года."
+    source: { kind: authored }
+  - form: "spełnię"
+    pl: "Spełnię twoje życzenie."
+    ru: "Я исполню твоё желание."
+    source: { kind: authored }
+  - form: "spełnię"
+    pl: "Żadnego warunku nie spełnię bez pomocy."
+    ru: "Ни одного условия я без помощи не выполню."
+    source: { kind: authored }
+  - form: "spełnił"
+    pl: "Spełnił obietnicę po dwudziestu latach."
+    ru: "Он исполнил обещание через двадцать лет."
+    source: { kind: authored }
+  - form: "spełnił"
+    pl: "Spełnił marzenie matki."
+    ru: "Он исполнил мечту матери."
+    source: { kind: authored }
+  - form: "spełnił"
+    pl: "Żadnego warunku nie spełnił."
+    ru: "Ни одного условия он не выполнил."
+    source: { kind: authored }
+  - form: "spełniła"
+    pl: "Spełniła życzenie dziecka."
+    ru: "Она исполнила желание ребёнка."
+    source: { kind: authored }
+  - form: "spełniła"
+    pl: "Spełniła wszystkie warunki konkursu."
+    ru: "Она выполнила все условия конкурса."
+    source: { kind: authored }
+  - form: "spełniła"
+    pl: "Obietnicy nie spełniła nigdy."
+    ru: "Обещание она так и не исполнила."
+    source: { kind: authored }
+  - form: "spełniłaby"
+    pl: "Spełniłaby obietnicę bez wahania."
+    ru: "Она исполнила бы обещание без колебаний."
+    source: { kind: authored }
+  - form: "spełniłaby"
+    pl: "Bez pieniędzy niczego nie spełniłaby."
+    ru: "Без денег она ничего не исполнила бы."
+    source: { kind: authored }
+  - form: "spełniłaby"
+    pl: "Chętnie spełniłaby jego prośbę."
+    ru: "Она охотно исполнила бы его просьбу."
+    source: { kind: authored }
+  - form: "spełniłabym"
+    pl: "Spełniłabym obietnicę od razu."
+    ru: "Я исполнила бы обещание сразу."
+    source: { kind: authored }
+  - form: "spełniłabym"
+    pl: "Na jej miejscu spełniłabym tę prośbę."
+    ru: "На её месте я исполнила бы эту просьбу."
+    source: { kind: authored }
+  - form: "spełniłabym"
+    pl: "Żadnego warunku nie spełniłabym pod presją."
+    ru: "Ни одного условия я не выполнила бы под нажимом."
+    source: { kind: authored }
+  - form: "spełniłabyś"
+    pl: "Spełniłabyś takie życzenie?"
+    ru: "Ты исполнила бы такое желание?"
+    source: { kind: authored }
+  - form: "spełniłabyś"
+    pl: "Czy spełniłabyś wszystkie warunki?"
+    ru: "Ты выполнила бы все условия?"
+    source: { kind: authored }
+  - form: "spełniłabyś"
+    pl: "Obietnicy nie spełniłabyś pod presją."
+    ru: "Обещание ты не исполнила бы под нажимом."
+    source: { kind: authored }
+  - form: "spełniłam"
+    pl: "Spełniłam obietnicę daną matce."
+    ru: "Я исполнила обещание, данное матери."
+    source: { kind: authored }
+  - form: "spełniłam"
+    pl: "Spełniłam jego życzenie."
+    ru: "Я исполнила его желание."
+    source: { kind: authored }
+  - form: "spełniłam"
+    pl: "Żadnego warunku nie spełniłam."
+    ru: "Ни одного условия я не выполнила."
+    source: { kind: authored }
+  - form: "spełniłaś"
+    pl: "Spełniłaś obietnicę?"
+    ru: "Ты исполнила обещание?"
+    source: { kind: authored }
+  - form: "spełniłaś"
+    pl: "Dlaczego nie spełniłaś warunku?"
+    ru: "Почему ты не выполнила условие?"
+    source: { kind: authored }
+  - form: "spełniłaś"
+    pl: "Czy spełniłaś jego prośbę?"
+    ru: "Ты исполнила его просьбу?"
+    source: { kind: authored }
+  - form: "spełniłby"
+    pl: "Spełniłby obietnicę, gdyby mógł."
+    ru: "Он исполнил бы обещание, если бы мог."
+    source: { kind: authored }
+  - form: "spełniłby"
+    pl: "Nikt inny nie spełniłby takiego warunku."
+    ru: "Никто другой не выполнил бы такое условие."
+    source: { kind: authored }
+  - form: "spełniłby"
+    pl: "Chętnie spełniłby jej życzenie."
+    ru: "Он охотно исполнил бы её желание."
+    source: { kind: authored }
+  - form: "spełniłbym"
+    pl: "Spełniłbym obietnicę od razu."
+    ru: "Я исполнил бы обещание сразу."
+    source: { kind: authored }
+  - form: "spełniłbym"
+    pl: "Na twoim miejscu spełniłbym jej prośbę."
+    ru: "На твоём месте я исполнил бы её просьбу."
+    source: { kind: authored }
+  - form: "spełniłbym"
+    pl: "Żadnego warunku nie spełniłbym pod presją."
+    ru: "Ни одного условия я не выполнил бы под нажимом."
+    source: { kind: authored }
+  - form: "spełniłbyś"
+    pl: "Spełniłbyś takie życzenie?"
+    ru: "Ты исполнил бы такое желание?"
+    source: { kind: authored }
+  - form: "spełniłbyś"
+    pl: "Czy spełniłbyś wszystkie warunki?"
+    ru: "Ты выполнил бы все условия?"
+    source: { kind: authored }
+  - form: "spełniłbyś"
+    pl: "Obietnicy nie spełniłbyś pod presją."
+    ru: "Обещание ты не исполнил бы под нажимом."
+    source: { kind: authored }
+  - form: "spełniłem"
+    pl: "Spełniłem obietnicę."
+    ru: "Я исполнил обещание."
+    source: { kind: authored }
+  - form: "spełniłem"
+    pl: "Spełniłem jej jedno życzenie."
+    ru: "Я исполнил одно её желание."
+    source: { kind: authored }
+  - form: "spełniłem"
+    pl: "Żadnego warunku nie spełniłem."
+    ru: "Ни одного условия я не выполнил."
+    source: { kind: authored }
+  - form: "spełniłeś"
+    pl: "Spełniłeś obietnicę?"
+    ru: "Ты исполнил обещание?"
+    source: { kind: authored }
+  - form: "spełniłeś"
+    pl: "Dlaczego nie spełniłeś warunku?"
+    ru: "Почему ты не выполнил условие?"
+    source: { kind: authored }
+  - form: "spełniłeś"
+    pl: "Czy spełniłeś jej prośbę?"
+    ru: "Ты исполнил её просьбу?"
+    source: { kind: authored }
+  - form: "spełniło"
+    pl: "Marzenie się spełniło."
+    ru: "Мечта исполнилась."
+    source: { kind: authored }
+  - form: "spełniło"
+    pl: "Pół klasy spełniło normy."
+    ru: "Полкласса выполнило нормы."
+    source: { kind: authored }
+  - form: "spełniło"
+    pl: "Przedsiębiorstwo spełniło wymagania."
+    ru: "Предприятие выполнило требования."
+    source: { kind: authored }
+  - form: "spełniłoby"
+    pl: "To spełniłoby jej marzenie."
+    ru: "Это исполнило бы её мечту."
+    source: { kind: authored }
+  - form: "spełniłoby"
+    pl: "Pół klasy spełniłoby normy."
+    ru: "Полкласса выполнило бы нормы."
+    source: { kind: authored }
+  - form: "spełniłoby"
+    pl: "Nowe prawo spełniłoby oczekiwania."
+    ru: "Новый закон исполнил бы ожидания."
+    source: { kind: authored }
+  - form: "spełniły"
+    pl: "Firmy spełniły nowe normy."
+    ru: "Фирмы выполнили новые нормы."
+    source: { kind: authored }
+  - form: "spełniły"
+    pl: "Kobiety spełniły wszystkie warunki."
+    ru: "Женщины выполнили все условия."
+    source: { kind: authored }
+  - form: "spełniły"
+    pl: "Jej marzenia się spełniły."
+    ru: "Её мечты исполнились."
+    source: { kind: authored }
+  - form: "spełniłyby"
+    pl: "Firmy spełniłyby nowe normy."
+    ru: "Фирмы выполнили бы новые нормы."
+    source: { kind: authored }
+  - form: "spełniłyby"
+    pl: "Takie przepisy spełniłyby oczekiwania."
+    ru: "Такие правила исполнили бы ожидания."
+    source: { kind: authored }
+  - form: "spełniłyby"
+    pl: "Bez dotacji niczego nie spełniłyby."
+    ru: "Без дотации они ничего не выполнили бы."
+    source: { kind: authored }
+  - form: "spełniłybyście"
+    pl: "Spełniłybyście takie życzenie?"
+    ru: "Вы исполнили бы такое желание?"
+    source: { kind: authored }
+  - form: "spełniłybyście"
+    pl: "Czy spełniłybyście te warunki?"
+    ru: "Вы выполнили бы эти условия?"
+    source: { kind: authored }
+  - form: "spełniłybyście"
+    pl: "Obietnicy nie spełniłybyście pod presją."
+    ru: "Обещание вы не исполнили бы под нажимом."
+    source: { kind: authored }
+  - form: "spełniłybyśmy"
+    pl: "Spełniłybyśmy wszystkie warunki."
+    ru: "Мы выполнили бы все условия."
+    source: { kind: authored }
+  - form: "spełniłybyśmy"
+    pl: "Bez pieniędzy niczego nie spełniłybyśmy."
+    ru: "Без денег мы ничего не исполнили бы."
+    source: { kind: authored }
+  - form: "spełniłybyśmy"
+    pl: "Chętnie spełniłybyśmy jej życzenie."
+    ru: "Мы охотно исполнили бы её желание."
+    source: { kind: authored }
+  - form: "spełniłyście"
+    pl: "Spełniłyście obietnicę?"
+    ru: "Вы исполнили обещание?"
+    source: { kind: authored }
+  - form: "spełniłyście"
+    pl: "Dlaczego nie spełniłyście warunków?"
+    ru: "Почему вы не выполнили условия?"
+    source: { kind: authored }
+  - form: "spełniłyście"
+    pl: "Czy spełniłyście jego prośbę?"
+    ru: "Вы исполнили его просьбу?"
+    source: { kind: authored }
+  - form: "spełniłyśmy"
+    pl: "Spełniłyśmy wszystkie warunki."
+    ru: "Мы выполнили все условия."
+    source: { kind: authored }
+  - form: "spełniłyśmy"
+    pl: "Spełniłyśmy jej ostatnią prośbę."
+    ru: "Мы исполнили её последнюю просьбу."
+    source: { kind: authored }
+  - form: "spełniłyśmy"
+    pl: "Obietnicy nie spełniłyśmy w terminie."
+    ru: "Обещание мы не исполнили в срок."
+    source: { kind: authored }
+  - form: "spełń"
+    pl: "Spełń obietnicę."
+    ru: "Исполни обещание."
+    source: { kind: authored }
+  - form: "spełń"
+    pl: "Spełń moją prośbę."
+    ru: "Исполни мою просьбу."
+    source: { kind: authored }
+  - form: "spełń"
+    pl: "Spełń warunek i podpisz."
+    ru: "Выполни условие и подпиши."
+    source: { kind: authored }
+  - form: "spełńcie"
+    pl: "Spełńcie naszą prośbę."
+    ru: "Исполните нашу просьбу."
+    source: { kind: authored }
+  - form: "spełńcie"
+    pl: "Spełńcie warunki do końca miesiąca."
+    ru: "Выполните условия до конца месяца."
+    source: { kind: authored }
+  - form: "spełńcie"
+    pl: "Spełńcie obietnicę wreszcie."
+    ru: "Исполните обещание наконец."
+    source: { kind: authored }
+  - form: "spełńmy"
+    pl: "Spełńmy jej prośbę."
+    ru: "Исполним её просьбу."
+    source: { kind: authored }
+  - form: "spełńmy"
+    pl: "Spełńmy warunki umowy."
+    ru: "Выполним условия договора."
+    source: { kind: authored }
+  - form: "spełńmy"
+    pl: "Spełńmy obietnicę dziś."
+    ru: "Исполним обещание сегодня."
+    source: { kind: authored }
