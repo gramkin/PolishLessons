@@ -1,0 +1,693 @@
+# review
+id: zatrudnic
+format: 2
+lemma: "zatrudnić"
+rank: 1471
+pos: verb
+pron: { cyr: "затру́дниць" }
+senses:
+  - id: hire
+    ru: "нанять, принять на работу"
+    examples:
+      - pl: "Chcemy zatrudnić dwie osoby."
+        ru: "Мы хотим нанять двух человек."
+        source: { kind: authored }
+      - pl: "Firma zatrudni stu pracowników."
+        ru: "Фирма наймёт сто работников."
+        source: { kind: authored }
+      - pl: "Zatrudniono go na stanowisku kierownika."
+        ru: "Его приняли на должность руководителя."
+        source: { kind: authored }
+  - id: employed
+    ru: "zatrudniony — работающий, трудоустроенный"
+    examples:
+      - pl: "Jest zatrudniony na pół etatu."
+        ru: "Он работает на полставки."
+        source: { kind: authored }
+      - pl: "Zatrudnieni na czarno nie mają ubezpieczenia."
+        ru: "Работающие нелегально не имеют страховки."
+        source: { kind: authored }
+  - id: employment
+    ru: "zatrudnienie — занятость, трудоустройство"
+    examples:
+      - pl: "Zatrudnienie spadło o dwa procent."
+        ru: "Занятость упала на два процента."
+        source: { kind: authored }
+      - pl: "Szukał zatrudnienia od pół roku."
+        ru: "Он искал работу полгода."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "САМАЯ опасная пара в этом разделе. Польское zatrudnić значит «НАНЯТЬ, взять на работу». Оно НЕ значит «затруднить», хотя выглядит именно так. «Затруднить» по-польски — utrudnić, и у него своя отдельная карточка. Так что zatrudnił mnie — это «он меня нанял», а вовсе не «он меня затруднил»." }
+  - { kind: usage, text: "Корень общий с русским «труд»: za- + trud. Логика польского слова — «приставить к труду», отсюда «нанять». Отглагольное существительное zatrudnienie значит и «трудоустройство», и «занятость» как показатель экономики." }
+  - { kind: government, text: "Нанимают КОГО — винительный: zatrudnić kogoś. Куда и на что — предлогами: zatrudnić NA stanowisku (предложный), W firmie, NA pół etatu, JAKO tłumacza. Выражение zatrudnić na czarno значит «нанять нелегально, без оформления»." }
+  - { kind: pronunciation, text: "Страдательное причастие даёт -ony в большинстве форм, но в мужско-личном множественном о переходит в e: zatrudniony — zatrudnieni, podzielony — podzieleni. Это общее правило для таких причастий, и именно эта форма обычно застаёт врасплох." }
+collocations:
+  - { pl: "zatrudnić na czarno", ru: "нанять нелегально" }
+  - { pl: "pełne zatrudnienie", ru: "полная занятость" }
+  - { pl: "zatrudniony na pół etatu", ru: "работающий на полставки" }
+family:
+  - { pl: "trud", ru: "труд, усилие", relation: root, id: trud }
+  - { pl: "utrudnić", ru: "затруднить", relation: derived, id: utrudnic }
+  - { pl: "zatrudniać", ru: "нанимать", relation: aspect }
+etymology: "Приставка za- плюс trudnić, от trud «труд», праславянское *trudъ — то же слово, что русский «труд». Польский построил на нём «приставить к труду», то есть «нанять», а русский от того же корня сделал «затруднить», то есть «создать трудность». Один корень, два расошедшихся смысла — отсюда и ловушка."
+memory: "zatrudnić — «НАНЯТЬ», а не «затруднить». Корень тот же, что русский «труд», но польский пошёл от «приставить к труду». «Затруднить» — это utrudnić. И помните форму zatrudnieni (о людях), где -ony переходит в -eni."
+idioms:
+  - { pl: "zatrudnić na czarno", ru: "нанять нелегально" }
+  - { pl: "pełne zatrudnienie", ru: "полная занятость" }
+formExamples:
+  - form: "zatrudni"
+    pl: "Firma zatrudni stu pracowników."
+    ru: "Фирма наймёт сто работников."
+    source: { kind: authored }
+  - form: "zatrudni"
+    pl: "Nikt go nie zatrudni bez dyplomu."
+    ru: "Никто его не наймёт без диплома."
+    source: { kind: authored }
+  - form: "zatrudni"
+    pl: "Szkoła zatrudni nauczyciela od września."
+    ru: "Школа наймёт учителя с сентября."
+    source: { kind: authored }
+  - form: "zatrudnicie"
+    pl: "Kogo zatrudnicie na moje miejsce?"
+    ru: "Кого вы наймёте на моё место?"
+    source: { kind: authored }
+  - form: "zatrudnicie"
+    pl: "Jeśli zatrudnicie go, nie pożałujecie."
+    ru: "Если наймёте его, не пожалеете."
+    source: { kind: authored }
+  - form: "zatrudnicie"
+    pl: "Zatrudnicie kogoś do pomocy?"
+    ru: "Наймёте кого-нибудь в помощь?"
+    source: { kind: authored }
+  - form: "zatrudnieni"
+    pl: "Zatrudnieni na czarno nie mają ubezpieczenia."
+    ru: "Работающие нелегально не имеют страховки."
+    source: { kind: authored }
+  - form: "zatrudnieni"
+    pl: "Zatrudnieni pracownicy dostali premie."
+    ru: "Нанятые работники получили премии."
+    source: { kind: authored }
+  - form: "zatrudnieni"
+    pl: "Zatrudnieni w fabryce mężczyźni strajkowali."
+    ru: "Работающие на заводе мужчины бастовали."
+    source: { kind: authored }
+  - form: "zatrudnienia"
+    pl: "Szukał zatrudnienia od pół roku."
+    ru: "Он искал работу полгода."
+    source: { kind: authored }
+  - form: "zatrudnienia"
+    pl: "Warunki zatrudnienia są jasne."
+    ru: "Условия трудоустройства ясны."
+    source: { kind: authored }
+  - form: "zatrudnienia"
+    pl: "Bez zatrudnienia nie dostanie kredytu."
+    ru: "Без работы он не получит кредит."
+    source: { kind: authored }
+  - form: "zatrudnienie"
+    pl: "Zatrudnienie spadło o dwa procent."
+    ru: "Занятость упала на два процента."
+    source: { kind: authored }
+  - form: "zatrudnienie"
+    pl: "Znalazł zatrudnienie w sąsiednim mieście."
+    ru: "Он нашёл работу в соседнем городе."
+    source: { kind: authored }
+  - form: "zatrudnienie"
+    pl: "Pełne zatrudnienie to cel każdego rządu."
+    ru: "Полная занятость — цель любого правительства."
+    source: { kind: authored }
+  - form: "zatrudnieniem"
+    pl: "Przed zatrudnieniem przeszedł badania."
+    ru: "Перед трудоустройством он прошёл обследование."
+    source: { kind: authored }
+  - form: "zatrudnieniem"
+    pl: "Cieszył się zatrudnieniem na stałe."
+    ru: "Он радовался постоянной работе."
+    source: { kind: authored }
+  - form: "zatrudnieniem"
+    pl: "Między zatrudnieniem a pierwszą pensją minął miesiąc."
+    ru: "Между трудоустройством и первой зарплатой прошёл месяц."
+    source: { kind: authored }
+  - form: "zatrudnieniu"
+    pl: "Po zatrudnieniu dostał służbowy telefon."
+    ru: "После трудоустройства он получил служебный телефон."
+    source: { kind: authored }
+  - form: "zatrudnieniu"
+    pl: "Mówiono o zatrudnieniu nowych ludzi."
+    ru: "Говорили о найме новых людей."
+    source: { kind: authored }
+  - form: "zatrudnieniu"
+    pl: "W zatrudnieniu na czarno nie ma nic legalnego."
+    ru: "В нелегальном найме нет ничего законного."
+    source: { kind: authored }
+  - form: "zatrudnij"
+    pl: "Zatrudnij kogoś do pomocy."
+    ru: "Найми кого-нибудь в помощь."
+    source: { kind: authored }
+  - form: "zatrudnij"
+    pl: "Zatrudnij go na próbę."
+    ru: "Найми его на пробу."
+    source: { kind: authored }
+  - form: "zatrudnij"
+    pl: "Zatrudnij wreszcie księgową."
+    ru: "Найми наконец бухгалтера."
+    source: { kind: authored }
+  - form: "zatrudnijcie"
+    pl: "Zatrudnijcie kogoś z doświadczeniem."
+    ru: "Наймите кого-нибудь с опытом."
+    source: { kind: authored }
+  - form: "zatrudnijcie"
+    pl: "Zatrudnijcie ją natychmiast."
+    ru: "Наймите её немедленно."
+    source: { kind: authored }
+  - form: "zatrudnijcie"
+    pl: "Zatrudnijcie wreszcie kogoś do obsługi klienta."
+    ru: "Наймите наконец кого-нибудь на обслуживание клиентов."
+    source: { kind: authored }
+  - form: "zatrudnijmy"
+    pl: "Zatrudnijmy kogoś młodego."
+    ru: "Наймём кого-нибудь молодого."
+    source: { kind: authored }
+  - form: "zatrudnijmy"
+    pl: "Zatrudnijmy go na trzy miesiące."
+    ru: "Наймём его на три месяца."
+    source: { kind: authored }
+  - form: "zatrudnijmy"
+    pl: "Zatrudnijmy dwóch ludzi zamiast jednego."
+    ru: "Наймём двух человек вместо одного."
+    source: { kind: authored }
+  - form: "zatrudnili"
+    pl: "Zatrudnili mnie na trzy miesiące."
+    ru: "Меня наняли на три месяца."
+    source: { kind: authored }
+  - form: "zatrudnili"
+    pl: "Nie zatrudnili nikogo z naszej grupy."
+    ru: "Они никого из нашей группы не наняли."
+    source: { kind: authored }
+  - form: "zatrudnili"
+    pl: "Zatrudnili ją od razu po studiach."
+    ru: "Её наняли сразу после учёбы."
+    source: { kind: authored }
+  - form: "zatrudniliby"
+    pl: "Zatrudniliby więcej ludzi, gdyby były zlecenia."
+    ru: "Они наняли бы больше людей, если бы были заказы."
+    source: { kind: authored }
+  - form: "zatrudniliby"
+    pl: "Nie zatrudniliby nikogo przed audytem."
+    ru: "Они никого не наняли бы до аудита."
+    source: { kind: authored }
+  - form: "zatrudniliby"
+    pl: "Zatrudniliby ją na kierownicze stanowisko."
+    ru: "Они наняли бы её на руководящую должность."
+    source: { kind: authored }
+  - form: "zatrudnilibyście"
+    pl: "Zatrudnilibyście kogoś bez dyplomu?"
+    ru: "Вы наняли бы кого-то без диплома?"
+    source: { kind: authored }
+  - form: "zatrudnilibyście"
+    pl: "Czy zatrudnilibyście mnie na lato?"
+    ru: "Вы наняли бы меня на лето?"
+    source: { kind: authored }
+  - form: "zatrudnilibyście"
+    pl: "Nie zatrudnilibyście go po takiej rozmowie."
+    ru: "Вы не наняли бы его после такого собеседования."
+    source: { kind: authored }
+  - form: "zatrudnilibyśmy"
+    pl: "Zatrudnilibyśmy was od zaraz."
+    ru: "Мы наняли бы вас сразу."
+    source: { kind: authored }
+  - form: "zatrudnilibyśmy"
+    pl: "Bez dotacji nie zatrudnilibyśmy nikogo."
+    ru: "Без дотации мы никого не наняли бы."
+    source: { kind: authored }
+  - form: "zatrudnilibyśmy"
+    pl: "Zatrudnilibyśmy kogoś do obsługi strony."
+    ru: "Мы наняли бы кого-нибудь для поддержки сайта."
+    source: { kind: authored }
+  - form: "zatrudniliście"
+    pl: "Kogo zatrudniliście na to stanowisko?"
+    ru: "Кого вы наняли на эту должность?"
+    source: { kind: authored }
+  - form: "zatrudniliście"
+    pl: "Zatrudniliście ją bez konkursu."
+    ru: "Вы наняли её без конкурса."
+    source: { kind: authored }
+  - form: "zatrudniliście"
+    pl: "Nie zatrudniliście nikogo do pomocy."
+    ru: "Вы никого не наняли в помощь."
+    source: { kind: authored }
+  - form: "zatrudniliśmy"
+    pl: "Zatrudniliśmy go na stałe."
+    ru: "Мы наняли его на постоянную работу."
+    source: { kind: authored }
+  - form: "zatrudniliśmy"
+    pl: "Zatrudniliśmy dwie osoby w zeszłym miesiącu."
+    ru: "Мы наняли двух человек в прошлом месяце."
+    source: { kind: authored }
+  - form: "zatrudniliśmy"
+    pl: "Nie zatrudniliśmy nikogo bez rozmowy."
+    ru: "Мы никого не наняли без собеседования."
+    source: { kind: authored }
+  - form: "zatrudnimy"
+    pl: "Zatrudnimy was na okres próbny."
+    ru: "Мы наймём вас на испытательный срок."
+    source: { kind: authored }
+  - form: "zatrudnimy"
+    pl: "Jeśli zatrudnimy więcej ludzi, zdążymy na termin."
+    ru: "Если наймём больше людей, успеем к сроку."
+    source: { kind: authored }
+  - form: "zatrudnimy"
+    pl: "Zatrudnimy tłumacza na jeden dzień."
+    ru: "Мы наймём переводчика на один день."
+    source: { kind: authored }
+  - form: "zatrudniona"
+    pl: "Jest zatrudniona w szpitalu."
+    ru: "Она работает в больнице."
+    source: { kind: authored }
+  - form: "zatrudniona"
+    pl: "Zatrudniona na zastępstwo pielęgniarka została na stałe."
+    ru: "Нанятая на замену медсестра осталась навсегда."
+    source: { kind: authored }
+  - form: "zatrudniona"
+    pl: "Była zatrudniona bez umowy."
+    ru: "Она работала без договора."
+    source: { kind: authored }
+  - form: "zatrudnione"
+    pl: "Osoby zatrudnione na umowę dostają urlop."
+    ru: "Работающие по договору получают отпуск."
+    source: { kind: authored }
+  - form: "zatrudnione"
+    pl: "Zatrudnione na lato studentki wróciły na studia."
+    ru: "Нанятые на лето студентки вернулись к учёбе."
+    source: { kind: authored }
+  - form: "zatrudnione"
+    pl: "Zatrudnione kobiety stanowią połowę załogi."
+    ru: "Работающие женщины составляют половину коллектива."
+    source: { kind: authored }
+  - form: "zatrudnionego"
+    pl: "Nie znam nowo zatrudnionego kolegi."
+    ru: "Я не знаю нового коллегу."
+    source: { kind: authored }
+  - form: "zatrudnionego"
+    pl: "Pensja zatrudnionego na pół etatu jest niższa."
+    ru: "Зарплата работающего на полставки ниже."
+    source: { kind: authored }
+  - form: "zatrudnionego"
+    pl: "Nie ma tu nikogo zatrudnionego na stałe."
+    ru: "Здесь нет никого на постоянной работе."
+    source: { kind: authored }
+  - form: "zatrudnionej"
+    pl: "Umowa zatrudnionej na zastępstwo kończy się w maju."
+    ru: "Договор нанятой на замену кончается в мае."
+    source: { kind: authored }
+  - form: "zatrudnionej"
+    pl: "Nie znam zatrudnionej wczoraj księgowej."
+    ru: "Я не знаю нанятого вчера бухгалтера."
+    source: { kind: authored }
+  - form: "zatrudnionej"
+    pl: "O zatrudnionej niedawno asystentce mówiono dobrze."
+    ru: "О недавно нанятой помощнице говорили хорошо."
+    source: { kind: authored }
+  - form: "zatrudnionemu"
+    pl: "Zatrudnionemu na próbę przedłużono umowę."
+    ru: "Нанятому на пробу продлили договор."
+    source: { kind: authored }
+  - form: "zatrudnionemu"
+    pl: "Dzięki zatrudnionemu tłumaczowi rozmowa się udała."
+    ru: "Благодаря нанятому переводчику разговор удался."
+    source: { kind: authored }
+  - form: "zatrudnionemu"
+    pl: "Przyjrzyj się temu świeżo zatrudnionemu pracownikowi."
+    ru: "Присмотрись к этому только что нанятому работнику."
+    source: { kind: authored }
+  - form: "zatrudniono"
+    pl: "Zatrudniono go na stanowisku kierownika."
+    ru: "Его приняли на должность руководителя."
+    source: { kind: authored }
+  - form: "zatrudniono"
+    pl: "W fabryce zatrudniono dwustu ludzi."
+    ru: "На заводе наняли двести человек."
+    source: { kind: authored }
+  - form: "zatrudniono"
+    pl: "Zatrudniono nas bez umowy."
+    ru: "Нас наняли без договора."
+    source: { kind: authored }
+  - form: "zatrudniony"
+    pl: "Jest zatrudniony na pół etatu."
+    ru: "Он работает на полставки."
+    source: { kind: authored }
+  - form: "zatrudniony"
+    pl: "Zatrudniony na czarno nie ma ubezpieczenia."
+    ru: "Нанятый нелегально не имеет страховки."
+    source: { kind: authored }
+  - form: "zatrudniony"
+    pl: "Nowo zatrudniony pracownik przyszedł w poniedziałek."
+    ru: "Новый работник пришёл в понедельник."
+    source: { kind: authored }
+  - form: "zatrudnionych"
+    pl: "Liczba zatrudnionych wzrosła."
+    ru: "Число работающих выросло."
+    source: { kind: authored }
+  - form: "zatrudnionych"
+    pl: "Nie ma tu zatrudnionych na stałe."
+    ru: "Здесь нет работающих на постоянной основе."
+    source: { kind: authored }
+  - form: "zatrudnionych"
+    pl: "O zatrudnionych bez umowy pisała prasa."
+    ru: "О работающих без договора писала пресса."
+    source: { kind: authored }
+  - form: "zatrudnionym"
+    pl: "Zatrudnionym na umowę należy się urlop."
+    ru: "Работающим по договору положен отпуск."
+    source: { kind: authored }
+  - form: "zatrudnionym"
+    pl: "W zatrudnionym wczoraj kierowcy pokładali nadzieje."
+    ru: "На нанятого вчера водителя возлагали надежды."
+    source: { kind: authored }
+  - form: "zatrudnionym"
+    pl: "Rozmawiał z zatrudnionym na czarno robotnikiem."
+    ru: "Он говорил с нанятым нелегально рабочим."
+    source: { kind: authored }
+  - form: "zatrudnionymi"
+    pl: "Między zatrudnionymi a zwolnionymi jest ogromna różnica."
+    ru: "Между работающими и уволенными огромная разница."
+    source: { kind: authored }
+  - form: "zatrudnionymi"
+    pl: "Zajmuje się zatrudnionymi w gastronomii."
+    ru: "Он занимается работающими в общепите."
+    source: { kind: authored }
+  - form: "zatrudnionymi"
+    pl: "Rozmawiał z zatrudnionymi na budowie."
+    ru: "Он говорил с работающими на стройке."
+    source: { kind: authored }
+  - form: "zatrudnioną"
+    pl: "Poznałem zatrudnioną wczoraj asystentkę."
+    ru: "Я познакомился с нанятой вчера помощницей."
+    source: { kind: authored }
+  - form: "zatrudnioną"
+    pl: "Uznano ją za zatrudnioną od pierwszego dnia."
+    ru: "Её признали работающей с первого дня."
+    source: { kind: authored }
+  - form: "zatrudnioną"
+    pl: "Zwolnili zatrudnioną na próbę kucharkę."
+    ru: "Они уволили нанятую на пробу повариху."
+    source: { kind: authored }
+  - form: "zatrudnisz"
+    pl: "Kogo zatrudnisz na to stanowisko?"
+    ru: "Кого ты наймёшь на эту должность?"
+    source: { kind: authored }
+  - form: "zatrudnisz"
+    pl: "Jeśli zatrudnisz go na czarno, zapłacisz karę."
+    ru: "Если наймёшь его нелегально, заплатишь штраф."
+    source: { kind: authored }
+  - form: "zatrudnisz"
+    pl: "Zatrudnisz mnie na pół etatu?"
+    ru: "Наймёшь меня на полставки?"
+    source: { kind: authored }
+  - form: "zatrudniwszy"
+    pl: "Zatrudniwszy księgową, odetchnął z ulgą."
+    ru: "Наняв бухгалтера, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "zatrudniwszy"
+    pl: "Zatrudniwszy dwie osoby, zdążyli na termin."
+    ru: "Наняв двух человек, они успели к сроку."
+    source: { kind: authored }
+  - form: "zatrudniwszy"
+    pl: "Zatrudniwszy go na próbę, szybko zmienili zdanie."
+    ru: "Наняв его на пробу, они быстро передумали."
+    source: { kind: authored }
+  - form: "zatrudnią"
+    pl: "Zatrudnią go na stałe."
+    ru: "Его наймут на постоянную работу."
+    source: { kind: authored }
+  - form: "zatrudnią"
+    pl: "Nie zatrudnią nikogo przed kontrolą."
+    ru: "Они никого не наймут до проверки."
+    source: { kind: authored }
+  - form: "zatrudnią"
+    pl: "Zatrudnią dwieście osób w nowej fabryce."
+    ru: "Они наймут двести человек на новом заводе."
+    source: { kind: authored }
+  - form: "zatrudnić"
+    pl: "Chcemy zatrudnić dwie osoby."
+    ru: "Мы хотим нанять двух человек."
+    source: { kind: authored }
+  - form: "zatrudnić"
+    pl: "Nie możemy zatrudnić nikogo bez umowy."
+    ru: "Мы не можем никого нанять без договора."
+    source: { kind: authored }
+  - form: "zatrudnić"
+    pl: "Trzeba zatrudnić kogoś do księgowości."
+    ru: "Надо нанять кого-то в бухгалтерию."
+    source: { kind: authored }
+  - form: "zatrudnię"
+    pl: "Zatrudnię cię od poniedziałku."
+    ru: "Я найму тебя с понедельника."
+    source: { kind: authored }
+  - form: "zatrudnię"
+    pl: "Jutro zatrudnię nowego kierowcę."
+    ru: "Завтра я найму нового водителя."
+    source: { kind: authored }
+  - form: "zatrudnię"
+    pl: "Nie zatrudnię nikogo bez rozmowy."
+    ru: "Я никого не найму без собеседования."
+    source: { kind: authored }
+  - form: "zatrudnił"
+    pl: "Zatrudnił brata w swojej firmie."
+    ru: "Он нанял брата в свою фирму."
+    source: { kind: authored }
+  - form: "zatrudnił"
+    pl: "Nie zatrudnił nikogo z ogłoszenia."
+    ru: "Он никого не нанял по объявлению."
+    source: { kind: authored }
+  - form: "zatrudnił"
+    pl: "Dyrektor zatrudnił ją bez konkursu."
+    ru: "Директор нанял её без конкурса."
+    source: { kind: authored }
+  - form: "zatrudniła"
+    pl: "Firma zatrudniła pięćdziesiąt osób."
+    ru: "Фирма наняла пятьдесят человек."
+    source: { kind: authored }
+  - form: "zatrudniła"
+    pl: "Zatrudniła go na pół etatu."
+    ru: "Она наняла его на полставки."
+    source: { kind: authored }
+  - form: "zatrudniła"
+    pl: "Szkoła zatrudniła nową woźną."
+    ru: "Школа наняла новую уборщицу."
+    source: { kind: authored }
+  - form: "zatrudniłaby"
+    pl: "Zatrudniłaby kogoś do pomocy, ale nie ma budżetu."
+    ru: "Она наняла бы кого-то в помощь, но нет бюджета."
+    source: { kind: authored }
+  - form: "zatrudniłaby"
+    pl: "Firma zatrudniłaby was wszystkich."
+    ru: "Фирма наняла бы вас всех."
+    source: { kind: authored }
+  - form: "zatrudniłaby"
+    pl: "Zatrudniłaby go, gdyby znał język."
+    ru: "Она наняла бы его, если бы он знал язык."
+    source: { kind: authored }
+  - form: "zatrudniłabym"
+    pl: "Zatrudniłabym ją natychmiast."
+    ru: "Я наняла бы её немедленно."
+    source: { kind: authored }
+  - form: "zatrudniłabym"
+    pl: "Na jej miejscu zatrudniłabym kogoś z praktyką."
+    ru: "На её месте я наняла бы кого-то с практикой."
+    source: { kind: authored }
+  - form: "zatrudniłabym"
+    pl: "Nie zatrudniłabym nikogo z polecenia."
+    ru: "Я никого не наняла бы по знакомству."
+    source: { kind: authored }
+  - form: "zatrudniłabyś"
+    pl: "Zatrudniłabyś kogoś bez doświadczenia?"
+    ru: "Ты наняла бы кого-то без опыта?"
+    source: { kind: authored }
+  - form: "zatrudniłabyś"
+    pl: "Czy zatrudniłabyś go na stałe?"
+    ru: "Ты наняла бы его на постоянную работу?"
+    source: { kind: authored }
+  - form: "zatrudniłabyś"
+    pl: "Nie zatrudniłabyś nikogo w takiej sytuacji."
+    ru: "Ты никого не наняла бы в такой ситуации."
+    source: { kind: authored }
+  - form: "zatrudniłam"
+    pl: "Zatrudniłam ją na zastępstwo."
+    ru: "Я наняла её на замену."
+    source: { kind: authored }
+  - form: "zatrudniłam"
+    pl: "Zatrudniłam kogoś do opieki nad matką."
+    ru: "Я наняла кого-то для ухода за матерью."
+    source: { kind: authored }
+  - form: "zatrudniłam"
+    pl: "Nie zatrudniłam nikogo z rodziny."
+    ru: "Я никого из родни не наняла."
+    source: { kind: authored }
+  - form: "zatrudniłaś"
+    pl: "Kogo zatrudniłaś na moje miejsce?"
+    ru: "Кого ты наняла на моё место?"
+    source: { kind: authored }
+  - form: "zatrudniłaś"
+    pl: "Zatrudniłaś go na czarno."
+    ru: "Ты наняла его нелегально."
+    source: { kind: authored }
+  - form: "zatrudniłaś"
+    pl: "Nie zatrudniłaś nikogo na lato."
+    ru: "Ты никого не наняла на лето."
+    source: { kind: authored }
+  - form: "zatrudniłby"
+    pl: "Zatrudniłby więcej ludzi, gdyby miał pieniądze."
+    ru: "Он нанял бы больше людей, если бы были деньги."
+    source: { kind: authored }
+  - form: "zatrudniłby"
+    pl: "Nikt inny nie zatrudniłby go po takiej historii."
+    ru: "Никто другой не нанял бы его после такой истории."
+    source: { kind: authored }
+  - form: "zatrudniłby"
+    pl: "Zatrudniłby ją od razu."
+    ru: "Он нанял бы её сразу."
+    source: { kind: authored }
+  - form: "zatrudniłbym"
+    pl: "Zatrudniłbym go bez wahania."
+    ru: "Я нанял бы его без колебаний."
+    source: { kind: authored }
+  - form: "zatrudniłbym"
+    pl: "Na twoim miejscu zatrudniłbym kogoś młodszego."
+    ru: "На твоём месте я нанял бы кого-то моложе."
+    source: { kind: authored }
+  - form: "zatrudniłbym"
+    pl: "Nie zatrudniłbym nikogo bez okresu próbnego."
+    ru: "Я никого не нанял бы без испытательного срока."
+    source: { kind: authored }
+  - form: "zatrudniłbyś"
+    pl: "Zatrudniłbyś kogoś takiego?"
+    ru: "Ты нанял бы такого?"
+    source: { kind: authored }
+  - form: "zatrudniłbyś"
+    pl: "Czy zatrudniłbyś mnie na próbę?"
+    ru: "Ты нанял бы меня на пробу?"
+    source: { kind: authored }
+  - form: "zatrudniłbyś"
+    pl: "Nie zatrudniłbyś go bez referencji."
+    ru: "Ты не нанял бы его без рекомендаций."
+    source: { kind: authored }
+  - form: "zatrudniłem"
+    pl: "Zatrudniłem go wbrew radom."
+    ru: "Я нанял его против советов."
+    source: { kind: authored }
+  - form: "zatrudniłem"
+    pl: "Zatrudniłem dwie osoby na lato."
+    ru: "Я нанял двух человек на лето."
+    source: { kind: authored }
+  - form: "zatrudniłem"
+    pl: "Nie zatrudniłem nikogo bez umowy."
+    ru: "Я никого не нанял без договора."
+    source: { kind: authored }
+  - form: "zatrudniłeś"
+    pl: "Dlaczego zatrudniłeś go bez rozmowy?"
+    ru: "Почему ты нанял его без собеседования?"
+    source: { kind: authored }
+  - form: "zatrudniłeś"
+    pl: "Zatrudniłeś kogoś do pomocy?"
+    ru: "Ты нанял кого-нибудь в помощь?"
+    source: { kind: authored }
+  - form: "zatrudniłeś"
+    pl: "Nie zatrudniłeś nawet księgowej."
+    ru: "Ты даже бухгалтера не нанял."
+    source: { kind: authored }
+  - form: "zatrudniło"
+    pl: "Miasto zatrudniło trzech ratowników."
+    ru: "Город нанял трёх спасателей."
+    source: { kind: authored }
+  - form: "zatrudniło"
+    pl: "Przedszkole zatrudniło logopedę."
+    ru: "Детский сад нанял логопеда."
+    source: { kind: authored }
+  - form: "zatrudniło"
+    pl: "Żadne biuro go nie zatrudniło."
+    ru: "Ни одна конторa его не наняла."
+    source: { kind: authored }
+  - form: "zatrudniłoby"
+    pl: "Miasto zatrudniłoby jeszcze dwóch lekarzy."
+    ru: "Город нанял бы ещё двух врачей."
+    source: { kind: authored }
+  - form: "zatrudniłoby"
+    pl: "Żadne biuro nie zatrudniłoby go bez dyplomu."
+    ru: "Ни одна конторa не наняла бы его без диплома."
+    source: { kind: authored }
+  - form: "zatrudniłoby"
+    pl: "Przedszkole zatrudniłoby logopedę na pół etatu."
+    ru: "Детский сад нанял бы логопеда на полставки."
+    source: { kind: authored }
+  - form: "zatrudniły"
+    pl: "Fabryki zatrudniły setki ludzi."
+    ru: "Заводы наняли сотни людей."
+    source: { kind: authored }
+  - form: "zatrudniły"
+    pl: "Szkoły zatrudniły nowych nauczycieli."
+    ru: "Школы наняли новых учителей."
+    source: { kind: authored }
+  - form: "zatrudniły"
+    pl: "Firmy zatrudniły mniej osób niż rok temu."
+    ru: "Фирмы наняли меньше людей, чем год назад."
+    source: { kind: authored }
+  - form: "zatrudniłyby"
+    pl: "Firmy zatrudniłyby absolwentów chętniej."
+    ru: "Фирмы наняли бы выпускников охотнее."
+    source: { kind: authored }
+  - form: "zatrudniłyby"
+    pl: "Szkoły zatrudniłyby jeszcze dwóch nauczycieli."
+    ru: "Школы наняли бы ещё двух учителей."
+    source: { kind: authored }
+  - form: "zatrudniłyby"
+    pl: "Zatrudniłyby kogoś do sprzątania."
+    ru: "Они наняли бы кого-нибудь для уборки."
+    source: { kind: authored }
+  - form: "zatrudniłybyście"
+    pl: "Zatrudniłybyście kogoś z polecenia?"
+    ru: "Вы наняли бы кого-то по знакомству?"
+    source: { kind: authored }
+  - form: "zatrudniłybyście"
+    pl: "Czy zatrudniłybyście ją na stałe?"
+    ru: "Вы наняли бы её на постоянную работу?"
+    source: { kind: authored }
+  - form: "zatrudniłybyście"
+    pl: "Nie zatrudniłybyście nikogo w sierpniu."
+    ru: "Вы никого не наняли бы в августе."
+    source: { kind: authored }
+  - form: "zatrudniłybyśmy"
+    pl: "Zatrudniłybyśmy jeszcze jedną osobę."
+    ru: "Мы наняли бы ещё одного человека."
+    source: { kind: authored }
+  - form: "zatrudniłybyśmy"
+    pl: "Bez zgody zarządu nie zatrudniłybyśmy nikogo."
+    ru: "Без согласия правления мы никого не наняли бы."
+    source: { kind: authored }
+  - form: "zatrudniłybyśmy"
+    pl: "Zatrudniłybyśmy go na okres próbny."
+    ru: "Мы наняли бы его на испытательный срок."
+    source: { kind: authored }
+  - form: "zatrudniłyście"
+    pl: "Kogo zatrudniłyście w sekretariacie?"
+    ru: "Кого вы наняли в секретариат?"
+    source: { kind: authored }
+  - form: "zatrudniłyście"
+    pl: "Zatrudniłyście go na pół etatu."
+    ru: "Вы наняли его на полставки."
+    source: { kind: authored }
+  - form: "zatrudniłyście"
+    pl: "Nie zatrudniłyście nikogo z listy."
+    ru: "Вы никого из списка не наняли."
+    source: { kind: authored }
+  - form: "zatrudniłyśmy"
+    pl: "Zatrudniłyśmy nową pracownicę."
+    ru: "Мы наняли новую работницу."
+    source: { kind: authored }
+  - form: "zatrudniłyśmy"
+    pl: "Zatrudniłyśmy go na zastępstwo."
+    ru: "Мы наняли его на замену."
+    source: { kind: authored }
+  - form: "zatrudniłyśmy"
+    pl: "Nie zatrudniłyśmy nikogo na lato."
+    ru: "Мы никого не наняли на лето."
+    source: { kind: authored }
