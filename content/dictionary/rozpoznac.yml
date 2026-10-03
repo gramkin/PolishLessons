@@ -1,0 +1,693 @@
+# review
+id: rozpoznac
+format: 2
+lemma: "rozpoznać"
+rank: 1834
+pos: verb
+pron: { cyr: "роспо́знаць" }
+senses:
+  - id: recognise
+    ru: "узнать (человека, голос, почерк)"
+    examples:
+      - pl: "Rozpoznał go od razu."
+        ru: "Он сразу его узнал."
+        source: { kind: authored }
+      - pl: "Rozpoznam go po głosie."
+        ru: "Я узнаю его по голосу."
+        source: { kind: authored }
+      - pl: "Rozpoznani sprawcy trafili do aresztu."
+        ru: "Опознанных виновников взяли под арест."
+        source: { kind: authored }
+  - id: identify
+    ru: "опознать (тело, преступника, вещь)"
+    examples:
+      - pl: "Ciało rozpoznano po uzębieniu."
+        ru: "Тело опознали по зубам."
+        source: { kind: authored }
+      - pl: "Świadek rozpozna sprawcę."
+        ru: "Свидетель опознает виновника."
+        source: { kind: authored }
+  - id: diagnose
+    ru: "диагностировать; rozpoznanie — диагноз"
+    examples:
+      - pl: "Lekarz rozpoznał zapalenie płuc."
+        ru: "Врач диагностировал воспаление лёгких."
+        source: { kind: authored }
+      - pl: "Lekarz postawił rozpoznanie w pięć minut."
+        ru: "Врач поставил диагноз за пять минут."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Соответствие сдвинуто по стилю. Польское rozpoznać — обиходное слово: rozpoznałem go od razu значит «я его сразу УЗНАЛ». Русское «распознать» звучит книжно и технично, им говорят о приборах и системах, а не о встрече на улице. Так что переводите rozpoznać как «узнать» (о человеке) или «опознать» (о теле, преступнике), и лишь в технических контекстах — «распознать»." }
+  - { kind: usage, text: "В медицине существительное rozpoznanie значит ДИАГНОЗ: postawić rozpoznanie «поставить диагноз», błędne rozpoznanie «ошибочный диагноз». Это слово вы услышите в поликлинике раньше, чем сам глагол. Несовершенная пара — rozpoznawać." }
+  - { kind: government, text: "Узнают КОГО и ЧТО — винительный: rozpoznać sprawcę, rozpoznać podpis. А ПО чему — предлог PO с ПРЕДЛОЖНЫМ: rozpoznać PO głosie, PO chodzie, PO uzębieniu. Русский здесь берёт дательный («узнать по голосу»), так что падеж меняется, хотя предлог тот же." }
+  - { kind: pronunciation, text: "Основа у этого глагола одинаковая во всём настоящем времени: rozpoznam, rozpoznasz, rozpozna, rozpoznamy, rozpoznacie, rozpoznają — никаких чередований. Сравните с ogłosić на соседней карточке, где первое лицо и третье множественного выделяются: ogłoszę, ogłoszą против ogłosisz." }
+collocations:
+  - { pl: "rozpoznać po głosie", ru: "узнать по голосу" }
+  - { pl: "postawić rozpoznanie", ru: "поставить диагноз" }
+  - { pl: "rozpoznać sprawcę", ru: "опознать виновника" }
+family:
+  - { pl: "poznać", ru: "познакомиться, узнать", relation: root, id: poznac }
+  - { pl: "znać", ru: "знать", relation: root, id: znac }
+  - { pl: "rozpoznawać", ru: "узнавать, распознавать", relation: aspect }
+etymology: "Приставка roz- плюс poznać, от znać «знать», праславянское *znati. Русские «знать», «познать», «узнать» и «распознать» — из того же гнезда, и приставка roz- отвечает русскому «рас-». Логика общая: разобрать знаемое по частям и опознать. Отсюда же rozpoznawalny «узнаваемый» и rozpoznanie «опознание, диагноз»."
+memory: "rozpoznać — «узнать» (человека) и «опознать» (тело, преступника), а не книжное «распознать». Корень тот же, что «знать». Запомните два падежа: узнают кого в винительном, а PO czymś — в предложном. И rozpoznanie значит «диагноз»."
+idioms:
+  - { pl: "postawić rozpoznanie", ru: "поставить диагноз" }
+  - { pl: "rozpoznać się w czymś", ru: "разобраться в чём-л." }
+formExamples:
+  - form: "rozpozna"
+    pl: "Świadek rozpozna sprawcę."
+    ru: "Свидетель опознает виновника."
+    source: { kind: authored }
+  - form: "rozpozna"
+    pl: "Nikt go nie rozpozna w tym przebraniu."
+    ru: "Никто его не узнает в этом наряде."
+    source: { kind: authored }
+  - form: "rozpozna"
+    pl: "Lekarz rozpozna to po jednym badaniu."
+    ru: "Врач определит это по одному обследованию."
+    source: { kind: authored }
+  - form: "rozpoznacie"
+    pl: "Rozpoznacie go na nagraniu?"
+    ru: "Вы узнаете его на записи?"
+    source: { kind: authored }
+  - form: "rozpoznacie"
+    pl: "Czy rozpoznacie ten głos?"
+    ru: "Вы узнаете этот голос?"
+    source: { kind: authored }
+  - form: "rozpoznacie"
+    pl: "Nie rozpoznacie jej w tym stroju."
+    ru: "Вы не узнаете её в этом наряде."
+    source: { kind: authored }
+  - form: "rozpoznaj"
+    pl: "Rozpoznaj go na tym zdjęciu."
+    ru: "Узнай его на этом снимке."
+    source: { kind: authored }
+  - form: "rozpoznaj"
+    pl: "Rozpoznaj swój podpis."
+    ru: "Узнай свою подпись."
+    source: { kind: authored }
+  - form: "rozpoznaj"
+    pl: "Rozpoznaj głos i powiedz, czyj to."
+    ru: "Узнай голос и скажи, чей он."
+    source: { kind: authored }
+  - form: "rozpoznajcie"
+    pl: "Rozpoznajcie go na okazaniu."
+    ru: "Опознайте его на опознании."
+    source: { kind: authored }
+  - form: "rozpoznajcie"
+    pl: "Rozpoznajcie swoje rzeczy."
+    ru: "Опознайте свои вещи."
+    source: { kind: authored }
+  - form: "rozpoznajcie"
+    pl: "Rozpoznajcie najpierw objawy."
+    ru: "Определите сначала симптомы."
+    source: { kind: authored }
+  - form: "rozpoznajmy"
+    pl: "Rozpoznajmy najpierw przyczynę."
+    ru: "Определим сначала причину."
+    source: { kind: authored }
+  - form: "rozpoznajmy"
+    pl: "Rozpoznajmy sprawcę po nagraniu."
+    ru: "Опознаем виновника по записи."
+    source: { kind: authored }
+  - form: "rozpoznajmy"
+    pl: "Rozpoznajmy objawy, nie zgadujmy."
+    ru: "Определим симптомы, а не будем гадать."
+    source: { kind: authored }
+  - form: "rozpoznają"
+    pl: "Świadkowie rozpoznają sprawcę."
+    ru: "Свидетели опознают виновника."
+    source: { kind: authored }
+  - form: "rozpoznają"
+    pl: "Bez zdjęcia nikogo nie rozpoznają."
+    ru: "Без фотографии они никого не узнают."
+    source: { kind: authored }
+  - form: "rozpoznają"
+    pl: "Lekarze rozpoznają to od razu."
+    ru: "Врачи определят это сразу."
+    source: { kind: authored }
+  - form: "rozpoznali"
+    pl: "Rozpoznali go po tatuażu."
+    ru: "Они узнали его по татуировке."
+    source: { kind: authored }
+  - form: "rozpoznali"
+    pl: "Rozpoznali własne rzeczy w komisariacie."
+    ru: "Они опознали свои вещи в участке."
+    source: { kind: authored }
+  - form: "rozpoznali"
+    pl: "Nikogo nie rozpoznali na okazaniu."
+    ru: "Они никого не опознали на опознании."
+    source: { kind: authored }
+  - form: "rozpoznaliby"
+    pl: "Rozpoznaliby go po tatuażu."
+    ru: "Они узнали бы его по татуировке."
+    source: { kind: authored }
+  - form: "rozpoznaliby"
+    pl: "Bez zdjęcia nikogo nie rozpoznaliby."
+    ru: "Без фотографии они никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznaliby"
+    pl: "Chętnie rozpoznaliby własne rzeczy."
+    ru: "Они охотно опознали бы свои вещи."
+    source: { kind: authored }
+  - form: "rozpoznalibyście"
+    pl: "Rozpoznalibyście go po latach?"
+    ru: "Вы узнали бы его через годы?"
+    source: { kind: authored }
+  - form: "rozpoznalibyście"
+    pl: "Czy rozpoznalibyście ten głos?"
+    ru: "Вы узнали бы этот голос?"
+    source: { kind: authored }
+  - form: "rozpoznalibyście"
+    pl: "Bez zdjęcia nikogo nie rozpoznalibyście."
+    ru: "Без фотографии вы никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznalibyśmy"
+    pl: "Rozpoznalibyśmy go po latach."
+    ru: "Мы узнали бы его через годы."
+    source: { kind: authored }
+  - form: "rozpoznalibyśmy"
+    pl: "Bez zdjęcia nikogo nie rozpoznalibyśmy."
+    ru: "Без фотографии мы никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznalibyśmy"
+    pl: "Chętnie rozpoznalibyśmy własne rzeczy."
+    ru: "Мы охотно опознали бы свои вещи."
+    source: { kind: authored }
+  - form: "rozpoznaliście"
+    pl: "Rozpoznaliście go?"
+    ru: "Вы его узнали?"
+    source: { kind: authored }
+  - form: "rozpoznaliście"
+    pl: "Jak go rozpoznaliście?"
+    ru: "Как вы его узнали?"
+    source: { kind: authored }
+  - form: "rozpoznaliście"
+    pl: "Czy rozpoznaliście swoje rzeczy?"
+    ru: "Вы опознали свои вещи?"
+    source: { kind: authored }
+  - form: "rozpoznaliśmy"
+    pl: "Rozpoznaliśmy go od razu."
+    ru: "Мы сразу его узнали."
+    source: { kind: authored }
+  - form: "rozpoznaliśmy"
+    pl: "Rozpoznaliśmy własne rzeczy."
+    ru: "Мы опознали свои вещи."
+    source: { kind: authored }
+  - form: "rozpoznaliśmy"
+    pl: "Nikogo nie rozpoznaliśmy na okazaniu."
+    ru: "Мы никого не опознали на опознании."
+    source: { kind: authored }
+  - form: "rozpoznam"
+    pl: "Rozpoznam go po głosie."
+    ru: "Я узнаю его по голосу."
+    source: { kind: authored }
+  - form: "rozpoznam"
+    pl: "Rozpoznam ten charakter pisma wszędzie."
+    ru: "Я узнаю этот почерк где угодно."
+    source: { kind: authored }
+  - form: "rozpoznam"
+    pl: "Nikogo nie rozpoznam na tym zdjęciu."
+    ru: "Я никого не узнаю на этом снимке."
+    source: { kind: authored }
+  - form: "rozpoznamy"
+    pl: "Rozpoznamy go po tatuażu."
+    ru: "Мы узнаем его по татуировке."
+    source: { kind: authored }
+  - form: "rozpoznamy"
+    pl: "Jeśli rozpoznamy sprawcę, sprawa się skończy."
+    ru: "Если опознаем виновника, дело закончится."
+    source: { kind: authored }
+  - form: "rozpoznamy"
+    pl: "Nikogo nie rozpoznamy po takim zdjęciu."
+    ru: "По такому снимку мы никого не узнаем."
+    source: { kind: authored }
+  - form: "rozpoznana"
+    pl: "Choroba rozpoznana wcześnie jest uleczalna."
+    ru: "Болезнь, выявленная рано, излечима."
+    source: { kind: authored }
+  - form: "rozpoznana"
+    pl: "Została rozpoznana na dworcu."
+    ru: "Её узнали на вокзале."
+    source: { kind: authored }
+  - form: "rozpoznana"
+    pl: "Przyczyna została rozpoznana po tygodniu."
+    ru: "Причину определили через неделю."
+    source: { kind: authored }
+  - form: "rozpoznane"
+    pl: "Rozpoznane objawy ułatwiły leczenie."
+    ru: "Определённые симптомы облегчили лечение."
+    source: { kind: authored }
+  - form: "rozpoznane"
+    pl: "Wszystkie ciała zostały rozpoznane."
+    ru: "Все тела были опознаны."
+    source: { kind: authored }
+  - form: "rozpoznane"
+    pl: "Rozpoznane na nagraniu twarze pokazano świadkom."
+    ru: "Опознанные на записи лица показали свидетелям."
+    source: { kind: authored }
+  - form: "rozpoznanego"
+    pl: "Zdjęcie rozpoznanego sprawcy trafiło do akt."
+    ru: "Фото опознанного виновника попало в дело."
+    source: { kind: authored }
+  - form: "rozpoznanego"
+    pl: "Nie znam rozpoznanego wczoraj mężczyzny."
+    ru: "Я не знаю опознанного вчера мужчину."
+    source: { kind: authored }
+  - form: "rozpoznanego"
+    pl: "Leczenie rozpoznanego wcześnie nowotworu jest skuteczniejsze."
+    ru: "Лечение рано выявленной опухоли эффективнее."
+    source: { kind: authored }
+  - form: "rozpoznanej"
+    pl: "Leczenie rozpoznanej wcześnie choroby jest skuteczniejsze."
+    ru: "Лечение рано выявленной болезни эффективнее."
+    source: { kind: authored }
+  - form: "rozpoznanej"
+    pl: "Nie znam rozpoznanej wczoraj kobiety."
+    ru: "Я не знаю опознанную вчера женщину."
+    source: { kind: authored }
+  - form: "rozpoznanej"
+    pl: "Z rozpoznanej przyczyny wyciągnięto wnioski."
+    ru: "Из определённой причины сделали выводы."
+    source: { kind: authored }
+  - form: "rozpoznanemu"
+    pl: "Rozpoznanemu sprawcy postawiono zarzuty."
+    ru: "Опознанному виновнику предъявили обвинения."
+    source: { kind: authored }
+  - form: "rozpoznanemu"
+    pl: "Dzięki rozpoznanemu wcześnie objawowi uratowano go."
+    ru: "Благодаря рано определённому симптому его спасли."
+    source: { kind: authored }
+  - form: "rozpoznanemu"
+    pl: "Przyjrzyj się temu rozpoznanemu na nagraniu mężczyźnie."
+    ru: "Присмотрись к этому опознанному на записи мужчине."
+    source: { kind: authored }
+  - form: "rozpoznani"
+    pl: "Rozpoznani sprawcy trafili do aresztu."
+    ru: "Опознанных виновников взяли под арест."
+    source: { kind: authored }
+  - form: "rozpoznani"
+    pl: "Byliśmy rozpoznani na lotnisku."
+    ru: "Нас узнали в аэропорту."
+    source: { kind: authored }
+  - form: "rozpoznani"
+    pl: "Rozpoznani przez świadków napastnicy usłyszeli zarzuty."
+    ru: "Опознанные свидетелями нападавшие услышали обвинения."
+    source: { kind: authored }
+  - form: "rozpoznania"
+    pl: "Do rozpoznania potrzebne są badania."
+    ru: "Для диагноза нужны исследования."
+    source: { kind: authored }
+  - form: "rozpoznania"
+    pl: "Bez rozpoznania nie ma leczenia."
+    ru: "Без диагноза нет лечения."
+    source: { kind: authored }
+  - form: "rozpoznania"
+    pl: "Od rozpoznania minął miesiąc."
+    ru: "С постановки диагноза прошёл месяц."
+    source: { kind: authored }
+  - form: "rozpoznanie"
+    pl: "Lekarz postawił rozpoznanie w pięć minut."
+    ru: "Врач поставил диагноз за пять минут."
+    source: { kind: authored }
+  - form: "rozpoznanie"
+    pl: "Rozpoznanie zwłok zajęło tydzień."
+    ru: "Опознание тела заняло неделю."
+    source: { kind: authored }
+  - form: "rozpoznanie"
+    pl: "Rozpoznanie było błędne."
+    ru: "Диагноз был ошибочным."
+    source: { kind: authored }
+  - form: "rozpoznaniem"
+    pl: "Przed rozpoznaniem zrobiono trzy badania."
+    ru: "Перед диагнозом сделали три исследования."
+    source: { kind: authored }
+  - form: "rozpoznaniem"
+    pl: "Sprawa skończyła się rozpoznaniem sprawcy."
+    ru: "Дело кончилось опознанием виновника."
+    source: { kind: authored }
+  - form: "rozpoznaniem"
+    pl: "Między rozpoznaniem a leczeniem minął tydzień."
+    ru: "Между диагнозом и лечением прошла неделя."
+    source: { kind: authored }
+  - form: "rozpoznaniu"
+    pl: "Po rozpoznaniu zaczęto leczenie."
+    ru: "После диагноза начали лечение."
+    source: { kind: authored }
+  - form: "rozpoznaniu"
+    pl: "Mówiono o rozpoznaniu u niego cukrzycy."
+    ru: "Говорили о диагностированном у него диабете."
+    source: { kind: authored }
+  - form: "rozpoznaniu"
+    pl: "W rozpoznaniu takiego objawu nie ma nic trudnego."
+    ru: "В определении такого симптома нет ничего трудного."
+    source: { kind: authored }
+  - form: "rozpoznano"
+    pl: "Ciało rozpoznano po uzębieniu."
+    ru: "Тело опознали по зубам."
+    source: { kind: authored }
+  - form: "rozpoznano"
+    pl: "Sprawcę rozpoznano na nagraniu."
+    ru: "Виновника опознали на записи."
+    source: { kind: authored }
+  - form: "rozpoznano"
+    pl: "Rozpoznano u niego rzadką chorobę."
+    ru: "У него диагностировали редкую болезнь."
+    source: { kind: authored }
+  - form: "rozpoznany"
+    pl: "Sprawca rozpoznany przez świadka trafił do aresztu."
+    ru: "Опознанный свидетелем виновник попал под арест."
+    source: { kind: authored }
+  - form: "rozpoznany"
+    pl: "Został rozpoznany na lotnisku."
+    ru: "Его узнали в аэропорту."
+    source: { kind: authored }
+  - form: "rozpoznany"
+    pl: "Obraz rozpoznany jako falsyfikat wycofano."
+    ru: "Картину, опознанную как подделку, изъяли."
+    source: { kind: authored }
+  - form: "rozpoznanych"
+    pl: "Liczba rozpoznanych przypadków rośnie."
+    ru: "Число выявленных случаев растёт."
+    source: { kind: authored }
+  - form: "rozpoznanych"
+    pl: "O rozpoznanych sprawcach pisała prasa."
+    ru: "Об опознанных виновниках писала пресса."
+    source: { kind: authored }
+  - form: "rozpoznanych"
+    pl: "Połowa rozpoznanych ciał wróciła do rodzin."
+    ru: "Половина опознанных тел вернулась к семьям."
+    source: { kind: authored }
+  - form: "rozpoznanym"
+    pl: "W rozpoznanym podpisie nie było wątpliwości."
+    ru: "В опознанной подписи не было сомнений."
+    source: { kind: authored }
+  - form: "rozpoznanym"
+    pl: "Rozpoznanym sprawcom postawiono zarzuty."
+    ru: "Опознанным виновникам предъявили обвинения."
+    source: { kind: authored }
+  - form: "rozpoznanym"
+    pl: "Mówił o rozpoznanym objawie spokojnie."
+    ru: "Он говорил об определённом симптоме спокойно."
+    source: { kind: authored }
+  - form: "rozpoznanymi"
+    pl: "Między rozpoznanymi ciałami nie było jego syna."
+    ru: "Среди опознанных тел его сына не было."
+    source: { kind: authored }
+  - form: "rozpoznanymi"
+    pl: "Zajmował się rozpoznanymi już sprawami."
+    ru: "Он занимался уже установленными делами."
+    source: { kind: authored }
+  - form: "rozpoznanymi"
+    pl: "Pracował nad rozpoznanymi wcześniej objawami."
+    ru: "Он работал над ранее определёнными симптомами."
+    source: { kind: authored }
+  - form: "rozpoznaną"
+    pl: "Uznano chorobę za rozpoznaną."
+    ru: "Болезнь признали установленной."
+    source: { kind: authored }
+  - form: "rozpoznaną"
+    pl: "Opisał rozpoznaną przyczynę w raporcie."
+    ru: "Он описал определённую причину в отчёте."
+    source: { kind: authored }
+  - form: "rozpoznaną"
+    pl: "Pokazał świadkowi rozpoznaną twarz z nagrania."
+    ru: "Он показал свидетелю опознанное лицо с записи."
+    source: { kind: authored }
+  - form: "rozpoznasz"
+    pl: "Rozpoznasz go po kurtce."
+    ru: "Ты узнаешь его по куртке."
+    source: { kind: authored }
+  - form: "rozpoznasz"
+    pl: "Czy rozpoznasz sprawcę na okazaniu?"
+    ru: "Ты опознаешь виновника на опознании?"
+    source: { kind: authored }
+  - form: "rozpoznasz"
+    pl: "Nie rozpoznasz jej po tylu latach."
+    ru: "Ты не узнаешь её через столько лет."
+    source: { kind: authored }
+  - form: "rozpoznawszy"
+    pl: "Rozpoznawszy go, odwrócił się."
+    ru: "Узнав его, он отвернулся."
+    source: { kind: authored }
+  - form: "rozpoznawszy"
+    pl: "Rozpoznawszy objawy, wezwał pogotowie."
+    ru: "Определив симптомы, он вызвал скорую."
+    source: { kind: authored }
+  - form: "rozpoznawszy"
+    pl: "Rozpoznawszy własny podpis, zamilkł."
+    ru: "Узнав свою подпись, он замолчал."
+    source: { kind: authored }
+  - form: "rozpoznać"
+    pl: "Trudno rozpoznać go po tylu latach."
+    ru: "Трудно узнать его через столько лет."
+    source: { kind: authored }
+  - form: "rozpoznać"
+    pl: "Nie dało się rozpoznać twarzy na nagraniu."
+    ru: "Лицо на записи опознать не удалось."
+    source: { kind: authored }
+  - form: "rozpoznać"
+    pl: "Lekarz musiał rozpoznać chorobę szybko."
+    ru: "Врачу надо было быстро диагностировать болезнь."
+    source: { kind: authored }
+  - form: "rozpoznał"
+    pl: "Rozpoznał go od razu."
+    ru: "Он сразу его узнал."
+    source: { kind: authored }
+  - form: "rozpoznał"
+    pl: "Lekarz rozpoznał zapalenie płuc."
+    ru: "Врач диагностировал воспаление лёгких."
+    source: { kind: authored }
+  - form: "rozpoznał"
+    pl: "Nikogo nie rozpoznał na nagraniu."
+    ru: "Он никого не узнал на записи."
+    source: { kind: authored }
+  - form: "rozpoznała"
+    pl: "Rozpoznała brata po głosie."
+    ru: "Она узнала брата по голосу."
+    source: { kind: authored }
+  - form: "rozpoznała"
+    pl: "Rozpoznała własny charakter pisma."
+    ru: "Она узнала свой почерк."
+    source: { kind: authored }
+  - form: "rozpoznała"
+    pl: "Lekarka rozpoznała chorobę w pięć minut."
+    ru: "Врач диагностировала болезнь за пять минут."
+    source: { kind: authored }
+  - form: "rozpoznałaby"
+    pl: "Rozpoznałaby brata po głosie."
+    ru: "Она узнала бы брата по голосу."
+    source: { kind: authored }
+  - form: "rozpoznałaby"
+    pl: "Bez zdjęcia nikogo nie rozpoznałaby."
+    ru: "Без фотографии она никого не узнала бы."
+    source: { kind: authored }
+  - form: "rozpoznałaby"
+    pl: "Chętnie rozpoznałaby własne rzeczy."
+    ru: "Она охотно опознала бы свои вещи."
+    source: { kind: authored }
+  - form: "rozpoznałabym"
+    pl: "Rozpoznałabym go wszędzie."
+    ru: "Я узнала бы его где угодно."
+    source: { kind: authored }
+  - form: "rozpoznałabym"
+    pl: "Na jej miejscu rozpoznałabym własny podpis."
+    ru: "На её месте я узнала бы свою подпись."
+    source: { kind: authored }
+  - form: "rozpoznałabym"
+    pl: "Bez nagrania nikogo nie rozpoznałabym."
+    ru: "Без записи я никого не узнала бы."
+    source: { kind: authored }
+  - form: "rozpoznałabyś"
+    pl: "Rozpoznałabyś go po latach?"
+    ru: "Ты узнала бы его через годы?"
+    source: { kind: authored }
+  - form: "rozpoznałabyś"
+    pl: "Czy rozpoznałabyś ten charakter pisma?"
+    ru: "Ты узнала бы этот почерк?"
+    source: { kind: authored }
+  - form: "rozpoznałabyś"
+    pl: "Bez zdjęcia nikogo nie rozpoznałabyś."
+    ru: "Без фотографии ты никого не узнала бы."
+    source: { kind: authored }
+  - form: "rozpoznałam"
+    pl: "Rozpoznałam go po chodzie."
+    ru: "Я узнала его по походке."
+    source: { kind: authored }
+  - form: "rozpoznałam"
+    pl: "Rozpoznałam własny podpis."
+    ru: "Я узнала свою подпись."
+    source: { kind: authored }
+  - form: "rozpoznałam"
+    pl: "Nikogo nie rozpoznałam na nagraniu."
+    ru: "Я никого не узнала на записи."
+    source: { kind: authored }
+  - form: "rozpoznałaś"
+    pl: "Rozpoznałaś go?"
+    ru: "Ты его узнала?"
+    source: { kind: authored }
+  - form: "rozpoznałaś"
+    pl: "Jak go rozpoznałaś?"
+    ru: "Как ты его узнала?"
+    source: { kind: authored }
+  - form: "rozpoznałaś"
+    pl: "Czy rozpoznałaś ten charakter pisma?"
+    ru: "Ты узнала этот почерк?"
+    source: { kind: authored }
+  - form: "rozpoznałby"
+    pl: "Rozpoznałby go nawet po latach."
+    ru: "Он узнал бы его даже спустя годы."
+    source: { kind: authored }
+  - form: "rozpoznałby"
+    pl: "Nikt inny nie rozpoznałby tego podpisu."
+    ru: "Никто другой не узнал бы эту подпись."
+    source: { kind: authored }
+  - form: "rozpoznałby"
+    pl: "Lekarz rozpoznałby to po jednym badaniu."
+    ru: "Врач определил бы это по одному обследованию."
+    source: { kind: authored }
+  - form: "rozpoznałbym"
+    pl: "Rozpoznałbym go wszędzie."
+    ru: "Я узнал бы его где угодно."
+    source: { kind: authored }
+  - form: "rozpoznałbym"
+    pl: "Na twoim miejscu rozpoznałbym to od razu."
+    ru: "На твоём месте я узнал бы это сразу."
+    source: { kind: authored }
+  - form: "rozpoznałbym"
+    pl: "Bez zdjęcia nikogo nie rozpoznałbym."
+    ru: "Без фотографии я никого не узнал бы."
+    source: { kind: authored }
+  - form: "rozpoznałbyś"
+    pl: "Rozpoznałbyś go po latach?"
+    ru: "Ты узнал бы его через годы?"
+    source: { kind: authored }
+  - form: "rozpoznałbyś"
+    pl: "Czy rozpoznałbyś ten głos?"
+    ru: "Ты узнал бы этот голос?"
+    source: { kind: authored }
+  - form: "rozpoznałbyś"
+    pl: "Bez zdjęcia nikogo nie rozpoznałbyś."
+    ru: "Без фотографии ты никого не узнал бы."
+    source: { kind: authored }
+  - form: "rozpoznałem"
+    pl: "Rozpoznałem go od razu."
+    ru: "Я сразу его узнал."
+    source: { kind: authored }
+  - form: "rozpoznałem"
+    pl: "Rozpoznałem ten głos po pierwszym słowie."
+    ru: "Я узнал этот голос с первого слова."
+    source: { kind: authored }
+  - form: "rozpoznałem"
+    pl: "Nikogo nie rozpoznałem na zdjęciu."
+    ru: "Я никого не узнал на снимке."
+    source: { kind: authored }
+  - form: "rozpoznałeś"
+    pl: "Rozpoznałeś go?"
+    ru: "Ты его узнал?"
+    source: { kind: authored }
+  - form: "rozpoznałeś"
+    pl: "Jak go rozpoznałeś?"
+    ru: "Как ты его узнал?"
+    source: { kind: authored }
+  - form: "rozpoznałeś"
+    pl: "Czy rozpoznałeś ten głos?"
+    ru: "Ты узнал этот голос?"
+    source: { kind: authored }
+  - form: "rozpoznało"
+    pl: "Pół klasy rozpoznało nauczyciela na starym zdjęciu."
+    ru: "Полкласса узнало учителя на старом снимке."
+    source: { kind: authored }
+  - form: "rozpoznało"
+    pl: "Dziecko rozpoznało matkę po zapachu."
+    ru: "Ребёнок узнал мать по запаху."
+    source: { kind: authored }
+  - form: "rozpoznało"
+    pl: "Trzech świadków rozpoznało sprawcę."
+    ru: "Трое свидетелей опознали виновника."
+    source: { kind: authored }
+  - form: "rozpoznałoby"
+    pl: "Dziecko rozpoznałoby matkę po zapachu."
+    ru: "Ребёнок узнал бы мать по запаху."
+    source: { kind: authored }
+  - form: "rozpoznałoby"
+    pl: "Pół klasy rozpoznałoby nauczyciela na tym zdjęciu."
+    ru: "Полкласса узнало бы учителя на этом снимке."
+    source: { kind: authored }
+  - form: "rozpoznałoby"
+    pl: "Żadne urządzenie nie rozpoznałoby tego głosu."
+    ru: "Никакое устройство не распознало бы этот голос."
+    source: { kind: authored }
+  - form: "rozpoznały"
+    pl: "Kobiety rozpoznały napastnika."
+    ru: "Женщины опознали нападавшего."
+    source: { kind: authored }
+  - form: "rozpoznały"
+    pl: "Dzieci rozpoznały własne zabawki."
+    ru: "Дети опознали свои игрушки."
+    source: { kind: authored }
+  - form: "rozpoznały"
+    pl: "Służby rozpoznały ciało po uzębieniu."
+    ru: "Службы опознали тело по зубам."
+    source: { kind: authored }
+  - form: "rozpoznałyby"
+    pl: "Kobiety rozpoznałyby napastnika."
+    ru: "Женщины опознали бы нападавшего."
+    source: { kind: authored }
+  - form: "rozpoznałyby"
+    pl: "Dzieci rozpoznałyby własne zabawki."
+    ru: "Дети опознали бы свои игрушки."
+    source: { kind: authored }
+  - form: "rozpoznałyby"
+    pl: "Bez nagrań nikogo nie rozpoznałyby."
+    ru: "Без записей они никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznałybyście"
+    pl: "Rozpoznałybyście go po latach?"
+    ru: "Вы узнали бы его через годы?"
+    source: { kind: authored }
+  - form: "rozpoznałybyście"
+    pl: "Czy rozpoznałybyście ten podpis?"
+    ru: "Вы узнали бы эту подпись?"
+    source: { kind: authored }
+  - form: "rozpoznałybyście"
+    pl: "Bez zdjęcia nikogo nie rozpoznałybyście."
+    ru: "Без фотографии вы никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznałybyśmy"
+    pl: "Rozpoznałybyśmy go po głosie."
+    ru: "Мы узнали бы его по голосу."
+    source: { kind: authored }
+  - form: "rozpoznałybyśmy"
+    pl: "Bez nagrania nikogo nie rozpoznałybyśmy."
+    ru: "Без записи мы никого не узнали бы."
+    source: { kind: authored }
+  - form: "rozpoznałybyśmy"
+    pl: "Chętnie rozpoznałybyśmy własne zdjęcia."
+    ru: "Мы охотно опознали бы свои фотографии."
+    source: { kind: authored }
+  - form: "rozpoznałyście"
+    pl: "Rozpoznałyście go?"
+    ru: "Вы его узнали?"
+    source: { kind: authored }
+  - form: "rozpoznałyście"
+    pl: "Jak go rozpoznałyście?"
+    ru: "Как вы его узнали?"
+    source: { kind: authored }
+  - form: "rozpoznałyście"
+    pl: "Czy rozpoznałyście ten głos?"
+    ru: "Вы узнали этот голос?"
+    source: { kind: authored }
+  - form: "rozpoznałyśmy"
+    pl: "Rozpoznałyśmy go po głosie."
+    ru: "Мы узнали его по голосу."
+    source: { kind: authored }
+  - form: "rozpoznałyśmy"
+    pl: "Rozpoznałyśmy własne zdjęcia."
+    ru: "Мы опознали свои фотографии."
+    source: { kind: authored }
+  - form: "rozpoznałyśmy"
+    pl: "Nikogo nie rozpoznałyśmy na nagraniu."
+    ru: "Мы никого не узнали на записи."
+    source: { kind: authored }
