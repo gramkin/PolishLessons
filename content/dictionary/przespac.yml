@@ -1,0 +1,682 @@
+# review
+id: przespac
+format: 2
+lemma: "przespać"
+rank: 1698
+pos: verb
+pron: { cyr: "пшэ́спаць" }
+senses:
+  - id: sleep-through
+    ru: "проспать (какое-то время)"
+    examples:
+      - pl: "Przespał całą noc bez przebudzenia."
+        ru: "Он проспал всю ночь без просыпания."
+        source: { kind: authored }
+      - pl: "Dziecko przespało całą podróż."
+        ru: "Ребёнок проспал всю поездку."
+        source: { kind: authored }
+      - pl: "Noc przespano w stodole."
+        ru: "Ночь проспали в сарае."
+        source: { kind: authored }
+  - id: miss-by-sleeping
+    ru: "проспать (пропустить), прозевать"
+    examples:
+      - pl: "Przespał budzik i spóźnił się na egzamin."
+        ru: "Он проспал будильник и опоздал на экзамен."
+        source: { kind: authored }
+      - pl: "Przespaliśmy odlot samolotu."
+        ru: "Мы проспали вылет самолёта."
+        source: { kind: authored }
+  - id: sleeping
+    ru: "przespanie — проспанное время, то, что проспали"
+    examples:
+      - pl: "Przespanie budzika kosztowało go pracę."
+        ru: "Проспанный будильник стоил ему работы."
+        source: { kind: authored }
+      - pl: "Do przespania zostały trzy godziny."
+        ru: "На сон осталось три часа."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Полное совпадение с русским «проспать», причём в ОБОИХ значениях: и «провести во сне какое-то время» (przespać noc — «проспать ночь»), и «пропустить, прозевав» (przespać budzik — «проспать будильник»). Приставки те же: prze- отвечает русскому «про-», а корень spać это «спать». Запоминать тут нечего, кроме формы настоящего времени." }
+  - { kind: usage, text: "В настоящем времени s переходит в ś: przespać, но prześpię, prześpisz, prześpi, prześpimy, prześpicie, prześpią. Это чередование охватывает всю настоящую основу и повелительное наклонение (prześpij), а прошедшее время и причастия сохраняют s: przespał, przespany." }
+  - { kind: government, text: "Проспать ЧТО — винительный: przespać noc, przespać wykład, przespać budzik. Как и в русском, объектом бывает либо отрезок времени, либо пропущенное событие. Возвратное przespać się значит «выспаться, вздремнуть», а przespać się z czymś — «обдумать на свежую голову», ровно как русское «утро вечера мудренее»." }
+collocations:
+  - { pl: "przespać noc", ru: "проспать ночь" }
+  - { pl: "przespać budzik", ru: "проспать будильник" }
+  - { pl: "przespać się z decyzją", ru: "обдумать решение на свежую голову" }
+family:
+  - { pl: "spać", ru: "спать", relation: root, id: spac }
+  - { pl: "wyspać się", ru: "выспаться", relation: derived }
+  - { pl: "przesypiać", ru: "просыпать (время)", relation: aspect }
+etymology: "Приставка prze- плюс spać, праславянское *spati «спать». Русское «проспать» собрано из тех же частей: «про-» отвечает польскому prze-, корень общий. Из того же гнезда польские sen «сон», senny «сонный», zasnąć «заснуть» — и все они прозрачны для русского уха."
+memory: "przespać — «проспать», и в смысле провести во сне, и в смысле пропустить. Prze- это «про-», spać это «спать». Единственная трудность — s переходит в ś в настоящем: prześpię, prześpisz."
+idioms:
+  - { pl: "przespać się z czymś", ru: "обдумать что-л. на свежую голову" }
+  - { pl: "przespać okazję", ru: "проспать возможность" }
+formExamplesSkip:
+  - { form: "przespani", reason: "Мужско-личная форма страдательного причастия. Глагол przespać берёт дополнением только отрезок времени (przespać noc) или пропущенное событие (przespać budzik, przespać wykład), но никогда человека. Винительного дополнения-лица у него нет, поэтому подлежащего для такого оборота не существует: людей не «просыпают». Формы przespana noc и dobrze przespane noce при этом совершенно правильны." }
+formExamples:
+  - form: "przespali"
+    pl: "Przespali całą noc w namiocie."
+    ru: "Они проспали всю ночь в палатке."
+    source: { kind: authored }
+  - form: "przespali"
+    pl: "Przespali odlot samolotu."
+    ru: "Они проспали вылет самолёта."
+    source: { kind: authored }
+  - form: "przespali"
+    pl: "Przespali najlepszą część koncertu."
+    ru: "Они проспали лучшую часть концерта."
+    source: { kind: authored }
+  - form: "przespaliby"
+    pl: "Przespaliby całą dobę."
+    ru: "Они проспали бы целые сутки."
+    source: { kind: authored }
+  - form: "przespaliby"
+    pl: "Bez budzika przespaliby odlot."
+    ru: "Без будильника они проспали бы вылет."
+    source: { kind: authored }
+  - form: "przespaliby"
+    pl: "Chętnie przespaliby tę podróż."
+    ru: "Они охотно проспали бы эту поездку."
+    source: { kind: authored }
+  - form: "przespalibyście"
+    pl: "Przespalibyście noc u nas?"
+    ru: "Вы проспали бы ночь у нас?"
+    source: { kind: authored }
+  - form: "przespalibyście"
+    pl: "Czy przespalibyście całą podróż?"
+    ru: "Вы проспали бы всю поездку?"
+    source: { kind: authored }
+  - form: "przespalibyście"
+    pl: "Bez budzika przespalibyście pociąg."
+    ru: "Без будильника вы проспали бы поезд."
+    source: { kind: authored }
+  - form: "przespalibyśmy"
+    pl: "Przespalibyśmy noc w namiocie."
+    ru: "Мы проспали бы ночь в палатке."
+    source: { kind: authored }
+  - form: "przespalibyśmy"
+    pl: "Bez budzika przespalibyśmy pociąg."
+    ru: "Без будильника мы проспали бы поезд."
+    source: { kind: authored }
+  - form: "przespalibyśmy"
+    pl: "Chętnie przespalibyśmy tę podróż."
+    ru: "Мы охотно проспали бы эту поездку."
+    source: { kind: authored }
+  - form: "przespaliście"
+    pl: "Gdzie przespaliście noc?"
+    ru: "Где вы проспали ночь?"
+    source: { kind: authored }
+  - form: "przespaliście"
+    pl: "Przespaliście odlot?"
+    ru: "Вы проспали вылет?"
+    source: { kind: authored }
+  - form: "przespaliście"
+    pl: "Chyba przespaliście najlepszą część."
+    ru: "Вы, похоже, проспали лучшую часть."
+    source: { kind: authored }
+  - form: "przespaliśmy"
+    pl: "Przespaliśmy noc w samochodzie."
+    ru: "Мы проспали ночь в машине."
+    source: { kind: authored }
+  - form: "przespaliśmy"
+    pl: "Przespaliśmy odlot samolotu."
+    ru: "Мы проспали вылет самолёта."
+    source: { kind: authored }
+  - form: "przespaliśmy"
+    pl: "Przespaliśmy najlepszą część koncertu."
+    ru: "Мы проспали лучшую часть концерта."
+    source: { kind: authored }
+  - form: "przespana"
+    pl: "Dobrze przespana noc zmienia wszystko."
+    ru: "Хорошо проспанная ночь меняет всё."
+    source: { kind: authored }
+  - form: "przespana"
+    pl: "Przespana w fotelu noc dała się we znaki."
+    ru: "Проспанная в кресле ночь дала себя знать."
+    source: { kind: authored }
+  - form: "przespana"
+    pl: "Noc była przespana spokojnie."
+    ru: "Ночь была проспана спокойно."
+    source: { kind: authored }
+  - form: "przespane"
+    pl: "Przespane lekcje trudno nadrobić."
+    ru: "Проспанные уроки трудно нагнать."
+    source: { kind: authored }
+  - form: "przespane"
+    pl: "Dobrze przespane noce widać po twarzy."
+    ru: "Хорошо проспанные ночи видны по лицу."
+    source: { kind: authored }
+  - form: "przespane"
+    pl: "Wszystkie godziny były przespane."
+    ru: "Все часы были проспаны."
+    source: { kind: authored }
+  - form: "przespanego"
+    pl: "Dobrze przespanego dnia nic nie zastąpi."
+    ru: "Хорошо проспанный день ничем не заменишь."
+    source: { kind: authored }
+  - form: "przespanego"
+    pl: "Z przespanego wykładu nic nie pamiętał."
+    ru: "Из проспанной лекции он ничего не помнил."
+    source: { kind: authored }
+  - form: "przespanego"
+    pl: "Nie ma nic lepszego od dobrze przespanego dnia."
+    ru: "Нет ничего лучше хорошо проспанного дня."
+    source: { kind: authored }
+  - form: "przespanej"
+    pl: "Po dobrze przespanej nocy wszystko wygląda lepiej."
+    ru: "После хорошо проспанной ночи всё выглядит лучше."
+    source: { kind: authored }
+  - form: "przespanej"
+    pl: "Z przespanej lekcji nic nie zapamiętał."
+    ru: "Из проспанного урока он ничего не запомнил."
+    source: { kind: authored }
+  - form: "przespanej"
+    pl: "Po przespanej w fotelu nocy bolały go plecy."
+    ru: "После проспанной в кресле ночи у него болела спина."
+    source: { kind: authored }
+  - form: "przespanemu"
+    pl: "Dobrze przespanemu człowiekowi łatwiej się skupić."
+    ru: "Выспавшемуся человеку легче сосредоточиться."
+    source: { kind: authored }
+  - form: "przespanemu"
+    pl: "Dzięki przespanemu dniu wrócił do sił."
+    ru: "Благодаря проспанному дню он вернулся в силы."
+    source: { kind: authored }
+  - form: "przespanemu"
+    pl: "Przyjrzyj się temu dobrze przespanemu dziecku."
+    ru: "Присмотрись к этому хорошо выспавшемуся ребёнку."
+    source: { kind: authored }
+  - form: "przespania"
+    pl: "Do przespania zostały trzy godziny."
+    ru: "На сон осталось три часа."
+    source: { kind: authored }
+  - form: "przespania"
+    pl: "Szukali miejsca do przespania nocy."
+    ru: "Они искали место, где проспать ночь."
+    source: { kind: authored }
+  - form: "przespania"
+    pl: "Bez przespania nocy nie dojedziemy."
+    ru: "Не проспав ночь, мы не доедем."
+    source: { kind: authored }
+  - form: "przespanie"
+    pl: "Przespanie budzika kosztowało go pracę."
+    ru: "Проспанный будильник стоил ему работы."
+    source: { kind: authored }
+  - form: "przespanie"
+    pl: "Przespanie całej nocy to luksus."
+    ru: "Проспать всю ночь — это роскошь."
+    source: { kind: authored }
+  - form: "przespanie"
+    pl: "Przespanie wykładu nie było zamierzone."
+    ru: "Проспать лекцию не было намерением."
+    source: { kind: authored }
+  - form: "przespaniem"
+    pl: "Zmęczenie skończyło się przespaniem budzika."
+    ru: "Усталость кончилась проспанным будильником."
+    source: { kind: authored }
+  - form: "przespaniem"
+    pl: "Problem rozwiązał się przespaniem jednej nocy."
+    ru: "Проблема решилась одной проспанной ночью."
+    source: { kind: authored }
+  - form: "przespaniem"
+    pl: "Nad przespaniem tej decyzji warto pomyśleć."
+    ru: "Об этом решении стоит подумать на свежую голову."
+    source: { kind: authored }
+  - form: "przespaniu"
+    pl: "Po przespaniu nocy wszystko wyglądało inaczej."
+    ru: "Проспав ночь, он увидел всё иначе."
+    source: { kind: authored }
+  - form: "przespaniu"
+    pl: "Mówiono o przespaniu całego głosowania."
+    ru: "Говорили о проспанном голосовании."
+    source: { kind: authored }
+  - form: "przespaniu"
+    pl: "W przespaniu budzika nie ma nic śmiesznego."
+    ru: "В проспанном будильнике нет ничего смешного."
+    source: { kind: authored }
+  - form: "przespano"
+    pl: "Noc przespano w stodole."
+    ru: "Ночь проспали в сарае."
+    source: { kind: authored }
+  - form: "przespano"
+    pl: "Przespano tu całą zimę."
+    ru: "Здесь проспали всю зиму."
+    source: { kind: authored }
+  - form: "przespano"
+    pl: "Przespano najważniejsze głosowanie."
+    ru: "Проспали самое важное голосование."
+    source: { kind: authored }
+  - form: "przespany"
+    pl: "Przespany w pociągu dzień minął szybko."
+    ru: "Проспанный в поезде день прошёл быстро."
+    source: { kind: authored }
+  - form: "przespany"
+    pl: "Czuł się dobrze przespany."
+    ru: "Он чувствовал себя выспавшимся."
+    source: { kind: authored }
+  - form: "przespany"
+    pl: "Przespany wykład trudno odrobić."
+    ru: "Проспанную лекцию трудно отработать."
+    source: { kind: authored }
+  - form: "przespanych"
+    pl: "Po kilku dobrze przespanych nocach wrócił do formy."
+    ru: "После нескольких хорошо проспанных ночей он вернулся в форму."
+    source: { kind: authored }
+  - form: "przespanych"
+    pl: "O przespanych wykładach wolał nie mówić."
+    ru: "О проспанных лекциях он предпочитал не говорить."
+    source: { kind: authored }
+  - form: "przespanych"
+    pl: "Połowa przespanych lekcji przepadła."
+    ru: "Половина проспанных уроков пропала."
+    source: { kind: authored }
+  - form: "przespanym"
+    pl: "Po przespanym dniu czuł się lepiej."
+    ru: "После проспанного дня он чувствовал себя лучше."
+    source: { kind: authored }
+  - form: "przespanym"
+    pl: "Przespanym lekcjom nie było końca."
+    ru: "Проспанным урокам не было конца."
+    source: { kind: authored }
+  - form: "przespanym"
+    pl: "Mówił o przespanym wykładzie ze wstydem."
+    ru: "Он говорил о проспанной лекции со стыдом."
+    source: { kind: authored }
+  - form: "przespanymi"
+    pl: "Między przespanymi nocami były takie bezsenne."
+    ru: "Между проспанными ночами были и бессонные."
+    source: { kind: authored }
+  - form: "przespanymi"
+    pl: "Nie radził sobie z przespanymi lekcjami."
+    ru: "Он не справлялся с проспанными уроками."
+    source: { kind: authored }
+  - form: "przespanymi"
+    pl: "Cieszył się przespanymi w końcu nocami."
+    ru: "Он радовался наконец проспанным ночам."
+    source: { kind: authored }
+  - form: "przespaną"
+    pl: "Uznał noc za przespaną spokojnie."
+    ru: "Он счёл ночь спокойно проспанной."
+    source: { kind: authored }
+  - form: "przespaną"
+    pl: "Miał za sobą dobrze przespaną noc."
+    ru: "За ним была хорошо проспанная ночь."
+    source: { kind: authored }
+  - form: "przespaną"
+    pl: "Zaliczył przespaną w pociągu podróż do udanych."
+    ru: "Проспанную в поезде поездку он счёл удачной."
+    source: { kind: authored }
+  - form: "przespawszy"
+    pl: "Przespawszy całą noc, wstał wypoczęty."
+    ru: "Проспав всю ночь, он встал отдохнувшим."
+    source: { kind: authored }
+  - form: "przespawszy"
+    pl: "Przespawszy budzik, pobiegł bez śniadania."
+    ru: "Проспав будильник, он побежал без завтрака."
+    source: { kind: authored }
+  - form: "przespawszy"
+    pl: "Przespawszy podróż, nie widział nic z okna."
+    ru: "Проспав поездку, он ничего не видел из окна."
+    source: { kind: authored }
+  - form: "przespać"
+    pl: "Udało mu się przespać całą noc."
+    ru: "Ему удалось проспать всю ночь."
+    source: { kind: authored }
+  - form: "przespać"
+    pl: "Trudno przespać taki hałas."
+    ru: "Трудно проспать такой шум."
+    source: { kind: authored }
+  - form: "przespać"
+    pl: "Chciał przespać całą podróż."
+    ru: "Он хотел проспать всю поездку."
+    source: { kind: authored }
+  - form: "przespał"
+    pl: "Przespał całą noc bez przebudzenia."
+    ru: "Он проспал всю ночь без просыпания."
+    source: { kind: authored }
+  - form: "przespał"
+    pl: "Przespał budzik i spóźnił się na egzamin."
+    ru: "Он проспал будильник и опоздал на экзамен."
+    source: { kind: authored }
+  - form: "przespał"
+    pl: "Przespał całą podróż."
+    ru: "Он проспал всю поездку."
+    source: { kind: authored }
+  - form: "przespała"
+    pl: "Przespała dwanaście godzin."
+    ru: "Она проспала двенадцать часов."
+    source: { kind: authored }
+  - form: "przespała"
+    pl: "Przespała budzik po raz trzeci."
+    ru: "Она проспала будильник в третий раз."
+    source: { kind: authored }
+  - form: "przespała"
+    pl: "Przespała całą drogę w pociągu."
+    ru: "Она проспала всю дорогу в поезде."
+    source: { kind: authored }
+  - form: "przespałaby"
+    pl: "Przespałaby całą noc w fotelu."
+    ru: "Она проспала бы всю ночь в кресле."
+    source: { kind: authored }
+  - form: "przespałaby"
+    pl: "Bez budzika przespałaby pociąg."
+    ru: "Без будильника она проспала бы поезд."
+    source: { kind: authored }
+  - form: "przespałaby"
+    pl: "Chętnie przespałaby ten upał."
+    ru: "Она охотно проспала бы эту жару."
+    source: { kind: authored }
+  - form: "przespałabym"
+    pl: "Przespałabym cały dzień."
+    ru: "Я проспала бы весь день."
+    source: { kind: authored }
+  - form: "przespałabym"
+    pl: "Na jej miejscu przespałabym się przed drogą."
+    ru: "На её месте я поспала бы перед дорогой."
+    source: { kind: authored }
+  - form: "przespałabym"
+    pl: "Bez budzika przespałabym odlot."
+    ru: "Без будильника я проспала бы вылет."
+    source: { kind: authored }
+  - form: "przespałabyś"
+    pl: "Przespałabyś cały dzień?"
+    ru: "Ты проспала бы весь день?"
+    source: { kind: authored }
+  - form: "przespałabyś"
+    pl: "Czy przespałabyś noc na podłodze?"
+    ru: "Ты проспала бы ночь на полу?"
+    source: { kind: authored }
+  - form: "przespałabyś"
+    pl: "Bez budzika przespałabyś odlot."
+    ru: "Без будильника ты проспала бы вылет."
+    source: { kind: authored }
+  - form: "przespałam"
+    pl: "Przespałam dziesięć godzin."
+    ru: "Я проспала десять часов."
+    source: { kind: authored }
+  - form: "przespałam"
+    pl: "Przespałam budzik po raz drugi."
+    ru: "Я проспала будильник во второй раз."
+    source: { kind: authored }
+  - form: "przespałam"
+    pl: "Przespałam całą podróż."
+    ru: "Я проспала всю поездку."
+    source: { kind: authored }
+  - form: "przespałaś"
+    pl: "Ile godzin przespałaś?"
+    ru: "Сколько часов ты проспала?"
+    source: { kind: authored }
+  - form: "przespałaś"
+    pl: "Przespałaś budzik po raz trzeci."
+    ru: "Ты проспала будильник в третий раз."
+    source: { kind: authored }
+  - form: "przespałaś"
+    pl: "Chyba przespałaś cały wykład."
+    ru: "Ты, похоже, проспала всю лекцию."
+    source: { kind: authored }
+  - form: "przespałby"
+    pl: "Przespałby całą dobę, gdyby mu pozwolić."
+    ru: "Он проспал бы целые сутки, если бы позволить."
+    source: { kind: authored }
+  - form: "przespałby"
+    pl: "Bez budzika przespałby odlot."
+    ru: "Без будильника он проспал бы вылет."
+    source: { kind: authored }
+  - form: "przespałby"
+    pl: "Chętnie przespałby tę podróż."
+    ru: "Он охотно проспал бы эту поездку."
+    source: { kind: authored }
+  - form: "przespałbym"
+    pl: "Przespałbym całą dobę."
+    ru: "Я проспал бы целые сутки."
+    source: { kind: authored }
+  - form: "przespałbym"
+    pl: "Na twoim miejscu przespałbym się z tą decyzją."
+    ru: "На твоём месте я обдумал бы это решение на свежую голову."
+    source: { kind: authored }
+  - form: "przespałbym"
+    pl: "Bez budzika przespałbym pociąg."
+    ru: "Без будильника я проспал бы поезд."
+    source: { kind: authored }
+  - form: "przespałbyś"
+    pl: "Przespałbyś całą dobę?"
+    ru: "Ты проспал бы целые сутки?"
+    source: { kind: authored }
+  - form: "przespałbyś"
+    pl: "Czy przespałbyś noc w takim hałasie?"
+    ru: "Ты проспал бы ночь в таком шуме?"
+    source: { kind: authored }
+  - form: "przespałbyś"
+    pl: "Bez budzika przespałbyś pociąg."
+    ru: "Без будильника ты проспал бы поезд."
+    source: { kind: authored }
+  - form: "przespałem"
+    pl: "Przespałem całą noc jak kamień."
+    ru: "Я проспал всю ночь как камень."
+    source: { kind: authored }
+  - form: "przespałem"
+    pl: "Przespałem budzik i spóźniłem się."
+    ru: "Я проспал будильник и опоздал."
+    source: { kind: authored }
+  - form: "przespałem"
+    pl: "Przespałem najważniejszą część filmu."
+    ru: "Я проспал самую важную часть фильма."
+    source: { kind: authored }
+  - form: "przespałeś"
+    pl: "Ile godzin przespałeś?"
+    ru: "Сколько часов ты проспал?"
+    source: { kind: authored }
+  - form: "przespałeś"
+    pl: "Przespałeś budzik znowu?"
+    ru: "Ты опять проспал будильник?"
+    source: { kind: authored }
+  - form: "przespałeś"
+    pl: "Chyba przespałeś najlepszą część."
+    ru: "Ты, похоже, проспал лучшую часть."
+    source: { kind: authored }
+  - form: "przespało"
+    pl: "Dziecko przespało całą podróż."
+    ru: "Ребёнок проспал всю поездку."
+    source: { kind: authored }
+  - form: "przespało"
+    pl: "Pół klasy przespało poranną lekcję."
+    ru: "Полкласса проспало утренний урок."
+    source: { kind: authored }
+  - form: "przespało"
+    pl: "Niemowlę przespało noc pierwszy raz."
+    ru: "Младенец впервые проспал ночь."
+    source: { kind: authored }
+  - form: "przespałoby"
+    pl: "Dziecko przespałoby całą drogę."
+    ru: "Ребёнок проспал бы всю дорогу."
+    source: { kind: authored }
+  - form: "przespałoby"
+    pl: "Niemowlę przespałoby noc po kąpieli."
+    ru: "Младенец проспал бы ночь после купания."
+    source: { kind: authored }
+  - form: "przespałoby"
+    pl: "Pół klasy przespałoby taki wykład."
+    ru: "Полкласса проспало бы такую лекцию."
+    source: { kind: authored }
+  - form: "przespały"
+    pl: "Dzieci przespały całą drogę."
+    ru: "Дети проспали всю дорогу."
+    source: { kind: authored }
+  - form: "przespały"
+    pl: "Kobiety przespały noc w poczekalni."
+    ru: "Женщины проспали ночь в зале ожидания."
+    source: { kind: authored }
+  - form: "przespały"
+    pl: "Koty przespały cały dzień."
+    ru: "Кошки проспали весь день."
+    source: { kind: authored }
+  - form: "przespałyby"
+    pl: "Dzieci przespałyby całą drogę."
+    ru: "Дети проспали бы всю дорогу."
+    source: { kind: authored }
+  - form: "przespałyby"
+    pl: "Koty przespałyby cały dzień."
+    ru: "Кошки проспали бы весь день."
+    source: { kind: authored }
+  - form: "przespałyby"
+    pl: "Bez budzika przespałyby pociąg."
+    ru: "Без будильника они проспали бы поезд."
+    source: { kind: authored }
+  - form: "przespałybyście"
+    pl: "Przespałybyście noc w poczekalni?"
+    ru: "Вы проспали бы ночь в зале ожидания?"
+    source: { kind: authored }
+  - form: "przespałybyście"
+    pl: "Czy przespałybyście cały dzień?"
+    ru: "Вы проспали бы весь день?"
+    source: { kind: authored }
+  - form: "przespałybyście"
+    pl: "Bez budzika przespałybyście odlot."
+    ru: "Без будильника вы проспали бы вылет."
+    source: { kind: authored }
+  - form: "przespałybyśmy"
+    pl: "Przespałybyśmy cały dzień."
+    ru: "Мы проспали бы весь день."
+    source: { kind: authored }
+  - form: "przespałybyśmy"
+    pl: "Bez budzika przespałybyśmy odlot."
+    ru: "Без будильника мы проспали бы вылет."
+    source: { kind: authored }
+  - form: "przespałybyśmy"
+    pl: "Chętnie przespałybyśmy ten upał."
+    ru: "Мы охотно проспали бы эту жару."
+    source: { kind: authored }
+  - form: "przespałyście"
+    pl: "Gdzie przespałyście noc?"
+    ru: "Где вы проспали ночь?"
+    source: { kind: authored }
+  - form: "przespałyście"
+    pl: "Przespałyście budzik?"
+    ru: "Вы проспали будильник?"
+    source: { kind: authored }
+  - form: "przespałyście"
+    pl: "Chyba przespałyście cały wykład."
+    ru: "Вы, похоже, проспали всю лекцию."
+    source: { kind: authored }
+  - form: "przespałyśmy"
+    pl: "Przespałyśmy noc w poczekalni."
+    ru: "Мы проспали ночь в зале ожидания."
+    source: { kind: authored }
+  - form: "przespałyśmy"
+    pl: "Przespałyśmy budzik."
+    ru: "Мы проспали будильник."
+    source: { kind: authored }
+  - form: "przespałyśmy"
+    pl: "Przespałyśmy całą podróż."
+    ru: "Мы проспали всю поездку."
+    source: { kind: authored }
+  - form: "prześpi"
+    pl: "Dziecko prześpi całą drogę."
+    ru: "Ребёнок проспит всю дорогу."
+    source: { kind: authored }
+  - form: "prześpi"
+    pl: "Nikt nie prześpi takiego hałasu."
+    ru: "Никто не проспит такой шум."
+    source: { kind: authored }
+  - form: "prześpi"
+    pl: "On prześpi budzik i znowu się spóźni."
+    ru: "Он проспит будильник и снова опоздает."
+    source: { kind: authored }
+  - form: "prześpicie"
+    pl: "Prześpicie noc u nas."
+    ru: "Вы проспите ночь у нас."
+    source: { kind: authored }
+  - form: "prześpicie"
+    pl: "Jeśli nie nastawicie budzika, prześpicie pociąg."
+    ru: "Если не поставите будильник, проспите поезд."
+    source: { kind: authored }
+  - form: "prześpicie"
+    pl: "Czy prześpicie całą podróż?"
+    ru: "Вы проспите всю поездку?"
+    source: { kind: authored }
+  - form: "prześpij"
+    pl: "Prześpij się, potem porozmawiamy."
+    ru: "Поспи, потом поговорим."
+    source: { kind: authored }
+  - form: "prześpij"
+    pl: "Prześpij tę noc spokojnie."
+    ru: "Проспи эту ночь спокойно."
+    source: { kind: authored }
+  - form: "prześpij"
+    pl: "Prześpij się z tą decyzją."
+    ru: "Обдумай это решение на свежую голову."
+    source: { kind: authored }
+  - form: "prześpijcie"
+    pl: "Prześpijcie noc u nas."
+    ru: "Проспите ночь у нас."
+    source: { kind: authored }
+  - form: "prześpijcie"
+    pl: "Prześpijcie się przed drogą."
+    ru: "Поспите перед дорогой."
+    source: { kind: authored }
+  - form: "prześpijcie"
+    pl: "Prześpijcie tę decyzję do rana."
+    ru: "Отложите это решение до утра."
+    source: { kind: authored }
+  - form: "prześpijmy"
+    pl: "Prześpijmy tu noc."
+    ru: "Проспим здесь ночь."
+    source: { kind: authored }
+  - form: "prześpijmy"
+    pl: "Prześpijmy się i wróćmy do tematu."
+    ru: "Поспим и вернёмся к теме."
+    source: { kind: authored }
+  - form: "prześpijmy"
+    pl: "Prześpijmy tę burzę."
+    ru: "Проспим эту грозу."
+    source: { kind: authored }
+  - form: "prześpimy"
+    pl: "Prześpimy tu noc i ruszymy dalej."
+    ru: "Мы проспим здесь ночь и двинемся дальше."
+    source: { kind: authored }
+  - form: "prześpimy"
+    pl: "Jeśli się nie zbudzimy, prześpimy odlot."
+    ru: "Если не проснёмся, проспим вылет."
+    source: { kind: authored }
+  - form: "prześpimy"
+    pl: "Prześpimy się na podłodze."
+    ru: "Мы поспим на полу."
+    source: { kind: authored }
+  - form: "prześpisz"
+    pl: "Jeśli nie wstaniesz, prześpisz pociąg."
+    ru: "Если не встанешь, проспишь поезд."
+    source: { kind: authored }
+  - form: "prześpisz"
+    pl: "Prześpisz całą noc w fotelu?"
+    ru: "Ты проспишь всю ночь в кресле?"
+    source: { kind: authored }
+  - form: "prześpisz"
+    pl: "Czy prześpisz tę burzę?"
+    ru: "Ты проспишь эту грозу?"
+    source: { kind: authored }
+  - form: "prześpią"
+    pl: "Dzieci prześpią całą drogę."
+    ru: "Дети проспят всю дорогу."
+    source: { kind: authored }
+  - form: "prześpią"
+    pl: "Bez budzika prześpią odlot."
+    ru: "Без будильника они проспят вылет."
+    source: { kind: authored }
+  - form: "prześpią"
+    pl: "Goście prześpią noc w salonie."
+    ru: "Гости проспят ночь в гостиной."
+    source: { kind: authored }
+  - form: "prześpię"
+    pl: "Prześpię się godzinę i wrócę."
+    ru: "Я вздремну часок и вернусь."
+    source: { kind: authored }
+  - form: "prześpię"
+    pl: "Dziś prześpię całą noc bez budzika."
+    ru: "Сегодня я просплю всю ночь без будильника."
+    source: { kind: authored }
+  - form: "prześpię"
+    pl: "Chyba prześpię tę całą podróż."
+    ru: "Я, пожалуй, просплю всю эту поездку."
+    source: { kind: authored }
