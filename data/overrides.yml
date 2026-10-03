@@ -766,6 +766,11 @@ exclude:
   # "призрак" в польском есть, но в корпусе на него нет ни одного примера —
   # тот же случай, что miał. Само mary уже исключено
   - mara
+  # все кандидаты — наречие zaraz "сейчас, сразу": "Zaraz wracam", "Zaraz
+  # wychodze", "Mokra koszula zaraz wyschnie". Существительное zaraza "зараза,
+  # мор" в польском есть, но в корпусе на него нет ни одного примера; слово
+  # попало в список только из-за омографии с наречием, которое карточку имеет
+  - zaraza
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -949,6 +954,7 @@ excludeNotes:
   boba: { why: proper-noun }
   musza: { why: form-of, see: musiec }
   mara: { why: proper-noun }
+  zaraza: { why: form-of, see: zaraz }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
