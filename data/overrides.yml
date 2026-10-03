@@ -779,6 +779,9 @@ exclude:
   # не лемма: строка «+ina» — артефакт разбора, обрывок суффикса,
   # а не слово; словарной статьи для неё быть не может
   - ina
+  # имя собственное: все кандидаты — личное имя (Robert, chodź tu;
+  # Czy Robert już wrócił?), словоизменения практически нет
+  - robert
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -966,6 +969,7 @@ excludeNotes:
   henry: { why: proper-noun }
   lea: { why: proper-noun }
   ina: { why: not-a-lemma }
+  robert: { why: proper-noun }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
