@@ -1,0 +1,803 @@
+# review
+id: glosowac
+format: 2
+lemma: "głosować"
+rank: 1602
+pos: verb
+pron: { cyr: "гуосо́ваць" }
+senses:
+  - id: vote
+    ru: "голосовать"
+    examples:
+      - pl: "Głosuję na nią od lat."
+        ru: "Я голосую за неё годами."
+        source: { kind: authored }
+      - pl: "Głosował przeciw ustawie."
+        ru: "Он голосовал против закона."
+        source: { kind: authored }
+      - pl: "Głosowali jednogłośnie."
+        ru: "Они голосовали единогласно."
+        source: { kind: authored }
+  - id: voting
+    ru: "głosowanie — голосование"
+    examples:
+      - pl: "Głosowanie trwało do nocy."
+        ru: "Голосование шло до ночи."
+        source: { kind: authored }
+      - pl: "Wynik głosowania zaskoczył wszystkich."
+        ru: "Результат голосования удивил всех."
+        source: { kind: authored }
+  - id: put-to-vote
+    ru: "głosowany — поставленный на голосование"
+    examples:
+      - pl: "Projekt głosowany w piątek przeszedł."
+        ru: "Проект, голосовавшийся в пятницу, прошёл."
+        source: { kind: authored }
+      - pl: "Ustawa głosowana w nocy wywołała protesty."
+        ru: "Закон, голосовавшийся ночью, вызвал протесты."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Главное в этом глаголе — выбор предлога, и он расходится с русским. За КАНДИДАТА голосуют с предлогом NA и винительным: głosować NA kogoś (głosuję na nią). За ПРЕДЛОЖЕНИЕ — с предлогом ZA и творительным: głosować ZA ustawą. Против — PRZECIW с дательным: głosować PRZECIW ustawie. По-русски во всех трёх случаях «за» или «против», поэтому na при кандидате надо запомнить отдельно." }
+  - { kind: false-friend, text: "Ловушки в значении нет: głosować построено от głos «голос», как русское «голосовать» от «голоса», и это праславянское *golsъ. Расходится только управление, см. выше. Ещё одна мелочь: głosować nad czymś значит «проводить голосование по чему-л.» (sejm głosuje nad ustawą)." }
+  - { kind: usage, text: "Вид несовершенный; совершенная пара — zagłosować «проголосовать». Отглагольное существительное głosowanie значит и «голосование» как процедуру, и «голосование» как отдельный акт: tajne głosowanie, głosowanie korespondencyjne." }
+  - { kind: pronunciation, text: "Глаголы на -ować меняют основу в настоящем времени: -ow- уступает место -uj-. Отсюда całować — całuję, całujesz, и głosować — głosuję, głosujesz. Это правило без исключений, и оно охватывает сотни польских глаголов, в том числе все заимствованные (telefonować, organizować). Вид несовершенный, поэтому есть причастия настоящего времени (całujący, głosując) и НЕТ формы на -wszy." }
+collocations:
+  - { pl: "głosować na kogoś", ru: "голосовать за кого-л." }
+  - { pl: "głosować przeciw", ru: "голосовать против" }
+  - { pl: "tajne głosowanie", ru: "тайное голосование" }
+family:
+  - { pl: "głos", ru: "голос", relation: root, id: glos }
+  - { pl: "głosowanie", ru: "голосование", relation: derived }
+  - { pl: "zagłosować", ru: "проголосовать", relation: aspect }
+etymology: "От głos «голос», праславянское *golsъ — то же слово, что русский «голос», с польским перестановочным развитием ol вместо русского оло (głos при «голос», głowa при «голова»). Поэтому głosować и «голосовать» построены одинаково: подать голос. Эта мена oło/ol — надёжный опознавательный знак: złoto при «золото», mleko при «молоко»."
+memory: "głosować — «голосовать», от głos «голос» (ср. «голова» и głowa). Запомните предлоги: за кандидата NA kogoś, за предложение ZA czymś, против PRZECIW czemuś."
+idioms:
+  - { pl: "głosować na kogoś", ru: "голосовать за кого-л." }
+  - { pl: "tajne głosowanie", ru: "тайное голосование" }
+formExamplesSkip:
+  - { form: "głosowani", reason: "Мужско-личная форма страдательного причастия. Глагол głosować не берёт человека прямым дополнением: голосуют NA kogoś, ZA czymś, PRZECIW czemuś, а в переходном употреблении — только документ (głosować ustawę). Поэтому формы вроде głosowana ustawa правильны, а мужско-личного подлежащего у этого причастия быть не может: людей не «голосуют»." }
+formExamples:
+  - form: "głosowali"
+    pl: "Głosowali jednogłośnie."
+    ru: "Они голосовали единогласно."
+    source: { kind: authored }
+  - form: "głosowali"
+    pl: "Nie głosowali wcale."
+    ru: "Они вовсе не голосовали."
+    source: { kind: authored }
+  - form: "głosowali"
+    pl: "Głosowali na tego samego kandydata."
+    ru: "Они голосовали за одного и того же кандидата."
+    source: { kind: authored }
+  - form: "głosowaliby"
+    pl: "Głosowaliby inaczej, gdyby znali program."
+    ru: "Они голосовали бы иначе, если бы знали программу."
+    source: { kind: authored }
+  - form: "głosowaliby"
+    pl: "Nie głosowaliby przeciw swoim."
+    ru: "Они не голосовали бы против своих."
+    source: { kind: authored }
+  - form: "głosowaliby"
+    pl: "Głosowaliby licznie, gdyby pogoda była lepsza."
+    ru: "Они голосовали бы активно, если бы погода была лучше."
+    source: { kind: authored }
+  - form: "głosowalibyście"
+    pl: "Głosowalibyście za?"
+    ru: "Вы голосовали бы за?"
+    source: { kind: authored }
+  - form: "głosowalibyście"
+    pl: "Czy głosowalibyście przeciw własnej partii?"
+    ru: "Вы голосовали бы против своей партии?"
+    source: { kind: authored }
+  - form: "głosowalibyście"
+    pl: "Nie głosowalibyście tak, gdybyście wiedzieli."
+    ru: "Вы не голосовали бы так, если бы знали."
+    source: { kind: authored }
+  - form: "głosowalibyśmy"
+    pl: "Głosowalibyśmy za."
+    ru: "Мы голосовали бы за."
+    source: { kind: authored }
+  - form: "głosowalibyśmy"
+    pl: "Bez takich warunków nie głosowalibyśmy wcale."
+    ru: "Без таких условий мы вовсе не голосовали бы."
+    source: { kind: authored }
+  - form: "głosowalibyśmy"
+    pl: "Głosowalibyśmy inaczej, gdyby było z kogo wybierać."
+    ru: "Мы голосовали бы иначе, если бы было из кого выбирать."
+    source: { kind: authored }
+  - form: "głosowaliście"
+    pl: "Na kogo głosowaliście?"
+    ru: "За кого вы голосовали?"
+    source: { kind: authored }
+  - form: "głosowaliście"
+    pl: "Głosowaliście przeciw budżetowi."
+    ru: "Вы голосовали против бюджета."
+    source: { kind: authored }
+  - form: "głosowaliście"
+    pl: "Nie głosowaliście wcale."
+    ru: "Вы вовсе не голосовали."
+    source: { kind: authored }
+  - form: "głosowaliśmy"
+    pl: "Głosowaliśmy jawnie."
+    ru: "Мы голосовали открыто."
+    source: { kind: authored }
+  - form: "głosowaliśmy"
+    pl: "Nie głosowaliśmy w tej sprawie."
+    ru: "Мы не голосовали по этому делу."
+    source: { kind: authored }
+  - form: "głosowaliśmy"
+    pl: "Głosowaliśmy za przyjęciem wniosku."
+    ru: "Мы голосовали за принятие предложения."
+    source: { kind: authored }
+  - form: "głosowana"
+    pl: "Ustawa głosowana w nocy wywołała protesty."
+    ru: "Закон, голосовавшийся ночью, вызвал протесты."
+    source: { kind: authored }
+  - form: "głosowana"
+    pl: "Poprawka była głosowana osobno."
+    ru: "Поправка голосовалась отдельно."
+    source: { kind: authored }
+  - form: "głosowana"
+    pl: "Głosowana dziś uchwała przeszła jednogłośnie."
+    ru: "Голосуемое сегодня постановление прошло единогласно."
+    source: { kind: authored }
+  - form: "głosowane"
+    pl: "Głosowane dziś poprawki odrzucono."
+    ru: "Голосуемые сегодня поправки отклонили."
+    source: { kind: authored }
+  - form: "głosowane"
+    pl: "Wnioski były głosowane po kolei."
+    ru: "Предложения голосовались по очереди."
+    source: { kind: authored }
+  - form: "głosowane"
+    pl: "Głosowane w pośpiechu ustawy bywają złe."
+    ru: "Законы, голосуемые в спешке, бывают плохими."
+    source: { kind: authored }
+  - form: "głosowanego"
+    pl: "Treść głosowanego projektu zmieniono w nocy."
+    ru: "Содержание голосуемого проекта изменили ночью."
+    source: { kind: authored }
+  - form: "głosowanego"
+    pl: "Nie znam głosowanego wczoraj wniosku."
+    ru: "Я не знаю голосовавшееся вчера предложение."
+    source: { kind: authored }
+  - form: "głosowanego"
+    pl: "Nie ma tu nic głosowanego dwa razy."
+    ru: "Здесь нет ничего голосовавшегося дважды."
+    source: { kind: authored }
+  - form: "głosowanej"
+    pl: "Treść głosowanej ustawy była niejasna."
+    ru: "Содержание голосуемого закона было неясным."
+    source: { kind: authored }
+  - form: "głosowanej"
+    pl: "Nie znam głosowanej wczoraj poprawki."
+    ru: "Я не знаю голосовавшуюся вчера поправку."
+    source: { kind: authored }
+  - form: "głosowanej"
+    pl: "W głosowanej uchwale brakowało jednego punktu."
+    ru: "В голосуемом постановлении не хватало одного пункта."
+    source: { kind: authored }
+  - form: "głosowanemu"
+    pl: "Głosowanemu projektowi brakowało poparcia."
+    ru: "Голосуемому проекту не хватало поддержки."
+    source: { kind: authored }
+  - form: "głosowanemu"
+    pl: "Dzięki głosowanemu wczoraj wnioskowi zmieniono regulamin."
+    ru: "Благодаря голосовавшемуся вчера предложению изменили регламент."
+    source: { kind: authored }
+  - form: "głosowanemu"
+    pl: "Przyjrzyj się temu głosowanemu dziś zapisowi."
+    ru: "Присмотрись к этому голосуемому сегодня пункту."
+    source: { kind: authored }
+  - form: "głosowania"
+    pl: "Wynik głosowania zaskoczył wszystkich."
+    ru: "Результат голосования удивил всех."
+    source: { kind: authored }
+  - form: "głosowania"
+    pl: "Nie dożył głosowania."
+    ru: "Он не дожил до голосования."
+    source: { kind: authored }
+  - form: "głosowania"
+    pl: "Po zakończeniu głosowania policzono karty."
+    ru: "После окончания голосования подсчитали карты."
+    source: { kind: authored }
+  - form: "głosowanie"
+    pl: "Głosowanie trwało do nocy."
+    ru: "Голосование шло до ночи."
+    source: { kind: authored }
+  - form: "głosowanie"
+    pl: "Głosowanie było tajne."
+    ru: "Голосование было тайным."
+    source: { kind: authored }
+  - form: "głosowanie"
+    pl: "Głosowanie powtórzono."
+    ru: "Голосование повторили."
+    source: { kind: authored }
+  - form: "głosowaniem"
+    pl: "Przed głosowaniem zabrał głos."
+    ru: "Перед голосованием он взял слово."
+    source: { kind: authored }
+  - form: "głosowaniem"
+    pl: "Sprawę rozstrzygnięto głosowaniem."
+    ru: "Дело решили голосованием."
+    source: { kind: authored }
+  - form: "głosowaniem"
+    pl: "Między głosowaniem a ogłoszeniem wyniku minęła godzina."
+    ru: "Между голосованием и объявлением результата прошёл час."
+    source: { kind: authored }
+  - form: "głosowaniu"
+    pl: "W głosowaniu wzięło udział stu posłów."
+    ru: "В голосовании участвовало сто депутатов."
+    source: { kind: authored }
+  - form: "głosowaniu"
+    pl: "Po głosowaniu nastała cisza."
+    ru: "После голосования наступила тишина."
+    source: { kind: authored }
+  - form: "głosowaniu"
+    pl: "Mówiono o głosowaniu korespondencyjnym."
+    ru: "Говорили о голосовании по почте."
+    source: { kind: authored }
+  - form: "głosowano"
+    pl: "Głosowano jawnie."
+    ru: "Голосовали открыто."
+    source: { kind: authored }
+  - form: "głosowano"
+    pl: "Nad ustawą głosowano dwa razy."
+    ru: "По закону голосовали дважды."
+    source: { kind: authored }
+  - form: "głosowano"
+    pl: "Głosowano do późnej nocy."
+    ru: "Голосовали до поздней ночи."
+    source: { kind: authored }
+  - form: "głosowany"
+    pl: "Projekt głosowany w piątek przeszedł."
+    ru: "Проект, голосовавшийся в пятницу, прошёл."
+    source: { kind: authored }
+  - form: "głosowany"
+    pl: "Wniosek był głosowany dwa razy."
+    ru: "Предложение голосовалось дважды."
+    source: { kind: authored }
+  - form: "głosowany"
+    pl: "Głosowany dziś budżet wzbudził spory."
+    ru: "Голосуемый сегодня бюджет вызвал споры."
+    source: { kind: authored }
+  - form: "głosowanych"
+    pl: "Nie ma tu głosowanych dwa razy wniosków."
+    ru: "Здесь нет предложений, голосовавшихся дважды."
+    source: { kind: authored }
+  - form: "głosowanych"
+    pl: "O głosowanych w nocy ustawach pisała prasa."
+    ru: "О законах, голосовавшихся ночью, писала пресса."
+    source: { kind: authored }
+  - form: "głosowanych"
+    pl: "Połowa głosowanych poprawek upadła."
+    ru: "Половина голосуемых поправок провалилась."
+    source: { kind: authored }
+  - form: "głosowanym"
+    pl: "W głosowanym projekcie był błąd."
+    ru: "В голосуемом проекте была ошибка."
+    source: { kind: authored }
+  - form: "głosowanym"
+    pl: "Głosowanym poprawkom nie było końca."
+    ru: "Голосуемым поправкам не было конца."
+    source: { kind: authored }
+  - form: "głosowanym"
+    pl: "Zajął się głosowanym dziś wnioskiem."
+    ru: "Он занялся голосуемым сегодня предложением."
+    source: { kind: authored }
+  - form: "głosowanymi"
+    pl: "Między głosowanymi poprawkami była sprzeczność."
+    ru: "Между голосуемыми поправками было противоречие."
+    source: { kind: authored }
+  - form: "głosowanymi"
+    pl: "Zajmował się głosowanymi wczoraj ustawami."
+    ru: "Он занимался голосовавшимися вчера законами."
+    source: { kind: authored }
+  - form: "głosowanymi"
+    pl: "Nie radził sobie z głosowanymi naprędce zapisami."
+    ru: "Он не справлялся с наспех голосуемыми пунктами."
+    source: { kind: authored }
+  - form: "głosowaną"
+    pl: "Odrzucono głosowaną w nocy poprawkę."
+    ru: "Отклонили голосовавшуюся ночью поправку."
+    source: { kind: authored }
+  - form: "głosowaną"
+    pl: "Uznano ustawę za głosowaną zgodnie z regulaminem."
+    ru: "Закон признали голосовавшимся согласно регламенту."
+    source: { kind: authored }
+  - form: "głosowaną"
+    pl: "Przyjęto głosowaną dziś uchwałę."
+    ru: "Приняли голосуемое сегодня постановление."
+    source: { kind: authored }
+  - form: "głosować"
+    pl: "Głosować nie zamierzam."
+    ru: "Я не собираюсь голосовать."
+    source: { kind: authored }
+  - form: "głosować"
+    pl: "Trzeba głosować na kogoś, nie przeciw komuś."
+    ru: "Надо голосовать за кого-то, а не против кого-то."
+    source: { kind: authored }
+  - form: "głosować"
+    pl: "Idę głosować o ósmej."
+    ru: "Я иду голосовать в восемь."
+    source: { kind: authored }
+  - form: "głosował"
+    pl: "Głosował przeciw ustawie."
+    ru: "Он голосовал против закона."
+    source: { kind: authored }
+  - form: "głosował"
+    pl: "Nie głosował ani raz w życiu."
+    ru: "Он ни разу в жизни не голосовал."
+    source: { kind: authored }
+  - form: "głosował"
+    pl: "Głosował na młodszego kandydata."
+    ru: "Он голосовал за более молодого кандидата."
+    source: { kind: authored }
+  - form: "głosowała"
+    pl: "Głosowała za zmianą."
+    ru: "Она голосовала за изменение."
+    source: { kind: authored }
+  - form: "głosowała"
+    pl: "Nie głosowała w ostatnich wyborach."
+    ru: "Она не голосовала на прошлых выборах."
+    source: { kind: authored }
+  - form: "głosowała"
+    pl: "Głosowała na niego wbrew rodzinie."
+    ru: "Она голосовала за него вопреки семье."
+    source: { kind: authored }
+  - form: "głosowałaby"
+    pl: "Głosowałaby przeciw."
+    ru: "Она голосовала бы против."
+    source: { kind: authored }
+  - form: "głosowałaby"
+    pl: "Nie głosowałaby na niego za żadne pieniądze."
+    ru: "Она не голосовала бы за него ни за какие деньги."
+    source: { kind: authored }
+  - form: "głosowałaby"
+    pl: "Głosowałaby, gdyby miała dowód przy sobie."
+    ru: "Она голосовала бы, если бы паспорт был при ней."
+    source: { kind: authored }
+  - form: "głosowałabym"
+    pl: "Głosowałabym za przyjęciem ustawy."
+    ru: "Я голосовала бы за принятие закона."
+    source: { kind: authored }
+  - form: "głosowałabym"
+    pl: "Na jej miejscu głosowałabym przeciw."
+    ru: "На её месте я голосовала бы против."
+    source: { kind: authored }
+  - form: "głosowałabym"
+    pl: "Nie głosowałabym na nikogo z tej listy."
+    ru: "Я не голосовала бы ни за кого из этого списка."
+    source: { kind: authored }
+  - form: "głosowałabyś"
+    pl: "Na kogo głosowałabyś dziś?"
+    ru: "За кого ты голосовала бы сегодня?"
+    source: { kind: authored }
+  - form: "głosowałabyś"
+    pl: "Czy głosowałabyś za zmianą?"
+    ru: "Ты голосовала бы за изменение?"
+    source: { kind: authored }
+  - form: "głosowałabyś"
+    pl: "Nie głosowałabyś na niego powtórnie."
+    ru: "Ты не голосовала бы за него повторно."
+    source: { kind: authored }
+  - form: "głosowałam"
+    pl: "Głosowałam za przyjęciem wniosku."
+    ru: "Я голосовала за принятие предложения."
+    source: { kind: authored }
+  - form: "głosowałam"
+    pl: "Nie głosowałam w tych wyborach."
+    ru: "Я не голосовала на этих выборах."
+    source: { kind: authored }
+  - form: "głosowałam"
+    pl: "Głosowałam na niego dwa razy."
+    ru: "Я голосовала за него дважды."
+    source: { kind: authored }
+  - form: "głosowałaś"
+    pl: "Na kogo głosowałaś?"
+    ru: "За кого ты голосовала?"
+    source: { kind: authored }
+  - form: "głosowałaś"
+    pl: "Głosowałaś za tą poprawką."
+    ru: "Ты голосовала за эту поправку."
+    source: { kind: authored }
+  - form: "głosowałaś"
+    pl: "Nie głosowałaś w drugiej turze."
+    ru: "Ты не голосовала во втором туре."
+    source: { kind: authored }
+  - form: "głosowałby"
+    pl: "Głosowałby inaczej, gdyby znał szczegóły."
+    ru: "Он голосовал бы иначе, если бы знал детали."
+    source: { kind: authored }
+  - form: "głosowałby"
+    pl: "Nikt rozsądny nie głosowałby za tym."
+    ru: "Никто разумный не голосовал бы за это."
+    source: { kind: authored }
+  - form: "głosowałby"
+    pl: "Głosowałby na nią, ale wyjechał."
+    ru: "Он голосовал бы за неё, но уехал."
+    source: { kind: authored }
+  - form: "głosowałbym"
+    pl: "Głosowałbym za."
+    ru: "Я голосовал бы за."
+    source: { kind: authored }
+  - form: "głosowałbym"
+    pl: "Na twoim miejscu głosowałbym przeciw."
+    ru: "На твоём месте я голосовал бы против."
+    source: { kind: authored }
+  - form: "głosowałbym"
+    pl: "Nie głosowałbym w takich wyborach."
+    ru: "Я не голосовал бы на таких выборах."
+    source: { kind: authored }
+  - form: "głosowałbyś"
+    pl: "Na kogo głosowałbyś dziś?"
+    ru: "За кого ты голосовал бы сегодня?"
+    source: { kind: authored }
+  - form: "głosowałbyś"
+    pl: "Czy głosowałbyś przeciw?"
+    ru: "Ты голосовал бы против?"
+    source: { kind: authored }
+  - form: "głosowałbyś"
+    pl: "Nie głosowałbyś tak, gdybyś wiedział."
+    ru: "Ты не голосовал бы так, если бы знал."
+    source: { kind: authored }
+  - form: "głosowałem"
+    pl: "Głosowałem na nią."
+    ru: "Я голосовал за неё."
+    source: { kind: authored }
+  - form: "głosowałem"
+    pl: "Nie głosowałem od dziesięciu lat."
+    ru: "Я не голосовал десять лет."
+    source: { kind: authored }
+  - form: "głosowałem"
+    pl: "Głosowałem przeciw tej ustawie."
+    ru: "Я голосовал против этого закона."
+    source: { kind: authored }
+  - form: "głosowałeś"
+    pl: "Na kogo głosowałeś?"
+    ru: "За кого ты голосовал?"
+    source: { kind: authored }
+  - form: "głosowałeś"
+    pl: "Głosowałeś przeciw własnej partii."
+    ru: "Ты голосовал против своей партии."
+    source: { kind: authored }
+  - form: "głosowałeś"
+    pl: "Nie głosowałeś wcale."
+    ru: "Ты вовсе не голосовал."
+    source: { kind: authored }
+  - form: "głosowało"
+    pl: "Głosowało sześćdziesiąt procent uprawnionych."
+    ru: "Проголосовало шестьдесят процентов имеющих право."
+    source: { kind: authored }
+  - form: "głosowało"
+    pl: "Miasto głosowało inaczej niż wieś."
+    ru: "Город голосовал иначе, чем деревня."
+    source: { kind: authored }
+  - form: "głosowało"
+    pl: "Tylko trzysta osób głosowało przeciw."
+    ru: "Только триста человек голосовали против."
+    source: { kind: authored }
+  - form: "głosowałoby"
+    pl: "Głosowałoby więcej ludzi, gdyby była niedziela."
+    ru: "Проголосовало бы больше людей, если бы было воскресенье."
+    source: { kind: authored }
+  - form: "głosowałoby"
+    pl: "Miasto głosowałoby inaczej."
+    ru: "Город голосовал бы иначе."
+    source: { kind: authored }
+  - form: "głosowałoby"
+    pl: "Pół wsi głosowałoby za zmianą."
+    ru: "Полдеревни голосовало бы за изменение."
+    source: { kind: authored }
+  - form: "głosowały"
+    pl: "Kobiety głosowały liczniej niż mężczyźni."
+    ru: "Женщины голосовали активнее мужчин."
+    source: { kind: authored }
+  - form: "głosowały"
+    pl: "Wsie głosowały inaczej niż miasta."
+    ru: "Деревни голосовали иначе, чем города."
+    source: { kind: authored }
+  - form: "głosowały"
+    pl: "Nie głosowały w tych wyborach."
+    ru: "Они не голосовали на этих выборах."
+    source: { kind: authored }
+  - form: "głosowałyby"
+    pl: "Kobiety głosowałyby liczniej."
+    ru: "Женщины голосовали бы активнее."
+    source: { kind: authored }
+  - form: "głosowałyby"
+    pl: "Wsie głosowałyby przeciw."
+    ru: "Деревни голосовали бы против."
+    source: { kind: authored }
+  - form: "głosowałyby"
+    pl: "Nie głosowałyby bez zachęty."
+    ru: "Они не голосовали бы без побуждения."
+    source: { kind: authored }
+  - form: "głosowałybyście"
+    pl: "Głosowałybyście za zmianą?"
+    ru: "Вы голосовали бы за изменение?"
+    source: { kind: authored }
+  - form: "głosowałybyście"
+    pl: "Czy głosowałybyście na niego?"
+    ru: "Вы голосовали бы за него?"
+    source: { kind: authored }
+  - form: "głosowałybyście"
+    pl: "Nie głosowałybyście bez namysłu."
+    ru: "Вы не голосовали бы без раздумья."
+    source: { kind: authored }
+  - form: "głosowałybyśmy"
+    pl: "Głosowałybyśmy przeciw."
+    ru: "Мы голосовали бы против."
+    source: { kind: authored }
+  - form: "głosowałybyśmy"
+    pl: "Bez zachęty nie głosowałybyśmy wcale."
+    ru: "Без побуждения мы вовсе не голосовали бы."
+    source: { kind: authored }
+  - form: "głosowałybyśmy"
+    pl: "Głosowałybyśmy obie na nią."
+    ru: "Мы обе голосовали бы за неё."
+    source: { kind: authored }
+  - form: "głosowałyście"
+    pl: "Na kogo głosowałyście?"
+    ru: "За кого вы голосовали?"
+    source: { kind: authored }
+  - form: "głosowałyście"
+    pl: "Głosowałyście za poprawką."
+    ru: "Вы голосовали за поправку."
+    source: { kind: authored }
+  - form: "głosowałyście"
+    pl: "Nie głosowałyście w drugiej turze."
+    ru: "Вы не голосовали во втором туре."
+    source: { kind: authored }
+  - form: "głosowałyśmy"
+    pl: "Głosowałyśmy obie na nią."
+    ru: "Мы обе голосовали за неё."
+    source: { kind: authored }
+  - form: "głosowałyśmy"
+    pl: "Nie głosowałyśmy w pierwszej turze."
+    ru: "Мы не голосовали в первом туре."
+    source: { kind: authored }
+  - form: "głosowałyśmy"
+    pl: "Głosowałyśmy przeciw."
+    ru: "Мы голосовали против."
+    source: { kind: authored }
+  - form: "głosuj"
+    pl: "Głosuj na kogo chcesz."
+    ru: "Голосуй за кого хочешь."
+    source: { kind: authored }
+  - form: "głosuj"
+    pl: "Głosuj, zanim zamkną lokal."
+    ru: "Голосуй, пока не закрыли участок."
+    source: { kind: authored }
+  - form: "głosuj"
+    pl: "Nie głosuj pod wpływem emocji."
+    ru: "Не голосуй под влиянием эмоций."
+    source: { kind: authored }
+  - form: "głosujcie"
+    pl: "Głosujcie według sumienia."
+    ru: "Голосуйте по совести."
+    source: { kind: authored }
+  - form: "głosujcie"
+    pl: "Głosujcie przed południem."
+    ru: "Голосуйте до полудня."
+    source: { kind: authored }
+  - form: "głosujcie"
+    pl: "Nie głosujcie bez przeczytania ustawy."
+    ru: "Не голосуйте, не прочитав закон."
+    source: { kind: authored }
+  - form: "głosuje"
+    pl: "Nikt tu nie głosuje."
+    ru: "Здесь никто не голосует."
+    source: { kind: authored }
+  - form: "głosuje"
+    pl: "Sejm głosuje nad ustawą w piątek."
+    ru: "Сейм голосует по закону в пятницу."
+    source: { kind: authored }
+  - form: "głosuje"
+    pl: "Ona głosuje zawsze tak samo."
+    ru: "Она голосует всегда одинаково."
+    source: { kind: authored }
+  - form: "głosujecie"
+    pl: "Na kogo głosujecie?"
+    ru: "За кого вы голосуете?"
+    source: { kind: authored }
+  - form: "głosujecie"
+    pl: "Jeśli głosujecie, przyjdźcie wcześniej."
+    ru: "Если голосуете, приходите раньше."
+    source: { kind: authored }
+  - form: "głosujecie"
+    pl: "Głosujecie za czy przeciw?"
+    ru: "Вы голосуете за или против?"
+    source: { kind: authored }
+  - form: "głosujemy"
+    pl: "Głosujemy jawnie."
+    ru: "Мы голосуем открыто."
+    source: { kind: authored }
+  - form: "głosujemy"
+    pl: "Dziś głosujemy nad budżetem."
+    ru: "Сегодня мы голосуем по бюджету."
+    source: { kind: authored }
+  - form: "głosujemy"
+    pl: "Przez internet nie głosujemy."
+    ru: "Мы не голосуем через интернет."
+    source: { kind: authored }
+  - form: "głosujesz"
+    pl: "Na kogo głosujesz?"
+    ru: "За кого ты голосуешь?"
+    source: { kind: authored }
+  - form: "głosujesz"
+    pl: "Jeśli głosujesz, zabierz dowód."
+    ru: "Если голосуешь, возьми паспорт."
+    source: { kind: authored }
+  - form: "głosujesz"
+    pl: "Przeciw własnej partii nie głosujesz."
+    ru: "Ты не голосуешь против своей партии."
+    source: { kind: authored }
+  - form: "głosujmy"
+    pl: "Głosujmy jawnie."
+    ru: "Будем голосовать открыто."
+    source: { kind: authored }
+  - form: "głosujmy"
+    pl: "Głosujmy nad wnioskiem."
+    ru: "Проголосуем по предложению."
+    source: { kind: authored }
+  - form: "głosujmy"
+    pl: "Nie głosujmy w pośpiechu."
+    ru: "Не будем голосовать в спешке."
+    source: { kind: authored }
+  - form: "głosują"
+    pl: "Głosują od siódmej rano."
+    ru: "Они голосуют с семи утра."
+    source: { kind: authored }
+  - form: "głosują"
+    pl: "Przeciw swoim nie głosują."
+    ru: "Они не голосуют против своих."
+    source: { kind: authored }
+  - form: "głosują"
+    pl: "Posłowie głosują nad poprawką."
+    ru: "Депутаты голосуют по поправке."
+    source: { kind: authored }
+  - form: "głosując"
+    pl: "Głosując, miał wątpliwości."
+    ru: "Голосуя, он сомневался."
+    source: { kind: authored }
+  - form: "głosując"
+    pl: "Wyszedł, nie głosując wcale."
+    ru: "Он вышел, вовсе не проголосовав."
+    source: { kind: authored }
+  - form: "głosując"
+    pl: "Głosując przeciw, naraził się partii."
+    ru: "Голосуя против, он навлёк на себя гнев партии."
+    source: { kind: authored }
+  - form: "głosująca"
+    pl: "Głosująca większość poparła wniosek."
+    ru: "Голосующее большинство поддержало предложение."
+    source: { kind: authored }
+  - form: "głosująca"
+    pl: "Głosująca przeciw posłanka wyjaśniła decyzję."
+    ru: "Голосовавшая против депутатка объяснила решение."
+    source: { kind: authored }
+  - form: "głosująca"
+    pl: "Komisja głosująca nad budżetem zebrała się o ósmej."
+    ru: "Комиссия, голосующая по бюджету, собралась в восемь."
+    source: { kind: authored }
+  - form: "głosujące"
+    pl: "Głosujące miasta wybrały inaczej."
+    ru: "Голосующие города выбрали иначе."
+    source: { kind: authored }
+  - form: "głosujące"
+    pl: "Głosujące kobiety stanowiły połowę."
+    ru: "Голосующие женщины составляли половину."
+    source: { kind: authored }
+  - form: "głosujące"
+    pl: "Głosujące nad ustawą izby nie doszły do zgody."
+    ru: "Голосующие по закону палаты не пришли к согласию."
+    source: { kind: authored }
+  - form: "głosującego"
+    pl: "Nie znam tego głosującego przeciw posła."
+    ru: "Я не знаю этого голосовавшего против депутата."
+    source: { kind: authored }
+  - form: "głosującego"
+    pl: "Każdego głosującego spisano na liście."
+    ru: "Каждого голосующего записали в список."
+    source: { kind: authored }
+  - form: "głosującego"
+    pl: "Nie ma tu nikogo głosującego za."
+    ru: "Здесь нет никого голосующего за."
+    source: { kind: authored }
+  - form: "głosującej"
+    pl: "Lista głosującej komisji była tajna."
+    ru: "Список голосующей комиссии был тайным."
+    source: { kind: authored }
+  - form: "głosującej"
+    pl: "Nie znam tej głosującej przeciw posłanki."
+    ru: "Я не знаю эту голосовавшую против депутатку."
+    source: { kind: authored }
+  - form: "głosującej"
+    pl: "Zdanie głosującej większości przeważyło."
+    ru: "Мнение голосующего большинства перевесило."
+    source: { kind: authored }
+  - form: "głosującemu"
+    pl: "Głosującemu posłowi zabrakło karty."
+    ru: "Голосующему депутату не хватило карты."
+    source: { kind: authored }
+  - form: "głosującemu"
+    pl: "Dzięki głosującemu za nami sąsiadowi wniosek przeszedł."
+    ru: "Благодаря голосовавшему за нас соседу предложение прошло."
+    source: { kind: authored }
+  - form: "głosującemu"
+    pl: "Przyjrzyj się temu głosującemu tłumowi."
+    ru: "Присмотрись к этой голосующей толпе."
+    source: { kind: authored }
+  - form: "głosujący"
+    pl: "Głosujący posłowie wstawali po kolei."
+    ru: "Голосующие депутаты вставали по очереди."
+    source: { kind: authored }
+  - form: "głosujący"
+    pl: "Każdy głosujący musi mieć dowód."
+    ru: "У каждого голосующего должен быть паспорт."
+    source: { kind: authored }
+  - form: "głosujący"
+    pl: "Głosujący nad ustawą sejm obradował do rana."
+    ru: "Голосующий по закону сейм заседал до утра."
+    source: { kind: authored }
+  - form: "głosujących"
+    pl: "Liczba głosujących wzrosła."
+    ru: "Число голосующих выросло."
+    source: { kind: authored }
+  - form: "głosujących"
+    pl: "Nie ma tu głosujących przeciw."
+    ru: "Здесь нет голосующих против."
+    source: { kind: authored }
+  - form: "głosujących"
+    pl: "O głosujących przeciw mówiono długo."
+    ru: "О голосовавших против говорили долго."
+    source: { kind: authored }
+  - form: "głosującym"
+    pl: "W głosującym sejmie panowała cisza."
+    ru: "В голосующем сейме царила тишина."
+    source: { kind: authored }
+  - form: "głosującym"
+    pl: "Głosującym posłom rozdano karty."
+    ru: "Голосующим депутатам раздали карты."
+    source: { kind: authored }
+  - form: "głosującym"
+    pl: "Rozmawiał z głosującym przeciw radnym."
+    ru: "Он говорил с голосовавшим против советником."
+    source: { kind: authored }
+  - form: "głosującymi"
+    pl: "Między głosującymi a wstrzymującymi się była równowaga."
+    ru: "Между голосующими и воздержавшимися было равновесие."
+    source: { kind: authored }
+  - form: "głosującymi"
+    pl: "Rozmawiał z głosującymi przed lokalem."
+    ru: "Он говорил с голосующими перед участком."
+    source: { kind: authored }
+  - form: "głosującymi"
+    pl: "Sala wypełniła się głosującymi."
+    ru: "Зал заполнился голосующими."
+    source: { kind: authored }
+  - form: "głosującą"
+    pl: "Spotkał głosującą przeciw posłankę."
+    ru: "Он встретил голосовавшую против депутатку."
+    source: { kind: authored }
+  - form: "głosującą"
+    pl: "Uznano ją za najczęściej głosującą przeciw."
+    ru: "Её признали чаще всех голосующей против."
+    source: { kind: authored }
+  - form: "głosującą"
+    pl: "Minął głosującą kolejkę przed szkołą."
+    ru: "Он прошёл мимо голосующей очереди перед школой."
+    source: { kind: authored }
+  - form: "głosuję"
+    pl: "Głosuję na nią od lat."
+    ru: "Я голосую за неё годами."
+    source: { kind: authored }
+  - form: "głosuję"
+    pl: "W takich wyborach nie głosuję."
+    ru: "Я не голосую на таких выборах."
+    source: { kind: authored }
+  - form: "głosuję"
+    pl: "Głosuję za przyjęciem ustawy."
+    ru: "Я голосую за принятие закона."
+    source: { kind: authored }
