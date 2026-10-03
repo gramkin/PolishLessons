@@ -1,0 +1,561 @@
+# review
+id: skoczyc
+format: 2
+lemma: "skoczyć"
+rank: 2008
+pos: verb
+pron: { cyr: "ско́чыць" }
+senses:
+  - id: jump
+    ru: "прыгнуть, скакнуть"
+    examples:
+      - pl: "Skoczył przez płot bez rozbiegu."
+        ru: "Он перепрыгнул через забор без разбега."
+        source: { kind: authored }
+      - pl: "Skoczyła do wody pierwsza."
+        ru: "Она прыгнула в воду первой."
+        source: { kind: authored }
+      - pl: "Ceny skoczyły o dziesięć procent."
+        ru: "Цены подскочили на десять процентов."
+        source: { kind: authored }
+  - id: pop-out
+    ru: "разг. сбегать, сходить ненадолго"
+    examples:
+      - pl: "Skoczę po chleb i zaraz wracam."
+        ru: "Сбегаю за хлебом и сразу вернусь."
+        source: { kind: authored }
+      - pl: "Skocz do apteki, zanim zamkną."
+        ru: "Сбегай в аптеку, пока не закрыли."
+        source: { kind: authored }
+  - id: jumping
+    ru: "skoczenie — прыжок (как действие)"
+    examples:
+      - pl: "Skoczenie z takiej wysokości to szaleństwo."
+        ru: "Прыгнуть с такой высоты — безумие."
+        source: { kind: authored }
+      - pl: "Po skoczeniu do wody od razu zmarzł."
+        ru: "Прыгнув в воду, он сразу замёрз."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Корень родной, хотя русский глагол без приставки почти не живёт: skoczyć — это «скочить», как во «ВСКОЧИТЬ», «ВЫСКОЧИТЬ», «ПОДСКОЧИТЬ». Отсюда skok «скок, прыжок» и skakać «скакать». Переносное значение тоже совпадает: ceny skoczyły — «цены подскочили»." }
+  - { kind: government, text: "РАСХОЖДЕНИЕ В ПРЕДЛОГЕ, И ОНО ЧАСТОЕ. Сбегать ЗА чем-то по-польски будет skoczyć PO coś — предлог po с ВИНИТЕЛЬНЫМ: skoczyć po chleb, po gazetę, po lekarza. Русский тут ставит «за» с творительным. Прочие направления обычные: skoczyć DO wody, NA dach, PRZEZ płot." }
+  - { kind: register, text: "Второе значение чисто разговорное и очень частое: skoczę po zakupy значит просто «сбегаю за покупками», безо всякого прыганья. Так же skoczyć do kogoś — «забежать к кому-то на минуту». В официальной речи лучше wstąpić или pójść." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — skakać «скакать, прыгать»: skakał przez kałuże «он прыгал через лужи», но skoczył raz «прыгнул один раз». Глагол непереходный, поэтому страдательного причастия у него нет — всего сорок две формы." }
+collocations:
+  - { pl: "skoczyć po chleb", ru: "сбегать за хлебом" }
+  - { pl: "skoczyć do wody", ru: "прыгнуть в воду" }
+  - { pl: "ceny skoczyły", ru: "цены подскочили" }
+family:
+  - { pl: "skakać", ru: "прыгать, скакать", relation: aspect }
+  - { pl: "skok", ru: "прыжок", relation: root }
+  - { pl: "podskoczyć", ru: "подскочить", relation: derived }
+etymology: "Общеславянский корень *skok-, тот же, что в русских «скок», «скакать», «вскочить», «выскочить». Польский сохранил простой глагол skoczyć там, где русский обходится приставочными. Отсюда skok «прыжок», skoczek «прыгун» и skocznia «трамплин»."
+memory: "skoczyć — «прыгнуть», корень как во «вскочить». Но запомните разговорное значение: skoczę po chleb — «сбегаю за хлебом», и предлог тут PO с винительным, а не русское «за» с творительным."
+idioms:
+  - { pl: "skoczyć komuś do gardła", ru: "вцепиться кому-л. в горло" }
+  - { pl: "skoczyć po coś", ru: "сбегать за чем-л." }
+formExamples:
+  - form: "skocz"
+    pl: "Skocz do apteki, zanim zamkną."
+    ru: "Сбегай в аптеку, пока не закрыли."
+    source: { kind: authored }
+  - form: "skocz"
+    pl: "Skocz po gazetę, proszę."
+    ru: "Сбегай за газетой, пожалуйста."
+    source: { kind: authored }
+  - form: "skocz"
+    pl: "Nie skocz przypadkiem w błoto."
+    ru: "Не прыгни случайно в грязь."
+    source: { kind: authored }
+  - form: "skoczcie"
+    pl: "Skoczcie po chleb, proszę."
+    ru: "Сбегайте за хлебом, пожалуйста."
+    source: { kind: authored }
+  - form: "skoczcie"
+    pl: "Skoczcie do apteki przed zamknięciem."
+    ru: "Сбегайте в аптеку до закрытия."
+    source: { kind: authored }
+  - form: "skoczcie"
+    pl: "Nie skoczcie stąd, za wysoko."
+    ru: "Не прыгайте отсюда, слишком высоко."
+    source: { kind: authored }
+  - form: "skoczenia"
+    pl: "Do skoczenia przez ten rów trzeba rozbiegu."
+    ru: "Чтобы перепрыгнуть эту канаву, нужен разбег."
+    source: { kind: authored }
+  - form: "skoczenia"
+    pl: "Bez skoczenia do wody nie ochłodzisz się."
+    ru: "Не прыгнув в воду, не охладишься."
+    source: { kind: authored }
+  - form: "skoczenia"
+    pl: "Od skoczenia z muru bolało go kolano."
+    ru: "От прыжка со стены у него болело колено."
+    source: { kind: authored }
+  - form: "skoczenie"
+    pl: "Skoczenie z takiej wysokości to szaleństwo."
+    ru: "Прыгнуть с такой высоты — безумие."
+    source: { kind: authored }
+  - form: "skoczenie"
+    pl: "Skoczenie przez ten rów wymaga rozbiegu."
+    ru: "Перепрыгнуть эту канаву требует разбега."
+    source: { kind: authored }
+  - form: "skoczenie"
+    pl: "Skoczenie do zimnej wody zapiera dech."
+    ru: "Прыжок в холодную воду захватывает дух."
+    source: { kind: authored }
+  - form: "skoczeniem"
+    pl: "Przed skoczeniem sprawdź głębokość."
+    ru: "Перед прыжком проверь глубину."
+    source: { kind: authored }
+  - form: "skoczeniem"
+    pl: "Między rozbiegiem a skoczeniem mija ułamek sekundy."
+    ru: "Между разбегом и прыжком проходит доля секунды."
+    source: { kind: authored }
+  - form: "skoczeniem"
+    pl: "Zaskoczył wszystkich skoczeniem z takiej wysokości."
+    ru: "Он удивил всех прыжком с такой высоты."
+    source: { kind: authored }
+  - form: "skoczeniu"
+    pl: "Po skoczeniu do wody od razu zmarzł."
+    ru: "Прыгнув в воду, он сразу замёрз."
+    source: { kind: authored }
+  - form: "skoczeniu"
+    pl: "O skoczeniu z tej skały opowiadano latami."
+    ru: "О прыжке с этой скалы рассказывали годами."
+    source: { kind: authored }
+  - form: "skoczeniu"
+    pl: "W skoczeniu przez rów nie ma nic trudnego."
+    ru: "В том, чтобы перепрыгнуть канаву, нет ничего трудного."
+    source: { kind: authored }
+  - form: "skoczmy"
+    pl: "Skoczmy po zakupy przed obiadem."
+    ru: "Сбегаем за покупками до обеда."
+    source: { kind: authored }
+  - form: "skoczmy"
+    pl: "Skoczmy do wody, jest gorąco."
+    ru: "Прыгнем в воду, жарко."
+    source: { kind: authored }
+  - form: "skoczmy"
+    pl: "Nie skoczmy stąd, za wysoko."
+    ru: "Не будем отсюда прыгать, слишком высоко."
+    source: { kind: authored }
+  - form: "skoczono"
+    pl: "Po lekarza skoczono natychmiast."
+    ru: "За врачом сбегали немедленно."
+    source: { kind: authored }
+  - form: "skoczono"
+    pl: "Do wody skoczono mimo zakazu."
+    ru: "В воду прыгали несмотря на запрет."
+    source: { kind: authored }
+  - form: "skoczono"
+    pl: "Po pomoc skoczono do najbliższej wsi."
+    ru: "За помощью сбегали в ближайшую деревню."
+    source: { kind: authored }
+  - form: "skoczy"
+    pl: "Niech ktoś skoczy po lekarza."
+    ru: "Пусть кто-нибудь сбегает за врачом."
+    source: { kind: authored }
+  - form: "skoczy"
+    pl: "Nikt nie skoczy z tej wieży."
+    ru: "Никто не прыгнет с этой башни."
+    source: { kind: authored }
+  - form: "skoczy"
+    pl: "Cena skoczy po Nowym Roku."
+    ru: "Цена подскочит после Нового года."
+    source: { kind: authored }
+  - form: "skoczycie"
+    pl: "Skoczycie po chleb?"
+    ru: "Сбегаете за хлебом?"
+    source: { kind: authored }
+  - form: "skoczycie"
+    pl: "Jeśli skoczycie teraz, zdążycie."
+    ru: "Если сбегаете сейчас, успеете."
+    source: { kind: authored }
+  - form: "skoczycie"
+    pl: "Nie skoczycie przez taki płot."
+    ru: "Через такой забор вы не перепрыгнете."
+    source: { kind: authored }
+  - form: "skoczyli"
+    pl: "Skoczyli do wody jeden po drugim."
+    ru: "Они прыгнули в воду один за другим."
+    source: { kind: authored }
+  - form: "skoczyli"
+    pl: "Skoczyli po pomoc do sąsiadów."
+    ru: "Они сбегали за помощью к соседям."
+    source: { kind: authored }
+  - form: "skoczyli"
+    pl: "Nie skoczyli przez ten rów."
+    ru: "Через эту канаву они не перепрыгнули."
+    source: { kind: authored }
+  - form: "skoczyliby"
+    pl: "Skoczyliby po pomoc, gdyby mieli telefon."
+    ru: "Они сбегали бы за помощью, будь у них телефон."
+    source: { kind: authored }
+  - form: "skoczyliby"
+    pl: "Bez rozbiegu nie skoczyliby przez ten rów."
+    ru: "Без разбега они не перепрыгнули бы эту канаву."
+    source: { kind: authored }
+  - form: "skoczyliby"
+    pl: "Skoczyliby do wody pierwsi."
+    ru: "Они прыгнули бы в воду первыми."
+    source: { kind: authored }
+  - form: "skoczylibyście"
+    pl: "Skoczylibyście z takiej wysokości?"
+    ru: "Вы прыгнули бы с такой высоты?"
+    source: { kind: authored }
+  - form: "skoczylibyście"
+    pl: "Czy skoczylibyście po lekarza w nocy?"
+    ru: "Вы сбегали бы за врачом ночью?"
+    source: { kind: authored }
+  - form: "skoczylibyście"
+    pl: "Bez rozbiegu nie skoczylibyście tak daleko."
+    ru: "Без разбега вы не прыгнули бы так далеко."
+    source: { kind: authored }
+  - form: "skoczylibyśmy"
+    pl: "Skoczylibyśmy po pomoc, gdyby było blisko."
+    ru: "Мы сбегали бы за помощью, будь это близко."
+    source: { kind: authored }
+  - form: "skoczylibyśmy"
+    pl: "Bez rozbiegu nie skoczylibyśmy tak daleko."
+    ru: "Без разбега мы не прыгнули бы так далеко."
+    source: { kind: authored }
+  - form: "skoczylibyśmy"
+    pl: "Na waszym miejscu nie skoczylibyśmy stąd."
+    ru: "На вашем месте мы не прыгали бы отсюда."
+    source: { kind: authored }
+  - form: "skoczyliście"
+    pl: "Skoczyliście po chleb?"
+    ru: "Вы сбегали за хлебом?"
+    source: { kind: authored }
+  - form: "skoczyliście"
+    pl: "Dlaczego skoczyliście bez rozbiegu?"
+    ru: "Почему вы прыгнули без разбега?"
+    source: { kind: authored }
+  - form: "skoczyliście"
+    pl: "Chyba skoczyliście za wcześnie."
+    ru: "Вы, похоже, прыгнули слишком рано."
+    source: { kind: authored }
+  - form: "skoczyliśmy"
+    pl: "Skoczyliśmy do wody jeden po drugim."
+    ru: "Мы прыгнули в воду один за другим."
+    source: { kind: authored }
+  - form: "skoczyliśmy"
+    pl: "Skoczyliśmy po pomoc do sąsiadów."
+    ru: "Мы сбегали за помощью к соседям."
+    source: { kind: authored }
+  - form: "skoczyliśmy"
+    pl: "Nie skoczyliśmy przez ten rów."
+    ru: "Через эту канаву мы не перепрыгнули."
+    source: { kind: authored }
+  - form: "skoczymy"
+    pl: "Skoczymy po zakupy przed obiadem."
+    ru: "Сбегаем за покупками до обеда."
+    source: { kind: authored }
+  - form: "skoczymy"
+    pl: "Skoczymy do wody razem."
+    ru: "Прыгнем в воду вместе."
+    source: { kind: authored }
+  - form: "skoczymy"
+    pl: "Nie skoczymy przez taki rów."
+    ru: "Через такую канаву мы не перепрыгнем."
+    source: { kind: authored }
+  - form: "skoczysz"
+    pl: "Skoczysz po gazetę?"
+    ru: "Сбегаешь за газетой?"
+    source: { kind: authored }
+  - form: "skoczysz"
+    pl: "Jeśli skoczysz teraz, zdążysz przed zamknięciem."
+    ru: "Если сбегаешь сейчас, успеешь до закрытия."
+    source: { kind: authored }
+  - form: "skoczysz"
+    pl: "Nie skoczysz przez taki płot."
+    ru: "Через такой забор ты не перепрыгнешь."
+    source: { kind: authored }
+  - form: "skoczywszy"
+    pl: "Skoczywszy do wody, od razu pożałował."
+    ru: "Прыгнув в воду, он сразу пожалел."
+    source: { kind: authored }
+  - form: "skoczywszy"
+    pl: "Skoczywszy przez płot, zgubił but."
+    ru: "Перепрыгнув забор, он потерял ботинок."
+    source: { kind: authored }
+  - form: "skoczywszy"
+    pl: "Skoczywszy po chleb, wrócił dopiero wieczorem."
+    ru: "Сбегав за хлебом, он вернулся только вечером."
+    source: { kind: authored }
+  - form: "skoczyć"
+    pl: "Trzeba skoczyć po chleb."
+    ru: "Надо сбегать за хлебом."
+    source: { kind: authored }
+  - form: "skoczyć"
+    pl: "Bał się skoczyć z tej wysokości."
+    ru: "Он боялся прыгнуть с такой высоты."
+    source: { kind: authored }
+  - form: "skoczyć"
+    pl: "Można skoczyć do apteki przed zamknięciem."
+    ru: "Можно сбегать в аптеку до закрытия."
+    source: { kind: authored }
+  - form: "skoczył"
+    pl: "Skoczył przez płot bez rozbiegu."
+    ru: "Он перепрыгнул через забор без разбега."
+    source: { kind: authored }
+  - form: "skoczył"
+    pl: "Skoczył po lekarza w środku nocy."
+    ru: "Он сбегал за врачом среди ночи."
+    source: { kind: authored }
+  - form: "skoczył"
+    pl: "Kurs dolara skoczył w jeden dzień."
+    ru: "Курс доллара подскочил за один день."
+    source: { kind: authored }
+  - form: "skoczyła"
+    pl: "Skoczyła do wody pierwsza."
+    ru: "Она прыгнула в воду первой."
+    source: { kind: authored }
+  - form: "skoczyła"
+    pl: "Skoczyła po chleb i wróciła z kwiatami."
+    ru: "Она сбегала за хлебом и вернулась с цветами."
+    source: { kind: authored }
+  - form: "skoczyła"
+    pl: "Temperatura skoczyła do czterdziestu stopni."
+    ru: "Температура подскочила до сорока градусов."
+    source: { kind: authored }
+  - form: "skoczyłaby"
+    pl: "Skoczyłaby po lekarza, gdyby wiedziała."
+    ru: "Она сбегала бы за врачом, если бы знала."
+    source: { kind: authored }
+  - form: "skoczyłaby"
+    pl: "Bez rozbiegu nie skoczyłaby tak daleko."
+    ru: "Без разбега она не прыгнула бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłaby"
+    pl: "Skoczyłaby do wody pierwsza."
+    ru: "Она прыгнула бы в воду первой."
+    source: { kind: authored }
+  - form: "skoczyłabym"
+    pl: "Skoczyłabym po chleb, ale pada."
+    ru: "Я сбегала бы за хлебом, но идёт дождь."
+    source: { kind: authored }
+  - form: "skoczyłabym"
+    pl: "Na jej miejscu nie skoczyłabym stąd."
+    ru: "На её месте я не прыгала бы отсюда."
+    source: { kind: authored }
+  - form: "skoczyłabym"
+    pl: "Bez rozbiegu nie skoczyłabym tak daleko."
+    ru: "Без разбега я не прыгнула бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłabyś"
+    pl: "Skoczyłabyś z takiej wysokości?"
+    ru: "Ты прыгнула бы с такой высоты?"
+    source: { kind: authored }
+  - form: "skoczyłabyś"
+    pl: "Czy skoczyłabyś po lekarza w nocy?"
+    ru: "Ты сбегала бы за врачом ночью?"
+    source: { kind: authored }
+  - form: "skoczyłabyś"
+    pl: "Bez rozbiegu nie skoczyłabyś tak daleko."
+    ru: "Без разбега ты не прыгнула бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłam"
+    pl: "Skoczyłam po chleb i spotkałam sąsiadkę."
+    ru: "Я сбегала за хлебом и встретила соседку."
+    source: { kind: authored }
+  - form: "skoczyłam"
+    pl: "Skoczyłam do wody bez namysłu."
+    ru: "Я прыгнула в воду не раздумывая."
+    source: { kind: authored }
+  - form: "skoczyłam"
+    pl: "Nie skoczyłam przez ten rów."
+    ru: "Через эту канаву я не перепрыгнула."
+    source: { kind: authored }
+  - form: "skoczyłaś"
+    pl: "Skoczyłaś po gazetę?"
+    ru: "Ты сбегала за газетой?"
+    source: { kind: authored }
+  - form: "skoczyłaś"
+    pl: "Dlaczego skoczyłaś bez rozbiegu?"
+    ru: "Почему ты прыгнула без разбега?"
+    source: { kind: authored }
+  - form: "skoczyłaś"
+    pl: "Chyba skoczyłaś za wcześnie."
+    ru: "Ты, похоже, прыгнула слишком рано."
+    source: { kind: authored }
+  - form: "skoczyłby"
+    pl: "Skoczyłby po lekarza, gdyby wiedział."
+    ru: "Он сбегал бы за врачом, если бы знал."
+    source: { kind: authored }
+  - form: "skoczyłby"
+    pl: "Bez rozbiegu nie skoczyłby tak daleko."
+    ru: "Без разбега он не прыгнул бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłby"
+    pl: "Kurs skoczyłby i tak, prędzej czy później."
+    ru: "Курс подскочил бы всё равно, рано или поздно."
+    source: { kind: authored }
+  - form: "skoczyłbym"
+    pl: "Skoczyłbym po chleb, ale pada."
+    ru: "Я сбегал бы за хлебом, но идёт дождь."
+    source: { kind: authored }
+  - form: "skoczyłbym"
+    pl: "Na twoim miejscu nie skoczyłbym stąd."
+    ru: "На твоём месте я не прыгал бы отсюда."
+    source: { kind: authored }
+  - form: "skoczyłbym"
+    pl: "Bez rozbiegu nie skoczyłbym tak daleko."
+    ru: "Без разбега я не прыгнул бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłbyś"
+    pl: "Skoczyłbyś z takiej wysokości?"
+    ru: "Ты прыгнул бы с такой высоты?"
+    source: { kind: authored }
+  - form: "skoczyłbyś"
+    pl: "Czy skoczyłbyś po lekarza w nocy?"
+    ru: "Ты сбегал бы за врачом ночью?"
+    source: { kind: authored }
+  - form: "skoczyłbyś"
+    pl: "Bez rozbiegu nie skoczyłbyś tak daleko."
+    ru: "Без разбега ты не прыгнул бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłem"
+    pl: "Skoczyłem po chleb i spotkałem sąsiada."
+    ru: "Я сбегал за хлебом и встретил соседа."
+    source: { kind: authored }
+  - form: "skoczyłem"
+    pl: "Skoczyłem do wody bez namysłu."
+    ru: "Я прыгнул в воду не раздумывая."
+    source: { kind: authored }
+  - form: "skoczyłem"
+    pl: "Nie skoczyłem przez ten rów."
+    ru: "Через эту канаву я не перепрыгнул."
+    source: { kind: authored }
+  - form: "skoczyłeś"
+    pl: "Skoczyłeś po gazetę?"
+    ru: "Ты сбегал за газетой?"
+    source: { kind: authored }
+  - form: "skoczyłeś"
+    pl: "Dlaczego skoczyłeś bez rozbiegu?"
+    ru: "Почему ты прыгнул без разбега?"
+    source: { kind: authored }
+  - form: "skoczyłeś"
+    pl: "Chyba skoczyłeś za wcześnie."
+    ru: "Ты, похоже, прыгнул слишком рано."
+    source: { kind: authored }
+  - form: "skoczyło"
+    pl: "Dziecko skoczyło w kałużę obiema nogami."
+    ru: "Ребёнок прыгнул в лужу обеими ногами."
+    source: { kind: authored }
+  - form: "skoczyło"
+    pl: "Pół klasy skoczyło do wody naraz."
+    ru: "Полкласса прыгнуло в воду разом."
+    source: { kind: authored }
+  - form: "skoczyło"
+    pl: "Ciśnienie skoczyło mu po tej wiadomości."
+    ru: "Давление у него подскочило после этой новости."
+    source: { kind: authored }
+  - form: "skoczyłoby"
+    pl: "Dziecko skoczyłoby w każdą kałużę."
+    ru: "Ребёнок прыгнул бы в каждую лужу."
+    source: { kind: authored }
+  - form: "skoczyłoby"
+    pl: "Pół klasy skoczyłoby do wody naraz."
+    ru: "Полкласса прыгнуло бы в воду разом."
+    source: { kind: authored }
+  - form: "skoczyłoby"
+    pl: "Ciśnienie skoczyłoby mu po takiej wiadomości."
+    ru: "Давление у него подскочило бы после такой новости."
+    source: { kind: authored }
+  - form: "skoczyły"
+    pl: "Ceny skoczyły o dziesięć procent."
+    ru: "Цены подскочили на десять процентов."
+    source: { kind: authored }
+  - form: "skoczyły"
+    pl: "Dziewczynki skoczyły do wody razem."
+    ru: "Девочки прыгнули в воду вместе."
+    source: { kind: authored }
+  - form: "skoczyły"
+    pl: "Notowania skoczyły po tej decyzji."
+    ru: "Котировки подскочили после этого решения."
+    source: { kind: authored }
+  - form: "skoczyłyby"
+    pl: "Ceny skoczyłyby i bez tej decyzji."
+    ru: "Цены подскочили бы и без этого решения."
+    source: { kind: authored }
+  - form: "skoczyłyby"
+    pl: "Dziewczynki skoczyłyby do wody razem."
+    ru: "Девочки прыгнули бы в воду вместе."
+    source: { kind: authored }
+  - form: "skoczyłyby"
+    pl: "Bez rozbiegu nie skoczyłyby tak daleko."
+    ru: "Без разбега они не прыгнули бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłybyście"
+    pl: "Skoczyłybyście z takiej wysokości?"
+    ru: "Вы прыгнули бы с такой высоты?"
+    source: { kind: authored }
+  - form: "skoczyłybyście"
+    pl: "Czy skoczyłybyście po lekarza w nocy?"
+    ru: "Вы сбегали бы за врачом ночью?"
+    source: { kind: authored }
+  - form: "skoczyłybyście"
+    pl: "Bez rozbiegu nie skoczyłybyście tak daleko."
+    ru: "Без разбега вы не прыгнули бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłybyśmy"
+    pl: "Skoczyłybyśmy po pomoc, gdyby było blisko."
+    ru: "Мы сбегали бы за помощью, будь это близко."
+    source: { kind: authored }
+  - form: "skoczyłybyśmy"
+    pl: "Bez rozbiegu nie skoczyłybyśmy tak daleko."
+    ru: "Без разбега мы не прыгнули бы так далеко."
+    source: { kind: authored }
+  - form: "skoczyłybyśmy"
+    pl: "Na waszym miejscu nie skoczyłybyśmy stąd."
+    ru: "На вашем месте мы не прыгали бы отсюда."
+    source: { kind: authored }
+  - form: "skoczyłyście"
+    pl: "Skoczyłyście po chleb?"
+    ru: "Вы сбегали за хлебом?"
+    source: { kind: authored }
+  - form: "skoczyłyście"
+    pl: "Dlaczego skoczyłyście bez rozbiegu?"
+    ru: "Почему вы прыгнули без разбега?"
+    source: { kind: authored }
+  - form: "skoczyłyście"
+    pl: "Chyba skoczyłyście za wcześnie."
+    ru: "Вы, похоже, прыгнули слишком рано."
+    source: { kind: authored }
+  - form: "skoczyłyśmy"
+    pl: "Skoczyłyśmy do wody razem."
+    ru: "Мы прыгнули в воду вместе."
+    source: { kind: authored }
+  - form: "skoczyłyśmy"
+    pl: "Skoczyłyśmy po zakupy przed obiadem."
+    ru: "Мы сбегали за покупками до обеда."
+    source: { kind: authored }
+  - form: "skoczyłyśmy"
+    pl: "Nie skoczyłyśmy przez ten rów."
+    ru: "Через эту канаву мы не перепрыгнули."
+    source: { kind: authored }
+  - form: "skoczą"
+    pl: "Zaraz skoczą po pomoc."
+    ru: "Сейчас они сбегают за помощью."
+    source: { kind: authored }
+  - form: "skoczą"
+    pl: "Dzieci skoczą do wody przy pierwszej okazji."
+    ru: "Дети прыгнут в воду при первой возможности."
+    source: { kind: authored }
+  - form: "skoczą"
+    pl: "Ceny skoczą jeszcze przed zimą."
+    ru: "Цены подскочат ещё до зимы."
+    source: { kind: authored }
+  - form: "skoczę"
+    pl: "Skoczę po chleb i zaraz wracam."
+    ru: "Сбегаю за хлебом и сразу вернусь."
+    source: { kind: authored }
+  - form: "skoczę"
+    pl: "Skoczę do apteki po drodze."
+    ru: "Забегу в аптеку по пути."
+    source: { kind: authored }
+  - form: "skoczę"
+    pl: "Nie skoczę z takiej wysokości."
+    ru: "Я не прыгну с такой высоты."
+    source: { kind: authored }

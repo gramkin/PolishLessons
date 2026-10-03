@@ -1,0 +1,693 @@
+# review
+id: wystawic
+format: 2
+lemma: "wystawić"
+rank: 2021
+pos: verb
+pron: { cyr: "выста́виць" }
+senses:
+  - id: put-out
+    ru: "выставить (наружу, на витрину)"
+    examples:
+      - pl: "Wystawił kwiaty na balkon."
+        ru: "Он выставил цветы на балкон."
+        source: { kind: authored }
+      - pl: "Wystawiono nowe modele na wystawie."
+        ru: "Новые модели выставили на витрине."
+        source: { kind: authored }
+      - pl: "Wystaw śmieci przed bramę."
+        ru: "Выставь мусор за ворота."
+        source: { kind: authored }
+  - id: issue
+    ru: "выставить, выписать (счёт, оценку, справку)"
+    examples:
+      - pl: "Wystawili rachunek na tysiąc złotych."
+        ru: "Они выставили счёт на тысячу злотых."
+        source: { kind: authored }
+      - pl: "Nauczyciel wystawił oceny przed świętami."
+        ru: "Учитель выставил оценки перед праздниками."
+        source: { kind: authored }
+  - id: stage
+    ru: "поставить (спектакль); wystawić kogoś — разг. подвести"
+    examples:
+      - pl: "Teatr wystawił nową sztukę."
+        ru: "Театр поставил новую пьесу."
+        source: { kind: authored }
+      - pl: "Wystawił nas do wiatru i nie przyszedł."
+        ru: "Он нас подвёл и не пришёл."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Глагол разбирается по-русски без остатка: wy- это «вы-», stawić — «ставить», значит wystawić — «выставить». А вот существительное wystawa шире русского: это и «ВЫСТАВКА», и «ВИТРИНА» магазина. Oglądać wystawy значит разглядывать витрины, а не ходить по выставкам." }
+  - { kind: government, text: "Выставляют ЧТО — винительный: wystawić kwiaty, rachunek, ocenę, sztukę. Куда — na с винительным (wystawić na balkon, na słońce) или przed с винительным (wystawić przed bramę). Кому выписывают — дательный: wystawić komuś rachunek, zaświadczenie. Всё как по-русски." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — wystawiać. Страдательное причастие по правилу для -ić: wystawiony, wystawieni. Канцелярские обороты встречаются постоянно: wystawić fakturę «выписать счёт-фактуру», wystawić zaświadczenie «выдать справку»." }
+  - { kind: register, text: "Разговорное wystawić kogoś do wiatru значит «подвести, кинуть, оставить ни с чем» — человек ждал, а его не пришли. Русские соответствия — «кинуть» или «оставить с носом». Само wystawić kogoś без дополнения тоже понимают как «подвести»." }
+collocations:
+  - { pl: "wystawić rachunek", ru: "выставить счёт" }
+  - { pl: "wystawić ocenę", ru: "выставить оценку" }
+  - { pl: "wystawić kogoś do wiatru", ru: "подвести кого-л." }
+family:
+  - { pl: "stawiać", ru: "ставить", relation: root, id: stawiac }
+  - { pl: "wystawa", ru: "выставка; витрина", relation: derived }
+  - { pl: "wystawiać", ru: "выставлять", relation: aspect }
+etymology: "Приставка wy- «вы-» плюс stawić от stać «стоять» — ровно то же сложение, что русское «вы-ставить» от «ставить». Соответствие приставок wy-/вы- сквозное: wyjść «выйти», wypić «выпить», wyrzucić «выбросить». Отсюда wystawa «выставка, витрина» и wystawca «экспонент»."
+memory: "wystawić — «выставить», по частям: wy- это «вы-», stawić — «ставить». Запомните два оборота: wystawić rachunek «выставить счёт» и wystawić kogoś do wiatru «подвести». И что wystawa — это ещё и «витрина»."
+idioms:
+  - { pl: "wystawić kogoś do wiatru", ru: "подвести, оставить с носом" }
+  - { pl: "wystawić rachunek", ru: "выставить счёт" }
+formExamples:
+  - form: "wystaw"
+    pl: "Wystaw śmieci przed bramę."
+    ru: "Выставь мусор за ворота."
+    source: { kind: authored }
+  - form: "wystaw"
+    pl: "Wystaw mi zaświadczenie, proszę."
+    ru: "Выдай мне справку, пожалуйста."
+    source: { kind: authored }
+  - form: "wystaw"
+    pl: "Nie wystaw nikogo do wiatru."
+    ru: "Не подведи никого."
+    source: { kind: authored }
+  - form: "wystawcie"
+    pl: "Wystawcie śmieci przed bramę."
+    ru: "Выставьте мусор за ворота."
+    source: { kind: authored }
+  - form: "wystawcie"
+    pl: "Wystawcie rachunek na koniec miesiąca."
+    ru: "Выставьте счёт в конце месяца."
+    source: { kind: authored }
+  - form: "wystawcie"
+    pl: "Nie wystawcie nikogo do wiatru."
+    ru: "Не подведите никого."
+    source: { kind: authored }
+  - form: "wystawi"
+    pl: "Niech ktoś wystawi kwiaty na słońce."
+    ru: "Пусть кто-нибудь выставит цветы на солнце."
+    source: { kind: authored }
+  - form: "wystawi"
+    pl: "Nikt nie wystawi ci zaświadczenia bez wniosku."
+    ru: "Никто не выдаст тебе справку без заявления."
+    source: { kind: authored }
+  - form: "wystawi"
+    pl: "Teatr wystawi tę sztukę dopiero wiosną."
+    ru: "Театр поставит эту пьесу только весной."
+    source: { kind: authored }
+  - form: "wystawicie"
+    pl: "Wystawicie śmieci przed bramę?"
+    ru: "Выставите мусор за ворота?"
+    source: { kind: authored }
+  - form: "wystawicie"
+    pl: "Jeśli wystawicie rachunek dziś, zapłacą w piątek."
+    ru: "Если выставите счёт сегодня, заплатят в пятницу."
+    source: { kind: authored }
+  - form: "wystawicie"
+    pl: "Nie wystawicie go do wiatru, prawda?"
+    ru: "Вы же его не подведёте?"
+    source: { kind: authored }
+  - form: "wystawieni"
+    pl: "Wystawieni na próbę pracownicy zdali egzamin."
+    ru: "Поставленные перед испытанием работники выдержали."
+    source: { kind: authored }
+  - form: "wystawieni"
+    pl: "Byliśmy wystawieni na mróz przez godzinę."
+    ru: "Нас продержали на морозе час."
+    source: { kind: authored }
+  - form: "wystawieni"
+    pl: "Wystawieni do wiatru klienci złożyli skargę."
+    ru: "Подведённые клиенты подали жалобу."
+    source: { kind: authored }
+  - form: "wystawienia"
+    pl: "Do wystawienia zaświadczenia potrzebny jest wniosek."
+    ru: "Для выдачи справки нужно заявление."
+    source: { kind: authored }
+  - form: "wystawienia"
+    pl: "Bez wystawienia faktury nie zapłacą."
+    ru: "Без счёта они не заплатят."
+    source: { kind: authored }
+  - form: "wystawienia"
+    pl: "Od wystawienia oceny minął tydzień."
+    ru: "С выставления оценки прошла неделя."
+    source: { kind: authored }
+  - form: "wystawienie"
+    pl: "Wystawienie faktury zajęło pięć minut."
+    ru: "Выписать счёт заняло пять минут."
+    source: { kind: authored }
+  - form: "wystawienie"
+    pl: "Wystawienie sztuki kosztowało teatr fortunę."
+    ru: "Постановка пьесы стоила театру целое состояние."
+    source: { kind: authored }
+  - form: "wystawienie"
+    pl: "Wystawienie zaświadczenia wymaga wniosku."
+    ru: "Выдача справки требует заявления."
+    source: { kind: authored }
+  - form: "wystawieniem"
+    pl: "Przed wystawieniem faktury sprawdź dane."
+    ru: "Перед выставлением счёта проверь данные."
+    source: { kind: authored }
+  - form: "wystawieniem"
+    pl: "Teatr zajął się wystawieniem nowej sztuki."
+    ru: "Театр занялся постановкой новой пьесы."
+    source: { kind: authored }
+  - form: "wystawieniem"
+    pl: "Między zamówieniem a wystawieniem faktury minął tydzień."
+    ru: "Между заказом и выставлением счёта прошла неделя."
+    source: { kind: authored }
+  - form: "wystawieniu"
+    pl: "Po wystawieniu faktury czekali na przelew."
+    ru: "После выставления счёта они ждали перевода."
+    source: { kind: authored }
+  - form: "wystawieniu"
+    pl: "O wystawieniu tej sztuki mówiono od roku."
+    ru: "О постановке этой пьесы говорили год."
+    source: { kind: authored }
+  - form: "wystawieniu"
+    pl: "W wystawieniu zaświadczenia nie ma nic trudnego."
+    ru: "В выдаче справки нет ничего трудного."
+    source: { kind: authored }
+  - form: "wystawili"
+    pl: "Wystawili rachunek na tysiąc złotych."
+    ru: "Они выставили счёт на тысячу злотых."
+    source: { kind: authored }
+  - form: "wystawili"
+    pl: "Wystawili nowe modele na wystawie."
+    ru: "Они выставили новые модели на витрине."
+    source: { kind: authored }
+  - form: "wystawili"
+    pl: "Nie wystawili nikogo do wiatru."
+    ru: "Они никого не подвели."
+    source: { kind: authored }
+  - form: "wystawiliby"
+    pl: "Wystawiliby rachunek, gdyby mieli dane."
+    ru: "Они выставили бы счёт, будь у них данные."
+    source: { kind: authored }
+  - form: "wystawiliby"
+    pl: "Bez wniosku nie wystawiliby zaświadczenia."
+    ru: "Без заявления они не выдали бы справку."
+    source: { kind: authored }
+  - form: "wystawiliby"
+    pl: "Nigdy nie wystawiliby nikogo do wiatru."
+    ru: "Они никогда никого не подвели бы."
+    source: { kind: authored }
+  - form: "wystawilibyście"
+    pl: "Wystawilibyście rachunek dziś czy jutro?"
+    ru: "Вы выставили бы счёт сегодня или завтра?"
+    source: { kind: authored }
+  - form: "wystawilibyście"
+    pl: "Czy wystawilibyście komuś takie zaświadczenie?"
+    ru: "Вы выдали бы кому-то такую справку?"
+    source: { kind: authored }
+  - form: "wystawilibyście"
+    pl: "Nie wystawilibyście nas do wiatru, prawda?"
+    ru: "Вы же нас не подвели бы?"
+    source: { kind: authored }
+  - form: "wystawilibyśmy"
+    pl: "Wystawilibyśmy rachunek od razu."
+    ru: "Мы выставили бы счёт сразу."
+    source: { kind: authored }
+  - form: "wystawilibyśmy"
+    pl: "Bez wniosku nie wystawilibyśmy zaświadczenia."
+    ru: "Без заявления мы не выдали бы справку."
+    source: { kind: authored }
+  - form: "wystawilibyśmy"
+    pl: "Na waszym miejscu wystawilibyśmy fakturę wcześniej."
+    ru: "На вашем месте мы выписали бы счёт раньше."
+    source: { kind: authored }
+  - form: "wystawiliście"
+    pl: "Wystawiliście już rachunek?"
+    ru: "Вы уже выставили счёт?"
+    source: { kind: authored }
+  - form: "wystawiliście"
+    pl: "Dlaczego wystawiliście kwiaty na mróz?"
+    ru: "Почему вы выставили цветы на мороз?"
+    source: { kind: authored }
+  - form: "wystawiliście"
+    pl: "Chyba wystawiliście nas do wiatru."
+    ru: "Вы, похоже, нас подвели."
+    source: { kind: authored }
+  - form: "wystawiliśmy"
+    pl: "Wystawiliśmy rachunek na koniec miesiąca."
+    ru: "Мы выставили счёт в конце месяца."
+    source: { kind: authored }
+  - form: "wystawiliśmy"
+    pl: "Wystawiliśmy kwiaty na balkon."
+    ru: "Мы выставили цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawiliśmy"
+    pl: "Nikogo nie wystawiliśmy do wiatru."
+    ru: "Мы никого не подвели."
+    source: { kind: authored }
+  - form: "wystawimy"
+    pl: "Wystawimy kwiaty na balkon."
+    ru: "Мы выставим цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawimy"
+    pl: "Wystawimy rachunek na koniec miesiąca."
+    ru: "Мы выставим счёт в конце месяца."
+    source: { kind: authored }
+  - form: "wystawimy"
+    pl: "Nie wystawimy nikogo do wiatru."
+    ru: "Мы никого не подведём."
+    source: { kind: authored }
+  - form: "wystawiona"
+    pl: "Wystawiona na słońce roślina zwiędła."
+    ru: "Выставленное на солнце растение завяло."
+    source: { kind: authored }
+  - form: "wystawiona"
+    pl: "Wystawiona faktura poszła pocztą."
+    ru: "Выставленный счёт ушёл почтой."
+    source: { kind: authored }
+  - form: "wystawiona"
+    pl: "Wystawiona sztuka zebrała dobre recenzje."
+    ru: "Поставленная пьеса собрала хорошие отзывы."
+    source: { kind: authored }
+  - form: "wystawione"
+    pl: "Wystawione przed bramę śmieci zabrano rano."
+    ru: "Выставленный за ворота мусор забрали утром."
+    source: { kind: authored }
+  - form: "wystawione"
+    pl: "Wystawione oceny można jeszcze poprawić."
+    ru: "Выставленные оценки ещё можно исправить."
+    source: { kind: authored }
+  - form: "wystawione"
+    pl: "Wystawione w muzeum obrazy pochodzą z jednej kolekcji."
+    ru: "Выставленные в музее картины из одного собрания."
+    source: { kind: authored }
+  - form: "wystawionego"
+    pl: "Nie ruszaj wystawionego na balkon fikusa."
+    ru: "Не трогай выставленный на балкон фикус."
+    source: { kind: authored }
+  - form: "wystawionego"
+    pl: "Od wystawionego rachunku minął miesiąc."
+    ru: "С выставленного счёта прошёл месяц."
+    source: { kind: authored }
+  - form: "wystawionego"
+    pl: "Nie ma tu nic wystawionego na sprzedaż."
+    ru: "Здесь нет ничего выставленного на продажу."
+    source: { kind: authored }
+  - form: "wystawionej"
+    pl: "Kwota wystawionej faktury była zawyżona."
+    ru: "Сумма выставленного счёта была завышена."
+    source: { kind: authored }
+  - form: "wystawionej"
+    pl: "Nie znam sztuki wystawionej tak szybko."
+    ru: "Я не знаю пьесы, поставленной так быстро."
+    source: { kind: authored }
+  - form: "wystawionej"
+    pl: "Od wystawionej oceny zależy promocja."
+    ru: "От выставленной оценки зависит перевод в следующий класс."
+    source: { kind: authored }
+  - form: "wystawionemu"
+    pl: "Wystawionemu na mróz fikusowi już nic nie pomoże."
+    ru: "Выставленному на мороз фикусу уже ничто не поможет."
+    source: { kind: authored }
+  - form: "wystawionemu"
+    pl: "Dzięki wystawionemu w porę rachunkowi dostali pieniądze."
+    ru: "Благодаря вовремя выставленному счёту они получили деньги."
+    source: { kind: authored }
+  - form: "wystawionemu"
+    pl: "Przyjrzyj się temu wystawionemu w witrynie modelowi."
+    ru: "Присмотрись к этой выставленной в витрине модели."
+    source: { kind: authored }
+  - form: "wystawiono"
+    pl: "Wystawiono nowe modele na wystawie."
+    ru: "Новые модели выставили на витрине."
+    source: { kind: authored }
+  - form: "wystawiono"
+    pl: "Zaświadczenie wystawiono tego samego dnia."
+    ru: "Справку выдали в тот же день."
+    source: { kind: authored }
+  - form: "wystawiono"
+    pl: "Sztukę wystawiono tylko trzy razy."
+    ru: "Пьесу поставили только три раза."
+    source: { kind: authored }
+  - form: "wystawiony"
+    pl: "Wystawiony na mróz fikus zmarzł."
+    ru: "Выставленный на мороз фикус замёрз."
+    source: { kind: authored }
+  - form: "wystawiony"
+    pl: "Wystawiony rachunek opiewał na tysiąc złotych."
+    ru: "Выставленный счёт был на тысячу злотых."
+    source: { kind: authored }
+  - form: "wystawiony"
+    pl: "Wystawiony w witrynie model znikł pierwszego dnia."
+    ru: "Выставленная в витрине модель исчезла в первый день."
+    source: { kind: authored }
+  - form: "wystawionych"
+    pl: "Wśród wystawionych obrazów były dwa fałszywe."
+    ru: "Среди выставленных картин были две поддельные."
+    source: { kind: authored }
+  - form: "wystawionych"
+    pl: "O wystawionych rachunkach mówiono na zebraniu."
+    ru: "О выставленных счетах говорили на собрании."
+    source: { kind: authored }
+  - form: "wystawionych"
+    pl: "Połowa wystawionych modeli to prototypy."
+    ru: "Половина выставленных моделей — прототипы."
+    source: { kind: authored }
+  - form: "wystawionym"
+    pl: "W wystawionym rachunku brakowało jednej pozycji."
+    ru: "В выставленном счёте не хватало одной позиции."
+    source: { kind: authored }
+  - form: "wystawionym"
+    pl: "Wystawionym ocenom nikt nie zaprzeczył."
+    ru: "Выставленные оценки никто не оспорил."
+    source: { kind: authored }
+  - form: "wystawionym"
+    pl: "Mówił o wystawionym obrazie z podziwem."
+    ru: "Он говорил о выставленной картине с восхищением."
+    source: { kind: authored }
+  - form: "wystawionymi"
+    pl: "Między wystawionymi modelami był jeden prototyp."
+    ru: "Среди выставленных моделей был один прототип."
+    source: { kind: authored }
+  - form: "wystawionymi"
+    pl: "Zajmuje się wystawionymi na aukcji obrazami."
+    ru: "Он занимается выставленными на аукцион картинами."
+    source: { kind: authored }
+  - form: "wystawionymi"
+    pl: "Witryna zapełniła się wystawionymi nowościami."
+    ru: "Витрина заполнилась выставленными новинками."
+    source: { kind: authored }
+  - form: "wystawioną"
+    pl: "Zapłacili wystawioną fakturę w terminie."
+    ru: "Они оплатили выставленный счёт в срок."
+    source: { kind: authored }
+  - form: "wystawioną"
+    pl: "Obejrzeli wystawioną sztukę dwa razy."
+    ru: "Они посмотрели поставленную пьесу дважды."
+    source: { kind: authored }
+  - form: "wystawioną"
+    pl: "Uznali tę ocenę za niesłusznie wystawioną."
+    ru: "Эту оценку сочли выставленной несправедливо."
+    source: { kind: authored }
+  - form: "wystawisz"
+    pl: "Wystawisz śmieci przed bramę?"
+    ru: "Выставишь мусор за ворота?"
+    source: { kind: authored }
+  - form: "wystawisz"
+    pl: "Jeśli wystawisz rachunek dziś, zapłacą w piątek."
+    ru: "Если выставишь счёт сегодня, заплатят в пятницу."
+    source: { kind: authored }
+  - form: "wystawisz"
+    pl: "Nie wystawisz go do wiatru, prawda?"
+    ru: "Ты же его не подведёшь?"
+    source: { kind: authored }
+  - form: "wystawiwszy"
+    pl: "Wystawiwszy rachunek, wyszedł z biura."
+    ru: "Выставив счёт, он вышел из конторы."
+    source: { kind: authored }
+  - form: "wystawiwszy"
+    pl: "Wystawiwszy kwiaty na balkon, zamknął okno."
+    ru: "Выставив цветы на балкон, он закрыл окно."
+    source: { kind: authored }
+  - form: "wystawiwszy"
+    pl: "Wystawiwszy sztukę, teatr odetchnął."
+    ru: "Поставив пьесу, театр вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "wystawią"
+    pl: "Wystawią nowe modele w przyszłym tygodniu."
+    ru: "Новые модели выставят на следующей неделе."
+    source: { kind: authored }
+  - form: "wystawią"
+    pl: "Wystawią zaświadczenie od ręki."
+    ru: "Справку выдадут сразу."
+    source: { kind: authored }
+  - form: "wystawią"
+    pl: "Nie wystawią nikogo do wiatru."
+    ru: "Они никого не подведут."
+    source: { kind: authored }
+  - form: "wystawić"
+    pl: "Trzeba wystawić śmieci przed bramę."
+    ru: "Надо выставить мусор за ворота."
+    source: { kind: authored }
+  - form: "wystawić"
+    pl: "Chcieli wystawić nową sztukę jesienią."
+    ru: "Они хотели поставить новую пьесу осенью."
+    source: { kind: authored }
+  - form: "wystawić"
+    pl: "Nie zdążył wystawić rachunku przed końcem miesiąca."
+    ru: "Он не успел выставить счёт до конца месяца."
+    source: { kind: authored }
+  - form: "wystawię"
+    pl: "Wystawię kwiaty na balkon."
+    ru: "Я выставлю цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawię"
+    pl: "Wystawię ci rachunek jutro."
+    ru: "Я выставлю тебе счёт завтра."
+    source: { kind: authored }
+  - form: "wystawię"
+    pl: "Nie wystawię nikogo do wiatru."
+    ru: "Я никого не подведу."
+    source: { kind: authored }
+  - form: "wystawił"
+    pl: "Wystawił kwiaty na balkon."
+    ru: "Он выставил цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawił"
+    pl: "Wystawił nas do wiatru i nie przyszedł."
+    ru: "Он нас подвёл и не пришёл."
+    source: { kind: authored }
+  - form: "wystawił"
+    pl: "Wystawił rachunek na tysiąc złotych."
+    ru: "Он выставил счёт на тысячу злотых."
+    source: { kind: authored }
+  - form: "wystawiła"
+    pl: "Wystawiła doniczki na parapet."
+    ru: "Она выставила горшки на подоконник."
+    source: { kind: authored }
+  - form: "wystawiła"
+    pl: "Wystawiła zaświadczenie od ręki."
+    ru: "Она выдала справку сразу."
+    source: { kind: authored }
+  - form: "wystawiła"
+    pl: "Wystawiła nas do wiatru po raz drugi."
+    ru: "Она подвела нас во второй раз."
+    source: { kind: authored }
+  - form: "wystawiłaby"
+    pl: "Wystawiłaby rachunek, gdyby miała dane."
+    ru: "Она выставила бы счёт, будь у неё данные."
+    source: { kind: authored }
+  - form: "wystawiłaby"
+    pl: "Bez wniosku nie wystawiłaby zaświadczenia."
+    ru: "Без заявления она не выдала бы справку."
+    source: { kind: authored }
+  - form: "wystawiłaby"
+    pl: "Nigdy nie wystawiłaby nikogo do wiatru."
+    ru: "Она никогда никого не подвела бы."
+    source: { kind: authored }
+  - form: "wystawiłabym"
+    pl: "Wystawiłabym rachunek od razu."
+    ru: "Я выставила бы счёт сразу."
+    source: { kind: authored }
+  - form: "wystawiłabym"
+    pl: "Na jej miejscu nie wystawiłabym kwiatów na mróz."
+    ru: "На её месте я не выставляла бы цветы на мороз."
+    source: { kind: authored }
+  - form: "wystawiłabym"
+    pl: "Nigdy nie wystawiłabym nikogo do wiatru."
+    ru: "Я никогда никого не подвела бы."
+    source: { kind: authored }
+  - form: "wystawiłabyś"
+    pl: "Wystawiłabyś rachunek dziś czy jutro?"
+    ru: "Ты выставила бы счёт сегодня или завтра?"
+    source: { kind: authored }
+  - form: "wystawiłabyś"
+    pl: "Czy wystawiłabyś komuś takie zaświadczenie?"
+    ru: "Ты выдала бы кому-то такую справку?"
+    source: { kind: authored }
+  - form: "wystawiłabyś"
+    pl: "Nie wystawiłabyś nas do wiatru, prawda?"
+    ru: "Ты же нас не подвела бы?"
+    source: { kind: authored }
+  - form: "wystawiłam"
+    pl: "Wystawiłam kwiaty na balkon."
+    ru: "Я выставила цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawiłam"
+    pl: "Wystawiłam rachunek wczoraj."
+    ru: "Я выставила счёт вчера."
+    source: { kind: authored }
+  - form: "wystawiłam"
+    pl: "Nikogo nie wystawiłam do wiatru."
+    ru: "Я никого не подвела."
+    source: { kind: authored }
+  - form: "wystawiłaś"
+    pl: "Wystawiłaś już rachunek?"
+    ru: "Ты уже выставила счёт?"
+    source: { kind: authored }
+  - form: "wystawiłaś"
+    pl: "Dlaczego wystawiłaś kwiaty na mróz?"
+    ru: "Почему ты выставила цветы на мороз?"
+    source: { kind: authored }
+  - form: "wystawiłaś"
+    pl: "Chyba wystawiłaś nas do wiatru."
+    ru: "Ты, похоже, нас подвела."
+    source: { kind: authored }
+  - form: "wystawiłby"
+    pl: "Wystawiłby rachunek, gdyby miał dane."
+    ru: "Он выставил бы счёт, будь у него данные."
+    source: { kind: authored }
+  - form: "wystawiłby"
+    pl: "Bez wniosku nie wystawiłby zaświadczenia."
+    ru: "Без заявления он не выдал бы справку."
+    source: { kind: authored }
+  - form: "wystawiłby"
+    pl: "Nigdy nie wystawiłby nikogo do wiatru."
+    ru: "Он никогда никого не подвёл бы."
+    source: { kind: authored }
+  - form: "wystawiłbym"
+    pl: "Wystawiłbym rachunek od razu."
+    ru: "Я выставил бы счёт сразу."
+    source: { kind: authored }
+  - form: "wystawiłbym"
+    pl: "Na twoim miejscu nie wystawiłbym kwiatów na mróz."
+    ru: "На твоём месте я не выставлял бы цветы на мороз."
+    source: { kind: authored }
+  - form: "wystawiłbym"
+    pl: "Nigdy nie wystawiłbym nikogo do wiatru."
+    ru: "Я никогда никого не подвёл бы."
+    source: { kind: authored }
+  - form: "wystawiłbyś"
+    pl: "Wystawiłbyś rachunek dziś czy jutro?"
+    ru: "Ты выставил бы счёт сегодня или завтра?"
+    source: { kind: authored }
+  - form: "wystawiłbyś"
+    pl: "Czy wystawiłbyś komuś takie zaświadczenie?"
+    ru: "Ты выдал бы кому-то такую справку?"
+    source: { kind: authored }
+  - form: "wystawiłbyś"
+    pl: "Nie wystawiłbyś nas do wiatru, prawda?"
+    ru: "Ты же нас не подвёл бы?"
+    source: { kind: authored }
+  - form: "wystawiłem"
+    pl: "Wystawiłem kwiaty na balkon."
+    ru: "Я выставил цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawiłem"
+    pl: "Wystawiłem rachunek wczoraj."
+    ru: "Я выставил счёт вчера."
+    source: { kind: authored }
+  - form: "wystawiłem"
+    pl: "Nikogo nie wystawiłem do wiatru."
+    ru: "Я никого не подвёл."
+    source: { kind: authored }
+  - form: "wystawiłeś"
+    pl: "Wystawiłeś już rachunek?"
+    ru: "Ты уже выставил счёт?"
+    source: { kind: authored }
+  - form: "wystawiłeś"
+    pl: "Dlaczego wystawiłeś kwiaty na mróz?"
+    ru: "Почему ты выставил цветы на мороз?"
+    source: { kind: authored }
+  - form: "wystawiłeś"
+    pl: "Chyba wystawiłeś nas do wiatru."
+    ru: "Ты, похоже, нас подвёл."
+    source: { kind: authored }
+  - form: "wystawiło"
+    pl: "Biuro wystawiło zaświadczenie w dwa dni."
+    ru: "Контора выдала справку за два дня."
+    source: { kind: authored }
+  - form: "wystawiło"
+    pl: "Dziecko wystawiło buty za drzwi."
+    ru: "Ребёнок выставил ботинки за дверь."
+    source: { kind: authored }
+  - form: "wystawiło"
+    pl: "Muzeum wystawiło obraz po raz pierwszy."
+    ru: "Музей выставил картину впервые."
+    source: { kind: authored }
+  - form: "wystawiłoby"
+    pl: "Biuro wystawiłoby zaświadczenie w jeden dzień."
+    ru: "Контора выдала бы справку за один день."
+    source: { kind: authored }
+  - form: "wystawiłoby"
+    pl: "Muzeum wystawiłoby ten obraz chętnie."
+    ru: "Музей охотно выставил бы эту картину."
+    source: { kind: authored }
+  - form: "wystawiłoby"
+    pl: "Żadne z nich nie wystawiłoby nas do wiatru."
+    ru: "Ни один из них не подвёл бы нас."
+    source: { kind: authored }
+  - form: "wystawiły"
+    pl: "Obie firmy wystawiły faktury tego samego dnia."
+    ru: "Обе фирмы выписали счета в тот же день."
+    source: { kind: authored }
+  - form: "wystawiły"
+    pl: "Szkoły wystawiły oceny przed świętami."
+    ru: "Школы выставили оценки перед праздниками."
+    source: { kind: authored }
+  - form: "wystawiły"
+    pl: "Teatry wystawiły tę sztukę w jednym sezonie."
+    ru: "Театры поставили эту пьесу в один сезон."
+    source: { kind: authored }
+  - form: "wystawiłyby"
+    pl: "Obie firmy wystawiłyby faktury tego samego dnia."
+    ru: "Обе фирмы выписали бы счета в тот же день."
+    source: { kind: authored }
+  - form: "wystawiłyby"
+    pl: "Szkoły wystawiłyby oceny przed świętami."
+    ru: "Школы выставили бы оценки перед праздниками."
+    source: { kind: authored }
+  - form: "wystawiłyby"
+    pl: "Bez wniosku nie wystawiłyby zaświadczenia."
+    ru: "Без заявления они не выдали бы справку."
+    source: { kind: authored }
+  - form: "wystawiłybyście"
+    pl: "Wystawiłybyście rachunek dziś czy jutro?"
+    ru: "Вы выставили бы счёт сегодня или завтра?"
+    source: { kind: authored }
+  - form: "wystawiłybyście"
+    pl: "Czy wystawiłybyście komuś takie zaświadczenie?"
+    ru: "Вы выдали бы кому-то такую справку?"
+    source: { kind: authored }
+  - form: "wystawiłybyście"
+    pl: "Nie wystawiłybyście nas do wiatru, prawda?"
+    ru: "Вы же нас не подвели бы?"
+    source: { kind: authored }
+  - form: "wystawiłybyśmy"
+    pl: "Wystawiłybyśmy rachunek od razu."
+    ru: "Мы выставили бы счёт сразу."
+    source: { kind: authored }
+  - form: "wystawiłybyśmy"
+    pl: "Bez wniosku nie wystawiłybyśmy zaświadczenia."
+    ru: "Без заявления мы не выдали бы справку."
+    source: { kind: authored }
+  - form: "wystawiłybyśmy"
+    pl: "Na waszym miejscu wystawiłybyśmy fakturę wcześniej."
+    ru: "На вашем месте мы выписали бы счёт раньше."
+    source: { kind: authored }
+  - form: "wystawiłyście"
+    pl: "Wystawiłyście już rachunek?"
+    ru: "Вы уже выставили счёт?"
+    source: { kind: authored }
+  - form: "wystawiłyście"
+    pl: "Dlaczego wystawiłyście kwiaty na mróz?"
+    ru: "Почему вы выставили цветы на мороз?"
+    source: { kind: authored }
+  - form: "wystawiłyście"
+    pl: "Chyba wystawiłyście nas do wiatru."
+    ru: "Вы, похоже, нас подвели."
+    source: { kind: authored }
+  - form: "wystawiłyśmy"
+    pl: "Wystawiłyśmy rachunek na koniec miesiąca."
+    ru: "Мы выставили счёт в конце месяца."
+    source: { kind: authored }
+  - form: "wystawiłyśmy"
+    pl: "Wystawiłyśmy kwiaty na balkon."
+    ru: "Мы выставили цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawiłyśmy"
+    pl: "Nikogo nie wystawiłyśmy do wiatru."
+    ru: "Мы никого не подвели."
+    source: { kind: authored }
+  - form: "wystawmy"
+    pl: "Wystawmy kwiaty na balkon."
+    ru: "Выставим цветы на балкон."
+    source: { kind: authored }
+  - form: "wystawmy"
+    pl: "Wystawmy rachunek jeszcze dziś."
+    ru: "Выставим счёт ещё сегодня."
+    source: { kind: authored }
+  - form: "wystawmy"
+    pl: "Nie wystawmy nikogo do wiatru."
+    ru: "Не подведём никого."
+    source: { kind: authored }
