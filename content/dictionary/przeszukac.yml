@@ -1,0 +1,693 @@
+# review
+id: przeszukac
+format: 2
+lemma: "przeszukać"
+rank: 1777
+pos: verb
+pron: { cyr: "пшэшу́каць" }
+senses:
+  - id: search
+    ru: "обыскать, перерыть (помещение, вещи)"
+    examples:
+      - pl: "Przeszukał całe mieszkanie i nic nie znalazł."
+        ru: "Он обыскал всю квартиру и ничего не нашёл."
+        source: { kind: authored }
+      - pl: "Mieszkanie przeszukano o świcie."
+        ru: "Квартиру обыскали на рассвете."
+        source: { kind: authored }
+      - pl: "Przeszukani pasażerowie wrócili do kolejki."
+        ru: "Обысканные пассажиры вернулись в очередь."
+        source: { kind: authored }
+  - id: search-person
+    ru: "обыскать (человека)"
+    examples:
+      - pl: "Ochrona przeszuka każdą torbę."
+        ru: "Охрана обыщет каждую сумку."
+        source: { kind: authored }
+      - pl: "Przeszukano nas przy wejściu."
+        ru: "Нас обыскали при входе."
+        source: { kind: authored }
+  - id: search-noun
+    ru: "przeszukanie — обыск"
+    examples:
+      - pl: "Przeszukanie bez nakazu jest nielegalne."
+        ru: "Обыск без ордера незаконен."
+        source: { kind: authored }
+      - pl: "Do przeszukania mieszkania potrzebny jest nakaz."
+        ru: "Для обыска квартиры нужен ордер."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "ВАЖНОЕ наблюдение: приставка меняет падеж. Простое szukać требует РОДИТЕЛЬНОГО — szukam pracy, szukam kluczy «ищу работу, ищу ключи». А приставочное przeszukać требует ВИНИТЕЛЬНОГО — przeszukał mieszkanie, przeszukali bagaże. Два родственных глагола, два разных управления, и перенести одно на другое нельзя." }
+  - { kind: false-friend, text: "Корень szukać прозрачного соответствия в литературном русском не имеет: там на это значение взято «искать». Родственник есть, но областной — «шукать», и украинское «шукати»; опираться на него в речи не стоит, хотя узнать слово он помогает. Приставка prze- здесь значит «насквозь, по всему»: перерыть всё от начала до конца." }
+  - { kind: usage, text: "Отглагольное существительное przeszukanie — юридический термин, отвечающий русскому «обыску»: przeszukanie z nakazem, przeszukanie mieszkania. Несовершенная пара — przeszukiwać, и она обычна о длительном поиске: przeszukiwali las całą noc." }
+  - { kind: pronunciation, text: "ТРЕТИЙ образец страдательного причастия, и теперь можно вывести правило. Глаголы на -ać дают -any, а в мужско-личном множественном -ani: zbadany — zbadani, przeszukany — przeszukani. Глаголы на -ić/-yć дают -ony и -eni (zatrudniony — zatrudnieni, odrzucony — odrzuceni). Небольшая группа даёт -ty и -ci (pobity — pobici). Класс причастия предсказуем по инфинитиву, так что заучивать его отдельно для каждого глагола не нужно." }
+collocations:
+  - { pl: "przeszukać mieszkanie", ru: "обыскать квартиру" }
+  - { pl: "przeszukanie z nakazem", ru: "обыск с ордером" }
+  - { pl: "przeszukać kieszenie", ru: "обшарить карманы" }
+family:
+  - { pl: "szukać", ru: "искать", relation: root, id: szukac }
+  - { pl: "przeszukiwać", ru: "обыскивать", relation: aspect }
+  - { pl: "poszukiwać", ru: "разыскивать", relation: derived }
+etymology: "Приставка prze- плюс szukać «искать», праславянское *šukati. В литературном русском этого корня нет — там «искать», — но областное «шукать» и украинское «шукати» идут от того же слова. Приставка prze- даёт значение «насквозь, по всему», отсюда «перерыть всё»; та же приставка в przeczytać «прочитать» и przejść «пройти»."
+memory: "przeszukać — «обыскать», prze- + szukać «искать» (ср. областное «шукать»). Главное о падеже: szukać берёт родительный (szukam kluczy), а przeszukać — винительный (przeszukał mieszkanie). Причастие przeszukany, множественное przeszukani."
+idioms:
+  - { pl: "przeszukanie z nakazem", ru: "обыск с ордером" }
+  - { pl: "przeszukać wszystkie kąty", ru: "обшарить все углы" }
+formExamples:
+  - form: "przeszuka"
+    pl: "Policja przeszuka mieszkanie o świcie."
+    ru: "Полиция обыщет квартиру на рассвете."
+    source: { kind: authored }
+  - form: "przeszuka"
+    pl: "Nikt nie przeszuka tego lasu w dzień."
+    ru: "Никто не обыщет этот лес за день."
+    source: { kind: authored }
+  - form: "przeszuka"
+    pl: "Ochrona przeszuka każdą torbę."
+    ru: "Охрана обыщет каждую сумку."
+    source: { kind: authored }
+  - form: "przeszukacie"
+    pl: "Przeszukacie strych?"
+    ru: "Вы обыщете чердак?"
+    source: { kind: authored }
+  - form: "przeszukacie"
+    pl: "Jeśli przeszukacie szuflady, znajdziecie listy."
+    ru: "Если переройте ящики, найдёте письма."
+    source: { kind: authored }
+  - form: "przeszukacie"
+    pl: "Czy przeszukacie cały budynek?"
+    ru: "Вы обыщете всё здание?"
+    source: { kind: authored }
+  - form: "przeszukaj"
+    pl: "Przeszukaj kieszenie."
+    ru: "Обшарь карманы."
+    source: { kind: authored }
+  - form: "przeszukaj"
+    pl: "Przeszukaj dokładnie całą szafę."
+    ru: "Обыщи тщательно весь шкаф."
+    source: { kind: authored }
+  - form: "przeszukaj"
+    pl: "Przeszukaj strych, może tam leży."
+    ru: "Обыщи чердак, может, там лежит."
+    source: { kind: authored }
+  - form: "przeszukajcie"
+    pl: "Przeszukajcie wszystkie pokoje."
+    ru: "Обыщите все комнаты."
+    source: { kind: authored }
+  - form: "przeszukajcie"
+    pl: "Przeszukajcie bagaże przed odlotem."
+    ru: "Обыщите багаж перед вылетом."
+    source: { kind: authored }
+  - form: "przeszukajcie"
+    pl: "Przeszukajcie strych i piwnicę."
+    ru: "Обыщите чердак и подвал."
+    source: { kind: authored }
+  - form: "przeszukajmy"
+    pl: "Przeszukajmy mieszkanie razem."
+    ru: "Обыщем квартиру вместе."
+    source: { kind: authored }
+  - form: "przeszukajmy"
+    pl: "Przeszukajmy najpierw szuflady."
+    ru: "Переройем сначала ящики."
+    source: { kind: authored }
+  - form: "przeszukajmy"
+    pl: "Przeszukajmy teren przed nocą."
+    ru: "Обыщем местность до ночи."
+    source: { kind: authored }
+  - form: "przeszukają"
+    pl: "Przeszukają mieszkanie o świcie."
+    ru: "Квартиру обыщут на рассвете."
+    source: { kind: authored }
+  - form: "przeszukają"
+    pl: "Bez nakazu nikogo nie przeszukają."
+    ru: "Без ордера никого не обыщут."
+    source: { kind: authored }
+  - form: "przeszukają"
+    pl: "Celnicy przeszukają bagaże."
+    ru: "Таможенники обыщут багаж."
+    source: { kind: authored }
+  - form: "przeszukali"
+    pl: "Przeszukali mieszkanie bez nakazu."
+    ru: "Они обыскали квартиру без ордера."
+    source: { kind: authored }
+  - form: "przeszukali"
+    pl: "Przeszukali cały strych."
+    ru: "Они обыскали весь чердак."
+    source: { kind: authored }
+  - form: "przeszukali"
+    pl: "Celnicy przeszukali nasze bagaże."
+    ru: "Таможенники обыскали наш багаж."
+    source: { kind: authored }
+  - form: "przeszukaliby"
+    pl: "Przeszukaliby teren, gdyby mieli ludzi."
+    ru: "Они обыскали бы местность, будь у них люди."
+    source: { kind: authored }
+  - form: "przeszukaliby"
+    pl: "Bez nakazu nie przeszukaliby mieszkania."
+    ru: "Без ордера они квартиру не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukaliby"
+    pl: "Chętnie przeszukaliby strych."
+    ru: "Они охотно обыскали бы чердак."
+    source: { kind: authored }
+  - form: "przeszukalibyście"
+    pl: "Przeszukalibyście ten strych?"
+    ru: "Вы обыскали бы этот чердак?"
+    source: { kind: authored }
+  - form: "przeszukalibyście"
+    pl: "Czy przeszukalibyście cały budynek?"
+    ru: "Вы обыскали бы всё здание?"
+    source: { kind: authored }
+  - form: "przeszukalibyście"
+    pl: "Bez nakazu nie przeszukalibyście mieszkania."
+    ru: "Без ордера вы квартиру не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukalibyśmy"
+    pl: "Przeszukalibyśmy teren przed nocą."
+    ru: "Мы обыскали бы местность до ночи."
+    source: { kind: authored }
+  - form: "przeszukalibyśmy"
+    pl: "Bez nakazu nie przeszukalibyśmy mieszkania."
+    ru: "Без ордера мы квартиру не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukalibyśmy"
+    pl: "Chętnie przeszukalibyśmy strych."
+    ru: "Мы охотно обыскали бы чердак."
+    source: { kind: authored }
+  - form: "przeszukaliście"
+    pl: "Przeszukaliście już strych?"
+    ru: "Вы уже обыскали чердак?"
+    source: { kind: authored }
+  - form: "przeszukaliście"
+    pl: "Dlaczego nie przeszukaliście samochodu?"
+    ru: "Почему вы не обыскали машину?"
+    source: { kind: authored }
+  - form: "przeszukaliście"
+    pl: "Czy przeszukaliście cały budynek?"
+    ru: "Вы обыскали всё здание?"
+    source: { kind: authored }
+  - form: "przeszukaliśmy"
+    pl: "Przeszukaliśmy cały dom."
+    ru: "Мы обыскали весь дом."
+    source: { kind: authored }
+  - form: "przeszukaliśmy"
+    pl: "Przeszukaliśmy teren przed nocą."
+    ru: "Мы обыскали местность до ночи."
+    source: { kind: authored }
+  - form: "przeszukaliśmy"
+    pl: "Strychu nie przeszukaliśmy."
+    ru: "Чердак мы не обыскали."
+    source: { kind: authored }
+  - form: "przeszukam"
+    pl: "Przeszukam szuflady."
+    ru: "Я перерою ящики."
+    source: { kind: authored }
+  - form: "przeszukam"
+    pl: "Jutro przeszukam strych."
+    ru: "Завтра я обыщу чердак."
+    source: { kind: authored }
+  - form: "przeszukam"
+    pl: "Bez nakazu nie przeszukam nikogo."
+    ru: "Без ордера я никого не обыщу."
+    source: { kind: authored }
+  - form: "przeszukamy"
+    pl: "Przeszukamy teren przed zmrokiem."
+    ru: "Мы обыщем местность до темноты."
+    source: { kind: authored }
+  - form: "przeszukamy"
+    pl: "Jeśli przeszukamy wszystko, znajdziemy klucze."
+    ru: "Если обыщем всё, найдём ключи."
+    source: { kind: authored }
+  - form: "przeszukamy"
+    pl: "Bez nakazu nie przeszukamy mieszkania."
+    ru: "Без ордера мы квартиру не обыщем."
+    source: { kind: authored }
+  - form: "przeszukana"
+    pl: "Przeszukana torebka leżała na stole."
+    ru: "Перерытая сумочка лежала на столе."
+    source: { kind: authored }
+  - form: "przeszukana"
+    pl: "Szafa była przeszukana do dna."
+    ru: "Шкаф был перерыт до дна."
+    source: { kind: authored }
+  - form: "przeszukana"
+    pl: "Przeszukana piwnica okazała się pusta."
+    ru: "Обысканный подвал оказался пустым."
+    source: { kind: authored }
+  - form: "przeszukane"
+    pl: "Przeszukane pokoje zostały zamknięte."
+    ru: "Обысканные комнаты закрыли."
+    source: { kind: authored }
+  - form: "przeszukane"
+    pl: "Wszystkie bagaże są już przeszukane."
+    ru: "Весь багаж уже обыскан."
+    source: { kind: authored }
+  - form: "przeszukane"
+    pl: "Przeszukane szuflady zostawiono otwarte."
+    ru: "Перерытые ящики оставили открытыми."
+    source: { kind: authored }
+  - form: "przeszukanego"
+    pl: "Z przeszukanego mieszkania nic nie zginęło."
+    ru: "Из обысканной квартиры ничего не пропало."
+    source: { kind: authored }
+  - form: "przeszukanego"
+    pl: "Nie znam tego przeszukanego wczoraj domu."
+    ru: "Я не знаю этот обысканный вчера дом."
+    source: { kind: authored }
+  - form: "przeszukanego"
+    pl: "Zawartość przeszukanego bagażu spisano."
+    ru: "Содержимое обысканного багажа описали."
+    source: { kind: authored }
+  - form: "przeszukanej"
+    pl: "Z przeszukanej torebki nic nie zginęło."
+    ru: "Из перерытой сумочки ничего не пропало."
+    source: { kind: authored }
+  - form: "przeszukanej"
+    pl: "Zawartość przeszukanej szafy spisano."
+    ru: "Содержимое обысканного шкафа описали."
+    source: { kind: authored }
+  - form: "przeszukanej"
+    pl: "Nie znam tej przeszukanej piwnicy."
+    ru: "Я не знаю этот обысканный подвал."
+    source: { kind: authored }
+  - form: "przeszukanemu"
+    pl: "Przeszukanemu mieszkaniu przydałby się remont."
+    ru: "Обысканной квартире пригодился бы ремонт."
+    source: { kind: authored }
+  - form: "przeszukanemu"
+    pl: "Dzięki przeszukanemu strychowi znaleźli listy."
+    ru: "Благодаря обысканному чердаку они нашли письма."
+    source: { kind: authored }
+  - form: "przeszukanemu"
+    pl: "Przyjrzyj się temu przeszukanemu biurku."
+    ru: "Присмотрись к этому перерытому столу."
+    source: { kind: authored }
+  - form: "przeszukani"
+    pl: "Przeszukani pasażerowie wrócili do kolejki."
+    ru: "Обысканные пассажиры вернулись в очередь."
+    source: { kind: authored }
+  - form: "przeszukani"
+    pl: "Byliśmy przeszukani przy samym wejściu."
+    ru: "Нас обыскали у самого входа."
+    source: { kind: authored }
+  - form: "przeszukani"
+    pl: "Przeszukani przez ochronę kibice weszli na stadion."
+    ru: "Обысканные охраной болельщики вошли на стадион."
+    source: { kind: authored }
+  - form: "przeszukania"
+    pl: "Do przeszukania mieszkania potrzebny jest nakaz."
+    ru: "Для обыска квартиры нужен ордер."
+    source: { kind: authored }
+  - form: "przeszukania"
+    pl: "Bez przeszukania bagaży nikogo nie wpuszczą."
+    ru: "Без обыска багажа никого не впустят."
+    source: { kind: authored }
+  - form: "przeszukania"
+    pl: "Od przeszukania minął tydzień."
+    ru: "С обыска прошла неделя."
+    source: { kind: authored }
+  - form: "przeszukanie"
+    pl: "Przeszukanie mieszkania trwało trzy godziny."
+    ru: "Обыск квартиры длился три часа."
+    source: { kind: authored }
+  - form: "przeszukanie"
+    pl: "Przeszukanie bez nakazu jest nielegalne."
+    ru: "Обыск без ордера незаконен."
+    source: { kind: authored }
+  - form: "przeszukanie"
+    pl: "Przeszukanie bagaży opóźniło odlot."
+    ru: "Обыск багажа задержал вылет."
+    source: { kind: authored }
+  - form: "przeszukaniem"
+    pl: "Przed przeszukaniem okazano nakaz."
+    ru: "Перед обыском предъявили ордер."
+    source: { kind: authored }
+  - form: "przeszukaniem"
+    pl: "Sprawa skończyła się przeszukaniem całego budynku."
+    ru: "Дело кончилось обыском всего здания."
+    source: { kind: authored }
+  - form: "przeszukaniem"
+    pl: "Między przeszukaniem a aresztem minęła godzina."
+    ru: "Между обыском и арестом прошёл час."
+    source: { kind: authored }
+  - form: "przeszukaniu"
+    pl: "Po przeszukaniu mieszkania zabrali komputer."
+    ru: "После обыска квартиры они забрали компьютер."
+    source: { kind: authored }
+  - form: "przeszukaniu"
+    pl: "Mówiono o przeszukaniu bez nakazu."
+    ru: "Говорили об обыске без ордера."
+    source: { kind: authored }
+  - form: "przeszukaniu"
+    pl: "W przeszukaniu bagażu nie ma nic nadzwyczajnego."
+    ru: "В обыске багажа нет ничего необычного."
+    source: { kind: authored }
+  - form: "przeszukano"
+    pl: "Mieszkanie przeszukano o świcie."
+    ru: "Квартиру обыскали на рассвете."
+    source: { kind: authored }
+  - form: "przeszukano"
+    pl: "Przeszukano wszystkie bagaże."
+    ru: "Обыскали весь багаж."
+    source: { kind: authored }
+  - form: "przeszukano"
+    pl: "Przeszukano nas przy wejściu."
+    ru: "Нас обыскали при входе."
+    source: { kind: authored }
+  - form: "przeszukany"
+    pl: "Przeszukany dom wyglądał jak po burzy."
+    ru: "Обысканный дом выглядел как после бури."
+    source: { kind: authored }
+  - form: "przeszukany"
+    pl: "Bagaż przeszukany na lotnisku był otwarty."
+    ru: "Обысканный в аэропорту багаж был открыт."
+    source: { kind: authored }
+  - form: "przeszukany"
+    pl: "Czuł się przeszukany i upokorzony."
+    ru: "Он чувствовал себя обысканным и униженным."
+    source: { kind: authored }
+  - form: "przeszukanych"
+    pl: "Liczba przeszukanych mieszkań rośnie."
+    ru: "Число обысканных квартир растёт."
+    source: { kind: authored }
+  - form: "przeszukanych"
+    pl: "O przeszukanych pasażerach nikt nie pamięta."
+    ru: "Об обысканных пассажирах никто не помнит."
+    source: { kind: authored }
+  - form: "przeszukanych"
+    pl: "Połowa przeszukanych bagaży była pusta."
+    ru: "Половина обысканного багажа была пустой."
+    source: { kind: authored }
+  - form: "przeszukanym"
+    pl: "W przeszukanym mieszkaniu panował bałagan."
+    ru: "В обысканной квартире царил беспорядок."
+    source: { kind: authored }
+  - form: "przeszukanym"
+    pl: "Przeszukanym pasażerom oddano bagaże."
+    ru: "Обысканным пассажирам вернули багаж."
+    source: { kind: authored }
+  - form: "przeszukanym"
+    pl: "Mówił o przeszukanym domu z goryczą."
+    ru: "Он говорил об обысканном доме с горечью."
+    source: { kind: authored }
+  - form: "przeszukanymi"
+    pl: "Między przeszukanymi bagażami był jeden cudzy."
+    ru: "Среди обысканного багажа был один чужой."
+    source: { kind: authored }
+  - form: "przeszukanymi"
+    pl: "Zajmował się przeszukanymi już aktami."
+    ru: "Он занимался уже перерытыми материалами."
+    source: { kind: authored }
+  - form: "przeszukanymi"
+    pl: "Wrócił z przeszukanymi kieszeniami."
+    ru: "Он вернулся с обшаренными карманами."
+    source: { kind: authored }
+  - form: "przeszukaną"
+    pl: "Oddali przeszukaną torbę właścicielce."
+    ru: "Они вернули обысканную сумку владелице."
+    source: { kind: authored }
+  - form: "przeszukaną"
+    pl: "Uznano szafę za przeszukaną."
+    ru: "Шкаф признали обысканным."
+    source: { kind: authored }
+  - form: "przeszukaną"
+    pl: "Zamknął przeszukaną szufladę."
+    ru: "Он закрыл перерытый ящик."
+    source: { kind: authored }
+  - form: "przeszukasz"
+    pl: "Przeszukasz jego kieszenie?"
+    ru: "Ты обшаришь его карманы?"
+    source: { kind: authored }
+  - form: "przeszukasz"
+    pl: "Jeśli przeszukasz dom, znajdziesz dokumenty."
+    ru: "Если обыщешь дом, найдёшь документы."
+    source: { kind: authored }
+  - form: "przeszukasz"
+    pl: "Czy przeszukasz cały strych?"
+    ru: "Ты обыщешь весь чердак?"
+    source: { kind: authored }
+  - form: "przeszukawszy"
+    pl: "Przeszukawszy mieszkanie, wyszli bez słowa."
+    ru: "Обыскав квартиру, они вышли без слова."
+    source: { kind: authored }
+  - form: "przeszukawszy"
+    pl: "Przeszukawszy kieszenie, znalazł klucz."
+    ru: "Обшарив карманы, он нашёл ключ."
+    source: { kind: authored }
+  - form: "przeszukawszy"
+    pl: "Przeszukawszy teren, wrócili do bazy."
+    ru: "Обыскав местность, они вернулись на базу."
+    source: { kind: authored }
+  - form: "przeszukać"
+    pl: "Trzeba przeszukać całe mieszkanie."
+    ru: "Надо обыскать всю квартиру."
+    source: { kind: authored }
+  - form: "przeszukać"
+    pl: "Chcieli przeszukać samochód."
+    ru: "Они хотели обыскать машину."
+    source: { kind: authored }
+  - form: "przeszukać"
+    pl: "Trudno przeszukać taki las w jeden dzień."
+    ru: "Трудно обыскать такой лес за один день."
+    source: { kind: authored }
+  - form: "przeszukał"
+    pl: "Przeszukał całe mieszkanie i nic nie znalazł."
+    ru: "Он обыскал всю квартиру и ничего не нашёл."
+    source: { kind: authored }
+  - form: "przeszukał"
+    pl: "Celnik przeszukał walizkę."
+    ru: "Таможенник обыскал чемодан."
+    source: { kind: authored }
+  - form: "przeszukał"
+    pl: "Przeszukał kieszenie płaszcza."
+    ru: "Он обшарил карманы пальто."
+    source: { kind: authored }
+  - form: "przeszukała"
+    pl: "Przeszukała wszystkie szuflady."
+    ru: "Она перерыла все ящики."
+    source: { kind: authored }
+  - form: "przeszukała"
+    pl: "Policja przeszukała dom o świcie."
+    ru: "Полиция обыскала дом на рассвете."
+    source: { kind: authored }
+  - form: "przeszukała"
+    pl: "Przeszukała torebkę w poszukiwaniu kluczy."
+    ru: "Она перерыла сумочку в поисках ключей."
+    source: { kind: authored }
+  - form: "przeszukałaby"
+    pl: "Przeszukałaby wszystkie szuflady."
+    ru: "Она перерыла бы все ящики."
+    source: { kind: authored }
+  - form: "przeszukałaby"
+    pl: "Bez nakazu nie przeszukałaby mieszkania."
+    ru: "Без ордера она квартиру не обыскала бы."
+    source: { kind: authored }
+  - form: "przeszukałaby"
+    pl: "Chętnie przeszukałaby torebkę."
+    ru: "Она охотно перерыла бы сумочку."
+    source: { kind: authored }
+  - form: "przeszukałabym"
+    pl: "Przeszukałabym najpierw szuflady."
+    ru: "Я перерыла бы сначала ящики."
+    source: { kind: authored }
+  - form: "przeszukałabym"
+    pl: "Na jej miejscu przeszukałabym torebkę."
+    ru: "На её месте я перерыла бы сумочку."
+    source: { kind: authored }
+  - form: "przeszukałabym"
+    pl: "Bez nakazu nie przeszukałabym domu."
+    ru: "Без ордера я дом не обыскала бы."
+    source: { kind: authored }
+  - form: "przeszukałabyś"
+    pl: "Przeszukałabyś jego kieszenie?"
+    ru: "Ты обшарила бы его карманы?"
+    source: { kind: authored }
+  - form: "przeszukałabyś"
+    pl: "Czy przeszukałabyś całą szafę?"
+    ru: "Ты обыскала бы весь шкаф?"
+    source: { kind: authored }
+  - form: "przeszukałabyś"
+    pl: "Bez nakazu nie przeszukałabyś domu."
+    ru: "Без ордера ты дом не обыскала бы."
+    source: { kind: authored }
+  - form: "przeszukałam"
+    pl: "Przeszukałam wszystkie szuflady."
+    ru: "Я перерыла все ящики."
+    source: { kind: authored }
+  - form: "przeszukałam"
+    pl: "Przeszukałam torebkę i nic."
+    ru: "Я перерыла сумочку — и ничего."
+    source: { kind: authored }
+  - form: "przeszukałam"
+    pl: "Piwnicy nie przeszukałam."
+    ru: "Подвал я не обыскала."
+    source: { kind: authored }
+  - form: "przeszukałaś"
+    pl: "Przeszukałaś już szuflady?"
+    ru: "Ты уже перерыла ящики?"
+    source: { kind: authored }
+  - form: "przeszukałaś"
+    pl: "Dlaczego nie przeszukałaś torebki?"
+    ru: "Почему ты не перерыла сумочку?"
+    source: { kind: authored }
+  - form: "przeszukałaś"
+    pl: "Czy przeszukałaś całą szafę?"
+    ru: "Ты обыскала весь шкаф?"
+    source: { kind: authored }
+  - form: "przeszukałby"
+    pl: "Przeszukałby mieszkanie, gdyby miał nakaz."
+    ru: "Он обыскал бы квартиру, будь у него ордер."
+    source: { kind: authored }
+  - form: "przeszukałby"
+    pl: "Nikt inny nie przeszukałby tego tak dokładnie."
+    ru: "Никто другой не обыскал бы это так тщательно."
+    source: { kind: authored }
+  - form: "przeszukałby"
+    pl: "Chętnie przeszukałby strych."
+    ru: "Он охотно обыскал бы чердак."
+    source: { kind: authored }
+  - form: "przeszukałbym"
+    pl: "Przeszukałbym najpierw strych."
+    ru: "Я обыскал бы сначала чердак."
+    source: { kind: authored }
+  - form: "przeszukałbym"
+    pl: "Na twoim miejscu przeszukałbym kieszenie."
+    ru: "На твоём месте я обшарил бы карманы."
+    source: { kind: authored }
+  - form: "przeszukałbym"
+    pl: "Bez nakazu nie przeszukałbym mieszkania."
+    ru: "Без ордера я квартиру не обыскал бы."
+    source: { kind: authored }
+  - form: "przeszukałbyś"
+    pl: "Przeszukałbyś jego biurko?"
+    ru: "Ты перерыл бы его стол?"
+    source: { kind: authored }
+  - form: "przeszukałbyś"
+    pl: "Czy przeszukałbyś cały strych?"
+    ru: "Ты обыскал бы весь чердак?"
+    source: { kind: authored }
+  - form: "przeszukałbyś"
+    pl: "Bez nakazu nie przeszukałbyś mieszkania."
+    ru: "Без ордера ты квартиру не обыскал бы."
+    source: { kind: authored }
+  - form: "przeszukałem"
+    pl: "Przeszukałem całą szafę."
+    ru: "Я перерыл весь шкаф."
+    source: { kind: authored }
+  - form: "przeszukałem"
+    pl: "Przeszukałem kieszenie dwa razy."
+    ru: "Я обшарил карманы дважды."
+    source: { kind: authored }
+  - form: "przeszukałem"
+    pl: "Strychu nie przeszukałem."
+    ru: "Чердак я не обыскал."
+    source: { kind: authored }
+  - form: "przeszukałeś"
+    pl: "Przeszukałeś już kieszenie?"
+    ru: "Ты уже обшарил карманы?"
+    source: { kind: authored }
+  - form: "przeszukałeś"
+    pl: "Dlaczego nie przeszukałeś strychu?"
+    ru: "Почему ты не обыскал чердак?"
+    source: { kind: authored }
+  - form: "przeszukałeś"
+    pl: "Czy przeszukałeś samochód?"
+    ru: "Ты обыскал машину?"
+    source: { kind: authored }
+  - form: "przeszukało"
+    pl: "Pół oddziału przeszukało las."
+    ru: "Полотряда обыскало лес."
+    source: { kind: authored }
+  - form: "przeszukało"
+    pl: "Dziecko przeszukało całą szafę."
+    ru: "Ребёнок перерыл весь шкаф."
+    source: { kind: authored }
+  - form: "przeszukało"
+    pl: "Wojsko przeszukało teren."
+    ru: "Войско обыскало местность."
+    source: { kind: authored }
+  - form: "przeszukałoby"
+    pl: "Pół oddziału przeszukałoby las w dzień."
+    ru: "Полотряда обыскало бы лес за день."
+    source: { kind: authored }
+  - form: "przeszukałoby"
+    pl: "Dziecko przeszukałoby całą szafę."
+    ru: "Ребёнок перерыл бы весь шкаф."
+    source: { kind: authored }
+  - form: "przeszukałoby"
+    pl: "Wojsko przeszukałoby teren w godzinę."
+    ru: "Войско обыскало бы местность за час."
+    source: { kind: authored }
+  - form: "przeszukały"
+    pl: "Służby przeszukały teren."
+    ru: "Службы обыскали местность."
+    source: { kind: authored }
+  - form: "przeszukały"
+    pl: "Kobiety przeszukały wszystkie szuflady."
+    ru: "Женщины перерыли все ящики."
+    source: { kind: authored }
+  - form: "przeszukały"
+    pl: "Patrole przeszukały las do zmroku."
+    ru: "Патрули обыскали лес до темноты."
+    source: { kind: authored }
+  - form: "przeszukałyby"
+    pl: "Patrole przeszukałyby las do zmroku."
+    ru: "Патрули обыскали бы лес до темноты."
+    source: { kind: authored }
+  - form: "przeszukałyby"
+    pl: "Służby przeszukałyby teren ponownie."
+    ru: "Службы обыскали бы местность заново."
+    source: { kind: authored }
+  - form: "przeszukałyby"
+    pl: "Bez zgody nie przeszukałyby bagaży."
+    ru: "Без согласия они багаж не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukałybyście"
+    pl: "Przeszukałybyście te szuflady?"
+    ru: "Вы перерыли бы эти ящики?"
+    source: { kind: authored }
+  - form: "przeszukałybyście"
+    pl: "Czy przeszukałybyście całą szafę?"
+    ru: "Вы обыскали бы весь шкаф?"
+    source: { kind: authored }
+  - form: "przeszukałybyście"
+    pl: "Bez nakazu nie przeszukałybyście domu."
+    ru: "Без ордера вы дом не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukałybyśmy"
+    pl: "Przeszukałybyśmy wszystkie szuflady."
+    ru: "Мы перерыли бы все ящики."
+    source: { kind: authored }
+  - form: "przeszukałybyśmy"
+    pl: "Bez nakazu nie przeszukałybyśmy domu."
+    ru: "Без ордера мы дом не обыскали бы."
+    source: { kind: authored }
+  - form: "przeszukałybyśmy"
+    pl: "Chętnie przeszukałybyśmy piwnicę."
+    ru: "Мы охотно обыскали бы подвал."
+    source: { kind: authored }
+  - form: "przeszukałyście"
+    pl: "Przeszukałyście już szuflady?"
+    ru: "Вы уже перерыли ящики?"
+    source: { kind: authored }
+  - form: "przeszukałyście"
+    pl: "Dlaczego nie przeszukałyście torebek?"
+    ru: "Почему вы не перерыли сумочки?"
+    source: { kind: authored }
+  - form: "przeszukałyście"
+    pl: "Czy przeszukałyście całą szafę?"
+    ru: "Вы обыскали весь шкаф?"
+    source: { kind: authored }
+  - form: "przeszukałyśmy"
+    pl: "Przeszukałyśmy wszystkie szuflady."
+    ru: "Мы перерыли все ящики."
+    source: { kind: authored }
+  - form: "przeszukałyśmy"
+    pl: "Przeszukałyśmy torebki i kieszenie."
+    ru: "Мы перерыли сумочки и карманы."
+    source: { kind: authored }
+  - form: "przeszukałyśmy"
+    pl: "Piwnicy nie przeszukałyśmy."
+    ru: "Подвал мы не обыскали."
+    source: { kind: authored }
