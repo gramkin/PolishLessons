@@ -1,0 +1,813 @@
+# review
+id: winic
+format: 2
+lemma: "winić"
+rank: 2058
+pos: verb
+pron: { cyr: "ви́ниць" }
+senses:
+  - id: blame
+    ru: "винить, обвинять (winić kogoś za coś)"
+    examples:
+      - pl: "Winili go za wszystko."
+        ru: "Его винили во всём."
+        source: { kind: authored }
+      - pl: "Nie wiń siebie za cudze błędy."
+        ru: "Не вини себя за чужие ошибки."
+        source: { kind: authored }
+      - pl: "Winiono zarząd o całe zamieszanie."
+        ru: "В неразберихе обвиняли правление."
+        source: { kind: authored }
+  - id: blamed
+    ru: "winiony — обвиняемый, тот, кого винят"
+    examples:
+      - pl: "Winiony przez wszystkich dyrektor podał się do dymisji."
+        ru: "Обвиняемый всеми директор подал в отставку."
+        source: { kind: authored }
+      - pl: "Winieni kierowcy odwołali się od decyzji."
+        ru: "Обвинённые водители обжаловали решение."
+        source: { kind: authored }
+  - id: blaming
+    ru: "winienie — обвинение (как действие)"
+    examples:
+      - pl: "Winienie innych niczego nie naprawi."
+        ru: "Обвинять других ничего не исправит."
+        source: { kind: authored }
+      - pl: "Po latach winienia siebie wreszcie odpuścił."
+        ru: "После лет самообвинений он наконец отпустил."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "КОРЕНЬ РОДНОЙ: wina — это русская «ВИНА», winić — «винить», niewinny — «невиновный». Но осторожно с прилагательным winny: оно значит И «виновный», И «ДОЛЖНЫЙ» — jestem ci winien sto złotych значит «я должен тебе сто злотых». Русское «винный» (от вина-напитка) тут ни при чём: по-польски это winny в третьем значении, от wino." }
+  - { kind: government, text: "ДВЕ МОДЕЛИ, И ОДНА РАСХОДИТСЯ С РУССКОЙ. Винят кого ЗА что — za с винительным, как по-русски: winić kogoś za błąd, za spóźnienie. Но «обвинять В чём-то» строится через O с ВИНИТЕЛЬНЫМ: winić kogoś O kradzież, где русский берёт предложный падеж. Эту вторую модель и нужно запомнить отдельно." }
+  - { kind: usage, text: "Вид несовершенный; совершенного у него по сути нет — для однократного обвинения берут obwinić или oskarżyć. Страдательное причастие по правилу для -ić: winiony, winieni. Возвратное winić się значит «винить себя»." }
+  - { kind: register, text: "Устойчивое sam sobie winien значит «сам виноват» и звучит ровно так же сухо, как русское. А słowo wina годится и для юридической вины, и для бытовой: to nie moja wina — «это не моя вина»." }
+collocations:
+  - { pl: "winić kogoś za coś", ru: "винить кого-л. за что-л." }
+  - { pl: "sam sobie winien", ru: "сам виноват" }
+  - { pl: "to nie moja wina", ru: "это не моя вина" }
+family:
+  - { pl: "wina", ru: "вина", relation: root, id: wina }
+  - { pl: "winny", ru: "виновный; должный", relation: derived, id: winny }
+  - { pl: "niewinny", ru: "невиновный", relation: antonym, id: niewinny }
+etymology: "От wina «вина» — того же общеславянского слова, что русская «вина». Отсюда winny «виновный», niewinny «невиновный», obwiniać «обвинять» и przewinienie «проступок». Значение «должный» у winny выросло из той же идеи: должник перед кем-то виноват."
+memory: "winić — «винить», от wina «вина», слово в слово. Падеж совпадает: winić kogoś ZA coś. Но помните двусмысленность winny: это и «виновный», и «должный» — jestem ci winien «я тебе должен»."
+idioms:
+  - { pl: "sam sobie winien", ru: "сам виноват" }
+  - { pl: "winić los", ru: "винить судьбу" }
+formExamples:
+  - form: "wini"
+    pl: "Wini wszystkich poza sobą."
+    ru: "Он винит всех, кроме себя."
+    source: { kind: authored }
+  - form: "wini"
+    pl: "Nikt cię o to nie wini."
+    ru: "Никто тебя в этом не винит."
+    source: { kind: authored }
+  - form: "wini"
+    pl: "Wini pogodę za nieudany urlop."
+    ru: "Он винит погоду за неудавшийся отпуск."
+    source: { kind: authored }
+  - form: "winicie"
+    pl: "Dlaczego winicie mnie za wszystko?"
+    ru: "Почему вы вините меня во всём?"
+    source: { kind: authored }
+  - form: "winicie"
+    pl: "Winicie siebie zupełnie niepotrzebnie."
+    ru: "Вы вините себя совершенно напрасно."
+    source: { kind: authored }
+  - form: "winicie"
+    pl: "Nie winicie go chyba za spóźnienie?"
+    ru: "Вы же не вините его за опоздание?"
+    source: { kind: authored }
+  - form: "winieni"
+    pl: "Winieni kierowcy odwołali się od decyzji."
+    ru: "Обвинённые водители обжаловали решение."
+    source: { kind: authored }
+  - form: "winieni"
+    pl: "Byliśmy winieni za cudze błędy."
+    ru: "Нас винили за чужие ошибки."
+    source: { kind: authored }
+  - form: "winieni"
+    pl: "Winieni o wszystko nauczyciele milczeli."
+    ru: "Обвиняемые во всём учителя молчали."
+    source: { kind: authored }
+  - form: "winienia"
+    pl: "Po latach winienia siebie wreszcie odpuścił."
+    ru: "После лет самообвинений он наконец отпустил."
+    source: { kind: authored }
+  - form: "winienia"
+    pl: "Do winienia innych nie trzeba dowodów."
+    ru: "Чтобы винить других, доказательств не нужно."
+    source: { kind: authored }
+  - form: "winienia"
+    pl: "Bez winienia kogokolwiek dało się to wyjaśnić."
+    ru: "Не виня никого, это можно было объяснить."
+    source: { kind: authored }
+  - form: "winienie"
+    pl: "Winienie innych niczego nie naprawi."
+    ru: "Обвинять других ничего не исправит."
+    source: { kind: authored }
+  - form: "winienie"
+    pl: "Winienie siebie bywa wygodniejsze niż działanie."
+    ru: "Винить себя бывает удобнее, чем действовать."
+    source: { kind: authored }
+  - form: "winienie"
+    pl: "Winienie pogody to najprostsze wyjście."
+    ru: "Винить погоду — простейший выход."
+    source: { kind: authored }
+  - form: "winieniem"
+    pl: "Zmęczył się ciągłym winieniem siebie."
+    ru: "Он устал постоянно винить себя."
+    source: { kind: authored }
+  - form: "winieniem"
+    pl: "Przed winieniem kogokolwiek zbierz fakty."
+    ru: "Прежде чем кого-то винить, собери факты."
+    source: { kind: authored }
+  - form: "winieniem"
+    pl: "Między wyjaśnianiem a winieniem jest przepaść."
+    ru: "Между объяснением и обвинением пропасть."
+    source: { kind: authored }
+  - form: "winieniu"
+    pl: "Po winieniu wszystkich wokół został sam."
+    ru: "Обвинив всех вокруг, он остался один."
+    source: { kind: authored }
+  - form: "winieniu"
+    pl: "O winieniu ofiar mówiono na konferencji."
+    ru: "Об обвинении жертв говорили на конференции."
+    source: { kind: authored }
+  - form: "winieniu"
+    pl: "W winieniu siebie nie ma nic szlachetnego."
+    ru: "В самообвинении нет ничего благородного."
+    source: { kind: authored }
+  - form: "winili"
+    pl: "Winili go za wszystko."
+    ru: "Его винили во всём."
+    source: { kind: authored }
+  - form: "winili"
+    pl: "Winili siebie nawzajem przez pół roku."
+    ru: "Они винили друг друга полгода."
+    source: { kind: authored }
+  - form: "winili"
+    pl: "Nigdy nie winili pogody."
+    ru: "Они никогда не винили погоду."
+    source: { kind: authored }
+  - form: "winiliby"
+    pl: "Winiliby zarząd, gdyby znali fakty."
+    ru: "Они винили бы правление, если бы знали факты."
+    source: { kind: authored }
+  - form: "winiliby"
+    pl: "Bez dowodów nie winiliby nikogo."
+    ru: "Без доказательств они никого не винили бы."
+    source: { kind: authored }
+  - form: "winiliby"
+    pl: "Winiliby siebie nawzajem do końca."
+    ru: "Они винили бы друг друга до конца."
+    source: { kind: authored }
+  - form: "winilibyście"
+    pl: "Winilibyście siebie na naszym miejscu?"
+    ru: "Вы винили бы себя на нашем месте?"
+    source: { kind: authored }
+  - form: "winilibyście"
+    pl: "Czy winilibyście za to pogodę?"
+    ru: "Вы винили бы за это погоду?"
+    source: { kind: authored }
+  - form: "winilibyście"
+    pl: "Bez dowodów nie winilibyście nikogo."
+    ru: "Без доказательств вы никого не винили бы."
+    source: { kind: authored }
+  - form: "winilibyśmy"
+    pl: "Winilibyśmy raczej okoliczności."
+    ru: "Мы винили бы скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winilibyśmy"
+    pl: "Bez dowodów nie winilibyśmy nikogo."
+    ru: "Без доказательств мы никого не винили бы."
+    source: { kind: authored }
+  - form: "winilibyśmy"
+    pl: "Na waszym miejscu nie winilibyśmy siebie."
+    ru: "На вашем месте мы не винили бы себя."
+    source: { kind: authored }
+  - form: "winiliście"
+    pl: "Dlaczego winiliście siebie?"
+    ru: "Почему вы винили себя?"
+    source: { kind: authored }
+  - form: "winiliście"
+    pl: "Winiliście mnie zupełnie bez powodu."
+    ru: "Вы винили меня совершенно без причины."
+    source: { kind: authored }
+  - form: "winiliście"
+    pl: "Czy winiliście kiedyś los?"
+    ru: "Вы когда-нибудь винили судьбу?"
+    source: { kind: authored }
+  - form: "winiliśmy"
+    pl: "Winiliśmy siebie nawzajem przez pół roku."
+    ru: "Мы винили друг друга полгода."
+    source: { kind: authored }
+  - form: "winiliśmy"
+    pl: "Winiliśmy raczej okoliczności."
+    ru: "Мы винили скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiliśmy"
+    pl: "Nigdy nie winiliśmy pogody."
+    ru: "Мы никогда не винили погоду."
+    source: { kind: authored }
+  - form: "winimy"
+    pl: "Nie winimy nikogo."
+    ru: "Мы никого не виним."
+    source: { kind: authored }
+  - form: "winimy"
+    pl: "Winimy raczej okoliczności niż ludzi."
+    ru: "Мы виним скорее обстоятельства, чем людей."
+    source: { kind: authored }
+  - form: "winimy"
+    pl: "Winimy siebie za to opóźnienie."
+    ru: "Мы виним себя за эту задержку."
+    source: { kind: authored }
+  - form: "winiona"
+    pl: "Winiona za wszystko matka milczała."
+    ru: "Обвиняемая во всём мать молчала."
+    source: { kind: authored }
+  - form: "winiona"
+    pl: "Winiona przez sąsiadów kobieta wyprowadziła się."
+    ru: "Обвиняемая соседями женщина съехала."
+    source: { kind: authored }
+  - form: "winiona"
+    pl: "Winiona za kryzys firma upadła po roku."
+    ru: "Обвинённая в кризисе фирма разорилась через год."
+    source: { kind: authored }
+  - form: "winione"
+    pl: "Winione za hałas dzieci bawiły się w parku."
+    ru: "Обвинённые в шуме дети играли в парке."
+    source: { kind: authored }
+  - form: "winione"
+    pl: "Winione przez prasę firmy straciły klientów."
+    ru: "Обвинённые прессой фирмы потеряли клиентов."
+    source: { kind: authored }
+  - form: "winione"
+    pl: "Winione o wszystko pokolenie broniło się rzadko."
+    ru: "Обвиняемое во всём поколение редко оправдывалось."
+    source: { kind: authored }
+  - form: "winionego"
+    pl: "Nie znam nikogo winionego tak niesprawiedliwie."
+    ru: "Я не знаю никого, обвинённого так несправедливо."
+    source: { kind: authored }
+  - form: "winionego"
+    pl: "Od winionego o kradzież pracownika zażądano wyjaśnień."
+    ru: "От обвинённого в краже работника потребовали объяснений."
+    source: { kind: authored }
+  - form: "winionego"
+    pl: "Nie ma tu nikogo winionego bez dowodów."
+    ru: "Здесь нет никого, обвинённого без доказательств."
+    source: { kind: authored }
+  - form: "winionej"
+    pl: "Imienia winionej o to kobiety nie podano."
+    ru: "Имени обвинённой в этом женщины не назвали."
+    source: { kind: authored }
+  - form: "winionej"
+    pl: "Nie znam firmy winionej za tyle naraz."
+    ru: "Я не знаю фирмы, обвинённой в стольком сразу."
+    source: { kind: authored }
+  - form: "winionej"
+    pl: "Od winionej strony oczekiwano przeprosin."
+    ru: "От обвинённой стороны ждали извинений."
+    source: { kind: authored }
+  - form: "winionemu"
+    pl: "Winionemu o kradzież pracownikowi dano adwokata."
+    ru: "Обвинённому в краже работнику дали адвоката."
+    source: { kind: authored }
+  - form: "winionemu"
+    pl: "Dzięki winionemu niesłusznie świadkowi prawda wyszła na jaw."
+    ru: "Благодаря несправедливо обвинённому свидетелю правда вышла наружу."
+    source: { kind: authored }
+  - form: "winionemu"
+    pl: "Przyjrzyj się temu winionemu przez wszystkich człowiekowi."
+    ru: "Присмотрись к этому обвиняемому всеми человеку."
+    source: { kind: authored }
+  - form: "winiono"
+    pl: "Winiono zarząd o całe zamieszanie."
+    ru: "В неразберихе обвиняли правление."
+    source: { kind: authored }
+  - form: "winiono"
+    pl: "Dawniej winiono za to nauczycieli."
+    ru: "Раньше за это винили учителей."
+    source: { kind: authored }
+  - form: "winiono"
+    pl: "Nikogo konkretnego nie winiono."
+    ru: "Никого конкретного не винили."
+    source: { kind: authored }
+  - form: "winiony"
+    pl: "Winiony przez wszystkich dyrektor podał się do dymisji."
+    ru: "Обвиняемый всеми директор подал в отставку."
+    source: { kind: authored }
+  - form: "winiony"
+    pl: "Winiony za spóźnienie kierowca nie zawinił."
+    ru: "Обвинённый за опоздание водитель был не виноват."
+    source: { kind: authored }
+  - form: "winiony"
+    pl: "Winiony latami, w końcu się odciął."
+    ru: "Обвиняемый годами, он в конце концов отстранился."
+    source: { kind: authored }
+  - form: "winionych"
+    pl: "Wśród winionych o kradzież było dwóch niewinnych."
+    ru: "Среди обвинённых в краже было двое невиновных."
+    source: { kind: authored }
+  - form: "winionych"
+    pl: "O winionych bez dowodów pisała prasa."
+    ru: "Об обвинённых без доказательств писала пресса."
+    source: { kind: authored }
+  - form: "winionych"
+    pl: "Połowa winionych pracowników odeszła sama."
+    ru: "Половина обвинённых работников ушла сама."
+    source: { kind: authored }
+  - form: "winionym"
+    pl: "W winionym o wszystko dyrektorze widziano wroga."
+    ru: "В обвиняемом во всём директоре видели врага."
+    source: { kind: authored }
+  - form: "winionym"
+    pl: "Winionym bez dowodów pracownikom wypłacono odszkodowanie."
+    ru: "Обвинённым без доказательств работникам выплатили компенсацию."
+    source: { kind: authored }
+  - form: "winionym"
+    pl: "Mówił o winionym koledze bardzo ostrożnie."
+    ru: "Он говорил об обвинённом коллеге очень осторожно."
+    source: { kind: authored }
+  - form: "winionymi"
+    pl: "Między winionymi a oskarżającymi nie było rozmowy."
+    ru: "Между обвиняемыми и обвинителями не было разговора."
+    source: { kind: authored }
+  - form: "winionymi"
+    pl: "Zajmuje się winionymi niesłusznie pracownikami."
+    ru: "Он занимается несправедливо обвинёнными работниками."
+    source: { kind: authored }
+  - form: "winionymi"
+    pl: "Sala zapełniła się winionymi o to urzędnikami."
+    ru: "Зал заполнился обвинёнными в этом чиновниками."
+    source: { kind: authored }
+  - form: "winioną"
+    pl: "Uznali tę firmę za winioną niesłusznie."
+    ru: "Эту фирму сочли обвинённой несправедливо."
+    source: { kind: authored }
+  - form: "winioną"
+    pl: "Spotkał winioną o wszystko sąsiadkę na schodach."
+    ru: "Он встретил обвиняемую во всём соседку на лестнице."
+    source: { kind: authored }
+  - form: "winioną"
+    pl: "Opisał winioną stronę w raporcie dokładnie."
+    ru: "Он подробно описал обвинённую сторону в отчёте."
+    source: { kind: authored }
+  - form: "winisz"
+    pl: "Dlaczego winisz mnie za wszystko?"
+    ru: "Почему ты винишь меня во всём?"
+    source: { kind: authored }
+  - form: "winisz"
+    pl: "Winisz siebie zupełnie niepotrzebnie."
+    ru: "Ты винишь себя совершенно напрасно."
+    source: { kind: authored }
+  - form: "winisz"
+    pl: "Nie winisz go chyba za spóźnienie?"
+    ru: "Ты же не винишь его за опоздание?"
+    source: { kind: authored }
+  - form: "winią"
+    pl: "Winią zarząd za całe zamieszanie."
+    ru: "Они винят правление во всей неразберихе."
+    source: { kind: authored }
+  - form: "winią"
+    pl: "Rodzice winią szkołę, szkoła rodziców."
+    ru: "Родители винят школу, школа родителей."
+    source: { kind: authored }
+  - form: "winią"
+    pl: "Nie winią nikogo konkretnego."
+    ru: "Они не винят никого конкретного."
+    source: { kind: authored }
+  - form: "winiąc"
+    pl: "Winiąc wszystkich wokół, niczego nie zmienisz."
+    ru: "Виня всех вокруг, ничего не изменишь."
+    source: { kind: authored }
+  - form: "winiąc"
+    pl: "Winiąc siebie, stracił kilka lat."
+    ru: "Виня себя, он потерял несколько лет."
+    source: { kind: authored }
+  - form: "winiąc"
+    pl: "Winiąc pogodę, pominął prawdziwą przyczynę."
+    ru: "Виня погоду, он упустил настоящую причину."
+    source: { kind: authored }
+  - form: "winiąca"
+    pl: "Winiąca siebie matka nie mogła spać."
+    ru: "Винившая себя мать не могла спать."
+    source: { kind: authored }
+  - form: "winiąca"
+    pl: "Winiąca wszystkich sąsiadka pokłóciła się z całą klatką."
+    ru: "Винившая всех соседка поссорилась со всем подъездом."
+    source: { kind: authored }
+  - form: "winiąca"
+    pl: "Winiąca los kobieta nie szukała wyjścia."
+    ru: "Винившая судьбу женщина не искала выхода."
+    source: { kind: authored }
+  - form: "winiące"
+    pl: "Winiące siebie dzieci milczały przy stole."
+    ru: "Винившие себя дети молчали за столом."
+    source: { kind: authored }
+  - form: "winiące"
+    pl: "Winiące rząd gazety straciły reklamodawców."
+    ru: "Винившие правительство газеты потеряли рекламодателей."
+    source: { kind: authored }
+  - form: "winiące"
+    pl: "Winiące wszystkich rodziny rzadko się godzą."
+    ru: "Винящие всех семьи редко мирятся."
+    source: { kind: authored }
+  - form: "winiącego"
+    pl: "Nie znam nikogo winiącego siebie tak długo."
+    ru: "Я не знаю никого, кто винил бы себя так долго."
+    source: { kind: authored }
+  - form: "winiącego"
+    pl: "Od winiącego wszystkich kolegi wszyscy się odsunęli."
+    ru: "От винившего всех коллеги все отстранились."
+    source: { kind: authored }
+  - form: "winiącego"
+    pl: "Nie ma tu nikogo winiącego zarząd."
+    ru: "Здесь никто не винит правление."
+    source: { kind: authored }
+  - form: "winiącej"
+    pl: "Od winiącej siebie matki nie dało się nic usłyszeć."
+    ru: "От винившей себя матери ничего нельзя было услышать."
+    source: { kind: authored }
+  - form: "winiącej"
+    pl: "Nie znam kobiety winiącej los tak uporczywie."
+    ru: "Я не знаю женщины, винящей судьбу так упорно."
+    source: { kind: authored }
+  - form: "winiącej"
+    pl: "Słowa winiącej wszystkich sąsiadki zapamiętano."
+    ru: "Слова винившей всех соседки запомнили."
+    source: { kind: authored }
+  - form: "winiącemu"
+    pl: "Winiącemu siebie dziecku trzeba pomóc."
+    ru: "Винящему себя ребёнку надо помочь."
+    source: { kind: authored }
+  - form: "winiącemu"
+    pl: "Dzięki winiącemu zarząd dziennikarzowi sprawa wyszła na jaw."
+    ru: "Благодаря винившему правление журналисту дело всплыло."
+    source: { kind: authored }
+  - form: "winiącemu"
+    pl: "Przyjrzyj się temu winiącemu wszystkich człowiekowi."
+    ru: "Присмотрись к этому винящему всех человеку."
+    source: { kind: authored }
+  - form: "winiący"
+    pl: "Winiący wszystkich wokół kolega stał się nie do zniesienia."
+    ru: "Винивший всех вокруг коллега стал невыносим."
+    source: { kind: authored }
+  - form: "winiący"
+    pl: "Winiący siebie chłopiec przestał mówić."
+    ru: "Винивший себя мальчик перестал говорить."
+    source: { kind: authored }
+  - form: "winiący"
+    pl: "Winiący rząd publicysta stracił pracę."
+    ru: "Винивший правительство публицист потерял работу."
+    source: { kind: authored }
+  - form: "winiących"
+    pl: "Wśród winiących zarząd byli i dawni pracownicy."
+    ru: "Среди винивших правление были и бывшие работники."
+    source: { kind: authored }
+  - form: "winiących"
+    pl: "O winiących siebie ofiarach pisze się za mało."
+    ru: "О винящих себя жертвах пишут слишком мало."
+    source: { kind: authored }
+  - form: "winiących"
+    pl: "Połowa winiących pogodę po prostu się nie przygotowała."
+    ru: "Половина винящих погоду просто не подготовилась."
+    source: { kind: authored }
+  - form: "winiącym"
+    pl: "W winiącym siebie uczniu nauczyciel dostrzegł lęk."
+    ru: "В винящем себя ученике учитель увидел страх."
+    source: { kind: authored }
+  - form: "winiącym"
+    pl: "Winiącym wszystkich sąsiadom nikt już nie odpowiada."
+    ru: "Винящим всех соседям уже никто не отвечает."
+    source: { kind: authored }
+  - form: "winiącym"
+    pl: "Mówił o winiącym siebie bracie z troską."
+    ru: "Он говорил о винящем себя брате с тревогой."
+    source: { kind: authored }
+  - form: "winiącymi"
+    pl: "Między winiącymi się nawzajem stronami nie było rozmów."
+    ru: "Между винившими друг друга сторонами не было переговоров."
+    source: { kind: authored }
+  - form: "winiącymi"
+    pl: "Zajmuje się winiącymi siebie rodzicami."
+    ru: "Он занимается винящими себя родителями."
+    source: { kind: authored }
+  - form: "winiącymi"
+    pl: "Sala wypełniła się winiącymi zarząd udziałowcami."
+    ru: "Зал заполнился винящими правление акционерами."
+    source: { kind: authored }
+  - form: "winiącą"
+    pl: "Znam tę winiącą wszystkich sąsiadkę."
+    ru: "Я знаю эту винящую всех соседку."
+    source: { kind: authored }
+  - form: "winiącą"
+    pl: "Spotkał winiącą siebie matkę na korytarzu."
+    ru: "Он встретил винившую себя мать в коридоре."
+    source: { kind: authored }
+  - form: "winiącą"
+    pl: "Uznali tę wypowiedź za winiącą zarząd."
+    ru: "Это высказывание сочли обвиняющим правление."
+    source: { kind: authored }
+  - form: "winić"
+    pl: "Nie ma kogo winić."
+    ru: "Винить некого."
+    source: { kind: authored }
+  - form: "winić"
+    pl: "Łatwo winić innych za własne błędy."
+    ru: "Легко винить других за собственные ошибки."
+    source: { kind: authored }
+  - form: "winić"
+    pl: "Przestał winić los za wszystko."
+    ru: "Он перестал винить судьбу во всём."
+    source: { kind: authored }
+  - form: "winię"
+    pl: "Nie winię cię za to."
+    ru: "Я не виню тебя за это."
+    source: { kind: authored }
+  - form: "winię"
+    pl: "Winię tylko siebie."
+    ru: "Я виню только себя."
+    source: { kind: authored }
+  - form: "winię"
+    pl: "Winię pogodę, nie kierowcę."
+    ru: "Я виню погоду, а не водителя."
+    source: { kind: authored }
+  - form: "winił"
+    pl: "Winił los za wszystkie niepowodzenia."
+    ru: "Он винил судьбу во всех неудачах."
+    source: { kind: authored }
+  - form: "winił"
+    pl: "Winił siebie przez całe lata."
+    ru: "Он винил себя долгие годы."
+    source: { kind: authored }
+  - form: "winił"
+    pl: "Nigdy nie winił rodziców."
+    ru: "Он никогда не винил родителей."
+    source: { kind: authored }
+  - form: "winiła"
+    pl: "Winiła siebie za tę rozmowę."
+    ru: "Она винила себя за тот разговор."
+    source: { kind: authored }
+  - form: "winiła"
+    pl: "Winiła pogodę, choć wiedziała swoje."
+    ru: "Она винила погоду, хотя знала своё."
+    source: { kind: authored }
+  - form: "winiła"
+    pl: "Nigdy nie winiła dzieci."
+    ru: "Она никогда не винила детей."
+    source: { kind: authored }
+  - form: "winiłaby"
+    pl: "Winiłaby siebie do końca życia."
+    ru: "Она винила бы себя до конца жизни."
+    source: { kind: authored }
+  - form: "winiłaby"
+    pl: "Bez dowodów nie winiłaby nikogo."
+    ru: "Без доказательств она никого не винила бы."
+    source: { kind: authored }
+  - form: "winiłaby"
+    pl: "Winiłaby raczej okoliczności niż ludzi."
+    ru: "Она винила бы скорее обстоятельства, чем людей."
+    source: { kind: authored }
+  - form: "winiłabym"
+    pl: "Winiłabym raczej okoliczności."
+    ru: "Я винила бы скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiłabym"
+    pl: "Na jej miejscu nie winiłabym siebie."
+    ru: "На её месте я не винила бы себя."
+    source: { kind: authored }
+  - form: "winiłabym"
+    pl: "Bez dowodów nie winiłabym nikogo."
+    ru: "Без доказательств я никого не винила бы."
+    source: { kind: authored }
+  - form: "winiłabyś"
+    pl: "Winiłabyś siebie na moim miejscu?"
+    ru: "Ты винила бы себя на моём месте?"
+    source: { kind: authored }
+  - form: "winiłabyś"
+    pl: "Czy winiłabyś za to pogodę?"
+    ru: "Ты винила бы за это погоду?"
+    source: { kind: authored }
+  - form: "winiłabyś"
+    pl: "Bez dowodów nie winiłabyś nikogo."
+    ru: "Без доказательств ты никого не винила бы."
+    source: { kind: authored }
+  - form: "winiłam"
+    pl: "Winiłam siebie przez całe lata."
+    ru: "Я винила себя долгие годы."
+    source: { kind: authored }
+  - form: "winiłam"
+    pl: "Winiłam pogodę, a to była moja wina."
+    ru: "Я винила погоду, а это была моя вина."
+    source: { kind: authored }
+  - form: "winiłam"
+    pl: "Nigdy nie winiłam rodziców."
+    ru: "Я никогда не винила родителей."
+    source: { kind: authored }
+  - form: "winiłaś"
+    pl: "Dlaczego winiłaś siebie?"
+    ru: "Почему ты винила себя?"
+    source: { kind: authored }
+  - form: "winiłaś"
+    pl: "Winiłaś mnie zupełnie bez powodu."
+    ru: "Ты винила меня совершенно без причины."
+    source: { kind: authored }
+  - form: "winiłaś"
+    pl: "Czy winiłaś kiedyś los?"
+    ru: "Ты когда-нибудь винила судьбу?"
+    source: { kind: authored }
+  - form: "winiłby"
+    pl: "Winiłby siebie do końca życia."
+    ru: "Он винил бы себя до конца жизни."
+    source: { kind: authored }
+  - form: "winiłby"
+    pl: "Bez dowodów nie winiłby nikogo."
+    ru: "Без доказательств он никого не винил бы."
+    source: { kind: authored }
+  - form: "winiłby"
+    pl: "Nikt rozsądny nie winiłby za to pogody."
+    ru: "Никто разумный не винил бы за это погоду."
+    source: { kind: authored }
+  - form: "winiłbym"
+    pl: "Winiłbym raczej okoliczności."
+    ru: "Я винил бы скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiłbym"
+    pl: "Na twoim miejscu nie winiłbym siebie."
+    ru: "На твоём месте я не винил бы себя."
+    source: { kind: authored }
+  - form: "winiłbym"
+    pl: "Bez dowodów nie winiłbym nikogo."
+    ru: "Без доказательств я никого не винил бы."
+    source: { kind: authored }
+  - form: "winiłbyś"
+    pl: "Winiłbyś siebie na moim miejscu?"
+    ru: "Ты винил бы себя на моём месте?"
+    source: { kind: authored }
+  - form: "winiłbyś"
+    pl: "Czy winiłbyś za to pogodę?"
+    ru: "Ты винил бы за это погоду?"
+    source: { kind: authored }
+  - form: "winiłbyś"
+    pl: "Bez dowodów nie winiłbyś nikogo."
+    ru: "Без доказательств ты никого не винил бы."
+    source: { kind: authored }
+  - form: "winiłem"
+    pl: "Winiłem siebie przez całe lata."
+    ru: "Я винил себя долгие годы."
+    source: { kind: authored }
+  - form: "winiłem"
+    pl: "Winiłem pogodę, a to była moja wina."
+    ru: "Я винил погоду, а это была моя вина."
+    source: { kind: authored }
+  - form: "winiłem"
+    pl: "Nigdy nie winiłem rodziców."
+    ru: "Я никогда не винил родителей."
+    source: { kind: authored }
+  - form: "winiłeś"
+    pl: "Dlaczego winiłeś siebie?"
+    ru: "Почему ты винил себя?"
+    source: { kind: authored }
+  - form: "winiłeś"
+    pl: "Winiłeś mnie zupełnie bez powodu."
+    ru: "Ты винил меня совершенно без причины."
+    source: { kind: authored }
+  - form: "winiłeś"
+    pl: "Czy winiłeś kiedyś los?"
+    ru: "Ты когда-нибудь винил судьбу?"
+    source: { kind: authored }
+  - form: "winiło"
+    pl: "Pół miasta winiło zarząd."
+    ru: "Полгорода винило правление."
+    source: { kind: authored }
+  - form: "winiło"
+    pl: "Dziecko winiło siebie za kłótnię rodziców."
+    ru: "Ребёнок винил себя за ссору родителей."
+    source: { kind: authored }
+  - form: "winiło"
+    pl: "Nic go tak nie winiło jak własne sumienie."
+    ru: "Ничто его так не винило, как собственная совесть."
+    source: { kind: authored }
+  - form: "winiłoby"
+    pl: "Pół miasta winiłoby zarząd."
+    ru: "Полгорода винило бы правление."
+    source: { kind: authored }
+  - form: "winiłoby"
+    pl: "Dziecko winiłoby siebie bez powodu."
+    ru: "Ребёнок винил бы себя без причины."
+    source: { kind: authored }
+  - form: "winiłoby"
+    pl: "Żadne z nich nie winiłoby drugiego."
+    ru: "Ни один из них не винил бы другого."
+    source: { kind: authored }
+  - form: "winiły"
+    pl: "Gazety winiły rząd za kryzys."
+    ru: "Газеты винили правительство в кризисе."
+    source: { kind: authored }
+  - form: "winiły"
+    pl: "Obie strony winiły siebie nawzajem."
+    ru: "Обе стороны винили друг друга."
+    source: { kind: authored }
+  - form: "winiły"
+    pl: "Kobiety winiły raczej okoliczności."
+    ru: "Женщины винили скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiłyby"
+    pl: "Gazety winiłyby rząd i bez tego raportu."
+    ru: "Газеты винили бы правительство и без этого отчёта."
+    source: { kind: authored }
+  - form: "winiłyby"
+    pl: "Obie strony winiłyby siebie nawzajem."
+    ru: "Обе стороны винили бы друг друга."
+    source: { kind: authored }
+  - form: "winiłyby"
+    pl: "Bez dowodów nie winiłyby nikogo."
+    ru: "Без доказательств они никого не винили бы."
+    source: { kind: authored }
+  - form: "winiłybyście"
+    pl: "Winiłybyście siebie na naszym miejscu?"
+    ru: "Вы винили бы себя на нашем месте?"
+    source: { kind: authored }
+  - form: "winiłybyście"
+    pl: "Czy winiłybyście za to pogodę?"
+    ru: "Вы винили бы за это погоду?"
+    source: { kind: authored }
+  - form: "winiłybyście"
+    pl: "Bez dowodów nie winiłybyście nikogo."
+    ru: "Без доказательств вы никого не винили бы."
+    source: { kind: authored }
+  - form: "winiłybyśmy"
+    pl: "Winiłybyśmy raczej okoliczności."
+    ru: "Мы винили бы скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiłybyśmy"
+    pl: "Bez dowodów nie winiłybyśmy nikogo."
+    ru: "Без доказательств мы никого не винили бы."
+    source: { kind: authored }
+  - form: "winiłybyśmy"
+    pl: "Na waszym miejscu nie winiłybyśmy siebie."
+    ru: "На вашем месте мы не винили бы себя."
+    source: { kind: authored }
+  - form: "winiłyście"
+    pl: "Dlaczego winiłyście siebie?"
+    ru: "Почему вы винили себя?"
+    source: { kind: authored }
+  - form: "winiłyście"
+    pl: "Winiłyście mnie zupełnie bez powodu."
+    ru: "Вы винили меня совершенно без причины."
+    source: { kind: authored }
+  - form: "winiłyście"
+    pl: "Czy winiłyście kiedyś los?"
+    ru: "Вы когда-нибудь винили судьбу?"
+    source: { kind: authored }
+  - form: "winiłyśmy"
+    pl: "Winiłyśmy siebie nawzajem przez pół roku."
+    ru: "Мы винили друг друга полгода."
+    source: { kind: authored }
+  - form: "winiłyśmy"
+    pl: "Winiłyśmy raczej okoliczności."
+    ru: "Мы винили скорее обстоятельства."
+    source: { kind: authored }
+  - form: "winiłyśmy"
+    pl: "Nigdy nie winiłyśmy pogody."
+    ru: "Мы никогда не винили погоду."
+    source: { kind: authored }
+  - form: "wiń"
+    pl: "Nie wiń siebie za cudze błędy."
+    ru: "Не вини себя за чужие ошибки."
+    source: { kind: authored }
+  - form: "wiń"
+    pl: "Nie wiń pogody, wiń planowanie."
+    ru: "Не вини погоду, вини планирование."
+    source: { kind: authored }
+  - form: "wiń"
+    pl: "Wiń kogo chcesz, tylko nie mnie."
+    ru: "Вини кого хочешь, только не меня."
+    source: { kind: authored }
+  - form: "wińcie"
+    pl: "Nie wińcie siebie za cudze błędy."
+    ru: "Не вините себя за чужие ошибки."
+    source: { kind: authored }
+  - form: "wińcie"
+    pl: "Nie wińcie pogody, wińcie planowanie."
+    ru: "Не вините погоду, вините планирование."
+    source: { kind: authored }
+  - form: "wińcie"
+    pl: "Wińcie kogo chcecie, tylko nie nas."
+    ru: "Вините кого хотите, только не нас."
+    source: { kind: authored }
+  - form: "wińmy"
+    pl: "Nie wińmy siebie za wszystko."
+    ru: "Не будем винить себя во всём."
+    source: { kind: authored }
+  - form: "wińmy"
+    pl: "Nie wińmy pogody, to nasza decyzja."
+    ru: "Не будем винить погоду, это наше решение."
+    source: { kind: authored }
+  - form: "wińmy"
+    pl: "Wińmy raczej okoliczności."
+    ru: "Будем винить скорее обстоятельства."
+    source: { kind: authored }
