@@ -26,13 +26,20 @@ export interface DictionaryBundle {
 
 export function exampleHasForm(text: string, forms: Set<string>): boolean {
   const lower = new Set([...forms].map((f) => f.toLowerCase()))
-  return tokenize(text).some(
+  const byToken = tokenize(text).some(
     (token) =>
       lower.has(token) ||
       AGLT_SUFFIXES.some(
         (s) => token.length > s.length && token.endsWith(s) && lower.has(token.slice(0, -s.length)),
       ),
   )
+  if (byToken) return true
+  // A form may be analytic — «miło mi», «dzień dobry», «niech zwiększa» — and then
+  // it never equals a single token, so fall back to the adjacent-run match. Most
+  // cards also carry single-word forms, which the token pass above already finds;
+  // this matters for cards whose whole paradigm is one phrase.
+  for (const form of lower) if (form.includes(' ') && formInSentence(text, form)) return true
+  return false
 }
 
 /**
