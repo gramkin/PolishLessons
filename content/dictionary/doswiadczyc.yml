@@ -1,0 +1,693 @@
+# review
+id: doswiadczyc
+format: 2
+lemma: "doświadczyć"
+rank: 1404
+pos: verb
+pron: { cyr: "досьвя́дчыць" }
+senses:
+  - id: undergo
+    ru: "испытать, претерпеть (с РОДИТЕЛЬНЫМ)"
+    examples:
+      - pl: "Doświadczył wielkiej straty."
+        ru: "Он испытал большую потерю."
+        source: { kind: authored }
+      - pl: "Doświadczyłem tego na własnej skórze."
+        ru: "Я испытал это на собственной шкуре."
+        source: { kind: authored }
+      - pl: "Kraj doświadczył najgorszej powodzi w historii."
+        ru: "Страна пережила худшее наводнение в истории."
+        source: { kind: authored }
+  - id: experienced
+    ru: "doświadczony — опытный"
+    examples:
+      - pl: "To doświadczony lekarz."
+        ru: "Это опытный врач."
+        source: { kind: authored }
+      - pl: "Doświadczeni pracownicy zostali."
+        ru: "Опытные работники остались."
+        source: { kind: authored }
+  - id: experience-noun
+    ru: "doświadczenie — опыт; опыт, эксперимент"
+    examples:
+      - pl: "Doświadczenie przychodzi z latami."
+        ru: "Опыт приходит с годами."
+        source: { kind: authored }
+      - pl: "Doświadczenie w laboratorium trwało tydzień."
+        ru: "Опыт в лаборатории шёл неделю."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "ГЛАВНОЕ о этом глаголе. Он требует РОДИТЕЛЬНОГО падежа: doświadczyć bólu, doświadczyć straty, doświadczyć czegoś. По-русски «испытать» берёт винительный («испытать боль»), поэтому doświadczyć ból — ошибка, которую русскоязычный делает почти наверняка. Правильно только doświadczyć bólu." }
+  - { kind: false-friend, text: "Существительное doświadczenie покрывает сразу два русских слова: «опыт» как житейская мудрость (ma duże doświadczenie «у него большой опыт») и «опыт, эксперимент» как научное действие (doświadczenie w laboratorium). Контекст различает их легко, но помнить о двойственности стоит." }
+  - { kind: usage, text: "Причастие doświadczony живёт и самостоятельной жизнью — как обычное прилагательное «опытный»: doświadczony przewodnik, doświadczona położna. В этом значении оно даже образует степени сравнения (bardziej doświadczony). Несовершенная пара — doświadczać." }
+  - { kind: pronunciation, text: "Страдательное причастие даёт -ony почти везде, но в мужско-личном множественном o переходит в e: doświadczony — doświadczeni, porzucony — porzuceni. Та же мена у zatrudniony — zatrudnieni и podzielony — podzieleni; выучив её один раз, вы узнаете её у всех таких причастий." }
+collocations:
+  - { pl: "doświadczyć straty", ru: "испытать потерю" }
+  - { pl: "doświadczony lekarz", ru: "опытный врач" }
+  - { pl: "mieć duże doświadczenie", ru: "иметь большой опыт" }
+family:
+  - { pl: "doświadczać", ru: "испытывать", relation: aspect }
+  - { pl: "doświadczenie", ru: "опыт; эксперимент", relation: derived, id: doswiadczenie }
+  - { pl: "świadczyć", ru: "свидетельствовать; оказывать", relation: root, id: swiadczyc }
+etymology: "Приставка do- плюс świadczyć «свидетельствовать», от świadek «свидетель», праславянское *sъvědъ — того же корня, что русские «сведать», «сведения», «свидетель». Логика слова: испытать на себе значит стать свидетелем чего-то изнутри. Отсюда и doświadczenie «опыт» — буквально «засвидетельствованное собой»."
+memory: "doświadczyć — «испытать», от świadczyć «свидетельствовать»: испытать значит стать свидетелем изнутри. Запомните падеж: только РОДИТЕЛЬНЫЙ, doświadczyć bólu, а не ból. И doświadczony значит просто «опытный»."
+idioms:
+  - { pl: "doświadczyć czegoś na własnej skórze", ru: "испытать что-л. на собственной шкуре" }
+  - { pl: "mieć duże doświadczenie", ru: "иметь большой опыт" }
+formExamples:
+  - form: "doświadcz"
+    pl: "Doświadcz tego sam, zanim ocenisz."
+    ru: "Испытай это сам, прежде чем судить."
+    source: { kind: authored }
+  - form: "doświadcz"
+    pl: "Doświadcz raz spokoju, a nie wrócisz do miasta."
+    ru: "Испытай раз покой — и не вернёшься в город."
+    source: { kind: authored }
+  - form: "doświadcz"
+    pl: "Doświadcz tego, co przeszliśmy."
+    ru: "Испытай то, что мы прошли."
+    source: { kind: authored }
+  - form: "doświadczcie"
+    pl: "Doświadczcie tego sami."
+    ru: "Испытайте это сами."
+    source: { kind: authored }
+  - form: "doświadczcie"
+    pl: "Doświadczcie takiej ciszy choć raz."
+    ru: "Испытайте такую тишину хоть раз."
+    source: { kind: authored }
+  - form: "doświadczcie"
+    pl: "Doświadczcie tego, o czym mówimy."
+    ru: "Испытайте то, о чём мы говорим."
+    source: { kind: authored }
+  - form: "doświadczeni"
+    pl: "Doświadczeni pracownicy zostali."
+    ru: "Опытные работники остались."
+    source: { kind: authored }
+  - form: "doświadczeni"
+    pl: "Doświadczeni wspinacze ruszyli pierwsi."
+    ru: "Опытные скалолазы пошли первыми."
+    source: { kind: authored }
+  - form: "doświadczeni"
+    pl: "Jesteśmy zbyt doświadczeni, by w to uwierzyć."
+    ru: "Мы слишком опытны, чтобы в это поверить."
+    source: { kind: authored }
+  - form: "doświadczenia"
+    pl: "Nie ma doświadczenia w tej dziedzinie."
+    ru: "У него нет опыта в этой области."
+    source: { kind: authored }
+  - form: "doświadczenia"
+    pl: "Z doświadczenia wiem, że tak nie będzie."
+    ru: "По опыту знаю, что так не будет."
+    source: { kind: authored }
+  - form: "doświadczenia"
+    pl: "Wynik doświadczenia zaskoczył wszystkich."
+    ru: "Результат опыта удивил всех."
+    source: { kind: authored }
+  - form: "doświadczenie"
+    pl: "Doświadczenie przychodzi z latami."
+    ru: "Опыт приходит с годами."
+    source: { kind: authored }
+  - form: "doświadczenie"
+    pl: "To było przykre doświadczenie."
+    ru: "Это был неприятный опыт."
+    source: { kind: authored }
+  - form: "doświadczenie"
+    pl: "Doświadczenie w laboratorium trwało tydzień."
+    ru: "Опыт в лаборатории шёл неделю."
+    source: { kind: authored }
+  - form: "doświadczeniem"
+    pl: "Szukamy kogoś z doświadczeniem."
+    ru: "Мы ищем кого-то с опытом."
+    source: { kind: authored }
+  - form: "doświadczeniem"
+    pl: "Było to dla mnie trudnym doświadczeniem."
+    ru: "Это было для меня трудным опытом."
+    source: { kind: authored }
+  - form: "doświadczeniem"
+    pl: "Dzielił się doświadczeniem z młodszymi."
+    ru: "Он делился опытом с младшими."
+    source: { kind: authored }
+  - form: "doświadczeniu"
+    pl: "Po tym doświadczeniu nie wrócił do pracy."
+    ru: "После этого опыта он не вернулся на работу."
+    source: { kind: authored }
+  - form: "doświadczeniu"
+    pl: "Mówiono o doświadczeniu na zwierzętach."
+    ru: "Говорили об опытах на животных."
+    source: { kind: authored }
+  - form: "doświadczeniu"
+    pl: "W jego doświadczeniu nie było nic podobnego."
+    ru: "В его опыте не было ничего похожего."
+    source: { kind: authored }
+  - form: "doświadczmy"
+    pl: "Doświadczmy tego razem."
+    ru: "Испытаем это вместе."
+    source: { kind: authored }
+  - form: "doświadczmy"
+    pl: "Doświadczmy wreszcie spokoju."
+    ru: "Испытаем наконец покой."
+    source: { kind: authored }
+  - form: "doświadczmy"
+    pl: "Doświadczmy czegoś nowego."
+    ru: "Испытаем что-нибудь новое."
+    source: { kind: authored }
+  - form: "doświadczona"
+    pl: "To doświadczona nauczycielka."
+    ru: "Это опытная учительница."
+    source: { kind: authored }
+  - form: "doświadczona"
+    pl: "Doświadczona pielęgniarka od razu wiedziała, co robić."
+    ru: "Опытная медсестра сразу знала, что делать."
+    source: { kind: authored }
+  - form: "doświadczona"
+    pl: "Jest bardziej doświadczona niż cały zespół."
+    ru: "Она опытнее всей команды."
+    source: { kind: authored }
+  - form: "doświadczone"
+    pl: "Doświadczone ekipy pracowały całą noc."
+    ru: "Опытные расчёты работали всю ночь."
+    source: { kind: authored }
+  - form: "doświadczone"
+    pl: "Doświadczone oko dostrzeże różnicę."
+    ru: "Опытный глаз заметит разницу."
+    source: { kind: authored }
+  - form: "doświadczone"
+    pl: "Doświadczone dłonie ulepiły garnek w minutę."
+    ru: "Опытные руки слепили горшок за минуту."
+    source: { kind: authored }
+  - form: "doświadczonego"
+    pl: "Szukamy doświadczonego kierowcy."
+    ru: "Мы ищем опытного водителя."
+    source: { kind: authored }
+  - form: "doświadczonego"
+    pl: "Nie ma tu nikogo doświadczonego."
+    ru: "Здесь нет никого опытного."
+    source: { kind: authored }
+  - form: "doświadczonego"
+    pl: "Rada doświadczonego człowieka jest warta więcej."
+    ru: "Совет опытного человека стоит дороже."
+    source: { kind: authored }
+  - form: "doświadczonej"
+    pl: "Potrzebujemy doświadczonej położnej."
+    ru: "Нам нужна опытная акушерка."
+    source: { kind: authored }
+  - form: "doświadczonej"
+    pl: "Nie znaleźli doświadczonej tłumaczki."
+    ru: "Они не нашли опытную переводчицу."
+    source: { kind: authored }
+  - form: "doświadczonej"
+    pl: "Zdanie doświadczonej lekarki przeważyło."
+    ru: "Мнение опытной врачихи перевесило."
+    source: { kind: authored }
+  - form: "doświadczonemu"
+    pl: "Doświadczonemu wspinaczowi ta ściana nie zrobi różnicy."
+    ru: "Опытному скалолазу эта стена не помеха."
+    source: { kind: authored }
+  - form: "doświadczonemu"
+    pl: "Dzięki doświadczonemu pilotowi wylądowali bezpiecznie."
+    ru: "Благодаря опытному пилоту они сели благополучно."
+    source: { kind: authored }
+  - form: "doświadczonemu"
+    pl: "Przyjrzyj się temu doświadczonemu zawodnikowi."
+    ru: "Присмотрись к этому опытному игроку."
+    source: { kind: authored }
+  - form: "doświadczono"
+    pl: "Doświadczono na nich nowej terapii."
+    ru: "На них испробовали новую терапию."
+    source: { kind: authored }
+  - form: "doświadczono"
+    pl: "W tym kraju doświadczono wielu reform."
+    ru: "В этой стране испытали много реформ."
+    source: { kind: authored }
+  - form: "doświadczono"
+    pl: "Nigdy wcześniej nie doświadczono takiej suszy."
+    ru: "Никогда прежде не переживали такой засухи."
+    source: { kind: authored }
+  - form: "doświadczony"
+    pl: "To doświadczony lekarz."
+    ru: "Это опытный врач."
+    source: { kind: authored }
+  - form: "doświadczony"
+    pl: "Doświadczony przewodnik znalazł drogę."
+    ru: "Опытный проводник нашёл дорогу."
+    source: { kind: authored }
+  - form: "doświadczony"
+    pl: "Jest zbyt doświadczony, by się dać zwieść."
+    ru: "Он слишком опытен, чтобы дать себя обмануть."
+    source: { kind: authored }
+  - form: "doświadczonych"
+    pl: "Brakuje nam doświadczonych ludzi."
+    ru: "Нам не хватает опытных людей."
+    source: { kind: authored }
+  - form: "doświadczonych"
+    pl: "O doświadczonych pracownikach nie zapominają."
+    ru: "Об опытных работниках не забывают."
+    source: { kind: authored }
+  - form: "doświadczonych"
+    pl: "Szukali dwóch doświadczonych murarzy."
+    ru: "Они искали двух опытных каменщиков."
+    source: { kind: authored }
+  - form: "doświadczonym"
+    pl: "W doświadczonym zespole nie ma paniki."
+    ru: "В опытной команде нет паники."
+    source: { kind: authored }
+  - form: "doświadczonym"
+    pl: "Rozmawiał z doświadczonym prawnikiem."
+    ru: "Он говорил с опытным юристом."
+    source: { kind: authored }
+  - form: "doświadczonym"
+    pl: "Doświadczonym pracownikom powierzono szkolenie."
+    ru: "Опытным работникам поручили обучение."
+    source: { kind: authored }
+  - form: "doświadczonymi"
+    pl: "Między doświadczonymi a nowymi pracownikami jest przepaść."
+    ru: "Между опытными и новыми работниками пропасть."
+    source: { kind: authored }
+  - form: "doświadczonymi"
+    pl: "Pracuje z doświadczonymi ratownikami."
+    ru: "Он работает с опытными спасателями."
+    source: { kind: authored }
+  - form: "doświadczonymi"
+    pl: "Zespół obsadzono doświadczonymi ludźmi."
+    ru: "Команду укомплектовали опытными людьми."
+    source: { kind: authored }
+  - form: "doświadczoną"
+    pl: "Zatrudnili doświadczoną księgową."
+    ru: "Они наняли опытного бухгалтера."
+    source: { kind: authored }
+  - form: "doświadczoną"
+    pl: "Uważano ją za doświadczoną negocjatorkę."
+    ru: "Её считали опытным переговорщиком."
+    source: { kind: authored }
+  - form: "doświadczoną"
+    pl: "Znalazł doświadczoną opiekunkę."
+    ru: "Он нашёл опытную няню."
+    source: { kind: authored }
+  - form: "doświadczy"
+    pl: "Każdy kiedyś doświadczy straty."
+    ru: "Каждый когда-нибудь испытает потерю."
+    source: { kind: authored }
+  - form: "doświadczy"
+    pl: "Nikt nie doświadczy tego dwa razy."
+    ru: "Никто не испытает это дважды."
+    source: { kind: authored }
+  - form: "doświadczy"
+    pl: "Pacjent doświadczy ulgi po godzinie."
+    ru: "Больной почувствует облегчение через час."
+    source: { kind: authored }
+  - form: "doświadczycie"
+    pl: "Doświadczycie tego na własnej skórze."
+    ru: "Вы испытаете это на собственной шкуре."
+    source: { kind: authored }
+  - form: "doświadczycie"
+    pl: "Jeśli doświadczycie problemów, dzwońcie."
+    ru: "Если столкнётесь с проблемами, звоните."
+    source: { kind: authored }
+  - form: "doświadczycie"
+    pl: "Nie doświadczycie tam żadnych trudności."
+    ru: "Никаких трудностей вы там не испытаете."
+    source: { kind: authored }
+  - form: "doświadczyli"
+    pl: "Doświadczyli głodu i zimna."
+    ru: "Они испытали голод и холод."
+    source: { kind: authored }
+  - form: "doświadczyli"
+    pl: "Nie doświadczyli pomocy od nikogo."
+    ru: "Они ни от кого не получили помощи."
+    source: { kind: authored }
+  - form: "doświadczyli"
+    pl: "Żołnierze doświadczyli najgorszego."
+    ru: "Солдаты испытали худшее."
+    source: { kind: authored }
+  - form: "doświadczyliby"
+    pl: "Doświadczyliby tego samego co my."
+    ru: "Они испытали бы то же, что и мы."
+    source: { kind: authored }
+  - form: "doświadczyliby"
+    pl: "Nie doświadczyliby głodu, gdyby pomoc przyszła."
+    ru: "Они не испытали бы голода, если бы помощь пришла."
+    source: { kind: authored }
+  - form: "doświadczyliby"
+    pl: "Mieszkańcy doświadczyliby przerw w dostawach."
+    ru: "Жители столкнулись бы с перебоями в поставках."
+    source: { kind: authored }
+  - form: "doświadczylibyście"
+    pl: "Doświadczylibyście tego samego."
+    ru: "Вы испытали бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczylibyście"
+    pl: "Czy doświadczylibyście tego dobrowolnie?"
+    ru: "Вы испытали бы это добровольно?"
+    source: { kind: authored }
+  - form: "doświadczylibyście"
+    pl: "Nie doświadczylibyście tam trudności."
+    ru: "Трудностей вы бы там не испытали."
+    source: { kind: authored }
+  - form: "doświadczylibyśmy"
+    pl: "Doświadczylibyśmy tego samego."
+    ru: "Мы испытали бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczylibyśmy"
+    pl: "Bez waszej pomocy doświadczylibyśmy katastrofy."
+    ru: "Без вашей помощи мы пережили бы катастрофу."
+    source: { kind: authored }
+  - form: "doświadczylibyśmy"
+    pl: "Nie doświadczylibyśmy tego dobrowolnie."
+    ru: "Добровольно мы бы это не испытали."
+    source: { kind: authored }
+  - form: "doświadczyliście"
+    pl: "Czego doświadczyliście w tej podróży?"
+    ru: "Что вы испытали в этой поездке?"
+    source: { kind: authored }
+  - form: "doświadczyliście"
+    pl: "Doświadczyliście tego sami."
+    ru: "Вы испытали это сами."
+    source: { kind: authored }
+  - form: "doświadczyliście"
+    pl: "Nie doświadczyliście jeszcze najgorszego."
+    ru: "Худшего вы ещё не испытали."
+    source: { kind: authored }
+  - form: "doświadczyliśmy"
+    pl: "Doświadczyliśmy razem najgorszego."
+    ru: "Мы вместе испытали худшее."
+    source: { kind: authored }
+  - form: "doświadczyliśmy"
+    pl: "Nie doświadczyliśmy żadnej pomocy."
+    ru: "Мы не получили никакой помощи."
+    source: { kind: authored }
+  - form: "doświadczyliśmy"
+    pl: "Doświadczyliśmy ogromnej życzliwości."
+    ru: "Мы испытали огромную доброту."
+    source: { kind: authored }
+  - form: "doświadczymy"
+    pl: "Doświadczymy tego wszyscy."
+    ru: "Мы все это испытаем."
+    source: { kind: authored }
+  - form: "doświadczymy"
+    pl: "Jeśli doświadczymy awarii, zgłosimy to."
+    ru: "Если столкнёмся с аварией, сообщим."
+    source: { kind: authored }
+  - form: "doświadczymy"
+    pl: "Nie doświadczymy już takiej zimy."
+    ru: "Такой зимы мы уже не испытаем."
+    source: { kind: authored }
+  - form: "doświadczysz"
+    pl: "Jeśli doświadczysz bólu, powiedz od razu."
+    ru: "Если испытаешь боль, скажи сразу."
+    source: { kind: authored }
+  - form: "doświadczysz"
+    pl: "Doświadczysz tego sam."
+    ru: "Ты испытаешь это сам."
+    source: { kind: authored }
+  - form: "doświadczysz"
+    pl: "Nigdy nie doświadczysz takiej ciszy w mieście."
+    ru: "Такой тишины в городе ты никогда не испытаешь."
+    source: { kind: authored }
+  - form: "doświadczywszy"
+    pl: "Doświadczywszy straty, zaczął pomagać innym."
+    ru: "Испытав потерю, он начал помогать другим."
+    source: { kind: authored }
+  - form: "doświadczywszy"
+    pl: "Doświadczywszy głodu, nie wyrzucał jedzenia."
+    ru: "Испытав голод, он не выбрасывал еду."
+    source: { kind: authored }
+  - form: "doświadczywszy"
+    pl: "Doświadczywszy tego sama, rozumiała ich lepiej."
+    ru: "Испытав это сама, она понимала их лучше."
+    source: { kind: authored }
+  - form: "doświadczyć"
+    pl: "Nie chcę tego nigdy doświadczyć."
+    ru: "Я не хочу никогда этого испытать."
+    source: { kind: authored }
+  - form: "doświadczyć"
+    pl: "Musiał doświadczyć straty, żeby zrozumieć."
+    ru: "Ему пришлось испытать потерю, чтобы понять."
+    source: { kind: authored }
+  - form: "doświadczyć"
+    pl: "Trudno doświadczyć czegoś takiego dwa razy."
+    ru: "Трудно испытать такое дважды."
+    source: { kind: authored }
+  - form: "doświadczył"
+    pl: "Doświadczył wielkiej straty."
+    ru: "Он испытал большую потерю."
+    source: { kind: authored }
+  - form: "doświadczył"
+    pl: "Nie doświadczył nigdy głodu."
+    ru: "Он никогда не испытывал голода."
+    source: { kind: authored }
+  - form: "doświadczył"
+    pl: "Kraj doświadczył najgorszej powodzi w historii."
+    ru: "Страна пережила худшее наводнение в истории."
+    source: { kind: authored }
+  - form: "doświadczyła"
+    pl: "Doświadczyła w życiu wiele."
+    ru: "Она испытала в жизни многое."
+    source: { kind: authored }
+  - form: "doświadczyła"
+    pl: "Rodzina doświadczyła tragedii."
+    ru: "Семья пережила трагедию."
+    source: { kind: authored }
+  - form: "doświadczyła"
+    pl: "Nie doświadczyła nigdy takiej życzliwości."
+    ru: "Такой доброты она никогда не испытывала."
+    source: { kind: authored }
+  - form: "doświadczyłaby"
+    pl: "Doświadczyłaby tego samego."
+    ru: "Она испытала бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczyłaby"
+    pl: "Rodzina doświadczyłaby ogromnej straty."
+    ru: "Семья испытала бы огромную потерю."
+    source: { kind: authored }
+  - form: "doświadczyłaby"
+    pl: "Nie doświadczyłaby takiego strachu w dzień."
+    ru: "Такого страха днём она бы не испытала."
+    source: { kind: authored }
+  - form: "doświadczyłabym"
+    pl: "Doświadczyłabym tego chętnie."
+    ru: "Я охотно испытала бы это."
+    source: { kind: authored }
+  - form: "doświadczyłabym"
+    pl: "Na jej miejscu doświadczyłabym tego sama."
+    ru: "На её месте я испытала бы это сама."
+    source: { kind: authored }
+  - form: "doświadczyłabym"
+    pl: "Nie doświadczyłabym tego drugi raz."
+    ru: "Второй раз я бы это не испытала."
+    source: { kind: authored }
+  - form: "doświadczyłabyś"
+    pl: "Doświadczyłabyś tego samego strachu."
+    ru: "Ты испытала бы тот же страх."
+    source: { kind: authored }
+  - form: "doświadczyłabyś"
+    pl: "Czy doświadczyłabyś tego jeszcze raz?"
+    ru: "Ты испытала бы это ещё раз?"
+    source: { kind: authored }
+  - form: "doświadczyłabyś"
+    pl: "Nie doświadczyłabyś tam samotności."
+    ru: "Одиночества ты бы там не испытала."
+    source: { kind: authored }
+  - form: "doświadczyłam"
+    pl: "Doświadczyłam wtedy wielkiego strachu."
+    ru: "Я испытала тогда большой страх."
+    source: { kind: authored }
+  - form: "doświadczyłam"
+    pl: "Nie doświadczyłam nigdy takiej samotności."
+    ru: "Я никогда не испытывала такого одиночества."
+    source: { kind: authored }
+  - form: "doświadczyłam"
+    pl: "Doświadczyłam tego dwa razy."
+    ru: "Я испытала это дважды."
+    source: { kind: authored }
+  - form: "doświadczyłaś"
+    pl: "Czy doświadczyłaś kiedyś takiej ciszy?"
+    ru: "Ты когда-нибудь испытывала такую тишину?"
+    source: { kind: authored }
+  - form: "doświadczyłaś"
+    pl: "Doświadczyłaś wiele w życiu."
+    ru: "Ты испытала многое в жизни."
+    source: { kind: authored }
+  - form: "doświadczyłaś"
+    pl: "Nie doświadczyłaś tego na własnej skórze."
+    ru: "Ты не испытала это на собственной шкуре."
+    source: { kind: authored }
+  - form: "doświadczyłby"
+    pl: "Doświadczyłby tego samego na naszym miejscu."
+    ru: "Он испытал бы то же на нашем месте."
+    source: { kind: authored }
+  - form: "doświadczyłby"
+    pl: "Nikt inny nie doświadczyłby tyle w tak krótkim czasie."
+    ru: "Никто другой не испытал бы столько за такое короткое время."
+    source: { kind: authored }
+  - form: "doświadczyłby"
+    pl: "Doświadczyłby ulgi, gdyby się przyznał."
+    ru: "Он испытал бы облегчение, если бы признался."
+    source: { kind: authored }
+  - form: "doświadczyłbym"
+    pl: "Doświadczyłbym tego chętnie raz jeszcze."
+    ru: "Я охотно испытал бы это ещё раз."
+    source: { kind: authored }
+  - form: "doświadczyłbym"
+    pl: "Na twoim miejscu doświadczyłbym tego sam."
+    ru: "На твоём месте я испытал бы это сам."
+    source: { kind: authored }
+  - form: "doświadczyłbym"
+    pl: "Nie doświadczyłbym tego dobrowolnie."
+    ru: "Добровольно я бы это не испытал."
+    source: { kind: authored }
+  - form: "doświadczyłbyś"
+    pl: "Doświadczyłbyś tego samego."
+    ru: "Ты испытал бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczyłbyś"
+    pl: "Czy doświadczyłbyś tego dobrowolnie?"
+    ru: "Ты испытал бы это добровольно?"
+    source: { kind: authored }
+  - form: "doświadczyłbyś"
+    pl: "Nie doświadczyłbyś takiej ciszy w mieście."
+    ru: "Такой тишины в городе ты бы не испытал."
+    source: { kind: authored }
+  - form: "doświadczyłem"
+    pl: "Doświadczyłem tego na własnej skórze."
+    ru: "Я испытал это на собственной шкуре."
+    source: { kind: authored }
+  - form: "doświadczyłem"
+    pl: "Nigdy nie doświadczyłem takiej życzliwości."
+    ru: "Я никогда не испытывал такой доброты."
+    source: { kind: authored }
+  - form: "doświadczyłem"
+    pl: "Doświadczyłem straty bliskiej osoby."
+    ru: "Я испытал потерю близкого человека."
+    source: { kind: authored }
+  - form: "doświadczyłeś"
+    pl: "Czy doświadczyłeś kiedyś czegoś podobnego?"
+    ru: "Ты когда-нибудь испытывал что-то похожее?"
+    source: { kind: authored }
+  - form: "doświadczyłeś"
+    pl: "Doświadczyłeś tego sam."
+    ru: "Ты испытал это сам."
+    source: { kind: authored }
+  - form: "doświadczyłeś"
+    pl: "Nie doświadczyłeś jeszcze prawdziwej biedy."
+    ru: "Настоящей нищеты ты ещё не испытал."
+    source: { kind: authored }
+  - form: "doświadczyło"
+    pl: "Miasto doświadczyło trzęsienia ziemi."
+    ru: "Город пережил землетрясение."
+    source: { kind: authored }
+  - form: "doświadczyło"
+    pl: "Dziecko doświadczyło szoku."
+    ru: "Ребёнок испытал шок."
+    source: { kind: authored }
+  - form: "doświadczyło"
+    pl: "To pokolenie doświadczyło wojny i biedy."
+    ru: "Это поколение испытало войну и нищету."
+    source: { kind: authored }
+  - form: "doświadczyłoby"
+    pl: "Miasto doświadczyłoby katastrofy."
+    ru: "Город пережил бы катастрофу."
+    source: { kind: authored }
+  - form: "doświadczyłoby"
+    pl: "Dziecko doświadczyłoby szoku."
+    ru: "Ребёнок испытал бы шок."
+    source: { kind: authored }
+  - form: "doświadczyłoby"
+    pl: "To pokolenie doświadczyłoby tego samego."
+    ru: "Это поколение испытало бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczyły"
+    pl: "Rodziny doświadczyły straty."
+    ru: "Семьи испытали потерю."
+    source: { kind: authored }
+  - form: "doświadczyły"
+    pl: "Kobiety doświadczyły przemocy."
+    ru: "Женщины испытали насилие."
+    source: { kind: authored }
+  - form: "doświadczyły"
+    pl: "Te wsie doświadczyły powodzi dwa razy."
+    ru: "Эти деревни пережили наводнение дважды."
+    source: { kind: authored }
+  - form: "doświadczyłyby"
+    pl: "Rodziny doświadczyłyby straty."
+    ru: "Семьи испытали бы потерю."
+    source: { kind: authored }
+  - form: "doświadczyłyby"
+    pl: "Te wsie doświadczyłyby powodzi."
+    ru: "Эти деревни пережили бы наводнение."
+    source: { kind: authored }
+  - form: "doświadczyłyby"
+    pl: "Nie doświadczyłyby przemocy, gdyby ktoś zareagował."
+    ru: "Они не испытали бы насилия, если бы кто-то вмешался."
+    source: { kind: authored }
+  - form: "doświadczyłybyście"
+    pl: "Doświadczyłybyście tego samego."
+    ru: "Вы испытали бы то же самое."
+    source: { kind: authored }
+  - form: "doświadczyłybyście"
+    pl: "Czy doświadczyłybyście tego jeszcze raz?"
+    ru: "Вы испытали бы это ещё раз?"
+    source: { kind: authored }
+  - form: "doświadczyłybyście"
+    pl: "Nie doświadczyłybyście tam samotności."
+    ru: "Одиночества вы бы там не испытали."
+    source: { kind: authored }
+  - form: "doświadczyłybyśmy"
+    pl: "Doświadczyłybyśmy tego samego strachu."
+    ru: "Мы испытали бы тот же страх."
+    source: { kind: authored }
+  - form: "doświadczyłybyśmy"
+    pl: "Bez pomocy doświadczyłybyśmy głodu."
+    ru: "Без помощи мы испытали бы голод."
+    source: { kind: authored }
+  - form: "doświadczyłybyśmy"
+    pl: "Nie doświadczyłybyśmy tego drugi raz."
+    ru: "Второй раз мы бы это не испытали."
+    source: { kind: authored }
+  - form: "doświadczyłyście"
+    pl: "Czego doświadczyłyście w tym domu?"
+    ru: "Что вы испытали в этом доме?"
+    source: { kind: authored }
+  - form: "doświadczyłyście"
+    pl: "Doświadczyłyście wiele."
+    ru: "Вы испытали многое."
+    source: { kind: authored }
+  - form: "doświadczyłyście"
+    pl: "Nie doświadczyłyście tam spokoju."
+    ru: "Покоя вы там не испытали."
+    source: { kind: authored }
+  - form: "doświadczyłyśmy"
+    pl: "Doświadczyłyśmy wtedy wielkiego strachu."
+    ru: "Мы испытали тогда большой страх."
+    source: { kind: authored }
+  - form: "doświadczyłyśmy"
+    pl: "Nie doświadczyłyśmy takiej zimy nigdy wcześniej."
+    ru: "Такой зимы мы никогда прежде не испытывали."
+    source: { kind: authored }
+  - form: "doświadczyłyśmy"
+    pl: "Doświadczyłyśmy tego obie."
+    ru: "Мы испытали это обе."
+    source: { kind: authored }
+  - form: "doświadczą"
+    pl: "Doświadczą tego samego co my."
+    ru: "Они испытают то же, что и мы."
+    source: { kind: authored }
+  - form: "doświadczą"
+    pl: "Nie doświadczą już takiej biedy."
+    ru: "Такой нищеты они уже не испытают."
+    source: { kind: authored }
+  - form: "doświadczą"
+    pl: "Mieszkańcy doświadczą przerw w dostawie wody."
+    ru: "Жители столкнутся с перебоями в подаче воды."
+    source: { kind: authored }
+  - form: "doświadczę"
+    pl: "Mam nadzieję, że nigdy tego nie doświadczę."
+    ru: "Надеюсь, я никогда этого не испытаю."
+    source: { kind: authored }
+  - form: "doświadczę"
+    pl: "Jutro doświadczę tego na własnej skórze."
+    ru: "Завтра я испытаю это на собственной шкуре."
+    source: { kind: authored }
+  - form: "doświadczę"
+    pl: "Nie doświadczę już takiego strachu."
+    ru: "Такого страха я уже не испытаю."
+    source: { kind: authored }
