@@ -12,8 +12,8 @@ import {
   rankLemmas,
 } from '../lib/rank'
 
-const FORM_LIMIT = 20000
-const LEMMA_LIMIT = 2000
+const FORM_LIMIT = 50000
+const LEMMA_LIMIT = 5400
 
 const freq = parseFrequencyList(readFileSync(SOURCES.frequency, 'utf8'), FORM_LIMIT)
 const overrides = parseOverrides(readFileSync(DATA.overrides, 'utf8'))
