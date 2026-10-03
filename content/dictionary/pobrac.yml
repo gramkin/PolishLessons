@@ -1,0 +1,693 @@
+# review
+id: pobrac
+format: 2
+lemma: "pobrać"
+rank: 2001
+pos: verb
+pron: { cyr: "по́браць" }
+senses:
+  - id: collect
+    ru: "взять, получить, снять (плату, деньги)"
+    examples:
+      - pl: "Pobrali opłatę przy wejściu."
+        ru: "Они взяли плату при входе."
+        source: { kind: authored }
+      - pl: "Pobrałem pensję dopiero w piątek."
+        ru: "Я получил зарплату только в пятницу."
+        source: { kind: authored }
+      - pl: "Pobrana kwota wróciła na konto."
+        ru: "Снятая сумма вернулась на счёт."
+        source: { kind: authored }
+  - id: take-sample
+    ru: "взять (пробу, кровь, материал)"
+    examples:
+      - pl: "Pielęgniarka pobrała krew do badania."
+        ru: "Медсестра взяла кровь на анализ."
+        source: { kind: authored }
+      - pl: "Pobrano próbki wody z trzech studni."
+        ru: "Взяли пробы воды из трёх колодцев."
+        source: { kind: authored }
+  - id: download
+    ru: "скачать (файл, программу)"
+    examples:
+      - pl: "Pobierz plik z naszej strony."
+        ru: "Скачай файл с нашего сайта."
+        source: { kind: authored }
+      - pl: "Pobrane zdjęcia leżą w osobnym folderze."
+        ru: "Скачанные фото лежат в отдельной папке."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "ТО ЖЕ ЧЕРЕДОВАНИЕ, ЧТО У PRZEBRAĆ, и то же, что в русском. Неопределённая форма pobrać, но будущее pobiorę, pobierzesz, pobierze: основа bra- переходит в bior-/bierz-, как русское «брать, беру, берёшь». Выучив одну пару, вы получаете все приставочные: pobrać, przebrać, zebrać, wybrać." }
+  - { kind: false-friend, text: "Разобрать слово по частям можно (po- плюс brać), но русского «побрать» в этом смысле нет, так что перевод зависит от случая: pobrać opłatę — «взять плату», pobrać krew — «взять кровь», pobrać plik — «СКАЧАТЬ файл». Последнее значение в современном языке самое частое, и русское «скачать» ему не родня по форме, только по делу." }
+  - { kind: government, text: "Берут ЧТО — винительный: pobrać opłatę, krew, plik. У кого — od с родительным: pobrać próbkę OD pacjenta. Откуда — z с родительным: pobrać pieniądze Z konta, pobrać plik ZE strony. Русский в последнем случае тоже говорит «с», так что модель совпадает." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — pobierać. Запомните оборот za pobraniem: przesyłka za pobraniem значит «посылка наложенным платежом» — обиходное выражение в любом почтовом отделении. Отсюда же pobór «призыв в армию; забор воды»." }
+collocations:
+  - { pl: "pobrać opłatę", ru: "взять плату" }
+  - { pl: "pobrać plik", ru: "скачать файл" }
+  - { pl: "za pobraniem", ru: "наложенным платежом" }
+family:
+  - { pl: "brać", ru: "брать", relation: root, id: brac }
+  - { pl: "pobierać", ru: "брать, взимать; скачивать", relation: aspect }
+  - { pl: "przebrać", ru: "переодеть; перебрать", relation: derived, id: przebrac }
+etymology: "Приставка po- плюс brać «брать», общеславянский корень с чередованием bra-/bior-, как в русском «брать/беру». Значения разошлись по областям: деньги, проба, файл. Отсюда pobór «призыв, забор» и pobranie «взятие», а в почтовом обороте za pobraniem — «наложенным платежом»."
+memory: "pobrać — «взять, получить», а в современном смысле ещё и «СКАЧАТЬ»: pobrać plik. Основа чередуется как в русском: pobrać, но pobiorę, pobierzesz. И запомните za pobraniem — «наложенным платежом»."
+idioms:
+  - { pl: "przesyłka za pobraniem", ru: "посылка наложенным платежом" }
+  - { pl: "pobrać próbkę", ru: "взять пробу" }
+formExamples:
+  - form: "pobierz"
+    pl: "Pobierz plik z naszej strony."
+    ru: "Скачай файл с нашего сайта."
+    source: { kind: authored }
+  - form: "pobierz"
+    pl: "Pobierz pieniądze z bankomatu po drodze."
+    ru: "Сними деньги в банкомате по пути."
+    source: { kind: authored }
+  - form: "pobierz"
+    pl: "Nie pobierz przypadkiem starej wersji."
+    ru: "Не скачай случайно старую версию."
+    source: { kind: authored }
+  - form: "pobierzcie"
+    pl: "Pobierzcie plik z naszej strony."
+    ru: "Скачайте файл с нашего сайта."
+    source: { kind: authored }
+  - form: "pobierzcie"
+    pl: "Pobierzcie próbki z każdej studni."
+    ru: "Возьмите пробы из каждого колодца."
+    source: { kind: authored }
+  - form: "pobierzcie"
+    pl: "Nie pobierzcie przypadkiem starej wersji."
+    ru: "Не скачайте случайно старую версию."
+    source: { kind: authored }
+  - form: "pobierze"
+    pl: "Kasjer pobierze opłatę przy wyjściu."
+    ru: "Кассир возьмёт плату на выходе."
+    source: { kind: authored }
+  - form: "pobierze"
+    pl: "Nikt nie pobierze od ciebie dodatkowej prowizji."
+    ru: "Никто не возьмёт с тебя дополнительной комиссии."
+    source: { kind: authored }
+  - form: "pobierze"
+    pl: "Program sam pobierze aktualizację."
+    ru: "Программа сама скачает обновление."
+    source: { kind: authored }
+  - form: "pobierzecie"
+    pl: "Pobierzecie opłatę czy wejście jest wolne?"
+    ru: "Вы возьмёте плату или вход свободный?"
+    source: { kind: authored }
+  - form: "pobierzecie"
+    pl: "Jeśli pobierzecie plik dziś, zdążycie."
+    ru: "Если скачаете файл сегодня, успеете."
+    source: { kind: authored }
+  - form: "pobierzecie"
+    pl: "Nie pobierzecie próbki bez zgody."
+    ru: "Вы не возьмёте пробу без согласия."
+    source: { kind: authored }
+  - form: "pobierzemy"
+    pl: "Pobierzemy opłatę przy wejściu."
+    ru: "Мы возьмём плату при входе."
+    source: { kind: authored }
+  - form: "pobierzemy"
+    pl: "Pobierzemy próbki jeszcze dziś."
+    ru: "Мы возьмём пробы ещё сегодня."
+    source: { kind: authored }
+  - form: "pobierzemy"
+    pl: "Nie pobierzemy od was żadnej prowizji."
+    ru: "Мы с вас никакой комиссии не возьмём."
+    source: { kind: authored }
+  - form: "pobierzesz"
+    pl: "Pobierzesz plik z naszej strony."
+    ru: "Ты скачаешь файл с нашего сайта."
+    source: { kind: authored }
+  - form: "pobierzesz"
+    pl: "Jeśli pobierzesz pieniądze dziś, zdążysz."
+    ru: "Если снимешь деньги сегодня, успеешь."
+    source: { kind: authored }
+  - form: "pobierzesz"
+    pl: "Nie pobierzesz próbki bez zgody pacjenta."
+    ru: "Ты не возьмёшь пробу без согласия пациента."
+    source: { kind: authored }
+  - form: "pobierzmy"
+    pl: "Pobierzmy próbki jeszcze przed deszczem."
+    ru: "Возьмём пробы ещё до дождя."
+    source: { kind: authored }
+  - form: "pobierzmy"
+    pl: "Pobierzmy plik i sprawdźmy sami."
+    ru: "Скачаем файл и проверим сами."
+    source: { kind: authored }
+  - form: "pobierzmy"
+    pl: "Nie pobierzmy przypadkiem starej wersji."
+    ru: "Не скачаем случайно старую версию."
+    source: { kind: authored }
+  - form: "pobiorą"
+    pl: "Pobiorą opłatę przy wejściu."
+    ru: "Плату возьмут при входе."
+    source: { kind: authored }
+  - form: "pobiorą"
+    pl: "Pobiorą krew o ósmej rano."
+    ru: "Кровь возьмут в восемь утра."
+    source: { kind: authored }
+  - form: "pobiorą"
+    pl: "Nie pobiorą od nas prowizji."
+    ru: "С нас не возьмут комиссии."
+    source: { kind: authored }
+  - form: "pobiorę"
+    pl: "Pobiorę pieniądze z konta jutro."
+    ru: "Я сниму деньги со счёта завтра."
+    source: { kind: authored }
+  - form: "pobiorę"
+    pl: "Pobiorę plik wieczorem."
+    ru: "Я скачаю файл вечером."
+    source: { kind: authored }
+  - form: "pobiorę"
+    pl: "Nie pobiorę od ciebie ani grosza."
+    ru: "Я с тебя ни гроша не возьму."
+    source: { kind: authored }
+  - form: "pobrali"
+    pl: "Pobrali opłatę przy wejściu."
+    ru: "Они взяли плату при входе."
+    source: { kind: authored }
+  - form: "pobrali"
+    pl: "Pobrali próbki z każdej studni."
+    ru: "Они взяли пробы из каждого колодца."
+    source: { kind: authored }
+  - form: "pobrali"
+    pl: "Nie pobrali od nas prowizji."
+    ru: "С нас они комиссии не взяли."
+    source: { kind: authored }
+  - form: "pobraliby"
+    pl: "Pobraliby opłatę, gdyby mieli prawo."
+    ru: "Они взяли бы плату, будь у них право."
+    source: { kind: authored }
+  - form: "pobraliby"
+    pl: "Bez zgody nie pobraliby żadnej próbki."
+    ru: "Без согласия они не взяли бы никакой пробы."
+    source: { kind: authored }
+  - form: "pobraliby"
+    pl: "Pobraliby plik, gdyby mieli internet."
+    ru: "Они скачали бы файл, будь у них интернет."
+    source: { kind: authored }
+  - form: "pobralibyście"
+    pl: "Pobralibyście pieniądze dziś czy jutro?"
+    ru: "Вы сняли бы деньги сегодня или завтра?"
+    source: { kind: authored }
+  - form: "pobralibyście"
+    pl: "Czy pobralibyście taki plik z nieznanej strony?"
+    ru: "Вы скачали бы такой файл с незнакомого сайта?"
+    source: { kind: authored }
+  - form: "pobralibyście"
+    pl: "Bez zgody nie pobralibyście próbki."
+    ru: "Без согласия вы не взяли бы пробу."
+    source: { kind: authored }
+  - form: "pobralibyśmy"
+    pl: "Pobralibyśmy pieniądze wcześniej."
+    ru: "Мы сняли бы деньги раньше."
+    source: { kind: authored }
+  - form: "pobralibyśmy"
+    pl: "Bez zgody nie pobralibyśmy próbki."
+    ru: "Без согласия мы не взяли бы пробу."
+    source: { kind: authored }
+  - form: "pobralibyśmy"
+    pl: "Na waszym miejscu nie pobralibyśmy tego pliku."
+    ru: "На вашем месте мы не скачивали бы этот файл."
+    source: { kind: authored }
+  - form: "pobraliście"
+    pl: "Pobraliście już pieniądze z konta?"
+    ru: "Вы уже сняли деньги со счёта?"
+    source: { kind: authored }
+  - form: "pobraliście"
+    pl: "Skąd pobraliście ten plik?"
+    ru: "Откуда вы скачали этот файл?"
+    source: { kind: authored }
+  - form: "pobraliście"
+    pl: "Chyba pobraliście starą wersję."
+    ru: "Вы, похоже, скачали старую версию."
+    source: { kind: authored }
+  - form: "pobraliśmy"
+    pl: "Pobraliśmy opłatę przy wejściu."
+    ru: "Мы взяли плату при входе."
+    source: { kind: authored }
+  - form: "pobraliśmy"
+    pl: "Pobraliśmy próbki z każdej studni."
+    ru: "Мы взяли пробы из каждого колодца."
+    source: { kind: authored }
+  - form: "pobraliśmy"
+    pl: "Nie pobraliśmy od was prowizji."
+    ru: "Мы с вас комиссии не взяли."
+    source: { kind: authored }
+  - form: "pobrana"
+    pl: "Pobrana kwota wróciła na konto."
+    ru: "Снятая сумма вернулась на счёт."
+    source: { kind: authored }
+  - form: "pobrana"
+    pl: "Pobrana próbka była za mała."
+    ru: "Взятая проба была слишком мала."
+    source: { kind: authored }
+  - form: "pobrana"
+    pl: "Pobrana opłata okazała się zawyżona."
+    ru: "Взятая плата оказалась завышенной."
+    source: { kind: authored }
+  - form: "pobrane"
+    pl: "Pobrane zdjęcia leżą w osobnym folderze."
+    ru: "Скачанные фото лежат в отдельной папке."
+    source: { kind: authored }
+  - form: "pobrane"
+    pl: "Pobrane próbki rozesłano do trzech laboratoriów."
+    ru: "Взятые пробы разослали в три лаборатории."
+    source: { kind: authored }
+  - form: "pobrane"
+    pl: "Pobrane opłaty zwrócono w całości."
+    ru: "Взятые платежи вернули полностью."
+    source: { kind: authored }
+  - form: "pobranego"
+    pl: "Źródła pobranego pliku nie dało się ustalić."
+    ru: "Источник скачанного файла установить не удалось."
+    source: { kind: authored }
+  - form: "pobranego"
+    pl: "Od pobranego materiału zależy cały wynik."
+    ru: "От взятого материала зависит весь результат."
+    source: { kind: authored }
+  - form: "pobranego"
+    pl: "Nie ma tu nic pobranego bez zgody."
+    ru: "Здесь нет ничего взятого без согласия."
+    source: { kind: authored }
+  - form: "pobranej"
+    pl: "Wysokość pobranej opłaty zapisano w protokole."
+    ru: "Размер взятой платы записали в протокол."
+    source: { kind: authored }
+  - form: "pobranej"
+    pl: "Nie znam próbki pobranej tak niestarannie."
+    ru: "Я не знаю пробы, взятой так небрежно."
+    source: { kind: authored }
+  - form: "pobranej"
+    pl: "Od pobranej zaliczki zależy termin."
+    ru: "От взятого задатка зависит срок."
+    source: { kind: authored }
+  - form: "pobranemu"
+    pl: "Pobranemu materiałowi nadano numer."
+    ru: "Взятому материалу присвоили номер."
+    source: { kind: authored }
+  - form: "pobranemu"
+    pl: "Dzięki pobranemu w porę plikowi odzyskali dane."
+    ru: "Благодаря вовремя скачанному файлу они восстановили данные."
+    source: { kind: authored }
+  - form: "pobranemu"
+    pl: "Przyjrzyj się temu pobranemu wczoraj plikowi."
+    ru: "Присмотрись к этому вчера скачанному файлу."
+    source: { kind: authored }
+  - form: "pobrani"
+    pl: "Pobrani do wojska rocznikowo wrócili po roku."
+    ru: "Призванные в армию по году вернулись через год."
+    source: { kind: authored }
+  - form: "pobrani"
+    pl: "Byliśmy pobrani na badania tego samego dnia."
+    ru: "Нас взяли на обследование в тот же день."
+    source: { kind: authored }
+  - form: "pobrani"
+    pl: "Pobrani do próby ochotnicy nic nie wiedzieli."
+    ru: "Отобранные для опыта добровольцы ничего не знали."
+    source: { kind: authored }
+  - form: "pobrania"
+    pl: "Przesyłka jest do pobrania na poczcie."
+    ru: "Посылка — к получению на почте."
+    source: { kind: authored }
+  - form: "pobrania"
+    pl: "Do pobrania próbki potrzebna jest zgoda."
+    ru: "Для взятия пробы нужно согласие."
+    source: { kind: authored }
+  - form: "pobrania"
+    pl: "Od pobrania krwi minęła godzina."
+    ru: "Со взятия крови прошёл час."
+    source: { kind: authored }
+  - form: "pobranie"
+    pl: "Pobranie krwi trwa dwie minuty."
+    ru: "Взятие крови длится две минуты."
+    source: { kind: authored }
+  - form: "pobranie"
+    pl: "Pobranie pliku zajęło pół godziny."
+    ru: "Скачивание файла заняло полчаса."
+    source: { kind: authored }
+  - form: "pobranie"
+    pl: "Pobranie opłaty bez pokwitowania jest niezgodne z prawem."
+    ru: "Взимание платы без расписки незаконно."
+    source: { kind: authored }
+  - form: "pobraniem"
+    pl: "Zamówił przesyłkę za pobraniem."
+    ru: "Он заказал посылку наложенным платежом."
+    source: { kind: authored }
+  - form: "pobraniem"
+    pl: "Przed pobraniem krwi nie wolno jeść."
+    ru: "Перед взятием крови нельзя есть."
+    source: { kind: authored }
+  - form: "pobraniem"
+    pl: "Między zamówieniem a pobraniem minął tydzień."
+    ru: "Между заказом и получением прошла неделя."
+    source: { kind: authored }
+  - form: "pobraniu"
+    pl: "Po pobraniu krwi trzeba chwilę posiedzieć."
+    ru: "После взятия крови надо немного посидеть."
+    source: { kind: authored }
+  - form: "pobraniu"
+    pl: "O pobraniu opłaty nikt nas nie uprzedził."
+    ru: "О взимании платы нас никто не предупредил."
+    source: { kind: authored }
+  - form: "pobraniu"
+    pl: "W pobraniu próbki nie ma nic skomplikowanego."
+    ru: "Во взятии пробы нет ничего сложного."
+    source: { kind: authored }
+  - form: "pobrano"
+    pl: "Pobrano próbki wody z trzech studni."
+    ru: "Взяли пробы воды из трёх колодцев."
+    source: { kind: authored }
+  - form: "pobrano"
+    pl: "Opłatę pobrano przy wejściu."
+    ru: "Плату взяли при входе."
+    source: { kind: authored }
+  - form: "pobrano"
+    pl: "Od pacjenta pobrano krew nad ranem."
+    ru: "У пациента взяли кровь под утро."
+    source: { kind: authored }
+  - form: "pobrany"
+    pl: "Pobrany plik okazał się uszkodzony."
+    ru: "Скачанный файл оказался повреждённым."
+    source: { kind: authored }
+  - form: "pobrany"
+    pl: "Pobrany materiał trafił do laboratorium."
+    ru: "Взятый материал попал в лабораторию."
+    source: { kind: authored }
+  - form: "pobrany"
+    pl: "Pobrany z konta przelew wrócił po tygodniu."
+    ru: "Снятый со счёта перевод вернулся через неделю."
+    source: { kind: authored }
+  - form: "pobranych"
+    pl: "Liczba pobranych plików przekroczyła milion."
+    ru: "Число скачанных файлов превысило миллион."
+    source: { kind: authored }
+  - form: "pobranych"
+    pl: "O pobranych bez zgody danych pisała prasa."
+    ru: "О взятых без согласия данных писала пресса."
+    source: { kind: authored }
+  - form: "pobranych"
+    pl: "Połowa pobranych próbek była skażona."
+    ru: "Половина взятых проб была заражена."
+    source: { kind: authored }
+  - form: "pobranym"
+    pl: "W pobranym pliku brakowało połowy stron."
+    ru: "В скачанном файле не хватало половины страниц."
+    source: { kind: authored }
+  - form: "pobranym"
+    pl: "Pobranym próbkom nadano kolejne numery."
+    ru: "Взятым пробам присвоили последовательные номера."
+    source: { kind: authored }
+  - form: "pobranym"
+    pl: "Mówił o pobranym materiale bardzo ostrożnie."
+    ru: "Он говорил о взятом материале очень осторожно."
+    source: { kind: authored }
+  - form: "pobranymi"
+    pl: "Między pobranymi próbkami nie było różnic."
+    ru: "Между взятыми пробами не было различий."
+    source: { kind: authored }
+  - form: "pobranymi"
+    pl: "Zajmuje się pobranymi z sieci materiałami."
+    ru: "Он занимается скачанными из сети материалами."
+    source: { kind: authored }
+  - form: "pobranymi"
+    pl: "Folder zapełnił się pobranymi zdjęciami."
+    ru: "Папка заполнилась скачанными фотографиями."
+    source: { kind: authored }
+  - form: "pobraną"
+    pl: "Zwrócili pobraną zaliczkę w całości."
+    ru: "Они вернули взятый задаток полностью."
+    source: { kind: authored }
+  - form: "pobraną"
+    pl: "Sprawdzili pobraną próbkę dwa razy."
+    ru: "Они проверили взятую пробу дважды."
+    source: { kind: authored }
+  - form: "pobraną"
+    pl: "Uznali tę opłatę za pobraną bezpodstawnie."
+    ru: "Эту плату сочли взятой безосновательно."
+    source: { kind: authored }
+  - form: "pobrawszy"
+    pl: "Pobrawszy pieniądze, wyszedł bez słowa."
+    ru: "Сняв деньги, он вышел без слова."
+    source: { kind: authored }
+  - form: "pobrawszy"
+    pl: "Pobrawszy próbki, wrócili do laboratorium."
+    ru: "Взяв пробы, они вернулись в лабораторию."
+    source: { kind: authored }
+  - form: "pobrawszy"
+    pl: "Pobrawszy plik, od razu go otworzył."
+    ru: "Скачав файл, он сразу его открыл."
+    source: { kind: authored }
+  - form: "pobrać"
+    pl: "Trzeba pobrać opłatę przy wejściu."
+    ru: "Надо взять плату при входе."
+    source: { kind: authored }
+  - form: "pobrać"
+    pl: "Chcieli pobrać próbki wody."
+    ru: "Они хотели взять пробы воды."
+    source: { kind: authored }
+  - form: "pobrać"
+    pl: "Nie da się pobrać pliku bez internetu."
+    ru: "Нельзя скачать файл без интернета."
+    source: { kind: authored }
+  - form: "pobrał"
+    pl: "Pobrał pieniądze z konta i zniknął."
+    ru: "Он снял деньги со счёта и исчез."
+    source: { kind: authored }
+  - form: "pobrał"
+    pl: "Lekarz pobrał próbkę do badania."
+    ru: "Врач взял пробу на анализ."
+    source: { kind: authored }
+  - form: "pobrał"
+    pl: "Nikt od niego nie pobrał opłaty."
+    ru: "Никто с него не взял плату."
+    source: { kind: authored }
+  - form: "pobrała"
+    pl: "Pielęgniarka pobrała krew do badania."
+    ru: "Медсестра взяла кровь на анализ."
+    source: { kind: authored }
+  - form: "pobrała"
+    pl: "Pobrała pensję dopiero w piątek."
+    ru: "Она получила зарплату только в пятницу."
+    source: { kind: authored }
+  - form: "pobrała"
+    pl: "Pobrała plik i od razu go otworzyła."
+    ru: "Она скачала файл и сразу открыла его."
+    source: { kind: authored }
+  - form: "pobrałaby"
+    pl: "Pobrałaby pieniądze, gdyby bankomat działał."
+    ru: "Она сняла бы деньги, если бы банкомат работал."
+    source: { kind: authored }
+  - form: "pobrałaby"
+    pl: "Bez zgody nie pobrałaby żadnej próbki."
+    ru: "Без согласия она не взяла бы никакой пробы."
+    source: { kind: authored }
+  - form: "pobrałaby"
+    pl: "Pobrałaby plik, gdyby miała internet."
+    ru: "Она скачала бы файл, будь у неё интернет."
+    source: { kind: authored }
+  - form: "pobrałabym"
+    pl: "Pobrałabym pieniądze wcześniej."
+    ru: "Я сняла бы деньги раньше."
+    source: { kind: authored }
+  - form: "pobrałabym"
+    pl: "Na jej miejscu nie pobrałabym tego pliku."
+    ru: "На её месте я не скачивала бы этот файл."
+    source: { kind: authored }
+  - form: "pobrałabym"
+    pl: "Bez zgody nie pobrałabym próbki."
+    ru: "Без согласия я не взяла бы пробу."
+    source: { kind: authored }
+  - form: "pobrałabyś"
+    pl: "Pobrałabyś pieniądze dziś czy jutro?"
+    ru: "Ты сняла бы деньги сегодня или завтра?"
+    source: { kind: authored }
+  - form: "pobrałabyś"
+    pl: "Czy pobrałabyś taki plik z nieznanej strony?"
+    ru: "Ты скачала бы такой файл с незнакомого сайта?"
+    source: { kind: authored }
+  - form: "pobrałabyś"
+    pl: "Bez zgody nie pobrałabyś próbki."
+    ru: "Без согласия ты не взяла бы пробу."
+    source: { kind: authored }
+  - form: "pobrałam"
+    pl: "Pobrałam pensję dopiero w piątek."
+    ru: "Я получила зарплату только в пятницу."
+    source: { kind: authored }
+  - form: "pobrałam"
+    pl: "Pobrałam plik i nic się nie otworzyło."
+    ru: "Я скачала файл, и ничего не открылось."
+    source: { kind: authored }
+  - form: "pobrałam"
+    pl: "Nie pobrałam od nikogo ani grosza."
+    ru: "Я ни с кого не взяла ни гроша."
+    source: { kind: authored }
+  - form: "pobrałaś"
+    pl: "Pobrałaś już pieniądze z konta?"
+    ru: "Ты уже сняла деньги со счёта?"
+    source: { kind: authored }
+  - form: "pobrałaś"
+    pl: "Skąd pobrałaś ten plik?"
+    ru: "Откуда ты скачала этот файл?"
+    source: { kind: authored }
+  - form: "pobrałaś"
+    pl: "Chyba pobrałaś starą wersję."
+    ru: "Ты, похоже, скачала старую версию."
+    source: { kind: authored }
+  - form: "pobrałby"
+    pl: "Pobrałby pieniądze, gdyby bankomat działał."
+    ru: "Он снял бы деньги, если бы банкомат работал."
+    source: { kind: authored }
+  - form: "pobrałby"
+    pl: "Bez zgody nie pobrałby żadnej próbki."
+    ru: "Без согласия он не взял бы никакой пробы."
+    source: { kind: authored }
+  - form: "pobrałby"
+    pl: "Pobrałby plik, gdyby miał internet."
+    ru: "Он скачал бы файл, будь у него интернет."
+    source: { kind: authored }
+  - form: "pobrałbym"
+    pl: "Pobrałbym pieniądze wcześniej."
+    ru: "Я снял бы деньги раньше."
+    source: { kind: authored }
+  - form: "pobrałbym"
+    pl: "Na twoim miejscu nie pobrałbym tego pliku."
+    ru: "На твоём месте я не скачивал бы этот файл."
+    source: { kind: authored }
+  - form: "pobrałbym"
+    pl: "Bez zgody nie pobrałbym próbki."
+    ru: "Без согласия я не взял бы пробу."
+    source: { kind: authored }
+  - form: "pobrałbyś"
+    pl: "Pobrałbyś pieniądze dziś czy jutro?"
+    ru: "Ты снял бы деньги сегодня или завтра?"
+    source: { kind: authored }
+  - form: "pobrałbyś"
+    pl: "Czy pobrałbyś taki plik z nieznanej strony?"
+    ru: "Ты скачал бы такой файл с незнакомого сайта?"
+    source: { kind: authored }
+  - form: "pobrałbyś"
+    pl: "Bez zgody nie pobrałbyś próbki."
+    ru: "Без согласия ты не взял бы пробу."
+    source: { kind: authored }
+  - form: "pobrałem"
+    pl: "Pobrałem pensję dopiero w piątek."
+    ru: "Я получил зарплату только в пятницу."
+    source: { kind: authored }
+  - form: "pobrałem"
+    pl: "Pobrałem plik i nic się nie otworzyło."
+    ru: "Я скачал файл, и ничего не открылось."
+    source: { kind: authored }
+  - form: "pobrałem"
+    pl: "Nie pobrałem od nikogo ani grosza."
+    ru: "Я ни с кого не взял ни гроша."
+    source: { kind: authored }
+  - form: "pobrałeś"
+    pl: "Pobrałeś już pieniądze z konta?"
+    ru: "Ты уже снял деньги со счёта?"
+    source: { kind: authored }
+  - form: "pobrałeś"
+    pl: "Skąd pobrałeś ten plik?"
+    ru: "Откуда ты скачал этот файл?"
+    source: { kind: authored }
+  - form: "pobrałeś"
+    pl: "Chyba pobrałeś starą wersję."
+    ru: "Ты, похоже, скачал старую версию."
+    source: { kind: authored }
+  - form: "pobrało"
+    pl: "Pół miasta pobrało ten program w jeden dzień."
+    ru: "Полгорода скачало эту программу за один день."
+    source: { kind: authored }
+  - form: "pobrało"
+    pl: "Laboratorium pobrało próbki z trzech studni."
+    ru: "Лаборатория взяла пробы из трёх колодцев."
+    source: { kind: authored }
+  - form: "pobrało"
+    pl: "Nic go tak nie zdziwiło jak to, ile biuro pobrało."
+    ru: "Ничто его так не удивило, как то, сколько взяла контора."
+    source: { kind: authored }
+  - form: "pobrałoby"
+    pl: "Pół miasta pobrałoby taki program w dzień."
+    ru: "Полгорода скачало бы такую программу за день."
+    source: { kind: authored }
+  - form: "pobrałoby"
+    pl: "Laboratorium pobrałoby próbki od razu."
+    ru: "Лаборатория взяла бы пробы сразу."
+    source: { kind: authored }
+  - form: "pobrałoby"
+    pl: "Żadne z nich nie pobrałoby opłaty bez pokwitowania."
+    ru: "Ни один из них не взял бы плату без расписки."
+    source: { kind: authored }
+  - form: "pobrały"
+    pl: "Obie firmy pobrały zaliczkę z góry."
+    ru: "Обе фирмы взяли задаток вперёд."
+    source: { kind: authored }
+  - form: "pobrały"
+    pl: "Laboratoria pobrały próbki tego samego dnia."
+    ru: "Лаборатории взяли пробы в тот же день."
+    source: { kind: authored }
+  - form: "pobrały"
+    pl: "Dzieci pobrały grę ze strony producenta."
+    ru: "Дети скачали игру с сайта производителя."
+    source: { kind: authored }
+  - form: "pobrałyby"
+    pl: "Obie firmy pobrałyby zaliczkę z góry."
+    ru: "Обе фирмы взяли бы задаток вперёд."
+    source: { kind: authored }
+  - form: "pobrałyby"
+    pl: "Laboratoria pobrałyby próbki tego samego dnia."
+    ru: "Лаборатории взяли бы пробы в тот же день."
+    source: { kind: authored }
+  - form: "pobrałyby"
+    pl: "Bez zgody nie pobrałyby niczego."
+    ru: "Без согласия они ничего не взяли бы."
+    source: { kind: authored }
+  - form: "pobrałybyście"
+    pl: "Pobrałybyście pieniądze dziś czy jutro?"
+    ru: "Вы сняли бы деньги сегодня или завтра?"
+    source: { kind: authored }
+  - form: "pobrałybyście"
+    pl: "Czy pobrałybyście taki plik z nieznanej strony?"
+    ru: "Вы скачали бы такой файл с незнакомого сайта?"
+    source: { kind: authored }
+  - form: "pobrałybyście"
+    pl: "Bez zgody nie pobrałybyście próbki."
+    ru: "Без согласия вы не взяли бы пробу."
+    source: { kind: authored }
+  - form: "pobrałybyśmy"
+    pl: "Pobrałybyśmy pieniądze wcześniej."
+    ru: "Мы сняли бы деньги раньше."
+    source: { kind: authored }
+  - form: "pobrałybyśmy"
+    pl: "Bez zgody nie pobrałybyśmy próbki."
+    ru: "Без согласия мы не взяли бы пробу."
+    source: { kind: authored }
+  - form: "pobrałybyśmy"
+    pl: "Na waszym miejscu nie pobrałybyśmy tego pliku."
+    ru: "На вашем месте мы не скачивали бы этот файл."
+    source: { kind: authored }
+  - form: "pobrałyście"
+    pl: "Pobrałyście już pieniądze z konta?"
+    ru: "Вы уже сняли деньги со счёта?"
+    source: { kind: authored }
+  - form: "pobrałyście"
+    pl: "Skąd pobrałyście ten plik?"
+    ru: "Откуда вы скачали этот файл?"
+    source: { kind: authored }
+  - form: "pobrałyście"
+    pl: "Chyba pobrałyście starą wersję."
+    ru: "Вы, похоже, скачали старую версию."
+    source: { kind: authored }
+  - form: "pobrałyśmy"
+    pl: "Pobrałyśmy opłatę przy wejściu."
+    ru: "Мы взяли плату при входе."
+    source: { kind: authored }
+  - form: "pobrałyśmy"
+    pl: "Pobrałyśmy próbki z każdej studni."
+    ru: "Мы взяли пробы из каждого колодца."
+    source: { kind: authored }
+  - form: "pobrałyśmy"
+    pl: "Nie pobrałyśmy od was prowizji."
+    ru: "Мы с вас комиссии не взяли."
+    source: { kind: authored }
