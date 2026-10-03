@@ -1,0 +1,682 @@
+# review
+id: przerwac
+format: 2
+lemma: "przerwać"
+rank: 1465
+pos: verb
+pron: { cyr: "пшэ́рваць" }
+senses:
+  - id: interrupt-activity
+    ru: "прервать, прекратить (что-л.)"
+    examples:
+      - pl: "Musimy przerwać spotkanie."
+        ru: "Нам надо прервать встречу."
+        source: { kind: authored }
+      - pl: "Deszcz przerwał mecz."
+        ru: "Дождь прервал матч."
+        source: { kind: authored }
+      - pl: "Przerwano mecz z powodu burzy."
+        ru: "Матч прервали из-за грозы."
+        source: { kind: authored }
+  - id: interrupt-person
+    ru: "перебить (кого-л. — с ДАТЕЛЬНЫМ)"
+    examples:
+      - pl: "Przerwał mi w pół słowa."
+        ru: "Он перебил меня на полуслове."
+        source: { kind: authored }
+      - pl: "Przerwij mi, kiedy się pomylę."
+        ru: "Перебей меня, когда я ошибусь."
+        source: { kind: authored }
+  - id: breaking-off
+    ru: "przerwanie — прерывание, прекращение"
+    examples:
+      - pl: "Przerwanie dostaw sparaliżowało miasto."
+        ru: "Прекращение поставок парализовало город."
+        source: { kind: authored }
+      - pl: "Domagali się przerwania prac."
+        ru: "Они требовали прекращения работ."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Слово прямо отвечает русскому «прервать»: prze- плюс rwać, то есть «пре-» плюс «рвать». Совпадает и производное: przerwa — это «перерыв». Но есть одно расхождение, и оно важное, см. ниже про падеж при человеке." }
+  - { kind: government, text: "ГЛАВНОЕ отличие от русского. Прервать ДЕЛО — винительный, как по-русски: przerwać pracę, przerwać ciszę, przerwać mecz. Но перебить ЧЕЛОВЕКА — ДАТЕЛЬНЫЙ: przerwać MI, przerwać MU, przerwać KOMUŚ. По-русски здесь винительный («перебить меня»), по-польски нельзя: przerwać mnie — ошибка." }
+  - { kind: usage, text: "Глагол совершенного вида, поэтому формы настоящего времени (przerwę, przerwiesz, przerwie) значат будущее. Несовершенная пара — przerywać. Отглагольное существительное przerwanie склоняется как обычное существительное среднего рода." }
+collocations:
+  - { pl: "przerwać milczenie", ru: "прервать молчание" }
+  - { pl: "przerwać komuś w pół słowa", ru: "перебить кого-л. на полуслове" }
+  - { pl: "przerwać pracę", ru: "прервать работу" }
+family:
+  - { pl: "przerwa", ru: "перерыв, пауза", relation: derived, id: przerwa }
+  - { pl: "rwać", ru: "рвать", relation: root }
+  - { pl: "przerywać", ru: "прерывать", relation: aspect }
+etymology: "Приставка prze- плюс rwać, праславянское *rъvati «рвать». Русское «прервать» собрано из тех же частей — «пре-» и «рвать», — поэтому слова совпадают и по форме, и по смыслу. Из того же гнезда przerwa «перерыв», буквально «разрыв», и русское «перерыв» построено так же."
+memory: "przerwać — «прервать», prze- + rwać, часть в часть. Запомните единственное расхождение: дело прерывают в винительном (przerwać pracę), а человека перебивают в ДАТЕЛЬНОМ — przerwać mi, не przerwać mnie."
+idioms:
+  - { pl: "przerwać milczenie", ru: "прервать молчание" }
+  - { pl: "przerwać komuś w pół słowa", ru: "перебить кого-л. на полуслове" }
+formExamplesSkip:
+  - { form: "przerwani", reason: "Мужско-личная форма страдательного причастия. Глагол przerwać требует винительного падежа только для действий (przerwać pracę), а человека ставит в ДАТЕЛЬНЫЙ (przerwać komuś). Винительного дополнения-лица у него нет, поэтому превратить человека в подлежащее страдательного оборота не получается — грамматического подлежащего для этой формы просто не существует." }
+formExamples:
+  - form: "przerwali"
+    pl: "Przerwali obrady po dwóch godzinach."
+    ru: "Они прервали заседание через два часа."
+    source: { kind: authored }
+  - form: "przerwali"
+    pl: "Przerwali mu oklaskami."
+    ru: "Они перебили его аплодисментами."
+    source: { kind: authored }
+  - form: "przerwali"
+    pl: "Robotnicy przerwali pracę."
+    ru: "Рабочие прервали работу."
+    source: { kind: authored }
+  - form: "przerwaliby"
+    pl: "Przerwaliby obrady, gdyby zabrakło kworum."
+    ru: "Они прервали бы заседание, если бы не хватило кворума."
+    source: { kind: authored }
+  - form: "przerwaliby"
+    pl: "Nie przerwaliby mu w takim momencie."
+    ru: "Они не перебили бы его в такой момент."
+    source: { kind: authored }
+  - form: "przerwaliby"
+    pl: "Przerwaliby pracę, ale boją się kar."
+    ru: "Они прервали бы работу, но боятся штрафов."
+    source: { kind: authored }
+  - form: "przerwalibyście"
+    pl: "Przerwalibyście, gdybym poprosił?"
+    ru: "Вы прервали бы, если бы я попросил?"
+    source: { kind: authored }
+  - form: "przerwalibyście"
+    pl: "Czy przerwalibyście w połowie?"
+    ru: "Вы прервали бы на середине?"
+    source: { kind: authored }
+  - form: "przerwalibyście"
+    pl: "Nie przerwalibyście mu bez powodu."
+    ru: "Вы не перебили бы его без причины."
+    source: { kind: authored }
+  - form: "przerwalibyśmy"
+    pl: "Przerwalibyśmy, gdyby ktoś poprosił."
+    ru: "Мы прервали бы, если бы кто-то попросил."
+    source: { kind: authored }
+  - form: "przerwalibyśmy"
+    pl: "Bez zgody szefa nie przerwalibyśmy prac."
+    ru: "Без согласия начальника мы не прервали бы работы."
+    source: { kind: authored }
+  - form: "przerwalibyśmy"
+    pl: "Przerwalibyśmy obrady na kwadrans."
+    ru: "Мы прервали бы заседание на четверть часа."
+    source: { kind: authored }
+  - form: "przerwaliście"
+    pl: "Dlaczego przerwaliście pracę?"
+    ru: "Почему вы прервали работу?"
+    source: { kind: authored }
+  - form: "przerwaliście"
+    pl: "Przerwaliście mi w pół zdania."
+    ru: "Вы перебили меня на полуфразе."
+    source: { kind: authored }
+  - form: "przerwaliście"
+    pl: "Przerwaliście w najlepszym momencie."
+    ru: "Вы прервали в лучший момент."
+    source: { kind: authored }
+  - form: "przerwaliśmy"
+    pl: "Przerwaliśmy w połowie drogi."
+    ru: "Мы прервались на полпути."
+    source: { kind: authored }
+  - form: "przerwaliśmy"
+    pl: "Przerwaliśmy mu, bo czas nas gonił."
+    ru: "Мы перебили его, потому что время поджимало."
+    source: { kind: authored }
+  - form: "przerwaliśmy"
+    pl: "Przerwaliśmy prace na zimę."
+    ru: "Мы прервали работы на зиму."
+    source: { kind: authored }
+  - form: "przerwana"
+    pl: "Przerwana rozmowa nigdy nie wróciła."
+    ru: "Прерванный разговор так и не вернулся."
+    source: { kind: authored }
+  - form: "przerwana"
+    pl: "Transmisja była przerwana."
+    ru: "Трансляция была прервана."
+    source: { kind: authored }
+  - form: "przerwana"
+    pl: "Przerwana budowa stała pusta przez lata."
+    ru: "Прерванная стройка стояла пустой годами."
+    source: { kind: authored }
+  - form: "przerwane"
+    pl: "Przerwane prace wznowiono wiosną."
+    ru: "Прерванные работы возобновили весной."
+    source: { kind: authored }
+  - form: "przerwane"
+    pl: "Połączenie zostało przerwane."
+    ru: "Соединение было прервано."
+    source: { kind: authored }
+  - form: "przerwane"
+    pl: "Przerwane dostawy wróciły po tygodniu."
+    ru: "Прерванные поставки вернулись через неделю."
+    source: { kind: authored }
+  - form: "przerwanego"
+    pl: "Nie dokończyli przerwanego meczu."
+    ru: "Они не докончили прерванный матч."
+    source: { kind: authored }
+  - form: "przerwanego"
+    pl: "Z przerwanego kabla sypały się iskry."
+    ru: "Из перебитого кабеля сыпались искры."
+    source: { kind: authored }
+  - form: "przerwanego"
+    pl: "Nie wrócili do przerwanego tematu."
+    ru: "Они не вернулись к прерванной теме."
+    source: { kind: authored }
+  - form: "przerwanej"
+    pl: "Wrócili do przerwanej rozmowy."
+    ru: "Они вернулись к прерванному разговору."
+    source: { kind: authored }
+  - form: "przerwanej"
+    pl: "W przerwanej transmisji nie było dźwięku."
+    ru: "В прерванной трансляции не было звука."
+    source: { kind: authored }
+  - form: "przerwanej"
+    pl: "Nie dokończyli przerwanej pracy."
+    ru: "Они не докончили прерванную работу."
+    source: { kind: authored }
+  - form: "przerwanemu"
+    pl: "Przerwanemu meczowi przyznano nowy termin."
+    ru: "Прерванному матчу назначили новый срок."
+    source: { kind: authored }
+  - form: "przerwanemu"
+    pl: "Dzięki przerwanemu połączeniu nie usłyszał złej wiadomości."
+    ru: "Благодаря прерванному соединению он не услышал плохую новость."
+    source: { kind: authored }
+  - form: "przerwanemu"
+    pl: "Przyjrzyj się temu przerwanemu kablowi."
+    ru: "Присмотрись к этому перебитому кабелю."
+    source: { kind: authored }
+  - form: "przerwania"
+    pl: "Nie widział potrzeby przerwania obrad."
+    ru: "Он не видел нужды прерывать заседание."
+    source: { kind: authored }
+  - form: "przerwania"
+    pl: "Domagali się przerwania prac."
+    ru: "Они требовали прекращения работ."
+    source: { kind: authored }
+  - form: "przerwania"
+    pl: "Bez przerwania dostaw nie byłoby kryzysu."
+    ru: "Без прекращения поставок не было бы кризиса."
+    source: { kind: authored }
+  - form: "przerwanie"
+    pl: "Przerwanie ciszy było błędem."
+    ru: "Прерывание тишины было ошибкой."
+    source: { kind: authored }
+  - form: "przerwanie"
+    pl: "Przerwanie dostaw sparaliżowało miasto."
+    ru: "Прекращение поставок парализовало город."
+    source: { kind: authored }
+  - form: "przerwanie"
+    pl: "Przerwanie nauki było jego decyzją."
+    ru: "Прекращение учёбы было его решением."
+    source: { kind: authored }
+  - form: "przerwaniem"
+    pl: "Grozili przerwaniem dostaw."
+    ru: "Они угрожали прекращением поставок."
+    source: { kind: authored }
+  - form: "przerwaniem"
+    pl: "Przed przerwaniem obrad zabrał głos."
+    ru: "Перед прекращением заседания он взял слово."
+    source: { kind: authored }
+  - form: "przerwaniem"
+    pl: "Między przerwaniem a wznowieniem minął rok."
+    ru: "Между прекращением и возобновлением прошёл год."
+    source: { kind: authored }
+  - form: "przerwaniu"
+    pl: "Po przerwaniu meczu kibice zostali na trybunach."
+    ru: "После прекращения матча болельщики остались на трибунах."
+    source: { kind: authored }
+  - form: "przerwaniu"
+    pl: "Mówiono o przerwaniu negocjacji."
+    ru: "Говорили о прекращении переговоров."
+    source: { kind: authored }
+  - form: "przerwaniu"
+    pl: "W przerwaniu prac nie było nic dziwnego."
+    ru: "В прекращении работ не было ничего странного."
+    source: { kind: authored }
+  - form: "przerwano"
+    pl: "Przerwano mecz z powodu burzy."
+    ru: "Матч прервали из-за грозы."
+    source: { kind: authored }
+  - form: "przerwano"
+    pl: "Obrady przerwano bez wyjaśnień."
+    ru: "Заседание прервали без объяснений."
+    source: { kind: authored }
+  - form: "przerwano"
+    pl: "Przerwano nam w połowie zdania."
+    ru: "Нас перебили на полуфразе."
+    source: { kind: authored }
+  - form: "przerwany"
+    pl: "Przerwany mecz dokończono nazajutrz."
+    ru: "Прерванный матч докончили на следующий день."
+    source: { kind: authored }
+  - form: "przerwany"
+    pl: "Sen przerwany w połowie męczy bardziej."
+    ru: "Сон, прерванный на середине, мучит сильнее."
+    source: { kind: authored }
+  - form: "przerwany"
+    pl: "Przerwany kabel trzeba wymienić."
+    ru: "Перебитый кабель надо заменить."
+    source: { kind: authored }
+  - form: "przerwanych"
+    pl: "Nie ma tu przerwanych kabli."
+    ru: "Здесь нет перебитых кабелей."
+    source: { kind: authored }
+  - form: "przerwanych"
+    pl: "O przerwanych dostawach pisała prasa."
+    ru: "О прерванных поставках писала пресса."
+    source: { kind: authored }
+  - form: "przerwanych"
+    pl: "Połowa przerwanych prac nie wróciła."
+    ru: "Половина прерванных работ не возобновилась."
+    source: { kind: authored }
+  - form: "przerwanym"
+    pl: "W przerwanym zdaniu brakowało najważniejszego."
+    ru: "В прерванной фразе не хватало главного."
+    source: { kind: authored }
+  - form: "przerwanym"
+    pl: "Przerwanym pracom nie było końca."
+    ru: "Прерванным работам не было конца."
+    source: { kind: authored }
+  - form: "przerwanym"
+    pl: "Zajął się przerwanym remontem."
+    ru: "Он занялся прерванным ремонтом."
+    source: { kind: authored }
+  - form: "przerwanymi"
+    pl: "Między przerwanymi zdaniami zapadała cisza."
+    ru: "Между прерванными фразами наступала тишина."
+    source: { kind: authored }
+  - form: "przerwanymi"
+    pl: "Zajmował się przerwanymi sprawami po poprzedniku."
+    ru: "Он занимался прерванными делами после предшественника."
+    source: { kind: authored }
+  - form: "przerwanymi"
+    pl: "Nie radził sobie z przerwanymi projektami."
+    ru: "Он не справлялся с прерванными проектами."
+    source: { kind: authored }
+  - form: "przerwaną"
+    pl: "Dokończył przerwaną myśl."
+    ru: "Он докончил прерванную мысль."
+    source: { kind: authored }
+  - form: "przerwaną"
+    pl: "Wznowili przerwaną budowę."
+    ru: "Они возобновили прерванную стройку."
+    source: { kind: authored }
+  - form: "przerwaną"
+    pl: "Uznano transmisję za przerwaną."
+    ru: "Трансляцию признали прерванной."
+    source: { kind: authored }
+  - form: "przerwawszy"
+    pl: "Przerwawszy pracę, wyszli na dwór."
+    ru: "Прервав работу, они вышли во двор."
+    source: { kind: authored }
+  - form: "przerwawszy"
+    pl: "Przerwawszy mu, od razu przeprosił."
+    ru: "Перебив его, он сразу извинился."
+    source: { kind: authored }
+  - form: "przerwawszy"
+    pl: "Przerwawszy lekturę, zgasił światło."
+    ru: "Прервав чтение, он погасил свет."
+    source: { kind: authored }
+  - form: "przerwać"
+    pl: "Musimy przerwać spotkanie."
+    ru: "Нам надо прервать встречу."
+    source: { kind: authored }
+  - form: "przerwać"
+    pl: "Nie chciał przerwać ciszy."
+    ru: "Он не хотел прерывать тишину."
+    source: { kind: authored }
+  - form: "przerwać"
+    pl: "Trzeba przerwać to szaleństwo."
+    ru: "Надо прекратить это безумие."
+    source: { kind: authored }
+  - form: "przerwał"
+    pl: "Przerwał mi w pół słowa."
+    ru: "Он перебил меня на полуслове."
+    source: { kind: authored }
+  - form: "przerwał"
+    pl: "Deszcz przerwał mecz."
+    ru: "Дождь прервал матч."
+    source: { kind: authored }
+  - form: "przerwał"
+    pl: "Nie przerwał ani razu."
+    ru: "Он не перебил ни разу."
+    source: { kind: authored }
+  - form: "przerwała"
+    pl: "Przerwała ciszę pytaniem."
+    ru: "Она прервала тишину вопросом."
+    source: { kind: authored }
+  - form: "przerwała"
+    pl: "Awaria przerwała transmisję."
+    ru: "Авария прервала трансляцию."
+    source: { kind: authored }
+  - form: "przerwała"
+    pl: "Przerwała mu bez skrupułów."
+    ru: "Она перебила его без стеснения."
+    source: { kind: authored }
+  - form: "przerwałaby"
+    pl: "Przerwałaby, gdyby ktoś poprosił."
+    ru: "Она прервала бы, если бы кто-то попросил."
+    source: { kind: authored }
+  - form: "przerwałaby"
+    pl: "Awaria przerwałaby transmisję na godzinę."
+    ru: "Авария прервала бы трансляцию на час."
+    source: { kind: authored }
+  - form: "przerwałaby"
+    pl: "Przerwałaby mu, ale było jej wstyd."
+    ru: "Она перебила бы его, но ей было стыдно."
+    source: { kind: authored }
+  - form: "przerwałabym"
+    pl: "Przerwałabym, ale nie chciałam być niegrzeczna."
+    ru: "Я прервала бы, но не хотела быть невежливой."
+    source: { kind: authored }
+  - form: "przerwałabym"
+    pl: "Na jej miejscu przerwałabym natychmiast."
+    ru: "На её месте я прервала бы немедленно."
+    source: { kind: authored }
+  - form: "przerwałabym"
+    pl: "Nie przerwałabym takiego występu."
+    ru: "Я не прервала бы такое выступление."
+    source: { kind: authored }
+  - form: "przerwałabyś"
+    pl: "Przerwałabyś, gdybyś wiedziała, co będzie dalej?"
+    ru: "Ты прервала бы, если бы знала, что будет дальше?"
+    source: { kind: authored }
+  - form: "przerwałabyś"
+    pl: "Czy przerwałabyś taką rozmowę?"
+    ru: "Ты прервала бы такой разговор?"
+    source: { kind: authored }
+  - form: "przerwałabyś"
+    pl: "Nie przerwałabyś mu bez powodu."
+    ru: "Ты не перебила бы его без причины."
+    source: { kind: authored }
+  - form: "przerwałam"
+    pl: "Przerwałam zebranie o piątej."
+    ru: "Я прервала собрание в пять."
+    source: { kind: authored }
+  - form: "przerwałam"
+    pl: "Przerwałam mu w pół zdania."
+    ru: "Я перебила его на полуфразе."
+    source: { kind: authored }
+  - form: "przerwałam"
+    pl: "Nie przerwałam pracy na urlop."
+    ru: "Я не прервала работу на отпуск."
+    source: { kind: authored }
+  - form: "przerwałaś"
+    pl: "Przerwałaś mi, a potem wyszłaś."
+    ru: "Ты перебила меня, а потом вышла."
+    source: { kind: authored }
+  - form: "przerwałaś"
+    pl: "Dlaczego przerwałaś studia?"
+    ru: "Почему ты прервала учёбу в университете?"
+    source: { kind: authored }
+  - form: "przerwałaś"
+    pl: "Przerwałaś w samym środku opowieści."
+    ru: "Ты перебила в самой середине рассказа."
+    source: { kind: authored }
+  - form: "przerwałby"
+    pl: "Przerwałby, gdyby wiedział, że to ważne."
+    ru: "Он прервал бы, если бы знал, что это важно."
+    source: { kind: authored }
+  - form: "przerwałby"
+    pl: "Nikt inny nie przerwałby spotkania."
+    ru: "Никто другой не прервал бы встречу."
+    source: { kind: authored }
+  - form: "przerwałby"
+    pl: "Przerwałby pracę, ale szkoda mu pieniędzy."
+    ru: "Он прервал бы работу, но ему жаль денег."
+    source: { kind: authored }
+  - form: "przerwałbym"
+    pl: "Przerwałbym, gdybym miał odwagę."
+    ru: "Я прервал бы, если бы хватило смелости."
+    source: { kind: authored }
+  - form: "przerwałbym"
+    pl: "Na twoim miejscu przerwałbym od razu."
+    ru: "На твоём месте я прервал бы сразу."
+    source: { kind: authored }
+  - form: "przerwałbym"
+    pl: "Nie przerwałbym mu w takiej chwili."
+    ru: "Я не перебил бы его в такую минуту."
+    source: { kind: authored }
+  - form: "przerwałbyś"
+    pl: "Przerwałbyś, gdyby cię poprosili?"
+    ru: "Ты прервал бы, если бы тебя попросили?"
+    source: { kind: authored }
+  - form: "przerwałbyś"
+    pl: "Czy przerwałbyś w połowie?"
+    ru: "Ты прервал бы на середине?"
+    source: { kind: authored }
+  - form: "przerwałbyś"
+    pl: "Nie przerwałbyś mi, prawda?"
+    ru: "Ты не перебил бы меня, правда?"
+    source: { kind: authored }
+  - form: "przerwałem"
+    pl: "Przerwałem mu, bo nie miałem czasu."
+    ru: "Я перебил его, потому что не было времени."
+    source: { kind: authored }
+  - form: "przerwałem"
+    pl: "Przerwałem lekturę w połowie."
+    ru: "Я прервал чтение на середине."
+    source: { kind: authored }
+  - form: "przerwałem"
+    pl: "Nie przerwałem ani na chwilę."
+    ru: "Я не прервался ни на минуту."
+    source: { kind: authored }
+  - form: "przerwałeś"
+    pl: "Przerwałeś mi w najgorszym momencie."
+    ru: "Ты перебил меня в худший момент."
+    source: { kind: authored }
+  - form: "przerwałeś"
+    pl: "Dlaczego przerwałeś naukę?"
+    ru: "Почему ты прервал учёбу?"
+    source: { kind: authored }
+  - form: "przerwałeś"
+    pl: "Przerwałeś, zanim doszedłem do sedna."
+    ru: "Ты перебил, прежде чем я дошёл до сути."
+    source: { kind: authored }
+  - form: "przerwało"
+    pl: "Coś przerwało połączenie."
+    ru: "Что-то прервало соединение."
+    source: { kind: authored }
+  - form: "przerwało"
+    pl: "Uderzenie pioruna przerwało koncert."
+    ru: "Удар молнии прервал концерт."
+    source: { kind: authored }
+  - form: "przerwało"
+    pl: "Nic nie przerwało ciszy."
+    ru: "Ничто не прервало тишину."
+    source: { kind: authored }
+  - form: "przerwałoby"
+    pl: "Przerwałoby to cały proces."
+    ru: "Это прервало бы весь процесс."
+    source: { kind: authored }
+  - form: "przerwałoby"
+    pl: "Jedno słowo przerwałoby tę kłótnię."
+    ru: "Одно слово прервало бы эту ссору."
+    source: { kind: authored }
+  - form: "przerwałoby"
+    pl: "Nic nie przerwałoby takiej ciszy."
+    ru: "Ничто не прервало бы такую тишину."
+    source: { kind: authored }
+  - form: "przerwały"
+    pl: "Krzyki przerwały wykład."
+    ru: "Крики прервали лекцию."
+    source: { kind: authored }
+  - form: "przerwały"
+    pl: "Kobiety przerwały rozmowę."
+    ru: "Женщины прервали разговор."
+    source: { kind: authored }
+  - form: "przerwały"
+    pl: "Burze przerwały dostawy prądu."
+    ru: "Грозы прервали подачу электричества."
+    source: { kind: authored }
+  - form: "przerwałyby"
+    pl: "Burze przerwałyby dostawy na tydzień."
+    ru: "Грозы прервали бы поставки на неделю."
+    source: { kind: authored }
+  - form: "przerwałyby"
+    pl: "Przerwałyby rozmowę, gdyby ktoś wszedł."
+    ru: "Они прервали бы разговор, если бы кто-то вошёл."
+    source: { kind: authored }
+  - form: "przerwałyby"
+    pl: "Krzyki przerwałyby każdy wykład."
+    ru: "Крики прервали бы любую лекцию."
+    source: { kind: authored }
+  - form: "przerwałybyście"
+    pl: "Przerwałybyście, gdyby zadzwonił telefon?"
+    ru: "Вы прервали бы, если бы зазвонил телефон?"
+    source: { kind: authored }
+  - form: "przerwałybyście"
+    pl: "Czy przerwałybyście taką rozmowę?"
+    ru: "Вы прервали бы такой разговор?"
+    source: { kind: authored }
+  - form: "przerwałybyście"
+    pl: "Nie przerwałybyście mi, prawda?"
+    ru: "Вы не перебили бы меня, правда?"
+    source: { kind: authored }
+  - form: "przerwałybyśmy"
+    pl: "Przerwałybyśmy, gdyby było trzeba."
+    ru: "Мы прервали бы, если бы было нужно."
+    source: { kind: authored }
+  - form: "przerwałybyśmy"
+    pl: "Bez powodu nie przerwałybyśmy spotkania."
+    ru: "Без причины мы не прервали бы встречу."
+    source: { kind: authored }
+  - form: "przerwałybyśmy"
+    pl: "Przerwałybyśmy remont na tydzień."
+    ru: "Мы прервали бы ремонт на неделю."
+    source: { kind: authored }
+  - form: "przerwałyście"
+    pl: "Dlaczego przerwałyście rozmowę?"
+    ru: "Почему вы прервали разговор?"
+    source: { kind: authored }
+  - form: "przerwałyście"
+    pl: "Przerwałyście mi bez uprzedzenia."
+    ru: "Вы перебили меня без предупреждения."
+    source: { kind: authored }
+  - form: "przerwałyście"
+    pl: "Przerwałyście w samym środku."
+    ru: "Вы прервали в самой середине."
+    source: { kind: authored }
+  - form: "przerwałyśmy"
+    pl: "Przerwałyśmy spotkanie o szóstej."
+    ru: "Мы прервали встречу в шесть."
+    source: { kind: authored }
+  - form: "przerwałyśmy"
+    pl: "Przerwałyśmy mu, i dobrze."
+    ru: "Мы перебили его, и хорошо."
+    source: { kind: authored }
+  - form: "przerwałyśmy"
+    pl: "Przerwałyśmy remont na miesiąc."
+    ru: "Мы прервали ремонт на месяц."
+    source: { kind: authored }
+  - form: "przerwie"
+    pl: "Nikt go nie przerwie."
+    ru: "Никто его не перебьёт."
+    source: { kind: authored }
+  - form: "przerwie"
+    pl: "Burza przerwie transmisję."
+    ru: "Гроза прервёт трансляцию."
+    source: { kind: authored }
+  - form: "przerwie"
+    pl: "Sędzia przerwie mecz przy pierwszym deszczu."
+    ru: "Судья прервёт матч при первом дожде."
+    source: { kind: authored }
+  - form: "przerwiecie"
+    pl: "Kiedy przerwiecie pracę?"
+    ru: "Когда вы прервёте работу?"
+    source: { kind: authored }
+  - form: "przerwiecie"
+    pl: "Jeśli przerwiecie, trudno będzie wrócić."
+    ru: "Если прервётесь, трудно будет вернуться."
+    source: { kind: authored }
+  - form: "przerwiecie"
+    pl: "Przerwiecie mi, jak będzie trzeba."
+    ru: "Перебьёте меня, если будет нужно."
+    source: { kind: authored }
+  - form: "przerwiemy"
+    pl: "Przerwiemy obrady na godzinę."
+    ru: "Мы прервём заседание на час."
+    source: { kind: authored }
+  - form: "przerwiemy"
+    pl: "Jeśli przerwiemy teraz, zdążymy na pociąg."
+    ru: "Если прервёмся сейчас, успеем на поезд."
+    source: { kind: authored }
+  - form: "przerwiemy"
+    pl: "Przerwiemy w tym miejscu"
+    ru: "Мы прервёмся в этом месте."
+    source: { kind: authored }
+  - form: "przerwiesz"
+    pl: "Jeśli przerwiesz teraz, wszystko przepadnie."
+    ru: "Если прервёшь сейчас, всё пропадёт."
+    source: { kind: authored }
+  - form: "przerwiesz"
+    pl: "Przerwiesz mi, kiedy skończę?"
+    ru: "Перебьёшь меня, когда я закончу?"
+    source: { kind: authored }
+  - form: "przerwiesz"
+    pl: "Nie przerwiesz mu, dopóki nie zapyta."
+    ru: "Ты не перебьёшь его, пока он не спросит."
+    source: { kind: authored }
+  - form: "przerwij"
+    pl: "Przerwij to natychmiast!"
+    ru: "Прекрати это немедленно!"
+    source: { kind: authored }
+  - form: "przerwij"
+    pl: "Przerwij, jeśli coś będzie niejasne."
+    ru: "Перебей, если что-то будет непонятно."
+    source: { kind: authored }
+  - form: "przerwij"
+    pl: "Przerwij mi, kiedy się pomylę."
+    ru: "Перебей меня, когда я ошибусь."
+    source: { kind: authored }
+  - form: "przerwijcie"
+    pl: "Przerwijcie natychmiast!"
+    ru: "Прекратите немедленно!"
+    source: { kind: authored }
+  - form: "przerwijcie"
+    pl: "Przerwijcie, zanim będzie za późno."
+    ru: "Прекратите, пока не поздно."
+    source: { kind: authored }
+  - form: "przerwijcie"
+    pl: "Przerwijcie pracę i wyjdźcie na zewnątrz."
+    ru: "Прервите работу и выйдите наружу."
+    source: { kind: authored }
+  - form: "przerwijmy"
+    pl: "Przerwijmy na chwilę."
+    ru: "Прервёмся на минуту."
+    source: { kind: authored }
+  - form: "przerwijmy"
+    pl: "Przerwijmy w tym miejscu i wróćmy po przerwie."
+    ru: "Прервёмся здесь и вернёмся после перерыва."
+    source: { kind: authored }
+  - form: "przerwijmy"
+    pl: "Przerwijmy tę kłótnię."
+    ru: "Прекратим эту ссору."
+    source: { kind: authored }
+  - form: "przerwą"
+    pl: "Lekarze przerwą zabieg."
+    ru: "Врачи прервут операцию."
+    source: { kind: authored }
+  - form: "przerwą"
+    pl: "Przerwą nam w najmniej odpowiednim momencie."
+    ru: "Нас перебьют в самый неподходящий момент."
+    source: { kind: authored }
+  - form: "przerwą"
+    pl: "Jeśli przerwą dostawy, zabraknie prądu."
+    ru: "Если прервут поставки, не хватит электричества."
+    source: { kind: authored }
+  - form: "przerwę"
+    pl: "Przerwę ci na moment."
+    ru: "Я тебя на минуту перебью."
+    source: { kind: authored }
+  - form: "przerwę"
+    pl: "Jutro przerwę urlop."
+    ru: "Завтра я прерву отпуск."
+    source: { kind: authored }
+  - form: "przerwę"
+    pl: "Nie przerwę w połowie zdania."
+    ru: "Я не прервусь на середине фразы."
+    source: { kind: authored }
