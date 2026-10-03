@@ -1,0 +1,659 @@
+# review
+id: wniesc
+format: 2
+lemma: "wnieść"
+rank: 2594
+pos: verb
+pron: { cyr: "внещць" }
+senses:
+  - id: carry-in
+    ru: "внести (вещь в помещение)"
+    examples:
+      - pl: "Wniósł walizkę do pokoju."
+        ru: "Он внёс чемодан в комнату."
+        source: { kind: authored }
+      - pl: "Tragarze wnieśli fortepian na górę."
+        ru: "Грузчики внесли фортепиано наверх."
+        source: { kind: authored }
+  - id: contribute
+    ru: "внести (вклад, лепту)"
+    examples:
+      - pl: "Wniósł duży wkład w rozwój firmy."
+        ru: "Он внёс большой вклад в развитие фирмы."
+        source: { kind: authored }
+      - pl: "Nie wniosła nic nowego do dyskusji."
+        ru: "Она не внесла ничего нового в обсуждение."
+        source: { kind: authored }
+  - id: file
+    ru: "подать, внести (жалобу, иск, поправку)"
+    examples:
+      - pl: "Wniosła skargę do sądu."
+        ru: "Она подала жалобу в суд."
+        source: { kind: authored }
+      - pl: "Można wnieść skargę w ciągu dwóch tygodni."
+        ru: "Жалобу можно подать в течение двух недель."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "wnieść coś — ВИНИТЕЛЬНЫЙ падеж: wnieść walizkę, wkład, skargę, poprawkę. Дополнением бывает и человек, когда его вносят на руках, поэтому мужсколичное wniesieni работает: zwycięzcy zostali wniesieni na rękach." }
+  - { kind: pronunciation, text: "В мужском роде единственного числа прошедшего времени свободная форма — wniósł, с ó: on wniósł walizkę. Форма wniosł без ó самостоятельным словом не бывает: это основа, которая появляется только со слитным личным окончанием — wniosłem, wniosłeś, а также в формах wniosła, wniosło, wniosły. Словарь PoliMorf помечает её praet:sg:m1.m2.m3:perf:agl, то есть «агглютинативная», в отличие от wniósł с пометой nagl." }
+  - { kind: pronunciation, text: "В условном наклонении ó сохраняется: wniósłby, wniósłbym, wniósłbyś. Частица by не образует слога и потому не открывает закрытый слог, так что перехода ó в o здесь нет. Варианты wniosłby, wniosłbym, wniosłbyś, которые выдаёт автоматический генератор форм, нормой не являются." }
+  - { kind: false-friend, text: "Корень nieść — прямой родственник русского «нести», и wnieść отвечает «внести» приставка в приставку. Но в юридическом употреблении языки расходятся: польское wnieść skargę значит «подать жалобу», а по-русски говорят именно «подать», а не «внести» жалобу." }
+collocations:
+  - { pl: "wnieść walizkę", ru: "внести чемодан" }
+  - { pl: "wnieść wkład", ru: "внести вклад" }
+  - { pl: "wnieść skargę", ru: "подать жалобу" }
+family:
+  - { pl: "wnosić", ru: "вносить", relation: aspect }
+  - { pl: "nieść", ru: "нести", relation: root }
+  - { pl: "wniosek", ru: "заявление; вывод", relation: derived, id: wniosek }
+etymology: "Приставка w- «внутрь» и глагол nieść, от праславянского *nesti. Русское «нести» — прямой родственник, и «внести» сложено из тех же двух частей. Из того же гнезда wniosek — и «заявление», которое вносят, и «вывод», к которому приходят."
+memory: "wnieść = w- + nieść, буквально русское «внести». Запомни написание: on wniósł с ó, но ja wniosłem без ó — основа меняется, когда к ней прирастает личное окончание. А wnieść skargę значит «подать жалобу»."
+idioms:
+  - { pl: "wnieść wkład w coś", ru: "внести вклад во что-л." }
+  - { pl: "wnieść skargę", ru: "подать жалобу" }
+formExamplesSkip:
+  - { form: "wniosł", reason: "Агглютинативная основа прошедшего времени, а не самостоятельное слово. PoliMorf помечает её praet:sg:m1.m2.m3:perf:agl, в отличие от свободной формы wniósł с пометой nagl. Эта основа появляется только тогда, когда к ней прирастает личное окончание: wniosłem, wniosłeś. Отдельно «on wniosł» сказать нельзя — нужно wniósł, — поэтому примера на эту форму быть не может." }
+  - { form: "wniosłby", reason: "Форма условного наклонения без ó. Частица by не образует слога и потому не открывает закрытый слог, так что нормой остаётся wniósłby, с ó. Вариант wniosłby — артефакт автоматического генератора форм, который применил к условному наклонению агглютинативную основу wniosł." }
+  - { form: "wniosłbym", reason: "То же, что и у wniosłby: нормативная форма — wniósłbym, с сохранением ó, поскольку частица by слога не добавляет. Вариант без ó даёт генератор форм, а не польская норма." }
+  - { form: "wniosłbyś", reason: "То же, что и у wniosłby: нормативная форма — wniósłbyś, с сохранением ó. Вариант без ó нормой не является." }
+formExamples:
+  - form: "wniesie"
+    pl: "Tragarz wniesie meble na trzecie piętro."
+    ru: "Грузчик внесёт мебель на третий этаж."
+    source: { kind: authored }
+  - form: "wniesie"
+    pl: "Nikt nie wniesie tego pianina po schodach."
+    ru: "Никто не внесёт это пианино по лестнице."
+    source: { kind: authored }
+  - form: "wniesie"
+    pl: "Nowa ustawa wniesie wiele zmian."
+    ru: "Новый закон внесёт много изменений."
+    source: { kind: authored }
+  - form: "wniesiecie"
+    pl: "Czy wniesiecie skrzynie do magazynu?"
+    ru: "Вы внесёте ящики на склад?"
+    source: { kind: authored }
+  - form: "wniesiecie"
+    pl: "Wniesiecie swój wkład w tę pracę."
+    ru: "Вы внесёте свой вклад в эту работу."
+    source: { kind: authored }
+  - form: "wniesiecie"
+    pl: "Nie wniesiecie tego bez windy."
+    ru: "Вы не внесёте это без лифта."
+    source: { kind: authored }
+  - form: "wniesiemy"
+    pl: "Wniesiemy bagaże do pokoju."
+    ru: "Мы внесём багаж в комнату."
+    source: { kind: authored }
+  - form: "wniesiemy"
+    pl: "Wniesiemy poprawki jeszcze dziś."
+    ru: "Мы внесём поправки ещё сегодня."
+    source: { kind: authored }
+  - form: "wniesiemy"
+    pl: "Nie wniesiemy tej kanapy przez drzwi."
+    ru: "Мы не внесём этот диван через дверь."
+    source: { kind: authored }
+  - form: "wniesieni"
+    pl: "Zwycięzcy zostali wniesieni na rękach."
+    ru: "Победителей внесли на руках."
+    source: { kind: authored }
+  - form: "wniesieni"
+    pl: "Ranni byli wniesieni do namiotu."
+    ru: "Раненых внесли в палатку."
+    source: { kind: authored }
+  - form: "wniesieni"
+    pl: "Wniesieni przez tłum, nie dotknęli nawet ziemi."
+    ru: "Внесённые толпой, они даже не коснулись земли."
+    source: { kind: authored }
+  - form: "wniesienia"
+    pl: "Bez wniesienia opłaty sprawa nie ruszy."
+    ru: "Без внесения платы дело не двинется."
+    source: { kind: authored }
+  - form: "wniesienia"
+    pl: "Wymaga to wniesienia pisemnego wniosku."
+    ru: "Это требует подачи письменного заявления."
+    source: { kind: authored }
+  - form: "wniesienia"
+    pl: "Od wniesienia skargi minął miesiąc."
+    ru: "С подачи жалобы прошёл месяц."
+    source: { kind: authored }
+  - form: "wniesienie"
+    pl: "Wniesienie fortepianu zajęło godzinę."
+    ru: "Внесение фортепиано заняло час."
+    source: { kind: authored }
+  - form: "wniesienie"
+    pl: "Wniesienie skargi jest bezpłatne."
+    ru: "Подача жалобы бесплатна."
+    source: { kind: authored }
+  - form: "wniesienie"
+    pl: "Samo wniesienie wniosku nie wystarczy."
+    ru: "Одной подачи заявления мало."
+    source: { kind: authored }
+  - form: "wniesieniem"
+    pl: "Zajął się przede wszystkim wniesieniem skargi."
+    ru: "Он занялся прежде всего подачей жалобы."
+    source: { kind: authored }
+  - form: "wniesieniem"
+    pl: "Między wniesieniem a rozpatrzeniem mija pół roku."
+    ru: "Между подачей и рассмотрением проходит полгода."
+    source: { kind: authored }
+  - form: "wniesieniem"
+    pl: "Zaczęli przeprowadzkę wniesieniem szafy."
+    ru: "Переезд они начали с внесения шкафа."
+    source: { kind: authored }
+  - form: "wniesieniu"
+    pl: "Po wniesieniu mebli mieszkanie wyglądało inaczej."
+    ru: "После внесения мебели квартира выглядела иначе."
+    source: { kind: authored }
+  - form: "wniesieniu"
+    pl: "O wniesieniu skargi nikt nie wiedział."
+    ru: "О подаче жалобы никто не знал."
+    source: { kind: authored }
+  - form: "wniesieniu"
+    pl: "Mówiono o wniesieniu poprawki do ustawy."
+    ru: "Говорили о внесении поправки в закон."
+    source: { kind: authored }
+  - form: "wniesiesz"
+    pl: "Czy wniesiesz te pudła na górę?"
+    ru: "Ты внесёшь эти коробки наверх?"
+    source: { kind: authored }
+  - form: "wniesiesz"
+    pl: "Wniesiesz swój wkład do projektu."
+    ru: "Ты внесёшь свой вклад в проект."
+    source: { kind: authored }
+  - form: "wniesiesz"
+    pl: "Jeśli wniesiesz skargę, sprawa ruszy."
+    ru: "Если подашь жалобу, дело двинется."
+    source: { kind: authored }
+  - form: "wniesiona"
+    pl: "Skarga została wniesiona w terminie."
+    ru: "Жалоба была подана в срок."
+    source: { kind: authored }
+  - form: "wniesiona"
+    pl: "Taca wniesiona przez kelnera pachniała kawą."
+    ru: "Поднос, внесённый официантом, пах кофе."
+    source: { kind: authored }
+  - form: "wniesiona"
+    pl: "Poprawka jest już wniesiona."
+    ru: "Поправка уже внесена."
+    source: { kind: authored }
+  - form: "wniesione"
+    pl: "Wszystkie pudła są już wniesione."
+    ru: "Все коробки уже внесены."
+    source: { kind: authored }
+  - form: "wniesione"
+    pl: "Poprawki zostały wniesione na czas."
+    ru: "Поправки были внесены вовремя."
+    source: { kind: authored }
+  - form: "wniesione"
+    pl: "Meble wniesione rano stały pod ścianą."
+    ru: "Мебель, внесённая утром, стояла у стены."
+    source: { kind: authored }
+  - form: "wniesionego"
+    pl: "Nie ma tu nic wniesionego z zewnątrz."
+    ru: "Здесь нет ничего внесённого извне."
+    source: { kind: authored }
+  - form: "wniesionego"
+    pl: "Szukali wniesionego wczoraj pakunku."
+    ru: "Они искали внесённый вчера пакет."
+    source: { kind: authored }
+  - form: "wniesionego"
+    pl: "Dotyczy to wniesionego wniosku."
+    ru: "Это касается поданного заявления."
+    source: { kind: authored }
+  - form: "wniesionej"
+    pl: "Dotyczy to wniesionej skargi."
+    ru: "Это касается поданной жалобы."
+    source: { kind: authored }
+  - form: "wniesionej"
+    pl: "Nie znaleźli wniesionej wcześniej poprawki."
+    ru: "Они не нашли внесённую ранее поправку."
+    source: { kind: authored }
+  - form: "wniesionej"
+    pl: "Mówił o wniesionej do sądu sprawie."
+    ru: "Он говорил о деле, поданном в суд."
+    source: { kind: authored }
+  - form: "wniesionemu"
+    pl: "Wniesionemu wnioskowi nadano numer."
+    ru: "Поданному заявлению присвоили номер."
+    source: { kind: authored }
+  - form: "wniesionemu"
+    pl: "Dzięki wniesionemu sprzeciwowi sprawa się przedłużyła."
+    ru: "Благодаря внесённому возражению дело затянулось."
+    source: { kind: authored }
+  - form: "wniesionemu"
+    pl: "Przyjrzyj się temu wniesionemu właśnie pakunkowi."
+    ru: "Присмотрись к этому только что внесённому пакету."
+    source: { kind: authored }
+  - form: "wniesiono"
+    pl: "Wniesiono fortepian na pierwsze piętro."
+    ru: "Фортепиано внесли на второй этаж."
+    source: { kind: authored }
+  - form: "wniesiono"
+    pl: "Skargę wniesiono w terminie."
+    ru: "Жалобу подали в срок."
+    source: { kind: authored }
+  - form: "wniesiono"
+    pl: "Do projektu wniesiono wiele poprawek."
+    ru: "В проект внесли много поправок."
+    source: { kind: authored }
+  - form: "wniesiony"
+    pl: "Fortepian został wniesiony na pierwsze piętro."
+    ru: "Фортепиано внесли на второй этаж."
+    source: { kind: authored }
+  - form: "wniesiony"
+    pl: "Wniosek jest już wniesiony."
+    ru: "Заявление уже подано."
+    source: { kind: authored }
+  - form: "wniesiony"
+    pl: "Bagaż wniesiony przez tragarza stał w holu."
+    ru: "Багаж, внесённый грузчиком, стоял в холле."
+    source: { kind: authored }
+  - form: "wniesionych"
+    pl: "Nie ma tu wniesionych wniosków."
+    ru: "Здесь нет поданных заявлений."
+    source: { kind: authored }
+  - form: "wniesionych"
+    pl: "Wśród wniesionych poprawek była i nasza."
+    ru: "Среди внесённых поправок была и наша."
+    source: { kind: authored }
+  - form: "wniesionych"
+    pl: "O wniesionych skargach poinformowano sąd."
+    ru: "О поданных жалобах сообщили суду."
+    source: { kind: authored }
+  - form: "wniesionym"
+    pl: "We wniesionym wniosku brakowało podpisu."
+    ru: "В поданном заявлении не хватало подписи."
+    source: { kind: authored }
+  - form: "wniesionym"
+    pl: "Wniesionym poprawkom przypisano numery."
+    ru: "Внесённым поправкам присвоили номера."
+    source: { kind: authored }
+  - form: "wniesionym"
+    pl: "Pismo stało się dokumentem wniesionym do akt."
+    ru: "Письмо стало документом, внесённым в дело."
+    source: { kind: authored }
+  - form: "wniesionymi"
+    pl: "Między wniesionymi a odrzuconymi wnioskami jest różnica."
+    ru: "Между поданными и отклонёнными заявлениями есть разница."
+    source: { kind: authored }
+  - form: "wniesionymi"
+    pl: "Zajmuje się wniesionymi do sądu skargami."
+    ru: "Он занимается поданными в суд жалобами."
+    source: { kind: authored }
+  - form: "wniesionymi"
+    pl: "Sala była zastawiona wniesionymi rano skrzyniami."
+    ru: "Зал был заставлен внесёнными утром ящиками."
+    source: { kind: authored }
+  - form: "wniesioną"
+    pl: "Rozpatrzono wniesioną skargę."
+    ru: "Поданную жалобу рассмотрели."
+    source: { kind: authored }
+  - form: "wniesioną"
+    pl: "Przyjęli poprawkę wniesioną przez posła."
+    ru: "Они приняли поправку, внесённую депутатом."
+    source: { kind: authored }
+  - form: "wniesioną"
+    pl: "Uznali tę skargę za wniesioną w terminie."
+    ru: "Эту жалобу сочли поданной в срок."
+    source: { kind: authored }
+  - form: "wnieś"
+    pl: "Wnieś te torby do kuchni."
+    ru: "Внеси эти сумки в кухню."
+    source: { kind: authored }
+  - form: "wnieś"
+    pl: "Wnieś wreszcie tę skargę."
+    ru: "Подай наконец эту жалобу."
+    source: { kind: authored }
+  - form: "wnieś"
+    pl: "Wnieś walizkę i zamknij drzwi."
+    ru: "Внеси чемодан и закрой дверь."
+    source: { kind: authored }
+  - form: "wnieście"
+    pl: "Wnieście meble do salonu."
+    ru: "Внесите мебель в гостиную."
+    source: { kind: authored }
+  - form: "wnieście"
+    pl: "Wnieście skrzynki do piwnicy."
+    ru: "Внесите ящики в подвал."
+    source: { kind: authored }
+  - form: "wnieście"
+    pl: "Proszę, wnieście te pudła na górę."
+    ru: "Пожалуйста, внесите эти коробки наверх."
+    source: { kind: authored }
+  - form: "wnieśli"
+    pl: "Tragarze wnieśli fortepian na górę."
+    ru: "Грузчики внесли фортепиано наверх."
+    source: { kind: authored }
+  - form: "wnieśli"
+    pl: "Wnieśli skargę do sądu."
+    ru: "Они подали жалобу в суд."
+    source: { kind: authored }
+  - form: "wnieśli"
+    pl: "Studenci wnieśli dużo życia do tej grupy."
+    ru: "Студенты внесли много жизни в эту группу."
+    source: { kind: authored }
+  - form: "wnieśliby"
+    pl: "Tragarze wnieśliby fortepian w pół godziny."
+    ru: "Грузчики внесли бы фортепиано за полчаса."
+    source: { kind: authored }
+  - form: "wnieśliby"
+    pl: "Wnieśliby skargę, gdyby wierzyli w skutek."
+    ru: "Они подали бы жалобу, если бы верили в результат."
+    source: { kind: authored }
+  - form: "wnieśliby"
+    pl: "Nikt nie wie, co wnieśliby do projektu."
+    ru: "Никто не знает, что они внесли бы в проект."
+    source: { kind: authored }
+  - form: "wnieślibyście"
+    pl: "Czy wnieślibyście te skrzynie na górę?"
+    ru: "Вы внесли бы эти ящики наверх?"
+    source: { kind: authored }
+  - form: "wnieślibyście"
+    pl: "Wnieślibyście skargę szybciej od nas."
+    ru: "Вы подали бы жалобу быстрее нас."
+    source: { kind: authored }
+  - form: "wnieślibyście"
+    pl: "Co wnieślibyście do projektu?"
+    ru: "Что бы вы внесли в проект?"
+    source: { kind: authored }
+  - form: "wnieślibyśmy"
+    pl: "Wnieślibyśmy meble sami, gdyby była winda."
+    ru: "Мы сами внесли бы мебель, если бы был лифт."
+    source: { kind: authored }
+  - form: "wnieślibyśmy"
+    pl: "Na waszym miejscu wnieślibyśmy skargę."
+    ru: "На вашем месте мы подали бы жалобу."
+    source: { kind: authored }
+  - form: "wnieślibyśmy"
+    pl: "Co wnieślibyśmy do tej dyskusji?"
+    ru: "Что бы мы внесли в это обсуждение?"
+    source: { kind: authored }
+  - form: "wnieśliście"
+    pl: "Czy wnieśliście bagaże?"
+    ru: "Вы внесли багаж?"
+    source: { kind: authored }
+  - form: "wnieśliście"
+    pl: "Wnieśliście dużo do tej dyskusji."
+    ru: "Вы много внесли в это обсуждение."
+    source: { kind: authored }
+  - form: "wnieśliście"
+    pl: "Widać, że wnieśliście skargę na czas."
+    ru: "Видно, что вы подали жалобу вовремя."
+    source: { kind: authored }
+  - form: "wnieśliśmy"
+    pl: "Wnieśliśmy meble do mieszkania."
+    ru: "Мы внесли мебель в квартиру."
+    source: { kind: authored }
+  - form: "wnieśliśmy"
+    pl: "Wnieśliśmy poprawki do projektu."
+    ru: "Мы внесли поправки в проект."
+    source: { kind: authored }
+  - form: "wnieśliśmy"
+    pl: "Nie wnieśliśmy tej kanapy przez drzwi."
+    ru: "Мы не внесли этот диван через дверь."
+    source: { kind: authored }
+  - form: "wnieśmy"
+    pl: "Wnieśmy bagaże, zanim spadnie deszcz."
+    ru: "Внесём багаж, пока не пошёл дождь."
+    source: { kind: authored }
+  - form: "wnieśmy"
+    pl: "Wnieśmy poprawkę do regulaminu."
+    ru: "Внесём поправку в регламент."
+    source: { kind: authored }
+  - form: "wnieśmy"
+    pl: "Wnieśmy tę skrzynię razem."
+    ru: "Внесём этот ящик вместе."
+    source: { kind: authored }
+  - form: "wnieść"
+    pl: "Trzeba wnieść walizki do środka."
+    ru: "Надо внести чемоданы внутрь."
+    source: { kind: authored }
+  - form: "wnieść"
+    pl: "Chcemy wnieść poprawkę do umowy."
+    ru: "Мы хотим внести поправку в договор."
+    source: { kind: authored }
+  - form: "wnieść"
+    pl: "Można wnieść skargę w ciągu dwóch tygodni."
+    ru: "Жалобу можно подать в течение двух недель."
+    source: { kind: authored }
+  - form: "wniosą"
+    pl: "Tragarze wniosą fortepian na pierwsze piętro."
+    ru: "Грузчики внесут фортепиано на второй этаж."
+    source: { kind: authored }
+  - form: "wniosą"
+    pl: "Posłowie wniosą projekt ustawy."
+    ru: "Депутаты внесут проект закона."
+    source: { kind: authored }
+  - form: "wniosą"
+    pl: "Nie wniosą tej szafy po tych schodach."
+    ru: "Они не внесут этот шкаф по этой лестнице."
+    source: { kind: authored }
+  - form: "wniosę"
+    pl: "Wniosę walizki do środka."
+    ru: "Я внесу чемоданы внутрь."
+    source: { kind: authored }
+  - form: "wniosę"
+    pl: "Wniosę poprawkę na najbliższym zebraniu."
+    ru: "Я внесу поправку на ближайшем собрании."
+    source: { kind: authored }
+  - form: "wniosę"
+    pl: "Nie wniosę tej szafy sam."
+    ru: "Я не внесу этот шкаф один."
+    source: { kind: authored }
+  - form: "wniosła"
+    pl: "Wniosła tacę z herbatą."
+    ru: "Она внесла поднос с чаем."
+    source: { kind: authored }
+  - form: "wniosła"
+    pl: "Wniosła skargę do sądu."
+    ru: "Она подала жалобу в суд."
+    source: { kind: authored }
+  - form: "wniosła"
+    pl: "Nie wniosła nic nowego do dyskusji."
+    ru: "Она не внесла ничего нового в обсуждение."
+    source: { kind: authored }
+  - form: "wniosłaby"
+    pl: "Wniosłaby tacę, gdyby miała wolne ręce."
+    ru: "Она внесла бы поднос, если бы руки были свободны."
+    source: { kind: authored }
+  - form: "wniosłaby"
+    pl: "Wniosłaby skargę, ale boi się kosztów."
+    ru: "Она подала бы жалобу, но боится расходов."
+    source: { kind: authored }
+  - form: "wniosłaby"
+    pl: "Nikt nie wie, co wniosłaby do zespołu."
+    ru: "Никто не знает, что она внесла бы в коллектив."
+    source: { kind: authored }
+  - form: "wniosłabym"
+    pl: "Wniosłabym skargę na twoim miejscu."
+    ru: "На твоём месте я подала бы жалобу."
+    source: { kind: authored }
+  - form: "wniosłabym"
+    pl: "Chętnie wniosłabym poprawkę do tego punktu."
+    ru: "Я охотно внесла бы поправку в этот пункт."
+    source: { kind: authored }
+  - form: "wniosłabym"
+    pl: "Nie wniosłabym tej szafy sama."
+    ru: "Я не внесла бы этот шкаф одна."
+    source: { kind: authored }
+  - form: "wniosłabyś"
+    pl: "Czy wniosłabyś skargę w takiej sprawie?"
+    ru: "Ты подала бы жалобу в таком деле?"
+    source: { kind: authored }
+  - form: "wniosłabyś"
+    pl: "Wniosłabyś więcej spokoju do tej grupy."
+    ru: "Ты внесла бы больше спокойствия в эту группу."
+    source: { kind: authored }
+  - form: "wniosłabyś"
+    pl: "Co wniosłabyś do projektu?"
+    ru: "Что бы ты внесла в проект?"
+    source: { kind: authored }
+  - form: "wniosłam"
+    pl: "Wniosłam tacę do pokoju."
+    ru: "Я внесла поднос в комнату."
+    source: { kind: authored }
+  - form: "wniosłam"
+    pl: "Wniosłam skargę w zeszłym tygodniu."
+    ru: "Я подала жалобу на прошлой неделе."
+    source: { kind: authored }
+  - form: "wniosłam"
+    pl: "Nie wniosłam nic nowego."
+    ru: "Я не внесла ничего нового."
+    source: { kind: authored }
+  - form: "wniosłaś"
+    pl: "Czy wniosłaś już kwiaty?"
+    ru: "Ты уже внесла цветы?"
+    source: { kind: authored }
+  - form: "wniosłaś"
+    pl: "Wniosłaś wiele do tej pracy."
+    ru: "Ты много внесла в эту работу."
+    source: { kind: authored }
+  - form: "wniosłaś"
+    pl: "Widać, że wniosłaś poprawki."
+    ru: "Видно, что ты внесла поправки."
+    source: { kind: authored }
+  - form: "wniosłem"
+    pl: "Wniosłem walizki do środka."
+    ru: "Я внёс чемоданы внутрь."
+    source: { kind: authored }
+  - form: "wniosłem"
+    pl: "Wniosłem poprawkę na zebraniu."
+    ru: "Я внёс поправку на собрании."
+    source: { kind: authored }
+  - form: "wniosłem"
+    pl: "Nie wniosłem tej szafy sam."
+    ru: "Я не внёс этот шкаф один."
+    source: { kind: authored }
+  - form: "wniosłeś"
+    pl: "Czy wniosłeś już bagaże?"
+    ru: "Ты уже внёс багаж?"
+    source: { kind: authored }
+  - form: "wniosłeś"
+    pl: "Wniosłeś dużo do tego projektu."
+    ru: "Ты много внёс в этот проект."
+    source: { kind: authored }
+  - form: "wniosłeś"
+    pl: "Widać, że wniosłeś skargę w terminie."
+    ru: "Видно, что ты подал жалобу в срок."
+    source: { kind: authored }
+  - form: "wniosło"
+    pl: "Dziecko wniosło do domu całą stertę liści."
+    ru: "Ребёнок внёс в дом целую кучу листьев."
+    source: { kind: authored }
+  - form: "wniosło"
+    pl: "Spotkanie wniosło więcej zamieszania niż jasności."
+    ru: "Встреча внесла больше путаницы, чем ясности."
+    source: { kind: authored }
+  - form: "wniosło"
+    pl: "Wiele osób wniosło swój wkład."
+    ru: "Многие внесли свой вклад."
+    source: { kind: authored }
+  - form: "wniosłoby"
+    pl: "Takie spotkanie wniosłoby więcej jasności."
+    ru: "Такая встреча внесла бы больше ясности."
+    source: { kind: authored }
+  - form: "wniosłoby"
+    pl: "Dziecko wniosłoby do domu pół ogrodu."
+    ru: "Ребёнок внёс бы в дом полсада."
+    source: { kind: authored }
+  - form: "wniosłoby"
+    pl: "Żadne zebranie nie wniosłoby tu nic nowego."
+    ru: "Никакое собрание не внесло бы здесь ничего нового."
+    source: { kind: authored }
+  - form: "wniosły"
+    pl: "Dziewczyny wniosły kwiaty do sali."
+    ru: "Девушки внесли цветы в зал."
+    source: { kind: authored }
+  - form: "wniosły"
+    pl: "Nowe przepisy wniosły wiele zmian."
+    ru: "Новые правила внесли много изменений."
+    source: { kind: authored }
+  - form: "wniosły"
+    pl: "Wniosły ciasto na środek stołu."
+    ru: "Они внесли пирог на середину стола."
+    source: { kind: authored }
+  - form: "wniosłyby"
+    pl: "Nowe przepisy wniosłyby wiele zmian."
+    ru: "Новые правила внесли бы много изменений."
+    source: { kind: authored }
+  - form: "wniosłyby"
+    pl: "Dziewczyny wniosłyby kwiaty do sali."
+    ru: "Девушки внесли бы цветы в зал."
+    source: { kind: authored }
+  - form: "wniosłyby"
+    pl: "Wniosłyby ciasto, gdyby było gotowe."
+    ru: "Они внесли бы пирог, если бы он был готов."
+    source: { kind: authored }
+  - form: "wniosłybyście"
+    pl: "Czy wniosłybyście kwiaty do sali?"
+    ru: "Вы внесли бы цветы в зал?"
+    source: { kind: authored }
+  - form: "wniosłybyście"
+    pl: "Wniosłybyście więcej ładu do tej pracy."
+    ru: "Вы внесли бы больше порядка в эту работу."
+    source: { kind: authored }
+  - form: "wniosłybyście"
+    pl: "Co wniosłybyście do zespołu?"
+    ru: "Что бы вы внесли в коллектив?"
+    source: { kind: authored }
+  - form: "wniosłybyśmy"
+    pl: "Wniosłybyśmy ciasto na środek stołu."
+    ru: "Мы внесли бы пирог на середину стола."
+    source: { kind: authored }
+  - form: "wniosłybyśmy"
+    pl: "Na waszym miejscu wniosłybyśmy poprawkę."
+    ru: "На вашем месте мы внесли бы поправку."
+    source: { kind: authored }
+  - form: "wniosłybyśmy"
+    pl: "Co wniosłybyśmy do tego zespołu?"
+    ru: "Что бы мы внесли в этот коллектив?"
+    source: { kind: authored }
+  - form: "wniosłyście"
+    pl: "Czy wniosłyście już kwiaty?"
+    ru: "Вы уже внесли цветы?"
+    source: { kind: authored }
+  - form: "wniosłyście"
+    pl: "Wniosłyście wiele do tego projektu."
+    ru: "Вы много внесли в этот проект."
+    source: { kind: authored }
+  - form: "wniosłyście"
+    pl: "Widać, że wniosłyście poprawki."
+    ru: "Видно, что вы внесли поправки."
+    source: { kind: authored }
+  - form: "wniosłyśmy"
+    pl: "Wniosłyśmy ciasto na środek stołu."
+    ru: "Мы внесли пирог на середину стола."
+    source: { kind: authored }
+  - form: "wniosłyśmy"
+    pl: "Wniosłyśmy kwiaty do sali."
+    ru: "Мы внесли цветы в зал."
+    source: { kind: authored }
+  - form: "wniosłyśmy"
+    pl: "Nie wniosłyśmy nic nowego."
+    ru: "Мы не внесли ничего нового."
+    source: { kind: authored }
+  - form: "wniósł"
+    pl: "Wniósł walizkę do pokoju."
+    ru: "Он внёс чемодан в комнату."
+    source: { kind: authored }
+  - form: "wniósł"
+    pl: "Wniósł duży wkład w rozwój firmy."
+    ru: "Он внёс большой вклад в развитие фирмы."
+    source: { kind: authored }
+  - form: "wniósł"
+    pl: "Nikt nie wniósł sprzeciwu."
+    ru: "Никто не внёс возражения."
+    source: { kind: authored }
+  - form: "wniósłszy"
+    pl: "Wniósłszy walizki, usiadł na schodach."
+    ru: "Внеся чемоданы, он сел на ступеньки."
+    source: { kind: authored }
+  - form: "wniósłszy"
+    pl: "Wniósłszy skargę, czekał na odpowiedź."
+    ru: "Подав жалобу, он ждал ответа."
+    source: { kind: authored }
+  - form: "wniósłszy"
+    pl: "Wniósłszy ostatnie pudło, zamknęli drzwi."
+    ru: "Внеся последнюю коробку, они закрыли дверь."
+    source: { kind: authored }

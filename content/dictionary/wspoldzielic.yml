@@ -1,0 +1,674 @@
+# review
+id: wspoldzielic
+format: 2
+lemma: "współdzielić"
+rank: 2595
+pos: verb
+pron: { cyr: "фспуудзе́лиць" }
+senses:
+  - id: share-resource
+    ru: "совместно использовать, делить (ресурс, помещение)"
+    examples:
+      - pl: "Współdzielę mieszkanie z dwiema osobami."
+        ru: "Я делю квартиру с двумя людьми."
+        source: { kind: authored }
+      - pl: "Dwóch lokatorów współdzieli jedną łazienkę."
+        ru: "Двое жильцов делят одну ванную."
+        source: { kind: authored }
+      - pl: "To dysk współdzielony przez cały zespół."
+        ru: "Это диск, которым пользуется вся команда."
+        source: { kind: authored }
+  - id: share-stance
+    ru: "разделять (мнение, ответственность)"
+    examples:
+      - pl: "Nie współdzielę jego poglądów."
+        ru: "Я не разделяю его взглядов."
+        source: { kind: authored }
+      - pl: "Współdzielisz odpowiedzialność za ten projekt."
+        ru: "Ты разделяешь ответственность за этот проект."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "współdzielić coś z kimś: предмет — в ВИНИТЕЛЬНОМ падеже, партнёр — через предлог z с ТВОРИТЕЛЬНЫМ. Współdzielę mieszkanie z bratem «я делю квартиру с братом»." }
+  - { kind: government, text: "Мужсколичное причастие współdzieleni остаётся без употребления: в винительном падеже при этом глаголе стоит всегда ресурс или помещение — mieszkanie, dysk, kuchnia, odpowiedzialność, — но не человек. Людей не «используют совместно». Прочие формы причастия при этом вполне обычны: zasoby współdzielone, dysk współdzielony." }
+  - { kind: usage, text: "Несовершенный вид; совершенного пары в обычном смысле нет, потому что действие длительное. Слово молодое и книжно-техническое, выросло из потребностей информатики: zasoby współdzielone «общие ресурсы», dysk współdzielony «общий диск». В бытовой речи чаще скажут dzielić mieszkanie z kimś." }
+  - { kind: false-friend, text: "Корень dzielić — прямой родственник русского «делить», а приставка współ- отвечает русскому со-. Но готового русского слова «соделить» нет: współdzielić переводится описательно — «совместно использовать», «делить с кем-л.», «разделять»." }
+collocations:
+  - { pl: "współdzielić mieszkanie", ru: "делить квартиру" }
+  - { pl: "zasoby współdzielone", ru: "общие ресурсы" }
+  - { pl: "współdzielić odpowiedzialność", ru: "разделять ответственность" }
+family:
+  - { pl: "dzielić", ru: "делить", relation: root }
+  - { pl: "podzielić", ru: "разделить", relation: derived }
+  - { pl: "współdzielenie", ru: "совместное использование", relation: derived }
+etymology: "Сложение префиксоида współ- «со-, вместе» и глагола dzielić, от праславянского *děliti. Русское «делить» — прямой родственник, а współ- отвечает русскому со- (как в współpraca «сотрудничество», współautor «соавтор»). Само слово współdzielić молодое: оно вошло в язык вместе с компьютерной терминологией, как калька английского to share."
+memory: "współdzielić = współ- («со-») + dzielić («делить»): совместно использовать. Предмет в винительном, партнёр через z с творительным. Готового русского однословного соответствия нет — переводится «делить с кем-л.» или «совместно использовать»."
+idioms:
+  - { pl: "zasoby współdzielone", ru: "общие ресурсы (в информатике)" }
+  - { pl: "współdzielić dach nad głową", ru: "жить под одной крышей" }
+formExamplesSkip:
+  - { form: "współdzieleni", reason: "Страдательное причастие мужского лица от współdzielony. В винительном падеже при współdzielić стоит всегда ресурс или помещение — mieszkanie, dysk, kuchnia, serwer, odpowiedzialność, — но никогда человек: людей не используют совместно. Повышать в мужсколичную форму нечего, поэтому она остаётся без употребления, хотя остальные формы причастия обычны (zasoby współdzielone, dysk współdzielony)." }
+formExamples:
+  - form: "współdziel"
+    pl: "Współdziel ten plik z całym zespołem."
+    ru: "Раздели этот файл со всей командой."
+    source: { kind: authored }
+  - form: "współdziel"
+    pl: "Nie współdziel hasła z nikim."
+    ru: "Не делись паролем ни с кем."
+    source: { kind: authored }
+  - form: "współdziel"
+    pl: "Współdziel koszty, będzie taniej."
+    ru: "Раздели расходы, будет дешевле."
+    source: { kind: authored }
+  - form: "współdzielcie"
+    pl: "Współdzielcie ten dysk ostrożnie."
+    ru: "Пользуйтесь этим диском совместно осторожно."
+    source: { kind: authored }
+  - form: "współdzielcie"
+    pl: "Nie współdzielcie haseł między sobą."
+    ru: "Не делитесь паролями между собой."
+    source: { kind: authored }
+  - form: "współdzielcie"
+    pl: "Współdzielcie salę po równo."
+    ru: "Делите зал поровну."
+    source: { kind: authored }
+  - form: "współdzielenia"
+    pl: "Bez współdzielenia kosztów nie damy rady."
+    ru: "Без разделения расходов мы не справимся."
+    source: { kind: authored }
+  - form: "współdzielenia"
+    pl: "Wymaga to współdzielenia jednego serwera."
+    ru: "Это требует совместного использования одного сервера."
+    source: { kind: authored }
+  - form: "współdzielenia"
+    pl: "Od współdzielenia biura zaczęła się ta firma."
+    ru: "С общего офиса началась эта фирма."
+    source: { kind: authored }
+  - form: "współdzielenie"
+    pl: "Współdzielenie kosztów ma sens."
+    ru: "Разделение расходов имеет смысл."
+    source: { kind: authored }
+  - form: "współdzielenie"
+    pl: "Współdzielenie hasła jest zabronione."
+    ru: "Передача пароля запрещена."
+    source: { kind: authored }
+  - form: "współdzielenie"
+    pl: "Współdzielenie mieszkania bywa trudne."
+    ru: "Делить квартиру бывает трудно."
+    source: { kind: authored }
+  - form: "współdzieleniem"
+    pl: "Zajął się przede wszystkim współdzieleniem zasobów."
+    ru: "Он занялся прежде всего разделением ресурсов."
+    source: { kind: authored }
+  - form: "współdzieleniem"
+    pl: "Między współdzieleniem a oddaniem jest różnica."
+    ru: "Между совместным использованием и передачей есть разница."
+    source: { kind: authored }
+  - form: "współdzieleniem"
+    pl: "Oszczędności zaczęli współdzieleniem biura."
+    ru: "Экономию они начали с общего офиса."
+    source: { kind: authored }
+  - form: "współdzieleniu"
+    pl: "Po współdzieleniu kosztów zostało więcej pieniędzy."
+    ru: "После разделения расходов осталось больше денег."
+    source: { kind: authored }
+  - form: "współdzieleniu"
+    pl: "O współdzieleniu hasła nikt nie wiedział."
+    ru: "О передаче пароля никто не знал."
+    source: { kind: authored }
+  - form: "współdzieleniu"
+    pl: "Mówiono o współdzieleniu jednej sali."
+    ru: "Говорили об использовании одного зала сообща."
+    source: { kind: authored }
+  - form: "współdzieli"
+    pl: "Dwóch lokatorów współdzieli jedną łazienkę."
+    ru: "Двое жильцов делят одну ванную."
+    source: { kind: authored }
+  - form: "współdzieli"
+    pl: "Nikt nie współdzieli z nim tego zdania."
+    ru: "Никто не разделяет с ним этого мнения."
+    source: { kind: authored }
+  - form: "współdzieli"
+    pl: "Firma współdzieli serwer z partnerem."
+    ru: "Фирма использует сервер совместно с партнёром."
+    source: { kind: authored }
+  - form: "współdzielicie"
+    pl: "Czy współdzielicie to biuro?"
+    ru: "Вы делите этот офис?"
+    source: { kind: authored }
+  - form: "współdzielicie"
+    pl: "Współdzielicie odpowiedzialność za wynik."
+    ru: "Вы разделяете ответственность за результат."
+    source: { kind: authored }
+  - form: "współdzielicie"
+    pl: "Nie współdzielicie przecież jednego konta."
+    ru: "Вы ведь не пользуетесь совместно одним аккаунтом."
+    source: { kind: authored }
+  - form: "współdzielili"
+    pl: "Studenci współdzielili mieszkanie przez trzy lata."
+    ru: "Студенты делили квартиру три года."
+    source: { kind: authored }
+  - form: "współdzielili"
+    pl: "Współdzielili koszty po równo."
+    ru: "Они делили расходы поровну."
+    source: { kind: authored }
+  - form: "współdzielili"
+    pl: "Lokatorzy współdzielili jedną kuchnię."
+    ru: "Жильцы делили одну кухню."
+    source: { kind: authored }
+  - form: "współdzieliliby"
+    pl: "Studenci współdzieliliby mieszkanie chętnie."
+    ru: "Студенты охотно делили бы квартиру."
+    source: { kind: authored }
+  - form: "współdzieliliby"
+    pl: "Współdzieliliby koszty, gdyby ktoś zaproponował."
+    ru: "Они делили бы расходы, если бы кто-то предложил."
+    source: { kind: authored }
+  - form: "współdzieliliby"
+    pl: "Nikt nie wie, co współdzieliliby najpierw."
+    ru: "Никто не знает, что они разделили бы первым делом."
+    source: { kind: authored }
+  - form: "współdzielilibyście"
+    pl: "Czy współdzielilibyście to biuro?"
+    ru: "Вы делили бы этот офис?"
+    source: { kind: authored }
+  - form: "współdzielilibyście"
+    pl: "Współdzielilibyście koszty szybciej od nas."
+    ru: "Вы разделили бы расходы быстрее нас."
+    source: { kind: authored }
+  - form: "współdzielilibyście"
+    pl: "Co współdzielilibyście najpierw?"
+    ru: "Что бы вы разделили первым делом?"
+    source: { kind: authored }
+  - form: "współdzielilibyśmy"
+    pl: "Współdzielilibyśmy biuro, gdyby było większe."
+    ru: "Мы делили бы офис, если бы он был больше."
+    source: { kind: authored }
+  - form: "współdzielilibyśmy"
+    pl: "Na waszym miejscu współdzielilibyśmy koszty."
+    ru: "На вашем месте мы делили бы расходы."
+    source: { kind: authored }
+  - form: "współdzielilibyśmy"
+    pl: "Co współdzielilibyśmy najpierw?"
+    ru: "Что бы мы разделили первым делом?"
+    source: { kind: authored }
+  - form: "współdzieliliście"
+    pl: "Czy współdzieliliście to biuro?"
+    ru: "Вы делили этот офис?"
+    source: { kind: authored }
+  - form: "współdzieliliście"
+    pl: "Współdzieliliście z nami odpowiedzialność."
+    ru: "Вы разделяли с нами ответственность."
+    source: { kind: authored }
+  - form: "współdzieliliście"
+    pl: "Widać, że współdzieliliście jeden serwer."
+    ru: "Видно, что вы пользовались одним сервером."
+    source: { kind: authored }
+  - form: "współdzieliliśmy"
+    pl: "Współdzieliliśmy mieszkanie przez trzy lata."
+    ru: "Мы делили квартиру три года."
+    source: { kind: authored }
+  - form: "współdzieliliśmy"
+    pl: "Współdzieliliśmy koszty po równo."
+    ru: "Мы делили расходы поровну."
+    source: { kind: authored }
+  - form: "współdzieliliśmy"
+    pl: "Nie współdzieliliśmy nigdy jednego konta."
+    ru: "Мы никогда не пользовались совместно одним аккаунтом."
+    source: { kind: authored }
+  - form: "współdzielimy"
+    pl: "Współdzielimy kuchnię z sąsiadami."
+    ru: "Мы делим кухню с соседями."
+    source: { kind: authored }
+  - form: "współdzielimy"
+    pl: "Współdzielimy koszty wynajmu."
+    ru: "Мы делим расходы на аренду."
+    source: { kind: authored }
+  - form: "współdzielimy"
+    pl: "Nie współdzielimy tego poglądu."
+    ru: "Мы не разделяем этого мнения."
+    source: { kind: authored }
+  - form: "współdzielisz"
+    pl: "Czy współdzielisz z kimś biuro?"
+    ru: "Ты делишь с кем-то офис?"
+    source: { kind: authored }
+  - form: "współdzielisz"
+    pl: "Współdzielisz odpowiedzialność za ten projekt."
+    ru: "Ты разделяешь ответственность за этот проект."
+    source: { kind: authored }
+  - form: "współdzielisz"
+    pl: "Jeśli współdzielisz hasło, tracisz bezpieczeństwo."
+    ru: "Если делишься паролем, теряешь безопасность."
+    source: { kind: authored }
+  - form: "współdzielić"
+    pl: "Trudno współdzielić jedną łazienkę na pięć osób."
+    ru: "Трудно делить одну ванную на пять человек."
+    source: { kind: authored }
+  - form: "współdzielić"
+    pl: "Chcemy współdzielić koszty wynajmu."
+    ru: "Мы хотим делить расходы на аренду."
+    source: { kind: authored }
+  - form: "współdzielić"
+    pl: "Nie wolno współdzielić hasła do konta."
+    ru: "Нельзя передавать пароль от аккаунта."
+    source: { kind: authored }
+  - form: "współdzielił"
+    pl: "Współdzielił mieszkanie z bratem."
+    ru: "Он делил квартиру с братом."
+    source: { kind: authored }
+  - form: "współdzielił"
+    pl: "Nikt nie współdzielił z nim tej opinii."
+    ru: "Никто не разделял с ним этого мнения."
+    source: { kind: authored }
+  - form: "współdzielił"
+    pl: "Przez lata współdzielił biuro z kolegą."
+    ru: "Годами он делил офис с коллегой."
+    source: { kind: authored }
+  - form: "współdzieliła"
+    pl: "Współdzieliła pokój z koleżanką."
+    ru: "Она делила комнату с подругой."
+    source: { kind: authored }
+  - form: "współdzieliła"
+    pl: "Firma współdzieliła serwer z inną spółką."
+    ru: "Фирма использовала сервер совместно с другой компанией."
+    source: { kind: authored }
+  - form: "współdzieliła"
+    pl: "Nie współdzieliła tych obaw."
+    ru: "Она не разделяла этих опасений."
+    source: { kind: authored }
+  - form: "współdzieliłaby"
+    pl: "Współdzieliłaby pokój, gdyby musiała."
+    ru: "Она делила бы комнату, если бы пришлось."
+    source: { kind: authored }
+  - form: "współdzieliłaby"
+    pl: "Firma współdzieliłaby serwer bez problemu."
+    ru: "Фирма без проблем использовала бы сервер совместно."
+    source: { kind: authored }
+  - form: "współdzieliłaby"
+    pl: "Nikt nie wie, co współdzieliłaby najchętniej."
+    ru: "Никто не знает, что она делила бы охотнее всего."
+    source: { kind: authored }
+  - form: "współdzieliłabym"
+    pl: "Współdzieliłabym pokój, gdyby trzeba."
+    ru: "Я делила бы комнату, если бы понадобилось."
+    source: { kind: authored }
+  - form: "współdzieliłabym"
+    pl: "Na twoim miejscu współdzieliłabym koszty."
+    ru: "На твоём месте я делила бы расходы."
+    source: { kind: authored }
+  - form: "współdzieliłabym"
+    pl: "Nigdy nie współdzieliłabym konta."
+    ru: "Я никогда не делилась бы аккаунтом."
+    source: { kind: authored }
+  - form: "współdzieliłabyś"
+    pl: "Czy współdzieliłabyś z nią pokój?"
+    ru: "Ты делила бы с ней комнату?"
+    source: { kind: authored }
+  - form: "współdzieliłabyś"
+    pl: "Współdzieliłabyś to biuro bez problemu."
+    ru: "Ты без проблем делила бы этот офис."
+    source: { kind: authored }
+  - form: "współdzieliłabyś"
+    pl: "Co współdzieliłabyś najchętniej?"
+    ru: "Что бы ты разделила охотнее всего?"
+    source: { kind: authored }
+  - form: "współdzieliłam"
+    pl: "Współdzieliłam pokój z siostrą."
+    ru: "Я делила комнату с сестрой."
+    source: { kind: authored }
+  - form: "współdzieliłam"
+    pl: "Nie współdzieliłam tych obaw."
+    ru: "Я не разделяла этих опасений."
+    source: { kind: authored }
+  - form: "współdzieliłam"
+    pl: "Przez dwa lata współdzieliłam to biuro."
+    ru: "Два года я делила этот офис."
+    source: { kind: authored }
+  - form: "współdzieliłaś"
+    pl: "Czy współdzieliłaś z nią mieszkanie?"
+    ru: "Ты делила с ней квартиру?"
+    source: { kind: authored }
+  - form: "współdzieliłaś"
+    pl: "Współdzieliłaś z nami ten pogląd."
+    ru: "Ты разделяла с нами это мнение."
+    source: { kind: authored }
+  - form: "współdzieliłaś"
+    pl: "Widać, że współdzieliłaś ten plik."
+    ru: "Видно, что ты поделилась этим файлом."
+    source: { kind: authored }
+  - form: "współdzieliłby"
+    pl: "Współdzieliłby biuro, gdyby było większe."
+    ru: "Он делил бы офис, если бы он был больше."
+    source: { kind: authored }
+  - form: "współdzieliłby"
+    pl: "Nikt nie współdzieliłby z nim tej opinii."
+    ru: "Никто не разделял бы с ним этого мнения."
+    source: { kind: authored }
+  - form: "współdzieliłby"
+    pl: "Chętnie współdzieliłby koszty."
+    ru: "Он охотно делил бы расходы."
+    source: { kind: authored }
+  - form: "współdzieliłbym"
+    pl: "Współdzieliłbym biuro, gdyby trzeba."
+    ru: "Я делил бы офис, если бы понадобилось."
+    source: { kind: authored }
+  - form: "współdzieliłbym"
+    pl: "Na twoim miejscu współdzieliłbym koszty."
+    ru: "На твоём месте я делил бы расходы."
+    source: { kind: authored }
+  - form: "współdzieliłbym"
+    pl: "Nigdy nie współdzieliłbym hasła."
+    ru: "Я никогда не делился бы паролем."
+    source: { kind: authored }
+  - form: "współdzieliłbyś"
+    pl: "Czy współdzieliłbyś z kimś mieszkanie?"
+    ru: "Ты делил бы с кем-то квартиру?"
+    source: { kind: authored }
+  - form: "współdzieliłbyś"
+    pl: "Współdzieliłbyś koszty bez wahania."
+    ru: "Ты делил бы расходы без колебаний."
+    source: { kind: authored }
+  - form: "współdzieliłbyś"
+    pl: "Co współdzieliłbyś najchętniej?"
+    ru: "Что бы ты разделил охотнее всего?"
+    source: { kind: authored }
+  - form: "współdzieliłem"
+    pl: "Współdzieliłem mieszkanie z kolegą."
+    ru: "Я делил квартиру с коллегой."
+    source: { kind: authored }
+  - form: "współdzieliłem"
+    pl: "Nie współdzieliłem nigdy hasła."
+    ru: "Я никогда не делился паролем."
+    source: { kind: authored }
+  - form: "współdzieliłem"
+    pl: "Przez rok współdzieliłem z nim biuro."
+    ru: "Год я делил с ним офис."
+    source: { kind: authored }
+  - form: "współdzieliłeś"
+    pl: "Czy współdzieliłeś z kimś ten dysk?"
+    ru: "Ты делил с кем-то этот диск?"
+    source: { kind: authored }
+  - form: "współdzieliłeś"
+    pl: "Współdzieliłeś z nami całą odpowiedzialność."
+    ru: "Ты разделял с нами всю ответственность."
+    source: { kind: authored }
+  - form: "współdzieliłeś"
+    pl: "Widać, że współdzieliłeś to konto."
+    ru: "Видно, что ты пользовался этим аккаунтом совместно."
+    source: { kind: authored }
+  - form: "współdzieliło"
+    pl: "Kilka biur współdzieliło jedną drukarkę."
+    ru: "Несколько офисов делили один принтер."
+    source: { kind: authored }
+  - form: "współdzieliło"
+    pl: "Rodzeństwo współdzieliło jeden pokój."
+    ru: "Братья и сёстры делили одну комнату."
+    source: { kind: authored }
+  - form: "współdzieliło"
+    pl: "Wiele firm współdzieliło ten budynek."
+    ru: "Многие фирмы делили это здание."
+    source: { kind: authored }
+  - form: "współdzieliłoby"
+    pl: "Kilka biur współdzieliłoby jedną drukarkę."
+    ru: "Несколько офисов делили бы один принтер."
+    source: { kind: authored }
+  - form: "współdzieliłoby"
+    pl: "Rodzeństwo współdzieliłoby pokój bez skargi."
+    ru: "Братья и сёстры делили бы комнату без жалоб."
+    source: { kind: authored }
+  - form: "współdzieliłoby"
+    pl: "Żadne biuro nie współdzieliłoby tego serwera."
+    ru: "Ни один офис не делил бы этот сервер."
+    source: { kind: authored }
+  - form: "współdzieliły"
+    pl: "Dziewczyny współdzieliły pokój w akademiku."
+    ru: "Девушки делили комнату в общежитии."
+    source: { kind: authored }
+  - form: "współdzieliły"
+    pl: "Oba zespoły współdzieliły salę prób."
+    ru: "Обе команды делили репетиционный зал."
+    source: { kind: authored }
+  - form: "współdzieliły"
+    pl: "Współdzieliły koszty bez sporów."
+    ru: "Они делили расходы без споров."
+    source: { kind: authored }
+  - form: "współdzieliłyby"
+    pl: "Dziewczyny współdzieliłyby pokój bez sporów."
+    ru: "Девушки делили бы комнату без споров."
+    source: { kind: authored }
+  - form: "współdzieliłyby"
+    pl: "Oba zespoły współdzieliłyby salę prób."
+    ru: "Обе команды делили бы репетиционный зал."
+    source: { kind: authored }
+  - form: "współdzieliłyby"
+    pl: "Współdzieliłyby koszty po równo."
+    ru: "Они делили бы расходы поровну."
+    source: { kind: authored }
+  - form: "współdzieliłybyście"
+    pl: "Czy współdzieliłybyście to mieszkanie?"
+    ru: "Вы делили бы эту квартиру?"
+    source: { kind: authored }
+  - form: "współdzieliłybyście"
+    pl: "Współdzieliłybyście pokój bez problemu."
+    ru: "Вы без проблем делили бы комнату."
+    source: { kind: authored }
+  - form: "współdzieliłybyście"
+    pl: "Co współdzieliłybyście najchętniej?"
+    ru: "Что бы вы разделили охотнее всего?"
+    source: { kind: authored }
+  - form: "współdzieliłybyśmy"
+    pl: "Współdzieliłybyśmy pokój bez sporów."
+    ru: "Мы делили бы комнату без споров."
+    source: { kind: authored }
+  - form: "współdzieliłybyśmy"
+    pl: "Na waszym miejscu współdzieliłybyśmy kuchnię."
+    ru: "На вашем месте мы делили бы кухню."
+    source: { kind: authored }
+  - form: "współdzieliłybyśmy"
+    pl: "Co współdzieliłybyśmy najchętniej?"
+    ru: "Что бы мы разделили охотнее всего?"
+    source: { kind: authored }
+  - form: "współdzieliłyście"
+    pl: "Czy współdzieliłyście to mieszkanie?"
+    ru: "Вы делили эту квартиру?"
+    source: { kind: authored }
+  - form: "współdzieliłyście"
+    pl: "Współdzieliłyście z nami całą pracę."
+    ru: "Вы разделяли с нами всю работу."
+    source: { kind: authored }
+  - form: "współdzieliłyście"
+    pl: "Widać, że współdzieliłyście jedną kuchnię."
+    ru: "Видно, что вы делили одну кухню."
+    source: { kind: authored }
+  - form: "współdzieliłyśmy"
+    pl: "Współdzieliłyśmy pokój w akademiku."
+    ru: "Мы делили комнату в общежитии."
+    source: { kind: authored }
+  - form: "współdzieliłyśmy"
+    pl: "Współdzieliłyśmy koszty bez sporów."
+    ru: "Мы делили расходы без споров."
+    source: { kind: authored }
+  - form: "współdzieliłyśmy"
+    pl: "Nie współdzieliłyśmy tych obaw."
+    ru: "Мы не разделяли этих опасений."
+    source: { kind: authored }
+  - form: "współdzielmy"
+    pl: "Współdzielmy ten pokój na razie."
+    ru: "Будем пока делить эту комнату."
+    source: { kind: authored }
+  - form: "współdzielmy"
+    pl: "Współdzielmy koszty po połowie."
+    ru: "Разделим расходы пополам."
+    source: { kind: authored }
+  - form: "współdzielmy"
+    pl: "Współdzielmy odpowiedzialność za decyzję."
+    ru: "Разделим ответственность за решение."
+    source: { kind: authored }
+  - form: "współdzielona"
+    pl: "Kuchnia jest współdzielona przez wszystkich lokatorów."
+    ru: "Кухня используется всеми жильцами."
+    source: { kind: authored }
+  - form: "współdzielona"
+    pl: "Drukarka współdzielona przez biura często się psuła."
+    ru: "Принтер, общий для офисов, часто ломался."
+    source: { kind: authored }
+  - form: "współdzielona"
+    pl: "Odpowiedzialność była współdzielona."
+    ru: "Ответственность была разделена."
+    source: { kind: authored }
+  - form: "współdzielone"
+    pl: "Zasoby współdzielone wymagają ostrożności."
+    ru: "Общие ресурсы требуют осторожности."
+    source: { kind: authored }
+  - form: "współdzielone"
+    pl: "Te pomieszczenia są współdzielone."
+    ru: "Эти помещения используются совместно."
+    source: { kind: authored }
+  - form: "współdzielone"
+    pl: "Koszty zostały współdzielone po równo."
+    ru: "Расходы разделили поровну."
+    source: { kind: authored }
+  - form: "współdzielonego"
+    pl: "Nie ma tu nic współdzielonego."
+    ru: "Здесь нет ничего общего."
+    source: { kind: authored }
+  - form: "współdzielonego"
+    pl: "Szukali dysku współdzielonego w sieci."
+    ru: "Они искали общий диск в сети."
+    source: { kind: authored }
+  - form: "współdzielonego"
+    pl: "Dotyczy to współdzielonego serwera."
+    ru: "Это касается общего сервера."
+    source: { kind: authored }
+  - form: "współdzielonej"
+    pl: "Dotyczy to współdzielonej kuchni."
+    ru: "Это касается общей кухни."
+    source: { kind: authored }
+  - form: "współdzielonej"
+    pl: "Nie korzystamy ze współdzielonej drukarki."
+    ru: "Мы не пользуемся общим принтером."
+    source: { kind: authored }
+  - form: "współdzielonej"
+    pl: "Mówił o współdzielonej odpowiedzialności."
+    ru: "Он говорил о разделённой ответственности."
+    source: { kind: authored }
+  - form: "współdzielonemu"
+    pl: "Współdzielonemu dyskowi trzeba nadać uprawnienia."
+    ru: "Общему диску надо назначить права."
+    source: { kind: authored }
+  - form: "współdzielonemu"
+    pl: "Dzięki współdzielonemu biuru koszty spadły."
+    ru: "Благодаря общему офису расходы упали."
+    source: { kind: authored }
+  - form: "współdzielonemu"
+    pl: "Przyjrzyj się temu współdzielonemu folderowi."
+    ru: "Присмотрись к этой общей папке."
+    source: { kind: authored }
+  - form: "współdzielono"
+    pl: "Współdzielono jeden serwer przez wiele lat."
+    ru: "Один сервер использовали сообща много лет."
+    source: { kind: authored }
+  - form: "współdzielono"
+    pl: "Koszty współdzielono po równo."
+    ru: "Расходы делили поровну."
+    source: { kind: authored }
+  - form: "współdzielono"
+    pl: "W akademiku współdzielono wszystkie łazienki."
+    ru: "В общежитии все ванные были общими."
+    source: { kind: authored }
+  - form: "współdzielony"
+    pl: "To dysk współdzielony przez cały zespół."
+    ru: "Это диск, которым пользуется вся команда."
+    source: { kind: authored }
+  - form: "współdzielony"
+    pl: "Serwer jest współdzielony z inną firmą."
+    ru: "Сервер используется совместно с другой фирмой."
+    source: { kind: authored }
+  - form: "współdzielony"
+    pl: "Pokój współdzielony przez dwie osoby był ciasny."
+    ru: "Комната, которую делили двое, была тесной."
+    source: { kind: authored }
+  - form: "współdzielonych"
+    pl: "Nie ma tu współdzielonych zasobów."
+    ru: "Здесь нет общих ресурсов."
+    source: { kind: authored }
+  - form: "współdzielonych"
+    pl: "Wśród współdzielonych pokoi był i nasz."
+    ru: "Среди общих комнат была и наша."
+    source: { kind: authored }
+  - form: "współdzielonych"
+    pl: "O współdzielonych kosztach ustalono wszystko z góry."
+    ru: "Об общих расходах договорились заранее."
+    source: { kind: authored }
+  - form: "współdzielonym"
+    pl: "We współdzielonym biurze trudno się skupić."
+    ru: "В общем офисе трудно сосредоточиться."
+    source: { kind: authored }
+  - form: "współdzielonym"
+    pl: "Współdzielonym dyskom nadano osobne hasła."
+    ru: "Общим дискам задали отдельные пароли."
+    source: { kind: authored }
+  - form: "współdzielonym"
+    pl: "Serwer stał się zasobem współdzielonym."
+    ru: "Сервер стал общим ресурсом."
+    source: { kind: authored }
+  - form: "współdzielonymi"
+    pl: "Między współdzielonymi a prywatnymi zasobami jest różnica."
+    ru: "Между общими и личными ресурсами есть разница."
+    source: { kind: authored }
+  - form: "współdzielonymi"
+    pl: "Zajmuje się współdzielonymi serwerami."
+    ru: "Он занимается общими серверами."
+    source: { kind: authored }
+  - form: "współdzielonymi"
+    pl: "Pracujemy ze współdzielonymi dokumentami."
+    ru: "Мы работаем с общими документами."
+    source: { kind: authored }
+  - form: "współdzieloną"
+    pl: "Dostali kuchnię współdzieloną z sąsiadami."
+    ru: "Они получили кухню, общую с соседями."
+    source: { kind: authored }
+  - form: "współdzieloną"
+    pl: "Uznali tę odpowiedzialność za współdzieloną."
+    ru: "Эту ответственность сочли разделённой."
+    source: { kind: authored }
+  - form: "współdzieloną"
+    pl: "Wynajęli salę współdzieloną z inną grupą."
+    ru: "Они сняли зал, общий с другой группой."
+    source: { kind: authored }
+  - form: "współdzielą"
+    pl: "Studenci współdzielą mieszkanie przy uczelni."
+    ru: "Студенты делят квартиру у вуза."
+    source: { kind: authored }
+  - form: "współdzielą"
+    pl: "Oba zespoły współdzielą jedną salę."
+    ru: "Обе команды делят один зал."
+    source: { kind: authored }
+  - form: "współdzielą"
+    pl: "Nie współdzielą ze sobą żadnych danych."
+    ru: "Они не передают друг другу никаких данных."
+    source: { kind: authored }
+  - form: "współdzieląc"
+    pl: "Współdzieląc mieszkanie, oszczędzali na czynszu."
+    ru: "Деля квартиру, они экономили на квартплате."
+    source: { kind: authored }
+  - form: "współdzieląc"
+    pl: "Współdzieląc jeden serwer, dzielą też ryzyko."
+    ru: "Пользуясь одним сервером, они делят и риск."
+    source: { kind: authored }
+  - form: "współdzieląc"
+    pl: "Współdzieląc koszty, zmieścili się w budżecie."
+    ru: "Разделив расходы, они уложились в бюджет."
+    source: { kind: authored }
+  - form: "współdzielę"
+    pl: "Współdzielę mieszkanie z dwiema osobami."
+    ru: "Я делю квартиру с двумя людьми."
+    source: { kind: authored }
+  - form: "współdzielę"
+    pl: "Współdzielę ten dysk z całym zespołem."
+    ru: "Я использую этот диск совместно со всей командой."
+    source: { kind: authored }
+  - form: "współdzielę"
+    pl: "Nie współdzielę jego poglądów."
+    ru: "Я не разделяю его взглядов."
+    source: { kind: authored }
