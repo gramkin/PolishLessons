@@ -747,6 +747,25 @@ exclude:
   # ("wbrew swojej woli", "zgodnie z wola Boga"). wolec is carded and wola is
   # NOT, so only the verb target resolves -- the noun wola stays uncarded.
   - woli
+  # все 24 кандидата — о Chiny (Китай): "Pekin jest stolica Chin", "Pan Wang
+  # jest z Chin", "Wrocil z Chin". Chin — родительный множественного от Chiny,
+  # слова только множественного числа; ранжирование вывело из него мнимое
+  # единственное china. Chiny карточки не имеют, так что form-of не на что
+  # сослаться
+  - china
+  # кандидаты — формы Amerykanin: "Jestesmy Amerykanami", "Czy sa Amerykanami?".
+  # amerykanin есть в реестре, но карточки у него нет, поэтому see: не разрешится
+  - amerykan
+  # все кандидаты — личное имя Bob ("Bob to moj przyjaciel", "Spotkalem rano
+  # Boba"); boba — родительный от него. Само bob уже исключено как имя
+  - boba
+  # все кандидаты — musza, 3 л. мн. ч. от musiec ("Oni musza umrzec", "Musza
+  # sluchac polecen"); существительного musza в корпусе нет ни разу
+  - musza
+  # все кандидаты — имя Mary ("Mary umie plywac", "On zna Mary"). Слово mara
+  # "призрак" в польском есть, но в корпусе на него нет ни одного примера —
+  # тот же случай, что miał. Само mary уже исключено
+  - mara
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -925,6 +944,11 @@ excludeNotes:
   gory: { why: form-of, see: gora }
   hall: { why: proper-noun }
   woli: { why: form-of, see: wolec }
+  china: { why: not-a-lemma }
+  amerykan: { why: not-a-lemma }
+  boba: { why: proper-noun }
+  musza: { why: form-of, see: musiec }
+  mara: { why: proper-noun }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
