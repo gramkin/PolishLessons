@@ -1,0 +1,63 @@
+# review
+id: pomimo
+format: 2
+lemma: "pomimo"
+rank: 2363
+pos: part
+pron: { cyr: "поми́мо" }
+senses:
+  - id: despite
+    ru: "несмотря на"
+    examples:
+      - pl: "Pomimo deszczu wyszli na spacer."
+        ru: "Несмотря на дождь, они вышли гулять."
+        source: { kind: authored }
+      - pl: "Pomimo zmęczenia pracował do nocy."
+        ru: "Несмотря на усталость, он работал до ночи."
+        source: { kind: authored }
+  - id: despite-that
+    ru: "pomimo to — несмотря на это"
+    examples:
+      - pl: "Ostrzegano go, a pomimo to pojechał."
+        ru: "Его предупреждали, и несмотря на это он поехал."
+        source: { kind: authored }
+      - pl: "Było zimno, pomimo to okna stały otwarte."
+        ru: "Было холодно, несмотря на это окна стояли открытыми."
+        source: { kind: authored }
+  - id: although
+    ru: "pomimo że — хотя"
+    examples:
+      - pl: "Pomimo że padało, mecz się odbył."
+        ru: "Хотя шёл дождь, матч состоялся."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "ГЛАВНАЯ РАЗНИЦА С РУССКИМ — ПАДЕЖ. Pomimo требует РОДИТЕЛЬНОГО: pomimo deszczu, pomimo trudności, pomimo wszystko. Русское «несмотря на» требует винительного: «несмотря на дождь». Поэтому привычка подсказывает неверную форму, и ошибка эта очень устойчива. Запоминать надо падеж, а не перевод." }
+  - { kind: usage, text: "У слова есть более короткий близнец — mimo, с тем же управлением и тем же смыслом: mimo deszczu, mimo woli «невольно». Pomimo звучит чуть официальнее. Перед придаточным ставят że: pomimo że, mimo że. Оборот pomimo wszystko значит «несмотря ни на что»." }
+  - { kind: false-friend, text: "Созвучие с русским «помимо» обманчиво. Русское «помимо» значит «кроме, вдобавок к»: «помимо этого». Польское pomimo значит «НЕСМОТРЯ НА», то есть почти противоположное по логике. Русскому «помимо» отвечают польские oprócz и poza." }
+  - { kind: pronunciation, text: "Три слога, ударение на предпоследнем: po-MI-mo. Все гласные чистые, без редукции: «поми́мо». Слово не изменяется." }
+collocations:
+  - { pl: "pomimo wszystko", ru: "несмотря ни на что" }
+  - { pl: "pomimo to", ru: "несмотря на это" }
+  - { pl: "pomimo że", ru: "хотя, несмотря на то что" }
+family:
+  - { pl: "mimo", ru: "несмотря на", relation: derived, id: mimo }
+  - { pl: "oprócz", ru: "кроме", relation: antonym, id: oprocz }
+  - { pl: "chociaż", ru: "хотя", relation: derived, id: chociaz }
+etymology: "Сращение приставки po- с предлогом mimo «мимо», от того же корня, что русское «мимо» и глагол minąć «миновать». Исходный образ — пройти мимо препятствия, не посчитавшись с ним; отсюда и уступительное значение. Русское «помимо» собрано из тех же частей, но развило другой смысл — «минуя, кроме»."
+memory: "pomimo — «несмотря на», и требует РОДИТЕЛЬНОГО: pomimo deszczu. Русское «несмотря на» просит винительного — вот где ошибка. И не путать с русским «помимо», которое значит «кроме»: это oprócz."
+idioms:
+  - { pl: "pomimo wszystko", ru: "несмотря ни на что" }
+  - { pl: "mimo woli", ru: "невольно" }
+formExamples:
+  - form: "pomimo"
+    pl: "Pomimo deszczu wyszli na spacer."
+    ru: "Несмотря на дождь, они вышли гулять."
+    source: { kind: authored }
+  - form: "pomimo"
+    pl: "Ostrzegano go, a pomimo to pojechał."
+    ru: "Его предупреждали, и несмотря на это он поехал."
+    source: { kind: authored }
+  - form: "pomimo"
+    pl: "Pomimo że padało, mecz się odbył."
+    ru: "Хотя шёл дождь, матч состоялся."
+    source: { kind: authored }
