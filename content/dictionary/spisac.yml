@@ -1,0 +1,688 @@
+# review
+id: spisac
+format: 2
+lemma: "spisać"
+rank: 2356
+pos: verb
+pron: { cyr: "спи́саць" }
+senses:
+  - id: write-down
+    ru: "записать, составить (список, протокол)"
+    examples:
+      - pl: "Policjant spisał nasze dane."
+        ru: "Полицейский записал наши данные."
+        source: { kind: authored }
+      - pl: "Spisz wszystko, zanim zapomnisz."
+        ru: "Запиши всё, пока не забыл."
+        source: { kind: authored }
+  - id: make-inventory
+    ru: "переписать, составить опись"
+    examples:
+      - pl: "Spisali cały majątek po dziadku."
+        ru: "Они переписали всё имущество после деда."
+        source: { kind: authored }
+      - pl: "Inwentarz spisano w dwa dni."
+        ru: "Опись составили за два дня."
+        source: { kind: authored }
+  - id: acquit-oneself
+    ru: "spisać się — проявить себя, справиться"
+    examples:
+      - pl: "Dobrze się spisałeś."
+        ru: "Ты хорошо справился."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "ОСНОВА НАСТОЯЩЕГО ВРЕМЕНИ МЕНЯЕТ S НА SZ — ТО ЖЕ, ЧТО У OPISAĆ. Инфинитив spisać даёт spiszę, spiszesz, spisze, spiszą, повелительное spisz. Русский делает ровно это же в паре «списать — спишу», меняя с на ш. Одно древнее чередование на два языка." }
+  - { kind: false-friend, text: "Корень тот же, что в русском «писать», приставка та же, что в «списать». Но значения разошлись: польское spisać это прежде всего ЗАПИСАТЬ, составить список или протокол. Русское «списать» в школьном смысле — то есть у соседа — будет ściągnąć или odpisać, а никак не spisać." }
+  - { kind: government, text: "Записывают ЧТО — винительный: spisać dane, protokół, listę, majątek. С кого — od с родительным либо просто винительный лица: policjant spisał kierowcę «полицейский записал данные водителя». Возвратное spisać się значит «показать себя»: dobrze się spisał." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — spisywać. Отсюда деепричастие spisawszy и отсутствие причастия настоящего времени. Существительное spis значит «список, перепись»: spis powszechny «всеобщая перепись населения», spis treści «оглавление». Оборот spisać na straty — «списать в убыток, махнуть рукой»." }
+collocations:
+  - { pl: "spisać protokół", ru: "составить протокол" }
+  - { pl: "spis powszechny", ru: "перепись населения" }
+  - { pl: "spisać na straty", ru: "списать со счетов" }
+family:
+  - { pl: "pisać", ru: "писать", relation: root, id: pisac }
+  - { pl: "opisać", ru: "описать", relation: derived, id: opisac }
+  - { pl: "spis", ru: "список, перепись", relation: derived }
+  - { pl: "przepis", ru: "рецепт; правило", relation: derived, id: przepis }
+etymology: "Приставка s- плюс pisać, из праславянского *pisati «писать, наносить знаки» — того же корня, что русское «писать». Приставка s- даёт значение «свести воедино», отсюда список: спи́санное в одно место. Русское «списать» собрано из тех же частей. Отсюда spis, spisywać, podpis и zapisać."
+memory: "spisać — «записать, составить список», от pisać. Основа настоящего меняет s на sz: spiszę, spiszesz — как русское «спишу». Осторожно: списать у соседа это ściągnąć, не spisać. А spis powszechny значит «перепись населения»."
+idioms:
+  - { pl: "spisać na straty", ru: "списать со счетов" }
+  - { pl: "dobrze się spisać", ru: "хорошо себя проявить" }
+formExamples:
+  - form: "spisali"
+    pl: "Spisali cały majątek po dziadku."
+    ru: "Они переписали всё имущество после деда."
+    source: { kind: authored }
+  - form: "spisali"
+    pl: "Spisali zeznania świadków jeszcze w nocy."
+    ru: "Они записали показания свидетелей ещё ночью."
+    source: { kind: authored }
+  - form: "spisali"
+    pl: "Nie spisali nawet listy obecności."
+    ru: "Они не составили даже списка присутствующих."
+    source: { kind: authored }
+  - form: "spisaliby"
+    pl: "Spisaliby protokół, gdyby ktoś poprosił."
+    ru: "Они составили бы протокол, если бы кто-нибудь попросил."
+    source: { kind: authored }
+  - form: "spisaliby"
+    pl: "Urzędnicy spisaliby dane szybciej przy dwóch stanowiskach."
+    ru: "Чиновники записали бы данные быстрее на двух окнах."
+    source: { kind: authored }
+  - form: "spisaliby"
+    pl: "Bez świadków nie spisaliby takiego dokumentu."
+    ru: "Без свидетелей они не составили бы такого документа."
+    source: { kind: authored }
+  - form: "spisalibyście"
+    pl: "Spisalibyście zeznania na naszym miejscu?"
+    ru: "Вы записали бы показания на нашем месте?"
+    source: { kind: authored }
+  - form: "spisalibyście"
+    pl: "Czy spisalibyście cały inwentarz sami?"
+    ru: "Составили бы вы всю опись сами?"
+    source: { kind: authored }
+  - form: "spisalibyście"
+    pl: "Bez formularzy nie spisalibyście niczego."
+    ru: "Без бланков вы ничего не записали бы."
+    source: { kind: authored }
+  - form: "spisalibyśmy"
+    pl: "Spisalibyśmy wszystko, gdyby starczyło czasu."
+    ru: "Мы записали бы всё, если бы хватило времени."
+    source: { kind: authored }
+  - form: "spisalibyśmy"
+    pl: "Spisalibyśmy protokół na miejscu, ale padał deszcz."
+    ru: "Мы составили бы протокол на месте, но шёл дождь."
+    source: { kind: authored }
+  - form: "spisalibyśmy"
+    pl: "Bez listy nie spisalibyśmy obecnych."
+    ru: "Без списка мы не переписали бы присутствующих."
+    source: { kind: authored }
+  - form: "spisaliście"
+    pl: "Spisaliście dane wszystkich uczestników?"
+    ru: "Вы записали данные всех участников?"
+    source: { kind: authored }
+  - form: "spisaliście"
+    pl: "Gdzie spisaliście te zeznania?"
+    ru: "Где вы записали эти показания?"
+    source: { kind: authored }
+  - form: "spisaliście"
+    pl: "Nie spisaliście inwentarza na czas."
+    ru: "Вы не составили опись вовремя."
+    source: { kind: authored }
+  - form: "spisaliśmy"
+    pl: "Spisaliśmy protokół na miejscu zdarzenia."
+    ru: "Мы составили протокол на месте происшествия."
+    source: { kind: authored }
+  - form: "spisaliśmy"
+    pl: "Spisaliśmy wszystko, co pamiętaliśmy."
+    ru: "Мы записали всё, что помнили."
+    source: { kind: authored }
+  - form: "spisaliśmy"
+    pl: "Nie spisaliśmy numerów i teraz mamy kłopot."
+    ru: "Мы не записали номера, и теперь у нас проблема."
+    source: { kind: authored }
+  - form: "spisana"
+    pl: "Umowa spisana w dwóch egzemplarzach zaginęła."
+    ru: "Договор, составленный в двух экземплярах, пропал."
+    source: { kind: authored }
+  - form: "spisana"
+    pl: "Lista spisana rano okazała się niepełna."
+    ru: "Список, составленный утром, оказался неполным."
+    source: { kind: authored }
+  - form: "spisana"
+    pl: "Relacja spisana po latach bywa niedokładna."
+    ru: "Рассказ, записанный спустя годы, бывает неточным."
+    source: { kind: authored }
+  - form: "spisane"
+    pl: "Zeznania spisane w nocy były chaotyczne."
+    ru: "Показания, записанные ночью, были сбивчивыми."
+    source: { kind: authored }
+  - form: "spisane"
+    pl: "Spisane przepisy babci wiszą na lodówce."
+    ru: "Записанные бабушкины рецепты висят на холодильнике."
+    source: { kind: authored }
+  - form: "spisane"
+    pl: "Dane spisane ręcznie trzeba było przepisać."
+    ru: "Данные, записанные от руки, пришлось перепечатать."
+    source: { kind: authored }
+  - form: "spisanego"
+    pl: "Od spisanego protokołu zależy wynik sprawy."
+    ru: "От составленного протокола зависит исход дела."
+    source: { kind: authored }
+  - form: "spisanego"
+    pl: "Nie znam testamentu spisanego tak późno."
+    ru: "Я не знаю завещания, составленного так поздно."
+    source: { kind: authored }
+  - form: "spisanego"
+    pl: "Nie ma tu nic spisanego na piśmie."
+    ru: "Здесь нет ничего записанного письменно."
+    source: { kind: authored }
+  - form: "spisanej"
+    pl: "Od umowy spisanej naprędce nikt nie oczekiwał precyzji."
+    ru: "От наспех составленного договора никто не ждал точности."
+    source: { kind: authored }
+  - form: "spisanej"
+    pl: "Z listy spisanej rano skreślono trzy nazwiska."
+    ru: "Из списка, составленного утром, вычеркнули три фамилии."
+    source: { kind: authored }
+  - form: "spisanej"
+    pl: "Nie znam relacji spisanej tak dokładnie."
+    ru: "Я не знаю рассказа, записанного так подробно."
+    source: { kind: authored }
+  - form: "spisanemu"
+    pl: "Spisanemu protokołowi nadano numer."
+    ru: "Составленному протоколу присвоили номер."
+    source: { kind: authored }
+  - form: "spisanemu"
+    pl: "Dzięki spisanemu inwentarzowi nic nie zginęło."
+    ru: "Благодаря составленной описи ничего не пропало."
+    source: { kind: authored }
+  - form: "spisanemu"
+    pl: "Przyjrzyj się temu spisanemu wczoraj dokumentowi."
+    ru: "Присмотрись к этому вчера составленному документу."
+    source: { kind: authored }
+  - form: "spisani"
+    pl: "Spisani świadkowie czekali na korytarzu."
+    ru: "Записанные свидетели ждали в коридоре."
+    source: { kind: authored }
+  - form: "spisani"
+    pl: "Byli spisani już przy wejściu."
+    ru: "Их записали ещё при входе."
+    source: { kind: authored }
+  - form: "spisani"
+    pl: "Spisani przez rachmistrza mieszkańcy dostali potwierdzenie."
+    ru: "Переписанные счётчиком жители получили подтверждение."
+    source: { kind: authored }
+  - form: "spisania"
+    pl: "Do spisania zostały jeszcze dwa pokoje."
+    ru: "Осталось описать ещё две комнаты."
+    source: { kind: authored }
+  - form: "spisania"
+    pl: "Od spisania testamentu minęły trzy lata."
+    ru: "С составления завещания прошло три года."
+    source: { kind: authored }
+  - form: "spisania"
+    pl: "Bez spisania protokołu sprawa nie ruszy."
+    ru: "Без составления протокола дело не сдвинется."
+    source: { kind: authored }
+  - form: "spisanie"
+    pl: "Spisanie protokołu zajęło godzinę."
+    ru: "Составление протокола заняло час."
+    source: { kind: authored }
+  - form: "spisanie"
+    pl: "Spisanie całego majątku wymagało dwóch tygodni."
+    ru: "Опись всего имущества потребовала двух недель."
+    source: { kind: authored }
+  - form: "spisanie"
+    pl: "Spisanie wspomnień było jego ostatnim zamiarem."
+    ru: "Записать воспоминания было его последним замыслом."
+    source: { kind: authored }
+  - form: "spisaniem"
+    pl: "Przed spisaniem umowy sprawdź warunki."
+    ru: "Перед составлением договора проверь условия."
+    source: { kind: authored }
+  - form: "spisaniem"
+    pl: "Między oględzinami a spisaniem protokołu minęła doba."
+    ru: "Между осмотром и составлением протокола прошли сутки."
+    source: { kind: authored }
+  - form: "spisaniem"
+    pl: "Zajął się spisaniem całej kolekcji sam."
+    ru: "Он сам занялся описанием всей коллекции."
+    source: { kind: authored }
+  - form: "spisaniu"
+    pl: "Po spisaniu danych wszyscy mogli odejść."
+    ru: "После записи данных все могли уйти."
+    source: { kind: authored }
+  - form: "spisaniu"
+    pl: "O spisaniu testamentu rodzina dowiedziała się później."
+    ru: "О составлении завещания семья узнала позже."
+    source: { kind: authored }
+  - form: "spisaniu"
+    pl: "W spisaniu inwentarza pomagali sąsiedzi."
+    ru: "В составлении описи помогали соседи."
+    source: { kind: authored }
+  - form: "spisano"
+    pl: "Inwentarz spisano w dwa dni."
+    ru: "Опись составили за два дня."
+    source: { kind: authored }
+  - form: "spisano"
+    pl: "Zeznania spisano w obecności adwokata."
+    ru: "Показания записали в присутствии адвоката."
+    source: { kind: authored }
+  - form: "spisano"
+    pl: "Niczego wtedy nie spisano, wszystko szło ustnie."
+    ru: "Тогда ничего не записывали, всё шло устно."
+    source: { kind: authored }
+  - form: "spisany"
+    pl: "Protokół spisany na miejscu trafił do akt."
+    ru: "Протокол, составленный на месте, попал в дело."
+    source: { kind: authored }
+  - form: "spisany"
+    pl: "Testament spisany odręcznie też jest ważny."
+    ru: "Завещание, написанное от руки, тоже действительно."
+    source: { kind: authored }
+  - form: "spisany"
+    pl: "Spisany pospiesznie dokument pełen był błędów."
+    ru: "Наспех составленный документ был полон ошибок."
+    source: { kind: authored }
+  - form: "spisanych"
+    pl: "Wśród spisanych zeznań dwa są sprzeczne."
+    ru: "Среди записанных показаний два противоречивы."
+    source: { kind: authored }
+  - form: "spisanych"
+    pl: "O spisanych wspomnieniach dowiedzieliśmy się przypadkiem."
+    ru: "О записанных воспоминаниях мы узнали случайно."
+    source: { kind: authored }
+  - form: "spisanych"
+    pl: "Połowa spisanych nazwisk okazała się błędna."
+    ru: "Половина записанных фамилий оказалась ошибочной."
+    source: { kind: authored }
+  - form: "spisanym"
+    pl: "W spisanym protokole brakuje dwóch podpisów."
+    ru: "В составленном протоколе не хватает двух подписей."
+    source: { kind: authored }
+  - form: "spisanym"
+    pl: "Spisanym zeznaniom nadano moc dowodową."
+    ru: "Записанным показаниям придали доказательную силу."
+    source: { kind: authored }
+  - form: "spisanym"
+    pl: "Posłużył się testamentem spisanym przed laty."
+    ru: "Он воспользовался завещанием, составленным много лет назад."
+    source: { kind: authored }
+  - form: "spisanymi"
+    pl: "Między danymi spisanymi a wprowadzonymi do systemu są różnice."
+    ru: "Между записанными и внесёнными в систему данными есть различия."
+    source: { kind: authored }
+  - form: "spisanymi"
+    pl: "Zajmuje się relacjami spisanymi po wojnie."
+    ru: "Он занимается свидетельствами, записанными после войны."
+    source: { kind: authored }
+  - form: "spisanymi"
+    pl: "Teczka zapełniła się spisanymi zeznaniami."
+    ru: "Папка заполнилась записанными показаниями."
+    source: { kind: authored }
+  - form: "spisaną"
+    pl: "Przedstawili umowę spisaną u notariusza."
+    ru: "Они представили договор, составленный у нотариуса."
+    source: { kind: authored }
+  - form: "spisaną"
+    pl: "Uznali tę listę za rzetelnie spisaną."
+    ru: "Этот список сочли добросовестно составленным."
+    source: { kind: authored }
+  - form: "spisaną"
+    pl: "Pokazał relację spisaną ręką ojca."
+    ru: "Он показал рассказ, записанный рукой отца."
+    source: { kind: authored }
+  - form: "spisawszy"
+    pl: "Spisawszy dane, policjant odjechał."
+    ru: "Записав данные, полицейский уехал."
+    source: { kind: authored }
+  - form: "spisawszy"
+    pl: "Spisawszy testament, odetchnął z ulgą."
+    ru: "Составив завещание, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "spisawszy"
+    pl: "Spisawszy wszystkie uwagi, zamknęli zebranie."
+    ru: "Записав все замечания, они закрыли собрание."
+    source: { kind: authored }
+  - form: "spisać"
+    pl: "Trzeba spisać wszystkich obecnych."
+    ru: "Надо переписать всех присутствующих."
+    source: { kind: authored }
+  - form: "spisać"
+    pl: "Chcieli spisać majątek przed podziałem."
+    ru: "Они хотели переписать имущество перед разделом."
+    source: { kind: authored }
+  - form: "spisać"
+    pl: "Nie da się spisać wszystkiego z pamięci."
+    ru: "Нельзя записать всё по памяти."
+    source: { kind: authored }
+  - form: "spisał"
+    pl: "Policjant spisał nasze dane."
+    ru: "Полицейский записал наши данные."
+    source: { kind: authored }
+  - form: "spisał"
+    pl: "Spisał testament na rok przed śmiercią."
+    ru: "Он составил завещание за год до смерти."
+    source: { kind: authored }
+  - form: "spisał"
+    pl: "Nikt wtedy nie spisał tej rozmowy."
+    ru: "Никто тогда не записал этот разговор."
+    source: { kind: authored }
+  - form: "spisała"
+    pl: "Spisała przepis babci do zeszytu."
+    ru: "Она записала бабушкин рецепт в тетрадь."
+    source: { kind: authored }
+  - form: "spisała"
+    pl: "Komisja spisała wszystkie uwagi."
+    ru: "Комиссия записала все замечания."
+    source: { kind: authored }
+  - form: "spisała"
+    pl: "Nie spisała numerów i teraz ich szuka."
+    ru: "Она не записала номера и теперь их ищет."
+    source: { kind: authored }
+  - form: "spisałaby"
+    pl: "Spisałaby przepis, gdyby babcia go podyktowała."
+    ru: "Она записала бы рецепт, если бы бабушка его продиктовала."
+    source: { kind: authored }
+  - form: "spisałaby"
+    pl: "Komisja spisałaby uwagi, ale nikt ich nie zgłosił."
+    ru: "Комиссия записала бы замечания, но их никто не подал."
+    source: { kind: authored }
+  - form: "spisałaby"
+    pl: "Bez dyktafonu nie spisałaby całej rozmowy."
+    ru: "Без диктофона она не записала бы весь разговор."
+    source: { kind: authored }
+  - form: "spisałabym"
+    pl: "Spisałabym to od razu, ale nie miałam czym."
+    ru: "Я записала бы это сразу, но было нечем."
+    source: { kind: authored }
+  - form: "spisałabym"
+    pl: "Na twoim miejscu spisałabym wszystkie numery."
+    ru: "На твоём месте я записала бы все номера."
+    source: { kind: authored }
+  - form: "spisałabym"
+    pl: "Bez notatek nie spisałabym przebiegu zebrania."
+    ru: "Без записей я не восстановила бы ход собрания."
+    source: { kind: authored }
+  - form: "spisałabyś"
+    pl: "Spisałabyś dla mnie te dane?"
+    ru: "Записала бы ты для меня эти данные?"
+    source: { kind: authored }
+  - form: "spisałabyś"
+    pl: "Czy spisałabyś testament w takim wieku?"
+    ru: "Составила бы ты завещание в таком возрасте?"
+    source: { kind: authored }
+  - form: "spisałabyś"
+    pl: "Bez długopisu nie spisałabyś niczego."
+    ru: "Без ручки ты ничего не записала бы."
+    source: { kind: authored }
+  - form: "spisałam"
+    pl: "Spisałam wszystkie numery na kartce."
+    ru: "Я записала все номера на листке."
+    source: { kind: authored }
+  - form: "spisałam"
+    pl: "Spisałam umowę według wzoru."
+    ru: "Я составила договор по образцу."
+    source: { kind: authored }
+  - form: "spisałam"
+    pl: "Nie spisałam adresu i zgubiłam się."
+    ru: "Я не записала адрес и заблудилась."
+    source: { kind: authored }
+  - form: "spisałaś"
+    pl: "Spisałaś już dane kierowcy?"
+    ru: "Ты уже записала данные водителя?"
+    source: { kind: authored }
+  - form: "spisałaś"
+    pl: "Gdzie spisałaś te numery?"
+    ru: "Где ты записала эти номера?"
+    source: { kind: authored }
+  - form: "spisałaś"
+    pl: "Nie spisałaś połowy nazwisk."
+    ru: "Ты не записала половины фамилий."
+    source: { kind: authored }
+  - form: "spisałby"
+    pl: "Spisałby testament, gdyby zdążył."
+    ru: "Он составил бы завещание, если бы успел."
+    source: { kind: authored }
+  - form: "spisałby"
+    pl: "Nikt nie spisałby tego dokładniej od niego."
+    ru: "Никто не записал бы это точнее него."
+    source: { kind: authored }
+  - form: "spisałby"
+    pl: "Spisałby wszystko, ale zabrakło papieru."
+    ru: "Он записал бы всё, но кончилась бумага."
+    source: { kind: authored }
+  - form: "spisałbym"
+    pl: "Spisałbym to od razu, ale nie miałem czym."
+    ru: "Я записал бы это сразу, но было нечем."
+    source: { kind: authored }
+  - form: "spisałbym"
+    pl: "Na twoim miejscu spisałbym wszystkie numery."
+    ru: "На твоём месте я записал бы все номера."
+    source: { kind: authored }
+  - form: "spisałbym"
+    pl: "Bez notatek nie spisałbym przebiegu zebrania."
+    ru: "Без записей я не восстановил бы ход собрания."
+    source: { kind: authored }
+  - form: "spisałbyś"
+    pl: "Spisałbyś dla mnie te dane?"
+    ru: "Записал бы ты для меня эти данные?"
+    source: { kind: authored }
+  - form: "spisałbyś"
+    pl: "Czy spisałbyś testament w takim wieku?"
+    ru: "Составил бы ты завещание в таком возрасте?"
+    source: { kind: authored }
+  - form: "spisałbyś"
+    pl: "Bez długopisu nie spisałbyś niczego."
+    ru: "Без ручки ты ничего не записал бы."
+    source: { kind: authored }
+  - form: "spisałem"
+    pl: "Spisałem wszystkie numery na kartce."
+    ru: "Я записал все номера на листке."
+    source: { kind: authored }
+  - form: "spisałem"
+    pl: "Spisałem umowę według wzoru."
+    ru: "Я составил договор по образцу."
+    source: { kind: authored }
+  - form: "spisałem"
+    pl: "Nie spisałem adresu i zgubiłem się."
+    ru: "Я не записал адрес и заблудился."
+    source: { kind: authored }
+  - form: "spisałeś"
+    pl: "Spisałeś już dane kierowcy?"
+    ru: "Ты уже записал данные водителя?"
+    source: { kind: authored }
+  - form: "spisałeś"
+    pl: "Gdzie spisałeś te numery?"
+    ru: "Где ты записал эти номера?"
+    source: { kind: authored }
+  - form: "spisałeś"
+    pl: "Nie spisałeś połowy nazwisk."
+    ru: "Ты не записал половины фамилий."
+    source: { kind: authored }
+  - form: "spisało"
+    pl: "Kilka osób spisało swoje wspomnienia."
+    ru: "Несколько человек записали свои воспоминания."
+    source: { kind: authored }
+  - form: "spisało"
+    pl: "Biuro spisało inwentarz w tydzień."
+    ru: "Бюро составило опись за неделю."
+    source: { kind: authored }
+  - form: "spisało"
+    pl: "Żadne z nich nie spisało notatek z zebrania."
+    ru: "Никто из них не записал заметок с собрания."
+    source: { kind: authored }
+  - form: "spisałoby"
+    pl: "Kilka osób spisałoby swoje wspomnienia chętnie."
+    ru: "Несколько человек охотно записали бы свои воспоминания."
+    source: { kind: authored }
+  - form: "spisałoby"
+    pl: "Biuro spisałoby inwentarz szybciej z dodatkowym etatem."
+    ru: "Бюро составило бы опись быстрее с дополнительной ставкой."
+    source: { kind: authored }
+  - form: "spisałoby"
+    pl: "Żadne z nich nie spisałoby tego bez pomocy."
+    ru: "Никто из них не записал бы это без помощи."
+    source: { kind: authored }
+  - form: "spisały"
+    pl: "Obie komisje spisały własne protokoły."
+    ru: "Обе комиссии составили свои протоколы."
+    source: { kind: authored }
+  - form: "spisały"
+    pl: "Dziewczyny spisały słówka na kartkach."
+    ru: "Девочки записали слова на карточках."
+    source: { kind: authored }
+  - form: "spisały"
+    pl: "Nie spisały niczego, ufały pamięci."
+    ru: "Они ничего не записали, доверяли памяти."
+    source: { kind: authored }
+  - form: "spisałyby"
+    pl: "Obie komisje spisałyby własne wnioski."
+    ru: "Обе комиссии составили бы свои выводы."
+    source: { kind: authored }
+  - form: "spisałyby"
+    pl: "Dziewczyny spisałyby słówka, gdyby miały czas."
+    ru: "Девочки записали бы слова, будь у них время."
+    source: { kind: authored }
+  - form: "spisałyby"
+    pl: "Bez wzoru nie spisałyby umowy poprawnie."
+    ru: "Без образца они не составили бы договор правильно."
+    source: { kind: authored }
+  - form: "spisałybyście"
+    pl: "Spisałybyście zeznania na naszym miejscu?"
+    ru: "Вы записали бы показания на нашем месте?"
+    source: { kind: authored }
+  - form: "spisałybyście"
+    pl: "Czy spisałybyście cały inwentarz same?"
+    ru: "Составили бы вы всю опись сами?"
+    source: { kind: authored }
+  - form: "spisałybyście"
+    pl: "Bez formularzy nie spisałybyście niczego."
+    ru: "Без бланков вы ничего не записали бы."
+    source: { kind: authored }
+  - form: "spisałybyśmy"
+    pl: "Spisałybyśmy wszystko, gdyby starczyło czasu."
+    ru: "Мы записали бы всё, если бы хватило времени."
+    source: { kind: authored }
+  - form: "spisałybyśmy"
+    pl: "Spisałybyśmy protokół na miejscu, ale padał deszcz."
+    ru: "Мы составили бы протокол на месте, но шёл дождь."
+    source: { kind: authored }
+  - form: "spisałybyśmy"
+    pl: "Bez listy nie spisałybyśmy obecnych."
+    ru: "Без списка мы не переписали бы присутствующих."
+    source: { kind: authored }
+  - form: "spisałyście"
+    pl: "Spisałyście dane wszystkich uczestniczek?"
+    ru: "Вы записали данные всех участниц?"
+    source: { kind: authored }
+  - form: "spisałyście"
+    pl: "Gdzie spisałyście te zeznania?"
+    ru: "Где вы записали эти показания?"
+    source: { kind: authored }
+  - form: "spisałyście"
+    pl: "Nie spisałyście inwentarza na czas."
+    ru: "Вы не составили опись вовремя."
+    source: { kind: authored }
+  - form: "spisałyśmy"
+    pl: "Spisałyśmy protokół na miejscu zdarzenia."
+    ru: "Мы составили протокол на месте происшествия."
+    source: { kind: authored }
+  - form: "spisałyśmy"
+    pl: "Spisałyśmy wszystko, co pamiętałyśmy."
+    ru: "Мы записали всё, что помнили."
+    source: { kind: authored }
+  - form: "spisałyśmy"
+    pl: "Nie spisałyśmy numerów i teraz mamy kłopot."
+    ru: "Мы не записали номера, и теперь у нас проблема."
+    source: { kind: authored }
+  - form: "spisz"
+    pl: "Spisz wszystko, zanim zapomnisz."
+    ru: "Запиши всё, пока не забыл."
+    source: { kind: authored }
+  - form: "spisz"
+    pl: "Spisz numery seryjne z każdego urządzenia."
+    ru: "Запиши серийные номера с каждого устройства."
+    source: { kind: authored }
+  - form: "spisz"
+    pl: "Nie spisz tego na serwetce, weź zeszyt."
+    ru: "Не записывай это на салфетке, возьми тетрадь."
+    source: { kind: authored }
+  - form: "spiszcie"
+    pl: "Spiszcie nazwiska wszystkich chętnych."
+    ru: "Запишите фамилии всех желающих."
+    source: { kind: authored }
+  - form: "spiszcie"
+    pl: "Spiszcie protokół w dwóch egzemplarzach."
+    ru: "Составьте протокол в двух экземплярах."
+    source: { kind: authored }
+  - form: "spiszcie"
+    pl: "Nie spiszcie tego z pamięci, sprawdźcie dokumenty."
+    ru: "Не записывайте это по памяти, проверьте документы."
+    source: { kind: authored }
+  - form: "spisze"
+    pl: "Sekretarka spisze protokół z zebrania."
+    ru: "Секретарь составит протокол собрания."
+    source: { kind: authored }
+  - form: "spisze"
+    pl: "Nikt tego nie spisze lepiej od niej."
+    ru: "Никто не запишет это лучше неё."
+    source: { kind: authored }
+  - form: "spisze"
+    pl: "Komornik spisze majątek w obecności świadków."
+    ru: "Пристав опишет имущество при свидетелях."
+    source: { kind: authored }
+  - form: "spiszecie"
+    pl: "Spiszecie zeznania na miejscu?"
+    ru: "Вы запишете показания на месте?"
+    source: { kind: authored }
+  - form: "spiszecie"
+    pl: "Jeśli spiszecie wszystko dziś, jutro będzie łatwiej."
+    ru: "Если запишете всё сегодня, завтра будет легче."
+    source: { kind: authored }
+  - form: "spiszecie"
+    pl: "Nie spiszecie inwentarza w jeden dzień."
+    ru: "Вы не составите опись за один день."
+    source: { kind: authored }
+  - form: "spiszemy"
+    pl: "Spiszemy umowę jeszcze dziś."
+    ru: "Мы составим договор ещё сегодня."
+    source: { kind: authored }
+  - form: "spiszemy"
+    pl: "Spiszemy wszystko punkt po punkcie."
+    ru: "Мы запишем всё пункт за пунктом."
+    source: { kind: authored }
+  - form: "spiszemy"
+    pl: "Nie spiszemy tego bez pełnej listy."
+    ru: "Мы не запишем это без полного списка."
+    source: { kind: authored }
+  - form: "spiszesz"
+    pl: "Spiszesz dane świadków?"
+    ru: "Запишешь данные свидетелей?"
+    source: { kind: authored }
+  - form: "spiszesz"
+    pl: "Jeśli spiszesz to teraz, nie zapomnisz."
+    ru: "Если запишешь это сейчас, не забудешь."
+    source: { kind: authored }
+  - form: "spiszesz"
+    pl: "Nie spiszesz wszystkiego na jednej kartce."
+    ru: "Ты не запишешь всё на одном листке."
+    source: { kind: authored }
+  - form: "spiszmy"
+    pl: "Spiszmy to, póki pamiętamy."
+    ru: "Запишем это, пока помним."
+    source: { kind: authored }
+  - form: "spiszmy"
+    pl: "Spiszmy umowę i nie wracajmy do tematu."
+    ru: "Составим договор и не будем возвращаться к теме."
+    source: { kind: authored }
+  - form: "spiszmy"
+    pl: "Nie spiszmy tego pochopnie."
+    ru: "Не будем записывать это поспешно."
+    source: { kind: authored }
+  - form: "spiszą"
+    pl: "Urzędnicy spiszą dane mieszkańców."
+    ru: "Чиновники перепишут данные жителей."
+    source: { kind: authored }
+  - form: "spiszą"
+    pl: "Nie spiszą nikogo bez dowodu osobistego."
+    ru: "Они никого не запишут без паспорта."
+    source: { kind: authored }
+  - form: "spiszą"
+    pl: "Rachmistrze spiszą całą wieś do piątku."
+    ru: "Переписчики перепишут всю деревню до пятницы."
+    source: { kind: authored }
+  - form: "spiszę"
+    pl: "Spiszę to wieczorem, na spokojnie."
+    ru: "Я запишу это вечером, спокойно."
+    source: { kind: authored }
+  - form: "spiszę"
+    pl: "Spiszę listę zakupów przed wyjściem."
+    ru: "Я составлю список покупок перед выходом."
+    source: { kind: authored }
+  - form: "spiszę"
+    pl: "Nie spiszę tego bez twoich notatek."
+    ru: "Я не запишу это без твоих записей."
+    source: { kind: authored }
