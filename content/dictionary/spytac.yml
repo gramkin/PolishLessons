@@ -1,0 +1,683 @@
+# review
+id: spytac
+format: 2
+lemma: "spytać"
+rank: 830
+pos: verb
+pron: { cyr: "спы́таць" }
+senses:
+  - id: ask
+    ru: "спросить (кого-л. о чём-л.)"
+    examples:
+      - pl: "Spytał mnie o drogę na dworzec."
+        ru: "Он спросил у меня дорогу на вокзал."
+        source: { kind: authored }
+      - pl: "Spytaj ją o zdanie, zanim zdecydujesz."
+        ru: "Спроси её мнение, прежде чем решать."
+        source: { kind: authored }
+      - pl: "Nikt mnie o nic nie spytał."
+        ru: "Меня никто ни о чём не спросил."
+        source: { kind: authored }
+  - id: inquire
+    ru: "справиться, осведомиться"
+    examples:
+      - pl: "Spytała w recepcji o wolne pokoje."
+        ru: "Она справилась на ресепшене о свободных номерах."
+        source: { kind: authored }
+      - pl: "Spytano nas o cel wizyty."
+        ru: "Нас спросили о цели визита."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ПОЛЬСКОЕ PYTAĆ — ЭТО «СПРАШИВАТЬ», А НЕ «ПЫТАТЬ». Слово то же самое: праславянское *pytati значило «доискиваться, выведывать». Русский увёл его в сторону допроса с мучением, и «пытать» стало страшным словом, а нейтральный смысл остался только в «испытать», «любопытный», «пытливый». Польский же сохранил исходное значение целиком. Русское «пытать» по-польски будет TORTUROWAĆ." }
+  - { kind: government, text: "СПРАШИВАЮТ O COŚ — С ВИНИТЕЛЬНЫМ. Человек ставится в винительный, как и по-русски: spytać kogoś. А вот тема идёт через o с ВИНИТЕЛЬНЫМ: spytać o drogĘ, o cenĘ, o godzinĘ. Русское «спросить о дороге» требует предложного, и калька с ним будет ошибкой. Проверяй себя по окончанию: o drogę, а не «o drodze»." }
+  - { kind: usage, text: "У несовершенного PYTAĆ две совершенные пары, SPYTAĆ и ZAPYTAĆ, и они почти равнозначны. Zapytać чуть официальнее и чаще в письменной речи, spytać — в разговорной. Есть ещё возвратное SPYTAĆ SIĘ с тем же смыслом: spytaj się mamy «спроси у мамы». Вид совершенный, поэтому spytam значит «спрошу», а не «спрашиваю»." }
+collocations:
+  - { pl: "spytać o drogę", ru: "спросить дорогу" }
+  - { pl: "spytać o zdanie", ru: "спросить мнение" }
+  - { pl: "spytać o radę", ru: "спросить совета" }
+family:
+  - { pl: "pytać", ru: "спрашивать (несов.)", relation: aspect, id: pytac }
+  - { pl: "zapytać", ru: "спросить", relation: root, id: zapytac }
+  - { pl: "pytanie", ru: "вопрос", relation: root, id: pytanie }
+etymology: "Приставка s- и pytać, из праславянского *pytati «выведывать, доискиваться». Русский на этом корне построил «пытать» в смысле допроса и «испытать» в смысле проверки, польский же оставил простое «спрашивать». Общее у них видно в словах «любопытный» и «пытливый»: там наш корень всё ещё значит просто «желающий узнать», ровно как польское pytać."
+memory: "pytać — это «спрашивать», а никакое не «пытать»; пытать по-польски torturować. И следи за падежом темы: spytać o drogę, винительный, а не «o drodze»."
+idioms:
+  - { pl: "spytać kogoś o zdanie", ru: "спросить чьё-л. мнение" }
+  - { pl: "spytać o rękę", ru: "просить руки" }
+formExamples:
+  - form: "spyta"
+    pl: "Nikt już o to nie spyta."
+    ru: "Никто больше об этом не спросит."
+    source: { kind: authored }
+  - form: "spyta"
+    pl: "Jeśli ktoś spyta, powiedz, że wyszedłem."
+    ru: "Если кто спросит, скажи, что я вышел."
+    source: { kind: authored }
+  - form: "spyta"
+    pl: "Lekarz spyta cię o alergie."
+    ru: "Врач спросит тебя об аллергиях."
+    source: { kind: authored }
+  - form: "spytacie"
+    pl: "Spytacie ich sami?"
+    ru: "Вы спросите их сами?"
+    source: { kind: authored }
+  - form: "spytacie"
+    pl: "Kogo spytacie o pozwolenie?"
+    ru: "У кого вы спросите разрешения?"
+    source: { kind: authored }
+  - form: "spytacie"
+    pl: "Jeśli spytacie uprzejmie, nikt wam nie odmówi."
+    ru: "Если спросите вежливо, вам никто не откажет."
+    source: { kind: authored }
+  - form: "spytaj"
+    pl: "Spytaj ją o zdanie, zanim zdecydujesz."
+    ru: "Спроси её мнение, прежде чем решать."
+    source: { kind: authored }
+  - form: "spytaj"
+    pl: "Spytaj o drogę, bo zabłądzimy."
+    ru: "Спроси дорогу, а то заблудимся."
+    source: { kind: authored }
+  - form: "spytaj"
+    pl: "Nie spytaj go o to przy wszystkich."
+    ru: "Не спроси его об этом при всех."
+    source: { kind: authored }
+  - form: "spytajcie"
+    pl: "Spytajcie w informacji o godzinę odjazdu."
+    ru: "Спросите в справочной время отправления."
+    source: { kind: authored }
+  - form: "spytajcie"
+    pl: "Spytajcie rodziców o zgodę."
+    ru: "Спросите у родителей согласия."
+    source: { kind: authored }
+  - form: "spytajcie"
+    pl: "Spytajcie kogoś miejscowego o najkrótszą drogę."
+    ru: "Спросите у кого-нибудь местного кратчайшую дорогу."
+    source: { kind: authored }
+  - form: "spytajmy"
+    pl: "Spytajmy o cenę, zanim kupimy."
+    ru: "Спросим цену, прежде чем покупать."
+    source: { kind: authored }
+  - form: "spytajmy"
+    pl: "Spytajmy kogoś, bo krążymy w kółko."
+    ru: "Спросим у кого-нибудь, а то мы ходим кругами."
+    source: { kind: authored }
+  - form: "spytajmy"
+    pl: "Spytajmy ją o radę."
+    ru: "Спросим у неё совета."
+    source: { kind: authored }
+  - form: "spytają"
+    pl: "Na granicy spytają o cel podróży."
+    ru: "На границе спросят о цели поездки."
+    source: { kind: authored }
+  - form: "spytają"
+    pl: "Jeśli spytają, powiedz prawdę."
+    ru: "Если спросят, скажи правду."
+    source: { kind: authored }
+  - form: "spytają"
+    pl: "Dzieci spytają o to prędzej czy później."
+    ru: "Дети спросят об этом рано или поздно."
+    source: { kind: authored }
+  - form: "spytali"
+    pl: "Spytali nas o cel wizyty."
+    ru: "Они спросили нас о цели визита."
+    source: { kind: authored }
+  - form: "spytali"
+    pl: "Spytali o drogę pierwszego napotkanego przechodnia."
+    ru: "Они спросили дорогу у первого встречного прохожего."
+    source: { kind: authored }
+  - form: "spytali"
+    pl: "Nawet nie spytali o zgodę."
+    ru: "Они даже не спросили разрешения."
+    source: { kind: authored }
+  - form: "spytaliby"
+    pl: "Spytaliby o drogę, gdyby ktoś tu był."
+    ru: "Они спросили бы дорогу, если бы тут кто-то был."
+    source: { kind: authored }
+  - form: "spytaliby"
+    pl: "Dziennikarze spytaliby o to na konferencji."
+    ru: "Журналисты спросили бы об этом на конференции."
+    source: { kind: authored }
+  - form: "spytaliby"
+    pl: "Bez tłumacza nie spytaliby o nic."
+    ru: "Без переводчика они ни о чём не спросили бы."
+    source: { kind: authored }
+  - form: "spytalibyście"
+    pl: "Spytalibyście o to na naszym miejscu?"
+    ru: "Вы спросили бы об этом на нашем месте?"
+    source: { kind: authored }
+  - form: "spytalibyście"
+    pl: "Bez mapy spytalibyście o drogę wcześniej."
+    ru: "Без карты вы спросили бы дорогу раньше."
+    source: { kind: authored }
+  - form: "spytalibyście"
+    pl: "Chyba spytalibyście najpierw o cenę."
+    ru: "Пожалуй, вы сначала спросили бы цену."
+    source: { kind: authored }
+  - form: "spytalibyśmy"
+    pl: "Spytalibyśmy o drogę, gdyby ktoś przechodził."
+    ru: "Мы спросили бы дорогу, если бы кто-то проходил."
+    source: { kind: authored }
+  - form: "spytalibyśmy"
+    pl: "Bez tłumacza nie spytalibyśmy o nic."
+    ru: "Без переводчика мы ни о чём не спросили бы."
+    source: { kind: authored }
+  - form: "spytalibyśmy"
+    pl: "O cenę spytalibyśmy jeszcze przed zamówieniem."
+    ru: "Цену мы спросили бы ещё до заказа."
+    source: { kind: authored }
+  - form: "spytaliście"
+    pl: "Spytaliście o cenę przed zamówieniem?"
+    ru: "Вы спросили цену перед заказом?"
+    source: { kind: authored }
+  - form: "spytaliście"
+    pl: "Kogo spytaliście o radę?"
+    ru: "У кого вы спросили совета?"
+    source: { kind: authored }
+  - form: "spytaliście"
+    pl: "Dobrze, że spytaliście wcześniej."
+    ru: "Хорошо, что вы спросили заранее."
+    source: { kind: authored }
+  - form: "spytaliśmy"
+    pl: "Spytaliśmy o drogę i trafiliśmy od razu."
+    ru: "Мы спросили дорогу и сразу попали куда надо."
+    source: { kind: authored }
+  - form: "spytaliśmy"
+    pl: "Spytaliśmy ją o zdanie na zebraniu."
+    ru: "Мы спросили её мнение на собрании."
+    source: { kind: authored }
+  - form: "spytaliśmy"
+    pl: "Nikogo nie spytaliśmy o pozwolenie."
+    ru: "Мы ни у кого не спросили разрешения."
+    source: { kind: authored }
+  - form: "spytam"
+    pl: "Spytam go o to jutro."
+    ru: "Я спрошу его об этом завтра."
+    source: { kind: authored }
+  - form: "spytam"
+    pl: "Jeśli nie wiesz, spytam kogoś innego."
+    ru: "Если ты не знаешь, я спрошу кого-нибудь другого."
+    source: { kind: authored }
+  - form: "spytam"
+    pl: "Spytam w recepcji o wolne pokoje."
+    ru: "Я справлюсь на ресепшене о свободных номерах."
+    source: { kind: authored }
+  - form: "spytamy"
+    pl: "Spytamy sąsiadów o drogę."
+    ru: "Мы спросим дорогу у соседей."
+    source: { kind: authored }
+  - form: "spytamy"
+    pl: "Jeśli spytamy wcześniej, unikniemy kolejki."
+    ru: "Если спросим заранее, избежим очереди."
+    source: { kind: authored }
+  - form: "spytamy"
+    pl: "Spytamy ją o zdanie na zebraniu."
+    ru: "Мы спросим её мнение на собрании."
+    source: { kind: authored }
+  - form: "spytana"
+    pl: "Spytana o powód, tylko się uśmiechnęła."
+    ru: "Спрошенная о причине, она только улыбнулась."
+    source: { kind: authored }
+  - form: "spytana"
+    pl: "Spytana wprost, powiedziała prawdę."
+    ru: "Спрошенная прямо, она сказала правду."
+    source: { kind: authored }
+  - form: "spytana"
+    pl: "Nauczycielka spytana o termin podała datę."
+    ru: "Учительница, спрошенная о сроке, назвала дату."
+    source: { kind: authored }
+  - form: "spytane"
+    pl: "Dzieci spytane o to samo odpowiedziały różnie."
+    ru: "Дети, спрошенные об одном и том же, ответили по-разному."
+    source: { kind: authored }
+  - form: "spytane"
+    pl: "Pytania spytane wprost bywają niewygodne."
+    ru: "Вопросы, заданные прямо, бывают неудобными."
+    source: { kind: authored }
+  - form: "spytane"
+    pl: "Spytane o wiek dziecko podało liczbę palców."
+    ru: "Спрошенный о возрасте ребёнок показал на пальцах."
+    source: { kind: authored }
+  - form: "spytanego"
+    pl: "Nie zrozumieli spytanego o drogę cudzoziemca."
+    ru: "Они не поняли иностранца, спрошенного о дороге."
+    source: { kind: authored }
+  - form: "spytanego"
+    pl: "Z powodu spytanego nie w porę świadka rozprawa się przeciągnęła."
+    ru: "Из-за не вовремя спрошенного свидетеля заседание затянулось."
+    source: { kind: authored }
+  - form: "spytanego"
+    pl: "Dotyczy to ucznia spytanego na ostatniej lekcji."
+    ru: "Это касается ученика, спрошенного на последнем уроке."
+    source: { kind: authored }
+  - form: "spytanej"
+    pl: "Mówiono o kobiecie spytanej o zdanie jako pierwszej."
+    ru: "Говорили о женщине, спрошенной о мнении первой."
+    source: { kind: authored }
+  - form: "spytanej"
+    pl: "Z powodu spytanej nie w porę świadkini przerwano rozprawę."
+    ru: "Из-за не вовремя спрошенной свидетельницы заседание прервали."
+    source: { kind: authored }
+  - form: "spytanej"
+    pl: "Dotyczy to uczennicy spytanej przy tablicy."
+    ru: "Это касается ученицы, спрошенной у доски."
+    source: { kind: authored }
+  - form: "spytanemu"
+    pl: "Spytanemu o drogę przechodniowi podziękowali."
+    ru: "Прохожего, спрошенного о дороге, поблагодарили."
+    source: { kind: authored }
+  - form: "spytanemu"
+    pl: "Przyjrzyj się temu świadkowi spytanemu na końcu."
+    ru: "Присмотрись к этому свидетелю, спрошенному последним."
+    source: { kind: authored }
+  - form: "spytanemu"
+    pl: "Dzięki spytanemu w porę sąsiadowi trafili na miejsce."
+    ru: "Благодаря вовремя спрошенному соседу они нашли место."
+    source: { kind: authored }
+  - form: "spytani"
+    pl: "Spytani o cel podróży pokazali bilety."
+    ru: "Спрошенные о цели поездки, они показали билеты."
+    source: { kind: authored }
+  - form: "spytani"
+    pl: "Byli spytani o to samo trzy razy."
+    ru: "Их спросили об одном и том же трижды."
+    source: { kind: authored }
+  - form: "spytani"
+    pl: "Spytani wprost, przyznali się do błędu."
+    ru: "Спрошенные прямо, они признали ошибку."
+    source: { kind: authored }
+  - form: "spytania"
+    pl: "Bez spytania o zgodę nic nie zrobimy."
+    ru: "Без того чтобы спросить согласия, мы ничего не сделаем."
+    source: { kind: authored }
+  - form: "spytania"
+    pl: "Od spytania o cenę zaczyna się każdy targ."
+    ru: "С вопроса о цене начинается всякий торг."
+    source: { kind: authored }
+  - form: "spytania"
+    pl: "Nie uniknęli spytania o szczegóły."
+    ru: "Им не удалось избежать вопросов о подробностях."
+    source: { kind: authored }
+  - form: "spytanie"
+    pl: "Samo spytanie o cenę nic nie kosztuje."
+    ru: "Спросить цену ничего не стоит."
+    source: { kind: authored }
+  - form: "spytanie"
+    pl: "Spytanie o drogę zajęło chwilę."
+    ru: "Спросить дорогу заняло минуту."
+    source: { kind: authored }
+  - form: "spytanie"
+    pl: "Spytanie wprost bywa najskuteczniejsze."
+    ru: "Спросить прямо бывает действеннее всего."
+    source: { kind: authored }
+  - form: "spytaniem"
+    pl: "Przed spytaniem o podwyżkę przygotuj argumenty."
+    ru: "Прежде чем спрашивать о прибавке, подготовь аргументы."
+    source: { kind: authored }
+  - form: "spytaniem"
+    pl: "Między spytaniem a wypytywaniem jest różnica."
+    ru: "Между вопросом и допросом есть разница."
+    source: { kind: authored }
+  - form: "spytaniem"
+    pl: "Zajął się spytaniem wszystkich po kolei."
+    ru: "Он занялся тем, что спросил всех по очереди."
+    source: { kind: authored }
+  - form: "spytaniu"
+    pl: "Po spytaniu o drogę ruszyli pewniej."
+    ru: "Спросив дорогу, они пошли увереннее."
+    source: { kind: authored }
+  - form: "spytaniu"
+    pl: "Przy spytaniu o cenę warto zachować spokój."
+    ru: "Спрашивая цену, стоит сохранять спокойствие."
+    source: { kind: authored }
+  - form: "spytaniu"
+    pl: "Dzięki spytaniu w porę uniknęli pomyłki."
+    ru: "Благодаря вовремя заданному вопросу они избежали ошибки."
+    source: { kind: authored }
+  - form: "spytano"
+    pl: "Spytano nas o cel wizyty."
+    ru: "Нас спросили о цели визита."
+    source: { kind: authored }
+  - form: "spytano"
+    pl: "Na granicy spytano o dokumenty."
+    ru: "На границе спросили документы."
+    source: { kind: authored }
+  - form: "spytano"
+    pl: "Nikogo nie spytano o zdanie."
+    ru: "Ни у кого не спросили мнения."
+    source: { kind: authored }
+  - form: "spytany"
+    pl: "Spytany o wiek, nie odpowiedział."
+    ru: "Спрошенный о возрасте, он не ответил."
+    source: { kind: authored }
+  - form: "spytany"
+    pl: "Świadek spytany wprost przyznał się do wszystkiego."
+    ru: "Свидетель, спрошенный прямо, во всём признался."
+    source: { kind: authored }
+  - form: "spytany"
+    pl: "Spytany o zdanie, wzruszył ramionami."
+    ru: "Спрошенный о мнении, он пожал плечами."
+    source: { kind: authored }
+  - form: "spytanych"
+    pl: "Większość spytanych nie miała zdania."
+    ru: "Большинство опрошенных не имели мнения."
+    source: { kind: authored }
+  - form: "spytanych"
+    pl: "Nie policzono wszystkich spytanych przechodniów."
+    ru: "Не сосчитали всех опрошенных прохожих."
+    source: { kind: authored }
+  - form: "spytanych"
+    pl: "Dotyczy to uczniów spytanych na tej lekcji."
+    ru: "Это касается учеников, спрошенных на этом уроке."
+    source: { kind: authored }
+  - form: "spytanym"
+    pl: "W uczniu spytanym bez zapowiedzi widać prawdziwą wiedzę."
+    ru: "В ученике, спрошенном без предупреждения, видно настоящее знание."
+    source: { kind: authored }
+  - form: "spytanym"
+    pl: "Mówili o świadku spytanym na samym końcu."
+    ru: "Они говорили о свидетеле, спрошенном в самом конце."
+    source: { kind: authored }
+  - form: "spytanym"
+    pl: "Zajęli się przechodniem spytanym o drogę."
+    ru: "Они занялись прохожим, спрошенным о дороге."
+    source: { kind: authored }
+  - form: "spytanymi"
+    pl: "Zajmują się spytanymi w ankiecie mieszkańcami."
+    ru: "Они занимаются жителями, опрошенными в анкете."
+    source: { kind: authored }
+  - form: "spytanymi"
+    pl: "Między spytanymi a ochotnikami jest różnica."
+    ru: "Между опрошенными и добровольцами есть разница."
+    source: { kind: authored }
+  - form: "spytanymi"
+    pl: "Problem ze spytanymi po godzinach pracownikami wrócił."
+    ru: "Проблема с работниками, опрошенными после смены, вернулась."
+    source: { kind: authored }
+  - form: "spytaną"
+    pl: "Uznali spytaną o zdanie sąsiadkę za najlepiej poinformowaną."
+    ru: "Соседку, спрошенную о мнении, сочли лучше всех осведомлённой."
+    source: { kind: authored }
+  - form: "spytaną"
+    pl: "Widzieli kobietę spytaną o drogę na rogu."
+    ru: "Они видели женщину, спрошенную о дороге на углу."
+    source: { kind: authored }
+  - form: "spytaną"
+    pl: "Opisał uczennicę spytaną tuż przed dzwonkiem."
+    ru: "Он описал ученицу, спрошенную прямо перед звонком."
+    source: { kind: authored }
+  - form: "spytasz"
+    pl: "Spytasz ją sam czy mam to zrobić?"
+    ru: "Спросишь её сам или мне это сделать?"
+    source: { kind: authored }
+  - form: "spytasz"
+    pl: "Jeśli spytasz grzecznie, na pewno pomogą."
+    ru: "Если спросишь вежливо, обязательно помогут."
+    source: { kind: authored }
+  - form: "spytasz"
+    pl: "Kogo spytasz o radę?"
+    ru: "У кого ты спросишь совета?"
+    source: { kind: authored }
+  - form: "spytawszy"
+    pl: "Spytawszy o drogę, ruszyli dalej."
+    ru: "Спросив дорогу, они двинулись дальше."
+    source: { kind: authored }
+  - form: "spytawszy"
+    pl: "Spytawszy o cenę, odłożył książkę."
+    ru: "Спросив цену, он отложил книгу."
+    source: { kind: authored }
+  - form: "spytawszy"
+    pl: "Wyszedł, nie spytawszy nikogo o pozwolenie."
+    ru: "Он вышел, не спросив ни у кого разрешения."
+    source: { kind: authored }
+  - form: "spytać"
+    pl: "Trzeba spytać kogoś o drogę."
+    ru: "Надо у кого-нибудь спросить дорогу."
+    source: { kind: authored }
+  - form: "spytać"
+    pl: "Wypadałoby spytać ją o zdanie."
+    ru: "Следовало бы спросить её мнение."
+    source: { kind: authored }
+  - form: "spytać"
+    pl: "Zapomniałem spytać o cenę."
+    ru: "Я забыл спросить цену."
+    source: { kind: authored }
+  - form: "spytał"
+    pl: "Spytał mnie o drogę na dworzec."
+    ru: "Он спросил у меня дорогу на вокзал."
+    source: { kind: authored }
+  - form: "spytał"
+    pl: "Spytał o cenę i zbladł."
+    ru: "Он спросил цену и побледнел."
+    source: { kind: authored }
+  - form: "spytał"
+    pl: "Nikt go o nic nie spytał."
+    ru: "Его никто ни о чём не спросил."
+    source: { kind: authored }
+  - form: "spytała"
+    pl: "Spytała w recepcji o wolne pokoje."
+    ru: "Она справилась на ресепшене о свободных номерах."
+    source: { kind: authored }
+  - form: "spytała"
+    pl: "Spytała mnie o zdanie, co mnie zaskoczyło."
+    ru: "Она спросила моё мнение, что меня удивило."
+    source: { kind: authored }
+  - form: "spytała"
+    pl: "Nigdy nie spytała o powód."
+    ru: "Она ни разу не спросила о причине."
+    source: { kind: authored }
+  - form: "spytałaby"
+    pl: "Spytałaby o zdanie, gdyby jej na nim zależało."
+    ru: "Она спросила бы мнение, если бы оно было ей важно."
+    source: { kind: authored }
+  - form: "spytałaby"
+    pl: "Każda matka spytałaby o to samo."
+    ru: "Любая мать спросила бы о том же."
+    source: { kind: authored }
+  - form: "spytałaby"
+    pl: "Bez pozwolenia nie spytałaby o szczegóły."
+    ru: "Без разрешения она не спросила бы о подробностях."
+    source: { kind: authored }
+  - form: "spytałabym"
+    pl: "Spytałabym ją o zdanie przed decyzją."
+    ru: "Я спросила бы её мнение перед решением."
+    source: { kind: authored }
+  - form: "spytałabym"
+    pl: "Na twoim miejscu spytałabym o termin."
+    ru: "На твоём месте я спросила бы о сроке."
+    source: { kind: authored }
+  - form: "spytałabym"
+    pl: "Sama nie spytałabym o takie rzeczy."
+    ru: "Сама я не спросила бы о таких вещах."
+    source: { kind: authored }
+  - form: "spytałabyś"
+    pl: "Spytałabyś go wprost?"
+    ru: "Ты спросила бы его прямо?"
+    source: { kind: authored }
+  - form: "spytałabyś"
+    pl: "Kogo spytałabyś o pomoc?"
+    ru: "У кого ты спросила бы помощи?"
+    source: { kind: authored }
+  - form: "spytałabyś"
+    pl: "Chyba nie spytałabyś o to przez telefon."
+    ru: "Пожалуй, ты не спросила бы об этом по телефону."
+    source: { kind: authored }
+  - form: "spytałam"
+    pl: "Spytałam ją o zdanie przed decyzją."
+    ru: "Я спросила её мнение перед решением."
+    source: { kind: authored }
+  - form: "spytałam"
+    pl: "Spytałam o cenę i zrezygnowałam."
+    ru: "Я спросила цену и отказалась."
+    source: { kind: authored }
+  - form: "spytałam"
+    pl: "Nigdy o to nie spytałam."
+    ru: "Я никогда об этом не спрашивала."
+    source: { kind: authored }
+  - form: "spytałaś"
+    pl: "Spytałaś go wprost?"
+    ru: "Ты спросила его прямо?"
+    source: { kind: authored }
+  - form: "spytałaś"
+    pl: "Kogo spytałaś o drogę?"
+    ru: "У кого ты спросила дорогу?"
+    source: { kind: authored }
+  - form: "spytałaś"
+    pl: "Dobrze, że spytałaś o termin."
+    ru: "Хорошо, что ты спросила о сроке."
+    source: { kind: authored }
+  - form: "spytałby"
+    pl: "Spytałby o drogę, gdyby nie wstyd."
+    ru: "Он спросил бы дорогу, если бы не стыд."
+    source: { kind: authored }
+  - form: "spytałby"
+    pl: "Każdy rozsądny człowiek spytałby o cenę."
+    ru: "Любой разумный человек спросил бы цену."
+    source: { kind: authored }
+  - form: "spytałby"
+    pl: "Bez potrzeby nie spytałby o takie rzeczy."
+    ru: "Без нужды он не спросил бы о таких вещах."
+    source: { kind: authored }
+  - form: "spytałbym"
+    pl: "Spytałbym go o radę, ale wyjechał."
+    ru: "Я спросил бы у него совета, но он уехал."
+    source: { kind: authored }
+  - form: "spytałbym"
+    pl: "Na twoim miejscu spytałbym o cenę."
+    ru: "На твоём месте я спросил бы цену."
+    source: { kind: authored }
+  - form: "spytałbym"
+    pl: "Bez potrzeby nie spytałbym o takie sprawy."
+    ru: "Без нужды я не спросил бы о таких делах."
+    source: { kind: authored }
+  - form: "spytałbyś"
+    pl: "Spytałbyś go wprost na moim miejscu?"
+    ru: "Ты спросил бы его прямо на моём месте?"
+    source: { kind: authored }
+  - form: "spytałbyś"
+    pl: "Kogo spytałbyś o radę?"
+    ru: "У кого ты спросил бы совета?"
+    source: { kind: authored }
+  - form: "spytałbyś"
+    pl: "Chyba nie spytałbyś o to przy wszystkich."
+    ru: "Пожалуй, ты не спросил бы об этом при всех."
+    source: { kind: authored }
+  - form: "spytałem"
+    pl: "Spytałem go o radę i nie pożałowałem."
+    ru: "Я спросил у него совета и не пожалел."
+    source: { kind: authored }
+  - form: "spytałem"
+    pl: "Spytałem o cenę dopiero przy kasie."
+    ru: "Я спросил цену только у кассы."
+    source: { kind: authored }
+  - form: "spytałem"
+    pl: "Nigdy go o to nie spytałem."
+    ru: "Я никогда его об этом не спрашивал."
+    source: { kind: authored }
+  - form: "spytałeś"
+    pl: "Spytałeś o drogę czy znów zgadujesz?"
+    ru: "Ты спросил дорогу или опять угадываешь?"
+    source: { kind: authored }
+  - form: "spytałeś"
+    pl: "Kogo spytałeś o pozwolenie?"
+    ru: "У кого ты спросил разрешения?"
+    source: { kind: authored }
+  - form: "spytałeś"
+    pl: "Dobrze, że spytałeś wcześniej."
+    ru: "Хорошо, что ты спросил заранее."
+    source: { kind: authored }
+  - form: "spytało"
+    pl: "Dziecko spytało o to wprost."
+    ru: "Ребёнок спросил об этом напрямую."
+    source: { kind: authored }
+  - form: "spytało"
+    pl: "Kilka osób spytało o to samo."
+    ru: "Несколько человек спросили об одном и том же."
+    source: { kind: authored }
+  - form: "spytało"
+    pl: "Dwoje turystów spytało nas o drogę."
+    ru: "Двое туристов спросили у нас дорогу."
+    source: { kind: authored }
+  - form: "spytałoby"
+    pl: "Dziecko spytałoby o to wprost."
+    ru: "Ребёнок спросил бы об этом напрямую."
+    source: { kind: authored }
+  - form: "spytałoby"
+    pl: "Kilka osób spytałoby o to samo."
+    ru: "Несколько человек спросили бы об одном и том же."
+    source: { kind: authored }
+  - form: "spytałoby"
+    pl: "Dwoje turystów spytałoby o drogę."
+    ru: "Двое туристов спросили бы дорогу."
+    source: { kind: authored }
+  - form: "spytały"
+    pl: "Dziewczynki spytały o godzinę odjazdu."
+    ru: "Девочки спросили время отправления."
+    source: { kind: authored }
+  - form: "spytały"
+    pl: "Obie spytały o to samo."
+    ru: "Обе спросили об одном и том же."
+    source: { kind: authored }
+  - form: "spytały"
+    pl: "Spytały nas o drogę do muzeum."
+    ru: "Они спросили у нас дорогу в музей."
+    source: { kind: authored }
+  - form: "spytałyby"
+    pl: "Dziewczynki spytałyby o godzinę, gdyby się odważyły."
+    ru: "Девочки спросили бы время, если бы решились."
+    source: { kind: authored }
+  - form: "spytałyby"
+    pl: "Obie spytałyby o to samo."
+    ru: "Обе спросили бы об одном и том же."
+    source: { kind: authored }
+  - form: "spytałyby"
+    pl: "Bez mapy spytałyby o drogę wcześniej."
+    ru: "Без карты они спросили бы дорогу раньше."
+    source: { kind: authored }
+  - form: "spytałybyście"
+    pl: "Spytałybyście o to na naszym miejscu?"
+    ru: "Вы спросили бы об этом на нашем месте?"
+    source: { kind: authored }
+  - form: "spytałybyście"
+    pl: "Bez tłumacza nie spytałybyście o nic."
+    ru: "Без переводчика вы ни о чём не спросили бы."
+    source: { kind: authored }
+  - form: "spytałybyście"
+    pl: "Chyba spytałybyście najpierw o cenę."
+    ru: "Пожалуй, вы сначала спросили бы цену."
+    source: { kind: authored }
+  - form: "spytałybyśmy"
+    pl: "Spytałybyśmy o godzinę, gdyby ktoś tam był."
+    ru: "Мы спросили бы время, если бы там кто-то был."
+    source: { kind: authored }
+  - form: "spytałybyśmy"
+    pl: "Bez pozwolenia nie spytałybyśmy o szczegóły."
+    ru: "Без разрешения мы не спросили бы о подробностях."
+    source: { kind: authored }
+  - form: "spytałybyśmy"
+    pl: "O drogę spytałybyśmy kogoś miejscowego."
+    ru: "Дорогу мы спросили бы у кого-нибудь местного."
+    source: { kind: authored }
+  - form: "spytałyście"
+    pl: "Spytałyście o cenę?"
+    ru: "Вы спросили цену?"
+    source: { kind: authored }
+  - form: "spytałyście"
+    pl: "Kogo spytałyście o pozwolenie?"
+    ru: "У кого вы спросили разрешения?"
+    source: { kind: authored }
+  - form: "spytałyście"
+    pl: "Dobrze, że spytałyście kogoś miejscowego."
+    ru: "Хорошо, что вы спросили у кого-то местного."
+    source: { kind: authored }
+  - form: "spytałyśmy"
+    pl: "Spytałyśmy o godzinę odjazdu."
+    ru: "Мы спросили время отправления."
+    source: { kind: authored }
+  - form: "spytałyśmy"
+    pl: "Spytałyśmy ją o drogę do hotelu."
+    ru: "Мы спросили у неё дорогу в отель."
+    source: { kind: authored }
+  - form: "spytałyśmy"
+    pl: "Nigdy nie spytałyśmy o powód."
+    ru: "Мы ни разу не спросили о причине."
+    source: { kind: authored }
