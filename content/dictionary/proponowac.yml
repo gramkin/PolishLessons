@@ -1,0 +1,807 @@
+# review
+id: proponowac
+format: 2
+lemma: "proponować"
+rank: 2269
+pos: verb
+pron: { cyr: "пропонова́ць" }
+senses:
+  - id: offer
+    ru: "предлагать"
+    examples:
+      - pl: "Proponuję ci pracę w moim zespole."
+        ru: "Я предлагаю тебе работу в моей команде."
+        source: { kind: authored }
+      - pl: "Sklep proponuje rabat stałym klientom."
+        ru: "Магазин предлагает скидку постоянным клиентам."
+        source: { kind: authored }
+  - id: suggest
+    ru: "предлагать (сделать что-л.)"
+    examples:
+      - pl: "Proponuję, żebyśmy zaczęli od końca."
+        ru: "Предлагаю начать с конца."
+        source: { kind: authored }
+      - pl: "Co proponujesz w tej sytuacji?"
+        ru: "Что ты предлагаешь в этой ситуации?"
+        source: { kind: authored }
+  - id: keep-offering
+    ru: "предлагать (неоднократно)"
+    examples:
+      - pl: "Proponowali mu to stanowisko trzy razy."
+        ru: "Ему предлагали эту должность трижды."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "ВИДОВАЯ ПАРА К ZAPROPONOWAĆ — И РАЗНИЦА ВИДНА ПРЯМО В ТАБЛИЦЕ. У несовершенного proponować есть причастие настоящего времени proponujący и деепричастие proponując, но НЕТ формы на -wszy. У совершенного zaproponować всё наоборот: есть zaproponowawszy, нет причастия настоящего. Это общее правило польского вида, и две соседние карточки показывают его в чистом виде." }
+  - { kind: false-friend, text: "Смысл совпадает с русским полностью, потому что «предложить» — поморфемный перевод латинского proponere: pro- стало «пред-», ponere стало «-ложить». Разница только в виде. Proponuję значит «предлагаю» прямо сейчас или вообще, zaproponowałem — «предложил» один раз и дело сделано." }
+  - { kind: government, text: "Предлагают ЧТО — винительный: proponować cenę, pomoc, zmiany. КОМУ — дательный: proponuję ci, proponował klientom. Предложить СДЕЛАТЬ — через żeby с прошедшим временем: proponuję, żebyśmy wyszli. Оборот proponuję в начале фразы работает как вежливое «давайте»: proponuję przerwę." }
+  - { kind: pronunciation, text: "Пять слогов, ударение на предпоследнем: pro-po-NO-wać. Все o чистые: «пропонова́ць». Осторожно с двумя близкими формами настоящего времени: proponuję «предлагаю» с носовым ę на конце и proponuje «предлагает» без него. На слух их различает только лёгкое «эн»." }
+collocations:
+  - { pl: "proponuję przerwę", ru: "предлагаю сделать перерыв" }
+  - { pl: "proponować pomoc", ru: "предлагать помощь" }
+  - { pl: "co proponujesz?", ru: "что ты предлагаешь?" }
+family:
+  - { pl: "zaproponować", ru: "предложить", relation: aspect, id: zaproponowac }
+  - { pl: "propozycja", ru: "предложение", relation: derived, id: propozycja }
+  - { pl: "odmawiać", ru: "отказывать", relation: antonym }
+etymology: "Из латинского proponere «выставлять вперёд», из pro- «вперёд» и ponere «класть» — того же корня, что pozycja и depozyt. Русское «предлагать» переведено с него по частям. Польский суффикс -ować оформил заимствование как обычный глагол, отсюда и основа настоящего времени на -uj-."
+memory: "proponować — «предлагать», несовершенный вид к zaproponować. Разница видна по формам: у несовершенного есть proponujący и proponując, у совершенного — zaproponowawszy. И следи за концом слова: proponuję «предлагаю», proponuje «предлагает»."
+idioms:
+  - { pl: "proponuję przerwę", ru: "предлагаю перерыв" }
+  - { pl: "co proponujesz?", ru: "что предлагаешь?" }
+formExamples:
+  - form: "proponowali"
+    pl: "Proponowali mu to stanowisko trzy razy."
+    ru: "Ему предлагали эту должность трижды."
+    source: { kind: authored }
+  - form: "proponowali"
+    pl: "Proponowali nam wynajem na rok."
+    ru: "Нам предлагали аренду на год."
+    source: { kind: authored }
+  - form: "proponowali"
+    pl: "Nie proponowali niczego poza obietnicami."
+    ru: "Они не предлагали ничего, кроме обещаний."
+    source: { kind: authored }
+  - form: "proponowaliby"
+    pl: "Proponowaliby współpracę, gdyby im zależało."
+    ru: "Они предлагали бы сотрудничество, если бы им было нужно."
+    source: { kind: authored }
+  - form: "proponowaliby"
+    pl: "Sąsiedzi proponowaliby pomoc bez proszenia."
+    ru: "Соседи предлагали бы помощь без просьбы."
+    source: { kind: authored }
+  - form: "proponowaliby"
+    pl: "Bez tej konkurencji proponowaliby wyższe ceny."
+    ru: "Без этой конкуренции они предлагали бы цены выше."
+    source: { kind: authored }
+  - form: "proponowalibyście"
+    pl: "Co proponowalibyście w takiej sytuacji?"
+    ru: "Что бы вы предлагали в такой ситуации?"
+    source: { kind: authored }
+  - form: "proponowalibyście"
+    pl: "Proponowalibyście im rabat co miesiąc?"
+    ru: "Вы предлагали бы им скидку каждый месяц?"
+    source: { kind: authored }
+  - form: "proponowalibyście"
+    pl: "Bez kosztorysu nie proponowalibyście ceny."
+    ru: "Без сметы вы не предлагали бы цены."
+    source: { kind: authored }
+  - form: "proponowalibyśmy"
+    pl: "Proponowalibyśmy raty, gdyby pozwalał regulamin."
+    ru: "Мы предлагали бы рассрочку, если бы позволял регламент."
+    source: { kind: authored }
+  - form: "proponowalibyśmy"
+    pl: "Proponowalibyśmy im współpracę co roku."
+    ru: "Мы предлагали бы им сотрудничество каждый год."
+    source: { kind: authored }
+  - form: "proponowalibyśmy"
+    pl: "Bez zgody rady nie proponowalibyśmy niczego."
+    ru: "Без согласия совета мы ничего не предлагали бы."
+    source: { kind: authored }
+  - form: "proponowaliście"
+    pl: "Co proponowaliście klientom w zeszłym roku?"
+    ru: "Что вы предлагали клиентам в прошлом году?"
+    source: { kind: authored }
+  - form: "proponowaliście"
+    pl: "Proponowaliście im to samo co nam."
+    ru: "Вы предлагали им то же, что и нам."
+    source: { kind: authored }
+  - form: "proponowaliście"
+    pl: "Nie proponowaliście żadnych gwarancji."
+    ru: "Вы не предлагали никаких гарантий."
+    source: { kind: authored }
+  - form: "proponowaliśmy"
+    pl: "Proponowaliśmy im współpracę od lat."
+    ru: "Мы годами предлагали им сотрудничество."
+    source: { kind: authored }
+  - form: "proponowaliśmy"
+    pl: "Proponowaliśmy niższą cenę, ale odmówili."
+    ru: "Мы предлагали цену ниже, но они отказались."
+    source: { kind: authored }
+  - form: "proponowaliśmy"
+    pl: "Nie proponowaliśmy nigdy takich warunków."
+    ru: "Мы никогда не предлагали таких условий."
+    source: { kind: authored }
+  - form: "proponowana"
+    pl: "Proponowana cena jest zbyt niska."
+    ru: "Предлагаемая цена слишком низка."
+    source: { kind: authored }
+  - form: "proponowana"
+    pl: "Proponowana trasa omija wieś."
+    ru: "Предлагаемый маршрут обходит деревню."
+    source: { kind: authored }
+  - form: "proponowana"
+    pl: "Proponowana zmiana wymaga zgody rady."
+    ru: "Предлагаемое изменение требует согласия совета."
+    source: { kind: authored }
+  - form: "proponowane"
+    pl: "Proponowane rozwiązania są zbyt drogie."
+    ru: "Предлагаемые решения слишком дороги."
+    source: { kind: authored }
+  - form: "proponowane"
+    pl: "Proponowane przez komisję poprawki odrzucono."
+    ru: "Предлагаемые комиссией поправки отвергли."
+    source: { kind: authored }
+  - form: "proponowane"
+    pl: "Proponowane warunki zmieniają się co tydzień."
+    ru: "Предлагаемые условия меняются каждую неделю."
+    source: { kind: authored }
+  - form: "proponowanego"
+    pl: "Od proponowanego terminu zależy harmonogram."
+    ru: "От предлагаемого срока зависит график."
+    source: { kind: authored }
+  - form: "proponowanego"
+    pl: "Nie znam wariantu proponowanego przez radę."
+    ru: "Я не знаю варианта, предлагаемого советом."
+    source: { kind: authored }
+  - form: "proponowanego"
+    pl: "Nie ma tu nic proponowanego na serio."
+    ru: "Здесь нет ничего, предлагаемого всерьёз."
+    source: { kind: authored }
+  - form: "proponowanej"
+    pl: "Od proponowanej ceny odjęto podatek."
+    ru: "От предлагаемой цены отняли налог."
+    source: { kind: authored }
+  - form: "proponowanej"
+    pl: "Z proponowanej trasy zrezygnowano zimą."
+    ru: "От предлагаемого маршрута отказались зимой."
+    source: { kind: authored }
+  - form: "proponowanej"
+    pl: "Nie znam poprawki proponowanej tak uparcie."
+    ru: "Я не знаю поправки, предлагаемой так упорно."
+    source: { kind: authored }
+  - form: "proponowanemu"
+    pl: "Proponowanemu wariantowi brakuje kosztorysu."
+    ru: "Предлагаемому варианту не хватает сметы."
+    source: { kind: authored }
+  - form: "proponowanemu"
+    pl: "Dzięki proponowanemu objazdowi uniknęli korka."
+    ru: "Благодаря предлагаемому объезду они избежали пробки."
+    source: { kind: authored }
+  - form: "proponowanemu"
+    pl: "Przyjrzyj się temu proponowanemu od lat planowi."
+    ru: "Присмотрись к этому годами предлагаемому плану."
+    source: { kind: authored }
+  - form: "proponowani"
+    pl: "Proponowani kandydaci stawili się na rozmowy."
+    ru: "Предлагаемые кандидаты явились на собеседования."
+    source: { kind: authored }
+  - form: "proponowani"
+    pl: "Byli proponowani na te stanowiska co roku."
+    ru: "Их предлагали на эти должности каждый год."
+    source: { kind: authored }
+  - form: "proponowani"
+    pl: "Proponowani przez związki delegaci nie przyszli."
+    ru: "Предлагаемые профсоюзами делегаты не пришли."
+    source: { kind: authored }
+  - form: "proponowania"
+    pl: "Nie mieli nic do proponowania."
+    ru: "Им нечего было предлагать."
+    source: { kind: authored }
+  - form: "proponowania"
+    pl: "Od proponowania do podpisania droga daleka."
+    ru: "От предложения до подписания путь далёк."
+    source: { kind: authored }
+  - form: "proponowania"
+    pl: "Bez proponowania ustępstw nie ma negocjacji."
+    ru: "Без предложения уступок нет переговоров."
+    source: { kind: authored }
+  - form: "proponowanie"
+    pl: "Proponowanie rabatów przestało działać."
+    ru: "Предлагать скидки перестало действовать."
+    source: { kind: authored }
+  - form: "proponowanie"
+    pl: "Proponowanie pomocy nie zawsze jest mile widziane."
+    ru: "Предлагать помощь не всегда приветствуется."
+    source: { kind: authored }
+  - form: "proponowanie"
+    pl: "Proponowanie zmian bez kosztorysu to strata czasu."
+    ru: "Предлагать изменения без сметы — пустая трата времени."
+    source: { kind: authored }
+  - form: "proponowaniem"
+    pl: "Przed proponowaniem ceny sprawdź koszty."
+    ru: "Прежде чем предлагать цену, проверь расходы."
+    source: { kind: authored }
+  - form: "proponowaniem"
+    pl: "Między wyceną a proponowaniem oferty minął tydzień."
+    ru: "Между оценкой и подачей предложения прошла неделя."
+    source: { kind: authored }
+  - form: "proponowaniem"
+    pl: "Zajmował się proponowaniem wariantów całą jesień."
+    ru: "Он всю осень занимался предложением вариантов."
+    source: { kind: authored }
+  - form: "proponowaniu"
+    pl: "Po proponowaniu kolejnych zniżek sklep zbankrutował."
+    ru: "После предложения всё новых скидок магазин обанкротился."
+    source: { kind: authored }
+  - form: "proponowaniu"
+    pl: "O proponowaniu mu stanowiska mówiono od miesięcy."
+    ru: "О том, что ему предлагают должность, говорили месяцами."
+    source: { kind: authored }
+  - form: "proponowaniu"
+    pl: "W proponowaniu rozwiązań był niezastąpiony."
+    ru: "В предложении решений он был незаменим."
+    source: { kind: authored }
+  - form: "proponowano"
+    pl: "Proponowano mu to stanowisko dwukrotnie."
+    ru: "Эту должность ему предлагали дважды."
+    source: { kind: authored }
+  - form: "proponowano"
+    pl: "Dawniej proponowano klientom kawę przy wejściu."
+    ru: "Раньше клиентам предлагали кофе при входе."
+    source: { kind: authored }
+  - form: "proponowano"
+    pl: "Niczego nam wtedy nie proponowano."
+    ru: "Тогда нам ничего не предлагали."
+    source: { kind: authored }
+  - form: "proponowany"
+    pl: "Proponowany termin nikomu nie odpowiada."
+    ru: "Предлагаемый срок никому не подходит."
+    source: { kind: authored }
+  - form: "proponowany"
+    pl: "Wariant proponowany przez inżyniera jest tańszy."
+    ru: "Вариант, предлагаемый инженером, дешевле."
+    source: { kind: authored }
+  - form: "proponowany"
+    pl: "Proponowany podział budzi sprzeciw."
+    ru: "Предлагаемый раздел вызывает возражения."
+    source: { kind: authored }
+  - form: "proponowanych"
+    pl: "Wśród proponowanych wariantów dwa są realne."
+    ru: "Среди предлагаемых вариантов два реальны."
+    source: { kind: authored }
+  - form: "proponowanych"
+    pl: "O proponowanych zmianach poinformowano załogę."
+    ru: "О предлагаемых изменениях уведомили коллектив."
+    source: { kind: authored }
+  - form: "proponowanych"
+    pl: "Połowa proponowanych poprawek nie przeszła."
+    ru: "Половина предлагаемых поправок не прошла."
+    source: { kind: authored }
+  - form: "proponowanym"
+    pl: "W proponowanym planie brakuje terminów."
+    ru: "В предлагаемом плане нет сроков."
+    source: { kind: authored }
+  - form: "proponowanym"
+    pl: "Proponowanym poprawkom nadano numery."
+    ru: "Предлагаемым поправкам присвоили номера."
+    source: { kind: authored }
+  - form: "proponowanym"
+    pl: "Posłużył się wariantem proponowanym od dawna."
+    ru: "Он воспользовался давно предлагаемым вариантом."
+    source: { kind: authored }
+  - form: "proponowanymi"
+    pl: "Między proponowanymi a przyjętymi stawkami jest różnica."
+    ru: "Между предлагаемыми и принятыми ставками есть разница."
+    source: { kind: authored }
+  - form: "proponowanymi"
+    pl: "Zajmuje się poprawkami proponowanymi przez radę."
+    ru: "Он занимается поправками, предлагаемыми советом."
+    source: { kind: authored }
+  - form: "proponowanymi"
+    pl: "Teczka zapełniła się proponowanymi wariantami."
+    ru: "Папка заполнилась предлагаемыми вариантами."
+    source: { kind: authored }
+  - form: "proponowaną"
+    pl: "Przyjęli cenę proponowaną przez sprzedawcę."
+    ru: "Они приняли цену, предлагаемую продавцом."
+    source: { kind: authored }
+  - form: "proponowaną"
+    pl: "Uznali tę stawkę za proponowaną w złej wierze."
+    ru: "Эту ставку сочли предлагаемой недобросовестно."
+    source: { kind: authored }
+  - form: "proponowaną"
+    pl: "Odrzucili ugodę proponowaną przez drugą stronę."
+    ru: "Они отвергли мировую, предлагаемую другой стороной."
+    source: { kind: authored }
+  - form: "proponować"
+    pl: "Nie lubi proponować pierwszy."
+    ru: "Он не любит предлагать первым."
+    source: { kind: authored }
+  - form: "proponować"
+    pl: "Trudno proponować coś bez wyliczeń."
+    ru: "Трудно предлагать что-то без расчётов."
+    source: { kind: authored }
+  - form: "proponować"
+    pl: "Zaczęli proponować klientom raty."
+    ru: "Они начали предлагать клиентам рассрочку."
+    source: { kind: authored }
+  - form: "proponował"
+    pl: "Proponował jej pomoc wiele razy."
+    ru: "Он много раз предлагал ей помощь."
+    source: { kind: authored }
+  - form: "proponował"
+    pl: "Proponował, żeby przełożyć spotkanie."
+    ru: "Он предлагал перенести встречу."
+    source: { kind: authored }
+  - form: "proponował"
+    pl: "Nikt nie proponował innego wyjścia."
+    ru: "Никто не предлагал другого выхода."
+    source: { kind: authored }
+  - form: "proponowała"
+    pl: "Proponowała podział obowiązków od początku."
+    ru: "Она с самого начала предлагала разделить обязанности."
+    source: { kind: authored }
+  - form: "proponowała"
+    pl: "Firma proponowała nam gorsze warunki."
+    ru: "Фирма предлагала нам худшие условия."
+    source: { kind: authored }
+  - form: "proponowała"
+    pl: "Nie proponowała nic na piśmie."
+    ru: "Она ничего не предлагала письменно."
+    source: { kind: authored }
+  - form: "proponowałaby"
+    pl: "Proponowałaby inne rozwiązanie, gdyby ją pytano."
+    ru: "Она предлагала бы другое решение, если бы её спрашивали."
+    source: { kind: authored }
+  - form: "proponowałaby"
+    pl: "Bez tych przepisów firma proponowałaby raty."
+    ru: "Без этих правил фирма предлагала бы рассрочку."
+    source: { kind: authored }
+  - form: "proponowałaby"
+    pl: "Proponowałaby częściej, gdyby jej słuchano."
+    ru: "Она предлагала бы чаще, если бы её слушали."
+    source: { kind: authored }
+  - form: "proponowałabym"
+    pl: "Proponowałabym inny termin, ale decyzja nie moja."
+    ru: "Я предлагала бы другой срок, но решение не моё."
+    source: { kind: authored }
+  - form: "proponowałabym"
+    pl: "Na twoim miejscu proponowałabym mniej."
+    ru: "На твоём месте я предлагала бы меньше."
+    source: { kind: authored }
+  - form: "proponowałabym"
+    pl: "Bez kosztorysu nie proponowałabym żadnej ceny."
+    ru: "Без сметы я не предлагала бы никакой цены."
+    source: { kind: authored }
+  - form: "proponowałabyś"
+    pl: "Co proponowałabyś na moim miejscu?"
+    ru: "Что бы ты предлагала на моём месте?"
+    source: { kind: authored }
+  - form: "proponowałabyś"
+    pl: "Proponowałabyś im taki podział?"
+    ru: "Ты предлагала бы им такой раздел?"
+    source: { kind: authored }
+  - form: "proponowałabyś"
+    pl: "Bez tej wiedzy nie proponowałabyś niczego."
+    ru: "Без этих знаний ты ничего не предлагала бы."
+    source: { kind: authored }
+  - form: "proponowałam"
+    pl: "Proponowałam to już dwa razy."
+    ru: "Я предлагала это уже дважды."
+    source: { kind: authored }
+  - form: "proponowałam"
+    pl: "Proponowałam, żeby zacząć od remontu."
+    ru: "Я предлагала начать с ремонта."
+    source: { kind: authored }
+  - form: "proponowałam"
+    pl: "Nie proponowałam mu pieniędzy."
+    ru: "Я не предлагала ему денег."
+    source: { kind: authored }
+  - form: "proponowałaś"
+    pl: "Co właściwie proponowałaś zarządowi?"
+    ru: "Что ты, собственно, предлагала правлению?"
+    source: { kind: authored }
+  - form: "proponowałaś"
+    pl: "Proponowałaś im to już wcześniej."
+    ru: "Ты предлагала им это и раньше."
+    source: { kind: authored }
+  - form: "proponowałaś"
+    pl: "Nie proponowałaś żadnej alternatywy."
+    ru: "Ты не предлагала никакой альтернативы."
+    source: { kind: authored }
+  - form: "proponowałby"
+    pl: "Proponowałby więcej, gdyby znał nasz budżet."
+    ru: "Он предлагал бы больше, если бы знал наш бюджет."
+    source: { kind: authored }
+  - form: "proponowałby"
+    pl: "Nikt nie proponowałby takich stawek dzisiaj."
+    ru: "Никто не предлагал бы таких ставок сегодня."
+    source: { kind: authored }
+  - form: "proponowałby"
+    pl: "Proponowałby pomoc, ale nikt go nie prosi."
+    ru: "Он предлагал бы помощь, но никто его не просит."
+    source: { kind: authored }
+  - form: "proponowałbym"
+    pl: "Proponowałbym inny termin, ale decyzja nie moja."
+    ru: "Я предлагал бы другой срок, но решение не моё."
+    source: { kind: authored }
+  - form: "proponowałbym"
+    pl: "Na twoim miejscu proponowałbym mniej."
+    ru: "На твоём месте я предлагал бы меньше."
+    source: { kind: authored }
+  - form: "proponowałbym"
+    pl: "Bez kosztorysu nie proponowałbym żadnej ceny."
+    ru: "Без сметы я не предлагал бы никакой цены."
+    source: { kind: authored }
+  - form: "proponowałbyś"
+    pl: "Co proponowałbyś na moim miejscu?"
+    ru: "Что бы ты предлагал на моём месте?"
+    source: { kind: authored }
+  - form: "proponowałbyś"
+    pl: "Proponowałbyś im taki podział?"
+    ru: "Ты предлагал бы им такой раздел?"
+    source: { kind: authored }
+  - form: "proponowałbyś"
+    pl: "Bez tej wiedzy nie proponowałbyś niczego."
+    ru: "Без этих знаний ты ничего не предлагал бы."
+    source: { kind: authored }
+  - form: "proponowałem"
+    pl: "Proponowałem to już dwa razy."
+    ru: "Я предлагал это уже дважды."
+    source: { kind: authored }
+  - form: "proponowałem"
+    pl: "Proponowałem, żeby zacząć od remontu."
+    ru: "Я предлагал начать с ремонта."
+    source: { kind: authored }
+  - form: "proponowałem"
+    pl: "Nie proponowałem mu pieniędzy."
+    ru: "Я не предлагал ему денег."
+    source: { kind: authored }
+  - form: "proponowałeś"
+    pl: "Co właściwie proponowałeś zarządowi?"
+    ru: "Что ты, собственно, предлагал правлению?"
+    source: { kind: authored }
+  - form: "proponowałeś"
+    pl: "Proponowałeś im to już wcześniej."
+    ru: "Ты предлагал им это и раньше."
+    source: { kind: authored }
+  - form: "proponowałeś"
+    pl: "Nie proponowałeś żadnej alternatywy."
+    ru: "Ты не предлагал никакой альтернативы."
+    source: { kind: authored }
+  - form: "proponowało"
+    pl: "Kilka biur proponowało podobne stawki."
+    ru: "Несколько бюро предлагали похожие ставки."
+    source: { kind: authored }
+  - form: "proponowało"
+    pl: "Miasto proponowało działkę za symboliczną złotówkę."
+    ru: "Город предлагал участок за символический злотый."
+    source: { kind: authored }
+  - form: "proponowało"
+    pl: "Żadne wydawnictwo nie proponowało mu umowy."
+    ru: "Ни одно издательство не предлагало ему договора."
+    source: { kind: authored }
+  - form: "proponowałoby"
+    pl: "Kilka biur proponowałoby lepsze stawki."
+    ru: "Несколько бюро предлагали бы лучшие ставки."
+    source: { kind: authored }
+  - form: "proponowałoby"
+    pl: "Miasto proponowałoby działkę taniej."
+    ru: "Город предлагал бы участок дешевле."
+    source: { kind: authored }
+  - form: "proponowałoby"
+    pl: "Żadne wydawnictwo nie proponowałoby mu umowy."
+    ru: "Ни одно издательство не предлагало бы ему договора."
+    source: { kind: authored }
+  - form: "proponowały"
+    pl: "Obie firmy proponowały ten sam termin."
+    ru: "Обе фирмы предлагали один и тот же срок."
+    source: { kind: authored }
+  - form: "proponowały"
+    pl: "Szkoły proponowały uczniom darmowe kursy."
+    ru: "Школы предлагали ученикам бесплатные курсы."
+    source: { kind: authored }
+  - form: "proponowały"
+    pl: "Nie proponowały nam żadnej zniżki."
+    ru: "Они не предлагали нам никакой скидки."
+    source: { kind: authored }
+  - form: "proponowałyby"
+    pl: "Obie firmy proponowałyby ten sam termin."
+    ru: "Обе фирмы предлагали бы один и тот же срок."
+    source: { kind: authored }
+  - form: "proponowałyby"
+    pl: "Szkoły proponowałyby darmowe kursy."
+    ru: "Школы предлагали бы бесплатные курсы."
+    source: { kind: authored }
+  - form: "proponowałyby"
+    pl: "Bez dotacji nie proponowałyby nic za darmo."
+    ru: "Без дотации они ничего не предлагали бы бесплатно."
+    source: { kind: authored }
+  - form: "proponowałybyście"
+    pl: "Co proponowałybyście w takiej sytuacji?"
+    ru: "Что бы вы предлагали в такой ситуации?"
+    source: { kind: authored }
+  - form: "proponowałybyście"
+    pl: "Proponowałybyście im rabat co miesiąc?"
+    ru: "Вы предлагали бы им скидку каждый месяц?"
+    source: { kind: authored }
+  - form: "proponowałybyście"
+    pl: "Bez kosztorysu nie proponowałybyście ceny."
+    ru: "Без сметы вы не предлагали бы цены."
+    source: { kind: authored }
+  - form: "proponowałybyśmy"
+    pl: "Proponowałybyśmy raty, gdyby pozwalał regulamin."
+    ru: "Мы предлагали бы рассрочку, если бы позволял регламент."
+    source: { kind: authored }
+  - form: "proponowałybyśmy"
+    pl: "Proponowałybyśmy im współpracę co roku."
+    ru: "Мы предлагали бы им сотрудничество каждый год."
+    source: { kind: authored }
+  - form: "proponowałybyśmy"
+    pl: "Bez zgody rady nie proponowałybyśmy niczego."
+    ru: "Без согласия совета мы ничего не предлагали бы."
+    source: { kind: authored }
+  - form: "proponowałyście"
+    pl: "Co proponowałyście klientom w zeszłym roku?"
+    ru: "Что вы предлагали клиентам в прошлом году?"
+    source: { kind: authored }
+  - form: "proponowałyście"
+    pl: "Proponowałyście im to samo co nam."
+    ru: "Вы предлагали им то же, что и нам."
+    source: { kind: authored }
+  - form: "proponowałyście"
+    pl: "Nie proponowałyście żadnych gwarancji."
+    ru: "Вы не предлагали никаких гарантий."
+    source: { kind: authored }
+  - form: "proponowałyśmy"
+    pl: "Proponowałyśmy im współpracę od lat."
+    ru: "Мы годами предлагали им сотрудничество."
+    source: { kind: authored }
+  - form: "proponowałyśmy"
+    pl: "Proponowałyśmy niższą cenę, ale odmówili."
+    ru: "Мы предлагали цену ниже, но они отказались."
+    source: { kind: authored }
+  - form: "proponowałyśmy"
+    pl: "Nie proponowałyśmy nigdy takich warunków."
+    ru: "Мы никогда не предлагали таких условий."
+    source: { kind: authored }
+  - form: "proponuj"
+    pl: "Proponuj śmiało, nikt cię nie wyśmieje."
+    ru: "Предлагай смело, никто тебя не высмеет."
+    source: { kind: authored }
+  - form: "proponuj"
+    pl: "Proponuj konkretne terminy, nie ogólniki."
+    ru: "Предлагай конкретные сроки, а не общие слова."
+    source: { kind: authored }
+  - form: "proponuj"
+    pl: "Nie proponuj im tego przed naradą."
+    ru: "Не предлагай им это до совещания."
+    source: { kind: authored }
+  - form: "proponujcie"
+    pl: "Proponujcie klientom raty, nie rabaty."
+    ru: "Предлагайте клиентам рассрочку, а не скидки."
+    source: { kind: authored }
+  - form: "proponujcie"
+    pl: "Proponujcie śmielej, konkurencja nie śpi."
+    ru: "Предлагайте смелее, конкуренты не спят."
+    source: { kind: authored }
+  - form: "proponujcie"
+    pl: "Nie proponujcie cen bez kosztorysu."
+    ru: "Не предлагайте цен без сметы."
+    source: { kind: authored }
+  - form: "proponuje"
+    pl: "Sklep proponuje rabat stałym klientom."
+    ru: "Магазин предлагает скидку постоянным клиентам."
+    source: { kind: authored }
+  - form: "proponuje"
+    pl: "Nikt nam nic nie proponuje."
+    ru: "Никто нам ничего не предлагает."
+    source: { kind: authored }
+  - form: "proponuje"
+    pl: "Firma proponuje trzy warianty umowy."
+    ru: "Фирма предлагает три варианта договора."
+    source: { kind: authored }
+  - form: "proponujecie"
+    pl: "Co proponujecie w zamian?"
+    ru: "Что вы предлагаете взамен?"
+    source: { kind: authored }
+  - form: "proponujecie"
+    pl: "Proponujecie zbyt krótki termin."
+    ru: "Вы предлагаете слишком короткий срок."
+    source: { kind: authored }
+  - form: "proponujecie"
+    pl: "Nie proponujecie nic konkretnego."
+    ru: "Вы не предлагаете ничего конкретного."
+    source: { kind: authored }
+  - form: "proponujemy"
+    pl: "Proponujemy spotkanie w przyszłym tygodniu."
+    ru: "Предлагаем встречу на следующей неделе."
+    source: { kind: authored }
+  - form: "proponujemy"
+    pl: "Proponujemy podział kosztów po połowie."
+    ru: "Предлагаем разделить расходы пополам."
+    source: { kind: authored }
+  - form: "proponujemy"
+    pl: "Nie proponujemy zniżek w sezonie."
+    ru: "Мы не предлагаем скидок в сезон."
+    source: { kind: authored }
+  - form: "proponujesz"
+    pl: "Co proponujesz w tej sytuacji?"
+    ru: "Что ты предлагаешь в этой ситуации?"
+    source: { kind: authored }
+  - form: "proponujesz"
+    pl: "Proponujesz za mało jak na ten rynek."
+    ru: "Ты предлагаешь слишком мало для этого рынка."
+    source: { kind: authored }
+  - form: "proponujesz"
+    pl: "Nie proponujesz nic nowego."
+    ru: "Ты не предлагаешь ничего нового."
+    source: { kind: authored }
+  - form: "proponujmy"
+    pl: "Proponujmy od razu realną cenę."
+    ru: "Будем сразу предлагать реальную цену."
+    source: { kind: authored }
+  - form: "proponujmy"
+    pl: "Proponujmy im współpracę, a nie jałmużnę."
+    ru: "Будем предлагать им сотрудничество, а не подачку."
+    source: { kind: authored }
+  - form: "proponujmy"
+    pl: "Nie proponujmy niczego, czego nie dowieziemy."
+    ru: "Не будем предлагать того, чего не вытянем."
+    source: { kind: authored }
+  - form: "proponują"
+    pl: "Proponują nam wynajem zamiast kupna."
+    ru: "Нам предлагают аренду вместо покупки."
+    source: { kind: authored }
+  - form: "proponują"
+    pl: "Agencje proponują coraz gorsze warunki."
+    ru: "Агентства предлагают всё худшие условия."
+    source: { kind: authored }
+  - form: "proponują"
+    pl: "Nie proponują etatu nikomu bez stażu."
+    ru: "Ставку без стажа никому не предлагают."
+    source: { kind: authored }
+  - form: "proponując"
+    pl: "Proponując tak niską cenę, stracisz na marży."
+    ru: "Предлагая такую низкую цену, потеряешь на марже."
+    source: { kind: authored }
+  - form: "proponując"
+    pl: "Proponując pomoc, nie pytał o zapłatę."
+    ru: "Предлагая помощь, он не спрашивал об оплате."
+    source: { kind: authored }
+  - form: "proponując"
+    pl: "Proponując zmiany, powołał się na raport."
+    ru: "Предлагая изменения, он сослался на отчёт."
+    source: { kind: authored }
+  - form: "proponująca"
+    pl: "Proponująca współpracę firma okazała się solidna."
+    ru: "Предлагавшая сотрудничество фирма оказалась надёжной."
+    source: { kind: authored }
+  - form: "proponująca"
+    pl: "Proponująca pomoc sąsiadka została do wieczora."
+    ru: "Предлагавшая помощь соседка осталась до вечера."
+    source: { kind: authored }
+  - form: "proponująca"
+    pl: "Proponująca rabaty sieć szybko urosła."
+    ru: "Предлагавшая скидки сеть быстро выросла."
+    source: { kind: authored }
+  - form: "proponujące"
+    pl: "Proponujące raty banki mają więcej klientów."
+    ru: "Предлагающие рассрочку банки имеют больше клиентов."
+    source: { kind: authored }
+  - form: "proponujące"
+    pl: "Proponujące pomoc dzieci zebrały się pod drzwiami."
+    ru: "Предлагавшие помощь дети собрались у двери."
+    source: { kind: authored }
+  - form: "proponujące"
+    pl: "Proponujące zniżki sklepy pękają w szwach."
+    ru: "Предлагающие скидки магазины трещат по швам."
+    source: { kind: authored }
+  - form: "proponującego"
+    pl: "Od proponującego cenę zależy tempo negocjacji."
+    ru: "От предлагающего цену зависит темп переговоров."
+    source: { kind: authored }
+  - form: "proponującego"
+    pl: "Nie znam nikogo proponującego lepsze warunki."
+    ru: "Я не знаю никого, кто предлагал бы лучшие условия."
+    source: { kind: authored }
+  - form: "proponującego"
+    pl: "Nie było tam nikogo proponującego pomoc."
+    ru: "Там не было никого, кто предлагал бы помощь."
+    source: { kind: authored }
+  - form: "proponującej"
+    pl: "Od proponującej współpracę uczelni przyszedł list."
+    ru: "От предлагающего сотрудничество вуза пришло письмо."
+    source: { kind: authored }
+  - form: "proponującej"
+    pl: "Z proponującej rabaty sieci korzysta pół miasta."
+    ru: "Предлагающей скидки сетью пользуется полгорода."
+    source: { kind: authored }
+  - form: "proponującej"
+    pl: "Nie znam firmy proponującej takie stawki."
+    ru: "Я не знаю фирмы, предлагающей такие ставки."
+    source: { kind: authored }
+  - form: "proponującemu"
+    pl: "Proponującemu pomoc sąsiadowi podziękowali ciepło."
+    ru: "Предлагавшего помощь соседа тепло поблагодарили."
+    source: { kind: authored }
+  - form: "proponującemu"
+    pl: "Dzięki proponującemu kompromis mediatorowi spór ucichł."
+    ru: "Благодаря предлагавшему компромисс посреднику спор утих."
+    source: { kind: authored }
+  - form: "proponującemu"
+    pl: "Przyjrzyj się temu proponującemu rabaty sprzedawcy."
+    ru: "Присмотрись к этому предлагающему скидки продавцу."
+    source: { kind: authored }
+  - form: "proponujący"
+    pl: "Proponujący rabat sprzedawca był natrętny."
+    ru: "Предлагавший скидку продавец был навязчив."
+    source: { kind: authored }
+  - form: "proponujący"
+    pl: "Proponujący pomoc sąsiad przyszedł z narzędziami."
+    ru: "Предлагавший помощь сосед пришёл с инструментами."
+    source: { kind: authored }
+  - form: "proponujący"
+    pl: "Proponujący zmiany radny nie miał większości."
+    ru: "Предлагавший изменения депутат не имел большинства."
+    source: { kind: authored }
+  - form: "proponujących"
+    pl: "Wśród proponujących pomoc było dwóch lekarzy."
+    ru: "Среди предлагавших помощь было двое врачей."
+    source: { kind: authored }
+  - form: "proponujących"
+    pl: "O firmach proponujących takie warunki pisze prasa."
+    ru: "О фирмах, предлагающих такие условия, пишет пресса."
+    source: { kind: authored }
+  - form: "proponujących"
+    pl: "Połowa proponujących wycofała się po tygodniu."
+    ru: "Половина предлагавших отступила через неделю."
+    source: { kind: authored }
+  - form: "proponującym"
+    pl: "W proponującym zmiany piśmie brakowało podpisu."
+    ru: "В предлагающем изменения письме не было подписи."
+    source: { kind: authored }
+  - form: "proponującym"
+    pl: "Proponującym współpracę firmom odpisano grzecznie."
+    ru: "Предлагающим сотрудничество фирмам вежливо ответили."
+    source: { kind: authored }
+  - form: "proponującym"
+    pl: "Okazał się człowiekiem proponującym więcej, niż może dać."
+    ru: "Он оказался человеком, предлагающим больше, чем может дать."
+    source: { kind: authored }
+  - form: "proponującymi"
+    pl: "Między proponującymi a decydującymi jest przepaść."
+    ru: "Между предлагающими и решающими пропасть."
+    source: { kind: authored }
+  - form: "proponującymi"
+    pl: "Zajmuje się firmami proponującymi usługi gminie."
+    ru: "Он занимается фирмами, предлагающими услуги общине."
+    source: { kind: authored }
+  - form: "proponującymi"
+    pl: "Skrzynka zapełniła się listami proponującymi współpracę."
+    ru: "Ящик заполнился письмами с предложениями о сотрудничестве."
+    source: { kind: authored }
+  - form: "proponującą"
+    pl: "Zobaczyli firmę proponującą najniższą cenę."
+    ru: "Они увидели фирму, предлагающую самую низкую цену."
+    source: { kind: authored }
+  - form: "proponującą"
+    pl: "Uznali tę ofertę za proponującą zbyt mało."
+    ru: "Это предложение сочли предлагающим слишком мало."
+    source: { kind: authored }
+  - form: "proponującą"
+    pl: "Pamiętał sąsiadkę proponującą pomoc o każdej porze."
+    ru: "Он помнил соседку, предлагавшую помощь в любое время."
+    source: { kind: authored }
+  - form: "proponuję"
+    pl: "Proponuję przerwę na kawę."
+    ru: "Предлагаю перерыв на кофе."
+    source: { kind: authored }
+  - form: "proponuję"
+    pl: "Proponuję ci pracę w moim zespole."
+    ru: "Предлагаю тебе работу в моей команде."
+    source: { kind: authored }
+  - form: "proponuję"
+    pl: "Nie proponuję niczego, czego sam bym nie przyjął."
+    ru: "Я не предлагаю ничего, чего сам бы не принял."
+    source: { kind: authored }
