@@ -1,0 +1,687 @@
+# review
+id: otoczyc
+format: 2
+lemma: "otoczyć"
+rank: 2237
+pos: verb
+pron: { cyr: "ото́чыць" }
+senses:
+  - id: surround
+    ru: "окружить, обступить"
+    examples:
+      - pl: "Policja otoczyła budynek."
+        ru: "Полиция окружила здание."
+        source: { kind: authored }
+      - pl: "Otoczyli go ciasnym kręgiem."
+        ru: "Они окружили его тесным кольцом."
+        source: { kind: authored }
+  - id: enclose
+    ru: "обнести, обвести (оградой)"
+    examples:
+      - pl: "Ogród otoczono wysokim murem."
+        ru: "Сад обнесли высокой стеной."
+        source: { kind: authored }
+      - pl: "Dom otoczony żywopłotem stoi na końcu ulicy."
+        ru: "Дом, обнесённый живой изгородью, стоит в конце улицы."
+        source: { kind: authored }
+  - id: surround-with-care
+    ru: "окружить (заботой, вниманием)"
+    examples:
+      - pl: "Otoczyli chorego opieką."
+        ru: "Они окружили больного заботой."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "КОРЕНЬ НЕ «ТОЧИТЬ», А «КАТИТЬ». Otoczyć собрано из o- и toczyć, а toczyć значит «КАТИТЬ»: toczyć beczkę «катить бочку». Окружить — значит обкатить, обвести вокруг. Русское «обточить» от другого глагола, «точить», и означает совсем иное. По смыслу польскому otoczyć отвечает «окружить», построенное на «круге»." }
+  - { kind: government, text: "Окружают КОГО или ЧТО — винительный без предлога: otoczyć budynek, otoczyć miasto. ЧЕМ — творительный: otoczyć murem, płotem, opieką, troską. Оборот otoczyć kogoś opieką «окружить кого-л. заботой» совпадает с русским дословно." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — otaczać. Поэтому у глагола есть деепричастие на -wszy (otoczywszy) и нет форм действительного причастия настоящего времени: они принадлежат otaczać. Отглагольное otoczenie живёт самостоятельно и значит «окружение, среда, окружающие»: w swoim otoczeniu, ochrona otoczenia." }
+  - { kind: pronunciation, text: "Три слога, ударение на предпоследнем: o-TO-czyć. Cz читается как твёрдое ч: «ото́чыць». В страдательном причастии cz переходит в cz с о: otoczony — «оточ о́ны», с ударением на предпоследнем слоге." }
+collocations:
+  - { pl: "otoczyć opieką", ru: "окружить заботой" }
+  - { pl: "otoczyć budynek", ru: "окружить здание" }
+  - { pl: "otoczony murem", ru: "обнесённый стеной" }
+family:
+  - { pl: "toczyć", ru: "катить", relation: root, id: toczyc }
+  - { pl: "otaczać", ru: "окружать", relation: aspect, id: otaczac }
+  - { pl: "otoczenie", ru: "окружение, среда", relation: derived }
+etymology: "Приставка o- плюс toczyć «катить», из праславянского *točiti. Окружить значило обвести вокруг, обкатить по кругу. Русский на этом месте взял «круг» и получил «окружить», а тот же корень *točiti дал ему «точить» и «ток». Отсюда otaczać, otoczenie, roztoczyć и wytoczyć."
+memory: "otoczyć — «окружить», и корень тут не «точить», а toczyć «КАТИТЬ»: обвести вокруг, обкатить. Чем окружают — творительный: otoczyć murem, otoczyć opieką. А существительное otoczenie значит «окружение, среда»."
+idioms:
+  - { pl: "otoczyć kogoś opieką", ru: "окружить кого-л. заботой" }
+  - { pl: "otoczony murem", ru: "обнесённый стеной" }
+formExamples:
+  - form: "otocz"
+    pl: "Otocz sadzonki folią na noc."
+    ru: "Оберни саженцы плёнкой на ночь."
+    source: { kind: authored }
+  - form: "otocz"
+    pl: "Otocz ją opieką, jest po operacji."
+    ru: "Окружи её заботой, она после операции."
+    source: { kind: authored }
+  - form: "otocz"
+    pl: "Nie otocz grządki kamieniami, zrób rabatę."
+    ru: "Не обкладывай грядку камнями, сделай клумбу."
+    source: { kind: authored }
+  - form: "otoczcie"
+    pl: "Otoczcie plac barierkami przed koncertem."
+    ru: "Обнесите площадь ограждениями перед концертом."
+    source: { kind: authored }
+  - form: "otoczcie"
+    pl: "Otoczcie dziecko uwagą, przeżyło szok."
+    ru: "Окружите ребёнка вниманием, он пережил шок."
+    source: { kind: authored }
+  - form: "otoczcie"
+    pl: "Nie otoczcie całej działki, zostawcie przejście."
+    ru: "Не обносите весь участок, оставьте проход."
+    source: { kind: authored }
+  - form: "otoczeni"
+    pl: "Otoczeni ze wszystkich stron, złożyli broń."
+    ru: "Окружённые со всех сторон, они сложили оружие."
+    source: { kind: authored }
+  - form: "otoczeni"
+    pl: "Byli otoczeni życzliwością sąsiadów."
+    ru: "Они были окружены доброжелательностью соседей."
+    source: { kind: authored }
+  - form: "otoczeni"
+    pl: "Otoczeni dziennikarzami, nie powiedzieli ani słowa."
+    ru: "Окружённые журналистами, они не сказали ни слова."
+    source: { kind: authored }
+  - form: "otoczenia"
+    pl: "Nie znosi hałaśliwego otoczenia."
+    ru: "Он не выносит шумного окружения."
+    source: { kind: authored }
+  - form: "otoczenia"
+    pl: "Od otoczenia zależy bardzo wiele."
+    ru: "От окружения зависит очень многое."
+    source: { kind: authored }
+  - form: "otoczenia"
+    pl: "Ochrona otoczenia kosztuje, ale się opłaca."
+    ru: "Охрана окружающей среды стоит денег, но окупается."
+    source: { kind: authored }
+  - form: "otoczenie"
+    pl: "Otoczenie domu zarosło chwastami."
+    ru: "Окружение дома заросло сорняками."
+    source: { kind: authored }
+  - form: "otoczenie"
+    pl: "Nowe otoczenie podziałało na niego dobrze."
+    ru: "Новая среда подействовала на него хорошо."
+    source: { kind: authored }
+  - form: "otoczenie"
+    pl: "Otoczenie prezesa zmieniło się całkowicie."
+    ru: "Окружение председателя полностью сменилось."
+    source: { kind: authored }
+  - form: "otoczeniem"
+    pl: "Między człowiekiem a otoczeniem trwa ciągła wymiana."
+    ru: "Между человеком и средой идёт постоянный обмен."
+    source: { kind: authored }
+  - form: "otoczeniem"
+    pl: "Zajmuje się otoczeniem budynków zabytkowych."
+    ru: "Он занимается окружением исторических зданий."
+    source: { kind: authored }
+  - form: "otoczeniem"
+    pl: "Nie czuł się dobrze z tym otoczeniem."
+    ru: "Он не чувствовал себя хорошо с этим окружением."
+    source: { kind: authored }
+  - form: "otoczeniu"
+    pl: "W swoim otoczeniu czuje się pewnie."
+    ru: "В своём окружении он чувствует себя уверенно."
+    source: { kind: authored }
+  - form: "otoczeniu"
+    pl: "O jego otoczeniu krążą różne opinie."
+    ru: "О его окружении ходят разные мнения."
+    source: { kind: authored }
+  - form: "otoczeniu"
+    pl: "W nowym otoczeniu trudno o przyjaciół."
+    ru: "В новой среде трудно с друзьями."
+    source: { kind: authored }
+  - form: "otoczmy"
+    pl: "Otoczmy ogród niskim płotem."
+    ru: "Обнесём сад невысоким забором."
+    source: { kind: authored }
+  - form: "otoczmy"
+    pl: "Otoczmy go opieką, póki jest słaby."
+    ru: "Окружим его заботой, пока он слаб."
+    source: { kind: authored }
+  - form: "otoczmy"
+    pl: "Nie otoczmy tego murem, wystarczy siatka."
+    ru: "Не будем обносить это стеной, хватит сетки."
+    source: { kind: authored }
+  - form: "otoczona"
+    pl: "Wieś otoczona lasem zimą bywa odcięta."
+    ru: "Деревня, окружённая лесом, зимой бывает отрезана."
+    source: { kind: authored }
+  - form: "otoczona"
+    pl: "Otoczona dziećmi, zapomniała o zmęczeniu."
+    ru: "Окружённая детьми, она забыла об усталости."
+    source: { kind: authored }
+  - form: "otoczona"
+    pl: "Twierdza otoczona z trzech stron broniła się tydzień."
+    ru: "Крепость, окружённая с трёх сторон, оборонялась неделю."
+    source: { kind: authored }
+  - form: "otoczone"
+    pl: "Miasteczko otoczone wzgórzami nie widać z drogi."
+    ru: "Городок, окружённый холмами, не виден с дороги."
+    source: { kind: authored }
+  - form: "otoczone"
+    pl: "Otoczone opieką dziecko szybko doszło do siebie."
+    ru: "Окружённый заботой ребёнок быстро пришёл в себя."
+    source: { kind: authored }
+  - form: "otoczone"
+    pl: "Grządki otoczone kamieniami wyglądają schludnie."
+    ru: "Грядки, обложенные камнями, выглядят опрятно."
+    source: { kind: authored }
+  - form: "otoczonego"
+    pl: "Od otoczonego murem ogrodu nie dochodzi żaden hałas."
+    ru: "От обнесённого стеной сада не доносится никакого шума."
+    source: { kind: authored }
+  - form: "otoczonego"
+    pl: "Nie znam domu otoczonego tak wysokim płotem."
+    ru: "Я не знаю дома, обнесённого таким высоким забором."
+    source: { kind: authored }
+  - form: "otoczonego"
+    pl: "Nie było tam nic otoczonego opieką."
+    ru: "Там не было ничего, окружённого заботой."
+    source: { kind: authored }
+  - form: "otoczonej"
+    pl: "Od otoczonej lasem wsi dzieli nas godzina drogi."
+    ru: "От окружённой лесом деревни нас отделяет час пути."
+    source: { kind: authored }
+  - form: "otoczonej"
+    pl: "Z twierdzy otoczonej z trzech stron nie było wyjścia."
+    ru: "Из крепости, окружённой с трёх сторон, не было выхода."
+    source: { kind: authored }
+  - form: "otoczonej"
+    pl: "Nie znam doliny otoczonej tak szczelnie górami."
+    ru: "Я не знаю долины, столь плотно окружённой горами."
+    source: { kind: authored }
+  - form: "otoczonemu"
+    pl: "Otoczonemu oddziałowi zaproponowano kapitulację."
+    ru: "Окружённому отряду предложили капитуляцию."
+    source: { kind: authored }
+  - form: "otoczonemu"
+    pl: "Dzięki otoczonemu murem dziedzińcowi w domu jest cicho."
+    ru: "Благодаря обнесённому стеной двору в доме тихо."
+    source: { kind: authored }
+  - form: "otoczonemu"
+    pl: "Przyjrzyj się temu otoczonemu wodą zamkowi."
+    ru: "Присмотрись к этому окружённому водой замку."
+    source: { kind: authored }
+  - form: "otoczono"
+    pl: "Ogród otoczono wysokim murem."
+    ru: "Сад обнесли высокой стеной."
+    source: { kind: authored }
+  - form: "otoczono"
+    pl: "Chorego otoczono troskliwą opieką."
+    ru: "Больного окружили заботливым уходом."
+    source: { kind: authored }
+  - form: "otoczono"
+    pl: "Nigdy nie otoczono tego miejsca płotem."
+    ru: "Это место никогда не обносили забором."
+    source: { kind: authored }
+  - form: "otoczony"
+    pl: "Dom otoczony żywopłotem stoi na końcu ulicy."
+    ru: "Дом, обнесённый живой изгородью, стоит в конце улицы."
+    source: { kind: authored }
+  - form: "otoczony"
+    pl: "Otoczony tłumem, nie mógł się ruszyć."
+    ru: "Окружённый толпой, он не мог сдвинуться."
+    source: { kind: authored }
+  - form: "otoczony"
+    pl: "Ogród otoczony murem wygląda jak twierdza."
+    ru: "Сад, обнесённый стеной, выглядит как крепость."
+    source: { kind: authored }
+  - form: "otoczonych"
+    pl: "Wśród otoczonych murem domów był i nasz."
+    ru: "Среди обнесённых стеной домов был и наш."
+    source: { kind: authored }
+  - form: "otoczonych"
+    pl: "O otoczonych oddziałach nie było wieści przez dobę."
+    ru: "Об окружённых отрядах не было вестей сутки."
+    source: { kind: authored }
+  - form: "otoczonych"
+    pl: "Połowa otoczonych płotem działek stoi pusta."
+    ru: "Половина обнесённых забором участков пустует."
+    source: { kind: authored }
+  - form: "otoczonym"
+    pl: "W otoczonym murem ogrodzie rosną brzoskwinie."
+    ru: "В обнесённом стеной саду растут персики."
+    source: { kind: authored }
+  - form: "otoczonym"
+    pl: "Otoczonym żołnierzom zabrakło amunicji."
+    ru: "Окружённым солдатам не хватило боеприпасов."
+    source: { kind: authored }
+  - form: "otoczonym"
+    pl: "Mieszkał w domu otoczonym starymi lipami."
+    ru: "Он жил в доме, окружённом старыми липами."
+    source: { kind: authored }
+  - form: "otoczonymi"
+    pl: "Między otoczonymi a wolnymi oddziałami urwała się łączność."
+    ru: "Между окружёнными и свободными отрядами прервалась связь."
+    source: { kind: authored }
+  - form: "otoczonymi"
+    pl: "Zajmuje się otoczonymi murem ogrodami klasztornymi."
+    ru: "Он занимается обнесёнными стенами монастырскими садами."
+    source: { kind: authored }
+  - form: "otoczonymi"
+    pl: "Dolina zapełniła się otoczonymi płotami działkami."
+    ru: "Долина заполнилась обнесёнными заборами участками."
+    source: { kind: authored }
+  - form: "otoczoną"
+    pl: "Zobaczyli wieś otoczoną wodą."
+    ru: "Они увидели деревню, окружённую водой."
+    source: { kind: authored }
+  - form: "otoczoną"
+    pl: "Uznali twierdzę za otoczoną i odciętą."
+    ru: "Крепость сочли окружённой и отрезанной."
+    source: { kind: authored }
+  - form: "otoczoną"
+    pl: "Pamiętał dolinę otoczoną wzgórzami."
+    ru: "Он помнил долину, окружённую холмами."
+    source: { kind: authored }
+  - form: "otoczy"
+    pl: "Wojsko otoczy miasto do rana."
+    ru: "Войско окружит город к утру."
+    source: { kind: authored }
+  - form: "otoczy"
+    pl: "Nikt go tam nie otoczy opieką."
+    ru: "Никто его там не окружит заботой."
+    source: { kind: authored }
+  - form: "otoczy"
+    pl: "Nowy płot otoczy całą posesję."
+    ru: "Новый забор обойдёт весь участок."
+    source: { kind: authored }
+  - form: "otoczycie"
+    pl: "Otoczycie plac taśmą przed imprezą?"
+    ru: "Вы обнесёте площадь лентой перед мероприятием?"
+    source: { kind: authored }
+  - form: "otoczycie"
+    pl: "Jeśli otoczycie drzewka słomą, przetrwają zimę."
+    ru: "Если обвяжете деревца соломой, они переживут зиму."
+    source: { kind: authored }
+  - form: "otoczycie"
+    pl: "Nie otoczycie budynku bez drabin."
+    ru: "Вы не обойдёте здание кругом без лестниц."
+    source: { kind: authored }
+  - form: "otoczyli"
+    pl: "Otoczyli go ciasnym kręgiem i zamilkli."
+    ru: "Они окружили его тесным кольцом и замолчали."
+    source: { kind: authored }
+  - form: "otoczyli"
+    pl: "Sąsiedzi otoczyli staruszkę opieką."
+    ru: "Соседи окружили старушку заботой."
+    source: { kind: authored }
+  - form: "otoczyli"
+    pl: "Nie otoczyli budynku, zabrakło ludzi."
+    ru: "Они не окружили здание, не хватило людей."
+    source: { kind: authored }
+  - form: "otoczyliby"
+    pl: "Otoczyliby budynek, gdyby mieli więcej ludzi."
+    ru: "Они окружили бы здание, будь у них больше людей."
+    source: { kind: authored }
+  - form: "otoczyliby"
+    pl: "Sąsiedzi otoczyliby go opieką bez proszenia."
+    ru: "Соседи окружили бы его заботой без просьбы."
+    source: { kind: authored }
+  - form: "otoczyliby"
+    pl: "Bez rozkazu nie otoczyliby wsi."
+    ru: "Без приказа они не окружили бы деревню."
+    source: { kind: authored }
+  - form: "otoczylibyście"
+    pl: "Otoczylibyście plac sami?"
+    ru: "Вы огородили бы площадь сами?"
+    source: { kind: authored }
+  - form: "otoczylibyście"
+    pl: "Czym otoczylibyście takie drzewa?"
+    ru: "Чем бы вы обвязали такие деревья?"
+    source: { kind: authored }
+  - form: "otoczylibyście"
+    pl: "Bez siatki nie otoczylibyście grządek."
+    ru: "Без сетки вы не обнесли бы грядки."
+    source: { kind: authored }
+  - form: "otoczylibyśmy"
+    pl: "Otoczylibyśmy ogród murem, gdyby nie koszt."
+    ru: "Мы обнесли бы сад стеной, если бы не стоимость."
+    source: { kind: authored }
+  - form: "otoczylibyśmy"
+    pl: "Otoczylibyśmy go opieką, ale mieszka za daleko."
+    ru: "Мы окружили бы его заботой, но он живёт слишком далеко."
+    source: { kind: authored }
+  - form: "otoczylibyśmy"
+    pl: "Bez tych barierek nie otoczylibyśmy placu."
+    ru: "Без этих ограждений мы не огородили бы площадь."
+    source: { kind: authored }
+  - form: "otoczyliście"
+    pl: "Otoczyliście ogród siatką czy płotem?"
+    ru: "Вы обнесли сад сеткой или забором?"
+    source: { kind: authored }
+  - form: "otoczyliście"
+    pl: "Czym otoczyliście te drzewka?"
+    ru: "Чем вы обвязали эти деревца?"
+    source: { kind: authored }
+  - form: "otoczyliście"
+    pl: "Nie otoczyliście placu, ludzie wchodzą gdzie chcą."
+    ru: "Вы не огородили площадь, люди заходят где хотят."
+    source: { kind: authored }
+  - form: "otoczyliśmy"
+    pl: "Otoczyliśmy plac barierkami przed świtem."
+    ru: "Мы обнесли площадь ограждениями до рассвета."
+    source: { kind: authored }
+  - form: "otoczyliśmy"
+    pl: "Otoczyliśmy go opieką od pierwszego dnia."
+    ru: "Мы окружили его заботой с первого дня."
+    source: { kind: authored }
+  - form: "otoczyliśmy"
+    pl: "Nie otoczyliśmy całego terenu, było za ciemno."
+    ru: "Мы не обошли кругом всю территорию, было слишком темно."
+    source: { kind: authored }
+  - form: "otoczymy"
+    pl: "Otoczymy ogród żywopłotem na wiosnę."
+    ru: "Мы обнесём сад живой изгородью весной."
+    source: { kind: authored }
+  - form: "otoczymy"
+    pl: "Otoczymy go opieką, nie martw się."
+    ru: "Мы окружим его заботой, не переживай."
+    source: { kind: authored }
+  - form: "otoczymy"
+    pl: "Nie otoczymy całego terenu w tydzień."
+    ru: "Мы не обнесём всю территорию за неделю."
+    source: { kind: authored }
+  - form: "otoczysz"
+    pl: "Otoczysz ten klomb kamieniami?"
+    ru: "Ты обложишь эту клумбу камнями?"
+    source: { kind: authored }
+  - form: "otoczysz"
+    pl: "Jeśli otoczysz sadzonki folią, przetrwają mróz."
+    ru: "Если обернёшь саженцы плёнкой, они переживут мороз."
+    source: { kind: authored }
+  - form: "otoczysz"
+    pl: "Nie otoczysz domu murem bez pozwolenia."
+    ru: "Ты не обнесёшь дом стеной без разрешения."
+    source: { kind: authored }
+  - form: "otoczywszy"
+    pl: "Otoczywszy dom płotem, odetchnęli z ulgą."
+    ru: "Обнеся дом забором, они вздохнули с облегчением."
+    source: { kind: authored }
+  - form: "otoczywszy"
+    pl: "Otoczywszy rannego, czekali na karetkę."
+    ru: "Обступив раненого, они ждали скорую."
+    source: { kind: authored }
+  - form: "otoczywszy"
+    pl: "Otoczywszy go opieką, przestali się martwić."
+    ru: "Окружив его заботой, они перестали тревожиться."
+    source: { kind: authored }
+  - form: "otoczyć"
+    pl: "Trzeba otoczyć ogród płotem."
+    ru: "Надо обнести сад забором."
+    source: { kind: authored }
+  - form: "otoczyć"
+    pl: "Chcieli otoczyć dom żywopłotem."
+    ru: "Они хотели обнести дом живой изгородью."
+    source: { kind: authored }
+  - form: "otoczyć"
+    pl: "Nie zdążyli otoczyć budynku przed świtem."
+    ru: "Они не успели окружить здание до рассвета."
+    source: { kind: authored }
+  - form: "otoczył"
+    pl: "Otoczył ogród kamiennym murem."
+    ru: "Он обнёс сад каменной стеной."
+    source: { kind: authored }
+  - form: "otoczył"
+    pl: "Tłum otoczył mówcę ciasnym kręgiem."
+    ru: "Толпа окружила оратора тесным кольцом."
+    source: { kind: authored }
+  - form: "otoczył"
+    pl: "Nikt go wtedy nie otoczył opieką."
+    ru: "Никто его тогда не окружил заботой."
+    source: { kind: authored }
+  - form: "otoczyła"
+    pl: "Policja otoczyła budynek przed świtem."
+    ru: "Полиция окружила здание до рассвета."
+    source: { kind: authored }
+  - form: "otoczyła"
+    pl: "Rodzina otoczyła go troską po wypadku."
+    ru: "Семья окружила его заботой после аварии."
+    source: { kind: authored }
+  - form: "otoczyła"
+    pl: "Mgła otoczyła dolinę i nic nie było widać."
+    ru: "Туман окутал долину, и ничего не было видно."
+    source: { kind: authored }
+  - form: "otoczyłaby"
+    pl: "Otoczyłaby go troską, gdyby pozwolił."
+    ru: "Она окружила бы его заботой, если бы он позволил."
+    source: { kind: authored }
+  - form: "otoczyłaby"
+    pl: "Mgła otoczyłaby dolinę, gdyby nie wiatr."
+    ru: "Туман окутал бы долину, если бы не ветер."
+    source: { kind: authored }
+  - form: "otoczyłaby"
+    pl: "Bez tej pracy otoczyłaby dzieci większą uwagą."
+    ru: "Без этой работы она окружила бы детей большим вниманием."
+    source: { kind: authored }
+  - form: "otoczyłabym"
+    pl: "Otoczyłabym działkę siatką, ale to drogo."
+    ru: "Я обнесла бы участок сеткой, но это дорого."
+    source: { kind: authored }
+  - form: "otoczyłabym"
+    pl: "Na twoim miejscu otoczyłabym te drzewka słomą."
+    ru: "На твоём месте я обвязала бы эти деревца соломой."
+    source: { kind: authored }
+  - form: "otoczyłabym"
+    pl: "Bez tego płotu otoczyłabym ogród żywopłotem."
+    ru: "Без этого забора я обнесла бы сад живой изгородью."
+    source: { kind: authored }
+  - form: "otoczyłabyś"
+    pl: "Otoczyłabyś ten dom murem?"
+    ru: "Ты обнесла бы этот дом стеной?"
+    source: { kind: authored }
+  - form: "otoczyłabyś"
+    pl: "Czym otoczyłabyś takie grządki?"
+    ru: "Чем бы ты обложила такие грядки?"
+    source: { kind: authored }
+  - form: "otoczyłabyś"
+    pl: "Bez pozwolenia nie otoczyłabyś działki."
+    ru: "Без разрешения ты не обнесла бы участок."
+    source: { kind: authored }
+  - form: "otoczyłam"
+    pl: "Otoczyłam grządki niską siatką."
+    ru: "Я обнесла грядки невысокой сеткой."
+    source: { kind: authored }
+  - form: "otoczyłam"
+    pl: "Otoczyłam go opieką, jak umiałam."
+    ru: "Я окружила его заботой, как умела."
+    source: { kind: authored }
+  - form: "otoczyłam"
+    pl: "Nie otoczyłam całej działki, zabrakło materiału."
+    ru: "Я не обнесла весь участок, не хватило материала."
+    source: { kind: authored }
+  - form: "otoczyłaś"
+    pl: "Otoczyłaś już ogród płotem?"
+    ru: "Ты уже обнесла сад забором?"
+    source: { kind: authored }
+  - form: "otoczyłaś"
+    pl: "Czym otoczyłaś te sadzonki?"
+    ru: "Чем ты обернула эти саженцы?"
+    source: { kind: authored }
+  - form: "otoczyłaś"
+    pl: "Nie otoczyłaś klombu, a obiecywałaś."
+    ru: "Ты не обложила клумбу, а обещала."
+    source: { kind: authored }
+  - form: "otoczyłby"
+    pl: "Otoczyłby ogród murem, gdyby go było stać."
+    ru: "Он обнёс бы сад стеной, если бы хватило денег."
+    source: { kind: authored }
+  - form: "otoczyłby"
+    pl: "Nikt nie otoczyłby tego domu płotem tak wysokim."
+    ru: "Никто не обнёс бы этот дом таким высоким забором."
+    source: { kind: authored }
+  - form: "otoczyłby"
+    pl: "Otoczyłby ją opieką, ale sam był chory."
+    ru: "Он окружил бы её заботой, но сам был болен."
+    source: { kind: authored }
+  - form: "otoczyłbym"
+    pl: "Otoczyłbym działkę siatką, ale to drogo."
+    ru: "Я обнёс бы участок сеткой, но это дорого."
+    source: { kind: authored }
+  - form: "otoczyłbym"
+    pl: "Na twoim miejscu otoczyłbym te drzewka słomą."
+    ru: "На твоём месте я обвязал бы эти деревца соломой."
+    source: { kind: authored }
+  - form: "otoczyłbym"
+    pl: "Bez tego płotu otoczyłbym ogród żywopłotem."
+    ru: "Без этого забора я обнёс бы сад живой изгородью."
+    source: { kind: authored }
+  - form: "otoczyłbyś"
+    pl: "Otoczyłbyś ten dom murem?"
+    ru: "Ты обнёс бы этот дом стеной?"
+    source: { kind: authored }
+  - form: "otoczyłbyś"
+    pl: "Czym otoczyłbyś takie grządki?"
+    ru: "Чем бы ты обложил такие грядки?"
+    source: { kind: authored }
+  - form: "otoczyłbyś"
+    pl: "Bez pozwolenia nie otoczyłbyś działki."
+    ru: "Без разрешения ты не обнёс бы участок."
+    source: { kind: authored }
+  - form: "otoczyłem"
+    pl: "Otoczyłem grządki niską siatką."
+    ru: "Я обнёс грядки невысокой сеткой."
+    source: { kind: authored }
+  - form: "otoczyłem"
+    pl: "Otoczyłem go opieką, jak umiałem."
+    ru: "Я окружил его заботой, как умел."
+    source: { kind: authored }
+  - form: "otoczyłem"
+    pl: "Nie otoczyłem całej działki, zabrakło materiału."
+    ru: "Я не обнёс весь участок, не хватило материала."
+    source: { kind: authored }
+  - form: "otoczyłeś"
+    pl: "Otoczyłeś już ogród płotem?"
+    ru: "Ты уже обнёс сад забором?"
+    source: { kind: authored }
+  - form: "otoczyłeś"
+    pl: "Czym otoczyłeś te sadzonki?"
+    ru: "Чем ты обернул эти саженцы?"
+    source: { kind: authored }
+  - form: "otoczyłeś"
+    pl: "Nie otoczyłeś klombu, a obiecywałeś."
+    ru: "Ты не обложил клумбу, а обещал."
+    source: { kind: authored }
+  - form: "otoczyło"
+    pl: "Miasto otoczyło park nową aleją."
+    ru: "Город обвёл парк новой аллеей."
+    source: { kind: authored }
+  - form: "otoczyło"
+    pl: "Kilka osób otoczyło rannego."
+    ru: "Несколько человек обступили раненого."
+    source: { kind: authored }
+  - form: "otoczyło"
+    pl: "Żadne wojsko nie otoczyło tej twierdzy."
+    ru: "Никакое войско не окружало эту крепость."
+    source: { kind: authored }
+  - form: "otoczyłoby"
+    pl: "Miasto otoczyłoby park aleją, ale brakło pieniędzy."
+    ru: "Город обвёл бы парк аллеей, но не хватило денег."
+    source: { kind: authored }
+  - form: "otoczyłoby"
+    pl: "Kilka osób otoczyłoby rannego, gdyby ktoś krzyknął."
+    ru: "Несколько человек обступили бы раненого, если бы кто-то крикнул."
+    source: { kind: authored }
+  - form: "otoczyłoby"
+    pl: "Żadne wojsko nie otoczyłoby tej twierdzy od rzeki."
+    ru: "Никакое войско не окружило бы эту крепость со стороны реки."
+    source: { kind: authored }
+  - form: "otoczyły"
+    pl: "Dzieci otoczyły choinkę kołem."
+    ru: "Дети окружили ёлку кругом."
+    source: { kind: authored }
+  - form: "otoczyły"
+    pl: "Chmury otoczyły szczyt przed południem."
+    ru: "Облака окружили вершину до полудня."
+    source: { kind: authored }
+  - form: "otoczyły"
+    pl: "Nie otoczyły go żadne mury, tylko żywopłot."
+    ru: "Его не окружали никакие стены, только живая изгородь."
+    source: { kind: authored }
+  - form: "otoczyłyby"
+    pl: "Chmury otoczyłyby szczyt, gdyby nie wiatr."
+    ru: "Облака окружили бы вершину, если бы не ветер."
+    source: { kind: authored }
+  - form: "otoczyłyby"
+    pl: "Dzieci otoczyłyby choinkę kołem."
+    ru: "Дети окружили бы ёлку кругом."
+    source: { kind: authored }
+  - form: "otoczyłyby"
+    pl: "Bez tej przerwy otoczyłyby go pytaniami."
+    ru: "Без этого перерыва они засыпали бы его вопросами."
+    source: { kind: authored }
+  - form: "otoczyłybyście"
+    pl: "Otoczyłybyście plac same?"
+    ru: "Вы огородили бы площадь сами?"
+    source: { kind: authored }
+  - form: "otoczyłybyście"
+    pl: "Czym otoczyłybyście takie drzewa?"
+    ru: "Чем бы вы обвязали такие деревья?"
+    source: { kind: authored }
+  - form: "otoczyłybyście"
+    pl: "Bez siatki nie otoczyłybyście grządek."
+    ru: "Без сетки вы не обнесли бы грядки."
+    source: { kind: authored }
+  - form: "otoczyłybyśmy"
+    pl: "Otoczyłybyśmy ogród murem, gdyby nie koszt."
+    ru: "Мы обнесли бы сад стеной, если бы не стоимость."
+    source: { kind: authored }
+  - form: "otoczyłybyśmy"
+    pl: "Otoczyłybyśmy go opieką, ale mieszka za daleko."
+    ru: "Мы окружили бы его заботой, но он живёт слишком далеко."
+    source: { kind: authored }
+  - form: "otoczyłybyśmy"
+    pl: "Bez tych barierek nie otoczyłybyśmy placu."
+    ru: "Без этих ограждений мы не огородили бы площадь."
+    source: { kind: authored }
+  - form: "otoczyłyście"
+    pl: "Otoczyłyście ogród siatką czy płotem?"
+    ru: "Вы обнесли сад сеткой или забором?"
+    source: { kind: authored }
+  - form: "otoczyłyście"
+    pl: "Czym otoczyłyście te drzewka?"
+    ru: "Чем вы обвязали эти деревца?"
+    source: { kind: authored }
+  - form: "otoczyłyście"
+    pl: "Nie otoczyłyście placu, ludzie wchodzą gdzie chcą."
+    ru: "Вы не огородили площадь, люди заходят где хотят."
+    source: { kind: authored }
+  - form: "otoczyłyśmy"
+    pl: "Otoczyłyśmy plac barierkami przed świtem."
+    ru: "Мы обнесли площадь ограждениями до рассвета."
+    source: { kind: authored }
+  - form: "otoczyłyśmy"
+    pl: "Otoczyłyśmy go opieką od pierwszego dnia."
+    ru: "Мы окружили его заботой с первого дня."
+    source: { kind: authored }
+  - form: "otoczyłyśmy"
+    pl: "Nie otoczyłyśmy całego terenu, było za ciemno."
+    ru: "Мы не обошли кругом всю территорию, было слишком темно."
+    source: { kind: authored }
+  - form: "otoczą"
+    pl: "Żołnierze otoczą wieś o świcie."
+    ru: "Солдаты окружат деревню на рассвете."
+    source: { kind: authored }
+  - form: "otoczą"
+    pl: "Sąsiedzi otoczą go troską, jak zawsze."
+    ru: "Соседи окружат его заботой, как всегда."
+    source: { kind: authored }
+  - form: "otoczą"
+    pl: "Nie otoczą całego lasu kordonem."
+    ru: "Они не оцепят весь лес."
+    source: { kind: authored }
+  - form: "otoczę"
+    pl: "Otoczę grządki siatką przed wiosną."
+    ru: "Я обнесу грядки сеткой до весны."
+    source: { kind: authored }
+  - form: "otoczę"
+    pl: "Otoczę go opieką, dopóki nie wyzdrowieje."
+    ru: "Я окружу его заботой, пока он не выздоровеет."
+    source: { kind: authored }
+  - form: "otoczę"
+    pl: "Nie otoczę całej działki w jeden dzień."
+    ru: "Я не обнесу весь участок за один день."
+    source: { kind: authored }
