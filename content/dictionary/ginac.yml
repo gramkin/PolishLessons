@@ -1,0 +1,676 @@
+# review
+id: ginac
+format: 2
+lemma: "ginąć"
+rank: 2343
+pos: verb
+pron: { cyr: "ги́нонць" }
+senses:
+  - id: perish
+    ru: "гибнуть, погибать"
+    examples:
+      - pl: "Ginęli tysiącami na froncie."
+        ru: "Они гибли тысячами на фронте."
+        source: { kind: authored }
+      - pl: "Ludzie giną w wypadkach co dzień."
+        ru: "Люди гибнут в авариях каждый день."
+        source: { kind: authored }
+  - id: disappear
+    ru: "пропадать, исчезать"
+    examples:
+      - pl: "Rzeczy giną w tym domu bez śladu."
+        ru: "Вещи в этом доме пропадают без следа."
+        source: { kind: authored }
+      - pl: "Ginie mi czas na drobiazgi."
+        ru: "У меня пропадает время на мелочи."
+        source: { kind: authored }
+  - id: be-lost-in
+    ru: "теряться (в толпе, из виду)"
+    examples:
+      - pl: "Ginie w tłumie, taki jest niepozorny."
+        ru: "Он теряется в толпе, такой неприметный."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "ЭТО ТОТ ГЛАГОЛ, ОТ КОТОРОГО ОБРАЗОВАНЫ ZGINĄĆ И ZAGINĄĆ — И ПРИСТАВКА РЕШАЕТ ВСЁ. Сам ginąć несовершенный и покрывает оба смысла: и гибнуть, и пропадать. Приставка z- даёт zginąć «ПОГИБНУТЬ», приставка za- даёт zaginąć «ПРОПАСТЬ БЕЗ ВЕСТИ». Отсюда и причастие zaginiony «пропавший», которое ни в коем случае не значит «погибший»." }
+  - { kind: pronunciation, text: "ЧЕРЕДОВАНИЕ Ą И Ę В ПРОШЕДШЕМ ВРЕМЕНИ, КАК У ВСЕХ ГЛАГОЛОВ НА -NĄĆ. Мужской род единственного числа берёт ą: ginął. Все остальные формы берут ę: ginęła, ginęło, ginęli, ginęły. То же самое уже было у uniknąć и zacząć. Носовое ą перед ć звучит как «он»: «ги́нонць»." }
+  - { kind: false-friend, text: "Корень тот же, что в русском «ГИБНУТЬ»: праславянское *gybnǫti. Русские «погибнуть», «сгинуть», «погибель» — ближайшая родня. Расходится вид: русское «гибнуть» тоже несовершенное, но у поляков от этого корня выросла целая приставочная система, где каждая приставка меняет смысл заметнее, чем в русском." }
+  - { kind: government, text: "Гибнут ОТ чего — z с родительным или od z родительным: ginąć z głodu «умирать с голоду», ginąć od kul «гибнуть от пуль». ГДЕ — w с предложным: ginąć w tłumie, w wypadku. Глагол непереходный, поэтому страдательных причастий у него нет вовсе; в таблице их и не найти." }
+collocations:
+  - { pl: "ginąć z głodu", ru: "умирать с голоду" }
+  - { pl: "ginąć w tłumie", ru: "теряться в толпе" }
+  - { pl: "gatunki ginące", ru: "исчезающие виды" }
+family:
+  - { pl: "zginąć", ru: "погибнуть", relation: aspect, id: zginac }
+  - { pl: "zaginąć", ru: "пропасть без вести", relation: derived, id: zaginac }
+  - { pl: "zaginiony", ru: "пропавший без вести", relation: derived, id: zaginiony }
+  - { pl: "przepadać", ru: "пропадать", relation: derived }
+etymology: "Из праславянского *gybnǫti «гибнуть, пропадать» — того же корня, что русские «гибнуть», «погибель», «сгинуть». Корень связывают с *gъb- «гнуться»: гибнущее сгибается и падает. Отсюда zginąć, zaginąć, zguba «пропажа», pogrzeb и zgubić «потерять»."
+memory: "ginąć — «гибнуть» и «пропадать» разом, корень тот же, что в русском «гибнуть». Приставка решает: zginąć «погибнуть», zaginąć «пропасть без вести». И чередование: ginął с ą, но ginęła с ę."
+idioms:
+  - { pl: "ginąć z głodu", ru: "умирать с голоду" }
+  - { pl: "gatunki ginące", ru: "исчезающие виды" }
+formExamples:
+  - form: "ginie"
+    pl: "Ginie w tłumie, taki jest niepozorny."
+    ru: "Он теряется в толпе, такой неприметный."
+    source: { kind: authored }
+  - form: "ginie"
+    pl: "Ginie mi czas na drobiazgi."
+    ru: "У меня пропадает время на мелочи."
+    source: { kind: authored }
+  - form: "ginie"
+    pl: "Nikt tu nie ginie bez śladu."
+    ru: "Никто здесь не пропадает без следа."
+    source: { kind: authored }
+  - form: "giniecie"
+    pl: "Giniecie w tym hałasie, nic nie słychać."
+    ru: "Вы теряетесь в этом шуме, ничего не слышно."
+    source: { kind: authored }
+  - form: "giniecie"
+    pl: "Jeśli tak dalej pójdzie, giniecie z długami."
+    ru: "Если так пойдёт дальше, вы пропадёте с долгами."
+    source: { kind: authored }
+  - form: "giniecie"
+    pl: "Nie giniecie przecież, macie dach nad głową."
+    ru: "Вы же не пропадаете, у вас есть крыша над головой."
+    source: { kind: authored }
+  - form: "giniemy"
+    pl: "Giniemy w papierach od początku roku."
+    ru: "Мы тонем в бумагах с начала года."
+    source: { kind: authored }
+  - form: "giniemy"
+    pl: "Giniemy z gorąca na tym poddaszu."
+    ru: "Мы умираем от жары на этом чердаке."
+    source: { kind: authored }
+  - form: "giniemy"
+    pl: "Nie giniemy, radzimy sobie."
+    ru: "Мы не пропадаем, справляемся."
+    source: { kind: authored }
+  - form: "giniesz"
+    pl: "Giniesz w tym płaszczu, jest za duży."
+    ru: "Ты теряешься в этом пальто, оно слишком велико."
+    source: { kind: authored }
+  - form: "giniesz"
+    pl: "Jeśli nie zjesz, giniesz z głodu do wieczora."
+    ru: "Если не поешь, умрёшь с голоду к вечеру."
+    source: { kind: authored }
+  - form: "giniesz"
+    pl: "Nie giniesz, tylko się chowasz."
+    ru: "Ты не пропадаешь, а прячешься."
+    source: { kind: authored }
+  - form: "ginięcia"
+    pl: "Przyczyn ginięcia pszczół jest kilka."
+    ru: "Причин исчезновения пчёл несколько."
+    source: { kind: authored }
+  - form: "ginięcia"
+    pl: "Od ginięcia gatunku do jego powrotu minęło pół wieku."
+    ru: "От исчезновения вида до его возвращения прошло полвека."
+    source: { kind: authored }
+  - form: "ginięcia"
+    pl: "Bez ginięcia starego nie ma miejsca na nowe."
+    ru: "Без гибели старого нет места новому."
+    source: { kind: authored }
+  - form: "ginięcie"
+    pl: "Ginięcie gatunków przyspieszyło w tym stuleciu."
+    ru: "Исчезновение видов ускорилось в этом столетии."
+    source: { kind: authored }
+  - form: "ginięcie"
+    pl: "Powolne ginięcie wsi widać na mapie."
+    ru: "Медленное вымирание деревень видно на карте."
+    source: { kind: authored }
+  - form: "ginięcie"
+    pl: "Ginięcie pszczół niepokoi sadowników."
+    ru: "Исчезновение пчёл тревожит садоводов."
+    source: { kind: authored }
+  - form: "ginięciem"
+    pl: "Przed ginięciem lasu ostrzegano od lat."
+    ru: "О гибели леса предупреждали годами."
+    source: { kind: authored }
+  - form: "ginięciem"
+    pl: "Między wycinką a ginięciem zwierząt jest związek."
+    ru: "Между вырубкой и гибелью животных есть связь."
+    source: { kind: authored }
+  - form: "ginięciem"
+    pl: "Zajmuje się ginięciem owadów zapylających."
+    ru: "Он занимается исчезновением насекомых-опылителей."
+    source: { kind: authored }
+  - form: "ginięciu"
+    pl: "O ginięciu gatunków mówi cały raport."
+    ru: "Об исчезновении видов говорит весь доклад."
+    source: { kind: authored }
+  - form: "ginięciu"
+    pl: "Po ginięciu pszczół sady dały połowę plonu."
+    ru: "После гибели пчёл сады дали половину урожая."
+    source: { kind: authored }
+  - form: "ginięciu"
+    pl: "W ginięciu tej gwary nikt nie widział straty."
+    ru: "В исчезновении этого говора никто не видел потери."
+    source: { kind: authored }
+  - form: "ginięto"
+    pl: "W tamtych latach ginięto na drogach masowo."
+    ru: "В те годы на дорогах гибли массово."
+    source: { kind: authored }
+  - form: "ginięto"
+    pl: "W kopalniach ginięto co zimę."
+    ru: "В шахтах гибли каждую зиму."
+    source: { kind: authored }
+  - form: "ginięto"
+    pl: "Nigdy tu nie ginięto bez śledztwa."
+    ru: "Здесь никогда не гибли без расследования."
+    source: { kind: authored }
+  - form: "giną"
+    pl: "Ludzie giną w wypadkach co dzień."
+    ru: "Люди гибнут в авариях каждый день."
+    source: { kind: authored }
+  - form: "giną"
+    pl: "Rzeczy giną w tym domu bez śladu."
+    ru: "Вещи в этом доме пропадают без следа."
+    source: { kind: authored }
+  - form: "giną"
+    pl: "Nie giną tu żadne dokumenty."
+    ru: "Здесь не пропадают никакие документы."
+    source: { kind: authored }
+  - form: "ginąc"
+    pl: "Ginąc w tłumie, czuł się bezpiecznie."
+    ru: "Теряясь в толпе, он чувствовал себя спокойно."
+    source: { kind: authored }
+  - form: "ginąc"
+    pl: "Ginąc z głodu, nie poprosił o nic."
+    ru: "Умирая с голоду, он ни о чём не попросил."
+    source: { kind: authored }
+  - form: "ginąc"
+    pl: "Ginąc powoli, wieś traciła młodych."
+    ru: "Медленно угасая, деревня теряла молодых."
+    source: { kind: authored }
+  - form: "ginąca"
+    pl: "Ginąca wieś pustoszeje z roku na rok."
+    ru: "Гибнущая деревня пустеет год от года."
+    source: { kind: authored }
+  - form: "ginąca"
+    pl: "Ginąca tradycja utrzymała się tylko tutaj."
+    ru: "Исчезающая традиция сохранилась только здесь."
+    source: { kind: authored }
+  - form: "ginąca"
+    pl: "Ginąca populacja żubrów powoli rośnie."
+    ru: "Исчезающая популяция зубров медленно растёт."
+    source: { kind: authored }
+  - form: "ginące"
+    pl: "Gatunki ginące wpisano do czerwonej księgi."
+    ru: "Исчезающие виды внесли в красную книгу."
+    source: { kind: authored }
+  - form: "ginące"
+    pl: "Ginące rzemiosła pokazano na wystawie."
+    ru: "Исчезающие ремёсла показали на выставке."
+    source: { kind: authored }
+  - form: "ginące"
+    pl: "Ginące miasteczka walczą o szkołę."
+    ru: "Угасающие городки борются за школу."
+    source: { kind: authored }
+  - form: "ginącego"
+    pl: "Od ginącego lasu zależy cała dolina."
+    ru: "От гибнущего леса зависит вся долина."
+    source: { kind: authored }
+  - form: "ginącego"
+    pl: "Nie znam zawodu ginącego tak szybko."
+    ru: "Я не знаю ремесла, исчезающего так быстро."
+    source: { kind: authored }
+  - form: "ginącego"
+    pl: "Nie ma tu nic ginącego, wszystko odżywa."
+    ru: "Здесь нет ничего гибнущего, всё оживает."
+    source: { kind: authored }
+  - form: "ginącej"
+    pl: "Od ginącej tradycji zostały dwie pieśni."
+    ru: "От исчезающей традиции осталось две песни."
+    source: { kind: authored }
+  - form: "ginącej"
+    pl: "Z ginącej wsi wyjechali wszyscy młodzi."
+    ru: "Из гибнущей деревни уехала вся молодёжь."
+    source: { kind: authored }
+  - form: "ginącej"
+    pl: "Nie znam gwary ginącej tak nagle."
+    ru: "Я не знаю говора, исчезающего так внезапно."
+    source: { kind: authored }
+  - form: "ginącemu"
+    pl: "Ginącemu lasowi przyznano ochronę."
+    ru: "Гибнущему лесу дали охрану."
+    source: { kind: authored }
+  - form: "ginącemu"
+    pl: "Dzięki ginącemu gatunkowi dolinę objęto rezerwatem."
+    ru: "Из-за исчезающего вида долину объявили заповедником."
+    source: { kind: authored }
+  - form: "ginącemu"
+    pl: "Przyjrzyj się temu ginącemu rzemiosłu z bliska."
+    ru: "Присмотрись к этому исчезающему ремеслу вблизи."
+    source: { kind: authored }
+  - form: "ginący"
+    pl: "Ginący las wymaga ochrony."
+    ru: "Гибнущий лес требует охраны."
+    source: { kind: authored }
+  - form: "ginący"
+    pl: "Ginący gatunek wrócił nad tę rzekę."
+    ru: "Исчезающий вид вернулся на эту реку."
+    source: { kind: authored }
+  - form: "ginący"
+    pl: "Ginący zawód przetrwał w dwóch warsztatach."
+    ru: "Исчезающее ремесло уцелело в двух мастерских."
+    source: { kind: authored }
+  - form: "ginących"
+    pl: "Wśród gatunków ginących jest i ryś."
+    ru: "Среди исчезающих видов есть и рысь."
+    source: { kind: authored }
+  - form: "ginących"
+    pl: "O ginących rzemiosłach nakręcono film."
+    ru: "Об исчезающих ремёслах сняли фильм."
+    source: { kind: authored }
+  - form: "ginących"
+    pl: "Połowa ginących wsi nie ma już szkoły."
+    ru: "В половине вымирающих деревень уже нет школы."
+    source: { kind: authored }
+  - form: "ginącym"
+    pl: "W ginącym lesie nie słychać już ptaków."
+    ru: "В гибнущем лесу уже не слышно птиц."
+    source: { kind: authored }
+  - form: "ginącym"
+    pl: "Ginącym gatunkom poświęcono osobny rozdział."
+    ru: "Исчезающим видам посвятили отдельную главу."
+    source: { kind: authored }
+  - form: "ginącym"
+    pl: "Mieszka w miasteczku ginącym od trzydziestu lat."
+    ru: "Он живёт в городке, угасающем тридцать лет."
+    source: { kind: authored }
+  - form: "ginącymi"
+    pl: "Między gatunkami ginącymi a zagrożonymi jest różnica."
+    ru: "Между исчезающими и угрожаемыми видами есть разница."
+    source: { kind: authored }
+  - form: "ginącymi"
+    pl: "Zajmuje się ginącymi rzemiosłami."
+    ru: "Он занимается исчезающими ремёслами."
+    source: { kind: authored }
+  - form: "ginącymi"
+    pl: "Mapa pokryła się ginącymi wsiami."
+    ru: "Карта покрылась вымирающими деревнями."
+    source: { kind: authored }
+  - form: "ginącą"
+    pl: "Zobaczyli wieś ginącą na oczach."
+    ru: "Они увидели деревню, гибнущую на глазах."
+    source: { kind: authored }
+  - form: "ginącą"
+    pl: "Uznali tę gwarę za ginącą."
+    ru: "Этот говор сочли исчезающим."
+    source: { kind: authored }
+  - form: "ginącą"
+    pl: "Opisał tradycję ginącą od pokoleń."
+    ru: "Он описал традицию, исчезающую поколениями."
+    source: { kind: authored }
+  - form: "ginąć"
+    pl: "Nie chcieli ginąć za cudzą sprawę."
+    ru: "Они не хотели гибнуть за чужое дело."
+    source: { kind: authored }
+  - form: "ginąć"
+    pl: "Trudno patrzeć, jak dorobek życia zaczyna ginąć."
+    ru: "Тяжело смотреть, как труд жизни начинает гибнуть."
+    source: { kind: authored }
+  - form: "ginąć"
+    pl: "W tym domu rzeczy potrafią ginąć bez śladu."
+    ru: "В этом доме вещи умеют пропадать без следа."
+    source: { kind: authored }
+  - form: "ginął"
+    pl: "Ginął z głodu, a nie prosił o pomoc."
+    ru: "Он умирал с голоду и не просил помощи."
+    source: { kind: authored }
+  - form: "ginął"
+    pl: "Dorobek ginął na oczach właściciela."
+    ru: "Нажитое гибло на глазах владельца."
+    source: { kind: authored }
+  - form: "ginął"
+    pl: "Nikt tam wtedy nie ginął bez wieści."
+    ru: "Никто там тогда не пропадал без вести."
+    source: { kind: authored }
+  - form: "ginąłby"
+    pl: "Ginąłby z głodu, gdyby nie sąsiedzi."
+    ru: "Он умер бы с голоду, если бы не соседи."
+    source: { kind: authored }
+  - form: "ginąłby"
+    pl: "Nikt nie ginąłby w tych wypadkach przy lepszych drogach."
+    ru: "Никто не гиб бы в этих авариях при лучших дорогах."
+    source: { kind: authored }
+  - form: "ginąłby"
+    pl: "Ginąłby w tłumie, ale ma rude włosy."
+    ru: "Он терялся бы в толпе, но у него рыжие волосы."
+    source: { kind: authored }
+  - form: "ginąłbym"
+    pl: "Ginąłbym z nudów na twoim miejscu."
+    ru: "Я умирал бы от скуки на твоём месте."
+    source: { kind: authored }
+  - form: "ginąłbym"
+    pl: "Bez okularów ginąłbym w tych tabelach."
+    ru: "Без очков я тонул бы в этих таблицах."
+    source: { kind: authored }
+  - form: "ginąłbym"
+    pl: "Nie ginąłbym tam ani dnia dłużej."
+    ru: "Я не пропадал бы там ни дня дольше."
+    source: { kind: authored }
+  - form: "ginąłbyś"
+    pl: "Ginąłbyś bez niej w obcym mieście?"
+    ru: "Пропал бы ты без неё в чужом городе?"
+    source: { kind: authored }
+  - form: "ginąłbyś"
+    pl: "Czy ginąłbyś za taką sprawę?"
+    ru: "Погиб бы ты за такое дело?"
+    source: { kind: authored }
+  - form: "ginąłbyś"
+    pl: "Bez mapy ginąłbyś w tych uliczkach."
+    ru: "Без карты ты терялся бы в этих улочках."
+    source: { kind: authored }
+  - form: "ginąłem"
+    pl: "Ginąłem z nudów na tym zebraniu."
+    ru: "Я умирал от скуки на этом собрании."
+    source: { kind: authored }
+  - form: "ginąłem"
+    pl: "Ginąłem w papierach przez cały kwiecień."
+    ru: "Я тонул в бумагах весь апрель."
+    source: { kind: authored }
+  - form: "ginąłem"
+    pl: "Nie ginąłem nigdy w takim tłumie."
+    ru: "Я никогда не терялся в такой толпе."
+    source: { kind: authored }
+  - form: "ginąłeś"
+    pl: "Ginąłeś gdzieś przez pół roku."
+    ru: "Ты куда-то пропадал полгода."
+    source: { kind: authored }
+  - form: "ginąłeś"
+    pl: "Czy ginąłeś kiedyś z głodu naprawdę?"
+    ru: "Ты когда-нибудь умирал с голоду по-настоящему?"
+    source: { kind: authored }
+  - form: "ginąłeś"
+    pl: "Nie ginąłeś, tylko nie odbierałeś telefonu."
+    ru: "Ты не пропадал, просто не брал трубку."
+    source: { kind: authored }
+  - form: "ginę"
+    pl: "Ginę z ciekawości, powiedz wreszcie."
+    ru: "Умираю от любопытства, скажи наконец."
+    source: { kind: authored }
+  - form: "ginę"
+    pl: "Ginę w tych papierach."
+    ru: "Я тону в этих бумагах."
+    source: { kind: authored }
+  - form: "ginę"
+    pl: "Nie ginę jeszcze, trzymam się."
+    ru: "Я ещё не пропадаю, держусь."
+    source: { kind: authored }
+  - form: "ginęli"
+    pl: "Ginęli tysiącami na froncie."
+    ru: "Они гибли тысячами на фронте."
+    source: { kind: authored }
+  - form: "ginęli"
+    pl: "Ginęli w kopalni przez całą dekadę."
+    ru: "Они гибли в шахте целое десятилетие."
+    source: { kind: authored }
+  - form: "ginęli"
+    pl: "Nie ginęli na darmo, tak mówiono."
+    ru: "Они гибли не зря, так говорили."
+    source: { kind: authored }
+  - form: "ginęliby"
+    pl: "Ginęliby rzadziej, gdyby mieli kaski."
+    ru: "Они гибли бы реже, если бы носили каски."
+    source: { kind: authored }
+  - form: "ginęliby"
+    pl: "Górnicy ginęliby mniej licznie przy nowych przepisach."
+    ru: "Шахтёры гибли бы реже при новых правилах."
+    source: { kind: authored }
+  - form: "ginęliby"
+    pl: "Bez tej ewakuacji ginęliby setkami."
+    ru: "Без этой эвакуации они гибли бы сотнями."
+    source: { kind: authored }
+  - form: "ginęlibyście"
+    pl: "Ginęlibyście bez nas w takim mieście?"
+    ru: "Пропали бы вы без нас в таком городе?"
+    source: { kind: authored }
+  - form: "ginęlibyście"
+    pl: "Czy ginęlibyście z nudów na takim zebraniu?"
+    ru: "Умирали бы вы от скуки на таком собрании?"
+    source: { kind: authored }
+  - form: "ginęlibyście"
+    pl: "Bez przewodnika ginęlibyście w tych górach."
+    ru: "Без проводника вы терялись бы в этих горах."
+    source: { kind: authored }
+  - form: "ginęlibyśmy"
+    pl: "Ginęlibyśmy z zimna bez tego pieca."
+    ru: "Мы умирали бы от холода без этой печи."
+    source: { kind: authored }
+  - form: "ginęlibyśmy"
+    pl: "Ginęlibyśmy w papierach, gdyby nie system."
+    ru: "Мы тонули бы в бумагах, если бы не система."
+    source: { kind: authored }
+  - form: "ginęlibyśmy"
+    pl: "Bez pomocy sąsiadów ginęlibyśmy tu sami."
+    ru: "Без помощи соседей мы пропадали бы тут одни."
+    source: { kind: authored }
+  - form: "ginęliście"
+    pl: "Gdzie ginęliście przez cały wieczór?"
+    ru: "Где вы пропадали весь вечер?"
+    source: { kind: authored }
+  - form: "ginęliście"
+    pl: "Ginęliście w tłumie, ledwo was znaleźliśmy."
+    ru: "Вы терялись в толпе, мы вас едва нашли."
+    source: { kind: authored }
+  - form: "ginęliście"
+    pl: "Nie ginęliście, po prostu nie dzwoniliście."
+    ru: "Вы не пропадали, просто не звонили."
+    source: { kind: authored }
+  - form: "ginęliśmy"
+    pl: "Ginęliśmy z zimna w tej chacie."
+    ru: "Мы умирали от холода в этой избе."
+    source: { kind: authored }
+  - form: "ginęliśmy"
+    pl: "Ginęliśmy w szczegółach i zgubiliśmy całość."
+    ru: "Мы тонули в деталях и потеряли целое."
+    source: { kind: authored }
+  - form: "ginęliśmy"
+    pl: "Nie ginęliśmy, choć bywało ciężko."
+    ru: "Мы не пропадали, хотя бывало тяжело."
+    source: { kind: authored }
+  - form: "ginęła"
+    pl: "Wieś ginęła powoli, dom po domu."
+    ru: "Деревня гибла медленно, дом за домом."
+    source: { kind: authored }
+  - form: "ginęła"
+    pl: "Ginęła w cieniu starszej siostry."
+    ru: "Она терялась в тени старшей сестры."
+    source: { kind: authored }
+  - form: "ginęła"
+    pl: "Nie ginęła nigdy w tłumie, była zbyt wysoka."
+    ru: "Она никогда не терялась в толпе, была слишком высокой."
+    source: { kind: authored }
+  - form: "ginęłaby"
+    pl: "Wieś ginęłaby szybciej bez tej szkoły."
+    ru: "Деревня гибла бы быстрее без этой школы."
+    source: { kind: authored }
+  - form: "ginęłaby"
+    pl: "Ginęłaby w cieniu siostry, gdyby nie talent."
+    ru: "Она терялась бы в тени сестры, если бы не талант."
+    source: { kind: authored }
+  - form: "ginęłaby"
+    pl: "Bez pomocy ginęłaby z głodu."
+    ru: "Без помощи она умирала бы с голоду."
+    source: { kind: authored }
+  - form: "ginęłabym"
+    pl: "Ginęłabym z nudów na twoim miejscu."
+    ru: "Я умирала бы от скуки на твоём месте."
+    source: { kind: authored }
+  - form: "ginęłabym"
+    pl: "Bez okularów ginęłabym w tych tabelach."
+    ru: "Без очков я тонула бы в этих таблицах."
+    source: { kind: authored }
+  - form: "ginęłabym"
+    pl: "Nie ginęłabym tam ani dnia dłużej."
+    ru: "Я не пропадала бы там ни дня дольше."
+    source: { kind: authored }
+  - form: "ginęłabyś"
+    pl: "Ginęłabyś bez niego w obcym mieście?"
+    ru: "Пропала бы ты без него в чужом городе?"
+    source: { kind: authored }
+  - form: "ginęłabyś"
+    pl: "Czy ginęłabyś za taką sprawę?"
+    ru: "Погибла бы ты за такое дело?"
+    source: { kind: authored }
+  - form: "ginęłabyś"
+    pl: "Bez mapy ginęłabyś w tych uliczkach."
+    ru: "Без карты ты терялась бы в этих улочках."
+    source: { kind: authored }
+  - form: "ginęłam"
+    pl: "Ginęłam z nudów na tym zebraniu."
+    ru: "Я умирала от скуки на этом собрании."
+    source: { kind: authored }
+  - form: "ginęłam"
+    pl: "Ginęłam w papierach przez cały kwiecień."
+    ru: "Я тонула в бумагах весь апрель."
+    source: { kind: authored }
+  - form: "ginęłam"
+    pl: "Nie ginęłam nigdy w takim tłumie."
+    ru: "Я никогда не терялась в такой толпе."
+    source: { kind: authored }
+  - form: "ginęłaś"
+    pl: "Ginęłaś gdzieś przez pół roku."
+    ru: "Ты куда-то пропадала полгода."
+    source: { kind: authored }
+  - form: "ginęłaś"
+    pl: "Czy ginęłaś kiedyś z głodu naprawdę?"
+    ru: "Ты когда-нибудь умирала с голоду по-настоящему?"
+    source: { kind: authored }
+  - form: "ginęłaś"
+    pl: "Nie ginęłaś, tylko nie odbierałaś telefonu."
+    ru: "Ты не пропадала, просто не брала трубку."
+    source: { kind: authored }
+  - form: "ginęło"
+    pl: "Ginęło wtedy po stu ludzi dziennie."
+    ru: "Тогда гибло по сто человек в день."
+    source: { kind: authored }
+  - form: "ginęło"
+    pl: "Wiele dokumentów ginęło w czasie przeprowadzki."
+    ru: "Много документов пропадало во время переезда."
+    source: { kind: authored }
+  - form: "ginęło"
+    pl: "Nic tam nie ginęło, wszystko było spisane."
+    ru: "Там ничего не пропадало, всё было переписано."
+    source: { kind: authored }
+  - form: "ginęłoby"
+    pl: "Ginęłoby mniej ludzi, gdyby zapinali pasy."
+    ru: "Гибло бы меньше людей, если бы пристёгивались."
+    source: { kind: authored }
+  - form: "ginęłoby"
+    pl: "Wiele listów ginęłoby bez numeracji."
+    ru: "Много писем пропадало бы без нумерации."
+    source: { kind: authored }
+  - form: "ginęłoby"
+    pl: "Nic nie ginęłoby, gdyby wszystko spisywano."
+    ru: "Ничего не пропадало бы, если бы всё переписывали."
+    source: { kind: authored }
+  - form: "ginęły"
+    pl: "Ginęły całe wsie, nie tylko domy."
+    ru: "Гибли целые деревни, не только дома."
+    source: { kind: authored }
+  - form: "ginęły"
+    pl: "Listy ginęły gdzieś po drodze."
+    ru: "Письма пропадали где-то по дороге."
+    source: { kind: authored }
+  - form: "ginęły"
+    pl: "Nie ginęły wtedy żadne przesyłki."
+    ru: "Тогда никакие отправления не пропадали."
+    source: { kind: authored }
+  - form: "ginęłyby"
+    pl: "Wsie ginęłyby szybciej bez dotacji."
+    ru: "Деревни гибли бы быстрее без дотаций."
+    source: { kind: authored }
+  - form: "ginęłyby"
+    pl: "Listy ginęłyby bez numeracji."
+    ru: "Письма пропадали бы без нумерации."
+    source: { kind: authored }
+  - form: "ginęłyby"
+    pl: "Bez wałów całe gospodarstwa ginęłyby co wiosnę."
+    ru: "Без дамб целые хозяйства гибли бы каждую весну."
+    source: { kind: authored }
+  - form: "ginęłybyście"
+    pl: "Ginęłybyście bez nas w takim mieście?"
+    ru: "Пропали бы вы без нас в таком городе?"
+    source: { kind: authored }
+  - form: "ginęłybyście"
+    pl: "Czy ginęłybyście z nudów na takim zebraniu?"
+    ru: "Умирали бы вы от скуки на таком собрании?"
+    source: { kind: authored }
+  - form: "ginęłybyście"
+    pl: "Bez przewodnika ginęłybyście w tych górach."
+    ru: "Без проводника вы терялись бы в этих горах."
+    source: { kind: authored }
+  - form: "ginęłybyśmy"
+    pl: "Ginęłybyśmy z zimna bez tego pieca."
+    ru: "Мы умирали бы от холода без этой печи."
+    source: { kind: authored }
+  - form: "ginęłybyśmy"
+    pl: "Ginęłybyśmy w papierach, gdyby nie system."
+    ru: "Мы тонули бы в бумагах, если бы не система."
+    source: { kind: authored }
+  - form: "ginęłybyśmy"
+    pl: "Bez pomocy sąsiadów ginęłybyśmy tu same."
+    ru: "Без помощи соседей мы пропадали бы тут одни."
+    source: { kind: authored }
+  - form: "ginęłyście"
+    pl: "Gdzie ginęłyście przez cały wieczór?"
+    ru: "Где вы пропадали весь вечер?"
+    source: { kind: authored }
+  - form: "ginęłyście"
+    pl: "Ginęłyście w tłumie, ledwo was znalazłyśmy."
+    ru: "Вы терялись в толпе, мы вас едва нашли."
+    source: { kind: authored }
+  - form: "ginęłyście"
+    pl: "Nie ginęłyście, po prostu nie dzwoniłyście."
+    ru: "Вы не пропадали, просто не звонили."
+    source: { kind: authored }
+  - form: "ginęłyśmy"
+    pl: "Ginęłyśmy z zimna w tej chacie."
+    ru: "Мы умирали от холода в этой избе."
+    source: { kind: authored }
+  - form: "ginęłyśmy"
+    pl: "Ginęłyśmy w szczegółach i zgubiłyśmy całość."
+    ru: "Мы тонули в деталях и потеряли целое."
+    source: { kind: authored }
+  - form: "ginęłyśmy"
+    pl: "Nie ginęłyśmy, choć bywało ciężko."
+    ru: "Мы не пропадали, хотя бывало тяжело."
+    source: { kind: authored }
+  - form: "giń"
+    pl: "Giń, potworze, zawołało dziecko w zabawie."
+    ru: "Сгинь, чудовище, крикнул ребёнок в игре."
+    source: { kind: authored }
+  - form: "giń"
+    pl: "Nie giń mi znowu na pół roku."
+    ru: "Не пропадай у меня опять на полгода."
+    source: { kind: authored }
+  - form: "giń"
+    pl: "Giń stąd, póki cię nie zauważyli."
+    ru: "Сгинь отсюда, пока тебя не заметили."
+    source: { kind: authored }
+  - form: "gińcie"
+    pl: "Nie gińcie mi w tłumie, trzymajcie się razem."
+    ru: "Не теряйтесь в толпе, держитесь вместе."
+    source: { kind: authored }
+  - form: "gińcie"
+    pl: "Gińcie stąd, zanim przyjdzie straż."
+    ru: "Сгиньте отсюда, пока не пришла охрана."
+    source: { kind: authored }
+  - form: "gińcie"
+    pl: "Nie gińcie na dwa lata bez słowa."
+    ru: "Не пропадайте на два года без слова."
+    source: { kind: authored }
+  - form: "gińmy"
+    pl: "Nie gińmy w szczegółach, wróćmy do rzeczy."
+    ru: "Не будем тонуть в деталях, вернёмся к делу."
+    source: { kind: authored }
+  - form: "gińmy"
+    pl: "Gińmy raczej stojąc niż na kolanach."
+    ru: "Будем гибнуть стоя, а не на коленях."
+    source: { kind: authored }
+  - form: "gińmy"
+    pl: "Nie gińmy z głodu, zróbmy przerwę."
+    ru: "Не будем умирать с голоду, сделаем перерыв."
+    source: { kind: authored }
