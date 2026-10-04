@@ -1,0 +1,74 @@
+# review
+id: spod
+format: 2
+lemma: "spod"
+rank: 2442
+pos: prep
+pron: { cyr: "спод" }
+senses:
+  - id: from-under
+    ru: "из-под (+ род.)"
+    examples:
+      - pl: "Kot wyszedł spod łóżka."
+        ru: "Кот вышел из-под кровати."
+        source: { kind: authored }
+      - pl: "Wyciągnął walizkę spod stołu."
+        ru: "Он вытащил чемодан из-под стола."
+        source: { kind: authored }
+  - id: from-near
+    ru: "из-под (из окрестностей города)"
+    examples:
+      - pl: "Pochodzi spod Krakowa."
+        ru: "Он родом из-под Кракова."
+        source: { kind: authored }
+      - pl: "Przywieźli warzywa spod Warszawy."
+        ru: "Овощи привезли из-под Варшавы."
+        source: { kind: authored }
+  - id: from-beneath-look
+    ru: "spode łba — исподлобья"
+    examples:
+      - pl: "Patrzył na mnie spode łba."
+        ru: "Он смотрел на меня исподлобья."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "SPOD ТРЕБУЕТ РОДИТЕЛЬНОГО, КАК И РУССКОЕ «ИЗ-ПОД»: spod łóżka, spod stołu, spod ziemi. Совпадение полное, включая переносное употребление с названиями городов: spod Krakowa — «из-под Кракова», то есть из окрестностей. Это один из тех редких предлогов, где можно смело опираться на русский." }
+  - { kind: usage, text: "У предлога есть вторая форма — SPODE, и она не свободная. Spode ставится перед mnie (spode mnie) и живёт в застывшем обороте spode łba «исподлобья». Во всех прочих случаях только spod. Так же ведут себя z/ze, w/we, przed/przede: удлинённый вариант нужен там, где иначе столкнулись бы согласные." }
+  - { kind: pronunciation, text: "Один слог: спод. Конечное d перед глухим оглушается: spod stołu звучит «спот сто́уу». Форма spode двусложная, с ударением на первом: СПО-дэ." }
+collocations:
+  - { pl: "spod ziemi", ru: "из-под земли" }
+  - { pl: "spode łba", ru: "исподлобья" }
+  - { pl: "spod Krakowa", ru: "из-под Кракова" }
+family:
+  - { pl: "pod", ru: "под", relation: root, id: pod }
+  - { pl: "znad", ru: "с (сверху), из-над", relation: root }
+  - { pl: "zza", ru: "из-за", relation: root }
+etymology: "Сложение z «из» и pod «под», ровно как русское «из-под». Оба языка собрали предлог из тех же двух частей независимо и в одном порядке. Удлинённая форма spode получила -e для разрядки стыка согласных."
+memory: "spod — «из-под», с родительным падежом, и совпадает с русским почти буквально, вплоть до spod Krakowa «из-под Кракова». Форма spode нужна только перед mnie и в обороте spode łba."
+idioms:
+  - { pl: "spode łba", ru: "исподлобья" }
+  - { pl: "wyrosnąć jak spod ziemi", ru: "появиться как из-под земли" }
+formExamples:
+  - form: "spod"
+    pl: "Kot wyszedł spod łóżka."
+    ru: "Кот вышел из-под кровати."
+    source: { kind: authored }
+  - form: "spod"
+    pl: "Pochodzi spod Krakowa."
+    ru: "Он родом из-под Кракова."
+    source: { kind: authored }
+  - form: "spod"
+    pl: "Wyciągnął walizkę spod stołu."
+    ru: "Он вытащил чемодан из-под стола."
+    source: { kind: authored }
+  - form: "spode"
+    pl: "Patrzył na mnie spode łba."
+    ru: "Он смотрел на меня исподлобья."
+    source: { kind: authored }
+  - form: "spode"
+    pl: "Zerknął spode łba i nic nie powiedział."
+    ru: "Он глянул исподлобья и ничего не сказал."
+    source: { kind: authored }
+  - form: "spode"
+    pl: "Wyjął poduszkę spode mnie."
+    ru: "Он вытащил подушку из-под меня."
+    source: { kind: authored }
