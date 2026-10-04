@@ -1,0 +1,676 @@
+# review
+id: przekroczyc
+format: 2
+lemma: "przekroczyć"
+rank: 2549
+pos: verb
+pron: { cyr: "пшэкро́чыць" }
+senses:
+  - id: cross
+    ru: "пересечь, перейти (границу, черту)"
+    examples:
+      - pl: "Przekroczyli granicę o świcie."
+        ru: "Они пересекли границу на рассвете."
+        source: { kind: authored }
+      - pl: "Nie wolno przekroczyć tej linii."
+        ru: "Нельзя переступать эту черту."
+        source: { kind: authored }
+  - id: exceed
+    ru: "превысить (скорость, лимит, срок)"
+    examples:
+      - pl: "Kierowca przekroczył prędkość o czterdzieści kilometrów."
+        ru: "Водитель превысил скорость на сорок километров."
+        source: { kind: authored }
+      - pl: "Koszty przekroczyły plan dwukrotnie."
+        ru: "Расходы превысили план вдвое."
+        source: { kind: authored }
+  - id: step-over
+    ru: "переступить (порог)"
+    examples:
+      - pl: "Bał się przekroczyć próg tego domu."
+        ru: "Он боялся переступить порог этого дома."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "ГЛАВНОЕ: PRZEKROCZYĆ COŚ — ВИНИТЕЛЬНЫЙ БЕЗ ПРЕДЛОГА. Русский почти всегда вставляет «через»: «перейти ЧЕРЕЗ границу», «переступить ЧЕРЕЗ порог». Польскому предлог не нужен вовсе: przekroczyć granicę, przekroczyć próg, przekroczyć rzekę — прямое дополнение, как у «пересечь». Вставленное przez здесь будет ошибкой." }
+  - { kind: usage, text: "Второе значение — «превысить»: przekroczyć prędkość, limit, budżet, termin. Отсюда существительное PRZEKROCZENIE PRĘDKOŚCI «превышение скорости» в протоколах. А PRZEKROCZONY PLAN значит не «сорванный», а «перевыполненный» — превышение плана поляки считают хорошей новостью." }
+  - { kind: usage, text: "Вид совершенный: PRZEKROCZĘ — это «пересеку», будущее, а не «пересекаю». Настоящего времени нет; «пересекаю» — несовершенный PRZEKRACZAĆ. Есть деепричастие PRZEKROCZYWSZY и нет форм на -ąc. Глагол переходный, поэтому страдательное причастие PRZEKROCZONY в наличии." }
+collocations:
+  - { pl: "przekroczyć granicę", ru: "пересечь границу" }
+  - { pl: "przekroczyć prędkość", ru: "превысить скорость" }
+  - { pl: "przekroczyć termin", ru: "просрочить срок" }
+family:
+  - { pl: "przekraczać", ru: "пересекать, превышать (несов.)", relation: aspect }
+  - { pl: "kroczyć", ru: "шагать, шествовать", relation: root }
+  - { pl: "krok", ru: "шаг", relation: root, id: krok }
+etymology: "Приставка prze- «пере-» и kroczyć «шагать», от праславянского *krokъ «шаг». Корень живой в польском (krok, kroczyć, wykroczenie) и в украинском «крок» «шаг», а русский его потерял, заменив словом «шаг». Так что przekroczyć — это буквально «перешагнуть», и русское «переступить» построено по той же модели, только из другого корня."
+memory: "przekroczyć granicę — винительный без всякого предлога, не «przekroczyć przez granicę». Русское «через» здесь лишнее. И помни второе значение: przekroczyć prędkość «превысить скорость», а przekroczony plan — это план перевыполненный, а не сорванный."
+idioms:
+  - { pl: "przekroczyć granicę przyzwoitości", ru: "перейти границы приличия" }
+  - { pl: "przekroczyć próg", ru: "переступить порог, войти" }
+formExamplesSkip:
+  - { form: "przekroczeni", reason: "Мужско-личная форма страдательного причастия требует одушевлённого дополнения-человека, а przekroczyć управляет только неодушевлёнными: granicę, próg, limit, prędkość. Подлежащего для этой формы в языке просто нет." }
+formExamples:
+  - form: "przekrocz"
+    pl: "Przekrocz próg i zamknij za sobą drzwi."
+    ru: "Переступи порог и закрой за собой дверь."
+    source: { kind: authored }
+  - form: "przekrocz"
+    pl: "Nie przekrocz dozwolonej prędkości."
+    ru: "Не превысь разрешённую скорость."
+    source: { kind: authored }
+  - form: "przekrocz"
+    pl: "Przekrocz tę linię dopiero na sygnał."
+    ru: "Переступи эту черту только по сигналу."
+    source: { kind: authored }
+  - form: "przekroczcie"
+    pl: "Przekroczcie granicę wcześnie rano."
+    ru: "Пересеките границу рано утром."
+    source: { kind: authored }
+  - form: "przekroczcie"
+    pl: "Nie przekroczcie wyznaczonego terminu."
+    ru: "Не просрочьте назначенный срок."
+    source: { kind: authored }
+  - form: "przekroczcie"
+    pl: "Przekroczcie próg bez pukania."
+    ru: "Переступите порог без стука."
+    source: { kind: authored }
+  - form: "przekroczenia"
+    pl: "Za przekroczenia prędkości grożą mandaty."
+    ru: "За превышение скорости грозят штрафы."
+    source: { kind: authored }
+  - form: "przekroczenia"
+    pl: "Nie uniknęli przekroczenia budżetu."
+    ru: "Они не избежали превышения бюджета."
+    source: { kind: authored }
+  - form: "przekroczenia"
+    pl: "Od przekroczenia granicy minęły dwie godziny."
+    ru: "С момента пересечения границы прошло два часа."
+    source: { kind: authored }
+  - form: "przekroczenie"
+    pl: "Przekroczenie prędkości kosztowało go prawo jazdy."
+    ru: "Превышение скорости стоило ему прав."
+    source: { kind: authored }
+  - form: "przekroczenie"
+    pl: "Przekroczenie granicy bez dokumentów jest karalne."
+    ru: "Пересечение границы без документов наказуемо."
+    source: { kind: authored }
+  - form: "przekroczenie"
+    pl: "Przekroczenie terminu oznacza karę umowną."
+    ru: "Просрочка срока означает штраф по договору."
+    source: { kind: authored }
+  - form: "przekroczeniem"
+    pl: "Przed przekroczeniem granicy przygotuj paszport."
+    ru: "Перед пересечением границы приготовь паспорт."
+    source: { kind: authored }
+  - form: "przekroczeniem"
+    pl: "Między przekroczeniem limitu a blokadą mija doba."
+    ru: "Между превышением лимита и блокировкой проходят сутки."
+    source: { kind: authored }
+  - form: "przekroczeniem"
+    pl: "Zajęli się przekroczeniem norm w zakładzie."
+    ru: "Они занялись превышением норм на заводе."
+    source: { kind: authored }
+  - form: "przekroczeniu"
+    pl: "Po przekroczeniu granicy zatrzymali się na kawę."
+    ru: "После пересечения границы они остановились на кофе."
+    source: { kind: authored }
+  - form: "przekroczeniu"
+    pl: "Przy przekroczeniu limitu system blokuje kartę."
+    ru: "При превышении лимита система блокирует карту."
+    source: { kind: authored }
+  - form: "przekroczeniu"
+    pl: "Dzięki przekroczeniu planu dostali premię."
+    ru: "Благодаря перевыполнению плана они получили премию."
+    source: { kind: authored }
+  - form: "przekroczmy"
+    pl: "Przekroczmy rzekę w najwęższym miejscu."
+    ru: "Перейдём реку в самом узком месте."
+    source: { kind: authored }
+  - form: "przekroczmy"
+    pl: "Nie przekroczmy budżetu w tym miesiącu."
+    ru: "Не превысим бюджет в этом месяце."
+    source: { kind: authored }
+  - form: "przekroczmy"
+    pl: "Przekroczmy wreszcie ten próg."
+    ru: "Переступим наконец этот порог."
+    source: { kind: authored }
+  - form: "przekroczona"
+    pl: "Granica została przekroczona o północy."
+    ru: "Граница была пересечена в полночь."
+    source: { kind: authored }
+  - form: "przekroczona"
+    pl: "Norma hałasu jest tu stale przekroczona."
+    ru: "Норма шума здесь постоянно превышена."
+    source: { kind: authored }
+  - form: "przekroczona"
+    pl: "Kwota przekroczona o tysiąc złotych wymaga wyjaśnienia."
+    ru: "Сумма, превышенная на тысячу злотых, требует объяснения."
+    source: { kind: authored }
+  - form: "przekroczone"
+    pl: "Limity zostały przekroczone we wszystkich działach."
+    ru: "Лимиты были превышены во всех отделах."
+    source: { kind: authored }
+  - form: "przekroczone"
+    pl: "Terminy przekroczone bez wyjaśnienia grożą karą."
+    ru: "Просроченные без объяснения сроки грозят штрафом."
+    source: { kind: authored }
+  - form: "przekroczone"
+    pl: "Normy przekroczone są tylko latem."
+    ru: "Нормы превышены только летом."
+    source: { kind: authored }
+  - form: "przekroczonego"
+    pl: "Nie da się ukryć przekroczonego terminu."
+    ru: "Просроченный срок не скроешь."
+    source: { kind: authored }
+  - form: "przekroczonego"
+    pl: "Z powodu przekroczonego limitu karta nie działa."
+    ru: "Из-за превышенного лимита карта не работает."
+    source: { kind: authored }
+  - form: "przekroczonego"
+    pl: "Dotyczy to budżetu przekroczonego w zeszłym roku."
+    ru: "Это касается бюджета, превышенного в прошлом году."
+    source: { kind: authored }
+  - form: "przekroczonej"
+    pl: "Mówiono o przekroczonej normie hałasu."
+    ru: "Говорили о превышенной норме шума."
+    source: { kind: authored }
+  - form: "przekroczonej"
+    pl: "Z powodu przekroczonej kwoty wstrzymano wypłatę."
+    ru: "Из-за превышенной суммы выплату приостановили."
+    source: { kind: authored }
+  - form: "przekroczonej"
+    pl: "Dotyczy to granicy przekroczonej bez kontroli."
+    ru: "Это касается границы, пересечённой без контроля."
+    source: { kind: authored }
+  - form: "przekroczonemu"
+    pl: "Przekroczonemu limitowi nikt się nie dziwił."
+    ru: "Превышенному лимиту никто не удивлялся."
+    source: { kind: authored }
+  - form: "przekroczonemu"
+    pl: "Dzięki przekroczonemu planowi dostali premię."
+    ru: "Благодаря перевыполненному плану они получили премию."
+    source: { kind: authored }
+  - form: "przekroczonemu"
+    pl: "Przyjrzyj się temu terminowi przekroczonemu o miesiąc."
+    ru: "Присмотрись к этому сроку, просроченному на месяц."
+    source: { kind: authored }
+  - form: "przekroczono"
+    pl: "Granicę przekroczono o świcie."
+    ru: "Границу пересекли на рассвете."
+    source: { kind: authored }
+  - form: "przekroczono"
+    pl: "Budżet przekroczono już w pierwszym kwartale."
+    ru: "Бюджет превысили уже в первом квартале."
+    source: { kind: authored }
+  - form: "przekroczono"
+    pl: "Normę hałasu przekroczono trzykrotnie."
+    ru: "Норму шума превысили трижды."
+    source: { kind: authored }
+  - form: "przekroczony"
+    pl: "Limit został przekroczony już w marcu."
+    ru: "Лимит был превышен уже в марте."
+    source: { kind: authored }
+  - form: "przekroczony"
+    pl: "Termin jest przekroczony o dwa tygodnie."
+    ru: "Срок просрочен на две недели."
+    source: { kind: authored }
+  - form: "przekroczony"
+    pl: "Budżet przekroczony o jedną piątą wymaga zgody rady."
+    ru: "Бюджет, превышенный на одну пятую, требует согласия совета."
+    source: { kind: authored }
+  - form: "przekroczonych"
+    pl: "Lista przekroczonych terminów jest długa."
+    ru: "Список просроченных сроков длинный."
+    source: { kind: authored }
+  - form: "przekroczonych"
+    pl: "Nie policzono wszystkich przekroczonych limitów."
+    ru: "Не сосчитали всех превышенных лимитов."
+    source: { kind: authored }
+  - form: "przekroczonych"
+    pl: "Dotyczy to norm przekroczonych w zeszłym roku."
+    ru: "Это касается норм, превышенных в прошлом году."
+    source: { kind: authored }
+  - form: "przekroczonym"
+    pl: "W przekroczonym budżecie brakowało miliona."
+    ru: "В превышенном бюджете не хватало миллиона."
+    source: { kind: authored }
+  - form: "przekroczonym"
+    pl: "Mówili o limicie przekroczonym w marcu."
+    ru: "Они говорили о лимите, превышенном в марте."
+    source: { kind: authored }
+  - form: "przekroczonym"
+    pl: "Zajęli się planem przekroczonym o dziesięć procent."
+    ru: "Они занялись планом, перевыполненным на десять процентов."
+    source: { kind: authored }
+  - form: "przekroczonymi"
+    pl: "Zajmują się przekroczonymi terminami."
+    ru: "Они занимаются просроченными сроками."
+    source: { kind: authored }
+  - form: "przekroczonymi"
+    pl: "Między limitami przekroczonymi a dotrzymanymi jest przepaść."
+    ru: "Между превышенными и соблюдёнными лимитами пропасть."
+    source: { kind: authored }
+  - form: "przekroczonymi"
+    pl: "Problem z przekroczonymi normami wrócił latem."
+    ru: "Проблема с превышенными нормами вернулась летом."
+    source: { kind: authored }
+  - form: "przekroczoną"
+    pl: "Zauważyli przekroczoną normę dopiero po tygodniu."
+    ru: "Превышенную норму заметили только через неделю."
+    source: { kind: authored }
+  - form: "przekroczoną"
+    pl: "Uznali kwotę przekroczoną o tysiąc za błąd."
+    ru: "Сумму, превышенную на тысячу, сочли ошибкой."
+    source: { kind: authored }
+  - form: "przekroczoną"
+    pl: "Zgłosili przekroczoną prędkość policji."
+    ru: "Они сообщили о превышенной скорости полиции."
+    source: { kind: authored }
+  - form: "przekroczy"
+    pl: "Pociąg przekroczy granicę o trzeciej."
+    ru: "Поезд пересечёт границу в три."
+    source: { kind: authored }
+  - form: "przekroczy"
+    pl: "Koszt przekroczy milion złotych."
+    ru: "Стоимость превысит миллион злотых."
+    source: { kind: authored }
+  - form: "przekroczy"
+    pl: "Nikt nie przekroczy tej bramy bez przepustki."
+    ru: "Никто не пройдёт через эти ворота без пропуска."
+    source: { kind: authored }
+  - form: "przekroczycie"
+    pl: "Przekroczycie granicę w Terespolu."
+    ru: "Вы пересечёте границу в Тересполе."
+    source: { kind: authored }
+  - form: "przekroczycie"
+    pl: "Jeśli przekroczycie limit, zapłacicie więcej."
+    ru: "Если превысите лимит, заплатите больше."
+    source: { kind: authored }
+  - form: "przekroczycie"
+    pl: "Kiedy przekroczycie próg, przywitają was gospodarze."
+    ru: "Когда переступите порог, вас встретят хозяева."
+    source: { kind: authored }
+  - form: "przekroczyli"
+    pl: "Przekroczyli granicę nocą."
+    ru: "Они пересекли границу ночью."
+    source: { kind: authored }
+  - form: "przekroczyli"
+    pl: "Budowniczowie przekroczyli termin o miesiąc."
+    ru: "Строители просрочили срок на месяц."
+    source: { kind: authored }
+  - form: "przekroczyli"
+    pl: "Goście przekroczyli próg dokładnie o siódmej."
+    ru: "Гости переступили порог ровно в семь."
+    source: { kind: authored }
+  - form: "przekroczyliby"
+    pl: "Przekroczyliby granicę, gdyby otworzono przejście."
+    ru: "Они пересекли бы границу, если бы открыли переход."
+    source: { kind: authored }
+  - form: "przekroczyliby"
+    pl: "Budowniczowie przekroczyliby termin bez dodatkowej ekipy."
+    ru: "Строители просрочили бы срок без дополнительной бригады."
+    source: { kind: authored }
+  - form: "przekroczyliby"
+    pl: "Bez przewodnika nie przekroczyliby rzeki."
+    ru: "Без проводника они не перешли бы реку."
+    source: { kind: authored }
+  - form: "przekroczylibyście"
+    pl: "Przekroczylibyście granicę razem z nami?"
+    ru: "Вы пересекли бы границу вместе с нами?"
+    source: { kind: authored }
+  - form: "przekroczylibyście"
+    pl: "Na naszym miejscu przekroczylibyście ten limit."
+    ru: "На нашем месте вы превысили бы этот лимит."
+    source: { kind: authored }
+  - form: "przekroczylibyście"
+    pl: "Bez map nie przekroczylibyście gór."
+    ru: "Без карт вы не перешли бы горы."
+    source: { kind: authored }
+  - form: "przekroczylibyśmy"
+    pl: "Przekroczylibyśmy granicę nocą."
+    ru: "Мы пересекли бы границу ночью."
+    source: { kind: authored }
+  - form: "przekroczylibyśmy"
+    pl: "Bez oszczędności przekroczylibyśmy budżet."
+    ru: "Без экономии мы превысили бы бюджет."
+    source: { kind: authored }
+  - form: "przekroczylibyśmy"
+    pl: "Rzeki nie przekroczylibyśmy bez łodzi."
+    ru: "Реку мы не перешли бы без лодки."
+    source: { kind: authored }
+  - form: "przekroczyliście"
+    pl: "Przekroczyliście granicę legalnie?"
+    ru: "Вы пересекли границу легально?"
+    source: { kind: authored }
+  - form: "przekroczyliście"
+    pl: "Przekroczyliście limit bagażu."
+    ru: "Вы превысили лимит багажа."
+    source: { kind: authored }
+  - form: "przekroczyliście"
+    pl: "Gdzie przekroczyliście rzekę?"
+    ru: "Где вы перешли реку?"
+    source: { kind: authored }
+  - form: "przekroczyliśmy"
+    pl: "Przekroczyliśmy granicę o świcie."
+    ru: "Мы пересекли границу на рассвете."
+    source: { kind: authored }
+  - form: "przekroczyliśmy"
+    pl: "Przekroczyliśmy termin oddania pracy."
+    ru: "Мы просрочили срок сдачи работы."
+    source: { kind: authored }
+  - form: "przekroczyliśmy"
+    pl: "Razem przekroczyliśmy próg nowego domu."
+    ru: "Вместе мы переступили порог нового дома."
+    source: { kind: authored }
+  - form: "przekroczymy"
+    pl: "Przekroczymy granicę nad ranem."
+    ru: "Мы пересечём границу под утро."
+    source: { kind: authored }
+  - form: "przekroczymy"
+    pl: "Jeśli nie zwolnimy, przekroczymy termin."
+    ru: "Если не поспешим, мы просрочим срок."
+    source: { kind: authored }
+  - form: "przekroczymy"
+    pl: "Obiecuję, że nie przekroczymy budżetu."
+    ru: "Обещаю, что мы не превысим бюджет."
+    source: { kind: authored }
+  - form: "przekroczysz"
+    pl: "Jeśli przekroczysz prędkość, dostaniesz mandat."
+    ru: "Если превысишь скорость, получишь штраф."
+    source: { kind: authored }
+  - form: "przekroczysz"
+    pl: "Przekroczysz granicę bez kolejki o świcie."
+    ru: "Ты пересечёшь границу без очереди на рассвете."
+    source: { kind: authored }
+  - form: "przekroczysz"
+    pl: "Kiedy przekroczysz próg, zdejmij buty."
+    ru: "Когда переступишь порог, сними обувь."
+    source: { kind: authored }
+  - form: "przekroczywszy"
+    pl: "Przekroczywszy granicę, odetchnęli z ulgą."
+    ru: "Пересёкши границу, они вздохнули с облегчением."
+    source: { kind: authored }
+  - form: "przekroczywszy"
+    pl: "Przekroczywszy próg, zdjął kapelusz."
+    ru: "Переступив порог, он снял шляпу."
+    source: { kind: authored }
+  - form: "przekroczywszy"
+    pl: "Przekroczywszy limit, musiał dopłacić."
+    ru: "Превысив лимит, он должен был доплатить."
+    source: { kind: authored }
+  - form: "przekroczyć"
+    pl: "Musimy przekroczyć granicę przed północą."
+    ru: "Нам надо пересечь границу до полуночи."
+    source: { kind: authored }
+  - form: "przekroczyć"
+    pl: "Trudno przekroczyć próg po tylu latach."
+    ru: "Трудно переступить порог спустя столько лет."
+    source: { kind: authored }
+  - form: "przekroczyć"
+    pl: "Łatwo przekroczyć dozwoloną prędkość na tej drodze."
+    ru: "Легко превысить разрешённую скорость на этой дороге."
+    source: { kind: authored }
+  - form: "przekroczył"
+    pl: "Przekroczył granicę z fałszywym paszportem."
+    ru: "Он пересёк границу с фальшивым паспортом."
+    source: { kind: authored }
+  - form: "przekroczył"
+    pl: "Kierowca przekroczył prędkość o czterdzieści kilometrów."
+    ru: "Водитель превысил скорость на сорок километров."
+    source: { kind: authored }
+  - form: "przekroczył"
+    pl: "Nigdy nie przekroczył progu tego domu."
+    ru: "Он никогда не переступал порог этого дома."
+    source: { kind: authored }
+  - form: "przekroczyła"
+    pl: "Przekroczyła granicę pieszo."
+    ru: "Она пересекла границу пешком."
+    source: { kind: authored }
+  - form: "przekroczyła"
+    pl: "Suma przekroczyła nasze oczekiwania."
+    ru: "Сумма превысила наши ожидания."
+    source: { kind: authored }
+  - form: "przekroczyła"
+    pl: "Przekroczyła próg i od razu poczuła zapach chleba."
+    ru: "Она переступила порог и сразу почувствовала запах хлеба."
+    source: { kind: authored }
+  - form: "przekroczyłaby"
+    pl: "Przekroczyłaby granicę, gdyby jej pozwolono."
+    ru: "Она пересекла бы границу, если бы ей позволили."
+    source: { kind: authored }
+  - form: "przekroczyłaby"
+    pl: "Suma przekroczyłaby nasze możliwości."
+    ru: "Сумма превысила бы наши возможности."
+    source: { kind: authored }
+  - form: "przekroczyłaby"
+    pl: "Bez zaproszenia nie przekroczyłaby progu."
+    ru: "Без приглашения она не переступила бы порог."
+    source: { kind: authored }
+  - form: "przekroczyłabym"
+    pl: "Przekroczyłabym granicę, gdyby było trzeba."
+    ru: "Я пересекла бы границу, если бы было нужно."
+    source: { kind: authored }
+  - form: "przekroczyłabym"
+    pl: "Nigdy nie przekroczyłabym tej granicy."
+    ru: "Я никогда не переступила бы эту границу."
+    source: { kind: authored }
+  - form: "przekroczyłabym"
+    pl: "Sama nie przekroczyłabym progu tego domu."
+    ru: "Одна я не переступила бы порог этого дома."
+    source: { kind: authored }
+  - form: "przekroczyłabyś"
+    pl: "Przekroczyłabyś limit dla takiej okazji?"
+    ru: "Ты превысила бы лимит ради такого случая?"
+    source: { kind: authored }
+  - form: "przekroczyłabyś"
+    pl: "Na moim miejscu przekroczyłabyś granicę?"
+    ru: "На моём месте ты пересекла бы границу?"
+    source: { kind: authored }
+  - form: "przekroczyłabyś"
+    pl: "Chyba nie przekroczyłabyś tego progu."
+    ru: "Пожалуй, ты не переступила бы этот порог."
+    source: { kind: authored }
+  - form: "przekroczyłam"
+    pl: "Przekroczyłam budżet o kilkaset złotych."
+    ru: "Я превысила бюджет на несколько сотен злотых."
+    source: { kind: authored }
+  - form: "przekroczyłam"
+    pl: "Przekroczyłam granicę rano."
+    ru: "Я пересекла границу утром."
+    source: { kind: authored }
+  - form: "przekroczyłam"
+    pl: "Ledwo przekroczyłam próg, zadzwonił telefon."
+    ru: "Едва я переступила порог, зазвонил телефон."
+    source: { kind: authored }
+  - form: "przekroczyłaś"
+    pl: "Przekroczyłaś dozwolony limit."
+    ru: "Ты превысила разрешённый лимит."
+    source: { kind: authored }
+  - form: "przekroczyłaś"
+    pl: "Kiedy przekroczyłaś granicę?"
+    ru: "Когда ты пересекла границу?"
+    source: { kind: authored }
+  - form: "przekroczyłaś"
+    pl: "Przekroczyłaś próg i wszyscy zamilkli."
+    ru: "Ты переступила порог, и все замолчали."
+    source: { kind: authored }
+  - form: "przekroczyłby"
+    pl: "Przekroczyłby granicę, gdyby miał wizę."
+    ru: "Он пересёк бы границу, будь у него виза."
+    source: { kind: authored }
+  - form: "przekroczyłby"
+    pl: "Koszt przekroczyłby milion."
+    ru: "Стоимость превысила бы миллион."
+    source: { kind: authored }
+  - form: "przekroczyłby"
+    pl: "Bez przepustki nie przekroczyłby bramy."
+    ru: "Без пропуска он не прошёл бы через ворота."
+    source: { kind: authored }
+  - form: "przekroczyłbym"
+    pl: "Przekroczyłbym granicę, gdybym miał dokumenty."
+    ru: "Я пересёк бы границу, если бы у меня были документы."
+    source: { kind: authored }
+  - form: "przekroczyłbym"
+    pl: "Na twoim miejscu nie przekroczyłbym tej linii."
+    ru: "На твоём месте я не переступил бы эту черту."
+    source: { kind: authored }
+  - form: "przekroczyłbym"
+    pl: "Bez pozwolenia nie przekroczyłbym progu."
+    ru: "Без разрешения я не переступил бы порог."
+    source: { kind: authored }
+  - form: "przekroczyłbyś"
+    pl: "Przekroczyłbyś granicę nielegalnie?"
+    ru: "Ты пересёк бы границу нелегально?"
+    source: { kind: authored }
+  - form: "przekroczyłbyś"
+    pl: "Na moim miejscu przekroczyłbyś ten limit?"
+    ru: "На моём месте ты превысил бы этот лимит?"
+    source: { kind: authored }
+  - form: "przekroczyłbyś"
+    pl: "Chyba nie przekroczyłbyś tej prędkości w mieście."
+    ru: "Пожалуй, ты не превысил бы такую скорость в городе."
+    source: { kind: authored }
+  - form: "przekroczyłem"
+    pl: "Przekroczyłem granicę po raz pierwszy w życiu."
+    ru: "Я пересёк границу впервые в жизни."
+    source: { kind: authored }
+  - form: "przekroczyłem"
+    pl: "Niestety przekroczyłem limit na karcie."
+    ru: "К сожалению, я превысил лимит на карте."
+    source: { kind: authored }
+  - form: "przekroczyłem"
+    pl: "Przekroczyłem próg i zatrzymałem się."
+    ru: "Я переступил порог и остановился."
+    source: { kind: authored }
+  - form: "przekroczyłeś"
+    pl: "Przekroczyłeś prędkość w terenie zabudowanym."
+    ru: "Ты превысил скорость в населённом пункте."
+    source: { kind: authored }
+  - form: "przekroczyłeś"
+    pl: "Gdzie przekroczyłeś granicę?"
+    ru: "Где ты пересёк границу?"
+    source: { kind: authored }
+  - form: "przekroczyłeś"
+    pl: "Przekroczyłeś granicę przyzwoitości."
+    ru: "Ты перешёл границы приличия."
+    source: { kind: authored }
+  - form: "przekroczyło"
+    pl: "Zużycie prądu przekroczyło normę."
+    ru: "Расход электричества превысил норму."
+    source: { kind: authored }
+  - form: "przekroczyło"
+    pl: "Dziecko przekroczyło próg po raz pierwszy."
+    ru: "Ребёнок переступил порог впервые."
+    source: { kind: authored }
+  - form: "przekroczyło"
+    pl: "Opóźnienie przekroczyło dwie godziny."
+    ru: "Опоздание превысило два часа."
+    source: { kind: authored }
+  - form: "przekroczyłoby"
+    pl: "To przekroczyłoby wszelkie granice."
+    ru: "Это перешло бы всякие границы."
+    source: { kind: authored }
+  - form: "przekroczyłoby"
+    pl: "Opóźnienie przekroczyłoby trzy godziny."
+    ru: "Опоздание превысило бы три часа."
+    source: { kind: authored }
+  - form: "przekroczyłoby"
+    pl: "Zużycie przekroczyłoby normę dwukrotnie."
+    ru: "Расход превысил бы норму вдвое."
+    source: { kind: authored }
+  - form: "przekroczyły"
+    pl: "Ceny przekroczyły wszelkie granice."
+    ru: "Цены перешли всякие границы."
+    source: { kind: authored }
+  - form: "przekroczyły"
+    pl: "Dziewczynki przekroczyły strumień po kamieniach."
+    ru: "Девочки перешли ручей по камням."
+    source: { kind: authored }
+  - form: "przekroczyły"
+    pl: "Koszty przekroczyły plan dwukrotnie."
+    ru: "Расходы превысили план вдвое."
+    source: { kind: authored }
+  - form: "przekroczyłyby"
+    pl: "Ceny przekroczyłyby granice rozsądku."
+    ru: "Цены перешли бы границы разумного."
+    source: { kind: authored }
+  - form: "przekroczyłyby"
+    pl: "Koszty przekroczyłyby plan."
+    ru: "Расходы превысили бы план."
+    source: { kind: authored }
+  - form: "przekroczyłyby"
+    pl: "Dziewczynki nie przekroczyłyby strumienia same."
+    ru: "Девочки не перешли бы ручей сами."
+    source: { kind: authored }
+  - form: "przekroczyłybyście"
+    pl: "Przekroczyłybyście granicę same?"
+    ru: "Вы пересекли бы границу одни?"
+    source: { kind: authored }
+  - form: "przekroczyłybyście"
+    pl: "Na naszym miejscu przekroczyłybyście termin."
+    ru: "На нашем месте вы просрочили бы срок."
+    source: { kind: authored }
+  - form: "przekroczyłybyście"
+    pl: "Bez pozwolenia nie przekroczyłybyście bramy."
+    ru: "Без разрешения вы не прошли бы через ворота."
+    source: { kind: authored }
+  - form: "przekroczyłybyśmy"
+    pl: "Przekroczyłybyśmy granicę pieszo."
+    ru: "Мы пересекли бы границу пешком."
+    source: { kind: authored }
+  - form: "przekroczyłybyśmy"
+    pl: "Bez rachunków przekroczyłybyśmy budżet."
+    ru: "Без счетов мы превысили бы бюджет."
+    source: { kind: authored }
+  - form: "przekroczyłybyśmy"
+    pl: "Progu tego domu nie przekroczyłybyśmy bez zaproszenia."
+    ru: "Порог этого дома мы не переступили бы без приглашения."
+    source: { kind: authored }
+  - form: "przekroczyłyście"
+    pl: "Przekroczyłyście granicę bez kontroli?"
+    ru: "Вы пересекли границу без контроля?"
+    source: { kind: authored }
+  - form: "przekroczyłyście"
+    pl: "Przekroczyłyście dozwolony limit czasu."
+    ru: "Вы превысили разрешённый лимит времени."
+    source: { kind: authored }
+  - form: "przekroczyłyście"
+    pl: "Kiedy przekroczyłyście próg szkoły?"
+    ru: "Когда вы переступили порог школы?"
+    source: { kind: authored }
+  - form: "przekroczyłyśmy"
+    pl: "Przekroczyłyśmy granicę razem."
+    ru: "Мы пересекли границу вместе."
+    source: { kind: authored }
+  - form: "przekroczyłyśmy"
+    pl: "Przekroczyłyśmy budżet na remont."
+    ru: "Мы превысили бюджет на ремонт."
+    source: { kind: authored }
+  - form: "przekroczyłyśmy"
+    pl: "Ledwie przekroczyłyśmy próg, zrobiło się cicho."
+    ru: "Едва мы переступили порог, стало тихо."
+    source: { kind: authored }
+  - form: "przekroczą"
+    pl: "Wojska nie przekroczą tej rzeki."
+    ru: "Войска не пересекут эту реку."
+    source: { kind: authored }
+  - form: "przekroczą"
+    pl: "Wydatki przekroczą plan o dziesięć procent."
+    ru: "Расходы превысят план на десять процентов."
+    source: { kind: authored }
+  - form: "przekroczą"
+    pl: "Turyści przekroczą granicę rano."
+    ru: "Туристы пересекут границу утром."
+    source: { kind: authored }
+  - form: "przekroczę"
+    pl: "Jutro przekroczę granicę pieszo."
+    ru: "Завтра я пересеку границу пешком."
+    source: { kind: authored }
+  - form: "przekroczę"
+    pl: "Obawiam się, że przekroczę budżet."
+    ru: "Боюсь, что я превышу бюджет."
+    source: { kind: authored }
+  - form: "przekroczę"
+    pl: "Nigdy nie przekroczę tej linii."
+    ru: "Я никогда не переступлю эту черту."
+    source: { kind: authored }
