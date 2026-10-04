@@ -1,0 +1,798 @@
+# review
+id: budowac
+format: 2
+lemma: "budować"
+rank: 2206
+pos: verb
+pron: { cyr: "будо́ваць" }
+senses:
+  - id: build
+    ru: "строить"
+    examples:
+      - pl: "Budują tu nowy most."
+        ru: "Здесь строят новый мост."
+        source: { kind: authored }
+      - pl: "Dom budowali przez sześć lat."
+        ru: "Дом они строили шесть лет."
+        source: { kind: authored }
+  - id: build-abstract
+    ru: "строить (перен.: доверие, отношения)"
+    examples:
+      - pl: "Zaufanie buduje się latami."
+        ru: "Доверие строится годами."
+        source: { kind: authored }
+      - pl: "Budowali relacje z klientami od zera."
+        ru: "Они строили отношения с клиентами с нуля."
+        source: { kind: authored }
+  - id: uplifting
+    ru: "budujący — ободряющий, воодушевляющий"
+    examples:
+      - pl: "To budująca historia."
+        ru: "Это воодушевляющая история."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Русского глагола с этим корнем нет: «строить» — слово совсем другое. Зато корень знаком по существительному. Budować идёт от buda «будка, шалаш», а это то же немецкое заимствование, что русская «БУДКА». Выходит, buda и «будка» — одно слово, а глагол от него построили только поляки и украинцы: budować, «будувати»." }
+  - { kind: usage, text: "Настоящее время по правилу -ować: buduję, budujesz, buduje — тот же ряд, что pracuję и zaakceptuję. Вид несовершенный, пара — zbudować. Причастие budujący живёт и в переносном значении «ободряющий, воодушевляющий»: budująca historia, budujący widok." }
+  - { kind: government, text: "Строят ЧТО — винительный падеж: budować dom, most, zaufanie. ИЗ ЧЕГО — z с родительным: budować z cegły, z kamienia, z drewna. НА ЧЁМ — na с предложным: budować na piasku, na skale. Все три модели совпадают с русскими, так что фразу можно строить по родному образцу." }
+  - { kind: pronunciation, text: "Три слога в инфинитиве, ударение на предпоследнем: bu-DO-wać, «будо́ваць». В настоящем времени оно остаётся на том же слоге основы: buduję — «буду́йэ»." }
+collocations:
+  - { pl: "budować dom", ru: "строить дом" }
+  - { pl: "budować od podstaw", ru: "строить с нуля" }
+  - { pl: "budować zaufanie", ru: "строить доверие" }
+family:
+  - { pl: "zbudować", ru: "построить", relation: aspect, id: zbudowac }
+  - { pl: "budowa", ru: "стройка, строительство", relation: derived }
+  - { pl: "budynek", ru: "здание", relation: derived, id: budynek }
+  - { pl: "buda", ru: "будка, шалаш", relation: root }
+etymology: "От buda «будка, шалаш», из средневерхненемецкого buode — того же источника, что русская «будка». Глагол от этого корня построили только западные соседи: польское budować, украинское «будувати». Русский взял существительное, но обошёлся своим «строить». Отсюда budowa «стройка», budynek «здание», budowla и budowniczy."
+memory: "budować — «строить», и глагола-двойника в русском нет. Зато есть существительное: buda это та самая «будка», одно и то же немецкое слово. Спряжение по правилу -ować: buduję. И запомните идиому: zamki na lodzie, замки на льду, там, где русский строит воздушные."
+idioms:
+  - { pl: "budować od podstaw", ru: "строить с нуля" }
+  - { pl: "budować zamki na lodzie", ru: "строить воздушные замки" }
+formExamplesSkip:
+  - { form: "budowani", reason: "Мужско-личная форма множественного числа страдательного причастия. Budować значит «строить», и объектом бывает дом, дорога, доверие — но не человек. Лица в эту роль не попадают, поэтому у формы budowani нет употребления, хотя генератор её и строит." }
+formExamples:
+  - form: "budowali"
+    pl: "Budowali most przez całe lato."
+    ru: "Они строили мост всё лето."
+    source: { kind: authored }
+  - form: "budowali"
+    pl: "Budowali to miasto po wojnie od gruzów."
+    ru: "Они строили этот город после войны из руин."
+    source: { kind: authored }
+  - form: "budowali"
+    pl: "Nie budowali nigdy niczego na kredyt."
+    ru: "Они никогда ничего не строили в кредит."
+    source: { kind: authored }
+  - form: "budowaliby"
+    pl: "Budowaliby szybciej, gdyby nie deszcze."
+    ru: "Они строили бы быстрее, если бы не дожди."
+    source: { kind: authored }
+  - form: "budowaliby"
+    pl: "Bez dotacji nie budowaliby tej drogi."
+    ru: "Без дотации они не строили бы эту дорогу."
+    source: { kind: authored }
+  - form: "budowaliby"
+    pl: "Budowaliby z kamienia, ale jest za drogi."
+    ru: "Они строили бы из камня, но он слишком дорог."
+    source: { kind: authored }
+  - form: "budowalibyście"
+    pl: "Budowalibyście tu czy dalej od drogi?"
+    ru: "Вы строили бы здесь или дальше от дороги?"
+    source: { kind: authored }
+  - form: "budowalibyście"
+    pl: "Czy budowalibyście bez projektu?"
+    ru: "Строили бы вы без проекта?"
+    source: { kind: authored }
+  - form: "budowalibyście"
+    pl: "Bez ekipy nie budowalibyście tak szybko."
+    ru: "Без бригады вы не строили бы так быстро."
+    source: { kind: authored }
+  - form: "budowalibyśmy"
+    pl: "Budowalibyśmy inaczej, gdybyśmy wiedzieli o wodzie."
+    ru: "Мы строили бы иначе, если бы знали о воде."
+    source: { kind: authored }
+  - form: "budowalibyśmy"
+    pl: "Bez kredytu nie budowalibyśmy wcale."
+    ru: "Без кредита мы вовсе не строили бы."
+    source: { kind: authored }
+  - form: "budowalibyśmy"
+    pl: "Budowalibyśmy latem, nie jesienią."
+    ru: "Мы строили бы летом, а не осенью."
+    source: { kind: authored }
+  - form: "budowaliście"
+    pl: "Jak długo budowaliście ten garaż?"
+    ru: "Как долго вы строили этот гараж?"
+    source: { kind: authored }
+  - form: "budowaliście"
+    pl: "Budowaliście sami czy z ekipą?"
+    ru: "Вы строили сами или с бригадой?"
+    source: { kind: authored }
+  - form: "budowaliście"
+    pl: "Nie budowaliście tego zgodnie z projektem."
+    ru: "Вы строили это не по проекту."
+    source: { kind: authored }
+  - form: "budowaliśmy"
+    pl: "Budowaliśmy ten dom przez sześć lat."
+    ru: "Мы строили этот дом шесть лет."
+    source: { kind: authored }
+  - form: "budowaliśmy"
+    pl: "Budowaliśmy firmę od dwóch osób."
+    ru: "Мы строили фирму с двух человек."
+    source: { kind: authored }
+  - form: "budowaliśmy"
+    pl: "Nie budowaliśmy nigdy na obcej ziemi."
+    ru: "Мы никогда не строили на чужой земле."
+    source: { kind: authored }
+  - form: "budowana"
+    pl: "Budowana przez gminę szkoła stanęła w pół roku."
+    ru: "Строившаяся гминой школа встала за полгода."
+    source: { kind: authored }
+  - form: "budowana"
+    pl: "Droga budowana od wiosny wciąż nie ma asfaltu."
+    ru: "Дорога, строящаяся с весны, всё ещё без асфальта."
+    source: { kind: authored }
+  - form: "budowana"
+    pl: "Budowana latami reputacja zniknęła w tydzień."
+    ru: "Строившаяся годами репутация исчезла за неделю."
+    source: { kind: authored }
+  - form: "budowane"
+    pl: "Budowane po wojnie domy mają grube mury."
+    ru: "Построенные после войны дома имеют толстые стены."
+    source: { kind: authored }
+  - form: "budowane"
+    pl: "Budowane naprędce osiedla szybko się sypią."
+    ru: "Построенные наспех посёлки быстро рассыпаются."
+    source: { kind: authored }
+  - form: "budowane"
+    pl: "Budowane z betonu bloki stoją już pięćdziesiąt lat."
+    ru: "Построенные из бетона дома стоят уже пятьдесят лет."
+    source: { kind: authored }
+  - form: "budowanego"
+    pl: "Od budowanego mostu zależy cała objazdowa."
+    ru: "От строящегося моста зависит вся объездная."
+    source: { kind: authored }
+  - form: "budowanego"
+    pl: "Nie znalazłem w dokumentach budowanego obiektu."
+    ru: "Я не нашёл в документах строящегося объекта."
+    source: { kind: authored }
+  - form: "budowanego"
+    pl: "Z budowanego osiedla widać całą dolinę."
+    ru: "Из строящегося посёлка видна вся долина."
+    source: { kind: authored }
+  - form: "budowanej"
+    pl: "Od budowanej drogi zależy dojazd do wsi."
+    ru: "От строящейся дороги зависит подъезд к деревне."
+    source: { kind: authored }
+  - form: "budowanej"
+    pl: "Z budowanej hali zostały na razie fundamenty."
+    ru: "От строящегося ангара пока остались фундаменты."
+    source: { kind: authored }
+  - form: "budowanej"
+    pl: "Nie znam szkoły budowanej tak długo."
+    ru: "Я не знаю школы, строящейся так долго."
+    source: { kind: authored }
+  - form: "budowanemu"
+    pl: "Budowanemu od lat mostowi nikt już nie wierzy."
+    ru: "Строящемуся годами мосту уже никто не верит."
+    source: { kind: authored }
+  - form: "budowanemu"
+    pl: "Dzięki budowanemu wiaduktowi ruch zmaleje."
+    ru: "Благодаря строящемуся виадуку движение уменьшится."
+    source: { kind: authored }
+  - form: "budowanemu"
+    pl: "Przyjrzyj się temu budowanemu osiedlu."
+    ru: "Присмотрись к этому строящемуся посёлку."
+    source: { kind: authored }
+  - form: "budowania"
+    pl: "Zasady budowania na skarpie są surowe."
+    ru: "Правила строительства на склоне строгие."
+    source: { kind: authored }
+  - form: "budowania"
+    pl: "Bez budowania relacji nie ma sprzedaży."
+    ru: "Без построения отношений нет продаж."
+    source: { kind: authored }
+  - form: "budowania"
+    pl: "Od budowania fundamentów zaczyna się wszystko."
+    ru: "Со строительства фундамента начинается всё."
+    source: { kind: authored }
+  - form: "budowanie"
+    pl: "Budowanie domu to nie jest sprint."
+    ru: "Строительство дома — не спринт."
+    source: { kind: authored }
+  - form: "budowanie"
+    pl: "Budowanie zaufania trwa latami."
+    ru: "Строить доверие — дело лет."
+    source: { kind: authored }
+  - form: "budowanie"
+    pl: "Budowanie bez projektu kończy się źle."
+    ru: "Строить без проекта кончается плохо."
+    source: { kind: authored }
+  - form: "budowaniem"
+    pl: "Zajmuje się budowaniem mostów."
+    ru: "Он занимается строительством мостов."
+    source: { kind: authored }
+  - form: "budowaniem"
+    pl: "Przed budowaniem trzeba zbadać grunt."
+    ru: "Перед строительством надо исследовать грунт."
+    source: { kind: authored }
+  - form: "budowaniem"
+    pl: "Między projektowaniem a budowaniem mija rok."
+    ru: "Между проектированием и строительством проходит год."
+    source: { kind: authored }
+  - form: "budowaniu"
+    pl: "W budowaniu najważniejsza jest cierpliwość."
+    ru: "В строительстве важнее всего терпение."
+    source: { kind: authored }
+  - form: "budowaniu"
+    pl: "O budowaniu zaufania napisano tomy."
+    ru: "О построении доверия написаны тома."
+    source: { kind: authored }
+  - form: "budowaniu"
+    pl: "Po budowaniu przyszedł czas na wykończenie."
+    ru: "После строительства пришло время отделки."
+    source: { kind: authored }
+  - form: "budowano"
+    pl: "Dom budowano przez cztery lata."
+    ru: "Дом строили четыре года."
+    source: { kind: authored }
+  - form: "budowano"
+    pl: "Wtedy budowano z cegły i wapna."
+    ru: "Тогда строили из кирпича и извести."
+    source: { kind: authored }
+  - form: "budowano"
+    pl: "Nic tu nie budowano od wojny."
+    ru: "Здесь ничего не строили со времён войны."
+    source: { kind: authored }
+  - form: "budowany"
+    pl: "Budowany od trzech lat most wciąż stoi pusty."
+    ru: "Строящийся три года мост всё ещё стоит пустым."
+    source: { kind: authored }
+  - form: "budowany"
+    pl: "Dom budowany przez dziadka trzyma się do dziś."
+    ru: "Дом, построенный дедом, держится до сих пор."
+    source: { kind: authored }
+  - form: "budowany"
+    pl: "Budowany naprędce barak przeciekał."
+    ru: "Наспех построенный барак протекал."
+    source: { kind: authored }
+  - form: "budowanych"
+    pl: "Wśród budowanych osiedli to jest największe."
+    ru: "Среди строящихся посёлков это самый большой."
+    source: { kind: authored }
+  - form: "budowanych"
+    pl: "O budowanych drogach informuje gmina."
+    ru: "О строящихся дорогах сообщает гмина."
+    source: { kind: authored }
+  - form: "budowanych"
+    pl: "Połowa budowanych bloków stoi bez dachu."
+    ru: "Половина строящихся домов стоит без крыши."
+    source: { kind: authored }
+  - form: "budowanym"
+    pl: "W budowanym domu nie ma jeszcze okien."
+    ru: "В строящемся доме ещё нет окон."
+    source: { kind: authored }
+  - form: "budowanym"
+    pl: "Budowanym drogom brakuje nadzoru."
+    ru: "Строящимся дорогам не хватает надзора."
+    source: { kind: authored }
+  - form: "budowanym"
+    pl: "Mówił o budowanym moście bez entuzjazmu."
+    ru: "Он говорил о строящемся мосте без энтузиазма."
+    source: { kind: authored }
+  - form: "budowanymi"
+    pl: "Zajmuje się budowanymi przez gminę obiektami."
+    ru: "Он занимается строящимися гминой объектами."
+    source: { kind: authored }
+  - form: "budowanymi"
+    pl: "Między budowanymi a oddanymi budynkami jest przepaść."
+    ru: "Между строящимися и сданными зданиями пропасть."
+    source: { kind: authored }
+  - form: "budowanymi"
+    pl: "Dolina zastawiona była budowanymi domami."
+    ru: "Долина была заставлена строящимися домами."
+    source: { kind: authored }
+  - form: "budowaną"
+    pl: "Minęli budowaną właśnie halę."
+    ru: "Они миновали как раз строящийся ангар."
+    source: { kind: authored }
+  - form: "budowaną"
+    pl: "Uznali tę drogę za źle budowaną."
+    ru: "Эту дорогу сочли плохо построенной."
+    source: { kind: authored }
+  - form: "budowaną"
+    pl: "Widział szkołę budowaną już siódmy rok."
+    ru: "Он видел школу, строящуюся уже седьмой год."
+    source: { kind: authored }
+  - form: "budować"
+    pl: "Zaczęli budować dom wiosną."
+    ru: "Они начали строить дом весной."
+    source: { kind: authored }
+  - form: "budować"
+    pl: "Trudno budować zaufanie po takim incydencie."
+    ru: "Трудно строить доверие после такого случая."
+    source: { kind: authored }
+  - form: "budować"
+    pl: "Nie da się budować bez fundamentów."
+    ru: "Нельзя строить без фундамента."
+    source: { kind: authored }
+  - form: "budował"
+    pl: "Budował ten dom własnymi rękami."
+    ru: "Он строил этот дом своими руками."
+    source: { kind: authored }
+  - form: "budował"
+    pl: "Budował firmę od pustego biura."
+    ru: "Он строил фирму с пустого кабинета."
+    source: { kind: authored }
+  - form: "budował"
+    pl: "Nikt wtedy nie budował z betonu."
+    ru: "Никто тогда не строил из бетона."
+    source: { kind: authored }
+  - form: "budowała"
+    pl: "Budowała karierę przez piętnaście lat."
+    ru: "Она строила карьеру пятнадцать лет."
+    source: { kind: authored }
+  - form: "budowała"
+    pl: "Rodzina budowała ten dom trzy pokolenia."
+    ru: "Семья строила этот дом три поколения."
+    source: { kind: authored }
+  - form: "budowała"
+    pl: "Budowała relacje cierpliwie i bez pośpiechu."
+    ru: "Она строила отношения терпеливо и без спешки."
+    source: { kind: authored }
+  - form: "budowałaby"
+    pl: "Budowałaby karierę inaczej, gdyby zaczynała dziś."
+    ru: "Она строила бы карьеру иначе, начинай она сегодня."
+    source: { kind: authored }
+  - form: "budowałaby"
+    pl: "Bez kredytu nie budowałaby wcale."
+    ru: "Без кредита она вовсе не строила бы."
+    source: { kind: authored }
+  - form: "budowałaby"
+    pl: "Budowałaby to samo, tylko mniejsze."
+    ru: "Она строила бы то же самое, только меньше."
+    source: { kind: authored }
+  - form: "budowałabym"
+    pl: "Budowałabym z cegły, nie z pustaków."
+    ru: "Я строила бы из кирпича, а не из блоков."
+    source: { kind: authored }
+  - form: "budowałabym"
+    pl: "Na twoim miejscu budowałabym bliżej drogi."
+    ru: "На твоём месте я строила бы ближе к дороге."
+    source: { kind: authored }
+  - form: "budowałabym"
+    pl: "Bez projektu nie budowałabym niczego."
+    ru: "Без проекта я ничего не строила бы."
+    source: { kind: authored }
+  - form: "budowałabyś"
+    pl: "Budowałabyś tu czy nad rzeką?"
+    ru: "Ты строила бы здесь или у реки?"
+    source: { kind: authored }
+  - form: "budowałabyś"
+    pl: "Z czego budowałabyś dach?"
+    ru: "Из чего ты строила бы крышу?"
+    source: { kind: authored }
+  - form: "budowałabyś"
+    pl: "Bez pozwolenia nie budowałabyś wcale."
+    ru: "Без разрешения ты вовсе не строила бы."
+    source: { kind: authored }
+  - form: "budowałam"
+    pl: "Budowałam ten warsztat sama."
+    ru: "Я строила эту мастерскую сама."
+    source: { kind: authored }
+  - form: "budowałam"
+    pl: "Budowałam to przez pół życia."
+    ru: "Я строила это полжизни."
+    source: { kind: authored }
+  - form: "budowałam"
+    pl: "Nie budowałam nigdy z drewna."
+    ru: "Я никогда не строила из дерева."
+    source: { kind: authored }
+  - form: "budowałaś"
+    pl: "Budowałaś kiedyś coś większego?"
+    ru: "Ты когда-нибудь строила что-то крупнее?"
+    source: { kind: authored }
+  - form: "budowałaś"
+    pl: "Z czego budowałaś tę ścianę?"
+    ru: "Из чего ты строила эту стену?"
+    source: { kind: authored }
+  - form: "budowałaś"
+    pl: "Nie budowałaś tego sama, przyznaj."
+    ru: "Ты строила это не сама, признай."
+    source: { kind: authored }
+  - form: "budowałby"
+    pl: "Budowałby szybciej, gdyby miał pomocnika."
+    ru: "Он строил бы быстрее, будь у него помощник."
+    source: { kind: authored }
+  - form: "budowałby"
+    pl: "Bez pozwolenia nie budowałby ani cegły."
+    ru: "Без разрешения он не положил бы и кирпича."
+    source: { kind: authored }
+  - form: "budowałby"
+    pl: "Budowałby z kamienia, gdyby było go tu więcej."
+    ru: "Он строил бы из камня, будь его здесь больше."
+    source: { kind: authored }
+  - form: "budowałbym"
+    pl: "Budowałbym z cegły, nie z pustaków."
+    ru: "Я строил бы из кирпича, а не из блоков."
+    source: { kind: authored }
+  - form: "budowałbym"
+    pl: "Na twoim miejscu budowałbym bliżej drogi."
+    ru: "На твоём месте я строил бы ближе к дороге."
+    source: { kind: authored }
+  - form: "budowałbym"
+    pl: "Bez projektu nie budowałbym niczego."
+    ru: "Без проекта я ничего не строил бы."
+    source: { kind: authored }
+  - form: "budowałbyś"
+    pl: "Budowałbyś tu czy nad rzeką?"
+    ru: "Ты строил бы здесь или у реки?"
+    source: { kind: authored }
+  - form: "budowałbyś"
+    pl: "Z czego budowałbyś dach?"
+    ru: "Из чего ты строил бы крышу?"
+    source: { kind: authored }
+  - form: "budowałbyś"
+    pl: "Bez pozwolenia nie budowałbyś wcale."
+    ru: "Без разрешения ты вовсе не строил бы."
+    source: { kind: authored }
+  - form: "budowałem"
+    pl: "Budowałem ten warsztat sam."
+    ru: "Я строил эту мастерскую сам."
+    source: { kind: authored }
+  - form: "budowałem"
+    pl: "Budowałem to przez pół życia."
+    ru: "Я строил это полжизни."
+    source: { kind: authored }
+  - form: "budowałem"
+    pl: "Nie budowałem nigdy z drewna."
+    ru: "Я никогда не строил из дерева."
+    source: { kind: authored }
+  - form: "budowałeś"
+    pl: "Budowałeś kiedyś coś większego?"
+    ru: "Ты когда-нибудь строил что-то крупнее?"
+    source: { kind: authored }
+  - form: "budowałeś"
+    pl: "Z czego budowałeś tę ścianę?"
+    ru: "Из чего ты строил эту стену?"
+    source: { kind: authored }
+  - form: "budowałeś"
+    pl: "Nie budowałeś tego sam, przyznaj."
+    ru: "Ты строил это не сам, признай."
+    source: { kind: authored }
+  - form: "budowało"
+    pl: "Miasto budowało tę szkołę przez dekadę."
+    ru: "Город строил эту школу десятилетие."
+    source: { kind: authored }
+  - form: "budowało"
+    pl: "Kilka rodzin budowało tu razem."
+    ru: "Несколько семей строили здесь вместе."
+    source: { kind: authored }
+  - form: "budowało"
+    pl: "Żadne przedsiębiorstwo nie budowało tak szybko."
+    ru: "Ни одно предприятие не строило так быстро."
+    source: { kind: authored }
+  - form: "budowałoby"
+    pl: "Miasto budowałoby chętniej, gdyby miało pieniądze."
+    ru: "Город строил бы охотнее, если бы были деньги."
+    source: { kind: authored }
+  - form: "budowałoby"
+    pl: "Kilka rodzin budowałoby tu wspólnie."
+    ru: "Несколько семей строили бы здесь сообща."
+    source: { kind: authored }
+  - form: "budowałoby"
+    pl: "Żadne przedsiębiorstwo nie budowałoby za taką stawkę."
+    ru: "Ни одно предприятие не строило бы за такую ставку."
+    source: { kind: authored }
+  - form: "budowały"
+    pl: "Obie firmy budowały ten odcinek razem."
+    ru: "Обе фирмы строили этот участок вместе."
+    source: { kind: authored }
+  - form: "budowały"
+    pl: "Jaskółki budowały gniazdo pod okapem."
+    ru: "Ласточки строили гнездо под карнизом."
+    source: { kind: authored }
+  - form: "budowały"
+    pl: "Siostry budowały dom bez niczyjej pomocy."
+    ru: "Сёстры строили дом без чьей-либо помощи."
+    source: { kind: authored }
+  - form: "budowałyby"
+    pl: "Obie firmy budowałyby ten most razem."
+    ru: "Обе фирмы строили бы этот мост вместе."
+    source: { kind: authored }
+  - form: "budowałyby"
+    pl: "Jaskółki budowałyby gniazdo wyżej."
+    ru: "Ласточки строили бы гнездо выше."
+    source: { kind: authored }
+  - form: "budowałyby"
+    pl: "Siostry budowałyby dom same, gdyby musiały."
+    ru: "Сёстры строили бы дом сами, если бы пришлось."
+    source: { kind: authored }
+  - form: "budowałybyście"
+    pl: "Budowałybyście tu czy dalej od drogi?"
+    ru: "Вы строили бы здесь или дальше от дороги?"
+    source: { kind: authored }
+  - form: "budowałybyście"
+    pl: "Czy budowałybyście bez projektu?"
+    ru: "Строили бы вы без проекта?"
+    source: { kind: authored }
+  - form: "budowałybyście"
+    pl: "Bez ekipy nie budowałybyście tak szybko."
+    ru: "Без бригады вы не строили бы так быстро."
+    source: { kind: authored }
+  - form: "budowałybyśmy"
+    pl: "Budowałybyśmy inaczej, gdybyśmy wiedziały o wodzie."
+    ru: "Мы строили бы иначе, если бы знали о воде."
+    source: { kind: authored }
+  - form: "budowałybyśmy"
+    pl: "Bez kredytu nie budowałybyśmy wcale."
+    ru: "Без кредита мы вовсе не строили бы."
+    source: { kind: authored }
+  - form: "budowałybyśmy"
+    pl: "Budowałybyśmy latem, nie jesienią."
+    ru: "Мы строили бы летом, а не осенью."
+    source: { kind: authored }
+  - form: "budowałyście"
+    pl: "Jak długo budowałyście ten garaż?"
+    ru: "Как долго вы строили этот гараж?"
+    source: { kind: authored }
+  - form: "budowałyście"
+    pl: "Budowałyście same czy z ekipą?"
+    ru: "Вы строили сами или с бригадой?"
+    source: { kind: authored }
+  - form: "budowałyście"
+    pl: "Nie budowałyście tego zgodnie z projektem."
+    ru: "Вы строили это не по проекту."
+    source: { kind: authored }
+  - form: "budowałyśmy"
+    pl: "Budowałyśmy ten dom przez sześć lat."
+    ru: "Мы строили этот дом шесть лет."
+    source: { kind: authored }
+  - form: "budowałyśmy"
+    pl: "Budowałyśmy firmę od dwóch osób."
+    ru: "Мы строили фирму с двух человек."
+    source: { kind: authored }
+  - form: "budowałyśmy"
+    pl: "Nie budowałyśmy nigdy na obcej ziemi."
+    ru: "Мы никогда не строили на чужой земле."
+    source: { kind: authored }
+  - form: "buduj"
+    pl: "Buduj powoli, ale solidnie."
+    ru: "Строй медленно, но добротно."
+    source: { kind: authored }
+  - form: "buduj"
+    pl: "Nie buduj na cudzej ziemi."
+    ru: "Не строй на чужой земле."
+    source: { kind: authored }
+  - form: "buduj"
+    pl: "Buduj zaufanie czynami, nie słowami."
+    ru: "Строй доверие делами, а не словами."
+    source: { kind: authored }
+  - form: "budujcie"
+    pl: "Budujcie z tego, co macie."
+    ru: "Стройте из того, что есть."
+    source: { kind: authored }
+  - form: "budujcie"
+    pl: "Nie budujcie bez projektu."
+    ru: "Не стройте без проекта."
+    source: { kind: authored }
+  - form: "budujcie"
+    pl: "Budujcie powoli, zima jeszcze daleko."
+    ru: "Стройте не спеша, зима ещё далеко."
+    source: { kind: authored }
+  - form: "buduje"
+    pl: "Firma buduje most od dwóch lat."
+    ru: "Фирма строит мост два года."
+    source: { kind: authored }
+  - form: "buduje"
+    pl: "Każdy buduje swoje życie sam."
+    ru: "Каждый строит свою жизнь сам."
+    source: { kind: authored }
+  - form: "buduje"
+    pl: "Nikt tu niczego nie buduje bez pozwolenia."
+    ru: "Никто здесь ничего не строит без разрешения."
+    source: { kind: authored }
+  - form: "budujecie"
+    pl: "Co budujecie na tej działce?"
+    ru: "Что вы строите на этом участке?"
+    source: { kind: authored }
+  - form: "budujecie"
+    pl: "Budujecie szybciej niż sąsiedzi."
+    ru: "Вы строите быстрее соседей."
+    source: { kind: authored }
+  - form: "budujecie"
+    pl: "Nie budujecie na piasku, mam nadzieję."
+    ru: "Вы не строите на песке, надеюсь."
+    source: { kind: authored }
+  - form: "budujemy"
+    pl: "Budujemy altanę za domem."
+    ru: "Мы строим беседку за домом."
+    source: { kind: authored }
+  - form: "budujemy"
+    pl: "Budujemy zespół od zera."
+    ru: "Мы строим команду с нуля."
+    source: { kind: authored }
+  - form: "budujemy"
+    pl: "Nie budujemy niczego na kredyt."
+    ru: "Мы ничего не строим в кредит."
+    source: { kind: authored }
+  - form: "budujesz"
+    pl: "Co ty tam budujesz na podwórku?"
+    ru: "Что ты там строишь во дворе?"
+    source: { kind: authored }
+  - form: "budujesz"
+    pl: "Budujesz dom czy garaż?"
+    ru: "Ты строишь дом или гараж?"
+    source: { kind: authored }
+  - form: "budujesz"
+    pl: "Nie budujesz niczego trwałego na kłamstwie."
+    ru: "На лжи ты не построишь ничего прочного."
+    source: { kind: authored }
+  - form: "budujmy"
+    pl: "Budujmy od fundamentów, nie od dachu."
+    ru: "Будем строить от фундамента, а не от крыши."
+    source: { kind: authored }
+  - form: "budujmy"
+    pl: "Nie budujmy zamków na lodzie."
+    ru: "Не будем строить воздушных замков."
+    source: { kind: authored }
+  - form: "budujmy"
+    pl: "Budujmy to razem, inaczej nie wyjdzie."
+    ru: "Будем строить это вместе, иначе не выйдет."
+    source: { kind: authored }
+  - form: "budują"
+    pl: "Budują tu nowy dworzec."
+    ru: "Здесь строят новый вокзал."
+    source: { kind: authored }
+  - form: "budują"
+    pl: "Ptaki budują gniazda w kwietniu."
+    ru: "Птицы строят гнёзда в апреле."
+    source: { kind: authored }
+  - form: "budują"
+    pl: "Budują relacje latami, a tracą w minutę."
+    ru: "Отношения строят годами, а теряют за минуту."
+    source: { kind: authored }
+  - form: "budując"
+    pl: "Budując dom, zapomniał o garażu."
+    ru: "Строя дом, он забыл о гараже."
+    source: { kind: authored }
+  - form: "budując"
+    pl: "Budując zaufanie, nie można się spieszyć."
+    ru: "Строя доверие, нельзя спешить."
+    source: { kind: authored }
+  - form: "budując"
+    pl: "Budując na piasku, ryzykujesz wszystko."
+    ru: "Строя на песке, ты рискуешь всем."
+    source: { kind: authored }
+  - form: "budująca"
+    pl: "Budująca dom rodzina mieszka w przyczepie."
+    ru: "Строящая дом семья живёт в прицепе."
+    source: { kind: authored }
+  - form: "budująca"
+    pl: "To budująca historia o drugiej szansie."
+    ru: "Это ободряющая история о втором шансе."
+    source: { kind: authored }
+  - form: "budująca"
+    pl: "Budująca most firma ma opóźnienia."
+    ru: "Строящая мост фирма отстаёт от графика."
+    source: { kind: authored }
+  - form: "budujące"
+    pl: "Budujące osiedle firmy ścigają się na czas."
+    ru: "Строящие посёлок фирмы соревнуются во времени."
+    source: { kind: authored }
+  - form: "budujące"
+    pl: "To budujące słowa w takiej chwili."
+    ru: "Это ободряющие слова в такой момент."
+    source: { kind: authored }
+  - form: "budujące"
+    pl: "Budujące gniazda ptaki znikają na całe dnie."
+    ru: "Строящие гнёзда птицы пропадают на целые дни."
+    source: { kind: authored }
+  - form: "budującego"
+    pl: "Od budującego most inżyniera zależy termin."
+    ru: "От строящего мост инженера зависит срок."
+    source: { kind: authored }
+  - form: "budującego"
+    pl: "Nie widziałem go nigdy budującego czegokolwiek."
+    ru: "Я никогда не видел, чтобы он что-нибудь строил."
+    source: { kind: authored }
+  - form: "budującego"
+    pl: "Nie ma tu nic budującego, same ruiny."
+    ru: "Здесь нет ничего ободряющего, одни руины."
+    source: { kind: authored }
+  - form: "budującej"
+    pl: "Od budującej dom rodziny odwrócili się sąsiedzi."
+    ru: "От строящей дом семьи отвернулись соседи."
+    source: { kind: authored }
+  - form: "budującej"
+    pl: "Nie znam firmy budującej tak solidnie."
+    ru: "Я не знаю фирмы, строящей так добротно."
+    source: { kind: authored }
+  - form: "budującej"
+    pl: "Z budującej się dzielnicy słychać młoty."
+    ru: "Из строящегося района слышны молоты."
+    source: { kind: authored }
+  - form: "budującemu"
+    pl: "Budującemu dom sąsiadowi pomaga cała wieś."
+    ru: "Строящему дом соседу помогает вся деревня."
+    source: { kind: authored }
+  - form: "budującemu"
+    pl: "Dzięki budującemu most wykonawcy droga wreszcie ruszy."
+    ru: "Благодаря строящему мост подрядчику дорога наконец сдвинется."
+    source: { kind: authored }
+  - form: "budującemu"
+    pl: "Przyjrzyj się temu budującemu się osiedlu."
+    ru: "Присмотрись к этому строящемуся посёлку."
+    source: { kind: authored }
+  - form: "budujący"
+    pl: "Budujący dom sąsiad zaczyna o szóstej rano."
+    ru: "Строящий дом сосед начинает в шесть утра."
+    source: { kind: authored }
+  - form: "budujący"
+    pl: "To budujący widok, mimo wszystko."
+    ru: "Это ободряющее зрелище, несмотря ни на что."
+    source: { kind: authored }
+  - form: "budujący"
+    pl: "Budujący most inżynier mieszka w baraku."
+    ru: "Строящий мост инженер живёт в бараке."
+    source: { kind: authored }
+  - form: "budujących"
+    pl: "Wśród budujących był i jego ojciec."
+    ru: "Среди строивших был и его отец."
+    source: { kind: authored }
+  - form: "budujących"
+    pl: "O budujących bez pozwolenia pisała prasa."
+    ru: "О строящих без разрешения писала пресса."
+    source: { kind: authored }
+  - form: "budujących"
+    pl: "Liczba budujących spadła o połowę."
+    ru: "Число строящих упало вдвое."
+    source: { kind: authored }
+  - form: "budującym"
+    pl: "W budującym się domu nie ma jeszcze prądu."
+    ru: "В строящемся доме ещё нет электричества."
+    source: { kind: authored }
+  - form: "budującym"
+    pl: "Budującym się rodzinom gmina daje ulgi."
+    ru: "Строящимся семьям гмина даёт льготы."
+    source: { kind: authored }
+  - form: "budującym"
+    pl: "Mówił o budującym się moście z nadzieją."
+    ru: "Он говорил о строящемся мосте с надеждой."
+    source: { kind: authored }
+  - form: "budującymi"
+    pl: "Zajmuje się budującymi się osiedlami."
+    ru: "Он занимается строящимися посёлками."
+    source: { kind: authored }
+  - form: "budującymi"
+    pl: "Między budującymi a remontującymi jest różnica prawna."
+    ru: "Между строящими и ремонтирующими есть правовая разница."
+    source: { kind: authored }
+  - form: "budującymi"
+    pl: "Dzielnica zapełniła się budującymi się domami."
+    ru: "Район заполнился строящимися домами."
+    source: { kind: authored }
+  - form: "budującą"
+    pl: "Minął budującą się halę i skręcił w lewo."
+    ru: "Он миновал строящийся ангар и свернул налево."
+    source: { kind: authored }
+  - form: "budującą"
+    pl: "Uznali tę historię za budującą."
+    ru: "Эту историю сочли ободряющей."
+    source: { kind: authored }
+  - form: "budującą"
+    pl: "Widział rodzinę budującą dom własnymi rękami."
+    ru: "Он видел семью, строящую дом своими руками."
+    source: { kind: authored }
+  - form: "buduję"
+    pl: "Buduję dom od trzech lat."
+    ru: "Я строю дом три года."
+    source: { kind: authored }
+  - form: "buduję"
+    pl: "Buduję to wszystko od podstaw."
+    ru: "Я строю это всё с нуля."
+    source: { kind: authored }
+  - form: "buduję"
+    pl: "Nie buduję zamków na lodzie."
+    ru: "Я не строю воздушных замков."
+    source: { kind: authored }
