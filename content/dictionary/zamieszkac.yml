@@ -1,0 +1,688 @@
+# review
+id: zamieszkac
+format: 2
+lemma: "zamieszkać"
+rank: 2233
+pos: verb
+pron: { cyr: "замешка́ць" }
+senses:
+  - id: settle
+    ru: "поселиться, обосноваться"
+    examples:
+      - pl: "Zamieszkali na wsi po ślubie."
+        ru: "Они поселились в деревне после свадьбы."
+        source: { kind: authored }
+      - pl: "Zamieszkam u siostry na miesiąc."
+        ru: "Я поселюсь у сестры на месяц."
+        source: { kind: authored }
+  - id: start-living-with
+    ru: "начать жить (с кем-л.)"
+    examples:
+      - pl: "Zamieszkała z babcią po pogrzebie."
+        ru: "Она стала жить с бабушкой после похорон."
+        source: { kind: authored }
+      - pl: "Zamieszkali razem dopiero po roku."
+        ru: "Они стали жить вместе только через год."
+        source: { kind: authored }
+  - id: inhabited
+    ru: "zamieszkany — обитаемый, заселённый"
+    examples:
+      - pl: "To teren zamieszkany od epoki brązu."
+        ru: "Это территория, заселённая с бронзового века."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ОДИН ИЗ ГЛАВНЫХ КАПКАНОВ ПОЛЬСКОГО. Mieszkać значит «ЖИТЬ, ПРОЖИВАТЬ», а вовсе не «мешать»: gdzie mieszkasz? — «где ты живёшь?». Русское «мешать» в смысле «препятствовать» будет przeszkadzać, а в смысле «размешивать» — mieszać, без k. Три похожих слова, три разных смысла: mieszkać «жить», mieszać «мешать, смешивать», przeszkadzać «мешать, препятствовать». Отсюда и mieszkanie «КВАРТИРА», а не «помеха»." }
+  - { kind: government, text: "ГДЕ поселиться — w или na с предложным: zamieszkać w Krakowie, na wsi, na Mazurach. С КЕМ — z и творительный: zamieszkać z rodzicami. У кого — u с родительным: zamieszkać u siostry. Винительного дополнения у глагола нет: он непереходный, поселяются не «что-то», а «где-то»." }
+  - { kind: usage, text: "ПОЧЕМУ У НЕПЕРЕХОДНОГО ГЛАГОЛА ЕСТЬ СТРАДАТЕЛЬНОЕ ПРИЧАСТИЕ. Zamieszkać непереходен, и причастия вроде zamieszkany ожидать не приходилось бы. Но оно есть и живёт самостоятельной жизнью как прилагательное «обитаемый, заселённый»: teren zamieszkany, dom zamieszkany od stu lat. Опору ему даёт родственный переходный глагол zamieszkiwać coś «населять что-л.», от которого причастие и образовано по смыслу. Вид совершенный, несовершенная пара — mieszkać и zamieszkiwać." }
+  - { kind: pronunciation, text: "Четыре слога, ударение на предпоследнем: za-miesz-KAĆ. Sz читается как ш, а mie — как «ме» с мягким м: «замешка́ць». В прошедшем времени ударение остаётся предпоследним: zamieszkaliśmy — «замешкали́шмы»." }
+collocations:
+  - { pl: "zamieszkać na wsi", ru: "поселиться в деревне" }
+  - { pl: "zamieszkać razem", ru: "начать жить вместе" }
+  - { pl: "teren zamieszkany", ru: "заселённая территория" }
+family:
+  - { pl: "mieszkać", ru: "жить, проживать", relation: aspect, id: mieszkac }
+  - { pl: "mieszkanie", ru: "квартира", relation: derived }
+  - { pl: "mieszkaniec", ru: "житель", relation: derived, id: mieszkaniec }
+  - { pl: "wyprowadzić się", ru: "съехать, выселиться", relation: antonym, id: wyprowadzic }
+etymology: "Приставка za- плюс mieszkać, из праславянского *měškati «медлить, задерживаться». Первоначальный смысл был «задержаться где-то», откуда и «проживать»: поселиться значило остаться дольше, чем на ночь. В русском тот же корень дал «мешкать» — «медлить», и это ЕДИНСТВЕННЫЙ настоящий родственник; с «мешать» слово не связано. Отсюда mieszkanie, mieszkaniec, zamieszkiwać."
+memory: "zamieszkać — «поселиться», от mieszkać «жить», а не «мешать». Настоящая русская родня — «МЕШКАТЬ», медлить: поселиться значило задержаться. Отсюда и mieszkanie «квартира». «Мешать» в смысле препятствовать — это przeszkadzać."
+idioms:
+  - { pl: "zamieszkać razem", ru: "начать жить вместе" }
+  - { pl: "teren zamieszkany", ru: "заселённая территория" }
+formExamples:
+  - form: "zamieszka"
+    pl: "Brat zamieszka z nami na zimę."
+    ru: "Брат поселится у нас на зиму."
+    source: { kind: authored }
+  - form: "zamieszka"
+    pl: "Nikt tu dobrowolnie nie zamieszka."
+    ru: "Никто здесь добровольно не поселится."
+    source: { kind: authored }
+  - form: "zamieszka"
+    pl: "Nowa rodzina zamieszka na parterze."
+    ru: "Новая семья поселится на первом этаже."
+    source: { kind: authored }
+  - form: "zamieszkacie"
+    pl: "Gdzie zamieszkacie po ślubie?"
+    ru: "Где вы поселитесь после свадьбы?"
+    source: { kind: authored }
+  - form: "zamieszkacie"
+    pl: "Jeśli zamieszkacie obok, będzie weselej."
+    ru: "Если поселитесь рядом, будет веселее."
+    source: { kind: authored }
+  - form: "zamieszkacie"
+    pl: "Nie zamieszkacie przecież w hotelu na stałe."
+    ru: "Не поселитесь же вы в гостинице насовсем."
+    source: { kind: authored }
+  - form: "zamieszkaj"
+    pl: "Zamieszkaj u nas, miejsca starczy."
+    ru: "Поселись у нас, места хватит."
+    source: { kind: authored }
+  - form: "zamieszkaj"
+    pl: "Zamieszkaj bliżej pracy, oszczędzisz czas."
+    ru: "Поселись ближе к работе, сэкономишь время."
+    source: { kind: authored }
+  - form: "zamieszkaj"
+    pl: "Nie zamieszkaj przypadkiem w tej dzielnicy."
+    ru: "Не поселись случайно в этом районе."
+    source: { kind: authored }
+  - form: "zamieszkajcie"
+    pl: "Zamieszkajcie u nas na czas remontu."
+    ru: "Поселитесь у нас на время ремонта."
+    source: { kind: authored }
+  - form: "zamieszkajcie"
+    pl: "Zamieszkajcie bliżej centrum."
+    ru: "Поселитесь ближе к центру."
+    source: { kind: authored }
+  - form: "zamieszkajcie"
+    pl: "Nie zamieszkajcie w pierwszym lepszym mieszkaniu."
+    ru: "Не селитесь в первой попавшейся квартире."
+    source: { kind: authored }
+  - form: "zamieszkajmy"
+    pl: "Zamieszkajmy nad jeziorem."
+    ru: "Поселимся у озера."
+    source: { kind: authored }
+  - form: "zamieszkajmy"
+    pl: "Zamieszkajmy razem, i tak jesteśmy u siebie co drugi dzień."
+    ru: "Давай жить вместе, мы и так друг у друга через день."
+    source: { kind: authored }
+  - form: "zamieszkajmy"
+    pl: "Nie zamieszkajmy zbyt daleko od szkoły."
+    ru: "Не будем селиться слишком далеко от школы."
+    source: { kind: authored }
+  - form: "zamieszkają"
+    pl: "Zamieszkają w starym domu dziadków."
+    ru: "Они поселятся в старом доме дедушки с бабушкой."
+    source: { kind: authored }
+  - form: "zamieszkają"
+    pl: "Sąsiedzi zamieszkają tu od maja."
+    ru: "Соседи поселятся здесь с мая."
+    source: { kind: authored }
+  - form: "zamieszkają"
+    pl: "Nie zamieszkają razem, każdy woli swoje."
+    ru: "Они не станут жить вместе, каждый предпочитает своё."
+    source: { kind: authored }
+  - form: "zamieszkali"
+    pl: "Zamieszkali na wsi zaraz po ślubie."
+    ru: "Они поселились в деревне сразу после свадьбы."
+    source: { kind: authored }
+  - form: "zamieszkali"
+    pl: "Sąsiedzi zamieszkali tu przed wojną."
+    ru: "Соседи поселились здесь до войны."
+    source: { kind: authored }
+  - form: "zamieszkali"
+    pl: "Nie zamieszkali razem, choć wszyscy tego oczekiwali."
+    ru: "Они не стали жить вместе, хотя все этого ждали."
+    source: { kind: authored }
+  - form: "zamieszkaliby"
+    pl: "Zamieszkaliby tu, gdyby była szkoła."
+    ru: "Они поселились бы здесь, если бы была школа."
+    source: { kind: authored }
+  - form: "zamieszkaliby"
+    pl: "Sąsiedzi zamieszkaliby bliżej miasta."
+    ru: "Соседи поселились бы ближе к городу."
+    source: { kind: authored }
+  - form: "zamieszkaliby"
+    pl: "Bez tej pracy nie zamieszkaliby w stolicy."
+    ru: "Без этой работы они не поселились бы в столице."
+    source: { kind: authored }
+  - form: "zamieszkalibyście"
+    pl: "Zamieszkalibyście tu na stałe?"
+    ru: "Вы поселились бы здесь насовсем?"
+    source: { kind: authored }
+  - form: "zamieszkalibyście"
+    pl: "Czy zamieszkalibyście z rodzicami?"
+    ru: "Поселились бы вы с родителями?"
+    source: { kind: authored }
+  - form: "zamieszkalibyście"
+    pl: "Bez ogrzewania nie zamieszkalibyście tu zimą."
+    ru: "Без отопления вы не поселились бы здесь зимой."
+    source: { kind: authored }
+  - form: "zamieszkalibyśmy"
+    pl: "Zamieszkalibyśmy na wsi, gdyby nie praca."
+    ru: "Мы поселились бы в деревне, если бы не работа."
+    source: { kind: authored }
+  - form: "zamieszkalibyśmy"
+    pl: "Zamieszkalibyśmy razem, ale mieszkanie jest za małe."
+    ru: "Мы стали бы жить вместе, но квартира слишком мала."
+    source: { kind: authored }
+  - form: "zamieszkalibyśmy"
+    pl: "Bez kredytu nie zamieszkalibyśmy we własnym domu."
+    ru: "Без кредита мы не поселились бы в своём доме."
+    source: { kind: authored }
+  - form: "zamieszkaliście"
+    pl: "Gdzie zamieszkaliście po powrocie?"
+    ru: "Где вы поселились после возвращения?"
+    source: { kind: authored }
+  - form: "zamieszkaliście"
+    pl: "Dlaczego zamieszkaliście tak daleko od szkoły?"
+    ru: "Почему вы поселились так далеко от школы?"
+    source: { kind: authored }
+  - form: "zamieszkaliście"
+    pl: "Nie zamieszkaliście chyba u teściowej?"
+    ru: "Вы ведь не поселились у тёщи?"
+    source: { kind: authored }
+  - form: "zamieszkaliśmy"
+    pl: "Zamieszkaliśmy w tym domu w osiemdziesiątym roku."
+    ru: "Мы поселились в этом доме в восьмидесятом году."
+    source: { kind: authored }
+  - form: "zamieszkaliśmy"
+    pl: "Zamieszkaliśmy razem po dwóch latach narzeczeństwa."
+    ru: "Мы стали жить вместе после двух лет помолвки."
+    source: { kind: authored }
+  - form: "zamieszkaliśmy"
+    pl: "Nie zamieszkaliśmy nigdzie na dłużej niż rok."
+    ru: "Мы нигде не прожили дольше года."
+    source: { kind: authored }
+  - form: "zamieszkam"
+    pl: "Zamieszkam u siostry na kilka tygodni."
+    ru: "Я поселюсь у сестры на несколько недель."
+    source: { kind: authored }
+  - form: "zamieszkam"
+    pl: "Zamieszkam tam dopiero po remoncie."
+    ru: "Я поселюсь там только после ремонта."
+    source: { kind: authored }
+  - form: "zamieszkam"
+    pl: "Nie zamieszkam w takiej ciasnocie."
+    ru: "Я не поселюсь в такой тесноте."
+    source: { kind: authored }
+  - form: "zamieszkamy"
+    pl: "Zamieszkamy na wsi, gdy dzieci dorosną."
+    ru: "Мы поселимся в деревне, когда дети вырастут."
+    source: { kind: authored }
+  - form: "zamieszkamy"
+    pl: "Zamieszkamy u teściów na parę miesięcy."
+    ru: "Мы поселимся у тестя с тёщей на пару месяцев."
+    source: { kind: authored }
+  - form: "zamieszkamy"
+    pl: "Nie zamieszkamy w bloku, szukamy domu."
+    ru: "Мы не поселимся в многоэтажке, ищем дом."
+    source: { kind: authored }
+  - form: "zamieszkana"
+    pl: "Wyspa zamieszkana jest przez kilkanaście rodzin."
+    ru: "Остров заселён несколькими десятками семей."
+    source: { kind: authored }
+  - form: "zamieszkana"
+    pl: "Kamienica zamieszkana w połowie niszczeje."
+    ru: "Наполовину заселённый дом ветшает."
+    source: { kind: authored }
+  - form: "zamieszkana"
+    pl: "Dolina zamieszkana od wieków wygląda dziś pusto."
+    ru: "Долина, обитаемая веками, сегодня выглядит пустой."
+    source: { kind: authored }
+  - form: "zamieszkane"
+    pl: "Te poddasza są zamieszkane od lat."
+    ru: "Эти чердаки обитаемы годами."
+    source: { kind: authored }
+  - form: "zamieszkane"
+    pl: "Piętro zamieszkane przez studentów nie zna ciszy."
+    ru: "Этаж, заселённый студентами, не знает тишины."
+    source: { kind: authored }
+  - form: "zamieszkane"
+    pl: "Zamieszkane tereny wyłączono z wycinki."
+    ru: "Заселённые территории исключили из вырубки."
+    source: { kind: authored }
+  - form: "zamieszkanego"
+    pl: "Od zamieszkanego poddasza ciągnie dymem."
+    ru: "От обитаемого чердака тянет дымом."
+    source: { kind: authored }
+  - form: "zamieszkanego"
+    pl: "Nie znam terenu zamieszkanego tak gęsto."
+    ru: "Я не знаю территории, заселённой так густо."
+    source: { kind: authored }
+  - form: "zamieszkanego"
+    pl: "Nie ma tu nic zamieszkanego na stałe."
+    ru: "Здесь нет ничего обитаемого постоянно."
+    source: { kind: authored }
+  - form: "zamieszkanej"
+    pl: "Od zamieszkanej doliny dzieli nas przełęcz."
+    ru: "От обитаемой долины нас отделяет перевал."
+    source: { kind: authored }
+  - form: "zamieszkanej"
+    pl: "Z kamienicy zamieszkanej w połowie został szkielet."
+    ru: "От наполовину заселённого дома остался остов."
+    source: { kind: authored }
+  - form: "zamieszkanej"
+    pl: "Nie znam wyspy zamieszkanej przez tak niewielu."
+    ru: "Я не знаю острова, заселённого столь немногими."
+    source: { kind: authored }
+  - form: "zamieszkanemu"
+    pl: "Zamieszkanemu od wieków miasteczku nie grozi wyludnienie."
+    ru: "Обитаемому веками городку не грозит опустение."
+    source: { kind: authored }
+  - form: "zamieszkanemu"
+    pl: "Dzięki zamieszkanemu poddaszu kamienica wciąż żyje."
+    ru: "Благодаря обитаемому чердаку дом всё ещё живёт."
+    source: { kind: authored }
+  - form: "zamieszkanemu"
+    pl: "Przyjrzyj się temu zamieszkanemu brzegowi z góry."
+    ru: "Присмотрись к этому заселённому берегу сверху."
+    source: { kind: authored }
+  - form: "zamieszkani"
+    pl: "Zamieszkani od pokoleń górale nie chcą się stąd ruszyć."
+    ru: "Живущие здесь поколениями горцы не хотят отсюда трогаться."
+    source: { kind: authored }
+  - form: "zamieszkani"
+    pl: "Byli zamieszkani w tej dolinie na długo przed nami."
+    ru: "Они жили в этой долине задолго до нас."
+    source: { kind: authored }
+  - form: "zamieszkani"
+    pl: "Zamieszkani tu rybacy pamiętają jeszcze dawny most."
+    ru: "Живущие здесь рыбаки помнят ещё прежний мост."
+    source: { kind: authored }
+  - form: "zamieszkania"
+    pl: "Podaj miejsce zamieszkania."
+    ru: "Укажи место жительства."
+    source: { kind: authored }
+  - form: "zamieszkania"
+    pl: "Od zamieszkania w stolicy minęło pięć lat."
+    ru: "С поселения в столице прошло пять лет."
+    source: { kind: authored }
+  - form: "zamieszkania"
+    pl: "Budynek nie nadaje się do zamieszkania."
+    ru: "Здание непригодно для жилья."
+    source: { kind: authored }
+  - form: "zamieszkanie"
+    pl: "Zamieszkanie w tym domu wymagało odwagi."
+    ru: "Поселиться в этом доме требовало смелости."
+    source: { kind: authored }
+  - form: "zamieszkanie"
+    pl: "Zamieszkanie razem zmieniło wszystko."
+    ru: "Совместное житьё всё изменило."
+    source: { kind: authored }
+  - form: "zamieszkanie"
+    pl: "Zamieszkanie na wsi okazało się tańsze."
+    ru: "Житьё в деревне оказалось дешевле."
+    source: { kind: authored }
+  - form: "zamieszkaniem"
+    pl: "Przed zamieszkaniem trzeba wymienić instalację."
+    ru: "Перед вселением надо заменить проводку."
+    source: { kind: authored }
+  - form: "zamieszkaniem"
+    pl: "Między kupnem a zamieszkaniem minął rok."
+    ru: "Между покупкой и вселением прошёл год."
+    source: { kind: authored }
+  - form: "zamieszkaniem"
+    pl: "Zajął się zamieszkaniem rodziny w nowym domu."
+    ru: "Он занялся вселением семьи в новый дом."
+    source: { kind: authored }
+  - form: "zamieszkaniu"
+    pl: "Po zamieszkaniu na wsi przestał chorować."
+    ru: "Поселившись в деревне, он перестал болеть."
+    source: { kind: authored }
+  - form: "zamieszkaniu"
+    pl: "O zamieszkaniu razem rozmawiali od miesięcy."
+    ru: "О совместном житье они говорили месяцами."
+    source: { kind: authored }
+  - form: "zamieszkaniu"
+    pl: "W zamieszkaniu u teściów nie ma nic wstydliwego."
+    ru: "В житье у тестя с тёщей нет ничего постыдного."
+    source: { kind: authored }
+  - form: "zamieszkano"
+    pl: "W tych domach zamieszkano dopiero po wojnie."
+    ru: "В этих домах поселились только после войны."
+    source: { kind: authored }
+  - form: "zamieszkano"
+    pl: "Osiedle oddano wiosną, a zamieszkano je jesienią."
+    ru: "Посёлок сдали весной, а заселили осенью."
+    source: { kind: authored }
+  - form: "zamieszkano"
+    pl: "Nigdy tam nie zamieszkano na stałe."
+    ru: "Там никогда не селились насовсем."
+    source: { kind: authored }
+  - form: "zamieszkany"
+    pl: "To teren zamieszkany od epoki brązu."
+    ru: "Это территория, заселённая с бронзового века."
+    source: { kind: authored }
+  - form: "zamieszkany"
+    pl: "Dom zamieszkany od stu lat nie wymaga dowodów."
+    ru: "Дом, обитаемый сто лет, не требует доказательств."
+    source: { kind: authored }
+  - form: "zamieszkany"
+    pl: "Budynek nie jest zamieszkany od wiosny."
+    ru: "Здание необитаемо с весны."
+    source: { kind: authored }
+  - form: "zamieszkanych"
+    pl: "Wśród zamieszkanych domów stoi jeden pusty."
+    ru: "Среди обитаемых домов стоит один пустой."
+    source: { kind: authored }
+  - form: "zamieszkanych"
+    pl: "O zamieszkanych wyspach archipelagu pisze przewodnik."
+    ru: "Об обитаемых островах архипелага пишет путеводитель."
+    source: { kind: authored }
+  - form: "zamieszkanych"
+    pl: "Połowa zamieszkanych niegdyś wsi zniknęła z mapy."
+    ru: "Половина некогда заселённых деревень исчезла с карты."
+    source: { kind: authored }
+  - form: "zamieszkanym"
+    pl: "W zamieszkanym budynku nie wolno prowadzić rozbiórki."
+    ru: "В обитаемом здании нельзя вести снос."
+    source: { kind: authored }
+  - form: "zamieszkanym"
+    pl: "Zamieszkanym terenom przyznano osobny status."
+    ru: "Заселённым территориям придали отдельный статус."
+    source: { kind: authored }
+  - form: "zamieszkanym"
+    pl: "Dom okazał się budynkiem zamieszkanym nielegalnie."
+    ru: "Дом оказался зданием, заселённым незаконно."
+    source: { kind: authored }
+  - form: "zamieszkanymi"
+    pl: "Między zamieszkanymi a pustymi domami różnica widać z daleka."
+    ru: "Между обитаемыми и пустыми домами разница видна издалека."
+    source: { kind: authored }
+  - form: "zamieszkanymi"
+    pl: "Zajmuje się zamieszkanymi pustostanami w mieście."
+    ru: "Он занимается заселёнными пустующими домами в городе."
+    source: { kind: authored }
+  - form: "zamieszkanymi"
+    pl: "Dolina zapełniła się zamieszkanymi od nowa chatami."
+    ru: "Долина заполнилась заново заселёнными хатами."
+    source: { kind: authored }
+  - form: "zamieszkaną"
+    pl: "Zastali wyspę zamieszkaną przez rybaków."
+    ru: "Они застали остров заселённым рыбаками."
+    source: { kind: authored }
+  - form: "zamieszkaną"
+    pl: "Uznali dolinę za zamieszkaną od wieków."
+    ru: "Долину сочли обитаемой веками."
+    source: { kind: authored }
+  - form: "zamieszkaną"
+    pl: "Pamiętał kamienicę zamieszkaną po dach."
+    ru: "Он помнил дом, заселённый под самую крышу."
+    source: { kind: authored }
+  - form: "zamieszkasz"
+    pl: "Gdzie zamieszkasz po studiach?"
+    ru: "Где ты поселишься после учёбы?"
+    source: { kind: authored }
+  - form: "zamieszkasz"
+    pl: "Jeśli zamieszkasz blisko, będziemy się częściej widywać."
+    ru: "Если поселишься близко, будем чаще видеться."
+    source: { kind: authored }
+  - form: "zamieszkasz"
+    pl: "Nie zamieszkasz tam sam, to pewne."
+    ru: "Ты не поселишься там один, это точно."
+    source: { kind: authored }
+  - form: "zamieszkawszy"
+    pl: "Zamieszkawszy na wsi, odetchnął pierwszy raz od lat."
+    ru: "Поселившись в деревне, он впервые за годы вздохнул свободно."
+    source: { kind: authored }
+  - form: "zamieszkawszy"
+    pl: "Zamieszkawszy u siostry, szybko znalazł pracę."
+    ru: "Поселившись у сестры, он быстро нашёл работу."
+    source: { kind: authored }
+  - form: "zamieszkawszy"
+    pl: "Zamieszkawszy razem, przestali się kłócić."
+    ru: "Начав жить вместе, они перестали ссориться."
+    source: { kind: authored }
+  - form: "zamieszkać"
+    pl: "Chcą zamieszkać bliżej morza."
+    ru: "Они хотят поселиться ближе к морю."
+    source: { kind: authored }
+  - form: "zamieszkać"
+    pl: "Trudno zamieszkać w mieście bez pracy."
+    ru: "Трудно поселиться в городе без работы."
+    source: { kind: authored }
+  - form: "zamieszkać"
+    pl: "Postanowili zamieszkać razem."
+    ru: "Они решили начать жить вместе."
+    source: { kind: authored }
+  - form: "zamieszkał"
+    pl: "Zamieszkał w Krakowie na dobre."
+    ru: "Он поселился в Кракове насовсем."
+    source: { kind: authored }
+  - form: "zamieszkał"
+    pl: "Po rozwodzie zamieszkał u brata."
+    ru: "После развода он поселился у брата."
+    source: { kind: authored }
+  - form: "zamieszkał"
+    pl: "Nigdy nie zamieszkał poza wsią."
+    ru: "Он никогда не жил нигде, кроме деревни."
+    source: { kind: authored }
+  - form: "zamieszkała"
+    pl: "Zamieszkała z babcią po pogrzebie."
+    ru: "Она стала жить с бабушкой после похорон."
+    source: { kind: authored }
+  - form: "zamieszkała"
+    pl: "Zamieszkała w mieście dopiero po trzydziestce."
+    ru: "Она поселилась в городе только после тридцати."
+    source: { kind: authored }
+  - form: "zamieszkała"
+    pl: "Nie zamieszkała z nim ani dnia."
+    ru: "Она не прожила с ним ни дня."
+    source: { kind: authored }
+  - form: "zamieszkałaby"
+    pl: "Zamieszkałaby z córką, gdyby ta ją zaprosiła."
+    ru: "Она поселилась бы с дочерью, если бы та её позвала."
+    source: { kind: authored }
+  - form: "zamieszkałaby"
+    pl: "Bez tej pracy zamieszkałaby na wsi."
+    ru: "Без этой работы она поселилась бы в деревне."
+    source: { kind: authored }
+  - form: "zamieszkałaby"
+    pl: "Zamieszkałaby tam chętnie, ale dom sprzedano."
+    ru: "Она охотно поселилась бы там, но дом продали."
+    source: { kind: authored }
+  - form: "zamieszkałabym"
+    pl: "Zamieszkałabym nad morzem, gdybym mogła."
+    ru: "Я поселилась бы у моря, если бы могла."
+    source: { kind: authored }
+  - form: "zamieszkałabym"
+    pl: "Na twoim miejscu zamieszkałabym bliżej pracy."
+    ru: "На твоём месте я поселилась бы ближе к работе."
+    source: { kind: authored }
+  - form: "zamieszkałabym"
+    pl: "Bez tej posady nie zamieszkałabym w stolicy."
+    ru: "Без этой должности я не поселилась бы в столице."
+    source: { kind: authored }
+  - form: "zamieszkałabyś"
+    pl: "Zamieszkałabyś w takiej głuszy?"
+    ru: "Ты поселилась бы в такой глуши?"
+    source: { kind: authored }
+  - form: "zamieszkałabyś"
+    pl: "Czy zamieszkałabyś z nami na próbę?"
+    ru: "Ты поселилась бы с нами на пробу?"
+    source: { kind: authored }
+  - form: "zamieszkałabyś"
+    pl: "Bez ogrodu nie zamieszkałabyś tam ani dnia."
+    ru: "Без сада ты не прожила бы там и дня."
+    source: { kind: authored }
+  - form: "zamieszkałam"
+    pl: "Zamieszkałam tu dwanaście lat temu."
+    ru: "Я поселилась здесь двенадцать лет назад."
+    source: { kind: authored }
+  - form: "zamieszkałam"
+    pl: "Zamieszkałam u ciotki na czas studiów."
+    ru: "Я поселилась у тёти на время учёбы."
+    source: { kind: authored }
+  - form: "zamieszkałam"
+    pl: "Nie zamieszkałam w centrum, było za drogo."
+    ru: "Я не поселилась в центре, было слишком дорого."
+    source: { kind: authored }
+  - form: "zamieszkałaś"
+    pl: "Gdzie zamieszkałaś po przeprowadzce?"
+    ru: "Где ты поселилась после переезда?"
+    source: { kind: authored }
+  - form: "zamieszkałaś"
+    pl: "Dlaczego zamieszkałaś tak daleko?"
+    ru: "Почему ты поселилась так далеко?"
+    source: { kind: authored }
+  - form: "zamieszkałaś"
+    pl: "Nie zamieszkałaś chyba w tym hałasie?"
+    ru: "Ты ведь не поселилась в этом шуме?"
+    source: { kind: authored }
+  - form: "zamieszkałby"
+    pl: "Zamieszkałby na wsi, gdyby miał z czego żyć."
+    ru: "Он поселился бы в деревне, если бы было на что жить."
+    source: { kind: authored }
+  - form: "zamieszkałby"
+    pl: "Nikt nie zamieszkałby w takiej ruinie."
+    ru: "Никто не поселился бы в такой развалине."
+    source: { kind: authored }
+  - form: "zamieszkałby"
+    pl: "Zamieszkałby bliżej, ale ceny go odstraszyły."
+    ru: "Он поселился бы ближе, но цены его отпугнули."
+    source: { kind: authored }
+  - form: "zamieszkałbym"
+    pl: "Zamieszkałbym nad morzem, gdybym mógł."
+    ru: "Я поселился бы у моря, если бы мог."
+    source: { kind: authored }
+  - form: "zamieszkałbym"
+    pl: "Na twoim miejscu zamieszkałbym bliżej pracy."
+    ru: "На твоём месте я поселился бы ближе к работе."
+    source: { kind: authored }
+  - form: "zamieszkałbym"
+    pl: "Bez tej posady nie zamieszkałbym w stolicy."
+    ru: "Без этой должности я не поселился бы в столице."
+    source: { kind: authored }
+  - form: "zamieszkałbyś"
+    pl: "Zamieszkałbyś w takiej głuszy?"
+    ru: "Ты поселился бы в такой глуши?"
+    source: { kind: authored }
+  - form: "zamieszkałbyś"
+    pl: "Czy zamieszkałbyś z nami na próbę?"
+    ru: "Ты поселился бы с нами на пробу?"
+    source: { kind: authored }
+  - form: "zamieszkałbyś"
+    pl: "Bez ogrodu nie zamieszkałbyś tam ani dnia."
+    ru: "Без сада ты не прожил бы там и дня."
+    source: { kind: authored }
+  - form: "zamieszkałem"
+    pl: "Zamieszkałem tu dwanaście lat temu."
+    ru: "Я поселился здесь двенадцать лет назад."
+    source: { kind: authored }
+  - form: "zamieszkałem"
+    pl: "Zamieszkałem u ciotki na czas studiów."
+    ru: "Я поселился у тёти на время учёбы."
+    source: { kind: authored }
+  - form: "zamieszkałem"
+    pl: "Nie zamieszkałem w centrum, było za drogo."
+    ru: "Я не поселился в центре, было слишком дорого."
+    source: { kind: authored }
+  - form: "zamieszkałeś"
+    pl: "Gdzie zamieszkałeś po przeprowadzce?"
+    ru: "Где ты поселился после переезда?"
+    source: { kind: authored }
+  - form: "zamieszkałeś"
+    pl: "Dlaczego zamieszkałeś tak daleko?"
+    ru: "Почему ты поселился так далеко?"
+    source: { kind: authored }
+  - form: "zamieszkałeś"
+    pl: "Nie zamieszkałeś chyba w tym hałasie?"
+    ru: "Ты ведь не поселился в этом шуме?"
+    source: { kind: authored }
+  - form: "zamieszkało"
+    pl: "W kamienicy zamieszkało sześć rodzin."
+    ru: "В доме поселились шесть семей."
+    source: { kind: authored }
+  - form: "zamieszkało"
+    pl: "Kilkoro studentów zamieszkało w akademiku."
+    ru: "Несколько студентов поселились в общежитии."
+    source: { kind: authored }
+  - form: "zamieszkało"
+    pl: "Żadne małżeństwo nie zamieszkało tu na stałe."
+    ru: "Ни одна семейная пара не поселилась здесь насовсем."
+    source: { kind: authored }
+  - form: "zamieszkałoby"
+    pl: "W tym domu zamieszkałoby kilka rodzin naraz."
+    ru: "В этом доме поселилось бы несколько семей сразу."
+    source: { kind: authored }
+  - form: "zamieszkałoby"
+    pl: "Kilkoro studentów zamieszkałoby tu chętnie."
+    ru: "Несколько студентов охотно поселились бы здесь."
+    source: { kind: authored }
+  - form: "zamieszkałoby"
+    pl: "Żadne małżeństwo nie zamieszkałoby w takiej ciasnocie."
+    ru: "Ни одна пара не поселилась бы в такой тесноте."
+    source: { kind: authored }
+  - form: "zamieszkały"
+    pl: "Obie siostry zamieszkały w jednym mieście."
+    ru: "Обе сестры поселились в одном городе."
+    source: { kind: authored }
+  - form: "zamieszkały"
+    pl: "Rodziny zamieszkały w nowych blokach."
+    ru: "Семьи поселились в новых домах."
+    source: { kind: authored }
+  - form: "zamieszkały"
+    pl: "Nie zamieszkały tam na długo."
+    ru: "Они поселились там ненадолго."
+    source: { kind: authored }
+  - form: "zamieszkałyby"
+    pl: "Obie rodziny zamieszkałyby w jednym domu."
+    ru: "Обе семьи поселились бы в одном доме."
+    source: { kind: authored }
+  - form: "zamieszkałyby"
+    pl: "Siostry zamieszkałyby razem, gdyby nie mężowie."
+    ru: "Сёстры поселились бы вместе, если бы не мужья."
+    source: { kind: authored }
+  - form: "zamieszkałyby"
+    pl: "Bez tego remontu zamieszkałyby tu wcześniej."
+    ru: "Без этого ремонта они поселились бы здесь раньше."
+    source: { kind: authored }
+  - form: "zamieszkałybyście"
+    pl: "Zamieszkałybyście tu na stałe?"
+    ru: "Вы поселились бы здесь насовсем?"
+    source: { kind: authored }
+  - form: "zamieszkałybyście"
+    pl: "Czy zamieszkałybyście z rodzicami?"
+    ru: "Поселились бы вы с родителями?"
+    source: { kind: authored }
+  - form: "zamieszkałybyście"
+    pl: "Bez ogrzewania nie zamieszkałybyście tu zimą."
+    ru: "Без отопления вы не поселились бы здесь зимой."
+    source: { kind: authored }
+  - form: "zamieszkałybyśmy"
+    pl: "Zamieszkałybyśmy na wsi, gdyby nie praca."
+    ru: "Мы поселились бы в деревне, если бы не работа."
+    source: { kind: authored }
+  - form: "zamieszkałybyśmy"
+    pl: "Zamieszkałybyśmy razem, ale mieszkanie jest za małe."
+    ru: "Мы стали бы жить вместе, но квартира слишком мала."
+    source: { kind: authored }
+  - form: "zamieszkałybyśmy"
+    pl: "Bez kredytu nie zamieszkałybyśmy we własnym domu."
+    ru: "Без кредита мы не поселились бы в своём доме."
+    source: { kind: authored }
+  - form: "zamieszkałyście"
+    pl: "Gdzie zamieszkałyście po powrocie?"
+    ru: "Где вы поселились после возвращения?"
+    source: { kind: authored }
+  - form: "zamieszkałyście"
+    pl: "Dlaczego zamieszkałyście tak daleko od szkoły?"
+    ru: "Почему вы поселились так далеко от школы?"
+    source: { kind: authored }
+  - form: "zamieszkałyście"
+    pl: "Nie zamieszkałyście chyba u teściowej?"
+    ru: "Вы ведь не поселились у тёщи?"
+    source: { kind: authored }
+  - form: "zamieszkałyśmy"
+    pl: "Zamieszkałyśmy w tym domu w osiemdziesiątym roku."
+    ru: "Мы поселились в этом доме в восьмидесятом году."
+    source: { kind: authored }
+  - form: "zamieszkałyśmy"
+    pl: "Zamieszkałyśmy razem jeszcze na studiach."
+    ru: "Мы стали жить вместе ещё в студенчестве."
+    source: { kind: authored }
+  - form: "zamieszkałyśmy"
+    pl: "Nie zamieszkałyśmy nigdzie na dłużej niż rok."
+    ru: "Мы нигде не прожили дольше года."
+    source: { kind: authored }
