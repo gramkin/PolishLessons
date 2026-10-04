@@ -1,0 +1,63 @@
+# review
+id: niemal
+format: 2
+lemma: "niemal"
+rank: 2376
+pos: part
+pron: { cyr: "не́маль" }
+senses:
+  - id: almost
+    ru: "почти"
+    examples:
+      - pl: "Niemal wszyscy zdążyli na pociąg."
+        ru: "Почти все успели на поезд."
+        source: { kind: authored }
+      - pl: "Czekaliśmy niemal godzinę."
+        ru: "Мы ждали почти час."
+        source: { kind: authored }
+  - id: nearly-happened
+    ru: "чуть не, едва не"
+    examples:
+      - pl: "Niemal upadł na schodach."
+        ru: "Он чуть не упал на лестнице."
+        source: { kind: authored }
+      - pl: "Niemal zapomniałem o spotkaniu."
+        ru: "Я чуть не забыл о встрече."
+        source: { kind: authored }
+  - id: as-good-as
+    ru: "практически, можно сказать"
+    examples:
+      - pl: "To niemal pewne."
+        ru: "Это практически точно."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ЛОВУШКА ОПАСНАЯ: РУССКОЕ «НЕМАЛО» ЗНАЧИТ ПОЧТИ ПРОТИВОПОЛОЖНОЕ. По-русски «немало» это «много, порядочно». Польское niemal значит «ПОЧТИ», то есть «чуть-чуть не». Фраза niemal wszyscy это «почти все», а не «немало народу». Сходство написания здесь прямо вредит, и пару стоит запомнить как ложную." }
+  - { kind: usage, text: "Синоним prawie «почти» употребляется чаще и свободнее; niemal звучит чуть книжнее и охотно идёт перед числом или прилагательным: niemal sto osób, niemal pewny. Усиленный вариант — niemalże, с той же разницей в оттенке, что между «почти» и «почти что»." }
+  - { kind: pronunciation, text: "Два слога, ударение на первом: NIE-mal. Ni мягкое, конечное l тоже мягкое: «не́маль». Слово не изменяется." }
+  - { kind: register, text: "Нейтрально, чуть книжнее разговорного prawie. В устной речи чаще скажут prawie wszyscy; niemal встретится в газете, в докладе, в повествовании. С отрицанием не употребляется: «niemal nie» звучит неловко, там нужно prawie nie." }
+collocations:
+  - { pl: "niemal wszyscy", ru: "почти все" }
+  - { pl: "niemal zawsze", ru: "почти всегда" }
+  - { pl: "niemal pewny", ru: "почти уверенный" }
+family:
+  - { pl: "prawie", ru: "почти", relation: derived }
+  - { pl: "mało", ru: "мало", relation: root, id: malo }
+  - { pl: "ledwo", ru: "едва", relation: derived, id: ledwo }
+etymology: "Сращение отрицания nie с mal, старой формой слова mało «мало»: буквально «не мало недостаёт», то есть почти. Русское «немало» собрано из тех же двух частей, но пошло по прямому прочтению — «не мало, а много». Один материал, два противоположных итога."
+memory: "niemal — «ПОЧТИ», а русское «немало» значит «много»: ложная пара из одинаковых частей. Niemal wszyscy это «почти все». Разговорный синоним — prawie."
+idioms:
+  - { pl: "niemal wszyscy", ru: "почти все" }
+  - { pl: "niemal co dzień", ru: "чуть ли не каждый день" }
+formExamples:
+  - form: "niemal"
+    pl: "Niemal wszyscy zdążyli na pociąg."
+    ru: "Почти все успели на поезд."
+    source: { kind: authored }
+  - form: "niemal"
+    pl: "Niemal upadł na schodach."
+    ru: "Он чуть не упал на лестнице."
+    source: { kind: authored }
+  - form: "niemal"
+    pl: "To niemal pewne."
+    ru: "Это практически точно."
+    source: { kind: authored }

@@ -820,6 +820,12 @@ exclude:
   # star — не польское нарицательное слово: в корпусе это английское star
   # в названиях и заголовках, а также марка грузовиков Star
   - star
+  # Paula — личное имя, не нарицательное слово
+  - paula
+  # Laura — личное имя, не нарицательное слово
+  - laura
+  # tv — аббревиатура, а не словарная единица; по-польски telewizja
+  - tv
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -1023,6 +1029,9 @@ excludeNotes:
   czekalo: { why: not-a-lemma }
   jones: { why: proper-noun }
   star: { why: not-a-lemma }
+  paula: { why: proper-noun }
+  laura: { why: proper-noun }
+  tv: { why: not-a-lemma }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
