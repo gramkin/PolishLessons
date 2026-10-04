@@ -1,0 +1,63 @@
+# review
+id: amen
+format: 2
+lemma: "amen"
+rank: 2337
+pos: noun
+pron: { cyr: "а́мэн" }
+senses:
+  - id: liturgical
+    ru: "аминь (в молитве)"
+    examples:
+      - pl: "Na koniec wszyscy powiedzieli amen."
+        ru: "В конце все сказали аминь."
+        source: { kind: authored }
+      - pl: "Modlitwa kończy się słowem amen."
+        ru: "Молитва кончается словом аминь."
+        source: { kind: authored }
+  - id: thats-that
+    ru: "и всё, и точка"
+    examples:
+      - pl: "Powiedział, co miał powiedzieć, i amen."
+        ru: "Он сказал что хотел — и всё."
+        source: { kind: authored }
+      - pl: "Zapłacone, podpisane, amen."
+        ru: "Заплачено, подписано, и точка."
+        source: { kind: authored }
+  - id: certainty
+    ru: "jak amen w pacierzu — как пить дать"
+    examples:
+      - pl: "Spóźni się, to pewne jak amen w pacierzu."
+        ru: "Он опоздает, это как пить дать."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "СЛОВО НЕ СКЛОНЯЕТСЯ — ФОРМА ОДНА НА ВСЕ СЛУЧАИ. Так ведут себя заимствования, пришедшие как готовая формула: amen, alleluja, tabu. В словаре оно числится существительным среднего рода, но падежей у него нет: powiedzieć amen, skończyć na amen." }
+  - { kind: false-friend, text: "Значение то же, что у русского «аминь», и путь слова тот же: древнееврейское «истинно, да будет так» через греческий и латынь. Расходится только употребление второго смысла: польское i amen в конце фразы значит «и всё, разговор окончен», и звучит это разговорно, а не кощунственно." }
+  - { kind: pronunciation, text: "Два слога, ударение на первом: A-men. Оба гласных чистые, конечное n твёрдое: «а́мэн». Русское «аминь» с ударением на втором слоге и мягким нь — ударение здесь другое." }
+  - { kind: register, text: "В церкви — слово обрядовое. В обиходе второе и третье значения вполне светские: amen как итог спора и оборот jak amen w pacierzu «как аминь в молитве», то есть «наверняка». Последний слышится постоянно и никакой набожности не предполагает." }
+collocations:
+  - { pl: "powiedzieć amen", ru: "сказать аминь" }
+  - { pl: "jak amen w pacierzu", ru: "как пить дать" }
+  - { pl: "i amen", ru: "и всё, и точка" }
+family:
+  - { pl: "pacierz", ru: "молитва", relation: root }
+  - { pl: "modlitwa", ru: "молитва", relation: root }
+  - { pl: "koniec", ru: "конец", relation: derived, id: koniec }
+etymology: "Из древнееврейского амен «истинно, да будет так», через греческий и латынь — тем же путём, что и русское «аминь». Одно из немногих слов, прошедших через три языка почти без изменений. Польский сохранил ударение на первом слоге, русский перенёс его на второй."
+memory: "amen — «аминь», не склоняется вовсе. Ударение на ПЕРВОМ слоге, в отличие от русского. И стоит запомнить оборот jak amen w pacierzu — «как пить дать», о том, что случится наверняка."
+idioms:
+  - { pl: "jak amen w pacierzu", ru: "как пить дать, наверняка" }
+  - { pl: "i amen", ru: "и всё, и точка" }
+formExamples:
+  - form: "amen"
+    pl: "Na koniec wszyscy powiedzieli amen."
+    ru: "В конце все сказали аминь."
+    source: { kind: authored }
+  - form: "amen"
+    pl: "Zapłacone, podpisane, amen."
+    ru: "Заплачено, подписано, и точка."
+    source: { kind: authored }
+  - form: "amen"
+    pl: "Spóźni się, to pewne jak amen w pacierzu."
+    ru: "Он опоздает, это как пить дать."
+    source: { kind: authored }
