@@ -1,0 +1,810 @@
+# review
+id: wazyc
+format: 2
+lemma: "ważyć"
+rank: 2290
+pos: verb
+pron: { cyr: "ва́жыць" }
+senses:
+  - id: weigh-intransitive
+    ru: "весить"
+    examples:
+      - pl: "Ile ważysz?"
+        ru: "Сколько ты весишь?"
+        source: { kind: authored }
+      - pl: "Paczka waży dwa kilogramy."
+        ru: "Посылка весит два килограмма."
+        source: { kind: authored }
+  - id: weigh-transitive
+    ru: "взвешивать"
+    examples:
+      - pl: "Sprzedawca ważył jabłka na starej wadze."
+        ru: "Продавец взвешивал яблоки на старых весах."
+        source: { kind: authored }
+      - pl: "Ważono zawodników przed walką."
+        ru: "Спортсменов взвешивали перед боем."
+        source: { kind: authored }
+  - id: weigh-words
+    ru: "взвешивать (слова, решения)"
+    examples:
+      - pl: "Ważył każde słowo."
+        ru: "Он взвешивал каждое слово."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ЭТО КОРЕНЬ, ИЗ КОТОРОГО РУССКИЙ ВЗЯЛ ДВА СЛОВА. Ważyć «весить» от waga «вес». От него же ważny — буквально «имеющий вес», — и русское «ВАЖНЫЙ» заимствовано именно отсюда. И odważyć się «взвесить и решиться» дало русское «ОТВАЖНЫЙ». Так что waga, ważny, odważny и ważyć — одна семья, и два её члена русский язык взял у поляков целиком." }
+  - { kind: government, text: "Глагол работает в обе стороны. Без дополнения он значит «весить»: paczka waży dwa kilo, ile ważysz. С винительным — «взвешивать»: ważyć towar, ważyć jabłka. Возвратное ważyć się значит и «взвешиваться» (ważę się co rano), и «отваживаться»: ważyć się na coś, nie waż się tego robić «не смей этого делать»." }
+  - { kind: usage, text: "Вид несовершенный, совершенная пара — zważyć. Поэтому есть причастие ważący и деепричастие ważąc, а формы на -wszy у него нет: она принадлежит совершенному виду и живёт в обороте zważywszy na coś «принимая во внимание». Одна форма в таблице пропущена по этой причине и объяснена в карточке." }
+  - { kind: pronunciation, text: "Два слога, ударение на первом: WA-żyć. Ż читается как твёрдое ж, y как ы: «ва́жыць». В страдательном причастии появляется o: ważony — «важо́ны», с ударением на предпоследнем слоге." }
+collocations:
+  - { pl: "ile ważysz?", ru: "сколько ты весишь?" }
+  - { pl: "ważyć słowa", ru: "взвешивать слова" }
+  - { pl: "nie waż się!", ru: "не смей!" }
+family:
+  - { pl: "waga", ru: "вес, весы", relation: root, id: waga }
+  - { pl: "ważny", ru: "важный", relation: derived, id: wazny }
+  - { pl: "odważny", ru: "отважный", relation: derived, id: odwazny }
+  - { pl: "zważyć", ru: "взвесить", relation: aspect }
+etymology: "От waga «вес», из средневекового немецкого wāge «весы». Глагол оброс родным гнездом: ważny «важный», odważyć się «отважиться», odważny «отважный», rozważyć «обдумать», uważać «считать, следить». Русские «важный» и «отважный» заимствованы из польского вместе с этой внутренней формой: важно то, что имеет вес."
+memory: "ważyć — и «весить», и «взвешивать»: ile ważysz? против ważyć towar. Корень waga «вес» дал ważny, и русское «важный» взято отсюда же. А ważyć się значит «взвешиваться» и «отваживаться»: nie waż się! — «не смей!»."
+idioms:
+  - { pl: "ważyć słowa", ru: "взвешивать слова" }
+  - { pl: "nie waż się tego robić", ru: "не смей этого делать" }
+formExamplesSkip:
+  - { form: "ważywszy", reason: "Пропуск по грамматической причине. Деепричастие на -wszy образуется в польском ТОЛЬКО от глаголов совершенного вида. Ważyć несовершенный, и его деепричастие — ważąc «взвешивая»; форма на -wszy принадлежит совершенному zważyć, откуда zważywszy — слово живое и частотное в обороте zważywszy na coś «принимая во внимание что-л.». Отдельное ważywszy от несовершенного глагола — артефакт генератора парадигм." }
+formExamples:
+  - form: "waż"
+    pl: "Waż słowa, mówisz do dziecka."
+    ru: "Взвешивай слова, ты говоришь с ребёнком."
+    source: { kind: authored }
+  - form: "waż"
+    pl: "Waż mąkę dokładnie, ciasto tego wymaga."
+    ru: "Взвешивай муку точно, тесто этого требует."
+    source: { kind: authored }
+  - form: "waż"
+    pl: "Nie waż się tego robić."
+    ru: "Не смей этого делать."
+    source: { kind: authored }
+  - form: "ważcie"
+    pl: "Ważcie towar przy kliencie."
+    ru: "Взвешивайте товар при клиенте."
+    source: { kind: authored }
+  - form: "ważcie"
+    pl: "Ważcie słowa, nagrywają nas."
+    ru: "Взвешивайте слова, нас записывают."
+    source: { kind: authored }
+  - form: "ważcie"
+    pl: "Nie ważcie się wychodzić przed końcem."
+    ru: "Не смейте уходить до конца."
+    source: { kind: authored }
+  - form: "ważeni"
+    pl: "Zawodnicy ważeni są dzień przed walką."
+    ru: "Спортсменов взвешивают за день до боя."
+    source: { kind: authored }
+  - form: "ważeni"
+    pl: "Byli ważeni i mierzeni przed każdym obozem."
+    ru: "Их взвешивали и измеряли перед каждым сбором."
+    source: { kind: authored }
+  - form: "ważeni"
+    pl: "Ważeni co tydzień pacjenci szybko tracili cierpliwość."
+    ru: "Взвешиваемые еженедельно пациенты быстро теряли терпение."
+    source: { kind: authored }
+  - form: "ważenia"
+    pl: "Do ważenia używają wagi elektronicznej."
+    ru: "Для взвешивания используют электронные весы."
+    source: { kind: authored }
+  - form: "ważenia"
+    pl: "Od ważenia do wysyłki mija kwadrans."
+    ru: "От взвешивания до отправки проходит четверть часа."
+    source: { kind: authored }
+  - form: "ważenia"
+    pl: "Bez ważenia nie przyjmą przesyłki."
+    ru: "Без взвешивания отправление не примут."
+    source: { kind: authored }
+  - form: "ważenie"
+    pl: "Ważenie towaru zajmuje więcej czasu niż liczenie."
+    ru: "Взвешивание товара занимает больше времени, чем счёт."
+    source: { kind: authored }
+  - form: "ważenie"
+    pl: "Ważenie zawodników odbywa się publicznie."
+    ru: "Взвешивание спортсменов проходит публично."
+    source: { kind: authored }
+  - form: "ważenie"
+    pl: "Ważenie bagażu w domu oszczędza nerwy."
+    ru: "Взвешивание багажа дома бережёт нервы."
+    source: { kind: authored }
+  - form: "ważeniem"
+    pl: "Przed ważeniem trzeba wytarować wagę."
+    ru: "Перед взвешиванием надо обнулить весы."
+    source: { kind: authored }
+  - form: "ważeniem"
+    pl: "Między ważeniem a pakowaniem jest jeszcze kontrola."
+    ru: "Между взвешиванием и упаковкой есть ещё контроль."
+    source: { kind: authored }
+  - form: "ważeniem"
+    pl: "Zajmuje się ważeniem i znakowaniem towaru."
+    ru: "Он занимается взвешиванием и маркировкой товара."
+    source: { kind: authored }
+  - form: "ważeniu"
+    pl: "Po ważeniu okazało się, że brakuje kilograma."
+    ru: "После взвешивания оказалось, что не хватает килограмма."
+    source: { kind: authored }
+  - form: "ważeniu"
+    pl: "O ważeniu zawodników pisze regulamin."
+    ru: "О взвешивании спортсменов пишет регламент."
+    source: { kind: authored }
+  - form: "ważeniu"
+    pl: "W ważeniu pomagał mu syn."
+    ru: "Во взвешивании ему помогал сын."
+    source: { kind: authored }
+  - form: "ważmy"
+    pl: "Ważmy słowa, sprawa jest delikatna."
+    ru: "Будем взвешивать слова, дело деликатное."
+    source: { kind: authored }
+  - form: "ważmy"
+    pl: "Ważmy wszystko na jednej wadze."
+    ru: "Будем взвешивать всё на одних весах."
+    source: { kind: authored }
+  - form: "ważmy"
+    pl: "Nie ważmy się oceniać go zbyt szybko."
+    ru: "Не будем осмеливаться судить его слишком быстро."
+    source: { kind: authored }
+  - form: "ważona"
+    pl: "Mąka ważona na oko zepsuje ciasto."
+    ru: "Мука, отмеренная на глаз, испортит тесто."
+    source: { kind: authored }
+  - form: "ważona"
+    pl: "Przesyłka ważona na poczcie kosztowała więcej."
+    ru: "Отправление, взвешенное на почте, стоило дороже."
+    source: { kind: authored }
+  - form: "ważona"
+    pl: "Każda partia ważona jest przy odbiorze."
+    ru: "Каждая партия взвешивается при приёмке."
+    source: { kind: authored }
+  - form: "ważone"
+    pl: "Towary ważone sprzedaje się na kilogramy."
+    ru: "Весовые товары продают на килограммы."
+    source: { kind: authored }
+  - form: "ważone"
+    pl: "Jabłka ważone w sklepie są droższe."
+    ru: "Яблоки, взвешиваемые в магазине, дороже."
+    source: { kind: authored }
+  - form: "ważone"
+    pl: "Wszystkie paczki ważone są przed wysyłką."
+    ru: "Все посылки взвешиваются перед отправкой."
+    source: { kind: authored }
+  - form: "ważonego"
+    pl: "Od towaru ważonego przy kliencie nikt nie odchodzi."
+    ru: "От товара, взвешиваемого при клиенте, никто не отходит."
+    source: { kind: authored }
+  - form: "ważonego"
+    pl: "Nie znam węgla ważonego inaczej niż na wadze."
+    ru: "Я не знаю угля, взвешиваемого иначе, чем на весах."
+    source: { kind: authored }
+  - form: "ważonego"
+    pl: "Nie ma tu nic ważonego ręcznie."
+    ru: "Здесь нет ничего, взвешиваемого вручную."
+    source: { kind: authored }
+  - form: "ważonej"
+    pl: "Od mąki ważonej dokładnie zależy całe ciasto."
+    ru: "От точно взвешенной муки зависит всё тесто."
+    source: { kind: authored }
+  - form: "ważonej"
+    pl: "Z partii ważonej rano brakowało dwóch worków."
+    ru: "Из взвешенной утром партии не хватало двух мешков."
+    source: { kind: authored }
+  - form: "ważonej"
+    pl: "Nie znam przesyłki ważonej aż trzy razy."
+    ru: "Я не знаю отправления, взвешенного трижды."
+    source: { kind: authored }
+  - form: "ważonemu"
+    pl: "Towarowi ważonemu przy kliencie ufa się bardziej."
+    ru: "Товару, взвешиваемому при клиенте, доверяют больше."
+    source: { kind: authored }
+  - form: "ważonemu"
+    pl: "Dzięki węglowi ważonemu na miejscu uniknęli sporu."
+    ru: "Благодаря углю, взвешенному на месте, они избежали спора."
+    source: { kind: authored }
+  - form: "ważonemu"
+    pl: "Przyjrzyj się temu ważonemu dwukrotnie bagażowi."
+    ru: "Присмотрись к этому дважды взвешенному багажу."
+    source: { kind: authored }
+  - form: "ważono"
+    pl: "Ważono zawodników przed walką."
+    ru: "Спортсменов взвешивали перед боем."
+    source: { kind: authored }
+  - form: "ważono"
+    pl: "Dawniej ważono mąkę na targu przy kupującym."
+    ru: "Раньше муку взвешивали на рынке при покупателе."
+    source: { kind: authored }
+  - form: "ważono"
+    pl: "Niczego tam nie ważono, sprzedawali na sztuki."
+    ru: "Там ничего не взвешивали, продавали поштучно."
+    source: { kind: authored }
+  - form: "ważony"
+    pl: "Towar ważony przy kliencie budzi zaufanie."
+    ru: "Товар, взвешиваемый при клиенте, вызывает доверие."
+    source: { kind: authored }
+  - form: "ważony"
+    pl: "Bagaż ważony dwa razy daje różne wyniki."
+    ru: "Багаж, взвешенный дважды, даёт разные результаты."
+    source: { kind: authored }
+  - form: "ważony"
+    pl: "Węgiel ważony na wadze samochodowej jest tańszy."
+    ru: "Уголь, взвешиваемый на автомобильных весах, дешевле."
+    source: { kind: authored }
+  - form: "ważonych"
+    pl: "Wśród towarów ważonych są i przyprawy."
+    ru: "Среди весовых товаров есть и приправы."
+    source: { kind: authored }
+  - form: "ważonych"
+    pl: "O produktach ważonych mówi osobny przepis."
+    ru: "О весовых товарах говорит отдельное правило."
+    source: { kind: authored }
+  - form: "ważonych"
+    pl: "Połowa paczek ważonych rano wróciła."
+    ru: "Половина взвешенных утром посылок вернулась."
+    source: { kind: authored }
+  - form: "ważonym"
+    pl: "W towarze ważonym na tej wadze zawsze brakuje grama."
+    ru: "В товаре, взвешенном на этих весах, всегда не хватает грамма."
+    source: { kind: authored }
+  - form: "ważonym"
+    pl: "Produktom ważonym nadaje się osobne kody."
+    ru: "Весовым товарам присваивают отдельные коды."
+    source: { kind: authored }
+  - form: "ważonym"
+    pl: "Handluje węglem ważonym na wadze samochodowej."
+    ru: "Он торгует углём, взвешиваемым на автомобильных весах."
+    source: { kind: authored }
+  - form: "ważonymi"
+    pl: "Między towarami ważonymi a paczkowanymi jest różnica w cenie."
+    ru: "Между весовыми и фасованными товарами есть разница в цене."
+    source: { kind: authored }
+  - form: "ważonymi"
+    pl: "Zajmuje się produktami ważonymi w sklepach."
+    ru: "Он занимается весовыми товарами в магазинах."
+    source: { kind: authored }
+  - form: "ważonymi"
+    pl: "Lada zapełniła się owocami ważonymi na miejscu."
+    ru: "Прилавок заполнился фруктами, взвешиваемыми на месте."
+    source: { kind: authored }
+  - form: "ważoną"
+    pl: "Kupił mąkę ważoną, nie paczkowaną."
+    ru: "Он купил муку на развес, а не фасованную."
+    source: { kind: authored }
+  - form: "ważoną"
+    pl: "Uznali tę partię za ważoną nierzetelnie."
+    ru: "Эту партию сочли взвешенной недобросовестно."
+    source: { kind: authored }
+  - form: "ważoną"
+    pl: "Przyniósł kawę ważoną prosto z worka."
+    ru: "Он принёс кофе, взвешенный прямо из мешка."
+    source: { kind: authored }
+  - form: "waży"
+    pl: "Paczka waży dwa kilogramy."
+    ru: "Посылка весит два килограмма."
+    source: { kind: authored }
+  - form: "waży"
+    pl: "Nikt tu nie waży towaru ręcznie."
+    ru: "Никто здесь не взвешивает товар вручную."
+    source: { kind: authored }
+  - form: "waży"
+    pl: "Ten kamień waży więcej, niż wygląda."
+    ru: "Этот камень весит больше, чем выглядит."
+    source: { kind: authored }
+  - form: "ważycie"
+    pl: "Ważycie mąkę czy mierzycie szklanką?"
+    ru: "Вы взвешиваете муку или меряете стаканом?"
+    source: { kind: authored }
+  - form: "ważycie"
+    pl: "Ważycie bagaż w domu czy na lotnisku?"
+    ru: "Вы взвешиваете багаж дома или в аэропорту?"
+    source: { kind: authored }
+  - form: "ważycie"
+    pl: "Nie ważycie chyba każdego listu?"
+    ru: "Вы ведь не взвешиваете каждое письмо?"
+    source: { kind: authored }
+  - form: "ważyli"
+    pl: "Ważyli zawodników przed walką."
+    ru: "Они взвешивали спортсменов перед боем."
+    source: { kind: authored }
+  - form: "ważyli"
+    pl: "Ważyli każdy worek osobno."
+    ru: "Они взвешивали каждый мешок отдельно."
+    source: { kind: authored }
+  - form: "ważyli"
+    pl: "Nie ważyli słów i stąd cała awantura."
+    ru: "Они не взвешивали слов, отсюда весь скандал."
+    source: { kind: authored }
+  - form: "ważyliby"
+    pl: "Ważyliby towar przy kliencie, gdyby kazano."
+    ru: "Они взвешивали бы товар при клиенте, если бы велели."
+    source: { kind: authored }
+  - form: "ważyliby"
+    pl: "Zawodnicy ważyliby się dzień wcześniej."
+    ru: "Спортсмены взвешивались бы днём раньше."
+    source: { kind: authored }
+  - form: "ważyliby"
+    pl: "Bez tej kontroli nie ważyliby niczego."
+    ru: "Без этой проверки они ничего не взвешивали бы."
+    source: { kind: authored }
+  - form: "ważylibyście"
+    pl: "Ważylibyście bagaż w domu?"
+    ru: "Вы взвешивали бы багаж дома?"
+    source: { kind: authored }
+  - form: "ważylibyście"
+    pl: "Czy ważylibyście mąkę na wadze aptecznej?"
+    ru: "Взвешивали бы вы муку на аптекарских весах?"
+    source: { kind: authored }
+  - form: "ważylibyście"
+    pl: "Bez wagi nie ważylibyście niczego."
+    ru: "Без весов вы ничего не взвешивали бы."
+    source: { kind: authored }
+  - form: "ważylibyśmy"
+    pl: "Ważylibyśmy każdą skrzynię, gdyby był czas."
+    ru: "Мы взвешивали бы каждый ящик, будь время."
+    source: { kind: authored }
+  - form: "ważylibyśmy"
+    pl: "Ważylibyśmy się częściej, ale nie mamy wagi."
+    ru: "Мы взвешивались бы чаще, но у нас нет весов."
+    source: { kind: authored }
+  - form: "ważylibyśmy"
+    pl: "Bez tej wagi nie ważylibyśmy nic dokładnie."
+    ru: "Без этих весов мы ничего не взвесили бы точно."
+    source: { kind: authored }
+  - form: "ważyliście"
+    pl: "Ważyliście bagaż przed wyjazdem?"
+    ru: "Вы взвесили багаж перед отъездом?"
+    source: { kind: authored }
+  - form: "ważyliście"
+    pl: "Ile ważyliście na obozie?"
+    ru: "Сколько вы весили в лагере?"
+    source: { kind: authored }
+  - form: "ważyliście"
+    pl: "Nie ważyliście słów przy dzieciach."
+    ru: "Вы не взвешивали слов при детях."
+    source: { kind: authored }
+  - form: "ważyliśmy"
+    pl: "Ważyliśmy każdą skrzynię osobno."
+    ru: "Мы взвешивали каждый ящик отдельно."
+    source: { kind: authored }
+  - form: "ważyliśmy"
+    pl: "Ważyliśmy się na tę przeprowadzkę dwa lata."
+    ru: "Мы отваживались на этот переезд два года."
+    source: { kind: authored }
+  - form: "ważyliśmy"
+    pl: "Nie ważyliśmy bagażu i zapłaciliśmy karę."
+    ru: "Мы не взвесили багаж и заплатили штраф."
+    source: { kind: authored }
+  - form: "ważymy"
+    pl: "Ważymy bagaż przed odprawą."
+    ru: "Мы взвешиваем багаж перед регистрацией."
+    source: { kind: authored }
+  - form: "ważymy"
+    pl: "Ważymy się raz w tygodniu."
+    ru: "Мы взвешиваемся раз в неделю."
+    source: { kind: authored }
+  - form: "ważymy"
+    pl: "Nie ważymy każdej sztuki osobno."
+    ru: "Мы не взвешиваем каждую штуку отдельно."
+    source: { kind: authored }
+  - form: "ważysz"
+    pl: "Ile ważysz?"
+    ru: "Сколько ты весишь?"
+    source: { kind: authored }
+  - form: "ważysz"
+    pl: "Ważysz mąkę czy sypiesz na oko?"
+    ru: "Ты взвешиваешь муку или сыплешь на глаз?"
+    source: { kind: authored }
+  - form: "ważysz"
+    pl: "Nie ważysz słów i stąd te kłopoty."
+    ru: "Ты не взвешиваешь слов, отсюда эти неприятности."
+    source: { kind: authored }
+  - form: "ważyć"
+    pl: "Trzeba ważyć słowa przy takim rozmówcy."
+    ru: "Надо взвешивать слова при таком собеседнике."
+    source: { kind: authored }
+  - form: "ważyć"
+    pl: "Zaczęli ważyć towar na nowej wadze."
+    ru: "Они начали взвешивать товар на новых весах."
+    source: { kind: authored }
+  - form: "ważyć"
+    pl: "Nie da się ważyć tego bez odważników."
+    ru: "Это нельзя взвесить без гирь."
+    source: { kind: authored }
+  - form: "ważył"
+    pl: "Ważył każde słowo."
+    ru: "Он взвешивал каждое слово."
+    source: { kind: authored }
+  - form: "ważył"
+    pl: "Sprzedawca ważył jabłka na starej wadze."
+    ru: "Продавец взвешивал яблоки на старых весах."
+    source: { kind: authored }
+  - form: "ważył"
+    pl: "Nie ważył wtedy nawet sześćdziesięciu kilo."
+    ru: "Он тогда не весил и шестидесяти килограммов."
+    source: { kind: authored }
+  - form: "ważyła"
+    pl: "Ważyła mąkę na aptekarskiej wadze."
+    ru: "Она взвешивала муку на аптекарских весах."
+    source: { kind: authored }
+  - form: "ważyła"
+    pl: "Paczka ważyła dokładnie kilogram."
+    ru: "Посылка весила ровно килограмм."
+    source: { kind: authored }
+  - form: "ważyła"
+    pl: "Nie ważyła słów i obraziła gospodarza."
+    ru: "Она не взвешивала слов и обидела хозяина."
+    source: { kind: authored }
+  - form: "ważyłaby"
+    pl: "Paczka ważyłaby mniej bez tego opakowania."
+    ru: "Посылка весила бы меньше без этой упаковки."
+    source: { kind: authored }
+  - form: "ważyłaby"
+    pl: "Ważyłaby mąkę, ale zepsuła się waga."
+    ru: "Она взвешивала бы муку, но сломались весы."
+    source: { kind: authored }
+  - form: "ważyłaby"
+    pl: "Bez tej choroby ważyłaby tyle co dawniej."
+    ru: "Без этой болезни она весила бы как прежде."
+    source: { kind: authored }
+  - form: "ważyłabym"
+    pl: "Ważyłabym to dokładniej, gdyby była waga."
+    ru: "Я взвесила бы это точнее, если бы были весы."
+    source: { kind: authored }
+  - form: "ważyłabym"
+    pl: "Na twoim miejscu ważyłabym słowa."
+    ru: "На твоём месте я взвешивала бы слова."
+    source: { kind: authored }
+  - form: "ważyłabym"
+    pl: "Bez odważników nie ważyłabym niczego."
+    ru: "Без гирь я ничего не взвешивала бы."
+    source: { kind: authored }
+  - form: "ważyłabyś"
+    pl: "Ważyłabyś bagaż przed lotem?"
+    ru: "Ты взвесила бы багаж перед полётом?"
+    source: { kind: authored }
+  - form: "ważyłabyś"
+    pl: "Czy ważyłabyś każdy składnik osobno?"
+    ru: "Взвешивала бы ты каждый ингредиент отдельно?"
+    source: { kind: authored }
+  - form: "ważyłabyś"
+    pl: "Bez wagi nie ważyłabyś tego wcale."
+    ru: "Без весов ты вовсе не взвешивала бы это."
+    source: { kind: authored }
+  - form: "ważyłam"
+    pl: "Ważyłam bagaż w domu i wyszło mniej."
+    ru: "Я взвесила багаж дома, и вышло меньше."
+    source: { kind: authored }
+  - form: "ważyłam"
+    pl: "Ważyłam wtedy o dziesięć kilo mniej."
+    ru: "Я весила тогда на десять килограммов меньше."
+    source: { kind: authored }
+  - form: "ważyłam"
+    pl: "Nie ważyłam każdego składnika."
+    ru: "Я не взвешивала каждый ингредиент."
+    source: { kind: authored }
+  - form: "ważyłaś"
+    pl: "Ważyłaś już walizkę?"
+    ru: "Ты уже взвесила чемодан?"
+    source: { kind: authored }
+  - form: "ważyłaś"
+    pl: "Ile ważyłaś przed chorobą?"
+    ru: "Сколько ты весила до болезни?"
+    source: { kind: authored }
+  - form: "ważyłaś"
+    pl: "Nie ważyłaś słów, a szkoda."
+    ru: "Ты не взвешивала слов, а жаль."
+    source: { kind: authored }
+  - form: "ważyłby"
+    pl: "Ważyłby mniej, gdyby mniej siedział."
+    ru: "Он весил бы меньше, если бы меньше сидел."
+    source: { kind: authored }
+  - form: "ważyłby"
+    pl: "Nikt nie ważyłby tego ręcznie przy takiej ilości."
+    ru: "Никто не взвешивал бы это вручную при таком количестве."
+    source: { kind: authored }
+  - form: "ważyłby"
+    pl: "Ważyłby słowa, gdyby wiedział, kto słucha."
+    ru: "Он взвешивал бы слова, если бы знал, кто слушает."
+    source: { kind: authored }
+  - form: "ważyłbym"
+    pl: "Ważyłbym to dokładniej, gdyby była waga."
+    ru: "Я взвесил бы это точнее, если бы были весы."
+    source: { kind: authored }
+  - form: "ważyłbym"
+    pl: "Na twoim miejscu ważyłbym słowa."
+    ru: "На твоём месте я взвешивал бы слова."
+    source: { kind: authored }
+  - form: "ważyłbym"
+    pl: "Bez odważników nie ważyłbym niczego."
+    ru: "Без гирь я ничего не взвешивал бы."
+    source: { kind: authored }
+  - form: "ważyłbyś"
+    pl: "Ważyłbyś bagaż przed lotem?"
+    ru: "Ты взвесил бы багаж перед полётом?"
+    source: { kind: authored }
+  - form: "ważyłbyś"
+    pl: "Czy ważyłbyś każdy składnik osobno?"
+    ru: "Взвешивал бы ты каждый ингредиент отдельно?"
+    source: { kind: authored }
+  - form: "ważyłbyś"
+    pl: "Bez wagi nie ważyłbyś tego wcale."
+    ru: "Без весов ты вовсе не взвешивал бы это."
+    source: { kind: authored }
+  - form: "ważyłem"
+    pl: "Ważyłem bagaż w domu i wyszło mniej."
+    ru: "Я взвесил багаж дома, и вышло меньше."
+    source: { kind: authored }
+  - form: "ważyłem"
+    pl: "Ważyłem wtedy o dziesięć kilo mniej."
+    ru: "Я весил тогда на десять килограммов меньше."
+    source: { kind: authored }
+  - form: "ważyłem"
+    pl: "Nie ważyłem każdego składnika."
+    ru: "Я не взвешивал каждый ингредиент."
+    source: { kind: authored }
+  - form: "ważyłeś"
+    pl: "Ważyłeś już walizkę?"
+    ru: "Ты уже взвесил чемодан?"
+    source: { kind: authored }
+  - form: "ważyłeś"
+    pl: "Ile ważyłeś przed chorobą?"
+    ru: "Сколько ты весил до болезни?"
+    source: { kind: authored }
+  - form: "ważyłeś"
+    pl: "Nie ważyłeś słów, a szkoda."
+    ru: "Ты не взвешивал слов, а жаль."
+    source: { kind: authored }
+  - form: "ważyło"
+    pl: "Pudło ważyło tyle, że nie dało się go podnieść."
+    ru: "Коробка весила столько, что её нельзя было поднять."
+    source: { kind: authored }
+  - form: "ważyło"
+    pl: "Kilka osób ważyło się na tę podróż."
+    ru: "Несколько человек отважились на эту поездку."
+    source: { kind: authored }
+  - form: "ważyło"
+    pl: "Nic tam nie ważyło więcej niż kilogram."
+    ru: "Там ничего не весило больше килограмма."
+    source: { kind: authored }
+  - form: "ważyłoby"
+    pl: "Pudło ważyłoby mniej bez książek."
+    ru: "Коробка весила бы меньше без книг."
+    source: { kind: authored }
+  - form: "ważyłoby"
+    pl: "Kilka osób ważyłoby się na taki krok."
+    ru: "Несколько человек отважились бы на такой шаг."
+    source: { kind: authored }
+  - form: "ważyłoby"
+    pl: "Nic tam nie ważyłoby więcej niż kilogram."
+    ru: "Там ничего не весило бы больше килограмма."
+    source: { kind: authored }
+  - form: "ważyły"
+    pl: "Skrzynie ważyły tyle, że pękła paleta."
+    ru: "Ящики весили столько, что треснул поддон."
+    source: { kind: authored }
+  - form: "ważyły"
+    pl: "Dziewczyny ważyły się przed zawodami."
+    ru: "Девушки взвешивались перед соревнованиями."
+    source: { kind: authored }
+  - form: "ważyły"
+    pl: "Te walizki nie ważyły nawet dwudziestu kilo."
+    ru: "Эти чемоданы не весили и двадцати килограммов."
+    source: { kind: authored }
+  - form: "ważyłyby"
+    pl: "Skrzynie ważyłyby mniej bez wody."
+    ru: "Ящики весили бы меньше без воды."
+    source: { kind: authored }
+  - form: "ważyłyby"
+    pl: "Dziewczyny ważyłyby się przed każdym startem."
+    ru: "Девушки взвешивались бы перед каждым стартом."
+    source: { kind: authored }
+  - form: "ważyłyby"
+    pl: "Bez tych kamieni walizki ważyłyby połowę."
+    ru: "Без этих камней чемоданы весили бы вдвое меньше."
+    source: { kind: authored }
+  - form: "ważyłybyście"
+    pl: "Ważyłybyście bagaż w domu?"
+    ru: "Вы взвешивали бы багаж дома?"
+    source: { kind: authored }
+  - form: "ważyłybyście"
+    pl: "Czy ważyłybyście mąkę na wadze aptecznej?"
+    ru: "Взвешивали бы вы муку на аптекарских весах?"
+    source: { kind: authored }
+  - form: "ważyłybyście"
+    pl: "Bez wagi nie ważyłybyście niczego."
+    ru: "Без весов вы ничего не взвешивали бы."
+    source: { kind: authored }
+  - form: "ważyłybyśmy"
+    pl: "Ważyłybyśmy każdą skrzynię, gdyby był czas."
+    ru: "Мы взвешивали бы каждый ящик, будь время."
+    source: { kind: authored }
+  - form: "ważyłybyśmy"
+    pl: "Ważyłybyśmy się częściej, ale nie mamy wagi."
+    ru: "Мы взвешивались бы чаще, но у нас нет весов."
+    source: { kind: authored }
+  - form: "ważyłybyśmy"
+    pl: "Bez tej wagi nie ważyłybyśmy nic dokładnie."
+    ru: "Без этих весов мы ничего не взвесили бы точно."
+    source: { kind: authored }
+  - form: "ważyłyście"
+    pl: "Ważyłyście bagaż przed wyjazdem?"
+    ru: "Вы взвесили багаж перед отъездом?"
+    source: { kind: authored }
+  - form: "ważyłyście"
+    pl: "Ile ważyłyście na obozie?"
+    ru: "Сколько вы весили в лагере?"
+    source: { kind: authored }
+  - form: "ważyłyście"
+    pl: "Nie ważyłyście słów przy dzieciach."
+    ru: "Вы не взвешивали слов при детях."
+    source: { kind: authored }
+  - form: "ważyłyśmy"
+    pl: "Ważyłyśmy każdą skrzynię osobno."
+    ru: "Мы взвешивали каждый ящик отдельно."
+    source: { kind: authored }
+  - form: "ważyłyśmy"
+    pl: "Ważyłyśmy się na tę przeprowadzkę dwa lata."
+    ru: "Мы отваживались на этот переезд два года."
+    source: { kind: authored }
+  - form: "ważyłyśmy"
+    pl: "Nie ważyłyśmy bagażu i zapłaciłyśmy karę."
+    ru: "Мы не взвесили багаж и заплатили штраф."
+    source: { kind: authored }
+  - form: "ważą"
+    pl: "Te skrzynie ważą po pięćdziesiąt kilo."
+    ru: "Эти ящики весят по пятьдесят килограммов."
+    source: { kind: authored }
+  - form: "ważą"
+    pl: "Zawodników ważą przed każdą walką."
+    ru: "Спортсменов взвешивают перед каждым боем."
+    source: { kind: authored }
+  - form: "ważą"
+    pl: "Nie ważą listów poniżej pięćdziesięciu gramów."
+    ru: "Письма легче пятидесяти граммов не взвешивают."
+    source: { kind: authored }
+  - form: "ważąc"
+    pl: "Ważąc słowa, powiedział tylko tyle."
+    ru: "Взвешивая слова, он сказал только это."
+    source: { kind: authored }
+  - form: "ważąc"
+    pl: "Ważąc towar, sprzedawca liczył w pamięci."
+    ru: "Взвешивая товар, продавец считал в уме."
+    source: { kind: authored }
+  - form: "ważąc"
+    pl: "Ważąc wszystkie za i przeciw, odmówili."
+    ru: "Взвесив все за и против, они отказались."
+    source: { kind: authored }
+  - form: "ważąca"
+    pl: "Paczka ważąca ponad kilogram kosztuje więcej."
+    ru: "Посылка весом больше килограмма стоит дороже."
+    source: { kind: authored }
+  - form: "ważąca"
+    pl: "Ważąca mąkę kobieta uśmiechnęła się do dziecka."
+    ru: "Взвешивавшая муку женщина улыбнулась ребёнку."
+    source: { kind: authored }
+  - form: "ważąca"
+    pl: "Belka ważąca pół tony zsunęła się z wozu."
+    ru: "Балка весом в полтонны съехала с воза."
+    source: { kind: authored }
+  - form: "ważące"
+    pl: "Przesyłki ważące ponad pięć kilo idą osobno."
+    ru: "Отправления весом больше пяти килограммов идут отдельно."
+    source: { kind: authored }
+  - form: "ważące"
+    pl: "Ważące towar wagi sklepowe legalizuje się co rok."
+    ru: "Взвешивающие товар магазинные весы поверяют ежегодно."
+    source: { kind: authored }
+  - form: "ważące"
+    pl: "Pudła ważące po trzydzieści kilo stały na palecie."
+    ru: "Коробки весом по тридцать килограммов стояли на поддоне."
+    source: { kind: authored }
+  - form: "ważącego"
+    pl: "Od pakunku ważącego tyle nikt nie oczekiwał kruchości."
+    ru: "От свёртка такого веса никто не ждал хрупкости."
+    source: { kind: authored }
+  - form: "ważącego"
+    pl: "Nie znam kamienia ważącego więcej niż ten."
+    ru: "Я не знаю камня тяжелее этого."
+    source: { kind: authored }
+  - form: "ważącego"
+    pl: "Nie ma tu nic ważącego ponad kilogram."
+    ru: "Здесь нет ничего весом больше килограмма."
+    source: { kind: authored }
+  - form: "ważącej"
+    pl: "Od paczki ważącej dwa kilo zaczęły się kłopoty."
+    ru: "С посылки весом в два килограмма начались неприятности."
+    source: { kind: authored }
+  - form: "ważącej"
+    pl: "Z belki ważącej pół tony zrobiono próg."
+    ru: "Из балки весом в полтонны сделали порог."
+    source: { kind: authored }
+  - form: "ważącej"
+    pl: "Nie znam przesyłki ważącej tak mało."
+    ru: "Я не знаю отправления, весящего так мало."
+    source: { kind: authored }
+  - form: "ważącemu"
+    pl: "Pakunkowi ważącemu ponad limit doliczono opłatę."
+    ru: "Свёртку с весом выше лимита начислили доплату."
+    source: { kind: authored }
+  - form: "ważącemu"
+    pl: "Dzięki kamieniowi ważącemu tonę brama się nie otwiera."
+    ru: "Благодаря камню весом в тонну ворота не открываются."
+    source: { kind: authored }
+  - form: "ważącemu"
+    pl: "Przyjrzyj się temu ważącemu tyle pudłu."
+    ru: "Присмотрись к этой коробке такого веса."
+    source: { kind: authored }
+  - form: "ważący"
+    pl: "Pakunek ważący dwadzieścia kilo ledwo unieśli."
+    ru: "Свёрток весом в двадцать килограммов они едва подняли."
+    source: { kind: authored }
+  - form: "ważący"
+    pl: "Ważący towar sprzedawca nie podnosił głowy."
+    ru: "Взвешивавший товар продавец не поднимал головы."
+    source: { kind: authored }
+  - form: "ważący"
+    pl: "Kamień ważący tonę leżał przy drodze."
+    ru: "Камень весом в тонну лежал у дороги."
+    source: { kind: authored }
+  - form: "ważących"
+    pl: "Wśród paczek ważących ponad kilo były dwie szklane."
+    ru: "Среди посылок весом больше килограмма были две стеклянные."
+    source: { kind: authored }
+  - form: "ważących"
+    pl: "O przesyłkach ważących ponad limit mówi osobny cennik."
+    ru: "Об отправлениях сверх лимита говорит отдельный прейскурант."
+    source: { kind: authored }
+  - form: "ważących"
+    pl: "Połowa skrzyń ważących po tonie stała pusta."
+    ru: "Половина ящиков весом по тонне стояла пустой."
+    source: { kind: authored }
+  - form: "ważącym"
+    pl: "W pudle ważącym trzydzieści kilo były same książki."
+    ru: "В коробке весом тридцать килограммов были одни книги."
+    source: { kind: authored }
+  - form: "ważącym"
+    pl: "Przesyłkom ważącym ponad limit nadaje się osobny numer."
+    ru: "Отправлениям сверх лимита присваивают отдельный номер."
+    source: { kind: authored }
+  - form: "ważącym"
+    pl: "Okazał się człowiekiem ważącym każde słowo."
+    ru: "Он оказался человеком, взвешивающим каждое слово."
+    source: { kind: authored }
+  - form: "ważącymi"
+    pl: "Między paczkami ważącymi mało a ciężkimi jest różnica w cenie."
+    ru: "Между лёгкими и тяжёлыми посылками есть разница в цене."
+    source: { kind: authored }
+  - form: "ważącymi"
+    pl: "Zajmuje się przesyłkami ważącymi ponad tonę."
+    ru: "Он занимается отправлениями весом больше тонны."
+    source: { kind: authored }
+  - form: "ważącymi"
+    pl: "Magazyn zapełnił się skrzyniami ważącymi po pół tony."
+    ru: "Склад заполнился ящиками весом по полтонны."
+    source: { kind: authored }
+  - form: "ważącą"
+    pl: "Podniósł skrzynię ważącą pięćdziesiąt kilo."
+    ru: "Он поднял ящик весом пятьдесят килограммов."
+    source: { kind: authored }
+  - form: "ważącą"
+    pl: "Uznali tę przesyłkę za ważącą ponad normę."
+    ru: "Это отправление сочли превышающим норму веса."
+    source: { kind: authored }
+  - form: "ważącą"
+    pl: "Widział belkę ważącą tyle co samochód."
+    ru: "Он видел балку весом с автомобиль."
+    source: { kind: authored }
+  - form: "ważę"
+    pl: "Ważę się co rano."
+    ru: "Я взвешиваюсь каждое утро."
+    source: { kind: authored }
+  - form: "ważę"
+    pl: "Ważę dziś mniej niż rok temu."
+    ru: "Я вешу сегодня меньше, чем год назад."
+    source: { kind: authored }
+  - form: "ważę"
+    pl: "Nie ważę każdego składnika osobno."
+    ru: "Я не взвешиваю каждый ингредиент отдельно."
+    source: { kind: authored }
