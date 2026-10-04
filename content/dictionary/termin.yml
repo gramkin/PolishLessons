@@ -1,0 +1,170 @@
+# review
+id: termin
+format: 2
+lemma: "termin"
+rank: 2521
+pos: noun
+pron: { cyr: "тэ́рмін" }
+senses:
+  - id: deadline
+    ru: "срок, дата сдачи"
+    examples:
+      - pl: "Termin mija w piątek."
+        ru: "Срок истекает в пятницу."
+        source: { kind: authored }
+      - pl: "Oddał pracę w terminie."
+        ru: "Он сдал работу в срок."
+        source: { kind: authored }
+  - id: appointment
+    ru: "запись, назначенное время"
+    examples:
+      - pl: "Umówiliśmy termin na wtorek."
+        ru: "Мы назначили время на вторник."
+        source: { kind: authored }
+      - pl: "Mam termin u lekarza o drugiej."
+        ru: "У меня запись к врачу на два."
+        source: { kind: authored }
+  - id: technical-term
+    ru: "термин (специальное слово)"
+    examples:
+      - pl: "To termin prawniczy, nie potoczny."
+        ru: "Это юридический термин, а не разговорное слово."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ПО-ПОЛЬСКИ ЭТО ПРЕЖДЕ ВСЕГО СРОК, А НЕ ТЕРМИН. TERMIN значит «срок, дата, назначенное время»: termin oddania «срок сдачи», w terminie «в срок», mam termin u lekarza «у меня запись к врачу». Русское «термин» покрывает только третье, редкое значение. Услышав termin, думай сначала о календаре, а не о словаре." }
+  - { kind: usage, text: "Обороты стоит знать готовыми: DOTRZYMAĆ TERMINU «соблюсти срок», с родительным; W TERMINIE «в срок»; PRZED TERMINEM «досрочно»; UMÓWIĆ TERMIN «назначить время». Предложный — w TERMINIE, с мягким ni. Прилагательное terminowy значит «срочный, в срок», а nieterminowy — «несвоевременный»." }
+  - { kind: pronunciation, text: "Два слога, ударение на первом: TER-min. Польское e открытое, как русское э, mi мягкое: «тэ́рмін». Предложный terminie звучит «тэрмı́не»." }
+collocations:
+  - { pl: "w terminie", ru: "в срок" }
+  - { pl: "dotrzymać terminu", ru: "соблюсти срок" }
+  - { pl: "umówić termin", ru: "назначить время" }
+family:
+  - { pl: "terminowy", ru: "срочный, в срок", relation: derived }
+  - { pl: "data", ru: "дата", relation: root, id: data }
+  - { pl: "czas", ru: "время", relation: root, id: czas }
+etymology: "Из латинского terminus «граница, предел», откуда и «терминал», и «термин». Польский удержал исходное значение границы во времени, то есть срока, а значение «специальное слово» пришло позже и осталось второстепенным. Русский взял из латыни только второе."
+memory: "termin — это в первую очередь «срок» или «запись»: mam termin u lekarza. Значение «термин» в польском редкое. Запомни w terminie «в срок» и dotrzymać terminu с родительным."
+idioms:
+  - { pl: "w ostatnim terminie", ru: "в последний срок" }
+  - { pl: "przed terminem", ru: "досрочно" }
+formExamples:
+  - form: "termin"
+    pl: "Termin mija w piątek."
+    ru: "Срок истекает в пятницу."
+    source: { kind: authored }
+  - form: "termin"
+    pl: "Umówiliśmy termin na wtorek."
+    ru: "Мы назначили время на вторник."
+    source: { kind: authored }
+  - form: "termin"
+    pl: "To termin prawniczy, nie potoczny."
+    ru: "Это юридический термин, а не разговорное слово."
+    source: { kind: authored }
+  - form: "terminach"
+    pl: "W tych terminach jestem zajęty."
+    ru: "В эти сроки я занят."
+    source: { kind: authored }
+  - form: "terminach"
+    pl: "O terminach rozmawialiśmy wczoraj."
+    ru: "О сроках мы говорили вчера."
+    source: { kind: authored }
+  - form: "terminach"
+    pl: "Przy takich terminach pośpiech jest pewny."
+    ru: "При таких сроках спешка обеспечена."
+    source: { kind: authored }
+  - form: "terminami"
+    pl: "Żongluje terminami od samego rana."
+    ru: "Он жонглирует сроками с самого утра."
+    source: { kind: authored }
+  - form: "terminami"
+    pl: "Między terminami nie ma ani dnia przerwy."
+    ru: "Между сроками нет ни дня передышки."
+    source: { kind: authored }
+  - form: "terminami"
+    pl: "Kalendarz jest zapchany terminami."
+    ru: "Календарь забит сроками."
+    source: { kind: authored }
+  - form: "terminem"
+    pl: "Przed terminem oddał całą dokumentację."
+    ru: "Досрочно он сдал всю документацию."
+    source: { kind: authored }
+  - form: "terminem"
+    pl: "Między terminem a realizacją minął rok."
+    ru: "Между сроком и исполнением прошёл год."
+    source: { kind: authored }
+  - form: "terminem"
+    pl: "Zajął się terminem rozprawy osobiście."
+    ru: "Он занялся датой заседания лично."
+    source: { kind: authored }
+  - form: "terminie"
+    pl: "Oddał pracę w terminie."
+    ru: "Он сдал работу в срок."
+    source: { kind: authored }
+  - form: "terminie"
+    pl: "O tym terminie nikt mnie nie uprzedził."
+    ru: "Об этом сроке меня никто не предупредил."
+    source: { kind: authored }
+  - form: "terminie"
+    pl: "W pierwszym terminie egzaminu było tłoczno."
+    ru: "На первом экзамене было людно."
+    source: { kind: authored }
+  - form: "terminom"
+    pl: "Takim terminom nie da się sprostać."
+    ru: "Таким срокам невозможно соответствовать."
+    source: { kind: authored }
+  - form: "terminom"
+    pl: "Dzięki przesuniętym terminom zdążyli ze wszystkim."
+    ru: "Благодаря сдвинутым срокам они успели со всем."
+    source: { kind: authored }
+  - form: "terminom"
+    pl: "Przyjrzyj się tym terminom na wykresie."
+    ru: "Присмотрись к этим срокам на графике."
+    source: { kind: authored }
+  - form: "terminowi"
+    pl: "Temu terminowi nikt już nie wierzy."
+    ru: "Этому сроку уже никто не верит."
+    source: { kind: authored }
+  - form: "terminowi"
+    pl: "Dzięki nowemu terminowi zdążymy spokojnie."
+    ru: "Благодаря новому сроку мы спокойно успеем."
+    source: { kind: authored }
+  - form: "terminowi"
+    pl: "Przyjrzyj się temu terminowi w kalendarzu."
+    ru: "Присмотрись к этому сроку в календаре."
+    source: { kind: authored }
+  - form: "terminu"
+    pl: "Nie dotrzymał terminu."
+    ru: "Он не соблюл срок."
+    source: { kind: authored }
+  - form: "terminu"
+    pl: "Do terminu zostały trzy dni."
+    ru: "До срока осталось три дня."
+    source: { kind: authored }
+  - form: "terminu"
+    pl: "Bez terminu nikt nie zacznie pracy."
+    ru: "Без срока никто не начнёт работу."
+    source: { kind: authored }
+  - form: "terminy"
+    pl: "Terminy się nakładają."
+    ru: "Сроки накладываются."
+    source: { kind: authored }
+  - form: "terminy"
+    pl: "Wszystkie terminy przesunięto o miesiąc."
+    ru: "Все сроки сдвинули на месяц."
+    source: { kind: authored }
+  - form: "terminy"
+    pl: "Takie terminy są nie do dotrzymania."
+    ru: "Такие сроки невыполнимы."
+    source: { kind: authored }
+  - form: "terminów"
+    pl: "Nie znoszę napiętych terminów."
+    ru: "Я не выношу сжатых сроков."
+    source: { kind: authored }
+  - form: "terminów"
+    pl: "Pilnuje terminów co do dnia."
+    ru: "Он следит за сроками день в день."
+    source: { kind: authored }
+  - form: "terminów"
+    pl: "Bez terminów nic by nie powstało."
+    ru: "Без сроков ничего бы не возникло."
+    source: { kind: authored }
