@@ -794,6 +794,8 @@ exclude:
   # имя собственное: все кандидаты — личное имя (Dean przyszedł;
   # Czy Dean już wrócił?), словоизменения практически нет
   - dean
+  # Morgan — английская фамилия, не нарицательное слово
+  - morgan
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -986,6 +988,7 @@ excludeNotes:
   wieczor-2: { why: variant-of, see: wieczor }
   simon: { why: proper-noun }
   dean: { why: proper-noun }
+  morgan: { why: proper-noun }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
