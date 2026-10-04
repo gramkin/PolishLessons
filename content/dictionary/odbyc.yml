@@ -1,0 +1,684 @@
+# review
+id: odbyc
+format: 2
+lemma: "odbyć"
+rank: 2111
+pos: verb
+pron: { cyr: "о́дбыць" }
+senses:
+  - id: conduct
+    ru: "провести, совершить (разговор, поездку, обучение)"
+    examples:
+      - pl: "Odbyli długą rozmowę o przyszłości."
+        ru: "Они провели долгий разговор о будущем."
+        source: { kind: authored }
+      - pl: "Odbył podróż dookoła Bałtyku."
+        ru: "Он совершил путешествие вокруг Балтики."
+        source: { kind: authored }
+      - pl: "Musisz odbyć obowiązkowe szkolenie."
+        ru: "Ты должен пройти обязательное обучение."
+        source: { kind: authored }
+  - id: take-place
+    ru: "odbyć się — состояться, пройти"
+    examples:
+      - pl: "Finał odbędzie się na stadionie."
+        ru: "Финал состоится на стадионе."
+        source: { kind: authored }
+      - pl: "Zebranie odbyło się bez prezesa."
+        ru: "Собрание прошло без председателя."
+        source: { kind: authored }
+  - id: serve
+    ru: "отбыть (наказание), отслужить"
+    examples:
+      - pl: "Odbył karę w całości."
+        ru: "Он отбыл наказание полностью."
+        source: { kind: authored }
+      - pl: "Odbyła służbę w jednostce pod Gdańskiem."
+        ru: "Она отслужила в части под Гданьском."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "СОВПАДАЕТ ТОЛЬКО НАПОЛОВИНУ. Русское «отбыть» значит либо «уехать», либо «отбыть срок». Польское odbyć первое значение потеряло начисто — «уехать» будет wyjechać или odjechać, — зато второе разрослось: odbyć rozmowę «провести разговор», odbyć podróż «совершить поездку», odbyć szkolenie «пройти обучение», odbyć praktyki «пройти практику». Полностью совпадают только odbyć karę и odbyć służbę. А возвратного «отбыться» в русском нет вовсе, хотя odbyć się — самое ходовое значение." }
+  - { kind: usage, text: "ВСЯ ПАРАДИГМА — ЭТО BYĆ С ПРИСТАВКОЙ. Если вы знаете спряжение być, вы уже знаете odbyć, учить нечего: będę даёт odbędę, będziesz даёт odbędziesz, bądź даёт odbądź, był даёт odbył. Достаточно приставить od-. Вид совершенный, несовершенная пара — odbywać." }
+  - { kind: government, text: "Проводят ЧТО — винительный падеж: odbyć rozmowę, podróż, karę, służbę. Возвратное odbyć się дополнения не требует и ставит подлежащим само событие: Koncert się odbył, Wybory odbędą się jesienią. Это обычный польский способ сказать «состоится», и переводить его русским «отбудется» нельзя — только «состоится», «пройдёт»." }
+  - { kind: pronunciation, text: "Приставка od- перед звонким b голоса не теряет: «о́дбыць». В будущем времени ударение, как всегда, садится на предпоследний слог, а слогов становится больше: odbędzie звучит «одбэ́ндзе», odbędziemy — «одбэндзе́мы»." }
+collocations:
+  - { pl: "odbyć rozmowę", ru: "провести разговор" }
+  - { pl: "odbyć podróż", ru: "совершить поездку" }
+  - { pl: "odbyć karę", ru: "отбыть наказание" }
+family:
+  - { pl: "być", ru: "быть", relation: root, id: byc }
+  - { pl: "odbywać", ru: "проводить; проходить", relation: aspect }
+  - { pl: "odbycie", ru: "прохождение, проведение", relation: derived }
+etymology: "Приставка od- плюс być «быть» — буквально «от-быть». Русское «отбыть» собрано из тех же двух частей, но разошлось с польским в значении: там остались «уехать» и «отбыть срок», а здесь выросло широкое «провести, совершить». Отсюда odbywać, odbycie и возвратное odbyć się «состояться»."
+memory: "odbyć — вся его таблица это być с приставкой od-: będę даёт odbędę, bądź даёт odbądź, był даёт odbył. Значение же шире русского «отбыть»: odbyć rozmowę — провести разговор, а Koncert się odbył — концерт состоялся."
+idioms:
+  - { pl: "odbyć karę", ru: "отбыть наказание" }
+  - { pl: "odbyć służbę wojskową", ru: "отслужить в армии" }
+  - { pl: "odbyć się bez przeszkód", ru: "пройти без помех" }
+formExamplesSkip:
+  - { form: "odbyci", reason: "Мужско-личная форма множественного числа страдательного причастия. Odbyty описывает то, что «проводят» или «отбывают», — staż, karę, podróż, rozmowę; человек в эту роль не попадает, поэтому формы для лиц мужского пола у этого причастия нет употребления." }
+formExamples:
+  - form: "odbycia"
+    pl: "Do odbycia zostały jeszcze dwa szkolenia."
+    ru: "Осталось пройти ещё два обучения."
+    source: { kind: authored }
+  - form: "odbycia"
+    pl: "Bez odbycia praktyki nie ma dyplomu."
+    ru: "Без прохождения практики нет диплома."
+    source: { kind: authored }
+  - form: "odbycia"
+    pl: "Od odbycia kary minęło dziesięć lat."
+    ru: "С отбытия наказания прошло десять лет."
+    source: { kind: authored }
+  - form: "odbycie"
+    pl: "Odbycie stażu jest warunkiem zatrudnienia."
+    ru: "Прохождение стажировки — условие трудоустройства."
+    source: { kind: authored }
+  - form: "odbycie"
+    pl: "Odbycie kary nie zamyka sprawy."
+    ru: "Отбытие наказания не закрывает дело."
+    source: { kind: authored }
+  - form: "odbycie"
+    pl: "Odbycie podróży zajęło im trzy tygodnie."
+    ru: "Поездка заняла у них три недели."
+    source: { kind: authored }
+  - form: "odbyciem"
+    pl: "Przed odbyciem stażu trzeba podpisać umowę."
+    ru: "Перед прохождением стажировки надо подписать договор."
+    source: { kind: authored }
+  - form: "odbyciem"
+    pl: "Między zapisaniem się a odbyciem kursu minął rok."
+    ru: "Между записью и прохождением курса прошёл год."
+    source: { kind: authored }
+  - form: "odbyciem"
+    pl: "Wstrzymali się z odbyciem narady do poniedziałku."
+    ru: "Они отложили проведение совещания до понедельника."
+    source: { kind: authored }
+  - form: "odbyciu"
+    pl: "Po odbyciu służby wrócił na studia."
+    ru: "После службы он вернулся к учёбе."
+    source: { kind: authored }
+  - form: "odbyciu"
+    pl: "O odbyciu szkolenia świadczy zaświadczenie."
+    ru: "О прохождении обучения свидетельствует справка."
+    source: { kind: authored }
+  - form: "odbyciu"
+    pl: "W odbyciu takiej podróży nie ma nic nadzwyczajnego."
+    ru: "В совершении такой поездки нет ничего необычного."
+    source: { kind: authored }
+  - form: "odbyli"
+    pl: "Odbyli długą rozmowę przy herbacie."
+    ru: "Они провели долгий разговор за чаем."
+    source: { kind: authored }
+  - form: "odbyli"
+    pl: "Odbyli szkolenie w jeden dzień."
+    ru: "Они прошли обучение за один день."
+    source: { kind: authored }
+  - form: "odbyli"
+    pl: "Odbyli karę i wrócili do domu."
+    ru: "Они отбыли наказание и вернулись домой."
+    source: { kind: authored }
+  - form: "odbyliby"
+    pl: "Odbyliby naradę wcześniej, gdyby zdążyli."
+    ru: "Они провели бы совещание раньше, если бы успели."
+    source: { kind: authored }
+  - form: "odbyliby"
+    pl: "Bez sprzętu nie odbyliby tej wyprawy."
+    ru: "Без снаряжения они не совершили бы этой экспедиции."
+    source: { kind: authored }
+  - form: "odbyliby"
+    pl: "Odbyliby szkolenie zdalnie, ale zabrakło łącza."
+    ru: "Они прошли бы обучение дистанционно, но не хватило связи."
+    source: { kind: authored }
+  - form: "odbylibyście"
+    pl: "Odbylibyście tę rozmowę beze mnie?"
+    ru: "Вы провели бы этот разговор без меня?"
+    source: { kind: authored }
+  - form: "odbylibyście"
+    pl: "Czy odbylibyście staż za granicą?"
+    ru: "Прошли бы вы стажировку за границей?"
+    source: { kind: authored }
+  - form: "odbylibyście"
+    pl: "Bez sprzętu nie odbylibyście wyprawy."
+    ru: "Без снаряжения вы не совершили бы экспедицию."
+    source: { kind: authored }
+  - form: "odbylibyśmy"
+    pl: "Odbylibyśmy tę podróż latem."
+    ru: "Мы совершили бы эту поездку летом."
+    source: { kind: authored }
+  - form: "odbylibyśmy"
+    pl: "Bez tej awarii odbylibyśmy próbę na czas."
+    ru: "Без этой аварии мы провели бы репетицию вовремя."
+    source: { kind: authored }
+  - form: "odbylibyśmy"
+    pl: "Nie odbylibyśmy narady bez protokołu."
+    ru: "Мы не провели бы совещание без протокола."
+    source: { kind: authored }
+  - form: "odbyliście"
+    pl: "Odbyliście już tę rozmowę?"
+    ru: "Вы уже провели этот разговор?"
+    source: { kind: authored }
+  - form: "odbyliście"
+    pl: "Gdzie odbyliście praktyki?"
+    ru: "Где вы проходили практику?"
+    source: { kind: authored }
+  - form: "odbyliście"
+    pl: "Nie odbyliście wymaganego szkolenia."
+    ru: "Вы не прошли требуемое обучение."
+    source: { kind: authored }
+  - form: "odbyliśmy"
+    pl: "Odbyliśmy długą naradę."
+    ru: "Мы провели долгое совещание."
+    source: { kind: authored }
+  - form: "odbyliśmy"
+    pl: "Odbyliśmy podróż pociągiem przez pół Europy."
+    ru: "Мы совершили поездку на поезде через пол-Европы."
+    source: { kind: authored }
+  - form: "odbyliśmy"
+    pl: "Nie odbyliśmy jeszcze szkolenia wstępnego."
+    ru: "Мы ещё не прошли вводный инструктаж."
+    source: { kind: authored }
+  - form: "odbyta"
+    pl: "Odbyta rozmowa niczego nie zmieniła."
+    ru: "Состоявшийся разговор ничего не изменил."
+    source: { kind: authored }
+  - form: "odbyta"
+    pl: "Odbyta podróż kosztowała fortunę."
+    ru: "Совершённая поездка стоила целое состояние."
+    source: { kind: authored }
+  - form: "odbyta"
+    pl: "Kara odbyta w całości nie podlega zaskarżeniu."
+    ru: "Отбытое полностью наказание обжалованию не подлежит."
+    source: { kind: authored }
+  - form: "odbyte"
+    pl: "Odbyte szkolenia wpisuje się do akt."
+    ru: "Пройденные обучения вносятся в дело."
+    source: { kind: authored }
+  - form: "odbyte"
+    pl: "Wszystkie praktyki zostały odbyte w terminie."
+    ru: "Вся практика была пройдена в срок."
+    source: { kind: authored }
+  - form: "odbyte"
+    pl: "Odbyte rozmowy nie przyniosły skutku."
+    ru: "Состоявшиеся переговоры не дали результата."
+    source: { kind: authored }
+  - form: "odbytego"
+    pl: "Od odbytego stażu zależy zatrudnienie."
+    ru: "От пройденной стажировки зависит трудоустройство."
+    source: { kind: authored }
+  - form: "odbytego"
+    pl: "Nie znalazłem śladu odbytego szkolenia w aktach."
+    ru: "Я не нашёл в деле следа пройденного обучения."
+    source: { kind: authored }
+  - form: "odbytego"
+    pl: "Z odbytego rejsu zostały tylko zdjęcia."
+    ru: "От совершённого рейса остались только фотографии."
+    source: { kind: authored }
+  - form: "odbytej"
+    pl: "Z odbytej rozmowy nic nie wynikło."
+    ru: "Из состоявшегося разговора ничего не вышло."
+    source: { kind: authored }
+  - form: "odbytej"
+    pl: "Zaświadczenie o odbytej praktyce wydaje sekretariat."
+    ru: "Справку о пройденной практике выдаёт секретариат."
+    source: { kind: authored }
+  - form: "odbytej"
+    pl: "Od odbytej kary zależała decyzja sądu."
+    ru: "От отбытого наказания зависело решение суда."
+    source: { kind: authored }
+  - form: "odbytemu"
+    pl: "Dzięki odbytemu szkoleniu poradził sobie sam."
+    ru: "Благодаря пройденному обучению он справился сам."
+    source: { kind: authored }
+  - form: "odbytemu"
+    pl: "Odbytemu stażowi zawdzięcza tę posadę."
+    ru: "Пройденной стажировке он обязан этой должностью."
+    source: { kind: authored }
+  - form: "odbytemu"
+    pl: "Przyjrzyj się temu odbytemu kursowi w życiorysie."
+    ru: "Присмотрись к этому пройденному курсу в резюме."
+    source: { kind: authored }
+  - form: "odbyto"
+    pl: "Naradę odbyto w trybie pilnym."
+    ru: "Совещание провели в срочном порядке."
+    source: { kind: authored }
+  - form: "odbyto"
+    pl: "Szkolenie odbyto zdalnie."
+    ru: "Обучение провели дистанционно."
+    source: { kind: authored }
+  - form: "odbyto"
+    pl: "Nie odbyto wtedy żadnych konsultacji."
+    ru: "Тогда не провели никаких консультаций."
+    source: { kind: authored }
+  - form: "odbyty"
+    pl: "Odbyty staż liczy się do stażu pracy."
+    ru: "Пройденная стажировка засчитывается в трудовой стаж."
+    source: { kind: authored }
+  - form: "odbyty"
+    pl: "Odbyty kurs trzeba potwierdzić zaświadczeniem."
+    ru: "Пройденный курс надо подтвердить справкой."
+    source: { kind: authored }
+  - form: "odbyty"
+    pl: "To rejs odbyty dwadzieścia lat temu."
+    ru: "Это рейс, совершённый двадцать лет назад."
+    source: { kind: authored }
+  - form: "odbytych"
+    pl: "Wśród odbytych szkoleń brakuje jednego."
+    ru: "Среди пройденных обучений не хватает одного."
+    source: { kind: authored }
+  - form: "odbytych"
+    pl: "O odbytych rozmowach nie wolno mówić."
+    ru: "О состоявшихся переговорах говорить нельзя."
+    source: { kind: authored }
+  - form: "odbytych"
+    pl: "Połowa odbytych praktyk nie została zaliczona."
+    ru: "Половина пройденной практики не была зачтена."
+    source: { kind: authored }
+  - form: "odbytym"
+    pl: "W odbytym szkoleniu wzięło udział trzydzieści osób."
+    ru: "В прошедшем обучении участвовало тридцать человек."
+    source: { kind: authored }
+  - form: "odbytym"
+    pl: "Odbytym praktykom nikt nie przypisywał wagi."
+    ru: "Пройденной практике никто не придавал значения."
+    source: { kind: authored }
+  - form: "odbytym"
+    pl: "Mówił o odbytym rejsie z dumą."
+    ru: "Он говорил о совершённом рейсе с гордостью."
+    source: { kind: authored }
+  - form: "odbytymi"
+    pl: "Chwalił się odbytymi podróżami."
+    ru: "Он хвастался совершёнными поездками."
+    source: { kind: authored }
+  - form: "odbytymi"
+    pl: "Między odbytymi a planowanymi szkoleniami jest przepaść."
+    ru: "Между пройденными и запланированными обучениями пропасть."
+    source: { kind: authored }
+  - form: "odbytymi"
+    pl: "Zajmuje się odbytymi już sprawami."
+    ru: "Он занимается уже состоявшимися делами."
+    source: { kind: authored }
+  - form: "odbytą"
+    pl: "Uznali tę praktykę za odbytą."
+    ru: "Эту практику сочли пройденной."
+    source: { kind: authored }
+  - form: "odbytą"
+    pl: "Sąd uznał karę za odbytą."
+    ru: "Суд счёл наказание отбытым."
+    source: { kind: authored }
+  - form: "odbytą"
+    pl: "Wpisali odbytą podróż służbową do rozliczenia."
+    ru: "Они внесли совершённую командировку в отчёт."
+    source: { kind: authored }
+  - form: "odbywszy"
+    pl: "Odbywszy służbę, wrócił na studia."
+    ru: "Отслужив, он вернулся к учёбе."
+    source: { kind: authored }
+  - form: "odbywszy"
+    pl: "Odbywszy długą rozmowę, rozstali się w zgodzie."
+    ru: "Проведя долгий разговор, они расстались мирно."
+    source: { kind: authored }
+  - form: "odbywszy"
+    pl: "Odbywszy karę, zaczął wszystko od nowa."
+    ru: "Отбыв наказание, он начал всё заново."
+    source: { kind: authored }
+  - form: "odbyć"
+    pl: "Musimy odbyć poważną rozmowę."
+    ru: "Нам надо провести серьёзный разговор."
+    source: { kind: authored }
+  - form: "odbyć"
+    pl: "Chciał odbyć podróż dookoła świata."
+    ru: "Он хотел совершить путешествие вокруг света."
+    source: { kind: authored }
+  - form: "odbyć"
+    pl: "Nie zdążył odbyć stażu przed wyjazdem."
+    ru: "Он не успел пройти стажировку до отъезда."
+    source: { kind: authored }
+  - form: "odbył"
+    pl: "Odbył służbę wojskową w górach."
+    ru: "Он отслужил в армии в горах."
+    source: { kind: authored }
+  - form: "odbył"
+    pl: "Koncert odbył się mimo awarii prądu."
+    ru: "Концерт состоялся несмотря на аварию электричества."
+    source: { kind: authored }
+  - form: "odbył"
+    pl: "Odbył karę co do dnia."
+    ru: "Он отбыл наказание день в день."
+    source: { kind: authored }
+  - form: "odbyła"
+    pl: "Odbyła staż w szpitalu miejskim."
+    ru: "Она прошла стажировку в городской больнице."
+    source: { kind: authored }
+  - form: "odbyła"
+    pl: "Narada odbyła się bez protokołu."
+    ru: "Совещание прошло без протокола."
+    source: { kind: authored }
+  - form: "odbyła"
+    pl: "Odbyła podróż, o której marzyła od lat."
+    ru: "Она совершила путешествие, о котором мечтала годами."
+    source: { kind: authored }
+  - form: "odbyłaby"
+    pl: "Odbyłaby staż za granicą, gdyby dostała stypendium."
+    ru: "Она прошла бы стажировку за границей, если бы получила стипендию."
+    source: { kind: authored }
+  - form: "odbyłaby"
+    pl: "Narada odbyłaby się wcześniej bez tych opóźnień."
+    ru: "Совещание прошло бы раньше без этих задержек."
+    source: { kind: authored }
+  - form: "odbyłaby"
+    pl: "Bez paszportu nie odbyłaby tej podróży."
+    ru: "Без паспорта она не совершила бы этой поездки."
+    source: { kind: authored }
+  - form: "odbyłabym"
+    pl: "Odbyłabym tę rozmowę inaczej."
+    ru: "Я провела бы этот разговор иначе."
+    source: { kind: authored }
+  - form: "odbyłabym"
+    pl: "Na jej miejscu odbyłabym staż za granicą."
+    ru: "На её месте я прошла бы стажировку за границей."
+    source: { kind: authored }
+  - form: "odbyłabym"
+    pl: "Bez przygotowania nie odbyłabym takiej podróży."
+    ru: "Без подготовки я не совершила бы такой поездки."
+    source: { kind: authored }
+  - form: "odbyłabyś"
+    pl: "Odbyłabyś tę rozmowę na moim miejscu?"
+    ru: "Ты провела бы этот разговор на моём месте?"
+    source: { kind: authored }
+  - form: "odbyłabyś"
+    pl: "Czy odbyłabyś staż w innym mieście?"
+    ru: "Прошла бы ты стажировку в другом городе?"
+    source: { kind: authored }
+  - form: "odbyłabyś"
+    pl: "Bez wizy nie odbyłabyś tej podróży."
+    ru: "Без визы ты не совершила бы этой поездки."
+    source: { kind: authored }
+  - form: "odbyłam"
+    pl: "Odbyłam z nim poważną rozmowę."
+    ru: "Я провела с ним серьёзный разговор."
+    source: { kind: authored }
+  - form: "odbyłam"
+    pl: "Odbyłam staż w kancelarii."
+    ru: "Я прошла стажировку в конторе."
+    source: { kind: authored }
+  - form: "odbyłam"
+    pl: "Nie odbyłam jeszcze wymaganego szkolenia."
+    ru: "Я ещё не прошла требуемое обучение."
+    source: { kind: authored }
+  - form: "odbyłaś"
+    pl: "Odbyłaś już rozmowę kwalifikacyjną?"
+    ru: "Ты уже прошла собеседование?"
+    source: { kind: authored }
+  - form: "odbyłaś"
+    pl: "Gdzie odbyłaś staż?"
+    ru: "Где ты проходила стажировку?"
+    source: { kind: authored }
+  - form: "odbyłaś"
+    pl: "Nie odbyłaś jeszcze obowiązkowych praktyk."
+    ru: "Ты ещё не прошла обязательную практику."
+    source: { kind: authored }
+  - form: "odbyłby"
+    pl: "Odbyłby tę podróż, gdyby miał czas."
+    ru: "Он совершил бы эту поездку, будь у него время."
+    source: { kind: authored }
+  - form: "odbyłby"
+    pl: "Koncert odbyłby się, gdyby nie burza."
+    ru: "Концерт состоялся бы, если бы не гроза."
+    source: { kind: authored }
+  - form: "odbyłby"
+    pl: "Bez wizy nie odbyłby tej wyprawy."
+    ru: "Без визы он не совершил бы этой экспедиции."
+    source: { kind: authored }
+  - form: "odbyłbym"
+    pl: "Odbyłbym tę rozmowę inaczej."
+    ru: "Я провёл бы этот разговор иначе."
+    source: { kind: authored }
+  - form: "odbyłbym"
+    pl: "Na twoim miejscu odbyłbym staż za granicą."
+    ru: "На твоём месте я прошёл бы стажировку за границей."
+    source: { kind: authored }
+  - form: "odbyłbym"
+    pl: "Bez przygotowania nie odbyłbym takiej podróży."
+    ru: "Без подготовки я не совершил бы такой поездки."
+    source: { kind: authored }
+  - form: "odbyłbyś"
+    pl: "Odbyłbyś tę rozmowę na moim miejscu?"
+    ru: "Ты провёл бы этот разговор на моём месте?"
+    source: { kind: authored }
+  - form: "odbyłbyś"
+    pl: "Czy odbyłbyś staż w innym mieście?"
+    ru: "Прошёл бы ты стажировку в другом городе?"
+    source: { kind: authored }
+  - form: "odbyłbyś"
+    pl: "Bez wizy nie odbyłbyś tej podróży."
+    ru: "Без визы ты не совершил бы этой поездки."
+    source: { kind: authored }
+  - form: "odbyłem"
+    pl: "Odbyłem z nim poważną rozmowę."
+    ru: "Я провёл с ним серьёзный разговор."
+    source: { kind: authored }
+  - form: "odbyłem"
+    pl: "Odbyłem służbę w marynarce."
+    ru: "Я отслужил во флоте."
+    source: { kind: authored }
+  - form: "odbyłem"
+    pl: "Nie odbyłem jeszcze wymaganego stażu."
+    ru: "Я ещё не прошёл требуемую стажировку."
+    source: { kind: authored }
+  - form: "odbyłeś"
+    pl: "Odbyłeś już rozmowę kwalifikacyjną?"
+    ru: "Ты уже прошёл собеседование?"
+    source: { kind: authored }
+  - form: "odbyłeś"
+    pl: "Gdzie odbyłeś służbę?"
+    ru: "Где ты служил?"
+    source: { kind: authored }
+  - form: "odbyłeś"
+    pl: "Nie odbyłeś jeszcze obowiązkowych praktyk."
+    ru: "Ты ещё не прошёл обязательную практику."
+    source: { kind: authored }
+  - form: "odbyło"
+    pl: "Spotkanie odbyło się w ratuszu."
+    ru: "Встреча состоялась в ратуше."
+    source: { kind: authored }
+  - form: "odbyło"
+    pl: "Wszystko odbyło się bez przeszkód."
+    ru: "Всё прошло без помех."
+    source: { kind: authored }
+  - form: "odbyło"
+    pl: "Nic się tu wczoraj nie odbyło."
+    ru: "Здесь вчера ничего не состоялось."
+    source: { kind: authored }
+  - form: "odbyłoby"
+    pl: "Spotkanie odbyłoby się w sali głównej."
+    ru: "Встреча прошла бы в главном зале."
+    source: { kind: authored }
+  - form: "odbyłoby"
+    pl: "Wszystko odbyłoby się spokojnie, gdyby nie tłum."
+    ru: "Всё прошло бы спокойно, если бы не толпа."
+    source: { kind: authored }
+  - form: "odbyłoby"
+    pl: "Zebranie odbyłoby się i bez prezesa."
+    ru: "Собрание прошло бы и без председателя."
+    source: { kind: authored }
+  - form: "odbyły"
+    pl: "Wybory odbyły się spokojnie."
+    ru: "Выборы прошли спокойно."
+    source: { kind: authored }
+  - form: "odbyły"
+    pl: "Rozmowy odbyły się za zamkniętymi drzwiami."
+    ru: "Переговоры прошли за закрытыми дверями."
+    source: { kind: authored }
+  - form: "odbyły"
+    pl: "Obie drużyny odbyły po trzy mecze."
+    ru: "Обе команды провели по три матча."
+    source: { kind: authored }
+  - form: "odbyłyby"
+    pl: "Wybory odbyłyby się w terminie, gdyby nie powódź."
+    ru: "Выборы прошли бы в срок, если бы не наводнение."
+    source: { kind: authored }
+  - form: "odbyłyby"
+    pl: "Rozmowy odbyłyby się w Genewie."
+    ru: "Переговоры прошли бы в Женеве."
+    source: { kind: authored }
+  - form: "odbyłyby"
+    pl: "Obie drużyny odbyłyby po cztery mecze."
+    ru: "Обе команды провели бы по четыре матча."
+    source: { kind: authored }
+  - form: "odbyłybyście"
+    pl: "Odbyłybyście tę rozmowę beze mnie?"
+    ru: "Вы провели бы этот разговор без меня?"
+    source: { kind: authored }
+  - form: "odbyłybyście"
+    pl: "Czy odbyłybyście staż za granicą?"
+    ru: "Прошли бы вы стажировку за границей?"
+    source: { kind: authored }
+  - form: "odbyłybyście"
+    pl: "Bez sprzętu nie odbyłybyście wyprawy."
+    ru: "Без снаряжения вы не совершили бы экспедицию."
+    source: { kind: authored }
+  - form: "odbyłybyśmy"
+    pl: "Odbyłybyśmy tę podróż latem."
+    ru: "Мы совершили бы эту поездку летом."
+    source: { kind: authored }
+  - form: "odbyłybyśmy"
+    pl: "Bez tej awarii odbyłybyśmy próbę na czas."
+    ru: "Без этой аварии мы провели бы репетицию вовремя."
+    source: { kind: authored }
+  - form: "odbyłybyśmy"
+    pl: "Nie odbyłybyśmy narady bez protokołu."
+    ru: "Мы не провели бы совещание без протокола."
+    source: { kind: authored }
+  - form: "odbyłyście"
+    pl: "Odbyłyście już tę rozmowę?"
+    ru: "Вы уже провели этот разговор?"
+    source: { kind: authored }
+  - form: "odbyłyście"
+    pl: "Gdzie odbyłyście praktyki?"
+    ru: "Где вы проходили практику?"
+    source: { kind: authored }
+  - form: "odbyłyście"
+    pl: "Nie odbyłyście wymaganego szkolenia."
+    ru: "Вы не прошли требуемое обучение."
+    source: { kind: authored }
+  - form: "odbyłyśmy"
+    pl: "Odbyłyśmy długą naradę."
+    ru: "Мы провели долгое совещание."
+    source: { kind: authored }
+  - form: "odbyłyśmy"
+    pl: "Odbyłyśmy podróż pociągiem przez pół Europy."
+    ru: "Мы совершили поездку на поезде через пол-Европы."
+    source: { kind: authored }
+  - form: "odbyłyśmy"
+    pl: "Nie odbyłyśmy jeszcze szkolenia wstępnego."
+    ru: "Мы ещё не прошли вводный инструктаж."
+    source: { kind: authored }
+  - form: "odbądź"
+    pl: "Odbądź z nim wreszcie tę rozmowę."
+    ru: "Проведи с ним наконец этот разговор."
+    source: { kind: authored }
+  - form: "odbądź"
+    pl: "Odbądź staż, a potem decyduj."
+    ru: "Пройди стажировку, а потом решай."
+    source: { kind: authored }
+  - form: "odbądź"
+    pl: "Nie odbądź tej podróży w pojedynkę."
+    ru: "Не совершай эту поездку в одиночку."
+    source: { kind: authored }
+  - form: "odbądźcie"
+    pl: "Odbądźcie szkolenie przed startem projektu."
+    ru: "Пройдите обучение до начала проекта."
+    source: { kind: authored }
+  - form: "odbądźcie"
+    pl: "Odbądźcie tę rozmowę beze mnie."
+    ru: "Проведите этот разговор без меня."
+    source: { kind: authored }
+  - form: "odbądźcie"
+    pl: "Nie odbądźcie narady w pośpiechu."
+    ru: "Не проводите совещание в спешке."
+    source: { kind: authored }
+  - form: "odbądźmy"
+    pl: "Odbądźmy tę rozmowę jeszcze dziś."
+    ru: "Проведём этот разговор ещё сегодня."
+    source: { kind: authored }
+  - form: "odbądźmy"
+    pl: "Odbądźmy próbę przed koncertem."
+    ru: "Проведём репетицию перед концертом."
+    source: { kind: authored }
+  - form: "odbądźmy"
+    pl: "Nie odbądźmy zebrania bez protokołu."
+    ru: "Не будем проводить собрание без протокола."
+    source: { kind: authored }
+  - form: "odbędzie"
+    pl: "Koncert odbędzie się w sobotę."
+    ru: "Концерт состоится в субботу."
+    source: { kind: authored }
+  - form: "odbędzie"
+    pl: "Zebranie odbędzie się bez prezesa."
+    ru: "Собрание пройдёт без председателя."
+    source: { kind: authored }
+  - form: "odbędzie"
+    pl: "Nic się dziś nie odbędzie, sala jest zamknięta."
+    ru: "Сегодня ничего не состоится, зал закрыт."
+    source: { kind: authored }
+  - form: "odbędziecie"
+    pl: "Kiedy odbędziecie praktyki?"
+    ru: "Когда вы пройдёте практику?"
+    source: { kind: authored }
+  - form: "odbędziecie"
+    pl: "Odbędziecie tę rozmowę beze mnie."
+    ru: "Вы проведёте этот разговор без меня."
+    source: { kind: authored }
+  - form: "odbędziecie"
+    pl: "Bez sprzętu nie odbędziecie wyprawy."
+    ru: "Без снаряжения вы не совершите экспедицию."
+    source: { kind: authored }
+  - form: "odbędziemy"
+    pl: "Odbędziemy tę rozmowę w cztery oczy."
+    ru: "Мы проведём этот разговор с глазу на глаз."
+    source: { kind: authored }
+  - form: "odbędziemy"
+    pl: "W maju odbędziemy podróż po Bałkanach."
+    ru: "В мае мы совершим поездку по Балканам."
+    source: { kind: authored }
+  - form: "odbędziemy"
+    pl: "Nie odbędziemy szkolenia bez trenera."
+    ru: "Мы не проведём обучение без тренера."
+    source: { kind: authored }
+  - form: "odbędziesz"
+    pl: "Kiedy odbędziesz praktyki?"
+    ru: "Когда ты пройдёшь практику?"
+    source: { kind: authored }
+  - form: "odbędziesz"
+    pl: "Odbędziesz tę rozmowę sam."
+    ru: "Ты проведёшь этот разговор сам."
+    source: { kind: authored }
+  - form: "odbędziesz"
+    pl: "Bez wizy nie odbędziesz tej podróży."
+    ru: "Без визы ты не совершишь эту поездку."
+    source: { kind: authored }
+  - form: "odbędą"
+    pl: "Wybory odbędą się jesienią."
+    ru: "Выборы состоятся осенью."
+    source: { kind: authored }
+  - form: "odbędą"
+    pl: "Zawody odbędą się mimo deszczu."
+    ru: "Соревнования пройдут несмотря на дождь."
+    source: { kind: authored }
+  - form: "odbędą"
+    pl: "Rozmowy odbędą się za zamkniętymi drzwiami."
+    ru: "Переговоры пройдут за закрытыми дверями."
+    source: { kind: authored }
+  - form: "odbędę"
+    pl: "Odbędę tę rozmowę jeszcze dziś."
+    ru: "Я проведу этот разговор ещё сегодня."
+    source: { kind: authored }
+  - form: "odbędę"
+    pl: "Odbędę szkolenie w przyszłym miesiącu."
+    ru: "Я пройду обучение в следующем месяце."
+    source: { kind: authored }
+  - form: "odbędę"
+    pl: "Nie odbędę tej podróży bez ciebie."
+    ru: "Я не совершу этой поездки без тебя."
+    source: { kind: authored }
