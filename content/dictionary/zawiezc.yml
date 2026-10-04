@@ -1,0 +1,654 @@
+# review
+id: zawiezc
+format: 2
+lemma: "zawieźć"
+rank: 2222
+pos: verb
+pron: { cyr: "заве́зьць" }
+senses:
+  - id: drive-to
+    ru: "отвезти (на машине)"
+    examples:
+      - pl: "Zawiózł nas na dworzec."
+        ru: "Он отвёз нас на вокзал."
+        source: { kind: authored }
+      - pl: "Zawiozę cię na lotnisko."
+        ru: "Я отвезу тебя в аэропорт."
+        source: { kind: authored }
+  - id: deliver
+    ru: "доставить, завезти"
+    examples:
+      - pl: "Zawieźli meble do nowego mieszkania."
+        ru: "Они отвезли мебель в новую квартиру."
+        source: { kind: authored }
+      - pl: "Dary zawieziono do punktu zbiórki."
+        ru: "Дары отвезли в пункт сбора."
+        source: { kind: authored }
+      - pl: "Trzeba zawieźć dokumenty przed trzecią."
+        ru: "Надо отвезти документы до трёх."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Корень тот же, что в русском «везти»: wieźć это «везти», а za- отвечает русскому за-. Ближайшие соответствия — «отвезти» и «завезти», смотря по смыслу. Опереться на родной язык можно смело: zawieźć kogoś na dworzec это ровно «отвезти кого-то на вокзал»." }
+  - { kind: pronunciation, text: "ЧЕРЕДОВАНИЕ Ó И O ПО ЗАКРЫТОМУ СЛОГУ. В мужском роде единственного числа прошедшего времени слог закрыт, и пишется ó: zawiózł. Как только появляется гласное окончание, слог открывается и ó уступает место o: zawiozła, zawiozło, zawiozłem, zawiozłeś. То же правило уже встречалось в rósł/rosła и głód/głodu." }
+  - { kind: government, text: "Везут КОГО или ЧТО — винительный: zawieźć dzieci, meble, dokumenty. КУДА — do с родительным для мест внутри (do szpitala, do magazynu) или na с винительным для открытых мест и мероприятий (na dworzec, na lotnisko). Обе модели совпадают с русскими." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — zawozić. Четыре формы в таблице пропущены как артефакты генератора: сама по себе основа zawiozł не употребляется, а условное наклонение мужского рода сохраняет ó, потому что частица by начинается с согласного и слог остаётся закрытым." }
+collocations:
+  - { pl: "zawieźć na dworzec", ru: "отвезти на вокзал" }
+  - { pl: "zawieźć do szpitala", ru: "отвезти в больницу" }
+  - { pl: "zawieźć dokumenty", ru: "отвезти документы" }
+family:
+  - { pl: "wieźć", ru: "везти", relation: root }
+  - { pl: "zawozić", ru: "отвозить", relation: aspect }
+  - { pl: "przewieźć", ru: "перевезти", relation: derived }
+  - { pl: "wóz", ru: "телега, машина", relation: derived, id: woz }
+etymology: "Приставка za- плюс wieźć «везти», из праславянского *vezti — того же слова, что русское «везти». Чередование ó и o в прошедшем времени отражает старую долготу гласного. Отсюда zawozić, przewieźć «перевезти», wywieźć «вывезти», wóz «телега, машина» и przewóz."
+memory: "zawieźć — «отвезти», корень тот же, что в «везти». Главное — чередование: zawiózł с ó, но zawiozła и zawiozłem с o, потому что слог открывается. А условное мужского рода ó сохраняет: zawiózłby."
+idioms:
+  - { pl: "zawieźć kogoś na dworzec", ru: "отвезти кого-л. на вокзал" }
+  - { pl: "zawieźć do szpitala", ru: "отвезти в больницу" }
+formExamplesSkip:
+  - { form: "zawiozłby", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
+  - { form: "zawiozłbym", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
+  - { form: "zawiozłbyś", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
+  - { form: "zawiozł", reason: "Это не самостоятельная форма, а связанная основа. Она появляется только перед окончанием, начинающимся с гласного: zawiozłem, zawiozłeś, zawiozła. Сама по себе, в третьем лице единственного числа мужского рода, форма звучит zawiózł — с ó, потому что слог закрытый. Отдельно zawiozł не употребляется." }
+formExamples:
+  - form: "zawiezie"
+    pl: "Taksówka zawiezie was pod sam dom."
+    ru: "Такси довезёт вас до самого дома."
+    source: { kind: authored }
+  - form: "zawiezie"
+    pl: "Nikt go tam nie zawiezie o tej porze."
+    ru: "Никто его туда не отвезёт в такое время."
+    source: { kind: authored }
+  - form: "zawiezie"
+    pl: "Sąsiad zawiezie nas na stację."
+    ru: "Сосед отвезёт нас на станцию."
+    source: { kind: authored }
+  - form: "zawieziecie"
+    pl: "Zawieziecie nas na lotnisko?"
+    ru: "Вы отвезёте нас в аэропорт?"
+    source: { kind: authored }
+  - form: "zawieziecie"
+    pl: "Jeśli zawieziecie sprzęt wcześniej, zdążymy się rozstawić."
+    ru: "Если отвезёте оборудование раньше, мы успеем расставиться."
+    source: { kind: authored }
+  - form: "zawieziecie"
+    pl: "Nie zawieziecie tego bez przyczepy."
+    ru: "Вы не отвезёте это без прицепа."
+    source: { kind: authored }
+  - form: "zawieziemy"
+    pl: "Zawieziemy was na miejsce przed południem."
+    ru: "Мы отвезём вас на место до полудня."
+    source: { kind: authored }
+  - form: "zawieziemy"
+    pl: "Zawieziemy meble ciężarówką."
+    ru: "Мы отвезём мебель грузовиком."
+    source: { kind: authored }
+  - form: "zawieziemy"
+    pl: "Nie zawieziemy wszystkiego naraz."
+    ru: "Мы не отвезём всё сразу."
+    source: { kind: authored }
+  - form: "zawiezieni"
+    pl: "Zawiezieni do szpitala ranni byli przytomni."
+    ru: "Отвезённые в больницу раненые были в сознании."
+    source: { kind: authored }
+  - form: "zawiezieni"
+    pl: "Byliśmy zawiezieni na miejsce autobusem."
+    ru: "Нас отвезли на место автобусом."
+    source: { kind: authored }
+  - form: "zawiezieni"
+    pl: "Zawiezieni do sanatorium pacjenci wrócili po miesiącu."
+    ru: "Отвезённые в санаторий пациенты вернулись через месяц."
+    source: { kind: authored }
+  - form: "zawiezienia"
+    pl: "Do zawiezienia zostały jeszcze dwie skrzynie."
+    ru: "Осталось отвезти ещё два ящика."
+    source: { kind: authored }
+  - form: "zawiezienia"
+    pl: "Bez zawiezienia dokumentów sprawa stanie."
+    ru: "Без доставки документов дело встанет."
+    source: { kind: authored }
+  - form: "zawiezienia"
+    pl: "Od zawiezienia ładunku minęła doba."
+    ru: "С доставки груза прошли сутки."
+    source: { kind: authored }
+  - form: "zawiezienie"
+    pl: "Zawiezienie mebli zajęło dwa kursy."
+    ru: "Перевозка мебели заняла два рейса."
+    source: { kind: authored }
+  - form: "zawiezienie"
+    pl: "Zawiezienie dokumentów na czas uratowało sprawę."
+    ru: "Доставка документов вовремя спасла дело."
+    source: { kind: authored }
+  - form: "zawiezienie"
+    pl: "Zawiezienie go do szpitala było jedynym wyjściem."
+    ru: "Отвезти его в больницу было единственным выходом."
+    source: { kind: authored }
+  - form: "zawiezieniem"
+    pl: "Przed zawiezieniem sprzętu sprawdź listę."
+    ru: "Перед отправкой оборудования проверь список."
+    source: { kind: authored }
+  - form: "zawiezieniem"
+    pl: "Zajął się zawiezieniem wszystkich darów."
+    ru: "Он занялся доставкой всех даров."
+    source: { kind: authored }
+  - form: "zawiezieniem"
+    pl: "Między zapakowaniem a zawiezieniem minął tydzień."
+    ru: "Между упаковкой и доставкой прошла неделя."
+    source: { kind: authored }
+  - form: "zawiezieniu"
+    pl: "Po zawiezieniu dzieci wrócił do domu."
+    ru: "Отвезя детей, он вернулся домой."
+    source: { kind: authored }
+  - form: "zawiezieniu"
+    pl: "O zawiezieniu ładunku poinformowano odbiorcę."
+    ru: "О доставке груза уведомили получателя."
+    source: { kind: authored }
+  - form: "zawiezieniu"
+    pl: "W zawiezieniu paczki nie ma nic trudnego."
+    ru: "В доставке посылки нет ничего трудного."
+    source: { kind: authored }
+  - form: "zawieziesz"
+    pl: "Zawieziesz mnie do domu?"
+    ru: "Ты отвезёшь меня домой?"
+    source: { kind: authored }
+  - form: "zawieziesz"
+    pl: "Jeśli zawieziesz dokumenty dziś, zdążymy."
+    ru: "Если отвезёшь документы сегодня, мы успеем."
+    source: { kind: authored }
+  - form: "zawieziesz"
+    pl: "Nie zawieziesz tego wszystkiego jednym kursem."
+    ru: "Ты не отвезёшь это всё за один рейс."
+    source: { kind: authored }
+  - form: "zawieziona"
+    pl: "Zawieziona na pogotowie kobieta odzyskała przytomność."
+    ru: "Отвезённая в неотложку женщина пришла в сознание."
+    source: { kind: authored }
+  - form: "zawieziona"
+    pl: "Paczka zawieziona kurierem dotarła w dzień."
+    ru: "Посылка, отвезённая курьером, дошла за день."
+    source: { kind: authored }
+  - form: "zawieziona"
+    pl: "Zawieziona do sanatorium matka wróciła zdrowsza."
+    ru: "Отвезённая в санаторий мать вернулась здоровее."
+    source: { kind: authored }
+  - form: "zawiezione"
+    pl: "Zawiezione do magazynu skrzynie nie zostały otwarte."
+    ru: "Отвезённые на склад ящики не вскрыли."
+    source: { kind: authored }
+  - form: "zawiezione"
+    pl: "Dary zawiezione w sobotę rozdano w niedzielę."
+    ru: "Дары, отвезённые в субботу, раздали в воскресенье."
+    source: { kind: authored }
+  - form: "zawiezione"
+    pl: "Zawiezione na czas dokumenty uratowały sprawę."
+    ru: "Вовремя отвезённые документы спасли дело."
+    source: { kind: authored }
+  - form: "zawiezionego"
+    pl: "Od zawiezionego sprzętu zależy cały montaż."
+    ru: "От отвезённого оборудования зависит весь монтаж."
+    source: { kind: authored }
+  - form: "zawiezionego"
+    pl: "Nie znalazłem w spisie zawiezionego ładunku."
+    ru: "Я не нашёл в описи отвезённого груза."
+    source: { kind: authored }
+  - form: "zawiezionego"
+    pl: "Nie ma tu nic zawiezionego wczoraj."
+    ru: "Здесь нет ничего, отвезённого вчера."
+    source: { kind: authored }
+  - form: "zawiezionej"
+    pl: "Od zawiezionej na czas paczki zależała cała umowa."
+    ru: "От вовремя отвезённой посылки зависел весь договор."
+    source: { kind: authored }
+  - form: "zawiezionej"
+    pl: "Z zawiezionej dostawy brakowało dwóch skrzyń."
+    ru: "Из отвезённой поставки не хватало двух ящиков."
+    source: { kind: authored }
+  - form: "zawiezionej"
+    pl: "Nie znam przesyłki zawiezionej tak szybko."
+    ru: "Я не знаю отправления, отвезённого так быстро."
+    source: { kind: authored }
+  - form: "zawiezionemu"
+    pl: "Zawiezionemu do szpitala pacjentowi nic już nie groziło."
+    ru: "Отвезённому в больницу пациенту уже ничто не грозило."
+    source: { kind: authored }
+  - form: "zawiezionemu"
+    pl: "Dzięki zawiezionemu na czas sprzętowi zdążyli z montażem."
+    ru: "Благодаря вовремя отвезённому оборудованию они успели с монтажом."
+    source: { kind: authored }
+  - form: "zawiezionemu"
+    pl: "Przyjrzyj się temu zawiezionemu wczoraj ładunkowi."
+    ru: "Присмотрись к этому вчера отвезённому грузу."
+    source: { kind: authored }
+  - form: "zawieziono"
+    pl: "Rannych zawieziono do najbliższego szpitala."
+    ru: "Раненых отвезли в ближайшую больницу."
+    source: { kind: authored }
+  - form: "zawieziono"
+    pl: "Dary zawieziono do punktu zbiórki."
+    ru: "Дары отвезли в пункт сбора."
+    source: { kind: authored }
+  - form: "zawieziono"
+    pl: "Nikogo wtedy nie zawieziono na miejsce."
+    ru: "Тогда никого не отвезли на место."
+    source: { kind: authored }
+  - form: "zawieziony"
+    pl: "Zawieziony do szpitala pacjent przeżył."
+    ru: "Отвезённый в больницу пациент выжил."
+    source: { kind: authored }
+  - form: "zawieziony"
+    pl: "Sprzęt zawieziony wczoraj stoi w magazynie."
+    ru: "Оборудование, отвезённое вчера, стоит на складе."
+    source: { kind: authored }
+  - form: "zawieziony"
+    pl: "Zawieziony pod zły adres list wrócił po miesiącu."
+    ru: "Отвезённое не по тому адресу письмо вернулось через месяц."
+    source: { kind: authored }
+  - form: "zawiezionych"
+    pl: "Wśród zawiezionych darów były i leki."
+    ru: "Среди отвезённых даров были и лекарства."
+    source: { kind: authored }
+  - form: "zawiezionych"
+    pl: "O zawiezionych do szpitala pisała prasa."
+    ru: "Об отвезённых в больницу писала пресса."
+    source: { kind: authored }
+  - form: "zawiezionych"
+    pl: "Połowa zawiezionych skrzyń była pusta."
+    ru: "Половина отвезённых ящиков была пустой."
+    source: { kind: authored }
+  - form: "zawiezionym"
+    pl: "W zawiezionym do magazynu pudle były same książki."
+    ru: "В отвезённой на склад коробке были одни книги."
+    source: { kind: authored }
+  - form: "zawiezionym"
+    pl: "Zawiezionym do szpitala rannym udzielono pomocy."
+    ru: "Отвезённым в больницу раненым оказали помощь."
+    source: { kind: authored }
+  - form: "zawiezionym"
+    pl: "Mówił o zawiezionym ładunku bez szczegółów."
+    ru: "Он говорил об отвезённом грузе без подробностей."
+    source: { kind: authored }
+  - form: "zawiezionymi"
+    pl: "Zajmuje się zawiezionymi wczoraj dostawami."
+    ru: "Он занимается вчера отвезёнными поставками."
+    source: { kind: authored }
+  - form: "zawiezionymi"
+    pl: "Między zawiezionymi a odebranymi paczkami jest różnica."
+    ru: "Между отвезёнными и полученными посылками есть разница."
+    source: { kind: authored }
+  - form: "zawiezionymi"
+    pl: "Magazyn zapełnił się zawiezionymi skrzyniami."
+    ru: "Склад заполнился отвезёнными ящиками."
+    source: { kind: authored }
+  - form: "zawiezioną"
+    pl: "Odebrali zawiezioną rano przesyłkę."
+    ru: "Они получили отвезённое утром отправление."
+    source: { kind: authored }
+  - form: "zawiezioną"
+    pl: "Uznali tę dostawę za prawidłowo zawiezioną."
+    ru: "Эту поставку сочли правильно доставленной."
+    source: { kind: authored }
+  - form: "zawiezioną"
+    pl: "Widział skrzynię zawiezioną pod zły adres."
+    ru: "Он видел ящик, отвезённый по неверному адресу."
+    source: { kind: authored }
+  - form: "zawieź"
+    pl: "Zawieź to do magazynu."
+    ru: "Отвези это на склад."
+    source: { kind: authored }
+  - form: "zawieź"
+    pl: "Zawieź dzieci i wracaj."
+    ru: "Отвези детей и возвращайся."
+    source: { kind: authored }
+  - form: "zawieź"
+    pl: "Nie zawieź tego pod zły adres."
+    ru: "Не отвези это по неверному адресу."
+    source: { kind: authored }
+  - form: "zawieźcie"
+    pl: "Zawieźcie ją do lekarza natychmiast."
+    ru: "Отвезите её к врачу немедленно."
+    source: { kind: authored }
+  - form: "zawieźcie"
+    pl: "Zawieźcie dokumenty do urzędu przed trzecią."
+    ru: "Отвезите документы в учреждение до трёх."
+    source: { kind: authored }
+  - form: "zawieźcie"
+    pl: "Nie zawieźcie tego pod stary adres."
+    ru: "Не отвезите это по старому адресу."
+    source: { kind: authored }
+  - form: "zawieźli"
+    pl: "Zawieźli meble do nowego mieszkania."
+    ru: "Они отвезли мебель в новую квартиру."
+    source: { kind: authored }
+  - form: "zawieźli"
+    pl: "Zawieźli ją na pogotowie w środku nocy."
+    ru: "Они отвезли её в неотложку среди ночи."
+    source: { kind: authored }
+  - form: "zawieźli"
+    pl: "Nie zawieźli tam niczego bez listu przewozowego."
+    ru: "Они ничего туда не отвезли без накладной."
+    source: { kind: authored }
+  - form: "zawieźliby"
+    pl: "Zawieźliby nas, gdyby mieli miejsce."
+    ru: "Они отвезли бы нас, если бы было место."
+    source: { kind: authored }
+  - form: "zawieźliby"
+    pl: "Bez przyczepy nie zawieźliby tych mebli."
+    ru: "Без прицепа они не отвезли бы эту мебель."
+    source: { kind: authored }
+  - form: "zawieźliby"
+    pl: "Zawieźliby ją do szpitala wcześniej."
+    ru: "Они отвезли бы её в больницу раньше."
+    source: { kind: authored }
+  - form: "zawieźlibyście"
+    pl: "Zawieźlibyście nas na stację?"
+    ru: "Вы отвезли бы нас на станцию?"
+    source: { kind: authored }
+  - form: "zawieźlibyście"
+    pl: "Czy zawieźlibyście to jeszcze dziś?"
+    ru: "Отвезли бы вы это ещё сегодня?"
+    source: { kind: authored }
+  - form: "zawieźlibyście"
+    pl: "Bez przyczepy nie zawieźlibyście mebli."
+    ru: "Без прицепа вы не отвезли бы мебель."
+    source: { kind: authored }
+  - form: "zawieźlibyśmy"
+    pl: "Zawieźlibyśmy was, gdybyśmy mieli większe auto."
+    ru: "Мы отвезли бы вас, будь у нас машина побольше."
+    source: { kind: authored }
+  - form: "zawieźlibyśmy"
+    pl: "Bez tej awarii zawieźlibyśmy sprzęt na czas."
+    ru: "Без этой поломки мы отвезли бы оборудование вовремя."
+    source: { kind: authored }
+  - form: "zawieźlibyśmy"
+    pl: "Nie zawieźlibyśmy tego bez dokumentów."
+    ru: "Мы не отвезли бы это без документов."
+    source: { kind: authored }
+  - form: "zawieźliście"
+    pl: "Zawieźliście paczkę pod wskazany adres?"
+    ru: "Вы отвезли посылку по указанному адресу?"
+    source: { kind: authored }
+  - form: "zawieźliście"
+    pl: "Dokąd zawieźliście te meble?"
+    ru: "Куда вы отвезли эту мебель?"
+    source: { kind: authored }
+  - form: "zawieźliście"
+    pl: "Nie zawieźliście tego na czas."
+    ru: "Вы не отвезли это вовремя."
+    source: { kind: authored }
+  - form: "zawieźliśmy"
+    pl: "Zawieźliśmy ich na lotnisko nad ranem."
+    ru: "Мы отвезли их в аэропорт под утро."
+    source: { kind: authored }
+  - form: "zawieźliśmy"
+    pl: "Zawieźliśmy sprzęt dwiema turami."
+    ru: "Мы отвезли оборудование в два рейса."
+    source: { kind: authored }
+  - form: "zawieźliśmy"
+    pl: "Nie zawieźliśmy niczego bez dokumentów."
+    ru: "Мы ничего не отвезли без документов."
+    source: { kind: authored }
+  - form: "zawieźmy"
+    pl: "Zawieźmy ich samochodem, tak będzie szybciej."
+    ru: "Отвезём их на машине, так будет быстрее."
+    source: { kind: authored }
+  - form: "zawieźmy"
+    pl: "Zawieźmy sprzęt jeszcze dziś."
+    ru: "Отвезём оборудование ещё сегодня."
+    source: { kind: authored }
+  - form: "zawieźmy"
+    pl: "Nie zawieźmy tego bez potwierdzenia."
+    ru: "Не повезём это без подтверждения."
+    source: { kind: authored }
+  - form: "zawieźć"
+    pl: "Muszę zawieźć dzieci do szkoły."
+    ru: "Мне надо отвезти детей в школу."
+    source: { kind: authored }
+  - form: "zawieźć"
+    pl: "Obiecał zawieźć nas na dworzec."
+    ru: "Он обещал отвезти нас на вокзал."
+    source: { kind: authored }
+  - form: "zawieźć"
+    pl: "Nie zdążył zawieźć paczki przed zamknięciem."
+    ru: "Он не успел отвезти посылку до закрытия."
+    source: { kind: authored }
+  - form: "zawiozą"
+    pl: "Zawiozą go do szpitala karetką."
+    ru: "Его отвезут в больницу на скорой."
+    source: { kind: authored }
+  - form: "zawiozą"
+    pl: "Nie zawiozą paczki pod wskazany adres."
+    ru: "Посылку по указанному адресу не отвезут."
+    source: { kind: authored }
+  - form: "zawiozą"
+    pl: "Zawiozą ziemniaki na targ przed świtem."
+    ru: "Картошку отвезут на рынок до рассвета."
+    source: { kind: authored }
+  - form: "zawiozę"
+    pl: "Zawiozę cię na lotnisko rano."
+    ru: "Я отвезу тебя в аэропорт утром."
+    source: { kind: authored }
+  - form: "zawiozę"
+    pl: "Zawiozę to do warsztatu jutro."
+    ru: "Я отвезу это в мастерскую завтра."
+    source: { kind: authored }
+  - form: "zawiozę"
+    pl: "Nie zawiozę nikogo bez paliwa."
+    ru: "Я никого не отвезу без топлива."
+    source: { kind: authored }
+  - form: "zawiozła"
+    pl: "Zawiozła dzieci do babci na wakacje."
+    ru: "Она отвезла детей к бабушке на каникулы."
+    source: { kind: authored }
+  - form: "zawiozła"
+    pl: "Zawiozła go do szpitala własnym samochodem."
+    ru: "Она отвезла его в больницу на своей машине."
+    source: { kind: authored }
+  - form: "zawiozła"
+    pl: "Nie zawiozła tam nikogo, zabrakło miejsca."
+    ru: "Она никого туда не отвезла, не хватило места."
+    source: { kind: authored }
+  - form: "zawiozłaby"
+    pl: "Zawiozłaby go sama, gdyby miała prawo jazdy."
+    ru: "Она отвезла бы его сама, если бы были права."
+    source: { kind: authored }
+  - form: "zawiozłaby"
+    pl: "Bez auta nie zawiozłaby nikogo."
+    ru: "Без машины она никого не отвезла бы."
+    source: { kind: authored }
+  - form: "zawiozłaby"
+    pl: "Zawiozłaby dzieci wcześniej, ale zaspała."
+    ru: "Она отвезла бы детей раньше, но проспала."
+    source: { kind: authored }
+  - form: "zawiozłabym"
+    pl: "Zawiozłabym cię, ale nie mam auta."
+    ru: "Я отвезла бы тебя, но у меня нет машины."
+    source: { kind: authored }
+  - form: "zawiozłabym"
+    pl: "Na twoim miejscu zawiozłabym to osobiście."
+    ru: "На твоём месте я отвезла бы это лично."
+    source: { kind: authored }
+  - form: "zawiozłabym"
+    pl: "Bez prawa jazdy nie zawiozłabym nikogo."
+    ru: "Без прав я никого не отвезла бы."
+    source: { kind: authored }
+  - form: "zawiozłabyś"
+    pl: "Zawiozłabyś mnie na dworzec?"
+    ru: "Ты отвезла бы меня на вокзал?"
+    source: { kind: authored }
+  - form: "zawiozłabyś"
+    pl: "Czy zawiozłabyś to osobiście?"
+    ru: "Отвезла бы ты это лично?"
+    source: { kind: authored }
+  - form: "zawiozłabyś"
+    pl: "Bez auta nie zawiozłabyś nikogo."
+    ru: "Без машины ты никого не отвезла бы."
+    source: { kind: authored }
+  - form: "zawiozłam"
+    pl: "Zawiozłam go do pracy po drodze."
+    ru: "Я отвезла его на работу по пути."
+    source: { kind: authored }
+  - form: "zawiozłam"
+    pl: "Zawiozłam dokumenty osobiście."
+    ru: "Я отвезла документы лично."
+    source: { kind: authored }
+  - form: "zawiozłam"
+    pl: "Nie zawiozłam tam nikogo, nie miałam auta."
+    ru: "Я никого туда не отвезла, у меня не было машины."
+    source: { kind: authored }
+  - form: "zawiozłaś"
+    pl: "Zawiozłaś ją na dworzec?"
+    ru: "Ты отвезла её на вокзал?"
+    source: { kind: authored }
+  - form: "zawiozłaś"
+    pl: "Dokąd zawiozłaś te skrzynie?"
+    ru: "Куда ты отвезла эти ящики?"
+    source: { kind: authored }
+  - form: "zawiozłaś"
+    pl: "Nie zawiozłaś tego pod właściwy adres."
+    ru: "Ты отвезла это не по тому адресу."
+    source: { kind: authored }
+  - form: "zawiozłem"
+    pl: "Zawiozłem go do pracy po drodze."
+    ru: "Я отвёз его на работу по пути."
+    source: { kind: authored }
+  - form: "zawiozłem"
+    pl: "Zawiozłem dokumenty osobiście."
+    ru: "Я отвёз документы лично."
+    source: { kind: authored }
+  - form: "zawiozłem"
+    pl: "Nie zawiozłem tam nikogo, nie miałem auta."
+    ru: "Я никого туда не отвёз, у меня не было машины."
+    source: { kind: authored }
+  - form: "zawiozłeś"
+    pl: "Zawiozłeś ją na dworzec?"
+    ru: "Ты отвёз её на вокзал?"
+    source: { kind: authored }
+  - form: "zawiozłeś"
+    pl: "Dokąd zawiozłeś te skrzynie?"
+    ru: "Куда ты отвёз эти ящики?"
+    source: { kind: authored }
+  - form: "zawiozłeś"
+    pl: "Nie zawiozłeś tego pod właściwy adres."
+    ru: "Ты отвёз это не по тому адресу."
+    source: { kind: authored }
+  - form: "zawiozło"
+    pl: "Kilka osób zawiozło dary do punktu zbiórki."
+    ru: "Несколько человек отвезли дары в пункт сбора."
+    source: { kind: authored }
+  - form: "zawiozło"
+    pl: "Pogotowie zawiozło go na oddział."
+    ru: "Скорая отвезла его в отделение."
+    source: { kind: authored }
+  - form: "zawiozło"
+    pl: "Żadne auto nie zawiozło nas dalej niż do mostu."
+    ru: "Ни одна машина не отвезла нас дальше моста."
+    source: { kind: authored }
+  - form: "zawiozłoby"
+    pl: "Pogotowie zawiozłoby go szybciej przy pustej drodze."
+    ru: "Скорая отвезла бы его быстрее по пустой дороге."
+    source: { kind: authored }
+  - form: "zawiozłoby"
+    pl: "Kilka osób zawiozłoby dary chętnie."
+    ru: "Несколько человек охотно отвезли бы дары."
+    source: { kind: authored }
+  - form: "zawiozłoby"
+    pl: "Żadne auto nie zawiozłoby nas dalej."
+    ru: "Ни одна машина не отвезла бы нас дальше."
+    source: { kind: authored }
+  - form: "zawiozły"
+    pl: "Obie ciężarówki zawiozły ładunek na czas."
+    ru: "Оба грузовика отвезли груз вовремя."
+    source: { kind: authored }
+  - form: "zawiozły"
+    pl: "Siostry zawiozły matkę do sanatorium."
+    ru: "Сёстры отвезли мать в санаторий."
+    source: { kind: authored }
+  - form: "zawiozły"
+    pl: "Autobusy zawiozły uczniów na wycieczkę."
+    ru: "Автобусы отвезли учеников на экскурсию."
+    source: { kind: authored }
+  - form: "zawiozłyby"
+    pl: "Obie ciężarówki zawiozłyby ładunek za jednym razem."
+    ru: "Оба грузовика отвезли бы груз за один раз."
+    source: { kind: authored }
+  - form: "zawiozłyby"
+    pl: "Siostry zawiozłyby matkę same."
+    ru: "Сёстры отвезли бы мать сами."
+    source: { kind: authored }
+  - form: "zawiozłyby"
+    pl: "Autobusy zawiozłyby uczniów pod samo muzeum."
+    ru: "Автобусы отвезли бы учеников прямо к музею."
+    source: { kind: authored }
+  - form: "zawiozłybyście"
+    pl: "Zawiozłybyście nas na stację?"
+    ru: "Вы отвезли бы нас на станцию?"
+    source: { kind: authored }
+  - form: "zawiozłybyście"
+    pl: "Czy zawiozłybyście to jeszcze dziś?"
+    ru: "Отвезли бы вы это ещё сегодня?"
+    source: { kind: authored }
+  - form: "zawiozłybyście"
+    pl: "Bez przyczepy nie zawiozłybyście mebli."
+    ru: "Без прицепа вы не отвезли бы мебель."
+    source: { kind: authored }
+  - form: "zawiozłybyśmy"
+    pl: "Zawiozłybyśmy was, gdybyśmy miały większe auto."
+    ru: "Мы отвезли бы вас, будь у нас машина побольше."
+    source: { kind: authored }
+  - form: "zawiozłybyśmy"
+    pl: "Bez tej awarii zawiozłybyśmy sprzęt na czas."
+    ru: "Без этой поломки мы отвезли бы оборудование вовремя."
+    source: { kind: authored }
+  - form: "zawiozłybyśmy"
+    pl: "Nie zawiozłybyśmy tego bez dokumentów."
+    ru: "Мы не отвезли бы это без документов."
+    source: { kind: authored }
+  - form: "zawiozłyście"
+    pl: "Zawiozłyście paczkę pod wskazany adres?"
+    ru: "Вы отвезли посылку по указанному адресу?"
+    source: { kind: authored }
+  - form: "zawiozłyście"
+    pl: "Dokąd zawiozłyście te meble?"
+    ru: "Куда вы отвезли эту мебель?"
+    source: { kind: authored }
+  - form: "zawiozłyście"
+    pl: "Nie zawiozłyście tego na czas."
+    ru: "Вы не отвезли это вовремя."
+    source: { kind: authored }
+  - form: "zawiozłyśmy"
+    pl: "Zawiozłyśmy ich na lotnisko nad ranem."
+    ru: "Мы отвезли их в аэропорт под утро."
+    source: { kind: authored }
+  - form: "zawiozłyśmy"
+    pl: "Zawiozłyśmy sprzęt dwiema turami."
+    ru: "Мы отвезли оборудование в два рейса."
+    source: { kind: authored }
+  - form: "zawiozłyśmy"
+    pl: "Nie zawiozłyśmy niczego bez dokumentów."
+    ru: "Мы ничего не отвезли без документов."
+    source: { kind: authored }
+  - form: "zawiózł"
+    pl: "Zawiózł nas na dworzec o piątej rano."
+    ru: "Он отвёз нас на вокзал в пять утра."
+    source: { kind: authored }
+  - form: "zawiózł"
+    pl: "Zawiózł paczkę i wrócił tego samego dnia."
+    ru: "Он отвёз посылку и вернулся в тот же день."
+    source: { kind: authored }
+  - form: "zawiózł"
+    pl: "Nikt go tam wtedy nie zawiózł."
+    ru: "Никто его туда тогда не отвёз."
+    source: { kind: authored }
+  - form: "zawiózłszy"
+    pl: "Zawiózłszy dzieci, wrócił do pracy."
+    ru: "Отвезя детей, он вернулся на работу."
+    source: { kind: authored }
+  - form: "zawiózłszy"
+    pl: "Zawiózłszy paczkę, odetchnął z ulgą."
+    ru: "Отвезя посылку, он вздохнул с облегчением."
+    source: { kind: authored }
+  - form: "zawiózłszy"
+    pl: "Zawiózłszy ją do szpitala, czekał do rana."
+    ru: "Отвезя её в больницу, он ждал до утра."
+    source: { kind: authored }
