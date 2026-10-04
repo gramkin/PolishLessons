@@ -815,6 +815,8 @@ exclude:
   # czekalo — артефакт лемматизации: czekalo это форма глагола czekac,
   # ранжировщик принял её за существительное и построил ложную парадигму
   - czekalo
+  # Jones — английская фамилия, не нарицательное слово
+  - jones
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -1016,6 +1018,7 @@ excludeNotes:
   amanda: { why: proper-noun }
   nathan: { why: proper-noun }
   czekalo: { why: not-a-lemma }
+  jones: { why: proper-noun }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
