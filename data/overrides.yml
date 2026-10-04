@@ -802,6 +802,12 @@ exclude:
   # (obu Ameryk); единственное нарицательное ameryk — химический элемент
   # америций, далеко за пределами A1–A2
   - ameryk
+  # Rzym — название города, не нарицательное слово
+  - rzym
+  # Marta — личное имя, не нарицательное слово
+  - marta
+  # city — английское слово, в польских текстах как часть названий
+  - city
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -997,6 +1003,9 @@ excludeNotes:
   morgan: { why: proper-noun }
   roger: { why: proper-noun }
   ameryk: { why: not-a-lemma }
+  rzym: { why: proper-noun }
+  marta: { why: proper-noun }
+  city: { why: foreign }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
