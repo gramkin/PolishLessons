@@ -1,0 +1,825 @@
+# review
+id: chowac
+format: 2
+lemma: "chować"
+rank: 2142
+pos: verb
+depth: deep
+pron: { cyr: "хо́ваць" }
+senses:
+  - id: hide
+    ru: "прятать"
+    examples:
+      - pl: "Chowa klucze pod doniczką."
+        ru: "Он прячет ключи под горшком."
+        source: { kind: authored }
+      - pl: "Nie chowaj przede mną prawdy."
+        ru: "Не прячь от меня правду."
+        source: { kind: authored }
+      - pl: "Chował pieniądze w książkach."
+        ru: "Он прятал деньги в книгах."
+        source: { kind: authored }
+  - id: hide-oneself
+    ru: "chować się — прятаться"
+    examples:
+      - pl: "Dzieci chowały się w stodole."
+        ru: "Дети прятались в сарае."
+        source: { kind: authored }
+      - pl: "Słońce chowa się za chmury."
+        ru: "Солнце прячется за тучи."
+        source: { kind: authored }
+  - id: raise
+    ru: "растить, воспитывать (детей, скот)"
+    examples:
+      - pl: "Chowali trzech synów bez pomocy."
+        ru: "Они растили троих сыновей без помощи."
+        source: { kind: authored }
+      - pl: "Babcia chowała kury i gęsi."
+        ru: "Бабушка держала кур и гусей."
+        source: { kind: authored }
+  - id: bury
+    ru: "хоронить"
+    examples:
+      - pl: "Zmarłych chowano na wzgórzu."
+        ru: "Умерших хоронили на холме."
+        source: { kind: authored }
+      - pl: "Chowali go w deszczu."
+        ru: "Его хоронили под дождём."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "РОДСТВЕННИК ЕСТЬ, ПРОСТО В РУССКОМ ОН ОТСТУПИЛ НА ОКРАИНУ. Польское chować отвечает русскому «ховать», которое уцелело в говорах и в украинском «ховати». Но главный мост — слово «ХОРОНИТЬ»: это тот же корень, и четвёртое значение chować именно такое. Выходит, один польский глагол покрывает сразу три русских — «прятать», «растить» и «хоронить», — и какое из них имеется в виду, подсказывает только дополнение: chować klucze, chować dzieci, chować zmarłych." }
+  - { kind: usage, text: "ЛОВУШКА СПРЯЖЕНИЯ, И ОНА СЕРЬЁЗНАЯ. Глагол кончается на -ować, но по правилу -ować НЕ спрягается: не «chowuję», а chowam, chowasz, chowa. Дело в том, что -owa- здесь часть корня, а не суффикс. Сравните pracować → pracuję, zaplanować → zaplanuję, oszukiwać → oszukuję, где суффикс настоящий, с chować → chowam. Правило -ować даёт -uj- почти всегда, но chować и schować из него выпадают." }
+  - { kind: government, text: "Прячут ЧТО — винительный: chować klucze, pieniądze, dokumenty. ГДЕ — w с предложным (chować w szufladzie) или pod с творительным (chować pod łóżkiem). ОТ КОГО — przed с творительным: chować coś przed matką. Вот здесь русский расходится: по-русски «прятать ОТ матери», с родительным, а по-польски przed matką, с творительным. Калька с «от» невозможна." }
+  - { kind: pronunciation, text: "ch читается как х, w как в: «хо́ваць». Ударение на предпоследнем слоге во всех формах, и при удлинении слова оно послушно едет вправо: chowaliśmy — «хова́лишмы», chowalibyśmy — «ховали́бышмы»." }
+collocations:
+  - { pl: "chować klucze", ru: "прятать ключи" }
+  - { pl: "chować urazę", ru: "таить обиду" }
+  - { pl: "chować dzieci", ru: "растить детей" }
+family:
+  - { pl: "schować", ru: "спрятать", relation: aspect, id: schowac }
+  - { pl: "wychować", ru: "воспитать", relation: derived, id: wychowac }
+  - { pl: "pochować", ru: "похоронить", relation: derived }
+  - { pl: "schowek", ru: "тайник; бардачок", relation: derived }
+etymology: "Из праславянского *xovati «беречь, прятать». В русском корень отступил в говоры («ховать») и уцелел в слове «хоронить», которое изначально значило «беречь, прятать», а не только «погребать». Польский удержал всё поле разом: прятать, беречь, растить и погребать. Отсюда schować, schowek «тайник», wychować «воспитать», pochówek «погребение»."
+memory: "chować — один глагол на три русских: «прятать», «растить» и «хоронить». Родня у него диалектное «ховать», а главный мост — «хоронить», тот же корень. И не попадитесь на спряжении: несмотря на -ować, здесь chowam, а не «chowuję»."
+idioms:
+  - { pl: "chować urazę", ru: "таить обиду" }
+  - { pl: "chować głowę w piasek", ru: "прятать голову в песок" }
+  - { pl: "bawić się w chowanego", ru: "играть в прятки" }
+formExamples:
+  - form: "chowa"
+    pl: "Chowa pieniądze w książkach."
+    ru: "Он прячет деньги в книгах."
+    source: { kind: authored }
+  - form: "chowa"
+    pl: "Słońce chowa się za chmury."
+    ru: "Солнце прячется за тучи."
+    source: { kind: authored }
+  - form: "chowa"
+    pl: "Babcia chowa kury za domem."
+    ru: "Бабушка держит кур за домом."
+    source: { kind: authored }
+  - form: "chowacie"
+    pl: "Gdzie chowacie narzędzia?"
+    ru: "Где вы прячете инструменты?"
+    source: { kind: authored }
+  - form: "chowacie"
+    pl: "Chowacie coś przed nami."
+    ru: "Вы что-то от нас прячете."
+    source: { kind: authored }
+  - form: "chowacie"
+    pl: "Nie chowacie już kur?"
+    ru: "Вы больше не держите кур?"
+    source: { kind: authored }
+  - form: "chowaj"
+    pl: "Chowaj to głębiej, bo znajdą."
+    ru: "Прячь это поглубже, а то найдут."
+    source: { kind: authored }
+  - form: "chowaj"
+    pl: "Nie chowaj głowy w piasek."
+    ru: "Не прячь голову в песок."
+    source: { kind: authored }
+  - form: "chowaj"
+    pl: "Chowaj urazę, ale nie zemstę."
+    ru: "Таи обиду, но не месть."
+    source: { kind: authored }
+  - form: "chowajcie"
+    pl: "Chowajcie dokumenty w sejfie."
+    ru: "Прячьте документы в сейфе."
+    source: { kind: authored }
+  - form: "chowajcie"
+    pl: "Nie chowajcie się, i tak was widać."
+    ru: "Не прячьтесь, вас всё равно видно."
+    source: { kind: authored }
+  - form: "chowajcie"
+    pl: "Chowajcie zapasy, zima będzie długa."
+    ru: "Прячьте запасы, зима будет долгой."
+    source: { kind: authored }
+  - form: "chowajmy"
+    pl: "Chowajmy klucze zawsze w jednym miejscu."
+    ru: "Будем прятать ключи всегда в одном месте."
+    source: { kind: authored }
+  - form: "chowajmy"
+    pl: "Nie chowajmy przed sobą złych wiadomości."
+    ru: "Не будем прятать друг от друга плохие новости."
+    source: { kind: authored }
+  - form: "chowajmy"
+    pl: "Chowajmy drobne na wakacje."
+    ru: "Будем откладывать мелочь на отпуск."
+    source: { kind: authored }
+  - form: "chowają"
+    pl: "Dzieci chowają zabawki pod łóżko."
+    ru: "Дети прячут игрушки под кровать."
+    source: { kind: authored }
+  - form: "chowają"
+    pl: "Wiewiórki chowają orzechy na zimę."
+    ru: "Белки прячут орехи на зиму."
+    source: { kind: authored }
+  - form: "chowają"
+    pl: "Zmarłych chowają na starym cmentarzu."
+    ru: "Умерших хоронят на старом кладбище."
+    source: { kind: authored }
+  - form: "chowając"
+    pl: "Chowając klucz, zapomniał gdzie."
+    ru: "Пряча ключ, он забыл куда."
+    source: { kind: authored }
+  - form: "chowając"
+    pl: "Chowając urazę, tracisz najwięcej sam."
+    ru: "Тая обиду, ты теряешь больше всех сам."
+    source: { kind: authored }
+  - form: "chowając"
+    pl: "Chowając się za drzewem, patrzył na dom."
+    ru: "Прячась за деревом, он смотрел на дом."
+    source: { kind: authored }
+  - form: "chowająca"
+    pl: "Chowająca się za chmury tarcza słońca zbladła."
+    ru: "Прячущийся за тучи солнечный диск побледнел."
+    source: { kind: authored }
+  - form: "chowająca"
+    pl: "To chowająca dzieci sama kobieta."
+    ru: "Это женщина, растящая детей одна."
+    source: { kind: authored }
+  - form: "chowająca"
+    pl: "Chowająca urazę siostra nie odezwała się przez rok."
+    ru: "Таящая обиду сестра не отзывалась целый год."
+    source: { kind: authored }
+  - form: "chowające"
+    pl: "Chowające się dzieci słychać na całe podwórko."
+    ru: "Прячущихся детей слышно на весь двор."
+    source: { kind: authored }
+  - form: "chowające"
+    pl: "To chowające orzechy wiewiórki."
+    ru: "Это белки, прячущие орехи."
+    source: { kind: authored }
+  - form: "chowające"
+    pl: "Chowające się za las słońce barwi niebo."
+    ru: "Прячущееся за лес солнце красит небо."
+    source: { kind: authored }
+  - form: "chowającego"
+    pl: "Nie widziałem go nigdy chowającego urazę."
+    ru: "Я никогда не видел его таящим обиду."
+    source: { kind: authored }
+  - form: "chowającego"
+    pl: "Od chowającego zapasy gospodarza zależy cała zima."
+    ru: "От прячущего запасы хозяина зависит вся зима."
+    source: { kind: authored }
+  - form: "chowającego"
+    pl: "Nie ma tu nikogo chowającego się przed pracą."
+    ru: "Здесь нет никого, прячущегося от работы."
+    source: { kind: authored }
+  - form: "chowającej"
+    pl: "Od chowającej się za chmury pogody zależy wyjazd."
+    ru: "От прячущейся за тучи погоды зависит поездка."
+    source: { kind: authored }
+  - form: "chowającej"
+    pl: "Nie znam matki chowającej dzieci tak surowo."
+    ru: "Я не знаю матери, растящей детей так строго."
+    source: { kind: authored }
+  - form: "chowającej"
+    pl: "Z chowającej urazę rodziny nic dobrego nie wyszło."
+    ru: "Из таящей обиду семьи ничего хорошего не вышло."
+    source: { kind: authored }
+  - form: "chowającemu"
+    pl: "Chowającemu urazę trudno wybaczyć."
+    ru: "Таящему обиду трудно простить."
+    source: { kind: authored }
+  - form: "chowającemu"
+    pl: "Dzięki chowającemu zapasy sąsiadowi przetrwali zimę."
+    ru: "Благодаря прячущему запасы соседу они пережили зиму."
+    source: { kind: authored }
+  - form: "chowającemu"
+    pl: "Przyjrzyj się temu chowającemu się za płotem psu."
+    ru: "Присмотрись к этой прячущейся за забором собаке."
+    source: { kind: authored }
+  - form: "chowający"
+    pl: "Chowający urazę człowiek nie bywa szczęśliwy."
+    ru: "Таящий обиду человек не бывает счастлив."
+    source: { kind: authored }
+  - form: "chowający"
+    pl: "To chowający się przed światem samotnik."
+    ru: "Это прячущийся от мира отшельник."
+    source: { kind: authored }
+  - form: "chowający"
+    pl: "Chowający zapasy gospodarz przetrwa zimę."
+    ru: "Прячущий запасы хозяин переживёт зиму."
+    source: { kind: authored }
+  - form: "chowających"
+    pl: "Wśród chowających się dzieci był i najmłodszy."
+    ru: "Среди прячущихся детей был и самый младший."
+    source: { kind: authored }
+  - form: "chowających"
+    pl: "O chowających zapasy gospodarzach mówiono z szacunkiem."
+    ru: "О прячущих запасы хозяевах говорили с уважением."
+    source: { kind: authored }
+  - form: "chowających"
+    pl: "Liczba chowających oszczędności w domu rośnie."
+    ru: "Число прячущих сбережения дома растёт."
+    source: { kind: authored }
+  - form: "chowającym"
+    pl: "Chowającym urazę ludziom żyje się ciężej."
+    ru: "Таящим обиду людям живётся тяжелее."
+    source: { kind: authored }
+  - form: "chowającym"
+    pl: "W chowającym się za chmury słońcu nie ma ciepła."
+    ru: "В прячущемся за тучи солнце нет тепла."
+    source: { kind: authored }
+  - form: "chowającym"
+    pl: "Mówił o chowającym zapasy sąsiedzie z podziwem."
+    ru: "Он говорил о прячущем запасы соседе с восхищением."
+    source: { kind: authored }
+  - form: "chowającymi"
+    pl: "Zajmuje się chowającymi oszczędności w domu klientami."
+    ru: "Он занимается клиентами, прячущими сбережения дома."
+    source: { kind: authored }
+  - form: "chowającymi"
+    pl: "Między chowającymi a dzielącymi się jest przepaść."
+    ru: "Между прячущими и делящимися пропасть."
+    source: { kind: authored }
+  - form: "chowającymi"
+    pl: "Opiekuje się chowającymi dzieci samotnymi matkami."
+    ru: "Он занимается одинокими матерями, растящими детей."
+    source: { kind: authored }
+  - form: "chowającą"
+    pl: "Spotkał kobietę chowającą dzieci samotnie."
+    ru: "Он встретил женщину, растящую детей в одиночку."
+    source: { kind: authored }
+  - form: "chowającą"
+    pl: "Uznali tę rodzinę za chowającą urazę."
+    ru: "Эту семью сочли таящей обиду."
+    source: { kind: authored }
+  - form: "chowającą"
+    pl: "Widział wiewiórkę chowającą orzech pod korzeniem."
+    ru: "Он видел белку, прячущую орех под корнем."
+    source: { kind: authored }
+  - form: "chowali"
+    pl: "Chowali zapasy w piwnicy."
+    ru: "Они прятали запасы в погребе."
+    source: { kind: authored }
+  - form: "chowali"
+    pl: "Chowali trzech synów bez niczyjej pomocy."
+    ru: "Они растили троих сыновей без чьей-либо помощи."
+    source: { kind: authored }
+  - form: "chowali"
+    pl: "Chowali go w deszczu, przy kilkunastu osobach."
+    ru: "Его хоронили под дождём, при десятке человек."
+    source: { kind: authored }
+  - form: "chowaliby"
+    pl: "Chowaliby zapasy, gdyby mieli gdzie."
+    ru: "Они прятали бы запасы, если бы было где."
+    source: { kind: authored }
+  - form: "chowaliby"
+    pl: "Bez tej piwnicy nie chowaliby niczego."
+    ru: "Без этого погреба они ничего не прятали бы."
+    source: { kind: authored }
+  - form: "chowaliby"
+    pl: "Chowaliby zmarłych bliżej wsi."
+    ru: "Они хоронили бы умерших ближе к деревне."
+    source: { kind: authored }
+  - form: "chowalibyście"
+    pl: "Gdzie chowalibyście taką sumę?"
+    ru: "Где бы вы прятали такую сумму?"
+    source: { kind: authored }
+  - form: "chowalibyście"
+    pl: "Czy chowalibyście to przed rodziną?"
+    ru: "Прятали бы вы это от семьи?"
+    source: { kind: authored }
+  - form: "chowalibyście"
+    pl: "Nie chowalibyście się przed deszczem pod drzewem."
+    ru: "Вы не прятались бы от дождя под деревом."
+    source: { kind: authored }
+  - form: "chowalibyśmy"
+    pl: "Chowalibyśmy prezenty gdzie indziej."
+    ru: "Мы прятали бы подарки в другом месте."
+    source: { kind: authored }
+  - form: "chowalibyśmy"
+    pl: "Bez strychu nie chowalibyśmy niczego."
+    ru: "Без чердака мы ничего не прятали бы."
+    source: { kind: authored }
+  - form: "chowalibyśmy"
+    pl: "Nie chowalibyśmy przed wami prawdy."
+    ru: "Мы не прятали бы от вас правду."
+    source: { kind: authored }
+  - form: "chowaliście"
+    pl: "Gdzie chowaliście zapasy?"
+    ru: "Где вы прятали запасы?"
+    source: { kind: authored }
+  - form: "chowaliście"
+    pl: "Chowaliście się przed deszczem pod drzewem?"
+    ru: "Вы прятались от дождя под деревом?"
+    source: { kind: authored }
+  - form: "chowaliście"
+    pl: "Nie chowaliście przed nami prawdy."
+    ru: "Вы не прятали от нас правду."
+    source: { kind: authored }
+  - form: "chowaliśmy"
+    pl: "Chowaliśmy prezenty na strychu."
+    ru: "Мы прятали подарки на чердаке."
+    source: { kind: authored }
+  - form: "chowaliśmy"
+    pl: "Chowaliśmy się tam jako dzieci."
+    ru: "Мы прятались там детьми."
+    source: { kind: authored }
+  - form: "chowaliśmy"
+    pl: "Nie chowaliśmy przed nimi niczego."
+    ru: "Мы ничего от них не прятали."
+    source: { kind: authored }
+  - form: "chowam"
+    pl: "Chowam klucze pod doniczką."
+    ru: "Я прячу ключи под горшком."
+    source: { kind: authored }
+  - form: "chowam"
+    pl: "Chowam to na czarną godzinę."
+    ru: "Я прячу это на чёрный день."
+    source: { kind: authored }
+  - form: "chowam"
+    pl: "Nie chowam przed tobą niczego."
+    ru: "Я ничего от тебя не прячу."
+    source: { kind: authored }
+  - form: "chowamy"
+    pl: "Chowamy prezenty na strychu."
+    ru: "Мы прячем подарки на чердаке."
+    source: { kind: authored }
+  - form: "chowamy"
+    pl: "Chowamy zapasy na zimę."
+    ru: "Мы прячем запасы на зиму."
+    source: { kind: authored }
+  - form: "chowamy"
+    pl: "Nie chowamy przed dziećmi prawdy."
+    ru: "Мы не прячем от детей правду."
+    source: { kind: authored }
+  - form: "chowana"
+    pl: "Chowana w szufladzie koperta zniknęła."
+    ru: "Хранившийся в ящике конверт исчез."
+    source: { kind: authored }
+  - form: "chowana"
+    pl: "Chowana przez lata uraza wybuchła nagle."
+    ru: "Таившаяся годами обида вдруг вырвалась."
+    source: { kind: authored }
+  - form: "chowana"
+    pl: "Chowana na wsi dziewczynka bała się miasta."
+    ru: "Воспитанная в деревне девочка боялась города."
+    source: { kind: authored }
+  - form: "chowane"
+    pl: "Chowane w piwnicy zapasy przetrwały zimę."
+    ru: "Спрятанные в погребе запасы пережили зиму."
+    source: { kind: authored }
+  - form: "chowane"
+    pl: "Chowane przed dziećmi leki trzeba zamykać."
+    ru: "Прячемые от детей лекарства надо запирать."
+    source: { kind: authored }
+  - form: "chowane"
+    pl: "Chowane w domu oszczędności tracą na wartości."
+    ru: "Хранимые дома сбережения теряют в стоимости."
+    source: { kind: authored }
+  - form: "chowanego"
+    pl: "Bawili się w chowanego do zmroku."
+    ru: "Они играли в прятки до темноты."
+    source: { kind: authored }
+  - form: "chowanego"
+    pl: "Od chowanego pod podłogą skarbu zaczęła się cała historia."
+    ru: "С клада под полом началась вся история."
+    source: { kind: authored }
+  - form: "chowanego"
+    pl: "Nie znalazłem chowanego tam dokumentu."
+    ru: "Я не нашёл спрятанного там документа."
+    source: { kind: authored }
+  - form: "chowanej"
+    pl: "Z chowanej przez lata urazy nic dobrego nie wyszło."
+    ru: "Из таившейся годами обиды ничего хорошего не вышло."
+    source: { kind: authored }
+  - form: "chowanej"
+    pl: "Od chowanej w piwnicy skrzyni wiało chłodem."
+    ru: "От стоявшего в погребе сундука веяло холодом."
+    source: { kind: authored }
+  - form: "chowanej"
+    pl: "Nie znam tajemnicy chowanej tak długo."
+    ru: "Я не знаю тайны, хранимой так долго."
+    source: { kind: authored }
+  - form: "chowanemu"
+    pl: "Chowanemu surowo dziecku trudniej w dorosłości."
+    ru: "Строго воспитанному ребёнку труднее во взрослой жизни."
+    source: { kind: authored }
+  - form: "chowanemu"
+    pl: "Dzięki chowanemu w piwnicy zapasowi przetrwali."
+    ru: "Благодаря хранившемуся в погребе запасу они выжили."
+    source: { kind: authored }
+  - form: "chowanemu"
+    pl: "Przyjrzyj się temu chowanemu pod podłogą pudełku."
+    ru: "Присмотрись к этой спрятанной под полом коробке."
+    source: { kind: authored }
+  - form: "chowani"
+    pl: "Chowani surowo synowie wyrośli na milczków."
+    ru: "Строго воспитанные сыновья выросли молчунами."
+    source: { kind: authored }
+  - form: "chowani"
+    pl: "Byliśmy chowani w wielkim rygorze."
+    ru: "Нас воспитывали в большой строгости."
+    source: { kind: authored }
+  - form: "chowani"
+    pl: "Chowani na wsi chłopcy nie bali się pracy."
+    ru: "Выросшие в деревне мальчишки не боялись работы."
+    source: { kind: authored }
+  - form: "chowania"
+    pl: "Nie mam zwyczaju chowania pieniędzy pod materacem."
+    ru: "У меня нет привычки прятать деньги под матрасом."
+    source: { kind: authored }
+  - form: "chowania"
+    pl: "Bez chowania zapasów zima byłaby ciężka."
+    ru: "Без заготовки запасов зима была бы тяжёлой."
+    source: { kind: authored }
+  - form: "chowania"
+    pl: "Od chowania urazy do kłótni jest krok."
+    ru: "От затаённой обиды до ссоры один шаг."
+    source: { kind: authored }
+  - form: "chowanie"
+    pl: "Chowanie oszczędności w domu to ryzyko."
+    ru: "Прятать сбережения дома — риск."
+    source: { kind: authored }
+  - form: "chowanie"
+    pl: "Chowanie urazy nikomu nie pomaga."
+    ru: "Таить обиду никому не помогает."
+    source: { kind: authored }
+  - form: "chowanie"
+    pl: "Chowanie dzieci kosztuje nerwów i lat."
+    ru: "Растить детей стоит нервов и лет."
+    source: { kind: authored }
+  - form: "chowaniem"
+    pl: "Zajął się chowaniem zapasów na zimę."
+    ru: "Он занялся заготовкой запасов на зиму."
+    source: { kind: authored }
+  - form: "chowaniem"
+    pl: "Między zapominaniem a chowaniem urazy jest różnica."
+    ru: "Между забыванием и затаиванием обиды есть разница."
+    source: { kind: authored }
+  - form: "chowaniem"
+    pl: "Przed chowaniem dokumentów zrób kopie."
+    ru: "Перед тем как прятать документы, сделай копии."
+    source: { kind: authored }
+  - form: "chowaniu"
+    pl: "Po chowaniu zapasów przyszła kolej na drewno."
+    ru: "После заготовки запасов пришла очередь дров."
+    source: { kind: authored }
+  - form: "chowaniu"
+    pl: "O chowaniu oszczędności w domu napisano niejedno."
+    ru: "О хранении сбережений дома написано немало."
+    source: { kind: authored }
+  - form: "chowaniu"
+    pl: "W chowaniu urazy nie ma nic mądrego."
+    ru: "В затаивании обиды нет ничего умного."
+    source: { kind: authored }
+  - form: "chowano"
+    pl: "Zmarłych chowano na wzgórzu za wsią."
+    ru: "Умерших хоронили на холме за деревней."
+    source: { kind: authored }
+  - form: "chowano"
+    pl: "Zapasy chowano w głębokiej piwnicy."
+    ru: "Запасы прятали в глубоком погребе."
+    source: { kind: authored }
+  - form: "chowano"
+    pl: "Nie chowano wtedy niczego przed sąsiadami."
+    ru: "Тогда ничего не прятали от соседей."
+    source: { kind: authored }
+  - form: "chowany"
+    pl: "Chowany pod podłogą skarb znaleziono przypadkiem."
+    ru: "Спрятанный под полом клад нашли случайно."
+    source: { kind: authored }
+  - form: "chowany"
+    pl: "Klucz chowany pod wycieraczką to zły pomysł."
+    ru: "Ключ, спрятанный под ковриком, — плохая идея."
+    source: { kind: authored }
+  - form: "chowany"
+    pl: "Chowany surowo chłopiec wyrósł na milczka."
+    ru: "Строго воспитанный мальчик вырос молчуном."
+    source: { kind: authored }
+  - form: "chowanych"
+    pl: "Wśród chowanych w piwnicy słoików był i ten."
+    ru: "Среди хранившихся в погребе банок была и эта."
+    source: { kind: authored }
+  - form: "chowanych"
+    pl: "O chowanych oszczędnościach wiedziała tylko żona."
+    ru: "О спрятанных сбережениях знала только жена."
+    source: { kind: authored }
+  - form: "chowanych"
+    pl: "Połowa chowanych tam rzeczy zbutwiała."
+    ru: "Половина хранившихся там вещей сгнила."
+    source: { kind: authored }
+  - form: "chowanym"
+    pl: "W chowanym pod łóżkiem pudle były listy."
+    ru: "В коробке под кроватью были письма."
+    source: { kind: authored }
+  - form: "chowanym"
+    pl: "Chowanym w domu oszczędnościom grozi inflacja."
+    ru: "Хранимым дома сбережениям грозит инфляция."
+    source: { kind: authored }
+  - form: "chowanym"
+    pl: "Mówił o chowanym przez lata sekrecie bez emocji."
+    ru: "Он говорил о хранимом годами секрете без эмоций."
+    source: { kind: authored }
+  - form: "chowanymi"
+    pl: "Zajmuje się chowanymi w domu oszczędnościami klientów."
+    ru: "Он занимается хранимыми дома сбережениями клиентов."
+    source: { kind: authored }
+  - form: "chowanymi"
+    pl: "Między chowanymi a jawnymi dochodami jest różnica."
+    ru: "Между скрываемыми и явными доходами есть разница."
+    source: { kind: authored }
+  - form: "chowanymi"
+    pl: "Strych zapełnił się chowanymi latami rupieciami."
+    ru: "Чердак заполнился годами спрятанным хламом."
+    source: { kind: authored }
+  - form: "chowaną"
+    pl: "Znalazł chowaną pod podłogą skrzynkę."
+    ru: "Он нашёл спрятанный под полом ящик."
+    source: { kind: authored }
+  - form: "chowaną"
+    pl: "Uznali tę niechęć za chowaną od dawna."
+    ru: "Эту неприязнь сочли давно таимой."
+    source: { kind: authored }
+  - form: "chowaną"
+    pl: "Otworzył chowaną w szafie kopertę."
+    ru: "Он открыл хранившийся в шкафу конверт."
+    source: { kind: authored }
+  - form: "chowasz"
+    pl: "Gdzie chowasz nożyczki?"
+    ru: "Где ты прячешь ножницы?"
+    source: { kind: authored }
+  - form: "chowasz"
+    pl: "Chowasz coś przede mną."
+    ru: "Ты что-то от меня прячешь."
+    source: { kind: authored }
+  - form: "chowasz"
+    pl: "Nie chowasz dokumentów w szufladzie?"
+    ru: "Ты не прячешь документы в ящике?"
+    source: { kind: authored }
+  - form: "chować"
+    pl: "Nie ma sensu tego dłużej chować."
+    ru: "Нет смысла больше это прятать."
+    source: { kind: authored }
+  - form: "chować"
+    pl: "Trzeba chować klucze w to samo miejsce."
+    ru: "Надо прятать ключи в одно и то же место."
+    source: { kind: authored }
+  - form: "chować"
+    pl: "Zaczęli chować drobne w słoiku."
+    ru: "Они начали прятать мелочь в банке."
+    source: { kind: authored }
+  - form: "chował"
+    pl: "Chował pieniądze pod podłogą."
+    ru: "Он прятал деньги под полом."
+    source: { kind: authored }
+  - form: "chował"
+    pl: "Chował urazę przez wiele lat."
+    ru: "Он таил обиду много лет."
+    source: { kind: authored }
+  - form: "chował"
+    pl: "Chował kury i króliki za stodołą."
+    ru: "Он держал кур и кроликов за сараем."
+    source: { kind: authored }
+  - form: "chowała"
+    pl: "Chowała listy na dnie szuflady."
+    ru: "Она прятала письма на дне ящика."
+    source: { kind: authored }
+  - form: "chowała"
+    pl: "Chowała dwoje dzieci sama."
+    ru: "Она растила двоих детей одна."
+    source: { kind: authored }
+  - form: "chowała"
+    pl: "Chowała się przed nim przez cały wieczór."
+    ru: "Она пряталась от него весь вечер."
+    source: { kind: authored }
+  - form: "chowałaby"
+    pl: "Chowałaby listy, gdyby miała gdzie."
+    ru: "Она прятала бы письма, если бы было где."
+    source: { kind: authored }
+  - form: "chowałaby"
+    pl: "Chowałaby dzieci sama, gdyby musiała."
+    ru: "Она растила бы детей одна, если бы пришлось."
+    source: { kind: authored }
+  - form: "chowałaby"
+    pl: "Nie chowałaby się przed nikim."
+    ru: "Она ни от кого не пряталась бы."
+    source: { kind: authored }
+  - form: "chowałabym"
+    pl: "Chowałabym to w innym miejscu."
+    ru: "Я прятала бы это в другом месте."
+    source: { kind: authored }
+  - form: "chowałabym"
+    pl: "Na jej miejscu nie chowałabym urazy."
+    ru: "На её месте я не таила бы обиды."
+    source: { kind: authored }
+  - form: "chowałabym"
+    pl: "Bez sejfu nie chowałabym tam dokumentów."
+    ru: "Без сейфа я не прятала бы там документы."
+    source: { kind: authored }
+  - form: "chowałabyś"
+    pl: "Gdzie chowałabyś taką sumę?"
+    ru: "Где бы ты прятала такую сумму?"
+    source: { kind: authored }
+  - form: "chowałabyś"
+    pl: "Czy chowałabyś to przed rodziną?"
+    ru: "Прятала бы ты это от семьи?"
+    source: { kind: authored }
+  - form: "chowałabyś"
+    pl: "Nie chowałabyś się za cudze plecy."
+    ru: "Ты не пряталась бы за чужие спины."
+    source: { kind: authored }
+  - form: "chowałam"
+    pl: "Chowałam to przed wszystkimi."
+    ru: "Я прятала это от всех."
+    source: { kind: authored }
+  - form: "chowałam"
+    pl: "Chowałam klucz pod wycieraczką."
+    ru: "Я прятала ключ под ковриком."
+    source: { kind: authored }
+  - form: "chowałam"
+    pl: "Nie chowałam nigdy urazy."
+    ru: "Я никогда не таила обиды."
+    source: { kind: authored }
+  - form: "chowałaś"
+    pl: "Gdzie chowałaś te listy?"
+    ru: "Где ты прятала эти письма?"
+    source: { kind: authored }
+  - form: "chowałaś"
+    pl: "Chowałaś przede mną całą prawdę."
+    ru: "Ты прятала от меня всю правду."
+    source: { kind: authored }
+  - form: "chowałaś"
+    pl: "Nie chowałaś się nigdy za cudze plecy."
+    ru: "Ты никогда не пряталась за чужие спины."
+    source: { kind: authored }
+  - form: "chowałby"
+    pl: "Chowałby to lepiej, gdyby się bał."
+    ru: "Он прятал бы это лучше, если бы боялся."
+    source: { kind: authored }
+  - form: "chowałby"
+    pl: "Bez piwnicy nie chowałby zapasów."
+    ru: "Без погреба он не прятал бы запасы."
+    source: { kind: authored }
+  - form: "chowałby"
+    pl: "Chowałby urazę do końca życia."
+    ru: "Он таил бы обиду до конца жизни."
+    source: { kind: authored }
+  - form: "chowałbym"
+    pl: "Chowałbym to w innym miejscu."
+    ru: "Я прятал бы это в другом месте."
+    source: { kind: authored }
+  - form: "chowałbym"
+    pl: "Na twoim miejscu nie chowałbym urazy."
+    ru: "На твоём месте я не таил бы обиды."
+    source: { kind: authored }
+  - form: "chowałbym"
+    pl: "Bez sejfu nie chowałbym tam dokumentów."
+    ru: "Без сейфа я не прятал бы там документы."
+    source: { kind: authored }
+  - form: "chowałbyś"
+    pl: "Gdzie chowałbyś taką sumę?"
+    ru: "Где бы ты прятал такую сумму?"
+    source: { kind: authored }
+  - form: "chowałbyś"
+    pl: "Czy chowałbyś to przed rodziną?"
+    ru: "Прятал бы ты это от семьи?"
+    source: { kind: authored }
+  - form: "chowałbyś"
+    pl: "Nie chowałbyś się za cudze plecy."
+    ru: "Ты не прятался бы за чужие спины."
+    source: { kind: authored }
+  - form: "chowałem"
+    pl: "Chowałem to przed wszystkimi."
+    ru: "Я прятал это от всех."
+    source: { kind: authored }
+  - form: "chowałem"
+    pl: "Chowałem klucz pod wycieraczką."
+    ru: "Я прятал ключ под ковриком."
+    source: { kind: authored }
+  - form: "chowałem"
+    pl: "Nie chowałem nigdy urazy."
+    ru: "Я никогда не таил обиды."
+    source: { kind: authored }
+  - form: "chowałeś"
+    pl: "Gdzie chowałeś te listy?"
+    ru: "Где ты прятал эти письма?"
+    source: { kind: authored }
+  - form: "chowałeś"
+    pl: "Chowałeś przede mną całą prawdę."
+    ru: "Ты прятал от меня всю правду."
+    source: { kind: authored }
+  - form: "chowałeś"
+    pl: "Nie chowałeś się nigdy za cudze plecy."
+    ru: "Ты никогда не прятался за чужие спины."
+    source: { kind: authored }
+  - form: "chowało"
+    pl: "Dziecko chowało zabawki po całym mieszkaniu."
+    ru: "Ребёнок прятал игрушки по всей квартире."
+    source: { kind: authored }
+  - form: "chowało"
+    pl: "Słońce chowało się za las."
+    ru: "Солнце пряталось за лес."
+    source: { kind: authored }
+  - form: "chowało"
+    pl: "Kilka rodzin chowało tam zapasy."
+    ru: "Несколько семей прятали там запасы."
+    source: { kind: authored }
+  - form: "chowałoby"
+    pl: "Dziecko chowałoby zabawki wszędzie."
+    ru: "Ребёнок прятал бы игрушки везде."
+    source: { kind: authored }
+  - form: "chowałoby"
+    pl: "Słońce chowałoby się wcześniej zimą."
+    ru: "Солнце пряталось бы раньше зимой."
+    source: { kind: authored }
+  - form: "chowałoby"
+    pl: "Kilka rodzin chowałoby tam zapasy."
+    ru: "Несколько семей прятали бы там запасы."
+    source: { kind: authored }
+  - form: "chowały"
+    pl: "Wiewiórki chowały orzechy w dziuplach."
+    ru: "Белки прятали орехи в дуплах."
+    source: { kind: authored }
+  - form: "chowały"
+    pl: "Dziewczyny chowały się za szafą."
+    ru: "Девушки прятались за шкафом."
+    source: { kind: authored }
+  - form: "chowały"
+    pl: "Rodziny chowały zmarłych na tym wzgórzu."
+    ru: "Семьи хоронили умерших на этом холме."
+    source: { kind: authored }
+  - form: "chowałyby"
+    pl: "Wiewiórki chowałyby orzechy i latem."
+    ru: "Белки прятали бы орехи и летом."
+    source: { kind: authored }
+  - form: "chowałyby"
+    pl: "Dziewczyny chowałyby się tam godzinami."
+    ru: "Девушки прятались бы там часами."
+    source: { kind: authored }
+  - form: "chowałyby"
+    pl: "Rodziny chowałyby zmarłych na tym samym wzgórzu."
+    ru: "Семьи хоронили бы умерших на том же холме."
+    source: { kind: authored }
+  - form: "chowałybyście"
+    pl: "Gdzie chowałybyście taką sumę?"
+    ru: "Где бы вы прятали такую сумму?"
+    source: { kind: authored }
+  - form: "chowałybyście"
+    pl: "Czy chowałybyście to przed rodziną?"
+    ru: "Прятали бы вы это от семьи?"
+    source: { kind: authored }
+  - form: "chowałybyście"
+    pl: "Nie chowałybyście się przed deszczem pod drzewem."
+    ru: "Вы не прятались бы от дождя под деревом."
+    source: { kind: authored }
+  - form: "chowałybyśmy"
+    pl: "Chowałybyśmy prezenty gdzie indziej."
+    ru: "Мы прятали бы подарки в другом месте."
+    source: { kind: authored }
+  - form: "chowałybyśmy"
+    pl: "Bez strychu nie chowałybyśmy niczego."
+    ru: "Без чердака мы ничего не прятали бы."
+    source: { kind: authored }
+  - form: "chowałybyśmy"
+    pl: "Nie chowałybyśmy przed wami prawdy."
+    ru: "Мы не прятали бы от вас правду."
+    source: { kind: authored }
+  - form: "chowałyście"
+    pl: "Gdzie chowałyście zapasy?"
+    ru: "Где вы прятали запасы?"
+    source: { kind: authored }
+  - form: "chowałyście"
+    pl: "Chowałyście się przed deszczem pod drzewem?"
+    ru: "Вы прятались от дождя под деревом?"
+    source: { kind: authored }
+  - form: "chowałyście"
+    pl: "Nie chowałyście przed nami prawdy."
+    ru: "Вы не прятали от нас правду."
+    source: { kind: authored }
+  - form: "chowałyśmy"
+    pl: "Chowałyśmy prezenty na strychu."
+    ru: "Мы прятали подарки на чердаке."
+    source: { kind: authored }
+  - form: "chowałyśmy"
+    pl: "Chowałyśmy się tam jako dzieci."
+    ru: "Мы прятались там детьми."
+    source: { kind: authored }
+  - form: "chowałyśmy"
+    pl: "Nie chowałyśmy przed nimi niczego."
+    ru: "Мы ничего от них не прятали."
+    source: { kind: authored }
