@@ -1,0 +1,794 @@
+# review
+id: popelniac
+format: 2
+lemma: "popełniać"
+rank: 2744
+pos: verb
+pron: { cyr: "попэу́ньаць" }
+senses:
+  - id: commit
+    ru: "совершать (ошибку, преступление)"
+    examples:
+      - pl: "Popełniam ten sam błąd po raz trzeci."
+        ru: "Я совершаю эту же ошибку в третий раз."
+        source: { kind: authored }
+      - pl: "Nie popełniaj przestępstwa z głupoty."
+        ru: "Не совершай преступления по глупости."
+        source: { kind: authored }
+      - pl: "Popełniał jedną pomyłkę za drugą."
+        ru: "Он совершал одну ошибку за другой."
+        source: { kind: authored }
+  - id: blunder
+    ru: "допускать (промах, бестактность)"
+    examples:
+      - pl: "Popełnia gafę za każdym razem przy stole."
+        ru: "Он допускает бестактность каждый раз за столом."
+        source: { kind: authored }
+      - pl: "Popełniano tu błędy od samego początku."
+        ru: "Здесь допускали ошибки с самого начала."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Самая опасная карточка из этого гнезда. POPEŁNIAĆ выглядит как русское «пополнять», но значит «совершать» — и только о плохом. Русское «пополнять» по-польски UZUPEŁNIAĆ: uzupełniać zapasy, uzupełniać wiedzę. Так что POPEŁNIŁ BŁĄD — это «совершил ошибку», а никак не «пополнил» что-то. Корень у двух слов действительно один, PEŁNY «полный», но приставки развели их в разные стороны: po- дало «довести до конца, исполнить», uzu- дало «добавить до полноты»." }
+  - { kind: usage, text: "Второе ограничение, которого в русском нет: POPEŁNIAĆ берёт только дурные дополнения. Говорят POPEŁNIĆ BŁĄD, POMYŁKĘ, PRZESTĘPSTWO, ZBRODNIĘ, GRZECH, GAFĘ, SAMOBÓJSTWO — ошибку, промах, преступление, злодеяние, грех, бестактность, самоубийство. А вот русское «совершать» нейтрально и берёт любое дополнение: «совершить подвиг», «совершить покупку», «совершить открытие». По-польски так нельзя: подвиг DOKONUJE SIĘ, покупку ROBI SIĘ, открытие DOKONUJE SIĘ. Если дополнение хорошее, глагол нужен другой." }
+  - { kind: usage, text: "Основа одна на все шестьдесят три формы: POPEŁNIAM, POPEŁNIA, POPEŁNIAJĄ, POPEŁNIAŁ, POPEŁNIANY, POPEŁNIAJĄCY. Ещё одно подтверждение, что глаголы на -AĆ основы не двоят, в отличие от глаголов с основой на ś, ź, ść, źdź, как ZŁOŚCIĆ со своим ZŁOSZCZĘ. Повелительное POPEŁNIAJ получается из третьего лица POPEŁNIA прибавлением -j — двадцать восьмое подтверждение правила из карточки KARMIĆ. Совершенная пара POPEŁNIĆ, и она встречается чаще несовершенной, потому что ошибку обычно совершают один раз." }
+  - { kind: government, text: "Управление как в русском: POPEŁNIAĆ COŚ в винительном — popełniać błędy, popełniać przestępstwa. В страдательном обороте дополнение становится подлежащим: BŁĄD ZOSTAŁ POPEŁNIONY «ошибка была совершена», и обратите внимание на причастие POPEŁNIONY от совершенного вида при POPEŁNIANY от несовершенного. Безличное POPEŁNIANO BŁĘDY значит «ошибки допускали» без указания, кто именно, и в этом польский точнее русского." }
+collocations:
+  - { pl: "popełniać błąd", ru: "совершать ошибку" }
+  - { pl: "popełniać przestępstwo", ru: "совершать преступление" }
+  - { pl: "popełniać gafę", ru: "допускать бестактность" }
+family:
+  - { pl: "popełnić", ru: "совершить", relation: aspect, id: popelnic }
+  - { pl: "pełnić", ru: "исполнять", relation: root }
+  - { pl: "uzupełniać", ru: "пополнять, дополнять", relation: root }
+etymology: "Приставка po- и PEŁNIĆ «исполнять», от PEŁNY «полный», из праславянского *plnъ — то же, что русское «полный». Исходно «довести до полноты, исполнить», откуда и нынешнее «совершить». Русское «пополнять» выросло из того же корня с той же приставкой, но пошло за буквальной полнотой, а польское слово ушло в сторону поступка, да ещё и сузилось до поступка дурного. Родственники в русском: «полный», «исполнять», «восполнять», «пополнять»."
+memory: "«Пополнять» — ловушка: popełniać значит «совершать», и только плохое: błąd, przestępstwo, gafę. Русское «пополнять» — это uzupełniać."
+idioms:
+  - { pl: "popełnić gafę", ru: "допустить бестактность, сесть в лужу" }
+  - { pl: "popełnić samobójstwo", ru: "совершить самоубийство" }
+formExamplesSkip:
+  - { form: "popełniani", reason: "Страдательное причастие мужского лично-множественного числа требует, чтобы дополнением были люди, а POPEŁNIAĆ берёт только названия дурных поступков — błąd, grzech, przestępstwo, gafę. Людей не совершают, поэтому форма есть в таблице, но употребить её не в чем. PoliMorf строит её механически от основы." }
+formExamples:
+  - form: "popełnia"
+    pl: "Popełnia gafę za każdym razem przy stole."
+    ru: "Он допускает бестактность каждый раз за столом."
+    source: { kind: authored }
+  - form: "popełnia"
+    pl: "Każdy popełnia błędy."
+    ru: "Ошибки совершает каждый."
+    source: { kind: authored }
+  - form: "popełnia"
+    pl: "Nikt tu nie popełnia przestępstwa."
+    ru: "Никто здесь не совершает преступления."
+    source: { kind: authored }
+  - form: "popełniacie"
+    pl: "Popełniacie poważny błąd."
+    ru: "Вы совершаете серьёзную ошибку."
+    source: { kind: authored }
+  - form: "popełniacie"
+    pl: "Dlaczego popełniacie tę pomyłkę raz po raz?"
+    ru: "Почему вы совершаете эту ошибку снова и снова?"
+    source: { kind: authored }
+  - form: "popełniacie"
+    pl: "Nie popełniacie przestępstwa, tylko głupstwo."
+    ru: "Вы совершаете не преступление, а глупость."
+    source: { kind: authored }
+  - form: "popełniaj"
+    pl: "Nie popełniaj przestępstwa z głupoty."
+    ru: "Не совершай преступления по глупости."
+    source: { kind: authored }
+  - form: "popełniaj"
+    pl: "Nie popełniaj tego błędu dwa razy."
+    ru: "Не совершай этой ошибки дважды."
+    source: { kind: authored }
+  - form: "popełniaj"
+    pl: "Popełniaj błędy, ale ucz się na nich."
+    ru: "Совершай ошибки, но учись на них."
+    source: { kind: authored }
+  - form: "popełniajcie"
+    pl: "Nie popełniajcie tego samego błędu."
+    ru: "Не совершайте той же ошибки."
+    source: { kind: authored }
+  - form: "popełniajcie"
+    pl: "Nie popełniajcie gaf przy gościach."
+    ru: "Не допускайте бестактностей при гостях."
+    source: { kind: authored }
+  - form: "popełniajcie"
+    pl: "Popełniajcie błędy na próbie, nie na scenie."
+    ru: "Совершайте ошибки на репетиции, а не на сцене."
+    source: { kind: authored }
+  - form: "popełniajmy"
+    pl: "Nie popełniajmy tej pomyłki."
+    ru: "Не будем совершать эту ошибку."
+    source: { kind: authored }
+  - form: "popełniajmy"
+    pl: "Nie popełniajmy niczego pochopnie."
+    ru: "Не будем совершать ничего поспешно."
+    source: { kind: authored }
+  - form: "popełniajmy"
+    pl: "Popełniajmy mniej gaf przy klientach."
+    ru: "Будем допускать меньше бестактностей при клиентах."
+    source: { kind: authored }
+  - form: "popełniają"
+    pl: "Wszyscy popełniają błędy."
+    ru: "Все совершают ошибки."
+    source: { kind: authored }
+  - form: "popełniają"
+    pl: "Popełniają te same pomyłki co rok."
+    ru: "Они совершают те же ошибки каждый год."
+    source: { kind: authored }
+  - form: "popełniają"
+    pl: "Niczego nielegalnego nie popełniają."
+    ru: "Они не совершают ничего незаконного."
+    source: { kind: authored }
+  - form: "popełniając"
+    pl: "Popełniając ten błąd, stracił pracę."
+    ru: "Совершив эту ошибку, он потерял работу."
+    source: { kind: authored }
+  - form: "popełniając"
+    pl: "Popełniając gafę, nawet tego nie zauważyła."
+    ru: "Допустив бестактность, она даже не заметила."
+    source: { kind: authored }
+  - form: "popełniając"
+    pl: "Popełniając pomyłkę za pomyłką, doszedł do końca."
+    ru: "Совершая ошибку за ошибкой, он дошёл до конца."
+    source: { kind: authored }
+  - form: "popełniająca"
+    pl: "Firma popełniająca takie błędy traci klientów."
+    ru: "Фирма, совершающая такие ошибки, теряет клиентов."
+    source: { kind: authored }
+  - form: "popełniająca"
+    pl: "Osoba popełniająca gafy nie zawsze o tym wie."
+    ru: "Человек, допускающий бестактности, не всегда об этом знает."
+    source: { kind: authored }
+  - form: "popełniająca"
+    pl: "Redakcja popełniająca tyle pomyłek straciła zaufanie."
+    ru: "Редакция, совершающая столько ошибок, потеряла доверие."
+    source: { kind: authored }
+  - form: "popełniające"
+    pl: "Dziecko popełniające błędy uczy się najszybciej."
+    ru: "Ребёнок, совершающий ошибки, учится быстрее всех."
+    source: { kind: authored }
+  - form: "popełniające"
+    pl: "Firmy popełniające takie pomyłki bankrutują."
+    ru: "Фирмы, совершающие такие ошибки, разоряются."
+    source: { kind: authored }
+  - form: "popełniające"
+    pl: "Programy popełniające te błędy trzeba poprawić."
+    ru: "Программы, совершающие эти ошибки, надо исправить."
+    source: { kind: authored }
+  - form: "popełniającego"
+    pl: "Nie znam nikogo popełniającego tyle pomyłek."
+    ru: "Я не знаю никого, совершающего столько ошибок."
+    source: { kind: authored }
+  - form: "popełniającego"
+    pl: "Od ucznia popełniającego te błędy wymagano więcej."
+    ru: "От ученика, совершающего эти ошибки, требовали больше."
+    source: { kind: authored }
+  - form: "popełniającego"
+    pl: "Szukali kierowcy popełniającego te wykroczenia."
+    ru: "Они искали водителя, совершающего эти нарушения."
+    source: { kind: authored }
+  - form: "popełniającej"
+    pl: "O firmie popełniającej takie błędy szybko się mówi."
+    ru: "О фирме, совершающей такие ошибки, быстро начинают говорить."
+    source: { kind: authored }
+  - form: "popełniającej"
+    pl: "Nie ma mowy o redakcji popełniającej tyle pomyłek."
+    ru: "О редакции, совершающей столько ошибок, и речи нет."
+    source: { kind: authored }
+  - form: "popełniającej"
+    pl: "Pomogli osobie popełniającej te same gafy."
+    ru: "Они помогли человеку, допускающему те же бестактности."
+    source: { kind: authored }
+  - form: "popełniającemu"
+    pl: "Uczniowi popełniającemu te błędy dano korepetycje."
+    ru: "Ученику, совершающему эти ошибки, дали репетитора."
+    source: { kind: authored }
+  - form: "popełniającemu"
+    pl: "Przyglądał się graczowi popełniającemu te same pomyłki."
+    ru: "Он смотрел на игрока, совершающего те же ошибки."
+    source: { kind: authored }
+  - form: "popełniającemu"
+    pl: "Dzięki pracownikowi popełniającemu mniej pomyłek projekt ruszył."
+    ru: "Благодаря работнику, совершающему меньше ошибок, проект пошёл."
+    source: { kind: authored }
+  - form: "popełniający"
+    pl: "Człowiek popełniający błędy uczy się szybciej."
+    ru: "Человек, совершающий ошибки, учится быстрее."
+    source: { kind: authored }
+  - form: "popełniający"
+    pl: "Kierowca popełniający takie wykroczenia traci prawo jazdy."
+    ru: "Водитель, совершающий такие нарушения, теряет права."
+    source: { kind: authored }
+  - form: "popełniający"
+    pl: "Uczeń popełniający te same pomyłki potrzebuje pomocy."
+    ru: "Ученик, совершающий те же ошибки, нуждается в помощи."
+    source: { kind: authored }
+  - form: "popełniających"
+    pl: "Nie ma tu uczniów popełniających takie błędy."
+    ru: "Здесь нет учеников, совершающих такие ошибки."
+    source: { kind: authored }
+  - form: "popełniających"
+    pl: "Wśród kierowców popełniających wykroczenia byli zawodowi."
+    ru: "Среди водителей, совершающих нарушения, были профессионалы."
+    source: { kind: authored }
+  - form: "popełniających"
+    pl: "Lista firm popełniających te pomyłki rośnie."
+    ru: "Список фирм, совершающих эти ошибки, растёт."
+    source: { kind: authored }
+  - form: "popełniającym"
+    pl: "W uczniu popełniającym błędy widzieli potencjał."
+    ru: "В ученике, совершающем ошибки, они видели потенциал."
+    source: { kind: authored }
+  - form: "popełniającym"
+    pl: "Okazał się graczem popełniającym te same pomyłki."
+    ru: "Он оказался игроком, совершающим те же ошибки."
+    source: { kind: authored }
+  - form: "popełniającym"
+    pl: "Popełniającym błędy uczniom dano drugą szansę."
+    ru: "Ученикам, совершающим ошибки, дали второй шанс."
+    source: { kind: authored }
+  - form: "popełniającymi"
+    pl: "Między graczami popełniającymi błędy a oszustami jest różnica."
+    ru: "Между игроками, совершающими ошибки, и мошенниками есть разница."
+    source: { kind: authored }
+  - form: "popełniającymi"
+    pl: "Zajął się uczniami popełniającymi te same pomyłki."
+    ru: "Он занялся учениками, совершающими те же ошибки."
+    source: { kind: authored }
+  - form: "popełniającymi"
+    pl: "Rozmawiał z kierowcami popełniającymi te wykroczenia."
+    ru: "Он говорил с водителями, совершающими эти нарушения."
+    source: { kind: authored }
+  - form: "popełniającą"
+    pl: "Znają firmę popełniającą takie błędy."
+    ru: "Они знают фирму, совершающую такие ошибки."
+    source: { kind: authored }
+  - form: "popełniającą"
+    pl: "Uznali ją za osobę popełniającą gafy bez złej woli."
+    ru: "Её сочли человеком, допускающим бестактности без злого умысла."
+    source: { kind: authored }
+  - form: "popełniającą"
+    pl: "Zastąpili redakcję popełniającą tyle pomyłek."
+    ru: "Они заменили редакцию, совершающую столько ошибок."
+    source: { kind: authored }
+  - form: "popełniali"
+    pl: "Popełniali błędy, których nikt nie poprawiał."
+    ru: "Они совершали ошибки, которых никто не исправлял."
+    source: { kind: authored }
+  - form: "popełniali"
+    pl: "Popełniali te pomyłki świadomie."
+    ru: "Они совершали эти ошибки сознательно."
+    source: { kind: authored }
+  - form: "popełniali"
+    pl: "Żadnego przestępstwa nie popełniali."
+    ru: "Они не совершали никакого преступления."
+    source: { kind: authored }
+  - form: "popełnialiby"
+    pl: "Popełnialiby te błędy nadal bez kontroli."
+    ru: "Они совершали бы эти ошибки и дальше без контроля."
+    source: { kind: authored }
+  - form: "popełnialiby"
+    pl: "Nie popełnialiby pomyłek z lepszą instrukcją."
+    ru: "Они не совершали бы ошибок с лучшей инструкцией."
+    source: { kind: authored }
+  - form: "popełnialiby"
+    pl: "Świadomie nie popełnialiby przestępstwa."
+    ru: "Они не совершали бы преступления сознательно."
+    source: { kind: authored }
+  - form: "popełnialibyście"
+    pl: "Popełnialibyście ten błąd bez ostrzeżenia."
+    ru: "Вы совершали бы эту ошибку без предупреждения."
+    source: { kind: authored }
+  - form: "popełnialibyście"
+    pl: "Nie popełnialibyście pomyłek, czytając umowę."
+    ru: "Вы не совершали бы ошибок, читая договор."
+    source: { kind: authored }
+  - form: "popełnialibyście"
+    pl: "Niczego złego nie popełnialibyście."
+    ru: "Вы не совершали бы ничего плохого."
+    source: { kind: authored }
+  - form: "popełnialibyśmy"
+    pl: "Popełnialibyśmy mniej błędów bez pośpiechu."
+    ru: "Мы совершали бы меньше ошибок без спешки."
+    source: { kind: authored }
+  - form: "popełnialibyśmy"
+    pl: "Nie popełnialibyśmy tej pomyłki po raz drugi."
+    ru: "Мы не совершали бы эту ошибку во второй раз."
+    source: { kind: authored }
+  - form: "popełnialibyśmy"
+    pl: "Przy gościach nie popełnialibyśmy gaf."
+    ru: "Мы не допускали бы бестактностей при гостях."
+    source: { kind: authored }
+  - form: "popełnialiście"
+    pl: "Popełnialiście te błędy od początku."
+    ru: "Вы совершали эти ошибки с самого начала."
+    source: { kind: authored }
+  - form: "popełnialiście"
+    pl: "Popełnialiście gafy przy każdym gościu."
+    ru: "Вы допускали бестактности при каждом госте."
+    source: { kind: authored }
+  - form: "popełnialiście"
+    pl: "Niczego złego nie popełnialiście."
+    ru: "Вы не совершали ничего плохого."
+    source: { kind: authored }
+  - form: "popełnialiśmy"
+    pl: "Popełnialiśmy błędy przez cały projekt."
+    ru: "Мы совершали ошибки весь проект."
+    source: { kind: authored }
+  - form: "popełnialiśmy"
+    pl: "Popełnialiśmy je razem, nie osobno."
+    ru: "Мы совершали их вместе, а не по отдельности."
+    source: { kind: authored }
+  - form: "popełnialiśmy"
+    pl: "Przestępstwa nie popełnialiśmy."
+    ru: "Мы не совершали преступления."
+    source: { kind: authored }
+  - form: "popełniam"
+    pl: "Popełniam ten sam błąd po raz trzeci."
+    ru: "Я совершаю эту же ошибку в третий раз."
+    source: { kind: authored }
+  - form: "popełniam"
+    pl: "Chyba popełniam pomyłkę."
+    ru: "Кажется, я совершаю ошибку."
+    source: { kind: authored }
+  - form: "popełniam"
+    pl: "Takich gaf przy obcych nie popełniam."
+    ru: "Я не допускаю таких бестактностей при посторонних."
+    source: { kind: authored }
+  - form: "popełniamy"
+    pl: "Popełniamy błąd, zgadzając się od razu."
+    ru: "Мы совершаем ошибку, соглашаясь сразу."
+    source: { kind: authored }
+  - form: "popełniamy"
+    pl: "Popełniamy te pomyłki od lat."
+    ru: "Мы совершаем эти ошибки годами."
+    source: { kind: authored }
+  - form: "popełniamy"
+    pl: "Niczego karalnego nie popełniamy."
+    ru: "Мы не совершаем ничего наказуемого."
+    source: { kind: authored }
+  - form: "popełniana"
+    pl: "Ta pomyłka jest popełniana przez wszystkich."
+    ru: "Эту ошибку совершают все."
+    source: { kind: authored }
+  - form: "popełniana"
+    pl: "Gafa popełniana raz na rok nikomu nie szkodzi."
+    ru: "Бестактность, допускаемая раз в год, никому не вредит."
+    source: { kind: authored }
+  - form: "popełniana"
+    pl: "Zbrodnia popełniana w afekcie karana jest łagodniej."
+    ru: "Преступление, совершаемое в состоянии аффекта, наказывается мягче."
+    source: { kind: authored }
+  - form: "popełniane"
+    pl: "Takie błędy są popełniane co dzień."
+    ru: "Такие ошибки совершаются каждый день."
+    source: { kind: authored }
+  - form: "popełniane"
+    pl: "Pomyłki popełniane w pośpiechu trudno wyłapać."
+    ru: "Ошибки, совершаемые в спешке, трудно выловить."
+    source: { kind: authored }
+  - form: "popełniane"
+    pl: "Te wykroczenia są popełniane masowo."
+    ru: "Эти нарушения совершаются массово."
+    source: { kind: authored }
+  - form: "popełnianego"
+    pl: "Nie ma tu błędu popełnianego celowo."
+    ru: "Здесь нет ошибки, совершаемой нарочно."
+    source: { kind: authored }
+  - form: "popełnianego"
+    pl: "Od grzechu popełnianego świadomie trudniej się odciąć."
+    ru: "От греха, совершаемого сознательно, труднее отречься."
+    source: { kind: authored }
+  - form: "popełnianego"
+    pl: "Szukali błędu popełnianego od lat."
+    ru: "Они искали ошибку, совершаемую годами."
+    source: { kind: authored }
+  - form: "popełnianej"
+    pl: "W pomyłce popełnianej co dzień nikt nie widzi problemu."
+    ru: "В ошибке, совершаемой ежедневно, никто не видит проблемы."
+    source: { kind: authored }
+  - form: "popełnianej"
+    pl: "Nie ma mowy o gafie popełnianej celowo."
+    ru: "О бестактности, допускаемой нарочно, и речи нет."
+    source: { kind: authored }
+  - form: "popełnianej"
+    pl: "Od zbrodni popełnianej w afekcie trudno się odciąć."
+    ru: "От преступления, совершаемого в аффекте, трудно отречься."
+    source: { kind: authored }
+  - form: "popełnianemu"
+    pl: "Błędowi popełnianemu od lat nikt się już nie dziwi."
+    ru: "Ошибке, совершаемой годами, никто уже не удивляется."
+    source: { kind: authored }
+  - form: "popełnianemu"
+    pl: "Przyglądał się błędowi popełnianemu przez wszystkich."
+    ru: "Он смотрел на ошибку, совершаемую всеми."
+    source: { kind: authored }
+  - form: "popełnianemu"
+    pl: "Dzięki grzechowi popełnianemu świadomie stracił spokój."
+    ru: "Из-за греха, совершаемого сознательно, он потерял покой."
+    source: { kind: authored }
+  - form: "popełniania"
+    pl: "Bez popełniania błędów nie ma postępu."
+    ru: "Без совершения ошибок нет прогресса."
+    source: { kind: authored }
+  - form: "popełniania"
+    pl: "Do popełniania takich pomyłek trzeba pośpiechu."
+    ru: "Для совершения таких ошибок нужна спешка."
+    source: { kind: authored }
+  - form: "popełniania"
+    pl: "Zakaz popełniania wykroczeń wpisano do regulaminu."
+    ru: "Запрет совершения нарушений внесли в регламент."
+    source: { kind: authored }
+  - form: "popełnianie"
+    pl: "Popełnianie błędów jest częścią nauki."
+    ru: "Совершение ошибок — часть учёбы."
+    source: { kind: authored }
+  - form: "popełnianie"
+    pl: "Popełnianie tej pomyłki stało się nawykiem."
+    ru: "Совершение этой ошибки стало привычкой."
+    source: { kind: authored }
+  - form: "popełnianie"
+    pl: "Popełnianie przestępstw jest karalne."
+    ru: "Совершение преступлений наказуемо."
+    source: { kind: authored }
+  - form: "popełnianiem"
+    pl: "Zmęczony popełnianiem tych samych błędów zmienił metodę."
+    ru: "Уставший совершать те же ошибки, он сменил метод."
+    source: { kind: authored }
+  - form: "popełnianiem"
+    pl: "Między popełnianiem błędu a przyznaniem się mija czas."
+    ru: "Между совершением ошибки и признанием проходит время."
+    source: { kind: authored }
+  - form: "popełnianiem"
+    pl: "Zajmował się popełnianiem gaf z wdziękiem."
+    ru: "Он допускал бестактности с изяществом."
+    source: { kind: authored }
+  - form: "popełnianiu"
+    pl: "W popełnianiu błędów nie ma nic wstydliwego."
+    ru: "В совершении ошибок нет ничего постыдного."
+    source: { kind: authored }
+  - form: "popełnianiu"
+    pl: "O popełnianiu takich pomyłek lepiej milczeć."
+    ru: "О совершении таких ошибок лучше молчать."
+    source: { kind: authored }
+  - form: "popełnianiu"
+    pl: "Po popełnianiu gaf przez cały wieczór wyszedł."
+    ru: "Проведя весь вечер в бестактностях, он ушёл."
+    source: { kind: authored }
+  - form: "popełniano"
+    pl: "Popełniano tu błędy od samego początku."
+    ru: "Здесь допускали ошибки с самого начала."
+    source: { kind: authored }
+  - form: "popełniano"
+    pl: "Takie pomyłki popełniano wielokrotnie."
+    ru: "Такие ошибки допускали многократно."
+    source: { kind: authored }
+  - form: "popełniano"
+    pl: "Przestępstw nie popełniano w tym domu."
+    ru: "Преступлений в этом доме не совершали."
+    source: { kind: authored }
+  - form: "popełniany"
+    pl: "Ten błąd jest popełniany najczęściej."
+    ru: "Эта ошибка совершается чаще всего."
+    source: { kind: authored }
+  - form: "popełniany"
+    pl: "Grzech popełniany świadomie waży więcej."
+    ru: "Грех, совершаемый сознательно, весит больше."
+    source: { kind: authored }
+  - form: "popełniany"
+    pl: "Popełniany od lat błąd wreszcie zauważono."
+    ru: "Ошибку, совершаемую годами, наконец заметили."
+    source: { kind: authored }
+  - form: "popełnianych"
+    pl: "W błędach popełnianych przez dzieci nie ma złej woli."
+    ru: "В ошибках, совершаемых детьми, нет злого умысла."
+    source: { kind: authored }
+  - form: "popełnianych"
+    pl: "Bez pomyłek popełnianych na próbach nie byłoby premiery."
+    ru: "Без ошибок, совершаемых на репетициях, не было бы премьеры."
+    source: { kind: authored }
+  - form: "popełnianych"
+    pl: "Lista wykroczeń popełnianych najczęściej jest krótka."
+    ru: "Список нарушений, совершаемых чаще всего, короткий."
+    source: { kind: authored }
+  - form: "popełnianym"
+    pl: "W błędzie popełnianym przez wszystkich nie ma wstydu."
+    ru: "В ошибке, совершаемой всеми, нет стыда."
+    source: { kind: authored }
+  - form: "popełnianym"
+    pl: "Okazał się grzechem popełnianym bez świadomości."
+    ru: "Это оказался грех, совершаемый без осознания."
+    source: { kind: authored }
+  - form: "popełnianym"
+    pl: "Popełnianym co dzień pomyłkom nadano nazwy."
+    ru: "Ошибкам, совершаемым ежедневно, дали названия."
+    source: { kind: authored }
+  - form: "popełnianymi"
+    pl: "Między błędami popełnianymi z niewiedzy a z wyboru jest różnica."
+    ru: "Между ошибками, совершаемыми по незнанию и по выбору, есть разница."
+    source: { kind: authored }
+  - form: "popełnianymi"
+    pl: "Zajął się pomyłkami popełnianymi w tłumaczeniu."
+    ru: "Он занялся ошибками, совершаемыми при переводе."
+    source: { kind: authored }
+  - form: "popełnianymi"
+    pl: "Raport z błędami popełnianymi od lat trafił do dyrekcji."
+    ru: "Доклад с ошибками, совершаемыми годами, попал к дирекции."
+    source: { kind: authored }
+  - form: "popełnianą"
+    pl: "Zauważyli pomyłkę popełnianą od lat."
+    ru: "Они заметили ошибку, совершаемую годами."
+    source: { kind: authored }
+  - form: "popełnianą"
+    pl: "Uznali gafę za popełnianą bez złej woli."
+    ru: "Они сочли бестактность допущенной без злого умысла."
+    source: { kind: authored }
+  - form: "popełnianą"
+    pl: "Mylą tę pomyłkę z inną, popełnianą częściej."
+    ru: "Они путают эту ошибку с другой, совершаемой чаще."
+    source: { kind: authored }
+  - form: "popełniasz"
+    pl: "Popełniasz błąd, którego potem nie naprawisz."
+    ru: "Ты совершаешь ошибку, которую потом не исправишь."
+    source: { kind: authored }
+  - form: "popełniasz"
+    pl: "Za każdym razem popełniasz tę samą pomyłkę."
+    ru: "Каждый раз ты совершаешь ту же ошибку."
+    source: { kind: authored }
+  - form: "popełniasz"
+    pl: "Nie popełniasz przestępstwa, ale ryzykujesz."
+    ru: "Ты не совершаешь преступления, но рискуешь."
+    source: { kind: authored }
+  - form: "popełniać"
+    pl: "Łatwo popełniać błędy w pośpiechu."
+    ru: "Легко совершать ошибки в спешке."
+    source: { kind: authored }
+  - form: "popełniać"
+    pl: "Nie trzeba popełniać tej samej pomyłki dwa razy."
+    ru: "Не надо совершать ту же ошибку дважды."
+    source: { kind: authored }
+  - form: "popełniać"
+    pl: "Zaczął popełniać gafę za gafą."
+    ru: "Он начал допускать одну бестактность за другой."
+    source: { kind: authored }
+  - form: "popełniał"
+    pl: "Popełniał jedną pomyłkę za drugą."
+    ru: "Он совершал одну ошибку за другой."
+    source: { kind: authored }
+  - form: "popełniał"
+    pl: "Popełniał ten błąd przez całe studia."
+    ru: "Он совершал эту ошибку все годы учёбы."
+    source: { kind: authored }
+  - form: "popełniał"
+    pl: "Nigdy nie popełniał przestępstwa."
+    ru: "Он никогда не совершал преступления."
+    source: { kind: authored }
+  - form: "popełniała"
+    pl: "Popełniała błędy, ale szybko się uczyła."
+    ru: "Она совершала ошибки, но быстро училась."
+    source: { kind: authored }
+  - form: "popełniała"
+    pl: "Popełniała tę samą pomyłkę w każdym liście."
+    ru: "Она совершала ту же ошибку в каждом письме."
+    source: { kind: authored }
+  - form: "popełniała"
+    pl: "Przy obcych nie popełniała gaf."
+    ru: "Она не допускала бестактностей при посторонних."
+    source: { kind: authored }
+  - form: "popełniałaby"
+    pl: "Nie popełniałaby tej pomyłki bez pośpiechu."
+    ru: "Она не совершала бы этой ошибки без спешки."
+    source: { kind: authored }
+  - form: "popełniałaby"
+    pl: "Popełniałaby mniej błędów przy spokojniejszej pracy."
+    ru: "Она совершала бы меньше ошибок при спокойной работе."
+    source: { kind: authored }
+  - form: "popełniałaby"
+    pl: "Przy teściach nie popełniałaby gafy."
+    ru: "Она не допускала бы бестактности при родне мужа."
+    source: { kind: authored }
+  - form: "popełniałabym"
+    pl: "Nie popełniałabym tego błędu dwa razy."
+    ru: "Я не совершала бы этой ошибки дважды."
+    source: { kind: authored }
+  - form: "popełniałabym"
+    pl: "Popełniałabym mniej pomyłek z dobrym redaktorem."
+    ru: "Я совершала бы меньше ошибок с хорошим редактором."
+    source: { kind: authored }
+  - form: "popełniałabym"
+    pl: "Takiej gafy przy ludziach nie popełniałabym."
+    ru: "Я не допускала бы такой бестактности при людях."
+    source: { kind: authored }
+  - form: "popełniałabyś"
+    pl: "Popełniałabyś ten błąd i dalej."
+    ru: "Ты совершала бы эту ошибку и дальше."
+    source: { kind: authored }
+  - form: "popełniałabyś"
+    pl: "Nie popełniałabyś pomyłek, pisząc wolniej."
+    ru: "Ты не совершала бы ошибок, если бы писала медленнее."
+    source: { kind: authored }
+  - form: "popełniałabyś"
+    pl: "Niczego karalnego nie popełniałabyś."
+    ru: "Ты не совершала бы ничего наказуемого."
+    source: { kind: authored }
+  - form: "popełniałam"
+    pl: "Popełniałam ten błąd w każdym tekście."
+    ru: "Я совершала эту ошибку в каждом тексте."
+    source: { kind: authored }
+  - form: "popełniałam"
+    pl: "Popełniałam pomyłki z pośpiechu."
+    ru: "Я совершала ошибки из спешки."
+    source: { kind: authored }
+  - form: "popełniałam"
+    pl: "Nigdy nie popełniałam takiej gafy."
+    ru: "Я никогда не допускала такой бестактности."
+    source: { kind: authored }
+  - form: "popełniałaś"
+    pl: "Popełniałaś tę pomyłkę świadomie?"
+    ru: "Ты совершала эту ошибку сознательно?"
+    source: { kind: authored }
+  - form: "popełniałaś"
+    pl: "Popełniałaś błędy, które dało się naprawić."
+    ru: "Ты совершала ошибки, которые можно было исправить."
+    source: { kind: authored }
+  - form: "popełniałaś"
+    pl: "Niczego karalnego nie popełniałaś."
+    ru: "Ты не совершала ничего наказуемого."
+    source: { kind: authored }
+  - form: "popełniałby"
+    pl: "Tego błędu nie popełniałby, gdyby wiedział."
+    ru: "Он не совершал бы этой ошибки, если бы знал."
+    source: { kind: authored }
+  - form: "popełniałby"
+    pl: "Popełniałby mniej pomyłek z dobrym słownikiem."
+    ru: "Он совершал бы меньше ошибок с хорошим словарём."
+    source: { kind: authored }
+  - form: "popełniałby"
+    pl: "Nikt rozsądny nie popełniałby takiej gafy."
+    ru: "Никто разумный не допускал бы такой бестактности."
+    source: { kind: authored }
+  - form: "popełniałbym"
+    pl: "Nie popełniałbym tego błędu na twoim miejscu."
+    ru: "На твоём месте я не совершал бы этой ошибки."
+    source: { kind: authored }
+  - form: "popełniałbym"
+    pl: "Popełniałbym mniej pomyłek, gdybym się nie spieszył."
+    ru: "Я совершал бы меньше ошибок, если бы не спешил."
+    source: { kind: authored }
+  - form: "popełniałbym"
+    pl: "Przy klientach nie popełniałbym gaf."
+    ru: "Я не допускал бы бестактностей при клиентах."
+    source: { kind: authored }
+  - form: "popełniałbyś"
+    pl: "Popełniałbyś ten błąd w nieskończoność."
+    ru: "Ты совершал бы эту ошибку до бесконечности."
+    source: { kind: authored }
+  - form: "popełniałbyś"
+    pl: "Nie popełniałbyś pomyłek, czytając uważniej."
+    ru: "Ты не совершал бы ошибок, читая внимательнее."
+    source: { kind: authored }
+  - form: "popełniałbyś"
+    pl: "Z rozmysłem nie popełniałbyś przestępstwa."
+    ru: "Ты не совершал бы преступления умышленно."
+    source: { kind: authored }
+  - form: "popełniałem"
+    pl: "Popełniałem ten błąd latami."
+    ru: "Я совершал эту ошибку годами."
+    source: { kind: authored }
+  - form: "popełniałem"
+    pl: "Popełniałem pomyłki, ale nie takie."
+    ru: "Я совершал ошибки, но не такие."
+    source: { kind: authored }
+  - form: "popełniałem"
+    pl: "Żadnego przestępstwa nie popełniałem."
+    ru: "Я не совершал никакого преступления."
+    source: { kind: authored }
+  - form: "popełniałeś"
+    pl: "Popełniałeś ten sam błąd co ja."
+    ru: "Ты совершал ту же ошибку, что и я."
+    source: { kind: authored }
+  - form: "popełniałeś"
+    pl: "Popełniałeś gafy, ale nikt się nie obraził."
+    ru: "Ты допускал бестактности, но никто не обиделся."
+    source: { kind: authored }
+  - form: "popełniałeś"
+    pl: "Niczego złego nie popełniałeś."
+    ru: "Ты не совершал ничего плохого."
+    source: { kind: authored }
+  - form: "popełniało"
+    pl: "Wielu popełniało ten błąd przed tobą."
+    ru: "Многие совершали эту ошибку до тебя."
+    source: { kind: authored }
+  - form: "popełniało"
+    pl: "Pokolenie po pokoleniu popełniało tę pomyłkę."
+    ru: "Поколение за поколением совершало эту ошибку."
+    source: { kind: authored }
+  - form: "popełniało"
+    pl: "Żadne biuro nie popełniało tyle pomyłek."
+    ru: "Ни одна контора не совершала столько ошибок."
+    source: { kind: authored }
+  - form: "popełniałoby"
+    pl: "Dziecko nie popełniałoby takiego błędu."
+    ru: "Ребёнок не совершал бы такой ошибки."
+    source: { kind: authored }
+  - form: "popełniałoby"
+    pl: "Wielu popełniałoby tę pomyłkę na jego miejscu."
+    ru: "Многие совершали бы эту ошибку на его месте."
+    source: { kind: authored }
+  - form: "popełniałoby"
+    pl: "Żadne prawo nie popełniałoby takiej niesprawiedliwości."
+    ru: "Никакой закон не совершал бы такой несправедливости."
+    source: { kind: authored }
+  - form: "popełniały"
+    pl: "Obie strony popełniały błędy."
+    ru: "Обе стороны совершали ошибки."
+    source: { kind: authored }
+  - form: "popełniały"
+    pl: "Te programy popełniały te same pomyłki."
+    ru: "Эти программы совершали те же ошибки."
+    source: { kind: authored }
+  - form: "popełniały"
+    pl: "Niczego karalnego nie popełniały."
+    ru: "Они не совершали ничего наказуемого."
+    source: { kind: authored }
+  - form: "popełniałyby"
+    pl: "Obie strony popełniałyby te same błędy."
+    ru: "Обе стороны совершали бы те же ошибки."
+    source: { kind: authored }
+  - form: "popełniałyby"
+    pl: "Te programy popełniałyby mniej pomyłek po poprawce."
+    ru: "Эти программы совершали бы меньше ошибок после правки."
+    source: { kind: authored }
+  - form: "popełniałyby"
+    pl: "Niczego karalnego nie popełniałyby."
+    ru: "Они не совершали бы ничего наказуемого."
+    source: { kind: authored }
+  - form: "popełniałybyście"
+    pl: "Popełniałybyście ten błąd obie."
+    ru: "Вы обе совершали бы эту ошибку."
+    source: { kind: authored }
+  - form: "popełniałybyście"
+    pl: "Nie popełniałybyście pomyłek z dobrym wzorem."
+    ru: "Вы не совершали бы ошибок с хорошим образцом."
+    source: { kind: authored }
+  - form: "popełniałybyście"
+    pl: "Niczego złego nie popełniałybyście."
+    ru: "Вы не совершали бы ничего плохого."
+    source: { kind: authored }
+  - form: "popełniałybyśmy"
+    pl: "Popełniałybyśmy mniej błędów we dwie."
+    ru: "Вдвоём мы совершали бы меньше ошибок."
+    source: { kind: authored }
+  - form: "popełniałybyśmy"
+    pl: "Nie popełniałybyśmy tej pomyłki znowu."
+    ru: "Мы не совершали бы эту ошибку снова."
+    source: { kind: authored }
+  - form: "popełniałybyśmy"
+    pl: "Żadnej gafy nie popełniałybyśmy."
+    ru: "Мы не допускали бы никакой бестактности."
+    source: { kind: authored }
+  - form: "popełniałyście"
+    pl: "Popełniałyście ten błąd obie."
+    ru: "Вы обе совершали эту ошибку."
+    source: { kind: authored }
+  - form: "popełniałyście"
+    pl: "Popełniałyście pomyłki z pośpiechu."
+    ru: "Вы совершали ошибки из спешки."
+    source: { kind: authored }
+  - form: "popełniałyście"
+    pl: "Żadnej gafy nie popełniałyście."
+    ru: "Вы не допускали никакой бестактности."
+    source: { kind: authored }
+  - form: "popełniałyśmy"
+    pl: "Popełniałyśmy błędy po kolei."
+    ru: "Мы совершали ошибки по очереди."
+    source: { kind: authored }
+  - form: "popełniałyśmy"
+    pl: "Popełniałyśmy tę pomyłkę razem."
+    ru: "Мы совершали эту ошибку вместе."
+    source: { kind: authored }
+  - form: "popełniałyśmy"
+    pl: "Niczego karalnego nie popełniałyśmy."
+    ru: "Мы не совершали ничего наказуемого."
+    source: { kind: authored }
