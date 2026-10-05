@@ -1,0 +1,816 @@
+# review
+id: przenosic
+format: 2
+lemma: "przenosić"
+rank: 2864
+pos: verb
+pron: { cyr: "пшэно́щiць" }
+senses:
+  - id: carry-over
+    ru: "переносить"
+    examples:
+      - pl: "Przenosili meble z pokoju do pokoju."
+        ru: "Они переносили мебель из комнаты в комнату."
+        source: { kind: authored }
+      - pl: "Przenoś to ostrożnie, jest ciężkie."
+        ru: "Переноси это осторожно, оно тяжёлое."
+        source: { kind: authored }
+      - pl: "Biuro przenoszono trzy razy w ciągu roku."
+        ru: "Контору переносили трижды за год."
+        source: { kind: authored }
+  - id: transfer
+    ru: "переводить (на другую должность, срок)"
+    examples:
+      - pl: "Przenoszą go do innego działu."
+        ru: "Его переводят в другой отдел."
+        source: { kind: authored }
+      - pl: "Termin przenoszono już dwa razy."
+        ru: "Срок переносили уже дважды."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Шестьдесят четыре формы — на одну больше, чем у обычного несовершенного переходного глагола, и причина любопытная. PoliMorf помечает этот глагол и как несовершенный, и как совершенный: каждая личная форма стоит в таблице дважды, с двумя разными пометами. Отсюда и лишняя форма PRZENOSIWSZY, деепричастие на -WSZY, какое бывает только у совершенного вида. Совершенное чтение в польском настоящее: PRZENOSIĆ WSZYSTKIE KSIĄŻKI значит перенести их все, в несколько приёмов, а PRZENOSIĆ CIĄŻĘ — «перенашивать», выйти за срок. Так что шестьдесят четыре складываются как шестьдесят три плюс одна форма от второго чтения." }
+  - { kind: pronunciation, text: "Основа кончается мягким с, и польское письмо пишет его тремя способами — та же картина, что в карточке PRZERAZIĆ. Перед окончаниями -ę и -ą он твердеет в sz: PRZENOSZĘ, PRZENOSZĄ, и от этой же твёрдой основы идут все причастия: PRZENOSZONY, PRZENOSZĄCY, PRZENOSZENIE. Перед i стоит простое s: PRZENOSI, PRZENOSISZ, PRZENOSIŁ. А на конце слова и перед согласным — ś, откуда повелительное PRZENOŚ, PRZENOŚMY, PRZENOŚCIE." }
+  - { kind: usage, text: "Пара NIEŚĆ и NOSIĆ устроена ровно как русская «нести» и «носить»: NIEŚĆ — нести сейчас, в одну сторону, NOSIĆ — носить вообще, туда и обратно, по привычке. Приставочные пары идут отсюда же: PRZENIEŚĆ «перенести» однократно против PRZENOSIĆ «переносить» многократно. Русскому это деление знакомо насквозь, и переносить его можно прямо — редкий случай, когда совпадает не одно слово, а вся система." }
+  - { kind: government, text: "Переходный, винительный плюс предлог направления: PRZENOSIĆ COŚ Z CZEGOŚ DO CZEGOŚ — przenosić meble z pokoju do pokoju, przenosić biuro na drugie piętro. О человеке значит «переводить»: PRZENIEŚLI GO DO INNEGO DZIAŁU. О сроке — «переносить»: PRZENOSIĆ TERMIN, SPOTKANIE, и здесь он сходится с PRZEŁOŻYĆ из партии 263, только PRZEŁOŻYĆ звучит чуть официальнее. Возвратное PRZENOSIĆ SIĘ значит «переезжать»: PRZENIEŚLI SIĘ DO KRAKOWA." }
+collocations:
+  - { pl: "przenosić meble", ru: "переносить мебель" }
+  - { pl: "przenosić termin", ru: "переносить срок" }
+  - { pl: "przenosić się do innego miasta", ru: "переезжать в другой город" }
+family:
+  - { pl: "przenieść", ru: "перенести", relation: aspect, id: przeniesc }
+  - { pl: "nosić", ru: "носить", relation: root, id: nosic }
+  - { pl: "przeniesienie", ru: "перенос, перевод", relation: derived }
+etymology: "Приставка prze- и NOSIĆ «носить», из праславянского *nositi — то же слово, что русское «носить», многократная пара к *nesti «нести». Соответствие с русским полное и по частям, и по системе: PRZENIEŚĆ при PRZENOSIĆ стоит ровно как «перенести» при «переносить». Из гнезда вышли PRZENIESIENIE «перенос», NOSICIEL «носитель», ZNOSIĆ «сносить, терпеть», DONOSIĆ «доносить», PRZYNOSIĆ «приносить»."
+memory: "nieść и nosić делятся как «нести» и «носить», и приставки идут за ними: przenieść однократно, przenosić многократно. Один мягкий с пишется тремя способами: przenoszę, przenosi, przenoś."
+idioms:
+  - { pl: "przenosić się z miejsca na miejsce", ru: "переезжать с места на место" }
+  - { pl: "przenosić górę na inne miejsce", ru: "сдвинуть горы, сделать невозможное" }
+formExamples:
+  - form: "przenosi"
+    pl: "Wiatr przenosi nasiona na drugi brzeg."
+    ru: "Ветер переносит семена на другой берег."
+    source: { kind: authored }
+  - form: "przenosi"
+    pl: "Kto przenosi te skrzynie na górę?"
+    ru: "Кто переносит эти ящики наверх?"
+    source: { kind: authored }
+  - form: "przenosi"
+    pl: "Nikt nie przenosi akt bez zgody archiwisty."
+    ru: "Никто не переносит дела без согласия архивиста."
+    source: { kind: authored }
+  - form: "przenosicie"
+    pl: "Przenosicie meble sami?"
+    ru: "Вы переносите мебель сами?"
+    source: { kind: authored }
+  - form: "przenosicie"
+    pl: "Dlaczego przenosicie termin?"
+    ru: "Почему вы переносите срок?"
+    source: { kind: authored }
+  - form: "przenosicie"
+    pl: "Jeśli przenosicie akta, zrobcie spis."
+    ru: "Если переносите дела, составьте опись."
+    source: { kind: authored }
+  - form: "przenosili"
+    pl: "Przenosili meble z pokoju do pokoju."
+    ru: "Они переносили мебель из комнаты в комнату."
+    source: { kind: authored }
+  - form: "przenosili"
+    pl: "Przenosili termin, aż sprawa się przedawniła."
+    ru: "Они переносили срок, пока дело не истекло."
+    source: { kind: authored }
+  - form: "przenosili"
+    pl: "Niczego nie przenosili bez rejestru."
+    ru: "Они ничего не переносили без реестра."
+    source: { kind: authored }
+  - form: "przenosiliby"
+    pl: "Przenosiliby biuro przez tydzień."
+    ru: "Они переносили бы контору неделю."
+    source: { kind: authored }
+  - form: "przenosiliby"
+    pl: "Przenosiliby termin, gdyby im pozwolić."
+    ru: "Они переносили бы срок, если бы им позволить."
+    source: { kind: authored }
+  - form: "przenosiliby"
+    pl: "Niczego nie przenosiliby bez rejestru."
+    ru: "Они ничего не переносили бы без реестра."
+    source: { kind: authored }
+  - form: "przenosilibyście"
+    pl: "Przenosilibyście meble sami?"
+    ru: "Вы переносили бы мебель сами?"
+    source: { kind: authored }
+  - form: "przenosilibyście"
+    pl: "Gdybyście mieli czas, przenosilibyście wszystko dziś."
+    ru: "Если бы у вас было время, вы перенесли бы всё сегодня."
+    source: { kind: authored }
+  - form: "przenosilibyście"
+    pl: "Nie przenosilibyście akt bez zgody."
+    ru: "Вы не переносили бы дела без согласия."
+    source: { kind: authored }
+  - form: "przenosilibyśmy"
+    pl: "Przenosilibyśmy skrzynie po dwie."
+    ru: "Мы переносили бы ящики по две."
+    source: { kind: authored }
+  - form: "przenosilibyśmy"
+    pl: "Nie przenosilibyśmy terminu po raz trzeci."
+    ru: "Мы не переносили бы срок в третий раз."
+    source: { kind: authored }
+  - form: "przenosilibyśmy"
+    pl: "Niczego nie przenosilibyśmy bez spisu."
+    ru: "Мы ничего не переносили бы без описи."
+    source: { kind: authored }
+  - form: "przenosiliście"
+    pl: "Przenosiliście meble sami?"
+    ru: "Вы переносили мебель сами?"
+    source: { kind: authored }
+  - form: "przenosiliście"
+    pl: "Dlaczego przenosiliście termin?"
+    ru: "Почему вы переносили срок?"
+    source: { kind: authored }
+  - form: "przenosiliście"
+    pl: "Niczego nie przenosiliście bez spisu."
+    ru: "Вы ничего не переносили без описи."
+    source: { kind: authored }
+  - form: "przenosiliśmy"
+    pl: "Przenosiliśmy biuro przez dwa dni."
+    ru: "Мы переносили контору два дня."
+    source: { kind: authored }
+  - form: "przenosiliśmy"
+    pl: "Przenosiliśmy termin, aż klient się zniecierpliwił."
+    ru: "Мы переносили срок, пока клиент не потерял терпение."
+    source: { kind: authored }
+  - form: "przenosiliśmy"
+    pl: "Niczego nie przenosiliśmy bez rejestru."
+    ru: "Мы ничего не переносили без реестра."
+    source: { kind: authored }
+  - form: "przenosimy"
+    pl: "Przenosimy biuro na drugie piętro."
+    ru: "Мы переносим контору на второй этаж."
+    source: { kind: authored }
+  - form: "przenosimy"
+    pl: "Przenosimy spotkanie na piątek."
+    ru: "Мы переносим встречу на пятницу."
+    source: { kind: authored }
+  - form: "przenosimy"
+    pl: "Niczego nie przenosimy bez spisu."
+    ru: "Мы ничего не переносим без описи."
+    source: { kind: authored }
+  - form: "przenosisz"
+    pl: "Przenosisz to sam czy pomóc?"
+    ru: "Ты переносишь это сам или помочь?"
+    source: { kind: authored }
+  - form: "przenosisz"
+    pl: "Dlaczego przenosisz termin po raz trzeci?"
+    ru: "Почему ты переносишь срок в третий раз?"
+    source: { kind: authored }
+  - form: "przenosisz"
+    pl: "Jeśli przenosisz akta, zapisz to w rejestrze."
+    ru: "Если переносишь дела, запиши это в реестр."
+    source: { kind: authored }
+  - form: "przenosiwszy"
+    pl: "Przenosiwszy wszystkie skrzynie, usiedli na schodach."
+    ru: "Перенеся все ящики, они сели на лестнице."
+    source: { kind: authored }
+  - form: "przenosiwszy"
+    pl: "Przenosiwszy biuro na drugie piętro, odetchnęli."
+    ru: "Перенеся контору на второй этаж, они вздохнули."
+    source: { kind: authored }
+  - form: "przenosiwszy"
+    pl: "Przenosiwszy akta do archiwum, zamknęli szafę."
+    ru: "Перенеся дела в архив, они закрыли шкаф."
+    source: { kind: authored }
+  - form: "przenosić"
+    pl: "Trzeba przenosić te skrzynie po dwie."
+    ru: "Эти ящики надо переносить по две."
+    source: { kind: authored }
+  - form: "przenosić"
+    pl: "Nie wolno przenosić akt bez zgody."
+    ru: "Нельзя переносить дела без согласия."
+    source: { kind: authored }
+  - form: "przenosić"
+    pl: "Zaczęli przenosić biuro na drugie piętro."
+    ru: "Они начали переносить контору на второй этаж."
+    source: { kind: authored }
+  - form: "przenosił"
+    pl: "Przenosił skrzynie przez całe popołudnie."
+    ru: "Он переносил ящики весь день."
+    source: { kind: authored }
+  - form: "przenosił"
+    pl: "Przenosił termin trzy razy z rzędu."
+    ru: "Он переносил срок три раза подряд."
+    source: { kind: authored }
+  - form: "przenosił"
+    pl: "Niczego nie przenosił bez pozwolenia."
+    ru: "Он ничего не переносил без разрешения."
+    source: { kind: authored }
+  - form: "przenosiła"
+    pl: "Przenosiła książki pudło po pudle."
+    ru: "Она переносила книги коробка за коробкой."
+    source: { kind: authored }
+  - form: "przenosiła"
+    pl: "Przenosiła spotkania, aż klienci odeszli."
+    ru: "Она переносила встречи, пока клиенты не ушли."
+    source: { kind: authored }
+  - form: "przenosiła"
+    pl: "Niczego nie przenosiła bez spisu."
+    ru: "Она ничего не переносила без описи."
+    source: { kind: authored }
+  - form: "przenosiłaby"
+    pl: "Przenosiłaby książki pudło po pudle."
+    ru: "Она переносила бы книги коробка за коробкой."
+    source: { kind: authored }
+  - form: "przenosiłaby"
+    pl: "Nie przenosiłaby terminu po raz trzeci."
+    ru: "Она не переносила бы срок в третий раз."
+    source: { kind: authored }
+  - form: "przenosiłaby"
+    pl: "Żadna inna nie przenosiłaby tego sama."
+    ru: "Никакая другая не переносила бы это сама."
+    source: { kind: authored }
+  - form: "przenosiłabym"
+    pl: "Przenosiłabym po jednym pudle."
+    ru: "Я переносила бы по одной коробке."
+    source: { kind: authored }
+  - form: "przenosiłabym"
+    pl: "Na jej miejscu nie przenosiłabym spotkania."
+    ru: "На её месте я не переносила бы встречу."
+    source: { kind: authored }
+  - form: "przenosiłabym"
+    pl: "Niczego nie przenosiłabym bez pozwolenia."
+    ru: "Я ничего не переносила бы без разрешения."
+    source: { kind: authored }
+  - form: "przenosiłabyś"
+    pl: "Przenosiłabyś meble sama?"
+    ru: "Ты переносила бы мебель сама?"
+    source: { kind: authored }
+  - form: "przenosiłabyś"
+    pl: "Gdybyś chciała, przenosiłabyś termin bez końca."
+    ru: "Если бы ты хотела, ты переносила бы срок без конца."
+    source: { kind: authored }
+  - form: "przenosiłabyś"
+    pl: "Nie przenosiłabyś akt bez spisu."
+    ru: "Ты не переносила бы дела без описи."
+    source: { kind: authored }
+  - form: "przenosiłam"
+    pl: "Przenosiłam książki pudło po pudle."
+    ru: "Я переносила книги коробка за коробкой."
+    source: { kind: authored }
+  - form: "przenosiłam"
+    pl: "Przenosiłam termin, bo byłam chora."
+    ru: "Я переносила срок, потому что болела."
+    source: { kind: authored }
+  - form: "przenosiłam"
+    pl: "Niczego nie przenosiłam bez pozwolenia."
+    ru: "Я ничего не переносила без разрешения."
+    source: { kind: authored }
+  - form: "przenosiłaś"
+    pl: "Przenosiłaś meble sama?"
+    ru: "Ты переносила мебель сама?"
+    source: { kind: authored }
+  - form: "przenosiłaś"
+    pl: "Przenosiłaś spotkanie już dwa razy."
+    ru: "Ты переносила встречу уже дважды."
+    source: { kind: authored }
+  - form: "przenosiłaś"
+    pl: "Niczego nie przenosiłaś bez spisu."
+    ru: "Ты ничего не переносила без описи."
+    source: { kind: authored }
+  - form: "przenosiłby"
+    pl: "Przenosiłby skrzynie całą noc, gdyby mu kazano."
+    ru: "Он переносил бы ящики всю ночь, если бы ему велели."
+    source: { kind: authored }
+  - form: "przenosiłby"
+    pl: "Nikt nie przenosiłby akt bez zgody."
+    ru: "Никто не переносил бы дела без согласия."
+    source: { kind: authored }
+  - form: "przenosiłby"
+    pl: "Przenosiłby termin bez końca."
+    ru: "Он переносил бы срок без конца."
+    source: { kind: authored }
+  - form: "przenosiłbym"
+    pl: "Przenosiłbym po jednej skrzyni, nie po dwie."
+    ru: "Я переносил бы по одному ящику, не по два."
+    source: { kind: authored }
+  - form: "przenosiłbym"
+    pl: "Na twoim miejscu nie przenosiłbym terminu."
+    ru: "На твоём месте я не переносил бы срок."
+    source: { kind: authored }
+  - form: "przenosiłbym"
+    pl: "Niczego nie przenosiłbym bez spisu."
+    ru: "Я ничего не переносил бы без описи."
+    source: { kind: authored }
+  - form: "przenosiłbyś"
+    pl: "Przenosiłbyś te meble sam?"
+    ru: "Ты переносил бы эту мебель сам?"
+    source: { kind: authored }
+  - form: "przenosiłbyś"
+    pl: "Gdybyś miał pomoc, przenosiłbyś szybciej."
+    ru: "Если бы у тебя была помощь, ты переносил бы быстрее."
+    source: { kind: authored }
+  - form: "przenosiłbyś"
+    pl: "Nie przenosiłbyś akt bez zgody."
+    ru: "Ты не переносил бы дела без согласия."
+    source: { kind: authored }
+  - form: "przenosiłem"
+    pl: "Przenosiłem skrzynie przez pół dnia."
+    ru: "Я переносил ящики полдня."
+    source: { kind: authored }
+  - form: "przenosiłem"
+    pl: "Przenosiłem termin dwa razy, więcej nie będę."
+    ru: "Я переносил срок дважды, больше не буду."
+    source: { kind: authored }
+  - form: "przenosiłem"
+    pl: "Niczego nie przenosiłem bez zgody."
+    ru: "Я ничего не переносил без согласия."
+    source: { kind: authored }
+  - form: "przenosiłeś"
+    pl: "Przenosiłeś te akta sam?"
+    ru: "Ты переносил эти дела сам?"
+    source: { kind: authored }
+  - form: "przenosiłeś"
+    pl: "Dlaczego przenosiłeś spotkanie?"
+    ru: "Почему ты переносил встречу?"
+    source: { kind: authored }
+  - form: "przenosiłeś"
+    pl: "Niczego nie przenosiłeś bez spisu."
+    ru: "Ты ничего не переносил без описи."
+    source: { kind: authored }
+  - form: "przenosiło"
+    pl: "Biuro przenosiło akta do archiwum przez rok."
+    ru: "Контора переносила дела в архив целый год."
+    source: { kind: authored }
+  - form: "przenosiło"
+    pl: "Dziecko przenosiło klocki z kąta w kąt."
+    ru: "Ребёнок переносил кубики из угла в угол."
+    source: { kind: authored }
+  - form: "przenosiło"
+    pl: "Żadne biuro nie przenosiło tego bez zgody."
+    ru: "Ни одна контора не переносила это без согласия."
+    source: { kind: authored }
+  - form: "przenosiłoby"
+    pl: "Biuro przenosiłoby akta do archiwum rok."
+    ru: "Контора переносила бы дела в архив год."
+    source: { kind: authored }
+  - form: "przenosiłoby"
+    pl: "Dziecko przenosiłoby klocki bez końca."
+    ru: "Ребёнок переносил бы кубики без конца."
+    source: { kind: authored }
+  - form: "przenosiłoby"
+    pl: "Żadne biuro nie przenosiłoby tego bez zgody."
+    ru: "Ни одна контора не переносила бы это без согласия."
+    source: { kind: authored }
+  - form: "przenosiły"
+    pl: "Obie ekipy przenosiły skrzynie naraz."
+    ru: "Обе бригады переносили ящики сразу."
+    source: { kind: authored }
+  - form: "przenosiły"
+    pl: "Owady przenosiły chorobę przez całe lato."
+    ru: "Насекомые переносили болезнь всё лето."
+    source: { kind: authored }
+  - form: "przenosiły"
+    pl: "Te maszyny przenosiły ciężar bez trudu."
+    ru: "Эти машины переносили груз без труда."
+    source: { kind: authored }
+  - form: "przenosiłyby"
+    pl: "Obie ekipy przenosiłyby skrzynie naraz."
+    ru: "Обе бригады переносили бы ящики сразу."
+    source: { kind: authored }
+  - form: "przenosiłyby"
+    pl: "Owady przenosiłyby chorobę całe lato."
+    ru: "Насекомые переносили бы болезнь всё лето."
+    source: { kind: authored }
+  - form: "przenosiłyby"
+    pl: "Te maszyny przenosiłyby ciężar bez trudu."
+    ru: "Эти машины переносили бы груз без труда."
+    source: { kind: authored }
+  - form: "przenosiłybyście"
+    pl: "Przenosiłybyście meble same?"
+    ru: "Вы переносили бы мебель сами?"
+    source: { kind: authored }
+  - form: "przenosiłybyście"
+    pl: "Gdybyście chciały, przenosiłybyście wszystko dziś."
+    ru: "Если бы вы хотели, вы перенесли бы всё сегодня."
+    source: { kind: authored }
+  - form: "przenosiłybyście"
+    pl: "Nie przenosiłybyście akt bez zgody."
+    ru: "Вы не переносили бы дела без согласия."
+    source: { kind: authored }
+  - form: "przenosiłybyśmy"
+    pl: "Przenosiłybyśmy książki obie."
+    ru: "Мы обе переносили бы книги."
+    source: { kind: authored }
+  - form: "przenosiłybyśmy"
+    pl: "Nie przenosiłybyśmy terminu znowu."
+    ru: "Мы не переносили бы срок снова."
+    source: { kind: authored }
+  - form: "przenosiłybyśmy"
+    pl: "Niczego nie przenosiłybyśmy bez spisu."
+    ru: "Мы ничего не переносили бы без описи."
+    source: { kind: authored }
+  - form: "przenosiłyście"
+    pl: "Przenosiłyście meble same?"
+    ru: "Вы переносили мебель сами?"
+    source: { kind: authored }
+  - form: "przenosiłyście"
+    pl: "Przenosiłyście spotkanie już dwa razy."
+    ru: "Вы переносили встречу уже дважды."
+    source: { kind: authored }
+  - form: "przenosiłyście"
+    pl: "Niczego nie przenosiłyście bez spisu."
+    ru: "Вы ничего не переносили без описи."
+    source: { kind: authored }
+  - form: "przenosiłyśmy"
+    pl: "Przenosiłyśmy książki obie."
+    ru: "Мы обе переносили книги."
+    source: { kind: authored }
+  - form: "przenosiłyśmy"
+    pl: "Przenosiłyśmy termin dwa razy."
+    ru: "Мы переносили срок дважды."
+    source: { kind: authored }
+  - form: "przenosiłyśmy"
+    pl: "Niczego nie przenosiłyśmy bez zgody."
+    ru: "Мы ничего не переносили без согласия."
+    source: { kind: authored }
+  - form: "przenoszeni"
+    pl: "Przenoszeni z działu do działu pracownicy tracą zapał."
+    ru: "Работники, переводимые из отдела в отдел, теряют пыл."
+    source: { kind: authored }
+  - form: "przenoszeni"
+    pl: "Są przenoszeni co pół roku, bez pytania."
+    ru: "Их переводят каждые полгода, без спроса."
+    source: { kind: authored }
+  - form: "przenoszeni"
+    pl: "Byli przenoszeni tyle razy, że przestali się pakować."
+    ru: "Их переводили столько раз, что они перестали распаковываться."
+    source: { kind: authored }
+  - form: "przenoszenia"
+    pl: "Do przenoszenia skrzyń trzeba dwóch ludzi."
+    ru: "Для переноса ящиков нужны двое."
+    source: { kind: authored }
+  - form: "przenoszenia"
+    pl: "Bez przenoszenia akt archiwum by nie powstało."
+    ru: "Без переноса дел архив не возник бы."
+    source: { kind: authored }
+  - form: "przenoszenia"
+    pl: "Zasady przenoszenia terminów opisano w umowie."
+    ru: "Правила переноса сроков описаны в договоре."
+    source: { kind: authored }
+  - form: "przenoszenie"
+    pl: "Przenoszenie akt zajęło dwa dni."
+    ru: "Перенос дел занял два дня."
+    source: { kind: authored }
+  - form: "przenoszenie"
+    pl: "Przenoszenie terminu zaczyna męczyć klientów."
+    ru: "Перенос срока начинает утомлять клиентов."
+    source: { kind: authored }
+  - form: "przenoszenie"
+    pl: "To przenoszenie mebli nigdy się nie skończy."
+    ru: "Этот перенос мебели никогда не кончится."
+    source: { kind: authored }
+  - form: "przenoszeniem"
+    pl: "Zajął się przenoszeniem akt sam."
+    ru: "Он сам занялся переносом дел."
+    source: { kind: authored }
+  - form: "przenoszeniem"
+    pl: "Między przenoszeniem a rozpakowaniem minął dzień."
+    ru: "Между переносом и распаковкой прошёл день."
+    source: { kind: authored }
+  - form: "przenoszeniem"
+    pl: "Przed przenoszeniem mebli zdjęli drzwi."
+    ru: "Перед переносом мебели они сняли дверь."
+    source: { kind: authored }
+  - form: "przenoszeniu"
+    pl: "Po przenoszeniu biura nic nie było na miejscu."
+    ru: "После переноса конторы ничего не было на месте."
+    source: { kind: authored }
+  - form: "przenoszeniu"
+    pl: "O przenoszeniu terminu mówi osobny punkt."
+    ru: "О переносе срока говорит отдельный пункт."
+    source: { kind: authored }
+  - form: "przenoszeniu"
+    pl: "W przenoszeniu akt pomogli praktykanci."
+    ru: "В переносе дел помогли практиканты."
+    source: { kind: authored }
+  - form: "przenoszona"
+    pl: "Skrzynia przenoszona przez dwóch ludzi i tak spadła."
+    ru: "Ящик, который несли двое, всё равно упал."
+    source: { kind: authored }
+  - form: "przenoszona"
+    pl: "Sprawa jest przenoszona z terminu na termin."
+    ru: "Дело переносят со срока на срок."
+    source: { kind: authored }
+  - form: "przenoszona"
+    pl: "Przenoszona co roku wystawa wreszcie została."
+    ru: "Выставка, которую переносили каждый год, наконец осталась."
+    source: { kind: authored }
+  - form: "przenoszone"
+    pl: "Akta przenoszone bez spisu łatwo zgubić."
+    ru: "Дела, переносимые без описи, легко потерять."
+    source: { kind: authored }
+  - form: "przenoszone"
+    pl: "Te meble są przenoszone co miesiąc."
+    ru: "Эту мебель переносят каждый месяц."
+    source: { kind: authored }
+  - form: "przenoszone"
+    pl: "Przenoszone wiatrem nasiona trafiły na drugi brzeg."
+    ru: "Семена, переносимые ветром, попали на другой берег."
+    source: { kind: authored }
+  - form: "przenoszonego"
+    pl: "Od terminu przenoszonego trzy razy nikt już nic nie oczekuje."
+    ru: "От срока, перенесённого трижды, уже никто ничего не ждёт."
+    source: { kind: authored }
+  - form: "przenoszonego"
+    pl: "Nie ma tu mebla przenoszonego tak często."
+    ru: "Здесь нет мебели, которую переносят так часто."
+    source: { kind: authored }
+  - form: "przenoszonego"
+    pl: "Szukali pracownika przenoszonego z działu do działu."
+    ru: "Они искали работника, переводимого из отдела в отдел."
+    source: { kind: authored }
+  - form: "przenoszonej"
+    pl: "O sprawie przenoszonej z terminu na termin mówiono w sądzie."
+    ru: "О деле, переносимом со срока на срок, говорили в суде."
+    source: { kind: authored }
+  - form: "przenoszonej"
+    pl: "Nie ma mowy o wystawie przenoszonej po raz czwarty."
+    ru: "О выставке, переносимой в четвёртый раз, и речи нет."
+    source: { kind: authored }
+  - form: "przenoszonej"
+    pl: "Po skrzyni przenoszonej bez wózka zostały ślady."
+    ru: "От ящика, который несли без тележки, остались следы."
+    source: { kind: authored }
+  - form: "przenoszonemu"
+    pl: "Terminowi przenoszonemu tyle razy nikt nie wierzył."
+    ru: "Сроку, перенесённому столько раз, никто не верил."
+    source: { kind: authored }
+  - form: "przenoszonemu"
+    pl: "Przyglądał się meblowi przenoszonemu przez korytarz."
+    ru: "Он смотрел на мебель, которую несли через коридор."
+    source: { kind: authored }
+  - form: "przenoszonemu"
+    pl: "Dzięki archiwum przenoszonemu na czas akta ocalały."
+    ru: "Благодаря архиву, перенесённому вовремя, дела сохранились."
+    source: { kind: authored }
+  - form: "przenoszono"
+    pl: "Biuro przenoszono trzy razy w ciągu roku."
+    ru: "Контору переносили трижды за год."
+    source: { kind: authored }
+  - form: "przenoszono"
+    pl: "Termin przenoszono już dwa razy."
+    ru: "Срок переносили уже дважды."
+    source: { kind: authored }
+  - form: "przenoszono"
+    pl: "Akt nie przenoszono bez spisu."
+    ru: "Дела без описи не переносили."
+    source: { kind: authored }
+  - form: "przenoszony"
+    pl: "Termin przenoszony trzy razy wreszcie ustalono."
+    ru: "Срок, перенесённый трижды, наконец установили."
+    source: { kind: authored }
+  - form: "przenoszony"
+    pl: "Ten mebel jest przenoszony co tydzień."
+    ru: "Эту мебель переносят каждую неделю."
+    source: { kind: authored }
+  - form: "przenoszony"
+    pl: "Przenoszony z działu do działu, stracił zapał."
+    ru: "Переводимый из отдела в отдел, он потерял пыл."
+    source: { kind: authored }
+  - form: "przenoszonych"
+    pl: "W aktach przenoszonych bez spisu zabrakło dwóch teczek."
+    ru: "В делах, переносимых без описи, не хватило двух папок."
+    source: { kind: authored }
+  - form: "przenoszonych"
+    pl: "Bez mebli przenoszonych na górę pokój byłby pusty."
+    ru: "Без мебели, перенесённой наверх, комната была бы пустой."
+    source: { kind: authored }
+  - form: "przenoszonych"
+    pl: "Lista terminów przenoszonych w tym roku jest długa."
+    ru: "Список сроков, перенесённых в этом году, длинный."
+    source: { kind: authored }
+  - form: "przenoszonym"
+    pl: "W terminie przenoszonym tyle razy nie ma już sensu."
+    ru: "В сроке, перенесённом столько раз, уже нет смысла."
+    source: { kind: authored }
+  - form: "przenoszonym"
+    pl: "Okazał się pracownikiem przenoszonym co pół roku."
+    ru: "Он оказался работником, переводимым каждые полгода."
+    source: { kind: authored }
+  - form: "przenoszonym"
+    pl: "Przenoszonym aktom nadano nowe sygnatury."
+    ru: "Переносимым делам присвоили новые шифры."
+    source: { kind: authored }
+  - form: "przenoszonymi"
+    pl: "Między aktami przenoszonymi a zarchiwizowanymi jest różnica."
+    ru: "Между делами переносимыми и заархивированными есть разница."
+    source: { kind: authored }
+  - form: "przenoszonymi"
+    pl: "Zajął się meblami przenoszonymi na drugie piętro."
+    ru: "Он занялся мебелью, переносимой на второй этаж."
+    source: { kind: authored }
+  - form: "przenoszonymi"
+    pl: "Pracowali ze sprawami przenoszonymi z roku na rok."
+    ru: "Они работали с делами, переносимыми из года в год."
+    source: { kind: authored }
+  - form: "przenoszoną"
+    pl: "Znają tę wystawę, przenoszoną co roku."
+    ru: "Они знают эту выставку, переносимую каждый год."
+    source: { kind: authored }
+  - form: "przenoszoną"
+    pl: "Uznali sprawę za przenoszoną celowo."
+    ru: "Дело сочли переносимым нарочно."
+    source: { kind: authored }
+  - form: "przenoszoną"
+    pl: "Zastąpili skrzynię przenoszoną ręcznie wózkiem."
+    ru: "Ящик, который носили руками, заменили тележкой."
+    source: { kind: authored }
+  - form: "przenoszą"
+    pl: "Przenoszą biuro na drugą stronę ulicy."
+    ru: "Они переносят контору на другую сторону улицы."
+    source: { kind: authored }
+  - form: "przenoszą"
+    pl: "Owady przenoszą choroby."
+    ru: "Насекомые переносят болезни."
+    source: { kind: authored }
+  - form: "przenoszą"
+    pl: "Terminów nie przenoszą bez uzasadnienia."
+    ru: "Сроки они без обоснования не переносят."
+    source: { kind: authored }
+  - form: "przenosząc"
+    pl: "Przenosząc skrzynię, potknął się o próg."
+    ru: "Перенося ящик, он споткнулся о порог."
+    source: { kind: authored }
+  - form: "przenosząc"
+    pl: "Przenosząc termin, uprzedziła wszystkich."
+    ru: "Перенося срок, она предупредила всех."
+    source: { kind: authored }
+  - form: "przenosząc"
+    pl: "Przenosząc biuro, zgubili dwa pudła akt."
+    ru: "Перенося контору, они потеряли две коробки дел."
+    source: { kind: authored }
+  - form: "przenosząca"
+    pl: "Ekipa przenosząca meble skończyła po północy."
+    ru: "Бригада, переносившая мебель, кончила после полуночи."
+    source: { kind: authored }
+  - form: "przenosząca"
+    pl: "Rzeka przenosząca piasek zmieniła brzeg."
+    ru: "Река, переносящая песок, изменила берег."
+    source: { kind: authored }
+  - form: "przenosząca"
+    pl: "Osoba przenosząca akta musi podpisać spis."
+    ru: "Человек, переносящий дела, должен подписать опись."
+    source: { kind: authored }
+  - form: "przenoszące"
+    pl: "Dziecko przenoszące klocki z kąta w kąt bawiło się godzinę."
+    ru: "Ребёнок, переносивший кубики из угла в угол, играл час."
+    source: { kind: authored }
+  - form: "przenoszące"
+    pl: "Owady przenoszące choroby trzeba tępić."
+    ru: "Насекомых, переносящих болезни, надо истреблять."
+    source: { kind: authored }
+  - form: "przenoszące"
+    pl: "Te urządzenia są przenoszące, nie stacjonarne."
+    ru: "Эти устройства переносные, а не стационарные."
+    source: { kind: authored }
+  - form: "przenoszącego"
+    pl: "Od pracownika przenoszącego akta wymagano spisu."
+    ru: "От работника, переносящего дела, требовали опись."
+    source: { kind: authored }
+  - form: "przenoszącego"
+    pl: "Nie znam nikogo przenoszącego tyle naraz."
+    ru: "Я не знаю никого, кто несёт столько сразу."
+    source: { kind: authored }
+  - form: "przenoszącego"
+    pl: "Szukali owada przenoszącego tę chorobę."
+    ru: "Они искали насекомое, переносящее эту болезнь."
+    source: { kind: authored }
+  - form: "przenoszącej"
+    pl: "O ekipie przenoszącej meble mówiono z uznaniem."
+    ru: "О бригаде, переносившей мебель, говорили с одобрением."
+    source: { kind: authored }
+  - form: "przenoszącej"
+    pl: "Nie ma mowy o rzece przenoszącej tyle piasku."
+    ru: "О реке, переносящей столько песка, и речи нет."
+    source: { kind: authored }
+  - form: "przenoszącej"
+    pl: "Pomogli kobiecie przenoszącej pudła po schodach."
+    ru: "Они помогли женщине, несшей коробки по лестнице."
+    source: { kind: authored }
+  - form: "przenoszącemu"
+    pl: "Pracownikowi przenoszącemu akta dano wózek."
+    ru: "Работнику, переносящему дела, дали тележку."
+    source: { kind: authored }
+  - form: "przenoszącemu"
+    pl: "Przyglądał się dziecku przenoszącemu klocki."
+    ru: "Он смотрел на ребёнка, переносившего кубики."
+    source: { kind: authored }
+  - form: "przenoszącemu"
+    pl: "Dzięki wiatrowi przenoszącemu nasiona las się odnowił."
+    ru: "Благодаря ветру, переносящему семена, лес обновился."
+    source: { kind: authored }
+  - form: "przenoszący"
+    pl: "Pracownik przenoszący skrzynie potknął się na progu."
+    ru: "Работник, несший ящики, споткнулся на пороге."
+    source: { kind: authored }
+  - form: "przenoszący"
+    pl: "Wiatr przenoszący nasiona wiał od rzeki."
+    ru: "Ветер, переносивший семена, дул от реки."
+    source: { kind: authored }
+  - form: "przenoszący"
+    pl: "Owad przenoszący chorobę jest wielkości ziarna."
+    ru: "Насекомое, переносящее болезнь, размером с зерно."
+    source: { kind: authored }
+  - form: "przenoszących"
+    pl: "Wśród przenoszących meble nie było ani jednego zawodowca."
+    ru: "Среди переносивших мебель не было ни одного профессионала."
+    source: { kind: authored }
+  - form: "przenoszących"
+    pl: "Bez owadów przenoszących pyłek nie byłoby owoców."
+    ru: "Без насекомых, переносящих пыльцу, не было бы плодов."
+    source: { kind: authored }
+  - form: "przenoszących"
+    pl: "Lista osób przenoszących akta wisi w archiwum."
+    ru: "Список людей, переносящих дела, висит в архиве."
+    source: { kind: authored }
+  - form: "przenoszącym"
+    pl: "W pracowniku przenoszącym akta widzieli praktykanta."
+    ru: "В работнике, переносящем дела, они видели практиканта."
+    source: { kind: authored }
+  - form: "przenoszącym"
+    pl: "Okazał się owadem przenoszącym chorobę."
+    ru: "Это оказалось насекомое, переносящее болезнь."
+    source: { kind: authored }
+  - form: "przenoszącym"
+    pl: "Przenoszącym meble robotnikom dano rękawice."
+    ru: "Рабочим, переносившим мебель, дали рукавицы."
+    source: { kind: authored }
+  - form: "przenoszącymi"
+    pl: "Między przenoszącymi a pakującymi zrobił się zator."
+    ru: "Между переносившими и упаковывавшими образовался затор."
+    source: { kind: authored }
+  - form: "przenoszącymi"
+    pl: "Zajął się robotnikami przenoszącymi skrzynie."
+    ru: "Он занялся рабочими, переносившими ящики."
+    source: { kind: authored }
+  - form: "przenoszącymi"
+    pl: "Rozmawiał z ludźmi przenoszącymi akta do archiwum."
+    ru: "Он говорил с людьми, переносившими дела в архив."
+    source: { kind: authored }
+  - form: "przenoszącą"
+    pl: "Znają tę ekipę, przenoszącą meble od lat."
+    ru: "Они знают эту бригаду, переносящую мебель годами."
+    source: { kind: authored }
+  - form: "przenoszącą"
+    pl: "Uznali ją za osobę przenoszącą wszystko sama."
+    ru: "Её сочли человеком, который всё переносит сам."
+    source: { kind: authored }
+  - form: "przenoszącą"
+    pl: "Zastąpili taśmę przenoszącą ziarno nową."
+    ru: "Ленту, переносящую зерно, заменили новой."
+    source: { kind: authored }
+  - form: "przenoszę"
+    pl: "Przenoszę książki do drugiego pokoju."
+    ru: "Я переношу книги в другую комнату."
+    source: { kind: authored }
+  - form: "przenoszę"
+    pl: "Przenoszę termin na przyszły tydzień."
+    ru: "Я переношу срок на следующую неделю."
+    source: { kind: authored }
+  - form: "przenoszę"
+    pl: "Niczego nie przenoszę bez pozwolenia."
+    ru: "Я ничего не переношу без разрешения."
+    source: { kind: authored }
+  - form: "przenoś"
+    pl: "Przenoś to ostrożnie, jest ciężkie."
+    ru: "Переноси это осторожно, оно тяжёлое."
+    source: { kind: authored }
+  - form: "przenoś"
+    pl: "Nie przenoś akt bez zgody."
+    ru: "Не переноси дела без согласия."
+    source: { kind: authored }
+  - form: "przenoś"
+    pl: "Przenoś po jednej skrzyni, nie po dwie."
+    ru: "Переноси по одному ящику, не по два."
+    source: { kind: authored }
+  - form: "przenoście"
+    pl: "Przenoście książki do drugiego pokoju."
+    ru: "Переносите книги в другую комнату."
+    source: { kind: authored }
+  - form: "przenoście"
+    pl: "Nie przenoście akt bez spisu."
+    ru: "Не переносите дела без описи."
+    source: { kind: authored }
+  - form: "przenoście"
+    pl: "Przenoście ostrożnie, szkło w środku."
+    ru: "Переносите осторожно, внутри стекло."
+    source: { kind: authored }
+  - form: "przenośmy"
+    pl: "Przenośmy skrzynie po dwie, będzie szybciej."
+    ru: "Будем переносить ящики по две, выйдет быстрее."
+    source: { kind: authored }
+  - form: "przenośmy"
+    pl: "Nie przenośmy terminu po raz trzeci."
+    ru: "Не будем переносить срок в третий раз."
+    source: { kind: authored }
+  - form: "przenośmy"
+    pl: "Przenośmy meble od okna."
+    ru: "Будем переносить мебель от окна."
+    source: { kind: authored }
