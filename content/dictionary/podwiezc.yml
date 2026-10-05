@@ -1,0 +1,653 @@
+# review
+id: podwiezc
+format: 2
+lemma: "podwieźć"
+rank: 2771
+pos: verb
+pron: { cyr: "подвещць" }
+senses:
+  - id: give-lift
+    ru: "подвезти (кого-л.)"
+    examples:
+      - pl: "Podwieź mnie do dworca."
+        ru: "Подвези меня до вокзала."
+        source: { kind: authored }
+      - pl: "Podwiózł ją pod sam dom."
+        ru: "Он подвёз её к самому дому."
+        source: { kind: authored }
+      - pl: "Podwieziono nas wojskową ciężarówką."
+        ru: "Нас подвезли военным грузовиком."
+        source: { kind: authored }
+  - id: deliver
+    ru: "подвезти (груз, товар)"
+    examples:
+      - pl: "Podwiozą węgiel w czwartek."
+        ru: "Уголь подвезут в четверг."
+        source: { kind: authored }
+      - pl: "Towar podwieziony rano stał do wieczora."
+        ru: "Товар, подвезённый утром, стоял до вечера."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Основа меняется трижды, и все три мены русскому знакомы. Согласная: ź перед согласным и на конце — PODWIEŹĆ, PODWIEŹ, PODWIEŹLI, — но z перед гласной заднего ряда: PODWIOZĘ, PODWIOZĄ, PODWIOZŁA. Гласная: e перед i — PODWIEZIE, PODWIEZIESZ, — но o перед твёрдой — PODWIOZĘ, PODWIOZŁA. И третья, самая польская: o удлиняется в ó в закрытом слоге, откуда PODWIÓZŁ при PODWIOZŁA. Та же мена, что в WZÓR при WZORU и SAMOCHÓD при SAMOCHODOWY." }
+  - { kind: usage, text: "Повелительное PODWIEŹ стоит отметить особо: именно оно заставило исправить карточку KARMIĆ в партии 259. Там было сказано, что окончание -ie переходит в -ij, и по этому правилу вышло бы небывалое PODWIEZIJ. На деле от третьего лица PODWIEZIE отбрасывается -ie, остаётся PODWIEZ-, и поскольку такой основой польское слово закончиться может, она просто смягчается: PODWIEŹ. Правило теперь сформулировано через основу, а не через окончание, и проверено на двух тысячах с лишним глаголов." }
+  - { kind: usage, text: "Четыре формы в карточке пропущены, и не из-за корпуса, а потому, что в таблице их нет в правильном виде. Генератор черновиков строит мужской род единственного числа от основы с o: PODWIOZŁ и условные PODWIOZŁBY, PODWIOZŁBYM, PODWIOZŁBYŚ. Таких форм в польском не бывает — в закрытом слоге стоит ó, то есть PODWIÓZŁ и PODWIÓZŁBY. Сама PODWIÓZŁ в таблице есть и в карточке стоит, а вот правильных условных в таблице нет вовсе, поэтому мужское единственное условное здесь отсутствует. Женский, средний и множественный при этом совершенно правильны: PODWIOZŁA, PODWIOZŁO, PODWIOZŁY, PODWIOZŁABY — там за ł идёт гласная, и слог открывается." }
+  - { kind: government, text: "Управление как в русском: PODWIEŹĆ KOGOŚ в винительном плюс предлог направления — DO DWORCA, POD DOM, NA LOTNISKO. Вежливая просьба звучит CZY MOŻESZ MNIE PODWIEŹĆ? — «можешь меня подвезти?». Различайте три польских глагола там, где русский берёт три своих: WIEŹĆ — везти на чём-то, NIEŚĆ — нести в руках, PROWADZIĆ — вести за руку. Деление ровно то же, что в русском, так что ошибиться трудно. Несовершенная пара — PODWOZIĆ." }
+collocations:
+  - { pl: "podwieźć kogoś do domu", ru: "подвезти кого-либо домой" }
+  - { pl: "czy możesz mnie podwieźć?", ru: "можешь меня подвезти?" }
+  - { pl: "podwieźć towar", ru: "подвезти товар" }
+family:
+  - { pl: "podwozić", ru: "подвозить", relation: aspect }
+  - { pl: "wieźć", ru: "везти", relation: root }
+  - { pl: "wozić", ru: "возить", relation: root }
+etymology: "Приставка pod- и WIEŹĆ «везти», из праславянского *vezti — то же слово, что русское «везти». Соответствие полное, включая приставку: польское PODWIEŹĆ и русское «подвезти» собраны из одних и тех же частей. Из гнезда вышли WÓZ «воз, машина», WOZIĆ «возить», PODWÓZKA «подвоз, попутка», PRZEWÓZ «перевоз». Обратите внимание на WÓZ с ó в закрытом слоге при WOZU в родительном — та же мена, что в самом глаголе."
+memory: "podwieźć — это «подвезти», часть за частью. Три мены в основе: ź перед согласным, z перед твёрдой гласной, ó в закрытом слоге (podwiózł при podwiozła)."
+idioms:
+  - { pl: "czy możesz mnie podwieźć?", ru: "можешь меня подвезти?" }
+  - { pl: "podwieźć kogoś pod sam dom", ru: "подвезти кого-либо к самому дому" }
+formExamplesSkip:
+  - { form: "podwiozł", reason: "Такой формы в польском нет: в закрытом слоге стоит ó, то есть PODWIÓZŁ. Генератор черновиков строит мужской род единственного числа от основы с o, не применяя удлинения. Правильная форма PODWIÓZŁ в таблице есть и в карточке приведена." }
+  - { form: "podwiozłby", reason: "Такой формы нет по той же причине: правильное условное мужского рода — PODWIÓZŁBY, с ó, потому что частица -by слог не открывает. В таблице черновика этой правильной формы нет вовсе, поэтому мужское единственное условное в карточке отсутствует. Женские, средние и множественные условные при этом правильны и приведены: PODWIOZŁABY, PODWIOZŁOBY, PODWIOZŁYBY — там за ł идёт гласная." }
+  - { form: "podwiozłbym", reason: "То же: правильная форма PODWIÓZŁBYM, с ó в закрытом слоге. В таблице её нет, а приведённую строить нельзя." }
+  - { form: "podwiozłbyś", reason: "То же: правильная форма PODWIÓZŁBYŚ, с ó в закрытом слоге. В таблице её нет, а приведённую строить нельзя." }
+formExamples:
+  - form: "podwiezie"
+    pl: "Sąsiad podwiezie nas na dworzec."
+    ru: "Сосед подвезёт нас на вокзал."
+    source: { kind: authored }
+  - form: "podwiezie"
+    pl: "Kto podwiezie dzieci do szkoły?"
+    ru: "Кто подвезёт детей в школу?"
+    source: { kind: authored }
+  - form: "podwiezie"
+    pl: "Nikt nas nie podwiezie o tej porze."
+    ru: "Никто нас не подвезёт в это время."
+    source: { kind: authored }
+  - form: "podwieziecie"
+    pl: "Podwieziecie nas na lotnisko?"
+    ru: "Вы подвезёте нас в аэропорт?"
+    source: { kind: authored }
+  - form: "podwieziecie"
+    pl: "Jeśli podwieziecie węgiel, będzie cieplej."
+    ru: "Если подвезёте уголь, станет теплее."
+    source: { kind: authored }
+  - form: "podwieziecie"
+    pl: "Podwieziecie ich czy mają iść pieszo?"
+    ru: "Вы их подвезёте или им идти пешком?"
+    source: { kind: authored }
+  - form: "podwieziemy"
+    pl: "Podwieziemy was pod dom."
+    ru: "Мы подвезём вас к дому."
+    source: { kind: authored }
+  - form: "podwieziemy"
+    pl: "Podwieziemy towar w czwartek."
+    ru: "Мы подвезём товар в четверг."
+    source: { kind: authored }
+  - form: "podwieziemy"
+    pl: "Nikogo nie podwieziemy bez zgody szefa."
+    ru: "Мы никого не подвезём без согласия начальника."
+    source: { kind: authored }
+  - form: "podwiezieni"
+    pl: "Podwiezieni wojskiem ranni przeżyli wszyscy."
+    ru: "Раненые, подвезённые военными, выжили все."
+    source: { kind: authored }
+  - form: "podwiezieni"
+    pl: "Są podwiezieni pod samą bramę szpitala."
+    ru: "Их подвезли к самым воротам больницы."
+    source: { kind: authored }
+  - form: "podwiezieni"
+    pl: "Byli podwiezieni autobusem razem z dziećmi."
+    ru: "Их подвезли автобусом вместе с детьми."
+    source: { kind: authored }
+  - form: "podwiezienia"
+    pl: "Bez podwiezienia węgla zima byłaby ciężka."
+    ru: "Без подвоза угля зима была бы тяжёлой."
+    source: { kind: authored }
+  - form: "podwiezienia"
+    pl: "Do podwiezienia towaru trzeba większego auta."
+    ru: "Для подвоза товара нужна машина побольше."
+    source: { kind: authored }
+  - form: "podwiezienia"
+    pl: "Koszt podwiezienia doliczono do faktury."
+    ru: "Стоимость подвоза добавили к счёту."
+    source: { kind: authored }
+  - form: "podwiezienie"
+    pl: "Podwiezienie towaru zajęło dwie godziny."
+    ru: "Подвоз товара занял два часа."
+    source: { kind: authored }
+  - form: "podwiezienie"
+    pl: "Za podwiezienie nie wziął ani złotówki."
+    ru: "За подвоз он не взял ни злотого."
+    source: { kind: authored }
+  - form: "podwiezienie"
+    pl: "Podwiezienie dzieci do szkoły to codzienny obowiązek."
+    ru: "Подвоз детей в школу — ежедневная обязанность."
+    source: { kind: authored }
+  - form: "podwiezieniem"
+    pl: "Zajął się podwiezieniem towaru sam."
+    ru: "Он сам занялся подвозом товара."
+    source: { kind: authored }
+  - form: "podwiezieniem"
+    pl: "Między podwiezieniem a rozładunkiem minęła godzina."
+    ru: "Между подвозом и разгрузкой прошёл час."
+    source: { kind: authored }
+  - form: "podwiezieniem"
+    pl: "Przed podwiezieniem węgla sprawdzili drogę."
+    ru: "Перед подвозом угля они проверили дорогу."
+    source: { kind: authored }
+  - form: "podwiezieniu"
+    pl: "Po podwiezieniu towaru wrócił do bazy."
+    ru: "После подвоза товара он вернулся на базу."
+    source: { kind: authored }
+  - form: "podwiezieniu"
+    pl: "O podwiezieniu dzieci umówili się wcześniej."
+    ru: "О подвозе детей они договорились заранее."
+    source: { kind: authored }
+  - form: "podwiezieniu"
+    pl: "W podwiezieniu węgla pomogli sąsiedzi."
+    ru: "В подвозе угля помогли соседи."
+    source: { kind: authored }
+  - form: "podwieziesz"
+    pl: "Podwieziesz mnie do pracy?"
+    ru: "Подвезёшь меня на работу?"
+    source: { kind: authored }
+  - form: "podwieziesz"
+    pl: "Jeśli podwieziesz węgiel, zapłacę od razu."
+    ru: "Если подвезёшь уголь, заплачу сразу."
+    source: { kind: authored }
+  - form: "podwieziesz"
+    pl: "Podwieziesz ich czy pójdą pieszo?"
+    ru: "Ты их подвезёшь или они пойдут пешком?"
+    source: { kind: authored }
+  - form: "podwieziona"
+    pl: "Podwieziona pod dom paczka zniknęła."
+    ru: "Посылка, подвезённая к дому, исчезла."
+    source: { kind: authored }
+  - form: "podwieziona"
+    pl: "Ta cegła jest podwieziona z drugiego końca miasta."
+    ru: "Этот кирпич подвезён с другого конца города."
+    source: { kind: authored }
+  - form: "podwieziona"
+    pl: "Podwieziona nad ranem mąka była jeszcze ciepła."
+    ru: "Мука, подвезённая к утру, была ещё тёплой."
+    source: { kind: authored }
+  - form: "podwiezione"
+    pl: "Podwiezione nad ranem skrzynie stały na podwórzu."
+    ru: "Ящики, подвезённые к утру, стояли во дворе."
+    source: { kind: authored }
+  - form: "podwiezione"
+    pl: "Dzieci podwiezione autobusem zdążyły na lekcję."
+    ru: "Дети, подвезённые автобусом, успели на урок."
+    source: { kind: authored }
+  - form: "podwiezione"
+    pl: "Te materiały są podwiezione na koszt firmy."
+    ru: "Эти материалы подвезены за счёт фирмы."
+    source: { kind: authored }
+  - form: "podwiezionego"
+    pl: "Od towaru podwiezionego rano nic nie zostało."
+    ru: "От товара, подвезённого утром, ничего не осталось."
+    source: { kind: authored }
+  - form: "podwiezionego"
+    pl: "Nie ma tu węgla podwiezionego w grudniu."
+    ru: "Здесь нет угля, подвезённого в декабре."
+    source: { kind: authored }
+  - form: "podwiezionego"
+    pl: "Szukali rannego podwiezionego wojskiem."
+    ru: "Они искали раненого, подвезённого военными."
+    source: { kind: authored }
+  - form: "podwiezionej"
+    pl: "O mące podwiezionej nad ranem nikt nie wiedział."
+    ru: "О муке, подвезённой к утру, никто не знал."
+    source: { kind: authored }
+  - form: "podwiezionej"
+    pl: "Nie ma mowy o cegle podwiezionej bez faktury."
+    ru: "О кирпиче, подвезённом без счёта, и речи нет."
+    source: { kind: authored }
+  - form: "podwiezionej"
+    pl: "Po paczce podwiezionej pod dom został tylko papier."
+    ru: "От посылки, подвезённой к дому, остался только бумага."
+    source: { kind: authored }
+  - form: "podwiezionemu"
+    pl: "Towarowi podwiezionemu rano nadano numery."
+    ru: "Товару, подвезённому утром, присвоили номера."
+    source: { kind: authored }
+  - form: "podwiezionemu"
+    pl: "Przyglądał się węglowi podwiezionemu pod szopę."
+    ru: "Он смотрел на уголь, подвезённый к сараю."
+    source: { kind: authored }
+  - form: "podwiezionemu"
+    pl: "Dzięki rannemu podwiezionemu na czas lekarze zdążyli."
+    ru: "Благодаря раненому, подвезённому вовремя, врачи успели."
+    source: { kind: authored }
+  - form: "podwieziono"
+    pl: "Podwieziono nas wojskową ciężarówką."
+    ru: "Нас подвезли военным грузовиком."
+    source: { kind: authored }
+  - form: "podwieziono"
+    pl: "Węgiel podwieziono dopiero w grudniu."
+    ru: "Уголь подвезли только в декабре."
+    source: { kind: authored }
+  - form: "podwieziono"
+    pl: "Towaru nie podwieziono na czas."
+    ru: "Товар не подвезли вовремя."
+    source: { kind: authored }
+  - form: "podwieziony"
+    pl: "Towar podwieziony rano stał do wieczora."
+    ru: "Товар, подвезённый утром, стоял до вечера."
+    source: { kind: authored }
+  - form: "podwieziony"
+    pl: "Węgiel jest podwieziony pod samą szopę."
+    ru: "Уголь подвезён к самому сараю."
+    source: { kind: authored }
+  - form: "podwieziony"
+    pl: "Podwieziony wojskiem ranny przeżył."
+    ru: "Раненый, подвезённый военными, выжил."
+    source: { kind: authored }
+  - form: "podwiezionych"
+    pl: "W skrzyniach podwiezionych rano był tylko papier."
+    ru: "В ящиках, подвезённых утром, была только бумага."
+    source: { kind: authored }
+  - form: "podwiezionych"
+    pl: "Bez materiałów podwiezionych na czas budowa by stanęła."
+    ru: "Без материалов, подвезённых вовремя, стройка встала бы."
+    source: { kind: authored }
+  - form: "podwiezionych"
+    pl: "Lista towarów podwiezionych w grudniu jest krótka."
+    ru: "Список товаров, подвезённых в декабре, короткий."
+    source: { kind: authored }
+  - form: "podwiezionym"
+    pl: "W towarze podwiezionym rano brakowało dwóch skrzyń."
+    ru: "В товаре, подвезённом утром, не хватало двух ящиков."
+    source: { kind: authored }
+  - form: "podwiezionym"
+    pl: "Okazał się węglem podwiezionym z innej kopalni."
+    ru: "Это оказался уголь, подвезённый с другой шахты."
+    source: { kind: authored }
+  - form: "podwiezionym"
+    pl: "Podwiezionym skrzyniom wyznaczono miejsce pod wiatą."
+    ru: "Подвезённым ящикам отвели место под навесом."
+    source: { kind: authored }
+  - form: "podwiezionymi"
+    pl: "Między skrzyniami podwiezionymi a zamówionymi jest różnica."
+    ru: "Между ящиками подвезёнными и заказанными есть разница."
+    source: { kind: authored }
+  - form: "podwiezionymi"
+    pl: "Zajął się materiałami podwiezionymi nad ranem."
+    ru: "Он занялся материалами, подвезёнными к утру."
+    source: { kind: authored }
+  - form: "podwiezionymi"
+    pl: "Wrócili z workami podwiezionymi z młyna."
+    ru: "Они вернулись с мешками, подвезёнными с мельницы."
+    source: { kind: authored }
+  - form: "podwiezioną"
+    pl: "Znają tę mąkę, podwiezioną z młyna."
+    ru: "Они знают эту муку, подвезённую с мельницы."
+    source: { kind: authored }
+  - form: "podwiezioną"
+    pl: "Uznali cegłę za podwiezioną bez zamówienia."
+    ru: "Кирпич сочли подвезённым без заказа."
+    source: { kind: authored }
+  - form: "podwiezioną"
+    pl: "Zastąpili paczkę podwiezioną wczoraj nową."
+    ru: "Посылку, подвезённую вчера, заменили новой."
+    source: { kind: authored }
+  - form: "podwieź"
+    pl: "Podwieź mnie do dworca."
+    ru: "Подвези меня до вокзала."
+    source: { kind: authored }
+  - form: "podwieź"
+    pl: "Podwieź ich pod sam dom."
+    ru: "Подвези их к самому дому."
+    source: { kind: authored }
+  - form: "podwieź"
+    pl: "Nie podwieź nikogo obcego."
+    ru: "Не подвози никого чужого."
+    source: { kind: authored }
+  - form: "podwieźcie"
+    pl: "Podwieźcie dzieci do szkoły."
+    ru: "Подвезите детей в школу."
+    source: { kind: authored }
+  - form: "podwieźcie"
+    pl: "Podwieźcie węgiel przed zimą."
+    ru: "Подвезите уголь до зимы."
+    source: { kind: authored }
+  - form: "podwieźcie"
+    pl: "Nie podwieźcie nikogo obcego."
+    ru: "Не подвозите никого чужого."
+    source: { kind: authored }
+  - form: "podwieźli"
+    pl: "Podwieźli nas na lotnisko bez słowa."
+    ru: "Они подвезли нас в аэропорт без слова."
+    source: { kind: authored }
+  - form: "podwieźli"
+    pl: "Podwieźli węgiel przed mrozami."
+    ru: "Они подвезли уголь до морозов."
+    source: { kind: authored }
+  - form: "podwieźli"
+    pl: "Nikogo nie podwieźli po dziesiątej."
+    ru: "После десяти они никого не подвезли."
+    source: { kind: authored }
+  - form: "podwieźliby"
+    pl: "Podwieźliby nas, gdyby mieli miejsce."
+    ru: "Они подвезли бы нас, если бы было место."
+    source: { kind: authored }
+  - form: "podwieźliby"
+    pl: "Podwieźliby węgiel jeszcze przed mrozami."
+    ru: "Они подвезли бы уголь ещё до морозов."
+    source: { kind: authored }
+  - form: "podwieźliby"
+    pl: "Nikogo nie podwieźliby bez zgody szefa."
+    ru: "Они никого не подвезли бы без согласия начальника."
+    source: { kind: authored }
+  - form: "podwieźlibyście"
+    pl: "Podwieźlibyście nas na lotnisko?"
+    ru: "Вы подвезли бы нас в аэропорт?"
+    source: { kind: authored }
+  - form: "podwieźlibyście"
+    pl: "Gdybyście mieli miejsce, podwieźlibyście dzieci."
+    ru: "Если бы у вас было место, вы подвезли бы детей."
+    source: { kind: authored }
+  - form: "podwieźlibyście"
+    pl: "Nikogo nie podwieźlibyście bez pytania."
+    ru: "Вы никого не подвезли бы без спроса."
+    source: { kind: authored }
+  - form: "podwieźlibyśmy"
+    pl: "Podwieźlibyśmy was pod dom."
+    ru: "Мы подвезли бы вас к дому."
+    source: { kind: authored }
+  - form: "podwieźlibyśmy"
+    pl: "Podwieźlibyśmy towar w czwartek."
+    ru: "Мы подвезли бы товар в четверг."
+    source: { kind: authored }
+  - form: "podwieźlibyśmy"
+    pl: "Nikogo nie podwieźlibyśmy po dziesiątej."
+    ru: "После десяти мы никого не подвезли бы."
+    source: { kind: authored }
+  - form: "podwieźliście"
+    pl: "Podwieźliście dzieci do szkoły?"
+    ru: "Вы подвезли детей в школу?"
+    source: { kind: authored }
+  - form: "podwieźliście"
+    pl: "Podwieźliście towar w czwartek."
+    ru: "Вы подвезли товар в четверг."
+    source: { kind: authored }
+  - form: "podwieźliście"
+    pl: "Nikogo nie podwieźliście po dziesiątej."
+    ru: "После десяти вы никого не подвезли."
+    source: { kind: authored }
+  - form: "podwieźliśmy"
+    pl: "Podwieźliśmy ich na lotnisko."
+    ru: "Мы подвезли их в аэропорт."
+    source: { kind: authored }
+  - form: "podwieźliśmy"
+    pl: "Podwieźliśmy węgiel przed mrozami."
+    ru: "Мы подвезли уголь до морозов."
+    source: { kind: authored }
+  - form: "podwieźliśmy"
+    pl: "Nikogo nie podwieźliśmy bez zgody."
+    ru: "Мы никого не подвезли без согласия."
+    source: { kind: authored }
+  - form: "podwieźmy"
+    pl: "Podwieźmy ich chociaż do rogu."
+    ru: "Подвезём их хотя бы до угла."
+    source: { kind: authored }
+  - form: "podwieźmy"
+    pl: "Podwieźmy towar jeszcze dziś."
+    ru: "Подвезём товар ещё сегодня."
+    source: { kind: authored }
+  - form: "podwieźmy"
+    pl: "Nie podwieźmy nikogo bez pytania."
+    ru: "Не будем никого подвозить без спроса."
+    source: { kind: authored }
+  - form: "podwieźć"
+    pl: "Czy możesz mnie podwieźć do dworca?"
+    ru: "Можешь подвезти меня до вокзала?"
+    source: { kind: authored }
+  - form: "podwieźć"
+    pl: "Obiecał podwieźć nas na lotnisko."
+    ru: "Он обещал подвезти нас в аэропорт."
+    source: { kind: authored }
+  - form: "podwieźć"
+    pl: "Nie da się podwieźć wszystkich jednym samochodem."
+    ru: "Нельзя подвезти всех одной машиной."
+    source: { kind: authored }
+  - form: "podwiozą"
+    pl: "Podwiozą węgiel w czwartek."
+    ru: "Уголь подвезут в четверг."
+    source: { kind: authored }
+  - form: "podwiozą"
+    pl: "Podwiozą nas wojskowym samochodem."
+    ru: "Нас подвезут военной машиной."
+    source: { kind: authored }
+  - form: "podwiozą"
+    pl: "Nikogo nie podwiozą po dziesiątej."
+    ru: "Никого не подвезут после десяти."
+    source: { kind: authored }
+  - form: "podwiozę"
+    pl: "Podwiozę cię pod sam dom."
+    ru: "Я подвезу тебя к самому дому."
+    source: { kind: authored }
+  - form: "podwiozę"
+    pl: "Podwiozę towar jeszcze dziś."
+    ru: "Я подвезу товар ещё сегодня."
+    source: { kind: authored }
+  - form: "podwiozę"
+    pl: "Nikogo więcej nie podwiozę."
+    ru: "Больше никого я не подвезу."
+    source: { kind: authored }
+  - form: "podwiozła"
+    pl: "Podwiozła dzieci do szkoły i wróciła."
+    ru: "Она подвезла детей в школу и вернулась."
+    source: { kind: authored }
+  - form: "podwiozła"
+    pl: "Podwiozła nas pod samą bramę."
+    ru: "Она подвезла нас к самым воротам."
+    source: { kind: authored }
+  - form: "podwiozła"
+    pl: "Nikogo nie podwiozła tego ranka."
+    ru: "В то утро она никого не подвезла."
+    source: { kind: authored }
+  - form: "podwiozłaby"
+    pl: "Podwiozłaby nas, gdyby miała auto."
+    ru: "Она подвезла бы нас, если бы у неё была машина."
+    source: { kind: authored }
+  - form: "podwiozłaby"
+    pl: "Podwiozłaby dzieci do szkoły po drodze."
+    ru: "Она подвезла бы детей в школу по пути."
+    source: { kind: authored }
+  - form: "podwiozłaby"
+    pl: "Nikogo nie podwiozłaby po dziesiątej."
+    ru: "После десяти она никого не подвезла бы."
+    source: { kind: authored }
+  - form: "podwiozłabym"
+    pl: "Podwiozłabym cię, ale auto stoi w warsztacie."
+    ru: "Я подвезла бы тебя, но машина в ремонте."
+    source: { kind: authored }
+  - form: "podwiozłabym"
+    pl: "Podwiozłabym ich pod sam dom."
+    ru: "Я подвезла бы их к самому дому."
+    source: { kind: authored }
+  - form: "podwiozłabym"
+    pl: "Nikogo obcego nie podwiozłabym nocą."
+    ru: "Ночью я никого чужого не подвезла бы."
+    source: { kind: authored }
+  - form: "podwiozłabyś"
+    pl: "Podwiozłabyś mnie do dworca?"
+    ru: "Ты подвезла бы меня до вокзала?"
+    source: { kind: authored }
+  - form: "podwiozłabyś"
+    pl: "Gdybyś miała czas, podwiozłabyś dzieci."
+    ru: "Если бы у тебя было время, ты подвезла бы детей."
+    source: { kind: authored }
+  - form: "podwiozłabyś"
+    pl: "Nikogo nie podwiozłabyś bez pytania."
+    ru: "Ты никого не подвезла бы без спроса."
+    source: { kind: authored }
+  - form: "podwiozłam"
+    pl: "Podwiozłam dzieci do szkoły."
+    ru: "Я подвезла детей в школу."
+    source: { kind: authored }
+  - form: "podwiozłam"
+    pl: "Podwiozłam ją pod samą bramę."
+    ru: "Я подвезла её к самым воротам."
+    source: { kind: authored }
+  - form: "podwiozłam"
+    pl: "Nikogo nie podwiozłam tego dnia."
+    ru: "В тот день я никого не подвезла."
+    source: { kind: authored }
+  - form: "podwiozłaś"
+    pl: "Podwiozłaś go do dworca?"
+    ru: "Ты подвезла его до вокзала?"
+    source: { kind: authored }
+  - form: "podwiozłaś"
+    pl: "Podwiozłaś towar przed zamknięciem."
+    ru: "Ты подвезла товар до закрытия."
+    source: { kind: authored }
+  - form: "podwiozłaś"
+    pl: "Nikogo nie podwiozłaś po drodze."
+    ru: "Ты никого не подвезла по дороге."
+    source: { kind: authored }
+  - form: "podwiozłem"
+    pl: "Podwiozłem ją do pracy."
+    ru: "Я подвёз её на работу."
+    source: { kind: authored }
+  - form: "podwiozłem"
+    pl: "Podwiozłem towar jeszcze przed południem."
+    ru: "Я подвёз товар ещё до полудня."
+    source: { kind: authored }
+  - form: "podwiozłem"
+    pl: "Nikogo wtedy nie podwiozłem."
+    ru: "Тогда я никого не подвёз."
+    source: { kind: authored }
+  - form: "podwiozłeś"
+    pl: "Podwiozłeś ich czy szli pieszo?"
+    ru: "Ты их подвёз или они шли пешком?"
+    source: { kind: authored }
+  - form: "podwiozłeś"
+    pl: "Podwiozłeś węgiel w samą porę."
+    ru: "Ты подвёз уголь как раз вовремя."
+    source: { kind: authored }
+  - form: "podwiozłeś"
+    pl: "Nikogo nie podwiozłeś po drodze."
+    ru: "Ты никого не подвёз по дороге."
+    source: { kind: authored }
+  - form: "podwiozło"
+    pl: "Podwiozło nas wojsko ciężarówką."
+    ru: "Нас подвезли военные грузовиком."
+    source: { kind: authored }
+  - form: "podwiozło"
+    pl: "Żadne auto nas nie podwiozło."
+    ru: "Ни одна машина нас не подвезла."
+    source: { kind: authored }
+  - form: "podwiozło"
+    pl: "Dziecko podwiozło wózek pod drzwi."
+    ru: "Ребёнок подвёз коляску к двери."
+    source: { kind: authored }
+  - form: "podwiozłoby"
+    pl: "Jakieś auto podwiozłoby nas do rogu."
+    ru: "Какая-нибудь машина подвезла бы нас до угла."
+    source: { kind: authored }
+  - form: "podwiozłoby"
+    pl: "Wojsko podwiozłoby ich ciężarówką."
+    ru: "Военные подвезли бы их грузовиком."
+    source: { kind: authored }
+  - form: "podwiozłoby"
+    pl: "Żadne taxi nie podwiozłoby nas o tej porze."
+    ru: "Ни одно такси не подвезло бы нас в это время."
+    source: { kind: authored }
+  - form: "podwiozły"
+    pl: "Obie panie podwiozły nas pod dom."
+    ru: "Обе дамы подвезли нас к дому."
+    source: { kind: authored }
+  - form: "podwiozły"
+    pl: "Ciężarówki podwiozły towar nad ranem."
+    ru: "Грузовики подвезли товар к утру."
+    source: { kind: authored }
+  - form: "podwiozły"
+    pl: "Te auta nikogo nie podwiozły."
+    ru: "Эти машины никого не подвезли."
+    source: { kind: authored }
+  - form: "podwiozłyby"
+    pl: "Obie ciężarówki podwiozłyby towar nad ranem."
+    ru: "Оба грузовика подвезли бы товар к утру."
+    source: { kind: authored }
+  - form: "podwiozłyby"
+    pl: "Te panie podwiozłyby nas pod bramę."
+    ru: "Эти дамы подвезли бы нас к воротам."
+    source: { kind: authored }
+  - form: "podwiozłyby"
+    pl: "Żadne auta nie podwiozłyby tyle ludzi."
+    ru: "Никакие машины не подвезли бы столько людей."
+    source: { kind: authored }
+  - form: "podwiozłybyście"
+    pl: "Podwiozłybyście dzieci do szkoły?"
+    ru: "Вы подвезли бы детей в школу?"
+    source: { kind: authored }
+  - form: "podwiozłybyście"
+    pl: "Gdybyście chciały, podwiozłybyście nas pod dom."
+    ru: "Если бы вы хотели, вы подвезли бы нас к дому."
+    source: { kind: authored }
+  - form: "podwiozłybyście"
+    pl: "Nikogo nie podwiozłybyście bez zgody."
+    ru: "Вы никого не подвезли бы без согласия."
+    source: { kind: authored }
+  - form: "podwiozłybyśmy"
+    pl: "Podwiozłybyśmy was obie."
+    ru: "Мы обе подвезли бы вас."
+    source: { kind: authored }
+  - form: "podwiozłybyśmy"
+    pl: "Podwiozłybyśmy towar jeszcze dziś."
+    ru: "Мы подвезли бы товар ещё сегодня."
+    source: { kind: authored }
+  - form: "podwiozłybyśmy"
+    pl: "Nikogo nie podwiozłybyśmy nocą."
+    ru: "Ночью мы никого не подвезли бы."
+    source: { kind: authored }
+  - form: "podwiozłyście"
+    pl: "Podwiozłyście go do dworca?"
+    ru: "Вы подвезли его до вокзала?"
+    source: { kind: authored }
+  - form: "podwiozłyście"
+    pl: "Podwiozłyście dzieci w samą porę."
+    ru: "Вы подвезли детей как раз вовремя."
+    source: { kind: authored }
+  - form: "podwiozłyście"
+    pl: "Nikogo nie podwiozłyście po drodze."
+    ru: "Вы никого не подвезли по дороге."
+    source: { kind: authored }
+  - form: "podwiozłyśmy"
+    pl: "Podwiozłyśmy ich obie."
+    ru: "Мы обе их подвезли."
+    source: { kind: authored }
+  - form: "podwiozłyśmy"
+    pl: "Podwiozłyśmy towar nad ranem."
+    ru: "Мы подвезли товар к утру."
+    source: { kind: authored }
+  - form: "podwiozłyśmy"
+    pl: "Nikogo nie podwiozłyśmy tego dnia."
+    ru: "В тот день мы никого не подвезли."
+    source: { kind: authored }
+  - form: "podwiózł"
+    pl: "Podwiózł ją pod sam dom."
+    ru: "Он подвёз её к самому дому."
+    source: { kind: authored }
+  - form: "podwiózł"
+    pl: "Podwiózł nas na dworzec o szóstej."
+    ru: "Он подвёз нас на вокзал в шесть."
+    source: { kind: authored }
+  - form: "podwiózł"
+    pl: "Nikogo wtedy nie podwiózł."
+    ru: "Тогда он никого не подвёз."
+    source: { kind: authored }
+  - form: "podwiózłszy"
+    pl: "Podwiózłszy ją pod dom, odjechał bez słowa."
+    ru: "Подвезя её к дому, он уехал без слова."
+    source: { kind: authored }
+  - form: "podwiózłszy"
+    pl: "Podwiózłszy towar, wrócił po drugą partię."
+    ru: "Подвезя товар, он вернулся за второй партией."
+    source: { kind: authored }
+  - form: "podwiózłszy"
+    pl: "Podwiózłszy dzieci do szkoły, pojechała do pracy."
+    ru: "Подвезя детей в школу, она поехала на работу."
+    source: { kind: authored }
