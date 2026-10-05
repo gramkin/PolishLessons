@@ -1,0 +1,794 @@
+# review
+id: zeznawac
+format: 2
+lemma: "zeznawać"
+rank: 2975
+pos: verb
+pron: { cyr: "зэзна́ваць" }
+senses:
+  - id: testify
+    ru: "давать показания, показывать (в суде)"
+    examples:
+      - pl: "Zeznawał przed sądem trzy godziny."
+        ru: "Он давал показания в суде три часа."
+        source: { kind: authored }
+      - pl: "Świadek zeznawał pod przysięgą."
+        ru: "Свидетель давал показания под присягой."
+        source: { kind: authored }
+      - pl: "Nie chciała zeznawać przeciwko mężowi."
+        ru: "Она не хотела давать показания против мужа."
+        source: { kind: authored }
+  - id: state-formally
+    ru: "заявлять, утверждать (официально)"
+    examples:
+      - pl: "Zeznawali zgodnie, że nikogo tam nie było."
+        ru: "Они согласно заявляли, что никого там не было."
+        source: { kind: authored }
+      - pl: "Zeznawał, że nie znał oskarżonego."
+        ru: "Он показывал, что не знал обвиняемого."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Настоящее время у этого глагола не такое, как ждёшь по инфинитиву: ZEZNAWAĆ даёт ZEZNAJĘ, ZEZNAJESZ, ZEZNAJE — основа теряет -WA- и получает -J-. Это тот самый класс на -AWAĆ, который разбирался в примечании к карточке KARMIĆ: DAWAĆ даёт DAJE, SPRZEDAWAĆ даёт SPRZEDAJE, ZEZNAWAĆ даёт ZEZNAJE. И повелительное идёт не от настоящего, а от инфинитива: ZEZNAWAJ, а не ZEZNAJ, потому что ZEZNAJ принадлежит совершенному ZEZNAĆ." }
+  - { kind: usage, text: "Это юридический термин, и в быту он почти не встречается. ZEZNAWAĆ значит «давать показания» — в суде, в полиции, под присягой; существительное ZEZNANIE значит «показание», а ZEZNANIE PODATKOWE — «налоговая декларация», что стоит знать отдельно. Совершенная пара — ZEZNAĆ, и она описывает отдельное высказывание: ZEZNAŁ, ŻE NIE BYŁ NA MIEJSCU. Русское «сознаваться» похоже по виду, но значит другое: это PRZYZNAWAĆ SIĘ, то есть признавать свою вину." }
+  - { kind: government, text: "Перед кем — предлог PRZED с творительным: ZEZNAWAĆ PRZED SĄDEM, PRZED PROKURATOREM. Против кого — PRZECIWKO с творительным: PRZECIWKO MĘŻOWI, PRZECIWKO SOBIE. Как — предлог POD с творительным: POD PRZYSIĘGĄ. Содержание показаний идёт союзом ŻE: ZEZNAWAŁ, ŻE NIKOGO NIE WIDZIAŁ. В пользу кого — NA KORZYŚĆ с родительным." }
+  - { kind: false-friend, text: "Корень здесь тот же, что в ZNAĆ «знать», и приставка ze- отвечает русской «со-», так что по частям слово читается как «со-знавать». Но значение сошлось не с русским «сознаваться», а с «показывать» в судебном смысле: сообщать суду то, что знаешь. Признание же вины — это PRZYZNAĆ SIĘ DO WINY. Разница существенная: ZEZNAWAĆ может и невиновный свидетель, PRZYZNAWAĆ SIĘ — только тот, кто берёт вину на себя." }
+collocations:
+  - { pl: "zeznawać przed sądem", ru: "давать показания в суде" }
+  - { pl: "zeznawać pod przysięgą", ru: "давать показания под присягой" }
+  - { pl: "zeznanie podatkowe", ru: "налоговая декларация" }
+family:
+  - { pl: "zeznać", ru: "дать показания", relation: aspect }
+  - { pl: "zeznanie", ru: "показание", relation: derived, id: zeznanie }
+  - { pl: "znać", ru: "знать", relation: root, id: znac }
+etymology: "Приставка ze- (из z-, «со-») и ZNAWAĆ, многократная форма от ZNAĆ, из праславянского *znati — то же слово, что русское «знать». По частям получается «со-знавать», то есть сообщать то, что знаешь, и польский закрепил это за судебным показанием. Русский от того же корня и той же приставки произвёл «сознаваться», но увёл смысл к признанию вины, а показание назвал другим словом. Отсюда и ZEZNANIE «показание», и ZEZNANIE PODATKOWE «декларация» — буквально то, что ты сообщаешь государству о себе."
+memory: "zeznawać — «давать показания», не «сознаваться»: сознаваться в вине — przyznać się. И настоящее время по классу -awać: zeznaję, как dawać → daję."
+idioms:
+  - { pl: "zeznawać pod przysięgą", ru: "давать показания под присягой" }
+  - { pl: "zeznanie podatkowe", ru: "налоговая декларация" }
+formExamplesSkip:
+  - { form: "zeznawani", reason: "Страдательное причастие мужского лица множественного числа, а дополнением у этого глагола бывает только содержание показаний: ZEZNAWAĆ PRAWDĘ, ZEZNAWAĆ, ŻE… Человек прямым дополнением тут не бывает никогда — против кого-то показывают с предлогом, ZEZNAWAĆ PRZECIWKO KOMUŚ, — поэтому у мужско-личной страдательной формы нет и не может быть подлежащего. Остальные формы причастия в карточке есть с примерами: WERSJA ZEZNAWANA PRZEZ ŚWIADKA, OKOLICZNOŚCI ZEZNAWANE POD PRZYSIĘGĄ." }
+formExamples:
+  - form: "zeznaje"
+    pl: "Świadek zeznaje pod przysięgą."
+    ru: "Свидетель даёт показания под присягой."
+    source: { kind: authored }
+  - form: "zeznaje"
+    pl: "Kto zeznaje w tej sprawie jako pierwszy?"
+    ru: "Кто даёт показания в этом деле первым?"
+    source: { kind: authored }
+  - form: "zeznaje"
+    pl: "Nikt nie zeznaje przeciwko sobie dobrowolnie."
+    ru: "Никто не даёт показаний против себя добровольно."
+    source: { kind: authored }
+  - form: "zeznajecie"
+    pl: "Zeznajecie pod przysięgą, pamiętajcie o tym."
+    ru: "Вы даёте показания под присягой, помните об этом."
+    source: { kind: authored }
+  - form: "zeznajecie"
+    pl: "Zeznajecie zgodnie czy każdy po swojemu?"
+    ru: "Вы показываете согласно или каждый по-своему?"
+    source: { kind: authored }
+  - form: "zeznajecie"
+    pl: "Przeciwko sobie nie zeznajecie, to wasze prawo."
+    ru: "Против себя вы показаний не даёте, это ваше право."
+    source: { kind: authored }
+  - form: "zeznajemy"
+    pl: "Zeznajemy zgodnie, że nikogo tam nie było."
+    ru: "Мы согласно показываем, что никого там не было."
+    source: { kind: authored }
+  - form: "zeznajemy"
+    pl: "Zeznajemy pod przysięgą i dobrowolnie."
+    ru: "Мы даём показания под присягой и добровольно."
+    source: { kind: authored }
+  - form: "zeznajemy"
+    pl: "Przeciwko sobie nie zeznajemy."
+    ru: "Против себя мы показаний не даём."
+    source: { kind: authored }
+  - form: "zeznajesz"
+    pl: "Zeznajesz pod przysięgą, pamiętaj o tym."
+    ru: "Ты даёшь показания под присягой, помни об этом."
+    source: { kind: authored }
+  - form: "zeznajesz"
+    pl: "Zeznajesz przeciwko koledze?"
+    ru: "Ты даёшь показания против товарища?"
+    source: { kind: authored }
+  - form: "zeznajesz"
+    pl: "Przeciwko sobie nie zeznajesz, to twoje prawo."
+    ru: "Против себя ты показаний не даёшь, это твоё право."
+    source: { kind: authored }
+  - form: "zeznają"
+    pl: "Świadkowie zeznają pod przysięgą."
+    ru: "Свидетели дают показания под присягой."
+    source: { kind: authored }
+  - form: "zeznają"
+    pl: "Zeznają zgodnie, że nikogo tam nie było."
+    ru: "Они согласно показывают, что никого там не было."
+    source: { kind: authored }
+  - form: "zeznają"
+    pl: "Przeciwko sobie nie zeznają nigdy."
+    ru: "Против себя они показаний никогда не дают."
+    source: { kind: authored }
+  - form: "zeznając"
+    pl: "Zeznając pod przysięgą, ważył każde słowo."
+    ru: "Давая показания под присягой, он взвешивал каждое слово."
+    source: { kind: authored }
+  - form: "zeznając"
+    pl: "Zeznając przed sądem, pomyliła dwie daty."
+    ru: "Давая показания в суде, она спутала две даты."
+    source: { kind: authored }
+  - form: "zeznając"
+    pl: "Zeznając dobrowolnie, liczył na łagodniejszy wyrok."
+    ru: "Давая показания добровольно, он рассчитывал на более мягкий приговор."
+    source: { kind: authored }
+  - form: "zeznająca"
+    pl: "Kobieta zeznająca pod przysięgą poprosiła o przerwę."
+    ru: "Женщина, дававшая показания под присягой, попросила перерыв."
+    source: { kind: authored }
+  - form: "zeznająca"
+    pl: "Świadek zeznająca jako druga potwierdziła wszystko."
+    ru: "Свидетельница, дававшая показания второй, подтвердила всё."
+    source: { kind: authored }
+  - form: "zeznająca"
+    pl: "Strona zeznająca dobrowolnie ma prawo do adwokata."
+    ru: "Сторона, дающая показания добровольно, имеет право на адвоката."
+    source: { kind: authored }
+  - form: "zeznające"
+    pl: "Dziecko zeznające w obecności psychologa mówiło szeptem."
+    ru: "Ребёнок, дававший показания в присутствии психолога, говорил шёпотом."
+    source: { kind: authored }
+  - form: "zeznające"
+    pl: "Osoby zeznające pod przysięgą podpisują protokół."
+    ru: "Лица, дающие показания под присягой, подписывают протокол."
+    source: { kind: authored }
+  - form: "zeznające"
+    pl: "Te dwie panie zeznające jako ostatnie nic nie dodały."
+    ru: "Эти две дамы, дававшие показания последними, ничего не добавили."
+    source: { kind: authored }
+  - form: "zeznającego"
+    pl: "Od świadka zeznającego pod przysięgą wymaga się dokładności."
+    ru: "От свидетеля, дающего показания под присягой, требуется точность."
+    source: { kind: authored }
+  - form: "zeznającego"
+    pl: "Nie widzieli urzędnika zeznającego w tej sprawie."
+    ru: "Они не видели чиновника, дававшего показания в этом деле."
+    source: { kind: authored }
+  - form: "zeznającego"
+    pl: "Szukali mężczyzny zeznającego jako pierwszego."
+    ru: "Они искали мужчину, дававшего показания первым."
+    source: { kind: authored }
+  - form: "zeznającej"
+    pl: "O kobiecie zeznającej pod przysięgą pisały gazety."
+    ru: "О женщине, дававшей показания под присягой, писали газеты."
+    source: { kind: authored }
+  - form: "zeznającej"
+    pl: "Nie ma mowy o stronie zeznającej bez adwokata."
+    ru: "О стороне, дающей показания без адвоката, и речи нет."
+    source: { kind: authored }
+  - form: "zeznającej"
+    pl: "Przyjrzeli się świadkowi zeznającej jako drugiej."
+    ru: "Они присмотрелись к свидетельнице, дававшей показания второй."
+    source: { kind: authored }
+  - form: "zeznającemu"
+    pl: "Świadkowi zeznającemu pod przysięgą przypomniano o odpowiedzialności."
+    ru: "Свидетелю, дающему показания под присягой, напомнили об ответственности."
+    source: { kind: authored }
+  - form: "zeznającemu"
+    pl: "Dzięki urzędnikowi zeznającemu dobrowolnie sprawa się ruszyła."
+    ru: "Благодаря чиновнику, давшему показания добровольно, дело двинулось."
+    source: { kind: authored }
+  - form: "zeznającemu"
+    pl: "Przyglądali się mężczyźnie zeznającemu jako pierwszemu."
+    ru: "Они смотрели на мужчину, дававшего показания первым."
+    source: { kind: authored }
+  - form: "zeznający"
+    pl: "Świadek zeznający pod przysięgą ryzykuje więcej."
+    ru: "Свидетель, дающий показания под присягой, рискует больше."
+    source: { kind: authored }
+  - form: "zeznający"
+    pl: "Mężczyzna zeznający jako pierwszy mówił najdłużej."
+    ru: "Мужчина, дававший показания первым, говорил дольше всех."
+    source: { kind: authored }
+  - form: "zeznający"
+    pl: "Urzędnik zeznający w tej sprawie stracił potem pracę."
+    ru: "Чиновник, давший показания в этом деле, потом потерял работу."
+    source: { kind: authored }
+  - form: "zeznających"
+    pl: "Wśród zeznających nie było ani jednego świadka naocznego."
+    ru: "Среди давших показания не было ни одного очевидца."
+    source: { kind: authored }
+  - form: "zeznających"
+    pl: "Bez zeznających urzędników sprawa by upadła."
+    ru: "Без давших показания чиновников дело развалилось бы."
+    source: { kind: authored }
+  - form: "zeznających"
+    pl: "Lista zeznających zajęła dwie strony protokołu."
+    ru: "Список давших показания занял две страницы протокола."
+    source: { kind: authored }
+  - form: "zeznającym"
+    pl: "W świadku zeznającym pod przysięgą rozpoznał sąsiada."
+    ru: "В свидетеле, дававшем показания под присягой, он узнал соседа."
+    source: { kind: authored }
+  - form: "zeznającym"
+    pl: "Okazał się urzędnikiem zeznającym w tej sprawie rok wcześniej."
+    ru: "Он оказался чиновником, давшим показания в этом деле годом раньше."
+    source: { kind: authored }
+  - form: "zeznającym"
+    pl: "Zeznającym świadkom przypomniano o odpowiedzialności karnej."
+    ru: "Дающим показания свидетелям напомнили об уголовной ответственности."
+    source: { kind: authored }
+  - form: "zeznającymi"
+    pl: "Między zeznającymi świadkami nie było żadnego porozumienia."
+    ru: "Между дававшими показания свидетелями не было никакого сговора."
+    source: { kind: authored }
+  - form: "zeznającymi"
+    pl: "Zajęli się świadkami zeznającymi pod przysięgą."
+    ru: "Они занялись свидетелями, дававшими показания под присягой."
+    source: { kind: authored }
+  - form: "zeznającymi"
+    pl: "Przed zeznającymi stronami odczytano pouczenie."
+    ru: "Перед дающими показания сторонами прочли памятку."
+    source: { kind: authored }
+  - form: "zeznającą"
+    pl: "Zastali kobietę zeznającą już przed prokuratorem."
+    ru: "Они нашли женщину уже дающей показания перед прокурором."
+    source: { kind: authored }
+  - form: "zeznającą"
+    pl: "Uznali stronę zeznającą dobrowolnie za wiarygodną."
+    ru: "Сторону, дающую показания добровольно, они сочли достоверной."
+    source: { kind: authored }
+  - form: "zeznającą"
+    pl: "Zobaczyli świadka zeznającą po raz trzeci."
+    ru: "Они увидели свидетельницу, дающую показания в третий раз."
+    source: { kind: authored }
+  - form: "zeznaję"
+    pl: "Zeznaję pod przysięgą, że nikogo tam nie widziałem."
+    ru: "Я показываю под присягой, что никого там не видел."
+    source: { kind: authored }
+  - form: "zeznaję"
+    pl: "Zeznaję dobrowolnie i bez przymusu."
+    ru: "Я даю показания добровольно и без принуждения."
+    source: { kind: authored }
+  - form: "zeznaję"
+    pl: "Przeciwko sobie nie zeznaję."
+    ru: "Против себя я показаний не даю."
+    source: { kind: authored }
+  - form: "zeznawaj"
+    pl: "Zeznawaj prawdę, nic więcej."
+    ru: "Показывай правду, и ничего больше."
+    source: { kind: authored }
+  - form: "zeznawaj"
+    pl: "Zeznawaj spokojnie, sąd ma czas."
+    ru: "Давай показания спокойно, у суда есть время."
+    source: { kind: authored }
+  - form: "zeznawaj"
+    pl: "Nie zeznawaj przeciwko sobie, masz do tego prawo."
+    ru: "Не давай показаний против себя, ты имеешь на это право."
+    source: { kind: authored }
+  - form: "zeznawajcie"
+    pl: "Zeznawajcie prawdę, nic więcej."
+    ru: "Показывайте правду, и ничего больше."
+    source: { kind: authored }
+  - form: "zeznawajcie"
+    pl: "Zeznawajcie spokojnie, sąd ma czas."
+    ru: "Давайте показания спокойно, у суда есть время."
+    source: { kind: authored }
+  - form: "zeznawajcie"
+    pl: "Nie zeznawajcie przeciwko sobie."
+    ru: "Не давайте показаний против себя."
+    source: { kind: authored }
+  - form: "zeznawajmy"
+    pl: "Zeznawajmy zgodnie, inaczej nam nie uwierzą."
+    ru: "Будем показывать согласно, иначе нам не поверят."
+    source: { kind: authored }
+  - form: "zeznawajmy"
+    pl: "Zeznawajmy prawdę, nic więcej."
+    ru: "Будем показывать правду, и ничего больше."
+    source: { kind: authored }
+  - form: "zeznawajmy"
+    pl: "Nie zeznawajmy przeciwko sobie."
+    ru: "Не будем давать показаний против себя."
+    source: { kind: authored }
+  - form: "zeznawali"
+    pl: "Zeznawali zgodnie, że nikogo tam nie było."
+    ru: "Они согласно показывали, что никого там не было."
+    source: { kind: authored }
+  - form: "zeznawali"
+    pl: "Zeznawali przed sądem przez cały dzień."
+    ru: "Они давали показания в суде целый день."
+    source: { kind: authored }
+  - form: "zeznawali"
+    pl: "Przeciwko sobie nie zeznawali."
+    ru: "Против себя они показаний не давали."
+    source: { kind: authored }
+  - form: "zeznawaliby"
+    pl: "Zeznawaliby zgodnie, gdyby się wcześniej umówili."
+    ru: "Они давали бы показания согласно, если бы заранее сговорились."
+    source: { kind: authored }
+  - form: "zeznawaliby"
+    pl: "Zeznawaliby pod przysięgą bez wahania."
+    ru: "Они давали бы показания под присягой без колебаний."
+    source: { kind: authored }
+  - form: "zeznawaliby"
+    pl: "Przeciwko sobie nie zeznawaliby."
+    ru: "Против себя они показаний не давали бы."
+    source: { kind: authored }
+  - form: "zeznawalibyście"
+    pl: "Zeznawalibyście przeciwko koledze?"
+    ru: "Вы давали бы показания против товарища?"
+    source: { kind: authored }
+  - form: "zeznawalibyście"
+    pl: "Gdybyście byli świadkami, zeznawalibyście pod przysięgą."
+    ru: "Если бы вы были свидетелями, вы давали бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawalibyście"
+    pl: "Przeciwko sobie nie zeznawalibyście, to wasze prawo."
+    ru: "Против себя вы показаний не давали бы, это ваше право."
+    source: { kind: authored }
+  - form: "zeznawalibyśmy"
+    pl: "Zeznawalibyśmy zgodnie, bo widzieliśmy to samo."
+    ru: "Мы давали бы показания согласно, потому что видели одно и то же."
+    source: { kind: authored }
+  - form: "zeznawalibyśmy"
+    pl: "Zeznawalibyśmy pod przysięgą i dobrowolnie."
+    ru: "Мы давали бы показания под присягой и добровольно."
+    source: { kind: authored }
+  - form: "zeznawalibyśmy"
+    pl: "Przeciwko sobie nie zeznawalibyśmy."
+    ru: "Против себя мы показаний не давали бы."
+    source: { kind: authored }
+  - form: "zeznawaliście"
+    pl: "Zeznawaliście zgodnie czy każdy po swojemu?"
+    ru: "Вы показывали согласно или каждый по-своему?"
+    source: { kind: authored }
+  - form: "zeznawaliście"
+    pl: "Zeznawaliście pod przysięgą?"
+    ru: "Вы давали показания под присягой?"
+    source: { kind: authored }
+  - form: "zeznawaliście"
+    pl: "Przeciwko sobie nie zeznawaliście, prawda?"
+    ru: "Против себя вы показаний не давали, правда?"
+    source: { kind: authored }
+  - form: "zeznawaliśmy"
+    pl: "Zeznawaliśmy zgodnie, że nikogo tam nie było."
+    ru: "Мы согласно показывали, что никого там не было."
+    source: { kind: authored }
+  - form: "zeznawaliśmy"
+    pl: "Zeznawaliśmy przed sądem przez cały dzień."
+    ru: "Мы давали показания в суде целый день."
+    source: { kind: authored }
+  - form: "zeznawaliśmy"
+    pl: "Przeciwko sobie nie zeznawaliśmy."
+    ru: "Против себя мы показаний не давали."
+    source: { kind: authored }
+  - form: "zeznawana"
+    pl: "Wersja zeznawana przez świadka nie zgadzała się z dokumentami."
+    ru: "Версия, о которой показывал свидетель, не совпадала с документами."
+    source: { kind: authored }
+  - form: "zeznawana"
+    pl: "Okoliczność zeznawana pod przysięgą została zapisana osobno."
+    ru: "Обстоятельство, о котором показывали под присягой, записали отдельно."
+    source: { kind: authored }
+  - form: "zeznawana"
+    pl: "Prawda zeznawana po latach bywa niewygodna."
+    ru: "Правда, о которой показывают годы спустя, бывает неудобной."
+    source: { kind: authored }
+  - form: "zeznawane"
+    pl: "Okoliczności zeznawane przez świadków zapisano w protokole."
+    ru: "Обстоятельства, о которых показывали свидетели, записали в протокол."
+    source: { kind: authored }
+  - form: "zeznawane"
+    pl: "Szczegóły zeznawane dobrowolnie sąd przyjął bez zastrzeżeń."
+    ru: "Детали, о которых показывали добровольно, суд принял без оговорок."
+    source: { kind: authored }
+  - form: "zeznawane"
+    pl: "To, co zeznawane pod przysięgą, trudniej potem odwołać."
+    ru: "То, о чём показывают под присягой, труднее потом отозвать."
+    source: { kind: authored }
+  - form: "zeznawanego"
+    pl: "Od faktu zeznawanego pod przysięgą zależał cały wyrok."
+    ru: "От факта, о котором показывали под присягой, зависел весь приговор."
+    source: { kind: authored }
+  - form: "zeznawanego"
+    pl: "Nie zapisali szczegółu zeznawanego przez ostatniego świadka."
+    ru: "Они не записали детали, о которой показывал последний свидетель."
+    source: { kind: authored }
+  - form: "zeznawanego"
+    pl: "Szukali w aktach przebiegu zeznawanego przez kierowcę."
+    ru: "Они искали в деле ход событий, о котором показывал водитель."
+    source: { kind: authored }
+  - form: "zeznawanej"
+    pl: "O wersji zeznawanej przez świadka mówił cały sąd."
+    ru: "О версии, о которой показывал свидетель, говорил весь суд."
+    source: { kind: authored }
+  - form: "zeznawanej"
+    pl: "Nie ma mowy o okoliczności zeznawanej bez dowodów."
+    ru: "Об обстоятельстве, о котором показывают без доказательств, и речи нет."
+    source: { kind: authored }
+  - form: "zeznawanej"
+    pl: "Przyjrzeli się prawdzie zeznawanej po dwudziestu latach."
+    ru: "Они присмотрелись к правде, о которой показали через двадцать лет."
+    source: { kind: authored }
+  - form: "zeznawanemu"
+    pl: "Faktowi zeznawanemu pod przysięgą sąd dał wiarę."
+    ru: "Факту, о котором показывали под присягой, суд поверил."
+    source: { kind: authored }
+  - form: "zeznawanemu"
+    pl: "Dzięki szczegółowi zeznawanemu dobrowolnie sprawa się wyjaśniła."
+    ru: "Благодаря детали, о которой показали добровольно, дело выяснилось."
+    source: { kind: authored }
+  - form: "zeznawanemu"
+    pl: "Przyglądali się przebiegowi zeznawanemu przez kierowcę."
+    ru: "Они рассматривали ход событий, о котором показывал водитель."
+    source: { kind: authored }
+  - form: "zeznawania"
+    pl: "Prawo odmowy zeznawania ma każdy najbliższy oskarżonego."
+    ru: "Право отказа от дачи показаний имеет каждый близкий обвиняемого."
+    source: { kind: authored }
+  - form: "zeznawania"
+    pl: "Bez zeznawania świadków sprawa by upadła."
+    ru: "Без показаний свидетелей дело развалилось бы."
+    source: { kind: authored }
+  - form: "zeznawania"
+    pl: "Sposób zeznawania opisano w pouczeniu dla świadka."
+    ru: "Порядок дачи показаний описан в памятке для свидетеля."
+    source: { kind: authored }
+  - form: "zeznawanie"
+    pl: "Zeznawanie pod przysięgą nie jest obowiązkiem w każdej sprawie."
+    ru: "Давать показания под присягой — не обязанность в каждом деле."
+    source: { kind: authored }
+  - form: "zeznawanie"
+    pl: "Zeznawanie przeciwko najbliższym prawo pozostawia świadkowi."
+    ru: "Давать показания против близких право оставляет на выбор свидетеля."
+    source: { kind: authored }
+  - form: "zeznawanie"
+    pl: "Zeznawanie trwało trzy godziny bez przerwy."
+    ru: "Дача показаний длилась три часа без перерыва."
+    source: { kind: authored }
+  - form: "zeznawaniem"
+    pl: "Przed zeznawaniem świadek składa przysięgę."
+    ru: "Перед дачей показаний свидетель приносит присягу."
+    source: { kind: authored }
+  - form: "zeznawaniem"
+    pl: "Zmęczony zeznawaniem przez trzy godziny, poprosił o przerwę."
+    ru: "Устав давать показания три часа, он попросил перерыв."
+    source: { kind: authored }
+  - form: "zeznawaniem"
+    pl: "Między zeznawaniem świadków a wyrokiem minął miesiąc."
+    ru: "Между показаниями свидетелей и приговором прошёл месяц."
+    source: { kind: authored }
+  - form: "zeznawaniu"
+    pl: "Po zeznawaniu przez trzy godziny ledwo stał na nogach."
+    ru: "После трёх часов дачи показаний он еле стоял на ногах."
+    source: { kind: authored }
+  - form: "zeznawaniu"
+    pl: "O zeznawaniu przeciwko mężowi nie było mowy."
+    ru: "О показаниях против мужа и речи не было."
+    source: { kind: authored }
+  - form: "zeznawaniu"
+    pl: "W zeznawaniu pomagał mu adwokat."
+    ru: "Давать показания ему помогал адвокат."
+    source: { kind: authored }
+  - form: "zeznawano"
+    pl: "Zeznawano zgodnie, że nikogo tam nie było."
+    ru: "Показания давали согласно: никого там не было."
+    source: { kind: authored }
+  - form: "zeznawano"
+    pl: "Zeznawano pod przysięgą przez cały dzień."
+    ru: "Показания давали под присягой целый день."
+    source: { kind: authored }
+  - form: "zeznawano"
+    pl: "Przeciwko oskarżonemu nie zeznawano wcale."
+    ru: "Против обвиняемого показаний вовсе не давали."
+    source: { kind: authored }
+  - form: "zeznawany"
+    pl: "Fakt zeznawany pod przysięgą ma inną wagę."
+    ru: "Факт, о котором показывают под присягой, имеет другой вес."
+    source: { kind: authored }
+  - form: "zeznawany"
+    pl: "Przebieg wypadku zeznawany przez trzech świadków zgadzał się co do minuty."
+    ru: "Ход происшествия, о котором показывали три свидетеля, совпадал до минуты."
+    source: { kind: authored }
+  - form: "zeznawany"
+    pl: "Każdy szczegół zeznawany dobrowolnie trafiał do protokołu."
+    ru: "Каждая деталь, о которой показывали добровольно, попадала в протокол."
+    source: { kind: authored }
+  - form: "zeznawanych"
+    pl: "Wśród zeznawanych okoliczności połowa nie miała znaczenia."
+    ru: "Среди обстоятельств, о которых показывали, половина не имела значения."
+    source: { kind: authored }
+  - form: "zeznawanych"
+    pl: "Bez zeznawanych pod przysięgą faktów sprawa by upadła."
+    ru: "Без фактов, о которых показывали под присягой, дело развалилось бы."
+    source: { kind: authored }
+  - form: "zeznawanych"
+    pl: "Lista zeznawanych szczegółów zajęła cztery strony."
+    ru: "Список деталей, о которых показывали, занял четыре страницы."
+    source: { kind: authored }
+  - form: "zeznawanym"
+    pl: "W fakcie zeznawanym pod przysięgą nie było sprzeczności."
+    ru: "В факте, о котором показывали под присягой, не было противоречия."
+    source: { kind: authored }
+  - form: "zeznawanym"
+    pl: "Okazał się szczegółem zeznawanym już rok wcześniej."
+    ru: "Он оказался деталью, о которой показывали ещё годом раньше."
+    source: { kind: authored }
+  - form: "zeznawanym"
+    pl: "Zeznawanym okolicznościom przypisano osobny punkt protokołu."
+    ru: "Обстоятельствам, о которых показывали, отвели отдельный пункт протокола."
+    source: { kind: authored }
+  - form: "zeznawanymi"
+    pl: "Między zeznawanymi wersjami była wyraźna sprzeczność."
+    ru: "Между версиями, о которых показывали, было явное противоречие."
+    source: { kind: authored }
+  - form: "zeznawanymi"
+    pl: "Zajęli się okolicznościami zeznawanymi pod przysięgą."
+    ru: "Они занялись обстоятельствами, о которых показывали под присягой."
+    source: { kind: authored }
+  - form: "zeznawanymi"
+    pl: "Pod zeznawanymi szczegółami podpisał się protokolant."
+    ru: "Под деталями, о которых показывали, подписался протоколист."
+    source: { kind: authored }
+  - form: "zeznawaną"
+    pl: "Uznali wersję zeznawaną przez świadka za niewiarygodną."
+    ru: "Версию, о которой показывал свидетель, они сочли недостоверной."
+    source: { kind: authored }
+  - form: "zeznawaną"
+    pl: "Zapisali okoliczność zeznawaną pod przysięgą osobno."
+    ru: "Обстоятельство, о котором показывали под присягой, они записали отдельно."
+    source: { kind: authored }
+  - form: "zeznawaną"
+    pl: "Zobaczyli prawdę zeznawaną po latach i zamilkli."
+    ru: "Они увидели правду, о которой показали годы спустя, и замолчали."
+    source: { kind: authored }
+  - form: "zeznawać"
+    pl: "Nie chciała zeznawać przeciwko mężowi."
+    ru: "Она не хотела давать показания против мужа."
+    source: { kind: authored }
+  - form: "zeznawać"
+    pl: "Świadek ma zeznawać pod przysięgą."
+    ru: "Свидетель должен давать показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawać"
+    pl: "Nie musisz zeznawać przeciwko sobie."
+    ru: "Ты не обязан давать показания против себя."
+    source: { kind: authored }
+  - form: "zeznawał"
+    pl: "Zeznawał przed sądem trzy godziny."
+    ru: "Он давал показания в суде три часа."
+    source: { kind: authored }
+  - form: "zeznawał"
+    pl: "Zeznawał, że nie znał oskarżonego."
+    ru: "Он показывал, что не знал обвиняемого."
+    source: { kind: authored }
+  - form: "zeznawał"
+    pl: "Przeciwko bratu nie zeznawał."
+    ru: "Против брата он показаний не давал."
+    source: { kind: authored }
+  - form: "zeznawała"
+    pl: "Zeznawała przed sądem pod przysięgą."
+    ru: "Она давала показания в суде под присягой."
+    source: { kind: authored }
+  - form: "zeznawała"
+    pl: "Zeznawała, że nikogo tam nie widziała."
+    ru: "Она показывала, что никого там не видела."
+    source: { kind: authored }
+  - form: "zeznawała"
+    pl: "Przeciwko mężowi nie zeznawała."
+    ru: "Против мужа она показаний не давала."
+    source: { kind: authored }
+  - form: "zeznawałaby"
+    pl: "Zeznawałaby chętniej, gdyby jej zapewniono ochronę."
+    ru: "Она давала бы показания охотнее, если бы ей обеспечили защиту."
+    source: { kind: authored }
+  - form: "zeznawałaby"
+    pl: "Zeznawałaby pod przysięgą bez wahania."
+    ru: "Она давала бы показания под присягой без колебаний."
+    source: { kind: authored }
+  - form: "zeznawałaby"
+    pl: "Przeciwko mężowi nie zeznawałaby nigdy."
+    ru: "Против мужа она никогда не давала бы показаний."
+    source: { kind: authored }
+  - form: "zeznawałabym"
+    pl: "Zeznawałabym chętniej, gdyby mi zapewniono ochronę."
+    ru: "Я давала бы показания охотнее, если бы мне обеспечили защиту."
+    source: { kind: authored }
+  - form: "zeznawałabym"
+    pl: "Zeznawałabym pod przysięgą i dobrowolnie."
+    ru: "Я давала бы показания под присягой и добровольно."
+    source: { kind: authored }
+  - form: "zeznawałabym"
+    pl: "Przeciwko sobie nie zeznawałabym."
+    ru: "Против себя я показаний не давала бы."
+    source: { kind: authored }
+  - form: "zeznawałabyś"
+    pl: "Zeznawałabyś przeciwko koleżance?"
+    ru: "Ты давала бы показания против подруги?"
+    source: { kind: authored }
+  - form: "zeznawałabyś"
+    pl: "Gdybyś była świadkiem, zeznawałabyś pod przysięgą."
+    ru: "Если бы ты была свидетельницей, ты давала бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałabyś"
+    pl: "Przeciwko sobie nie zeznawałabyś, to twoje prawo."
+    ru: "Против себя ты показаний не давала бы, это твоё право."
+    source: { kind: authored }
+  - form: "zeznawałam"
+    pl: "Zeznawałam przed sądem pod przysięgą."
+    ru: "Я давала показания в суде под присягой."
+    source: { kind: authored }
+  - form: "zeznawałam"
+    pl: "Zeznawałam, że nikogo tam nie widziałam."
+    ru: "Я показывала, что никого там не видела."
+    source: { kind: authored }
+  - form: "zeznawałam"
+    pl: "Przeciwko mężowi nie zeznawałam."
+    ru: "Против мужа я показаний не давала."
+    source: { kind: authored }
+  - form: "zeznawałaś"
+    pl: "Zeznawałaś pod przysięgą?"
+    ru: "Ты давала показания под присягой?"
+    source: { kind: authored }
+  - form: "zeznawałaś"
+    pl: "Zeznawałaś przed sądem czy tylko w prokuraturze?"
+    ru: "Ты давала показания в суде или только в прокуратуре?"
+    source: { kind: authored }
+  - form: "zeznawałaś"
+    pl: "Przeciwko mężowi nie zeznawałaś, prawda?"
+    ru: "Против мужа ты показаний не давала, правда?"
+    source: { kind: authored }
+  - form: "zeznawałby"
+    pl: "Zeznawałby chętniej, gdyby mu zapewniono ochronę."
+    ru: "Он давал бы показания охотнее, если бы ему обеспечили защиту."
+    source: { kind: authored }
+  - form: "zeznawałby"
+    pl: "Zeznawałby pod przysięgą bez wahania."
+    ru: "Он давал бы показания под присягой без колебаний."
+    source: { kind: authored }
+  - form: "zeznawałby"
+    pl: "Przeciwko bratu nie zeznawałby nigdy."
+    ru: "Против брата он никогда не давал бы показаний."
+    source: { kind: authored }
+  - form: "zeznawałbym"
+    pl: "Zeznawałbym chętniej, gdyby mi zapewniono ochronę."
+    ru: "Я давал бы показания охотнее, если бы мне обеспечили защиту."
+    source: { kind: authored }
+  - form: "zeznawałbym"
+    pl: "Zeznawałbym pod przysięgą i dobrowolnie."
+    ru: "Я давал бы показания под присягой и добровольно."
+    source: { kind: authored }
+  - form: "zeznawałbym"
+    pl: "Przeciwko sobie nie zeznawałbym."
+    ru: "Против себя я показаний не давал бы."
+    source: { kind: authored }
+  - form: "zeznawałbyś"
+    pl: "Zeznawałbyś przeciwko koledze?"
+    ru: "Ты давал бы показания против товарища?"
+    source: { kind: authored }
+  - form: "zeznawałbyś"
+    pl: "Gdybyś był świadkiem, zeznawałbyś pod przysięgą."
+    ru: "Если бы ты был свидетелем, ты давал бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałbyś"
+    pl: "Przeciwko sobie nie zeznawałbyś, to twoje prawo."
+    ru: "Против себя ты показаний не давал бы, это твоё право."
+    source: { kind: authored }
+  - form: "zeznawałem"
+    pl: "Zeznawałem przed sądem trzy godziny."
+    ru: "Я давал показания в суде три часа."
+    source: { kind: authored }
+  - form: "zeznawałem"
+    pl: "Zeznawałem pod przysięgą i dobrowolnie."
+    ru: "Я давал показания под присягой и добровольно."
+    source: { kind: authored }
+  - form: "zeznawałem"
+    pl: "Przeciwko bratu nie zeznawałem."
+    ru: "Против брата я показаний не давал."
+    source: { kind: authored }
+  - form: "zeznawałeś"
+    pl: "Zeznawałeś pod przysięgą?"
+    ru: "Ты давал показания под присягой?"
+    source: { kind: authored }
+  - form: "zeznawałeś"
+    pl: "Zeznawałeś przed sądem czy tylko w prokuraturze?"
+    ru: "Ты давал показания в суде или только в прокуратуре?"
+    source: { kind: authored }
+  - form: "zeznawałeś"
+    pl: "Przeciwko bratu nie zeznawałeś, prawda?"
+    ru: "Против брата ты показаний не давал, правда?"
+    source: { kind: authored }
+  - form: "zeznawało"
+    pl: "Dziecko zeznawało w obecności psychologa."
+    ru: "Ребёнок давал показания в присутствии психолога."
+    source: { kind: authored }
+  - form: "zeznawało"
+    pl: "Troje świadków zeznawało tego samego dnia."
+    ru: "Трое свидетелей давали показания в тот же день."
+    source: { kind: authored }
+  - form: "zeznawało"
+    pl: "Żadne z nich nie zeznawało pod przysięgą."
+    ru: "Ни один из них не давал показаний под присягой."
+    source: { kind: authored }
+  - form: "zeznawałoby"
+    pl: "Dziecko zeznawałoby tylko w obecności psychologa."
+    ru: "Ребёнок давал бы показания только в присутствии психолога."
+    source: { kind: authored }
+  - form: "zeznawałoby"
+    pl: "Troje świadków zeznawałoby tego samego dnia."
+    ru: "Трое свидетелей давали бы показания в тот же день."
+    source: { kind: authored }
+  - form: "zeznawałoby"
+    pl: "Żadne z nich nie zeznawałoby pod przysięgą."
+    ru: "Ни один из них не давал бы показаний под присягой."
+    source: { kind: authored }
+  - form: "zeznawały"
+    pl: "Obie świadkowie zeznawały pod przysięgą."
+    ru: "Обе свидетельницы давали показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawały"
+    pl: "Dziewczyny zeznawały w obecności matki."
+    ru: "Девушки давали показания в присутствии матери."
+    source: { kind: authored }
+  - form: "zeznawały"
+    pl: "Te dwie panie nie zeznawały wcale."
+    ru: "Эти две дамы вовсе не давали показаний."
+    source: { kind: authored }
+  - form: "zeznawałyby"
+    pl: "Obie świadkowie zeznawałyby pod przysięgą."
+    ru: "Обе свидетельницы давали бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałyby"
+    pl: "Dziewczyny zeznawałyby tylko w obecności matki."
+    ru: "Девушки давали бы показания только в присутствии матери."
+    source: { kind: authored }
+  - form: "zeznawałyby"
+    pl: "Te dwie panie nie zeznawałyby wcale."
+    ru: "Эти две дамы вовсе не давали бы показаний."
+    source: { kind: authored }
+  - form: "zeznawałybyście"
+    pl: "Zeznawałybyście przeciwko koleżance?"
+    ru: "Вы давали бы показания против подруги?"
+    source: { kind: authored }
+  - form: "zeznawałybyście"
+    pl: "Gdybyście były świadkami, zeznawałybyście pod przysięgą."
+    ru: "Если бы вы были свидетельницами, вы давали бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałybyście"
+    pl: "Przeciwko nikomu nie zeznawałybyście, prawda?"
+    ru: "Ни против кого вы показаний не давали бы, правда?"
+    source: { kind: authored }
+  - form: "zeznawałybyśmy"
+    pl: "Zeznawałybyśmy obie pod przysięgą."
+    ru: "Мы обе давали бы показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałybyśmy"
+    pl: "Zeznawałybyśmy zgodnie, bo widziałyśmy to samo."
+    ru: "Мы давали бы показания согласно, потому что видели одно и то же."
+    source: { kind: authored }
+  - form: "zeznawałybyśmy"
+    pl: "Przeciwko nikomu nie zeznawałybyśmy."
+    ru: "Ни против кого мы показаний не давали бы."
+    source: { kind: authored }
+  - form: "zeznawałyście"
+    pl: "Zeznawałyście pod przysięgą?"
+    ru: "Вы давали показания под присягой?"
+    source: { kind: authored }
+  - form: "zeznawałyście"
+    pl: "Zeznawałyście zgodnie czy każda po swojemu?"
+    ru: "Вы показывали согласно или каждая по-своему?"
+    source: { kind: authored }
+  - form: "zeznawałyście"
+    pl: "Przeciwko nikomu nie zeznawałyście, prawda?"
+    ru: "Ни против кого вы показаний не давали, правда?"
+    source: { kind: authored }
+  - form: "zeznawałyśmy"
+    pl: "Zeznawałyśmy obie pod przysięgą."
+    ru: "Мы обе давали показания под присягой."
+    source: { kind: authored }
+  - form: "zeznawałyśmy"
+    pl: "Zeznawałyśmy, że nikogo tam nie widziałyśmy."
+    ru: "Мы показывали, что никого там не видели."
+    source: { kind: authored }
+  - form: "zeznawałyśmy"
+    pl: "Przeciwko nikomu nie zeznawałyśmy."
+    ru: "Ни против кого мы показаний не давали."
+    source: { kind: authored }
