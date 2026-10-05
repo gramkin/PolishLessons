@@ -1,0 +1,167 @@
+# review
+id: podpis
+format: 2
+lemma: "podpis"
+rank: 2822
+pos: noun
+pron: { cyr: "по́тпис" }
+senses:
+  - id: signature
+    ru: "подпись"
+    examples:
+      - pl: "Podpis był nieczytelny."
+        ru: "Подпись была неразборчивой."
+        source: { kind: authored }
+      - pl: "Bez podpisu dokument jest nieważny."
+        ru: "Без подписи документ недействителен."
+        source: { kind: authored }
+      - pl: "Podpisy zbierano przez miesiąc."
+        ru: "Подписи собирали месяц."
+        source: { kind: authored }
+  - id: caption
+    ru: "подпись под фотографией"
+    examples:
+      - pl: "W podpisie pod zdjęciem podano złą nazwę."
+        ru: "В подписи под фотографией дали неверное название."
+        source: { kind: authored }
+      - pl: "Podpisy pod zdjęciami napisano od ręki."
+        ru: "Подписи под фотографиями написали от руки."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Ловушка в роде, и она касается целой группы слов. Русская «подпись» женского рода, польский PODPIS — мужского: PODPIS BYŁ NIECZYTELNY, MÓJ PODPIS, TEN PODPIS. Русскому глазу окончание подсказывает женский род, потому что русские слова на -ись женские все до одного, и согласование срывается автоматически. Группа же такая: podpis при «подписи», NAPIS при «надписи», ZAPIS при «записи» — по-польски все мужские, по-русски все женские. Выучив одно, получаете три." }
+  - { kind: usage, text: "Местный падеж — PODPISIE: твёрдое s смягчается перед окончанием -e, как в stresie и rasie. Родительный — PODPISU с окончанием -u, как pliku, dymu и produktu, а не -a, как zegara из этой же партии. Напомню, что выбор между -a и -u у мужских неодушевлённых лексический: по виду слова его не вычислить, и обе формы приходится помнить за словом." }
+  - { kind: pronunciation, text: "Произносится «по́тпис»: d перед глухим p оглушается в t. Это общее правило польской фонетики, и русский делает то же самое в «подпись», где тоже звучит «потпись», — так что переучивать нечего, достаточно знать, что написание d сохраняется, хотя слышится t. Приставка POD- ведёт себя так всегда: podpisać, podkreślić, podchodzić." }
+collocations:
+  - { pl: "złożyć podpis", ru: "поставить подпись" }
+  - { pl: "podpis elektroniczny", ru: "электронная подпись" }
+  - { pl: "zbierać podpisy", ru: "собирать подписи" }
+family:
+  - { pl: "podpisać", ru: "подписать", relation: root, id: podpisac }
+  - { pl: "pisać", ru: "писать", relation: root, id: pisac }
+  - { pl: "napis", ru: "надпись", relation: derived, id: napis }
+etymology: "Приставка pod- и PISAĆ «писать», из праславянского *pisati — того же корня, что русское «писать», и в родстве с латинским pingere «изображать», откуда «пигмент» и «пиктура». Слово собрано в точности как русская «подпись», морфема за морфемой, и расходятся языки только в роде: польский сделал отглагольное существительное мужским, русский — женским, и так же разошлась вся группа napis, zapis, opis."
+memory: "Мужского рода, в отличие от русской «подписи»: ten podpis był. И так же napis, zapis — все мужские."
+idioms:
+  - { pl: "złożyć podpis", ru: "поставить подпись" }
+  - { pl: "zbierać podpisy", ru: "собирать подписи" }
+formExamples:
+  - form: "podpis"
+    pl: "Podpis był nieczytelny."
+    ru: "Подпись была неразборчивой."
+    source: { kind: authored }
+  - form: "podpis"
+    pl: "Mój podpis nie zmienił się od lat."
+    ru: "Моя подпись не менялась годами."
+    source: { kind: authored }
+  - form: "podpis"
+    pl: "Ten podpis wygląda na podrobiony."
+    ru: "Эта подпись выглядит поддельной."
+    source: { kind: authored }
+  - form: "podpisach"
+    pl: "W podpisach znaleziono dwie pomyłki."
+    ru: "В подписях нашли две ошибки."
+    source: { kind: authored }
+  - form: "podpisach"
+    pl: "O podpisach elektronicznych mówi nowa ustawa."
+    ru: "Об электронных подписях говорит новый закон."
+    source: { kind: authored }
+  - form: "podpisach"
+    pl: "W tych podpisach brakuje dat."
+    ru: "В этих подписях не хватает дат."
+    source: { kind: authored }
+  - form: "podpisami"
+    pl: "Dokument z podpisami leży w sejfie."
+    ru: "Документ с подписями лежит в сейфе."
+    source: { kind: authored }
+  - form: "podpisami"
+    pl: "Między podpisami zostało puste miejsce."
+    ru: "Между подписями осталось пустое место."
+    source: { kind: authored }
+  - form: "podpisami"
+    pl: "Zajmuje się podpisami elektronicznymi."
+    ru: "Он занимается электронными подписями."
+    source: { kind: authored }
+  - form: "podpisem"
+    pl: "Pod podpisem postawił pieczątkę."
+    ru: "Под подписью он поставил печать."
+    source: { kind: authored }
+  - form: "podpisem"
+    pl: "Dokument z podpisem i pieczęcią jest gotowy."
+    ru: "Документ с подписью и печатью готов."
+    source: { kind: authored }
+  - form: "podpisem"
+    pl: "Między podpisem a datą zostawił miejsce."
+    ru: "Между подписью и датой он оставил место."
+    source: { kind: authored }
+  - form: "podpisie"
+    pl: "W podpisie zrobił błąd w nazwisku."
+    ru: "В подписи он сделал ошибку в фамилии."
+    source: { kind: authored }
+  - form: "podpisie"
+    pl: "O tym podpisie mówił cały sąd."
+    ru: "Об этой подписи говорил весь суд."
+    source: { kind: authored }
+  - form: "podpisie"
+    pl: "W podpisie pod zdjęciem podano złą nazwę."
+    ru: "В подписи под фотографией дали неверное название."
+    source: { kind: authored }
+  - form: "podpisom"
+    pl: "Podpisom przyjrzał się ekspert."
+    ru: "Подписи рассмотрел эксперт."
+    source: { kind: authored }
+  - form: "podpisom"
+    pl: "Nie dowierzali tym podpisom."
+    ru: "Они не доверяли этим подписям."
+    source: { kind: authored }
+  - form: "podpisom"
+    pl: "Dzięki podpisom udało się ustalić datę."
+    ru: "Благодаря подписям удалось установить дату."
+    source: { kind: authored }
+  - form: "podpisowi"
+    pl: "Podpisowi brakuje daty."
+    ru: "Подписи не хватает даты."
+    source: { kind: authored }
+  - form: "podpisowi"
+    pl: "Przyjrzeli się podpisowi pod lupą."
+    ru: "Они рассмотрели подпись под лупой."
+    source: { kind: authored }
+  - form: "podpisowi"
+    pl: "Dzięki podpisowi ustalili autora."
+    ru: "Благодаря подписи они установили автора."
+    source: { kind: authored }
+  - form: "podpisu"
+    pl: "Bez podpisu dokument jest nieważny."
+    ru: "Без подписи документ недействителен."
+    source: { kind: authored }
+  - form: "podpisu"
+    pl: "Brakuje tu jednego podpisu."
+    ru: "Здесь не хватает одной подписи."
+    source: { kind: authored }
+  - form: "podpisu"
+    pl: "Odmówił podpisu pod listem."
+    ru: "Он отказался от подписи под письмом."
+    source: { kind: authored }
+  - form: "podpisy"
+    pl: "Podpisy zbierano przez miesiąc."
+    ru: "Подписи собирали месяц."
+    source: { kind: authored }
+  - form: "podpisy"
+    pl: "Wszystkie podpisy okazały się prawdziwe."
+    ru: "Все подписи оказались подлинными."
+    source: { kind: authored }
+  - form: "podpisy"
+    pl: "Podpisy pod zdjęciami napisano od ręki."
+    ru: "Подписи под фотографиями написали от руки."
+    source: { kind: authored }
+  - form: "podpisów"
+    pl: "Zebrali sto tysięcy podpisów."
+    ru: "Они собрали сто тысяч подписей."
+    source: { kind: authored }
+  - form: "podpisów"
+    pl: "Bez tych podpisów wniosek nie przejdzie."
+    ru: "Без этих подписей заявление не пройдёт."
+    source: { kind: authored }
+  - form: "podpisów"
+    pl: "Lista podpisów zajęła dwadzieścia stron."
+    ru: "Список подписей занял двадцать страниц."
+    source: { kind: authored }
