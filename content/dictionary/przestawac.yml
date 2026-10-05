@@ -1,0 +1,685 @@
+# review
+id: przestawac
+format: 2
+lemma: "przestawać"
+rank: 2285
+pos: verb
+pron: { cyr: "пшэстава́ць" }
+senses:
+  - id: stop
+    ru: "переставать, прекращать"
+    examples:
+      - pl: "Przestaję o tym myśleć."
+        ru: "Я перестаю об этом думать."
+        source: { kind: authored }
+      - pl: "Deszcz nie przestaje padać."
+        ru: "Дождь не перестаёт идти."
+        source: { kind: authored }
+      - pl: "Przestawał pracować dopiero o ósmej."
+        ru: "Он переставал работать только в восемь."
+        source: { kind: authored }
+  - id: associate
+    ru: "общаться, водиться (с кем-л.)"
+    examples:
+      - pl: "Kto z kim przestaje, takim się staje."
+        ru: "С кем поведёшься, от того и наберёшься."
+        source: { kind: authored }
+      - pl: "Przestawał z ludźmi, których rodzice nie znosili."
+        ru: "Он водился с людьми, которых родители терпеть не могли."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Главное в этом глаголе — две основы, и они поделены строго. PRZESTAJ- берёт настоящее время и действительное причастие: PRZESTAJĘ, PRZESTAJESZ, PRZESTAJE, PRZESTAJĄ, PRZESTAJĄCY, PRZESTAJĄC. PRZESTAW- берёт всё остальное: инфинитив, прошедшее, условное, отглагольное существительное и, что важнее всего, повелительное — PRZESTAWAJ. Семнадцать форм на первой основе, тридцать пять на второй." }
+  - { kind: usage, text: "И это настоящее исключение из правила карточки KARMIĆ. Там сказано, что повелительное выводится из третьего лица единственного: KARMI даёт KARM. Здесь третье лицо PRZESTAJE, и правило предсказало бы небывалое PRZESTAJEJ. На деле повелительное идёт от инфинитива: PRZESTAWA- плюс -j даёт PRZESTAWAJ. Исключение не одиночное, а классовое: все глаголы на -AWAĆ ведут себя так — DAWAĆ даёт DAWAJ при DAJE, WSTAWAĆ даёт WSTAWAJ. Карточка KARMIĆ исправлена вместе с выпуском этой." }
+  - { kind: usage, text: "Русскому тут радоваться: польское исключение есть русское правило. «Переставать» точно так же теряет -ва- в настоящем времени — «перестаю, перестаёшь, перестаёт, перестают», — и повелительное точно так же идёт от инфинитива: «переставай», а не «перестаюй». То же у «давать»: настоящее «даю», а повелительное «давай». Так что запоминать здесь нечего: достаточно проверить себя русским глаголом того же устройства." }
+  - { kind: false-friend, text: "Второе значение в русский не переводится напрямую и потому опасно. PRZESTAWAĆ Z KIMŚ значит не «переставать с кем-то», а «общаться, водиться с кем-то»: PRZESTAWAŁ Z ARTYSTAMI — «он водился с художниками». Отсюда и пословица KTO Z KIM PRZESTAJE, TAKIM SIĘ STAJE, в точности русская «с кем поведёшься, от того и наберёшься». Различать просто по управлению: с инфинитивом — «переставать» (PRZESTAJE PADAĆ), с предлогом Z и творительным — «общаться» (PRZESTAJE Z NIMI)." }
+  - { kind: government, text: "В первом значении берёт инфинитив: PRZESTAŃ MÓWIĆ, PRZESTAJE PADAĆ, PRZESTAWAŁ PALIĆ. Винительного дополнения не берёт никогда, и именно поэтому одиннадцать страдательных причастий из таблицы в карточке пропущены: страдательному залогу нужно дополнение в винительном, чтобы сделать его подлежащим, а у этого глагола его нет. Безличное PRZESTAWANO при этом возможно. Совершенная пара PRZESTAĆ, и в обиходе резкое PRZESTAŃ! значит ровно «перестань!»." }
+collocations:
+  - { pl: "przestawać padać", ru: "переставать идти (о дожде)" }
+  - { pl: "przestawać pracować", ru: "переставать работать" }
+  - { pl: "przestawać z kimś", ru: "общаться с кем-либо" }
+family:
+  - { pl: "przestać", ru: "перестать", relation: aspect, id: przestac }
+  - { pl: "stawać", ru: "становиться, вставать", relation: root, id: stawac }
+  - { pl: "zostawać", ru: "оставаться", relation: root, id: zostawac }
+etymology: "Приставка prze- и STAWAĆ, от праславянского *stati «стать, встать» — того же корня, что русские «стать», «ставать», «вставать». Польское PRZESTAWAĆ и русское «переставать» собраны из одних и тех же частей в одном и том же порядке, включая двойственность основы. Значение «общаться» выросло из «стоять рядом, бывать вместе» и в русском этой ветки не дало, хотя «обстоять» и «состоять» того же гнезда."
+memory: "Две основы: przestaj- в настоящем, przestaw- во всём прочем, включая повелительное PRZESTAWAJ. Как русское «перестаю» при «переставай». А przestawać z kimś — это «водиться с кем-то»."
+idioms:
+  - { pl: "kto z kim przestaje, takim się staje", ru: "с кем поведёшься, от того и наберёшься" }
+  - { pl: "przestań!", ru: "перестань!, прекрати!" }
+formExamplesSkip:
+  - { form: "przestawany", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawana", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawane", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanego", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanej", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanemu", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawaną", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanym", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanych", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawanymi", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+  - { form: "przestawani", reason: "Страдательному причастию нужно дополнение в винительном падеже, чтобы сделать его подлежащим, а PRZESTAWAĆ винительного не берёт никогда: только инфинитив (PRZESTAJE PADAĆ) или предлог Z с творительным (PRZESTAJE Z NIMI). Поэтому форма в таблице есть, а употребить её не в чем. PoliMorf строит её механически от основы на -awa-." }
+formExamples:
+  - form: "przestaje"
+    pl: "Deszcz nie przestaje padać."
+    ru: "Дождь не перестаёт идти."
+    source: { kind: authored }
+  - form: "przestaje"
+    pl: "Kto z kim przestaje, takim się staje."
+    ru: "С кем поведёшься, от того и наберёшься."
+    source: { kind: authored }
+  - form: "przestaje"
+    pl: "Telefon nie przestaje dzwonić."
+    ru: "Телефон не перестаёт звонить."
+    source: { kind: authored }
+  - form: "przestajecie"
+    pl: "Kiedy przestajecie na dziś?"
+    ru: "Когда вы заканчиваете на сегодня?"
+    source: { kind: authored }
+  - form: "przestajecie"
+    pl: "Przestajecie czytać zbyt wcześnie."
+    ru: "Вы перестаёте читать слишком рано."
+    source: { kind: authored }
+  - form: "przestajecie"
+    pl: "Czy przestajecie z nimi rozmawiać?"
+    ru: "Вы перестаёте с ними разговаривать?"
+    source: { kind: authored }
+  - form: "przestajemy"
+    pl: "Przestajemy pracować o szóstej."
+    ru: "Мы перестаём работать в шесть."
+    source: { kind: authored }
+  - form: "przestajemy"
+    pl: "Nie przestajemy próbować."
+    ru: "Мы не перестаём пробовать."
+    source: { kind: authored }
+  - form: "przestajemy"
+    pl: "Przestajemy z tą firmą współpracować."
+    ru: "Мы перестаём сотрудничать с этой фирмой."
+    source: { kind: authored }
+  - form: "przestajesz"
+    pl: "Dlaczego przestajesz w połowie?"
+    ru: "Почему ты перестаёшь на середине?"
+    source: { kind: authored }
+  - form: "przestajesz"
+    pl: "Przestajesz czytać po dwóch stronach."
+    ru: "Ты перестаёшь читать после двух страниц."
+    source: { kind: authored }
+  - form: "przestajesz"
+    pl: "Jeśli przestajesz z nimi, powiedz wprost."
+    ru: "Если ты перестаёшь с ними общаться, скажи прямо."
+    source: { kind: authored }
+  - form: "przestają"
+    pl: "Ludzie przestają wierzyć w takie obietnice."
+    ru: "Люди перестают верить в такие обещания."
+    source: { kind: authored }
+  - form: "przestają"
+    pl: "Maszyny nie przestają pracować w nocy."
+    ru: "Машины не перестают работать ночью."
+    source: { kind: authored }
+  - form: "przestają"
+    pl: "Przestają z nim rozmawiać po tej historii."
+    ru: "Они перестают с ним разговаривать после этой истории."
+    source: { kind: authored }
+  - form: "przestając"
+    pl: "Przestając palić, przybrał na wadze."
+    ru: "Перестав курить, он прибавил в весе."
+    source: { kind: authored }
+  - form: "przestając"
+    pl: "Nie przestając mówić, otworzył drzwi."
+    ru: "Не переставая говорить, он открыл дверь."
+    source: { kind: authored }
+  - form: "przestając"
+    pl: "Przestając z nimi, stracił pół znajomych."
+    ru: "Перестав с ними общаться, он потерял половину знакомых."
+    source: { kind: authored }
+  - form: "przestająca"
+    pl: "Praca nie przestająca męczyć nie ma sensu."
+    ru: "Работа, не перестающая изматывать, бессмысленна."
+    source: { kind: authored }
+  - form: "przestająca"
+    pl: "Kobieta nie przestająca wierzyć doczekała się."
+    ru: "Женщина, не перестающая верить, дождалась."
+    source: { kind: authored }
+  - form: "przestająca"
+    pl: "Maszyna nie przestająca pracować wreszcie padła."
+    ru: "Машина, не перестающая работать, наконец сломалась."
+    source: { kind: authored }
+  - form: "przestające"
+    pl: "Dziecko nie przestające płakać zasnęło nad ranem."
+    ru: "Ребёнок, не перестающий плакать, уснул к утру."
+    source: { kind: authored }
+  - form: "przestające"
+    pl: "Telefony nie przestające dzwonić wyłączono."
+    ru: "Телефоны, не перестающие звонить, отключили."
+    source: { kind: authored }
+  - form: "przestające"
+    pl: "Te pytania, nie przestające wracać, męczą."
+    ru: "Эти вопросы, не перестающие возвращаться, изматывают."
+    source: { kind: authored }
+  - form: "przestającego"
+    pl: "Nie znam nikogo nie przestającego pytać."
+    ru: "Я не знаю никого, кто не перестаёт спрашивать."
+    source: { kind: authored }
+  - form: "przestającego"
+    pl: "Od deszczu nie przestającego padać uciekli do domu."
+    ru: "От дождя, не перестающего идти, они убежали домой."
+    source: { kind: authored }
+  - form: "przestającego"
+    pl: "Szukali pracownika nie przestającego próbować."
+    ru: "Они искали работника, не перестающего пробовать."
+    source: { kind: authored }
+  - form: "przestającej"
+    pl: "O pracy nie przestającej męczyć lepiej milczeć."
+    ru: "О работе, не перестающей изматывать, лучше молчать."
+    source: { kind: authored }
+  - form: "przestającej"
+    pl: "Nie ma mowy o maszynie nie przestającej pracować."
+    ru: "О машине, не перестающей работать, и речи нет."
+    source: { kind: authored }
+  - form: "przestającej"
+    pl: "Pomogli kobiecie nie przestającej szukać syna."
+    ru: "Они помогли женщине, не перестающей искать сына."
+    source: { kind: authored }
+  - form: "przestającemu"
+    pl: "Uczniowi nie przestającemu pytać dano stypendium."
+    ru: "Ученику, не перестающему спрашивать, дали стипендию."
+    source: { kind: authored }
+  - form: "przestającemu"
+    pl: "Przyglądał się dziecku nie przestającemu płakać."
+    ru: "Он смотрел на ребёнка, не перестающего плакать."
+    source: { kind: authored }
+  - form: "przestającemu"
+    pl: "Dzięki pracownikowi nie przestającemu próbować skończyli w terminie."
+    ru: "Благодаря работнику, не перестающему пробовать, они закончили в срок."
+    source: { kind: authored }
+  - form: "przestający"
+    pl: "Człowiek nie przestający pytać dojdzie dalej."
+    ru: "Человек, не перестающий спрашивать, дойдёт дальше."
+    source: { kind: authored }
+  - form: "przestający"
+    pl: "Deszcz nie przestający padać zalał pola."
+    ru: "Дождь, не перестающий идти, залил поля."
+    source: { kind: authored }
+  - form: "przestający"
+    pl: "Przestający z nimi uczeń zmienił się szybko."
+    ru: "Ученик, общающийся с ними, быстро изменился."
+    source: { kind: authored }
+  - form: "przestających"
+    pl: "Nie ma tu ludzi nie przestających pytać."
+    ru: "Здесь нет людей, не перестающих спрашивать."
+    source: { kind: authored }
+  - form: "przestających"
+    pl: "Wśród uczniów przestających z nimi byli najlepsi."
+    ru: "Среди учеников, общавшихся с ними, были лучшие."
+    source: { kind: authored }
+  - form: "przestających"
+    pl: "Lista maszyn nie przestających pracować jest krótka."
+    ru: "Список машин, не перестающих работать, короткий."
+    source: { kind: authored }
+  - form: "przestającym"
+    pl: "W uczniu nie przestającym pytać widzieli talent."
+    ru: "В ученике, не перестающем спрашивать, они видели талант."
+    source: { kind: authored }
+  - form: "przestającym"
+    pl: "Okazał się człowiekiem nie przestającym próbować."
+    ru: "Он оказался человеком, не перестающим пробовать."
+    source: { kind: authored }
+  - form: "przestającym"
+    pl: "Przestającym z nimi uczniom rodzice nie wierzyli."
+    ru: "Ученикам, общавшимся с ними, родители не верили."
+    source: { kind: authored }
+  - form: "przestającymi"
+    pl: "Między ludźmi nie przestającymi próbować a resztą jest różnica."
+    ru: "Между людьми, не перестающими пробовать, и остальными есть разница."
+    source: { kind: authored }
+  - form: "przestającymi"
+    pl: "Zajął się uczniami przestającymi z tą grupą."
+    ru: "Он занялся учениками, общавшимися с той группой."
+    source: { kind: authored }
+  - form: "przestającymi"
+    pl: "Rozmawiał z pracownikami nie przestającymi narzekać."
+    ru: "Он говорил с работниками, не перестающими жаловаться."
+    source: { kind: authored }
+  - form: "przestającą"
+    pl: "Znają pracę nie przestającą męczyć."
+    ru: "Они знают работу, не перестающую изматывать."
+    source: { kind: authored }
+  - form: "przestającą"
+    pl: "Uznali ją za osobę nie przestającą szukać."
+    ru: "Её сочли человеком, не перестающим искать."
+    source: { kind: authored }
+  - form: "przestającą"
+    pl: "Zastąpili maszynę nie przestającą się psuć."
+    ru: "Они заменили машину, не перестающую ломаться."
+    source: { kind: authored }
+  - form: "przestaję"
+    pl: "Przestaję o tym myśleć."
+    ru: "Я перестаю об этом думать."
+    source: { kind: authored }
+  - form: "przestaję"
+    pl: "Nigdy nie przestaję się dziwić."
+    ru: "Я никогда не перестаю удивляться."
+    source: { kind: authored }
+  - form: "przestaję"
+    pl: "Przestaję z nimi rozmawiać o polityce."
+    ru: "Я перестаю говорить с ними о политике."
+    source: { kind: authored }
+  - form: "przestawaj"
+    pl: "Nie przestawaj mówić, słucham."
+    ru: "Не переставай говорить, я слушаю."
+    source: { kind: authored }
+  - form: "przestawaj"
+    pl: "Przestawaj powoli, nie od razu."
+    ru: "Переставай постепенно, не сразу."
+    source: { kind: authored }
+  - form: "przestawaj"
+    pl: "Nie przestawaj wierzyć w siebie."
+    ru: "Не переставай верить в себя."
+    source: { kind: authored }
+  - form: "przestawajcie"
+    pl: "Nie przestawajcie śpiewać."
+    ru: "Не переставайте петь."
+    source: { kind: authored }
+  - form: "przestawajcie"
+    pl: "Przestawajcie po drugiej rundzie."
+    ru: "Заканчивайте после второго круга."
+    source: { kind: authored }
+  - form: "przestawajcie"
+    pl: "Nie przestawajcie z nimi rozmawiać."
+    ru: "Не переставайте с ними разговаривать."
+    source: { kind: authored }
+  - form: "przestawajmy"
+    pl: "Nie przestawajmy próbować."
+    ru: "Не будем переставать пробовать."
+    source: { kind: authored }
+  - form: "przestawajmy"
+    pl: "Przestawajmy już, jest późno."
+    ru: "Давай заканчивать, уже поздно."
+    source: { kind: authored }
+  - form: "przestawajmy"
+    pl: "Nie przestawajmy się uczyć."
+    ru: "Не будем переставать учиться."
+    source: { kind: authored }
+  - form: "przestawali"
+    pl: "Nie przestawali próbować przez cały rok."
+    ru: "Они не переставали пробовать весь год."
+    source: { kind: authored }
+  - form: "przestawali"
+    pl: "Przestawali pracować o zmroku."
+    ru: "Они переставали работать с темнотой."
+    source: { kind: authored }
+  - form: "przestawali"
+    pl: "Przestawali z nim po tej kłótni."
+    ru: "Они перестали с ним общаться после той ссоры."
+    source: { kind: authored }
+  - form: "przestawaliby"
+    pl: "Przestawaliby pracować o zmroku."
+    ru: "Они переставали бы работать с темнотой."
+    source: { kind: authored }
+  - form: "przestawaliby"
+    pl: "Nie przestawaliby próbować bez nacisku."
+    ru: "Без нажима они не переставали бы пробовать."
+    source: { kind: authored }
+  - form: "przestawaliby"
+    pl: "Przestawaliby z nim po tej kłótni."
+    ru: "Они перестали бы с ним общаться после той ссоры."
+    source: { kind: authored }
+  - form: "przestawalibyście"
+    pl: "Przestawalibyście wcześniej bez nadzoru."
+    ru: "Без надзора вы заканчивали бы раньше."
+    source: { kind: authored }
+  - form: "przestawalibyście"
+    pl: "Nie przestawalibyście narzekać."
+    ru: "Вы не переставали бы жаловаться."
+    source: { kind: authored }
+  - form: "przestawalibyście"
+    pl: "Przestawalibyście z nimi bez słowa."
+    ru: "Вы перестали бы с ними общаться без слов."
+    source: { kind: authored }
+  - form: "przestawalibyśmy"
+    pl: "Przestawalibyśmy o szóstej, gdyby wolno było."
+    ru: "Мы заканчивали бы в шесть, если бы было можно."
+    source: { kind: authored }
+  - form: "przestawalibyśmy"
+    pl: "Nie przestawalibyśmy próbować."
+    ru: "Мы не переставали бы пробовать."
+    source: { kind: authored }
+  - form: "przestawalibyśmy"
+    pl: "Przestawalibyśmy z nimi stopniowo."
+    ru: "Мы постепенно перестали бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawaliście"
+    pl: "Kiedy przestawaliście na dziś?"
+    ru: "Когда вы заканчивали на сегодня?"
+    source: { kind: authored }
+  - form: "przestawaliście"
+    pl: "Nie przestawaliście narzekać."
+    ru: "Вы не переставали жаловаться."
+    source: { kind: authored }
+  - form: "przestawaliście"
+    pl: "Przestawaliście z nimi bez słowa."
+    ru: "Вы перестали с ними общаться без слов."
+    source: { kind: authored }
+  - form: "przestawaliśmy"
+    pl: "Nie przestawaliśmy próbować."
+    ru: "Мы не переставали пробовать."
+    source: { kind: authored }
+  - form: "przestawaliśmy"
+    pl: "Przestawaliśmy pracować o zmroku."
+    ru: "Мы переставали работать с темнотой."
+    source: { kind: authored }
+  - form: "przestawaliśmy"
+    pl: "Przestawaliśmy z nimi stopniowo."
+    ru: "Мы постепенно перестали с ними общаться."
+    source: { kind: authored }
+  - form: "przestawania"
+    pl: "Nie ma tu mowy o przestawania z nikim."
+    ru: "Речи об общении с кем-либо здесь нет."
+    source: { kind: authored }
+  - form: "przestawania"
+    pl: "Po roku przestawania z nimi zmienił zdanie."
+    ru: "После года общения с ними он передумал."
+    source: { kind: authored }
+  - form: "przestawania"
+    pl: "Bez przestawania z ludźmi trudno się czegoś nauczyć."
+    ru: "Без общения с людьми трудно чему-то научиться."
+    source: { kind: authored }
+  - form: "przestawanie"
+    pl: "Przestawanie z takimi ludźmi kończy się źle."
+    ru: "Общение с такими людьми кончается плохо."
+    source: { kind: authored }
+  - form: "przestawanie"
+    pl: "Przestawanie w połowie zdania to zły nawyk."
+    ru: "Останавливаться на середине фразы — плохая привычка."
+    source: { kind: authored }
+  - form: "przestawanie"
+    pl: "Przestawanie z nimi było jego wyborem."
+    ru: "Общение с ними было его выбором."
+    source: { kind: authored }
+  - form: "przestawaniem"
+    pl: "Zmęczony przestawaniem z nimi wyjechał."
+    ru: "Устав от общения с ними, он уехал."
+    source: { kind: authored }
+  - form: "przestawaniem"
+    pl: "Między przestawaniem a przyjaźnią jest różnica."
+    ru: "Между общением и дружбой есть разница."
+    source: { kind: authored }
+  - form: "przestawaniem"
+    pl: "Zaczął od przestawaniem z sąsiadami."
+    ru: "Он начал с общения с соседями."
+    source: { kind: authored }
+  - form: "przestawaniu"
+    pl: "W przestawaniu z nimi nie było nic złego."
+    ru: "В общении с ними не было ничего плохого."
+    source: { kind: authored }
+  - form: "przestawaniu"
+    pl: "O przestawaniu z takimi ludźmi mówiła matka."
+    ru: "Об общении с такими людьми говорила мать."
+    source: { kind: authored }
+  - form: "przestawaniu"
+    pl: "Po przestawaniu z nimi został mu nawyk."
+    ru: "После общения с ними у него осталась привычка."
+    source: { kind: authored }
+  - form: "przestawano"
+    pl: "Przestawano pracować dopiero o zmroku."
+    ru: "Работать переставали только с темнотой."
+    source: { kind: authored }
+  - form: "przestawano"
+    pl: "Dawniej przestawano jeść przed zachodem."
+    ru: "Прежде есть переставали до заката."
+    source: { kind: authored }
+  - form: "przestawano"
+    pl: "Z takimi ludźmi przestawano bez wyjaśnień."
+    ru: "С такими людьми перестали общаться без объяснений."
+    source: { kind: authored }
+  - form: "przestawać"
+    pl: "Trudno przestawać palić po dwudziestu latach."
+    ru: "Трудно переставать курить после двадцати лет."
+    source: { kind: authored }
+  - form: "przestawać"
+    pl: "Zaczął przestawać wierzyć w obietnice."
+    ru: "Он начал переставать верить обещаниям."
+    source: { kind: authored }
+  - form: "przestawać"
+    pl: "Lepiej przestawać z ludźmi, którzy ciągną w dół."
+    ru: "Лучше перестать общаться с людьми, которые тянут вниз."
+    source: { kind: authored }
+  - form: "przestawał"
+    pl: "Przestawał pracować dopiero o ósmej."
+    ru: "Он переставал работать только в восемь."
+    source: { kind: authored }
+  - form: "przestawał"
+    pl: "Nigdy nie przestawał się uczyć."
+    ru: "Он никогда не переставал учиться."
+    source: { kind: authored }
+  - form: "przestawał"
+    pl: "Przestawał z ludźmi, których rodzice nie znosili."
+    ru: "Он водился с людьми, которых родители терпеть не могли."
+    source: { kind: authored }
+  - form: "przestawała"
+    pl: "Przestawała czytać po północy."
+    ru: "Она переставала читать после полуночи."
+    source: { kind: authored }
+  - form: "przestawała"
+    pl: "Nigdy nie przestawała wierzyć."
+    ru: "Она никогда не переставала верить."
+    source: { kind: authored }
+  - form: "przestawała"
+    pl: "Przestawała z nimi na kilka miesięcy."
+    ru: "Она перестала с ними общаться на несколько месяцев."
+    source: { kind: authored }
+  - form: "przestawałaby"
+    pl: "Przestawałaby czytać przed północą."
+    ru: "Она переставала бы читать до полуночи."
+    source: { kind: authored }
+  - form: "przestawałaby"
+    pl: "Maszyna przestawałaby pracować co godzinę."
+    ru: "Машина переставала бы работать каждый час."
+    source: { kind: authored }
+  - form: "przestawałaby"
+    pl: "Przestawałaby z nimi, gdyby wiedziała."
+    ru: "Она перестала бы с ними общаться, если бы знала."
+    source: { kind: authored }
+  - form: "przestawałabym"
+    pl: "Przestawałabym pracować o siódmej."
+    ru: "Я переставала бы работать в семь."
+    source: { kind: authored }
+  - form: "przestawałabym"
+    pl: "Nigdy nie przestawałabym się uczyć."
+    ru: "Я никогда не переставала бы учиться."
+    source: { kind: authored }
+  - form: "przestawałabym"
+    pl: "Przestawałabym z nimi bez wahania."
+    ru: "Я без колебаний перестала бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałabyś"
+    pl: "Przestawałabyś czytać po dwóch stronach."
+    ru: "Ты переставала бы читать после двух страниц."
+    source: { kind: authored }
+  - form: "przestawałabyś"
+    pl: "Gdybyś chciała, przestawałabyś wcześniej."
+    ru: "Если бы ты хотела, ты заканчивала бы раньше."
+    source: { kind: authored }
+  - form: "przestawałabyś"
+    pl: "Przestawałabyś z nimi na jej miejscu."
+    ru: "На её месте ты перестала бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałam"
+    pl: "Nigdy nie przestawałam próbować."
+    ru: "Я никогда не переставала пробовать."
+    source: { kind: authored }
+  - form: "przestawałam"
+    pl: "Przestawałam czytać dopiero nad ranem."
+    ru: "Я переставала читать только к утру."
+    source: { kind: authored }
+  - form: "przestawałam"
+    pl: "Przestawałam z nimi na całe lato."
+    ru: "Я перестала с ними общаться на всё лето."
+    source: { kind: authored }
+  - form: "przestawałaś"
+    pl: "Przestawałaś pracować o siódmej?"
+    ru: "Ты переставала работать в семь?"
+    source: { kind: authored }
+  - form: "przestawałaś"
+    pl: "Nie przestawałaś się śmiać."
+    ru: "Ты не переставала смеяться."
+    source: { kind: authored }
+  - form: "przestawałaś"
+    pl: "Przestawałaś z nimi po szkole."
+    ru: "Ты перестала с ними общаться после школы."
+    source: { kind: authored }
+  - form: "przestawałby"
+    pl: "Przestawałby pracować wcześniej, gdyby mógł."
+    ru: "Он переставал бы работать раньше, если бы мог."
+    source: { kind: authored }
+  - form: "przestawałby"
+    pl: "Deszcz przestawałby padać na godzinę."
+    ru: "Дождь переставал бы идти на час."
+    source: { kind: authored }
+  - form: "przestawałby"
+    pl: "Przestawałby z nimi, gdyby znał prawdę."
+    ru: "Он перестал бы с ними общаться, если бы знал правду."
+    source: { kind: authored }
+  - form: "przestawałbym"
+    pl: "Przestawałbym o szóstej, nie o ósmej."
+    ru: "Я заканчивал бы в шесть, а не в восемь."
+    source: { kind: authored }
+  - form: "przestawałbym"
+    pl: "Nigdy nie przestawałbym próbować."
+    ru: "Я никогда не переставал бы пробовать."
+    source: { kind: authored }
+  - form: "przestawałbym"
+    pl: "Przestawałbym z nimi po takiej historii."
+    ru: "После такой истории я перестал бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałbyś"
+    pl: "Przestawałbyś narzekać choć na chwilę?"
+    ru: "Ты перестал бы жаловаться хоть на минуту?"
+    source: { kind: authored }
+  - form: "przestawałbyś"
+    pl: "Gdybyś mógł, przestawałbyś wcześniej."
+    ru: "Если бы ты мог, ты заканчивал бы раньше."
+    source: { kind: authored }
+  - form: "przestawałbyś"
+    pl: "Przestawałbyś z nimi na twoim miejscu."
+    ru: "На твоём месте ты перестал бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałem"
+    pl: "Nigdy nie przestawałem w to wierzyć."
+    ru: "Я никогда не переставал в это верить."
+    source: { kind: authored }
+  - form: "przestawałem"
+    pl: "Przestawałem pracować najpóźniej."
+    ru: "Я переставал работать позже всех."
+    source: { kind: authored }
+  - form: "przestawałem"
+    pl: "Przestawałem z nimi już wtedy."
+    ru: "Я уже тогда перестал с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałeś"
+    pl: "Dlaczego przestawałeś tak wcześnie?"
+    ru: "Почему ты заканчивал так рано?"
+    source: { kind: authored }
+  - form: "przestawałeś"
+    pl: "Nie przestawałeś narzekać przez tydzień."
+    ru: "Ты не переставал жаловаться неделю."
+    source: { kind: authored }
+  - form: "przestawałeś"
+    pl: "Przestawałeś z nimi czy nie?"
+    ru: "Ты перестал с ними общаться или нет?"
+    source: { kind: authored }
+  - form: "przestawało"
+    pl: "Radio nie przestawało grać."
+    ru: "Радио не переставало играть."
+    source: { kind: authored }
+  - form: "przestawało"
+    pl: "Dziecko nie przestawało płakać."
+    ru: "Ребёнок не переставал плакать."
+    source: { kind: authored }
+  - form: "przestawało"
+    pl: "To pytanie nie przestawało wracać."
+    ru: "Этот вопрос не переставал возвращаться."
+    source: { kind: authored }
+  - form: "przestawałoby"
+    pl: "Radio nie przestawałoby grać przez noc."
+    ru: "Радио не переставало бы играть всю ночь."
+    source: { kind: authored }
+  - form: "przestawałoby"
+    pl: "Dziecko przestawałoby płakać przy matce."
+    ru: "Ребёнок переставал бы плакать при матери."
+    source: { kind: authored }
+  - form: "przestawałoby"
+    pl: "To pytanie nie przestawałoby wracać."
+    ru: "Этот вопрос не переставал бы возвращаться."
+    source: { kind: authored }
+  - form: "przestawały"
+    pl: "Maszyny nie przestawały pracować."
+    ru: "Машины не переставали работать."
+    source: { kind: authored }
+  - form: "przestawały"
+    pl: "Telefony nie przestawały dzwonić."
+    ru: "Телефоны не переставали звонить."
+    source: { kind: authored }
+  - form: "przestawały"
+    pl: "Przestawały działać jedna po drugiej."
+    ru: "Они перестали работать одна за другой."
+    source: { kind: authored }
+  - form: "przestawałyby"
+    pl: "Maszyny przestawałyby pracować co noc."
+    ru: "Машины переставали бы работать каждую ночь."
+    source: { kind: authored }
+  - form: "przestawałyby"
+    pl: "Telefony nie przestawałyby dzwonić."
+    ru: "Телефоны не переставали бы звонить."
+    source: { kind: authored }
+  - form: "przestawałyby"
+    pl: "Przestawałyby działać jedna po drugiej."
+    ru: "Они перестали бы работать одна за другой."
+    source: { kind: authored }
+  - form: "przestawałybyście"
+    pl: "Przestawałybyście pracować za wcześnie."
+    ru: "Вы переставали бы работать слишком рано."
+    source: { kind: authored }
+  - form: "przestawałybyście"
+    pl: "Nie przestawałybyście się śmiać."
+    ru: "Вы не переставали бы смеяться."
+    source: { kind: authored }
+  - form: "przestawałybyście"
+    pl: "Przestawałybyście z nimi obie."
+    ru: "Вы обе перестали бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałybyśmy"
+    pl: "Przestawałybyśmy czytać przed północą."
+    ru: "Мы переставали бы читать до полуночи."
+    source: { kind: authored }
+  - form: "przestawałybyśmy"
+    pl: "Nie przestawałybyśmy próbować."
+    ru: "Мы не переставали бы пробовать."
+    source: { kind: authored }
+  - form: "przestawałybyśmy"
+    pl: "Przestawałybyśmy z nimi obie."
+    ru: "Мы обе перестали бы с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałyście"
+    pl: "Nie przestawałyście się śmiać."
+    ru: "Вы не переставали смеяться."
+    source: { kind: authored }
+  - form: "przestawałyście"
+    pl: "Przestawałyście pracować za wcześnie."
+    ru: "Вы переставали работать слишком рано."
+    source: { kind: authored }
+  - form: "przestawałyście"
+    pl: "Przestawałyście z nimi obie."
+    ru: "Вы обе перестали с ними общаться."
+    source: { kind: authored }
+  - form: "przestawałyśmy"
+    pl: "Nie przestawałyśmy próbować."
+    ru: "Мы не переставали пробовать."
+    source: { kind: authored }
+  - form: "przestawałyśmy"
+    pl: "Przestawałyśmy czytać po północy."
+    ru: "Мы переставали читать после полуночи."
+    source: { kind: authored }
+  - form: "przestawałyśmy"
+    pl: "Przestawałyśmy z nimi obie."
+    ru: "Мы обе перестали с ними общаться."
+    source: { kind: authored }
