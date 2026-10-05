@@ -32,6 +32,12 @@ exclude:
   # "si" is Spanish text in the corpus, not a Polish word: its only example is
   # "Si me preguntas, es un poco rara"
   - si
+  # oznaczony: страдательное причастие от oznaczyć, не лемма — его нет ни в
+  # одном ранжированном списке, а oznaczyc, oznaczac, znaczyc и znak уже
+  # имеют карточки
+  - oznaczony
+  # przedawniony: то же самое — причастие от przedawnić, у которого карточка есть
+  - przedawniony
   # "miał" ranks high only as the past tense of "mieć"; the noun (coal dust) has
   # no examples of its own
   - miał
@@ -874,6 +880,8 @@ excludeNotes:
   david: { why: proper-noun }
   si: { why: foreign }
   "miał": { why: form-of, see: miec }
+  oznaczony: { why: form-of, see: oznaczyc }
+  przedawniony: { why: form-of, see: przedawnic }
   "miąć": { why: not-a-lemma }  # TODO: no evidence recorded for this pre-existing entry
   "dosycić": { why: variant-of, see: dosc }  # TODO: no evidence recorded for this pre-existing entry
   "mamić": { why: not-a-lemma }  # TODO: no evidence recorded for this pre-existing entry
