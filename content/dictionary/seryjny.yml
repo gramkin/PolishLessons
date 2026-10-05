@@ -1,0 +1,180 @@
+# review
+id: seryjny
+format: 2
+lemma: "seryjny"
+rank: 2922
+pos: adj
+pron: { cyr: "сэры́йны" }
+senses:
+  - id: mass-produced
+    ru: "серийный, массового выпуска"
+    examples:
+      - pl: "Numer seryjny znajdziesz pod obudową."
+        ru: "Серийный номер найдёшь под корпусом."
+        source: { kind: authored }
+      - pl: "Produkcja seryjna zaczyna się w marcu."
+        ru: "Серийное производство начинается в марте."
+        source: { kind: authored }
+      - pl: "To wersja seryjna, bez dodatków."
+        ru: "Это серийная версия, без дополнений."
+        source: { kind: authored }
+  - id: repeated-serial
+    ru: "серийный (о повторяющихся преступлениях)"
+    examples:
+      - pl: "Seryjny morderca działał przez osiem lat."
+        ru: "Серийный убийца действовал восемь лет."
+        source: { kind: authored }
+      - pl: "Mordercy seryjni rzadko działają spontanicznie."
+        ru: "Серийные убийцы редко действуют спонтанно."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Третий суффикс в этой череде, и снова правило переводится напрямую. Там, где русский пишет «-ийный», польский пишет -YJNY: SERIA — SERYJNY «серия — серийный», AWARIA — AWARYJNY «авария — аварийный», LINIA — LINIJNY. Произносится «сэры́йны»: se читается твёрдо, как «сэ», y — это «ы», ударение на предпоследнем слоге. Сравните -ALNY в ORYGINALNY и BRUTALNY и -OWY в MIĘDZYNARODOWY: три разных латинских суффикса, и у каждого свой польский ответ." }
+  - { kind: usage, text: "Прилагательное относительное: степеней сравнения нет, и это полная картина, а не урезанная, как у MIĘDZYNARODOWY. Нельзя сказать ни BARDZIEJ SERYJNY, ни NAJSERYJNIEJSZY — вещь либо серийная, либо нет. Первое значение техническое, о массовом выпуске: PRODUKCJA SERYJNA, NUMER SERYJNY, EGZEMPLARZ SERYJNY. Второе — о повторяющемся преступлении: SERYJNY MORDERCA, и здесь порядок слов обратный, прилагательное идёт перед существительным." }
+  - { kind: false-friend, text: "Ловушка в соседних словах, а не в этом. SERIAL по-польски — «телесериал», а SERIA — и «серия» фильма, и «партия товара», и «очередь выстрелов». Но SERYJNY к телесериалам отношения не имеет: «серийный» о телесериале будет SERIALOWY. Так что NUMER SERYJNY «серийный номер» переводится буквально, а вот «серийный сезон» сказать нельзя. Ещё одно: польское SERYJNY не значит «заурядный», тогда как русское «серийный» иногда отдаёт этим оттенком." }
+  - { kind: government, text: "Прилагательное согласуется с существительным и управления не имеет. Порядок слов зависит от значения и его стоит запомнить готовыми парами: в техническом смысле прилагательное идёт после существительного — NUMER SERYJNY, PRODUKCJA SERYJNA, WYPOSAŻENIE SERYJNE; в смысле повторяющегося преступления — перед ним: SERYJNY MORDERCA, SERYJNY PODPALACZ, SERYJNY OSZUST." }
+collocations:
+  - { pl: "numer seryjny", ru: "серийный номер" }
+  - { pl: "produkcja seryjna", ru: "серийное производство" }
+  - { pl: "seryjny morderca", ru: "серийный убийца" }
+family:
+  - { pl: "seria", ru: "серия; партия товара", relation: root, id: seria }
+  - { pl: "serial", ru: "телесериал", relation: root, id: serial }
+  - { pl: "seryjnie", ru: "серийно", relation: derived }
+etymology: "Из латинского SERIES «ряд, череда», от глагола SERERE «сплетать, нанизывать» — то есть вещи, нанизанные одна за другой, как бусины. Оттуда же русское «серия» и английское SERIES. В польский слово пришло через немецкий и французский в девятнадцатом веке вместе с фабричным производством, и прилагательное получило польский суффикс -YJNY, который регулярно образуется от существительных на -IA. Так что латинский корень в обоих языках один, а суффиксы разошлись: польское -YJNY против русского «-ийный»."
+memory: "Суффиксное правило: русское «-ийный» — польское -YJNY. Seria → seryjny, awaria → awaryjny. Степеней сравнения нет. Осторожно: «серийный» о телесериале — не seryjny, а serialowy."
+idioms:
+  - { pl: "numer seryjny", ru: "серийный номер" }
+  - { pl: "seryjny morderca", ru: "серийный убийца" }
+formExamples:
+  - form: "seryjna"
+    pl: "Produkcja seryjna zaczyna się w marcu."
+    ru: "Серийное производство начинается в марте."
+    source: { kind: authored }
+  - form: "seryjna"
+    pl: "To wersja seryjna, bez dodatków."
+    ru: "Это серийная версия, без дополнений."
+    source: { kind: authored }
+  - form: "seryjna"
+    pl: "Pierwsza partia seryjna wyszła wadliwa."
+    ru: "Первая серийная партия вышла бракованной."
+    source: { kind: authored }
+  - form: "seryjne"
+    pl: "Auta seryjne są tańsze od robionych na zamówienie."
+    ru: "Серийные машины дешевле сделанных на заказ."
+    source: { kind: authored }
+  - form: "seryjne"
+    pl: "Wyposażenie seryjne obejmuje klimatyzację."
+    ru: "Серийное оснащение включает кондиционер."
+    source: { kind: authored }
+  - form: "seryjne"
+    pl: "Numery seryjne zostały starte."
+    ru: "Серийные номера были стёрты."
+    source: { kind: authored }
+  - form: "seryjnego"
+    pl: "Nie ma numeru seryjnego na tej części."
+    ru: "На этой детали нет серийного номера."
+    source: { kind: authored }
+  - form: "seryjnego"
+    pl: "Od modelu seryjnego różni się tylko silnikiem."
+    ru: "От серийной модели отличается только двигателем."
+    source: { kind: authored }
+  - form: "seryjnego"
+    pl: "Szukali auta seryjnego, nie kolekcjonerskiego."
+    ru: "Они искали серийную машину, а не коллекционную."
+    source: { kind: authored }
+  - form: "seryjnej"
+    pl: "Dotarli do produkcji seryjnej po dwóch latach."
+    ru: "Они дошли до серийного производства через два года."
+    source: { kind: authored }
+  - form: "seryjnej"
+    pl: "W wersji seryjnej nie ma skórzanych foteli."
+    ru: "В серийной версии нет кожаных сидений."
+    source: { kind: authored }
+  - form: "seryjnej"
+    pl: "Po partii seryjnej zmienili dostawcę."
+    ru: "После серийной партии они сменили поставщика."
+    source: { kind: authored }
+  - form: "seryjnemu"
+    pl: "Seryjnemu egzemplarzowi brakuje dwóch funkcji."
+    ru: "Серийному экземпляру не хватает двух функций."
+    source: { kind: authored }
+  - form: "seryjnemu"
+    pl: "Dzięki wyposażeniu seryjnemu cena spadła."
+    ru: "Благодаря серийному оснащению цена упала."
+    source: { kind: authored }
+  - form: "seryjnemu"
+    pl: "Przyglądali się modelowi seryjnemu na targach."
+    ru: "Они рассматривали серийную модель на выставке."
+    source: { kind: authored }
+  - form: "seryjni"
+    pl: "Mordercy seryjni rzadko działają spontanicznie."
+    ru: "Серийные убийцы редко действуют спонтанно."
+    source: { kind: authored }
+  - form: "seryjni"
+    pl: "Nie wszyscy sprawcy seryjni zostają złapani."
+    ru: "Не все серийные преступники попадаются."
+    source: { kind: authored }
+  - form: "seryjni"
+    pl: "Seryjni oszuści zmieniają miasta co pół roku."
+    ru: "Серийные мошенники меняют города каждые полгода."
+    source: { kind: authored }
+  - form: "seryjny"
+    pl: "Numer seryjny znajdziesz pod obudową."
+    ru: "Серийный номер найдёшь под корпусом."
+    source: { kind: authored }
+  - form: "seryjny"
+    pl: "To model seryjny, nie prototyp."
+    ru: "Это серийная модель, а не прототип."
+    source: { kind: authored }
+  - form: "seryjny"
+    pl: "Seryjny morderca działał przez osiem lat."
+    ru: "Серийный убийца действовал восемь лет."
+    source: { kind: authored }
+  - form: "seryjnych"
+    pl: "Wśród numerów seryjnych brakowało jednego."
+    ru: "Среди серийных номеров не хватало одного."
+    source: { kind: authored }
+  - form: "seryjnych"
+    pl: "Bez części seryjnych naprawa potrwa miesiąc."
+    ru: "Без серийных деталей ремонт займёт месяц."
+    source: { kind: authored }
+  - form: "seryjnych"
+    pl: "Lista morderstw seryjnych liczy dwanaście pozycji."
+    ru: "Список серийных убийств насчитывает двенадцать пунктов."
+    source: { kind: authored }
+  - form: "seryjnym"
+    pl: "W egzemplarzu seryjnym zmieniono tylko kolor."
+    ru: "В серийном экземпляре изменили только цвет."
+    source: { kind: authored }
+  - form: "seryjnym"
+    pl: "Okazał się mordercą seryjnym, nie przypadkowym."
+    ru: "Он оказался серийным убийцей, а не случайным."
+    source: { kind: authored }
+  - form: "seryjnym"
+    pl: "Autom seryjnym daje się trzy lata gwarancji."
+    ru: "Серийным машинам дают три года гарантии."
+    source: { kind: authored }
+  - form: "seryjnymi"
+    pl: "Zajmują się tylko autami seryjnymi."
+    ru: "Они занимаются только серийными машинами."
+    source: { kind: authored }
+  - form: "seryjnymi"
+    pl: "Między częściami seryjnymi a prototypowymi jest różnica."
+    ru: "Между серийными и прототипными деталями есть разница."
+    source: { kind: authored }
+  - form: "seryjnymi"
+    pl: "Handlują częściami seryjnymi od lat."
+    ru: "Они торгуют серийными деталями уже годы."
+    source: { kind: authored }
+  - form: "seryjną"
+    pl: "Uruchomili produkcję seryjną w zeszłym roku."
+    ru: "Они запустили серийное производство в прошлом году."
+    source: { kind: authored }
+  - form: "seryjną"
+    pl: "Uznali tę wersję za seryjną, choć różni się detalami."
+    ru: "Эту версию признали серийной, хотя она отличается деталями."
+    source: { kind: authored }
+  - form: "seryjną"
+    pl: "Kupili wersję seryjną i nic nie zmieniali."
+    ru: "Они купили серийную версию и ничего не меняли."
+    source: { kind: authored }
