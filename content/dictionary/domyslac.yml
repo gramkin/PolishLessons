@@ -1,0 +1,684 @@
+# review
+id: domyslac
+format: 2
+lemma: "domyślać"
+rank: 2679
+pos: verb
+pron: { cyr: "домы́слаць" }
+senses:
+  - id: guess
+    ru: "догадываться"
+    examples:
+      - pl: "Domyślam się, o co ci chodzi."
+        ru: "Я догадываюсь, о чём ты."
+        source: { kind: authored }
+      - pl: "Domyślali się prawdy od dawna."
+        ru: "Они давно догадывались о правде."
+        source: { kind: authored }
+      - pl: "Każdy się domyśla, czym to się skończy."
+        ru: "Каждый догадывается, чем это кончится."
+        source: { kind: authored }
+  - id: infer
+    ru: "понимать по намёкам, додумывать"
+    examples:
+      - pl: "Reszty trzeba się domyślać samemu."
+        ru: "Остальное надо додумывать самому."
+        source: { kind: authored }
+      - pl: "Domyślano się, że coś ukrywa."
+        ru: "Догадывались, что он что-то скрывает."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Глагол живёт только с SIĘ, и это не стилистика, а устройство: DOMYŚLAĆ без SIĘ в польском не употребляется вовсе. Поэтому в карточке все пятьдесят две формы даны с SIĘ, а одиннадцать страдательных причастий пропущены: у возвратного глагола страдательного залога не бывает, и PoliMorf строит DOMYŚLANY механически от основы. Зато безличное DOMYŚLANO SIĘ и отглагольное DOMYŚLANIE SIĘ вполне живые." }
+  - { kind: government, text: "Управление — родительный падеж без предлога: DOMYŚLAĆ SIĘ CZEGOŚ. DOMYŚLAM SIĘ PRAWDY значит «я догадываюсь о правде», и предлога «о» здесь нет. Это уже третья карточка подряд, где русский предлог сменяется в польском чистым падежом: OBWINIAĆ меняет «в» на предлог O с винительным, ODMAWIAĆ меняет «в» на чистый родительный, а DOMYŚLAĆ SIĘ меняет на чистый родительный уже «о». Правило для русского простое: не переносите предлог, сначала проверьте, не хватает ли польскому одного падежа. Можно и с союзом: DOMYŚLAM SIĘ, ŻE WIEDZIAŁ." }
+  - { kind: false-friend, text: "Существительное из этого гнезда — ловушка. DOMYSŁ значит нейтральное «догадка, предположение»: TO TYLKO DOMYSŁY — «это всего лишь догадки». Русский же «домысел» почти всегда укоризненный, ближе к «выдумка, отсебятина». Так что польское слово слабее и безобиднее русского. А прилагательное DOMYŚLNY значит «догадливый»: ON JEST BARDZO DOMYŚLNY — «он очень догадливый»." }
+  - { kind: usage, text: "Второе значение DOMYŚLNY пришло из техники и русскому знакомо по переводу, а не по корню: WARTOŚĆ DOMYŚLNA — это «значение по умолчанию», USTAWIENIA DOMYŚLNE — «настройки по умолчанию». Логика та же, что в живой речи: то, что система «додумывает» сама, когда вы не указали. Прилагательное при этом степени сравнения имеет полные — DOMYŚLNIEJSZY, NAJDOMYŚLNIEJSZY, — но только в значении «догадливый»: настройки догадливее других не бывают." }
+collocations:
+  - { pl: "domyślać się prawdy", ru: "догадываться о правде" }
+  - { pl: "łatwo się domyślić", ru: "легко догадаться" }
+  - { pl: "domyślać się najgorszego", ru: "догадываться о худшем" }
+family:
+  - { pl: "domyślić", ru: "догадаться", relation: aspect }
+  - { pl: "myśleć", ru: "думать", relation: root, id: myslec }
+  - { pl: "domysł", ru: "догадка", relation: derived }
+etymology: "Приставка do- и MYŚLEĆ «думать», из праславянского *mysliti — то же, что русское «мыслить». Буквально «домыслить, додумать до конца», откуда «догадаться». Русское «домысливать» собрано из тех же частей и значит почти то же, только в русском оно отдаёт произволом, а в польском нет. Из этого гнезда вышли DOMYSŁ «догадка», DOMYŚLNY «догадливый» и DOMYŚLNOŚĆ «догадливость»."
+memory: "Только с SIĘ и только с родительным: domyślam się prawdy — без всякого «о». А domysł — это нейтральная «догадка», не русский укоризненный «домысел»."
+idioms:
+  - { pl: "jak łatwo się domyślić", ru: "как легко догадаться" }
+  - { pl: "domyślać się najgorszego", ru: "догадываться о худшем" }
+formExamplesSkip:
+  - { form: "domyślany", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślana", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślane", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanego", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanej", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanemu", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślaną", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanym", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanych", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślanymi", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+  - { form: "domyślani", reason: "У возвратного глагола страдательного залога не бывает: DOMYŚLAĆ живёт только с SIĘ, а SIĘ и страдательное причастие несовместимы — нельзя «быть догадываемым о чём-то». PoliMorf строит эти одиннадцать форм механически от основы на -an-, не глядя на возвратность. Безличное DOMYŚLANO SIĘ при этом живое и в карточке есть." }
+formExamples:
+  - form: "domyśla"
+    pl: "Nikt się niczego nie domyśla."
+    ru: "Никто ни о чём не догадывается."
+    source: { kind: authored }
+  - form: "domyśla"
+    pl: "Ona domyśla się wszystkiego pierwsza."
+    ru: "Она догадывается обо всём первой."
+    source: { kind: authored }
+  - form: "domyśla"
+    pl: "Czytelnik domyśla się zakończenia po stronie."
+    ru: "Читатель догадывается о финале через страницу."
+    source: { kind: authored }
+  - form: "domyślacie"
+    pl: "Domyślacie się, dlaczego nie przyszedł?"
+    ru: "Вы догадываетесь, почему он не пришёл?"
+    source: { kind: authored }
+  - form: "domyślacie"
+    pl: "Jeśli się domyślacie, nie mówcie nikomu."
+    ru: "Если догадываетесь, никому не говорите."
+    source: { kind: authored }
+  - form: "domyślacie"
+    pl: "Domyślacie się prawdy czy nie?"
+    ru: "Вы догадываетесь о правде или нет?"
+    source: { kind: authored }
+  - form: "domyślaj"
+    pl: "Nie domyślaj się, zapytaj wprost."
+    ru: "Не догадывайся, спроси прямо."
+    source: { kind: authored }
+  - form: "domyślaj"
+    pl: "Domyślaj się sam, nie wszystko powiem."
+    ru: "Догадывайся сам, я не всё скажу."
+    source: { kind: authored }
+  - form: "domyślaj"
+    pl: "Nie domyślaj się najgorszego od razu."
+    ru: "Не догадывайся сразу о худшем."
+    source: { kind: authored }
+  - form: "domyślajcie"
+    pl: "Nie domyślajcie się, pytajcie."
+    ru: "Не догадывайтесь, спрашивайте."
+    source: { kind: authored }
+  - form: "domyślajcie"
+    pl: "Domyślajcie się sami, podpowiedzi nie będzie."
+    ru: "Догадывайтесь сами, подсказки не будет."
+    source: { kind: authored }
+  - form: "domyślajcie"
+    pl: "Nie domyślajcie się niczego przedwcześnie."
+    ru: "Не догадывайтесь ни о чём преждевременно."
+    source: { kind: authored }
+  - form: "domyślajmy"
+    pl: "Nie domyślajmy się, sprawdźmy."
+    ru: "Не будем догадываться, проверим."
+    source: { kind: authored }
+  - form: "domyślajmy"
+    pl: "Domyślajmy się ostrożnie."
+    ru: "Будем догадываться осторожно."
+    source: { kind: authored }
+  - form: "domyślajmy"
+    pl: "Nie domyślajmy się najgorszego."
+    ru: "Не будем догадываться о худшем."
+    source: { kind: authored }
+  - form: "domyślają"
+    pl: "Domyślają się prawdy, ale milczą."
+    ru: "Они догадываются о правде, но молчат."
+    source: { kind: authored }
+  - form: "domyślają"
+    pl: "Dzieci domyślają się więcej, niż się zdaje."
+    ru: "Дети догадываются о большем, чем кажется."
+    source: { kind: authored }
+  - form: "domyślają"
+    pl: "Sąsiedzi domyślają się wszystkiego."
+    ru: "Соседи догадываются обо всём."
+    source: { kind: authored }
+  - form: "domyślając"
+    pl: "Domyślając się prawdy, nic nie powiedział."
+    ru: "Догадываясь о правде, он ничего не сказал."
+    source: { kind: authored }
+  - form: "domyślając"
+    pl: "Domyślając się najgorszego, zadzwoniła do matki."
+    ru: "Догадываясь о худшем, она позвонила матери."
+    source: { kind: authored }
+  - form: "domyślając"
+    pl: "Domyślając się reszty, czytelnik uśmiecha się sam."
+    ru: "Догадываясь об остальном, читатель улыбается сам."
+    source: { kind: authored }
+  - form: "domyślająca"
+    pl: "Kobieta domyślająca się prawdy milczała."
+    ru: "Женщина, догадывающаяся о правде, молчала."
+    source: { kind: authored }
+  - form: "domyślająca"
+    pl: "Publiczność domyślająca się puenty przestaje się śmiać."
+    ru: "Публика, догадывающаяся о развязке, перестаёт смеяться."
+    source: { kind: authored }
+  - form: "domyślająca"
+    pl: "Osoba domyślająca się intencji reaguje ostrożniej."
+    ru: "Человек, догадывающийся о намерениях, реагирует осторожнее."
+    source: { kind: authored }
+  - form: "domyślające"
+    pl: "Dziecko domyślające się prawdy zadaje trudne pytania."
+    ru: "Ребёнок, догадывающийся о правде, задаёт трудные вопросы."
+    source: { kind: authored }
+  - form: "domyślające"
+    pl: "Dzieci domyślające się wszystkiego milczą najdłużej."
+    ru: "Дети, догадывающиеся обо всём, молчат дольше всех."
+    source: { kind: authored }
+  - form: "domyślające"
+    pl: "Te zdania są domyślające się odpowiedzi z góry."
+    ru: "Эти фразы заранее предугадывают ответ."
+    source: { kind: authored }
+  - form: "domyślającego"
+    pl: "Od czytelnika domyślającego się reszty wymaga się uwagi."
+    ru: "От читателя, догадывающегося об остальном, требуется внимание."
+    source: { kind: authored }
+  - form: "domyślającego"
+    pl: "Nie znam nikogo domyślającego się wszystkiego tak szybko."
+    ru: "Я не знаю никого, догадывающегося обо всём так быстро."
+    source: { kind: authored }
+  - form: "domyślającego"
+    pl: "Szukali widza domyślającego się sztuczki."
+    ru: "Они искали зрителя, догадывающегося о трюке."
+    source: { kind: authored }
+  - form: "domyślającej"
+    pl: "O publiczności domyślającej się puenty mówił z żalem."
+    ru: "О публике, догадывающейся о развязке, он говорил с сожалением."
+    source: { kind: authored }
+  - form: "domyślającej"
+    pl: "Nie ma mowy o osobie domyślającej się wszystkiego."
+    ru: "О человеке, догадывающемся обо всём, и речи нет."
+    source: { kind: authored }
+  - form: "domyślającej"
+    pl: "Pomogli kobiecie domyślającej się najgorszego."
+    ru: "Они помогли женщине, догадывающейся о худшем."
+    source: { kind: authored }
+  - form: "domyślającemu"
+    pl: "Czytelnikowi domyślającemu się zakończenia zepsuto zabawę."
+    ru: "Читателю, догадывающемуся о финале, испортили удовольствие."
+    source: { kind: authored }
+  - form: "domyślającemu"
+    pl: "Przyglądał się dziecku domyślającemu się prawdy."
+    ru: "Он смотрел на ребёнка, догадывающегося о правде."
+    source: { kind: authored }
+  - form: "domyślającemu"
+    pl: "Dzięki widzowi domyślającemu się sztuczki wyszło oszustwo."
+    ru: "Благодаря зрителю, догадавшемуся о трюке, обман вышел наружу."
+    source: { kind: authored }
+  - form: "domyślający"
+    pl: "Czytelnik domyślający się zakończenia nie odłoży książki."
+    ru: "Читатель, догадывающийся о финале, не отложит книгу."
+    source: { kind: authored }
+  - form: "domyślający"
+    pl: "Człowiek domyślający się wszystkiego bywa niewygodny."
+    ru: "Человек, догадывающийся обо всём, бывает неудобен."
+    source: { kind: authored }
+  - form: "domyślający"
+    pl: "Widz domyślający się sztuczki traci przyjemność."
+    ru: "Зритель, догадывающийся о трюке, теряет удовольствие."
+    source: { kind: authored }
+  - form: "domyślających"
+    pl: "Wśród domyślających się prawdy nie było nikogo z rodziny."
+    ru: "Среди догадывающихся о правде не было никого из семьи."
+    source: { kind: authored }
+  - form: "domyślających"
+    pl: "Bez czytelników domyślających się reszty ta książka nie działa."
+    ru: "Без читателей, догадывающихся об остальном, эта книга не работает."
+    source: { kind: authored }
+  - form: "domyślających"
+    pl: "Lista osób domyślających się wszystkiego jest krótka."
+    ru: "Список людей, догадывающихся обо всём, короткий."
+    source: { kind: authored }
+  - form: "domyślającym"
+    pl: "W czytelniku domyślającym się reszty widzieli sojusznika."
+    ru: "В читателе, догадывающемся об остальном, они видели союзника."
+    source: { kind: authored }
+  - form: "domyślającym"
+    pl: "Okazał się człowiekiem domyślającym się wszystkiego."
+    ru: "Он оказался человеком, догадывающимся обо всём."
+    source: { kind: authored }
+  - form: "domyślającym"
+    pl: "Domyślającym się prawdy świadkom kazano milczeć."
+    ru: "Свидетелям, догадавшимся о правде, велели молчать."
+    source: { kind: authored }
+  - form: "domyślającymi"
+    pl: "Między domyślającymi się prawdy a wiedzącymi jest różnica."
+    ru: "Между догадывающимися о правде и знающими есть разница."
+    source: { kind: authored }
+  - form: "domyślającymi"
+    pl: "Zajął się czytelnikami domyślającymi się zakończenia."
+    ru: "Он занялся читателями, догадывающимися о финале."
+    source: { kind: authored }
+  - form: "domyślającymi"
+    pl: "Rozmawiał z widzami domyślającymi się sztuczki."
+    ru: "Он говорил со зрителями, догадавшимися о трюке."
+    source: { kind: authored }
+  - form: "domyślającą"
+    pl: "Znają publiczność domyślającą się puenty z góry."
+    ru: "Они знают публику, догадывающуюся о развязке заранее."
+    source: { kind: authored }
+  - form: "domyślającą"
+    pl: "Uznali ją za osobę domyślającą się wszystkiego."
+    ru: "Её сочли человеком, догадывающимся обо всём."
+    source: { kind: authored }
+  - form: "domyślającą"
+    pl: "Zastąpili widownię domyślającą się każdej sztuczki."
+    ru: "Они заменили публику, догадывающуюся о каждом трюке."
+    source: { kind: authored }
+  - form: "domyślali"
+    pl: "Domyślali się prawdy od dawna."
+    ru: "Они давно догадывались о правде."
+    source: { kind: authored }
+  - form: "domyślali"
+    pl: "Niczego się nie domyślali do końca."
+    ru: "Они ни о чём не догадывались до конца."
+    source: { kind: authored }
+  - form: "domyślali"
+    pl: "Domyślali się, że ktoś ich słucha."
+    ru: "Они догадывались, что их кто-то слушает."
+    source: { kind: authored }
+  - form: "domyślaliby"
+    pl: "Domyślaliby się prawdy, gdyby ktoś zapytał."
+    ru: "Они догадались бы о правде, если бы кто-то спросил."
+    source: { kind: authored }
+  - form: "domyślaliby"
+    pl: "Bez tej uwagi nie domyślaliby się niczego."
+    ru: "Без этого замечания они ни о чём не догадались бы."
+    source: { kind: authored }
+  - form: "domyślaliby"
+    pl: "Sąsiedzi domyślaliby się wszystkiego w tydzień."
+    ru: "Соседи догадались бы обо всём за неделю."
+    source: { kind: authored }
+  - form: "domyślalibyście"
+    pl: "Domyślalibyście się czegoś na naszym miejscu?"
+    ru: "Вы догадались бы о чём-нибудь на нашем месте?"
+    source: { kind: authored }
+  - form: "domyślalibyście"
+    pl: "Gdybyście słuchali, domyślalibyście się od razu."
+    ru: "Если бы вы слушали, вы догадались бы сразу."
+    source: { kind: authored }
+  - form: "domyślalibyście"
+    pl: "Bez pomocy nie domyślalibyście się prawdy."
+    ru: "Без помощи вы не догадались бы о правде."
+    source: { kind: authored }
+  - form: "domyślalibyśmy"
+    pl: "Domyślalibyśmy się prawdy znacznie wcześniej."
+    ru: "Мы догадались бы о правде гораздо раньше."
+    source: { kind: authored }
+  - form: "domyślalibyśmy"
+    pl: "Bez wskazówki nie domyślalibyśmy się niczego."
+    ru: "Без подсказки мы ни о чём не догадались бы."
+    source: { kind: authored }
+  - form: "domyślalibyśmy"
+    pl: "Domyślalibyśmy się, że to nie koniec."
+    ru: "Мы догадались бы, что это не конец."
+    source: { kind: authored }
+  - form: "domyślaliście"
+    pl: "Domyślaliście się czegoś?"
+    ru: "Вы о чём-нибудь догадывались?"
+    source: { kind: authored }
+  - form: "domyślaliście"
+    pl: "Domyślaliście się prawdy pierwsi."
+    ru: "Вы первыми догадывались о правде."
+    source: { kind: authored }
+  - form: "domyślaliście"
+    pl: "Niczego się nie domyślaliście."
+    ru: "Вы ни о чём не догадывались."
+    source: { kind: authored }
+  - form: "domyślaliśmy"
+    pl: "Domyślaliśmy się prawdy od dawna."
+    ru: "Мы давно догадывались о правде."
+    source: { kind: authored }
+  - form: "domyślaliśmy"
+    pl: "Niczego się nie domyślaliśmy."
+    ru: "Мы ни о чём не догадывались."
+    source: { kind: authored }
+  - form: "domyślaliśmy"
+    pl: "Domyślaliśmy się, że to nie koniec."
+    ru: "Мы догадывались, что это не конец."
+    source: { kind: authored }
+  - form: "domyślam"
+    pl: "Domyślam się, o co ci chodzi."
+    ru: "Я догадываюсь, о чём ты."
+    source: { kind: authored }
+  - form: "domyślam"
+    pl: "Domyślam się najgorszego."
+    ru: "Я догадываюсь о худшем."
+    source: { kind: authored }
+  - form: "domyślam"
+    pl: "Czegoś się domyślam, ale nie wszystkiego."
+    ru: "О чём-то я догадываюсь, но не обо всём."
+    source: { kind: authored }
+  - form: "domyślamy"
+    pl: "Domyślamy się, że to nie koniec."
+    ru: "Мы догадываемся, что это не конец."
+    source: { kind: authored }
+  - form: "domyślamy"
+    pl: "Domyślamy się powodu bez pytania."
+    ru: "Мы догадываемся о причине без вопросов."
+    source: { kind: authored }
+  - form: "domyślamy"
+    pl: "Czegoś się domyślamy, ale milczymy."
+    ru: "О чём-то мы догадываемся, но молчим."
+    source: { kind: authored }
+  - form: "domyślania"
+    pl: "Bez domyślania się reszty tej książki nie zrozumiesz."
+    ru: "Не догадываясь об остальном, эту книгу не понять."
+    source: { kind: authored }
+  - form: "domyślania"
+    pl: "Do domyślania się prawdy trzeba uwagi."
+    ru: "Чтобы догадаться о правде, нужно внимание."
+    source: { kind: authored }
+  - form: "domyślania"
+    pl: "Po latach domyślania się wszystkiego wreszcie zapytał."
+    ru: "После годов догадок он наконец спросил."
+    source: { kind: authored }
+  - form: "domyślanie"
+    pl: "Domyślanie się reszty to połowa czytania."
+    ru: "Догадываться об остальном — половина чтения."
+    source: { kind: authored }
+  - form: "domyślanie"
+    pl: "Domyślanie się intencji bywa zwodnicze."
+    ru: "Догадываться о намерениях бывает обманчиво."
+    source: { kind: authored }
+  - form: "domyślanie"
+    pl: "Ciągłe domyślanie się prawdy męczy."
+    ru: "Постоянные догадки о правде изматывают."
+    source: { kind: authored }
+  - form: "domyślaniem"
+    pl: "Zmęczony domyślaniem się jej nastrojów zapytał wprost."
+    ru: "Устав догадываться о её настроениях, он спросил прямо."
+    source: { kind: authored }
+  - form: "domyślaniem"
+    pl: "Między domyślaniem się a wiedzą jest różnica."
+    ru: "Между догадкой и знанием есть разница."
+    source: { kind: authored }
+  - form: "domyślaniem"
+    pl: "Zaczął od domyślaniem się powodu."
+    ru: "Он начал с догадок о причине."
+    source: { kind: authored }
+  - form: "domyślaniu"
+    pl: "W domyślaniu się intencji łatwo pomylić się."
+    ru: "Догадываясь о намерениях, легко ошибиться."
+    source: { kind: authored }
+  - form: "domyślaniu"
+    pl: "O domyślaniu się prawdy mówiła ostrożnie."
+    ru: "О догадках насчёт правды она говорила осторожно."
+    source: { kind: authored }
+  - form: "domyślaniu"
+    pl: "Po domyślaniu się najgorszego przyszła ulga."
+    ru: "После догадок о худшем пришло облегчение."
+    source: { kind: authored }
+  - form: "domyślano"
+    pl: "Domyślano się, że coś ukrywa."
+    ru: "Догадывались, что он что-то скрывает."
+    source: { kind: authored }
+  - form: "domyślano"
+    pl: "Prawdy domyślano się od dawna."
+    ru: "О правде догадывались давно."
+    source: { kind: authored }
+  - form: "domyślano"
+    pl: "W biurze domyślano się powodu bez pytania."
+    ru: "В конторе догадывались о причине без вопросов."
+    source: { kind: authored }
+  - form: "domyślasz"
+    pl: "Domyślasz się, kto to napisał?"
+    ru: "Ты догадываешься, кто это написал?"
+    source: { kind: authored }
+  - form: "domyślasz"
+    pl: "Jeśli się domyślasz, powiedz wprost."
+    ru: "Если догадываешься, скажи прямо."
+    source: { kind: authored }
+  - form: "domyślasz"
+    pl: "Domyślasz się prawdy od dawna."
+    ru: "Ты давно догадываешься о правде."
+    source: { kind: authored }
+  - form: "domyślać"
+    pl: "Reszty trzeba się domyślać samemu."
+    ru: "Остальное надо додумывать самому."
+    source: { kind: authored }
+  - form: "domyślać"
+    pl: "Zaczął się domyślać, że coś jest nie tak."
+    ru: "Он начал догадываться, что что-то не так."
+    source: { kind: authored }
+  - form: "domyślać"
+    pl: "Łatwo się domyślać, gdy znasz kontekst."
+    ru: "Легко догадываться, когда знаешь контекст."
+    source: { kind: authored }
+  - form: "domyślał"
+    pl: "Domyślał się prawdy od samego początku."
+    ru: "Он догадывался о правде с самого начала."
+    source: { kind: authored }
+  - form: "domyślał"
+    pl: "Niczego się nie domyślał aż do końca."
+    ru: "Он ни о чём не догадывался до самого конца."
+    source: { kind: authored }
+  - form: "domyślał"
+    pl: "Domyślał się, że to pułapka."
+    ru: "Он догадывался, что это ловушка."
+    source: { kind: authored }
+  - form: "domyślała"
+    pl: "Domyślała się wszystkiego pierwsza."
+    ru: "Она догадывалась обо всём первой."
+    source: { kind: authored }
+  - form: "domyślała"
+    pl: "Niczego się nie domyślała przez lata."
+    ru: "Она годами ни о чём не догадывалась."
+    source: { kind: authored }
+  - form: "domyślała"
+    pl: "Domyślała się, kto dzwonił."
+    ru: "Она догадывалась, кто звонил."
+    source: { kind: authored }
+  - form: "domyślałaby"
+    pl: "Domyślałaby się wszystkiego pierwsza."
+    ru: "Она догадывалась бы обо всём первой."
+    source: { kind: authored }
+  - form: "domyślałaby"
+    pl: "Gdyby była uważniejsza, domyślałaby się prawdy."
+    ru: "Если бы она была внимательнее, она догадалась бы о правде."
+    source: { kind: authored }
+  - form: "domyślałaby"
+    pl: "Bez tej uwagi nie domyślałaby się niczego."
+    ru: "Без этого замечания она ни о чём не догадалась бы."
+    source: { kind: authored }
+  - form: "domyślałabym"
+    pl: "Domyślałabym się tego od razu."
+    ru: "Я догадалась бы об этом сразу."
+    source: { kind: authored }
+  - form: "domyślałabym"
+    pl: "Bez wskazówki nie domyślałabym się prawdy."
+    ru: "Без подсказки я не догадалась бы о правде."
+    source: { kind: authored }
+  - form: "domyślałabym"
+    pl: "Na jej miejscu domyślałabym się najgorszego."
+    ru: "На её месте я догадывалась бы о худшем."
+    source: { kind: authored }
+  - form: "domyślałabyś"
+    pl: "Domyślałabyś się czegoś na moim miejscu?"
+    ru: "Ты догадалась бы о чём-нибудь на моём месте?"
+    source: { kind: authored }
+  - form: "domyślałabyś"
+    pl: "Gdybyś słuchała, domyślałabyś się od razu."
+    ru: "Если бы ты слушала, ты догадалась бы сразу."
+    source: { kind: authored }
+  - form: "domyślałabyś"
+    pl: "Bez pomocy nie domyślałabyś się prawdy."
+    ru: "Без помощи ты не догадалась бы о правде."
+    source: { kind: authored }
+  - form: "domyślałam"
+    pl: "Domyślałam się tego od tygodnia."
+    ru: "Я догадывалась об этом неделю."
+    source: { kind: authored }
+  - form: "domyślałam"
+    pl: "Niczego się nie domyślałam."
+    ru: "Я ни о чём не догадывалась."
+    source: { kind: authored }
+  - form: "domyślałam"
+    pl: "Domyślałam się, że coś ukrywa."
+    ru: "Я догадывалась, что он что-то скрывает."
+    source: { kind: authored }
+  - form: "domyślałaś"
+    pl: "Domyślałaś się prawdy, prawda?"
+    ru: "Ты догадывалась о правде, верно?"
+    source: { kind: authored }
+  - form: "domyślałaś"
+    pl: "Niczego się nie domyślałaś przez lata."
+    ru: "Ты годами ни о чём не догадывалась."
+    source: { kind: authored }
+  - form: "domyślałaś"
+    pl: "Domyślałaś się, kto dzwonił."
+    ru: "Ты догадывалась, кто звонил."
+    source: { kind: authored }
+  - form: "domyślałby"
+    pl: "Domyślałby się prawdy, gdyby słuchał uważniej."
+    ru: "Он догадался бы о правде, если бы слушал внимательнее."
+    source: { kind: authored }
+  - form: "domyślałby"
+    pl: "Nikt nie domyślałby się niczego bez tej uwagi."
+    ru: "Без этого замечания никто ни о чём не догадался бы."
+    source: { kind: authored }
+  - form: "domyślałby"
+    pl: "Czytelnik domyślałby się zakończenia po stronie."
+    ru: "Читатель догадывался бы о финале через страницу."
+    source: { kind: authored }
+  - form: "domyślałbym"
+    pl: "Domyślałbym się najgorszego na twoim miejscu."
+    ru: "На твоём месте я догадывался бы о худшем."
+    source: { kind: authored }
+  - form: "domyślałbym"
+    pl: "Bez tej wskazówki nie domyślałbym się niczego."
+    ru: "Без этой подсказки я ни о чём не догадался бы."
+    source: { kind: authored }
+  - form: "domyślałbym"
+    pl: "Domyślałbym się prawdy znacznie wcześniej."
+    ru: "Я догадался бы о правде гораздо раньше."
+    source: { kind: authored }
+  - form: "domyślałbyś"
+    pl: "Domyślałbyś się czegoś na jej miejscu?"
+    ru: "Ты догадался бы о чём-нибудь на её месте?"
+    source: { kind: authored }
+  - form: "domyślałbyś"
+    pl: "Gdybyś znał szczegóły, domyślałbyś się od razu."
+    ru: "Если бы ты знал подробности, ты догадался бы сразу."
+    source: { kind: authored }
+  - form: "domyślałbyś"
+    pl: "Bez pomocy nie domyślałbyś się prawdy."
+    ru: "Без помощи ты не догадался бы о правде."
+    source: { kind: authored }
+  - form: "domyślałem"
+    pl: "Domyślałem się tego od początku."
+    ru: "Я догадывался об этом с начала."
+    source: { kind: authored }
+  - form: "domyślałem"
+    pl: "Niczego się wtedy nie domyślałem."
+    ru: "Тогда я ни о чём не догадывался."
+    source: { kind: authored }
+  - form: "domyślałem"
+    pl: "Domyślałem się, kto za tym stoi."
+    ru: "Я догадывался, кто за этим стоит."
+    source: { kind: authored }
+  - form: "domyślałeś"
+    pl: "Domyślałeś się czegoś czy nie?"
+    ru: "Ты о чём-нибудь догадывался или нет?"
+    source: { kind: authored }
+  - form: "domyślałeś"
+    pl: "Domyślałeś się prawdy od dawna."
+    ru: "Ты давно догадывался о правде."
+    source: { kind: authored }
+  - form: "domyślałeś"
+    pl: "Niczego się nie domyślałeś."
+    ru: "Ты ни о чём не догадывался."
+    source: { kind: authored }
+  - form: "domyślało"
+    pl: "Dziecko domyślało się więcej, niż mówiło."
+    ru: "Ребёнок догадывался о большем, чем говорил."
+    source: { kind: authored }
+  - form: "domyślało"
+    pl: "Całe miasto domyślało się prawdy."
+    ru: "Весь город догадывался о правде."
+    source: { kind: authored }
+  - form: "domyślało"
+    pl: "Żadne z nich nie domyślało się niczego."
+    ru: "Ни один из них ни о чём не догадывался."
+    source: { kind: authored }
+  - form: "domyślałoby"
+    pl: "Dziecko domyślałoby się więcej, niż sądzisz."
+    ru: "Ребёнок догадывался бы о большем, чем ты думаешь."
+    source: { kind: authored }
+  - form: "domyślałoby"
+    pl: "Całe miasto domyślałoby się prawdy w tydzień."
+    ru: "Весь город догадался бы о правде за неделю."
+    source: { kind: authored }
+  - form: "domyślałoby"
+    pl: "Żadne z nich nie domyślałoby się niczego."
+    ru: "Ни один из них ни о чём не догадался бы."
+    source: { kind: authored }
+  - form: "domyślały"
+    pl: "Dzieci domyślały się wszystkiego."
+    ru: "Дети догадывались обо всём."
+    source: { kind: authored }
+  - form: "domyślały"
+    pl: "Sąsiadki domyślały się prawdy pierwsze."
+    ru: "Соседки первыми догадывались о правде."
+    source: { kind: authored }
+  - form: "domyślały"
+    pl: "Te listy domyślały się odpowiedzi z góry."
+    ru: "Эти письма предугадывали ответ заранее."
+    source: { kind: authored }
+  - form: "domyślałyby"
+    pl: "Dzieci domyślałyby się wszystkiego w tydzień."
+    ru: "Дети догадались бы обо всём за неделю."
+    source: { kind: authored }
+  - form: "domyślałyby"
+    pl: "Sąsiadki domyślałyby się prawdy pierwsze."
+    ru: "Соседки догадались бы о правде первыми."
+    source: { kind: authored }
+  - form: "domyślałyby"
+    pl: "Bez tej uwagi nie domyślałyby się niczego."
+    ru: "Без этого замечания они ни о чём не догадались бы."
+    source: { kind: authored }
+  - form: "domyślałybyście"
+    pl: "Domyślałybyście się prawdy obie."
+    ru: "Вы обе догадались бы о правде."
+    source: { kind: authored }
+  - form: "domyślałybyście"
+    pl: "Gdybyście słuchały, domyślałybyście się od razu."
+    ru: "Если бы вы слушали, вы догадались бы сразу."
+    source: { kind: authored }
+  - form: "domyślałybyście"
+    pl: "Bez pomocy nie domyślałybyście się niczego."
+    ru: "Без помощи вы ни о чём не догадались бы."
+    source: { kind: authored }
+  - form: "domyślałybyśmy"
+    pl: "Domyślałybyśmy się tego obie."
+    ru: "Мы обе об этом догадались бы."
+    source: { kind: authored }
+  - form: "domyślałybyśmy"
+    pl: "Bez wskazówki nie domyślałybyśmy się prawdy."
+    ru: "Без подсказки мы не догадались бы о правде."
+    source: { kind: authored }
+  - form: "domyślałybyśmy"
+    pl: "Domyślałybyśmy się, kto to był."
+    ru: "Мы догадались бы, кто это был."
+    source: { kind: authored }
+  - form: "domyślałyście"
+    pl: "Domyślałyście się prawdy obie."
+    ru: "Вы обе догадывались о правде."
+    source: { kind: authored }
+  - form: "domyślałyście"
+    pl: "Niczego się nie domyślałyście."
+    ru: "Вы ни о чём не догадывались."
+    source: { kind: authored }
+  - form: "domyślałyście"
+    pl: "Domyślałyście się, że coś się stało."
+    ru: "Вы догадывались, что что-то случилось."
+    source: { kind: authored }
+  - form: "domyślałyśmy"
+    pl: "Domyślałyśmy się tego obie."
+    ru: "Мы обе об этом догадывались."
+    source: { kind: authored }
+  - form: "domyślałyśmy"
+    pl: "Niczego się nie domyślałyśmy."
+    ru: "Мы ни о чём не догадывались."
+    source: { kind: authored }
+  - form: "domyślałyśmy"
+    pl: "Domyślałyśmy się, kto to był."
+    ru: "Мы догадывались, кто это был."
+    source: { kind: authored }
