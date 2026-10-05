@@ -1,0 +1,653 @@
+# review
+id: poniesc
+format: 2
+lemma: "ponieść"
+rank: 2962
+pos: verb
+pron: { cyr: "поне́сьць" }
+senses:
+  - id: suffer-incur
+    ru: "понести, потерпеть (убытки, поражение)"
+    examples:
+      - pl: "Ponieśli klęskę pod Wiedniem."
+        ru: "Они потерпели поражение под Веной."
+        source: { kind: authored }
+      - pl: "Firma poniosła ogromne koszty."
+        ru: "Фирма понесла огромные расходы."
+        source: { kind: authored }
+      - pl: "Poniesie konsekwencje swojej decyzji."
+        ru: "Он понесёт последствия своего решения."
+        source: { kind: authored }
+  - id: carry-away
+    ru: "понести, отнести (куда-л.)"
+    examples:
+      - pl: "Poniosę walizkę do samochodu."
+        ru: "Я понесу чемодан к машине."
+        source: { kind: authored }
+      - pl: "Wiatr poniósł kapelusz nad dachy."
+        ru: "Ветер понёс шляпу над крышами."
+        source: { kind: authored }
+notes:
+  - { kind: pronunciation, text: "Основа играет тремя огласовками, и все три надо держать в голове: PONIOSĘ и PONIOSĄ с -io-, PONIESIESZ и PONIESIE с -ie-, PONIEŚLI снова с -ie-, а мужское прошедшее PONIÓSŁ с -ió-. Правило простое: -ie- перед мягким согласным, -io- перед твёрдым, а -ió- в закрытом слоге перед Ł. Русский делает то же самое в «нести — несу — нёс»: там тоже е, е и ё по тем же местам, только обозначено иначе." }
+  - { kind: usage, text: "Корень прямой: NIEŚĆ — «нести», и приставки совпадают почти везде: PRZYNIEŚĆ «принести», WYNIEŚĆ «вынести», ZNIEŚĆ «снести», ODNIEŚĆ «отнести», DONIEŚĆ «донести». У PONIEŚĆ же главное значение не пространственное, а то же, что у русского «понести» в «понести потери»: PONIEŚĆ KLĘSKĘ «потерпеть поражение», PONIEŚĆ KOSZTY «понести расходы», PONIEŚĆ KONSEKWENCJE «понести последствия», PONIEŚĆ ŚMIERĆ «погибнуть». Это самые частые употребления, и все они берутся из русского без переделки." }
+  - { kind: government, text: "Что — винительный: PONIEŚĆ KLĘSKĘ, KOSZTY, STRATY, ODPOWIEDZIALNOŚĆ. В пространственном значении куда — предлог DO с родительным или NA с винительным: PONIEŚĆ WALIZKĘ DO SAMOCHODU, NA GÓRĘ. Отдельно стоит возвратное PONIEŚĆ SIĘ — «разнестись» о звуке: GŁOS PONIÓSŁ SIĘ PO DOLINIE." }
+  - { kind: usage, text: "В черновике пятьдесят четыре формы, но написаны пятьдесят, и четыре пропущены по разным причинам. Форма PONIOSŁ без окончания — не отдельное слово: PoliMorf помечает её как агглютинативную основу, то есть ту, что живёт только в связке с окончанием (PONIOSŁEM, PONIOSŁEŚ), а свободная форма мужского рода — PONIÓSŁ. Три условные формы мужского рода даны в черновике только как PONIOSŁBY, PONIOSŁBYM, PONIOSŁBYŚ, тогда как правильные PONIÓSŁBY, PONIÓSŁBYM, PONIÓSŁBYŚ в нём отсутствуют: ó держится в закрытом слоге перед ŁBY так же, как перед одиночным Ł. Отметим ещё деепричастие: оно здесь PONIÓSŁSZY, с -SZY, а не -WSZY, потому что основа оканчивается на согласный." }
+collocations:
+  - { pl: "ponieść klęskę", ru: "потерпеть поражение" }
+  - { pl: "ponieść koszty", ru: "понести расходы" }
+  - { pl: "ponieść konsekwencje", ru: "понести последствия" }
+family:
+  - { pl: "ponosić", ru: "нести, понести (несов.)", relation: aspect }
+  - { pl: "nieść", ru: "нести", relation: root }
+  - { pl: "przynieść", ru: "принести", relation: root, id: przyniesc }
+etymology: "Приставка po- и NIEŚĆ, из праславянского *nesti — то же слово, что русское «нести», с тем же чередованием в основе. Соответствие полное и по корню, и по приставкам, так что всё гнездо читается напрямую: PRZYNIEŚĆ «принести», WYNIEŚĆ «вынести», ODNIEŚĆ «отнести», ZNIEŚĆ «снести». Переносное значение «потерпеть, претерпеть» тоже общее: русское «понести потери» и польское PONIEŚĆ STRATY построены из одних и тех же частей и значат одно и то же — взять на себя то, что досталось."
+memory: "nieść — «нести», и приставки свои. А ponieść чаще всего не про ношу: ponieść klęskę «потерпеть поражение», ponieść koszty «понести расходы» — ровно как по-русски."
+idioms:
+  - { pl: "ponieść klęskę", ru: "потерпеть поражение" }
+  - { pl: "koń poniósł", ru: "конь понёс, лошадь взбесилась" }
+formExamplesSkip:
+  - { form: "poniosł", reason: "Агглютинативная основа, а не самостоятельная форма: PoliMorf помечает её тегом agl, то есть она существует только в связке с окончанием — PONIOSŁEM, PONIOSŁEŚ, где слог открывается и ó закономерно переходит в o. Свободная форма мужского рода единственного числа — PONIÓSŁ, и она в карточке есть с примерами." }
+  - { form: "poniosłby", reason: "Правильная условная форма мужского рода — PONIÓSŁBY, и в черновике её нет: ó сохраняется в закрытом слоге перед ŁBY точно так же, как перед одиночным Ł в PONIÓSŁ. Дать пример на PONIOSŁBY значило бы закрепить ошибку порождающей таблицы." }
+  - { form: "poniosłbym", reason: "То же самое: правильная форма — PONIÓSŁBYM, которой в черновике нет. Женские, средние и множественные условные формы в карточке есть, потому что там за Ł идёт гласная и o законно: PONIOSŁABY, PONIOSŁOBY, PONIOSŁYBY." }
+  - { form: "poniosłbyś", reason: "То же самое: правильная форма — PONIÓSŁBYŚ, которой в черновике нет. Ограничение касается только мужского рода единственного числа, поэтому пропущено четыре формы, а не тринадцать." }
+formExamples:
+  - form: "poniesie"
+    pl: "Kto poniesie te koszty?"
+    ru: "Кто понесёт эти расходы?"
+    source: { kind: authored }
+  - form: "poniesie"
+    pl: "Poniesie konsekwencje swojej decyzji."
+    ru: "Он понесёт последствия своего решения."
+    source: { kind: authored }
+  - form: "poniesie"
+    pl: "Nikt nie poniesie tej walizki sam."
+    ru: "Никто не унесёт этот чемодан один."
+    source: { kind: authored }
+  - form: "poniesiecie"
+    pl: "Poniesiecie walizki czy wezwiemy taksówkę?"
+    ru: "Вы понесёте чемоданы или вызовем такси?"
+    source: { kind: authored }
+  - form: "poniesiecie"
+    pl: "Jeśli podpiszecie, poniesiecie wszystkie koszty."
+    ru: "Если подпишете, понесёте все расходы."
+    source: { kind: authored }
+  - form: "poniesiecie"
+    pl: "Odpowiedzialności za to nie poniesiecie."
+    ru: "Ответственность за это вы не понесёте."
+    source: { kind: authored }
+  - form: "poniesiemy"
+    pl: "Poniesiemy walizki do samochodu."
+    ru: "Мы понесём чемоданы к машине."
+    source: { kind: authored }
+  - form: "poniesiemy"
+    pl: "Poniesiemy koszty po połowie."
+    ru: "Мы понесём расходы пополам."
+    source: { kind: authored }
+  - form: "poniesiemy"
+    pl: "Odpowiedzialności za to nie poniesiemy."
+    ru: "Ответственность за это мы не понесём."
+    source: { kind: authored }
+  - form: "poniesieni"
+    pl: "Poniesieni falą, nie zdążyli nawet krzyknąć."
+    ru: "Унесённые волной, они не успели даже крикнуть."
+    source: { kind: authored }
+  - form: "poniesieni"
+    pl: "Żołnierze poniesieni prądem rzeki wypłynęli niżej."
+    ru: "Солдаты, унесённые течением реки, выплыли ниже."
+    source: { kind: authored }
+  - form: "poniesieni"
+    pl: "Poniesieni tłumem, znaleźli się po drugiej stronie placu."
+    ru: "Унесённые толпой, они оказались по другую сторону площади."
+    source: { kind: authored }
+  - form: "poniesienia"
+    pl: "Do poniesienia tych kosztów potrzebny jest kredyt."
+    ru: "Чтобы понести эти расходы, нужен кредит."
+    source: { kind: authored }
+  - form: "poniesienia"
+    pl: "Bez poniesienia ryzyka nie ma zysku."
+    ru: "Без риска нет прибыли."
+    source: { kind: authored }
+  - form: "poniesienia"
+    pl: "Skala poniesienia strat zaskoczyła zarząd."
+    ru: "Размер понесённых убытков удивил правление."
+    source: { kind: authored }
+  - form: "poniesienie"
+    pl: "Poniesienie tych kosztów przekracza nasze możliwości."
+    ru: "Понести эти расходы выше наших возможностей."
+    source: { kind: authored }
+  - form: "poniesienie"
+    pl: "Poniesienie klęski nikogo tu nie dziwiło."
+    ru: "Поражение здесь никого не удивляло."
+    source: { kind: authored }
+  - form: "poniesienie"
+    pl: "Poniesienie odpowiedzialności było jedynym wyjściem."
+    ru: "Понести ответственность было единственным выходом."
+    source: { kind: authored }
+  - form: "poniesieniem"
+    pl: "Przed poniesieniem takich kosztów policz wszystko dwa razy."
+    ru: "Прежде чем понести такие расходы, посчитай всё дважды."
+    source: { kind: authored }
+  - form: "poniesieniem"
+    pl: "Zarząd zajął się poniesieniem kosztów przez obie strony."
+    ru: "Правление занялось распределением расходов между сторонами."
+    source: { kind: authored }
+  - form: "poniesieniem"
+    pl: "Między poniesieniem klęski a odwrotem minął dzień."
+    ru: "Между поражением и отступлением прошёл день."
+    source: { kind: authored }
+  - form: "poniesieniu"
+    pl: "Po poniesieniu takich strat firma zamknęła oddział."
+    ru: "Понеся такие убытки, фирма закрыла отделение."
+    source: { kind: authored }
+  - form: "poniesieniu"
+    pl: "O poniesieniu kosztów przez nas nie było mowy."
+    ru: "О том, чтобы расходы понесли мы, и речи не было."
+    source: { kind: authored }
+  - form: "poniesieniu"
+    pl: "W poniesieniu odpowiedzialności nikt mu nie pomógł."
+    ru: "Понести ответственность ему никто не помог."
+    source: { kind: authored }
+  - form: "poniesiesz"
+    pl: "Poniesiesz walizkę czy mam pomóc?"
+    ru: "Ты понесёшь чемодан или мне помочь?"
+    source: { kind: authored }
+  - form: "poniesiesz"
+    pl: "Jeśli podpiszesz, poniesiesz wszystkie koszty."
+    ru: "Если подпишешь, понесёшь все расходы."
+    source: { kind: authored }
+  - form: "poniesiesz"
+    pl: "Odpowiedzialności za to nie poniesiesz."
+    ru: "Ответственность за это ты не понесёшь."
+    source: { kind: authored }
+  - form: "poniesiona"
+    pl: "Klęska poniesiona pod Wiedniem zmieniła całą wojnę."
+    ru: "Поражение, понесённое под Веной, изменило всю войну."
+    source: { kind: authored }
+  - form: "poniesiona"
+    pl: "Strata poniesiona w tym kwartale była największa."
+    ru: "Убыток, понесённый в этом квартале, был самым большим."
+    source: { kind: authored }
+  - form: "poniesiona"
+    pl: "Odpowiedzialność poniesiona przez jednego nie wystarczyła."
+    ru: "Ответственность, понесённая одним, не была достаточной."
+    source: { kind: authored }
+  - form: "poniesione"
+    pl: "Koszty poniesione w pierwszym roku zwróciły się szybko."
+    ru: "Расходы, понесённые в первый год, окупились быстро."
+    source: { kind: authored }
+  - form: "poniesione"
+    pl: "Straty poniesione przez obie strony były ogromne."
+    ru: "Убытки, понесённые обеими сторонами, были огромны."
+    source: { kind: authored }
+  - form: "poniesione"
+    pl: "Ryzyko poniesione bez potrzeby nikomu nie pomogło."
+    ru: "Риск, понесённый без надобности, никому не помог."
+    source: { kind: authored }
+  - form: "poniesionego"
+    pl: "Od kosztu poniesionego na początku zależała cała reszta."
+    ru: "От расхода, понесённого в начале, зависело всё остальное."
+    source: { kind: authored }
+  - form: "poniesionego"
+    pl: "Nie policzyli wydatku poniesionego w grudniu."
+    ru: "Они не посчитали расход, понесённый в декабре."
+    source: { kind: authored }
+  - form: "poniesionego"
+    pl: "Rozmiaru ciężaru poniesionego przez jednego nikt nie znał."
+    ru: "Размера груза, понесённого одним, никто не знал."
+    source: { kind: authored }
+  - form: "poniesionej"
+    pl: "O klęsce poniesionej pod Wiedniem pisano przez wieki."
+    ru: "О поражении, понесённом под Веной, писали веками."
+    source: { kind: authored }
+  - form: "poniesionej"
+    pl: "Nie ma mowy o stracie poniesionej bez winy zarządu."
+    ru: "Об убытке, понесённом не по вине правления, и речи нет."
+    source: { kind: authored }
+  - form: "poniesionej"
+    pl: "Przyjrzeli się odpowiedzialności poniesionej przez jednego."
+    ru: "Они присмотрелись к ответственности, понесённой одним."
+    source: { kind: authored }
+  - form: "poniesionemu"
+    pl: "Kosztowi poniesionemu w pierwszym roku nikt nie dowierzał."
+    ru: "Расходу, понесённому в первый год, никто не верил."
+    source: { kind: authored }
+  - form: "poniesionemu"
+    pl: "Dzięki wydatkowi poniesionemu w grudniu zdążyli z remontem."
+    ru: "Благодаря расходу, понесённому в декабре, они успели с ремонтом."
+    source: { kind: authored }
+  - form: "poniesionemu"
+    pl: "Przyglądali się ciężarowi poniesionemu przez jedną osobę."
+    ru: "Они рассматривали груз, понесённый одним человеком."
+    source: { kind: authored }
+  - form: "poniesiono"
+    pl: "Koszty remontu poniesiono po połowie."
+    ru: "Расходы на ремонт понесли пополам."
+    source: { kind: authored }
+  - form: "poniesiono"
+    pl: "Klęskę poniesiono pod Wiedniem."
+    ru: "Поражение потерпели под Веной."
+    source: { kind: authored }
+  - form: "poniesiono"
+    pl: "Odpowiedzialności za błąd nie poniesiono wcale."
+    ru: "Ответственность за ошибку не понесли вовсе."
+    source: { kind: authored }
+  - form: "poniesiony"
+    pl: "Koszt poniesiony w pierwszym roku zwrócił się szybko."
+    ru: "Расход, понесённый в первый год, окупился быстро."
+    source: { kind: authored }
+  - form: "poniesiony"
+    pl: "Wydatek poniesiony bez zgody zarządu wywołał spór."
+    ru: "Расход, понесённый без согласия правления, вызвал спор."
+    source: { kind: authored }
+  - form: "poniesiony"
+    pl: "Ciężar poniesiony przez jednego okazał się za duży."
+    ru: "Груз, понесённый одним, оказался слишком большим."
+    source: { kind: authored }
+  - form: "poniesionych"
+    pl: "Wśród poniesionych kosztów połowa była zbędna."
+    ru: "Среди понесённых расходов половина была лишней."
+    source: { kind: authored }
+  - form: "poniesionych"
+    pl: "Bez poniesionych strat nie byłoby tej nauki."
+    ru: "Без понесённых убытков не было бы этого урока."
+    source: { kind: authored }
+  - form: "poniesionych"
+    pl: "Lista poniesionych wydatków zajęła dwie strony."
+    ru: "Список понесённых расходов занял две страницы."
+    source: { kind: authored }
+  - form: "poniesionym"
+    pl: "W koszcie poniesionym na początku był błąd rachunkowy."
+    ru: "В расходе, понесённом в начале, была счётная ошибка."
+    source: { kind: authored }
+  - form: "poniesionym"
+    pl: "Okazał się wydatkiem poniesionym bez zgody zarządu."
+    ru: "Он оказался расходом, понесённым без согласия правления."
+    source: { kind: authored }
+  - form: "poniesionym"
+    pl: "Poniesionym stratom przypisano osobną rubrykę."
+    ru: "Понесённым убыткам отвели отдельную графу."
+    source: { kind: authored }
+  - form: "poniesionymi"
+    pl: "Między poniesionymi kosztami a zyskiem była wyraźna różnica."
+    ru: "Между понесёнными расходами и прибылью была явная разница."
+    source: { kind: authored }
+  - form: "poniesionymi"
+    pl: "Zajęli się stratami poniesionymi w tym kwartale."
+    ru: "Они занялись убытками, понесёнными в этом квартале."
+    source: { kind: authored }
+  - form: "poniesionymi"
+    pl: "Pod poniesionymi wydatkami podpisał się sam prezes."
+    ru: "Под понесёнными расходами подписался сам председатель."
+    source: { kind: authored }
+  - form: "poniesioną"
+    pl: "Uznali klęskę poniesioną pod Wiedniem za przełom."
+    ru: "Поражение, понесённое под Веной, они сочли переломом."
+    source: { kind: authored }
+  - form: "poniesioną"
+    pl: "Zapisali stratę poniesioną w tym kwartale."
+    ru: "Они записали убыток, понесённый в этом квартале."
+    source: { kind: authored }
+  - form: "poniesioną"
+    pl: "Zobaczyli odpowiedzialność poniesioną przez jednego i zamilkli."
+    ru: "Они увидели ответственность, понесённую одним, и замолчали."
+    source: { kind: authored }
+  - form: "ponieś"
+    pl: "Ponieś walizkę do samochodu."
+    ru: "Понеси чемодан к машине."
+    source: { kind: authored }
+  - form: "ponieś"
+    pl: "Ponieś to na górę, proszę."
+    ru: "Отнеси это наверх, пожалуйста."
+    source: { kind: authored }
+  - form: "ponieś"
+    pl: "Nie ponieś tego sam, jest ciężkie."
+    ru: "Не несите это один, оно тяжёлое."
+    source: { kind: authored }
+  - form: "ponieście"
+    pl: "Ponieście walizki do samochodu."
+    ru: "Понесите чемоданы к машине."
+    source: { kind: authored }
+  - form: "ponieście"
+    pl: "Ponieście to na górę, proszę."
+    ru: "Отнесите это наверх, пожалуйста."
+    source: { kind: authored }
+  - form: "ponieście"
+    pl: "Nie ponieście tego sami, jest ciężkie."
+    ru: "Не несите это сами, оно тяжёлое."
+    source: { kind: authored }
+  - form: "ponieśli"
+    pl: "Ponieśli klęskę pod Wiedniem."
+    ru: "Они потерпели поражение под Веной."
+    source: { kind: authored }
+  - form: "ponieśli"
+    pl: "Ponieśli koszty remontu po połowie."
+    ru: "Они понесли расходы на ремонт пополам."
+    source: { kind: authored }
+  - form: "ponieśli"
+    pl: "Odpowiedzialności za to nie ponieśli."
+    ru: "Ответственность за это они не понесли."
+    source: { kind: authored }
+  - form: "ponieśliby"
+    pl: "Ponieśliby klęskę bez wsparcia z zewnątrz."
+    ru: "Они потерпели бы поражение без поддержки извне."
+    source: { kind: authored }
+  - form: "ponieśliby"
+    pl: "Ponieśliby koszty remontu po połowie."
+    ru: "Они понесли бы расходы на ремонт пополам."
+    source: { kind: authored }
+  - form: "ponieśliby"
+    pl: "Odpowiedzialności za to nie ponieśliby."
+    ru: "Ответственность за это они не понесли бы."
+    source: { kind: authored }
+  - form: "ponieślibyście"
+    pl: "Ponieślibyście te koszty czy firma?"
+    ru: "Эти расходы понесли бы вы или фирма?"
+    source: { kind: authored }
+  - form: "ponieślibyście"
+    pl: "Gdybyście podpisali, ponieślibyście całą odpowiedzialność."
+    ru: "Если бы вы подписали, вы понесли бы всю ответственность."
+    source: { kind: authored }
+  - form: "ponieślibyście"
+    pl: "Odpowiedzialności za cudzy błąd nie ponieślibyście."
+    ru: "Ответственность за чужую ошибку вы не понесли бы."
+    source: { kind: authored }
+  - form: "ponieślibyśmy"
+    pl: "Ponieślibyśmy koszty po połowie."
+    ru: "Мы понесли бы расходы пополам."
+    source: { kind: authored }
+  - form: "ponieślibyśmy"
+    pl: "Bez wsparcia ponieślibyśmy klęskę."
+    ru: "Без поддержки мы потерпели бы поражение."
+    source: { kind: authored }
+  - form: "ponieślibyśmy"
+    pl: "Odpowiedzialności za to nie ponieślibyśmy."
+    ru: "Ответственность за это мы не понесли бы."
+    source: { kind: authored }
+  - form: "ponieśliście"
+    pl: "Ponieśliście te koszty czy firma?"
+    ru: "Эти расходы понесли вы или фирма?"
+    source: { kind: authored }
+  - form: "ponieśliście"
+    pl: "Ponieśliście klęskę w pierwszej rozgrywce."
+    ru: "Вы потерпели поражение в первой игре."
+    source: { kind: authored }
+  - form: "ponieśliście"
+    pl: "Odpowiedzialności za to nie ponieśliście."
+    ru: "Ответственность за это вы не понесли."
+    source: { kind: authored }
+  - form: "ponieśliśmy"
+    pl: "Ponieśliśmy koszty remontu po połowie."
+    ru: "Мы понесли расходы на ремонт пополам."
+    source: { kind: authored }
+  - form: "ponieśliśmy"
+    pl: "Ponieśliśmy klęskę w pierwszej rozgrywce."
+    ru: "Мы потерпели поражение в первой игре."
+    source: { kind: authored }
+  - form: "ponieśliśmy"
+    pl: "Odpowiedzialności za to nie ponieśliśmy."
+    ru: "Ответственность за это мы не понесли."
+    source: { kind: authored }
+  - form: "ponieśmy"
+    pl: "Ponieśmy walizki do samochodu."
+    ru: "Понесём чемоданы к машине."
+    source: { kind: authored }
+  - form: "ponieśmy"
+    pl: "Ponieśmy te koszty po połowie."
+    ru: "Понесём эти расходы пополам."
+    source: { kind: authored }
+  - form: "ponieśmy"
+    pl: "Nie ponieśmy tego bez wózka."
+    ru: "Не будем нести это без тележки."
+    source: { kind: authored }
+  - form: "ponieść"
+    pl: "Trzeba ponieść te koszty, nie ma wyjścia."
+    ru: "Надо понести эти расходы, выхода нет."
+    source: { kind: authored }
+  - form: "ponieść"
+    pl: "Nie chciał ponieść odpowiedzialności za błąd."
+    ru: "Он не хотел понести ответственность за ошибку."
+    source: { kind: authored }
+  - form: "ponieść"
+    pl: "Nie da się ponieść tej walizki w jednej ręce."
+    ru: "Этот чемодан в одной руке не унести."
+    source: { kind: authored }
+  - form: "poniosą"
+    pl: "Poniosą koszty remontu po połowie."
+    ru: "Они понесут расходы на ремонт пополам."
+    source: { kind: authored }
+  - form: "poniosą"
+    pl: "Poniosą konsekwencje tej decyzji."
+    ru: "Они понесут последствия этого решения."
+    source: { kind: authored }
+  - form: "poniosą"
+    pl: "Odpowiedzialności za to nie poniosą."
+    ru: "Ответственность за это они не понесут."
+    source: { kind: authored }
+  - form: "poniosę"
+    pl: "Poniosę walizkę do samochodu."
+    ru: "Я понесу чемодан к машине."
+    source: { kind: authored }
+  - form: "poniosę"
+    pl: "Poniosę koszty sam, nie martw się."
+    ru: "Расходы я понесу сам, не беспокойся."
+    source: { kind: authored }
+  - form: "poniosę"
+    pl: "Odpowiedzialności za to nie poniosę."
+    ru: "Ответственность за это я не понесу."
+    source: { kind: authored }
+  - form: "poniosła"
+    pl: "Firma poniosła ogromne koszty."
+    ru: "Фирма понесла огромные расходы."
+    source: { kind: authored }
+  - form: "poniosła"
+    pl: "Armia poniosła klęskę pod Wiedniem."
+    ru: "Армия потерпела поражение под Веной."
+    source: { kind: authored }
+  - form: "poniosła"
+    pl: "Żadnej odpowiedzialności nie poniosła."
+    ru: "Никакой ответственности она не понесла."
+    source: { kind: authored }
+  - form: "poniosłaby"
+    pl: "Firma poniosłaby ogromne koszty."
+    ru: "Фирма понесла бы огромные расходы."
+    source: { kind: authored }
+  - form: "poniosłaby"
+    pl: "Armia poniosłaby klęskę bez wsparcia."
+    ru: "Армия потерпела бы поражение без поддержки."
+    source: { kind: authored }
+  - form: "poniosłaby"
+    pl: "Żadnej odpowiedzialności nie poniosłaby."
+    ru: "Никакой ответственности она не понесла бы."
+    source: { kind: authored }
+  - form: "poniosłabym"
+    pl: "Poniosłabym te koszty, ale nie mam z czego."
+    ru: "Я понесла бы эти расходы, но мне нечем."
+    source: { kind: authored }
+  - form: "poniosłabym"
+    pl: "Chętnie poniosłabym walizkę, gdyby była lżejsza."
+    ru: "Я охотно понесла бы чемодан, если бы он был легче."
+    source: { kind: authored }
+  - form: "poniosłabym"
+    pl: "Odpowiedzialności za cudzy błąd nie poniosłabym."
+    ru: "Ответственность за чужую ошибку я не понесла бы."
+    source: { kind: authored }
+  - form: "poniosłabyś"
+    pl: "Poniosłabyś te koszty czy wolałabyś kredyt?"
+    ru: "Ты понесла бы эти расходы или предпочла бы кредит?"
+    source: { kind: authored }
+  - form: "poniosłabyś"
+    pl: "Gdybyś podpisała, poniosłabyś całą odpowiedzialność."
+    ru: "Если бы ты подписала, ты понесла бы всю ответственность."
+    source: { kind: authored }
+  - form: "poniosłabyś"
+    pl: "Odpowiedzialności za cudzy błąd nie poniosłabyś."
+    ru: "Ответственность за чужую ошибку ты не понесла бы."
+    source: { kind: authored }
+  - form: "poniosłam"
+    pl: "Poniosłam wszystkie koszty sama."
+    ru: "Я понесла все расходы сама."
+    source: { kind: authored }
+  - form: "poniosłam"
+    pl: "Poniosłam walizkę do samochodu."
+    ru: "Я понесла чемодан к машине."
+    source: { kind: authored }
+  - form: "poniosłam"
+    pl: "Odpowiedzialności za ten błąd nie poniosłam."
+    ru: "Ответственность за эту ошибку я не понесла."
+    source: { kind: authored }
+  - form: "poniosłaś"
+    pl: "Poniosłaś te koszty czy firma?"
+    ru: "Эти расходы понесла ты или фирма?"
+    source: { kind: authored }
+  - form: "poniosłaś"
+    pl: "Poniosłaś walizkę na górę sama?"
+    ru: "Ты понесла чемодан наверх сама?"
+    source: { kind: authored }
+  - form: "poniosłaś"
+    pl: "Odpowiedzialności za to nie poniosłaś."
+    ru: "Ответственность за это ты не понесла."
+    source: { kind: authored }
+  - form: "poniosłem"
+    pl: "Poniosłem wszystkie koszty sam."
+    ru: "Я понёс все расходы сам."
+    source: { kind: authored }
+  - form: "poniosłem"
+    pl: "Poniosłem walizkę do samochodu."
+    ru: "Я понёс чемодан к машине."
+    source: { kind: authored }
+  - form: "poniosłem"
+    pl: "Odpowiedzialności za ten błąd nie poniosłem."
+    ru: "Ответственность за эту ошибку я не понёс."
+    source: { kind: authored }
+  - form: "poniosłeś"
+    pl: "Poniosłeś te koszty czy firma?"
+    ru: "Эти расходы понёс ты или фирма?"
+    source: { kind: authored }
+  - form: "poniosłeś"
+    pl: "Poniosłeś walizkę na górę sam?"
+    ru: "Ты понёс чемодан наверх сам?"
+    source: { kind: authored }
+  - form: "poniosłeś"
+    pl: "Odpowiedzialności za to nie poniosłeś."
+    ru: "Ответственность за это ты не понёс."
+    source: { kind: authored }
+  - form: "poniosło"
+    pl: "Wojsko poniosło klęskę w pierwszej bitwie."
+    ru: "Войско потерпело поражение в первом бою."
+    source: { kind: authored }
+  - form: "poniosło"
+    pl: "Całe biuro poniosło konsekwencje jednej pomyłki."
+    ru: "Всё бюро понесло последствия одной ошибки."
+    source: { kind: authored }
+  - form: "poniosło"
+    pl: "Żadne z nich nie poniosło kosztów."
+    ru: "Ни один из них не понёс расходов."
+    source: { kind: authored }
+  - form: "poniosłoby"
+    pl: "Wojsko poniosłoby klęskę bez wsparcia."
+    ru: "Войско потерпело бы поражение без поддержки."
+    source: { kind: authored }
+  - form: "poniosłoby"
+    pl: "Całe biuro poniosłoby konsekwencje jednej pomyłki."
+    ru: "Всё бюро понесло бы последствия одной ошибки."
+    source: { kind: authored }
+  - form: "poniosłoby"
+    pl: "Żadne z nich nie poniosłoby kosztów."
+    ru: "Ни один из них не понёс бы расходов."
+    source: { kind: authored }
+  - form: "poniosły"
+    pl: "Obie firmy poniosły ogromne straty."
+    ru: "Обе фирмы понесли огромные убытки."
+    source: { kind: authored }
+  - form: "poniosły"
+    pl: "Te decyzje poniosły za sobą same kłopoty."
+    ru: "Эти решения понесли за собой одни хлопоты."
+    source: { kind: authored }
+  - form: "poniosły"
+    pl: "Dziewczyny poniosły walizki same."
+    ru: "Девушки сами понесли чемоданы."
+    source: { kind: authored }
+  - form: "poniosłyby"
+    pl: "Obie firmy poniosłyby ogromne straty."
+    ru: "Обе фирмы понесли бы огромные убытки."
+    source: { kind: authored }
+  - form: "poniosłyby"
+    pl: "Takie decyzje poniosłyby za sobą same kłopoty."
+    ru: "Такие решения понесли бы за собой одни хлопоты."
+    source: { kind: authored }
+  - form: "poniosłyby"
+    pl: "Dziewczyny nie poniosłyby tych walizek same."
+    ru: "Девушки не понесли бы эти чемоданы сами."
+    source: { kind: authored }
+  - form: "poniosłybyście"
+    pl: "Poniosłybyście te koszty czy firma?"
+    ru: "Эти расходы понесли бы вы или фирма?"
+    source: { kind: authored }
+  - form: "poniosłybyście"
+    pl: "Gdybyście podpisały, poniosłybyście całą odpowiedzialność."
+    ru: "Если бы вы подписали, вы понесли бы всю ответственность."
+    source: { kind: authored }
+  - form: "poniosłybyście"
+    pl: "Odpowiedzialności za cudzy błąd nie poniosłybyście."
+    ru: "Ответственность за чужую ошибку вы не понесли бы."
+    source: { kind: authored }
+  - form: "poniosłybyśmy"
+    pl: "Poniosłybyśmy koszty po połowie."
+    ru: "Мы понесли бы расходы пополам."
+    source: { kind: authored }
+  - form: "poniosłybyśmy"
+    pl: "Bez pomocy poniosłybyśmy same wszystkie walizki."
+    ru: "Без помощи мы сами понесли бы все чемоданы."
+    source: { kind: authored }
+  - form: "poniosłybyśmy"
+    pl: "Odpowiedzialności za to nie poniosłybyśmy."
+    ru: "Ответственность за это мы не понесли бы."
+    source: { kind: authored }
+  - form: "poniosłyście"
+    pl: "Poniosłyście te koszty czy firma?"
+    ru: "Эти расходы понесли вы или фирма?"
+    source: { kind: authored }
+  - form: "poniosłyście"
+    pl: "Poniosłyście walizki na górę same?"
+    ru: "Вы сами понесли чемоданы наверх?"
+    source: { kind: authored }
+  - form: "poniosłyście"
+    pl: "Odpowiedzialności za to nie poniosłyście."
+    ru: "Ответственность за это вы не понесли."
+    source: { kind: authored }
+  - form: "poniosłyśmy"
+    pl: "Poniosłyśmy koszty po połowie."
+    ru: "Мы понесли расходы пополам."
+    source: { kind: authored }
+  - form: "poniosłyśmy"
+    pl: "Poniosłyśmy walizki do samochodu same."
+    ru: "Мы сами понесли чемоданы к машине."
+    source: { kind: authored }
+  - form: "poniosłyśmy"
+    pl: "Odpowiedzialności za to nie poniosłyśmy."
+    ru: "Ответственность за это мы не понесли."
+    source: { kind: authored }
+  - form: "poniósł"
+    pl: "Wiatr poniósł kapelusz nad dachy."
+    ru: "Ветер понёс шляпу над крышами."
+    source: { kind: authored }
+  - form: "poniósł"
+    pl: "Poniósł ogromne koszty i nic nie zyskał."
+    ru: "Он понёс огромные расходы и ничего не выиграл."
+    source: { kind: authored }
+  - form: "poniósł"
+    pl: "Odpowiedzialności za błąd nie poniósł nikt."
+    ru: "Ответственность за ошибку не понёс никто."
+    source: { kind: authored }
+  - form: "poniósłszy"
+    pl: "Poniósłszy klęskę, wycofał się za rzekę."
+    ru: "Потерпев поражение, он отошёл за реку."
+    source: { kind: authored }
+  - form: "poniósłszy"
+    pl: "Poniósłszy ogromne koszty, firma zamknęła oddział."
+    ru: "Понеся огромные расходы, фирма закрыла отделение."
+    source: { kind: authored }
+  - form: "poniósłszy"
+    pl: "Poniósłszy walizkę na górę, przysiadł na schodach."
+    ru: "Отнеся чемодан наверх, он присел на ступеньках."
+    source: { kind: authored }
