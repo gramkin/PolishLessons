@@ -1,0 +1,684 @@
+# review
+id: wrobic
+format: 2
+lemma: "wrobić"
+rank: 3004
+pos: verb
+pron: { cyr: "вро́биць" }
+senses:
+  - id: frame-someone
+    ru: "подставить, впутать"
+    examples:
+      - pl: "Wrobili go w kradzież, której nie popełnił."
+        ru: "Его подставили с кражей, которой он не совершал."
+        source: { kind: authored }
+      - pl: "Wrobiła mnie w dyżur w sobotę."
+        ru: "Она впутала меня в дежурство в субботу."
+        source: { kind: authored }
+      - pl: "Nie dam się wrobić w tę awanturę."
+        ru: "Я не дам впутать себя в эту свару."
+        source: { kind: authored }
+  - id: work-into
+    ru: "вмешать, вработать (в тесто, в массу)"
+    examples:
+      - pl: "Wrobił masło w ciasto rękami."
+        ru: "Он вмешал масло в тесто руками."
+        source: { kind: authored }
+      - pl: "Mąkę trzeba wrobić w sos powoli."
+        ru: "Муку надо вмешивать в соус медленно."
+        source: { kind: authored }
+notes:
+  - { kind: register, text: "Главное значение — разговорное, и это стоит отметить до того, как учащийся скажет такое на работе. WROBIĆ KOGOŚ W COŚ значит «подставить» или «впутать», с явной досадой говорящего: WROBILI MNIE W DYŻUR. В официальной речи скажут иначе: WPLĄTAĆ, OBCIĄŻYĆ WINĄ, а о подложном обвинении — SFABRYKOWAĆ ZARZUTY. Грубым слово не считается, но и нейтральным тоже: это язык бытовой жалобы." }
+  - { kind: false-friend, text: "Корень ROBIĆ русскому знаком по диалектному «робить» и по слову «работа», но значение у него сдвинуто, и путаница тут постоянная. Польское ROBIĆ значит «ДЕЛАТЬ», а не «работать»: CO ROBISZ? — «что ты делаешь?». «Работать» по-польски PRACOWAĆ, и смешивать их нельзя: PRACUJĘ W BIURZE «я работаю в конторе», но ROBIĘ OBIAD «я готовлю обед». Отсюда и ROBOTA — скорее «работа как дело, задание», а не место службы." }
+  - { kind: pronunciation, text: "Повелительное здесь WRÓB, с ó, а не с o, и это та же позиционная мена, что в карточке про NAROBIĆ. Правило: ó появляется в закрытом слоге, то есть когда за гласной идёт согласный на конце слова. WROBI даёт WRÓB, потому что слог закрылся; но в WROBIĘ, WROBISZ, WROBIŁ слог открыт и стоит o. Сравните с NASTAW, где мены нет вовсе: там гласная другая и правило её не затрагивает." }
+  - { kind: government, text: "Кого — винительный, во что — предлог W с винительным: WROBIĆ KOGOŚ W KRADZIEŻ, W DYŻUR, W AWANTURĘ. Русский строит так же: «впутать кого-то во что-то». Во втором значении предлог тот же, но дополнение вещественное: WROBIĆ MASŁO W CIASTO. Возвратное DAĆ SIĘ WROBIĆ — «дать себя впутать», и это самый частый оборот: NIE DAM SIĘ WROBIĆ." }
+collocations:
+  - { pl: "wrobić kogoś w coś", ru: "впутать кого-то во что-то" }
+  - { pl: "dać się wrobić", ru: "дать себя впутать" }
+  - { pl: "wrobić w dyżur", ru: "впутать в дежурство" }
+family:
+  - { pl: "wrabiać", ru: "впутывать", relation: aspect }
+  - { pl: "robić", ru: "делать", relation: root, id: robic }
+  - { pl: "narobić", ru: "наделать", relation: root, id: narobic }
+etymology: "Приставка w- «в» и ROBIĆ, из праславянского *robiti «делать, трудиться», от *robъ «работник, раб» — тот же корень, что русские «работа», «раб», «робить». Польский оставил корню значение «делать», а для службы завёл PRACOWAĆ от PRACA; русский поступил наоборот и закрепил корень за работой. Переносное «подставить» выросло из буквального «вработать, вмешать внутрь»: подставленного как бы вмешивают в дело, словно масло в тесто, и он оказывается частью того, к чему не имел отношения."
+memory: "robić — «делать», а не «работать»: co robisz? «что делаешь?», pracuję «работаю». А wrobić kogoś — разговорное «подставить, впутать»; повелительное wrób с ó, потому что слог закрылся."
+idioms:
+  - { pl: "dać się wrobić", ru: "дать себя впутать, попасться" }
+  - { pl: "wrobić kogoś w coś", ru: "подставить кого-то, впутать во что-то" }
+formExamples:
+  - form: "wrobi"
+    pl: "Kto wrobi nas w ten dyżur?"
+    ru: "Кто впутает нас в это дежурство?"
+    source: { kind: authored }
+  - form: "wrobi"
+    pl: "Jeszcze nas wrobi w jakąś awanturę."
+    ru: "Он ещё впутает нас в какую-нибудь свару."
+    source: { kind: authored }
+  - form: "wrobi"
+    pl: "Nikt nie wrobi masła w zimne ciasto."
+    ru: "Никто не вмешает масло в холодное тесто."
+    source: { kind: authored }
+  - form: "wrobicie"
+    pl: "Wrobicie mnie w ten dyżur czy weźmiecie sami?"
+    ru: "Вы впутаете меня в это дежурство или возьмёте сами?"
+    source: { kind: authored }
+  - form: "wrobicie"
+    pl: "Jeśli wrobicie masło w ciepłe ciasto, wyjdzie gładko."
+    ru: "Если вмешаете масло в тёплое тесто, выйдет гладко."
+    source: { kind: authored }
+  - form: "wrobicie"
+    pl: "W taką awanturę mnie nie wrobicie."
+    ru: "В такую свару вы меня не впутаете."
+    source: { kind: authored }
+  - form: "wrobieni"
+    pl: "Wrobieni w cudzą kradzież, siedzieli dwa lata niewinnie."
+    ru: "Впутанные в чужую кражу, они сидели два года невинно."
+    source: { kind: authored }
+  - form: "wrobieni"
+    pl: "Wrobieni w sobotnie dyżury, odwołali wyjazdy."
+    ru: "Впутанные в субботние дежурства, они отменили поездки."
+    source: { kind: authored }
+  - form: "wrobieni"
+    pl: "Wrobieni i bezsilni, poszli do związku zawodowego."
+    ru: "Впутанные и беспомощные, они пошли в профсоюз."
+    source: { kind: authored }
+  - form: "wrobienia"
+    pl: "Do wrobienia masła w ciasto potrzebne są ciepłe ręce."
+    ru: "Чтобы вмешать масло в тесто, нужны тёплые руки."
+    source: { kind: authored }
+  - form: "wrobienia"
+    pl: "Bez wrobienia kogoś w ten dyżur nikt nie wyjedzie."
+    ru: "Не впутав кого-то в это дежурство, никто не уедет."
+    source: { kind: authored }
+  - form: "wrobienia"
+    pl: "Sposobu wrobienia go w tę sprawę nikt nie rozumiał."
+    ru: "Способа впутать его в это дело никто не понимал."
+    source: { kind: authored }
+  - form: "wrobienie"
+    pl: "Wrobienie kogoś w taki dyżur to nie żart."
+    ru: "Впутать кого-то в такое дежурство — это не шутка."
+    source: { kind: authored }
+  - form: "wrobienie"
+    pl: "Wrobienie masła w zimne ciasto nigdy się nie udaje."
+    ru: "Вмешать масло в холодное тесто никогда не удаётся."
+    source: { kind: authored }
+  - form: "wrobienie"
+    pl: "Wrobienie niewinnego człowieka w kradzież jest przestępstwem."
+    ru: "Подставить невинного человека с кражей — преступление."
+    source: { kind: authored }
+  - form: "wrobieniem"
+    pl: "Przed wrobieniem masła w ciasto wyjmij je z lodówki."
+    ru: "Прежде чем вмешивать масло в тесто, вынь его из холодильника."
+    source: { kind: authored }
+  - form: "wrobieniem"
+    pl: "Zajęli się wrobieniem kolegi w sobotni dyżur."
+    ru: "Они занялись впутыванием товарища в субботнее дежурство."
+    source: { kind: authored }
+  - form: "wrobieniem"
+    pl: "Między wrobieniem go w tę sprawę a procesem minął rok."
+    ru: "Между тем, как его впутали в это дело, и процессом прошёл год."
+    source: { kind: authored }
+  - form: "wrobieniu"
+    pl: "Po wrobieniu masła w ciasto odstaw je na godzinę."
+    ru: "Вмешав масло в тесто, отставь его на час."
+    source: { kind: authored }
+  - form: "wrobieniu"
+    pl: "O wrobieniu kogoś w ten dyżur nie było mowy."
+    ru: "О том, чтобы впутать кого-то в это дежурство, и речи не было."
+    source: { kind: authored }
+  - form: "wrobieniu"
+    pl: "W wrobieniu go w tę sprawę pomogły fałszywe zeznania."
+    ru: "Впутать его в это дело помогли ложные показания."
+    source: { kind: authored }
+  - form: "wrobili"
+    pl: "Wrobili go w kradzież, której nie popełnił."
+    ru: "Его подставили с кражей, которой он не совершал."
+    source: { kind: authored }
+  - form: "wrobili"
+    pl: "Wrobili mnie w dyżur w sobotę."
+    ru: "Они впутали меня в дежурство в субботу."
+    source: { kind: authored }
+  - form: "wrobili"
+    pl: "Nikogo w to nie wrobili, zrobili wszystko sami."
+    ru: "Никого они в это не впутали, сделали всё сами."
+    source: { kind: authored }
+  - form: "wrobiliby"
+    pl: "Wrobiliby go w kradzież, gdyby mieli okazję."
+    ru: "Они подставили бы его с кражей, если бы имели возможность."
+    source: { kind: authored }
+  - form: "wrobiliby"
+    pl: "Wrobiliby mnie w ten dyżur bez pytania."
+    ru: "Они впутали бы меня в это дежурство не спросив."
+    source: { kind: authored }
+  - form: "wrobiliby"
+    pl: "Nikogo w taką awanturę nie wrobiliby."
+    ru: "Никого в такую свару они не впутали бы."
+    source: { kind: authored }
+  - form: "wrobilibyście"
+    pl: "Wrobilibyście mnie w ten dyżur czy wzięlibyście sami?"
+    ru: "Вы впутали бы меня в это дежурство или взяли бы сами?"
+    source: { kind: authored }
+  - form: "wrobilibyście"
+    pl: "Gdybyście mieli ciepłe masło, wrobilibyście je łatwiej."
+    ru: "Если бы у вас было тёплое масло, вы вмешали бы его легче."
+    source: { kind: authored }
+  - form: "wrobilibyście"
+    pl: "Nikogo w taką awanturę nie wrobilibyście."
+    ru: "Никого в такую свару вы не впутали бы."
+    source: { kind: authored }
+  - form: "wrobilibyśmy"
+    pl: "Wrobilibyśmy go w ten dyżur, gdyby nie był chory."
+    ru: "Мы впутали бы его в это дежурство, если бы он не был болен."
+    source: { kind: authored }
+  - form: "wrobilibyśmy"
+    pl: "Wrobilibyśmy masło w ciasto rękami."
+    ru: "Мы вмешали бы масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobilibyśmy"
+    pl: "Nikogo w taką awanturę nie wrobilibyśmy."
+    ru: "Никого в такую свару мы не впутали бы."
+    source: { kind: authored }
+  - form: "wrobiliście"
+    pl: "Wrobiliście mnie w ten dyżur?"
+    ru: "Вы впутали меня в это дежурство?"
+    source: { kind: authored }
+  - form: "wrobiliście"
+    pl: "Wrobiliście masło w ciasto rękami czy mikserem?"
+    ru: "Вы вмешали масло в тесто руками или миксером?"
+    source: { kind: authored }
+  - form: "wrobiliście"
+    pl: "Nikogo w to nie wrobiliście, prawda?"
+    ru: "Никого вы в это не впутали, правда?"
+    source: { kind: authored }
+  - form: "wrobiliśmy"
+    pl: "Wrobiliśmy go w ten dyżur i wstyd nam."
+    ru: "Мы впутали его в это дежурство, и нам стыдно."
+    source: { kind: authored }
+  - form: "wrobiliśmy"
+    pl: "Wrobiliśmy masło w ciasto rękami."
+    ru: "Мы вмешали масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiliśmy"
+    pl: "Nikogo w to nie wrobiliśmy."
+    ru: "Никого мы в это не впутали."
+    source: { kind: authored }
+  - form: "wrobimy"
+    pl: "Wrobimy masło w ciasto i odstawimy na godzinę."
+    ru: "Вмешаем масло в тесто и отставим на час."
+    source: { kind: authored }
+  - form: "wrobimy"
+    pl: "Nikogo nie wrobimy w swój dyżur."
+    ru: "Никого мы не впутаем в своё дежурство."
+    source: { kind: authored }
+  - form: "wrobimy"
+    pl: "W taką awanturę nikogo nie wrobimy."
+    ru: "В такую свару мы никого не впутаем."
+    source: { kind: authored }
+  - form: "wrobiona"
+    pl: "Wrobiona w sobotni dyżur, odwołała wyjazd."
+    ru: "Впутанная в субботнее дежурство, она отменила поездку."
+    source: { kind: authored }
+  - form: "wrobiona"
+    pl: "Mąka wrobiona w sos powoli nie zrobi grudek."
+    ru: "Мука, вмешанная в соус медленно, не даст комков."
+    source: { kind: authored }
+  - form: "wrobiona"
+    pl: "Wrobiona w cudzą awanturę, długo nie mogła się z niej wyplątać."
+    ru: "Впутанная в чужую свару, она долго не могла из неё выпутаться."
+    source: { kind: authored }
+  - form: "wrobione"
+    pl: "Masło wrobione w ciepłe ciasto rozchodzi się równo."
+    ru: "Масло, вмешанное в тёплое тесто, расходится ровно."
+    source: { kind: authored }
+  - form: "wrobione"
+    pl: "Dziecko wrobione w kłótnię dorosłych milczało."
+    ru: "Ребёнок, впутанный в ссору взрослых, молчал."
+    source: { kind: authored }
+  - form: "wrobione"
+    pl: "Te dyżury wrobione nam w grafik nikomu nie pasowały."
+    ru: "Эти дежурства, впутанные нам в график, никому не подходили."
+    source: { kind: authored }
+  - form: "wrobionego"
+    pl: "Od człowieka wrobionego w taką sprawę nie oczekuj spokoju."
+    ru: "От человека, впутанного в такое дело, не жди покоя."
+    source: { kind: authored }
+  - form: "wrobionego"
+    pl: "Nie widzieli kolegi wrobionego w sobotni dyżur."
+    ru: "Они не видели товарища, впутанного в субботнее дежурство."
+    source: { kind: authored }
+  - form: "wrobionego"
+    pl: "Szukali świadka wrobionego w tę kradzież."
+    ru: "Они искали свидетеля, впутанного в эту кражу."
+    source: { kind: authored }
+  - form: "wrobionej"
+    pl: "O koleżance wrobionej w sobotni dyżur mówiło całe biuro."
+    ru: "О коллеге, впутанной в субботнее дежурство, говорило всё бюро."
+    source: { kind: authored }
+  - form: "wrobionej"
+    pl: "Nie ma mowy o mące wrobionej w zimny sos."
+    ru: "О муке, вмешанной в холодный соус, и речи нет."
+    source: { kind: authored }
+  - form: "wrobionej"
+    pl: "Przyjrzeli się kobiecie wrobionej w cudzą awanturę."
+    ru: "Они присмотрелись к женщине, впутанной в чужую свару."
+    source: { kind: authored }
+  - form: "wrobionemu"
+    pl: "Koledze wrobionemu w sobotni dyżur nikt nie pomógł."
+    ru: "Товарищу, впутанному в субботнее дежурство, никто не помог."
+    source: { kind: authored }
+  - form: "wrobionemu"
+    pl: "Dzięki świadkowi wrobionemu w tę sprawę prawda wyszła na jaw."
+    ru: "Благодаря свидетелю, впутанному в это дело, правда вышла наружу."
+    source: { kind: authored }
+  - form: "wrobionemu"
+    pl: "Przyglądali się człowiekowi wrobionemu w cudzą kradzież."
+    ru: "Они смотрели на человека, впутанного в чужую кражу."
+    source: { kind: authored }
+  - form: "wrobiono"
+    pl: "Wrobiono go w kradzież, której nie popełnił."
+    ru: "Его подставили с кражей, которой он не совершал."
+    source: { kind: authored }
+  - form: "wrobiono"
+    pl: "Wrobiono nas w dyżur w sobotę."
+    ru: "Нас впутали в дежурство в субботу."
+    source: { kind: authored }
+  - form: "wrobiono"
+    pl: "Nikogo w tę awanturę nie wrobiono."
+    ru: "Никого в эту свару не впутали."
+    source: { kind: authored }
+  - form: "wrobiony"
+    pl: "Wrobiony w kradzież, siedział dwa lata niewinnie."
+    ru: "Подставленный с кражей, он сидел два года невинно."
+    source: { kind: authored }
+  - form: "wrobiony"
+    pl: "Wrobiony w sobotni dyżur, odwołał wyjazd."
+    ru: "Впутанный в субботнее дежурство, он отменил поездку."
+    source: { kind: authored }
+  - form: "wrobiony"
+    pl: "Tłuszcz wrobiony w ciasto rękami rozkłada się równiej."
+    ru: "Жир, вмешанный в тесто руками, распределяется ровнее."
+    source: { kind: authored }
+  - form: "wrobionych"
+    pl: "Wśród wrobionych w tę sprawę nie było ani jednego winnego."
+    ru: "Среди впутанных в это дело не было ни одного виновного."
+    source: { kind: authored }
+  - form: "wrobionych"
+    pl: "Bez wrobionych w grafik dyżurów nikt by nie wyjechał."
+    ru: "Без впутанных в график дежурств никто не уехал бы."
+    source: { kind: authored }
+  - form: "wrobionych"
+    pl: "Lista wrobionych w tę kradzież zajęła pół strony."
+    ru: "Список впутанных в эту кражу занял полстраницы."
+    source: { kind: authored }
+  - form: "wrobionym"
+    pl: "W koledze wrobionym w ten dyżur rozpoznał siebie z zeszłego roku."
+    ru: "В товарище, впутанном в это дежурство, он узнал себя прошлогоднего."
+    source: { kind: authored }
+  - form: "wrobionym"
+    pl: "Okazał się człowiekiem wrobionym w cudzą kradzież."
+    ru: "Он оказался человеком, впутанным в чужую кражу."
+    source: { kind: authored }
+  - form: "wrobionym"
+    pl: "Wrobionym w dyżur kolegom postawił kawę."
+    ru: "Впутанным в дежурство товарищам он поставил кофе."
+    source: { kind: authored }
+  - form: "wrobionymi"
+    pl: "Między wrobionymi w tę sprawę ludźmi nie było żadnego związku."
+    ru: "Между впутанными в это дело людьми не было никакой связи."
+    source: { kind: authored }
+  - form: "wrobionymi"
+    pl: "Zajęli się kolegami wrobionymi w sobotnie dyżury."
+    ru: "Они занялись товарищами, впутанными в субботние дежурства."
+    source: { kind: authored }
+  - form: "wrobionymi"
+    pl: "Nad wrobionymi w cudzą awanturę nikt się nie ulitował."
+    ru: "Над впутанными в чужую свару никто не сжалился."
+    source: { kind: authored }
+  - form: "wrobioną"
+    pl: "Zastali koleżankę wrobioną w sobotni dyżur."
+    ru: "Они нашли коллегу впутанной в субботнее дежурство."
+    source: { kind: authored }
+  - form: "wrobioną"
+    pl: "Uznali mąkę wrobioną w zimny sos za zmarnowaną."
+    ru: "Муку, вмешанную в холодный соус, они сочли испорченной."
+    source: { kind: authored }
+  - form: "wrobioną"
+    pl: "Zobaczyli kobietę wrobioną w cudzą awanturę i zamilkli."
+    ru: "Они увидели женщину, впутанную в чужую свару, и замолчали."
+    source: { kind: authored }
+  - form: "wrobisz"
+    pl: "Wrobisz mnie w ten dyżur czy weźmiesz sam?"
+    ru: "Ты впутаешь меня в это дежурство или возьмёшь сам?"
+    source: { kind: authored }
+  - form: "wrobisz"
+    pl: "Jeśli wrobisz masło w ciepłe ciasto, wyjdzie gładko."
+    ru: "Если вмешаешь масло в тёплое тесто, выйдет гладко."
+    source: { kind: authored }
+  - form: "wrobisz"
+    pl: "W taką awanturę mnie nie wrobisz."
+    ru: "В такую свару ты меня не впутаешь."
+    source: { kind: authored }
+  - form: "wrobiwszy"
+    pl: "Wrobiwszy kolegę w dyżur, wyjechał na weekend."
+    ru: "Впутав товарища в дежурство, он уехал на выходные."
+    source: { kind: authored }
+  - form: "wrobiwszy"
+    pl: "Wrobiwszy masło w ciasto, odstawiła je na godzinę."
+    ru: "Вмешав масло в тесто, она отставила его на час."
+    source: { kind: authored }
+  - form: "wrobiwszy"
+    pl: "Wrobiwszy go w tę sprawę, udawali potem zdziwionych."
+    ru: "Впутав его в это дело, они потом делали вид, что удивлены."
+    source: { kind: authored }
+  - form: "wrobią"
+    pl: "Jeszcze nas wrobią w jakąś awanturę."
+    ru: "Они ещё впутают нас в какую-нибудь свару."
+    source: { kind: authored }
+  - form: "wrobią"
+    pl: "Wrobią go w kradzież, której nie popełnił."
+    ru: "Они подставят его с кражей, которой он не совершал."
+    source: { kind: authored }
+  - form: "wrobią"
+    pl: "W swój dyżur nikogo nie wrobią."
+    ru: "В своё дежурство они никого не впутают."
+    source: { kind: authored }
+  - form: "wrobić"
+    pl: "Łatwo kogoś wrobić w taką awanturę."
+    ru: "Легко впутать кого-то в такую свару."
+    source: { kind: authored }
+  - form: "wrobić"
+    pl: "Nie dam się wrobić w tę historię."
+    ru: "Я не дам впутать себя в эту историю."
+    source: { kind: authored }
+  - form: "wrobić"
+    pl: "Masła nie da się wrobić w zimne ciasto."
+    ru: "Масло в холодное тесто не вмешать."
+    source: { kind: authored }
+  - form: "wrobię"
+    pl: "Wrobię masło w ciasto rękami."
+    ru: "Я вмешаю масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobię"
+    pl: "Nikogo nie wrobię w swój dyżur."
+    ru: "Никого я не впутаю в своё дежурство."
+    source: { kind: authored }
+  - form: "wrobię"
+    pl: "W taką awanturę nikogo nie wrobię."
+    ru: "В такую свару я никого не впутаю."
+    source: { kind: authored }
+  - form: "wrobił"
+    pl: "Wrobił masło w ciasto rękami."
+    ru: "Он вмешал масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobił"
+    pl: "Wrobił kolegę w sprawę, o której ten nic nie wiedział."
+    ru: "Он впутал товарища в дело, о котором тот ничего не знал."
+    source: { kind: authored }
+  - form: "wrobił"
+    pl: "Nikogo w to nie wrobił, zrobił wszystko sam."
+    ru: "Никого он в это не впутал, сделал всё сам."
+    source: { kind: authored }
+  - form: "wrobiła"
+    pl: "Wrobiła mnie w dyżur w sobotę."
+    ru: "Она впутала меня в дежурство в субботу."
+    source: { kind: authored }
+  - form: "wrobiła"
+    pl: "Wrobiła masło w ciasto i odstawiła je na godzinę."
+    ru: "Она вмешала масло в тесто и отставила его на час."
+    source: { kind: authored }
+  - form: "wrobiła"
+    pl: "Nikogo w to nie wrobiła, poradziła sobie sama."
+    ru: "Никого она в это не впутала, справилась сама."
+    source: { kind: authored }
+  - form: "wrobiłaby"
+    pl: "Wrobiłaby mnie w ten dyżur bez wahania."
+    ru: "Она впутала бы меня в это дежурство без колебаний."
+    source: { kind: authored }
+  - form: "wrobiłaby"
+    pl: "Wrobiłaby masło w ciasto rękami, nie mikserem."
+    ru: "Она вмешала бы масло в тесто руками, а не миксером."
+    source: { kind: authored }
+  - form: "wrobiłaby"
+    pl: "Nikogo w taką awanturę nie wrobiłaby."
+    ru: "Никого в такую свару она не впутала бы."
+    source: { kind: authored }
+  - form: "wrobiłabym"
+    pl: "Wrobiłabym cię w ten dyżur, ale sama go wzięłam."
+    ru: "Я впутала бы тебя в это дежурство, но сама его взяла."
+    source: { kind: authored }
+  - form: "wrobiłabym"
+    pl: "Chętnie wrobiłabym masło w ciasto rękami."
+    ru: "Я охотно вмешала бы масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłabym"
+    pl: "Nikogo w taką awanturę nie wrobiłabym."
+    ru: "Никого в такую свару я не впутала бы."
+    source: { kind: authored }
+  - form: "wrobiłabyś"
+    pl: "Wrobiłabyś mnie w ten dyżur czy wzięłabyś sama?"
+    ru: "Ты впутала бы меня в это дежурство или взяла бы сама?"
+    source: { kind: authored }
+  - form: "wrobiłabyś"
+    pl: "Gdybyś miała ciepłe masło, wrobiłabyś je łatwiej."
+    ru: "Если бы у тебя было тёплое масло, ты вмешала бы его легче."
+    source: { kind: authored }
+  - form: "wrobiłabyś"
+    pl: "Nikogo w taką awanturę nie wrobiłabyś."
+    ru: "Никого в такую свару ты не впутала бы."
+    source: { kind: authored }
+  - form: "wrobiłam"
+    pl: "Wrobiłam go w ten dyżur i wstyd mi."
+    ru: "Я впутала его в это дежурство, и мне стыдно."
+    source: { kind: authored }
+  - form: "wrobiłam"
+    pl: "Wrobiłam masło w ciasto rękami."
+    ru: "Я вмешала масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłam"
+    pl: "Nikogo w to nie wrobiłam."
+    ru: "Никого я в это не впутала."
+    source: { kind: authored }
+  - form: "wrobiłaś"
+    pl: "Wrobiłaś mnie w ten dyżur?"
+    ru: "Ты впутала меня в это дежурство?"
+    source: { kind: authored }
+  - form: "wrobiłaś"
+    pl: "Wrobiłaś masło w ciasto rękami czy mikserem?"
+    ru: "Ты вмешала масло в тесто руками или миксером?"
+    source: { kind: authored }
+  - form: "wrobiłaś"
+    pl: "Nikogo w to nie wrobiłaś, prawda?"
+    ru: "Никого ты в это не впутала, правда?"
+    source: { kind: authored }
+  - form: "wrobiłby"
+    pl: "Wrobiłby kolegę w ten dyżur bez skrupułów."
+    ru: "Он впутал бы товарища в это дежурство без зазрения."
+    source: { kind: authored }
+  - form: "wrobiłby"
+    pl: "Wrobiłby masło w ciasto szybciej rękami."
+    ru: "Он вмешал бы масло в тесто быстрее руками."
+    source: { kind: authored }
+  - form: "wrobiłby"
+    pl: "Nikogo w taką awanturę nie wrobiłby."
+    ru: "Никого в такую свару он не впутал бы."
+    source: { kind: authored }
+  - form: "wrobiłbym"
+    pl: "Wrobiłbym cię w ten dyżur, ale sam go wziąłem."
+    ru: "Я впутал бы тебя в это дежурство, но сам его взял."
+    source: { kind: authored }
+  - form: "wrobiłbym"
+    pl: "Chętnie wrobiłbym masło w ciasto rękami."
+    ru: "Я охотно вмешал бы масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłbym"
+    pl: "Nikogo w taką awanturę nie wrobiłbym."
+    ru: "Никого в такую свару я не впутал бы."
+    source: { kind: authored }
+  - form: "wrobiłbyś"
+    pl: "Wrobiłbyś mnie w ten dyżur czy wziąłbyś sam?"
+    ru: "Ты впутал бы меня в это дежурство или взял бы сам?"
+    source: { kind: authored }
+  - form: "wrobiłbyś"
+    pl: "Gdybyś miał ciepłe masło, wrobiłbyś je łatwiej."
+    ru: "Если бы у тебя было тёплое масло, ты вмешал бы его легче."
+    source: { kind: authored }
+  - form: "wrobiłbyś"
+    pl: "Nikogo w taką awanturę nie wrobiłbyś."
+    ru: "Никого в такую свару ты не впутал бы."
+    source: { kind: authored }
+  - form: "wrobiłem"
+    pl: "Wrobiłem masło w ciasto rękami."
+    ru: "Я вмешал масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłem"
+    pl: "Wrobiłem kolegę w ten dyżur i wstyd mi."
+    ru: "Я впутал товарища в это дежурство, и мне стыдно."
+    source: { kind: authored }
+  - form: "wrobiłem"
+    pl: "Nikogo w to nie wrobiłem."
+    ru: "Никого я в это не впутал."
+    source: { kind: authored }
+  - form: "wrobiłeś"
+    pl: "Wrobiłeś mnie w ten dyżur?"
+    ru: "Ты впутал меня в это дежурство?"
+    source: { kind: authored }
+  - form: "wrobiłeś"
+    pl: "Wrobiłeś masło w ciasto rękami czy mikserem?"
+    ru: "Ты вмешал масло в тесто руками или миксером?"
+    source: { kind: authored }
+  - form: "wrobiłeś"
+    pl: "Nikogo w to nie wrobiłeś, prawda?"
+    ru: "Никого ты в это не впутал, правда?"
+    source: { kind: authored }
+  - form: "wrobiło"
+    pl: "Całe biuro wrobiło go w ten dyżur."
+    ru: "Всё бюро впутало его в это дежурство."
+    source: { kind: authored }
+  - form: "wrobiło"
+    pl: "To jedno zdanie wrobiło nas w awanturę."
+    ru: "Одна эта фраза впутала нас в свару."
+    source: { kind: authored }
+  - form: "wrobiło"
+    pl: "Żadne z nich nie wrobiło nikogo w tę sprawę."
+    ru: "Ни один из них никого в это дело не впутал."
+    source: { kind: authored }
+  - form: "wrobiłoby"
+    pl: "Całe biuro wrobiłoby go w ten dyżur."
+    ru: "Всё бюро впутало бы его в это дежурство."
+    source: { kind: authored }
+  - form: "wrobiłoby"
+    pl: "Jedno takie zdanie wrobiłoby nas w awanturę."
+    ru: "Одна такая фраза впутала бы нас в свару."
+    source: { kind: authored }
+  - form: "wrobiłoby"
+    pl: "Żadne z nich nie wrobiłoby nikogo w tę sprawę."
+    ru: "Ни один из них никого в это дело не впутал бы."
+    source: { kind: authored }
+  - form: "wrobiły"
+    pl: "Dziewczyny wrobiły mnie w ten dyżur."
+    ru: "Девушки впутали меня в это дежурство."
+    source: { kind: authored }
+  - form: "wrobiły"
+    pl: "Te plotki wrobiły go w sprawę zupełnie obcą."
+    ru: "Эти сплетни впутали его в совершенно чужое дело."
+    source: { kind: authored }
+  - form: "wrobiły"
+    pl: "Obie wrobiły masło w ciasto rękami."
+    ru: "Обе вмешали масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłyby"
+    pl: "Dziewczyny wrobiłyby mnie w ten dyżur."
+    ru: "Девушки впутали бы меня в это дежурство."
+    source: { kind: authored }
+  - form: "wrobiłyby"
+    pl: "Takie plotki wrobiłyby go w zupełnie obcą sprawę."
+    ru: "Такие сплетни впутали бы его в совершенно чужое дело."
+    source: { kind: authored }
+  - form: "wrobiłyby"
+    pl: "Obie wrobiłyby masło w ciasto rękami."
+    ru: "Обе вмешали бы масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłybyście"
+    pl: "Wrobiłybyście mnie w ten dyżur czy wzięłybyście same?"
+    ru: "Вы впутали бы меня в это дежурство или взяли бы сами?"
+    source: { kind: authored }
+  - form: "wrobiłybyście"
+    pl: "Gdybyście miały ciepłe masło, wrobiłybyście je łatwiej."
+    ru: "Если бы у вас было тёплое масло, вы вмешали бы его легче."
+    source: { kind: authored }
+  - form: "wrobiłybyście"
+    pl: "Nikogo w taką awanturę nie wrobiłybyście."
+    ru: "Никого в такую свару вы не впутали бы."
+    source: { kind: authored }
+  - form: "wrobiłybyśmy"
+    pl: "Wrobiłybyśmy go w ten dyżur, gdyby nie był chory."
+    ru: "Мы впутали бы его в это дежурство, если бы он не был болен."
+    source: { kind: authored }
+  - form: "wrobiłybyśmy"
+    pl: "Wrobiłybyśmy masło w ciasto rękami."
+    ru: "Мы вмешали бы масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłybyśmy"
+    pl: "Nikogo w taką awanturę nie wrobiłybyśmy."
+    ru: "Никого в такую свару мы не впутали бы."
+    source: { kind: authored }
+  - form: "wrobiłyście"
+    pl: "Wrobiłyście mnie w ten dyżur?"
+    ru: "Вы впутали меня в это дежурство?"
+    source: { kind: authored }
+  - form: "wrobiłyście"
+    pl: "Wrobiłyście masło w ciasto rękami?"
+    ru: "Вы вмешали масло в тесто руками?"
+    source: { kind: authored }
+  - form: "wrobiłyście"
+    pl: "Nikogo w to nie wrobiłyście, prawda?"
+    ru: "Никого вы в это не впутали, правда?"
+    source: { kind: authored }
+  - form: "wrobiłyśmy"
+    pl: "Wrobiłyśmy go w ten dyżur i wstyd nam."
+    ru: "Мы впутали его в это дежурство, и нам стыдно."
+    source: { kind: authored }
+  - form: "wrobiłyśmy"
+    pl: "Wrobiłyśmy masło w ciasto rękami."
+    ru: "Мы вмешали масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrobiłyśmy"
+    pl: "Nikogo w to nie wrobiłyśmy."
+    ru: "Никого мы в это не впутали."
+    source: { kind: authored }
+  - form: "wrób"
+    pl: "Wrób masło w ciasto rękami."
+    ru: "Вмешай масло в тесто руками."
+    source: { kind: authored }
+  - form: "wrób"
+    pl: "Wrób mąkę w sos powoli, bo się zwarzy."
+    ru: "Вмешивай муку в соус медленно, иначе свернётся."
+    source: { kind: authored }
+  - form: "wrób"
+    pl: "Nie wrób mnie w ten dyżur."
+    ru: "Не впутывай меня в это дежурство."
+    source: { kind: authored }
+  - form: "wróbcie"
+    pl: "Wróbcie masło w ciasto rękami."
+    ru: "Вмешайте масло в тесто руками."
+    source: { kind: authored }
+  - form: "wróbcie"
+    pl: "Wróbcie mąkę w sos powoli."
+    ru: "Вмешайте муку в соус медленно."
+    source: { kind: authored }
+  - form: "wróbcie"
+    pl: "Nie wróbcie mnie w ten dyżur."
+    ru: "Не впутывайте меня в это дежурство."
+    source: { kind: authored }
+  - form: "wróbmy"
+    pl: "Wróbmy masło w ciasto i odstawmy je."
+    ru: "Вмешаем масло в тесто и отставим его."
+    source: { kind: authored }
+  - form: "wróbmy"
+    pl: "Wróbmy mąkę w sos powoli."
+    ru: "Вмешаем муку в соус медленно."
+    source: { kind: authored }
+  - form: "wróbmy"
+    pl: "Nie wróbmy w to nikogo z zewnątrz."
+    ru: "Не будем впутывать в это никого со стороны."
+    source: { kind: authored }
