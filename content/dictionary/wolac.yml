@@ -1,0 +1,804 @@
+# review
+id: wolac
+format: 2
+lemma: "wołać"
+rank: 2753
+pos: verb
+pron: { cyr: "во́уаць" }
+senses:
+  - id: call
+    ru: "звать, кричать"
+    examples:
+      - pl: "Wołałem cię trzy razy."
+        ru: "Я звал тебя три раза."
+        source: { kind: authored }
+      - pl: "Ktoś woła od furtki."
+        ru: "Кто-то кричит от калитки."
+        source: { kind: authored }
+      - pl: "Wołano go po imieniu."
+        ru: "Его звали по имени."
+        source: { kind: authored }
+  - id: cry-for
+    ru: "взывать, призывать (о чём-л.)"
+    examples:
+      - pl: "Wołali o pomoc przez całą noc."
+        ru: "Они взывали о помощи всю ночь."
+        source: { kind: authored }
+      - pl: "Ta sprawa woła o rozstrzygnięcie."
+        ru: "Это дело требует решения."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Самое полезное в этом слове — соответствие, которое открывает сразу целое гнездо. Там, где русский берёт зв- или зов-, польский очень часто берёт woł-. WOŁAĆ отвечает русскому «звать», ZAWOŁAĆ — «позвать», WYWOŁAĆ — «вызвать», ODWOŁAĆ — «отозвать, отменить», PRZYWOŁAĆ — «призвать, подозвать», POWOŁANIE — «призвание», ODWOŁANIE — «отзыв, апелляция». Приставки при этом те же самые, так что достаточно подставить woł- вместо зв-, и слово угадывается." }
+  - { kind: false-friend, text: "Две оговорки к этому правилу. Первая: ZWAĆ в польском тоже есть и значит «звать, называть», но стоит он особняком — JAK SIĘ ZWIE? «как его звать?» звучит книжно, в живой речи говорят JAK SIĘ NAZYWA. Вторая важнее: ODWOŁAĆ значит не только «отозвать», но и «отменить», и в этом втором смысле оно встречается чаще — ODWOŁANO LEKCJE «занятия отменили», ODWOŁANO LOT «рейс отменили». Русское «отозвать» такого смысла не имеет." }
+  - { kind: government, text: "В первом значении переходный, винительный: WOŁAĆ KOGOŚ — wołałem cię, wołano go. Есть и вариант с предлогом NA и винительным, и он значит «окликать, звать криком»: WOŁAĆ NA KOGOŚ. Во втором значении берёт предлог O с винительным: WOŁAĆ O POMOC, O POMSTĘ, O ROZSTRZYGNIĘCIE — «взывать о помощи, об отмщении», и русский берёт здесь «о» с предложным, так что предлог тот же, а падеж другой. Совершенная пара — ZAWOŁAĆ." }
+  - { kind: usage, text: "Шестьдесят три формы — несовершенный переходный, полный набор: сорок одна основная форма, одиннадцать страдательных причастий, десять действительных и деепричастие WOŁAJĄC. Основа одна во всех формах, как у всех глаголов на -AĆ: WOŁAM, WOŁA, WOŁAJĄ, WOŁAŁ, WOŁANY. Повелительное WOŁAJ выходит из третьего лица WOŁA прибавлением -j. Отглагольное существительное WOŁANIE значит «зов, клич», а в переносном смысле — «призыв»." }
+collocations:
+  - { pl: "wołać o pomoc", ru: "взывать о помощи" }
+  - { pl: "wołać kogoś po imieniu", ru: "звать кого-либо по имени" }
+  - { pl: "wołanie o pomoc", ru: "зов о помощи" }
+family:
+  - { pl: "zawołać", ru: "позвать", relation: aspect, id: zawolac }
+  - { pl: "wywołać", ru: "вызвать", relation: derived, id: wywolac }
+  - { pl: "odwołać", ru: "отозвать, отменить", relation: derived, id: odwolac }
+etymology: "Из праславянского *volati «кричать, звать», откуда и украинское «волати», и чешское volat. Русский этого глагола не сохранил, зато сохранил родственное «вопить» и книжное «воззвать» от другого корня, так что прямой пары в русском нет. Зато всё гнездо приставочных слов отвечает русским на зв-: ZAWOŁAĆ «позвать», WYWOŁAĆ «вызвать», ODWOŁAĆ «отозвать», PRZYWOŁAĆ «призвать», POWOŁANIE «призвание». Отсюда и WOŁANIE «зов», и WOŁACZ — звательный падеж."
+memory: "Где русский берёт зв-, польский берёт woł-: wołać «звать», zawołać «позвать», wywołać «вызвать», odwołać «отозвать». Но odwołać чаще значит «отменить»."
+idioms:
+  - { pl: "wołać o pomstę do nieba", ru: "вопиять к небу, быть возмутительным" }
+  - { pl: "wołanie o pomoc", ru: "зов о помощи" }
+formExamples:
+  - form: "woła"
+    pl: "Ktoś woła od furtki."
+    ru: "Кто-то кричит от калитки."
+    source: { kind: authored }
+  - form: "woła"
+    pl: "Ta sprawa woła o rozstrzygnięcie."
+    ru: "Это дело требует решения."
+    source: { kind: authored }
+  - form: "woła"
+    pl: "Matka woła dzieci do stołu."
+    ru: "Мать зовёт детей к столу."
+    source: { kind: authored }
+  - form: "wołacie"
+    pl: "Kogo wołacie tak głośno?"
+    ru: "Кого вы зовёте так громко?"
+    source: { kind: authored }
+  - form: "wołacie"
+    pl: "Wołacie mnie czy sąsiada?"
+    ru: "Вы зовёте меня или соседа?"
+    source: { kind: authored }
+  - form: "wołacie"
+    pl: "Jeśli wołacie o pomoc, dzwońcie też po straż."
+    ru: "Если зовёте на помощь, звоните и пожарным."
+    source: { kind: authored }
+  - form: "wołaj"
+    pl: "Wołaj mnie, jak będziesz gotowy."
+    ru: "Зови меня, когда будешь готов."
+    source: { kind: authored }
+  - form: "wołaj"
+    pl: "Nie wołaj tak głośno, dziecko śpi."
+    ru: "Не кричи так громко, ребёнок спит."
+    source: { kind: authored }
+  - form: "wołaj"
+    pl: "Wołaj o pomoc, nie czekaj."
+    ru: "Зови на помощь, не жди."
+    source: { kind: authored }
+  - form: "wołajcie"
+    pl: "Wołajcie głośniej, wiatr zagłusza."
+    ru: "Кричите громче, ветер глушит."
+    source: { kind: authored }
+  - form: "wołajcie"
+    pl: "Nie wołajcie go po imieniu przy obcych."
+    ru: "Не зовите его по имени при посторонних."
+    source: { kind: authored }
+  - form: "wołajcie"
+    pl: "Wołajcie o pomoc, nie próbujcie sami."
+    ru: "Зовите на помощь, не пробуйте сами."
+    source: { kind: authored }
+  - form: "wołajmy"
+    pl: "Wołajmy razem, może usłyszą."
+    ru: "Будем кричать вместе, может, услышат."
+    source: { kind: authored }
+  - form: "wołajmy"
+    pl: "Nie wołajmy po nocy, obudzimy wszystkich."
+    ru: "Не будем кричать ночью, разбудим всех."
+    source: { kind: authored }
+  - form: "wołajmy"
+    pl: "Wołajmy o pomoc, póki jest zasięg."
+    ru: "Будем звать на помощь, пока есть связь."
+    source: { kind: authored }
+  - form: "wołają"
+    pl: "Wołają go po imieniu od progu."
+    ru: "Его зовут по имени с порога."
+    source: { kind: authored }
+  - form: "wołają"
+    pl: "Dzieci wołają z podwórza."
+    ru: "Дети кричат со двора."
+    source: { kind: authored }
+  - form: "wołają"
+    pl: "Wołają o pomoc od godziny."
+    ru: "Они зовут на помощь уже час."
+    source: { kind: authored }
+  - form: "wołając"
+    pl: "Wołając o pomoc, biegł w stronę drogi."
+    ru: "Зовя на помощь, он бежал в сторону дороги."
+    source: { kind: authored }
+  - form: "wołając"
+    pl: "Wołając dzieci, wyszła na ganek."
+    ru: "Зовя детей, она вышла на крыльцо."
+    source: { kind: authored }
+  - form: "wołając"
+    pl: "Wołając go po imieniu, podeszła bliżej."
+    ru: "Называя его по имени, она подошла ближе."
+    source: { kind: authored }
+  - form: "wołająca"
+    pl: "Kobieta wołająca z okna była sąsiadką."
+    ru: "Женщина, кричавшая из окна, была соседкой."
+    source: { kind: authored }
+  - form: "wołająca"
+    pl: "Matka wołająca dzieci stanęła na ganku."
+    ru: "Мать, зовущая детей, встала на крыльце."
+    source: { kind: authored }
+  - form: "wołająca"
+    pl: "Postać wołająca z brzegu machała rękami."
+    ru: "Фигура, кричавшая с берега, махала руками."
+    source: { kind: authored }
+  - form: "wołające"
+    pl: "Dziecko wołające matkę zasnęło nad ranem."
+    ru: "Ребёнок, звавший мать, уснул к утру."
+    source: { kind: authored }
+  - form: "wołające"
+    pl: "Dzieci wołające z podwórza obudziły całą kamienicę."
+    ru: "Дети, кричавшие со двора, разбудили весь дом."
+    source: { kind: authored }
+  - form: "wołające"
+    pl: "Te głosy są wołające, nie śmiejące się."
+    ru: "Эти голоса зовущие, а не смеющиеся."
+    source: { kind: authored }
+  - form: "wołającego"
+    pl: "Od człowieka wołającego o pomoc nie odeszli."
+    ru: "От человека, звавшего на помощь, они не ушли."
+    source: { kind: authored }
+  - form: "wołającego"
+    pl: "Nie znam nikogo wołającego tak głośno."
+    ru: "Я не знаю никого, кто кричит так громко."
+    source: { kind: authored }
+  - form: "wołającego"
+    pl: "Szukali chłopca wołającego z drugiego brzegu."
+    ru: "Они искали мальчика, звавшего с другого берега."
+    source: { kind: authored }
+  - form: "wołającej"
+    pl: "O kobiecie wołającej z okna mówiła cała wieś."
+    ru: "О женщине, кричавшей из окна, говорила вся деревня."
+    source: { kind: authored }
+  - form: "wołającej"
+    pl: "Nie ma mowy o matce wołającej spokojnie."
+    ru: "О матери, зовущей спокойно, и речи нет."
+    source: { kind: authored }
+  - form: "wołającej"
+    pl: "Pomogli dziewczynce wołającej o pomoc."
+    ru: "Они помогли девочке, звавшей на помощь."
+    source: { kind: authored }
+  - form: "wołającemu"
+    pl: "Wołającemu o pomoc rzucili linę."
+    ru: "Звавшему на помощь бросили верёвку."
+    source: { kind: authored }
+  - form: "wołającemu"
+    pl: "Przyglądał się chłopcu wołającemu z brzegu."
+    ru: "Он смотрел на мальчика, кричавшего с берега."
+    source: { kind: authored }
+  - form: "wołającemu"
+    pl: "Dzięki wołającemu sąsiadowi wezwano straż."
+    ru: "Благодаря кричавшему соседу вызвали пожарных."
+    source: { kind: authored }
+  - form: "wołający"
+    pl: "Człowiek wołający o pomoc stał na moście."
+    ru: "Человек, звавший на помощь, стоял на мосту."
+    source: { kind: authored }
+  - form: "wołający"
+    pl: "Głos wołający z ciemności obudził psy."
+    ru: "Голос, звавший из темноты, разбудил собак."
+    source: { kind: authored }
+  - form: "wołający"
+    pl: "Chłopiec wołający matkę nie przestawał płakać."
+    ru: "Мальчик, звавший мать, не переставал плакать."
+    source: { kind: authored }
+  - form: "wołających"
+    pl: "Wśród wołających o pomoc nie było nikogo dorosłego."
+    ru: "Среди звавших на помощь не было никого взрослого."
+    source: { kind: authored }
+  - form: "wołających"
+    pl: "Bez ludzi wołających z brzegu nikt by ich nie znalazł."
+    ru: "Без людей, кричавших с берега, их никто не нашёл бы."
+    source: { kind: authored }
+  - form: "wołających"
+    pl: "Lista wołających o pomoc rosła z każdą godziną."
+    ru: "Список звавших на помощь рос с каждым часом."
+    source: { kind: authored }
+  - form: "wołającym"
+    pl: "W człowieku wołającym o pomoc rozpoznali sąsiada."
+    ru: "В человеке, звавшем на помощь, они узнали соседа."
+    source: { kind: authored }
+  - form: "wołającym"
+    pl: "Okazał się chłopcem wołającym z drugiego brzegu."
+    ru: "Он оказался мальчиком, кричавшим с другого берега."
+    source: { kind: authored }
+  - form: "wołającym"
+    pl: "Wołającym dzieciom kazano wracać."
+    ru: "Кричавшим детям велели возвращаться."
+    source: { kind: authored }
+  - form: "wołającymi"
+    pl: "Między wołającymi a milczącymi była cała rzeka."
+    ru: "Между кричавшими и молчавшими была целая река."
+    source: { kind: authored }
+  - form: "wołającymi"
+    pl: "Zajął się dziećmi wołającymi z podwórza."
+    ru: "Он занялся детьми, кричавшими со двора."
+    source: { kind: authored }
+  - form: "wołającymi"
+    pl: "Rozmawiał z ludźmi wołającymi o pomoc."
+    ru: "Он говорил с людьми, звавшими на помощь."
+    source: { kind: authored }
+  - form: "wołającą"
+    pl: "Znają tę kobietę, wołającą dzieci co wieczór."
+    ru: "Они знают эту женщину, зовущую детей каждый вечер."
+    source: { kind: authored }
+  - form: "wołającą"
+    pl: "Uznali ją za osobę wołającą bez powodu."
+    ru: "Её сочли человеком, кричащим без причины."
+    source: { kind: authored }
+  - form: "wołającą"
+    pl: "Zastąpili syrenę wołającą co godzinę cichszym dzwonkiem."
+    ru: "Сирену, звучавшую каждый час, заменили более тихим звонком."
+    source: { kind: authored }
+  - form: "wołali"
+    pl: "Wołali o pomoc przez całą noc."
+    ru: "Они взывали о помощи всю ночь."
+    source: { kind: authored }
+  - form: "wołali"
+    pl: "Wołali go po imieniu z drugiego brzegu."
+    ru: "Они звали его по имени с другого берега."
+    source: { kind: authored }
+  - form: "wołali"
+    pl: "Nikogo nie wołali, bali się hałasu."
+    ru: "Они никого не звали, боялись шума."
+    source: { kind: authored }
+  - form: "wołaliby"
+    pl: "Wołaliby o pomoc, gdyby był zasięg."
+    ru: "Они позвали бы на помощь, если бы была связь."
+    source: { kind: authored }
+  - form: "wołaliby"
+    pl: "Wołaliby go po imieniu z drugiego brzegu."
+    ru: "Они звали бы его по имени с другого берега."
+    source: { kind: authored }
+  - form: "wołaliby"
+    pl: "Nikogo nie wołaliby po nocy."
+    ru: "Ночью они никого не звали бы."
+    source: { kind: authored }
+  - form: "wołalibyście"
+    pl: "Wołalibyście o pomoc czy szukalibyście sami?"
+    ru: "Вы позвали бы на помощь или искали бы сами?"
+    source: { kind: authored }
+  - form: "wołalibyście"
+    pl: "Gdybyście słyszeli, wołalibyście pierwsi."
+    ru: "Если бы вы слышали, вы позвали бы первыми."
+    source: { kind: authored }
+  - form: "wołalibyście"
+    pl: "Nikogo nie wołalibyście przy obcych."
+    ru: "Вы никого не звали бы при посторонних."
+    source: { kind: authored }
+  - form: "wołalibyśmy"
+    pl: "Wołalibyśmy razem, może ktoś usłyszy."
+    ru: "Мы кричали бы вместе, может, кто-то услышит."
+    source: { kind: authored }
+  - form: "wołalibyśmy"
+    pl: "Wołalibyśmy o pomoc od pierwszej chwili."
+    ru: "Мы звали бы на помощь с первой минуты."
+    source: { kind: authored }
+  - form: "wołalibyśmy"
+    pl: "Nikogo nie wołalibyśmy po nocy."
+    ru: "Ночью мы никого не звали бы."
+    source: { kind: authored }
+  - form: "wołaliście"
+    pl: "Wołaliście mnie czy sąsiada?"
+    ru: "Вы звали меня или соседа?"
+    source: { kind: authored }
+  - form: "wołaliście"
+    pl: "Wołaliście o pomoc od razu?"
+    ru: "Вы сразу позвали на помощь?"
+    source: { kind: authored }
+  - form: "wołaliście"
+    pl: "Nikogo nie wołaliście po imieniu."
+    ru: "Вы никого не звали по имени."
+    source: { kind: authored }
+  - form: "wołaliśmy"
+    pl: "Wołaliśmy cię od furtki."
+    ru: "Мы звали тебя от калитки."
+    source: { kind: authored }
+  - form: "wołaliśmy"
+    pl: "Wołaliśmy o pomoc, aż ktoś usłyszał."
+    ru: "Мы звали на помощь, пока кто-то не услышал."
+    source: { kind: authored }
+  - form: "wołaliśmy"
+    pl: "Nikogo nie wołaliśmy po nocy."
+    ru: "Мы никого не звали ночью."
+    source: { kind: authored }
+  - form: "wołam"
+    pl: "Wołam cię od pięciu minut."
+    ru: "Я зову тебя уже пять минут."
+    source: { kind: authored }
+  - form: "wołam"
+    pl: "Wołam o pomoc, a nikt nie przychodzi."
+    ru: "Я зову на помощь, а никто не идёт."
+    source: { kind: authored }
+  - form: "wołam"
+    pl: "Nikogo nie wołam, mówię do siebie."
+    ru: "Я никого не зову, говорю сам с собой."
+    source: { kind: authored }
+  - form: "wołamy"
+    pl: "Wołamy cię od kwadransa."
+    ru: "Мы зовём тебя уже четверть часа."
+    source: { kind: authored }
+  - form: "wołamy"
+    pl: "Wołamy o pomoc, bo sami nie damy rady."
+    ru: "Мы зовём на помощь, потому что сами не справимся."
+    source: { kind: authored }
+  - form: "wołamy"
+    pl: "Nikogo nie wołamy, czekamy cicho."
+    ru: "Мы никого не зовём, ждём тихо."
+    source: { kind: authored }
+  - form: "wołana"
+    pl: "Wołana przez matkę, wróciła natychmiast."
+    ru: "Позванная матерью, она вернулась немедленно."
+    source: { kind: authored }
+  - form: "wołana"
+    pl: "Jest wołana zdrobnieniem od dziecka."
+    ru: "Её зовут уменьшительным именем с детства."
+    source: { kind: authored }
+  - form: "wołana"
+    pl: "Wołana dwa razy, nie odpowiedziała."
+    ru: "Позванная дважды, она не ответила."
+    source: { kind: authored }
+  - form: "wołane"
+    pl: "Wołane z podwórza dzieci przyszły od razu."
+    ru: "Позванные со двора дети пришли сразу."
+    source: { kind: authored }
+  - form: "wołane"
+    pl: "Te imiona są wołane w zdrobnieniu."
+    ru: "Эти имена зовут в уменьшительной форме."
+    source: { kind: authored }
+  - form: "wołane"
+    pl: "Wołane po nocy psy podniosły hałas."
+    ru: "Собаки, позванные ночью, подняли шум."
+    source: { kind: authored }
+  - form: "wołanego"
+    pl: "Od wołanego trzy razy gościa nikt nie oczekiwał odpowiedzi."
+    ru: "От гостя, позванного трижды, никто не ждал ответа."
+    source: { kind: authored }
+  - form: "wołanego"
+    pl: "Nie ma tu nikogo wołanego po imieniu."
+    ru: "Здесь нет никого, кого зовут по имени."
+    source: { kind: authored }
+  - form: "wołanego"
+    pl: "Szukali chłopca wołanego z drugiego brzegu."
+    ru: "Они искали мальчика, которого звали с другого берега."
+    source: { kind: authored }
+  - form: "wołanej"
+    pl: "O dziewczynce wołanej zdrobnieniem mówiła babcia."
+    ru: "О девочке, которую звали уменьшительным именем, говорила бабушка."
+    source: { kind: authored }
+  - form: "wołanej"
+    pl: "Nie ma mowy o pomocy wołanej za późno."
+    ru: "О помощи, позванной слишком поздно, и речи нет."
+    source: { kind: authored }
+  - form: "wołanej"
+    pl: "Po kobiecie wołanej spod okna został tylko ślad."
+    ru: "От женщины, которую звали из-под окна, остался только след."
+    source: { kind: authored }
+  - form: "wołanemu"
+    pl: "Wołanemu trzy razy chłopcu wreszcie odpowiedziano."
+    ru: "Мальчику, позванному трижды, наконец ответили."
+    source: { kind: authored }
+  - form: "wołanemu"
+    pl: "Przyglądał się psu wołanemu od furtki."
+    ru: "Он смотрел на собаку, которую звали от калитки."
+    source: { kind: authored }
+  - form: "wołanemu"
+    pl: "Dzięki wołanemu na czas lekarzowi dziecko przeżyło."
+    ru: "Благодаря врачу, позванному вовремя, ребёнок выжил."
+    source: { kind: authored }
+  - form: "wołani"
+    pl: "Wołani trzy razy, wreszcie przyszli."
+    ru: "Позванные трижды, они наконец пришли."
+    source: { kind: authored }
+  - form: "wołani"
+    pl: "Są wołani po imieniu, nie po nazwisku."
+    ru: "Их зовут по имени, а не по фамилии."
+    source: { kind: authored }
+  - form: "wołani"
+    pl: "Byli wołani z podwórza przez pół godziny."
+    ru: "Их звали со двора полчаса."
+    source: { kind: authored }
+  - form: "wołania"
+    pl: "Nikt nie usłyszał jego wołania."
+    ru: "Никто не услышал его зова."
+    source: { kind: authored }
+  - form: "wołania"
+    pl: "Od tego wołania obudziły się psy."
+    ru: "От этого крика проснулись собаки."
+    source: { kind: authored }
+  - form: "wołania"
+    pl: "Bez wołania nikt by ich nie znalazł."
+    ru: "Без крика их никто не нашёл бы."
+    source: { kind: authored }
+  - form: "wołanie"
+    pl: "Wołanie o pomoc słyszano z drugiego brzegu."
+    ru: "Зов о помощи слышали с другого берега."
+    source: { kind: authored }
+  - form: "wołanie"
+    pl: "To wołanie obudziło cały dom."
+    ru: "Этот крик разбудил весь дом."
+    source: { kind: authored }
+  - form: "wołanie"
+    pl: "Wołanie ucichło po kilku minutach."
+    ru: "Крик стих через несколько минут."
+    source: { kind: authored }
+  - form: "wołaniem"
+    pl: "Obudził nas wołaniem spod okna."
+    ru: "Он разбудил нас криком под окном."
+    source: { kind: authored }
+  - form: "wołaniem"
+    pl: "Między wołaniem a odpowiedzią minęła minuta."
+    ru: "Между криком и ответом прошла минута."
+    source: { kind: authored }
+  - form: "wołaniem"
+    pl: "Zaczęła dzień wołaniem dzieci do szkoły."
+    ru: "Она начала день с того, что созвала детей в школу."
+    source: { kind: authored }
+  - form: "wołaniu"
+    pl: "W jego wołaniu było więcej złości niż strachu."
+    ru: "В его крике было больше злости, чем страха."
+    source: { kind: authored }
+  - form: "wołaniu"
+    pl: "O tym wołaniu mówiła potem cała wieś."
+    ru: "Об этом крике потом говорила вся деревня."
+    source: { kind: authored }
+  - form: "wołaniu"
+    pl: "Po wołaniu zapadła cisza."
+    ru: "После крика наступила тишина."
+    source: { kind: authored }
+  - form: "wołano"
+    pl: "Wołano go po imieniu."
+    ru: "Его звали по имени."
+    source: { kind: authored }
+  - form: "wołano"
+    pl: "Dawniej wołano dzieci gwizdem."
+    ru: "Прежде детей звали свистом."
+    source: { kind: authored }
+  - form: "wołano"
+    pl: "O pomoc wołano przez całą noc."
+    ru: "О помощи взывали всю ночь."
+    source: { kind: authored }
+  - form: "wołany"
+    pl: "Wołany trzy razy, wreszcie się odwrócił."
+    ru: "Позванный трижды, он наконец обернулся."
+    source: { kind: authored }
+  - form: "wołany"
+    pl: "Jest wołany po imieniu, nie po nazwisku."
+    ru: "Его зовут по имени, а не по фамилии."
+    source: { kind: authored }
+  - form: "wołany"
+    pl: "Wołany od furtki pies nie ruszył się z miejsca."
+    ru: "Собака, которую звали от калитки, не двинулась с места."
+    source: { kind: authored }
+  - form: "wołanych"
+    pl: "Wśród wołanych nie było ani jednego dorosłego."
+    ru: "Среди позванных не было ни одного взрослого."
+    source: { kind: authored }
+  - form: "wołanych"
+    pl: "Bez dzieci wołanych do stołu obiad trwałby godzinę."
+    ru: "Без детей, позванных к столу, обед длился бы час."
+    source: { kind: authored }
+  - form: "wołanych"
+    pl: "Lista wołanych imion była krótka."
+    ru: "Список называемых имён был коротким."
+    source: { kind: authored }
+  - form: "wołanym"
+    pl: "W chłopcu wołanym z drugiego brzegu nikt go nie poznał."
+    ru: "В мальчике, которого звали с другого берега, его никто не узнал."
+    source: { kind: authored }
+  - form: "wołanym"
+    pl: "Okazał się człowiekiem wołanym po przezwisku."
+    ru: "Он оказался человеком, которого зовут по кличке."
+    source: { kind: authored }
+  - form: "wołanym"
+    pl: "Wołanym dzieciom kazano wracać natychmiast."
+    ru: "Позванным детям велели возвращаться немедленно."
+    source: { kind: authored }
+  - form: "wołanymi"
+    pl: "Między wołanymi a tymi, co przyszli sami, była różnica."
+    ru: "Между позванными и теми, кто пришёл сам, была разница."
+    source: { kind: authored }
+  - form: "wołanymi"
+    pl: "Zajął się dziećmi wołanymi od furtki."
+    ru: "Он занялся детьми, которых звали от калитки."
+    source: { kind: authored }
+  - form: "wołanymi"
+    pl: "Rozmawiał z gośćmi wołanymi dwa razy."
+    ru: "Он говорил с гостями, которых звали дважды."
+    source: { kind: authored }
+  - form: "wołaną"
+    pl: "Znają tę dziewczynkę, wołaną zdrobnieniem od urodzenia."
+    ru: "Они знают эту девочку, которую с рождения зовут уменьшительным именем."
+    source: { kind: authored }
+  - form: "wołaną"
+    pl: "Uznali pomoc za wołaną w ostatniej chwili."
+    ru: "Помощь сочли позванной в последний момент."
+    source: { kind: authored }
+  - form: "wołaną"
+    pl: "Zastąpili wołaną od lat nazwę nową."
+    ru: "Название, которое звучало годами, заменили новым."
+    source: { kind: authored }
+  - form: "wołasz"
+    pl: "Dlaczego wołasz tak głośno?"
+    ru: "Почему ты кричишь так громко?"
+    source: { kind: authored }
+  - form: "wołasz"
+    pl: "Wołasz mnie czy brata?"
+    ru: "Ты зовёшь меня или брата?"
+    source: { kind: authored }
+  - form: "wołasz"
+    pl: "Jeśli wołasz o pomoc, mów wyraźnie."
+    ru: "Если зовёшь на помощь, говори внятно."
+    source: { kind: authored }
+  - form: "wołać"
+    pl: "Nie trzeba wołać, słyszę cię."
+    ru: "Не надо кричать, я тебя слышу."
+    source: { kind: authored }
+  - form: "wołać"
+    pl: "Zaczął wołać o pomoc już z korytarza."
+    ru: "Он начал звать на помощь ещё из коридора."
+    source: { kind: authored }
+  - form: "wołać"
+    pl: "Trudno wołać kogoś przez taki hałas."
+    ru: "Трудно дозваться кого-то через такой шум."
+    source: { kind: authored }
+  - form: "wołał"
+    pl: "Wołał mnie trzy razy, a ja nie słyszałem."
+    ru: "Он звал меня три раза, а я не слышал."
+    source: { kind: authored }
+  - form: "wołał"
+    pl: "Wołał o pomoc przez całą noc."
+    ru: "Он звал на помощь всю ночь."
+    source: { kind: authored }
+  - form: "wołał"
+    pl: "Nikogo nie wołał, stał i milczał."
+    ru: "Он никого не звал, стоял и молчал."
+    source: { kind: authored }
+  - form: "wołała"
+    pl: "Wołała dzieci do stołu od kwadransa."
+    ru: "Она звала детей к столу уже четверть часа."
+    source: { kind: authored }
+  - form: "wołała"
+    pl: "Wołała o pomoc, ale nikt nie przyszedł."
+    ru: "Она звала на помощь, но никто не пришёл."
+    source: { kind: authored }
+  - form: "wołała"
+    pl: "Nikogo nie wołała po imieniu."
+    ru: "Она никого не звала по имени."
+    source: { kind: authored }
+  - form: "wołałaby"
+    pl: "Wołałaby dzieci do stołu, ale jeszcze nie gotowe."
+    ru: "Она позвала бы детей к столу, но ещё не готово."
+    source: { kind: authored }
+  - form: "wołałaby"
+    pl: "Wołałaby o pomoc, gdyby był zasięg."
+    ru: "Она позвала бы на помощь, если бы была связь."
+    source: { kind: authored }
+  - form: "wołałaby"
+    pl: "Żadna matka nie wołałaby tak spokojnie."
+    ru: "Никакая мать не звала бы так спокойно."
+    source: { kind: authored }
+  - form: "wołałabym"
+    pl: "Wołałabym głośniej, ale dziecko śpi."
+    ru: "Я кричала бы громче, но ребёнок спит."
+    source: { kind: authored }
+  - form: "wołałabym"
+    pl: "Na jej miejscu wołałabym o pomoc od razu."
+    ru: "На её месте я позвала бы на помощь сразу."
+    source: { kind: authored }
+  - form: "wołałabym"
+    pl: "Nikogo nie wołałabym po nocy."
+    ru: "Ночью я никого не звала бы."
+    source: { kind: authored }
+  - form: "wołałabyś"
+    pl: "Wołałabyś o pomoc czy czekałabyś?"
+    ru: "Ты позвала бы на помощь или ждала бы?"
+    source: { kind: authored }
+  - form: "wołałabyś"
+    pl: "Gdybyś słyszała, wołałabyś pierwsza."
+    ru: "Если бы ты слышала, ты позвала бы первой."
+    source: { kind: authored }
+  - form: "wołałabyś"
+    pl: "Nikogo nie wołałabyś przy obcych."
+    ru: "Ты никого не звала бы при посторонних."
+    source: { kind: authored }
+  - form: "wołałam"
+    pl: "Wołałam cię z kuchni dwa razy."
+    ru: "Я звала тебя из кухни дважды."
+    source: { kind: authored }
+  - form: "wołałam"
+    pl: "Wołałam o pomoc, ale było za głośno."
+    ru: "Я звала на помощь, но было слишком шумно."
+    source: { kind: authored }
+  - form: "wołałam"
+    pl: "Nikogo nie wołałam, mówiłam do siebie."
+    ru: "Я никого не звала, говорила сама с собой."
+    source: { kind: authored }
+  - form: "wołałaś"
+    pl: "Wołałaś mnie czy dziecko?"
+    ru: "Ты звала меня или ребёнка?"
+    source: { kind: authored }
+  - form: "wołałaś"
+    pl: "Wołałaś o pomoc i dobrze zrobiłaś."
+    ru: "Ты позвала на помощь и правильно сделала."
+    source: { kind: authored }
+  - form: "wołałaś"
+    pl: "Nikogo nie wołałaś przez całą drogę."
+    ru: "Ты никого не звала всю дорогу."
+    source: { kind: authored }
+  - form: "wołałby"
+    pl: "Wołałby o pomoc, gdyby miał siłę."
+    ru: "Он позвал бы на помощь, если бы имел силы."
+    source: { kind: authored }
+  - form: "wołałby"
+    pl: "Nikt nie wołałby po nocy bez powodu."
+    ru: "Никто не кричал бы ночью без причины."
+    source: { kind: authored }
+  - form: "wołałby"
+    pl: "Wołałby cię, ale nie wiedział, gdzie jesteś."
+    ru: "Он позвал бы тебя, но не знал, где ты."
+    source: { kind: authored }
+  - form: "wołałbym"
+    pl: "Wołałbym głośniej, ale ochrypłem."
+    ru: "Я кричал бы громче, но охрип."
+    source: { kind: authored }
+  - form: "wołałbym"
+    pl: "Na twoim miejscu wołałbym o pomoc od razu."
+    ru: "На твоём месте я позвал бы на помощь сразу."
+    source: { kind: authored }
+  - form: "wołałbym"
+    pl: "Nikogo nie wołałbym po nocy."
+    ru: "Ночью я никого не звал бы."
+    source: { kind: authored }
+  - form: "wołałbyś"
+    pl: "Wołałbyś o pomoc czy próbowałbyś sam?"
+    ru: "Ты позвал бы на помощь или попробовал бы сам?"
+    source: { kind: authored }
+  - form: "wołałbyś"
+    pl: "Gdybyś wiedział, gdzie jestem, wołałbyś mnie."
+    ru: "Если бы ты знал, где я, ты позвал бы меня."
+    source: { kind: authored }
+  - form: "wołałbyś"
+    pl: "Nikogo nie wołałbyś przy obcych."
+    ru: "Ты никого не звал бы при посторонних."
+    source: { kind: authored }
+  - form: "wołałem"
+    pl: "Wołałem cię trzy razy."
+    ru: "Я звал тебя три раза."
+    source: { kind: authored }
+  - form: "wołałem"
+    pl: "Wołałem o pomoc, aż ochrypłem."
+    ru: "Я звал на помощь, пока не охрип."
+    source: { kind: authored }
+  - form: "wołałem"
+    pl: "Nikogo nie wołałem, przysięgam."
+    ru: "Я никого не звал, клянусь."
+    source: { kind: authored }
+  - form: "wołałeś"
+    pl: "Wołałeś mnie czy mi się zdawało?"
+    ru: "Ты звал меня или мне показалось?"
+    source: { kind: authored }
+  - form: "wołałeś"
+    pl: "Wołałeś o pomoc czy tylko krzyczałeś?"
+    ru: "Ты звал на помощь или просто кричал?"
+    source: { kind: authored }
+  - form: "wołałeś"
+    pl: "Nikogo nie wołałeś po imieniu."
+    ru: "Ты никого не звал по имени."
+    source: { kind: authored }
+  - form: "wołało"
+    pl: "Dziecko wołało matkę przez sen."
+    ru: "Ребёнок звал мать во сне."
+    source: { kind: authored }
+  - form: "wołało"
+    pl: "Coś wołało z głębi domu."
+    ru: "Что-то кричало из глубины дома."
+    source: { kind: authored }
+  - form: "wołało"
+    pl: "Żadne z nich nie wołało o pomoc."
+    ru: "Ни один из них не звал на помощь."
+    source: { kind: authored }
+  - form: "wołałoby"
+    pl: "Dziecko wołałoby matkę przez sen."
+    ru: "Ребёнок звал бы мать во сне."
+    source: { kind: authored }
+  - form: "wołałoby"
+    pl: "Coś wołałoby z głębi domu i tak."
+    ru: "Что-нибудь всё равно кричало бы из глубины дома."
+    source: { kind: authored }
+  - form: "wołałoby"
+    pl: "Żadne z nich nie wołałoby o pomoc."
+    ru: "Ни один из них не позвал бы на помощь."
+    source: { kind: authored }
+  - form: "wołały"
+    pl: "Dzieci wołały z podwórza do późna."
+    ru: "Дети кричали со двора до позднего часа."
+    source: { kind: authored }
+  - form: "wołały"
+    pl: "Obie kobiety wołały jednocześnie."
+    ru: "Обе женщины кричали одновременно."
+    source: { kind: authored }
+  - form: "wołały"
+    pl: "Te głosy wołały o pomoc."
+    ru: "Эти голоса звали на помощь."
+    source: { kind: authored }
+  - form: "wołałyby"
+    pl: "Dzieci wołałyby z podwórza do nocy."
+    ru: "Дети кричали бы со двора до ночи."
+    source: { kind: authored }
+  - form: "wołałyby"
+    pl: "Obie kobiety wołałyby jednocześnie."
+    ru: "Обе женщины кричали бы одновременно."
+    source: { kind: authored }
+  - form: "wołałyby"
+    pl: "Te głosy wołałyby o pomoc."
+    ru: "Эти голоса звали бы на помощь."
+    source: { kind: authored }
+  - form: "wołałybyście"
+    pl: "Wołałybyście o pomoc czy czekałybyście?"
+    ru: "Вы позвали бы на помощь или ждали бы?"
+    source: { kind: authored }
+  - form: "wołałybyście"
+    pl: "Gdybyście słyszały, wołałybyście pierwsze."
+    ru: "Если бы вы слышали, вы позвали бы первыми."
+    source: { kind: authored }
+  - form: "wołałybyście"
+    pl: "Nikogo nie wołałybyście przy dzieciach."
+    ru: "Вы никого не звали бы при детях."
+    source: { kind: authored }
+  - form: "wołałybyśmy"
+    pl: "Wołałybyśmy obie, ale boimy się hałasu."
+    ru: "Мы обе кричали бы, но боимся шума."
+    source: { kind: authored }
+  - form: "wołałybyśmy"
+    pl: "Wołałybyśmy o pomoc od razu."
+    ru: "Мы позвали бы на помощь сразу."
+    source: { kind: authored }
+  - form: "wołałybyśmy"
+    pl: "Nikogo nie wołałybyśmy po nocy."
+    ru: "Ночью мы никого не звали бы."
+    source: { kind: authored }
+  - form: "wołałyście"
+    pl: "Wołałyście mnie czy dziecko?"
+    ru: "Вы звали меня или ребёнка?"
+    source: { kind: authored }
+  - form: "wołałyście"
+    pl: "Wołałyście o pomoc na czas."
+    ru: "Вы вовремя позвали на помощь."
+    source: { kind: authored }
+  - form: "wołałyście"
+    pl: "Nikogo nie wołałyście po imieniu."
+    ru: "Вы никого не звали по имени."
+    source: { kind: authored }
+  - form: "wołałyśmy"
+    pl: "Wołałyśmy cię obie z podwórza."
+    ru: "Мы обе звали тебя со двора."
+    source: { kind: authored }
+  - form: "wołałyśmy"
+    pl: "Wołałyśmy o pomoc, ale nikt nie słyszał."
+    ru: "Мы звали на помощь, но никто не слышал."
+    source: { kind: authored }
+  - form: "wołałyśmy"
+    pl: "Nikogo nie wołałyśmy po nocy."
+    ru: "Мы никого не звали ночью."
+    source: { kind: authored }
