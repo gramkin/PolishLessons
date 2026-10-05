@@ -1,0 +1,300 @@
+# review
+id: sms
+format: 2
+lemma: "sms"
+rank: 2916
+pos: noun
+pron: { cyr: "эсэ́мэс" }
+senses:
+  - id: text-message
+    ru: "СМС, текстовое сообщение"
+    examples:
+      - pl: "Wyślij mi sms, jak dojedziesz."
+        ru: "Пришли мне СМС, как доедешь."
+        source: { kind: authored }
+      - pl: "Dostałem smsa w środku nocy."
+        ru: "Я получил СМС посреди ночи."
+        source: { kind: authored }
+      - pl: "Nie czytał SMS-ów od tygodnia."
+        ru: "Он не читал СМС уже неделю."
+        source: { kind: authored }
+  - id: sms-as-channel
+    ru: "СМС как способ связи, «по СМС»"
+    examples:
+      - pl: "Zgłoszenia przyjmujemy smsem."
+        ru: "Заявки принимаем по СМС."
+        source: { kind: authored }
+      - pl: "Potwierdzenie przyszło SMS-em."
+        ru: "Подтверждение пришло по СМС."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Два написания, и оба правильные. Можно писать с дефисом, сохраняя аббревиатуру заглавными: SMS-A, SMS-EM, SMS-ÓW. Можно писать слитно и строчными, как обычное слово: SMSA, SMSEM, SMSÓW. Первый способ строже и принят в официальных текстах, второй обычен в живой речи и в интернете. Выберите один и держитесь его в пределах текста. Родительный падеж единственного числа тоже двойной: SMS-A и SMS-U, то есть всего четыре правильные формы одного падежа." }
+  - { kind: false-friend, text: "Самое важное различие не в значении, а в грамматике. Русское «СМС» не склоняется вовсе: «я получил СМС», «нет СМС», «пришло две СМС» — форма одна на все падежи. Польский поступает наоборот: он принимает аббревиатуру в язык как обычное существительное мужского рода и склоняет её полностью — DOSTAŁEM SMS-A, NIE MA SMS-A, PRZYSZŁY DWA SMS-Y. Это общее польское правило, а не особенность слова: заимствованные аббревиатуры в польском получают падежные окончания." }
+  - { kind: pronunciation, text: "Читается по буквам, «эсэ́мэс», с ударением на предпоследнем слоге — то есть на среднем «мэ». Польские названия букв здесь: S — «эс», M — «эм». В косвенных падежах окончание просто прибавляется к этому чтению: SMS-A — «эсэмэ́са», SMS-EM — «эсэмэ́сэм». Встречается и полностью ослитнённое написание ESEMES, которое передаёт это чтение напрямую." }
+  - { kind: government, text: "Существительное мужского рода неодушевлённое, поэтому винительный падеж формально совпадает с именительным: WYŚLIJ SMS. Но в живой речи почти всегда говорят WYŚLIJ SMS-A, с окончанием родительного, — так польский обращается со многими неодушевлёнными словами, когда они обозначают нечто отдельное и исчислимое. Обе формы приняты. Способ связи передаётся творительным без предлога: SMSEM, SMS-EM «по СМС», как и MAILEM, TELEFONEM." }
+collocations:
+  - { pl: "wysłać smsa", ru: "послать СМС" }
+  - { pl: "dostać SMS-a", ru: "получить СМС" }
+  - { pl: "potwierdzenie smsem", ru: "подтверждение по СМС" }
+family:
+  - { pl: "esemes", ru: "эсэмэс (слитное написание)", relation: derived }
+  - { pl: "mail", ru: "электронное письмо", relation: root }
+  - { pl: "telefon", ru: "телефон", relation: root, id: telefon }
+etymology: "Английская аббревиатура от SHORT MESSAGE SERVICE «служба коротких сообщений» — название технической услуги, которое в обиходе стало названием самого сообщения. В польский слово пришло в конце девяностых вместе с мобильными телефонами и сразу начало склоняться, потому что польская морфология не терпит неизменяемых слов: всё, что ведёт себя как существительное, получает падежные окончания. Отсюда и двойное написание — орфографическое правило требует дефиса, когда основа остаётся заглавной, а живая речь предпочла записывать слово строчными и слитно. Русский пошёл другим путём и оставил аббревиатуру несклоняемой."
+memory: "Польский склоняет аббревиатуры: dostałem SMS-a, dwa smsy. Русский «СМС» не склоняет вовсе — это главное отличие. Два написания, SMS-a и smsa, оба верные; родительный двойной: SMS-a и SMS-u."
+idioms:
+  - { pl: "wysłać smsa", ru: "послать СМС" }
+  - { pl: "odpisać na smsa", ru: "ответить на СМС" }
+formExamples:
+  - form: "sms"
+    pl: "Wyślij mi sms, jak dojedziesz."
+    ru: "Пришли мне СМС, как доедешь."
+    source: { kind: authored }
+  - form: "sms"
+    pl: "Przyszedł sms z banku."
+    ru: "Пришла СМС из банка."
+    source: { kind: authored }
+  - form: "sms"
+    pl: "Jeden sms kosztuje teraz grosze."
+    ru: "Одна СМС стоит теперь копейки."
+    source: { kind: authored }
+  - form: "sms-a"
+    pl: "Dostałem SMS-a z potwierdzeniem rezerwacji."
+    ru: "Я получил СМС с подтверждением брони."
+    source: { kind: authored }
+  - form: "sms-a"
+    pl: "Nie było SMS-a od kuriera."
+    ru: "СМС от курьера не было."
+    source: { kind: authored }
+  - form: "sms-a"
+    pl: "Treść SMS-a zapisano w protokole."
+    ru: "Текст СМС записали в протокол."
+    source: { kind: authored }
+  - form: "sms-ach"
+    pl: "W SMS-ach od banku zawsze jest numer sprawy."
+    ru: "В СМС из банка всегда есть номер дела."
+    source: { kind: authored }
+  - form: "sms-ach"
+    pl: "O tych SMS-ach mówiono na rozprawie."
+    ru: "Об этих СМС говорили на заседании."
+    source: { kind: authored }
+  - form: "sms-ach"
+    pl: "W SMS-ach brakowało daty."
+    ru: "В СМС не хватало даты."
+    source: { kind: authored }
+  - form: "sms-ami"
+    pl: "Umawiali się SMS-ami przez cały tydzień."
+    ru: "Они договаривались по СМС всю неделю."
+    source: { kind: authored }
+  - form: "sms-ami"
+    pl: "Między SMS-ami a mailami wybrał pierwsze."
+    ru: "Между СМС и письмами он выбрал первое."
+    source: { kind: authored }
+  - form: "sms-ami"
+    pl: "Zasypywano go SMS-ami od samego rana."
+    ru: "Его засыпали СМС с самого утра."
+    source: { kind: authored }
+  - form: "sms-em"
+    pl: "Potwierdzenie przyszło SMS-em."
+    ru: "Подтверждение пришло по СМС."
+    source: { kind: authored }
+  - form: "sms-em"
+    pl: "Zawiadomili nas SMS-em o zmianie godziny."
+    ru: "Нас известили по СМС об изменении времени."
+    source: { kind: authored }
+  - form: "sms-em"
+    pl: "Kod jednorazowy dostaniesz SMS-em."
+    ru: "Одноразовый код ты получишь по СМС."
+    source: { kind: authored }
+  - form: "sms-ie"
+    pl: "W SMS-ie było tylko jedno słowo."
+    ru: "В СМС было только одно слово."
+    source: { kind: authored }
+  - form: "sms-ie"
+    pl: "O tym SMS-ie dowiedzieliśmy się później."
+    ru: "Об этой СМС мы узнали позже."
+    source: { kind: authored }
+  - form: "sms-ie"
+    pl: "W pierwszym SMS-ie podano zły adres."
+    ru: "В первой СМС указали неверный адрес."
+    source: { kind: authored }
+  - form: "sms-om"
+    pl: "SMS-om od nieznanych numerów nie należy wierzyć."
+    ru: "СМС с неизвестных номеров не следует верить."
+    source: { kind: authored }
+  - form: "sms-om"
+    pl: "Dzięki SMS-om od banku wykrył oszustwo."
+    ru: "Благодаря СМС из банка он обнаружил мошенничество."
+    source: { kind: authored }
+  - form: "sms-om"
+    pl: "Przyjrzano się SMS-om z tego numeru."
+    ru: "СМС с этого номера рассмотрели."
+    source: { kind: authored }
+  - form: "sms-owi"
+    pl: "SMS-owi brakowało podpisu nadawcy."
+    ru: "СМС не хватало подписи отправителя."
+    source: { kind: authored }
+  - form: "sms-owi"
+    pl: "Dzięki SMS-owi zdążyli na pociąg."
+    ru: "Благодаря СМС они успели на поезд."
+    source: { kind: authored }
+  - form: "sms-owi"
+    pl: "Przyjrzano się temu SMS-owi dokładnie."
+    ru: "Эту СМС рассмотрели внимательно."
+    source: { kind: authored }
+  - form: "sms-u"
+    pl: "W treści SMS-u był tylko numer."
+    ru: "В тексте СМС был только номер."
+    source: { kind: authored }
+  - form: "sms-u"
+    pl: "Do SMS-u dołączono link."
+    ru: "К СМС приложили ссылку."
+    source: { kind: authored }
+  - form: "sms-u"
+    pl: "Z tego SMS-u nic nie wynika."
+    ru: "Из этой СМС ничего не следует."
+    source: { kind: authored }
+  - form: "sms-y"
+    pl: "Przyszły dwa SMS-y jeden po drugim."
+    ru: "Пришли две СМС одна за другой."
+    source: { kind: authored }
+  - form: "sms-y"
+    pl: "SMS-y od banku przychodzą co miesiąc."
+    ru: "СМС из банка приходят каждый месяц."
+    source: { kind: authored }
+  - form: "sms-y"
+    pl: "Wszystkie SMS-y zapisano jako dowód."
+    ru: "Все СМС сохранили как доказательство."
+    source: { kind: authored }
+  - form: "sms-ów"
+    pl: "Nie czytał SMS-ów od tygodnia."
+    ru: "Он не читал СМС уже неделю."
+    source: { kind: authored }
+  - form: "sms-ów"
+    pl: "Bez SMS-ów nie potwierdzisz przelewu."
+    ru: "Без СМС ты не подтвердишь перевод."
+    source: { kind: authored }
+  - form: "sms-ów"
+    pl: "Liczba SMS-ów spadła o połowę."
+    ru: "Число СМС упало вдвое."
+    source: { kind: authored }
+  - form: "smsa"
+    pl: "Odpisz na smsa, czeka od godziny."
+    ru: "Ответь на СМС, он ждёт уже час."
+    source: { kind: authored }
+  - form: "smsa"
+    pl: "Dostałem smsa w środku nocy."
+    ru: "Я получил СМС посреди ночи."
+    source: { kind: authored }
+  - form: "smsa"
+    pl: "Nie widziałem smsa, telefon był wyłączony."
+    ru: "Я не видел СМС, телефон был выключен."
+    source: { kind: authored }
+  - form: "smsach"
+    pl: "W smsach pisał krótko i bez znaków."
+    ru: "В СМС он писал коротко и без знаков."
+    source: { kind: authored }
+  - form: "smsach"
+    pl: "O smsach od niej nie wspominał nikomu."
+    ru: "О СМС от неё он никому не упоминал."
+    source: { kind: authored }
+  - form: "smsach"
+    pl: "W tych smsach widać pośpiech."
+    ru: "В этих СМС видна спешка."
+    source: { kind: authored }
+  - form: "smsami"
+    pl: "Porozumiewali się smsami, bo zasięg był słaby."
+    ru: "Они общались по СМС, потому что связь была слабой."
+    source: { kind: authored }
+  - form: "smsami"
+    pl: "Zajmował się smsami reklamowymi zawodowo."
+    ru: "Он профессионально занимался рекламными СМС."
+    source: { kind: authored }
+  - form: "smsami"
+    pl: "Handlowano smsami premium jeszcze dekadę temu."
+    ru: "Премиальными СМС торговали ещё десять лет назад."
+    source: { kind: authored }
+  - form: "smsem"
+    pl: "Zgłoszenia przyjmujemy smsem."
+    ru: "Заявки принимаем по СМС."
+    source: { kind: authored }
+  - form: "smsem"
+    pl: "Umówili się smsem w pięć minut."
+    ru: "Они договорились по СМС за пять минут."
+    source: { kind: authored }
+  - form: "smsem"
+    pl: "Odpowiedział smsem, bo nie mógł rozmawiać."
+    ru: "Он ответил по СМС, потому что не мог говорить."
+    source: { kind: authored }
+  - form: "smsie"
+    pl: "W smsie nie było ani słowa o cenie."
+    ru: "В СМС не было ни слова о цене."
+    source: { kind: authored }
+  - form: "smsie"
+    pl: "O smsie zapomniał do wieczora."
+    ru: "О СМС он забыл до вечера."
+    source: { kind: authored }
+  - form: "smsie"
+    pl: "W tym smsie brakuje numeru lotu."
+    ru: "В этой СМС не хватает номера рейса."
+    source: { kind: authored }
+  - form: "smsom"
+    pl: "Smsom od tej firmy nikt już nie wierzy."
+    ru: "СМС от этой фирмы никто уже не верит."
+    source: { kind: authored }
+  - form: "smsom"
+    pl: "Dzięki smsom udało się ustalić godzinę."
+    ru: "Благодаря СМС удалось установить время."
+    source: { kind: authored }
+  - form: "smsom"
+    pl: "Przyglądano się smsom z ostatniego tygodnia."
+    ru: "СМС за последнюю неделю рассмотрели."
+    source: { kind: authored }
+  - form: "smsowi"
+    pl: "Smsowi od banku nikt nie uwierzył."
+    ru: "СМС из банка никто не поверил."
+    source: { kind: authored }
+  - form: "smsowi"
+    pl: "Dzięki smsowi zdążył odwołać spotkanie."
+    ru: "Благодаря СМС он успел отменить встречу."
+    source: { kind: authored }
+  - form: "smsowi"
+    pl: "Przyglądał się smsowi przez dłuższą chwilę."
+    ru: "Он разглядывал СМС довольно долго."
+    source: { kind: authored }
+  - form: "smsu"
+    pl: "Z smsu dowiedział się o zmianie terminu."
+    ru: "Из СМС он узнал об изменении срока."
+    source: { kind: authored }
+  - form: "smsu"
+    pl: "Nie zrozumiał smsu i zadzwonił."
+    ru: "Он не понял СМС и позвонил."
+    source: { kind: authored }
+  - form: "smsu"
+    pl: "Treści smsu nikomu nie pokazał."
+    ru: "Текст СМС он никому не показал."
+    source: { kind: authored }
+  - form: "smsy"
+    pl: "Smsy od niej przychodziły codziennie."
+    ru: "СМС от неё приходили каждый день."
+    source: { kind: authored }
+  - form: "smsy"
+    pl: "Czytał smsy w autobusie."
+    ru: "Он читал СМС в автобусе."
+    source: { kind: authored }
+  - form: "smsy"
+    pl: "Te smsy nic nie wyjaśniają."
+    ru: "Эти СМС ничего не объясняют."
+    source: { kind: authored }
+  - form: "smsów"
+    pl: "Dostał czterdzieści smsów w jeden wieczór."
+    ru: "Он получил сорок СМС за один вечер."
+    source: { kind: authored }
+  - form: "smsów"
+    pl: "Wśród smsów nie było tego najważniejszego."
+    ru: "Среди СМС не было самой важной."
+    source: { kind: authored }
+  - form: "smsów"
+    pl: "Nazbierało się smsów na cały wieczór czytania."
+    ru: "СМС накопилось на целый вечер чтения."
+    source: { kind: authored }
