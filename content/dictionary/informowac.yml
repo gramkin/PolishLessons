@@ -1,0 +1,804 @@
+# review
+id: informowac
+format: 2
+lemma: "informować"
+rank: 3112
+pos: verb
+pron: { cyr: "информо́ваць" }
+senses:
+  - id: inform
+    ru: "информировать, сообщать, извещать"
+    examples:
+      - pl: "Informujemy państwa o zmianie rozkładu."
+        ru: "Сообщаем вам об изменении расписания."
+        source: { kind: authored }
+      - pl: "Informował rodzinę o każdym szczególe."
+        ru: "Он информировал семью о каждой детали."
+        source: { kind: authored }
+      - pl: "Nikt nas nie informował o tej decyzji."
+        ru: "Никто нас не информировал об этом решении."
+        source: { kind: authored }
+  - id: state-on-sign
+    ru: "указывать, сообщать (о надписи, документе)"
+    examples:
+      - pl: "Tabliczka informuje o godzinach otwarcia."
+        ru: "Табличка сообщает о часах работы."
+        source: { kind: authored }
+      - pl: "Pismo informowało o konieczności dopłaty."
+        ru: "Письмо извещало о необходимости доплаты."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Кого — винительный, о чём — предлог O с МЕСТНЫМ падежом: INFORMOWAĆ KOGOŚ O CZYMŚ. Русский строит так же, с предлогом «о» и предложным падежом, так что конструкция переносится целиком: INFORMUJEMY PAŃSTWA O ZMIANIE — «сообщаем вам об изменении». Вместо предлога бывает союз ŻE: INFORMUJĘ, ŻE TERMIN MINĄŁ. А вот обычная ошибка — поставить дательный по образцу «сообщать кому-то»: по-польски нужен винительный, INFORMOWAĆ KOGOŚ, а не KOMU." }
+  - { kind: pronunciation, text: "Глагол класса на -OWAĆ, и настоящее время у него на -UJ-: INFORMOWAĆ даёт INFORMUJĘ, INFORMUJESZ, INFORMUJE, INFORMUJĄ. Правило то же, что в карточке SPAKOWAĆ, и для заимствованных глаголов оно особенно полезно, потому что их в польском много: TELEFONOWAĆ, ORGANIZOWAĆ, KONTROLOWAĆ — все ведут себя одинаково. Русскому помогает своё «-овать» даёт «-ую»: «информировать» — «информирую»." }
+  - { kind: false-friend, text: "Слово заимствованное и значение у него то же, но форма чуть иная, и на письме это ловит: по-польски INFORMOWAĆ, без -ир-, тогда как русский говорит «информИРовать». Так же устроен целый ряд: ORGANIZOWAĆ против «организовать», KONTROLOWAĆ против «контролировать», REZERWOWAĆ против «резервировать». Правило простое: там, где русский вставляет -ир-/-изир-, польский обходится без него." }
+  - { kind: usage, text: "Совершенная пара — POINFORMOWAĆ, и она нужна для однократного извещения: POINFORMOWAŁEM GO WCZORAJ. Несовершенное INFORMOWAĆ описывает либо повторяющееся, либо длящееся сообщение, и именно оно стоит в официальных формулах: UPRZEJMIE INFORMUJEMY, ŻE… — «любезно сообщаем, что…». Существительное INFORMACJA значит и «информация», и «справочная»: INFORMACJA KOLEJOWA — «железнодорожная справочная»." }
+collocations:
+  - { pl: "informować kogoś o czymś", ru: "информировать кого-то о чём-то" }
+  - { pl: "uprzejmie informujemy", ru: "любезно сообщаем" }
+  - { pl: "informacja kolejowa", ru: "железнодорожная справочная" }
+family:
+  - { pl: "poinformować", ru: "сообщить, известить", relation: aspect, id: poinformowac }
+  - { pl: "informacja", ru: "информация; справочная", relation: derived, id: informacja }
+  - { pl: "informator", ru: "справочник; информатор", relation: derived }
+etymology: "Из латинского INFORMARE «придавать форму, наставлять», от FORMA — через западноевропейские языки, в польский скорее всего через немецкий и французский. Русский взял то же слово, но в форме с -ир-, по немецкому образцу на -ieren: «информировать». Польский же присоединил свой родной суффикс -OWAĆ, и получилось INFORMOWAĆ. Эта разница касается не одного слова, а всего разряда заимствованных глаголов, и запомнить её стоит один раз: польскому -OWAĆ отвечает русское -ировать."
+memory: "Польский обходится без -ир-: informować, organizować, kontrolować — против «информировать», «организовать», «контролировать». И управление как в русском: informować kogoś o czymś."
+idioms:
+  - { pl: "uprzejmie informujemy", ru: "любезно сообщаем (официальная формула)" }
+  - { pl: "informacja kolejowa", ru: "железнодорожная справочная" }
+formExamples:
+  - form: "informowali"
+    pl: "Informowali rodziny dopiero po zakończeniu śledztwa."
+    ru: "Они информировали семьи только после окончания следствия."
+    source: { kind: authored }
+  - form: "informowali"
+    pl: "Informowali klientów o opłatach z góry."
+    ru: "Они информировали клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowali"
+    pl: "Nikogo nie informowali o tej decyzji."
+    ru: "Никого они не информировали об этом решении."
+    source: { kind: authored }
+  - form: "informowaliby"
+    pl: "Informowaliby rodziny wcześniej, gdyby mogli."
+    ru: "Они информировали бы семьи раньше, если бы могли."
+    source: { kind: authored }
+  - form: "informowaliby"
+    pl: "Informowaliby klientów o opłatach z góry."
+    ru: "Они информировали бы клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowaliby"
+    pl: "Nikogo nie informowaliby przed decyzją."
+    ru: "Никого они не информировали бы до решения."
+    source: { kind: authored }
+  - form: "informowalibyście"
+    pl: "Informowalibyście rodziny o każdej zmianie?"
+    ru: "Вы информировали бы семьи о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowalibyście"
+    pl: "Gdybyście byli na naszym miejscu, informowalibyście z góry."
+    ru: "Если бы вы были на нашем месте, вы информировали бы заранее."
+    source: { kind: authored }
+  - form: "informowalibyście"
+    pl: "Nikogo nie informowalibyście przed decyzją."
+    ru: "Никого вы не информировали бы до решения."
+    source: { kind: authored }
+  - form: "informowalibyśmy"
+    pl: "Informowalibyśmy państwa na bieżąco, gdyby były nowe dane."
+    ru: "Мы информировали бы вас постоянно, если бы были новые данные."
+    source: { kind: authored }
+  - form: "informowalibyśmy"
+    pl: "Informowalibyśmy klientów o opłatach z góry."
+    ru: "Мы информировали бы клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowalibyśmy"
+    pl: "Nikogo nie informowalibyśmy przed decyzją."
+    ru: "Никого мы не информировали бы до решения."
+    source: { kind: authored }
+  - form: "informowaliście"
+    pl: "Informowaliście klientów o opłatach z góry?"
+    ru: "Вы информировали клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informowaliście"
+    pl: "Informowaliście rodziny o wynikach?"
+    ru: "Вы информировали семьи о результатах?"
+    source: { kind: authored }
+  - form: "informowaliście"
+    pl: "Nikogo nie informowaliście o tej decyzji, prawda?"
+    ru: "Никого вы не информировали об этом решении, правда?"
+    source: { kind: authored }
+  - form: "informowaliśmy"
+    pl: "Informowaliśmy klientów o opłatach z góry."
+    ru: "Мы информировали клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowaliśmy"
+    pl: "Informowaliśmy rodziny po zakończeniu śledztwa."
+    ru: "Мы информировали семьи после окончания следствия."
+    source: { kind: authored }
+  - form: "informowaliśmy"
+    pl: "Nikogo nie informowaliśmy o tej decyzji."
+    ru: "Никого мы не информировали об этом решении."
+    source: { kind: authored }
+  - form: "informowana"
+    pl: "Rodzina informowana na bieżąco znosiła to łatwiej."
+    ru: "Семья, которую информировали постоянно, переносила это легче."
+    source: { kind: authored }
+  - form: "informowana"
+    pl: "Byłam informowana o wszystkim z opóźnieniem."
+    ru: "Меня информировали обо всём с опозданием."
+    source: { kind: authored }
+  - form: "informowana"
+    pl: "Strona informowana pisemnie ma czternaście dni."
+    ru: "Сторона, извещённая письменно, имеет четырнадцать дней."
+    source: { kind: authored }
+  - form: "informowane"
+    pl: "Rodziny informowane na bieżąco znosiły to łatwiej."
+    ru: "Семьи, которые информировали постоянно, переносили это легче."
+    source: { kind: authored }
+  - form: "informowane"
+    pl: "Dziecko informowane spokojnie mniej się boi."
+    ru: "Ребёнок, которому спокойно всё объясняют, меньше боится."
+    source: { kind: authored }
+  - form: "informowane"
+    pl: "Te strony, informowane pisemnie, odpowiedziały w terminie."
+    ru: "Эти стороны, извещённые письменно, ответили в срок."
+    source: { kind: authored }
+  - form: "informowanego"
+    pl: "Od klienta informowanego z góry nie usłyszysz skargi."
+    ru: "От клиента, информированного заранее, жалобы не услышишь."
+    source: { kind: authored }
+  - form: "informowanego"
+    pl: "Nie widzieli pasażera informowanego osobno."
+    ru: "Они не видели пассажира, которого извещали отдельно."
+    source: { kind: authored }
+  - form: "informowanego"
+    pl: "Szukali świadka informowanego o terminie listownie."
+    ru: "Они искали свидетеля, извещённого о сроке письмом."
+    source: { kind: authored }
+  - form: "informowanej"
+    pl: "O rodzinie informowanej na bieżąco mówiono w raporcie osobno."
+    ru: "О семье, которую информировали постоянно, в отчёте говорили отдельно."
+    source: { kind: authored }
+  - form: "informowanej"
+    pl: "Nie ma mowy o stronie informowanej tylko telefonicznie."
+    ru: "О стороне, извещённой только по телефону, и речи нет."
+    source: { kind: authored }
+  - form: "informowanej"
+    pl: "Przyjrzeli się grupie informowanej z opóźnieniem."
+    ru: "Они присмотрелись к группе, которую информировали с опозданием."
+    source: { kind: authored }
+  - form: "informowanemu"
+    pl: "Klientowi informowanemu z góry nie trzeba nic tłumaczyć."
+    ru: "Клиенту, информированному заранее, ничего объяснять не надо."
+    source: { kind: authored }
+  - form: "informowanemu"
+    pl: "Dzięki świadkowi informowanemu listownie termin został dotrzymany."
+    ru: "Благодаря свидетелю, извещённому письмом, срок был соблюдён."
+    source: { kind: authored }
+  - form: "informowanemu"
+    pl: "Przyglądali się dziecku informowanemu przez psychologa."
+    ru: "Они смотрели на ребёнка, которому объяснял психолог."
+    source: { kind: authored }
+  - form: "informowani"
+    pl: "Informowani na bieżąco pasażerowie czekali spokojnie."
+    ru: "Информируемые постоянно пассажиры ждали спокойно."
+    source: { kind: authored }
+  - form: "informowani"
+    pl: "Informowani z opóźnieniem, dowiedzieli się z gazety."
+    ru: "Информируемые с опозданием, они узнали из газеты."
+    source: { kind: authored }
+  - form: "informowani"
+    pl: "Informowani pisemnie mieli czternaście dni na odpowiedź."
+    ru: "Извещённые письменно имели четырнадцать дней на ответ."
+    source: { kind: authored }
+  - form: "informowania"
+    pl: "Obowiązek informowania pasażerów wpisano do umowy."
+    ru: "Обязанность извещать пассажиров внесли в договор."
+    source: { kind: authored }
+  - form: "informowania"
+    pl: "Bez informowania rodzin śledztwo byłoby nie do zniesienia."
+    ru: "Без извещения семей следствие было бы невыносимым."
+    source: { kind: authored }
+  - form: "informowania"
+    pl: "Zasady informowania klientów opisano w regulaminie."
+    ru: "Правила извещения клиентов описаны в регламенте."
+    source: { kind: authored }
+  - form: "informowanie"
+    pl: "Informowanie pasażerów o opóźnieniach jest obowiązkiem przewoźnika."
+    ru: "Извещать пассажиров о задержках — обязанность перевозчика."
+    source: { kind: authored }
+  - form: "informowanie"
+    pl: "Informowanie rodzin należy do prokuratora."
+    ru: "Извещение семей относится к прокурору."
+    source: { kind: authored }
+  - form: "informowanie"
+    pl: "Informowanie klientów z góry oszczędza skarg."
+    ru: "Извещать клиентов заранее экономит жалобы."
+    source: { kind: authored }
+  - form: "informowaniem"
+    pl: "Przed informowaniem rodzin prokurator czeka na wyniki."
+    ru: "Прежде чем извещать семьи, прокурор ждёт результатов."
+    source: { kind: authored }
+  - form: "informowaniem"
+    pl: "Zajęli się informowaniem pasażerów dopiero po godzinie."
+    ru: "Извещением пассажиров они занялись только через час."
+    source: { kind: authored }
+  - form: "informowaniem"
+    pl: "Między informowaniem a wyjaśnieniem jest różnica."
+    ru: "Между извещением и объяснением есть разница."
+    source: { kind: authored }
+  - form: "informowaniu"
+    pl: "Po informowaniu pasażerów przez godzinę głos jej zachrypł."
+    ru: "После часа объявлений пассажирам её голос охрип."
+    source: { kind: authored }
+  - form: "informowaniu"
+    pl: "O informowaniu rodzin zdecydował prokurator."
+    ru: "Об извещении семей решил прокурор."
+    source: { kind: authored }
+  - form: "informowaniu"
+    pl: "W informowaniu klientów pomaga nam strona internetowa."
+    ru: "Извещать клиентов нам помогает сайт."
+    source: { kind: authored }
+  - form: "informowano"
+    pl: "Pasażerów informowano o opóźnieniach co kwadrans."
+    ru: "Пассажиров извещали о задержках каждые четверть часа."
+    source: { kind: authored }
+  - form: "informowano"
+    pl: "O dopłacie informowano osobnym pismem."
+    ru: "О доплате извещали отдельным письмом."
+    source: { kind: authored }
+  - form: "informowano"
+    pl: "Rodzin nie informowano aż do końca śledztwa."
+    ru: "Семьи не извещали до конца следствия."
+    source: { kind: authored }
+  - form: "informowany"
+    pl: "Pasażer informowany na bieżąco rzadziej się denerwuje."
+    ru: "Пассажир, которого информируют постоянно, реже нервничает."
+    source: { kind: authored }
+  - form: "informowany"
+    pl: "Klient informowany o opłatach z góry nie składa skarg."
+    ru: "Клиент, информированный о платежах заранее, не подаёт жалоб."
+    source: { kind: authored }
+  - form: "informowany"
+    pl: "Byłem informowany o wszystkim z opóźnieniem."
+    ru: "Меня информировали обо всём с опозданием."
+    source: { kind: authored }
+  - form: "informowanych"
+    pl: "Wśród informowanych na bieżąco rodzin nie było skarg."
+    ru: "Среди семей, которые информировали постоянно, жалоб не было."
+    source: { kind: authored }
+  - form: "informowanych"
+    pl: "Bez klientów informowanych z góry mielibyśmy same reklamacje."
+    ru: "Без клиентов, информированных заранее, у нас были бы одни претензии."
+    source: { kind: authored }
+  - form: "informowanych"
+    pl: "Lista informowanych stron zajęła dwie strony."
+    ru: "Список извещённых сторон занял две страницы."
+    source: { kind: authored }
+  - form: "informowanym"
+    pl: "W kliencie informowanym z góry rozpoznał stałego bywalca."
+    ru: "В клиенте, информированном заранее, он узнал постоянного посетителя."
+    source: { kind: authored }
+  - form: "informowanym"
+    pl: "Okazał się świadkiem informowanym listownie dwa razy."
+    ru: "Он оказался свидетелем, извещённым письмом дважды."
+    source: { kind: authored }
+  - form: "informowanym"
+    pl: "Informowanym pasażerom rozdano talony na kawę."
+    ru: "Информированным пассажирам раздали талоны на кофе."
+    source: { kind: authored }
+  - form: "informowanymi"
+    pl: "Między informowanymi i niepowiadomionymi była wyraźna różnica."
+    ru: "Между извещёнными и неуведомлёнными была явная разница."
+    source: { kind: authored }
+  - form: "informowanymi"
+    pl: "Zajęli się rodzinami informowanymi dotąd z opóźnieniem."
+    ru: "Они занялись семьями, которых до сих пор информировали с опозданием."
+    source: { kind: authored }
+  - form: "informowanymi"
+    pl: "Nad informowanymi pasażerami nikt się nie litował."
+    ru: "Над информированными пассажирами никто не сжалился."
+    source: { kind: authored }
+  - form: "informowaną"
+    pl: "Zastali rodzinę informowaną już przez prokuratora."
+    ru: "Они нашли семью, которую уже извещал прокурор."
+    source: { kind: authored }
+  - form: "informowaną"
+    pl: "Uznali stronę informowaną telefonicznie za powiadomioną."
+    ru: "Сторону, извещённую по телефону, они сочли уведомлённой."
+    source: { kind: authored }
+  - form: "informowaną"
+    pl: "Zobaczyli grupę informowaną z opóźnieniem i zamilkli."
+    ru: "Они увидели группу, которую информировали с опозданием, и замолчали."
+    source: { kind: authored }
+  - form: "informować"
+    pl: "Trzeba informować rodzinę o każdej zmianie."
+    ru: "Надо информировать семью о каждом изменении."
+    source: { kind: authored }
+  - form: "informować"
+    pl: "Mamy obowiązek informować klientów o opłatach."
+    ru: "Мы обязаны информировать клиентов о платежах."
+    source: { kind: authored }
+  - form: "informować"
+    pl: "Nie chcieli informować nikogo o tej decyzji."
+    ru: "Они не хотели никого информировать об этом решении."
+    source: { kind: authored }
+  - form: "informował"
+    pl: "Informował rodzinę o każdym szczególe."
+    ru: "Он информировал семью о каждой детали."
+    source: { kind: authored }
+  - form: "informował"
+    pl: "Urząd informował o konieczności dopłaty."
+    ru: "Учреждение извещало о необходимости доплаты."
+    source: { kind: authored }
+  - form: "informował"
+    pl: "Nikogo nie informował o swoich planach."
+    ru: "Никого он не информировал о своих планах."
+    source: { kind: authored }
+  - form: "informowała"
+    pl: "Informowała rodzinę o każdym szczególe."
+    ru: "Она информировала семью о каждой детали."
+    source: { kind: authored }
+  - form: "informowała"
+    pl: "Tabliczka informowała o godzinach otwarcia."
+    ru: "Табличка сообщала о часах работы."
+    source: { kind: authored }
+  - form: "informowała"
+    pl: "Nikogo nie informowała o swoich planach."
+    ru: "Никого она не информировала о своих планах."
+    source: { kind: authored }
+  - form: "informowałaby"
+    pl: "Dobra sekretarka informowałaby o takich zmianach z góry."
+    ru: "Хорошая секретарша извещала бы о таких изменениях заранее."
+    source: { kind: authored }
+  - form: "informowałaby"
+    pl: "Informowałaby rodzinę częściej, gdyby miała telefon."
+    ru: "Она информировала бы семью чаще, если бы у неё был телефон."
+    source: { kind: authored }
+  - form: "informowałaby"
+    pl: "Nikogo nie informowałaby o swoich planach."
+    ru: "Никого она не информировала бы о своих планах."
+    source: { kind: authored }
+  - form: "informowałabym"
+    pl: "Informowałabym państwa na bieżąco, gdyby były nowe dane."
+    ru: "Я информировала бы вас постоянно, если бы были новые данные."
+    source: { kind: authored }
+  - form: "informowałabym"
+    pl: "Chętnie informowałabym klientów o opłatach z góry."
+    ru: "Я охотно информировала бы клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałabym"
+    pl: "Nikogo nie informowałabym przed decyzją."
+    ru: "Никого я не информировала бы до решения."
+    source: { kind: authored }
+  - form: "informowałabyś"
+    pl: "Informowałabyś rodzinę o każdej zmianie?"
+    ru: "Ты информировала бы семью о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowałabyś"
+    pl: "Gdybyś była na moim miejscu, informowałabyś klientów z góry."
+    ru: "Если бы ты была на моём месте, ты информировала бы клиентов заранее."
+    source: { kind: authored }
+  - form: "informowałabyś"
+    pl: "Nikogo nie informowałabyś przed decyzją."
+    ru: "Никого ты не информировала бы до решения."
+    source: { kind: authored }
+  - form: "informowałam"
+    pl: "Informowałam rodzinę o każdym szczególe."
+    ru: "Я информировала семью о каждой детали."
+    source: { kind: authored }
+  - form: "informowałam"
+    pl: "Informowałam klientów o opłatach z góry."
+    ru: "Я информировала клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałam"
+    pl: "Nikogo nie informowałam o swoich planach."
+    ru: "Никого я не информировала о своих планах."
+    source: { kind: authored }
+  - form: "informowałaś"
+    pl: "Informowałaś rodzinę o każdej zmianie?"
+    ru: "Ты информировала семью о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowałaś"
+    pl: "Informowałaś klientów o opłatach z góry?"
+    ru: "Ты информировала клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informowałaś"
+    pl: "Nikogo nie informowałaś o tej decyzji, prawda?"
+    ru: "Никого ты не информировала об этом решении, правда?"
+    source: { kind: authored }
+  - form: "informowałby"
+    pl: "Dobry urząd informowałby o takich zmianach z góry."
+    ru: "Хорошее учреждение извещало бы о таких изменениях заранее."
+    source: { kind: authored }
+  - form: "informowałby"
+    pl: "Informowałby rodzinę częściej, gdyby miał telefon."
+    ru: "Он информировал бы семью чаще, если бы у него был телефон."
+    source: { kind: authored }
+  - form: "informowałby"
+    pl: "Nikogo nie informowałby o swoich planach."
+    ru: "Никого он не информировал бы о своих планах."
+    source: { kind: authored }
+  - form: "informowałbym"
+    pl: "Informowałbym państwa na bieżąco, gdyby były nowe dane."
+    ru: "Я информировал бы вас постоянно, если бы были новые данные."
+    source: { kind: authored }
+  - form: "informowałbym"
+    pl: "Chętnie informowałbym klientów o opłatach z góry."
+    ru: "Я охотно информировал бы клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałbym"
+    pl: "Nikogo nie informowałbym przed decyzją."
+    ru: "Никого я не информировал бы до решения."
+    source: { kind: authored }
+  - form: "informowałbyś"
+    pl: "Informowałbyś rodzinę o każdej zmianie?"
+    ru: "Ты информировал бы семью о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowałbyś"
+    pl: "Gdybyś był na moim miejscu, informowałbyś klientów z góry."
+    ru: "Если бы ты был на моём месте, ты информировал бы клиентов заранее."
+    source: { kind: authored }
+  - form: "informowałbyś"
+    pl: "Nikogo nie informowałbyś przed decyzją."
+    ru: "Никого ты не информировал бы до решения."
+    source: { kind: authored }
+  - form: "informowałem"
+    pl: "Informowałem rodzinę o każdym szczególe."
+    ru: "Я информировал семью о каждой детали."
+    source: { kind: authored }
+  - form: "informowałem"
+    pl: "Informowałem klientów o opłatach z góry."
+    ru: "Я информировал клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałem"
+    pl: "Nikogo nie informowałem o swoich planach."
+    ru: "Никого я не информировал о своих планах."
+    source: { kind: authored }
+  - form: "informowałeś"
+    pl: "Informowałeś rodzinę o każdej zmianie?"
+    ru: "Ты информировал семью о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowałeś"
+    pl: "Informowałeś klientów o opłatach z góry?"
+    ru: "Ты информировал клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informowałeś"
+    pl: "Nikogo nie informowałeś o tej decyzji, prawda?"
+    ru: "Никого ты не информировал об этом решении, правда?"
+    source: { kind: authored }
+  - form: "informowało"
+    pl: "Pismo informowało o konieczności dopłaty."
+    ru: "Письмо извещало о необходимости доплаты."
+    source: { kind: authored }
+  - form: "informowało"
+    pl: "Całe biuro informowało klientów o nowych opłatach."
+    ru: "Всё бюро информировало клиентов о новых платежах."
+    source: { kind: authored }
+  - form: "informowało"
+    pl: "Nic nas nie informowało o tych zmianach."
+    ru: "Ничто не извещало нас об этих изменениях."
+    source: { kind: authored }
+  - form: "informowałoby"
+    pl: "Dobre pismo informowałoby o dopłacie wyraźnie."
+    ru: "Хорошее письмо извещало бы о доплате ясно."
+    source: { kind: authored }
+  - form: "informowałoby"
+    pl: "Całe biuro informowałoby klientów, gdyby było więcej ludzi."
+    ru: "Всё бюро информировало бы клиентов, если бы было больше людей."
+    source: { kind: authored }
+  - form: "informowałoby"
+    pl: "Nic nas nie informowałoby o tych zmianach."
+    ru: "Ничто не извещало бы нас об этих изменениях."
+    source: { kind: authored }
+  - form: "informowały"
+    pl: "Tablice informowały o opóźnieniach co kwadrans."
+    ru: "Табло сообщали о задержках каждые четверть часа."
+    source: { kind: authored }
+  - form: "informowały"
+    pl: "Oba pisma informowały o tej samej dopłacie."
+    ru: "Оба письма извещали об одной и той же доплате."
+    source: { kind: authored }
+  - form: "informowały"
+    pl: "Te ogłoszenia nikogo nie informowały o niczym."
+    ru: "Эти объявления никого ни о чём не извещали."
+    source: { kind: authored }
+  - form: "informowałyby"
+    pl: "Tablice informowałyby o opóźnieniach, gdyby działały."
+    ru: "Табло сообщали бы о задержках, если бы работали."
+    source: { kind: authored }
+  - form: "informowałyby"
+    pl: "Oba pisma informowałyby o tej samej dopłacie."
+    ru: "Оба письма извещали бы об одной и той же доплате."
+    source: { kind: authored }
+  - form: "informowałyby"
+    pl: "Te ogłoszenia nikogo nie informowałyby o niczym."
+    ru: "Эти объявления никого ни о чём не извещали бы."
+    source: { kind: authored }
+  - form: "informowałybyście"
+    pl: "Informowałybyście rodziny o każdej zmianie?"
+    ru: "Вы информировали бы семьи о каждом изменении?"
+    source: { kind: authored }
+  - form: "informowałybyście"
+    pl: "Gdybyście były na naszym miejscu, informowałybyście z góry."
+    ru: "Если бы вы были на нашем месте, вы информировали бы заранее."
+    source: { kind: authored }
+  - form: "informowałybyście"
+    pl: "Nikogo nie informowałybyście przed decyzją."
+    ru: "Никого вы не информировали бы до решения."
+    source: { kind: authored }
+  - form: "informowałybyśmy"
+    pl: "Informowałybyśmy państwa na bieżąco, gdyby były nowe dane."
+    ru: "Мы информировали бы вас постоянно, если бы были новые данные."
+    source: { kind: authored }
+  - form: "informowałybyśmy"
+    pl: "Informowałybyśmy klientów o opłatach z góry."
+    ru: "Мы информировали бы клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałybyśmy"
+    pl: "Nikogo nie informowałybyśmy przed decyzją."
+    ru: "Никого мы не информировали бы до решения."
+    source: { kind: authored }
+  - form: "informowałyście"
+    pl: "Informowałyście klientów o opłatach z góry?"
+    ru: "Вы информировали клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informowałyście"
+    pl: "Informowałyście rodziny o wynikach?"
+    ru: "Вы информировали семьи о результатах?"
+    source: { kind: authored }
+  - form: "informowałyście"
+    pl: "Nikogo nie informowałyście o tej decyzji, prawda?"
+    ru: "Никого вы не информировали об этом решении, правда?"
+    source: { kind: authored }
+  - form: "informowałyśmy"
+    pl: "Informowałyśmy klientów o opłatach z góry."
+    ru: "Мы информировали клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informowałyśmy"
+    pl: "Informowałyśmy rodziny po zakończeniu śledztwa."
+    ru: "Мы информировали семьи после окончания следствия."
+    source: { kind: authored }
+  - form: "informowałyśmy"
+    pl: "Nikogo nie informowałyśmy o tej decyzji."
+    ru: "Никого мы не информировали об этом решении."
+    source: { kind: authored }
+  - form: "informuj"
+    pl: "Informuj mnie o każdej zmianie."
+    ru: "Информируй меня о каждом изменении."
+    source: { kind: authored }
+  - form: "informuj"
+    pl: "Informuj rodzinę regularnie, nie raz na miesiąc."
+    ru: "Информируй семью регулярно, а не раз в месяц."
+    source: { kind: authored }
+  - form: "informuj"
+    pl: "Nie informuj nikogo, póki nie ma decyzji."
+    ru: "Не информируй никого, пока нет решения."
+    source: { kind: authored }
+  - form: "informujcie"
+    pl: "Informujcie mnie o każdej zmianie."
+    ru: "Информируйте меня о каждом изменении."
+    source: { kind: authored }
+  - form: "informujcie"
+    pl: "Informujcie klientów o opłatach z góry."
+    ru: "Информируйте клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informujcie"
+    pl: "Nie informujcie nikogo, póki nie ma decyzji."
+    ru: "Не информируйте никого, пока нет решения."
+    source: { kind: authored }
+  - form: "informuje"
+    pl: "Tabliczka informuje o godzinach otwarcia."
+    ru: "Табличка сообщает о часах работы."
+    source: { kind: authored }
+  - form: "informuje"
+    pl: "Kto informuje pasażerów o opóźnieniach?"
+    ru: "Кто информирует пассажиров о задержках?"
+    source: { kind: authored }
+  - form: "informuje"
+    pl: "Nikt nas nie informuje o tych zmianach."
+    ru: "Никто нас не информирует об этих изменениях."
+    source: { kind: authored }
+  - form: "informujecie"
+    pl: "Informujecie klientów o opłatach z góry?"
+    ru: "Вы информируете клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informujecie"
+    pl: "Informujecie pasażerów o każdym opóźnieniu?"
+    ru: "Вы информируете пассажиров о каждой задержке?"
+    source: { kind: authored }
+  - form: "informujecie"
+    pl: "Nikogo nie informujecie o tych zmianach."
+    ru: "Никого вы не информируете об этих изменениях."
+    source: { kind: authored }
+  - form: "informujemy"
+    pl: "Informujemy państwa o zmianie rozkładu."
+    ru: "Сообщаем вам об изменении расписания."
+    source: { kind: authored }
+  - form: "informujemy"
+    pl: "Uprzejmie informujemy, że biuro będzie zamknięte."
+    ru: "Любезно сообщаем, что бюро будет закрыто."
+    source: { kind: authored }
+  - form: "informujemy"
+    pl: "Nikogo nie informujemy o decyzjach przed czasem."
+    ru: "Никого мы не информируем о решениях заранее."
+    source: { kind: authored }
+  - form: "informujesz"
+    pl: "Informujesz rodzinę o każdej zmianie?"
+    ru: "Ты информируешь семью о каждом изменении?"
+    source: { kind: authored }
+  - form: "informujesz"
+    pl: "Informujesz klientów o opłatach z góry?"
+    ru: "Ты информируешь клиентов о платежах заранее?"
+    source: { kind: authored }
+  - form: "informujesz"
+    pl: "Nikogo nie informujesz o swoich planach."
+    ru: "Никого ты не информируешь о своих планах."
+    source: { kind: authored }
+  - form: "informujmy"
+    pl: "Informujmy klientów o opłatach z góry."
+    ru: "Будем информировать клиентов о платежах заранее."
+    source: { kind: authored }
+  - form: "informujmy"
+    pl: "Informujmy rodziny regularnie, nie raz na miesiąc."
+    ru: "Будем информировать семьи регулярно, а не раз в месяц."
+    source: { kind: authored }
+  - form: "informujmy"
+    pl: "Nie informujmy nikogo, póki nie ma decyzji."
+    ru: "Не будем информировать никого, пока нет решения."
+    source: { kind: authored }
+  - form: "informują"
+    pl: "Tablice informują o opóźnieniach z półgodzinnym wyprzedzeniem."
+    ru: "Табло сообщают о задержках за полчаса."
+    source: { kind: authored }
+  - form: "informują"
+    pl: "Informują rodziny dopiero po zakończeniu śledztwa."
+    ru: "Они информируют семьи только после окончания следствия."
+    source: { kind: authored }
+  - form: "informują"
+    pl: "Nikogo nie informują o decyzjach przed czasem."
+    ru: "Никого они не информируют о решениях заранее."
+    source: { kind: authored }
+  - form: "informując"
+    pl: "Informując rodzinę, ważył każde słowo."
+    ru: "Информируя семью, он взвешивал каждое слово."
+    source: { kind: authored }
+  - form: "informując"
+    pl: "Informując pasażerów, mów wyraźnie i powoli."
+    ru: "Информируя пассажиров, говори ясно и медленно."
+    source: { kind: authored }
+  - form: "informując"
+    pl: "Informując klientów z góry, oszczędzasz sobie skarg."
+    ru: "Информируя клиентов заранее, ты экономишь себе жалобы."
+    source: { kind: authored }
+  - form: "informująca"
+    pl: "Tabliczka informująca o godzinach otwarcia wisi przy drzwiach."
+    ru: "Табличка, сообщающая о часах работы, висит у двери."
+    source: { kind: authored }
+  - form: "informująca"
+    pl: "Sekretarka informująca rodziny robiła to z wyczuciem."
+    ru: "Секретарша, извещавшая семьи, делала это с тактом."
+    source: { kind: authored }
+  - form: "informująca"
+    pl: "Ulotka informująca o opłatach leżała na biurku."
+    ru: "Листовка, сообщающая о платежах, лежала на столе."
+    source: { kind: authored }
+  - form: "informujące"
+    pl: "Tablice informujące o opóźnieniach nie działały od tygodnia."
+    ru: "Табло, сообщающие о задержках, не работали неделю."
+    source: { kind: authored }
+  - form: "informujące"
+    pl: "Pismo informujące o dopłacie przyszło za późno."
+    ru: "Письмо, извещающее о доплате, пришло слишком поздно."
+    source: { kind: authored }
+  - form: "informujące"
+    pl: "Te ogłoszenia informujące o remoncie nikogo nie przekonały."
+    ru: "Эти объявления, сообщающие о ремонте, никого не убедили."
+    source: { kind: authored }
+  - form: "informującego"
+    pl: "Od urzędnika informującego pasażerów oczekiwano spokoju."
+    ru: "От чиновника, информировавшего пассажиров, ждали спокойствия."
+    source: { kind: authored }
+  - form: "informującego"
+    pl: "Nie widzieli znaku informującego o remoncie."
+    ru: "Они не видели знака, сообщающего о ремонте."
+    source: { kind: authored }
+  - form: "informującego"
+    pl: "Szukali pisma informującego o dopłacie."
+    ru: "Они искали письмо, извещающее о доплате."
+    source: { kind: authored }
+  - form: "informującej"
+    pl: "O tabliczce informującej o godzinach otwarcia nikt nie pamiętał."
+    ru: "О табличке, сообщающей о часах работы, никто не помнил."
+    source: { kind: authored }
+  - form: "informującej"
+    pl: "Nie ma mowy o ulotce informującej tylko po polsku."
+    ru: "О листовке, информирующей только по-польски, и речи нет."
+    source: { kind: authored }
+  - form: "informującej"
+    pl: "Przyjrzeli się sekretarce informującej rodziny."
+    ru: "Они присмотрелись к секретарше, извещавшей семьи."
+    source: { kind: authored }
+  - form: "informującemu"
+    pl: "Urzędnikowi informującemu pasażerów podano wodę."
+    ru: "Чиновнику, информировавшему пассажиров, подали воды."
+    source: { kind: authored }
+  - form: "informującemu"
+    pl: "Dzięki znakowi informującemu o remoncie ominęli korek."
+    ru: "Благодаря знаку, сообщавшему о ремонте, они объехали пробку."
+    source: { kind: authored }
+  - form: "informującemu"
+    pl: "Przyglądali się pracownikowi informującemu klientów."
+    ru: "Они смотрели на работника, информировавшего клиентов."
+    source: { kind: authored }
+  - form: "informujący"
+    pl: "Urzędnik informujący pasażerów stracił głos po godzinie."
+    ru: "Чиновник, информировавший пассажиров, потерял голос через час."
+    source: { kind: authored }
+  - form: "informujący"
+    pl: "Znak informujący o remoncie stał przy wjeździe."
+    ru: "Знак, сообщающий о ремонте, стоял при въезде."
+    source: { kind: authored }
+  - form: "informujący"
+    pl: "Pracownik informujący klientów o opłatach mówił to już setny raz."
+    ru: "Работник, информировавший клиентов о платежах, говорил это уже в сотый раз."
+    source: { kind: authored }
+  - form: "informujących"
+    pl: "Wśród znaków informujących o remoncie dwa były przewrócone."
+    ru: "Среди знаков, сообщающих о ремонте, два были опрокинуты."
+    source: { kind: authored }
+  - form: "informujących"
+    pl: "Bez tablic informujących o opóźnieniach dworzec byłby nieczynny."
+    ru: "Без табло, сообщающих о задержках, вокзал был бы непригоден."
+    source: { kind: authored }
+  - form: "informujących"
+    pl: "Lista pism informujących o dopłacie zajęła stronę."
+    ru: "Список писем, извещающих о доплате, занял страницу."
+    source: { kind: authored }
+  - form: "informującym"
+    pl: "W urzędniku informującym pasażerów rozpoznał sąsiada."
+    ru: "В чиновнике, информировавшем пассажиров, он узнал соседа."
+    source: { kind: authored }
+  - form: "informującym"
+    pl: "Okazał się znakiem informującym o starym remoncie."
+    ru: "Он оказался знаком, сообщавшим о старом ремонте."
+    source: { kind: authored }
+  - form: "informującym"
+    pl: "Informującym pasażerów urzędnikom przydzielono mikrofony."
+    ru: "Чиновникам, информировавшим пассажиров, выдали микрофоны."
+    source: { kind: authored }
+  - form: "informującymi"
+    pl: "Między tablicami informującymi o opóźnieniach była jedna zepsuta."
+    ru: "Среди табло, сообщающих о задержках, одно было испорчено."
+    source: { kind: authored }
+  - form: "informującymi"
+    pl: "Zajęli się ulotkami informującymi o nowych opłatach."
+    ru: "Они занялись листовками, сообщающими о новых платежах."
+    source: { kind: authored }
+  - form: "informującymi"
+    pl: "Nad znakami informującymi o remoncie wisiała plandeka."
+    ru: "Над знаками, сообщающими о ремонте, висел брезент."
+    source: { kind: authored }
+  - form: "informującą"
+    pl: "Zastali tabliczkę informującą o remoncie już przy drzwiach."
+    ru: "Они нашли табличку, сообщающую о ремонте, уже у двери."
+    source: { kind: authored }
+  - form: "informującą"
+    pl: "Uznali ulotkę informującą o opłatach za niejasną."
+    ru: "Листовку, сообщающую о платежах, они сочли неясной."
+    source: { kind: authored }
+  - form: "informującą"
+    pl: "Zobaczyli sekretarkę informującą rodziny i zamilkli."
+    ru: "Они увидели секретаршу, извещавшую семьи, и замолчали."
+    source: { kind: authored }
+  - form: "informuję"
+    pl: "Informuję państwa o zmianie rozkładu."
+    ru: "Сообщаю вам об изменении расписания."
+    source: { kind: authored }
+  - form: "informuję"
+    pl: "Informuję, że termin minął w piątek."
+    ru: "Сообщаю, что срок истёк в пятницу."
+    source: { kind: authored }
+  - form: "informuję"
+    pl: "Nikogo nie informuję o swoich planach."
+    ru: "Никого я не информирую о своих планах."
+    source: { kind: authored }
