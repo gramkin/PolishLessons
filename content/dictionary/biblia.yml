@@ -1,0 +1,168 @@
+# review
+id: biblia
+format: 2
+lemma: "biblia"
+rank: 2885
+pos: noun
+pron: { cyr: "би́блья" }
+senses:
+  - id: scripture
+    ru: "Библия (Священное Писание)"
+    examples:
+      - pl: "W Biblii ten fragment brzmi inaczej."
+        ru: "В Библии этот отрывок звучит иначе."
+        source: { kind: authored }
+      - pl: "Czytał Biblię co wieczór po kilka stron."
+        ru: "Он читал Библию каждый вечер по несколько страниц."
+        source: { kind: authored }
+      - pl: "Przysięgał na Biblię przed sądem."
+        ru: "Он клялся на Библии перед судом."
+        source: { kind: authored }
+  - id: handbook
+    ru: "библия, настольная книга (переносно)"
+    examples:
+      - pl: "Ta książka to biblia każdego ogrodnika."
+        ru: "Эта книга — библия каждого садовода."
+        source: { kind: authored }
+      - pl: "Dla kucharzy ten tom jest biblią."
+        ru: "Для повара этот том — библия."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Различие на письме, и в русском оно такое же. Священное Писание пишется с большой буквы: BIBLIA, W BIBLII, CZYTAĆ BIBLIĘ. В переносном значении «настольная книга, главный справочник» — с маленькой: BIBLIA WĘDKARZA, BIBLIA OGRODNIKA, TA KSIĄŻKA TO BIBLIA KUCHARZY. Форма одна, разница только в заглавной букве, и путать её не стоит: с большой буквы слово обозначает единственную книгу, с маленькой — любую, которая для кого-то главная." }
+  - { kind: pronunciation, text: "Читается «би́блья», с ударением на первом слоге. Окончание -IA после согласной произносится как «ья», одним слогом: не «би-бли-а», а «би́-блья». Так же ведут себя другие заимствования этого класса: HISTORIA — «хисто́рья», LEKCJA. Главное место — родительный и предложный падежи: BIBLII, с двумя i на письме, и читается это «би́блии», с долгим и. Русская «Библии» пишется с одним и, и это самая частая ошибка в таких словах." }
+  - { kind: government, text: "Читать что — винительный падеж: CZYTAĆ BIBLIĘ, с окончанием -Ę. Находиться в чём — предлог W с предложным: W BIBLII. Клясться на чём — предлог NA с винительным, не с предложным: PRZYSIĘGAĆ NA BIBLIĘ, буквально «клясться на Библию», тогда как русский требует предложного, «клясться на Библии». Это расхождение стоит отметить отдельно, потому что оборот частый и падеж в нём неожидан для русского уха." }
+  - { kind: false-friend, text: "Ложной пары нет, слово в обоих языках то же и значит то же, зато есть неожиданное родство. BIBLIA и BIBLIOTEKA — слова одного корня: греческое BIBLION значило «книга», а его множественное BIBLIA — «книги». То есть Библия буквально «Книги», а библиотека — «книгохранилище». Заметив это однажды, уже не забудешь ни одного из двух слов. В родительном множественном есть и старая форма BIBLIJ, которая в современных текстах почти не встречается." }
+collocations:
+  - { pl: "czytać Biblię", ru: "читать Библию" }
+  - { pl: "w Biblii", ru: "в Библии" }
+  - { pl: "biblia ogrodnika", ru: "библия садовода" }
+family:
+  - { pl: "biblijny", ru: "библейский", relation: derived }
+  - { pl: "biblioteka", ru: "библиотека", relation: root, id: biblioteka }
+  - { pl: "księga", ru: "книга (большая, старинная)", relation: root, id: ksiega }
+etymology: "Из греческого BIBLIA «книги», множественного от BIBLION «книга», а то — уменьшительное от BYBLOS «папирус», названного по имени финикийского города Библ, откуда папирус везли в Грецию. То есть за словом стоит торговый путь: город дал имя писчему материалу, материал — книге, книга во множественном числе — Священному Писанию. Из того же BIBLION собрана и BIBLIOTEKA, «книгохранилище». В польский слово пришло через латинское BIBLIA вместе с христианством, в русский — тем же путём через церковнославянский, поэтому формы почти совпали; разошлось только написание косвенных падежей."
+memory: "Пишется с большой буквы о Писании, с маленькой о настольной книге: biblia ogrodnika. Родительный и предложный — BIBLII, с двумя i, в отличие от русской «Библии». Читается «би́блья». И это тот же корень, что в biblioteka: по-гречески «книги»."
+idioms:
+  - { pl: "przysięgać na Biblię", ru: "клясться на Библии" }
+  - { pl: "biblia wędkarza", ru: "библия рыбака, настольная книга" }
+formExamples:
+  - form: "biblia"
+    pl: "Ta książka to biblia każdego ogrodnika."
+    ru: "Эта книга — библия каждого садовода."
+    source: { kind: authored }
+  - form: "biblia"
+    pl: "Biblia leżała otwarta na stoliku."
+    ru: "Библия лежала раскрытой на столике."
+    source: { kind: authored }
+  - form: "biblia"
+    pl: "Dla wędkarzy ta broszura to prawdziwa biblia."
+    ru: "Для рыбаков эта брошюра — настоящая библия."
+    source: { kind: authored }
+  - form: "bibliach"
+    pl: "W bibliach z tej epoki brakuje kilku ksiąg."
+    ru: "В Библиях той эпохи не хватает нескольких книг."
+    source: { kind: authored }
+  - form: "bibliach"
+    pl: "O bibliach drukowanych w Krakowie napisano osobny tom."
+    ru: "О Библиях, печатавшихся в Кракове, написан отдельный том."
+    source: { kind: authored }
+  - form: "bibliach"
+    pl: "Wykład o bibliach ilustrowanych trwał dwie godziny."
+    ru: "Лекция об иллюстрированных Библиях длилась два часа."
+    source: { kind: authored }
+  - form: "bibliami"
+    pl: "Zajmuje się bibliami rękopiśmiennymi od lat."
+    ru: "Он занимается рукописными Библиями уже годы."
+    source: { kind: authored }
+  - form: "bibliami"
+    pl: "Między bibliami na półce stał mały modlitewnik."
+    ru: "Между Библиями на полке стоял маленький молитвенник."
+    source: { kind: authored }
+  - form: "bibliami"
+    pl: "Handlowano bibliami na odpustach jeszcze w zeszłym wieku."
+    ru: "Библиями торговали на церковных праздниках ещё в прошлом веке."
+    source: { kind: authored }
+  - form: "biblie"
+    pl: "Na półce stały trzy biblie w różnych językach."
+    ru: "На полке стояли три Библии на разных языках."
+    source: { kind: authored }
+  - form: "biblie"
+    pl: "Dawne biblie oprawiano w skórę."
+    ru: "Прежние Библии переплетали в кожу."
+    source: { kind: authored }
+  - form: "biblie"
+    pl: "Te biblie pochodzą z siedemnastego wieku."
+    ru: "Эти Библии происходят из семнадцатого века."
+    source: { kind: authored }
+  - form: "biblii"
+    pl: "W Biblii ten fragment brzmi inaczej."
+    ru: "В Библии этот отрывок звучит иначе."
+    source: { kind: authored }
+  - form: "biblii"
+    pl: "Nie znalazł w Biblii tego zdania."
+    ru: "Он не нашёл в Библии этой фразы."
+    source: { kind: authored }
+  - form: "biblii"
+    pl: "Tłumaczenie Biblii zajęło mu dwadzieścia lat."
+    ru: "Перевод Библии занял у него двадцать лет."
+    source: { kind: authored }
+  - form: "biblij"
+    pl: "Dawne inwentarze wymieniają kilka biblij w jednej szafie."
+    ru: "Старые описи упоминают несколько Библий в одном шкафу."
+    source: { kind: authored }
+  - form: "biblij"
+    pl: "W katalogu z osiemnastego wieku stoi dwanaście biblij."
+    ru: "В каталоге восемнадцатого века стоит двенадцать Библий."
+    source: { kind: authored }
+  - form: "biblij"
+    pl: "Forma biblij brzmi dziś archaicznie."
+    ru: "Форма biblij звучит сегодня архаично."
+    source: { kind: authored }
+  - form: "biblio"
+    pl: "Biblio, księgo nad księgami, mówi poeta."
+    ru: "Библия, книга над книгами, говорит поэт."
+    source: { kind: authored }
+  - form: "biblio"
+    pl: "O Biblio, ileż razy cię przepisywano!"
+    ru: "О Библия, сколько раз тебя переписывали!"
+    source: { kind: authored }
+  - form: "biblio"
+    pl: "W pieśni zwracają się do niej: Biblio święta."
+    ru: "В песне обращаются к ней: святая Библия."
+    source: { kind: authored }
+  - form: "bibliom"
+    pl: "Starym bibliom potrzebna jest osobna szafa."
+    ru: "Старым Библиям нужен отдельный шкаф."
+    source: { kind: authored }
+  - form: "bibliom"
+    pl: "Dzięki tym bibliom znamy dawną polszczyznę."
+    ru: "Благодаря этим Библиям мы знаем прежний польский язык."
+    source: { kind: authored }
+  - form: "bibliom"
+    pl: "Przyglądano się bibliom z tej kolekcji przez cały dzień."
+    ru: "Библии из этой коллекции рассматривали целый день."
+    source: { kind: authored }
+  - form: "biblią"
+    pl: "Dla kucharzy ten tom jest biblią."
+    ru: "Для повара этот том — библия."
+    source: { kind: authored }
+  - form: "biblią"
+    pl: "Zaczynał dzień Biblią, kończył gazetą."
+    ru: "Он начинал день Библией, кончал газетой."
+    source: { kind: authored }
+  - form: "biblią"
+    pl: "Między Biblią a słownikiem leżał notes."
+    ru: "Между Библией и словарём лежал блокнот."
+    source: { kind: authored }
+  - form: "biblię"
+    pl: "Czytał Biblię co wieczór po kilka stron."
+    ru: "Он читал Библию каждый вечер по несколько страниц."
+    source: { kind: authored }
+  - form: "biblię"
+    pl: "Przysięgał na Biblię przed sądem."
+    ru: "Он клялся на Библии перед судом."
+    source: { kind: authored }
+  - form: "biblię"
+    pl: "Dostał Biblię w prezencie od babci."
+    ru: "Он получил Библию в подарок от бабушки."
+    source: { kind: authored }
