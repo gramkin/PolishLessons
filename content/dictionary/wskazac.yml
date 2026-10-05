@@ -1,0 +1,684 @@
+# review
+id: wskazac
+format: 2
+lemma: "wskazać"
+rank: 3043
+pos: verb
+pron: { cyr: "фска́заць" }
+senses:
+  - id: point-out
+    ru: "указать (на что-л., кого-л.)"
+    examples:
+      - pl: "Wskazał palcem na drzwi."
+        ru: "Он указал пальцем на дверь."
+        source: { kind: authored }
+      - pl: "Wskaż mi drogę do dworca."
+        ru: "Укажи мне дорогу к вокзалу."
+        source: { kind: authored }
+      - pl: "Świadek wskazał sprawcę bez wahania."
+        ru: "Свидетель указал на виновного без колебаний."
+        source: { kind: authored }
+  - id: indicate-evidence
+    ru: "указывать, свидетельствовать (о чём-л.)"
+    examples:
+      - pl: "Wszystko wskazało na usterkę w instalacji."
+        ru: "Всё указало на неисправность в проводке."
+        source: { kind: authored }
+      - pl: "Wyniki wskazały błąd w pierwszym pomiarze."
+        ru: "Результаты указали на ошибку в первом измерении."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Корень KAZ- даёт по-польски целое гнездо ложных друзей, и путаница тут дорогая. KAZAĆ значит не «казать», а «ВЕЛЕТЬ, ПРИКАЗАТЬ»: KAZAŁ MI CZEKAĆ «он велел мне ждать». SKAZAĆ значит не «сказать», а «ПРИГОВОРИТЬ»: SKAZANO GO NA TRZY LATA. «Сказать» по-польски POWIEDZIEĆ, и ничего общего с этим корнем не имеет. А вот WSKAZAĆ ложится на русское «указать» точно, и POKAZAĆ — на «показать». То есть из четырёх приставочных слов два совпадают с русскими, а два значат совсем иное." }
+  - { kind: pronunciation, text: "В личных формах z переходит в ż: WSKAZAĆ, но WSKAŻĘ, WSKAŻESZ, WSKAŻE, WSKAŻĄ. Это обычная мена для глаголов с основой на -z-, и она же в POKAZAĆ — POKAŻĘ. Повелительное WSKAŻ оканчивается на ż и читается «фскаш», с оглушением на конце. Начальное WS перед глухим тоже оглушается: всё слово звучит «фска́заць»." }
+  - { kind: government, text: "На что или на кого — предлог NA с винительным: WSKAZAĆ NA DRZWI, NA SPRAWCĘ, NA USTERKĘ. Но при прямом дополнении предлога нет: WSKAZAĆ DROGĘ, WSKAZAĆ SPRAWCĘ, WSKAZAĆ TERMIN — и это две разные конструкции с близким смыслом, как и в русском «указать на дверь» против «указать дорогу». Кому — дательный: WSKAŻ MI DROGĘ. Чем — творительный: WSKAZAĆ PALCEM, RĘKĄ, GŁOWĄ." }
+  - { kind: usage, text: "Несовершенная пара — WSKAZYWAĆ, и она нужна для показаний приборов и для общих выводов: TERMOMETR WSKAZUJE TRZYDZIEŚCI STOPNI, WSZYSTKO WSKAZUJE NA TO, ŻE… — «всё указывает на то, что…». Отсюда же существительное WSKAZÓWKA, у которого два значения: «стрелка» (часов или прибора) и «указание, подсказка». Второе встречается в инструкциях: WSKAZÓWKI DLA AUTORÓW." }
+collocations:
+  - { pl: "wskazać drogę", ru: "указать дорогу" }
+  - { pl: "wskazać palcem", ru: "указать пальцем" }
+  - { pl: "wszystko wskazuje na to, że", ru: "всё указывает на то, что" }
+family:
+  - { pl: "wskazywać", ru: "указывать", relation: aspect, id: wskazywac }
+  - { pl: "pokazać", ru: "показать", relation: root, id: pokazac }
+  - { pl: "wskazówka", ru: "стрелка; указание", relation: derived, id: wskazowka }
+etymology: "Приставка w- и SKAZAĆ, от KAZAĆ, из праславянского *kazati «показывать, являть» — того же корня, что русские «казать», «показать», «указать», «образ». Исходное значение у корня именно «являть взгляду», и оба языка его сохранили в приставочных словах: POKAZAĆ «показать», WSKAZAĆ «указать». Разошлись бесприставочные: русское «казать» ушло в просторечие и живёт лишь в «кажется», а польское KAZAĆ получило значение «велеть» — через «указать кому-то, что делать». Тем же путём SKAZAĆ пришло к «приговорить»: указать человеку его участь."
+memory: "Из этого гнезда совпадают только два: wskazać «указать» и pokazać «показать». А kazać значит «велеть», skazać — «приговорить», и «сказать» это powiedzieć."
+idioms:
+  - { pl: "wszystko wskazuje na to, że", ru: "всё указывает на то, что" }
+  - { pl: "wskazać palcem", ru: "указать пальцем, прямо обвинить" }
+formExamples:
+  - form: "wskazali"
+    pl: "Wskazali sprawcę na okazaniu."
+    ru: "Они указали на виновного при опознании."
+    source: { kind: authored }
+  - form: "wskazali"
+    pl: "Wskazali nam drogę do dworca."
+    ru: "Они указали нам дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazali"
+    pl: "Dokładnego terminu nie wskazali."
+    ru: "Точного срока они не указали."
+    source: { kind: authored }
+  - form: "wskazaliby"
+    pl: "Wskazaliby sprawcę, gdyby go rozpoznali."
+    ru: "Они указали бы на виновного, если бы его узнали."
+    source: { kind: authored }
+  - form: "wskazaliby"
+    pl: "Wskazaliby nam drogę, gdyby znali okolicę."
+    ru: "Они указали бы нам дорогу, если бы знали округу."
+    source: { kind: authored }
+  - form: "wskazaliby"
+    pl: "Palcem na kolegę nie wskazaliby nigdy."
+    ru: "Пальцем на товарища они никогда не указали бы."
+    source: { kind: authored }
+  - form: "wskazalibyście"
+    pl: "Wskazalibyście nam drogę do dworca?"
+    ru: "Вы указали бы нам дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazalibyście"
+    pl: "Gdybyście go rozpoznali, wskazalibyście go od razu."
+    ru: "Если бы вы его узнали, вы указали бы на него сразу."
+    source: { kind: authored }
+  - form: "wskazalibyście"
+    pl: "Palcem na kolegę nie wskazalibyście, prawda?"
+    ru: "Пальцем на товарища вы не указали бы, правда?"
+    source: { kind: authored }
+  - form: "wskazalibyśmy"
+    pl: "Wskazalibyśmy wam drogę, gdybyśmy znali okolicę."
+    ru: "Мы указали бы вам дорогу, если бы знали округу."
+    source: { kind: authored }
+  - form: "wskazalibyśmy"
+    pl: "Chętnie wskazalibyśmy dokładny termin."
+    ru: "Мы охотно указали бы точный срок."
+    source: { kind: authored }
+  - form: "wskazalibyśmy"
+    pl: "Palcem na kolegę nie wskazalibyśmy nigdy."
+    ru: "Пальцем на товарища мы никогда не указали бы."
+    source: { kind: authored }
+  - form: "wskazaliście"
+    pl: "Wskazaliście im drogę do dworca?"
+    ru: "Вы указали им дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazaliście"
+    pl: "Wskazaliście na usterkę czy przemilczeliście?"
+    ru: "Вы указали на неисправность или умолчали?"
+    source: { kind: authored }
+  - form: "wskazaliście"
+    pl: "Nikogo palcem nie wskazaliście, prawda?"
+    ru: "Никого пальцем вы не указали, правда?"
+    source: { kind: authored }
+  - form: "wskazaliśmy"
+    pl: "Wskazaliśmy im drogę do dworca."
+    ru: "Мы указали им дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazaliśmy"
+    pl: "Wskazaliśmy na usterkę już w marcu."
+    ru: "Мы указали на неисправность ещё в марте."
+    source: { kind: authored }
+  - form: "wskazaliśmy"
+    pl: "Nikogo palcem nie wskazaliśmy."
+    ru: "Никого пальцем мы не указали."
+    source: { kind: authored }
+  - form: "wskazana"
+    pl: "Droga wskazana przez przechodnia okazała się krótsza."
+    ru: "Дорога, указанная прохожим, оказалась короче."
+    source: { kind: authored }
+  - form: "wskazana"
+    pl: "Przyczyna wskazana w raporcie była tylko jedną z wielu."
+    ru: "Причина, указанная в отчёте, была лишь одной из многих."
+    source: { kind: authored }
+  - form: "wskazana"
+    pl: "Ostrożność jest tu bardzo wskazana."
+    ru: "Осторожность здесь весьма желательна."
+    source: { kind: authored }
+  - form: "wskazane"
+    pl: "Terminy wskazane w umowie minęły we wtorek."
+    ru: "Сроки, указанные в договоре, истекли во вторник."
+    source: { kind: authored }
+  - form: "wskazane"
+    pl: "Miejsce wskazane na planie zajęły już garaże."
+    ru: "Место, указанное на плане, заняли уже гаражи."
+    source: { kind: authored }
+  - form: "wskazane"
+    pl: "Nie jest wskazane mówić o tym przy dzieciach."
+    ru: "Не стоит говорить об этом при детях."
+    source: { kind: authored }
+  - form: "wskazanego"
+    pl: "Od terminu wskazanego w umowie liczy się kara."
+    ru: "От срока, указанного в договоре, считается пеня."
+    source: { kind: authored }
+  - form: "wskazanego"
+    pl: "Nie znaleźli miejsca wskazanego na planie."
+    ru: "Они не нашли места, указанного на плане."
+    source: { kind: authored }
+  - form: "wskazanego"
+    pl: "Szukali leku wskazanego przez lekarza."
+    ru: "Они искали лекарство, указанное врачом."
+    source: { kind: authored }
+  - form: "wskazanej"
+    pl: "O przyczynie wskazanej w raporcie mówiono przez tydzień."
+    ru: "О причине, указанной в отчёте, говорили неделю."
+    source: { kind: authored }
+  - form: "wskazanej"
+    pl: "Nie ma mowy o drodze wskazanej przez przypadkowego przechodnia."
+    ru: "О дороге, указанной случайным прохожим, и речи нет."
+    source: { kind: authored }
+  - form: "wskazanej"
+    pl: "Przyjrzeli się dacie wskazanej na pieczątce."
+    ru: "Они присмотрелись к дате, указанной на штампе."
+    source: { kind: authored }
+  - form: "wskazanemu"
+    pl: "Terminowi wskazanemu w umowie nikt nie dowierzał."
+    ru: "Сроку, указанному в договоре, никто не верил."
+    source: { kind: authored }
+  - form: "wskazanemu"
+    pl: "Dzięki lekowi wskazanemu przez lekarza gorączka spadła."
+    ru: "Благодаря лекарству, указанному врачом, жар упал."
+    source: { kind: authored }
+  - form: "wskazanemu"
+    pl: "Przyglądali się miejscu wskazanemu na planie."
+    ru: "Они рассматривали место, указанное на плане."
+    source: { kind: authored }
+  - form: "wskazani"
+    pl: "Wskazani przez świadka mężczyźni zaprzeczyli wszystkiemu."
+    ru: "Указанные свидетелем мужчины всё отрицали."
+    source: { kind: authored }
+  - form: "wskazani"
+    pl: "Wskazani w raporcie urzędnicy stracili stanowiska."
+    ru: "Указанные в отчёте чиновники потеряли должности."
+    source: { kind: authored }
+  - form: "wskazani"
+    pl: "Wskazani palcem na okazaniu milczeli do końca."
+    ru: "Указанные пальцем при опознании молчали до конца."
+    source: { kind: authored }
+  - form: "wskazania"
+    pl: "Wskazania przyrządów zapisano w tabeli."
+    ru: "Показания приборов записали в таблицу."
+    source: { kind: authored }
+  - form: "wskazania"
+    pl: "Bez wskazania terminu umowa jest nieważna."
+    ru: "Без указания срока договор недействителен."
+    source: { kind: authored }
+  - form: "wskazania"
+    pl: "Do wskazania sprawcy potrzebny jest świadek."
+    ru: "Чтобы указать на виновного, нужен свидетель."
+    source: { kind: authored }
+  - form: "wskazanie"
+    pl: "Wskazanie dokładnego terminu zajęło im tydzień."
+    ru: "Указать точный срок заняло у них неделю."
+    source: { kind: authored }
+  - form: "wskazanie"
+    pl: "Wskazanie termometru nie zgadzało się z pogodą."
+    ru: "Показание термометра не совпадало с погодой."
+    source: { kind: authored }
+  - form: "wskazanie"
+    pl: "Wskazanie sprawcy wymagało odwagi."
+    ru: "Указать на виновного требовало смелости."
+    source: { kind: authored }
+  - form: "wskazaniem"
+    pl: "Przed wskazaniem terminu policz wszystko dwa razy."
+    ru: "Прежде чем указать срок, посчитай всё дважды."
+    source: { kind: authored }
+  - form: "wskazaniem"
+    pl: "Zajęli się wskazaniem przyczyny usterki."
+    ru: "Они занялись указанием причины неисправности."
+    source: { kind: authored }
+  - form: "wskazaniem"
+    pl: "Między wskazaniem sprawcy a procesem minął rok."
+    ru: "Между указанием на виновного и процессом прошёл год."
+    source: { kind: authored }
+  - form: "wskazaniu"
+    pl: "Po wskazaniu sprawcy świadek poprosił o ochronę."
+    ru: "Указав на виновного, свидетель попросил о защите."
+    source: { kind: authored }
+  - form: "wskazaniu"
+    pl: "O wskazaniu dokładnego terminu nie było mowy."
+    ru: "Об указании точного срока и речи не было."
+    source: { kind: authored }
+  - form: "wskazaniu"
+    pl: "W wskazaniu drogi pomógł nam przechodzień."
+    ru: "Указать дорогу нам помог прохожий."
+    source: { kind: authored }
+  - form: "wskazano"
+    pl: "W protokole wskazano dokładny termin."
+    ru: "В протоколе указали точный срок."
+    source: { kind: authored }
+  - form: "wskazano"
+    pl: "Jako przyczynę wskazano usterkę instalacji."
+    ru: "Причиной указали неисправность проводки."
+    source: { kind: authored }
+  - form: "wskazano"
+    pl: "Sprawcy nie wskazano do dziś."
+    ru: "Виновного не указали до сего дня."
+    source: { kind: authored }
+  - form: "wskazany"
+    pl: "Termin wskazany w umowie minął we wtorek."
+    ru: "Срок, указанный в договоре, истёк во вторник."
+    source: { kind: authored }
+  - form: "wskazany"
+    pl: "Sprawca wskazany przez świadka zaprzeczył wszystkiemu."
+    ru: "Виновный, указанный свидетелем, всё отрицал."
+    source: { kind: authored }
+  - form: "wskazany"
+    pl: "Lek wskazany przy gorączce kosztuje dwa złote."
+    ru: "Лекарство, показанное при жаре, стоит два злотых."
+    source: { kind: authored }
+  - form: "wskazanych"
+    pl: "Wśród wskazanych przyczyn nie było tej prawdziwej."
+    ru: "Среди указанных причин не было настоящей."
+    source: { kind: authored }
+  - form: "wskazanych"
+    pl: "Bez wskazanych terminów umowa byłaby nieważna."
+    ru: "Без указанных сроков договор был бы недействителен."
+    source: { kind: authored }
+  - form: "wskazanych"
+    pl: "Lista wskazanych świadków zajęła dwie strony."
+    ru: "Список указанных свидетелей занял две страницы."
+    source: { kind: authored }
+  - form: "wskazanym"
+    pl: "W terminie wskazanym w umowie nie zdążyli."
+    ru: "В срок, указанный в договоре, они не успели."
+    source: { kind: authored }
+  - form: "wskazanym"
+    pl: "Okazał się lekiem wskazanym przy gorączce."
+    ru: "Он оказался лекарством, показанным при жаре."
+    source: { kind: authored }
+  - form: "wskazanym"
+    pl: "Wskazanym terminom nikt nie chciał uwierzyć."
+    ru: "Указанным срокам никто не хотел верить."
+    source: { kind: authored }
+  - form: "wskazanymi"
+    pl: "Między wskazanymi terminami była miesięczna luka."
+    ru: "Между указанными сроками был месячный разрыв."
+    source: { kind: authored }
+  - form: "wskazanymi"
+    pl: "Zajęli się przyczynami wskazanymi w raporcie."
+    ru: "Они занялись причинами, указанными в отчёте."
+    source: { kind: authored }
+  - form: "wskazanymi"
+    pl: "Pod wskazanymi datami podpisał się sam dyrektor."
+    ru: "Под указанными датами подписался сам директор."
+    source: { kind: authored }
+  - form: "wskazaną"
+    pl: "Uznali przyczynę wskazaną w raporcie za niewystarczającą."
+    ru: "Причину, указанную в отчёте, они сочли недостаточной."
+    source: { kind: authored }
+  - form: "wskazaną"
+    pl: "Zapisali datę wskazaną na pieczątce."
+    ru: "Они записали дату, указанную на штампе."
+    source: { kind: authored }
+  - form: "wskazaną"
+    pl: "Zobaczyli drogę wskazaną na planie i zawrócili."
+    ru: "Они увидели дорогу, указанную на плане, и повернули назад."
+    source: { kind: authored }
+  - form: "wskazawszy"
+    pl: "Wskazawszy palcem na drzwi, wyszedł pierwszy."
+    ru: "Указав пальцем на дверь, он вышел первым."
+    source: { kind: authored }
+  - form: "wskazawszy"
+    pl: "Wskazawszy nam drogę, zawróciła do domu."
+    ru: "Указав нам дорогу, она вернулась домой."
+    source: { kind: authored }
+  - form: "wskazawszy"
+    pl: "Wskazawszy usterkę, poprosił o drugi pomiar."
+    ru: "Указав на неисправность, он попросил второе измерение."
+    source: { kind: authored }
+  - form: "wskazać"
+    pl: "Trzeba wskazać dokładny termin."
+    ru: "Надо указать точный срок."
+    source: { kind: authored }
+  - form: "wskazać"
+    pl: "Nie umiał wskazać drogi do dworca."
+    ru: "Он не умел указать дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazać"
+    pl: "Nie da się wskazać jednej przyczyny."
+    ru: "Нельзя указать одну причину."
+    source: { kind: authored }
+  - form: "wskazał"
+    pl: "Wskazał palcem na drzwi."
+    ru: "Он указал пальцем на дверь."
+    source: { kind: authored }
+  - form: "wskazał"
+    pl: "Świadek wskazał sprawcę bez wahania."
+    ru: "Свидетель указал на виновного без колебаний."
+    source: { kind: authored }
+  - form: "wskazał"
+    pl: "Dokładnego terminu nie wskazał nikt."
+    ru: "Точного срока не указал никто."
+    source: { kind: authored }
+  - form: "wskazała"
+    pl: "Wskazała mi drogę do dworca."
+    ru: "Она указала мне дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazała"
+    pl: "Wskazała na usterkę w pierwszym akapicie."
+    ru: "Она указала на неисправность в первом абзаце."
+    source: { kind: authored }
+  - form: "wskazała"
+    pl: "Dokładnego terminu nie wskazała."
+    ru: "Точного срока она не указала."
+    source: { kind: authored }
+  - form: "wskazałaby"
+    pl: "Wskazałaby drogę, gdyby znała okolicę."
+    ru: "Она указала бы дорогу, если бы знала округу."
+    source: { kind: authored }
+  - form: "wskazałaby"
+    pl: "Wskazałaby na usterkę, gdyby ją zauważyła."
+    ru: "Она указала бы на неисправность, если бы её заметила."
+    source: { kind: authored }
+  - form: "wskazałaby"
+    pl: "Palcem na koleżankę nie wskazałaby nigdy."
+    ru: "Пальцем на подругу она никогда не указала бы."
+    source: { kind: authored }
+  - form: "wskazałabym"
+    pl: "Wskazałabym drogę, ale sama jestem tu pierwszy raz."
+    ru: "Я указала бы дорогу, но сама здесь впервые."
+    source: { kind: authored }
+  - form: "wskazałabym"
+    pl: "Chętnie wskazałabym dokładny termin."
+    ru: "Я охотно указала бы точный срок."
+    source: { kind: authored }
+  - form: "wskazałabym"
+    pl: "Palcem na koleżankę nie wskazałabym nigdy."
+    ru: "Пальцем на подругу я никогда не указала бы."
+    source: { kind: authored }
+  - form: "wskazałabyś"
+    pl: "Wskazałabyś mi drogę do dworca?"
+    ru: "Ты указала бы мне дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałabyś"
+    pl: "Gdybyś ją rozpoznała, wskazałabyś ją bez wahania."
+    ru: "Если бы ты её узнала, ты указала бы на неё без колебаний."
+    source: { kind: authored }
+  - form: "wskazałabyś"
+    pl: "Palcem na koleżankę nie wskazałabyś, prawda?"
+    ru: "Пальцем на подругу ты не указала бы, правда?"
+    source: { kind: authored }
+  - form: "wskazałam"
+    pl: "Wskazałam mu drogę do dworca."
+    ru: "Я указала ему дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazałam"
+    pl: "Wskazałam na usterkę już w marcu."
+    ru: "Я указала на неисправность ещё в марте."
+    source: { kind: authored }
+  - form: "wskazałam"
+    pl: "Nikogo palcem nie wskazałam."
+    ru: "Никого пальцем я не указала."
+    source: { kind: authored }
+  - form: "wskazałaś"
+    pl: "Wskazałaś mu drogę do dworca?"
+    ru: "Ты указала ему дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałaś"
+    pl: "Wskazałaś na usterkę czy przemilczałaś?"
+    ru: "Ты указала на неисправность или умолчала?"
+    source: { kind: authored }
+  - form: "wskazałaś"
+    pl: "Nikogo palcem nie wskazałaś, prawda?"
+    ru: "Никого пальцем ты не указала, правда?"
+    source: { kind: authored }
+  - form: "wskazałby"
+    pl: "Wskazałby sprawcę, gdyby go rozpoznał."
+    ru: "Он указал бы на виновного, если бы его узнал."
+    source: { kind: authored }
+  - form: "wskazałby"
+    pl: "Każdy przyrząd wskazałby tu tę samą wartość."
+    ru: "Любой прибор указал бы здесь то же значение."
+    source: { kind: authored }
+  - form: "wskazałby"
+    pl: "Palcem na kolegę nie wskazałby nigdy."
+    ru: "Пальцем на товарища он никогда не указал бы."
+    source: { kind: authored }
+  - form: "wskazałbym"
+    pl: "Wskazałbym drogę, ale sam jestem tu pierwszy raz."
+    ru: "Я указал бы дорогу, но сам здесь впервые."
+    source: { kind: authored }
+  - form: "wskazałbym"
+    pl: "Chętnie wskazałbym dokładny termin."
+    ru: "Я охотно указал бы точный срок."
+    source: { kind: authored }
+  - form: "wskazałbym"
+    pl: "Palcem na kolegę nie wskazałbym nigdy."
+    ru: "Пальцем на товарища я никогда не указал бы."
+    source: { kind: authored }
+  - form: "wskazałbyś"
+    pl: "Wskazałbyś mi drogę do dworca?"
+    ru: "Ты указал бы мне дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałbyś"
+    pl: "Gdybyś go rozpoznał, wskazałbyś go bez wahania."
+    ru: "Если бы ты его узнал, ты указал бы на него без колебаний."
+    source: { kind: authored }
+  - form: "wskazałbyś"
+    pl: "Palcem na kolegę nie wskazałbyś, prawda?"
+    ru: "Пальцем на товарища ты не указал бы, правда?"
+    source: { kind: authored }
+  - form: "wskazałem"
+    pl: "Wskazałem mu drogę do dworca."
+    ru: "Я указал ему дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazałem"
+    pl: "Wskazałem na usterkę już w marcu."
+    ru: "Я указал на неисправность ещё в марте."
+    source: { kind: authored }
+  - form: "wskazałem"
+    pl: "Nikogo palcem nie wskazałem."
+    ru: "Никого пальцем я не указал."
+    source: { kind: authored }
+  - form: "wskazałeś"
+    pl: "Wskazałeś mu drogę do dworca?"
+    ru: "Ты указал ему дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałeś"
+    pl: "Wskazałeś na usterkę czy przemilczałeś?"
+    ru: "Ты указал на неисправность или умолчал?"
+    source: { kind: authored }
+  - form: "wskazałeś"
+    pl: "Nikogo palcem nie wskazałeś, prawda?"
+    ru: "Никого пальцем ты не указал, правда?"
+    source: { kind: authored }
+  - form: "wskazało"
+    pl: "Wszystko wskazało na usterkę w instalacji."
+    ru: "Всё указало на неисправность в проводке."
+    source: { kind: authored }
+  - form: "wskazało"
+    pl: "To dziecko wskazało drogę lepiej niż mapa."
+    ru: "Этот ребёнок указал дорогу лучше карты."
+    source: { kind: authored }
+  - form: "wskazało"
+    pl: "Nic nie wskazało na błąd w pomiarze."
+    ru: "Ничто не указало на ошибку в измерении."
+    source: { kind: authored }
+  - form: "wskazałoby"
+    pl: "Wszystko wskazałoby na usterkę, gdyby ktoś sprawdził instalację."
+    ru: "Всё указало бы на неисправность, если бы кто-то проверил проводку."
+    source: { kind: authored }
+  - form: "wskazałoby"
+    pl: "To dziecko wskazałoby drogę lepiej niż mapa."
+    ru: "Этот ребёнок указал бы дорогу лучше карты."
+    source: { kind: authored }
+  - form: "wskazałoby"
+    pl: "Nic nie wskazałoby na błąd bez drugiego pomiaru."
+    ru: "Ничто не указало бы на ошибку без второго измерения."
+    source: { kind: authored }
+  - form: "wskazały"
+    pl: "Wyniki wskazały błąd w pierwszym pomiarze."
+    ru: "Результаты указали на ошибку в первом измерении."
+    source: { kind: authored }
+  - form: "wskazały"
+    pl: "Oba przyrządy wskazały tę samą wartość."
+    ru: "Оба прибора указали одно и то же значение."
+    source: { kind: authored }
+  - form: "wskazały"
+    pl: "Te dane nie wskazały niczego nowego."
+    ru: "Эти данные не указали ни на что новое."
+    source: { kind: authored }
+  - form: "wskazałyby"
+    pl: "Oba przyrządy wskazałyby tę samą wartość."
+    ru: "Оба прибора указали бы одно и то же значение."
+    source: { kind: authored }
+  - form: "wskazałyby"
+    pl: "Te dane wskazałyby błąd, gdyby je policzyć."
+    ru: "Эти данные указали бы на ошибку, если бы их посчитать."
+    source: { kind: authored }
+  - form: "wskazałyby"
+    pl: "Dziewczyny nie wskazałyby nikogo palcem."
+    ru: "Девушки ни на кого не указали бы пальцем."
+    source: { kind: authored }
+  - form: "wskazałybyście"
+    pl: "Wskazałybyście nam drogę do dworca?"
+    ru: "Вы указали бы нам дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałybyście"
+    pl: "Gdybyście ją rozpoznały, wskazałybyście ją od razu."
+    ru: "Если бы вы её узнали, вы указали бы на неё сразу."
+    source: { kind: authored }
+  - form: "wskazałybyście"
+    pl: "Palcem na koleżankę nie wskazałybyście, prawda?"
+    ru: "Пальцем на подругу вы не указали бы, правда?"
+    source: { kind: authored }
+  - form: "wskazałybyśmy"
+    pl: "Wskazałybyśmy wam drogę, gdybyśmy znały okolicę."
+    ru: "Мы указали бы вам дорогу, если бы знали округу."
+    source: { kind: authored }
+  - form: "wskazałybyśmy"
+    pl: "Chętnie wskazałybyśmy dokładny termin."
+    ru: "Мы охотно указали бы точный срок."
+    source: { kind: authored }
+  - form: "wskazałybyśmy"
+    pl: "Palcem na koleżankę nie wskazałybyśmy nigdy."
+    ru: "Пальцем на подругу мы никогда не указали бы."
+    source: { kind: authored }
+  - form: "wskazałyście"
+    pl: "Wskazałyście im drogę do dworca?"
+    ru: "Вы указали им дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskazałyście"
+    pl: "Wskazałyście na usterkę czy przemilczałyście?"
+    ru: "Вы указали на неисправность или умолчали?"
+    source: { kind: authored }
+  - form: "wskazałyście"
+    pl: "Nikogo palcem nie wskazałyście, prawda?"
+    ru: "Никого пальцем вы не указали, правда?"
+    source: { kind: authored }
+  - form: "wskazałyśmy"
+    pl: "Wskazałyśmy im drogę do dworca."
+    ru: "Мы указали им дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskazałyśmy"
+    pl: "Wskazałyśmy na usterkę już w marcu."
+    ru: "Мы указали на неисправность ещё в марте."
+    source: { kind: authored }
+  - form: "wskazałyśmy"
+    pl: "Nikogo palcem nie wskazałyśmy."
+    ru: "Никого пальцем мы не указали."
+    source: { kind: authored }
+  - form: "wskaż"
+    pl: "Wskaż mi drogę do dworca."
+    ru: "Укажи мне дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskaż"
+    pl: "Wskaż palcem, o którym mówisz."
+    ru: "Укажи пальцем, о котором говоришь."
+    source: { kind: authored }
+  - form: "wskaż"
+    pl: "Wskaż dowody, nie ludzi."
+    ru: "Укажи доказательства, а не людей."
+    source: { kind: authored }
+  - form: "wskażcie"
+    pl: "Wskażcie nam drogę do dworca."
+    ru: "Укажите нам дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskażcie"
+    pl: "Wskażcie dokładny termin, żeby nie było sporów."
+    ru: "Укажите точный срок, чтобы не было споров."
+    source: { kind: authored }
+  - form: "wskażcie"
+    pl: "Nie wskażcie nikogo palcem bez dowodów."
+    ru: "Не указывайте ни на кого пальцем без доказательств."
+    source: { kind: authored }
+  - form: "wskaże"
+    pl: "Świadek wskaże sprawcę na okazaniu."
+    ru: "Свидетель укажет на виновного при опознании."
+    source: { kind: authored }
+  - form: "wskaże"
+    pl: "Termometr wskaże dokładną temperaturę."
+    ru: "Термометр укажет точную температуру."
+    source: { kind: authored }
+  - form: "wskaże"
+    pl: "Nikt nie wskaże jednej przyczyny."
+    ru: "Никто не укажет одну причину."
+    source: { kind: authored }
+  - form: "wskażecie"
+    pl: "Wskażecie nam drogę do dworca?"
+    ru: "Укажете нам дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskażecie"
+    pl: "Wskażecie dokładny termin czy jeszcze nie wiecie?"
+    ru: "Укажете точный срок или ещё не знаете?"
+    source: { kind: authored }
+  - form: "wskażecie"
+    pl: "Nikogo palcem nie wskażecie, prawda?"
+    ru: "Никого пальцем вы не укажете, правда?"
+    source: { kind: authored }
+  - form: "wskażemy"
+    pl: "Wskażemy wam drogę do dworca."
+    ru: "Мы укажем вам дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskażemy"
+    pl: "Wskażemy dokładny termin w poniedziałek."
+    ru: "Мы укажем точный срок в понедельник."
+    source: { kind: authored }
+  - form: "wskażemy"
+    pl: "Nikogo palcem nie wskażemy."
+    ru: "Никого пальцем мы не укажем."
+    source: { kind: authored }
+  - form: "wskażesz"
+    pl: "Wskażesz mi drogę do dworca?"
+    ru: "Укажешь мне дорогу к вокзалу?"
+    source: { kind: authored }
+  - form: "wskażesz"
+    pl: "Wskażesz dokładny termin czy jeszcze nie wiesz?"
+    ru: "Укажешь точный срок или ещё не знаешь?"
+    source: { kind: authored }
+  - form: "wskażesz"
+    pl: "Nikogo palcem nie wskażesz, prawda?"
+    ru: "Никого пальцем ты не укажешь, правда?"
+    source: { kind: authored }
+  - form: "wskażmy"
+    pl: "Wskażmy im drogę do dworca."
+    ru: "Укажем им дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskażmy"
+    pl: "Wskażmy dokładny termin, żeby nie było sporów."
+    ru: "Укажем точный срок, чтобы не было споров."
+    source: { kind: authored }
+  - form: "wskażmy"
+    pl: "Nie wskażmy nikogo palcem bez dowodów."
+    ru: "Не будем указывать ни на кого пальцем без доказательств."
+    source: { kind: authored }
+  - form: "wskażą"
+    pl: "Świadkowie wskażą sprawcę na okazaniu."
+    ru: "Свидетели укажут на виновного при опознании."
+    source: { kind: authored }
+  - form: "wskażą"
+    pl: "Wyniki wskażą błąd w pomiarze."
+    ru: "Результаты укажут на ошибку в измерении."
+    source: { kind: authored }
+  - form: "wskażą"
+    pl: "Nikogo palcem nie wskażą."
+    ru: "Никого пальцем они не укажут."
+    source: { kind: authored }
+  - form: "wskażę"
+    pl: "Wskażę ci drogę do dworca."
+    ru: "Я укажу тебе дорогу к вокзалу."
+    source: { kind: authored }
+  - form: "wskażę"
+    pl: "Wskażę dokładny termin w poniedziałek."
+    ru: "Я укажу точный срок в понедельник."
+    source: { kind: authored }
+  - form: "wskażę"
+    pl: "Nikogo palcem nie wskażę."
+    ru: "Никого пальцем я не укажу."
+    source: { kind: authored }
