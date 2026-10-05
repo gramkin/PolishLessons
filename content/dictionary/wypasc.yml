@@ -1,0 +1,959 @@
+# review
+id: wypasc
+format: 2
+lemma: "wypaść"
+rank: 2275
+pos: verb
+pron: { cyr: "вы́пасьць" }
+senses:
+  - id: fall-out
+    ru: "выпасть, вывалиться"
+    examples:
+      - pl: "Klucze wypadły mi z kieszeni."
+        ru: "Ключи выпали у меня из кармана."
+        source: { kind: authored }
+      - pl: "Wypadł mi ząb i nie wiem gdzie."
+        ru: "У меня выпал зуб, и я не знаю где."
+        source: { kind: authored }
+      - pl: "Uważaj, bo szkło wypadnie z ramy."
+        ru: "Осторожно, стекло выпадет из рамы."
+        source: { kind: authored }
+  - id: turn-out
+    ru: "выйти, получиться (о результате)"
+    examples:
+      - pl: "Egzamin wypadł lepiej, niż sądziłem."
+        ru: "Экзамен вышел лучше, чем я думал."
+        source: { kind: authored }
+      - pl: "Zdjęcie wypadło ciemno."
+        ru: "Снимок получился тёмным."
+        source: { kind: authored }
+      - pl: "Rozmowa wypadła sztywno i krótko."
+        ru: "Разговор получился скованным и коротким."
+        source: { kind: authored }
+  - id: drop-out
+    ru: "выпасть, выбыть (из игры, из списка)"
+    examples:
+      - pl: "Wypadł z gry w drugiej rundzie."
+        ru: "Он выбыл из игры во втором раунде."
+        source: { kind: authored }
+      - pl: "Dwa nazwiska wypadły z listy."
+        ru: "Две фамилии выпали из списка."
+        source: { kind: authored }
+  - id: graze-out
+    ru: "выпасти (скот) — другой глагол с тем же инфинитивом"
+    examples:
+      - pl: "Wypaśli krowy na ścierniskach."
+        ru: "Они выпасли коров на стерне."
+        source: { kind: authored }
+      - pl: "Bydło wypasione na łąkach wraca grubsze."
+        ru: "Скот, выпасенный на лугах, возвращается упитаннее."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Та же двойня, что у UPAŚĆ: один инфинитив, два глагола. Основа WYPADN-/WYPAD- даёт значения падения и результата: WYPADNĘ, WYPADŁ, WYPADNIJ. Основа WYPAS-/WYPASI- даёт значение выпаса скота: WYPASĘ, WYPASŁ, WYPAŚ, WYPASIONY. Но у первого глагола значений внутри себя сразу три, и второе из них русскому неочевидно: WYPAŚĆ значит не только «выпасть», но и «получиться, выйти» о результате. EGZAMIN WYPADŁ DOBRZE — «экзамен прошёл хорошо», и подлежащее здесь экзамен, а не человек." }
+  - { kind: pronunciation, text: "Читается «вы́пасьць», ударение на предпоследнем слоге, то есть на приставке WY-. Это общее правило для таких двусложных приставочных глаголов: UPAŚĆ — «у́пасьць», WYPAŚĆ — «вы́пасьць», NAPAŚĆ — «на́пасьць». Русское ударение падает иначе, на корень, и это один из самых частых источников акцента: не «выпа́сьць», а «вы́пасьць». Повелительное наклонение различает два глагола на слух: WYPADNIJ против WYPAŚ." }
+  - { kind: government, text: "В значении падения глагол непереходный, откуда выпало — предлог Z с родительным: WYPAŚĆ Z KIESZENI, WYPAŚĆ Z OKNA, WYPAŚĆ Z GRY. В значении результата подлежащим становится само событие, а оценка выражается наречием: EGZAMIN WYPADŁ DOBRZE, ZDJĘCIE WYPADŁO CIEMNO — буквально «экзамен выпал хорошо». Глагол выпаса, наоборот, переходный и требует винительного: WYPAŚĆ KROWY. Наличие прямого дополнения снова служит различителем." }
+  - { kind: false-friend, text: "Ловушка в несовершенном виде, а не в этом слове. Польское WYPADAĆ значит ещё и «подобать, быть приличным»: NIE WYPADA TAK MÓWIĆ — «так говорить не принято», и подлежащего у этого оборота нет вовсе. Русское «выпадать» такого смысла не имеет, и перевести NIE WYPADA словом «не выпадает» нельзя. Второе место: WYPADEK — это «случай» и «авария, несчастный случай», а не «выпадение»; W TYM WYPADKU значит «в этом случае»." }
+collocations:
+  - { pl: "wypaść z gry", ru: "выбыть из игры" }
+  - { pl: "egzamin wypadł dobrze", ru: "экзамен прошёл хорошо" }
+  - { pl: "wypaść z kieszeni", ru: "выпасть из кармана" }
+family:
+  - { pl: "wypadać", ru: "выпадать; подобать", relation: aspect }
+  - { pl: "wypadek", ru: "случай; авария", relation: derived, id: wypadek }
+  - { pl: "paść", ru: "пасть, упасть; пасти", relation: root, id: pasc }
+  - { pl: "upaść", ru: "упасть; откормить", relation: root, id: upasc }
+etymology: "Та же пара праславянских корней, что и в UPAŚĆ: *pad-ti «падать» и *pas-ti «пасти», которые по польским звуковым законам дали одно и то же -ŚĆ и потому слились в общий инфинитив. Приставка WY- отвечает русскому «вы-» и значит движение изнутри наружу, отсюда прямое «выпасть» и, для второго глагола, «выгнать скот на пастбище». Значение «получиться, выйти» развилось из той же идеи: нечто выпало так или иначе, как кости из руки, — и русское «вышло хорошо» построено на том же образе выхода наружу. Так что третье значение не произвол, а метафора, которую русский проделал другим глаголом."
+memory: "Приставка под ударением: «вы́пасьць», не «выпа́сьць». Три значения у глагола падения: выпасть, выбыть и — неожиданно — «получиться»: egzamin wypadł dobrze. Основа wypas- это уже другой глагол, «выпасти». И nie wypada значит «не принято»."
+idioms:
+  - { pl: "wypaść z gry", ru: "выбыть из игры" }
+  - { pl: "nie wypada", ru: "не принято, неприлично" }
+  - { pl: "wypaść jak z procy", ru: "вылететь как из рогатки" }
+formExamples:
+  - form: "wypadli"
+    pl: "Obaj wypadli z turnieju tego samego dnia."
+    ru: "Оба выбыли из турнира в один день."
+    source: { kind: authored }
+  - form: "wypadli"
+    pl: "Zawodnicy wypadli z trasy na oblodzeniu."
+    ru: "Спортсмены вылетели с трассы на гололёде."
+    source: { kind: authored }
+  - form: "wypadli"
+    pl: "Dwaj kandydaci wypadli po pierwszej turze."
+    ru: "Двое кандидатов выбыли после первого тура."
+    source: { kind: authored }
+  - form: "wypadliby"
+    pl: "Na tym lodzie wypadliby wszyscy zawodnicy."
+    ru: "На этом льду вылетели бы все спортсмены."
+    source: { kind: authored }
+  - form: "wypadliby"
+    pl: "Bez wsparcia wypadliby z turnieju w pierwszym tygodniu."
+    ru: "Без поддержки они выбыли бы из турнира в первую же неделю."
+    source: { kind: authored }
+  - form: "wypadliby"
+    pl: "Zawodnicy wypadliby z trasy przy mocniejszym wiatrze."
+    ru: "Спортсмены вылетели бы с трассы при более сильном ветре."
+    source: { kind: authored }
+  - form: "wypadlibyście"
+    pl: "Sami wypadlibyście z tej rywalizacji szybko."
+    ru: "Одни вы быстро выбыли бы из этого соревнования."
+    source: { kind: authored }
+  - form: "wypadlibyście"
+    pl: "Na mokrej trasie wypadlibyście od razu."
+    ru: "На мокрой трассе вы вылетели бы сразу."
+    source: { kind: authored }
+  - form: "wypadlibyście"
+    pl: "Bez trenera wypadlibyście z formy."
+    ru: "Без тренера вы вышли бы из формы."
+    source: { kind: authored }
+  - form: "wypadlibyśmy"
+    pl: "Jeszcze jedna porażka i wypadlibyśmy z ligi."
+    ru: "Ещё одно поражение — и мы выпали бы из лиги."
+    source: { kind: authored }
+  - form: "wypadlibyśmy"
+    pl: "W takim składzie wypadlibyśmy słabo."
+    ru: "В таком составе мы выступили бы слабо."
+    source: { kind: authored }
+  - form: "wypadlibyśmy"
+    pl: "Bez tego punktu wypadlibyśmy z tabeli."
+    ru: "Без этого очка мы выпали бы из таблицы."
+    source: { kind: authored }
+  - form: "wypadliście"
+    pl: "Wypadliście z gry, bo nikt nie zgłosił składu."
+    ru: "Вы выбыли из игры, потому что никто не подал состав."
+    source: { kind: authored }
+  - form: "wypadliście"
+    pl: "Słyszałem, że wypadliście w pierwszej rundzie."
+    ru: "Я слышал, вы выбыли в первом раунде."
+    source: { kind: authored }
+  - form: "wypadliście"
+    pl: "Czy wypadliście wszyscy naraz?"
+    ru: "Вы выбыли все разом?"
+    source: { kind: authored }
+  - form: "wypadliśmy"
+    pl: "Wypadliśmy z turnieju w ćwierćfinale."
+    ru: "Мы выбыли из турнира в четвертьфинале."
+    source: { kind: authored }
+  - form: "wypadliśmy"
+    pl: "Nigdy tak źle nie wypadliśmy przed publicznością."
+    ru: "Мы никогда так плохо не выступали перед публикой."
+    source: { kind: authored }
+  - form: "wypadliśmy"
+    pl: "Oboje wypadliśmy z harmonogramu."
+    ru: "Мы оба выпали из графика."
+    source: { kind: authored }
+  - form: "wypadnie"
+    pl: "Moneta wypadnie, jeśli przechylisz pudełko."
+    ru: "Монета выпадет, если наклонишь коробку."
+    source: { kind: authored }
+  - form: "wypadnie"
+    pl: "Egzamin wypadnie lepiej po tygodniu nauki."
+    ru: "Экзамен пройдёт лучше после недели занятий."
+    source: { kind: authored }
+  - form: "wypadnie"
+    pl: "Nikt nie wypadnie z grupy przed czerwcem."
+    ru: "Никто не выпадет из группы до июня."
+    source: { kind: authored }
+  - form: "wypadniecie"
+    pl: "Wypadniecie z konkursu, jeśli spóźnicie się ze zgłoszeniem."
+    ru: "Вы выпадете из конкурса, если опоздаете с заявкой."
+    source: { kind: authored }
+  - form: "wypadniecie"
+    pl: "Bez pasów wypadniecie przy pierwszym hamowaniu."
+    ru: "Без ремней вы вылетите при первом торможении."
+    source: { kind: authored }
+  - form: "wypadniecie"
+    pl: "Zwolnijcie, bo wypadniecie z trasy."
+    ru: "Сбавьте, а то вылетите с трассы."
+    source: { kind: authored }
+  - form: "wypadniemy"
+    pl: "Bez jednego punktu wypadniemy z tabeli."
+    ru: "Без одного очка мы выпадем из таблицы."
+    source: { kind: authored }
+  - form: "wypadniemy"
+    pl: "Razem nie wypadniemy z rytmu."
+    ru: "Вместе мы из ритма не выпадем."
+    source: { kind: authored }
+  - form: "wypadniemy"
+    pl: "Na tym zakręcie wypadniemy oboje."
+    ru: "На этом повороте мы вылетим оба."
+    source: { kind: authored }
+  - form: "wypadniesz"
+    pl: "Uważaj, bo wypadniesz przez tę balustradę."
+    ru: "Осторожно, ты вывалишься через эти перила."
+    source: { kind: authored }
+  - form: "wypadniesz"
+    pl: "Jeśli nie zapłacisz, wypadniesz z ubezpieczenia."
+    ru: "Если не заплатишь, выпадешь из страховки."
+    source: { kind: authored }
+  - form: "wypadniesz"
+    pl: "Chwyć się, inaczej wypadniesz na zakręcie."
+    ru: "Держись, иначе вылетишь на повороте."
+    source: { kind: authored }
+  - form: "wypadnij"
+    pl: "Nie wypadnij z tego okna, proszę cię."
+    ru: "Не вывались из этого окна, прошу тебя."
+    source: { kind: authored }
+  - form: "wypadnij"
+    pl: "Wypadnij z szeregu na mój znak."
+    ru: "Выйди из шеренги по моему знаку."
+    source: { kind: authored }
+  - form: "wypadnij"
+    pl: "Tylko mi nie wypadnij z roli na scenie."
+    ru: "Только не выпади у меня из роли на сцене."
+    source: { kind: authored }
+  - form: "wypadnijcie"
+    pl: "Wypadnijcie z szeregu po kolei."
+    ru: "Выходите из шеренги по очереди."
+    source: { kind: authored }
+  - form: "wypadnijcie"
+    pl: "Na sygnał wypadnijcie z ukrycia."
+    ru: "По сигналу выскочите из укрытия."
+    source: { kind: authored }
+  - form: "wypadnijcie"
+    pl: "Tylko nie wypadnijcie z łodzi."
+    ru: "Только не вывалитесь из лодки."
+    source: { kind: authored }
+  - form: "wypadnijmy"
+    pl: "Wypadnijmy z tej kolejki i wróćmy później."
+    ru: "Выйдем из этой очереди и вернёмся позже."
+    source: { kind: authored }
+  - form: "wypadnijmy"
+    pl: "Jeśli trzeba, wypadnijmy z grafiku o godzinę."
+    ru: "Если надо, выпадем из графика на час."
+    source: { kind: authored }
+  - form: "wypadnijmy"
+    pl: "Nie wypadnijmy z rytmu w ostatnim takcie."
+    ru: "Не выпадем из ритма в последнем такте."
+    source: { kind: authored }
+  - form: "wypadnięcia"
+    pl: "Bał się wypadnięcia z listy bardziej niż przegranej."
+    ru: "Он боялся выпадения из списка больше, чем проигрыша."
+    source: { kind: authored }
+  - form: "wypadnięcia"
+    pl: "Od wypadnięcia z gry minął rok."
+    ru: "С выбывания из игры прошёл год."
+    source: { kind: authored }
+  - form: "wypadnięcia"
+    pl: "Nie było świadków wypadnięcia."
+    ru: "Свидетелей падения не было."
+    source: { kind: authored }
+  - form: "wypadnięcie"
+    pl: "Wypadnięcie z trasy kosztowało go podium."
+    ru: "Вылет с трассы стоил ему пьедестала."
+    source: { kind: authored }
+  - form: "wypadnięcie"
+    pl: "Samo wypadnięcie nie było groźne."
+    ru: "Само падение не было опасным."
+    source: { kind: authored }
+  - form: "wypadnięcie"
+    pl: "Lekarz opisał wypadnięcie dysku dokładnie."
+    ru: "Врач подробно описал выпадение диска."
+    source: { kind: authored }
+  - form: "wypadnięciem"
+    pl: "Przed wypadnięciem z trasy zdążył zahamować."
+    ru: "Перед вылетом с трассы он успел затормозить."
+    source: { kind: authored }
+  - form: "wypadnięciem"
+    pl: "Skończyło się wypadnięciem z rankingu."
+    ru: "Кончилось выпадением из рейтинга."
+    source: { kind: authored }
+  - form: "wypadnięciem"
+    pl: "Wszystko skończyło się zwykłym wypadnięciem z siodła."
+    ru: "Всё кончилось обычным вылетом из седла."
+    source: { kind: authored }
+  - form: "wypadnięciu"
+    pl: "Po wypadnięciu z gry odpoczywał miesiąc."
+    ru: "После выбывания из игры он месяц отдыхал."
+    source: { kind: authored }
+  - form: "wypadnięciu"
+    pl: "O wypadnięciu z listy dowiedział się z gazety."
+    ru: "О выпадении из списка он узнал из газеты."
+    source: { kind: authored }
+  - form: "wypadnięciu"
+    pl: "Dzięki wypadnięciu z turnieju zdążył na operację."
+    ru: "Благодаря выбыванию из турнира он успел на операцию."
+    source: { kind: authored }
+  - form: "wypadnięto"
+    pl: "W raporcie zapisano, skąd wypadnięto."
+    ru: "В отчёте записали, откуда произошло падение."
+    source: { kind: authored }
+  - form: "wypadnięto"
+    pl: "Wypadnięto dwa razy, oba razy na tym samym zakręcie."
+    ru: "Вылетели два раза, оба раза на том же повороте."
+    source: { kind: authored }
+  - form: "wypadnięto"
+    pl: "Nie wypadnięto ani razu podczas całej jazdy."
+    ru: "За всю поездку не вылетели ни разу."
+    source: { kind: authored }
+  - form: "wypadną"
+    pl: "Monety wypadną przez tę dziurę."
+    ru: "Монеты выпадут через эту дырку."
+    source: { kind: authored }
+  - form: "wypadną"
+    pl: "Dwa nazwiska wypadną z listy po weryfikacji."
+    ru: "Две фамилии выпадут из списка после проверки."
+    source: { kind: authored }
+  - form: "wypadną"
+    pl: "Zęby mleczne wypadną same."
+    ru: "Молочные зубы выпадут сами."
+    source: { kind: authored }
+  - form: "wypadnąć"
+    pl: "Szkło może wypadnąć z ramy przy pierwszym wstrząsie."
+    ru: "Стекло может выпасть из рамы при первом толчке."
+    source: { kind: authored }
+  - form: "wypadnąć"
+    pl: "Wolał zrezygnować, niż wypadnąć w pierwszej rundzie."
+    ru: "Он предпочёл отказаться, чем выпасть в первом раунде."
+    source: { kind: authored }
+  - form: "wypadnąć"
+    pl: "Trudno wypadnąć z tak szerokiego siedzenia."
+    ru: "Трудно выпасть с такого широкого сиденья."
+    source: { kind: authored }
+  - form: "wypadnę"
+    pl: "Jeszcze jeden błąd i wypadnę z zespołu."
+    ru: "Ещё одна ошибка — и я выпаду из команды."
+    source: { kind: authored }
+  - form: "wypadnę"
+    pl: "Trzymaj drabinę, bo wypadnę."
+    ru: "Держи лестницу, а то я свалюсь."
+    source: { kind: authored }
+  - form: "wypadnę"
+    pl: "Boję się, że wypadnę z harmonogramu."
+    ru: "Я боюсь, что выпаду из графика."
+    source: { kind: authored }
+  - form: "wypadł"
+    pl: "Wypadł mi ząb i nie wiem gdzie."
+    ru: "У меня выпал зуб, и я не знаю где."
+    source: { kind: authored }
+  - form: "wypadł"
+    pl: "Egzamin wypadł lepiej, niż sądziłem."
+    ru: "Экзамен вышел лучше, чем я думал."
+    source: { kind: authored }
+  - form: "wypadł"
+    pl: "Wypadł z gry w drugiej rundzie."
+    ru: "Он выбыл из игры во втором раунде."
+    source: { kind: authored }
+  - form: "wypadła"
+    pl: "Moneta wypadła i potoczyła się pod szafę."
+    ru: "Монета выпала и покатилась под шкаф."
+    source: { kind: authored }
+  - form: "wypadła"
+    pl: "Rozmowa wypadła sztywno i krótko."
+    ru: "Разговор получился скованным и коротким."
+    source: { kind: authored }
+  - form: "wypadła"
+    pl: "Jedna strona wypadła z książki."
+    ru: "Одна страница выпала из книги."
+    source: { kind: authored }
+  - form: "wypadłaby"
+    pl: "Ta moneta wypadłaby przez szparę."
+    ru: "Эта монета выпала бы через щель."
+    source: { kind: authored }
+  - form: "wypadłaby"
+    pl: "Rozmowa wypadłaby lepiej bez świadków."
+    ru: "Разговор прошёл бы лучше без свидетелей."
+    source: { kind: authored }
+  - form: "wypadłaby"
+    pl: "Gdyby nie pas, wypadłaby z siedzenia."
+    ru: "Если бы не ремень, она вывалилась бы с сиденья."
+    source: { kind: authored }
+  - form: "wypadłabym"
+    pl: "Jeszcze trochę i wypadłabym z grafiku zupełnie."
+    ru: "Ещё немного — и я совсем выпала бы из графика."
+    source: { kind: authored }
+  - form: "wypadłabym"
+    pl: "Na jej miejscu wypadłabym ze zdenerwowania."
+    ru: "На её месте я выступила бы хуже от волнения."
+    source: { kind: authored }
+  - form: "wypadłabym"
+    pl: "Bez tej poręczy wypadłabym ze schodów."
+    ru: "Без этого поручня я свалилась бы с лестницы."
+    source: { kind: authored }
+  - form: "wypadłabyś"
+    pl: "Na tej scenie wypadłabyś znacznie lepiej."
+    ru: "На этой сцене ты выступила бы гораздо лучше."
+    source: { kind: authored }
+  - form: "wypadłabyś"
+    pl: "Sama wypadłabyś z tej listy po miesiącu."
+    ru: "Одна ты выпала бы из этого списка через месяц."
+    source: { kind: authored }
+  - form: "wypadłabyś"
+    pl: "Bez przygotowania wypadłabyś słabo."
+    ru: "Без подготовки ты выступила бы слабо."
+    source: { kind: authored }
+  - form: "wypadłam"
+    pl: "Wypadłam z autobusu razem z torbami."
+    ru: "Я вывалилась из автобуса вместе с сумками."
+    source: { kind: authored }
+  - form: "wypadłam"
+    pl: "Raz wypadłam z roli i zapomniałam tekstu."
+    ru: "Один раз я выпала из роли и забыла текст."
+    source: { kind: authored }
+  - form: "wypadłam"
+    pl: "Wczoraj wypadłam z rytmu na próbie."
+    ru: "Вчера я выпала из ритма на репетиции."
+    source: { kind: authored }
+  - form: "wypadłaś"
+    pl: "Wypadłaś świetnie na scenie."
+    ru: "Ты прекрасно выступила на сцене."
+    source: { kind: authored }
+  - form: "wypadłaś"
+    pl: "Powiedz szczerze, czy wypadłaś z konkursu."
+    ru: "Скажи честно, выбыла ли ты из конкурса."
+    source: { kind: authored }
+  - form: "wypadłaś"
+    pl: "Od kiedy wypadłaś z grafiku, wszystko się przesunęło."
+    ru: "С тех пор как ты выпала из графика, всё сдвинулось."
+    source: { kind: authored }
+  - form: "wypadłby"
+    pl: "Bez tego punktu wypadłby z czołówki."
+    ru: "Без этого очка он выпал бы из лидеров."
+    source: { kind: authored }
+  - form: "wypadłby"
+    pl: "Zawodnik wypadłby z trasy, ale wyrównał w ostatniej chwili."
+    ru: "Спортсмен вылетел бы с трассы, но выровнял в последний миг."
+    source: { kind: authored }
+  - form: "wypadłby"
+    pl: "Ten egzamin wypadłby lepiej po tygodniu nauki."
+    ru: "Этот экзамен прошёл бы лучше после недели занятий."
+    source: { kind: authored }
+  - form: "wypadłbym"
+    pl: "Na jego miejscu wypadłbym z tej rozmowy gorzej."
+    ru: "На его месте я выступил бы на этом собеседовании хуже."
+    source: { kind: authored }
+  - form: "wypadłbym"
+    pl: "Gdyby nie poręcz, wypadłbym przez balustradę."
+    ru: "Если бы не поручень, я вывалился бы через перила."
+    source: { kind: authored }
+  - form: "wypadłbym"
+    pl: "Jeszcze jedna pomyłka i wypadłbym z zespołu."
+    ru: "Ещё одна ошибка — и я выпал бы из команды."
+    source: { kind: authored }
+  - form: "wypadłbyś"
+    pl: "Sam wypadłbyś z tej konkurencji w pierwszej rundzie."
+    ru: "Один ты выбыл бы из этого соревнования в первом раунде."
+    source: { kind: authored }
+  - form: "wypadłbyś"
+    pl: "Bez pasów wypadłbyś przy hamowaniu."
+    ru: "Без ремней ты вылетел бы при торможении."
+    source: { kind: authored }
+  - form: "wypadłbyś"
+    pl: "Na takim lodzie wypadłbyś z trasy od razu."
+    ru: "На таком льду ты вылетел бы с трассы сразу."
+    source: { kind: authored }
+  - form: "wypadłem"
+    pl: "Wypadłem z rankingu po jednej przegranej."
+    ru: "Я выпал из рейтинга после одного поражения."
+    source: { kind: authored }
+  - form: "wypadłem"
+    pl: "Nigdy wcześniej nie wypadłem z harmonogramu."
+    ru: "Никогда раньше я не выпадал из графика."
+    source: { kind: authored }
+  - form: "wypadłem"
+    pl: "Potknąłem się i wypadłem z szeregu."
+    ru: "Я споткнулся и вышел из шеренги."
+    source: { kind: authored }
+  - form: "wypadłeś"
+    pl: "Wypadłeś z gry czy sam zrezygnowałeś?"
+    ru: "Ты выбыл из игры или сам отказался?"
+    source: { kind: authored }
+  - form: "wypadłeś"
+    pl: "Mówiłem, że wypadłeś z listy."
+    ru: "Я говорил, что ты выпал из списка."
+    source: { kind: authored }
+  - form: "wypadłeś"
+    pl: "Dobrze wypadłeś na rozmowie."
+    ru: "Ты хорошо выступил на собеседовании."
+    source: { kind: authored }
+  - form: "wypadło"
+    pl: "Zdjęcie wypadło ciemno."
+    ru: "Снимок получился тёмным."
+    source: { kind: authored }
+  - form: "wypadło"
+    pl: "Jajko wypadło z koszyka i się stłukło."
+    ru: "Яйцо выпало из корзины и разбилось."
+    source: { kind: authored }
+  - form: "wypadło"
+    pl: "Spotkanie wypadło lepiej, niż się obawiali."
+    ru: "Встреча прошла лучше, чем они опасались."
+    source: { kind: authored }
+  - form: "wypadłoby"
+    pl: "Zdjęcie wypadłoby jaśniej przy dziennym świetle."
+    ru: "Снимок получился бы светлее при дневном свете."
+    source: { kind: authored }
+  - form: "wypadłoby"
+    pl: "Bez podpory szkło wypadłoby z ramy."
+    ru: "Без опоры стекло выпало бы из рамы."
+    source: { kind: authored }
+  - form: "wypadłoby"
+    pl: "To spotkanie wypadłoby lepiej w mniejszym gronie."
+    ru: "Эта встреча прошла бы лучше в меньшем кругу."
+    source: { kind: authored }
+  - form: "wypadłszy"
+    pl: "Wypadłszy z gry, zajął się trenowaniem innych."
+    ru: "Выбыв из игры, он занялся тренировкой других."
+    source: { kind: authored }
+  - form: "wypadłszy"
+    pl: "Wypadłszy z siodła, nie zdążył chwycić uzdy."
+    ru: "Вылетев из седла, он не успел схватить поводья."
+    source: { kind: authored }
+  - form: "wypadłszy"
+    pl: "Moneta, wypadłszy z dłoni, zniknęła pod szafą."
+    ru: "Монета, выпав из руки, исчезла под шкафом."
+    source: { kind: authored }
+  - form: "wypadły"
+    pl: "Klucze wypadły mi z kieszeni."
+    ru: "Ключи выпали у меня из кармана."
+    source: { kind: authored }
+  - form: "wypadły"
+    pl: "Dwa nazwiska wypadły z listy."
+    ru: "Две фамилии выпали из списка."
+    source: { kind: authored }
+  - form: "wypadły"
+    pl: "Wszystkie monety wypadły na podłogę."
+    ru: "Все монеты выпали на пол."
+    source: { kind: authored }
+  - form: "wypadłyby"
+    pl: "Monety wypadłyby przez tę szparę."
+    ru: "Монеты выпали бы через эту щель."
+    source: { kind: authored }
+  - form: "wypadłyby"
+    pl: "Dwa nazwiska wypadłyby z listy po weryfikacji."
+    ru: "Две фамилии выпали бы из списка после проверки."
+    source: { kind: authored }
+  - form: "wypadłyby"
+    pl: "Bez kleju te strony wypadłyby z książki."
+    ru: "Без клея эти страницы выпали бы из книги."
+    source: { kind: authored }
+  - form: "wypadłybyście"
+    pl: "Same wypadłybyście z tej listy po miesiącu."
+    ru: "Одни вы выпали бы из этого списка через месяц."
+    source: { kind: authored }
+  - form: "wypadłybyście"
+    pl: "Na takiej scenie wypadłybyście znacznie lepiej."
+    ru: "На такой сцене вы выступили бы гораздо лучше."
+    source: { kind: authored }
+  - form: "wypadłybyście"
+    pl: "Bez pomocy wypadłybyście z grafiku."
+    ru: "Без помощи вы выпали бы из графика."
+    source: { kind: authored }
+  - form: "wypadłybyśmy"
+    pl: "Na tej próbie wypadłybyśmy obie słabo."
+    ru: "На этой репетиции мы обе выступили бы слабо."
+    source: { kind: authored }
+  - form: "wypadłybyśmy"
+    pl: "Jeszcze trochę i wypadłybyśmy z rytmu."
+    ru: "Ещё немного — и мы выпали бы из ритма."
+    source: { kind: authored }
+  - form: "wypadłybyśmy"
+    pl: "Bez przygotowania wypadłybyśmy z konkursu."
+    ru: "Без подготовки мы выбыли бы из конкурса."
+    source: { kind: authored }
+  - form: "wypadłyście"
+    pl: "Wypadłyście z rankingu po tym sezonie."
+    ru: "Вы выпали из рейтинга после этого сезона."
+    source: { kind: authored }
+  - form: "wypadłyście"
+    pl: "Opowiedzcie, jak wypadłyście na egzaminie."
+    ru: "Расскажите, как вы выступили на экзамене."
+    source: { kind: authored }
+  - form: "wypadłyście"
+    pl: "Obie wypadłyście tego samego dnia."
+    ru: "Вы обе выбыли в тот же день."
+    source: { kind: authored }
+  - form: "wypadłyśmy"
+    pl: "Wypadłyśmy z konkursu na własne życzenie."
+    ru: "Мы выбыли из конкурса по собственному желанию."
+    source: { kind: authored }
+  - form: "wypadłyśmy"
+    pl: "Razem wypadłyśmy z rytmu i razem wróciłyśmy."
+    ru: "Вместе выпали из ритма и вместе вернулись."
+    source: { kind: authored }
+  - form: "wypadłyśmy"
+    pl: "Wtedy wypadłyśmy obie, pamiętasz?"
+    ru: "Тогда мы выбыли обе, помнишь?"
+    source: { kind: authored }
+  - form: "wypasie"
+    pl: "Pasterz wypasie owce na zboczu."
+    ru: "Пастух выпасет овец на склоне."
+    source: { kind: authored }
+  - form: "wypasie"
+    pl: "Nikt tak nie wypasie stada jak on."
+    ru: "Никто так не выпасет стадо, как он."
+    source: { kind: authored }
+  - form: "wypasie"
+    pl: "Ta łąka wypasie dwadzieścia krów."
+    ru: "Этот луг выпасет двадцать коров."
+    source: { kind: authored }
+  - form: "wypasiecie"
+    pl: "Wypasiecie kozy, jeśli starczy trawy."
+    ru: "Вы выпасете коз, если хватит травы."
+    source: { kind: authored }
+  - form: "wypasiecie"
+    pl: "Bez psa nie wypasiecie takiego stada."
+    ru: "Без собаки вы такое стадо не выпасете."
+    source: { kind: authored }
+  - form: "wypasiecie"
+    pl: "Gdzie wypasiecie bydło po żniwach?"
+    ru: "Где вы выпасете скот после жатвы?"
+    source: { kind: authored }
+  - form: "wypasiemy"
+    pl: "Do wieczora wypasiemy wszystkie owce."
+    ru: "К вечеру мы выпасем всех овец."
+    source: { kind: authored }
+  - form: "wypasiemy"
+    pl: "Razem wypasiemy stado szybciej."
+    ru: "Вместе мы выпасем стадо быстрее."
+    source: { kind: authored }
+  - form: "wypasiemy"
+    pl: "Jeśli trawa odrośnie, wypasiemy je tutaj."
+    ru: "Если трава отрастёт, мы выпасем их здесь."
+    source: { kind: authored }
+  - form: "wypasieni"
+    pl: "Wrócili z gór wypasieni i spokojni."
+    ru: "Они вернулись с гор отдохнувшие и спокойные."
+    source: { kind: authored }
+  - form: "wypasieni"
+    pl: "Żartowano, że pasterze są wypasieni jak ich owce."
+    ru: "Шутили, что пастухи откормлены как их овцы."
+    source: { kind: authored }
+  - form: "wypasieni"
+    pl: "Wypasieni na wiejskim mleku chłopcy wyrośli przez lato."
+    ru: "Выросшие на деревенском молоке мальчишки вытянулись за лето."
+    source: { kind: authored }
+  - form: "wypasienia"
+    pl: "Do wypasienia stada brakuje trawy."
+    ru: "Для выпаса стада не хватает травы."
+    source: { kind: authored }
+  - form: "wypasienia"
+    pl: "Od wypasienia zależy mleczność."
+    ru: "От выпаса зависит молочность."
+    source: { kind: authored }
+  - form: "wypasienia"
+    pl: "Koszt wypasienia owiec wzrósł dwukrotnie."
+    ru: "Стоимость выпаса овец выросла вдвое."
+    source: { kind: authored }
+  - form: "wypasienie"
+    pl: "Wypasienie takiego stada zajmie cały dzień."
+    ru: "Выпас такого стада займёт целый день."
+    source: { kind: authored }
+  - form: "wypasienie"
+    pl: "Samo wypasienie nie wystarczy, trzeba jeszcze wydoić."
+    ru: "Одного выпаса недостаточно, надо ещё подоить."
+    source: { kind: authored }
+  - form: "wypasienie"
+    pl: "Wypasienie owiec na halach ma dawną tradycję."
+    ru: "Выпас овец на горных лугах имеет давнюю традицию."
+    source: { kind: authored }
+  - form: "wypasieniem"
+    pl: "Przed wypasieniem trzeba przeliczyć owce."
+    ru: "Перед выпасом надо пересчитать овец."
+    source: { kind: authored }
+  - form: "wypasieniem"
+    pl: "Zajmują się wypasieniem bydła od pokoleń."
+    ru: "Они занимаются выпасом скота из поколения в поколение."
+    source: { kind: authored }
+  - form: "wypasieniem"
+    pl: "Skończyło się wypasieniem całej łąki."
+    ru: "Кончилось выпасом всего луга."
+    source: { kind: authored }
+  - form: "wypasieniu"
+    pl: "Po wypasieniu owce wracają do zagrody."
+    ru: "После выпаса овцы возвращаются в загон."
+    source: { kind: authored }
+  - form: "wypasieniu"
+    pl: "O wypasieniu stada zdecydował gospodarz."
+    ru: "О выпасе стада решил хозяин."
+    source: { kind: authored }
+  - form: "wypasieniu"
+    pl: "Dzięki wypasieniu na halach mleko jest tłustsze."
+    ru: "Благодаря выпасу на горных лугах молоко жирнее."
+    source: { kind: authored }
+  - form: "wypasiesz"
+    pl: "Na tej łące wypasiesz całe stado."
+    ru: "На этом лугу ты выпасешь всё стадо."
+    source: { kind: authored }
+  - form: "wypasiesz"
+    pl: "Czy wypasiesz kozy przed zmrokiem?"
+    ru: "Выпасешь ли ты коз до темноты?"
+    source: { kind: authored }
+  - form: "wypasiesz"
+    pl: "Nie wypasiesz bydła na samym ściernisku."
+    ru: "Скот на одной стерне не выпасешь."
+    source: { kind: authored }
+  - form: "wypasiona"
+    pl: "Krowa wypasiona na łąkach daje więcej mleka."
+    ru: "Корова, выпасенная на лугах, даёт больше молока."
+    source: { kind: authored }
+  - form: "wypasiona"
+    pl: "Owca była dobrze wypasiona."
+    ru: "Овца была хорошо выпасена."
+    source: { kind: authored }
+  - form: "wypasiona"
+    pl: "Koza wypasiona na miedzy wróciła syta."
+    ru: "Коза, выпасенная на меже, вернулась сытой."
+    source: { kind: authored }
+  - form: "wypasione"
+    pl: "Bydło wypasione na łąkach wraca grubsze."
+    ru: "Скот, выпасенный на лугах, возвращается упитаннее."
+    source: { kind: authored }
+  - form: "wypasione"
+    pl: "Owce wypasione na halach mają lepszą wełnę."
+    ru: "Овцы, выпасенные на горных лугах, имеют лучшую шерсть."
+    source: { kind: authored }
+  - form: "wypasione"
+    pl: "Cielę wypasione przez lato sprzedali we wrześniu."
+    ru: "Телёнка, выпасенного за лето, продали в сентябре."
+    source: { kind: authored }
+  - form: "wypasionego"
+    pl: "Kupili wołu wypasionego na halach."
+    ru: "Они купили вола, выпасенного на горных лугах."
+    source: { kind: authored }
+  - form: "wypasionego"
+    pl: "Od barana wypasionego na trawie nie ma lepszego."
+    ru: "Барана, выпасенного на траве, лучше нет."
+    source: { kind: authored }
+  - form: "wypasionego"
+    pl: "Szukali cielaka wypasionego, nie chudego."
+    ru: "Они искали телёнка выпасенного, а не худого."
+    source: { kind: authored }
+  - form: "wypasionej"
+    pl: "Mleko krowy wypasionej na łąkach jest tłustsze."
+    ru: "Молоко коровы, выпасенной на лугах, жирнее."
+    source: { kind: authored }
+  - form: "wypasionej"
+    pl: "Od owcy wypasionej na halach biorą więcej."
+    ru: "За овцу, выпасенную на горных лугах, берут больше."
+    source: { kind: authored }
+  - form: "wypasionej"
+    pl: "Mówiono o kozie wypasionej na samej miedzy."
+    ru: "Говорили о козе, выпасенной на одной меже."
+    source: { kind: authored }
+  - form: "wypasionemu"
+    pl: "Wypasionemu wołowi trudno ciągnąć pług."
+    ru: "Выпасенному волу трудно тянуть плуг."
+    source: { kind: authored }
+  - form: "wypasionemu"
+    pl: "Dzięki cielakowi wypasionemu na łąkach dostali nagrodę."
+    ru: "Благодаря телёнку, выпасенному на лугах, они получили награду."
+    source: { kind: authored }
+  - form: "wypasionemu"
+    pl: "Przyglądali się baranowi wypasionemu na halach."
+    ru: "Они рассматривали барана, выпасенного на горных лугах."
+    source: { kind: authored }
+  - form: "wypasiono"
+    pl: "W tym gospodarstwie wypasiono dwieście owiec."
+    ru: "В этом хозяйстве выпасли двести овец."
+    source: { kind: authored }
+  - form: "wypasiono"
+    pl: "Wypasiono je na samych ścierniskach."
+    ru: "Их выпасли на одной стерне."
+    source: { kind: authored }
+  - form: "wypasiono"
+    pl: "W księgach zapisano, ile bydła wypasiono."
+    ru: "В книгах записали, сколько скота выпасли."
+    source: { kind: authored }
+  - form: "wypasiony"
+    pl: "Baran wypasiony na halach jest cięższy."
+    ru: "Баран, выпасенный на горных лугах, тяжелее."
+    source: { kind: authored }
+  - form: "wypasiony"
+    pl: "Ten cielak jest dobrze wypasiony."
+    ru: "Этот телёнок хорошо выпасен."
+    source: { kind: authored }
+  - form: "wypasiony"
+    pl: "Wół wypasiony na łąkach trafił na jarmark."
+    ru: "Вол, выпасенный на лугах, попал на ярмарку."
+    source: { kind: authored }
+  - form: "wypasionych"
+    pl: "Wśród owiec wypasionych na halach wybrali trzy."
+    ru: "Среди овец, выпасенных на горных лугах, выбрали трёх."
+    source: { kind: authored }
+  - form: "wypasionych"
+    pl: "Bez krów wypasionych na łąkach mleka będzie mniej."
+    ru: "Без коров, выпасенных на лугах, молока будет меньше."
+    source: { kind: authored }
+  - form: "wypasionych"
+    pl: "Lista cielaków wypasionych tego roku wisi w oborze."
+    ru: "Список телят, выпасенных в этом году, висит в хлеву."
+    source: { kind: authored }
+  - form: "wypasionym"
+    pl: "W stadzie wypasionym na halach nie było chudych."
+    ru: "В стаде, выпасенном на горных лугах, худых не было."
+    source: { kind: authored }
+  - form: "wypasionym"
+    pl: "Okazał się wołem dobrze wypasionym."
+    ru: "Он оказался хорошо выпасенным волом."
+    source: { kind: authored }
+  - form: "wypasionym"
+    pl: "Wypasionym owcom strzyże się wełnę w czerwcu."
+    ru: "Выпасенным овцам стригут шерсть в июне."
+    source: { kind: authored }
+  - form: "wypasionymi"
+    pl: "Handlują wołami wypasionymi na halach."
+    ru: "Они торгуют волами, выпасенными на горных лугах."
+    source: { kind: authored }
+  - form: "wypasionymi"
+    pl: "Między owcami wypasionymi i chudymi widać różnicę."
+    ru: "Между овцами выпасенными и худыми видна разница."
+    source: { kind: authored }
+  - form: "wypasionymi"
+    pl: "Zajęli się krowami wypasionymi na dolnej łące."
+    ru: "Они занялись коровами, выпасенными на нижнем лугу."
+    source: { kind: authored }
+  - form: "wypasioną"
+    pl: "Sprzedali krowę wypasioną przez całe lato."
+    ru: "Они продали корову, выпасенную за всё лето."
+    source: { kind: authored }
+  - form: "wypasioną"
+    pl: "Uznali tę owcę za dobrze wypasioną."
+    ru: "Эту овцу признали хорошо выпасенной."
+    source: { kind: authored }
+  - form: "wypasioną"
+    pl: "Wybrali kozę wypasioną na górnej miedzy."
+    ru: "Они выбрали козу, выпасенную на верхней меже."
+    source: { kind: authored }
+  - form: "wypasą"
+    pl: "Sąsiedzi wypasą owce na ściernisku."
+    ru: "Соседи выпасут овец на стерне."
+    source: { kind: authored }
+  - form: "wypasą"
+    pl: "Pasterze wypasą stado do września."
+    ru: "Пастухи выпасут стадо до сентября."
+    source: { kind: authored }
+  - form: "wypasą"
+    pl: "Nie wypasą krów na tak suchej łące."
+    ru: "Коров на таком сухом лугу они не выпасут."
+    source: { kind: authored }
+  - form: "wypasę"
+    pl: "Wypasę krowy na dolnej łące."
+    ru: "Я выпасу коров на нижнем лугу."
+    source: { kind: authored }
+  - form: "wypasę"
+    pl: "Jeśli przestanie padać, wypasę stado po obiedzie."
+    ru: "Если дождь перестанет, я выпасу стадо после обеда."
+    source: { kind: authored }
+  - form: "wypasę"
+    pl: "Sam wypasę owce, nikogo nie potrzebuję."
+    ru: "Сам выпасу овец, никто мне не нужен."
+    source: { kind: authored }
+  - form: "wypasł"
+    pl: "Pasterz wypasł owce na zboczu."
+    ru: "Пастух выпас овец на склоне."
+    source: { kind: authored }
+  - form: "wypasł"
+    pl: "Sąsiad wypasł krowy na ściernisku."
+    ru: "Сосед выпас коров на стерне."
+    source: { kind: authored }
+  - form: "wypasł"
+    pl: "Wypasł stado lepiej niż ktokolwiek we wsi."
+    ru: "Он выпас стадо лучше, чем кто-либо в деревне."
+    source: { kind: authored }
+  - form: "wypasła"
+    pl: "Babcia wypasła kozy na miedzy."
+    ru: "Бабушка выпасла коз на меже."
+    source: { kind: authored }
+  - form: "wypasła"
+    pl: "Wypasła owce i wróciła przed zmrokiem."
+    ru: "Она выпасла овец и вернулась до темноты."
+    source: { kind: authored }
+  - form: "wypasła"
+    pl: "Ciotka wypasła dwie krowy tego lata."
+    ru: "Тётя выпасла двух коров в то лето."
+    source: { kind: authored }
+  - form: "wypasło"
+    pl: "Dziecko wypasło gęsi nad stawem."
+    ru: "Ребёнок выпас гусей у пруда."
+    source: { kind: authored }
+  - form: "wypasło"
+    pl: "To stado wypasło całą łąkę do gołej ziemi."
+    ru: "Это стадо выпасло весь луг до голой земли."
+    source: { kind: authored }
+  - form: "wypasło"
+    pl: "Gospodarstwo wypasło w tym roku sto owiec."
+    ru: "Хозяйство выпасло в этом году сто овец."
+    source: { kind: authored }
+  - form: "wypasłszy"
+    pl: "Wypasłszy owce, wrócił do chaty."
+    ru: "Выпасши овец, он вернулся в хату."
+    source: { kind: authored }
+  - form: "wypasłszy"
+    pl: "Wypasłszy stado, usiedli wreszcie do obiadu."
+    ru: "Выпасши стадо, они наконец сели обедать."
+    source: { kind: authored }
+  - form: "wypasłszy"
+    pl: "Pasterz, wypasłszy krowy, zasnął pod drzewem."
+    ru: "Пастух, выпасши коров, заснул под деревом."
+    source: { kind: authored }
+  - form: "wypasły"
+    pl: "Kobiety wypasły kozy na miedzy."
+    ru: "Женщины выпасли коз на меже."
+    source: { kind: authored }
+  - form: "wypasły"
+    pl: "Dzieci wypasły gęsi nad rzeką."
+    ru: "Дети выпасли гусей у реки."
+    source: { kind: authored }
+  - form: "wypasły"
+    pl: "Dwie siostry wypasły stado razem."
+    ru: "Две сестры выпасли стадо вместе."
+    source: { kind: authored }
+  - form: "wypaś"
+    pl: "Wypaś krowy na dolnej łące."
+    ru: "Выпаси коров на нижнем лугу."
+    source: { kind: authored }
+  - form: "wypaś"
+    pl: "Najpierw wypaś owce, potem je zamknij."
+    ru: "Сначала выпаси овец, потом запри их."
+    source: { kind: authored }
+  - form: "wypaś"
+    pl: "Wypaś kozy przed deszczem."
+    ru: "Выпаси коз до дождя."
+    source: { kind: authored }
+  - form: "wypaście"
+    pl: "Wypaście bydło na górnej łące."
+    ru: "Выпасите скот на верхнем лугу."
+    source: { kind: authored }
+  - form: "wypaście"
+    pl: "Weźcie psa i wypaście owce."
+    ru: "Возьмите собаку и выпасите овец."
+    source: { kind: authored }
+  - form: "wypaście"
+    pl: "Wypaście kozy, zanim trawa zwiędnie."
+    ru: "Выпасите коз, пока трава не завяла."
+    source: { kind: authored }
+  - form: "wypaśli"
+    pl: "Wypaśli krowy na ścierniskach."
+    ru: "Они выпасли коров на стерне."
+    source: { kind: authored }
+  - form: "wypaśli"
+    pl: "Pasterze wypaśli stado na górnych halach."
+    ru: "Пастухи выпасли стадо на верхних лугах."
+    source: { kind: authored }
+  - form: "wypaśli"
+    pl: "W tym roku wypaśli więcej owiec niż zwykle."
+    ru: "В этом году они выпасли больше овец, чем обычно."
+    source: { kind: authored }
+  - form: "wypaśmy"
+    pl: "Wypaśmy stado razem, będzie prędzej."
+    ru: "Выпасем стадо вместе, будет быстрее."
+    source: { kind: authored }
+  - form: "wypaśmy"
+    pl: "Zanim przyjdzie mróz, wypaśmy je ostatni raz."
+    ru: "Пока не пришёл мороз, выпасем их последний раз."
+    source: { kind: authored }
+  - form: "wypaśmy"
+    pl: "Wypaśmy chociaż połowę owiec."
+    ru: "Выпасем хотя бы половину овец."
+    source: { kind: authored }
+  - form: "wypaść"
+    pl: "Łatwo tu wypaść z siodła."
+    ru: "Здесь легко вылететь из седла."
+    source: { kind: authored }
+  - form: "wypaść"
+    pl: "Bał się wypaść z listy finalistów."
+    ru: "Он боялся выпасть из списка финалистов."
+    source: { kind: authored }
+  - form: "wypaść"
+    pl: "Egzamin może wypaść lepiej, niż myślisz."
+    ru: "Экзамен может пройти лучше, чем ты думаешь."
+    source: { kind: authored }
