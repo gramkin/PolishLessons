@@ -1,0 +1,167 @@
+# review
+id: ustawa
+format: 2
+lemma: "ustawa"
+rank: 3500
+pos: noun
+pron: { cyr: "уста́ва" }
+senses:
+  - id: act-of-law
+    ru: "закон, законодательный акт"
+    examples:
+      - pl: "Ustawa wchodzi w życie od stycznia."
+        ru: "Закон вступает в силу с января."
+        source: { kind: authored }
+      - pl: "Sejm przyjął ustawę w trzecim czytaniu."
+        ru: "Сейм принял закон в третьем чтении."
+        source: { kind: authored }
+      - pl: "Zgodnie z ustawą opłatę pobiera gmina."
+        ru: "Согласно закону плату взимает община."
+        source: { kind: authored }
+  - id: legislation
+    ru: "законы как свод норм"
+    examples:
+      - pl: "Ustawy podatkowe zmieniano trzy razy w roku."
+        ru: "Налоговые законы меняли три раза в год."
+        source: { kind: authored }
+      - pl: "Nowe ustawy weszły w życie tego samego dnia."
+        ru: "Новые законы вступили в силу в тот же день."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Самый резкий расход в этой тройке. Русский «устав» — мужского рода и означает свод внутренних правил организации: устав общества, воинский устав. Польская USTAWA — женского рода и означает закон, принятый парламентом: USTAWA O PODATKU, SEJM UCHWALIŁ USTAWĘ. Русскому «уставу» отвечают польские STATUT и REGULAMIN. Обратно: польское PRAWO — это право в целом и закон как понятие, а USTAWA — конкретный акт с названием и датой. Поэтому ZGODNIE Z USTAWĄ значит «согласно закону», а не «согласно уставу», и в юридическом тексте путаница меняет смысл целиком." }
+  - { kind: usage, text: "Десять форм, женский род. Дательный и местный единственного — USTAWIE: W USTAWIE, O USTAWIE, и W с этой формой значит «в тексте закона». Родительный множественного — USTAW, и здесь стоит быть внимательным: та же цепочка букв есть в повелительном наклонении глагола USTAWIĆ — USTAW KRZESŁO «поставь стул». Различает их только контекст. Управление: USTAWA O CZYM в местном — USTAWA O RUCHU DROGOWYM; принимают закон как UCHWALIĆ или PRZYJĄĆ USTAWĘ, а действует она на основании ZGODNIE Z USTAWĄ в творительном." }
+  - { kind: pronunciation, text: "Читается «уста́ва», три слога, ударение на втором. Начальное U даёт «у», как в русском. Сочетание ST твёрдое, без смягчения. Буква W перед A звучит «в». В форме USTAWIE буквосочетание WIE даёт мягкое «ве»: «уста́ве». В форме USTAWĄ последнее Ą звучит «он»: «уста́вон». В форме USTAW конечное W оглушается в «ф»: «уста́ф», и потому на слух родительный множественного совпадает с повелительным USTAW от глагола." }
+  - { kind: register, text: "Слово официальное и книжное, но очень частое: в новостях, в объявлениях, на любой странице о налогах и правах. Полное название закона строится по образцу USTAWA Z DNIA и дальше дата, и этот оборот стоит узнавать в документах. Разговорное сокращение USTAWA O PIT понятно каждому поляку. Производное USTAWODAWCA значит «законодатель», USTAWOWY — «законный, установленный законом». Звательная форма USTAWO встречается только в риторическом обращении у публицистов и поэтов, не в обычной речи." }
+collocations:
+  - { pl: "uchwalić ustawę", ru: "принять закон" }
+  - { pl: "zgodnie z ustawą", ru: "согласно закону" }
+  - { pl: "ustawa o ruchu drogowym", ru: "закон о дорожном движении" }
+family:
+  - { pl: "ustawic", ru: "поставить, установить", relation: root, id: ustawic }
+  - { pl: "ustawowy", ru: "законный", relation: derived }
+  - { pl: "prawo", ru: "право, закон", relation: root, id: prawo }
+etymology: "От глагола USTAWIĆ «установить, поставить», то есть U- плюс STAWIĆ от праславянского *staviti, родственного русскому «ставить». Отглагольное существительное означало сначала «установление», то есть то, что установлено властью. Русский построил из того же корня и тем же способом слово «устав» — но в мужском роде и с другим кругом применения, за внутренними правилами. Так два языка взяли одну основу, один способ образования и одну исходную мысль, а поделили между собой разные участки юридического поля: польская USTAWA пошла к государственному закону, русский «устав» — к правилам организации. Отсюда и ложная дружба, которую не снимает никакая догадка."
+memory: "Резкая ложная дружба: польская ustawa женского рода и значит «закон», принятый сеймом, а русский «устав» мужского рода и значит свод правил — по-польски statut или regulamin. Оба слова от одного корня: u- + stawić, «то, что установлено». Общее право как понятие — prawo; ustawa всегда конкретный акт. Падеж: w ustawie «в тексте закона», zgodnie z ustawą «согласно закону». И осторожно: ustaw это и родительный множественного, и «поставь» от ustawić."
+idioms:
+  - { pl: "zgodnie z ustawą", ru: "согласно закону" }
+formExamples:
+  - form: "ustaw"
+    pl: "Zbiór ustaw leżał na biurku radcy."
+    ru: "Сборник законов лежал на столе юриста."
+    source: { kind: authored }
+  - form: "ustaw"
+    pl: "Bez ustaw wykonawczych reforma stanęła."
+    ru: "Без исполнительных законов реформа встала."
+    source: { kind: authored }
+  - form: "ustaw"
+    pl: "Spis ustaw z tego roku zajmuje dwie strony."
+    ru: "Список законов этого года занимает две страницы."
+    source: { kind: authored }
+  - form: "ustawa"
+    pl: "Ustawa wchodzi w życie od stycznia."
+    ru: "Закон вступает в силу с января."
+    source: { kind: authored }
+  - form: "ustawa"
+    pl: "Ustawa o ruchu drogowym zmieniła się w czerwcu."
+    ru: "Закон о дорожном движении изменился в июне."
+    source: { kind: authored }
+  - form: "ustawa"
+    pl: "Taka ustawa nie przeszłaby przez senat."
+    ru: "Такой закон не прошёл бы через сенат."
+    source: { kind: authored }
+  - form: "ustawach"
+    pl: "W ustawach o oświacie zmieniono tylko nazwy."
+    ru: "В законах об образовании изменили только названия."
+    source: { kind: authored }
+  - form: "ustawach"
+    pl: "O ustawach podatkowych wykładał im młody prawnik."
+    ru: "О налоговых законах им читал лекцию молодой юрист."
+    source: { kind: authored }
+  - form: "ustawach"
+    pl: "W tych ustawach wszystko zależy od definicji."
+    ru: "В этих законах всё зависит от определений."
+    source: { kind: authored }
+  - form: "ustawami"
+    pl: "Posługują się ustawami z ubiegłego wieku."
+    ru: "Они пользуются законами прошлого века."
+    source: { kind: authored }
+  - form: "ustawami"
+    pl: "Między ustawami a praktyką jest spora przepaść."
+    ru: "Между законами и практикой немалая пропасть."
+    source: { kind: authored }
+  - form: "ustawami"
+    pl: "Nad ustawami o podatkach pracowano rok."
+    ru: "Над законами о налогах работали год."
+    source: { kind: authored }
+  - form: "ustawie"
+    pl: "W ustawie zapisano wyjątek dla rolników."
+    ru: "В законе записано исключение для крестьян."
+    source: { kind: authored }
+  - form: "ustawie"
+    pl: "O ustawie mówiono we wszystkich wiadomościach."
+    ru: "О законе говорили во всех новостях."
+    source: { kind: authored }
+  - form: "ustawie"
+    pl: "W tej ustawie brakuje przepisów przejściowych."
+    ru: "В этом законе не хватает переходных положений."
+    source: { kind: authored }
+  - form: "ustawo"
+    pl: "Ustawo, ileż razy cię poprawiano!"
+    ru: "Закон, сколько же раз тебя правили!"
+    source: { kind: authored }
+  - form: "ustawo"
+    pl: "Droga ustawo, nikt cię nie przeczytał do końca."
+    ru: "Дорогой закон, никто тебя не прочитал до конца."
+    source: { kind: authored }
+  - form: "ustawo"
+    pl: "Poeta pisał: ustawo, bądź dla ludzi."
+    ru: "Поэт писал: закон, будь для людей."
+    source: { kind: authored }
+  - form: "ustawom"
+    pl: "Ustawom brakowało przepisów wykonawczych."
+    ru: "Законам не хватало исполнительных положений."
+    source: { kind: authored }
+  - form: "ustawom"
+    pl: "Dzięki ustawom o ochronie lokatorów nikogo nie wyrzucono."
+    ru: "Благодаря законам о защите жильцов никого не выселили."
+    source: { kind: authored }
+  - form: "ustawom"
+    pl: "Ustawom z tamtych lat nikt już nie ufał."
+    ru: "Законам тех лет уже никто не доверял."
+    source: { kind: authored }
+  - form: "ustawy"
+    pl: "Projekt ustawy trafił do komisji."
+    ru: "Проект закона попал в комиссию."
+    source: { kind: authored }
+  - form: "ustawy"
+    pl: "Z ustawy wykreślono dwa artykuły."
+    ru: "Из закона вычеркнули две статьи."
+    source: { kind: authored }
+  - form: "ustawy"
+    pl: "Ustawy podatkowe zmieniano trzy razy w roku."
+    ru: "Налоговые законы меняли три раза в год."
+    source: { kind: authored }
+  - form: "ustawą"
+    pl: "Zgodnie z ustawą opłatę pobiera gmina."
+    ru: "Согласно закону плату взимает община."
+    source: { kind: authored }
+  - form: "ustawą"
+    pl: "Przed ustawą z marca takich opłat nie było."
+    ru: "До закона от марта таких плат не было."
+    source: { kind: authored }
+  - form: "ustawą"
+    pl: "Między ustawą a rozporządzeniem różnica jest zasadnicza."
+    ru: "Между законом и постановлением разница принципиальная."
+    source: { kind: authored }
+  - form: "ustawę"
+    pl: "Sejm przyjął ustawę w trzecim czytaniu."
+    ru: "Сейм принял закон в третьем чтении."
+    source: { kind: authored }
+  - form: "ustawę"
+    pl: "Ustawę podpisano dwa dni później."
+    ru: "Закон подписали двумя днями позже."
+    source: { kind: authored }
+  - form: "ustawę"
+    pl: "Nową ustawę krytykowali i urzędnicy, i kupcy."
+    ru: "Новый закон критиковали и чиновники, и торговцы."
+    source: { kind: authored }
