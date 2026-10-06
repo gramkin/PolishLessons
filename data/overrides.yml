@@ -168,16 +168,6 @@ exclude:
   # empty, and the single candidate is the person ("Dan usłyszał jak Matt i Linda się
   # sprzeczali."). Same class as john, eric and bill.
   - matt
-  # not a lemma in any usable sense: the base form "cela" itself has no corpus, and of
-  # thirty candidates exactly one ("Ona została umieszczona w celi.") is this word. The
-  # forms carrying the rank belong to the masculine noun cel "goal": cel ("Widzę cel.",
-  # "Trafił w cel.", "Osiągnął cel.") and cele ("na cele dobroczynne"). The rank is
-  # borrowed wholesale from another word. Same defect as um, byla and juz-2.
-  #
-  # Contrast mila at the adjacent rank, which is carded despite a similar collision with
-  # the adjective mily: there the lemma has real corpus on its own base form and on mil
-  # and milę, so only the contaminated forms go to skips.
-  - cela
   # a given name with almost no corpus: capitalised, 10 of its 11 forms empty, and the
   # single candidate is spelled Rachel rather than Rachela ("To jest moja przyjaciółka
   # Rachel."). The lemma's own nominative is unattested. Same class as john, eric and matt.
@@ -331,10 +321,6 @@ exclude:
   # пусты, а единственная заполненная (podoba) содержит только глагол
   # (Podoba mi się twój samochód, Nic mi się nie podoba, Podoba ci się ktoś?)
   - podoba
-  # ни одного кандидата в корпусе: все 63 формы пусты до единой, примеров нет
-  # вообще. Карточка была бы целиком выдуманной, без единого корпусного
-  # предложения. Тот же класс, что fbi и uh
-  - wyprawiac
   # имя собственное: ни одного значения и ни одного русского перевода в
   # Wiktionary, лемма с заглавной буквы, девять форм из десяти пусты, и всего
   # один кандидат на всё слово — личное имя (Ray był gotów potwierdzić wersję
@@ -673,11 +659,6 @@ exclude:
   # nie moglo byc naniesionych), девять форм пусты, и этот пример — родительный
   # множественного, а не словарная форма. Класс immunitet, porucznik
   - korekta
-  # "wspolnik" — ни одного кандидата ни в одной из десяти форм. Слово реальное
-  # («компаньон, соучастник»), но корпусом не подтверждено вовсе, а выдумывать
-  # три примера на каждую форму значило бы сочинить карточку целиком.
-  # Класс lord, komandor
-  - wspolnik
   # Ниже — варианты уже описанных слов. По решению владельца такие варианты
   # удаляются, а упоминание о них остаётся в карточке основного слова.
   # "patrzyc" — Wiktionary прямо отсылает: zob. patrzeć. Это тот же глагол,
@@ -930,9 +911,9 @@ excludeNotes:
   # the paradigm. Enforced by pnpm validate.
   peter: { why: proper-noun }
   ben: { why: proper-noun }
-  fbi: { why: no-corpus }
+  fbi: { why: proper-noun }
   jork: { why: not-a-lemma }
-  uh: { why: no-corpus }
+  uh: { why: not-a-lemma }
   joe: { why: proper-noun }
   james: { why: proper-noun }
   david: { why: proper-noun }
@@ -961,7 +942,7 @@ excludeNotes:
   drogi: { why: not-a-lemma }
   jack: { why: proper-noun }
   daniel: { why: proper-noun }
-  um: { why: no-corpus }
+  um: { why: not-a-lemma }
   lee: { why: proper-noun }
   scott: { why: proper-noun }
   chris: { why: proper-noun }
@@ -974,11 +955,10 @@ excludeNotes:
   eric: { why: proper-noun }
   adam: { why: proper-noun }
   dolec: { why: no-corpus }
-  juz-2: { why: no-corpus }
+  juz-2: { why: variant-of, see: juz }
   matt: { why: proper-noun }
-  cela: { why: no-corpus }
   rachela: { why: proper-noun }
-  wiec-2: { why: no-corpus }
+  wiec-2: { why: variant-of, see: wiec }
   nick: { why: proper-noun }
   cie: { why: form-of, see: ty }
   julia: { why: proper-noun }
@@ -1010,18 +990,17 @@ excludeNotes:
   harry: { why: proper-noun }
   jim: { why: proper-noun }
   podoba: { why: form-of, see: podobac }
-  wyprawiac: { why: no-corpus }
   ray: { why: proper-noun }
   warta: { why: not-a-lemma }
   ita: { why: proper-noun }
   rodzic: { why: form-of, see: rodzice }
   obiecowac: { why: variant-of, see: obiecywac }
-  mary: { why: no-corpus }
+  mary: { why: proper-noun }
   ryan: { why: proper-noun }
   richard: { why: proper-noun }
   brian: { why: proper-noun }
   bob: { why: foreign }
-  van: { why: no-corpus }
+  van: { why: proper-noun }
   de: { why: not-a-lemma }
   kevin: { why: proper-noun }
   ha: { why: foreign }
@@ -1030,16 +1009,16 @@ excludeNotes:
   martin: { why: proper-noun }
   mark: { why: proper-noun }
   carl: { why: proper-noun }
-  clark: { why: no-corpus }
+  clark: { why: proper-noun }
   walter: { why: proper-noun }
   san: { why: not-a-lemma }
   jason: { why: proper-noun }
   graca: { why: foreign }
   gliniarz: { why: no-corpus }
-  carter: { why: no-corpus }
+  carter: { why: proper-noun }
   angela: { why: proper-noun }
   beda: { why: proper-noun }
-  cia: { why: no-corpus }
+  cia: { why: proper-noun }
   leo: { why: proper-noun }
   emma: { why: proper-noun }
   dzialo: { why: not-a-lemma }
@@ -1049,7 +1028,7 @@ excludeNotes:
   new: { why: foreign }
   sean: { why: proper-noun }
   william: { why: proper-noun }
-  donna: { why: no-corpus }
+  donna: { why: proper-noun }
   thomas: { why: proper-noun }
   larry: { why: proper-noun }
   senator: { why: foreign }
@@ -1078,17 +1057,16 @@ excludeNotes:
   komandor: { why: no-corpus }
   ed: { why: proper-noun }
   phil: { why: proper-noun }
-  vegas: { why: no-corpus }
+  vegas: { why: proper-noun }
   niemiec: { why: not-a-lemma }
   porucznik: { why: no-corpus }
   korekta: { why: no-corpus }
-  wspolnik: { why: no-corpus }
   patrzyc: { why: variant-of, see: patrzec }
   choc: { why: variant-of, see: chociaz }
   spytac: { why: variant-of, see: zapytac }
   dosyc: { why: variant-of, see: dosc }
   zemrzec: { why: variant-of, see: umrzec }
-  don: { why: no-corpus }
+  don: { why: proper-noun }
 
   gotow: { why: variant-of, see: gotowy }
   pali: { why: form-of, see: palic }
