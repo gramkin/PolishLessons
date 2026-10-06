@@ -1,0 +1,180 @@
+# review
+id: prawny
+format: 2
+lemma: "prawny"
+rank: 3123
+pos: adj
+pron: { cyr: "пра́вны" }
+senses:
+  - id: legal
+    ru: "правовой, юридический (относящийся к праву)"
+    examples:
+      - pl: "Stan prawny działki wyjaśnił się po roku."
+        ru: "Правовое состояние участка выяснилось через год."
+        source: { kind: authored }
+      - pl: "Bez podstawy prawnej nic tu nie zrobisz."
+        ru: "Без правового основания здесь ничего не сделаешь."
+        source: { kind: authored }
+      - pl: "Skutki prawne tej umowy były nieodwracalne."
+        ru: "Правовые последствия этого договора были необратимы."
+        source: { kind: authored }
+  - id: lawful
+    ru: "законный, правомерный"
+    examples:
+      - pl: "Jest prawnym właścicielem tego mieszkania."
+        ru: "Он законный владелец этой квартиры."
+        source: { kind: authored }
+      - pl: "O prawnym opiekunie dziecka zadecydował sąd."
+        ru: "О законном опекуне ребёнка решил суд."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Русское «юридический» и «правовой» распределены в польском между двумя прилагательными, и путать их не стоит. PRAWNY значит «правовой, законный», то есть относящийся к праву как к явлению: STAN PRAWNY «правовое состояние», PODSTAWA PRAWNA «правовое основание», PRAWNY WŁAŚCICIEL «законный владелец». PRAWNICZY значит «относящийся к юристам как к сословию и профессии»: STUDIA PRAWNICZE «юридическое образование», ŻARGON PRAWNICZY «юридический жаргон», KANCELARIA PRAWNICZA. Поэтому WYDZIAŁ PRAWNICZY есть юридический факультет, а WYDZIAŁ PRAWNY звучало бы как «отдел по правовым вопросам»." }
+  - { kind: usage, text: "Относительное прилагательное: степеней сравнения не имеет и иметь не может, потому что основание не бывает «более правовым». Отсюда одиннадцать форм, та же картина, что у TELEFONICZNY и HANDLOWY. Самые частые сочетания стоит выучить блоком, они постоянны в документах: OSOBA PRAWNA «юридическое лицо», в отличие от OSOBA FIZYCZNA «физическое лицо», POMOC PRAWNA «юридическая помощь», OBSŁUGA PRAWNA, ŚRODKI PRAWNE «правовые средства», STAN PRAWNY." }
+  - { kind: pronunciation, text: "Читается «пра́вны», ударение на первом слоге из двух. Сочетание WN произносится слитно, без гласной между В и Н. Конечное Y даёт «ы». Мужско-личная форма множественного PRAWNI звучит «пра́вни», с мягким n. Слово короткое и для русского лёгкое: трудность не в звучании, а в выборе между PRAWNY и PRAWNICZY, разобранном выше." }
+  - { kind: government, text: "Прилагательное согласуется с существительным и ничем не управляет. В юридических оборотах оно почти всегда стоит после существительного, в отличие от обиходной речи: OSOBA PRAWNA, PODSTAWA PRAWNA, SKUTKI PRAWNE, и такой порядок в терминах закреплён. Существительное от того же корня — PRAWO, которое значит и «право», и «закон», и, во множественном числе PRAWA, «права». Наречие PRAWNIE значит «юридически, с правовой точки зрения»." }
+collocations:
+  - { pl: "osoba prawna", ru: "юридическое лицо" }
+  - { pl: "podstawa prawna", ru: "правовое основание" }
+  - { pl: "pomoc prawna", ru: "юридическая помощь" }
+family:
+  - { pl: "prawo", ru: "право; закон", relation: root, id: prawo }
+  - { pl: "prawnik", ru: "юрист", relation: root, id: prawnik }
+  - { pl: "ustawa", ru: "закон (акт)", relation: root }
+etymology: "От PRAWO «право, закон», из праславянского *pravъ «прямой, правильный». Тот же корень в русских «право», «правый», «правильный», «правда», и исходный образ один: прямизна, отсутствие кривизны. Отсюда и переход к праву как к тому, что выпрямляет и выправляет. Польский держит всё гнездо вместе и прозрачно: PRAWO, PRAWY «правый», PRAWDA «правда», PRAWNY, PRAWNIK, PRAWIDŁO «правило». Разница с русским только в распределении производных: там, где русский берёт «юридический» из латыни, польский обходится своим PRAWNY и PRAWNICZY, и потому юридическая терминология в польском на вид проще и прозрачнее."
+memory: "Не путать с prawniczy: prawny — относящийся к праву (podstawa prawna, osoba prawna), prawniczy — относящийся к юристам (studia prawnicze, kancelaria prawnicza). Относительное, степеней нет, одиннадцать форм, как telefoniczny. Корень тот же, что в русских «право» и «правда», от *pravъ «прямой»."
+idioms:
+  - { pl: "osoba prawna", ru: "юридическое лицо" }
+  - { pl: "podstawa prawna", ru: "правовое основание" }
+formExamples:
+  - form: "prawna"
+    pl: "Podstawa prawna tej decyzji budziła wątpliwości."
+    ru: "Правовое основание этого решения вызывало сомнения."
+    source: { kind: authored }
+  - form: "prawna"
+    pl: "Osoba prawna odpowiada całym majątkiem."
+    ru: "Юридическое лицо отвечает всем имуществом."
+    source: { kind: authored }
+  - form: "prawna"
+    pl: "Pomoc prawna była dla nich bezpłatna."
+    ru: "Юридическая помощь была для них бесплатной."
+    source: { kind: authored }
+  - form: "prawne"
+    pl: "Skutki prawne tej umowy były nieodwracalne."
+    ru: "Правовые последствия этого договора были необратимы."
+    source: { kind: authored }
+  - form: "prawne"
+    pl: "Środki prawne wyczerpali w ciągu dwóch lat."
+    ru: "Правовые средства они исчерпали за два года."
+    source: { kind: authored }
+  - form: "prawne"
+    pl: "Prawne aspekty sprawy wyjaśnił dopiero biegły."
+    ru: "Правовые аспекты дела разъяснил только эксперт."
+    source: { kind: authored }
+  - form: "prawnego"
+    pl: "Bez opiekuna prawnego dziecko nie podpisze umowy."
+    ru: "Без законного опекуна ребёнок договор не подпишет."
+    source: { kind: authored }
+  - form: "prawnego"
+    pl: "Od stanu prawnego budynku zależała cała transakcja."
+    ru: "От правового состояния здания зависела вся сделка."
+    source: { kind: authored }
+  - form: "prawnego"
+    pl: "Nie ma tu żadnego obowiązku prawnego, tylko zwyczaj."
+    ru: "Здесь нет никакой правовой обязанности, только обычай."
+    source: { kind: authored }
+  - form: "prawnej"
+    pl: "W kwestii prawnej zdania były podzielone."
+    ru: "В правовом вопросе мнения разделились."
+    source: { kind: authored }
+  - form: "prawnej"
+    pl: "O podstawie prawnej nikt nie pytał do końca sprawy."
+    ru: "О правовом основании никто не спрашивал до конца дела."
+    source: { kind: authored }
+  - form: "prawnej"
+    pl: "Po poradzie prawnej zmienili cały plan."
+    ru: "После юридической консультации они изменили весь план."
+    source: { kind: authored }
+  - form: "prawnemu"
+    pl: "Właścicielowi prawnemu zwrócono działkę po latach."
+    ru: "Законному владельцу участок вернули спустя годы."
+    source: { kind: authored }
+  - form: "prawnemu"
+    pl: "Dzięki obowiązkowi prawnemu rejestr wreszcie uporządkowano."
+    ru: "Благодаря правовой обязанности реестр наконец упорядочили."
+    source: { kind: authored }
+  - form: "prawnemu"
+    pl: "Przyjrzyj się stanowi prawnemu, nim cokolwiek podpiszesz."
+    ru: "Посмотри на правовое состояние, прежде чем что-то подписывать."
+    source: { kind: authored }
+  - form: "prawni"
+    pl: "Opiekunowie prawni muszą podpisać zgodę osobiście."
+    ru: "Законные опекуны должны подписать согласие лично."
+    source: { kind: authored }
+  - form: "prawni"
+    pl: "Następcy prawni zgłosili się dopiero po ogłoszeniu."
+    ru: "Правопреемники явились только после объявления."
+    source: { kind: authored }
+  - form: "prawni"
+    pl: "Prawni przedstawiciele obu stron usiedli po przeciwnych stronach stołu."
+    ru: "Законные представители обеих сторон сели по разные стороны стола."
+    source: { kind: authored }
+  - form: "prawny"
+    pl: "Stan prawny działki wyjaśnił się po roku."
+    ru: "Правовое состояние участка выяснилось через год."
+    source: { kind: authored }
+  - form: "prawny"
+    pl: "Prawny właściciel zgłosił się po dwudziestu latach."
+    ru: "Законный владелец явился через двадцать лет."
+    source: { kind: authored }
+  - form: "prawny"
+    pl: "Prawny obowiązek zgłoszenia mija po trzydziestu dniach."
+    ru: "Правовая обязанность уведомления истекает через тридцать дней."
+    source: { kind: authored }
+  - form: "prawnych"
+    pl: "W kwestiach prawnych radzili się dwóch kancelarii."
+    ru: "В правовых вопросах они советовались с двумя конторами."
+    source: { kind: authored }
+  - form: "prawnych"
+    pl: "Bez środków prawnych zostaje tylko prośba."
+    ru: "Без правовых средств остаётся только просьба."
+    source: { kind: authored }
+  - form: "prawnych"
+    pl: "Z przepisów prawnych wynikało coś przeciwnego."
+    ru: "Из правовых норм следовало противоположное."
+    source: { kind: authored }
+  - form: "prawnym"
+    pl: "W obrocie prawnym liczy się data wpisu."
+    ru: "В правовом обороте важна дата записи."
+    source: { kind: authored }
+  - form: "prawnym"
+    pl: "Okazał się właścicielem prawnym, nie tylko faktycznym."
+    ru: "Он оказался законным владельцем, а не только фактическим."
+    source: { kind: authored }
+  - form: "prawnym"
+    pl: "Skutkom prawnym nie dało się już zapobiec."
+    ru: "Правовым последствиям уже нельзя было помешать."
+    source: { kind: authored }
+  - form: "prawnymi"
+    pl: "Między skutkami prawnymi i faktycznymi była tu przepaść."
+    ru: "Между правовыми и фактическими последствиями здесь была пропасть."
+    source: { kind: authored }
+  - form: "prawnymi"
+    pl: "Sprawami prawnymi zajmuje się osobny dział."
+    ru: "Правовыми делами занимается отдельный отдел."
+    source: { kind: authored }
+  - form: "prawnymi"
+    pl: "Środkami prawnymi wygrali to, czego nie dała rozmowa."
+    ru: "Правовыми средствами они выиграли то, чего не дал разговор."
+    source: { kind: authored }
+  - form: "prawną"
+    pl: "Uzyskali pomoc prawną z urzędu."
+    ru: "Они получили юридическую помощь от государства."
+    source: { kind: authored }
+  - form: "prawną"
+    pl: "Spółka ma osobowość prawną od stycznia."
+    ru: "У компании есть правосубъектность с января."
+    source: { kind: authored }
+  - form: "prawną"
+    pl: "Podstawę prawną wskazano w pierwszym akapicie."
+    ru: "Правовое основание указали в первом абзаце."
+    source: { kind: authored }
