@@ -1,0 +1,169 @@
+# review
+id: apartament
+format: 2
+lemma: "apartament"
+rank: 3211
+pos: noun
+pron: { cyr: "апарта́мэнт" }
+senses:
+  - id: suite
+    ru: "апартамент, большая квартира"
+    examples:
+      - pl: "Apartament miał cztery pokoje i taras."
+        ru: "Апартамент имел четыре комнаты и террасу."
+        source: { kind: authored }
+      - pl: "Apartament wynajęli na dwa tygodnie."
+        ru: "Апартамент сняли на две недели."
+        source: { kind: authored }
+      - pl: "W apartamencie było ciepło nawet w styczniu."
+        ru: "В апартаменте было тепло даже в январе."
+        source: { kind: authored }
+  - id: hotel
+    ru: "номер-люкс в гостинице"
+    examples:
+      - pl: "Apartamenty wynajmowano turystom."
+        ru: "Апартаменты сдавали туристам."
+        source: { kind: authored }
+      - pl: "Apartamentów w tym budynku jest dwanaście."
+        ru: "Апартаментов в этом здании двенадцать."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Разница с русским не в значении, а в числе и оттенке. Польский свободно употребляет APARTAMENT в единственном: APARTAMENT NA PIĄTYM PIĘTRZE «апартамент на пятом этаже», WYNAJĄĆ APARTAMENT. Русские «апартаменты» обычно звучат во множественном и нередко с иронией или с оттенком роскоши. Второе: обычная квартира по-польски MIESZKANIE, и это нейтральное слово на каждый день, тогда как APARTAMENT всегда означает что-то большое или гостиничное. Поэтому «я снял квартиру» это WYNAJĄŁEM MIESZKANIE, а не APARTAMENT. Не путайте и с APARTAMENTOWIEC — так называют жилой дом повышенного класса, целое здание, а не помещение в нём." }
+  - { kind: usage, text: "В местном падеже единственного числа конечное T переходит в C: APARTAMENCIE, а не «apartamentie». Это одно из самых полезных чередований в польском, потому что срабатывает у всех основ на T: NAMIOT даёт NAMIOCIE, KRAWAT даёт KRAWACIE, ŚWIT даёт ŚWICIE, ZAPŁATA даёт ZAPŁACIE. Русскому это чередование незнакомо, и ошибка в нём слышна сразу. Остальное склонение обычное для мужского неодушевлённого: родительный единственного APARTAMENTU на -U, родительный множественного APARTAMENTÓW, именительный множественного APARTAMENTY." }
+  - { kind: government, text: "Мужской род, неодушевлённое. «В апартаменте» — предлог W с местным: W APARTAMENCIE. «В апартамент» о движении — W с винительным или DO с родительным: DO APARTAMENTU. Частотные глаголы: WYNAJĄĆ APARTAMENT «снять апартамент», WYNAJMOWAĆ APARTAMENTY «сдавать апартаменты», ZAREZERWOWAĆ APARTAMENT «забронировать номер». Прилагательные: APARTAMENT HOTELOWY, APARTAMENT DWUPOZIOMOWY «двухуровневый». Хозяин или управляющий — ZARZĄDCA, а не «apartamentowy»." }
+  - { kind: pronunciation, text: "Читается «апарта́мэнт», четыре слога, ударение на предпоследнем, то есть на TA. Оба A в начале произносятся полно, как «а», без редукции. Буква E даёт «э» и не смягчает предшествующего согласного, поэтому MEN звучит «мэн», а не «мен». В местном падеже APARTAMENCIE сочетание CIE даёт мягкое «це»: «апартаме́нце», пять слогов, и ударение снова уходит на предпоследний. Конечное T глухое и ясное." }
+collocations:
+  - { pl: "wynająć apartament", ru: "снять апартамент" }
+  - { pl: "w apartamencie", ru: "в апартаменте" }
+  - { pl: "apartament hotelowy", ru: "номер-люкс в гостинице" }
+family:
+  - { pl: "mieszkanie", ru: "квартира", relation: root }
+  - { pl: "hotel", ru: "гостиница", relation: root, id: hotel }
+  - { pl: "pokoj", ru: "комната", relation: root, id: pokoj }
+  - { pl: "krawat", ru: "галстук", relation: root, id: krawat }
+etymology: "Через французское APPARTEMENT из итальянского APPARTAMENTO, от APPARTARE «отделять», а то — от латинского AD PARTEM «в сторону, отдельно». Исходный смысл — отделённая часть дома, обособленное помещение; из него и выросло значение больших покоев. Оба языка взяли слово в восемнадцатом или девятнадцатом веке и оба упростили двойное P итальянского написания по-своему: польский оставил одно P и одно M, APARTAMENT, а русский сохранил двойное П в «апартаментах». Это общее правило: польский почти никогда не удваивает согласные в заимствованиях, тогда как русский часто сохраняет удвоение источника, и пара APARTAMENT и «апартамент» показывает это наглядно, как и KOLEKCJA рядом с «коллекцией» или ADRES рядом с «адресом»."
+memory: "Значение то же, но польский говорит в единственном и нейтрально: apartament na piątym piętrze. Обычная квартира — mieszkanie, а apartament всегда большой или гостиничный. Одно p и одно m: польский не удваивает согласные в заимствованиях, как adres против «адреса». В местном t→c: w apartamencie, как namiot/namiocie и krawat/krawacie."
+idioms:
+  - { pl: "wynająć apartament", ru: "снять апартамент" }
+  - { pl: "apartament hotelowy", ru: "номер-люкс" }
+formExamples:
+  - form: "apartamencie"
+    pl: "W apartamencie było ciepło nawet w styczniu."
+    ru: "В апартаменте было тепло даже в январе."
+    source: { kind: authored }
+  - form: "apartamencie"
+    pl: "O apartamencie dowiedzieli się od znajomych."
+    ru: "Об апартаменте они узнали от знакомых."
+    source: { kind: authored }
+  - form: "apartamencie"
+    pl: "W tym apartamencie mieszkał kiedyś pisarz."
+    ru: "В этом апартаменте когда-то жил писатель."
+    source: { kind: authored }
+  - form: "apartament"
+    pl: "Apartament miał cztery pokoje i taras."
+    ru: "Апартамент имел четыре комнаты и террасу."
+    source: { kind: authored }
+  - form: "apartament"
+    pl: "Apartament wynajęli na dwa tygodnie."
+    ru: "Апартамент сняли на две недели."
+    source: { kind: authored }
+  - form: "apartament"
+    pl: "Apartament w centrum kosztuje krocie."
+    ru: "Апартамент в центре стоит огромных денег."
+    source: { kind: authored }
+  - form: "apartamentach"
+    pl: "W apartamentach mieszkali głównie cudzoziemcy."
+    ru: "В апартаментах жили в основном иностранцы."
+    source: { kind: authored }
+  - form: "apartamentach"
+    pl: "O apartamentach pisano w każdym ogłoszeniu."
+    ru: "Об апартаментах писали в каждом объявлении."
+    source: { kind: authored }
+  - form: "apartamentach"
+    pl: "Po apartamentach oprowadzał sam właściciel."
+    ru: "По апартаментам водил сам владелец."
+    source: { kind: authored }
+  - form: "apartamentami"
+    pl: "Apartamentami zarządzała osobna firma."
+    ru: "Апартаментами управляла отдельная фирма."
+    source: { kind: authored }
+  - form: "apartamentami"
+    pl: "Między apartamentami biegł długi korytarz."
+    ru: "Между апартаментами шёл длинный коридор."
+    source: { kind: authored }
+  - form: "apartamentami"
+    pl: "Z apartamentami wiązały się stałe koszty."
+    ru: "С апартаментами были связаны постоянные расходы."
+    source: { kind: authored }
+  - form: "apartamentem"
+    pl: "Z apartamentem wiązały się wysokie opłaty."
+    ru: "С апартаментом были связаны высокие платежи."
+    source: { kind: authored }
+  - form: "apartamentem"
+    pl: "Apartamentem nazywano tu każde większe mieszkanie."
+    ru: "Апартаментом здесь называли любую большую квартиру."
+    source: { kind: authored }
+  - form: "apartamentem"
+    pl: "Nad apartamentem mieszkał dozorca."
+    ru: "Над апартаментом жил сторож."
+    source: { kind: authored }
+  - form: "apartamentom"
+    pl: "Apartamentom przydzielono osobne numery."
+    ru: "Апартаментам присвоили отдельные номера."
+    source: { kind: authored }
+  - form: "apartamentom"
+    pl: "Dzięki apartamentom hotel utrzymał się w kryzysie."
+    ru: "Благодаря апартаментам отель удержался в кризис."
+    source: { kind: authored }
+  - form: "apartamentom"
+    pl: "Przyjrzyj się tym apartamentom: każdy ma inny układ."
+    ru: "Присмотрись к этим апартаментам: у каждого своя планировка."
+    source: { kind: authored }
+  - form: "apartamentowi"
+    pl: "Apartamentowi brakowało tylko windy."
+    ru: "Апартаменту не хватало только лифта."
+    source: { kind: authored }
+  - form: "apartamentowi"
+    pl: "Dzięki apartamentowi mogli przyjąć całą rodzinę."
+    ru: "Благодаря апартаменту они смогли принять всю семью."
+    source: { kind: authored }
+  - form: "apartamentowi"
+    pl: "Przyjrzyj się temu apartamentowi: okna wychodzą na dwie strony."
+    ru: "Присмотрись к этому апартаменту: окна выходят на две стороны."
+    source: { kind: authored }
+  - form: "apartamentu"
+    pl: "Bez apartamentu nie mieliby gdzie przyjąć gości."
+    ru: "Без апартамента им негде было бы принять гостей."
+    source: { kind: authored }
+  - form: "apartamentu"
+    pl: "Do apartamentu wchodziło się osobnym wejściem."
+    ru: "В апартамент входили через отдельный вход."
+    source: { kind: authored }
+  - form: "apartamentu"
+    pl: "Klucz od apartamentu zgubili pierwszego dnia."
+    ru: "Ключ от апартамента они потеряли в первый день."
+    source: { kind: authored }
+  - form: "apartamenty"
+    pl: "Apartamenty na ostatnim piętrze sprzedano najpierw."
+    ru: "Апартаменты на последнем этаже продали первыми."
+    source: { kind: authored }
+  - form: "apartamenty"
+    pl: "Apartamenty różniły się tylko widokiem."
+    ru: "Апартаменты различались только видом."
+    source: { kind: authored }
+  - form: "apartamenty"
+    pl: "Apartamenty wynajmowano turystom."
+    ru: "Апартаменты сдавали туристам."
+    source: { kind: authored }
+  - form: "apartamentów"
+    pl: "Apartamentów w tym budynku jest dwanaście."
+    ru: "Апартаментов в этом здании двенадцать."
+    source: { kind: authored }
+  - form: "apartamentów"
+    pl: "Bez apartamentów hotel nie przyciągnąłby gości."
+    ru: "Без апартаментов отель не привлёк бы гостей."
+    source: { kind: authored }
+  - form: "apartamentów"
+    pl: "Do apartamentów prowadziła osobna klatka schodowa."
+    ru: "В апартаменты вела отдельная лестница."
+    source: { kind: authored }
