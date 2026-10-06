@@ -866,6 +866,48 @@ exclude:
   - is
   # śpieszyć — wariant ortograficzny skarconego spieszyć
   - spieszyc-2
+  # ów — ta sama lema co skarcone ow, zapisana bez diakrytyku; karta ow publikuje już formy ów, owa, owego
+  - ow-2
+  # +że — ta sama lema co skarcone ze, z notacją klityki; karta ze publikuje już formę że
+  - ze-part
+  # poglądy — tylko formy mnogie karty poglad
+  - poglady
+  # zioła — tylko formy mnogie karty ziolo
+  - ziola
+  # nasze — forma zaimka nasz; szkic błędnie oznaczony jako noun
+  - nasze
+  # prawa — forma rzeczownika prawo (oraz przymiotnika prawy); obie lemy mają już karty
+  - prawa
+  # dziwna — forma żeńska przymiotnika dziwny; szkic błędnie oznaczony jako part
+  - dziwna
+  # jej — forma zaimka trzeciej osoby (karta on); szkic błędnie oznaczony jako interj
+  - jej
+  # nim — forma zaimka trzeciej osoby (karta on); szkic błędnie oznaczony jako conj
+  - nim
+  # powszechnia — taki rzeczownik nie istnieje; prawdziwe lemy to powszechny i powszechnie
+  - powszechnia
+  # kina — szkic miesza paradygmat żeński (kiny, kinę) ze średnim (kino, kin); prawdziwa lema to kino
+  - kina
+  # Afryka — nazwa kontynentu
+  - afryka
+  # Kalifornia — nazwa stanu
+  - kalifornia
+  # Vincent — imię własne
+  - vincent
+  # Boston — nazwa miasta
+  - boston
+  # Jordan — nazwa rzeki i imię własne
+  - jordan
+  # Liza — imię własne
+  - liza
+  # Spencer — nazwisko oraz nazwa części ubioru
+  - spencer
+  # bell — angielski wyraz z korpusu, nie polska lema
+  - bell
+  # man — angielski wyraz z korpusu, nie polska lema
+  - man
+  # for — angielski wyraz z korpusu, nie polska lema
+  - for
 excludeNotes:
   # Machine-readable reason per exclusion; the evidence prose stays in the comments
   # above each id in the exclude list. form-of and variant-of name the card that owns
@@ -1091,6 +1133,27 @@ excludeNotes:
   lucas: { why: proper-noun }
   is: { why: not-a-lemma }
   spieszyc-2: { why: variant-of, see: spieszyc }
+  ow-2: { why: variant-of, see: ow }
+  ze-part: { why: variant-of, see: ze }
+  poglady: { why: form-of, see: poglad }
+  ziola: { why: form-of, see: ziolo }
+  nasze: { why: form-of, see: nasz }
+  prawa: { why: form-of, see: prawo }
+  dziwna: { why: form-of, see: dziwny }
+  jej: { why: form-of, see: on }
+  nim: { why: form-of, see: on }
+  powszechnia: { why: not-a-lemma }
+  kina: { why: not-a-lemma }
+  afryka: { why: proper-noun }
+  kalifornia: { why: proper-noun }
+  vincent: { why: proper-noun }
+  boston: { why: proper-noun }
+  jordan: { why: proper-noun }
+  liza: { why: proper-noun }
+  spencer: { why: proper-noun }
+  bell: { why: foreign }
+  man: { why: foreign }
+  for: { why: foreign }
 pos:
   # Wiktionary lists these lemmas under a different part of speech than the one
   # that makes them frequent: "do" as the solmization syllable, "no" as a noun.
