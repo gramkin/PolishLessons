@@ -918,10 +918,6 @@ exclude:
   - rodzica
   # king — angielski wyraz z korpusu, nie polska lema; generator dorobił mu dziewięć form odmiany, ale to ten sam przypadek co bell, man i for
   - king
-  # biga — PoliMorf daje jej pełny paradygmat subst:14, ale żadna inna lema nie ma formy biga w swojej odmianie: wpis powstał z formy, której lematyzator nie umiał przypisać. Prawdziwy wyraz o tym kształcie to bigos, z własnym paradygmatem
-  - biga
-  # barta — ten sam przypadek co biga: pełny paradygmat bez żadnej lemy, która by tę formę zawierała; artefakt lematyzacji, nie lema
-  - barta
   # college — angielski wyraz z korpusu; generator odmienia go z apostrofem (college'ach, college'ow), czego aparat kart nie obsluguje, a i sama lema nie jest polska
   - college
   # york — nazwa miasta, ten sam przypadek co boston i jordan
@@ -1179,8 +1175,6 @@ excludeNotes:
   mniej: { why: form-of, see: malo }
   rodzica: { why: not-a-lemma }
   king: { why: foreign }
-  biga: { why: not-a-lemma }
-  barta: { why: not-a-lemma }
   college: { why: foreign }
   york: { why: proper-noun }
   uslugi: { why: form-of, see: usluga }
