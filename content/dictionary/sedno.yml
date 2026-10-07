@@ -1,0 +1,113 @@
+# review
+id: sedno
+format: 2
+lemma: "sedno"
+rank: 4038
+pos: noun
+pron: { cyr: "сэ́дно" }
+senses:
+  - id: crux
+    ru: "суть, сущность"
+    examples:
+      - pl: "Sedno sprawy leży w pieniądzach."
+        ru: "Суть дела в деньгах."
+        source: { kind: authored }
+      - pl: "Dotarł do sedna po godzinie rozmowy."
+        ru: "Он дошёл до сути после часа разговора."
+        source: { kind: authored }
+      - pl: "To nie jest sedno, to szczegół."
+        ru: "Это не суть, это деталь."
+        source: { kind: authored }
+  - id: point
+    ru: "самое главное, то, во что попадают"
+    examples:
+      - pl: "Trafił w sedno jednym zdaniem."
+        ru: "Он попал в точку одной фразой."
+        source: { kind: authored }
+      - pl: "W sednie tej książki jest jedno pytanie."
+        ru: "В сути этой книги один вопрос."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "В русском есть слово «седно», но это ложный друг и к польскому отношения не имеет: у нас так называют потёртость на спине лошади от седла, слово областное и редкое. Польское SEDNO значит «суть, сущность», и переводить его надо словом «суть». Обратите внимание и на то, что в отличие от русской «сути» слово SEDNO среднего рода, а не женского." }
+  - { kind: usage, text: "Девять форм в таблице, но живых пять, и все они единственного числа. Множественное число — SEDN, SEDNACH, SEDNAMI, SEDNOM — существует формально, по образцу всех средних на -O, но его не говорят, поэтому примеров к этим формам в карточке нет. А вот форма SEDNA, которая по виду похожа на множественное, это родительный единственного, и она как раз самая частая из всех: DO SEDNA SPRAWY." }
+  - { kind: government, text: "Самое важное здесь — два разных падежа при одном и том же предлоге W. Попасть в точку — TRAFIĆ W SEDNO, винительный, потому что есть движение внутрь. А «по сути» — W SEDNIE, местный падеж, потому что движения нет. Дойти до сути — DOTRZEĆ DO SEDNA, предлог DO с родительным. Быть сутью — BYĆ SEDNEM, творительный без предлога, как и в русском «быть сутью дела»." }
+  - { kind: pronunciation, text: "Читается «сэ́дно», два слога, ударение на первом. Буква S перед E остаётся твёрдой, и E даёт «э», поэтому первый слог это «сэ», а не «се». Сочетание DN произносится полностью, без выпадения: «сэ́д-но». В форме SEDNIE буква N смягчается перед I и слово звучит «сэ́дне», а в SEDNEM — «сэ́днэм», с твёрдым «нэ»." }
+  - { kind: register, text: "Слово нейтральное, но чаще встречается в письменной и обдуманной речи: в статьях, в спорах, на совещаниях. Оборот TRAFIĆ W SEDNO «попасть в точку» зато вполне разговорный, его можно услышать в любой беседе. А SEDNO SPRAWY настолько привычно, что звучит почти как одно слово, и именно в таком виде его стоит запомнить." }
+collocations:
+  - { pl: "sedno sprawy", ru: "суть дела" }
+  - { pl: "dotrzeć do sedna", ru: "дойти до сути" }
+  - { pl: "sedno problemu", ru: "суть проблемы" }
+family:
+  - { pl: "siedziec", ru: "сидеть", relation: root, id: siedziec }
+  - { pl: "osad", ru: "осадок, отстой", relation: root }
+  - { pl: "siodlo", ru: "седло", relation: root }
+etymology: "По наиболее принятому объяснению слово восходит к праславянскому корню со значением «сидеть, садиться», тому же, что дал SIEDZIEĆ, SIODŁO и OSAD. Образ таков: суть это то, что осело на дно, самое плотное и главное, когда всё лишнее сверху ушло. Полной уверенности у этимологов нет, встречается и другое объяснение, связывающее слово с «дном». Для запоминания важнее сам образ осадка: то, что осталось на дне дела."
+memory: "Значит «суть», и запоминать лучше через образ: то, что осело на дно, когда всё лишнее сверху ушло. Отсюда и родство с siedziec, siodlo, osad. Читается «сэ́дно», с твёрдым «сэ». Два оборота стоит заучить целиком: sedno sprawy «суть дела» и trafic w sedno «попасть в точку». И не путайте с русским областным «седно», потёртостью от седла, это совсем другое слово."
+idioms:
+  - { pl: "trafić w sedno", ru: "попасть в точку" }
+formExamplesSkip:
+  - { form: "sedn", reason: "родительный множественного; у слова нет живого множественного числа" }
+  - { form: "sednach", reason: "местный множественного; у слова нет живого множественного числа" }
+  - { form: "sednami", reason: "творительный множественного; у слова нет живого множественного числа" }
+  - { form: "sednom", reason: "дательный множественного; у слова нет живого множественного числа" }
+formExamples:
+  - form: "sedna"
+    pl: "Dotarliśmy w końcu do sedna problemu."
+    ru: "Мы наконец дошли до сути проблемы."
+    source: { kind: authored }
+  - form: "sedna"
+    pl: "Bez sedna cała dyskusja traci sens."
+    ru: "Без сути вся дискуссия теряет смысл."
+    source: { kind: authored }
+  - form: "sedna"
+    pl: "Nikt nie dotknął sedna tej kwestii."
+    ru: "Никто не коснулся сути этого вопроса."
+    source: { kind: authored }
+  - form: "sednem"
+    pl: "Pieniądze okazały się sednem konfliktu."
+    ru: "Деньги оказались сутью конфликта."
+    source: { kind: authored }
+  - form: "sednem"
+    pl: "Nie forma, lecz treść jest sednem tej książki."
+    ru: "Не форма, а содержание — суть этой книги."
+    source: { kind: authored }
+  - form: "sednem"
+    pl: "Zajmijmy się sednem, a nie szczegółami."
+    ru: "Займёмся сутью, а не подробностями."
+    source: { kind: authored }
+  - form: "sednie"
+    pl: "W sednie sprawy zgadzamy się całkowicie."
+    ru: "В сути дела мы согласны полностью."
+    source: { kind: authored }
+  - form: "sednie"
+    pl: "O sednie sporu nikt nie wspomniał ani słowem."
+    ru: "О сути спора никто не упомянул ни словом."
+    source: { kind: authored }
+  - form: "sednie"
+    pl: "Rzecz tkwi w sednie, nie w formie."
+    ru: "Дело в сути, а не в форме."
+    source: { kind: authored }
+  - form: "sedno"
+    pl: "Sedno sprawy jest zupełnie inne, niż się wydaje."
+    ru: "Суть дела совсем не такая, как кажется."
+    source: { kind: authored }
+  - form: "sedno"
+    pl: "To jest sedno całego sporu."
+    ru: "В этом суть всего спора."
+    source: { kind: authored }
+  - form: "sedno"
+    pl: "Trafiłeś w sedno jednym pytaniem."
+    ru: "Ты попал в точку одним вопросом."
+    source: { kind: authored }
+  - form: "sednu"
+    pl: "Sednu wywodu brakowało jasności."
+    ru: "Сути рассуждения не хватало ясности."
+    source: { kind: authored }
+  - form: "sednu"
+    pl: "Przyjrzyjmy się sednu tego zarzutu."
+    ru: "Присмотримся к сути этого обвинения."
+    source: { kind: authored }
+  - form: "sednu"
+    pl: "Całą uwagę poświęcono sednu sprawy."
+    ru: "Всё внимание посвятили сути дела."
+    source: { kind: authored }
