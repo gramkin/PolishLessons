@@ -1,0 +1,168 @@
+# review
+id: przesylka
+format: 2
+lemma: "przesyłka"
+rank: 3918
+pos: noun
+pron: { cyr: "пшэсы́ука" }
+senses:
+  - id: postal-item
+    ru: "почтовое отправление, посылка"
+    examples:
+      - pl: "Przesyłka polecona wymaga podpisu."
+        ru: "Заказное письмо требует подписи."
+        source: { kind: authored }
+      - pl: "Przesyłkę odebrał na poczcie."
+        ru: "Посылку он получил на почте."
+        source: { kind: authored }
+      - pl: "Przesyłka listowa dotarła po tygodniu."
+        ru: "Письмо дошло через неделю."
+        source: { kind: authored }
+  - id: shipping
+    ru: "пересылка, отправка"
+    examples:
+      - pl: "Koszt przesyłki pokrywa sprzedawca."
+        ru: "Стоимость пересылки покрывает продавец."
+        source: { kind: authored }
+      - pl: "W przesyłkach zagranicznych bywają cła."
+        ru: "В заграничных отправлениях бывают пошлины."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "Русская «посылка» это только пакет или ящик. Польская PRZESYŁKA покрывает любое почтовое отправление: PRZESYŁKA LISTOWA это письмо, PRZESYŁKA POLECONA — заказное письмо, PRZESYŁKA KURIERSKA — курьерская доставка. То есть на польской почте PRZESYŁKA это общее слово, а если нужна именно посылка, ящик, её называют PACZKA. Спросив о PRZESYŁKA, вы спросите обо всём сразу." }
+  - { kind: usage, text: "Десять форм, женский род. В дательном и местном падежах K переходит в C: PRZESYŁKA, но W PRZESYŁCE. В родительном множественного появляется беглое E: PRZESYŁEK. Главное сочетание — PRZESYŁKA POLECONA, и именно его спрашивают на почте, когда нужна расписка получателя." }
+  - { kind: government, text: "Получить посылку — ODEBRAĆ PRZESYŁKĘ, винительный без предлога. Стоимость пересылки — KOSZT PRZESYŁKI, родительный. За пересылку — ZA PRZESYŁKĘ, предлог ZA с винительным, и так пишут в объявлениях: CENA PLUS KOSZT PRZESYŁKI. В отправлении — W PRZESYŁCE, местный с переходом K в C." }
+  - { kind: pronunciation, text: "Читается «пшэсы́ука», четыре слога, ударение на предпоследнем. Сочетание PRZ даёт «пш», без всякого «р». Буква Y даёт «ы», а Ł — «у», поэтому третий слог это «сы», а четвёртый начинается с «у». В форме PRZESYŁCE сочетание ŁC даёт «уц»: «пшэсы́уце»." }
+  - { kind: register, text: "Слово почтовое и торговое. На почте пишут PRZESYŁKA POLECONA и PRZESYŁKA PRIORYTETOWA, в интернет-торговле — KOSZT PRZESYŁKI, и это первое, что ищут в объявлении. Глагол того же гнезда, PRZESŁAĆ, значит «переслать» и годится и для посылки, и для письма, и для файла." }
+collocations:
+  - { pl: "przesyłka pocztowa", ru: "почтовое отправление" }
+  - { pl: "odebrać przesyłkę", ru: "получить посылку" }
+  - { pl: "koszt przesyłki", ru: "стоимость пересылки" }
+family:
+  - { pl: "przeslac", ru: "переслать", relation: root, id: przeslac }
+  - { pl: "posylac", ru: "посылать", relation: root }
+  - { pl: "przesylanie", ru: "пересылка, передача", relation: derived }
+etymology: "От глагола PRZESŁAĆ, от приставки PRZE- и корня SŁAĆ «слать», праславянского и того же, что русские «слать» и «посылать». Русская «посылка» собрана из того же корня, только с приставкой «по-», а польская с PRZE-. Отсюда и разница в широте: наше слово закрепилось за ящиком, польское осталось при всяком пересылании, от письма до файла."
+memory: "Любое почтовое отправление, а не только посылка: przesylka listowa это письмо, а ящик называется paczka. Слово собрано как наша «посылка», от того же корня slac, только с приставкой prze- вместо «по-». Читается «пшэсы́ука», где prz даёт «пш», а l со штрихом — «у». Главное сочетание — przesylka polecona, «заказное письмо»."
+idioms:
+  - { pl: "przesyłka polecona", ru: "заказное письмо" }
+formExamples:
+  - form: "przesyłce"
+    pl: "W przesyłce było tylko puste pudełko."
+    ru: "В отправлении была только пустая коробка."
+    source: { kind: authored }
+  - form: "przesyłce"
+    pl: "O przesyłce zawiadomili zwykłym listem."
+    ru: "Об отправлении уведомили обычным письмом."
+    source: { kind: authored }
+  - form: "przesyłce"
+    pl: "Przyjrzyj się tej przesyłce przed otwarciem."
+    ru: "Присмотрись к этому отправлению перед вскрытием."
+    source: { kind: authored }
+  - form: "przesyłek"
+    pl: "Kilka przesyłek zaginęło w jednym tygodniu."
+    ru: "Несколько отправлений пропало за одну неделю."
+    source: { kind: authored }
+  - form: "przesyłek"
+    pl: "Bez przesyłek poczta by w ogóle nie istniała."
+    ru: "Без отправлений почты бы вовсе не существовало."
+    source: { kind: authored }
+  - form: "przesyłek"
+    pl: "Rejestr przesyłek prowadzi sam urząd."
+    ru: "Реестр отправлений ведёт сама контора."
+    source: { kind: authored }
+  - form: "przesyłka"
+    pl: "Przesyłka dotarła dopiero po trzech dniach."
+    ru: "Отправление дошло только через три дня."
+    source: { kind: authored }
+  - form: "przesyłka"
+    pl: "Przesyłka pocztowa zaginęła gdzieś w drodze."
+    ru: "Почтовое отправление пропало где-то в пути."
+    source: { kind: authored }
+  - form: "przesyłka"
+    pl: "Przesyłka priorytetowa idzie dzień krócej."
+    ru: "Приоритетное отправление идёт на день быстрее."
+    source: { kind: authored }
+  - form: "przesyłkach"
+    pl: "O przesyłkach poleconych mówi osobny regulamin."
+    ru: "О заказных отправлениях говорит отдельный регламент."
+    source: { kind: authored }
+  - form: "przesyłkach"
+    pl: "Na przesyłkach nakleja się kod kreskowy."
+    ru: "На отправления наклеивают штрихкод."
+    source: { kind: authored }
+  - form: "przesyłkach"
+    pl: "W tych przesyłkach nie było niczego cennego."
+    ru: "В этих отправлениях не было ничего ценного."
+    source: { kind: authored }
+  - form: "przesyłkami"
+    pl: "Między przesyłkami a paczkami urząd robi różnicę."
+    ru: "Между отправлениями и посылками контора делает различие."
+    source: { kind: authored }
+  - form: "przesyłkami"
+    pl: "Z przesyłkami zagranicznymi trwa to znacznie dłużej."
+    ru: "С заграничными отправлениями это длится значительно дольше."
+    source: { kind: authored }
+  - form: "przesyłkami"
+    pl: "Nad przesyłkami czuwa osobny dział poczty."
+    ru: "За отправлениями следит отдельный отдел почты."
+    source: { kind: authored }
+  - form: "przesyłki"
+    pl: "Bez przesyłki nie dostaniesz żadnego zwrotu."
+    ru: "Без отправления ты не получишь никакого возврата."
+    source: { kind: authored }
+  - form: "przesyłki"
+    pl: "Do przesyłki dołączyli fakturę i gwarancję."
+    ru: "К отправлению приложили счёт и гарантию."
+    source: { kind: authored }
+  - form: "przesyłki"
+    pl: "Numer przesyłki zapisał na dłoni."
+    ru: "Номер отправления он записал на ладони."
+    source: { kind: authored }
+  - form: "przesyłko"
+    pl: "Przesyłko długo wyczekiwana, wreszcie jesteś."
+    ru: "Отправление долгожданное, ты наконец здесь."
+    source: { kind: authored }
+  - form: "przesyłko"
+    pl: "O przesyłko zagubiona, gdzie się podziałaś."
+    ru: "О отправление потерянное, куда ты подевалось."
+    source: { kind: authored }
+  - form: "przesyłko"
+    pl: "Przesyłko droga, ileś mnie kosztowałaś."
+    ru: "Отправление дорогое, сколько ты мне стоило."
+    source: { kind: authored }
+  - form: "przesyłkom"
+    pl: "Przesyłkom poleconym nadaje się własny numer."
+    ru: "Заказным отправлениям присваивают свой номер."
+    source: { kind: authored }
+  - form: "przesyłkom"
+    pl: "Dzięki przesyłkom nikt nie musi jechać do miasta."
+    ru: "Благодаря отправлениям никому не нужно ехать в город."
+    source: { kind: authored }
+  - form: "przesyłkom"
+    pl: "Przesyłkom tym brakuje adresu zwrotnego."
+    ru: "Этим отправлениям не хватает обратного адреса."
+    source: { kind: authored }
+  - form: "przesyłką"
+    pl: "Z przesyłką przyszedł nowy listonosz."
+    ru: "С отправлением пришёл новый почтальон."
+    source: { kind: authored }
+  - form: "przesyłką"
+    pl: "Pod przesyłką leżało wczorajsze awizo."
+    ru: "Под отправлением лежало вчерашнее извещение."
+    source: { kind: authored }
+  - form: "przesyłką"
+    pl: "Między przesyłką a listem jest różnica w opłacie."
+    ru: "Между отправлением и письмом разница в оплате."
+    source: { kind: authored }
+  - form: "przesyłkę"
+    pl: "Przesyłkę nadał jeszcze w poniedziałek."
+    ru: "Отправление он сдал ещё в понедельник."
+    source: { kind: authored }
+  - form: "przesyłkę"
+    pl: "Nową przesyłkę wysłali na inny adres."
+    ru: "Новое отправление послали на другой адрес."
+    source: { kind: authored }
+  - form: "przesyłkę"
+    pl: "Przesyłkę zwrócono do nadawcy."
+    ru: "Отправление вернули отправителю."
+    source: { kind: authored }
