@@ -1,0 +1,57 @@
+# review
+id: kilo
+format: 2
+lemma: "kilo"
+rank: 3636
+pos: noun
+pron: { cyr: "ки́ло" }
+senses:
+  - id: kilogram
+    ru: "кило, килограмм"
+    examples:
+      - pl: "Ile kosztuje kilo truskawek?"
+        ru: "Сколько стоит кило клубники?"
+        source: { kind: authored }
+      - pl: "Kup dwa kilo ziemniaków."
+        ru: "Купи два кило картошки."
+        source: { kind: authored }
+      - pl: "Schudła pięć kilo."
+        ru: "Она похудела на пять кило."
+        source: { kind: authored }
+      - pl: "Ta walizka waży dwadzieścia kilo."
+        ru: "Этот чемодан весит двадцать кило."
+        source: { kind: authored }
+      - pl: "Na kilo mąki trzeba dodać litr wody."
+        ru: "На кило муки нужно добавить литр воды."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "KILO — разговорное «кило», как и в русском. Отличие в склонении полного слова: KILOGRAM меняется по числам, DWA KILOGRAMY, PIĘĆ KILOGRAMÓW, а KILO не меняется никогда: DWA KILO, PIĘĆ KILO." }
+  - { kind: usage, text: "Существительное среднего рода, несклоняемое. Похудеть на пять кило — SCHUDNĄĆ PIĘĆ KILO, без предлога, где в русском «на». Пол-кило — PÓŁ KILO." }
+  - { kind: government, text: "Чего кило — родительный падеж, как в русском: KILO JABŁEK, PÓŁ KILO SERA." }
+  - { kind: pronunciation, text: "Читается «ки́ло», ударение на первом слоге. LO — твёрдое «ло»." }
+  - { kind: register, text: "Слово разговорное и рыночное. На ценниках и в документах пишут KG или KILOGRAM." }
+collocations:
+  - { pl: "pół kilo", ru: "полкило" }
+  - { pl: "kilo jabłek", ru: "кило яблок" }
+  - { pl: "przytyć kilo", ru: "поправиться на кило" }
+family:
+  - { pl: "kilogram", ru: "килограмм", relation: root }
+  - { pl: "gram", ru: "грамм", relation: root }
+  - { pl: "kilometr", ru: "километр", relation: root, id: kilometr }
+etymology: "Сокращение от KILOGRAM. Приставка KILO- — из греческого слова «тысяча»: KILOGRAM — тысяча граммов, KILOMETR — тысяча метров."
+memory: "Kilo — кило, не склоняется: dwa kilo, pięć kilo. Kilogram склоняется: pięć kilogramów. Schudnąć pięć kilo — похудеть на пять кило, без «na»."
+idioms:
+  - { pl: "zrzucić kilka kilo", ru: "сбросить пару кило" }
+formExamples:
+  - form: "kilo"
+    pl: "Kilo pomidorów kosztuje dziesięć złotych."
+    ru: "Кило помидоров стоит десять злотых."
+    source: { kind: authored }
+  - form: "kilo"
+    pl: "Poproszę pół kilo sera."
+    ru: "Мне полкило сыра, пожалуйста."
+    source: { kind: authored }
+  - form: "kilo"
+    pl: "Przytyłem dwa kilo na wakacjach."
+    ru: "За отпуск я поправился на два кило."
+    source: { kind: authored }
