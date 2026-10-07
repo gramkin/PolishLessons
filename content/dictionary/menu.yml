@@ -1,0 +1,59 @@
+# review
+id: menu
+format: 2
+lemma: "menu"
+rank: 4060
+pos: noun
+pron: { cyr: "мэ́ну" }
+senses:
+  - id: menu
+    ru: "меню (в ресторане)"
+    examples:
+      - pl: "Kelner przyniósł menu."
+        ru: "Официант принёс меню."
+        source: { kind: authored }
+      - pl: "W menu są tylko dania wegetariańskie."
+        ru: "В меню только вегетарианские блюда."
+        source: { kind: authored }
+      - pl: "Czy mogę prosić o menu?"
+        ru: "Можно меню, пожалуйста?"
+        source: { kind: authored }
+  - id: screen
+    ru: "меню (в программе, на экране)"
+    examples:
+      - pl: "Kliknij „Plik” w menu."
+        ru: "Нажми «Файл» в меню."
+        source: { kind: authored }
+      - pl: "Menu telefonu jest po polsku."
+        ru: "Меню телефона на польском."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "MENU — «меню», но в ресторане в Польше часто говорят KARTA: POPROSZĘ KARTĘ. Блюдо дня, бизнес-ланч — DANIE DNIA, ZESTAW DNIA. MENU DEGUSTACYJNE — дегустационное меню." }
+  - { kind: usage, text: "Средний род, не склоняется: TO MENU, W MENU, Z MENU. Прилагательные — в среднем роде: NOWE MENU." }
+  - { kind: government, text: "В меню — W MENU, местный, форма та же. Выбрать из меню — WYBRAĆ Z MENU. Попросить меню — PROSIĆ O MENU, O с винительным." }
+  - { kind: pronunciation, text: "Читается «мэ́ну»: E — твёрдое «э», а U на конце — «у», не французское «ю». Ударение на первом слоге." }
+collocations:
+  - { pl: "menu dnia", ru: "меню дня" }
+  - { pl: "menu dla dzieci", ru: "детское меню" }
+  - { pl: "wybrać z menu", ru: "выбрать из меню" }
+family:
+  - { pl: "karta", ru: "карта, меню", relation: root, id: karta }
+  - { pl: "restauracja", ru: "ресторан", relation: root, id: restauracja }
+  - { pl: "kelner", ru: "официант", relation: root, id: kelner }
+etymology: "Из французского MENU «подробный список», от латинского MINUTUS «мелкий». Русское «меню» взято тем же путём, но польское читается с «у»."
+memory: "Menu — меню, читается «мэ́ну», не склоняется. W menu — в меню. В ресторане чаще говорят karta."
+idioms:
+  - { pl: "menu do wyboru", ru: "выбор блюд, богатое меню" }
+formExamples:
+  - form: "menu"
+    pl: "Menu zmienia się co sezon."
+    ru: "Меню меняется каждый сезон."
+    source: { kind: authored }
+  - form: "menu"
+    pl: "Przejrzał menu i zamówił zupę."
+    ru: "Он просмотрел меню и заказал суп."
+    source: { kind: authored }
+  - form: "menu"
+    pl: "W tym menu nie ma nic dla wegan."
+    ru: "В этом меню нет ничего для веганов."
+    source: { kind: authored }
