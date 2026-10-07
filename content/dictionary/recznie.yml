@@ -1,0 +1,59 @@
+# review
+id: recznie
+format: 2
+lemma: "ręcznie"
+rank: 5255
+pos: adv
+pron: { cyr: "рэ́нчне" }
+senses:
+  - id: by-hand
+    ru: "вручную"
+    examples:
+      - pl: "Bramę trzeba otwierać ręcznie."
+        ru: "Ворота приходится открывать вручную."
+        source: { kind: authored }
+      - pl: "Dane wpisano ręcznie do tabeli."
+        ru: "Данные внесли в таблицу вручную."
+        source: { kind: authored }
+      - pl: "Zmywam naczynia ręcznie."
+        ru: "Я мою посуду руками."
+        source: { kind: authored }
+  - id: handmade
+    ru: "ручной работы"
+    examples:
+      - pl: "Te buty są szyte ręcznie."
+        ru: "Эти туфли сшиты вручную."
+        source: { kind: authored }
+      - pl: "Kupiła ręcznie robioną biżuterię."
+        ru: "Она купила украшения ручной работы."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "RĘCZNIE — «вручную», от RĘKA «рука». Главная ловушка — в родне: RĘCZNIK — это «полотенце», а не «ручник». Ручной тормоз — HAMULEC RĘCZNY, в разговоре просто RĘCZNY." }
+  - { kind: usage, text: "Наречие, одна форма, без степеней. Часто с причастиями: RĘCZNIE ROBIONY, RĘCZNIE MALOWANY, RĘCZNIE SZYTY. Прилагательное — RĘCZNY: PRANIE RĘCZNE, «ручная стирка»." }
+  - { kind: government, text: "Наречие ничем не управляет. Противоположность — MASZYNOWO или AUTOMATYCZNIE: PRAĆ RĘCZNIE ALBO W PRALCE." }
+  - { kind: pronunciation, text: "Читается «рэ́нчне», ударение на первом слоге. Ę перед CZ звучит «эн», RE — твёрдое «рэ»." }
+collocations:
+  - { pl: "prać ręcznie", ru: "стирать вручную" }
+  - { pl: "ręcznie robiony", ru: "ручной работы" }
+  - { pl: "ręcznie malowany", ru: "расписанный вручную" }
+family:
+  - { pl: "ręka", ru: "рука", relation: root, id: reka }
+  - { pl: "ręczny", ru: "ручной", relation: root }
+  - { pl: "ręcznik", ru: "полотенце", relation: root, id: recznik }
+etymology: "От RĘCZNY «ручной», а то — от RĘKA «рука». Польское Ę на месте русского «у»: RĘKA — «рука». K перед суффиксом переходит в CZ, как в русском «рука — ручной»."
+memory: "Ręcznie — вручную: ręka «рука». Читается «рэ́нчне». Ręcznie robiony — ручной работы. Ręcznik — полотенце, не «ручник»."
+idioms:
+  - { pl: "mieć złote ręce", ru: "иметь золотые руки" }
+formExamples:
+  - form: "ręcznie"
+    pl: "Ten sweter trzeba prać ręcznie."
+    ru: "Этот свитер нужно стирать вручную."
+    source: { kind: authored }
+  - form: "ręcznie"
+    pl: "Wszystkie talerze są malowane ręcznie."
+    ru: "Все тарелки расписаны вручную."
+    source: { kind: authored }
+  - form: "ręcznie"
+    pl: "Kiedyś liczono wszystko ręcznie."
+    ru: "Когда-то всё считали вручную."
+    source: { kind: authored }
