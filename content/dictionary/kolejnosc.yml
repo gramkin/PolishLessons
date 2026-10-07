@@ -1,0 +1,120 @@
+# review
+id: kolejnosc
+format: 2
+lemma: "kolejność"
+rank: 4416
+pos: noun
+pron: { cyr: "коле́йносьчь" }
+senses:
+  - id: order-sequence
+    ru: "порядок, очерёдность"
+    examples:
+      - pl: "Kolejność wystąpień ustalono wcześniej."
+        ru: "Порядок выступлений установили заранее."
+        source: { kind: authored }
+      - pl: "Nazwiska wypisano w kolejności alfabetycznej."
+        ru: "Фамилии выписали в алфавитном порядке."
+        source: { kind: authored }
+      - pl: "Zmienili kolejność w ostatniej chwili."
+        ru: "Они изменили порядок в последний момент."
+        source: { kind: authored }
+  - id: priority-queue
+    ru: "очерёдность, последовательность"
+    examples:
+      - pl: "Przyjmujemy według kolejności zgłoszeń."
+        ru: "Мы принимаем по порядку заявок."
+        source: { kind: authored }
+      - pl: "W odwrotnej kolejności wygląda to inaczej."
+        ru: "В обратном порядке это выглядит иначе."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "За этим словом стоит KOLEJ, у которого два значения, и оба русскому знакомы по разным словам. KOLEJ значит «очередь»: TERAZ MOJA KOLEJ — «теперь моя очередь». И то же слово значит «железная дорога»: JECHAĆ KOLEJĄ — «ехать поездом», KOLEJ WARSZAWSKA. Русское «колея» того же корня, но сохранило только второй, вещественный смысл, рельсовый путь. Так что увидев KOLEJ, надо смотреть на контекст: это либо очередь, либо железная дорога." }
+  - { kind: usage, text: "Шесть форм, разряд женских существительных на -OŚĆ, где суффикс отвечает русскому -ОСТЬ. Множественное число употребляется редко, потому что слово обозначает отвлечённый порядок, а не отдельные предметы. Важнее другое производное того же корня: KOLEJNY значит «следующий, очередной», и это одно из самых частых польских прилагательных: KOLEJNY RAZ «очередной раз», KOLEJNA PRÓBA «следующая попытка». Переводить его как «колейный» нельзя ни в каком случае." }
+  - { kind: government, text: "В каком порядке — предлог W с предложным: W KOLEJNOŚCI ALFABETYCZNEJ «в алфавитном порядке», W ODWROTNEJ KOLEJNOŚCI «в обратном порядке», как и по-русски. По порядку чего — предлог WEDŁUG с родительным: WEDŁUG KOLEJNOŚCI ZGŁOSZEŃ «по порядку заявок», тогда как русский обходится предлогом «по» с дательным. Изменить порядок — ZMIENIĆ KOLEJNOŚĆ, винительный без предлога." }
+  - { kind: pronunciation, text: "Читается «коле́йносьчь», три слога, ударение на втором, то есть на предпоследнем. Сочетание EJ звучит как «эй», поэтому середина слова «лей». Буква O в начале читается как «о», без всякого носового оттенка. Конец слова, -ŚĆ, это два мягких звука подряд, «сьчь», слитно и без гласной между ними. В слове KOLEJ слышно «ко́лей», с ударением на первом слоге." }
+  - { kind: register, text: "Слово нейтральное, частое в объявлениях, регламентах и очередях. Частые обороты: W KOLEJNOŚCI ALFABETYCZNEJ, WEDŁUG KOLEJNOŚCI ZGŁOSZEŃ «по порядку заявок», W ODWROTNEJ KOLEJNOŚCI «в обратном порядке», ZMIENIĆ KOLEJNOŚĆ. В живой очереди скажут проще, через KOLEJ: CZYJA KOLEJ «чья очередь», STAĆ W KOLEJCE «стоять в очереди», где KOLEJKA — уменьшительное и означает именно очередь людей." }
+collocations:
+  - { pl: "w odwrotnej kolejności", ru: "в обратном порядке" }
+  - { pl: "według kolejności zgłoszeń", ru: "по порядку заявок" }
+  - { pl: "zmienić kolejność", ru: "изменить порядок" }
+family:
+  - { pl: "kolej", ru: "очередь, железная дорога", relation: root, id: kolej }
+  - { pl: "kolejny", ru: "следующий, очередной", relation: derived, id: kolejny }
+  - { pl: "kolo", ru: "колесо, круг", relation: root, id: kolo }
+etymology: "От KOLEJ, а оно от KOŁO «колесо, круг», от праславянского *kolo, то есть от того же слова, что русское «колесо» и «коло». Исходный образ — поворот колеса: чья очередь, тот и на ходу. Из этого образа выросли оба значения KOLEJ: очередь, то есть поворот по кругу, и железная дорога, то есть путь для колёс. Русская «колея» того же корня, но закрепилась только за вещественным следом колеса. А для очереди русский взял совсем другой образ, «очередь» от «чередить», то есть от смены и череды."
+memory: "За словом стоит kolej с двумя значениями: «очередь» и «железная дорога», и оба из образа колеса, kolo. Русская «колея» того же корня, но только о пути. Шесть форм, суффикс -ość отвечает русскому -ость. Самое полезное производное — kolejny «следующий, очередной», kolejny raz, и переводить его как «колейный» нельзя. Поправить управление: według kolejności zgłoszeń с родительным, где русский ставит «по» с дательным. Читается «коле́йносьчь»."
+idioms:
+  - { pl: "w kolejności alfabetycznej", ru: "в алфавитном порядке" }
+formExamples:
+  - form: "kolejności"
+    pl: "Nazwiska wypisano w kolejności alfabetycznej."
+    ru: "Фамилии выписали в алфавитном порядке."
+    source: { kind: authored }
+  - form: "kolejności"
+    pl: "Przyjmujemy według kolejności zgłoszeń."
+    ru: "Мы принимаем по порядку заявок."
+    source: { kind: authored }
+  - form: "kolejności"
+    pl: "W odwrotnej kolejności wygląda to inaczej."
+    ru: "В обратном порядке это выглядит иначе."
+    source: { kind: authored }
+  - form: "kolejnościach"
+    pl: "W obu kolejnościach wynik wychodzi ten sam."
+    ru: "В обоих порядках результат выходит тот же."
+    source: { kind: authored }
+  - form: "kolejnościach"
+    pl: "O kolejnościach przy zapisach poinformowano na stronie."
+    ru: "О порядке при записи сообщили на сайте."
+    source: { kind: authored }
+  - form: "kolejnościach"
+    pl: "W tych kolejnościach nie ma żadnej logiki."
+    ru: "В этих порядках нет никакой логики."
+    source: { kind: authored }
+  - form: "kolejnościami"
+    pl: "Z dwiema kolejnościami naraz nie da się pracować."
+    ru: "С двумя порядками сразу работать невозможно."
+    source: { kind: authored }
+  - form: "kolejnościami"
+    pl: "Nad kolejnościami w obu listach pracował ten sam urzędnik."
+    ru: "Над порядком в оба списках работал тот же чиновник."
+    source: { kind: authored }
+  - form: "kolejnościami"
+    pl: "Między kolejnościami w regulaminie i w praktyce była różnica."
+    ru: "Между порядком в регламенте и на практике была разница."
+    source: { kind: authored }
+  - form: "kolejnościom"
+    pl: "Kolejnościom w regulaminie poświęcono osobny punkt."
+    ru: "Порядку в регламенте посвятили отдельный пункт."
+    source: { kind: authored }
+  - form: "kolejnościom"
+    pl: "Dzięki ustalonym kolejnościom nikt się nie kłócił."
+    ru: "Благодаря установленному порядку никто не ссорился."
+    source: { kind: authored }
+  - form: "kolejnościom"
+    pl: "Kolejnościom zgłoszeń nadano numery."
+    ru: "Очерёдности заявок присвоили номера."
+    source: { kind: authored }
+  - form: "kolejnością"
+    pl: "Z kolejnością wystąpień był spór do końca."
+    ru: "С порядком выступлений спор был до конца."
+    source: { kind: authored }
+  - form: "kolejnością"
+    pl: "Nad kolejnością rozdziałów redakcja siedziała tydzień."
+    ru: "Над порядком глав редакция сидела неделю."
+    source: { kind: authored }
+  - form: "kolejnością"
+    pl: "Między kolejnością a ważnością nie ma związku."
+    ru: "Между порядком и важностью связи нет."
+    source: { kind: authored }
+  - form: "kolejność"
+    pl: "Kolejność wystąpień ustalono wcześniej."
+    ru: "Порядок выступлений установили заранее."
+    source: { kind: authored }
+  - form: "kolejność"
+    pl: "Zmienili kolejność w ostatniej chwili."
+    ru: "Они изменили порядок в последний момент."
+    source: { kind: authored }
+  - form: "kolejność"
+    pl: "Kolejność ma tu znaczenie."
+    ru: "Порядок здесь имеет значение."
+    source: { kind: authored }
