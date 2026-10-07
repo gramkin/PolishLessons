@@ -1,0 +1,155 @@
+# review
+id: kompania
+format: 2
+lemma: "kompania"
+rank: 5060
+pos: noun
+pron: { cyr: "компа́нья" }
+senses:
+  - id: company
+    ru: "рота (воен.)"
+    examples:
+      - pl: "Kompania wyruszyła o świcie."
+        ru: "Рота выступила на рассвете."
+        source: { kind: authored }
+      - pl: "Dowódca kompanii wydał rozkaz."
+        ru: "Командир роты отдал приказ."
+        source: { kind: authored }
+      - pl: "W kompanii jest stu żołnierzy."
+        ru: "В роте сто солдат."
+        source: { kind: authored }
+  - id: firm
+    ru: "компания, фирма (в названиях)"
+    examples:
+      - pl: "Kompania Piwowarska to duży browar."
+        ru: "«Компания Пивоварская» — крупная пивоварня."
+        source: { kind: authored }
+      - pl: "Kompania Wschodnioindyjska handlowała herbatą."
+        ru: "Ост-Индская компания торговала чаем."
+        source: { kind: authored }
+  - id: crowd
+    ru: "компания, общество (книжн., шутл.)"
+    examples:
+      - pl: "Spędził wieczór w doborowej kompanii."
+        ru: "Он провёл вечер в отличной компании."
+        source: { kind: authored }
+      - pl: "Wesoła kompania śpiewała do rana."
+        ru: "Весёлая компания пела до утра."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "KOMPANIA — ловушка: в армии это «рота», а «компания друзей» по-польски обычно TOWARZYSTWO: W DOBRYM TOWARZYSTWIE. Фирма в быту — FIRMA, а KOMPANIA — только в названиях: KOMPANIA PIWOWARSKA." }
+  - { kind: usage, text: "Женский род. Родительный, дательный и местный — KOMPANII. Множественное — KOMPANIE. Звательный и архаичное KOMPANIJ не используем." }
+  - { kind: government, text: "Командир роты — DOWÓDCA KOMPANII, родительный. В компании кого — W KOMPANII и родительный, книжно. Служить в роте — SŁUŻYĆ W KOMPANII." }
+  - { kind: pronunciation, text: "Читается «компа́нья»: NIA — «нья». Ударение на предпоследнем слоге." }
+collocations:
+  - { pl: "dowódca kompanii", ru: "командир роты" }
+  - { pl: "doborowa kompania", ru: "отличная компания" }
+  - { pl: "kompania honorowa", ru: "почётный караул" }
+family:
+  - { pl: "towarzystwo", ru: "общество, компания", relation: root, id: towarzystwo }
+  - { pl: "firma", ru: "фирма", relation: root, id: firma }
+  - { pl: "pluton", ru: "взвод", relation: root }
+etymology: "Из итальянского COMPAGNIA «товарищество», от латинского COM- «вместе» и PANIS «хлеб»: те, кто делит хлеб."
+memory: "Kompania — рота; компания друзей — towarzystwo. Kompania honorowa — почётный караул. Читается «компа́нья»."
+idioms:
+  - { pl: "w doborowej kompanii", ru: "в избранном обществе" }
+formExamplesSkip:
+  - { form: "kompanio", reason: "звательный не употребляется" }
+  - { form: "kompanij", reason: "архаичный родительный множественного, в норме KOMPANII" }
+formExamples:
+  - form: "kompania"
+    pl: "Kompania honorowa powitała prezydenta."
+    ru: "Почётный караул встретил президента."
+    source: { kind: authored }
+  - form: "kompania"
+    pl: "Ta kompania walczyła pod Monte Cassino."
+    ru: "Эта рота сражалась под Монте-Кассино."
+    source: { kind: authored }
+  - form: "kompania"
+    pl: "Cała kompania zebrała się na placu."
+    ru: "Вся рота собралась на плацу."
+    source: { kind: authored }
+  - form: "kompaniach"
+    pl: "W kompaniach brakowało oficerów."
+    ru: "В ротах не хватало офицеров."
+    source: { kind: authored }
+  - form: "kompaniach"
+    pl: "O kompaniach kolonialnych uczymy się w szkole."
+    ru: "О колониальных компаниях мы учим в школе."
+    source: { kind: authored }
+  - form: "kompaniach"
+    pl: "Służył w różnych kompaniach."
+    ru: "Он служил в разных ротах."
+    source: { kind: authored }
+  - form: "kompaniami"
+    pl: "Dowodził trzema kompaniami."
+    ru: "Он командовал тремя ротами."
+    source: { kind: authored }
+  - form: "kompaniami"
+    pl: "Między kompaniami była rywalizacja."
+    ru: "Между ротами было соперничество."
+    source: { kind: authored }
+  - form: "kompaniami"
+    pl: "Handlował z kompaniami holenderskimi."
+    ru: "Он торговал с голландскими компаниями."
+    source: { kind: authored }
+  - form: "kompanie"
+    pl: "Kompanie ruszyły do natarcia."
+    ru: "Роты пошли в наступление."
+    source: { kind: authored }
+  - form: "kompanie"
+    pl: "Kolonialne kompanie bogaciły się na handlu."
+    ru: "Колониальные компании богатели на торговле."
+    source: { kind: authored }
+  - form: "kompanie"
+    pl: "Dwie kompanie zostały w odwodzie."
+    ru: "Две роты остались в резерве."
+    source: { kind: authored }
+  - form: "kompanii"
+    pl: "Dowódca kompanii był młody."
+    ru: "Командир роты был молод."
+    source: { kind: authored }
+  - form: "kompanii"
+    pl: "Służył w tej kompanii dwa lata."
+    ru: "Он служил в этой роте два года."
+    source: { kind: authored }
+  - form: "kompanii"
+    pl: "Bawił się w wesołej kompanii."
+    ru: "Он веселился в весёлой компании."
+    source: { kind: authored }
+  - form: "kompaniom"
+    pl: "Generał wydał kompaniom rozkazy."
+    ru: "Генерал отдал ротам приказы."
+    source: { kind: authored }
+  - form: "kompaniom"
+    pl: "Kompaniom brakowało amunicji."
+    ru: "Ротам не хватало боеприпасов."
+    source: { kind: authored }
+  - form: "kompaniom"
+    pl: "Król nadał kompaniom przywileje handlowe."
+    ru: "Король дал компаниям торговые привилегии."
+    source: { kind: authored }
+  - form: "kompanią"
+    pl: "Dowodzi kompanią od roku."
+    ru: "Он командует ротой уже год."
+    source: { kind: authored }
+  - form: "kompanią"
+    pl: "Przed kompanią stał kapitan."
+    ru: "Перед ротой стоял капитан."
+    source: { kind: authored }
+  - form: "kompanią"
+    pl: "Z taką kompanią nie można się nudzić."
+    ru: "В такой компании невозможно скучать."
+    source: { kind: authored }
+  - form: "kompanię"
+    pl: "Generał przeglądał kompanię."
+    ru: "Генерал осматривал роту."
+    source: { kind: authored }
+  - form: "kompanię"
+    pl: "Założyli kompanię handlową."
+    ru: "Они основали торговую компанию."
+    source: { kind: authored }
+  - form: "kompanię"
+    pl: "Wysłano kompanię na pomoc."
+    ru: "На помощь отправили роту."
+    source: { kind: authored }
