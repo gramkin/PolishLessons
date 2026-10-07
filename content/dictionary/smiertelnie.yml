@@ -1,0 +1,62 @@
+# review
+id: smiertelnie
+format: 2
+lemma: "śmiertelnie"
+rank: 5165
+pos: adv
+pron: { cyr: "сьмерте́льне" }
+senses:
+  - id: mortally
+    ru: "смертельно"
+    examples:
+      - pl: "Żołnierz był śmiertelnie ranny."
+        ru: "Солдат был смертельно ранен."
+        source: { kind: authored }
+      - pl: "Ta choroba bywa śmiertelnie groźna."
+        ru: "Эта болезнь бывает смертельно опасной."
+        source: { kind: authored }
+      - pl: "Ukąszenie węża okazało się śmiertelnie niebezpieczne."
+        ru: "Укус змеи оказался смертельно опасным."
+        source: { kind: authored }
+  - id: deadly
+    ru: "смертельно, до смерти (усилительное)"
+    examples:
+      - pl: "Ten film był śmiertelnie nudny."
+        ru: "Этот фильм был смертельно скучным."
+        source: { kind: authored }
+      - pl: "Śmiertelnie się przestraszyłam."
+        ru: "Я перепугалась до смерти."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ŚMIERTELNIE — «смертельно», перевод прямой, и как усилитель тоже: ŚMIERTELNIE NUDNY, «смертельно скучный». Особый оборот — ŚMIERTELNIE POWAŻNIE, «совершенно серьёзно», без всякой угрозы жизни." }
+  - { kind: usage, text: "Наречие. Формы сравнения формально есть, но на практике не употребляются. Чаще всего стоит перед прилагательным или причастием: ŚMIERTELNIE RANNY, ŚMIERTELNIE ZMĘCZONY." }
+  - { kind: government, text: "Наречие ничем не управляет. Прилагательное ŚMIERTELNY значит и «смертельный», и «смертный»: ŚMIERTELNY WYPADEK, «несчастный случай со смертельным исходом», ZWYKŁY ŚMIERTELNIK, «простой смертный»." }
+  - { kind: pronunciation, text: "Читается «сьмерте́льне», ударение на предпоследнем слоге. ŚMIE — «сьме», TE — твёрдое «тэ», L перед N мягкое." }
+collocations:
+  - { pl: "śmiertelnie ranny", ru: "смертельно раненный" }
+  - { pl: "śmiertelnie zmęczony", ru: "смертельно уставший" }
+  - { pl: "śmiertelnie poważnie", ru: "совершенно серьёзно" }
+family:
+  - { pl: "śmierć", ru: "смерть", relation: root, id: smierc }
+  - { pl: "śmiertelny", ru: "смертельный; смертный", relation: root, id: smiertelny }
+  - { pl: "umrzeć", ru: "умереть", relation: root, id: umrzec }
+etymology: "От ŚMIERTELNY, а то — от ŚMIERĆ «смерть». Польское Ś на месте русского «с»: ŚMIERĆ — «смерть». Корень тот же, что в UMRZEĆ «умереть»."
+memory: "Śmiertelnie — смертельно: śmiertelnie ranny, śmiertelnie nudny. Śmiertelnie poważnie — совершенно серьёзно. Читается «сьмерте́льне»."
+idioms:
+  - { pl: "na śmierć i życie", ru: "не на жизнь, а на смерть" }
+formExamplesSkip:
+  - { form: "śmiertelniej", reason: "степени сравнения у «смертельно» на практике не употребляются" }
+  - { form: "najśmiertelniej", reason: "степени сравнения у «смертельно» на практике не употребляются" }
+formExamples:
+  - form: "śmiertelnie"
+    pl: "Został śmiertelnie ranny."
+    ru: "Он был смертельно ранен."
+    source: { kind: authored }
+  - form: "śmiertelnie"
+    pl: "Jestem śmiertelnie zmęczony."
+    ru: "Я смертельно устал."
+    source: { kind: authored }
+  - form: "śmiertelnie"
+    pl: "Mówię śmiertelnie poważnie."
+    ru: "Я говорю совершенно серьёзно."
+    source: { kind: authored }
