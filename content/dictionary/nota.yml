@@ -1,0 +1,157 @@
+# review
+id: nota
+format: 2
+lemma: "nota"
+rank: 4303
+pos: noun
+pron: { cyr: "но́та" }
+senses:
+  - id: note
+    ru: "нота (дипломатическая), официальная записка"
+    examples:
+      - pl: "Ministerstwo wysłało notę protestacyjną."
+        ru: "Министерство направило ноту протеста."
+        source: { kind: authored }
+      - pl: "Ambasador wręczył notę."
+        ru: "Посол вручил ноту."
+        source: { kind: authored }
+      - pl: "W nocie dyplomatycznej zażądano wyjaśnień."
+        ru: "В дипломатической ноте потребовали объяснений."
+        source: { kind: authored }
+  - id: score
+    ru: "оценка, балл (судей); примечание"
+    examples:
+      - pl: "Łyżwiarka dostała wysoką notę od sędziów."
+        ru: "Фигуристка получила высокую оценку судей."
+        source: { kind: authored }
+      - pl: "Na końcu książki jest nota o autorze."
+        ru: "В конце книги есть справка об авторе."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "NOTA — не музыкальная «нота»! Нота в музыке — NUTA. NOTA — «дипломатическая нота», «оценка судей» и «примечание»: NOTA BIOGRAFICZNA. Конспект, запись — NOTATKA." }
+  - { kind: usage, text: "Девять форм, женский род. В местном T переходит в C: W NOCIE. Родительный множественного — NOT. Звательный NOTO не употребляется." }
+  - { kind: government, text: "Вручить ноту — WRĘCZYĆ NOTĘ, винительный. Нота протеста — NOTA PROTESTACYJNA. Получить оценку — DOSTAĆ NOTĘ." }
+  - { kind: pronunciation, text: "Читается «но́та», ударение на первом слоге. NOCIE — «но́це»." }
+collocations:
+  - { pl: "nota dyplomatyczna", ru: "дипломатическая нота" }
+  - { pl: "nota biograficzna", ru: "биографическая справка" }
+  - { pl: "wysoka nota", ru: "высокая оценка" }
+family:
+  - { pl: "nuta", ru: "нота (муз.)", relation: root }
+  - { pl: "notatka", ru: "запись, заметка", relation: derived, id: notatka }
+  - { pl: "ocena", ru: "оценка", relation: root, id: ocena }
+etymology: "Из латинского NOTA «знак, пометка». Польское различает NOTA «записка» и NUTA «музыкальная нота»."
+memory: "Nota — дипломатическая нота, оценка судей, справка; музыкальная нота — nuta. Читается «но́та»."
+idioms:
+  - { pl: "wystawić wysoką notę", ru: "высоко оценить" }
+formExamplesSkip:
+  - { form: "noto", reason: "звательный не употребляется" }
+formExamples:
+  - form: "nocie"
+    pl: "W nocie zażądano przeprosin."
+    ru: "В ноте потребовали извинений."
+    source: { kind: authored }
+  - form: "nocie"
+    pl: "O nocie poinformowały media."
+    ru: "О ноте сообщили СМИ."
+    source: { kind: authored }
+  - form: "nocie"
+    pl: "Rząd odpowiedział na zawartą w nocie krytykę."
+    ru: "Правительство ответило на содержащуюся в ноте критику."
+    source: { kind: authored }
+  - form: "not"
+    pl: "Wymiana not trwała miesiąc."
+    ru: "Обмен нотами длился месяц."
+    source: { kind: authored }
+  - form: "not"
+    pl: "Suma not zadecydowała o zwycięstwie."
+    ru: "Сумма оценок решила исход."
+    source: { kind: authored }
+  - form: "not"
+    pl: "Kilka not pozostało bez odpowiedzi."
+    ru: "Несколько нот остались без ответа."
+    source: { kind: authored }
+  - form: "nota"
+    pl: "Nota wywołała kryzys dyplomatyczny."
+    ru: "Нота вызвала дипломатический кризис."
+    source: { kind: authored }
+  - form: "nota"
+    pl: "Ta nota była bardzo ostra."
+    ru: "Эта нота была очень резкой."
+    source: { kind: authored }
+  - form: "nota"
+    pl: "Krótka nota o autorze znajduje się na okładce."
+    ru: "Краткая справка об авторе есть на обложке."
+    source: { kind: authored }
+  - form: "notach"
+    pl: "W notach dyplomatycznych używa się formalnego języka."
+    ru: "В дипломатических нотах используют формальный язык."
+    source: { kind: authored }
+  - form: "notach"
+    pl: "O notach sędziów dyskutowano długo."
+    ru: "Об оценках судей спорили долго."
+    source: { kind: authored }
+  - form: "notach"
+    pl: "W notach biograficznych są błędy."
+    ru: "В биографических справках есть ошибки."
+    source: { kind: authored }
+  - form: "notami"
+    pl: "Państwa wymieniły się notami."
+    ru: "Государства обменялись нотами."
+    source: { kind: authored }
+  - form: "notami"
+    pl: "Między notami sędziów była duża różnica."
+    ru: "Между оценками судей была большая разница."
+    source: { kind: authored }
+  - form: "notami"
+    pl: "Zawodniczka zachwyciła notami za styl."
+    ru: "Спортсменка восхитила оценками за стиль."
+    source: { kind: authored }
+  - form: "notom"
+    pl: "Dziennikarze przyglądali się notom sędziów."
+    ru: "Журналисты изучали оценки судей."
+    source: { kind: authored }
+  - form: "notom"
+    pl: "Nie ufa notom wystawianym przez tych sędziów."
+    ru: "Он не доверяет оценкам этих судей."
+    source: { kind: authored }
+  - form: "notom"
+    pl: "Kraj nie przywiązuje wagi notom protestacyjnym."
+    ru: "Страна не придаёт значения нотам протеста."
+    source: { kind: authored }
+  - form: "noty"
+    pl: "Treść noty nie została ujawniona."
+    ru: "Содержание ноты не раскрыли."
+    source: { kind: authored }
+  - form: "noty"
+    pl: "Sędziowie wystawili noty."
+    ru: "Судьи выставили оценки."
+    source: { kind: authored }
+  - form: "noty"
+    pl: "Noty były wyższe niż przed rokiem."
+    ru: "Оценки были выше, чем год назад."
+    source: { kind: authored }
+  - form: "notą"
+    pl: "Rząd odpowiedział notą."
+    ru: "Правительство ответило нотой."
+    source: { kind: authored }
+  - form: "notą"
+    pl: "Z notą biograficzną książka jest pełniejsza."
+    ru: "С биографической справкой книга полнее."
+    source: { kind: authored }
+  - form: "notą"
+    pl: "Zaskoczyła wszystkich wysoką notą."
+    ru: "Она удивила всех высокой оценкой."
+    source: { kind: authored }
+  - form: "notę"
+    pl: "Ambasada otrzymała notę."
+    ru: "Посольство получило ноту."
+    source: { kind: authored }
+  - form: "notę"
+    pl: "Skoczek dostał najwyższą notę."
+    ru: "Прыгун получил высшую оценку."
+    source: { kind: authored }
+  - form: "notę"
+    pl: "Dopisał notę na marginesie."
+    ru: "Он дописал примечание на полях."
+    source: { kind: authored }
