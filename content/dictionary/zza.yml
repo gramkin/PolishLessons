@@ -1,0 +1,59 @@
+# review
+id: zza
+format: 2
+lemma: "zza"
+rank: 4679
+pos: prep
+pron: { cyr: "зза" }
+senses:
+  - id: from-behind
+    ru: "из-за (чего-то, откуда-то сзади)"
+    examples:
+      - pl: "Słońce wyszło zza chmur."
+        ru: "Солнце вышло из-за туч."
+        source: { kind: authored }
+      - pl: "Ktoś wyjrzał zza drzwi."
+        ru: "Кто-то выглянул из-за двери."
+        source: { kind: authored }
+      - pl: "Zza rogu wyjechał samochód."
+        ru: "Из-за угла выехала машина."
+        source: { kind: authored }
+  - id: from-beyond
+    ru: "из-за (границы, моря), издалека"
+    examples:
+      - pl: "Przywiózł prezenty zza granicy."
+        ru: "Он привёз подарки из-за границы."
+        source: { kind: authored }
+      - pl: "Goście zza oceanu przyjechali na wesele."
+        ru: "Гости из-за океана приехали на свадьбу."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ZZA — только пространственное «из-за»: ZZA DRZEWA, ZZA ROGU. Причинное русское «из-за» по-польски другое: PRZEZ с винительным или Z POWODU с родительным. «Из-за тебя я опоздал» — PRZEZ CIEBIE SIĘ SPÓŹNIŁEM, а не ZZA CIEBIE." }
+  - { kind: usage, text: "Предлог, одна форма. Пара к ZA, «за»: GDZIE? ZA DOMEM, «за домом»; SKĄD? ZZA DOMU, «из-за дома». Так же POD — SPOD, «под — из-под»." }
+  - { kind: government, text: "Предлог требует родительного падежа, как и русское «из-за»: ZZA DRZWI, ZZA CHMUR, ZZA GRANICY." }
+  - { kind: pronunciation, text: "Читается «зза», один слог: два Z сливаются в долгое «з», и слово произносится слитно со следующим: ZZA ROGU — «ззаро́гу»." }
+collocations:
+  - { pl: "zza rogu", ru: "из-за угла" }
+  - { pl: "zza granicy", ru: "из-за границы" }
+  - { pl: "zza chmur", ru: "из-за туч" }
+family:
+  - { pl: "za", ru: "за", relation: root, id: za }
+  - { pl: "z", ru: "из, с", relation: root, id: z }
+  - { pl: "spoza", ru: "из-за пределов, извне", relation: root }
+etymology: "Слияние Z «из» + ZA «за», точно как русское «из-за». Польский пишет его одним словом, а русский — через дефис."
+memory: "Zza — из-за, только откуда: zza drzwi — из-за двери. «Из-за тебя» — przez ciebie. Za domem — за домом, zza domu — из-за дома."
+idioms:
+  - { pl: "zza węgła", ru: "из-за угла, исподтишка" }
+formExamples:
+  - form: "zza"
+    pl: "Kot wyskoczył zza kanapy."
+    ru: "Кот выскочил из-за дивана."
+    source: { kind: authored }
+  - form: "zza"
+    pl: "Zza okna dochodziła muzyka."
+    ru: "Из-за окна доносилась музыка."
+    source: { kind: authored }
+  - form: "zza"
+    pl: "Wrócił zza oceanu po dziesięciu latach."
+    ru: "Он вернулся из-за океана через десять лет."
+    source: { kind: authored }
