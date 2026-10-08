@@ -1,0 +1,60 @@
+# review
+id: ano
+format: 2
+lemma: "ano"
+rank: 5110
+pos: part
+pron: { cyr: "а́но" }
+senses:
+  - id: well-yes
+    ru: "ну да, да вот (подтверждение)"
+    examples:
+      - pl: "Ano tak, masz rację."
+        ru: "Ну да, ты прав."
+        source: { kind: authored }
+      - pl: "— Wyjechał? — Ano wyjechał."
+        ru: "— Уехал? — Да вот, уехал."
+        source: { kind: authored }
+      - pl: "Ano, tak bywa."
+        ru: "Ну что ж, так бывает."
+        source: { kind: authored }
+  - id: well-then
+    ru: "а вот, ну-ка (в начале рассказа, вопроса)"
+    examples:
+      - pl: "Ano zobaczymy, kto wygra."
+        ru: "А вот посмотрим, кто выиграет."
+        source: { kind: authored }
+      - pl: "Ano właśnie, o tym mówię."
+        ru: "Вот именно, об этом я и говорю."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ANO — разговорное «ну да», «да вот», а не чешское ANO «да». Польское «да» — TAK; ANO лишь подтверждает с оттенком смирения или раздумья." }
+  - { kind: usage, text: "Неизменяемая частица в начале фразы. Частые сочетания: ANO TAK «ну да», ANO WŁAŚNIE «вот именно», ANO WIDZISZ «вот видишь»." }
+  - { kind: government, text: "Ничем не управляет. Стоит в начале реплики, часто перед повтором глагола из вопроса: — PRZYSZEDŁ? — ANO PRZYSZEDŁ." }
+  - { kind: pronunciation, text: "Читается «а́но»: ударение на первом слоге, оба гласных чистые." }
+  - { kind: register, text: "Разговорное, немного деревенское или стариковское слово. В литературе передаёт простую речь." }
+collocations:
+  - { pl: "ano tak", ru: "ну да" }
+  - { pl: "ano właśnie", ru: "вот именно" }
+  - { pl: "ano widzisz", ru: "вот видишь" }
+family:
+  - { pl: "tak", ru: "да, так", relation: root, id: tak }
+  - { pl: "no", ru: "ну", relation: root, id: no }
+  - { pl: "właśnie", ru: "именно", relation: root, id: wlasnie }
+etymology: "Сращение союза A и частицы NO «ну»: «а ну», «а вот». Сходство с чешским ANO «да» — случайное, хотя оба восходят к похожим указательным частицам."
+memory: "Ano — ну да, да вот: ano tak. Не «да»! «Да» — tak. Ano właśnie — вот именно."
+idioms:
+  - { pl: "ano właśnie", ru: "вот именно, то-то и оно" }
+formExamples:
+  - form: "ano"
+    pl: "Ano tak, masz rację."
+    ru: "Ну да, ты прав."
+    source: { kind: authored }
+  - form: "ano"
+    pl: "Ano zobaczymy, kto wygra."
+    ru: "А вот посмотрим, кто выиграет."
+    source: { kind: authored }
+  - form: "ano"
+    pl: "Ano widzisz, mówiłem ci."
+    ru: "Вот видишь, я тебе говорил."
+    source: { kind: authored }
