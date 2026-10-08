@@ -1,0 +1,60 @@
+# review
+id: he-2
+format: 2
+lemma: "hę"
+rank: 5013
+pos: interj
+pron: { cyr: "хэн" }
+senses:
+  - id: huh
+    ru: "а?, что? (переспрос)"
+    examples:
+      - pl: "Hę? Co powiedziałeś?"
+        ru: "А? Что ты сказал?"
+        source: { kind: authored }
+      - pl: "Hę? Nie słyszę."
+        ru: "А? Не слышу."
+        source: { kind: authored }
+      - pl: "— Idziesz z nami? — Hę?"
+        ru: "— Ты идёшь с нами? — А?"
+        source: { kind: authored }
+  - id: right
+    ru: "а?, да? (в конце вопроса, ждёт согласия)"
+    examples:
+      - pl: "Fajnie było, hę?"
+        ru: "Здорово было, а?"
+        source: { kind: authored }
+      - pl: "Pójdziemy jutro na ryby, hę?"
+        ru: "Пойдём завтра на рыбалку, а?"
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "HĘ — переспрос «а», «что». Похоже на русское «хм» или «а», но польское HĘ служит именно для переспроса. Вежливые варианты — SŁUCHAM и PRZEPRASZAM, CO MÓWIŁEŚ." }
+  - { kind: usage, text: "Неизменяемое междометие. В начале реплики — переспрос, в конце вопроса — просьба подтвердить, как русское «а» в «здорово, а». Синонимы — CO и разговорное NO NIE." }
+  - { kind: government, text: "Ничем не управляет. На письме за ним обычно ставят вопросительный знак." }
+  - { kind: pronunciation, text: "Читается «хэн» с носовым гласным: Ę — носовое «э», конечный звук не всегда слышен, часто просто «хэ»." }
+  - { kind: register, text: "Фамильярное, грубоватое слово. Детей учат переспрашивать вежливым SŁUCHAM, а не HĘ." }
+collocations:
+  - { pl: "hę, co", ru: "а, что" }
+  - { pl: "dobrze, hę", ru: "хорошо, а" }
+  - { pl: "hę, słucham", ru: "а, слушаю" }
+family:
+  - { pl: "co", ru: "что", relation: root, id: co }
+  - { pl: "słuchać", ru: "слушать; SŁUCHAM — вежливый переспрос", relation: root, id: sluchac }
+  - { pl: "eh", ru: "эх", relation: root, id: eh }
+etymology: "Звукоподражательное междометие. Носовой гласный передаёт неопределённое «э-э» с закрытым ртом."
+memory: "Hę — переспрос «а», «что»: «Hę, co powiedziałeś». Грубовато; вежливо — słucham."
+idioms:
+  - { pl: "i co, hę", ru: "ну и что, а" }
+formExamples:
+  - form: "hę"
+    pl: "Hę? Co powiedziałeś?"
+    ru: "А? Что ты сказал?"
+    source: { kind: authored }
+  - form: "hę"
+    pl: "Fajnie było, hę?"
+    ru: "Здорово было, а?"
+    source: { kind: authored }
+  - form: "hę"
+    pl: "No i co teraz, hę?"
+    ru: "Ну и что теперь, а?"
+    source: { kind: authored }
