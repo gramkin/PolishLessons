@@ -1,0 +1,674 @@
+# review
+id: potoczyc
+format: 2
+lemma: "potoczyć"
+rank: 4871
+pos: verb
+pron: { cyr: "пото́чыць" }
+senses:
+  - id: roll
+    ru: "покатить (что-то); с SIĘ — покатиться"
+    examples:
+      - pl: "Potoczył beczkę pod ścianę."
+        ru: "Он покатил бочку к стене."
+        source: { kind: authored }
+      - pl: "Piłka potoczyła się pod samochód."
+        ru: "Мяч покатился под машину."
+        source: { kind: authored }
+      - pl: "Moneta potoczyła się po podłodze."
+        ru: "Монета покатилась по полу."
+        source: { kind: authored }
+  - id: unfold
+    ru: "с SIĘ — пойти, сложиться (о событиях)"
+    examples:
+      - pl: "Wszystko potoczyło się inaczej, niż planowaliśmy."
+        ru: "Всё пошло не так, как мы планировали."
+        source: { kind: authored }
+      - pl: "Rozmowa potoczyła się w złym kierunku."
+        ru: "Разговор пошёл в плохом направлении."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "POTOCZYĆ — «покатить», а не «поточить». «Наточить нож» по-польски — NAOSTRZYĆ NÓŻ. А TOCZYĆ без приставки значит ещё «вести»: TOCZYĆ WOJNĘ, TOCZYĆ ROZMOWĘ, но POTOCZYĆ с ними не сочетается." }
+  - { kind: usage, text: "Пятьдесят две формы: страдательное POTOCZONY — о бочках и камнях; форма для мужчин-людей POTOCZENI в карточку не включена. Чаще всего глагол встречается с SIĘ: SPRAWY POTOCZYŁY SIĘ SZYBKO — «дела пошли быстро». Несовершенный вид — TOCZYĆ." }
+  - { kind: government, text: "Что — винительный: POTOCZYĆ KAMIEŃ. Куда — POD, DO, NA с винительным: POTOCZYĆ SIĘ POD STÓŁ. По чему — PO с предложным: PO PODŁODZE. POTOCZYĆ WZROKIEM — творительный: «обвести взглядом»." }
+  - { kind: pronunciation, text: "Читается «пото́чыць»: CZY — твёрдое «чы», ударение на предпоследнем слоге. POTOCZĘ — «пото́чэ»." }
+  - { kind: register, text: "В прямом смысле — нейтральное. JAK SIĘ SPRAWY POTOCZĄ — частая разговорная формула «как пойдут дела». POTOCZYĆ WZROKIEM — книжное, из прозы." }
+collocations:
+  - { pl: "potoczyć się pod stół", ru: "закатиться под стол" }
+  - { pl: "sprawy potoczyły się szybko", ru: "события развивались быстро" }
+  - { pl: "potoczyć beczkę", ru: "покатить бочку" }
+family:
+  - { pl: "toczyć", ru: "катить; вести (войну, спор)", relation: root, id: toczyc }
+  - { pl: "potoczny", ru: "разговорный, обиходный", relation: derived }
+  - { pl: "toczyć się", ru: "катиться; идти, вестись", relation: derived }
+etymology: "Приставка PO- плюс TOCZYĆ «катить», праславянское *točiti «катить, лить», родственное «течь». Русское «точить» и «поток» из того же гнезда, но значение «катить» сохранилось только в польском."
+memory: "Potoczyć — покатить: piłka potoczyła się pod auto. Sprawy potoczyły się inaczej — всё пошло иначе. Читается «пото́чыць»."
+idioms:
+  - { pl: "potoczyć wzrokiem", ru: "обвести взглядом" }
+formExamplesSkip:
+  - { form: "potoczeni", reason: "людей не катят: формы для мужчин-людей нет" }
+formExamples:
+  - form: "potocz"
+    pl: "Potocz tę piłkę do mnie."
+    ru: "Покати этот мяч ко мне."
+    source: { kind: authored }
+  - form: "potocz"
+    pl: "Potocz beczkę ostrożnie."
+    ru: "Кати бочку осторожно."
+    source: { kind: authored }
+  - form: "potocz"
+    pl: "Potocz kulę jeszcze trochę."
+    ru: "Покати ком ещё немного."
+    source: { kind: authored }
+  - form: "potoczcie"
+    pl: "Potoczcie opony pod ścianę."
+    ru: "Откатите шины к стене."
+    source: { kind: authored }
+  - form: "potoczcie"
+    pl: "Potoczcie piłkę do bramki."
+    ru: "Покатите мяч к воротам."
+    source: { kind: authored }
+  - form: "potoczcie"
+    pl: "Potoczcie beczki na wóz."
+    ru: "Закатите бочки на телегу."
+    source: { kind: authored }
+  - form: "potoczenia"
+    pl: "Beczka była za ciężka do potoczenia."
+    ru: "Бочка была слишком тяжела, чтобы её катить."
+    source: { kind: authored }
+  - form: "potoczenia"
+    pl: "Głaz jest gotowy do potoczenia."
+    ru: "Валун готов к тому, чтобы его откатили."
+    source: { kind: authored }
+  - form: "potoczenia"
+    pl: "Szukali sposobu potoczenia pnia."
+    ru: "Они искали способ откатить бревно."
+    source: { kind: authored }
+  - form: "potoczenie"
+    pl: "Potoczenie głazu wymagało trzech ludzi."
+    ru: "Чтобы откатить валун, понадобилось три человека."
+    source: { kind: authored }
+  - form: "potoczenie"
+    pl: "Potoczenie beczki zajęło chwilę."
+    ru: "Откатить бочку было минутным делом."
+    source: { kind: authored }
+  - form: "potoczenie"
+    pl: "Potoczenie kuli na górkę zmęczyło dzieci."
+    ru: "Закатить ком на горку стоило детям сил."
+    source: { kind: authored }
+  - form: "potoczeniem"
+    pl: "Przed potoczeniem beczki sprawdź, czy jest zakręcona."
+    ru: "Прежде чем катить бочку, проверь, закручена ли она."
+    source: { kind: authored }
+  - form: "potoczeniem"
+    pl: "Mieli kłopot z potoczeniem głazu."
+    ru: "У них были трудности с тем, чтобы откатить валун."
+    source: { kind: authored }
+  - form: "potoczeniem"
+    pl: "Pomógł nam z potoczeniem opony."
+    ru: "Он помог нам откатить шину."
+    source: { kind: authored }
+  - form: "potoczeniu"
+    pl: "Po potoczeniu beczki odpoczęli."
+    ru: "Откатив бочку, они отдохнули."
+    source: { kind: authored }
+  - form: "potoczeniu"
+    pl: "Myśleli o potoczeniu głazu w dół."
+    ru: "Они думали о том, чтобы скатить валун вниз."
+    source: { kind: authored }
+  - form: "potoczeniu"
+    pl: "Po potoczeniu kuli ulepili bałwana."
+    ru: "Скатав ком, они слепили снеговика."
+    source: { kind: authored }
+  - form: "potoczmy"
+    pl: "Potoczmy kulę śniegową."
+    ru: "Давайте покатим снежный ком."
+    source: { kind: authored }
+  - form: "potoczmy"
+    pl: "Potoczmy beczkę do piwnicy."
+    ru: "Давайте покатим бочку в подвал."
+    source: { kind: authored }
+  - form: "potoczmy"
+    pl: "Potoczmy ten kamień razem."
+    ru: "Давайте покатим этот камень вместе."
+    source: { kind: authored }
+  - form: "potoczona"
+    pl: "Beczka została potoczona do piwnicy."
+    ru: "Бочку закатили в подвал."
+    source: { kind: authored }
+  - form: "potoczona"
+    pl: "Potoczona kula zrobiła się ogromna."
+    ru: "Скатанный ком стал огромным."
+    source: { kind: authored }
+  - form: "potoczona"
+    pl: "Opona była potoczona pod ścianę."
+    ru: "Шину откатили к стене."
+    source: { kind: authored }
+  - form: "potoczone"
+    pl: "Beczki zostały potoczone na plac."
+    ru: "Бочки выкатили на площадку."
+    source: { kind: authored }
+  - form: "potoczone"
+    pl: "Potoczone kamienie zatarasowały drogę."
+    ru: "Скатившиеся камни перегородили дорогу."
+    source: { kind: authored }
+  - form: "potoczone"
+    pl: "Opony są już potoczone do garażu."
+    ru: "Шины уже закатили в гараж."
+    source: { kind: authored }
+  - form: "potoczonego"
+    pl: "Ślad potoczonego głazu był widoczny."
+    ru: "След откатанного валуна был виден."
+    source: { kind: authored }
+  - form: "potoczonego"
+    pl: "Nie mogli ruszyć potoczonego kamienia."
+    ru: "Они не могли сдвинуть закатившийся камень."
+    source: { kind: authored }
+  - form: "potoczonego"
+    pl: "Obejrzał bok potoczonego pnia."
+    ru: "Он осмотрел бок откатанного бревна."
+    source: { kind: authored }
+  - form: "potoczonej"
+    pl: "Z potoczonej beczki wyciekło wino."
+    ru: "Из откатанной бочки вытекло вино."
+    source: { kind: authored }
+  - form: "potoczonej"
+    pl: "Szukał potoczonej pod szafę monety."
+    ru: "Он искал монету, закатившуюся под шкаф."
+    source: { kind: authored }
+  - form: "potoczonej"
+    pl: "Wielkość potoczonej kuli zachwyciła dzieci."
+    ru: "Размер скатанного кома восхитил детей."
+    source: { kind: authored }
+  - form: "potoczonemu"
+    pl: "Przyglądał się potoczonemu głazowi."
+    ru: "Он рассматривал откатанный валун."
+    source: { kind: authored }
+  - form: "potoczonemu"
+    pl: "Dzięki potoczonemu kamieniowi droga była wolna."
+    ru: "Благодаря откатанному камню дорога была свободна."
+    source: { kind: authored }
+  - form: "potoczonemu"
+    pl: "Potoczonemu pniowi zrobiono zdjęcie."
+    ru: "Откатанное бревно сфотографировали."
+    source: { kind: authored }
+  - form: "potoczono"
+    pl: "Beczki potoczono do piwnicy."
+    ru: "Бочки закатили в подвал."
+    source: { kind: authored }
+  - form: "potoczono"
+    pl: "Głaz potoczono na skraj pola."
+    ru: "Валун откатили на край поля."
+    source: { kind: authored }
+  - form: "potoczono"
+    pl: "Na plac potoczono stare opony."
+    ru: "На площадку выкатили старые шины."
+    source: { kind: authored }
+  - form: "potoczony"
+    pl: "Głaz został potoczony na skraj drogi."
+    ru: "Валун откатили на обочину."
+    source: { kind: authored }
+  - form: "potoczony"
+    pl: "Potoczony kamień zatrzymał się na drzewie."
+    ru: "Скатившийся камень остановился у дерева."
+    source: { kind: authored }
+  - form: "potoczony"
+    pl: "Pień był potoczony aż do rzeki."
+    ru: "Бревно докатили до самой реки."
+    source: { kind: authored }
+  - form: "potoczonych"
+    pl: "Kilka potoczonych beczek stało w rzędzie."
+    ru: "Несколько откатанных бочек стояло в ряд."
+    source: { kind: authored }
+  - form: "potoczonych"
+    pl: "Liczba potoczonych kul rosła."
+    ru: "Число скатанных комьев росло."
+    source: { kind: authored }
+  - form: "potoczonych"
+    pl: "Ślady potoczonych kamieni prowadziły w dół."
+    ru: "Следы скатившихся камней вели вниз."
+    source: { kind: authored }
+  - form: "potoczonym"
+    pl: "Na potoczonym pniu usiedli turyści."
+    ru: "На откатанном бревне сидели туристы."
+    source: { kind: authored }
+  - form: "potoczonym"
+    pl: "O potoczonym głazie mówiła cała wieś."
+    ru: "О скатившемся валуне говорила вся деревня."
+    source: { kind: authored }
+  - form: "potoczonym"
+    pl: "W potoczonym kole brakowało szprychy."
+    ru: "В откатанном колесе не хватало спицы."
+    source: { kind: authored }
+  - form: "potoczonymi"
+    pl: "Droga była zablokowana potoczonymi głazami."
+    ru: "Дорога была перегорожена скатившимися валунами."
+    source: { kind: authored }
+  - form: "potoczonymi"
+    pl: "Bawili się potoczonymi kulami."
+    ru: "Они играли скатанными комьями."
+    source: { kind: authored }
+  - form: "potoczonymi"
+    pl: "Między potoczonymi beczkami przeszedł kot."
+    ru: "Между откатанными бочками прошёл кот."
+    source: { kind: authored }
+  - form: "potoczoną"
+    pl: "Zostawili potoczoną beczkę przy drzwiach."
+    ru: "Они оставили откатанную бочку у двери."
+    source: { kind: authored }
+  - form: "potoczoną"
+    pl: "Postawili bałwana na potoczoną kulę."
+    ru: "Они поставили снеговика на скатанный ком."
+    source: { kind: authored }
+  - form: "potoczoną"
+    pl: "Obejrzał potoczoną oponę."
+    ru: "Он осмотрел откатанную шину."
+    source: { kind: authored }
+  - form: "potoczy"
+    pl: "Zobaczymy, jak się to potoczy."
+    ru: "Посмотрим, как это пойдёт."
+    source: { kind: authored }
+  - form: "potoczy"
+    pl: "Piłka potoczy się do bramki."
+    ru: "Мяч покатится к воротам."
+    source: { kind: authored }
+  - form: "potoczy"
+    pl: "Nikt nie wie, jak potoczy się rozmowa."
+    ru: "Никто не знает, как пойдёт разговор."
+    source: { kind: authored }
+  - form: "potoczycie"
+    pl: "Potoczycie te opony do warsztatu?"
+    ru: "Вы покатите эти шины в мастерскую?"
+    source: { kind: authored }
+  - form: "potoczycie"
+    pl: "Jak potoczycie kulę, ulepimy bałwana."
+    ru: "Когда скатаете ком, слепим снеговика."
+    source: { kind: authored }
+  - form: "potoczycie"
+    pl: "Potoczycie beczkę razem?"
+    ru: "Вы покатите бочку вместе?"
+    source: { kind: authored }
+  - form: "potoczyli"
+    pl: "Potoczyli beczki do piwnicy."
+    ru: "Они покатили бочки в подвал."
+    source: { kind: authored }
+  - form: "potoczyli"
+    pl: "Chłopcy potoczyli wielką kulę śniegową."
+    ru: "Мальчики покатили большой снежный ком."
+    source: { kind: authored }
+  - form: "potoczyli"
+    pl: "Potoczyli głaz z drogi."
+    ru: "Они откатили валун с дороги."
+    source: { kind: authored }
+  - form: "potoczyliby"
+    pl: "Potoczyliby beczki, gdyby było ich mniej."
+    ru: "Они покатили бы бочки, если бы их было меньше."
+    source: { kind: authored }
+  - form: "potoczyliby"
+    pl: "Chłopcy potoczyliby kulę jeszcze dalej."
+    ru: "Мальчики покатили бы ком ещё дальше."
+    source: { kind: authored }
+  - form: "potoczyliby"
+    pl: "Potoczyliby głaz, ale brakuje rąk."
+    ru: "Они откатили бы валун, но не хватает рук."
+    source: { kind: authored }
+  - form: "potoczylibyście"
+    pl: "Potoczylibyście te opony?"
+    ru: "Вы не покатили бы эти шины?"
+    source: { kind: authored }
+  - form: "potoczylibyście"
+    pl: "Czy potoczylibyście kulę na górkę?"
+    ru: "Вы закатили бы ком на горку?"
+    source: { kind: authored }
+  - form: "potoczylibyście"
+    pl: "Potoczylibyście beczkę do szopy?"
+    ru: "Вы закатили бы бочку в сарай?"
+    source: { kind: authored }
+  - form: "potoczylibyśmy"
+    pl: "Potoczylibyśmy beczkę we dwóch."
+    ru: "Мы вдвоём покатили бы бочку."
+    source: { kind: authored }
+  - form: "potoczylibyśmy"
+    pl: "Potoczylibyśmy kulę na górę."
+    ru: "Мы закатили бы ком наверх."
+    source: { kind: authored }
+  - form: "potoczylibyśmy"
+    pl: "Potoczylibyśmy kamień, gdyby nie był tak ciężki."
+    ru: "Мы откатили бы камень, если бы он не был таким тяжёлым."
+    source: { kind: authored }
+  - form: "potoczyliście"
+    pl: "Potoczyliście opony do garażu?"
+    ru: "Вы закатили шины в гараж?"
+    source: { kind: authored }
+  - form: "potoczyliście"
+    pl: "Potoczyliście kulę na sam szczyt?"
+    ru: "Вы закатили ком на самую вершину?"
+    source: { kind: authored }
+  - form: "potoczyliście"
+    pl: "Gdzie potoczyliście beczkę?"
+    ru: "Куда вы укатили бочку?"
+    source: { kind: authored }
+  - form: "potoczyliśmy"
+    pl: "Potoczyliśmy beczki na podwórze."
+    ru: "Мы выкатили бочки во двор."
+    source: { kind: authored }
+  - form: "potoczyliśmy"
+    pl: "Potoczyliśmy ogromną kulę śniegową."
+    ru: "Мы скатали огромный снежный ком."
+    source: { kind: authored }
+  - form: "potoczyliśmy"
+    pl: "Potoczyliśmy kamień do ogrodu."
+    ru: "Мы прикатили камень в сад."
+    source: { kind: authored }
+  - form: "potoczymy"
+    pl: "Potoczymy beczki do piwnicy."
+    ru: "Мы покатим бочки в подвал."
+    source: { kind: authored }
+  - form: "potoczymy"
+    pl: "Potoczymy kulę śniegową razem."
+    ru: "Мы покатим снежный ком вместе."
+    source: { kind: authored }
+  - form: "potoczymy"
+    pl: "Potoczymy ten głaz na bok."
+    ru: "Мы откатим этот валун в сторону."
+    source: { kind: authored }
+  - form: "potoczysz"
+    pl: "Potoczysz tę beczkę?"
+    ru: "Ты покатишь эту бочку?"
+    source: { kind: authored }
+  - form: "potoczysz"
+    pl: "Jeśli potoczysz kulę, zrobimy bałwana."
+    ru: "Если покатишь ком, сделаем снеговика."
+    source: { kind: authored }
+  - form: "potoczysz"
+    pl: "Potoczysz oponę do auta?"
+    ru: "Ты прикатишь шину к машине?"
+    source: { kind: authored }
+  - form: "potoczywszy"
+    pl: "Potoczywszy beczkę, otarł pot z czoła."
+    ru: "Откатив бочку, он вытер пот со лба."
+    source: { kind: authored }
+  - form: "potoczywszy"
+    pl: "Potoczywszy wzrokiem po sali, zaczął mówić."
+    ru: "Обведя взглядом зал, он начал говорить."
+    source: { kind: authored }
+  - form: "potoczywszy"
+    pl: "Potoczywszy kulę, chłopiec się zmęczył."
+    ru: "Скатав ком, мальчик устал."
+    source: { kind: authored }
+  - form: "potoczyć"
+    pl: "Trzeba potoczyć ten kamień na bok."
+    ru: "Надо откатить этот камень в сторону."
+    source: { kind: authored }
+  - form: "potoczyć"
+    pl: "Nie wiadomo, jak się to może potoczyć."
+    ru: "Неизвестно, как это может обернуться."
+    source: { kind: authored }
+  - form: "potoczyć"
+    pl: "Spróbował potoczyć beczkę sam."
+    ru: "Он попробовал покатить бочку сам."
+    source: { kind: authored }
+  - form: "potoczył"
+    pl: "Potoczył beczkę pod ścianę."
+    ru: "Он покатил бочку к стене."
+    source: { kind: authored }
+  - form: "potoczył"
+    pl: "Potoczył wzrokiem po sali."
+    ru: "Он обвёл взглядом зал."
+    source: { kind: authored }
+  - form: "potoczył"
+    pl: "Kamień potoczył się w przepaść."
+    ru: "Камень покатился в пропасть."
+    source: { kind: authored }
+  - form: "potoczyła"
+    pl: "Piłka potoczyła się pod samochód."
+    ru: "Мяч покатился под машину."
+    source: { kind: authored }
+  - form: "potoczyła"
+    pl: "Rozmowa potoczyła się w złym kierunku."
+    ru: "Разговор пошёл в плохом направлении."
+    source: { kind: authored }
+  - form: "potoczyła"
+    pl: "Łza potoczyła się po jej policzku."
+    ru: "Слеза скатилась по её щеке."
+    source: { kind: authored }
+  - form: "potoczyłaby"
+    pl: "Piłka potoczyłaby się do rzeki."
+    ru: "Мяч покатился бы в реку."
+    source: { kind: authored }
+  - form: "potoczyłaby"
+    pl: "Rozmowa potoczyłaby się inaczej."
+    ru: "Разговор пошёл бы иначе."
+    source: { kind: authored }
+  - form: "potoczyłaby"
+    pl: "Historia potoczyłaby się innym torem."
+    ru: "История пошла бы другим путём."
+    source: { kind: authored }
+  - form: "potoczyłabym"
+    pl: "Potoczyłabym dynię do domu."
+    ru: "Я покатила бы тыкву домой."
+    source: { kind: authored }
+  - form: "potoczyłabym"
+    pl: "Potoczyłabym piłkę do dzieci."
+    ru: "Я покатила бы мяч детям."
+    source: { kind: authored }
+  - form: "potoczyłabym"
+    pl: "Potoczyłabym kulę, ale bolą mnie ręce."
+    ru: "Я скатала бы ком, но болят руки."
+    source: { kind: authored }
+  - form: "potoczyłabyś"
+    pl: "Potoczyłabyś piłkę do mnie?"
+    ru: "Ты не покатила бы мне мяч?"
+    source: { kind: authored }
+  - form: "potoczyłabyś"
+    pl: "Potoczyłabyś kulę sama?"
+    ru: "Ты скатала бы ком сама?"
+    source: { kind: authored }
+  - form: "potoczyłabyś"
+    pl: "Czy potoczyłabyś tę dynię?"
+    ru: "Ты покатила бы эту тыкву?"
+    source: { kind: authored }
+  - form: "potoczyłam"
+    pl: "Potoczyłam piłkę do syna."
+    ru: "Я покатила мяч сыну."
+    source: { kind: authored }
+  - form: "potoczyłam"
+    pl: "Potoczyłam wzrokiem po pokoju."
+    ru: "Я обвела взглядом комнату."
+    source: { kind: authored }
+  - form: "potoczyłam"
+    pl: "Potoczyłam dynię do kuchni."
+    ru: "Я покатила тыкву на кухню."
+    source: { kind: authored }
+  - form: "potoczyłaś"
+    pl: "Potoczyłaś piłkę pod łóżko?"
+    ru: "Ты закатила мяч под кровать?"
+    source: { kind: authored }
+  - form: "potoczyłaś"
+    pl: "Potoczyłaś kulę sama?"
+    ru: "Ты сама скатала ком?"
+    source: { kind: authored }
+  - form: "potoczyłaś"
+    pl: "Gdzie potoczyłaś tę dynię?"
+    ru: "Куда ты укатила эту тыкву?"
+    source: { kind: authored }
+  - form: "potoczyłby"
+    pl: "Potoczyłby beczkę, ale jest za ciężka."
+    ru: "Он покатил бы бочку, но она слишком тяжёлая."
+    source: { kind: authored }
+  - form: "potoczyłby"
+    pl: "Kamień potoczyłby się w dół."
+    ru: "Камень покатился бы вниз."
+    source: { kind: authored }
+  - form: "potoczyłby"
+    pl: "Potoczyłby się los kraju inaczej, gdyby wygrał?"
+    ru: "Сложилась бы судьба страны иначе, если бы он победил?"
+    source: { kind: authored }
+  - form: "potoczyłbym"
+    pl: "Potoczyłbym tę beczkę sam."
+    ru: "Я покатил бы эту бочку сам."
+    source: { kind: authored }
+  - form: "potoczyłbym"
+    pl: "Potoczyłbym kulę, ale śnieg jest mokry."
+    ru: "Я скатал бы ком, но снег мокрый."
+    source: { kind: authored }
+  - form: "potoczyłbym"
+    pl: "Potoczyłbym oponę, gdybym miał siłę."
+    ru: "Я покатил бы шину, если бы были силы."
+    source: { kind: authored }
+  - form: "potoczyłbyś"
+    pl: "Potoczyłbyś mi tę oponę?"
+    ru: "Ты не прикатил бы мне эту шину?"
+    source: { kind: authored }
+  - form: "potoczyłbyś"
+    pl: "Potoczyłbyś beczkę sam?"
+    ru: "Ты покатил бы бочку сам?"
+    source: { kind: authored }
+  - form: "potoczyłbyś"
+    pl: "Czy potoczyłbyś ten głaz?"
+    ru: "Ты сдвинул бы этот валун?"
+    source: { kind: authored }
+  - form: "potoczyłem"
+    pl: "Potoczyłem oponę do warsztatu."
+    ru: "Я покатил шину в мастерскую."
+    source: { kind: authored }
+  - form: "potoczyłem"
+    pl: "Potoczyłem wzrokiem po twarzach."
+    ru: "Я обвёл взглядом лица."
+    source: { kind: authored }
+  - form: "potoczyłem"
+    pl: "Potoczyłem kulę aż pod dom."
+    ru: "Я докатил ком до самого дома."
+    source: { kind: authored }
+  - form: "potoczyłeś"
+    pl: "Potoczyłeś już beczkę?"
+    ru: "Ты уже откатил бочку?"
+    source: { kind: authored }
+  - form: "potoczyłeś"
+    pl: "Potoczyłeś kulę za daleko."
+    ru: "Ты укатил ком слишком далеко."
+    source: { kind: authored }
+  - form: "potoczyłeś"
+    pl: "Gdzie potoczyłeś tę oponę?"
+    ru: "Куда ты укатил эту шину?"
+    source: { kind: authored }
+  - form: "potoczyło"
+    pl: "Wszystko potoczyło się bardzo szybko."
+    ru: "Всё произошло очень быстро."
+    source: { kind: authored }
+  - form: "potoczyło"
+    pl: "Jabłko potoczyło się pod stół."
+    ru: "Яблоко закатилось под стол."
+    source: { kind: authored }
+  - form: "potoczyło"
+    pl: "Życie potoczyło się inaczej."
+    ru: "Жизнь сложилась иначе."
+    source: { kind: authored }
+  - form: "potoczyłoby"
+    pl: "Jak potoczyłoby się twoje życie bez niej?"
+    ru: "Как сложилась бы твоя жизнь без неё?"
+    source: { kind: authored }
+  - form: "potoczyłoby"
+    pl: "Jabłko potoczyłoby się pod szafę."
+    ru: "Яблоко закатилось бы под шкаф."
+    source: { kind: authored }
+  - form: "potoczyłoby"
+    pl: "Dziecko potoczyłoby piłkę dalej."
+    ru: "Ребёнок покатил бы мяч дальше."
+    source: { kind: authored }
+  - form: "potoczyły"
+    pl: "Sprawy potoczyły się szybko."
+    ru: "События развивались быстро."
+    source: { kind: authored }
+  - form: "potoczyły"
+    pl: "Kulki potoczyły się po podłodze."
+    ru: "Шарики покатились по полу."
+    source: { kind: authored }
+  - form: "potoczyły"
+    pl: "Dziewczynki potoczyły obręcz."
+    ru: "Девочки покатили обруч."
+    source: { kind: authored }
+  - form: "potoczyłyby"
+    pl: "Sprawy potoczyłyby się szybciej."
+    ru: "Дела пошли бы быстрее."
+    source: { kind: authored }
+  - form: "potoczyłyby"
+    pl: "Kulki potoczyłyby się pod meble."
+    ru: "Шарики закатились бы под мебель."
+    source: { kind: authored }
+  - form: "potoczyłyby"
+    pl: "Dziewczynki potoczyłyby obręcz dalej."
+    ru: "Девочки покатили бы обруч дальше."
+    source: { kind: authored }
+  - form: "potoczyłybyście"
+    pl: "Potoczyłybyście piłkę do mnie?"
+    ru: "Вы не покатили бы мне мяч?"
+    source: { kind: authored }
+  - form: "potoczyłybyście"
+    pl: "Czy potoczyłybyście dynię do auta?"
+    ru: "Вы прикатили бы тыкву к машине?"
+    source: { kind: authored }
+  - form: "potoczyłybyście"
+    pl: "Potoczyłybyście kulę dalej?"
+    ru: "Вы покатили бы ком дальше?"
+    source: { kind: authored }
+  - form: "potoczyłybyśmy"
+    pl: "Potoczyłybyśmy kulę dalej."
+    ru: "Мы покатили бы ком дальше."
+    source: { kind: authored }
+  - form: "potoczyłybyśmy"
+    pl: "Potoczyłybyśmy beczkę do piwnicy."
+    ru: "Мы закатили бы бочку в подвал."
+    source: { kind: authored }
+  - form: "potoczyłybyśmy"
+    pl: "Potoczyłybyśmy piłkę do dzieci."
+    ru: "Мы покатили бы мяч детям."
+    source: { kind: authored }
+  - form: "potoczyłyście"
+    pl: "Potoczyłyście kule śniegowe?"
+    ru: "Вы скатали снежные комья?"
+    source: { kind: authored }
+  - form: "potoczyłyście"
+    pl: "Potoczyłyście dynię do auta?"
+    ru: "Вы прикатили тыкву к машине?"
+    source: { kind: authored }
+  - form: "potoczyłyście"
+    pl: "Gdzie potoczyłyście piłkę?"
+    ru: "Куда вы укатили мяч?"
+    source: { kind: authored }
+  - form: "potoczyłyśmy"
+    pl: "Potoczyłyśmy kulę na górkę."
+    ru: "Мы закатили ком на горку."
+    source: { kind: authored }
+  - form: "potoczyłyśmy"
+    pl: "Potoczyłyśmy beczkę do szopy."
+    ru: "Мы закатили бочку в сарай."
+    source: { kind: authored }
+  - form: "potoczyłyśmy"
+    pl: "Potoczyłyśmy piłkę do dzieci."
+    ru: "Мы покатили мяч детям."
+    source: { kind: authored }
+  - form: "potoczą"
+    pl: "Zobaczymy, jak się sprawy potoczą."
+    ru: "Посмотрим, как пойдут дела."
+    source: { kind: authored }
+  - form: "potoczą"
+    pl: "Dzieci potoczą kule śniegowe."
+    ru: "Дети покатят снежные комья."
+    source: { kind: authored }
+  - form: "potoczą"
+    pl: "Robotnicy potoczą beczki na plac."
+    ru: "Рабочие покатят бочки на площадку."
+    source: { kind: authored }
+  - form: "potoczę"
+    pl: "Potoczę tę oponę do garażu."
+    ru: "Я покачу эту шину в гараж."
+    source: { kind: authored }
+  - form: "potoczę"
+    pl: "Potoczę kulę śniegową dalej."
+    ru: "Я покачу снежный ком дальше."
+    source: { kind: authored }
+  - form: "potoczę"
+    pl: "Potoczę beczkę, a ty otwórz drzwi."
+    ru: "Я покачу бочку, а ты открой дверь."
+    source: { kind: authored }
