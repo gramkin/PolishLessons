@@ -1,0 +1,508 @@
+# review
+id: pobiec
+format: 2
+lemma: "pobiec"
+rank: 4096
+pos: verb
+pron: { cyr: "по́бец" }
+senses:
+  - id: run
+    ru: "побежать, сбегать (куда-то, за чем-то)"
+    examples:
+      - pl: "Pobiegł po pomoc."
+        ru: "Он побежал за помощью."
+        source: { kind: authored }
+      - pl: "Pies pobiegł za kotem."
+        ru: "Собака побежала за кошкой."
+        source: { kind: authored }
+      - pl: "Pobiegnij po chleb, proszę."
+        ru: "Сбегай за хлебом, пожалуйста."
+        source: { kind: authored }
+  - id: run-race
+    ru: "пробежать (дистанцию, забег)"
+    examples:
+      - pl: "Jutro pobiegnę maraton."
+        ru: "Завтра я побегу марафон."
+        source: { kind: authored }
+      - pl: "W zeszłym roku pobiegłem półmaraton."
+        ru: "В прошлом году я пробежал полумарафон."
+        source: { kind: authored }
+  - id: drift
+    ru: "перен. устремиться (о взгляде, мыслях)"
+    examples:
+      - pl: "Jej wzrok pobiegł w stronę drzwi."
+        ru: "Её взгляд метнулся к двери."
+        source: { kind: authored }
+      - pl: "Myśli pobiegły ku domowi."
+        ru: "Мысли унеслись к дому."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "POBIEC — «побежать», как в русском. Но «сбежать» — UCIEC, «пробежать мимо» — PRZEBIEC. POBIEC PO CHLEB — «сбегать за хлебом»: PO здесь «за». POBIEC NA POMOC — «броситься на помощь»." }
+  - { kind: usage, text: "Тридцать семь форм: вариант инфинитива «pobiegnąć», безличная форма и отглагольное существительное практически не употребляются. Будущее с -N-: POBIEGNĘ, POBIEGNIESZ, повелительное POBIEGNIJ; прошедшее — POBIEGŁ, POBIEGLI; деепричастие — POBIEGŁSZY." }
+  - { kind: government, text: "Куда — DO, NA, W: DO SKLEPU, NA PRZYSTANEK, W STRONĘ LASU. За чем — PO с винительным: PO CHLEB, PO LEKARZA. За кем — ZA с творительным: ZA PSEM. Дистанцию — винительный: POBIEC MARATON." }
+  - { kind: pronunciation, text: "Читается «по́бец», ударение на первом слоге. POBIEGNĘ — «побе́гнэ», POBIEGŁ — «по́бегу»." }
+  - { kind: register, text: "Нейтральное слово. WZROK POBIEGŁ, MYŚLI POBIEGŁY — книжное. POBIEC NA ZŁAMANIE KARKU — разговорное «бежать сломя голову»." }
+collocations:
+  - { pl: "pobiec po pomoc", ru: "побежать за помощью" }
+  - { pl: "pobiec maraton", ru: "пробежать марафон" }
+  - { pl: "pobiec za kimś", ru: "побежать за кем-то" }
+family:
+  - { pl: "biec", ru: "бежать", relation: root, id: biec }
+  - { pl: "dobiec", ru: "добежать", relation: derived, id: dobiec }
+  - { pl: "uciec", ru: "убежать, сбежать", relation: derived, id: uciec }
+etymology: "Приставка PO- плюс BIEC «бежать», праславянское *běgti. Русское «побежать» — то же слово."
+memory: "Pobiec po chleb — сбегать за хлебом. Pobiec maraton — пробежать марафон. Pobiegnij! — сбегай! Читается «по́бец»."
+idioms:
+  - { pl: "pobiec na złamanie karku", ru: "бежать сломя голову" }
+formExamplesSkip:
+  - { form: "pobiegnąć", reason: "редкий вариант инфинитива POBIEC" }
+  - { form: "pobiegnięto", reason: "безличная форма неупотребительна" }
+  - { form: "pobiegnięcie", reason: "отглагольное существительное практически не употребляется" }
+  - { form: "pobiegnięcia", reason: "отглагольное существительное практически не употребляется" }
+  - { form: "pobiegnięciu", reason: "отглагольное существительное практически не употребляется" }
+  - { form: "pobiegnięciem", reason: "отглагольное существительное практически не употребляется" }
+formExamples:
+  - form: "pobiec"
+    pl: "Muszę pobiec do apteki."
+    ru: "Мне надо сбегать в аптеку."
+    source: { kind: authored }
+  - form: "pobiec"
+    pl: "Chciał pobiec za nią, ale się powstrzymał."
+    ru: "Он хотел побежать за ней, но сдержался."
+    source: { kind: authored }
+  - form: "pobiec"
+    pl: "Zdążysz pobiec po chleb?"
+    ru: "Успеешь сбегать за хлебом?"
+    source: { kind: authored }
+  - form: "pobiegli"
+    pl: "Pobiegli na pomoc."
+    ru: "Они побежали на помощь."
+    source: { kind: authored }
+  - form: "pobiegli"
+    pl: "Chłopcy pobiegli nad rzekę."
+    ru: "Мальчики побежали к реке."
+    source: { kind: authored }
+  - form: "pobiegli"
+    pl: "Pobiegli maraton poniżej trzech godzin."
+    ru: "Они пробежали марафон быстрее трёх часов."
+    source: { kind: authored }
+  - form: "pobiegliby"
+    pl: "Pobiegliby na pomoc bez wahania."
+    ru: "Они без колебаний побежали бы на помощь."
+    source: { kind: authored }
+  - form: "pobiegliby"
+    pl: "Chłopcy pobiegliby nad rzekę."
+    ru: "Мальчики побежали бы к реке."
+    source: { kind: authored }
+  - form: "pobiegliby"
+    pl: "Pobiegliby maraton, gdyby nie upał."
+    ru: "Они пробежали бы марафон, если бы не жара."
+    source: { kind: authored }
+  - form: "pobieglibyście"
+    pl: "Pobieglibyście po pomoc?"
+    ru: "Вы побежали бы за помощью?"
+    source: { kind: authored }
+  - form: "pobieglibyście"
+    pl: "Czy pobieglibyście maraton?"
+    ru: "Вы пробежали бы марафон?"
+    source: { kind: authored }
+  - form: "pobieglibyście"
+    pl: "Pobieglibyście za złodziejem?"
+    ru: "Вы побежали бы за вором?"
+    source: { kind: authored }
+  - form: "pobieglibyśmy"
+    pl: "Pobieglibyśmy nad jezioro."
+    ru: "Мы побежали бы к озеру."
+    source: { kind: authored }
+  - form: "pobieglibyśmy"
+    pl: "Pobieglibyśmy na pomoc."
+    ru: "Мы побежали бы на помощь."
+    source: { kind: authored }
+  - form: "pobieglibyśmy"
+    pl: "Pobieglibyśmy maraton razem."
+    ru: "Мы пробежали бы марафон вместе."
+    source: { kind: authored }
+  - form: "pobiegliście"
+    pl: "Pobiegliście po pomoc?"
+    ru: "Вы побежали за помощью?"
+    source: { kind: authored }
+  - form: "pobiegliście"
+    pl: "Gdzie pobiegliście?"
+    ru: "Куда вы побежали?"
+    source: { kind: authored }
+  - form: "pobiegliście"
+    pl: "Pobiegliście za psem?"
+    ru: "Вы побежали за собакой?"
+    source: { kind: authored }
+  - form: "pobiegliśmy"
+    pl: "Pobiegliśmy na plażę."
+    ru: "Мы побежали на пляж."
+    source: { kind: authored }
+  - form: "pobiegliśmy"
+    pl: "Pobiegliśmy po pomoc."
+    ru: "Мы побежали за помощью."
+    source: { kind: authored }
+  - form: "pobiegliśmy"
+    pl: "Pobiegliśmy za złodziejem."
+    ru: "Мы побежали за вором."
+    source: { kind: authored }
+  - form: "pobiegnie"
+    pl: "Pies pobiegnie za piłką."
+    ru: "Собака побежит за мячом."
+    source: { kind: authored }
+  - form: "pobiegnie"
+    pl: "Kto pobiegnie po lekarza?"
+    ru: "Кто сбегает за врачом?"
+    source: { kind: authored }
+  - form: "pobiegnie"
+    pl: "Ona pobiegnie w sztafecie."
+    ru: "Она побежит в эстафете."
+    source: { kind: authored }
+  - form: "pobiegniecie"
+    pl: "Pobiegniecie po wodę?"
+    ru: "Вы сбегаете за водой?"
+    source: { kind: authored }
+  - form: "pobiegniecie"
+    pl: "Pobiegniecie na dziesięć kilometrów?"
+    ru: "Вы побежите десятку?"
+    source: { kind: authored }
+  - form: "pobiegniecie"
+    pl: "Jeśli pobiegniecie, zdążycie."
+    ru: "Если побежите, успеете."
+    source: { kind: authored }
+  - form: "pobiegniemy"
+    pl: "Pobiegniemy razem po parku."
+    ru: "Мы побегаем вместе по парку."
+    source: { kind: authored }
+  - form: "pobiegniemy"
+    pl: "Pobiegniemy na pomoc sąsiadom."
+    ru: "Мы побежим на помощь соседям."
+    source: { kind: authored }
+  - form: "pobiegniemy"
+    pl: "Pobiegniemy w maratonie warszawskim."
+    ru: "Мы побежим Варшавский марафон."
+    source: { kind: authored }
+  - form: "pobiegniesz"
+    pl: "Pobiegniesz po chleb?"
+    ru: "Сбегаешь за хлебом?"
+    source: { kind: authored }
+  - form: "pobiegniesz"
+    pl: "Jeśli pobiegniesz, zdążysz na autobus."
+    ru: "Если побежишь, успеешь на автобус."
+    source: { kind: authored }
+  - form: "pobiegniesz"
+    pl: "Pobiegniesz z nami w biegu charytatywnym?"
+    ru: "Побежишь с нами в благотворительном забеге?"
+    source: { kind: authored }
+  - form: "pobiegnij"
+    pl: "Pobiegnij po chleb, proszę."
+    ru: "Сбегай за хлебом, пожалуйста."
+    source: { kind: authored }
+  - form: "pobiegnij"
+    pl: "Pobiegnij za nim i oddaj mu portfel."
+    ru: "Догони его и верни ему бумажник."
+    source: { kind: authored }
+  - form: "pobiegnij"
+    pl: "Pobiegnij po lekarza!"
+    ru: "Беги за врачом!"
+    source: { kind: authored }
+  - form: "pobiegnijcie"
+    pl: "Pobiegnijcie po pomoc!"
+    ru: "Бегите за помощью!"
+    source: { kind: authored }
+  - form: "pobiegnijcie"
+    pl: "Pobiegnijcie do domu, zaczyna padać."
+    ru: "Бегите домой, начинается дождь."
+    source: { kind: authored }
+  - form: "pobiegnijcie"
+    pl: "Pobiegnijcie za piłką."
+    ru: "Бегите за мячом."
+    source: { kind: authored }
+  - form: "pobiegnijmy"
+    pl: "Pobiegnijmy nad jezioro."
+    ru: "Давайте сбегаем к озеру."
+    source: { kind: authored }
+  - form: "pobiegnijmy"
+    pl: "Pobiegnijmy na przystanek, bo ucieknie nam autobus."
+    ru: "Давайте побежим на остановку, а то уйдёт автобус."
+    source: { kind: authored }
+  - form: "pobiegnijmy"
+    pl: "Pobiegnijmy razem w niedzielę."
+    ru: "Давайте побегаем вместе в воскресенье."
+    source: { kind: authored }
+  - form: "pobiegną"
+    pl: "Dzieci pobiegną nad rzekę."
+    ru: "Дети побегут к реке."
+    source: { kind: authored }
+  - form: "pobiegną"
+    pl: "Zawodnicy pobiegną w deszczu."
+    ru: "Спортсмены побегут под дождём."
+    source: { kind: authored }
+  - form: "pobiegną"
+    pl: "Ludzie pobiegną na pomoc."
+    ru: "Люди бросятся на помощь."
+    source: { kind: authored }
+  - form: "pobiegnę"
+    pl: "Pobiegnę po pomoc."
+    ru: "Я побегу за помощью."
+    source: { kind: authored }
+  - form: "pobiegnę"
+    pl: "Pobiegnę do sklepu i zaraz wracam."
+    ru: "Я сбегаю в магазин и сейчас вернусь."
+    source: { kind: authored }
+  - form: "pobiegnę"
+    pl: "Jutro pobiegnę maraton."
+    ru: "Завтра я побегу марафон."
+    source: { kind: authored }
+  - form: "pobiegł"
+    pl: "Pobiegł po pomoc."
+    ru: "Он побежал за помощью."
+    source: { kind: authored }
+  - form: "pobiegł"
+    pl: "Pies pobiegł za kotem."
+    ru: "Собака побежала за кошкой."
+    source: { kind: authored }
+  - form: "pobiegł"
+    pl: "Pobiegł do sklepu w kapciach."
+    ru: "Он сбегал в магазин в тапочках."
+    source: { kind: authored }
+  - form: "pobiegła"
+    pl: "Pobiegła za nim na dworzec."
+    ru: "Она побежала за ним на вокзал."
+    source: { kind: authored }
+  - form: "pobiegła"
+    pl: "Pobiegła do mamy z płaczem."
+    ru: "Она с плачем побежала к маме."
+    source: { kind: authored }
+  - form: "pobiegła"
+    pl: "Pobiegła do apteki po leki."
+    ru: "Она сбегала в аптеку за лекарствами."
+    source: { kind: authored }
+  - form: "pobiegłaby"
+    pl: "Pobiegłaby za nim na koniec świata."
+    ru: "Она побежала бы за ним на край света."
+    source: { kind: authored }
+  - form: "pobiegłaby"
+    pl: "Pobiegłaby po lekarza."
+    ru: "Она сбегала бы за врачом."
+    source: { kind: authored }
+  - form: "pobiegłaby"
+    pl: "Pobiegłaby w biegu, gdyby nie kontuzja."
+    ru: "Она побежала бы в забеге, если бы не травма."
+    source: { kind: authored }
+  - form: "pobiegłabym"
+    pl: "Pobiegłabym po lekarza."
+    ru: "Я сбегала бы за врачом."
+    source: { kind: authored }
+  - form: "pobiegłabym"
+    pl: "Pobiegłabym za nim, ale jest za daleko."
+    ru: "Я побежала бы за ним, но слишком далеко."
+    source: { kind: authored }
+  - form: "pobiegłabym"
+    pl: "Pobiegłabym w biegu charytatywnym."
+    ru: "Я побежала бы в благотворительном забеге."
+    source: { kind: authored }
+  - form: "pobiegłabyś"
+    pl: "Pobiegłabyś po pomoc?"
+    ru: "Ты побежала бы за помощью?"
+    source: { kind: authored }
+  - form: "pobiegłabyś"
+    pl: "Czy pobiegłabyś w maratonie?"
+    ru: "Ты побежала бы марафон?"
+    source: { kind: authored }
+  - form: "pobiegłabyś"
+    pl: "Pobiegłabyś za nim?"
+    ru: "Ты побежала бы за ним?"
+    source: { kind: authored }
+  - form: "pobiegłam"
+    pl: "Pobiegłam do sąsiadki po pomoc."
+    ru: "Я побежала к соседке за помощью."
+    source: { kind: authored }
+  - form: "pobiegłam"
+    pl: "Pobiegłam za psem do parku."
+    ru: "Я побежала за собакой в парк."
+    source: { kind: authored }
+  - form: "pobiegłam"
+    pl: "Pobiegłam na pociąg."
+    ru: "Я побежала на поезд."
+    source: { kind: authored }
+  - form: "pobiegłaś"
+    pl: "Pobiegłaś po pomoc?"
+    ru: "Ты побежала за помощью?"
+    source: { kind: authored }
+  - form: "pobiegłaś"
+    pl: "Gdzie pobiegłaś?"
+    ru: "Куда ты побежала?"
+    source: { kind: authored }
+  - form: "pobiegłaś"
+    pl: "Pobiegłaś za tramwajem?"
+    ru: "Ты побежала за трамваем?"
+    source: { kind: authored }
+  - form: "pobiegłby"
+    pl: "Pobiegłby po pomoc, ale ma złamaną nogę."
+    ru: "Он побежал бы за помощью, но у него сломана нога."
+    source: { kind: authored }
+  - form: "pobiegłby"
+    pl: "Pies pobiegłby za każdym kotem."
+    ru: "Собака побежала бы за любой кошкой."
+    source: { kind: authored }
+  - form: "pobiegłby"
+    pl: "Pobiegłby maraton, gdyby trenował."
+    ru: "Он пробежал бы марафон, если бы тренировался."
+    source: { kind: authored }
+  - form: "pobiegłbym"
+    pl: "Pobiegłbym za tobą wszędzie."
+    ru: "Я побежал бы за тобой куда угодно."
+    source: { kind: authored }
+  - form: "pobiegłbym"
+    pl: "Pobiegłbym po pomoc, ale nie mogę zostawić rannego."
+    ru: "Я побежал бы за помощью, но не могу оставить раненого."
+    source: { kind: authored }
+  - form: "pobiegłbym"
+    pl: "Pobiegłbym maraton, gdyby nie kolano."
+    ru: "Я пробежал бы марафон, если бы не колено."
+    source: { kind: authored }
+  - form: "pobiegłbyś"
+    pl: "Pobiegłbyś po chleb?"
+    ru: "Ты не сбегал бы за хлебом?"
+    source: { kind: authored }
+  - form: "pobiegłbyś"
+    pl: "Czy pobiegłbyś maraton?"
+    ru: "Ты пробежал бы марафон?"
+    source: { kind: authored }
+  - form: "pobiegłbyś"
+    pl: "Pobiegłbyś za nią?"
+    ru: "Ты побежал бы за ней?"
+    source: { kind: authored }
+  - form: "pobiegłem"
+    pl: "Pobiegłem za autobusem."
+    ru: "Я побежал за автобусом."
+    source: { kind: authored }
+  - form: "pobiegłem"
+    pl: "Pobiegłem po lekarza."
+    ru: "Я побежал за врачом."
+    source: { kind: authored }
+  - form: "pobiegłem"
+    pl: "W zeszłym roku pobiegłem półmaraton."
+    ru: "В прошлом году я пробежал полумарафон."
+    source: { kind: authored }
+  - form: "pobiegłeś"
+    pl: "Pobiegłeś po chleb?"
+    ru: "Ты сбегал за хлебом?"
+    source: { kind: authored }
+  - form: "pobiegłeś"
+    pl: "Dlaczego za nim pobiegłeś?"
+    ru: "Почему ты побежал за ним?"
+    source: { kind: authored }
+  - form: "pobiegłeś"
+    pl: "Pobiegłeś w maratonie?"
+    ru: "Ты бежал марафон?"
+    source: { kind: authored }
+  - form: "pobiegło"
+    pl: "Dziecko pobiegło do mamy."
+    ru: "Ребёнок побежал к маме."
+    source: { kind: authored }
+  - form: "pobiegło"
+    pl: "Stado pobiegło w stronę lasu."
+    ru: "Стадо побежало к лесу."
+    source: { kind: authored }
+  - form: "pobiegło"
+    pl: "Źrebię pobiegło za klaczą."
+    ru: "Жеребёнок побежал за кобылой."
+    source: { kind: authored }
+  - form: "pobiegłoby"
+    pl: "Dziecko pobiegłoby do mamy."
+    ru: "Ребёнок побежал бы к маме."
+    source: { kind: authored }
+  - form: "pobiegłoby"
+    pl: "Stado pobiegłoby w stronę lasu."
+    ru: "Стадо побежало бы к лесу."
+    source: { kind: authored }
+  - form: "pobiegłoby"
+    pl: "Źrebię pobiegłoby za klaczą."
+    ru: "Жеребёнок побежал бы за кобылой."
+    source: { kind: authored }
+  - form: "pobiegłszy"
+    pl: "Pobiegłszy po pomoc, wrócił z lekarzem."
+    ru: "Сбегав за помощью, он вернулся с врачом."
+    source: { kind: authored }
+  - form: "pobiegłszy"
+    pl: "Pobiegłszy za psem, zgubiła się w lesie."
+    ru: "Побежав за собакой, она заблудилась в лесу."
+    source: { kind: authored }
+  - form: "pobiegłszy"
+    pl: "Pobiegłszy do sklepu, zapomniał portfela."
+    ru: "Побежав в магазин, он забыл бумажник."
+    source: { kind: authored }
+  - form: "pobiegły"
+    pl: "Dziewczynki pobiegły do szatni."
+    ru: "Девочки побежали в раздевалку."
+    source: { kind: authored }
+  - form: "pobiegły"
+    pl: "Psy pobiegły za zającem."
+    ru: "Собаки побежали за зайцем."
+    source: { kind: authored }
+  - form: "pobiegły"
+    pl: "Myśli pobiegły ku domowi."
+    ru: "Мысли унеслись к дому."
+    source: { kind: authored }
+  - form: "pobiegłyby"
+    pl: "Dziewczynki pobiegłyby do szatni."
+    ru: "Девочки побежали бы в раздевалку."
+    source: { kind: authored }
+  - form: "pobiegłyby"
+    pl: "Psy pobiegłyby za zającem."
+    ru: "Собаки побежали бы за зайцем."
+    source: { kind: authored }
+  - form: "pobiegłyby"
+    pl: "Dzieci pobiegłyby na plac zabaw."
+    ru: "Дети побежали бы на детскую площадку."
+    source: { kind: authored }
+  - form: "pobiegłybyście"
+    pl: "Pobiegłybyście po lody?"
+    ru: "Вы сбегали бы за мороженым?"
+    source: { kind: authored }
+  - form: "pobiegłybyście"
+    pl: "Czy pobiegłybyście w biegu?"
+    ru: "Вы побежали бы в забеге?"
+    source: { kind: authored }
+  - form: "pobiegłybyście"
+    pl: "Pobiegłybyście za psem?"
+    ru: "Вы побежали бы за собакой?"
+    source: { kind: authored }
+  - form: "pobiegłybyśmy"
+    pl: "Pobiegłybyśmy po lody."
+    ru: "Мы сбегали бы за мороженым."
+    source: { kind: authored }
+  - form: "pobiegłybyśmy"
+    pl: "Pobiegłybyśmy nad rzekę."
+    ru: "Мы побежали бы к реке."
+    source: { kind: authored }
+  - form: "pobiegłybyśmy"
+    pl: "Pobiegłybyśmy w biegu kobiet."
+    ru: "Мы побежали бы в женском забеге."
+    source: { kind: authored }
+  - form: "pobiegłyście"
+    pl: "Pobiegłyście do domu?"
+    ru: "Вы побежали домой?"
+    source: { kind: authored }
+  - form: "pobiegłyście"
+    pl: "Gdzie pobiegłyście?"
+    ru: "Куда вы побежали?"
+    source: { kind: authored }
+  - form: "pobiegłyście"
+    pl: "Pobiegłyście po lody?"
+    ru: "Вы сбегали за мороженым?"
+    source: { kind: authored }
+  - form: "pobiegłyśmy"
+    pl: "Pobiegłyśmy do szkoły."
+    ru: "Мы побежали в школу."
+    source: { kind: authored }
+  - form: "pobiegłyśmy"
+    pl: "Pobiegłyśmy nad jezioro."
+    ru: "Мы побежали к озеру."
+    source: { kind: authored }
+  - form: "pobiegłyśmy"
+    pl: "Pobiegłyśmy po lody."
+    ru: "Мы сбегали за мороженым."
+    source: { kind: authored }
