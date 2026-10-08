@@ -1,0 +1,618 @@
+# review
+id: uczestniczyc
+format: 2
+lemma: "uczestniczyć"
+rank: 4419
+pos: verb
+pron: { cyr: "учэстни́чыць" }
+senses:
+  - id: take-part
+    ru: "участвовать, принимать участие"
+    examples:
+      - pl: "Uczestniczę w kursie polskiego."
+        ru: "Я участвую в курсе польского."
+        source: { kind: authored }
+      - pl: "W konferencji uczestniczyło stu naukowców."
+        ru: "В конференции участвовали сто учёных."
+        source: { kind: authored }
+      - pl: "Czy uczestniczysz w wyborach?"
+        ru: "Ты участвуешь в выборах?"
+        source: { kind: authored }
+  - id: attend
+    ru: "присутствовать (на церемонии, событии)"
+    examples:
+      - pl: "Uczestniczyliśmy w ślubie przyjaciół."
+        ru: "Мы были на свадьбе друзей."
+        source: { kind: authored }
+      - pl: "Cała rodzina uczestniczyła w pogrzebie."
+        ru: "Вся семья присутствовала на похоронах."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "UCZESTNICZYĆ — «участвовать»: корень CZĘŚĆ «часть», как в русском «участь», «участие». Управление совпадает с русским: UCZESTNICZYĆ W ZEBRANIU «участвовать в собрании». Ловушка — в выборе слова: о событиях вроде свадьбы по-польски тоже UCZESTNICZYĆ, где по-русски скажут «быть на»." }
+  - { kind: usage, text: "Несовершенный вид, пары нет. Синоним — BRAĆ UDZIAŁ «принимать участие», более разговорный. Повелительное UCZESTNICZ и отглагольное существительное (вместо него говорят UCZESTNICTWO) в карточку не включены." }
+  - { kind: government, text: "В чём — W с предложным: UCZESTNICZYĆ W ZAJĘCIACH, W KONKURSIE, W ŻYCIU SZKOŁY. При числительном глагол стоит в среднем роде: UCZESTNICZYŁO STO OSÓB «участвовало сто человек»." }
+  - { kind: pronunciation, text: "Читается «учэстни́чыць»: сочетание STN произносится полностью, T слышно. CZ — твёрдое «ч», ударение на предпоследнем слоге. UCZESTNICZĘ — «учэстни́чэ»." }
+  - { kind: register, text: "Книжно-нейтральное слово: школа, работа, официальные объявления. В разговоре чаще BYĆ NA: BYŁEM NA WESELU «я был на свадьбе»." }
+collocations:
+  - { pl: "uczestniczyć w zajęciach", ru: "посещать занятия" }
+  - { pl: "uczestniczyć w wyborach", ru: "участвовать в выборах" }
+  - { pl: "aktywnie uczestniczyć", ru: "активно участвовать" }
+family:
+  - { pl: "uczestnik", ru: "участник", relation: derived }
+  - { pl: "udział", ru: "участие, доля", relation: root, id: udzial }
+  - { pl: "część", ru: "часть", relation: root, id: czesc-noun }
+etymology: "От UCZESTNIK «участник», а оно от CZĘŚĆ «часть» через старопольское UCZĘSTNIK: «имеющий долю». Русское «участник», «участие» — тот же корень."
+memory: "Uczestniczyć w czymś — участвовать в чём-то: uczestniczę w kursie. Корень część «часть», как в «участии»."
+idioms:
+  - { pl: "uczestniczyć w życiu kogoś", ru: "участвовать в чьей-то жизни" }
+formExamplesSkip:
+  - { form: "uczestnicz", reason: "повелительное единственного числа не употребляется" }
+  - { form: "uczestniczenie", reason: "вместо отглагольного существительного говорят UCZESTNICTWO" }
+  - { form: "uczestniczenia", reason: "вместо отглагольного существительного говорят UCZESTNICTWO" }
+  - { form: "uczestniczeniu", reason: "вместо отглагольного существительного говорят UCZESTNICTWO" }
+  - { form: "uczestniczeniem", reason: "вместо отглагольного существительного говорят UCZESTNICTWO" }
+formExamples:
+  - form: "uczestniczcie"
+    pl: "Uczestniczcie w zajęciach regularnie."
+    ru: "Посещайте занятия регулярно."
+    source: { kind: authored }
+  - form: "uczestniczcie"
+    pl: "Uczestniczcie w konkursie, warto!"
+    ru: "Участвуйте в конкурсе, стоит!"
+    source: { kind: authored }
+  - form: "uczestniczcie"
+    pl: "Uczestniczcie w dyskusji, a nie tylko słuchajcie."
+    ru: "Участвуйте в обсуждении, а не только слушайте."
+    source: { kind: authored }
+  - form: "uczestniczmy"
+    pl: "Uczestniczmy w wyborach!"
+    ru: "Давайте участвовать в выборах!"
+    source: { kind: authored }
+  - form: "uczestniczmy"
+    pl: "Uczestniczmy aktywnie w życiu miasta."
+    ru: "Давайте активно участвовать в жизни города."
+    source: { kind: authored }
+  - form: "uczestniczmy"
+    pl: "Uczestniczmy razem w tej akcji."
+    ru: "Давайте вместе участвовать в этой акции."
+    source: { kind: authored }
+  - form: "uczestniczono"
+    pl: "W wyborach uczestniczono licznie."
+    ru: "В выборах участвовали массово."
+    source: { kind: authored }
+  - form: "uczestniczono"
+    pl: "W zajęciach uczestniczono chętnie."
+    ru: "Занятия посещали охотно."
+    source: { kind: authored }
+  - form: "uczestniczono"
+    pl: "Rzadko uczestniczono w zebraniach."
+    ru: "На собрания ходили редко."
+    source: { kind: authored }
+  - form: "uczestniczy"
+    pl: "Ona uczestniczy w konkursie piosenki."
+    ru: "Она участвует в конкурсе песни."
+    source: { kind: authored }
+  - form: "uczestniczy"
+    pl: "Firma uczestniczy w targach."
+    ru: "Фирма участвует в ярмарке."
+    source: { kind: authored }
+  - form: "uczestniczy"
+    pl: "Dziecko chętnie uczestniczy w lekcjach."
+    ru: "Ребёнок охотно участвует в уроках."
+    source: { kind: authored }
+  - form: "uczestniczycie"
+    pl: "Uczestniczycie w turnieju?"
+    ru: "Вы участвуете в турнире?"
+    source: { kind: authored }
+  - form: "uczestniczycie"
+    pl: "W czym uczestniczycie w tym semestrze?"
+    ru: "В чём вы участвуете в этом семестре?"
+    source: { kind: authored }
+  - form: "uczestniczycie"
+    pl: "Uczestniczycie w zebraniu jako goście."
+    ru: "Вы присутствуете на собрании как гости."
+    source: { kind: authored }
+  - form: "uczestniczyli"
+    pl: "Studenci uczestniczyli w strajku."
+    ru: "Студенты участвовали в забастовке."
+    source: { kind: authored }
+  - form: "uczestniczyli"
+    pl: "Moi dziadkowie uczestniczyli w tym marszu."
+    ru: "Мои дедушка и бабушка участвовали в этом марше."
+    source: { kind: authored }
+  - form: "uczestniczyli"
+    pl: "W debacie uczestniczyli wszyscy kandydaci."
+    ru: "В дебатах участвовали все кандидаты."
+    source: { kind: authored }
+  - form: "uczestniczyliby"
+    pl: "Studenci uczestniczyliby w wykładach, gdyby były ciekawsze."
+    ru: "Студенты ходили бы на лекции, если бы они были интереснее."
+    source: { kind: authored }
+  - form: "uczestniczyliby"
+    pl: "Rodzice uczestniczyliby w zebraniach wieczorem."
+    ru: "Родители ходили бы на собрания вечером."
+    source: { kind: authored }
+  - form: "uczestniczyliby"
+    pl: "Chętnie uczestniczyliby w turnieju."
+    ru: "Они охотно участвовали бы в турнире."
+    source: { kind: authored }
+  - form: "uczestniczylibyście"
+    pl: "Uczestniczylibyście w takim biegu?"
+    ru: "Вы участвовали бы в таком забеге?"
+    source: { kind: authored }
+  - form: "uczestniczylibyście"
+    pl: "Czy uczestniczylibyście w projekcie?"
+    ru: "Вы участвовали бы в проекте?"
+    source: { kind: authored }
+  - form: "uczestniczylibyście"
+    pl: "Uczestniczylibyście w zebraniu wieczorem?"
+    ru: "Вы пришли бы на собрание вечером?"
+    source: { kind: authored }
+  - form: "uczestniczylibyśmy"
+    pl: "Uczestniczylibyśmy w festiwalu, gdyby był bliżej."
+    ru: "Мы участвовали бы в фестивале, если бы он был ближе."
+    source: { kind: authored }
+  - form: "uczestniczylibyśmy"
+    pl: "Chętnie uczestniczylibyśmy w turnieju."
+    ru: "Мы охотно участвовали бы в турнире."
+    source: { kind: authored }
+  - form: "uczestniczylibyśmy"
+    pl: "Uczestniczylibyśmy w zebraniu, ale pracujemy."
+    ru: "Мы были бы на собрании, но мы работаем."
+    source: { kind: authored }
+  - form: "uczestniczyliście"
+    pl: "Uczestniczyliście w tym turnieju?"
+    ru: "Вы участвовали в этом турнире?"
+    source: { kind: authored }
+  - form: "uczestniczyliście"
+    pl: "Kiedy uczestniczyliście w ostatnim zebraniu?"
+    ru: "Когда вы были на последнем собрании?"
+    source: { kind: authored }
+  - form: "uczestniczyliście"
+    pl: "Wiem, że uczestniczyliście w akcji."
+    ru: "Я знаю, что вы участвовали в акции."
+    source: { kind: authored }
+  - form: "uczestniczyliśmy"
+    pl: "Uczestniczyliśmy w ślubie przyjaciół."
+    ru: "Мы были на свадьбе друзей."
+    source: { kind: authored }
+  - form: "uczestniczyliśmy"
+    pl: "Razem uczestniczyliśmy w obozie językowym."
+    ru: "Мы вместе были в языковом лагере."
+    source: { kind: authored }
+  - form: "uczestniczyliśmy"
+    pl: "Uczestniczyliśmy w proteście pod ratuszem."
+    ru: "Мы участвовали в протесте у ратуши."
+    source: { kind: authored }
+  - form: "uczestniczymy"
+    pl: "Uczestniczymy w akcji charytatywnej."
+    ru: "Мы участвуем в благотворительной акции."
+    source: { kind: authored }
+  - form: "uczestniczymy"
+    pl: "Razem uczestniczymy w kursie tańca."
+    ru: "Мы вместе ходим на курсы танцев."
+    source: { kind: authored }
+  - form: "uczestniczymy"
+    pl: "W niedzielę uczestniczymy we mszy."
+    ru: "В воскресенье мы бываем на мессе."
+    source: { kind: authored }
+  - form: "uczestniczysz"
+    pl: "Czy uczestniczysz w wyborach?"
+    ru: "Ты участвуешь в выборах?"
+    source: { kind: authored }
+  - form: "uczestniczysz"
+    pl: "W jakich zajęciach uczestniczysz?"
+    ru: "В каких занятиях ты участвуешь?"
+    source: { kind: authored }
+  - form: "uczestniczysz"
+    pl: "Uczestniczysz w tym projekcie od początku."
+    ru: "Ты участвуешь в этом проекте с самого начала."
+    source: { kind: authored }
+  - form: "uczestniczyć"
+    pl: "Każdy może uczestniczyć w warsztatach."
+    ru: "Каждый может участвовать в мастер-классах."
+    source: { kind: authored }
+  - form: "uczestniczyć"
+    pl: "Chcę uczestniczyć w życiu szkoły."
+    ru: "Я хочу участвовать в жизни школы."
+    source: { kind: authored }
+  - form: "uczestniczyć"
+    pl: "Musisz uczestniczyć we wszystkich zajęciach."
+    ru: "Ты должен посещать все занятия."
+    source: { kind: authored }
+  - form: "uczestniczył"
+    pl: "Uczestniczył w wielu konkursach."
+    ru: "Он участвовал во многих конкурсах."
+    source: { kind: authored }
+  - form: "uczestniczył"
+    pl: "Ojciec uczestniczył w powstaniu."
+    ru: "Отец участвовал в восстании."
+    source: { kind: authored }
+  - form: "uczestniczył"
+    pl: "Nie uczestniczył w zebraniu, bo był chory."
+    ru: "Он не был на собрании, потому что болел."
+    source: { kind: authored }
+  - form: "uczestniczyła"
+    pl: "Cała rodzina uczestniczyła w pogrzebie."
+    ru: "Вся семья присутствовала на похоронах."
+    source: { kind: authored }
+  - form: "uczestniczyła"
+    pl: "Uczestniczyła w kursie tańca."
+    ru: "Она ходила на курсы танцев."
+    source: { kind: authored }
+  - form: "uczestniczyła"
+    pl: "Polska uczestniczyła w misji pokojowej."
+    ru: "Польша участвовала в миротворческой миссии."
+    source: { kind: authored }
+  - form: "uczestniczyłaby"
+    pl: "Chętnie uczestniczyłaby w kursie."
+    ru: "Она охотно участвовала бы в курсе."
+    source: { kind: authored }
+  - form: "uczestniczyłaby"
+    pl: "Uczestniczyłaby w konkursie, gdyby się nie bała."
+    ru: "Она участвовала бы в конкурсе, если бы не боялась."
+    source: { kind: authored }
+  - form: "uczestniczyłaby"
+    pl: "Firma uczestniczyłaby w targach przy mniejszych kosztach."
+    ru: "Фирма участвовала бы в ярмарке при меньших расходах."
+    source: { kind: authored }
+  - form: "uczestniczyłabym"
+    pl: "Uczestniczyłabym w warsztatach, gdyby były wieczorem."
+    ru: "Я была бы на мастер-классах, если бы они были вечером."
+    source: { kind: authored }
+  - form: "uczestniczyłabym"
+    pl: "Chętnie uczestniczyłabym w konkursie."
+    ru: "Я охотно участвовала бы в конкурсе."
+    source: { kind: authored }
+  - form: "uczestniczyłabym"
+    pl: "Uczestniczyłabym w tym, ale jestem chora."
+    ru: "Я участвовала бы в этом, но я больна."
+    source: { kind: authored }
+  - form: "uczestniczyłabyś"
+    pl: "Uczestniczyłabyś w kursie ze mną?"
+    ru: "Ты пошла бы на курс со мной?"
+    source: { kind: authored }
+  - form: "uczestniczyłabyś"
+    pl: "Czy uczestniczyłabyś w konkursie?"
+    ru: "Ты участвовала бы в конкурсе?"
+    source: { kind: authored }
+  - form: "uczestniczyłabyś"
+    pl: "Uczestniczyłabyś w takiej akcji?"
+    ru: "Ты участвовала бы в такой акции?"
+    source: { kind: authored }
+  - form: "uczestniczyłam"
+    pl: "Uczestniczyłam w konkursie recytatorskim."
+    ru: "Я участвовала в конкурсе чтецов."
+    source: { kind: authored }
+  - form: "uczestniczyłam"
+    pl: "Wczoraj uczestniczyłam w szkoleniu."
+    ru: "Вчера я была на тренинге."
+    source: { kind: authored }
+  - form: "uczestniczyłam"
+    pl: "Uczestniczyłam w tym projekcie od początku."
+    ru: "Я участвовала в этом проекте с самого начала."
+    source: { kind: authored }
+  - form: "uczestniczyłaś"
+    pl: "Uczestniczyłaś w wyborach?"
+    ru: "Ты участвовала в выборах?"
+    source: { kind: authored }
+  - form: "uczestniczyłaś"
+    pl: "W czym uczestniczyłaś w szkole?"
+    ru: "В чём ты участвовала в школе?"
+    source: { kind: authored }
+  - form: "uczestniczyłaś"
+    pl: "Uczestniczyłaś w tym spotkaniu?"
+    ru: "Ты была на этой встрече?"
+    source: { kind: authored }
+  - form: "uczestniczyłby"
+    pl: "Chętnie uczestniczyłby w projekcie."
+    ru: "Он охотно участвовал бы в проекте."
+    source: { kind: authored }
+  - form: "uczestniczyłby"
+    pl: "Każdy uczestniczyłby w takiej akcji."
+    ru: "Любой участвовал бы в такой акции."
+    source: { kind: authored }
+  - form: "uczestniczyłby"
+    pl: "Uczestniczyłby w zebraniu, gdyby miał czas."
+    ru: "Он был бы на собрании, если бы у него было время."
+    source: { kind: authored }
+  - form: "uczestniczyłbym"
+    pl: "Uczestniczyłbym w kursie, ale nie mam czasu."
+    ru: "Я участвовал бы в курсе, но у меня нет времени."
+    source: { kind: authored }
+  - form: "uczestniczyłbym"
+    pl: "Chętnie uczestniczyłbym w tym projekcie."
+    ru: "Я охотно участвовал бы в этом проекте."
+    source: { kind: authored }
+  - form: "uczestniczyłbym"
+    pl: "Uczestniczyłbym w spotkaniu, gdybym wiedział."
+    ru: "Я был бы на встрече, если бы знал."
+    source: { kind: authored }
+  - form: "uczestniczyłbyś"
+    pl: "Uczestniczyłbyś w takim projekcie?"
+    ru: "Ты участвовал бы в таком проекте?"
+    source: { kind: authored }
+  - form: "uczestniczyłbyś"
+    pl: "Czy uczestniczyłbyś w proteście?"
+    ru: "Ты участвовал бы в протесте?"
+    source: { kind: authored }
+  - form: "uczestniczyłbyś"
+    pl: "Uczestniczyłbyś w zawodach, gdybyś trenował."
+    ru: "Ты участвовал бы в соревнованиях, если бы тренировался."
+    source: { kind: authored }
+  - form: "uczestniczyłem"
+    pl: "Uczestniczyłem w tym kursie dwa lata temu."
+    ru: "Я участвовал в этом курсе два года назад."
+    source: { kind: authored }
+  - form: "uczestniczyłem"
+    pl: "Nigdy nie uczestniczyłem w maratonie."
+    ru: "Я никогда не участвовал в марафоне."
+    source: { kind: authored }
+  - form: "uczestniczyłem"
+    pl: "Uczestniczyłem w ślubie brata."
+    ru: "Я был на свадьбе брата."
+    source: { kind: authored }
+  - form: "uczestniczyłeś"
+    pl: "Uczestniczyłeś kiedyś w zawodach?"
+    ru: "Ты когда-нибудь участвовал в соревнованиях?"
+    source: { kind: authored }
+  - form: "uczestniczyłeś"
+    pl: "W jakim kursie uczestniczyłeś?"
+    ru: "В каком курсе ты участвовал?"
+    source: { kind: authored }
+  - form: "uczestniczyłeś"
+    pl: "Wiem, że uczestniczyłeś w tej akcji."
+    ru: "Я знаю, что ты участвовал в этой акции."
+    source: { kind: authored }
+  - form: "uczestniczyło"
+    pl: "W konferencji uczestniczyło stu naukowców."
+    ru: "В конференции участвовали сто учёных."
+    source: { kind: authored }
+  - form: "uczestniczyło"
+    pl: "Dziecko uczestniczyło w zajęciach plastycznych."
+    ru: "Ребёнок посещал занятия по рисованию."
+    source: { kind: authored }
+  - form: "uczestniczyło"
+    pl: "W wyborach uczestniczyło sześćdziesiąt procent obywateli."
+    ru: "В выборах участвовали шестьдесят процентов граждан."
+    source: { kind: authored }
+  - form: "uczestniczyłoby"
+    pl: "Więcej osób uczestniczyłoby w wyborach przy ładnej pogodzie."
+    ru: "В хорошую погоду в выборах участвовало бы больше людей."
+    source: { kind: authored }
+  - form: "uczestniczyłoby"
+    pl: "Dziecko chętnie uczestniczyłoby w zajęciach."
+    ru: "Ребёнок охотно ходил бы на занятия."
+    source: { kind: authored }
+  - form: "uczestniczyłoby"
+    pl: "Pół szkoły uczestniczyłoby w wycieczce."
+    ru: "Полшколы участвовало бы в экскурсии."
+    source: { kind: authored }
+  - form: "uczestniczyły"
+    pl: "Dziewczyny uczestniczyły w turnieju szachowym."
+    ru: "Девушки участвовали в шахматном турнире."
+    source: { kind: authored }
+  - form: "uczestniczyły"
+    pl: "W akcji uczestniczyły trzy szkoły."
+    ru: "В акции участвовали три школы."
+    source: { kind: authored }
+  - form: "uczestniczyły"
+    pl: "Kobiety uczestniczyły w wyborach po raz pierwszy w 1918 roku."
+    ru: "Женщины впервые участвовали в выборах в 1918 году."
+    source: { kind: authored }
+  - form: "uczestniczyłyby"
+    pl: "Szkoły uczestniczyłyby w programie bez opłat."
+    ru: "Школы участвовали бы в программе бесплатно."
+    source: { kind: authored }
+  - form: "uczestniczyłyby"
+    pl: "Kobiety uczestniczyłyby w polityce częściej."
+    ru: "Женщины чаще участвовали бы в политике."
+    source: { kind: authored }
+  - form: "uczestniczyłyby"
+    pl: "Dziewczyny uczestniczyłyby w zawodach."
+    ru: "Девушки участвовали бы в соревнованиях."
+    source: { kind: authored }
+  - form: "uczestniczyłybyście"
+    pl: "Uczestniczyłybyście w warsztatach?"
+    ru: "Вы пошли бы на мастер-класс?"
+    source: { kind: authored }
+  - form: "uczestniczyłybyście"
+    pl: "Czy uczestniczyłybyście w konkursie?"
+    ru: "Вы участвовали бы в конкурсе?"
+    source: { kind: authored }
+  - form: "uczestniczyłybyście"
+    pl: "Uczestniczyłybyście w takim wyjeździe?"
+    ru: "Вы поехали бы в такую поездку?"
+    source: { kind: authored }
+  - form: "uczestniczyłybyśmy"
+    pl: "Uczestniczyłybyśmy w kursie jogi."
+    ru: "Мы ходили бы на йогу."
+    source: { kind: authored }
+  - form: "uczestniczyłybyśmy"
+    pl: "Chętnie uczestniczyłybyśmy w konkursie."
+    ru: "Мы охотно участвовали бы в конкурсе."
+    source: { kind: authored }
+  - form: "uczestniczyłybyśmy"
+    pl: "Uczestniczyłybyśmy w akcji, gdyby nas zaproszono."
+    ru: "Мы участвовали бы в акции, если бы нас пригласили."
+    source: { kind: authored }
+  - form: "uczestniczyłyście"
+    pl: "Uczestniczyłyście w konkursie?"
+    ru: "Вы участвовали в конкурсе?"
+    source: { kind: authored }
+  - form: "uczestniczyłyście"
+    pl: "W jakich zajęciach uczestniczyłyście?"
+    ru: "В каких занятиях вы участвовали?"
+    source: { kind: authored }
+  - form: "uczestniczyłyście"
+    pl: "Uczestniczyłyście w tym wyjeździe?"
+    ru: "Вы были в этой поездке?"
+    source: { kind: authored }
+  - form: "uczestniczyłyśmy"
+    pl: "Uczestniczyłyśmy w kursie gotowania."
+    ru: "Мы ходили на курсы кулинарии."
+    source: { kind: authored }
+  - form: "uczestniczyłyśmy"
+    pl: "W zeszłym roku uczestniczyłyśmy w maratonie."
+    ru: "В прошлом году мы участвовали в марафоне."
+    source: { kind: authored }
+  - form: "uczestniczyłyśmy"
+    pl: "Uczestniczyłyśmy w warsztatach fotograficznych."
+    ru: "Мы были на фотографическом мастер-классе."
+    source: { kind: authored }
+  - form: "uczestniczą"
+    pl: "W projekcie uczestniczą trzy szkoły."
+    ru: "В проекте участвуют три школы."
+    source: { kind: authored }
+  - form: "uczestniczą"
+    pl: "Rodzice uczestniczą w zebraniach."
+    ru: "Родители ходят на собрания."
+    source: { kind: authored }
+  - form: "uczestniczą"
+    pl: "Studenci uczestniczą w badaniach."
+    ru: "Студенты участвуют в исследованиях."
+    source: { kind: authored }
+  - form: "uczestnicząc"
+    pl: "Uczestnicząc w kursie, poznałem wielu ludzi."
+    ru: "Участвуя в курсе, я познакомился со многими людьми."
+    source: { kind: authored }
+  - form: "uczestnicząc"
+    pl: "Uczestnicząc w konferencji, wygłosiła referat."
+    ru: "Участвуя в конференции, она выступила с докладом."
+    source: { kind: authored }
+  - form: "uczestnicząc"
+    pl: "Wiele się nauczył, uczestnicząc w projekcie."
+    ru: "Он многому научился, участвуя в проекте."
+    source: { kind: authored }
+  - form: "uczestnicząca"
+    pl: "Uczestnicząca w konkursie dziewczynka wygrała."
+    ru: "Девочка, участвовавшая в конкурсе, победила."
+    source: { kind: authored }
+  - form: "uczestnicząca"
+    pl: "Firma uczestnicząca w przetargu złożyła ofertę."
+    ru: "Фирма, участвующая в тендере, подала предложение."
+    source: { kind: authored }
+  - form: "uczestnicząca"
+    pl: "Każda uczestnicząca drużyna dostanie piłkę."
+    ru: "Каждая команда-участница получит мяч."
+    source: { kind: authored }
+  - form: "uczestniczące"
+    pl: "Uczestniczące w akcji szkoły zebrały książki."
+    ru: "Школы, участвовавшие в акции, собрали книги."
+    source: { kind: authored }
+  - form: "uczestniczące"
+    pl: "Dzieci uczestniczące w zajęciach są zadowolone."
+    ru: "Дети, посещающие занятия, довольны."
+    source: { kind: authored }
+  - form: "uczestniczące"
+    pl: "Państwa uczestniczące w szczycie podpisały umowę."
+    ru: "Государства — участники саммита подписали договор."
+    source: { kind: authored }
+  - form: "uczestniczącego"
+    pl: "Zapytaj każdego uczestniczącego w spotkaniu."
+    ru: "Спроси каждого участника встречи."
+    source: { kind: authored }
+  - form: "uczestniczącego"
+    pl: "Nagrodzono najmłodszego uczestniczącego w biegu chłopca."
+    ru: "Наградили самого юного мальчика, участвовавшего в забеге."
+    source: { kind: authored }
+  - form: "uczestniczącego"
+    pl: "Szukamy ucznia uczestniczącego w olimpiadzie."
+    ru: "Мы ищем ученика, участвующего в олимпиаде."
+    source: { kind: authored }
+  - form: "uczestniczącej"
+    pl: "Głos uczestniczącej w debacie posłanki był spokojny."
+    ru: "Голос депутатки, участвовавшей в дебатах, был спокойным."
+    source: { kind: authored }
+  - form: "uczestniczącej"
+    pl: "Nazwisko uczestniczącej w konkursie osoby jest tajne."
+    ru: "Имя участницы конкурса держат в тайне."
+    source: { kind: authored }
+  - form: "uczestniczącej"
+    pl: "Dla każdej uczestniczącej szkoły przygotowano nagrodę."
+    ru: "Для каждой школы-участницы подготовили приз."
+    source: { kind: authored }
+  - form: "uczestniczącemu"
+    pl: "Każdemu uczestniczącemu w kursie wręczono dyplom."
+    ru: "Каждому участнику курса вручили диплом."
+    source: { kind: authored }
+  - form: "uczestniczącemu"
+    pl: "Uczestniczącemu w badaniu pacjentowi zapłacono."
+    ru: "Пациенту, участвовавшему в исследовании, заплатили."
+    source: { kind: authored }
+  - form: "uczestniczącemu"
+    pl: "Dziękujemy każdemu uczestniczącemu w akcji wolontariuszowi."
+    ru: "Благодарим каждого волонтёра, участвовавшего в акции."
+    source: { kind: authored }
+  - form: "uczestniczący"
+    pl: "Każdy uczestniczący w kursie dostanie certyfikat."
+    ru: "Каждый участник курса получит сертификат."
+    source: { kind: authored }
+  - form: "uczestniczący"
+    pl: "Uczestniczący w proteście rolnicy zablokowali drogę."
+    ru: "Участвовавшие в протесте фермеры перекрыли дорогу."
+    source: { kind: authored }
+  - form: "uczestniczący"
+    pl: "Uczestniczący w badaniu pacjent czuje się lepiej."
+    ru: "Пациент, участвующий в исследовании, чувствует себя лучше."
+    source: { kind: authored }
+  - form: "uczestniczących"
+    pl: "Liczba uczestniczących w wyborach rośnie."
+    ru: "Число участвующих в выборах растёт."
+    source: { kind: authored }
+  - form: "uczestniczących"
+    pl: "Lista szkół uczestniczących w konkursie jest gotowa."
+    ru: "Список школ, участвующих в конкурсе, готов."
+    source: { kind: authored }
+  - form: "uczestniczących"
+    pl: "Wśród uczestniczących było wielu studentów."
+    ru: "Среди участников было много студентов."
+    source: { kind: authored }
+  - form: "uczestniczącym"
+    pl: "Rozmawiałem z politykiem uczestniczącym w debacie."
+    ru: "Я поговорил с политиком, участвовавшим в дебатах."
+    source: { kind: authored }
+  - form: "uczestniczącym"
+    pl: "Uczestniczącym w kursie przysługuje zniżka."
+    ru: "Участникам курса полагается скидка."
+    source: { kind: authored }
+  - form: "uczestniczącym"
+    pl: "Każdym uczestniczącym w zawodach opiekuje się trener."
+    ru: "Каждым участником соревнований занимается тренер."
+    source: { kind: authored }
+  - form: "uczestniczącymi"
+    pl: "Spotkał się z firmami uczestniczącymi w targach."
+    ru: "Он встретился с фирмами, участвующими в ярмарке."
+    source: { kind: authored }
+  - form: "uczestniczącymi"
+    pl: "Między krajami uczestniczącymi w szczycie są napięcia."
+    ru: "Между странами — участницами саммита есть напряжённость."
+    source: { kind: authored }
+  - form: "uczestniczącymi"
+    pl: "Opiekuje się dziećmi uczestniczącymi w obozie."
+    ru: "Она присматривает за детьми, участвующими в лагере."
+    source: { kind: authored }
+  - form: "uczestniczącą"
+    pl: "Poznałem osobę uczestniczącą w tym projekcie."
+    ru: "Я познакомился с человеком, участвующим в этом проекте."
+    source: { kind: authored }
+  - form: "uczestniczącą"
+    pl: "Wspieramy każdą uczestniczącą rodzinę."
+    ru: "Мы поддерживаем каждую семью-участницу."
+    source: { kind: authored }
+  - form: "uczestniczącą"
+    pl: "Jury nagrodziło najmłodszą uczestniczącą zawodniczkę."
+    ru: "Жюри наградило самую юную участницу."
+    source: { kind: authored }
+  - form: "uczestniczę"
+    pl: "Uczestniczę w kursie polskiego."
+    ru: "Я участвую в курсе польского."
+    source: { kind: authored }
+  - form: "uczestniczę"
+    pl: "Co roku uczestniczę w maratonie."
+    ru: "Каждый год я участвую в марафоне."
+    source: { kind: authored }
+  - form: "uczestniczę"
+    pl: "Chętnie uczestniczę w takich spotkaniach."
+    ru: "Я охотно участвую в таких встречах."
+    source: { kind: authored }
