@@ -1,0 +1,684 @@
+# review
+id: zaprzeczac
+format: 2
+lemma: "zaprzeczać"
+rank: 3698
+pos: verb
+pron: { cyr: "запшэ́чаць" }
+senses:
+  - id: deny
+    ru: "отрицать, опровергать (+ дательный)"
+    examples:
+      - pl: "Minister zaprzecza plotkom."
+        ru: "Министр опровергает слухи."
+        source: { kind: authored }
+      - pl: "Nie zaprzeczam, że popełniłem błąd."
+        ru: "Я не отрицаю, что совершил ошибку."
+        source: { kind: authored }
+      - pl: "Oskarżony zaprzecza wszystkiemu."
+        ru: "Обвиняемый всё отрицает."
+        source: { kind: authored }
+  - id: contradict
+    ru: "противоречить (фактам, себе)"
+    examples:
+      - pl: "Te dane zaprzeczają twojej teorii."
+        ru: "Эти данные противоречат твоей теории."
+        source: { kind: authored }
+      - pl: "Ciągle sam sobie zaprzecza."
+        ru: "Он постоянно сам себе противоречит."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ZAPRZECZAĆ — «отрицать», но с ДАТЕЛЬНЫМ падежом: ZAPRZECZAĆ PLOTKOM «опровергать слухи», ZAPRZECZAĆ FAKTOM «отрицать факты». По-русски — винительный («отрицать слухи»). Отсюда и вторая ловушка: страдательного причастия у глагола нет, «слухи опровергаются» — PLOTKOM SIĘ ZAPRZECZA." }
+  - { kind: usage, text: "Несовершенный вид; совершенный — ZAPRZECZYĆ. Спряжение на -AM: ZAPRZECZAM, ZAPRZECZASZ, ZAPRZECZAJĄ. Страдательные причастия в карточку не включены: при дательном управлении их не образуют." }
+  - { kind: government, text: "Чему — дательный: ZAPRZECZAĆ OSKARŻENIOM, SOBIE. С придаточным — ŻE или JAKOBY: ZAPRZECZA, JAKOBY BYŁ NA MIEJSCU «отрицает, что был на месте»." }
+  - { kind: pronunciation, text: "Читается «запшэ́чаць»: PRZ — «пш», CZ — «ч». Ударение на предпоследнем слоге. ZAPRZECZAM — «запшэ́чам»." }
+  - { kind: register, text: "Нейтрально-официальное слово: пресса, суд, политика. В разговоре — MÓWIĆ, ŻE TO NIEPRAWDA." }
+collocations:
+  - { pl: "zaprzeczać plotkom", ru: "опровергать слухи" }
+  - { pl: "zaprzeczać samemu sobie", ru: "противоречить самому себе" }
+  - { pl: "nie zaprzeczam", ru: "не отрицаю" }
+family:
+  - { pl: "zaprzeczyć", ru: "опровергнуть", relation: aspect, id: zaprzeczyc }
+  - { pl: "przeczyć", ru: "противоречить", relation: root, id: przeczyc }
+  - { pl: "potwierdzać", ru: "подтверждать", relation: antonym, id: potwierdzac }
+etymology: "Приставка ZA- плюс PRZECZYĆ «противоречить», от праславянского *perčь «поперёк», как русское «перечить», «вопреки»."
+memory: "Zaprzeczać komuś/czemuś — отрицать, с дательным: zaprzecza plotkom. Русское «перечить» — тот же корень."
+idioms:
+  - { pl: "zaprzeczać faktom", ru: "отрицать очевидное" }
+formExamplesSkip:
+  - { form: "zaprzeczany", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczana", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczane", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczani", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanego", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanej", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanemu", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczaną", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanym", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanych", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+  - { form: "zaprzeczanymi", reason: "страдательное причастие не образуется: глагол управляет дательным" }
+formExamples:
+  - form: "zaprzecza"
+    pl: "Minister zaprzecza plotkom."
+    ru: "Министр опровергает слухи."
+    source: { kind: authored }
+  - form: "zaprzecza"
+    pl: "Oskarżony zaprzecza wszystkiemu."
+    ru: "Обвиняемый всё отрицает."
+    source: { kind: authored }
+  - form: "zaprzecza"
+    pl: "Ciągle sam sobie zaprzecza."
+    ru: "Он постоянно сам себе противоречит."
+    source: { kind: authored }
+  - form: "zaprzeczacie"
+    pl: "Zaprzeczacie temu, co widzieliście?"
+    ru: "Вы отрицаете то, что видели?"
+    source: { kind: authored }
+  - form: "zaprzeczacie"
+    pl: "Czemu zaprzeczacie?"
+    ru: "Почему вы отрицаете?"
+    source: { kind: authored }
+  - form: "zaprzeczacie"
+    pl: "Zaprzeczacie sobie nawzajem."
+    ru: "Вы противоречите друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczaj"
+    pl: "Nie zaprzeczaj, widziałem cię!"
+    ru: "Не отрицай, я тебя видел!"
+    source: { kind: authored }
+  - form: "zaprzeczaj"
+    pl: "Nie zaprzeczaj faktom."
+    ru: "Не отрицай факты."
+    source: { kind: authored }
+  - form: "zaprzeczaj"
+    pl: "Nie zaprzeczaj sam sobie."
+    ru: "Не противоречь сам себе."
+    source: { kind: authored }
+  - form: "zaprzeczajcie"
+    pl: "Nie zaprzeczajcie, wszystko widać na nagraniu."
+    ru: "Не отрицайте, всё видно на записи."
+    source: { kind: authored }
+  - form: "zaprzeczajcie"
+    pl: "Nie zaprzeczajcie sobie przy klientach."
+    ru: "Не противоречьте друг другу при клиентах."
+    source: { kind: authored }
+  - form: "zaprzeczajcie"
+    pl: "Nie zaprzeczajcie temu, co oczywiste."
+    ru: "Не отрицайте очевидного."
+    source: { kind: authored }
+  - form: "zaprzeczajmy"
+    pl: "Nie zaprzeczajmy oczywistości."
+    ru: "Давайте не отрицать очевидное."
+    source: { kind: authored }
+  - form: "zaprzeczajmy"
+    pl: "Nie zaprzeczajmy sobie nawzajem."
+    ru: "Давайте не противоречить друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczajmy"
+    pl: "Nie zaprzeczajmy, że to nasza wina."
+    ru: "Давайте не отрицать, что это наша вина."
+    source: { kind: authored }
+  - form: "zaprzeczają"
+    pl: "Te dane zaprzeczają twojej teorii."
+    ru: "Эти данные противоречат твоей теории."
+    source: { kind: authored }
+  - form: "zaprzeczają"
+    pl: "Świadkowie zaprzeczają jego wersji."
+    ru: "Свидетели опровергают его версию."
+    source: { kind: authored }
+  - form: "zaprzeczają"
+    pl: "Lekarze zaprzeczają tym doniesieniom."
+    ru: "Врачи опровергают эти сообщения."
+    source: { kind: authored }
+  - form: "zaprzeczając"
+    pl: "Zaprzeczając wszystkiemu, tylko się pogrążał."
+    ru: "Отрицая всё, он только топил себя."
+    source: { kind: authored }
+  - form: "zaprzeczając"
+    pl: "Pokręcił głową, zaprzeczając plotkom."
+    ru: "Он покачал головой, опровергая слухи."
+    source: { kind: authored }
+  - form: "zaprzeczając"
+    pl: "Zaprzeczając sobie, stracił wiarygodność."
+    ru: "Противореча себе, он потерял доверие."
+    source: { kind: authored }
+  - form: "zaprzeczająca"
+    pl: "Odpowiedź zaprzeczająca była krótka."
+    ru: "Отрицательный ответ был коротким."
+    source: { kind: authored }
+  - form: "zaprzeczająca"
+    pl: "Oskarżona zaprzeczająca wszystkiemu milczała."
+    ru: "Обвиняемая, отрицавшая всё, молчала."
+    source: { kind: authored }
+  - form: "zaprzeczająca"
+    pl: "Teoria zaprzeczająca prawom fizyki to bzdura."
+    ru: "Теория, противоречащая законам физики, — чепуха."
+    source: { kind: authored }
+  - form: "zaprzeczające"
+    pl: "Wyniki zaprzeczające hipotezie zaskoczyły naukowców."
+    ru: "Результаты, противоречащие гипотезе, удивили учёных."
+    source: { kind: authored }
+  - form: "zaprzeczające"
+    pl: "Gesty zaprzeczające słowom zdradzały go."
+    ru: "Жесты, противоречащие словам, выдавали его."
+    source: { kind: authored }
+  - form: "zaprzeczające"
+    pl: "Doniesienia zaprzeczające sobie nawzajem budzą wątpliwości."
+    ru: "Сообщения, противоречащие друг другу, вызывают сомнения."
+    source: { kind: authored }
+  - form: "zaprzeczającego"
+    pl: "Słuchałem zaprzeczającego wszystkiemu świadka."
+    ru: "Я слушал свидетеля, отрицавшего всё."
+    source: { kind: authored }
+  - form: "zaprzeczającego"
+    pl: "Treść zaprzeczającego komunikatu była krótka."
+    ru: "Текст опровержения был коротким."
+    source: { kind: authored }
+  - form: "zaprzeczającego"
+    pl: "Nie lubię polityka zaprzeczającego samemu sobie."
+    ru: "Я не люблю политика, противоречащего самому себе."
+    source: { kind: authored }
+  - form: "zaprzeczającej"
+    pl: "Treść oświadczenia zaprzeczającej plotkom aktorki obiegła media."
+    ru: "Заявление актрисы, опровергавшей слухи, облетело СМИ."
+    source: { kind: authored }
+  - form: "zaprzeczającej"
+    pl: "Wyniki zaprzeczającej teorii analizy zaskoczyły wszystkich."
+    ru: "Результаты анализа, противоречащего теории, всех удивили."
+    source: { kind: authored }
+  - form: "zaprzeczającej"
+    pl: "Nie słuchał zaprzeczającej mu żony."
+    ru: "Он не слушал жену, которая ему возражала."
+    source: { kind: authored }
+  - form: "zaprzeczającemu"
+    pl: "Zaprzeczającemu wszystkiemu oskarżonemu nikt nie wierzył."
+    ru: "Обвиняемому, отрицавшему всё, никто не верил."
+    source: { kind: authored }
+  - form: "zaprzeczającemu"
+    pl: "Przyglądał się zaprzeczającemu plotkom rzecznikowi."
+    ru: "Он смотрел на пресс-секретаря, опровергавшего слухи."
+    source: { kind: authored }
+  - form: "zaprzeczającemu"
+    pl: "Dzięki zaprzeczającemu nagraniu sprawa się wyjaśniła."
+    ru: "Благодаря записи, опровергающей обвинения, дело прояснилось."
+    source: { kind: authored }
+  - form: "zaprzeczający"
+    pl: "Komunikat zaprzeczający plotkom ukazał się rano."
+    ru: "Сообщение, опровергающее слухи, вышло утром."
+    source: { kind: authored }
+  - form: "zaprzeczający"
+    pl: "Świadek zaprzeczający zeznaniom innych był zdenerwowany."
+    ru: "Свидетель, опровергавший показания других, нервничал."
+    source: { kind: authored }
+  - form: "zaprzeczający"
+    pl: "Każdy zaprzeczający faktom traci zaufanie."
+    ru: "Каждый, кто отрицает факты, теряет доверие."
+    source: { kind: authored }
+  - form: "zaprzeczających"
+    pl: "Liczba osób zaprzeczających zmianom klimatu maleje."
+    ru: "Число людей, отрицающих изменение климата, уменьшается."
+    source: { kind: authored }
+  - form: "zaprzeczających"
+    pl: "Pełno było komunikatów zaprzeczających sobie nawzajem."
+    ru: "Было полно сообщений, противоречащих друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczających"
+    pl: "Wśród zaprzeczających był też prezes."
+    ru: "Среди отрицавших был и председатель."
+    source: { kind: authored }
+  - form: "zaprzeczającym"
+    pl: "Z zaprzeczającym wszystkiemu człowiekiem nie da się rozmawiać."
+    ru: "С человеком, отрицающим всё, невозможно разговаривать."
+    source: { kind: authored }
+  - form: "zaprzeczającym"
+    pl: "W zaprzeczającym plotkom oświadczeniu nie było szczegółów."
+    ru: "В заявлении, опровергающем слухи, не было подробностей."
+    source: { kind: authored }
+  - form: "zaprzeczającym"
+    pl: "Zaprzeczającym faktom politykom ufa się coraz mniej."
+    ru: "Политикам, отрицающим факты, доверяют всё меньше."
+    source: { kind: authored }
+  - form: "zaprzeczającymi"
+    pl: "Spierał się z zaprzeczającymi faktom ludźmi."
+    ru: "Он спорил с людьми, отрицающими факты."
+    source: { kind: authored }
+  - form: "zaprzeczającymi"
+    pl: "Między zaprzeczającymi sobie świadkami panowało napięcie."
+    ru: "Между противоречащими друг другу свидетелями царило напряжение."
+    source: { kind: authored }
+  - form: "zaprzeczającymi"
+    pl: "Walczy z zaprzeczającymi nauce teoriami."
+    ru: "Он борется с теориями, противоречащими науке."
+    source: { kind: authored }
+  - form: "zaprzeczającą"
+    pl: "Wydano informację zaprzeczającą plotkom."
+    ru: "Выпустили опровержение слухов."
+    source: { kind: authored }
+  - form: "zaprzeczającą"
+    pl: "Przedstawił teorię zaprzeczającą dotychczasowej wiedzy."
+    ru: "Он представил теорию, противоречащую прежним знаниям."
+    source: { kind: authored }
+  - form: "zaprzeczającą"
+    pl: "Znam osobę zaprzeczającą każdemu faktowi."
+    ru: "Я знаю человека, отрицающего любой факт."
+    source: { kind: authored }
+  - form: "zaprzeczali"
+    pl: "Oskarżeni zaprzeczali winie."
+    ru: "Обвиняемые отрицали вину."
+    source: { kind: authored }
+  - form: "zaprzeczali"
+    pl: "Politycy zaprzeczali sobie nawzajem."
+    ru: "Политики противоречили друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczali"
+    pl: "Zaprzeczali, że byli w mieście."
+    ru: "Они отрицали, что были в городе."
+    source: { kind: authored }
+  - form: "zaprzeczaliby"
+    pl: "Oskarżeni zaprzeczaliby winie."
+    ru: "Обвиняемые отрицали бы вину."
+    source: { kind: authored }
+  - form: "zaprzeczaliby"
+    pl: "Politycy zaprzeczaliby wszystkiemu."
+    ru: "Политики отрицали бы всё."
+    source: { kind: authored }
+  - form: "zaprzeczaliby"
+    pl: "Zaprzeczaliby, gdyby ich zapytać."
+    ru: "Они отрицали бы, если бы их спросили."
+    source: { kind: authored }
+  - form: "zaprzeczalibyście"
+    pl: "Zaprzeczalibyście temu?"
+    ru: "Вы отрицали бы это?"
+    source: { kind: authored }
+  - form: "zaprzeczalibyście"
+    pl: "Czy zaprzeczalibyście plotkom?"
+    ru: "Вы опровергали бы слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczalibyście"
+    pl: "Zaprzeczalibyście faktom?"
+    ru: "Вы отрицали бы факты?"
+    source: { kind: authored }
+  - form: "zaprzeczalibyśmy"
+    pl: "Zaprzeczalibyśmy tym plotkom."
+    ru: "Мы опровергали бы эти слухи."
+    source: { kind: authored }
+  - form: "zaprzeczalibyśmy"
+    pl: "Nie zaprzeczalibyśmy faktom."
+    ru: "Мы не отрицали бы фактов."
+    source: { kind: authored }
+  - form: "zaprzeczalibyśmy"
+    pl: "Zaprzeczalibyśmy, gdyby to była nieprawda."
+    ru: "Мы опровергли бы, если бы это была неправда."
+    source: { kind: authored }
+  - form: "zaprzeczaliście"
+    pl: "Czemu zaprzeczaliście?"
+    ru: "Почему вы отрицали?"
+    source: { kind: authored }
+  - form: "zaprzeczaliście"
+    pl: "Zaprzeczaliście wszystkiemu."
+    ru: "Вы всё отрицали."
+    source: { kind: authored }
+  - form: "zaprzeczaliście"
+    pl: "Zaprzeczaliście sobie nawzajem."
+    ru: "Вы противоречили друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczaliśmy"
+    pl: "Zaprzeczaliśmy wszystkim zarzutom."
+    ru: "Мы отрицали все обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczaliśmy"
+    pl: "Nie zaprzeczaliśmy, że był problem."
+    ru: "Мы не отрицали, что была проблема."
+    source: { kind: authored }
+  - form: "zaprzeczaliśmy"
+    pl: "Zaprzeczaliśmy sobie nawzajem."
+    ru: "Мы противоречили друг другу."
+    source: { kind: authored }
+  - form: "zaprzeczam"
+    pl: "Nie zaprzeczam, że popełniłem błąd."
+    ru: "Я не отрицаю, что совершил ошибку."
+    source: { kind: authored }
+  - form: "zaprzeczam"
+    pl: "Stanowczo zaprzeczam tym oskarżeniom."
+    ru: "Я категорически отвергаю эти обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczam"
+    pl: "Zaprzeczam, jakobym tam był."
+    ru: "Я отрицаю, что был там."
+    source: { kind: authored }
+  - form: "zaprzeczamy"
+    pl: "Zaprzeczamy tym informacjom."
+    ru: "Мы опровергаем эту информацию."
+    source: { kind: authored }
+  - form: "zaprzeczamy"
+    pl: "Nie zaprzeczamy, że były problemy."
+    ru: "Мы не отрицаем, что были проблемы."
+    source: { kind: authored }
+  - form: "zaprzeczamy"
+    pl: "Zaprzeczamy, jakoby firma miała długi."
+    ru: "Мы опровергаем, что у фирмы есть долги."
+    source: { kind: authored }
+  - form: "zaprzeczania"
+    pl: "Mam dość jego zaprzeczania."
+    ru: "Мне надоело его отрицание."
+    source: { kind: authored }
+  - form: "zaprzeczania"
+    pl: "Etap zaprzeczania to pierwszy etap żałoby."
+    ru: "Отрицание — первая стадия горя."
+    source: { kind: authored }
+  - form: "zaprzeczania"
+    pl: "Po latach zaprzeczania przyznał się do winy."
+    ru: "После многих лет отрицания он признал вину."
+    source: { kind: authored }
+  - form: "zaprzeczanie"
+    pl: "Zaprzeczanie faktom nic nie da."
+    ru: "Отрицание фактов ничего не даст."
+    source: { kind: authored }
+  - form: "zaprzeczanie"
+    pl: "Ciągłe zaprzeczanie budzi podejrzenia."
+    ru: "Постоянное отрицание вызывает подозрения."
+    source: { kind: authored }
+  - form: "zaprzeczanie"
+    pl: "Zaprzeczanie samemu sobie osłabia argumenty."
+    ru: "Противоречие самому себе ослабляет доводы."
+    source: { kind: authored }
+  - form: "zaprzeczaniem"
+    pl: "Zmęczony zaprzeczaniem, wreszcie powiedział prawdę."
+    ru: "Устав отрицать, он наконец сказал правду."
+    source: { kind: authored }
+  - form: "zaprzeczaniem"
+    pl: "Z zaprzeczaniem faktom daleko nie zajdziesz."
+    ru: "Отрицая факты, далеко не уйдёшь."
+    source: { kind: authored }
+  - form: "zaprzeczaniem"
+    pl: "Między zaprzeczaniem a kłamstwem jest cienka granica."
+    ru: "Между отрицанием и ложью тонкая грань."
+    source: { kind: authored }
+  - form: "zaprzeczaniu"
+    pl: "Trwa w zaprzeczaniu prawdzie."
+    ru: "Он упорно отрицает правду."
+    source: { kind: authored }
+  - form: "zaprzeczaniu"
+    pl: "Mówiono o zaprzeczaniu zmianom klimatu."
+    ru: "Говорили об отрицании изменения климата."
+    source: { kind: authored }
+  - form: "zaprzeczaniu"
+    pl: "Po zaprzeczaniu przyszła złość."
+    ru: "После отрицания пришла злость."
+    source: { kind: authored }
+  - form: "zaprzeczano"
+    pl: "Długo zaprzeczano tym doniesieniom."
+    ru: "Эти сообщения долго опровергали."
+    source: { kind: authored }
+  - form: "zaprzeczano"
+    pl: "Zaprzeczano, jakoby doszło do wypadku."
+    ru: "Отрицали, что произошла авария."
+    source: { kind: authored }
+  - form: "zaprzeczano"
+    pl: "Dawniej zaprzeczano istnieniu problemu."
+    ru: "Раньше отрицали существование проблемы."
+    source: { kind: authored }
+  - form: "zaprzeczasz"
+    pl: "Czemu zaprzeczasz oczywistym faktom?"
+    ru: "Почему ты отрицаешь очевидные факты?"
+    source: { kind: authored }
+  - form: "zaprzeczasz"
+    pl: "Ciągle sam sobie zaprzeczasz."
+    ru: "Ты постоянно сам себе противоречишь."
+    source: { kind: authored }
+  - form: "zaprzeczasz"
+    pl: "Zaprzeczasz, że go znasz?"
+    ru: "Ты отрицаешь, что знаешь его?"
+    source: { kind: authored }
+  - form: "zaprzeczać"
+    pl: "Nie ma sensu zaprzeczać faktom."
+    ru: "Нет смысла отрицать факты."
+    source: { kind: authored }
+  - form: "zaprzeczać"
+    pl: "Przestań zaprzeczać, wszyscy wiedzą."
+    ru: "Перестань отрицать, все знают."
+    source: { kind: authored }
+  - form: "zaprzeczać"
+    pl: "Rzecznik musiał zaprzeczać plotkom codziennie."
+    ru: "Пресс-секретарю приходилось каждый день опровергать слухи."
+    source: { kind: authored }
+  - form: "zaprzeczał"
+    pl: "Zaprzeczał wszystkim oskarżeniom."
+    ru: "Он отрицал все обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczał"
+    pl: "Ciągle sam sobie zaprzeczał."
+    ru: "Он постоянно сам себе противоречил."
+    source: { kind: authored }
+  - form: "zaprzeczał"
+    pl: "Do końca zaprzeczał, że to zrobił."
+    ru: "До конца он отрицал, что сделал это."
+    source: { kind: authored }
+  - form: "zaprzeczała"
+    pl: "Zaprzeczała plotkom o rozwodzie."
+    ru: "Она опровергала слухи о разводе."
+    source: { kind: authored }
+  - form: "zaprzeczała"
+    pl: "Zaprzeczała, że go zna."
+    ru: "Она отрицала, что знает его."
+    source: { kind: authored }
+  - form: "zaprzeczała"
+    pl: "Firma zaprzeczała zarzutom."
+    ru: "Фирма отвергала обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczałaby"
+    pl: "Ona zaprzeczałaby, że go zna."
+    ru: "Она отрицала бы, что знает его."
+    source: { kind: authored }
+  - form: "zaprzeczałaby"
+    pl: "Firma zaprzeczałaby zarzutom."
+    ru: "Фирма отвергала бы обвинения."
+    source: { kind: authored }
+  - form: "zaprzeczałaby"
+    pl: "Nie zaprzeczałaby oczywistości."
+    ru: "Она не отрицала бы очевидное."
+    source: { kind: authored }
+  - form: "zaprzeczałabym"
+    pl: "Nie zaprzeczałabym, to bez sensu."
+    ru: "Я не стала бы отрицать, это бессмысленно."
+    source: { kind: authored }
+  - form: "zaprzeczałabym"
+    pl: "Zaprzeczałabym plotkom stanowczo."
+    ru: "Я решительно опровергала бы слухи."
+    source: { kind: authored }
+  - form: "zaprzeczałabym"
+    pl: "Nie zaprzeczałabym oczywistości."
+    ru: "Я не отрицала бы очевидное."
+    source: { kind: authored }
+  - form: "zaprzeczałabyś"
+    pl: "Zaprzeczałabyś, że go znasz?"
+    ru: "Ты отрицала бы, что знаешь его?"
+    source: { kind: authored }
+  - form: "zaprzeczałabyś"
+    pl: "Czy zaprzeczałabyś plotkom?"
+    ru: "Ты опровергала бы слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczałabyś"
+    pl: "Zaprzeczałabyś wszystkiemu?"
+    ru: "Ты отрицала бы всё?"
+    source: { kind: authored }
+  - form: "zaprzeczałam"
+    pl: "Zaprzeczałam, że go kocham."
+    ru: "Я отрицала, что люблю его."
+    source: { kind: authored }
+  - form: "zaprzeczałam"
+    pl: "Zaprzeczałam wszystkiemu na przesłuchaniu."
+    ru: "На допросе я всё отрицала."
+    source: { kind: authored }
+  - form: "zaprzeczałam"
+    pl: "Długo zaprzeczałam oczywistym faktom."
+    ru: "Я долго отрицала очевидные факты."
+    source: { kind: authored }
+  - form: "zaprzeczałaś"
+    pl: "Zaprzeczałaś plotkom?"
+    ru: "Ты опровергала слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczałaś"
+    pl: "Czemu zaprzeczałaś, że go znasz?"
+    ru: "Почему ты отрицала, что знаешь его?"
+    source: { kind: authored }
+  - form: "zaprzeczałaś"
+    pl: "Zaprzeczałaś wszystkiemu."
+    ru: "Ты всё отрицала."
+    source: { kind: authored }
+  - form: "zaprzeczałby"
+    pl: "On zaprzeczałby wszystkiemu."
+    ru: "Он отрицал бы всё."
+    source: { kind: authored }
+  - form: "zaprzeczałby"
+    pl: "Nie zaprzeczałby faktom."
+    ru: "Он не отрицал бы фактов."
+    source: { kind: authored }
+  - form: "zaprzeczałby"
+    pl: "Rzecznik zaprzeczałby plotkom."
+    ru: "Пресс-секретарь опровергал бы слухи."
+    source: { kind: authored }
+  - form: "zaprzeczałbym"
+    pl: "Nie zaprzeczałbym na twoim miejscu."
+    ru: "На твоём месте я не стал бы отрицать."
+    source: { kind: authored }
+  - form: "zaprzeczałbym"
+    pl: "Zaprzeczałbym, gdybym był niewinny."
+    ru: "Я отрицал бы, если бы был невиновен."
+    source: { kind: authored }
+  - form: "zaprzeczałbym"
+    pl: "Nie zaprzeczałbym faktom."
+    ru: "Я не отрицал бы факты."
+    source: { kind: authored }
+  - form: "zaprzeczałbyś"
+    pl: "Zaprzeczałbyś, gdyby cię zapytali?"
+    ru: "Ты отрицал бы, если бы тебя спросили?"
+    source: { kind: authored }
+  - form: "zaprzeczałbyś"
+    pl: "Czy zaprzeczałbyś faktom?"
+    ru: "Ты отрицал бы факты?"
+    source: { kind: authored }
+  - form: "zaprzeczałbyś"
+    pl: "Zaprzeczałbyś plotkom?"
+    ru: "Ты опровергал бы слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczałem"
+    pl: "Zaprzeczałem, bo się bałem."
+    ru: "Я отрицал, потому что боялся."
+    source: { kind: authored }
+  - form: "zaprzeczałem"
+    pl: "Nigdy nie zaprzeczałem faktom."
+    ru: "Я никогда не отрицал фактов."
+    source: { kind: authored }
+  - form: "zaprzeczałem"
+    pl: "Zaprzeczałem plotkom od miesięcy."
+    ru: "Я опровергал слухи уже несколько месяцев."
+    source: { kind: authored }
+  - form: "zaprzeczałeś"
+    pl: "Czemu zaprzeczałeś, skoro to prawda?"
+    ru: "Почему ты отрицал, если это правда?"
+    source: { kind: authored }
+  - form: "zaprzeczałeś"
+    pl: "Zaprzeczałeś sam sobie przez cały wywiad."
+    ru: "Ты всё интервью сам себе противоречил."
+    source: { kind: authored }
+  - form: "zaprzeczałeś"
+    pl: "Zaprzeczałeś, że tam byłeś."
+    ru: "Ты отрицал, что был там."
+    source: { kind: authored }
+  - form: "zaprzeczało"
+    pl: "Ministerstwo zaprzeczało doniesieniom mediów."
+    ru: "Министерство опровергало сообщения СМИ."
+    source: { kind: authored }
+  - form: "zaprzeczało"
+    pl: "Dziecko zaprzeczało, że zjadło cukierki."
+    ru: "Ребёнок отрицал, что съел конфеты."
+    source: { kind: authored }
+  - form: "zaprzeczało"
+    pl: "Wszystko zaprzeczało jego słowom."
+    ru: "Всё противоречило его словам."
+    source: { kind: authored }
+  - form: "zaprzeczałoby"
+    pl: "Ministerstwo zaprzeczałoby tym doniesieniom."
+    ru: "Министерство опровергало бы эти сообщения."
+    source: { kind: authored }
+  - form: "zaprzeczałoby"
+    pl: "Dziecko zaprzeczałoby, że to zrobiło."
+    ru: "Ребёнок отрицал бы, что сделал это."
+    source: { kind: authored }
+  - form: "zaprzeczałoby"
+    pl: "To zaprzeczałoby wszystkim teoriom."
+    ru: "Это противоречило бы всем теориям."
+    source: { kind: authored }
+  - form: "zaprzeczały"
+    pl: "Fakty zaprzeczały jego teorii."
+    ru: "Факты противоречили его теории."
+    source: { kind: authored }
+  - form: "zaprzeczały"
+    pl: "Siostry zaprzeczały, że się pokłóciły."
+    ru: "Сёстры отрицали, что поссорились."
+    source: { kind: authored }
+  - form: "zaprzeczały"
+    pl: "Władze zaprzeczały doniesieniom o awarii."
+    ru: "Власти опровергали сообщения об аварии."
+    source: { kind: authored }
+  - form: "zaprzeczałyby"
+    pl: "Fakty zaprzeczałyby jego słowom."
+    ru: "Факты противоречили бы его словам."
+    source: { kind: authored }
+  - form: "zaprzeczałyby"
+    pl: "Władze zaprzeczałyby wszystkiemu."
+    ru: "Власти отрицали бы всё."
+    source: { kind: authored }
+  - form: "zaprzeczałyby"
+    pl: "Siostry zaprzeczałyby kłótni."
+    ru: "Сёстры отрицали бы ссору."
+    source: { kind: authored }
+  - form: "zaprzeczałybyście"
+    pl: "Zaprzeczałybyście temu?"
+    ru: "Вы отрицали бы это?"
+    source: { kind: authored }
+  - form: "zaprzeczałybyście"
+    pl: "Czy zaprzeczałybyście plotkom?"
+    ru: "Вы опровергали бы слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczałybyście"
+    pl: "Zaprzeczałybyście, że tam byłyście?"
+    ru: "Вы отрицали бы, что были там?"
+    source: { kind: authored }
+  - form: "zaprzeczałybyśmy"
+    pl: "Zaprzeczałybyśmy plotkom."
+    ru: "Мы опровергали бы слухи."
+    source: { kind: authored }
+  - form: "zaprzeczałybyśmy"
+    pl: "Nie zaprzeczałybyśmy prawdzie."
+    ru: "Мы не отрицали бы правду."
+    source: { kind: authored }
+  - form: "zaprzeczałybyśmy"
+    pl: "Zaprzeczałybyśmy, że się kłócimy."
+    ru: "Мы отрицали бы, что ссоримся."
+    source: { kind: authored }
+  - form: "zaprzeczałyście"
+    pl: "Zaprzeczałyście plotkom?"
+    ru: "Вы опровергали слухи?"
+    source: { kind: authored }
+  - form: "zaprzeczałyście"
+    pl: "Czemu zaprzeczałyście, że tam byłyście?"
+    ru: "Почему вы отрицали, что были там?"
+    source: { kind: authored }
+  - form: "zaprzeczałyście"
+    pl: "Zaprzeczałyście sobie przy nas."
+    ru: "Вы противоречили друг другу при нас."
+    source: { kind: authored }
+  - form: "zaprzeczałyśmy"
+    pl: "Zaprzeczałyśmy plotkom o nas."
+    ru: "Мы опровергали слухи о нас."
+    source: { kind: authored }
+  - form: "zaprzeczałyśmy"
+    pl: "Zaprzeczałyśmy, że się kłócimy."
+    ru: "Мы отрицали, что ссоримся."
+    source: { kind: authored }
+  - form: "zaprzeczałyśmy"
+    pl: "Nie zaprzeczałyśmy faktom."
+    ru: "Мы не отрицали фактов."
+    source: { kind: authored }
