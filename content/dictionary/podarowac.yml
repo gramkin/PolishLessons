@@ -1,0 +1,674 @@
+# review
+id: podarowac
+format: 2
+lemma: "podarować"
+rank: 5300
+pos: verb
+pron: { cyr: "подаро́ваць" }
+senses:
+  - id: give
+    ru: "подарить"
+    examples:
+      - pl: "Podarował mi książkę na urodziny."
+        ru: "Он подарил мне книгу на день рождения."
+        source: { kind: authored }
+      - pl: "Babcia podarowała wnuczce naszyjnik."
+        ru: "Бабушка подарила внучке ожерелье."
+        source: { kind: authored }
+      - pl: "Co mu podarujesz na święta?"
+        ru: "Что ты подаришь ему на праздники?"
+        source: { kind: authored }
+  - id: donate
+    ru: "пожертвовать, передать в дар; подарить (время, жизнь)"
+    examples:
+      - pl: "Kolekcjoner podarował obrazy muzeum."
+        ru: "Коллекционер передал картины в дар музею."
+        source: { kind: authored }
+      - pl: "Los podarował mu drugą szansę."
+        ru: "Судьба подарила ему второй шанс."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "PODAROWAĆ — «подарить», с русским совпадает полностью: PODAROWAĆ KWIATY. В отличие от DAROWAĆ, у которого есть значение «простить», PODAROWAĆ — только «подарить, отдать в дар». В быту так же часто говорят DAĆ W PREZENCIE или DAĆ NA URODZINY." }
+  - { kind: usage, text: "Пятьдесят две формы: страдательное PODAROWANY — о вещах, «подаренный»; форма для мужчин-людей PODAROWANI в карточку не включена. Спряжение на -UJĘ: PODARUJĘ, PODARUJESZ. Пары по виду нет: несовершенный — DAROWAĆ или DAWAĆ W PREZENCIE." }
+  - { kind: government, text: "Что кому — винительный и дательный: PODAROWAĆ MAMIE KWIATY. На что — NA с винительным: NA URODZINY, NA ŚLUB. В дар учреждению — дательный: PODAROWAĆ SZKOLE KSIĄŻKI." }
+  - { kind: pronunciation, text: "Читается «подаро́ваць», четыре слога, ударение на предпоследнем. Конечное Ć — «ць». PODARUJĘ — «подару́е», PODARUJ — «пода́руй»." }
+  - { kind: register, text: "Нейтральное и тёплое слово. Чуть торжественнее, чем DAĆ: PODAROWAŁ JEJ PIERŚCIONEK. О времени и жизни — литературное: PODAROWAĆ KOMUŚ SWÓJ CZAS." }
+collocations:
+  - { pl: "podarować kwiaty", ru: "подарить цветы" }
+  - { pl: "podarować na urodziny", ru: "подарить на день рождения" }
+  - { pl: "podarować drugą szansę", ru: "подарить второй шанс" }
+family:
+  - { pl: "darować", ru: "дарить; прощать", relation: root, id: darowac }
+  - { pl: "podarunek", ru: "подарок", relation: derived }
+  - { pl: "prezent", ru: "подарок", relation: root, id: prezent }
+etymology: "Приставка PO- плюс DAROWAĆ «дарить», от DAR «дар», праславянское *darъ. Русское «подарить», «подарок» — то же гнездо."
+memory: "Podarować — подарить: podarował mi książkę. Komuś coś — дательный + винительный. Podarunek — подарок. Читается «подаро́ваць»."
+idioms:
+  - { pl: "darowanemu koniowi nie zagląda się w zęby", ru: "дарёному коню в зубы не смотрят" }
+formExamplesSkip:
+  - { form: "podarowani", reason: "людей не «дарят»: формы для мужчин-людей нет" }
+formExamples:
+  - form: "podarowali"
+    pl: "Podarowali nam ekspres do kawy."
+    ru: "Они подарили нам кофемашину."
+    source: { kind: authored }
+  - form: "podarowali"
+    pl: "Koledzy podarowali mu bilet na mecz."
+    ru: "Коллеги подарили ему билет на матч."
+    source: { kind: authored }
+  - form: "podarowali"
+    pl: "Podarowali bibliotece tysiąc książek."
+    ru: "Они подарили библиотеке тысячу книг."
+    source: { kind: authored }
+  - form: "podarowaliby"
+    pl: "Podarowaliby nam samochód, gdyby mogli."
+    ru: "Они подарили бы нам машину, если бы могли."
+    source: { kind: authored }
+  - form: "podarowaliby"
+    pl: "Koledzy podarowaliby mu wycieczkę."
+    ru: "Коллеги подарили бы ему поездку."
+    source: { kind: authored }
+  - form: "podarowaliby"
+    pl: "Sponsorzy podarowaliby stroje drużynie."
+    ru: "Спонсоры подарили бы форму команде."
+    source: { kind: authored }
+  - form: "podarowalibyście"
+    pl: "Co podarowalibyście szefowi?"
+    ru: "Что бы вы подарили шефу?"
+    source: { kind: authored }
+  - form: "podarowalibyście"
+    pl: "Czy podarowalibyście mu laptop?"
+    ru: "Вы подарили бы ему ноутбук?"
+    source: { kind: authored }
+  - form: "podarowalibyście"
+    pl: "Gdybyście mogli, podarowalibyście nam dom?"
+    ru: "Если бы могли, вы подарили бы нам дом?"
+    source: { kind: authored }
+  - form: "podarowalibyśmy"
+    pl: "Podarowalibyśmy jej samochód."
+    ru: "Мы подарили бы ей машину."
+    source: { kind: authored }
+  - form: "podarowalibyśmy"
+    pl: "Chętnie podarowalibyśmy szkole książki."
+    ru: "Мы охотно подарили бы школе книги."
+    source: { kind: authored }
+  - form: "podarowalibyśmy"
+    pl: "Podarowalibyśmy mu bilety, gdyby były."
+    ru: "Мы подарили бы ему билеты, если бы они были."
+    source: { kind: authored }
+  - form: "podarowaliście"
+    pl: "Co podarowaliście tacie?"
+    ru: "Что вы подарили папе?"
+    source: { kind: authored }
+  - form: "podarowaliście"
+    pl: "Podarowaliście nam piękny prezent."
+    ru: "Вы подарили нам прекрасный подарок."
+    source: { kind: authored }
+  - form: "podarowaliście"
+    pl: "Podarowaliście szkole projektor?"
+    ru: "Вы подарили школе проектор?"
+    source: { kind: authored }
+  - form: "podarowaliśmy"
+    pl: "Podarowaliśmy jej rower."
+    ru: "Мы подарили ей велосипед."
+    source: { kind: authored }
+  - form: "podarowaliśmy"
+    pl: "Podarowaliśmy szpitalowi zabawki."
+    ru: "Мы подарили больнице игрушки."
+    source: { kind: authored }
+  - form: "podarowaliśmy"
+    pl: "Podarowaliśmy dziadkom wycieczkę."
+    ru: "Мы подарили бабушке с дедушкой поездку."
+    source: { kind: authored }
+  - form: "podarowana"
+    pl: "Książka podarowana przez autora ma dedykację."
+    ru: "Книга, подаренная автором, с автографом."
+    source: { kind: authored }
+  - form: "podarowana"
+    pl: "Podarowana działka jest nad jeziorem."
+    ru: "Подаренный участок находится у озера."
+    source: { kind: authored }
+  - form: "podarowana"
+    pl: "Bransoletka była podarowana przez mamę."
+    ru: "Браслет подарила мама."
+    source: { kind: authored }
+  - form: "podarowane"
+    pl: "Podarowane kwiaty stały na stole."
+    ru: "Подаренные цветы стояли на столе."
+    source: { kind: authored }
+  - form: "podarowane"
+    pl: "Wszystkie meble są podarowane przez sąsiadów."
+    ru: "Вся мебель подарена соседями."
+    source: { kind: authored }
+  - form: "podarowane"
+    pl: "Podarowane zabawki trafiły do domu dziecka."
+    ru: "Подаренные игрушки попали в детский дом."
+    source: { kind: authored }
+  - form: "podarowanego"
+    pl: "Nie sprzedaje się podarowanego prezentu."
+    ru: "Подаренный подарок не продают."
+    source: { kind: authored }
+  - form: "podarowanego"
+    pl: "Zdjęcie podarowanego psa obiegło rodzinę."
+    ru: "Фото подаренной собаки облетело семью."
+    source: { kind: authored }
+  - form: "podarowanego"
+    pl: "Wartość podarowanego obrazu jest ogromna."
+    ru: "Ценность подаренной картины огромна."
+    source: { kind: authored }
+  - form: "podarowanej"
+    pl: "Strzeże podarowanej przez babcię broszki."
+    ru: "Он бережёт брошь, подаренную бабушкой."
+    source: { kind: authored }
+  - form: "podarowanej"
+    pl: "Część podarowanej kolekcji wystawiono."
+    ru: "Часть подаренной коллекции выставили."
+    source: { kind: authored }
+  - form: "podarowanej"
+    pl: "Wartość podarowanej działki wzrosła."
+    ru: "Стоимость подаренного участка выросла."
+    source: { kind: authored }
+  - form: "podarowanemu"
+    pl: "Podarowanemu koniowi nie zagląda się w zęby."
+    ru: "Дарёному коню в зубы не смотрят."
+    source: { kind: authored }
+  - form: "podarowanemu"
+    pl: "Przyglądał się podarowanemu zegarkowi."
+    ru: "Он рассматривал подаренные часы."
+    source: { kind: authored }
+  - form: "podarowanemu"
+    pl: "Dzięki podarowanemu sprzętowi szpital ruszył."
+    ru: "Благодаря подаренному оборудованию больница заработала."
+    source: { kind: authored }
+  - form: "podarowania"
+    pl: "Nie ma nic do podarowania."
+    ru: "Дарить нечего."
+    source: { kind: authored }
+  - form: "podarowania"
+    pl: "Akt podarowania podpisano u notariusza."
+    ru: "Акт дарения подписали у нотариуса."
+    source: { kind: authored }
+  - form: "podarowania"
+    pl: "Pomysł podarowania psa był ryzykowny."
+    ru: "Идея подарить собаку была рискованной."
+    source: { kind: authored }
+  - form: "podarowanie"
+    pl: "Podarowanie książki to piękny gest."
+    ru: "Подарить книгу — красивый жест."
+    source: { kind: authored }
+  - form: "podarowanie"
+    pl: "Podarowanie kolekcji muzeum było jego marzeniem."
+    ru: "Передать коллекцию музею было его мечтой."
+    source: { kind: authored }
+  - form: "podarowanie"
+    pl: "Podarowanie czasu jest najcenniejsze."
+    ru: "Подарить время — самое ценное."
+    source: { kind: authored }
+  - form: "podarowaniem"
+    pl: "Przed podarowaniem prezentu zdejmij cenę."
+    ru: "Прежде чем дарить подарок, сними ценник."
+    source: { kind: authored }
+  - form: "podarowaniem"
+    pl: "Z podarowaniem psa poczekajmy do wiosny."
+    ru: "С собакой в подарок подождём до весны."
+    source: { kind: authored }
+  - form: "podarowaniem"
+    pl: "Zakończył wizytę podarowaniem obrazu."
+    ru: "Он завершил визит, подарив картину."
+    source: { kind: authored }
+  - form: "podarowaniu"
+    pl: "Po podarowaniu prezentu wszyscy klaskali."
+    ru: "После вручения подарка все аплодировали."
+    source: { kind: authored }
+  - form: "podarowaniu"
+    pl: "Myślał o podarowaniu jej pierścionka."
+    ru: "Он думал о том, чтобы подарить ей кольцо."
+    source: { kind: authored }
+  - form: "podarowaniu"
+    pl: "O podarowaniu kolekcji poinformowano media."
+    ru: "О дарении коллекции сообщили СМИ."
+    source: { kind: authored }
+  - form: "podarowano"
+    pl: "Muzeum podarowano rzadki rękopis."
+    ru: "Музею подарили редкую рукопись."
+    source: { kind: authored }
+  - form: "podarowano"
+    pl: "Dzieciom podarowano książki."
+    ru: "Детям подарили книги."
+    source: { kind: authored }
+  - form: "podarowano"
+    pl: "Szpitalowi podarowano nowy tomograf."
+    ru: "Больнице подарили новый томограф."
+    source: { kind: authored }
+  - form: "podarowany"
+    pl: "Ten zegarek był podarowany przez dziadka."
+    ru: "Эти часы подарил дедушка."
+    source: { kind: authored }
+  - form: "podarowany"
+    pl: "Podarowany obraz wisi w salonie."
+    ru: "Подаренная картина висит в гостиной."
+    source: { kind: authored }
+  - form: "podarowany"
+    pl: "Pies podarowany na urodziny jest naszym oczkiem w głowie."
+    ru: "Собака, подаренная на день рождения, наша любимица."
+    source: { kind: authored }
+  - form: "podarowanych"
+    pl: "Liczba podarowanych książek przekroczyła tysiąc."
+    ru: "Число подаренных книг превысило тысячу."
+    source: { kind: authored }
+  - form: "podarowanych"
+    pl: "Pełno tu podarowanych zabawek."
+    ru: "Здесь полно подаренных игрушек."
+    source: { kind: authored }
+  - form: "podarowanych"
+    pl: "Wśród podarowanych obrazów jest Matejko."
+    ru: "Среди подаренных картин есть Матейко."
+    source: { kind: authored }
+  - form: "podarowanym"
+    pl: "W podarowanym domu zamieszkali młodzi."
+    ru: "В подаренном доме поселились молодые."
+    source: { kind: authored }
+  - form: "podarowanym"
+    pl: "O podarowanym obrazie pisała prasa."
+    ru: "О подаренной картине писала пресса."
+    source: { kind: authored }
+  - form: "podarowanym"
+    pl: "Z podarowanym laptopem łatwiej się uczyć."
+    ru: "С подаренным ноутбуком легче учиться."
+    source: { kind: authored }
+  - form: "podarowanymi"
+    pl: "Bawi się podarowanymi klockami."
+    ru: "Он играет подаренными кубиками."
+    source: { kind: authored }
+  - form: "podarowanymi"
+    pl: "Szkoła chwali się podarowanymi komputerami."
+    ru: "Школа гордится подаренными компьютерами."
+    source: { kind: authored }
+  - form: "podarowanymi"
+    pl: "Między podarowanymi a kupionymi rzeczami jest różnica."
+    ru: "Между подаренными и купленными вещами есть разница."
+    source: { kind: authored }
+  - form: "podarowaną"
+    pl: "Nosi podarowaną przez męża obrączkę."
+    ru: "Она носит обручальное кольцо, подаренное мужем."
+    source: { kind: authored }
+  - form: "podarowaną"
+    pl: "Przeczytał podarowaną książkę w jeden wieczór."
+    ru: "Он прочёл подаренную книгу за один вечер."
+    source: { kind: authored }
+  - form: "podarowaną"
+    pl: "Postawiła podarowaną wazę na kominku."
+    ru: "Она поставила подаренную вазу на камин."
+    source: { kind: authored }
+  - form: "podarowawszy"
+    pl: "Podarowawszy kwiaty, ukłonił się."
+    ru: "Подарив цветы, он поклонился."
+    source: { kind: authored }
+  - form: "podarowawszy"
+    pl: "Podarowawszy kolekcję muzeum, poczuł ulgę."
+    ru: "Передав коллекцию музею, он почувствовал облегчение."
+    source: { kind: authored }
+  - form: "podarowawszy"
+    pl: "Podarowawszy prezent, wyszła z przyjęcia."
+    ru: "Вручив подарок, она ушла с приёма."
+    source: { kind: authored }
+  - form: "podarować"
+    pl: "Chcę jej podarować coś wyjątkowego."
+    ru: "Я хочу подарить ей что-то особенное."
+    source: { kind: authored }
+  - form: "podarować"
+    pl: "Postanowił podarować bibliotece swoje książki."
+    ru: "Он решил подарить библиотеке свои книги."
+    source: { kind: authored }
+  - form: "podarować"
+    pl: "Co można podarować nauczycielce?"
+    ru: "Что можно подарить учительнице?"
+    source: { kind: authored }
+  - form: "podarował"
+    pl: "Podarował mi pierścionek."
+    ru: "Он подарил мне кольцо."
+    source: { kind: authored }
+  - form: "podarował"
+    pl: "Podarował muzeum swoją kolekcję."
+    ru: "Он передал музею свою коллекцию."
+    source: { kind: authored }
+  - form: "podarował"
+    pl: "Los podarował mu drugą szansę."
+    ru: "Судьба подарила ему второй шанс."
+    source: { kind: authored }
+  - form: "podarowała"
+    pl: "Podarowała mi szalik."
+    ru: "Она подарила мне шарф."
+    source: { kind: authored }
+  - form: "podarowała"
+    pl: "Podarowała szkole pianino."
+    ru: "Она подарила школе пианино."
+    source: { kind: authored }
+  - form: "podarowała"
+    pl: "Babcia podarowała nam przepis na sernik."
+    ru: "Бабушка подарила нам рецепт сырника."
+    source: { kind: authored }
+  - form: "podarowałaby"
+    pl: "Podarowałaby mu psa, gdyby miał więcej miejsca."
+    ru: "Она подарила бы ему собаку, если бы у него было больше места."
+    source: { kind: authored }
+  - form: "podarowałaby"
+    pl: "Babcia podarowałaby wnukom dom."
+    ru: "Бабушка подарила бы внукам дом."
+    source: { kind: authored }
+  - form: "podarowałaby"
+    pl: "Firma podarowałaby sprzęt szpitalowi."
+    ru: "Фирма подарила бы больнице оборудование."
+    source: { kind: authored }
+  - form: "podarowałabym"
+    pl: "Podarowałabym mu zegarek."
+    ru: "Я подарила бы ему часы."
+    source: { kind: authored }
+  - form: "podarowałabym"
+    pl: "Na twoim miejscu podarowałabym jej kota."
+    ru: "На твоём месте я подарила бы ей кошку."
+    source: { kind: authored }
+  - form: "podarowałabym"
+    pl: "Chętnie podarowałabym te ubrania potrzebującym."
+    ru: "Я охотно отдала бы эту одежду нуждающимся."
+    source: { kind: authored }
+  - form: "podarowałabyś"
+    pl: "Co podarowałabyś przyjaciółce?"
+    ru: "Что бы ты подарила подруге?"
+    source: { kind: authored }
+  - form: "podarowałabyś"
+    pl: "Czy podarowałabyś mu psa?"
+    ru: "Ты подарила бы ему собаку?"
+    source: { kind: authored }
+  - form: "podarowałabyś"
+    pl: "Gdybyś mogła, podarowałabyś mu podróż?"
+    ru: "Если бы могла, ты подарила бы ему путешествие?"
+    source: { kind: authored }
+  - form: "podarowałam"
+    pl: "Podarowałam mu sweter."
+    ru: "Я подарила ему свитер."
+    source: { kind: authored }
+  - form: "podarowałam"
+    pl: "Podarowałam córce kota."
+    ru: "Я подарила дочери кошку."
+    source: { kind: authored }
+  - form: "podarowałam"
+    pl: "Podarowałam muzeum listy dziadka."
+    ru: "Я передала музею дедушкины письма."
+    source: { kind: authored }
+  - form: "podarowałaś"
+    pl: "Co mu podarowałaś?"
+    ru: "Что ты ему подарила?"
+    source: { kind: authored }
+  - form: "podarowałaś"
+    pl: "Podarowałaś mi wspaniały prezent."
+    ru: "Ты подарила мне замечательный подарок."
+    source: { kind: authored }
+  - form: "podarowałaś"
+    pl: "Podarowałaś mu serce."
+    ru: "Ты подарила ему своё сердце."
+    source: { kind: authored }
+  - form: "podarowałby"
+    pl: "Podarowałby jej gwiazdkę z nieba."
+    ru: "Он достал бы ей звезду с неба."
+    source: { kind: authored }
+  - form: "podarowałby"
+    pl: "Dziadek podarowałby ci wszystko."
+    ru: "Дедушка подарил бы тебе всё."
+    source: { kind: authored }
+  - form: "podarowałby"
+    pl: "Podarowałby muzeum kolekcję, gdyby go poproszono."
+    ru: "Он передал бы музею коллекцию, если бы его попросили."
+    source: { kind: authored }
+  - form: "podarowałbym"
+    pl: "Podarowałbym ci cały świat."
+    ru: "Я подарил бы тебе весь мир."
+    source: { kind: authored }
+  - form: "podarowałbym"
+    pl: "Na twoim miejscu podarowałbym jej książkę."
+    ru: "На твоём месте я подарил бы ей книгу."
+    source: { kind: authored }
+  - form: "podarowałbym"
+    pl: "Chętnie podarowałbym te meble komuś."
+    ru: "Я охотно подарил бы эту мебель кому-нибудь."
+    source: { kind: authored }
+  - form: "podarowałbyś"
+    pl: "Co podarowałbyś mamie?"
+    ru: "Что бы ты подарил маме?"
+    source: { kind: authored }
+  - form: "podarowałbyś"
+    pl: "Czy podarowałbyś mi swój rower?"
+    ru: "Ты подарил бы мне свой велосипед?"
+    source: { kind: authored }
+  - form: "podarowałbyś"
+    pl: "Gdybyś miał pieniądze, podarowałbyś jej dom?"
+    ru: "Если бы у тебя были деньги, ты подарил бы ей дом?"
+    source: { kind: authored }
+  - form: "podarowałem"
+    pl: "Podarowałem jej naszyjnik."
+    ru: "Я подарил ей ожерелье."
+    source: { kind: authored }
+  - form: "podarowałem"
+    pl: "Podarowałem bratu stary komputer."
+    ru: "Я подарил брату старый компьютер."
+    source: { kind: authored }
+  - form: "podarowałem"
+    pl: "Podarowałem szkole swoje książki."
+    ru: "Я подарил школе свои книги."
+    source: { kind: authored }
+  - form: "podarowałeś"
+    pl: "Co jej podarowałeś?"
+    ru: "Что ты ей подарил?"
+    source: { kind: authored }
+  - form: "podarowałeś"
+    pl: "Podarowałeś jej coś pięknego."
+    ru: "Ты подарил ей что-то красивое."
+    source: { kind: authored }
+  - form: "podarowałeś"
+    pl: "Podarowałeś mi najlepszy dzień w życiu."
+    ru: "Ты подарил мне лучший день в жизни."
+    source: { kind: authored }
+  - form: "podarowało"
+    pl: "Miasto podarowało parkowi nowe ławki."
+    ru: "Город подарил парку новые скамейки."
+    source: { kind: authored }
+  - form: "podarowało"
+    pl: "Dziecko podarowało mamie laurkę."
+    ru: "Ребёнок подарил маме открытку."
+    source: { kind: authored }
+  - form: "podarowało"
+    pl: "Życie podarowało jej wiele radości."
+    ru: "Жизнь подарила ей много радости."
+    source: { kind: authored }
+  - form: "podarowałoby"
+    pl: "Miasto podarowałoby nam działkę."
+    ru: "Город подарил бы нам участок."
+    source: { kind: authored }
+  - form: "podarowałoby"
+    pl: "Dziecko podarowałoby ci swoją zabawkę."
+    ru: "Ребёнок подарил бы тебе свою игрушку."
+    source: { kind: authored }
+  - form: "podarowałoby"
+    pl: "To podarowałoby nam trochę czasu."
+    ru: "Это дало бы нам немного времени."
+    source: { kind: authored }
+  - form: "podarowały"
+    pl: "Dziewczyny podarowały mi kwiaty."
+    ru: "Девушки подарили мне цветы."
+    source: { kind: authored }
+  - form: "podarowały"
+    pl: "Firmy podarowały sprzęt szkole."
+    ru: "Фирмы подарили школе оборудование."
+    source: { kind: authored }
+  - form: "podarowały"
+    pl: "Siostry podarowały mamie wycieczkę."
+    ru: "Сёстры подарили маме поездку."
+    source: { kind: authored }
+  - form: "podarowałyby"
+    pl: "Siostry podarowałyby mamie rejs."
+    ru: "Сёстры подарили бы маме морской круиз."
+    source: { kind: authored }
+  - form: "podarowałyby"
+    pl: "Firmy podarowałyby sprzęt."
+    ru: "Фирмы подарили бы оборудование."
+    source: { kind: authored }
+  - form: "podarowałyby"
+    pl: "Dziewczyny podarowałyby mu kwiaty."
+    ru: "Девушки подарили бы ему цветы."
+    source: { kind: authored }
+  - form: "podarowałybyście"
+    pl: "Co podarowałybyście babci?"
+    ru: "Что бы вы подарили бабушке?"
+    source: { kind: authored }
+  - form: "podarowałybyście"
+    pl: "Czy podarowałybyście jej psa?"
+    ru: "Вы подарили бы ей собаку?"
+    source: { kind: authored }
+  - form: "podarowałybyście"
+    pl: "Gdybyście mogły, podarowałybyście mu podróż?"
+    ru: "Если бы могли, вы подарили бы ему путешествие?"
+    source: { kind: authored }
+  - form: "podarowałybyśmy"
+    pl: "Podarowałybyśmy mamie spa."
+    ru: "Мы подарили бы маме спа."
+    source: { kind: authored }
+  - form: "podarowałybyśmy"
+    pl: "Chętnie podarowałybyśmy jej kwiaty."
+    ru: "Мы охотно подарили бы ей цветы."
+    source: { kind: authored }
+  - form: "podarowałybyśmy"
+    pl: "Podarowałybyśmy koleżance kurs tańca."
+    ru: "Мы подарили бы подруге курс танцев."
+    source: { kind: authored }
+  - form: "podarowałyście"
+    pl: "Co podarowałyście babci?"
+    ru: "Что вы подарили бабушке?"
+    source: { kind: authored }
+  - form: "podarowałyście"
+    pl: "Podarowałyście mi cudowny dzień."
+    ru: "Вы подарили мне чудесный день."
+    source: { kind: authored }
+  - form: "podarowałyście"
+    pl: "Podarowałyście kwiaty pani dyrektor?"
+    ru: "Вы подарили цветы директору?"
+    source: { kind: authored }
+  - form: "podarowałyśmy"
+    pl: "Podarowałyśmy mamie perfumy."
+    ru: "Мы подарили маме духи."
+    source: { kind: authored }
+  - form: "podarowałyśmy"
+    pl: "Podarowałyśmy nauczycielce kwiaty."
+    ru: "Мы подарили учительнице цветы."
+    source: { kind: authored }
+  - form: "podarowałyśmy"
+    pl: "Podarowałyśmy koleżance książkę."
+    ru: "Мы подарили подруге книгу."
+    source: { kind: authored }
+  - form: "podaruj"
+    pl: "Podaruj jej kwiaty."
+    ru: "Подари ей цветы."
+    source: { kind: authored }
+  - form: "podaruj"
+    pl: "Podaruj mi chwilę uwagi."
+    ru: "Удели мне минутку внимания."
+    source: { kind: authored }
+  - form: "podaruj"
+    pl: "Podaruj coś od serca."
+    ru: "Подари что-нибудь от души."
+    source: { kind: authored }
+  - form: "podarujcie"
+    pl: "Podarujcie mamie bukiet."
+    ru: "Подарите маме букет."
+    source: { kind: authored }
+  - form: "podarujcie"
+    pl: "Podarujcie książki bibliotece."
+    ru: "Подарите книги библиотеке."
+    source: { kind: authored }
+  - form: "podarujcie"
+    pl: "Podarujcie sobie trochę odpoczynku."
+    ru: "Подарите себе немного отдыха."
+    source: { kind: authored }
+  - form: "podaruje"
+    pl: "Dziadek podaruje wnukowi rower."
+    ru: "Дедушка подарит внуку велосипед."
+    source: { kind: authored }
+  - form: "podaruje"
+    pl: "Firma podaruje szpitalowi sprzęt."
+    ru: "Фирма подарит больнице оборудование."
+    source: { kind: authored }
+  - form: "podaruje"
+    pl: "Kto podaruje nam drugą szansę?"
+    ru: "Кто подарит нам второй шанс?"
+    source: { kind: authored }
+  - form: "podarujecie"
+    pl: "Co podarujecie młodej parze?"
+    ru: "Что вы подарите молодожёнам?"
+    source: { kind: authored }
+  - form: "podarujecie"
+    pl: "Podarujecie mu ten rower?"
+    ru: "Вы подарите ему этот велосипед?"
+    source: { kind: authored }
+  - form: "podarujecie"
+    pl: "Podarujecie muzeum te listy?"
+    ru: "Вы подарите музею эти письма?"
+    source: { kind: authored }
+  - form: "podarujemy"
+    pl: "Podarujemy jej bilety do teatru."
+    ru: "Мы подарим ей билеты в театр."
+    source: { kind: authored }
+  - form: "podarujemy"
+    pl: "Podarujemy szkole komputery."
+    ru: "Мы подарим школе компьютеры."
+    source: { kind: authored }
+  - form: "podarujemy"
+    pl: "Podarujemy babci album ze zdjęciami."
+    ru: "Мы подарим бабушке альбом с фотографиями."
+    source: { kind: authored }
+  - form: "podarujesz"
+    pl: "Co podarujesz tacie?"
+    ru: "Что ты подаришь папе?"
+    source: { kind: authored }
+  - form: "podarujesz"
+    pl: "Podarujesz mi ten obraz?"
+    ru: "Ты подаришь мне эту картину?"
+    source: { kind: authored }
+  - form: "podarujesz"
+    pl: "Jeśli podarujesz jej psa, oszaleje ze szczęścia."
+    ru: "Если подаришь ей собаку, она будет вне себя от счастья."
+    source: { kind: authored }
+  - form: "podarujmy"
+    pl: "Podarujmy mu coś praktycznego."
+    ru: "Давайте подарим ему что-нибудь практичное."
+    source: { kind: authored }
+  - form: "podarujmy"
+    pl: "Podarujmy dzieciom zabawki."
+    ru: "Давайте подарим детям игрушки."
+    source: { kind: authored }
+  - form: "podarujmy"
+    pl: "Podarujmy sobie chwilę spokoju."
+    ru: "Давайте подарим себе минуту покоя."
+    source: { kind: authored }
+  - form: "podarują"
+    pl: "Rodzice podarują nam mieszkanie."
+    ru: "Родители подарят нам квартиру."
+    source: { kind: authored }
+  - form: "podarują"
+    pl: "Koledzy podarują mu zegarek na emeryturę."
+    ru: "Коллеги подарят ему часы при выходе на пенсию."
+    source: { kind: authored }
+  - form: "podarują"
+    pl: "Sponsorzy podarują drużynie stroje."
+    ru: "Спонсоры подарят команде форму."
+    source: { kind: authored }
+  - form: "podaruję"
+    pl: "Podaruję ci ten zegarek."
+    ru: "Я подарю тебе эти часы."
+    source: { kind: authored }
+  - form: "podaruję"
+    pl: "Podaruję mamie kwiaty."
+    ru: "Я подарю маме цветы."
+    source: { kind: authored }
+  - form: "podaruję"
+    pl: "Na święta podaruję bratu książkę."
+    ru: "На праздники я подарю брату книгу."
+    source: { kind: authored }
