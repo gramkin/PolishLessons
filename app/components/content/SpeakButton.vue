@@ -1,15 +1,22 @@
 <script setup lang="ts">
 const props = defineProps<{ text: string; label?: string }>()
-const { supported, speak } = useSpeech()
+const { supported, speak, recordingFor } = useSpeech()
+const recording = computed(() => recordingFor(props.text))
+// CC BY recordings need their author credited where they play.
+const title = computed(() => {
+  if (props.label) return props.label
+  if (!recording.value) return 'Произнести'
+  return `Произнести (запись: ${recording.value.author}, ${recording.value.license}, Wikimedia Commons)`
+})
 </script>
 
 <template>
   <button
-    v-if="supported"
+    v-if="supported || recording"
     type="button"
     class="speak-button"
     :aria-label="props.label ?? `Произнести: ${props.text}`"
-    :title="props.label ?? 'Произнести'"
+    :title="title"
     @click.stop="speak(props.text)"
   >
     🔊

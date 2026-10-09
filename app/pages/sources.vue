@@ -33,7 +33,7 @@ const sources = [
     name: 'Wikimedia Commons',
     url: 'https://commons.wikimedia.org/',
     use: 'записи произношения',
-    license: 'лицензия указана в карточке слова',
+    license: 'лицензия указана в карточке слова и в подсказке кнопки 🔊',
   },
 ]
 </script>
