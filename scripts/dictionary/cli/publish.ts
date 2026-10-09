@@ -13,7 +13,7 @@ import { CONTENT, PUBLIC_DIR } from '../lib/paths'
 import {
   buildIndex,
   buildPublishedCard,
-  glossOf,
+  indexEntryOf,
   mergeIndex,
   partialPublishBlocker,
 } from '../lib/publish'
@@ -73,13 +73,7 @@ function publishSome(ids: string[]): boolean {
   const updated = ids.map((id) => {
     const card = readCard(id)
     const forms = readForms(id)
-    const entry: IndexEntry = {
-      id: card.id,
-      lemma: card.lemma,
-      rank: card.rank,
-      pos: card.pos,
-      gloss: glossOf(card),
-    }
+    const entry = indexEntryOf(card)
     return {
       card,
       forms,

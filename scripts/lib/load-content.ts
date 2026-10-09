@@ -1,5 +1,5 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
-import { join, relative, sep } from 'node:path'
+import { basename, join, relative, sep } from 'node:path'
 import matter from 'gray-matter'
 import { parse as parseYaml } from 'yaml'
 
@@ -51,7 +51,11 @@ function optional<T>(file: string, read: (file: string) => T): T | null {
   return existsSync(file) ? read(file) : null
 }
 
-export function loadContent(root: string): ContentBundle {
+/** `cardIds` limits the dictionary to those cards: parsing all 5,000 takes most of the time. */
+export function loadContent(root: string, options: { cardIds?: string[] } = {}): ContentBundle {
+  const wanted = options.cardIds && new Set(options.cardIds)
+  const onlyWanted = (file: string) =>
+    !wanted || wanted.has(basename(file).replace(/\.(yml|json)$/, ''))
   return {
     chapters: optional(join(root, 'chapters.yml'), (f) => readData(root, f)),
     patterns: optional(join(root, 'patterns.yml'), (f) => readData(root, f)),
@@ -60,7 +64,11 @@ export function loadContent(root: string): ContentBundle {
     books: listFiles(join(root, 'books'), '.yml').map((f) => readData(root, f)),
     lessons: listFiles(join(root, 'lessons'), '.md').map((f) => readMarkdown(root, f)),
     cheatsheet: optional(join(root, 'cheatsheet.md'), (f) => readMarkdown(root, f)),
-    cards: listFiles(join(root, 'dictionary'), '.yml').map((f) => readData(root, f)),
-    forms: listFiles(join(root, 'forms'), '.json').map((f) => readData(root, f)),
+    cards: listFiles(join(root, 'dictionary'), '.yml')
+      .filter(onlyWanted)
+      .map((f) => readData(root, f)),
+    forms: listFiles(join(root, 'forms'), '.json')
+      .filter(onlyWanted)
+      .map((f) => readData(root, f)),
   }
 }

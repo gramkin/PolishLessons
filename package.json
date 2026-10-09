@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "pnpm search-index && pnpm dict:publish && nuxt dev",
     "build": "nuxt build",
-    "generate": "pnpm validate && pnpm search-index && pnpm dict:publish && nuxt generate",
+    "generate": "pnpm validate && pnpm search-index && pnpm dict:publish && tsx scripts/preview-refresh.ts --snapshot && nuxt generate && tsx scripts/preview-refresh.ts --commit",
     "preview": "serve .output/public -l 4173",
+    "preview:refresh": "tsx scripts/preview-refresh.ts",
     "postinstall": "nuxt prepare",
     "test": "vitest run",
     "test:watch": "vitest",
