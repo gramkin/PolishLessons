@@ -35,6 +35,7 @@ Static Nuxt 4 website teaching Polish (A1–A2) to Russian speakers, styled like
 - **`data/ranked.json` carries the status of all 2000 lemmas**: `format` is the card's format and `depth` its depth, or `null` when no card exists. Run `pnpm dict:status` after adding or upgrading a card; `pnpm dict:rank` re-applies it so re-ranking never loses it.
 - **`data/words.json` is the second registry**, same shape as `ranked.json` (`rank`, `id`, `lemma`, `pos`, `format`, `depth`) plus provenance (`source`, `sourceLines`, `surfaceForms`, `examples`). `ranked.json` is _generated_ by `dict:rank` from the frequency corpus, so anything hand-curated must live here instead or the next re-rank drops it; new words get ranks from 2001 up. `dict:draft`, `pnpm validate` and `dict:status` read both files, and `dict:status` stamps each one back to its own path — never merge them on disk.
 - Pipeline order for a new word: `dict:draft --ids <id>` → author `content/dictionary/<id>.yml` → `dict:build` → `pnpm validate` → `dict:status` → `pnpm generate`.
+- **Seeing a card edit in `pnpm dev`**: the dev server does not watch `content/dictionary/`; card pages read `public/dictionary/`. Run `pnpm dict:publish --ids <id>[,<id>…]` (under a second) and reload. It rewrites only those cards and their index rows, and falls back to a full publish (~20 s) by itself when a lemma, rank or recording changed or a card was added or removed, because other cards show those. `pnpm generate` is only for a deployable build.
 
 ## Content conventions
 

@@ -5,7 +5,13 @@ import {
   stableJson,
 } from '../../scripts/dictionary/lib/build'
 import type { Draft } from '../../scripts/dictionary/lib/draft'
-import { buildIndex, buildPublishedCard, glossOf } from '../../scripts/dictionary/lib/publish'
+import {
+  buildIndex,
+  buildPublishedCard,
+  glossOf,
+  mergeIndex,
+  partialPublishBlocker,
+} from '../../scripts/dictionary/lib/publish'
 import { cardSchema, formsFileSchema, type Card } from '../../shared/dictionary'
 
 const card: Card = cardSchema.parse({
@@ -164,5 +170,49 @@ describe('publish', () => {
     const index = buildIndex([card, other])
     expect(buildPublishedCard(other, forms, index).prev).toBeNull()
     expect(buildPublishedCard(card, forms, index).next).toBeNull()
+  })
+})
+
+describe('partial publish', () => {
+  const row = (id: string, rank: number, lemma = id, gloss = 'x') =>
+    ({ id, lemma, rank, pos: 'noun', gloss }) as const
+  const current = [row('dom', 1), row('kot', 2)]
+  const same = (entry: ReturnType<typeof row>) => ({
+    entry,
+    recordingUrl: null,
+    publishedRecordingUrl: null,
+  })
+
+  it('allows an edit that keeps id, lemma, rank and recording', () => {
+    expect(
+      partialPublishBlocker(current, ['kot', 'dom'], [same(row('kot', 2, 'kot', 'y'))]),
+    ).toBeNull()
+  })
+
+  it('falls back when another card could see the change', () => {
+    expect(partialPublishBlocker(current, ['dom', 'kot', 'pies'], [])).toBe(
+      'cards were added or removed',
+    )
+    expect(partialPublishBlocker(current, ['dom'], [])).toBe('cards were added or removed')
+    expect(partialPublishBlocker(current, ['dom', 'kot'], [same(row('kot', 2, 'kotek'))])).toBe(
+      'kot changed its lemma',
+    )
+    expect(partialPublishBlocker(current, ['dom', 'kot'], [same(row('kot', 3))])).toBe(
+      'kot changed its rank',
+    )
+    expect(
+      partialPublishBlocker(
+        current,
+        ['dom', 'kot'],
+        [{ entry: row('kot', 2), recordingUrl: 'https://x/kot.ogg', publishedRecordingUrl: null }],
+      ),
+    ).toBe('kot changed its recording')
+  })
+
+  it('replaces only the updated rows, keeping order', () => {
+    expect(mergeIndex(current, [row('dom', 1, 'dom', 'дом')])).toEqual([
+      row('dom', 1, 'dom', 'дом'),
+      row('kot', 2),
+    ])
   })
 })

@@ -52,3 +52,39 @@ export function buildPublishedCard(
       .filter((id): id is string => Boolean(id) && published.has(id!)),
   }
 }
+
+/**
+ * Other published cards see a card only through its id, lemma and rank
+ * (rank neighbours, aspect pair, family links), and audio.json only through
+ * its lemma and recording. While none of those move and no card appears or
+ * disappears, republishing just the changed cards and their index rows is
+ * exact. Returns why a full publish is needed, or null.
+ */
+export function partialPublishBlocker(
+  current: IndexEntry[],
+  cardIdsOnDisk: string[],
+  updated: {
+    entry: IndexEntry
+    recordingUrl: string | null
+    publishedRecordingUrl: string | null
+  }[],
+): string | null {
+  const byId = new Map(current.map((entry) => [entry.id, entry]))
+  const onDisk = new Set(cardIdsOnDisk)
+  if (onDisk.size !== byId.size || [...onDisk].some((id) => !byId.has(id)))
+    return 'cards were added or removed'
+  for (const { entry, recordingUrl, publishedRecordingUrl } of updated) {
+    const before = byId.get(entry.id)
+    if (!before) return `${entry.id} is not published yet`
+    if (before.lemma !== entry.lemma) return `${entry.id} changed its lemma`
+    if (before.rank !== entry.rank) return `${entry.id} changed its rank`
+    if (recordingUrl !== publishedRecordingUrl) return `${entry.id} changed its recording`
+  }
+  return null
+}
+
+/** Replace the updated rows in place; ranks did not move, so order holds. */
+export function mergeIndex(current: IndexEntry[], updated: IndexEntry[]): IndexEntry[] {
+  const byId = new Map(updated.map((entry) => [entry.id, entry]))
+  return current.map((entry) => byId.get(entry.id) ?? entry)
+}
