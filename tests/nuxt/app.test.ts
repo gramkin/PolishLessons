@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 import { mockNuxtImport, mountSuspended } from '@nuxt/test-utils/runtime'
 import IndexPage from '~/pages/index.vue'
 import { defaultProgress, markLessonRead } from '~/utils/progress'
@@ -10,6 +10,10 @@ const { lessonWords } = vi.hoisted(() => ({
   ],
 }))
 mockNuxtImport('useLessonWords', () => () => Promise.resolve({ data: { value: lessonWords } }))
+
+// The progress plugin loads once in onNuxtReady, which runs on an idle callback.
+// Let it fire before the tests reset the state, or it lands mid-test.
+beforeAll(() => new Promise((resolve) => setTimeout(resolve, 50)))
 
 beforeEach(() => {
   const { replace, loaded } = useProgress()
