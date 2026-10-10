@@ -68,6 +68,19 @@ export function useProgress() {
     }
   }
 
+  /** New text for saved phrases, keyed by id; box and due date stay. Unknown ids are skipped. */
+  function updatePhraseText(updates: Record<string, { pl: string; ru: string }>) {
+    const changed = Object.entries(updates).flatMap(([id, text]) => {
+      const phrase = progress.value.phrases[id]
+      return phrase ? [[id, { ...phrase, ...text }] as const] : []
+    })
+    if (changed.length === 0) return
+    progress.value = {
+      ...progress.value,
+      phrases: { ...progress.value.phrases, ...Object.fromEntries(changed) },
+    }
+  }
+
   function replace(next: Progress) {
     progress.value = next
   }
@@ -83,6 +96,7 @@ export function useProgress() {
     deletePhrase,
     hasPhrase,
     reviewPhrase,
+    updatePhraseText,
     updateSettings,
     replace,
   }

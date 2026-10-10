@@ -18,6 +18,8 @@ const {
   deletePhrase,
   updateSettings,
 } = useProgress()
+// Saved phrases keep the text they were saved with; refresh it from the cards.
+usePhraseSync()
 const mode = ref<'words' | 'phrases'>('words')
 const phrases = computed(() =>
   Object.values(progress.value.phrases).sort((a, b) => a.added.localeCompare(b.added)),

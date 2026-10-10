@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { phraseId, toPhrase } from '../../app/utils/phrases'
+import { freshPhraseText, phraseId, toPhrase } from '../../app/utils/phrases'
 
 const tatoeba = {
   pl: 'Zrobię to.',
@@ -45,5 +45,38 @@ describe('toPhrase', () => {
     expect(
       toPhrase(authored, { from: 'robic', form: null, now: new Date(2026, 8, 21) }).form,
     ).toBeNull()
+  })
+})
+
+describe('freshPhraseText', () => {
+  const card = {
+    senses: [
+      {
+        id: 's',
+        ru: 'x',
+        examples: [{ ...tatoeba, ru: 'Я это сделаю, обещаю.' }],
+      },
+    ],
+    formExamples: [{ ...authored, form: 'robi' }],
+  }
+
+  it('returns the card text when a saved phrase is out of date', () => {
+    expect(freshPhraseText({ id: 't544544', pl: tatoeba.pl, ru: 'Я сделаю' }, card)).toEqual({
+      pl: 'Zrobię to.',
+      ru: 'Я это сделаю, обещаю.',
+    })
+  })
+
+  it('finds form examples too, and returns null when nothing changed', () => {
+    const id = phraseId(authored)
+    expect(freshPhraseText({ id, pl: authored.pl, ru: authored.ru }, card)).toBeNull()
+    expect(freshPhraseText({ id, pl: authored.pl, ru: 'старый' }, card)).toEqual({
+      pl: authored.pl,
+      ru: authored.ru,
+    })
+  })
+
+  it('leaves a phrase alone when its example is gone from the card', () => {
+    expect(freshPhraseText({ id: 't999', pl: 'Gone.', ru: 'Нет.' }, card)).toBeNull()
   })
 })

@@ -1,4 +1,4 @@
-import type { Example } from '../../shared/dictionary'
+import type { Card, Example } from '../../shared/dictionary'
 import { toDay } from './leitner'
 
 export interface Phrase {
@@ -41,4 +41,22 @@ export function toPhrase(
     due: day,
     added: day,
   }
+}
+
+/**
+ * A saved phrase keeps the text it had when it was saved, so later fixes to
+ * the card (a completed translation, a corrected typo) never reach it on
+ * their own. The id survives a Russian fix: it is the Tatoeba number, or a
+ * hash of the Polish. Returns the card's current text when it differs, or
+ * null when it is the same or the example is no longer on the card.
+ */
+export function freshPhraseText(
+  phrase: Pick<Phrase, 'id' | 'pl' | 'ru'>,
+  card: Pick<Card, 'senses' | 'formExamples'>,
+): { pl: string; ru: string } | null {
+  const example = [...card.senses.flatMap((s) => s.examples), ...card.formExamples].find(
+    (e) => phraseId(e) === phrase.id,
+  )
+  if (!example || (example.pl === phrase.pl && example.ru === phrase.ru)) return null
+  return { pl: example.pl, ru: example.ru }
 }
