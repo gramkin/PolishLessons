@@ -73,6 +73,7 @@ function onAnswered(index: number, verdict: Verdict) {
 }
 
 const done = computed(() => verdicts.value.length > 0 && verdicts.value.every((v) => v !== null))
+const answered = computed(() => verdicts.value.filter((v) => v !== null).length)
 const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict => v !== null)))
 </script>
 
@@ -93,6 +94,14 @@ const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict =
         {{ loading ? 'Загружаю…' : 'Начать' }}
       </button>
       <button type="button" :disabled="loading" @click="start('listen')">На слух</button>
+    </div>
+    <div v-if="session.length > 0 && !done" class="drill-toolbar">
+      <span class="drill-progress">Отвечено: {{ answered }} из {{ session.length }}</span>
+      <!-- Restart at any point, not only after the last answer: a round can be abandoned. -->
+      <button type="button" @click="start(mode)">Новые {{ SESSION }} предложений</button>
+      <button type="button" @click="start(mode === 'listen' ? 'fill' : 'listen')">
+        {{ mode === 'listen' ? 'С пропуском' : 'На слух' }}
+      </button>
     </div>
     <p v-if="failed" class="drill-error" role="alert">Не удалось загрузить предложения.</p>
     <ol v-if="session.length > 0" :key="round" class="drill-questions">
@@ -166,6 +175,17 @@ const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict =
 .drill-start {
   display: flex;
   gap: 0.5rem;
+}
+.drill-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.drill-progress {
+  color: var(--muted);
+  margin-right: auto;
 }
 .drill-error {
   color: var(--false-friend);

@@ -72,4 +72,17 @@ describe('Drill', () => {
     await flushPromises()
     expect(wrapper.find('[role="alert"]').text()).toContain('Не удалось')
   })
+
+  it('can start a new round midway, before every sentence is answered', async () => {
+    const wrapper = await mountSuspended(Drill, { props: { id: 'noun-acc-sg' } })
+    await wrapper.find('button').trigger('click')
+    await flushPromises()
+    await answer(wrapper, 0, 'książkę')
+    expect(wrapper.find('.drill-progress').text()).toBe('Отвечено: 1 из 10')
+
+    await wrapper.findAll('.drill-toolbar button')[0]!.trigger('click')
+    await flushPromises()
+    expect(wrapper.find('.drill-progress').text()).toBe('Отвечено: 0 из 10')
+    expect(wrapper.findAll('.quiz-feedback')).toHaveLength(0)
+  })
 })
