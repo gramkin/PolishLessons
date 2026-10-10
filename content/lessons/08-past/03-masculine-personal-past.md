@@ -4,7 +4,7 @@ description: Byli или były — тот же выбор, что между oni
 chapter: 9
 order: 3
 level: A2
-words: [spotkac, wrocic, skonczyc]
+words: [spotkac, wrocic, skonczyc, rodzice, ludzie, dzieci]
 ---
 
 <!-- review -->
@@ -30,7 +30,28 @@ rows:
 :pron{pl="Studenci wrócili do domu."} — Студенты вернулись домой.
 :pron{pl="Studentki wróciły do domu."} — Студентки вернулись домой.
 
-Разница в одной букве, но она обязательна, и на слух заметна сразу.
+Разница в одной букве, но она обязательна, и на слух заметна сразу. Она проходит через все лица множественного числа:
+
+::compare-table
+---
+headers: [Лицо, "есть мужчина", "мужчин нет"]
+plColumns: [0, 1, 2]
+rows:
+  - ["!my", byliśmy, byłyśmy]
+  - ["!wy", byliście, byłyście]
+  - ["!oni / one", byli, były]
+---
+::
+
+<!-- review -->
+
+:pron{pl="Chłopcy grali w piłkę."} — Мальчики играли в мяч.
+:pron{pl="Dziewczyny tańczyły."} — Девушки танцевали.
+:pron{pl="Panowie czekali, a panie rozmawiały."} — Мужчины ждали, а женщины разговаривали.
+:pron{pl="Ludzie czekali na autobus."} — Люди ждали автобус.
+:pron{pl="Rodzice byli w pracy."} — Родители были на работе.
+
+*Ludzie* «люди» и *rodzice* «родители» — мужско-личные слова: в них по смыслу есть мужчины.
 
 ::quiz
 ---
@@ -64,6 +85,13 @@ questions:
 
 Хотя женщина названа первой, глагол берёт **-li**, потому что среди них есть Пётр.
 
+<!-- review -->
+
+:pron{pl="Mama i córka były w sklepie."} — Мама и дочь были в магазине.
+:pron{pl="Czy państwo już byli w Krakowie?"} — Вы уже были в Кракове? *(паре, вежливо)*
+
+Вежливое *państwo* «господа, вы» — это мужчина и женщина вместе, поэтому глагол всегда на **-li**.
+
 ::quiz
 ---
 questions:
@@ -93,6 +121,14 @@ questions:
 
 Животные тоже не входят в мужско-личный род, даже если это самцы: :pron{pl="Psy szczekały całą noc."} — «Собаки лаяли всю ночь».
 
+<!-- review -->
+
+:pron{pl="Koty spały na kanapie."} — Коты спали на диване.
+:pron{pl="Dzieci bawiły się w ogrodzie."} — Дети играли в саду.
+:pron{pl="Drzwi się otworzyły."} — Дверь открылась.
+
+Слово *dzieci* «дети» грамматически не мужско-личное, даже если все дети — мальчики: глагол всегда на **-ły**. А *drzwi* существует только во множественном числе, поэтому и «дверь открылась» — *otworzyły*.
+
 ::quiz
 ---
 questions:
@@ -110,6 +146,55 @@ questions:
     options: [przyjechali, przyjechały]
     answer: 1
     explain: "autobus мужского рода, но это не человек: -ły."
+---
+::
+
+## Диалог: после вечеринки
+
+<!-- review -->
+
+- **Ola:** :pron{pl="Kto był wczoraj na imprezie?"} — Кто был вчера на вечеринке?
+- **Kuba:** :pron{pl="Byli wszyscy: Marek, Ewa, Kasia i Tomek."} — Были все: Марек, Ева, Кася и Томек.
+- **Ola:** :pron{pl="A dziewczyny z pracy?"} — А девушки с работы?
+- **Kuba:** :pron{pl="Były, ale wcześnie wróciły do domu."} — Были, но рано вернулись домой.
+- **Ola:** :pron{pl="Co robiliście?"} — Что вы делали?
+- **Kuba:** :pron{pl="Tańczyliśmy i śpiewaliśmy. Sąsiedzi chyba nie spali."} — Танцевали и пели. Соседи, наверное, не спали.
+- **Ola:** :pron{pl="A psy?"} — А собаки?
+- **Kuba:** :pron{pl="Psy spały w kuchni."} — Собаки спали на кухне.
+
+Обратите внимание на первую реплику: после *kto* глагол стоит в мужском роде единственного числа — *kto był*, как русское «кто был».
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Dzieci bawili się.* → :pron{pl="Dzieci bawiły się."} *Dzieci* не мужско-личное слово, глагол всегда на **-ły**.
+- *Psy szczekali.* → :pron{pl="Psy szczekały."} Животные — не люди, даже если это самцы.
+- *Mama i tata były w domu.* → :pron{pl="Mama i tata byli w domu."} Одного мужчины в группе достаточно для **-li**.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Dzieci ___ w ogrodzie. (bawić się)"
+    options: ["bawili się", "bawiły się"]
+    answer: 1
+    explain: "dzieci — не мужско-личное слово: bawiły się, даже если среди детей есть мальчики."
+  - type: input
+    q: "Ludzie ___ na autobus. (czekać)"
+    answer: czekali
+    explain: "ludzie — мужско-личное слово: czekali."
+  - type: input
+    q: "Czy państwo już ___ w Krakowie? (być)"
+    answer: byli
+    explain: "państwo — мужчина и женщина вместе, поэтому -li: byli."
+  - type: translate
+    q: "Мы (ж.) были в кино."
+    answer: ["Byłyśmy w kinie.", "My byłyśmy w kinie."]
+    explain: "Только женщины — -ły: były + śmy = byłyśmy. «В кино» — w kinie."
+  - type: listen
+    text: Rodzice byli w pracy.
+    explain: "rodzice — мужско-личное слово: byli. «На работе» — w pracy."
 ---
 ::
 

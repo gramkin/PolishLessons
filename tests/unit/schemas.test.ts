@@ -109,6 +109,19 @@ describe('quizSchema', () => {
     expect(result.error?.issues[0]?.path).toEqual([0, 'answer'])
   })
 
+  it('rejects a translation split at its comma by an unquoted YAML list', () => {
+    const quiz = [
+      { type: 'translate', q: 'Мама, где ты?', answer: ['Mamo', 'gdzie jesteś?'], explain: 'x' },
+    ]
+    const result = quizSchema.safeParse(quiz)
+    expect(result.success).toBe(false)
+    expect(result.error?.issues[0]?.path).toEqual([0, 'answer', 1])
+    const whole = [
+      { type: 'translate', q: 'Мама, где ты?', answer: ['Mamo, gdzie jesteś?'], explain: 'x' },
+    ]
+    expect(quizSchema.safeParse(whole).success).toBe(true)
+  })
+
   it('rejects match with fewer than two pairs', () => {
     const quiz = [{ type: 'match', q: '?', pairs: [['a', 'а']] }]
     expect(quizSchema.safeParse(quiz).success).toBe(false)

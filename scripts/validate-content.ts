@@ -3,6 +3,7 @@ import { resolve } from 'node:path'
 import { DATA } from './dictionary/lib/paths'
 import { parseOverrides } from './dictionary/lib/rank'
 import { readRegistry } from './dictionary/lib/registry'
+import { lessonDepthWarnings } from './lib/lesson-depth'
 import { loadContent } from './lib/load-content'
 import { validateContent } from './lib/validate'
 import { validateDictionary } from './lib/validate-dictionary'
@@ -33,6 +34,12 @@ errors.push(...dictionary.errors)
 if (dictionary.warnings.length > 0) {
   console.warn(`! ${dictionary.warnings.length} dictionary warning(s) (first 5 shown):`)
   for (const warning of dictionary.warnings.slice(0, 5)) console.warn(`  - ${warning}`)
+}
+
+const thin = lessonDepthWarnings(bundle.lessons)
+if (thin.length > 0) {
+  console.warn(`! ${thin.length} thin lesson(s):`)
+  for (const warning of thin) console.warn(`  - ${warning}`)
 }
 
 if (errors.length > 0) {

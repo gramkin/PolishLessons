@@ -35,7 +35,16 @@ rows:
 :pron{pl="Nie mam czasu."} — У меня нет времени.
 :pron{pl="Nie czytam książki."} — Я не читаю книгу.
 
-Правило касается только винительного. Дополнения в других падежах с **nie** не меняются: *nie pomagam mamie* (дательный), *nie jestem lekarzem* (творительный).
+<!-- review -->
+
+:pron{pl="Nie lubię mleka."} — Я не люблю молоко.
+:pron{pl="Nie znam Warszawy."} — Я не знаю Варшаву.
+:pron{pl="Nie oglądam telewizji."} — Я не смотрю телевизор.
+
+Правило касается только винительного. Дополнения в других падежах с **nie** не меняются:
+
+:pron{pl="Nie pomagam mamie."} — Я не помогаю маме. (дательный)
+:pron{pl="Nie jestem lekarzem."} — Я не врач. (творительный)
 
 ::quiz
 ---
@@ -58,6 +67,21 @@ questions:
 ## Чем это отличается от русского
 
 Русский допускает оба варианта: «не читаю книгу» и «не читаю книги» одинаково возможны, и выбор — дело оттенка. Польский выбора не даёт. После **nie** родительный обязателен, и винительный там звучит как ошибка.
+
+<!-- review -->
+
+:pron{pl="Nie piję kawy."} — Я не пью кофе.
+:pron{pl="On nie ma samochodu."} — У него нет машины.
+
+## Отрицание действует и через инфинитив
+
+Если *nie* стоит перед *chcieć, móc, musieć* или другим глаголом с инфинитивом, родительный получает дополнение инфинитива. Утвердительное *chcę pić kawę* с отрицанием становится *nie chcę pić kawy*:
+
+:pron{pl="Nie chcę pić kawy."} — Я не хочу пить кофе.
+:pron{pl="Nie mogę znaleźć klucza."} — Я не могу найти ключ.
+:pron{pl="Nie muszę kupować chleba."} — Мне не нужно покупать хлеб.
+
+Русский здесь тоже колеблется («не могу найти ключ» и «ключа»), а польский — нет.
 
 ::quiz
 ---
@@ -103,7 +127,11 @@ questions:
 
 ## Nie ma — тот же закон
 
-Оборот **nie ma** из прошлого урока — это просто частный случай того же правила: отрицание от *jest*, и потому родительный.
+Оборот **nie ma** из прошлого урока работает похоже: это отрицание от *jest* «есть», и оно тоже требует родительного, хотя в утверждении стоит именительный — *jest mleko*, но *nie ma mleka*.
+
+<!-- review -->
+
+:pron{pl="Nie ma problemu."} — Нет проблем.
 
 ::quiz
 ---
@@ -117,6 +145,54 @@ questions:
     options: [czas, czasu]
     answer: 1
     explain: "nie ma + родительный: czasu."
+---
+::
+
+<!-- review -->
+
+### Диалог: в кафе
+
+- **Kelner:** :pron{pl="Dzień dobry! Kawa czy herbata?"} — Здравствуйте! Кофе или чай?
+- **Ania:** :pron{pl="Dziękuję, nie piję kawy. Poproszę herbatę."} — Спасибо, я не пью кофе. Чай, пожалуйста.
+- **Kelner:** :pron{pl="Z cukrem?"} — С сахаром?
+- **Ania:** :pron{pl="Nie, bez cukru."} — Нет, без сахара.
+- **Kelner:** :pron{pl="A może sernik?"} — А может, чизкейк?
+- **Ania:** :pron{pl="Nie, dziękuję, nie jem ciasta."} — Нет, спасибо, я не ем выпечку.
+- **Kelner:** :pron{pl="A dla pana?"} — А вам?
+- **Tomek:** :pron{pl="Nie mam czasu. Poproszę tylko wodę."} — У меня нет времени. Только воду, пожалуйста.
+
+*Poproszę herbatę*, *wodę* — винительный, а *nie piję kawy*, *nie jem ciasta*, *nie mam czasu* — родительный после отрицания.
+
+## Типичные ошибки
+
+- *Nie czytam gazetę.* → :pron{pl="Nie czytam gazety."} После *nie* нужен родительный, хотя по-русски «не читаю газету» нормально.
+- *Nie mam samochód.* → :pron{pl="Nie mam samochodu."} *nie mam* — тоже отрицание, дополнение в родительном.
+- *Nie pomagam mamy.* → :pron{pl="Nie pomagam mamie."} Правило меняет только винительный. *pomagać* требует дательного, и с *nie* он остаётся.
+- *Nie chcę pić kawę.* → :pron{pl="Nie chcę pić kawy."} Отрицание при *chcę* действует и на дополнение инфинитива.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Nie piję kawy.
+    explain: "После nie прямое дополнение в родительном: kawę → kawy."
+  - type: input
+    q: "Nie chcę jeść ___. (zupa)"
+    answer: zupy
+    explain: "Отрицание стоит при chcę, но действует и на дополнение инфинитива: zupa → zupy."
+  - type: input
+    q: "Nie mogę znaleźć ___. (klucz)"
+    answer: klucza
+    explain: "Отрицание через инфинитив: klucz → klucza, «не могу найти ключ»."
+  - type: choice
+    q: "Nie jestem ___. (lekarz)"
+    options: [lekarza, lekarzem]
+    answer: 1
+    explain: "После być — творительный, и отрицание его не меняет: nie jestem lekarzem. Родительный заменяет только винительный."
+  - type: translate
+    q: "Я не смотрю телевизор."
+    answer: ["Nie oglądam telewizji.", "Ja nie oglądam telewizji."]
+    explain: "oglądać + винительный, а с nie — родительный: telewizja → telewizji."
 ---
 ::
 

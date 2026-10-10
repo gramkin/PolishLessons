@@ -4,31 +4,40 @@ description: Основа на -ł- и род, который виден даж�
 chapter: 9
 order: 1
 level: A2
-words: [wczoraj, dzisiaj, juz, dawno, zrobic, powiedziec]
+words: [wczoraj, dzisiaj, juz, dawno, zrobic, powiedziec, spac, pic]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: mieł -->
 
 Прошедшее время в польском строится просто: от инфинитива отбрасывается **-ć**, добавляется **-ł-** и окончание рода.
 
 ::compare-table
 ---
-headers: [Инфинитив, "он", "она", "оно"]
-plColumns: [0, 1, 2, 3]
+headers: [Инфинитив, "он", "она", "оно", "они (м.-л.)", "они (остальные)"]
+plColumns: [0, 1, 2, 3, 4, 5]
 rows:
-  - ["!robić", robił, robiła, robiło]
-  - ["!czytać", czytał, czytała, czytało]
-  - ["!mieć", miał, miała, miało]
-  - ["!być", był, była, było]
+  - ["!robić", robił, robiła, robiło, robili, robiły]
+  - ["!czytać", czytał, czytała, czytało, czytali, czytały]
+  - ["!mieć", miał, miała, miało, mieli, miały]
+  - ["!być", był, była, było, byli, były]
 ---
 ::
 
-Русский устроен так же: «делал», «делала», «делало». Сходство полное, включая само **-л-**.
+Русский устроен так же: «делал», «делала», «делало». Сходство полное, включая само **-л-**. Во множественном числе польский различает две формы: **-li** — о группе, где есть мужчина (*oni robili*), **-ły** — обо всех остальных (*one robiły*). Это различие подробно разобрано в уроке 9.3.
 
 У глаголов на **-eć** перед **-ł-** гласная **e** переходит в **a**: *mieć → miał, miała*, *wiedzieć → wiedział*. Буква **e** возвращается только перед мужско-личным **-li**: *mieli*, *wiedzieli*. Глаголы на **-c**, **-ść** и **-ąć** (*móc*, *jeść*, *zacząć*) меняют основу сильнее — им посвящён урок 9.4.
 
 :pron{pl="Wczoraj czytał książkę."} — Вчера он читал книгу.
 :pron{pl="Ona miała czas."} — У неё было время.
+
+<!-- review -->
+
+:pron{pl="On pił kawę."} — Он пил кофе.
+:pron{pl="Dziecko spało."} — Ребёнок спал.
+:pron{pl="Było zimno."} — Было холодно.
+
+Последний пример — безличная фраза. Русский ставит в ней средний род («было холодно»), польский тоже: *było*.
 
 ::quiz
 ---
@@ -63,11 +72,21 @@ rows:
   - [on / ona, był, była]
   - ["!my", byliśmy, byłyśmy]
   - ["!wy", byliście, byłyście]
+  - [oni / one, byli, były]
 ---
 ::
 
+Во множественном числе левый столбец — группа, в которой есть мужчина, правый — все остальные. Средний род в первом и втором лице почти не встречается, а в третьем это *ono było*.
+
 :pron{pl="Byłem w domu."} — Я был дома. *(говорит мужчина)*
 :pron{pl="Byłam w domu."} — Я была дома. *(говорит женщина)*
+
+<!-- review -->
+
+:pron{pl="Pracowałem w Warszawie."} — Я работал в Варшаве. *(мужчина)*
+:pron{pl="Mieszkałam w Krakowie."} — Я жила в Кракове. *(женщина)*
+:pron{pl="Co robiłeś wczoraj?"} — Что ты делал вчера? *(мужчине)*
+:pron{pl="Byliśmy w kinie."} — Мы были в кино.
 
 Местоимение при этом обычно опускают — окончание уже всё сказало. Сказать :pron{pl="Ja byłem w domu."} можно, но только чтобы подчеркнуть «именно я».
 
@@ -102,6 +121,14 @@ questions:
 :pron{pl="Wczoraj byłem w pracy."} — Вчера я был на работе.
 :pron{pl="Dawno tu nie byłam."} — Я давно здесь не была.
 
+<!-- review -->
+
+:pron{pl="Dzisiaj rano piłam kawę."} — Сегодня утром я пила кофе. *(женщина)*
+:pron{pl="Byłem już w Krakowie."} — Я уже был в Кракове. *(мужчина)*
+:pron{pl="Nie miałam czasu."} — У меня не было времени. *(женщина)*
+
+В последнем примере, как и в настоящем времени, после *nie mieć* дополнение стоит в родительном: *mam czas*, но *nie miałam czasu*.
+
 ::quiz
 ---
 questions:
@@ -120,6 +147,53 @@ questions:
       - [dzisiaj, сегодня]
       - [dawno, давно]
     explain: "Эти наречия чаще всего сопровождают прошедшее время."
+---
+::
+
+## Диалог: выходные
+
+<!-- review -->
+
+- **Ania:** :pron{pl="Cześć! Co robiłeś w weekend?"} — Привет! Что ты делал на выходных?
+- **Piotr:** :pron{pl="W sobotę byłem w kinie z bratem."} — В субботу я был в кино с братом.
+- **Ania:** :pron{pl="A w niedzielę?"} — А в воскресенье?
+- **Piotr:** :pron{pl="Pracowałem w domu. Miałem dużo pracy. A ty?"} — Работал дома. У меня было много работы. А ты?
+- **Ania:** :pron{pl="Byłam u babci. Gotowałyśmy razem obiad."} — Я была у бабушки. Мы вместе готовили обед.
+- **Piotr:** :pron{pl="I jak było?"} — И как было?
+- **Ania:** :pron{pl="Bardzo miło. Babcia opowiadała o dziadku."} — Очень мило. Бабушка рассказывала о дедушке.
+- **Piotr:** :pron{pl="Ja dawno nie byłem u babci."} — А я давно не был у бабушки.
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Ja był w domu.* → :pron{pl="Byłem w domu."} В первом лице к глаголу приклеивается окончание: *był* + *em*. Одного местоимения *ja* мало.
+- *Byłem zmęczona.* → :pron{pl="Byłam zmęczona."} Женщина и о себе говорит в женском роде: *byłam*, как «я была».
+- *On mieł czas.* → :pron{pl="On miał czas."} У глаголов на **-eć** перед **-ł-** стоит **a**: *mieć → miał*; **e** возвращается только в *mieli*.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Dziecko ___ cały dzień. (spać)"
+    answer: spało
+    explain: "dziecko — среднего рода: spa-ć → spało, как «спало»."
+  - type: choice
+    q: "Женщина говорит: ___ dużo pracy."
+    options: [Miałem, Miałam, Miała]
+    answer: 1
+    explain: "Женщина о себе: miała + m = miałam. Miałem скажет мужчина, а miała — «она имела»."
+  - type: input
+    q: "Co ___ wczoraj? (robić, ты, м.)"
+    answer: robiłeś
+    explain: "Мужчине «ты»: robił + eś = robiłeś."
+  - type: translate
+    q: Вчера было холодно.
+    answer: [Wczoraj było zimno., Było wczoraj zimno.]
+    explain: "Безличная фраза — средний род, как и в русском: było zimno."
+  - type: listen
+    text: Wczoraj byłam w kinie.
+    explain: "Женщина о себе: była + m = byłam. «В кино» — w kinie, предложный."
 ---
 ::
 

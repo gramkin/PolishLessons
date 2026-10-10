@@ -203,3 +203,127 @@ describe('sampleItems', () => {
     expect(new Set(picked).size).toBe(3)
   })
 })
+
+const adjectiveTables = [
+  {
+    title: 'Склонение',
+    columns: ['м. р.', 'ж. р.', 'ср. р.'],
+    extra: false,
+    rows: [
+      { label: 'Именительный', cells: [['nowy'], ['nowa'], ['nowe']] },
+      { label: 'Винительный', cells: [['nowy'], ['nową'], ['nowe']] },
+      { label: 'Творительный', cells: [['nowym'], ['nową'], ['nowym']] },
+    ],
+  },
+  { title: 'Степени сравнения', columns: ['Форма'], extra: false, rows: [] },
+]
+
+describe('drillItems with syncretic forms', () => {
+  const agreement = drillSchema.parse({
+    id: 'adj-agreement',
+    title: 'Согласование',
+    instruction: 'Согласуйте прилагательное.',
+    pos: 'adj',
+    cells: [{ table: 'Склонение' }],
+    syncretic: true,
+  })
+  const adjective = card({
+    id: 'nowy',
+    lemma: 'nowy',
+    pos: 'adj',
+    formExamples: [
+      example('nowa', 'To jest nowa szkoła.'),
+      example('nową', 'Mam nową pracę.'),
+      example('nowy', 'To jest nowy dom.'),
+    ],
+  })
+
+  it('takes a form shared by several asked-for cells, but never the lemma', () => {
+    const items = drillItems(agreement, [{ card: adjective, forms: { tables: adjectiveTables } }])
+    expect(items.map((i) => i.answer).sort()).toEqual(['nowa', 'nową'])
+  })
+
+  it('still drops a shared form without the option', () => {
+    const strict = { ...agreement, syncretic: false }
+    const items = drillItems(strict, [{ card: adjective, forms: { tables: adjectiveTables } }])
+    // nową is accusative and instrumental at once; nowa fills one cell.
+    expect(items.map((i) => i.answer)).toEqual(['nowa'])
+  })
+})
+
+describe('drillItems with an aspect hint', () => {
+  const pastTables = [
+    {
+      title: 'Прошедшее время',
+      columns: ['м. р.', 'ж. р.', 'ср. р.'],
+      extra: false,
+      rows: [{ label: '1-е лицо', cells: [['zrobiłem'], ['zrobiłam'], []] }],
+    },
+  ]
+  const spec = drillSchema.parse({
+    id: 'verb-aspect',
+    title: 'Вид',
+    instruction: 'Выберите вид.',
+    pos: 'verb',
+    cells: [{ table: 'Прошедшее время' }],
+    hint: 'aspect',
+  })
+  const perfective = card({
+    id: 'zrobic',
+    lemma: 'zrobić',
+    pos: 'verb',
+    aspect: 'perf',
+    formExamples: [example('zrobiłam', 'Już zrobiłam obiad.')],
+  })
+
+  it('names both verbs of the pair, imperfective first, with the person and the Russian', () => {
+    const pair = { id: 'robic', lemma: 'robić', rank: 50 }
+    const items = drillItems(spec, [
+      { card: perfective, forms: { tables: pastTables }, aspectPair: pair },
+    ])
+    expect(items).toEqual([
+      expect.objectContaining({
+        answer: 'zrobiłam',
+        hint: 'robić / zrobić — я, ж.; «ru: Już zrobiłam obiad.»',
+      }),
+    ])
+  })
+
+  it('skips a verb without a partner', () => {
+    expect(drillItems(spec, [{ card: perfective, forms: { tables: pastTables } }])).toEqual([])
+  })
+})
+
+describe('the gender drill', () => {
+  const spec = drillSchema.parse({
+    id: 'noun-gender',
+    title: 'Род',
+    instruction: 'ten, ta или to?',
+    pos: 'noun',
+    cells: [{ table: 'Склонение' }],
+    kind: 'gender',
+  })
+  const noun = (id: string, lemma: string, rank: number) =>
+    card({ id, lemma, rank, senses: [{ id: 'a', ru: id, examples: [] }] } as Partial<Card>)
+
+  it('asks for the demonstrative of each singular noun, commonest first', () => {
+    const items = drillItems(spec, [
+      { card: noun('okno', 'okno', 30), forms: { tables: [], grammarLabel: 'средний род' } },
+      {
+        card: noun('dom', 'dom', 10),
+        forms: { tables: [], grammarLabel: 'мужской род, неодушевлённый' },
+      },
+      {
+        card: noun('drzwi', 'drzwi', 20),
+        forms: { tables: [], grammarLabel: 'только множественное число' },
+      },
+      { card: noun('ksiazka', 'książka', 40), forms: { tables: [], grammarLabel: 'женский род' } },
+    ])
+    expect(items.map((i) => [i.pl, i.answer])).toEqual([
+      [`${BLANK} dom`, 'ten'],
+      [`${BLANK} okno`, 'to'],
+      [`${BLANK} książka`, 'ta'],
+    ])
+    expect(items[0]!.ru).toBe('dom — мужской род: dom')
+  })
+})

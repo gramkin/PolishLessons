@@ -4,7 +4,7 @@ description: "Ложные друзья, которые значат ровно 
 chapter: 19
 order: 1
 level: A2
-words: [zapomniec, won, pytac, nagle]
+words: [zapomniec, won, pytac, nagle, zakaz, owoc, warzywo]
 ---
 
 <!-- review -->
@@ -31,6 +31,15 @@ rows:
 
 Чтобы сказать «запомнить», нужен другой глагол — *zapamiętać*. Разница в одной приставке, а смысл противоположный.
 
+<!-- review -->
+
+:pron{pl="Zapomniałam parasola."} — Я забыла зонт.
+:pron{pl="Nie zapomnij o mnie!"} — Не забывай обо мне!
+:pron{pl="Zapamiętaj to słowo."} — Запомни это слово.
+:pron{pl="Pamiętam twój numer."} — Я помню твой номер.
+
+Что именно забыли, по норме стоит в родительном падеже (*hasła*, *parasola*); в разговорной речи часто слышен и винительный — *zapomniałam parasol*, это тоже не ошибка. «Забыть о ком-то» — *zapomnieć o* + предложный. «Помнить» — *pamiętać*, от того же корня, что *pamięć* «память».
+
 ::quiz
 ---
 questions:
@@ -38,7 +47,7 @@ questions:
     q: "«Zapomniałem kluczy.» — что случилось?"
     options: ["Я запомнил ключи.", "Я забыл ключи.", "Я потерял ключи."]
     answer: 1
-    explain: "zapomnieć — «забыть», а не «запомнить». Kluczy — родительный падеж, которого требует zapomnieć."
+    explain: "zapomnieć — «забыть», а не «запомнить». Kluczy — родительный падеж, обычный после zapomnieć."
   - type: choice
     q: "«Запомни этот номер!» по-польски:"
     options: ["Zapomnij ten numer!", "Zapamiętaj ten numer!"]
@@ -56,6 +65,11 @@ questions:
 :pron{pl="W powietrzu unosi się woń róż."} — В воздухе витает аромат роз.
 
 Русская «вонь» — это по-польски *smród*. А :pl-word{id="won"} — книжное «запах», и он бывает каким угодно: *woń róż* «аромат роз», но и *woń spalenizny* «запах гари». В обычной речи чаще говорят *zapach*.
+
+<!-- review -->
+
+:pron{pl="Lubię zapach kawy."} — Я люблю запах кофе.
+:pron{pl="Co to za smród?"} — Что это за вонь?
 
 ::quiz
 ---
@@ -77,7 +91,12 @@ questions:
 
 :pron{pl="Pytam o drogę."} — Я спрашиваю дорогу.
 
-Ничего страшного здесь нет: :pl-word{id="pytac"} — обычное «спрашивать».
+Ничего страшного здесь нет: :pl-word{id="pytac"} — обычное «спрашивать». Кого спрашивают — в винительном, как в русском: *zapytaj mamę* «спроси маму»; о чём — *o* + винительный: *pytam o drogę*.
+
+<!-- review -->
+
+:pron{pl="Zapytaj nauczyciela."} — Спроси учителя.
+:pron{pl="Dlaczego pytasz?"} — Почему ты спрашиваешь?
 
 ::quiz
 ---
@@ -98,6 +117,13 @@ questions:
 
 :pron{pl="Nagle zaczął padać deszcz."} — Внезапно пошёл дождь.
 
+<!-- review -->
+
+:pron{pl="Nagle ktoś zapukał do drzwi."} — Вдруг кто-то постучал в дверь.
+:pron{pl="On jest bardzo bezczelny."} — Он очень наглый.
+
+:pl-word{id="nagle"} отвечает на вопрос «как случилось?» — неожиданно. Русское «нагло» и «наглый» по-польски *bezczelnie* и *bezczelny*.
+
 ::quiz
 ---
 questions:
@@ -114,13 +140,75 @@ questions:
 ---
 ::
 
+<!-- review -->
+
+## Zakaz и owoc
+
+Ещё два слова, где смысл уходит в другую сторону. :pl-word{id="zakaz"} — не «заказ», а **запрет**: его видно на табличках по всей Польше. А «заказ» — *zamówienie*, «заказать» — *zamówić*.
+
+:pron{pl="Tu jest zakaz parkowania."} — Здесь запрещена парковка.
+:pron{pl="Czy mogę zamówić?"} — Можно заказать?
+
+:pl-word{id="owoc"} — это **фрукт**, а не овощ. Овощи по-польски :pl-word{id="warzywo"}, во множественном *warzywa*.
+
+:pron{pl="Jem dużo owoców."} — Я ем много фруктов.
+:pron{pl="Warzywa są zdrowe."} — Овощи полезны.
+
+### Диалог
+
+- **Marek:** :pron{pl="Ola, zapomniałem kluczy!"} — Оля, я забыл ключи!
+- **Ola:** :pron{pl="Znowu? Zapytaj sąsiada, on ma zapasowy klucz."} — Опять? Спроси соседа, у него есть запасной ключ.
+- **Marek:** :pron{pl="Dobrze. A co tak ładnie pachnie?"} — Хорошо. А что так приятно пахнет?
+- **Ola:** :pron{pl="Piekę ciasto z owocami."} — Я пеку пирог с фруктами.
+- **Marek:** :pron{pl="Mogę wziąć kawałek?"} — Можно мне кусочек?
+- **Ola:** :pron{pl="Zapamiętaj: najpierw obiad, potem ciasto."} — Запомни: сначала обед, потом пирог.
+- **Marek:** :pron{pl="Dobrze, zapamiętam."} — Хорошо, запомню.
+
+## Типичные ошибки
+
+- *Zapomnij ten numer!* (хотели сказать «запомни») → :pron{pl="Zapamiętaj ten numer!"} *Zapomnij* значит «забудь»: просьба превращается в обратную.
+- *Mój zakaz jeszcze nie przyszedł.* → :pron{pl="Moje zamówienie jeszcze nie przyszło."} «Заказ» — *zamówienie*, среднего рода; *zakaz* — запрет.
+- *Kupiłem owoce na zupę.* (хотели сказать «овощи») → :pron{pl="Kupiłem warzywa na zupę."} *Owoce* — фрукты, овощи — *warzywa*.
+- *Nagle mi odpowiedział.* (хотели сказать «нагло») → :pron{pl="Odpowiedział mi bezczelnie."} *Nagle* — «вдруг», «нагло» — *bezczelnie*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Как по-польски «овощи»?"
+    options: [owoce, warzywa, zakazy]
+    answer: 1
+    explain: "«Овощи» — warzywa. Owoce — «фрукты», как бы ни тянуло к русскому «овощи»."
+  - type: choice
+    q: "Табличка «Zakaz palenia» значит:"
+    options: ["Курить запрещено.", "Заказ сигарет.", "Место для курения."]
+    answer: 0
+    explain: "zakaz — «запрет», palenia — родительный от palenie «курение». «Заказ» — zamówienie."
+  - type: input
+    q: "«Ты забыл мой номер?» — ___ mojego numeru? (zapomnieć, ты, м. р.)"
+    answer: Zapomniałeś
+    explain: "zapomniał + -eś = zapomniałeś, «ты забыл». Что забыли — в родительном: mojego numeru."
+  - type: translate
+    q: "Я ем много фруктов."
+    answer: ["Jem dużo owoców.", "Ja jem dużo owoców."]
+    explain: "«Фрукты» — owoce, после dużo родительный множественного: owoców. Warzyw было бы «овощей»."
+  - type: translate
+    q: "Спроси учителя."
+    answer: ["Zapytaj nauczyciela.", "Spytaj nauczyciela."]
+    explain: "pytać / zapytać — «спрашивать / спросить», кого — nauczyciela. «Пытать» по-польски torturować."
+  - type: listen
+    text: "Nagle ktoś zapukał do drzwi."
+    explain: "nagle — «вдруг», а не «нагло». Do drzwi — «в дверь»: drzwi бывает только во множественном."
+---
+::
+
 ::quiz
 ---
 questions:
   - type: translate
     q: "Я забыл ключи."
-    answer: ["Zapomniałem kluczy."]
-    explain: "zapomnieć — «забыть», с родительным: kluczy. «Запомнить» — zapamiętać."
+    answer: ["Zapomniałem kluczy.", "Zapomniałem klucze.", "Ja zapomniałem kluczy."]
+    explain: "zapomnieć — «забыть», обычно с родительным: kluczy (в разговорной речи и klucze). «Запомнить» — zapamiętać."
   - type: translate
     q: "Запомни этот номер."
     answer: ["Zapamiętaj ten numer."]

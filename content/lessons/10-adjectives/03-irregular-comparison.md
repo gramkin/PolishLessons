@@ -4,12 +4,13 @@ description: "Пять частых прилагательных, у котор�
 chapter: 16
 order: 3
 level: A2
-words: [dobry, zly, duzy, maly, wysoki]
+words: [dobry, zly, duzy, maly, wysoki, dobrze, zle, duzo, malo, wiecej, kawa]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: dobrzejszy wysokszy -->
 
-Как и в русском, самые частые прилагательные образуют степени не по правилу. Их немного, и они те же самые, что у нас.
+Как и в русском, самые частые прилагательные образуют степени не по правилу. Их немного, и это почти те же слова, что у нас.
 
 ::compare-table
 ---
@@ -24,11 +25,18 @@ rows:
 ---
 ::
 
-Посмотрите на русскую колонку: там тоже «хороший — лучше», «плохой — хуже» — сравнительная степень образована от другого корня. Оба языка сохранили одну и ту же неправильность, потому что унаследовали её вместе. Последняя строка устроена иначе: **wysoki → wyższy** — это не другой корень, а чередование в основе (так же **bliski → bliższy**), но запоминать его удобнее вместе с этими словами.
+Посмотрите на русскую колонку: там тоже «хороший — лучше», «плохой — хуже» — сравнительная степень образована от другого корня. Неправильные в обоих языках одни и те же слова, но корни совпадают не всегда. *Mniejszy* и «меньше» — один корень. *Większy* образовано от *wielki* «великий, большой». Последняя строка устроена иначе: **wysoki → wyższy** — это не другой корень, а чередование в основе (так же **bliski → bliższy**), но запоминать его удобнее вместе с этими словами.
 
 :pron{pl="To jest lepszy pomysł."} — Это идея получше.
 :pron{pl="Mam mniejszy problem."} — У меня проблема поменьше.
 :pron{pl="To najlepsza książka."} — Это лучшая книга.
+
+<!-- review -->
+
+:pron{pl="Ten hotel jest gorszy."} — Эта гостиница хуже.
+:pron{pl="To największe miasto w Polsce."} — Это самый большой город в Польше.
+:pron{pl="To był najgorszy dzień w moim życiu."} — Это был худший день в моей жизни.
+:pron{pl="Mój brat jest wyższy."} — Мой брат выше.
 
 ::quiz
 ---
@@ -64,6 +72,20 @@ questions:
 :pron{pl="Chcę więcej kawy."} — Я хочу больше кофе.
 
 :pron{pl="Mówię coraz lepiej po polsku."} — Я говорю по-польски всё лучше.
+
+<!-- review -->
+
+### Lepszy или lepiej
+
+Русское «лучше» — одно слово и при существительном, и при глаголе. Польский их различает: при существительном — прилагательное *lepszy*, *lepsza*, *lepsze*, при глаголе — наречие *lepiej*:
+
+:pron{pl="Ta kawa jest lepsza."} — Этот кофе лучше.
+:pron{pl="Ona gotuje lepiej."} — Она готовит лучше.
+:pron{pl="Dzisiaj czuję się lepiej."} — Сегодня я чувствую себя лучше.
+
+То же с остальными: *gorszy* и *gorzej*, *większy* и *więcej*, *mniejszy* и *mniej*. После :pl-word{id="wiecej"} и *mniej*, как после *dużo* и *mało*, стоит родительный падеж:
+
+:pron{pl="Piję mniej kawy."} — Я пью меньше кофе.
 
 ::quiz
 ---
@@ -106,6 +128,51 @@ questions:
     explain: "nowy → nowszy по правилу из прошлого урока; dobry и zły — неправильные."
 ---
 ::
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Она готовит лучше»: Ona gotuje ___."
+    options: [lepsza, lepiej]
+    answer: 1
+    explain: "При глаголе — наречие lepiej. Lepsza — прилагательное, оно было бы при существительном: lepsza kawa."
+  - type: input
+    q: "Piję ___ kawy. (меньше)"
+    answer: mniej
+    explain: "Наречие от mało — mniej, «меньше». После него родительный: kawy."
+  - type: input
+    q: "To był ___ dzień. (zły, превосходная)"
+    answer: najgorszy
+    explain: "zły → gorszy → najgorszy; dzień мужского рода: najgorszy dzień, «худший день»."
+  - type: listen
+    text: "Dzisiaj czuję się lepiej."
+    explain: "czuć się — «чувствовать себя», при глаголе наречие lepiej."
+  - type: translate
+    q: "Это самый большой город в Польше."
+    answer: ["To jest największe miasto w Polsce.", "To największe miasto w Polsce."]
+    explain: "duży → większy → największy; miasto среднего рода: największe."
+---
+::
+
+<!-- review -->
+
+### Диалог: у врача
+
+- **Lekarz:** :pron{pl="Jak się pan dzisiaj czuje?"} — Как вы сегодня себя чувствуете?
+- **Pacjent:** :pron{pl="Lepiej, dziękuję. Wczoraj było gorzej."} — Лучше, спасибо. Вчера было хуже.
+- **Lekarz:** :pron{pl="Śpi pan więcej?"} — Вы больше спите?
+- **Pacjent:** :pron{pl="Tak, i piję mniej kawy."} — Да, и пью меньше кофе.
+- **Lekarz:** :pron{pl="To najlepsze lekarstwo."} — Это лучшее лекарство.
+- **Pacjent:** :pron{pl="Kiedy będę mógł wrócić do pracy?"} — Когда я смогу вернуться на работу?
+- **Lekarz:** :pron{pl="Za tydzień, jeśli nie będzie gorzej."} — Через неделю, если не станет хуже.
+
+## Типичные ошибки
+
+- *dobrzejszy* → :pron{pl="lepszy"} От *dobry* сравнительная степень образуется от другого корня, как «хороший — лучше».
+- *On mówi lepszy po polsku.* → :pron{pl="On mówi lepiej po polsku."} При глаголе нужно наречие *lepiej*; русское «лучше» здесь не подсказывает.
+- *wysokszy* → :pron{pl="wyższy"} У *wysoki* основа меняется: *wyższy*, как «выше».
+- *Chcę więcej kawa.* → :pron{pl="Chcę więcej kawy."} После *więcej* родительный падеж.
 
 ::quiz
 ---

@@ -4,7 +4,7 @@ description: Слова, у которых польский род другой,
 chapter: 4
 order: 2
 level: A1
-words: [pies, cien, bol, medal, twarz, muzeum, zwierze, krokodyl, labedz]
+words: [pies, cien, bol, medal, twarz, muzeum, zwierze, krokodyl, labedz, kot, krowa]
 ---
 
 <!-- review -->
@@ -33,6 +33,13 @@ rows:
 :pron{pl="Zdobył złoty medal."} — Он завоевал золотую медаль.
 
 Обратите внимание на прилагательные: **silny**, **złoty** — мужская форма, хотя по-русски «сильная», «золотая».
+
+<!-- review -->
+
+Род держится во всём, что относится к слову: в прилагательном, в «мой», в «этот».
+
+:pron{pl="Mój pies jest mały."} — Моя собака маленькая.
+:pron{pl="W południe cień jest krótki."} — В полдень тень короткая.
 
 ::quiz
 ---
@@ -65,6 +72,14 @@ questions:
 
 :pl-word{id="zwierze"} — среднего рода, хотя русское «зверь» мужского: *to zwierzę*, *dzikie zwierzę*. Слово меняет основу в косвенных падежах: *zwierzę*, но *zwierzęcia*.
 
+<!-- review -->
+
+*Zwierzę* значит и «зверь», и «животное» вообще, так что русское «животное» тоже подходит в перевод.
+
+:pron{pl="Ona ma ładną twarz."} — У неё красивое лицо.
+:pron{pl="Ta twarz jest znajoma."} — Это лицо знакомо.
+:pron{pl="Słoń to duże zwierzę."} — Слон — большое животное.
+
 ::quiz
 ---
 questions:
@@ -93,6 +108,16 @@ questions:
 :pron{pl="Karmię łabędzia."} — Я кормлю лебедя.
 
 Не *widzę krokodyl*. Русский делает ровно то же самое («вижу крокодила»), так что правило знакомое.
+
+<!-- review -->
+
+Для *pies* это значит: «вижу собаку» по-польски звучит как «вижу пса».
+
+:pron{pl="Mam psa."} — У меня есть собака.
+:pron{pl="Widzę kota."} — Я вижу кота.
+:pron{pl="Widzę krowę."} — Я вижу корову.
+
+В последнем примере *krowa* женского рода, и винительный у неё свой, на **-ę**.
 
 ::quiz
 ---
@@ -132,6 +157,55 @@ questions:
     q: Это дикий зверь.
     answer: [To dzikie zwierzę., To jest dzikie zwierzę.]
     explain: "zwierzę — среднего рода, поэтому dzikie, хотя «зверь» по-русски мужской."
+---
+::
+
+<!-- review -->
+
+### Диалог: в парке
+
+- **Ewa:** :pron{pl="Czy to twój pies?"} — Это твоя собака?
+- **Adam:** :pron{pl="Tak, to mój pies."} — Да, это моя собака.
+- **Ewa:** :pron{pl="Ale duży pies!"} — Какая большая собака!
+- **Adam:** :pron{pl="Tak, ale jest bardzo spokojny."} — Да, но она очень спокойная.
+- **Ewa:** :pron{pl="Czy on lubi dzieci?"} — Она любит детей?
+- **Adam:** :pron{pl="Bardzo lubi."} — Очень любит.
+- **Ewa:** :pron{pl="Mogę go pogłaskać?"} — Можно её погладить?
+- **Adam:** :pron{pl="Tak, oczywiście."} — Да, конечно.
+
+По-русски о собаке говорят «она», «её», «спокойная», а по-польски — *on*, *go*, *spokojny*: всё в мужском роде.
+
+## Типичные ошибки
+
+- *duża pies* → :pron{pl="duży pies"} Русское «большая собака» тянет за собой женское прилагательное, но *pies* мужского рода.
+- *ta ból* → :pron{pl="ten ból"} Русская «боль» женского рода, польский *ból* — мужского, поэтому и *silny ból*.
+- *ładne twarz* → :pron{pl="ładna twarz"} Русское «лицо» среднего рода, а *twarz* — женского.
+- *Widzę krokodyl.* → :pron{pl="Widzę krokodyla."} У названий животных мужского рода винительный совпадает с родительным, как в русском «вижу крокодила».
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Моя собака маленькая» — это…"
+    options: ["Mój pies jest mały.", "Moja pies jest mała."]
+    answer: 0
+    explain: "pies мужского рода, поэтому и mój, и mały мужские, хотя по-русски «моя» и «маленькая»."
+  - type: input
+    q: "W południe ___ jest krótki. (тень)"
+    answer: cień
+    explain: "cień мужского рода, поэтому прилагательное krótki, а не krótka, хотя «тень» по-русски женская."
+  - type: choice
+    q: "Widzę ___. (krowa)"
+    options: [krowę, krowa, krowy]
+    answer: 0
+    explain: "krowa женского рода: в винительном -a меняется на -ę, как kobieta → kobietę. Правило «винительный = родительный» только для мужского рода."
+  - type: translate
+    q: Это моя собака.
+    answer: ["To mój pies.", "To jest mój pies."]
+    explain: "pies мужского рода: mój pies, а не moja."
+  - type: listen
+    text: Ta twarz jest znajoma.
+    explain: "twarz женского рода, поэтому ta и znajoma. rz на конце оглушается и звучит как «ш»: «тфаш»."
 ---
 ::
 

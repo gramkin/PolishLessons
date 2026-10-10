@@ -4,10 +4,11 @@ description: "Суффикс -szy и приставка naj- — и всё эт�
 chapter: 16
 order: 2
 level: A2
-words: [ladny, ciekawy, trudny, latwy]
+words: [ladny, ciekawy, trudny, latwy, nowy, stary, mlody, tani, krotki, dlugi, lekcja, kosciol]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: samy -->
 
 Сравнительная степень образуется суффиксом **-szy**, превосходная — той же формой с приставкой **naj-**.
 
@@ -27,6 +28,13 @@ rows:
 
 :pron{pl="Ta książka jest ciekawsza."} — Эта книга интереснее.
 :pron{pl="To najtrudniejsze pytanie."} — Это самый трудный вопрос.
+
+<!-- review -->
+
+:pron{pl="Mój telefon jest nowszy."} — Мой телефон новее.
+:pron{pl="Ta lekcja jest łatwiejsza."} — Этот урок легче.
+
+Во втором примере форма женского рода: польская сравнительная степень — полное прилагательное и согласуется с *lekcja*. Русское «легче» по родам не меняется.
 
 ::quiz
 ---
@@ -50,6 +58,15 @@ questions:
 Прилагательные на **-ki**, **-oki**, **-eki** теряют суффикс: *krótki* → *krótszy*, *słodki* → *słodszy*, *daleki* → *dalszy*. А перед **-szy** **g** и **sk** меняются на **ż**: *długi* → *dłuższy*, *bliski* → *bliższy*, *niski* → *niższy*.
 
 Правило нестрогое, и надёжнее запоминать пословно — но ошибка здесь не мешает понять.
+
+<!-- review -->
+
+:pron{pl="Mój brat jest młodszy."} — Мой брат младше.
+:pron{pl="Ten film jest smutniejszy."} — Этот фильм грустнее.
+:pron{pl="Ta droga jest krótsza."} — Эта дорога короче.
+:pron{pl="Ten sklep jest tańszy."} — Этот магазин дешевле.
+
+В последнем примере мягкое *n* в *tani* перед *-szy* пишется как *ń*: *tańszy*.
 
 ::quiz
 ---
@@ -79,6 +96,13 @@ questions:
 
 :pron{pl="To najładniejsze miasto w Polsce."} — Это самый красивый город в Польше.
 
+<!-- review -->
+
+:pron{pl="To jest najstarszy kościół w mieście."} — Это самая старая церковь в городе.
+:pron{pl="Moi starsi bracia mieszkają w Warszawie."} — Мои старшие братья живут в Варшаве.
+
+*Kościół* мужского рода, поэтому *najstarszy*, хотя «церковь» женского.
+
 ::quiz
 ---
 questions:
@@ -100,7 +124,9 @@ questions:
 
 ## Сравните с русским
 
-Русский тоже знает суффиксальную степень: «новее», «старше», «труднее». И превосходную с приставкой: «наилучший», «наивысший». Механизм тот же, просто в польском он работает почти на всех прилагательных подряд; исключения — в уроке 16.4.
+Русский тоже знает суффиксальную степень: «новее», «старше», «труднее». И превосходную с приставкой: «наилучший», «наивысший». Механизм тот же, просто в польском он работает почти на всех прилагательных подряд. Исключений два вида: неправильные формы вроде *lepszy* «лучше» (урок 16.3) и прилагательные, которые вместо суффикса берут *bardziej* «более» (урок 16.4).
+
+Чего в польском нет, так это русского «самый» + прилагательное. «Самый новый» — только *najnowszy*.
 
 ::quiz
 ---
@@ -111,7 +137,7 @@ questions:
       - [nowszy, новее]
       - [starszy, старше]
       - [trudniejszy, труднее]
-    explain: "Польская сравнительная степень — прилагательное (nowszy, nowsza), русская краткая форма «новее» не меняется по родам."
+    explain: "Польская сравнительная степень — прилагательное (nowszy, nowsza), русское «новее» не меняется по родам."
   - type: choice
     q: "«Самый лёгкий вопрос» — как правильно?"
     options: ["najłatwiejsze pytanie", "najłatwiejszy pytanie"]
@@ -123,10 +149,54 @@ questions:
 ::quiz
 ---
 questions:
+  - type: input
+    q: "tani → сравнительная степень?"
+    answer: tańszy
+    explain: "Мягкое n перед суффиксом пишется как ń: tańszy, «дешевле»."
+  - type: choice
+    q: "Ta lekcja jest ___. (łatwy, сравнительная)"
+    options: [łatwiejszy, łatwiejsza, łatwiejsze]
+    answer: 1
+    explain: "lekcja — женский род, поэтому łatwiejsza. Русское «легче» не меняется, а польская форма согласуется."
+  - type: input
+    q: "«Самая старая церковь»: ___ kościół"
+    answer: najstarszy
+    explain: "kościół — мужского рода, поэтому najstarszy, хотя «церковь» в русском женского."
+  - type: listen
+    text: "Drugie mieszkanie jest nowsze i tańsze."
+    explain: "mieszkanie — среднего рода: nowsze, tańsze. nowy → nowszy, tani → tańszy."
+  - type: translate
+    q: "Этот урок легче."
+    answer: ["Ta lekcja jest łatwiejsza."]
+    explain: "«Урок» — lekcja, женского рода: ta lekcja jest łatwiejsza."
+---
+::
+
+<!-- review -->
+
+### Диалог: какую квартиру выбрать
+
+- **Ewa:** :pron{pl="Które mieszkanie jest ładniejsze?"} — Какая квартира красивее?
+- **Marek:** :pron{pl="Pierwsze jest ładniejsze, ale starsze."} — Первая красивее, но более старая.
+- **Ewa:** :pron{pl="A drugie?"} — А вторая?
+- **Marek:** :pron{pl="Drugie mieszkanie jest nowsze i tańsze."} — Вторая квартира новее и дешевле.
+- **Ewa:** :pron{pl="Tańsze? To świetnie!"} — Дешевле? Отлично!
+- **Marek:** :pron{pl="Tak, ale kuchnia jest tam ciemniejsza."} — Да, но кухня там темнее.
+- **Ewa:** :pron{pl="Trudno. Najważniejsza jest cena!"} — Ничего не поделаешь. Самое главное — цена!
+
+## Типичные ошибки
+
+- *samy nowy telefon* → :pron{pl="najnowszy telefon"} Русское «самый» не переводится словом: превосходную степень даёт приставка *naj-*.
+- *Ta książka jest ciekawszy.* → :pron{pl="Ta książka jest ciekawsza."} Сравнительная степень согласуется в роде, в отличие от русского «интереснее».
+- *Moi bracia są starszy.* → :pron{pl="Moi bracia są starsi."} О мужчинах во множественном **-szy** становится **-si**.
+
+::quiz
+---
+questions:
   - type: translate
     q: "Мой брат старше меня."
     answer: ["Mój brat jest starszy ode mnie.", "Mój brat jest starszy niż ja.", "Mój brat jest ode mnie starszy."]
-    explain: "starszy od + родительный (перед mnie — ode) или niż + именительный: niż ja."
+    explain: "starszy od + родительный (перед mnie — ode) или niż + именительный: niż ja. Подробно об этом — в уроке 16.4."
   - type: translate
     q: "Это самый интересный фильм."
     answer: ["To jest najciekawszy film.", "To najciekawszy film."]

@@ -4,10 +4,11 @@ description: Где и о чём — единственный падеж, кот
 chapter: 8
 order: 2
 level: A2
-words: [praca, biuro, hotel, restauracja, o, przy]
+words: [praca, biuro, hotel, restauracja, o, przy, uniwersytet, koncert, polska]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: miaście książke domie -->
 
 Предложный (его называют и местным) отвечает на **o kim? o czym? gdzie?** Он единственный, который без предлога не встречается вовсе — отсюда и название.
 
@@ -35,6 +36,15 @@ rows:
 :pron{pl="Pracuję w biurze."} — Я работаю в офисе.
 
 Русский делает то же самое, только мягче: «в городе», «о книге». Сравните пары — соответствие есть, просто польские чередования заметнее.
+
+<!-- review -->
+
+:pron{pl="Mieszkam w Polsce."} — Я живу в Польше.
+:pron{pl="Jesteśmy w Krakowie."} — Мы в Кракове.
+:pron{pl="Rozmawiamy o filmie."} — Мы говорим о фильме.
+:pron{pl="Robię zakupy w sklepie."} — Я делаю покупки в магазине.
+
+В *Krakowie* сразу два изменения: **ó** в основе переходит в **o** (как *stół → na stole*), а **w** перед **-e** смягчается в **wi**.
 
 ::quiz
 ---
@@ -65,7 +75,12 @@ questions:
 
 :pron{pl="Jestem w domu."} — Я дома.
 :pron{pl="Mieszkam w hotelu."} — Я живу в отеле.
-:pron{pl="Jedziemy w pociągu."} — Мы едем в поезде.
+:pron{pl="Jesteśmy już w pociągu."} — Мы уже в поезде.
+
+<!-- review -->
+
+:pron{pl="Telefon jest w plecaku."} — Телефон в рюкзаке.
+:pron{pl="Kot śpi na łóżku."} — Кот спит на кровати.
 
 Третья группа — женские слова на **-ca, -cza, -ża, -rza, -ja, -ia** и на мягкий согласный. Они берут **-y** (после c, cz, ż, rz) или **-i** (после остальных) и тоже ничего не смягчают — основа уже мягкая:
 
@@ -110,7 +125,34 @@ questions:
 :pron{pl="Stoję przy oknie."} — Я стою у окна.
 :pron{pl="Rozmawiamy o pracy."} — Мы говорим о работе.
 
-Заметьте: *w pracy* — «на работе», а не «в работе». Предлоги в двух языках распределены по-разному, и это приходится запоминать пословно.
+Заметьте: *w pracy* — «на работе», а не «в работе». Предлоги в двух языках распределены по-разному, и это приходится запоминать пословно. Иногда предлог совпадает с русским (*na poczcie* «на почте», *na koncercie* «на концерте»), а иногда нет: в университете учатся *na uniwersytecie*.
+
+<!-- review -->
+
+:pron{pl="Studiuję na uniwersytecie."} — Я учусь в университете.
+:pron{pl="Jesteśmy na koncercie."} — Мы на концерте.
+
+### Местоимения в предложном
+
+После предлогов местоимения берут формы, очень похожие на русские:
+
+::compare-table
+---
+headers: [Кто, Предложный, Русский]
+plColumns: [0, 1]
+rows:
+  - [ja, o mnie, обо мне]
+  - [ty, o tobie, о тебе]
+  - ["on, ono", o nim, о нём]
+  - [ona, o niej, о ней]
+  - [my, o nas, о нас]
+  - [wy, o was, о вас]
+  - ["oni, one", o nich, о них]
+---
+::
+
+:pron{pl="Myślę o tobie."} — Я думаю о тебе.
+:pron{pl="Rozmawiamy o nim."} — Мы говорим о нём.
 
 ::quiz
 ---
@@ -129,6 +171,54 @@ questions:
     q: "Wracam po ___. (koncert)"
     answer: koncercie
     explain: "po «после» + предложный: koncert → po koncercie, t смягчается в ci."
+---
+::
+
+## Диалог: где встретимся?
+
+<!-- review -->
+
+- **Ania:** :pron{pl="Halo, gdzie jesteś?"} — Алло, где ты?
+- **Kuba:** :pron{pl="Jestem w autobusie. A ty?"} — Я в автобусе. А ты?
+- **Ania:** :pron{pl="Jeszcze w pracy, w biurze."} — Ещё на работе, в офисе.
+- **Kuba:** :pron{pl="Spotykamy się w kawiarni na rynku?"} — Встречаемся в кафе на площади?
+- **Ania:** :pron{pl="Dobrze. Przy poczcie?"} — Хорошо. У почты?
+- **Kuba:** :pron{pl="Tak. Czekam przy oknie."} — Да. Жду у окна.
+- **Ania:** :pron{pl="A o czym chcesz porozmawiać?"} — А о чём хочешь поговорить?
+- **Kuba:** :pron{pl="O wycieczce do Krakowa!"} — О поездке в Краков!
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Jestem na pracy.* → :pron{pl="Jestem w pracy."} Русское «на работе» подсказывает *na*, но польский говорит *w pracy*.
+- *Mieszkam w miaście.* → :pron{pl="Mieszkam w mieście."} Перед **-e** не только **t** переходит в **ci**, но и **a** в основе — в **e**.
+- *Myślę o książke.* → :pron{pl="Myślę o książce."} В женских словах **k** перед **-e** переходит в **c**: русское «о книге» сохраняет «г», польское — нет.
+- *Jestem w domie.* → :pron{pl="Jestem w domu."} *Dom* — одно из слов на **-u**, без смягчения.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Studiuję na ___. (uniwersytet)"
+    answer: uniwersytecie
+    explain: "na + предложный; t перед -e смягчается в ci: uniwersytet → na uniwersytecie. По-русски «в университете», по-польски — na."
+  - type: choice
+    q: "Myślę o ___. (ty)"
+    options: [tobie, ciebie, ci]
+    answer: 0
+    explain: "o + предложный: o tobie, как «о тебе». Ciebie — родительный и винительный, ci — краткий дательный."
+  - type: input
+    q: "Jesteśmy w ___. (Kraków)"
+    answer: Krakowie
+    explain: "ó переходит в o, а w перед -e смягчается: Kraków → w Krakowie."
+  - type: translate
+    q: Я живу в Польше.
+    answer: [Mieszkam w Polsce., Ja mieszkam w Polsce.]
+    explain: "w + предложный; k перед -e переходит в c: Polska → w Polsce."
+  - type: listen
+    text: Telefon jest w plecaku.
+    explain: "Основа на k — окончание -u без чередования: plecak → w plecaku."
 ---
 ::
 

@@ -4,7 +4,7 @@ description: "Прилагательное подстраивается под �
 chapter: 16
 order: 1
 level: A2
-words: [dobry, zly, duzy, nowy, stary]
+words: [dobry, zly, duzy, nowy, stary, maly, wysoki, tani, ostatni, ladny, pies, kolega, mieszkanie, kawa]
 ---
 
 <!-- review -->
@@ -52,6 +52,13 @@ questions:
 
 Так же на **-i** кончаются прилагательные с мягкой основой: :pron{pl="tani"} «дешёвый», :pron{pl="ostatni"} «последний». В женском и среднем роде у них **-ia**, **-ie**: *tania*, *tanie*.
 
+<!-- review -->
+
+:pron{pl="To jest tania kawiarnia."} — Это дешёвое кафе.
+:pron{pl="To ostatnie pytanie."} — Это последний вопрос.
+
+Во втором примере род опять расходится с русским: «вопрос» мужского рода, а *pytanie* — среднего.
+
 ::quiz
 ---
 questions:
@@ -74,7 +81,7 @@ questions:
 
 ## Во множественном числе снова мужской личный род
 
-Тот же раздел, что в четвёртой главе, возвращается и здесь:
+Мужской личный род из урока 4.4 возвращается и здесь (подробно о прилагательных во множественном числе — в уроке 11.4):
 
 :pron{pl="Dobrzy studenci."} — Хорошие студенты. *(мужчины)*
 :pron{pl="Dobre książki."} — Хорошие книги.
@@ -124,6 +131,18 @@ rows:
 
 В винительном мужского рода прилагательное ведёт себя как существительное: неодушевлённое не меняется (*nowy dom*), одушевлённое берёт форму родительного (*nowego psa*).
 
+<!-- review -->
+
+Вот каждый падеж в предложении:
+
+:pron{pl="Tu nie ma dobrej kawy."} — Здесь нет хорошего кофе. *(родительный)*
+:pron{pl="Pomagam nowemu koledze."} — Я помогаю новому коллеге. *(дательный)*
+:pron{pl="Mam starego psa."} — У меня старая собака. *(винительный, одушевлённый)*
+:pron{pl="Rozmawiam z nową sąsiadką."} — Я разговариваю с новой соседкой. *(творительный)*
+:pron{pl="Myślę o starym domu."} — Я думаю о старом доме. *(предложный)*
+
+Слово *pies* «собака» мужского рода, поэтому *starego psa*, а не «starą».
+
 ::quiz
 ---
 questions:
@@ -147,6 +166,53 @@ questions:
 ::quiz
 ---
 questions:
+  - type: input
+    q: "Pomagam ___ koledze. (nowy)"
+    answer: nowemu
+    explain: "pomagać требует дательного (урок 8.3): nowemu koledze, как «новому коллеге»."
+  - type: input
+    q: "Rozmawiam z ___ sąsiadką. (nowy)"
+    answer: nową
+    explain: "z + творительный: женский род -ą, nową sąsiadką, как «с новой соседкой»."
+  - type: choice
+    q: "Mam ___ psa. (stary)"
+    options: [stary, starego, starym]
+    answer: 1
+    explain: "pies одушевлённый, в винительном берёт форму родительного: starego psa. По-русски «собака» женского рода, а pies — мужского."
+  - type: listen
+    text: "Mieszkam w małym mieszkaniu."
+    explain: "w + предложный: małym mieszkaniu, «в маленькой квартире». mieszkanie — среднего рода."
+  - type: translate
+    q: "У меня новая квартира."
+    answer: ["Mam nowe mieszkanie."]
+    explain: "mieszkanie — среднего рода, поэтому nowe. Русская «квартира» женского рода, отсюда ловушка."
+---
+::
+
+<!-- review -->
+
+### Диалог: новая квартира
+
+- **Kasia:** :pron{pl="Masz nowe mieszkanie?"} — У тебя новая квартира?
+- **Adam:** :pron{pl="Tak, małe, ale bardzo ładne."} — Да, маленькая, но очень красивая.
+- **Kasia:** :pron{pl="A jaka jest kuchnia?"} — А какая кухня?
+- **Adam:** :pron{pl="Duża i jasna. Mam też nowy stół."} — Большая и светлая. А ещё у меня новый стол.
+- **Kasia:** :pron{pl="A sąsiedzi są mili?"} — А соседи милые?
+- **Adam:** :pron{pl="Bardzo mili. Obok mieszka miła pani z małym psem."} — Очень милые. Рядом живёт милая женщина с маленькой собакой.
+- **Kasia:** :pron{pl="Super! Pokażesz mi je w sobotę?"} — Здорово! Покажешь мне её в субботу?
+
+Прилагательное согласуется, даже когда стоит отдельно от существительного: *mieszkanie* — *małe, ładne*; *kuchnia* — *duża, jasna*; *sąsiedzi* — *mili*.
+
+## Типичные ошибки
+
+- *dobry kawa* → :pron{pl="dobra kawa"} Род берут у польского слова: *kawa* женского рода, хотя «кофе» мужского.
+- *wysoky dom* → :pron{pl="wysoki dom"} После *k* и *g* пишется *-i*, как в русском «высокий».
+- *dobre studenci* → :pron{pl="dobrzy studenci"} О мужчинах — мужско-личная форма со смягчением: *dobry* → *dobrzy*.
+- *Mam nowy pies.* → :pron{pl="Mam nowego psa."} Одушевлённый мужской род в винительном берёт форму родительного, и прилагательное тоже.
+
+::quiz
+---
+questions:
   - type: translate
     q: "Это новая книга."
     answer: ["To jest nowa książka.", "To nowa książka."]
@@ -164,6 +230,9 @@ questions:
     answer: ["Mieszkam w dużym domu."]
     explain: "w + предложный: прилагательное тоже в предложном — dużym domu."
 ---
+::
+
+::drill{id="adj-agreement"}
 ::
 
 ::quiz

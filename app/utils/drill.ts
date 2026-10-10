@@ -1,4 +1,4 @@
-import type { Card, FormsFile } from '../../shared/dictionary'
+import type { Card, CardRef, FormsFile } from '../../shared/dictionary'
 import type { Drill, DrillCell } from '../../shared/schemas'
 
 export const BLANK = '___'
@@ -106,22 +106,65 @@ interface Candidate {
 
 /**
  * Pick a drill's sentences. A form example qualifies when its form fills
- * exactly one paradigm cell and that cell is one the drill asks for, when
+ * exactly one paradigm cell and that cell is one the drill asks for (with
+ * `syncretic`: only cells the drill asks for, and it is not the lemma), when
  * the form occurs once in the sentence, and when the sentence is short.
  * `require` must match the text before the gap: the negation, verb or
  * preposition that decides the form comes first. The commonest words come
  * first, and each word gives a few items from different cells, so a session
  * is neither ten sentences about one noun nor ten forms of one person.
  */
+export interface DrillSource {
+  card: Card
+  forms: Pick<FormsFile, 'tables'> & Partial<Pick<FormsFile, 'grammarLabel'>>
+  aspectPair?: CardRef | null
+}
+
+const DEMONSTRATIVE: [RegExp, string, string][] = [
+  [/^мужской род/, 'ten', 'мужской род'],
+  [/^женский род/, 'ta', 'женский род'],
+  [/^средний род/, 'to', 'средний род'],
+]
+
+/**
+ * The gender drill: «___ książka» → ta. Every singular noun with a known gender, commonest
+ * first; plural-only nouns have no ten / ta / to to choose.
+ */
+export function genderItems(spec: Drill, cards: DrillSource[], limit = 600): DrillItem[] {
+  const items: DrillItem[] = []
+  for (const { card, forms } of [...cards].sort((a, b) => a.card.rank - b.card.rank)) {
+    if (card.pos !== 'noun' || card.rank > spec.maxRank || isCoarse(card)) continue
+    const gender = DEMONSTRATIVE.find(([label]) => label.test(forms.grammarLabel ?? ''))
+    if (!gender) continue
+    items.push({
+      pl: `${BLANK} ${card.lemma}`,
+      answer: gender[1],
+      hint: 'ten / ta / to',
+      ru: `${card.lemma} — ${gender[2]}: ${card.senses[0]?.ru ?? ''}`,
+      card: card.id,
+    })
+    if (items.length >= limit) break
+  }
+  return items
+}
+
+/** «robić / zrobić»: the imperfective first, whichever of the two the card is. */
+function aspectPairHint(card: Card, pair: CardRef | null | undefined): string {
+  if (!pair) return card.lemma
+  return card.aspect === 'perf' ? `${pair.lemma} / ${card.lemma}` : `${card.lemma} / ${pair.lemma}`
+}
+
 export function drillItems(
   spec: Drill,
-  cards: { card: Card; forms: Pick<FormsFile, 'tables'> }[],
+  cards: DrillSource[],
   options: DrillOptions = {},
 ): DrillItem[] {
+  if (spec.kind === 'gender') return genderItems(spec, cards, options.limit)
   const { maxWords = 10, limit = 600 } = options
   // A closed list of words is small: take everything it has.
   const perCard = options.perCard ?? (spec.cards ? Infinity : 3)
   const require = spec.require ? new RegExp(spec.require, 'iu') : null
+  const requireAfter = spec.requireAfter ? new RegExp(spec.requireAfter, 'iu') : null
   const allowed = spec.cards ? new Set(spec.cards) : null
   const items: DrillItem[] = []
   const seen = new Set<string>()
@@ -129,13 +172,24 @@ export function drillItems(
     .filter(({ card }) => card.pos === spec.pos && card.rank <= spec.maxRank && !isCoarse(card))
     .filter(({ card }) => !allowed || allowed.has(card.id))
     .filter(({ card }) => !spec.aspect || card.aspect === spec.aspect)
+    // Choosing an aspect needs a partner to choose between.
+    .filter(({ aspectPair }) => spec.hint !== 'aspect' || Boolean(aspectPair))
     .sort((a, b) => a.card.rank - b.card.rank)
-  for (const { card, forms } of eligible) {
+  for (const { card, forms, aspectPair } of eligible) {
     const cells = formCells(forms)
+    // A variant spelled in the lemma's own cell (wolen beside wolny) has the lemma as an equally
+    // right answer, so a syncretic drill cannot ask for it.
+    const lemmaCells = new Set(
+      (cells.get(card.lemma) ?? []).map((c) => `${c.table}|${c.row}|${c.column}`),
+    )
     const byCell = new Map<string, Candidate[]>()
     for (const example of card.formExamples) {
-      const where = cells.get(example.form)
-      if (where?.length !== 1 || !spec.cells.some((c) => matchesCell(where[0]!, c))) continue
+      const where = cells.get(example.form) ?? []
+      const fits = (cell: Cell) => spec.cells.some((c) => matchesCell(cell, c))
+      if (spec.syncretic) {
+        if (where.length === 0 || !where.every(fits) || example.form === card.lemma) continue
+        if (where.some((c) => lemmaCells.has(`${c.table}|${c.row}|${c.column}`))) continue
+      } else if (where.length !== 1 || !fits(where[0]!)) continue
       const words = example.pl.split(/\s+/).length
       // A one-word sentence is the form alone: nothing in it to read the form from.
       if (words < 2 || words > maxWords || seen.has(example.pl)) continue
@@ -146,15 +200,22 @@ export function drillItems(
       const match = matches[0]!
       const before = example.pl.slice(0, match.index)
       if (require && !require.test(before)) continue
+      if (requireAfter && !requireAfter.test(example.pl.slice(match.index + match[0].length)))
+        continue
       const cell = where[0]!
-      const person = spec.hint === 'person' ? personHint(cell) : ''
+      const person = spec.hint === 'lemma' ? '' : personHint(cell)
+      // Both aspects usually make a Polish sentence; the Russian, which has aspect too, decides.
+      const lemma =
+        spec.hint === 'aspect'
+          ? `${aspectPairHint(card, aspectPair)}${person ? ` — ${person}` : ''}; «${example.ru}»`
+          : card.lemma
       const key = `${cell.table}|${cell.row}|${cell.column}`
       const candidate = {
         cell: key,
         item: {
           pl: before + BLANK + example.pl.slice(match.index + match[0].length),
           answer: match[0],
-          hint: person ? `${card.lemma} — ${person}` : card.lemma,
+          hint: person && spec.hint !== 'aspect' ? `${lemma} — ${person}` : lemma,
           ru: example.ru,
           card: card.id,
         },

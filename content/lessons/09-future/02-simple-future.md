@@ -4,23 +4,25 @@ description: У совершенных глаголов будущее выгл�
 chapter: 10
 order: 2
 level: A2
-words: [zjesc, wziac, wkrotce]
+words: [zjesc, wziac, wkrotce, zrobic, napisac, przeczytac, kupic, wrocic, zadzwonic, spotkac, jutro]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: zjedzę weźmę -->
 
 Совершенные глаголы спрягаются по обычным правилам настоящего времени — но значат будущее. Никаких вспомогательных слов не нужно.
 
 ::compare-table
 ---
-headers: [Инфинитив, "я", "ты", "они"]
-plColumns: [0, 1, 2, 3]
+headers: [Лицо, zrobić, napisać, przeczytać, zjeść, wziąć]
+plColumns: [0, 1, 2, 3, 4, 5]
 rows:
-  - ["!zrobić", zrobię, zrobisz, zrobią]
-  - ["!napisać", napiszę, napiszesz, napiszą]
-  - ["!przeczytać", przeczytam, przeczytasz, przeczytają]
-  - ["!zjeść", zjem, zjesz, zjedzą]
-  - ["!wziąć", wezmę, weźmiesz, wezmą]
+  - ["!ja", zrobię, napiszę, przeczytam, zjem, wezmę]
+  - ["!ty", zrobisz, napiszesz, przeczytasz, zjesz, weźmiesz]
+  - ["on, ona", zrobi, napisze, przeczyta, zje, weźmie]
+  - [my, zrobimy, napiszemy, przeczytamy, zjemy, weźmiemy]
+  - [wy, zrobicie, napiszecie, przeczytacie, zjecie, weźmiecie]
+  - ["oni, one", zrobią, napiszą, przeczytają, zjedzą, wezmą]
 ---
 ::
 
@@ -48,7 +50,21 @@ questions:
 
 ## Спряжение то же, что у настоящего
 
-Посмотрите на окончания: **-ę, -esz, -ą** или **-am, -asz, -ają** — это те же четыре спряжения из пятой главы. Ничего нового учить не нужно, нужно только помнить, что у совершенного глагола эти формы смотрят в будущее.
+Посмотрите на окончания в таблице выше: это те же четыре спряжения, что в уроке 5.1. Каждый совершенный глагол спрягается как его несовершенная пара:
+
+- I спряжение, **-ę, -esz**: *napisać* → *napiszę, napiszesz*, как *piszę, piszesz*;
+- II спряжение, **-ę, -isz/-ysz**: *zrobić* → *zrobię, zrobisz*, как *robię, robisz*; *kupić* → *kupię, kupisz*;
+- III спряжение, **-am, -asz**: *przeczytać* → *przeczytam, przeczytasz*, как *czytam, czytasz*;
+- IV спряжение, **-em, -esz**: *zjeść* → *zjem, zjesz*, как *jem, jesz*.
+
+Ничего нового учить не нужно, нужно только помнить, что у совершенного глагола эти формы смотрят в будущее.
+
+<!-- review -->
+
+:pron{pl="Wieczorem napiszemy do babci."} — Вечером мы напишем бабушке.
+:pron{pl="Jutro kupię nowy telefon."} — Завтра я куплю новый телефон.
+:pron{pl="Przeczytasz to w domu."} — Ты прочитаешь это дома.
+:pron{pl="Zjecie z nami kolację?"} — Поужинаете с нами?
 
 ::quiz
 ---
@@ -74,6 +90,13 @@ questions:
 
 :pron{pl="Wezmę parasol."} — Я возьму зонт.
 
+<!-- review -->
+
+:pron{pl="Co weźmiesz do picia?"} — Что ты возьмёшь попить?
+:pron{pl="Wezmą taksówkę."} — Они возьмут такси.
+
+Мягкое *ź* стоит только там, где за *m* идёт *-ie-*: *weźmiesz, weźmie, weźmiemy, weźmiecie*. В формах «я» и «они» его нет: *wezmę, wezmą*.
+
 ::quiz
 ---
 questions:
@@ -87,6 +110,67 @@ questions:
     explain: "Основа wezm-: wezmą — «возьмут»."
 ---
 ::
+
+<!-- review -->
+
+## Когда говорят простым будущим
+
+Простое будущее — это одно действие с результатом: обещание, план, ответ «сделаю». Часто рядом стоят слова времени: *jutro*, *wieczorem*, *w sobotę*, :pl-word{id="wkrotce"}, *zaraz* «сейчас, сию минуту».
+
+:pron{pl="Zaraz wrócę."} — Сейчас вернусь.
+:pron{pl="Zadzwonię do ciebie wieczorem."} — Я позвоню тебе вечером.
+:pron{pl="W sobotę spotkamy się w kawiarni."} — В субботу мы встретимся в кафе.
+:pron{pl="Nie zapomnę."} — Не забуду.
+
+«Сейчас вернусь» — по-русски тоже совершенный вид, хотя слово «сейчас». Польское *zaraz wrócę* устроено так же: действие ещё не случилось.
+
+После *kiedy* «когда» о будущем говорят будущим временем, как и в русском:
+
+:pron{pl="Kiedy skończę pracę, zadzwonię do ciebie."} — Когда закончу работу, позвоню тебе.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Zaraz ___. (wrócić, я)"
+    answer: wrócę
+    explain: "wrócić — совершенный, спрягается как robić: wrócę, wrócisz. «Сейчас вернусь» — будущее, как и в русском."
+  - type: input
+    q: "Kiedy ___ pracę, zadzwonię. (skończyć, я)"
+    answer: skończę
+    explain: "После kiedy о будущем говорят будущим: skończę, как «когда закончу»."
+  - type: input
+    q: "Nie ___! (zapomnieć, я)"
+    answer: zapomnę
+    explain: "zapomnieć: zapomnę, zapomnisz — «забуду, забудешь». Совершенный вид, поэтому это будущее."
+  - type: listen
+    text: "Zadzwonię do ciebie wieczorem."
+    explain: "zadzwonić — совершенный вид: zadzwonię — «позвоню». Do ciebie — «тебе»: звонят по-польски «к кому-то»."
+  - type: translate
+    q: "Мы встретимся в субботу."
+    answer: ["Spotkamy się w sobotę.", "W sobotę się spotkamy.", "W sobotę spotkamy się.", "My spotkamy się w sobotę."]
+    explain: "spotkać się — совершенный вид: spotkamy się — «встретимся». Się отдельно, как в уроке 6.1."
+  - type: match
+    q: "Соедините лицо и форму wziąć"
+    pairs:
+      - [ja, wezmę]
+      - [ty, weźmiesz]
+      - [my, weźmiemy]
+      - [oni, wezmą]
+    explain: "ź появляется перед -ie-: weźmiesz, weźmiemy. В «я» и «они» — z: wezmę, wezmą."
+---
+::
+
+### Диалог: планы на завтра
+
+- **Ania:** :pron{pl="Pomożesz mi jutro?"} — Поможешь мне завтра?
+- **Tomek:** :pron{pl="Jasne. Co zrobimy?"} — Конечно. Что будем делать?
+- **Ania:** :pron{pl="Najpierw kupimy farbę, potem pomalujemy pokój."} — Сначала купим краску, потом покрасим комнату.
+- **Tomek:** :pron{pl="Dobrze. Zadzwonię rano."} — Хорошо. Позвоню утром.
+- **Ania:** :pron{pl="Świetnie! A potem zjemy pizzę."} — Отлично! А потом съедим пиццу.
+- **Tomek:** :pron{pl="Zgoda. Ale pizzę wybiorę ja!"} — Договорились. Но пиццу выберу я!
+
+Русское «что будем делать?» Томек говорит совершенным *co zrobimy?* — «что сделаем?»: он спрашивает о результате.
 
 ## Проверка
 
@@ -107,6 +191,14 @@ questions:
     explain: "jeść — несовершенный вид: jem — настоящее время, «ем»."
 ---
 ::
+
+<!-- review -->
+
+## Типичные ошибки
+
+- *Będę zrobić to jutro.* → :pron{pl="Zrobię to jutro."} У совершенного глагола будущее простое; *będę* ставят только перед несовершенными (урок 10.3).
+- *weźmę* → :pron{pl="wezmę"} Мягкое *ź* только перед *-ie-*: *weźmiesz*, но *wezmę*.
+- *zjedzę* → :pron{pl="zjem"} Форма «я» у *zjeść*, как у *jeść*, — *zjem*. В будущем времени *-dz-* появляется только в «они»: *zjedzą*.
 
 ::quiz
 ---

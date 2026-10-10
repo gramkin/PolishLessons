@@ -29,6 +29,15 @@ rows:
 
 Первые два спряжения дают в «я» одинаковое **-ę**, а различаются гласной во всех остальных формах, кроме «они»: у первого **-e-** (:pl-word{id="pisac"} → *piszesz, pisze*), у второго **-i-/-y-** (:pl-word{id="robic"} → *robisz, robi*). Поэтому спряжение узнают по форме «ты».
 
+<!-- review -->
+
+По одной фразе на каждое спряжение:
+
+:pron{pl="Piszę list."} — Я пишу письмо. (I)
+:pron{pl="Co robisz wieczorem?"} — Что ты делаешь вечером? (II)
+:pron{pl="Czekam na autobus."} — Я жду автобус. (III)
+:pron{pl="Co jesz na śniadanie?"} — Что ты ешь на завтрак? (IV)
+
 ::quiz
 ---
 questions:
@@ -105,6 +114,12 @@ questions:
 
 Поэтому формы «я» и «ты» запоминают вместе: по одной из них вторую не угадать.
 
+<!-- review -->
+
+:pron{pl="Biorę parasol."} — Я беру зонт.
+:pron{pl="Ona dobrze tańczy."} — Она хорошо танцует.
+:pron{pl="Oni lubią kawę."} — Они любят кофе.
+
 ::quiz
 ---
 questions:
@@ -131,6 +146,11 @@ questions:
 *czytam, czytasz, czyta, czytamy, czytacie, czytają*
 
 Если глагол кончается на **-ać**, он почти наверняка отсюда. Почти — потому что :pl-word{id="pisac"} и :pl-word{id="brac"} кончаются так же, а идут по первому спряжению.
+
+<!-- review -->
+
+:pron{pl="Znacie Warszawę?"} — Вы знаете Варшаву?
+:pron{pl="Dzieci śpiewają."} — Дети поют.
 
 ::quiz
 ---
@@ -160,6 +180,12 @@ questions:
 *umiem, umiesz, umie, umiemy, umiecie, umieją*
 
 Форма «они» здесь у каждого глагола своя: *jedzą*, но *umieją*.
+
+<!-- review -->
+
+:pron{pl="Dzieci jedzą zupę."} — Дети едят суп.
+:pron{pl="Umiesz pływać?"} — Ты умеешь плавать?
+:pron{pl="Nie rozumiem."} — Я не понимаю.
 
 ::quiz
 ---
@@ -199,6 +225,56 @@ questions:
     q: "znać: znam, znasz → wy ___"
     answer: znacie
     explain: "III спряжение: «вы» — -acie, znacie."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Ania:** :pron{pl="Co robisz?"} — Что делаешь?
+- **Tomek:** :pron{pl="Piszę list."} — Пишу письмо.
+- **Ania:** :pron{pl="Do kogo piszesz?"} — Кому пишешь?
+- **Tomek:** :pron{pl="Do brata. On mieszka w Krakowie."} — Брату. Он живёт в Кракове.
+- **Ania:** :pron{pl="A co robią rodzice?"} — А что делают родители?
+- **Tomek:** :pron{pl="Mama gotuje obiad, a tata czyta gazetę."} — Мама готовит обед, а папа читает газету.
+- **Ania:** :pron{pl="Jecie razem obiad?"} — Вы обедаете вместе?
+- **Tomek:** :pron{pl="Tak, zawsze jemy razem."} — Да, мы всегда едим вместе.
+
+В диалоге все четыре спряжения: *piszę, piszesz* (I), *robisz, robią* (II), *gotuje* (I), *czyta* (III), *jecie, jemy* (IV).
+
+## Типичные ошибки
+
+<!-- lexicon-ok: pisam jeją tańczisz bierę -->
+
+- *Ja pisam.* → :pron{pl="Ja piszę."} *pisać* кончается на **-ać**, но идёт по I спряжению: *piszę, piszesz*. Окончание **-am** бывает только в III спряжении: *czytam, czekam*.
+- *Oni jeją.* → :pron{pl="Oni jedzą."} Форма «они» в IV спряжении не выводится из «я», её запоминают: *jedzą*, как русское «едят».
+- *Ty tańczisz.* → :pron{pl="Ty tańczysz."} После **cz, sz, rz, ż** во втором спряжении пишется **y**.
+- *Bierę.* → :pron{pl="Biorę."} У *brać* в «я» и «они» основа *bior-*, а *bierz-* — только в остальных формах.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Co robisz wieczorem?
+    explain: "robić — II спряжение: robię, robisz. «Ты» на -isz."
+  - type: choice
+    q: "Dzieci ___ zupę. (jeść)"
+    options: [jeją, jedzą, jedą]
+    answer: 1
+    explain: "«Они» от jeść — jedzą, с d. Эту форму нужно запомнить, по правилу её не получить."
+  - type: input
+    q: "Wy ___ list. (pisać)"
+    answer: piszecie
+    explain: "«Вы» = форма «он» + -cie: pisze → piszecie. sz сохраняется во всех формах."
+  - type: input
+    q: "Ja ___ parasol. (brać)"
+    answer: biorę
+    explain: "brać — I спряжение с чередованием: biorę, bierzesz. В «я» основа bior-."
+  - type: translate
+    q: "Мы ждём автобус."
+    answer: ["Czekamy na autobus.", "My czekamy na autobus."]
+    explain: "czekać — III спряжение: czekamy. Польское czekać требует предлога na: czekać na autobus, а по-русски «ждать» без предлога."
 ---
 ::
 

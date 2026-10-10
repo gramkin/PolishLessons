@@ -9,7 +9,7 @@ words: [pogoda, deszcz, snieg, slonce, wiatr, wiosna, lato, zima]
 
 <!-- review -->
 
-Последняя глава — повседневные темы. Всё нужное для них вы уже знаете: падежи, времена, степени сравнения. Осталось собрать слова.
+Двадцатая глава — повседневные темы. Всё нужное для них вы уже знаете: падежи, времена, степени сравнения. Осталось собрать слова.
 
 :pron{pl="Jaka jest dzisiaj pogoda?"} — Какая сегодня погода?
 
@@ -67,6 +67,38 @@ questions:
 ---
 ::
 
+<!-- review -->
+
+## Было и будет
+
+В прошедшем и будущем времени конструкция та же, только *jest* меняется на *było* и *będzie* — средний род, как русское «было холодно»:
+
+:pron{pl="Wczoraj było zimno."} — Вчера было холодно.
+:pron{pl="Jutro będzie słonecznie."} — Завтра будет солнечно.
+:pron{pl="Wczoraj cały dzień padało."} — Вчера весь день шёл дождь.
+
+Без подлежащего *pada* в прошедшем тоже получает средний род: *padało*. А если дождь назван, глагол согласуется с ним: *padał deszcz*, *padał śnieg*.
+
+Температуру называют числом и словом *stopień* «градус», которое после 5 и больше стоит в родительном множественного (урок 13.2; составные на 2, 3, 4 снова берут *stopnie*: *dwadzieścia dwa stopnie*):
+
+:pron{pl="Jest dwadzieścia stopni."} — Двадцать градусов.
+:pron{pl="W nocy było minus pięć stopni."} — Ночью было минус пять.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Вчера весь день шёл дождь» — это…"
+    options: ["Wczoraj cały dzień padało.", "Wczoraj cały dzień pada.", "Wczoraj cały dzień będzie padać."]
+    answer: 0
+    explain: "Прошедшее время без подлежащего — средний род: padało. Pada — сейчас, będzie padać — будет."
+  - type: input
+    q: "«Вчера было холодно»: Wczoraj ___ zimno."
+    answer: było
+    explain: "Безличная фраза в прошедшем — było, средний род, как русское «было холодно»."
+---
+::
+
 ## Сравнение пригодится
 
 Здесь работает всё из шестнадцатой главы. Наречия на **-o** образуют сравнительную степень на **-ej**: *ciepło* → *cieplej*, *zimno* → *zimniej*.
@@ -109,6 +141,12 @@ rows:
 
 :pron{pl="Zimą jest bardzo zimno."} — Зимой очень холодно.
 
+<!-- review -->
+
+:pron{pl="Latem często jest gorąco."} — Летом часто жарко.
+:pron{pl="Jesienią często pada."} — Осенью часто идут дожди.
+:pron{pl="Wiosną robi się cieplej."} — Весной становится теплее.
+
 Форма *zimą*, *latem*, *wiosną*, *jesienią* — это творительный падеж из восьмой главы в значении времени, как русское «зимой», «летом».
 
 ::quiz
@@ -127,6 +165,52 @@ questions:
     q: "«Весной» по-польски?"
     answer: wiosną
     explain: "wiosna — женского рода, в творительном -ą: wiosną."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Ania:** :pron{pl="Idziemy na spacer?"} — Пойдём гулять?
+- **Tomek:** :pron{pl="Nie wiem. Jest zimno i wieje wiatr."} — Не знаю. Холодно, и дует ветер.
+- **Ania:** :pron{pl="Ale świeci słońce! Jest cieplej niż wczoraj."} — Но светит солнце! Теплее, чем вчера.
+- **Tomek:** :pron{pl="W radiu mówili, że po południu będzie padać."} — По радио говорили, что после обеда будет дождь.
+- **Ania:** :pron{pl="To weźmy parasol."} — Тогда возьмём зонт.
+- **Tomek:** :pron{pl="Dobrze. Ale wracamy przed deszczem!"} — Хорошо. Но возвращаемся до дождя!
+- **Ania:** :pron{pl="Obiecuję!"} — Обещаю!
+
+## Типичные ошибки
+
+- *Idzie deszcz.* (хотели сказать «идёт дождь») → :pron{pl="Pada deszcz."} Дождь и снег по-польски «падают». *Idzie deszcz* — тоже польская фраза, но значит другое: «дождь надвигается, сейчас польёт».
+- *Jest zimny.* → :pron{pl="Jest zimno."} О погоде говорят наречием на *-o*; *zimny* — прилагательное «холодный», ему нужно существительное.
+- *Jest ładny pogoda.* → :pron{pl="Jest ładna pogoda."} *Pogoda* женского рода, и прилагательное с ней согласуется.
+- *Dziś jest cieplejsze niż wczoraj.* → :pron{pl="Dziś jest cieplej niż wczoraj."} В безличной фразе нужна сравнительная степень наречия: *cieplej*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Осенью часто идут дожди» — ___ często pada."
+    options: [Jesienią, Jesień, Jesieni]
+    answer: 0
+    explain: "«Когда?» о времени года — творительный: jesień → jesienią, как «осенью»."
+  - type: input
+    q: "«Завтра будет солнечно»: Jutro ___ słonecznie."
+    answer: będzie
+    explain: "Будущее безличной фразы — będzie + наречие, как «будет солнечно»."
+  - type: choice
+    q: "«Двадцать градусов» — Jest dwadzieścia…"
+    options: [stopni, stopnie, stopień]
+    answer: 0
+    explain: "После 5 и больше — родительный множественного: stopni. Stopnie — после 2–4 и составных на 2–4: dwa stopnie, dwadzieścia dwa stopnie."
+  - type: translate
+    q: "Светит солнце, но дует ветер."
+    answer: ["Świeci słońce, ale wieje wiatr.", "Słońce świeci, ale wiatr wieje.", "Słońce świeci, ale wieje wiatr.", "Świeci słońce, ale wiatr wieje."]
+    explain: "Солнце «светит» — świeci, ветер «дует» — wieje; «но» — ale."
+  - type: listen
+    text: "Jesienią często pada."
+    explain: "jesienią — творительный от jesień «осенью»; pada без подлежащего значит «идёт дождь»."
 ---
 ::
 

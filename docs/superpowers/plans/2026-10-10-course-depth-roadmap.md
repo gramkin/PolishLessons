@@ -189,3 +189,12 @@ later, and each text may bring at most six new words of its own (`content/words/
 Every story ends with 8–9 questions: comprehension, one form question, one dictation, two
 translations. `/stories` is grouped by chapter, and each chapter's last lesson lists its texts.
 Chapters 19 and 21 have no text yet.
+
+Phase 4 (deepening) was done on 2026-10-10 for the 48 original lessons (chapters 1–5, 7–10,
+16, 19, 20.1–20.3): each now has 21–41 spoken examples (was 0–15), a dialogue (chapters 1–2: a
+«Читаем вслух» block), «Типичные ошибки» and a new mixed quiz, 12–32 questions in all. Writers
+and reviewers fixed incomplete tables (5.4, 9.1, 9.4, 10.2, 4.3), wrong rules (the *ze* rule in
+8.1, *proszę pana* as accusative in 8.4, ą in 9.4, Russian roots in 16.3, *na rowerze* in 20.2)
+and translate answers split at commas by unquoted YAML (8.4), which `quizSchema` now rejects.
+New drills: `noun-gender` (4.1), `verb-aspect-past` (10.1, 10.4), `adj-agreement` (16.1).
+`pnpm validate` warns about thin lessons; only 21.1 «Что дальше» is left, for Phase 5.

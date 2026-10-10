@@ -4,7 +4,7 @@ description: Один предлог, два падежа, два смысла �
 chapter: 8
 order: 5
 level: A2
-words: [z, w, na, po, pod, nad, przed]
+words: [z, w, na, po, pod, nad, przed, morze, koncert]
 ---
 
 <!-- review -->
@@ -35,6 +35,22 @@ rows:
 Русский различает их точно так же: «на почту» и «на почте». Логика знакомая, меняются только окончания.
 
 Но осторожно с «куда?». Чаще всего польский говорит не *w* + винительный, а **do + родительный**: :pron{pl="Idę do szkoły."} — Я иду в школу. :pron{pl="Jadę do Krakowa."} — Я еду в Краков. *W* + винительный в значении «куда» встречается лишь в немногих сочетаниях — *w góry* «в горы», *w podróż* «в путешествие». А **na** + винительный остаётся там, где «где?» тоже требует *na*: *na pocztę — na poczcie*, *na koncert — na koncercie*.
+
+<!-- review -->
+
+:pron{pl="Idę na koncert."} — Я иду на концерт.
+:pron{pl="Jestem na koncercie."} — Я на концерте.
+:pron{pl="Jadę w góry."} — Я еду в горы.
+
+### Nad morze и nad morzem
+
+Отдельно запомните море и озеро. Русский говорит «на море», польский — **nad**: у воды, на её берегу. И здесь работает та же пара: винительный — куда, творительный — где:
+
+:pron{pl="Jedziemy nad morze."} — Мы едем на море.
+:pron{pl="Jesteśmy nad morzem."} — Мы на море.
+:pron{pl="Mieszkam nad jeziorem."} — Я живу у озера.
+
+*Na morzu* тоже есть, но значит «в открытом море» — на корабле, а не на пляже.
 
 ::quiz
 ---
@@ -70,6 +86,11 @@ questions:
 
 Проверка простая: если по-русски выходит «из» или «с» в смысле «откуда» — родительный. Если «вместе с» — творительный.
 
+<!-- review -->
+
+:pron{pl="Jestem z Polski."} — Я из Польши.
+:pron{pl="Idę do kina z kolegą."} — Я иду в кино с другом.
+
 ::quiz
 ---
 questions:
@@ -97,6 +118,14 @@ questions:
 :pron{pl="Kot wchodzi pod stół."} — Кот залезает под стол.
 
 Русский поступает так же: «под столом» и «под стол». Так же ведёт себя **za**: *za domem* «за домом» — *za dom* «за дом». Ещё одно место, где интуиция работает.
+
+<!-- review -->
+
+:pron{pl="Samochód stoi za domem."} — Машина стоит за домом.
+:pron{pl="Kot chowa się za szafę."} — Кот прячется за шкаф.
+:pron{pl="Czekam przed kinem."} — Я жду перед кинотеатром.
+
+У *przed* с творительным есть и значение времени, как у русского «перед»: :pron{pl="Myję ręce przed obiadem."} — Я мою руки перед обедом.
 
 ::quiz
 ---
@@ -129,6 +158,11 @@ questions:
 
 :pron{pl="Idę po chleb."} — Я иду за хлебом.
 
+<!-- review -->
+
+:pron{pl="Po obiedzie idę na spacer."} — После обеда я иду на прогулку.
+:pron{pl="Idę do sklepu po mleko."} — Я иду в магазин за молоком.
+
 По-русски здесь «за» с творительным, так что подсказки интуиция не даёт: это сочетание надо запомнить.
 
 ::quiz
@@ -151,6 +185,57 @@ questions:
 ---
 ::
 
+## Диалог: планы на лето
+
+<!-- review -->
+
+- **Kasia:** :pron{pl="Jedziesz gdzieś w sierpniu?"} — Ты едешь куда-нибудь в августе?
+- **Marek:** :pron{pl="Tak, jadę nad morze z bratem."} — Да, еду на море с братом.
+- **Kasia:** :pron{pl="Super! A ja jadę w góry."} — Здорово! А я еду в горы.
+- **Marek:** :pron{pl="Sama?"} — Одна?
+- **Kasia:** :pron{pl="Nie, z koleżanką. Mieszkamy w hotelu pod Zakopanem."} — Нет, с подругой. Мы живём в отеле под Закопане.
+- **Marek:** :pron{pl="A ja nad morzem zawsze śpię w namiocie."} — А я на море всегда сплю в палатке.
+- **Kasia:** :pron{pl="W namiocie? Ja wolę hotel!"} — В палатке? Я предпочитаю отель!
+- **Marek:** :pron{pl="Po wakacjach idziemy razem na kawę?"} — После отпуска сходим вместе на кофе?
+
+*Pod Zakopanem* — «под Закопане», то есть недалеко от города: *pod* + творительный, как русское «под Москвой».
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Idę w szkołę.* → :pron{pl="Idę do szkoły."} «Куда?» в здание или город — *do* + родительный, а не калька «в школу».
+- *Jesteśmy na morzu.* (о пляже) → :pron{pl="Jesteśmy nad morzem."} На отдыхе у моря — *nad* + творительный; *na morzu* — «в открытом море».
+- *Idę za chlebem.* → :pron{pl="Idę po chleb."} «Сходить за чем-то» — *po* + винительный.
+- *Kot śpi pod łóżko.* → :pron{pl="Kot śpi pod łóżkiem."} Кот никуда не движется, это место «где?» — творительный.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Мы едем на море» — это…"
+    options: ["Jedziemy na morze.", "Jedziemy nad morze.", "Jedziemy nad morzem."]
+    answer: 1
+    explain: "К морю едут nad, а «куда?» — винительный: nad morze. Nad morzem — «где?», на месте."
+  - type: input
+    q: "Jestem ___ Polski."
+    answer: z
+    explain: "«Откуда?» — z + родительный: z Polski, как «из Польши»."
+  - type: choice
+    q: "Kot chowa się za ___. (szafa)"
+    options: [szafę, szafą]
+    answer: 0
+    explain: "Кот движется — «куда?», поэтому винительный: za szafę, «за шкаф». За шкафом (сидит) было бы za szafą."
+  - type: translate
+    q: После обеда я иду на прогулку.
+    answer: [Po obiedzie idę na spacer., Idę na spacer po obiedzie.]
+    explain: "po «после» + предложный: obiad → po obiedzie (d → dzi). «На прогулку» — na + винительный: na spacer."
+  - type: listen
+    text: Mieszkam nad jeziorem.
+    explain: "У озера и у моря — nad + творительный: nad jeziorem, nad morzem."
+---
+::
+
 ::quiz
 ---
 questions:
@@ -163,8 +248,8 @@ questions:
     answer: [Jestem w szkole.]
     explain: "«Где?» — w + предложный: szkoła → w szkole (ł перед -e становится l)."
   - type: translate
-    q: Кот прыгнул на стол.
-    answer: [Kot skoczył na stół., Kot wskoczył na stół.]
+    q: Кот прыгает на стол.
+    answer: [Kot wskakuje na stół., Kot skacze na stół.]
     explain: "Движение «куда?» после na — винительный: na stół. На месте было бы na stole."
   - type: translate
     q: Я иду за хлебом.

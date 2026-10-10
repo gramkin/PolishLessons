@@ -4,7 +4,7 @@ description: "Предметы и здания, названия которых 
 chapter: 19
 order: 2
 level: A2
-words: [dywan, lustro, krzeslo, czaszka, sklep, dworzec, dynia]
+words: [dywan, lustro, krzeslo, czaszka, sklep, dworzec, dynia, kanapa, fotel, filizanka]
 ---
 
 <!-- review -->
@@ -20,7 +20,7 @@ rows:
   - ["!lustro", зеркало, люстра, żyrandol]
   - ["!krzesło", стул, кресло, fotel]
   - ["!czaszka", череп, чашка, filiżanka]
-  - ["!sklep", магазин, склеп, krypta]
+  - ["!sklep", магазин, склеп, grobowiec]
   - ["!dworzec", вокзал, дворец, pałac]
   - ["!dynia", тыква, дыня, melon]
 ---
@@ -33,6 +33,17 @@ rows:
 :pron{pl="Usiądź na krześle."} — Сядь на стул.
 
 Три слова — три ловушки подряд. Запомнить помогает то, что все три про одну комнату.
+
+<!-- review -->
+
+А вот как по-польски то, что слышится в этих словах: «диван» — :pl-word{id="kanapa"}, «кресло» — :pl-word{id="fotel"}, «люстра» — *żyrandol*.
+
+:pron{pl="Kupiliśmy nowy dywan."} — Мы купили новый ковёр.
+:pron{pl="Siedzimy na kanapie."} — Мы сидим на диване.
+:pron{pl="Babcia siedzi w fotelu."} — Бабушка сидит в кресле.
+:pron{pl="Nad stołem wisi żyrandol."} — Над столом висит люстра.
+
+Обратите внимание на предлоги: на стуле и на диване — *na krześle*, *na kanapie*, а в кресле — *w fotelu*, как и в русском.
 
 ::quiz
 ---
@@ -62,6 +73,15 @@ questions:
 
 :pl-word{id="sklep"} — пожалуй, самое частое слово из всего списка. Его вы будете употреблять каждый день.
 
+<!-- review -->
+
+:pron{pl="Sklep jest otwarty do dziewiątej."} — Магазин открыт до девяти.
+:pron{pl="Dworzec jest niedaleko."} — Вокзал недалеко.
+:pron{pl="To jest stary pałac."} — Это старый дворец.
+:pron{pl="Towar jest w magazynie."} — Товар на складе.
+
+Польское *magazyn* — это склад (и ещё журнал), так что русское «магазин» обманывает дважды: по-польски это *sklep*.
+
 ::quiz
 ---
 questions:
@@ -69,7 +89,7 @@ questions:
     q: "«Idę do sklepu.» значит:"
     options: ["Я иду в магазин.", "Я иду в склеп.", "Я иду на склад."]
     answer: 0
-    explain: "sklep — «магазин». «Склеп» — krypta, «склад» — magazyn."
+    explain: "sklep — «магазин». «Склеп» — grobowiec, «склад» — magazyn."
   - type: choice
     q: "Как по-польски «дворец»?"
     options: [dworzec, pałac, zamek]
@@ -86,7 +106,13 @@ questions:
 
 :pron{pl="Zupa z dyni jest słodka."} — Тыквенный суп сладкий.
 
-А :pl-word{id="czaszka"} на кухне не встретится — это череп, и слово скорее из учебника анатомии.
+А :pl-word{id="czaszka"} на кухне не встретится — это череп, и слово скорее из учебника анатомии. Чашка — :pl-word{id="filizanka"}, а большая кружка — *kubek*.
+
+<!-- review -->
+
+:pron{pl="Poproszę filiżankę herbaty."} — Чашку чая, пожалуйста.
+:pron{pl="Lubię melony."} — Я люблю дыни.
+:pron{pl="Dynia jest pomarańczowa."} — Тыква оранжевая.
 
 ::quiz
 ---
@@ -106,6 +132,56 @@ questions:
     options: ["czaszka kawy", "filiżanka kawy"]
     answer: 1
     explain: "filiżanka — «чашка». Czaszka kawy прозвучало бы как «череп кофе»."
+---
+::
+
+<!-- review -->
+
+### Диалог: в новой квартире
+
+- **Kasia:** :pron{pl="Ładne mieszkanie! Gdzie kupiliście ten dywan?"} — Красивая квартира! Где вы купили этот ковёр?
+- **Piotr:** :pron{pl="W sklepie obok dworca."} — В магазине рядом с вокзалом.
+- **Kasia:** :pron{pl="A kanapa jest nowa?"} — А диван новый?
+- **Piotr:** :pron{pl="Tak, i fotel też. Siadaj!"} — Да, и кресло тоже. Садись!
+- **Kasia:** :pron{pl="Dziękuję. O, jakie duże lustro!"} — Спасибо. О, какое большое зеркало!
+- **Piotr:** :pron{pl="Napijesz się kawy?"} — Выпьешь кофе?
+- **Kasia:** :pron{pl="Chętnie, poproszę małą filiżankę."} — С удовольствием, маленькую чашку.
+
+## Типичные ошибки
+
+- *Chcę kupić dywan.* (хотели сказать «диван») → :pron{pl="Chcę kupić kanapę."} *Dywan* — ковёр, диван — *kanapa*.
+- *Idę do magazynu po chleb.* → :pron{pl="Idę do sklepu po chleb."} *Magazyn* — склад, магазин — *sklep*.
+- *Czekam na ciebie w pałacu.* (хотели сказать «на вокзале») → :pron{pl="Czekam na ciebie na dworcu."} *Pałac* — дворец, а вокзал — *dworzec*, и с ним предлог *na*, как в русском.
+- *Poproszę czaszkę kawy.* → :pron{pl="Poproszę filiżankę kawy."} *Czaszka* — череп, чашка — *filiżanka*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Мы сидим на диване» — это…"
+    options: ["Siedzimy na kanapie.", "Siedzimy na dywanie.", "Siedzimy na krześle."]
+    answer: 0
+    explain: "«Диван» — kanapa, na + предложный: na kanapie. Na dywanie — «на ковре», na krześle — «на стуле»."
+  - type: input
+    q: "«Бабушка сидит в кресле»: Babcia siedzi w ___."
+    answer: fotelu
+    explain: "«Кресло» — fotel, а не krzesło. W + предложный: w fotelu, как «в кресле»."
+  - type: match
+    q: Соедините слово и значение
+    pairs:
+      - [kanapa, диван]
+      - [fotel, кресло]
+      - [żyrandol, люстра]
+      - [magazyn, склад]
+      - [pałac, дворец]
+    explain: "Это польские слова для того, что слышится в ложных друзьях: dywan, krzesło, lustro, sklep, dworzec."
+  - type: translate
+    q: "Я иду в магазин за хлебом."
+    answer: ["Idę do sklepu po chleb.", "Idę po chleb do sklepu."]
+    explain: "«Магазин» — sklep, «в магазин» — do sklepu; «за чем-то» — po + винительный: po chleb."
+  - type: listen
+    text: "Nad stołem wisi żyrandol."
+    explain: "żyrandol — «люстра», а lustro — «зеркало». Nad stołem — творительный после nad, как «над столом»."
 ---
 ::
 
@@ -148,7 +224,7 @@ questions:
     q: "«Sklep» — это?"
     options: [склеп, магазин, подвал]
     answer: 1
-    explain: "sklep — «магазин». «Склеп» — krypta."
+    explain: "sklep — «магазин». «Склеп» — grobowiec."
   - type: input
     q: "«Dynia» — это по-русски?"
     answer: тыква

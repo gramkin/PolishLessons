@@ -13,13 +13,15 @@ words: [chciec, moc, musiec, wolec, isc, spac, pracowac]
 
 ::compare-table
 ---
-headers: [Глагол, Значение, "«я»", "«ты»"]
-plColumns: [0, 2, 3]
+headers: [Лицо, "chcieć (хотеть)", "móc (мочь)", "musieć (быть должным)", "woleć (предпочитать)"]
+plColumns: [0, 1, 2, 3, 4]
 rows:
-  - ["!chcieć", хотеть, chcę, chcesz]
-  - ["!móc", мочь, mogę, możesz]
-  - ["!musieć", быть должным, muszę, musisz]
-  - ["!woleć", предпочитать, wolę, wolisz]
+  - ["!ja", chcę, mogę, muszę, wolę]
+  - ["!ty", chcesz, możesz, musisz, wolisz]
+  - ["on, ona", chce, może, musi, woli]
+  - [my, chcemy, możemy, musimy, wolimy]
+  - [wy, chcecie, możecie, musicie, wolicie]
+  - ["oni, one", chcą, mogą, muszą, wolą]
 ---
 ::
 
@@ -27,7 +29,12 @@ rows:
 :pron{pl="Mogę pracować."} — Я могу работать.
 :pron{pl="Muszę iść."} — Мне нужно идти.
 
-Полностью: *chcę, chcesz, chce, chcemy, chcecie, chcą* (первое спряжение) и *muszę, musisz, musi, musimy, musicie, muszą* (второе; в «я» и «они» **s** переходит в **sz**).
+<!-- review -->
+
+:pron{pl="Możesz mi pomóc?"} — Ты можешь мне помочь?
+:pron{pl="Oni chcą mieszkać w Krakowie."} — Они хотят жить в Кракове.
+
+*chcieć* и *móc* идут по первому спряжению («ты» на **-esz**), *musieć* и *woleć* — по второму («ты» на **-isz**). У *musieć* в «я» и «они» **s** переходит в **sz**: *muszę, muszą*. У *móc* основа меняется ещё сильнее — об этом ниже.
 
 ::quiz
 ---
@@ -54,7 +61,16 @@ questions:
 
 :pron{pl="Muszę iść do pracy."} — Мне надо идти на работу.
 
+<!-- review -->
+
+:pron{pl="Musimy już iść."} — Нам уже пора идти.
+:pron{pl="Jutro muszę wcześnie wstać."} — Завтра мне надо рано встать.
+
 Обратите внимание: в русском мы говорим безлично — «мне надо». В польском подлежащее обычное: *ja muszę*, *ty musisz*.
+
+<!-- review -->
+
+Безличное *trzeba* «надо» в польском тоже есть, но обычно без «мне»: :pron{pl="Trzeba iść."} — Надо идти. Сочетание *trzeba mi* встречается, но звучит книжно; о себе в обычной речи говорят *muszę*.
 
 С отрицанием смысл расходится с русским «не должен»: *nie musisz* значит «тебе не обязательно», а не «нельзя». Запрет выражают иначе — *nie wolno*.
 
@@ -70,9 +86,9 @@ questions:
     explain: "musieć: muszę, musisz, musi — «ты должен отдохнуть»."
   - type: choice
     q: Как сказать «Мне надо работать»?
-    options: ["Muszę pracować.", "Mi trzeba pracować."]
+    options: ["Muszę pracować.", "Mnie musi pracować."]
     answer: 0
-    explain: "Русское безличное «мне надо» польский передаёт личной формой: muszę pracować."
+    explain: "musieć — обычный личный глагол: ja muszę pracować. «Mnie musi» — дословный перевод русского «мне надо», такой конструкции в польском нет."
   - type: input
     q: "Oni ___ iść do domu. (musieć)"
     answer: muszą
@@ -83,6 +99,14 @@ questions:
 ## Móc — чередование в основе
 
 У :pl-word{id="moc"} основа меняется: *mogę*, но *możesz*, *może*, *możemy*, *możecie*, *mogą*. Форма «я» и форма «они» идут через **g**, остальные — через **ż**. Это типичное польское чередование, и оно ещё встретится.
+
+<!-- review -->
+
+:pron{pl="Nie mogę dzisiaj przyjść."} — Я не могу сегодня прийти.
+:pron{pl="Czy mogę tu usiąść?"} — Можно здесь сесть?
+:pron{pl="Możecie mówić wolniej?"} — Вы можете говорить медленнее?
+
+Русское безличное «можно?» в просьбе о разрешении польский чаще передаёт личным *czy mogę…?* — «могу ли я…?».
 
 ::quiz
 ---
@@ -109,6 +133,11 @@ questions:
 
 :pron{pl="Wolę kawę niż herbatę."} — Я предпочитаю кофе чаю.
 
+<!-- review -->
+
+:pron{pl="Co wolisz: kawę czy herbatę?"} — Что ты больше любишь: кофе или чай?
+:pron{pl="Wolę herbatę."} — Я больше люблю чай.
+
 ::quiz
 ---
 questions:
@@ -125,6 +154,54 @@ questions:
     q: "Wolę kawę od ___. (herbata)"
     answer: herbaty
     explain: "После od — родительный: herbata → herbaty."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Kasia:** :pron{pl="Chcesz iść dzisiaj do kina?"} — Хочешь пойти сегодня в кино?
+- **Piotr:** :pron{pl="Chcę, ale nie mogę. Muszę pracować."} — Хочу, но не могу. Мне надо работать.
+- **Kasia:** :pron{pl="A jutro? Możesz jutro?"} — А завтра? Завтра можешь?
+- **Piotr:** :pron{pl="Jutro mogę. Ale wolę teatr niż kino."} — Завтра могу. Но театр я люблю больше, чем кино.
+- **Kasia:** :pron{pl="Dobrze, możemy iść do teatru."} — Хорошо, можем пойти в театр.
+- **Piotr:** :pron{pl="Muszę kupić bilety?"} — Мне надо купить билеты?
+- **Kasia:** :pron{pl="Nie musisz, mam już bilety."} — Не надо, у меня уже есть билеты.
+- **Piotr:** :pron{pl="Super! To do jutra."} — Отлично! Тогда до завтра.
+
+## Типичные ошибки
+
+<!-- lexicon-ok: możę muszysz -->
+
+- *Chcę jem.* → :pron{pl="Chcę jeść."} После *chcieć, móc, musieć* второй глагол стоит в инфинитиве, как в русском «хочу есть».
+- *Ty muszysz.* → :pron{pl="Ty musisz."} **sz** у *musieć* только в «я» и «они» (*muszę, muszą*); в остальных формах **s**: *musisz, musi, musimy*.
+- *Ja możę.* → :pron{pl="Ja mogę."} В «я» и «они» у *móc* стоит **g**: *mogę, mogą*; **ż** — во всех остальных формах.
+- *Nie musisz tu palić.* (в значении «здесь нельзя курить») → :pron{pl="Tu nie wolno palić."} *Nie musisz* значит «не обязательно», а запрет — *nie wolno*.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Nie mogę dzisiaj przyjść.
+    explain: "móc: «я» через g — mogę. Отрицание nie стоит перед глаголом, как в русском."
+  - type: choice
+    q: "Вы просите разрешения: «Можно здесь сесть?»"
+    options: ["Czy mogę tu usiąść?", "Czy muszę tu usiąść?", "Czy chcę tu usiąść?"]
+    answer: 0
+    explain: "Разрешение спрашивают через móc: czy mogę…? — «могу ли я…?». muszę — «я должен», chcę — «я хочу»."
+  - type: input
+    q: "My ___ już iść. (musieć)"
+    answer: musimy
+    explain: "musieć — II спряжение: musisz → musi + -my = musimy. sz только в «я» и «они»."
+  - type: input
+    q: "Oni ___ herbatę. (woleć)"
+    answer: wolą
+    explain: "woleć — II спряжение: wolę → wolą, -ę меняется на -ą."
+  - type: translate
+    q: "Мы хотим жить в Кракове."
+    answer: ["Chcemy mieszkać w Krakowie.", "My chcemy mieszkać w Krakowie."]
+    explain: "chcieć + инфинитив: chcemy mieszkać. «Жить где-то» — mieszkać, а не żyć."
 ---
 ::
 

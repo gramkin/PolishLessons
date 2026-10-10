@@ -4,7 +4,7 @@ description: "Слова о семье, работе и внешности, ко
 chapter: 19
 order: 3
 level: A2
-words: [rodzina, zawod, uroda, duma, wesele, wies]
+words: [rodzina, zawod, uroda, duma, wesele, wies, slub]
 ---
 
 <!-- review -->
@@ -32,6 +32,15 @@ rows:
 
 :pl-word{id="rodzina"} и :pl-word{id="zawod"} встретятся в первом же разговоре о себе. У *zawód* есть и второе значение — «разочарование»: *sprawić komuś zawód* «разочаровать кого-то».
 
+<!-- review -->
+
+:pron{pl="Moja rodzina mieszka w Krakowie."} — Моя семья живёт в Кракове.
+:pron{pl="Tęsknię za ojczyzną."} — Я скучаю по родине.
+:pron{pl="Z zawodu jestem lekarzem."} — По профессии я врач.
+:pron{pl="Mój ojciec pracuje w fabryce."} — Мой отец работает на заводе.
+
+Русское «на заводе» по-польски *w fabryce*: с этим словом предлог *w*. А «по профессии» — *z zawodu*, и сама профессия после *jestem* стоит в творительном: *lekarzem*.
+
 ::quiz
 ---
 questions:
@@ -58,6 +67,10 @@ questions:
 
 Слово :pl-word{id="uroda"} — комплимент, и довольно сильный. Русское созвучие сбивает настолько, что лучше проговорить это вслух пару раз.
 
+<!-- review -->
+
+:pron{pl="Ona ma piękną urodę."} — У неё прекрасная внешность.
+
 ::quiz
 ---
 questions:
@@ -78,7 +91,15 @@ questions:
 
 :pron{pl="Byliśmy na weselu."} — Мы были на свадьбе.
 
-:pl-word{id="wesele"} — именно свадебное застолье. Само венчание — *ślub*.
+:pl-word{id="wesele"} — именно свадебное застолье. Само венчание — :pl-word{id="slub"}.
+
+<!-- review -->
+
+:pron{pl="Ślub był w kościele, a wesele w restauracji."} — Венчание было в церкви, а свадьба — в ресторане.
+:pron{pl="Na weselu tańczyliśmy do rana."} — На свадьбе мы танцевали до утра.
+:pron{pl="Biorą ślub w sobotę."} — Они женятся в субботу.
+
+«Весело» по-польски *wesoło*, «весёлый» — *wesoły*: корень тот же, но в современном языке *wesele* значит только свадьбу.
 
 ::quiz
 ---
@@ -101,6 +122,14 @@ questions:
 :pron{pl="To nasza duma."} — Это наша гордость.
 :pron{pl="Mieszkam na wsi."} — Я живу в деревне.
 
+<!-- review -->
+
+:pron{pl="Jestem dumny z syna."} — Я горжусь сыном.
+:pron{pl="Moi dziadkowie mieszkają na wsi."} — Мои бабушка и дедушка живут в деревне.
+:pron{pl="Pracowałem cały dzień."} — Я работал весь день.
+
+От *duma* — прилагательное *dumny* «гордый», и «гордиться кем-то» по-польски *być dumnym z* + родительный: *jestem dumna z córki* «я горжусь дочерью». «Весь, вся, всё» — *cały, cała, całe*.
+
 ::quiz
 ---
 questions:
@@ -118,6 +147,52 @@ questions:
     options: ["wieś dzień", "cały dzień"]
     answer: 1
     explain: "«Весь» — cały: cały dzień. Wieś — «деревня»."
+---
+::
+
+<!-- review -->
+
+### Диалог: на свадьбе
+
+- **Anna:** :pron{pl="Dzień dobry! Jest pan z rodziny pana młodego?"} — Здравствуйте! Вы из семьи жениха?
+- **Tomasz:** :pron{pl="Nie, jestem jego kolegą z pracy."} — Нет, я его коллега по работе.
+- **Anna:** :pron{pl="A jaki jest pana zawód?"} — А какая у вас профессия?
+- **Tomasz:** :pron{pl="Jestem inżynierem. Pracuję w fabryce samochodów."} — Я инженер. Работаю на автомобильном заводе.
+- **Anna:** :pron{pl="A ja jestem nauczycielką. Mieszkam na wsi pod Krakowem."} — А я учительница. Живу в деревне под Краковом.
+- **Tomasz:** :pron{pl="Panna młoda jest piękna, prawda?"} — Невеста красивая, правда?
+- **Anna:** :pron{pl="Tak, to duma całej rodziny!"} — Да, она гордость всей семьи!
+
+## Типичные ошибки
+
+- *Pracuję na zawodzie.* (хотели сказать «на заводе») → :pron{pl="Pracuję w fabryce."} *Zawód* — профессия, завод — *fabryka*, и с ней предлог *w*.
+- *Moja rodzina to Rosja.* (хотели сказать «родина») → :pron{pl="Moja ojczyzna to Rosja."} *Rodzina* — семья, родина — *ojczyzna*.
+- *Było wesele.* (хотели сказать «было весело») → :pron{pl="Było wesoło."} *Wesele* — свадьба, «весело» — *wesoło*.
+- *Wieś dzień pracowałem.* → :pron{pl="Cały dzień pracowałem."} *Wieś* — деревня, «весь» — *cały*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«По профессии я врач» — это…"
+    options: ["Z zawodu jestem lekarzem.", "Na zawodzie jestem lekarzem.", "Z fabryki jestem lekarzem."]
+    answer: 0
+    explain: "«По профессии» — z zawodu, а профессия после jestem в творительном: lekarzem."
+  - type: input
+    q: "«Я горжусь сыном»: Jestem ___ z syna. (м. р.)"
+    answer: dumny
+    explain: "duma — «гордость», dumny — «гордый». «Гордиться» — być dumnym z + родительный: z syna."
+  - type: choice
+    q: "«На свадьбе было очень весело» — Na weselu było bardzo…"
+    options: [wesoło, wesele, weselu]
+    answer: 0
+    explain: "«Весело» — wesoło. Wesele — «свадьба», na weselu — «на свадьбе»."
+  - type: translate
+    q: "Мои бабушка и дедушка живут в деревне."
+    answer: ["Moi dziadkowie mieszkają na wsi.", "Dziadkowie mieszkają na wsi."]
+    explain: "«Бабушка и дедушка» вместе — dziadkowie; «в деревне» — na wsi: wieś — «деревня», а не «весь»."
+  - type: listen
+    text: "Ślub był w kościele, a wesele w restauracji."
+    explain: "ślub — церемония, wesele — праздник после неё. Вместе по-русски и то и другое — «свадьба»."
 ---
 ::
 

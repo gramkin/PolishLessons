@@ -4,7 +4,7 @@ description: "Четвёртый род, которого нет в русско
 chapter: 4
 order: 4
 level: A1
-words: [nauczyciel, program, temat, problem, adres]
+words: [nauczyciel, program, temat, problem, adres, oni, one, chlopiec, dziewczyna, rodzice, student, studentka]
 ---
 
 <!-- review -->
@@ -27,6 +27,17 @@ rows:
   - [остальное, one, "-y / -i / -e / -a", "kobiety, psy, programy, okna"]
 ---
 ::
+
+Как образуется множественное число, подробно разобрано в уроке 11.1; здесь важно, что выбор зависит от того, люди это мужского пола или нет.
+
+<!-- review -->
+
+:pron{pl="Studenci są w parku."} — Студенты в парке.
+:pron{pl="Studentki są w parku."} — Студентки в парке.
+:pron{pl="Moi bracia mieszkają w Krakowie."} — Мои братья живут в Кракове.
+:pron{pl="Moje siostry mieszkają w Gdańsku."} — Мои сёстры живут в Гданьске.
+
+Даже «мои» делится надвое: *moi* для мужчин, *moje* для всех остальных.
 
 ::quiz
 ---
@@ -58,6 +69,13 @@ questions:
 
 Глагол тоже меняется: **byli** для мужского личного рода, **były** для всего остального. Разница в одной букве, но она обязательна. Так же делится и прилагательное: *zadowoleni* о мужчинах, *zadowolone* обо всех остальных. Прошедшее время подробно разобрано в главе 9, здесь нужны только эти две формы.
 
+<!-- review -->
+
+:pron{pl="Chłopcy byli w kinie."} — Мальчики были в кино.
+:pron{pl="Dziewczyny były w kinie."} — Девушки были в кино.
+:pron{pl="Anna i Marek byli w Polsce."} — Анна и Марек были в Польше.
+:pron{pl="Koty były głodne."} — Кошки были голодные.
+
 ::quiz
 ---
 questions:
@@ -88,6 +106,14 @@ questions:
 
 Указательное слово «эти» тоже делится надвое: **ci** — для мужского личного рода, **te** — для всего остального.
 
+<!-- review -->
+
+:pron{pl="Te problemy są poważne."} — Эти проблемы серьёзные.
+:pron{pl="Ci panowie są z Polski."} — Эти господа из Польши.
+:pron{pl="Ci nauczyciele są bardzo dobrzy."} — Эти учителя очень хорошие.
+
+В последнем примере и прилагательное особое: *dobrzy* — только о мужчинах, обо всех остальных *dobre* (урок 11.4).
+
 ::quiz
 ---
 questions:
@@ -111,6 +137,11 @@ questions:
 ## Короткое правило
 
 Спросите себя: «в группе есть мужчина?» Если да — **oni** и **-li** в глаголе. Если нет — **one** и **-ły**. Женщины, дети, кошки и телефоны попадают в одну корзину, как бы странно это ни звучало.
+
+<!-- review -->
+
+:pron{pl="Gdzie są dzieci? One są w szkole."} — Где дети? Они в школе.
+:pron{pl="Gdzie są chłopcy? Oni są w szkole."} — Где мальчики? Они в школе.
 
 ::quiz
 ---
@@ -147,6 +178,54 @@ questions:
     q: эти адреса
     answer: [te adresy]
     explain: "adres мужского рода, но это не человек: te adresy."
+---
+::
+
+<!-- review -->
+
+### Диалог: после выходных
+
+- **Ewa:** :pron{pl="Gdzie byli twoi rodzice?"} — Где были твои родители?
+- **Adam:** :pron{pl="Byli w Gdańsku. Mama i tata bardzo lubią morze."} — Они были в Гданьске. Мама и папа очень любят море.
+- **Ewa:** :pron{pl="A twoje siostry?"} — А твои сёстры?
+- **Adam:** :pron{pl="One były w domu. Były zmęczone."} — Они были дома. Они устали.
+- **Ewa:** :pron{pl="A Marek i jego koledzy?"} — А Марек и его друзья?
+- **Adam:** :pron{pl="Oni byli w górach."} — Они были в горах.
+- **Ewa:** :pron{pl="Wszyscy byli zadowoleni?"} — Все были довольны?
+- **Adam:** :pron{pl="Tak, wszyscy!"} — Да, все!
+
+*Rodzice* — мама и папа, в группе есть мужчина, поэтому *twoi* и *byli*. Сёстры — *twoje* и *były*. А «все» о группе с мужчинами — *wszyscy*.
+
+## Типичные ошибки
+
+- *Siostry byli w domu.* → :pron{pl="Siostry były w domu."} В русском «были» одно на всех; по-польски без мужчин в группе — *były*.
+- *Anna i Marek były w kinie.* → :pron{pl="Anna i Marek byli w kinie."} Одного мужчины достаточно, чтобы группа стала мужской личной.
+- *Psy byli głodni.* → :pron{pl="Psy były głodne."} Животные — не люди, даже самцы: *były*, *głodne*.
+- *te nauczyciele* → :pron{pl="ci nauczyciele"} «Эти» о мужчинах — *ci*, а *te* — для всех остальных.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "___ bracia mieszkają w Krakowie. (мои)"
+    options: [Moi, Moje]
+    answer: 0
+    explain: "bracia — мужчины, поэтому moi. О сёстрах было бы moje siostry."
+  - type: input
+    q: "Koty ___ głodne. (być, прошедшее время)"
+    answer: były
+    explain: "Животные не входят в мужской личный род: koty były."
+  - type: translate
+    q: Девушки были дома.
+    answer: ["Dziewczyny były w domu.", "Dziewczęta były w domu."]
+    explain: "Мужчин в группе нет: były. «Дома» — w domu."
+  - type: translate
+    q: Эти мальчики были в кино.
+    answer: ["Ci chłopcy byli w kinie."]
+    explain: "Мальчики — мужской личный род: ci и byli. «В кино» — w kinie, слово kino склоняется."
+  - type: listen
+    text: Ci panowie są z Polski.
+    explain: "panowie — множественное от pan, мужской личный род, поэтому ci. z перед P звучит как «с»."
 ---
 ::
 

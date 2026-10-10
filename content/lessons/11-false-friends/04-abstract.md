@@ -4,7 +4,7 @@ description: "Последняя группа ложных друзей — са
 chapter: 19
 order: 4
 level: A2
-words: [czas, rok, jutro, zdanie, sprawa, obraz, list]
+words: [czas, rok, jutro, zdanie, sprawa, obraz, list, godzina, rano, kartka]
 ---
 
 <!-- review -->
@@ -31,7 +31,17 @@ rows:
 :pron{pl="Nie mam czasu."} — У меня нет времени.
 :pron{pl="Do zobaczenia jutro."} — До завтра.
 
-:pl-word{id="czas"} и :pl-word{id="jutro"} — две ловушки, которые срабатывают ежедневно. «Час» по-польски *godzina*, «утро» — *rano*.
+:pl-word{id="czas"} и :pl-word{id="jutro"} — две ловушки, которые срабатывают ежедневно. «Час» по-польски :pl-word{id="godzina"}, «утро» — :pl-word{id="rano"}.
+
+<!-- review -->
+
+:pron{pl="Czas szybko leci."} — Время быстро летит.
+:pron{pl="Która jest godzina?"} — Который час?
+:pron{pl="Czekam już godzinę."} — Я жду уже час.
+:pron{pl="Wstaję wcześnie rano."} — Я встаю рано утром.
+:pron{pl="W przyszłym roku jadę do Polski."} — В следующем году я еду в Польшу.
+
+:pl-word{id="rok"} — обычный «год», а русский «рок» в смысле судьбы — *los*. «В этом году» — *w tym roku*, «в прошлом году» — *w zeszłym roku*.
 
 ::quiz
 ---
@@ -60,6 +70,14 @@ questions:
 
 У :pl-word{id="zdanie"} два значения сразу: грамматическое предложение и мнение. Оборот *moim zdaniem* «по-моему» стоит выучить целиком.
 
+<!-- review -->
+
+:pron{pl="Przeczytaj to zdanie na głos."} — Прочитай это предложение вслух.
+:pron{pl="Zmieniłem zdanie."} — Я передумал.
+:pron{pl="Ten budynek jest bardzo stary."} — Это здание очень старое.
+
+*Zmienić zdanie* — дословно «поменять мнение», то есть передумать. А «здание» — *budynek*.
+
 ::quiz
 ---
 questions:
@@ -86,6 +104,16 @@ questions:
 :pron{pl="To poważna sprawa."} — Это серьёзное дело.
 :pron{pl="Napisałem list."} — Я написал письмо.
 
+<!-- review -->
+
+:pron{pl="Mam do ciebie sprawę."} — У меня к тебе дело.
+:pron{pl="Sklep jest po prawej stronie."} — Магазин справа.
+:pron{pl="W muzeum wiszą piękne obrazy."} — В музее висят прекрасные картины.
+:pron{pl="Na drzewie nie ma już liści."} — На дереве уже нет листьев.
+:pron{pl="Daj mi kartkę papieru."} — Дай мне лист бумаги.
+
+Русское «лист» по-польски распадается на два слова: лист дерева — *liść*, лист бумаги — :pl-word{id="kartka"}. А *list* — только письмо. «Справа» — *po prawej* или *po prawej stronie*.
+
 ::quiz
 ---
 questions:
@@ -104,6 +132,61 @@ questions:
     options: [obraz, wizerunek]
     answer: 0
     explain: "obraz — «картина». «Образ» в смысле имиджа — wizerunek."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Ewa:** :pron{pl="Masz chwilę? Mam do ciebie sprawę."} — Есть минутка? У меня к тебе дело.
+- **Jan:** :pron{pl="Teraz nie mam czasu. Może jutro?"} — Сейчас нет времени. Может, завтра?
+- **Ewa:** :pron{pl="Dobrze. O której godzinie?"} — Хорошо. В котором часу?
+- **Jan:** :pron{pl="Rano, o dziewiątej. A o co chodzi?"} — Утром, в девять. А в чём дело?
+- **Ewa:** :pron{pl="Napisałam list do szefa i chcę znać twoje zdanie."} — Я написала письмо начальнику и хочу знать твоё мнение.
+- **Jan:** :pron{pl="Dobrze, przeczytam go jutro."} — Хорошо, прочитаю его завтра.
+- **Ewa:** :pron{pl="Dzięki! Do jutra!"} — Спасибо! До завтра!
+
+## Типичные ошибки
+
+- *Czekam już czas.* (хотели сказать «уже час») → :pron{pl="Czekam już godzinę."} *Czas* — время, час — *godzina*.
+- *To wysokie zdanie.* (хотели сказать «высокое здание») → :pron{pl="To wysoki budynek."} *Zdanie* — предложение или мнение, здание — *budynek*, мужского рода.
+- *Wziąłem list papieru.* → :pron{pl="Wziąłem kartkę papieru."} *List* — письмо, лист бумаги — *kartka*.
+- *Tańczyliśmy do jutra.* (хотели сказать «до утра») → :pron{pl="Tańczyliśmy do rana."} *Jutro* — завтра, а «до утра» — *do rana*: созвучие *jutro* — «утро» тянет не туда.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Я передумал» — это…"
+    options: ["Zmieniłem zdanie.", "Zmieniłem budynek.", "Zmieniłem czas."]
+    answer: 0
+    explain: "zmienić zdanie — «поменять мнение», то есть передумать. Zdanie здесь — «мнение»."
+  - type: input
+    q: "«Я жду уже час»: Czekam już ___."
+    answer: godzinę
+    explain: "«Час» — godzina; «сколько времени ждать» — винительный: godzinę, как «жду час». Czas — «время»."
+  - type: choice
+    q: "«Это важное дело» — это…"
+    options: ["To ważna sprawa.", "To ważne zdanie.", "To ważny czas."]
+    answer: 0
+    explain: "sprawa — «дело», а «справа» — po prawej. Ważne zdanie — «важное предложение», ważny czas — «важное время»."
+  - type: translate
+    q: "У меня к тебе дело."
+    answer: ["Mam do ciebie sprawę.", "Mam sprawę do ciebie."]
+    explain: "«Дело к кому-то» — sprawa do + родительный: do ciebie. После mam — винительный: sprawę."
+  - type: match
+    q: Соедините слово и значение
+    pairs:
+      - [godzina, час]
+      - [rano, утро]
+      - [budynek, здание]
+      - [kartka, лист бумаги]
+      - [liść, лист дерева]
+    explain: "Это польские слова для того, что слышится в czas, jutro, zdanie и list."
+  - type: listen
+    text: "Czas szybko leci."
+    explain: "czas — «время», а не «час». Leci — от lecieć «лететь»."
 ---
 ::
 

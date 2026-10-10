@@ -4,7 +4,7 @@ description: Слова, которые выглядят как женские, 
 chapter: 4
 order: 3
 level: A1
-words: [mezczyzna, kolega, kierowca, poeta, artysta, turysta]
+words: [mezczyzna, kolega, kierowca, poeta, artysta, turysta, kolezanka]
 ---
 
 <!-- review -->
@@ -19,6 +19,19 @@ words: [mezczyzna, kolega, kierowca, poeta, artysta, turysta]
 - :pl-word{id="turysta"} — турист
 
 Все они **мужского рода**, хотя кончаются на **-a**.
+
+<!-- review -->
+
+Указательное слово и прилагательное при них мужские, как при *brat*:
+
+:pron{pl="Ten mężczyzna jest wysoki."} — Этот мужчина высокий.
+:pron{pl="To jest mój kolega Adam."} — Это мой приятель Адам.
+:pron{pl="Nasz kierowca jest bardzo miły."} — Наш водитель очень приятный.
+:pron{pl="Ten turysta jest z Niemiec."} — Этот турист из Германии.
+
+Если речь о женщине, у слова есть своя женская пара: *kolega* → :pl-word{id="kolezanka"}, *turysta* → *turystka*, *artysta* → *artystka*, *poeta* → *poetka*.
+
+:pron{pl="To moja koleżanka Ewa."} — Это моя приятельница Ева.
 
 ::quiz
 ---
@@ -56,12 +69,25 @@ plColumns: [1, 2]
 rows:
   - [именительный, poeta, "ten wybitny poeta"]
   - [родительный, poety, "biografia tego poety"]
+  - [дательный, poecie, "dziękuję temu poecie"]
   - [винительный, poetę, "znam tego poetę"]
   - [творительный, poetą, "on jest poetą"]
+  - [предложный, poecie, "mówimy o tym poecie"]
 ---
 ::
 
-Сравните: *ten poeta* — «этот поэт», как *ten brat*, а не *ta poeta*.
+Сравните: *ten poeta* — «этот поэт», как *ten brat*, а не *ta poeta*. В дательном и предложном *t* перед *-ie* смягчается в *c*: *poecie*, как *kobieta → kobiecie*. Эти два падежа подробно разобраны в главе 8, здесь важно одно: окончания у *poeta* те же, что у *kobieta*.
+
+<!-- review -->
+
+:pron{pl="Znam tego poetę."} — Я знаю этого поэта.
+:pron{pl="Mój brat jest kierowcą."} — Мой брат — водитель.
+:pron{pl="On chce być artystą."} — Он хочет быть художником.
+:pron{pl="To jest samochód mojego kolegi."} — Это машина моего приятеля.
+:pron{pl="Czekam na kolegę."} — Я жду приятеля.
+:pron{pl="Rozmawiam z kierowcą."} — Я разговариваю с водителем.
+
+Окончания женские (*kolegi*, *kolegę*, *kierowcą*), а слова при них мужские (*mojego*, *tego*).
 
 Русскому этот тип знаком: «папа», «дядя», «юноша» — тоже мужской род при окончании -а. Разница в том, что в польском таких слов больше и среди них обычные, ежедневные: *kolega*, *kierowca*.
 
@@ -97,6 +123,13 @@ questions:
 
 Именно это окончание говорит: речь о мужчинах. Об этом — следующий урок.
 
+<!-- review -->
+
+:pron{pl="Moi koledzy są w pracy."} — Мои коллеги на работе.
+:pron{pl="Turyści są w muzeum."} — Туристы в музее.
+:pron{pl="Ci mężczyźni są z Polski."} — Эти мужчины из Польши.
+:pron{pl="Kierowcy czekają na turystów."} — Водители ждут туристов.
+
 ::quiz
 ---
 questions:
@@ -131,6 +164,51 @@ questions:
     q: Это мой коллега.
     answer: [To mój kolega., To jest mój kolega.]
     explain: "kolega мужского рода: mój kolega, а не moja."
+---
+::
+
+<!-- review -->
+
+### Диалог: на вечеринке
+
+- **Ewa:** :pron{pl="Kto to jest?"} — Кто это?
+- **Anna:** :pron{pl="To mój kolega z pracy, Adam."} — Это мой коллега по работе, Адам.
+- **Ewa:** :pron{pl="Czy on jest kierowcą?"} — Он водитель?
+- **Anna:** :pron{pl="Nie, on jest artystą. Maluje obrazy."} — Нет, он художник. Пишет картины.
+- **Ewa:** :pron{pl="A ta kobieta obok niego?"} — А эта женщина рядом с ним?
+- **Anna:** :pron{pl="To jego żona. Ona też jest artystką."} — Это его жена. Она тоже художница.
+- **Ewa:** :pron{pl="Chyba znam tego artystę!"} — Кажется, я знаю этого художника!
+
+## Типичные ошибки
+
+- *ta kierowca* → :pron{pl="ten kierowca"} Окончание *-a* обманывает: водитель — мужчина, и слово мужского рода.
+- *moja kolega* (о женщине) → :pron{pl="moja koleżanka"} *Kolega* — только о мужчине; для женщины есть отдельное слово.
+- *On jest kierowca.* → :pron{pl="On jest kierowcą."} После *być* нужен творительный, и у этих слов он женский: *-ą*.
+- *Znam tego poeta.* → :pron{pl="Znam tego poetę."} Винительный по женскому образцу — *-ę*, как *kobietę*, а не русское «-а».
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Моя приятельница Ева» — это…"
+    options: ["moja koleżanka Ewa", "moja kolega Ewa", "mój kolega Ewa"]
+    answer: 0
+    explain: "kolega — только о мужчине. О женщине — koleżanka, и при ней moja."
+  - type: input
+    q: "Czekam na ___. (kolega)"
+    answer: kolegę
+    explain: "czekać na + винительный. kolega склоняется как женское слово: kolegę, как kobietę."
+  - type: input
+    q: "To jest samochód mojego ___. (kolega)"
+    answer: kolegi
+    explain: "Родительный по женскому образцу: kolega → kolegi (после g пишется i). А местоимение мужское: mojego."
+  - type: translate
+    q: Мой брат — водитель.
+    answer: ["Mój brat jest kierowcą.", "Mój brat to kierowca."]
+    explain: "После jest — творительный: kierowcą. Можно сказать и через to: mój brat to kierowca."
+  - type: listen
+    text: Ten mężczyzna jest wysoki.
+    explain: "mężczyzna — мужского рода, поэтому ten и wysoki. ę перед ż звучит носово, а żcz — как «шч»: «мэу̃шчы́зна»."
 ---
 ::
 

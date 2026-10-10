@@ -34,6 +34,12 @@ rows:
 
 Соответствие регулярное. Если по-русски выходит «книгу», «воду», «музыку» — по-польски будет **-ę**. Так же меняются мужские слова на **-a**: *kolega → kolegę*, *mężczyzna → mężczyznę*. А женские слова на согласную, как и в русском, остаются без изменений: *noc*, *rzecz*, *miłość*.
 
+<!-- review -->
+
+:pron{pl="Kupuję gazetę."} — Я покупаю газету.
+:pron{pl="Odwiedzam babcię."} — Я навещаю бабушку.
+:pron{pl="Zapraszam kolegę."} — Я приглашаю приятеля.
+
 ::quiz
 ---
 questions:
@@ -58,6 +64,11 @@ questions:
 :pron{pl="Mam dom."} — У меня есть дом.
 :pron{pl="Widzę okno."} — Я вижу окно.
 
+<!-- review -->
+
+:pron{pl="Kupuję chleb i mleko."} — Я покупаю хлеб и молоко.
+:pron{pl="Oglądamy film."} — Мы смотрим фильм.
+
 ::quiz
 ---
 questions:
@@ -81,6 +92,11 @@ questions:
 
 :pron{pl="Widzę psa."} — Я вижу собаку.
 :pron{pl="Mam kota."} — У меня есть кот.
+
+<!-- review -->
+
+:pron{pl="Mam syna i córkę."} — У меня есть сын и дочь.
+:pron{pl="Odwiedzam dziadka."} — Я навещаю дедушку.
 
 Русский поступает так же: «вижу пса», «вижу кота». Расхождение начинается во множественном числе. Там форму родительного берут только мужчины (*widzę studentów*), а животные и вещи остаются в именительном: :pron{pl="Widzę psy."} — «вижу собак», по-русски с родительным.
 
@@ -109,6 +125,15 @@ questions:
 
 :pron{pl="Idę na pocztę."} — Я иду на почту.
 :pron{pl="Idę przez most."} — Я иду через мост.
+
+<!-- review -->
+
+:pron{pl="Jedziemy w góry."} — Мы едем в горы.
+
+Винительный нужен и после глагола *czekać* «ждать», который в польском требует предлога *na*:
+
+:pron{pl="Czekam na autobus."} — Я жду автобус.
+:pron{pl="Czekam na siostrę."} — Я жду сестру.
 
 ::quiz
 ---
@@ -169,6 +194,54 @@ questions:
     q: "Znam ___. (on)"
     answer: go
     explain: "Короткая форма винительного от on — go: znam go, «я его знаю»."
+---
+::
+
+<!-- review -->
+
+### Диалог: в магазине
+
+- **Sprzedawczyni:** :pron{pl="Dzień dobry, w czym mogę pomóc?"} — Здравствуйте, чем могу помочь?
+- **Klient:** :pron{pl="Poproszę chleb i masło."} — Хлеб и масло, пожалуйста.
+- **Sprzedawczyni:** :pron{pl="Coś jeszcze?"} — Что-нибудь ещё?
+- **Klient:** :pron{pl="Tak, kawę i herbatę."} — Да, кофе и чай.
+- **Sprzedawczyni:** :pron{pl="Proszę bardzo. To wszystko?"} — Пожалуйста. Это всё?
+- **Klient:** :pron{pl="Jeszcze wodę i gazetę."} — Ещё воду и газету.
+- **Sprzedawczyni:** :pron{pl="Razem dwadzieścia złotych."} — Всего двадцать злотых.
+- **Klient:** :pron{pl="Proszę. Dziękuję, do widzenia!"} — Вот, пожалуйста. Спасибо, до свидания!
+
+После *poproszę* «попрошу» всё, что просят, стоит в винительном, даже когда сам глагол опущен: *kawę*, *wodę*, *gazetę*.
+
+## Типичные ошибки
+
+- *Piję kawa.* → :pron{pl="Piję kawę."} Русское «кофе» не склоняется, и окончание забывают. Польское *kawa* — обычное слово женского рода: *kawę*.
+- *Widzę pies.* → :pron{pl="Widzę psa."} Одушевлённый мужской род в винительном берёт форму родительного, как «вижу пса».
+- *Widzę psów.* → :pron{pl="Widzę psy."} Во множественном числе форму родительного берут только мужчины; животные остаются в именительном.
+- *Czekam autobus.* → :pron{pl="Czekam na autobus."} Польское *czekać* требует предлога *na*, хотя по-русски «жду автобус» без предлога.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Poproszę chleb i masło.
+    explain: "После poproszę — винительный. chleb и masło в винительном не меняются: неодушевлённый мужской и средний род."
+  - type: input
+    q: "Odwiedzam ___. (babcia)"
+    answer: babcię
+    explain: "Женский род на -a: -a → -ę, babcię, как «навещаю бабушку»."
+  - type: choice
+    q: "Widzę ___. (koty)"
+    options: [koty, kotów]
+    answer: 0
+    explain: "Во множественном числе животные в винительном остаются в именительном: widzę koty. По-русски «вижу котов» — родительный, отсюда ошибка."
+  - type: input
+    q: "Czekam na ___. (autobus)"
+    answer: autobus
+    explain: "czekać na + винительный; autobus неодушевлённый, поэтому форма не меняется."
+  - type: translate
+    q: "Я жду сестру."
+    answer: ["Czekam na siostrę.", "Ja czekam na siostrę."]
+    explain: "czekać требует na + винительный: na siostrę. По-русски предлога нет."
 ---
 ::
 

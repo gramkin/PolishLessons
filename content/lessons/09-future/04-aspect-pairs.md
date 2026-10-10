@@ -4,10 +4,11 @@ description: Приставка, суффикс — или совсем друг
 chapter: 10
 order: 4
 level: A2
-words: [dac, kupowac]
+words: [dac, kupowac, kupic, dawac, robic, zrobic, brac, wziac, mowic, powiedziec, zamykac, zamknac, gotowac, zaplacic]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: dawam powiedzę -->
 
 Пар в языке тысячи, но способов их образования всего три, и все три знакомы по русскому.
 
@@ -46,6 +47,13 @@ questions:
 
 :pron{pl="Zrobię to sam."} — Я сделаю это сам.
 
+<!-- review -->
+
+Какая приставка нужна, по русскому не угадать: «сделать» — *zrobić*, «прочитать» — *przeczytać*, «сварить» — *ugotować*. Иногда совпадает, как в «заплатить» — *zapłacić*. Приставку запоминают вместе с глаголом.
+
+:pron{pl="Ugotowałam zupę."} — Я сварила суп.
+:pron{pl="Zapłacę kartą."} — Я заплачу картой.
+
 Но осторожно: приставка **может** и поменять смысл. Сравните *pisać* «писать» и *podpisać* «подписать», *przepisać* «переписать». Тогда это уже не видовая пара, а другой глагол — со своей несовершенной парой, образованной суффиксом: *podpisać* — *podpisywać*, *przepisać* — *przepisywać*.
 
 ::quiz
@@ -77,6 +85,29 @@ questions:
 
 Русский устроен так же: «покупать — купить», «давать — дать».
 
+<!-- review -->
+
+У *dawać* в настоящем времени слог *-wa-* выпадает: *daję, dajesz, daje* — как в русском «даю, даёшь». А совершенное *dać* спрягается неправильно: *dam, dasz, da, damy, dacie, dadzą*.
+
+:pron{pl="Dam ci znać."} — Я дам тебе знать.
+
+Похожие пары, где у несовершенного глагола свой суффикс, а основа немного меняется:
+
+::compare-table
+---
+headers: [Несовершенный, Совершенный, Русская пара]
+plColumns: [0, 1]
+rows:
+  - [pokazywać, pokazać, "показывать — показать"]
+  - [otwierać, otworzyć, "открывать — открыть"]
+  - [zamykać, zamknąć, "закрывать — закрыть"]
+---
+::
+
+:pron{pl="Zawsze zamykam okno na noc."} — Я всегда закрываю окно на ночь.
+:pron{pl="Zamknę okno."} — Я закрою окно.
+:pron{pl="Pokazała mi zdjęcia z wakacji."} — Она показала мне фотографии из отпуска.
+
 ::quiz
 ---
 questions:
@@ -102,6 +133,15 @@ questions:
 
 Редко, но среди самых частых глаголов: *brać* — *wziąć*, как русское «брать — взять», и *mówić* — *powiedzieć*, как «говорить — сказать». Такие пары просто запоминают.
 
+<!-- review -->
+
+:pron{pl="Biorę parasol."} — Я беру зонт.
+:pron{pl="Wziąłem parasol."} — Я взял зонт.
+:pron{pl="Zawsze mówię prawdę."} — Я всегда говорю правду.
+:pron{pl="Powiem ci prawdę."} — Я скажу тебе правду.
+
+Будущее от *powiedzieć* неправильное, его стоит выучить сразу: *powiem, powiesz, powie, powiemy, powiecie, powiedzą*. Это те же окончания, что у *dam* и *jem*.
+
 ::quiz
 ---
 questions:
@@ -117,9 +157,61 @@ questions:
 ---
 ::
 
+::quiz
+---
+questions:
+  - type: input
+    q: "dawać → я ___ (настоящее время)"
+    answer: daję
+    explain: "В настоящем времени -wa- выпадает: daję, dajesz, как русское «даю, даёшь»."
+  - type: input
+    q: "powiedzieć → я ___ (будущее)"
+    answer: powiem
+    explain: "Неправильное будущее: powiem, powiesz, powie — «скажу, скажешь, скажет»."
+  - type: choice
+    q: "«Я сварила суп» — это…"
+    options: ["Ugotowałam zupę.", "Gotowałam zupę."]
+    answer: 0
+    explain: "Результат — совершенный ugotować, с приставкой u-. Gotowałam — «варила», процесс."
+  - type: listen
+    text: "Zamknę okno."
+    explain: "zamknąć — совершенный вид: zamknę — «закрою», будущее. Несовершенная пара — zamykać."
+  - type: translate
+    q: "Я скажу тебе правду."
+    answer: ["Powiem ci prawdę.", "Ja ci powiem prawdę."]
+    explain: "Будущее от powiedzieć — powiem. «Тебе» без ударения — ci."
+  - type: match
+    q: Соедините видовую пару
+    pairs:
+      - [zamykać, zamknąć]
+      - [otwierać, otworzyć]
+      - [pokazywać, pokazać]
+      - [gotować, ugotować]
+    explain: "Слева несовершенный вид, справа совершенный. Способы разные: суффикс, чередование в основе, приставка u-."
+---
+::
+
+### Диалог: хлеб и посуда
+
+- **Mama:** :pron{pl="Kupiłeś chleb?"} — Ты купил хлеб?
+- **Syn:** :pron{pl="Nie, zapomniałem. Kupię jutro."} — Нет, забыл. Куплю завтра.
+- **Mama:** :pron{pl="Ty zawsze zapominasz. A ja kupuję chleb codziennie."} — Ты всегда забываешь. А я покупаю хлеб каждый день.
+- **Syn:** :pron{pl="Przepraszam. Za to umyłem naczynia."} — Извини. Зато я помыл посуду.
+- **Mama:** :pron{pl="Naprawdę? Wszystkie?"} — Правда? Всю?
+- **Syn:** :pron{pl="Prawie wszystkie. Resztę umyję wieczorem."} — Почти всю. Остальное помою вечером.
+- **Mama:** :pron{pl="No dobrze. Sama kupię chleb."} — Ну ладно. Сама куплю хлеб.
+
 ## Как это видно в словаре
 
 В карточке каждого глагола указан вид и пара: у :pl-word{id="robic"} стоит *zrobić*, у :pl-word{id="kupowac"} — *kupić*. Если сомневаетесь — загляните.
+
+<!-- review -->
+
+## Типичные ошибки
+
+- *dawam* → :pron{pl="daję"} Слог *-wa-* в настоящем времени выпадает: *daję, dajesz*, как русское «даю», а не «даваю».
+- *powiedzę* → :pron{pl="powiem"} Будущее от *powiedzieć* неправильное: *powiem, powiesz*, и только «они» — *powiedzą*.
+- *Przepiszę list.* в значении «напишу» → :pron{pl="Napiszę list."} Приставку *prze-* тянет по аналогии с *przeczytać*, но здесь она меняет смысл: *przepisać* — «переписать». Пара к *pisać* — *napisać*.
 
 ::quiz
 ---
@@ -141,6 +233,9 @@ questions:
     answer: ["Zawsze mówi prawdę.", "On zawsze mówi prawdę."]
     explain: "«Всегда» — повторение, поэтому несовершенный mówić: mówi."
 ---
+::
+
+::drill{id="verb-aspect-past"}
 ::
 
 ::quiz

@@ -4,10 +4,11 @@ description: Род польского существительного виде
 chapter: 4
 order: 1
 level: A1
-words: [kot, pies, ptak, brat, syn, ojciec, gest, samochod, kobieta, siostra, matka, corka, babcia, noga, okno, pole, oko, dziecko, rzecz, milosc, jesien, sol, krew]
+words: [kot, pies, ptak, brat, syn, ojciec, gest, samochod, kobieta, siostra, matka, corka, babcia, noga, okno, pole, oko, dziecko, rzecz, milosc, jesien, sol, krew, muzeum, ksiazka, zeszyt]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: muzeumie -->
 
 Хорошая новость: родов в польском три, те же самые, что в русском, и определяются они почти так же — по окончанию. Если вы чувствуете род русского слова, вы почти всегда угадаете и польский.
 
@@ -26,7 +27,16 @@ rows:
 
 Род сразу видно по указательному слову «этот»: **ten** — мужской, **ta** — женский, **to** — средний.
 
-:pron{pl="ten kot"}, :pron{pl="ta kobieta"}, :pron{pl="to okno"}.
+:pron{pl="ten kot"} — этот кот, :pron{pl="ta kobieta"} — эта женщина, :pron{pl="to okno"} — это окно.
+
+<!-- review -->
+
+Тот же род видно и по прилагательному, как в русском: *nowy*, *nowa*, *nowe*.
+
+:pron{pl="Ten samochód jest nowy."} — Этот автомобиль новый.
+:pron{pl="Ta książka jest ciekawa."} — Эта книга интересная.
+:pron{pl="To okno jest otwarte."} — Это окно открыто.
+:pron{pl="Moja siostra mieszka w Krakowie."} — Моя сестра живёт в Кракове.
 
 ::quiz
 ---
@@ -59,9 +69,18 @@ questions:
 
 Все четыре женского рода **и в польском, и в русском**. Русское чутьё тут работает: если по-русски «эта вещь», «эта соль», то и по-польски *ta rzecz*, *ta sól*.
 
-Отдельно стоит запомнить слова на **-ość** — они всегда женские, как русские слова на **-ость**:
+Отдельно стоит запомнить слова на **-ość** — они женские, как русские слова на **-ость** (единственное частое исключение — *ten gość* «гость»):
 
 :pron{pl="ta miłość"} — любовь, :pron{pl="ta młodość"} — молодость, :pron{pl="ta radość"} — радость.
+
+<!-- review -->
+
+В предложении такие слова ведут себя как обычные женские:
+
+:pron{pl="Ta rzecz jest droga."} — Эта вещь дорогая.
+:pron{pl="Gdzie jest sól?"} — Где соль?
+:pron{pl="Jesień w Polsce jest piękna."} — Осень в Польше красивая.
+:pron{pl="Miłość jest ślepa."} — Любовь слепа.
 
 ::quiz
 ---
@@ -83,7 +102,7 @@ questions:
     q: Какого рода слово «radość»?
     options: [мужского, женского, среднего]
     answer: 1
-    explain: "Слова на -ość всегда женского рода, как русские на -ость: ta radość."
+    explain: "Слова на -ość — женского рода, как русские на -ость: ta radość."
 ---
 ::
 
@@ -94,6 +113,14 @@ questions:
 :pron{pl="to muzeum"} — музей, :pron{pl="to centrum"} — центр, :pron{pl="to liceum"} — лицей.
 
 И в единственном числе они не склоняются вовсе: *do muzeum*, *w muzeum*, *z muzeum* — форма всегда одна.
+
+<!-- review -->
+
+Прилагательное при них тоже среднего рода, а после предлога форма остаётся прежней:
+
+:pron{pl="Muzeum jest dziś zamknięte."} — Музей сегодня закрыт.
+:pron{pl="To liceum jest nowe."} — Этот лицей новый.
+:pron{pl="Idę do muzeum."} — Я иду в музей.
 
 ::quiz
 ---
@@ -128,12 +155,65 @@ questions:
   - type: translate
     q: эта любовь
     answer: [ta miłość]
-    explain: "Слова на -ość всегда женские: ta miłość."
+    explain: "Слова на -ość — женские, как русские на -ость: ta miłość."
   - type: translate
     q: этот брат
     answer: [ten brat]
     explain: "Согласная на конце — мужской род: ten brat."
 ---
+::
+
+<!-- review -->
+
+### Диалог: в магазине
+
+- **Ewa:** :pron{pl="Ile kosztuje ta książka?"} — Сколько стоит эта книга?
+- **Sprzedawca:** :pron{pl="Ta? Dwadzieścia złotych."} — Эта? Двадцать злотых.
+- **Ewa:** :pron{pl="A ten zeszyt?"} — А эта тетрадь?
+- **Sprzedawca:** :pron{pl="Ten zeszyt kosztuje pięć złotych."} — Эта тетрадь стоит пять злотых.
+- **Ewa:** :pron{pl="A to pióro?"} — А эта перьевая ручка?
+- **Sprzedawca:** :pron{pl="To pióro jest drogie. Kosztuje sto złotych."} — Эта перьевая ручка дорогая. Стоит сто злотых.
+- **Ewa:** :pron{pl="Dobrze, poproszę książkę i zeszyt."} — Хорошо, книгу и тетрадь, пожалуйста.
+- **Sprzedawca:** :pron{pl="Proszę bardzo."} — Пожалуйста.
+
+Русские «тетрадь» и «ручка» женского рода, а польские :pl-word{id="zeszyt"} и *pióro* (перьевая ручка) — мужского и среднего: *ten zeszyt*, *to pióro*. Обычная шариковая ручка — тоже мужского: *ten długopis*. Род идёт за польским окончанием, а не за переводом.
+
+## Типичные ошибки
+
+- *ten muzeum* → :pron{pl="to muzeum"} Русский «музей» мужского рода, но польские слова на *-um* — среднего.
+- *w muzeumie* → :pron{pl="w muzeum"} В единственном числе слова на *-um* не склоняются: форма одна во всех падежах.
+- *ten rzecz* → :pron{pl="ta rzecz"} Согласная на конце не всегда значит мужской род; помогает русское «-ь»: «эта вещь».
+
+::quiz
+---
+questions:
+  - type: choice
+    q: Какого рода слово «imię»?
+    options: [мужского, женского, среднего]
+    answer: 2
+    explain: "Слова на -ę — среднего рода: to imię, как русское «это имя»."
+  - type: input
+    q: "___ samochód jest nowy. (Ta / Ten / To)"
+    answer: Ten
+    explain: "samochód кончается на согласную — мужской род: ten samochód, как «этот автомобиль»."
+  - type: match
+    q: Соедините указательное слово и существительное
+    pairs:
+      - [ten, zeszyt]
+      - [ta, sól]
+      - [to, centrum]
+    explain: "zeszyt — мужской (согласная на конце), sól — женский (как «соль»), centrum — средний (на -um)."
+  - type: translate
+    q: Музей сегодня закрыт.
+    answer: ["Muzeum jest dziś zamknięte.", "Muzeum jest dzisiaj zamknięte.", "Dziś muzeum jest zamknięte.", "Dzisiaj muzeum jest zamknięte.", "Muzeum jest zamknięte dzisiaj.", "Muzeum jest zamknięte dziś."]
+    explain: "muzeum среднего рода, поэтому и прилагательное среднее: zamknięte. Глагол jest обязателен."
+  - type: listen
+    text: Ta rzecz jest droga.
+    explain: "rzecz — женского рода, поэтому ta и droga. rz читается как «ж», cz — как «ч»: «жэч»."
+---
+::
+
+::drill{id="noun-gender"}
 ::
 
 ::quiz

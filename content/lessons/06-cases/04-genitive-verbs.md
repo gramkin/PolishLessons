@@ -29,6 +29,13 @@ rows:
 
 Не *słucham muzykę*. Русское «слушаю музыку» толкает к винительному, и ошибку делают почти все.
 
+<!-- review -->
+
+:pron{pl="Lubię słuchać radia."} — Я люблю слушать радио.
+:pron{pl="Dzieci nie słuchają rodziców."} — Дети не слушаются родителей.
+
+Во втором примере *słuchać* значит «слушаться», и падеж тот же — родительный.
+
 ::quiz
 ---
 questions:
@@ -54,6 +61,17 @@ questions:
 :pron{pl="Szukam pracy."} — Я ищу работу.
 :pron{pl="Potrzebuję czasu."} — Мне нужно время.
 :pron{pl="Używam słownika."} — Я пользуюсь словарём.
+
+<!-- review -->
+
+Вопросительное слово тоже ставят в родительный: не *co*, а *czego*. В разговоре можно услышать и *co szukasz?*, но правильно *czego*.
+
+:pron{pl="Czego szukasz?"} — Что ты ищешь?
+:pron{pl="Szukam klucza."} — Я ищу ключ.
+:pron{pl="Czego pan potrzebuje?"} — Что вам нужно?
+:pron{pl="Potrzebujemy pomocy."} — Нам нужна помощь.
+
+Русское «мне нужно», «нам нужна» — безличное, а польское *potrzebować* — обычный личный глагол: *potrzebuję, potrzebujesz, potrzebujemy*.
 
 ::quiz
 ---
@@ -82,6 +100,13 @@ questions:
 
 Здесь русский частично совпадает: «боюсь собак» — тоже родительный. А вот «учу польский» по-русски винительный, и это снова расхождение.
 
+<!-- review -->
+
+:pron{pl="Nie boję się ciemności."} — Я не боюсь темноты.
+:pron{pl="Życzę ci powodzenia!"} — Желаю тебе удачи!
+
+*życzyć* «желать» тоже с родительным, и здесь русский совпадает полностью.
+
 ::quiz
 ---
 questions:
@@ -109,6 +134,11 @@ questions:
 :pron{pl="Wracam z pracy."} — Я возвращаюсь с работы.
 :pron{pl="Według mnie to dobry pomysł."} — По-моему, это хорошая идея.
 
+<!-- review -->
+
+:pron{pl="Jestem z Rosji."} — Я из России.
+:pron{pl="Wszyscy są tu oprócz Marka."} — Все здесь, кроме Марека.
+
 ::quiz
 ---
 questions:
@@ -124,6 +154,52 @@ questions:
     q: "Wracam ze ___. (szkoła)"
     answer: szkoły
     explain: "z «из, с» + родительный: szkoła → szkoły. Перед группой согласных (szk-) z становится ze: ze szkoły, как русское «со школы»."
+---
+::
+
+<!-- review -->
+
+### Диалог: перед уроком
+
+- **Ola:** :pron{pl="Czego szukasz?"} — Что ты ищешь?
+- **Adam:** :pron{pl="Szukam słownika. Potrzebuję go na lekcję."} — Ищу словарь. Он мне нужен на урок.
+- **Ola:** :pron{pl="Uczysz się polskiego?"} — Ты учишь польский?
+- **Adam:** :pron{pl="Tak, i codziennie słucham polskiego radia."} — Да, и каждый день слушаю польское радио.
+- **Ola:** :pron{pl="Słownik jest obok komputera."} — Словарь рядом с компьютером.
+- **Adam:** :pron{pl="Dzięki! Czy według ciebie polski jest trudny?"} — Спасибо! По-твоему, польский трудный?
+- **Ola:** :pron{pl="Trochę. Boisz się gramatyki?"} — Немного. Ты боишься грамматики?
+- **Adam:** :pron{pl="Nie boję się, ale potrzebuję czasu."} — Не боюсь, но мне нужно время.
+
+## Типичные ошибки
+
+- *Słucham muzykę.* → :pron{pl="Słucham muzyki."} *słuchać* требует родительного, хотя русское «слушаю музыку» — винительный.
+- *Uczę się polski.* → :pron{pl="Uczę się polskiego."} *uczyć się* требует родительного, хотя русское «учу польский» — винительный.
+- *Używam słownikiem.* → :pron{pl="Używam słownika."} Русское «пользуюсь словарём» тянет к творительному, а *używać* требует родительного.
+- *Szukam pracę.* → :pron{pl="Szukam pracy."} Русское «ищу работу» — винительный, польское *szukać* — родительный.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Czego szukasz?
+    explain: "szukać + родительный, поэтому и вопрос — czego, а не co."
+  - type: choice
+    q: "___ potrzebujesz? (что)"
+    options: [Co, Czego, Czym]
+    answer: 1
+    explain: "potrzebować требует родительного, поэтому вопрос — czego: czego potrzebujesz?"
+  - type: input
+    q: "Jestem z ___. (Rosja)"
+    answer: Rosji
+    explain: "z «из» + родительный: Rosja → Rosji, как «из России»."
+  - type: input
+    q: "Często używam ___. (telefon)"
+    answer: telefonu
+    explain: "używać + родительный: telefon → telefonu, на -u. По-русски «пользуюсь телефоном» — творительный."
+  - type: translate
+    q: "Я пользуюсь словарём."
+    answer: ["Używam słownika.", "Ja używam słownika."]
+    explain: "używać + родительный: słownik → słownika. Русский творительный «словарём» здесь не годится."
 ---
 ::
 

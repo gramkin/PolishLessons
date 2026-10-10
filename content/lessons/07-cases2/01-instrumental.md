@@ -4,7 +4,7 @@ description: Кем и чем — падеж профессии, средств�
 chapter: 8
 order: 1
 level: A2
-words: [student, lekarz, zostac, autobus, pociag, pod, nad, miedzy]
+words: [student, lekarz, zostac, autobus, pociag, pod, nad, miedzy, kierowca, tramwaj, interesowac, zajmowac]
 ---
 
 <!-- review -->
@@ -31,6 +31,15 @@ rows:
 :pron{pl="Jestem studentem."} — Я студент.
 :pron{pl="Ona jest lekarzem."} — Она врач.
 :pron{pl="Chcę zostać nauczycielem."} — Я хочу стать учителем.
+
+<!-- review -->
+
+:pron{pl="Moja siostra jest nauczycielką."} — Моя сестра учительница.
+:pron{pl="Mój tata jest kierowcą."} — Мой папа водитель.
+
+Мужские слова на **-a** — *kierowca*, *kolega*, *poeta* — получают в творительном то же **-ą**, что и женские: *kierowcą*, *kolegą*, *poetą*. А спросить о профессии можно творительным от *kto*:
+
+:pron{pl="Kim jesteś z zawodu?"} — Кто ты по профессии?
 
 Русский тоже знает эту конструкцию — «он стал учителем», «работает врачом», — но только с некоторыми глаголами. Польский применяет её всегда, когда после :pl-word{id="byc"} или :pl-word{id="zostac"} стоит существительное.
 
@@ -61,6 +70,14 @@ questions:
 :pron{pl="Jadę pociągiem."} — Я еду на поезде.
 :pron{pl="Piszę ołówkiem."} — Я пишу карандашом.
 
+<!-- review -->
+
+:pron{pl="Jem zupę łyżką."} — Я ем суп ложкой.
+:pron{pl="Jadę do pracy tramwajem."} — Я еду на работу на трамвае.
+:pron{pl="Czym jedziesz do domu?"} — На чём ты едешь домой?
+
+Вопрос «на чём?» — тоже творительный, от *co*: **czym?**
+
 Обратите внимание на транспорт: русский говорит «на автобусе», польский — просто творительный, без предлога.
 
 И на окончание: после **k** и **g** вместо *-em* пишется **-iem** — *ołówek → ołówkiem*, *pociąg → pociągiem*, *łóżko → łóżkiem*.
@@ -90,9 +107,14 @@ questions:
 :pron{pl="Idę z bratem."} — Я иду с братом.
 :pron{pl="Kawa z mlekiem."} — Кофе с молоком.
 
+<!-- review -->
+
+:pron{pl="Mieszkam z kolegą."} — Я живу с другом.
+:pron{pl="Poproszę kanapkę z serem."} — Мне, пожалуйста, бутерброд с сыром.
+
 Запомните это отдельно: в седьмой главе :pl-word{id="z"} шёл с родительным и значил «из, с» — *wracam z pracy*. С творительным он значит «вместе с». Один предлог, два падежа, два смысла.
 
-Местоимения после *z* тоже стоят в творительном: *ze mną, z tobą, z nim, z nią, z nami, z wami, z nimi*. Перед *mną* и перед группой согласных *z* становится **ze**, как русское «со мной».
+Местоимения после *z* тоже стоят в творительном: *ze mną, z tobą, z nim, z nią, z nami, z wami, z nimi*. Перед *mną* и перед словами, которые начинаются с *z, s, ś, ż, sz, rz* и ещё одного согласного, *z* становится **ze**, как русское «со мной»: *ze mną, ze szkołą, ze zdjęciem* — но *z bratem, z kolegą*.
 
 :pron{pl="Idziesz ze mną?"} — Пойдёшь со мной?
 
@@ -120,12 +142,30 @@ questions:
 ---
 ::
 
+## Interesować się и zajmować się
+
+<!-- review -->
+
+Два частых глагола требуют творительного точно так же, как их русские соседи «интересоваться чем» и «заниматься чем». Здесь интуиция не подводит:
+
+:pron{pl="Interesuję się muzyką."} — Я интересуюсь музыкой.
+:pron{pl="Czym się zajmujesz?"} — Чем ты занимаешься?
+:pron{pl="Mój brat interesuje się historią."} — Мой брат интересуется историей.
+
 ## Предлоги места
 
 :pl-word{id="pod"}, :pl-word{id="nad"}, :pl-word{id="miedzy"}, *przed* и *za* в значении местоположения («где?») тоже берут творительный. При движении («куда?») *pod*, *nad*, *przed* и *za* требуют винительного — об этом в уроке 8.5.
 
 :pron{pl="Kot śpi pod stołem."} — Кот спит под столом.
 :pron{pl="Obraz wisi nad łóżkiem."} — Картина висит над кроватью.
+
+<!-- review -->
+
+:pron{pl="Sklep jest za rogiem."} — Магазин за углом.
+:pron{pl="Czekam na ciebie przed kinem."} — Я жду тебя перед кинотеатром.
+:pron{pl="Między domem a sklepem jest park."} — Между домом и магазином есть парк.
+
+После *między* два предмета обычно соединяют союзом **a**: *między domem a sklepem*. *I* тоже встречается, но *a* — норма.
 
 ::quiz
 ---
@@ -143,6 +183,54 @@ questions:
     q: "Czekam przed ___. (dom)"
     answer: domem
     explain: "przed «перед» о месте — творительный: przed domem."
+---
+::
+
+## Диалог: знакомство
+
+<!-- review -->
+
+- **Ola:** :pron{pl="Cześć! Kim jesteś z zawodu?"} — Привет! Кто ты по профессии?
+- **Tomek:** :pron{pl="Jestem lekarzem. A ty?"} — Я врач. А ты?
+- **Ola:** :pron{pl="Jestem nauczycielką, ale chcę zostać tłumaczką."} — Я учительница, но хочу стать переводчицей.
+- **Tomek:** :pron{pl="Czym jedziesz do domu?"} — На чём ты едешь домой?
+- **Ola:** :pron{pl="Tramwajem. A ty?"} — На трамвае. А ты?
+- **Tomek:** :pron{pl="Rowerem, bo mieszkam niedaleko."} — На велосипеде, потому что живу недалеко.
+- **Ola:** :pron{pl="Idziesz z nami na kawę?"} — Пойдёшь с нами на кофе?
+- **Tomek:** :pron{pl="Chętnie! Lubię kawę z mlekiem."} — С удовольствием! Я люблю кофе с молоком.
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Jestem student.* → :pron{pl="Jestem studentem."} Существительное после *być* — в творительном, а не в именительном, как в русском «я студент».
+- *Jadę na autobusie.* → :pron{pl="Jadę autobusem."} Транспорт — творительный без предлога; «на автобусе» по-польски не говорят.
+- *Ona jest zmęczoną.* → :pron{pl="Ona jest zmęczona."} Творительный нужен только существительному; прилагательное после *być* остаётся в именительном.
+- *To jest studentem.* → :pron{pl="To jest student."} Выучив правило про *być*, его легко перенести и на *to jest*. Но после *to* существительное остаётся в именительном.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Mój tata jest ___. (kierowca)"
+    answer: kierowcą
+    explain: "Мужские слова на -a в творительном получают -ą, как женские: kierowca → kierowcą. По-русски «водителем» — с другим окончанием, но тот же падеж."
+  - type: choice
+    q: "«Кто ты по профессии?» — это…"
+    options: ["Kto jesteś z zawodu?", "Kim jesteś z zawodu?", "Kogo jesteś z zawodu?"]
+    answer: 1
+    explain: "После być нужен творительный, в том числе у вопросительного слова: kto → kim. Русский здесь говорит «кто», а польский — «кем»."
+  - type: input
+    q: "Sklep jest za ___. (róg)"
+    answer: rogiem
+    explain: "za о месте — творительный; после g пишется -iem, а ó в основе переходит в o: róg → za rogiem, «за углом»."
+  - type: translate
+    q: Я интересуюсь музыкой.
+    answer: [Interesuję się muzyką., Ja interesuję się muzyką.]
+    explain: "interesować się, как и «интересоваться», требует творительного: muzyka → muzyką."
+  - type: listen
+    text: Jadę do pracy tramwajem.
+    explain: "Транспорт — творительный без предлога: tramwajem. Куда — do + родительный: do pracy."
 ---
 ::
 

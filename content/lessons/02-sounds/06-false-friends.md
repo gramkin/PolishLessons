@@ -37,6 +37,16 @@ words: [miasto, uroda, sklep, dywan, zapomniec, owoc, zakaz, czas, list, dworzec
 
 :false-friend{id="zawod"}
 
+<!-- review -->
+
+В коротких фразах ложного друга легко пропустить, потому что всё остальное понятно:
+
+- :pron{pl="To jest sklep." ru="то ест склэп"} — Это магазин.
+- :pron{pl="Moja rodzina" ru="мо́я родзи́на"} — Моя семья
+- :pron{pl="Owoce i warzywa" ru="ово́цэ и важы́ва"} — Фрукты и овощи
+- :pron{pl="Jutro rano" ru="ю́тро ра́но"} — Завтра утром
+- :pron{pl="Nie mam czasu." ru="нье мам ча́су"} — У меня нет времени.
+
 ## В быту и в городе
 
 ::compare-table
@@ -54,6 +64,13 @@ rows:
   - [wieś, «весь», "деревня"]
 ---
 ::
+
+<!-- review -->
+
+- :pron{pl="Dworzec jest tam." ru="дво́жэц ест там"} — Вокзал там.
+- :pron{pl="Zakaz palenia" ru="за́кас палэ́ня"} — Курить запрещено (табличка)
+- :pron{pl="Mój pokój" ru="муй по́куй"} — Моя комната
+- :pron{pl="List od mamy" ru="лист от ма́мы"} — Письмо от мамы
 
 Послушать и открыть карточку: :pl-word{id="dworzec"}, :pl-word{id="zakaz"}, :pl-word{id="pokoj"}, :pl-word{id="dynia"}, :pl-word{id="list"}, :pl-word{id="czaszka"}, :pl-word{id="wesele"}, :pl-word{id="wies"}.
 
@@ -82,6 +99,19 @@ rows:
 
 Послушать и открыть карточку: :pl-word{id="rok"}, :pl-word{id="nagle"}, :pl-word{id="zachod"}, :pl-word{id="brak"}, :pl-word{id="sprawa"}, :pl-word{id="zdanie"}, :pl-word{id="obraz"}, :pl-word{id="powiesc-noun"}, :pl-word{id="pytac"}, :pl-word{id="stac"}, :pl-word{id="zalowac"}, :pl-word{id="won"}, :pl-word{id="duma"}.
 
+<!-- review -->
+
+### Читаем вслух
+
+- :pron{pl="Nowa powieść" ru="но́ва по́вьесьць"} — Новый роман
+- :pron{pl="Piękny obraz" ru="пье́нкны о́брас"} — Красивая картина
+- :pron{pl="Dobre zdanie" ru="до́брэ зда́нье"} — Хорошее предложение
+- :pron{pl="Ważna sprawa" ru="ва́жна спра́ва"} — Важное дело
+- :pron{pl="Zupa z dyni" ru="зу́па з ды́ни"} — Тыквенный суп
+- :pron{pl="Duże lustro" ru="ду́жэ лу́стро"} — Большое зеркало
+- :pron{pl="Nowy dywan" ru="но́вы ды́ван"} — Новый ковёр
+- :pron{pl="Zachód słońca" ru="за́хут суо́ньца"} — Закат
+
 Все ложные друзья собраны в [словаре](/vocabulary) (фильтр «Только ложные друзья») и в [карточках](/flashcards).
 
 ::quiz
@@ -99,6 +129,53 @@ questions:
   - type: listen
     text: list
     explain: "list — «письмо», а не «лист»."
+---
+::
+
+<!-- review -->
+
+## Типичные ошибки
+
+- *dywan* в значении «диван» → :pron{pl="kanapa" ru="кана́па"}. dywan — это ковёр, а диван по-польски kanapa или sofa.
+- *magazyn* в значении «магазин» → :pron{pl="sklep" ru="склэп"}. Польский magazyn — это склад или журнал.
+- *Nie ma miasta.* в значении «нет места» → :pron{pl="Nie ma miejsca." ru="нье ма мье́йсца"}. miasto — «город», а «место» — miejsce.
+- *jutro* в значении «утро» → :pron{pl="rano" ru="ра́но"}. jutro — «завтра», а «утро» и «утром» — rano.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: Dworzec — это…
+    options: [дворец, вокзал, двор]
+    answer: 1
+    explain: "dworzec — «вокзал». Дворец — pałac, двор — podwórko."
+  - type: choice
+    q: Как по-польски «запомнить»?
+    options: [zapomnieć, zapamiętać]
+    answer: 1
+    explain: "zapamiętać — «запомнить», а zapomnieć — ровно наоборот, «забыть»."
+  - type: choice
+    q: Dynia — это…
+    options: [дыня, тыква]
+    answer: 1
+    explain: "dynia — «тыква». Дыня по-польски melon."
+  - type: input
+    q: Как по-польски «город»?
+    answer: miasto
+    explain: "«Город» — miasto, хотя оно похоже на «место». Место — miejsce."
+  - type: listen
+    text: jutro
+    explain: "j — «й», вместе с u даёт «ю»: jutro. И значит оно «завтра», а не «утро»."
+  - type: match
+    q: Соедините слова
+    pairs:
+      - [zakaz, запрет]
+      - [pokój, комната]
+      - [list, письмо]
+      - [rok, год]
+      - [wesele, свадьба]
+      - [czaszka, череп]
+    explain: "Все шесть похожи на русские «заказ», «покой», «лист», «рок», «веселье», «чашка», но значат другое."
 ---
 ::
 

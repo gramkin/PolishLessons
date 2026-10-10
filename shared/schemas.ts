@@ -192,6 +192,19 @@ export const quizSchema = z
           message: 'answer index out of range',
         })
       }
+      // An unquoted YAML flow list splits a sentence at its comma: [Mamo, gdzie jesteś?] is two
+      // "answers", the second starting in lower case. A whole translation starts as its prompt does.
+      if (q.type === 'translate' && /^\p{Lu}/u.test(q.q)) {
+        const answers = Array.isArray(q.answer) ? q.answer : [q.answer]
+        answers.forEach((answer, j) => {
+          if (/^\p{Ll}/u.test(answer))
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              path: [i, 'answer', j],
+              message: `"${answer}" looks like part of a sentence split at a comma; quote the answer`,
+            })
+        })
+      }
     })
   })
 
@@ -215,6 +228,8 @@ export const drillSchema = z.object({
   cells: z.array(drillCellSchema).min(1),
   // Case-insensitive regex the Polish sentence must contain (e.g. a negation).
   require: z.string().optional(),
+  // Case-insensitive regex the text after the gap must match: the noun an adjective agrees with.
+  requireAfter: z.string().optional(),
   // Only these card ids, for drills on a closed list of words.
   cards: z.array(text).optional(),
   // Only sentences from Tatoeba, whose forms come from real text, not from a generated table.
@@ -222,8 +237,15 @@ export const drillSchema = z.object({
   // Only verbs of this aspect, for drills on the simple future.
   aspect: z.enum(['imperf', 'perf']).optional(),
   maxRank: z.number().int().positive().default(3000),
-  // `person` adds who the verb form is for («я (ж.)», «они (без мужчин)»).
-  hint: z.enum(['lemma', 'person']).default('lemma'),
+  // `person` adds who the verb form is for («я (ж.)», «они (без мужчин)»); `aspect` shows both
+  // members of the aspect pair (imperfective first) and the person, so the learner picks the aspect.
+  hint: z.enum(['lemma', 'person', 'aspect']).default('lemma'),
+  // A form may fill several cells, as long as every one is a cell the drill asks for: adjective
+  // endings are shared across genders and cases, and the noun beside the gap decides. A form
+  // equal to the lemma is skipped, since the hint would give it away.
+  syncretic: z.boolean().default(false),
+  // `gender` ignores the sentences and asks for ten / ta / to before each noun's lemma.
+  kind: z.enum(['form', 'gender']).default('form'),
 })
 
 export const drillFileSchema = z.object({ drills: z.array(drillSchema).min(1) })

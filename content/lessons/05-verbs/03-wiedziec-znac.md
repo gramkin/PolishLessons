@@ -29,11 +29,23 @@ rows:
 :pron{pl="Wiem, że mieszkasz w Krakowie."} — Я знаю, что ты живёшь в Кракове.
 :pron{pl="Nie wiem, gdzie on jest."} — Я не знаю, где он.
 
-Спряжение нерегулярное, четвёртое спряжение: *wiem, wiesz, wie, wiemy, wiecie, wiedzą*.
+<!-- review -->
+
+:pron{pl="Wiesz, która jest godzina?"} — Ты знаешь, который час?
+:pron{pl="Oni nie wiedzą, gdzie jest dworzec."} — Они не знают, где вокзал.
+:pron{pl="Nie wiem."} — Не знаю.
+
+Последняя фраза отвечает на любой вопрос о факте. Ответить *nie znam* на «где вокзал?» нельзя: это «я с ним не знаком».
+
+Это четвёртое спряжение, и формы надо запомнить: *wiem, wiesz, wie, wiemy, wiecie, wiedzą*.
 
 По тому же образцу, но с «они» на **-eją**, спрягается :pl-word{id="rozumiec"} «понимать»: *rozumiem, rozumiesz, rozumie, rozumiemy, rozumiecie, rozumieją*. Самая нужная фраза с ним:
 
 :pron{pl="Nie rozumiem."} — Я не понимаю.
+
+<!-- review -->
+
+:pron{pl="Rozumiesz po polsku?"} — Ты понимаешь по-польски?
 
 ::quiz
 ---
@@ -60,6 +72,11 @@ questions:
 
 :pron{pl="Znam Toma."} — Я знаю Тома.
 :pron{pl="Znam to miasto."} — Я знаю этот город.
+
+<!-- review -->
+
+:pron{pl="Znasz moją siostrę?"} — Ты знаешь мою сестру?
+:pron{pl="Ona dobrze zna Warszawę."} — Она хорошо знает Варшаву.
 
 Язык можно и «знать», и «говорить» на нём, как в русском: :pron{pl="Znam polski."} и :pron{pl="Mówię po polsku."}
 
@@ -89,7 +106,15 @@ questions:
 
 ## Umieć — о навыке
 
-:pl-word{id="umiec"} — это русское «уметь»: *Umiem pływać* «Я умею плавать». Не путайте с *móc* «мочь», о котором следующий урок.
+:pl-word{id="umiec"} — это русское «уметь», и после него, как в русском, идёт инфинитив. Не путайте с *móc* «мочь», о котором следующий урок.
+
+<!-- review -->
+
+:pron{pl="Umiem pływać."} — Я умею плавать.
+:pron{pl="Umiesz gotować?"} — Ты умеешь готовить?
+:pron{pl="Mój syn już umie czytać."} — Мой сын уже умеет читать.
+
+Спряжение то же, что у *rozumieć*: *umiem, umiesz, umie, umiemy, umiecie, umieją*.
 
 ::quiz
 ---
@@ -128,6 +153,57 @@ questions:
     options: [wiedzą, znają, umieją]
     answer: 2
     explain: "Плавать — навык, поэтому umieć: umieją."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Ania:** :pron{pl="Znasz Marka?"} — Ты знаешь Марека?
+- **Tomek:** :pron{pl="Tak, znam go dobrze."} — Да, я его хорошо знаю.
+- **Ania:** :pron{pl="Wiesz, gdzie on mieszka?"} — Ты знаешь, где он живёт?
+- **Tomek:** :pron{pl="Nie wiem, ale wiem, gdzie pracuje."} — Не знаю, но знаю, где он работает.
+- **Ania:** :pron{pl="Czy on umie grać na gitarze?"} — А он умеет играть на гитаре?
+- **Tomek:** :pron{pl="Tak, i bardzo dobrze śpiewa."} — Да, и очень хорошо поёт.
+- **Ania:** :pron{pl="Super! W sobotę mamy koncert."} — Отлично! В субботу у нас концерт.
+- **Tomek:** :pron{pl="Nie wiem, czy on ma czas. Rozumiesz, dużo pracuje."} — Не знаю, есть ли у него время. Понимаешь, он много работает.
+
+Русское «знать» в диалоге переводится двумя польскими глаголами: человека знают (*znam go*), факт — ведают (*wiem, gdzie*). Русское «ли» в косвенном вопросе — это *czy*: *nie wiem, czy…*
+
+## Типичные ошибки
+
+<!-- lexicon-ok: rozumię -->
+
+- *Znam, że on jest w domu.* → :pron{pl="Wiem, że on jest w domu."} После *znać* не бывает придаточного с *że* или вопросительным словом: факт — это *wiedzieć*.
+- *Wiem Toma.* → :pron{pl="Znam Toma."} Человека, город, язык «знают» глаголом *znać*.
+- *Wiem pływać.* → :pron{pl="Umiem pływać."} Навык с инфинитивом — *umieć*, как русское «уметь».
+- *Rozumię.* → :pron{pl="Rozumiem."} rozumieć идёт по IV спряжению: *rozumiem, rozumiesz*, «я» на **-em**.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Nie wiem, gdzie jest dworzec.
+    explain: "«Где вокзал» — факт, поэтому wiedzieć: nie wiem."
+  - type: choice
+    q: "___ grać na gitarze?"
+    options: [Wiesz, Znasz, Umiesz]
+    answer: 2
+    explain: "Играть на гитаре — навык с инфинитивом, поэтому umieć: umiesz grać."
+  - type: input
+    q: "Nie wiem, ___ on ma czas. (ли)"
+    answer: czy
+    explain: "Русское «ли» в косвенном вопросе — czy: nie wiem, czy on ma czas, «не знаю, есть ли у него время»."
+  - type: choice
+    q: "Oni bardzo dobrze ___ Kraków."
+    options: [wiedzą, znają, umieją]
+    answer: 1
+    explain: "Город — прямое дополнение, его знают лично: znają Kraków."
+  - type: translate
+    q: "Ты знаешь, где он работает?"
+    answer: ["Wiesz, gdzie on pracuje?", "Czy wiesz, gdzie on pracuje?", "Wiesz, gdzie pracuje?", "Czy wiesz, gdzie pracuje?", "Ty wiesz, gdzie on pracuje?"]
+    explain: "Знать факт с вопросительным словом gdzie — wiedzieć: wiesz, gdzie."
 ---
 ::
 

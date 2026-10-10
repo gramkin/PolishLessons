@@ -44,12 +44,22 @@ rows:
 
 Принадлежность выражают, как и в русском, родительным после существительного: :pron{pl="książka brata"} — книга брата.
 
+<!-- review -->
+
+:pron{pl="To jest samochód taty."} — Это машина папы.
+:pron{pl="To jest dom babci."} — Это дом бабушки.
+
 ## Nie ma — «нет»
 
 Самый частый случай. Оборот **nie ma** значит «нет» в смысле отсутствия, и требует родительного:
 
 :pron{pl="Nie ma czasu."} — Нет времени.
 :pron{pl="Nie ma chleba."} — Нет хлеба.
+
+<!-- review -->
+
+:pron{pl="Tu nie ma sklepu."} — Здесь нет магазина.
+:pron{pl="Mamy nie ma w domu."} — Мамы нет дома.
 
 Русский делает ровно то же: «нет времени», «нет хлеба». Это тот случай, когда думать не нужно — работает интуиция.
 
@@ -77,7 +87,12 @@ questions:
 После слов :pl-word{id="duzo"}, :pl-word{id="malo"}, :pl-word{id="troche"}, :pl-word{id="kilka"}, :pl-word{id="wiele"} идёт родительный:
 
 :pron{pl="Mam dużo czasu."} — У меня много времени.
-:pron{pl="Kupiłem trochę chleba."} — Я купил немного хлеба.
+:pron{pl="Kupuję trochę chleba."} — Я покупаю немного хлеба.
+
+<!-- review -->
+
+:pron{pl="Mam mało czasu."} — У меня мало времени.
+:pron{pl="Poproszę trochę mleka."} — Немного молока, пожалуйста.
 
 ::quiz
 ---
@@ -105,7 +120,7 @@ questions:
 :pron{pl="Mam pięć książek."} — У меня пять книг.
 :pron{pl="Sześć kotów."} — Шесть котов.
 
-И снова русский устроен так же: «пять книг», «шесть котов». Родительный множественного у мужских чаще всего на **-ów** (*kotów*, *domów*), а у женских и средних нередко «пустой», без окончания: *książek*, *okien*. А вот после **dwa, trzy, cztery** стоит именительный множественного: :pron{pl="dwa koty"}, :pron{pl="trzy książki"}. По-русски здесь родительный единственного — «два кота», «три книги», — так что в этом месте интуиция подводит.
+И снова русский устроен так же: «пять книг», «шесть котов». Родительный множественного у мужских чаще всего на **-ów** (*kotów*, *domów*), а у женских и средних нередко «пустой», без окончания: *książek*, *okien*. А вот после **dwa, trzy, cztery** у животных и вещей стоит именительный множественного: :pron{pl="dwa koty"}, :pron{pl="trzy książki"}. По-русски здесь родительный единственного — «два кота», «три книги», — так что в этом месте интуиция подводит.
 
 ::quiz
 ---
@@ -135,6 +150,14 @@ questions:
 :pron{pl="To jest dla brata."} — Это для брата.
 :pron{pl="Kawa bez cukru."} — Кофе без сахара.
 
+<!-- review -->
+
+:pron{pl="Idę do lekarza."} — Я иду к врачу.
+:pron{pl="Mam list od mamy."} — У меня письмо от мамы.
+:pron{pl="Jadę do Krakowa."} — Я еду в Краков.
+
+Последний пример — главное расхождение с русским. Ехать в город по-польски — *do* с родительным: *do Krakowa*, *do Warszawy*. Русское «в Краков» с винительным здесь не годится.
+
 ::quiz
 ---
 questions:
@@ -151,6 +174,54 @@ questions:
     options: [lekarz, lekarza, lekarzem]
     answer: 1
     explain: "od «от» + родительный: od lekarza, «от врача»."
+---
+::
+
+<!-- review -->
+
+### Диалог: что купить
+
+- **Marek:** :pron{pl="Nie ma chleba!"} — Хлеба нет!
+- **Ewa:** :pron{pl="Wiem. I nie ma mleka."} — Знаю. И молока нет.
+- **Marek:** :pron{pl="Idę do sklepu. Co kupić?"} — Я иду в магазин. Что купить?
+- **Ewa:** :pron{pl="Chleb, mleko i trochę sera."} — Хлеб, молоко и немного сыра.
+- **Marek:** :pron{pl="A kawę?"} — А кофе?
+- **Ewa:** :pron{pl="Kawy mamy dużo. Możesz kupić herbatę dla mamy?"} — Кофе у нас много. Можешь купить чай для мамы?
+- **Marek:** :pron{pl="A dla ciebie?"} — А тебе?
+- **Ewa:** :pron{pl="Dla mnie nic, dziękuję."} — Мне ничего, спасибо.
+
+Обратите внимание на пару *chleb, mleko* (винительный после «купить») и *trochę sera*, *kawy dużo* (родительный после слов количества).
+
+## Типичные ошибки
+
+- *Jadę w Kraków.* → :pron{pl="Jadę do Krakowa."} В город едут с *do* и родительным, а не с *w* и винительным, как в русском.
+- *Nie ma czas.* → :pron{pl="Nie ma czasu."} После *nie ma* — только родительный.
+- *dwa kotów* → :pron{pl="dwa koty"} После 2, 3, 4 у животных и вещей стоит именительный множественного; родительный — от пяти.
+- *Kawa bez cukier.* → :pron{pl="Kawa bez cukru."} *bez* всегда требует родительного, а *cukier* берёт **-u** и теряет беглое **e**.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Mamy nie ma w domu.
+    explain: "Отсутствие человека — nie ma + родительный: mama → mamy. Не путайте с mamy «у нас есть»: здесь это родительный от mama."
+  - type: input
+    q: "Jadę do ___. (Kraków)"
+    answer: Krakowa
+    explain: "do + родительный: Kraków → Krakowa, ó переходит в o. По-русски «в Краков», с винительным."
+  - type: choice
+    q: "To jest samochód ___. (tata)"
+    options: [tata, taty, tatę]
+    answer: 1
+    explain: "Принадлежность — родительный: tata → taty, «машина папы». Мужские слова на -a склоняются как женские."
+  - type: input
+    q: "Idę do ___. (lekarz)"
+    answer: lekarza
+    explain: "do + родительный: lekarz → lekarza, «к врачу». Русское «к» с дательным здесь не подходит."
+  - type: translate
+    q: "Здесь нет магазина."
+    answer: ["Tu nie ma sklepu.", "Nie ma tu sklepu.", "Tutaj nie ma sklepu.", "Nie ma tutaj sklepu."]
+    explain: "nie ma + родительный: sklep → sklepu, на -u, как czasu."
 ---
 ::
 

@@ -24,6 +24,11 @@ rows:
 
 Это первая конструкция, которую приходится перестраивать целиком, а не переводить по словам. Дословное *u mnie jest* по-польски существует, но значит другое — «находится у меня, у меня дома»: :pron{pl="Klucz jest u mnie."} — Ключ у меня.
 
+<!-- review -->
+
+:pron{pl="Mam brata i siostrę."} — У меня есть брат и сестра.
+:pron{pl="Masz czas w sobotę?"} — У тебя есть время в субботу?
+
 ::quiz
 ---
 questions:
@@ -47,6 +52,14 @@ questions:
 ## Спряжение
 
 *mam, masz, ma, mamy, macie, mają* — третье спряжение, самое простое. Неправилен только инфинитив: *mieć*, хотя формы идут как у *czytać*.
+
+<!-- review -->
+
+:pron{pl="Ona ma kota."} — У неё есть кот.
+:pron{pl="Macie dzieci?"} — У вас есть дети?
+:pron{pl="Oni mają duży dom."} — У них большой дом.
+
+Русское «у неё», «у вас», «у них» превращается в подлежащее *ona*, *wy*, *oni*, а глагол спрягается по лицам.
 
 ::quiz
 ---
@@ -99,6 +112,11 @@ questions:
 :pron{pl="Mam czas."} → :pron{pl="Nie mam czasu."}
 :pron{pl="Mam psa."} → :pron{pl="Nie mam psa."}
 
+<!-- review -->
+
+:pron{pl="Nie mam siostry."} — У меня нет сестры.
+:pron{pl="Nie mamy samochodu."} — У нас нет машины.
+
 Русский делает то же самое («нет времени», «нет собаки»), так что правило знакомое — просто в польском оно обязательно и в случае с *mieć*.
 
 ## Возраст — тоже через mieć
@@ -107,6 +125,22 @@ questions:
 
 :pron{pl="Ile masz lat?"} — Сколько тебе лет?
 :pron{pl="Mam dwadzieścia lat."} — Мне двадцать лет.
+
+<!-- review -->
+
+:pron{pl="Mój brat ma dziesięć lat."} — Моему брату десять лет.
+
+После *pięć* и больше говорят *lat*, а после *dwa, trzy, cztery* — *lata*; подробно об этом урок 13.4.
+
+## Mieć в устойчивых выражениях
+
+Многие русские обороты по-польски тоже строятся через *mieć*. Их удобно выучить целиком:
+
+:pron{pl="Mam rację."} — Я прав.
+:pron{pl="Mam nadzieję."} — Я надеюсь.
+:pron{pl="Mam ochotę na kawę."} — Мне хочется кофе.
+
+Дословно «я имею правоту», «я имею надежду», «я имею охоту на кофе». Русское «мне хочется» снова безличное, а польское — личное: *mam ochotę*, *masz ochotę*.
 
 ::quiz
 ---
@@ -124,6 +158,51 @@ questions:
     options: [kot, kota]
     answer: 1
     explain: "У одушевлённых винительный уже равен родительному, поэтому kota остаётся kota."
+---
+::
+
+<!-- review -->
+
+### Диалог
+
+- **Ola:** :pron{pl="Masz brata albo siostrę?"} — У тебя есть брат или сестра?
+- **Marek:** :pron{pl="Mam siostrę."} — У меня есть сестра.
+- **Ola:** :pron{pl="Ile ona ma lat?"} — Сколько ей лет?
+- **Marek:** :pron{pl="Dwadzieścia. A ty masz rodzeństwo?"} — Двадцать. А у тебя есть братья или сёстры?
+- **Ola:** :pron{pl="Mam brata. On ma psa i kota."} — У меня есть брат. У него собака и кот.
+- **Marek:** :pron{pl="A ja nie mam psa."} — А у меня нет собаки.
+- **Ola:** :pron{pl="Masz jutro czas?"} — У тебя завтра есть время?
+- **Marek:** :pron{pl="Niestety nie. Mam dużo pracy."} — К сожалению, нет. У меня много работы.
+
+## Типичные ошибки
+
+- *U mnie jest brat.* → :pron{pl="Mam brata."} Владение по-польски выражают глаголом *mieć*. *U mnie jest* значит «находится у меня»: *klucz jest u mnie*.
+- *Mnie jest dwadzieścia lat.* → :pron{pl="Mam dwadzieścia lat."} Возраст тоже «имеют»; русское «мне двадцать лет» дословно не переводится.
+- *Nie mam czas.* → :pron{pl="Nie mam czasu."} После *nie mam* дополнение всегда в родительном падеже.
+
+::quiz
+---
+questions:
+  - type: listen
+    text: Nie mam czasu.
+    explain: "Отрицание переводит дополнение в родительный: czas → czasu."
+  - type: input
+    q: "Ile ___ lat? (mieć, ty)"
+    answer: masz
+    explain: "Возраст спрашивают через mieć: ile masz lat — «сколько тебе лет»."
+  - type: input
+    q: "Ona nie ma ___. (brat)"
+    answer: brata
+    explain: "После отрицания — родительный, а у одушевлённого brat он совпадает с винительным: brata."
+  - type: choice
+    q: "«Я надеюсь» — это…"
+    options: ["Mam nadzieję.", "Jest mi nadzieja.", "U mnie nadzieja."]
+    answer: 0
+    explain: "Устойчивое выражение с mieć: mam nadzieję, дословно «имею надежду»."
+  - type: translate
+    q: "Мне двадцать лет."
+    answer: ["Mam dwadzieścia lat.", "Ja mam dwadzieścia lat."]
+    explain: "Возраст — через mieć: mam dwadzieścia lat, «я имею двадцать лет»."
 ---
 ::
 

@@ -4,7 +4,7 @@ description: Кому и чему — и глаголы, которые в ру�
 chapter: 8
 order: 3
 level: A2
-words: [pomagac, dziekowac, dawac, wierzyc, ufac, przeszkadzac]
+words: [pomagac, dziekowac, dawac, wierzyc, ufac, przeszkadzac, gratulowac]
 ---
 
 <!-- review -->
@@ -32,6 +32,13 @@ rows:
 :pron{pl="Mówię to koledze."} — Я говорю это приятелю.
 
 Мужской род берёт длинное **-owi**, и это первое, что бросается в глаза: не *studentu*, а *studentowi*. Исключений немного, но они частые: **brat → bratu**, **pan → panu**, **ojciec → ojcu**, **pies → psu**. Поэтому в первом примере — *bratu*.
+
+<!-- review -->
+
+:pron{pl="Kupuję synowi rower."} — Я покупаю сыну велосипед.
+:pron{pl="Daję psu wodę."} — Я даю собаке воду.
+:pron{pl="Czytam dziecku bajkę."} — Я читаю ребёнку сказку.
+:pron{pl="Pokazuję koleżance zdjęcie."} — Я показываю подруге фотографию.
 
 Женский дательный учить заново не нужно: он совпадает с предложным из прошлого урока — *mamie*, *siostrze*, *pracy*. Средний род берёт **-u**: *miasto → miastu*. Мужские слова на **-a** (*kolega*, *tata*) склоняются как женские: *koledze*, *tacie*.
 
@@ -73,6 +80,15 @@ questions:
 :pron{pl="Dziękuję panu."} — Благодарю вас.
 
 По-русски «благодарю тебя» — винительный. По-польски только дательный: *dziękuję ci*, никогда *dziękuję cię*.
+
+<!-- review -->
+
+Так же устроен :pl-word{id="gratulowac"} — «поздравлять (с успехом)». Русский поздравляет кого — винительный, а польский *gratulować* требует «кому» — дательного:
+
+:pron{pl="Gratuluję ci!"} — Поздравляю тебя!
+:pron{pl="Gratuluję panu!"} — Поздравляю вас!
+
+А «советовать» в обоих языках с дательным: :pron{pl="Radzę ci odpocząć."} — Советую тебе отдохнуть.
 
 ::quiz
 ---
@@ -126,7 +142,7 @@ questions:
     q: "Pomóż ___! (ja)"
     options: [mnie, mi, mną]
     answer: 1
-    explain: "pomagać / pomóc + дательный; без ударения — короткая форма mi: pomóż mi, «помоги мне». Mną — творительный."
+    explain: "pomagać / pomóc + дательный; без ударения — короткая форма mi: pomóż mi, «помоги мне». Ударное mnie здесь тоже дательный, но его берут, только чтобы подчеркнуть «именно мне». Mną — творительный."
   - type: input
     q: "Dziękuję ___. (on)"
     answer: mu
@@ -145,6 +161,11 @@ questions:
 
 Здесь языки согласны: оба требуют дательного.
 
+<!-- review -->
+
+:pron{pl="Hałas mi przeszkadza."} — Мне мешает шум.
+:pron{pl="Nie przeszkadzam?"} — Я не мешаю?
+
 ::quiz
 ---
 questions:
@@ -160,6 +181,65 @@ questions:
 ---
 ::
 
+## Мне холодно: дательный состояния
+
+<!-- review -->
+
+Как и в русском, дательный называет того, кто что-то чувствует: «мне холодно», «мне грустно». Польский строит такие фразы так же — иногда с *jest*, иногда без него:
+
+:pron{pl="Zimno mi."} — Мне холодно.
+:pron{pl="Jest mi smutno."} — Мне грустно.
+:pron{pl="Brakuje mi czasu."} — Мне не хватает времени.
+
+И предлог **dzięki** «благодаря» тоже требует дательного, как в русском: :pron{pl="Dzięki tobie mam dobrą pracę."} — Благодаря тебе у меня хорошая работа.
+
+## Диалог: подарки
+
+<!-- review -->
+
+- **Paweł:** :pron{pl="Możesz mi pomóc?"} — Можешь мне помочь?
+- **Ewa:** :pron{pl="Jasne. W czym?"} — Конечно. В чём?
+- **Paweł:** :pron{pl="Mama ma urodziny. Co jej kupić?"} — У мамы день рождения. Что ей купить?
+- **Ewa:** :pron{pl="Kup jej książkę. Ona lubi czytać."} — Купи ей книгу. Она любит читать.
+- **Paweł:** :pron{pl="Dobry pomysł. A co kupić tacie?"} — Хорошая идея. А что купить папе?
+- **Ewa:** :pron{pl="Kup mu dobrą kawę."} — Купи ему хороший кофе.
+- **Paweł:** :pron{pl="Bardzo ci dziękuję!"} — Большое тебе спасибо!
+- **Ewa:** :pron{pl="Nie ma za co."} — Не за что.
+
+## Типичные ошибки
+
+<!-- review -->
+
+- *Dziękuję cię.* → :pron{pl="Dziękuję ci."} «Благодарю тебя» — винительный, но *dziękować* требует дательного.
+- *Gratuluję cię.* → :pron{pl="Gratuluję ci."} Та же ловушка: «поздравляю тебя», но *gratulować* кому — дательный.
+- *Daję książkę studentu.* → :pron{pl="Daję książkę studentowi."} Обычное мужское окончание — **-owi**; русское «-у» есть только у немногих слов: *bratu*, *panu*, *ojcu*, *psu*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Поздравляю тебя!» — это…"
+    options: ["Gratuluję cię!", "Gratuluję ci!", "Gratuluję ciebie!"]
+    answer: 1
+    explain: "gratulować, как и dziękować, требует дательного: ci. Русское «поздравляю тебя» с винительным здесь подводит."
+  - type: input
+    q: "Daję wodę ___. (pies)"
+    answer: psu
+    explain: "pies — одно из исключений на -u, и беглое e выпадает: pies → psu, как «псу»."
+  - type: input
+    q: "Kupuję ___ rower. (syn)"
+    answer: synowi
+    explain: "Обычное мужское окончание дательного — -owi: syn → synowi, «сыну»."
+  - type: translate
+    q: Мне холодно.
+    answer: [Zimno mi., Jest mi zimno., Mnie jest zimno.]
+    explain: "Тот, кому холодно, — в дательном: mi, как русское «мне». Можно сказать с jest или без него."
+  - type: listen
+    text: Dziękuję panu za pomoc.
+    explain: "dziękować + дательный: panu. «За что» — za + винительный: za pomoc, как «за помощь»."
+---
+::
+
 ::quiz
 ---
 questions:
@@ -170,7 +250,7 @@ questions:
   - type: translate
     q: Помоги мне!
     answer: [Pomóż mi!]
-    explain: "pomóc + дательный, без ударения — короткая форма mi. Pomóż mnie — ошибка: mnie здесь не дательный, а винительный."
+    explain: "pomóc + дательный, без ударения — короткая форма mi. Ударное mnie возможно, только если подчёркиваете «помоги именно мне»."
   - type: translate
     q: Я тебе верю.
     answer: [Wierzę ci.]
