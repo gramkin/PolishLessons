@@ -8,6 +8,7 @@ words: [dziewczyna, chlopiec, miasto, kawa]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: szcz -->
 
 Там, где в русском одна буква, польский часто пишет две.
 

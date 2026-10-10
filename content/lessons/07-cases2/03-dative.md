@@ -8,6 +8,7 @@ words: [pomagac, dziekowac, dawac, wierzyc, ufac, przeszkadzac]
 ---
 
 <!-- review -->
+<!-- lexicon-ok: studentu -->
 
 Дательный отвечает на **komu? czemu?** — «кому? чему?». Основная работа та же, что в русском: это падеж адресата.
 

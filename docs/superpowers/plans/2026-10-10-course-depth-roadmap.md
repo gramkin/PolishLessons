@@ -132,11 +132,48 @@ Each phase is built the way the last rounds were: a written outline per chapter,
 drafted in parallel, every lesson reviewed before commit, validation and the full test
 suite green.
 
-## Decisions for the owner
+## Decisions (2026-10-10)
 
-1. **Target:** complete A2 first (Phases 1–5), or plan B1 alongside?
-2. **Chapter order:** insert the new grammar chapters where they belong (renumbering
-   lessons), or append them after chapter 12 (no renumbering, but the order teaches
-   plurals after travel and dates)?
-3. **Native review:** is there a native speaker who can review lessons as they land?
-   This decides whether Phase 1 lessons are built on reviewed ground.
+1. **B1 is planned alongside A2.** Its chapters are listed in the contents below and built
+   after Phase 1.
+2. **New chapters go where they belong.** Lesson order and labels come from `chapter` and
+   `order` in frontmatter, so existing lessons keep their paths (progress and E2E tests key
+   on them) and only their chapter numbers change.
+3. **No native reviewer is available.** Every new lesson therefore passes three checks
+   before commit: `pnpm lexicon` (every Polish word must exist in PoliMorf or a card's
+   paradigm), a review by a second reader who did not write it, and `pnpm validate` with
+   the full test suite. `<!-- review -->` markers stay, so a native check can still follow.
+
+## Contents after Phase 1 and the B1 track
+
+| № | Chapter | Level | Status |
+|---|---|---|---|
+| 1 | Алфавит и произношение | A1 | exists |
+| 2 | Звуковые соответствия | A1 | exists |
+| 3 | Первые фразы | A1 | exists |
+| 4 | Существительные и род | A1 | exists |
+| 5 | Глаголы: настоящее время | A1 | exists |
+| 6 | **Возвратные глаголы и się** | A1 | new, 2 lessons |
+| 7 | Падежи I | A2 | exists (was 6) |
+| 8 | Падежи II | A2 | exists (was 7) |
+| 9 | **Множественное число** | A2 | new, 4 lessons |
+| 10 | **Местоимения** | A2 | new, 4 lessons |
+| 11 | **Числа и время** | A2 | new, 4 lessons |
+| 12 | Прошедшее время | A2 | exists (was 8) |
+| 13 | Будущее время и вид | A2 | exists (was 9) |
+| 14 | **Глаголы движения** | A2 | new, 4 lessons |
+| 15 | **Повелительное наклонение** | A2 | new, 2 lessons |
+| 16 | Прилагательные и сравнение | A2 | exists (was 10) |
+| 17 | **Условное наклонение** | A2 | new, 2 lessons |
+| 18 | **Сложное предложение** | A2 | new, 3 lessons |
+| 19 | Ложные друзья | A2 | exists (was 11) |
+| 20 | Повседневные темы | A2 | exists (was 12); Phase 2 topic lessons join here |
+| 21 | **Итоги A2** | A2 | new: review and A2 test (Phase 5) |
+| 22 | **Причастия** | B1 | new |
+| 23 | **Деепричастия** | B1 | new |
+| 24 | **Страдательный залог и безличные формы** | B1 | new |
+| 25 | **Косвенная речь и союзы** | B1 | new |
+| 26 | **Словообразование и отглагольные существительные** | B1 | new |
+| 27 | **Официальный стиль** | B1 | new |
+
+12.4 «Что дальше» moves to the end of chapter 21 and is rewritten when A2 is complete.

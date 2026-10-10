@@ -8,6 +8,7 @@ words: [chleb, ucho, mucha, duch, chata, szkola, szum, kasza, mysz, szyja, czarn
 ---
 
 <!-- review -->
+<!-- lexicon-ok: dzie -->
 
 Эти соответствия почти не требуют запоминания: польское написание просто передаёт знакомые русские звуки.
 

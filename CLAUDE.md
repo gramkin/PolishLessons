@@ -13,6 +13,7 @@ Static Nuxt 4 website teaching Polish (A1–A2) to Russian speakers, styled like
 - `pnpm preview` — serve `.output/public` at http://localhost:4173
 - `pnpm preview:refresh` — after a content edit, rebuild in `.output/public` only the pages it reaches (~10 s, not ~2.5 min); runs a full `pnpm generate` by itself when the change reaches pages it cannot list
 - `pnpm validate` — content schema and cross-reference check (fails with file-prefixed errors)
+- `pnpm lexicon` — every Polish word in the lessons must exist in PoliMorf (`data/sources`, gitignored; skipped without it) or a card's paradigm; choice distractors and words in a `<!-- lexicon-ok: … -->` comment are excused, real forms PoliMorf lacks go in `data/lexicon-allow.txt`. Runs in `generate`
 - `pnpm test` — Vitest; projects `unit` (`tests/unit`, node) and `nuxt` (`tests/nuxt`, Nuxt runtime + happy-dom)
 - `pnpm vitest run --project unit tests/unit/quiz.test.ts -t "almost"` — one file / one test
 - `pnpm test:e2e` — Playwright against `generate` + `preview`; `pnpm test:e2e tests/e2e/a11y.spec.ts` for one spec
@@ -48,6 +49,7 @@ Static Nuxt 4 website teaching Polish (A1–A2) to Russian speakers, styled like
 - Story `words` map exact, case-sensitive forms in the Polish sentence (multi-word forms allowed) to word ids.
 - **Every standalone Polish example in a lesson must be speakable.** Wrap it in `:pron{pl="..."}` — the `Pron` component renders the Polish in `lang="pl"` and attaches a `SpeakButton`. Add `ru="..."` for chapters 1–3, where `shouldShowPron` (`AUTO_PRON_MAX_CHAPTER`) shows the transcription; later chapters hide it, so passing `ru` there is dead weight. Plain markdown italics render as `<em>` with no audio. Two deliberate exceptions stay plain: paradigm lists (`*mam, masz, ma, mamy, macie, mają*`) and arrow chains (`*poeta → poeci*`), because one button reading a six-form list aloud, or voicing “→”, is worse than none. When verifying, count `span.pron` in the generated HTML — **not** `speak-button`, which is gated on a Polish voice or a loaded recording, both known only after `onMounted`, so it can never appear in prerendered output.
 - `<!-- review -->` (Markdown) or `# review` (YAML) marks Polish the owner has not checked yet — keep it on new or edited content.
+- **Chapter numbers come from frontmatter, not folders.** Lesson paths (`content/lessons/06-cases/…`) are progress keys and E2E targets, so new chapters are inserted by renumbering `chapter` in frontmatter and `chapters.yml`, never by renaming folders; a folder's number prefix may differ from its chapter.
 - E2E tests depend on: lessons `01-alphabet/01-letters` and `01-alphabet/02-stress`, the 3-question final quiz in `02-sounds/01-rz` (the last `section.quiz` on the page), story `kot-i-mysz`, word `zab`, book chapters `alicja-pl-01-krolicza-nora`, `alicja-pl-02-jezioro-lez` and `alicja-pl-12-zeznanie-alicji`. Update `tests/e2e` in the same change if you alter them.
 
 ## Testing notes
