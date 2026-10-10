@@ -79,6 +79,68 @@ describe('buildParadigm — noun', () => {
   })
 })
 
+describe('buildParadigm — nouns with homonyms of another gender', () => {
+  // pies the dog (m2) and pies «policeman» (m1) share a lemma; only m1 has psów as accusative.
+  const cases = ['nom', 'gen', 'dat', 'acc', 'inst', 'loc', 'voc']
+  const dog = ['pies', 'psa', 'psu', 'psa', 'psem', 'psie', 'psie']
+  const dogs = ['psy', 'psów', 'psom', 'psy', 'psami', 'psach', 'psy']
+  const cops = ['psowie', 'psów', 'psom', 'psów', 'psami', 'psach', 'psowie']
+  const lines = cases.flatMap((c, i) => [
+    `${dog[i]}\tpies\tsubst:sg:${c}:m2\tpospolita`,
+    `${dogs[i]}\tpies\tsubst:pl:${c}:m2\tpospolita`,
+    `${dog[i]}\tpies\tsubst:sg:${c}:m1\tpospolita`,
+    `${cops[i]}\tpies\tsubst:pl:${c}:m1\tpospolita`,
+  ])
+  const rows = parsePolimorfText(lines.join('\n'))
+  const tag = {
+    nom: 'nominative',
+    gen: 'genitive',
+    dat: 'dative',
+    acc: 'accusative',
+    inst: 'instrumental',
+    loc: 'locative',
+    voc: 'vocative',
+  } as Record<string, string>
+  const wikiDog = cases.flatMap((c, i) => [
+    { form: dog[i]!, tags: [tag[c]!, 'singular'] },
+    { form: dogs[i]!, tags: [tag[c]!, 'plural'] },
+  ])
+
+  it("keeps the gender of Wiktionary's first entry", () => {
+    const pies = buildParadigm('noun', 'pies', rows, wikiDog, null)
+    const t = table(pies, 'Склонение')
+    expect(row(t, 'Винительный')).toEqual([['psa'], ['psy']])
+    expect(row(t, 'Именительный')).toEqual([['pies'], ['psy']])
+    expect(pies.grammarLabel).toBe('мужской род, одушевлённый')
+    expect(pies.allForms).not.toContain('psowie')
+  })
+
+  it('shows a homonym the card teaches as a second table', () => {
+    const typ = parsePolimorfText(
+      [
+        'typ\ttyp\tsubst:sg:nom:m3\tpospolita',
+        'typy\ttyp\tsubst:pl:nom:m3\tpospolita',
+        'typ\ttyp\tsubst:sg:acc:m3\tpospolita',
+        'typ\ttyp\tsubst:sg:nom:m1\tpospolita',
+        'typa\ttyp\tsubst:sg:acc:m1\tpospolita',
+      ].join('\n'),
+    )
+    const result = buildParadigm('noun', 'typ', typ, [], null)
+    expect(result.tables.map((t) => t.title)).toEqual([
+      'Склонение',
+      'Склонение — мужской род, личный',
+    ])
+    expect(row(table(result, 'Склонение'), 'Винительный')).toEqual([['typ'], []])
+    expect(result.allForms).toContain('typa')
+  })
+
+  it('falls back to the gender with the most forms without Wiktionary', () => {
+    const extra = parsePolimorfText(`psiska\tpies\tsubst:pl:nom:m2\tpospolita`)
+    const pies = buildParadigm('noun', 'pies', [...rows, ...extra], [], null)
+    expect(pies.grammarLabel).toBe('мужской род, одушевлённый')
+  })
+})
+
 describe('buildParadigm — verbs', () => {
   const mieć = buildParadigm('verb', 'mieć', rowsOf('mieć'), [], 'imperf')
 

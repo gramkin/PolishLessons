@@ -362,9 +362,118 @@ function verbParadigm(lemma: string, s: Slot[], aspect: Aspect | null, wikiForms
   return { tables: built, extraForms: [...generated], mismatches }
 }
 
-function nounParadigm(s: Slot[]) {
+// n1/n2 and p1/p2/p3 split PoliMorf's genders finer than a learner's table does. m2 and m3
+// differ only in the accusative singular, and a thing used as animate (zjeść banana, wysłać
+// maila) is real usage, so they stay together; m1 (persons) is a different paradigm.
+const genderGroup = (g: string) =>
+  g.startsWith('n') ? 'n' : g.startsWith('p') ? 'p' : g === 'm2' || g === 'm3' ? 'm23' : g
+
+const WIKI_CASE: Record<string, string> = {
+  nominative: 'nom',
+  genitive: 'gen',
+  dative: 'dat',
+  accusative: 'acc',
+  instrumental: 'inst',
+  locative: 'loc',
+  vocative: 'voc',
+}
+
+/**
+ * The slots of one gender. PoliMorf files homonyms of another gender under the same lemma:
+ * pies the dog (m2, accusative plural psy) and pies «policeman» (m1, psów); dziadek the
+ * grandfather (m1) and the nutcracker (m2). Merged, they put psów among the accusatives. The
+ * gender kept is the one whose forms best match Wiktionary's first entry, which is the main
+ * sense; without Wiktionary forms, the gender with the most forms. Animate and inanimate
+ * masculine count as one gender here.
+ */
+// Lemmas whose card means a different homonym from Wiktionary's first entry: głąb is
+// «глубина» (f, w głębi), not «кочерыжка» (m); palant is «придурок» (m1), not the bat game.
+const CARD_GENDER: Record<string, string> = { głąb: 'f', palant: 'm1' }
+
+// Lemmas whose card also teaches a homonym of another gender, so its paradigm is shown as a
+// second table: zbieg «беглец» (m1) and «стечение» (zbiegi), pilot «лётчик» and «пульт»
+// (piloty), narzeczony and narzeczona. Every other homonym is left out of the card.
+export const SECOND_GENDER: Record<string, string> = {
+  anioł: 'm23',
+  bałwan: 'm1',
+  bękart: 'm1',
+  bliźniak: 'm23',
+  diabeł: 'm23',
+  informator: 'm23',
+  król: 'm23',
+  mięczak: 'm1',
+  model: 'm1',
+  narzeczony: 'f',
+  olbrzym: 'm23',
+  palant: 'm23',
+  pastuch: 'm23',
+  pilot: 'm23',
+  przewodnik: 'm23',
+  rekin: 'm1',
+  satelita: 'm1',
+  szach: 'm1',
+  szatan: 'm1',
+  szczeniak: 'm1',
+  świr: 'm1',
+  tchórz: 'm23',
+  twardziel: 'f',
+  typ: 'm1',
+  wampir: 'm23',
+  zbieg: 'm23',
+  zwiastun: 'm23',
+}
+
+// Forms PoliMorf files under a homonym although the main word uses them: the genitive plural
+// of nuda is nudów (z nudów, umierać z nudów); the regular nud is rare.
+const CARD_EXTRA_FORMS: Record<string, { num: string; case: string; form: string }[]> = {
+  nuda: [{ num: 'pl', case: 'gen', form: 'nudów' }],
+}
+
+const GROUP_LABELS: Record<string, string> = {
+  m1: 'мужской род, личный',
+  m23: 'мужской род',
+  f: 'женский род',
+  n: 'средний род',
+  p: 'только множественное число',
+}
+
+/** The slots of `lemma`'s gender group `group`, for a second declension table. */
+export function genderGroupSlots(s: Slot[], group: string): Slot[] {
+  return s.filter((x) => genderGroup(x.parts[3] ?? '') === group)
+}
+
+export function mainGenderSlots(s: Slot[], wikiForms: WikiForm[], lemma = ''): Slot[] {
+  const groups = new Map<string, Slot[]>()
+  for (const x of s) {
+    const g = genderGroup(x.parts[3] ?? '')
+    groups.set(g, [...(groups.get(g) ?? []), x])
+  }
+  if (groups.size <= 1) return s
+  const chosen = CARD_GENDER[lemma] ? groups.get(CARD_GENDER[lemma]!) : undefined
+  if (chosen) return chosen
+  const wiki = new Map<string, Set<string>>()
+  for (const f of wikiForms) {
+    const c = f.tags.map((t) => WIKI_CASE[t]).find(Boolean)
+    const n = f.tags.includes('plural') ? 'pl' : f.tags.includes('singular') ? 'sg' : null
+    if (!c || !n) continue
+    const key = `${n}:${c}`
+    wiki.set(key, new Set([...(wiki.get(key) ?? []), f.form]))
+  }
+  const score = (slots: Slot[]) => {
+    if (wiki.size === 0) return 0
+    let points = 0
+    for (const x of slots) {
+      const expected = wiki.get(`${x.parts[1]}:${x.parts[2]}`)
+      if (expected) points += expected.has(x.form) ? 1 : -1
+    }
+    return points
+  }
+  return [...groups.values()].sort((a, b) => score(b) - score(a) || b.length - a.length)[0]!
+}
+
+function nounParadigm(s: Slot[], title = 'Склонение') {
   return tables({
-    title: 'Склонение',
+    title,
     columns: ['Ед. ч.', 'Мн. ч.'],
     rows: CASES.map(([c, label]) => ({
       label,
@@ -537,13 +646,30 @@ export function buildParadigm(
   const baseForms = [...s.map((x) => x.form), lemma]
 
   switch (pos) {
-    case 'noun':
+    case 'noun': {
+      const chosen = mainGenderSlots(s, wikiForms, lemma)
+      const gender = chosen[0]?.parts[3] ?? ''
+      const main = [
+        ...chosen,
+        ...(CARD_EXTRA_FORMS[lemma] ?? []).map((x) => ({
+          form: x.form,
+          head: 'subst',
+          parts: ['subst', x.num, x.case, gender],
+        })),
+      ]
+      const group = SECOND_GENDER[lemma]
+      const second = group ? genderGroupSlots(s, group).filter((x) => !main.includes(x)) : []
+      const kept = [...main, ...second]
       return {
-        tables: nounParadigm(s),
-        allForms: plSort(baseForms),
-        grammarLabel: nounGender(s),
+        tables: [
+          ...nounParadigm(main),
+          ...(second.length > 0 ? nounParadigm(second, `Склонение — ${GROUP_LABELS[group!]}`) : []),
+        ],
+        allForms: plSort([...kept.map((x) => x.form), lemma]),
+        grammarLabel: nounGender(main),
         mismatches: [],
       }
+    }
     case 'verb': {
       const verb = verbParadigm(lemma, s, aspect, wikiForms)
       return {
