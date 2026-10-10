@@ -32,6 +32,30 @@ rows:
 
 Мужской род берёт длинное **-owi**, и это первое, что бросается в глаза: не *studentu*, а *studentowi*.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Daję prezent ___. (nauczyciel)"
+    answer: nauczycielowi
+    explain: "Мужской род в дательном — -owi: nauczyciel → nauczycielowi."
+  - type: choice
+    q: "Piszę list ___. (siostra)"
+    options: [siostrze, siostrą, siostry]
+    answer: 0
+    explain: "Женский род на -a: -e со смягчением, r → rz: siostra → siostrze, как «сестре»."
+  - type: input
+    q: "Kupuję kwiaty ___. (mama)"
+    answer: mamie
+    explain: "mama → mamie: m смягчается перед -e."
+  - type: choice
+    q: "Pokazuję zdjęcie ___. (brat)"
+    options: [bratowi, bratu]
+    answer: 1
+    explain: "brat — одно из немногих исключений: bratu, как pan → panu. Большинство мужских слов берут -owi."
+---
+::
+
 ## Глаголы с дательным
 
 Часть их совпадает с русскими:
@@ -47,6 +71,30 @@ rows:
 
 По-русски «благодарю тебя» — винительный. По-польски только дательный: *dziękuję ci*, никогда *dziękuję cię*.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Pomagam ___. (kolega)"
+    answer: koledze
+    explain: "kolega склоняется как женский род: kolega → koledze (g → dz), как в уроке: mówię to koledze."
+  - type: choice
+    q: "Dziękuję ___. (pani)"
+    options: [panią, pani, panie]
+    answer: 1
+    explain: "dziękować + дательный; дательный от pani — pani: dziękuję pani."
+  - type: choice
+    q: "Wierzę ___. (ty)"
+    options: [ciebie, ci, cię]
+    answer: 1
+    explain: "wierzyć + дательный: ci, как «тебе верю». Cię и ciebie — винительный и родительный."
+  - type: input
+    q: "Ufam ___. (lekarz)"
+    answer: lekarzowi
+    explain: "ufać «доверять» + дательный, мужской род — -owi: lekarzowi."
+---
+::
+
 ## Przeszkadzać — мешать
 
 :pron{pl="Nie przeszkadzaj mi."} — Не мешай мне.
@@ -55,26 +103,46 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "Nie przeszkadzaj ___. (tata)"
+    answer: tacie
+    explain: "przeszkadzać + дательный; tata склоняется как женский род: t перед -e смягчается — tacie."
+  - type: choice
+    q: "Czy to ci przeszkadza?"
+    options: ["Тебе это мешает?", "Ты этому мешаешь?"]
+    answer: 0
+    explain: "ci — дательный «тебе», а то, что мешает (to), — подлежащее."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input
     q: "Daję książkę ___. (brat)"
     answer: bratu
+    explain: "brat — исключение: bratu, как pan → panu. Обычное мужское окончание — -owi."
   - type: choice
     q: "Спасибо тебе — как правильно?"
     options: ["Dziękuję cię", "Dziękuję ci", "Dziękuję ciebie"]
     answer: 1
+    explain: "dziękować + дательный: ci. Cię — винительный, его здесь не бывает."
   - type: input
     q: "Pomagam ___. (mama)"
     answer: mamie
+    explain: "pomagać + дательный; mama → mamie (m смягчается)."
   - type: input
     q: "Мужское окончание дательного падежа?"
     answer: owi
+    explain: "-owi: studentowi, nauczycielowi."
   - type: match
     q: Соедините глагол и дополнение
     pairs:
       - [dziękować, "ci"]
       - [pomagać, "mamie"]
       - [ufać, "bratu"]
+    explain: "Все три глагола требуют дательного."
 ---
 ::

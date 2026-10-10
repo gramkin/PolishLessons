@@ -24,6 +24,22 @@ rows:
 ---
 ::
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "pisać — napisać: каким способом образована пара?"
+    options: [приставка, суффикс, разные корни]
+    answer: 0
+    explain: "Приставка na- делает глагол совершенным, как русское «на-писать»."
+  - type: choice
+    q: "Какой глагол в паре robić — zrobić совершенный?"
+    options: [robić, zrobić]
+    answer: 1
+    explain: "Глагол с приставкой — совершенный: zrobić, как «сделать»."
+---
+::
+
 ## Приставка
 
 Самый частый способ. Приставка делает глагол совершенным, не меняя смысла: *robić* → *zrobić*, *czytać* → *przeczytać*.
@@ -31,6 +47,26 @@ rows:
 :pron{pl="Zrobię to sam."} — Я сделаю это сам.
 
 Но осторожно: приставка **может** и поменять смысл. Сравните *pisać* «писать» и *podpisać* «подписать», *przepisać* «переписать». Тогда это уже не видовая пара, а другой глагол — со своей парой.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "jeść → совершенный вид?"
+    answer: zjeść
+    explain: "Приставка z-: jeść → zjeść, как «есть → съесть»."
+  - type: choice
+    q: "przepisać — это пара к pisać?"
+    options: ["да, та же пара", "нет, другой глагол"]
+    answer: 1
+    explain: "Приставка prze- меняет смысл: przepisać — «переписать». Это новый глагол со своей несовершенной парой przepisywać."
+  - type: choice
+    q: "Zrobię to sam. Какой вид у глагола?"
+    options: [несовершенный, совершенный]
+    answer: 1
+    explain: "zrobić — приставочный совершенный глагол, поэтому zrobię — будущее, «сделаю»."
+---
+::
 
 ## Суффикс
 
@@ -41,9 +77,45 @@ rows:
 
 Русский устроен так же: «покупать — купить», «давать — дать».
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "Какой глагол несовершенный?"
+    options: [kupować, kupić]
+    answer: 0
+    explain: "В суффиксальной паре длиннее — несовершенный: kupować, «покупать»."
+  - type: choice
+    q: "Codziennie ___ chleb. (покупать)"
+    options: [kupuję, kupię]
+    answer: 0
+    explain: "Повторение — несовершенный вид: kupuję, «покупаю каждый день»."
+  - type: choice
+    q: "Jutro ___ chleb. (купить)"
+    options: [kupuję, kupię]
+    answer: 1
+    explain: "kupić — совершенный вид: kupię — «куплю», будущее."
+---
+::
+
 ## Разные корни
 
 Редко, но бывает: *brać* — *wziąć*, как русское «брать — взять». Такие пары просто запоминают.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "wziąć → несовершенный вид?"
+    answer: brać
+    explain: "Пара из разных корней: brać — wziąć, как «брать — взять»."
+  - type: choice
+    q: "Jutro ___ parasol. (взять)"
+    options: [biorę, wezmę]
+    answer: 1
+    explain: "wziąć — совершенный вид: wezmę — «возьму». Biorę — «беру», сейчас."
+---
+::
 
 ## Как это видно в словаре
 
@@ -56,22 +128,27 @@ questions:
   - type: input
     q: "kupować → совершенный вид?"
     answer: kupić
+    explain: "Суффиксальная пара: kupować (несовершенный) — kupić (совершенный), как «покупать — купить»."
   - type: input
     q: "dawać → совершенный вид?"
     answer: dać
+    explain: "dawać — dać, как «давать — дать»: короче — совершенный."
   - type: choice
     q: "brać — wziąć: какой это способ?"
     options: [приставка, суффикс, разные корни]
     answer: 2
+    explain: "Пара из разных корней, как «брать — взять»."
   - type: choice
     q: "podpisać — это пара к pisać?"
     options: ["да, та же пара", "нет, другой глагол"]
     answer: 1
+    explain: "Приставка pod- меняет смысл: podpisać — «подписать», отдельный глагол со своей парой podpisywać."
   - type: match
     q: Соедините пару
     pairs:
       - [kupować, kupić]
       - [dawać, dać]
       - [brać, wziąć]
+    explain: "Слева несовершенный вид, справа совершенный."
 ---
 ::

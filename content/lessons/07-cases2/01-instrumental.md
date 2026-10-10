@@ -34,6 +34,25 @@ rows:
 
 Русский тоже знает эту конструкцию — «он стал учителем», «работает врачом», — но только с некоторыми глаголами. Польский применяет её всегда, когда после :pl-word{id="byc"} или :pl-word{id="zostac"} стоит существительное.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Mój brat jest ___. (nauczyciel)"
+    answer: nauczycielem
+    explain: "Существительное после być — в творительном: nauczyciel → nauczycielem. По-русски «мой брат учитель» — именительный."
+  - type: choice
+    q: "Ona jest ___. (studentka)"
+    options: [studentka, studentką, studentkę]
+    answer: 1
+    explain: "Женский род на -a в творительном получает -ą: studentką."
+  - type: input
+    q: "Chcę zostać ___. (aktor)"
+    answer: aktorem
+    explain: "zostać «стать» тоже требует творительного, как и русское «стать актёром»."
+---
+::
+
 ## Средство и способ
 
 :pron{pl="Jadę autobusem."} — Я еду на автобусе.
@@ -42,12 +61,51 @@ rows:
 
 Обратите внимание на транспорт: русский говорит «на автобусе», польский — просто творительный, без предлога.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Jadę ___. (tramwaj)"
+    answer: tramwajem
+    explain: "Транспорт — творительный без предлога: jadę tramwajem, а по-русски «на трамвае»."
+  - type: choice
+    q: "Piszę ___. (długopis)"
+    options: [długopis, długopisem, długopisu]
+    answer: 1
+    explain: "Орудие действия — творительный, как и в русском «пишу ручкой»."
+  - type: choice
+    q: "Как сказать «я еду на машине»?"
+    options: ["Jadę na samochodzie.", "Jadę samochodem."]
+    answer: 1
+    explain: "Транспорт — творительный без na: jadę samochodem. «Jadę na samochodzie» — калька с русского «на машине», поляки так не говорят."
+---
+::
+
 ## С кем: z + творительный
 
 :pron{pl="Idę z bratem."} — Я иду с братом.
 :pron{pl="Kawa z mlekiem."} — Кофе с молоком.
 
 Запомните это отдельно: в шестой главе :pl-word{id="z"} шёл с родительным и значил «из, с» — *wracam z pracy*. С творительным он значит «вместе с». Один предлог, два падежа, два смысла.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Idę do kina z ___. (siostra)"
+    answer: siostrą
+    explain: "z в значении «вместе с» + творительный: siostra → siostrą."
+  - type: input
+    q: "Herbata z ___. (cytryna)"
+    answer: cytryną
+    explain: "Чай с лимоном: z + творительный, cytryna → cytryną."
+  - type: choice
+    q: "В каком предложении z требует творительного?"
+    options: ["Wracam z pracy.", "Rozmawiam z mamą."]
+    answer: 1
+    explain: "«Разговариваю с мамой» — «вместе с», творительный. Wracam z pracy — «откуда», родительный."
+---
+::
 
 ## Предлоги места
 
@@ -58,27 +116,51 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "Kot śpi pod ___. (krzesło)"
+    answer: krzesłem
+    explain: "pod о месте + творительный: krzesło → krzesłem (средний род, -em)."
+  - type: choice
+    q: "Lampa wisi nad ___. (stół)"
+    options: [stół, stołem, stołu]
+    answer: 1
+    explain: "nad «над» + творительный: nad stołem. ó в основе переходит в o."
+  - type: input
+    q: "Czekam przed ___. (dom)"
+    answer: domem
+    explain: "przed «перед» о месте — творительный: przed domem."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "Jestem ___. (student)"
     options: [student, studentem, studenta]
     answer: 1
+    explain: "После być — творительный: student → studentem. Форма studenta — родительный и винительный."
   - type: input
     q: "Ona jest ___. (lekarz)"
     answer: lekarzem
+    explain: "Профессия после być — творительный, даже когда речь о женщине: ona jest lekarzem."
   - type: input
     q: "Jadę ___. (autobus)"
     answer: autobusem
+    explain: "Транспорт — творительный без предлога: jadę autobusem, по-русски «на автобусе»."
   - type: choice
     q: "«Кофе с молоком» — какой падеж после z?"
     options: [родительный, творительный, предложный]
     answer: 1
+    explain: "z в значении «вместе с» требует творительного: kawa z mlekiem."
   - type: match
     q: Соедините именительный и творительный
     pairs:
       - [student, studentem]
       - [szkoła, szkołą]
       - [miasto, miastem]
+    explain: "Мужской и средний род получают -em, женский — -ą."
 ---
 ::

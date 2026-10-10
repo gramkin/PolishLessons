@@ -31,12 +31,51 @@ rows:
 
 От инфинитива :pl-word{id="isc"} здесь не осталось ничего. Русский поступает так же: «идти» → «шёл», «шла». Оба языка унаследовали эту неправильность из общего прошлого, так что запоминать легче, чем кажется.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Женщина говорит: ___ do pracy. (iść)"
+    answer: Szłam
+    explain: "szła + m = szłam, как «я шла»."
+  - type: choice
+    q: "Oni ___ do szkoły. (iść)"
+    options: [szli, szły, szedli]
+    answer: 0
+    explain: "Мужско-личное множественное: szli, «шли». Формы szedli нет."
+  - type: input
+    q: "Мы (группа с мужчиной) шли пешком — ___ pieszo."
+    answer: Szliśmy
+    explain: "szli + śmy = szliśmy."
+---
+::
+
 ## Móc — ó появляется в одной форме
 
 :pron{pl="Nie mogłem przyjść."} — Я не мог прийти.
 :pron{pl="On nie mógł przyjść."} — Он не мог прийти.
 
 Обратите внимание: **mógł** с ó только в мужском роде третьего лица. Везде дальше — обычное o: *mogła*, *mogło*, *mogli*, *mogłem*.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Ona nie ___ spać. (móc)"
+    options: [mógła, mogła]
+    answer: 1
+    explain: "ó только в форме «он» (mógł). У женского рода o: mogła."
+  - type: input
+    q: "Мужчина говорит: Nie ___ przyjść. (móc)"
+    answer: mogłem
+    explain: "В первом лице снова o: mogłem, хотя «он» — mógł."
+  - type: choice
+    q: "Dzieci nie ___ zasnąć. (móc)"
+    options: [mogli, mogły]
+    answer: 1
+    explain: "Дети — не мужско-личная группа: mogły."
+---
+::
 
 ## Jeść и zacząć — чередование гласной
 
@@ -45,12 +84,51 @@ rows:
 
 В единственном числе **a**, во множественном мужско-личном — **e**. То же у :pl-word{id="zaczac"}: *zaczął*, но *zaczęła* и *zaczęli*.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Ona ___ zupę. (jeść)"
+    answer: jadła
+    explain: "В единственном числе a: jadła, «ела»."
+  - type: choice
+    q: "Studenci ___ w stołówce. (jeść)"
+    options: [jadli, jedli]
+    answer: 1
+    explain: "Перед мужско-личным -li — e: jedli."
+  - type: input
+    q: "Film ___ się o ósmej. (zacząć)"
+    answer: zaczął
+    explain: "film мужского рода — ą: zaczął, «начался»."
+  - type: choice
+    q: "Lekcja ___ się punktualnie. (zacząć)"
+    options: [zaczął, zaczęła]
+    answer: 1
+    explain: "Женский род — ę: zaczęła."
+---
+::
+
 ## Wiedzieć
 
 :pron{pl="Nie wiedziałem o tym."} — Я не знал об этом.
 :pron{pl="Oni wiedzieli wszystko."} — Они знали всё.
 
 Опять **a** в единственном и **e** перед **-li**.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Женщина говорит: Nie ___, co powiedzieć. (wiedzieć)"
+    answer: wiedziałam
+    explain: "В единственном числе a: wiedziała + m = wiedziałam."
+  - type: choice
+    q: "Rodzice nic nie ___. (wiedzieć)"
+    options: [wiedziały, wiedzieli]
+    answer: 1
+    explain: "Родители — мужско-личная группа, а перед -li a меняется на e: wiedzieli."
+---
+::
 
 ## Что делать
 
@@ -64,21 +142,26 @@ questions:
     q: "On nie ___ przyjść. (móc)"
     options: [mogł, mógł, mogli]
     answer: 1
+    explain: "ó только в форме «он»: mógł. Формы mogł нет, а mogli — это «они»."
   - type: input
     q: "Мужчина говорит: ___ do domu. (iść)"
     answer: Szedłem
+    explain: "Основа iść заменяется целиком: szedł + em = szedłem, как «шёл»."
   - type: input
     q: "Мы ели вместе — ___ razem. (jeść)"
     answer: Jedliśmy
+    explain: "Перед мужско-личным -li — e: jedli + śmy = jedliśmy."
   - type: choice
     q: "В какой форме móc пишется через ó?"
     options: ["во всех", "только он", "только они"]
     answer: 1
+    explain: "Только в «он» — mógł; во всех остальных формах o."
   - type: match
     q: Соедините инфинитив и форму «он»
     pairs:
       - [iść, szedł]
       - [móc, mógł]
       - [jeść, jadł]
+    explain: "Все три меняют основу: iść → szedł, móc → mógł, jeść → jadł."
 ---
 ::

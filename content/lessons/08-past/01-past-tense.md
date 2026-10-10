@@ -28,6 +28,25 @@ rows:
 :pron{pl="Wczoraj czytał książkę."} — Вчера он читал книгу.
 :pron{pl="Ona miała czas."} — У неё было время.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "robić → он ___"
+    answer: robił
+    explain: "Отбрасываем -ć и добавляем -ł: robi-ć → robił, как «делал»."
+  - type: input
+    q: "mieć → она ___"
+    answer: miała
+    explain: "Женский род получает -ła: miała, как «имела»."
+  - type: choice
+    q: "pisać → оно ___"
+    options: [pisał, pisała, pisało]
+    answer: 2
+    explain: "Средний род — -ło: pisało, как «писало»."
+---
+::
+
 ## Род виден и в первом лице
 
 Вот здесь польский идёт дальше русского. В русском «я был» и «я была» различаются только формой глагола, а местоимение одно. В польском личное окончание **приклеивается** к глаголу:
@@ -50,10 +69,55 @@ rows:
 
 Местоимение при этом обычно опускают — окончание уже всё сказало. Сказать :pron{pl="Ja byłem w domu."} можно, но только чтобы подчеркнуть «именно я».
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Мужчина говорит: ___ książkę. (czytać)"
+    answer: Czytałem
+    explain: "К форме czytał добавляется -em: czytałem — «я читал». Местоимение ja не нужно."
+  - type: input
+    q: "Обращаемся к подруге: Gdzie ___? (być)"
+    answer: byłaś
+    explain: "«Ты» о женщине: była + ś = byłaś."
+  - type: choice
+    q: "Мы (только женщины) ___ w kinie. (być)"
+    options: [byliśmy, byłyśmy, były]
+    answer: 1
+    explain: "Женская группа говорит byłyśmy. byliśmy — если в группе есть хотя бы один мужчина (урок 8.3)."
+  - type: choice
+    q: "Почему в «Byłem w domu» нет местоимения ja?"
+    options: ["окончание -em уже значит «я»", "ja в прошедшем времени запрещено"]
+    answer: 0
+    explain: "Личное окончание само показывает лицо. Ja добавляют, только чтобы подчеркнуть «именно я»."
+---
+::
+
 ## Когда говорят о времени
 
 :pron{pl="Wczoraj byłem w pracy."} — Вчера я был на работе.
 :pron{pl="Dawno tu nie byłam."} — Я давно здесь не была.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Вчера я (ж.) читала книгу — Wczoraj ___ książkę."
+    answer: czytałam
+    explain: "Женщина о себе: czytała + m = czytałam."
+  - type: input
+    q: "Я (м.) давно здесь не был — Dawno tu nie ___."
+    answer: byłem
+    explain: "Мужчина о себе: był + em = byłem. Отрицание nie ставится перед глаголом, как в русском."
+  - type: match
+    q: Соедините слово и перевод
+    pairs:
+      - [wczoraj, вчера]
+      - [dzisiaj, сегодня]
+      - [dawno, давно]
+    explain: "Эти наречия чаще всего сопровождают прошедшее время."
+---
+::
 
 ::quiz
 ---
@@ -62,21 +126,26 @@ questions:
   - type: input
     q: "Мужчина говорит: ___ w domu. (być)"
     answer: Byłem
+    explain: "Мужчина о себе: był + em = byłem."
   - type: input
     q: "Женщина говорит: ___ w domu. (być)"
     answer: Byłam
+    explain: "Женщина о себе: była + m = byłam."
   - type: choice
     q: "Как образуется основа прошедшего времени?"
     options: ["инфинитив + -ł-", "инфинитив + -sz-", "инфинитив без изменений"]
     answer: 0
+    explain: "Отбрасываем -ć, добавляем -ł- и окончание рода: czyta-ć → czytał."
   - type: input
     q: "czytać → она ___"
     answer: czytała
+    explain: "Женский род: czytał + a = czytała, как «читала»."
   - type: match
     q: Соедините лицо и форму
     pairs:
       - [ja (м.), byłem]
       - [ja (ж.), byłam]
       - [ty (м.), byłeś]
+    explain: "ja (м.) — byłem, ja (ж.) — byłam, ty (м.) — byłeś: окончание лица приклеено к глаголу."
 ---
 ::

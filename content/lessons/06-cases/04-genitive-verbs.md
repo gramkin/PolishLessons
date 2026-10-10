@@ -29,11 +29,49 @@ rows:
 
 Не *słucham muzykę*. Русское «слушаю музыку» толкает к винительному, и ошибку делают почти все.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "Słucham ___. (radio)"
+    options: [radio, radia]
+    answer: 1
+    explain: "słuchać + родительный: radio → radia. По-русски «слушаю радио» — винительный, отсюда ошибка."
+  - type: input
+    q: "Lubię słuchać ___. (muzyka)"
+    answer: muzyki
+    explain: "Тот же глагол, тот же падеж: słuchać muzyki."
+  - type: choice
+    q: "Słuchaj ___! (mama)"
+    options: [mamę, mamy]
+    answer: 1
+    explain: "słuchać kogoś — «слушаться, слушать кого-то» — тоже с родительным: słuchaj mamy."
+---
+::
+
 ## Szukać, potrzebować, używać
 
 :pron{pl="Szukam pracy."} — Я ищу работу.
 :pron{pl="Potrzebuję czasu."} — Мне нужно время.
 :pron{pl="Używam słownika."} — Я пользуюсь словарём.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Szukam ___. (klucz)"
+    answer: klucza
+    explain: "szukać + родительный: klucz → klucza, «ищу ключ»."
+  - type: input
+    q: "Potrzebuję ___. (pomoc)"
+    answer: pomocy
+    explain: "potrzebować + родительный: pomoc → pomocy, «мне нужна помощь»."
+  - type: input
+    q: "Używam ___. (komputer)"
+    answer: komputera
+    explain: "używać + родительный: komputer → komputera, «пользуюсь компьютером»."
+---
+::
 
 ## Bać się и uczyć się
 
@@ -44,6 +82,25 @@ rows:
 
 Здесь русский частично совпадает: «боюсь собак» — тоже родительный. А вот «учу польский» по-русски винительный, и это снова расхождение.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Boję się ___. (pająk)"
+    answer: pająka
+    explain: "bać się + родительный: pająk → pająka, «боюсь паука»."
+  - type: input
+    q: "Uczę się ___. (matematyka)"
+    answer: matematyki
+    explain: "uczyć się + родительный: matematyka → matematyki. По-русски «учу математику» — винительный."
+  - type: choice
+    q: "Dziecko boi się ___. (ciemność)"
+    options: [ciemność, ciemności]
+    answer: 1
+    explain: "Существительные на -ość в родительном получают -ości: ciemności."
+---
+::
+
 ## Ещё предлоги с родительным
 
 :pl-word{id="obok"}, :pl-word{id="oprocz"}, :pl-word{id="wedlug"}, а также :pl-word{id="z"} в значении «из, с»:
@@ -53,26 +110,49 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "Mieszkam obok ___. (park)"
+    answer: parku
+    explain: "obok «рядом с» + родительный: park → parku."
+  - type: input
+    q: "Wszyscy przyszli oprócz ___. (Tomek)"
+    answer: Tomka
+    explain: "oprócz «кроме» + родительный: Tomek → Tomka (беглое e выпадает)."
+  - type: input
+    q: "Wracam ze ___. (szkoła)"
+    answer: szkoły
+    explain: "z «из, с» + родительный: szkoła → szkoły. Перед группой согласных (szk-) z становится ze: ze szkoły, как русское «со школы»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "Słucham ___. (muzyka)"
     options: [muzykę, muzyki, muzyką]
     answer: 1
+    explain: "słuchać + родительный: muzyka → muzyki."
   - type: input
     q: "Szukam ___. (praca)"
     answer: pracy
+    explain: "szukać + родительный: praca → pracy."
   - type: input
     q: "Uczę się ___. (polski)"
     answer: polskiego
+    explain: "uczyć się + родительный: polski → polskiego (прилагательное в роли названия языка)."
   - type: input
     q: "Boję się ___. (psy)"
     answer: psów
+    explain: "bać się + родительный множественного: psy → psów."
   - type: match
     q: Соедините глагол и дополнение
     pairs:
       - [słuchać, muzyki]
       - [szukać, pracy]
       - [używać, słownika]
+    explain: "Все три глагола требуют родительного."
 ---
 ::

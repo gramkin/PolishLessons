@@ -34,10 +34,48 @@ rows:
 
 Соответствие регулярное. Если по-русски выходит «книгу», «воду», «музыку» — по-польски будет **-ę**.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Czytam ___. (gazeta)"
+    answer: gazetę
+    explain: "Женский род на -a: -a → -ę. По-русски тоже меняется окончание: «читаю газету»."
+  - type: choice
+    q: "Lubię ___. (herbata)"
+    options: [herbata, herbatę, herbaty]
+    answer: 1
+    explain: "lubić требует винительного, а herbata — женский род: herbatę. Форма herbaty — это родительный."
+  - type: input
+    q: "Mam ___. (siostra)"
+    answer: siostrę
+    explain: "После mam — винительный: siostra → siostrę. По-русски здесь «у меня есть сестра», но польский строит фразу через глагол «иметь»."
+---
+::
+
 ## Мужской неодушевлённый и средний не меняются
 
 :pron{pl="Mam dom."} — У меня есть дом.
 :pron{pl="Widzę okno."} — Я вижу окно.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Mam ___. (samochód)"
+    answer: samochód
+    explain: "Мужской неодушевлённый: винительный совпадает с именительным, как в русском «вижу дом»."
+  - type: choice
+    q: "Widzę ___. (morze)"
+    options: [morze, morza, morzu]
+    answer: 0
+    explain: "Средний род в винительном не меняется: widzę morze — «вижу море»."
+  - type: input
+    q: "Kupuję ___. (stół)"
+    answer: stół
+    explain: "stół — неодушевлённый, поэтому форма та же. Не путайте с одушевлёнными из следующего раздела."
+---
+::
 
 ## Мужской одушевлённый берёт форму родительного
 
@@ -45,6 +83,25 @@ rows:
 :pron{pl="Mam kota."} — У меня есть кот.
 
 Русский поступает так же: «вижу пса», «вижу кота». Правило знакомое, просто в польском оно распространяется и на животных, и на мужчин.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Widzę ___. (brat)"
+    answer: brata
+    explain: "Мужской одушевлённый: винительный = родительный. brat → brata, как «вижу брата»."
+  - type: choice
+    q: "Mam ___. (syn)"
+    options: [syn, syna, synem]
+    answer: 1
+    explain: "syn — одушевлённый, поэтому syna. Форма synem — творительный."
+  - type: input
+    q: "Znam ___. (Adam)"
+    answer: Adama
+    explain: "Имена людей ведут себя так же: znam Adama — «знаю Адама»."
+---
+::
 
 ## Предлоги направления
 
@@ -55,27 +112,52 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: choice
+    q: "Idę na ___. (plaża)"
+    options: [plaża, plażę, plaży]
+    answer: 1
+    explain: "na в значении «куда?» требует винительного: plaża → plażę."
+  - type: input
+    q: "Idę przez ___. (park)"
+    answer: park
+    explain: "przez — всегда с винительным; park неодушевлённый, поэтому форма не меняется."
+  - type: choice
+    q: "В каком предложении винительный падеж после na?"
+    options: ["Idę na pocztę.", "Jestem na poczcie."]
+    answer: 0
+    explain: "Движение «куда?» — винительный (pocztę). Место «где?» — предложный (poczcie), он будет в уроке 7.2."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "Mam ___. (książka)"
     options: [książka, książkę, książki]
     answer: 1
+    explain: "После mam — винительный; książka (ж. р.) → książkę. Форма książki — родительный."
   - type: input
     q: "Piję ___. (kawa)"
     answer: kawę
+    explain: "Женский род: kawa → kawę."
   - type: input
     q: "Widzę ___. (pies)"
     answer: psa
+    explain: "pies — одушевлённый: винительный = родительный, psa. Беглое e выпадает: pies → psa."
   - type: choice
     q: Какой падеж после «na» в значении направления?
     options: [родительный, винительный, предложный]
     answer: 1
+    explain: "Направление «куда?» после na, w — винительный падеж."
   - type: match
     q: Соедините именительный и винительный
     pairs:
       - [książka, książkę]
       - [pies, psa]
       - [okno, okno]
+    explain: "Женский род меняется (-ę), одушевлённый берёт родительный (psa), средний не меняется (okno)."
 ---
 ::

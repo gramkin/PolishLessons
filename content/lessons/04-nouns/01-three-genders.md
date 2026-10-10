@@ -24,6 +24,26 @@ rows:
 
 Слова :pl-word{id="kot"}, :pl-word{id="brat"}, :pl-word{id="ojciec"} кончаются на согласную — мужской род. Слова :pl-word{id="kobieta"}, :pl-word{id="matka"}, :pl-word{id="corka"} кончаются на **-a** — женский. Слова :pl-word{id="okno"} и :pl-word{id="pole"} кончаются на **-o** и **-e** — средний.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: Какого рода слово «kobieta»?
+    options: [мужского, женского, среднего]
+    answer: 1
+    explain: "Окончание -a — женский род, как у русского «женщина»."
+  - type: choice
+    q: Какого рода слово «samochód»?
+    options: [мужского, женского, среднего]
+    answer: 0
+    explain: "Согласная на конце — мужской род, как у «автомобиль»."
+  - type: input
+    q: "Вставьте указательное слово: ___ pole (ta / ten / to)"
+    answer: to
+    explain: "pole кончается на -e — средний род, поэтому to pole, как «это поле»."
+---
+::
+
 ## Женский род на согласную
 
 Вот здесь нужна осторожность. Не всякое слово на согласную — мужского рода. Как и в русском, есть женские слова, кончающиеся на мягкую согласную:
@@ -39,6 +59,30 @@ rows:
 
 :pron{pl="ta miłość"} — любовь, :pron{pl="ta młodość"} — молодость, :pron{pl="ta radość"} — радость.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: Какого рода слово «rzecz»?
+    options: [мужского, женского, среднего]
+    answer: 1
+    explain: "rzecz кончается на согласную, но это женский род — как русское «вещь»."
+  - type: input
+    q: "Вставьте указательное слово: ___ jesień (ta / ten / to)"
+    answer: ta
+    explain: "jesień — женского рода, как «осень»: ta jesień."
+  - type: input
+    q: "Вставьте указательное слово: ___ krew (ta / ten / to)"
+    answer: ta
+    explain: "krew — женского рода, как «кровь»: ta krew."
+  - type: choice
+    q: Какого рода слово «radość»?
+    options: [мужского, женского, среднего]
+    answer: 1
+    explain: "Слова на -ość всегда женского рода, как русские на -ость: ta radość."
+---
+::
+
 ## Один подвох: -um
 
 Заимствования на **-um** в польском **среднего** рода, а не мужского, как в русском:
@@ -49,27 +93,51 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: choice
+    q: Какого рода слово «centrum»?
+    options: [мужского, женского, среднего]
+    answer: 2
+    explain: "Заимствования на -um — среднего рода: to centrum, хотя русское «центр» мужского."
+  - type: input
+    q: "Idę do ___. (muzeum)"
+    answer: muzeum
+    explain: "Слова на -um в единственном числе не склоняются: do muzeum, w muzeum, z muzeum."
+  - type: input
+    q: "Вставьте указательное слово: ___ liceum (ta / ten / to)"
+    answer: to
+    explain: "liceum на -um — средний род: to liceum."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: Какого рода слово «okno»?
     options: [мужского, женского, среднего]
     answer: 2
+    explain: "Окончание -o — средний род, как у русского «окно»."
   - type: choice
     q: Какого рода слово «sól»?
     options: [мужского, женского, среднего]
     answer: 1
+    explain: "sól кончается на согласную, но женского рода — как русское «соль»."
   - type: input
     q: "Вставьте указательное слово: ___ kobieta (ta / ten / to)"
     answer: ta
+    explain: "kobieta на -a — женский род, поэтому ta."
   - type: input
     q: "Вставьте указательное слово: ___ muzeum (ta / ten / to)"
     answer: to
+    explain: "muzeum на -um — средний род, поэтому to, хотя «музей» по-русски мужского рода."
   - type: match
     q: Соедините слово и род
     pairs:
       - [brat, мужской]
       - [siostra, женский]
       - [pole, средний]
+    explain: "Согласная на конце — мужской род, -a — женский, -e — средний."
 ---
 ::

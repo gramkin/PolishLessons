@@ -28,6 +28,25 @@ rows:
 
 Русский устроен так же: «лучше, чем чай» и «лучше чая».
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "Ten film jest lepszy ___ tamten."
+    options: [niż, od]
+    answer: 0
+    explain: "После niż сравниваемое стоит в именительном, поэтому подходит tamten: lepszy niż tamten. С od было бы od tamtego."
+  - type: input
+    q: "Pociąg jest szybszy od ___. (autobus)"
+    answer: autobusu
+    explain: "od + родительный: autobus → autobusu, «быстрее автобуса»."
+  - type: input
+    q: "Pociąg jest szybszy niż ___. (autobus)"
+    answer: autobus
+    explain: "niż + именительный: autobus не меняется, «быстрее, чем автобус»."
+---
+::
+
 ## Bardziej — когда суффикс не годится
 
 Некоторые прилагательные не образуют степень через **-szy**. Тогда на помощь приходит :pl-word{id="bardziej"} «более»:
@@ -37,9 +56,40 @@ rows:
 
 Это касается прежде всего причастий и длинных заимствований: *znany*, *interesujący*, *skomplikowany*.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Это более сложная задача»: To jest ___ zadanie."
+    options: ["bardziej skomplikowane", "skomplikowańsze"]
+    answer: 0
+    explain: "skomplikowany — длинное причастие, суффикс к нему не присоединяется: bardziej skomplikowane."
+  - type: input
+    q: "«Самый известный актёр»: ___ znany aktor."
+    answer: najbardziej
+    explain: "Превосходная степень с bardziej — najbardziej: najbardziej znany."
+---
+::
+
 ## Осторожно: не оба сразу
 
 Нельзя сказать *bardziej lepszy*. Либо суффикс, либо :pl-word{id="bardziej"} — как в русском нельзя «более лучший».
+
+::quiz
+---
+questions:
+  - type: choice
+    q: Как правильно?
+    options: ["bardziej lepszy", "lepszy", "najbardziej lepszy"]
+    answer: 1
+    explain: "lepszy уже сравнительная степень. Добавлять bardziej нельзя, как в русском «более лучший»."
+  - type: choice
+    q: Как правильно?
+    options: ["bardziej znany", "znańszy"]
+    answer: 0
+    explain: "znany — причастие, степень образуется через bardziej."
+---
+::
 
 ## Coraz — «всё более»
 
@@ -49,26 +99,46 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "Dni są coraz ___. (długi, сравнительная)"
+    answer: dłuższe
+    explain: "długi → dłuższy (g → ż перед суффиксом); dni — не люди, поэтому -e: dłuższe."
+  - type: choice
+    q: "Ceny są coraz ___. (wysoki)"
+    options: [wyższe, wyżsi]
+    answer: 0
+    explain: "ceny — не люди, поэтому -e: wyższe. Форма wyżsi — только для мужчин."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "После niż какой падеж?"
     options: [именительный, родительный, творительный]
     answer: 0
+    explain: "После niż второй предмет стоит в именительном: lepsza niż herbata."
   - type: input
     q: "Kawa jest lepsza ___ herbaty. (od / niż)"
     answer: od
+    explain: "herbaty — родительный, а родительный требует od: lepsza od herbaty."
   - type: choice
     q: "Можно ли сказать «bardziej lepszy»?"
     options: [да, нет]
     answer: 1
+    explain: "Либо суффикс, либо bardziej. Двойная степень — ошибка, как «более лучший»."
   - type: input
     q: "«Всё короче» — ___ krótsze."
     answer: coraz
+    explain: "coraz плюс сравнительная степень значит «всё ...»: coraz krótsze."
   - type: match
     q: Соедините конструкцию и падеж
     pairs:
       - [niż, именительный]
       - [od, родительный]
+    explain: "niż — именительный, od — родительный."
 ---
 ::

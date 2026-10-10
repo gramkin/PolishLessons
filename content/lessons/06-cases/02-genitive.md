@@ -31,12 +31,50 @@ rows:
 
 Русский делает ровно то же: «нет времени», «нет хлеба». Это тот случай, когда думать не нужно — работает интуиция.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Nie ma ___. (mleko)"
+    answer: mleka
+    explain: "nie ma + родительный: mleko → mleka, как «нет молока»."
+  - type: input
+    q: "Nie ma ___. (woda)"
+    answer: wody
+    explain: "Женский род на -a в родительном получает -y: woda → wody, «нет воды»."
+  - type: choice
+    q: "W domu nie ma ___. (brat)"
+    options: [brat, brata, bratem]
+    answer: 1
+    explain: "Отсутствие человека — тоже родительный: nie ma brata, «брата нет дома»."
+---
+::
+
 ## Количество
 
 После слов :pl-word{id="duzo"}, :pl-word{id="malo"}, :pl-word{id="troche"}, :pl-word{id="kilka"}, :pl-word{id="wiele"} идёт родительный:
 
 :pron{pl="Mam dużo czasu."} — У меня много времени.
 :pron{pl="Kupiłem trochę chleba."} — Я купил немного хлеба.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Mam mało ___. (czas)"
+    answer: czasu
+    explain: "mało, dużo, trochę — всегда с родительным: czas → czasu."
+  - type: input
+    q: "Poproszę trochę ___. (woda)"
+    answer: wody
+    explain: "trochę «немного» + родительный: trochę wody."
+  - type: choice
+    q: "Mam dużo ___. (praca)"
+    options: [praca, pracę, pracy]
+    answer: 2
+    explain: "dużo + родительный: praca → pracy, «много работы»."
+---
+::
 
 ## Числа от пяти
 
@@ -46,6 +84,26 @@ rows:
 :pron{pl="Sześć kotów."} — Шесть котов.
 
 И снова русский устроен так же: «пять книг», «шесть котов». А вот два, три, четыре ведут себя иначе — об этом в главе о числах.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Mam pięć ___. (kot)"
+    options: [koty, kotów, kota]
+    answer: 1
+    explain: "От пяти — родительный множественного: pięć kotów, как «пять котов»."
+  - type: input
+    q: "Sześć ___. (książka)"
+    answer: książek
+    explain: "Родительный множественный от książka — książek, как «шесть книг»."
+  - type: choice
+    q: "Mam dwa ___. (kot)"
+    options: [koty, kotów]
+    answer: 0
+    explain: "А вот после 2, 3, 4 — именительный множественного: dwa koty. По-русски «два кота», так что здесь интуиция подводит."
+---
+::
 
 ## Предлоги
 
@@ -57,27 +115,51 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "To prezent dla ___. (mama)"
+    answer: mamy
+    explain: "dla «для» + родительный: mama → mamy."
+  - type: input
+    q: "Herbata bez ___. (cukier)"
+    answer: cukru
+    explain: "bez + родительный: cukier → cukru, «без сахара». Беглое e выпадает."
+  - type: choice
+    q: "Wracam od ___. (lekarz)"
+    options: [lekarz, lekarza, lekarzem]
+    answer: 1
+    explain: "od «от» + родительный: od lekarza, «от врача»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "Nie ma ___. (czas)"
     options: [czas, czasu, czasem]
     answer: 1
+    explain: "Отсутствие — nie ma + родительный: czas → czasu."
   - type: input
     q: "Mam dużo ___. (czas)"
     answer: czasu
+    explain: "Количество: dużo + родительный."
   - type: input
     q: "Idę do ___. (dom)"
     answer: domu
+    explain: "do + родительный: do domu — «домой». Русский здесь говорит наречием, польский — предлогом с падежом."
   - type: choice
     q: Какой падеж после «pięć»?
     options: [именительный, винительный, родительный]
     answer: 2
+    explain: "От пяти и выше — родительный множественного: pięć kotów."
   - type: match
     q: Соедините предлог и перевод
     pairs:
       - [do, "в, к"]
       - [bez, без]
       - [dla, для]
+    explain: "Все три предлога требуют родительного."
 ---
 ::

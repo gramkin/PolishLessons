@@ -32,6 +32,30 @@ rows:
 
 Разница в одной букве, но она обязательна, и на слух заметна сразу.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Chłopcy ___ w parku. (grać)"
+    answer: grali
+    explain: "Мальчики — мужско-личная группа: -li, grali."
+  - type: input
+    q: "Dziewczyny ___ w parku. (grać)"
+    answer: grały
+    explain: "Только девушки — -ły: grały."
+  - type: choice
+    q: "Nauczyciele ___ list. (napisać)"
+    options: [napisały, napisali]
+    answer: 1
+    explain: "nauczyciele — мужчины-учителя, поэтому napisali."
+  - type: choice
+    q: "Кто говорит «Byliśmy w kinie»?"
+    options: ["группа, где есть мужчина", "только женщины"]
+    answer: 0
+    explain: "-liśmy — мужско-личное «мы». Только женщины скажут byłyśmy."
+---
+::
+
 ## Смешанная группа
 
 Достаточно одного мужчины, чтобы вся группа стала мужско-личной:
@@ -39,6 +63,26 @@ rows:
 :pron{pl="Anna i Piotr spotkali się wczoraj."} — Анна и Пётр встретились вчера.
 
 Хотя женщина названа первой, глагол берёт **-li**, потому что среди них есть Пётр.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Mama i tata ___ do domu. (wrócić)"
+    options: [wróciły, wrócili]
+    answer: 1
+    explain: "В паре есть мужчина (tata) — значит -li."
+  - type: choice
+    q: "Ewa i Kasia ___ do domu. (wrócić)"
+    options: [wróciły, wrócili]
+    answer: 0
+    explain: "Две женщины, мужчин нет — -ły."
+  - type: input
+    q: "Marta, Ola i Paweł ___ film. (oglądać)"
+    answer: oglądali
+    explain: "Хватает одного мужчины (Paweł), чтобы группа стала мужско-личной: oglądali."
+---
+::
 
 ## Предметы всегда -ły
 
@@ -49,27 +93,52 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: input
+    q: "Okna ___ otwarte. (być)"
+    answer: były
+    explain: "Предметы — всегда -ły: okna były."
+  - type: choice
+    q: "Psy ___ całą noc. (szczekać)"
+    options: [szczekali, szczekały]
+    answer: 1
+    explain: "Животные не мужско-личные: psy szczekały, хотя pies — мужского рода."
+  - type: choice
+    q: "Autobusy ___ późno. (przyjechać)"
+    options: [przyjechali, przyjechały]
+    answer: 1
+    explain: "autobus мужского рода, но это не человек: -ły."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "Anna i Piotr ___ się wczoraj."
     options: [spotkały, spotkali, spotkało]
     answer: 1
+    explain: "В паре есть мужчина (Piotr) — мужско-личное -li, хотя Anna названа первой."
   - type: input
     q: "Studentki ___ do domu. (wrócić)"
     answer: wróciły
+    explain: "Только женщины — -ły: wróciły."
   - type: input
     q: "Książki ___ na stole. (leżeć)"
     answer: leżały
+    explain: "Предметы — всегда -ły: leżały."
   - type: choice
     q: "Группа из трёх женщин и одного мужчины — какое окончание?"
     options: ["-ły", "-li"]
     answer: 1
+    explain: "Хватает одного мужчины в группе — -li."
   - type: match
     q: Соедините подлежащее и глагол
     pairs:
       - [studenci, czytali]
       - [kobiety, czytały]
       - [książki, leżały]
+    explain: "Мужчины — -li; женщины и предметы — -ły."
 ---
 ::

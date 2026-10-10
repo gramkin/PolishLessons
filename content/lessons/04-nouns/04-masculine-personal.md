@@ -28,6 +28,27 @@ rows:
 ---
 ::
 
+::quiz
+---
+questions:
+  - type: choice
+    q: Какое местоимение подойдёт для «Anna i Marek»?
+    options: [oni, one]
+    answer: 0
+    explain: "В группе есть мужчина (Marek), значит, мужской личный род: oni."
+  - type: choice
+    q: Какое местоимение подойдёт для «Anna i Ewa»?
+    options: [oni, one]
+    answer: 1
+    explain: "Мужчин в группе нет: one."
+  - type: choice
+    q: Какое местоимение подойдёт для «psy» (собаки)?
+    options: [oni, one]
+    answer: 1
+    explain: "Животные не входят в мужской личный род, даже если это самцы: one."
+---
+::
+
 ## Как это слышно
 
 Сравните две фразы:
@@ -37,6 +58,26 @@ rows:
 
 Глагол тоже меняется: **byli** для мужского личного рода, **były** для всего остального. Разница в одной букве, но она обязательна.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "Nauczyciele ___ zadowoleni. (być, прошедшее время)"
+    answer: byli
+    explain: "nauczyciele — мужской личный род, поэтому byli."
+  - type: choice
+    q: "Kobiety ___ w domu."
+    options: [byli, były]
+    answer: 1
+    explain: "Мужчин в группе нет, поэтому były."
+  - type: choice
+    q: "Marek i Ewa ___ w kinie."
+    options: [byli, były]
+    answer: 0
+    explain: "Хватит одного мужчины в группе, чтобы был мужской личный род: byli."
+---
+::
+
 ## Что попадает в «остальное»
 
 Почти всё. Слова :pl-word{id="program"}, :pl-word{id="temat"}, :pl-word{id="problem"}, :pl-word{id="adres"} — мужского рода в единственном числе, но во множественном берут окончание **-y** и местоимение **one**, потому что это не люди:
@@ -45,9 +86,45 @@ rows:
 
 А вот :pl-word{id="nauczyciel"} — человек, и значит: *ci nauczyciele*, *oni byli*.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: Какое местоимение подойдёт для «problemy»?
+    options: [oni, one]
+    answer: 1
+    explain: "problem мужского рода, но это не человек: one, te problemy."
+  - type: input
+    q: "Tematy ___ trudne. (być, прошедшее время)"
+    answer: były
+    explain: "temat — не человек, поэтому во множественном były."
+  - type: choice
+    q: Как сказать «эти адреса»?
+    options: [ci adresy, te adresy]
+    answer: 1
+    explain: "te — для всего, кроме мужчин; ci — только для мужского личного рода: ci nauczyciele."
+---
+::
+
 ## Короткое правило
 
 Спросите себя: «в группе есть мужчина?» Если да — **oni** и **-li** в глаголе. Если нет — **one** и **-ły**. Женщины, дети, кошки и телефоны попадают в одну корзину, как бы странно это ни звучало.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Dzieci ___ zmęczone."
+    options: [byli, były]
+    answer: 1
+    explain: "Дети не относятся к мужскому личному роду: były zmęczone."
+  - type: choice
+    q: "Bracia ___ w Krakowie."
+    options: [byli, były]
+    answer: 0
+    explain: "bracia «братья» — мужчины, поэтому byli."
+---
+::
 
 ::quiz
 ---
@@ -57,21 +134,26 @@ questions:
     q: "Какое местоимение подойдёт: ___ byli w szkole (учителя)?"
     options: [one, oni, ona]
     answer: 1
+    explain: "nauczyciele — группа с мужчинами, мужской личный род: oni."
   - type: choice
     q: "Какое местоимение подойдёт: ___ były gotowe (программы)?"
     options: [one, oni, ono]
     answer: 0
+    explain: "programy — не люди, поэтому one."
   - type: input
     q: "Множественное число от «nauczyciel»?"
     answer: nauczyciele
+    explain: "Мужской личный род: nauczyciel → nauczyciele."
   - type: input
     q: "Programy ___ gotowe. (być, прошедшее время)"
     answer: były
+    explain: "programy — не люди, поэтому były, а не byli."
   - type: match
     q: Соедините группу и местоимение
     pairs:
       - [nauczyciele, oni]
       - [kobiety, one]
       - [programy, one]
+    explain: "Мужчины — oni; женщины и предметы — one."
 ---
 ::

@@ -28,6 +28,27 @@ rows:
 :pron{pl="Czytałem książkę."} — Я читал книгу. *(процесс)*
 :pron{pl="Przeczytałem książkę."} — Я прочитал книгу. *(результат)*
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "Как сказать «Я прочитал книгу»?"
+    options: ["Czytałem książkę.", "Przeczytałem książkę."]
+    answer: 1
+    explain: "Результат — совершенный вид: przeczytałem, как «прочитал». Czytałem — «читал», процесс."
+  - type: choice
+    q: "Wczoraj cały wieczór ___ książkę."
+    options: [czytałem, przeczytałem]
+    answer: 0
+    explain: "«Весь вечер» — это процесс, поэтому несовершенный вид: czytałem, как «весь вечер читал»."
+  - type: choice
+    q: "Zjadłem obiad. Какой вид у глагола?"
+    options: [несовершенный, совершенный]
+    answer: 1
+    explain: "zjeść — совершенная пара к jeść: zjadłem — «съел», результат."
+---
+::
+
 ## Одно важное следствие
 
 У совершенного вида **нет настоящего времени**. Это логично: нельзя «прямо сейчас» завершить действие. Поэтому формы, которые выглядят как настоящее время, у совершенного глагола означают **будущее**:
@@ -36,6 +57,27 @@ rows:
 :pron{pl="Przeczytam książkę."} — Я прочитаю книгу. *(потом)*
 
 Одна приставка — и настоящее превращается в будущее. Русский делает то же самое: «читаю» и «прочитаю».
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Zrobię to» — когда?"
+    options: [сейчас, потом]
+    answer: 1
+    explain: "zrobić — совершенный вид: форма, похожая на настоящее время, означает будущее, «сделаю»."
+  - type: choice
+    q: "«Robię to» — когда?"
+    options: [сейчас, потом]
+    answer: 0
+    explain: "robić — несовершенный вид: robię — настоящее время, «делаю»."
+  - type: choice
+    q: "Как сказать «Я сейчас пишу письмо»?"
+    options: ["Piszę list.", "Napiszę list."]
+    answer: 0
+    explain: "Сейчас — только несовершенный вид: piszę. Napiszę — «напишу», это будущее."
+---
+::
 
 ## Что из этого следует для будущего времени
 
@@ -48,27 +90,53 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: choice
+    q: "Как сказать «Я буду читать»?"
+    options: ["Przeczytam.", "Będę czytać."]
+    answer: 1
+    explain: "«Буду читать» — процесс в будущем, несовершенный вид, поэтому составное будущее: będę czytać."
+  - type: choice
+    q: "Как сказать «Я прочитаю»?"
+    options: ["Przeczytam.", "Będę przeczytać."]
+    answer: 0
+    explain: "Совершенный вид даёт простое будущее: przeczytam. «Będę przeczytać» неправильно, как и русское «буду прочитать»."
+  - type: choice
+    q: "Какое будущее у совершенных глаголов?"
+    options: [простое, составное]
+    answer: 0
+    explain: "Совершенный вид → простое будущее (przeczytam), несовершенный → составное (będę czytać)."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "«Przeczytam książkę» — это когда?"
     options: [сейчас, потом, вчера]
     answer: 1
+    explain: "przeczytać — совершенный вид: форма przeczytam означает будущее, «прочитаю»."
   - type: input
     q: "czytać → совершенный вид?"
     answer: przeczytać
+    explain: "Приставка prze- делает czytać совершенным: przeczytać, «прочитать»."
   - type: input
     q: "pisać → совершенный вид?"
     answer: napisać
+    explain: "Приставка na-: pisać → napisać, как «писать → написать»."
   - type: choice
     q: Есть ли у совершенного вида настоящее время?
     options: [да, нет]
     answer: 1
+    explain: "Совершенное действие нельзя совершать «прямо сейчас», поэтому его «настоящие» формы означают будущее."
   - type: match
     q: Соедините пару
     pairs:
       - [robić, zrobić]
       - [jeść, zjeść]
       - [czytać, przeczytać]
+    explain: "Слева несовершенный вид, справа совершенный, как «делать — сделать»."
 ---
 ::
