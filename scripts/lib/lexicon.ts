@@ -105,7 +105,33 @@ export function lessonWords(body: string): Finding[] {
   return findings
 }
 
+// PoliMorf stores agglutinated forms in pieces: zrobiłbym = zrobił + by + m, gdzieś = gdzie + ś,
+// gdybym = gdyby + m. A word made of a known form plus the conditional by and/or a movable person
+// ending is real; the 1st/2nd-person endings attach as -em/-eś after a consonant (przyszedłem).
+const PERSON = /(?:śmy|ście|m|ś)$/
+const BY = /by$/
+
+function stems(word: string): string[] {
+  const out: string[] = []
+  const add = (s: string) => {
+    if (s.length >= 2 && s !== word) out.push(s, s.replace(/e$/, ''))
+  }
+  const noPerson = word.replace(PERSON, '')
+  add(noPerson)
+  add(noPerson.replace(BY, ''))
+  add(word.replace(BY, ''))
+  return out
+}
+
+/** Is `word` known, directly or as a known form + by and/or a person ending? */
+export function isKnownForm(word: string, known: (word: string) => boolean): boolean {
+  for (const w of new Set([word, word.toLowerCase()])) {
+    if (known(w) || stems(w).some((s) => known(s))) return true
+  }
+  return false
+}
+
 /** Words of `findings` that no lexicon knows. Case is folded: sentence-initial capitals are fine. */
 export function unknownWords(findings: Finding[], known: (word: string) => boolean): Finding[] {
-  return findings.filter((f) => !known(f.word) && !known(f.word.toLowerCase()))
+  return findings.filter((f) => !isKnownForm(f.word, known))
 }

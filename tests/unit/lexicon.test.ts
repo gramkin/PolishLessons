@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { intendedNonWords, lessonWords, unknownWords } from '../../scripts/lib/lexicon'
+import { intendedNonWords, isKnownForm, lessonWords, unknownWords } from '../../scripts/lib/lexicon'
 
 const known = new Set(['mam', 'kota', 'czytam', 'gazetę', 'gazeta', 'studentowi', 'widzę'])
 const isKnown = (w: string) => known.has(w)
@@ -39,5 +39,27 @@ describe('unknownWords', () => {
     ].join('\n')
     expect([...intendedNonWords(body)].sort()).toEqual(['gazete', 'gazetą', 'studentu'])
     expect(unknownWords(lessonWords(body), isKnown)).toEqual([])
+  })
+})
+
+describe('isKnownForm', () => {
+  const forms = new Set(['mógł', 'gdyby', 'gdzie', 'zrobili', 'przyszedł', 'co'])
+  const has = (w: string) => forms.has(w)
+
+  it('accepts a known form with the conditional by and a person ending', () => {
+    for (const w of [
+      'mógłbym',
+      'Gdybym',
+      'gdybyśmy',
+      'zrobilibyśmy',
+      'Gdzieśmy',
+      'coście',
+      'przyszedłem',
+    ])
+      expect(isKnownForm(w, has)).toBe(true)
+  })
+
+  it('still rejects a misspelled stem', () => {
+    for (const w of ['mogłbym', 'gdibym', 'przyszłem']) expect(isKnownForm(w, has)).toBe(false)
   })
 })

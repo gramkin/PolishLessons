@@ -190,6 +190,9 @@ describe('personHint', () => {
     expect(personHint({ table: 'Простое будущее время', row: '2-е лицо', column: 'Мн. ч.' })).toBe(
       'вы',
     )
+    expect(
+      personHint({ table: 'Повелительное наклонение', row: '1-е л. мн. ч.', column: 'Форма' }),
+    ).toBe('мы')
   })
 })
 

@@ -205,7 +205,7 @@ export const drillSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   title: text,
   instruction: text,
-  pos: z.enum(['noun', 'verb', 'adj']),
+  pos: z.enum(['noun', 'verb', 'adj', 'pron', 'num']),
   cells: z.array(drillCellSchema).min(1),
   // Case-insensitive regex the Polish sentence must contain (e.g. a negation).
   require: z.string().optional(),

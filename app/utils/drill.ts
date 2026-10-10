@@ -60,8 +60,16 @@ const PLURAL_GROUP: Record<string, string> = {
   прочие: ', без мужчин',
 }
 
+// Imperative rows name the person outright.
+const IMPERATIVE: Record<string, string> = {
+  '2-е л. ед. ч.': 'ты',
+  '1-е л. мн. ч.': 'мы',
+  '2-е л. мн. ч.': 'вы',
+}
+
 /** Who a verb form is for, in the learner's terms: «я, ж.», «она», «они, без мужчин». */
 export function personHint(cell: Cell): string {
+  if (IMPERATIVE[cell.row]) return IMPERATIVE[cell.row]!
   const persons = PERSON[cell.row]
   if (!persons) return ''
   // Present and simple-future tables split number by column; past and conditional by table.
