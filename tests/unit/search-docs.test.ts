@@ -13,6 +13,7 @@ const words = [
 ]
 
 const bundle: ContentBundle = {
+  drills: null,
   chapters: { path: 'chapters.yml', data: { chapters: [{ number: 1, title: 'Алфавит' }] } },
   patterns: {
     path: 'patterns.yml',

@@ -17,6 +17,7 @@ export interface MarkdownFile {
 export interface ContentBundle {
   chapters: DataFile | null
   patterns: DataFile | null
+  drills: DataFile | null
   words: DataFile[]
   stories: DataFile[]
   books: DataFile[]
@@ -59,6 +60,7 @@ export function loadContent(root: string, options: { cardIds?: string[] } = {}):
   return {
     chapters: optional(join(root, 'chapters.yml'), (f) => readData(root, f)),
     patterns: optional(join(root, 'patterns.yml'), (f) => readData(root, f)),
+    drills: optional(join(root, 'drills.yml'), (f) => readData(root, f)),
     words: listFiles(join(root, 'words'), '.yml').map((f) => readData(root, f)),
     stories: listFiles(join(root, 'stories'), '.yml').map((f) => readData(root, f)),
     books: listFiles(join(root, 'books'), '.yml').map((f) => readData(root, f)),

@@ -165,3 +165,6 @@ questions:
     explain: "Все три меняют основу: iść → szedł, móc → mógł, jeść → jadł."
 ---
 ::
+
+::drill{id="verb-past-irregular"}
+::

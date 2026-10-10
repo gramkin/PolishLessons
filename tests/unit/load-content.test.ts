@@ -42,6 +42,7 @@ describe('loadContent', () => {
     expect(bundle).toEqual({
       chapters: null,
       patterns: null,
+      drills: null,
       words: [],
       stories: [],
       books: [],

@@ -8,6 +8,9 @@ import {
   chapterSchema,
   lessonFrontmatterSchema,
   patternFileSchema,
+  drillCellSchema,
+  drillFileSchema,
+  drillSchema,
   patternSchema,
   sentenceSchema,
   storySchema,
@@ -41,7 +44,15 @@ const bookStrict = bookSchema
   })
   .strict()
 
-const REFERENCE_COMPONENTS = ['pl-word', 'pron', 'false-friend', 'cognate-list']
+const drillFileStrict = drillFileSchema
+  .extend({
+    drills: z.array(
+      drillSchema.extend({ cells: z.array(drillCellSchema.strict()).min(1) }).strict(),
+    ),
+  })
+  .strict()
+
+const REFERENCE_COMPONENTS = ['pl-word', 'pron', 'false-friend', 'cognate-list', 'drill']
 const COMPONENT_RE = /:{1,2}([a-z][a-z-]*)\{([^}]*)\}/g
 const ATTR_RE = /([a-zA-Z][\w-]*)="([^"]*)"/g
 
@@ -82,10 +93,16 @@ function checkMarkdownRefs(
   file: MarkdownFile,
   words: Map<string, Word>,
   patterns: Map<string, Pattern>,
+  drills: Set<string>,
   errors: string[],
 ): void {
   for (const ref of findComponentRefs(file.body)) {
     const id = ref.attrs.id
+    if (ref.name === 'drill') {
+      if (!id || !drills.has(id))
+        errors.push(`${file.path}: drill references unknown drill "${id ?? ''}"`)
+      continue
+    }
     if (ref.name === 'cognate-list') {
       const pattern = ref.attrs.pattern
       if (!pattern || !patterns.has(pattern)) {
@@ -123,6 +140,23 @@ export function validateContent(bundle: ContentBundle): string[] {
   } else {
     const parsed = parseWith(patternFileStrict, bundle.patterns.data, bundle.patterns.path, errors)
     parsed?.patterns.forEach((p) => patterns.set(p.id, p))
+  }
+
+  const drills = new Set<string>()
+  if (bundle.drills) {
+    const parsed = parseWith(drillFileStrict, bundle.drills.data, bundle.drills.path, errors)
+    for (const drill of parsed?.drills ?? []) {
+      if (drills.has(drill.id))
+        errors.push(`${bundle.drills.path}: duplicate drill id "${drill.id}"`)
+      drills.add(drill.id)
+      if (drill.require) {
+        try {
+          new RegExp(drill.require, 'iu')
+        } catch {
+          errors.push(`${bundle.drills.path}: drill "${drill.id}" has an invalid require pattern`)
+        }
+      }
+    }
   }
 
   const words = new Map<string, Word>()
@@ -182,10 +216,10 @@ export function validateContent(bundle: ContentBundle): string[] {
           errors.push(`${file.path}: unknown word id "${id}" in frontmatter words`)
       }
     }
-    checkMarkdownRefs(file, words, patterns, errors)
+    checkMarkdownRefs(file, words, patterns, drills, errors)
   }
 
-  if (bundle.cheatsheet) checkMarkdownRefs(bundle.cheatsheet, words, patterns, errors)
+  if (bundle.cheatsheet) checkMarkdownRefs(bundle.cheatsheet, words, patterns, drills, errors)
 
   for (const file of bundle.stories) {
     const story = parseWith(storyStrict, file.data, file.path, errors)

@@ -151,3 +151,6 @@ questions:
     explain: "mama → mamo, kolega → kolego, syn → synu."
 ---
 ::
+
+::drill{id="noun-voc"}
+::

@@ -171,6 +171,42 @@ export const quizSchema = z
     })
   })
 
+/**
+ * A drill picks dictionary form examples whose form fills exactly one cell
+ * of its word's paradigm, so the sentence shows that cell and nothing else.
+ * `table` matches a forms-table title by prefix; `row` and `column` must
+ * match exactly when given.
+ */
+export const drillCellSchema = z.object({
+  table: text,
+  row: text.optional(),
+  column: text.optional(),
+})
+
+export const drillSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: text,
+  instruction: text,
+  pos: z.enum(['noun', 'verb', 'adj']),
+  cells: z.array(drillCellSchema).min(1),
+  // Case-insensitive regex the Polish sentence must contain (e.g. a negation).
+  require: z.string().optional(),
+  // Only these card ids, for drills on a closed list of words.
+  cards: z.array(text).optional(),
+  // Only sentences from Tatoeba, whose forms come from real text, not from a generated table.
+  sourcedOnly: z.boolean().default(false),
+  // Only verbs of this aspect, for drills on the simple future.
+  aspect: z.enum(['imperf', 'perf']).optional(),
+  maxRank: z.number().int().positive().default(3000),
+  // `person` adds who the verb form is for («я (ж.)», «они (без мужчин)»).
+  hint: z.enum(['lemma', 'person']).default('lemma'),
+})
+
+export const drillFileSchema = z.object({ drills: z.array(drillSchema).min(1) })
+
+export type DrillCell = z.infer<typeof drillCellSchema>
+export type Drill = z.infer<typeof drillSchema>
+
 export type Level = z.infer<typeof levelSchema>
 export type Word = z.infer<typeof wordSchema>
 export type Pattern = z.infer<typeof patternSchema>

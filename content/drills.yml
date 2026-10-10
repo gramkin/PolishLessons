@@ -1,0 +1,131 @@
+# Тренажёры: предложения из словаря с пропущенной формой.
+# Ячейки — заголовки таблиц из content/forms (table совпадает по началу строки).
+# require проверяется на тексте до пропуска.
+# Лекции подключают тренажёр компонентом ::drill{id="..."}.
+drills:
+  - id: verb-present
+    title: Настоящее время
+    instruction: Поставьте глагол в нужную форму настоящего времени.
+    pos: verb
+    cells: [{ table: Настоящее время }]
+    # Генератор иногда подписывает будущее совершенных глаголов как настоящее (zginąć).
+    aspect: imperf
+    hint: person
+
+  - id: noun-acc-sg
+    title: Винительный падеж
+    instruction: Поставьте существительное в винительный падеж.
+    pos: noun
+    cells: [{ table: Склонение, row: Винительный, column: Ед. ч. }]
+
+  - id: noun-gen
+    title: Родительный падеж
+    instruction: Поставьте существительное в родительный падеж.
+    pos: noun
+    cells: [{ table: Склонение, row: Родительный, column: Ед. ч. }]
+
+  - id: noun-gen-negation
+    title: Родительный после отрицания
+    instruction: Поставьте существительное в нужный падеж. Во всех предложениях есть nie.
+    pos: noun
+    cells: [{ table: Склонение, row: Родительный, column: Ед. ч. }]
+    # Отрицание стоит до пропуска.
+    require: "(?<!\\p{L})nie(?!\\p{L})"
+
+  - id: noun-gen-verbs
+    title: Глаголы и предлоги с родительным
+    instruction: Поставьте существительное в нужный падеж после глагола или предлога.
+    pos: noun
+    cells: [{ table: Склонение, row: Родительный, column: Ед. ч. }]
+    require: "(?<!\\p{L})(?:słucha|szuka|potrzebuj|używa|boj|boi|bał|uczy|uczę|obok|oprócz|według|bez|dla)"
+
+  - id: noun-inst
+    title: Творительный падеж
+    instruction: Поставьте существительное в творительный падеж.
+    pos: noun
+    cells: [{ table: Склонение, row: Творительный, column: Ед. ч. }]
+
+  - id: noun-loc
+    title: Предложный падеж
+    instruction: Поставьте существительное в предложный падеж.
+    pos: noun
+    cells: [{ table: Склонение, row: Предложный, column: Ед. ч. }]
+
+  - id: noun-dat
+    title: Дательный падеж
+    instruction: Поставьте существительное в дательный падеж.
+    pos: noun
+    cells: [{ table: Склонение, row: Дательный, column: Ед. ч. }]
+
+  - id: noun-voc
+    title: Звательный падеж
+    instruction: Поставьте существительное в звательный падеж — форму обращения.
+    pos: noun
+    cells: [{ table: Склонение, row: Звательный, column: Ед. ч. }]
+    # Только люди: у неодушевлённых слов звательный звучит как олицетворение.
+    cards: [mama, tata, pan, corka, siostra, kolega, kolezanka, przyjaciolka, babcia, chlopiec, dziewczyna, mamusia, panna, panienka, mezczyzna, kobieta, sasiadka, kierowca, nauczycielka, studentka, ciocia, krolowa, ksiadz, ojciec, matka, zona]
+    maxRank: 5400
+
+  - id: noun-prepositions
+    title: Предлоги и падежи
+    instruction: Поставьте существительное в падеж, которого требует предлог и смысл — «где», «куда», «откуда» или «с кем».
+    pos: noun
+    cells:
+      - { table: Склонение, row: Винительный, column: Ед. ч. }
+      - { table: Склонение, row: Предложный, column: Ед. ч. }
+      - { table: Склонение, row: Творительный, column: Ед. ч. }
+      - { table: Склонение, row: Родительный, column: Ед. ч. }
+    # Предлог прямо перед пропуском или через одно слово (na tym stole).
+    require: "(?:^|\\s)(?:w|we|na|z|ze|pod|nad|przed|za|do|po|o)\\s+(?:\\p{L}+\\s+)?$"
+
+  - id: verb-past
+    title: Прошедшее время
+    instruction: Поставьте глагол в прошедшее время — для того лица, что указано в скобках.
+    pos: verb
+    cells: [{ table: Прошедшее время }]
+    hint: person
+
+  - id: verb-past-plural
+    title: «-li» или «-ły»
+    instruction: Поставьте глагол в прошедшее время множественного числа. В скобках сказано, есть ли в группе мужчины.
+    pos: verb
+    cells: [{ table: Прошедшее время (мн. ч.) }]
+    hint: person
+
+  - id: verb-past-irregular
+    title: Неправильное прошедшее время
+    instruction: Поставьте глагол в прошедшее время. У всех этих глаголов основа меняется.
+    pos: verb
+    cells: [{ table: Прошедшее время }]
+    cards: [isc, pojsc, przyjsc, wyjsc, wejsc, dojsc, odejsc, moc, jesc, zjesc, zaczac, wiedziec, wziac]
+    maxRank: 5400
+    hint: person
+
+  - id: verb-future-simple
+    title: Простое будущее время
+    instruction: Поставьте совершенный глагол в будущее время.
+    pos: verb
+    cells: [{ table: Простое будущее время }]
+    aspect: perf
+    hint: person
+
+  - id: adj-comparative
+    title: Сравнительная степень
+    instruction: Поставьте прилагательное в сравнительную или превосходную степень.
+    pos: adj
+    cells:
+      - { table: Степени сравнения, row: Сравнительная }
+      - { table: Степени сравнения, row: Превосходная }
+    # Таблицы степеней сгенерированы по правилу и ошибаются на исключениях (pusty → «puściejszy»
+    # вместо pustszy), поэтому берём только предложения из Tatoeba: их формы взяты из живого текста.
+    sourcedOnly: true
+
+  - id: adj-irregular
+    title: Неправильные степени сравнения
+    instruction: Поставьте прилагательное в сравнительную или превосходную степень.
+    pos: adj
+    cells:
+      - { table: Степени сравнения, row: Сравнительная }
+      - { table: Степени сравнения, row: Превосходная }
+    cards: [dobry, zly, duzy, maly, wysoki]
+    maxRank: 5400

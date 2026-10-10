@@ -156,3 +156,6 @@ questions:
     explain: "Все три глагола требуют родительного."
 ---
 ::
+
+::drill{id="noun-gen-verbs"}
+::

@@ -142,3 +142,6 @@ questions:
     explain: "Мужчины — -li; женщины и предметы — -ły."
 ---
 ::
+
+::drill{id="verb-past-plural"}
+::

@@ -135,3 +135,6 @@ questions:
     explain: "lepszy и mniejszy образованы от другого корня, wyższy — с чередованием в основе. Все три нужно запомнить."
 ---
 ::
+
+::drill{id="adj-irregular"}
+::

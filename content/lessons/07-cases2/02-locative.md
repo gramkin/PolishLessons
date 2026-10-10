@@ -146,3 +146,6 @@ questions:
     explain: "szkoła → w szkole (ł → l), biuro → w biurze (r → rz), hotel → w hotelu (-u)."
 ---
 ::
+
+::drill{id="noun-loc"}
+::

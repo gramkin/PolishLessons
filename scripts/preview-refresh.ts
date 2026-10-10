@@ -22,6 +22,7 @@ import {
   mergeIndex,
   partialPublishBlocker,
 } from './dictionary/lib/publish'
+import { writeDrills } from './lib/drills'
 import { loadContent } from './lib/load-content'
 import {
   diffFingerprints,
@@ -54,6 +55,8 @@ const INPUTS = [
   'pnpm-lock.yaml',
   'tsconfig.json',
   'scripts/build-search-index.ts',
+  'scripts/build-drills.ts',
+  'scripts/lib/drills.ts',
   'scripts/lib/search-docs.ts',
   'scripts/lib/load-content.ts',
   'scripts/dictionary/lib/publish.ts',
@@ -61,6 +64,7 @@ const INPUTS = [
 ]
 const isGenerated = (path: string) =>
   path.startsWith('public/dictionary/') ||
+  path.startsWith('public/drills/') ||
   path === 'public/search-index.json' ||
   path.endsWith('.DS_Store')
 
@@ -204,6 +208,9 @@ async function refresh() {
   if (plan.cardIds.length > 0) {
     const blocker = refreshCards(plan.cardIds)
     if (blocker) fullGenerate(blocker)
+    // Drills are sentences from cards: rebuild them from the freshly published cards (about a second).
+    writeDrills('public')
+    writeDrills(BUILT)
   }
   refreshSearch(plan.cardIds, plan.searchOwners)
 

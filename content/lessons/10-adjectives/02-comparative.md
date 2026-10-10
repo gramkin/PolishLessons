@@ -146,3 +146,6 @@ questions:
     explain: "ciekawy и stary берут -szy, łatwy — -ejszy."
 ---
 ::
+
+::drill{id="adj-comparative"}
+::

@@ -227,3 +227,6 @@ questions:
     explain: "piszę и robię — на -ę (I и II), czytam — на -am (III), jem — на -em (IV)."
 ---
 ::
+
+::drill{id="verb-present"}
+::

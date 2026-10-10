@@ -149,3 +149,6 @@ questions:
     explain: "ja (м.) — byłem, ja (ж.) — byłam, ty (м.) — byłeś: окончание лица приклеено к глаголу."
 ---
 ::
+
+::drill{id="verb-past"}
+::

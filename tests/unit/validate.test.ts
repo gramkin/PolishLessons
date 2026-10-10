@@ -2,8 +2,17 @@ import { describe, expect, it } from 'vitest'
 import type { ContentBundle } from '../../scripts/lib/load-content'
 import { findComponentRefs, validateContent } from '../../scripts/lib/validate'
 
+const drill = {
+  id: 'noun-acc-sg',
+  title: 'Винительный падеж',
+  instruction: 'Поставьте слово в винительный падеж.',
+  pos: 'noun',
+  cells: [{ table: 'Склонение', row: 'Винительный', column: 'Ед. ч.' }],
+}
+
 function validBundle(): ContentBundle {
   return {
+    drills: { path: 'drills.yml', data: { drills: [drill] } },
     chapters: { path: 'chapters.yml', data: { chapters: [{ number: 1, title: 'Алфавит' }] } },
     patterns: {
       path: 'patterns.yml',
@@ -258,5 +267,33 @@ describe('books', () => {
     expect(validateContent(bundle)).toContain(
       'books/alicja-01.yml: paragraph 1: form "kaczka" not found in the text',
     )
+  })
+})
+
+describe('drills', () => {
+  it('accepts a lesson that uses a known drill', () => {
+    const bundle = validBundle()
+    bundle.lessons[0]!.body += '\n::drill{id="noun-acc-sg"}\n::\n'
+    expect(validateContent(bundle)).toEqual([])
+  })
+
+  it('reports an unknown drill id', () => {
+    const bundle = validBundle()
+    bundle.lessons[0]!.body += '\n::drill{id="nope"}\n::\n'
+    expect(validateContent(bundle)).toContainEqual(expect.stringContaining('unknown drill "nope"'))
+  })
+
+  it('rejects a duplicate id and an invalid require pattern', () => {
+    const bundle = validBundle()
+    bundle.drills = { path: 'drills.yml', data: { drills: [drill, { ...drill, require: '(' }] } }
+    const errors = validateContent(bundle)
+    expect(errors).toContainEqual(expect.stringContaining('duplicate drill id "noun-acc-sg"'))
+    expect(errors).toContainEqual(expect.stringContaining('invalid require pattern'))
+  })
+
+  it('rejects an unknown key', () => {
+    const bundle = validBundle()
+    bundle.drills = { path: 'drills.yml', data: { drills: [{ ...drill, colour: 'red' }] } }
+    expect(validateContent(bundle)).toContainEqual(expect.stringContaining('colour'))
   })
 })

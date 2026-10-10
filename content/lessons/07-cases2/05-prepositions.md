@@ -163,3 +163,6 @@ questions:
     explain: "z «откуда» — родительный, z «с кем» — творительный, w «где» — предложный."
 ---
 ::
+
+::drill{id="noun-prepositions"}
+::
