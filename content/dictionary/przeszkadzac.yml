@@ -20,6 +20,9 @@ senses:
       - pl: "Oni przeszkadzają mi."
         ru: "Они мне мешают."
         source: { kind: translated, id: 2842596 }
+      - pl: "Złej baletnicy przeszkadza rąbek u spódnicy."
+        ru: "Плохому танцору ноги мешают."
+        source: { kind: translated, id: 13657518 }
   - id: do-not-disturb
     ru: "Nie przeszkadzać! — Не беспокоить!"
     examples:
@@ -44,12 +47,9 @@ senses:
       - pl: "Jego natrętne zachowanie przeszkadzało wszystkim, ale nikt z nich nie protestował."
         ru: "Его назойливое поведение мешало всем, но никто не протестовал."
         source: { kind: translated, id: 2282952 }
-  - id: proverb
-    ru: "Złej baletnicy przeszkadza rąbek u spódnicy"
+  - id: bother
+    ru: "беспокоить, мешать своим присутствием"
     examples:
-      - pl: "Złej baletnicy przeszkadza rąbek u spódnicy."
-        ru: "У плохого мастера всегда инструмент виноват."
-        source: { kind: tatoeba, id: 13657518 }
       - pl: "Przeszkadzam?"
         ru: "Я мешаю?"
         source: { kind: translated, id: 4287105 }
@@ -59,7 +59,7 @@ senses:
 notes:
   - { kind: government, text: "przeszkadzać KOMUŚ — дательный падеж, ровно как русское «мешать кому-то»: Nie przeszkadzaj mi. А «мешать в чём-то» — przeszkadzać W czymś, с предложным: przeszkadzać w pracy." }
   - { kind: usage, text: "Nie przeszkadzać! — та самая табличка на двери, «Не беспокоить»." }
-  - { kind: usage, text: "Пословица Złej baletnicy przeszkadza rąbek u spódnicy буквально значит «плохой балерине мешает подол юбки»; по-русски это «плохому танцору…» или «у плохого мастера инструмент виноват»." }
+  - { kind: usage, text: "Пословица Złej baletnicy przeszkadza rąbek u spódnicy буквально значит «плохой балерине мешает подол юбки»; по-русски это «плохому танцору ноги мешают» (близко и «у плохого мастера инструмент виноват»)." }
   - { kind: usage, text: "Слово собрано от szkodzić «вредить», то есть от того же корня, что szkoda. Существительное — przeszkoda «препятствие», совершенный вид — przeszkodzić." }
 collocations:
   - { pl: "przeszkadzać komuś", ru: "мешать кому-либо" }
@@ -72,11 +72,11 @@ family:
   - { pl: "przeszkoda", ru: "препятствие", relation: derived }
   - { pl: "przeszkodzić", ru: "помешать", relation: aspect }
 etymology: "prze- + szkodzić «вредить», от szkoda «вред» — то же гнездо, что карточка szkoda."
-memory: "przeszkadzać — «мешать», и собрано оно от szkodzić «вредить», то есть от того же корня, что szkoda. Управление тут совпадает с русским: przeszkadzać KOMUŚ, дательный падеж — Nie przeszkadzaj mi. Существительное — przeszkoda «препятствие». А пословица Złej baletnicy przeszkadza rąbek u spódnicy — это наше «плохому танцору…»."
+memory: "przeszkadzać — «мешать», и собрано оно от szkodzić «вредить», то есть от того же корня, что szkoda. Управление тут совпадает с русским: przeszkadzać KOMUŚ, дательный падеж — Nie przeszkadzaj mi. Существительное — przeszkoda «препятствие». А пословица Złej baletnicy przeszkadza rąbek u spódnicy — это наше «плохому танцору ноги мешают»."
 idioms:
   - { pl: "Nie przeszkadzać!", ru: "Не беспокоить!" }
   - { pl: "przeszkadzać komuś", ru: "мешать кому-либо" }
-  - { pl: "Złej baletnicy przeszkadza rąbek u spódnicy", ru: "плохому танцору всё мешает" }
+  - { pl: "Złej baletnicy przeszkadza rąbek u spódnicy", ru: "плохому танцору ноги мешают" }
 formExamplesSkip:
   - { form: "przeszkadzania", reason: "отглагольного существительного от przeszkadzać нет; «препятствие» — это przeszkoda" }
   - { form: "przeszkadzanie", reason: "отглагольного существительного от przeszkadzać нет; «препятствие» — это przeszkoda" }
@@ -85,11 +85,11 @@ formExamplesSkip:
 formExamples:
   - form: "przeszkadza"
     pl: "Złej baletnicy przeszkadza rąbek u spódnicy."
-    ru: "У плохого мастера всегда инструмент виноват."
-    source: { kind: tatoeba, id: 13657518 }
+    ru: "Плохому танцору ноги мешают."
+    source: { kind: translated, id: 13657518 }
   - form: "przeszkadza"
     pl: "Złej baletnicy przeszkadza i rąbek u spódnicy."
-    ru: "У плохого мастера всегда инструмент виноват."
+    ru: "Плохому танцору и ноги мешают."
     source: { kind: translated, id: 13783064 }
   - form: "przeszkadza"
     pl: "Hałas przeszkadza mi w pracy."
