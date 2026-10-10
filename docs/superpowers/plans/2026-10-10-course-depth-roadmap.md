@@ -171,8 +171,13 @@ future chapters moved before them.
 | 17 | Условное наклонение | A2 | **Phase 1**, 2 lessons |
 | 18 | Сложное предложение | A2 | **Phase 1**, 3 lessons |
 | 19 | Ложные друзья | A2 | existing |
-| 20 | Повседневные темы | A2 | existing; Phase 2 topic lessons join here |
-| 21 | Итоги A2 | A2 | to do: review and A2 test (Phase 5) |
+| 20 | Повседневные темы | A2 | existing 3 + **Phase 2**, 12 topic lessons |
+| 21 | Итоги A2 | A2 | «Что дальше» moved here; review and A2 test to do (Phase 5) |
 | 22–27 | Причастия · Деепричастия · Страдательный залог · Косвенная речь · Словообразование · Официальный стиль | B1 | to do |
 
-20.4 «Что дальше» moves to the end of chapter 21 and is rewritten when A2 is complete.
+«Что дальше» is now 21.1; it moves to the end of chapter 21 and is rewritten when A2 is complete.
+
+Phase 2 (chapter 20, lessons 20.4–20.15: семья, дом, еда, магазин, ресторан, одежда, здоровье,
+город, работа, учёба, свободное время, праздники) was written on 2026-10-10, each lesson with
+its own word file `content/words/ch20-*.yml`. Topic drills
+(the plan above) are not built yet.

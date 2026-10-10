@@ -1,8 +1,8 @@
 ---
 title: Что дальше
 description: "Итог курса и как продолжать учить польский самостоятельно."
-chapter: 20
-order: 4
+chapter: 21
+order: 1
 level: A2
 words: [mowic, rozumiec, uczyc]
 ---
