@@ -1,7 +1,7 @@
 ---
 title: Совершенный и несовершенный вид
 description: "Главная хорошая новость главы: вид в польском устроен как в русском."
-chapter: 13
+chapter: 10
 order: 1
 level: A2
 words: [przeczytac, napisac]

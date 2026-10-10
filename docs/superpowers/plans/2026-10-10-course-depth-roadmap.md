@@ -146,34 +146,33 @@ suite green.
 
 ## Contents after Phase 1 and the B1 track
 
+Phase 1 (chapters 6, 11–15, 17, 18; 25 lessons) was written on 2026-10-10. Writing it showed
+that plurals, pronouns and numbers need the past tense in their examples, so the past and
+future chapters moved before them.
+
 | № | Chapter | Level | Status |
 |---|---|---|---|
-| 1 | Алфавит и произношение | A1 | exists |
-| 2 | Звуковые соответствия | A1 | exists |
-| 3 | Первые фразы | A1 | exists |
-| 4 | Существительные и род | A1 | exists |
-| 5 | Глаголы: настоящее время | A1 | exists |
-| 6 | **Возвратные глаголы и się** | A1 | new, 2 lessons |
-| 7 | Падежи I | A2 | exists (was 6) |
-| 8 | Падежи II | A2 | exists (was 7) |
-| 9 | **Множественное число** | A2 | new, 4 lessons |
-| 10 | **Местоимения** | A2 | new, 4 lessons |
-| 11 | **Числа и время** | A2 | new, 4 lessons |
-| 12 | Прошедшее время | A2 | exists (was 8) |
-| 13 | Будущее время и вид | A2 | exists (was 9) |
-| 14 | **Глаголы движения** | A2 | new, 4 lessons |
-| 15 | **Повелительное наклонение** | A2 | new, 2 lessons |
-| 16 | Прилагательные и сравнение | A2 | exists (was 10) |
-| 17 | **Условное наклонение** | A2 | new, 2 lessons |
-| 18 | **Сложное предложение** | A2 | new, 3 lessons |
-| 19 | Ложные друзья | A2 | exists (was 11) |
-| 20 | Повседневные темы | A2 | exists (was 12); Phase 2 topic lessons join here |
-| 21 | **Итоги A2** | A2 | new: review and A2 test (Phase 5) |
-| 22 | **Причастия** | B1 | new |
-| 23 | **Деепричастия** | B1 | new |
-| 24 | **Страдательный залог и безличные формы** | B1 | new |
-| 25 | **Косвенная речь и союзы** | B1 | new |
-| 26 | **Словообразование и отглагольные существительные** | B1 | new |
-| 27 | **Официальный стиль** | B1 | new |
+| 1 | Алфавит и произношение | A1 | existing |
+| 2 | Звуковые соответствия | A1 | existing |
+| 3 | Первые фразы | A1 | existing |
+| 4 | Существительные и род | A1 | existing |
+| 5 | Глаголы: настоящее время | A1 | existing |
+| 6 | Возвратные глаголы и się | A1 | **Phase 1**, 2 lessons |
+| 7 | Падежи I | A2 | existing |
+| 8 | Падежи II | A2 | existing |
+| 9 | Прошедшее время | A2 | existing |
+| 10 | Будущее время и вид | A2 | existing |
+| 11 | Множественное число | A2 | **Phase 1**, 4 lessons |
+| 12 | Местоимения | A2 | **Phase 1**, 4 lessons |
+| 13 | Числа и время | A2 | **Phase 1**, 4 lessons |
+| 14 | Глаголы движения | A2 | **Phase 1**, 4 lessons |
+| 15 | Повелительное наклонение | A2 | **Phase 1**, 2 lessons |
+| 16 | Прилагательные и сравнение | A2 | existing |
+| 17 | Условное наклонение | A2 | **Phase 1**, 2 lessons |
+| 18 | Сложное предложение | A2 | **Phase 1**, 3 lessons |
+| 19 | Ложные друзья | A2 | existing |
+| 20 | Повседневные темы | A2 | existing; Phase 2 topic lessons join here |
+| 21 | Итоги A2 | A2 | to do: review and A2 test (Phase 5) |
+| 22–27 | Причастия · Деепричастия · Страдательный залог · Косвенная речь · Словообразование · Официальный стиль | B1 | to do |
 
-12.4 «Что дальше» moves to the end of chapter 21 and is rewritten when A2 is complete.
+20.4 «Что дальше» moves to the end of chapter 21 and is rewritten when A2 is complete.

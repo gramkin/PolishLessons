@@ -129,3 +129,85 @@ drills:
       - { table: Степени сравнения, row: Превосходная }
     cards: [dobry, zly, duzy, maly, wysoki]
     maxRank: 5400
+
+  # Фаза 1 (главы 6–18). Отобраны по размеру пула и проверены на образцах; не вошли
+  # именительный мн. ч., прилагательные мн. ч., притяжательные, swój и który: почти все их
+  # формы занимают несколько клеток парадигмы, и надёжных предложений не набирается.
+  - id: verb-present-sie
+    title: Возвратные глаголы
+    instruction: Поставьте возвратный глагол в нужную форму настоящего времени.
+    pos: verb
+    cells: [{ table: Настоящее время }]
+    aspect: imperf
+    hint: person
+    require: "(?<!\\p{L})się(?!\\p{L})"
+    cards: [bac, smiac, uczyc, podobac, spotykac, myc, ubierac, cieszyc, nazywac, spozniac, spieszyc, zaczynac, otwierac]
+    maxRank: 5400
+
+  - id: noun-gen-pl
+    title: Родительный падеж множественного числа
+    instruction: Поставьте существительное в родительный падеж множественного числа.
+    pos: noun
+    cells: [{ table: Склонение, row: Родительный, column: Мн. ч. }]
+
+  - id: noun-oblique-pl
+    title: Дательный, творительный и предложный во множественном
+    instruction: Поставьте существительное в нужный падеж множественного числа — -om, -ami или -ach.
+    pos: noun
+    cells:
+      - { table: Склонение, row: Дательный, column: Мн. ч. }
+      - { table: Склонение, row: Творительный, column: Мн. ч. }
+      - { table: Склонение, row: Предложный, column: Мн. ч. }
+
+  - id: num-gen-pl
+    title: Пять и больше
+    instruction: После числительного от пяти — родительный падеж множественного числа.
+    pos: noun
+    cells: [{ table: Склонение, row: Родительный, column: Мн. ч. }]
+    require: "(?<!\\p{L})(?:pięć|sześć|siedem|osiem|dziewięć|dziesięć|\\p{L}+naście|\\p{L}+dziesiąt|sto|ile)\\s+$"
+
+  - id: verb-motion-present
+    title: Глаголы движения
+    instruction: Поставьте глагол движения в нужную форму настоящего времени.
+    pos: verb
+    cells: [{ table: Настоящее время }]
+    aspect: imperf
+    hint: person
+    cards: [isc, chodzic, jechac, jezdzic, niesc, nosic, leciec, latac, biec, biegac, plynac, plywac]
+    maxRank: 5400
+
+  - id: verb-motion-prefixed
+    title: Приставочные глаголы движения
+    instruction: Поставьте глагол в прошедшее время — для того лица, что указано в скобках.
+    pos: verb
+    cells: [{ table: Прошедшее время }]
+    hint: person
+    cards: [przyjsc, wyjsc, wejsc, dojsc, odejsc, przejsc, zejsc, przyjechac, wyjechac, przychodzic, wychodzic, wchodzic]
+    maxRank: 5400
+
+  - id: verb-imperative
+    title: Повелительное наклонение
+    instruction: Поставьте глагол в повелительное наклонение — для того, к кому обращаются.
+    pos: verb
+    cells:
+      - { table: Повелительное наклонение, row: "2-е л. ед. ч." }
+      - { table: Повелительное наклонение, row: "1-е л. мн. ч." }
+      - { table: Повелительное наклонение, row: "2-е л. мн. ч." }
+    hint: person
+
+  - id: verb-imperative-negation
+    title: Запрет — nie и несовершенный вид
+    instruction: После nie поставьте несовершенный глагол в повелительное наклонение.
+    pos: verb
+    cells: [{ table: Повелительное наклонение, row: "2-е л. ед. ч." }]
+    aspect: imperf
+    hint: person
+    require: "(?<!\\p{L})nie\\s+$"
+
+  - id: verb-conditional
+    title: Условное наклонение
+    instruction: Поставьте глагол в условное наклонение — для того лица, что указано в скобках.
+    pos: verb
+    cells: [{ table: Условное наклонение }]
+    hint: person
+
