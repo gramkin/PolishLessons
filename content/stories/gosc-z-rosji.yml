@@ -1,0 +1,121 @@
+# review
+title: Gość z Rosji
+titleRu: Гость из России
+level: A1
+chapter: 7
+description: "К Мареку приезжает друг из России, а дома нет кофе — история на винительный и родительный падежи: nie ma, szukać, potrzebować, dużo и trochę."
+sentences:
+  - pl: "Marek ma gościa."
+    ru: "У Марека гость."
+    words: { ma: miec, gościa: gosc }
+  - pl: "To Igor, przyjaciel z Rosji."
+    ru: "Это Игорь, друг из России."
+    words: { przyjaciel: przyjaciel, Rosji: rosja }
+  - pl: "Igor uczy się polskiego."
+    ru: "Игорь учит польский."
+    words: { uczy: uczyc, polskiego: polski }
+  - pl: "Mówi trochę po polsku i dużo rozumie."
+    ru: "Он немного говорит по-польски и многое понимает."
+    words: { Mówi: mowic, trochę: troche, polsku: polski, dużo: duzo, rozumie: rozumiec }
+  - pl: "– Chcesz kawę? – pyta Marek."
+    ru: "— Хочешь кофе? — спрашивает Марек."
+    words: { Chcesz: chciec, kawę: kawa, pyta: pytac }
+  - pl: "– Tak, poproszę."
+    ru: "— Да, пожалуйста."
+    words: { Tak: tak }
+  - pl: "Ale w domu nie ma kawy, jest tylko herbata!"
+    ru: "Но дома нет кофе, есть только чай!"
+    words: { domu: dom, ma: miec, kawy: kawa, jest: byc, herbata: herbata }
+  - pl: "Nie ma też mleka ani chleba."
+    ru: "Молока и хлеба тоже нет."
+    words: { ma: miec, mleka: mleko, chleba: chleb }
+  - pl: "– Przepraszam, muszę iść do sklepu – mówi Marek."
+    ru: "— Извини, мне надо сходить в магазин, — говорит Марек."
+    words: { Przepraszam: przepraszam, muszę: musiec, iść: isc, sklepu: sklep, mówi: mowic }
+  - pl: "– Ja też idę! – mówi Igor."
+    ru: "— Я тоже иду! — говорит Игорь."
+    words: { Ja: ja, idę: isc, mówi: mowic }
+  - pl: "Sklep jest obok domu."
+    ru: "Магазин рядом с домом."
+    words: { Sklep: sklep, jest: byc, domu: dom }
+  - pl: "Marek szuka kawy, a Igor szuka chleba."
+    ru: "Марек ищет кофе, а Игорь ищет хлеб."
+    words: { szuka: szukac, kawy: kawa, chleba: chleb }
+  - pl: "– Nie ma kawy – mówi Marek. – Jest tylko herbata."
+    ru: "— Кофе нет, — говорит Марек. — Есть только чай."
+    words: { ma: miec, kawy: kawa, mówi: mowic, Jest: byc, herbata: herbata }
+  - pl: "– Nie potrzebuję kawy – mówi Igor. – Lubię herbatę."
+    ru: "— Мне не нужен кофе, — говорит Игорь. — Я люблю чай."
+    words: { potrzebuję: potrzebowac, kawy: kawa, mówi: mowic, Lubię: lubic, herbatę: herbata }
+  - pl: "Marek bierze herbatę, mleko i chleb."
+    ru: "Марек берёт чай, молоко и хлеб."
+    words: { bierze: brac, herbatę: herbata, mleko: mleko, chleb: chleb }
+  - pl: "W domu Igor mówi: – Mam coś dla ciebie."
+    ru: "Дома Игорь говорит: — У меня кое-что для тебя есть."
+    words: { domu: dom, mówi: mowic, Mam: miec, coś: cos, ciebie: ty }
+  - pl: "– Proszę, to kawa!"
+    ru: "— Вот, держи, это кофе!"
+    words: { Proszę: prosze, kawa: kawa }
+  - pl: "Marek się śmieje."
+    ru: "Марек смеётся."
+    words: { śmieje: smiac }
+  - pl: "– Teraz mamy dużo herbaty i trochę kawy!"
+    ru: "— Теперь у нас много чая и немного кофе!"
+    words: { Teraz: teraz, mamy: miec, dużo: duzo, herbaty: herbata, trochę: troche, kawy: kawa }
+  - pl: "Igor pije kawę bez mleka."
+    ru: "Игорь пьёт кофе без молока."
+    words: { pije: pic, kawę: kawa, mleka: mleko }
+  - pl: "– Nie chcesz mleka? – pyta Marek."
+    ru: "— Не хочешь молока? — спрашивает Марек."
+    words: { chcesz: chciec, mleka: mleko, pyta: pytac }
+  - pl: "– Nie, dziękuję. Mleko jest dla ciebie!"
+    ru: "— Нет, спасибо. Молоко — для тебя!"
+    words: { dziękuję: dziekuje, Mleko: mleko, jest: byc, ciebie: ty }
+  - pl: "Marek pije herbatę, a Igor kawę."
+    ru: "Марек пьёт чай, а Игорь — кофе."
+    words: { pije: pic, herbatę: herbata, kawę: kawa }
+  - pl: "Razem słuchają muzyki."
+    ru: "Вместе они слушают музыку."
+    words: { Razem: razem, słuchają: sluchac, muzyki: muzyka }
+questions:
+  - type: choice
+    q: "Кто такой Игорь?"
+    options: ["Друг Марека из России", "Брат Марека", "Учитель польского", "Продавец из магазина"]
+    answer: 0
+    explain: "«To Igor, przyjaciel z Rosji» — друг из России. После z «из» — родительный: Rosja → z Rosji."
+  - type: choice
+    q: "Чего нет у Марека дома?"
+    options: ["Кофе, молока и хлеба", "Только хлеба", "Чая и кофе", "Всё есть"]
+    answer: 0
+    explain: "«W domu nie ma kawy» и «Nie ma też mleka ani chleba». После nie ma — родительный: kawa → kawy, mleko → mleka, chleb → chleba. А чай дома есть: «jest tylko herbata»."
+  - type: choice
+    q: "Что есть в магазине вместо кофе?"
+    options: ["Только чай", "Сок", "Вода", "Только молоко"]
+    answer: 0
+    explain: "«Nie ma kawy. Jest tylko herbata» — кофе нет, есть только чай."
+  - type: choice
+    q: "Что Игорь привёз Мареку?"
+    options: ["Кофе", "Чай", "Хлеб", "Книгу"]
+    answer: 0
+    explain: "«Mam coś dla ciebie… Proszę, to kawa!» — у Игоря был кофе с собой. dla «для» требует родительного: dla ciebie."
+  - type: choice
+    q: "Как Игорь пьёт кофе?"
+    options: ["Без молока", "С молоком", "С сахаром", "Со льдом"]
+    answer: 0
+    explain: "«Igor pije kawę bez mleka». bez — «без» и, как в русском, с родительным: mleko → bez mleka."
+  - type: choice
+    q: "«Marek szuka ___.» Какая форма стоит в тексте?"
+    options: ["kawy", "kawę", "kawa"]
+    answer: 0
+    explain: "szukać требует родительного: szukam kawy, szukam chleba. Русское «ищу кофе» звучит с винительным, поэтому тянет сказать kawę — это ошибка."
+  - type: listen
+    text: "Igor pije kawę bez mleka."
+    explain: "kawę — винительный после pić (-a → -ę), mleka — родительный после bez."
+  - type: translate
+    q: "Дома нет кофе."
+    answer: ["W domu nie ma kawy.", "Nie ma kawy w domu."]
+    explain: "«Нет чего-то» — nie ma + родительный, как в русском: nie ma kawy. «Дома» — w domu."
+  - type: translate
+    q: "Мне не нужен кофе."
+    answer: ["Nie potrzebuję kawy.", "Ja nie potrzebuję kawy."]
+    explain: "Русское «мне не нужен» польский строит лично: «я не нуждаюсь» — nie potrzebuję. potrzebować требует родительного: kawy."

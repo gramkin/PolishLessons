@@ -1,6 +1,8 @@
+# review
 title: Kot i mysz
 titleRu: Кот и мышь
 level: A1
+chapter: 3
 description: Короткая история о коте, мыши и реке.
 sentences:
   - pl: Kot mieszka nad rzeką.
@@ -33,3 +35,45 @@ sentences:
   - pl: Mysz tylko się śmieje.
     ru: Мышь только смеётся.
     words: { Mysz: mysz }
+questions:
+  - type: choice
+    q: "Где живёт кот?"
+    options: ["У реки", "В лесу", "В городе", "В школе"]
+    answer: 0
+    explain: "«Kot mieszka nad rzeką» — дословно «над рекой», то есть на берегу, у реки."
+  - type: choice
+    q: "Кто ещё живёт в доме?"
+    options: ["Мышь", "Собака", "Птица", "Рыба"]
+    answer: 0
+    explain: "«W domu mieszka też mysz» — в доме живёт и мышь. też — «тоже, и»."
+  - type: choice
+    q: "Какой хвост у мыши?"
+    options: ["Длинный", "Короткий", "Чёрный", "Белый"]
+    answer: 0
+    explain: "«Mysz ma małą głowę i długi ogon» — маленькая голова и длинный хвост. ogon — «хвост», długi — «длинный»."
+  - type: choice
+    q: "Что мышь делает утром?"
+    options: ["Пьёт молоко, пока кот спит", "Ищет кота", "Спит у реки", "Ест хлеб с котом"]
+    answer: 0
+    explain: "«Rano pije mleko, kiedy kot śpi» — утром она пьёт молоко, пока кот спит. rano — «утро, утром», а jutro — «завтра»."
+  - type: choice
+    q: "Что говорит кот вечером?"
+    options: ["«Завтра я тебя поймаю!»", "«Я хочу спать»", "«Где ты, мышь?»", "«Я люблю молоко»"]
+    answer: 0
+    explain: "«Jutro cię złapię!» — «Завтра я тебя поймаю!». Jutro — это «завтра», а не «утро»: ложный друг."
+  - type: choice
+    q: "Что делает мышь в ответ?"
+    options: ["Только смеётся", "Убегает к реке", "Прячется в доме", "Говорит: «Поймай!»"]
+    answer: 0
+    explain: "«Mysz tylko się śmieje» — мышь только смеётся. Она ведь «bardzo mądra» — очень умная."
+  - type: listen
+    text: "Mysz tylko się śmieje."
+    explain: "mysz — «мышь»: sz звучит как твёрдое «ш», а мягкого знака на конце нет."
+  - type: translate
+    q: "Кот живёт у реки."
+    answer: ["Kot mieszka nad rzeką.", "Kot mieszka przy rzece."]
+    explain: "Как в тексте — nad rzeką, «над рекой», то есть на берегу. mieszkać — «жить где-то», «проживать»."
+  - type: translate
+    q: "Мышь очень умная."
+    answer: ["Mysz jest bardzo mądra."]
+    explain: "Русское «есть» здесь опускают, а польскую связку jest — нет: Mysz jest bardzo mądra. mysz женского рода, поэтому mądra."

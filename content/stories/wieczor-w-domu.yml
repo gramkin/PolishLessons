@@ -1,0 +1,109 @@
+# review
+title: Wieczór w domu
+titleRu: Вечер дома
+level: A1
+chapter: 5
+description: "Марек хочет читать, а Аня громко поёт — история о семейном вечере на глаголах всех четырёх спряжений в настоящем времени."
+sentences:
+  - pl: "Jest wieczór."
+    ru: "Вечер."
+    words: { Jest: byc, wieczór: wieczor }
+  - pl: "Mama, tata, Ania i Marek są w domu."
+    ru: "Мама, папа, Аня и Марек дома."
+    words: { Mama: mama, tata: tata, są: byc, domu: dom }
+  - pl: "Tata czyta książkę, a mama pisze list."
+    ru: "Папа читает книгу, а мама пишет письмо."
+    words: { Tata: tata, czyta: czytac, książkę: ksiazka, mama: mama, pisze: pisac, list: list }
+  - pl: "Marek ma jutro matematykę."
+    ru: "У Марека завтра математика."
+    words: { ma: miec, jutro: jutro, matematykę: matematyka }
+  - pl: "Teraz musi czytać."
+    ru: "Сейчас ему нужно читать."
+    words: { Teraz: teraz, musi: musiec, czytać: czytac }
+  - pl: "Ale Ania śpiewa bardzo głośno."
+    ru: "Но Аня очень громко поёт."
+    words: { śpiewa: spiewac, bardzo: bardzo, głośno: glosno }
+  - pl: "– Nie mogę czytać! – mówi Marek."
+    ru: "— Я не могу читать! — говорит Марек."
+    words: { mogę: moc, czytać: czytac, mówi: mowic }
+  - pl: "– Przepraszam, ale lubię śpiewać – odpowiada Ania."
+    ru: "— Извини, но я люблю петь, — отвечает Аня."
+    words: { Przepraszam: przepraszam, lubię: lubic, śpiewać: spiewac, odpowiada: odpowiadac }
+  - pl: "Pies też nie może spać."
+    ru: "Собака тоже не может спать."
+    words: { Pies: pies, może: moc, spać: spac }
+  - pl: "Tata pyta: – Co robicie?"
+    ru: "Папа спрашивает: — Что вы делаете?"
+    words: { Tata: tata, pyta: pytac, Co: co, robicie: robic }
+  - pl: "– Ja czytam, a Ania śpiewa – mówi Marek."
+    ru: "— Я читаю, а Аня поёт, — говорит Марек."
+    words: { Ja: ja, czytam: czytac, śpiewa: spiewac, mówi: mowic }
+  - pl: "– Umiesz śpiewać cicho? – pyta tata."
+    ru: "— Ты умеешь петь тихо? — спрашивает папа."
+    words: { Umiesz: umiec, śpiewać: spiewac, cicho: cicho, pyta: pytac, tata: tata }
+  - pl: "– Nie umiem – mówi Ania. – Śpiewam tylko głośno!"
+    ru: "— Не умею, — говорит Аня. — Я пою только громко!"
+    words: { umiem: umiec, mówi: mowic, Śpiewam: spiewac, głośno: glosno }
+  - pl: "Mama wie, co robić."
+    ru: "Мама знает, что делать."
+    words: { Mama: mama, wie: wiedziec, co: co, robić: robic }
+  - pl: "– Śpiewamy razem? – pyta mama."
+    ru: "— Поём вместе? — спрашивает мама."
+    words: { Śpiewamy: spiewac, razem: razem, pyta: pytac, mama: mama }
+  - pl: "Mama i Ania śpiewają, a tata tańczy."
+    ru: "Мама и Аня поют, а папа танцует."
+    words: { Mama: mama, śpiewają: spiewac, tata: tata, tańczy: tanczyc }
+  - pl: "Pies też tańczy!"
+    ru: "Собака тоже танцует!"
+    words: { Pies: pies, tańczy: tanczyc }
+  - pl: "Marek widzi, że nie może czytać."
+    ru: "Марек видит, что читать он не может."
+    words: { widzi: widziec, może: moc, czytać: czytac }
+  - pl: "Teraz on też śpiewa."
+    ru: "Теперь он тоже поёт."
+    words: { Teraz: teraz, on: on, śpiewa: spiewac }
+  - pl: "– Matematyka może czekać! – mówi Marek."
+    ru: "— Математика может подождать! — говорит Марек."
+    words: { Matematyka: matematyka, może: moc, czekać: czekac, mówi: mowic }
+questions:
+  - type: choice
+    q: "Почему Марек не может читать?"
+    options: ["Аня очень громко поёт", "Папа включил музыку", "Собака лает", "Мама просит его помочь"]
+    answer: 0
+    explain: "«Ania śpiewa bardzo głośno» — «Аня поёт очень громко». głośno — «громко», а cicho — «тихо»."
+  - type: choice
+    q: "Что делает папа в начале истории?"
+    options: ["Читает книгу", "Пишет письмо", "Танцует", "Спит"]
+    answer: 0
+    explain: "«Tata czyta książkę» — папа читает книгу, а письмо пишет мама: «mama pisze list». czytać — третье спряжение: czytam, czytasz, czyta."
+  - type: choice
+    q: "Что у Марека завтра?"
+    options: ["Математика", "Урок польского", "Концерт", "День рождения"]
+    answer: 0
+    explain: "«Marek ma jutro matematykę» — дословно «Марек имеет завтра математику». Польский и здесь говорит через mieć, где русский говорит «у него»."
+  - type: choice
+    q: "Что придумала мама?"
+    options: ["Петь всем вместе", "Отправить Аню спать", "Помочь Мареку с математикой", "Вывести собаку на улицу"]
+    answer: 0
+    explain: "«Śpiewamy razem?» — «Поём вместе?». razem — «вместе»; форма śpiewamy — «он» śpiewa + -my."
+  - type: choice
+    q: "«Mama i Ania ___, a tata tańczy.» Какая форма стоит в тексте?"
+    options: ["śpiewają", "śpiewa", "śpiewamy"]
+    answer: 0
+    explain: "Мама и Аня — это «они», а у глаголов на -am / -asz «они» оканчивается на -ają: śpiewają, czytają. śpiewa — «он, она», śpiewamy — «мы»."
+  - type: choice
+    q: "Чем заканчивается история?"
+    options: ["Марек тоже начинает петь", "Марек уходит читать в другую комнату", "Аня перестаёт петь", "Папа сердится"]
+    answer: 0
+    explain: "«Teraz on też śpiewa» — «Теперь он тоже поёт», а математика «może czekać» — «может подождать»."
+  - type: listen
+    text: "Pies też nie może spać."
+    explain: "może — «может», от móc: mogę, możesz, może. В «я» и «они» основа на g (mogę, mogą), в остальных формах — на ż."
+  - type: translate
+    q: "Я не могу читать!"
+    answer: ["Nie mogę czytać!", "Ja nie mogę czytać!"]
+    explain: "móc + инфинитив, как в русском: nie mogę czytać. Местоимение ja обычно опускают: форма mogę и так говорит, кто «я»."
+  - type: translate
+    q: "Ты умеешь петь тихо?"
+    answer: ["Umiesz śpiewać cicho?", "Umiesz cicho śpiewać?", "Czy umiesz śpiewać cicho?", "Czy umiesz cicho śpiewać?", "Ty umiesz śpiewać cicho?"]
+    explain: "Навык — umieć: umiem, umiesz, umie. Вопрос можно начать с czy, а можно задать одной интонацией, как в русском."

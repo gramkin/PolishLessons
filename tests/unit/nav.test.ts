@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { buildNav, flattenNav, normalizePath, surroundings } from '../../app/utils/nav'
+import {
+  buildNav,
+  chapterEndingAt,
+  flattenNav,
+  normalizePath,
+  surroundings,
+} from '../../app/utils/nav'
 
 const chapters = [
   { number: 2, title: 'Звуковые соответствия' },
@@ -57,5 +63,14 @@ describe('surroundings', () => {
 
   it('returns nulls for a path that is not a lesson', () => {
     expect(surroundings(flat, '/vocabulary')).toEqual({ prev: null, next: null })
+  })
+})
+
+describe('chapterEndingAt', () => {
+  it('names the chapter only on its last lesson', () => {
+    const nav = buildNav(lessons, chapters)
+    expect(chapterEndingAt(nav, '/lessons/01-alphabet/02-stress/')).toBe(1)
+    expect(chapterEndingAt(nav, '/lessons/01-alphabet/01-letters')).toBeNull()
+    expect(chapterEndingAt(nav, '/lessons/02-sounds/01-rz')).toBe(2)
   })
 })

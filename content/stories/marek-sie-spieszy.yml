@@ -1,0 +1,100 @@
+# review
+title: Marek się spieszy
+titleRu: Марек спешит
+level: A1
+chapter: 6
+description: "Марек просыпается и бежит на урок, а мама смеётся — история на возвратные глаголы и место się в предложении."
+sentences:
+  - pl: "Marek śpi."
+    ru: "Марек спит."
+    words: { śpi: spac }
+  - pl: "Nagle się budzi."
+    ru: "Вдруг он просыпается."
+    words: { Nagle: nagle, budzi: budzic }
+  - pl: "– Spóźniam się! – myśli Marek."
+    ru: "«Я опаздываю!» — думает Марек."
+    words: { Spóźniam: spozniac, myśli: myslec }
+  - pl: "Lekcja zaczyna się wcześnie, a Marek nie lubi się spóźniać."
+    ru: "Урок начинается рано, а Марек не любит опаздывать."
+    words: { Lekcja: lekcja, zaczyna: zaczynac, wcześnie: wczesnie, lubi: lubic, spóźniać: spozniac }
+  - pl: "Szybko się myje i ubiera."
+    ru: "Он быстро умывается и одевается."
+    words: { Szybko: szybko, myje: myc, ubiera: ubierac }
+  - pl: "Nie je i nie pije, tylko się spieszy."
+    ru: "Не ест и не пьёт, только спешит."
+    words: { je: jesc, pije: pic, spieszy: spieszyc }
+  - pl: "Mama widzi Marka i śmieje się."
+    ru: "Мама видит Марека и смеётся."
+    words: { Mama: mama, widzi: widziec, śmieje: smiac }
+  - pl: "– Dlaczego się spieszysz? – pyta mama."
+    ru: "— Почему ты спешишь? — спрашивает мама."
+    words: { Dlaczego: dlaczego, spieszysz: spieszyc, pyta: pytac, mama: mama }
+  - pl: "– Jak to dlaczego? Lekcja się zaczyna!"
+    ru: "— Как это почему? Урок начинается!"
+    words: { Jak: jak, dlaczego: dlaczego, Lekcja: lekcja, zaczyna: zaczynac }
+  - pl: "– Lekcja? Teraz?"
+    ru: "— Урок? Сейчас?"
+    words: { Lekcja: lekcja, Teraz: teraz }
+  - pl: "– Przecież jest wieczór!"
+    ru: "— Сейчас же вечер!"
+    words: { jest: byc, wieczór: wieczor }
+  - pl: "– Jak to wieczór? – pyta Marek."
+    ru: "— Как это вечер? — спрашивает Марек."
+    words: { Jak: jak, wieczór: wieczor, pyta: pytac }
+  - pl: "Marek nie rozumie."
+    ru: "Марек не понимает."
+    words: { rozumie: rozumiec }
+  - pl: "Widzi, że jest ciemno."
+    ru: "Он видит, что темно."
+    words: { Widzi: widziec, jest: byc, ciemno: ciemno }
+  - pl: "Teraz Marek też się śmieje."
+    ru: "Теперь Марек тоже смеётся."
+    words: { Teraz: teraz, śmieje: smiac }
+  - pl: "– Teraz możesz jeść i pić – mówi mama. – Nie musisz się spieszyć."
+    ru: "— Теперь можешь есть и пить, — говорит мама. — Спешить не нужно."
+    words: { Teraz: teraz, możesz: moc, jeść: jesc, pić: pic, mówi: mowic, mama: mama, musisz: musiec, spieszyć: spieszyc }
+  - pl: "Marek się cieszy: lekcja jest dopiero jutro."
+    ru: "Марек радуется: урок только завтра."
+    words: { cieszy: cieszyc, lekcja: lekcja, jest: byc, jutro: jutro }
+questions:
+  - type: choice
+    q: "Почему Марек вдруг начинает спешить?"
+    options: ["Он думает, что опаздывает на урок", "Ему звонит друг", "Он очень хочет есть", "Мама зовёт его ужинать"]
+    answer: 0
+    explain: "«Spóźniam się! — myśli Marek» — «Я опаздываю!» — думает Марек. Польское spóźniać się — с się, хотя русское «опаздывать» обходится без -ся."
+  - type: choice
+    q: "Чего Марек не делает, пока спешит?"
+    options: ["Не ест и не пьёт", "Не умывается", "Не одевается", "Не смотрит на маму"]
+    answer: 0
+    explain: "«Nie je i nie pije, tylko się spieszy» — не ест и не пьёт, только спешит. А умыться и одеться он успевает: «Szybko się myje i ubiera»."
+  - type: choice
+    q: "Почему мама смеётся?"
+    options: ["Сейчас вечер, а не утро", "Марек надел мамину куртку", "Марек поёт в ванной", "Урок отменили"]
+    answer: 0
+    explain: "«Przecież jest wieczór!» — «Сейчас же вечер!». Марек уснул днём и, проснувшись, решил, что уже утро."
+  - type: choice
+    q: "Как Марек понимает, что мама права?"
+    options: ["Видит, что темно", "Смотрит на часы", "Слышит, что папа пришёл с работы", "Звонит Томеку"]
+    answer: 0
+    explain: "«Widzi, że jest ciemno» — «Он видит, что темно»."
+  - type: choice
+    q: "Когда у Марека урок?"
+    options: ["Только завтра", "Через час", "Прямо сейчас", "Вечером"]
+    answer: 0
+    explain: "«lekcja jest dopiero jutro» — «урок только завтра». dopiero — «только», когда речь о том, что будет позже, чем думали."
+  - type: choice
+    q: "Как по-польски «Почему ты спешишь?»"
+    options: ["Dlaczego się spieszysz?", "Się dlaczego spieszysz?", "Dlaczego spieszysz?"]
+    answer: 0
+    explain: "się — отдельное безударное слово: оно никогда не начинает фразу и встаёт рано, сразу после первого ударного слова — dlaczego. В значении «спешить, торопиться» глаголу spieszyć нужен się."
+  - type: listen
+    text: "Szybko się myje i ubiera."
+    explain: "Одно się здесь работает на оба глагола: myć się — «умываться», ubierać się — «одеваться». Стоит оно после первого ударного слова, szybko."
+  - type: translate
+    q: "Я опаздываю!"
+    answer: ["Spóźniam się!", "Ja się spóźniam!"]
+    explain: "Русское «-ся» в польском — отдельное слово się. Начать фразу с się нельзя, поэтому только spóźniam się или ja się spóźniam."
+  - type: translate
+    q: "Тебе не нужно спешить."
+    answer: ["Nie musisz się spieszyć.", "Ty nie musisz się spieszyć.", "Nie musisz się śpieszyć."]
+    explain: "Русское безличное «тебе не нужно» польский говорит лично: nie musisz — «ты не должен». się встаёт после musisz, а не обязательно рядом со своим глаголом."

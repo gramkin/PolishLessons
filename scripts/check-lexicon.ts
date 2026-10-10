@@ -3,9 +3,10 @@ import { createInterface } from 'node:readline'
 import { createGunzip } from 'node:zlib'
 import { join } from 'node:path'
 import matter from 'gray-matter'
-import { lessonWords, unknownWords, type Finding } from './lib/lexicon'
+import { parse as parseYaml } from 'yaml'
+import { lessonWords, storyText, unknownWords, type Finding } from './lib/lexicon'
 
-// usage: pnpm lexicon [lesson-file …]   — every lesson when no files are given
+// usage: pnpm lexicon [lesson-or-story-file …]   — every lesson and story when no files are given
 // Needs data/sources/PoliMorf-0.6.7.tab.gz (gitignored); without it the check is skipped.
 
 const POLIMORF = 'data/sources/PoliMorf-0.6.7.tab.gz'
@@ -42,14 +43,22 @@ if (!existsSync(POLIMORF)) {
   console.log(`… ${POLIMORF} is missing; lexicon check skipped`)
   process.exit(0)
 }
-const files = process.argv.length > 2 ? process.argv.slice(2) : lessonFiles('content/lessons')
+const files =
+  process.argv.length > 2
+    ? process.argv.slice(2)
+    : [
+        ...lessonFiles('content/lessons'),
+        ...readdirSync('content/stories')
+          .filter((f) => f.endsWith('.yml'))
+          .sort()
+          .map((f) => join('content/stories', f)),
+      ]
 const forms = await loadForms()
 let total = 0
 for (const file of files) {
-  const unknown: Finding[] = unknownWords(
-    lessonWords(matter(readFileSync(file, 'utf8')).content),
-    (w) => forms.has(w),
-  )
+  const source = readFileSync(file, 'utf8')
+  const body = file.endsWith('.yml') ? storyText(parseYaml(source)) : matter(source).content
+  const unknown: Finding[] = unknownWords(lessonWords(body), (w) => forms.has(w))
   if (unknown.length === 0) continue
   total += unknown.length
   console.log(`\n${file}`)

@@ -57,6 +57,7 @@ function validBundle(): ContentBundle {
           title: 'Kot i rzeka',
           titleRu: 'Кот и река',
           level: 'A1',
+          chapter: 1,
           sentences: [{ pl: 'Kot widzi rzekę.', ru: 'Кот видит реку.', words: { rzekę: 'rzeka' } }],
         },
       },
@@ -183,6 +184,29 @@ describe('validateContent', () => {
     expect(errors).toContain('lessons/01/01.md: false-friend id "rzeka" is not a false friend')
     expect(errors).toContain('stories/kot.yml: sentence 1: unknown word id "missing"')
     expect(errors).toContain('stories/kot.yml: sentence 1: form "kotek" not found in Polish text')
+  })
+
+  it('checks a story against its chapter and its questions', () => {
+    const bundle = validBundle()
+    bundle.chapters!.data = {
+      chapters: [
+        { number: 1, title: 'Алфавит' },
+        { number: 2, title: 'Звуки' },
+      ],
+    }
+    const words = bundle.words[0]!.data as { words: { id: string; chapter: number }[] }
+    words.words.find((w) => w.id === 'rzeka')!.chapter = 2
+    const story = bundle.stories[0]!.data as Record<string, unknown>
+    story.questions = [{ type: 'choice', q: 'Что видит кот?', options: ['реку'], answer: 3 }]
+    let errors = validateContent(bundle)
+    expect(errors).toContain(
+      'stories/kot.yml: sentence 1: "rzekę" (rzeka) is taught in chapter 2, after the story\'s chapter 1',
+    )
+    expect(errors).toContain('stories/kot.yml: questions.0.answer: answer index out of range')
+
+    story.chapter = 7
+    errors = validateContent(bundle)
+    expect(errors).toContain('stories/kot.yml: unknown chapter 7')
   })
 
   it('reports lesson frontmatter schema errors', () => {

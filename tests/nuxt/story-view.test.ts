@@ -10,6 +10,7 @@ const story: Story = {
   title: 'Kot i rzeka',
   titleRu: 'Кот и река',
   level: 'A1',
+  chapter: 1,
   sentences: [
     { pl: 'Kot mieszka nad rzeką.', ru: 'Кот живёт у реки.', words: { rzeką: 'rzeka' } },
     {

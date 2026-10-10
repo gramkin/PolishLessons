@@ -53,3 +53,10 @@ export function surroundings(
   if (index === -1) return { prev: null, next: null }
   return { prev: flat[index - 1] ?? null, next: flat[index + 1] ?? null }
 }
+
+/** The chapter whose last lesson is at `path`, or null when the lesson is not the last one. */
+export function chapterEndingAt(nav: NavChapter[], path: string): number | null {
+  const bare = normalizePath(path)
+  const chapter = nav.find((c) => c.lessons.at(-1)?.path === bare)
+  return chapter?.number ?? null
+}

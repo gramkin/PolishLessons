@@ -181,3 +181,11 @@ Phase 2 (chapter 20, lessons 20.4–20.15: семья, дом, еда, мага�
 город, работа, учёба, свободное время, праздники) was written on 2026-10-10, each lesson with
 its own word file `content/words/ch20-*.yml`. Topic drills
 (the plan above) are not built yet.
+
+Phase 3 (graded reading) was written on 2026-10-10: 20 new stories for chapters 5–20, one to two
+per chapter, 17–33 sentences each, plus questions for the two existing A1 stories. A story now
+declares the `chapter` after which it is readable; the validator rejects links to words taught
+later, and each text may bring at most six new words of its own (`content/words/stories-*.yml`).
+Every story ends with 8–9 questions: comprehension, one form question, one dictation, two
+translations. `/stories` is grouped by chapter, and each chapter's last lesson lists its texts.
+Chapters 19 and 21 have no text yet.

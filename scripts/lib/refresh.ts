@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto'
 import matter from 'gray-matter'
+import { parse as parseYaml } from 'yaml'
 import type { SearchDoc } from '../../shared/search'
 import { lessonPath } from './search-docs'
 
@@ -10,8 +11,14 @@ import { lessonPath } from './search-docs'
  * when the change shows up on pages it cannot enumerate.
  */
 
-/** Source path (or `path#frontmatter` / `path#body` for Markdown) → content hash. */
+/**
+ * Source path (or `path#frontmatter` / `path#body` for Markdown, `path#header` / `path#body`
+ * for a story) → content hash.
+ */
 export type Fingerprints = Record<string, string>
+
+const STORY_FILE = /^content\/stories\/[a-z0-9-]+\.yml$/
+const STORY_HEADER = ['title', 'titleRu', 'chapter'] as const
 
 const hash = (text: string) => createHash('sha1').update(text).digest('hex')
 
@@ -20,6 +27,13 @@ const hash = (text: string) => createHash('sha1').update(text).digest('hex')
  * the body only feeds its own page, so the two halves are fingerprinted apart.
  */
 export function fingerprintFile(path: string, text: string): Fingerprints {
+  // A story's title and chapter also show in the reading list under its chapter's last lesson,
+  // so they are fingerprinted apart from the text, which only its own page shows.
+  if (STORY_FILE.test(path)) {
+    const data = (parseYaml(text) ?? {}) as Record<string, unknown>
+    const header = STORY_HEADER.map((key) => JSON.stringify(data[key] ?? null)).join('\n')
+    return { [`${path}#header`]: hash(header), [`${path}#body`]: hash(text) }
+  }
   if (!path.endsWith('.md')) return { [path]: hash(text) }
   const parsed = matter(text)
   return { [`${path}#frontmatter`]: hash(parsed.matter), [`${path}#body`]: hash(parsed.content) }
@@ -45,7 +59,7 @@ export type RefreshPlan =
 
 const CARD = /^content\/(?:dictionary\/([a-z0-9-]+)\.yml|forms\/([a-z0-9-]+)\.json)$/
 const PAGE_BODY = /^content\/(lessons\/.+\.md|cheatsheet\.md)#body$/
-const STORY = /^content\/stories\/([a-z0-9-]+)\.yml$/
+const STORY = /^content\/stories\/([a-z0-9-]+)\.yml#body$/
 const BOOK = /^content\/books\/([a-z0-9-]+)\.yml$/
 
 /** `bookSlugs`: every chapter, since each chapter page shows its neighbours' titles. */
@@ -87,7 +101,10 @@ export function planRefresh(diff: FingerprintDiff, bookSlugs: string[] = []): Re
       for (const slug of new Set([book[1]!, ...bookSlugs])) routes.add(`/books/${slug}`)
       routes.add('/books')
     } else {
-      return { kind: 'full', reason: `${key.replace(/#frontmatter$/, ' (frontmatter)')} changed` }
+      const reason = key
+        .replace(/#frontmatter$/, ' (frontmatter)')
+        .replace(/#header$/, ' (title or chapter)')
+      return { kind: 'full', reason: `${reason} changed` }
     }
   }
   return {

@@ -62,6 +62,7 @@ describe('storySchema', () => {
       title: 'Kot i mysz',
       titleRu: 'Кот и мышь',
       level: 'A1',
+      chapter: 3,
       sentences: [{ pl: 'Kot widzi rzekę.', ru: 'Кот видит реку.', words: { rzekę: 'rzeka' } }],
     }
     expect(storySchema.safeParse(story).success).toBe(true)

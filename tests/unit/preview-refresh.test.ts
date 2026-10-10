@@ -20,6 +20,17 @@ describe('fingerprintFile', () => {
     expect(a['content/x.md#body']).not.toBe(b['content/x.md#body'])
   })
 
+  it('splits a story into the header lesson pages show and the text', () => {
+    const path = 'content/stories/kot.yml'
+    const a = fingerprintFile(path, 'title: Kot\nchapter: 3\nsentences: [a]\n')
+    const b = fingerprintFile(path, 'title: Kot\nchapter: 3\nsentences: [b]\n')
+    const c = fingerprintFile(path, 'title: Kot\nchapter: 4\nsentences: [b]\n')
+    expect(Object.keys(a)).toEqual([`${path}#header`, `${path}#body`])
+    expect(a[`${path}#header`]).toBe(b[`${path}#header`])
+    expect(a[`${path}#body`]).not.toBe(b[`${path}#body`])
+    expect(b[`${path}#header`]).not.toBe(c[`${path}#header`])
+  })
+
   it('hashes other files whole', () => {
     expect(Object.keys(fingerprintFile('content/a.yml', 'x: 1'))).toEqual(['content/a.yml'])
   })
@@ -62,8 +73,15 @@ describe('planRefresh', () => {
     })
   })
 
+  it('rebuilds everything when a story title or chapter changes', () => {
+    expect(planRefresh(changed('content/stories/kot-i-mysz.yml#header'))).toEqual({
+      kind: 'full',
+      reason: 'content/stories/kot-i-mysz.yml (title or chapter) changed',
+    })
+  })
+
   it('refreshes a story with its index, and every book chapter for a book', () => {
-    expect(planRefresh(changed('content/stories/kot-i-mysz.yml'))).toMatchObject({
+    expect(planRefresh(changed('content/stories/kot-i-mysz.yml#body'))).toMatchObject({
       routes: ['/stories', '/stories/kot-i-mysz'],
       searchOwners: ['story:kot-i-mysz'],
     })

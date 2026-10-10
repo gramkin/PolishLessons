@@ -71,9 +71,9 @@ describe('exampleHasForm', () => {
     // of adjacent tokens. Phrase cards (miło mi, dzień dobry) have no
     // single-word form to fall back on, so this is the only path that finds them.
     expect(exampleHasForm('Miło mi, jestem Anna.', new Set(['miło mi']))).toBe(true)
-    expect(
-      exampleHasForm('Dzień dobry, jestem nowym sąsiadem.', new Set(['dzień dobry'])),
-    ).toBe(true)
+    expect(exampleHasForm('Dzień dobry, jestem nowym sąsiadem.', new Set(['dzień dobry']))).toBe(
+      true,
+    )
     expect(exampleHasForm('Cześć, jak się masz?', new Set(['jak się masz?']))).toBe(true)
     // Order is part of the form: «bardzo mi miło» is not «miło mi».
     expect(exampleHasForm('Bardzo mi miło.', new Set(['miło mi']))).toBe(false)

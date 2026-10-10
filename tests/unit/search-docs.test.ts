@@ -28,6 +28,7 @@ const bundle: ContentBundle = {
         title: 'Kot',
         titleRu: 'Кот',
         level: 'A1',
+        chapter: 1,
         sentences: [{ pl: 'Kot pije wodę.', ru: 'Кот пьёт воду.' }],
       },
     },

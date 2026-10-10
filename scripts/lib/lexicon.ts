@@ -78,6 +78,26 @@ export function intendedNonWords(body: string): Set<string> {
   return excused
 }
 
+/**
+ * The Polish a story shows, one line per sentence, ready for `lessonWords`: the sentences, the
+ * dictation texts and the accepted answers of its questions. Russian lines carry no Latin
+ * letters, so the rest of the questions can be skipped.
+ */
+export function storyText(story: unknown): string {
+  const data = story as {
+    sentences?: { pl?: string }[]
+    questions?: { type?: string; text?: string; answer?: unknown }[]
+  }
+  const lines = (data.sentences ?? []).map((s) => s.pl ?? '')
+  for (const q of data.questions ?? []) {
+    if (q.type === 'listen' && q.text) lines.push(q.text)
+    if ((q.type === 'translate' || q.type === 'input') && Array.isArray(q.answer))
+      lines.push(...q.answer.map(String))
+    else if (q.type === 'input' && typeof q.answer === 'string') lines.push(q.answer)
+  }
+  return lines.join('\n')
+}
+
 /** Polish-looking words in a lesson body, with the line they sit on. */
 export function lessonWords(body: string): Finding[] {
   const findings: Finding[] = []

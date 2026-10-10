@@ -51,12 +51,18 @@ export const sentenceSchema = z.object({
   ru: text,
   words: z.record(z.string(), wordId).optional(),
 })
+// A graded reader: `chapter` is the first chapter after which the text is readable, so every
+// linked word must be taught by then. `questions` follow the story (comprehension, one
+// dictation) in the lesson-quiz format; they stay untyped here because Nuxt Content cannot
+// store the question union, and are checked with quizSchema by the validator and Quiz.vue.
 export const storySchema = z.object({
   title: text,
   titleRu: text,
   level: levelSchema,
+  chapter: positiveInt,
   description: z.string().optional(),
   sentences: z.array(sentenceSchema).min(1),
+  questions: z.array(z.record(z.string(), z.unknown())).optional(),
 })
 
 // Books are read with the Ilya Frank method: each paragraph is split into chunks

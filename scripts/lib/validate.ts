@@ -263,10 +263,26 @@ export function validateContent(bundle: ContentBundle): string[] {
 
   for (const file of bundle.stories) {
     const story = parseWith(storyStrict, file.data, file.path, errors)
+    if (story && chapterNumbers.size > 0 && !chapterNumbers.has(story.chapter)) {
+      errors.push(`${file.path}: unknown chapter ${story.chapter}`)
+    }
+    if (story?.questions) {
+      const parsed = quizSchema.safeParse(story.questions)
+      if (!parsed.success) {
+        for (const issue of parsed.error.issues)
+          errors.push(`${file.path}: questions.${issue.path.join('.')}: ${issue.message}`)
+      }
+    }
     story?.sentences.forEach((sentence, index) => {
       for (const [form, id] of Object.entries(sentence.words ?? {})) {
-        if (!words.has(id)) {
+        const word = words.get(id)
+        if (!word) {
           errors.push(`${file.path}: sentence ${index + 1}: unknown word id "${id}"`)
+        } else if (word.chapter > story.chapter) {
+          // A graded text may only lean on words taught by its chapter.
+          errors.push(
+            `${file.path}: sentence ${index + 1}: "${form}" (${id}) is taught in chapter ${word.chapter}, after the story's chapter ${story.chapter}`,
+          )
         }
         if (!sentence.pl.includes(form)) {
           errors.push(

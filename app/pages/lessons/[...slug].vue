@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { normalizePath } from '~/utils/nav'
+import { chapterEndingAt, normalizePath } from '~/utils/nav'
 import { LESSON_CHAPTER_KEY } from '~/utils/pron'
 import { LESSON_TITLE_KEY } from '~/utils/mistakes'
 
 const route = useRoute()
 const path = normalizePath(route.path)
 
-const { current, ready } = useLessonNav()
+const { nav, current, ready } = useLessonNav()
 // Lesson markdown renders PlWord, Pron, FalseFriend, CognateList and Quiz, all of
 // which read these synchronously, so both must resolve before the body renders.
 const { ready: wordsReady } = useWords()
@@ -27,6 +27,8 @@ const title = computed(() =>
 // Quizzes and drills label the mistakes they record with it.
 provide(LESSON_TITLE_KEY, title)
 
+const endsChapter = computed(() => chapterEndingAt(nav.value, path))
+
 useSeoMeta({
   title: () => title.value,
   description: () => page.value?.description,
@@ -40,6 +42,7 @@ useSeoMeta({
       {{ page.title }}
     </h1>
     <ContentRenderer :value="page" />
+    <ChapterReading v-if="endsChapter !== null" :chapter="endsChapter" />
     <LessonDone :path="path" />
   </article>
 </template>

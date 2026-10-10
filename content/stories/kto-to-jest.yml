@@ -1,0 +1,100 @@
+# review
+title: Kto to jest?
+titleRu: Кто это?
+level: A1
+chapter: 5
+description: "Марек видит в школе незнакомую девушку и спрашивает о ней сестру — история о том, когда «знать» — это wiedzieć, а когда znać, и о глаголах chcieć и musieć."
+sentences:
+  - pl: "Marek i Ania to brat i siostra."
+    ru: "Марек и Аня — брат и сестра."
+    words: { brat: brat, siostra: siostra }
+  - pl: "Marek i Tomek są w szkole."
+    ru: "Марек и Томек в школе."
+    words: { są: byc, szkole: szkola }
+  - pl: "Marek widzi dziewczynę."
+    ru: "Марек видит девушку."
+    words: { widzi: widziec, dziewczynę: dziewczyna }
+  - pl: "Dziewczyna stoi i czyta książkę."
+    ru: "Девушка стоит и читает книгу."
+    words: { Dziewczyna: dziewczyna, stoi: stac, czyta: czytac, książkę: ksiazka }
+  - pl: "– Kto to jest? – pyta Marek. – Chcę wiedzieć, jak ona ma na imię."
+    ru: "— Кто это? — спрашивает Марек. — Я хочу знать, как её зовут."
+    words: { Kto: kto, jest: byc, pyta: pytac, Chcę: chciec, wiedzieć: wiedziec, jak: jak, ona: ona, ma: miec, imię: imie }
+  - pl: "– Nie wiem – mówi Tomek. – Ale Ania wie wszystko!"
+    ru: "— Не знаю, — говорит Томек. — Но Аня знает всё!"
+    words: { wiem: wiedziec, mówi: mowic, wie: wiedziec, wszystko: wszystko }
+  - pl: "W domu Marek pyta Anię:"
+    ru: "Дома Марек спрашивает Аню:"
+    words: { domu: dom, pyta: pytac }
+  - pl: "– W szkole jest dziewczyna. Ciągle czyta książkę."
+    ru: "— В школе есть одна девушка. Всё время читает книгу."
+    words: { szkole: szkola, jest: byc, dziewczyna: dziewczyna, Ciągle: ciagle, czyta: czytac, książkę: ksiazka }
+  - pl: "– Wiesz, kto to jest?"
+    ru: "— Ты знаешь, кто это?"
+    words: { Wiesz: wiedziec, kto: kto, jest: byc }
+  - pl: "– Tak, wiem – mówi Ania. – To Ola."
+    ru: "— Да, знаю, — говорит Аня. — Это Оля."
+    words: { Tak: tak, wiem: wiedziec, mówi: mowic }
+  - pl: "– Znasz Olę? – pyta Marek."
+    ru: "— Ты знаешь Олю? — спрашивает Марек."
+    words: { Znasz: znac, pyta: pytac }
+  - pl: "– Tak, bardzo dobrze. Ola lubi czytać, a ja lubię śpiewać."
+    ru: "— Да, очень хорошо. Оля любит читать, а я люблю петь."
+    words: { Tak: tak, bardzo: bardzo, dobrze: dobrze, lubi: lubic, czytać: czytac, ja: ja, lubię: lubic, śpiewać: spiewac }
+  - pl: "– I wiesz co? Ola też chce wiedzieć, jak masz na imię!"
+    ru: "— И знаешь что? Оля тоже хочет знать, как тебя зовут!"
+    words: { wiesz: wiedziec, co: co, chce: chciec, wiedzieć: wiedziec, jak: jak, masz: miec, imię: imie }
+  - pl: "– Naprawdę? – pyta Marek."
+    ru: "— Правда? — спрашивает Марек."
+    words: { Naprawdę: naprawde, pyta: pytac }
+  - pl: "– Naprawdę. Ale ja nic nie wiem!"
+    ru: "— Правда. Но я ничего не знаю!"
+    words: { Naprawdę: naprawde, ja: ja, nic: nic, wiem: wiedziec }
+  - pl: "Marek nie wie, co robić."
+    ru: "Марек не знает, что делать."
+    words: { wie: wiedziec, co: co, robić: robic }
+  - pl: "Jutro chce być w szkole bardzo wcześnie."
+    ru: "Завтра он хочет быть в школе очень рано."
+    words: { Jutro: jutro, chce: chciec, być: byc, szkole: szkola, bardzo: bardzo, wcześnie: wczesnie }
+questions:
+  - type: choice
+    q: "Где Марек видит девушку?"
+    options: ["В школе", "В магазине", "Дома", "На улице"]
+    answer: 0
+    explain: "«Marek i Tomek są w szkole» — Марек и Томек в школе, там он и видит девушку."
+  - type: choice
+    q: "Что делает девушка?"
+    options: ["Стоит и читает книгу", "Поёт", "Пишет письмо", "Говорит по телефону"]
+    answer: 0
+    explain: "«Dziewczyna stoi i czyta książkę» — стоит и читает книгу. И Марек вечером говорит о ней: «Ciągle czyta książkę» — «всё время читает книгу»."
+  - type: choice
+    q: "Почему Томек советует спросить Аню?"
+    options: ["Аня всё знает", "Аня — сестра этой девушки", "Аня учится с девушкой в одном классе", "Сам Томек не говорит по-польски"]
+    answer: 0
+    explain: "«Ale Ania wie wszystko!» — «Но Аня знает всё!». Знание фактов — wiedzieć: wiem, wiesz, wie."
+  - type: choice
+    q: "Как зовут девушку?"
+    options: ["Оля", "Аня", "Эва", "Марта"]
+    answer: 0
+    explain: "«To Ola» — «Это Оля». Аня — сестра Марека."
+  - type: choice
+    q: "Что хочет знать Оля?"
+    options: ["Как зовут Марека", "Где живёт Марек", "Умеет ли Марек петь", "Сколько Мареку лет"]
+    answer: 0
+    explain: "«Ola też chce wiedzieć, jak masz na imię!» — Оля тоже хочет знать, как его зовут. Jak masz na imię? — дословно «как ты имеешь на имя?»."
+  - type: choice
+    q: "«Wiesz, kto to jest?» — «Znasz Olę?». Почему во втором вопросе znać?"
+    options: ["После znać идёт человек, а после wiedzieć — факт или вопрос", "znać — вежливая форма wiedzieć", "znać употребляют только в вопросах"]
+    answer: 0
+    explain: "Русское «знать» делится надвое: wiedzieć — факт (Wiesz, kto to jest? Nie wiem), znać — человек или вещь, которые мы знаем (Znasz Olę?). Проверка: «ведаешь Олю?» не скажешь — значит, znać."
+  - type: listen
+    text: "Marek nie wie, co robić."
+    explain: "wie — «знает», от wiedzieć: wiem, wiesz, wie. Здесь речь о факте, поэтому не zna."
+  - type: translate
+    q: "Ты знаешь Олю?"
+    answer: ["Znasz Olę?", "Czy znasz Olę?", "Ty znasz Olę?", "Czy ty znasz Olę?"]
+    explain: "Знать человека — znać, и человек стоит в винительном: Ola → Olę, как książka → książkę."
+  - type: translate
+    q: "Я хочу знать, как её зовут."
+    answer: ["Chcę wiedzieć, jak ona ma na imię.", "Chcę wiedzieć, jak ma na imię.", "Ja chcę wiedzieć, jak ona ma na imię.", "Ja chcę wiedzieć, jak ma na imię."]
+    explain: "После chcieć — инфинитив: chcę wiedzieć. Знать факт — wiedzieć, а имя спрашивают через mieć: jak ona ma na imię."

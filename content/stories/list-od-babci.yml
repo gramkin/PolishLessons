@@ -1,0 +1,124 @@
+# review
+title: List od babci
+titleRu: Письмо от бабушки
+level: A1
+chapter: 8
+description: "Аня получает письмо от бабушки из деревни и пишет ответ — история на творительный, предложный и дательный падежи и звательную форму (Aniu, Babciu, Mamo)."
+sentences:
+  - pl: "Ania dostaje list."
+    ru: "Аня получает письмо."
+    words: { dostaje: dostawac, list: list }
+  - pl: "To list od babci."
+    ru: "Это письмо от бабушки."
+    words: { list: list, babci: babcia }
+  - pl: "Babcia mieszka na wsi, nad rzeką."
+    ru: "Бабушка живёт в деревне, у реки."
+    words: { Babcia: babcia, mieszka: mieszkac, wsi: wies, rzeką: rzeka }
+  - pl: "Ania czyta mamie list."
+    ru: "Аня читает письмо маме."
+    words: { czyta: czytac, list: list, mamie: mama }
+  - pl: "„Kochana Aniu!”"
+    ru: "«Дорогая Аня!»"
+    words: { Kochana: kochany }
+  - pl: "„U mnie wszystko dobrze.”"
+    ru: "«У меня всё хорошо»."
+    words: { mnie: ja, wszystko: wszystko, dobrze: dobrze }
+  - pl: "„Mieszkam teraz z psem.”"
+    ru: "«Теперь я живу с собакой»."
+    words: { Mieszkam: mieszkac, teraz: teraz, psem: pies }
+  - pl: "„Pies nazywa się Burek i jest bardzo mały.”"
+    ru: "«Собаку зовут Бурек, и она очень маленькая»."
+    words: { Pies: pies, nazywa: nazywac, jest: byc, bardzo: bardzo, mały: maly }
+  - pl: "„Burek śpi pod stołem i boi się kota.”"
+    ru: "«Бурек спит под столом и боится кота»."
+    words: { śpi: spac, stołem: stol, boi: bac, kota: kot }
+  - pl: "„Dużo pracuję i dużo czytam.”"
+    ru: "«Я много работаю и много читаю»."
+    words: { Dużo: duzo, pracuję: pracowac, dużo: duzo, czytam: czytac }
+  - pl: "„Często myślę o tobie.”"
+    ru: "«Я часто думаю о тебе»."
+    words: { Często: czesto, myślę: myslec, tobie: ty }
+  - pl: "„Jak ci idzie w szkole?”"
+    ru: "«Как у тебя дела в школе?»"
+    words: { Jak: jak, ci: ty, idzie: isc, szkole: szkola }
+  - pl: "„Pomagasz mamie?”"
+    ru: "«Ты помогаешь маме?»"
+    words: { Pomagasz: pomagac, mamie: mama }
+  - pl: "„Całuję cię mocno. Babcia”"
+    ru: "«Крепко тебя целую. Бабушка»"
+    words: { Całuję: calowac, cię: ty, mocno: mocno, Babcia: babcia }
+  - pl: "Mama się cieszy."
+    ru: "Мама радуется."
+    words: { Mama: mama, cieszy: cieszyc }
+  - pl: "– Babcia ma psa? – pyta mama."
+    ru: "— У бабушки собака? — спрашивает мама."
+    words: { Babcia: babcia, ma: miec, psa: pies, pyta: pytac, mama: mama }
+  - pl: "– Tak! Mamo, ja też chcę mieć psa!"
+    ru: "— Да! Мама, я тоже хочу собаку!"
+    words: { Tak: tak, Mamo: mama, ja: ja, chcę: chciec, mieć: miec, psa: pies }
+  - pl: "– Pies to dużo pracy, Aniu."
+    ru: "— Собака — это много работы, Аня."
+    words: { Pies: pies, dużo: duzo, pracy: praca }
+  - pl: "– Babcia czeka na list od ciebie – mówi mama."
+    ru: "— Бабушка ждёт от тебя письма, — говорит мама."
+    words: { Babcia: babcia, czeka: czekac, list: list, ciebie: ty, mówi: mowic, mama: mama }
+  - pl: "Teraz Ania pisze list do babci."
+    ru: "Теперь Аня пишет письмо бабушке."
+    words: { Teraz: teraz, pisze: pisac, list: list, babci: babcia }
+  - pl: "„Kochana Babciu!”"
+    ru: "«Дорогая бабушка!»"
+    words: { Kochana: kochany, Babciu: babcia }
+  - pl: "„Dziękuję ci za list.”"
+    ru: "«Спасибо тебе за письмо»."
+    words: { Dziękuję: dziekowac, ci: ty, list: list }
+  - pl: "„W szkole wszystko dobrze. Często pomagam mamie.”"
+    ru: "«В школе всё хорошо. Я часто помогаю маме»."
+    words: { szkole: szkola, wszystko: wszystko, dobrze: dobrze, Często: czesto, pomagam: pomagac, mamie: mama }
+  - pl: "„Mam kość dla Burka!”"
+    ru: "«У меня есть косточка для Бурека!»"
+    words: { Mam: miec, kość: kosc }
+  - pl: "„Całuję cię mocno. Ania”"
+    ru: "«Крепко тебя целую. Аня»"
+    words: { Całuję: calowac, cię: ty, mocno: mocno }
+questions:
+  - type: choice
+    q: "Где живёт бабушка?"
+    options: ["В деревне у реки", "В большом городе", "Рядом с Аней", "У моря"]
+    answer: 0
+    explain: "«Babcia mieszka na wsi, nad rzeką». na wsi — предложный падеж (wieś → wsi), nad rzeką — творительный, как русское «над рекой»."
+  - type: choice
+    q: "Кого боится Бурек?"
+    options: ["Кота", "Бабушку", "Мышь", "Аню"]
+    answer: 0
+    explain: "«Burek boi się kota». bać się требует родительного, как русское «бояться кота»."
+  - type: choice
+    q: "Где спит Бурек?"
+    options: ["Под столом", "На столе", "У окна", "У реки"]
+    answer: 0
+    explain: "«Burek śpi pod stołem». pod «под» на вопрос «где?» требует творительного: stół → pod stołem, как «под столом»."
+  - type: choice
+    q: "Чего хочет Аня, услышав про Бурека?"
+    options: ["Тоже завести собаку", "Поехать к бабушке в гости", "Подарить бабушке кота", "Ничего, она боится собак"]
+    answer: 0
+    explain: "«Mamo, ja też chcę mieć psa!» — «Мама, я тоже хочу собаку!». Mamo — звательная форма от mama."
+  - type: choice
+    q: "Что отвечает мама?"
+    options: ["Что собака — это много работы", "Что у бабушки уже две собаки", "Что Бурек очень большой", "Что собаки опасны"]
+    answer: 0
+    explain: "«Pies to dużo pracy, Aniu». После dużo — родительный: praca → pracy. Aniu — звательная форма от Ania."
+  - type: choice
+    q: "«Kochana ___!» Как Аня обращается к бабушке в письме?"
+    options: ["Babciu", "Babcia", "Babci"]
+    answer: 0
+    explain: "В обращении польский ставит звательный падеж: babcia → babciu, Ania → Aniu, mama → mamo. В письме без него не обойтись."
+  - type: listen
+    text: "Babcia mieszka na wsi, nad rzeką."
+    explain: "wsi — от wieś: в предложном выпадает e. rzeką — творительный от rzeka, носовое ą на конце."
+  - type: translate
+    q: "Ты помогаешь маме?"
+    answer: ["Pomagasz mamie?", "Czy pomagasz mamie?", "Ty pomagasz mamie?", "Czy ty pomagasz mamie?"]
+    explain: "pomagać, как «помогать», требует дательного: mama → mamie. Окончание -ie с той же мягкостью, что в предложном: o mamie."
+  - type: translate
+    q: "Я часто думаю о тебе."
+    answer: ["Często myślę o tobie.", "Myślę o tobie często.", "Ja często myślę o tobie.", "Często o tobie myślę."]
+    explain: "myśleć o + предложный, как «думать о»: o tobie. Ударная форма tobie нужна после предлога, как русское «о тебе»."

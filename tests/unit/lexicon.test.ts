@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { intendedNonWords, isKnownForm, lessonWords, unknownWords } from '../../scripts/lib/lexicon'
+import {
+  intendedNonWords,
+  isKnownForm,
+  lessonWords,
+  storyText,
+  unknownWords,
+} from '../../scripts/lib/lexicon'
 
 const known = new Set(['mam', 'kota', 'czytam', 'gazetę', 'gazeta', 'studentowi', 'widzę'])
 const isKnown = (w: string) => known.has(w)
@@ -61,5 +67,20 @@ describe('isKnownForm', () => {
 
   it('still rejects a misspelled stem', () => {
     for (const w of ['mogłbym', 'gdibym', 'przyszłem']) expect(isKnownForm(w, has)).toBe(false)
+  })
+})
+
+describe('storyText', () => {
+  it('collects the sentences, dictations and accepted answers, but not choice options', () => {
+    const text = storyText({
+      sentences: [{ pl: 'Mam kota.', ru: 'У меня есть кот.' }],
+      questions: [
+        { type: 'choice', q: 'Кто?', options: ['kotek', 'piesek'], answer: 0 },
+        { type: 'listen', text: 'Czytam gazetę.' },
+        { type: 'translate', q: 'Я вижу кота.', answer: ['Widzę kota.'] },
+        { type: 'input', q: '___', answer: 'studentowi' },
+      ],
+    })
+    expect(text.split('\n')).toEqual(['Mam kota.', 'Czytam gazetę.', 'Widzę kota.', 'studentowi'])
   })
 })

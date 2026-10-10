@@ -1,6 +1,7 @@
 title: W sklepie
 titleRu: В магазине
 level: A1
+chapter: 3
 description: "Покупаем хлеб и кофе. Помните: sklep — это магазин, а не склеп."
 sentences:
   - pl: Dzień dobry!
@@ -32,3 +33,40 @@ sentences:
   - pl: Do widzenia!
     ru: До свидания!
     words: { Do widzenia: do-widzenia }
+questions:
+  - type: choice
+    q: Что покупатель просит сначала?
+    options: ["Хлеб и молоко.", "Кофе и чай.", "Хлеб и чай."]
+    answer: 0
+    explain: "«Poproszę chleb i mleko.» Poproszę — вежливое «я попрошу», так в магазине и говорят."
+  - type: choice
+    q: Что ещё есть в магазине?
+    options: ["Кофе и чай.", "Только молоко.", "Ничего больше нет."]
+    answer: 0
+    explain: "«Tak, mamy kawę i herbatę.» herbata — чай, а kawa — кофе, в польском она женского рода: kawę."
+  - type: choice
+    q: Сколько стоит покупка?
+    options: ["Двенадцать злотых.", "Два злотых.", "Двадцать злотых."]
+    answer: 0
+    explain: "dwanaście — «двенадцать»: -naście соответствует русскому «-надцать». Двадцать — dwadzieścia."
+  - type: choice
+    q: Как продавец предлагает помощь?
+    options: ["W czym mogę pomóc?", "Ile płacę?", "Proszę bardzo."]
+    answer: 0
+    explain: "W czym mogę pomóc? — «Чем могу помочь?», дословно «в чём могу помочь». Ile płacę? спрашивает покупатель."
+  - type: choice
+    q: Что значит sklep?
+    options: [магазин, склеп, склад]
+    answer: 0
+    explain: "sklep — магазин, ложный друг. Склеп по-польски grobowiec."
+  - type: listen
+    text: Poproszę chleb i mleko.
+    explain: "ę в конце слова почти не слышно: poproszę — «попро́шэ». ch звучит как русское «х»."
+  - type: translate
+    q: Хлеб и молоко, пожалуйста.
+    answer: ["Poproszę chleb i mleko.", "Proszę chleb i mleko.", "Chleb i mleko, proszę."]
+    explain: "В магазине вежливо говорят poproszę и называют, что нужно: poproszę chleb."
+  - type: translate
+    q: Сколько с меня?
+    answer: ["Ile płacę?"]
+    explain: "Поляк спрашивает «сколько я плачу?»: Ile płacę? Русского «с меня» здесь нет."
