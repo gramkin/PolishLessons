@@ -2,11 +2,16 @@
 import type { InputQuestion } from '#shared/schemas'
 import { sampleItems, type DrillFile, type DrillItem } from '~/utils/drill'
 import { scoreQuiz, type Verdict } from '~/utils/quiz'
+import { LESSON_TITLE_KEY } from '~/utils/mistakes'
+import { normalizePath } from '~/utils/nav'
 
 const SESSION = 10
 
 const props = defineProps<{ id: string }>()
 const { app } = useRuntimeConfig()
+const route = useRoute()
+const { recordMistake } = useProgress()
+const lessonTitle = inject(LESSON_TITLE_KEY, null)
 
 // Loaded on the first click: a drill file is tens of kilobytes the page does not need until then.
 const file = shallowRef<DrillFile | null>(null)
@@ -47,6 +52,13 @@ function onAnswered(index: number, verdict: Verdict) {
   const next = [...verdicts.value]
   next[index] = verdict
   verdicts.value = next
+  const item = session.value[index]
+  const question = questions.value[index]
+  if (verdict === 'wrong' && item && question) {
+    const path = normalizePath(route.path)
+    const title = `${lessonTitle?.value || path} · Тренажёр`
+    recordMistake(question, { kind: 'drill', path, title, card: item.card })
+  }
 }
 
 const done = computed(() => verdicts.value.length > 0 && verdicts.value.every((v) => v !== null))

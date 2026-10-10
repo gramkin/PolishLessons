@@ -13,13 +13,14 @@ const now = new Date('2026-09-14T10:00:00Z')
 const later = new Date('2026-09-15T10:00:00Z')
 
 describe('defaultProgress', () => {
-  it('has version 1, empty records and default settings', () => {
+  it('has version 2, empty records and default settings', () => {
     expect(defaultProgress()).toEqual({
       version: 2,
       lessons: {},
       cards: {},
       settings: { showPron: 'auto', translationMode: 'tap', direction: 'pl-ru' },
       phrases: {},
+      mistakes: {},
     })
   })
 })

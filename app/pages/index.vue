@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { learnedWordIds } from '~/utils/deck'
 import { isDue } from '~/utils/leitner'
+import { dueMistakes } from '~/utils/mistakes'
 
 const { progress, loaded, isLessonCompleted } = useProgress()
 const { data: lessonWords } = await useLessonWords()
@@ -13,7 +14,8 @@ const dueCount = computed(() => {
   const phrases = Object.values(progress.value.phrases).filter((p) =>
     isDue({ box: p.box, due: p.due }, now),
   ).length
-  return cards + phrases
+  const mistakes = dueMistakes(progress.value.mistakes, now).length
+  return cards + phrases + mistakes
 })
 </script>
 

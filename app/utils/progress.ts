@@ -1,4 +1,6 @@
 import { z } from 'zod'
+import { questionSchema } from '#shared/schemas'
+import type { Mistake } from './mistakes'
 
 export const STORAGE_KEY = 'polski:v1'
 export const THEMES = ['system', 'light', 'sepia', 'dark'] as const
@@ -34,6 +36,36 @@ const cardProgressSchema = z.object({
   due: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 })
 
+const day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
+
+const mistakeSchema = z.object({
+  id: z.string().min(1),
+  question: questionSchema,
+  source: z.object({
+    kind: z.enum(['lesson', 'drill']),
+    path: z.string().min(1),
+    title: z.string().min(1),
+    card: z.string().min(1).optional(),
+  }),
+  box: z.number().int().min(1).max(5),
+  due: day,
+  added: day,
+})
+
+// Each mistake is a snapshot of a question; if a later schema change makes one unreadable,
+// drop that one instead of failing the whole file (which would reset all progress).
+const mistakesSchema = z
+  .record(z.string(), z.unknown())
+  .default({})
+  .transform((entries): Record<string, Mistake> =>
+    Object.fromEntries(
+      Object.entries(entries).flatMap(([id, value]) => {
+        const parsed = mistakeSchema.safeParse(value)
+        return parsed.success ? [[id, parsed.data as Mistake]] : []
+      }),
+    ),
+  )
+
 export const PROGRESS_VERSION = 2
 
 export const progressSchema = z.object({
@@ -41,6 +73,7 @@ export const progressSchema = z.object({
   lessons: z.record(z.string(), lessonProgressSchema).default({}),
   cards: z.record(z.string(), cardProgressSchema).default({}),
   phrases: z.record(z.string(), phraseSchema).default({}),
+  mistakes: mistakesSchema,
   settings: settingsSchema.default({}),
 })
 

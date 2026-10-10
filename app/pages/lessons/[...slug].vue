@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { normalizePath } from '~/utils/nav'
 import { LESSON_CHAPTER_KEY } from '~/utils/pron'
+import { LESSON_TITLE_KEY } from '~/utils/mistakes'
 
 const route = useRoute()
 const path = normalizePath(route.path)
@@ -20,9 +21,14 @@ if (!page.value) {
 }
 
 provide(LESSON_CHAPTER_KEY, page.value.chapter)
+const title = computed(() =>
+  page.value ? `${current.value?.label ?? ''} ${page.value.title}`.trim() : '',
+)
+// Quizzes and drills label the mistakes they record with it.
+provide(LESSON_TITLE_KEY, title)
 
 useSeoMeta({
-  title: () => (page.value ? `${current.value?.label ?? ''} ${page.value.title}`.trim() : ''),
+  title: () => title.value,
   description: () => page.value?.description,
 })
 </script>

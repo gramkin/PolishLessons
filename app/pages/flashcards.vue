@@ -2,6 +2,7 @@
 import type { Word } from '#shared/schemas'
 import { learnedWordIds, selectWords, type DeckFilter } from '~/utils/deck'
 import { buildSession, isDue } from '~/utils/leitner'
+import { dueMistakes, type Mistake } from '~/utils/mistakes'
 import { listTopics } from '~/utils/vocabulary'
 
 useSeoMeta({ title: 'Карточки', description: 'Повторение слов по системе Лейтнера.' })
@@ -16,11 +17,13 @@ const {
   reviewCard,
   reviewPhrase,
   deletePhrase,
+  reviewMistake,
+  deleteMistake,
   updateSettings,
 } = useProgress()
 // Saved phrases keep the text they were saved with; refresh it from the cards.
 usePhraseSync()
-const mode = ref<'words' | 'phrases'>('words')
+const mode = ref<'words' | 'phrases' | 'mistakes'>('words')
 const phrases = computed(() =>
   Object.values(progress.value.phrases).sort((a, b) => a.added.localeCompare(b.added)),
 )
@@ -44,6 +47,26 @@ function startPhrases() {
     .filter((p): p is (typeof phrases.value)[number] => !!p)
     .map((p) => ({ id: p.id, pl: p.pl, ru: p.ru, from: p.from }))
   summary.value = null
+}
+
+const MISTAKES_PER_SESSION = 20
+const mistakes = computed(() =>
+  Object.values(progress.value.mistakes).sort((a, b) => a.due.localeCompare(b.due)),
+)
+const mistakesDue = computed(() => dueMistakes(progress.value.mistakes, new Date()).length)
+const mistakeSession = ref<Mistake[] | null>(null)
+
+function startMistakes() {
+  mistakeSession.value = dueMistakes(progress.value.mistakes, new Date()).slice(
+    0,
+    MISTAKES_PER_SESSION,
+  )
+  summary.value = null
+}
+
+function onMistakesFinish(result: { remembered: number; forgotten: number }) {
+  summary.value = result
+  mistakeSession.value = null
 }
 
 function onPhrasesFinish(result: { remembered: number; forgotten: number }) {
@@ -118,6 +141,12 @@ function onFinish(result: { remembered: number; forgotten: number }) {
     <ClientOnly>
       <template #fallback><p>Загрузка…</p></template>
       <p v-if="!loaded">Загрузка…</p>
+      <MistakeSession
+        v-else-if="mistakeSession"
+        :items="mistakeSession"
+        @review="reviewMistake"
+        @finish="onMistakesFinish"
+      />
       <FlashcardSession
         v-else-if="phraseSession"
         :phrases="phraseSession"
@@ -140,11 +169,26 @@ function onFinish(result: { remembered: number; forgotten: number }) {
           <button type="button" :aria-pressed="mode === 'phrases'" @click="mode = 'phrases'">
             Фразы
           </button>
+          <button type="button" :aria-pressed="mode === 'mistakes'" @click="mode = 'mistakes'">
+            Ошибки
+          </button>
         </div>
         <p v-if="summary" class="summary" role="status">
           Сессия завершена. Помню: {{ summary.remembered }} · Не помню: {{ summary.forgotten }}
         </p>
-        <template v-if="mode === 'phrases'">
+        <template v-if="mode === 'mistakes'">
+          <p class="counts">
+            Ошибок в списке: {{ mistakes.length }} · к повторению сегодня: {{ mistakesDue }}
+          </p>
+          <p v-if="mistakes.length === 0" class="hint">
+            Сюда попадают вопросы из упражнений и тренажёров, на которые вы ответили неверно. Они
+            возвращаются на следующий день, потом всё реже, и уходят после пяти верных ответов
+            подряд.
+          </p>
+          <MistakeList :mistakes="mistakes" @remove="deleteMistake" />
+          <button type="button" :disabled="mistakesDue === 0" @click="startMistakes">Начать</button>
+        </template>
+        <template v-else-if="mode === 'phrases'">
           <p class="counts">
             Фраз в списке: {{ phrases.length }} · к повторению сегодня: {{ phrasesDue }}
           </p>

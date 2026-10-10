@@ -2,11 +2,13 @@
 import { quizSchema, type Question } from '#shared/schemas'
 import { normalizePath } from '~/utils/nav'
 import { PASS_PERCENT, scoreQuiz, type Verdict } from '~/utils/quiz'
+import { LESSON_TITLE_KEY } from '~/utils/mistakes'
 
 const props = defineProps<{ questions: unknown; final?: boolean }>()
 
 const route = useRoute()
-const { recordQuiz } = useProgress()
+const { recordQuiz, recordMistake } = useProgress()
+const lessonTitle = inject(LESSON_TITLE_KEY, null)
 const isDev = import.meta.dev
 
 const parsed = computed(() => quizSchema.safeParse(props.questions))
@@ -35,6 +37,11 @@ function onAnswered(index: number, verdict: Verdict) {
   const next = [...verdicts.value]
   next[index] = verdict
   verdicts.value = next
+  const question = list.value[index]
+  if (verdict === 'wrong' && question) {
+    const path = normalizePath(route.path)
+    recordMistake(question, { kind: 'lesson', path, title: lessonTitle?.value || path })
+  }
   if (props.final && next.every((v) => v !== null)) {
     recordQuiz(normalizePath(route.path), scoreQuiz(next as Verdict[]).percent)
   }

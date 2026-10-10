@@ -7,6 +7,12 @@ import {
 } from '~/utils/progress'
 import { review } from '~/utils/leitner'
 import type { Phrase } from '~/utils/phrases'
+import type { Question } from '#shared/schemas'
+import {
+  recordMistake as addMistake,
+  reviewMistake as scheduleMistake,
+  type MistakeSource,
+} from '~/utils/mistakes'
 
 export function useProgress() {
   const progress = useState<Progress>('progress', defaultProgress)
@@ -81,6 +87,27 @@ export function useProgress() {
     }
   }
 
+  /** A wrong answer joins the review queue. Before progress loads it would be overwritten, so it is skipped. */
+  function recordMistake(question: Question, source: MistakeSource) {
+    if (!loaded.value) return
+    progress.value = {
+      ...progress.value,
+      mistakes: addMistake(progress.value.mistakes, question, source, new Date()),
+    }
+  }
+
+  function reviewMistake(id: string, correct: boolean) {
+    progress.value = {
+      ...progress.value,
+      mistakes: scheduleMistake(progress.value.mistakes, id, correct, new Date()),
+    }
+  }
+
+  function deleteMistake(id: string) {
+    const { [id]: _removed, ...rest } = progress.value.mistakes
+    progress.value = { ...progress.value, mistakes: rest }
+  }
+
   function replace(next: Progress) {
     progress.value = next
   }
@@ -97,6 +124,9 @@ export function useProgress() {
     hasPhrase,
     reviewPhrase,
     updatePhraseText,
+    recordMistake,
+    reviewMistake,
+    deleteMistake,
     updateSettings,
     replace,
   }
