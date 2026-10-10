@@ -1,6 +1,7 @@
-import { describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
 import CompareTable from '~/components/content/CompareTable.vue'
+import { resetSpeech } from '~/composables/useSpeech'
 
 const headers = ['Падеж', 'Русский', 'Польский']
 const rows = [
@@ -38,5 +39,37 @@ describe('CompareTable', () => {
     const cells = wrapper.find('tbody tr').findAll('td')
     expect(cells[0]!.attributes('lang')).toBe('pl')
     expect(cells[1]!.attributes('lang')).toBeUndefined()
+  })
+})
+
+describe('CompareTable audio', () => {
+  afterEach(() => {
+    resetSpeech()
+    vi.unstubAllGlobals()
+  })
+
+  it('gives speakable Polish cells a listen button and leaves notation silent', async () => {
+    resetSpeech()
+    vi.stubGlobal('speechSynthesis', {
+      getVoices: () => [{ lang: 'pl-PL', localService: true }],
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+      speak: vi.fn(),
+      cancel: vi.fn(),
+    })
+    const wrapper = await mountSuspended(CompareTable, {
+      props: {
+        headers: ['Буква', 'Окончание', 'Пример', 'Русский'],
+        rows: [['sz', '-esz', 'piszesz', 'пишешь']],
+        plColumns: [0, 1, 2],
+      },
+    })
+    const cells = wrapper.find('tbody tr').findAll('td')
+    expect(cells[0]!.find('button.speak-button').exists()).toBe(false)
+    expect(cells[1]!.find('button.speak-button').exists()).toBe(false)
+    expect(cells[2]!.find('button.speak-button').attributes('aria-label')).toBe(
+      'Произнести: piszesz',
+    )
+    expect(cells[3]!.find('button.speak-button').exists()).toBe(false)
   })
 })

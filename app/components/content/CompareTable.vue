@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { speakableCell } from '~/utils/speech'
+
 const props = defineProps<{
   headers: string[]
   rows: string[][]
@@ -38,7 +40,11 @@ const parsedRows = computed(() =>
             :key="c"
             :lang="polishColumns.has(c) ? 'pl' : undefined"
           >
-            {{ cell }}<span v-if="row.diff && c === 0" class="sr-only"> (отличие от русского)</span>
+            {{ cell }}<span v-if="row.diff && c === 0" class="sr-only"> (отличие от русского)</span
+            ><SpeakButton
+              v-if="polishColumns.has(c) && speakableCell(cell)"
+              :text="speakableCell(cell)!"
+            />
           </td>
         </tr>
       </tbody>
