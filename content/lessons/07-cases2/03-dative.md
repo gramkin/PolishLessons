@@ -1,7 +1,7 @@
 ---
 title: Дательный падеж
 description: Кому и чему — и глаголы, которые в русском требуют другого падежа.
-chapter: 7
+chapter: 8
 order: 3
 level: A2
 words: [pomagac, dziekowac, dawac, wierzyc, ufac, przeszkadzac]

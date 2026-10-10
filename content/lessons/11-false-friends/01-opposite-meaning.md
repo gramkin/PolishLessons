@@ -1,7 +1,7 @@
 ---
 title: Слова с противоположным смыслом
 description: "Ложные друзья, которые значат ровно обратное тому, что слышится."
-chapter: 11
+chapter: 19
 order: 1
 level: A2
 words: [zapomniec, won, pytac, nagle]

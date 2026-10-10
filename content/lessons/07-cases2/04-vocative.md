@@ -1,7 +1,7 @@
 ---
 title: Звательный падеж
 description: Падеж обращения, который русский почти потерял, а польский сохранил.
-chapter: 7
+chapter: 8
 order: 4
 level: A2
 words: [pan, pani, mama, tata, kolega, syn]

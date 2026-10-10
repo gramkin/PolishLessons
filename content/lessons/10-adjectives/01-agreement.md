@@ -1,7 +1,7 @@
 ---
 title: Согласование прилагательных
 description: "Прилагательное подстраивается под существительное — род, число, падеж."
-chapter: 10
+chapter: 16
 order: 1
 level: A2
 words: [dobry, zly, duzy, nowy, stary]
@@ -131,12 +131,12 @@ questions:
     q: "Mieszkam w ___ domu. (nowy)"
     options: [nowy, nowym, nowego]
     answer: 1
-    explain: "w + предложный (место, урок 7.2): w nowym domu, «в новом доме». Прилагательное меняет падеж вместе с существительным."
+    explain: "w + предложный (место, урок 8.2): w nowym domu, «в новом доме». Прилагательное меняет падеж вместе с существительным."
   - type: choice
     q: "Nie mam ___ samochodu. (nowy)"
     options: [nowy, nowego, nowym]
     answer: 1
-    explain: "После отрицания — родительный (урок 6.3), и прилагательное тоже: nowego samochodu."
+    explain: "После отрицания — родительный (урок 7.3), и прилагательное тоже: nowego samochodu."
   - type: input
     q: "Czytam ___ książkę. (dobry)"
     answer: dobrą

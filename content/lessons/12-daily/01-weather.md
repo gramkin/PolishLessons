@@ -1,7 +1,7 @@
 ---
 title: Погода
 description: "Как сказать о погоде — и почему это первый разговор с любым поляком."
-chapter: 12
+chapter: 20
 order: 1
 level: A2
 words: [pogoda, deszcz, snieg, slonce, wiatr, wiosna, lato, zima]
@@ -69,7 +69,7 @@ questions:
 
 ## Сравнение пригодится
 
-Здесь работает всё из десятой главы. Наречия на **-o** образуют сравнительную степень на **-ej**: *ciepło* → *cieplej*, *zimno* → *zimniej*.
+Здесь работает всё из шестнадцатой главы. Наречия на **-o** образуют сравнительную степень на **-ej**: *ciepło* → *cieplej*, *zimno* → *zimniej*.
 
 :pron{pl="Dzisiaj jest cieplej niż wczoraj."} — Сегодня теплее, чем вчера.
 :pron{pl="To najzimniejszy dzień w tym roku."} — Это самый холодный день в этом году.
@@ -109,7 +109,7 @@ rows:
 
 :pron{pl="Zimą jest bardzo zimno."} — Зимой очень холодно.
 
-Форма *zimą*, *latem*, *wiosną*, *jesienią* — это творительный падеж из седьмой главы в значении времени, как русское «зимой», «летом».
+Форма *zimą*, *latem*, *wiosną*, *jesienią* — это творительный падеж из восьмой главы в значении времени, как русское «зимой», «летом».
 
 ::quiz
 ---

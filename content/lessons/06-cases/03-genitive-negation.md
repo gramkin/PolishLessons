@@ -1,7 +1,7 @@
 ---
 title: Родительный после отрицания
 description: Отрицание меняет падеж — в польском это обязательно.
-chapter: 6
+chapter: 7
 order: 3
 level: A2
 words: [probowac, czas, ksiazka, pies]

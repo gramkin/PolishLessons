@@ -1,7 +1,7 @@
 ---
 title: Предлоги, которые меняют падеж
 description: Один предлог, два падежа, два смысла — и как их не путать.
-chapter: 7
+chapter: 8
 order: 5
 level: A2
 words: [z, w, na, po, pod, nad, przed]

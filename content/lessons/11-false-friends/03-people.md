@@ -1,7 +1,7 @@
 ---
 title: Люди и отношения
 description: "Слова о семье, работе и внешности, которые значат не то."
-chapter: 11
+chapter: 19
 order: 3
 level: A2
 words: [rodzina, zawod, uroda, duma, wesele, wies]

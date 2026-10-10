@@ -1,7 +1,7 @@
 ---
 title: Неправильные степени сравнения
 description: "Пять частых прилагательных, у которых степени сравнения образуются не по правилу."
-chapter: 10
+chapter: 16
 order: 3
 level: A2
 words: [dobry, zly, duzy, maly, wysoki]

@@ -1,7 +1,7 @@
 ---
 title: Винительный падеж
 description: Кого и что — падеж прямого дополнения, и он ближе к русскому, чем кажется.
-chapter: 6
+chapter: 7
 order: 1
 level: A2
 words: [kupic, muzyka, na, w, przez]
@@ -126,7 +126,7 @@ questions:
     q: "В каком предложении винительный падеж после na?"
     options: ["Idę na pocztę.", "Jestem na poczcie."]
     answer: 0
-    explain: "Движение «куда?» — винительный (pocztę). Место «где?» — предложный (poczcie), он будет в уроке 7.2."
+    explain: "Движение «куда?» — винительный (pocztę). Место «где?» — предложный (poczcie), он будет в уроке 8.2."
 ---
 ::
 

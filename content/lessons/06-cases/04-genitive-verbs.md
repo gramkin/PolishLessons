@@ -1,7 +1,7 @@
 ---
 title: Глаголы и предлоги с родительным
 description: Слушать музыку или музыки? Глаголы, которые в польском требуют другого падежа.
-chapter: 6
+chapter: 7
 order: 4
 level: A2
 words: [szukac, potrzebowac, uzywac, bac, uczyc, obok, oprocz, wedlug, z]

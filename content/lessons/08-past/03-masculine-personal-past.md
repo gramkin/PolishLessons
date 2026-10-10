@@ -1,7 +1,7 @@
 ---
 title: Мужской личный род в прошедшем
 description: Byli или były — тот же выбор, что между oni и one, только в глаголе.
-chapter: 8
+chapter: 12
 order: 3
 level: A2
 words: [spotkac, wrocic, skonczyc]

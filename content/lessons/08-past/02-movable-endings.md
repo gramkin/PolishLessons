@@ -1,7 +1,7 @@
 ---
 title: Подвижные окончания
 description: Окончание прошедшего времени умеет отрываться от глагола — такого в русском нет.
-chapter: 8
+chapter: 12
 order: 2
 level: A2
 words: [kiedys, potem, nigdy, zawsze]

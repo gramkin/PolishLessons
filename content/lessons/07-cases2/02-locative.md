@@ -1,7 +1,7 @@
 ---
 title: Предложный падеж
 description: Где и о чём — единственный падеж, который живёт только с предлогами.
-chapter: 7
+chapter: 8
 order: 2
 level: A2
 words: [praca, biuro, hotel, restauracja, o, przy]

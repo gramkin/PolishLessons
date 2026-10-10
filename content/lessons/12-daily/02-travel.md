@@ -1,7 +1,7 @@
 ---
 title: Путешествие
 description: "На вокзале, в поезде и в гостинице — падежи в деле."
-chapter: 12
+chapter: 20
 order: 2
 level: A2
 words: [podroz, pociag, dworzec, hotel, bilet]
@@ -36,7 +36,7 @@ questions:
 :pron{pl="Gdzie jest kasa biletowa?"} — Где билетная касса?
 :pron{pl="Poproszę bilet do Krakowa."} — Один билет до Кракова, пожалуйста.
 
-Предлог *do* с родительным падежом — направление: *do Krakowa*, *do Warszawy*, *do Gdańska*. А когда вы уже на месте, это предложный падеж из урока 7.2:
+Предлог *do* с родительным падежом — направление: *do Krakowa*, *do Warszawy*, *do Gdańska*. А когда вы уже на месте, это предложный падеж из урока 8.2:
 
 :pron{pl="Mieszkam w Krakowie."} — Я живу в Кракове.
 :pron{pl="Poproszę bilet w obie strony."} — Билет туда и обратно, пожалуйста.

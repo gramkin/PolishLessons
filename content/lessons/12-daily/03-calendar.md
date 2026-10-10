@@ -1,7 +1,7 @@
 ---
 title: "Неделя, месяц, год"
 description: "Календарь по-польски: дни, месяцы и как назвать дату."
-chapter: 12
+chapter: 20
 order: 3
 level: A2
 words: [tydzien, miesiac, rok, dzien, jutro, urodzic, poniedzialek, wtorek, sroda, czwartek, piatek, sobota, niedziela, styczen, luty, marzec, kwiecien, maj, czerwiec, lipiec, sierpien, wrzesien, pazdziernik, listopad, grudzien]

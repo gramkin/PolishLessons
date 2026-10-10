@@ -1,7 +1,7 @@
 ---
 title: Вещи и места
 description: "Предметы и здания, названия которых сбивают с толку."
-chapter: 11
+chapter: 19
 order: 2
 level: A2
 words: [dywan, lustro, krzeslo, czaszka, sklep, dworzec, dynia]

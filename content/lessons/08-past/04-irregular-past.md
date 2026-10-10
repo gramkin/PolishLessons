@@ -1,7 +1,7 @@
 ---
 title: Неправильные глаголы в прошедшем
 description: Пять глаголов, у которых основа меняется сильнее, чем ожидаешь.
-chapter: 8
+chapter: 12
 order: 4
 level: A2
 words: [isc, moc, jesc, zaczac, wiedziec]

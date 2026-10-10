@@ -1,7 +1,7 @@
 ---
 title: Время, речь и отвлечённые слова
 description: "Последняя группа ложных друзей — самая книжная и самая частая."
-chapter: 11
+chapter: 19
 order: 4
 level: A2
 words: [czas, rok, jutro, zdanie, sprawa, obraz, list]

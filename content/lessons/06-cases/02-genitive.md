@@ -1,7 +1,7 @@
 ---
 title: Родительный падеж
 description: Кого нет, чего много и чей это — один падеж на три очень частые задачи.
-chapter: 6
+chapter: 7
 order: 2
 level: A2
 words: [do, od, dla, bez, duzo, malo, troche, kilka, wiele, szesc]
