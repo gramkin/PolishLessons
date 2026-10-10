@@ -4,7 +4,7 @@ description: Слова, которые похожи на русские, но �
 chapter: 2
 order: 6
 level: A1
-words: [miasto, uroda, sklep, dywan, zapomniec, owoc, zakaz, czas, list, dworzec, zachod, rodzina, zawod, pytac, brak, jutro, dynia, pokoj, nagle, rok, lustro, wesele, krzeslo, obraz, czaszka, zdanie, sprawa, powiesc, stac, zalowac, won, duma, wies]
+words: [miasto, uroda, sklep, dywan, zapomniec, owoc, zakaz, czas, list, dworzec, zachod, rodzina, zawod, pytac, brak, jutro, dynia, pokoj, nagle, rok, lustro, wesele, krzeslo, obraz, czaszka, zdanie, sprawa, powiesc-noun, stac, zalowac, won, duma, wies]
 ---
 
 <!-- review -->
@@ -80,7 +80,7 @@ rows:
 ---
 ::
 
-Послушать и открыть карточку: :pl-word{id="rok"}, :pl-word{id="nagle"}, :pl-word{id="zachod"}, :pl-word{id="brak"}, :pl-word{id="sprawa"}, :pl-word{id="zdanie"}, :pl-word{id="obraz"}, :pl-word{id="powiesc"}, :pl-word{id="pytac"}, :pl-word{id="stac"}, :pl-word{id="zalowac"}, :pl-word{id="won"}, :pl-word{id="duma"}.
+Послушать и открыть карточку: :pl-word{id="rok"}, :pl-word{id="nagle"}, :pl-word{id="zachod"}, :pl-word{id="brak"}, :pl-word{id="sprawa"}, :pl-word{id="zdanie"}, :pl-word{id="obraz"}, :pl-word{id="powiesc-noun"}, :pl-word{id="pytac"}, :pl-word{id="stac"}, :pl-word{id="zalowac"}, :pl-word{id="won"}, :pl-word{id="duma"}.
 
 Все ложные друзья собраны в [словаре](/vocabulary) (фильтр «Только ложные друзья») и в [карточках](/flashcards).
 
