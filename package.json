@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm search-index && pnpm dict:publish && pnpm drills && nuxt dev",
+    "dev": "pnpm search-index && pnpm dict:publish && pnpm drills && pnpm idioms && nuxt dev",
     "build": "nuxt build",
-    "generate": "pnpm validate && pnpm lexicon && pnpm search-index && pnpm dict:publish && pnpm drills && tsx scripts/preview-refresh.ts --snapshot && nuxt generate && tsx scripts/preview-refresh.ts --commit",
+    "generate": "pnpm validate && pnpm lexicon && pnpm search-index && pnpm dict:publish && pnpm drills && pnpm idioms && tsx scripts/preview-refresh.ts --snapshot && nuxt generate && tsx scripts/preview-refresh.ts --commit",
     "preview": "serve .output/public -l 4173",
     "preview:refresh": "tsx scripts/preview-refresh.ts",
     "postinstall": "nuxt prepare",
@@ -25,7 +25,9 @@
     "dict:draft": "tsx scripts/dictionary/cli/draft.ts",
     "dict:build": "tsx scripts/dictionary/cli/build.ts",
     "dict:publish": "tsx scripts/dictionary/cli/publish.ts",
-    "dict:status": "tsx scripts/dictionary/cli/status.ts"
+    "dict:status": "tsx scripts/dictionary/cli/status.ts",
+    "idioms:count": "tsx scripts/build-idiom-frequency.ts",
+    "idioms": "tsx scripts/build-idioms.ts"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

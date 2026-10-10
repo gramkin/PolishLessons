@@ -11,6 +11,7 @@ const sections = [
   { to: '/stories', label: 'Истории' },
   { to: '/books', label: 'Книги' },
   { to: '/vocabulary', label: 'Словарь' },
+  { to: '/idioms', label: 'Выражения' },
   { to: '/flashcards', label: 'Карточки' },
   { to: '/cheatsheet', label: 'Шпаргалка' },
 ]

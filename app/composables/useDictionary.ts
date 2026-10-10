@@ -1,4 +1,5 @@
 import type { IndexEntry, PublishedCard } from '#shared/dictionary'
+import type { PublishedIdiom } from '#shared/idioms'
 
 const SAFE_ID = /^[a-z0-9-]+$/
 
@@ -35,4 +36,14 @@ export function useWordCard(id: string) {
   const path = `cards/${SAFE_ID.test(id) ? id : '__invalid__'}.json`
   const url = dictionaryUrl(path)
   return useAsyncData(`dictionary:card:${id}`, () => loadDictionaryJson<PublishedCard>(path, url))
+}
+
+/** Idioms and set expressions by frequency (`pnpm idioms` writes the file). */
+export function useIdioms() {
+  const result = useAsyncData(
+    'dictionary:idioms',
+    () => loadDictionaryJson<PublishedIdiom[]>('idioms.json', dictionaryUrl('idioms.json')),
+    { default: () => [] },
+  )
+  return { idioms: computed(() => result.data.value ?? []), ready: result }
 }

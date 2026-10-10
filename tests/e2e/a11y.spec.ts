@@ -8,6 +8,7 @@ const PAGES = [
   '/stories/kot-i-mysz',
   '/books/alicja-pl-01-krolicza-nora',
   '/vocabulary',
+  '/idioms',
   '/flashcards',
   '/settings',
   '/cheatsheet',

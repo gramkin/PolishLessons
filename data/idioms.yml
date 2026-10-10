@@ -1,0 +1,3003 @@
+# review
+# The hand-checked classification of the most frequent card idioms (data/idiom-frequency.json),
+# keyed by its pl. kind: idiom | phrase | proverb | skip; see shared/idioms.ts and CLAUDE.md.
+- { pl: "naprawdę?", kind: "phrase" }
+- { pl: "przepraszam", kind: "phrase" }
+- { pl: "w porządku", kind: "phrase" }
+- { pl: "prawda?", kind: "phrase" }
+- { pl: "jasne!", kind: "phrase", register: "colloquial" }
+- { pl: "na pewno", kind: "phrase" }
+- { pl: "może być", kind: "phrase", register: "colloquial" }
+- { pl: "świetnie!", kind: "skip" }
+- { pl: "przestań!", kind: "skip" }
+- { pl: "nie musisz", kind: "phrase", ru: "тебе не обязательно, не нужно" }
+- { pl: "mieć rację", kind: "phrase" }
+- { pl: "przykro mi", kind: "phrase" }
+- { pl: "to znaczy", kind: "phrase" }
+- { pl: "i tak", kind: "phrase" }
+- { pl: "mieć nadzieję", kind: "phrase" }
+- { pl: "mój Boże", kind: "phrase" }
+- { pl: "pomocy!", kind: "phrase" }
+- { pl: "co się dzieje?", kind: "phrase" }
+- { pl: "spokojnie!", kind: "phrase" }
+- { pl: "ja też", kind: "skip" }
+- { pl: "zgadza się!", kind: "phrase" }
+- { pl: "zgadzam się", kind: "phrase" }
+- { pl: "trzymaj się", kind: "phrase" }
+- { pl: "poważnie?", kind: "phrase" }
+- { pl: "dać spokój", kind: "phrase", ru: "оставить в покое; (daj spokój!) брось!, да ладно!" }
+- { pl: "dlaczego nie?", kind: "phrase" }
+- { pl: "mieć na myśli", kind: "phrase" }
+- { pl: "dzień dobry", kind: "phrase" }
+- { pl: "Halo?", kind: "phrase", fix: "halo?" }
+- { pl: "w ogóle", kind: "phrase" }
+- { pl: "o co chodzi?", kind: "phrase" }
+- { pl: "kocham cię", kind: "phrase" }
+- { pl: "Natychmiast!", kind: "skip", fix: "natychmiast!" }
+- { pl: "Nieźle!", kind: "phrase", ru: "неплохо!, ничего себе!", fix: "nieźle!" }
+- { pl: "dowiedz się", kind: "skip" }
+- { pl: "nie martw się", kind: "phrase" }
+- { pl: "z powrotem", kind: "phrase" }
+- { pl: "uważaj!", kind: "phrase" }
+- { pl: "nie sądzę", kind: "phrase" }
+- { pl: "na razie", kind: "phrase" }
+- { pl: "z powodu", kind: "phrase" }
+- { pl: "do zobaczenia", kind: "phrase" }
+- { pl: "do diabła", kind: "idiom", register: "colloquial" }
+- { pl: "Dobranoc!", kind: "phrase", fix: "dobranoc!" }
+- { pl: "spotkanie", kind: "skip" }
+- { pl: "dlatego że", kind: "phrase" }
+- { pl: "nie mam pojęcia", kind: "phrase" }
+- { pl: "nie mieć pojęcia", kind: "skip" }
+- { pl: "Wspaniale!", kind: "skip" }
+- { pl: "proszę pana", kind: "phrase", ru: "простите (обращение к мужчине; букв. «прошу пана»)" }
+- { pl: "wydaje mi się", kind: "phrase" }
+- { pl: "Nieważne!", kind: "phrase", fix: "nieważne!" }
+- { pl: "zobaczymy", kind: "phrase" }
+- { pl: "proszę o…", kind: "phrase" }
+- { pl: "a może", kind: "phrase" }
+- { pl: "dać radę", kind: "phrase" }
+- { pl: "poza tym", kind: "phrase" }
+- { pl: "cieszę się, że...", kind: "phrase" }
+- { pl: "na zewnątrz", kind: "phrase" }
+- { pl: "na dole", kind: "phrase" }
+- { pl: "wcale nie", kind: "phrase" }
+- { pl: "podoba mi się", kind: "phrase" }
+- { pl: "choć", kind: "skip" }
+- { pl: "mój były", kind: "skip" }
+- { pl: "przyjaciel", kind: "skip" }
+- { pl: "być może", kind: "phrase" }
+- { pl: "trudno!", kind: "phrase" }
+- { pl: "za dużo", kind: "skip" }
+- { pl: "być w porządku", kind: "phrase", ru: "быть в порядке; быть порядочным (о человеке)" }
+- { pl: "obiecuję", kind: "skip" }
+- { pl: "Popatrz!", kind: "skip" }
+- { pl: "mieć na imię", kind: "phrase", ru: "зваться: mam na imię… — меня зовут…" }
+- { pl: "twierdzić, że…", kind: "skip" }
+- { pl: "powodzenia!", kind: "phrase" }
+- { pl: "dopóki nie", kind: "phrase" }
+- { pl: "być w stanie", kind: "phrase" }
+- { pl: "a więc", kind: "phrase" }
+- { pl: "no dobra", kind: "phrase", register: "colloquial" }
+- { pl: "w ten sposób", kind: "phrase" }
+- { pl: "Uspokój się!", kind: "skip" }
+- { pl: "moment!", kind: "phrase" }
+- { pl: "pojawić się", kind: "skip" }
+- { pl: "mieć zamiar", kind: "phrase" }
+- { pl: "ktoś inny", kind: "skip" }
+- { pl: "właściwie to...", kind: "phrase", register: "colloquial" }
+- { pl: "od razu", kind: "phrase" }
+- { pl: "przysięgam!", kind: "skip" }
+- { pl: "Żartujesz?!", kind: "phrase", fix: "żartujesz?!" }
+- { pl: "jak się masz?", kind: "phrase" }
+- { pl: "coś takiego!", kind: "phrase" }
+- { pl: "wynoś się!", kind: "phrase", register: "colloquial" }
+- { pl: "chwileczkę!", kind: "phrase" }
+- { pl: "na przykład", kind: "phrase" }
+- { pl: "nieprawda?", kind: "phrase", ru: "не так ли?, правда ведь?" }
+- { pl: "w takim razie", kind: "phrase" }
+- { pl: "fajnie!", kind: "skip", register: "colloquial" }
+- { pl: "z pewnością", kind: "phrase" }
+- { pl: "Zachowuj się!", kind: "phrase", fix: "zachowuj się!" }
+- { pl: "wejście do", kind: "skip" }
+- { pl: "na zawsze", kind: "phrase" }
+- { pl: "Niesamowite!", kind: "skip" }
+- { pl: "obawiam się, że...", kind: "phrase" }
+- { pl: "dobry pomysł", kind: "skip" }
+- { pl: "no nie!", kind: "phrase", register: "colloquial" }
+- { pl: "ten sam", kind: "phrase" }
+- { pl: "skąd wiesz?", kind: "skip" }
+- { pl: "w tej chwili", kind: "phrase" }
+- { pl: "poradzić sobie", kind: "phrase" }
+- { pl: "Rozkaz!", kind: "phrase", fix: "rozkaz!" }
+- { pl: "dobra robota", kind: "phrase" }
+- { pl: "proszę pani", kind: "phrase", ru: "простите (обращение к женщине; букв. «прошу пани»)" }
+- { pl: "najwyraźniej", kind: "skip" }
+- { pl: "posłuchaj mnie", kind: "skip" }
+- { pl: "proszę bardzo", kind: "phrase" }
+- { pl: "nie bój się", kind: "skip" }
+- { pl: "oni byli", kind: "skip" }
+- { pl: "do widzenia", kind: "phrase" }
+- { pl: "na ulicy", kind: "skip" }
+- { pl: "nie ma sprawy", kind: "phrase", register: "colloquial" }
+- { pl: "stawać się", kind: "skip" }
+- { pl: "na pokładzie", kind: "skip" }
+- { pl: "pewnego dnia", kind: "phrase" }
+- { pl: "na pewno nie", kind: "phrase" }
+- { pl: "nie trzeba", kind: "phrase" }
+- { pl: "robi się!", kind: "phrase", register: "colloquial" }
+- { pl: "zatrzymać się", kind: "skip" }
+- { pl: "poproszę", kind: "phrase" }
+- { pl: "Ognia!", kind: "phrase", fix: "ognia!" }
+- { pl: "czyż nie?", kind: "phrase", register: "bookish" }
+- { pl: "po drugie", kind: "phrase" }
+- { pl: "w pobliżu", kind: "phrase" }
+- { pl: "okazać się", kind: "skip" }
+- { pl: "następnym razem", kind: "phrase" }
+- { pl: "gratulacje!", kind: "phrase" }
+- { pl: "na całego", kind: "idiom", register: "colloquial" }
+- { pl: "To niemożliwe!", kind: "skip" }
+- { pl: "znajdować się", kind: "skip" }
+- { pl: "na początku", kind: "skip" }
+- { pl: "tak jakby", kind: "phrase", register: "colloquial" }
+- { pl: "nie ma mowy", kind: "phrase" }
+- { pl: "nie dotykać", kind: "skip" }
+- { pl: "Jak się nazywasz?", kind: "phrase", fix: "jak się nazywasz?" }
+- { pl: "trzeba było", kind: "phrase" }
+- { pl: "mieć dzieci", kind: "skip" }
+- { pl: "obudzić się", kind: "skip" }
+- { pl: "być kimś", kind: "phrase" }
+- { pl: "Zdecydowanie!", kind: "skip" }
+- { pl: "dzięki Bogu", kind: "phrase" }
+- { pl: "u mnie", kind: "skip" }
+- { pl: "dobry wieczór", kind: "phrase" }
+- { pl: "napijesz się?", kind: "phrase" }
+- { pl: "napijmy się", kind: "phrase" }
+- { pl: "Cudownie!", kind: "skip" }
+- { pl: "aż tak", kind: "phrase" }
+- { pl: "Akurat!", kind: "idiom", register: "colloquial", fix: "akurat!" }
+- { pl: "cofnij się", kind: "skip" }
+- { pl: "Nie przeszkadzać!", kind: "phrase", fix: "nie przeszkadzać!" }
+- { pl: "Wasza Wysokość", kind: "phrase" }
+- { pl: "zazwyczaj", kind: "skip" }
+- { pl: "szkoda, że", kind: "phrase" }
+- { pl: "nie może być!", kind: "phrase" }
+- { pl: "wewnątrz", kind: "skip" }
+- { pl: "nie zamierzam", kind: "skip" }
+- { pl: "mówić poważnie", kind: "skip" }
+- { pl: "przy okazji", kind: "phrase" }
+- { pl: "dokąd idziesz?", kind: "skip" }
+- { pl: "to ona", kind: "skip" }
+- { pl: "na kolację", kind: "skip" }
+- { pl: "upewnić się", kind: "skip" }
+- { pl: "w dół", kind: "phrase" }
+- { pl: "raczej nie", kind: "phrase" }
+- { pl: "między nami", kind: "phrase" }
+- { pl: "założyć się", kind: "skip" }
+- { pl: "zgoda!", kind: "phrase" }
+- { pl: "mieć kłopoty", kind: "phrase" }
+- { pl: "mieć dość", kind: "phrase" }
+- { pl: "o ile", kind: "phrase", ru: "если только, при условии что; насколько" }
+- { pl: "co ty wyprawiasz?", kind: "phrase", register: "colloquial" }
+- { pl: "dawno temu", kind: "phrase" }
+- { pl: "no już!", kind: "phrase", register: "colloquial" }
+- { pl: "żegnaj", kind: "phrase" }
+- { pl: "miło mi", kind: "phrase" }
+- { pl: "z dala od", kind: "phrase" }
+- { pl: "mieć miejsce", kind: "phrase", register: "bookish" }
+- { pl: "nic więcej", kind: "skip" }
+- { pl: "nie przejmuj się", kind: "phrase" }
+- { pl: "w imię", kind: "phrase" }
+- { pl: "co słychać", kind: "phrase", fix: "co słychać?" }
+- { pl: "zdaje się", kind: "phrase" }
+- { pl: "skup się", kind: "skip" }
+- { pl: "wybacz mi", kind: "skip" }
+- { pl: "czyżby?", kind: "phrase" }
+- { pl: "w zamian", kind: "phrase" }
+- { pl: "pospiesz się", kind: "skip" }
+- { pl: "jeśli chodzi o", kind: "phrase" }
+- { pl: "pierdol się", kind: "phrase", register: "vulgar" }
+- { pl: "udało mi się", kind: "phrase" }
+- { pl: "dziś rano", kind: "skip" }
+- { pl: "z daleka", kind: "phrase" }
+- { pl: "nie ma za co", kind: "phrase" }
+- { pl: "nie ma sensu", kind: "phrase" }
+- { pl: "nie da się", kind: "phrase" }
+- { pl: "w każdym razie", kind: "phrase" }
+- { pl: "zdawać sobie sprawę", kind: "phrase" }
+- { pl: "wraz z", kind: "phrase", register: "bookish" }
+- { pl: "zakładam, że", kind: "phrase" }
+- { pl: "być w ciąży", kind: "phrase" }
+- { pl: "pani prezydent", kind: "skip" }
+- { pl: "zaraz wracam", kind: "phrase" }
+- { pl: "zbyt wiele", kind: "skip" }
+- { pl: "wyluzuj!", kind: "phrase", register: "colloquial" }
+- { pl: "za pomocą", kind: "phrase" }
+- { pl: "w biurze", kind: "skip" }
+- { pl: "upewnij się, że", kind: "skip" }
+- { pl: "nie szkodzi", kind: "phrase" }
+- { pl: "kto wie", kind: "phrase" }
+- { pl: "w sumie", kind: "phrase" }
+- { pl: "uwierz mi", kind: "skip" }
+- { pl: "w zasadzie", kind: "phrase" }
+- { pl: "na północ", kind: "skip" }
+- { pl: "nie wiadomo", kind: "phrase" }
+- { pl: "Spadaj!", kind: "phrase", register: "colloquial", fix: "spadaj!" }
+- { pl: "na czasie", kind: "phrase" }
+- { pl: "powinien był", kind: "skip" }
+- { pl: "biegnij!", kind: "skip" }
+- { pl: "nawzajem!", kind: "phrase" }
+- { pl: "wsiadaj!", kind: "skip" }
+- { pl: "kurde", kind: "phrase", register: "colloquial" }
+- { pl: "Przyznaj się!", kind: "skip" }
+- { pl: "pół godziny", kind: "skip" }
+- { pl: "idealnie!", kind: "skip" }
+- { pl: "od dawna", kind: "phrase" }
+- { pl: "dziękuję bardzo", kind: "phrase" }
+- { pl: "doprawdy?", kind: "phrase", register: "bookish" }
+- { pl: "w trakcie", kind: "phrase" }
+- { pl: "mylić się", kind: "skip" }
+- { pl: "na lotnisku", kind: "skip" }
+- { pl: "miejsce zbrodni", kind: "skip" }
+- { pl: "nikt inny", kind: "skip" }
+- { pl: "w celu", kind: "phrase", register: "bookish" }
+- { pl: "wynoś się stąd", kind: "phrase" }
+- { pl: "nie mam nic przeciwko", kind: "phrase" }
+- { pl: "dam sobie radę", kind: "phrase" }
+- { pl: "wyobraź sobie", kind: "phrase" }
+- { pl: "w hotelu", kind: "skip" }
+- { pl: "nie mogę się doczekać", kind: "phrase" }
+- { pl: "Nie strzelaj!", kind: "skip" }
+- { pl: "wszystkiego najlepszego", kind: "phrase", ru: "всего наилучшего!; с днём рождения!" }
+- { pl: "Jezu Chryste!", kind: "phrase", register: "colloquial" }
+- { pl: "na czas", kind: "phrase" }
+- { pl: "w okolicach", kind: "phrase" }
+- { pl: "w okolicy", kind: "phrase" }
+- { pl: "to nieprawda", kind: "skip" }
+- { pl: "radzić sobie", kind: "phrase" }
+- { pl: "w lesie", kind: "skip" }
+- { pl: "tatusiu!", kind: "skip" }
+- { pl: "zeszłej nocy", kind: "phrase" }
+- { pl: "O rany!", kind: "phrase", register: "colloquial", fix: "o rany!" }
+- { pl: "dopiero co", kind: "phrase" }
+- { pl: "mieć pewność", kind: "phrase" }
+- { pl: "skontaktujemy się", kind: "skip" }
+- { pl: "brawo!", kind: "skip" }
+- { pl: "poddać się", kind: "skip" }
+- { pl: "od teraz", kind: "phrase" }
+- { pl: "nie mieć wyboru", kind: "skip" }
+- { pl: "przypuszczam, że", kind: "phrase" }
+- { pl: "przypadkiem", kind: "skip" }
+- { pl: "nie licząc", kind: "phrase" }
+- { pl: "nie ma problemu", kind: "phrase" }
+- { pl: "muszę lecieć", kind: "phrase", register: "colloquial" }
+- { pl: "na południe", kind: "skip" }
+- { pl: "podczas gdy", kind: "phrase" }
+- { pl: "w jaki sposób", kind: "phrase" }
+- { pl: "u nas", kind: "skip" }
+- { pl: "wyobrażać sobie", kind: "phrase" }
+- { pl: "Jak to możliwe?", kind: "skip" }
+- { pl: "pomyłka!", kind: "phrase" }
+- { pl: "jak zawsze", kind: "skip" }
+- { pl: "nie ma szans", kind: "phrase" }
+- { pl: "w telewizji", kind: "phrase" }
+- { pl: "co zamierzasz?", kind: "skip" }
+- { pl: "okazało się, że", kind: "phrase" }
+- { pl: "niech będzie", kind: "phrase" }
+- { pl: "na kolanach", kind: "skip" }
+- { pl: "dość tego!", kind: "phrase" }
+- { pl: "odwrócić się", kind: "skip" }
+- { pl: "przy tym", kind: "phrase" }
+- { pl: "z przyjemnością", kind: "phrase" }
+- { pl: "zeszłego roku", kind: "phrase" }
+- { pl: "bardzo mi przykro", kind: "phrase" }
+- { pl: "brać pod uwagę", kind: "phrase" }
+- { pl: "jestem niewinny", kind: "skip" }
+- { pl: "co to ma znaczyć?", kind: "phrase" }
+- { pl: "do tej pory", kind: "phrase" }
+- { pl: "nie bardzo", kind: "phrase" }
+- { pl: "na obiad", kind: "skip" }
+- { pl: "ile razy", kind: "skip" }
+- { pl: "dać znać", kind: "phrase" }
+- { pl: "szczerze mówiąc", kind: "phrase" }
+- { pl: "wszyscy wiedzą", kind: "skip" }
+- { pl: "od nowa", kind: "phrase" }
+- { pl: "zaraz po", kind: "skip" }
+- { pl: "liczy się", kind: "phrase" }
+- { pl: "mimo to", kind: "phrase" }
+- { pl: "jak najszybciej", kind: "phrase" }
+- { pl: "do przodu", kind: "phrase" }
+- { pl: "do jutra", kind: "phrase" }
+- { pl: "na imprezie", kind: "skip" }
+- { pl: "z góry", kind: "phrase" }
+- { pl: "właśnie dlatego", kind: "skip" }
+- { pl: "mój chłopak", kind: "skip" }
+- { pl: "nie znoszę", kind: "phrase" }
+- { pl: "za darmo", kind: "phrase" }
+- { pl: "w barze", kind: "skip" }
+- { pl: "nadszedł czas", kind: "phrase" }
+- { pl: "na miłość boską!", kind: "phrase" }
+- { pl: "one były", kind: "skip" }
+- { pl: "mała dziewczynka", kind: "skip" }
+- { pl: "zabójstwo", kind: "skip" }
+- { pl: "bez względu na", kind: "phrase" }
+- { pl: "nie mam zamiaru", kind: "phrase" }
+- { pl: "ja również", kind: "skip" }
+- { pl: "nie do końca", kind: "phrase" }
+- { pl: "załatwione!", kind: "phrase", register: "colloquial" }
+- { pl: "przedstawienie", kind: "skip" }
+- { pl: "przecież nie", kind: "phrase" }
+- { pl: "miłego dnia!", kind: "phrase" }
+- { pl: "a jednak", kind: "phrase" }
+- { pl: "po angielsku", kind: "skip" }
+- { pl: "proszę usiąść", kind: "phrase" }
+- { pl: "coś jest nie tak", kind: "phrase" }
+- { pl: "jednak nie", kind: "skip" }
+- { pl: "to zależy", kind: "phrase" }
+- { pl: "nie zapominajmy", kind: "skip" }
+- { pl: "zdarza się", kind: "phrase" }
+- { pl: "doceniam to", kind: "phrase" }
+- { pl: "skontaktować się z", kind: "skip" }
+- { pl: "być gejem", kind: "skip" }
+- { pl: "jestem gejem", kind: "skip" }
+- { pl: "ze względu na", kind: "phrase" }
+- { pl: "jak zwykle", kind: "phrase" }
+- { pl: "zgadnij!", kind: "skip" }
+- { pl: "jaki kiedykolwiek", kind: "skip" }
+- { pl: "Wesołych Świąt", kind: "phrase" }
+- { pl: "po drodze", kind: "phrase" }
+- { pl: "niestety nie", kind: "skip" }
+- { pl: "w przyszłości", kind: "skip" }
+- { pl: "co najmniej", kind: "phrase" }
+- { pl: "mamusiu", kind: "skip" }
+- { pl: "nie jest łatwy", kind: "skip" }
+- { pl: "uważaj na siebie", kind: "phrase" }
+- { pl: "w zeszłym tygodniu", kind: "phrase" }
+- { pl: "kradzież", kind: "skip" }
+- { pl: "no więc", kind: "phrase", register: "colloquial" }
+- { pl: "porozmawiajmy", kind: "skip" }
+- { pl: "dobre wieści", kind: "skip" }
+- { pl: "bez powodu", kind: "skip" }
+- { pl: "za wcześnie", kind: "skip" }
+- { pl: "wycofać się", kind: "skip" }
+- { pl: "nie odchodź", kind: "skip" }
+- { pl: "przez cały czas", kind: "phrase" }
+- { pl: "tego rodzaju", kind: "phrase" }
+- { pl: "tego typu", kind: "phrase" }
+- { pl: "Obiecaj, że…", kind: "skip" }
+- { pl: "do dupy", kind: "idiom", register: "vulgar", ru: "отстой, хреново (букв. «до задницы»)" }
+- { pl: "cóż za", kind: "phrase", register: "bookish" }
+- { pl: "bez obaw", kind: "phrase" }
+- { pl: "jebany", kind: "skip", register: "vulgar" }
+- { pl: "moim zdaniem", kind: "phrase" }
+- { pl: "na podstawie", kind: "phrase" }
+- { pl: "kierować się", kind: "skip" }
+- { pl: "na żywo", kind: "phrase" }
+- { pl: "z drugiej strony", kind: "phrase" }
+- { pl: "zmienić zdanie", kind: "phrase" }
+- { pl: "czy kiedykolwiek…", kind: "skip" }
+- { pl: "dokładnie tak", kind: phrase }
+- { pl: "oczywiście, że tak", kind: phrase }
+- { pl: "uprawiać seks", kind: phrase }
+- { pl: "przygotować się do", kind: skip }
+- { pl: "gdzie indziej", kind: phrase }
+- { pl: "prawdę mówiąc", kind: phrase }
+- { pl: "gdy tylko", kind: phrase }
+- { pl: "Odwagi!", kind: phrase, fix: "odwagi!" }
+- { pl: "lody", kind: skip }
+- { pl: "twoja kolej", kind: phrase }
+- { pl: "taki sam", kind: phrase }
+- { pl: "gdzie mieszkasz?", kind: phrase }
+- { pl: "jak idzie?", kind: phrase, register: colloquial }
+- { pl: "baw się dobrze!", kind: phrase }
+- { pl: "po południu", kind: phrase, ru: "днём, после обеда (во второй половине дня)" }
+- { pl: "w Londynie", kind: skip }
+- { pl: "przede wszystkim", kind: phrase }
+- { pl: "co to oznacza?", kind: phrase }
+- { pl: "z wyjątkiem", kind: phrase }
+- { pl: "Jak śmiesz?", kind: phrase, fix: "jak śmiesz?" }
+- { pl: "poruszać się", kind: skip }
+- { pl: "ukrywać się", kind: skip }
+- { pl: "och, nie", kind: skip }
+- { pl: "do dzieła", kind: phrase }
+- { pl: "odciski palców", kind: skip }
+- { pl: "w kierunku", kind: phrase }
+- { pl: "podobnie jak", kind: phrase }
+- { pl: "no właśnie", kind: phrase, register: colloquial }
+- { pl: "do rzeczy", kind: phrase, ru: "ближе к делу; по делу" }
+- { pl: "a także", kind: skip }
+- { pl: "w niebezpieczeństwie", kind: skip }
+- { pl: "nie do wiary", kind: phrase }
+- { pl: "nie mieć nic wspólnego", kind: phrase }
+- { pl: "urodzić się", kind: skip }
+- { pl: "z całym szacunkiem", kind: phrase }
+- { pl: "w piątek", kind: skip }
+- { pl: "z miejsca", kind: idiom, ru: "сразу, с ходу (с места)" }
+- { pl: "na scenie", kind: skip }
+- { pl: "jestem ciekaw", kind: phrase, ru: "мне интересно, любопытно" }
+- { pl: "mieć dostęp", kind: skip }
+- { pl: "załóżmy, że...", kind: phrase }
+- { pl: "tak czy inaczej", kind: phrase }
+- { pl: "zostać zamordowanym", kind: skip }
+- { pl: "bezpieczne miejsce", kind: skip }
+- { pl: "zbieg okoliczności", kind: phrase }
+- { pl: "karta kredytowa", kind: skip }
+- { pl: "ach tak", kind: phrase }
+- { pl: "w tygodniu", kind: phrase }
+- { pl: "nic dziwnego", kind: phrase }
+- { pl: "nie przychodź", kind: skip }
+- { pl: "coś wymyślę", kind: skip }
+- { pl: "była żona", kind: skip }
+- { pl: "pozostali", kind: skip }
+- { pl: "wypuść mnie", kind: skip }
+- { pl: "wstydź się!", kind: phrase }
+- { pl: "co dalej?", kind: phrase }
+- { pl: "gówno prawda", kind: idiom, register: vulgar, ru: "враньё, чушь собачья (букв. «дерьмо, а не правда»)" }
+- { pl: "pod wrażeniem", kind: phrase }
+- { pl: "skąd pochodzisz?", kind: phrase }
+- { pl: "nie płacz", kind: skip }
+- { pl: "bądź ostrożny", kind: skip }
+- { pl: "w przypadku", kind: phrase }
+- { pl: "iść spać", kind: skip }
+- { pl: "mój kumpel", kind: skip }
+- { pl: "za szybką", kind: skip }
+- { pl: "równie dobrze", kind: phrase }
+- { pl: "po naszemu", kind: skip }
+- { pl: "w tym momencie", kind: skip }
+- { pl: "w łazience", kind: skip }
+- { pl: "brać udział", kind: phrase }
+- { pl: "nie dlatego", kind: skip }
+- { pl: "zbierać się", kind: phrase, register: colloquial, ru: "собираться уходить, закругляться" }
+- { pl: "w zamian za", kind: phrase }
+- { pl: "w sobotę", kind: skip }
+- { pl: "w soboty", kind: skip }
+- { pl: "u diabła", kind: idiom, register: colloquial }
+- { pl: "trzymać się z dala", kind: phrase }
+- { pl: "skoro tak", kind: phrase }
+- { pl: "kilka razy", kind: skip }
+- { pl: "zamiast tego", kind: skip }
+- { pl: "co tutaj robisz?", kind: skip }
+- { pl: "po to, żeby", kind: phrase }
+- { pl: "podejrzewam, że", kind: skip }
+- { pl: "włamano się", kind: skip }
+- { pl: "potrzebny mi", kind: skip }
+- { pl: "w piwnicy", kind: skip }
+- { pl: "panna młoda", kind: phrase }
+- { pl: "zastanawiam się, czy...", kind: phrase }
+- { pl: "ostatnia szansa", kind: skip }
+- { pl: "w kieszeni", kind: skip }
+- { pl: "wielkie dzięki", kind: phrase }
+- { pl: "w międzyczasie", kind: phrase }
+- { pl: "na ścianie", kind: skip }
+- { pl: "niech to szlag", kind: idiom, register: colloquial }
+- { pl: "nie przestawać", kind: skip }
+- { pl: "być wściekłym", kind: skip }
+- { pl: "w rzeczywistości", kind: phrase }
+- { pl: "punkt widzenia", kind: skip }
+- { pl: "na litość boską!", kind: idiom, ru: "ради всего святого!, побойся Бога!" }
+- { pl: "parę dni", kind: skip }
+- { pl: "jakim cudem?", kind: idiom, ru: "каким чудом?, как так вышло?" }
+- { pl: "najpierw... potem", kind: skip }
+- { pl: "robić swoje", kind: phrase }
+- { pl: "zadawać pytania", kind: skip }
+- { pl: "czyj to?", kind: skip }
+- { pl: "podjąć decyzję", kind: phrase }
+- { pl: "póki co", kind: phrase }
+- { pl: "w przeszłości", kind: skip }
+- { pl: "wystarczająco dużo", kind: skip }
+- { pl: "z chęcią", kind: phrase }
+- { pl: "według mnie", kind: phrase }
+- { pl: "bez wątpienia", kind: phrase }
+- { pl: "tym bardziej", kind: phrase }
+- { pl: "przenieść się", kind: skip }
+- { pl: "ile masz lat?", kind: phrase }
+- { pl: "poczekaj chwilę", kind: phrase }
+- { pl: "drobne", kind: skip }
+- { pl: "zupełnie inny", kind: skip }
+- { pl: "w czym problem?", kind: phrase }
+- { pl: "na osobności", kind: phrase }
+- { pl: "najlepsza przyjaciółka", kind: skip }
+- { pl: "z przodu", kind: phrase }
+- { pl: "być pod wrażeniem", kind: phrase }
+- { pl: "nie zbliżaj się", kind: skip }
+- { pl: "koniec świata", kind: skip }
+- { pl: "to oczywiste", kind: skip }
+- { pl: "następnego dnia", kind: phrase }
+- { pl: "Czym się zajmujesz?", kind: phrase, fix: "czym się zajmujesz?" }
+- { pl: "na sali", kind: skip }
+- { pl: "na powierzchni", kind: skip }
+- { pl: "z okazji", kind: phrase }
+- { pl: "baza danych", kind: skip }
+- { pl: "większość ludzi", kind: skip }
+- { pl: "przepraszam za spóźnienie", kind: phrase }
+- { pl: "spróbuj jeszcze raz", kind: skip }
+- { pl: "oto co", kind: skip }
+- { pl: "być przerażonym", kind: skip }
+- { pl: "co się wydarzyło?", kind: skip }
+- { pl: "padnij!", kind: phrase }
+- { pl: "mój szef", kind: skip }
+- { pl: "cała reszta", kind: skip }
+- { pl: "na wakacjach", kind: skip }
+- { pl: "błagam cię!", kind: phrase, register: colloquial, ru: "умоляю тебя!; да брось!" }
+- { pl: "mimo wszystko", kind: phrase }
+- { pl: "to ma sens", kind: phrase }
+- { pl: "do hotelu", kind: skip }
+- { pl: "klatka piersiowa", kind: skip }
+- { pl: "nie ma co", kind: phrase, register: colloquial }
+- { pl: "w laboratorium", kind: skip }
+- { pl: "w niedziele", kind: skip }
+- { pl: "w niedzielę", kind: skip }
+- { pl: "być świadkiem", kind: skip }
+- { pl: "zadziałało", kind: skip }
+- { pl: "ból głowy", kind: skip }
+- { pl: "na pogrzebie", kind: skip }
+- { pl: "tak czy siak", kind: phrase, register: colloquial }
+- { pl: "w samolocie", kind: skip }
+- { pl: "na zdjęciu", kind: skip }
+- { pl: "mile widziany", kind: phrase, ru: "желанный (гость); всегда рады" }
+- { pl: "wtedy, kiedy", kind: skip }
+- { pl: "jedyna szansa", kind: skip }
+- { pl: "ani trochę", kind: phrase }
+- { pl: "na wszelki wypadek", kind: phrase }
+- { pl: "odwal się", kind: phrase, register: colloquial }
+- { pl: "to jasne", kind: skip }
+- { pl: "szykuj się", kind: skip }
+- { pl: "na śniadanie", kind: skip }
+- { pl: "najwidoczniej", kind: skip }
+- { pl: "najwyżej", kind: skip }
+- { pl: "wybory", kind: skip }
+- { pl: "świetna robota", kind: phrase }
+- { pl: "spodoba ci się", kind: skip }
+- { pl: "w przeciwieństwie do", kind: phrase }
+- { pl: "już po wszystkim", kind: phrase }
+- { pl: "na pół", kind: phrase }
+- { pl: "poczuć się lepiej", kind: skip }
+- { pl: "numer telefonu", kind: skip }
+- { pl: "to wystarczy", kind: skip }
+- { pl: "na długo", kind: skip }
+- { pl: "to normalne", kind: skip }
+- { pl: "przyda się", kind: phrase }
+- { pl: "przydać się", kind: skip }
+- { pl: "jestem zdenerwowany", kind: skip }
+- { pl: "mieć wątpliwości", kind: skip }
+- { pl: "w ramionach", kind: skip }
+- { pl: "mieć gdzieś", kind: idiom, register: colloquial, ru: "плевать (на что-то) (букв. «иметь где-то»)" }
+- { pl: "popełnić samobójstwo", kind: skip }
+- { pl: "kurczę", kind: phrase, register: colloquial }
+- { pl: "być spóźnionym", kind: phrase }
+- { pl: "nie zostawiaj mnie", kind: skip }
+- { pl: "niech żyje!", kind: phrase }
+- { pl: "przypomnieć sobie", kind: skip }
+- { pl: "umówić się", kind: skip }
+- { pl: "poczucie humoru", kind: skip }
+- { pl: "niekoniecznie", kind: skip }
+- { pl: "ludzie mówią", kind: skip }
+- { pl: "Boże Narodzenie", kind: phrase }
+- { pl: "coraz bardziej", kind: phrase }
+- { pl: "od czasu do czasu", kind: phrase }
+- { pl: "Nie ma potrzeby", kind: phrase, fix: "nie ma potrzeby" }
+- { pl: "w pewnym sensie", kind: phrase }
+- { pl: "atak serca", kind: skip }
+- { pl: "chyba żartujesz", kind: phrase }
+- { pl: "któregoś dnia", kind: phrase }
+- { pl: "na zdrowie", kind: phrase }
+- { pl: "przypominać sobie", kind: skip }
+- { pl: "być właścicielem", kind: skip }
+- { pl: "otworzyć oczy", kind: skip }
+- { pl: "Wchodzę w to!", kind: phrase, register: colloquial, fix: "wchodzę w to!" }
+- { pl: "w Chicago", kind: skip }
+- { pl: "co roku", kind: phrase }
+- { pl: "u was", kind: skip }
+- { pl: "Do ataku!", kind: phrase, fix: "do ataku!" }
+- { pl: "mieć jaja", kind: idiom, register: vulgar, ru: "иметь яйца (быть смелым)" }
+- { pl: "kwestia czasu", kind: phrase }
+- { pl: "to kłamstwo!", kind: skip }
+- { pl: "trzymać się razem", kind: skip }
+- { pl: "na widok", kind: phrase }
+- { pl: "na dworze", kind: phrase }
+- { pl: "to nie jest śmieszne", kind: skip }
+- { pl: "Kogo to obchodzi?", kind: phrase, fix: "kogo to obchodzi?" }
+- { pl: "w aucie", kind: skip }
+- { pl: "na kawałki", kind: skip }
+- { pl: "w restauracji", kind: skip }
+- { pl: "na sprzedaż", kind: skip }
+- { pl: "nie zdążę", kind: skip }
+- { pl: "w samą porę", kind: phrase }
+- { pl: "zaczekaj chwilę", kind: phrase }
+- { pl: "przypomnij mi", kind: skip }
+- { pl: "do Londynu", kind: skip }
+- { pl: "mieć się dobrze", kind: phrase }
+- { pl: "w terenie", kind: skip }
+- { pl: "z zewnątrz", kind: phrase }
+- { pl: "pod prysznicem", kind: skip }
+- { pl: "dobiec końca", kind: phrase, register: bookish }
+- { pl: "wczoraj wieczorem", kind: skip }
+- { pl: "zejść na dół", kind: skip }
+- { pl: "cholera jasna", kind: idiom, register: colloquial }
+- { pl: "umierać z głodu", kind: phrase }
+- { pl: "Umieram z głodu!", kind: phrase, fix: "umieram z głodu!" }
+- { pl: "ważna sprawa", kind: skip }
+- { pl: "pierwsza klasa", kind: phrase, register: colloquial }
+- { pl: "długa droga", kind: skip }
+- { pl: "nie jestem zainteresowany", kind: phrase }
+- { pl: "Nowy Rok", kind: skip }
+- { pl: "ty sukinsynu", kind: skip, register: vulgar }
+- { pl: "do lasu", kind: skip }
+- { pl: "jak się miewasz?", kind: phrase }
+- { pl: "prawa ręka", kind: idiom }
+- { pl: "być zachwyconym", kind: skip }
+- { pl: "ciekawe, czy...", kind: phrase }
+- { pl: "prawo jazdy", kind: phrase }
+- { pl: "a następnie", kind: skip }
+- { pl: "jakiego rodzaju", kind: skip }
+- { pl: "strata czasu", kind: phrase }
+- { pl: "w przeciągu", kind: phrase, register: colloquial }
+- { pl: "do baru", kind: skip }
+- { pl: "nic nie szkodzi", kind: phrase }
+- { pl: "z rzędu", kind: phrase }
+- { pl: "stawić czoła", kind: idiom, ru: "смело встретить, противостоять (букв. «подставить лоб»)" }
+- { pl: "to skomplikowane", kind: skip }
+- { pl: "nie wspominając o", kind: phrase }
+- { pl: "we śnie", kind: skip }
+- { pl: "na drzewie", kind: skip }
+- { pl: "rzucić okiem", kind: idiom }
+- { pl: "no pewnie!", kind: phrase, register: colloquial }
+- { pl: "na serio", kind: phrase, register: colloquial }
+- { pl: "Nie śmiej!", kind: phrase, fix: "nie śmiej!" }
+- { pl: "oprócz tego", kind: phrase }
+- { pl: "wyjść za mąż", kind: phrase }
+- { pl: "jestem wkurzony", kind: skip, register: colloquial }
+- { pl: "bez przerwy", kind: phrase }
+- { pl: "jest geniuszem", kind: skip }
+- { pl: "i tak dalej", kind: phrase }
+- { pl: "w twoim wieku", kind: skip }
+- { pl: "wypadek samochodowy", kind: skip }
+- { pl: "w sypialni", kind: skip }
+- { pl: "we wtorek", kind: skip }
+- { pl: "być żołnierzem", kind: skip }
+- { pl: "najprawdopodobniej", kind: skip }
+- { pl: "w środku nocy", kind: phrase }
+- { pl: "mieć do czynienia z", kind: phrase }
+- { pl: "siedzieć cicho", kind: skip }
+- { pl: "zgodnie z planem", kind: phrase }
+- { pl: "z radością", kind: skip }
+- { pl: "mieć romans", kind: skip }
+- { pl: "można powiedzieć", kind: skip }
+- { pl: "zgadnij co", kind: phrase, register: colloquial }
+- { pl: "być w kontakcie", kind: phrase }
+- { pl: "w lustrze", kind: skip }
+- { pl: "nie kupuj", kind: skip }
+- { pl: "bez urazy", kind: phrase }
+- { pl: "równie … jak", kind: skip }
+- { pl: "odpuść sobie", kind: phrase, register: colloquial }
+- { pl: "w Meksyku", kind: skip }
+- { pl: "zachować spokój", kind: phrase }
+- { pl: "to nie fair", kind: phrase, register: colloquial }
+- { pl: "były mąż", kind: skip }
+- { pl: "jestem policjantem", kind: skip }
+- { pl: "nie twoja sprawa", kind: phrase }
+- { pl: "ja także", kind: skip }
+- { pl: "agent specjalny", kind: skip }
+- { pl: "niepojęte, że…", kind: skip }
+- { pl: "najwyższy czas", kind: phrase }
+- { pl: "za rogiem", kind: idiom }
+- { pl: "nie poddawać się", kind: skip }
+- { pl: "nie poddawaj się", kind: skip }
+- { pl: "jako że", kind: phrase }
+- { pl: "zostać aresztowanym", kind: skip }
+- { pl: "na piętrze", kind: phrase }
+- { pl: "poszukaj", kind: skip }
+- { pl: "w sieci", kind: skip }
+- { pl: "tak zwany", kind: phrase }
+- { pl: "Pa pa!", kind: phrase, register: colloquial, fix: "pa pa!" }
+- { pl: "gdzieś indziej", kind: phrase }
+- { pl: "w ramach", kind: phrase }
+- { pl: "jesteśmy małżeństwem", kind: phrase }
+- { pl: "bez obrazy", kind: phrase }
+- { pl: "na służbie", kind: skip }
+- { pl: "popełnić błąd", kind: phrase }
+- { pl: "to zadziała", kind: skip }
+- { pl: "wszystko jedno", kind: phrase }
+- { pl: "widać, że", kind: skip }
+- { pl: "pozbądź się tego", kind: skip }
+- { pl: "w przeciwnym razie", kind: phrase }
+- { pl: "coś do jedzenia", kind: skip }
+- { pl: "być zmuszonym", kind: skip }
+- { pl: "duże pieniądze", kind: skip }
+- { pl: "w stosunku do", kind: phrase }
+- { pl: "z bliska", kind: phrase }
+- { pl: "do czego zmierzasz", kind: phrase, fix: "do czego zmierzasz?" }
+- { pl: "połącz mnie z", kind: skip }
+- { pl: "nigdzie nie idę", kind: skip }
+- { pl: "To łatwe", kind: skip }
+- { pl: "pewny siebie", kind: phrase }
+- { pl: "nagły wypadek", kind: phrase, ru: "экстренный случай, ЧП" }
+- { pl: "niektórzy ludzie", kind: skip }
+- { pl: "narzędzie zbrodni", kind: skip }
+- { pl: "na zmianę", kind: phrase }
+- { pl: "na szyi", kind: skip }
+- { pl: "skądże!", kind: phrase }
+- { pl: "podnieść rękę", kind: skip }
+- { pl: "na rynku", kind: skip }
+- { pl: "we Francji", kind: skip }
+- { pl: "dlatego właśnie", kind: phrase }
+- { pl: "iść do diabła", kind: idiom, register: colloquial }
+- { pl: "proszę zaczekać", kind: phrase }
+- { pl: "praca domowa", kind: phrase }
+- { pl: "zajęte!", kind: skip }
+- { pl: "na bank", kind: idiom, register: colloquial }
+- { pl: "wręcz przeciwnie", kind: phrase }
+- { pl: "czego pragniesz?", kind: skip }
+- { pl: "w całości", kind: skip }
+- { pl: "być zabójcą", kind: skip }
+- { pl: "być detektywem", kind: skip }
+- { pl: "co najważniejsze", kind: phrase }
+- { pl: "do kupy", kind: idiom, register: colloquial }
+- { pl: "swoja dziewczyna", kind: idiom, register: colloquial }
+- { pl: "smacznego!", kind: phrase }
+- { pl: "nigdy w życiu", kind: phrase }
+- { pl: "prędzej czy później", kind: phrase }
+- { pl: "w Anglii", kind: skip }
+- { pl: "o północy", kind: phrase }
+- { pl: "w dodatku", kind: phrase }
+- { pl: "jestem umówiony", kind: phrase }
+- { pl: "bo co?", kind: phrase, register: colloquial }
+- { pl: "zachód słońca", kind: skip }
+- { pl: "za granicą", kind: phrase }
+- { pl: "za granicę", kind: phrase }
+- { pl: "Sto lat!", kind: phrase, fix: "sto lat!" }
+- { pl: "po kolei", kind: phrase }
+- { pl: "ława przysięgłych", kind: phrase }
+- { pl: "miesiąc miodowy", kind: phrase }
+- { pl: "statek kosmiczny", kind: skip }
+- { pl: "mój ukochany", kind: skip }
+- { pl: "przy pomocy", kind: "phrase" }
+- { pl: "kto by pomyślał", kind: "phrase" }
+- { pl: "na chwilkę", kind: "phrase" }
+- { pl: "twoim zdaniem", kind: "phrase" }
+- { pl: "nie krzycz", kind: "skip" }
+- { pl: "mam przeczucie", kind: "phrase" }
+- { pl: "odbierać telefon", kind: "phrase" }
+- { pl: "wojna światowa", kind: "skip" }
+- { pl: "mieć wpływy", kind: "phrase" }
+- { pl: "na czele", kind: "phrase" }
+- { pl: "seryjny morderca", kind: "skip" }
+- { pl: "w większości", kind: "skip" }
+- { pl: "robić zdjęcia", kind: "phrase" }
+- { pl: "wziąć się w garść", kind: "idiom" }
+- { pl: "na własne oczy", kind: "phrase" }
+- { pl: "dołączyć do nas", kind: "skip" }
+- { pl: "nad jeziorem", kind: "skip" }
+- { pl: "za wszelką cenę", kind: "phrase" }
+- { pl: "prawdziwa miłość", kind: "skip" }
+- { pl: "wziąć ślub", kind: "phrase" }
+- { pl: "na stałe", kind: "phrase" }
+- { pl: "u licha", kind: "idiom", register: "colloquial" }
+- { pl: "właśnie że tak", kind: "phrase", register: "colloquial" }
+- { pl: "ściśle tajne", kind: "phrase" }
+- { pl: "raz na zawsze", kind: "phrase" }
+- { pl: "tuż obok", kind: "skip" }
+- { pl: "nad ranem", kind: "phrase" }
+- { pl: "daleko stąd", kind: "skip" }
+- { pl: "między wami", kind: "skip" }
+- { pl: "nigdy nie wiadomo", kind: "phrase" }
+- { pl: "centrum handlowe", kind: "skip" }
+- { pl: "tak czy owak", kind: "phrase" }
+- { pl: "Umowa stoi!", kind: "phrase", register: "colloquial", fix: "umowa stoi!" }
+- { pl: "tysiące ludzi", kind: "skip" }
+- { pl: "w programie", kind: "skip" }
+- { pl: "o wiele lepiej", kind: "phrase" }
+- { pl: "trzęsienie ziemi", kind: "skip" }
+- { pl: "to niesprawiedliwe", kind: "skip" }
+- { pl: "nie warto", kind: "phrase" }
+- { pl: "podejmować decyzję", kind: "phrase" }
+- { pl: "na wzgórzu", kind: "skip" }
+- { pl: "a zatem", kind: "phrase" }
+- { pl: "już niedługo", kind: "skip" }
+- { pl: "do góry nogami", kind: "idiom" }
+- { pl: "a niech to!", kind: "phrase", register: "colloquial" }
+- { pl: "wziąć prysznic", kind: "phrase" }
+- { pl: "szkoła średnia", kind: "skip" }
+- { pl: "moja narzeczona", kind: "skip" }
+- { pl: "mój narzeczony", kind: "skip" }
+- { pl: "wytrzymaj!", kind: "skip" }
+- { pl: "nie doceniać", kind: "skip" }
+- { pl: "przeniesiony do", kind: "skip" }
+- { pl: "niedługo wrócę", kind: "skip" }
+- { pl: "w radiu", kind: "phrase" }
+- { pl: "zacząć od początku", kind: "skip" }
+- { pl: "zdać sobie sprawę", kind: "phrase" }
+- { pl: "być na liście", kind: "skip" }
+- { pl: "to konieczne", kind: "skip" }
+- { pl: "tak się składa", kind: "phrase" }
+- { pl: "jak sobie radzisz?", kind: "phrase" }
+- { pl: "do kurwy nędzy", kind: "idiom", register: "vulgar" }
+- { pl: "nie wyobrażam sobie", kind: "phrase" }
+- { pl: "wychodzić za mąż", kind: "phrase" }
+- { pl: "sporo czasu", kind: "skip" }
+- { pl: "dać sobie spokój", kind: "phrase", ru: "оставить это, махнуть рукой (бросить затею)" }
+- { pl: "gdzie się podziały", kind: "skip" }
+- { pl: "sala operacyjna", kind: "skip" }
+- { pl: "zapewniam cię", kind: "phrase" }
+- { pl: "ktokolwiek inny", kind: "skip" }
+- { pl: "w akcji", kind: "skip" }
+- { pl: "złamać serce", kind: "idiom" }
+- { pl: "dobrej zabawy", kind: "phrase", ru: "хорошо повеселиться!" }
+- { pl: "bądź cicho", kind: "phrase" }
+- { pl: "o świcie", kind: "phrase" }
+- { pl: "przed siebie", kind: "phrase" }
+- { pl: "wyniki badań", kind: "skip" }
+- { pl: "pogadajmy o tym", kind: "skip" }
+- { pl: "ani śladu", kind: "phrase" }
+- { pl: "bardzo proszę", kind: "phrase" }
+- { pl: "należy się", kind: "phrase" }
+- { pl: "to super!", kind: "skip" }
+- { pl: "miliony ludzi", kind: "skip" }
+- { pl: "Święty Mikołaj", kind: "skip" }
+- { pl: "na weselu", kind: "skip" }
+- { pl: "pociągnąć za spust", kind: "phrase" }
+- { pl: "z boku", kind: "skip" }
+- { pl: "To interesujące!", kind: "skip" }
+- { pl: "zwykli ludzie", kind: "skip" }
+- { pl: "jest zepsuty", kind: "skip" }
+- { pl: "zostać zaatakowanym", kind: "skip" }
+- { pl: "wziąć udział w", kind: "phrase" }
+- { pl: "ubrać się", kind: "skip" }
+- { pl: "na rozkaz", kind: "skip" }
+- { pl: "wyjść na jaw", kind: "idiom" }
+- { pl: "ty draniu", kind: "phrase", register: "colloquial" }
+- { pl: "gdzieś tutaj", kind: "skip" }
+- { pl: "być w szoku", kind: "skip" }
+- { pl: "spieprzaj!", kind: "phrase", register: "vulgar" }
+- { pl: "zwrócić uwagę", kind: "phrase" }
+- { pl: "na mapie", kind: "skip" }
+- { pl: "nie zrozum mnie źle", kind: "phrase" }
+- { pl: "czym mogę służyć", kind: "phrase" }
+- { pl: "nie wtrącaj się", kind: "skip" }
+- { pl: "to pułapka!", kind: "skip" }
+- { pl: "do Meksyku", kind: "skip" }
+- { pl: "dbaj o siebie", kind: "phrase" }
+- { pl: "został zastrzelony", kind: "skip" }
+- { pl: "przez przypadek", kind: "phrase" }
+- { pl: "absolutnie nie", kind: "skip" }
+- { pl: "nie panikuj", kind: "skip" }
+- { pl: "w środę", kind: "skip" }
+- { pl: "w ukryciu", kind: "skip" }
+- { pl: "dawne czasy", kind: "skip" }
+- { pl: "na wsi", kind: "skip" }
+- { pl: "w grupie", kind: "skip" }
+- { pl: "Miłej zabawy!", kind: "phrase", ru: "хорошо повеселиться!", fix: "miłej zabawy!" }
+- { pl: "być dumnym z", kind: "phrase" }
+- { pl: "w ostatniej chwili", kind: "phrase" }
+- { pl: "dniami i nocami", kind: "phrase" }
+- { pl: "dzień i noc", kind: "phrase" }
+- { pl: "robić interesy", kind: "phrase" }
+- { pl: "nie pojawić się", kind: "skip" }
+- { pl: "nie przesadzajmy", kind: "phrase" }
+- { pl: "na biurku", kind: "skip" }
+- { pl: "tylko co", kind: "phrase" }
+- { pl: "przeprowadzić się", kind: "skip" }
+- { pl: "zajście w ciążę", kind: "skip" }
+- { pl: "zajść w ciążę", kind: "phrase" }
+- { pl: "też coś!", kind: "phrase", register: "colloquial" }
+- { pl: "na brzegu", kind: "skip" }
+- { pl: "prowadzić śledztwo", kind: "skip" }
+- { pl: "pożegnać się z", kind: "skip" }
+- { pl: "od rana", kind: "skip" }
+- { pl: "w tej sytuacji", kind: "skip" }
+- { pl: "To szalone", kind: "skip" }
+- { pl: "iść do łóżka", kind: "phrase" }
+- { pl: "nie bez powodu", kind: "phrase" }
+- { pl: "Przeżyjesz!", kind: "phrase", register: "colloquial", fix: "przeżyjesz!" }
+- { pl: "dzieło sztuki", kind: "skip" }
+- { pl: "spędzać czas", kind: "phrase" }
+- { pl: "jakoś nie…", kind: "skip" }
+- { pl: "wyrzuty sumienia", kind: "phrase" }
+- { pl: "dziękuję za przybycie", kind: "phrase" }
+- { pl: "pewność siebie", kind: "phrase" }
+- { pl: "brat i siostra", kind: "skip" }
+- { pl: "raz w życiu", kind: "phrase" }
+- { pl: "członek rodziny", kind: "skip" }
+- { pl: "mnóstwo czasu", kind: "skip" }
+- { pl: "na odwrocie", kind: "skip" }
+- { pl: "fajnie było", kind: "skip" }
+- { pl: "jak ci się podoba?", kind: "phrase", ru: "как тебе (нравится)?" }
+- { pl: "co więcej", kind: "phrase" }
+- { pl: "odpowiedzieć na pytanie", kind: "skip" }
+- { pl: "śledztwo w sprawie", kind: "skip" }
+- { pl: "miło mi cię poznać", kind: "phrase" }
+- { pl: "być obserwowanym", kind: "skip" }
+- { pl: "kara śmierci", kind: "skip" }
+- { pl: "nie całkiem", kind: "skip" }
+- { pl: "nie potrwa długo", kind: "skip" }
+- { pl: "konferencja prasowa", kind: "skip" }
+- { pl: "nic poważnego", kind: "phrase" }
+- { pl: "gdyby tylko", kind: "phrase" }
+- { pl: "w gabinecie", kind: "skip" }
+- { pl: "od dziś", kind: "skip" }
+- { pl: "jak często?", kind: "skip" }
+- { pl: "nie ma wątpliwości", kind: "phrase" }
+- { pl: "to nie jest zabawne", kind: "skip" }
+- { pl: "w kształcie", kind: "skip" }
+- { pl: "w samotności", kind: "skip" }
+- { pl: "wznieść toast", kind: "phrase" }
+- { pl: "Święto Dziękczynienia", kind: "skip" }
+- { pl: "nie denerwuj się", kind: "phrase" }
+- { pl: "w formie", kind: "phrase", ru: "в форме (в хорошем состоянии)" }
+- { pl: "oglądać telewizję", kind: "skip" }
+- { pl: "zadać pytanie", kind: "skip" }
+- { pl: "nie naprawdę", kind: "skip" }
+- { pl: "w muzeum", kind: "skip" }
+- { pl: "dzisiejszy dzień", kind: "skip" }
+- { pl: "nasza planeta", kind: "skip" }
+- { pl: "dokąd zmierzasz", kind: "skip" }
+- { pl: "od wieków", kind: "phrase" }
+- { pl: "jakiś czas temu", kind: "skip" }
+- { pl: "coś strasznego", kind: "skip" }
+- { pl: "pan młody", kind: "phrase" }
+- { pl: "ciemna strona", kind: "skip" }
+- { pl: "mieć przewagę", kind: "skip" }
+- { pl: "poza zasięgiem", kind: "skip" }
+- { pl: "cokolwiek się stanie", kind: "phrase" }
+- { pl: "złe przeczucie", kind: "skip" }
+- { pl: "Masz kasę?", kind: "skip" }
+- { pl: "coś podobnego!", kind: "phrase" }
+- { pl: "prawdopodobieństwo", kind: "skip" }
+- { pl: "nie jest potrzebny", kind: "skip" }
+- { pl: "do startu", kind: "skip" }
+- { pl: "na własną rękę", kind: "idiom", ru: "самостоятельно, на свой страх и риск" }
+- { pl: "pole bitwy", kind: "skip" }
+- { pl: "ja stawiam", kind: "phrase", register: "colloquial" }
+- { pl: "odebrać telefon", kind: "phrase" }
+- { pl: "pozwoli pan?", kind: "phrase" }
+- { pl: "ryzykować życiem", kind: "skip" }
+- { pl: "parę razy", kind: "skip" }
+- { pl: "w ciągu dnia", kind: "skip" }
+- { pl: "ostrzegam cię!", kind: "skip" }
+- { pl: "jestem wykończony", kind: "skip" }
+- { pl: "robić wrażenie", kind: "phrase" }
+- { pl: "To nieważne", kind: "skip" }
+- { pl: "sam na sam", kind: "phrase" }
+- { pl: "nie ukrywam", kind: "phrase" }
+- { pl: "jebać to", kind: "phrase", register: "vulgar" }
+- { pl: "w gotówce", kind: "phrase" }
+- { pl: "mało prawdopodobne", kind: "skip" }
+- { pl: "do piwnicy", kind: "skip" }
+- { pl: "pod warunkiem", kind: "phrase" }
+- { pl: "zaraz, zaraz!", kind: "phrase", register: "colloquial" }
+- { pl: "ładnie wygląda", kind: "skip" }
+- { pl: "ładnie wyglądać", kind: "skip" }
+- { pl: "co za niespodzianka!", kind: "phrase" }
+- { pl: "stacja benzynowa", kind: "skip" }
+- { pl: "cały i zdrowy", kind: "phrase" }
+- { pl: "co sugerujesz?", kind: "skip" }
+- { pl: "załatwić sprawę", kind: "phrase" }
+- { pl: "w windzie", kind: "skip" }
+- { pl: "nie przypominam sobie", kind: "skip" }
+- { pl: "badanie krwi", kind: "skip" }
+- { pl: "we wszechświecie", kind: "skip" }
+- { pl: "łódź podwodna", kind: "skip" }
+- { pl: "w toku", kind: "phrase" }
+- { pl: "wschód słońca", kind: "skip" }
+- { pl: "co nieco", kind: "phrase" }
+- { pl: "na krześle", kind: "skip" }
+- { pl: "kwatera główna", kind: "skip" }
+- { pl: "w jaskini", kind: "skip" }
+- { pl: "piłka nożna", kind: "skip" }
+- { pl: "po raz kolejny", kind: "skip" }
+- { pl: "drobiazg!", kind: "phrase" }
+- { pl: "ależ skąd!", kind: "phrase" }
+- { pl: "gruba ryba", kind: "idiom", register: "colloquial" }
+- { pl: "moje gratulacje", kind: "skip" }
+- { pl: "być królową", kind: "skip" }
+- { pl: "w dzisiejszych czasach", kind: "phrase" }
+- { pl: "jak trzeba", kind: "skip" }
+- { pl: "otworzyć bramę", kind: "skip" }
+- { pl: "bądź grzeczny!", kind: "skip" }
+- { pl: "zrób mi przysługę", kind: "skip" }
+- { pl: "normalny człowiek", kind: "skip" }
+- { pl: "czarna dziura", kind: "skip" }
+- { pl: "jak dawniej", kind: "skip" }
+- { pl: "zapewnić, że", kind: "skip" }
+- { pl: "ciąg dalszy", kind: "phrase" }
+- { pl: "styl życia", kind: "skip" }
+- { pl: "gdziekolwiek jest", kind: "skip" }
+- { pl: "zapamiętaj to", kind: "skip" }
+- { pl: "podejdź bliżej", kind: "skip" }
+- { pl: "ten glina", kind: "skip" }
+- { pl: "marnować czas", kind: "skip" }
+- { pl: "no chyba!", kind: "phrase", register: "colloquial" }
+- { pl: "wśród nas", kind: "skip" }
+- { pl: "ależ tak!", kind: "phrase" }
+- { pl: "kiedy indziej", kind: "phrase" }
+- { pl: "będziesz żałować", kind: "skip" }
+- { pl: "być przyjaciółkami", kind: "skip" }
+- { pl: "ale niestety", kind: "skip" }
+- { pl: "najczęściej", kind: "skip" }
+- { pl: "ratować życie", kind: "skip" }
+- { pl: "być fanem", kind: "skip" }
+- { pl: "dzień wolny", kind: "skip" }
+- { pl: "w trasie", kind: "skip" }
+- { pl: "do Anglii", kind: "skip" }
+- { pl: "po schodach", kind: "skip" }
+- { pl: "za plecami", kind: "skip" }
+- { pl: "druga połowa", kind: "skip" }
+- { pl: "sztuka walki", kind: "skip" }
+- { pl: "sztuki walki", kind: "skip" }
+- { pl: "siły powietrzne", kind: "skip" }
+- { pl: "to nic nie znaczy", kind: "skip" }
+- { pl: "być w błędzie", kind: "phrase" }
+- { pl: "w potrzebie", kind: "skip" }
+- { pl: "dwójka dzieci", kind: "skip" }
+- { pl: "zupełnie nie", kind: "skip" }
+- { pl: "otwierać się", kind: "skip" }
+- { pl: "coraz więcej", kind: "skip" }
+- { pl: "tylne drzwi", kind: "skip" }
+- { pl: "spojrzeć prawdzie w oczy", kind: "idiom" }
+- { pl: "to niewiarygodne!", kind: "skip" }
+- { pl: "z urzędu", kind: "phrase" }
+- { pl: "przedstawić się", kind: "skip" }
+- { pl: "w tłumie", kind: "skip" }
+- { pl: "do boju!", kind: "phrase" }
+- { pl: "lada chwila", kind: "phrase" }
+- { pl: "wezwać karetkę", kind: "skip" }
+- { pl: "prywatny detektyw", kind: "skip" }
+- { pl: "czyli co?", kind: "phrase" }
+- { pl: "z szacunkiem", kind: "skip" }
+- { pl: "dla bezpieczeństwa", kind: "skip" }
+- { pl: "w przyszłym roku", kind: "skip" }
+- { pl: "rozwiązać problem", kind: "skip" }
+- { pl: "słaby punkt", kind: "skip" }
+- { pl: "dokonać wyboru", kind: "skip" }
+- { pl: "przyślij mi", kind: "skip" }
+- { pl: "w pudełku", kind: "skip" }
+- { pl: "mieć gorączkę", kind: "phrase", ru: "температурить, иметь высокую температуру" }
+- { pl: "od kiedy to?", kind: "phrase" }
+- { pl: "Zabieraj się stąd!", kind: "phrase", register: "colloquial", fix: "zabieraj się stąd!" }
+- { pl: "dziękuję za pomoc", kind: "skip" }
+- { pl: "w obecności", kind: "skip" }
+- { pl: "brzmi dobrze", kind: "skip" }
+- { pl: "istota ludzka", kind: "skip" }
+- { pl: "wprowadzić się", kind: "skip" }
+- { pl: "iść do więzienia", kind: "skip" }
+- { pl: "kilka słów", kind: "skip" }
+- { pl: "bułka z masłem", kind: "idiom", register: "colloquial" }
+- { pl: "chociaż raz", kind: "skip" }
+- { pl: "ładnie pachnieć", kind: "skip" }
+- { pl: "w tunelu", kind: "skip" }
+- { pl: "ostry dyżur", kind: "phrase", ru: "неотложка, приёмный покой" }
+- { pl: "odpowiedni moment", kind: "skip" }
+- { pl: "narodzić się", kind: "skip" }
+- { pl: "do Chicago", kind: "skip" }
+- { pl: "w szczególności", kind: "skip" }
+- { pl: "na papierze", kind: "skip" }
+- { pl: "składać się z", kind: "skip" }
+- { pl: "jak najdalej", kind: "phrase" }
+- { pl: "mężczyźni i kobiety", kind: "skip" }
+- { pl: "Bliski Wschód", kind: "skip" }
+- { pl: "cała przyjemność po mojej stronie", kind: "phrase", ru: "мне было очень приятно (ответ на благодарность или «приятно познакомиться»)" }
+- { pl: "wyjechać z miasta", kind: "skip" }
+- { pl: "wybierać się na", kind: "skip" }
+- { pl: "pokazywać się", kind: "skip" }
+- { pl: "z prędkością", kind: "skip" }
+- { pl: "być obecnym", kind: "skip" }
+- { pl: "nawet jeżeli", kind: "skip" }
+- { pl: "Sąd Najwyższy", kind: "skip" }
+- { pl: "w korytarzu", kind: "skip" }
+- { pl: "polecam", kind: "skip" }
+- { pl: "we własnej osobie", kind: "phrase" }
+- { pl: "nie jestem w nastroju", kind: "skip" }
+- { pl: "być kumplami", kind: "skip" }
+- { pl: "coraz gorzej", kind: "skip" }
+- { pl: "nie wygłupiaj się", kind: "phrase", register: "colloquial" }
+- { pl: "telefon komórkowy", kind: "skip" }
+- { pl: "w istocie", kind: "phrase", register: "bookish" }
+- { pl: "czyżbyś", kind: "skip" }
+- { pl: "stworzony przez", kind: "skip" }
+- { pl: "wchodzić w grę", kind: "phrase", ru: "рассматриваться, быть возможным (nie wchodzi w grę — исключено)" }
+- { pl: "zwłaszcza że", kind: "skip" }
+- { pl: "dziękuję, doktorze", kind: "skip" }
+- { pl: "ojciec chrzestny", kind: "skip" }
+- { pl: "na dworcu", kind: "skip" }
+- { pl: "jak potrafi", kind: "skip" }
+- { pl: "młody mężczyzna", kind: "skip" }
+- { pl: "wszystko się ułoży", kind: "phrase" }
+- { pl: "na słówko", kind: "phrase", register: "colloquial" }
+- { pl: "co proponujesz?", kind: "skip" }
+- { pl: "żegnajcie", kind: "skip" }
+- { pl: "na wysokości", kind: "skip" }
+- { pl: "prosić o wybaczenie", kind: "skip" }
+- { pl: "Do dna!", kind: "phrase", fix: "do dna!" }
+- { pl: "opinia publiczna", kind: "skip" }
+- { pl: "na wynos", kind: "phrase" }
+- { pl: "nad rzeką", kind: "skip" }
+- { pl: "droga ucieczki", kind: "skip" }
+- { pl: "dać z siebie wszystko", kind: "phrase" }
+- { pl: "podczas wojny", kind: "skip" }
+- { pl: "w postaci", kind: "skip" }
+- { pl: "sprowadzić pomoc", kind: "skip" }
+- { pl: "szczęśliwe zakończenie", kind: "skip" }
+- { pl: "do jasnej cholery", kind: "idiom", register: "colloquial", ru: "чёрт возьми, какого чёрта" }
+- { pl: "to pomyłka", kind: "skip" }
+- { pl: "do wieczora!", kind: "phrase" }
+- { pl: "sprawiać kłopot", kind: "skip" }
+- { pl: "stary znajomy", kind: "skip" }
+- { pl: "stawiać opór", kind: "skip" }
+- { pl: "próbka krwi", kind: "skip" }
+- { pl: "z Chicago", kind: "skip" }
+- { pl: "brać się do roboty", kind: "phrase", register: "colloquial" }
+- { pl: "po raz drugi", kind: "phrase" }
+- { pl: "byłeś kiedyś", kind: "skip" }
+- { pl: "ty idioto", kind: "skip" }
+- { pl: "zamykać drzwi", kind: "skip" }
+- { pl: "w Rosji", kind: "skip" }
+- { pl: "wieczór kawalerski", kind: "phrase" }
+- { pl: "stała się krzywda", kind: "skip" }
+- { pl: "dojść do siebie", kind: "idiom" }
+- { pl: "znacznie więcej", kind: "skip" }
+- { pl: "ale, ale!", kind: "phrase", register: "colloquial" }
+- { pl: "pojechać do domu", kind: "skip" }
+- { pl: "szef kuchni", kind: "skip" }
+- { pl: "bez końca", kind: "skip" }
+- { pl: "prokurator generalny", kind: "skip" }
+- { pl: "dla dorosłych", kind: "skip" }
+- { pl: "w połowie drogi", kind: "phrase", ru: "на полпути" }
+- { pl: "znacznie lepiej", kind: "skip" }
+- { pl: "z dumą", kind: "skip" }
+- { pl: "w skali", kind: "skip" }
+- { pl: "brudna robota", kind: "skip" }
+- { pl: "szklanka wody", kind: "skip" }
+- { pl: "straż pożarna", kind: "skip" }
+- { pl: "odnieść sukces", kind: "phrase" }
+- { pl: "coraz lepiej", kind: "phrase" }
+- { pl: "czas minął", kind: "phrase", ru: "время вышло" }
+- { pl: "wydostać się stąd", kind: "skip" }
+- { pl: "czarny rynek", kind: "skip" }
+- { pl: "To chore!", kind: "phrase", register: "colloquial", ru: "это ненормально!, это бред!", fix: "to chore!" }
+- { pl: "iść do łazienki", kind: "skip" }
+- { pl: "mieć pecha", kind: "phrase", register: "colloquial" }
+- { pl: "ze schodów", kind: "skip" }
+- { pl: "głowa do góry", kind: "idiom", ru: "выше нос!" }
+- { pl: "pod ręką", kind: "phrase" }
+- { pl: "zabieraj łapy", kind: "phrase", register: "colloquial", ru: "убери лапы!, руки прочь!" }
+- { pl: "ciśnienie krwi", kind: "skip" }
+- { pl: "niektórzy z nas", kind: "skip" }
+- { pl: "to naturalne", kind: "skip" }
+- { pl: "to samobójstwo!", kind: "skip" }
+- { pl: "dobry znak", kind: "skip" }
+- { pl: "panie kapitanie", kind: "skip" }
+- { pl: "w związku z tym", kind: "phrase" }
+- { pl: "no to co?", kind: "phrase", register: "colloquial" }
+- { pl: "to przerażające", kind: "skip" }
+- { pl: "na luzie", kind: "phrase", register: "colloquial" }
+- { pl: "poczekaj chwilkę", kind: "skip" }
+- { pl: "skręcić w prawo", kind: "skip" }
+- { pl: "nie złość się", kind: "skip" }
+- { pl: "na próżno", kind: "phrase" }
+- { pl: "wejść na pokład", kind: "skip" }
+- { pl: "zgodnie z prawem", kind: "phrase" }
+- { pl: "ulec zmianie", kind: "phrase", register: "bookish" }
+- { pl: "po części", kind: "phrase" }
+- { pl: "zająć pozycję", kind: "skip" }
+- { pl: "nie mieć zielonego pojęcia", kind: "idiom", register: "colloquial" }
+- { pl: "trwać wiecznie", kind: "skip" }
+- { pl: "ładunek wybuchowy", kind: "skip" }
+- { pl: "około godziny", kind: "skip" }
+- { pl: "przydałoby się", kind: "phrase" }
+- { pl: "wcześniej czy później", kind: "phrase" }
+- { pl: "do zobaczenia wkrótce", kind: "phrase" }
+- { pl: "wahać się", kind: "skip" }
+- { pl: "przepraszam bardzo", kind: "phrase" }
+- { pl: "to nic osobistego", kind: "phrase" }
+- { pl: "przyznać się do winy", kind: "phrase" }
+- { pl: "Twój ruch", kind: "phrase", fix: "twój ruch" }
+- { pl: "kto następny?", kind: "skip" }
+- { pl: "z całych sił", kind: "phrase" }
+- { pl: "pod opieką", kind: "skip" }
+- { pl: "karabin maszynowy", kind: "skip" }
+- { pl: "wojna domowa", kind: "phrase" }
+- { pl: "mam zaszczyt", kind: "phrase", register: "bookish" }
+- { pl: "na ratunek", kind: "phrase" }
+- { pl: "mimo iż", kind: "phrase", register: "bookish" }
+- { pl: "spoczywaj w pokoju", kind: "phrase" }
+- { pl: "zadanie domowe", kind: "skip" }
+- { pl: "zamknij ryj", kind: "phrase", register: "vulgar" }
+- { pl: "ponad wszystko", kind: "phrase" }
+- { pl: "z zimną krwią", kind: "idiom" }
+- { pl: "bliski przyjaciel", kind: "skip" }
+- { pl: "długo i szczęśliwie", kind: "phrase" }
+- { pl: "z natury", kind: "phrase" }
+- { pl: "w duchu", kind: "phrase" }
+- { pl: "w mundurze", kind: "skip" }
+- { pl: "pójść na marne", kind: "idiom" }
+- { pl: "ledwo co", kind: "phrase" }
+- { pl: "skutek uboczny", kind: "skip" }
+- { pl: "brzmi znajomo", kind: "skip" }
+- { pl: "wyrok śmierci", kind: "skip" }
+- { pl: "członek załogi", kind: "skip" }
+- { pl: "plac zabaw", kind: "skip" }
+- { pl: "żeby tylko", kind: "phrase" }
+- { pl: "nocna zmiana", kind: "skip" }
+- { pl: "zarabiać na życie", kind: "phrase" }
+- { pl: "ależ oczywiście!", kind: "phrase" }
+- { pl: "dla odmiany", kind: "phrase" }
+- { pl: "być artystą", kind: "skip" }
+- { pl: "nic podobnego", kind: "phrase" }
+- { pl: "czaisz?", kind: "phrase", register: "colloquial", ru: "сечёшь?, врубаешься?" }
+- { pl: "być wojownikiem", kind: "skip" }
+- { pl: "zgubić się", kind: "skip" }
+- { pl: "co prawda", kind: "phrase" }
+- { pl: "zapalenie płuc", kind: "skip" }
+- { pl: "Departament Stanu", kind: "skip" }
+- { pl: "nie ma się czym martwić", kind: "phrase" }
+- { pl: "nie ryzykuj", kind: "skip" }
+- { pl: "stróż prawa", kind: "skip" }
+- { pl: "czarna magia", kind: "idiom" }
+- { pl: "całe szczęście", kind: "phrase" }
+- { pl: "pomiędzy nami", kind: "skip" }
+- { pl: "rozmawiać przez telefon", kind: "phrase" }
+- { pl: "na deser", kind: "skip" }
+- { pl: "wysłać wiadomość", kind: "skip" }
+- { pl: "między innymi", kind: "phrase", ru: "в том числе, среди прочего" }
+- { pl: "miła niespodzianka", kind: "skip" }
+- { pl: "rozmowa telefoniczna", kind: "skip" }
+- { pl: "strona internetowa", kind: "skip" }
+- { pl: "zdrowy rozsądek", kind: "phrase" }
+- { pl: "nie wiem dokąd", kind: "skip" }
+- { pl: "konto bankowe", kind: "skip" }
+- { pl: "odwrócić uwagę", kind: "phrase" }
+- { pl: "stawić się", kind: "skip" }
+- { pl: "nie ma możliwości", kind: "phrase", ru: "никак, исключено" }
+- { pl: "słodkich snów!", kind: "phrase" }
+- { pl: "mieć farta", kind: "phrase", register: "colloquial" }
+- { pl: "na pierwszym miejscu", kind: "skip" }
+- { pl: "co miesiąc", kind: "phrase" }
+- { pl: "przejść na emeryturę", kind: "phrase" }
+- { pl: "zamknij mordę", kind: "phrase", register: "vulgar" }
+- { pl: "bratnia dusza", kind: "idiom" }
+- { pl: "w żadnym wypadku", kind: "phrase" }
+- { pl: "godny zaufania", kind: "skip" }
+- { pl: "na koszt firmy", kind: "phrase" }
+- { pl: "dotrzymać słowa", kind: "phrase" }
+- { pl: "mistrz świata", kind: "skip" }
+- { pl: "na pożegnanie", kind: "skip" }
+- { pl: "po waszemu", kind: "skip" }
+- { pl: "umieć pływać", kind: "skip" }
+- { pl: "na wybrzeżu", kind: "skip" }
+- { pl: "z całego serca", kind: "phrase" }
+- { pl: "panować nad sobą", kind: "phrase" }
+- { pl: "brać leki", kind: "skip" }
+- { pl: "wolałbym nie", kind: "skip" }
+- { pl: "fałszywy alarm", kind: "skip" }
+- { pl: "ciąg dalszy nastąpi", kind: "phrase" }
+- { pl: "godzina policyjna", kind: "phrase" }
+- { pl: "z reguły", kind: "phrase" }
+- { pl: "od wewnątrz", kind: "skip" }
+- { pl: "to się nie powtórzy", kind: "skip" }
+- { pl: "iść naprzód", kind: "skip" }
+- { pl: "ścigać się", kind: "skip" }
+- { pl: "otóż to", kind: "phrase" }
+- { pl: "poza domem", kind: "skip" }
+- { pl: "jakiego koloru?", kind: "skip" }
+- { pl: "prawy człowiek", kind: "skip" }
+- { pl: "wobec tego", kind: "phrase" }
+- { pl: "to nieistotne", kind: "skip" }
+- { pl: "pokój hotelowy", kind: "skip" }
+- { pl: "zostawić w spokoju", kind: "phrase" }
+- { pl: "naoczny świadek", kind: "skip" }
+- { pl: "wykonywać rozkazy", kind: "skip" }
+- { pl: "ciężko powiedzieć", kind: "phrase" }
+- { pl: "odrobina szczęścia", kind: "skip" }
+- { pl: "pierdol to", kind: "phrase", register: "vulgar", ru: "да пошло оно всё (на хрен)" }
+- { pl: "w pośpiechu", kind: "skip" }
+- { pl: "przeznaczony dla", kind: "skip" }
+- { pl: "w tle", kind: "skip" }
+- { pl: "stracić przytomność", kind: "phrase" }
+- { pl: "gwiazda rocka", kind: "skip" }
+- { pl: "niezbyt dobrze", kind: "skip" }
+- { pl: "proszę tędy", kind: "phrase" }
+- { pl: "setki razy", kind: "skip" }
+- { pl: "być śledzonym", kind: "skip" }
+- { pl: "panie ministrze", kind: "skip" }
+- { pl: "sprzed lat", kind: "skip" }
+- { pl: "łowca nagród", kind: "skip" }
+- { pl: "Układ Słoneczny", kind: "skip" }
+- { pl: "wystarczająca ilość", kind: "skip" }
+- { pl: "w torebce", kind: "skip" }
+- { pl: "zawrzeć umowę", kind: "phrase" }
+- { pl: "nasi przodkowie", kind: "skip" }
+- { pl: "do Francji", kind: "skip" }
+- { pl: "sprawy wewnętrzne", kind: "skip" }
+- { pl: "grupa krwi", kind: "skip" }
+- { pl: "szpital psychiatryczny", kind: "skip" }
+- { pl: "bardzo chętnie", kind: "phrase" }
+- { pl: "spotykać się z kimś", kind: "phrase" }
+- { pl: "niedaleko stąd", kind: "skip" }
+- { pl: "list gończy", kind: "phrase" }
+- { pl: "nad morzem", kind: "phrase" }
+- { pl: "kawał drogi", kind: "phrase", register: "colloquial", ru: "путь неблизкий, приличное расстояние" }
+- { pl: "proszę siadać", kind: "phrase" }
+- { pl: "chwila obecna", kind: "skip" }
+- { pl: "porozmawiać na osobności", kind: "phrase" }
+- { pl: "jakiś koleś", kind: "skip" }
+- { pl: "zielone światło", kind: "idiom" }
+- { pl: "mój synek", kind: "skip" }
+- { pl: "mieć alibi", kind: "skip" }
+- { pl: "w ciągu tygodnia", kind: "skip" }
+- { pl: "nie do zniesienia", kind: "phrase" }
+- { pl: "wynocha stąd", kind: "phrase", register: "colloquial" }
+- { pl: "jak nikt", kind: "skip" }
+- { pl: "nakaz aresztowania", kind: "skip" }
+- { pl: "wydało się", kind: "phrase" }
+- { pl: "przejąć władzę", kind: "skip" }
+- { pl: "marynarka wojenna", kind: "skip" }
+- { pl: "jeszcze jak!", kind: "phrase", register: "colloquial" }
+- { pl: "partnerka", kind: "skip" }
+- { pl: "na końcu korytarza", kind: "skip" }
+- { pl: "w głębi serca", kind: "phrase" }
+- { pl: "do omówienia", kind: "skip" }
+- { pl: "niedobrze mi", kind: "phrase" }
+- { pl: "na pamięć", kind: "phrase" }
+- { pl: "ty dupku", kind: "skip", register: "vulgar" }
+- { pl: "numer seryjny", kind: "skip" }
+- { pl: "co mu jest?", kind: "phrase" }
+- { pl: "pierwsza dama", kind: "skip" }
+- { pl: "brać narkotyki", kind: "skip" }
+- { pl: "doskonale wiem", kind: "skip" }
+- { pl: "tylko żartowałem", kind: "phrase" }
+- { pl: "mieć wszystko pod kontrolą", kind: "phrase" }
+- { pl: "ból brzucha", kind: "skip" }
+- { pl: "owszem, ale", kind: "skip" }
+- { pl: "do pełna", kind: "phrase", ru: "до полного (бака), доверху" }
+- { pl: "faktem jest, że", kind: "phrase" }
+- { pl: "w razie potrzeby", kind: "phrase" }
+- { pl: "napad na bank", kind: "skip" }
+- { pl: "na piśmie", kind: "phrase" }
+- { pl: "żyć długo i szczęśliwie", kind: "phrase" }
+- { pl: "bardzo zadowolony", kind: "skip" }
+- { pl: "jedyny w swoim rodzaju", kind: "phrase" }
+- { pl: "robić postępy", kind: "phrase" }
+- { pl: "grzeczna dziewczynka", kind: "skip" }
+- { pl: "zanim będzie za późno", kind: "phrase" }
+- { pl: "właśnie wtedy", kind: "skip" }
+- { pl: "obok siebie", kind: "skip" }
+- { pl: "dawać sobie radę", kind: "phrase" }
+- { pl: "spróbuj ponownie", kind: "skip" }
+- { pl: "daj mu spokój", kind: "phrase" }
+- { pl: "za grosze", kind: "phrase" }
+- { pl: "świetnie sobie radzić", kind: "skip" }
+- { pl: "nagranie z kamery", kind: "skip" }
+- { pl: "Ameryka Południowa", kind: "skip" }
+- { pl: "tysiąc razy", kind: "skip" }
+- { pl: "być dowódcą", kind: "skip" }
+- { pl: "odpowiadać na pytanie", kind: "skip" }
+- { pl: "koniec końców", kind: "phrase" }
+- { pl: "opuścić budynek", kind: "skip" }
+- { pl: "wszyscy pozostali", kind: "skip" }
+- { pl: "pycha!", kind: "phrase", register: "colloquial" }
+- { pl: "do muzeum", kind: "skip" }
+- { pl: "mnóstwo ludzi", kind: "skip" }
+- { pl: "milion razy", kind: "skip" }
+- { pl: "stanąć na nogi", kind: "idiom" }
+- { pl: "nic specjalnego", kind: "phrase" }
+- { pl: "być na czasie", kind: "phrase", ru: "быть в курсе, быть в тренде" }
+- { pl: "kolejny raz", kind: "skip" }
+- { pl: "przed wyjazdem", kind: "skip" }
+- { pl: "zabijać się", kind: "skip" }
+- { pl: "smakuje ci?", kind: "phrase", ru: "тебе нравится (на вкус)?, вкусно?" }
+- { pl: "do broni!", kind: "phrase" }
+- { pl: "sprawiać wrażenie", kind: "phrase" }
+- { pl: "nie obiecuj", kind: "skip" }
+- { pl: "świetnie się bawić", kind: "phrase" }
+- { pl: "umyć ręce", kind: "idiom" }
+- { pl: "ten i ów", kind: "phrase", register: "bookish", ru: "тот или иной, кое-кто" }
+- { pl: "mój skarbie", kind: "phrase" }
+- { pl: "w rzece", kind: "skip" }
+- { pl: "bez śladu", kind: "skip" }
+- { pl: "boli mnie głowa", kind: "phrase" }
+- { pl: "za kulisami", kind: "phrase" }
+- { pl: "Byłoby wspaniale…", kind: "skip" }
+- { pl: "zrobić przerwę", kind: "skip" }
+- { pl: "za chwilkę", kind: "phrase" }
+- { pl: "zimna wojna", kind: "skip" }
+- { pl: "grać w golfa", kind: "skip" }
+- { pl: "jeżeli chodzi o...", kind: "phrase" }
+- { pl: "sala sądowa", kind: "skip" }
+- { pl: "Bóg jeden wie", kind: "phrase" }
+- { pl: "warto spróbować", kind: "phrase" }
+- { pl: "nie mieć nic do stracenia", kind: "phrase" }
+- { pl: "bez różnicy", kind: "phrase" }
+- { pl: "posterunek policji", kind: "skip" }
+- { pl: "suknia ślubna", kind: "skip" }
+- { pl: "nie jestem przekonany", kind: "skip" }
+- { pl: "na zakończenie", kind: "phrase" }
+- { pl: "na skutek", kind: "phrase", register: "bookish" }
+- { pl: "pilna sprawa", kind: "skip" }
+- { pl: "płacić podatki", kind: "skip" }
+- { pl: "zmienić temat", kind: "skip" }
+- { pl: "dobić targu", kind: "idiom" }
+- { pl: "zmieniać temat", kind: "skip" }
+- { pl: "bez paniki", kind: "phrase" }
+- { pl: "całą wieczność", kind: "skip" }
+- { pl: "w cztery oczy", kind: "idiom" }
+- { pl: "w głębi duszy", kind: "phrase" }
+- { pl: "zrobić krzywdę", kind: "phrase" }
+- { pl: "po niemiecku", kind: "skip" }
+- { pl: "po obu stronach", kind: "skip" }
+- { pl: "sprowadzać się do", kind: "phrase" }
+- { pl: "w gruncie rzeczy", kind: "phrase" }
+- { pl: "to przykre", kind: "phrase" }
+- { pl: "bez komentarza", kind: "phrase" }
+- { pl: "podpisać umowę", kind: "skip" }
+- { pl: "opuszczony dom", kind: "skip" }
+- { pl: "panie pułkowniku", kind: "skip" }
+- { pl: "kupa kasy", kind: "phrase", register: "colloquial" }
+- { pl: "trafić do więzienia", kind: "skip" }
+- { pl: "ty suko", kind: "skip", register: "vulgar" }
+- { pl: "obejdzie się!", kind: "phrase", register: "colloquial" }
+- { pl: "przypuśćmy, że…", kind: "phrase" }
+- { pl: "wesołe miasteczko", kind: "phrase" }
+- { pl: "próbuj dalej", kind: "skip" }
+- { pl: "znowu to samo", kind: "skip" }
+- { pl: "co cię sprowadza?", kind: "phrase" }
+- { pl: "jasna sprawa", kind: "phrase", register: "colloquial" }
+- { pl: "nie gap się", kind: "skip", register: "colloquial" }
+- { pl: "samotna matka", kind: "skip" }
+- { pl: "nie przypadkiem", kind: "skip" }
+- { pl: "godny podziwu", kind: "skip" }
+- { pl: "nie mam nic do ukrycia", kind: "skip" }
+- { pl: "nieźle wygląda", kind: "skip" }
+- { pl: "przez pomyłkę", kind: "phrase" }
+- { pl: "cała załoga", kind: "skip" }
+- { pl: "dzikie zwierzę", kind: "skip" }
+- { pl: "spłacić dług", kind: "skip" }
+- { pl: "trzymać gębę na kłódkę", kind: "idiom", register: "colloquial" }
+- { pl: "przyjmijmy, że...", kind: "phrase" }
+- { pl: "rodzina zastępcza", kind: "skip" }
+- { pl: "w rezultacie", kind: "skip" }
+- { pl: "odłożyć słuchawkę", kind: "phrase" }
+- { pl: "mieć wizję", kind: "skip" }
+- { pl: "spowodowany przez", kind: "skip" }
+- { pl: "nie lubić się", kind: "skip" }
+- { pl: "dobry towar", kind: "skip" }
+- { pl: "mocna strona", kind: "skip" }
+- { pl: "na fali", kind: "idiom" }
+- { pl: "pranie mózgu", kind: "idiom" }
+- { pl: "opieka medyczna", kind: "skip" }
+- { pl: "złożyć zeznanie", kind: "phrase" }
+- { pl: "gwiazda filmowa", kind: "skip" }
+- { pl: "dopiero wtedy", kind: "skip" }
+- { pl: "zejdź z drogi", kind: "skip" }
+- { pl: "przestać istnieć", kind: "skip" }
+- { pl: "o ile wiem", kind: "phrase" }
+- { pl: "butelka wina", kind: "skip" }
+- { pl: "ocalić życie", kind: "skip" }
+- { pl: "niebieskie oczy", kind: "skip" }
+- { pl: "jakby co", kind: "phrase", register: "colloquial" }
+- { pl: "napisać list", kind: "skip" }
+- { pl: "opanuj się", kind: "phrase" }
+- { pl: "pani domu", kind: "skip" }
+- { pl: "dla jasności", kind: "phrase" }
+- { pl: "wyjść z więzienia", kind: "skip" }
+- { pl: "na dowód", kind: "skip" }
+- { pl: "wyrazy współczucia", kind: "phrase" }
+- { pl: "oprócz ciebie", kind: "skip" }
+- { pl: "mieć koszmar", kind: "skip" }
+- { pl: "kręcić film", kind: "phrase" }
+- { pl: "gotowy na wszystko", kind: "skip" }
+- { pl: "pobrać próbkę", kind: "skip" }
+- { pl: "nie tylko..., ale także", kind: "phrase" }
+- { pl: "czytać w myślach", kind: "idiom", ru: "читать мысли" }
+- { pl: "tablica rejestracyjna", kind: "skip" }
+- { pl: "do widzenia panu", kind: "phrase" }
+- { pl: "miejsce przestępstwa", kind: "skip" }
+- { pl: "handel narkotykami", kind: "skip" }
+- { pl: "zaraz potem", kind: "skip" }
+- { pl: "pod przysięgą", kind: "skip" }
+- { pl: "z trudem", kind: "skip" }
+- { pl: "połączyć siły", kind: "phrase" }
+- { pl: "na pamiątkę", kind: "phrase" }
+- { pl: "wykonać zadanie", kind: "skip" }
+- { pl: "anioł stróż", kind: "phrase" }
+- { pl: "pozdrów ode mnie", kind: "phrase" }
+- { pl: "użyć siły", kind: "skip" }
+- { pl: "z uśmiechem", kind: "skip" }
+- { pl: "bardziej niż kiedykolwiek", kind: "skip" }
+- { pl: "ktokolwiek to zrobił", kind: "skip" }
+- { pl: "życie osobiste", kind: "skip" }
+- { pl: "trójka dzieci", kind: "skip" }
+- { pl: "do kibla", kind: "idiom", register: "colloquial", ru: "псу под хвост, в помойку (букв. в сортир)" }
+- { pl: "z grubsza", kind: "phrase" }
+- { pl: "postanowione", kind: "phrase" }
+- { pl: "nie ma pośpiechu", kind: "phrase" }
+- { pl: "załamanie nerwowe", kind: "skip" }
+- { pl: "porządny człowiek", kind: "skip" }
+- { pl: "do wynajęcia", kind: "phrase" }
+- { pl: "mieć litość", kind: "phrase" }
+- { pl: "zwłaszcza jeśli", kind: "skip" }
+- { pl: "przekraczać granice", kind: "skip" }
+- { pl: "aż do końca", kind: "skip" }
+- { pl: "kamera ochrony", kind: "skip" }
+- { pl: "cała naprzód", kind: "phrase" }
+- { pl: "ojciec święty", kind: "phrase" }
+- { pl: "pod żadnym pozorem", kind: "phrase" }
+- { pl: "nic niezwykłego", kind: "skip" }
+- { pl: "nie ma sposobu", kind: "skip" }
+- { pl: "dużo szczęścia!", kind: "phrase" }
+- { pl: "coś okropnego", kind: "skip" }
+- { pl: "popełnić morderstwo", kind: "skip" }
+- { pl: "poświęcić czas", kind: "phrase" }
+- { pl: "rany boskie!", kind: "phrase", register: "colloquial" }
+- { pl: "bez dwóch zdań", kind: "idiom" }
+- { pl: "w biały dzień", kind: "idiom" }
+- { pl: "o piątej", kind: "skip" }
+- { pl: "pole widzenia", kind: "skip" }
+- { pl: "setki ludzi", kind: "skip" }
+- { pl: "być pacjentem", kind: "skip" }
+- { pl: "posiadanie broni", kind: "skip" }
+- { pl: "pada śnieg", kind: "phrase" }
+- { pl: "główna rola", kind: "skip" }
+- { pl: "nic nie wart", kind: "skip" }
+- { pl: "to i owo", kind: "phrase" }
+- { pl: "prowadzić samochód", kind: "phrase" }
+- { pl: "po obiedzie", kind: "skip" }
+- { pl: "bez wahania", kind: "skip" }
+- { pl: "któryś z nas", kind: "skip" }
+- { pl: "non stop", kind: "phrase" }
+- { pl: "mieć głos", kind: "skip" }
+- { pl: "związać ręce", kind: "idiom" }
+- { pl: "że tak powiem", kind: "phrase" }
+- { pl: "góra lodowa", kind: "skip" }
+- { pl: "tam i z powrotem", kind: "phrase" }
+- { pl: "umrzeć z głodu", kind: "skip" }
+- { pl: "złożyć skargę", kind: "phrase" }
+- { pl: "dać czadu", kind: "idiom", register: "colloquial" }
+- { pl: "bal maturalny", kind: "skip" }
+- { pl: "dochować tajemnicy", kind: "skip" }
+- { pl: "stek bzdur", kind: "idiom", register: "colloquial" }
+- { pl: "poznajesz mnie?", kind: "skip" }
+- { pl: "wykazać się", kind: "skip" }
+- { pl: "rzucać się w oczy", kind: "idiom" }
+- { pl: "specjalnie dla ciebie", kind: "skip" }
+- { pl: "ciężko ranny", kind: "skip" }
+- { pl: "to fascynujące", kind: "skip" }
+- { pl: "klatka schodowa", kind: "skip" }
+- { pl: "oddychać głęboko", kind: "skip" }
+- { pl: "zgasić światło", kind: "skip" }
+- { pl: "przepraszam za kłopot", kind: "phrase" }
+- { pl: "z wyboru", kind: "skip" }
+- { pl: "dobry wynik", kind: "skip" }
+- { pl: "zamieniać się w słuch", kind: "idiom" }
+- { pl: "guma do żucia", kind: "skip" }
+- { pl: "prezent urodzinowy", kind: "skip" }
+- { pl: "o czwartej", kind: "skip" }
+- { pl: "kto tu rządzi", kind: "skip" }
+- { pl: "po prawej stronie", kind: "phrase" }
+- { pl: "nie ma się czego wstydzić", kind: "phrase" }
+- { pl: "panie przewodniczący", kind: "skip" }
+- { pl: "podróż poślubna", kind: "skip" }
+- { pl: "wziąć taksówkę", kind: "skip" }
+- { pl: "dać szansę", kind: "skip" }
+- { pl: "chirurg plastyczny", kind: "skip" }
+- { pl: "pasuje mi", kind: "phrase" }
+- { pl: "nasz zespół", kind: "skip" }
+- { pl: "kręci mi się w głowie", kind: "phrase" }
+- { pl: "z pustymi rękami", kind: "idiom" }
+- { pl: "zepsuć się", kind: "skip" }
+- { pl: "z udziałem", kind: "skip" }
+- { pl: "ulubiony kolor", kind: "skip" }
+- { pl: "na wysokim poziomie", kind: "skip" }
+- { pl: "pod presją", kind: "skip" }
+- { pl: "trzymać kciuki", kind: "idiom" }
+- { pl: "mieć komórkę", kind: "skip" }
+- { pl: "a to dlaczego?", kind: "phrase" }
+- { pl: "po moim trupie", kind: "idiom" }
+- { pl: "wstrzymać oddech", kind: "skip" }
+- { pl: "pić kawę", kind: "skip" }
+- { pl: "jestem studentem", kind: "skip" }
+- { pl: "sekcja zwłok", kind: "skip" }
+- { pl: "wściekły pies", kind: "skip" }
+- { pl: "za parę minut", kind: "skip" }
+- { pl: "osiem godzin", kind: "skip" }
+- { pl: "w zależności od", kind: "phrase" }
+- { pl: "szlag trafił", kind: "idiom", register: "colloquial" }
+- { pl: "zbyt późno", kind: "skip" }
+- { pl: "ramię w ramię", kind: "idiom" }
+- { pl: "iść na spacer", kind: "skip" }
+- { pl: "odpocznij trochę", kind: "skip" }
+- { pl: "dach nad głową", kind: "idiom" }
+- { pl: "nikt oprócz", kind: "skip" }
+- { pl: "rasa ludzka", kind: "skip" }
+- { pl: "powiedzieć wprost", kind: "skip" }
+- { pl: "stawiać czoła", kind: "idiom" }
+- { pl: "za głośno", kind: "skip" }
+- { pl: "w teorii", kind: "skip" }
+- { pl: "rozmowa o pracę", kind: "phrase" }
+- { pl: "technicznie rzecz biorąc", kind: "phrase" }
+- { pl: "trzymaj się mocno", kind: "skip" }
+- { pl: "ekipa ratunkowa", kind: "skip" }
+- { pl: "nie wypada", kind: "phrase" }
+- { pl: "w jeziorze", kind: "skip" }
+- { pl: "podpisać kontrakt", kind: "skip" }
+- { pl: "wymiar sprawiedliwości", kind: "phrase" }
+- { pl: "o wilku mowa", kind: "proverb" }
+- { pl: "odzyskać przytomność", kind: "phrase" }
+- { pl: "układ nerwowy", kind: "skip" }
+- { pl: "nic do rzeczy", kind: "phrase", ru: "не относится к делу (to nie ma nic do rzeczy)" }
+- { pl: "gęsia skórka", kind: "idiom" }
+- { pl: "od zera", kind: "skip" }
+- { pl: "bez przesady", kind: "phrase" }
+- { pl: "nic szczególnego", kind: "phrase" }
+- { pl: "to nie twój interes", kind: "phrase", register: "colloquial" }
+- { pl: "iść do toalety", kind: "skip" }
+- { pl: "stracić kontrolę", kind: "skip" }
+- { pl: "drzwi otwarte", kind: "skip" }
+- { pl: "po rosyjsku", kind: "skip" }
+- { pl: "na zamówienie", kind: "skip" }
+- { pl: "bądź mężczyzną", kind: "skip" }
+- { pl: "oglądać się za siebie", kind: "skip" }
+- { pl: "akta sprawy", kind: "skip" }
+- { pl: "począwszy od", kind: "phrase" }
+- { pl: "mistrzostwa świata", kind: "skip" }
+- { pl: "Bóg mi świadkiem", kind: "phrase" }
+- { pl: "przynajmniej tyle", kind: "skip" }
+- { pl: "życie prywatne", kind: "skip" }
+- { pl: "położyć kres", kind: "phrase", register: "bookish" }
+- { pl: "kiedy tylko zechcesz", kind: "skip" }
+- { pl: "dochodzić do siebie", kind: "phrase" }
+- { pl: "popełnić przestępstwo", kind: "skip" }
+- { pl: "we dwójkę", kind: "phrase" }
+- { pl: "jeść kolację", kind: "skip" }
+- { pl: "pod stołem", kind: "skip" }
+- { pl: "oskarżyć o morderstwo", kind: "skip" }
+- { pl: "wysokiej jakości", kind: "skip" }
+- { pl: "mam prośbę", kind: "phrase" }
+- { pl: "na gorącym uczynku", kind: "idiom" }
+- { pl: "wisieć na włosku", kind: "idiom" }
+- { pl: "zasięg wzroku", kind: "skip" }
+- { pl: "Uwielbiamy Cię", kind: "skip" }
+- { pl: "gdyby nie to", kind: "skip" }
+- { pl: "dać się nabrać", kind: "phrase", register: "colloquial" }
+- { pl: "grać na gitarze", kind: "skip" }
+- { pl: "wrzód na tyłku", kind: "idiom", register: "colloquial" }
+- { pl: "Dziki Zachód", kind: "skip" }
+- { pl: "ej, ty!", kind: "skip" }
+- { pl: "w pierwszym rzędzie", kind: "phrase" }
+- { pl: "wydawać pieniądze", kind: "skip" }
+- { pl: "rusz dupę", kind: "phrase", register: "vulgar" }
+- { pl: "przed północą", kind: "skip" }
+- { pl: "dawno, dawno temu", kind: "phrase" }
+- { pl: "życie seksualne", kind: "skip" }
+- { pl: "gdzieś w pobliżu", kind: "skip" }
+- { pl: "na dywanie", kind: "skip" }
+- { pl: "wózek inwalidzki", kind: "skip" }
+- { pl: "całkiem możliwe", kind: "skip" }
+- { pl: "otwarty umysł", kind: "skip" }
+- { pl: "genialny pomysł", kind: "skip" }
+- { pl: "w twoim stylu", kind: "skip" }
+- { pl: "grać w karty", kind: "skip" }
+- { pl: "jedź ostrożnie", kind: "skip" }
+- { pl: "nie ma takiej opcji", kind: "phrase", register: "colloquial" }
+- { pl: "krótko mówiąc", kind: "phrase" }
+- { pl: "pierścionek zaręczynowy", kind: "skip" }
+- { pl: "czarna skrzynka", kind: "skip" }
+- { pl: "opuścić statek", kind: "skip" }
+- { pl: "dojść do porozumienia", kind: "skip" }
+- { pl: "pierwsza miłość", kind: "skip" }
+- { pl: "bardzo przystojny", kind: "skip" }
+- { pl: "być w pogotowiu", kind: "phrase" }
+- { pl: "mówić po francusku", kind: "skip" }
+- { pl: "uścisk dłoni", kind: "skip" }
+- { pl: "poprosić o pomoc", kind: "skip" }
+- { pl: "biegun północny", kind: "skip" }
+- { pl: "imię i nazwisko", kind: "skip" }
+- { pl: "iść na studia", kind: "phrase" }
+- { pl: "pojawić się znikąd", kind: "skip" }
+- { pl: "przestrzeń kosmiczna", kind: "skip" }
+- { pl: "miliardy lat", kind: "skip" }
+- { pl: "w młodości", kind: "skip" }
+- { pl: "w stanie gotowości", kind: "skip" }
+- { pl: "budzik", kind: "skip" }
+- { pl: "królowa balu", kind: "skip" }
+- { pl: "dziękuję za zaproszenie", kind: "phrase" }
+- { pl: "sztuczna inteligencja", kind: "skip" }
+- { pl: "nie ma zasięgu", kind: "phrase" }
+- { pl: "prosto z mostu", kind: "idiom" }
+- { pl: "jak mu tam?", kind: "phrase", register: "colloquial" }
+- { pl: "wezwać ochronę", kind: "skip" }
+- { pl: "w dziejach", kind: "skip" }
+- { pl: "zamieszkać razem", kind: "skip" }
+- { pl: "pełnia księżyca", kind: "skip" }
+- { pl: "znaleźć rozwiązanie", kind: "skip" }
+- { pl: "w mediach", kind: "skip" }
+- { pl: "centrum miasta", kind: "skip" }
+- { pl: "krok po kroku", kind: "phrase" }
+- { pl: "nie tylko..., ale również", kind: "phrase" }
+- { pl: "przy bramie", kind: "skip" }
+- { pl: "odpowiedź na pytanie", kind: "skip" }
+- { pl: "być przeciw", kind: "skip" }
+- { pl: "chce mi się pić", kind: "phrase" }
+- { pl: "na tym etapie", kind: "skip" }
+- { pl: "spełnienie marzeń", kind: "skip" }
+- { pl: "na bagnie", kind: "skip" }
+- { pl: "ogarnij się", kind: "phrase", register: "colloquial" }
+- { pl: "dobra rada", kind: "skip" }
+- { pl: "wołanie o pomoc", kind: "skip" }
+- { pl: "zamach stanu", kind: "skip" }
+- { pl: "zdać egzamin", kind: "phrase" }
+- { pl: "teraz albo nigdy", kind: "phrase" }
+- { pl: "grać rolę", kind: "skip" }
+- { pl: "baza wojskowa", kind: "skip" }
+- { pl: "mój przełożony", kind: "skip" }
+- { pl: "kolor skóry", kind: "skip" }
+- { pl: "cofnąć się w czasie", kind: "skip" }
+- { pl: "trochę za dużo", kind: "skip" }
+- { pl: "atak paniki", kind: "skip" }
+- { pl: "jesienią", kind: "skip" }
+- { pl: "w dalszym ciągu", kind: "phrase" }
+- { pl: "ile to kosztuje?", kind: "phrase" }
+- { pl: "na ogół", kind: "phrase" }
+- { pl: "złota rybka", kind: "skip" }
+- { pl: "grać na zwłokę", kind: "idiom" }
+- { pl: "bez zarzutu", kind: "phrase" }
+- { pl: "nie ma się o co martwić", kind: "phrase" }
+- { pl: "walczyć o swoje", kind: "skip" }
+- { pl: "nie ma się czego obawiać", kind: "phrase" }
+- { pl: "złapać oddech", kind: "phrase" }
+- { pl: "przybić piątkę", kind: "phrase", register: "colloquial" }
+- { pl: "panie profesorze", kind: "skip" }
+- { pl: "przejść do historii", kind: "phrase" }
+- { pl: "pada deszcz", kind: "phrase" }
+- { pl: "coś fajnego", kind: "skip" }
+- { pl: "mieć okres", kind: "phrase", ru: "(у неё) месячные" }
+- { pl: "w dobrym nastroju", kind: "skip" }
+- { pl: "tajna misja", kind: "skip" }
+- { pl: "załamać się", kind: "skip" }
+- { pl: "zamiast mnie", kind: "skip" }
+- { pl: "gra słów", kind: "skip" }
+- { pl: "postąpić słusznie", kind: "skip" }
+- { pl: "pełen niespodzianek", kind: "skip" }
+- { pl: "zakaz wstępu", kind: "phrase" }
+- { pl: "od dzieciństwa", kind: "skip" }
+- { pl: "napić się wody", kind: "skip" }
+- { pl: "oficer policji", kind: "skip" }
+- { pl: "robić sceny", kind: "phrase" }
+- { pl: "sekretarz stanu", kind: "skip" }
+- { pl: "zapewnić bezpieczeństwo", kind: "skip" }
+- { pl: "dom wariatów", kind: "idiom", register: "colloquial" }
+- { pl: "dziadkowie", kind: "skip" }
+- { pl: "szkoła podstawowa", kind: "skip" }
+- { pl: "w ubraniu", kind: "skip" }
+- { pl: "nie inaczej", kind: "phrase" }
+- { pl: "nie mogę sobie przypomnieć", kind: "skip" }
+- { pl: "być na dobrej drodze", kind: "idiom" }
+- { pl: "nie dawać rady", kind: "phrase" }
+- { pl: "ochrona środowiska", kind: "skip" }
+- { pl: "rosnąć w siłę", kind: "phrase" }
+- { pl: "robić sobie jaja", kind: "idiom", register: "colloquial" }
+- { pl: "jaki taki", kind: "phrase", register: "colloquial" }
+- { pl: "bez pożegnania", kind: "skip" }
+- { pl: "w odpowiednim czasie", kind: "skip" }
+- { pl: "przychodzi mi do głowy", kind: "phrase" }
+- { pl: "dowód tożsamości", kind: "skip" }
+- { pl: "najnowszy model", kind: "skip" }
+- { pl: "znacznie większy", kind: "skip" }
+- { pl: "lada moment", kind: "skip" }
+- { pl: "pod kluczem", kind: "phrase" }
+- { pl: "bez wyjątku", kind: "skip" }
+- { pl: "charakter pisma", kind: "phrase" }
+- { pl: "nigdzie indziej", kind: "skip" }
+- { pl: "na każdym kroku", kind: "phrase" }
+- { pl: "wymagać czasu", kind: "skip" }
+- { pl: "do usłyszenia", kind: "phrase" }
+- { pl: "tamten świat", kind: "phrase" }
+- { pl: "lepiej się pospieszmy", kind: "skip" }
+- { pl: "wstyd mi", kind: "phrase" }
+- { pl: "ponieść konsekwencje", kind: "skip" }
+- { pl: "jechać na lotnisko", kind: "skip" }
+- { pl: "pod obserwacją", kind: "skip" }
+- { pl: "Chryste Panie!", kind: "phrase", register: "colloquial" }
+- { pl: "być politykiem", kind: "skip" }
+- { pl: "w lipcu", kind: "skip" }
+- { pl: "mów głośniej", kind: "skip" }
+- { pl: "nic się nie wydarzyło", kind: "skip" }
+- { pl: "w maju", kind: "skip" }
+- { pl: "po lekcjach", kind: "skip" }
+- { pl: "Bezpiecznej podróży!", kind: "phrase", fix: "bezpiecznej podróży!" }
+- { pl: "dowiedzieć się prawdy", kind: "skip" }
+- { pl: "nowe technologie", kind: "skip" }
+- { pl: "zarobić pieniądze", kind: "skip" }
+- { pl: "dotrzymać obietnicy", kind: "phrase" }
+- { pl: "osiągnąć cel", kind: "skip" }
+- { pl: "Witaj w klubie!", kind: "phrase", register: "colloquial", fix: "witaj w klubie!" }
+- { pl: "kierowca ciężarówki", kind: "skip" }
+- { pl: "z okazji urodzin", kind: "phrase" }
+- { pl: "utrzymywać kontakt", kind: "skip" }
+- { pl: "akt urodzenia", kind: "skip" }
+- { pl: "list miłosny", kind: "skip" }
+- { pl: "guz mózgu", kind: "skip" }
+- { pl: "słuchać muzyki", kind: "skip" }
+- { pl: "dom dziecka", kind: "skip" }
+- { pl: "po chińsku", kind: "skip" }
+- { pl: "mieć układy", kind: "phrase", register: "colloquial" }
+- { pl: "cudowne dziecko", kind: "skip" }
+- { pl: "jak wariat", kind: "skip" }
+- { pl: "bez ostrzeżenia", kind: "skip" }
+- { pl: "ostatnie ostrzeżenie", kind: "skip" }
+- { pl: "w zasięgu wzroku", kind: "skip" }
+- { pl: "dwa razy dziennie", kind: "skip" }
+- { pl: "dostać awans", kind: "skip" }
+- { pl: "na pół etatu", kind: "phrase" }
+- { pl: "postradać zmysły", kind: "idiom", register: "bookish" }
+- { pl: "coś knuje", kind: "skip" }
+- { pl: "tuż za rogiem", kind: "skip" }
+- { pl: "zatem co?", kind: "skip" }
+- { pl: "gorąca czekolada", kind: "skip" }
+- { pl: "trzymać język za zębami", kind: "idiom" }
+- { pl: "Chwała Bogu", kind: "phrase", fix: "chwała Bogu" }
+- { pl: "brudne pieniądze", kind: "skip" }
+- { pl: "wysadzić w powietrze", kind: "phrase" }
+- { pl: "po trochu", kind: "phrase" }
+- { pl: "oko za oko", kind: "proverb" }
+- { pl: "stały klient", kind: "skip" }
+- { pl: "choćby nie wiem co", kind: "phrase", register: "colloquial" }
+- { pl: "wyrazić zgodę", kind: "skip" }
+- { pl: "zostawiać ślady", kind: "skip" }
+- { pl: "jak długo to potrwa", kind: "skip" }
+- { pl: "coś mocniejszego", kind: "skip" }
+- { pl: "akt zgonu", kind: "skip" }
+- { pl: "skrzynka pocztowa", kind: "skip" }
+- { pl: "ulubiona piosenka", kind: "skip" }
+- { pl: "iść na randkę", kind: "skip" }
+- { pl: "o mały włos", kind: "idiom" }
+- { pl: "życz mi szczęścia", kind: "phrase" }
+- { pl: "członek gangu", kind: "skip" }
+- { pl: "poświęcić życie", kind: "skip" }
+- { pl: "gaz do dechy", kind: "idiom", register: "colloquial", ru: "газ в пол" }
+- { pl: "dziwnie się czuję", kind: "skip" }
+- { pl: "konflikt interesów", kind: "skip" }
+- { pl: "poderżnąć gardło", kind: "skip" }
+- { pl: "sprawdzić się", kind: "phrase", ru: "оправдать себя, оказаться удачным; сбыться" }
+- { pl: "przed czasem", kind: "skip" }
+- { pl: "na śmierć i życie", kind: "idiom" }
+- { pl: "od ręki", kind: "idiom", register: "colloquial", ru: "сразу, тут же, не сходя с места" }
+- { pl: "jeść śniadanie", kind: "skip" }
+- { pl: "stracić głowę", kind: "idiom" }
+- { pl: "urząd skarbowy", kind: "skip" }
+- { pl: "wykrywacz kłamstw", kind: "skip" }
+- { pl: "pokryć koszty", kind: "skip" }
+- { pl: "na pierwszy rzut oka", kind: "idiom" }
+- { pl: "poniżej pasa", kind: "idiom" }
+- { pl: "byle kto", kind: "phrase" }
+- { pl: "nie oszukujmy się", kind: "phrase" }
+- { pl: "pomocna dłoń", kind: "idiom" }
+- { pl: "strój kąpielowy", kind: "skip" }
+- { pl: "mówić po hiszpańsku", kind: "skip" }
+- { pl: "mieć klasę", kind: "phrase", ru: "быть на высоте, держаться достойно" }
+- { pl: "dostać zawału", kind: "phrase", register: "colloquial", ru: "получить инфаркт; (разг.) чуть не умереть от испуга" }
+- { pl: "bez dowodów", kind: "skip" }
+- { pl: "Jego Królewska Mość", kind: "phrase" }
+- { pl: "prędkość światła", kind: "skip" }
+- { pl: "trzeba przyznać", kind: "phrase" }
+- { pl: "bądź rozsądny", kind: "skip" }
+- { pl: "coś zabawnego", kind: "skip" }
+- { pl: "tłumaczyć się", kind: "phrase" }
+- { pl: "ukryta kamera", kind: "skip" }
+- { pl: "pociągać za sznurki", kind: "idiom" }
+- { pl: "delikatna sprawa", kind: "phrase" }
+- { pl: "czynić cuda", kind: "idiom" }
+- { pl: "randka w ciemno", kind: "phrase" }
+- { pl: "klub nocny", kind: "skip" }
+- { pl: "zachowuj się normalnie", kind: "skip" }
+- { pl: "chociaż trochę", kind: "skip" }
+- { pl: "zadbać o siebie", kind: "skip" }
+- { pl: "w sukience", kind: "skip" }
+- { pl: "dać słowo", kind: "phrase" }
+- { pl: "na wiosnę", kind: "phrase" }
+- { pl: "ślepa uliczka", kind: "idiom" }
+- { pl: "prać pieniądze", kind: "idiom" }
+- { pl: "pranie pieniędzy", kind: "idiom" }
+- { pl: "owoce morza", kind: "phrase" }
+- { pl: "po ludzku", kind: "phrase" }
+- { pl: "ciągle jeszcze", kind: "skip" }
+- { pl: "zadzwonić po karetkę", kind: "phrase" }
+- { pl: "pogorszyć sprawę", kind: "skip" }
+- { pl: "zgłosić zaginięcie", kind: "phrase" }
+- { pl: "pół tuzina", kind: "skip" }
+- { pl: "przednia szyba", kind: "skip" }
+- { pl: "krok naprzód", kind: "skip" }
+- { pl: "czarna lista", kind: "skip" }
+- { pl: "toczyć wojnę", kind: "phrase" }
+- { pl: "oferta pracy", kind: "skip" }
+- { pl: "jechać do miasta", kind: "skip" }
+- { pl: "najgorszy koszmar", kind: "skip" }
+- { pl: "komórki macierzyste", kind: "skip" }
+- { pl: "co za bzdura", kind: "phrase", register: "colloquial" }
+- { pl: "ani kroku dalej", kind: "phrase" }
+- { pl: "być okej", kind: "skip", register: "colloquial" }
+- { pl: "nosić okulary", kind: "skip" }
+- { pl: "to może poczekać", kind: "phrase" }
+- { pl: "mieć na uwadze", kind: "phrase" }
+- { pl: "zmienić plany", kind: "skip" }
+- { pl: "ale fajnie!", kind: "phrase", register: "colloquial" }
+- { pl: "do babci", kind: "skip" }
+- { pl: "dookoła świata", kind: "skip" }
+- { pl: "cieszyć się życiem", kind: "phrase" }
+- { pl: "sesja zdjęciowa", kind: "skip" }
+- { pl: "nie opuszczaj mnie", kind: "skip" }
+- { pl: "z innej planety", kind: "idiom", register: "colloquial" }
+- { pl: "być w drużynie", kind: "skip" }
+- { pl: "o której godzinie", kind: "phrase" }
+- { pl: "paść ofiarą", kind: "phrase" }
+- { pl: "źródło informacji", kind: "skip" }
+- { pl: "przerwa na lunch", kind: "skip" }
+- { pl: "na nieszczęście", kind: "phrase" }
+- { pl: "w połączeniu z", kind: "phrase" }
+- { pl: "z zamkniętymi oczami", kind: "idiom" }
+- { pl: "nie wiadomo jaki", kind: "phrase" }
+- { pl: "sprawić sobie", kind: "phrase" }
+- { pl: "królik doświadczalny", kind: "idiom" }
+- { pl: "dysk twardy", kind: "skip" }
+- { pl: "nadeszła pora", kind: "phrase", register: "bookish" }
+- { pl: "wyrazić się jasno", kind: "phrase" }
+- { pl: "nie do pomyślenia", kind: "phrase" }
+- { pl: "areszt domowy", kind: "skip" }
+- { pl: "kłaść się spać", kind: "phrase" }
+- { pl: "martwy punkt", kind: "idiom", ru: "мёртвая точка; тупик" }
+- { pl: "szalony pomysł", kind: "skip" }
+- { pl: "na krzyż", kind: "phrase" }
+- { pl: "zwolnić tempo", kind: "phrase" }
+- { pl: "mamusia i tatuś", kind: "skip" }
+- { pl: "przyjść na świat", kind: "idiom" }
+- { pl: "iść na zakupy", kind: "phrase" }
+- { pl: "opieka zdrowotna", kind: "skip" }
+- { pl: "cała flota", kind: "idiom", register: "colloquial" }
+- { pl: "zaledwie kilka", kind: "skip" }
+- { pl: "badać sprawę", kind: "skip" }
+- { pl: "molestowanie seksualne", kind: "skip" }
+- { pl: "opuścić ręce", kind: "idiom" }
+- { pl: "podać rękę", kind: "phrase" }
+- { pl: "fajny facet", kind: "skip", register: "colloquial" }
+- { pl: "wymykać się spod kontroli", kind: "phrase" }
+- { pl: "iść w parze", kind: "idiom" }
+- { pl: "kolega z pracy", kind: "phrase" }
+- { pl: "iść na całość", kind: "idiom", register: "colloquial" }
+- { pl: "w centrum uwagi", kind: "phrase" }
+- { pl: "sklep spożywczy", kind: "skip" }
+- { pl: "oddać strzał", kind: "phrase" }
+- { pl: "wracać do zdrowia", kind: "phrase" }
+- { pl: "został uratowany", kind: "skip" }
+- { pl: "na świeżym powietrzu", kind: "phrase" }
+- { pl: "chłopiec na posyłki", kind: "idiom" }
+- { pl: "zawrzeć pokój", kind: "phrase" }
+- { pl: "radź sobie sam", kind: "phrase" }
+- { pl: "tylko i wyłącznie", kind: "phrase" }
+- { pl: "okręt wojenny", kind: "skip" }
+- { pl: "dobry uczeń", kind: "skip" }
+- { pl: "iść na bal", kind: "skip" }
+- { pl: "okręt podwodny", kind: "skip" }
+- { pl: "no przecież", kind: "phrase", register: "colloquial" }
+- { pl: "program telewizyjny", kind: "skip" }
+- { pl: "telefon dzwoni", kind: "skip" }
+- { pl: "co to za facet?", kind: "skip", register: "colloquial" }
+- { pl: "nie ma prądu", kind: "phrase" }
+- { pl: "mało kto", kind: "phrase" }
+- { pl: "w żadnym razie", kind: "phrase" }
+- { pl: "złożyć wniosek", kind: "phrase" }
+- { pl: "na pełen etat", kind: "phrase" }
+- { pl: "i słusznie", kind: "phrase" }
+- { pl: "duża suma", kind: "skip" }
+- { pl: "pewnego ranka", kind: "phrase" }
+- { pl: "mieć się na baczności", kind: "phrase" }
+- { pl: "związek zawodowy", kind: "skip", ru: "профсоюз" }
+- { pl: "o ile pamiętam", kind: "phrase" }
+- { pl: "czyste sumienie", kind: "phrase" }
+- { pl: "nie podlega dyskusji", kind: "phrase" }
+- { pl: "we wrześniu", kind: "skip" }
+- { pl: "mieć potencjał", kind: "skip" }
+- { pl: "ukochana osoba", kind: "skip" }
+- { pl: "broń Boże", kind: "phrase" }
+- { pl: "robić różnicę", kind: "phrase" }
+- { pl: "pasuje idealnie", kind: "skip" }
+- { pl: "w Polsce", kind: "skip" }
+- { pl: "czarny charakter", kind: "idiom" }
+- { pl: "obowiązki wzywają", kind: "phrase" }
+- { pl: "Niech żyje król!", kind: "phrase", fix: "niech żyje król!" }
+- { pl: "okres próbny", kind: "skip" }
+- { pl: "po wsze czasy", kind: "phrase", register: "bookish" }
+- { pl: "wykonywać pracę", kind: "skip" }
+- { pl: "ostatnia wola", kind: "phrase" }
+- { pl: "jedyny raz", kind: "skip" }
+- { pl: "pod maską", kind: "skip" }
+- { pl: "zmieniać zdanie", kind: "phrase", ru: "передумать, менять мнение" }
+- { pl: "w dobrej wierze", kind: "phrase" }
+- { pl: "tętnica szyjna", kind: "skip", ru: "сонная артерия" }
+- { pl: "odkąd to?", kind: "phrase" }
+- { pl: "wszystko idzie zgodnie z planem", kind: "phrase" }
+- { pl: "suma pieniędzy", kind: "skip" }
+- { pl: "w sprzedaży", kind: "skip" }
+- { pl: "lęk wysokości", kind: "phrase" }
+- { pl: "wciąż jeszcze", kind: "skip" }
+- { pl: "na dłuższą metę", kind: "phrase" }
+- { pl: "okulary przeciwsłoneczne", kind: "skip" }
+- { pl: "odciąć zasilanie", kind: "skip" }
+- { pl: "pod każdym względem", kind: "phrase" }
+- { pl: "przejść obok", kind: "skip" }
+- { pl: "Grudzień 1970", kind: "skip" }
+- { pl: "w jakikolwiek sposób", kind: "skip" }
+- { pl: "wysokie ciśnienie", kind: "skip" }
+- { pl: "maszyna do pisania", kind: "phrase" }
+- { pl: "ze szczegółami", kind: "phrase" }
+- { pl: "chcieć to móc", kind: "proverb" }
+- { pl: "słuszna sprawa", kind: "phrase" }
+- { pl: "szafa grająca", kind: "phrase" }
+- { pl: "wpaść na pomysł", kind: "phrase", ru: "придумать, додуматься" }
+- { pl: "To dobre pytanie", kind: "phrase", fix: "to dobre pytanie" }
+- { pl: "w praktyce", kind: "skip" }
+- { pl: "bądź spokojny", kind: "skip" }
+- { pl: "tracić głowę", kind: "idiom" }
+- { pl: "wypisać czek", kind: "skip" }
+- { pl: "z automatu", kind: "phrase", register: "colloquial" }
+- { pl: "odkąd pamiętam", kind: "phrase" }
+- { pl: "amerykański sen", kind: "phrase" }
+- { pl: "bać się ciemności", kind: "skip" }
+- { pl: "przynosić szczęście", kind: "phrase" }
+- { pl: "niewiele brakowało", kind: "phrase", ru: "чуть не…; ещё немного — и…" }
+- { pl: "człowiek honoru", kind: "phrase" }
+- { pl: "przejąć dowodzenie", kind: "skip" }
+- { pl: "pod ochroną", kind: "skip" }
+- { pl: "być w dobrej formie", kind: "phrase" }
+- { pl: "wyjść na wolność", kind: "phrase" }
+- { pl: "niewielu ludzi", kind: "skip" }
+- { pl: "można mu ufać", kind: "skip" }
+- { pl: "włączyć światło", kind: "skip" }
+- { pl: "zabawna historia", kind: "skip" }
+- { pl: "odrabiać lekcje", kind: "phrase" }
+- { pl: "nie ma się czym przejmować", kind: "phrase" }
+- { pl: "katastrofa lotnicza", kind: "skip" }
+- { pl: "rak piersi", kind: "skip" }
+- { pl: "na kilometr", kind: "idiom", register: "colloquial", ru: "за версту (видно, чувствуется)" }
+- { pl: "myśleć pozytywnie", kind: "skip" }
+- { pl: "odnaleźć się", kind: "phrase", ru: "найтись; освоиться (на новом месте)" }
+- { pl: "stara sztuczka", kind: "skip" }
+- { pl: "po japońsku", kind: "skip" }
+- { pl: "funkcjonariusz policji", kind: "skip" }
+- { pl: "wzywać pomocy", kind: "phrase" }
+- { pl: "to logiczne", kind: "skip" }
+- { pl: "niedługo po", kind: "skip" }
+- { pl: "zostać umieszczonym", kind: "skip" }
+- { pl: "w ostateczności", kind: "phrase" }
+- { pl: "w ubiegłym roku", kind: "phrase" }
+- { pl: "spadająca gwiazda", kind: "skip" }
+- { pl: "kapitan drużyny", kind: "skip" }
+- { pl: "wolny czas", kind: "skip" }
+- { pl: "skrzynia biegów", kind: "skip" }
+- { pl: "wyglądać na zadowolonego", kind: "skip" }
+- { pl: "matka chrzestna", kind: "skip" }
+- { pl: "dawać z siebie wszystko", kind: "phrase" }
+- { pl: "dowód osobisty", kind: "phrase" }
+- { pl: "stan wyjątkowy", kind: "skip" }
+- { pl: "brak odpowiedzi", kind: "skip" }
+- { pl: "magiczna sztuczka", kind: "skip" }
+- { pl: "złożyć broń", kind: "idiom" }
+- { pl: "osoba zaginiona", kind: "skip" }
+- { pl: "panie sekretarzu", kind: "skip" }
+- { pl: "iść do kina", kind: "skip" }
+- { pl: "kawałek ciasta", kind: "skip" }
+- { pl: "skończyć studia", kind: "phrase" }
+- { pl: "co się stało, to się nie odstanie", kind: "proverb", ru: "что сделано, того не воротишь" }
+- { pl: "rozwiązać zagadkę", kind: "skip" }
+- { pl: "zapalić światło", kind: "phrase" }
+- { pl: "co tu jest napisane?", kind: "skip" }
+- { pl: "paść na kolana", kind: "phrase" }
+- { pl: "dojść do wniosku", kind: "phrase" }
+- { pl: "gość honorowy", kind: "skip" }
+- { pl: "zastawić pułapkę", kind: "phrase" }
+- { pl: "połamania nóg!", kind: "idiom" }
+- { pl: "kopia zapasowa", kind: "skip" }
+- { pl: "powiadomić policję", kind: "skip" }
+- { pl: "sztuczne ognie", kind: "phrase" }
+- { pl: "ty głupcze!", kind: "skip", register: "colloquial" }
+- { pl: "nakaz rewizji", kind: "skip" }
+- { pl: "znowu się zaczyna", kind: "phrase", register: "colloquial" }
+- { pl: "czy tego chcesz, czy nie", kind: "phrase" }
+- { pl: "agent nieruchomości", kind: "skip" }
+- { pl: "Jezus Maria!", kind: "phrase", register: "colloquial" }
+- { pl: "zdążyć na czas", kind: "skip" }
+- { pl: "we właściwym czasie", kind: "phrase" }
+- { pl: "nigdzie nie ma", kind: "skip" }
+- { pl: "nielegalny imigrant", kind: "skip" }
+- { pl: "zanim się obejrzysz", kind: "idiom" }
+- { pl: "zdrowie psychiczne", kind: "skip" }
+- { pl: "czyli że", kind: "phrase", register: "colloquial", ru: "то есть, значит" }
+- { pl: "przejrzeć na oczy", kind: "idiom" }
+- { pl: "lubić najbardziej", kind: "skip" }
+- { pl: "robić notatki", kind: "skip", ru: "делать записи, конспектировать" }
+- { pl: "bez szwanku", kind: "phrase" }
+- { pl: "być wujkiem", kind: "skip" }
+- { pl: "oddzwonię później", kind: "phrase" }
+- { pl: "złota rączka", kind: "idiom" }
+- { pl: "rzucić palenie", kind: "phrase" }
+- { pl: "panie przodem", kind: "phrase" }
+- { pl: "przeprowadzić badanie", kind: "skip" }
+- { pl: "żyła złota", kind: "idiom" }
+- { pl: "otworzyć wrota", kind: "skip" }
+- { pl: "być na urlopie", kind: "skip" }
+- { pl: "we wnętrzu", kind: "skip" }
+- { pl: "zawieszenie broni", kind: "phrase" }
+- { pl: "psie gówno", kind: "skip", register: "vulgar" }
+- { pl: "jak w zegarku", kind: "idiom" }
+- { pl: "trafić do szpitala", kind: "phrase" }
+- { pl: "przed południem", kind: "skip" }
+- { pl: "rozbić obóz", kind: "phrase" }
+- { pl: "element zaskoczenia", kind: "skip" }
+- { pl: "podjąć ryzyko", kind: "phrase" }
+- { pl: "Boże, chroń…", kind: "skip" }
+- { pl: "brak sygnału", kind: "skip" }
+- { pl: "osobiście uważam", kind: "skip" }
+- { pl: "problemy z oddychaniem", kind: "skip" }
+- { pl: "wydać wyrok", kind: "phrase" }
+- { pl: "wiek średni", kind: "skip", ru: "средний возраст" }
+- { pl: "karmić piersią", kind: "phrase" }
+- { pl: "przed rozpoczęciem", kind: "skip" }
+- { pl: "pod choinkę", kind: "phrase" }
+- { pl: "park narodowy", kind: "skip" }
+- { pl: "opowiedzieć historię", kind: "skip" }
+- { pl: "broń chemiczna", kind: "skip" }
+- { pl: "reakcja łańcuchowa", kind: "skip" }
+- { pl: "przestępczość zorganizowana", kind: "skip" }
+- { pl: "dla rozrywki", kind: "skip" }
+- { pl: "godzina szczytu", kind: "phrase" }
+- { pl: "skręcić kark", kind: "phrase", register: "colloquial" }
+- { pl: "przegrana sprawa", kind: "phrase" }
+- { pl: "podczas pracy", kind: "skip" }
+- { pl: "bo jak nie...", kind: "phrase", register: "colloquial" }
+- { pl: "panie sierżancie", kind: "skip" }
+- { pl: "nie chcę o tym słyszeć", kind: "phrase" }
+- { pl: "krzesło elektryczne", kind: "skip" }
+- { pl: "damska toaleta", kind: "skip" }
+- { pl: "stara panna", kind: "idiom" }
+- { pl: "bez dyskusji", kind: "phrase" }
+- { pl: "jednym spojrzeniem", kind: "skip" }
+- { pl: "bez skutku", kind: "phrase" }
+- { pl: "wpaść w szał", kind: "phrase" }
+- { pl: "przez tunel", kind: "skip" }
+- { pl: "pod tytułem", kind: "phrase" }
+- { pl: "w efekcie", kind: "phrase" }
+- { pl: "kierowca autobusu", kind: "skip" }
+- { pl: "oczyścić z zarzutów", kind: "phrase" }
+- { pl: "wprost przeciwnie", kind: "phrase" }
+- { pl: "chłopcy i dziewczęta", kind: "skip" }
+- { pl: "jechać samochodem", kind: "skip" }
+- { pl: "ruszyć głową", kind: "idiom", register: "colloquial" }
+- { pl: "nie ma o czym rozmawiać", kind: "phrase" }
+- { pl: "o pogodzie", kind: "skip" }
+- { pl: "podejmować ryzyko", kind: "phrase" }
+- { pl: "ze wstydu", kind: "skip" }
+- { pl: "bez przyczyny", kind: "skip" }
+- { pl: "strzał w dziesiątkę", kind: "idiom" }
+- { pl: "Brak mi słów", kind: "phrase", fix: "brak mi słów" }
+- { pl: "spodziewać się dziecka", kind: "phrase" }
+- { pl: "teoria spiskowa", kind: "skip" }
+- { pl: "spora szansa", kind: "skip" }
+- { pl: "rodem z", kind: "phrase" }
+- { pl: "usiłowanie zabójstwa", kind: "skip" }
+- { pl: "data urodzenia", kind: "skip" }
+- { pl: "miłość od pierwszego wejrzenia", kind: "phrase" }
+- { pl: "akt oskarżenia", kind: "skip" }
+- { pl: "miłego lotu", kind: "phrase" }
+- { pl: "od podstaw", kind: "phrase" }
+- { pl: "panie dyrektorze", kind: "skip" }
+- { pl: "taśma klejąca", kind: "skip" }
+- { pl: "święta prawda", kind: "phrase" }
+- { pl: "cholera wie", kind: "phrase", register: "colloquial" }
+- { pl: "czy rzeczywiście?", kind: "skip" }
+- { pl: "mieć znajomości", kind: "phrase" }
+- { pl: "modlić się do Boga", kind: "skip" }
+- { pl: "prawdę powiedziawszy", kind: "phrase" }
+- { pl: "pilnuj swojego nosa", kind: "idiom", register: "colloquial" }
+- { pl: "wysokie napięcie", kind: "skip" }
+- { pl: "papiery wartościowe", kind: "skip" }
+- { pl: "na spokojnie", kind: "phrase", register: "colloquial", ru: "спокойно, без спешки" }
+- { pl: "odczep się ode mnie!", kind: "phrase", register: "colloquial" }
+- { pl: "trudno o…", kind: "phrase" }
+- { pl: "zgodny z prawem", kind: "skip" }
+- { pl: "anioł śmierci", kind: "skip" }
+- { pl: "z zemsty", kind: "skip" }
+- { pl: "pobić rekord", kind: "skip" }
+- { pl: "przed budynkiem", kind: "skip" }
+- { pl: "Sąd Ostateczny", kind: "phrase" }
+- { pl: "wysyłać wiadomość", kind: "skip" }
+- { pl: "czarna owca", kind: "idiom" }
+- { pl: "przecież mówiłem", kind: "phrase" }
+- { pl: "obrońca z urzędu", kind: "phrase" }
+- { pl: "nastąpiła zmiana", kind: "skip" }
+- { pl: "cała ekipa", kind: "skip" }
+- { pl: "kolejka górska", kind: "phrase" }
+- { pl: "Droga Mleczna", kind: "skip" }
+- { pl: "proszę powtórzyć", kind: "phrase" }
+- { pl: "reszty nie trzeba", kind: "phrase" }
+- { pl: "wystarczający powód", kind: "skip" }
+- { pl: "igrać z ogniem", kind: "idiom" }
+- { pl: "okazać szacunek", kind: "skip" }
+- { pl: "poduszka powietrzna", kind: "skip" }
+- { pl: "jechać pociągiem", kind: "skip" }
+- { pl: "w budowie", kind: "skip" }
+- { pl: "gotowość bojowa", kind: "skip" }
+- { pl: "miłych snów!", kind: "phrase" }
+- { pl: "bez litości", kind: "skip" }
+- { pl: "zatrzymać krwawienie", kind: "skip" }
+- { pl: "biuro podróży", kind: "skip" }
+- { pl: "słowo honoru", kind: "phrase" }
+- { pl: "trzymać się kupy", kind: "idiom", register: "colloquial", ru: "быть логичным, сходиться (о рассказе); держаться вместе" }
+- { pl: "nie trać nadziei", kind: "phrase" }
+- { pl: "więzienie federalne", kind: "skip" }
+- { pl: "wyłączyć światło", kind: "skip" }
+- { pl: "na wyciągnięcie ręki", kind: "idiom" }
+- { pl: "posunąć się za daleko", kind: "phrase" }
+- { pl: "medycyna sądowa", kind: "skip" }
+- { pl: "walka wręcz", kind: "skip" }
+- { pl: "szczerze powiedziawszy", kind: "phrase" }
+- { pl: "osiągnąć sukces", kind: "skip" }
+- { pl: "rok szkolny", kind: "skip" }
+- { pl: "gaz łzawiący", kind: "skip" }
+- { pl: "nie najgorzej", kind: "phrase" }
+- { pl: "magiczne słowo", kind: "skip" }
+- { pl: "wezwać pogotowie", kind: "phrase" }
+- { pl: "wygląda podobnie", kind: "skip" }
+- { pl: "obecnie nie", kind: "skip" }
+- { pl: "rocznica ślubu", kind: "skip" }
+- { pl: "odchodzić od zmysłów", kind: "idiom" }
+- { pl: "Ziemia obiecana", kind: "idiom", fix: "ziemia obiecana" }
+- { pl: "na ślepo", kind: "phrase" }
+- { pl: "pod prąd", kind: "idiom" }
+- { pl: "choroba morska", kind: skip }
+- { pl: "działać na własną rękę", kind: idiom, ru: "действовать самостоятельно, на свой страх и риск" }
+- { pl: "Pismo Święte", kind: skip }
+- { pl: "konkurs piękności", kind: skip }
+- { pl: "nie jest rozwiązaniem", kind: phrase, ru: "(это) не выход" }
+- { pl: "młoda para", kind: phrase }
+- { pl: "ulubione danie", kind: skip }
+- { pl: "bez trudu", kind: skip }
+- { pl: "mroczna strona", kind: skip }
+- { pl: "po połowie", kind: phrase, ru: "пополам, поровну" }
+- { pl: "test krwi", kind: skip }
+- { pl: "o ile mi wiadomo", kind: phrase }
+- { pl: "oddać głos", kind: phrase, ru: "отдать голос (за кого-л.); предоставить слово" }
+- { pl: "nigdy nie odnaleziono", kind: skip }
+- { pl: "niezliczona ilość", kind: skip }
+- { pl: "podpisać dokument", kind: skip }
+- { pl: "dobrze wychowany", kind: skip }
+- { pl: "ironia losu", kind: idiom }
+- { pl: "trafić za kratki", kind: idiom }
+- { pl: "Ameryka Północna", kind: skip }
+- { pl: "zasłona dymna", kind: idiom }
+- { pl: "klasa średnia", kind: skip }
+- { pl: "na sto procent", kind: phrase }
+- { pl: "jak długo to trwa?", kind: skip }
+- { pl: "najlepsze życzenia", kind: phrase }
+- { pl: "zająć się sobą", kind: skip }
+- { pl: "co za dupek", kind: phrase, register: vulgar }
+- { pl: "nieszczęśliwy wypadek", kind: skip }
+- { pl: "pięć dolarów", kind: skip }
+- { pl: "zamówić pizzę", kind: skip }
+- { pl: "z otwartymi ramionami", kind: idiom }
+- { pl: "dotrzeć do celu", kind: skip }
+- { pl: "święty spokój", kind: idiom, ru: "покой (чтобы никто не трогал)" }
+- { pl: "nic nam nie grozi", kind: skip }
+- { pl: "nie jestem fanem", kind: skip }
+- { pl: "wisieć w powietrzu", kind: idiom }
+- { pl: "bądź…, bądź…", kind: skip }
+- { pl: "grać w kosza", kind: phrase, register: colloquial }
+- { pl: "jeździć na rowerze", kind: skip }
+- { pl: "śpiewać piosenkę", kind: skip }
+- { pl: "bracia bliźniacy", kind: skip }
+- { pl: "czas płynie", kind: skip }
+- { pl: "nieproszony gość", kind: skip }
+- { pl: "skorzystać z okazji", kind: phrase }
+- { pl: "być na poziomie", kind: phrase, ru: "быть на уровне (высокого качества)" }
+- { pl: "być na podsłuchu", kind: skip }
+- { pl: "dopóki żyję", kind: skip }
+- { pl: "na pierwszej linii", kind: phrase }
+- { pl: "ujść na sucho", kind: idiom }
+- { pl: "ustawić się w kolejkę", kind: skip }
+- { pl: "nikt nie ucierpiał", kind: skip }
+- { pl: "najbliższa rodzina", kind: skip }
+- { pl: "ale jaja!", kind: idiom, register: colloquial }
+- { pl: "urwanie głowy", kind: idiom, register: colloquial }
+- { pl: "zapaść w śpiączkę", kind: skip }
+- { pl: "Szanowni Państwo", kind: phrase, ru: "дамы и господа; уважаемые (обращение)" }
+- { pl: "czarna godzina", kind: idiom }
+- { pl: "płacić gotówką", kind: skip }
+- { pl: "silna wola", kind: skip }
+- { pl: "znów to samo", kind: phrase }
+- { pl: "w stu procentach", kind: phrase }
+- { pl: "proszę tu podpisać", kind: phrase }
+- { pl: "wezwać posiłki", kind: phrase }
+- { pl: "a jakże!", kind: phrase, register: colloquial }
+- { pl: "system zabezpieczenia", kind: skip }
+- { pl: "kura domowa", kind: idiom, register: colloquial, ru: "клуша, домохозяйка (пренебр.)" }
+- { pl: "błagać o litość", kind: skip }
+- { pl: "postarać się bardziej", kind: skip }
+- { pl: "wizyta u lekarza", kind: skip }
+- { pl: "wszystkiego najlepszego z okazji urodzin!", kind: phrase }
+- { pl: "wezwanie do sądu", kind: skip }
+- { pl: "aż nadto", kind: phrase }
+- { pl: "na lewą stronę", kind: phrase }
+- { pl: "nad życie", kind: phrase }
+- { pl: "zwłaszcza teraz", kind: skip }
+- { pl: "sprzedać się", kind: skip, ru: "продаться; распродаться" }
+- { pl: "gra komputerowa", kind: skip }
+- { pl: "uruchomić silnik", kind: skip }
+- { pl: "niczego nie żałować", kind: skip }
+- { pl: "spróbować szczęścia", kind: phrase }
+- { pl: "wersja wydarzeń", kind: skip }
+- { pl: "stan wojenny", kind: skip }
+- { pl: "do przemyślenia", kind: skip }
+- { pl: "pod drzewem", kind: skip }
+- { pl: "nieść ze sobą", kind: phrase }
+- { pl: "w lutym", kind: skip }
+- { pl: "kraina czarów", kind: skip }
+- { pl: "po pijanemu", kind: phrase }
+- { pl: "wszystko okej", kind: phrase, register: colloquial }
+- { pl: "z powodzeniem", kind: phrase }
+- { pl: "pod jednym dachem", kind: phrase }
+- { pl: "wytłumaczyć się", kind: skip }
+- { pl: "jechać autobusem", kind: skip }
+- { pl: "przynajmniej spróbuj", kind: skip }
+- { pl: "tworzyć historię", kind: skip }
+- { pl: "struny głosowe", kind: skip }
+- { pl: "paść trupem", kind: idiom }
+- { pl: "wzdłuż rzeki", kind: skip }
+- { pl: "nie marudź!", kind: phrase, register: colloquial }
+- { pl: "decyzja należy do ciebie", kind: phrase }
+- { pl: "napisać artykuł", kind: skip }
+- { pl: "wszystko wskazuje na to", kind: phrase }
+- { pl: "zostawać w domu", kind: skip }
+- { pl: "dar od Boga", kind: skip }
+- { pl: "jazda na rowerze", kind: skip }
+- { pl: "zwrot akcji", kind: phrase }
+- { pl: "doskonały pomysł", kind: skip }
+- { pl: "znaleźć zwłoki", kind: skip }
+- { pl: "jak po maśle", kind: idiom }
+- { pl: "włączyć radio", kind: skip }
+- { pl: "zdenerwować się", kind: skip }
+- { pl: "nie ma powrotu", kind: phrase }
+- { pl: "w liczbie", kind: skip }
+- { pl: "czekać na odpowiedź", kind: skip }
+- { pl: "niż zazwyczaj", kind: skip }
+- { pl: "podnosić głos", kind: skip }
+- { pl: "podjąć działania", kind: phrase }
+- { pl: "liczba mnoga", kind: skip }
+- { pl: "wprawdzie… ale", kind: skip }
+- { pl: "wyjście awaryjne", kind: skip }
+- { pl: "to wykluczone", kind: phrase }
+- { pl: "do łez", kind: phrase }
+- { pl: "rób co zechcesz", kind: skip }
+- { pl: "ku pamięci", kind: phrase, register: bookish }
+- { pl: "piętro wyżej", kind: phrase }
+- { pl: "być poetą", kind: skip }
+- { pl: "nadchodzi burza", kind: skip }
+- { pl: "zrobić tomografię", kind: skip }
+- { pl: "zdrada stanu", kind: skip }
+- { pl: "członek klubu", kind: skip }
+- { pl: "wyjść za kaucją", kind: phrase }
+- { pl: "pójść na całość", kind: idiom, register: colloquial }
+- { pl: "moja mamusia", kind: skip }
+- { pl: "wystraszyć się", kind: skip }
+- { pl: "przeprowadzić wywiad", kind: phrase }
+- { pl: "odwieźć do domu", kind: skip }
+- { pl: "raport koronera", kind: skip }
+- { pl: "mała wioska", kind: skip }
+- { pl: "strefa czasowa", kind: skip }
+- { pl: "tęsknić za domem", kind: skip }
+- { pl: "przyznawać się do winy", kind: phrase }
+- { pl: "światowa sława", kind: skip }
+- { pl: "światowej sławy", kind: phrase, ru: "с мировым именем, всемирно известный" }
+- { pl: "o Chryste!", kind: phrase, register: colloquial, ru: "о Господи!, Боже мой!" }
+- { pl: "zyskać na czasie", kind: phrase }
+- { pl: "po brzegi", kind: phrase }
+- { pl: "obsługa klienta", kind: skip }
+- { pl: "zniknąć bez śladu", kind: skip }
+- { pl: "siedzieć na tyłku", kind: idiom, register: colloquial, ru: "сидеть сложа руки, протирать штаны" }
+- { pl: "system operacyjny", kind: skip }
+- { pl: "coraz częściej", kind: phrase }
+- { pl: "deska ratunku", kind: idiom }
+- { pl: "napisać raport", kind: skip }
+- { pl: "przy kominku", kind: skip }
+- { pl: "jak gdyby nigdy nic", kind: idiom }
+- { pl: "potrzebuję prawnika", kind: skip }
+- { pl: "wart zachodu", kind: phrase }
+- { pl: "z zawodu", kind: phrase }
+- { pl: "po przybyciu", kind: skip }
+- { pl: "nic podejrzanego", kind: skip }
+- { pl: "bez zastanowienia", kind: phrase }
+- { pl: "najlepszy zawodnik", kind: skip }
+- { pl: "ze złości", kind: skip }
+- { pl: "kontrolować sytuację", kind: skip }
+- { pl: "nie kombinuj", kind: phrase, register: colloquial }
+- { pl: "mieć gadane", kind: idiom, register: colloquial, ru: "иметь подвешенный язык" }
+- { pl: "zastrzelić się", kind: skip }
+- { pl: "jeździć konno", kind: phrase }
+- { pl: "wszystko wskazuje na to, że", kind: phrase }
+- { pl: "do szpiku kości", kind: idiom }
+- { pl: "kryzys wieku średniego", kind: skip }
+- { pl: "bomba atomowa", kind: skip }
+- { pl: "kartka papieru", kind: skip }
+- { pl: "myśleć trzeźwo", kind: skip }
+- { pl: "czarna kawa", kind: skip }
+- { pl: "za jednym zamachem", kind: idiom }
+- { pl: "bardzo ostrożnie", kind: skip }
+- { pl: "na pokładzie statku", kind: skip }
+- { pl: "zapominać się", kind: skip }
+- { pl: "kupa pieniędzy", kind: phrase, register: colloquial }
+- { pl: "niczego nie podejrzewa", kind: skip }
+- { pl: "nie przeczę", kind: phrase }
+- { pl: "wznosić toast", kind: phrase }
+- { pl: "jeniec wojenny", kind: skip }
+- { pl: "wybrać numer", kind: phrase }
+- { pl: "prawdopodobnie tak", kind: skip }
+- { pl: "wykonywać polecenia", kind: skip }
+- { pl: "firma ochroniarska", kind: skip }
+- { pl: "szczera prawda", kind: phrase }
+- { pl: "dziki zwierz", kind: skip }
+- { pl: "iść do kościoła", kind: skip }
+- { pl: "być Rosjaninem", kind: skip }
+- { pl: "odcisk stopy", kind: skip }
+- { pl: "odwrócić wzrok", kind: skip }
+- { pl: "po omacku", kind: phrase }
+- { pl: "wdać się w bójkę", kind: phrase }
+- { pl: "za nic w świecie", kind: phrase }
+- { pl: "bezludna wyspa", kind: skip }
+- { pl: "dostać list", kind: skip, ru: "получить письмо" }
+- { pl: "szósty zmysł", kind: idiom }
+- { pl: "przyjąć ofertę", kind: skip }
+- { pl: "robi mi się niedobrze", kind: phrase }
+- { pl: "kochany tato", kind: skip }
+- { pl: "pakować się w kłopoty", kind: idiom, register: colloquial }
+- { pl: "zapierać dech w piersiach", kind: idiom }
+- { pl: "wstać z łóżka", kind: skip }
+- { pl: "nigdy nie zgadniesz", kind: phrase }
+- { pl: "wszyscy kłamią", kind: skip }
+- { pl: "bliski krewny", kind: skip }
+- { pl: "ile wynosi?", kind: phrase }
+- { pl: "stawić opór", kind: phrase }
+- { pl: "żonaty mężczyzna", kind: skip }
+- { pl: "pochlebiać sobie", kind: skip }
+- { pl: "oparty na faktach", kind: skip }
+- { pl: "coś słodkiego", kind: skip }
+- { pl: "daj mi pomyśleć", kind: phrase }
+- { pl: "położyć się spać", kind: skip }
+- { pl: "złoty medal", kind: skip }
+- { pl: "co nas łączy", kind: skip }
+- { pl: "złapać mordercę", kind: skip }
+- { pl: "lepiej późno niż wcale", kind: proverb }
+- { pl: "metr kwadratowy", kind: skip }
+- { pl: "ropa naftowa", kind: skip }
+- { pl: "myć ręce", kind: skip }
+- { pl: "konto w banku", kind: skip }
+- { pl: "łatwo powiedzieć", kind: phrase }
+- { pl: "przy komputerze", kind: phrase }
+- { pl: "nie móc się oprzeć", kind: phrase }
+- { pl: "duży pokój", kind: phrase }
+- { pl: "mieć sprawy do załatwienia", kind: phrase }
+- { pl: "woda mineralna", kind: skip }
+- { pl: "samotny wilk", kind: idiom }
+- { pl: "Dzięki, kolego!", kind: skip }
+- { pl: "jutrzejszy dzień", kind: skip }
+- { pl: "dostać dożywocie", kind: skip }
+- { pl: "tak mi dopomóż Bóg", kind: phrase }
+- { pl: "królowa Anglii", kind: skip }
+- { pl: "złożyć podanie", kind: phrase }
+- { pl: "lecieć samolotem", kind: skip }
+- { pl: "nie ma za co przepraszać", kind: phrase }
+- { pl: "książę z bajki", kind: idiom }
+- { pl: "to denerwujące", kind: skip }
+- { pl: "zasady gry", kind: skip }
+- { pl: "służba zdrowia", kind: skip }
+- { pl: "zadzwonić do kogoś", kind: phrase }
+- { pl: "kręcić się w kółko", kind: idiom }
+- { pl: "patrzeć w przyszłość", kind: skip }
+- { pl: "przed lustrem", kind: skip }
+- { pl: "przystojny mężczyzna", kind: skip }
+- { pl: "dziwna sprawa", kind: skip }
+- { pl: "dojść do skutku", kind: phrase }
+- { pl: "krwawić z nosa", kind: skip }
+- { pl: "na niby", kind: phrase }
+- { pl: "w zwolnionym tempie", kind: phrase, ru: "в замедленной съёмке, замедленно" }
+- { pl: "kampania wyborcza", kind: skip }
+- { pl: "nagła śmierć", kind: skip }
+- { pl: "panie majorze", kind: skip }
+- { pl: "nadal trwa", kind: skip }
+- { pl: "palec wskazujący", kind: skip }
+- { pl: "pracować w firmie", kind: skip }
+- { pl: "ruch uliczny", kind: skip }
+- { pl: "gdziekolwiek chcesz", kind: skip }
+- { pl: "koszula nocna", kind: skip }
+- { pl: "robić karierę", kind: skip }
+- { pl: "czerwony dywan", kind: phrase }
+- { pl: "kapsuła czasu", kind: skip, ru: "капсула времени" }
+- { pl: "buzia na kłódkę", kind: idiom, register: colloquial }
+- { pl: "latarnia morska", kind: skip }
+- { pl: "przy kasie", kind: skip }
+- { pl: "odwołać spotkanie", kind: skip }
+- { pl: "pieprzyć głupoty", kind: idiom, register: vulgar }
+- { pl: "od momentu, gdy", kind: skip }
+- { pl: "puszka Pandory", kind: idiom }
+- { pl: "od stóp do głów", kind: idiom }
+- { pl: "traktować poważnie", kind: skip }
+- { pl: "jeszcze troszkę", kind: skip }
+- { pl: "całkowicie inny", kind: skip }
+- { pl: "kapitan statku", kind: skip }
+- { pl: "wynocha z mojego domu", kind: phrase, register: colloquial }
+- { pl: "podwójne życie", kind: skip }
+- { pl: "w każdym calu", kind: idiom, ru: "до кончиков ногтей, во всех отношениях" }
+- { pl: "wielkie halo", kind: idiom, register: colloquial }
+- { pl: "jechać do Paryża", kind: skip }
+- { pl: "oby tak dalej", kind: phrase }
+- { pl: "najnowsza wersja", kind: skip }
+- { pl: "Okrągły Stół", kind: skip }
+- { pl: "równie ważny", kind: skip }
+- { pl: "złożyć zamówienie", kind: phrase }
+- { pl: "przeprowadzić operację", kind: skip }
+- { pl: "zwykł mawiać", kind: phrase, register: bookish }
+- { pl: "dobre posunięcie", kind: skip }
+- { pl: "godny uwagi", kind: skip }
+- { pl: "kostium kąpielowy", kind: skip }
+- { pl: "na cele charytatywne", kind: skip }
+- { pl: "ma się rozumieć", kind: phrase }
+- { pl: "mieszane uczucia", kind: skip }
+- { pl: "chować urazę", kind: phrase }
+- { pl: "na szybko", kind: phrase, register: colloquial }
+- { pl: "coś za coś", kind: phrase, ru: "услуга за услугу, ничего даром" }
+- { pl: "domek letniskowy", kind: skip }
+- { pl: "robić zamieszanie", kind: skip }
+- { pl: "okłamano nas", kind: skip }
+- { pl: "plus minus", kind: phrase }
+- { pl: "wypić drinka", kind: skip }
+- { pl: "stacja radiowa", kind: skip }
+- { pl: "należało mu się", kind: phrase }
+- { pl: "polowanie na czarownice", kind: idiom }
+- { pl: "zaprosić na kolację", kind: skip }
+- { pl: "trzecie miejsce", kind: skip }
+- { pl: "będzie mi ciebie brakować", kind: phrase }
+- { pl: "świnka morska", kind: skip }
+- { pl: "ile wlezie", kind: phrase, register: colloquial }
+- { pl: "jeździć na nartach", kind: phrase }
+- { pl: "sprawiedliwości stało się zadość", kind: phrase, register: bookish }
+- { pl: "wrzuć na luz", kind: idiom, register: colloquial }
+- { pl: "zdolny do wszystkiego", kind: skip }
+- { pl: "grozi niebezpieczeństwo", kind: skip }
+- { pl: "piętro niżej", kind: phrase }
+- { pl: "podać adres", kind: skip }
+- { pl: "portret pamięciowy", kind: skip }
+- { pl: "chuj z tym", kind: phrase, register: vulgar }
+- { pl: "zabrać głos", kind: phrase }
+- { pl: "z przyczyn naturalnych", kind: skip }
+- { pl: "opanować sytuację", kind: skip }
+- { pl: "poczucie własnej wartości", kind: skip, ru: "самооценка, чувство собственной значимости" }
+- { pl: "stanąć w kolejce", kind: skip }
+- { pl: "bujna wyobraźnia", kind: skip }
+- { pl: "Królestwo Niebieskie", kind: skip }
+- { pl: "niezwykle ważny", kind: skip }
+- { pl: "latający spodek", kind: skip }
+- { pl: "wiadomość z ostatniej chwili", kind: skip }
+- { pl: "Daleki Wschód", kind: skip }
+- { pl: "w paski", kind: skip }
+- { pl: "instrukcja obsługi", kind: skip }
+- { pl: "coś tu śmierdzi", kind: idiom, register: colloquial }
+- { pl: "brać kąpiel", kind: skip }
+- { pl: "dobre zachowanie", kind: skip }
+- { pl: "syn i córka", kind: skip }
+- { pl: "ranny ptaszek", kind: idiom }
+- { pl: "inaczej mówiąc", kind: phrase }
+- { pl: "słuchać radia", kind: skip }
+- { pl: "mniejsze zło", kind: skip }
+- { pl: "osoba odpowiedzialna", kind: skip }
+- { pl: "ot tak sobie", kind: phrase, register: colloquial, ru: "просто так; так себе" }
+- { pl: "wymierzyć sprawiedliwość", kind: phrase }
+- { pl: "zmywać naczynia", kind: skip }
+- { pl: "nie byle jaki", kind: phrase }
+- { pl: "od początku do końca", kind: skip }
+- { pl: "stworzenie świata", kind: skip }
+- { pl: "nie mogę pojąć", kind: skip }
+- { pl: "opiekunka do dzieci", kind: skip }
+- { pl: "brak dostępu", kind: skip }
+- { pl: "idzie świetnie", kind: skip }
+- { pl: "ostatnia deska ratunku", kind: idiom }
+- { pl: "dyrektor szkoły", kind: skip }
+- { pl: "nie gra roli", kind: phrase }
+- { pl: "wrócić do zdrowia", kind: phrase }
+- { pl: "samiec alfa", kind: skip }
+- { pl: "usiądźmy na chwilę", kind: skip }
+- { pl: "godny przeciwnik", kind: skip }
+- { pl: "gołym okiem", kind: idiom }
+- { pl: "z pokolenia na pokolenie", kind: phrase }
+- { pl: "z wyprzedzeniem", kind: phrase }
+- { pl: "stara wiedźma", kind: skip }
+- { pl: "zgłosić się na ochotnika", kind: phrase }
+- { pl: "przywrócić do życia", kind: skip }
+- { pl: "zajmować miejsce", kind: skip }
+- { pl: "złamać kod", kind: skip }
+- { pl: "na wczoraj", kind: idiom, register: colloquial }
+- { pl: "własność prywatna", kind: skip }
+- { pl: "z biegiem czasu", kind: phrase }
+- { pl: "zależy mi na tym", kind: phrase }
+- { pl: "chcę odpocząć", kind: skip }
+- { pl: "no oczywiście", kind: skip }
+- { pl: "zatrzymaj to dla siebie", kind: phrase }
+- { pl: "Ale zabawa!", kind: phrase, register: colloquial, ru: "вот это веселье! (часто ирон.)", fix: "ale zabawa!" }
+- { pl: "burza mózgów", kind: phrase }
+- { pl: "kontrolować się", kind: skip }
+- { pl: "katastrofa samolotu", kind: skip }
+- { pl: "rozbroić bombę", kind: skip }
+- { pl: "uczciwa praca", kind: skip }
+- { pl: "koń trojański", kind: idiom }
+- { pl: "piekło na ziemi", kind: idiom }
+- { pl: "trzymać kurs", kind: idiom }
+- { pl: "główny bohater", kind: skip }
+- { pl: "pas bezpieczeństwa", kind: skip }
+- { pl: "rozerwać na strzępy", kind: phrase }
+- { pl: "padać z nóg", kind: idiom }
+- { pl: "dwadzieścia lat temu", kind: skip }
+- { pl: "utrata przytomności", kind: skip }
+- { pl: "dopiąć swego", kind: idiom }
+- { pl: "spowodować wypadek", kind: skip }
+- { pl: "na zapas", kind: phrase }
+- { pl: "pełniący obowiązki", kind: phrase }
+- { pl: "wielki świat", kind: idiom }
+- { pl: "wpakować się w kłopoty", kind: phrase, register: colloquial }
+- { pl: "dzika bestia", kind: skip }
+- { pl: "jakby nigdy nic", kind: idiom }
+- { pl: "przyjedź do nas", kind: skip }
+- { pl: "domek z kart", kind: idiom }
+- { pl: "Europa Wschodnia", kind: skip }
+- { pl: "nie mam pomysłu", kind: phrase, ru: "ничего не приходит в голову, без понятия" }
+- { pl: "ni stąd ni zowąd", kind: idiom }
+- { pl: "w czym tkwi problem", kind: phrase }
+- { pl: "z hakiem", kind: idiom, register: colloquial }
+- { pl: "bez rezultatu", kind: skip }
+- { pl: "misja wykonana", kind: phrase }
+- { pl: "narodziny dziecka", kind: skip }
+- { pl: "pod nazwą", kind: skip }
+- { pl: "u babci", kind: skip }
+- { pl: "walczyć o przetrwanie", kind: skip }
+- { pl: "bieg wydarzeń", kind: phrase }
+- { pl: "w zastępstwie", kind: phrase }
+- { pl: "wysłać smsa", kind: skip }
+- { pl: "ujrzeć światło dzienne", kind: idiom, ru: "увидеть свет, стать известным" }
+- { pl: "komitet powitalny", kind: phrase, register: colloquial }
+- { pl: "wyścigi konne", kind: skip }
+- { pl: "z wyglądu", kind: phrase }
+- { pl: "zapraszamy ponownie", kind: phrase }
+- { pl: "polityka zagraniczna", kind: skip }
+- { pl: "syn marnotrawny", kind: idiom }
+- { pl: "wygrać mecz", kind: skip }
+- { pl: "co za pech", kind: phrase }
+- { pl: "nowe auto", kind: skip }
+- { pl: "stracić nadzieję", kind: skip }
+- { pl: "nad wyraz", kind: phrase, register: bookish, ru: "чрезвычайно, на редкость" }
+- { pl: "towarzysz broni", kind: phrase }
+- { pl: "zdrów jak ryba", kind: idiom }
+- { pl: "panie komisarzu", kind: phrase }
+- { pl: "uzbrojony po zęby", kind: idiom }
+- { pl: "zakończyć się sukcesem", kind: skip }
+- { pl: "święta Bożego Narodzenia", kind: phrase, ru: "Рождество, рождественские праздники" }
+- { pl: "kula u nogi", kind: idiom }
+- { pl: "ustalić datę", kind: skip }
+- { pl: "jeszcze czego!", kind: phrase, register: colloquial }
+- { pl: "na żądanie", kind: phrase }
+- { pl: "kopnąć w kalendarz", kind: idiom, register: colloquial }
+- { pl: "nawet nie drgnąć", kind: skip }
+- { pl: "żyć przeszłością", kind: phrase }
+- { pl: "łeb w łeb", kind: idiom, register: colloquial }
+- { pl: "jak zapewne wiesz", kind: skip }
+- { pl: "wkrótce potem", kind: skip }
+- { pl: "wzór do naśladowania", kind: phrase }
+- { pl: "tłum ludzi", kind: skip }
+- { pl: "co począć?", kind: phrase }
+- { pl: "ze skutkiem natychmiastowym", kind: phrase, register: bookish }
+- { pl: "jasny jak słońce", kind: idiom }
+- { pl: "kolega z klasy", kind: phrase }
+- { pl: "lampka wina", kind: phrase }
+- { pl: "mieć wolną rękę", kind: idiom, ru: "иметь свободу действий (развязанные руки)" }
+- { pl: "dwie trzecie", kind: skip }
+- { pl: "marzenie się spełniło", kind: skip }
+- { pl: "pożyczyć pieniądze", kind: skip }
+- { pl: "cios poniżej pasa", kind: idiom }
+- { pl: "trzy czwarte", kind: skip }
+- { pl: "codziennie rano", kind: skip }
+- { pl: "gin z tonikiem", kind: skip, ru: "джин с тоником" }
+- { pl: "radca prawny", kind: skip }
+- { pl: "służba wojskowa", kind: skip }
+- { pl: "plany na przyszłość", kind: skip }
+- { pl: "przemoc domowa", kind: skip }
+- { pl: "Czerwony Kapturek", kind: skip }
+- { pl: "ja cię kręcę", kind: idiom, register: colloquial, ru: "ну ничего себе!, вот это да!" }
+- { pl: "kosztować fortunę", kind: phrase }
+- { pl: "wspaniały widok", kind: skip }
+- { pl: "na powitanie", kind: phrase }
+- { pl: "stracić kontakt", kind: skip }
+- { pl: "wyłączyć alarm", kind: skip }
+- { pl: "dać ciała", kind: idiom, register: colloquial }
+- { pl: "wkurza mnie to", kind: phrase, register: colloquial }
+- { pl: "nie trzymać się kupy", kind: idiom, register: colloquial, ru: "не вяжется, концы с концами не сходятся" }
+- { pl: "rozpocząć nowe życie", kind: skip }
+- { pl: "u taty", kind: skip }
+- { pl: "czyli jednak", kind: phrase }
+- { pl: "postawić drinka", kind: phrase, register: colloquial }
+- { pl: "uznać za winnego", kind: skip }
+- { pl: "cokolwiek się wydarzy", kind: phrase }
+- { pl: "związek chemiczny", kind: skip }
+- { pl: "chuj wie", kind: phrase, register: vulgar }
+- { pl: "diabli wiedzą", kind: phrase, register: colloquial }
+- { pl: "porządek dzienny", kind: phrase }
+- { pl: "spać na podłodze", kind: skip }
+- { pl: "wyjąć spod prawa", kind: phrase }
+- { pl: "zagrożenie życia", kind: skip }
+- { pl: "przyprzeć do muru", kind: idiom }
+- { pl: "za pół ceny", kind: skip }
+- { pl: "zresztą nieważne", kind: phrase }
+- { pl: "stopień naukowy", kind: skip }
+- { pl: "wyjść na prostą", kind: idiom, ru: "выкарабкаться, наладить жизнь (выйти на прямую)" }
+- { pl: "mieszkać z rodzicami", kind: skip }
+- { pl: "tęsknota", kind: skip }
+- { pl: "nosić spodnie", kind: idiom, register: colloquial }
+- { pl: "raz po raz", kind: phrase }
+- { pl: "stały ląd", kind: phrase }
+- { pl: "w dobrym humorze", kind: phrase }
+- { pl: "to się źle skończy", kind: phrase }
+- { pl: "pełen energii", kind: skip }
+- { pl: "iść na plażę", kind: skip }
+- { pl: "kij baseballowy", kind: skip }
+- { pl: "zimny prysznic", kind: idiom }
+- { pl: "być na tropie", kind: phrase }
+- { pl: "na wielką skalę", kind: phrase }
+- { pl: "poczucie obowiązku", kind: skip }
+- { pl: "dietetyczna cola", kind: skip }
+- { pl: "łódź ratunkowa", kind: skip }
+- { pl: "obywatel USA", kind: skip }
+- { pl: "i to by było na tyle", kind: phrase }
+- { pl: "drzewo genealogiczne", kind: skip }
+- { pl: "obciąć włosy", kind: skip }
+- { pl: "odzyskać wolność", kind: skip }
+- { pl: "skądże znowu", kind: phrase }
+- { pl: "korzystać z życia", kind: phrase }
+- { pl: "dług wdzięczności", kind: phrase }
+- { pl: "podróż służbowa", kind: phrase }
+- { pl: "zapalenie wątroby", kind: skip }
+- { pl: "dworzec kolejowy", kind: skip }
+- { pl: "czy aby na pewno", kind: phrase }
+- { pl: "jaki ojciec, taki syn", kind: proverb }
+- { pl: "przełamać lody", kind: idiom }
+- { pl: "przynosić wstyd", kind: phrase }
+- { pl: "śmiertelny wróg", kind: skip }
+- { pl: "jestem do dyspozycji", kind: phrase }
+- { pl: "wprowadzić w życie", kind: phrase }
+- { pl: "dla sportu", kind: phrase }
+- { pl: "kończyć pracę", kind: skip }
+- { pl: "wywiad wojskowy", kind: skip }
+- { pl: "przekroczyć próg", kind: skip }
+- { pl: "godny pożałowania", kind: phrase }
+- { pl: "o ja pierdolę", kind: phrase, register: vulgar, ru: "ни хрена себе!, охренеть" }
+- { pl: "zbliżać się do końca", kind: skip }
+- { pl: "mieć pełne ręce roboty", kind: idiom }
+- { pl: "nikt nie jest doskonały", kind: phrase }
+- { pl: "odmówić modlitwę", kind: phrase }
+- { pl: "badania medyczne", kind: skip }
+- { pl: "ładna pogoda", kind: skip }
+- { pl: "coś na ząb", kind: idiom, register: colloquial }
+- { pl: "długi weekend", kind: phrase }
+- { pl: "zarobić na życie", kind: phrase }
+- { pl: "szklanka mleka", kind: skip }
+- { pl: "złożyć pozew", kind: skip }
+- { pl: "hej, ho!", kind: skip }
+- { pl: "jestem turystą", kind: skip }
+- { pl: "zająć stanowisko", kind: phrase }
+- { pl: "nie mogę narzekać", kind: phrase }
+- { pl: "wczorajszy dzień", kind: skip }
+- { pl: "daj mi minutkę", kind: phrase, register: colloquial }
+- { pl: "proszę księdza", kind: phrase }
+- { pl: "absolutnie wszystko", kind: skip }
+- { pl: "spieprzyć sprawę", kind: phrase, register: colloquial }
+- { pl: "bądź tak miły", kind: phrase, ru: "будь так добр" }
+- { pl: "aparat na zęby", kind: skip }
+- { pl: "kompletny idiota", kind: skip }
+- { pl: "miłego weekendu", kind: phrase }
+- { pl: "legenda głosi", kind: phrase }
+- { pl: "bardzo zdolny", kind: skip }
+- { pl: "zwycięzca bierze wszystko", kind: phrase }
+- { pl: "do naga", kind: phrase }
+- { pl: "zadzierać nosa", kind: idiom }
+- { pl: "albo – albo", kind: phrase }
+- { pl: "na prawo i lewo", kind: idiom }
+- { pl: "mieć duże doświadczenie", kind: skip }
+- { pl: "ponieść klęskę", kind: phrase }
+- { pl: "w zaufaniu", kind: phrase }
+- { pl: "wypaść z gry", kind: idiom }
+- { pl: "z tą różnicą, że", kind: phrase }
+- { pl: "alarm pożarowy", kind: skip }
+- { pl: "sugeruję, żeby", kind: skip }
+- { pl: "kończyć szkołę", kind: skip }
+- { pl: "widywać się z kimś", kind: skip }
+- { pl: "dzisiejsza gazeta", kind: skip }
+- { pl: "schodzić na psy", kind: idiom, register: colloquial }
+- { pl: "terapia grupowa", kind: skip }
+- { pl: "gadka szmatka", kind: idiom, register: colloquial }
+- { pl: "po kolana", kind: skip }
+- { pl: "najbardziej interesujący", kind: skip }
+- { pl: "zmienić kanał", kind: skip }
+- { pl: "iść na zajęcia", kind: skip }
+- { pl: "czyste szaleństwo", kind: phrase }
+- { pl: "po polsku", kind: skip }
+- { pl: "prosty lud", kind: skip }
+- { pl: "uścisnąć dłoń", kind: skip }
+- { pl: "kłopoty finansowe", kind: skip }
+- { pl: "zachować ciszę", kind: skip }
+- { pl: "nadstawiać karku", kind: idiom }
+- { pl: "bezpieczniej jest", kind: skip }
+- { pl: "prezes zarządu", kind: skip }
+- { pl: "zawalony robotą", kind: phrase, register: colloquial }
+- { pl: "łowca talentów", kind: skip }
+- { pl: "składać zeznania", kind: phrase }
+- { pl: "we łzach", kind: skip }
+- { pl: "kamera wideo", kind: skip }
+- { pl: "źródło dochodu", kind: skip }
+- { pl: "słabe strony", kind: skip }
+- { pl: "na różne sposoby", kind: skip }
+- { pl: "nie wiadomo skąd", kind: phrase }
+- { pl: "powszechnie znany", kind: skip }
+- { pl: "oficjalna wersja", kind: skip }
+- { pl: "być na zwolnieniu", kind: phrase }
+- { pl: "czas to pieniądz", kind: proverb }
+- { pl: "na całej linii", kind: idiom }
+- { pl: "dziękuję za wizytę", kind: phrase }
+- { pl: "kawałek tortu", kind: idiom, ru: "кусок пирога (доля в деле); кусок торта" }
+- { pl: "sztuki piękne", kind: skip }
+- { pl: "godziny odwiedzin", kind: skip }
+- { pl: "włamać się do domu", kind: skip }
+- { pl: "coś jest na rzeczy", kind: idiom, ru: "тут что-то есть, дело нечисто" }
+- { pl: "zgodnie z przepisami", kind: skip }
+- { pl: "szukać wszędzie", kind: skip }
+- { pl: "z rzadka", kind: phrase }
+- { pl: "być po ślubie", kind: phrase }
+- { pl: "cień szansy", kind: phrase }
+- { pl: "nie specjalnie", kind: phrase, register: colloquial, fix: "niespecjalnie" }
+- { pl: "w cywilu", kind: phrase }
+- { pl: "port lotniczy", kind: skip }
+- { pl: "ku czci", kind: phrase, register: bookish }
+- { pl: "pozbawienie wolności", kind: skip }
+- { pl: "przyjmować gości", kind: skip }
+- { pl: "stanąć w płomieniach", kind: phrase }
+- { pl: "zostać kimś", kind: skip }
+- { pl: "wyciągnąć wnioski", kind: phrase }
+- { pl: "do kupienia", kind: skip }
+- { pl: "po męsku", kind: phrase }
+- { pl: "świadek morderstwa", kind: skip }
+- { pl: "w pełni świadomy", kind: skip }
+- { pl: "leczyć pacjenta", kind: skip }
+- { pl: "z uprzejmości", kind: skip }
+- { pl: "wnieść skargę", kind: skip }
+- { pl: "zawieźć do szpitala", kind: skip }
+- { pl: "oto jest pytanie", kind: phrase }
+- { pl: "po czyjej stronie?", kind: skip }
+- { pl: "garstka ludzi", kind: skip }
+- { pl: "brutalnie zamordowany", kind: skip }
+- { pl: "ostatni odcinek", kind: skip }
+- { pl: "pragnąć zemsty", kind: skip }
+- { pl: "wierzyć na słowo", kind: phrase }
+- { pl: "wyciągać wnioski", kind: phrase }
+- { pl: "wyznać prawdę", kind: skip, ru: "признаться, сказать правду" }
+- { pl: "zamienić się miejscami", kind: skip }
+- { pl: "tuż tuż", kind: phrase }
+- { pl: "w charakterze", kind: phrase }
+- { pl: "szukać wymówek", kind: skip }
+- { pl: "chcę się ożenić", kind: skip }
+- { pl: "uprawiać sport", kind: phrase }
+- { pl: "wpaść w pułapkę", kind: skip }
+- { pl: "dobrze się spisać", kind: phrase }
+- { pl: "lekarz prowadzący", kind: skip }
+- { pl: "lokalna gazeta", kind: skip }
+- { pl: "nie mieć sobie równych", kind: phrase }
+- { pl: "stracić wzrok", kind: skip }
+- { pl: "strzelec wyborowy", kind: skip }
+- { pl: "zeznanie podatkowe", kind: skip }
+- { pl: "smakowało mi", kind: phrase }
+- { pl: "z tego wynika", kind: phrase }
+- { pl: "dzięki za informację", kind: skip }
+- { pl: "nosić imię", kind: skip }
+- { pl: "oszukiwać samego siebie", kind: skip }
+- { pl: "narzucać się", kind: skip }
+- { pl: "urządzić przyjęcie", kind: skip }
+- { pl: "zapalić świecę", kind: skip }
+- { pl: "ziemia niczyja", kind: phrase }
+- { pl: "fałszywe zeznania", kind: skip }
+- { pl: "używany samochód", kind: skip }
+- { pl: "przyjąć do wiadomości", kind: phrase }
+- { pl: "ofiara losu", kind: idiom, register: colloquial, ru: "неудачник, растяпа" }
+- { pl: "troszczyć się o siebie", kind: skip }
+- { pl: "w bród", kind: idiom }
+- { pl: "brać lekarstwa", kind: skip }
+- { pl: "od dekad", kind: skip }
+- { pl: "pociągnąć za sobą", kind: phrase }
+- { pl: "ponownie otwarto", kind: skip }
+- { pl: "mokra robota", kind: idiom, register: colloquial }
+- { pl: "utrzymać rodzinę", kind: skip }
+- { pl: "zginąć w katastrofie", kind: skip }
+- { pl: "dobry sprzedawca", kind: skip }
+- { pl: "pamiętaj o mnie", kind: skip }
+- { pl: "świeżo upieczony", kind: idiom }
+- { pl: "pojawiać się i znikać", kind: skip }
+- { pl: "zaprowadzić porządek", kind: phrase }
+- { pl: "bal przebierańców", kind: skip }
+- { pl: "kluczyki do samochodu", kind: skip }
+- { pl: "kod pocztowy", kind: skip }
+- { pl: "niebezpieczna sytuacja", kind: skip }
+- { pl: "rzucać kamieniami", kind: skip }
+- { pl: "grać w zespole", kind: skip }
+- { pl: "cała seria", kind: skip }
+- { pl: "pobożne życzenie", kind: idiom }
+- { pl: "wpaść w zasadzkę", kind: skip }
+- { pl: "babcia i dziadek", kind: skip }
+- { pl: "dobry sąsiad", kind: skip }
+- { pl: "zdobyć nagrodę", kind: skip }
+- { pl: "nauki ścisłe", kind: skip }
+- { pl: "odnieść zwycięstwo", kind: phrase }
+- { pl: "nakryć do stołu", kind: phrase }
+- { pl: "przy kawie", kind: phrase }
+- { pl: "ciągle to samo", kind: phrase }
+- { pl: "przedstawić dowody", kind: skip }
+- { pl: "handel ludźmi", kind: skip }
+- { pl: "przyjrzeć się bliżej", kind: skip }
+- { pl: "wylądować w szpitalu", kind: phrase, register: colloquial }
+- { pl: "z kopyta", kind: idiom, register: colloquial }
+- { pl: "media społecznościowe", kind: skip }
+- { pl: "użyć wyobraźni", kind: skip }
+- { pl: "w mojej opinii", kind: skip }
+- { pl: "pod tym adresem", kind: skip }
+- { pl: "na własnej skórze", kind: idiom }
+- { pl: "jak w bajce", kind: phrase }
+- { pl: "zdrowy na umyśle", kind: phrase }
+- { pl: "inny niż wszyscy", kind: skip }
+- { pl: "jak na dłoni", kind: idiom }
+- { pl: "twardy jak skała", kind: phrase }
+- { pl: "złote serce", kind: idiom }
+- { pl: "dzielny żołnierz", kind: skip }
+- { pl: "rura wydechowa", kind: skip }
+- { pl: "i żyli długo i szczęśliwie", kind: phrase }
+- { pl: "bez mała", kind: phrase }
+- { pl: "korzystając z okazji", kind: phrase }
+- { pl: "obiema rękami", kind: skip }
+- { pl: "wziąć rozwód", kind: phrase }
+- { pl: "zadawać ból", kind: skip }
+- { pl: "rachunek, proszę", kind: phrase }
+- { pl: "sierżant sztabowy", kind: skip }
+- { pl: "nie ruszać się z miejsca", kind: skip }
+- { pl: "organizacja przestępcza", kind: skip }
+- { pl: "proch strzelniczy", kind: skip }
+- { pl: "smutno mi", kind: skip }
+- { pl: "całkowicie się zgadzam", kind: phrase }
+- { pl: "zakradać się do", kind: skip }
+- { pl: "najszybszy sposób", kind: skip }
+- { pl: "salon fryzjerski", kind: skip }
+- { pl: "wrócić do tematu", kind: skip }
+- { pl: "zebrać myśli", kind: phrase }
+- { pl: "proces sądowy", kind: skip }
+- { pl: "szukać igły w stogu siana", kind: idiom }
+- { pl: "agent ubezpieczeniowy", kind: skip }
+- { pl: "bilet powrotny", kind: skip }
+- { pl: "trutka na szczury", kind: skip }
+- { pl: "zaburzenia psychiczne", kind: skip }
+- { pl: "tu i ówdzie", kind: phrase }
+- { pl: "znak zodiaku", kind: skip }
+- { pl: "plan zadziałał", kind: skip }
+- { pl: "za żadne skarby", kind: idiom }
+- { pl: "wejść w posiadanie", kind: phrase, register: bookish }
+- { pl: "dom rodziców", kind: skip }
+- { pl: "z zyskiem", kind: skip }
+- { pl: "dom rodzinny", kind: skip }
+- { pl: "akademia wojskowa", kind: skip }
+- { pl: "nie do odrzucenia", kind: phrase }
+- { pl: "pora roku", kind: phrase }
+- { pl: "pod groźbą", kind: phrase }
+- { pl: "dać za wygraną", kind: idiom }
