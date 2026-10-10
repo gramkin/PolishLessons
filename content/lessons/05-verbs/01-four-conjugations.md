@@ -9,19 +9,23 @@ words: [pisac, robic, czytac, jesc, brac, lubic, czekac, znac, umiec, spiewac, t
 
 <!-- review -->
 
-Русский глагол в настоящем времени идёт по одному из двух спряжений. Польский — по одному из четырёх. Звучит страшнее, чем есть: достаточно запомнить формы «я» и «ты» — остальные четыре выводятся по трём простым правилам, они собраны в конце урока.
+Русский глагол в настоящем времени идёт по одному из двух спряжений. Польский — по одному из четырёх. Звучит страшнее, чем есть: достаточно запомнить формы «я» и «ты» — остальные четыре выводятся по трём простым правилам.
 
 ::compare-table
 ---
-headers: [Спряжение, "«я»", "«ты»", Пример]
-plColumns: [1, 2, 3]
+headers: [Лицо, "I (pisać)", "II (robić)", "III (czytać)", "IV (jeść)"]
+plColumns: [1, 2, 3, 4]
 rows:
-  - [I, "-ę", "-esz", "piszę, piszesz"]
-  - [II, "-ę", "-isz / -ysz", "robię, robisz"]
-  - [III, "-am", "-asz", "czytam, czytasz"]
-  - [IV, "-em", "-esz", "jem, jesz"]
+  - ["!ja", piszę, robię, czytam, jem]
+  - ["!ty", piszesz, robisz, czytasz, jesz]
+  - ["on, ona", pisze, robi, czyta, je]
+  - [my, piszemy, robimy, czytamy, jemy]
+  - [wy, piszecie, robicie, czytacie, jecie]
+  - ["oni, one", piszą, robią, czytają, jedzą]
 ---
 ::
+
+Выделенные строки — ключ к спряжению: окончания «я» (**-ę**, **-ę**, **-am**, **-em**) и «ты» (**-esz**, **-isz/-ysz**, **-asz**, **-esz**). Остальные четыре формы получаются из них по правилам ниже.
 
 Первые два спряжения дают в «я» одинаковое **-ę**, а различаются гласной во всех остальных формах, кроме «они»: у первого **-e-** (:pl-word{id="pisac"} → *piszesz, pisze*), у второго **-i-/-y-** (:pl-word{id="robic"} → *robisz, robi*). Поэтому спряжение узнают по форме «ты».
 
@@ -41,6 +45,47 @@ questions:
     q: "Ty dobrze ___. (tańczyć)"
     answer: tańczysz
     explain: "tańczyć — II спряжение: tańczę, tańczysz. После cz пишется -ysz, а не -isz."
+---
+::
+
+## Как получить остальные формы
+
+Зная «я» и «ты», остальные четыре формы получают по одним и тем же правилам во всех спряжениях. Сверьтесь с таблицей выше: в третьем лице окончания нет — это форма «ты» без **-sz**.
+
+::compare-table
+---
+headers: [Лицо, Правило, Пример]
+plColumns: [2]
+rows:
+  - ["«он, она»", "«ты» без -sz", "piszesz → pisze, czytasz → czyta"]
+  - ["«мы»", "«он» + -my", "pisze → piszemy"]
+  - ["«вы»", "«он» + -cie", "pisze → piszecie"]
+  - ["!«они»", "I и II: «я» с -ą вместо -ę; III: -ają; IV: запомнить", "piszę → piszą, czytają, jedzą"]
+---
+::
+
+Третье лицо единственного числа — самая короткая форма, и от неё строятся «мы» и «вы». Русский делает похожее («пишешь — пишет»), только польский просто отбрасывает **-sz**.
+
+Единственная форма без общего правила — «они» в четвёртом спряжении: :pron{pl="jedzą"} и :pron{pl="wiedzą"}, но :pron{pl="umieją"} и :pron{pl="rozumieją"}.
+
+Правила не касаются глагола **być**: его формы *jestem, jesteś, jest, jesteśmy, jesteście, są* из урока 3.2 запоминают целиком.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "czekać: ona ___"
+    answer: czeka
+    explain: "«ты» czekasz без -sz — czeka."
+  - type: input
+    q: "tańczyć: wy ___"
+    answer: tańczycie
+    explain: "«он» tańczy + -cie = tańczycie."
+  - type: choice
+    q: "umieć: oni ___"
+    options: [umią, umieją, umiedzą]
+    answer: 1
+    explain: "В четвёртом спряжении «они» запоминают отдельно: umieją, rozumieją, но jedzą, wiedzą."
 ---
 ::
 
@@ -132,47 +177,6 @@ questions:
     q: "Ja ___ pływać. (umieć)"
     answer: umiem
     explain: "umieć — IV спряжение: umiem, umiesz."
----
-::
-
-## Как получить остальные формы
-
-Зная «я» и «ты», остальные четыре формы получают по одним и тем же правилам во всех спряжениях.
-
-::compare-table
----
-headers: [Лицо, Правило, I, II, III, IV]
-plColumns: [2, 3, 4, 5]
-rows:
-  - ["«он, она»", "«ты» без -sz", pisze, robi, czyta, je]
-  - ["«мы»", "«он» + -my", piszemy, robimy, czytamy, jemy]
-  - ["«вы»", "«он» + -cie", piszecie, robicie, czytacie, jecie]
-  - ["!«они»", "I и II: «я» с -ą вместо -ę; III: -ają; IV: запомнить", piszą, robią, czytają, jedzą]
----
-::
-
-Третье лицо единственного числа — самая короткая форма, и от неё строятся «мы» и «вы». Русский делает похожее («пишешь — пишет»), только польский просто отбрасывает **-sz**.
-
-Единственная форма без общего правила — «они» в четвёртом спряжении: :pron{pl="jedzą"} и :pron{pl="wiedzą"}, но :pron{pl="umieją"} и :pron{pl="rozumieją"}.
-
-Правила не касаются глагола **być**: его формы *jestem, jesteś, jest, jesteśmy, jesteście, są* из урока 3.2 запоминают целиком.
-
-::quiz
----
-questions:
-  - type: input
-    q: "czekać: ona ___"
-    answer: czeka
-    explain: "«ты» czekasz без -sz — czeka."
-  - type: input
-    q: "tańczyć: wy ___"
-    answer: tańczycie
-    explain: "«он» tańczy + -cie = tańczycie."
-  - type: choice
-    q: "umieć: oni ___"
-    options: [umią, umieją, umiedzą]
-    answer: 1
-    explain: "В четвёртом спряжении «они» запоминают отдельно: umieją, rozumieją, но jedzą, wiedzą."
 ---
 ::
 

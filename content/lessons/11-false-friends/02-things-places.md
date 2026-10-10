@@ -34,12 +34,53 @@ rows:
 
 Три слова — три ловушки подряд. Запомнить помогает то, что все три про одну комнату.
 
+::quiz
+---
+questions:
+  - type: choice
+    q: "Как по-польски «диван»?"
+    options: [dywan, kanapa, krzesło]
+    answer: 1
+    explain: "«Диван» — kanapa. Dywan — «ковёр», krzesło — «стул»."
+  - type: choice
+    q: "«Lustro» — это:"
+    options: [люстра, зеркало, окно]
+    answer: 1
+    explain: "lustro — «зеркало». «Люстра» — żyrandol."
+  - type: choice
+    q: "Как по-польски «кресло»?"
+    options: [krzesło, fotel, kanapa]
+    answer: 1
+    explain: "«Кресло» — fotel. Krzesło — «стул»."
+---
+::
+
 ## В городе
 
 :pron{pl="Idę do sklepu."} — Я иду в магазин.
 :pron{pl="Spotkajmy się na dworcu."} — Встретимся на вокзале.
 
 :pl-word{id="sklep"} — пожалуй, самое частое слово из всего списка. Его вы будете употреблять каждый день.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "«Idę do sklepu.» значит:"
+    options: ["Я иду в магазин.", "Я иду в склеп.", "Я иду на склад."]
+    answer: 0
+    explain: "sklep — «магазин». «Склеп» — krypta, «склад» — magazyn."
+  - type: choice
+    q: "Как по-польски «дворец»?"
+    options: [dworzec, pałac, zamek]
+    answer: 1
+    explain: "«Дворец» — pałac. Dworzec — «вокзал», zamek — «замок»."
+  - type: input
+    q: "«Встретимся на вокзале»: Spotkajmy się na ___."
+    answer: dworcu
+    explain: "na + предложный: dworzec → na dworcu. Гласная e выпадает, и rz перед согласной становится r."
+---
+::
 
 ## На кухне
 
@@ -49,27 +90,53 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: choice
+    q: "Как по-польски «дыня»?"
+    options: [dynia, melon, arbuz]
+    answer: 1
+    explain: "«Дыня» — melon. Dynia — «тыква», arbuz — «арбуз»."
+  - type: choice
+    q: "«Czaszka» — это:"
+    options: [чашка, череп, ложка]
+    answer: 1
+    explain: "czaszka — «череп». «Чашка» — filiżanka или kubek."
+  - type: choice
+    q: "Как по-польски «чашка кофе»?"
+    options: ["czaszka kawy", "filiżanka kawy"]
+    answer: 1
+    explain: "filiżanka — «чашка». Czaszka kawy прозвучало бы как «череп кофе»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
     q: "«Dywan» — это?"
     options: [диван, ковёр, стол]
     answer: 1
+    explain: "dywan — «ковёр». «Диван» — kanapa."
   - type: input
     q: "Как по-польски «люстра»?"
     answer: żyrandol
+    explain: "«Люстра» — żyrandol, а lustro — «зеркало»."
   - type: choice
     q: "«Sklep» — это?"
     options: [склеп, магазин, подвал]
     answer: 1
+    explain: "sklep — «магазин». «Склеп» — krypta."
   - type: input
     q: "«Dynia» — это по-русски?"
     answer: тыква
+    explain: "dynia — «тыква». «Дыня» — melon."
   - type: match
     q: Соедините слово и значение
     pairs:
       - [krzesło, стул]
       - [dworzec, вокзал]
       - [lustro, зеркало]
+    explain: "krzesło — стул (кресло — fotel), dworzec — вокзал (дворец — pałac), lustro — зеркало (люстра — żyrandol)."
 ---
 ::

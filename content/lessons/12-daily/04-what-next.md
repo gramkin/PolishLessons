@@ -14,6 +14,7 @@ words: [mowic, rozumiec, uczyc]
 ::compare-table
 ---
 headers: [Глава, Что освоили]
+plColumns: []
 rows:
   - ["!1–3", "алфавит, звуки, первые фразы"]
   - ["!4–5", "род существительных, спряжение глаголов"]
@@ -31,6 +32,24 @@ rows:
 
 Носителю английского всё это приходится заучивать. Вам — только замечать.
 
+::quiz
+---
+questions:
+  - type: match
+    q: Соедините польские и русские слова
+    pairs:
+      - [woda, вода]
+      - [ręka, рука]
+      - [mleko, молоко]
+    explain: "Родственные слова: ę на месте русского «у» (ręka), полногласие «оло» → le (mleko)."
+  - type: choice
+    q: Какого падежа нет в русском?
+    options: [звательного, творительного, предложного]
+    answer: 0
+    explain: "Звательный — форма обращения: mamo!, panie profesorze! В русском он остался лишь в словах вроде «Боже»."
+---
+::
+
 ## Как продолжать
 
 :pron{pl="Chcę mówić po polsku."} — Я хочу говорить по-польски.
@@ -45,6 +64,25 @@ rows:
 
 **Учите словами, а не правилами.** Падежные окончания запоминаются через готовые обороты — *do sklepu*, *na dworcu*, *w tygodniu* — гораздо быстрее, чем через таблицы.
 
+::quiz
+---
+questions:
+  - type: input
+    q: "«Я понимаю почти всё» — ___ prawie wszystko."
+    answer: Rozumiem
+    explain: "rozumieć: rozumiem — «я понимаю»."
+  - type: input
+    q: "«Я учу польский» — Uczę się ___."
+    answer: polskiego
+    explain: "uczyć się + родительный: polski → polskiego."
+  - type: choice
+    q: "«Я говорю по-польски»"
+    options: ["Mówię po polsku.", "Mówię polski.", "Mówię po polski."]
+    answer: 0
+    explain: "Говорить на языке — mówić po polsku, как русское «по-польски»."
+---
+::
+
 ## Powodzenia!
 
 :pron{pl="Powodzenia!"} — Удачи!
@@ -56,22 +94,27 @@ questions:
   - type: input
     q: "«Я хочу говорить по-польски» — Chcę ___ po polsku."
     answer: mówić
+    explain: "chcieć + инфинитив: chcę mówić."
   - type: input
     q: "«Удачи!» по-польски?"
     answer: Powodzenia
+    explain: "Powodzenia! — «Удачи!»."
   - type: choice
     q: Сколько падежей в польском?
     options: [шесть, семь, восемь]
     answer: 1
+    explain: "Семь: к шести русским добавляется звательный."
   - type: choice
     q: "«Rozumiem» — это?"
     options: [я понимаю, я говорю, я учу]
     answer: 0
+    explain: "rozumieć — «понимать»: rozumiem."
   - type: match
     q: Соедините главу и тему
     pairs:
       - [глава 6, падежи]
       - [глава 8, прошедшее время]
       - [глава 11, ложные друзья]
+    explain: "6 — падежи, 8 — прошедшее время, 11 — ложные друзья."
 ---
 ::
