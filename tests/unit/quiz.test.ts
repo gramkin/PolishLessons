@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { checkChoice, checkMatch, checkText, scoreQuiz, shuffle } from '../../app/utils/quiz'
+import {
+  checkChoice,
+  checkMatch,
+  checkText,
+  scoreQuiz,
+  shuffle,
+  checkSentence,
+} from '../../app/utils/quiz'
 
 describe('checkText', () => {
   it('accepts exact answers ignoring case, spaces and edge punctuation', () => {
@@ -74,5 +81,32 @@ describe('shuffle', () => {
     expect(input).toEqual([1, 2, 3, 4])
     expect([...result].sort()).toEqual([1, 2, 3, 4])
     expect(result).toEqual([2, 3, 4, 1])
+  })
+})
+
+describe('checkSentence', () => {
+  it('ignores case, spacing and all punctuation', () => {
+    expect(checkSentence('dzień dobry jak się masz', 'Dzień dobry, jak się masz?')).toBe('correct')
+    expect(checkSentence('  Nie mam  czasu ', ['Nie mam czasu.', 'Czasu nie mam.'])).toBe('correct')
+    expect(checkSentence('Czasu nie mam!', ['Nie mam czasu.', 'Czasu nie mam.'])).toBe('correct')
+  })
+
+  it('calls a diacritic slip almost, and anything else wrong', () => {
+    expect(checkSentence('Nie mam czasu', 'Nie mam czasu.')).toBe('correct')
+    expect(checkSentence('Dzien dobry', 'Dzień dobry.')).toBe('almost')
+    expect(checkSentence('Nie mam pieniędzy', 'Nie mam czasu.')).toBe('wrong')
+    expect(checkSentence('  ', 'Nie mam czasu.')).toBe('wrong')
+  })
+})
+
+describe('scoreQuiz with skipped questions', () => {
+  it('leaves skipped dictation out of the total', () => {
+    expect(scoreQuiz(['correct', 'skipped', 'wrong', 'skipped'])).toEqual({
+      correct: 1,
+      total: 2,
+      percent: 50,
+      passed: false,
+    })
+    expect(scoreQuiz(['skipped'])).toMatchObject({ total: 0, passed: false })
   })
 })

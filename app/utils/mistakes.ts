@@ -42,6 +42,7 @@ function hash(text: string): string {
 function answerText(question: Question): string {
   if (question.type === 'choice') return question.options[question.answer] ?? ''
   if (question.type === 'match') return question.pairs.map((p) => p.join('=')).join(';')
+  if (question.type === 'listen') return question.text
   return Array.isArray(question.answer) ? question.answer.join('|') : question.answer
 }
 

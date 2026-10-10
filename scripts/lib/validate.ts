@@ -8,6 +8,7 @@ import {
   chapterSchema,
   lessonFrontmatterSchema,
   patternFileSchema,
+  quizSchema,
   drillCellSchema,
   drillFileSchema,
   drillSchema,
@@ -19,6 +20,7 @@ import {
   type Pattern,
   type Word,
 } from '../../shared/schemas'
+import { parse as parseYaml } from 'yaml'
 import { findGroup } from '../../app/utils/pattern'
 import type { ContentBundle, MarkdownFile } from './load-content'
 
@@ -71,6 +73,43 @@ export function findComponentRefs(markdown: string): ComponentRef[] {
     refs.push({ name, attrs })
   }
   return refs
+}
+
+const QUIZ_RE = /^::quiz[ \t]*\n---\n([\s\S]*?)\n---\n::[ \t]*$/gm
+
+/**
+ * Quiz blocks are YAML props the Quiz component parses at runtime; a broken one renders as an
+ * error box only in dev. Check every block here so it fails `pnpm validate` instead.
+ */
+export function checkQuizzes(file: MarkdownFile, errors: string[]): void {
+  let index = 0
+  for (const match of file.body.matchAll(QUIZ_RE)) {
+    index++
+    let data: unknown
+    try {
+      data = parseYaml(match[1]!)
+    } catch (error) {
+      errors.push(
+        `${file.path}: quiz ${index}: invalid YAML (${(error as Error).message.split('\n')[0]})`,
+      )
+      continue
+    }
+    const props = z.object({ questions: z.unknown(), final: z.boolean().optional() }).strict()
+    const top = props.safeParse(data)
+    if (!top.success) {
+      errors.push(
+        `${file.path}: quiz ${index}: ${top.error.issues.map((i) => i.message).join('; ')}`,
+      )
+      continue
+    }
+    const parsed = quizSchema.safeParse(top.data.questions)
+    if (!parsed.success) {
+      for (const issue of parsed.error.issues)
+        errors.push(
+          `${file.path}: quiz ${index}: questions.${issue.path.join('.')}: ${issue.message}`,
+        )
+    }
+  }
 }
 
 function parseWith<T>(
@@ -217,6 +256,7 @@ export function validateContent(bundle: ContentBundle): string[] {
       }
     }
     checkMarkdownRefs(file, words, patterns, drills, errors)
+    checkQuizzes(file, errors)
   }
 
   if (bundle.cheatsheet) checkMarkdownRefs(bundle.cheatsheet, words, patterns, drills, errors)

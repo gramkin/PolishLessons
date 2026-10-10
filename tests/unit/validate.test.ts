@@ -297,3 +297,32 @@ describe('drills', () => {
     expect(validateContent(bundle)).toContainEqual(expect.stringContaining('colour'))
   })
 })
+
+describe('quizzes', () => {
+  const withQuiz = (yaml: string) => {
+    const bundle = validBundle()
+    bundle.lessons[0]!.body += `\n::quiz\n---\n${yaml}\n---\n::\n`
+    return validateContent(bundle)
+  }
+
+  it('accepts translate and listen questions', () => {
+    expect(
+      withQuiz(
+        'questions:\n  - type: translate\n    q: У меня нет времени.\n    answer: [Nie mam czasu., Czasu nie mam.]\n  - type: listen\n    text: rzeka',
+      ),
+    ).toEqual([])
+  })
+
+  it('reports an answer index past the options, an unknown type and broken YAML', () => {
+    expect(
+      withQuiz('questions:\n  - type: choice\n    q: X?\n    options: [a, b]\n    answer: 2'),
+    ).toContainEqual(expect.stringContaining('quiz 1'))
+    expect(withQuiz('questions:\n  - type: essay\n    q: X?')).toContainEqual(
+      expect.stringContaining('quiz 1'),
+    )
+    expect(withQuiz('questions: [unclosed')).toContainEqual(expect.stringContaining('invalid YAML'))
+    expect(withQuiz('questions: []\nfinall: true')).toContainEqual(
+      expect.stringContaining('quiz 1'),
+    )
+  })
+})

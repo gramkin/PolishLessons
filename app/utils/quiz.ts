@@ -1,7 +1,8 @@
 import type { ChoiceQuestion, MatchQuestion } from '../../shared/schemas'
 import { foldDiacritics, normalizeText } from './normalize'
 
-export type Verdict = 'correct' | 'almost' | 'wrong'
+// `skipped`: a dictation with no voice or recording to play. It counts neither way.
+export type Verdict = 'correct' | 'almost' | 'wrong' | 'skipped'
 
 export const PASS_PERCENT = 80
 
@@ -21,6 +22,22 @@ export function checkText(input: string, answer: string | string[]): Verdict {
   return answers.some((a) => foldDiacritics(a) === loose) ? 'almost' : 'wrong'
 }
 
+// Sentences compare without any punctuation: a missing comma is not a wrong translation.
+const PUNCTUATION = /[.,!?;:«»"„”…—–()]/g
+function normalizeSentence(s: string): string {
+  return normalizeText(s.replace(PUNCTUATION, ' '))
+}
+
+/** Like checkText, for whole sentences: case, spacing and all punctuation are ignored. */
+export function checkSentence(input: string, answer: string | string[]): Verdict {
+  const given = normalizeSentence(input)
+  if (!given) return 'wrong'
+  const answers = (Array.isArray(answer) ? answer : [answer]).map(normalizeSentence)
+  if (answers.includes(given)) return 'correct'
+  const loose = foldDiacritics(given)
+  return answers.some((a) => foldDiacritics(a) === loose) ? 'almost' : 'wrong'
+}
+
 export function checkChoice(q: ChoiceQuestion, selected: number): Verdict {
   return selected === q.answer ? 'correct' : 'wrong'
 }
@@ -29,7 +46,8 @@ export function checkMatch(q: MatchQuestion, selection: Record<string, string>):
   return q.pairs.every(([pl, ru]) => selection[pl] === ru) ? 'correct' : 'wrong'
 }
 
-export function scoreQuiz(verdicts: Verdict[]): QuizScore {
+export function scoreQuiz(all: Verdict[]): QuizScore {
+  const verdicts = all.filter((v) => v !== 'skipped')
   const total = verdicts.length
   const correct = verdicts.filter((v) => v !== 'wrong').length
   const percent = total === 0 ? 0 : Math.round((correct / total) * 100)

@@ -17,15 +17,19 @@ function onAnswered(index: number, verdict: Verdict) {
   const next = [...verdicts.value]
   next[index] = verdict
   verdicts.value = next
-  // An "almost" (a missing diacritic) counts as right, as it does in the lesson.
-  emit('review', item.id, verdict !== 'wrong')
+  // An "almost" (a missing diacritic) counts as right, as it does in the lesson. A skipped
+  // dictation (no audio here) leaves the item as it was.
+  if (verdict !== 'skipped') emit('review', item.id, verdict !== 'wrong')
 }
 
 const done = computed(() => verdicts.value.every((v) => v !== null))
-const remembered = computed(() => verdicts.value.filter((v) => v && v !== 'wrong').length)
+const remembered = computed(
+  () => verdicts.value.filter((v) => v && v !== 'wrong' && v !== 'skipped').length,
+)
 
 function finish() {
-  emit('finish', { remembered: remembered.value, forgotten: props.items.length - remembered.value })
+  const forgotten = verdicts.value.filter((v) => v === 'wrong').length
+  emit('finish', { remembered: remembered.value, forgotten })
 }
 </script>
 
@@ -40,6 +44,16 @@ function finish() {
         />
         <QuizText
           v-else-if="item.question.type === 'input' || item.question.type === 'pattern'"
+          :question="item.question"
+          @answered="onAnswered(i, $event)"
+        />
+        <QuizTranslate
+          v-else-if="item.question.type === 'translate'"
+          :question="item.question"
+          @answered="onAnswered(i, $event)"
+        />
+        <QuizListen
+          v-else-if="item.question.type === 'listen'"
           :question="item.question"
           @answered="onAnswered(i, $event)"
         />

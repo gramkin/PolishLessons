@@ -3,7 +3,8 @@ import { gotoHydrated } from './helpers'
 
 test('passing the final quiz marks the lesson as completed', async ({ page }) => {
   await gotoHydrated(page, '/lessons/02-sounds/01-rz')
-  const quiz = page.locator('section.quiz')
+  // The final quiz is the lesson's last; section exercises may come before it.
+  const quiz = page.locator('section.quiz').last()
 
   await quiz.getByLabel('rzeka', { exact: true }).check()
   await quiz.locator('form.quiz-text input').fill('brzeg')

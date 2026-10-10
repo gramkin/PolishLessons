@@ -149,11 +149,29 @@ const matchQuestionSchema = z.object({
   explain,
 })
 
+// A Russian sentence to put into Polish. Many translations are right, so `answer` lists the
+// accepted ones and a learner whose version differs judges it against the first.
+const translateQuestionSchema = z.object({
+  type: z.literal('translate'),
+  q: text,
+  answer: textAnswer,
+  explain,
+})
+// Dictation: the Polish `text` is played, never shown, and typed back.
+const listenQuestionSchema = z.object({
+  type: z.literal('listen'),
+  q: text.default('Напишите, что услышите.'),
+  text,
+  explain,
+})
+
 export const questionSchema = z.discriminatedUnion('type', [
   choiceQuestionSchema,
   inputQuestionSchema,
   patternQuestionSchema,
   matchQuestionSchema,
+  translateQuestionSchema,
+  listenQuestionSchema,
 ])
 
 export const quizSchema = z
@@ -222,3 +240,5 @@ export type ChoiceQuestion = z.infer<typeof choiceQuestionSchema>
 export type InputQuestion = z.infer<typeof inputQuestionSchema>
 export type PatternQuestion = z.infer<typeof patternQuestionSchema>
 export type MatchQuestion = z.infer<typeof matchQuestionSchema>
+export type TranslateQuestion = z.infer<typeof translateQuestionSchema>
+export type ListenQuestion = z.infer<typeof listenQuestionSchema>

@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import type { InputQuestion } from '#shared/schemas'
-import { sampleItems, type DrillFile, type DrillItem } from '~/utils/drill'
+import type { InputQuestion, ListenQuestion } from '#shared/schemas'
+import { BLANK, sampleItems, type DrillFile, type DrillItem } from '~/utils/drill'
 import { scoreQuiz, type Verdict } from '~/utils/quiz'
 import { LESSON_TITLE_KEY } from '~/utils/mistakes'
 import { normalizePath } from '~/utils/nav'
 
 const SESSION = 10
+// Dictation keeps to short sentences: a long one tests memory span, not hearing.
+const LISTEN_MAX_WORDS = 6
 
 const props = defineProps<{ id: string }>()
 const { app } = useRuntimeConfig()
@@ -20,8 +22,10 @@ const failed = ref(false)
 const session = ref<DrillItem[]>([])
 const verdicts = ref<(Verdict | null)[]>([])
 const round = ref(0)
+const mode = ref<'fill' | 'listen'>('fill')
 
-async function start() {
+async function start(next: 'fill' | 'listen' = mode.value) {
+  mode.value = next
   if (!file.value) {
     loading.value = true
     failed.value = false
@@ -34,18 +38,25 @@ async function start() {
     }
   }
   if (!file.value) return
-  session.value = sampleItems(file.value.items, SESSION)
+  const pool =
+    mode.value === 'listen'
+      ? file.value.items.filter((i) => fullSentence(i).split(/\s+/).length <= LISTEN_MAX_WORDS)
+      : file.value.items
+  session.value = sampleItems(pool, SESSION)
   verdicts.value = session.value.map(() => null)
   round.value++
 }
 
-const questions = computed<InputQuestion[]>(() =>
-  session.value.map((item) => ({
-    type: 'input',
-    q: `${item.pl} (${item.hint})`,
-    answer: item.answer,
-    explain: item.ru,
-  })),
+function fullSentence(item: DrillItem): string {
+  return item.pl.replace(BLANK, item.answer)
+}
+
+const questions = computed<(InputQuestion | ListenQuestion)[]>(() =>
+  session.value.map((item) =>
+    mode.value === 'listen'
+      ? { type: 'listen', q: 'Напишите, что услышите.', text: fullSentence(item), explain: item.ru }
+      : { type: 'input', q: `${item.pl} (${item.hint})`, answer: item.answer, explain: item.ru },
+  ),
 )
 
 function onAnswered(index: number, verdict: Verdict) {
@@ -71,15 +82,31 @@ const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict =
       <strong>Тренажёр{{ file ? `: ${file.title}` : '' }}</strong>
     </p>
     <p class="drill-instruction">
-      {{ file?.instruction ?? 'Десять предложений из словаря — каждый раз новые.' }}
+      {{
+        session.length > 0 && mode === 'listen'
+          ? 'Прослушайте предложение и запишите его целиком.'
+          : (file?.instruction ?? 'Десять предложений из словаря — каждый раз новые.')
+      }}
     </p>
-    <button v-if="session.length === 0" type="button" :disabled="loading" @click="start">
-      {{ loading ? 'Загружаю…' : 'Начать' }}
-    </button>
+    <div v-if="session.length === 0" class="drill-start">
+      <button type="button" :disabled="loading" @click="start('fill')">
+        {{ loading ? 'Загружаю…' : 'Начать' }}
+      </button>
+      <button type="button" :disabled="loading" @click="start('listen')">На слух</button>
+    </div>
     <p v-if="failed" class="drill-error" role="alert">Не удалось загрузить предложения.</p>
     <ol v-if="session.length > 0" :key="round" class="drill-questions">
       <li v-for="(item, i) in session" :key="i" class="drill-question">
-        <QuizText :question="questions[i]!" @answered="onAnswered(i, $event)" />
+        <QuizListen
+          v-if="questions[i]?.type === 'listen'"
+          :question="questions[i] as ListenQuestion"
+          @answered="onAnswered(i, $event)"
+        />
+        <QuizText
+          v-else
+          :question="questions[i] as InputQuestion"
+          @answered="onAnswered(i, $event)"
+        />
         <NuxtLink v-if="verdicts[i]" :to="`/slovo/${item.card}`" class="drill-card"
           >карточка слова</NuxtLink
         >
@@ -87,7 +114,10 @@ const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict =
     </ol>
     <div v-if="done" class="drill-summary" role="status">
       <strong>{{ score.correct }} из {{ score.total }}</strong>
-      <button type="button" @click="start">Ещё {{ SESSION }}</button>
+      <button type="button" @click="start(mode)">Ещё {{ SESSION }}</button>
+      <button type="button" @click="start(mode === 'listen' ? 'fill' : 'listen')">
+        {{ mode === 'listen' ? 'С пропуском' : 'На слух' }}
+      </button>
     </div>
   </section>
 </template>
@@ -130,8 +160,12 @@ const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict =
   align-items: center;
   gap: 0.5rem;
 }
-.drill-summary button {
+.drill-summary button:first-of-type {
   margin-left: auto;
+}
+.drill-start {
+  display: flex;
+  gap: 0.5rem;
 }
 .drill-error {
   color: var(--false-friend);

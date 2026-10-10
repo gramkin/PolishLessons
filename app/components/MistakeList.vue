@@ -8,6 +8,7 @@ function answerOf(m: Mistake): string {
   const q = m.question
   if (q.type === 'choice') return q.options[q.answer] ?? ''
   if (q.type === 'match') return ''
+  if (q.type === 'listen') return q.text
   return Array.isArray(q.answer) ? (q.answer[0] ?? '') : q.answer
 }
 </script>
