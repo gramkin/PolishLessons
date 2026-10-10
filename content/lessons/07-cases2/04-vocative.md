@@ -25,12 +25,42 @@ rows:
 ---
 ::
 
+## Как образуется
+
+- **Женские на -a** меняют его на **-o**: *mama → mamo*, *siostra → siostro*, *Anna → Anno*. Мужские на -a делают так же: *tata → tato*, *kolega → kolego*.
+- **Ласковые на -cia, -sia, -nia, -dzia** берут **-u**: *babcia → babciu*, *Kasia → Kasiu*, *Ania → Aniu*.
+- **Мужские на твёрдый согласный** берут **-e** со смягчением, как в предложном падеже: *Jan → Janie*, *profesor → profesorze*, *doktor → doktorze*, *pan → panie*.
+- **Мужские на k, g, ch и на мягкий согласный** берут **-u**: *Marek → Marku*, *Tomek → Tomku*, *przyjaciel → przyjacielu*. Сюда же исключение *syn → synu*.
+
+Во множественном числе звательный совпадает с именительным: :pron{pl="Drodzy państwo!"} — Дорогие дамы и господа!
+
+::quiz
+---
+questions:
+  - type: input
+    q: "Marek → ___ (звательный)"
+    answer: Marku
+    explain: "После k — окончание -u, а беглое e выпадает: Marek → Marku, как Tomek → Tomku."
+  - type: choice
+    q: "Piotr → ?"
+    options: [Piotru, Piotrze, Piotro]
+    answer: 1
+    explain: "Твёрдый r перед -e смягчается в rz: Piotr → Piotrze, как profesor → profesorze."
+  - type: input
+    q: "Anna → ___ (звательный)"
+    answer: Anno
+    explain: "Женский род на -a: -a → -o, Anna → Anno."
+---
+::
+
 ## Где он обязателен
 
 Прежде всего в вежливом обращении. Слово :pl-word{id="pan"} в обращении звучит как **panie**, а не *pan*:
 
 :pron{pl="Panie profesorze, mam pytanie."} — Господин профессор, у меня вопрос.
 :pron{pl="Proszę pana, gdzie jest dworzec?"} — Извините, где вокзал?
+
+Рядом живёт и оборот **proszę pana** / **proszę pani** — «простите, господин / госпожа». Это не звательный, а форма после *proszę* (как *proszę kawy*), но работает так же — как вежливое обращение к незнакомому человеку.
 
 И в письмах: *Drogi Janie*, *Szanowna Pani*.
 

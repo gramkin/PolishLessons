@@ -7,6 +7,8 @@ level: A1
 words: [chleb, ucho, mucha, duch, chata, szkola, szum, kasza, mysz, szyja, czarny, czlowiek, czysty, cztery, zaba, zona, zolty, zyc, radosc, gosc, kosc, czesc-noun, mlodosc, byc, pic, bic, myc, miec, dzien, dzieci, dziewiec]
 ---
 
+<!-- review -->
+
 Эти соответствия почти не требуют запоминания: польское написание просто передаёт знакомые русские звуки.
 
 ## Шипящие и ch
@@ -35,6 +37,8 @@ words: [chleb, ucho, mucha, duch, chata, szkola, szum, kasza, mysz, szyja, czarn
 ::cognate-list{pattern="ć-ть"}
 ::
 
+Если русский глагол кончается на **-чь**, польский — на **-c**: :pron{pl="móc" ru="муц"} — «мочь», :pron{pl="strzyc" ru="стшыц"} — «стричь».
+
 Мягкое **dzi** часто стоит на месте русского **де**:
 
 ::cognate-list{pattern="dzi-де"}
@@ -48,14 +52,17 @@ questions:
     q: Русское «радость» → по-польски?
     pattern: ść-сть
     answer: radość
+    explain: "-сть → -ść: радость — radość."
   - type: pattern
     q: Русское «пить» → по-польски?
     pattern: ć-ть
     answer: pić
+    explain: "-ть → -ć: пить — pić."
   - type: pattern
     q: Русское «день» → по-польски?
     pattern: dzi-де
     answer: dzień
+    explain: "де → dzie: день — dzień."
   - type: match
     q: Соедините слова
     pairs:
@@ -63,5 +70,6 @@ questions:
       - [czarny, чёрный]
       - [żona, жена]
       - [chleb, хлеб]
+    explain: "sz — «ш», cz — «ч», ż — «ж», ch — «х»."
 ---
 ::

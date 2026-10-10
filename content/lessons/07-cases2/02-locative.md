@@ -59,13 +59,20 @@ questions:
 ---
 ::
 
-## Когда окончание -u
+## Когда окончание -u, -i или -y
 
 Мужские и средние слова на **k, g, ch** и мужские на мягкий согласный (в том числе на **l**) берут **-u** и ничего не меняют. Так же ведут себя несколько частых слов: **dom → w domu**, **syn → o synu**, **pan → o panu**. Женские слова это правило не затрагивает: **książka → o książce**, **noga → na nodze**.
 
 :pron{pl="Jestem w domu."} — Я дома.
 :pron{pl="Mieszkam w hotelu."} — Я живу в отеле.
 :pron{pl="Jedziemy w pociągu."} — Мы едем в поезде.
+
+Третья группа — женские слова на **-ca, -cza, -ża, -rza, -ja, -ia** и на мягкий согласный. Они берут **-y** (после c, cz, ż, rz) или **-i** (после остальных) и тоже ничего не смягчают — основа уже мягкая:
+
+:pron{pl="Jestem w pracy."} — Я на работе.
+:pron{pl="Mieszkam na ulicy Długiej."} — Я живу на Длугой улице.
+:pron{pl="Jemy w restauracji."} — Мы едим в ресторане.
+:pron{pl="Gotuję w kuchni."} — Я готовлю на кухне.
 
 ::quiz
 ---
@@ -83,6 +90,15 @@ questions:
     q: "Książka leży na ___. (stolik)"
     answer: stoliku
     explain: "Основа на k — -u: na stoliku."
+  - type: input
+    q: "Czekam na ___. (ulica)"
+    answer: ulicy
+    explain: "Женский род на -ca: в предложном -y, без смягчения: ulica → na ulicy."
+  - type: choice
+    q: "Spotkajmy się w ___. (kawiarnia)"
+    options: [kawiarnie, kawiarni, kawiarnią]
+    answer: 1
+    explain: "Женский род на -nia: в предложном -i: kawiarnia → w kawiarni. Форма kawiarnią — творительный."
 ---
 ::
 

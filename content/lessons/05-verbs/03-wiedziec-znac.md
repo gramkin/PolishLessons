@@ -31,6 +31,10 @@ rows:
 
 Спряжение нерегулярное, четвёртое спряжение: *wiem, wiesz, wie, wiemy, wiecie, wiedzą*.
 
+По тому же образцу, но с «они» на **-eją**, спрягается :pl-word{id="rozumiec"} «понимать»: *rozumiem, rozumiesz, rozumie, rozumiemy, rozumiecie, rozumieją*. Самая нужная фраза с ним:
+
+:pron{pl="Nie rozumiem."} — Я не понимаю.
+
 ::quiz
 ---
 questions:
@@ -56,6 +60,8 @@ questions:
 
 :pron{pl="Znam Toma."} — Я знаю Тома.
 :pron{pl="Znam to miasto."} — Я знаю этот город.
+
+Язык можно и «знать», и «говорить» на нём, как в русском: :pron{pl="Znam polski."} и :pron{pl="Mówię po polsku."}
 
 <!-- negative example: deliberately NOT :pron — the phrase is ungrammatical
      and must not get a listen button that would read it aloud -->

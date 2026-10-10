@@ -4,7 +4,7 @@ description: "Календарь по-польски: дни, месяцы и к
 chapter: 12
 order: 3
 level: A2
-words: [tydzien, miesiac, rok, dzien, jutro]
+words: [tydzien, miesiac, rok, dzien, jutro, urodzic]
 ---
 
 <!-- review -->
@@ -15,13 +15,13 @@ headers: [Польский, Русский, Осторожно]
 plColumns: [0]
 rows:
   - ["!dzień", день, ""]
-  - ["!tydzień", неделя, "не «тысяча»"]
+  - ["!tydzień", неделя, "а niedziela — воскресенье"]
   - ["!miesiąc", месяц, ""]
   - ["!rok", год, "не «рок»"]
 ---
 ::
 
-:pl-word{id="tydzien"} «неделя» склоняется необычно: *tydzień*, но *w tygodniu* «на неделе». Основа меняется, как у русского «день — дня».
+У :pl-word{id="dzien"} беглое **e**, как в русском: *dzień* → *dnia* «день → дня». А :pl-word{id="tydzien"} «неделя» меняется сильнее: *tygodnia*, *w tygodniu* «на неделе» — эти формы просто запоминают.
 
 :pron{pl="W tym tygodniu jestem zajęty."} — На этой неделе я занят.
 :pron{pl="W przyszłym miesiącu jadę do Polski."} — В следующем месяце я еду в Польшу.
@@ -48,6 +48,35 @@ rows:
 Логика та же, что в старом русском: «неделя» — день, когда ничего не делают, а семидневка от него отсчитывается («по-недельник» — день после недели).
 
 :pron{pl="W niedzielę odpoczywam."} — В воскресенье я отдыхаю.
+
+«В какой день» — **w** с винительным падежом: *w poniedziałek*, *w środę*, *w sobotę*, а перед **w-** предлог становится **we**: *we wtorek*.
+
+## Месяцы и даты
+
+::compare-table
+---
+headers: [Польский, Русский, Польский, Русский]
+plColumns: [0, 2]
+rows:
+  - [styczeń, январь, lipiec, июль]
+  - [luty, февраль, sierpień, август]
+  - [marzec, март, wrzesień, сентябрь]
+  - [kwiecień, апрель, październik, октябрь]
+  - [maj, май, listopad, ноябрь]
+  - [czerwiec, июнь, grudzień, декабрь]
+---
+::
+
+Польские месяцы — славянские, а не латинские, поэтому их надо выучить. Ловушка — **listopad**: это ноябрь, хотя «листопад» звучит как октябрь.
+
+«В каком месяце» — **w** с предложным: *w maju*, *w lipcu*, *w styczniu*, *we wrześniu*.
+
+:pron{pl="W lipcu jadę nad morze."} — В июле я еду на море.
+
+Дату называют порядковым числительным и месяцем в родительном падеже, как в русском:
+
+:pron{pl="Dzisiaj jest piąty maja."} — Сегодня пятое мая.
+:pron{pl="Urodziłem się dwudziestego marca."} — Я родился двадцатого марта.
 
 ## Вчера, сегодня, завтра
 

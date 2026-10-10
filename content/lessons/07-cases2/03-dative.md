@@ -32,6 +32,8 @@ rows:
 
 Мужской род берёт длинное **-owi**, и это первое, что бросается в глаза: не *studentu*, а *studentowi*. Исключений немного, но они частые: **brat → bratu**, **pan → panu**, **ojciec → ojcu**, **pies → psu**. Поэтому в первом примере — *bratu*.
 
+Женский дательный учить заново не нужно: он совпадает с предложным из прошлого урока — *mamie*, *siostrze*, *pracy*. Средний род берёт **-u**: *miasto → miastu*. Мужские слова на **-a** (*kolega*, *tata*) склоняются как женские: *koledze*, *tacie*.
+
 ::quiz
 ---
 questions:
@@ -95,6 +97,47 @@ questions:
 ---
 ::
 
+## Местоимения в дательном
+
+В примерах выше уже встречались *ci* и *mi*. Вот все формы:
+
+::compare-table
+---
+headers: [Кто, Дательный, Ударная форма, Русский]
+plColumns: [1, 2]
+rows:
+  - [ja, mi, mnie, мне]
+  - [ty, ci, tobie, тебе]
+  - ["on, ono", mu, jemu, ему]
+  - [ona, jej, jej, ей]
+  - [my, nam, nam, нам]
+  - [wy, wam, wam, вам]
+  - ["oni, one", im, im, им]
+---
+::
+
+Обычно говорят короткую форму: :pron{pl="Daj mi spokój."} — Оставь меня в покое. Ударную берут для логического ударения и в начале фразы: :pron{pl="Tobie wierzę, a jemu nie."} — Тебе я верю, а ему нет.
+
+::quiz
+---
+questions:
+  - type: choice
+    q: "Pomóż ___! (ja)"
+    options: [mnie, mi, mną]
+    answer: 1
+    explain: "pomagać / pomóc + дательный; без ударения — короткая форма mi: pomóż mi, «помоги мне». Mną — творительный."
+  - type: input
+    q: "Dziękuję ___. (on)"
+    answer: mu
+    explain: "Дательный от on — mu (ударная форма jemu): dziękuję mu, «благодарю его»."
+  - type: choice
+    q: "Daję ___ prezent. (oni)"
+    options: [ich, im, nimi]
+    answer: 1
+    explain: "Дательный «им» — im. Ich — родительный и винительный, nimi — творительный."
+---
+::
+
 ## Przeszkadzać — мешать
 
 :pron{pl="Nie przeszkadzaj mi."} — Не мешай мне.
@@ -135,7 +178,7 @@ questions:
     explain: "pomagać + дательный; mama → mamie (m смягчается)."
   - type: input
     q: "Мужское окончание дательного падежа?"
-    answer: owi
+    answer: [owi, "-owi"]
     explain: "-owi: studentowi, nauczycielowi."
   - type: match
     q: Соедините глагол и дополнение

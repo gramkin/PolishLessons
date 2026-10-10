@@ -4,7 +4,7 @@ description: Пять глаголов, у которых основа меня�
 chapter: 8
 order: 4
 level: A2
-words: [powiedziec, zrobic, urodzic]
+words: [isc, moc, jesc, zaczac, wiedziec]
 ---
 
 <!-- review -->
@@ -17,7 +17,7 @@ headers: [Инфинитив, "он", "она", "они (м.-л.)", Что сл�
 plColumns: [0, 1, 2, 3]
 rows:
   - ["!iść", szedł, szła, szli, "основа заменилась целиком"]
-  - ["!móc", mógł, mogła, mogli, "ó только в мужском роде"]
+  - ["!móc", mógł, mogła, mogli, "ó только в форме «он»"]
   - ["!jeść", jadł, jadła, jedli, "e только перед -li: jedli, но jadły"]
   - ["!zacząć", zaczął, zaczęła, zaczęli, "ą / ę"]
   - ["!wiedzieć", wiedział, wiedziała, wiedzieli, "a / e перед -li"]

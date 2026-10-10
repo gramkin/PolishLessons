@@ -107,6 +107,7 @@ questions:
 
 :pron{pl="Mieszkam obok szkoły."} — Я живу рядом со школой.
 :pron{pl="Wracam z pracy."} — Я возвращаюсь с работы.
+:pron{pl="Według mnie to dobry pomysł."} — По-моему, это хорошая идея.
 
 ::quiz
 ---

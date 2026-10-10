@@ -18,10 +18,10 @@ plColumns: [0, 3]
 rows:
   - ["!rodzina", семья, родина, ojczyzna]
   - ["!zawód", профессия, завод, fabryka]
-  - ["!uroda", красота, урод, potwór]
+  - ["!uroda", красота, урод, brzydal]
   - ["!duma", гордость, дума, myśl]
   - ["!wesele", свадьба, веселье, zabawa]
-  - ["!wieś", деревня, весь, "—"]
+  - ["!wieś", деревня, весь, cały]
 ---
 ::
 
@@ -30,7 +30,7 @@ rows:
 :pron{pl="Mam dużą rodzinę."} — У меня большая семья.
 :pron{pl="Jaki jest pana zawód?"} — Какая у вас профессия?
 
-:pl-word{id="rodzina"} и :pl-word{id="zawod"} встретятся в первом же разговоре о себе.
+:pl-word{id="rodzina"} и :pl-word{id="zawod"} встретятся в первом же разговоре о себе. У *zawód* есть и второе значение — «разочарование»: *sprawić komuś zawód* «разочаровать кого-то».
 
 ## Комплименты
 

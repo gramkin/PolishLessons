@@ -35,6 +35,8 @@ rows:
 :pron{pl="Nie mam czasu."} — У меня нет времени.
 :pron{pl="Nie czytam książki."} — Я не читаю книгу.
 
+Правило касается только винительного. Дополнения в других падежах с **nie** не меняются: *nie pomagam mamie* (дательный), *nie jestem lekarzem* (творительный).
+
 ::quiz
 ---
 questions:

@@ -23,8 +23,8 @@ words: [nauczyciel, program, temat, problem, adres]
 headers: [Группа, Местоимение, Множественное, Пример]
 plColumns: [1, 2, 3]
 rows:
-  - ["!мужской личный", oni, "-i / -y", "nauczyciele, poeci, bracia"]
-  - [остальное, one, "-y / -i / -e", "kobiety, okna, psy, programy"]
+  - ["!мужской личный", oni, "-i / -y / -e / -owie", "poeci, nauczyciele, panowie, bracia"]
+  - [остальное, one, "-y / -i / -e / -a", "kobiety, psy, programy, okna"]
 ---
 ::
 
@@ -56,7 +56,7 @@ questions:
 :pron{pl="Nauczyciele byli zadowoleni."} — Учителя были довольны.
 :pron{pl="Programy były gotowe."} — Программы были готовы.
 
-Глагол тоже меняется: **byli** для мужского личного рода, **były** для всего остального. Разница в одной букве, но она обязательна.
+Глагол тоже меняется: **byli** для мужского личного рода, **były** для всего остального. Разница в одной букве, но она обязательна. Так же делится и прилагательное: *zadowoleni* о мужчинах, *zadowolone* обо всех остальных. Прошедшее время подробно разобрано в главе 8, здесь нужны только эти две формы.
 
 ::quiz
 ---
@@ -85,6 +85,8 @@ questions:
 :pron{pl="te programy"}, :pron{pl="te tematy"}, :pron{pl="one były"}.
 
 А вот :pl-word{id="nauczyciel"} — человек, и значит: *ci nauczyciele*, *oni byli*.
+
+Указательное слово «эти» тоже делится надвое: **ci** — для мужского личного рода, **te** — для всего остального.
 
 ::quiz
 ---
