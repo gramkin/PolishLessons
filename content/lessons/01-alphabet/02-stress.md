@@ -45,6 +45,21 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: telefon
+    explain: "Ударение на предпоследнем слоге, но на письме его не видно: telefon, без изменений в буквах."
+  - type: listen
+    text: matematyka
+    explain: "Ударение на третьем слоге с конца (ma-te-MA-ty-ka), а пишется как слышится: matematyka."
+  - type: listen
+    text: uniwersytet
+    explain: "Безударные гласные не ослабляются, поэтому пишется ровно то, что слышно: uniwersytet."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

@@ -116,6 +116,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я забыл ключи."
+    answer: ["Zapomniałem kluczy."]
+    explain: "zapomnieć — «забыть», с родительным: kluczy. «Запомнить» — zapamiętać."
+  - type: translate
+    q: "Запомни этот номер."
+    answer: ["Zapamiętaj ten numer."]
+    explain: "«Запомнить» — zapamiętać. Zapomnij значит «забудь»."
+  - type: translate
+    q: "Он спросил о цене."
+    answer: ["Zapytał o cenę.", "On zapytał o cenę.", "Spytał o cenę.", "On spytał o cenę."]
+    explain: "pytać / zapytać — «спрашивать / спросить», а не «пытать»; o + винительный: o cenę."
+  - type: translate
+    q: "Свет внезапно погас."
+    answer: ["Światło nagle zgasło.", "Nagle zgasło światło."]
+    explain: "nagle — «внезапно». Русское «нагло» по-польски bezczelnie."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

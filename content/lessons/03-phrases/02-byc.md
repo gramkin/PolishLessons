@@ -45,6 +45,28 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Я дома.
+    answer: [Jestem w domu., Ja jestem w domu.]
+    explain: "Глагол być пропускать нельзя: jestem. А местоимение ja обычно опускают."
+  - type: translate
+    q: Они (девушки) в школе.
+    answer: [One są w szkole., Są w szkole.]
+    explain: "В группе нет мужчин — one; «они есть» — są."
+  - type: translate
+    q: Мы не дома.
+    answer: [Nie jesteśmy w domu., My nie jesteśmy w domu.]
+    explain: "nie ставится прямо перед глаголом: nie jesteśmy."
+  - type: translate
+    q: Ты студентка?
+    answer: [Jesteś studentką?, Czy jesteś studentką?, Ty jesteś studentką?]
+    explain: "После być — творительный: studentką. Глагол jesteś обязателен, хотя по-русски его нет."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

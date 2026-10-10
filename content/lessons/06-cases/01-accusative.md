@@ -174,6 +174,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я читаю газету."
+    answer: ["Czytam gazetę.", "Ja czytam gazetę."]
+    explain: "Женский род на -a в винительном: -a → -ę, gazetę, как «газету»."
+  - type: translate
+    q: "Я вижу брата."
+    answer: ["Widzę brata.", "Ja widzę brata."]
+    explain: "Мужской одушевлённый: винительный = родительный, brata."
+  - type: translate
+    q: "Я тебя люблю."
+    answer: ["Kocham cię.", "Ja cię kocham.", "Kocham ciebie.", "Ja ciebie kocham."]
+    explain: "Винительный от ty — cię (под ударением ciebie): kocham cię."
+  - type: translate
+    q: "Мы идём на почту."
+    answer: ["Idziemy na pocztę.", "My idziemy na pocztę."]
+    explain: "na в значении «куда?» — винительный: pocztę."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

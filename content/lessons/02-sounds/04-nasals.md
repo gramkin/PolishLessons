@@ -69,6 +69,24 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: ząb
+    explain: "Перед b носовое ą звучит как «ом»: ząb. На месте русского «у» в «зуб» — ą."
+  - type: listen
+    text: mąż
+    explain: "Перед ż ą — носовое «оу̃», без «н»: mąż — «муж»."
+  - type: listen
+    text: ręka
+    explain: "Перед k ę звучит как «эн»: ręka — «рука»."
+  - type: listen
+    text: mięso
+    explain: "Перед s ę — носовое «эу̃»: mięso — «мясо»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: pattern

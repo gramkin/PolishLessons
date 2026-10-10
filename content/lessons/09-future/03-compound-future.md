@@ -120,6 +120,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я (ж.) буду читать."
+    answer: ["Będę czytać.", "Będę czytała."]
+    explain: "Несовершенный вид — составное будущее: będę + инфинитив или форма на -ł (czytała у женщины)."
+  - type: translate
+    q: "Мы (о мужчинах) будем работать."
+    answer: ["Będziemy pracować.", "Będziemy pracowali."]
+    explain: "my → będziemy. Форма на -ł у мужско-личной группы — pracowali."
+  - type: translate
+    q: "Завтра она будет писать письма."
+    answer: ["Jutro będzie pisać listy.", "Jutro będzie pisała listy.", "Ona jutro będzie pisać listy.", "Ona jutro będzie pisała listy."]
+    explain: "ona → będzie; затем инфинитив pisać или женская форма pisała."
+  - type: translate
+    q: "Мне (м.) придётся уйти."
+    answer: ["Będę musiał wyjść."]
+    explain: "«Придётся» — будущее от musieć. С модальными глаголами берут форму на -ł: będę musiał."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

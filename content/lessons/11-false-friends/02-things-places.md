@@ -111,6 +111,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я жду на вокзале."
+    answer: ["Czekam na dworcu."]
+    explain: "«Вокзал» — dworzec, на вокзале — na dworcu. «Дворец» — pałac."
+  - type: translate
+    q: "Где магазин?"
+    answer: ["Gdzie jest sklep?"]
+    explain: "«Магазин» — sklep. Польский magazyn — это «склад»."
+  - type: translate
+    q: "Диван стоит в комнате."
+    answer: ["Kanapa stoi w pokoju."]
+    explain: "«Диван» — kanapa: dywan значит «ковёр». «Комната» — pokój, в предложном w pokoju."
+  - type: translate
+    q: "Зеркало висит на стене."
+    answer: ["Lustro wisi na ścianie."]
+    explain: "lustro — «зеркало», а «люстра» — żyrandol. Na ścianie — предложный от ściana."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

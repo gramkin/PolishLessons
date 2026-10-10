@@ -156,6 +156,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Дома нет хлеба."
+    answer: ["W domu nie ma chleba.", "Nie ma chleba w domu."]
+    explain: "Отсутствие — nie ma + родительный: chleba, как «нет хлеба»."
+  - type: translate
+    q: "У меня много работы."
+    answer: ["Mam dużo pracy.", "Ja mam dużo pracy."]
+    explain: "dużo + родительный: praca → pracy, «много работы»."
+  - type: translate
+    q: "Это для мамы."
+    answer: ["To dla mamy.", "To jest dla mamy."]
+    explain: "dla «для» + родительный: mama → mamy."
+  - type: translate
+    q: "Чай без сахара."
+    answer: ["Herbata bez cukru."]
+    explain: "bez + родительный: cukier → cukru, беглое e выпадает."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

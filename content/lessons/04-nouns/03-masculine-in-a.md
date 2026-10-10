@@ -114,6 +114,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: этот поэт
+    answer: [ten poeta]
+    explain: "poeta кончается на -a, но мужского рода: ten poeta."
+  - type: translate
+    q: Он водитель.
+    answer: [On jest kierowcą., Jest kierowcą.]
+    explain: "После być — творительный по женскому образцу: kierowca → kierowcą."
+  - type: translate
+    q: Я знаю этого поэта.
+    answer: [Znam tego poetę.]
+    explain: "Винительный по женскому образцу (poetę), но указательное слово мужское: tego."
+  - type: translate
+    q: Это мой коллега.
+    answer: [To mój kolega., To jest mój kolega.]
+    explain: "kolega мужского рода: mój kolega, а не moja."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

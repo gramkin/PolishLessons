@@ -167,6 +167,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Во вторник я работаю."
+    answer: ["We wtorek pracuję.", "Pracuję we wtorek."]
+    explain: "День недели — w + винительный; перед w- предлог становится we: we wtorek."
+  - type: translate
+    q: "Сегодня пятое мая."
+    answer: ["Dzisiaj jest piąty maja.", "Dziś jest piąty maja."]
+    explain: "Дата — порядковое числительное и месяц в родительном: piąty maja."
+  - type: translate
+    q: "В июле я еду на море."
+    answer: ["W lipcu jadę nad morze.", "Jadę nad morze w lipcu."]
+    explain: "Месяц — w + предложный: w lipcu. «На море» (куда) по-польски nad morze."
+  - type: translate
+    q: "Я родился двадцатого марта."
+    answer: ["Urodziłem się dwudziestego marca."]
+    explain: "В дате «когда?» числительное и месяц — в родительном: dwudziestego marca."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

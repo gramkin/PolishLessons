@@ -57,6 +57,24 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: szkoła
+    explain: "«ш» — sz, а «у» после о — ł: szkoła."
+  - type: listen
+    text: czarny
+    explain: "Твёрдое «ч» пишется cz: czarny."
+  - type: listen
+    text: dziewczyna
+    explain: "Мягкое «дзь» перед гласной — dzi, а «ч» — cz: dziewczyna."
+  - type: listen
+    text: dźwięk
+    explain: "Перед согласной мягкость ставят чёрточкой: dź. А «эн» перед k — носовое ę: dźwięk."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

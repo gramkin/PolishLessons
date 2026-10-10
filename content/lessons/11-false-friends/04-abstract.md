@@ -113,6 +113,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "У меня нет времени."
+    answer: ["Nie mam czasu.", "Czasu nie mam."]
+    explain: "czas — «время», а «час» — godzina. После nie mam — родительный: czasu."
+  - type: translate
+    q: "Это важное дело."
+    answer: ["To ważna sprawa.", "To jest ważna sprawa."]
+    explain: "sprawa — «дело», а «справа» — po prawej."
+  - type: translate
+    q: "Я написал письмо."
+    answer: ["Napisałem list."]
+    explain: "list — «письмо». Лист дерева — liść, лист бумаги — kartka."
+  - type: translate
+    q: "По-моему, это хорошая идея."
+    answer: ["Moim zdaniem to dobry pomysł.", "Moim zdaniem to jest dobry pomysł."]
+    explain: "moim zdaniem — «по-моему», дословно «моим мнением». «Здание» — budynek."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

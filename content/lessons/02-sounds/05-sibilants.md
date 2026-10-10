@@ -46,6 +46,24 @@ words: [chleb, ucho, mucha, duch, chata, szkola, szum, kasza, mysz, szyja, czarn
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: kasza
+    explain: "«ш» пишется sz: kasza — «каша»."
+  - type: listen
+    text: człowiek
+    explain: "Твёрдое «ч» — cz, а «у» после ч — ł: człowiek."
+  - type: listen
+    text: żona
+    explain: "«ж» здесь пишется ż, не rz: на месте русского «ж» в «жена» обычно ż."
+  - type: listen
+    text: radość
+    explain: "-ość на месте русского «-ость»: radość — «радость»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: pattern

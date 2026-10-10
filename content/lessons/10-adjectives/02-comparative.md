@@ -122,6 +122,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Мой брат старше меня."
+    answer: ["Mój brat jest starszy ode mnie.", "Mój brat jest starszy niż ja.", "Mój brat jest ode mnie starszy."]
+    explain: "starszy od + родительный (перед mnie — ode) или niż + именительный: niż ja."
+  - type: translate
+    q: "Это самый интересный фильм."
+    answer: ["To jest najciekawszy film.", "To najciekawszy film."]
+    explain: "Превосходная степень — naj- + ciekawszy: najciekawszy."
+  - type: translate
+    q: "Эта улица длиннее."
+    answer: ["Ta ulica jest dłuższa."]
+    explain: "długi → dłuższy (g → ż); ulica женского рода, поэтому dłuższa."
+  - type: translate
+    q: "Моя сестра моложе."
+    answer: ["Moja siostra jest młodsza."]
+    explain: "młody → młodszy; siostra женского рода — młodsza."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

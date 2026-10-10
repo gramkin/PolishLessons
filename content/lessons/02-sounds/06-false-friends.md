@@ -86,6 +86,24 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: dworzec
+    explain: "dworzec — «вокзал», а не «дворец». «ж» здесь пишется rz, как в русском «двор-»."
+  - type: listen
+    text: sklep
+    explain: "sklep — «магазин», а не «склеп»."
+  - type: listen
+    text: uroda
+    explain: "uroda — «красота», а не «урод»."
+  - type: listen
+    text: list
+    explain: "list — «письмо», а не «лист»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

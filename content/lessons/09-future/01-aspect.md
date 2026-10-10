@@ -111,6 +111,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я (м.) прочитал книгу."
+    answer: ["Przeczytałem książkę."]
+    explain: "Результат — совершенный вид: przeczytać, как «прочитать»."
+  - type: translate
+    q: "Весь вечер я (ж.) читала."
+    answer: ["Cały wieczór czytałam.", "Czytałam cały wieczór."]
+    explain: "«Весь вечер» — процесс, поэтому несовершенный вид: czytałam."
+  - type: translate
+    q: "Я сейчас пишу письмо."
+    answer: ["Teraz piszę list.", "Piszę teraz list."]
+    explain: "Сейчас — только несовершенный вид: piszę. Napiszę значило бы «напишу»."
+  - type: translate
+    q: "Ты (м.) уже съел обед?"
+    answer: ["Zjadłeś już obiad?", "Czy zjadłeś już obiad?", "Już zjadłeś obiad?"]
+    explain: "Результат — совершенный zjeść: zjadłeś, как «съел»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

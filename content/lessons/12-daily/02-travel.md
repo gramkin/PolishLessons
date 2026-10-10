@@ -124,6 +124,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я еду в Краков."
+    answer: ["Jadę do Krakowa."]
+    explain: "«Куда?» в город — do + родительный: do Krakowa, а не «w Kraków»."
+  - type: translate
+    q: "Я живу в Варшаве."
+    answer: ["Mieszkam w Warszawie."]
+    explain: "«Где?» — w + предложный: Warszawa → w Warszawie."
+  - type: translate
+    q: "Один билет до Гданьска, пожалуйста."
+    answer: ["Poproszę jeden bilet do Gdańska.", "Poproszę bilet do Gdańska.", "Jeden bilet do Gdańska, proszę."]
+    explain: "Вежливая просьба — poproszę; направление — do + родительный: do Gdańska."
+  - type: translate
+    q: "Я еду поездом."
+    answer: ["Jadę pociągiem."]
+    explain: "Транспорт — творительный без предлога: pociągiem, а не «na pociągu»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

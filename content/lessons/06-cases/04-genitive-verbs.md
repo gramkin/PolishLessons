@@ -129,6 +129,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я слушаю музыку."
+    answer: ["Słucham muzyki.", "Ja słucham muzyki."]
+    explain: "słuchać + родительный: muzyki. Русское «слушаю музыку» толкает к винительному."
+  - type: translate
+    q: "Я ищу работу."
+    answer: ["Szukam pracy.", "Ja szukam pracy."]
+    explain: "szukać + родительный: praca → pracy."
+  - type: translate
+    q: "Мне нужна помощь."
+    answer: ["Potrzebuję pomocy.", "Ja potrzebuję pomocy."]
+    explain: "«Мне нужно» — личное potrzebuję, и после него родительный: pomocy."
+  - type: translate
+    q: "Я учу польский."
+    answer: ["Uczę się polskiego.", "Ja uczę się polskiego.", "Uczę się języka polskiego."]
+    explain: "uczyć się + родительный: polskiego. По-русски «учу польский» — винительный."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

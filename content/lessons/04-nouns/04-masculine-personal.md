@@ -130,6 +130,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Учителя были довольны.
+    answer: [Nauczyciele byli zadowoleni.]
+    explain: "Учителя — люди, мужской личный род: byli и zadowoleni."
+  - type: translate
+    q: Программы были готовы.
+    answer: [Programy były gotowe.]
+    explain: "Программы — не люди: były и gotowe."
+  - type: translate
+    q: эти учителя
+    answer: [ci nauczyciele]
+    explain: "«Эти» о мужчинах — ci; обо всём остальном — te."
+  - type: translate
+    q: эти адреса
+    answer: [te adresy]
+    explain: "adres мужского рода, но это не человек: te adresy."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

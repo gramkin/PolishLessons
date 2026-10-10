@@ -204,6 +204,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Ты хорошо пишешь."
+    answer: ["Dobrze piszesz.", "Piszesz dobrze.", "Ty dobrze piszesz.", "Ty piszesz dobrze."]
+    explain: "pisać — I спряжение: piszę, piszesz. Местоимение ty можно опустить: форма уже говорит «ты»."
+  - type: translate
+    q: "Что вы делаете?"
+    answer: ["Co robicie?", "Co wy robicie?"]
+    explain: "robić — II спряжение, «вы» — robicie: форма «он» robi + -cie."
+  - type: translate
+    q: "Они много читают."
+    answer: ["Dużo czytają.", "Oni dużo czytają.", "Czytają dużo.", "Oni czytają dużo."]
+    explain: "czytać — III спряжение, «они» на -ają: czytają."
+  - type: translate
+    q: "Она ест обед."
+    answer: ["Ona je obiad.", "Je obiad."]
+    explain: "jeść — IV спряжение, «она» — je: форма «ты» jesz без -sz."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

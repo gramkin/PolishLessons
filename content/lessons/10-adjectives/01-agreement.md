@@ -145,6 +145,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Это новая книга."
+    answer: ["To jest nowa książka.", "To nowa książka."]
+    explain: "książka женского рода, поэтому прилагательное на -a: nowa."
+  - type: translate
+    q: "У меня новый телефон."
+    answer: ["Mam nowy telefon."]
+    explain: "«У меня есть» — mam; telefon неодушевлённый, в винительном не меняется: nowy telefon."
+  - type: translate
+    q: "Это хорошие студенты."
+    answer: ["To są dobrzy studenci.", "To dobrzy studenci."]
+    explain: "Мужской личный род: dobry → dobrzy, а не dobre."
+  - type: translate
+    q: "Я живу в большом доме."
+    answer: ["Mieszkam w dużym domu."]
+    explain: "w + предложный: прилагательное тоже в предложном — dużym domu."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

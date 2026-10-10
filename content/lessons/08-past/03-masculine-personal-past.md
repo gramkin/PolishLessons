@@ -115,6 +115,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Мальчики играли в парке."
+    answer: ["Chłopcy grali w parku."]
+    explain: "Мальчики — мужско-личная группа: grali. Русское «играли» одно для всех."
+  - type: translate
+    q: "Девочки играли в парке."
+    answer: ["Dziewczynki grały w parku.", "Dziewczyny grały w parku."]
+    explain: "Мужчин нет — -ły: grały."
+  - type: translate
+    q: "Мама и папа были дома."
+    answer: ["Mama i tata byli w domu."]
+    explain: "Хватает одного мужчины (tata), чтобы группа стала мужско-личной: byli."
+  - type: translate
+    q: "Собаки лаяли всю ночь."
+    answer: ["Psy szczekały całą noc.", "Całą noc szczekały psy."]
+    explain: "Животные не мужско-личные: szczekały, хотя pies — мужского рода."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

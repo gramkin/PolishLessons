@@ -130,6 +130,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я хочу пить."
+    answer: ["Chcę pić.", "Ja chcę pić."]
+    explain: "chcieć + инфинитив, как «хочу пить»: chcę pić."
+  - type: translate
+    q: "Ты можешь прийти?"
+    answer: ["Możesz przyjść?", "Czy możesz przyjść?", "Ty możesz przyjść?"]
+    explain: "móc: mogę, możesz — «ты» через ż."
+  - type: translate
+    q: "Мне надо работать."
+    answer: ["Muszę pracować.", "Ja muszę pracować."]
+    explain: "Безличное «мне надо» польский передаёт личной формой: muszę pracować."
+  - type: translate
+    q: "Тебе не обязательно приходить."
+    answer: ["Nie musisz przychodzić.", "Ty nie musisz przychodzić."]
+    explain: "nie musisz значит «не обязательно», а не «нельзя» (это nie wolno)."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

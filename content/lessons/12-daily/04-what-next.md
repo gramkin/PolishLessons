@@ -89,6 +89,24 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я не знаю этого человека."
+    answer: ["Nie znam tego człowieka."]
+    explain: "znać — знать человека; после nie — родительный: tego człowieka."
+  - type: translate
+    q: "Мы разговариваем с мамой."
+    answer: ["Rozmawiamy z mamą."]
+    explain: "z «вместе с» требует творительного: z mamą."
+  - type: translate
+    q: "Вчера мы были в кино."
+    answer: ["Wczoraj byliśmy w kinie.", "Byliśmy wczoraj w kinie.", "Wczoraj byłyśmy w kinie.", "Byłyśmy wczoraj w kinie."]
+    explain: "Прошедшее время: byliśmy (есть мужчины) или byłyśmy; «где?» — w + предложный: w kinie."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

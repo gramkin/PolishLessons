@@ -134,6 +134,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Я живу в городе.
+    answer: [Mieszkam w mieście.]
+    explain: "w + предложный: miasto → w mieście. st перед -e смягчается в ści, a переходит в e."
+  - type: translate
+    q: Мы говорим о маме.
+    answer: [Mówimy o mamie., Rozmawiamy o mamie.]
+    explain: "o + предложный: mama → o mamie, m перед -e смягчается — как в русском «о маме»."
+  - type: translate
+    q: Книга лежит на столе.
+    answer: [Książka leży na stole.]
+    explain: "Место «где?» после na — предложный: stół → na stole (ó → o, ł → l)."
+  - type: translate
+    q: Я на работе.
+    answer: [Jestem w pracy.]
+    explain: "«На работе» по-польски w pracy: предлог другой, чем в русском, а окончание -y, как у слов на -ca."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

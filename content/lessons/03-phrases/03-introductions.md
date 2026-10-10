@@ -50,6 +50,28 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Вы говорите по-польски? (мужчине)
+    answer: [Czy pan mówi po polsku?, Pan mówi po polsku?]
+    explain: "Вежливое «вы» к мужчине — pan с глаголом в третьем лице: pan mówi. Czy в начале можно опустить."
+  - type: translate
+    q: Как тебя зовут?
+    answer: [Jak masz na imię?, Jak ty masz na imię?]
+    explain: "Дословно «как имеешь на имя»: jak masz na imię."
+  - type: translate
+    q: Я из России.
+    answer: [Jestem z Rosji., Ja jestem z Rosji.]
+    explain: "z + родительный: Rosja → z Rosji. И глагол jestem обязателен."
+  - type: translate
+    q: Очень приятно!
+    answer: [Miło mi!, Bardzo mi miło!]
+    explain: "При знакомстве говорят miło mi — «мне приятно»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

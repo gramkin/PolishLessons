@@ -152,6 +152,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Мама, где ты?
+    answer: [Mamo, gdzie jesteś?]
+    explain: "Обращение — звательный падеж: mama → mamo. «Где ты?» — gdzie jesteś: глагол być здесь нужен."
+  - type: translate
+    q: Добрый день, пан доктор!
+    answer: [Dzień dobry, panie doktorze!]
+    explain: "В обращении и pan, и титул стоят в звательном: panie doktorze."
+  - type: translate
+    q: Спасибо, бабушка!
+    answer: [Dziękuję, babciu!]
+    explain: "Ласковые слова на -cia получают в звательном -u: babcia → babciu."
+  - type: translate
+    q: Ян, иди сюда!
+    answer: [Janie, chodź tutaj!, Janie, chodź tu!]
+    explain: "Мужское имя на твёрдый согласный в звательном — -e со смягчением: Jan → Janie. «Иди сюда» — chodź tu(taj)."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

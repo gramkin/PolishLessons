@@ -132,6 +132,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Сегодня холодно."
+    answer: ["Dzisiaj jest zimno.", "Dziś jest zimno.", "Jest dzisiaj zimno.", "Jest dziś zimno."]
+    explain: "О погоде говорят безлично: jest + наречие на -o."
+  - type: translate
+    q: "Идёт дождь."
+    answer: ["Pada deszcz.", "Pada."]
+    explain: "Дождь по-польски «падает»: pada deszcz, или просто pada."
+  - type: translate
+    q: "Сегодня теплее, чем вчера."
+    answer: ["Dzisiaj jest cieplej niż wczoraj.", "Dziś jest cieplej niż wczoraj."]
+    explain: "ciepło → cieplej: наречие на -o получает -ej; «чем» — niż."
+  - type: translate
+    q: "Зимой здесь много снега."
+    answer: ["Zimą jest tu dużo śniegu.", "W zimie jest tu dużo śniegu."]
+    explain: "«Зимой» — zimą (творительный) или w zimie; dużo требует родительного: śniegu."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

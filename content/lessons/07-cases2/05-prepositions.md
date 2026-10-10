@@ -153,6 +153,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Я иду в школу.
+    answer: [Idę do szkoły.]
+    explain: "«Куда?» в здание или город — do + родительный: do szkoły. «W szkołę» так не говорят."
+  - type: translate
+    q: Я в школе.
+    answer: [Jestem w szkole.]
+    explain: "«Где?» — w + предложный: szkoła → w szkole (ł перед -e становится l)."
+  - type: translate
+    q: Кот прыгнул на стол.
+    answer: [Kot skoczył na stół., Kot wskoczył na stół.]
+    explain: "Движение «куда?» после na — винительный: na stół. На месте было бы na stole."
+  - type: translate
+    q: Я иду за хлебом.
+    answer: [Idę po chleb.]
+    explain: "«Сходить за чем-то» — po + винительный: po chleb. Za chlebem бывает только в переносном смысле — wyjechać za chlebem «уехать на заработки»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

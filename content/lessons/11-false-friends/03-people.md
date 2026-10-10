@@ -123,6 +123,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "У меня большая семья."
+    answer: ["Mam dużą rodzinę."]
+    explain: "rodzina — «семья», а «родина» — ojczyzna. После mam — винительный: dużą rodzinę."
+  - type: translate
+    q: "Какая у вас профессия?"
+    answer: ["Jaki jest pana zawód?", "Jaki jest pani zawód?", "Jaki ma pan zawód?", "Jaki ma pani zawód?"]
+    explain: "zawód — «профессия», а «завод» — fabryka. Вежливое «вы» — pan или pani."
+  - type: translate
+    q: "Мы были на свадьбе."
+    answer: ["Byliśmy na weselu.", "Byłyśmy na weselu."]
+    explain: "wesele — «свадьба», а «веселье» — zabawa. Na weselu — предложный."
+  - type: translate
+    q: "Я живу в деревне."
+    answer: ["Mieszkam na wsi."]
+    explain: "wieś — «деревня», и говорят na wsi. Русское «весь» — cały."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

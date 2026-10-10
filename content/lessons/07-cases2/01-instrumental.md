@@ -148,6 +148,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Мой брат — учитель.
+    answer: [Mój brat jest nauczycielem.]
+    explain: "После być существительное в творительном: nauczycielem. Русское тире по-польски передают глаголом jest."
+  - type: translate
+    q: Я еду в Краков на поезде.
+    answer: [Jadę do Krakowa pociągiem., Jadę pociągiem do Krakowa.]
+    explain: "Транспорт — творительный без предлога: pociągiem, а не «na pociągu». Куда — do + родительный: do Krakowa."
+  - type: translate
+    q: Я иду в кино с сестрой.
+    answer: [Idę do kina z siostrą., Idę z siostrą do kina.]
+    explain: "«С кем» — z + творительный: z siostrą. В кино — do kina, родительный."
+  - type: translate
+    q: Кот спит под столом.
+    answer: [Kot śpi pod stołem.]
+    explain: "Место «где?» после pod — творительный: pod stołem; ó в основе переходит в o."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

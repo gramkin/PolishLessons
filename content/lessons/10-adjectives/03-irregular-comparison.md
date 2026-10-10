@@ -109,6 +109,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Это лучшая идея."
+    answer: ["To jest najlepszy pomysł.", "To najlepszy pomysł.", "To jest najlepsza idea.", "To najlepsza idea."]
+    explain: "dobry → lepszy → najlepszy. Обычное слово для «идеи» — pomysł (мужского рода): najlepszy pomysł."
+  - type: translate
+    q: "Он говорит лучше меня."
+    answer: ["On mówi lepiej ode mnie.", "On mówi lepiej niż ja.", "Mówi lepiej ode mnie.", "Mówi lepiej niż ja."]
+    explain: "При глаголе — наречие lepiej, а не прилагательное lepszy."
+  - type: translate
+    q: "Мой дом больше твоего."
+    answer: ["Mój dom jest większy od twojego.", "Mój dom jest większy niż twój."]
+    explain: "duży → większy; od + родительный (od twojego) или niż + именительный (niż twój)."
+  - type: translate
+    q: "Я хочу больше кофе."
+    answer: ["Chcę więcej kawy."]
+    explain: "więcej «больше» требует родительного: kawa → kawy."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

@@ -136,6 +136,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Она шла домой."
+    answer: ["Szła do domu.", "Ona szła do domu."]
+    explain: "iść меняет основу целиком: szedł, szła. «Домой» — do domu."
+  - type: translate
+    q: "Я (м.) не мог прийти."
+    answer: ["Nie mogłem przyjść."]
+    explain: "ó только в форме «он» (mógł); у «я» — o: mogłem."
+  - type: translate
+    q: "Что ты (ж.) ела?"
+    answer: ["Co jadłaś?"]
+    explain: "jeść: в единственном числе a — jadła + ś = jadłaś."
+  - type: translate
+    q: "Фильм начался в восемь."
+    answer: ["Film zaczął się o ósmej.", "Film zaczął się o godzinie ósmej."]
+    explain: "zacząć: ą только в форме «он» — zaczął. Время по часам — o + предложный: o ósmej."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

@@ -113,6 +113,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Где ты (м.) был вчера?"
+    answer: ["Gdzie byłeś wczoraj?", "Gdzie wczoraj byłeś?", "Gdzieś był wczoraj?", "Gdzieś wczoraj był?"]
+    explain: "Окончание -eś стоит при глаголе (byłeś) или переезжает на gdzie (gdzieś był). Смысл один."
+  - type: translate
+    q: "Что вы (о мужчинах) делали?"
+    answer: ["Co robiliście?", "Coście robili?"]
+    explain: "«Вы» о группе с мужчинами: robili + ście. Окончание может переехать на co: coście robili."
+  - type: translate
+    q: "Когда ты (ж.) пришла?"
+    answer: ["Kiedy przyszłaś?"]
+    explain: "Женщина, «ты»: przyszła + ś = przyszłaś. Вариант «Kiedyś przyszła» лучше не строить: kiedyś значит и «когда-то»."
+  - type: translate
+    q: "Мы (ж.) были дома."
+    answer: ["Byłyśmy w domu.", "My byłyśmy w domu."]
+    explain: "Женская группа: były + śmy = byłyśmy."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

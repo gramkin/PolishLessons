@@ -133,6 +133,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я не знаю, где он."
+    answer: ["Nie wiem, gdzie on jest.", "Nie wiem, gdzie jest."]
+    explain: "Знать факт — wiedzieć: nie wiem. В придаточном глагол być нужен: gdzie on jest, хотя по-русски его нет."
+  - type: translate
+    q: "Ты знаешь мою сестру?"
+    answer: ["Znasz moją siostrę?", "Czy znasz moją siostrę?", "Ty znasz moją siostrę?"]
+    explain: "Знать человека — znać: znasz. Wiesz здесь не подходит."
+  - type: translate
+    q: "Он умеет плавать."
+    answer: ["On umie pływać.", "Umie pływać."]
+    explain: "Навык — umieć + инфинитив: umie pływać, как «умеет плавать»."
+  - type: translate
+    q: "Я не понимаю."
+    answer: ["Nie rozumiem.", "Ja nie rozumiem."]
+    explain: "rozumieć — «понимать»: nie rozumiem."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

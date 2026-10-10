@@ -110,6 +110,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Я сделаю это завтра."
+    answer: ["Zrobię to jutro.", "Jutro to zrobię."]
+    explain: "Совершенный zrobić в «настоящей» форме означает будущее: zrobię — «сделаю»."
+  - type: translate
+    q: "Они напишут письмо."
+    answer: ["Napiszą list.", "Oni napiszą list."]
+    explain: "napisać спрягается как pisać: piszą → napiszą."
+  - type: translate
+    q: "Мы купим хлеб."
+    answer: ["Kupimy chleb.", "My kupimy chleb."]
+    explain: "kupić — совершенный вид: kupimy — «купим», будущее."
+  - type: translate
+    q: "Ты возьмёшь зонт?"
+    answer: ["Weźmiesz parasol?", "Czy weźmiesz parasol?"]
+    explain: "wziąć меняет основу: wezmę, weźmiesz — как «возьму, возьмёшь»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

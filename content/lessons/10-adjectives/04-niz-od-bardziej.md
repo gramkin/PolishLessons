@@ -118,6 +118,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Этот фильм более известный."
+    answer: ["Ten film jest bardziej znany."]
+    explain: "znany — причастие, суффикса -szy у него нет: bardziej znany."
+  - type: translate
+    q: "Дни всё длиннее."
+    answer: ["Dni są coraz dłuższe."]
+    explain: "coraz + сравнительная степень — «всё …»; dni не люди, поэтому dłuższe."
+  - type: translate
+    q: "Я люблю чай больше, чем кофе."
+    answer: ["Lubię herbatę bardziej niż kawę."]
+    explain: "После niż второе слово в том же падеже, что и первое: herbatę … kawę, оба в винительном."
+  - type: translate
+    q: "Он выше меня."
+    answer: ["On jest wyższy ode mnie.", "On jest wyższy niż ja.", "Jest wyższy ode mnie.", "Jest wyższy niż ja."]
+    explain: "wysoki → wyższy; перед mnie предлог od становится ode."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

@@ -115,6 +115,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Эта собака большая.
+    answer: [Ten pies jest duży.]
+    explain: "pies — мужского рода: ten pies, duży, хотя по-русски «эта собака большая»."
+  - type: translate
+    q: У меня сильная головная боль.
+    answer: [Mam silny ból głowy.]
+    explain: "ból — мужского рода, поэтому silny. «У меня» — mam."
+  - type: translate
+    q: Я вижу крокодила.
+    answer: [Widzę krokodyla.]
+    explain: "У животных мужского рода винительный совпадает с родительным: krokodyla."
+  - type: translate
+    q: Это дикий зверь.
+    answer: [To dzikie zwierzę., To jest dzikie zwierzę.]
+    explain: "zwierzę — среднего рода, поэтому dzikie, хотя «зверь» по-русски мужской."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

@@ -161,6 +161,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Я даю брату книгу.
+    answer: [Daję bratu książkę., Daję książkę bratu.]
+    explain: "Кому — дательный: brat → bratu (одно из исключений, обычно -owi). Что — винительный: książkę."
+  - type: translate
+    q: Помоги мне!
+    answer: [Pomóż mi!]
+    explain: "pomóc + дательный, без ударения — короткая форма mi. Pomóż mnie — ошибка: mnie здесь не дательный, а винительный."
+  - type: translate
+    q: Я тебе верю.
+    answer: [Wierzę ci.]
+    explain: "wierzyć + дательный: ci. Ударная форма tobie нужна, только если подчёркиваете «именно тебе»."
+  - type: translate
+    q: Я покупаю маме цветы.
+    answer: [Kupuję mamie kwiaty., Kupuję kwiaty mamie.]
+    explain: "Кому — дательный: женский род на -a получает -e со смягчением, mama → mamie."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

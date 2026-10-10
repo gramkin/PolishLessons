@@ -38,6 +38,28 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: Добрый вечер!
+    answer: [Dobry wieczór!]
+    explain: "Вечером вежливо здороваются dobry wieczór; dzień dobry — днём."
+  - type: translate
+    q: Спокойной ночи!
+    answer: [Dobranoc!]
+    explain: "dobranoc — одно слово, «доброй ночи», говорят перед сном."
+  - type: translate
+    q: "Спасибо! — Не за что."
+    answer: ["Dziękuję! — Nie ma za co.", "Dzięki! — Nie ma za co."]
+    explain: "«Не за что» — nie ma za co, дословно «нет за что»."
+  - type: translate
+    q: Пока, до встречи! (другу)
+    answer: ["Na razie, do zobaczenia!", "Cześć, do zobaczenia!"]
+    explain: "С друзьями прощаются na razie или cześć; «до встречи» — do zobaczenia. Do widzenia — вежливо, с незнакомыми."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

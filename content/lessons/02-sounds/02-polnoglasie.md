@@ -24,6 +24,24 @@ words: [glowa, zloto, mlody, bloto, droga, krowa, broda, wrona, mleko]
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: głowa
+    explain: "Русскому «оло» в «голова» соответствует ło: głowa."
+  - type: listen
+    text: mleko
+    explain: "Здесь «оло» из «молоко» стало le: mleko."
+  - type: listen
+    text: złoto
+    explain: "Снова ło на месте «оло»: złoto — «золото»."
+  - type: listen
+    text: wrona
+    explain: "Русскому «оро» соответствует ro: wrona — «ворона»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: pattern

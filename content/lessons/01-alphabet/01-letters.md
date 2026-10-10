@@ -58,6 +58,24 @@ rows:
 
 ::quiz
 ---
+questions:
+  - type: listen
+    text: woda
+    explain: "Польское w звучит как «в»: woda — «вода»."
+  - type: listen
+    text: ryba
+    explain: "Звук «ы» пишется буквой y: ryba."
+  - type: listen
+    text: jabłko
+    explain: "Звук «й» пишется буквой j, а «у» перед k — это ł: jabłko."
+  - type: listen
+    text: herbata
+    explain: "Начальное «х» здесь пишется h: herbata. Звучит как ch, поэтому слово просто запоминают."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

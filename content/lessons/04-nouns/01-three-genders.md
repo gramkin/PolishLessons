@@ -116,6 +116,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: этот музей
+    answer: [to muzeum]
+    explain: "Слова на -um — среднего рода: to muzeum, хотя «музей» по-русски мужской."
+  - type: translate
+    q: эта осень
+    answer: [ta jesień]
+    explain: "jesień кончается на согласную, но женского рода, как и «осень»: ta."
+  - type: translate
+    q: эта любовь
+    answer: [ta miłość]
+    explain: "Слова на -ość всегда женские: ta miłość."
+  - type: translate
+    q: этот брат
+    answer: [ten brat]
+    explain: "Согласная на конце — мужской род: ten brat."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice

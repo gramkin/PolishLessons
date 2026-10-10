@@ -125,6 +125,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Вчера я (ж.) была дома."
+    answer: ["Wczoraj byłam w domu.", "Byłam wczoraj w domu."]
+    explain: "Женщина о себе: była + m = byłam. «Дома» — w domu."
+  - type: translate
+    q: "Ты (м.) читал эту книгу?"
+    answer: ["Czytałeś tę książkę?", "Czy czytałeś tę książkę?"]
+    explain: "Мужчина, «ты»: czytał + eś = czytałeś. Местоимение ty не нужно — окончание уже говорит «ты»."
+  - type: translate
+    q: "У него была собака."
+    answer: ["Miał psa.", "On miał psa."]
+    explain: "«У него была» — mieć в прошедшем: miał (e → a перед -ł). pies одушевлённый, поэтому psa."
+  - type: translate
+    q: "Она писала письмо."
+    answer: ["Pisała list.", "Ona pisała list."]
+    explain: "Женский род: pisał + a = pisała. list — «письмо», а не «лист»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

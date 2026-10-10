@@ -122,6 +122,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "У меня нет времени."
+    answer: ["Nie mam czasu.", "Czasu nie mam.", "Ja nie mam czasu."]
+    explain: "«У меня нет» — nie mam, и после отрицания родительный: czasu."
+  - type: translate
+    q: "Я не пью кофе."
+    answer: ["Nie piję kawy.", "Ja nie piję kawy."]
+    explain: "После nie прямое дополнение в родительном: kawę → kawy."
+  - type: translate
+    q: "Он не читает газету."
+    answer: ["On nie czyta gazety.", "Nie czyta gazety."]
+    explain: "По-русски можно «не читает газету», по-польски после nie только родительный: gazety."
+  - type: translate
+    q: "Я не помогаю маме."
+    answer: ["Nie pomagam mamie.", "Ja nie pomagam mamie."]
+    explain: "Отрицание меняет только винительный. pomagać требует дательного, и mamie остаётся."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

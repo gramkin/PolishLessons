@@ -123,6 +123,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "Каждый день я покупаю хлеб."
+    answer: ["Codziennie kupuję chleb.", "Kupuję chleb codziennie.", "Każdego dnia kupuję chleb."]
+    explain: "Повторение — несовершенный kupować: kupuję."
+  - type: translate
+    q: "Завтра я куплю хлеб."
+    answer: ["Jutro kupię chleb.", "Kupię jutro chleb."]
+    explain: "Одно действие с результатом — совершенный kupić: kupię."
+  - type: translate
+    q: "Он сказал правду."
+    answer: ["Powiedział prawdę.", "On powiedział prawdę."]
+    explain: "Пара из разных корней: mówić — powiedzieć, как «говорить — сказать». Результат — powiedział."
+  - type: translate
+    q: "Он всегда говорит правду."
+    answer: ["Zawsze mówi prawdę.", "On zawsze mówi prawdę."]
+    explain: "«Всегда» — повторение, поэтому несовершенный mówić: mówi."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: input

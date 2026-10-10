@@ -129,6 +129,28 @@ questions:
 
 ::quiz
 ---
+questions:
+  - type: translate
+    q: "У меня есть брат."
+    answer: ["Mam brata.", "Ja mam brata."]
+    explain: "Не «у меня есть», а «я имею»: mam. brat одушевлённый, поэтому brata."
+  - type: translate
+    q: "У тебя есть время?"
+    answer: ["Masz czas?", "Czy masz czas?", "Ty masz czas?", "Czy ty masz czas?"]
+    explain: "«У тебя есть» — masz; czas в винительном не меняется."
+  - type: translate
+    q: "У нас нет машины."
+    answer: ["Nie mamy samochodu.", "My nie mamy samochodu."]
+    explain: "«У нас нет» — nie mamy, и после отрицания родительный: samochodu."
+  - type: translate
+    q: "Сколько тебе лет?"
+    answer: ["Ile masz lat?", "Ile ty masz lat?"]
+    explain: "Возраст тоже «имеют»: ile masz lat — дословно «сколько имеешь лет»."
+---
+::
+
+::quiz
+---
 final: true
 questions:
   - type: choice
