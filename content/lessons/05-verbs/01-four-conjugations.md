@@ -9,7 +9,7 @@ words: [pisac, robic, czytac, jesc, brac, lubic, czekac, znac, umiec, spiewac, t
 
 <!-- review -->
 
-Русский глагол в настоящем времени идёт по одному из двух спряжений. Польский — по одному из четырёх. Звучит страшнее, чем есть: достаточно запомнить форму первого лица («я»), и остальные пять форм выводятся сами.
+Русский глагол в настоящем времени идёт по одному из двух спряжений. Польский — по одному из четырёх. Звучит страшнее, чем есть: достаточно запомнить формы «я» и «ты» — остальные четыре выводятся по трём простым правилам, они собраны в конце урока.
 
 ::compare-table
 ---
@@ -41,6 +41,41 @@ questions:
     q: "Ty dobrze ___. (tańczyć)"
     answer: tańczysz
     explain: "tańczyć — II спряжение: tańczę, tańczysz. После cz пишется -ysz, а не -isz."
+---
+::
+
+## Первое и второе спряжения
+
+Полностью эти глаголы выглядят так:
+
+*piszę, piszesz, pisze, piszemy, piszecie, piszą*
+
+*robię, robisz, robi, robimy, robicie, robią*
+
+Во втором спряжении после **cz, sz, rz, ż** пишется **y**, а не **i**: :pron{pl="tańczysz"}, :pron{pl="tańczy"}.
+
+В первом спряжении основа часто меняется, и сразу во всех формах. У :pl-word{id="pisac"} **s** везде становится **sz**, а у :pl-word{id="brac"} ещё и чередуется гласная:
+
+*biorę, bierzesz, bierze, bierzemy, bierzecie, biorą*
+
+Поэтому формы «я» и «ты» запоминают вместе: по одной из них вторую не угадать.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "robić: on ___"
+    answer: robi
+    explain: "«он» — это форма «ты» без -sz: robisz → robi."
+  - type: input
+    q: "pisać: oni ___"
+    answer: piszą
+    explain: "В I и II спряжении «они» — это форма «я», где -ę заменено на -ą: piszę → piszą."
+  - type: choice
+    q: "brać: my ___"
+    options: [bieremy, bierzemy, biorzemy]
+    answer: 1
+    explain: "«мы» строится от формы «ты» (bierzesz), а не от «я» (biorę): bierze + -my = bierzemy."
 ---
 ::
 
@@ -77,6 +112,10 @@ questions:
 
 *jem, jesz, je, jemy, jecie, jedzą*
 
+*umiem, umiesz, umie, umiemy, umiecie, umieją*
+
+Форма «они» здесь у каждого глагола своя: *jedzą*, но *umieją*.
+
 ::quiz
 ---
 questions:
@@ -93,6 +132,45 @@ questions:
     q: "Ja ___ pływać. (umieć)"
     answer: umiem
     explain: "umieć — IV спряжение: umiem, umiesz."
+---
+::
+
+## Как получить остальные формы
+
+Зная «я» и «ты», остальные четыре формы получают по одним и тем же правилам во всех спряжениях.
+
+::compare-table
+---
+headers: [Лицо, Правило, I, II, III, IV]
+plColumns: [2, 3, 4, 5]
+rows:
+  - ["«он, она»", "«ты» без -sz", pisze, robi, czyta, je]
+  - ["«мы»", "«он» + -my", piszemy, robimy, czytamy, jemy]
+  - ["«вы»", "«он» + -cie", piszecie, robicie, czytacie, jecie]
+  - ["!«они»", "I и II: «я» с -ą вместо -ę; III: -ają; IV: запомнить", piszą, robią, czytają, jedzą]
+---
+::
+
+Третье лицо единственного числа — самая короткая форма, и от неё строятся «мы» и «вы». Русский делает похожее («пишешь — пишет»), только польский просто отбрасывает **-sz**.
+
+Единственная форма без общего правила — «они» в четвёртом спряжении: :pron{pl="jedzą"} и :pron{pl="wiedzą"}, но :pron{pl="umieją"} и :pron{pl="rozumieją"}.
+
+::quiz
+---
+questions:
+  - type: input
+    q: "czekać: ona ___"
+    answer: czeka
+    explain: "«ты» czekasz без -sz — czeka."
+  - type: input
+    q: "tańczyć: wy ___"
+    answer: tańczycie
+    explain: "«он» tańczy + -cie = tańczycie."
+  - type: choice
+    q: "umieć: oni ___"
+    options: [umią, umieją, umiedzą]
+    answer: 1
+    explain: "В четвёртом спряжении «они» запоминают отдельно: umieją, rozumieją, но jedzą, wiedzą."
 ---
 ::
 
