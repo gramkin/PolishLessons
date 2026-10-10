@@ -16,7 +16,7 @@ words: [wiedziec, znac, umiec, rozumiec, mowic]
 headers: [Глагол, Когда, Пример]
 plColumns: [0, 2]
 rows:
-  - ["!wiedzieć", "знать факт, что-то о чём-то", "Wiem, że jesteś"]
+  - ["!wiedzieć", "знать факт, что-то о чём-то", "Wiem, że tu jesteś"]
   - ["!znać", "знать кого-то или что-то лично", "Znam go"]
   - ["!umieć", "уметь, владеть навыком", "Umiem pływać"]
 ---
