@@ -1,0 +1,806 @@
+# review
+id: rozszerzac
+format: 2
+lemma: "rozszerzać"
+rank: 5886
+pos: verb
+aspect: imperf
+pron: { cyr: "росшэ́жаць" }
+senses:
+  - id: widen
+    ru: "расширять, делать шире"
+    examples:
+      - pl: "Ciepło rozszerza większość rzeczy."
+        ru: "Тепло расширяет большинство тел."
+        source: { kind: translated, id: 12239940 }
+      - pl: "Drogowcy rozszerzają ulicę o jeden pas."
+        ru: "Дорожники расширяют улицу на одну полосу."
+        source: { kind: authored }
+  - id: extend
+    ru: "расширять (охват, круг, ассортимент)"
+    examples:
+      - pl: "Firma rozszerza ofertę o nowe usługi."
+        ru: "Фирма расширяет предложение за счёт новых услуг."
+        source: { kind: authored }
+      - pl: "Sieć tramwajowa jest rozszerzana."
+        ru: "Трамвайную сеть расширяют."
+        source: { kind: translated, id: 12229080 }
+  - id: expand
+    ru: "rozszerzać się — расширяться"
+    examples:
+      - pl: "Nasz wszechświat rozszerza się."
+        ru: "Наша Вселенная расширяется."
+        source: { kind: tatoeba, id: 12239972 }
+      - pl: "Woda rozszerza się podczas zamarzania."
+        ru: "Вода расширяется при замерзании."
+        source: { kind: translated, id: 10546226 }
+      - pl: "W ciemności źrenice się rozszerzają."
+        ru: "В темноте зрачки расширяются."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Несовершенный вид; совершенный — ROZSZERZYĆ. Спряжение на -AM: ROZSZERZAM, ROZSZERZASZ, ROZSZERZAJĄ. С SIĘ — «расширяться»: WSZECHŚWIAT SIĘ ROZSZERZA. Мужско-личное страдательное ROZSZERZANI в карточку не включено: расширяют дороги, программы и границы, а не людей." }
+  - { kind: government, text: "Что расширяют — винительный: ROZSZERZAĆ OFERTĘ. На что, за счёт чего — O + винительный: ROZSZERZAĆ UNIĘ O NOWE KRAJE «расширять союз за счёт новых стран». Вот этого O русский язык не подсказывает." }
+  - { kind: usage, text: "Близкий синоним — POSZERZAĆ; он чаще о кругозоре и знаниях: POSZERZAĆ WIEDZĘ. ROZSZERZAĆ шире по охвату: о дорогах, физике, бизнесе, программах. В школе ROZSZERZONY — «углублённый»: MATEMATYKA ROZSZERZONA «профильная математика»." }
+  - { kind: pronunciation, text: "Читается «росшэ́жаць»: Z перед SZ оглушается и сливается с ним в долгое «ш». RZ после гласной — звонкое «ж»." }
+collocations:
+  - { pl: "rozszerzać ofertę", ru: "расширять ассортимент" }
+  - { pl: "rozszerzać działalność", ru: "расширять деятельность" }
+  - { pl: "rozszerzać się pod wpływem ciepła", ru: "расширяться от тепла" }
+family:
+  - { pl: "rozszerzyć", ru: "расширить", relation: aspect }
+  - { pl: "szeroki", ru: "широкий", relation: root, id: szeroki }
+  - { pl: "rozszerzenie", ru: "расширение", relation: derived }
+  - { pl: "poszerzać", ru: "расширять, раздвигать", relation: root }
+  - { pl: "zwężać", ru: "сужать", relation: antonym }
+etymology: "Приставка ROZ- «раз-» плюс корень SZER- из SZEROKI «широкий»; буквально «раз-ширять», как русское «расширять»."
+memory: "Rozszerzać — «раз-ширять»: szeroki «широкий», и русское «расширять» строится так же."
+idioms:
+  - { pl: "rozszerzać horyzonty", ru: "расширять кругозор" }
+  - { pl: "jak gospodarz gościnny, to i ściany się rozszerzają", ru: "в тесноте, да не в обиде (досл. «у гостеприимного хозяина и стены раздвигаются»)" }
+formExamplesSkip:
+  - { form: "rozszerzani", reason: "мужско-личная форма страдательного причастия: расширяют дороги, программы и границы, а не людей" }
+formExamples:
+  - form: "rozszerza"
+    pl: "Nasz wszechświat rozszerza się."
+    ru: "Наша Вселенная расширяется."
+    source: { kind: tatoeba, id: 12239972 }
+  - form: "rozszerza"
+    pl: "Ciepło rozszerza większość rzeczy."
+    ru: "Тепло расширяет большинство тел."
+    source: { kind: translated, id: 12239940 }
+  - form: "rozszerza"
+    pl: "Woda rozszerza się podczas zamarzania."
+    ru: "Вода расширяется при замерзании."
+    source: { kind: translated, id: 10546226 }
+  - form: "rozszerzacie"
+    pl: "Czy rozszerzacie w tym roku ofertę?"
+    ru: "Вы в этом году расширяете ассортимент?"
+    source: { kind: authored }
+  - form: "rozszerzacie"
+    pl: "Dlaczego rozszerzacie sklep, skoro klientów ubywa?"
+    ru: "Зачем вы расширяете магазин, раз покупателей становится меньше?"
+    source: { kind: authored }
+  - form: "rozszerzacie"
+    pl: "Widzę, że rozszerzacie działalność na Czechy."
+    ru: "Вижу, вы расширяете деятельность на Чехию."
+    source: { kind: authored }
+  - form: "rozszerzać"
+    pl: "Miasto zamierza rozszerzać sieć ścieżek rowerowych."
+    ru: "Город собирается расширять сеть велодорожек."
+    source: { kind: authored }
+  - form: "rozszerzać"
+    pl: "Metale zaczynają rozszerzać się pod wpływem ciepła."
+    ru: "Металлы начинают расширяться под действием тепла."
+    source: { kind: authored }
+  - form: "rozszerzać"
+    pl: "Warto stale rozszerzać swoje słownictwo."
+    ru: "Стоит постоянно расширять свой словарный запас."
+    source: { kind: authored }
+  - form: "rozszerzaj"
+    pl: "Nie rozszerzaj tematu, trzymaj się pytania."
+    ru: "Не расширяй тему, держись вопроса."
+    source: { kind: authored }
+  - form: "rozszerzaj"
+    pl: "Rozszerzaj słownictwo, czytając polskie gazety."
+    ru: "Расширяй словарный запас, читая польские газеты."
+    source: { kind: authored }
+  - form: "rozszerzaj"
+    pl: "Na razie nie rozszerzaj firmy, poczekaj rok."
+    ru: "Пока не расширяй фирму, подожди год."
+    source: { kind: authored }
+  - form: "rozszerzają"
+    pl: "W ciemności źrenice się rozszerzają."
+    ru: "В темноте зрачки расширяются."
+    source: { kind: authored }
+  - form: "rozszerzają"
+    pl: "Drogowcy rozszerzają ulicę o jeden pas."
+    ru: "Дорожники расширяют улицу на одну полосу."
+    source: { kind: authored }
+  - form: "rozszerzają"
+    pl: "Szyny latem rozszerzają się od upału."
+    ru: "Летом рельсы расширяются от жары."
+    source: { kind: authored }
+  - form: "rozszerzając"
+    pl: "Rozszerzając ofertę, sklep zyskał nowych klientów."
+    ru: "Расширяя ассортимент, магазин приобрёл новых покупателей."
+    source: { kind: authored }
+  - form: "rozszerzając"
+    pl: "Uczę się, stopniowo rozszerzając słownictwo."
+    ru: "Я учусь, постепенно расширяя словарный запас."
+    source: { kind: authored }
+  - form: "rozszerzając"
+    pl: "Gaz ochładza się, rozszerzając się."
+    ru: "Газ охлаждается, расширяясь."
+    source: { kind: authored }
+  - form: "rozszerzająca"
+    pl: "To firma szybko rozszerzająca swoją działalność."
+    ru: "Это фирма, быстро расширяющая свою деятельность."
+    source: { kind: authored }
+  - form: "rozszerzająca"
+    pl: "Rozszerzająca się plama oleju niepokoiła rybaków."
+    ru: "Расползающееся масляное пятно тревожило рыбаков."
+    source: { kind: authored }
+  - form: "rozszerzająca"
+    pl: "Ustawa rozszerzająca prawa pacjentów weszła w życie."
+    ru: "Закон, расширяющий права пациентов, вступил в силу."
+    source: { kind: authored }
+  - form: "rozszerzającą"
+    pl: "Sejm przyjął ustawę rozszerzającą prawa konsumentów."
+    ru: "Сейм принял закон, расширяющий права потребителей."
+    source: { kind: authored }
+  - form: "rozszerzającą"
+    pl: "Lekarz zauważył rozszerzającą się ranę."
+    ru: "Врач заметил расширяющуюся рану."
+    source: { kind: authored }
+  - form: "rozszerzającą"
+    pl: "Obserwowaliśmy rozszerzającą się dziurę w lodzie."
+    ru: "Мы наблюдали за расширяющейся дырой во льду."
+    source: { kind: authored }
+  - form: "rozszerzające"
+    pl: "Lekarz dał mi krople rozszerzające źrenice."
+    ru: "Врач дал мне капли, расширяющие зрачки."
+    source: { kind: authored }
+  - form: "rozszerzające"
+    pl: "Rozszerzające się miasto zajmuje okoliczne wsie."
+    ru: "Растущий город поглощает окрестные деревни."
+    source: { kind: authored }
+  - form: "rozszerzające"
+    pl: "Leki rozszerzające naczynia obniżają ciśnienie."
+    ru: "Сосудорасширяющие лекарства снижают давление."
+    source: { kind: authored }
+  - form: "rozszerzającego"
+    pl: "Szukamy partnera rozszerzającego działalność za granicą."
+    ru: "Мы ищем партнёра, расширяющего деятельность за рубежом."
+    source: { kind: authored }
+  - form: "rozszerzającego"
+    pl: "Boimy się rozszerzającego się pożaru lasu."
+    ru: "Мы боимся разрастающегося лесного пожара."
+    source: { kind: authored }
+  - form: "rozszerzającego"
+    pl: "Naukowcy badają światło rozszerzającego się wszechświata."
+    ru: "Учёные изучают свет расширяющейся Вселенной."
+    source: { kind: authored }
+  - form: "rozszerzającej"
+    pl: "Mówiono o nowej, rozszerzającej się epidemii."
+    ru: "Говорили о новой, распространяющейся эпидемии."
+    source: { kind: authored }
+  - form: "rozszerzającej"
+    pl: "Projekt ustawy rozszerzającej ulgi trafił do Sejmu."
+    ru: "Проект закона о расширении льгот поступил в Сейм."
+    source: { kind: authored }
+  - form: "rozszerzającej"
+    pl: "Mieszkańcy rozszerzającej się dzielnicy czekają na szkołę."
+    ru: "Жители разрастающегося района ждут школу."
+    source: { kind: authored }
+  - form: "rozszerzającemu"
+    pl: "Przyglądali się rozszerzającemu się pęknięciu w murze."
+    ru: "Они присматривались к расширяющейся трещине в стене."
+    source: { kind: authored }
+  - form: "rozszerzającemu"
+    pl: "Rząd sprzeciwił się projektowi rozszerzającemu strefę."
+    ru: "Правительство выступило против проекта, расширяющего зону."
+    source: { kind: authored }
+  - form: "rozszerzającemu"
+    pl: "Dzięki programowi rozszerzającemu pomoc więcej rodzin dostało wsparcie."
+    ru: "Благодаря программе, расширяющей помощь, поддержку получило больше семей."
+    source: { kind: authored }
+  - form: "rozszerzający"
+    pl: "To lek rozszerzający oskrzela."
+    ru: "Это лекарство, расширяющее бронхи."
+    source: { kind: authored }
+  - form: "rozszerzający"
+    pl: "Rozszerzający się wszechświat fascynuje astronomów."
+    ru: "Расширяющаяся Вселенная увлекает астрономов."
+    source: { kind: authored }
+  - form: "rozszerzający"
+    pl: "Przyjęto przepis rozszerzający listę zawodów."
+    ru: "Принято положение, расширяющее список профессий."
+    source: { kind: authored }
+  - form: "rozszerzających"
+    pl: "Takich firm rozszerzających ofertę jest coraz więcej."
+    ru: "Таких фирм, расширяющих ассортимент, всё больше."
+    source: { kind: authored }
+  - form: "rozszerzających"
+    pl: "Nie biorę leków rozszerzających naczynia."
+    ru: "Я не принимаю сосудорасширяющих лекарств."
+    source: { kind: authored }
+  - form: "rozszerzających"
+    pl: "Mapa pokazuje kilka rozszerzających się pustyń."
+    ru: "Карта показывает несколько расширяющихся пустынь."
+    source: { kind: authored }
+  - form: "rozszerzającym"
+    pl: "W rozszerzającym się mieście brakuje szkół."
+    ru: "В разрастающемся городе не хватает школ."
+    source: { kind: authored }
+  - form: "rozszerzającym"
+    pl: "Pracuję w szybko rozszerzającym się zespole."
+    ru: "Я работаю в быстро растущей команде."
+    source: { kind: authored }
+  - form: "rozszerzającym"
+    pl: "Wszyscy mówią o nowym, rozszerzającym rynek produkcie."
+    ru: "Все говорят о новом продукте, расширяющем рынок."
+    source: { kind: authored }
+  - form: "rozszerzającymi"
+    pl: "Okulista zakropił mi oczy kroplami rozszerzającymi źrenice."
+    ru: "Окулист закапал мне в глаза капли, расширяющие зрачки."
+    source: { kind: authored }
+  - form: "rozszerzającymi"
+    pl: "Firma konkuruje z szybko rozszerzającymi się sieciami."
+    ru: "Фирма конкурирует с быстро растущими сетями."
+    source: { kind: authored }
+  - form: "rozszerzającymi"
+    pl: "Nad rozszerzającymi się bagnami latały ptaki."
+    ru: "Над расширяющимися болотами летали птицы."
+    source: { kind: authored }
+  - form: "rozszerzajcie"
+    pl: "Rozszerzajcie słownictwo, czytając dużo po polsku."
+    ru: "Расширяйте словарный запас, много читая по-польски."
+    source: { kind: authored }
+  - form: "rozszerzajcie"
+    pl: "Nie rozszerzajcie projektu bez zgody szefa."
+    ru: "Не расширяйте проект без согласия начальника."
+    source: { kind: authored }
+  - form: "rozszerzajcie"
+    pl: "Śmiało rozszerzajcie ofertę o dania wegańskie."
+    ru: "Смело расширяйте меню веганскими блюдами."
+    source: { kind: authored }
+  - form: "rozszerzajmy"
+    pl: "Rozszerzajmy współpracę z innymi szkołami."
+    ru: "Давайте расширять сотрудничество с другими школами."
+    source: { kind: authored }
+  - form: "rozszerzajmy"
+    pl: "Najpierw zadbajmy o klientów, potem rozszerzajmy sklep."
+    ru: "Сначала позаботимся о клиентах, потом будем расширять магазин."
+    source: { kind: authored }
+  - form: "rozszerzajmy"
+    pl: "Nie rozszerzajmy dyskusji na inne tematy."
+    ru: "Давайте не расширять дискуссию на другие темы."
+    source: { kind: authored }
+  - form: "rozszerzali"
+    pl: "Rzymianie stale rozszerzali granice imperium."
+    ru: "Римляне постоянно расширяли границы империи."
+    source: { kind: authored }
+  - form: "rozszerzali"
+    pl: "Co roku rozszerzali ogród o nowe grządki."
+    ru: "Каждый год они расширяли сад новыми грядками."
+    source: { kind: authored }
+  - form: "rozszerzali"
+    pl: "Robotnicy rozszerzali tunel przez całą zimę."
+    ru: "Рабочие расширяли туннель всю зиму."
+    source: { kind: authored }
+  - form: "rozszerzaliby"
+    pl: "Z większym budżetem rozszerzaliby ofertę szybciej."
+    ru: "С бóльшим бюджетом они расширяли бы ассортимент быстрее."
+    source: { kind: authored }
+  - form: "rozszerzaliby"
+    pl: "Gdyby mogli, rozszerzaliby sklep na całe piętro."
+    ru: "Если бы могли, они расширяли бы магазин на весь этаж."
+    source: { kind: authored }
+  - form: "rozszerzaliby"
+    pl: "Bez kontroli urzędnicy ciągle rozszerzaliby swoje uprawnienia."
+    ru: "Без контроля чиновники постоянно расширяли бы свои полномочия."
+    source: { kind: authored }
+  - form: "rozszerzalibyście"
+    pl: "Czy rozszerzalibyście firmę w czasie kryzysu?"
+    ru: "Вы бы расширяли фирму во время кризиса?"
+    source: { kind: authored }
+  - form: "rozszerzalibyście"
+    pl: "Mając kredyt, rozszerzalibyście działalność?"
+    ru: "Имея кредит, вы бы расширяли деятельность?"
+    source: { kind: authored }
+  - form: "rozszerzalibyście"
+    pl: "Panowie, rozszerzalibyście program o język niemiecki?"
+    ru: "Господа, вы бы расширяли программу за счёт немецкого языка?"
+    source: { kind: authored }
+  - form: "rozszerzalibyśmy"
+    pl: "Mając więcej ludzi, rozszerzalibyśmy produkcję."
+    ru: "Будь у нас больше людей, мы бы расширяли производство."
+    source: { kind: authored }
+  - form: "rozszerzalibyśmy"
+    pl: "Gdyby nie pandemia, rozszerzalibyśmy teraz restaurację."
+    ru: "Если бы не пандемия, мы бы сейчас расширяли ресторан."
+    source: { kind: authored }
+  - form: "rozszerzalibyśmy"
+    pl: "Chętnie rozszerzalibyśmy współpracę z waszą szkołą."
+    ru: "Мы бы охотно расширяли сотрудничество с вашей школой."
+    source: { kind: authored }
+  - form: "rozszerzaliście"
+    pl: "Kiedy rozszerzaliście sklep, było dużo hałasu."
+    ru: "Когда вы расширяли магазин, было много шума."
+    source: { kind: authored }
+  - form: "rozszerzaliście"
+    pl: "Dlaczego rozszerzaliście ofertę tak powoli?"
+    ru: "Почему вы расширяли ассортимент так медленно?"
+    source: { kind: authored }
+  - form: "rozszerzaliście"
+    pl: "Ile razy rozszerzaliście już parking?"
+    ru: "Сколько раз вы уже расширяли парковку?"
+    source: { kind: authored }
+  - form: "rozszerzaliśmy"
+    pl: "Przez lata rozszerzaliśmy firmę krok po kroku."
+    ru: "Годами мы расширяли фирму шаг за шагом."
+    source: { kind: authored }
+  - form: "rozszerzaliśmy"
+    pl: "Razem z bratem rozszerzaliśmy dom o werandę."
+    ru: "Мы с братом пристраивали к дому веранду."
+    source: { kind: authored }
+  - form: "rozszerzaliśmy"
+    pl: "Wtedy rozszerzaliśmy działalność na całą Polskę."
+    ru: "Тогда мы расширяли деятельность на всю Польшу."
+    source: { kind: authored }
+  - form: "rozszerzał"
+    pl: "Król stale rozszerzał granice swojego państwa."
+    ru: "Король постоянно расширял границы своего государства."
+    source: { kind: authored }
+  - form: "rozszerzał"
+    pl: "Ojciec co roku rozszerzał warsztat."
+    ru: "Отец каждый год расширял мастерскую."
+    source: { kind: authored }
+  - form: "rozszerzał"
+    pl: "Pożar szybko się rozszerzał na sąsiednie domy."
+    ru: "Пожар быстро распространялся на соседние дома."
+    source: { kind: authored }
+  - form: "rozszerzała"
+    pl: "Wioska z roku na rok się rozszerzała."
+    ru: "Деревня год от года разрасталась."
+    source: { kind: authored }
+  - form: "rozszerzała"
+    pl: "Plama na suficie rozszerzała się z każdym dniem."
+    ru: "Пятно на потолке разрасталось с каждым днём."
+    source: { kind: authored }
+  - form: "rozszerzała"
+    pl: "Babcia ciągle rozszerzała swój ogródek."
+    ru: "Бабушка всё время расширяла свой огородик."
+    source: { kind: authored }
+  - form: "rozszerzałaby"
+    pl: "Ta firma rozszerzałaby się szybciej z inwestorem."
+    ru: "С инвестором эта фирма расширялась бы быстрее."
+    source: { kind: authored }
+  - form: "rozszerzałaby"
+    pl: "Bez tamy rzeka rozszerzałaby się co wiosnę."
+    ru: "Без плотины река каждую весну разливалась бы."
+    source: { kind: authored }
+  - form: "rozszerzałaby"
+    pl: "Szkoła chętnie rozszerzałaby ofertę zajęć."
+    ru: "Школа охотно расширяла бы набор занятий."
+    source: { kind: authored }
+  - form: "rozszerzałabym"
+    pl: "Na twoim miejscu nie rozszerzałabym teraz sklepu."
+    ru: "На твоём месте я бы сейчас не расширяла магазин."
+    source: { kind: authored }
+  - form: "rozszerzałabym"
+    pl: "Mając czas, rozszerzałabym wiedzę o historii."
+    ru: "Будь у меня время, я бы расширяла знания по истории."
+    source: { kind: authored }
+  - form: "rozszerzałabym"
+    pl: "Ostrożnie rozszerzałabym menu o nowe dania."
+    ru: "Я бы осторожно расширяла меню новыми блюдами."
+    source: { kind: authored }
+  - form: "rozszerzałabyś"
+    pl: "Czy rozszerzałabyś kawiarnię, gdyby był ruch?"
+    ru: "Ты бы расширяла кафе, если бы был наплыв?"
+    source: { kind: authored }
+  - form: "rozszerzałabyś"
+    pl: "Na pewno rozszerzałabyś ofertę, znając rynek."
+    ru: "Зная рынок, ты бы наверняка расширяла ассортимент."
+    source: { kind: authored }
+  - form: "rozszerzałabyś"
+    pl: "Ty zawsze rozszerzałabyś plany, a pieniędzy brak."
+    ru: "Ты бы всегда расширяла планы, а денег нет."
+    source: { kind: authored }
+  - form: "rozszerzałam"
+    pl: "Przez całe studia rozszerzałam swoje zainteresowania."
+    ru: "Всю учёбу я расширяла круг своих интересов."
+    source: { kind: authored }
+  - form: "rozszerzałam"
+    pl: "Zimą rozszerzałam słownictwo, czytając kryminały."
+    ru: "Зимой я расширяла словарный запас, читая детективы."
+    source: { kind: authored }
+  - form: "rozszerzałam"
+    pl: "Stopniowo rozszerzałam ofertę mojej pracowni."
+    ru: "Я постепенно расширяла ассортимент своей мастерской."
+    source: { kind: authored }
+  - form: "rozszerzałaś"
+    pl: "Czy rozszerzałaś już kiedyś sklep internetowy?"
+    ru: "Ты когда-нибудь уже расширяла интернет-магазин?"
+    source: { kind: authored }
+  - form: "rozszerzałaś"
+    pl: "Wiem, że rozszerzałaś program o warsztaty."
+    ru: "Знаю, что ты дополняла программу мастер-классами."
+    source: { kind: authored }
+  - form: "rozszerzałaś"
+    pl: "Jak szybko rozszerzałaś swoją działalność?"
+    ru: "Как быстро ты расширяла свою деятельность?"
+    source: { kind: authored }
+  - form: "rozszerzałby"
+    pl: "Inny szef nie rozszerzałby firmy tak szybko."
+    ru: "Другой начальник не расширял бы фирму так быстро."
+    source: { kind: authored }
+  - form: "rozszerzałby"
+    pl: "Wtedy wirus rozszerzałby się jeszcze szybciej."
+    ru: "Тогда вирус распространялся бы ещё быстрее."
+    source: { kind: authored }
+  - form: "rozszerzałby"
+    pl: "Gdyby miał pieniądze, rozszerzałby gospodarstwo."
+    ru: "Будь у него деньги, он расширял бы хозяйство."
+    source: { kind: authored }
+  - form: "rozszerzałbym"
+    pl: "Teraz nie rozszerzałbym zespołu, za wcześnie."
+    ru: "Сейчас я бы не расширял команду, слишком рано."
+    source: { kind: authored }
+  - form: "rozszerzałbym"
+    pl: "Ja rozszerzałbym program o więcej praktyki."
+    ru: "Я бы расширял программу за счёт практики."
+    source: { kind: authored }
+  - form: "rozszerzałbym"
+    pl: "Mając więcej miejsca, rozszerzałbym bibliotekę."
+    ru: "Будь у меня больше места, я бы расширял библиотеку."
+    source: { kind: authored }
+  - form: "rozszerzałbyś"
+    pl: "Czy rozszerzałbyś ofertę w trakcie kryzysu?"
+    ru: "Ты бы расширял ассортимент во время кризиса?"
+    source: { kind: authored }
+  - form: "rozszerzałbyś"
+    pl: "Bez mojej pomocy nie rozszerzałbyś tego biznesu."
+    ru: "Без моей помощи ты бы не расширял этот бизнес."
+    source: { kind: authored }
+  - form: "rozszerzałbyś"
+    pl: "Ty pewnie rozszerzałbyś ogród zamiast domu."
+    ru: "Ты бы, наверное, расширял сад, а не дом."
+    source: { kind: authored }
+  - form: "rozszerzałem"
+    pl: "Latami rozszerzałem kolekcję starych map."
+    ru: "Годами я пополнял коллекцию старых карт."
+    source: { kind: authored }
+  - form: "rozszerzałem"
+    pl: "Po pracy rozszerzałem wiedzę z programowania."
+    ru: "После работы я расширял знания в программировании."
+    source: { kind: authored }
+  - form: "rozszerzałem"
+    pl: "Jako młody szef ostrożnie rozszerzałem firmę."
+    ru: "Молодым руководителем я осторожно расширял фирму."
+    source: { kind: authored }
+  - form: "rozszerzałeś"
+    pl: "Kiedy rozszerzałeś garaż, sąsiedzi narzekali?"
+    ru: "Когда ты расширял гараж, соседи жаловались?"
+    source: { kind: authored }
+  - form: "rozszerzałeś"
+    pl: "Słyszałem, że rozszerzałeś sklep o kawiarnię."
+    ru: "Я слышал, что ты расширял магазин за счёт кафе."
+    source: { kind: authored }
+  - form: "rozszerzałeś"
+    pl: "Jak długo rozszerzałeś ten program?"
+    ru: "Как долго ты расширял эту программу?"
+    source: { kind: authored }
+  - form: "rozszerzało"
+    pl: "Miasto szybko rozszerzało się na wschód."
+    ru: "Город быстро разрастался на восток."
+    source: { kind: authored }
+  - form: "rozszerzało"
+    pl: "Królestwo rozszerzało granice przez dwa wieki."
+    ru: "Королевство расширяло границы два века."
+    source: { kind: authored }
+  - form: "rozszerzało"
+    pl: "Pęknięcie w szybie powoli się rozszerzało."
+    ru: "Трещина в стекле медленно расширялась."
+    source: { kind: authored }
+  - form: "rozszerzałoby"
+    pl: "Ministerstwo nie rozszerzałoby programu bez pieniędzy."
+    ru: "Министерство не расширяло бы программу без денег."
+    source: { kind: authored }
+  - form: "rozszerzałoby"
+    pl: "Bez planu miasto rozszerzałoby się chaotycznie."
+    ru: "Без плана город разрастался бы хаотично."
+    source: { kind: authored }
+  - form: "rozszerzałoby"
+    pl: "To prawo rozszerzałoby uprawnienia policji."
+    ru: "Этот закон расширял бы полномочия полиции."
+    source: { kind: authored }
+  - form: "rozszerzały"
+    pl: "Szyny rozszerzały się w upale."
+    ru: "Рельсы расширялись в жару."
+    source: { kind: authored }
+  - form: "rozszerzały"
+    pl: "Sklepy sieciowe szybko rozszerzały swoją ofertę."
+    ru: "Сетевые магазины быстро расширяли ассортимент."
+    source: { kind: authored }
+  - form: "rozszerzały"
+    pl: "Jej oczy rozszerzały się ze zdziwienia."
+    ru: "Её глаза расширялись от удивления."
+    source: { kind: authored }
+  - form: "rozszerzałyby"
+    pl: "Takie przepisy rozszerzałyby prawa najemców."
+    ru: "Такие нормы расширяли бы права арендаторов."
+    source: { kind: authored }
+  - form: "rozszerzałyby"
+    pl: "W cieple rury rozszerzałyby się za mocno."
+    ru: "В тепле трубы расширялись бы слишком сильно."
+    source: { kind: authored }
+  - form: "rozszerzałyby"
+    pl: "Gminy chętnie rozszerzałyby sieć autobusów."
+    ru: "Гмины охотно расширяли бы автобусную сеть."
+    source: { kind: authored }
+  - form: "rozszerzałybyście"
+    pl: "Dziewczyny, rozszerzałybyście kawiarnię o księgarnię?"
+    ru: "Девочки, вы бы расширяли кафе за счёт книжного магазина?"
+    source: { kind: authored }
+  - form: "rozszerzałybyście"
+    pl: "Czy rozszerzałybyście ofertę, mając wspólnika?"
+    ru: "Вы бы расширяли ассортимент, будь у вас компаньон?"
+    source: { kind: authored }
+  - form: "rozszerzałybyście"
+    pl: "Pewnie rozszerzałybyście sklep, gdyby lokal był większy."
+    ru: "Вы бы, наверное, расширяли магазин, будь помещение больше."
+    source: { kind: authored }
+  - form: "rozszerzałybyśmy"
+    pl: "Z siostrą chętnie rozszerzałybyśmy pracownię."
+    ru: "Мы с сестрой охотно расширяли бы мастерскую."
+    source: { kind: authored }
+  - form: "rozszerzałybyśmy"
+    pl: "Mając dotację, rozszerzałybyśmy zajęcia dla dzieci."
+    ru: "С дотацией мы бы расширяли занятия для детей."
+    source: { kind: authored }
+  - form: "rozszerzałybyśmy"
+    pl: "Bez kredytu nie rozszerzałybyśmy firmy."
+    ru: "Без кредита мы бы не расширяли фирму."
+    source: { kind: authored }
+  - form: "rozszerzałyście"
+    pl: "Jak szybko rozszerzałyście waszą kwiaciarnię?"
+    ru: "Как быстро вы расширяли свой цветочный магазин?"
+    source: { kind: authored }
+  - form: "rozszerzałyście"
+    pl: "Kiedy rozszerzałyście ofertę, przyszli nowi klienci?"
+    ru: "Когда вы расширяли ассортимент, пришли новые клиенты?"
+    source: { kind: authored }
+  - form: "rozszerzałyście"
+    pl: "Wiem, że rozszerzałyście program kursu."
+    ru: "Я знаю, что вы расширяли программу курса."
+    source: { kind: authored }
+  - form: "rozszerzałyśmy"
+    pl: "Z koleżankami stopniowo rozszerzałyśmy klub książki."
+    ru: "Мы с подругами постепенно расширяли книжный клуб."
+    source: { kind: authored }
+  - form: "rozszerzałyśmy"
+    pl: "Co roku rozszerzałyśmy festiwal o nowe miasta."
+    ru: "Каждый год мы расширяли фестиваль на новые города."
+    source: { kind: authored }
+  - form: "rozszerzałyśmy"
+    pl: "Powoli rozszerzałyśmy ofertę naszej piekarni."
+    ru: "Мы постепенно расширяли ассортимент нашей пекарни."
+    source: { kind: authored }
+  - form: "rozszerzam"
+    pl: "Jestem jak ten wszechświat – ciągle się rozszerzam."
+    ru: "Я как эта Вселенная: всё время расширяюсь."
+    source: { kind: translated, id: 13029170 }
+  - form: "rozszerzam"
+    pl: "Codziennie rozszerzam słownictwo o pięć słów."
+    ru: "Каждый день я пополняю словарный запас на пять слов."
+    source: { kind: authored }
+  - form: "rozszerzam"
+    pl: "W tym roku rozszerzam działalność na Wrocław."
+    ru: "В этом году я расширяю деятельность на Вроцлав."
+    source: { kind: authored }
+  - form: "rozszerzamy"
+    pl: "Od marca rozszerzamy ofertę o dostawy do domu."
+    ru: "С марта мы дополняем предложение доставкой на дом."
+    source: { kind: authored }
+  - form: "rozszerzamy"
+    pl: "Stopniowo rozszerzamy zespół o nowych programistów."
+    ru: "Мы постепенно пополняем команду новыми программистами."
+    source: { kind: authored }
+  - form: "rozszerzamy"
+    pl: "Nie rozszerzamy na razie sklepu."
+    ru: "Мы пока не расширяем магазин."
+    source: { kind: authored }
+  - form: "rozszerzana"
+    pl: "Sieć tramwajowa jest rozszerzana."
+    ru: "Трамвайную сеть расширяют."
+    source: { kind: translated, id: 12229080 }
+  - form: "rozszerzana"
+    pl: "Lista lektur jest co roku rozszerzana."
+    ru: "Список обязательной литературы каждый год расширяют."
+    source: { kind: authored }
+  - form: "rozszerzana"
+    pl: "Ta droga jest właśnie rozszerzana do czterech pasów."
+    ru: "Эту дорогу как раз расширяют до четырёх полос."
+    source: { kind: authored }
+  - form: "rozszerzaną"
+    pl: "Jedziemy rozszerzaną właśnie obwodnicą."
+    ru: "Мы едем по объездной, которую как раз расширяют."
+    source: { kind: authored }
+  - form: "rozszerzaną"
+    pl: "Mieszkańcy krytykują ciągle rozszerzaną strefę płatnego parkowania."
+    ru: "Жители критикуют постоянно расширяемую зону платной парковки."
+    source: { kind: authored }
+  - form: "rozszerzaną"
+    pl: "Dostaliśmy nową, rozszerzaną co roku listę zadań."
+    ru: "Мы получили новый, ежегодно дополняемый список задач."
+    source: { kind: authored }
+  - form: "rozszerzane"
+    pl: "Muzeum jest rozszerzane o nowe skrzydło."
+    ru: "К музею пристраивают новое крыло."
+    source: { kind: authored }
+  - form: "rozszerzane"
+    pl: "Lotnisko było rozszerzane przez pięć lat."
+    ru: "Аэропорт расширяли пять лет."
+    source: { kind: authored }
+  - form: "rozszerzane"
+    pl: "Uprawnienia policji są stale rozszerzane."
+    ru: "Полномочия полиции постоянно расширяют."
+    source: { kind: authored }
+  - form: "rozszerzanego"
+    pl: "Wzdłuż rozszerzanego odcinka autostrady stoją znaki."
+    ru: "Вдоль расширяемого участка автострады стоят знаки."
+    source: { kind: authored }
+  - form: "rozszerzanego"
+    pl: "Szukam opisu stale rozszerzanego programu."
+    ru: "Я ищу описание постоянно расширяемой программы."
+    source: { kind: authored }
+  - form: "rozszerzanego"
+    pl: "Za płotem rozszerzanego parkingu stoją dźwigi."
+    ru: "За забором расширяемой парковки стоят краны."
+    source: { kind: authored }
+  - form: "rozszerzanej"
+    pl: "Mieszkam przy rozszerzanej właśnie ulicy."
+    ru: "Я живу на улице, которую сейчас расширяют."
+    source: { kind: authored }
+  - form: "rozszerzanej"
+    pl: "Na rozszerzanej drodze stoją korki."
+    ru: "На расширяемой дороге пробки."
+    source: { kind: authored }
+  - form: "rozszerzanej"
+    pl: "Granice rozszerzanej strefy jeszcze nie są znane."
+    ru: "Границы расширяемой зоны ещё не известны."
+    source: { kind: authored }
+  - form: "rozszerzanemu"
+    pl: "Mieszkańcy przyglądali się rozszerzanemu mostowi."
+    ru: "Жители смотрели на расширяемый мост."
+    source: { kind: authored }
+  - form: "rozszerzanemu"
+    pl: "Dzięki rozszerzanemu programowi pomocy więcej osób dostanie wsparcie."
+    ru: "Благодаря расширяемой программе помощи поддержку получит больше людей."
+    source: { kind: authored }
+  - form: "rozszerzanemu"
+    pl: "Radni sprzeciwili się stale rozszerzanemu zakazowi wjazdu."
+    ru: "Депутаты выступили против постоянно расширяемого запрета на въезд."
+    source: { kind: authored }
+  - form: "rozszerzania"
+    pl: "Ciepło jest przyczyną rozszerzania się metali."
+    ru: "Тепло — причина расширения металлов."
+    source: { kind: authored }
+  - form: "rozszerzania"
+    pl: "Sejm dyskutuje o potrzebie rozszerzania Unii."
+    ru: "Сейм обсуждает необходимость расширения Евросоюза."
+    source: { kind: authored }
+  - form: "rozszerzania"
+    pl: "Firma nie planuje rozszerzania oferty."
+    ru: "Фирма не планирует расширения ассортимента."
+    source: { kind: authored }
+  - form: "rozszerzanie"
+    pl: "Rozszerzanie się wszechświata przyspiesza."
+    ru: "Расширение Вселенной ускоряется."
+    source: { kind: translated, id: 2289728 }
+  - form: "rozszerzanie"
+    pl: "Planujemy rozszerzanie sklepu na drugie piętro."
+    ru: "Мы планируем расширение магазина на второй этаж."
+    source: { kind: authored }
+  - form: "rozszerzanie"
+    pl: "Rozszerzanie programu kosztuje dużo pieniędzy."
+    ru: "Расширение программы стоит больших денег."
+    source: { kind: authored }
+  - form: "rozszerzaniem"
+    pl: "Zarząd zajmuje się rozszerzaniem sieci sklepów."
+    ru: "Правление занимается расширением сети магазинов."
+    source: { kind: authored }
+  - form: "rozszerzaniem"
+    pl: "Z rozszerzaniem drogi trzeba poczekać do lata."
+    ru: "С расширением дороги придётся подождать до лета."
+    source: { kind: authored }
+  - form: "rozszerzaniem"
+    pl: "Mieszkańcy są zmęczeni ciągłym rozszerzaniem lotniska."
+    ru: "Жители устали от постоянного расширения аэропорта."
+    source: { kind: authored }
+  - form: "rozszerzaniu"
+    pl: "Pomagam szefowi w rozszerzaniu działalności."
+    ru: "Я помогаю начальнику в расширении деятельности."
+    source: { kind: authored }
+  - form: "rozszerzaniu"
+    pl: "Przy rozszerzaniu oferty trzeba znać rynek."
+    ru: "При расширении ассортимента надо знать рынок."
+    source: { kind: authored }
+  - form: "rozszerzaniu"
+    pl: "Rozmawialiśmy o rozszerzaniu współpracy z Niemcami."
+    ru: "Мы говорили о расширении сотрудничества с Германией."
+    source: { kind: authored }
+  - form: "rozszerzano"
+    pl: "W latach siedemdziesiątych rozszerzano port."
+    ru: "В семидесятые годы порт расширяли."
+    source: { kind: authored }
+  - form: "rozszerzano"
+    pl: "Wielokrotnie rozszerzano listę chronionych gatunków."
+    ru: "Список охраняемых видов неоднократно расширяли."
+    source: { kind: authored }
+  - form: "rozszerzano"
+    pl: "Drogę rozszerzano kilka razy."
+    ru: "Дорогу расширяли несколько раз."
+    source: { kind: authored }
+  - form: "rozszerzany"
+    pl: "Park jest co roku rozszerzany o nowe alejki."
+    ru: "Парк каждый год расширяют новыми аллеями."
+    source: { kind: authored }
+  - form: "rozszerzany"
+    pl: "Ten słownik jest stale rozszerzany."
+    ru: "Этот словарь постоянно дополняют."
+    source: { kind: authored }
+  - form: "rozszerzany"
+    pl: "Most był rozszerzany przez dwa lata."
+    ru: "Мост расширяли два года."
+    source: { kind: authored }
+  - form: "rozszerzanych"
+    pl: "Na rozszerzanych drogach obowiązuje ograniczenie prędkości."
+    ru: "На расширяемых дорогах действует ограничение скорости."
+    source: { kind: authored }
+  - form: "rozszerzanych"
+    pl: "Listy rozszerzanych programów są w internecie."
+    ru: "Списки расширяемых программ есть в интернете."
+    source: { kind: authored }
+  - form: "rozszerzanych"
+    pl: "W rozszerzanych szkołach powstają nowe sale."
+    ru: "В расширяемых школах появляются новые классы."
+    source: { kind: authored }
+  - form: "rozszerzanym"
+    pl: "Jechaliśmy rozszerzanym właśnie mostem."
+    ru: "Мы ехали по мосту, который как раз расширяли."
+    source: { kind: authored }
+  - form: "rozszerzanym"
+    pl: "W rozszerzanym budynku będzie nowa biblioteka."
+    ru: "В расширяемом здании будет новая библиотека."
+    source: { kind: authored }
+  - form: "rozszerzanym"
+    pl: "Na rozszerzanym lotnisku powstaje drugi terminal."
+    ru: "В расширяемом аэропорту строят второй терминал."
+    source: { kind: authored }
+  - form: "rozszerzanymi"
+    pl: "Kierowcy jeżdżą rozszerzanymi drogami bardzo wolno."
+    ru: "Водители очень медленно ездят по расширяемым дорогам."
+    source: { kind: authored }
+  - form: "rozszerzanymi"
+    pl: "Między rozszerzanymi blokami stoją dźwigi."
+    ru: "Между расширяемыми корпусами стоят краны."
+    source: { kind: authored }
+  - form: "rozszerzanymi"
+    pl: "Zajmuję się stale rozszerzanymi bazami danych."
+    ru: "Я занимаюсь постоянно расширяемыми базами данных."
+    source: { kind: authored }
+  - form: "rozszerzasz"
+    pl: "Czy rozszerzasz działalność na inne miasta?"
+    ru: "Ты расширяешь деятельность на другие города?"
+    source: { kind: authored }
+  - form: "rozszerzasz"
+    pl: "Dzięki czytaniu rozszerzasz swoje horyzonty."
+    ru: "Благодаря чтению ты расширяешь кругозор."
+    source: { kind: authored }
+  - form: "rozszerzasz"
+    pl: "Po co rozszerzasz ten temat?"
+    ru: "Зачем ты расширяешь эту тему?"
+    source: { kind: authored }
