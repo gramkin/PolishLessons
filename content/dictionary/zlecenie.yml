@@ -1,0 +1,149 @@
+# review
+id: zlecenie
+format: 2
+lemma: "zlecenie"
+rank: 5788
+pos: noun
+pron: { cyr: "злеце́не" }
+senses:
+  - id: order
+    ru: "заказ (на работу, услугу)"
+    examples:
+      - pl: "Zastanawiam się, czy przyjąć to zlecenie."
+        ru: "Я раздумываю, браться ли за этот заказ."
+        source: { kind: translated, id: 933271 }
+      - pl: "Dzięki kampanii reklamowej do firmy trafiło dużo zleceń."
+        ru: "Благодаря рекламной кампании в фирму поступило много заказов."
+        source: { kind: translated, id: 766487 }
+      - pl: "Pracuje na zlecenie dużego wydawnictwa."
+        ru: "Он работает по заказу крупного издательства."
+        source: { kind: authored }
+      - pl: "Zabójstwo na zlecenie wstrząsnęło miastem."
+        ru: "Заказное убийство потрясло город."
+        source: { kind: authored }
+  - id: instruction
+    ru: "поручение, распоряжение (банку, ведомству)"
+    examples:
+      - pl: "Złożyłem w banku zlecenie stałe na czynsz."
+        ru: "Я оформил в банке постоянное поручение на оплату квартиры."
+        source: { kind: authored }
+      - pl: "Policja wykonała zlecenie prokuratury."
+        ru: "Полиция выполнила поручение прокуратуры."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ZLECENIE — «заказ, поручение», к «лечению» отношения не имеет (лечение — LECZENIE). Глагол — ZLECIĆ / ZLECAĆ «поручить, заказать»." }
+  - { kind: usage, text: "UMOWA ZLECENIA (в разговоре UMOWA-ZLECENIE) — гражданско-правовой договор вместо трудового: PRACOWAĆ NA ZLECENIU. NA ZLECENIE KOGOŚ — «по заказу кого-то»; ZABÓJSTWO NA ZLECENIE — «заказное убийство»." }
+  - { kind: government, text: "Чей заказ — родительный: ZLECENIE KLIENTA. На что — NA с винительным: ZLECENIE NA TŁUMACZENIE. Взять заказ — PRZYJĄĆ ZLECENIE, выполнить — WYKONAĆ ZLECENIE." }
+  - { kind: pronunciation, text: "Читается «злеце́не»: C — твёрдое «ц», не «ч». Восемь форм, средний род; звательный совпадает с именительным." }
+collocations:
+  - { pl: "przyjąć zlecenie", ru: "взять заказ" }
+  - { pl: "na zlecenie", ru: "по заказу" }
+  - { pl: "umowa zlecenia", ru: "договор поручения" }
+  - { pl: "zlecenie stałe", ru: "постоянное банковское поручение" }
+family:
+  - { pl: "zlecić", ru: "поручить, заказать", relation: root, id: zlecic }
+  - { pl: "zlecać", ru: "поручать, заказывать", relation: root }
+  - { pl: "zleceniodawca", ru: "заказчик", relation: derived }
+  - { pl: "zleceniobiorca", ru: "исполнитель заказа", relation: derived }
+etymology: "Отглагольное существительное от ZLECIĆ «поручить» с суффиксом -ENIE."
+memory: "Zlecenie — заказ, поручение; не «лечение». Na zlecenie — по заказу. Umowa zlecenia — договор вместо трудового."
+idioms:
+  - { pl: "na zlecenie", ru: "по заказу, заказной" }
+  - { pl: "umowa zlecenia", ru: "договор поручения (гражданско-правовой)" }
+formExamples:
+  - form: "zlecenia"
+    pl: "Firma czeka na nowe zlecenia."
+    ru: "Фирма ждёт новых заказов."
+    source: { kind: authored }
+  - form: "zlecenia"
+    pl: "Bez zaliczki nie przyjmuję zlecenia."
+    ru: "Без предоплаты я заказ не беру."
+    source: { kind: authored }
+  - form: "zlecenia"
+    pl: "Podpisał umowę zlecenia na trzy miesiące."
+    ru: "Он подписал договор поручения на три месяца."
+    source: { kind: authored }
+  - form: "zleceniach"
+    pl: "W zleceniach od klientów często są błędy."
+    ru: "В заказах от клиентов часто бывают ошибки."
+    source: { kind: authored }
+  - form: "zleceniach"
+    pl: "Szef mówił o nowych zleceniach z Niemiec."
+    ru: "Начальник говорил о новых заказах из Германии."
+    source: { kind: authored }
+  - form: "zleceniach"
+    pl: "Pracownicy na zleceniach nie mają płatnego urlopu."
+    ru: "У работающих по договорам поручения нет оплачиваемого отпуска."
+    source: { kind: authored }
+  - form: "zleceniami"
+    pl: "Nie nadążam za zleceniami."
+    ru: "Я не успеваю за заказами."
+    source: { kind: authored }
+  - form: "zleceniami"
+    pl: "Jesteśmy zasypani zleceniami."
+    ru: "Мы завалены заказами."
+    source: { kind: authored }
+  - form: "zleceniami"
+    pl: "Z takimi zleceniami firma przetrwa zimę."
+    ru: "С такими заказами фирма переживёт зиму."
+    source: { kind: authored }
+  - form: "zlecenie"
+    pl: "Zastanawiam się, czy przyjąć to zlecenie."
+    ru: "Я раздумываю, браться ли за этот заказ."
+    source: { kind: translated, id: 933271 }
+  - form: "zlecenie"
+    pl: "Tom z chęcią przyjął to zlecenie."
+    ru: "Том охотно взялся за этот заказ."
+    source: { kind: translated, id: 13560408 }
+  - form: "zlecenie"
+    pl: "Zlecenie przyszło w piątek wieczorem."
+    ru: "Заказ пришёл в пятницу вечером."
+    source: { kind: authored }
+  - form: "zleceniem"
+    pl: "Przyszedł do nas z pilnym zleceniem."
+    ru: "Он пришёл к нам со срочным заказом."
+    source: { kind: authored }
+  - form: "zleceniem"
+    pl: "Za tym zleceniem stoi duża firma."
+    ru: "За этим заказом стоит крупная фирма."
+    source: { kind: authored }
+  - form: "zleceniem"
+    pl: "Nad tym zleceniem pracowaliśmy cały tydzień."
+    ru: "Над этим заказом мы работали всю неделю."
+    source: { kind: authored }
+  - form: "zleceniom"
+    pl: "Dzięki nowym zleceniom zatrudniliśmy dwie osoby."
+    ru: "Благодаря новым заказам мы наняли двух человек."
+    source: { kind: authored }
+  - form: "zleceniom"
+    pl: "Firma zawdzięcza przetrwanie zagranicznym zleceniom."
+    ru: "Фирма обязана выживанием заграничным заказам."
+    source: { kind: authored }
+  - form: "zleceniom"
+    pl: "Księgowa przyglądała się zleceniom z ostatniego miesiąca."
+    ru: "Бухгалтер просматривала заказы за последний месяц."
+    source: { kind: authored }
+  - form: "zleceniu"
+    pl: "W zleceniu nie było terminu."
+    ru: "В заказе не был указан срок."
+    source: { kind: authored }
+  - form: "zleceniu"
+    pl: "Klient zapomniał o zleceniu i nie zapłacił."
+    ru: "Клиент забыл о заказе и не заплатил."
+    source: { kind: authored }
+  - form: "zleceniu"
+    pl: "Przy tym zleceniu musimy działać szybko."
+    ru: "С этим заказом нам надо действовать быстро."
+    source: { kind: authored }
+  - form: "zleceń"
+    pl: "Dzięki kampanii reklamowej do firmy trafiło dużo zleceń."
+    ru: "Благодаря рекламной кампании в фирму поступило много заказов."
+    source: { kind: translated, id: 766487 }
+  - form: "zleceń"
+    pl: "Od wiosny brakuje nam zleceń."
+    ru: "С весны нам не хватает заказов."
+    source: { kind: authored }
+  - form: "zleceń"
+    pl: "Większość zleceń dostajemy przez internet."
+    ru: "Большую часть заказов мы получаем через интернет."
+    source: { kind: authored }
