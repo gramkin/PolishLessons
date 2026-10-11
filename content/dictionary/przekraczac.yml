@@ -1,0 +1,808 @@
+# review
+id: przekraczac
+format: 2
+lemma: "przekraczać"
+rank: 5929
+pos: verb
+aspect: imperf
+aspectPair: przekroczyc
+pron: { cyr: "пшэкра́чаць" }
+senses:
+  - id: cross
+    ru: "пересекать, переходить (границу, черту, порог)"
+    examples:
+      - pl: "Codziennie przekraczam granicę w drodze do pracy."
+        ru: "Каждый день я пересекаю границу по дороге на работу."
+        source: { kind: authored }
+      - pl: "Turyści przekraczają most pieszo."
+        ru: "Туристы переходят мост пешком."
+        source: { kind: authored }
+  - id: exceed
+    ru: "превышать (скорость, норму, срок)"
+    examples:
+      - pl: "Nie przekraczaj ograniczenia prędkości."
+        ru: "Не превышай ограничение скорости."
+        source: { kind: translated, id: 838980 }
+      - pl: "Koszty znowu przekraczają budżet."
+        ru: "Расходы снова превышают бюджет."
+        source: { kind: authored }
+      - pl: "Zrozumienie tej książki przekracza moje możliwości."
+        ru: "Понять эту книгу свыше моих сил."
+        source: { kind: tatoeba, id: 766208 }
+  - id: violate
+    ru: "нарушать, переступать (правила, закон, приличия)"
+    examples:
+      - pl: "Tym razem przekraczasz wszelkie granice."
+        ru: "На этот раз ты переходишь все границы."
+        source: { kind: authored }
+      - pl: "Urzędnik przekraczał swoje uprawnienia."
+        ru: "Чиновник превышал свои полномочия."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Несовершенный вид; совершенный — PRZEKROCZYĆ. Одно слово покрывает три русских глагола: «пересекать» (PRZEKRACZAĆ GRANICĘ), «превышать» (PRZEKRACZAĆ PRĘDKOŚĆ) и «переступать, нарушать» (PRZEKRACZAĆ PRAWO, UPRAWNIENIA)." }
+  - { kind: government, text: "Прямое дополнение в винительном: PRZEKRACZAĆ GRANICĘ, NORMĘ. После отрицания — родительный: NIE PRZEKRACZAJ PRĘDKOŚCI. Мужско-личное страдательное PRZEKRACZANI в карточку не включено: пересекают и превышают что-то, а не людей." }
+  - { kind: false-friend, text: "Не «перекрашивать»: корень тот же, что в KROK «шаг» и KROCZYĆ «шагать». PRZEKRACZAĆ — буквально «перешагивать»; «перекрашивать» по-польски PRZEMALOWYWAĆ." }
+  - { kind: pronunciation, text: "PRZE- читается «пшэ», CZ — «ч»: «пшэкра́чаць». Ударение на предпоследнем слоге: PRZEKRACZAM — «пшэкра́чам»." }
+collocations:
+  - { pl: "przekraczać granicę", ru: "пересекать границу" }
+  - { pl: "przekraczać prędkość", ru: "превышать скорость" }
+  - { pl: "przekraczać uprawnienia", ru: "превышать полномочия" }
+  - { pl: "przekraczać próg", ru: "переступать порог" }
+family:
+  - { pl: "przekroczyć", ru: "пересечь, превысить", relation: aspect, id: przekroczyc }
+  - { pl: "przekroczenie", ru: "пересечение, превышение, нарушение", relation: derived }
+  - { pl: "krok", ru: "шаг", relation: root, id: krok }
+  - { pl: "kroczyć", ru: "шагать, шествовать", relation: root }
+  - { pl: "granica", ru: "граница", relation: root, id: granica }
+etymology: "Приставка PRZE- «пере-» плюс KRACZAĆ, итератив от KROCZYĆ «шагать», от KROK «шаг»; буквально «перешагивать»."
+memory: "Przekraczać — перешагивать: krok «шаг» через границу, через норму, через закон."
+idioms:
+  - { pl: "przekraczać wszelkie granice", ru: "переходить все границы" }
+  - { pl: "przekraczać ludzkie pojęcie", ru: "не укладываться в голове" }
+formExamplesSkip:
+  - { form: "przekraczani", reason: "мужско-личная форма: пересекают и превышают что-то, а не людей" }
+formExamples:
+  - form: "przekracza"
+    pl: "Zrozumienie tej książki przekracza moje możliwości."
+    ru: "Понять эту книгу свыше моих сил."
+    source: { kind: tatoeba, id: 766208 }
+  - form: "przekracza"
+    pl: "Temperatura w lipcu często przekracza trzydzieści stopni."
+    ru: "Температура в июле часто превышает тридцать градусов."
+    source: { kind: authored }
+  - form: "przekracza"
+    pl: "Pociąg przekracza granicę o północy."
+    ru: "Поезд пересекает границу в полночь."
+    source: { kind: authored }
+  - form: "przekraczacie"
+    pl: "Dlaczego zawsze przekraczacie czas wystąpienia?"
+    ru: "Почему вы всегда превышаете время выступления?"
+    source: { kind: authored }
+  - form: "przekraczacie"
+    pl: "Czy często przekraczacie granicę samochodem?"
+    ru: "Вы часто пересекаете границу на машине?"
+    source: { kind: authored }
+  - form: "przekraczacie"
+    pl: "Panowie, przekraczacie swoje uprawnienia!"
+    ru: "Господа, вы превышаете свои полномочия!"
+    source: { kind: authored }
+  - form: "przekraczaj"
+    pl: "Nie przekraczaj ograniczenia prędkości."
+    ru: "Не превышай ограничение скорости."
+    source: { kind: translated, id: 838980 }
+  - form: "przekraczaj"
+    pl: "Proszę, nie przekraczaj tej linii."
+    ru: "Пожалуйста, не переступай эту черту."
+    source: { kind: authored }
+  - form: "przekraczaj"
+    pl: "Pod żadnym pozorem nie przekraczaj dawki leku."
+    ru: "Ни в коем случае не превышай дозу лекарства."
+    source: { kind: authored }
+  - form: "przekraczajcie"
+    pl: "Dzieci, nie przekraczajcie tej żółtej linii!"
+    ru: "Дети, не заходите за эту жёлтую линию!"
+    source: { kind: authored }
+  - form: "przekraczajcie"
+    pl: "Na wycieczce nie przekraczajcie granic rezerwatu."
+    ru: "На экскурсии не выходите за границы заповедника."
+    source: { kind: authored }
+  - form: "przekraczajcie"
+    pl: "W pracy nie przekraczajcie swoich kompetencji."
+    ru: "На работе не превышайте своих полномочий."
+    source: { kind: authored }
+  - form: "przekraczajmy"
+    pl: "Nie przekraczajmy budżetu w tym roku."
+    ru: "Давайте не будем превышать бюджет в этом году."
+    source: { kind: authored }
+  - form: "przekraczajmy"
+    pl: "Odważnie przekraczajmy własne ograniczenia."
+    ru: "Давайте смело преодолевать собственные ограничения."
+    source: { kind: authored }
+  - form: "przekraczajmy"
+    pl: "Granicę przekraczajmy rano, kiedy jest mały ruch."
+    ru: "Давайте пересекать границу утром, когда мало машин."
+    source: { kind: authored }
+  - form: "przekraczają"
+    pl: "Turyści przekraczają most pieszo."
+    ru: "Туристы переходят мост пешком."
+    source: { kind: authored }
+  - form: "przekraczają"
+    pl: "Koszty znowu przekraczają budżet."
+    ru: "Расходы снова превышают бюджет."
+    source: { kind: authored }
+  - form: "przekraczają"
+    pl: "Ceny mieszkań przekraczają możliwości młodych ludzi."
+    ru: "Цены на квартиры не по карману молодым людям."
+    source: { kind: authored }
+  - form: "przekraczając"
+    pl: "Przekraczając granicę, pokazałem paszport."
+    ru: "Пересекая границу, я показал паспорт."
+    source: { kind: authored }
+  - form: "przekraczając"
+    pl: "Jadąc tak, ryzykujesz życie, przekraczając prędkość."
+    ru: "Езжая так, ты рискуешь жизнью, превышая скорость."
+    source: { kind: authored }
+  - form: "przekraczając"
+    pl: "Pracował ponad siły, często przekraczając normę."
+    ru: "Он работал сверх сил, часто перевыполняя норму."
+    source: { kind: authored }
+  - form: "przekraczająca"
+    pl: "Kwota przekraczająca limit wymaga zgody banku."
+    ru: "Сумма, превышающая лимит, требует согласия банка."
+    source: { kind: authored }
+  - form: "przekraczająca"
+    pl: "Temperatura przekraczająca czterdzieści stopni jest groźna."
+    ru: "Температура выше сорока градусов опасна."
+    source: { kind: authored }
+  - form: "przekraczająca"
+    pl: "Kobieta przekraczająca jezdnię nie patrzyła w bok."
+    ru: "Женщина, переходившая дорогу, не смотрела по сторонам."
+    source: { kind: authored }
+  - form: "przekraczające"
+    pl: "Opady przekraczające normę zalały pola."
+    ru: "Осадки выше нормы затопили поля."
+    source: { kind: authored }
+  - form: "przekraczające"
+    pl: "Wydatki przekraczające budżet trzeba uzasadnić."
+    ru: "Расходы сверх бюджета нужно обосновать."
+    source: { kind: authored }
+  - form: "przekraczające"
+    pl: "Auta przekraczające prędkość fotografuje radar."
+    ru: "Машины, превышающие скорость, фотографирует радар."
+    source: { kind: authored }
+  - form: "przekraczającego"
+    pl: "Policja zatrzymała kierowcę przekraczającego prędkość."
+    ru: "Полиция остановила водителя, превышавшего скорость."
+    source: { kind: authored }
+  - form: "przekraczającego"
+    pl: "Nie ma tu nic przekraczającego normy."
+    ru: "Здесь нет ничего сверх нормы."
+    source: { kind: authored }
+  - form: "przekraczającego"
+    pl: "Kamera nagrała mężczyznę przekraczającego granicę nielegalnie."
+    ru: "Камера сняла мужчину, незаконно пересекавшего границу."
+    source: { kind: authored }
+  - form: "przekraczającej"
+    pl: "Mowa jest o sumie przekraczającej milion złotych."
+    ru: "Речь идёт о сумме свыше миллиона злотых."
+    source: { kind: authored }
+  - form: "przekraczającej"
+    pl: "Unikamy dawki przekraczającej zalecenia lekarza."
+    ru: "Мы избегаем дозы, превышающей рекомендации врача."
+    source: { kind: authored }
+  - form: "przekraczającej"
+    pl: "Ekonomiści mówili o inflacji przekraczającej dziesięć procent."
+    ru: "Экономисты говорили об инфляции, превышающей десять процентов."
+    source: { kind: authored }
+  - form: "przekraczającemu"
+    pl: "Przekraczającemu prędkość kierowcy wlepiono mandat."
+    ru: "Водителю, превышавшему скорость, выписали штраф."
+    source: { kind: authored }
+  - form: "przekraczającemu"
+    pl: "Każdemu przekraczającemu granicę sprawdzają paszport."
+    ru: "Каждому, кто пересекает границу, проверяют паспорт."
+    source: { kind: authored }
+  - form: "przekraczającemu"
+    pl: "Dyrektor sprzeciwił się wydatkowi przekraczającemu plan."
+    ru: "Директор воспротивился расходу, превышающему план."
+    source: { kind: authored }
+  - form: "przekraczający"
+    pl: "Kierowca przekraczający prędkość stracił prawo jazdy."
+    ru: "Водитель, превышавший скорость, лишился прав."
+    source: { kind: authored }
+  - form: "przekraczający"
+    pl: "Rachunek przekraczający tysiąc złotych zaskoczył nas."
+    ru: "Счёт, превышающий тысячу злотых, нас удивил."
+    source: { kind: authored }
+  - form: "przekraczający"
+    pl: "Każdy przekraczający granicę musi mieć dokumenty."
+    ru: "Каждый, кто пересекает границу, должен иметь документы."
+    source: { kind: authored }
+  - form: "przekraczających"
+    pl: "Liczba aut przekraczających prędkość spadła."
+    ru: "Число машин, превышающих скорость, снизилось."
+    source: { kind: authored }
+  - form: "przekraczających"
+    pl: "Kontrola dotyczy osób przekraczających granicę."
+    ru: "Проверка касается лиц, пересекающих границу."
+    source: { kind: authored }
+  - form: "przekraczających"
+    pl: "Jest wiele firm przekraczających normy emisji."
+    ru: "Есть много фирм, превышающих нормы выбросов."
+    source: { kind: authored }
+  - form: "przekraczającym"
+    pl: "Z kierowcą przekraczającym prędkość nie jeżdżę."
+    ru: "С водителем, превышающим скорость, я не езжу."
+    source: { kind: authored }
+  - form: "przekraczającym"
+    pl: "Przekraczającym normy zakładom grozi kara."
+    ru: "Предприятиям, превышающим нормы, грозит штраф."
+    source: { kind: authored }
+  - form: "przekraczającym"
+    pl: "W budynku przekraczającym sto metrów są windy."
+    ru: "В здании высотой больше ста метров есть лифты."
+    source: { kind: authored }
+  - form: "przekraczającymi"
+    pl: "Walczymy z kierowcami przekraczającymi prędkość."
+    ru: "Мы боремся с водителями, превышающими скорость."
+    source: { kind: authored }
+  - form: "przekraczającymi"
+    pl: "Rząd zajmie się firmami przekraczającymi normy."
+    ru: "Правительство займётся фирмами, превышающими нормы."
+    source: { kind: authored }
+  - form: "przekraczającymi"
+    pl: "Rozmawiałem z turystami przekraczającymi granicę."
+    ru: "Я поговорил с туристами, пересекавшими границу."
+    source: { kind: authored }
+  - form: "przekraczającą"
+    pl: "Dostałem fakturę przekraczającą moje oczekiwania."
+    ru: "Я получил счёт, превышающий мои ожидания."
+    source: { kind: authored }
+  - form: "przekraczającą"
+    pl: "Zatrzymano ciężarówkę przekraczającą dopuszczalną wagę."
+    ru: "Остановили грузовик, превышающий допустимый вес."
+    source: { kind: authored }
+  - form: "przekraczającą"
+    pl: "Z gorączką przekraczającą trzydzieści dziewięć stopni trafił do szpitala."
+    ru: "С температурой выше тридцати девяти градусов он попал в больницу."
+    source: { kind: authored }
+  - form: "przekraczali"
+    pl: "Uchodźcy nocą przekraczali góry."
+    ru: "Беженцы ночью переходили горы."
+    source: { kind: authored }
+  - form: "przekraczali"
+    pl: "Policjanci przekraczali swoje uprawnienia."
+    ru: "Полицейские превышали свои полномочия."
+    source: { kind: authored }
+  - form: "przekraczali"
+    pl: "Wtedy rzadko przekraczali granicę państwa."
+    ru: "Тогда они редко пересекали государственную границу."
+    source: { kind: authored }
+  - form: "przekraczaliby"
+    pl: "Bez fotoradarów kierowcy przekraczaliby prędkość."
+    ru: "Без камер водители превышали бы скорость."
+    source: { kind: authored }
+  - form: "przekraczaliby"
+    pl: "Robotnicy przekraczaliby normy, gdyby płacono więcej."
+    ru: "Рабочие перевыполняли бы нормы, если бы им больше платили."
+    source: { kind: authored }
+  - form: "przekraczaliby"
+    pl: "Przemytnicy przekraczaliby granicę w lesie."
+    ru: "Контрабандисты пересекали бы границу в лесу."
+    source: { kind: authored }
+  - form: "przekraczalibyście"
+    pl: "Czy przekraczalibyście granicę nocą?"
+    ru: "Вы бы пересекали границу ночью?"
+    source: { kind: authored }
+  - form: "przekraczalibyście"
+    pl: "Z takim szefem nie przekraczalibyście budżetu."
+    ru: "С таким начальником вы бы не превышали бюджет."
+    source: { kind: authored }
+  - form: "przekraczalibyście"
+    pl: "Wy przekraczalibyście prędkość bez przerwy."
+    ru: "Вы бы превышали скорость без конца."
+    source: { kind: authored }
+  - form: "przekraczalibyśmy"
+    pl: "Bez nawigacji przekraczalibyśmy granicę w złym miejscu."
+    ru: "Без навигатора мы бы пересекали границу не там."
+    source: { kind: authored }
+  - form: "przekraczalibyśmy"
+    pl: "Mając więcej pieniędzy, przekraczalibyśmy ocean częściej."
+    ru: "Будь у нас больше денег, мы бы пересекали океан чаще."
+    source: { kind: authored }
+  - form: "przekraczalibyśmy"
+    pl: "Nigdy nie przekraczalibyśmy przepisów celowo."
+    ru: "Мы бы никогда не нарушали правила намеренно."
+    source: { kind: authored }
+  - form: "przekraczaliście"
+    pl: "Którędy przekraczaliście te góry?"
+    ru: "Каким путём вы переходили эти горы?"
+    source: { kind: authored }
+  - form: "przekraczaliście"
+    pl: "Na pewno przekraczaliście dozwoloną prędkość."
+    ru: "Вы наверняка превышали разрешённую скорость."
+    source: { kind: authored }
+  - form: "przekraczaliście"
+    pl: "Gdzie przekraczaliście granicę z Litwą?"
+    ru: "Где вы пересекали границу с Литвой?"
+    source: { kind: authored }
+  - form: "przekraczaliśmy"
+    pl: "O świcie przekraczaliśmy przełęcz."
+    ru: "На рассвете мы переходили перевал."
+    source: { kind: authored }
+  - form: "przekraczaliśmy"
+    pl: "Kilka razy przekraczaliśmy rzekę w bród."
+    ru: "Несколько раз мы переходили реку вброд."
+    source: { kind: authored }
+  - form: "przekraczaliśmy"
+    pl: "Z kolegami przekraczaliśmy granice dobrego smaku."
+    ru: "С друзьями мы переходили границы хорошего вкуса."
+    source: { kind: authored }
+  - form: "przekraczam"
+    pl: "Codziennie przekraczam granicę w drodze do pracy."
+    ru: "Каждый день я пересекаю границу по дороге на работу."
+    source: { kind: authored }
+  - form: "przekraczam"
+    pl: "Rzadko przekraczam limit na karcie."
+    ru: "Я редко превышаю лимит по карте."
+    source: { kind: authored }
+  - form: "przekraczam"
+    pl: "Jadąc autostradą, czasem przekraczam prędkość."
+    ru: "На автостраде я иногда превышаю скорость."
+    source: { kind: authored }
+  - form: "przekraczamy"
+    pl: "Rzekę przekraczamy po starym moście."
+    ru: "Реку мы переходим по старому мосту."
+    source: { kind: authored }
+  - form: "przekraczamy"
+    pl: "Jeśli przekraczamy budżet, szef się złości."
+    ru: "Если мы превышаем бюджет, начальник злится."
+    source: { kind: authored }
+  - form: "przekraczamy"
+    pl: "Za godzinę przekraczamy granicę ze Słowacją."
+    ru: "Через час мы пересекаем границу со Словакией."
+    source: { kind: authored }
+  - form: "przekraczana"
+    pl: "Granica jest przekraczana nielegalnie w lesie."
+    ru: "Границу незаконно пересекают в лесу."
+    source: { kind: authored }
+  - form: "przekraczana"
+    pl: "Dopuszczalna prędkość jest tu często przekraczana."
+    ru: "Допустимую скорость здесь часто превышают."
+    source: { kind: authored }
+  - form: "przekraczana"
+    pl: "Norma hałasu była przekraczana przez całe lato."
+    ru: "Норма шума превышалась всё лето."
+    source: { kind: authored }
+  - form: "przekraczane"
+    pl: "Normy są tu nagminnie przekraczane."
+    ru: "Нормы здесь сплошь и рядом превышаются."
+    source: { kind: authored }
+  - form: "przekraczane"
+    pl: "Terminy były ciągle przekraczane."
+    ru: "Сроки постоянно нарушались."
+    source: { kind: authored }
+  - form: "przekraczane"
+    pl: "Ograniczenie prędkości jest przekraczane bez przerwy."
+    ru: "Ограничение скорости превышают постоянно."
+    source: { kind: authored }
+  - form: "przekraczanego"
+    pl: "Limitu przekraczanego co miesiąc nikt nie zmienił."
+    ru: "Лимит, превышаемый каждый месяц, никто не изменил."
+    source: { kind: authored }
+  - form: "przekraczanego"
+    pl: "Strażnicy pilnują często przekraczanego odcinka granicy."
+    ru: "Пограничники охраняют часто пересекаемый участок границы."
+    source: { kind: authored }
+  - form: "przekraczanego"
+    pl: "Z powodu przekraczanego budżetu projekt wstrzymano."
+    ru: "Из-за превышаемого бюджета проект приостановили."
+    source: { kind: authored }
+  - form: "przekraczanej"
+    pl: "Na często przekraczanej granicy stoją kamery."
+    ru: "На часто пересекаемой границе стоят камеры."
+    source: { kind: authored }
+  - form: "przekraczanej"
+    pl: "Mówimy o normie przekraczanej od lat."
+    ru: "Мы говорим о норме, которую превышают годами."
+    source: { kind: authored }
+  - form: "przekraczanej"
+    pl: "Wzdłuż rzadko przekraczanej rzeki rosną wierzby."
+    ru: "Вдоль реки, которую редко переходят, растут ивы."
+    source: { kind: authored }
+  - form: "przekraczanemu"
+    pl: "Ministerstwo przyjrzy się przekraczanemu od lat limitowi zadłużenia."
+    ru: "Министерство присмотрится к лимиту долга, который превышают годами."
+    source: { kind: authored }
+  - form: "przekraczanemu"
+    pl: "Kontrola przyjrzała się przekraczanemu ciągle budżetowi."
+    ru: "Проверка присмотрелась к постоянно превышаемому бюджету."
+    source: { kind: authored }
+  - form: "przekraczanemu"
+    pl: "Ku rzadko przekraczanemu mostowi prowadziła wąska ścieżka."
+    ru: "К мосту, через который редко ходили, вела узкая тропинка."
+    source: { kind: authored }
+  - form: "przekraczania"
+    pl: "Mandat dostał z powodu przekraczania prędkości."
+    ru: "Штраф он получил за превышение скорости."
+    source: { kind: authored }
+  - form: "przekraczania"
+    pl: "Procedura przekraczania granicy trwa godzinę."
+    ru: "Процедура пересечения границы длится час."
+    source: { kind: authored }
+  - form: "przekraczania"
+    pl: "Unikaj przekraczania dawki leku."
+    ru: "Избегай превышения дозы лекарства."
+    source: { kind: authored }
+  - form: "przekraczanie"
+    pl: "Przekraczanie prędkości jest niebezpieczne."
+    ru: "Превышение скорости опасно."
+    source: { kind: authored }
+  - form: "przekraczanie"
+    pl: "Za przekraczanie uprawnień grozi kara."
+    ru: "За превышение полномочий грозит наказание."
+    source: { kind: authored }
+  - form: "przekraczanie"
+    pl: "Codzienne przekraczanie granicy stało się rutyną."
+    ru: "Ежедневное пересечение границы стало рутиной."
+    source: { kind: authored }
+  - form: "przekraczaniem"
+    pl: "Mam problem z przekraczaniem terminów."
+    ru: "У меня проблема с нарушением сроков."
+    source: { kind: authored }
+  - form: "przekraczaniem"
+    pl: "Firma walczy z przekraczaniem kosztów."
+    ru: "Фирма борется с перерасходом средств."
+    source: { kind: authored }
+  - form: "przekraczaniem"
+    pl: "Przed przekraczaniem torów trzeba się rozejrzeć."
+    ru: "Перед переходом через пути нужно оглядеться."
+    source: { kind: authored }
+  - form: "przekraczaniu"
+    pl: "Przy przekraczaniu granicy pokaż paszport."
+    ru: "При пересечении границы покажи паспорт."
+    source: { kind: authored }
+  - form: "przekraczaniu"
+    pl: "Mówiono o przekraczaniu uprawnień przez policję."
+    ru: "Говорили о превышении полномочий полицией."
+    source: { kind: authored }
+  - form: "przekraczaniu"
+    pl: "W raporcie pisano o przekraczaniu norm hałasu."
+    ru: "В отчёте писали о превышении норм шума."
+    source: { kind: authored }
+  - form: "przekraczano"
+    pl: "W tym miejscu przekraczano rzekę od wieków."
+    ru: "В этом месте реку переходили веками."
+    source: { kind: authored }
+  - form: "przekraczano"
+    pl: "Normy przekraczano tu regularnie."
+    ru: "Нормы здесь превышали регулярно."
+    source: { kind: authored }
+  - form: "przekraczano"
+    pl: "Granicę przekraczano wtedy tylko za przepustką."
+    ru: "Границу тогда пересекали только по пропуску."
+    source: { kind: authored }
+  - form: "przekraczany"
+    pl: "Ten most jest przekraczany przez tysiące aut dziennie."
+    ru: "Через этот мост ежедневно проезжают тысячи машин."
+    source: { kind: authored }
+  - form: "przekraczany"
+    pl: "Limit jest przekraczany prawie co miesiąc."
+    ru: "Лимит превышается почти каждый месяц."
+    source: { kind: authored }
+  - form: "przekraczany"
+    pl: "Termin był przekraczany wielokrotnie."
+    ru: "Срок нарушался много раз."
+    source: { kind: authored }
+  - form: "przekraczanych"
+    pl: "Liczba przekraczanych norm rośnie."
+    ru: "Число превышаемых норм растёт."
+    source: { kind: authored }
+  - form: "przekraczanych"
+    pl: "Lista przekraczanych terminów jest długa."
+    ru: "Список нарушаемых сроков длинный."
+    source: { kind: authored }
+  - form: "przekraczanych"
+    pl: "W raporcie opisano dziesięć regularnie przekraczanych limitów."
+    ru: "В отчёте описано десять регулярно превышаемых лимитов."
+    source: { kind: authored }
+  - form: "przekraczanym"
+    pl: "Na często przekraczanym moście są korki."
+    ru: "На часто пересекаемом мосту пробки."
+    source: { kind: authored }
+  - form: "przekraczanym"
+    pl: "W przekraczanym co roku budżecie brakuje rezerwy."
+    ru: "В ежегодно превышаемом бюджете не хватает резерва."
+    source: { kind: authored }
+  - form: "przekraczanym"
+    pl: "O przekraczanym limicie poinformował nas bank."
+    ru: "О превышаемом лимите нас уведомил банк."
+    source: { kind: authored }
+  - form: "przekraczanymi"
+    pl: "Bank walczy z przekraczanymi limitami kart."
+    ru: "Банк борется с превышением лимитов по картам."
+    source: { kind: authored }
+  - form: "przekraczanymi"
+    pl: "Z przekraczanymi terminami trzeba coś zrobić."
+    ru: "С нарушаемыми сроками нужно что-то делать."
+    source: { kind: authored }
+  - form: "przekraczanymi"
+    pl: "Nad przekraczanymi normami hałasu debatuje rada miasta."
+    ru: "О превышаемых нормах шума спорит городской совет."
+    source: { kind: authored }
+  - form: "przekraczaną"
+    pl: "Za często przekraczaną normę zapłacimy karę."
+    ru: "За часто превышаемую норму мы заплатим штраф."
+    source: { kind: authored }
+  - form: "przekraczaną"
+    pl: "Nad przekraczaną nielegalnie granicą latają drony."
+    ru: "Над нелегально пересекаемой границей летают дроны."
+    source: { kind: authored }
+  - form: "przekraczaną"
+    pl: "Rodzice kłócą się o przekraczaną co wieczór godzinę powrotu."
+    ru: "Родители ссорятся из-за каждый вечер нарушаемого часа возвращения."
+    source: { kind: authored }
+  - form: "przekraczasz"
+    pl: "Tym razem przekraczasz wszelkie granice."
+    ru: "На этот раз ты переходишь все границы."
+    source: { kind: authored }
+  - form: "przekraczasz"
+    pl: "Znowu przekraczasz termin oddania pracy."
+    ru: "Ты опять пропускаешь срок сдачи работы."
+    source: { kind: authored }
+  - form: "przekraczasz"
+    pl: "Ile razy w roku przekraczasz granicę?"
+    ru: "Сколько раз в год ты пересекаешь границу?"
+    source: { kind: authored }
+  - form: "przekraczać"
+    pl: "Przekraczać granicę można tylko z paszportem."
+    ru: "Пересекать границу можно только с паспортом."
+    source: { kind: authored }
+  - form: "przekraczać"
+    pl: "Nie wolno przekraczać prędkości w mieście."
+    ru: "В городе нельзя превышать скорость."
+    source: { kind: authored }
+  - form: "przekraczać"
+    pl: "Lekarz nie powinien przekraczać swoich kompetencji."
+    ru: "Врач не должен превышать своих полномочий."
+    source: { kind: authored }
+  - form: "przekraczał"
+    pl: "Kierowca przekraczał prędkość o czterdzieści kilometrów."
+    ru: "Водитель превышал скорость на сорок километров."
+    source: { kind: authored }
+  - form: "przekraczał"
+    pl: "Dawniej często przekraczał granicę z Niemcami."
+    ru: "Раньше он часто пересекал границу с Германией."
+    source: { kind: authored }
+  - form: "przekraczał"
+    pl: "Jego talent przekraczał oczekiwania nauczycieli."
+    ru: "Его талант превосходил ожидания учителей."
+    source: { kind: authored }
+  - form: "przekraczała"
+    pl: "Stara pani powoli przekraczała jezdnię."
+    ru: "Пожилая женщина медленно переходила дорогу."
+    source: { kind: authored }
+  - form: "przekraczała"
+    pl: "Kwota przekraczała moje miesięczne zarobki."
+    ru: "Сумма превышала мой месячный заработок."
+    source: { kind: authored }
+  - form: "przekraczała"
+    pl: "Moja cierpliwość nigdy nie przekraczała pewnej granicy."
+    ru: "Моё терпение никогда не выходило за определённый предел."
+    source: { kind: authored }
+  - form: "przekraczałaby"
+    pl: "Taka kara przekraczałaby granice rozsądku."
+    ru: "Такое наказание выходило бы за границы разумного."
+    source: { kind: authored }
+  - form: "przekraczałaby"
+    pl: "Bez nadzoru firma przekraczałaby normy emisji."
+    ru: "Без надзора фирма превышала бы нормы выбросов."
+    source: { kind: authored }
+  - form: "przekraczałaby"
+    pl: "Ta kwota przekraczałaby moje oszczędności."
+    ru: "Эта сумма превышала бы мои сбережения."
+    source: { kind: authored }
+  - form: "przekraczałabym"
+    pl: "Bez zgody szefa nie przekraczałabym budżetu."
+    ru: "Без согласия начальника я бы не превышала бюджет."
+    source: { kind: authored }
+  - form: "przekraczałabym"
+    pl: "Z dobrą mapą przekraczałabym góry sama."
+    ru: "С хорошей картой я бы переходила горы одна."
+    source: { kind: authored }
+  - form: "przekraczałabym"
+    pl: "Ja przekraczałabym granicę raczej pociągiem."
+    ru: "Я бы пересекала границу скорее поездом."
+    source: { kind: authored }
+  - form: "przekraczałabyś"
+    pl: "Mieszkając w Cieszynie, przekraczałabyś granicę codziennie."
+    ru: "Живя в Цешине, ты бы пересекала границу каждый день."
+    source: { kind: authored }
+  - form: "przekraczałabyś"
+    pl: "Bez kontroli przekraczałabyś wszystkie terminy."
+    ru: "Без контроля ты бы нарушала все сроки."
+    source: { kind: authored }
+  - form: "przekraczałabyś"
+    pl: "Czy przekraczałabyś zakazy dla przyjaciółki?"
+    ru: "Ты бы нарушала запреты ради подруги?"
+    source: { kind: authored }
+  - form: "przekraczałam"
+    pl: "Z wózkiem przekraczałam ulicę bardzo ostrożnie."
+    ru: "С коляской я переходила улицу очень осторожно."
+    source: { kind: authored }
+  - form: "przekraczałam"
+    pl: "Nigdy nie przekraczałam terminów w pracy."
+    ru: "Я никогда не нарушала сроков на работе."
+    source: { kind: authored }
+  - form: "przekraczałam"
+    pl: "Jako pilotka przekraczałam równik wiele razy."
+    ru: "Будучи лётчицей, я много раз пересекала экватор."
+    source: { kind: authored }
+  - form: "przekraczałaś"
+    pl: "Czy przekraczałaś kiedyś koło podbiegunowe?"
+    ru: "Ты когда-нибудь пересекала полярный круг?"
+    source: { kind: authored }
+  - form: "przekraczałaś"
+    pl: "Mamo, ty też przekraczałaś godzinę policyjną!"
+    ru: "Мама, ты тоже нарушала комендантский час!"
+    source: { kind: authored }
+  - form: "przekraczałaś"
+    pl: "Już wtedy przekraczałaś swoje możliwości."
+    ru: "Уже тогда ты работала на пределе своих возможностей."
+    source: { kind: authored }
+  - form: "przekraczałby"
+    pl: "Kierowca przekraczałby prędkość, gdyby mógł."
+    ru: "Водитель превышал бы скорость, если бы мог."
+    source: { kind: authored }
+  - form: "przekraczałby"
+    pl: "Taki wydatek przekraczałby nasz budżet."
+    ru: "Такой расход превышал бы наш бюджет."
+    source: { kind: authored }
+  - form: "przekraczałby"
+    pl: "Ten projekt przekraczałby nasze możliwości."
+    ru: "Этот проект был бы нам не по силам."
+    source: { kind: authored }
+  - form: "przekraczałbym"
+    pl: "Na twoim miejscu nie przekraczałbym tej granicy."
+    ru: "На твоём месте я бы не переходил эту черту."
+    source: { kind: authored }
+  - form: "przekraczałbym"
+    pl: "Gdybym miał wolny czas, przekraczałbym góry pieszo."
+    ru: "Если бы у меня было свободное время, я бы переходил горы пешком."
+    source: { kind: authored }
+  - form: "przekraczałbym"
+    pl: "Bez mandatów pewnie przekraczałbym prędkość."
+    ru: "Без штрафов я бы, наверное, превышал скорость."
+    source: { kind: authored }
+  - form: "przekraczałbyś"
+    pl: "Czy przekraczałbyś prędkość, gdyby nie było kamer?"
+    ru: "Ты бы превышал скорость, если бы не было камер?"
+    source: { kind: authored }
+  - form: "przekraczałbyś"
+    pl: "Z takim autem ciągle przekraczałbyś limity."
+    ru: "С такой машиной ты бы постоянно превышал ограничения."
+    source: { kind: authored }
+  - form: "przekraczałbyś"
+    pl: "Mieszkając tam, codziennie przekraczałbyś granicę."
+    ru: "Живя там, ты бы каждый день пересекал границу."
+    source: { kind: authored }
+  - form: "przekraczałem"
+    pl: "Jako student przekraczałem granicę autostopem."
+    ru: "Студентом я пересекал границу автостопом."
+    source: { kind: authored }
+  - form: "przekraczałem"
+    pl: "Na tej drodze często przekraczałem prędkość."
+    ru: "На этой дороге я часто превышал скорость."
+    source: { kind: authored }
+  - form: "przekraczałem"
+    pl: "Kiedyś często przekraczałem limit internetu."
+    ru: "Раньше я часто превышал лимит интернета."
+    source: { kind: authored }
+  - form: "przekraczałeś"
+    pl: "Czy kiedyś przekraczałeś granicę pieszo?"
+    ru: "Ты когда-нибудь пересекал границу пешком?"
+    source: { kind: authored }
+  - form: "przekraczałeś"
+    pl: "Wczoraj przekraczałeś prędkość, widziałem licznik."
+    ru: "Вчера ты превышал скорость, я видел спидометр."
+    source: { kind: authored }
+  - form: "przekraczałeś"
+    pl: "Ty też przekraczałeś zasady, nie udawaj."
+    ru: "Ты тоже нарушал правила, не притворяйся."
+    source: { kind: authored }
+  - form: "przekraczało"
+    pl: "Stężenie smogu przekraczało normę kilka razy."
+    ru: "Концентрация смога превышала норму в несколько раз."
+    source: { kind: authored }
+  - form: "przekraczało"
+    pl: "To zadanie przekraczało siły dziecka."
+    ru: "Это задание было не по силам ребёнку."
+    source: { kind: authored }
+  - form: "przekraczało"
+    pl: "Jego zachowanie przekraczało granice przyzwoitości."
+    ru: "Его поведение переходило границы приличия."
+    source: { kind: authored }
+  - form: "przekraczałoby"
+    pl: "To przekraczałoby moje kompetencje."
+    ru: "Это превышало бы мои полномочия."
+    source: { kind: authored }
+  - form: "przekraczałoby"
+    pl: "Takie wydarzenie przekraczałoby wyobraźnię widzów."
+    ru: "Такое событие превосходило бы воображение зрителей."
+    source: { kind: authored }
+  - form: "przekraczałoby"
+    pl: "Stężenie przekraczałoby normę, gdyby nie filtry."
+    ru: "Концентрация превышала бы норму, если бы не фильтры."
+    source: { kind: authored }
+  - form: "przekraczały"
+    pl: "Rachunki za prąd przekraczały naszą pensję."
+    ru: "Счета за электричество превышали нашу зарплату."
+    source: { kind: authored }
+  - form: "przekraczały"
+    pl: "Fale przekraczały trzy metry wysokości."
+    ru: "Волны превышали три метра в высоту."
+    source: { kind: authored }
+  - form: "przekraczały"
+    pl: "Gęsi przekraczały drogę jedna za drugą."
+    ru: "Гуси переходили дорогу одна за другой."
+    source: { kind: authored }
+  - form: "przekraczałyby"
+    pl: "Te koszty przekraczałyby nasze możliwości."
+    ru: "Эти расходы были бы нам не по силам."
+    source: { kind: authored }
+  - form: "przekraczałyby"
+    pl: "Takie zarobki przekraczałyby moje marzenia."
+    ru: "Такие заработки превосходили бы мои мечты."
+    source: { kind: authored }
+  - form: "przekraczałyby"
+    pl: "Takie kary przekraczałyby granice prawa."
+    ru: "Такие наказания выходили бы за рамки закона."
+    source: { kind: authored }
+  - form: "przekraczałybyście"
+    pl: "Czy przekraczałybyście góry zimą?"
+    ru: "Вы бы переходили горы зимой?"
+    source: { kind: authored }
+  - form: "przekraczałybyście"
+    pl: "Bez nas przekraczałybyście wszystkie zakazy."
+    ru: "Без нас вы бы нарушали все запреты."
+    source: { kind: authored }
+  - form: "przekraczałybyście"
+    pl: "Na zebraniach przekraczałybyście limit czasu."
+    ru: "На собраниях вы бы превышали лимит времени."
+    source: { kind: authored }
+  - form: "przekraczałybyśmy"
+    pl: "Z dziećmi nie przekraczałybyśmy rzeki w bród."
+    ru: "С детьми мы бы не переходили реку вброд."
+    source: { kind: authored }
+  - form: "przekraczałybyśmy"
+    pl: "My przekraczałybyśmy granicę tylko w dzień."
+    ru: "Мы бы пересекали границу только днём."
+    source: { kind: authored }
+  - form: "przekraczałybyśmy"
+    pl: "Bez pośpiechu nie przekraczałybyśmy terminów."
+    ru: "Без спешки мы бы не нарушали сроков."
+    source: { kind: authored }
+  - form: "przekraczałyście"
+    pl: "Czy przekraczałyście już limit bagażu?"
+    ru: "Вы уже превышали лимит багажа?"
+    source: { kind: authored }
+  - form: "przekraczałyście"
+    pl: "Dziewczyny, przekraczałyście czas przerwy."
+    ru: "Девочки, вы затягивали перерыв."
+    source: { kind: authored }
+  - form: "przekraczałyście"
+    pl: "Pewnie przekraczałyście ulicę na czerwonym."
+    ru: "Вы, наверное, переходили улицу на красный."
+    source: { kind: authored }
+  - form: "przekraczałyśmy"
+    pl: "We dwie przekraczałyśmy granicę na rowerach."
+    ru: "Мы вдвоём пересекали границу на велосипедах."
+    source: { kind: authored }
+  - form: "przekraczałyśmy"
+    pl: "Jako dziewczynki przekraczałyśmy zakazy rodziców."
+    ru: "Девочками мы нарушали запреты родителей."
+    source: { kind: authored }
+  - form: "przekraczałyśmy"
+    pl: "Siostry i ja nigdy nie przekraczałyśmy budżetu."
+    ru: "Мы с сёстрами никогда не превышали бюджет."
+    source: { kind: authored }
