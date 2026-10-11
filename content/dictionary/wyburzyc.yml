@@ -1,0 +1,679 @@
+# review
+id: wyburzyc
+format: 2
+lemma: "wyburzyć"
+rank: 5819
+pos: verb
+aspect: perf
+pron: { cyr: "выбу́жыць" }
+senses:
+  - id: demolish
+    ru: "снести (здание), разрушить до основания"
+    examples:
+      - pl: "Planujemy wyburzyć nasz dom."
+        ru: "Мы планируем снести наш дом."
+        source: { kind: translated, id: 3807886 }
+      - pl: "Musimy wyburzyć ten dom."
+        ru: "Нам нужно снести этот дом."
+        source: { kind: translated, id: 6373363 }
+      - pl: "Miasto wyburzy stary dworzec."
+        ru: "Город снесёт старый вокзал."
+        source: { kind: authored }
+      - pl: "Kamienicę wyburzono w latach siedemdziesiątych."
+        ru: "Дом снесли в семидесятых годах."
+        source: { kind: authored }
+  - id: knock-down-wall
+    ru: "снести, сломать (стену, перегородку при ремонте)"
+    examples:
+      - pl: "Wyburzyliśmy ścianę między kuchnią a salonem."
+        ru: "Мы снесли стену между кухней и гостиной."
+        source: { kind: authored }
+      - pl: "Bez pozwolenia nie wyburzysz ściany nośnej."
+        ru: "Без разрешения несущую стену не снесёшь."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "WYBURZYĆ — «снести» здание или стену, а не «взбурлить» и не «вызвать бурю». Корень BURZYĆ значит «рушить, разрушать». Снос — WYBURZENIE: budynek przeznaczony do wyburzenia «дом, подлежащий сносу»." }
+  - { kind: usage, text: "Совершенный вид; несовершенный — WYBURZAĆ. Настоящего времени нет: WYBURZĘ, WYBURZYSZ — это будущее «снесу, снесёшь». Мужско-личное страдательное WYBURZENI в карточку не включено: сносят здания, а не людей." }
+  - { kind: government, text: "Что — винительный: WYBURZYĆ DOM, WYBURZYĆ ŚCIANĘ. О сносе часто говорят безлично или в страдательном залоге: WYBURZONO KAMIENICĘ, DOM ZOSTAŁ WYBURZONY." }
+  - { kind: pronunciation, text: "Читается «выбу́жыць»: RZ — «ж», после него Y — «ы». Ударение на предпоследнем слоге: WYBURZYŁ — «выбу́жыу»." }
+collocations:
+  - { pl: "wyburzyć budynek", ru: "снести здание" }
+  - { pl: "wyburzyć ścianę", ru: "снести стену" }
+  - { pl: "przeznaczony do wyburzenia", ru: "подлежащий сносу" }
+family:
+  - { pl: "wyburzać", ru: "сносить (здания)", relation: aspect }
+  - { pl: "burzyć", ru: "рушить, разрушать", relation: root }
+  - { pl: "zburzyć", ru: "разрушить", relation: root }
+  - { pl: "burza", ru: "буря, гроза", relation: root, id: burza }
+  - { pl: "wyburzenie", ru: "снос (здания)", relation: derived }
+etymology: "Приставка WY- «вы-» плюс BURZYĆ «рушить, разрушать», того же корня, что BURZA «буря»."
+memory: "Wyburzyć — как буря (burza) вынести дом до основания: wy- «вы-», burzyć «рушить»."
+idioms:
+  - { pl: "budynek do wyburzenia", ru: "дом под снос" }
+formExamplesSkip:
+  - { form: "wyburzeni", reason: "мужско-личная форма: сносят здания, а не людей" }
+formExamples:
+  - form: "wyburz"
+    pl: "Wyburz tę ściankę, będzie więcej miejsca."
+    ru: "Снеси эту перегородку, будет больше места."
+    source: { kind: authored }
+  - form: "wyburz"
+    pl: "Najpierw wyburz stary garaż."
+    ru: "Сначала снеси старый гараж."
+    source: { kind: authored }
+  - form: "wyburz"
+    pl: "Jeśli architekt się zgodzi, wyburz tę ścianę."
+    ru: "Если архитектор согласится, снеси эту стену."
+    source: { kind: authored }
+  - form: "wyburzcie"
+    pl: "Wyburzcie tę ruderę, zanim się zawali."
+    ru: "Снесите эту развалюху, пока она не рухнула."
+    source: { kind: authored }
+  - form: "wyburzcie"
+    pl: "Dziewczyny, wyburzcie ściankę w łazience."
+    ru: "Девочки, снесите перегородку в ванной."
+    source: { kind: authored }
+  - form: "wyburzcie"
+    pl: "Najpierw wyburzcie komórkę na podwórku."
+    ru: "Сначала снесите сарай во дворе."
+    source: { kind: authored }
+  - form: "wyburzenia"
+    pl: "Stary młyn jest przeznaczony do wyburzenia."
+    ru: "Старая мельница подлежит сносу."
+    source: { kind: authored }
+  - form: "wyburzenia"
+    pl: "Mieszkańcy domagają się wstrzymania wyburzenia."
+    ru: "Жители требуют приостановить снос."
+    source: { kind: authored }
+  - form: "wyburzenia"
+    pl: "Koszt wyburzenia przekroczył budżet."
+    ru: "Стоимость сноса превысила бюджет."
+    source: { kind: authored }
+  - form: "wyburzenie"
+    pl: "Wyburzenie hali potrwa dwa tygodnie."
+    ru: "Снос цеха займёт две недели."
+    source: { kind: authored }
+  - form: "wyburzenie"
+    pl: "Urząd zatwierdził wyburzenie starego mostu."
+    ru: "Управление утвердило снос старого моста."
+    source: { kind: authored }
+  - form: "wyburzenie"
+    pl: "Za wyburzenie ściany zapłaciliśmy fachowcom."
+    ru: "За снос стены мы заплатили мастерам."
+    source: { kind: authored }
+  - form: "wyburzeniem"
+    pl: "Przed wyburzeniem wyniesiono wszystkie meble."
+    ru: "Перед сносом вынесли всю мебель."
+    source: { kind: authored }
+  - form: "wyburzeniem"
+    pl: "Sąsiedzi walczyli z wyburzeniem parku."
+    ru: "Соседи боролись со сносом парка."
+    source: { kind: authored }
+  - form: "wyburzeniem"
+    pl: "Kamienica stoi pusta przed wyburzeniem."
+    ru: "Дом стоит пустой перед сносом."
+    source: { kind: authored }
+  - form: "wyburzeniu"
+    pl: "Po wyburzeniu ściany kuchnia stała się jasna."
+    ru: "После сноса стены кухня стала светлой."
+    source: { kind: authored }
+  - form: "wyburzeniu"
+    pl: "Na miejscu po wyburzeniu powstał parking."
+    ru: "На месте после сноса появилась парковка."
+    source: { kind: authored }
+  - form: "wyburzeniu"
+    pl: "Gazety pisały o wyburzeniu starego kina."
+    ru: "Газеты писали о сносе старого кинотеатра."
+    source: { kind: authored }
+  - form: "wyburzmy"
+    pl: "Wyburzmy tę ścianę i zróbmy jeden pokój."
+    ru: "Давайте снесём эту стену и сделаем одну комнату."
+    source: { kind: authored }
+  - form: "wyburzmy"
+    pl: "Może wyburzmy stary kurnik?"
+    ru: "Может, снесём старый курятник?"
+    source: { kind: authored }
+  - form: "wyburzmy"
+    pl: "Dobrze, wyburzmy werandę i postawmy nową."
+    ru: "Хорошо, давайте снесём веранду и построим новую."
+    source: { kind: authored }
+  - form: "wyburzona"
+    pl: "Stara fabryka została wyburzona w zeszłym roku."
+    ru: "Старую фабрику снесли в прошлом году."
+    source: { kind: authored }
+  - form: "wyburzona"
+    pl: "Ściana wyburzona przez poprzednich właścicieli była nośna."
+    ru: "Стена, снесённая прежними владельцами, была несущей."
+    source: { kind: authored }
+  - form: "wyburzona"
+    pl: "Cała ulica została wyburzona po wojnie."
+    ru: "Всю улицу снесли после войны."
+    source: { kind: authored }
+  - form: "wyburzone"
+    pl: "Wszystkie stare baraki zostały wyburzone."
+    ru: "Все старые бараки снесли."
+    source: { kind: authored }
+  - form: "wyburzone"
+    pl: "Kino wyburzone w latach dziewięćdziesiątych miało piękną salę."
+    ru: "У кинотеатра, снесённого в девяностых, был красивый зал."
+    source: { kind: authored }
+  - form: "wyburzone"
+    pl: "Wszystkie budynki wyburzone pod drogę były puste."
+    ru: "Все здания, снесённые под дорогу, были пустыми."
+    source: { kind: authored }
+  - form: "wyburzonego"
+    pl: "Z wyburzonego domu zostały tylko fundamenty."
+    ru: "От снесённого дома остался только фундамент."
+    source: { kind: authored }
+  - form: "wyburzonego"
+    pl: "Cegły z wyburzonego muru sprzedano."
+    ru: "Кирпичи из снесённой стены продали."
+    source: { kind: authored }
+  - form: "wyburzonego"
+    pl: "Babcia pamięta wnętrze wyburzonego dworca."
+    ru: "Бабушка помнит интерьер снесённого вокзала."
+    source: { kind: authored }
+  - form: "wyburzonej"
+    pl: "Na miejscu wyburzonej fabryki powstał park."
+    ru: "На месте снесённой фабрики появился парк."
+    source: { kind: authored }
+  - form: "wyburzonej"
+    pl: "Zdjęcia wyburzonej synagogi wiszą w muzeum."
+    ru: "Фотографии снесённой синагоги висят в музее."
+    source: { kind: authored }
+  - form: "wyburzonej"
+    pl: "Gruz z wyburzonej ściany leżał w pokoju."
+    ru: "Мусор от снесённой стены лежал в комнате."
+    source: { kind: authored }
+  - form: "wyburzonemu"
+    pl: "Miasto poświęciło wyburzonemu kinu wystawę."
+    ru: "Город посвятил снесённому кинотеатру выставку."
+    source: { kind: authored }
+  - form: "wyburzonemu"
+    pl: "Przyglądał się wyburzonemu domowi ze smutkiem."
+    ru: "Он с грустью смотрел на снесённый дом."
+    source: { kind: authored }
+  - form: "wyburzonemu"
+    pl: "Dzięki wyburzonemu murowi ogród jest większy."
+    ru: "Благодаря снесённой стене сад стал больше."
+    source: { kind: authored }
+  - form: "wyburzono"
+    pl: "Starą rzeźnię wyburzono w kilka dni."
+    ru: "Старую бойню снесли за несколько дней."
+    source: { kind: authored }
+  - form: "wyburzono"
+    pl: "W naszej dzielnicy wyburzono pół ulicy."
+    ru: "В нашем районе снесли пол-улицы."
+    source: { kind: authored }
+  - form: "wyburzono"
+    pl: "Dlaczego wyburzono ten piękny pałac?"
+    ru: "Почему снесли этот красивый дворец?"
+    source: { kind: authored }
+  - form: "wyburzony"
+    pl: "Ten dom zostanie wyburzony jesienią."
+    ru: "Этот дом снесут осенью."
+    source: { kind: authored }
+  - form: "wyburzony"
+    pl: "Stary most, wyburzony w zeszłym roku, był zabytkiem."
+    ru: "Старый мост, снесённый в прошлом году, был памятником."
+    source: { kind: authored }
+  - form: "wyburzony"
+    pl: "Hotel został wyburzony, bo groził zawaleniem."
+    ru: "Отель снесли, потому что он грозил обрушиться."
+    source: { kind: authored }
+  - form: "wyburzonych"
+    pl: "Na zdjęciach widać kilka wyburzonych kamienic."
+    ru: "На фотографиях видно несколько снесённых домов."
+    source: { kind: authored }
+  - form: "wyburzonych"
+    pl: "Lista wyburzonych zabytków jest długa."
+    ru: "Список снесённых памятников длинный."
+    source: { kind: authored }
+  - form: "wyburzonych"
+    pl: "W miejscu wyburzonych garaży sadzą drzewa."
+    ru: "На месте снесённых гаражей сажают деревья."
+    source: { kind: authored }
+  - form: "wyburzonym"
+    pl: "W wyburzonym budynku mieszkała moja babcia."
+    ru: "В снесённом здании жила моя бабушка."
+    source: { kind: authored }
+  - form: "wyburzonym"
+    pl: "Przy wyburzonym moście postawiono kładkę."
+    ru: "У снесённого моста поставили пешеходный мостик."
+    source: { kind: authored }
+  - form: "wyburzonym"
+    pl: "Sporo się mówiło o wyburzonym stadionie."
+    ru: "О снесённом стадионе много говорили."
+    source: { kind: authored }
+  - form: "wyburzonymi"
+    pl: "Między wyburzonymi blokami rośnie trawa."
+    ru: "Между снесёнными домами растёт трава."
+    source: { kind: authored }
+  - form: "wyburzonymi"
+    pl: "Archiwum zajmuje się wyburzonymi budynkami miasta."
+    ru: "Архив занимается снесёнными зданиями города."
+    source: { kind: authored }
+  - form: "wyburzonymi"
+    pl: "Spacerowaliśmy ulicą z wyburzonymi kamienicami."
+    ru: "Мы гуляли по улице со снесёнными домами."
+    source: { kind: authored }
+  - form: "wyburzoną"
+    pl: "Ludzie wciąż wspominają wyburzoną halę targową."
+    ru: "Люди всё ещё вспоминают снесённый крытый рынок."
+    source: { kind: authored }
+  - form: "wyburzoną"
+    pl: "Pamiętam tę wyburzoną kamienicę z dzieciństwa."
+    ru: "Я помню этот снесённый дом с детства."
+    source: { kind: authored }
+  - form: "wyburzoną"
+    pl: "Odbudowano wyburzoną kaplicę według starych planów."
+    ru: "Снесённую часовню восстановили по старым планам."
+    source: { kind: authored }
+  - form: "wyburzy"
+    pl: "Firma wyburzy halę do końca miesiąca."
+    ru: "Фирма снесёт цех до конца месяца."
+    source: { kind: authored }
+  - form: "wyburzy"
+    pl: "Kto wyburzy ten stary magazyn?"
+    ru: "Кто снесёт этот старый склад?"
+    source: { kind: authored }
+  - form: "wyburzy"
+    pl: "Miasto wyburzy stary dworzec."
+    ru: "Город снесёт старый вокзал."
+    source: { kind: authored }
+  - form: "wyburzycie"
+    pl: "Kiedy wyburzycie tę szopę?"
+    ru: "Когда вы снесёте этот сарай?"
+    source: { kind: authored }
+  - form: "wyburzycie"
+    pl: "Jak wyburzycie ścianę, zadzwońcie do mnie."
+    ru: "Когда снесёте стену, позвоните мне."
+    source: { kind: authored }
+  - form: "wyburzycie"
+    pl: "Chyba nie wyburzycie tak ładnego domu?"
+    ru: "Вы же не снесёте такой красивый дом?"
+    source: { kind: authored }
+  - form: "wyburzyli"
+    pl: "Wyburzyli ten dom zeszłego lata."
+    ru: "Этот дом снесли прошлым летом."
+    source: { kind: authored }
+  - form: "wyburzyli"
+    pl: "Robotnicy wyburzyli mur w jeden dzień."
+    ru: "Рабочие снесли стену за один день."
+    source: { kind: authored }
+  - form: "wyburzyli"
+    pl: "Sąsiedzi wyburzyli płot bez pytania."
+    ru: "Соседи снесли забор, не спросив."
+    source: { kind: authored }
+  - form: "wyburzyliby"
+    pl: "Gdyby mogli, wyburzyliby całe stare miasto."
+    ru: "Если бы могли, они бы снесли весь старый город."
+    source: { kind: authored }
+  - form: "wyburzyliby"
+    pl: "Inwestorzy chętnie wyburzyliby ten park."
+    ru: "Инвесторы охотно снесли бы этот парк."
+    source: { kind: authored }
+  - form: "wyburzyliby"
+    pl: "Bez protestów wyburzyliby kościół."
+    ru: "Без протестов они снесли бы костёл."
+    source: { kind: authored }
+  - form: "wyburzylibyście"
+    pl: "Czy wyburzylibyście ten dom na naszym miejscu?"
+    ru: "Вы бы снесли этот дом на нашем месте?"
+    source: { kind: authored }
+  - form: "wyburzylibyście"
+    pl: "Wy wyburzylibyście wszystko, co stare."
+    ru: "Вы бы снесли всё старое."
+    source: { kind: authored }
+  - form: "wyburzylibyście"
+    pl: "Gdybyście mieli pieniądze, wyburzylibyście tę szopę?"
+    ru: "Если бы у вас были деньги, вы бы снесли этот сарай?"
+    source: { kind: authored }
+  - form: "wyburzylibyśmy"
+    pl: "Chętnie wyburzylibyśmy tę ściankę."
+    ru: "Мы бы охотно снесли эту перегородку."
+    source: { kind: authored }
+  - form: "wyburzylibyśmy"
+    pl: "Gdyby nie konserwator, wyburzylibyśmy oficynę."
+    ru: "Если бы не реставратор, мы бы снесли флигель."
+    source: { kind: authored }
+  - form: "wyburzylibyśmy"
+    pl: "Z pozwoleniem wyburzylibyśmy stary garaż."
+    ru: "С разрешением мы бы снесли старый гараж."
+    source: { kind: authored }
+  - form: "wyburzyliście"
+    pl: "Po co wyburzyliście tę piękną altanę?"
+    ru: "Зачем вы снесли эту красивую беседку?"
+    source: { kind: authored }
+  - form: "wyburzyliście"
+    pl: "Wyburzyliście ścianę bez zgody spółdzielni?"
+    ru: "Вы снесли стену без разрешения кооператива?"
+    source: { kind: authored }
+  - form: "wyburzyliście"
+    pl: "Szybko wyburzyliście ten mur."
+    ru: "Вы быстро снесли эту стену."
+    source: { kind: authored }
+  - form: "wyburzyliśmy"
+    pl: "Wyburzyliśmy ścianę między kuchnią a salonem."
+    ru: "Мы снесли стену между кухней и гостиной."
+    source: { kind: authored }
+  - form: "wyburzyliśmy"
+    pl: "Razem z tatą wyburzyliśmy starą szopę."
+    ru: "Вместе с папой мы снесли старый сарай."
+    source: { kind: authored }
+  - form: "wyburzyliśmy"
+    pl: "Po zakupie domu wyburzyliśmy werandę."
+    ru: "После покупки дома мы снесли веранду."
+    source: { kind: authored }
+  - form: "wyburzymy"
+    pl: "Jutro wyburzymy ścianę w salonie."
+    ru: "Завтра мы снесём стену в гостиной."
+    source: { kind: authored }
+  - form: "wyburzymy"
+    pl: "Tę szopę wyburzymy wiosną."
+    ru: "Этот сарай мы снесём весной."
+    source: { kind: authored }
+  - form: "wyburzymy"
+    pl: "Jeśli dostaniemy zgodę, wyburzymy garaż."
+    ru: "Если получим разрешение, снесём гараж."
+    source: { kind: authored }
+  - form: "wyburzysz"
+    pl: "Bez pozwolenia nie wyburzysz ściany nośnej."
+    ru: "Без разрешения несущую стену не снесёшь."
+    source: { kind: authored }
+  - form: "wyburzysz"
+    pl: "Kiedy wyburzysz ten płot?"
+    ru: "Когда ты снесёшь этот забор?"
+    source: { kind: authored }
+  - form: "wyburzysz"
+    pl: "Sam tego muru nie wyburzysz."
+    ru: "Сам ты эту стену не снесёшь."
+    source: { kind: authored }
+  - form: "wyburzywszy"
+    pl: "Wyburzywszy ściankę, zobaczyli stare drzwi."
+    ru: "Снеся перегородку, они увидели старую дверь."
+    source: { kind: authored }
+  - form: "wyburzywszy"
+    pl: "Inwestor, wyburzywszy fabrykę, sprzedał działkę."
+    ru: "Снеся фабрику, инвестор продал участок."
+    source: { kind: authored }
+  - form: "wyburzywszy"
+    pl: "Wyburzywszy stary dom, postawili nowy."
+    ru: "Снеся старый дом, они построили новый."
+    source: { kind: authored }
+  - form: "wyburzyć"
+    pl: "Planujemy wyburzyć nasz dom."
+    ru: "Мы планируем снести наш дом."
+    source: { kind: translated, id: 3807886 }
+  - form: "wyburzyć"
+    pl: "Musimy wyburzyć ten dom."
+    ru: "Нам нужно снести этот дом."
+    source: { kind: translated, id: 6373363 }
+  - form: "wyburzyć"
+    pl: "Wyburzyć ścianę nośną jest bardzo trudno."
+    ru: "Снести несущую стену очень трудно."
+    source: { kind: authored }
+  - form: "wyburzył"
+    pl: "Nowy właściciel wyburzył dworek."
+    ru: "Новый владелец снёс усадьбу."
+    source: { kind: authored }
+  - form: "wyburzył"
+    pl: "Burmistrz wyburzył stary targ i zbudował galerię."
+    ru: "Мэр снёс старый рынок и построил торговый центр."
+    source: { kind: authored }
+  - form: "wyburzył"
+    pl: "Kto wyburzył tę kapliczkę?"
+    ru: "Кто снёс эту часовенку?"
+    source: { kind: authored }
+  - form: "wyburzyła"
+    pl: "Firma wyburzyła hotel w tydzień."
+    ru: "Фирма снесла отель за неделю."
+    source: { kind: authored }
+  - form: "wyburzyła"
+    pl: "Ciocia wyburzyła ściankę w łazience."
+    ru: "Тётя снесла перегородку в ванной."
+    source: { kind: authored }
+  - form: "wyburzyła"
+    pl: "Gmina wyburzyła stare baraki."
+    ru: "Гмина снесла старые бараки."
+    source: { kind: authored }
+  - form: "wyburzyłaby"
+    pl: "Mama najchętniej wyburzyłaby cały strych."
+    ru: "Мама охотнее всего снесла бы весь чердак."
+    source: { kind: authored }
+  - form: "wyburzyłaby"
+    pl: "Gmina wyburzyłaby ten dom, gdyby mogła."
+    ru: "Гмина снесла бы этот дом, если бы могла."
+    source: { kind: authored }
+  - form: "wyburzyłaby"
+    pl: "Bez pozwolenia firma nie wyburzyłaby mostu."
+    ru: "Без разрешения фирма не снесла бы мост."
+    source: { kind: authored }
+  - form: "wyburzyłabym"
+    pl: "Ja wyburzyłabym tę brzydką ściankę."
+    ru: "Я бы снесла эту некрасивую перегородку."
+    source: { kind: authored }
+  - form: "wyburzyłabym"
+    pl: "Na twoim miejscu wyburzyłabym garaż."
+    ru: "На твоём месте я бы снесла гараж."
+    source: { kind: authored }
+  - form: "wyburzyłabym"
+    pl: "Chętnie wyburzyłabym przedpokój i powiększyła kuchnię."
+    ru: "Я бы охотно снесла прихожую и увеличила кухню."
+    source: { kind: authored }
+  - form: "wyburzyłabyś"
+    pl: "Wyburzyłabyś ten mur dla lepszego widoku?"
+    ru: "Ты бы снесла эту стену ради лучшего вида?"
+    source: { kind: authored }
+  - form: "wyburzyłabyś"
+    pl: "Czy naprawdę wyburzyłabyś dom po dziadkach?"
+    ru: "Ты правда снесла бы дом, оставшийся от бабушки с дедушкой?"
+    source: { kind: authored }
+  - form: "wyburzyłabyś"
+    pl: "Ty wyburzyłabyś wszystko i zaczęła od nowa."
+    ru: "Ты бы всё снесла и начала заново."
+    source: { kind: authored }
+  - form: "wyburzyłam"
+    pl: "Wczoraj wyburzyłam ściankę w spiżarni."
+    ru: "Вчера я снесла перегородку в кладовке."
+    source: { kind: authored }
+  - form: "wyburzyłam"
+    pl: "Sama wyburzyłam starą komórkę."
+    ru: "Я сама снесла старый сарай."
+    source: { kind: authored }
+  - form: "wyburzyłam"
+    pl: "Nic nie wyburzyłam bez zgody sąsiadów."
+    ru: "Я ничего не снесла без согласия соседей."
+    source: { kind: authored }
+  - form: "wyburzyłaś"
+    pl: "Naprawdę wyburzyłaś tę ścianę sama?"
+    ru: "Ты правда сама снесла эту стену?"
+    source: { kind: authored }
+  - form: "wyburzyłaś"
+    pl: "Dlaczego wyburzyłaś altanę?"
+    ru: "Почему ты снесла беседку?"
+    source: { kind: authored }
+  - form: "wyburzyłaś"
+    pl: "Kiedy wyburzyłaś ściankę, pokój zrobił się ogromny."
+    ru: "Когда ты снесла перегородку, комната стала огромной."
+    source: { kind: authored }
+  - form: "wyburzyłby"
+    pl: "Deweloper wyburzyłby ten dom bez wahania."
+    ru: "Застройщик снёс бы этот дом без колебаний."
+    source: { kind: authored }
+  - form: "wyburzyłby"
+    pl: "Tata wyburzyłby ścianę, ale boi się sąsiadów."
+    ru: "Папа снёс бы стену, но боится соседей."
+    source: { kind: authored }
+  - form: "wyburzyłby"
+    pl: "Żaden rozsądny architekt nie wyburzyłby ściany nośnej."
+    ru: "Ни один разумный архитектор не снёс бы несущую стену."
+    source: { kind: authored }
+  - form: "wyburzyłbym"
+    pl: "Ja wyburzyłbym ten stary blok."
+    ru: "Я бы снёс эту старую многоэтажку."
+    source: { kind: authored }
+  - form: "wyburzyłbym"
+    pl: "Na twoim miejscu nie wyburzyłbym kominka."
+    ru: "На твоём месте я бы не сносил камин."
+    source: { kind: authored }
+  - form: "wyburzyłbym"
+    pl: "Gdybym mógł, wyburzyłbym ten szpetny pomnik."
+    ru: "Если бы мог, я бы снёс этот уродливый памятник."
+    source: { kind: authored }
+  - form: "wyburzyłbyś"
+    pl: "Wyburzyłbyś zabytkowy dom dla parkingu?"
+    ru: "Ты бы снёс старинный дом ради парковки?"
+    source: { kind: authored }
+  - form: "wyburzyłbyś"
+    pl: "Czy ty wyburzyłbyś tę ścianę?"
+    ru: "А ты бы снёс эту стену?"
+    source: { kind: authored }
+  - form: "wyburzyłbyś"
+    pl: "Z takim sprzętem wyburzyłbyś to w godzinę."
+    ru: "С такой техникой ты бы снёс это за час."
+    source: { kind: authored }
+  - form: "wyburzyłem"
+    pl: "W końcu wyburzyłem starą szopę."
+    ru: "В конце концов я снёс старый сарай."
+    source: { kind: authored }
+  - form: "wyburzyłem"
+    pl: "Wyburzyłem ściankę i mam duży pokój."
+    ru: "Я снёс перегородку, и у меня большая комната."
+    source: { kind: authored }
+  - form: "wyburzyłem"
+    pl: "Niczego jeszcze nie wyburzyłem."
+    ru: "Я ещё ничего не снёс."
+    source: { kind: authored }
+  - form: "wyburzyłeś"
+    pl: "Ty wyburzyłeś ten płot?"
+    ru: "Это ты снёс этот забор?"
+    source: { kind: authored }
+  - form: "wyburzyłeś"
+    pl: "Szybko wyburzyłeś ścianę, gratuluję!"
+    ru: "Ты быстро снёс стену, поздравляю!"
+    source: { kind: authored }
+  - form: "wyburzyłeś"
+    pl: "Po co wyburzyłeś kominek?"
+    ru: "Зачем ты снёс камин?"
+    source: { kind: authored }
+  - form: "wyburzyło"
+    pl: "Miasto wyburzyło stary szpital."
+    ru: "Город снёс старую больницу."
+    source: { kind: authored }
+  - form: "wyburzyło"
+    pl: "Wojsko wyburzyło zniszczony most."
+    ru: "Армия снесла разрушенный мост."
+    source: { kind: authored }
+  - form: "wyburzyło"
+    pl: "Ministerstwo wyburzyło budynek bez konsultacji."
+    ru: "Министерство снесло здание без консультаций."
+    source: { kind: authored }
+  - form: "wyburzyłoby"
+    pl: "Miasto wyburzyłoby te kamienice, gdyby nie protesty."
+    ru: "Город снёс бы эти дома, если бы не протесты."
+    source: { kind: authored }
+  - form: "wyburzyłoby"
+    pl: "Wojsko wyburzyłoby most w godzinę."
+    ru: "Армия снесла бы мост за час."
+    source: { kind: authored }
+  - form: "wyburzyłoby"
+    pl: "Takie przedsiębiorstwo wyburzyłoby halę w tydzień."
+    ru: "Такое предприятие снесло бы цех за неделю."
+    source: { kind: authored }
+  - form: "wyburzyły"
+    pl: "Koparki wyburzyły cały kwartał."
+    ru: "Экскаваторы снесли целый квартал."
+    source: { kind: authored }
+  - form: "wyburzyły"
+    pl: "Siostry wyburzyły starą werandę."
+    ru: "Сёстры снесли старую веранду."
+    source: { kind: authored }
+  - form: "wyburzyły"
+    pl: "Władze wyburzyły nielegalne domki."
+    ru: "Власти снесли незаконные домики."
+    source: { kind: authored }
+  - form: "wyburzyłyby"
+    pl: "Koparki wyburzyłyby to w jeden dzień."
+    ru: "Экскаваторы снесли бы это за один день."
+    source: { kind: authored }
+  - form: "wyburzyłyby"
+    pl: "Władze wyburzyłyby ten bazar, gdyby mogły."
+    ru: "Власти снесли бы этот базар, если бы могли."
+    source: { kind: authored }
+  - form: "wyburzyłyby"
+    pl: "Moje córki wyburzyłyby wszystkie ścianki w domu."
+    ru: "Мои дочери снесли бы все перегородки в доме."
+    source: { kind: authored }
+  - form: "wyburzyłybyście"
+    pl: "Wyburzyłybyście ten dom, dziewczyny?"
+    ru: "Вы бы снесли этот дом, девочки?"
+    source: { kind: authored }
+  - form: "wyburzyłybyście"
+    pl: "Czy same wyburzyłybyście tę ścianę?"
+    ru: "Вы бы сами снесли эту стену?"
+    source: { kind: authored }
+  - form: "wyburzyłybyście"
+    pl: "Panie wyburzyłybyście altanę czy ją odnowiły?"
+    ru: "Вы бы снесли беседку или обновили её?"
+    source: { kind: authored }
+  - form: "wyburzyłybyśmy"
+    pl: "My wyburzyłybyśmy ściankę w kuchni."
+    ru: "Мы бы снесли перегородку на кухне."
+    source: { kind: authored }
+  - form: "wyburzyłybyśmy"
+    pl: "Z mamą wyburzyłybyśmy tę szopę w godzinę."
+    ru: "С мамой мы бы снесли этот сарай за час."
+    source: { kind: authored }
+  - form: "wyburzyłybyśmy"
+    pl: "Gdyby nie koszty, wyburzyłybyśmy cały strych."
+    ru: "Если бы не расходы, мы бы снесли весь чердак."
+    source: { kind: authored }
+  - form: "wyburzyłyście"
+    pl: "Wyburzyłyście ściankę same?"
+    ru: "Вы сами снесли перегородку?"
+    source: { kind: authored }
+  - form: "wyburzyłyście"
+    pl: "Dziewczyny, po co wyburzyłyście ten mur?"
+    ru: "Девочки, зачем вы снесли эту стену?"
+    source: { kind: authored }
+  - form: "wyburzyłyście"
+    pl: "Szybko wyburzyłyście tę komórkę."
+    ru: "Вы быстро снесли этот сарай."
+    source: { kind: authored }
+  - form: "wyburzyłyśmy"
+    pl: "Z siostrą wyburzyłyśmy starą altanę."
+    ru: "Мы с сестрой снесли старую беседку."
+    source: { kind: authored }
+  - form: "wyburzyłyśmy"
+    pl: "Wyburzyłyśmy ściankę i zrobiłyśmy garderobę."
+    ru: "Мы снесли перегородку и сделали гардеробную."
+    source: { kind: authored }
+  - form: "wyburzyłyśmy"
+    pl: "Razem wyburzyłyśmy komórkę na działce."
+    ru: "Мы вместе снесли сарай на даче."
+    source: { kind: authored }
+  - form: "wyburzą"
+    pl: "Robotnicy wyburzą starą szkołę w maju."
+    ru: "Рабочие снесут старую школу в мае."
+    source: { kind: authored }
+  - form: "wyburzą"
+    pl: "Mieszkańcy boją się, że wyburzą ich kamienicę."
+    ru: "Жильцы боятся, что их дом снесут."
+    source: { kind: authored }
+  - form: "wyburzą"
+    pl: "Jeśli nic nie zrobimy, wyburzą ten zabytek."
+    ru: "Если мы ничего не сделаем, этот памятник снесут."
+    source: { kind: authored }
+  - form: "wyburzę"
+    pl: "Jutro wyburzę ściankę w przedpokoju."
+    ru: "Завтра я снесу перегородку в прихожей."
+    source: { kind: authored }
+  - form: "wyburzę"
+    pl: "Sam wyburzę tę szopę w weekend."
+    ru: "Я сам снесу этот сарай на выходных."
+    source: { kind: authored }
+  - form: "wyburzę"
+    pl: "Obiecuję, że nie wyburzę niczego bez zgody."
+    ru: "Обещаю, что ничего не снесу без разрешения."
+    source: { kind: authored }
