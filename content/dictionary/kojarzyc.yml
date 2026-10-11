@@ -1,0 +1,820 @@
+# review
+id: kojarzyc
+format: 2
+lemma: "kojarzyć"
+rank: 4762
+pos: verb
+aspect: imperf
+aspectPair: skojarzyc
+pron: { cyr: "коя́жыць" }
+senses:
+  - id: associate
+    ru: "ассоциировать, связывать (что-то с чем-то); kojarzyć się — ассоциироваться, напоминать"
+    examples:
+      - pl: "Kolor czarny często kojarzymy ze śmiercią."
+        ru: "Мы часто ассоциируем черный цвет со смертью."
+        source: { kind: tatoeba, id: 365141 }
+      - pl: "Z czym ci się kojarzy ta piosenka?"
+        ru: "С чем у тебя ассоциируется эта песня?"
+        source: { kind: tatoeba, id: 7868629 }
+      - pl: "Egipt kojarzymy z Nilem."
+        ru: "Египет у нас ассоциируется с Нилом."
+        source: { kind: translated, id: 722180 }
+  - id: recognize
+    ru: "знать, помнить, узнавать (кто это, что это) — разг."
+    examples:
+      - pl: "Tom mnie nie kojarzy."
+        ru: "Том меня не помнит."
+        source: { kind: translated, id: 2403168 }
+      - pl: "Wprawdzie znam ją z imienia, ale nie kojarzę jej twarzy."
+        ru: "Я, правда, знаю её по имени, но лица не помню."
+        source: { kind: translated, id: 2652705 }
+      - pl: "Kojarzysz tę knajpę przy rynku?"
+        ru: "Ты знаешь эту забегаловку у рынка?"
+        source: { kind: authored }
+  - id: match
+    ru: "сводить, соединять (пары; животных для разведения)"
+    examples:
+      - pl: "Hodowca kojarzy psy z najlepszych linii."
+        ru: "Заводчик сводит собак лучших линий."
+        source: { kind: authored }
+      - pl: "Dawniej swatki kojarzyły małżeństwa."
+        ru: "Раньше свахи устраивали браки."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Что с чем — винительный + Z + творительный: KOJARZYĆ EGIPT Z NILEM. С SIĘ меняется конструкция: что — подлежащее, кому — дательный: TA PIOSENKA KOJARZY MI SIĘ Z WAKACJAMI «эта песня у меня ассоциируется с каникулами»." }
+  - { kind: usage, text: "Несовершенный вид; совершенный — SKOJARZYĆ. В разговоре KOJARZYĆ значит просто «знать, помнить, узнавать»: KOJARZYSZ GO? «ты его знаешь?», NIE KOJARZĘ «не помню, не знаю такого». Ещё одно разговорное значение — «соображать»: SŁABO DZIŚ KOJARZĘ «плохо сегодня соображаю»." }
+  - { kind: false-friend, text: "Русского родственника у KOJARZYĆ нет, и учащиеся часто пропускают разговорное значение: NIE KOJARZĘ — не «не ассоциирую», а «не знаю, не помню такого». Существительное SKOJARZENIE «ассоциация» и прилагательное ROZKOJARZONY «рассеянный» — того же корня." }
+  - { kind: pronunciation, text: "Читается «коя́жыць»: J — «й», RZ — «ж», Y — «ы». Ударение на предпоследнем слоге: KOJARZĘ — «коя́жэ», KOJARZYMY — «кояжы́мы»." }
+collocations:
+  - { pl: "kojarzyć się z czymś", ru: "ассоциироваться с чем-то" }
+  - { pl: "kojarzyć fakty", ru: "сопоставлять факты, соображать" }
+  - { pl: "kojarzyć kogoś z widzenia", ru: "знать кого-то в лицо" }
+  - { pl: "kojarzyć pary", ru: "сводить пары" }
+family:
+  - { pl: "skojarzyć", ru: "связать, ассоциировать", relation: aspect, id: skojarzyc }
+  - { pl: "skojarzenie", ru: "ассоциация", relation: derived }
+  - { pl: "rozkojarzony", ru: "рассеянный", relation: derived }
+  - { pl: "kojarzenie", ru: "ассоциирование; сведение пар", relation: derived }
+etymology: "Слово неясного происхождения, известное только в польском и кашубском; возможно, связано с KOIĆ «успокаивать». В польском засвидетельствовано с XVII века, но до XIX века было редким."
+memory: "Kojarzysz? — «знаешь, помнишь?». В голове «кояжится» связь: piosenka kojarzy mi się z latem."
+idioms:
+  - { pl: "kojarzyć fakty", ru: "сложить два и два, соображать" }
+  - { pl: "kojarzyć kogoś z widzenia", ru: "знать кого-то в лицо" }
+formExamples:
+  - form: "kojarz"
+    pl: "Nie kojarz mnie z tą aferą!"
+    ru: "Не связывай меня с этим скандалом!"
+    source: { kind: authored }
+  - form: "kojarz"
+    pl: "Kojarz fakty, a znajdziesz winnego."
+    ru: "Сопоставляй факты, и найдёшь виновного."
+    source: { kind: authored }
+  - form: "kojarz"
+    pl: "Proszę, nie kojarz wszystkiego z polityką."
+    ru: "Пожалуйста, не связывай всё с политикой."
+    source: { kind: authored }
+  - form: "kojarzcie"
+    pl: "Kojarzcie nowe słowa z obrazkami."
+    ru: "Связывайте новые слова с картинками."
+    source: { kind: authored }
+  - form: "kojarzcie"
+    pl: "Nie kojarzcie nas z tą firmą."
+    ru: "Не связывайте нас с этой фирмой."
+    source: { kind: authored }
+  - form: "kojarzcie"
+    pl: "Uważnie kojarzcie fakty z zeznań."
+    ru: "Внимательно сопоставляйте факты из показаний."
+    source: { kind: authored }
+  - form: "kojarzeni"
+    pl: "Bracia są kojarzeni z rodzinną firmą."
+    ru: "Братьев связывают с семейной фирмой."
+    source: { kind: authored }
+  - form: "kojarzeni"
+    pl: "Ci politycy są kojarzeni z prawicą."
+    ru: "Этих политиков связывают с правыми."
+    source: { kind: authored }
+  - form: "kojarzeni"
+    pl: "Muzycy byli kojarzeni z punk rockiem."
+    ru: "Музыкантов связывали с панк-роком."
+    source: { kind: authored }
+  - form: "kojarzenia"
+    pl: "Mamy tendencję do kojarzenia polityków z hipokryzją."
+    ru: "Мы склонны ассоциировать политиков с лицемерием."
+    source: { kind: tatoeba, id: 823851 }
+  - form: "kojarzenia"
+    pl: "Szybkość kojarzenia faktów pomaga w pracy."
+    ru: "Быстрота сопоставления фактов помогает в работе."
+    source: { kind: authored }
+  - form: "kojarzenia"
+    pl: "Biuro kojarzenia par otworzyło się w centrum."
+    ru: "Брачное агентство открылось в центре."
+    source: { kind: authored }
+  - form: "kojarzenie"
+    pl: "Kojarzenie faktów to podstawa śledztwa."
+    ru: "Сопоставление фактов — основа расследования."
+    source: { kind: authored }
+  - form: "kojarzenie"
+    pl: "Kojarzenie psów wymaga wiedzy."
+    ru: "Сведение собак требует знаний."
+    source: { kind: authored }
+  - form: "kojarzenie"
+    pl: "Kojarzenie słów z obrazkami ułatwia naukę."
+    ru: "Связывание слов с картинками облегчает учёбу."
+    source: { kind: authored }
+  - form: "kojarzeniem"
+    pl: "Hodowca zajmuje się kojarzeniem koni."
+    ru: "Коневод занимается сведением лошадей."
+    source: { kind: authored }
+  - form: "kojarzeniem"
+    pl: "Mam problem z kojarzeniem nazwisk."
+    ru: "У меня проблемы с запоминанием фамилий."
+    source: { kind: authored }
+  - form: "kojarzeniem"
+    pl: "Z kojarzeniem faktów radzi sobie świetnie."
+    ru: "С сопоставлением фактов он справляется отлично."
+    source: { kind: authored }
+  - form: "kojarzeniu"
+    pl: "Przy kojarzeniu zwierząt liczy się rodowód."
+    ru: "При сведении животных важна родословная."
+    source: { kind: authored }
+  - form: "kojarzeniu"
+    pl: "Ta metoda pomaga w kojarzeniu słów."
+    ru: "Этот метод помогает в запоминании слов."
+    source: { kind: authored }
+  - form: "kojarzeniu"
+    pl: "Po szybkim kojarzeniu faktów wszystko zrozumiał."
+    ru: "Быстро сопоставив факты, он всё понял."
+    source: { kind: authored }
+  - form: "kojarzmy"
+    pl: "Kojarzmy słówka z kolorami, łatwiej zapamiętamy."
+    ru: "Давайте связывать слова с цветами, так легче запомним."
+    source: { kind: authored }
+  - form: "kojarzmy"
+    pl: "Nie kojarzmy każdej porażki z pechem."
+    ru: "Давайте не связывать каждое поражение с невезением."
+    source: { kind: authored }
+  - form: "kojarzmy"
+    pl: "Spokojnie kojarzmy fakty po kolei."
+    ru: "Давайте спокойно сопоставлять факты по порядку."
+    source: { kind: authored }
+  - form: "kojarzona"
+    pl: "Ta marka jest kojarzona z jakością."
+    ru: "Эту марку связывают с качеством."
+    source: { kind: authored }
+  - form: "kojarzona"
+    pl: "Piosenkarka jest kojarzona z latami dziewięćdziesiątymi."
+    ru: "Певицу связывают с девяностыми годами."
+    source: { kind: authored }
+  - form: "kojarzona"
+    pl: "Jesień jest kojarzona ze smutkiem."
+    ru: "Осень ассоциируется с грустью."
+    source: { kind: authored }
+  - form: "kojarzone"
+    pl: "Te kolory są kojarzone z żałobą."
+    ru: "Эти цвета ассоциируются с трауром."
+    source: { kind: authored }
+  - form: "kojarzone"
+    pl: "Psy są kojarzone przez hodowców starannie."
+    ru: "Собак заводчики сводят тщательно."
+    source: { kind: authored }
+  - form: "kojarzone"
+    pl: "Miasto jest kojarzone z dobrym piwem."
+    ru: "Город ассоциируется с хорошим пивом."
+    source: { kind: authored }
+  - form: "kojarzonego"
+    pl: "Nie lubię tego kojarzonego z przemocą filmu."
+    ru: "Не люблю этот фильм, связанный с насилием."
+    source: { kind: authored }
+  - form: "kojarzonego"
+    pl: "Bał się nazwiska kojarzonego z aferą."
+    ru: "Он боялся фамилии, связанной со скандалом."
+    source: { kind: authored }
+  - form: "kojarzonego"
+    pl: "Zaprosili aktora kojarzonego z teatrem."
+    ru: "Они пригласили актёра, связанного с театром."
+    source: { kind: authored }
+  - form: "kojarzonej"
+    pl: "Unikał partii kojarzonej z korupcją."
+    ru: "Он избегал партии, связанной с коррупцией."
+    source: { kind: authored }
+  - form: "kojarzonej"
+    pl: "Kupił butelkę wódki kojarzonej z Polską."
+    ru: "Он купил бутылку водки, ассоциирующейся с Польшей."
+    source: { kind: authored }
+  - form: "kojarzonej"
+    pl: "Szukał muzyki kojarzonej z dzieciństwem."
+    ru: "Он искал музыку, связанную с детством."
+    source: { kind: authored }
+  - form: "kojarzonemu"
+    pl: "Nie ufał politykowi kojarzonemu z aferami."
+    ru: "Он не доверял политику, связанному со скандалами."
+    source: { kind: authored }
+  - form: "kojarzonemu"
+    pl: "Przyglądał się kojarzonemu z wojną pomnikowi."
+    ru: "Он разглядывал памятник, связанный с войной."
+    source: { kind: authored }
+  - form: "kojarzonemu"
+    pl: "Kojarzonemu z sukcesem trenerowi zaproponowano kontrakt."
+    ru: "Тренеру, связанному с успехами, предложили контракт."
+    source: { kind: authored }
+  - form: "kojarzono"
+    pl: "Dawniej kojarzono pary przez swatki."
+    ru: "Раньше пары сводили через свах."
+    source: { kind: authored }
+  - form: "kojarzono"
+    pl: "Jego nazwisko kojarzono z wielką fortuną."
+    ru: "Его фамилию связывали с огромным состоянием."
+    source: { kind: authored }
+  - form: "kojarzono"
+    pl: "Ten kolor kojarzono kiedyś z żałobą."
+    ru: "Этот цвет когда-то связывали с трауром."
+    source: { kind: authored }
+  - form: "kojarzony"
+    pl: "Polityk jest kojarzony z wieloma aferami."
+    ru: "Политика связывают со многими скандалами."
+    source: { kind: authored }
+  - form: "kojarzony"
+    pl: "Ten aktor jest kojarzony głównie z komediami."
+    ru: "Этого актёра связывают главным образом с комедиями."
+    source: { kind: authored }
+  - form: "kojarzony"
+    pl: "Kraków jest kojarzony z kulturą."
+    ru: "Краков ассоциируется с культурой."
+    source: { kind: authored }
+  - form: "kojarzonych"
+    pl: "Wśród marek kojarzonych z luksusem jest ta firma."
+    ru: "Среди марок, связанных с роскошью, есть эта фирма."
+    source: { kind: authored }
+  - form: "kojarzonych"
+    pl: "Lista miejsc kojarzonych z Chopinem jest długa."
+    ru: "Список мест, связанных с Шопеном, длинный."
+    source: { kind: authored }
+  - form: "kojarzonych"
+    pl: "Unikaj symboli kojarzonych z nienawiścią."
+    ru: "Избегай символов, связанных с ненавистью."
+    source: { kind: authored }
+  - form: "kojarzonym"
+    pl: "Z kojarzonym z prawicą dziennikarzem nie rozmawiał."
+    ru: "С журналистом, связанным с правыми, он не разговаривал."
+    source: { kind: authored }
+  - form: "kojarzonym"
+    pl: "W mieście kojarzonym z jazzem jest festiwal."
+    ru: "В городе, ассоциирующемся с джазом, проходит фестиваль."
+    source: { kind: authored }
+  - form: "kojarzonym"
+    pl: "Mówił o zapachu kojarzonym z dzieciństwem."
+    ru: "Он говорил о запахе, связанном с детством."
+    source: { kind: authored }
+  - form: "kojarzonymi"
+    pl: "Zajmuje się zwierzętami kojarzonymi w hodowli."
+    ru: "Он занимается животными, которых сводят в питомнике."
+    source: { kind: authored }
+  - form: "kojarzonymi"
+    pl: "Nie chciał pracować z ludźmi kojarzonymi z mafią."
+    ru: "Он не хотел работать с людьми, связанными с мафией."
+    source: { kind: authored }
+  - form: "kojarzonymi"
+    pl: "Pokój urządziła przedmiotami kojarzonymi z morzem."
+    ru: "Она обставила комнату предметами, связанными с морем."
+    source: { kind: authored }
+  - form: "kojarzoną"
+    pl: "Pokazał nam piosenkę kojarzoną z tamtym latem."
+    ru: "Он показал нам песню, связанную с тем летом."
+    source: { kind: authored }
+  - form: "kojarzoną"
+    pl: "Ma twarz kojarzoną z reklamami jogurtu."
+    ru: "У него лицо, знакомое по рекламе йогурта."
+    source: { kind: authored }
+  - form: "kojarzoną"
+    pl: "Trudno sprzedać markę kojarzoną z tanią tandetą."
+    ru: "Трудно продать марку, ассоциирующуюся с дешёвым ширпотребом."
+    source: { kind: authored }
+  - form: "kojarzy"
+    pl: "Z czym ci się kojarzy ta piosenka?"
+    ru: "С чем у тебя ассоциируется эта песня?"
+    source: { kind: tatoeba, id: 7868629 }
+  - form: "kojarzy"
+    pl: "Tom mnie nie kojarzy."
+    ru: "Том меня не помнит."
+    source: { kind: translated, id: 2403168 }
+  - form: "kojarzy"
+    pl: "Jej imię kojarzy mi się z lilią."
+    ru: "Её имя у меня ассоциируется с лилией."
+    source: { kind: translated, id: 751847 }
+  - form: "kojarzycie"
+    pl: "Kojarzycie tego aktora?"
+    ru: "Вы знаете этого актёра?"
+    source: { kind: authored }
+  - form: "kojarzycie"
+    pl: "Z czym kojarzycie Polskę?"
+    ru: "С чем у вас ассоциируется Польша?"
+    source: { kind: authored }
+  - form: "kojarzycie"
+    pl: "Czy wy w ogóle kojarzycie fakty?"
+    ru: "Вы вообще соображаете?"
+    source: { kind: authored }
+  - form: "kojarzyli"
+    pl: "Hodowcy kojarzyli konie z najlepszych stajni."
+    ru: "Коневоды сводили лошадей из лучших конюшен."
+    source: { kind: authored }
+  - form: "kojarzyli"
+    pl: "Studenci kojarzyli profesora tylko z wykładów."
+    ru: "Студенты знали профессора только по лекциям."
+    source: { kind: authored }
+  - form: "kojarzyli"
+    pl: "Wyborcy kojarzyli go z reformami."
+    ru: "Избиратели связывали его с реформами."
+    source: { kind: authored }
+  - form: "kojarzyliby"
+    pl: "Klienci kojarzyliby markę z luksusem."
+    ru: "Клиенты связывали бы марку с роскошью."
+    source: { kind: authored }
+  - form: "kojarzyliby"
+    pl: "Chłopcy kojarzyliby go z boiska."
+    ru: "Мальчики знали бы его по футбольному полю."
+    source: { kind: authored }
+  - form: "kojarzyliby"
+    pl: "Wyborcy kojarzyliby partię z korupcją."
+    ru: "Избиратели связывали бы партию с коррупцией."
+    source: { kind: authored }
+  - form: "kojarzylibyście"
+    pl: "Kojarzylibyście ten zespół, gdybyście słuchali radia."
+    ru: "Вы бы знали эту группу, если бы слушали радио."
+    source: { kind: authored }
+  - form: "kojarzylibyście"
+    pl: "Z czym kojarzylibyście Polskę?"
+    ru: "С чем бы у вас ассоциировалась Польша?"
+    source: { kind: authored }
+  - form: "kojarzylibyście"
+    pl: "Czy kojarzylibyście go po głosie?"
+    ru: "Вы бы узнали его по голосу?"
+    source: { kind: authored }
+  - form: "kojarzylibyśmy"
+    pl: "Kojarzylibyśmy go, gdyby był sławny."
+    ru: "Мы бы его знали, если бы он был знаменит."
+    source: { kind: authored }
+  - form: "kojarzylibyśmy"
+    pl: "Bez mapy słabo kojarzylibyśmy ulice."
+    ru: "Без карты мы бы плохо ориентировались в улицах."
+    source: { kind: authored }
+  - form: "kojarzylibyśmy"
+    pl: "Tę nazwę kojarzylibyśmy raczej z kawą."
+    ru: "Это название мы бы скорее связывали с кофе."
+    source: { kind: authored }
+  - form: "kojarzyliście"
+    pl: "Kojarzyliście wcześniej tego piłkarza?"
+    ru: "Вы знали раньше этого футболиста?"
+    source: { kind: authored }
+  - form: "kojarzyliście"
+    pl: "Z czym kojarzyliście tę nazwę?"
+    ru: "С чем у вас ассоциировалось это название?"
+    source: { kind: authored }
+  - form: "kojarzyliście"
+    pl: "Czemu nie kojarzyliście faktów?"
+    ru: "Почему вы не сопоставили факты?"
+    source: { kind: authored }
+  - form: "kojarzyliśmy"
+    pl: "Wtedy jeszcze nie kojarzyliśmy faktów."
+    ru: "Тогда мы ещё не связывали факты."
+    source: { kind: authored }
+  - form: "kojarzyliśmy"
+    pl: "Kojarzyliśmy go tylko z widzenia."
+    ru: "Мы знали его только в лицо."
+    source: { kind: authored }
+  - form: "kojarzyliśmy"
+    pl: "Zawsze kojarzyliśmy lato z morzem."
+    ru: "Лето у нас всегда ассоциировалось с морем."
+    source: { kind: authored }
+  - form: "kojarzymy"
+    pl: "Kolor czarny często kojarzymy ze śmiercią."
+    ru: "Мы часто ассоциируем черный цвет со смертью."
+    source: { kind: tatoeba, id: 365141 }
+  - form: "kojarzymy"
+    pl: "Egipt kojarzymy z Nilem."
+    ru: "Египет у нас ассоциируется с Нилом."
+    source: { kind: translated, id: 722180 }
+  - form: "kojarzymy"
+    pl: "Einsteina kojarzymy z teorią względności."
+    ru: "Эйнштейна мы связываем с теорией относительности."
+    source: { kind: translated, id: 1350680 }
+  - form: "kojarzysz"
+    pl: "Kojarzysz tę knajpę przy rynku?"
+    ru: "Ты знаешь эту забегаловку у рынка?"
+    source: { kind: authored }
+  - form: "kojarzysz"
+    pl: "Z czym kojarzysz zimę?"
+    ru: "С чем у тебя ассоциируется зима?"
+    source: { kind: authored }
+  - form: "kojarzysz"
+    pl: "Chyba mnie nie kojarzysz."
+    ru: "Ты, кажется, меня не помнишь."
+    source: { kind: authored }
+  - form: "kojarzyć"
+    pl: "Muszę kojarzyć fakty szybciej."
+    ru: "Мне надо быстрее соображать."
+    source: { kind: authored }
+  - form: "kojarzyć"
+    pl: "Zaczynam kojarzyć, o co chodzi."
+    ru: "Я начинаю понимать, в чём дело."
+    source: { kind: authored }
+  - form: "kojarzyć"
+    pl: "Ludzie zaczęli kojarzyć tę markę z jakością."
+    ru: "Люди начали связывать эту марку с качеством."
+    source: { kind: authored }
+  - form: "kojarzył"
+    pl: "Policjant szybko kojarzył fakty."
+    ru: "Полицейский быстро сопоставлял факты."
+    source: { kind: authored }
+  - form: "kojarzył"
+    pl: "Dziadek kojarzył wszystkich w okolicy."
+    ru: "Дедушка знал всех в округе."
+    source: { kind: authored }
+  - form: "kojarzył"
+    pl: "Zapach kawy kojarzył mi się z babcią."
+    ru: "Запах кофе ассоциировался у меня с бабушкой."
+    source: { kind: authored }
+  - form: "kojarzyła"
+    pl: "Ta melodia kojarzyła mi się z dzieciństwem."
+    ru: "Эта мелодия напоминала мне детство."
+    source: { kind: authored }
+  - form: "kojarzyła"
+    pl: "Swatka kojarzyła pary w całej wsi."
+    ru: "Сваха сводила пары по всей деревне."
+    source: { kind: authored }
+  - form: "kojarzyła"
+    pl: "Po nocy w pracy ledwo kojarzyła."
+    ru: "После ночи на работе она еле соображала."
+    source: { kind: authored }
+  - form: "kojarzyłaby"
+    pl: "Babcia kojarzyłaby go z dawnych lat."
+    ru: "Бабушка помнила бы его по давним годам."
+    source: { kind: authored }
+  - form: "kojarzyłaby"
+    pl: "Ta nazwa kojarzyłaby się źle."
+    ru: "Это название вызывало бы плохие ассоциации."
+    source: { kind: authored }
+  - form: "kojarzyłaby"
+    pl: "Swatka kojarzyłaby pary za opłatą."
+    ru: "Сваха сводила бы пары за плату."
+    source: { kind: authored }
+  - form: "kojarzyłabym"
+    pl: "Kojarzyłabym go, gdybym widziała zdjęcie."
+    ru: "Я бы его узнала, если бы видела фото."
+    source: { kind: authored }
+  - form: "kojarzyłabym"
+    pl: "Nigdy nie kojarzyłabym jej z przestępstwem."
+    ru: "Я бы никогда не связывала её с преступлением."
+    source: { kind: authored }
+  - form: "kojarzyłabym"
+    pl: "Po kawie kojarzyłabym szybciej."
+    ru: "После кофе я бы соображала быстрее."
+    source: { kind: authored }
+  - form: "kojarzyłabyś"
+    pl: "Kojarzyłabyś ją ze studiów."
+    ru: "Ты бы помнила её по учёбе."
+    source: { kind: authored }
+  - form: "kojarzyłabyś"
+    pl: "Czy kojarzyłabyś tę piosenkę po melodii?"
+    ru: "Ты бы узнала эту песню по мелодии?"
+    source: { kind: authored }
+  - form: "kojarzyłabyś"
+    pl: "Pewnie kojarzyłabyś tę aktorkę."
+    ru: "Наверное, ты бы знала эту актрису."
+    source: { kind: authored }
+  - form: "kojarzyłam"
+    pl: "Kojarzyłam ją tylko z telewizji."
+    ru: "Я знала её только по телевизору."
+    source: { kind: authored }
+  - form: "kojarzyłam"
+    pl: "Jako dziecko kojarzyłam święta z prezentami."
+    ru: "В детстве я связывала праздники с подарками."
+    source: { kind: authored }
+  - form: "kojarzyłam"
+    pl: "Słabo kojarzyłam, co się dzieje."
+    ru: "Я плохо понимала, что происходит."
+    source: { kind: authored }
+  - form: "kojarzyłaś"
+    pl: "Kojarzyłaś go ze szkoły?"
+    ru: "Ты помнила его по школе?"
+    source: { kind: authored }
+  - form: "kojarzyłaś"
+    pl: "Dawniej kojarzyłaś góry tylko z nartami."
+    ru: "Раньше горы у тебя ассоциировались только с лыжами."
+    source: { kind: authored }
+  - form: "kojarzyłaś"
+    pl: "Nie kojarzyłaś tej ulicy?"
+    ru: "Ты не знала эту улицу?"
+    source: { kind: authored }
+  - form: "kojarzyłby"
+    pl: "Każdy kojarzyłby ten utwór z reklamy."
+    ru: "Любой узнал бы эту мелодию по рекламе."
+    source: { kind: authored }
+  - form: "kojarzyłby"
+    pl: "Detektyw kojarzyłby fakty szybciej."
+    ru: "Детектив сопоставлял бы факты быстрее."
+    source: { kind: authored }
+  - form: "kojarzyłby"
+    pl: "Hodowca kojarzyłby te psy tylko z rodowodem."
+    ru: "Заводчик сводил бы этих собак только с родословной."
+    source: { kind: authored }
+  - form: "kojarzyłbym"
+    pl: "Ja kojarzyłbym ten zapach z lasem."
+    ru: "Я бы связывал этот запах с лесом."
+    source: { kind: authored }
+  - form: "kojarzyłbym"
+    pl: "Na twoim miejscu nie kojarzyłbym tych spraw."
+    ru: "На твоём месте я бы не связывал эти дела."
+    source: { kind: authored }
+  - form: "kojarzyłbym"
+    pl: "Lepiej kojarzyłbym, gdybym się wyspał."
+    ru: "Я бы лучше соображал, если бы выспался."
+    source: { kind: authored }
+  - form: "kojarzyłbyś"
+    pl: "Kojarzyłbyś go, gdybyś oglądał mecze."
+    ru: "Ты бы его знал, если бы смотрел матчи."
+    source: { kind: authored }
+  - form: "kojarzyłbyś"
+    pl: "Z czym kojarzyłbyś ten kolor?"
+    ru: "С чем бы у тебя ассоциировался этот цвет?"
+    source: { kind: authored }
+  - form: "kojarzyłbyś"
+    pl: "Czy kojarzyłbyś tę twarz po latach?"
+    ru: "Ты бы узнал это лицо спустя годы?"
+    source: { kind: authored }
+  - form: "kojarzyłem"
+    pl: "Długo nie kojarzyłem, skąd go znam."
+    ru: "Я долго не мог сообразить, откуда его знаю."
+    source: { kind: authored }
+  - form: "kojarzyłem"
+    pl: "Ten zapach zawsze kojarzyłem z domem."
+    ru: "Этот запах я всегда связывал с домом."
+    source: { kind: authored }
+  - form: "kojarzyłem"
+    pl: "Wczoraj w ogóle nie kojarzyłem faktów."
+    ru: "Вчера я вообще ничего не соображал."
+    source: { kind: authored }
+  - form: "kojarzyłeś"
+    pl: "Kojarzyłeś wcześniej tego człowieka?"
+    ru: "Ты знал раньше этого человека?"
+    source: { kind: authored }
+  - form: "kojarzyłeś"
+    pl: "Z czym kojarzyłeś Paryż przed podróżą?"
+    ru: "С чем у тебя ассоциировался Париж до поездки?"
+    source: { kind: authored }
+  - form: "kojarzyłeś"
+    pl: "Wiem, że nie kojarzyłeś jej nazwiska."
+    ru: "Я знаю, что ты не помнил её фамилии."
+    source: { kind: authored }
+  - form: "kojarzyło"
+    pl: "Morze kojarzyło mi się z wolnością."
+    ru: "Море ассоциировалось у меня со свободой."
+    source: { kind: authored }
+  - form: "kojarzyło"
+    pl: "Dziecko kojarzyło już kolory z nazwami."
+    ru: "Ребёнок уже связывал цвета с названиями."
+    source: { kind: authored }
+  - form: "kojarzyło"
+    pl: "Wszystko kojarzyło jej się z nim."
+    ru: "Всё напоминало ей о нём."
+    source: { kind: authored }
+  - form: "kojarzyłoby"
+    pl: "Dziecko kojarzyłoby słowa z obrazkami."
+    ru: "Ребёнок связывал бы слова с картинками."
+    source: { kind: authored }
+  - form: "kojarzyłoby"
+    pl: "Takie logo kojarzyłoby się z bankiem."
+    ru: "Такой логотип ассоциировался бы с банком."
+    source: { kind: authored }
+  - form: "kojarzyłoby"
+    pl: "Każde miasto kojarzyłoby się z czymś innym."
+    ru: "Каждый город ассоциировался бы с чем-то другим."
+    source: { kind: authored }
+  - form: "kojarzyły"
+    pl: "Dawniej swatki kojarzyły małżeństwa."
+    ru: "Раньше свахи устраивали браки."
+    source: { kind: authored }
+  - form: "kojarzyły"
+    pl: "Te słowa kojarzyły mi się z wojną."
+    ru: "Эти слова ассоциировались у меня с войной."
+    source: { kind: authored }
+  - form: "kojarzyły"
+    pl: "Koleżanki nie kojarzyły nowego nauczyciela."
+    ru: "Подруги не знали нового учителя."
+    source: { kind: authored }
+  - form: "kojarzyłyby"
+    pl: "Dzieci kojarzyłyby tę bajkę z babcią."
+    ru: "Дети связывали бы эту сказку с бабушкой."
+    source: { kind: authored }
+  - form: "kojarzyłyby"
+    pl: "Te kolory kojarzyłyby się z jesienią."
+    ru: "Эти цвета ассоциировались бы с осенью."
+    source: { kind: authored }
+  - form: "kojarzyłyby"
+    pl: "Sąsiadki kojarzyłyby każdą nową twarz."
+    ru: "Соседки узнали бы любое новое лицо."
+    source: { kind: authored }
+  - form: "kojarzyłybyście"
+    pl: "Kojarzyłybyście tę aktorkę z serialu."
+    ru: "Вы бы знали эту актрису по сериалу."
+    source: { kind: authored }
+  - form: "kojarzyłybyście"
+    pl: "Z czym kojarzyłybyście ten kolor?"
+    ru: "С чем бы у вас ассоциировался этот цвет?"
+    source: { kind: authored }
+  - form: "kojarzyłybyście"
+    pl: "Pewnie kojarzyłybyście ją ze szkoły."
+    ru: "Наверное, вы бы помнили её по школе."
+    source: { kind: authored }
+  - form: "kojarzyłybyśmy"
+    pl: "Kojarzyłybyśmy tę panią z telewizji."
+    ru: "Мы бы знали эту женщину по телевизору."
+    source: { kind: authored }
+  - form: "kojarzyłybyśmy"
+    pl: "Z czym kojarzyłybyśmy ten zapach?"
+    ru: "С чем бы у нас ассоциировался этот запах?"
+    source: { kind: authored }
+  - form: "kojarzyłybyśmy"
+    pl: "Obie kojarzyłybyśmy fakty szybciej po kawie."
+    ru: "Мы обе соображали бы быстрее после кофе."
+    source: { kind: authored }
+  - form: "kojarzyłyście"
+    pl: "Kojarzyłyście tę panią z osiedla?"
+    ru: "Вы знали эту женщину по району?"
+    source: { kind: authored }
+  - form: "kojarzyłyście"
+    pl: "Dziewczyny, kojarzyłyście ten film?"
+    ru: "Девочки, вы знали этот фильм?"
+    source: { kind: authored }
+  - form: "kojarzyłyście"
+    pl: "Zawsze kojarzyłyście mnie z muzyką."
+    ru: "Вы всегда связывали меня с музыкой."
+    source: { kind: authored }
+  - form: "kojarzyłyśmy"
+    pl: "Kojarzyłyśmy tę piosenkę z radia."
+    ru: "Мы помнили эту песню по радио."
+    source: { kind: authored }
+  - form: "kojarzyłyśmy"
+    pl: "W szkole kojarzyłyśmy chemię z wybuchami."
+    ru: "В школе химия у нас ассоциировалась со взрывами."
+    source: { kind: authored }
+  - form: "kojarzyłyśmy"
+    pl: "Obie słabo kojarzyłyśmy po podróży."
+    ru: "Мы обе плохо соображали после поездки."
+    source: { kind: authored }
+  - form: "kojarzą"
+    pl: "Turyści kojarzą Kraków z Wawelem."
+    ru: "Туристы связывают Краков с Вавелем."
+    source: { kind: authored }
+  - form: "kojarzą"
+    pl: "Dzieci kojarzą lato z wakacjami."
+    ru: "Дети связывают лето с каникулами."
+    source: { kind: authored }
+  - form: "kojarzą"
+    pl: "Sąsiedzi mnie nie kojarzą."
+    ru: "Соседи меня не помнят."
+    source: { kind: authored }
+  - form: "kojarząc"
+    pl: "Kojarząc fakty, policja znalazła sprawcę."
+    ru: "Сопоставляя факты, полиция нашла преступника."
+    source: { kind: authored }
+  - form: "kojarząc"
+    pl: "Uczył się słówek, kojarząc je z obrazkami."
+    ru: "Он учил слова, связывая их с картинками."
+    source: { kind: authored }
+  - form: "kojarząc"
+    pl: "Słuchała, nie kojarząc, o kim mowa."
+    ru: "Она слушала, не понимая, о ком речь."
+    source: { kind: authored }
+  - form: "kojarząca"
+    pl: "Firma kojarząca pary działa od lat."
+    ru: "Фирма, сводящая пары, работает много лет."
+    source: { kind: authored }
+  - form: "kojarząca"
+    pl: "Melodia kojarząca się z latem poprawia humor."
+    ru: "Мелодия, напоминающая о лете, поднимает настроение."
+    source: { kind: authored }
+  - form: "kojarząca"
+    pl: "To nazwa kojarząca się z luksusem."
+    ru: "Это название, ассоциирующееся с роскошью."
+    source: { kind: authored }
+  - form: "kojarzące"
+    pl: "To zdjęcie kojarzące się z dzieciństwem wisi w salonie."
+    ru: "Это фото, напоминающее о детстве, висит в гостиной."
+    source: { kind: authored }
+  - form: "kojarzące"
+    pl: "Kojarzące się z morzem muszle leżały na półce."
+    ru: "Ракушки, напоминающие о море, лежали на полке."
+    source: { kind: authored }
+  - form: "kojarzące"
+    pl: "Na ścianach wisiały plakaty kojarzące się z latami osiemdziesiątymi."
+    ru: "На стенах висели плакаты, напоминающие о восьмидесятых."
+    source: { kind: authored }
+  - form: "kojarzącego"
+    pl: "Szukam słowa kojarzącego się z wiosną."
+    ru: "Я ищу слово, ассоциирующееся с весной."
+    source: { kind: authored }
+  - form: "kojarzącego"
+    pl: "Nie było tam nic kojarzącego się z domem."
+    ru: "Там не было ничего, что напоминало бы дом."
+    source: { kind: authored }
+  - form: "kojarzącego"
+    pl: "Zapach kojarzącego się z latem kremu wypełnił łazienkę."
+    ru: "Запах крема, напоминающего о лете, наполнил ванную."
+    source: { kind: authored }
+  - form: "kojarzącej"
+    pl: "Nie znoszę piosenki kojarzącej mi się z rozstaniem."
+    ru: "Не выношу песни, которая напоминает мне о расставании."
+    source: { kind: authored }
+  - form: "kojarzącej"
+    pl: "Szukali nazwy kojarzącej się z bezpieczeństwem."
+    ru: "Они искали название, ассоциирующееся с безопасностью."
+    source: { kind: authored }
+  - form: "kojarzącej"
+    pl: "Usługi agencji kojarzącej pary są drogie."
+    ru: "Услуги агентства, сводящего пары, дорогие."
+    source: { kind: authored }
+  - form: "kojarzącemu"
+    pl: "Zaufał hodowcy kojarzącemu psy z rodowodem."
+    ru: "Он доверился заводчику, сводящему собак с родословной."
+    source: { kind: authored }
+  - form: "kojarzącemu"
+    pl: "Dzięki szybko kojarzącemu detektywowi sprawa się wyjaśniła."
+    ru: "Благодаря быстро соображающему детективу дело прояснилось."
+    source: { kind: authored }
+  - form: "kojarzącemu"
+    pl: "Wszyscy przyklasnęli kojarzącemu fakty śledczemu."
+    ru: "Все аплодировали следователю, сопоставляющему факты."
+    source: { kind: authored }
+  - form: "kojarzący"
+    pl: "Szybko kojarzący uczeń rozwiązał zagadkę."
+    ru: "Сообразительный ученик решил загадку."
+    source: { kind: authored }
+  - form: "kojarzący"
+    pl: "To znak kojarzący się z bezpieczeństwem."
+    ru: "Это знак, ассоциирующийся с безопасностью."
+    source: { kind: authored }
+  - form: "kojarzący"
+    pl: "Hodowca kojarzący konie zna ich rodowody."
+    ru: "Коневод, сводящий лошадей, знает их родословные."
+    source: { kind: authored }
+  - form: "kojarzących"
+    pl: "Wśród kojarzących fakty był tylko jeden detektyw."
+    ru: "Среди тех, кто сопоставлял факты, был только один сыщик."
+    source: { kind: authored }
+  - form: "kojarzących"
+    pl: "Wybierz kilka słów kojarzących się z jesienią."
+    ru: "Выбери несколько слов, ассоциирующихся с осенью."
+    source: { kind: authored }
+  - form: "kojarzących"
+    pl: "Unikaj nazw kojarzących się źle."
+    ru: "Избегай названий с плохими ассоциациями."
+    source: { kind: authored }
+  - form: "kojarzącym"
+    pl: "Z szybko kojarzącym kolegą łatwo się pracuje."
+    ru: "С сообразительным коллегой легко работать."
+    source: { kind: authored }
+  - form: "kojarzącym"
+    pl: "Mówił o miejscu kojarzącym mu się z młodością."
+    ru: "Он говорил о месте, напоминавшем ему молодость."
+    source: { kind: authored }
+  - form: "kojarzącym"
+    pl: "W kojarzącym się z luksusem hotelu było pusto."
+    ru: "В отеле, ассоциирующемся с роскошью, было пусто."
+    source: { kind: authored }
+  - form: "kojarzącymi"
+    pl: "Gardził ludźmi kojarzącymi go z ojcem."
+    ru: "Он презирал людей, связывавших его с отцом."
+    source: { kind: authored }
+  - form: "kojarzącymi"
+    pl: "Ozdobił pokój rzeczami kojarzącymi się z morzem."
+    ru: "Он украсил комнату вещами, напоминающими о море."
+    source: { kind: authored }
+  - form: "kojarzącymi"
+    pl: "Z szybko kojarzącymi uczniami lekcja idzie sprawnie."
+    ru: "С сообразительными учениками урок идёт быстро."
+    source: { kind: authored }
+  - form: "kojarzącą"
+    pl: "Wybrali nazwę kojarzącą się z naturą."
+    ru: "Они выбрали название, ассоциирующееся с природой."
+    source: { kind: authored }
+  - form: "kojarzącą"
+    pl: "Znalazł agencję kojarzącą pary."
+    ru: "Он нашёл агентство, сводящее пары."
+    source: { kind: authored }
+  - form: "kojarzącą"
+    pl: "Zagrał melodię kojarzącą się ze świętami."
+    ru: "Он сыграл мелодию, напоминающую о праздниках."
+    source: { kind: authored }
+  - form: "kojarzę"
+    pl: "Nie interesuję się tym jakoś szczególnie, ale coś kojarzę."
+    ru: "Я этим особо не интересуюсь, но кое-что знаю."
+    source: { kind: translated, id: 13225507 }
+  - form: "kojarzę"
+    pl: "Wprawdzie znam ją z imienia, ale nie kojarzę jej twarzy."
+    ru: "Я, правда, знаю её по имени, но лица не помню."
+    source: { kind: translated, id: 2652705 }
+  - form: "kojarzę"
+    pl: "Kojarzę go z widzenia."
+    ru: "Я знаю его в лицо."
+    source: { kind: authored }
