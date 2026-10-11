@@ -204,5 +204,19 @@ questions:
     q: "Zwracam się z ___ o przesunięcie terminu. (просьба)"
     answer: prośbą
     explain: "z + творительный: z prośbą, «с просьбой». А то, о чём просят, — o + винительный."
+  - type: write
+    q: "Напишите e-mail в языковую школу (80–120 слов): вы хотите записаться на курс польского и спрашиваете о сроках, цене и тесте на уровень."
+    model: |-
+      Szanowni Państwo,
+      w nawiązaniu do ogłoszenia na Państwa stronie internetowej zwracam się z prośbą o informacje dotyczące kursu języka polskiego na poziomie B1. Chciałabym zapisać się na kurs wieczorowy, ponieważ w ciągu dnia pracuję. Proszę o informację, kiedy zaczyna się najbliższy kurs i jak długo trwa. Proszę również o informację, ile kosztuje cały kurs i czy można zapłacić w dwóch ratach. Czy przed zapisaniem się na kurs trzeba napisać test poziomujący? Jeśli tak, uprzejmie proszę o podanie terminu testu. Uczę się polskiego od dwóch lat, ale nie mam jeszcze żadnego certyfikatu. Będę wdzięczna za szybką odpowiedź.
+      Z poważaniem
+      Anna Iwanowa
+    checklist:
+      - "Официальное обращение: Szanowni Państwo, — с запятой, дальше строчная буква"
+      - "Цель письма названа в первом предложении (zwracam się z prośbą o…)"
+      - "Два конкретных вопроса: о сроках и о цене или тесте"
+      - "Вежливая просьба формулами урока: Proszę o informację, czy… / kiedy…, Będę wdzięczny (wdzięczna) za…"
+      - "Официальное прощание Z poważaniem без запятой и подпись с новой строки"
+    explain: "Письмо собирается из блоков урока: обращение, w nawiązaniu do / zwracam się z prośbą o, proszę o informację, będę wdzięczna za odpowiedź, Z poważaniem."
 ---
 ::

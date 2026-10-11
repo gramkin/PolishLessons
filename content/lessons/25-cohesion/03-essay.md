@@ -228,5 +228,15 @@ questions:
   - type: listen
     text: "Moim zdaniem warto uczyć się języków w każdym wieku."
     explain: "Moim zdaniem — творительный без предлога; warto + инфинитив."
+  - type: write
+    q: "Напишите короткое эссе-мнение (100–150 слов) на тему «Czy dzieci powinny mieć własny telefon w szkole podstawowej?»."
+    model: "Wiele osób uważa, że dziecko w szkole podstawowej nie potrzebuje własnego telefonu. Moim zdaniem telefon może być przydatny, jeśli rodzice ustalą jasne zasady. Po pierwsze, dziecko z telefonem może w każdej chwili zadzwonić do rodziców, na przykład kiedy nie przyjedzie autobus. Po drugie, telefon pomaga w nauce, bo można w nim szybko sprawdzić słowo albo plan lekcji. Warto też zauważyć, że dzięki telefonowi dziecko uczy się samodzielności. Oczywiście telefon rozprasza, a niektóre dzieci spędzają przed ekranem zbyt dużo czasu. Należy jednak podkreślić, że problemem nie jest sam telefon, lecz brak zasad. Dlatego rozsądnym rozwiązaniem wydaje mi się zakaz korzystania z telefonów podczas lekcji. Biorąc pod uwagę wszystkie te argumenty, uważam, że telefon w szkole podstawowej jest raczej pomocą niż zagrożeniem, jeśli dziecko korzysta z niego mądrze."
+    checklist:
+      - "Тезис в первых предложениях: Wiele osób uważa, że… Moim zdaniem…"
+      - "Минимум два довода со связками: po pierwsze, po drugie, na przykład, warto zauważyć"
+      - "Контраргумент и ответ на него: oczywiście… należy jednak podkreślić…"
+      - "Вывод возвращается к тезису: biorąc pod uwagę… или podsumowując…"
+      - "Нет разговорных слов и штампов вроде «W dzisiejszych czasach» и «Ja uważam»"
+    explain: "Схема урока: wstęp с тезисом, rozwinięcie с пронумерованными доводами, kontrargument с ответом и zakończenie, которое повторяет тезис другими словами."
 ---
 ::
