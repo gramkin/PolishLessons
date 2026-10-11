@@ -1,5 +1,5 @@
 # review
-# Тест на уровень: по два вопроса на главу 1–20; страница /placement, логика в app/utils/placement.ts.
+# Тест на уровень: по два вопроса на главу 1–20 и 22–28 (21 — тесты); страница /placement, логика в app/utils/placement.ts.
 intro: "Ответьте на вопросы — по два на каждую главу курса. Не знаете ответа — пропустите: тест покажет, с какой главы начать, и может отметить уже знакомые главы пройденными. Это займёт около десяти минут."
 questions:
   - { chapter: 1, type: choice, q: "На какой слог падает ударение в слове «telefon»?", options: ["le", "te", "fon"], answer: 0, explain: "te-LE-fon: в польском ударение почти всегда на предпоследнем слоге." }
@@ -42,3 +42,17 @@ questions:
   - { chapter: 19, type: choice, q: "Польское «uroda» значит…", options: ["красота", "уродство", "урожай"], answer: 0, explain: "Ложный друг: uroda — красота." }
   - { chapter: 20, type: choice, q: "«Счёт, пожалуйста» (в ресторане):", options: ["Poproszę konto.", "Poproszę liczbę.", "Poproszę rachunek."], answer: 2, explain: "Счёт в ресторане — rachunek." }
   - { chapter: 20, type: choice, q: "«У меня болит голова»:", options: ["Głowa mi jest boli.", "Boli mnie głowa.", "Mam ból głowę."], answer: 1, explain: "Boli mnie + что болит." }
+  - { chapter: 22, type: choice, q: "«Читающий человек»:", options: ["czytany człowiek", "czytający człowiek", "czytając człowiek"], answer: 1, explain: "Действительное причастие на -ący: czytają → czytający." }
+  - { chapter: 22, type: choice, q: "«Окно открыто»:", options: ["Okno jest otwarte.", "Okno jest otwierające.", "Okno jest otwarty."], answer: 0, explain: "Страдательное причастие otwarty согласуется с okno (ср. род): otwarte." }
+  - { chapter: 23, type: input, q: "___ gazetę, pił kawę. (czytać, «читая»)", answer: "Czytając", explain: "Деепричастие на -ąc: czytają → czytając." }
+  - { chapter: 23, type: choice, q: "«Закончив работу, он пошёл домой»:", options: ["Skończywszy pracę, poszedł do domu.", "Skończący pracę, poszedł do domu.", "Skończony pracę, poszedł do domu."], answer: 0, explain: "Предшествующее действие — деепричастие на -wszy: skończył → skończywszy." }
+  - { chapter: 24, type: choice, q: "«Дом был построен в 1990 году»:", options: ["Dom został zbudowany w 1990 roku.", "Dom został zbudował w 1990 roku.", "Dom zbudował się w 1990 roku."], answer: 0, explain: "Законченное событие в страдательном залоге: zostać + причастие (zbudowany)." }
+  - { chapter: 24, type: input, q: "Wczoraj ___ nowy most. (otworzyć, «открыли»)", answer: "otwarto", explain: "Безличная форма на -no/-to: otworzyć → otwarto." }
+  - { chapter: 25, type: choice, q: "«Он спросил, приду ли я»:", options: ["Zapytał, czy przyjdę.", "Zapytał, że przyjdę.", "Zapytał, przyjdę li."], answer: 0, explain: "Косвенный вопрос «ли» — czy: zapytał, czy przyjdę." }
+  - { chapter: 25, type: choice, q: "«Она попросила, чтобы я позвонил»: Poprosiła, ___", options: ["że zadzwonię.", "żebym zadzwonił.", "czy zadzwoniłem."], answer: 1, explain: "Просьба в косвенной речи — żeby + форма прошедшего: żebym zadzwonił." }
+  - { chapter: 26, type: choice, q: "«Курить запрещено» (табличка):", options: ["Palenie zabronione.", "Palić zabroniony.", "Paląc zabronione."], answer: 0, explain: "Польский ставит здесь отглагольное существительное: palenie." }
+  - { chapter: 26, type: choice, q: "«Забыть» по-польски:", options: ["zapamiętać", "zapomnieć", "przypomnieć"], answer: 1, explain: "Ложный друг: zapomnieć — забыть; «запомнить» — zapamiętać." }
+  - { chapter: 27, type: choice, q: "Вежливая просьба к мужчине: «Не могли бы вы мне помочь?»", options: ["Czy mógłbyś mi pan pomóc?", "Czy mógłby mi pani pomóc?", "Czy mógłby mi pan pomóc?"], answer: 2, explain: "Pan + глагол в 3-м лице мужского рода: mógłby pan." }
+  - { chapter: 27, type: choice, q: "Как закончить официальное письмо?", options: ["Z poważaniem", "Buziaki", "Na razie"], answer: 0, explain: "Z poważaniem — стандартная формула официального письма." }
+  - { chapter: 28, type: choice, q: "«Направление к специалисту»:", options: ["kierunek do specjalisty", "skierowanie do specjalisty", "polecenie do specjalisty"], answer: 1, explain: "Направление от врача — skierowanie; kierunek — направление движения." }
+  - { chapter: 28, type: choice, q: "«Загрязнение воздуха»:", options: ["zanieczyszczenie powietrza", "zakażenie powietrza", "zaraza powietrza"], answer: 0, explain: "Загрязнение среды — zanieczyszczenie; zakażenie — заражение." }
