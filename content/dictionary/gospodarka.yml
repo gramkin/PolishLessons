@@ -1,0 +1,86 @@
+# review
+id: gospodarka
+format: 2
+lemma: "gospodarka"
+rank: 5933
+pos: noun
+pron: { cyr: "господа́рка" }
+senses:
+  - id: economy
+    ru: "экономика, народное хозяйство"
+    examples:
+      - pl: "Chińska gospodarka rośnie szybko."
+        ru: "Китайская экономика быстро растёт."
+        source: { kind: translated, id: 9679442 }
+      - pl: "Handel pomaga naszej gospodarce."
+        ru: "Торговля помогает нашей экономике."
+        source: { kind: translated, id: 11564180 }
+      - pl: "Strajk miał wpływ na gospodarkę kraju."
+        ru: "Забастовка повлияла на экономику страны."
+        source: { kind: translated, id: 919800 }
+  - id: management
+    ru: "хозяйствование, обращение с чем-либо"
+    note: "с творительным падежом без предлога"
+    examples:
+      - pl: "Gospodarka odpadami w mieście jest źle zorganizowana."
+        ru: "Обращение с отходами в городе плохо организовано."
+        source: { kind: authored }
+      - pl: "Rabunkowa gospodarka zniszczyła te lasy."
+        ru: "Хищническое хозяйствование погубило эти леса."
+        source: { kind: authored }
+  - id: farm
+    ru: "крестьянское хозяйство (разг.)"
+    examples:
+      - pl: "Syn został na gospodarce po ojcu."
+        ru: "Сын остался на хозяйстве после отца."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "GOSPODARKA — не «хозяйка» (это GOSPODYNI), а экономика страны: POLSKA GOSPODARKA «польская экономика». Слово EKONOMIA тоже есть, но чаще называет науку: STUDIOWAĆ EKONOMIĘ «учиться на экономиста»." }
+  - { kind: government, text: "В значении «ведение хозяйства, обращение с чем-то» требует творительного без предлога, как и глагол GOSPODAROWAĆ: GOSPODARKA ODPADAMI «обращение с отходами», GOSPODARKA WODNA «водное хозяйство»." }
+  - { kind: usage, text: "Женский род, склоняется как RĘKA без особенностей: в дательном и предложном K переходит в C — W GOSPODARCE. В родительном множественного появляется беглое E: GOSPODAREK. Звательный GOSPODARKO не употребляется." }
+collocations:
+  - { pl: "gospodarka rynkowa", ru: "рыночная экономика" }
+  - { pl: "rozwój gospodarki", ru: "развитие экономики" }
+  - { pl: "gospodarka odpadami", ru: "обращение с отходами" }
+  - { pl: "gospodarka światowa", ru: "мировая экономика" }
+family:
+  - { pl: "gospodarz", ru: "хозяин", relation: root, id: gospodarz }
+  - { pl: "gospodarstwo", ru: "хозяйство, ферма", relation: root }
+  - { pl: "gospodarczy", ru: "экономический, хозяйственный", relation: derived }
+  - { pl: "gospodarować", ru: "хозяйствовать", relation: root }
+synonyms: ["ekonomia"]
+etymology: "Образовано от GOSPODARZ «хозяин», того же корня, что русские «господарь» и «господин»."
+memory: "Gospodarka — хозяйство целой страны, экономика: в ней хозяйничает gospodarz. W gospodarce — в экономике, с переходом K в C."
+idioms:
+  - { pl: "gospodarka rabunkowa", ru: "хищническое хозяйствование" }
+  - { pl: "gospodarka niedoborów", ru: "экономика дефицита" }
+formExamplesSkip:
+  - { form: "gospodarko", reason: "звательный от названия экономики не употребляется: к ней не обращаются" }
+formExamples:
+  - { form: "gospodarce", pl: "Turystyka daje gospodarce dużo pieniędzy.", ru: "Туризм даёт экономике много денег.", source: { kind: authored } }
+  - { form: "gospodarce", pl: "Japonia odgrywa kluczową rolę w gospodarce światowej.", ru: "Япония играет ключевую роль в мировой экономике.", source: { kind: translated, id: 599397 } }
+  - { form: "gospodarce", pl: "O polskiej gospodarce pisze się dziś dużo.", ru: "О польской экономике сегодня много пишут.", source: { kind: authored } }
+  - { form: "gospodarek", pl: "Wiele europejskich gospodarek zwolniło.", ru: "Многие европейские экономики замедлились.", source: { kind: authored } }
+  - { form: "gospodarek", pl: "Porównał tempo wzrostu trzech gospodarek.", ru: "Он сравнил темпы роста трёх экономик.", source: { kind: authored } }
+  - { form: "gospodarek", pl: "Ranking największych gospodarek świata się zmienił.", ru: "Рейтинг крупнейших экономик мира изменился.", source: { kind: authored } }
+  - { form: "gospodarka", pl: "Amerykańska gospodarka doznała recesji.", ru: "Американская экономика пережила рецессию.", source: { kind: translated, id: 3031559 } }
+  - { form: "gospodarka", pl: "Gospodarka ma się źle.", ru: "Экономика в плохом состоянии.", source: { kind: translated, id: 8500267 } }
+  - { form: "gospodarka", pl: "Nasza gospodarka zależy od eksportu.", ru: "Наша экономика зависит от экспорта.", source: { kind: authored } }
+  - { form: "gospodarkach", pl: "W bogatych gospodarkach płace są wyższe.", ru: "В богатых экономиках зарплаты выше.", source: { kind: authored } }
+  - { form: "gospodarkach", pl: "Ekonomiści dyskutowali o gospodarkach Azji.", ru: "Экономисты обсуждали экономики Азии.", source: { kind: authored } }
+  - { form: "gospodarkach", pl: "Na wiejskich gospodarkach brakuje rąk do pracy.", ru: "В сельских хозяйствах не хватает рабочих рук.", source: { kind: authored } }
+  - { form: "gospodarkami", pl: "Między gospodarkami sąsiadów są duże różnice.", ru: "Между экономиками соседей большие различия.", source: { kind: authored } }
+  - { form: "gospodarkami", pl: "Porównujemy Polskę z innymi gospodarkami.", ru: "Мы сравниваем Польшу с другими экономиками.", source: { kind: authored } }
+  - { form: "gospodarkami", pl: "Kieruje dwiema gospodarkami rolnymi pod Lublinem.", ru: "Он управляет двумя фермерскими хозяйствами под Люблином.", source: { kind: authored } }
+  - { form: "gospodarką", pl: "Co się stanie z japońską gospodarką?", ru: "Что будет с японской экономикой?", source: { kind: translated, id: 364036 } }
+  - { form: "gospodarką", pl: "Niewiele rządów potrafi radzić sobie z gospodarką.", ru: "Немногие правительства умеют справляться с экономикой.", source: { kind: translated, id: 717355 } }
+  - { form: "gospodarką", pl: "Minister zajmuje się gospodarką od lat.", ru: "Министр много лет занимается экономикой.", source: { kind: authored } }
+  - { form: "gospodarkę", pl: "Wojna zniszczyła gospodarkę kraju.", ru: "Война разрушила экономику страны.", source: { kind: authored } }
+  - { form: "gospodarkę", pl: "Rząd chce ożywić gospodarkę.", ru: "Правительство хочет оживить экономику.", source: { kind: authored } }
+  - { form: "gospodarkę", pl: "Ojciec prowadził gospodarkę na wsi.", ru: "Отец вёл хозяйство в деревне.", source: { kind: authored } }
+  - { form: "gospodarki", pl: "Przyczynił się znacznie do rozwoju gospodarki.", ru: "Он значительно способствовал развитию экономики.", source: { kind: translated, id: 3582033 } }
+  - { form: "gospodarki", pl: "Gospodarki krajów bałtyckich szybko rosną.", ru: "Экономики прибалтийских стран быстро растут.", source: { kind: authored } }
+  - { form: "gospodarki", pl: "Bez inwestycji nie będzie silnej gospodarki.", ru: "Без инвестиций не будет сильной экономики.", source: { kind: authored } }
+  - { form: "gospodarkom", pl: "Pandemia bardzo zaszkodziła gospodarkom Europy.", ru: "Пандемия сильно навредила экономикам Европы.", source: { kind: authored } }
+  - { form: "gospodarkom", pl: "Tanie kredyty pomogły słabszym gospodarkom.", ru: "Дешёвые кредиты помогли более слабым экономикам.", source: { kind: authored } }
+  - { form: "gospodarkom", pl: "Eksperci wróżą gospodarkom regionu spowolnienie.", ru: "Эксперты предсказывают экономикам региона замедление.", source: { kind: authored } }
