@@ -1,0 +1,89 @@
+# review
+id: przymus
+format: 2
+lemma: "przymus"
+rank: 5883
+pos: noun
+pron: { cyr: "пшы́мус" }
+senses:
+  - id: coercion
+    ru: "принуждение"
+    examples:
+      - pl: "Zeznania złożył pod przymusem."
+        ru: "Показания он дал под принуждением."
+        source: { kind: authored }
+      - pl: "Nikt nie powinien pracować pod przymusem."
+        ru: "Никто не должен работать по принуждению."
+        source: { kind: authored }
+      - pl: "Rodzice nie stosowali wobec nas przymusu."
+        ru: "Родители не применяли к нам принуждения."
+        source: { kind: authored }
+  - id: urge
+    ru: "внутренняя потребность, навязчивое желание"
+    note: "z przymusem — «через силу, натянуто»"
+    examples:
+      - pl: "Czuł wewnętrzny przymus, żeby wszystko sprawdzić."
+        ru: "Он чувствовал внутреннюю потребность всё проверить."
+        source: { kind: authored }
+      - pl: "Uśmiechała się do gości z przymusem."
+        ru: "Она натянуто улыбалась гостям."
+        source: { kind: authored }
+  - id: legal
+    ru: "обязательность (по закону)"
+    examples:
+      - pl: "W Sądzie Najwyższym obowiązuje przymus adwokacki."
+        ru: "В Верховном суде обязательно представительство адвоката."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Z PRZYMUSU и POD PRZYMUSEM — «по принуждению, из-под палки». Но Z PRZYMUSEM — «через силу, натянуто»: UŚMIECHAĆ SIĘ Z PRZYMUSEM — натянуто улыбаться." }
+  - { kind: usage, text: "Мужской род, неодушевлённый: родительный PRZYMUSU, винительный равен именительному. Множественное PRZYMUSY — в языке психологов «навязчивости, компульсии»." }
+  - { kind: usage, text: "Прилагательное PRZYMUSOWY — «принудительный, вынужденный»: PRZYMUSOWE LĄDOWANIE — вынужденная посадка, PRACA PRZYMUSOWA — принудительный труд." }
+  - { kind: pronunciation, text: "PRZ читается «пш»: RZ после глухого P оглушается. «Пшы́мус», ударение на первом слоге." }
+collocations:
+  - { pl: "pod przymusem", ru: "под принуждением" }
+  - { pl: "z przymusu", ru: "по принуждению, поневоле" }
+  - { pl: "wewnętrzny przymus", ru: "внутренняя потребность" }
+  - { pl: "przymus adwokacki", ru: "обязательное участие адвоката" }
+family:
+  - { pl: "zmusić", ru: "заставить", relation: root, id: zmusic }
+  - { pl: "zmuszać", ru: "заставлять", relation: root, id: zmuszac }
+  - { pl: "przymusić", ru: "принудить", relation: derived }
+  - { pl: "przymusowy", ru: "принудительный", relation: derived }
+  - { pl: "musieć", ru: "быть должным", relation: root }
+synonyms: ["presja", "nacisk", "konieczność"]
+etymology: "От глагола PRZYMUSIĆ «принудить»; корень MUS- тот же, что в MUSIEĆ «быть должным»."
+memory: "Przymus — то, что ты MUSISZ: принуждение. Pod przymusem — под принуждением, z przymusem — через силу."
+idioms:
+  - { pl: "robić coś pod przymusem", ru: "делать что-то из-под палки" }
+  - { pl: "robić coś z przymusu", ru: "делать что-то поневоле" }
+formExamples:
+  - { form: "przymus", pl: "Przymus nigdy nie buduje prawdziwej przyjaźni.", ru: "Принуждение никогда не создаёт настоящей дружбы.", source: { kind: authored } }
+  - { form: "przymus", pl: "Praca to nie tylko przymus, to też przyjemność.", ru: "Работа — это не только принуждение, но и удовольствие.", source: { kind: translated, id: 773045 } }
+  - { form: "przymus", pl: "Władza stosowała wobec chłopów przymus.", ru: "Власть применяла к крестьянам принуждение.", source: { kind: authored } }
+  - { form: "przymusach", pl: "W książce pisze o przymusach i lękach.", ru: "В книге он пишет о навязчивостях и страхах.", source: { kind: authored } }
+  - { form: "przymusach", pl: "Psycholog mówił o przymusach, z którymi walczą pacjenci.", ru: "Психолог говорил о навязчивостях, с которыми борются пациенты.", source: { kind: authored } }
+  - { form: "przymusach", pl: "Opowiadała o swoich dziecięcych przymusach.", ru: "Она рассказывала о своих детских навязчивых привычках.", source: { kind: authored } }
+  - { form: "przymusami", pl: "Walczy z dziwnymi przymusami od lat.", ru: "Он годами борется со странными навязчивостями.", source: { kind: authored } }
+  - { form: "przymusami", pl: "Życie między przymusami a marzeniami bywa trudne.", ru: "Жизнь между принуждением и мечтами бывает трудной.", source: { kind: authored } }
+  - { form: "przymusami", pl: "Nie każdy radzi sobie z takimi przymusami.", ru: "Не каждый справляется с такими навязчивостями.", source: { kind: authored } }
+  - { form: "przymusem", pl: "Pod przymusem podpisał umowę.", ru: "Под принуждением он подписал договор.", source: { kind: authored } }
+  - { form: "przymusem", pl: "Uśmiechnęła się z przymusem i odwróciła wzrok.", ru: "Она натянуто улыбнулась и отвела взгляд.", source: { kind: authored } }
+  - { form: "przymusem", pl: "Ten zakaz nie jest żadnym przymusem.", ru: "Этот запрет вовсе не принуждение.", source: { kind: authored } }
+  - { form: "przymusie", pl: "O przymusie szczepień dyskutowano bardzo długo.", ru: "Об обязательности прививок спорили очень долго.", source: { kind: authored } }
+  - { form: "przymusie", pl: "W przymusie nie ma nic dobrego.", ru: "В принуждении нет ничего хорошего.", source: { kind: authored } }
+  - { form: "przymusie", pl: "Przy takim przymusie trudno o radość.", ru: "При таком принуждении трудно радоваться.", source: { kind: authored } }
+  - { form: "przymusom", pl: "Nie chciał się poddawać żadnym przymusom.", ru: "Он не хотел подчиняться никакому принуждению.", source: { kind: authored } }
+  - { form: "przymusom", pl: "Terapia pomaga przeciwstawić się przymusom.", ru: "Терапия помогает противостоять навязчивостям.", source: { kind: authored } }
+  - { form: "przymusom", pl: "Wbrew przymusom otoczenia wybrał własną drogę.", ru: "Вопреки давлению окружения он выбрал свой путь.", source: { kind: authored } }
+  - { form: "przymusowi", pl: "Syn nie poddał się przymusowi ojca.", ru: "Сын не поддался давлению отца.", source: { kind: authored } }
+  - { form: "przymusowi", pl: "Dzięki przymusowi nauczył się dyscypliny.", ru: "Благодаря принуждению он научился дисциплине.", source: { kind: authored } }
+  - { form: "przymusowi", pl: "Opór przymusowi wymaga odwagi.", ru: "Сопротивление принуждению требует смелости.", source: { kind: authored } }
+  - { form: "przymusów", pl: "Mam dość przymusów i zakazów.", ru: "С меня хватит принуждений и запретов.", source: { kind: authored } }
+  - { form: "przymusów", pl: "Tyle przymusów zniechęca dzieci do nauki.", ru: "Столько принуждения отбивает у детей охоту учиться.", source: { kind: authored } }
+  - { form: "przymusów", pl: "Bez przymusów dzieci uczą się chętniej.", ru: "Без принуждения дети учатся охотнее.", source: { kind: authored } }
+  - { form: "przymusu", pl: "Robię to tylko z przymusu.", ru: "Я делаю это только по принуждению.", source: { kind: translated, id: 11266272 } }
+  - { form: "przymusu", pl: "Bez przymusu nikt by tego nie zrobił.", ru: "Без принуждения никто бы этого не сделал.", source: { kind: authored } }
+  - { form: "przymusu", pl: "Wybór był całkowicie wolny od przymusu.", ru: "Выбор был совершенно свободен от принуждения.", source: { kind: authored } }
+  - { form: "przymusy", pl: "Przymusy wewnętrzne bardzo trudno pokonać.", ru: "Внутренние навязчивости очень трудно преодолеть.", source: { kind: authored } }
+  - { form: "przymusy", pl: "Różne przymusy kierują naszym życiem.", ru: "Разные принуждения управляют нашей жизнью.", source: { kind: authored } }
+  - { form: "przymusy", pl: "Terapeuta pomógł mu nazwać swoje przymusy.", ru: "Терапевт помог ему назвать свои навязчивости.", source: { kind: authored } }
