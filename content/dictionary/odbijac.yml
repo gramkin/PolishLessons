@@ -1,0 +1,825 @@
+# review
+id: odbijac
+format: 2
+lemma: "odbijać"
+rank: 4442
+pos: verb
+aspect: imperf
+aspectPair: odbic
+pron: { cyr: "одбия́ць" }
+senses:
+  - id: reflect
+    ru: "отражать (свет, изображение); odbijać się — отражаться"
+    examples:
+      - pl: "Lustro odbija światło słońca."
+        ru: "Зеркало отражает солнечный свет."
+        source: { kind: authored }
+      - pl: "Woda w jeziorze odbija niebo."
+        ru: "Вода в озере отражает небо."
+        source: { kind: authored }
+      - pl: "W szybie odbija się jej twarz."
+        ru: "В стекле отражается её лицо."
+        source: { kind: authored }
+  - id: bounce
+    ru: "отбивать (мяч, удар); odbijać się — отскакивать"
+    examples:
+      - pl: "Bramkarz odbija piłkę na rzut rożny."
+        ru: "Вратарь отбивает мяч на угловой."
+        source: { kind: authored }
+      - pl: "Piłka odbija się od ściany."
+        ru: "Мяч отскакивает от стены."
+        source: { kind: authored }
+  - id: recapture
+    ru: "отбивать (город, пленных у врага; девушку у соперника)"
+    examples:
+      - pl: "Żołnierze odbijają miasto z rąk wroga."
+        ru: "Солдаты отбивают город у врага."
+        source: { kind: authored }
+      - pl: "On zawsze odbija kolegom dziewczyny."
+        ru: "Он всегда отбивает у друзей девушек."
+        source: { kind: authored }
+  - id: cast-off
+    ru: "отчаливать (от берега)"
+    examples:
+      - pl: "Statek powoli odbija od brzegu."
+        ru: "Корабль медленно отчаливает от берега."
+        source: { kind: authored }
+notes:
+  - { kind: government, text: "Что — винительный: ODBIJAĆ PIŁKĘ, ŚWIATŁO. У кого отбивают — дательный, а не «у» с родительным, как в русском: ODBIJAĆ KOMUŚ DZIEWCZYNĘ «отбивать у кого-то девушку». От чего отражаться или отскакивать — OD с родительным: ODBIJAĆ SIĘ OD ŚCIANY." }
+  - { kind: usage, text: "Несовершенный вид; совершенный — ODBIĆ. Спряжение на -AM: ODBIJAM, ODBIJASZ, ODBIJAJĄ. Формы ODBIJĘ, ODBIJESZ принадлежат совершенному ODBIĆ и значат будущее: «отобью»." }
+  - { kind: false-friend, text: "Русское «отражать» в значении «света» по-польски тоже ODBIJAĆ, а «отражаться» — ODBIJAĆ SIĘ. Разговорное ODBIJA MI SIĘ значит «у меня отрыжка», а ODBIJA MU (чаще ODBIŁO MU) — «у него крыша едет»." }
+  - { kind: pronunciation, text: "Читается «одбия́ць»: D перед звонким B остаётся звонким, IJA — «ия». Ударение на предпоследнем слоге: ODBIJAM — «одби́ям»." }
+collocations:
+  - { pl: "odbijać światło", ru: "отражать свет" }
+  - { pl: "odbijać piłkę", ru: "отбивать мяч" }
+  - { pl: "odbijać od brzegu", ru: "отчаливать от берега" }
+  - { pl: "odbijać się echem", ru: "отдаваться эхом" }
+family:
+  - { pl: "odbić", ru: "отбить, отразить", relation: aspect, id: odbic }
+  - { pl: "bić", ru: "бить", relation: root, id: bic }
+  - { pl: "odbicie", ru: "отражение; отскок", relation: derived }
+  - { pl: "odbitka", ru: "оттиск, отпечаток, копия", relation: derived }
+synonyms: ["odzwierciedlać", "odpierać", "odzyskiwać"]
+antonyms: ["przybijać"]
+etymology: "Приставка OD- плюс BIJAĆ, многократная форма от BIĆ «бить». Устроено так же, как русское «отбивать»."
+memory: "Odbijać — от-бивать: мяч, город, девушку. Свет тоже «отбивается» от зеркала, то есть отражается."
+idioms:
+  - { pl: "odbijać się czkawką", ru: "аукаться, выходить боком (досл. «отрыгиваться икотой»)" }
+  - { pl: "palma komuś odbija", ru: "у кого-то едет крыша, кто-то зазнаётся" }
+formExamples:
+  - form: "odbija"
+    pl: "Lustro odbija twarz zmęczonej kobiety."
+    ru: "Зеркало отражает лицо усталой женщины."
+    source: { kind: authored }
+  - form: "odbija"
+    pl: "Bramkarz odbija piłkę na rzut rożny."
+    ru: "Вратарь отбивает мяч на угловой."
+    source: { kind: authored }
+  - form: "odbija"
+    pl: "Statek powoli odbija od brzegu."
+    ru: "Корабль медленно отчаливает от берега."
+    source: { kind: authored }
+  - form: "odbijacie"
+    pl: "Dobrze odbijacie piłkę, chłopaki!"
+    ru: "Хорошо отбиваете мяч, ребята!"
+    source: { kind: authored }
+  - form: "odbijacie"
+    pl: "Czemu odbijacie od brzegu tak wcześnie?"
+    ru: "Почему вы отчаливаете от берега так рано?"
+    source: { kind: authored }
+  - form: "odbijacie"
+    pl: "Wy zawsze odbijacie mi partnerki na zabawach."
+    ru: "Вы всегда отбиваете у меня партнёрш на танцах."
+    source: { kind: authored }
+  - form: "odbijaj"
+    pl: "Odbijaj piłkę mocniej, prosto do mnie!"
+    ru: "Отбивай мяч сильнее, прямо мне!"
+    source: { kind: authored }
+  - form: "odbijaj"
+    pl: "Jeszcze nie odbijaj od brzegu, czekaj na nas."
+    ru: "Ещё не отчаливай от берега, подожди нас."
+    source: { kind: authored }
+  - form: "odbijaj"
+    pl: "Ewa, nie odbijaj mi męża!"
+    ru: "Ева, не отбивай у меня мужа!"
+    source: { kind: authored }
+  - form: "odbijajcie"
+    pl: "Odbijajcie piłkę nad siatką!"
+    ru: "Отбивайте мяч над сеткой!"
+    source: { kind: authored }
+  - form: "odbijajcie"
+    pl: "Nie odbijajcie jeszcze, ktoś został na brzegu!"
+    ru: "Не отчаливайте ещё, кто-то остался на берегу!"
+    source: { kind: authored }
+  - form: "odbijajcie"
+    pl: "Odbijajcie miasto, zanim nadejdą posiłki!"
+    ru: "Отбивайте город, пока не подошло подкрепление!"
+    source: { kind: authored }
+  - form: "odbijajmy"
+    pl: "Odbijajmy od brzegu, zanim zacznie padać."
+    ru: "Давайте отчаливать, пока не пошёл дождь."
+    source: { kind: authored }
+  - form: "odbijajmy"
+    pl: "Odbijajmy piłkę na zmianę."
+    ru: "Давайте отбивать мяч по очереди."
+    source: { kind: authored }
+  - form: "odbijajmy"
+    pl: "Nie odbijajmy sobie nawzajem partnerów."
+    ru: "Давайте не отбивать друг у друга партнёров."
+    source: { kind: authored }
+  - form: "odbijają"
+    pl: "Okna odbijają zachodzące słońce."
+    ru: "Окна отражают заходящее солнце."
+    source: { kind: authored }
+  - form: "odbijają"
+    pl: "Żołnierze odbijają miasto z rąk wroga."
+    ru: "Солдаты отбивают город у врага."
+    source: { kind: authored }
+  - form: "odbijają"
+    pl: "Dzieci odbijają piłkę o ścianę."
+    ru: "Дети стучат мячом об стену."
+    source: { kind: authored }
+  - form: "odbijając"
+    pl: "Odbijając piłkę, chłopiec liczył na głos."
+    ru: "Отбивая мяч, мальчик считал вслух."
+    source: { kind: authored }
+  - form: "odbijając"
+    pl: "Rybak machał nam, odbijając od brzegu."
+    ru: "Рыбак махал нам, отчаливая от берега."
+    source: { kind: authored }
+  - form: "odbijając"
+    pl: "Jezioro lśniło, odbijając blask księżyca."
+    ru: "Озеро сверкало, отражая лунный свет."
+    source: { kind: authored }
+  - form: "odbijająca"
+    pl: "Ściana odbijająca dźwięk stoi za sceną."
+    ru: "Стена, отражающая звук, стоит за сценой."
+    source: { kind: authored }
+  - form: "odbijająca"
+    pl: "Folia odbijająca ciepło leży za kaloryferem."
+    ru: "Отражающая тепло плёнка лежит за батареей."
+    source: { kind: authored }
+  - form: "odbijająca"
+    pl: "Kamizelka odbijająca światło jest obowiązkowa nocą."
+    ru: "Светоотражающий жилет обязателен ночью."
+    source: { kind: authored }
+  - form: "odbijające"
+    pl: "Szyby odbijające światło oślepiały kierowców."
+    ru: "Стёкла, отражающие свет, слепили водителей."
+    source: { kind: authored }
+  - form: "odbijające"
+    pl: "Na drodze stoją znaki odbijające światło."
+    ru: "На дороге стоят светоотражающие знаки."
+    source: { kind: authored }
+  - form: "odbijające"
+    pl: "Lustra odbijające jego twarz były wszędzie."
+    ru: "Повсюду были зеркала, отражавшие его лицо."
+    source: { kind: authored }
+  - form: "odbijającego"
+    pl: "Nie widzę tu materiału odbijającego światło."
+    ru: "Я не вижу здесь светоотражающего материала."
+    source: { kind: authored }
+  - form: "odbijającego"
+    pl: "Kibice oklaskiwali bramkarza odbijającego karnego."
+    ru: "Болельщики аплодировали вратарю, отбивающему пенальти."
+    source: { kind: authored }
+  - form: "odbijającego"
+    pl: "Sędzia ostrzegł zawodnika odbijającego piłkę ręką."
+    ru: "Судья предупредил игрока, отбивающего мяч рукой."
+    source: { kind: authored }
+  - form: "odbijającej"
+    pl: "Wokół tafli wody odbijającej niebo rosły trzciny."
+    ru: "Вокруг водной глади, отражающей небо, рос камыш."
+    source: { kind: authored }
+  - form: "odbijającej"
+    pl: "Brakuje tu warstwy odbijającej promienie słońca."
+    ru: "Здесь не хватает слоя, отражающего солнечные лучи."
+    source: { kind: authored }
+  - form: "odbijającej"
+    pl: "Przyglądał się łodzi odbijającej od brzegu."
+    ru: "Он смотрел на лодку, отчаливающую от берега."
+    source: { kind: authored }
+  - form: "odbijającemu"
+    pl: "Trener podał rękę bramkarzowi odbijającemu każdy strzał."
+    ru: "Тренер пожал руку вратарю, отбивающему каждый удар."
+    source: { kind: authored }
+  - form: "odbijającemu"
+    pl: "Kibice gwizdali obrońcy odbijającemu piłkę na aut."
+    ru: "Болельщики свистели защитнику, выбивающему мяч в аут."
+    source: { kind: authored }
+  - form: "odbijającemu"
+    pl: "Dziewczyna pomachała promowi odbijającemu od nabrzeża."
+    ru: "Девушка помахала парому, отчаливающему от причала."
+    source: { kind: authored }
+  - form: "odbijający"
+    pl: "Materiał odbijający dźwięk pokrywa ściany studia."
+    ru: "Звукоотражающий материал покрывает стены студии."
+    source: { kind: authored }
+  - form: "odbijający"
+    pl: "Spokojny staw, odbijający księżyc, wyglądał pięknie."
+    ru: "Спокойный пруд, отражавший луну, выглядел красиво."
+    source: { kind: authored }
+  - form: "odbijający"
+    pl: "Każdy gracz odbijający piłkę ręką dostaje karę."
+    ru: "Каждый игрок, отбивающий мяч рукой, получает штраф."
+    source: { kind: authored }
+  - form: "odbijających"
+    pl: "Kierowca nie zauważył pasów odbijających światło."
+    ru: "Водитель не заметил светоотражающих полос."
+    source: { kind: authored }
+  - form: "odbijających"
+    pl: "W sali jest dużo luster odbijających ruchy tancerzy."
+    ru: "В зале много зеркал, отражающих движения танцоров."
+    source: { kind: authored }
+  - form: "odbijających"
+    pl: "Brakuje nam graczy dobrze odbijających piłkę."
+    ru: "Нам не хватает игроков, хорошо отбивающих мяч."
+    source: { kind: authored }
+  - form: "odbijającym"
+    pl: "Ściany pokryto tynkiem odbijającym ciepło."
+    ru: "Стены покрыли штукатуркой, отражающей тепло."
+    source: { kind: authored }
+  - form: "odbijającym"
+    pl: "Fotograf pracuje z ekranem odbijającym światło."
+    ru: "Фотограф работает с экраном-отражателем."
+    source: { kind: authored }
+  - form: "odbijającym"
+    pl: "Dzieciom odbijającym piłkę dał po cukierku."
+    ru: "Детям, отбивавшим мяч, он дал по конфете."
+    source: { kind: authored }
+  - form: "odbijającymi"
+    pl: "Okna z szybami odbijającymi słońce chronią przed upałem."
+    ru: "Окна со стёклами, отражающими солнце, защищают от жары."
+    source: { kind: authored }
+  - form: "odbijającymi"
+    pl: "Stał między lustrami odbijającymi jego sylwetkę."
+    ru: "Он стоял между зеркалами, отражавшими его фигуру."
+    source: { kind: authored }
+  - form: "odbijającymi"
+    pl: "Trener rozmawiał z zawodnikami odbijającymi piłkę."
+    ru: "Тренер разговаривал с игроками, отбивавшими мяч."
+    source: { kind: authored }
+  - form: "odbijającą"
+    pl: "Kupiłam kamizelkę odbijającą światło."
+    ru: "Я купила светоотражающий жилет."
+    source: { kind: authored }
+  - form: "odbijającą"
+    pl: "Za grzejnikiem przykleił folię odbijającą ciepło."
+    ru: "За батареей он наклеил плёнку, отражающую тепло."
+    source: { kind: authored }
+  - form: "odbijającą"
+    pl: "Fotograf trzymał blendę odbijającą światło."
+    ru: "Фотограф держал отражатель, направляющий свет."
+    source: { kind: authored }
+  - form: "odbijali"
+    pl: "Chłopcy odbijali piłkę do zmroku."
+    ru: "Мальчики отбивали мяч до темноты."
+    source: { kind: authored }
+  - form: "odbijali"
+    pl: "Powstańcy odbijali dzielnicę po dzielnicy."
+    ru: "Повстанцы отбивали район за районом."
+    source: { kind: authored }
+  - form: "odbijali"
+    pl: "Rybacy odbijali od brzegu przed świtem."
+    ru: "Рыбаки отчаливали от берега до рассвета."
+    source: { kind: authored }
+  - form: "odbijaliby"
+    pl: "Gdyby nie wiatr, odbijaliby od brzegu już teraz."
+    ru: "Если бы не ветер, они бы отчаливали уже сейчас."
+    source: { kind: authored }
+  - form: "odbijaliby"
+    pl: "Bez trenera odbijaliby piłkę byle jak."
+    ru: "Без тренера они отбивали бы мяч как попало."
+    source: { kind: authored }
+  - form: "odbijaliby"
+    pl: "Z lepszym sprzętem odbijaliby więcej strzałów."
+    ru: "С лучшей экипировкой они отбивали бы больше ударов."
+    source: { kind: authored }
+  - form: "odbijalibyście"
+    pl: "Z większą siłą odbijalibyście piłkę dalej."
+    ru: "С большей силой вы отбивали бы мяч дальше."
+    source: { kind: authored }
+  - form: "odbijalibyście"
+    pl: "Czy odbijalibyście od brzegu w taką burzę?"
+    ru: "Вы бы отчаливали от берега в такую бурю?"
+    source: { kind: authored }
+  - form: "odbijalibyście"
+    pl: "Po treningach odbijalibyście karne jak zawodowcy."
+    ru: "После тренировок вы отбивали бы пенальти как профи."
+    source: { kind: authored }
+  - form: "odbijalibyśmy"
+    pl: "W lepszych butach odbijalibyśmy piłkę pewniej."
+    ru: "В лучших бутсах мы отбивали бы мяч увереннее."
+    source: { kind: authored }
+  - form: "odbijalibyśmy"
+    pl: "Gdyby nie mgła, odbijalibyśmy już od brzegu."
+    ru: "Если бы не туман, мы бы уже отчаливали от берега."
+    source: { kind: authored }
+  - form: "odbijalibyśmy"
+    pl: "Mając więcej ludzi, odbijalibyśmy miasto szybciej."
+    ru: "Имея больше людей, мы отбивали бы город быстрее."
+    source: { kind: authored }
+  - form: "odbijaliście"
+    pl: "Długo odbijaliście piłkę po lekcjach?"
+    ru: "Вы долго отбивали мяч после уроков?"
+    source: { kind: authored }
+  - form: "odbijaliście"
+    pl: "O której odbijaliście od brzegu?"
+    ru: "Во сколько вы отчаливали от берега?"
+    source: { kind: authored }
+  - form: "odbijaliście"
+    pl: "Świetnie odbijaliście każde uderzenie."
+    ru: "Вы отлично отбивали каждый удар."
+    source: { kind: authored }
+  - form: "odbijaliśmy"
+    pl: "Całe lato odbijaliśmy piłkę na plaży."
+    ru: "Всё лето мы отбивали мяч на пляже."
+    source: { kind: authored }
+  - form: "odbijaliśmy"
+    pl: "Wczoraj odbijaliśmy od brzegu o świcie."
+    ru: "Вчера мы отчаливали от берега на рассвете."
+    source: { kind: authored }
+  - form: "odbijaliśmy"
+    pl: "Razem odbijaliśmy ataki przez całą noc."
+    ru: "Вместе мы отбивали атаки всю ночь."
+    source: { kind: authored }
+  - form: "odbijam"
+    pl: "Odbijam piłkę lewą ręką."
+    ru: "Я отбиваю мяч левой рукой."
+    source: { kind: authored }
+  - form: "odbijam"
+    pl: "Codziennie odbijam od brzegu o szóstej."
+    ru: "Каждый день я отчаливаю от берега в шесть."
+    source: { kind: authored }
+  - form: "odbijam"
+    pl: "Zwykle bez trudu odbijam jego żarty."
+    ru: "Обычно я без труда парирую его шутки."
+    source: { kind: authored }
+  - form: "odbijamy"
+    pl: "Odbijamy od brzegu za pięć minut."
+    ru: "Мы отчаливаем через пять минут."
+    source: { kind: authored }
+  - form: "odbijamy"
+    pl: "Na treningu odbijamy piłkę w parach."
+    ru: "На тренировке мы отбиваем мяч в парах."
+    source: { kind: authored }
+  - form: "odbijamy"
+    pl: "Zakładników odbijamy dziś w nocy."
+    ru: "Заложников мы отбиваем сегодня ночью."
+    source: { kind: authored }
+  - form: "odbijana"
+    pl: "Piłka odbijana przez dzieci uderzyła w okno."
+    ru: "Мяч, который отбивали дети, ударил в окно."
+    source: { kind: authored }
+  - form: "odbijana"
+    pl: "Ta forteca była odbijana kilka razy."
+    ru: "Эту крепость отбивали несколько раз."
+    source: { kind: authored }
+  - form: "odbijana"
+    pl: "Kartka odbijana na ksero wyszła blado."
+    ru: "Листок, который копировали на ксероксе, вышел бледным."
+    source: { kind: authored }
+  - form: "odbijane"
+    pl: "Piłki odbijane przez bramkarza lądowały na trybunach."
+    ru: "Мячи, которые отбивал вратарь, улетали на трибуны."
+    source: { kind: authored }
+  - form: "odbijane"
+    pl: "Promienie odbijane przez śnieg oślepiają narciarzy."
+    ru: "Лучи, отражённые снегом, слепят лыжников."
+    source: { kind: authored }
+  - form: "odbijane"
+    pl: "Kopie odbijane na ksero są tańsze."
+    ru: "Копии, сделанные на ксероксе, дешевле."
+    source: { kind: authored }
+  - form: "odbijanego"
+    pl: "Echo głosu odbijanego od skał było głośne."
+    ru: "Эхо голоса, отражённого скалами, было громким."
+    source: { kind: authored }
+  - form: "odbijanego"
+    pl: "Nie lubię światła odbijanego przez ekran."
+    ru: "Я не люблю свет, отражённый экраном."
+    source: { kind: authored }
+  - form: "odbijanego"
+    pl: "Kibice śledzili lot krążka odbijanego przez obrońców."
+    ru: "Болельщики следили за полётом шайбы, которую отбивали защитники."
+    source: { kind: authored }
+  - form: "odbijanej"
+    pl: "Stuk piłki odbijanej o asfalt nie ustawał."
+    ru: "Стук мяча об асфальт не стихал."
+    source: { kind: authored }
+  - form: "odbijanej"
+    pl: "Część energii odbijanej przez lód wraca w kosmos."
+    ru: "Часть энергии, отражённой льдом, уходит обратно в космос."
+    source: { kind: authored }
+  - form: "odbijanej"
+    pl: "Nakład gazety odbijanej w piwnicy był mały."
+    ru: "Тираж газеты, которую печатали в подвале, был маленьким."
+    source: { kind: authored }
+  - form: "odbijanemu"
+    pl: "Przyglądał się światłu odbijanemu przez szkło."
+    ru: "Он разглядывал свет, отражённый стеклом."
+    source: { kind: authored }
+  - form: "odbijanemu"
+    pl: "Obrazowi odbijanemu w lustrze brakuje głębi."
+    ru: "Изображению в зеркале не хватает глубины."
+    source: { kind: authored }
+  - form: "odbijanemu"
+    pl: "Dźwiękowi odbijanemu od ścian towarzyszy pogłos."
+    ru: "Звук, отражённый стенами, сопровождается гулом."
+    source: { kind: authored }
+  - form: "odbijani"
+    pl: "Zakładnicy byli odbijani przez komandosów nocą."
+    ru: "Заложников освобождали спецназовцы ночью."
+    source: { kind: authored }
+  - form: "odbijani"
+    pl: "Jeńcy odbijani z obozu uciekali do lasu."
+    ru: "Пленные, которых отбивали из лагеря, бежали в лес."
+    source: { kind: authored }
+  - form: "odbijani"
+    pl: "Więźniowie odbijani przez partyzantów wracali do domów."
+    ru: "Узники, которых отбивали партизаны, возвращались домой."
+    source: { kind: authored }
+  - form: "odbijania"
+    pl: "Nauka odbijania piłki zajmuje czas."
+    ru: "Чтобы научиться отбивать мяч, нужно время."
+    source: { kind: authored }
+  - form: "odbijania"
+    pl: "Mam dość odbijania jego ataków."
+    ru: "Мне надоело отбивать его нападки."
+    source: { kind: authored }
+  - form: "odbijania"
+    pl: "Technika odbijania serwów jest kluczowa."
+    ru: "Техника приёма подач — ключевая."
+    source: { kind: authored }
+  - form: "odbijanie"
+    pl: "Odbijanie piłki głową bywa niebezpieczne."
+    ru: "Отбивать мяч головой бывает опасно."
+    source: { kind: authored }
+  - form: "odbijanie"
+    pl: "Odbijanie zakładników trwało całą noc."
+    ru: "Освобождение заложников длилось всю ночь."
+    source: { kind: authored }
+  - form: "odbijanie"
+    pl: "Odbijanie komuś dziewczyny to podłość."
+    ru: "Отбивать у кого-то девушку — подлость."
+    source: { kind: authored }
+  - form: "odbijaniem"
+    pl: "Trener zajął się z dziećmi odbijaniem piłki."
+    ru: "Тренер занялся с детьми отбиванием мяча."
+    source: { kind: authored }
+  - form: "odbijaniem"
+    pl: "Ma problem z odbijaniem szybkich serwów."
+    ru: "У него проблемы с приёмом быстрых подач."
+    source: { kind: authored }
+  - form: "odbijaniem"
+    pl: "Walka zakończyła się odbijaniem twierdzy."
+    ru: "Бой закончился тем, что крепость отбили."
+    source: { kind: authored }
+  - form: "odbijaniu"
+    pl: "Przy odbijaniu piłki patrz na nią."
+    ru: "Отбивая мяч, смотри на него."
+    source: { kind: authored }
+  - form: "odbijaniu"
+    pl: "W odbijaniu serwów jest najlepsza w drużynie."
+    ru: "В приёме подач она лучшая в команде."
+    source: { kind: authored }
+  - form: "odbijaniu"
+    pl: "O odbijaniu jeńców nikt nie wiedział."
+    ru: "Об освобождении пленных никто не знал."
+    source: { kind: authored }
+  - form: "odbijano"
+    pl: "W tej drukarni odbijano ulotki."
+    ru: "В этой типографии печатали листовки."
+    source: { kind: authored }
+  - form: "odbijano"
+    pl: "Twierdzę odbijano kilka razy."
+    ru: "Крепость отбивали несколько раз."
+    source: { kind: authored }
+  - form: "odbijano"
+    pl: "Na plaży odbijano piłkę do zmroku."
+    ru: "На пляже отбивали мяч до темноты."
+    source: { kind: authored }
+  - form: "odbijany"
+    pl: "Krążek odbijany przez obrońców wypadł za bandę."
+    ru: "Шайба, которую отбивали защитники, вылетела за борт."
+    source: { kind: authored }
+  - form: "odbijany"
+    pl: "Gród odbijany przez rycerzy płonął."
+    ru: "Город, который отбивали рыцари, горел."
+    source: { kind: authored }
+  - form: "odbijany"
+    pl: "Dźwięk odbijany od ścian tworzy echo."
+    ru: "Звук, отражённый от стен, создаёт эхо."
+    source: { kind: authored }
+  - form: "odbijanych"
+    pl: "Liczba piłek odbijanych przez bramkarza rośnie."
+    ru: "Число мячей, отбитых вратарём, растёт."
+    source: { kind: authored }
+  - form: "odbijanych"
+    pl: "Słyszymy echo dźwięków odbijanych od gór."
+    ru: "Мы слышим эхо звуков, отражённых горами."
+    source: { kind: authored }
+  - form: "odbijanych"
+    pl: "Nie znamy losu jeńców odbijanych z niewoli."
+    ru: "Мы не знаем судьбы пленных, которых вызволяли из плена."
+    source: { kind: authored }
+  - form: "odbijanym"
+    pl: "Pokój jest oświetlony światłem odbijanym od sufitu."
+    ru: "Комната освещена светом, отражённым от потолка."
+    source: { kind: authored }
+  - form: "odbijanym"
+    pl: "Z każdym strzałem odbijanym przez bramkarza rosła wiara."
+    ru: "С каждым ударом, отбитым вратарём, росла вера."
+    source: { kind: authored }
+  - form: "odbijanym"
+    pl: "Zakładnikom odbijanym z rąk porywaczy pomagali lekarze."
+    ru: "Заложникам, которых вызволяли из рук похитителей, помогали врачи."
+    source: { kind: authored }
+  - form: "odbijanymi"
+    pl: "Bawiliśmy się piłkami odbijanymi od ściany."
+    ru: "Мы играли мячами, которые отбивали от стены."
+    source: { kind: authored }
+  - form: "odbijanymi"
+    pl: "Tablica była obklejona ulotkami odbijanymi na ksero."
+    ru: "Доска была обклеена листовками, отпечатанными на ксероксе."
+    source: { kind: authored }
+  - form: "odbijanymi"
+    pl: "Partyzanci opiekowali się jeńcami odbijanymi z transportów."
+    ru: "Партизаны заботились о пленных, которых отбивали из эшелонов."
+    source: { kind: authored }
+  - form: "odbijaną"
+    pl: "Patrzyłem na piłkę odbijaną o ścianę."
+    ru: "Я смотрел на мяч, которым стучали об стену."
+    source: { kind: authored }
+  - form: "odbijaną"
+    pl: "Dzieci czytały gazetkę odbijaną na powielaczu."
+    ru: "Дети читали газету, которую печатали на ротаторе."
+    source: { kind: authored }
+  - form: "odbijaną"
+    pl: "Fotograf uchwycił twarz odbijaną w kałuży."
+    ru: "Фотограф запечатлел лицо, отражённое в луже."
+    source: { kind: authored }
+  - form: "odbijasz"
+    pl: "Dobrze odbijasz piłkę lewą ręką."
+    ru: "Ты хорошо отбиваешь мяч левой рукой."
+    source: { kind: authored }
+  - form: "odbijasz"
+    pl: "Czemu odbijasz mi dziewczynę?"
+    ru: "Почему ты отбиваешь у меня девушку?"
+    source: { kind: authored }
+  - form: "odbijasz"
+    pl: "O której odbijasz od brzegu?"
+    ru: "Во сколько ты отчаливаешь от берега?"
+    source: { kind: authored }
+  - form: "odbijać"
+    pl: "Odbijać piłkę głową trzeba umieć."
+    ru: "Отбивать мяч головой надо уметь."
+    source: { kind: authored }
+  - form: "odbijać"
+    pl: "Nie wolno odbijać koledze dziewczyny."
+    ru: "Нельзя отбивать у друга девушку."
+    source: { kind: authored }
+  - form: "odbijać"
+    pl: "Gładka woda zaczęła odbijać góry."
+    ru: "Гладкая вода начала отражать горы."
+    source: { kind: authored }
+  - form: "odbijał"
+    pl: "Księżyc odbijał się w jeziorze."
+    ru: "Луна отражалась в озере."
+    source: { kind: authored }
+  - form: "odbijał"
+    pl: "Bramkarz odbijał wszystkie strzały."
+    ru: "Вратарь отбивал все удары."
+    source: { kind: authored }
+  - form: "odbijał"
+    pl: "Kiedyś odbijał koledze każdą dziewczynę."
+    ru: "Когда-то он отбивал у друга каждую девушку."
+    source: { kind: authored }
+  - form: "odbijała"
+    pl: "Tafla jeziora odbijała chmury."
+    ru: "Гладь озера отражала облака."
+    source: { kind: authored }
+  - form: "odbijała"
+    pl: "Siostra odbijała piłkę o ścianę garażu."
+    ru: "Сестра стучала мячом о стену гаража."
+    source: { kind: authored }
+  - form: "odbijała"
+    pl: "Jego twarz odbijała się w szybie."
+    ru: "Его лицо отражалось в стекле."
+    source: { kind: authored }
+  - form: "odbijałaby"
+    pl: "Biała ściana odbijałaby więcej światła."
+    ru: "Белая стена отражала бы больше света."
+    source: { kind: authored }
+  - form: "odbijałaby"
+    pl: "Ta zawodniczka odbijałaby lepiej po treningu."
+    ru: "Эта спортсменка отбивала бы лучше после тренировки."
+    source: { kind: authored }
+  - form: "odbijałaby"
+    pl: "Bez paliwa łódź nie odbijałaby od brzegu."
+    ru: "Без топлива лодка не отчаливала бы от берега."
+    source: { kind: authored }
+  - form: "odbijałabym"
+    pl: "Z lepszą rakietą odbijałabym piłkę mocniej."
+    ru: "С лучшей ракеткой я отбивала бы мяч сильнее."
+    source: { kind: authored }
+  - form: "odbijałabym"
+    pl: "Nigdy nie odbijałabym przyjaciółce chłopaka."
+    ru: "Я бы никогда не отбивала парня у подруги."
+    source: { kind: authored }
+  - form: "odbijałabym"
+    pl: "Na twoim miejscu odbijałabym od brzegu teraz."
+    ru: "На твоём месте я бы отчаливала от берега сейчас."
+    source: { kind: authored }
+  - form: "odbijałabyś"
+    pl: "Czy odbijałabyś piłkę lepiej w okularach?"
+    ru: "Ты отбивала бы мяч лучше в очках?"
+    source: { kind: authored }
+  - form: "odbijałabyś"
+    pl: "Ćwicząc codziennie, odbijałabyś każdy serw."
+    ru: "Тренируясь каждый день, ты отбивала бы каждую подачу."
+    source: { kind: authored }
+  - form: "odbijałabyś"
+    pl: "Naprawdę odbijałabyś koleżance narzeczonego?"
+    ru: "Ты правда отбивала бы жениха у подруги?"
+    source: { kind: authored }
+  - form: "odbijałam"
+    pl: "Jako dziecko odbijałam piłkę o ścianę bloku."
+    ru: "В детстве я стучала мячом о стену дома."
+    source: { kind: authored }
+  - form: "odbijałam"
+    pl: "Całe popołudnie odbijałam piłeczkę z bratem."
+    ru: "Весь день я отбивала мячик с братом."
+    source: { kind: authored }
+  - form: "odbijałam"
+    pl: "Długo odbijałam ich ataki w dyskusji."
+    ru: "Я долго отбивала их нападки в споре."
+    source: { kind: authored }
+  - form: "odbijałaś"
+    pl: "Jak długo odbijałaś piłkę na treningu?"
+    ru: "Как долго ты отбивала мяч на тренировке?"
+    source: { kind: authored }
+  - form: "odbijałaś"
+    pl: "Świetnie odbijałaś serwy w drugim secie."
+    ru: "Ты отлично отбивала подачи во втором сете."
+    source: { kind: authored }
+  - form: "odbijałaś"
+    pl: "Czemu odbijałaś mi wszystkich chłopaków?"
+    ru: "Почему ты отбивала у меня всех парней?"
+    source: { kind: authored }
+  - form: "odbijałby"
+    pl: "Gładki metal odbijałby obraz jak lustro."
+    ru: "Гладкий металл отражал бы изображение, как зеркало."
+    source: { kind: authored }
+  - form: "odbijałby"
+    pl: "Ten bramkarz odbijałby nawet karne."
+    ru: "Этот вратарь отбивал бы даже пенальти."
+    source: { kind: authored }
+  - form: "odbijałby"
+    pl: "Prom odbijałby od brzegu co godzinę."
+    ru: "Паром отчаливал бы от берега каждый час."
+    source: { kind: authored }
+  - form: "odbijałbym"
+    pl: "Z lepszym refleksem odbijałbym więcej piłek."
+    ru: "С лучшей реакцией я отбивал бы больше мячей."
+    source: { kind: authored }
+  - form: "odbijałbym"
+    pl: "W taką mgłę nie odbijałbym od brzegu."
+    ru: "В такой туман я бы не отчаливал от берега."
+    source: { kind: authored }
+  - form: "odbijałbym"
+    pl: "Nigdy nie odbijałbym nikomu dziewczyny."
+    ru: "Я никогда не отбивал бы ни у кого девушку."
+    source: { kind: authored }
+  - form: "odbijałbyś"
+    pl: "Ćwicząc więcej, odbijałbyś piłkę pewniej."
+    ru: "Тренируясь больше, ты отбивал бы мяч увереннее."
+    source: { kind: authored }
+  - form: "odbijałbyś"
+    pl: "Czy odbijałbyś od brzegu w taki wiatr?"
+    ru: "Ты бы отчаливал от берега в такой ветер?"
+    source: { kind: authored }
+  - form: "odbijałbyś"
+    pl: "Po tym kursie odbijałbyś każdy serw."
+    ru: "После этого курса ты отбивал бы каждую подачу."
+    source: { kind: authored }
+  - form: "odbijałem"
+    pl: "W szkole odbijałem piłkę najlepiej w klasie."
+    ru: "В школе я отбивал мяч лучше всех в классе."
+    source: { kind: authored }
+  - form: "odbijałem"
+    pl: "Długo odbijałem jego argumenty."
+    ru: "Я долго отбивал его доводы."
+    source: { kind: authored }
+  - form: "odbijałem"
+    pl: "Rano odbijałem od przystani sam."
+    ru: "Утром я отчаливал от пристани один."
+    source: { kind: authored }
+  - form: "odbijałeś"
+    pl: "Dobrze odbijałeś piłkę w tym meczu."
+    ru: "Ты хорошо отбивал мяч в этом матче."
+    source: { kind: authored }
+  - form: "odbijałeś"
+    pl: "Kiedy odbijałeś od brzegu, padało?"
+    ru: "Когда ты отчаливал от берега, шёл дождь?"
+    source: { kind: authored }
+  - form: "odbijałeś"
+    pl: "Ile strzałów odbijałeś w każdej połowie?"
+    ru: "Сколько ударов ты отбивал в каждом тайме?"
+    source: { kind: authored }
+  - form: "odbijało"
+    pl: "Lustro odbijało całe wnętrze pokoju."
+    ru: "Зеркало отражало всю комнату."
+    source: { kind: authored }
+  - form: "odbijało"
+    pl: "Jezioro odbijało światła miasta."
+    ru: "Озеро отражало огни города."
+    source: { kind: authored }
+  - form: "odbijało"
+    pl: "Słońce odbijało się w kałużach."
+    ru: "Солнце отражалось в лужах."
+    source: { kind: authored }
+  - form: "odbijałoby"
+    pl: "Lustro na tej ścianie odbijałoby okno."
+    ru: "Зеркало на этой стене отражало бы окно."
+    source: { kind: authored }
+  - form: "odbijałoby"
+    pl: "Jasne wnętrze odbijałoby więcej światła."
+    ru: "Светлый интерьер отражал бы больше света."
+    source: { kind: authored }
+  - form: "odbijałoby"
+    pl: "Wojsko odbijałoby miasto tygodniami."
+    ru: "Армия отбивала бы город неделями."
+    source: { kind: authored }
+  - form: "odbijały"
+    pl: "Ściany odbijały echo naszych kroków."
+    ru: "Стены отражали эхо наших шагов."
+    source: { kind: authored }
+  - form: "odbijały"
+    pl: "Szyby odbijały czerwone niebo."
+    ru: "Стёкла отражали красное небо."
+    source: { kind: authored }
+  - form: "odbijały"
+    pl: "Dziewczyny odbijały piłkę na boisku."
+    ru: "Девочки отбивали мяч на площадке."
+    source: { kind: authored }
+  - form: "odbijałyby"
+    pl: "Nowe szyby odbijałyby mniej słońca."
+    ru: "Новые стёкла отражали бы меньше солнца."
+    source: { kind: authored }
+  - form: "odbijałyby"
+    pl: "Z trenerem dziewczynki odbijałyby piłkę lepiej."
+    ru: "С тренером девочки отбивали бы мяч лучше."
+    source: { kind: authored }
+  - form: "odbijałyby"
+    pl: "Białe dachy odbijałyby upał."
+    ru: "Белые крыши отражали бы жару."
+    source: { kind: authored }
+  - form: "odbijałybyście"
+    pl: "Z lepszymi rakietami odbijałybyście szybciej."
+    ru: "С лучшими ракетками вы отбивали бы быстрее."
+    source: { kind: authored }
+  - form: "odbijałybyście"
+    pl: "Czy odbijałybyście od brzegu bez kapitana?"
+    ru: "Вы бы отчаливали от берега без капитана?"
+    source: { kind: authored }
+  - form: "odbijałybyście"
+    pl: "Po roku treningów odbijałybyście każdą piłkę."
+    ru: "После года тренировок вы отбивали бы любой мяч."
+    source: { kind: authored }
+  - form: "odbijałybyśmy"
+    pl: "Mając siatkę, odbijałybyśmy piłkę w ogrodzie."
+    ru: "Будь у нас сетка, мы отбивали бы мяч в саду."
+    source: { kind: authored }
+  - form: "odbijałybyśmy"
+    pl: "Bez wiatru odbijałybyśmy od brzegu wcześniej."
+    ru: "Без ветра мы отчаливали бы от берега раньше."
+    source: { kind: authored }
+  - form: "odbijałybyśmy"
+    pl: "Razem odbijałybyśmy każdą zagrywkę."
+    ru: "Вместе мы отбивали бы любую подачу."
+    source: { kind: authored }
+  - form: "odbijałyście"
+    pl: "Ładnie odbijałyście piłkę na wuefie."
+    ru: "Вы красиво отбивали мяч на физкультуре."
+    source: { kind: authored }
+  - form: "odbijałyście"
+    pl: "Kiedy odbijałyście od brzegu, zrobiło się ciemno."
+    ru: "Когда вы отчаливали от берега, стемнело."
+    source: { kind: authored }
+  - form: "odbijałyście"
+    pl: "W liceum odbijałyście sobie chłopaków?"
+    ru: "В старших классах вы отбивали друг у друга парней?"
+    source: { kind: authored }
+  - form: "odbijałyśmy"
+    pl: "Na plaży odbijałyśmy piłkę godzinami."
+    ru: "На пляже мы отбивали мяч часами."
+    source: { kind: authored }
+  - form: "odbijałyśmy"
+    pl: "O świcie odbijałyśmy od przystani."
+    ru: "На рассвете мы отчаливали от пристани."
+    source: { kind: authored }
+  - form: "odbijałyśmy"
+    pl: "Przez cały mecz odbijałyśmy ataki rywalek."
+    ru: "Весь матч мы отбивали атаки соперниц."
+    source: { kind: authored }
