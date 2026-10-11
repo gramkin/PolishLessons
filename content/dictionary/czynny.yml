@@ -1,0 +1,453 @@
+# review
+id: czynny
+format: 2
+lemma: "czynny"
+rank: 6005
+pos: adj
+pron: { cyr: "чы́нны" }
+senses:
+  - id: open
+    ru: "открытый, работающий (о магазине, учреждении, линии)"
+    examples:
+      - pl: "Sklep zoologiczny jest czynny tylko w czwartki."
+        ru: "Зоомагазин открыт только по четвергам."
+        source: { kind: tatoeba, id: 1350558 }
+      - pl: "To muzeum nie jest czynne w poniedziałki."
+        ru: "Этот музей по понедельникам не работает."
+        source: { kind: tatoeba, id: 8665146 }
+  - id: active
+    ru: "активный, действующий, деятельный"
+    examples:
+      - pl: "Etna to czynny wulkan."
+        ru: "Этна — действующий вулкан."
+        source: { kind: authored }
+      - pl: "Dziadek wciąż jest czynny zawodowo."
+        ru: "Дедушка всё ещё работает."
+        source: { kind: authored }
+      - pl: "Wziął czynny udział w kampanii wyborczej."
+        ru: "Он принял активное участие в избирательной кампании."
+        source: { kind: authored }
+  - id: grammar-active
+    ru: "действительный (залог)"
+    note: "грамматический термин"
+    examples:
+      - pl: "W stronie czynnej podmiot wykonuje czynność."
+        ru: "В действительном залоге подлежащее совершает действие."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "CZYNNY похож на русское «чинный», но ничего общего с ним не имеет: «чинный» по-польски STATECZNY или DOSTOJNY. CZYNNY происходит от CZYN «поступок, действие» и значит «действующий, работающий». На дверях магазина CZYNNE OD 9 DO 17 значит «открыто с 9 до 17», а CZYNNY WULKAN — «действующий вулкан»." }
+  - { kind: usage, text: "Где русский говорит «открыт» или «работает» об учреждении, поляк часто выбирает CZYNNY: APTEKA CZYNNA CAŁĄ DOBĘ «аптека работает круглосуточно». Это немного официальнее, чем OTWARTY. О людях CZYNNY значит «активный, деятельный»: CZYNNY ZAWODOWO «работающий, не на пенсии», BRAĆ CZYNNY UDZIAŁ «принимать активное участие». В грамматике STRONA CZYNNA — действительный залог, а его пара — STRONA BIERNA." }
+  - { kind: usage, text: "Степени образуются регулярно: CZYNNIEJSZY, NAJCZYNNIEJSZY, но в живой речи сравнительную степень чаще заменяют на AKTYWNIEJSZY или BARDZIEJ AKTYWNY. Формы с CZYNNIEJ- звучат книжно и встречаются в основном в значении «активный» о людях и организациях." }
+  - { kind: pronunciation, text: "Двойное NN произносится долго: «чы́нны», с ясно слышным удвоением, как в русском «ванна». CZ — твёрдое «ч», после него Y как «ы». Ударение на первом слоге." }
+collocations:
+  - { pl: "czynny udział", ru: "активное участие" }
+  - { pl: "czynny wulkan", ru: "действующий вулкан" }
+  - { pl: "czynny zawodowo", ru: "работающий (не на пенсии)" }
+  - { pl: "strona czynna", ru: "действительный залог" }
+family:
+  - { pl: "czyn", ru: "поступок, действие", relation: root, id: czyn }
+  - { pl: "czynić", ru: "делать, совершать", relation: root, id: czynic }
+  - { pl: "czynność", ru: "действие, операция", relation: derived }
+  - { pl: "bierny", ru: "пассивный, страдательный", relation: antonym }
+synonyms: ["aktywny", "otwarty", "działający"]
+etymology: "От CZYN «поступок, действие» и CZYNIĆ «делать». Тот же корень в русских «чинить» и «учинить», которые изначально значили «делать, устраивать»."
+memory: "CZYN — дело, CZYNNY — тот, что в деле: работающий магазин, действующий вулкан, активный человек. Не «чинный»!"
+idioms:
+  - { pl: "brać czynny udział", ru: "принимать активное участие" }
+formExamples:
+  - form: "czynna"
+    pl: "Wystawa będzie czynna przez pół roku."
+    ru: "Выставка будет открыта полгода."
+    source: { kind: translated, id: 958981 }
+  - form: "czynna"
+    pl: "Apteka przy dworcu jest czynna całą dobę."
+    ru: "Аптека у вокзала работает круглосуточно."
+    source: { kind: authored }
+  - form: "czynna"
+    pl: "Linia telefoniczna jest czynna od rana."
+    ru: "Телефонная линия работает с утра."
+    source: { kind: authored }
+  - form: "czynną"
+    pl: "Babcia nadal prowadzi czynną działalność społeczną."
+    ru: "Бабушка по-прежнему ведёт активную общественную работу."
+    source: { kind: authored }
+  - form: "czynną"
+    pl: "Uczniowie poznali dziś stronę czynną i bierną."
+    ru: "Ученики сегодня познакомились с действительным и страдательным залогом."
+    source: { kind: authored }
+  - form: "czynną"
+    pl: "Generał wolał czynną obronę od czekania."
+    ru: "Генерал предпочитал активную оборону ожиданию."
+    source: { kind: authored }
+  - form: "czynne"
+    pl: "To muzeum nie jest czynne w poniedziałki."
+    ru: "Этот музей по понедельникам не работает."
+    source: { kind: tatoeba, id: 8665146 }
+  - form: "czynne"
+    pl: "Kino jest czynne do północy."
+    ru: "Кинотеатр работает до полуночи."
+    source: { kind: authored }
+  - form: "czynne"
+    pl: "Wszystkie kasy są już czynne."
+    ru: "Все кассы уже открыты."
+    source: { kind: authored }
+  - form: "czynnego"
+    pl: "Na wyspie nie ma czynnego wulkanu."
+    ru: "На острове нет действующего вулкана."
+    source: { kind: authored }
+  - form: "czynnego"
+    pl: "Szukam czynnego bankomatu w okolicy."
+    ru: "Я ищу работающий банкомат поблизости."
+    source: { kind: authored }
+  - form: "czynnego"
+    pl: "Po północy nie znalazłem czynnego sklepu."
+    ru: "После полуночи я не нашёл открытого магазина."
+    source: { kind: authored }
+  - form: "czynnej"
+    pl: "Został zwolniony ze służby czynnej."
+    ru: "Его уволили с действительной службы."
+    source: { kind: authored }
+  - form: "czynnej"
+    pl: "W stronie czynnej podmiot wykonuje czynność."
+    ru: "В действительном залоге подлежащее совершает действие."
+    source: { kind: authored }
+  - form: "czynnej"
+    pl: "Do czynnej apteki trzeba jechać na drugi koniec miasta."
+    ru: "До работающей аптеки надо ехать на другой конец города."
+    source: { kind: authored }
+  - form: "czynnemu"
+    pl: "Dzięki czynnemu wypoczynkowi szybko wrócił do formy."
+    ru: "Благодаря активному отдыху он быстро вернулся в форму."
+    source: { kind: authored }
+  - form: "czynnemu"
+    pl: "Czynnemu żołnierzowi nie wolno należeć do partii."
+    ru: "Военнослужащему действительной службы нельзя состоять в партии."
+    source: { kind: authored }
+  - form: "czynnemu"
+    pl: "Prawo głosu przysługuje każdemu czynnemu członkowi klubu."
+    ru: "Право голоса имеет каждый действительный член клуба."
+    source: { kind: authored }
+  - form: "czynni"
+    pl: "Moi rodzice są nadal czynni zawodowo."
+    ru: "Мои родители по-прежнему работают."
+    source: { kind: authored }
+  - form: "czynni"
+    pl: "Czynni członkowie płacą składki co miesiąc."
+    ru: "Действительные члены платят взносы каждый месяц."
+    source: { kind: authored }
+  - form: "czynni"
+    pl: "Starsi ludzie, którzy są czynni, żyją dłużej."
+    ru: "Пожилые люди, которые ведут активную жизнь, живут дольше."
+    source: { kind: authored }
+  - form: "czynny"
+    pl: "Sklep zoologiczny jest czynny tylko w czwartki."
+    ru: "Зоомагазин открыт только по четвергам."
+    source: { kind: tatoeba, id: 1350558 }
+  - form: "czynny"
+    pl: "Wziął czynny udział w kampanii wyborczej."
+    ru: "Он принял активное участие в избирательной кампании."
+    source: { kind: authored }
+  - form: "czynny"
+    pl: "Ten numer telefonu nie jest już czynny."
+    ru: "Этот номер телефона больше не обслуживается."
+    source: { kind: authored }
+  - form: "czynnych"
+    pl: "Na Islandii jest kilka czynnych wulkanów."
+    ru: "В Исландии несколько действующих вулканов."
+    source: { kind: authored }
+  - form: "czynnych"
+    pl: "W regionie zostało niewiele czynnych kopalń."
+    ru: "В регионе осталось немного действующих шахт."
+    source: { kind: authored }
+  - form: "czynnych"
+    pl: "Liczba czynnych członków partii spada."
+    ru: "Число активных членов партии падает."
+    source: { kind: authored }
+  - form: "czynnym"
+    pl: "Jest czynnym członkiem kilku stowarzyszeń."
+    ru: "Он активный член нескольких обществ."
+    source: { kind: authored }
+  - form: "czynnym"
+    pl: "Mówi się dużo o czynnym udziale obywateli w polityce."
+    ru: "Много говорят об активном участии граждан в политике."
+    source: { kind: authored }
+  - form: "czynnym"
+    pl: "Po wojnie nie był już czynnym żołnierzem."
+    ru: "После войны он уже не служил в армии."
+    source: { kind: authored }
+  - form: "czynnymi"
+    pl: "Chcemy, żeby seniorzy byli czynnymi członkami społeczności."
+    ru: "Мы хотим, чтобы пожилые люди были активными членами общества."
+    source: { kind: authored }
+  - form: "czynnymi"
+    pl: "Między czynnymi a emerytowanymi pracownikami są różnice."
+    ru: "Между работающими сотрудниками и пенсионерами есть различия."
+    source: { kind: authored }
+  - form: "czynnymi"
+    pl: "Z czynnymi wulkanami nie ma żartów."
+    ru: "С действующими вулканами шутки плохи."
+    source: { kind: authored }
+  - form: "czynniejsi"
+    pl: "Młodzi są dziś czynniejsi w sieci niż w polityce."
+    ru: "Молодёжь сегодня активнее в сети, чем в политике."
+    source: { kind: authored }
+  - form: "czynniejsi"
+    pl: "Na emeryturze moi rodzice są czynniejsi niż w pracy."
+    ru: "На пенсии мои родители активнее, чем были на работе."
+    source: { kind: authored }
+  - form: "czynniejsi"
+    pl: "Czynniejsi członkowie klubu dostają zniżki."
+    ru: "Более активные члены клуба получают скидки."
+    source: { kind: authored }
+  - form: "czynniejsza"
+    pl: "Babcia jest czynniejsza od wnuków."
+    ru: "Бабушка активнее внуков."
+    source: { kind: authored }
+  - form: "czynniejsza"
+    pl: "Ta organizacja jest czynniejsza niż dawniej."
+    ru: "Эта организация активнее, чем прежде."
+    source: { kind: authored }
+  - form: "czynniejsza"
+    pl: "Młodzież stała się czynniejsza w sprawach klimatu."
+    ru: "Молодёжь стала активнее в вопросах климата."
+    source: { kind: authored }
+  - form: "czynniejszą"
+    pl: "Rząd zapowiada czynniejszą politykę wobec bezrobocia."
+    ru: "Правительство обещает более активную политику в отношении безработицы."
+    source: { kind: authored }
+  - form: "czynniejszą"
+    pl: "Szef chce, żebym odegrała czynniejszą rolę."
+    ru: "Начальник хочет, чтобы я играла более активную роль."
+    source: { kind: authored }
+  - form: "czynniejszą"
+    pl: "Proponuję czynniejszą formę wypoczynku."
+    ru: "Предлагаю более активный вид отдыха."
+    source: { kind: authored }
+  - form: "czynniejsze"
+    pl: "Wieczorem kocięta są czynniejsze niż rano."
+    ru: "Вечером котята активнее, чем утром."
+    source: { kind: authored }
+  - form: "czynniejsze"
+    pl: "Czynniejsze stowarzyszenia dostają więcej dotacji."
+    ru: "Более активные общества получают больше дотаций."
+    source: { kind: authored }
+  - form: "czynniejsze"
+    pl: "Życie na wsi jest czynniejsze, niż sądzisz."
+    ru: "Жизнь в деревне активнее, чем ты думаешь."
+    source: { kind: authored }
+  - form: "czynniejszego"
+    pl: "Trudno o czynniejszego społecznika niż on."
+    ru: "Трудно найти общественника активнее его."
+    source: { kind: authored }
+  - form: "czynniejszego"
+    pl: "Szkoła oczekuje czynniejszego udziału rodziców."
+    ru: "Школа ждёт от родителей более активного участия."
+    source: { kind: authored }
+  - form: "czynniejszego"
+    pl: "Lekarz domaga się ode mnie czynniejszego trybu życia."
+    ru: "Врач требует от меня более активного образа жизни."
+    source: { kind: authored }
+  - form: "czynniejszej"
+    pl: "Potrzeba czynniejszej postawy ze strony władz."
+    ru: "Нужна более активная позиция со стороны властей."
+    source: { kind: authored }
+  - form: "czynniejszej"
+    pl: "Nie spotkałam czynniejszej osoby od babci."
+    ru: "Я не встречала человека активнее бабушки."
+    source: { kind: authored }
+  - form: "czynniejszej"
+    pl: "W czynniejszej grupie czas mija szybciej."
+    ru: "В более активной группе время идёт быстрее."
+    source: { kind: authored }
+  - form: "czynniejszemu"
+    pl: "Czynniejszemu członkowi zarządu powierzono nowy projekt."
+    ru: "Более активному члену правления поручили новый проект."
+    source: { kind: authored }
+  - form: "czynniejszemu"
+    pl: "Nagrodę dano czynniejszemu z dwóch wolontariuszy."
+    ru: "Награду дали более активному из двух волонтёров."
+    source: { kind: authored }
+  - form: "czynniejszemu"
+    pl: "Dzięki czynniejszemu podejściu firma odzyskała klientów."
+    ru: "Благодаря более активному подходу фирма вернула клиентов."
+    source: { kind: authored }
+  - form: "czynniejszy"
+    pl: "Po urlopie jestem czynniejszy i weselszy."
+    ru: "После отпуска я активнее и веселее."
+    source: { kind: authored }
+  - form: "czynniejszy"
+    pl: "Mój brat jest czynniejszy niż ja."
+    ru: "Мой брат активнее меня."
+    source: { kind: authored }
+  - form: "czynniejszy"
+    pl: "Czynniejszy udział rodziców pomaga szkole."
+    ru: "Более активное участие родителей помогает школе."
+    source: { kind: authored }
+  - form: "czynniejszych"
+    pl: "Klub potrzebuje czynniejszych członków."
+    ru: "Клубу нужны более активные члены."
+    source: { kind: authored }
+  - form: "czynniejszych"
+    pl: "Wśród czynniejszych wolontariuszy było wielu studentów."
+    ru: "Среди более активных волонтёров было много студентов."
+    source: { kind: authored }
+  - form: "czynniejszych"
+    pl: "Od czynniejszych sąsiadów dowiadujemy się wszystkiego."
+    ru: "От более активных соседей мы узнаём обо всём."
+    source: { kind: authored }
+  - form: "czynniejszym"
+    pl: "Z wiekiem stał się czynniejszym społecznikiem."
+    ru: "С возрастом он стал более активным общественником."
+    source: { kind: authored }
+  - form: "czynniejszym"
+    pl: "Rodzicom zależy na czynniejszym udziale w decyzjach szkoły."
+    ru: "Родителям важно активнее участвовать в решениях школы."
+    source: { kind: authored }
+  - form: "czynniejszym"
+    pl: "W czynniejszym zespole praca idzie szybciej."
+    ru: "В более активной команде работа идёт быстрее."
+    source: { kind: authored }
+  - form: "czynniejszymi"
+    pl: "Chcemy, żeby uczniowie stali się czynniejszymi czytelnikami."
+    ru: "Мы хотим, чтобы ученики стали более активными читателями."
+    source: { kind: authored }
+  - form: "czynniejszymi"
+    pl: "Z czynniejszymi wolontariuszami organizujemy festyn."
+    ru: "С более активными волонтёрами мы устраиваем праздник."
+    source: { kind: authored }
+  - form: "czynniejszymi"
+    pl: "Między czynniejszymi a biernymi członkami jest napięcie."
+    ru: "Между более активными и пассивными членами есть напряжение."
+    source: { kind: authored }
+  - form: "najczynniejsi"
+    pl: "Najczynniejsi wolontariusze dostali dyplomy."
+    ru: "Самые активные волонтёры получили грамоты."
+    source: { kind: authored }
+  - form: "najczynniejsi"
+    pl: "Seniorzy są w naszym klubie najczynniejsi."
+    ru: "Пожилые в нашем клубе самые активные."
+    source: { kind: authored }
+  - form: "najczynniejsi"
+    pl: "To najczynniejsi radni w całej gminie."
+    ru: "Это самые активные депутаты во всей гмине."
+    source: { kind: authored }
+  - form: "najczynniejsza"
+    pl: "Najczynniejsza grupa zbierała śmieci w lesie."
+    ru: "Самая активная группа собирала мусор в лесу."
+    source: { kind: authored }
+  - form: "najczynniejsza"
+    pl: "Ta organizacja jest najczynniejsza w regionie."
+    ru: "Эта организация самая активная в регионе."
+    source: { kind: authored }
+  - form: "najczynniejsza"
+    pl: "Moja ciocia jest najczynniejsza w rodzinie."
+    ru: "Моя тётя самая активная в семье."
+    source: { kind: authored }
+  - form: "najczynniejszą"
+    pl: "Nagrodzono najczynniejszą klasę w szkole."
+    ru: "Наградили самый активный класс в школе."
+    source: { kind: authored }
+  - form: "najczynniejszą"
+    pl: "Uważam ją za najczynniejszą osobę w biurze."
+    ru: "Я считаю её самым активным человеком в офисе."
+    source: { kind: authored }
+  - form: "najczynniejszą"
+    pl: "Wybraliśmy najczynniejszą członkinię na przewodniczącą."
+    ru: "Мы выбрали председательницей самую активную участницу."
+    source: { kind: authored }
+  - form: "najczynniejsze"
+    pl: "Najczynniejsze stowarzyszenia dostają dotacje."
+    ru: "Самые активные общества получают дотации."
+    source: { kind: authored }
+  - form: "najczynniejsze"
+    pl: "Wieczorem koty są najczynniejsze."
+    ru: "Вечером кошки активнее всего."
+    source: { kind: authored }
+  - form: "najczynniejsze"
+    pl: "Te wulkany są najczynniejsze w Europie."
+    ru: "Эти вулканы самые активные в Европе."
+    source: { kind: authored }
+  - form: "najczynniejszego"
+    pl: "Dyrektor pochwalił najczynniejszego ucznia."
+    ru: "Директор похвалил самого активного ученика."
+    source: { kind: authored }
+  - form: "najczynniejszego"
+    pl: "Szukamy najczynniejszego wolontariusza roku."
+    ru: "Мы ищем самого активного волонтёра года."
+    source: { kind: authored }
+  - form: "najczynniejszego"
+    pl: "Do najczynniejszego wulkanu Europy jedzie się przez Katanię."
+    ru: "К самому активному вулкану Европы едут через Катанию."
+    source: { kind: authored }
+  - form: "najczynniejszej"
+    pl: "Członkowie najczynniejszej sekcji pojechali na obóz."
+    ru: "Члены самой активной секции поехали в лагерь."
+    source: { kind: authored }
+  - form: "najczynniejszej"
+    pl: "W najczynniejszej dzielnicy działa dziesięć klubów."
+    ru: "В самом активном районе работает десять клубов."
+    source: { kind: authored }
+  - form: "najczynniejszej"
+    pl: "Dyplom trafił do najczynniejszej wolontariuszki."
+    ru: "Грамота досталась самой активной волонтёрке."
+    source: { kind: authored }
+  - form: "najczynniejszemu"
+    pl: "Najczynniejszemu radnemu przyznano nagrodę."
+    ru: "Самому активному депутату присудили награду."
+    source: { kind: authored }
+  - form: "najczynniejszemu"
+    pl: "Gratulacje złożono najczynniejszemu członkowi klubu."
+    ru: "Поздравления принесли самому активному члену клуба."
+    source: { kind: authored }
+  - form: "najczynniejszemu"
+    pl: "Podziękowaliśmy najczynniejszemu z rodziców."
+    ru: "Мы поблагодарили самого активного из родителей."
+    source: { kind: authored }
+  - form: "najczynniejszy"
+    pl: "Najczynniejszy wulkan Europy to Etna."
+    ru: "Самый активный вулкан Европы — Этна."
+    source: { kind: authored }
+  - form: "najczynniejszy"
+    pl: "Mój dziadek jest najczynniejszy w całym bloku."
+    ru: "Мой дед самый активный во всём доме."
+    source: { kind: authored }
+  - form: "najczynniejszy"
+    pl: "To najczynniejszy wolontariusz w naszej fundacji."
+    ru: "Это самый активный волонтёр в нашем фонде."
+    source: { kind: authored }
+  - form: "najczynniejszych"
+    pl: "Lista najczynniejszych członków wisi na tablicy."
+    ru: "Список самых активных членов висит на доске."
+    source: { kind: authored }
+  - form: "najczynniejszych"
+    pl: "Etna należy do najczynniejszych wulkanów świata."
+    ru: "Этна — один из самых активных вулканов мира."
+    source: { kind: authored }
+  - form: "najczynniejszych"
+    pl: "Wśród najczynniejszych radnych są dwie kobiety."
+    ru: "Среди самых активных депутатов две женщины."
+    source: { kind: authored }
+  - form: "najczynniejszym"
+    pl: "Był najczynniejszym posłem w tej kadencji."
+    ru: "Он был самым активным депутатом сейма в этом созыве."
+    source: { kind: authored }
+  - form: "najczynniejszym"
+    pl: "W najczynniejszym okresie pracowałem bez przerwy."
+    ru: "В самый активный период я работал без перерыва."
+    source: { kind: authored }
+  - form: "najczynniejszym"
+    pl: "O najczynniejszym wolontariuszu pisała lokalna gazeta."
+    ru: "О самом активном волонтёре писала местная газета."
+    source: { kind: authored }
+  - form: "najczynniejszymi"
+    pl: "Z najczynniejszymi członkami spotkał się burmistrz."
+    ru: "С самыми активными членами встретился мэр."
+    source: { kind: authored }
+  - form: "najczynniejszymi"
+    pl: "Naukowcy zajmują się najczynniejszymi wulkanami świata."
+    ru: "Учёные занимаются самыми активными вулканами мира."
+    source: { kind: authored }
+  - form: "najczynniejszymi"
+    pl: "Między najczynniejszymi klubami trwa rywalizacja."
+    ru: "Между самыми активными клубами идёт соперничество."
+    source: { kind: authored }
