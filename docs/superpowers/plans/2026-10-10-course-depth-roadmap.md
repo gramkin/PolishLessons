@@ -213,3 +213,5 @@ real sentences from *Alicja* with a link to the chapter, and every participle, -
 from Tatoeba sentences only (`sourcedOnly`): many authored card rows for -ąc mean a completed
 action («Dostając list» = «Получив письмо»), which is a dictionary backlog item. All roadmap
 phases are done; the native-speaker review below is what remains.
+
+**Phase 7 (finish B1)** was done on 2026-10-11 — chapter 28 «Темы B1», eight B1 stories, chapter 29 «Итоги B1» and placement questions for chapters 22–28. The path on to B2 (Phases 8–10) is designed in `docs/superpowers/specs/2026-10-11-path-to-b2-design.md`.
