@@ -32,14 +32,19 @@
    сокращения и нераспознанные формы — в `data/words-excluded.json`. Устаревшие пометки 🟡
    у слов, чьи карточки уже написаны, заменены ссылками.
 
+7. Все 266 лемм очереди (2026-10-11) получили карточки формата 2: по три примера на каждую
+   форму, значения, примечания, этимология, идиомы; новые тексты помечены `# review`.
+   Очередь пуста; 16 записей реестра — формы других слов (↩︎) и карточек не требуют.
+
 ## Состояние
 
-|                 |          |
-| --------------- | -------- |
-| Лемм всего      | **1413** |
-| Карточка готова | **1131** |
-| В очереди       | **282**  |
-| Не в словаре    | **72**   |
+|                       |          |
+| --------------------- | -------- |
+| Лемм всего            | **1397** |
+| Карточка готова       | **1397** |
+| В очереди             | **0**    |
+| Формы других слов (↩︎) | **16**   |
+| Не в словаре          | **72**   |
 
 ## Обозначения
 
@@ -211,7 +216,7 @@ pnpm dict:status && pnpm generate
 - spiczasto — ✅ [spiczasto](/slovo/spiczasto) · adv
 - **dość spora zmiana**  
   <sub>слова: [dość](/slovo/dosc), `spora`, [zmiana](/slovo/zmiana)</sub>
-- zioła — 🟡 `zioła` · noun · rank 2077
+- zioła — ✅ [zioło](/slovo/ziolo) · noun
 - przytyć — ✅ [przytyć](/slovo/przytyc) · verb
 - przyciągać — ✅ [przyciągać](/slovo/przyciagac) · verb
 - łapa — ✅ [łapa](/slovo/lapa) · noun
@@ -867,24 +872,24 @@ pnpm dict:status && pnpm generate
 - Sięgano — ✅ [sięgać](/slovo/siegac) · verb
 - sięgać — ✅ [sięgać](/slovo/siegac) · verb
 - ubogi — ✅ [ubogi](/slovo/ubogi) · adj
-- Ówcześnie — 🟡 `ówcześnie` · adv · rank 5778
+- Ówcześnie — ✅ [ówcześnie](/slovo/owczesnie) · adv
 - **prowizorki okazały się najtrwalsze**  
-  <sub>слова: `prowizorka`, [okazać](/slovo/okazac), [się](/slovo/sie), `trwały`</sub>
+  <sub>слова: [prowizorka](/slovo/prowizorka), [okazać](/slovo/okazac), [się](/slovo/sie), [trwały](/slovo/trwaly)</sub>
 - knajpa — ✅ [knajpa](/slovo/knajpa) · noun
 - wprowadzić — ✅ [wprowadzić](/slovo/wprowadzic) · verb
-- pralina — 🟡 `pralina` · noun · rank 5781
-- tandeta — 🟡 `tandeta` · noun · rank 5782
-- drzeworyt — 🟡 `drzeworyt` · noun · rank 5783
+- pralina — ✅ [pralina](/slovo/pralina) · noun
+- tandeta — ✅ [tandeta](/slovo/tandeta) · noun
+- drzeworyt — ✅ [drzeworyt](/slovo/drzeworyt) · noun
 - pochodzić — ✅ [pochodzić](/slovo/pochodzic) · verb
-- kształcić — 🟡 `kształcić` · verb · rank 5784
-- rzeźba — 🟡 `rzeźba` · noun · rank 5785
-- nawiązanie — 🟡 `nawiązanie` · noun · rank 5786
-- łagodniutki — 🟡 `łagodniutki` · adj · rank 5787
-- zlecenie — 🟡 `zlecenie` · noun · rank 5788
-- wiekopomny — 🟡 `wiekopomny` · adj · rank 5789
-- omamić — 🟡 `omamić` · verb · rank 5790
-- pohańbion — 🟡 `pohańbić` · verb · rank 5791
-- prężnie — 🟡 `prężnie` · adv · rank 5792
+- kształcić — ✅ [kształcić](/slovo/ksztalcic) · verb
+- rzeźba — ✅ [rzeźba](/slovo/rzezba) · noun
+- nawiązanie — ✅ [nawiązanie](/slovo/nawiazanie) · noun
+- łagodniutki — ✅ [łagodniutki](/slovo/lagodniutki) · adj
+- zlecenie — ✅ [zlecenie](/slovo/zlecenie) · noun
+- wiekopomny — ✅ [wiekopomny](/slovo/wiekopomny) · adj
+- omamić — ✅ [omamić](/slovo/omamic) · verb
+- pohańbion — ✅ [pohańbić](/slovo/pohanbic) · verb
+- prężnie — ✅ [prężnie](/slovo/preznie) · adv
 - **tutaj walicie jak w dym.**  
   <sub>слова: [tutaj](/slovo/tutaj), [walić](/slovo/walic), [jak](/slovo/jak), [w](/slovo/w), [dym](/slovo/dym)</sub>
 - **Walić jak w dym**  
@@ -898,287 +903,287 @@ pnpm dict:status && pnpm generate
 - **a w Norymberdze Tucher jest niemal wszędzie i trudno się temu dziwić.**  
   <sub>слова: [a](/slovo/a), [w](/slovo/w), ~~Norymberdze~~, ~~Tucher~~, [być](/slovo/byc), [niemal](/slovo/niemal), [wszędzie](/slovo/wszedzie), [i](/slovo/i), [trudno](/slovo/trudno), [się](/slovo/sie), [to](/slovo/to), [dziwić](/slovo/dziwic)</sub>
 - **To trzeba zjeść w przódy.**  
-  <sub>слова: [to](/slovo/to), [trzeba](/slovo/trzeba), [zjeść](/slovo/zjesc), [w](/slovo/w), `przódy`</sub>
-- podniecać — 🟡 `podniecać` · verb · rank 4083
-- klucha — 🟡 `klucha` · noun · rank 5794
+  <sub>слова: [to](/slovo/to), [trzeba](/slovo/trzeba), [zjeść](/slovo/zjesc), [w](/slovo/w), [przódy](/slovo/przody)</sub>
+- podniecać — ✅ [podniecać](/slovo/podniecac) · verb
+- klucha — ✅ [klucha](/slovo/klucha) · noun
 - **Mama zawsze mówiła, nie pakuj tyle do buzi.**  
   <sub>слова: [mama](/slovo/mama), [zawsze](/slovo/zawsze), [mówić](/slovo/mowic), [nie](/slovo/nie), [pakować](/slovo/pakowac), [tyle](/slovo/tyle), [do](/slovo/do), [buzia](/slovo/buzia)</sub>
-- unurzać — 🟡 `unurzać` · verb · rank 5795
+- unurzać — ✅ [unurzać](/slovo/unurzac) · verb
 - **To moje szczęście jest pełne i chciałbym, żeby moje szczęście było również waszym szczęściem.**  
   <sub>слова: [to](/slovo/to), [mój](/slovo/moj), [szczęście](/slovo/szczescie), [być](/slovo/byc), [pełny](/slovo/pelny), [i](/slovo/i), [chcieć](/slovo/chciec), [żeby](/slovo/zeby), [mój](/slovo/moj), [szczęście](/slovo/szczescie), [być](/slovo/byc), [również](/slovo/rowniez), [wasz](/slovo/wasz), [szczęście](/slovo/szczescie)</sub>
-- pieczeń — 🟡 `pieczeń` · noun · rank 5796
-- spacerkiem — 🟡 `spacerek` · noun · rank 5797
-- mieścić — 🟡 `mieścić` · verb · rank 5798
+- pieczeń — ✅ [pieczeń](/slovo/pieczen) · noun
+- spacerkiem — ✅ [spacerek](/slovo/spacerek) · noun
+- mieścić — ✅ [mieścić](/slovo/miescic) · verb
 - **mieści się**  
-  <sub>слова: `mieścić`, [się](/slovo/sie)</sub>
-- szynach — 🟡 `szyna` · noun · rank 5799
-- przytup — 🟡 `przytup` · noun · rank 5800
+  <sub>слова: [mieścić](/slovo/miescic), [się](/slovo/sie)</sub>
+- szynach — ✅ [szyna](/slovo/szyna) · noun
+- przytup — ✅ [przytup](/slovo/przytup) · noun
 - wyprzeć — ✅ [wyprzeć](/slovo/wyprzec) · verb
 - ważyć — ✅ [ważyć](/slovo/wazyc) · verb
 - **I teraz, to jest tradycyjna receptura, ale oczywiście dopasowana nieco do współczesnych gustów.**  
-  <sub>слова: [i](/slovo/i), [teraz](/slovo/teraz), [to](/slovo/to), [być](/slovo/byc), [tradycyjny](/slovo/tradycyjny), `receptura`, [ale](/slovo/ale), [oczywiście](/slovo/oczywiscie), [dopasować](/slovo/dopasowac), [nieco](/slovo/nieco), [do](/slovo/do), [współczesny](/slovo/wspolczesny), [gust](/slovo/gust)</sub>
+  <sub>слова: [i](/slovo/i), [teraz](/slovo/teraz), [to](/slovo/to), [być](/slovo/byc), [tradycyjny](/slovo/tradycyjny), [receptura](/slovo/receptura), [ale](/slovo/ale), [oczywiście](/slovo/oczywiscie), [dopasować](/slovo/dopasowac), [nieco](/slovo/nieco), [do](/slovo/do), [współczesny](/slovo/wspolczesny), [gust](/slovo/gust)</sub>
 - **Niektórzy tak mówią.**  
   <sub>слова: [niektóry](/slovo/niektory), [tak](/slovo/tak), [mówić](/slovo/mowic)</sub>
 - **Ta whisky trafia od razu wprzódy do beczek z nowego amerykańskiego dębu.**  
-  <sub>слова: [ten](/slovo/ten), [whisky](/slovo/whisky), [trafiać](/slovo/trafiac), [od](/slovo/od), [raz](/slovo/raz), `wprzódy`, [do](/slovo/do), [beczka](/slovo/beczka), [z](/slovo/z), [nowy](/slovo/nowy), [amerykański](/slovo/amerykanski), [dąb](/slovo/dab)</sub>
-- uderzenie — 🟡 `uderzenie` · noun · rank 5803
-- podniebienie — 🟡 `podniebienie` · noun · rank 5804
-- fanaberia — 🟡 `fanaberia` · noun · rank 5805
-- petent — 🟡 `petent` · noun · rank 5806
-- miedza — 🟡 `miedza` · noun · rank 5807
+  <sub>слова: [ten](/slovo/ten), [whisky](/slovo/whisky), [trafiać](/slovo/trafiac), [od](/slovo/od), [raz](/slovo/raz), [wprzódy](/slovo/wprzody), [do](/slovo/do), [beczka](/slovo/beczka), [z](/slovo/z), [nowy](/slovo/nowy), [amerykański](/slovo/amerykanski), [dąb](/slovo/dab)</sub>
+- uderzenie — ✅ [uderzenie](/slovo/uderzenie) · noun
+- podniebienie — ✅ [podniebienie](/slovo/podniebienie) · noun
+- fanaberia — ✅ [fanaberia](/slovo/fanaberia) · noun
+- petent — ✅ [petent](/slovo/petent) · noun
+- miedza — ✅ [miedza](/slovo/miedza) · noun
 - **Proces norymberski był przełomowy w historii ludzkości.**  
-  <sub>слова: [proces](/slovo/proces), `norymberski`, [być](/slovo/byc), `przełomowy`, [w](/slovo/w), [historia](/slovo/historia), [ludzkość](/slovo/ludzkosc)</sub>
+  <sub>слова: [proces](/slovo/proces), [norymberski](/slovo/norymberski), [być](/slovo/byc), [przełomowy](/slovo/przelomowy), [w](/slovo/w), [historia](/slovo/historia), [ludzkość](/slovo/ludzkosc)</sub>
 - **Właśnie wówczas, po raz pierwszy pojawił się prawniczy termin zbrodni przeciwko ludzkości.**  
   <sub>слова: [właśnie](/slovo/wlasnie), [wówczas](/slovo/wowczas), [po](/slovo/po), [raz](/slovo/raz), [pierwszy](/slovo/pierwszy), [pojawić](/slovo/pojawic), [się](/slovo/sie), [prawniczy](/slovo/prawniczy), [termin](/slovo/termin), [zbrodnia](/slovo/zbrodnia), [przeciwko](/slovo/przeciwko), [ludzkość](/slovo/ludzkosc)</sub>
-- przełomowy — 🟡 `przełomowy` · adj · rank 5809
-- wystrój — 🟡 `wystrój` · noun · rank 5810
-- ocaleć — 🟡 `ocaleć` · verb · rank 5811
-- niejako — 🟡 `niejako` · part · rank 5812
-- obręb — 🟡 `obręb` · noun · rank 5813
-- zburzyć — 🟡 `zburzyć` · verb · rank 5814
-- nawiązywać — 🟡 `nawiązywać` · verb · rank 5815
-- wzmiankowana — 🟡 `wzmiankować` · verb · rank 5816
+- przełomowy — ✅ [przełomowy](/slovo/przelomowy) · adj
+- wystrój — ✅ [wystrój](/slovo/wystroj) · noun
+- ocaleć — ✅ [ocaleć](/slovo/ocalec) · verb
+- niejako — ✅ [niejako](/slovo/niejako) · part
+- obręb — ✅ [obręb](/slovo/obreb) · noun
+- zburzyć — ✅ [zburzyć](/slovo/zburzyc) · verb
+- nawiązywać — ✅ [nawiązywać](/slovo/nawiazywac) · verb
+- wzmiankowana — ✅ [wzmiankować](/slovo/wzmiankowac) · verb
 - **Zobaczcie jakie to są urocze, piękne maleństwa.**  
   <sub>слова: [zobaczyć](/slovo/zobaczyc), [jaki](/slovo/jaki), [to](/slovo/to), [być](/slovo/byc), [uroczy](/slovo/uroczy), [piękny](/slovo/piekny), [maleństwo](/slovo/malenstwo)</sub>
-- przyrządzać — 🟡 `przyrządzać` · verb · rank 5817
+- przyrządzać — ✅ [przyrządzać](/slovo/przyrzadzac) · verb
 - chrzanka — ⛔ не распознано
-- zaniedbany — 🟡 `zaniedbany` · adj · rank 5818
+- zaniedbany — ✅ [zaniedbany](/slovo/zaniedbany) · adj
 - **I w ogóle były plany, żeby to wyburzyć.**  
-  <sub>слова: [i](/slovo/i), [w](/slovo/w), [ogół](/slovo/ogol), [były](/slovo/byly), [plan](/slovo/plan), [żeby](/slovo/zeby), [to](/slovo/to), `wyburzyć`</sub>
+  <sub>слова: [i](/slovo/i), [w](/slovo/w), [ogół](/slovo/ogol), [były](/slovo/byly), [plan](/slovo/plan), [żeby](/slovo/zeby), [to](/slovo/to), [wyburzyć](/slovo/wyburzyc)</sub>
 - **i oni nadają temu siły.**  
   <sub>слова: [i](/slovo/i), [on](/slovo/on), [nadawać](/slovo/nadawac), [to](/slovo/to), [siła](/slovo/sila)</sub>
 - **To wszystko jest smakiem nie tylko wspaniałym, ale to jest po prostu smak historii.**  
   <sub>слова: [to](/slovo/to), [wszystko](/slovo/wszystko), [być](/slovo/byc), [smak](/slovo/smak), [nie](/slovo/nie), [tylko](/slovo/tylko), [wspaniały](/slovo/wspanialy), [ale](/slovo/ale), [to](/slovo/to), [być](/slovo/byc), [po](/slovo/po), [prosty](/slovo/prosty), [smak](/slovo/smak), [historia](/slovo/historia)</sub>
 - **kiedy wszedłeś między wrony, musisz krakać tak jak one**  
-  <sub>слова: [kiedy](/slovo/kiedy), [wejść](/slovo/wejsc), [między](/slovo/miedzy), [wrona](/slovo/wrona), [musieć](/slovo/musiec), `krakać`, [tak](/slovo/tak), [jak](/slovo/jak), [on](/slovo/on)</sub>
-- kiepsko — 🟡 `kiepsko` · adv · rank 5821
-- zmieścić — 🟡 `zmieścić` · verb · rank 5822
+  <sub>слова: [kiedy](/slovo/kiedy), [wejść](/slovo/wejsc), [między](/slovo/miedzy), [wrona](/slovo/wrona), [musieć](/slovo/musiec), [krakać](/slovo/krakac), [tak](/slovo/tak), [jak](/slovo/jak), [on](/slovo/on)</sub>
+- kiepsko — ✅ [kiepsko](/slovo/kiepsko) · adv
+- zmieścić — ✅ [zmieścić](/slovo/zmiescic) · verb
 - **I to jeszcze przy słońcu świecącym.**  
   <sub>слова: [i](/slovo/i), [to](/slovo/to), [jeszcze](/slovo/jeszcze), [przy](/slovo/przy), [słońce](/slovo/slonce), [świecić](/slovo/swiecic)</sub>
 - **Kim jesteśmy? Dokąd zmierzamy?**  
   <sub>слова: [kto](/slovo/kto), [być](/slovo/byc), [dokąd](/slovo/dokad), [zmierzać](/slovo/zmierzac)</sub>
-- obczaić — 🟡 `obczaić` · verb · rank 5823
-- zluzować — 🟡 `zluzować` · verb · rank 5824
-- wybredność — 🟡 `wybredność` · noun · rank 5825
-- bystrość — 🟡 `bystrość` · noun · rank 5826
-- podważać — 🟡 `podważać` · verb · rank 5827
-- obrazoburstwo — 🟡 `obrazoburstwo` · noun · rank 5828
-- krygować — 🟡 `krygować` · verb · rank 5829
-- rzetelnie — 🟡 `rzetelnie` · adv · rank 5830
-- zróżnicować — 🟡 `zróżnicować` · verb · rank 5831
-- odzwierciedlić — 🟡 `odzwierciedlić` · verb · rank 5832
+- obczaić — ✅ [obczaić](/slovo/obczaic) · verb
+- zluzować — ✅ [zluzować](/slovo/zluzowac) · verb
+- wybredność — ✅ [wybredność](/slovo/wybrednosc) · noun
+- bystrość — ✅ [bystrość](/slovo/bystrosc) · noun
+- podważać — ✅ [podważać](/slovo/podwazac) · verb
+- obrazoburstwo — ✅ [obrazoburstwo](/slovo/obrazoburstwo) · noun
+- krygować — ✅ [krygować](/slovo/krygowac) · verb
+- rzetelnie — ✅ [rzetelnie](/slovo/rzetelnie) · adv
+- zróżnicować — ✅ [zróżnicować](/slovo/zroznicowac) · verb
+- odzwierciedlić — ✅ [odzwierciedlić](/slovo/odzwierciedlic) · verb
 - **A niechaj narodowie wżdy postronni znają, Iż Polacy nie Gęsi, iż swój język mają**  
-  <sub>слова: [a](/slovo/a), `niechaj`, [naród](/slovo/narod), `wżdy`, `postronny`, [znać](/slovo/znac), [iż](/slovo/iz), `Polak`, [nie](/slovo/nie), [gęś](/slovo/ges), [iż](/slovo/iz), [swój](/slovo/swoj), [język](/slovo/jezyk), [mieć](/slovo/miec)</sub>
+  <sub>слова: [a](/slovo/a), [niechaj](/slovo/niechaj), [naród](/slovo/narod), [wżdy](/slovo/wzdy), [postronny](/slovo/postronny), [znać](/slovo/znac), [iż](/slovo/iz), [Polak](/slovo/polak), [nie](/slovo/nie), [gęś](/slovo/ges), [iż](/slovo/iz), [swój](/slovo/swoj), [język](/slovo/jezyk), [mieć](/slovo/miec)</sub>
 - szacunek — ✅ [szacunek](/slovo/szacunek) · noun
 - przemawiać — ✅ [przemawiać](/slovo/przemawiac) · verb
-- uprzywilejowany — 🟡 `uprzywilejowany` · adj · rank 5837
-- kilkanaście — 🟡 `kilkanaście` · num · rank 5838
-- grono — 🟡 `grono` · noun · rank 5839
-- sejmika — 🟡 `sejmik` · noun · rank 5840
-- przysłuchuć — 🟡 `przysłuchiwać` · verb · rank 5841
-- waćpan — 🟡 `waćpan` · noun · rank 5842
-- kmieć — 🟡 `kmieć` · noun · rank 5843
+- uprzywilejowany — ✅ [uprzywilejowany](/slovo/uprzywilejowany) · adj
+- kilkanaście — ✅ [kilkanaście](/slovo/kilkanascie) · num
+- grono — ✅ [grono](/slovo/grono) · noun
+- sejmika — ✅ [sejmik](/slovo/sejmik) · noun
+- przysłuchuć — ✅ [przysłuchiwać](/slovo/przysluchiwac) · verb
+- waćpan — ✅ [waćpan](/slovo/wacpan) · noun
+- kmieć — ✅ [kmieć](/slovo/kmiec) · noun
 - warstwa — ✅ [warstwa](/slovo/warstwa) · noun
-- modła — 🟡 `modła` · noun · rank 5844
+- modła — ✅ [modła](/slovo/modla) · noun
 - oszust — ✅ [oszust](/slovo/oszust) · noun
 - zewnątrz — ✅ [zewnątrz](/slovo/zewnatrz) · prep
-- irytować — 🟡 `irytować` · verb · rank 5845
+- irytować — ✅ [irytować](/slovo/irytowac) · verb
 - przynajmniej — ✅ [przynajmniej](/slovo/przynajmniej) · part
 - przynajmniej — ✅ [przynajmniej](/slovo/przynajmniej) · part
 - krawędź — ✅ [krawędź](/slovo/krawedz) · noun
-- wykop — 🟡 `wykop` · noun · rank 5846
-- pnący — 🟡 `piąć` · verb · rank 5847
-- strop — 🟡 `strop` · noun · rank 5848
-- wczesnośredniowieczny — 🟡 `wczesnośredniowieczny` · adj · rank 5849
-- podgrodzie — 🟡 `podgrodzie` · noun · rank 5850
+- wykop — ✅ [wykop](/slovo/wykop) · noun
+- pnący — ✅ [piąć](/slovo/piac) · verb
+- strop — ✅ [strop](/slovo/strop) · noun
+- wczesnośredniowieczny — ✅ [wczesnośredniowieczny](/slovo/wczesnosredniowieczny) · adj
+- podgrodzie — ✅ [podgrodzie](/slovo/podgrodzie) · noun
 - śmieć — ✅ [śmieć](/slovo/smiec) · verb
 - **Dawniej większości odpadów nie**  
-  <sub>слова: [dawno](/slovo/dawno), [większość](/slovo/wiekszosc), `odpad`, [nie](/slovo/nie)</sub>
+  <sub>слова: [dawno](/slovo/dawno), [większość](/slovo/wiekszosc), [odpad](/slovo/odpad), [nie](/slovo/nie)</sub>
 - **wywożono. Nie było też żadnych pszok-ów.**  
-  <sub>слова: `wywozić`, [nie](/slovo/nie), [być](/slovo/byc), [też](/slovo/tez), [żaden](/slovo/zaden), ~~pszok~~, [ów](/slovo/ow)</sub>
-- nawarstwienie — 🟡 `nawarstwić` · verb · rank 5853
+  <sub>слова: [wywozić](/slovo/wywozic), [nie](/slovo/nie), [być](/slovo/byc), [też](/slovo/tez), [żaden](/slovo/zaden), ~~pszok~~, [ów](/slovo/ow)</sub>
+- nawarstwienie — ✅ [nawarstwić](/slovo/nawarstwic) · verb
 - odnaleźć — ✅ [odnaleźć](/slovo/odnalezc) · verb
-- zbagatelizować — 🟡 `zbagatelizować` · verb · rank 5854
-- niepostrzeżenie — 🟡 `niepostrzeżenie` · adv · rank 5855
-- zwarty — 🟡 `zwarty` · adj · rank 5856
-- skojarzyć — 🟡 `skojarzyć` · verb · rank 5857
-- nietrwale — 🟡 `nietrwale` · adv · rank 5858
-- wypiętrzać — 🟡 `wypiętrzać` · verb · rank 5859
-- nieuchronnie — 🟡 `nieuchronnie` · adv · rank 5860
-- wypiętrzenie — 🟡 `wypiętrzenie` · noun · rank 5861
-- napotkać — 🟡 `napotkać` · verb · rank 5862
+- zbagatelizować — ✅ [zbagatelizować](/slovo/zbagatelizowac) · verb
+- niepostrzeżenie — ✅ [niepostrzeżenie](/slovo/niepostrzezenie) · adv
+- zwarty — ✅ [zwarty](/slovo/zwarty) · adj
+- skojarzyć — ✅ [skojarzyć](/slovo/skojarzyc) · verb
+- nietrwale — ✅ [nietrwale](/slovo/nietrwale) · adv
+- wypiętrzać — ✅ [wypiętrzać](/slovo/wypietrzac) · verb
+- nieuchronnie — ✅ [nieuchronnie](/slovo/nieuchronnie) · adv
+- wypiętrzenie — ✅ [wypiętrzenie](/slovo/wypietrzenie) · noun
+- napotkać — ✅ [napotkać](/slovo/napotkac) · verb
 - wszędzie — ✅ [wszędzie](/slovo/wszedzie) · adv
 - indziej — ✅ [indziej](/slovo/indziej) · adv
-- ekierka — 🟡 `ekierka` · noun · rank 5863
-- pionowy — 🟡 `pionowy` · adj · rank 5864
-- podszywać — 🟡 `podszywać` · verb · rank 5865
-- przedostatni — 🟡 `przedostatni` · adj · rank 5866
+- ekierka — ✅ [ekierka](/slovo/ekierka) · noun
+- pionowy — ✅ [pionowy](/slovo/pionowy) · adj
+- podszywać — ✅ [podszywać](/slovo/podszywac) · verb
+- przedostatni — ✅ [przedostatni](/slovo/przedostatni) · adj
 - szopa — ✅ [szopa](/slovo/szopa) · noun
-- eternit — 🟡 `eternit` · noun · rank 5867
+- eternit — ✅ [eternit](/slovo/eternit) · noun
 - odekierka — ⛔ не распознано
 - obtłukać — ⛔ не распознано
 - odwrzucać — ⛔ не распознано
-- skansen — 🟡 `skansen` · noun · rank 5868
-- strzechę — 🟡 `strzecha` · noun · rank 5869
-- wianek — 🟡 `wianek` · noun · rank 5870
-- zwalczać — 🟡 `zwalczać` · verb · rank 5871
-- żywioł — 🟡 `żywioł` · noun · rank 5872
+- skansen — ✅ [skansen](/slovo/skansen) · noun
+- strzechę — ✅ [strzecha](/slovo/strzecha) · noun
+- wianek — ✅ [wianek](/slovo/wianek) · noun
+- zwalczać — ✅ [zwalczać](/slovo/zwalczac) · verb
+- żywioł — ✅ [żywioł](/slovo/zywiol) · noun
 - psuć — ✅ [psuć](/slovo/psuc) · verb
 - patyk — ✅ [patyk](/slovo/patyk) · noun
-- czeluść — 🟡 `czeluść` · noun · rank 5873
-- wyobrażenie — 🟡 `wyobrażenie` · noun · rank 5874
+- czeluść — ✅ [czeluść](/slovo/czelusc) · noun
+- wyobrażenie — ✅ [wyobrażenie](/slovo/wyobrazenie) · noun
 - **Dobrze, dobrze. To już skoro Kamil zahaczył, to kolejna rzecz, która mnie po prostu doprowadza do szewskiej pasji, to właśnie jak bardzo ozdobione są te wszystkie chłopskie izby i to w miejscach, gdzie teoretycznie wygląd tej chaty sugerowałby, że jest to domostwo na przykład z połowy XIX wieku.**  
-  <sub>слова: [dobrze](/slovo/dobrze), [dobrze](/slovo/dobrze), [to](/slovo/to), [już](/slovo/juz), [skoro](/slovo/skoro), ~~Kamil~~, `zahaczyć`, [to](/slovo/to), [kolejny](/slovo/kolejny), [rzecz](/slovo/rzecz), [który](/slovo/ktory), [ja](/slovo/ja), [po](/slovo/po), [prosty](/slovo/prosty), [doprowadzać](/slovo/doprowadzac), [do](/slovo/do), `szewski`, [pasja](/slovo/pasja), [to](/slovo/to), [właśnie](/slovo/wlasnie), [jak](/slovo/jak), [bardzo](/slovo/bardzo), `ozdobić`, [być](/slovo/byc), [ten](/slovo/ten), [wszystek](/slovo/wszystek), `chłopski`, [izba](/slovo/izba), [i](/slovo/i), [to](/slovo/to), [w](/slovo/w), [miejsce](/slovo/miejsce), [gdzie](/slovo/gdzie), [teoretycznie](/slovo/teoretycznie), [wygląd](/slovo/wyglad), [ten](/slovo/ten), [chata](/slovo/chata), [sugerować](/slovo/sugerowac), [że](/slovo/ze), [być](/slovo/byc), [to](/slovo/to), `domostwo`, [na](/slovo/na), [przykład](/slovo/przyklad), [z](/slovo/z), [połowa](/slovo/polowa), ~~XIX~~, [wiek](/slovo/wiek)</sub>
+  <sub>слова: [dobrze](/slovo/dobrze), [dobrze](/slovo/dobrze), [to](/slovo/to), [już](/slovo/juz), [skoro](/slovo/skoro), ~~Kamil~~, [zahaczyć](/slovo/zahaczyc), [to](/slovo/to), [kolejny](/slovo/kolejny), [rzecz](/slovo/rzecz), [który](/slovo/ktory), [ja](/slovo/ja), [po](/slovo/po), [prosty](/slovo/prosty), [doprowadzać](/slovo/doprowadzac), [do](/slovo/do), [szewski](/slovo/szewski), [pasja](/slovo/pasja), [to](/slovo/to), [właśnie](/slovo/wlasnie), [jak](/slovo/jak), [bardzo](/slovo/bardzo), [ozdobić](/slovo/ozdobic), [być](/slovo/byc), [ten](/slovo/ten), [wszystek](/slovo/wszystek), [chłopski](/slovo/chlopski), [izba](/slovo/izba), [i](/slovo/i), [to](/slovo/to), [w](/slovo/w), [miejsce](/slovo/miejsce), [gdzie](/slovo/gdzie), [teoretycznie](/slovo/teoretycznie), [wygląd](/slovo/wyglad), [ten](/slovo/ten), [chata](/slovo/chata), [sugerować](/slovo/sugerowac), [że](/slovo/ze), [być](/slovo/byc), [to](/slovo/to), [domostwo](/slovo/domostwo), [na](/slovo/na), [przykład](/slovo/przyklad), [z](/slovo/z), [połowa](/slovo/polowa), ~~XIX~~, [wiek](/slovo/wiek)</sub>
 - sugerowałyby — ✅ [sugerować](/slovo/sugerowac) · verb
-- cepelia — 🟡 `cepelia` · noun · rank 5880
+- cepelia — ✅ [cepelia](/slovo/cepelia) · noun
 - guzik — ✅ [guzik](/slovo/guzik) · noun
-- nęta — 🟡 `nęta` · noun · rank 5881
-- ozdoba — 🟡 `ozdoba` · noun · rank 5882
+- nęta — ✅ [nęta](/slovo/neta) · noun
+- ozdoba — ✅ [ozdoba](/slovo/ozdoba) · noun
 - mit — ✅ [mit](/slovo/mit) · noun
-- przymus — 🟡 `przymus` · noun · rank 5883
-- wdrożyć — 🟡 `wdrożyć` · verb · rank 5884
+- przymus — ✅ [przymus](/slovo/przymus) · noun
+- wdrożyć — ✅ [wdrożyć](/slovo/wdrozyc) · verb
 - przecież — ✅ [przecież](/slovo/przeciez) · part
-- wgłębiać — 🟡 `wgłębiać` · verb · rank 5885
-- rozszerzać — 🟡 `rozszerzać` · verb · rank 5886
-- rzemieślniczo — 🟡 `rzemieślniczo` · adv · rank 5887
+- wgłębiać — ✅ [wgłębiać](/slovo/wglebiac) · verb
+- rozszerzać — ✅ [rozszerzać](/slovo/rozszerzac) · verb
+- rzemieślniczo — ✅ [rzemieślniczo](/slovo/rzemieslniczo) · adv
 - zewnątrz — ✅ [zewnątrz](/slovo/zewnatrz) · prep
 - podstawowy — ✅ [podstawowy](/slovo/podstawowy) · adj
-- przytrzasnąć — 🟡 `przytrzasnąć` · verb · rank 5888
+- przytrzasnąć — ✅ [przytrzasnąć](/slovo/przytrzasnac) · verb
 - kratka — ✅ [kratka](/slovo/kratka) · noun
-- szczelny — 🟡 `szczelny` · adj · rank 5889
-- pierzyna — 🟡 `pierzyna` · noun · rank 5890
+- szczelny — ✅ [szczelny](/slovo/szczelny) · adj
+- pierzyna — ✅ [pierzyna](/slovo/pierzyna) · noun
 - **domostwa w dużym stopniu używane. skrzynię wianne, tam się trzyma sprzęty,**  
-  <sub>слова: `domostwo`, [w](/slovo/w), [duży](/slovo/duzy), [stopień](/slovo/stopien), [używać](/slovo/uzywac), [skrzynia](/slovo/skrzynia), ~~wianne~~, [tam](/slovo/tam), [się](/slovo/sie), [trzymać](/slovo/trzymac), [sprzęt](/slovo/sprzet)</sub>
+  <sub>слова: [domostwo](/slovo/domostwo), [w](/slovo/w), [duży](/slovo/duzy), [stopień](/slovo/stopien), [używać](/slovo/uzywac), [skrzynia](/slovo/skrzynia), ~~wianne~~, [tam](/slovo/tam), [się](/slovo/sie), [trzymać](/slovo/trzymac), [sprzęt](/slovo/sprzet)</sub>
 - wnętrze — ✅ [wnętrze](/slovo/wnetrze) · noun
-- zewnętrze — 🟡 `zewnętrze` · noun · rank 5891
+- zewnętrze — ✅ [zewnętrze](/slovo/zewnetrze) · noun
 - współczesny — ✅ [współczesny](/slovo/wspolczesny) · adj
-- rzemieślniczy — 🟡 `rzemieślniczy` · adj · rank 5892
+- rzemieślniczy — ✅ [rzemieślniczy](/slovo/rzemieslniczy) · adj
 - równowaga — ✅ [równowaga](/slovo/rownowaga) · noun
-- zrębowy — 🟡 `zrębowy` · adj · rank 5893
-- ulewa — 🟡 `ulewa` · noun · rank 5894
-- obelga — 🟡 `obelga` · noun · rank 5895
-- wylewka — 🟡 `wylewka` · noun · rank 5896
+- zrębowy — ✅ [zrębowy](/slovo/zrebowy) · adj
+- ulewa — ✅ [ulewa](/slovo/ulewa) · noun
+- obelga — ✅ [obelga](/slovo/obelga) · noun
+- wylewka — ✅ [wylewka](/slovo/wylewka) · noun
 - przycies — ⛔ не распознано
-- ewenement — 🟡 `ewenement` · noun · rank 5897
-- klepisko — 🟡 `klepisko` · noun · rank 5898
-- plewa — 🟡 `plewa` · noun · rank 5899
-- bezpośrednio — 🟡 `bezpośrednio` · adv · rank 5900
-- odkruszać — 🟡 `odkruszać` · verb · rank 5901
+- ewenement — ✅ [ewenement](/slovo/ewenement) · noun
+- klepisko — ✅ [klepisko](/slovo/klepisko) · noun
+- plewa — ✅ [plewa](/slovo/plewa) · noun
+- bezpośrednio — ✅ [bezpośrednio](/slovo/bezposrednio) · adv
+- odkruszać — ✅ [odkruszać](/slovo/odkruszac) · verb
 - uszkodzenie — ✅ [uszkodzenie](/slovo/uszkodzenie) · noun
-- wylepiać — 🟡 `wylepiać` · verb · rank 5902
+- wylepiać — ✅ [wylepiać](/slovo/wylepiac) · verb
 - utrzymać — ✅ [utrzymać](/slovo/utrzymac) · verb
-- porać — 🟡 `porać` · verb · rank 5903
-- najrzadziej — 🟡 `rzadko` · adv · rank 5904
+- porać — ✅ [porać](/slovo/porac) · verb
+- najrzadziej — ✅ [rzadko](/slovo/rzadko) · adv
 - pęknąć — ✅ [pęknąć](/slovo/peknac) · verb
 - zapakucić — ⛔ не распознано
-- grzać — 🟡 `grzać` · verb · rank 5905
-- nieporządek — 🟡 `nieporządek` · noun · rank 5906
-- rozpowszechniać — 🟡 `rozpowszechniać` · verb · rank 5907
+- grzać — ✅ [grzać](/slovo/grzac) · verb
+- nieporządek — ✅ [nieporządek](/slovo/nieporzadek) · noun
+- rozpowszechniać — ✅ [rozpowszechniać](/slovo/rozpowszechniac) · verb
 - łych — ⛔ не распознано
-- kredens — 🟡 `kredens` · noun · rank 5908
-- zamożny — 🟡 `zamożny` · adj · rank 5909
+- kredens — ✅ [kredens](/slovo/kredens) · noun
+- zamożny — ✅ [zamożny](/slovo/zamozny) · adj
 - sprzęt — ✅ [sprzęt](/slovo/sprzet) · noun
 - sięgać — ✅ [sięgać](/slovo/siegac) · verb
-- zboże — 🟡 `zboże` · noun · rank 5910
+- zboże — ✅ [zboże](/slovo/zboze) · noun
 - prędko — ✅ [prędko](/slovo/predko) · adv
-- szuflą — 🟡 `szufla` · noun · rank 5911
-- wygarnać — 🟡 `wygarnąć` · verb · rank 5912
+- szuflą — ✅ [szufla](/slovo/szufla) · noun
+- wygarnać — ✅ [wygarnąć](/slovo/wygarnac) · verb
 - przeszkadzać — ✅ [przeszkadzać](/slovo/przeszkadzac) · verb
 - brak — ✅ [brak](/slovo/brak) · noun
-- przewracać — 🟡 `przewracać` · verb · rank 5913
-- zeżreć — 🟡 `zeżreć` · verb · rank 5914
-- bajoro — 🟡 `bajoro` · noun · rank 5915
+- przewracać — ✅ [przewracać](/slovo/przewracac) · verb
+- zeżreć — ✅ [zeżreć](/slovo/zezrec) · verb
+- bajoro — ✅ [bajoro](/slovo/bajoro) · noun
 - wnętrze — ✅ [wnętrze](/slovo/wnetrze) · noun
 - rzucić — ✅ [rzucić](/slovo/rzucic) · verb
-- zazdrość — 🟡 `zazdrość` · noun · rank 5916
+- zazdrość — ✅ [zazdrość](/slovo/zazdrosc) · noun
 - nastolatek — ✅ [nastolatek](/slovo/nastolatek) · noun
-- trójkątny — 🟡 `trójkątny` · adj · rank 5917
+- trójkątny — ✅ [trójkątny](/slovo/trojkatny) · adj
 - otwór — ✅ [otwór](/slovo/otwor) · noun
 - dziura — ✅ [dziura](/slovo/dziura) · noun
 - **chodzić chyłkiem**  
-  <sub>слова: [chodzić](/slovo/chodzic), `chyłkiem`</sub>
-- błona — 🟡 `błona` · noun · rank 5919
-- zabytek — 🟡 `zabytek` · noun · rank 5920
+  <sub>слова: [chodzić](/slovo/chodzic), [chyłkiem](/slovo/chylkiem)</sub>
+- błona — ✅ [błona](/slovo/blona) · noun
+- zabytek — ✅ [zabytek](/slovo/zabytek) · noun
 - zawał — ✅ [zawał](/slovo/zawal) · noun
-- odpicować — 🟡 `odpicować` · verb · rank 5921
-- prowizoryczność — 🟡 `prowizoryczność` · noun · rank 5922
-- Pokrzywo — 🟡 `pokrzywa` · noun · rank 5923
-- oschły — 🟡 `oschły` · adj · rank 5924
-- nacechowane — 🟡 `nacechować` · verb · rank 5925
+- odpicować — ✅ [odpicować](/slovo/odpicowac) · verb
+- prowizoryczność — ✅ [prowizoryczność](/slovo/prowizorycznosc) · noun
+- Pokrzywo — ✅ [pokrzywa](/slovo/pokrzywa) · noun
+- oschły — ✅ [oschły](/slovo/oschly) · adj
+- nacechowane — ✅ [nacechować](/slovo/nacechowac) · verb
 - ulec — ✅ [ulec](/slovo/ulec) · verb
 - sugerować — ✅ [sugerować](/slovo/sugerowac) · verb
-- łechtać — 🟡 `łechtać` · verb · rank 5926
+- łechtać — ✅ [łechtać](/slovo/lechtac) · verb
 - duma — ✅ [duma](/slovo/duma) · noun
-- jarzmo — 🟡 `jarzmo` · noun · rank 5927
+- jarzmo — ✅ [jarzmo](/slovo/jarzmo) · noun
 - dziedzictwo — ✅ [dziedzictwo](/slovo/dziedzictwo) · noun
-- łączny — 🟡 `łączny` · adj · rank 5928
-- przekraczać — 🟡 `przekraczać` · verb · rank 5929
-- przednówek — 🟡 `przednówek` · noun · rank 5930
+- łączny — ✅ [łączny](/slovo/laczny) · adj
+- przekraczać — ✅ [przekraczać](/slovo/przekraczac) · verb
+- przednówek — ✅ [przednówek](/slovo/przednowek) · noun
 - **Na przednówku nadal zmagał się z głodem.**  
-  <sub>слова: [na](/slovo/na), `przednówek`, [nadal](/slovo/nadal), `zmagać`, [się](/slovo/sie), [z](/slovo/z), [głód](/slovo/glod)</sub>
-- wybitny — 🟡 `wybitny` · adj · rank 5932
-- gospodarka — 🟡 `gospodarka` · noun · rank 5933
+  <sub>слова: [na](/slovo/na), [przednówek](/slovo/przednowek), [nadal](/slovo/nadal), [zmagać](/slovo/zmagac), [się](/slovo/sie), [z](/slovo/z), [głód](/slovo/glod)</sub>
+- wybitny — ✅ [wybitny](/slovo/wybitny) · adj
+- gospodarka — ✅ [gospodarka](/slovo/gospodarka) · noun
 - nędza — ✅ [nędza](/slovo/nedza) · noun
-- nędzarz — 🟡 `nędzarz` · noun · rank 5934
-- montownia — 🟡 `montownia` · noun · rank 5935
-- ówczesny — 🟡 `ówczesny` · adj · rank 5936
-- wyzbywać — 🟡 `wyzbywać` · verb · rank 5937
+- nędzarz — ✅ [nędzarz](/slovo/nedzarz) · noun
+- montownia — ✅ [montownia](/slovo/montownia) · noun
+- ówczesny — ✅ [ówczesny](/slovo/owczesny) · adj
+- wyzbywać — ✅ [wyzbywać](/slovo/wyzbywac) · verb
 - pułapka — ✅ [pułapka](/slovo/pulapka) · noun
-- włóczęgostwo — 🟡 `włóczęgostwo` · noun · rank 5938
+- włóczęgostwo — ✅ [włóczęgostwo](/slovo/wloczegostwo) · noun
 - **a propos**  
-  <sub>слова: [a](/slovo/a), `propos`</sub>
+  <sub>слова: [a](/slovo/a), [propos](/slovo/propos)</sub>
 - **Sudan to państwo będące od ponad trzech lat w stanie wojny.**  
   <sub>слова: ~~Sudan~~, [to](/slovo/to), [państwo](/slovo/panstwo), [być](/slovo/byc), [od](/slovo/od), [ponad](/slovo/ponad), [trzy](/slovo/trzy), [rok](/slovo/rok), [w](/slovo/w), [stan](/slovo/stan), [wojna](/slovo/wojna)</sub>
 - toczącą — ✅ [toczyć](/slovo/toczyc) · verb
 - stanowić — ✅ [stanowić](/slovo/stanowic) · verb
-- rdzenny — 🟡 `rdzenny` · adj · rank 5939
-- zróżnicowanie — 🟡 `zróżnicowanie` · noun · rank 5940
-- przekleństwo — 🟡 `przekleństwo` · noun · rank 5941
-- spichlerz — 🟡 `spichlerz` · noun · rank 5942
+- rdzenny — ✅ [rdzenny](/slovo/rdzenny) · adj
+- zróżnicowanie — ✅ [zróżnicowanie](/slovo/zroznicowanie) · noun
+- przekleństwo — ✅ [przekleństwo](/slovo/przeklenstwo) · noun
+- spichlerz — ✅ [spichlerz](/slovo/spichlerz) · noun
 - kłótnia — ✅ [kłótnia](/slovo/klotnia) · noun
-- pogrążać — 🟡 `pogrążać` · verb · rank 5943
-- tlący — 🟡 `tlić` · verb · rank 5944
-- zadłużeniowy — 🟡 `zadłużeniowy` · adj · rank 5945
+- pogrążać — ✅ [pogrążać](/slovo/pograzac) · verb
+- tlący — ✅ [tlić](/slovo/tlic) · verb
+- zadłużeniowy — ✅ [zadłużeniowy](/slovo/zadluzeniowy) · adj
 - **kres nadejdzie dopiero**  
   <sub>слова: [kres](/slovo/kres), [nadejść](/slovo/nadejsc), [dopiero](/slovo/dopiero)</sub>
 - dowódca — ✅ [dowódca](/slovo/dowodca) · noun
-- ośmiornica — 🟡 `ośmiornica` · noun · rank 5946
+- ośmiornica — ✅ [ośmiornica](/slovo/osmiornica) · noun
 - przestrzeń — ✅ [przestrzeń](/slovo/przestrzen) · noun
 - rzeczywistość — ✅ [rzeczywistość](/slovo/rzeczywistosc) · noun
-- złożoność — 🟡 `złożoność` · noun · rank 5947
+- złożoność — ✅ [złożoność](/slovo/zlozonosc) · noun
 - **Złożoność tego świata jest naprawdę ciekawa.**  
-  <sub>слова: `złożoność`, [ten](/slovo/ten), [świat](/slovo/swiat), [być](/slovo/byc), [naprawdę](/slovo/naprawde), [ciekawy](/slovo/ciekawy)</sub>
+  <sub>слова: [złożoność](/slovo/zlozonosc), [ten](/slovo/ten), [świat](/slovo/swiat), [być](/slovo/byc), [naprawdę](/slovo/naprawde), [ciekawy](/slovo/ciekawy)</sub>
 - łączyć — ✅ [łączyć](/slovo/laczyc) · verb
 - dzielić — ✅ [dzielić](/slovo/dzielic) · verb
-- zachęcać — 🟡 `zachęcać` · verb · rank 5948
+- zachęcać — ✅ [zachęcać](/slovo/zachecac) · verb
 - odrzucać — ✅ [odrzucać](/slovo/odrzucac) · verb
-- niezdrowy — 🟡 `niezdrowy` · adj · rank 5949
+- niezdrowy — ✅ [niezdrowy](/slovo/niezdrowy) · adj
 - wyspa — ✅ [wyspa](/slovo/wyspa) · noun
 - Animoje — 🔤 имя собственное
-- rządzący — 🟡 `rządzący` · adj · rank 5950
-- namacalny — 🟡 `namacalny` · adj · rank 5951
-- skrótowo — 🟡 `skrótowo` · adv · rank 5952
+- rządzący — ✅ [rządzący](/slovo/rzadzacy) · adj
+- namacalny — ✅ [namacalny](/slovo/namacalny) · adj
+- skrótowo — ✅ [skrótowo](/slovo/skrotowo) · adv
 - przeciwieństwo — ✅ [przeciwieństwo](/slovo/przeciwienstwo) · noun
 - przejąć — ✅ [przejąć](/slovo/przejac) · verb
 - winda — ✅ [winda](/slovo/winda) · noun
 - **Jak mam się dostać do środka?**  
   <sub>слова: [jak](/slovo/jak), [mama](/slovo/mama), [się](/slovo/sie), [dostać](/slovo/dostac), [do](/slovo/do), [środek](/slovo/srodek)</sub>
 - przecież — ✅ [przecież](/slovo/przeciez) · part
-- musnął — 🟡 `musnąć` · verb · rank 5953
+- musnął — ✅ [musnąć](/slovo/musnac) · verb
 - **Uważaj no!**  
   <sub>слова: [uważać](/slovo/uwazac), [no](/slovo/no)</sub>
-- malowniczy — 🟡 `malowniczy` · adj · rank 5954
+- malowniczy — ✅ [malowniczy](/slovo/malowniczy) · adj
 - zdjęcie — ✅ [zdjęcie](/slovo/zdjecie) · noun
-- wąwóz — 🟡 `wąwóz` · noun · rank 5955
+- wąwóz — ✅ [wąwóz](/slovo/wawoz) · noun
 - **Niestety tym razem nie udało się tam dotrzeć.**  
   <sub>слова: [niestety](/slovo/niestety), [ten](/slovo/ten), [raz](/slovo/raz), [nie](/slovo/nie), [udać](/slovo/udac), [się](/slovo/sie), [tam](/slovo/tam), [dotrzeć](/slovo/dotrzec)</sub>
-- przekąsić — 🟡 `przekąsić` · verb · rank 5956
+- przekąsić — ✅ [przekąsić](/slovo/przekasic) · verb
 - **Płynął z Cypru na grecką wyspę Rodos, którą pewnie większość z was kojarzy.**  
-  <sub>слова: [płynąć](/slovo/plynac), [z](/slovo/z), ~~Cypru~~, [na](/slovo/na), `grecki`, [wyspa](/slovo/wyspa), ~~Rodos~~, [który](/slovo/ktory), [pewnie](/slovo/pewnie), [większość](/slovo/wiekszosc), [z](/slovo/z), [wy](/slovo/wy), `kojarzyć`</sub>
-- śmigłowiec — 🟡 `śmigłowiec` · noun · rank 5958
+  <sub>слова: [płynąć](/slovo/plynac), [z](/slovo/z), ~~Cypru~~, [na](/slovo/na), [grecki](/slovo/grecki), [wyspa](/slovo/wyspa), ~~Rodos~~, [który](/slovo/ktory), [pewnie](/slovo/pewnie), [większość](/slovo/wiekszosc), [z](/slovo/z), [wy](/slovo/wy), [kojarzyć](/slovo/kojarzyc)</sub>
+- śmigłowiec — ✅ [śmigłowiec](/slovo/smiglowiec) · noun
 - ląd — ✅ [ląd](/slovo/lad) · noun
-- urokliwy — 🟡 `urokliwy` · adj · rank 5959
-- nawiązywać — 🟡 `nawiązywać` · verb · rank 5815
+- urokliwy — ✅ [urokliwy](/slovo/urokliwy) · adj
+- nawiązywać — ✅ [nawiązywać](/slovo/nawiazywac) · verb
 - połączenie — ✅ [połączenie](/slovo/polaczenie) · noun
 - **Alicja wkrótce doszła do wniosku, że to doprawdy bardzo trudna gra**  
   <sub>слова: ~~Alicja~~, [wkrótce](/slovo/wkrotce), [dojść](/slovo/dojsc), [do](/slovo/do), [wniosek](/slovo/wniosek), [że](/slovo/ze), [to](/slovo/to), [doprawdy](/slovo/doprawdy), [bardzo](/slovo/bardzo), [trudny](/slovo/trudny), [gra](/slovo/gra)</sub>
@@ -1186,112 +1191,112 @@ pnpm dict:status && pnpm generate
 - pęknąć — ✅ [pęknąć](/slovo/peknac) · verb
 - wciąż — ✅ [wciąż](/slovo/wciaz) · adv
 - **nie ma się czym tak chełpić**  
-  <sub>слова: [nie](/slovo/nie), [mieć](/slovo/miec), [się](/slovo/sie), [co](/slovo/co), [tak](/slovo/tak), `chełpić`</sub>
+  <sub>слова: [nie](/slovo/nie), [mieć](/slovo/miec), [się](/slovo/sie), [co](/slovo/co), [tak](/slovo/tak), [chełpić](/slovo/chelpic)</sub>
 - **Nigdy się nad tym nie zastanawiałam**  
   <sub>слова: [nigdy](/slovo/nigdy), [się](/slovo/sie), [nad](/slovo/nad), [ten](/slovo/ten), [nie](/slovo/nie), [zastanawiać](/slovo/zastanawiac)</sub>
 - **Alicja nic nie powiedziała; usiadła z twarzą w dłoniach, zastanawiając się, czy cokolwiek kiedykolwiek znów potoczy się naturalnie.**  
   <sub>слова: ~~Alicja~~, [nic](/slovo/nic), [nie](/slovo/nie), [powiedzieć](/slovo/powiedziec), [usiąść](/slovo/usiasc), [z](/slovo/z), [twarz](/slovo/twarz), [w](/slovo/w), [dłoń](/slovo/dlon), [zastanawiać](/slovo/zastanawiac), [się](/slovo/sie), [czy](/slovo/czy), [cokolwiek](/slovo/cokolwiek), [kiedykolwiek](/slovo/kiedykolwiek), [znów](/slovo/znow), [potoczyć](/slovo/potoczyc), [się](/slovo/sie), [naturalnie](/slovo/naturalnie)</sub>
 - zaprzeczać — ✅ [zaprzeczać](/slovo/zaprzeczac) · verb
-- wór — 🟡 `wór` · noun · rank 5961
-- strącając — 🟡 `strącać` · verb · rank 5962
+- wór — ✅ [wór](/slovo/wor) · noun
+- strącając — ✅ [strącać](/slovo/stracac) · verb
 - przecież — ✅ [przecież](/slovo/przeciez) · part
-- zatankować — 🟡 `zatankować` · verb · rank 5963
+- zatankować — ✅ [zatankować](/slovo/zatankowac) · verb
 - zwłaszcza — ✅ [zwłaszcza](/slovo/zwlaszcza) · conj
 - bywać — ✅ [bywać](/slovo/bywac) · verb
-- rywalizować — 🟡 `rywalizować` · verb · rank 5964
-- ostentacyjny — 🟡 `ostentacyjny` · adj · rank 5965
+- rywalizować — ✅ [rywalizować](/slovo/rywalizowac) · verb
+- ostentacyjny — ✅ [ostentacyjny](/slovo/ostentacyjny) · adj
 - nadejść — ✅ [nadejść](/slovo/nadejsc) · verb
-- rdzynymi — 🟡 `rdzenny` · adj · rank 5939
+- rdzynymi — ✅ [rdzenny](/slovo/rdzenny) · adj
 - przeciwieństwo — ✅ [przeciwieństwo](/slovo/przeciwienstwo) · noun
-- ingerencja — 🟡 `ingerencja` · noun · rank 5966
-- popękać — 🟡 `popękać` · verb · rank 5967
-- wyblakły — 🟡 `wyblakły` · adj · rank 5968
-- garncarski — 🟡 `garncarski` · adj · rank 5969
-- zardzewieć — 🟡 `zardzewieć` · verb · rank 5970
-- wyrób — 🟡 `wyrób` · noun · rank 5971
+- ingerencja — ✅ [ingerencja](/slovo/ingerencja) · noun
+- popękać — ✅ [popękać](/slovo/popekac) · verb
+- wyblakły — ✅ [wyblakły](/slovo/wyblakly) · adj
+- garncarski — ✅ [garncarski](/slovo/garncarski) · adj
+- zardzewieć — ✅ [zardzewieć](/slovo/zardzewiec) · verb
+- wyrób — ✅ [wyrób](/slovo/wyrob) · noun
 - założyć — ✅ [założyć](/slovo/zalozyc) · verb
-- łobuziak — 🟡 `łobuziak` · noun · rank 5972
-- śmigał — 🟡 `śmigać` · verb · rank 5973
+- łobuziak — ✅ [łobuziak](/slovo/lobuziak) · noun
+- śmigał — ✅ [śmigać](/slovo/smigac) · verb
 - koleś — ✅ [koleś](/slovo/koles) · noun
 - przegapić — ✅ [przegapić](/slovo/przegapic) · verb
-- splądrować — 🟡 `splądrować` · verb · rank 5974
+- splądrować — ✅ [splądrować](/slovo/spladrowac) · verb
 - złożyć — ✅ [złożyć](/slovo/zlozyc) · verb
-- zużycie — 🟡 `zużycie` · noun · rank 5975
+- zużycie — ✅ [zużycie](/slovo/zuzycie) · noun
 - strefa — ✅ [strefa](/slovo/strefa) · noun
-- lornetka — 🟡 `lornetka` · noun · rank 5976
-- zakłycać — 🟡 `zakłócać` · verb · rank 5977
+- lornetka — ✅ [lornetka](/slovo/lornetka) · noun
+- zakłycać — ✅ [zakłócać](/slovo/zaklocac) · verb
 - przejąć — ✅ [przejąć](/slovo/przejac) · verb
-- szpargał — 🟡 `szpargał` · noun · rank 5978
-- żarówka — 🟡 `żarówka` · noun · rank 5979
-- wszakże — 🟡 `wszakże` · part · rank 5980
-- plansza — 🟡 `plansza` · noun · rank 5981
+- szpargał — ✅ [szpargał](/slovo/szpargal) · noun
+- żarówka — ✅ [żarówka](/slovo/zarowka) · noun
+- wszakże — ✅ [wszakże](/slovo/wszakze) · part
+- plansza — ✅ [plansza](/slovo/plansza) · noun
 - nieruchomość — ✅ [nieruchomość](/slovo/nieruchomosc) · noun
-- marnieć — 🟡 `marnieć` · verb · rank 5982
-- kąpielówek — 🟡 `kąpielówki` · noun · rank 5983
+- marnieć — ✅ [marnieć](/slovo/marniec) · verb
+- kąpielówek — ✅ [kąpielówki](/slovo/kapielowki) · noun
 - tło — ✅ [tło](/slovo/tlo) · noun
 - wart — ✅ [wart](/slovo/wart) · adj
 - odzyskać — ✅ [odzyskać](/slovo/odzyskac) · verb
-- zapożyczenie — 🟡 `zapożyczenie` · noun · rank 5984
-- przestawiać — 🟡 `przestawiać` · verb · rank 5985
+- zapożyczenie — ✅ [zapożyczenie](/slovo/zapozyczenie) · noun
+- przestawiać — ✅ [przestawiać](/slovo/przestawiac) · verb
 - narzekać — ✅ [narzekać](/slovo/narzekac) · verb
-- cypelku — 🟡 `cypelek` · noun · rank 5986
+- cypelku — ✅ [cypelek](/slovo/cypelek) · noun
 - psuć — ✅ [psuć](/slovo/psuc) · verb
-- zacny — 🟡 `zacny` · adj · rank 5987
+- zacny — ✅ [zacny](/slovo/zacny) · adj
 - leżyte — ⛔ не распознано
 - szybro — ⛔ не распознано
 - pochodzić — ✅ [pochodzić](/slovo/pochodzic) · verb
-- sprężysty — 🟡 `sprężysty` · adj · rank 5988
+- sprężysty — ✅ [sprężysty](/slovo/sprezysty) · adj
 - zwycięzca — ✅ [zwycięzca](/slovo/zwyciezca) · noun
 - syczeć — ✅ [syczeć](/slovo/syczec) · verb
-- węglowodać — 🟡 `węglowodan` · noun · rank 5989
+- węglowodać — ✅ [węglowodan](/slovo/weglowodan) · noun
 - wpisać — ✅ [wpisać](/slovo/wpisac) · verb
 - szczep — ✅ [szczep](/slovo/szczep) · noun
 - bieżąco — ✅ [bieżąco](/slovo/biezaco) · adv
-- rozpruwać — 🟡 `rozpruwać` · verb · rank 5990
+- rozpruwać — ✅ [rozpruwać](/slovo/rozpruwac) · verb
 - rewelka — ⛔ не распознано
-- piętrowy — 🟡 `piętrowy` · adj · rank 5991
-- nadjeżdżać — 🟡 `nadjeżdżać` · verb · rank 5992
+- piętrowy — ✅ [piętrowy](/slovo/pietrowy) · adj
+- nadjeżdżać — ✅ [nadjeżdżać](/slovo/nadjezdzac) · verb
 - posiadać — ✅ [posiadać](/slovo/posiadac) · verb
 - kopł — ⛔ не распознано
 - wynosić — ✅ [wynosić](/slovo/wynosic) · verb
-- śmigać — 🟡 `śmigać` · verb · rank 5973
-- gąszczy — 🟡 `gąszcz` · noun · rank 5993
+- śmigać — ✅ [śmigać](/slovo/smigac) · verb
+- gąszczy — ✅ [gąszcz](/slovo/gaszcz) · noun
 - bodaj — ✅ [bodaj](/slovo/bodaj) · part
-- laik — 🟡 `laik` · noun · rank 5994
-- założenie — 🟡 `założenie` · noun · rank 5995
-- wielokrotnie — 🟡 `wielokrotnie` · adv · rank 5996
+- laik — ✅ [laik](/slovo/laik) · noun
+- założenie — ✅ [założenie](/slovo/zalozenie) · noun
+- wielokrotnie — ✅ [wielokrotnie](/slovo/wielokrotnie) · adv
 - występować — ✅ [występować](/slovo/wystepowac) · verb
 - zwróćcie — ✅ [zwrócić](/slovo/zwrocic) · verb
-- ujęcie — 🟡 `ujęcie` · noun · rank 5997
-- piesi — 🟡 `pieszy` · adj · rank 5998
-- potocznie — 🟡 `potocznie` · adv · rank 5999
-- taras — 🟡 `taras` · noun · rank 6000
+- ujęcie — ✅ [ujęcie](/slovo/ujecie) · noun
+- piesi — ✅ [pieszy](/slovo/pieszy) · adj
+- potocznie — ✅ [potocznie](/slovo/potocznie) · adv
+- taras — ✅ [taras](/slovo/taras) · noun
 - promień — ✅ [promień](/slovo/promien) · noun
-- odbijać — 🟡 `odbijać` · verb · rank 4442
-- wycieraczka — 🟡 `wycieraczka` · noun · rank 6001
-- skubaniec — 🟡 `skubaniec` · noun · rank 6002
+- odbijać — ✅ [odbijać](/slovo/odbijac) · verb
+- wycieraczka — ✅ [wycieraczka](/slovo/wycieraczka) · noun
+- skubaniec — ✅ [skubaniec](/slovo/skubaniec) · noun
 - polecam — ✅ [polecać](/slovo/polecac) · verb
 - polecać — ✅ [polecać](/slovo/polecac) · verb
 - tor — ✅ [tor](/slovo/tor) · noun
 - puszka — ✅ [puszka](/slovo/puszka) · noun
-- zachęcać — 🟡 `zachęcać` · verb · rank 5948
-- zakres — 🟡 `zakres` · noun · rank 6003
-- widmo — 🟡 `widmo` · noun · rank 6004
-- czynny — 🟡 `czynny` · adj · rank 6005
-- gdzieniegdzie — 🟡 `gdzieniegdzie` · adv · rank 6006
+- zachęcać — ✅ [zachęcać](/slovo/zachecac) · verb
+- zakres — ✅ [zakres](/slovo/zakres) · noun
+- widmo — ✅ [widmo](/slovo/widmo) · noun
+- czynny — ✅ [czynny](/slovo/czynny) · adj
+- gdzieniegdzie — ✅ [gdzieniegdzie](/slovo/gdzieniegdzie) · adv
 - spłukać — ✅ [spłukać](/slovo/splukac) · verb
 - nieobecność — ✅ [nieobecność](/slovo/nieobecnosc) · noun
-- przytłaczać — 🟡 `przytłaczać` · verb · rank 6007
-- przytłaczające — 🟡 `przytłaczający` · adj · rank 6008
-- tętnić — 🟡 `tętnić` · verb · rank 6009
-- zwycięski — 🟡 `zwycięski` · adj · rank 6010
+- przytłaczać — ✅ [przytłaczać](/slovo/przytlaczac) · verb
+- przytłaczające — ✅ [przytłaczający](/slovo/przytlaczajacy) · adj
+- tętnić — ✅ [tętnić](/slovo/tetnic) · verb
+- zwycięski — ✅ [zwycięski](/slovo/zwycieski) · adj
 - przejść — ✅ [przejść](/slovo/przejsc) · verb
-- przejście — 🟡 `przejście` · noun · rank 6011
-- jeńc — 🟡 `jeniec` · noun · rank 6012
-- prastara — 🟡 `prastary` · adj · rank 6013
+- przejście — ✅ [przejście](/slovo/przejscie) · noun
+- jeńc — ✅ [jeniec](/slovo/jeniec) · noun
+- prastara — ✅ [prastary](/slovo/prastary) · adj
 - niedźwiedziagi — ⛔ не распознано
 - przekazać — ✅ [przekazać](/slovo/przekazac) · verb
-- pstrokaty — 🟡 `pstrokaty` · adj · rank 6014
+- pstrokaty — ✅ [pstrokaty](/slovo/pstrokaty) · adj
 - **Wbrew pozorom, bo wszyscy narzekają na kuchnię brytyjską**  
   <sub>слова: [wbrew](/slovo/wbrew), [pozór](/slovo/pozor), [bo](/slovo/bo), [wszyscy](/slovo/wszyscy), [narzekać](/slovo/narzekac), [na](/slovo/na), [kuchnia](/slovo/kuchnia), [brytyjski](/slovo/brytyjski)</sub>
 - narzekać — ✅ [narzekać](/slovo/narzekac) · verb
@@ -1299,56 +1304,56 @@ pnpm dict:status && pnpm generate
 - pozór — ✅ [pozór](/slovo/pozor) · noun
 - ledwo — ✅ [ledwo](/slovo/ledwo) · adv
 - **Jest taki tłok, że po prostu ledwo weszliśmy, musieliśmy się wepchać.**  
-  <sub>слова: [być](/slovo/byc), [taki](/slovo/taki), `tłok`, [że](/slovo/ze), [po](/slovo/po), [prosty](/slovo/prosty), [ledwo](/slovo/ledwo), [wejść](/slovo/wejsc), [musieć](/slovo/musiec), [się](/slovo/sie), [wepchać](/slovo/wepchac)</sub>
+  <sub>слова: [być](/slovo/byc), [taki](/slovo/taki), [tłok](/slovo/tlok), [że](/slovo/ze), [po](/slovo/po), [prosty](/slovo/prosty), [ledwo](/slovo/ledwo), [wejść](/slovo/wejsc), [musieć](/slovo/musiec), [się](/slovo/sie), [wepchać](/slovo/wepchac)</sub>
 - szczyt — ✅ [szczyt](/slovo/szczyt) · noun
 - podążać — ✅ [podążać](/slovo/podazac) · verb
 - podążając — ✅ [podążać](/slovo/podazac) · verb
-- ściemy — 🟡 `ściema` · noun · rank 6016
+- ściemy — ✅ [ściema](/slovo/sciema) · noun
 - **nie skłam**  
   <sub>слова: [nie](/slovo/nie), [skłamać](/slovo/sklamac)</sub>
-- soczewica — 🟡 `soczewica` · noun · rank 6017
+- soczewica — ✅ [soczewica](/slovo/soczewica) · noun
 - Czicie — 🔤 имя собственное
-- syf — 🟡 `syf` · noun · rank 6018
-- wypas — 🟡 `wypas` · noun · rank 6019
+- syf — ✅ [syf](/slovo/syf) · noun
+- wypas — ✅ [wypas](/slovo/wypas) · noun
 - wyluzować — ✅ [wyluzować](/slovo/wyluzowac) · verb
 - luz — ✅ [luz](/slovo/luz) · noun
 - wszędzie — ✅ [wszędzie](/slovo/wszedzie) · adv
 - przyjemność — ✅ [przyjemność](/slovo/przyjemnosc) · noun
-- króciutko — 🟡 `króciutko` · adv · rank 6020
+- króciutko — ✅ [króciutko](/slovo/krociutko) · adv
 - gadać — ✅ [gadać](/slovo/gadac) · verb
-- aczkolwiek — 🟡 `aczkolwiek` · conj · rank 6021
+- aczkolwiek — ✅ [aczkolwiek](/slovo/aczkolwiek) · conj
 - baszkanka — ⛔ не распознано
 - pozbawionych — ✅ [pozbawić](/slovo/pozbawic) · verb
-- pochylić — 🟡 `pochylić` · verb · rank 6022
-- powszechny — 🟡 `powszechny` · adj · rank 6023
-- swoistość — 🟡 `swoistość` · noun · rank 6024
-- oszczędność — 🟡 `oszczędność` · noun · rank 6025
-- dążyć — 🟡 `dążyć` · verb · rank 6026
-- utarte — 🟡 `utarty` · adj · rank 6027
-- przyzwyczajenie — 🟡 `przyzwyczajenie` · noun · rank 6028
-- skupiać — 🟡 `skupiać` · verb · rank 4632
+- pochylić — ✅ [pochylić](/slovo/pochylic) · verb
+- powszechny — ✅ [powszechny](/slovo/powszechny) · adj
+- swoistość — ✅ [swoistość](/slovo/swoistosc) · noun
+- oszczędność — ✅ [oszczędność](/slovo/oszczednosc) · noun
+- dążyć — ✅ [dążyć](/slovo/dazyc) · verb
+- utarte — ✅ [utarty](/slovo/utarty) · adj
+- przyzwyczajenie — ✅ [przyzwyczajenie](/slovo/przyzwyczajenie) · noun
+- skupiać — ✅ [skupiać](/slovo/skupiac) · verb
 - wówczas — ✅ [wówczas](/slovo/wowczas) · adv
-- czołowy — 🟡 `czołowy` · adj · rank 6029
+- czołowy — ✅ [czołowy](/slovo/czolowy) · adj
 - skupić — ✅ [skupić](/slovo/skupic) · verb
-- zbagatelizować — 🟡 `zbagatelizować` · verb · rank 5854
-- sklecić — 🟡 `sklecić` · verb · rank 6030
-- zasadniczy — 🟡 `zasadniczy` · adj · rank 6031
-- posiaść — 🟡 `posiąść` · verb · rank 6032
+- zbagatelizować — ✅ [zbagatelizować](/slovo/zbagatelizowac) · verb
+- sklecić — ✅ [sklecić](/slovo/sklecic) · verb
+- zasadniczy — ✅ [zasadniczy](/slovo/zasadniczy) · adj
+- posiaść — ✅ [posiąść](/slovo/posiasc) · verb
 - umiejętność — ✅ [umiejętność](/slovo/umiejetnosc) · noun
-- doskwierać — 🟡 `doskwierać` · verb · rank 6033
-- prawidłowość — 🟡 `prawidłowość` · noun · rank 6034
+- doskwierać — ✅ [doskwierać](/slovo/doskwierac) · verb
+- prawidłowość — ✅ [prawidłowość](/slovo/prawidlowosc) · noun
 - szeregowy — ✅ [szeregowy](/slovo/szeregowy) · adj
-- trwalszy — 🟡 `trwały` · adj · rank 5780
+- trwalszy — ✅ [trwały](/slovo/trwaly) · adj
 - **"Nie przesuwajcie!" or "Proszę nie przesuwać!"**  
-  <sub>слова: [nie](/slovo/nie), `przesuwać`, ~~or~~, [prosić](/slovo/prosic), [nie](/slovo/nie), `przesuwać`</sub>
-- rzetelny — 🟡 `rzetelny` · adj · rank 6036
+  <sub>слова: [nie](/slovo/nie), [przesuwać](/slovo/przesuwac), ~~or~~, [prosić](/slovo/prosic), [nie](/slovo/nie), [przesuwać](/slovo/przesuwac)</sub>
+- rzetelny — ✅ [rzetelny](/slovo/rzetelny) · adj
 - imponujący — ✅ [imponujący](/slovo/imponujacy) · adj
-- kojarzyć — 🟡 `kojarzyć` · verb · rank 4762
+- kojarzyć — ✅ [kojarzyć](/slovo/kojarzyc) · verb
 - zrębisty — ⛔ не распознано
 - mijać — ✅ [mijać](/slovo/mijac) · verb
-- zaciążyć — 🟡 `zaciążyć` · verb · rank 6037
+- zaciążyć — ✅ [zaciążyć](/slovo/zaciazyc) · verb
 - dziedzictwo — ✅ [dziedzictwo](/slovo/dziedzictwo) · noun
-- przełamać — 🟡 `przełamać` · verb · rank 6038
-- przytłaczającej — 🟡 `przytłaczający` · adj · rank 6008
+- przełamać — ✅ [przełamać](/slovo/przelamac) · verb
+- przytłaczającej — ✅ [przytłaczający](/slovo/przytlaczajacy) · adj
 
 ### Raw words
