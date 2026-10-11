@@ -1,0 +1,86 @@
+# review
+id: zalozenie
+format: 2
+lemma: "założenie"
+rank: 5995
+pos: noun
+pron: { cyr: "зауожэ́нье" }
+senses:
+  - id: premise
+    ru: "предположение, допущение, исходная посылка; мн. ч. — принципы, основные положения"
+    examples:
+      - pl: "Twoje założenie wydaje mi się rozsądne."
+        ru: "Твоё предположение кажется мне разумным."
+        source: { kind: authored }
+      - pl: "To niebezpieczne założenie dla całego projektu."
+        ru: "Это опасное допущение для всего проекта."
+        source: { kind: authored }
+      - pl: "Twój argument opiera się na błędnym założeniu."
+        ru: "Твой аргумент основан на ошибочной посылке."
+        source: { kind: authored }
+  - id: founding
+    ru: "основание, создание (фирмы, города, семьи)"
+    examples:
+      - pl: "Założenie uniwersytetu było jej wielkim marzeniem."
+        ru: "Основание университета было её большой мечтой."
+        source: { kind: translated, id: 695716 }
+      - pl: "Tom i Mary myślą o założeniu rodziny."
+        ru: "Том и Мэри думают о том, чтобы создать семью."
+        source: { kind: translated, id: 6995391 }
+      - pl: "Dlaczego odwlekasz założenie rodziny?"
+        ru: "Почему ты откладываешь создание семьи?"
+        source: { kind: translated, id: 12586563 }
+  - id: putting-on
+    ru: "надевание (одежды, очков); установка"
+    examples:
+      - pl: "Wyprać przed pierwszym założeniem."
+        ru: "Постирать перед первой ноской."
+        source: { kind: translated, id: 10545329 }
+      - pl: "Po założeniu okularów widział wszystko wyraźnie."
+        ru: "Надев очки, он видел всё чётко."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Отглагольное существительное от ZAŁOŻYĆ и наследует все его значения: «основать» (ZAŁOŻENIE FIRMY — открытие фирмы), «надеть» (PO ZAŁOŻENIU KASKU), «предположить» (MOJE ZAŁOŻENIE — моё допущение). Значение подсказывает контекст." }
+  - { kind: false-friend, text: "Не «заложение» и не «залог»: залог по-польски — ZASTAW, KAUCJA. Русское «заложить» обычно не совпадает с ZAŁOŻYĆ, которое чаще значит «основать» или «надеть»." }
+  - { kind: government, text: "Устойчиво: WYCHODZIĆ Z ZAŁOŻENIA, ŻE… — «исходить из того, что…»; Z ZAŁOŻENIA — «по определению, изначально»; W ZAŁOŻENIU — «по замыслу, в теории»." }
+  - { kind: pronunciation, text: "Читается «зауожэ́нье»: Ł — «у», Ż — «ж». Родительный множественного — ZAŁOŻEŃ «зауо́жэнь»." }
+collocations:
+  - { pl: "wychodzić z założenia, że…", ru: "исходить из того, что…" }
+  - { pl: "podstawowe założenia", ru: "основные принципы" }
+  - { pl: "założenie firmy", ru: "открытие фирмы" }
+  - { pl: "z założenia", ru: "по определению, изначально" }
+family:
+  - { pl: "założyć", ru: "основать; надеть; предположить", relation: root, id: zalozyc }
+  - { pl: "zakładać", ru: "основывать; надевать; предполагать", relation: root, id: zakladac }
+  - { pl: "założyciel", ru: "основатель", relation: derived }
+  - { pl: "zakład", ru: "предприятие; пари", relation: root, id: zaklad }
+etymology: "Отглагольное существительное от ZAŁOŻYĆ (ZA- + ŁOŻYĆ «класть»); тот же корень, что в русских «заложить», «положение»."
+memory: "Założenie — всё, что можно założyć: фирму (основание), очки (надевание), мысль в основу рассуждения (допущение)."
+idioms:
+  - { pl: "wychodzić z założenia, że…", ru: "исходить из того, что…" }
+  - { pl: "w założeniu", ru: "по замыслу, теоретически" }
+formExamples:
+  - { form: "założenie", pl: "Założenie firmy zajęło mi tydzień.", ru: "Открытие фирмы заняло у меня неделю.", source: { kind: authored } }
+  - { form: "założenie", pl: "Moje założenie okazało się błędne.", ru: "Моё предположение оказалось ошибочным.", source: { kind: authored } }
+  - { form: "założenie", pl: "Przyjmijmy założenie, że wszyscy przyjdą na czas.", ru: "Допустим, что все придут вовремя.", source: { kind: authored } }
+  - { form: "założenia", pl: "Musieliśmy zrozumieć podstawowe założenia.", ru: "Нам нужно было понять основные принципы.", source: { kind: translated, id: 914745 } }
+  - { form: "założenia", pl: "Dział planowania przygotuje założenia do projektu.", ru: "Отдел планирования подготовит исходные данные для проекта.", source: { kind: translated, id: 3744784 } }
+  - { form: "założenia", pl: "Od założenia miasta minęło siedemset lat.", ru: "С основания города прошло семьсот лет.", source: { kind: authored } }
+  - { form: "założeniu", pl: "Rozmawialiśmy o założeniu rodziny.", ru: "Мы говорили о создании семьи.", source: { kind: translated, id: 3757054 } }
+  - { form: "założeniu", pl: "Chyba zapomniałeś o pierwotnym założeniu.", ru: "Кажется, ты забыл о первоначальном замысле.", source: { kind: translated, id: 368010 } }
+  - { form: "założeniu", pl: "W założeniu ten system miał być prosty.", ru: "По замыслу эта система должна была быть простой.", source: { kind: authored } }
+  - { form: "założeniem", pl: "Naprawdę myślisz nad założeniem własnej firmy?", ru: "Ты правда думаешь об открытии собственной фирмы?", source: { kind: translated, id: 959142 } }
+  - { form: "założeniem", pl: "Przed założeniem konta przeczytaj regulamin.", ru: "Перед созданием аккаунта прочитай правила.", source: { kind: authored } }
+  - { form: "założeniem", pl: "Zgadzam się z tym założeniem tylko częściowo.", ru: "С этим допущением я согласен лишь частично.", source: { kind: authored } }
+  - { form: "założeń", pl: "Projekt nie spełnia podstawowych założeń.", ru: "Проект не отвечает исходным требованиям.", source: { kind: authored } }
+  - { form: "założeń", pl: "Z tych założeń wynika jasny wniosek.", ru: "Из этих посылок следует ясный вывод.", source: { kind: authored } }
+  - { form: "założeń", pl: "Budżet przygotowano według nowych założeń.", ru: "Бюджет подготовили по новым принципам.", source: { kind: authored } }
+  - { form: "założeniom", pl: "Wyniki przeczą wcześniejszym założeniom.", ru: "Результаты противоречат прежним предположениям.", source: { kind: authored } }
+  - { form: "założeniom", pl: "Dzięki jasnym założeniom praca szła szybko.", ru: "Благодаря чётким исходным условиям работа шла быстро.", source: { kind: authored } }
+  - { form: "założeniom", pl: "Wierny swoim założeniom, nie zmienił planu.", ru: "Верный своим принципам, он не изменил план.", source: { kind: authored } }
+  - { form: "założeniami", pl: "Zgodnie z założeniami budowa skończy się w maju.", ru: "По плану стройка закончится в мае.", source: { kind: authored } }
+  - { form: "założeniami", pl: "Nie zgadzam się z twoimi założeniami.", ru: "Я не согласен с твоими посылками.", source: { kind: authored } }
+  - { form: "założeniami", pl: "Program powstał z ambitnymi założeniami.", ru: "Программа создавалась с амбициозными целями.", source: { kind: authored } }
+  - { form: "założeniach", pl: "W założeniach reformy nie było mowy o podwyżkach.", ru: "В исходных положениях реформы о прибавках к зарплате речи не было.", source: { kind: authored } }
+  - { form: "założeniach", pl: "Opieramy się na tych samych założeniach.", ru: "Мы опираемся на те же предпосылки.", source: { kind: authored } }
+  - { form: "założeniach", pl: "Dyskusja o założeniach projektu trwała godzinę.", ru: "Обсуждение исходных положений проекта длилось час.", source: { kind: authored } }

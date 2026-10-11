@@ -1,0 +1,77 @@
+# review
+id: zakres
+format: 2
+lemma: "zakres"
+rank: 6003
+pos: noun
+pron: { cyr: "за́крэс" }
+senses:
+  - id: scope
+    ru: "объём, круг, сфера, рамки"
+    examples:
+      - pl: "Poszerzył zakres swych badań."
+        ru: "Он расширил круг своих исследований."
+        source: { kind: translated, id: 368881 }
+      - pl: "Jest autorytetem w zakresie prawa karnego."
+        ru: "Он авторитет в области уголовного права."
+        source: { kind: translated, id: 2680589 }
+      - pl: "To wykracza poza zakres ludzkiej wiedzy."
+        ru: "Это выходит за пределы человеческого знания."
+        source: { kind: translated, id: 3586651 }
+  - id: range
+    ru: "диапазон (значений, частот)"
+    examples:
+      - pl: "Ten mikrofon ma szeroki zakres częstotliwości."
+        ru: "У этого микрофона широкий диапазон частот."
+        source: { kind: authored }
+      - pl: "Temperatura mieści się w zakresie od zera do dziesięciu stopni."
+        ru: "Температура держится в диапазоне от нуля до десяти градусов."
+        source: { kind: authored }
+notes:
+  - { kind: false-friend, text: "ZAKRES не связан с «закрыть» (это ZAMKNĄĆ). Корень — KRES «предел»: ZAKRES — то, что лежит внутри пределов, то есть объём, круг, диапазон." }
+  - { kind: government, text: "W ZAKRESIE + родительный — «в области, по части»: W ZAKRESIE INFORMATYKI «по информатике». POZA ZAKRESEM — «за рамками», WYKRACZAĆ POZA ZAKRES — «выходить за пределы»." }
+  - { kind: usage, text: "Мужской род, родительный на -U: ZAKRESU. Типичные сочетания: ZAKRES OBOWIĄZKÓW «круг обязанностей», SZEROKI ZAKRES «широкий спектр»." }
+collocations:
+  - { pl: "w zakresie czegoś", ru: "в области чего-либо" }
+  - { pl: "zakres obowiązków", ru: "круг обязанностей" }
+  - { pl: "szeroki zakres", ru: "широкий спектр" }
+  - { pl: "poza zakresem", ru: "за рамками" }
+family:
+  - { pl: "kres", ru: "предел, конец", relation: root, id: kres }
+  - { pl: "zakresowy", ru: "относящийся к объёму, диапазону", relation: derived }
+synonyms: ["obszar", "zasięg", "dziedzina"]
+etymology: "Образовано от KRES «предел, граница» с приставкой ZA-: то, что очерчено границами."
+memory: "Kres — предел; za-kres — всё, что внутри пределов: объём, круг, диапазон. W zakresie prawa — в области права."
+idioms:
+  - { pl: "w zakresie czegoś", ru: "в области чего-либо, по части чего-либо" }
+formExamples:
+  - { form: "zakres", pl: "Jego badania obejmują szeroki zakres dziedzin.", ru: "Его исследования охватывают широкий круг областей.", source: { kind: translated, id: 362377 } }
+  - { form: "zakres", pl: "Sankcja ta ma znacznie szerszy zakres.", ru: "У этой санкции гораздо более широкий охват.", source: { kind: translated, id: 13330522 } }
+  - { form: "zakres", pl: "Zakres obowiązków jest opisany w umowie.", ru: "Круг обязанностей описан в договоре.", source: { kind: authored } }
+  - { form: "zakresu", pl: "Ten problem nie znajduje się w obrębie naszego zakresu badań.", ru: "Эта проблема не входит в круг наших исследований.", source: { kind: translated, id: 977233 } }
+  - { form: "zakresu", pl: "To nie należy do zakresu moich obowiązków.", ru: "Это не входит в круг моих обязанностей.", source: { kind: authored } }
+  - { form: "zakresu", pl: "Wybierz liczbę z podanego zakresu.", ru: "Выбери число из заданного диапазона.", source: { kind: authored } }
+  - { form: "zakresowi", pl: "Szef przyjrzał się zakresowi moich zadań.", ru: "Начальник присмотрелся к кругу моих задач.", source: { kind: authored } }
+  - { form: "zakresowi", pl: "Dzięki szerokiemu zakresowi usług firma ma wielu klientów.", ru: "Благодаря широкому спектру услуг у фирмы много клиентов.", source: { kind: authored } }
+  - { form: "zakresowi", pl: "Komisja poświęciła zakresowi reformy całe posiedzenie.", ru: "Комиссия посвятила объёму реформы целое заседание.", source: { kind: authored } }
+  - { form: "zakresem", pl: "Ten temat jest poza zakresem kursu.", ru: "Эта тема выходит за рамки курса.", source: { kind: authored } }
+  - { form: "zakresem", pl: "Polisa z pełnym zakresem ochrony kosztuje więcej.", ru: "Полис с полным покрытием стоит дороже.", source: { kind: authored } }
+  - { form: "zakresem", pl: "Różnimy się zakresem doświadczeń.", ru: "Мы различаемся объёмом опыта.", source: { kind: authored } }
+  - { form: "zakresie", pl: "On zdaje się mieć szeroką wiedzę w zakresie greckiej literatury.", ru: "Похоже, у него широкие познания в области греческой литературы.", source: { kind: translated, id: 1480711 } }
+  - { form: "zakresie", pl: "W tym zakresie nie mam nic do dodania.", ru: "В этом отношении мне нечего добавить.", source: { kind: authored } }
+  - { form: "zakresie", pl: "Szkoła oferuje kursy w zakresie informatyki.", ru: "Школа предлагает курсы по информатике.", source: { kind: authored } }
+  - { form: "zakresy", pl: "Zakresy temperatur są podane w tabeli.", ru: "Диапазоны температур указаны в таблице.", source: { kind: authored } }
+  - { form: "zakresy", pl: "Oba urzędy mają różne zakresy kompetencji.", ru: "У обоих ведомств разные сферы компетенции.", source: { kind: authored } }
+  - { form: "zakresy", pl: "Radio odbiera dwa zakresy fal.", ru: "Радио принимает два диапазона волн.", source: { kind: authored } }
+  - { form: "zakresów", pl: "Urządzenie ma kilka zakresów pomiaru.", ru: "У прибора несколько диапазонов измерения.", source: { kind: authored } }
+  - { form: "zakresów", pl: "Bez jasnych zakresów obowiązków powstaje chaos.", ru: "Без чётко очерченных обязанностей возникает хаос.", source: { kind: authored } }
+  - { form: "zakresów", pl: "Wiele zakresów częstotliwości jest już zajętych.", ru: "Многие диапазоны частот уже заняты.", source: { kind: authored } }
+  - { form: "zakresom", pl: "Inżynierowie przyjrzeli się nowym zakresom pomiarowym.", ru: "Инженеры присмотрелись к новым диапазонам измерения.", source: { kind: authored } }
+  - { form: "zakresom", pl: "Dzięki dwóm zakresom radio łapie więcej stacji.", ru: "Благодаря двум диапазонам радио ловит больше станций.", source: { kind: authored } }
+  - { form: "zakresom", pl: "Ceny odpowiadają zakresom usług w pakietach.", ru: "Цены соответствуют объёму услуг в пакетах.", source: { kind: authored } }
+  - { form: "zakresami", pl: "Między zakresami obowiązków nie może być luk.", ru: "Между сферами обязанностей не должно быть пробелов.", source: { kind: authored } }
+  - { form: "zakresami", pl: "Wzmacniacz pracuje z dwoma zakresami napięcia.", ru: "Усилитель работает с двумя диапазонами напряжения.", source: { kind: authored } }
+  - { form: "zakresami", pl: "Przełączanie się między zakresami zajmuje sekundę.", ru: "Переключение между диапазонами занимает секунду.", source: { kind: authored } }
+  - { form: "zakresach", pl: "W obu zakresach odbiór jest dobry.", ru: "В обоих диапазонах приём хороший.", source: { kind: authored } }
+  - { form: "zakresach", pl: "O zakresach kompetencji zdecyduje dyrektor.", ru: "О сферах компетенции решит директор.", source: { kind: authored } }
+  - { form: "zakresach", pl: "Ćwiczenia wykonuj w bezpiecznych zakresach ruchu.", ru: "Выполняй упражнения в безопасной амплитуде движений.", source: { kind: authored } }
