@@ -98,7 +98,7 @@ The existing 49 lessons are correct but brief (median ~270 words of prose). For 
   at the right chapter.
 - «Ошибки» shows which lessons produce the most mistakes, as a «повторите урок» hint.
 
-## Phase 6 — B1 track (later)
+## Phase 6 — B1 track ✓ done 2026-10-11
 
 Participles (-ący, -ny/-ty), adverbial participles (-ąc, -wszy), the passive (zostać /
 być + participle), the impersonal -no/-to, reported speech, verbal nouns (-anie/-enie),
@@ -126,7 +126,7 @@ phase above adds more unchecked Polish. Proposed:
 | 2. Topic vocabulary | ~12 lessons | 1 (numbers, plurals) | second |
 | 3. Reading | 15–20 texts | 1, 2 | third |
 | 5. Assessment | ~12 reviews + 3 tests | 1–3 | fourth |
-| 6. B1 | ~20 lessons | 1–5 | later |
+| 6. B1 | 24 lessons | 1–5 | done |
 
 Each phase is built the way the last rounds were: a written outline per chapter, lessons
 drafted in parallel, every lesson reviewed before commit, validation and the full test
@@ -173,7 +173,7 @@ future chapters moved before them.
 | 19 | Ложные друзья | A2 | existing |
 | 20 | Повседневные темы | A2 | existing 3 + **Phase 2**, 12 topic lessons |
 | 21 | Итоги A2 | A2 | **Phase 5**: tests A1 and A2, «Что дальше» |
-| 22–27 | Причастия · Деепричастия · Страдательный залог · Косвенная речь · Словообразование · Официальный стиль | B1 | to do |
+| 22–27 | Причастия · Деепричастия · Страдательный залог · Косвенная речь · Словообразование · Официальный стиль | B1 | **Phase 6**, 4 lessons each |
 
 «Что дальше» is now 21.1; it moves to the end of chapter 21 and is rewritten when A2 is complete.
 
@@ -205,4 +205,11 @@ phrases and the chapter's typical mistakes). Chapter 21 holds the A1 and A2 test
 each: two reading texts, listening with played Polish, grammar, translation; the result is shown
 per skill) before «Что дальше». `/placement` (linked from the home page) asks two questions per
 chapter and recommends where to start; «Ошибки» names the lessons with the most stored mistakes.
-The remaining phase is the B1 track.
+
+Phase 6 (the B1 track) was done on 2026-10-11: chapters 22–27 (folders `14-participles` …
+`19-formal`), three teaching lessons and a review each. Every teaching lesson quotes one or two
+real sentences from *Alicja* with a link to the chapter, and every participle, -ąc, -wszy,
+-no/-to and verbal-noun form was checked against the forms tables. Six drills train those forms
+from Tatoeba sentences only (`sourcedOnly`): many authored card rows for -ąc mean a completed
+action («Dostając list» = «Получив письмо»), which is a dictionary backlog item. All roadmap
+phases are done; the native-speaker review below is what remains.

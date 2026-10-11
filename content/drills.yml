@@ -244,3 +244,54 @@ drills:
     pos: verb
     cells: [{ table: Прошедшее время }]
     hint: aspect
+
+  # Фаза 6 (B1). Только предложения из Tatoeba: в авторских примерах карточек деепричастия
+  # и причастия часто переведены другим видом («Dostając» → «Получив»), а генератор форм
+  # даёт несуществующие формы (kupiący). У -wszy таких предложений всего 16.
+  - id: participle-active
+    title: Причастие на -ący
+    instruction: Поставьте глагол в форму действительного причастия на -ący.
+    pos: verb
+    cells: [{ table: Причастия, row: Действительное }]
+    sourcedOnly: true
+    # Действительное причастие бывает только у несовершенного вида; генератор форм даёт его
+    # и совершенным глаголам (kupiący).
+    aspect: imperf
+
+  - id: participle-passive
+    title: Страдательное причастие
+    instruction: Поставьте глагол в форму страдательного причастия (-ny, -ony, -ty).
+    pos: verb
+    cells: [{ table: Причастия, row: Страдательное }]
+    sourcedOnly: true
+    aspect: perf
+
+  - id: adverbial-present
+    title: Деепричастие на -ąc
+    instruction: Поставьте глагол в форму деепричастия на -ąc («читая»).
+    pos: verb
+    cells: [{ table: Деепричастия, row: Одновременное }]
+    sourcedOnly: true
+    aspect: imperf
+
+  - id: adverbial-anterior
+    title: Деепричастие на -wszy
+    instruction: Поставьте глагол в форму деепричастия на -wszy («сделав»).
+    pos: verb
+    cells: [{ table: Деепричастия, row: Предшествующее }]
+    sourcedOnly: true
+    aspect: perf
+
+  - id: verb-impersonal
+    title: Безличная форма на -no/-to
+    instruction: Поставьте глагол в безличную форму прошедшего времени (zrobiono, zamknięto).
+    pos: verb
+    cells: [{ table: Безличная форма }]
+    sourcedOnly: true
+
+  - id: verbal-noun
+    title: Отглагольное существительное
+    instruction: Образуйте от глагола существительное на -anie, -enie или -cie.
+    pos: verb
+    cells: [{ table: Отглагольное существительное }]
+    sourcedOnly: true
