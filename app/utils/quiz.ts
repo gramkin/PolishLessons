@@ -46,6 +46,12 @@ export function checkMatch(q: MatchQuestion, selection: Record<string, string>):
   return q.pairs.every(([pl, ru]) => selection[pl] === ru) ? 'correct' : 'wrong'
 }
 
+/** A writing task is judged by the learner against a checklist: all of it, most of it, or not. */
+export function writeVerdict(ticked: number, total: number): Verdict {
+  if (total > 0 && ticked >= total) return 'correct'
+  return total > 0 && ticked / total >= 0.75 ? 'almost' : 'wrong'
+}
+
 export function scoreQuiz(all: Verdict[]): QuizScore {
   const verdicts = all.filter((v) => v !== 'skipped')
   const total = verdicts.length

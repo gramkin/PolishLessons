@@ -43,6 +43,7 @@ function answerText(question: Question): string {
   if (question.type === 'choice') return question.options[question.answer] ?? ''
   if (question.type === 'match') return question.pairs.map((p) => p.join('=')).join(';')
   if (question.type === 'listen') return question.text
+  if (question.type === 'write') return question.model
   return Array.isArray(question.answer) ? question.answer.join('|') : question.answer
 }
 
@@ -51,9 +52,12 @@ export function mistakeId(question: Question, source: MistakeSource): string {
   return `m${hash(`${source.path}|${source.card ?? ''}|${question.q}|${answerText(question)}`)}`
 }
 
-/** Matching questions are five pairs, not one point to remember, so they are not kept. */
+/**
+ * Matching questions are five pairs, not one point to remember, and a writing task is a whole
+ * text the learner checked alone, so neither is kept.
+ */
 export function isRecordable(question: Question): boolean {
-  return question.type !== 'match'
+  return question.type !== 'match' && question.type !== 'write'
 }
 
 /**

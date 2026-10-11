@@ -356,6 +356,17 @@ describe('quizzes', () => {
     ).toEqual([])
   })
 
+  it('accepts a write question and rejects one without a checklist', () => {
+    expect(
+      withQuiz(
+        'questions:\n  - type: write\n    q: Напишите письмо.\n    model: Szanowni Państwo, piszę w sprawie zamówienia.\n    checklist: [обращение, просьба]',
+      ),
+    ).toEqual([])
+    expect(
+      withQuiz('questions:\n  - type: write\n    q: Напишите письмо.\n    model: Dzień dobry.'),
+    ).toContainEqual(expect.stringContaining('quiz 1'))
+  })
+
   it('reports an answer index past the options, an unknown type and broken YAML', () => {
     expect(
       withQuiz('questions:\n  - type: choice\n    q: X?\n    options: [a, b]\n    answer: 2'),

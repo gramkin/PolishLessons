@@ -183,6 +183,17 @@ const listenQuestionSchema = z.object({
   skill,
 })
 
+// Free writing (an exam's writing part): the learner writes, then sees `model`, a Polish model
+// answer, and ticks the `checklist` points (Russian) their own text covers. Self-judged.
+const writeQuestionSchema = z.object({
+  type: z.literal('write'),
+  q: text,
+  model: text,
+  checklist: z.array(text).min(2),
+  explain,
+  skill,
+})
+
 export const questionSchema = z.discriminatedUnion('type', [
   choiceQuestionSchema,
   inputQuestionSchema,
@@ -190,6 +201,7 @@ export const questionSchema = z.discriminatedUnion('type', [
   matchQuestionSchema,
   translateQuestionSchema,
   listenQuestionSchema,
+  writeQuestionSchema,
 ])
 
 export const quizSchema = z
@@ -291,4 +303,5 @@ export type PatternQuestion = z.infer<typeof patternQuestionSchema>
 export type MatchQuestion = z.infer<typeof matchQuestionSchema>
 export type TranslateQuestion = z.infer<typeof translateQuestionSchema>
 export type ListenQuestion = z.infer<typeof listenQuestionSchema>
+export type WriteQuestion = z.infer<typeof writeQuestionSchema>
 export type QuizSkill = (typeof QUIZ_SKILLS)[number]

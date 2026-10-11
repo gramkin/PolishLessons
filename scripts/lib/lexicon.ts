@@ -19,6 +19,9 @@ const MARKUP = new Set([
   'pattern',
   'translate',
   'listen',
+  'write',
+  'model',
+  'checklist',
   'answer',
   'explain',
   'options',
@@ -93,11 +96,12 @@ export function intendedNonWords(body: string): Set<string> {
 export function storyText(story: unknown): string {
   const data = story as {
     sentences?: { pl?: string }[]
-    questions?: { type?: string; text?: string; answer?: unknown }[]
+    questions?: { type?: string; text?: string; answer?: unknown; model?: string }[]
   }
   const lines = (data.sentences ?? []).map((s) => s.pl ?? '')
   for (const q of data.questions ?? []) {
     if (q.type === 'listen' && q.text) lines.push(q.text)
+    if (q.type === 'write' && q.model) lines.push(q.model)
     if ((q.type === 'translate' || q.type === 'input') && Array.isArray(q.answer))
       lines.push(...q.answer.map(String))
     else if (q.type === 'input' && typeof q.answer === 'string') lines.push(q.answer)

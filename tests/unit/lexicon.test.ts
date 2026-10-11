@@ -83,4 +83,14 @@ describe('storyText', () => {
     })
     expect(text.split('\n')).toEqual(['Mam kota.', 'Czytam gazetę.', 'Widzę kota.', 'studentowi'])
   })
+
+  it('reads the model answer of a writing task', () => {
+    const text = storyText({
+      sentences: [],
+      questions: [
+        { type: 'write', q: 'Напишите', model: 'Szanowni Państwo', checklist: ['a', 'b'] },
+      ],
+    })
+    expect(text).toBe('Szanowni Państwo')
+  })
 })

@@ -4,6 +4,7 @@ import { mockNuxtImport, mountSuspended, registerEndpoint } from '@nuxt/test-uti
 import QuizTranslate from '~/components/quiz/QuizTranslate.vue'
 import QuizListen from '~/components/quiz/QuizListen.vue'
 import QuizChoice from '~/components/quiz/QuizChoice.vue'
+import QuizWrite from '~/components/quiz/QuizWrite.vue'
 import Quiz from '~/components/content/Quiz.vue'
 import Drill from '~/components/content/Drill.vue'
 import { resetSpeech } from '~/composables/useSpeech'
@@ -202,5 +203,34 @@ describe('Drill listening mode', () => {
     expect(wrapper.findAll('form.quiz-listen')).toHaveLength(1)
     await type(wrapper, 'Mam książkę')
     expect(wrapper.find('.drill-summary').text()).toContain('1 из 1')
+  })
+})
+
+describe('QuizWrite', () => {
+  const write = {
+    type: 'write' as const,
+    q: 'Напишите жалобу.',
+    model: 'Szanowni Państwo, piszę z reklamacją.',
+    checklist: [
+      'Формальное обращение',
+      'Изложена проблема',
+      'Сформулирована просьба',
+      'Формальное завершение',
+    ],
+  }
+
+  it('shows the model only after writing, then scores the ticked points', async () => {
+    const wrapper = await mountSuspended(QuizWrite, { props: { question: write } })
+    await wrapper.find('form').trigger('submit')
+    expect(wrapper.text()).not.toContain('Szanowni Państwo')
+    await wrapper.find('textarea').setValue('Dzień dobry, mam problem z pralką.')
+    await wrapper.find('form').trigger('submit')
+    expect(wrapper.text()).toContain('Szanowni Państwo, piszę z reklamacją.')
+    const boxes = wrapper.findAll('input[type="checkbox"]')
+    expect(boxes).toHaveLength(4)
+    for (const box of boxes.slice(0, 3)) await box.setValue(true)
+    await wrapper.find('button.quiz-write-done').trigger('click')
+    expect(wrapper.emitted('answered')?.[0]).toEqual(['almost'])
+    expect(wrapper.text()).toContain('Отмечено 3 из 4')
   })
 })

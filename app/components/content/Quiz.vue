@@ -74,6 +74,11 @@ function onAnswered(index: number, verdict: Verdict) {
           :question="question"
           @answered="onAnswered(i, $event)"
         />
+        <QuizWrite
+          v-else-if="question.type === 'write'"
+          :question="question"
+          @answered="onAnswered(i, $event)"
+        />
         <QuizMatch v-else :question="question" @answered="onAnswered(i, $event)" />
       </li>
     </ol>

@@ -83,6 +83,11 @@ function markEarlier() {
           :question="item.question"
           @answered="onAnswered(i, $event)"
         />
+        <QuizWrite
+          v-else-if="item.question.type === 'write'"
+          :question="item.question"
+          @answered="onAnswered(i, $event)"
+        />
         <QuizMatch v-else :question="item.question" @answered="onAnswered(i, $event)" />
       </li>
     </ol>

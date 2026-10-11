@@ -73,6 +73,17 @@ describe('recordMistake', () => {
     expect(isRecordable(match)).toBe(false)
     expect(recordMistake({}, match, lesson, day(1))).toEqual({})
   })
+
+  it('never keeps a writing task', () => {
+    const write = {
+      type: 'write',
+      q: 'Напишите письмо.',
+      model: 'Szanowni Państwo, piszę w sprawie zamówienia.',
+      checklist: ['обращение', 'просьба'],
+    } as Question
+    expect(isRecordable(write)).toBe(false)
+    expect(recordMistake({}, write, lesson, day(1))).toEqual({})
+  })
 })
 
 describe('reviewMistake', () => {

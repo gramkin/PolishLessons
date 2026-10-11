@@ -7,6 +7,7 @@ import {
   scoreQuiz,
   shuffle,
   checkSentence,
+  writeVerdict,
 } from '../../app/utils/quiz'
 
 describe('checkText', () => {
@@ -125,5 +126,14 @@ describe('scoreBySkill', () => {
       { skill: 'reading', correct: 1, total: 2, percent: 50, passed: false },
       { skill: 'listening', correct: 1, total: 1, percent: 100, passed: true },
     ])
+  })
+})
+
+describe('writeVerdict', () => {
+  it('is correct when every point is ticked, almost from three quarters, else wrong', () => {
+    expect(writeVerdict(4, 4)).toBe('correct')
+    expect(writeVerdict(3, 4)).toBe('almost')
+    expect(writeVerdict(2, 4)).toBe('wrong')
+    expect(writeVerdict(0, 3)).toBe('wrong')
   })
 })
