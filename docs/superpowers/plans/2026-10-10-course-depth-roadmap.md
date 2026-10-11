@@ -172,7 +172,7 @@ future chapters moved before them.
 | 18 | Сложное предложение | A2 | **Phase 1**, 3 lessons |
 | 19 | Ложные друзья | A2 | existing |
 | 20 | Повседневные темы | A2 | existing 3 + **Phase 2**, 12 topic lessons |
-| 21 | Итоги A2 | A2 | «Что дальше» moved here; review and A2 test to do (Phase 5) |
+| 21 | Итоги A2 | A2 | **Phase 5**: tests A1 and A2, «Что дальше» |
 | 22–27 | Причастия · Деепричастия · Страдательный залог · Косвенная речь · Словообразование · Официальный стиль | B1 | to do |
 
 «Что дальше» is now 21.1; it moves to the end of chapter 21 and is rewritten when A2 is complete.
@@ -198,3 +198,11 @@ and reviewers fixed incomplete tables (5.4, 9.1, 9.4, 10.2, 4.3), wrong rules (t
 and translate answers split at commas by unquoted YAML (8.4), which `quizSchema` now rejects.
 New drills: `noun-gender` (4.1), `verb-aspect-past` (10.1, 10.4), `adj-agreement` (16.1).
 `pnpm validate` warns about thin lessons; only 21.1 «Что дальше» is left, for Phase 5.
+
+Phase 5 (review and assessment) was done on 2026-10-11. Every chapter ends with a review lesson
+(«Повторение», 27–30 questions, about 40 % drawn from earlier chapters, a summary table, key
+phrases and the chapter's typical mistakes). Chapter 21 holds the A1 and A2 tests (38 questions
+each: two reading texts, listening with played Polish, grammar, translation; the result is shown
+per skill) before «Что дальше». `/placement` (linked from the home page) asks two questions per
+chapter and recommends where to start; «Ошибки» names the lessons with the most stored mistakes.
+The remaining phase is the B1 track.

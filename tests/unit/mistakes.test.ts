@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  lessonsToReview,
   capMistakes,
   dueMistakes,
   isRecordable,
@@ -145,5 +146,21 @@ describe('mistakes in saved progress', () => {
     expect(valid).toBe(true)
     expect(Object.keys(progress.mistakes)).toEqual(Object.keys(good))
     expect(progress.lessons['/lessons/x']?.completed).toBe(true)
+  })
+})
+
+describe('lessonsToReview', () => {
+  const at = (path: string, title = path) => ({ source: { kind: 'lesson' as const, path, title } })
+  it('names lessons with at least three mistakes, worst first', () => {
+    const list = [
+      ...Array.from({ length: 4 }, () => at('/lessons/b', '7.1 B')),
+      ...Array.from({ length: 3 }, () => at('/lessons/a', '5.1 A')),
+      ...Array.from({ length: 2 }, () => at('/lessons/c')),
+    ]
+    expect(lessonsToReview(list)).toEqual([
+      { path: '/lessons/b', title: '7.1 B', count: 4 },
+      { path: '/lessons/a', title: '5.1 A', count: 3 },
+    ])
+    expect(lessonsToReview(list, { limit: 1 })).toHaveLength(1)
   })
 })

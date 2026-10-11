@@ -4,6 +4,7 @@ import {
   lessonMetaSchema,
   patternFileSchema,
   bookSchema,
+  placementFileSchema,
   storySchema,
   wordFileSchema,
 } from './shared/schemas'
@@ -21,5 +22,10 @@ export default defineContentConfig({
     words: defineCollection({ type: 'data', source: 'words/*.yml', schema: wordFileSchema }),
     stories: defineCollection({ type: 'data', source: 'stories/*.yml', schema: storySchema }),
     books: defineCollection({ type: 'data', source: 'books/*.yml', schema: bookSchema }),
+    placement: defineCollection({
+      type: 'data',
+      source: 'placement.yml',
+      schema: placementFileSchema,
+    }),
   },
 })

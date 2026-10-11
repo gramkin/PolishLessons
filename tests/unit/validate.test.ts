@@ -13,6 +13,7 @@ const drill = {
 function validBundle(): ContentBundle {
   return {
     drills: { path: 'drills.yml', data: { drills: [drill] } },
+    placement: null,
     chapters: { path: 'chapters.yml', data: { chapters: [{ number: 1, title: 'Алфавит' }] } },
     patterns: {
       path: 'patterns.yml',
@@ -207,6 +208,24 @@ describe('validateContent', () => {
     story.chapter = 7
     errors = validateContent(bundle)
     expect(errors).toContain('stories/kot.yml: unknown chapter 7')
+  })
+
+  it('checks the placement test: chapters exist and questions are valid', () => {
+    const bundle = validBundle()
+    bundle.placement = {
+      path: 'placement.yml',
+      data: {
+        questions: [
+          { chapter: 1, type: 'choice', q: 'rzeka?', options: ['река', 'рука'], answer: 0 },
+          { chapter: 9, type: 'choice', q: '?', options: ['a', 'b'], answer: 0 },
+          { chapter: 1, type: 'choice', q: '?', options: ['a', 'b'], answer: 5 },
+        ],
+      },
+    }
+    const errors = validateContent(bundle)
+    expect(errors).toContain('placement.yml: question 2: unknown chapter 9')
+    expect(errors).toContain('placement.yml: question 3: answer: answer index out of range')
+    expect(errors.filter((e) => e.includes('question 1'))).toEqual([])
   })
 
   it('reports lesson frontmatter schema errors', () => {

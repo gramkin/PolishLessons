@@ -43,6 +43,7 @@ describe('loadContent', () => {
       chapters: null,
       patterns: null,
       drills: null,
+      placement: null,
       words: [],
       stories: [],
       books: [],

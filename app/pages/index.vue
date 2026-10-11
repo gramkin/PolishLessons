@@ -31,5 +31,10 @@ const dueCount = computed(() => {
       <NuxtLink to="/flashcards">{{ dueCount }}</NuxtLink>
     </p>
     <p><NuxtLink to="/lessons/01-alphabet/01-letters">Начать: 1.1 Буквы →</NuxtLink></p>
+    <p>
+      Уже знаете немного польского?
+      <NuxtLink to="/placement">Пройдите тест на уровень</NuxtLink> — он подскажет, с какой главы
+      начать.
+    </p>
   </article>
 </template>

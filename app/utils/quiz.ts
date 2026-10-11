@@ -1,4 +1,4 @@
-import type { ChoiceQuestion, MatchQuestion } from '../../shared/schemas'
+import type { ChoiceQuestion, MatchQuestion, Question, QuizSkill } from '../../shared/schemas'
 import { foldDiacritics, normalizeText } from './normalize'
 
 // `skipped`: a dictation with no voice or recording to play. It counts neither way.
@@ -52,6 +52,30 @@ export function scoreQuiz(all: Verdict[]): QuizScore {
   const correct = verdicts.filter((v) => v !== 'wrong').length
   const percent = total === 0 ? 0 : Math.round((correct / total) * 100)
   return { correct, total, percent, passed: total > 0 && percent >= PASS_PERCENT }
+}
+
+export const SKILL_NAMES: Record<QuizSkill, string> = {
+  reading: 'Чтение',
+  listening: 'Аудирование',
+  grammar: 'Грамматика и лексика',
+  writing: 'Письмо',
+}
+
+/**
+ * An exam's result per skill, in the order the skills first appear. Questions without a skill
+ * are left out; an exam tags every question, an ordinary quiz none.
+ */
+export function scoreBySkill(
+  questions: Pick<Question, 'skill'>[],
+  verdicts: (Verdict | null)[],
+): (QuizScore & { skill: QuizSkill })[] {
+  const bySkill = new Map<QuizSkill, Verdict[]>()
+  questions.forEach((q, i) => {
+    const verdict = verdicts[i]
+    if (!q.skill || !verdict) return
+    bySkill.set(q.skill, [...(bySkill.get(q.skill) ?? []), verdict])
+  })
+  return [...bySkill.entries()].map(([skill, list]) => ({ skill, ...scoreQuiz(list) }))
 }
 
 export function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {

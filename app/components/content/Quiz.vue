@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { quizSchema, type Question } from '#shared/schemas'
 import { normalizePath } from '~/utils/nav'
-import { PASS_PERCENT, scoreQuiz, type Verdict } from '~/utils/quiz'
+import { PASS_PERCENT, SKILL_NAMES, scoreBySkill, scoreQuiz, type Verdict } from '~/utils/quiz'
 import { LESSON_TITLE_KEY } from '~/utils/mistakes'
 
 const props = defineProps<{ questions: unknown; final?: boolean }>()
@@ -32,6 +32,8 @@ watch(
 
 const done = computed(() => verdicts.value.length > 0 && verdicts.value.every((v) => v !== null))
 const score = computed(() => scoreQuiz(verdicts.value.filter((v): v is Verdict => v !== null)))
+// An exam tags its questions by skill; the summary then gives a result for each.
+const skills = computed(() => scoreBySkill(list.value, verdicts.value))
 
 function onAnswered(index: number, verdict: Verdict) {
   const next = [...verdicts.value]
@@ -80,6 +82,12 @@ function onAnswered(index: number, verdict: Verdict) {
       <span v-if="final && score.passed"> — урок пройден!</span>
       <span v-else-if="final"> — нужно {{ PASS_PERCENT }}%, попробуйте ещё раз.</span>
       <button type="button" @click="attempt++">Пройти ещё раз</button>
+      <ul v-if="skills.length > 0" class="quiz-skills">
+        <li v-for="s in skills" :key="s.skill">
+          {{ SKILL_NAMES[s.skill] }}: {{ s.correct }} из {{ s.total }} ({{ s.percent }}%)
+          <span :class="s.passed ? 'ok' : 'weak'">{{ s.passed ? '✓' : '— повторите' }}</span>
+        </li>
+      </ul>
     </div>
   </section>
   <div v-else-if="isDev" class="quiz-error">
@@ -117,6 +125,17 @@ function onAnswered(index: number, verdict: Verdict) {
   font: inherit;
   margin-left: auto;
   cursor: pointer;
+}
+.quiz-skills {
+  flex-basis: 100%;
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+.quiz-skills .ok {
+  color: var(--cognate);
+}
+.quiz-skills .weak {
+  color: var(--muted);
 }
 .quiz-error {
   color: #fff;

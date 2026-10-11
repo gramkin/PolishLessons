@@ -1,0 +1,44 @@
+# review
+# Тест на уровень: по два вопроса на главу 1–20; страница /placement, логика в app/utils/placement.ts.
+intro: "Ответьте на вопросы — по два на каждую главу курса. Не знаете ответа — пропустите: тест покажет, с какой главы начать, и может отметить уже знакомые главы пройденными. Это займёт около десяти минут."
+questions:
+  - { chapter: 1, type: choice, q: "На какой слог падает ударение в слове «telefon»?", options: ["le", "te", "fon"], answer: 0, explain: "te-LE-fon: в польском ударение почти всегда на предпоследнем слоге." }
+  - { chapter: 1, type: choice, q: "Как читается «cz» в слове «czas»?", options: ["ц", "к", "ч"], answer: 2, explain: "cz — твёрдое «ч»: czas «час»." }
+  - { chapter: 2, type: choice, q: "Польское «rzeka» — это…", options: ["резка", "река", "рука"], answer: 1, explain: "rz часто соответствует русскому «р»: rzeka — река." }
+  - { chapter: 2, type: choice, q: "Польское «głowa» соответствует русскому…", options: ["голова", "глава", "глотка"], answer: 0, explain: "Русскому «оло» в польском соответствует «ło»: голова — głowa." }
+  - { chapter: 3, type: choice, q: "Как вежливо поздороваться с незнакомым человеком днём?", options: ["Dobry dzień!", "Cześć, pani!", "Dzień dobry!"], answer: 2, explain: "Dzień dobry — «добрый день»; cześć говорят своим." }
+  - { chapter: 3, type: input, q: "Ja ___ studentem. (быть)", answer: "jestem", explain: "być: jestem, jesteś, jest…" }
+  - { chapter: 4, type: choice, q: "Какого рода слово «muzeum»?", options: ["женского", "среднего", "мужского"], answer: 1, explain: "Слова на -um — среднего рода: to muzeum." }
+  - { chapter: 4, type: choice, q: "Выберите верное слово: ___ mężczyzna", options: ["ten", "ta", "to"], answer: 0, explain: "mężczyzna кончается на -a, но это мужчина: ten mężczyzna." }
+  - { chapter: 5, type: input, q: "Ja ___ książkę. (czytać)", answer: "czytam", explain: "czytać — третье спряжение: czytam, czytasz, czyta." }
+  - { chapter: 5, type: choice, q: "«Я умею плавать» по-польски:", options: ["Wiem pływać.", "Znam pływać.", "Umiem pływać."], answer: 2, explain: "Умение — umieć; wiedzieć — знать факт, znać — знать кого-то или что-то." }
+  - { chapter: 6, type: choice, q: "«Меня зовут Анна»:", options: ["Się nazywam Anna.", "Nazywam się Anna.", "Nazywam Anna."], answer: 1, explain: "nazywać się — с się; się не ставят в начало фразы." }
+  - { chapter: 6, type: choice, q: "«Мы встречаемся в субботу»:", options: ["Spotykamy się w sobotę.", "Spotykamy w sobotę.", "Spotykamy nas w sobotę."], answer: 0, explain: "«Встречаться» — spotykać się." }
+  - { chapter: 7, type: input, q: "Nie mam ___. (czas)", answer: "czasu", explain: "После отрицания — родительный: nie mam czasu." }
+  - { chapter: 7, type: choice, q: "Widzę ___. (siostra)", options: ["siostra", "siostry", "siostrę"], answer: 2, explain: "Винительный женского рода на -ę: widzę siostrę." }
+  - { chapter: 8, type: choice, q: "On jest ___. (lekarz)", options: ["lekarza", "lekarzem", "lekarz"], answer: 1, explain: "После być профессия — в творительном: jest lekarzem." }
+  - { chapter: 8, type: choice, q: "Mieszkam w ___. (Kraków)", options: ["Krakowie", "Krakowem", "Kraków"], answer: 0, explain: "Где? — предложный: w Krakowie." }
+  - { chapter: 9, type: input, q: "Wczoraj (я, ж.) ___ w kinie. (być)", answer: "byłam", explain: "Прошедшее, женщина о себе: byłam." }
+  - { chapter: 9, type: choice, q: "«Они (мужчины) работали»:", options: ["Oni pracowały.", "Oni pracowałi.", "Oni pracowali."], answer: 2, explain: "Мужско-личная форма прошедшего — на -li: pracowali." }
+  - { chapter: 10, type: choice, q: "«Завтра я напишу письмо»:", options: ["Jutro będę napisać list.", "Jutro napiszę list.", "Jutro piszę list."], answer: 1, explain: "Совершенный вид в форме настоящего — это будущее: napiszę." }
+  - { chapter: 10, type: choice, q: "«Я буду читать весь вечер»:", options: ["Będę czytać cały wieczór.", "Przeczytam cały wieczór.", "Będę przeczytać cały wieczór."], answer: 0, explain: "Процесс в будущем — będę + несовершенный вид." }
+  - { chapter: 11, type: input, q: "pięć ___ (kot)", answer: "kotów", explain: "После pięć — родительный множественного: pięć kotów." }
+  - { chapter: 11, type: choice, q: "Множественное число от «student»:", options: ["studenty", "studentowie", "studenci"], answer: 2, explain: "Мужско-личное множественное: student — studenci." }
+  - { chapter: 12, type: choice, q: "«Я дам ему книгу»:", options: ["Dam on książkę.", "Dam mu książkę.", "Dam go książkę."], answer: 1, explain: "«Ему» — дательный: mu." }
+  - { chapter: 12, type: choice, q: "«Он взял свою книгу» (свою собственную):", options: ["Wziął swoją książkę.", "Wziął jego książkę.", "Wziął swój książkę."], answer: 0, explain: "Своё собственное — swój, и он согласуется с книгой: swoją książkę." }
+  - { chapter: 13, type: choice, q: "«Сейчас половина третьего»:", options: ["Jest wpół do drugiej.", "Jest pół trzecia.", "Jest wpół do trzeciej."], answer: 2, explain: "«Половина третьего» — wpół do trzeciej, как и по-русски." }
+  - { chapter: 13, type: input, q: "dwa ___ (złoty)", answer: "złote", explain: "После dwa, trzy, cztery — именительный множественного: dwa złote." }
+  - { chapter: 14, type: choice, q: "«Я каждый день хожу в школу»:", options: ["Codziennie jadę pieszo do szkoły.", "Codziennie chodzę do szkoły.", "Codziennie idę do szkoły."], answer: 1, explain: "Регулярное движение — chodzić; iść — один раз, сейчас." }
+  - { chapter: 14, type: choice, q: "«Завтра я еду в Варшаву»:", options: ["Jutro jadę do Warszawy.", "Jutro idę do Warszawy.", "Jutro jeżdżę do Warszawy."], answer: 0, explain: "На транспорте, один раз — jechać: jadę." }
+  - { chapter: 15, type: input, q: "___ głośno! (czytać, ты)", answer: "Czytaj", explain: "Повелительное от czytać: czytaj!" }
+  - { chapter: 15, type: choice, q: "Вежливо пригласите мужчину сесть:", options: ["Usiądź, proszę.", "Siadajcie, panie.", "Proszę usiąść."], answer: 2, explain: "С pan/pani — proszę + инфинитив." }
+  - { chapter: 16, type: choice, q: "Сравнительная степень от «dobry»:", options: ["bardziej dobry", "lepszy", "dobrzejszy"], answer: 1, explain: "Неправильная форма: dobry — lepszy." }
+  - { chapter: 16, type: choice, q: "«Он выше меня»:", options: ["On jest wyższy ode mnie.", "On jest wyższy niż mnie.", "On jest wysokszy ode mnie."], answer: 0, explain: "После od — родительный (ode mnie); после niż — тот же падеж: niż ja." }
+  - { chapter: 17, type: choice, q: "«Я (м.) хотел бы кофе»:", options: ["Chciałem by kawy.", "Bym chciał kawy.", "Chciałbym kawy."], answer: 2, explain: "Условное наклонение: chciał + bym." }
+  - { chapter: 17, type: choice, q: "«Если бы у меня было время, я бы пошёл»:", options: ["Gdyby mam czas, poszedłbym.", "Gdybym miał czas, poszedłbym.", "Jeśli bym miał czas, poszedłem."], answer: 1, explain: "Нереальное условие — gdyby + прошедшее, в главной части условное." }
+  - { chapter: 18, type: choice, q: "«Книга, которую я читаю»:", options: ["książka, którą czytam", "książka, który czytam", "książka, która czytam"], answer: 0, explain: "który согласуется с книгой (ж. р.) и стоит в падеже своей роли: читаю что? — którą." }
+  - { chapter: 18, type: choice, q: "«Я не знаю, придёт ли он»:", options: ["Nie wiem, li przyjdzie.", "Nie wiem, że przyjdzie.", "Nie wiem, czy przyjdzie."], answer: 2, explain: "Русское «ли» в косвенном вопросе — czy в начале." }
+  - { chapter: 19, type: choice, q: "Польское «sklep» значит…", options: ["склад", "магазин", "склеп"], answer: 1, explain: "Ложный друг: sklep — магазин." }
+  - { chapter: 19, type: choice, q: "Польское «uroda» значит…", options: ["красота", "уродство", "урожай"], answer: 0, explain: "Ложный друг: uroda — красота." }
+  - { chapter: 20, type: choice, q: "«Счёт, пожалуйста» (в ресторане):", options: ["Poproszę konto.", "Poproszę liczbę.", "Poproszę rachunek."], answer: 2, explain: "Счёт в ресторане — rachunek." }
+  - { chapter: 20, type: choice, q: "«У меня болит голова»:", options: ["Głowa mi jest boli.", "Boli mnie głowa.", "Mam ból głowę."], answer: 1, explain: "Boli mnie + что болит." }

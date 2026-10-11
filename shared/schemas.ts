@@ -123,6 +123,9 @@ export const lessonFrontmatterSchema = lessonMetaSchema.extend({
 })
 
 const explain = z.string().optional()
+// An exam groups its questions by skill and scores each one apart (Quiz.vue's summary).
+export const QUIZ_SKILLS = ['reading', 'listening', 'grammar', 'writing'] as const
+const skill = z.enum(QUIZ_SKILLS).optional()
 const textAnswer = z.union([text, z.array(text).min(1)])
 
 const choiceQuestionSchema = z.object({
@@ -130,13 +133,18 @@ const choiceQuestionSchema = z.object({
   q: text,
   options: z.array(text).min(2),
   answer: z.number().int().nonnegative(),
+  // Polish to listen to before answering (an exam's listening part): played, not shown, unless
+  // the browser has no Polish voice.
+  say: text.optional(),
   explain,
+  skill,
 })
 const inputQuestionSchema = z.object({
   type: z.literal('input'),
   q: text,
   answer: textAnswer,
   explain,
+  skill,
 })
 const patternQuestionSchema = z.object({
   type: z.literal('pattern'),
@@ -144,6 +152,7 @@ const patternQuestionSchema = z.object({
   pattern: text,
   answer: textAnswer,
   explain,
+  skill,
 })
 const matchQuestionSchema = z.object({
   type: z.literal('match'),
@@ -153,6 +162,7 @@ const matchQuestionSchema = z.object({
     .min(2)
     .max(6),
   explain,
+  skill,
 })
 
 // A Russian sentence to put into Polish. Many translations are right, so `answer` lists the
@@ -162,6 +172,7 @@ const translateQuestionSchema = z.object({
   q: text,
   answer: textAnswer,
   explain,
+  skill,
 })
 // Dictation: the Polish `text` is played, never shown, and typed back.
 const listenQuestionSchema = z.object({
@@ -169,6 +180,7 @@ const listenQuestionSchema = z.object({
   q: text.default('Напишите, что услышите.'),
   text,
   explain,
+  skill,
 })
 
 export const questionSchema = z.discriminatedUnion('type', [
@@ -250,6 +262,15 @@ export const drillSchema = z.object({
 
 export const drillFileSchema = z.object({ drills: z.array(drillSchema).min(1) })
 
+/**
+ * The placement test: quiz questions, each tagged with the chapter it checks. Stored untyped for
+ * Nuxt Content, like a story's questions; the validator checks each with quizSchema.
+ */
+export const placementFileSchema = z.object({
+  intro: z.string().optional(),
+  questions: z.array(z.record(z.string(), z.unknown())).min(1),
+})
+
 export type DrillCell = z.infer<typeof drillCellSchema>
 export type Drill = z.infer<typeof drillSchema>
 
@@ -270,3 +291,4 @@ export type PatternQuestion = z.infer<typeof patternQuestionSchema>
 export type MatchQuestion = z.infer<typeof matchQuestionSchema>
 export type TranslateQuestion = z.infer<typeof translateQuestionSchema>
 export type ListenQuestion = z.infer<typeof listenQuestionSchema>
+export type QuizSkill = (typeof QUIZ_SKILLS)[number]

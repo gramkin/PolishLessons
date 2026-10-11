@@ -3,6 +3,7 @@ import { flushPromises } from '@vue/test-utils'
 import { mockNuxtImport, mountSuspended, registerEndpoint } from '@nuxt/test-utils/runtime'
 import QuizTranslate from '~/components/quiz/QuizTranslate.vue'
 import QuizListen from '~/components/quiz/QuizListen.vue'
+import QuizChoice from '~/components/quiz/QuizChoice.vue'
 import Quiz from '~/components/content/Quiz.vue'
 import Drill from '~/components/content/Drill.vue'
 import { resetSpeech } from '~/composables/useSpeech'
@@ -112,6 +113,60 @@ describe('QuizListen', () => {
     } finally {
       vi.useRealTimers()
     }
+  })
+})
+
+const heard = {
+  type: 'choice' as const,
+  q: 'Куда едет Ania?',
+  say: 'Ania jedzie do Krakowa.',
+  options: ['в Краков', 'в Варшаву'],
+  answer: 0,
+  skill: 'listening' as const,
+}
+
+describe('QuizChoice with something to hear', () => {
+  it('plays the Polish without showing it', async () => {
+    const synth = installVoice()
+    const wrapper = await mountSuspended(QuizChoice, { props: { question: heard } })
+    expect(wrapper.text()).not.toContain('Krakowa')
+    await wrapper.find('button.play').trigger('click')
+    expect(synth.speak.mock.calls[0]?.[0]).toMatchObject({ text: 'Ania jedzie do Krakowa.' })
+  })
+
+  it('shows the Polish to read when there is no voice', async () => {
+    vi.useFakeTimers()
+    try {
+      const wrapper = await mountSuspended(QuizChoice, { props: { question: heard } })
+      vi.advanceTimersByTime(1500)
+      await wrapper.vm.$nextTick()
+      expect(wrapper.find('.quiz-no-audio').text()).toContain('Ania jedzie do Krakowa.')
+    } finally {
+      vi.useRealTimers()
+    }
+  })
+})
+
+describe('Quiz with skills', () => {
+  it('reports a result for each skill', async () => {
+    installVoice()
+    const questions = [
+      heard,
+      {
+        type: 'choice',
+        q: 'Как по-польски «река»?',
+        options: ['rzeka', 'reka'],
+        answer: 0,
+        skill: 'grammar',
+      },
+    ]
+    const wrapper = await mountSuspended(Quiz, { props: { questions } })
+    const choices = wrapper.findAll('fieldset')
+    await choices[0]!.findAll('input')[1]!.setValue(true)
+    await choices[1]!.findAll('input')[0]!.setValue(true)
+    const skills = wrapper.find('.quiz-skills').text()
+    expect(skills).toContain('Аудирование: 0 из 1 (0%)')
+    expect(skills).toContain('Грамматика и лексика: 1 из 1 (100%)')
   })
 })
 

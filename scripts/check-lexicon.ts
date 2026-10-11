@@ -52,6 +52,7 @@ const files =
           .filter((f) => f.endsWith('.yml'))
           .sort()
           .map((f) => join('content/stories', f)),
+        ...(existsSync('content/placement.yml') ? ['content/placement.yml'] : []),
       ]
 const forms = await loadForms()
 let total = 0

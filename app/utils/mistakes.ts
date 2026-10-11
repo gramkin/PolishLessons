@@ -115,3 +115,25 @@ export function dueMistakes(mistakes: Record<string, Mistake>, now: Date): Mista
     .filter((m) => isDue(m, now))
     .sort((a, b) => a.due.localeCompare(b.due) || a.added.localeCompare(b.added))
 }
+
+/**
+ * Lessons that keep producing mistakes, worst first: a lesson with `min` or more stored
+ * mistakes is worth rereading, not only drilling item by item. Drill mistakes count for the
+ * lesson that holds the drill.
+ */
+export function lessonsToReview(
+  mistakes: Pick<Mistake, 'source'>[],
+  options: { min?: number; limit?: number } = {},
+): { path: string; title: string; count: number }[] {
+  const { min = 3, limit = 3 } = options
+  const byPath = new Map<string, { path: string; title: string; count: number }>()
+  for (const { source } of mistakes) {
+    const entry = byPath.get(source.path) ?? { path: source.path, title: source.title, count: 0 }
+    entry.count++
+    byPath.set(source.path, entry)
+  }
+  return [...byPath.values()]
+    .filter((e) => e.count >= min)
+    .sort((a, b) => b.count - a.count || a.path.localeCompare(b.path))
+    .slice(0, limit)
+}

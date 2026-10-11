@@ -26,7 +26,7 @@ test('hiding the sidebar is remembered', async ({ page }) => {
 test("a chapter's last lesson leads to the texts readable after it, which end in questions", async ({
   page,
 }) => {
-  await gotoHydrated(page, '/lessons/03-phrases/03-introductions')
+  await gotoHydrated(page, '/lessons/03-phrases/04-review')
   const reading = page.locator('.chapter-reading')
   await expect(reading).toContainText('Почитать после главы')
   await reading.getByRole('link', { name: 'Kot i mysz' }).click()

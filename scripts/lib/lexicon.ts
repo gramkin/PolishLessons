@@ -45,6 +45,13 @@ const MARKUP = new Set([
   'list',
   'compare',
   'table',
+  // exam question keys and skill names
+  'skill',
+  'say',
+  'reading',
+  'listening',
+  'grammar',
+  'writing',
 ])
 
 export interface Finding {

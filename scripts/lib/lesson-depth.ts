@@ -14,16 +14,23 @@ export interface LessonDepth {
   examples: number
   questions: number
   mistakes: boolean
+  /** every quiz question names a skill: a test page, held only to the question minimum */
+  exam: boolean
 }
 
 /** Spoken examples (`:pron`), quiz questions and whether there is a «Типичные ошибки» section. */
 export function lessonDepth(body: string): LessonDepth {
   let questions = 0
-  for (const quiz of body.matchAll(QUIZ)) questions += quiz[1]!.match(/^\s*- type:/gm)?.length ?? 0
+  let skilled = 0
+  for (const quiz of body.matchAll(QUIZ)) {
+    questions += quiz[1]!.match(/^\s*- type:/gm)?.length ?? 0
+    skilled += quiz[1]!.match(/^\s*skill:/gm)?.length ?? 0
+  }
   return {
     examples: body.match(/:pron\{/g)?.length ?? 0,
     questions,
     mistakes: MISTAKES.test(body),
+    exam: questions > 0 && skilled === questions,
   }
 }
 
@@ -32,6 +39,13 @@ export function lessonDepthWarnings(lessons: MarkdownFile[]): string[] {
   for (const file of lessons) {
     const depth = lessonDepth(file.body)
     const missing: string[] = []
+    if (depth.exam) {
+      if (depth.questions < LESSON_MINIMUM.questions)
+        warnings.push(
+          `${file.path}: thin exam: ${depth.questions} questions (min ${LESSON_MINIMUM.questions})`,
+        )
+      continue
+    }
     if (depth.examples < LESSON_MINIMUM.examples)
       missing.push(`${depth.examples} spoken examples (min ${LESSON_MINIMUM.examples})`)
     if (depth.questions < LESSON_MINIMUM.questions)

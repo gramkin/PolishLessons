@@ -8,6 +8,7 @@ import {
   chapterSchema,
   lessonFrontmatterSchema,
   patternFileSchema,
+  placementFileSchema,
   quizSchema,
   drillCellSchema,
   drillFileSchema,
@@ -260,6 +261,23 @@ export function validateContent(bundle: ContentBundle): string[] {
   }
 
   if (bundle.cheatsheet) checkMarkdownRefs(bundle.cheatsheet, words, patterns, drills, errors)
+
+  // The placement test: valid questions, each naming a chapter that exists.
+  if (bundle.placement) {
+    const { path } = bundle.placement
+    const file = parseWith(placementFileSchema.strict(), bundle.placement.data, path, errors)
+    file?.questions.forEach((q, i) => {
+      const { chapter, ...question } = q
+      if (typeof chapter !== 'number' || !chapterNumbers.has(chapter))
+        errors.push(`${path}: question ${i + 1}: unknown chapter ${String(chapter)}`)
+      const parsed = quizSchema.safeParse([question])
+      if (!parsed.success)
+        for (const issue of parsed.error.issues)
+          errors.push(
+            `${path}: question ${i + 1}: ${issue.path.slice(1).join('.')}: ${issue.message}`,
+          )
+    })
+  }
 
   for (const file of bundle.stories) {
     const story = parseWith(storyStrict, file.data, file.path, errors)

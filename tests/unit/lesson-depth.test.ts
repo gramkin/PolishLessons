@@ -14,7 +14,7 @@ const quiz = (n: number) =>
 describe('lessonDepth', () => {
   it('counts spoken examples, quiz questions and the mistakes section', () => {
     const body = [':pron{pl="Mam kota."} — x', '## Типичные ошибки', quiz(3), quiz(2)].join('\n\n')
-    expect(lessonDepth(body)).toEqual({ examples: 1, questions: 5, mistakes: true })
+    expect(lessonDepth(body)).toEqual({ examples: 1, questions: 5, mistakes: true, exam: false })
   })
 })
 
@@ -32,5 +32,22 @@ describe('lessonDepthWarnings', () => {
     expect(lessonDepthWarnings(lessons)).toEqual([
       'lessons/b.md: thin lesson: 0 spoken examples (min 10), 2 questions (min 8), no «Типичные ошибки» section',
     ])
+  })
+})
+
+describe('an exam page', () => {
+  it('needs only enough questions when every question names a skill', () => {
+    const quiz = [
+      '::quiz',
+      '---',
+      'questions:',
+      ...Array.from({ length: 9 }, () => '  - type: choice\n    skill: reading'),
+      '---',
+      '::',
+    ].join('\n')
+    expect(lessonDepth(quiz).exam).toBe(true)
+    expect(lessonDepthWarnings([{ path: 'lessons/exam.md', frontmatter: {}, body: quiz }])).toEqual(
+      [],
+    )
   })
 })

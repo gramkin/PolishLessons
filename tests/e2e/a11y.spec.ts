@@ -9,6 +9,7 @@ const PAGES = [
   '/books/alicja-pl-01-krolicza-nora',
   '/vocabulary',
   '/idioms',
+  '/placement',
   '/flashcards',
   '/settings',
   '/cheatsheet',

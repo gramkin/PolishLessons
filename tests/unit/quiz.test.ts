@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  scoreBySkill,
   checkChoice,
   checkMatch,
   checkText,
@@ -108,5 +109,21 @@ describe('scoreQuiz with skipped questions', () => {
       passed: false,
     })
     expect(scoreQuiz(['skipped'])).toMatchObject({ total: 0, passed: false })
+  })
+})
+
+describe('scoreBySkill', () => {
+  it('scores each skill apart, in order of appearance, ignoring untagged and skipped', () => {
+    const questions = [
+      { skill: 'reading' as const },
+      { skill: 'listening' as const },
+      { skill: 'reading' as const },
+      { skill: 'listening' as const },
+      {},
+    ]
+    expect(scoreBySkill(questions, ['correct', 'skipped', 'wrong', 'correct', 'wrong'])).toEqual([
+      { skill: 'reading', correct: 1, total: 2, percent: 50, passed: false },
+      { skill: 'listening', correct: 1, total: 1, percent: 100, passed: true },
+    ])
   })
 })

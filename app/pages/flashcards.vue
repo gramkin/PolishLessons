@@ -2,7 +2,7 @@
 import type { Word } from '#shared/schemas'
 import { learnedWordIds, selectWords, type DeckFilter } from '~/utils/deck'
 import { buildSession, isDue } from '~/utils/leitner'
-import { dueMistakes, type Mistake } from '~/utils/mistakes'
+import { dueMistakes, lessonsToReview, type Mistake } from '~/utils/mistakes'
 import { listTopics } from '~/utils/vocabulary'
 
 useSeoMeta({ title: 'Карточки', description: 'Повторение слов по системе Лейтнера.' })
@@ -54,6 +54,7 @@ const mistakes = computed(() =>
   Object.values(progress.value.mistakes).sort((a, b) => a.due.localeCompare(b.due)),
 )
 const mistakesDue = computed(() => dueMistakes(progress.value.mistakes, new Date()).length)
+const weakLessons = computed(() => lessonsToReview(mistakes.value))
 const mistakeSession = ref<Mistake[] | null>(null)
 
 function startMistakes() {
@@ -184,6 +185,14 @@ function onFinish(result: { remembered: number; forgotten: number }) {
             Сюда попадают вопросы из упражнений и тренажёров, на которые вы ответили неверно. Они
             возвращаются на следующий день, потом всё реже, и уходят после пяти верных ответов
             подряд.
+          </p>
+          <p v-if="weakLessons.length > 0" class="weak-lessons">
+            Больше всего ошибок в уроках:
+            <template v-for="(lesson, i) in weakLessons" :key="lesson.path">
+              <template v-if="i > 0">, </template>
+              <NuxtLink :to="lesson.path">{{ lesson.title }}</NuxtLink> ({{ lesson.count }})
+            </template>
+            — стоит перечитать их, а не только повторять отдельные вопросы.
           </p>
           <MistakeList :mistakes="mistakes" @remove="deleteMistake" />
           <button type="button" :disabled="mistakesDue === 0" @click="startMistakes">Начать</button>

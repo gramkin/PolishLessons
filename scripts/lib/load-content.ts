@@ -18,6 +18,7 @@ export interface ContentBundle {
   chapters: DataFile | null
   patterns: DataFile | null
   drills: DataFile | null
+  placement: DataFile | null
   words: DataFile[]
   stories: DataFile[]
   books: DataFile[]
@@ -61,6 +62,7 @@ export function loadContent(root: string, options: { cardIds?: string[] } = {}):
     chapters: optional(join(root, 'chapters.yml'), (f) => readData(root, f)),
     patterns: optional(join(root, 'patterns.yml'), (f) => readData(root, f)),
     drills: optional(join(root, 'drills.yml'), (f) => readData(root, f)),
+    placement: optional(join(root, 'placement.yml'), (f) => readData(root, f)),
     words: listFiles(join(root, 'words'), '.yml').map((f) => readData(root, f)),
     stories: listFiles(join(root, 'stories'), '.yml').map((f) => readData(root, f)),
     books: listFiles(join(root, 'books'), '.yml').map((f) => readData(root, f)),
