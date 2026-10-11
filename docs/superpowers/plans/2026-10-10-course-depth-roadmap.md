@@ -217,3 +217,5 @@ phases are done; the native-speaker review below is what remains.
 **Phase 7 (finish B1)** was done on 2026-10-11 — chapter 28 «Темы B1», eight B1 stories, chapter 29 «Итоги B1» and placement questions for chapters 22–28. The path on to B2 (Phases 8–10) is designed in `docs/superpowers/specs/2026-10-11-path-to-b2-design.md`.
 
 **Phase 8 (B2 grammar and usage)** was done on 2026-10-11 — chapters 30–36 and the second book, Prus «Nowele» (*Kamizelka*, *Katarynka*); plan `docs/superpowers/plans/2026-10-11-phase8-b2-grammar.md`.
+
+**Phase 9 (B2 reading)** was done on 2026-10-12 — nine authored B2 texts in different registers for chapters 30–36; plan `docs/superpowers/plans/2026-10-12-phase9-b2-reading.md`.
