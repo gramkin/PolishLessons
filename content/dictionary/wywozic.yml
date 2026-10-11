@@ -1,0 +1,818 @@
+# review
+id: wywozic
+format: 2
+lemma: "wywozić"
+rank: 5852
+pos: verb
+aspect: imperf
+pron: { cyr: "выво́зиць" }
+senses:
+  - id: take-out
+    ru: "вывозить (груз, мусор, товар)"
+    examples:
+      - pl: "Śmieci wywozi się u nas trzy razy w tygodniu."
+        ru: "Мусор у нас вывозят три раза в неделю."
+        source: { kind: translated, id: 880302 }
+      - pl: "Ciężarówki wywożą ziemię z budowy."
+        ru: "Грузовики вывозят землю со стройки."
+        source: { kind: authored }
+      - pl: "Firma wywozi meble do Niemiec."
+        ru: "Фирма вывозит мебель в Германию."
+        source: { kind: authored }
+  - id: deport
+    ru: "вывозить, депортировать (людей, ист.)"
+    examples:
+      - pl: "W czasie wojny wywożono ludzi na Syberię."
+        ru: "Во время войны людей вывозили в Сибирь."
+        source: { kind: authored }
+      - pl: "Okupanci wywozili dzieci do obozów."
+        ru: "Оккупанты вывозили детей в лагеря."
+        source: { kind: authored }
+  - id: take-away
+    ru: "увозить с собой (впечатления, воспоминания)"
+    examples:
+      - pl: "Turyści wywożą z Krakowa piękne wspomnienia."
+        ru: "Туристы увозят из Кракова прекрасные воспоминания."
+        source: { kind: authored }
+notes:
+  - { kind: usage, text: "Несовершенный вид; совершенный — WYWIEŹĆ: CO TYDZIEŃ WYWOZIMY ŚMIECI «каждую неделю вывозим мусор», а WCZORAJ WYWIEŹLIŚMY ŚMIECI «вчера вывезли мусор». WYWOZIĆ — повторяющееся или длящееся действие, WYWIEŹĆ — однократное, доведённое до конца." }
+  - { kind: pronunciation, text: "Чередование Z/Ż: WYWOZIĆ, WYWOZISZ, но WYWOŻĘ, WYWOŻĄ, WYWOŻONY — «выво́жэ», «вывожо́ны». Повелительное — WYWOŹ, WYWOŹCIE, без Ó: так же, как WOŹ от WOZIĆ и NOŚ от NOSIĆ." }
+  - { kind: government, text: "Что — винительный, откуда — Z + родительный, куда — DO + родительный или NA + винительный: WYWOZIĆ ŚMIECI Z PODWÓRKA NA WYSYPISKO. За границу — ZA GRANICĘ. Людей — тоже винительный: WYWOZIĆ LUDZI NA SYBERIĘ «депортировать людей в Сибирь»." }
+  - { kind: false-friend, text: "Русское «вывозить» в смысле «вытянуть, справиться» («он всё вывозит») по-польски так не говорят: это DAWAĆ RADĘ. WYWOZIĆ — только буквально «вывозить на транспорте» и «увозить с собой» впечатления." }
+collocations:
+  - { pl: "wywozić śmieci", ru: "вывозить мусор" }
+  - { pl: "wywozić za granicę", ru: "вывозить за границу" }
+  - { pl: "wywozić towar", ru: "вывозить товар" }
+  - { pl: "wywozić wspomnienia", ru: "увозить с собой воспоминания" }
+family:
+  - { pl: "wywieźć", ru: "вывезти", relation: aspect }
+  - { pl: "wozić", ru: "возить", relation: root }
+  - { pl: "wóz", ru: "повозка, телега", relation: root, id: woz }
+  - { pl: "wywóz", ru: "вывоз", relation: derived }
+  - { pl: "przywozić", ru: "привозить", relation: antonym }
+etymology: "Приставка WY- «вы-» плюс WOZIĆ «возить», праславянское *voziti, то же, что русское «возить»; WY- соответствует русскому «вы-»."
+memory: "Wy- = «вы-», wozić = «возить»: wywozić — вывозить. Śmieci wywożą w czwartki — мусор вывозят по четвергам."
+idioms:
+  - { pl: "wywozić kogoś na taczkach", ru: "с позором выгонять кого-то (буквально «вывозить на тачке»)" }
+formExamplesSkip:
+  - { form: "wywoziwszy", reason: "деепричастие прошедшего времени на -wszy образуется от совершенного вида, а wywozić — несовершенного: ему соответствует wywożąc, а совершенному wywieźć — wywiózłszy" }
+  - { form: "wywóź", reason: "форма не нормативна: повелительное наклонение — wywoź. Глаголы этого типа сохраняют o во всех формах повелительного наклонения: wozić — woź, nosić — noś" }
+  - { form: "wywóźcie", reason: "форма не нормативна: повелительное наклонение — wywoźcie, как woźcie от wozić. То же основание, по которому без примеров оставлена форма wywóź" }
+  - { form: "wywóźmy", reason: "форма не нормативна: повелительное наклонение — wywoźmy, как woźmy от wozić. То же основание, по которому без примеров оставлена форма wywóź" }
+formExamples:
+  - form: "wywozi"
+    pl: "Śmieci wywozi się u nas trzy razy w tygodniu."
+    ru: "Мусор у нас вывозят три раза в неделю."
+    source: { kind: translated, id: 880302 }
+  - form: "wywozi"
+    pl: "Sąsiad co jesień wywozi liście na kompost."
+    ru: "Сосед каждую осень вывозит листья в компост."
+    source: { kind: authored }
+  - form: "wywozi"
+    pl: "Ta firma wywozi owoce za granicę."
+    ru: "Эта фирма вывозит фрукты за границу."
+    source: { kind: authored }
+  - form: "wywozicie"
+    pl: "Kiedy wywozicie stare meble?"
+    ru: "Когда вы вывозите старую мебель?"
+    source: { kind: authored }
+  - form: "wywozicie"
+    pl: "Dokąd wywozicie ten gruz?"
+    ru: "Куда вы вывозите этот строительный мусор?"
+    source: { kind: authored }
+  - form: "wywozicie"
+    pl: "Mam nadzieję, że wywozicie stąd dobre wspomnienia."
+    ru: "Надеюсь, вы увозите отсюда хорошие воспоминания."
+    source: { kind: authored }
+  - form: "wywozić"
+    pl: "Wywozić śmieci trzeba regularnie."
+    ru: "Мусор нужно вывозить регулярно."
+    source: { kind: authored }
+  - form: "wywozić"
+    pl: "Nie wolno wywozić zabytków bez zgody."
+    ru: "Нельзя вывозить памятники старины без разрешения."
+    source: { kind: authored }
+  - form: "wywozić"
+    pl: "Zaczęli wywozić drewno z lasu."
+    ru: "Они начали вывозить древесину из леса."
+    source: { kind: authored }
+  - form: "wywozili"
+    pl: "Robotnicy cały dzień wywozili piasek."
+    ru: "Рабочие весь день вывозили песок."
+    source: { kind: authored }
+  - form: "wywozili"
+    pl: "Żołnierze wywozili mieszkańców całych wsi."
+    ru: "Солдаты вывозили жителей целых деревень."
+    source: { kind: authored }
+  - form: "wywozili"
+    pl: "Kupcy wywozili stąd zboże i sól."
+    ru: "Купцы вывозили отсюда зерно и соль."
+    source: { kind: authored }
+  - form: "wywoziliby"
+    pl: "Gdyby mieli auto, wywoziliby śmieci sami."
+    ru: "Если бы у них была машина, они бы сами вывозили мусор."
+    source: { kind: authored }
+  - form: "wywoziliby"
+    pl: "Bez kontroli wywoziliby wszystko za granicę."
+    ru: "Без контроля они бы вывозили всё за границу."
+    source: { kind: authored }
+  - form: "wywoziliby"
+    pl: "Za taką cenę chętnie wywoziliby gruz."
+    ru: "За такую цену они бы охотно вывозили строительный мусор."
+    source: { kind: authored }
+  - form: "wywozilibyście"
+    pl: "Czy wywozilibyście śmieci w nocy?"
+    ru: "Вы бы вывозили мусор ночью?"
+    source: { kind: authored }
+  - form: "wywozilibyście"
+    pl: "Panowie, wywozilibyście ten złom co tydzień?"
+    ru: "Господа, вы бы вывозили этот металлолом каждую неделю?"
+    source: { kind: authored }
+  - form: "wywozilibyście"
+    pl: "Pewnie wywozilibyście to taniej niż oni."
+    ru: "Наверное, вы бы вывозили это дешевле, чем они."
+    source: { kind: authored }
+  - form: "wywozilibyśmy"
+    pl: "Mając ciężarówkę, wywozilibyśmy więcej towaru."
+    ru: "Имея грузовик, мы бы вывозили больше товара."
+    source: { kind: authored }
+  - form: "wywozilibyśmy"
+    pl: "Z bratem wywozilibyśmy to drewno przez tydzień."
+    ru: "Мы с братом вывозили бы эту древесину неделю."
+    source: { kind: authored }
+  - form: "wywozilibyśmy"
+    pl: "Chętnie wywozilibyśmy jabłka do Rosji."
+    ru: "Мы бы охотно вывозили яблоки в Россию."
+    source: { kind: authored }
+  - form: "wywoziliście"
+    pl: "Ile razy wywoziliście śmieci w tym miesiącu?"
+    ru: "Сколько раз вы вывозили мусор в этом месяце?"
+    source: { kind: authored }
+  - form: "wywoziliście"
+    pl: "Czym wywoziliście ziemię z ogrodu?"
+    ru: "На чём вы вывозили землю из сада?"
+    source: { kind: authored }
+  - form: "wywoziliście"
+    pl: "Długo wywoziliście te rzeczy z mieszkania?"
+    ru: "Долго вы вывозили эти вещи из квартиры?"
+    source: { kind: authored }
+  - form: "wywoziliśmy"
+    pl: "Wywoziliśmy gruz aż do wieczora."
+    ru: "Мы вывозили строительный мусор до самого вечера."
+    source: { kind: authored }
+  - form: "wywoziliśmy"
+    pl: "Kiedyś wywoziliśmy węgiel do Szwecji."
+    ru: "Когда-то мы вывозили уголь в Швецию."
+    source: { kind: authored }
+  - form: "wywoziliśmy"
+    pl: "Taczkami wywoziliśmy kamienie z pola."
+    ru: "Мы вывозили камни с поля на тачках."
+    source: { kind: authored }
+  - form: "wywoził"
+    pl: "Ojciec wywoził śmieci w każdą sobotę."
+    ru: "Отец вывозил мусор каждую субботу."
+    source: { kind: authored }
+  - form: "wywoził"
+    pl: "Ten statek wywoził drewno do Anglii."
+    ru: "Это судно вывозило лес в Англию."
+    source: { kind: authored }
+  - form: "wywoził"
+    pl: "Pociąg wywoził ludzi na wschód."
+    ru: "Поезд вывозил людей на восток."
+    source: { kind: authored }
+  - form: "wywoziła"
+    pl: "Babcia wywoziła wnuki na wieś na całe lato."
+    ru: "Бабушка увозила внуков в деревню на всё лето."
+    source: { kind: authored }
+  - form: "wywoziła"
+    pl: "Ciężarówka wywoziła gruz przez cały tydzień."
+    ru: "Грузовик вывозил строительный мусор всю неделю."
+    source: { kind: authored }
+  - form: "wywoziła"
+    pl: "Każdego roku wywoziła z Włoch kilka obrazów."
+    ru: "Каждый год она вывозила из Италии несколько картин."
+    source: { kind: authored }
+  - form: "wywoziłaby"
+    pl: "Bez pomocy wywoziłaby te pudła do wieczora."
+    ru: "Без помощи она бы вывозила эти коробки до вечера."
+    source: { kind: authored }
+  - form: "wywoziłaby"
+    pl: "Ta firma wywoziłaby nasze śmieci taniej."
+    ru: "Эта фирма вывозила бы наш мусор дешевле."
+    source: { kind: authored }
+  - form: "wywoziłaby"
+    pl: "Mama nigdy nie wywoziłaby dzieci tak daleko."
+    ru: "Мама никогда не увозила бы детей так далеко."
+    source: { kind: authored }
+  - form: "wywoziłabym"
+    pl: "Mając samochód, wywoziłabym śmieci sama."
+    ru: "Будь у меня машина, я бы сама вывозила мусор."
+    source: { kind: authored }
+  - form: "wywoziłabym"
+    pl: "Latem wywoziłabym dzieci nad morze."
+    ru: "Летом я бы вывозила детей на море."
+    source: { kind: authored }
+  - form: "wywoziłabym"
+    pl: "Na twoim miejscu wywoziłabym to częściej."
+    ru: "На твоём месте я бы вывозила это чаще."
+    source: { kind: authored }
+  - form: "wywoziłabyś"
+    pl: "Czy wywoziłabyś te rzeczy sama?"
+    ru: "Ты бы вывозила эти вещи сама?"
+    source: { kind: authored }
+  - form: "wywoziłabyś"
+    pl: "Ile wywoziłabyś ziemi jednym kursem?"
+    ru: "Сколько земли ты бы вывозила за один рейс?"
+    source: { kind: authored }
+  - form: "wywoziłabyś"
+    pl: "Ty też wywoziłabyś stąd same miłe chwile."
+    ru: "Ты бы тоже увозила отсюда одни приятные мгновения."
+    source: { kind: authored }
+  - form: "wywoziłam"
+    pl: "Wczoraj długo wywoziłam stare ubrania."
+    ru: "Вчера я долго вывозила старую одежду."
+    source: { kind: authored }
+  - form: "wywoziłam"
+    pl: "Przez lata wywoziłam meble na wieś."
+    ru: "Годами я вывозила мебель в деревню."
+    source: { kind: authored }
+  - form: "wywoziłam"
+    pl: "Tym autem wywoziłam ziemię z działki."
+    ru: "На этой машине я вывозила землю с участка."
+    source: { kind: authored }
+  - form: "wywoziłaś"
+    pl: "Kiedy ostatnio wywoziłaś śmieci?"
+    ru: "Когда ты в последний раз вывозила мусор?"
+    source: { kind: authored }
+  - form: "wywoziłaś"
+    pl: "Też wywoziłaś te pudła do piwnicy?"
+    ru: "Ты тоже вывозила эти коробки в подвал?"
+    source: { kind: authored }
+  - form: "wywoziłaś"
+    pl: "Czym wywoziłaś te stare krzesła?"
+    ru: "На чём ты вывозила эти старые стулья?"
+    source: { kind: authored }
+  - form: "wywoziłby"
+    pl: "Taki kierowca wywoziłby wszystko bez pytania."
+    ru: "Такой водитель вывозил бы всё без вопросов."
+    source: { kind: authored }
+  - form: "wywoziłby"
+    pl: "Mój brat chętnie wywoziłby śmieci za nas."
+    ru: "Мой брат охотно вывозил бы мусор за нас."
+    source: { kind: authored }
+  - form: "wywoziłby"
+    pl: "Ten statek wywoziłby więcej, gdyby był większy."
+    ru: "Это судно вывозило бы больше, будь оно побольше."
+    source: { kind: authored }
+  - form: "wywoziłbym"
+    pl: "Gdybym mógł, wywoziłbym gruz codziennie."
+    ru: "Если бы мог, я бы вывозил строительный мусор каждый день."
+    source: { kind: authored }
+  - form: "wywoziłbym"
+    pl: "Na pewno wywoziłbym te rzeczy częściej."
+    ru: "Я бы точно вывозил эти вещи чаще."
+    source: { kind: authored }
+  - form: "wywoziłbym"
+    pl: "Za darmo nie wywoziłbym cudzych śmieci."
+    ru: "Бесплатно я бы не вывозил чужой мусор."
+    source: { kind: authored }
+  - form: "wywoziłbyś"
+    pl: "Za ile wywoziłbyś nam ten złom?"
+    ru: "За сколько ты бы вывозил нам этот металлолом?"
+    source: { kind: authored }
+  - form: "wywoziłbyś"
+    pl: "Naprawdę wywoziłbyś to w taką pogodę?"
+    ru: "Ты правда вывозил бы это в такую погоду?"
+    source: { kind: authored }
+  - form: "wywoziłbyś"
+    pl: "Ty wywoziłbyś gruz, a ja sprzątałbym dom."
+    ru: "Ты бы вывозил строительный мусор, а я бы убирал дом."
+    source: { kind: authored }
+  - form: "wywoziłem"
+    pl: "Całe popołudnie wywoziłem liście z ogrodu."
+    ru: "Весь день я вывозил листья из сада."
+    source: { kind: authored }
+  - form: "wywoziłem"
+    pl: "Jako student wywoziłem towar do Czech."
+    ru: "Студентом я вывозил товар в Чехию."
+    source: { kind: authored }
+  - form: "wywoziłem"
+    pl: "Wtedy właśnie wywoziłem śmieci na wysypisko."
+    ru: "Как раз тогда я вывозил мусор на свалку."
+    source: { kind: authored }
+  - form: "wywoziłeś"
+    pl: "Ty wywoziłeś wczoraj te kartony?"
+    ru: "Это ты вчера вывозил эти коробки?"
+    source: { kind: authored }
+  - form: "wywoziłeś"
+    pl: "Dokąd wywoziłeś stare opony?"
+    ru: "Куда ты вывозил старые шины?"
+    source: { kind: authored }
+  - form: "wywoziłeś"
+    pl: "Czy to ty wywoziłeś stąd gruz?"
+    ru: "Это ты вывозил отсюда строительный мусор?"
+    source: { kind: authored }
+  - form: "wywoziło"
+    pl: "Miasto wywoziło śmieci tylko raz w miesiącu."
+    ru: "Город вывозил мусор только раз в месяц."
+    source: { kind: authored }
+  - form: "wywoziło"
+    pl: "Wojsko wywoziło rannych z miasta."
+    ru: "Армия вывозила раненых из города."
+    source: { kind: authored }
+  - form: "wywoziło"
+    pl: "Dawniej to państwo wywoziło głównie węgiel."
+    ru: "Раньше это государство вывозило в основном уголь."
+    source: { kind: authored }
+  - form: "wywoziłoby"
+    pl: "Takie auto wywoziłoby dwa razy więcej gruzu."
+    ru: "Такая машина вывозила бы вдвое больше строительного мусора."
+    source: { kind: authored }
+  - form: "wywoziłoby"
+    pl: "Bez tych przepisów miasto wywoziłoby śmieci rzadziej."
+    ru: "Без этих правил город вывозил бы мусор реже."
+    source: { kind: authored }
+  - form: "wywoziłoby"
+    pl: "Państwo wywoziłoby więcej, gdyby miało porty."
+    ru: "Государство вывозило бы больше, будь у него порты."
+    source: { kind: authored }
+  - form: "wywoziły"
+    pl: "Barki wywoziły zboże rzeką do Gdańska."
+    ru: "Баржи вывозили зерно по реке в Гданьск."
+    source: { kind: authored }
+  - form: "wywoziły"
+    pl: "Siostry wywoziły rzeczy po babci."
+    ru: "Сёстры вывозили вещи покойной бабушки."
+    source: { kind: authored }
+  - form: "wywoziły"
+    pl: "Ciężarówki wywoziły śnieg z ulic."
+    ru: "Грузовики вывозили снег с улиц."
+    source: { kind: authored }
+  - form: "wywoziłyby"
+    pl: "Nowe śmieciarki wywoziłyby odpady szybciej."
+    ru: "Новые мусоровозы вывозили бы отходы быстрее."
+    source: { kind: authored }
+  - form: "wywoziłyby"
+    pl: "Te barki wywoziłyby węgiel taniej niż kolej."
+    ru: "Эти баржи вывозили бы уголь дешевле, чем железная дорога."
+    source: { kind: authored }
+  - form: "wywoziłyby"
+    pl: "Dziewczyny same wywoziłyby te pudła."
+    ru: "Девушки сами вывозили бы эти коробки."
+    source: { kind: authored }
+  - form: "wywoziłybyście"
+    pl: "Czy wywoziłybyście te rzeczy same?"
+    ru: "Вы бы вывозили эти вещи сами?"
+    source: { kind: authored }
+  - form: "wywoziłybyście"
+    pl: "Panie, wywoziłybyście śmieci co tydzień?"
+    ru: "Дамы, вы бы вывозили мусор каждую неделю?"
+    source: { kind: authored }
+  - form: "wywoziłybyście"
+    pl: "Pewnie wywoziłybyście dzieci nad jezioro."
+    ru: "Наверное, вы бы вывозили детей на озеро."
+    source: { kind: authored }
+  - form: "wywoziłybyśmy"
+    pl: "Same wywoziłybyśmy to całe lato."
+    ru: "Сами мы вывозили бы это всё лето."
+    source: { kind: authored }
+  - form: "wywoziłybyśmy"
+    pl: "Gdyby nie deszcz, wywoziłybyśmy już ziemię."
+    ru: "Если бы не дождь, мы бы уже вывозили землю."
+    source: { kind: authored }
+  - form: "wywoziłybyśmy"
+    pl: "Z mamą wywoziłybyśmy stare rzeczy na targ."
+    ru: "Мы с мамой вывозили бы старые вещи на рынок."
+    source: { kind: authored }
+  - form: "wywoziłyście"
+    pl: "Długo wywoziłyście te kartony?"
+    ru: "Долго вы вывозили эти коробки?"
+    source: { kind: authored }
+  - form: "wywoziłyście"
+    pl: "Dokąd wywoziłyście stare meble?"
+    ru: "Куда вы вывозили старую мебель?"
+    source: { kind: authored }
+  - form: "wywoziłyście"
+    pl: "Wy też wywoziłyście liście z ogrodu?"
+    ru: "Вы тоже вывозили листья из сада?"
+    source: { kind: authored }
+  - form: "wywoziłyśmy"
+    pl: "Z siostrą wywoziłyśmy śmieci na zmianę."
+    ru: "Мы с сестрой вывозили мусор по очереди."
+    source: { kind: authored }
+  - form: "wywoziłyśmy"
+    pl: "Całą sobotę wywoziłyśmy rzeczy z piwnicy."
+    ru: "Всю субботу мы вывозили вещи из подвала."
+    source: { kind: authored }
+  - form: "wywoziłyśmy"
+    pl: "Wówczas wywoziłyśmy kwiaty na targ."
+    ru: "Тогда мы вывозили цветы на рынок."
+    source: { kind: authored }
+  - form: "wywozimy"
+    pl: "Co tydzień wywozimy śmieci na wysypisko."
+    ru: "Каждую неделю мы вывозим мусор на свалку."
+    source: { kind: authored }
+  - form: "wywozimy"
+    pl: "Wywozimy towar głównie do Czech."
+    ru: "Мы вывозим товар в основном в Чехию."
+    source: { kind: authored }
+  - form: "wywozimy"
+    pl: "Stąd wywozimy same dobre wspomnienia."
+    ru: "Отсюда мы увозим одни хорошие воспоминания."
+    source: { kind: authored }
+  - form: "wywozisz"
+    pl: "Ty dziś wywozisz śmieci?"
+    ru: "Ты сегодня вывозишь мусор?"
+    source: { kind: authored }
+  - form: "wywozisz"
+    pl: "Wywozisz te szpargały już drugi tydzień."
+    ru: "Ты вывозишь это старьё уже вторую неделю."
+    source: { kind: authored }
+  - form: "wywozisz"
+    pl: "Gdzie wywozisz stare opony?"
+    ru: "Куда ты вывозишь старые шины?"
+    source: { kind: authored }
+  - form: "wywoź"
+    pl: "Wywoź śmieci przynajmniej raz w tygodniu."
+    ru: "Вывози мусор хотя бы раз в неделю."
+    source: { kind: authored }
+  - form: "wywoź"
+    pl: "Nie wywoź tego do lasu!"
+    ru: "Не вывози это в лес!"
+    source: { kind: authored }
+  - form: "wywoź"
+    pl: "Proszę, wywoź gruz dopiero po obiedzie."
+    ru: "Пожалуйста, вывози строительный мусор только после обеда."
+    source: { kind: authored }
+  - form: "wywoźcie"
+    pl: "Wywoźcie ziemię na tył działki."
+    ru: "Вывозите землю на зады участка."
+    source: { kind: authored }
+  - form: "wywoźcie"
+    pl: "Tylko nie wywoźcie odpadów do rzeki!"
+    ru: "Только не вывозите отходы в реку!"
+    source: { kind: authored }
+  - form: "wywoźcie"
+    pl: "Chłopaki, wywoźcie te deski przed deszczem."
+    ru: "Ребята, вывозите эти доски до дождя."
+    source: { kind: authored }
+  - form: "wywoźmy"
+    pl: "Wywoźmy te graty jeszcze dzisiaj."
+    ru: "Давайте вывозить этот хлам ещё сегодня."
+    source: { kind: authored }
+  - form: "wywoźmy"
+    pl: "Nie wywoźmy śmieci do lasu."
+    ru: "Давайте не вывозить мусор в лес."
+    source: { kind: authored }
+  - form: "wywoźmy"
+    pl: "Najpierw wywoźmy gruz, potem pomalujemy."
+    ru: "Давайте сначала вывозить строительный мусор, потом покрасим."
+    source: { kind: authored }
+  - form: "wywożą"
+    pl: "Śmieci wywożą u nas w czwartki."
+    ru: "Мусор у нас вывозят по четвергам."
+    source: { kind: authored }
+  - form: "wywożą"
+    pl: "Ciężarówki wywożą ziemię z budowy."
+    ru: "Грузовики вывозят землю со стройки."
+    source: { kind: authored }
+  - form: "wywożą"
+    pl: "Turyści wywożą z Krakowa piękne wspomnienia."
+    ru: "Туристы увозят из Кракова прекрасные воспоминания."
+    source: { kind: authored }
+  - form: "wywożąc"
+    pl: "Wywożąc śmieci, spotkałem sąsiada."
+    ru: "Вывозя мусор, я встретил соседа."
+    source: { kind: authored }
+  - form: "wywożąc"
+    pl: "Zarobił dużo, wywożąc auta na wschód."
+    ru: "Он хорошо заработал, вывозя машины на восток."
+    source: { kind: authored }
+  - form: "wywożąc"
+    pl: "Wywożąc gruz, uważaj na dzieci."
+    ru: "Вывозя строительный мусор, смотри за детьми."
+    source: { kind: authored }
+  - form: "wywożąca"
+    pl: "Firma wywożąca śmieci podniosła ceny."
+    ru: "Фирма, вывозящая мусор, подняла цены."
+    source: { kind: authored }
+  - form: "wywożąca"
+    pl: "Ciężarówka wywożąca gruz zablokowała ulicę."
+    ru: "Грузовик, вывозивший строительный мусор, перегородил улицу."
+    source: { kind: authored }
+  - form: "wywożąca"
+    pl: "Barka wywożąca zboże utknęła na mieliźnie."
+    ru: "Баржа, вывозившая зерно, села на мель."
+    source: { kind: authored }
+  - form: "wywożącą"
+    pl: "Widziałem śmieciarkę wywożącą odpady w nocy."
+    ru: "Я видел мусоровоз, вывозивший отходы ночью."
+    source: { kind: authored }
+  - form: "wywożącą"
+    pl: "Policja zatrzymała ciężarówkę wywożącą drewno nielegalnie."
+    ru: "Полиция остановила грузовик, незаконно вывозивший древесину."
+    source: { kind: authored }
+  - form: "wywożącą"
+    pl: "Zatrudniliśmy firmę wywożącą gruz."
+    ru: "Мы наняли фирму, которая вывозит строительный мусор."
+    source: { kind: authored }
+  - form: "wywożące"
+    pl: "Statki wywożące węgiel stoją w porcie."
+    ru: "Суда, вывозящие уголь, стоят в порту."
+    source: { kind: authored }
+  - form: "wywożące"
+    pl: "Auta wywożące śnieg jeździły całą noc."
+    ru: "Машины, вывозившие снег, ездили всю ночь."
+    source: { kind: authored }
+  - form: "wywożące"
+    pl: "Kraje wywożące ropę bogacą się szybko."
+    ru: "Страны, вывозящие нефть, быстро богатеют."
+    source: { kind: authored }
+  - form: "wywożącego"
+    pl: "Nie widziałem nikogo wywożącego te śmieci."
+    ru: "Я не видел никого, кто вывозил бы этот мусор."
+    source: { kind: authored }
+  - form: "wywożącego"
+    pl: "Szukamy kierowcy wywożącego towar do Litwy."
+    ru: "Мы ищем водителя, вывозящего товар в Литву."
+    source: { kind: authored }
+  - form: "wywożącego"
+    pl: "Zdjęcie przedstawia żołnierza wywożącego rannych."
+    ru: "На фото солдат, вывозящий раненых."
+    source: { kind: authored }
+  - form: "wywożącej"
+    pl: "Nazwa firmy wywożącej śmieci jest na kontenerze."
+    ru: "Название фирмы, вывозящей мусор, написано на контейнере."
+    source: { kind: authored }
+  - form: "wywożącej"
+    pl: "Kierowca ciężarówki wywożącej gruz był zmęczony."
+    ru: "Водитель грузовика, вывозившего строительный мусор, устал."
+    source: { kind: authored }
+  - form: "wywożącej"
+    pl: "Zadzwoń do firmy wywożącej meble."
+    ru: "Позвони в фирму, которая вывозит мебель."
+    source: { kind: authored }
+  - form: "wywożącemu"
+    pl: "Zapłaciliśmy kierowcy wywożącemu gruz z góry."
+    ru: "Мы заплатили водителю, вывозившему строительный мусор, вперёд."
+    source: { kind: authored }
+  - form: "wywożącemu"
+    pl: "Daj klucz panu wywożącemu meble."
+    ru: "Дай ключ господину, который вывозит мебель."
+    source: { kind: authored }
+  - form: "wywożącemu"
+    pl: "Kierowcy wywożącemu śmieci zrobiło się słabo."
+    ru: "Водителю, вывозившему мусор, стало плохо."
+    source: { kind: authored }
+  - form: "wywożący"
+    pl: "Kierowca wywożący śmieci przyjeżdża o szóstej."
+    ru: "Водитель, вывозящий мусор, приезжает в шесть."
+    source: { kind: authored }
+  - form: "wywożący"
+    pl: "Pociąg wywożący węgiel jechał bardzo wolno."
+    ru: "Поезд, вывозивший уголь, шёл очень медленно."
+    source: { kind: authored }
+  - form: "wywożący"
+    pl: "Ludzie wywożący odpady do lasu dostaną mandat."
+    ru: "Люди, вывозящие отходы в лес, получат штраф."
+    source: { kind: authored }
+  - form: "wywożących"
+    pl: "Coraz więcej firm wywożących śmieci podnosi ceny."
+    ru: "Всё больше фирм, вывозящих мусор, повышает цены."
+    source: { kind: authored }
+  - form: "wywożących"
+    pl: "Na drodze było pełno aut wywożących śnieg."
+    ru: "На дороге было полно машин, вывозивших снег."
+    source: { kind: authored }
+  - form: "wywożących"
+    pl: "Policja szuka ludzi wywożących odpady do lasu."
+    ru: "Полиция ищет людей, вывозящих отходы в лес."
+    source: { kind: authored }
+  - form: "wywożącym"
+    pl: "Z kierowcą wywożącym gruz trudno się dogadać."
+    ru: "С водителем, вывозящим строительный мусор, трудно договориться."
+    source: { kind: authored }
+  - form: "wywożącym"
+    pl: "Przyglądał się dźwigom i autom wywożącym ziemię."
+    ru: "Он смотрел на краны и машины, вывозившие землю."
+    source: { kind: authored }
+  - form: "wywożącym"
+    pl: "Firmom wywożącym śmieci brakuje kierowców."
+    ru: "Фирмам, вывозящим мусор, не хватает водителей."
+    source: { kind: authored }
+  - form: "wywożącymi"
+    pl: "Ulica była zapchana ciężarówkami wywożącymi gruz."
+    ru: "Улица была забита грузовиками, вывозившими строительный мусор."
+    source: { kind: authored }
+  - form: "wywożącymi"
+    pl: "Miasto podpisało umowy z firmami wywożącymi odpady."
+    ru: "Город подписал договоры с фирмами, вывозящими отходы."
+    source: { kind: authored }
+  - form: "wywożącymi"
+    pl: "Rozmawiałem z rolnikami wywożącymi jabłka na Wschód."
+    ru: "Я разговаривал с фермерами, вывозящими яблоки на Восток."
+    source: { kind: authored }
+  - form: "wywożeni"
+    pl: "W czasie wojny ludzie byli wywożeni na Syberię."
+    ru: "Во время войны людей вывозили в Сибирь."
+    source: { kind: authored }
+  - form: "wywożeni"
+    pl: "Ranni żołnierze byli wywożeni z frontu nocą."
+    ru: "Раненых солдат вывозили с фронта ночью."
+    source: { kind: authored }
+  - form: "wywożeni"
+    pl: "Mieszkańcy wsi byli wywożeni na roboty do Niemiec."
+    ru: "Жителей деревни вывозили на работы в Германию."
+    source: { kind: authored }
+  - form: "wywożenia"
+    pl: "Nie ma tu stałych terminów wywożenia śmieci."
+    ru: "Здесь нет постоянных сроков вывоза мусора."
+    source: { kind: authored }
+  - form: "wywożenia"
+    pl: "Zakazano wywożenia drewna z parku narodowego."
+    ru: "Вывоз древесины из национального парка запретили."
+    source: { kind: authored }
+  - form: "wywożenia"
+    pl: "Rozpoczęto akcję wywożenia rannych z miasta."
+    ru: "Началась операция по вывозу раненых из города."
+    source: { kind: authored }
+  - form: "wywożenie"
+    pl: "Wywożenie śmieci kosztuje coraz więcej."
+    ru: "Вывоз мусора стоит всё дороже."
+    source: { kind: authored }
+  - form: "wywożenie"
+    pl: "Za wywożenie odpadów do lasu grozi kara."
+    ru: "За вывоз отходов в лес грозит штраф."
+    source: { kind: authored }
+  - form: "wywożenie"
+    pl: "Nielegalne wywożenie zabytków to przestępstwo."
+    ru: "Незаконный вывоз памятников старины — преступление."
+    source: { kind: authored }
+  - form: "wywożeniem"
+    pl: "Kto zajmuje się wywożeniem śmieci?"
+    ru: "Кто занимается вывозом мусора?"
+    source: { kind: authored }
+  - form: "wywożeniem"
+    pl: "Z wywożeniem gruzu był duży kłopot."
+    ru: "С вывозом строительного мусора была большая проблема."
+    source: { kind: authored }
+  - form: "wywożeniem"
+    pl: "Zajmował się wywożeniem złomu za granicę."
+    ru: "Он занимался вывозом металлолома за границу."
+    source: { kind: authored }
+  - form: "wywożeniu"
+    pl: "Po wywożeniu ziemi zaczęli kopać fundamenty."
+    ru: "После вывоза земли начали копать фундамент."
+    source: { kind: authored }
+  - form: "wywożeniu"
+    pl: "Przy wywożeniu mebli pomagali sąsiedzi."
+    ru: "При вывозе мебели помогали соседи."
+    source: { kind: authored }
+  - form: "wywożeniu"
+    pl: "Mówiono o masowym wywożeniu ludzi na wschód."
+    ru: "Говорили о массовом вывозе людей на восток."
+    source: { kind: authored }
+  - form: "wywożę"
+    pl: "Co sobotę wywożę śmieci na wysypisko."
+    ru: "Каждую субботу я вывожу мусор на свалку."
+    source: { kind: authored }
+  - form: "wywożę"
+    pl: "Właśnie wywożę stare meble z mieszkania."
+    ru: "Я как раз вывожу старую мебель из квартиры."
+    source: { kind: authored }
+  - form: "wywożę"
+    pl: "Z każdej podróży wywożę mnóstwo zdjęć."
+    ru: "Из каждой поездки я увожу кучу фотографий."
+    source: { kind: authored }
+  - form: "wywożona"
+    pl: "Ziemia z budowy jest wywożona za miasto."
+    ru: "Землю со стройки вывозят за город."
+    source: { kind: authored }
+  - form: "wywożona"
+    pl: "Ropa była wywożona statkami."
+    ru: "Нефть вывозили на судах."
+    source: { kind: authored }
+  - form: "wywożona"
+    pl: "Większość produkcji jest wywożona za granicę."
+    ru: "Большую часть продукции вывозят за границу."
+    source: { kind: authored }
+  - form: "wywożoną"
+    pl: "Patrzyli na ziemię wywożoną z ich pola."
+    ru: "Они смотрели на землю, которую вывозили с их поля."
+    source: { kind: authored }
+  - form: "wywożoną"
+    pl: "Sprawdzano każdą wywożoną paczkę."
+    ru: "Проверяли каждую вывозимую посылку."
+    source: { kind: authored }
+  - form: "wywożoną"
+    pl: "Za wywożoną ropę płacono w dolarach."
+    ru: "За вывозимую нефть платили в долларах."
+    source: { kind: authored }
+  - form: "wywożone"
+    pl: "Śmieci są wywożone w poniedziałki."
+    ru: "Мусор вывозят по понедельникам."
+    source: { kind: authored }
+  - form: "wywożone"
+    pl: "Zboże było wywożone do Gdańska."
+    ru: "Зерно вывозили в Гданьск."
+    source: { kind: authored }
+  - form: "wywożone"
+    pl: "Stare auta są wywożone na złom."
+    ru: "Старые машины вывозят на металлолом."
+    source: { kind: authored }
+  - form: "wywożonego"
+    pl: "Ilość wywożonego węgla wciąż spada."
+    ru: "Количество вывозимого угля продолжает падать."
+    source: { kind: authored }
+  - form: "wywożonego"
+    pl: "Część wywożonego zboża trafiała do Holandii."
+    ru: "Часть вывозимого зерна попадала в Голландию."
+    source: { kind: authored }
+  - form: "wywożonego"
+    pl: "Nikt nie liczył wywożonego gruzu."
+    ru: "Никто не считал вывозимый строительный мусор."
+    source: { kind: authored }
+  - form: "wywożonej"
+    pl: "Większość wywożonej ziemi trafia na wysypisko."
+    ru: "Большая часть вывозимой земли попадает на свалку."
+    source: { kind: authored }
+  - form: "wywożonej"
+    pl: "Cena wywożonej ropy znowu wzrosła."
+    ru: "Цена вывозимой нефти снова выросла."
+    source: { kind: authored }
+  - form: "wywożonej"
+    pl: "Celnik sprawdzał listę wywożonej broni."
+    ru: "Таможенник проверял список вывозимого оружия."
+    source: { kind: authored }
+  - form: "wywożonemu"
+    pl: "Celnicy przyglądali się wywożonemu towarowi."
+    ru: "Таможенники присматривались к вывозимому товару."
+    source: { kind: authored }
+  - form: "wywożonemu"
+    pl: "Nikt nie przyglądał się wywożonemu drewnu."
+    ru: "Никто не присматривался к вывозимой древесине."
+    source: { kind: authored }
+  - form: "wywożonemu"
+    pl: "Dzięki wywożonemu zbożu kraj się bogacił."
+    ru: "Благодаря вывозимому зерну страна богатела."
+    source: { kind: authored }
+  - form: "wywożono"
+    pl: "W czasie wojny wywożono ludzi na Syberię."
+    ru: "Во время войны людей вывозили в Сибирь."
+    source: { kind: authored }
+  - form: "wywożono"
+    pl: "Stąd wywożono sól do całej Europy."
+    ru: "Отсюда вывозили соль по всей Европе."
+    source: { kind: authored }
+  - form: "wywożono"
+    pl: "Gruz wywożono taczkami przez okno."
+    ru: "Строительный мусор вывозили на тачках через окно."
+    source: { kind: authored }
+  - form: "wywożony"
+    pl: "Węgiel był wywożony koleją do portu."
+    ru: "Уголь вывозили по железной дороге в порт."
+    source: { kind: authored }
+  - form: "wywożony"
+    pl: "Śnieg jest wywożony z centrum miasta."
+    ru: "Снег вывозят из центра города."
+    source: { kind: authored }
+  - form: "wywożony"
+    pl: "Każdy wywożony obraz musi mieć zgodę."
+    ru: "На каждую вывозимую картину нужно разрешение."
+    source: { kind: authored }
+  - form: "wywożonych"
+    pl: "Liczba wywożonych aut stale rośnie."
+    ru: "Число вывозимых машин постоянно растёт."
+    source: { kind: authored }
+  - form: "wywożonych"
+    pl: "Wśród wywożonych ludzi były małe dzieci."
+    ru: "Среди вывозимых людей были маленькие дети."
+    source: { kind: authored }
+  - form: "wywożonych"
+    pl: "Celnicy sprawdzili listę wywożonych towarów."
+    ru: "Таможенники проверили список вывозимых товаров."
+    source: { kind: authored }
+  - form: "wywożonym"
+    pl: "W wywożonym gruzie znaleziono stare monety."
+    ru: "В вывозимом строительном мусоре нашли старые монеты."
+    source: { kind: authored }
+  - form: "wywożonym"
+    pl: "Na każdym wywożonym worku jest naklejka."
+    ru: "На каждом вывозимом мешке есть наклейка."
+    source: { kind: authored }
+  - form: "wywożonym"
+    pl: "Przyglądałem się wywożonym kartonom."
+    ru: "Я присматривался к вывозимым коробкам."
+    source: { kind: authored }
+  - form: "wywożonymi"
+    pl: "Pod wywożonymi workami znaleziono kota."
+    ru: "Под вывозимыми мешками нашли кота."
+    source: { kind: authored }
+  - form: "wywożonymi"
+    pl: "Wagony z wywożonymi ludźmi stały na stacji."
+    ru: "Вагоны с вывозимыми людьми стояли на станции."
+    source: { kind: authored }
+  - form: "wywożonymi"
+    pl: "Handlowano wywożonymi za granicę futrami."
+    ru: "Торговали мехами, вывозимыми за границу."
+    source: { kind: authored }
