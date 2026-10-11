@@ -21,7 +21,8 @@ useSeoMeta({
         <NuxtLink :to="`/books/${bookSlug(book.stem)}`">
           <span lang="pl">{{ book.title }}</span>
         </NuxtLink>
-        — {{ book.titleRu }}, глава {{ book.chapter }}
+        — {{ book.titleRu }}, глава {{ book.chapter }}:
+        <span lang="pl">{{ book.chapterTitle }}</span>
         <span class="level">{{ book.level }}</span>
       </li>
     </ul>
