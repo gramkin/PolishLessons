@@ -295,3 +295,23 @@ drills:
     pos: verb
     cells: [{ table: Отглагольное существительное }]
     sourcedOnly: true
+
+  # Фаза 8 (B2). Dative and instrumental only: the genitive and locative -u forms also fill the
+  # masculine-personal nominative cell, so they never fill exactly one case. Explicit columns
+  # leave out the collectives (dwojgiem); `cards` keeps out ordinals and rows like
+  # «między siedmioma a dziewiątym». A noun must follow the gap.
+  - id: num-oblique
+    title: Числительные в дательном и творительном
+    instruction: Поставьте числительное в дательный или творительный падеж — смотрите на предлог, глагол и род существительного.
+    pos: num
+    cells:
+      - { table: Склонение, row: Дательный, column: мужско-личный }
+      - { table: Склонение, row: Дательный, column: м. и ср. р. }
+      - { table: Склонение, row: Дательный, column: ж. р. }
+      - { table: Склонение, row: Творительный, column: мужско-личный }
+      - { table: Склонение, row: Творительный, column: м. и ср. р. }
+      - { table: Склонение, row: Творительный, column: ж. р. }
+    syncretic: true
+    requireAfter: "^\\s+(?!a(?!\\p{L}))\\p{L}"
+    cards: [dwa, trzy, cztery, piec, szesc, siedem, osiem, dziewiec, dziesiec, dwanascie, pietnascie, dwadziescia, trzydziesci, czterdziesci, piecdziesiat, sto, oba, kilka, ile]
+    maxRank: 6000
