@@ -26,6 +26,15 @@ const rows = computed(() =>
   }),
 )
 const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], string][]
+
+// A page of rows at a time: every row hydrates audio, ⊕ and its examples, and all 1,400 at
+// once made the page slow to become usable. Search and the filters still cover the whole list.
+const PAGE = 200
+const shown = ref(PAGE)
+watch([query, kind, band, vulgar], () => {
+  shown.value = PAGE
+})
+const visible = computed(() => rows.value.slice(0, shown.value))
 </script>
 
 <template>
@@ -34,7 +43,8 @@ const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], strin
     <p>
       Устойчивые выражения из карточек словаря, от самых частых к редким. Частоту посчитали по
       польским субтитрам к фильмам — это живая разговорная речь, тот же источник, что и у частотного
-      словаря. Начните с первой сотни. Кнопка ⊕ добавляет выражение в карточки «Фразы».
+      словаря. Начните с первой сотни. У каждого выражения есть примеры; кнопка ⊕ добавляет
+      выражение или пример в карточки «Фразы».
     </p>
     <form class="filters" role="search" @submit.prevent>
       <input
@@ -69,7 +79,7 @@ const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], strin
           </tr>
         </thead>
         <tbody>
-          <tr v-for="idiom in rows" :key="idiom.pl">
+          <tr v-for="idiom in visible" :key="idiom.pl">
             <td class="rank">{{ idiom.rank }}</td>
             <td lang="pl" class="pl">
               {{ idiom.pl }}
@@ -80,6 +90,7 @@ const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], strin
                 :source="{ kind: 'authored' }"
                 :from="idiom.cards[0] ?? ''"
               />
+              <DictionaryIdiomExamples :pl="idiom.pl" :from="idiom.cards[0] ?? ''" />
             </td>
             <td>
               {{ idiom.ru }}
@@ -98,6 +109,9 @@ const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], strin
         </tbody>
       </table>
     </div>
+    <button v-if="rows.length > shown" type="button" class="more" @click="shown += PAGE">
+      Показать ещё {{ Math.min(PAGE, rows.length - shown) }}
+    </button>
   </article>
 </template>
 
@@ -137,5 +151,15 @@ const kinds = Object.entries(IDIOM_KIND_NAMES) as [PublishedIdiom['kind'], strin
 }
 .cards {
   font-size: 0.9em;
+}
+.more {
+  font: inherit;
+  margin: 1rem 0;
+  padding: 0.4rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--callout-bg);
+  color: var(--fg);
+  cursor: pointer;
 }
 </style>

@@ -1,4 +1,11 @@
-import type { CuratedIdiom, FrequencyFile, PublishedIdiom } from '../../shared/idioms'
+import {
+  idiomKey,
+  type CuratedIdiom,
+  type FrequencyFile,
+  type IdiomExamples,
+  type PublishedIdiom,
+} from '../../shared/idioms'
+import type { Example } from '../../shared/dictionary'
 
 /**
  * Join the counts with the hand-checked classification. Only classified entries are
@@ -23,6 +30,7 @@ export function buildIdiomList(
     }
     if (entry.kind === 'skip') continue
     kept.push({
+      key: idiomKey(counted.pl),
       pl: entry.fix ?? counted.pl,
       ru: entry.ru ?? counted.ru,
       kind: entry.kind,
@@ -34,4 +42,28 @@ export function buildIdiomList(
   }
   kept.sort((a, b) => b.count - a.count || a.pl.localeCompare(b.pl, 'pl'))
   return { idioms: kept.map(({ count: _count, ...e }, i) => ({ ...e, rank: i + 1 })), errors }
+}
+
+/**
+ * Examples keyed by idiomKey, for published expressions only. `key` in the examples file is the
+ * frequency file's `pl`, like data/idioms.yml.
+ */
+export function buildIdiomExamples(
+  published: PublishedIdiom[],
+  frequency: FrequencyFile,
+  entries: { key: string; examples: Example[] }[],
+): { examples: IdiomExamples; errors: string[] } {
+  const keys = new Set(published.map((i) => i.key))
+  const known = new Set(frequency.idioms.map((e) => e.pl))
+  const examples: IdiomExamples = {}
+  const errors: string[] = []
+  for (const entry of entries) {
+    const key = idiomKey(entry.key)
+    if (!known.has(entry.key)) errors.push(`data/idiom-examples.yml: unknown idiom "${entry.key}"`)
+    else if (!keys.has(key))
+      errors.push(`data/idiom-examples.yml: "${entry.key}" is not a published idiom`)
+    else if (examples[key]) errors.push(`data/idiom-examples.yml: "${entry.key}" appears twice`)
+    else examples[key] = entry.examples
+  }
+  return { examples, errors }
 }

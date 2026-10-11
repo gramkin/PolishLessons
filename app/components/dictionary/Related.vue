@@ -27,9 +27,12 @@ const RELATION_NAMES = {
     <ul>
       <li v-for="item in card.collocations" :key="item.pl">
         <span lang="pl">{{ item.pl }}</span> — {{ item.ru }} <SpeakButton :text="item.pl" />
+        <!-- A collocation that is also a published idiom gets its examples here. -->
+        <DictionaryIdiomExamples :pl="item.pl" :from="card.id" />
       </li>
       <li v-for="item in idioms" :key="item.pl" class="idiom">
         <span lang="pl">{{ item.pl }}</span> — {{ item.ru }} <SpeakButton :text="item.pl" />
+        <DictionaryIdiomExamples :pl="item.pl" :from="card.id" />
       </li>
     </ul>
   </section>
@@ -78,7 +81,7 @@ const RELATION_NAMES = {
 </template>
 
 <style scoped>
-.idiom span[lang='pl'] {
+.idiom > span[lang='pl'] {
   font-style: italic;
 }
 .lexicon {

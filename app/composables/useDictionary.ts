@@ -1,5 +1,5 @@
 import type { IndexEntry, PublishedCard } from '#shared/dictionary'
-import type { PublishedIdiom } from '#shared/idioms'
+import type { IdiomExamples, PublishedIdiom } from '#shared/idioms'
 
 const SAFE_ID = /^[a-z0-9-]+$/
 
@@ -46,4 +46,17 @@ export function useIdioms() {
     { default: () => [] },
   )
   return { idioms: computed(() => result.data.value ?? []), ready: result }
+}
+
+/**
+ * Example sentences of the idioms, keyed by idiomKey. Loaded in the browser after the page, once
+ * for every component that asks: card pages and /idioms prerender without them.
+ */
+export function useIdiomExamples() {
+  const result = useLazyAsyncData(
+    'dictionary:idiom-examples',
+    () => $fetch<IdiomExamples>(dictionaryUrl('idiom-examples.json')),
+    { server: false, default: () => ({}) },
+  )
+  return computed<IdiomExamples>(() => result.data.value ?? {})
 }
