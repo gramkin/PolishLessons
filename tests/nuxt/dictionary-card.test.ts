@@ -56,7 +56,10 @@ const forms = formsFileSchema.parse({
     {
       title: 'Настоящее время',
       columns: ['Ед. ч.', 'Мн. ч.'],
-      rows: [{ label: '1-е лицо', cells: [['robię'], ['robimy']] }],
+      rows: [
+        { label: '1-е лицо', cells: [['robię'], ['robimy']] },
+        { label: '2-е лицо', cells: [['robisz'], ['robicie']] },
+      ],
       extra: false,
     },
     {
@@ -78,7 +81,9 @@ describe('dictionary card components', () => {
     const wrapper = await mountSuspended(Header, { props: { card, forms } })
     expect(wrapper.find('h1').text()).toBe('robić')
     expect(wrapper.find('h1').attributes('lang')).toBe('pl')
-    expect(wrapper.text()).toContain('глагол · несовершенный вид · №40 по частоте')
+    expect(wrapper.text()).toContain(
+      'глагол · несовершенный вид · II спряжение (-ę, -isz/-ysz) · №40 по частоте',
+    )
     expect(wrapper.text()).toContain('[ˈrɔbʲit͡ɕ]')
     expect(wrapper.find('audio').attributes('src')).toBe('https://upload.wikimedia.org/r.ogg')
   })

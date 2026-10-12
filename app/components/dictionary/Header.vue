@@ -1,14 +1,26 @@
 <script setup lang="ts">
 import type { Card, FormsFile } from '#shared/dictionary'
-import { ASPECT_NAMES, POS_NAMES } from '~/utils/dictionary'
+import { ASPECT_NAMES, POS_NAMES, conjugationLabel, conjugations } from '~/utils/dictionary'
 
 const props = defineProps<{ card: Card; forms: FormsFile }>()
+
+const conjugation = computed(() =>
+  props.card.pos === 'verb'
+    ? conjugationLabel(
+        conjugations(
+          props.forms.tables,
+          props.card.formExamplesSkip.map((s) => s.form),
+        ),
+      )
+    : null,
+)
 
 const meta = computed(() =>
   [
     POS_NAMES[props.card.pos],
     props.card.aspect ? ASPECT_NAMES[props.card.aspect] : null,
     props.forms.grammarLabel,
+    conjugation.value,
     `№${props.card.rank} по частоте`,
   ]
     .filter(Boolean)
