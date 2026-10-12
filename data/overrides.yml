@@ -607,15 +607,6 @@ exclude:
   # mile zaskoczony), а на форму mili — прилагательному mili «милые»
   # (Badzcie mili). Три разные леммы в одной парадигме. Класс tysiace
   - mil
-  # "powiesc" — четыре разных слова в одной парадигме, помеченной как глагол.
-  # Формы powiedzenia и powiedzenie принадлежат глаголу powiedziec «сказать»
-  # (карточка, ранг 29): Mam cos do powiedzenia, ulubione powiedzenie. Формы
-  # powiedzie, powiodlo, powiodl, powiodla — возвратному powiesc sie
-  # «удаться»: Plan sie nie powiodl. Форма powiedz — это ошибочное написание
-  # повелительного powiedz. Существительное «роман» остаётся только в восьми
-  # примерах на голой форме powiesc, а ksiazka уже имеет карточку (ранг 481).
-  # Хуже, чем mil, где лемм было три
-  - powiesc
   # "lord" — ни одного кандидата ни в одной из десяти форм. Английский титул,
   # снабжённый польской парадигмой. Класс josh, taylor, abba
   - lord
@@ -1133,7 +1124,6 @@ excludeNotes:
   street: { why: foreign }
   immunitet: { why: no-corpus }
   mil: { why: form-of, see: mila }
-  powiesc: { why: not-a-lemma }
   lord: { why: no-corpus }
   smith: { why: proper-noun }
   komandor: { why: no-corpus }
