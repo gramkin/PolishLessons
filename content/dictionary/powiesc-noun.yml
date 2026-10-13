@@ -4,7 +4,7 @@ format: 2
 lemma: "powieść"
 rank: 5730
 pos: noun
-pron: { cyr: "по́вьесьць" }
+pron: { cyr: "по́весьць" }
 senses:
   - id: novel
     ru: "роман (книга)"
@@ -30,13 +30,17 @@ senses:
 notes:
   - { kind: false-friend, text: "ГЛАВНАЯ ловушка: powieść — это РОМАН, а не повесть. Повесть по-польски opowieść или nowela, а короткий рассказ — opowiadanie." }
   - { kind: government, text: "Женский род на мягкую согласную: ta powieść, tej powieści." }
-  - { kind: usage, text: "Идентификатор карточки — powiesc-noun, потому что powiesc уже занято глаголом powieść «повести», как czesc и czesc-noun." }
+  - { kind: usage, text: "Идентификатор карточки — powiesc-noun, потому что powiesc уже занято глаголом powieść «повести», как czesc и czesc-noun. Слова не родственные, они лишь совпали по написанию (см. «Происхождение»)." }
   - { kind: usage, text: "Powieść kryminalna «детективный роман», powieść historyczna «исторический роман»." }
 collocations:
   - { pl: "powieść kryminalna", ru: "детективный роман" }
   - { pl: "napisać powieść", ru: "написать роман" }
-etymology: "От powieść «повести, рассказать»; русское «повесть» — то же слово, но польское значит роман."
+etymology: "Из старопольского powieść «рассказ, сказание», от powiedzieć «рассказать»: корень тот же, что в wiedzieć «знать» и wieść «весть», праславянское *věd-. Русское «повесть» (от «поведать») — то же слово, но польское значит роман. С глаголом powieść «повести» существительное совпадает только по написанию: у глагола другой корень, *ved- «вести», как в wodzić и prowadzić."
 memory: "powieść — это РОМАН, а не повесть: повесть по-польски opowieść. Идентификатор карточки — powiesc-noun, потому что powiesc занято глаголом."
+family:
+  - { pl: "powiedzieć", ru: "сказать", relation: root, id: powiedziec }
+  - { pl: "opowieść", ru: "повесть, рассказ", relation: derived, id: opowiesc }
+  - { pl: "opowiadać", ru: "рассказывать", relation: derived, id: opowiadac }
 idioms:
   - { pl: "powieść kryminalna", ru: "детективный роман" }
 formExamples:
