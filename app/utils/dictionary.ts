@@ -128,25 +128,25 @@ export interface Conjugation {
   endings: string
 }
 
-// `on` is «ты» without -sz, used only when a table has no «я» or «ты» (zabraknie). IV has
-// none: its four roots (wiedzieć, jeść, umieć, rozumieć) are never impersonal.
-const CONJUGATIONS: Array<Conjugation & { ja: RegExp; ty: RegExp; on: RegExp | null }> = [
-  { number: 1, endings: '-ę, -esz', ja: /ę$/, ty: /esz$/, on: /e$/ },
-  { number: 2, endings: '-ę, -isz/-ysz', ja: /ę$/, ty: /[iy]sz$/, on: /[iy]$/ },
-  { number: 3, endings: '-am, -asz', ja: /am$/, ty: /asz$/, on: /a$/ },
-  { number: 4, endings: '-em, -esz', ja: /em$/, ty: /esz$/, on: null },
+const CONJUGATIONS: Conjugation[] = [
+  { number: 1, endings: '-ę, -esz' },
+  { number: 2, endings: '-ę, -isz/-ysz' },
+  { number: 3, endings: '-am, -asz' },
+  { number: 4, endings: '-em, -esz' },
 ]
 
-// The four conjugations of lesson 5.1, read off the «я» and «ты» forms of the present (or a
-// perfective's simple future), which share their endings. A cell can hold several forms, not
-// aligned between «я» and «ты» and sometimes from two verbs (stać: stanę, stoję), so every pair is
-// tried and the forms the card skips as spurious (bolę, oprzeję) are left out. A verb used only
-// in the third person is read off «он». być (jestem, jesteś, jest) fits none.
+// The four conjugations of lesson 5.1, read off the present (or a perfective's simple future).
+// «он» is «ты» without -sz, so it names the conjugation by itself — -e I, -i/-y II, -a III —
+// except that IV also gives -e (wie, je) and is told apart by «я» on -em (wiem, jem). «он» is
+// used rather than «я» and «ты» because it exists for every verb: a card skips «я» when the
+// meaning rules it out (bolę), not because the form is wrong.
+//
+// A cell can hold variants, sometimes of two verbs (stać: stanie, stoi), so each is read; the
+// forms the card skips (the archaic wykonywa) are dropped unless nothing else is left. A card
+// that skips the whole table says the verb has no present (słychać, zwyknąć). być (jest) fits
+// none.
 export function conjugations(tables: FormsTable[], skip: readonly string[] = []): Conjugation[] {
   const table = tables.find((t) => /^(Настоящее|Простое будущее)/.test(t.title))
-  // A card that skips the whole table says the verb has no present (słychać, zwyknąć). Otherwise
-  // a skip can also mean a real form with no example (smakuję), so it only decides between
-  // variants: a cell whose every form is skipped is read as it stands.
   const all = table?.rows.flatMap((r) => r.cells.flat()).filter(Boolean) ?? []
   if (all.every((form) => skip.includes(form))) return []
   const cell = (label: string) => {
@@ -154,14 +154,14 @@ export function conjugations(tables: FormsTable[], skip: readonly string[] = [])
     const kept = forms.filter((form) => !skip.includes(form))
     return kept.length > 0 ? kept : forms
   }
-  const ja = cell('1-е лицо')
-  const ty = cell('2-е лицо')
-  const on = ja.length === 0 || ty.length === 0 ? cell('3-е лицо') : []
-  return CONJUGATIONS.filter(
-    (c) =>
-      (ja.some((form) => c.ja.test(form)) && ty.some((form) => c.ty.test(form))) ||
-      on.some((form) => c.on?.test(form)),
-  ).map(({ number, endings }) => ({ number, endings }))
+  const fourth = cell('1-е лицо').some((form) => /em$/.test(form))
+  const found = new Set<number>()
+  for (const on of cell('3-е лицо')) {
+    if (/e$/.test(on)) found.add(fourth ? 4 : 1)
+    else if (/[iy]$/.test(on)) found.add(2)
+    else if (/a$/.test(on)) found.add(3)
+  }
+  return CONJUGATIONS.filter((c) => found.has(c.number))
 }
 
 const ROMAN = ['', 'I', 'II', 'III', 'IV']

@@ -59,6 +59,7 @@ const forms = formsFileSchema.parse({
       rows: [
         { label: '1-е лицо', cells: [['robię'], ['robimy']] },
         { label: '2-е лицо', cells: [['robisz'], ['robicie']] },
+        { label: '3-е лицо', cells: [['robi'], ['robią']] },
       ],
       extra: false,
     },

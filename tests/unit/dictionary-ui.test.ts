@@ -66,68 +66,56 @@ describe('rank helpers', () => {
 })
 
 describe('conjugations', () => {
-  const table = (title: string, ja: string[], ty: string[]): FormsTable => ({
+  const table = (title: string, ja: string[], on: string[]): FormsTable => ({
     title,
     columns: ['Ед. ч.', 'Мн. ч.'],
     rows: [
       { label: '1-е лицо', cells: [ja, []] },
-      { label: '2-е лицо', cells: [ty, []] },
+      { label: '2-е лицо', cells: [[], []] },
+      { label: '3-е лицо', cells: [on, []] },
     ],
     extra: false,
   })
-  const of = (ja: string, ty: string, title = 'Настоящее время') =>
-    conjugations([table(title, [ja], [ty])]).map((c) => c.number)
+  const of = (ja: string, on: string, title = 'Настоящее время', skip: string[] = []) =>
+    conjugations([table(title, [ja], [on])], skip).map((c) => c.number)
 
-  it('reads the four conjugations of lesson 5.1 off «я» and «ты»', () => {
-    expect(conjugations([table('Настоящее время', ['piszę'], ['piszesz'])])).toEqual([
+  it('reads the four conjugations of lesson 5.1 off «он», and IV off «я» on -em', () => {
+    expect(conjugations([table('Настоящее время', ['piszę'], ['pisze'])])).toEqual([
       { number: 1, endings: '-ę, -esz' },
     ])
-    expect(of('robię', 'robisz')).toEqual([2])
-    expect(of('tańczę', 'tańczysz')).toEqual([2])
-    expect(of('czytam', 'czytasz')).toEqual([3])
-    expect(of('wiem', 'wiesz')).toEqual([4])
-    expect(of('jem', 'jesz')).toEqual([4])
+    expect(of('robię', 'robi')).toEqual([2])
+    expect(of('tańczę', 'tańczy')).toEqual([2])
+    expect(of('czytam', 'czyta')).toEqual([3])
+    expect(of('wiem', 'wie')).toEqual([4])
+    expect(of('jem', 'je')).toEqual([4])
   })
 
   it('takes a perfective or a two-aspect verb from its future table', () => {
-    expect(of('powiodę', 'powiedziesz', 'Простое будущее время')).toEqual([1])
-    expect(of('kupię', 'kupisz', 'Настоящее и будущее время')).toEqual([2])
+    expect(of('powiodę', 'powiedzie', 'Простое будущее время')).toEqual([1])
+    expect(of('kupię', 'kupi', 'Настоящее и будущее время')).toEqual([2])
   })
 
-  it('gives every conjugation a cell of two verbs holds, minus the skipped forms', () => {
-    const stac = [table('Настоящее и будущее время', ['stanę', 'stoję'], ['staniesz', 'stoisz'])]
+  it('reads a verb whose «я» the card skips or lacks', () => {
+    expect(of('bolę', 'boli', 'Настоящее время', ['bolę'])).toEqual([2])
+    expect(of('', 'brakuje')).toEqual([1])
+    expect(of('', 'wynika')).toEqual([3])
+  })
+
+  it('gives every conjugation a cell of two verbs holds, minus the skipped variants', () => {
+    const stac = [table('Настоящее и будущее время', ['stanę', 'stoję'], ['stanie', 'stoi'])]
     expect(conjugations(stac).map((c) => c.number)).toEqual([1, 2])
-    const bolec = [table('Настоящее время', ['boleję', 'bolę'], ['bolejesz', 'bolisz'])]
-    expect(conjugations(bolec, ['bolę', 'bolisz']).map((c) => c.number)).toEqual([1])
-    const smakowac = [table('Настоящее время', ['smakuję'], ['smakujesz'])]
-    expect(conjugations(smakowac, ['smakuję']).map((c) => c.number)).toEqual([1])
-  })
-
-  it('reads a verb used only in the third person off «он»', () => {
-    const third = (on: string): FormsTable[] => [
-      {
-        title: 'Настоящее время',
-        columns: ['Ед. ч.', 'Мн. ч.'],
-        rows: [
-          { label: '1-е лицо', cells: [[], []] },
-          { label: '2-е лицо', cells: [[], []] },
-          { label: '3-е лицо', cells: [[on], []] },
-        ],
-        extra: false,
-      },
+    const wykonywac = [
+      table('Настоящее время', ['wykonuję', 'wykonywam'], ['wykonuje', 'wykonywa']),
     ]
-    expect(conjugations(third('brakuje')).map((c) => c.number)).toEqual([1])
-    expect(conjugations(third('dotyczy')).map((c) => c.number)).toEqual([2])
-    expect(conjugations(third('wynika')).map((c) => c.number)).toEqual([3])
-    expect(conjugations(third('jest'))).toEqual([])
+    expect(conjugations(wykonywac, ['wykonywam', 'wykonywa']).map((c) => c.number)).toEqual([1])
+    expect(of('pierdolę', 'pierdoli', 'Настоящее время', ['pierdoli'])).toEqual([2])
   })
 
   it('gives nothing for być, no present table, or a present the card skips whole', () => {
-    expect(of('jestem', 'jesteś')).toEqual([])
-    const slychac = [table('Настоящее время', ['słycham'], ['słychasz'])]
-    expect(conjugations(slychac, ['słycham', 'słychasz'])).toEqual([])
+    expect(of('jestem', 'jest')).toEqual([])
+    expect(of('słycham', 'słycha', 'Настоящее время', ['słycham', 'słycha'])).toEqual([])
     expect(conjugations([])).toEqual([])
-    expect(of('piszę', 'piszesz', 'Прошедшее время (ед. ч.)')).toEqual([])
+    expect(of('piszę', 'pisze', 'Прошедшее время (ед. ч.)')).toEqual([])
   })
 
   it('labels one conjugation or several', () => {
