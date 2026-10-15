@@ -232,17 +232,18 @@ paragraphs:
       - pl: " Co to?"
         ru: "Что это?"
     words: { "Tutaj": tutaj, "jest": byc, "Okładka": okladka, "dziwny": dziwny, "kolor": kolor }
-  - clean: "— To krew. Zapomniałem panu powiedzieć, że podniosłem ten zeszyt z ziemi."
+  - clean: "— To krew. Mówiłem już panu, że podniosłem ten zeszyt z podłogi."
     en: "“Yes, sir, it is a blood-stain. I told you that I picked the book off the floor.”"
+    draft: true
     chunks:
       - pl: "— To krew."
         ru: "— Это кровь."
-      - pl: " Zapomniałem panu powiedzieć,"
-        ru: "Я забыл вам сказать,"
-      - pl: " że podniosłem ten zeszyt z ziemi."
-        ru: "что поднял эту книжку с земли."
-        note: "zeszyt — тетрадь"
-    words: { "krew": krew, "Zapomniałem": zapomniec, "panu": pan, "powiedzieć": powiedziec, "podniosłem": podniesc, "ziemi": ziemia }
+      - pl: " Mówiłem już panu,"
+        ru: "Я ведь говорил вам,"
+      - pl: " że podniosłem ten zeszyt z podłogi."
+        ru: "что поднял эту книжку с пола."
+        note: "zeszyt — тетрадь; podłoga — пол"
+    words: { "krew": krew, "Mówiłem": mowic, "panu": pan, "podniosłem": podniesc, "podłogi": podloga }
   - clean: "— Po której stronie była plama?"
     en: "“Was the blood-stain above or below?”"
     chunks:
@@ -790,8 +791,9 @@ paragraphs:
       - pl: "— Nie, nic nie brałem."
         ru: "— Нет, ничего не брал."
     words: { "brałem": brac }
-  - clean: "— A jednak czegoś brakuje. W tym kącie półki jest mniej pyłu niż wszędzie indziej. Tu leżała może jakaś książka albo jakiś inny przedmiot podobnego kształtu, na przykład szkatułka. No, na razie nic więcej się nie dowiem. Teraz pójdziemy sobie na spacer do lasu, mój drogi — rzekł, zwracając się do mnie — i poświęcimy parę godzin kwiatom i ptaszkom. Później spotkamy się tutaj z panem Hopkinsem. Wtedy się okaże, czy mamy zejść się tutaj z owym dżentelmenem, który złoży temu domkowi nocną wizytę."
+  - clean: "— A jednak czegoś brakuje. W tym kącie półki jest mniej pyłu niż wszędzie indziej. Tu leżała może jakaś książka albo jakiś inny przedmiot podobnego kształtu, na przykład szkatułka. No, na razie nic więcej się nie dowiem. Teraz pójdziemy sobie na spacer do lasu, mój drogi — rzekł, zwracając się do mnie — i poświęcimy parę godzin kwiatom i ptaszkom. Później spotkamy się tutaj z panem Hopkinsem. Wtedy się okaże, czy mamy zejść się tutaj z owym dżentelmenem, który złożył temu domkowi nocną wizytę."
     en: "“Something has been taken. There is less dust in this corner of the shelf than elsewhere. It may have been a book lying on its side. It may have been a box. Well, well, I can do nothing more. Let us walk in these beautiful woods, Watson, and give a few hours to the birds and the flowers. We shall meet you here later, Hopkins, and see if we can come to closer quarters with the gentleman who has paid this visit in the night.”"
+    draft: true
     chunks:
       - pl: "— A jednak czegoś brakuje."
         ru: "— И всё же чего-то не хватает."
@@ -824,7 +826,7 @@ paragraphs:
       - pl: " czy mamy zejść się tutaj z owym dżentelmenem,"
         ru: "придётся ли нам встретиться здесь с тем джентльменом,"
         note: "zejść się z kimś — сойтись, встретиться"
-      - pl: " który złoży temu domkowi nocną wizytę."
-        ru: "который нанесёт этому домику ночной визит."
+      - pl: " który złożył temu domkowi nocną wizytę."
+        ru: "который нанёс этому домику ночной визит."
         note: "złożyć wizytę — нанести визит"
     words: { "kącie": kat, "półki": polka, "pyłu": pyl, "rzekł": rzec, "ptaszkom": ptaszek, "dżentelmenem": dzentelmen }
