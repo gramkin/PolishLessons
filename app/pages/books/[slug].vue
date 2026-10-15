@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import { chapterNeighbours } from '~/utils/book'
+import { bookId, chapterNeighbours, groupBooks } from '~/utils/book'
 
 const route = useRoute()
 const slug = String(route.params.slug)
 const { data: book } = await useBook(slug)
 const { data: chapters } = await useBookChapters()
 
-if (!book.value) {
+// `/books/<bookId>` is the book's table of contents rather than a chapter.
+const contents = computed(() =>
+  book.value ? null : (groupBooks(chapters.value ?? []).find((b) => b.id === slug) ?? null),
+)
+
+if (!book.value && !contents.value) {
   throw createError({ statusCode: 404, statusMessage: 'Книга не найдена', fatal: true })
 }
 
@@ -26,8 +31,12 @@ const current = computed(() =>
 const neighbours = computed(() => chapterNeighbours(chapters.value ?? [], current.value))
 
 useSeoMeta({
-  title: () => `${book.value?.title} — глава ${book.value?.chapter}`,
-  description: () => `${book.value?.titleRu}: ${book.value?.chapterTitleRu}`,
+  title: () =>
+    book.value ? `${book.value.title} — глава ${book.value.chapter}` : `${contents.value?.title}`,
+  description: () =>
+    book.value
+      ? `${book.value.titleRu}: ${book.value.chapterTitleRu}`
+      : `${contents.value?.titleRu}: оглавление`,
 })
 </script>
 
@@ -51,7 +60,7 @@ useSeoMeta({
         <span class="chapter-name-ru">{{ neighbours.prev.titleRu }}</span>
       </NuxtLink>
       <span v-else class="chapter-slot" />
-      <NuxtLink to="/books" class="chapter-toc">Оглавление</NuxtLink>
+      <NuxtLink :to="`/books/${bookId(slug)}`" class="chapter-toc">Оглавление</NuxtLink>
       <NuxtLink
         v-if="neighbours.next"
         :to="neighbours.next.path"
@@ -78,9 +87,26 @@ useSeoMeta({
       </p>
     </footer>
   </article>
+  <article v-else-if="contents" class="content">
+    <h1 lang="pl">{{ contents.title }}</h1>
+    <p class="subtitle">{{ contents.titleRu }} · {{ contents.author }} · {{ contents.level }}</p>
+    <h2>Оглавление</h2>
+    <ol class="toc">
+      <li v-for="chapter in contents.chapters" :key="chapter.path">
+        <NuxtLink :to="chapter.path"
+          ><span lang="pl">{{ chapter.title }}</span></NuxtLink
+        >
+        <span class="chapter-name-ru"> — {{ chapter.titleRu }}</span>
+      </li>
+    </ol>
+    <p><NuxtLink to="/books">← Все книги</NuxtLink></p>
+  </article>
 </template>
 
 <style scoped>
+.toc li {
+  margin-bottom: 0.35rem;
+}
 .subtitle {
   color: var(--muted);
   margin-top: -0.5rem;

@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import matter from 'gray-matter'
 import { parse as parseYaml } from 'yaml'
 import type { SearchDoc } from '../../shared/search'
+import { bookId } from '../../app/utils/book'
 import { lessonPath } from './search-docs'
 
 /**
@@ -62,7 +63,10 @@ const PAGE_BODY = /^content\/(lessons\/.+\.md|cheatsheet\.md)#body$/
 const STORY = /^content\/stories\/([a-z0-9-]+)\.yml#body$/
 const BOOK = /^content\/books\/([a-z0-9-]+)\.yml$/
 
-/** `bookSlugs`: every chapter, since each chapter page shows its neighbours' titles. */
+/**
+ * `bookSlugs`: every chapter, since each chapter page shows its neighbours' titles;
+ * each book's contents page (`/books/<bookId>`) lists its chapter titles too.
+ */
 export function planRefresh(diff: FingerprintDiff, bookSlugs: string[] = []): RefreshPlan {
   const touched = [...diff.added, ...diff.removed, ...diff.changed]
   if (touched.length === 0) return { kind: 'none' }
@@ -98,7 +102,10 @@ export function planRefresh(diff: FingerprintDiff, bookSlugs: string[] = []): Re
       routes.add('/stories')
       searchOwners.add(`story:${story[1]}`)
     } else if (book) {
-      for (const slug of new Set([book[1]!, ...bookSlugs])) routes.add(`/books/${slug}`)
+      for (const slug of new Set([book[1]!, ...bookSlugs])) {
+        routes.add(`/books/${slug}`)
+        routes.add(`/books/${bookId(slug)}`)
+      }
       routes.add('/books')
     } else {
       const reason = key

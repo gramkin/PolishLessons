@@ -86,7 +86,7 @@ describe('planRefresh', () => {
       searchOwners: ['story:kot-i-mysz'],
     })
     expect(planRefresh(changed('content/books/b-02.yml'), ['b-01', 'b-02'])).toMatchObject({
-      routes: ['/books', '/books/b-01', '/books/b-02'],
+      routes: ['/books', '/books/b', '/books/b-01', '/books/b-02'],
       searchOwners: [],
     })
   })

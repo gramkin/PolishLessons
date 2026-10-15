@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { bookSlug, chapterNeighbours, type BookChapterInput } from '../../app/utils/book'
+import {
+  bookId,
+  bookSlug,
+  chapterNeighbours,
+  groupBooks,
+  type BookChapterInput,
+} from '../../app/utils/book'
 
 function chapter(n: number, title = 'Alicja'): BookChapterInput {
   return {
@@ -49,5 +55,34 @@ describe('chapterNeighbours', () => {
   it('returns nothing for a chapter that is not in the list', () => {
     expect(chapterNeighbours(all, chapter(9))).toEqual({ prev: null, next: null })
     expect(chapterNeighbours(all, null)).toEqual({ prev: null, next: null })
+  })
+})
+
+describe('bookId', () => {
+  it('drops the chapter number and title from a chapter slug or stem', () => {
+    expect(bookId('alicja-pl-01-krolicza-nora')).toBe('alicja-pl')
+    expect(bookId('books/doyle-04-czarny-piotr-iv')).toBe('doyle')
+    expect(bookId('alicja-01')).toBe('alicja')
+  })
+})
+
+describe('groupBooks', () => {
+  const meta = (n: number, title: string, level = 'B1') => ({
+    ...chapter(n, title),
+    titleRu: `${title} (ru)`,
+    author: 'Autor',
+    level,
+  })
+
+  it('gives one entry per book with its chapters in order', () => {
+    const books = groupBooks([meta(2, 'Alicja'), meta(1, 'Alicja'), meta(1, 'Piotr', 'B2')])
+    expect(books.map((b) => b.id)).toEqual(['alicja', 'piotr'])
+    expect(books[0]!.path).toBe('/books/alicja')
+    expect(books[0]!.chapters.map((c) => c.path)).toEqual(['/books/alicja-01', '/books/alicja-02'])
+    expect(books[1]!.level).toBe('B2')
+  })
+
+  it('shows a span when chapters differ in level', () => {
+    expect(groupBooks([meta(1, 'Alicja', 'B2'), meta(2, 'Alicja', 'B1')])[0]!.level).toBe('B1–B2')
   })
 })

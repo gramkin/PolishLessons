@@ -7,7 +7,16 @@
 export function useBookChapters() {
   return useAsyncData('content:book-chapters', () =>
     queryCollection('books')
-      .select('stem', 'title', 'titleRu', 'chapter', 'chapterTitle', 'chapterTitleRu', 'level')
+      .select(
+        'stem',
+        'title',
+        'titleRu',
+        'author',
+        'chapter',
+        'chapterTitle',
+        'chapterTitleRu',
+        'level',
+      )
       .all(),
   )
 }

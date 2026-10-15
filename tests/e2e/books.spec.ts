@@ -20,5 +20,13 @@ test('the last chapter offers the contents instead of a next chapter', async ({ 
   await expect(nav.locator('a.next')).toHaveCount(0)
   await expect(nav.locator('a.prev')).toContainText('Глава 11')
   await nav.getByRole('link', { name: 'Оглавление' }).click()
-  await expect(page).toHaveURL(/\/books\/?$/)
+  await expect(page).toHaveURL(/\/books\/alicja-pl\/?$/)
+})
+
+test("the book list leads to a book's contents, and on to a chapter", async ({ page }) => {
+  await gotoHydrated(page, '/books')
+  await page.getByRole('link', { name: 'Przygody Alicji w Krainie Czarów' }).click()
+  await expect(page).toHaveURL(/\/books\/alicja-pl\/?$/)
+  await page.getByRole('link', { name: 'Jezioro łez' }).click()
+  await expect(page).toHaveURL(/\/books\/alicja-pl-02-jezioro-lez\/?$/)
 })
