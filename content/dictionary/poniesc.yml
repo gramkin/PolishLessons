@@ -31,7 +31,7 @@ notes:
   - { kind: pronunciation, text: "Основа играет тремя огласовками, и все три надо держать в голове: PONIOSĘ и PONIOSĄ с -io-, PONIESIESZ и PONIESIE с -ie-, PONIEŚLI снова с -ie-, а мужское прошедшее PONIÓSŁ с -ió-. Правило простое: -ie- перед мягким согласным, -io- перед твёрдым, а -ió- в закрытом слоге перед Ł. Русский делает то же самое в «нести — несу — нёс»: там тоже е, е и ё по тем же местам, только обозначено иначе." }
   - { kind: usage, text: "Корень прямой: NIEŚĆ — «нести», и приставки совпадают почти везде: PRZYNIEŚĆ «принести», WYNIEŚĆ «вынести», ZNIEŚĆ «снести», ODNIEŚĆ «отнести», DONIEŚĆ «донести». У PONIEŚĆ же главное значение не пространственное, а то же, что у русского «понести» в «понести потери»: PONIEŚĆ KLĘSKĘ «потерпеть поражение», PONIEŚĆ KOSZTY «понести расходы», PONIEŚĆ KONSEKWENCJE «понести последствия», PONIEŚĆ ŚMIERĆ «погибнуть». Это самые частые употребления, и все они берутся из русского без переделки." }
   - { kind: government, text: "Что — винительный: PONIEŚĆ KLĘSKĘ, KOSZTY, STRATY, ODPOWIEDZIALNOŚĆ. В пространственном значении куда — предлог DO с родительным или NA с винительным: PONIEŚĆ WALIZKĘ DO SAMOCHODU, NA GÓRĘ. Отдельно стоит возвратное PONIEŚĆ SIĘ — «разнестись» о звуке: GŁOS PONIÓSŁ SIĘ PO DOLINIE." }
-  - { kind: usage, text: "В черновике пятьдесят четыре формы, но написаны пятьдесят, и четыре пропущены по разным причинам. Форма PONIOSŁ без окончания — не отдельное слово: PoliMorf помечает её как агглютинативную основу, то есть ту, что живёт только в связке с окончанием (PONIOSŁEM, PONIOSŁEŚ), а свободная форма мужского рода — PONIÓSŁ. Три условные формы мужского рода даны в черновике только как PONIOSŁBY, PONIOSŁBYM, PONIOSŁBYŚ, тогда как правильные PONIÓSŁBY, PONIÓSŁBYM, PONIÓSŁBYŚ в нём отсутствуют: ó держится в закрытом слоге перед ŁBY так же, как перед одиночным Ł. Отметим ещё деепричастие: оно здесь PONIÓSŁSZY, с -SZY, а не -WSZY, потому что основа оканчивается на согласный." }
+  - { kind: usage, text: "Свободная форма мужского рода — PONIÓSŁ. Основа poniosł- без ó живёт только в связке с окончанием (PONIOSŁEM, PONIOSŁEŚ), отдельным словом её не бывает. В условном наклонении мужского рода ó держится: PONIÓSŁBY, PONIÓSŁBYM, PONIÓSŁBYŚ — в закрытом слоге перед ŁBY так же, как перед одиночным Ł. Отметим ещё деепричастие: оно здесь PONIÓSŁSZY, с -SZY, а не -WSZY, потому что основа оканчивается на согласный." }
 collocations:
   - { pl: "ponieść klęskę", ru: "потерпеть поражение" }
   - { pl: "ponieść koszty", ru: "понести расходы" }
@@ -45,11 +45,6 @@ memory: "nieść — «нести», и приставки свои. А ponieś�
 idioms:
   - { pl: "ponieść klęskę", ru: "потерпеть поражение" }
   - { pl: "koń poniósł", ru: "конь понёс, лошадь взбесилась" }
-formExamplesSkip:
-  - { form: "poniosł", reason: "Агглютинативная основа, а не самостоятельная форма: PoliMorf помечает её тегом agl, то есть она существует только в связке с окончанием — PONIOSŁEM, PONIOSŁEŚ, где слог открывается и ó закономерно переходит в o. Свободная форма мужского рода единственного числа — PONIÓSŁ, и она в карточке есть с примерами." }
-  - { form: "poniosłby", reason: "Правильная условная форма мужского рода — PONIÓSŁBY, и в черновике её нет: ó сохраняется в закрытом слоге перед ŁBY точно так же, как перед одиночным Ł в PONIÓSŁ. Дать пример на PONIOSŁBY значило бы закрепить ошибку порождающей таблицы." }
-  - { form: "poniosłbym", reason: "То же самое: правильная форма — PONIÓSŁBYM, которой в черновике нет. Женские, средние и множественные условные формы в карточке есть, потому что там за Ł идёт гласная и o законно: PONIOSŁABY, PONIOSŁOBY, PONIOSŁYBY." }
-  - { form: "poniosłbyś", reason: "То же самое: правильная форма — PONIÓSŁBYŚ, которой в черновике нет. Ограничение касается только мужского рода единственного числа, поэтому пропущено четыре формы, а не тринадцать." }
 formExamples:
   - form: "poniesie"
     pl: "Kto poniesie te koszty?"
@@ -446,6 +441,42 @@ formExamples:
   - form: "poniosła"
     pl: "Żadnej odpowiedzialności nie poniosła."
     ru: "Никакой ответственности она не понесла."
+    source: { kind: authored }
+  - form: "poniósłby"
+    pl: "Bez ubezpieczenia poniósłby ogromne straty."
+    ru: "Без страховки он понёс бы огромные убытки."
+    source: { kind: authored }
+  - form: "poniósłby"
+    pl: "Za takie słowa poniósłby konsekwencje."
+    ru: "За такие слова он понёс бы последствия."
+    source: { kind: authored }
+  - form: "poniósłby"
+    pl: "Gdyby nie sąsiad, poniósłby walizkę sam."
+    ru: "Если бы не сосед, он понёс бы чемодан сам."
+    source: { kind: authored }
+  - form: "poniósłbym"
+    pl: "Poniósłbym koszty naprawy."
+    ru: "Я взял бы на себя расходы на ремонт."
+    source: { kind: authored }
+  - form: "poniósłbym"
+    pl: "W tej grze na pewno poniósłbym klęskę."
+    ru: "В этой игре я наверняка потерпел бы поражение."
+    source: { kind: authored }
+  - form: "poniósłbym"
+    pl: "Gdybym zawinił, poniósłbym karę."
+    ru: "Если бы я был виноват, я понёс бы наказание."
+    source: { kind: authored }
+  - form: "poniósłbyś"
+    pl: "Poniósłbyś odpowiedzialność za ten błąd?"
+    ru: "Ты понёс бы ответственность за эту ошибку?"
+    source: { kind: authored }
+  - form: "poniósłbyś"
+    pl: "Może poniósłbyś ten kosz do piwnicy?"
+    ru: "Может, ты отнёс бы эту корзину в подвал?"
+    source: { kind: authored }
+  - form: "poniósłbyś"
+    pl: "Czy poniósłbyś takie ryzyko?"
+    ru: "Ты взял бы на себя такой риск?"
     source: { kind: authored }
   - form: "poniosłaby"
     pl: "Firma poniosłaby ogromne koszty."

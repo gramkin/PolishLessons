@@ -202,8 +202,17 @@ function verbParadigm(lemma: string, s: Slot[], aspect: Aspect | null, wikiForms
     pick(s, (x) => x.head === 'fin' && x.parts[1] === num && x.parts[2] === person)
   const bedzie = (num: string, person: string) =>
     pick(s, (x) => x.head === 'bedzie' && x.parts[1] === num && x.parts[2] === person)
+  // PoliMorf tags the bound stem of ó-verbs `agl` (wyniosł-, only in wyniosłem); the free
+  // form is `nagl` (wyniósł), and the conditional is built on it (wyniósłby)
   const praet = (num: string, genders: string[]) =>
-    one(s, (x) => x.head === 'praet' && x.parts[1] === num && genders.includes(x.parts[2]!))
+    one(
+      s,
+      (x) =>
+        x.head === 'praet' &&
+        x.parts[1] === num &&
+        genders.includes(x.parts[2]!) &&
+        !x.parts.includes('agl'),
+    )
   const parts: PastParts = {
     masc: praet('sg', ['m1', 'm2', 'm3']),
     fem: praet('sg', ['f']),
@@ -672,9 +681,11 @@ export function buildParadigm(
     }
     case 'verb': {
       const verb = verbParadigm(lemma, s, aspect, wikiForms)
+      // a bound stem (wyniosł-) is not a word; its forms (wyniosłem) are assembled
+      const free = s.filter((x) => !x.parts.includes('agl')).map((x) => x.form)
       return {
         tables: verb.tables,
-        allForms: plSort([...baseForms, ...verb.extraForms]),
+        allForms: plSort([...free, lemma, ...verb.extraForms]),
         grammarLabel: null,
         mismatches: verb.mismatches,
       }

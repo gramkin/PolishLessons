@@ -31,7 +31,7 @@ notes:
   - { kind: false-friend, text: "Корень тот же, что в русском «везти»: wieźć это «везти», а za- отвечает русскому за-. Ближайшие соответствия — «отвезти» и «завезти», смотря по смыслу. Опереться на родной язык можно смело: zawieźć kogoś na dworzec это ровно «отвезти кого-то на вокзал»." }
   - { kind: pronunciation, text: "ЧЕРЕДОВАНИЕ Ó И O ПО ЗАКРЫТОМУ СЛОГУ. В мужском роде единственного числа прошедшего времени слог закрыт, и пишется ó: zawiózł. Как только появляется гласное окончание, слог открывается и ó уступает место o: zawiozła, zawiozło, zawiozłem, zawiozłeś. То же правило уже встречалось в rósł/rosła и głód/głodu." }
   - { kind: government, text: "Везут КОГО или ЧТО — винительный: zawieźć dzieci, meble, dokumenty. КУДА — do с родительным для мест внутри (do szpitala, do magazynu) или na с винительным для открытых мест и мероприятий (na dworzec, na lotnisko). Обе модели совпадают с русскими." }
-  - { kind: usage, text: "Вид совершенный, несовершенная пара — zawozić. Четыре формы в таблице пропущены как артефакты генератора: сама по себе основа zawiozł не употребляется, а условное наклонение мужского рода сохраняет ó, потому что частица by начинается с согласного и слог остаётся закрытым." }
+  - { kind: usage, text: "Вид совершенный, несовершенная пара — zawozić. В мужском роде прошедшего времени — zawiózł, с ó в закрытом слоге; o возвращается, как только после ł идёт гласная: zawiozła, zawiozłem. Условное наклонение мужского рода сохраняет ó — zawiózłby, zawiózłbym, — потому что by начинается с согласного и слог остаётся закрытым." }
 collocations:
   - { pl: "zawieźć na dworzec", ru: "отвезти на вокзал" }
   - { pl: "zawieźć do szpitala", ru: "отвезти в больницу" }
@@ -46,11 +46,6 @@ memory: "zawieźć — «отвезти», корень тот же, что в �
 idioms:
   - { pl: "zawieźć kogoś na dworzec", ru: "отвезти кого-л. на вокзал" }
   - { pl: "zawieźć do szpitala", ru: "отвезти в больницу" }
-formExamplesSkip:
-  - { form: "zawiozłby", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
-  - { form: "zawiozłbym", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
-  - { form: "zawiozłbyś", reason: "Частица by начинается с согласного, поэтому слог остаётся закрытым и ó сохраняется: правильно zawiózłby, zawiózłbym, zawiózłbyś. Форма с o возникает только перед гласным окончанием, как в zawiozłem и zawiozła. Вариант с o здесь — артефакт генератора парадигм." }
-  - { form: "zawiozł", reason: "Это не самостоятельная форма, а связанная основа. Она появляется только перед окончанием, начинающимся с гласного: zawiozłem, zawiozłeś, zawiozła. Сама по себе, в третьем лице единственного числа мужского рода, форма звучит zawiózł — с ó, потому что слог закрытый. Отдельно zawiozł не употребляется." }
 formExamples:
   - form: "zawiezie"
     pl: "Taksówka zawiezie was pod sam dom."
@@ -447,6 +442,42 @@ formExamples:
   - form: "zawiozła"
     pl: "Nie zawiozła tam nikogo, zabrakło miejsca."
     ru: "Она никого туда не отвезла, не хватило места."
+    source: { kind: authored }
+  - form: "zawiózłby"
+    pl: "Kierowca zawiózłby nas prosto do hotelu."
+    ru: "Водитель отвёз бы нас прямо в гостиницу."
+    source: { kind: authored }
+  - form: "zawiózłby"
+    pl: "Gdyby nie korek, zawiózłby cię na czas."
+    ru: "Если бы не пробка, он довёз бы тебя вовремя."
+    source: { kind: authored }
+  - form: "zawiózłby"
+    pl: "Wujek zawiózłby towar do sklepu."
+    ru: "Дядя завёз бы товар в магазин."
+    source: { kind: authored }
+  - form: "zawiózłbym"
+    pl: "Zawiózłbym cię na lotnisko, ale nie mam auta."
+    ru: "Я отвёз бы тебя в аэропорт, но у меня нет машины."
+    source: { kind: authored }
+  - form: "zawiózłbym"
+    pl: "Chętnie zawiózłbym dzieci nad morze."
+    ru: "Я охотно отвёз бы детей на море."
+    source: { kind: authored }
+  - form: "zawiózłbym"
+    pl: "Gdybym mógł, zawiózłbym psa do weterynarza."
+    ru: "Если бы я мог, я отвёз бы собаку к ветеринару."
+    source: { kind: authored }
+  - form: "zawiózłbyś"
+    pl: "Zawiózłbyś mnie do pracy?"
+    ru: "Ты бы отвёз меня на работу?"
+    source: { kind: authored }
+  - form: "zawiózłbyś"
+    pl: "Może zawiózłbyś te pudła na strych?"
+    ru: "Может, ты отвёз бы эти коробки на чердак?"
+    source: { kind: authored }
+  - form: "zawiózłbyś"
+    pl: "Czy zawiózłbyś babcię do kościoła?"
+    ru: "Ты отвёз бы бабушку в костёл?"
     source: { kind: authored }
   - form: "zawiozłaby"
     pl: "Zawiozłaby go sama, gdyby miała prawo jazdy."

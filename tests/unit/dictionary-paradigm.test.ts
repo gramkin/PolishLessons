@@ -198,6 +198,23 @@ describe('buildParadigm — verbs', () => {
     ])
   })
 
+  it('takes the free masculine past, not the agglutinative stem', () => {
+    const rows: MorphRow[] = [
+      { form: 'wyniosł', lemma: 'wynieść', tag: 'praet:sg:m1.m2.m3:perf:agl' },
+      { form: 'wyniósł', lemma: 'wynieść', tag: 'praet:sg:m1.m2.m3:perf:nagl' },
+      { form: 'wyniosła', lemma: 'wynieść', tag: 'praet:sg:f:perf' },
+    ]
+    const wynieść = buildParadigm('verb', 'wynieść', rows, [], 'perf')
+    const past = table(wynieść, 'Прошедшее время (ед. ч.)')
+    expect(row(past, '1-е лицо')[0]).toEqual(['wyniosłem'])
+    expect(row(past, '3-е лицо')[0]).toEqual(['wyniósł'])
+    const cond = table(wynieść, 'Условное наклонение (ед. ч.)')
+    expect(row(cond, '1-е лицо')[0]).toEqual(['wyniósłbym'])
+    expect(row(cond, '3-е лицо')[0]).toEqual(['wyniósłby'])
+    expect(wynieść.allForms).not.toContain('wyniosł')
+    expect(wynieść.allForms).toContain('wyniosłem')
+  })
+
   it('reports Wiktionary forms that were not generated', () => {
     const rows: MorphRow[] = [
       { form: 'mógł', lemma: 'móc', tag: 'praet:sg:m1.m2.m3:imperf' },

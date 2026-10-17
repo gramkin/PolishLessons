@@ -30,7 +30,7 @@ senses:
 notes:
   - { kind: pronunciation, text: "Основа меняется трижды, и все три мены русскому знакомы. Согласная: ź перед согласным и на конце — PODWIEŹĆ, PODWIEŹ, PODWIEŹLI, — но z перед гласной заднего ряда: PODWIOZĘ, PODWIOZĄ, PODWIOZŁA. Гласная: e перед i — PODWIEZIE, PODWIEZIESZ, — но o перед твёрдой — PODWIOZĘ, PODWIOZŁA. И третья, самая польская: o удлиняется в ó в закрытом слоге, откуда PODWIÓZŁ при PODWIOZŁA. Та же мена, что в WZÓR при WZORU и SAMOCHÓD при SAMOCHODOWY." }
   - { kind: usage, text: "Повелительное PODWIEŹ стоит отметить особо: именно оно заставило исправить карточку KARMIĆ в партии 259. Там было сказано, что окончание -ie переходит в -ij, и по этому правилу вышло бы небывалое PODWIEZIJ. На деле от третьего лица PODWIEZIE отбрасывается -ie, остаётся PODWIEZ-, и поскольку такой основой польское слово закончиться может, она просто смягчается: PODWIEŹ. Правило теперь сформулировано через основу, а не через окончание, и проверено на двух тысячах с лишним глаголов." }
-  - { kind: usage, text: "Четыре формы в карточке пропущены, и не из-за корпуса, а потому, что в таблице их нет в правильном виде. Генератор черновиков строит мужской род единственного числа от основы с o: PODWIOZŁ и условные PODWIOZŁBY, PODWIOZŁBYM, PODWIOZŁBYŚ. Таких форм в польском не бывает — в закрытом слоге стоит ó, то есть PODWIÓZŁ и PODWIÓZŁBY. Сама PODWIÓZŁ в таблице есть и в карточке стоит, а вот правильных условных в таблице нет вовсе, поэтому мужское единственное условное здесь отсутствует. Женский, средний и множественный при этом совершенно правильны: PODWIOZŁA, PODWIOZŁO, PODWIOZŁY, PODWIOZŁABY — там за ł идёт гласная, и слог открывается." }
+  - { kind: usage, text: "В мужском роде единственного числа в закрытом слоге стоит ó: PODWIÓZŁ и в условном PODWIÓZŁBY, PODWIÓZŁBYM, PODWIÓZŁBYŚ. Форм PODWIOZŁ и PODWIOZŁBY в польском нет. Женский, средний и множественный идут с o: PODWIOZŁA, PODWIOZŁO, PODWIOZŁY, PODWIOZŁABY — там за ł идёт гласная, и слог открывается." }
   - { kind: government, text: "Управление как в русском: PODWIEŹĆ KOGOŚ в винительном плюс предлог направления — DO DWORCA, POD DOM, NA LOTNISKO. Вежливая просьба звучит CZY MOŻESZ MNIE PODWIEŹĆ? — «можешь меня подвезти?». Различайте три польских глагола там, где русский берёт три своих: WIEŹĆ — везти на чём-то, NIEŚĆ — нести в руках, PROWADZIĆ — вести за руку. Деление ровно то же, что в русском, так что ошибиться трудно. Несовершенная пара — PODWOZIĆ." }
 collocations:
   - { pl: "podwieźć kogoś do domu", ru: "подвезти кого-либо домой" }
@@ -45,11 +45,6 @@ memory: "podwieźć — это «подвезти», часть за часть�
 idioms:
   - { pl: "czy możesz mnie podwieźć?", ru: "можешь меня подвезти?" }
   - { pl: "podwieźć kogoś pod sam dom", ru: "подвезти кого-либо к самому дому" }
-formExamplesSkip:
-  - { form: "podwiozł", reason: "Такой формы в польском нет: в закрытом слоге стоит ó, то есть PODWIÓZŁ. Генератор черновиков строит мужской род единственного числа от основы с o, не применяя удлинения. Правильная форма PODWIÓZŁ в таблице есть и в карточке приведена." }
-  - { form: "podwiozłby", reason: "Такой формы нет по той же причине: правильное условное мужского рода — PODWIÓZŁBY, с ó, потому что частица -by слог не открывает. В таблице черновика этой правильной формы нет вовсе, поэтому мужское единственное условное в карточке отсутствует. Женские, средние и множественные условные при этом правильны и приведены: PODWIOZŁABY, PODWIOZŁOBY, PODWIOZŁYBY — там за ł идёт гласная." }
-  - { form: "podwiozłbym", reason: "То же: правильная форма PODWIÓZŁBYM, с ó в закрытом слоге. В таблице её нет, а приведённую строить нельзя." }
-  - { form: "podwiozłbyś", reason: "То же: правильная форма PODWIÓZŁBYŚ, с ó в закрытом слоге. В таблице её нет, а приведённую строить нельзя." }
 formExamples:
   - form: "podwiezie"
     pl: "Sąsiad podwiezie nas na dworzec."
@@ -446,6 +441,42 @@ formExamples:
   - form: "podwiozła"
     pl: "Nikogo nie podwiozła tego ranka."
     ru: "В то утро она никого не подвезла."
+    source: { kind: authored }
+  - form: "podwiózłby"
+    pl: "Sąsiad chętnie podwiózłby nas na dworzec."
+    ru: "Сосед охотно подвёз бы нас на вокзал."
+    source: { kind: authored }
+  - form: "podwiózłby"
+    pl: "Gdyby miał samochód, podwiózłby cię do domu."
+    ru: "Будь у него машина, он подвёз бы тебя домой."
+    source: { kind: authored }
+  - form: "podwiózłby"
+    pl: "Kierowca podwiózłby towar jeszcze dziś."
+    ru: "Водитель подвёз бы товар ещё сегодня."
+    source: { kind: authored }
+  - form: "podwiózłbym"
+    pl: "Podwiózłbym cię, ale mam pełny bagażnik."
+    ru: "Я бы тебя подвёз, но у меня полный багажник."
+    source: { kind: authored }
+  - form: "podwiózłbym"
+    pl: "Z przyjemnością podwiózłbym panią pod sam dom."
+    ru: "Я с удовольствием подвёз бы вас к самому дому."
+    source: { kind: authored }
+  - form: "podwiózłbym"
+    pl: "Gdybym wiedział wcześniej, podwiózłbym ich na lotnisko."
+    ru: "Если бы я знал раньше, я подвёз бы их в аэропорт."
+    source: { kind: authored }
+  - form: "podwiózłbyś"
+    pl: "Podwiózłbyś mnie do pracy?"
+    ru: "Ты бы подвёз меня на работу?"
+    source: { kind: authored }
+  - form: "podwiózłbyś"
+    pl: "Może podwiózłbyś babcię do lekarza?"
+    ru: "Может, ты подвёз бы бабушку к врачу?"
+    source: { kind: authored }
+  - form: "podwiózłbyś"
+    pl: "Gdybyś miał czas, podwiózłbyś nam deski?"
+    ru: "Если бы у тебя было время, ты подвёз бы нам доски?"
     source: { kind: authored }
   - form: "podwiozłaby"
     pl: "Podwiozłaby nas, gdyby miała auto."

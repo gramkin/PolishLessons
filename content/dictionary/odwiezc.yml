@@ -32,7 +32,7 @@ notes:
   - { kind: pronunciation, text: "Основа играет тремя огласовками, как у PONIEŚĆ из предыдущей партии, и по тем же правилам: -ie- перед мягким (ODWIEZIESZ, ODWIEZIE, ODWIEŹLI), -io- перед твёрдым (ODWIOZĘ, ODWIOZĄ, ODWIOZŁA), -ió- в закрытом слоге перед Ł (ODWIÓZŁ). Ударение на предпоследнем слоге, а в двуслоговом ODWIEŹĆ это первый: О́ДВЕЗЬЦЬ. Сочетание ŹĆ читается «зьць», одним мягким движением, без гласной между." }
   - { kind: government, text: "Кого или что — винительный; куда — DO с родительным (DO DOMU, DO SZPITALA, DO MAGAZYNU) или NA с винительным (NA POCZTĘ, NA DWORZEC, NA LOTNISKO). Выбор предлога тот же, что у остальных глаголов движения, и запоминается вместе с ними. Чем — предлог z или вовсе без него: ODWIEŹĆ SAMOCHODEM, но чаще способ не называют, он уже в самом глаголе." }
   - { kind: usage, text: "Приставки у корня WIEŹĆ те же, что у русского «везти», и смысл делят так же: PRZYWIEŹĆ «привезти», WYWIEŹĆ «вывезти», ZAWIEŹĆ «завезти, отвезти», DOWIEŹĆ «довезти», PRZEWIEŹĆ «перевезти», ODWIEŹĆ «отвезти». Между ZAWIEŹĆ и ODWIEŹĆ разница тонкая: ODWIEŹĆ предполагает возвращение туда, откуда взяли, или доставку домой — ODWIEŹĆ KOGOŚ DO DOMU, — а ZAWIEŹĆ просто доставляет в новое место." }
-  - { kind: usage, text: "В черновике пятьдесят четыре формы, написаны пятьдесят, четыре пропущены — и ровно по тем же причинам, что у PONIEŚĆ из предыдущей партии, так что пара подтверждает правило дважды. ODWIOZŁ без окончания — не слово, а агглютинативная основа (PoliMorf помечает её тегом agl): она живёт только в связке, ODWIOZŁEM, ODWIOZŁEŚ, где слог открывается и ó закономерно становится o. Свободная форма мужского рода — ODWIÓZŁ. А три условные формы мужского рода даны в черновике только как ODWIOZŁBY, ODWIOZŁBYM, ODWIOZŁBYŚ, правильных же ODWIÓZŁBY, ODWIÓZŁBYM, ODWIÓZŁBYŚ в нём нет. Деепричастие здесь ODWIÓZŁSZY, с -SZY после согласного." }
+  - { kind: usage, text: "Мужской род прошедшего времени — ODWIÓZŁ, с ó в закрытом слоге. Основа odwiozł- без ó живёт только в связке с окончанием, ODWIOZŁEM, ODWIOZŁEŚ, где слог открывается; отдельно такой формы нет. В условном наклонении мужского рода ó остаётся: ODWIÓZŁBY, ODWIÓZŁBYM, ODWIÓZŁBYŚ. Деепричастие здесь ODWIÓZŁSZY, с -SZY после согласного." }
 collocations:
   - { pl: "odwieźć do domu", ru: "отвезти домой" }
   - { pl: "odwieźć do szpitala", ru: "отвезти в больницу" }
@@ -46,11 +46,6 @@ memory: "nieść/wieźć ложатся на «нести/везти» без з
 idioms:
   - { pl: "odwieźć do domu", ru: "отвезти домой, доставить до дверей" }
   - { pl: "odwieźć na dworzec", ru: "отвезти на вокзал, проводить до поезда" }
-formExamplesSkip:
-  - { form: "odwiozł", reason: "Агглютинативная основа, а не самостоятельная форма: PoliMorf помечает её тегом agl, то есть она существует только в связке с окончанием — ODWIOZŁEM, ODWIOZŁEŚ, где слог открывается и ó переходит в o закономерно. Свободная форма мужского рода единственного числа — ODWIÓZŁ, и она в карточке есть с примерами." }
-  - { form: "odwiozłby", reason: "Правильная условная форма мужского рода — ODWIÓZŁBY, и в черновике её нет: ó держится в закрытом слоге перед ŁBY так же, как перед одиночным Ł в ODWIÓZŁ. Дать пример на ODWIOZŁBY значило бы закрепить ошибку порождающей таблицы." }
-  - { form: "odwiozłbym", reason: "То же самое: правильная форма — ODWIÓZŁBYM, которой в черновике нет. Женские, средние и множественные условные формы в карточке есть, потому что там за Ł идёт гласная и o законно: ODWIOZŁABY, ODWIOZŁOBY, ODWIOZŁYBY." }
-  - { form: "odwiozłbyś", reason: "То же самое: правильная форма — ODWIÓZŁBYŚ, которой в черновике нет. Ограничение касается только мужского рода единственного числа, поэтому пропущено четыре формы, а не тринадцать." }
 formExamples:
   - form: "odwiezie"
     pl: "Kto odwiezie dzieci do szkoły?"
@@ -447,6 +442,42 @@ formExamples:
   - form: "odwiozła"
     pl: "Dalej niż na dworzec nas nie odwiozła."
     ru: "Дальше вокзала она нас не отвезла."
+    source: { kind: authored }
+  - form: "odwiózłby"
+    pl: "Taksówkarz odwiózłby nas pod sam hotel."
+    ru: "Таксист отвёз бы нас к самой гостинице."
+    source: { kind: authored }
+  - form: "odwiózłby"
+    pl: "Ojciec chętnie odwiózłby cię na dworzec."
+    ru: "Отец охотно отвёз бы тебя на вокзал."
+    source: { kind: authored }
+  - form: "odwiózłby"
+    pl: "Gdyby miał samochód, odwiózłby meble do mieszkania."
+    ru: "Будь у него машина, он отвёз бы мебель в квартиру."
+    source: { kind: authored }
+  - form: "odwiózłbym"
+    pl: "Odwiózłbym cię, ale piłem wino."
+    ru: "Я бы тебя отвёз, но я пил вино."
+    source: { kind: authored }
+  - form: "odwiózłbym"
+    pl: "Jutro rano odwiózłbym dzieci do szkoły."
+    ru: "Завтра утром я отвёз бы детей в школу."
+    source: { kind: authored }
+  - form: "odwiózłbym"
+    pl: "Gdybym wiedział, odwiózłbym ją do szpitala."
+    ru: "Если бы я знал, я отвёз бы её в больницу."
+    source: { kind: authored }
+  - form: "odwiózłbyś"
+    pl: "Odwiózłbyś mnie do domu?"
+    ru: "Ты бы отвёз меня домой?"
+    source: { kind: authored }
+  - form: "odwiózłbyś"
+    pl: "Może odwiózłbyś te paczki na pocztę?"
+    ru: "Может, ты отвёз бы эти посылки на почту?"
+    source: { kind: authored }
+  - form: "odwiózłbyś"
+    pl: "Czy odwiózłbyś gościa na lotnisko?"
+    ru: "Ты отвёз бы гостя в аэропорт?"
     source: { kind: authored }
   - form: "odwiozłaby"
     pl: "Odwiozłaby dzieci do szkoły, gdyby miała samochód."

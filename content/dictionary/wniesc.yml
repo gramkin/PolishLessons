@@ -35,8 +35,8 @@ senses:
         source: { kind: authored }
 notes:
   - { kind: government, text: "wnieść coś — ВИНИТЕЛЬНЫЙ падеж: wnieść walizkę, wkład, skargę, poprawkę. Дополнением бывает и человек, когда его вносят на руках, поэтому мужсколичное wniesieni работает: zwycięzcy zostali wniesieni na rękach." }
-  - { kind: pronunciation, text: "В мужском роде единственного числа прошедшего времени свободная форма — wniósł, с ó: on wniósł walizkę. Форма wniosł без ó самостоятельным словом не бывает: это основа, которая появляется только со слитным личным окончанием — wniosłem, wniosłeś, а также в формах wniosła, wniosło, wniosły. Словарь PoliMorf помечает её praet:sg:m1.m2.m3:perf:agl, то есть «агглютинативная», в отличие от wniósł с пометой nagl." }
-  - { kind: pronunciation, text: "В условном наклонении ó сохраняется: wniósłby, wniósłbym, wniósłbyś. Частица by не образует слога и потому не открывает закрытый слог, так что перехода ó в o здесь нет. Варианты wniosłby, wniosłbym, wniosłbyś, которые выдаёт автоматический генератор форм, нормой не являются." }
+  - { kind: pronunciation, text: "В мужском роде единственного числа прошедшего времени свободная форма — wniósł, с ó: on wniósł walizkę. Форма wniosł без ó самостоятельным словом не бывает: это основа, которая появляется только со слитным личным окончанием — wniosłem, wniosłeś, а также в формах wniosła, wniosło, wniosły." }
+  - { kind: pronunciation, text: "В условном наклонении ó сохраняется: wniósłby, wniósłbym, wniósłbyś. Частица by начинается с согласного и не открывает слог после ł, так что перехода ó в o здесь нет. Форм wniosłby, wniosłbym, wniosłbyś в языке нет." }
   - { kind: false-friend, text: "Корень nieść — прямой родственник русского «нести», и wnieść отвечает «внести» приставка в приставку. Но в юридическом употреблении языки расходятся: польское wnieść skargę значит «подать жалобу», а по-русски говорят именно «подать», а не «внести» жалобу." }
 collocations:
   - { pl: "wnieść walizkę", ru: "внести чемодан" }
@@ -51,11 +51,6 @@ memory: "wnieść = w- + nieść, буквально русское «внест
 idioms:
   - { pl: "wnieść wkład w coś", ru: "внести вклад во что-л." }
   - { pl: "wnieść skargę", ru: "подать жалобу" }
-formExamplesSkip:
-  - { form: "wniosł", reason: "Агглютинативная основа прошедшего времени, а не самостоятельное слово. PoliMorf помечает её praet:sg:m1.m2.m3:perf:agl, в отличие от свободной формы wniósł с пометой nagl. Эта основа появляется только тогда, когда к ней прирастает личное окончание: wniosłem, wniosłeś. Отдельно «on wniosł» сказать нельзя — нужно wniósł, — поэтому примера на эту форму быть не может." }
-  - { form: "wniosłby", reason: "Форма условного наклонения без ó. Частица by не образует слога и потому не открывает закрытый слог, так что нормой остаётся wniósłby, с ó. Вариант wniosłby — артефакт автоматического генератора форм, который применил к условному наклонению агглютинативную основу wniosł." }
-  - { form: "wniosłbym", reason: "То же, что и у wniosłby: нормативная форма — wniósłbym, с сохранением ó, поскольку частица by слога не добавляет. Вариант без ó даёт генератор форм, а не польская норма." }
-  - { form: "wniosłbyś", reason: "То же, что и у wniosłby: нормативная форма — wniósłbyś, с сохранением ó. Вариант без ó нормой не является." }
 formExamples:
   - form: "wniesie"
     pl: "Tragarz wniesie meble na trzecie piętro."
@@ -452,6 +447,42 @@ formExamples:
   - form: "wniosła"
     pl: "Nie wniosła nic nowego do dyskusji."
     ru: "Она не внесла ничего нового в обсуждение."
+    source: { kind: authored }
+  - form: "wniósłby"
+    pl: "Pan Nowak wniósłby skargę do sądu."
+    ru: "Пан Новак подал бы жалобу в суд."
+    source: { kind: authored }
+  - form: "wniósłby"
+    pl: "Nowy pracownik wniósłby świeże pomysły."
+    ru: "Новый сотрудник внёс бы свежие идеи."
+    source: { kind: authored }
+  - form: "wniósłby"
+    pl: "Gdyby był silniejszy, wniósłby szafę sam."
+    ru: "Будь он сильнее, он внёс бы шкаф сам."
+    source: { kind: authored }
+  - form: "wniósłbym"
+    pl: "Wniósłbym poprawkę do projektu ustawy."
+    ru: "Я внёс бы поправку в законопроект."
+    source: { kind: authored }
+  - form: "wniósłbym"
+    pl: "Chętnie wniósłbym swój wkład w tę pracę."
+    ru: "Я охотно внёс бы свой вклад в эту работу."
+    source: { kind: authored }
+  - form: "wniósłbym"
+    pl: "Gdybym mógł, wniósłbym ci zakupy na piętro."
+    ru: "Если бы я мог, я занёс бы тебе покупки на этаж."
+    source: { kind: authored }
+  - form: "wniósłbyś"
+    pl: "Wniósłbyś walizki do pokoju?"
+    ru: "Ты внёс бы чемоданы в комнату?"
+    source: { kind: authored }
+  - form: "wniósłbyś"
+    pl: "Może wniósłbyś odwołanie od tej decyzji?"
+    ru: "Может, ты подал бы апелляцию на это решение?"
+    source: { kind: authored }
+  - form: "wniósłbyś"
+    pl: "Czy wniósłbyś coś nowego do zespołu?"
+    ru: "Ты внёс бы что-то новое в команду?"
     source: { kind: authored }
   - form: "wniosłaby"
     pl: "Wniosłaby tacę, gdyby miała wolne ręce."
