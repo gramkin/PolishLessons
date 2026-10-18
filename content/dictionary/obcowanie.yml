@@ -47,6 +47,8 @@ formExamplesSkip:
   - { form: "obcowaniom", reason: "книжное отглагольное существительное, которое называет само соприкосновение и употребляется в единственном числе: obcowanie z naturą, świętych obcowanie. Формы множественного числа есть в таблице, но в текстах не встречаются" }
   - { form: "obcowań", reason: "книжное отглагольное существительное, которое называет само соприкосновение и употребляется в единственном числе: obcowanie z naturą, świętych obcowanie. Формы множественного числа есть в таблице, но в текстах не встречаются" }
   - { form: "obcowania", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "obcowania", cell: "Именительный", reason: "во множественном числе это слово не употребляется" }
+  - { form: "obcowania", cell: "Винительный", reason: "во множественном числе это слово не употребляется" }
 formExamples:
   - form: "obcowania"
     cell: "Родительный"
@@ -59,6 +61,7 @@ formExamples:
     ru: "От общения с природой становится спокойнее."
     source: { kind: authored }
   - form: "obcowania"
+    cell: "Родительный"
     pl: "Szuka obcowania ze sztuką."
     ru: "Он ищет соприкосновения с искусством."
     source: { kind: authored }
@@ -100,4 +103,19 @@ formExamples:
     cell: "Предложный"
     pl: "Po obcowaniu z ludźmi potrzebuje ciszy."
     ru: "После общения с людьми ему нужна тишина."
+    source: { kind: authored }
+  - form: "obcowaniu"
+    cell: "Дательный"
+    pl: "Poświęcił obcowaniu z przyrodą każdy weekend."
+    ru: "Он посвящал общению с природой каждые выходные."
+    source: { kind: authored }
+  - form: "obcowaniu"
+    cell: "Дательный"
+    pl: "Dzięki obcowaniu ze sztuką stał się wrażliwszy."
+    ru: "Благодаря общению с искусством он стал чувствительнее."
+    source: { kind: authored }
+  - form: "obcowaniu"
+    cell: "Дательный"
+    pl: "Obcowaniu z dziećmi sprzyja cierpliwość."
+    ru: "Общению с детьми способствует терпение."
     source: { kind: authored }

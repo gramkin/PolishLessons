@@ -47,6 +47,8 @@ formExamplesSkip:
   - { form: "niełasko", reason: "звательная форма, а niełaska — это опала. Обращаться к ней некому, поэтому форма остаётся только в таблице склонения" }
   - { form: "niełaskom", reason: "слово живёт в устойчивых оборотах popaść w niełaskę, być w niełasce и парном na łasce i niełasce. Множественного числа у него, в отличие от łaska «милость», не бывает" }
   - { form: "niełaski", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "niełaski", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "niełaski", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "niełasce"
     cell: "Предложный"
@@ -54,13 +56,30 @@ formExamples:
     ru: "Я в немилости."
     source: { kind: translated, id: 13668213 }
   - form: "niełasce"
+    cell: "Предложный"
     pl: "Był na łasce i niełasce sztormu."
     ru: "Он был во власти шторма."
     source: { kind: translated, id: 722161 }
   - form: "niełasce"
+    cell: "Предложный"
     pl: "Rolnicy zawsze są na łasce i niełasce pogody."
     ru: "Земледельцы всегда во власти погоды."
     source: { kind: translated, id: 859704 }
+  - form: "niełasce"
+    cell: "Дательный"
+    pl: "Nie poddał się królewskiej niełasce."
+    ru: "Он не покорился королевской немилости."
+    source: { kind: authored }
+  - form: "niełasce"
+    cell: "Дательный"
+    pl: "Wbrew niełasce króla został na dworze."
+    ru: "Вопреки немилости короля он остался при дворе."
+    source: { kind: authored }
+  - form: "niełasce"
+    cell: "Дательный"
+    pl: "Przeciwstawił się niełasce dworu."
+    ru: "Он противостоял немилости двора."
+    source: { kind: authored }
   - form: "niełaska"
     pl: "Niełaska szefa go nie ominęła."
     ru: "Немилость начальника его не миновала."
@@ -98,6 +117,7 @@ formExamples:
     ru: "Он впал в немилость у начальника."
     source: { kind: authored }
   - form: "niełaski"
+    cell: "Родительный"
     pl: "Bał się niełaski szefa."
     ru: "Он боялся немилости начальника."
     source: { kind: authored }
@@ -107,6 +127,7 @@ formExamples:
     ru: "От немилости до увольнения недалеко."
     source: { kind: authored }
   - form: "niełaski"
+    cell: "Родительный"
     pl: "Uniknął niełaski."
     ru: "Он избежал немилости."
     source: { kind: authored }
