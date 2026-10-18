@@ -72,6 +72,8 @@ formExamplesSkip:
   - { form: "zdrowi", reason: "это форма прилагательного zdrowy «здоровые», а не существительного zdrowie" }
   - { form: "zdrowia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
   - { form: "zdrowie", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zdrowia", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zdrowia", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zdrowia"
     cell: "Родительный"
@@ -99,9 +101,25 @@ formExamples:
     ru: "Курение отразилось на его здоровье."
     source: { kind: tatoeba, id: 3743417 }
   - form: "zdrowie"
+    cell: "Именительный"
     pl: "Bardzo dobrze, dziękuję. A jak twoje zdrowie?"
     ru: "Очень хорошо, спасибо. А как твоё здоровье?"
     source: { kind: tatoeba, id: 6018065 }
+  - form: "zdrowie"
+    cell: "Именительный"
+    pl: "Zdrowie jest najważniejsze."
+    ru: "Здоровье важнее всего."
+    source: { kind: authored }
+  - form: "zdrowie"
+    cell: "Именительный"
+    pl: "Jego zdrowie się pogorszyło."
+    ru: "Его здоровье ухудшилось."
+    source: { kind: authored }
+  - form: "zdrowie"
+    cell: "Винительный"
+    pl: "Palenie niszczy zdrowie."
+    ru: "Курение разрушает здоровье."
+    source: { kind: authored }
   - form: "zdrowiem"
     pl: "Mam problemy ze zdrowiem."
     ru: "У меня проблемы со здоровьем."

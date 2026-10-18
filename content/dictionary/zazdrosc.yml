@@ -56,6 +56,8 @@ formExamplesSkip:
   - { form: "zazdrościami", reason: "чувство не считают: в обычной речи множественного числа у zazdrość нет, форма остаётся только в таблице склонения" }
   - { form: "zazdrościom", reason: "чувство не считают: в обычной речи множественного числа у zazdrość нет, форма остаётся только в таблице склонения" }
   - { form: "zazdrości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zazdrości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zazdrości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zazdrości"
     cell: "Родительный"
@@ -63,6 +65,7 @@ formExamples:
     ru: "Он сделал это из зависти."
     source: { kind: translated, id: 597174 }
   - form: "zazdrości"
+    cell: "Родительный"
     pl: "Jej sukces sprawił, że stała się obiektem zazdrości."
     ru: "Её успех сделал её предметом зависти."
     source: { kind: translated, id: 951374 }
@@ -71,6 +74,36 @@ formExamples:
     pl: "Nie ma miłości bez zazdrości."
     ru: "Нет любви без ревности."
     source: { kind: tatoeba, id: 520047 }
+  - form: "zazdrości"
+    cell: "Дательный"
+    pl: "Uległ zazdrości."
+    ru: "Он поддался зависти."
+    source: { kind: authored }
+  - form: "zazdrości"
+    cell: "Дательный"
+    pl: "Nie dawaj się zazdrości."
+    ru: "Не поддавайся ревности."
+    source: { kind: authored }
+  - form: "zazdrości"
+    cell: "Дательный"
+    pl: "Przeciwstawił się zazdrości."
+    ru: "Он поборол зависть."
+    source: { kind: authored }
+  - form: "zazdrości"
+    cell: "Предложный"
+    pl: "Mówił o swojej zazdrości."
+    ru: "Он говорил о своей ревности."
+    source: { kind: authored }
+  - form: "zazdrości"
+    cell: "Предложный"
+    pl: "W tej zazdrości nie było złości."
+    ru: "В этой зависти не было злобы."
+    source: { kind: authored }
+  - form: "zazdrości"
+    cell: "Предложный"
+    pl: "Przy takiej zazdrości trudno o zaufanie."
+    ru: "При такой ревности трудно доверять."
+    source: { kind: authored }
   - form: "zazdrością"
     pl: "Patrzył z zazdrością na nowy samochód sąsiada."
     ru: "Он с завистью смотрел на новую машину соседа."
@@ -84,6 +117,7 @@ formExamples:
     ru: "Этот фильм рассказывает о любви, переплетённой с ревностью."
     source: { kind: authored }
   - form: "zazdrość"
+    cell: "Винительный"
     pl: "Chyba poczułem lekką zazdrość."
     ru: "Кажется, я почувствовал лёгкую зависть."
     source: { kind: translated, id: 1294894 }
@@ -93,6 +127,22 @@ formExamples:
     ru: "Любовь слепа, зато ревность видит даже то, чего нет."
     source: { kind: translated, id: 970763 }
   - form: "zazdrość"
+    cell: "Именительный"
     pl: "Zazdrość o przyjaciółkę zepsuła mu cały wieczór."
     ru: "Ревность к подруге испортила ему весь вечер."
+    source: { kind: authored }
+  - form: "zazdrość"
+    cell: "Винительный"
+    pl: "Ukrywała zazdrość."
+    ru: "Она скрывала ревность."
+    source: { kind: authored }
+  - form: "zazdrość"
+    cell: "Именительный"
+    pl: "Zazdrość to zły doradca."
+    ru: "Зависть — плохой советчик."
+    source: { kind: authored }
+  - form: "zazdrość"
+    cell: "Именительный"
+    pl: "Zazdrość go zżerała."
+    ru: "Его съедала зависть."
     source: { kind: authored }

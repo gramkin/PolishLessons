@@ -69,6 +69,8 @@ formExamplesSkip:
   - { form: "zgodami", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
   - { form: "zgodom", reason: "отвлечённое существительное: множественного числа zgoda практически не образует" }
   - { form: "zgody", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zgody", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zgody", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zgoda"
     pl: "Zgoda."
@@ -124,10 +126,12 @@ formExamples:
     ru: "Без твоего согласия мы не начнём."
     source: { kind: tatoeba, id: 6467598 }
   - form: "zgody"
+    cell: "Родительный"
     pl: "Potrzebujesz pisemnej zgody."
     ru: "Тебе нужно письменное согласие."
     source: { kind: translated, id: 7844149 }
   - form: "zgody"
+    cell: "Родительный"
     pl: "Potrzebuje pan pisemnej zgody."
     ru: "Вам нужно письменное согласие."
     source: { kind: translated, id: 7844150 }
@@ -146,3 +150,18 @@ formExamples:
     pl: "On jest w zgodzie, z wszystkimi uczniami z klasy."
     ru: "Он в ладу со всеми учениками класса."
     source: { kind: translated, id: 749502 }
+  - form: "zgodzie"
+    cell: "Дательный"
+    pl: "Sprzeciwił się zgodzie na budowę."
+    ru: "Он выступил против разрешения на строительство."
+    source: { kind: authored }
+  - form: "zgodzie"
+    cell: "Дательный"
+    pl: "Dzięki zgodzie rodziców pojechał na obóz."
+    ru: "Благодаря согласию родителей он поехал в лагерь."
+    source: { kind: authored }
+  - form: "zgodzie"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się tej zgodzie."
+    ru: "Давайте рассмотрим это разрешение."
+    source: { kind: authored }

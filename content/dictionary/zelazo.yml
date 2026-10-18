@@ -50,6 +50,8 @@ formExamplesSkip:
   - { form: "żelazami", reason: "множественное не учим" }
   - { form: "żelazach", reason: "множественное не учим" }
   - { form: "żelaza", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "żelaza", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "żelaza", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "żelaza"
     cell: "Родительный"
@@ -57,10 +59,12 @@ formExamples:
     ru: "Забор сделали из железа."
     source: { kind: authored }
   - form: "żelaza"
+    cell: "Родительный"
     pl: "Wątróbka zawiera dużo żelaza."
     ru: "В печени много железа."
     source: { kind: authored }
   - form: "żelaza"
+    cell: "Родительный"
     pl: "Huta produkuje tony żelaza."
     ru: "Завод производит тонны железа."
     source: { kind: authored }

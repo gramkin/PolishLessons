@@ -44,8 +44,11 @@ formExamplesSkip:
   - { form: "zażyłościami", reason: "слово называет сами отношения и употребляется в единственном числе: dawna zażyłość, brak zażyłości. Формы множественного числа есть в таблице, но в текстах не встречаются" }
   - { form: "zażyłościom", reason: "слово называет сами отношения и употребляется в единственном числе: dawna zażyłość, brak zażyłości. Формы множественного числа есть в таблице, но в текстах не встречаются" }
   - { form: "zażyłości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zażyłości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zażyłości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zażyłości"
+    cell: "Родительный"
     pl: "Między nimi nie było zażyłości."
     ru: "Между ними не было близости."
     source: { kind: authored }
@@ -55,8 +58,39 @@ formExamples:
     ru: "От давней близости ничего не осталось."
     source: { kind: authored }
   - form: "zażyłości"
+    cell: "Родительный"
     pl: "Boi się zbytniej zażyłości."
     ru: "Он боится излишней короткости."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Дательный"
+    pl: "Nie ufała tej nagłej zażyłości."
+    ru: "Она не доверяла этой внезапной близости."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Дательный"
+    pl: "Przyglądali się ich zażyłości z niepokojem."
+    ru: "На их близость смотрели с тревогой."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Дательный"
+    pl: "Zawdzięczał awans zażyłości z prezesem."
+    ru: "Повышением он был обязан близости с председателем."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Предложный"
+    pl: "Mówiono o ich zażyłości."
+    ru: "Говорили об их близости."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Предложный"
+    pl: "W tej zażyłości było coś niezdrowego."
+    ru: "В этой близости было что-то нездоровое."
+    source: { kind: authored }
+  - form: "zażyłości"
+    cell: "Предложный"
+    pl: "Przy takiej zażyłości nie ma tajemnic."
+    ru: "При такой близости нет тайн."
     source: { kind: authored }
   - form: "zażyłością"
     pl: "Zaskoczył ją zażyłością."

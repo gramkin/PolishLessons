@@ -45,6 +45,8 @@ idioms:
 formExamplesSkip:
   - { form: "zemsto", reason: "звательный падеж у неодушевлённых существительных в современном языке остался только в поэтическом обращении: в обычной речи вместо zemsto говорят zemsta" }
   - { form: "zemsty", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zemsty", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zemsty", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zemst"
     pl: "Nie było końca zemst i odwetów."
@@ -131,10 +133,12 @@ formExamples:
     ru: "Родовой мести положили конец."
     source: { kind: authored }
   - form: "zemsty"
+    cell: "Родительный"
     pl: "Tom pragnął zemsty."
     ru: "Том жаждал мести."
     source: { kind: translated, id: 9679371 }
   - form: "zemsty"
+    cell: "Родительный"
     pl: "Dyszała żądzą zemsty."
     ru: "Она дышала жаждой мести."
     source: { kind: translated, id: 757265 }
@@ -157,4 +161,19 @@ formExamples:
     cell: "Предложный"
     pl: "O tej zemście mówi cała wieś."
     ru: "Об этой мести говорит вся деревня."
+    source: { kind: authored }
+  - form: "zemście"
+    cell: "Дательный"
+    pl: "Poświęcił zemście całe życie."
+    ru: "Он посвятил мести всю жизнь."
+    source: { kind: authored }
+  - form: "zemście"
+    cell: "Дательный"
+    pl: "Uległ zemście."
+    ru: "Он поддался жажде мести."
+    source: { kind: authored }
+  - form: "zemście"
+    cell: "Дательный"
+    pl: "Przeciwstawiła się zemście."
+    ru: "Она отказалась от мести."
     source: { kind: authored }
