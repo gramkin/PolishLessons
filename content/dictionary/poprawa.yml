@@ -53,6 +53,8 @@ formExamplesSkip:
   - { form: "poprawach", reason: "множественное число почти не употребляется" }
   - { form: "poprawo", reason: "звательная форма; на практике не употребляется" }
   - { form: "poprawy", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "poprawy", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "poprawy", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "poprawa"
     pl: "Poprawa nastąpiła po tygodniu leczenia."
@@ -81,11 +83,28 @@ formExamples:
     pl: "Dzięki poprawie wyników dostał premię."
     ru: "Благодаря улучшению результатов он получил премию."
     source: { kind: authored }
+  - form: "poprawie"
+    cell: "Дательный"
+    pl: "Dzięki poprawie pogody wyszliśmy z domu."
+    ru: "Благодаря улучшению погоды мы вышли из дома."
+    source: { kind: authored }
+  - form: "poprawie"
+    cell: "Дательный"
+    pl: "Rząd poświęcił poprawie dróg cały budżet."
+    ru: "Правительство посвятило улучшению дорог весь бюджет."
+    source: { kind: authored }
+  - form: "poprawie"
+    cell: "Предложный"
+    pl: "Lekarz mówił o wyraźnej poprawie."
+    ru: "Врач говорил о явном улучшении."
+    source: { kind: authored }
   - form: "poprawy"
+    cell: "Родительный"
     pl: "Nie widać żadnej poprawy."
     ru: "Никакого улучшения не видно."
     source: { kind: authored }
   - form: "poprawy"
+    cell: "Родительный"
     pl: "Czekamy na znaki poprawy."
     ru: "Мы ждём признаков улучшения."
     source: { kind: authored }

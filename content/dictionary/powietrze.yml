@@ -71,6 +71,8 @@ formExamplesSkip:
   - { form: "powietrzy", reason: "powietrze — вещественное существительное, множественного числа не образует" }
   - { form: "powietrza", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
   - { form: "powietrze", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "powietrza", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "powietrza", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "powietrza"
     cell: "Родительный"
@@ -78,6 +80,7 @@ formExamples:
     ru: "Без воздуха мы бы умерли."
     source: { kind: tatoeba, id: 670336 }
   - form: "powietrza"
+    cell: "Родительный"
     pl: "Na księżycu nie ma powietrza."
     ru: "На Луне нет воздуха."
     source: { kind: tatoeba, id: 3695138 }
@@ -87,6 +90,7 @@ formExamples:
     ru: "Человек не выживет без воздуха."
     source: { kind: tatoeba, id: 946854 }
   - form: "powietrze"
+    cell: "Именительный"
     pl: "Powietrze było parne."
     ru: "Воздух был удушливым."
     source: { kind: tatoeba, id: 2151390 }
@@ -100,6 +104,21 @@ formExamples:
     pl: "Celował w gęś, trafił w powietrze."
     ru: "Целил в гуся, попал в воздух."
     source: { kind: tatoeba, id: 906106 }
+  - form: "powietrze"
+    cell: "Именительный"
+    pl: "Powietrze w górach jest czyste."
+    ru: "В горах чистый воздух."
+    source: { kind: authored }
+  - form: "powietrze"
+    cell: "Именительный"
+    pl: "Świeże powietrze dobrze ci zrobi."
+    ru: "Свежий воздух пойдёт тебе на пользу."
+    source: { kind: authored }
+  - form: "powietrze"
+    cell: "Винительный"
+    pl: "Wysadzili most w powietrze."
+    ru: "Они взорвали мост."
+    source: { kind: authored }
   - form: "powietrzem"
     pl: "Wieje tu świeżym powietrzem."
     ru: "Здесь веет свежим воздухом."
@@ -127,3 +146,18 @@ formExamples:
     pl: "Zmiany były w powietrzu."
     ru: "Перемены витали в воздухе."
     source: { kind: translated, id: 5528920 }
+  - form: "powietrzu"
+    cell: "Дательный"
+    pl: "Fabryki zaszkodziły powietrzu w dolinie."
+    ru: "Фабрики испортили воздух в долине."
+    source: { kind: authored }
+  - form: "powietrzu"
+    cell: "Дательный"
+    pl: "Dzięki czystemu powietrzu dzieci mniej chorują."
+    ru: "Благодаря чистому воздуху дети меньше болеют."
+    source: { kind: authored }
+  - form: "powietrzu"
+    cell: "Дательный"
+    pl: "Wilgoć nadała powietrzu ciężkość."
+    ru: "Влажность сделала воздух тяжёлым."
+    source: { kind: authored }

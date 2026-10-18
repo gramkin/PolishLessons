@@ -47,6 +47,8 @@ idioms:
   - { pl: "z całą powagą", ru: "со всей серьёзностью" }
 formExamplesSkip:
   - { form: "powagi", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "powagi", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "powagi", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "powadze"
     cell: "Предложный"
@@ -62,6 +64,21 @@ formExamples:
     cell: "Дательный"
     pl: "Dzięki powadze przewodniczącego obrady przebiegły spokojnie."
     ru: "Благодаря авторитету председателя заседание прошло спокойно."
+    source: { kind: authored }
+  - form: "powadze"
+    cell: "Дательный"
+    pl: "Nie zaszkodziło to powadze urzędu."
+    ru: "Это не навредило авторитету должности."
+    source: { kind: authored }
+  - form: "powadze"
+    cell: "Дательный"
+    pl: "Dzięki powadze sędziego sala ucichła."
+    ru: "Благодаря серьёзности судьи зал затих."
+    source: { kind: authored }
+  - form: "powadze"
+    cell: "Предложный"
+    pl: "Mówił z powagą o powadze sytuacji."
+    ru: "Он серьёзно говорил о серьёзности ситуации."
     source: { kind: authored }
   - form: "powag"
     pl: "Kilku powag naukowych podpisało ten apel."
@@ -122,6 +139,7 @@ formExamples:
     ru: "Без серьёзности нельзя вести заседание."
     source: { kind: authored }
   - form: "powagi"
+    cell: "Родительный"
     pl: "Sprawa wielkiej powagi trafiła wreszcie do sądu."
     ru: "Дело большой важности попало наконец в суд."
     source: { kind: authored }
