@@ -51,7 +51,15 @@ export const exampleSchema = z.object({
   source: sourceSchema,
 })
 
-export const formExampleSchema = exampleSchema.extend({ form: text })
+export const formExampleSchema = exampleSchema.extend({
+  form: text,
+  /**
+   * The table row this sentence illustrates, for a form that fills several rows
+   * («tchórzu» is both «Предложный» and «Звательный»). Untagged examples show in
+   * every cell the form fills.
+   */
+  cell: text.optional(),
+})
 
 export const senseSchema = z.object({
   id: cardId,

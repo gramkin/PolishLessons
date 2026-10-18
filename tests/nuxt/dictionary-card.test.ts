@@ -177,6 +177,47 @@ describe('dictionary card components', () => {
     expect(wrapper.find('.form-example strong').text()).toBe('Będę robić')
   })
 
+  it("shows only the clicked row's examples for a form that fills two rows", async () => {
+    const tables = [
+      {
+        title: 'Склонение',
+        columns: ['Ед. ч.'],
+        rows: [
+          { label: 'Предложный', cells: [['tchórzu']] },
+          { label: 'Звательный', cells: [['tchórzu']] },
+        ],
+        extra: false,
+      },
+    ]
+    const ex = (pl: string, ru: string, cell?: string) => ({
+      form: 'tchórzu',
+      pl,
+      ru,
+      source: { kind: 'authored' as const },
+      ...(cell ? { cell } : {}),
+    })
+    const formExamples = [
+      ex('O tym tchórzu mówiono.', 'Об этом трусе говорили.', 'Предложный'),
+      ex('Tchórzu, wróć!', 'Трус, вернись!', 'Звательный'),
+      ex('W tym tchórzu jest odwaga.', 'В этом трусе есть смелость.'),
+    ]
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables, formExamples, cardId: card.id, negatedForms: [] },
+    })
+    const [loc, voc] = wrapper.findAll('button.form-button')
+    await loc!.trigger('click')
+    expect(loc!.classes()).toContain('active')
+    expect(voc!.classes()).not.toContain('active')
+    const panel = wrapper.find('.form-example').text()
+    expect(panel).toContain('Об этом трусе говорили.')
+    expect(panel).not.toContain('Трус, вернись!')
+    expect(panel).toContain('Та же форма — предложный и звательный:')
+    expect(panel).toContain('В этом трусе есть смелость.')
+    await voc!.trigger('click')
+    expect(wrapper.find('.form-example').text()).toContain('Трус, вернись!')
+    expect(wrapper.find('.form-example').text()).not.toContain('Об этом трусе говорили.')
+  })
+
   it('renders an origin section only when there is something to show', async () => {
     const empty = await mountSuspended(Origin, { props: {} })
     expect(empty.find('section').exists()).toBe(false)

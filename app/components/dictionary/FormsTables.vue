@@ -73,6 +73,7 @@ const orphanSkips = computed(() => props.skipped.filter((s) => !tableCells.value
         <ul>
           <li v-for="example in examples" :key="example.pl">
             <span lang="pl">{{ example.pl }}</span>
+            <span v-if="example.cell" class="cell-tag"> ({{ example.cell.toLowerCase() }})</span>
             <SpeakButton :text="example.pl" />
             <span class="translation"> — {{ example.ru }}</span>
             <DictionarySaveSentence
@@ -124,7 +125,8 @@ summary {
   color: var(--accent-pl);
   margin: 0;
 }
-.translation {
+.translation,
+.cell-tag {
   color: var(--muted);
 }
 </style>

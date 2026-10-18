@@ -193,6 +193,16 @@ export function validateDictionary(
         table.rows.flatMap((row) => row.cells.flatMap((cell) => cell.filter((f) => /\s/.test(f)))),
       )
       const allowed = new Set([...expected, ...analytic])
+      const rowsByForm = new Map<string, Set<string>>()
+      for (const table of formsFile.tables) {
+        for (const row of table.rows) {
+          for (const form of row.cells.flat()) {
+            const rows = rowsByForm.get(form) ?? new Set<string>()
+            rows.add(row.label)
+            rowsByForm.set(form, rows)
+          }
+        }
+      }
       const seen = new Map<string, number>()
       const sentences = new Set<string>()
       for (const entry of card.formExamples) {
@@ -204,6 +214,11 @@ export function validateDictionary(
         sentences.add(key)
         if (!allowed.has(entry.form)) {
           errors.push(`${path}: formExamples has "${entry.form}", which is not an affirmative form`)
+        }
+        if (entry.cell && !rowsByForm.get(entry.form)?.has(entry.cell)) {
+          errors.push(
+            `${path}: form example "${entry.pl}" is tagged "${entry.cell}", a row that does not hold "${entry.form}"`,
+          )
         }
         if (!formInSentence(entry.pl, entry.form)) {
           errors.push(

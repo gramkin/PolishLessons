@@ -5,6 +5,8 @@ import {
   conjugationLabel,
   conjugations,
   highlightForms,
+  examplesForCell,
+  rowsHoldingForm,
   rankBand,
   tatoebaUrl,
 } from '../../app/utils/dictionary'
@@ -129,5 +131,48 @@ describe('conjugations', () => {
       ]),
     ).toBe('I или III спряжение (-ę, -esz; -am, -asz)')
     expect(conjugationLabel([])).toBeNull()
+  })
+})
+
+describe('examplesForCell', () => {
+  const table = {
+    title: 'Склонение',
+    columns: ['Ед. ч.', 'Мн. ч.'],
+    rows: [
+      { label: 'Именительный', cells: [['tchórz'], ['tchórze']] },
+      { label: 'Предложный', cells: [['tchórzu'], ['tchórzach']] },
+      { label: 'Звательный', cells: [['tchórzu'], ['tchórze']] },
+    ],
+    extra: false,
+  }
+  const ex = (pl: string, cell?: string) => ({
+    form: 'tchórzu',
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' as const },
+    ...(cell ? { cell } : {}),
+  })
+  const loc = ex('O tym tchórzu mówiono.', 'Предложный')
+  const voc = ex('Tchórzu, wróć!', 'Звательный')
+  const loose = ex('W tym tchórzu obudziła się odwaga.')
+
+  it('lists the rows a form fills', () => {
+    expect(rowsHoldingForm(table, 'tchórzu')).toEqual(['Предложный', 'Звательный'])
+    expect(rowsHoldingForm(table, 'tchórz')).toEqual(['Именительный'])
+  })
+
+  it('keeps examples tagged for another row out of the clicked cell', () => {
+    expect(examplesForCell([loc, voc, loose], 'Предложный', 2)).toEqual({
+      own: [loc],
+      shared: [loose],
+    })
+    expect(examplesForCell([loc, voc, loose], 'Звательный', 2)).toEqual({
+      own: [voc],
+      shared: [loose],
+    })
+  })
+
+  it("treats every example as the cell's own when the form fills one row", () => {
+    expect(examplesForCell([loose], 'Предложный', 1)).toEqual({ own: [loose], shared: [] })
   })
 })

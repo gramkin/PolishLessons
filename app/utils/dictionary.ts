@@ -2,6 +2,7 @@ import {
   AGLT_SUFFIXES,
   type CardPos,
   type CardRef,
+  type FormExample,
   type FormsTable,
   type NoteKind,
 } from '#shared/dictionary'
@@ -34,6 +35,31 @@ export const NOTE_KIND_NAMES: Record<NoteKind, string> = {
   register: 'Стиль',
   pronunciation: 'Произношение',
   usage: 'Употребление',
+}
+
+/** Labels of the rows in `table` whose cells hold `form`, in table order. */
+export function rowsHoldingForm(table: FormsTable, form: string): string[] {
+  return table.rows
+    .filter((row) => row.cells.some((cell) => cell.includes(form)))
+    .map((r) => r.label)
+}
+
+/**
+ * The examples to show for a form clicked in row `row`. When the form fills one
+ * row, every example is the cell's own. When it fills several, `own` holds the
+ * ones tagged for this row, `shared` the untagged ones (they may illustrate any
+ * of the rows), and examples tagged for another row are left out.
+ */
+export function examplesForCell(
+  examples: FormExample[],
+  row: string,
+  rowCount: number,
+): { own: FormExample[]; shared: FormExample[] } {
+  if (rowCount <= 1) return { own: examples, shared: [] }
+  return {
+    own: examples.filter((e) => e.cell === row),
+    shared: examples.filter((e) => !e.cell),
+  }
 }
 
 function isForm(word: string, forms: Set<string>): boolean {

@@ -307,6 +307,52 @@ describe('formExamples', () => {
   })
 })
 
+describe('formExamples cell', () => {
+  function withCells(cell: string) {
+    const b = bundle()
+    const forms = b.forms[0]!.data as { allForms: string[]; tables: unknown[] }
+    forms.allForms = ['dom', 'domu']
+    forms.tables = [
+      {
+        title: 'Склонение',
+        columns: ['Ед. ч.'],
+        rows: [
+          { label: 'Именительный', cells: [['dom']] },
+          { label: 'Предложный', cells: [['domu']] },
+          { label: 'Звательный', cells: [['domu']] },
+        ],
+        extra: false,
+      },
+    ]
+    const entry = (form: string, pl: string, tag?: string) => ({
+      form,
+      pl,
+      ru: 'перевод',
+      source: { kind: 'authored' },
+      ...(tag ? { cell: tag } : {}),
+    })
+    ;(b.cards[0]!.data as { formExamples?: unknown[] }).formExamples = [
+      entry('dom', 'To jest dom.'),
+      entry('dom', 'Mój dom jest duży.'),
+      entry('dom', 'Tam stoi dom.'),
+      entry('domu', 'Jestem w domu.'),
+      entry('domu', 'Mówimy o domu.'),
+      entry('domu', 'Domu, czekaj!', cell),
+    ]
+    return validateDictionary(b, { requireLessonCards: false }).errors
+  }
+
+  it('accepts a row that holds the form', () => {
+    expect(withCells('Звательный')).toEqual([])
+  })
+
+  it('rejects a row that does not hold the form', () => {
+    expect(withCells('Именительный')).toContain(
+      'dictionary/dom.yml: form example "Domu, czekaj!" is tagged "Именительный", a row that does not hold "domu"',
+    )
+  })
+})
+
 describe('card format', () => {
   function withCard(patch: Record<string, unknown>) {
     const b = bundle()
