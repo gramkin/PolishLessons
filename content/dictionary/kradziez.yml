@@ -49,10 +49,12 @@ formExamplesSkip:
   - { form: "kradzieży", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
 formExamples:
   - form: "kradzież"
+    cell: "Именительный"
     pl: "To jest kradzież."
     ru: "Это кража."
     source: { kind: translated, id: 8725922 }
   - form: "kradzież"
+    cell: "Именительный"
     pl: "Kradzież pieniędzy jest zła."
     ru: "Красть деньги — плохо."
     source: { kind: translated, id: 527388 }
@@ -61,6 +63,21 @@ formExamples:
     pl: "Policja aresztowała go za kradzież."
     ru: "Полиция арестовала его за кражу."
     source: { kind: tatoeba, id: 591362 }
+  - form: "kradzież"
+    cell: "Именительный"
+    pl: "Kradzież w sklepie trwała minutę."
+    ru: "Кража в магазине длилась минуту."
+    source: { kind: authored }
+  - form: "kradzież"
+    cell: "Винительный"
+    pl: "Zgłosiliśmy kradzież na policję."
+    ru: "Мы сообщили о краже в полицию."
+    source: { kind: authored }
+  - form: "kradzież"
+    cell: "Винительный"
+    pl: "Kamera nagrała kradzież."
+    ru: "Камера записала кражу."
+    source: { kind: authored }
   - form: "kradzieżach"
     pl: "O tych kradzieżach mówi policja."
     ru: "Об этих кражах говорит полиция."
@@ -122,6 +139,7 @@ formExamples:
     ru: "Не дай кражам остаться безнаказанными."
     source: { kind: authored }
   - form: "kradzieży"
+    cell: "Родительный"
     pl: "Jest winny kradzieży."
     ru: "Он виновен в краже."
     source: { kind: translated, id: 915194 }
@@ -135,3 +153,33 @@ formExamples:
     pl: "Bieda popchnęła go do kradzieży."
     ru: "Бедность толкнула его на кражу."
     source: { kind: translated, id: 516384 }
+  - form: "kradzieży"
+    cell: "Родительный"
+    pl: "Dowody kradzieży znaleziono w garażu."
+    ru: "Улики кражи нашли в гараже."
+    source: { kind: authored }
+  - form: "kradzieży"
+    cell: "Дательный"
+    pl: "Alarm zapobiegł kradzieży."
+    ru: "Сигнализация предотвратила кражу."
+    source: { kind: authored }
+  - form: "kradzieży"
+    cell: "Дательный"
+    pl: "Policja przyjrzała się kradzieży na nagraniu."
+    ru: "Полиция изучила кражу на записи."
+    source: { kind: authored }
+  - form: "kradzieży"
+    cell: "Дательный"
+    pl: "Kradzieży przyglądał się ochroniarz."
+    ru: "За кражей наблюдал охранник."
+    source: { kind: authored }
+  - form: "kradzieży"
+    cell: "Предложный"
+    pl: "O kradzieży poinformowano policję."
+    ru: "О краже сообщили в полицию."
+    source: { kind: authored }
+  - form: "kradzieży"
+    cell: "Предложный"
+    pl: "Po kradzieży zamontowali kamery."
+    ru: "После кражи они установили камеры."
+    source: { kind: authored }
