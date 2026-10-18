@@ -62,6 +62,8 @@ formExamplesSkip:
   - { form: "opieko", reason: "звательный падеж у этого слова в живой речи не употребляется" }
   - { form: "opiekom", reason: "слово отвлечённое; множественного числа в живой речи не образует" }
   - { form: "opieki", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "opieki", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "opieki", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "opiece"
     cell: "Предложный"
@@ -74,9 +76,25 @@ formExamples:
     ru: "Моя работа состоит в уходе за детьми."
     source: { kind: translated, id: 348941 }
   - form: "opiece"
+    cell: "Дательный"
     pl: "Dziewczynka została powierzona opiece babci."
     ru: "Девочку отдали на попечение бабушке."
     source: { kind: translated, id: 739343 }
+  - form: "opiece"
+    cell: "Дательный"
+    pl: "Dzięki troskliwej opiece szybko wyzdrowiał."
+    ru: "Благодаря заботливому уходу он быстро выздоровел."
+    source: { kind: authored }
+  - form: "opiece"
+    cell: "Дательный"
+    pl: "Pacjent zawdzięcza życie dobrej opiece."
+    ru: "Пациент обязан жизнью хорошему уходу."
+    source: { kind: authored }
+  - form: "opiece"
+    cell: "Предложный"
+    pl: "W tej opiece nie było czułości."
+    ru: "В этой опеке не было нежности."
+    source: { kind: authored }
   - form: "opieka"
     pl: "Opieka nad starszymi jest zadaniem dla młodzieży."
     ru: "Забота о пожилых — задача для молодёжи."
@@ -114,10 +132,12 @@ formExamples:
     ru: "Большинство семей не может позволить себе уход за пожилыми родителями."
     source: { kind: translated, id: 11136335 }
   - form: "opieki"
+    cell: "Родительный"
     pl: "Tom potrzebuje stałej opieki."
     ru: "Тому нужен постоянный уход."
     source: { kind: translated, id: 8973450 }
   - form: "opieki"
+    cell: "Родительный"
     pl: "Chory człowiek wymagał stałej opieki."
     ru: "Больной требовал постоянного ухода."
     source: { kind: translated, id: 3866091 }

@@ -59,8 +59,24 @@ formExamples:
     ru: "После платы он получил квитанцию."
     source: { kind: authored }
   - form: "opłacie"
+    cell: "Дательный"
     pl: "Przyjrzyj się tej opłacie w rachunku."
     ru: "Присмотрись к этой плате в счёте."
+    source: { kind: authored }
+  - form: "opłacie"
+    cell: "Дательный"
+    pl: "Przedsiębiorcy sprzeciwili się nowej opłacie."
+    ru: "Предприниматели выступили против нового сбора."
+    source: { kind: authored }
+  - form: "opłacie"
+    cell: "Дательный"
+    pl: "Dzięki niskiej opłacie wielu się zapisało."
+    ru: "Благодаря низкому взносу записались многие."
+    source: { kind: authored }
+  - form: "opłacie"
+    cell: "Предложный"
+    pl: "Nikt nie wspomniał o opłacie."
+    ru: "Никто не упомянул о плате."
     source: { kind: authored }
   - form: "opłat"
     pl: "Bez opłat nie wydają żadnych zaświadczeń."
@@ -140,6 +156,7 @@ formExamples:
     ru: "Без платы тебя не пустят на платформу."
     source: { kind: authored }
   - form: "opłaty"
+    cell: "Родительный"
     pl: "Wysokość opłaty ustala rada miasta."
     ru: "Размер платы устанавливает городской совет."
     source: { kind: authored }
@@ -147,6 +164,36 @@ formExamples:
     cell: "Родительный"
     pl: "Do opłaty doliczono podatek."
     ru: "К плате добавили налог."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Именительный"
+    pl: "Opłaty za prąd wzrosły."
+    ru: "Плата за электричество выросла."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Именительный"
+    pl: "Wszystkie opłaty są wliczone w cenę."
+    ru: "Все сборы включены в цену."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Именительный"
+    pl: "Opłaty bankowe bywają wysokie."
+    ru: "Банковские комиссии бывают высокими."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Винительный"
+    pl: "Płacę opłaty co miesiąc."
+    ru: "Я плачу коммунальные платежи каждый месяц."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Винительный"
+    pl: "Rząd obniżył opłaty drogowe."
+    ru: "Правительство снизило дорожные сборы."
+    source: { kind: authored }
+  - form: "opłaty"
+    cell: "Винительный"
+    pl: "Bank podniósł opłaty za konto."
+    ru: "Банк повысил плату за счёт."
     source: { kind: authored }
   - form: "opłatą"
     pl: "Z opłatą trzeba zdążyć do piątku."
