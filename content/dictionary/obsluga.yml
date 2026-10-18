@@ -47,6 +47,8 @@ idioms:
   - { pl: "instrukcja obsługi", ru: "инструкция по эксплуатации" }
 formExamplesSkip:
   - { form: "obsługi", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "obsługi", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "obsługi", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "obsłudze"
     cell: "Предложный"
@@ -62,6 +64,21 @@ formExamples:
     cell: "Предложный"
     pl: "Po obsłudze porannej zmiany przyszła wieczorna."
     ru: "После утренней смены персонала пришла вечерняя."
+    source: { kind: authored }
+  - form: "obsłudze"
+    cell: "Дательный"
+    pl: "Dzięki miłej obsłudze wracamy tu często."
+    ru: "Благодаря приятному обслуживанию мы часто сюда возвращаемся."
+    source: { kind: authored }
+  - form: "obsłudze"
+    cell: "Дательный"
+    pl: "Kierownik podziękował obsłudze hotelu."
+    ru: "Управляющий поблагодарил персонал гостиницы."
+    source: { kind: authored }
+  - form: "obsłudze"
+    cell: "Дательный"
+    pl: "Daj obsłudze napiwek."
+    ru: "Дай персоналу чаевые."
     source: { kind: authored }
   - form: "obsług"
     pl: "Koszt dwóch obsług technicznych wyniósł tysiąc złotych."
@@ -112,6 +129,7 @@ formExamples:
     ru: "Фирма продаёт сервисное обслуживание пакетами."
     source: { kind: authored }
   - form: "obsługi"
+    cell: "Родительный"
     pl: "Instrukcja obsługi leży w pudełku."
     ru: "Инструкция по эксплуатации лежит в коробке."
     source: { kind: authored }
@@ -121,6 +139,7 @@ formExamples:
     ru: "Без технического обслуживания машина встанет."
     source: { kind: authored }
   - form: "obsługi"
+    cell: "Родительный"
     pl: "Jakość obsługi poprawiła się po szkoleniu."
     ru: "Качество обслуживания улучшилось после обучения."
     source: { kind: authored }
