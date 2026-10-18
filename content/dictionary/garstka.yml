@@ -41,6 +41,8 @@ idioms:
 formExamplesSkip:
   - { form: "garstko", reason: "звательная форма, а garstka — это горсть. Обращаться к ней некому, поэтому форма остаётся только в таблице склонения" }
   - { form: "garstki", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "garstki", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "garstki", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "garstce"
     cell: "Предложный"
@@ -53,8 +55,24 @@ formExamples:
     ru: "Об этой горстке людей говорили с восхищением."
     source: { kind: authored }
   - form: "garstce"
+    cell: "Дательный"
     pl: "Przyjrzyj się tej garstce."
     ru: "Присмотрись к этой горсти."
+    source: { kind: authored }
+  - form: "garstce"
+    cell: "Дательный"
+    pl: "Tej garstce ludzi zawdzięczamy wolność."
+    ru: "Этой горстке людей мы обязаны свободой."
+    source: { kind: authored }
+  - form: "garstce"
+    cell: "Дательный"
+    pl: "Dzięki garstce ochotników festyn się udał."
+    ru: "Благодаря горстке добровольцев праздник удался."
+    source: { kind: authored }
+  - form: "garstce"
+    cell: "Предложный"
+    pl: "O tej garstce bohaterów pamięta całe miasto."
+    ru: "Об этой горстке героев помнит весь город."
     source: { kind: authored }
   - form: "garstek"
     pl: "Nie ma tu garstek."
@@ -129,6 +147,7 @@ formExamples:
     ru: "Он принёс горсть трав."
     source: { kind: authored }
   - form: "garstki"
+    cell: "Родительный"
     pl: "Nie ma tu garstki."
     ru: "Здесь нет и горсти."
     source: { kind: authored }
@@ -138,6 +157,7 @@ formExamples:
     ru: "С горсти муки начинается хлеб."
     source: { kind: authored }
   - form: "garstki"
+    cell: "Родительный"
     pl: "Zostało nam pół garstki."
     ru: "У нас осталось полгорсти."
     source: { kind: authored }
