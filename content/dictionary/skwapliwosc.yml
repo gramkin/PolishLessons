@@ -43,8 +43,11 @@ formExamplesSkip:
   - { form: "skwapliwościami", reason: "это название свойства характера, а не отдельного случая: во множественном числе слово не употребляется. Та же картина, что у podejrzliwość" }
   - { form: "skwapliwościom", reason: "это название свойства характера, а не отдельного случая: во множественном числе слово не употребляется. Та же картина, что у podejrzliwość" }
   - { form: "skwapliwości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "skwapliwości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "skwapliwości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "skwapliwości"
+    cell: "Родительный"
     pl: "Nie ma w nim skwapliwości."
     ru: "В нём нет угодливой поспешности."
     source: { kind: authored }
@@ -54,8 +57,39 @@ formExamples:
     ru: "От поспешной готовности до лести недалеко."
     source: { kind: authored }
   - form: "skwapliwości"
+    cell: "Предложный"
     pl: "W jego skwapliwości było coś podejrzanego."
     ru: "В его торопливой готовности было что-то подозрительное."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Родительный"
+    pl: "Nie rozumiem tej skwapliwości."
+    ru: "Я не понимаю этой поспешности."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Предложный"
+    pl: "Mówiono o skwapliwości urzędników."
+    ru: "Говорили об угодливости чиновников."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Предложный"
+    pl: "Przy takiej skwapliwości łatwo o błąd."
+    ru: "При такой поспешности легко ошибиться."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Дательный"
+    pl: "Przyglądał się skwapliwości sekretarza z niesmakiem."
+    ru: "Он с неприязнью смотрел на угодливость секретаря."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Дательный"
+    pl: "Nie ufam tej skwapliwości."
+    ru: "Я не доверяю этой поспешности."
+    source: { kind: authored }
+  - form: "skwapliwości"
+    cell: "Дательный"
+    pl: "Zawdzięczał awans swojej skwapliwości."
+    ru: "Повышением он был обязан своему рвению."
     source: { kind: authored }
   - form: "skwapliwością"
     pl: "Zgodził się ze skwapliwością."
