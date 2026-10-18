@@ -50,8 +50,11 @@ formExamplesSkip:
   - { form: "jedzeniom", reason: "отглагольное существительное со значением вещества или состояния: такое не считают штуками, и в живой речи слово стоит в единственном числе. Множественного числа у него нет — по тому же основанию отказано плюралю у szpik" }
   - { form: "jedzeń", reason: "отглагольное существительное со значением вещества или состояния: такое не считают штуками, и в живой речи слово стоит в единственном числе. Множественного числа у него нет — по тому же основанию отказано плюралю у szpik" }
   - { form: "jedzenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "jedzenia", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "jedzenia", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "jedzenia"
+    cell: "Родительный"
     pl: "Ona odmówiła jedzenia."
     ru: "Она отказалась от еды."
     source: { kind: translated, id: 12959993 }
@@ -103,4 +106,19 @@ formExamples:
     cell: "Предложный"
     pl: "W jedzeniu najważniejsza jest świeżość."
     ru: "В еде главное — свежесть."
+    source: { kind: authored }
+  - form: "jedzeniu"
+    cell: "Дательный"
+    pl: "Nie oparł się domowemu jedzeniu."
+    ru: "Он не устоял перед домашней едой."
+    source: { kind: authored }
+  - form: "jedzeniu"
+    cell: "Дательный"
+    pl: "Dzięki zdrowemu jedzeniu schudł."
+    ru: "Благодаря здоровой еде он похудел."
+    source: { kind: authored }
+  - form: "jedzeniu"
+    cell: "Дательный"
+    pl: "Przyjrzał się jedzeniu na talerzu."
+    ru: "Он присмотрелся к еде на тарелке."
     source: { kind: authored }
