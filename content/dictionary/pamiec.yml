@@ -67,6 +67,8 @@ formExamplesSkip:
   - { form: "pamięciach", reason: "предложный падеж множественного числа: слово отвлечённое, множественного почти не образует" }
   - { form: "pamięciami", reason: "творительный падеж множественного числа: слово отвлечённое, множественного почти не образует" }
   - { form: "pamięci", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "pamięci", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "pamięci", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "pamięci"
     cell: "Родительный"
@@ -74,10 +76,12 @@ formExamples:
     ru: "Он влюблён в неё без памяти."
     source: { kind: translated, id: 440457 }
   - form: "pamięci"
+    cell: "Родительный"
     pl: "Ile pamięci ma to cudo?"
     ru: "Сколько памяти у этого чуда?"
     source: { kind: translated, id: 3743835 }
   - form: "pamięci"
+    cell: "Предложный"
     pl: "Mam to świeżo w pamięci."
     ru: "У меня это свежо в памяти."
     source: { kind: translated, id: 766097 }
@@ -86,6 +90,31 @@ formExamples:
     pl: "Powiedz to proszę z pamięci."
     ru: "Скажи это, пожалуйста, по памяти."
     source: { kind: translated, id: 5140011 }
+  - form: "pamięci"
+    cell: "Предложный"
+    pl: "Mówiliśmy o pamięci historycznej."
+    ru: "Мы говорили об исторической памяти."
+    source: { kind: authored }
+  - form: "pamięci"
+    cell: "Предложный"
+    pl: "Na pamięci nie można polegać."
+    ru: "На память нельзя полагаться."
+    source: { kind: authored }
+  - form: "pamięci"
+    cell: "Дательный"
+    pl: "Pomnik poświęcono pamięci ofiar."
+    ru: "Памятник посвятили памяти жертв."
+    source: { kind: authored }
+  - form: "pamięci"
+    cell: "Дательный"
+    pl: "Zawdzięcza sukces świetnej pamięci."
+    ru: "Он обязан успехом отличной памяти."
+    source: { kind: authored }
+  - form: "pamięci"
+    cell: "Дательный"
+    pl: "Nie ufam swojej pamięci."
+    ru: "Я не доверяю своей памяти."
+    source: { kind: authored }
   - form: "pamięcią"
     pl: "Najbardziej charakterystycznym objawem demencji starczej są problemy z pamięcią."
     ru: "Самый характерный признак старческой деменции — проблемы с памятью."
@@ -111,14 +140,17 @@ formExamples:
     ru: "Техник выделил этим модулям памяти отдельные разъёмы."
     source: { kind: authored }
   - form: "pamięć"
+    cell: "Винительный"
     pl: "Masz kiepską pamięć."
     ru: "У тебя плохая память!"
     source: { kind: translated, id: 605889 }
   - form: "pamięć"
+    cell: "Винительный"
     pl: "Mam pamięć złotej rybki."
     ru: "У меня память как у золотой рыбки."
     source: { kind: translated, id: 8761437 }
   - form: "pamięć"
+    cell: "Винительный"
     pl: "On ma fotograficzną pamięć."
     ru: "У него фотографическая память."
     source: { kind: translated, id: 5183767 }
@@ -127,3 +159,18 @@ formExamples:
     pl: "Znam tę piosenkę na pamięć."
     ru: "Я эту песню наизусть знаю."
     source: { kind: translated, id: 13575107 }
+  - form: "pamięć"
+    cell: "Именительный"
+    pl: "Pamięć mnie zawodzi."
+    ru: "Память меня подводит."
+    source: { kind: authored }
+  - form: "pamięć"
+    cell: "Именительный"
+    pl: "Jego pamięć była zdumiewająca."
+    ru: "Его память была поразительной."
+    source: { kind: authored }
+  - form: "pamięć"
+    cell: "Именительный"
+    pl: "Pamięć o nich nie zginie."
+    ru: "Память о них не умрёт."
+    source: { kind: authored }
