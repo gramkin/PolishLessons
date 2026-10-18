@@ -46,6 +46,8 @@ formExamplesSkip:
   - { form: "dumo", reason: "звательная форма, а duma — это чувство гордости. Обращаться к нему некому, поэтому форма остаётся только в таблице склонения" }
   - { form: "dumom", reason: "гордость — это чувство, а не предмет: во множественном числе слово не употребляется. Польское duma не имеет отношения к русской «думе» — ни к мысли, ни к собранию, — а именно эти значения могли бы дать множественное число" }
   - { form: "dumy", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "dumy", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "dumy", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "duma"
     pl: "Duma idzie przed upadkiem."
@@ -89,6 +91,7 @@ formExamples:
     ru: "В его гордости есть что-то детское."
     source: { kind: authored }
   - form: "dumie"
+    cell: "Дательный"
     pl: "Nie ustąpił dumie."
     ru: "Он не уступил гордости."
     source: { kind: authored }
@@ -97,7 +100,23 @@ formExamples:
     pl: "O jej dumie krążą legendy."
     ru: "О её гордости ходят легенды."
     source: { kind: authored }
+  - form: "dumie"
+    cell: "Дательный"
+    pl: "Dzięki dumie nigdy nie prosił o pomoc."
+    ru: "Из гордости он никогда не просил о помощи."
+    source: { kind: authored }
+  - form: "dumie"
+    cell: "Дательный"
+    pl: "Uległ dumie i odrzucił ofertę."
+    ru: "Он поддался гордыне и отверг предложение."
+    source: { kind: authored }
+  - form: "dumie"
+    cell: "Предложный"
+    pl: "O dumie narodowej mówił z przejęciem."
+    ru: "О национальной гордости он говорил с волнением."
+    source: { kind: authored }
   - form: "dumy"
+    cell: "Родительный"
     pl: "Teraz to kwestia dumy."
     ru: "Теперь это вопрос гордости."
     source: { kind: translated, id: 10771135 }
