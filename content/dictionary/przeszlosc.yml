@@ -67,6 +67,8 @@ formExamplesSkip:
   - { form: "przeszłościami", reason: "отвлечённое существительное: множественного числа у przeszłość практически не бывает" }
   - { form: "przeszłościom", reason: "отвлечённое существительное: множественного числа у przeszłość практически не бывает" }
   - { form: "przeszłości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "przeszłości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "przeszłości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "przeszłości"
     cell: "Родительный"
@@ -74,13 +76,45 @@ formExamples:
     ru: "Надо преподавать историю в школе так, чтобы дети гордились своим прошлым."
     source: { kind: tatoeba, id: 10115728 }
   - form: "przeszłości"
+    cell: "Родительный"
     pl: "Często żałujemy przeszłości."
     ru: "Мы часто жалеем о прошлом."
     source: { kind: translated, id: 823853 }
   - form: "przeszłości"
+    cell: "Родительный"
     pl: "Nie możemy zmienić przeszłości."
     ru: "Мы не можем изменить прошлое."
     source: { kind: translated, id: 3718733 }
+  - form: "przeszłości"
+    cell: "Дательный"
+    pl: "Nie ufał swojej przeszłości."
+    ru: "Он не доверял своему прошлому."
+    source: { kind: authored }
+  - form: "przeszłości"
+    cell: "Дательный"
+    pl: "Historyk przyjrzał się przeszłości miasta."
+    ru: "Историк изучил прошлое города."
+    source: { kind: authored }
+  - form: "przeszłości"
+    cell: "Дательный"
+    pl: "Zawdzięcza przeszłości swoją siłę."
+    ru: "Своей силой он обязан прошлому."
+    source: { kind: authored }
+  - form: "przeszłości"
+    cell: "Предложный"
+    pl: "W przeszłości mieszkał w Paryżu."
+    ru: "В прошлом он жил в Париже."
+    source: { kind: authored }
+  - form: "przeszłości"
+    cell: "Предложный"
+    pl: "Nie lubi mówić o przeszłości."
+    ru: "Он не любит говорить о прошлом."
+    source: { kind: authored }
+  - form: "przeszłości"
+    cell: "Предложный"
+    pl: "Po przeszłości zostały tylko zdjęcia."
+    ru: "От прошлого остались только фотографии."
+    source: { kind: authored }
   - form: "przeszłością"
     pl: "Jestem twoją przeszłością."
     ru: "Я твоё прошлое."

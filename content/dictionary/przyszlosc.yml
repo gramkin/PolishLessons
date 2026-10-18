@@ -70,8 +70,11 @@ formExamplesSkip:
   - { form: "przyszłościami", reason: "существительное неисчисляемое: множественного числа у него нет, и в корпусе нет ни одного примера" }
   - { form: "przyszłościom", reason: "существительное неисчисляемое: множественного числа у него нет, и в корпусе нет ни одного примера" }
   - { form: "przyszłości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "przyszłości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "przyszłości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "przyszłości"
+    cell: "Предложный"
     pl: "W przyszłości on chce być lekarzem."
     ru: "В будущем он хочет быть врачом."
     source: { kind: tatoeba, id: 3660779 }
@@ -81,9 +84,40 @@ formExamples:
     ru: "Эти проблемы будут решены в ближайшем будущем."
     source: { kind: tatoeba, id: 1002577 }
   - form: "przyszłości"
+    cell: "Родительный"
     pl: "Nie mam przyszłości."
     ru: "У меня нет будущего."
     source: { kind: translated, id: 8766281 }
+  - form: "przyszłości"
+    cell: "Предложный"
+    pl: "Myślę o przyszłości dzieci."
+    ru: "Я думаю о будущем детей."
+    source: { kind: authored }
+  - form: "przyszłości"
+    cell: "Родительный"
+    pl: "Boję się przyszłości."
+    ru: "Я боюсь будущего."
+    source: { kind: authored }
+  - form: "przyszłości"
+    cell: "Родительный"
+    pl: "To sprawa przyszłości."
+    ru: "Это дело будущего."
+    source: { kind: authored }
+  - form: "przyszłości"
+    cell: "Дательный"
+    pl: "Poświęcił przyszłości dzieci wszystko."
+    ru: "Он всё посвятил будущему детей."
+    source: { kind: authored }
+  - form: "przyszłości"
+    cell: "Дательный"
+    pl: "Nie ufam przyszłości."
+    ru: "Я не доверяю будущему."
+    source: { kind: authored }
+  - form: "przyszłości"
+    cell: "Дательный"
+    pl: "Przyglądał się przyszłości z optymizmem."
+    ru: "Он смотрел в будущее с оптимизмом."
+    source: { kind: authored }
   - form: "przyszłością"
     pl: "Przyszłością mężczyzny jest kobieta."
     ru: "Будущее мужчины — женщина."
@@ -97,6 +131,7 @@ formExamples:
     ru: "Нам надо подумать о будущем."
     source: { kind: translated, id: 3680010 }
   - form: "przyszłość"
+    cell: "Именительный"
     pl: "Przyszłość ma wiele imion."
     ru: "У будущего есть несколько имен."
     source: { kind: tatoeba, id: 1838504 }
@@ -106,6 +141,22 @@ formExamples:
     ru: "У тебя есть какие-нибудь планы на будущее?"
     source: { kind: tatoeba, id: 3746264 }
   - form: "przyszłość"
+    cell: "Именительный"
     pl: "Od tego zależy moja przyszłość."
     ru: "От этого зависит моё будущее."
     source: { kind: tatoeba, id: 8666086 }
+  - form: "przyszłość"
+    cell: "Именительный"
+    pl: "Przyszłość należy do młodych."
+    ru: "Будущее принадлежит молодым."
+    source: { kind: authored }
+  - form: "przyszłość"
+    cell: "Винительный"
+    pl: "Planujemy przyszłość razem."
+    ru: "Мы планируем будущее вместе."
+    source: { kind: authored }
+  - form: "przyszłość"
+    cell: "Винительный"
+    pl: "Wróżka przepowiedziała mu przyszłość."
+    ru: "Гадалка предсказала ему будущее."
+    source: { kind: authored }
