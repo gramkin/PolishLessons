@@ -47,6 +47,8 @@ formExamplesSkip:
   - { form: "hańbo", reason: "звательная форма, а hańba — это позор. Выкрик Hańba! на демонстрации — именительный падеж, а не обращение, так что и он этой формы не оправдывает: обращаться к позору некому" }
   - { form: "hańbom", reason: "слово называет состояние и употребляется в единственном числе: okryć się hańbą, hańba dla kraju. Множественного числа у него в текстах нет" }
   - { form: "hańby", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "hańby", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "hańby", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "hańba"
     pl: "To była hańba."
@@ -95,10 +97,27 @@ formExamples:
     ru: "Об этом позоре говорил весь город."
     source: { kind: authored }
   - form: "hańbie"
+    cell: "Дательный"
     pl: "Położył kres hańbie."
     ru: "Он положил конец позору."
     source: { kind: authored }
+  - form: "hańbie"
+    cell: "Дательный"
+    pl: "Nie poddał się hańbie."
+    ru: "Он не покорился позору."
+    source: { kind: authored }
+  - form: "hańbie"
+    cell: "Дательный"
+    pl: "Jego odwaga zapobiegła hańbie."
+    ru: "Его смелость предотвратила позор."
+    source: { kind: authored }
+  - form: "hańbie"
+    cell: "Предложный"
+    pl: "O tej hańbie nie wolno zapomnieć."
+    ru: "Об этом позоре нельзя забывать."
+    source: { kind: authored }
   - form: "hańby"
+    cell: "Родительный"
     pl: "Nie ma większej hańby."
     ru: "Нет большего позора."
     source: { kind: authored }
@@ -108,6 +127,7 @@ formExamples:
     ru: "От позора не уйти."
     source: { kind: authored }
   - form: "hańby"
+    cell: "Родительный"
     pl: "Bał się hańby bardziej niż śmierci."
     ru: "Он боялся позора больше смерти."
     source: { kind: authored }
