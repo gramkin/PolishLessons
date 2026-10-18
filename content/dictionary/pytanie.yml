@@ -57,10 +57,12 @@ formExamplesSkip:
   - { form: "pytanie", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
 formExamples:
   - form: "pytania"
+    cell: "Винительный"
     pl: "On wiecznie zadaje głupie pytania."
     ru: "Он вечно задаёт глупые вопросы."
     source: { kind: tatoeba, id: 773291 }
   - form: "pytania"
+    cell: "Винительный"
     pl: "Odpowiedziałem na wszystkie pytania Toma."
     ru: "Я ответил на все вопросы Тома."
     source: { kind: tatoeba, id: 4104429 }
@@ -69,6 +71,36 @@ formExamples:
     pl: "Nie mówię w twoim języku, odpowiadaj na pytania tylko „tak” lub „nie”."
     ru: "Я не говорю по-вашему. Отвечайте на вопросы только \"да\" или \"нет\"."
     source: { kind: tatoeba, id: 10695715 }
+  - form: "pytania"
+    cell: "Именительный"
+    pl: "Pytania są na tablicy."
+    ru: "Вопросы на доске."
+    source: { kind: authored }
+  - form: "pytania"
+    cell: "Именительный"
+    pl: "Trudne pytania zostały na koniec."
+    ru: "Трудные вопросы остались на конец."
+    source: { kind: authored }
+  - form: "pytania"
+    cell: "Именительный"
+    pl: "Pojawiły się nowe pytania."
+    ru: "Появились новые вопросы."
+    source: { kind: authored }
+  - form: "pytania"
+    cell: "Родительный"
+    pl: "Nie zrozumiałem pytania."
+    ru: "Я не понял вопроса."
+    source: { kind: authored }
+  - form: "pytania"
+    cell: "Родительный"
+    pl: "Treść pytania była niejasna."
+    ru: "Содержание вопроса было неясным."
+    source: { kind: authored }
+  - form: "pytania"
+    cell: "Родительный"
+    pl: "Wrócimy do tego pytania."
+    ru: "Мы вернёмся к этому вопросу."
+    source: { kind: authored }
   - form: "pytaniach"
     pl: "W tych pytaniach nie ma podchwytliwości."
     ru: "В этих вопросах нет подвоха."
@@ -99,13 +131,30 @@ formExamples:
     ru: "Ответь на вопрос."
     source: { kind: tatoeba, id: 349045 }
   - form: "pytanie"
+    cell: "Именительный"
     pl: "To trudne pytanie."
     ru: "Это трудный вопрос."
     source: { kind: tatoeba, id: 4716849 }
   - form: "pytanie"
+    cell: "Винительный"
     pl: "Mam do ciebie pytanie."
     ru: "У меня к тебе вопрос."
     source: { kind: tatoeba, id: 2482494 }
+  - form: "pytanie"
+    cell: "Именительный"
+    pl: "Pytanie brzmi: kto to zrobił?"
+    ru: "Вопрос в том, кто это сделал."
+    source: { kind: authored }
+  - form: "pytanie"
+    cell: "Именительный"
+    pl: "Ostatnie pytanie było najłatwiejsze."
+    ru: "Последний вопрос был самым лёгким."
+    source: { kind: authored }
+  - form: "pytanie"
+    cell: "Винительный"
+    pl: "Zadał mi dziwne pytanie."
+    ru: "Он задал мне странный вопрос."
+    source: { kind: authored }
   - form: "pytaniem"
     pl: "Był zaskoczony pytaniem."
     ru: "Он был удивлён вопросом."
@@ -144,6 +193,21 @@ formExamples:
     cell: "Предложный"
     pl: "Po pytaniu zapadła cisza."
     ru: "После вопроса наступила тишина."
+    source: { kind: authored }
+  - form: "pytaniu"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się temu pytaniu."
+    ru: "Давайте рассмотрим этот вопрос."
+    source: { kind: authored }
+  - form: "pytaniu"
+    cell: "Дательный"
+    pl: "Poświęcił temu pytaniu całą książkę."
+    ru: "Он посвятил этому вопросу целую книгу."
+    source: { kind: authored }
+  - form: "pytaniu"
+    cell: "Дательный"
+    pl: "Nie oparł się pytaniu dziennikarza."
+    ru: "Он не смог уклониться от вопроса журналиста."
     source: { kind: authored }
   - form: "pytań"
     pl: "Nie bój się zadawać pytań."
