@@ -45,8 +45,11 @@ formExamplesSkip:
   - { form: "wzburzeniom", reason: "это название состояния, а не предмета: и о человеке, и о море слово во множественном числе не употребляется" }
   - { form: "wzburzeń", reason: "это название состояния, а не предмета: и о человеке, и о море слово во множественном числе не употребляется" }
   - { form: "wzburzenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "wzburzenia", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "wzburzenia", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "wzburzenia"
+    cell: "Родительный"
     pl: "Nie ukrywał wzburzenia."
     ru: "Он не скрывал волнения."
     source: { kind: authored }
@@ -56,6 +59,7 @@ formExamples:
     ru: "От волнения у него дрожали руки."
     source: { kind: authored }
   - form: "wzburzenia"
+    cell: "Родительный"
     pl: "Powód wzburzenia był błahy."
     ru: "Повод для возмущения был пустячный."
     source: { kind: authored }
@@ -97,4 +101,19 @@ formExamples:
     cell: "Предложный"
     pl: "Po wzburzeniu przyszedł spokój."
     ru: "После волнения пришёл покой."
+    source: { kind: authored }
+  - form: "wzburzeniu"
+    cell: "Дательный"
+    pl: "Nie poddał się wzburzeniu."
+    ru: "Он не поддался волнению."
+    source: { kind: authored }
+  - form: "wzburzeniu"
+    cell: "Дательный"
+    pl: "Przeciwstawił się wzburzeniu tłumu."
+    ru: "Он противостоял возмущению толпы."
+    source: { kind: authored }
+  - form: "wzburzeniu"
+    cell: "Дательный"
+    pl: "Dał wyraz swojemu wzburzeniu."
+    ru: "Он выразил своё возмущение."
     source: { kind: authored }

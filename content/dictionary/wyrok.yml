@@ -47,6 +47,7 @@ formExamplesSkip:
   - { form: "wyroku", cell: "Звательный", reason: "звательный падеж: для неодушевлённого существительного он практически не употребляется" }
 formExamples:
   - form: "wyrok"
+    cell: "Именительный"
     pl: "Zapadł wyrok."
     ru: "Приговор вынесен."
     source: { kind: authored }
@@ -56,8 +57,24 @@ formExamples:
     ru: "Я жду приговора."
     source: { kind: authored }
   - form: "wyrok"
+    cell: "Винительный"
     pl: "Sąd ogłosił wyrok po godzinie."
     ru: "Суд объявил приговор через час."
+    source: { kind: authored }
+  - form: "wyrok"
+    cell: "Именительный"
+    pl: "Wyrok był łagodny."
+    ru: "Приговор был мягким."
+    source: { kind: authored }
+  - form: "wyrok"
+    cell: "Именительный"
+    pl: "Wyrok jest prawomocny."
+    ru: "Приговор вступил в законную силу."
+    source: { kind: authored }
+  - form: "wyrok"
+    cell: "Винительный"
+    pl: "Obrona zaskarżyła wyrok."
+    ru: "Защита обжаловала приговор."
     source: { kind: authored }
   - form: "wyrokach"
     pl: "O tych wyrokach pisała cała prasa."
@@ -132,6 +149,7 @@ formExamples:
     ru: "Присмотрись к этому приговору внимательно."
     source: { kind: authored }
   - form: "wyroku"
+    cell: "Родительный"
     pl: "Nie znamy jeszcze treści wyroku."
     ru: "Мы ещё не знаем содержания приговора."
     source: { kind: authored }
@@ -144,6 +162,21 @@ formExamples:
     cell: "Предложный"
     pl: "W wyroku nie ma uzasadnienia."
     ru: "В приговоре нет обоснования."
+    source: { kind: authored }
+  - form: "wyroku"
+    cell: "Родительный"
+    pl: "Czekał na ogłoszenie wyroku."
+    ru: "Он ждал оглашения приговора."
+    source: { kind: authored }
+  - form: "wyroku"
+    cell: "Родительный"
+    pl: "Uzasadnienie wyroku liczy sto stron."
+    ru: "Обоснование приговора занимает сто страниц."
+    source: { kind: authored }
+  - form: "wyroku"
+    cell: "Предложный"
+    pl: "Mówiono o surowym wyroku."
+    ru: "Говорили о суровом приговоре."
     source: { kind: authored }
   - form: "wyroków"
     pl: "Nie ma jeszcze żadnych wyroków."
