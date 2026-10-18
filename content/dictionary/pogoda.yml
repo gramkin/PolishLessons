@@ -55,6 +55,8 @@ idioms:
   - { pl: "bez względu na pogodę", ru: "несмотря на погоду" }
 formExamplesSkip:
   - { form: "pogody", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "pogody", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "pogody", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "pogoda"
     pl: "Jaka pogoda?"
@@ -158,14 +160,17 @@ formExamples:
     ru: "Это зависит от погоды."
     source: { kind: translated, id: 550799 }
   - form: "pogody"
+    cell: "Родительный"
     pl: "Nie lubię zimnej pogody."
     ru: "Не люблю холодную погоду."
     source: { kind: tatoeba, id: 13875387 }
   - form: "pogody"
+    cell: "Родительный"
     pl: "Przyjechał pomimo złej pogody."
     ru: "Он приехал несмотря на плохую погоду."
     source: { kind: translated, id: 984292 }
   - form: "pogody"
+    cell: "Родительный"
     pl: "Nie możemy kontrolować pogody."
     ru: "Мы не можем управлять погодой."
     source: { kind: translated, id: 10616771 }
@@ -185,9 +190,25 @@ formExamples:
     ru: "При хорошей погоде отсюда видна гора Фудзи."
     source: { kind: translated, id: 367315 }
   - form: "pogodzie"
+    cell: "Предложный"
     pl: "Nie powinieneś wspinać się po górach przy takiej złej pogodzie."
     ru: "Не стоит лезть в горы при такой плохой погоде."
     source: { kind: translated, id: 6160169 }
+  - form: "pogodzie"
+    cell: "Дательный"
+    pl: "Nie ufam tej pogodzie."
+    ru: "Я не доверяю этой погоде."
+    source: { kind: authored }
+  - form: "pogodzie"
+    cell: "Дательный"
+    pl: "Dzięki ładnej pogodzie zjedliśmy w ogrodzie."
+    ru: "Благодаря хорошей погоде мы поели в саду."
+    source: { kind: authored }
+  - form: "pogodzie"
+    cell: "Дательный"
+    pl: "Rolnicy przyglądali się pogodzie z niepokojem."
+    ru: "Крестьяне с тревогой следили за погодой."
+    source: { kind: authored }
   - form: "pogód"
     pl: "Nie pamiętam takich pogód."
     ru: "Я не помню такой погоды."

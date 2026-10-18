@@ -49,10 +49,12 @@ formExamplesSkip:
   - { form: "pomieszczenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
 formExamples:
   - form: "pomieszczenia"
+    cell: "Именительный"
     pl: "Pomieszczenia gospodarcze zajmowały całą piwnicę."
     ru: "Хозяйственные помещения занимали весь подвал."
     source: { kind: authored }
   - form: "pomieszczenia"
+    cell: "Винительный"
     pl: "Pomieszczenia biurowe wynajęli na pięć lat."
     ru: "Офисные помещения они сняли на пять лет."
     source: { kind: authored }
@@ -60,6 +62,36 @@ formExamples:
     cell: "Родительный"
     pl: "Bez tego pomieszczenia magazyn nie przeszedłby odbioru."
     ru: "Без этого помещения склад не прошёл бы приёмку."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Именительный"
+    pl: "Pomieszczenia są jasne i przestronne."
+    ru: "Помещения светлые и просторные."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Именительный"
+    pl: "Wszystkie pomieszczenia mają okna."
+    ru: "Во всех помещениях есть окна."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Винительный"
+    pl: "Firma wynajmuje pomieszczenia magazynowe."
+    ru: "Фирма арендует складские помещения."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Винительный"
+    pl: "Strażacy przeszukali wszystkie pomieszczenia."
+    ru: "Пожарные обыскали все помещения."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Родительный"
+    pl: "Wyszedł z pomieszczenia."
+    ru: "Он вышел из помещения."
+    source: { kind: authored }
+  - form: "pomieszczenia"
+    cell: "Родительный"
+    pl: "Nie ma wolnego pomieszczenia."
+    ru: "Свободного помещения нет."
     source: { kind: authored }
   - form: "pomieszczeniach"
     pl: "W pomieszczeniach bez wentylacji nie wolno pracować na stałe."
@@ -132,8 +164,24 @@ formExamples:
     ru: "О техническом помещении в проекте забыли."
     source: { kind: authored }
   - form: "pomieszczeniu"
+    cell: "Дательный"
     pl: "Temu pomieszczeniu przydałoby się dodatkowe wejście."
     ru: "Этому помещению пригодился бы дополнительный вход."
+    source: { kind: authored }
+  - form: "pomieszczeniu"
+    cell: "Дательный"
+    pl: "Przyjrzeliśmy się temu pomieszczeniu."
+    ru: "Мы осмотрели это помещение."
+    source: { kind: authored }
+  - form: "pomieszczeniu"
+    cell: "Дательный"
+    pl: "Wilgoć zaszkodziła pomieszczeniu."
+    ru: "Сырость повредила помещение."
+    source: { kind: authored }
+  - form: "pomieszczeniu"
+    cell: "Предложный"
+    pl: "W pomieszczeniu było duszno."
+    ru: "В помещении было душно."
     source: { kind: authored }
   - form: "pomieszczeń"
     pl: "Bez pomieszczeń socjalnych odbioru nie będzie."

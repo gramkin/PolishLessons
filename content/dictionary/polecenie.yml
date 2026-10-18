@@ -43,10 +43,12 @@ formExamplesSkip:
   - { form: "polecenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
 formExamples:
   - form: "polecenia"
+    cell: "Винительный"
     pl: "Musisz wykonywać polecenia."
     ru: "Ты должен выполнять распоряжения."
     source: { kind: translated, id: 6328155 }
   - form: "polecenia"
+    cell: "Родительный"
     pl: "Dlaczego nie wykonałeś mojego polecenia?"
     ru: "Почему ты не выполнил моё распоряжение?"
     source: { kind: translated, id: 3954672 }
@@ -54,6 +56,36 @@ formExamples:
     cell: "Винительный"
     pl: "Czekamy na polecenia."
     ru: "Мы ждём распоряжений."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Винительный"
+    pl: "Żołnierze wykonali polecenia dowódcy."
+    ru: "Солдаты выполнили приказы командира."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Родительный"
+    pl: "Z polecenia szefa pojechał do Gdańska."
+    ru: "По распоряжению начальника он поехал в Гданьск."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Родительный"
+    pl: "Nie słuchał żadnego polecenia."
+    ru: "Он не слушался никаких распоряжений."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Именительный"
+    pl: "Polecenia były jasne."
+    ru: "Распоряжения были ясными."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Именительный"
+    pl: "Nowe polecenia przyszły z centrali."
+    ru: "Новые распоряжения пришли из центра."
+    source: { kind: authored }
+  - form: "polecenia"
+    cell: "Именительный"
+    pl: "Polecenia systemowe działają w terminalu."
+    ru: "Системные команды работают в терминале."
     source: { kind: authored }
   - form: "poleceniach"
     pl: "W poleceniach szefa nie ma miejsca na dyskusję."

@@ -70,6 +70,8 @@ formExamplesSkip:
   - { form: "południom", reason: "слово отвлечённое и множественного числа в живой речи не образует" }
   - { form: "południa", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
   - { form: "południe", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "południa", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "południa", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "południa"
     cell: "Родительный"
@@ -92,6 +94,7 @@ formExamples:
     ru: "Так и дошло до полудня."
     source: { kind: translated, id: 1449028 }
   - form: "południe"
+    cell: "Именительный"
     pl: "Jest południe."
     ru: "Сейчас полдень."
     source: { kind: translated, id: 10704046 }
@@ -101,6 +104,7 @@ formExamples:
     ru: "На юг."
     source: { kind: translated, id: 10202790 }
   - form: "południe"
+    cell: "Именительный"
     pl: "Południe i północ."
     ru: "Юг и север."
     source: { kind: translated, id: 6443104 }
@@ -109,6 +113,16 @@ formExamples:
     pl: "Wieje na południe."
     ru: "Дует на юг."
     source: { kind: translated, id: 9331322 }
+  - form: "południe"
+    cell: "Именительный"
+    pl: "Południe Europy jest cieplejsze."
+    ru: "Юг Европы теплее."
+    source: { kind: authored }
+  - form: "południe"
+    cell: "Винительный"
+    pl: "Pojechaliśmy na południe."
+    ru: "Мы поехали на юг."
+    source: { kind: authored }
   - form: "południem"
     pl: "Masz wrócić przed południem."
     ru: "Ты должен вернуться до полудня."
@@ -145,3 +159,18 @@ formExamples:
     pl: "Wychodzę po południu."
     ru: "Я выхожу после полудня."
     source: { kind: translated, id: 6030317 }
+  - form: "południu"
+    cell: "Дательный"
+    pl: "Rząd poświęcił południu osobny plan."
+    ru: "Правительство посвятило югу отдельный план."
+    source: { kind: authored }
+  - form: "południu"
+    cell: "Дательный"
+    pl: "Turystyka pomogła południu kraju."
+    ru: "Туризм помог югу страны."
+    source: { kind: authored }
+  - form: "południu"
+    cell: "Дательный"
+    pl: "Susza zaszkodziła południu."
+    ru: "Засуха навредила югу."
+    source: { kind: authored }
