@@ -49,6 +49,8 @@ formExamplesSkip:
   - { form: "zmęczeniom", reason: "отглагольное существительное со значением вещества или состояния: такое не считают штуками, и в живой речи слово стоит в единственном числе. Множественного числа у него нет — по тому же основанию отказано плюралю у szpik" }
   - { form: "zmęczeń", reason: "отглагольное существительное со значением вещества или состояния: такое не считают штуками, и в живой речи слово стоит в единственном числе. Множественного числа у него нет — по тому же основанию отказано плюралю у szpik" }
   - { form: "zmęczenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "zmęczenia", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "zmęczenia", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "zmęczenia"
     cell: "Родительный"
@@ -61,6 +63,7 @@ formExamples:
     ru: "Он заснул от усталости в кресле."
     source: { kind: authored }
   - form: "zmęczenia"
+    cell: "Родительный"
     pl: "Nie czuł już zmęczenia."
     ru: "Он уже не чувствовал усталости."
     source: { kind: authored }
@@ -99,6 +102,22 @@ formExamples:
     ru: "После усталости целого дня она сразу заснула."
     source: { kind: authored }
   - form: "zmęczeniu"
+    cell: "Дательный"
     pl: "Przyjrzyj się zmęczeniu w jego oczach."
     ru: "Присмотрись к усталости в его глазах."
+    source: { kind: authored }
+  - form: "zmęczeniu"
+    cell: "Дательный"
+    pl: "Uległ zmęczeniu i zasnął."
+    ru: "Он поддался усталости и уснул."
+    source: { kind: authored }
+  - form: "zmęczeniu"
+    cell: "Дательный"
+    pl: "Kawa zapobiega zmęczeniu."
+    ru: "Кофе предотвращает усталость."
+    source: { kind: authored }
+  - form: "zmęczeniu"
+    cell: "Предложный"
+    pl: "Po zmęczeniu przyszła senność."
+    ru: "После усталости пришла сонливость."
     source: { kind: authored }

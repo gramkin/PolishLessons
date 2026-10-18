@@ -53,6 +53,8 @@ formExamplesSkip:
   - { form: "złożonościami", reason: "отвлечённое существительное; множественного числа нет" }
   - { form: "złożonościom", reason: "отвлечённое существительное; множественного числа нет" }
   - { form: "złożoności", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "złożoności", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "złożoności", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "złożoność"
     pl: "Złożoność problemu zaskoczyła nawet ekspertów."
@@ -67,10 +69,12 @@ formExamples:
     ru: "Эта сложность объясняется сразу многими причинами."
     source: { kind: authored }
   - form: "złożoności"
+    cell: "Родительный"
     pl: "Mimo złożoności sprawy sąd szybko wydał wyrok."
     ru: "Несмотря на сложность дела, суд быстро вынес приговор."
     source: { kind: authored }
   - form: "złożoności"
+    cell: "Родительный"
     pl: "Informatycy badają klasy złożoności obliczeniowej."
     ru: "Информатики изучают классы вычислительной сложности."
     source: { kind: authored }
@@ -78,6 +82,36 @@ formExamples:
     cell: "Родительный"
     pl: "Nie zdawaliśmy sobie sprawy ze złożoności tego zadania."
     ru: "Мы не осознавали, насколько сложна эта задача."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się złożoności problemu."
+    ru: "Давайте рассмотрим сложность проблемы."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Дательный"
+    pl: "Nie dał wiary złożoności zadania."
+    ru: "Он не поверил в сложность задачи."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Дательный"
+    pl: "Autor poświęcił złożoności algorytmów rozdział."
+    ru: "Автор посвятил сложности алгоритмов главу."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Предложный"
+    pl: "Mówił o złożoności sytuacji."
+    ru: "Он говорил о сложности ситуации."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Предложный"
+    pl: "W tej złożoności kryje się piękno."
+    ru: "В этой сложности скрыта красота."
+    source: { kind: authored }
+  - form: "złożoności"
+    cell: "Предложный"
+    pl: "Przy takiej złożoności błędy są nieuniknione."
+    ru: "При такой сложности ошибки неизбежны."
     source: { kind: authored }
   - form: "złożonością"
     pl: "Studenci byli przytłoczeni złożonością materiału."
