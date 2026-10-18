@@ -51,6 +51,8 @@ formExamplesSkip:
   - { form: "mannami", reason: "множественное не употребляется" }
   - { form: "mannach", reason: "множественное не употребляется" }
   - { form: "manny", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "manny", cell: "Именительный", reason: "во множественном числе это слово не употребляется" }
+  - { form: "manny", cell: "Винительный", reason: "во множественном числе это слово не употребляется" }
 formExamples:
   - form: "manna"
     pl: "Manna spadała z nieba każdego ranka."
@@ -79,11 +81,28 @@ formExamples:
     pl: "Dziecko nie chce słyszeć o mannie."
     ru: "Ребёнок не хочет слышать о манке."
     source: { kind: authored }
+  - form: "mannie"
+    cell: "Дательный"
+    pl: "Dziecko nie oparło się słodkiej mannie."
+    ru: "Ребёнок не устоял перед сладкой манкой."
+    source: { kind: authored }
+  - form: "mannie"
+    cell: "Дательный"
+    pl: "Dzięki mannie z nieba Izraelici przetrwali."
+    ru: "Благодаря манне небесной израильтяне выжили."
+    source: { kind: authored }
+  - form: "mannie"
+    cell: "Дательный"
+    pl: "Mannie brakuje cukru."
+    ru: "Манке не хватает сахара."
+    source: { kind: authored }
   - form: "manny"
+    cell: "Родительный"
     pl: "Nie lubię manny."
     ru: "Я не люблю манку."
     source: { kind: authored }
   - form: "manny"
+    cell: "Родительный"
     pl: "Talerz manny stygł na stole."
     ru: "Тарелка манки остывала на столе."
     source: { kind: authored }

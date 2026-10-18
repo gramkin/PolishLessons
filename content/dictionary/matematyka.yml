@@ -45,6 +45,8 @@ formExamplesSkip:
   - { form: "matematyko", reason: "matematyka — название науки: во множественном числе слово не употребляется, а обращаться к науке некому, поэтому и звательной формы нет" }
   - { form: "matematykom", reason: "matematyka — название науки: во множественном числе слово не употребляется, а обращаться к науке некому, поэтому и звательной формы нет" }
   - { form: "matematyki", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "matematyki", cell: "Именительный", reason: "во множественном числе это слово не употребляется" }
+  - { form: "matematyki", cell: "Винительный", reason: "во множественном числе это слово не употребляется" }
 formExamples:
   - form: "matematyce"
     cell: "Предложный"
@@ -61,6 +63,21 @@ formExamples:
     pl: "On jest lepszy od niej w matematyce."
     ru: "Он лучше неё в математике."
     source: { kind: translated, id: 744068 }
+  - form: "matematyce"
+    cell: "Дательный"
+    pl: "Poświęcił matematyce całe życie."
+    ru: "Он посвятил математике всю жизнь."
+    source: { kind: authored }
+  - form: "matematyce"
+    cell: "Дательный"
+    pl: "Dzięki matematyce rozumiemy świat."
+    ru: "Благодаря математике мы понимаем мир."
+    source: { kind: authored }
+  - form: "matematyce"
+    cell: "Дательный"
+    pl: "Zawdzięcza matematyce swoją karierę."
+    ru: "Математике он обязан своей карьерой."
+    source: { kind: authored }
   - form: "matematyk"
     pl: "Nasz matematyk narysował na tablicy koło."
     ru: "Наш математик нарисовал на доске круг."
@@ -120,6 +137,7 @@ formExamples:
     ru: "\"Эй, ты сделал домашку по математике?\" - \"А, чёрт, совсем забыл\"."
     source: { kind: tatoeba, id: 10747404 }
   - form: "matematyki"
+    cell: "Родительный"
     pl: "Nienawidzę matematyki."
     ru: "Я ненавижу математику."
     source: { kind: translated, id: 4922205 }
