@@ -52,6 +52,8 @@ formExamplesSkip:
   - { form: "sednom", reason: "дательный множественного; у слова нет живого множественного числа" }
   - { form: "sedna", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
   - { form: "sedno", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "sedna", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "sedna", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "sedna"
     cell: "Родительный"
@@ -64,6 +66,7 @@ formExamples:
     ru: "Без сути вся дискуссия теряет смысл."
     source: { kind: authored }
   - form: "sedna"
+    cell: "Родительный"
     pl: "Nikt nie dotknął sedna tej kwestii."
     ru: "Никто не коснулся сути этого вопроса."
     source: { kind: authored }
@@ -92,10 +95,12 @@ formExamples:
     ru: "Дело в сути, а не в форме."
     source: { kind: authored }
   - form: "sedno"
+    cell: "Именительный"
     pl: "Sedno sprawy jest zupełnie inne, niż się wydaje."
     ru: "Суть дела совсем не такая, как кажется."
     source: { kind: authored }
   - form: "sedno"
+    cell: "Именительный"
     pl: "To jest sedno całego sporu."
     ru: "В этом суть всего спора."
     source: { kind: authored }
@@ -103,6 +108,21 @@ formExamples:
     cell: "Винительный"
     pl: "Trafiłeś w sedno jednym pytaniem."
     ru: "Ты попал в точку одним вопросом."
+    source: { kind: authored }
+  - form: "sedno"
+    cell: "Именительный"
+    pl: "Sedno problemu leży gdzie indziej."
+    ru: "Суть проблемы в другом."
+    source: { kind: authored }
+  - form: "sedno"
+    cell: "Винительный"
+    pl: "Trafiłeś w sedno."
+    ru: "Ты попал в самую точку."
+    source: { kind: authored }
+  - form: "sedno"
+    cell: "Винительный"
+    pl: "Uchwycił sedno sprawy."
+    ru: "Он ухватил суть дела."
     source: { kind: authored }
   - form: "sednu"
     pl: "Sednu wywodu brakowało jasności."

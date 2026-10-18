@@ -47,6 +47,8 @@ formExamplesSkip:
   - { form: "siarko", reason: "звательная форма, а siarka — это вещество. Обращаться к сере некому, поэтому форма остаётся только в таблице склонения" }
   - { form: "siarkom", reason: "название вещества, и карточка отмечает это прямо: во множественном числе оно обычно не употребляется. Серу не считают штуками" }
   - { form: "siarki", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "siarki", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "siarki", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "siarce"
     cell: "Предложный"
@@ -59,8 +61,24 @@ formExamples:
     ru: "О сере учат на химии."
     source: { kind: authored }
   - form: "siarce"
+    cell: "Дательный"
     pl: "Przyjrzyj się tej siarce."
     ru: "Присмотрись к этой сере."
+    source: { kind: authored }
+  - form: "siarce"
+    cell: "Дательный"
+    pl: "Chemik przypisał zapach siarce."
+    ru: "Химик приписал запах сере."
+    source: { kind: authored }
+  - form: "siarce"
+    cell: "Дательный"
+    pl: "Wulkan zawdzięcza kolor siarce."
+    ru: "Вулкан обязан своим цветом сере."
+    source: { kind: authored }
+  - form: "siarce"
+    cell: "Предложный"
+    pl: "W siarce jest coś diabolicznego."
+    ru: "В сере есть что-то дьявольское."
     source: { kind: authored }
   - form: "siarka"
     pl: "Siarka spala się błękitnym płomieniem."
@@ -99,10 +117,12 @@ formExamples:
     ru: "Пахло серой."
     source: { kind: authored }
   - form: "siarki"
+    cell: "Родительный"
     pl: "Nie ma tu siarki."
     ru: "Здесь нет серы."
     source: { kind: authored }
   - form: "siarki"
+    cell: "Родительный"
     pl: "Zapach siarki unosił się w powietrzu."
     ru: "Запах серы висел в воздухе."
     source: { kind: authored }
