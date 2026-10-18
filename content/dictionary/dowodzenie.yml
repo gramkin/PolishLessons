@@ -45,6 +45,8 @@ formExamplesSkip:
   - { form: "dowodzeniom", reason: "это название процесса, а не предмета: в обоих значениях — «командование» и «доказывание» — слово во множественном числе не употребляется" }
   - { form: "dowodzeń", reason: "это название процесса, а не предмета: в обоих значениях — «командование» и «доказывание» — слово во множественном числе не употребляется" }
   - { form: "dowodzenia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "dowodzenia", cell: "Именительный", reason: "во множественном числе это слово не употребляется" }
+  - { form: "dowodzenia", cell: "Винительный", reason: "во множественном числе это слово не употребляется" }
 formExamples:
   - form: "dowodzenia"
     cell: "Родительный"
@@ -57,6 +59,7 @@ formExamples:
     ru: "От командования зависит исход битвы."
     source: { kind: authored }
   - form: "dowodzenia"
+    cell: "Родительный"
     pl: "Sztuka dowodzenia wymaga lat."
     ru: "Искусство командования требует лет."
     source: { kind: authored }
@@ -98,4 +101,19 @@ formExamples:
     cell: "Предложный"
     pl: "Po dowodzeniu przyszedł odpoczynek."
     ru: "После командования пришёл отдых."
+    source: { kind: authored }
+  - form: "dowodzeniu"
+    cell: "Дательный"
+    pl: "Generał poświęcił dowodzeniu całe życie."
+    ru: "Генерал посвятил командованию всю жизнь."
+    source: { kind: authored }
+  - form: "dowodzeniu"
+    cell: "Дательный"
+    pl: "Dzięki dobremu dowodzeniu wygrali bitwę."
+    ru: "Благодаря хорошему командованию они выиграли битву."
+    source: { kind: authored }
+  - form: "dowodzeniu"
+    cell: "Дательный"
+    pl: "Żołnierze podporządkowali się dowodzeniu porucznika."
+    ru: "Солдаты подчинились командованию лейтенанта."
     source: { kind: authored }
