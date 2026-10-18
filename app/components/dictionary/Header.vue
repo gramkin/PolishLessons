@@ -9,7 +9,7 @@ const conjugation = computed(() =>
     ? conjugationLabel(
         conjugations(
           props.forms.tables,
-          props.card.formExamplesSkip.map((s) => s.form),
+          props.card.formExamplesSkip.filter((s) => !s.cell).map((s) => s.form),
         ),
       )
     : null,

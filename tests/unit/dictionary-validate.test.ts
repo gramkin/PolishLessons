@@ -308,7 +308,20 @@ describe('formExamples', () => {
 })
 
 describe('formExamples cell', () => {
-  function withCells(cell: string) {
+  const entry = (form: string, pl: string, cell?: string) => ({
+    form,
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' },
+    ...(cell ? { cell } : {}),
+  })
+  const doms = [
+    entry('dom', 'To jest dom.'),
+    entry('dom', 'Mój dom jest duży.'),
+    entry('dom', 'Tam stoi dom.'),
+  ]
+
+  function run(domu: unknown[], skips: unknown[] = []) {
     const b = bundle()
     const forms = b.forms[0]!.data as { allForms: string[]; tables: unknown[] }
     forms.allForms = ['dom', 'domu']
@@ -324,31 +337,71 @@ describe('formExamples cell', () => {
         extra: false,
       },
     ]
-    const entry = (form: string, pl: string, tag?: string) => ({
-      form,
-      pl,
-      ru: 'перевод',
-      source: { kind: 'authored' },
-      ...(tag ? { cell: tag } : {}),
-    })
-    ;(b.cards[0]!.data as { formExamples?: unknown[] }).formExamples = [
-      entry('dom', 'To jest dom.'),
-      entry('dom', 'Mój dom jest duży.'),
-      entry('dom', 'Tam stoi dom.'),
-      entry('domu', 'Jestem w domu.'),
-      entry('domu', 'Mówimy o domu.'),
-      entry('domu', 'Domu, czekaj!', cell),
-    ]
-    return validateDictionary(b, { requireLessonCards: false }).errors
+    const card = b.cards[0]!.data as { formExamples?: unknown[]; formExamplesSkip?: unknown[] }
+    card.formExamples = [...doms, ...domu]
+    card.formExamplesSkip = skips
+    return validateDictionary(b, { requireLessonCards: false })
   }
 
-  it('accepts a row that holds the form', () => {
-    expect(withCells('Звательный')).toEqual([])
+  const locs = [
+    entry('domu', 'Jestem w domu.', 'Предложный'),
+    entry('domu', 'Mówimy o domu.', 'Предложный'),
+    entry('domu', 'Śpię w tym domu.', 'Предложный'),
+  ]
+  const vocs = [
+    entry('domu', 'Domu, czekaj!', 'Звательный'),
+    entry('domu', 'Witaj, domu!', 'Звательный'),
+    entry('domu', 'Żegnaj, domu!', 'Звательный'),
+  ]
+
+  it('accepts three tagged examples in every row the form fills', () => {
+    const { errors, warnings } = run([...locs, ...vocs])
+    expect(errors).toEqual([])
+    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
   })
 
   it('rejects a row that does not hold the form', () => {
-    expect(withCells('Именительный')).toContain(
+    expect(
+      run([...locs.slice(0, 2), entry('domu', 'Domu, czekaj!', 'Именительный')]).errors,
+    ).toContain(
       'dictionary/dom.yml: form example "Domu, czekaj!" is tagged "Именительный", a row that does not hold "domu"',
+    )
+  })
+
+  it('warns about a row with fewer than three tagged examples', () => {
+    const { errors, warnings } = run([...locs, vocs[0]])
+    expect(errors).toEqual([])
+    expect(warnings).toContain(
+      'dictionary/dom.yml: "domu" in row "Звательный" has 1 example(s), need 3',
+    )
+  })
+
+  it('keeps the per-form rule for a form with no tags', () => {
+    const untagged = [
+      entry('domu', 'Jestem w domu.'),
+      entry('domu', 'Mówimy o domu.'),
+      entry('domu', 'Domu, czekaj!'),
+    ]
+    const { errors, warnings } = run(untagged)
+    expect(errors).toEqual([])
+    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
+  })
+
+  it("lets a row skip stand in for a row's examples", () => {
+    const skip = { form: 'domu', cell: 'Звательный', reason: 'к дому не обращаются' }
+    const { errors, warnings } = run(locs, [skip])
+    expect(errors).toEqual([])
+    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
+  })
+
+  it('rejects a row skip on a row the form does not fill, or one that has examples', () => {
+    const wrongRow = run([...locs, ...vocs], [{ form: 'domu', cell: 'Именительный', reason: 'x' }])
+    expect(wrongRow.errors).toContain(
+      'dictionary/dom.yml: formExamplesSkip puts "domu" in row "Именительный", which does not hold it',
+    )
+    const both = run([...locs, ...vocs], [{ form: 'domu', cell: 'Звательный', reason: 'x' }])
+    expect(both.errors).toContain(
+      'dictionary/dom.yml: "domu" in row "Звательный" is both skipped and exemplified',
     )
   })
 })

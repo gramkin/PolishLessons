@@ -218,6 +218,43 @@ describe('dictionary card components', () => {
     expect(wrapper.find('.form-example').text()).not.toContain('Об этом трусе говорили.')
   })
 
+  it('marks a row-skipped cell and keeps the rest of the form clickable', async () => {
+    const tables = [
+      {
+        title: 'Склонение',
+        columns: ['Ед. ч.'],
+        rows: [
+          { label: 'Дательный', cells: [['tarasie']] },
+          { label: 'Предложный', cells: [['tarasie']] },
+          { label: 'Звательный', cells: [['tarasie']] },
+        ],
+        extra: false,
+      },
+    ]
+    const formExamples = [
+      {
+        form: 'tarasie',
+        cell: 'Предложный',
+        pl: 'Siedzimy na tarasie.',
+        ru: 'Мы сидим на террасе.',
+        source: { kind: 'authored' as const },
+      },
+    ]
+    const skipped = [{ form: 'tarasie', cell: 'Звательный', reason: 'к террасе не обращаются' }]
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables, formExamples, cardId: card.id, negatedForms: [], skipped },
+    })
+    const buttons = wrapper.findAll('button.form-button')
+    expect(buttons).toHaveLength(1)
+    // only the vocative row is skipped; the dative cell simply has no example yet
+    expect(wrapper.findAll('.is-skipped')).toHaveLength(1)
+    expect(wrapper.find('tr:last-child .is-skipped').exists()).toBe(true)
+    expect(wrapper.find('.table-skips').text()).toContain('к террасе не обращаются')
+    expect(wrapper.find('ul.skipped').exists()).toBe(false)
+    await buttons[0]!.trigger('click')
+    expect(wrapper.find('.form-example').text()).toContain('Мы сидим на террасе.')
+  })
+
   it('renders an origin section only when there is something to show', async () => {
     const empty = await mountSuspended(Origin, { props: {} })
     expect(empty.find('section').exists()).toBe(false)

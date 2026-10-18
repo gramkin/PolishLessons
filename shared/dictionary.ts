@@ -97,7 +97,10 @@ export const cardSchema = z.object({
   collocations: z.array(z.object({ pl: text, ru: text })).default([]),
   formExamples: z.array(formExampleSchema).default([]),
   /** Forms that cannot carry an example, e.g. clitics that never stand alone. */
-  formExamplesSkip: z.array(z.object({ form: text, reason: text })).default([]),
+  /** Without `cell` the whole form is skipped; with `cell`, only that table row. */
+  formExamplesSkip: z
+    .array(z.object({ form: text, reason: text, cell: text.optional() }))
+    .default([]),
   etymology: z.string().optional(),
   memory: z.string().optional(),
   idioms: z.array(z.object({ pl: text, ru: text })).default([]),

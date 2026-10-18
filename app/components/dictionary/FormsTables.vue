@@ -7,7 +7,7 @@ const props = withDefaults(
     formExamples: FormExample[]
     cardId: string
     negatedForms: string[]
-    skipped?: { form: string; reason: string }[]
+    skipped?: { form: string; reason: string; cell?: string }[]
   }>(),
   { skipped: () => [] },
 )
@@ -22,8 +22,17 @@ const byForm = computed(() => {
   return map
 })
 const groups = computed(() => Object.entries(byForm.value))
+// A skip without `cell` covers the whole form; one with `cell` covers that row only.
+const formSkips = computed(() => props.skipped.filter((item) => !item.cell))
 const skippedByForm = computed(() =>
-  Object.fromEntries(props.skipped.map((item) => [item.form, item.reason])),
+  Object.fromEntries(formSkips.value.map((item) => [item.form, item.reason])),
+)
+const skippedByRow = computed(() =>
+  Object.fromEntries(
+    props.skipped
+      .filter((item) => item.cell)
+      .map((item) => [`${item.cell}|${item.form}`, item.reason]),
+  ),
 )
 // Forms shown in a table explain themselves there. What remains are forms that
 // appear in no table at all — 7213 of them across 582 cards — so the list below
@@ -31,7 +40,7 @@ const skippedByForm = computed(() =>
 const tableCells = computed(
   () => new Set(props.tables.flatMap((t) => t.rows.flatMap((r) => r.cells.flat()))),
 )
-const orphanSkips = computed(() => props.skipped.filter((s) => !tableCells.value.has(s.form)))
+const orphanSkips = computed(() => formSkips.value.filter((s) => !tableCells.value.has(s.form)))
 </script>
 
 <template>
@@ -44,6 +53,7 @@ const orphanSkips = computed(() => props.skipped.filter((s) => !tableCells.value
       :examples="byForm"
       :card-id="cardId"
       :skipped="skippedByForm"
+      :skipped-rows="skippedByRow"
     />
     <details v-if="extra.length > 0" class="all-forms">
       <summary>Все формы</summary>
@@ -54,6 +64,7 @@ const orphanSkips = computed(() => props.skipped.filter((s) => !tableCells.value
         :examples="byForm"
         :card-id="cardId"
         :skipped="skippedByForm"
+        :skipped-rows="skippedByRow"
       />
     </details>
     <p v-if="negatedForms.length > 0" class="negation">

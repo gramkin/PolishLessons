@@ -8,6 +8,8 @@ const props = defineProps<{
   cardId?: string
   /** form -> why it carries no example, for the forms shown in this table */
   skipped?: Record<string, string>
+  /** "row|form" -> why that row of the form carries no example */
+  skippedRows?: Record<string, string>
 }>()
 
 // A cell, not a spelling, is selected: «tchórzu» fills both «Предложный» and
@@ -41,12 +43,11 @@ const sharedNote = computed(() => {
 // A form with no example is explained right under its own table: the reader
 // looking at «Повелительное наклонение» should not have to hunt for the reason.
 const tableSkips = computed(() => {
-  const reasons = props.skipped ?? {}
   const grouped = new Map<string, string[]>()
   for (const row of props.table.rows) {
     for (const cell of row.cells) {
       for (const form of cell) {
-        const reason = reasons[form]
+        const reason = skipReason(form, row.label)
         if (!reason) continue
         const forms = grouped.get(reason) ?? []
         if (!forms.includes(form)) forms.push(form)
@@ -56,6 +57,10 @@ const tableSkips = computed(() => {
   }
   return [...grouped].map(([reason, forms]) => ({ reason, forms }))
 })
+
+function skipReason(form: string, row: string): string | undefined {
+  return props.skippedRows?.[`${row}|${form}`] ?? props.skipped?.[form]
+}
 
 function toggle(form: string, row: string, key: string) {
   selected.value = selected.value?.key === key ? null : { form, row, key }
@@ -94,7 +99,9 @@ function toggle(form: string, row: string, key: string) {
                   >
                     {{ form }}
                   </button>
-                  <span v-else :class="{ 'is-skipped': skipped?.[form] }">{{ form }}</span>
+                  <span v-else :class="{ 'is-skipped': skipReason(form, row.label) }">{{
+                    form
+                  }}</span>
                   <template v-if="k < cell.length - 1">, </template>
                 </template>
               </template>

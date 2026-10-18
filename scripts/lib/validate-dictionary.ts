@@ -233,7 +233,40 @@ export function validateDictionary(
           )
         }
       }
-      const skipped = new Map(card.formExamplesSkip.map((s) => [s.form, s.reason]))
+      const formSkips = card.formExamplesSkip.filter((s) => !s.cell)
+      const rowSkips = new Set(
+        card.formExamplesSkip.filter((s) => s.cell).map((s) => `${s.cell}|${s.form}`),
+      )
+      for (const skip of card.formExamplesSkip) {
+        if (skip.cell && !rowsByForm.get(skip.form)?.has(skip.cell)) {
+          errors.push(
+            `${path}: formExamplesSkip puts "${skip.form}" in row "${skip.cell}", which does not hold it`,
+          )
+        }
+      }
+      // A form whose examples carry a row shows each row on its own, so each row needs
+      // its own three — or a row skip saying why it has none.
+      const tagged = new Map<string, Map<string, number>>()
+      for (const entry of card.formExamples) {
+        if (!entry.cell) continue
+        const byRow = tagged.get(entry.form) ?? new Map<string, number>()
+        byRow.set(entry.cell, (byRow.get(entry.cell) ?? 0) + 1)
+        tagged.set(entry.form, byRow)
+      }
+      for (const [form, byRow] of tagged) {
+        for (const row of rowsByForm.get(form) ?? []) {
+          const count = byRow.get(row) ?? 0
+          const rowSkipped = rowSkips.has(`${row}|${form}`)
+          if (rowSkipped && count > 0) {
+            errors.push(`${path}: "${form}" in row "${row}" is both skipped and exemplified`)
+          } else if (!rowSkipped && count < MIN_FORM_EXAMPLES) {
+            warnings.push(
+              `${path}: "${form}" in row "${row}" has ${count} example(s), need ${MIN_FORM_EXAMPLES}`,
+            )
+          }
+        }
+      }
+      const skipped = new Map(formSkips.map((s) => [s.form, s.reason]))
       for (const form of skipped.keys()) {
         if (!allowed.has(form))
           errors.push(`${path}: formExamplesSkip has "${form}", which is not an affirmative form`)
