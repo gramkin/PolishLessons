@@ -51,6 +51,8 @@ formExamplesSkip:
   - { form: "fizykami", reason: "множественное почти не употребляется" }
   - { form: "fizykach", reason: "множественное почти не употребляется" }
   - { form: "fizyki", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "fizyki", cell: "Именительный", reason: "во множественном числе это слово не употребляется" }
+  - { form: "fizyki", cell: "Винительный", reason: "во множественном числе это слово не употребляется" }
 formExamples:
   - form: "fizyce"
     cell: "Предложный"
@@ -63,8 +65,24 @@ formExamples:
     ru: "О квантовой физике он мог бы говорить часами."
     source: { kind: authored }
   - form: "fizyce"
+    cell: "Дательный"
     pl: "Zawdzięcza fizyce swoją karierę."
     ru: "Своей карьерой он обязан физике."
+    source: { kind: authored }
+  - form: "fizyce"
+    cell: "Дательный"
+    pl: "Poświęcił fizyce całe życie."
+    ru: "Он посвятил физике всю жизнь."
+    source: { kind: authored }
+  - form: "fizyce"
+    cell: "Дательный"
+    pl: "Dzięki fizyce rozumiemy wszechświat."
+    ru: "Благодаря физике мы понимаем вселенную."
+    source: { kind: authored }
+  - form: "fizyce"
+    cell: "Предложный"
+    pl: "W fizyce nie ma miejsca na przypadek."
+    ru: "В физике нет места случайности."
     source: { kind: authored }
   - form: "fizyka"
     pl: "Fizyka wyjaśnia, jak działa świat."
@@ -84,10 +102,12 @@ formExamples:
     ru: "Я получил пятёрку по физике."
     source: { kind: authored }
   - form: "fizyki"
+    cell: "Родительный"
     pl: "Nie rozumiem fizyki."
     ru: "Я не понимаю физику."
     source: { kind: authored }
   - form: "fizyki"
+    cell: "Родительный"
     pl: "Laboratorium fizyki jest na drugim piętrze."
     ru: "Лаборатория физики на третьем этаже."
     source: { kind: authored }
