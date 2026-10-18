@@ -52,6 +52,8 @@ formExamplesSkip:
   - { form: "cholerami", reason: "форма множественного числа от названия болезни; в живой речи не употребляется" }
   - { form: "cholerom", reason: "форма множественного числа от названия болезни; в живой речи не употребляется" }
   - { form: "cholery", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "cholery", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "cholery", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "cholera"
     pl: "\"Ej, zrobiłeś zadaniem z matematyki?\" - \"A, cholera, zupełnie zapomniałem\""
@@ -112,8 +114,14 @@ formExamples:
     ru: "Чёрт возьми, где ты был?"
     source: { kind: authored }
   - form: "cholery"
+    cell: "Родительный"
     pl: "Bał się cholery jak ognia."
     ru: "Он боялся холеры как огня."
+    source: { kind: authored }
+  - form: "cholery"
+    cell: "Родительный"
+    pl: "Epidemia cholery wybuchła latem."
+    ru: "Эпидемия холеры вспыхнула летом."
     source: { kind: authored }
   - form: "cholerze"
     cell: "Предложный"
@@ -129,4 +137,19 @@ formExamples:
     cell: "Предложный"
     pl: "Wykład o cholerze był długi."
     ru: "Лекция о холере была длинной."
+    source: { kind: authored }
+  - form: "cholerze"
+    cell: "Дательный"
+    pl: "Lekarze wypowiedzieli cholerze wojnę."
+    ru: "Врачи объявили холере войну."
+    source: { kind: authored }
+  - form: "cholerze"
+    cell: "Дательный"
+    pl: "Dzięki szczepieniom zapobiegnięto cholerze."
+    ru: "Благодаря прививкам холеру предотвратили."
+    source: { kind: authored }
+  - form: "cholerze"
+    cell: "Дательный"
+    pl: "Miasto oparło się cholerze."
+    ru: "Город выстоял перед холерой."
     source: { kind: authored }
