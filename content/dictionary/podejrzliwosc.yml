@@ -43,8 +43,11 @@ formExamplesSkip:
   - { form: "podejrzliwościami", reason: "это название свойства характера, а не отдельного случая: во множественном числе слово не употребляется. Конкретное подозрение по конкретному поводу называется podejrzenie, и оно считается" }
   - { form: "podejrzliwościom", reason: "это название свойства характера, а не отдельного случая: во множественном числе слово не употребляется. Конкретное подозрение по конкретному поводу называется podejrzenie, и оно считается" }
   - { form: "podejrzliwości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "podejrzliwości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "podejrzliwości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "podejrzliwości"
+    cell: "Родительный"
     pl: "Nie ma w nim podejrzliwości."
     ru: "В нём нет подозрительности."
     source: { kind: authored }
@@ -54,8 +57,39 @@ formExamples:
     ru: "От подозрительности трудно избавиться."
     source: { kind: authored }
   - form: "podejrzliwości"
+    cell: "Предложный"
     pl: "W jego podejrzliwości jest coś chorobliwego."
     ru: "В его подозрительности есть что-то болезненное."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Родительный"
+    pl: "Pełen podejrzliwości otworzył list."
+    ru: "Полный подозрений, он открыл письмо."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Предложный"
+    pl: "Mówiliśmy o jego podejrzliwości."
+    ru: "Мы говорили о его подозрительности."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Предложный"
+    pl: "Przy takiej podejrzliwości trudno o przyjaźń."
+    ru: "При такой подозрительности трудно дружить."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Дательный"
+    pl: "Uległ podejrzliwości."
+    ru: "Он поддался подозрительности."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Дательный"
+    pl: "Przeciwstawił się podejrzliwości kolegów."
+    ru: "Он противостоял подозрительности коллег."
+    source: { kind: authored }
+  - form: "podejrzliwości"
+    cell: "Дательный"
+    pl: "Zawdzięcza życie swojej podejrzliwości."
+    ru: "Он обязан жизнью своей подозрительности."
     source: { kind: authored }
   - form: "podejrzliwością"
     pl: "Patrzył na nich z podejrzliwością."
@@ -75,10 +109,27 @@ formExamples:
     ru: "Ты не можешь винить меня за мою подозрительность."
     source: { kind: translated, id: 3653757 }
   - form: "podejrzliwość"
+    cell: "Именительный"
     pl: "Jego podejrzliwość wszystkich męczyła."
     ru: "Его подозрительность всех утомляла."
     source: { kind: authored }
   - form: "podejrzliwość"
+    cell: "Именительный"
     pl: "Podejrzliwość rośnie z wiekiem."
     ru: "Подозрительность растёт с возрастом."
+    source: { kind: authored }
+  - form: "podejrzliwość"
+    cell: "Именительный"
+    pl: "Podejrzliwość nie pozwalała mu ufać ludziom."
+    ru: "Подозрительность не позволяла ему доверять людям."
+    source: { kind: authored }
+  - form: "podejrzliwość"
+    cell: "Винительный"
+    pl: "Wzbudził podejrzliwość ochrony."
+    ru: "Он вызвал подозрения у охраны."
+    source: { kind: authored }
+  - form: "podejrzliwość"
+    cell: "Винительный"
+    pl: "Ukrywała swoją podejrzliwość."
+    ru: "Она скрывала свою подозрительность."
     source: { kind: authored }
