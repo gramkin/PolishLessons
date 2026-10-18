@@ -31,9 +31,14 @@ const dictionary = validateDictionary(
 )
 errors.push(...dictionary.errors)
 
+// `--all-warnings` prints every dictionary warning, for batch work on a backlog.
+const ALL_WARNINGS = process.argv.includes('--all-warnings')
 if (dictionary.warnings.length > 0) {
-  console.warn(`! ${dictionary.warnings.length} dictionary warning(s) (first 5 shown):`)
-  for (const warning of dictionary.warnings.slice(0, 5)) console.warn(`  - ${warning}`)
+  const shown = ALL_WARNINGS ? dictionary.warnings : dictionary.warnings.slice(0, 5)
+  console.warn(
+    `! ${dictionary.warnings.length} dictionary warning(s)${ALL_WARNINGS ? '' : ' (first 5 shown)'}:`,
+  )
+  for (const warning of shown) console.warn(`  - ${warning}`)
 }
 
 const thin = lessonDepthWarnings(bundle.lessons)
