@@ -52,6 +52,8 @@ formExamplesSkip:
   - { form: "wołowinom", reason: "множественное число у вещественного слова: говядина не считается штуками" }
   - { form: "wołowino", reason: "звательный падеж у названия мяса не употребляется" }
   - { form: "wołowiny", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "wołowiny", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "wołowiny", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "wołowina"
     pl: "Wołowina jest dziś w promocji."
@@ -80,11 +82,28 @@ formExamples:
     pl: "Przy wołowinie zawsze podaje czerwone wino."
     ru: "К говядине он всегда подаёт красное вино."
     source: { kind: authored }
+  - form: "wołowinie"
+    cell: "Дательный"
+    pl: "Nie oparł się pieczonej wołowinie."
+    ru: "Он не устоял перед запечённой говядиной."
+    source: { kind: authored }
+  - form: "wołowinie"
+    cell: "Дательный"
+    pl: "Kucharz przyjrzał się wołowinie."
+    ru: "Повар осмотрел говядину."
+    source: { kind: authored }
+  - form: "wołowinie"
+    cell: "Дательный"
+    pl: "Sos dodał wołowinie smaku."
+    ru: "Соус придал говядине вкус."
+    source: { kind: authored }
   - form: "wołowiny"
+    cell: "Родительный"
     pl: "Kup pół kilo wołowiny."
     ru: "Купи полкило говядины."
     source: { kind: authored }
   - form: "wołowiny"
+    cell: "Родительный"
     pl: "Nie jem wołowiny od roku."
     ru: "Я не ем говядину уже год."
     source: { kind: authored }
