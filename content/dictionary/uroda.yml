@@ -47,6 +47,8 @@ formExamplesSkip:
   - { form: "urodom", reason: "красота — это свойство, а не предмет: во множественном числе слово не употребляется. Формы urod и uród — два написания одного и того же несуществующего родительного множественного" }
   - { form: "uród", reason: "красота — это свойство, а не предмет: во множественном числе слово не употребляется. Формы urod и uród — два написания одного и того же несуществующего родительного множественного" }
   - { form: "urody", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "urody", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "urody", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "uroda"
     pl: "Urzekła go jej uroda."
@@ -85,10 +87,12 @@ formExamples:
     ru: "Они восхищались её красотой."
     source: { kind: authored }
   - form: "urody"
+    cell: "Родительный"
     pl: "Zazdroszczę jej urody."
     ru: "Я завидую её красоте."
     source: { kind: translated, id: 1857126 }
   - form: "urody"
+    cell: "Родительный"
     pl: "Beth nie straciła urody."
     ru: "Бет не потеряла красоты."
     source: { kind: translated, id: 959206 }
@@ -111,4 +115,19 @@ formExamples:
     cell: "Предложный"
     pl: "Nie ustępuje jej w urodzie."
     ru: "Он не уступает ей в красоте."
+    source: { kind: authored }
+  - form: "urodzie"
+    cell: "Дательный"
+    pl: "Nie oparł się jej urodzie."
+    ru: "Он не устоял перед её красотой."
+    source: { kind: authored }
+  - form: "urodzie"
+    cell: "Дательный"
+    pl: "Zawdzięcza karierę urodzie."
+    ru: "Карьерой она обязана красоте."
+    source: { kind: authored }
+  - form: "urodzie"
+    cell: "Дательный"
+    pl: "Słońce zaszkodziło jej urodzie."
+    ru: "Солнце навредило её красоте."
     source: { kind: authored }

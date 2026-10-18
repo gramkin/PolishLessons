@@ -59,6 +59,7 @@ formExamples:
     ru: "Я верю в тебя."
     source: { kind: tatoeba, id: 6328305 }
   - form: "ciebie"
+    cell: "Родительный"
     pl: "Boję się ciebie."
     ru: "Я тебя боюсь."
     source: { kind: tatoeba, id: 12470620 }
@@ -67,6 +68,21 @@ formExamples:
     pl: "Dzwonię do ciebie."
     ru: "Я тебе звоню."
     source: { kind: tatoeba, id: 13106668 }
+  - form: "ciebie"
+    cell: "Родительный"
+    pl: "Dostałem od ciebie list."
+    ru: "Я получил от тебя письмо."
+    source: { kind: authored }
+  - form: "ciebie"
+    cell: "Винительный"
+    pl: "Czekam na ciebie."
+    ru: "Я жду тебя."
+    source: { kind: authored }
+  - form: "ciebie"
+    cell: "Винительный"
+    pl: "Kocham ciebie, nie jego."
+    ru: "Я люблю тебя, а не его."
+    source: { kind: authored }
   - form: "cię"
     pl: "Kocham cię."
     ru: "Я люблю тебя!"
@@ -106,7 +122,23 @@ formExamples:
     pl: "Często o tobie myślę."
     ru: "Я часто о тебе думаю."
     source: { kind: tatoeba, id: 2289924 }
+  - form: "tobie"
+    cell: "Дательный"
+    pl: "Dzięki tobie zdałem."
+    ru: "Благодаря тебе я сдал."
+    source: { kind: authored }
+  - form: "tobie"
+    cell: "Дательный"
+    pl: "Tobie mogę powiedzieć wszystko."
+    ru: "Тебе я могу сказать всё."
+    source: { kind: authored }
+  - form: "tobie"
+    cell: "Дательный"
+    pl: "Dziękuję tobie, nie jemu."
+    ru: "Спасибо тебе, а не ему."
+    source: { kind: authored }
   - form: "ty"
+    cell: "Именительный"
     pl: "A ty?"
     ru: "А ты?"
     source: { kind: tatoeba, id: 756951 }
@@ -120,3 +152,18 @@ formExamples:
     pl: "Ty pierwszy."
     ru: "Ты первый."
     source: { kind: tatoeba, id: 2830002 }
+  - form: "ty"
+    cell: "Звательный"
+    pl: "Hej, ty! Chodź tutaj!"
+    ru: "Эй, ты! Иди сюда!"
+    source: { kind: authored }
+  - form: "ty"
+    cell: "Звательный"
+    pl: "Ty, słuchaj, mam pomysł."
+    ru: "Слушай, у меня идея."
+    source: { kind: authored }
+  - form: "ty"
+    cell: "Звательный"
+    pl: "Ty łobuzie, oddaj to!"
+    ru: "Ты, хулиган, отдай это!"
+    source: { kind: authored }
