@@ -57,6 +57,7 @@ formExamplesSkip:
   - { form: "czeku", cell: "Звательный", reason: "звательный падеж: для неодушевлённого существительного он практически не употребляется" }
 formExamples:
   - form: "czek"
+    cell: "Винительный"
     pl: "Dostałeś czek?"
     ru: "Ты получил чек?"
     source: { kind: translated, id: 6534327 }
@@ -66,13 +67,30 @@ formExamples:
     ru: "Мне, пожалуйста, чек."
     source: { kind: translated, id: 547700 }
   - form: "czek"
+    cell: "Винительный"
     pl: "Czy mógłbym dostać czek?"
     ru: "Можно мне получить чек?"
     source: { kind: translated, id: 578056 }
   - form: "czek"
+    cell: "Винительный"
     pl: "Wysłała mi w załączeniu czek."
     ru: "Она прислала мне чек в приложении."
     source: { kind: translated, id: 561626 }
+  - form: "czek"
+    cell: "Именительный"
+    pl: "Czek przyszedł pocztą."
+    ru: "Чек пришёл по почте."
+    source: { kind: authored }
+  - form: "czek"
+    cell: "Именительный"
+    pl: "Ten czek jest bez pokrycia."
+    ru: "Этот чек без покрытия."
+    source: { kind: authored }
+  - form: "czek"
+    cell: "Именительный"
+    pl: "Czek na tysiąc złotych leżał na biurku."
+    ru: "Чек на тысячу злотых лежал на столе."
+    source: { kind: authored }
   - form: "czekach"
     pl: "O tych czekach mówi księgowa."
     ru: "Об этих чеках говорит бухгалтер."
@@ -162,10 +180,12 @@ formExamples:
     ru: "Банк выдал чековую книжку."
     source: { kind: authored }
   - form: "czeku"
+    cell: "Родительный"
     pl: "To jest numer mojego czeku."
     ru: "Это номер моего чека."
     source: { kind: translated, id: 945793 }
   - form: "czeku"
+    cell: "Родительный"
     pl: "Nie mogła go przekonać do przyjęcia czeku."
     ru: "Она не смогла убедить его принять чек."
     source: { kind: translated, id: 3034169 }
@@ -173,4 +193,19 @@ formExamples:
     cell: "Предложный"
     pl: "Na czeku brakuje podpisu."
     ru: "На чеке не хватает подписи."
+    source: { kind: authored }
+  - form: "czeku"
+    cell: "Родительный"
+    pl: "Bank nie przyjął czeku."
+    ru: "Банк не принял чек."
+    source: { kind: authored }
+  - form: "czeku"
+    cell: "Предложный"
+    pl: "Na czeku brakowało podpisu."
+    ru: "На чеке не хватало подписи."
+    source: { kind: authored }
+  - form: "czeku"
+    cell: "Предложный"
+    pl: "O czeku zapomniałem."
+    ru: "О чеке я забыл."
     source: { kind: authored }
