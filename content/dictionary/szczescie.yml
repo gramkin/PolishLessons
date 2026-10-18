@@ -49,6 +49,8 @@ idioms:
 formExamplesSkip:
   - { form: "szczęścia", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
   - { form: "szczęście", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "szczęścia", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "szczęścia", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "szczęścia"
     cell: "Родительный"
@@ -56,10 +58,12 @@ formExamples:
     ru: "Мы стремимся к счастью."
     source: { kind: tatoeba, id: 5559504 }
   - form: "szczęścia"
+    cell: "Родительный"
     pl: "Szczęścia nie kupisz za pieniądze."
     ru: "Нельзя купить счастье."
     source: { kind: tatoeba, id: 352909 }
   - form: "szczęścia"
+    cell: "Родительный"
     pl: "Idę teraz na egzamin, życzcie mi szczęścia."
     ru: "Иду сейчас на экзамен, пожелайте мне удачи."
     source: { kind: tatoeba, id: 12655218 }
@@ -98,9 +102,25 @@ formExamples:
     ru: "К сожалению, а быть может к счастью, нет."
     source: { kind: tatoeba, id: 3657288 }
   - form: "szczęście"
+    cell: "Винительный"
     pl: "Mary miała szczęście, że znalazła klucze."
     ru: "Мэри повезло, что она нашла свои ключи."
     source: { kind: tatoeba, id: 13830856 }
+  - form: "szczęście"
+    cell: "Именительный"
+    pl: "Szczęście nie trwa wiecznie."
+    ru: "Счастье не длится вечно."
+    source: { kind: authored }
+  - form: "szczęście"
+    cell: "Именительный"
+    pl: "To było prawdziwe szczęście."
+    ru: "Это было настоящее счастье."
+    source: { kind: authored }
+  - form: "szczęście"
+    cell: "Именительный"
+    pl: "Szczęście mu dopisało."
+    ru: "Ему повезло."
+    source: { kind: authored }
   - form: "szczęściem"
     pl: "Cieszymy się twoim szczęściem."
     ru: "Мы радуемся твоему счастью."
@@ -136,8 +156,24 @@ formExamples:
     ru: "Каждый мечтает о счастье."
     source: { kind: translated, id: 9686418 }
   - form: "szczęściu"
+    cell: "Дательный"
     pl: "Zawdzięczam to szczęściu."
     ru: "Я обязан этим везению."
+    source: { kind: authored }
+  - form: "szczęściu"
+    cell: "Дательный"
+    pl: "Nie ufaj szczęściu."
+    ru: "Не полагайся на удачу."
+    source: { kind: authored }
+  - form: "szczęściu"
+    cell: "Дательный"
+    pl: "Pomógł szczęściu ciężką pracą."
+    ru: "Он помог удаче упорным трудом."
+    source: { kind: authored }
+  - form: "szczęściu"
+    cell: "Предложный"
+    pl: "Marzył o szczęściu rodzinnym."
+    ru: "Он мечтал о семейном счастье."
     source: { kind: authored }
   - form: "szczęść"
     pl: "Szczęść Boże!"
