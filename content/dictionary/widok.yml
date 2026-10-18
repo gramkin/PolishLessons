@@ -58,6 +58,7 @@ formExamplesSkip:
   - { form: "widoku", cell: "Звательный", reason: "звательный падеж: для неодушевлённого существительного он практически не употребляется" }
 formExamples:
   - form: "widok"
+    cell: "Именительный"
     pl: "Jaki piękny widok!"
     ru: "Какой прекрасный вид!"
     source: { kind: translated, id: 3961115 }
@@ -67,9 +68,25 @@ formExamples:
     ru: "При виде крови она упала в обморок."
     source: { kind: tatoeba, id: 2218919 }
   - form: "widok"
+    cell: "Именительный"
     pl: "Widok ze szczytu tego budynku był wspaniały."
     ru: "Вид с вершины этого здания был великолепным."
     source: { kind: tatoeba, id: 1685315 }
+  - form: "widok"
+    cell: "Именительный"
+    pl: "Z okna rozciąga się widok na morze."
+    ru: "Из окна открывается вид на море."
+    source: { kind: authored }
+  - form: "widok"
+    cell: "Винительный"
+    pl: "Mamy piękny widok z balkonu."
+    ru: "У нас красивый вид с балкона."
+    source: { kind: authored }
+  - form: "widok"
+    cell: "Винительный"
+    pl: "Drzewo zasłania mi widok."
+    ru: "Дерево закрывает мне вид."
+    source: { kind: authored }
   - form: "widokach"
     pl: "O widokach z gór opowiadał godzinami."
     ru: "О видах с гор он рассказывал часами."
@@ -155,10 +172,12 @@ formExamples:
     ru: "Без усилий нет видов на успех."
     source: { kind: translated, id: 416764 }
   - form: "widoku"
+    cell: "Родительный"
     pl: "Nigdy nie zapomnę tego widoku."
     ru: "Я никогда не забуду этот вид."
     source: { kind: translated, id: 12180525 }
   - form: "widoku"
+    cell: "Родительный"
     pl: "Nie może znieść widoku krwi."
     ru: "Он не выносит вида крови."
     source: { kind: translated, id: 13812707 }
@@ -167,3 +186,18 @@ formExamples:
     pl: "Nie mogłem spuścić oczu z tego widoku."
     ru: "Я не мог оторвать взгляд от этого вида."
     source: { kind: tatoeba, id: 651796 }
+  - form: "widoku"
+    cell: "Предложный"
+    pl: "Na widoku leżały klucze."
+    ru: "На виду лежали ключи."
+    source: { kind: authored }
+  - form: "widoku"
+    cell: "Предложный"
+    pl: "Mówił o widoku z okna."
+    ru: "Он говорил о виде из окна."
+    source: { kind: authored }
+  - form: "widoku"
+    cell: "Предложный"
+    pl: "W tym widoku jest coś magicznego."
+    ru: "В этом виде есть что-то волшебное."
+    source: { kind: authored }

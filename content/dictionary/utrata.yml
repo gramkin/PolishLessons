@@ -49,6 +49,8 @@ idioms:
   - { pl: "pod groźbą utraty", ru: "под угрозой утраты" }
 formExamplesSkip:
   - { form: "utraty", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "utraty", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "utraty", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "utracie"
     cell: "Предложный"
@@ -61,8 +63,24 @@ formExamples:
     ru: "Об утрате доверия он говорил с горечью."
     source: { kind: authored }
   - form: "utracie"
+    cell: "Дательный"
     pl: "Zapobiegli utracie całego archiwum."
     ru: "Они предотвратили утрату всего архива."
+    source: { kind: authored }
+  - form: "utracie"
+    cell: "Дательный"
+    pl: "Nie poddał się utracie."
+    ru: "Он не сломался после утраты."
+    source: { kind: authored }
+  - form: "utracie"
+    cell: "Дательный"
+    pl: "Stawił czoła utracie pracy."
+    ru: "Он справился с потерей работы."
+    source: { kind: authored }
+  - form: "utracie"
+    cell: "Предложный"
+    pl: "Po utracie wzroku nauczył się alfabetu Braille'a."
+    ru: "После потери зрения он выучил шрифт Брайля."
     source: { kind: authored }
   - form: "utrat"
     pl: "Tyle utrat w jednym roku to za wiele."
@@ -137,6 +155,7 @@ formExamples:
     ru: "Присмотрись к этим утратам в отчёте."
     source: { kind: authored }
   - form: "utraty"
+    cell: "Родительный"
     pl: "Nie uniknął utraty prawa jazdy."
     ru: "Он не избежал лишения прав."
     source: { kind: authored }
@@ -146,6 +165,7 @@ formExamples:
     ru: "Дошло до утраты доверия."
     source: { kind: authored }
   - form: "utraty"
+    cell: "Родительный"
     pl: "Boi się utraty pamięci bardziej niż bólu."
     ru: "Он боится утраты памяти больше, чем боли."
     source: { kind: authored }

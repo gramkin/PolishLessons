@@ -69,6 +69,8 @@ formExamplesSkip:
   - { form: "wiarami", reason: "отвлечённое существительное: множественное число у wiara почти не употребляется" }
   - { form: "wiarom", reason: "отвлечённое существительное: множественное число у wiara почти не употребляется" }
   - { form: "wiary", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "wiary", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "wiary", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "wiara"
     pl: "Wiara czyni cuda!"
@@ -124,6 +126,7 @@ formExamples:
     ru: "Невероятно!"
     source: { kind: tatoeba, id: 980938 }
   - form: "wiary"
+    cell: "Родительный"
     pl: "Nie trać wiary."
     ru: "Не теряй веру."
     source: { kind: tatoeba, id: 2043649 }
@@ -146,4 +149,19 @@ formExamples:
     cell: "Предложный"
     pl: "W tej wierze wychowano całe pokolenie."
     ru: "В этой вере воспитали целое поколение."
+    source: { kind: authored }
+  - form: "wierze"
+    cell: "Дательный"
+    pl: "Pozostał wierny swojej wierze."
+    ru: "Он остался верен своей вере."
+    source: { kind: authored }
+  - form: "wierze"
+    cell: "Дательный"
+    pl: "Zawdzięcza siłę wierze."
+    ru: "Силой он обязан вере."
+    source: { kind: authored }
+  - form: "wierze"
+    cell: "Дательный"
+    pl: "Poświęcił wierze całe życie."
+    ru: "Он посвятил вере всю жизнь."
     source: { kind: authored }
