@@ -56,6 +56,8 @@ formExamplesSkip:
   - { form: "większościami", reason: "слово отвлечённое и собирательное: множественного числа у него в живой речи нет, формы остаются только в таблице" }
   - { form: "większościach", reason: "слово отвлечённое и собирательное: множественного числа у него в живой речи нет, формы остаются только в таблице" }
   - { form: "większości", cell: "Звательный", reason: "звательный падеж: к предмету или понятию не обращаются" }
+  - { form: "większości", cell: "Именительный", reason: "во множественном числе это слово почти не употребляется" }
+  - { form: "większości", cell: "Винительный", reason: "во множественном числе это слово почти не употребляется" }
 formExamples:
   - form: "większości"
     cell: "Родительный"
@@ -63,13 +65,45 @@ formExamples:
     ru: "Юридическая терминология непонятна для большинства непрофессионалов."
     source: { kind: tatoeba, id: 351898 }
   - form: "większości"
+    cell: "Предложный"
     pl: "Był w większości krajów Europy."
     ru: "Он был в большинстве стран Европы."
     source: { kind: translated, id: 1605861 }
   - form: "większości"
+    cell: "Родительный"
     pl: "Przyczyną większości wypadków samochodowych jest niewyspanie."
     ru: "Причина большинства автомобильных аварий — недосып."
     source: { kind: translated, id: 361079 }
+  - form: "większości"
+    cell: "Предложный"
+    pl: "Mówiono o większości parlamentarnej."
+    ru: "Говорили о парламентском большинстве."
+    source: { kind: authored }
+  - form: "większości"
+    cell: "Предложный"
+    pl: "Przy takiej większości ustawa przejdzie."
+    ru: "При таком большинстве закон пройдёт."
+    source: { kind: authored }
+  - form: "większości"
+    cell: "Родительный"
+    pl: "Zdanie większości się liczy."
+    ru: "Мнение большинства имеет значение."
+    source: { kind: authored }
+  - form: "większości"
+    cell: "Дательный"
+    pl: "Projekt spodobał się większości."
+    ru: "Проект понравился большинству."
+    source: { kind: authored }
+  - form: "większości"
+    cell: "Дательный"
+    pl: "Mniejszość podporządkowała się większości."
+    ru: "Меньшинство подчинилось большинству."
+    source: { kind: authored }
+  - form: "większości"
+    cell: "Дательный"
+    pl: "Rząd zawdzięcza władzę większości w Sejmie."
+    ru: "Правительство обязано властью большинству в Сейме."
+    source: { kind: authored }
   - form: "większością"
     pl: "Ustawę przyjęto większością głosów."
     ru: "Закон приняли большинством голосов."
