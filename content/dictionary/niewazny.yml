@@ -52,6 +52,9 @@ idioms:
   - { pl: "To nieważne", ru: "Это неважно" }
   - { pl: "Nieważne!", ru: "Неважно, проехали!" }
   - { pl: "nieważny paszport", ru: "недействительный паспорт" }
+formExamplesSkip:
+  - { form: "nieważnego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
+  - { form: "nieważnych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "nieważna"
     pl: "Ta obligacja jest kompletnie nieważna."
@@ -66,10 +69,12 @@ formExamples:
     ru: "Этот договор недействителен."
     source: { kind: authored }
   - form: "nieważną"
+    cell: "Винительный"
     pl: "Uznali umowę za nieważną."
     ru: "Договор признали недействительным."
     source: { kind: authored }
   - form: "nieważną"
+    cell: "Винительный"
     pl: "Sąd uznał tę klauzulę za nieważną."
     ru: "Суд признал этот пункт недействительным."
     source: { kind: authored }
@@ -77,6 +82,21 @@ formExamples:
     cell: "Винительный"
     pl: "Dostał nieważną legitymację."
     ru: "Он получил недействительное удостоверение."
+    source: { kind: authored }
+  - form: "nieważną"
+    cell: "Творительный"
+    pl: "Posłużył się nieważną legitymacją."
+    ru: "Он воспользовался недействительным удостоверением."
+    source: { kind: authored }
+  - form: "nieważną"
+    cell: "Творительный"
+    pl: "Zajmował się nieważną sprawą."
+    ru: "Он занимался неважным делом."
+    source: { kind: authored }
+  - form: "nieważną"
+    cell: "Творительный"
+    pl: "Okazała się nieważną umową."
+    ru: "Она оказалась недействительным договором."
     source: { kind: authored }
   - form: "nieważne"
     pl: "To nieważne."
@@ -91,6 +111,7 @@ formExamples:
     ru: "Неважно."
     source: { kind: translated, id: 348671 }
   - form: "nieważnego"
+    cell: "Родительный"
     pl: "Nie powiedział nic nieważnego."
     ru: "Он не сказал ничего неважного."
     source: { kind: authored }
@@ -110,12 +131,44 @@ formExamples:
     ru: "Недействительного договора здесь нет."
     source: { kind: authored }
   - form: "nieważnej"
+    cell: "Родительный"
     pl: "Z nieważnej legitymacji nie ma pożytku."
     ru: "От недействительного удостоверения нет толку."
     source: { kind: authored }
   - form: "nieważnej"
+    cell: "Родительный"
     pl: "Szukali nieważnej klauzuli."
     ru: "Они искали недействительный пункт."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Дательный"
+    pl: "Nie przypisuj nieważnej sprawie znaczenia."
+    ru: "Не придавай неважному делу значения."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Дательный"
+    pl: "Przyjrzał się nieważnej umowie."
+    ru: "Он рассмотрел недействительный договор."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Дательный"
+    pl: "Poświęcił nieważnej sprawie cały dzień."
+    ru: "Он посвятил неважному делу весь день."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Предложный"
+    pl: "Podróżował na nieważnej wizie."
+    ru: "Он путешествовал по недействительной визе."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Предложный"
+    pl: "Mówił o nieważnej umowie."
+    ru: "Он говорил о недействительном договоре."
+    source: { kind: authored }
+  - form: "nieważnej"
+    cell: "Предложный"
+    pl: "W nieważnej sprawie nie warto się kłócić."
+    ru: "В неважном деле не стоит спорить."
     source: { kind: authored }
   - form: "nieważnemu"
     pl: "Przyjrzał się nieważnemu dokumentowi."
@@ -168,6 +221,21 @@ formExamples:
     pl: "Nie ma tu nieważnych biletów."
     ru: "Недействительных билетов здесь нет."
     source: { kind: authored }
+  - form: "nieważnych"
+    cell: "Предложный"
+    pl: "Mówił o nieważnych szczegółach."
+    ru: "Он говорил о неважных деталях."
+    source: { kind: authored }
+  - form: "nieważnych"
+    cell: "Предложный"
+    pl: "W nieważnych sprawach nie warto się spierać."
+    ru: "В неважных делах не стоит спорить."
+    source: { kind: authored }
+  - form: "nieważnych"
+    cell: "Предложный"
+    pl: "Po nieważnych wyborach rozpisano nowe."
+    ru: "После признанных недействительными выборов назначили новые."
+    source: { kind: authored }
   - form: "nieważnym"
     cell: "Предложный"
     pl: "W nieważnym dokumencie nikt nie szukał błędów."
@@ -182,6 +250,36 @@ formExamples:
     cell: "Творительный"
     pl: "Zajął się nieważnym podpisem."
     ru: "Он занялся недействительной подписью."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Дательный"
+    pl: "Nie przypisuj nieważnym szczegółom wagi."
+    ru: "Не придавай неважным деталям значения."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Дательный"
+    pl: "Przyjrzał się nieważnym dokumentom."
+    ru: "Он рассмотрел недействительные документы."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Творительный"
+    pl: "Posłużył się nieważnym paszportem."
+    ru: "Он воспользовался недействительным паспортом."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Творительный"
+    pl: "Zajmował się nieważnym problemem."
+    ru: "Он занимался неважной проблемой."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Предложный"
+    pl: "Podróżował na nieważnym paszporcie."
+    ru: "Он путешествовал по недействительному паспорту."
+    source: { kind: authored }
+  - form: "nieważnym"
+    cell: "Предложный"
+    pl: "Mówił o nieważnym szczególe."
+    ru: "Он говорил о неважной детали."
     source: { kind: authored }
   - form: "nieważnymi"
     pl: "Zajęli się nieważnymi dokumentami."
