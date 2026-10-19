@@ -17,7 +17,8 @@ words: [praca, biuro, hotel, restauracja, o, przy, uniwersytet, koncert, polska]
 headers: [Именительный, Предложный, Что изменилось]
 plColumns: [0, 1]
 rows:
-  - ["!miasto", "w mieście", "t → ci"]
+  - ["!kot", "o kocie", "t → ci"]
+  - ["!miasto", "w mieście", "st → ści, a → ie"]
   - ["!książka", "o książce", "k → c"]
   - ["!szkoła", "w szkole", "ł → l"]
   - ["!biuro", "w biurze", "r → rz"]
@@ -100,7 +101,7 @@ questions:
     q: "Śpię w ___. (namiot)"
     options: [namiotu, namiocie]
     answer: 1
-    explain: "t — твёрдый согласный, поэтому -e со смягчением: namiot → w namiocie."
+    explain: "t перед -e смягчается в ci: namiot → w namiocie, как kot → o kocie."
   - type: input
     q: "Książka leży na ___. (stolik)"
     answer: stoliku
