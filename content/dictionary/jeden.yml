@@ -47,13 +47,35 @@ formExamples:
     ru: "Был один свидетель."
     source: { kind: tatoeba, id: 3761551 }
   - form: "jeden"
+    cell: "Именительный"
     pl: "Tu jest jeden stół."
     ru: "Здесь один стол."
     source: { kind: tatoeba, id: 2314745 }
   - form: "jeden"
+    cell: "Винительный"
     pl: "Jest o jeden mniej."
     ru: "Одним меньше."
     source: { kind: tatoeba, id: 7727827 }
+  - form: "jeden"
+    cell: "Именительный"
+    pl: "Został tylko jeden kawałek."
+    ru: "Остался только один кусок."
+    source: { kind: authored }
+  - form: "jeden"
+    cell: "Именительный"
+    pl: "Jeden student nie zdał."
+    ru: "Один студент не сдал."
+    source: { kind: authored }
+  - form: "jeden"
+    cell: "Винительный"
+    pl: "Kupiłem jeden bilet."
+    ru: "Я купил один билет."
+    source: { kind: authored }
+  - form: "jeden"
+    cell: "Винительный"
+    pl: "Mam jeden pomysł."
+    ru: "У меня одна идея."
+    source: { kind: authored }
   - form: "jedna"
     pl: "Jedna wdowa miała dwie córki."
     ru: "У одной вдовы было две дочери."
@@ -81,6 +103,21 @@ formExamples:
     pl: "Jechałem dwa dni i jedną noc."
     ru: "Я ехал два дня и одну ночь."
     source: { kind: tatoeba, id: 697472 }
+  - form: "jedną"
+    cell: "Творительный"
+    pl: "Rozmawiał tylko z jedną osobą."
+    ru: "Он разговаривал только с одним человеком."
+    source: { kind: authored }
+  - form: "jedną"
+    cell: "Творительный"
+    pl: "Przed jedną chwilą tu był."
+    ru: "Ещё минуту назад он был здесь."
+    source: { kind: authored }
+  - form: "jedną"
+    cell: "Творительный"
+    pl: "Zapłacił jedną monetą."
+    ru: "Он заплатил одной монетой."
+    source: { kind: authored }
   - form: "jedne"
     pl: "Jedne są czerwone, inne - białe."
     ru: "Одни красные, другие белые."
@@ -154,6 +191,7 @@ formExamples:
     ru: "У меня к тебе есть один вопрос."
     source: { kind: tatoeba, id: 13785901 }
   - form: "jednych"
+    cell: "Родительный"
     pl: "Co dla jednych jest potrawą, dla innych jest czarną trucizną."
     ru: "Что для одних еда, для других чёрный яд."
     source: { kind: translated, id: 2186412 }
@@ -167,7 +205,38 @@ formExamples:
     pl: "Nie ma jednych zasad dla wszystkich."
     ru: "Единых правил для всех не бывает."
     source: { kind: authored }
+  - form: "jednych"
+    cell: "Родительный"
+    pl: "Nie znam jednych ani drugich."
+    ru: "Я не знаю ни тех, ни других."
+    source: { kind: authored }
+  - form: "jednych"
+    cell: "Винительный"
+    pl: "Jednych podziwiał, innych lekceważył."
+    ru: "Одними он восхищался, других не замечал."
+    source: { kind: authored }
+  - form: "jednych"
+    cell: "Винительный"
+    pl: "Nauczyciel chwalił jednych, karcił innych."
+    ru: "Учитель хвалил одних, ругал других."
+    source: { kind: authored }
+  - form: "jednych"
+    cell: "Предложный"
+    pl: "O jednych mówi się dobrze, o innych źle."
+    ru: "Об одних говорят хорошо, о других плохо."
+    source: { kind: authored }
+  - form: "jednych"
+    cell: "Предложный"
+    pl: "W jednych krajach jest zimno, w innych gorąco."
+    ru: "В одних странах холодно, в других жарко."
+    source: { kind: authored }
+  - form: "jednych"
+    cell: "Предложный"
+    pl: "Na jednych drzewach były owoce."
+    ru: "На одних деревьях были плоды."
+    source: { kind: authored }
   - form: "jednym"
+    cell: "Творительный"
     pl: "Tom jest jednym z moich pacjentów."
     ru: "Том - один из моих пациентов."
     source: { kind: tatoeba, id: 8716839 }
@@ -177,9 +246,40 @@ formExamples:
     ru: "Это была очень длинная, узкая комната с одним окном."
     source: { kind: tatoeba, id: 11318581 }
   - form: "jednym"
+    cell: "Творительный"
     pl: "Jest gotowy, pod jednym warunkiem, by do nas dołączyć."
     ru: "Он готов присоединиться к нам при одном условии."
     source: { kind: tatoeba, id: 1352082 }
+  - form: "jednym"
+    cell: "Творительный"
+    pl: "Wypił to jednym haustem."
+    ru: "Он выпил это одним глотком."
+    source: { kind: authored }
+  - form: "jednym"
+    cell: "Дательный"
+    pl: "Jednym ludziom się udaje, innym nie."
+    ru: "Одним людям везёт, другим нет."
+    source: { kind: authored }
+  - form: "jednym"
+    cell: "Дательный"
+    pl: "Jednym pomogli, innym odmówili."
+    ru: "Одним помогли, другим отказали."
+    source: { kind: authored }
+  - form: "jednym"
+    cell: "Дательный"
+    pl: "Jednym dzieciom kupił lody, innym ciastka."
+    ru: "Одним детям он купил мороженое, другим пирожные."
+    source: { kind: authored }
+  - form: "jednym"
+    cell: "Предложный"
+    pl: "W jednym pokoju śpią dzieci."
+    ru: "В одной комнате спят дети."
+    source: { kind: authored }
+  - form: "jednym"
+    cell: "Предложный"
+    pl: "Mówił o jednym problemie."
+    ru: "Он говорил об одной проблеме."
+    source: { kind: authored }
   - form: "jednymi"
     pl: "Byliśmy jednymi z pierwszych gości."
     ru: "Мы были одними из первых гостей."

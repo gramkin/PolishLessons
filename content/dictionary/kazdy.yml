@@ -48,6 +48,8 @@ formExamplesSkip:
   - { form: "każden", reason: "устаревший разговорный вариант, в современном языке не употребляется" }
   - { form: "każdzi", reason: "форма из морфологического словаря, в живой речи не существует" }
   - { form: "każdymi", reason: "творительный множественного встречается только при pluralia tantum и звучит искусственно" }
+  - { form: "każdych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
+  - { form: "każdym", cell: "Дательный", reason: "дательный падеж множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "każda"
     pl: "Każda bajka ma swój koniec."
@@ -76,6 +78,21 @@ formExamples:
     pl: "Znam tu każdą ulicę."
     ru: "Я знаю здесь каждую улицу."
     source: { kind: authored }
+  - form: "każdą"
+    cell: "Творительный"
+    pl: "Z każdą chwilą było gorzej."
+    ru: "С каждой минутой становилось хуже."
+    source: { kind: authored }
+  - form: "każdą"
+    cell: "Творительный"
+    pl: "Przed każdą lekcją się denerwuje."
+    ru: "Перед каждым уроком он волнуется."
+    source: { kind: authored }
+  - form: "każdą"
+    cell: "Творительный"
+    pl: "Zachwyca się każdą książką."
+    ru: "Он восхищается каждой книгой."
+    source: { kind: authored }
   - form: "każde"
     pl: "Każde państwo ma swój rząd."
     ru: "У каждого государства есть своё правительство."
@@ -94,13 +111,30 @@ formExamples:
     ru: "Я бреюсь каждое утро."
     source: { kind: tatoeba, id: 3786689 }
   - form: "każdego"
+    cell: "Родительный"
     pl: "Idź na spacer każdego dnia."
     ru: "Гуляй каждый день."
     source: { kind: tatoeba, id: 4482463 }
   - form: "każdego"
+    cell: "Родительный"
     pl: "Bierze kąpiel każdego ranka."
     ru: "Он принимает ванну каждое утро."
     source: { kind: tatoeba, id: 1353468 }
+  - form: "każdego"
+    cell: "Винительный"
+    pl: "Znam każdego sąsiada."
+    ru: "Я знаю каждого соседа."
+    source: { kind: authored }
+  - form: "każdego"
+    cell: "Винительный"
+    pl: "Pies wita każdego gościa."
+    ru: "Собака встречает каждого гостя."
+    source: { kind: authored }
+  - form: "każdego"
+    cell: "Винительный"
+    pl: "Szanuj każdego człowieka."
+    ru: "Уважай каждого человека."
+    source: { kind: authored }
   - form: "każdej"
     pl: "Mogę zacząć w każdej chwili."
     ru: "Я могу начать в любую минуту."
@@ -138,10 +172,12 @@ formExamples:
     ru: "Каждый может ошибиться."
     source: { kind: tatoeba, id: 6109675 }
   - form: "każdych"
+    cell: "Родительный"
     pl: "Do każdych drzwi mam inny klucz."
     ru: "К каждой двери у меня свой ключ."
     source: { kind: authored }
   - form: "każdych"
+    cell: "Родительный"
     pl: "Wyniki każdych wyborów są inne."
     ru: "Результаты каждых выборов разные."
     source: { kind: authored }
@@ -150,12 +186,33 @@ formExamples:
     pl: "Z każdych wakacji przywozi zdjęcia."
     ru: "Из каждых каникул он привозит фотографии."
     source: { kind: authored }
+  - form: "każdych"
+    cell: "Родительный"
+    pl: "Od każdych świąt rodzina się powiększa."
+    ru: "С каждых праздников семья растёт."
+    source: { kind: authored }
+  - form: "każdych"
+    cell: "Предложный"
+    pl: "W każdych drzwiach jest zamek."
+    ru: "В каждой двери есть замок."
+    source: { kind: authored }
+  - form: "każdych"
+    cell: "Предложный"
+    pl: "Po każdych wakacjach wraca opalony."
+    ru: "После каждых каникул он возвращается загорелым."
+    source: { kind: authored }
+  - form: "każdych"
+    cell: "Предложный"
+    pl: "Przy każdych wyborach jest awantura."
+    ru: "На каждых выборах скандал."
+    source: { kind: authored }
   - form: "każdym"
     cell: "Творительный"
     pl: "Słabnę z każdym dniem."
     ru: "Я слабею с каждым днём."
     source: { kind: tatoeba, id: 12696348 }
   - form: "każdym"
+    cell: "Предложный"
     pl: "W każdym z nas śpi geniusz."
     ru: "В каждом из нас спит гений."
     source: { kind: tatoeba, id: 3936698 }
@@ -164,3 +221,18 @@ formExamples:
     pl: "Oni w każdym razie muszą zachować twarz."
     ru: "Им в любом случае надо сохранить лицо."
     source: { kind: tatoeba, id: 13784968 }
+  - form: "każdym"
+    cell: "Предложный"
+    pl: "Po każdym meczu świętują."
+    ru: "После каждого матча они празднуют."
+    source: { kind: authored }
+  - form: "każdym"
+    cell: "Творительный"
+    pl: "Z każdym dniem było lepiej."
+    ru: "С каждым днём становилось лучше."
+    source: { kind: authored }
+  - form: "każdym"
+    cell: "Творительный"
+    pl: "Rozmawia z każdym klientem."
+    ru: "Он разговаривает с каждым клиентом."
+    source: { kind: authored }
