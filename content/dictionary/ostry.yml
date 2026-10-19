@@ -58,6 +58,8 @@ idioms:
   - { pl: "ostry jak brzytwa", ru: "острый как бритва" }
   - { pl: "ostry dyżur", ru: "неотложка, приёмный покой" }
   - { pl: "ostry język", ru: "острый язык" }
+formExamplesSkip:
+  - { form: "ostrych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "najostrzejsi"
     pl: "Najostrzejsi krytycy siedzieli w pierwszym rzędzie."
@@ -218,6 +220,21 @@ formExamples:
     pl: "Jeśli to zrobisz, narazisz się na ostrą krytykę."
     ru: "Если ты это сделаешь, навлечёшь на себя острую критику."
     source: { kind: translated, id: 351990 }
+  - form: "ostrą"
+    cell: "Творительный"
+    pl: "Skrytykował go ostrą uwagą."
+    ru: "Он раскритиковал его резким замечанием."
+    source: { kind: authored }
+  - form: "ostrą"
+    cell: "Творительный"
+    pl: "Zachwycił się ostrą kuchnią."
+    ru: "Он восхитился острой кухней."
+    source: { kind: authored }
+  - form: "ostrą"
+    cell: "Творительный"
+    pl: "Walczył z ostrą chorobą."
+    ru: "Он боролся с острой болезнью."
+    source: { kind: authored }
   - form: "ostre"
     pl: "Zęby lwa są ostre."
     ru: "Зубы льва острые."
@@ -240,10 +257,12 @@ formExamples:
     ru: "Им нужен острый нож."
     source: { kind: translated, id: 3486178 }
   - form: "ostrego"
+    cell: "Родительный"
     pl: "Nie powinieneś jeść niczego ostrego."
     ru: "Тебе не следует есть ничего острого."
     source: { kind: translated, id: 3407417 }
   - form: "ostrego"
+    cell: "Родительный"
     pl: "Wyjaśniłyśmy mu, że nie lubimy ostrego jedzenia."
     ru: "Мы объяснили ему, что не любим острую еду."
     source: { kind: translated, id: 6302109 }
@@ -252,7 +271,23 @@ formExamples:
     pl: "Lekarstwo, które ona wzięła, wyleczyło ją z ostrego kaszlu, z powodu którego cierpiała."
     ru: "Лекарство, которое она приняла, вылечило её от острого кашля."
     source: { kind: translated, id: 13423109 }
+  - form: "ostrego"
+    cell: "Винительный"
+    pl: "Zatrudnili ostrego trenera."
+    ru: "Они наняли строгого тренера."
+    source: { kind: authored }
+  - form: "ostrego"
+    cell: "Винительный"
+    pl: "Mają ostrego psa."
+    ru: "У них злая собака."
+    source: { kind: authored }
+  - form: "ostrego"
+    cell: "Винительный"
+    pl: "Szkoła wybrała ostrego dyrektora."
+    ru: "Школа выбрала строгого директора."
+    source: { kind: authored }
   - form: "ostrej"
+    cell: "Дательный"
     pl: "Dzięki ostrej dyscyplinie to dziecko zmieniło się całkowicie."
     ru: "Благодаря строгой дисциплине этот ребёнок совершенно изменился."
     source: { kind: translated, id: 734307 }
@@ -262,8 +297,34 @@ formExamples:
     ru: "Я не люблю острый перец."
     source: { kind: authored }
   - form: "ostrej"
+    cell: "Предложный"
     pl: "Po ostrej zimie przyszła ciepła wiosna."
     ru: "После суровой зимы пришла тёплая весна."
+    source: { kind: authored }
+  - form: "ostrej"
+    cell: "Дательный"
+    pl: "Przyjrzał się ostrej krawędzi."
+    ru: "Он осмотрел острый край."
+    source: { kind: authored }
+  - form: "ostrej"
+    cell: "Дательный"
+    pl: "Nie oparł się ostrej papryce."
+    ru: "Он не устоял перед острым перцем."
+    source: { kind: authored }
+  - form: "ostrej"
+    cell: "Предложный"
+    pl: "Mówił o ostrej krytyce."
+    ru: "Он говорил о резкой критике."
+    source: { kind: authored }
+  - form: "ostrej"
+    cell: "Предложный"
+    pl: "W ostrej rywalizacji wygrał najlepszy."
+    ru: "В острой конкуренции победил лучший."
+    source: { kind: authored }
+  - form: "ostrej"
+    cell: "Родительный"
+    pl: "Nie lubię ostrej musztardy."
+    ru: "Я не люблю острую горчицу."
     source: { kind: authored }
   - form: "ostremu"
     pl: "Przyjrzyj się temu ostremu nożowi."
@@ -308,11 +369,28 @@ formExamples:
     pl: "W szufladzie pełno ostrych noży."
     ru: "В ящике полно острых ножей."
     source: { kind: authored }
+  - form: "ostrych"
+    cell: "Предложный"
+    pl: "Mówił o ostrych przyprawach."
+    ru: "Он говорил об острых пряностях."
+    source: { kind: authored }
+  - form: "ostrych"
+    cell: "Предложный"
+    pl: "Na ostrych zakrętach zwolnij."
+    ru: "На крутых поворотах сбавь скорость."
+    source: { kind: authored }
+  - form: "ostrych"
+    cell: "Предложный"
+    pl: "Po ostrych potrawach chce się pić."
+    ru: "После острых блюд хочется пить."
+    source: { kind: authored }
   - form: "ostrym"
+    cell: "Предложный"
     pl: "Nie chcę mówić nigdy niczego w ostrym tonie."
     ru: "Я не хочу никогда говорить резким тоном."
     source: { kind: translated, id: 2220062 }
   - form: "ostrym"
+    cell: "Предложный"
     pl: "Mam zwykle lekkie sensacje żołądkowe po ostrym jedzeniu."
     ru: "У меня обычно тяжесть в желудке после острой еды."
     source: { kind: translated, id: 997608 }
@@ -320,6 +398,31 @@ formExamples:
     cell: "Творительный"
     pl: "Pokroił chleb ostrym nożem."
     ru: "Он нарезал хлеб острым ножом."
+    source: { kind: authored }
+  - form: "ostrym"
+    cell: "Предложный"
+    pl: "Mówił o ostrym kryzysie."
+    ru: "Он говорил об остром кризисе."
+    source: { kind: authored }
+  - form: "ostrym"
+    cell: "Творительный"
+    pl: "Odpowiedział ostrym tonem."
+    ru: "Он ответил резким тоном."
+    source: { kind: authored }
+  - form: "ostrym"
+    cell: "Дательный"
+    pl: "Nie oparł się ostrym przyprawom."
+    ru: "Он не устоял перед острыми пряностями."
+    source: { kind: authored }
+  - form: "ostrym"
+    cell: "Дательный"
+    pl: "Przyglądał się ostrym skałom."
+    ru: "Он смотрел на острые скалы."
+    source: { kind: authored }
+  - form: "ostrym"
+    cell: "Дательный"
+    pl: "Przypisał ból ostrym potrawom."
+    ru: "Он объяснил боль острыми блюдами."
     source: { kind: authored }
   - form: "ostrymi"
     pl: "Kroi mięso ostrymi nożami."

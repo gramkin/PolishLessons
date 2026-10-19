@@ -50,6 +50,9 @@ idioms:
   - { pl: "to oczywiste", ru: "это очевидно" }
   - { pl: "rzecz oczywista", ru: "само собой разумеющееся" }
   - { pl: "z oczywistych powodów", ru: "по очевидным причинам" }
+formExamplesSkip:
+  - { form: "oczywistego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
+  - { form: "oczywistych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "najoczywistsi"
     pl: "Najoczywistsi sprawcy uciekli pierwsi."
@@ -196,6 +199,7 @@ formExamples:
     ru: "Разница между этими версиями не очевидна."
     source: { kind: translated, id: 352140 }
   - form: "oczywistą"
+    cell: "Винительный"
     pl: "Uznali tę odpowiedź za oczywistą."
     ru: "Этот ответ сочли очевидным."
     source: { kind: authored }
@@ -208,6 +212,21 @@ formExamples:
     cell: "Винительный"
     pl: "Powtórzył oczywistą prawdę."
     ru: "Он повторил очевидную истину."
+    source: { kind: authored }
+  - form: "oczywistą"
+    cell: "Творительный"
+    pl: "Wydawała się oczywistą sprawą."
+    ru: "Это казалось очевидным делом."
+    source: { kind: authored }
+  - form: "oczywistą"
+    cell: "Творительный"
+    pl: "Pogodził się z oczywistą prawdą."
+    ru: "Он смирился с очевидной правдой."
+    source: { kind: authored }
+  - form: "oczywistą"
+    cell: "Творительный"
+    pl: "Przed oczywistą porażką się poddał."
+    ru: "Перед очевидным поражением он сдался."
     source: { kind: authored }
   - form: "oczywiste"
     pl: "To oczywiste."
@@ -222,10 +241,12 @@ formExamples:
     ru: "Очевидно, что он лгал."
     source: { kind: translated, id: 625126 }
   - form: "oczywistego"
+    cell: "Родительный"
     pl: "Nie ma tu nic oczywistego."
     ru: "Здесь нет ничего очевидного."
     source: { kind: authored }
   - form: "oczywistego"
+    cell: "Родительный"
     pl: "Szukam oczywistego wyjaśnienia."
     ru: "Я ищу очевидное объяснение."
     source: { kind: authored }
@@ -235,6 +256,7 @@ formExamples:
     ru: "Избегай очевидного вывода."
     source: { kind: authored }
   - form: "oczywistej"
+    cell: "Родительный"
     pl: "Nie ma oczywistej odpowiedzi."
     ru: "Очевидного ответа нет."
     source: { kind: authored }
@@ -244,8 +266,39 @@ formExamples:
     ru: "Я ищу очевидную причину."
     source: { kind: authored }
   - form: "oczywistej"
+    cell: "Родительный"
     pl: "Trzymał się oczywistej wersji."
     ru: "Он держался очевидной версии."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Дательный"
+    pl: "Nie zaprzeczysz oczywistej prawdzie."
+    ru: "Ты не станешь отрицать очевидную правду."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się oczywistej przyczynie."
+    ru: "Давайте рассмотрим очевидную причину."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Дательный"
+    pl: "Przeczy to oczywistej logice."
+    ru: "Это противоречит очевидной логике."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Предложный"
+    pl: "Mówił o oczywistej sprawie."
+    ru: "Он говорил об очевидном деле."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Предложный"
+    pl: "W oczywistej sytuacji nie ma co dyskutować."
+    ru: "В очевидной ситуации нечего обсуждать."
+    source: { kind: authored }
+  - form: "oczywistej"
+    cell: "Предложный"
+    pl: "Po oczywistej porażce trener odszedł."
+    ru: "После очевидного поражения тренер ушёл."
     source: { kind: authored }
   - form: "oczywistemu"
     pl: "Nie zaprzeczaj oczywistemu faktowi."
@@ -404,6 +457,7 @@ formExamples:
     ru: "Это очевидная ошибка."
     source: { kind: authored }
   - form: "oczywistych"
+    cell: "Родительный"
     pl: "Nie mów mi takich oczywistych rzeczy!"
     ru: "Не говори мне таких очевидных вещей!"
     source: { kind: translated, id: 3596347 }
@@ -413,8 +467,24 @@ formExamples:
     ru: "Избегай очевидных вопросов."
     source: { kind: authored }
   - form: "oczywistych"
+    cell: "Родительный"
     pl: "Nie ma tu oczywistych odpowiedzi."
     ru: "Здесь нет очевидных ответов."
+    source: { kind: authored }
+  - form: "oczywistych"
+    cell: "Предложный"
+    pl: "Mówił o oczywistych faktach."
+    ru: "Он говорил об очевидных фактах."
+    source: { kind: authored }
+  - form: "oczywistych"
+    cell: "Предложный"
+    pl: "W oczywistych sprawach nie ma sporów."
+    ru: "В очевидных делах нет споров."
+    source: { kind: authored }
+  - form: "oczywistych"
+    cell: "Предложный"
+    pl: "Po oczywistych błędach sędzia przeprosił."
+    ru: "После очевидных ошибок судья извинился."
     source: { kind: authored }
   - form: "oczywistym"
     pl: "Obecność ropy naftowej jest dla nas czymś oczywistym."
