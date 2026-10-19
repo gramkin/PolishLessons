@@ -53,6 +53,9 @@ memory: "wszelki — «всякий, любой». Главный оборот �
 idioms:
   - { pl: "na wszelki wypadek", ru: "на всякий случай" }
   - { pl: "za wszelką cenę", ru: "любой ценой" }
+formExamplesSkip:
+  - { form: "wszelkich", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
+  - { form: "wszelkiego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
 formExamples:
   - form: "wszelcy"
     pl: "Wszelcy naśladowcy skazani są na porównania."
@@ -93,6 +96,21 @@ formExamples:
     pl: "Za wszelką cenę musimy uniknąć wojny."
     ru: "Мы должны любой ценой избежать войны."
     source: { kind: tatoeba, id: 3788507 }
+  - form: "wszelką"
+    cell: "Творительный"
+    pl: "Za wszelką cenę chce wygrać."
+    ru: "Он любой ценой хочет выиграть."
+    source: { kind: authored }
+  - form: "wszelką"
+    cell: "Творительный"
+    pl: "Walczył ze wszelką niesprawiedliwością."
+    ru: "Он боролся со всякой несправедливостью."
+    source: { kind: authored }
+  - form: "wszelką"
+    cell: "Творительный"
+    pl: "Gardzi wszelką władzą."
+    ru: "Он презирает всякую власть."
+    source: { kind: authored }
   - form: "wszelki"
     pl: "Na wszelki wypadek lepiej weź parasol."
     ru: "На всякий случай лучше возьми зонт."
@@ -120,6 +138,21 @@ formExamples:
     pl: "Dołożył wszelkich starań, by jej pomóc."
     ru: "Он приложил все усилия, чтобы ей помочь."
     source: { kind: translated, id: 1479256 }
+  - form: "wszelkich"
+    cell: "Предложный"
+    pl: "Mówił o wszelkich zagrożeniach."
+    ru: "Он говорил о всевозможных угрозах."
+    source: { kind: authored }
+  - form: "wszelkich"
+    cell: "Предложный"
+    pl: "We wszelkich sprawach pyta ojca."
+    ru: "Во всех делах он спрашивает отца."
+    source: { kind: authored }
+  - form: "wszelkich"
+    cell: "Предложный"
+    pl: "Po wszelkich próbach poddał się."
+    ru: "После всех попыток он сдался."
+    source: { kind: authored }
   - form: "wszelkie"
     pl: "Przekraczasz wszelkie granice."
     ru: "Ты переходишь всякие границы."
@@ -138,10 +171,12 @@ formExamples:
     ru: "У него есть книги всякого рода."
     source: { kind: translated, id: 731988 }
   - form: "wszelkiego"
+    cell: "Родительный"
     pl: "Pieniądze to źródło wszelkiego zła."
     ru: "Деньги — источник всякого зла."
     source: { kind: translated, id: 592702 }
   - form: "wszelkiego"
+    cell: "Родительный"
     pl: "Bieda jest u źródeł wszelkiego zła."
     ru: "Бедность — источник всякого зла."
     source: { kind: translated, id: 959063 }
@@ -175,6 +210,7 @@ formExamples:
     ru: "Эта крепость была защищена от всяких атак."
     source: { kind: translated, id: 947972 }
   - form: "wszelkim"
+    cell: "Дательный"
     pl: "Mieszkańcy wioski byli uprzedzeni przeciw wszelkim nowym przybyszom."
     ru: "Жители деревни были предубеждены против всяких новоприбывших."
     source: { kind: translated, id: 1348397 }
@@ -182,6 +218,36 @@ formExamples:
     cell: "Дательный"
     pl: "Sprzeciwiał się wszelkim zmianom."
     ru: "Он противился всяким переменам."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Дательный"
+    pl: "Sprzeciwia się wszelkim zmianom."
+    ru: "Он противится всяким переменам."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Творительный"
+    pl: "Gardzi wszelkim kłamstwem."
+    ru: "Он презирает всякую ложь."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Творительный"
+    pl: "Brzydzi się wszelkim okrucieństwem."
+    ru: "Ему противна всякая жестокость."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Предложный"
+    pl: "Mówił o wszelkim ryzyku."
+    ru: "Он говорил о всяком риске."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Предложный"
+    pl: "We wszelkim działaniu liczy się cel."
+    ru: "В любом действии важна цель."
+    source: { kind: authored }
+  - form: "wszelkim"
+    cell: "Предложный"
+    pl: "Po wszelkim wysiłku trzeba odpocząć."
+    ru: "После любого усилия нужно отдохнуть."
     source: { kind: authored }
   - form: "wszelkimi"
     pl: "Bronił się wszelkimi sposobami."
