@@ -45,6 +45,9 @@ idioms:
   - { pl: "to skomplikowane", ru: "это сложно" }
   - { pl: "skomplikowana maszyna", ru: "сложная машина" }
   - { pl: "skomplikowany problem", ru: "сложная задача" }
+formExamplesSkip:
+  - { form: "skomplikowanego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
+  - { form: "skomplikowanych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "skomplikowana"
     pl: "Miłość jest skomplikowana."
@@ -73,6 +76,21 @@ formExamples:
     pl: "Rozwiązali skomplikowaną sprawę."
     ru: "Они решили сложное дело."
     source: { kind: authored }
+  - form: "skomplikowaną"
+    cell: "Винительный"
+    pl: "Przeszedł skomplikowaną operację."
+    ru: "Он перенёс сложную операцию."
+    source: { kind: authored }
+  - form: "skomplikowaną"
+    cell: "Творительный"
+    pl: "Zajmuje się skomplikowaną sprawą."
+    ru: "Он занимается запутанным делом."
+    source: { kind: authored }
+  - form: "skomplikowaną"
+    cell: "Творительный"
+    pl: "Była skomplikowaną osobą."
+    ru: "Она была сложным человеком."
+    source: { kind: authored }
   - form: "skomplikowane"
     pl: "To skomplikowane."
     ru: "Это сложно."
@@ -86,6 +104,7 @@ formExamples:
     ru: "Это для меня слишком сложное задание."
     source: { kind: tatoeba, id: 3745222 }
   - form: "skomplikowanego"
+    cell: "Родительный"
     pl: "Nie ma w tym nic skomplikowanego."
     ru: "В этом нет ничего сложного."
     source: { kind: authored }
@@ -95,14 +114,17 @@ formExamples:
     ru: "Избегай сложного языка."
     source: { kind: authored }
   - form: "skomplikowanego"
+    cell: "Родительный"
     pl: "Szukam czegoś mniej skomplikowanego."
     ru: "Я ищу что-нибудь попроще."
     source: { kind: authored }
   - form: "skomplikowanej"
+    cell: "Предложный"
     pl: "Intelektualista to człowiek, który mówi o prostej rzeczy w skomplikowany sposób; artysta to człowiek, który mówi o skomplikowanej rzeczy w prosty sposób."
     ru: "Интеллектуал — это человек, который говорит о простом сложным образом; художник — это человек, который говорит о сложном простым образом."
     source: { kind: translated, id: 2893166 }
   - form: "skomplikowanej"
+    cell: "Родительный"
     pl: "Nie rozumiem tej skomplikowanej instrukcji."
     ru: "Я не понимаю этой сложной инструкции."
     source: { kind: authored }
@@ -110,6 +132,36 @@ formExamples:
     cell: "Родительный"
     pl: "Szukam mniej skomplikowanej metody."
     ru: "Я ищу менее сложный метод."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Предложный"
+    pl: "W skomplikowanej sytuacji zachował spokój."
+    ru: "В запутанной ситуации он сохранил спокойствие."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Предложный"
+    pl: "Mówił o skomplikowanej operacji."
+    ru: "Он говорил о сложной операции."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Дательный"
+    pl: "Przyjrzał się skomplikowanej maszynie."
+    ru: "Он рассмотрел сложную машину."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Дательный"
+    pl: "Poświęcił skomplikowanej sprawie miesiąc."
+    ru: "Он посвятил запутанному делу месяц."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Дательный"
+    pl: "Stawił czoła skomplikowanej sytuacji."
+    ru: "Он справился со сложной ситуацией."
+    source: { kind: authored }
+  - form: "skomplikowanej"
+    cell: "Родительный"
+    pl: "Unikał skomplikowanej procedury."
+    ru: "Он избегал сложной процедуры."
     source: { kind: authored }
   - form: "skomplikowanemu"
     pl: "Przyjrzyj się temu skomplikowanemu mechanizmowi."
@@ -148,10 +200,12 @@ formExamples:
     ru: "По этой причине проблема становилась всё более сложной."
     source: { kind: translated, id: 695748 }
   - form: "skomplikowanych"
+    cell: "Родительный"
     pl: "Ta fabryka używa wielu skomplikowanych maszyn."
     ru: "Этот завод использует много сложных машин."
     source: { kind: translated, id: 1591139 }
   - form: "skomplikowanych"
+    cell: "Родительный"
     pl: "On jest dobry w rozwiązywaniu skomplikowanych zadań matematycznych."
     ru: "Он хорошо решает сложные математические задачи."
     source: { kind: translated, id: 3808600 }
@@ -160,7 +214,23 @@ formExamples:
     pl: "Unikam skomplikowanych przepisów."
     ru: "Я избегаю сложных рецептов."
     source: { kind: authored }
+  - form: "skomplikowanych"
+    cell: "Предложный"
+    pl: "Mówił o skomplikowanych sprawach."
+    ru: "Он говорил о запутанных делах."
+    source: { kind: authored }
+  - form: "skomplikowanych"
+    cell: "Предложный"
+    pl: "W skomplikowanych przypadkach dzwoń do mnie."
+    ru: "В сложных случаях звони мне."
+    source: { kind: authored }
+  - form: "skomplikowanych"
+    cell: "Предложный"
+    pl: "Po skomplikowanych negocjacjach podpisali umowę."
+    ru: "После сложных переговоров они подписали договор."
+    source: { kind: authored }
   - form: "skomplikowanym"
+    cell: "Предложный"
     pl: "W skomplikowanym systemie łatwo o błąd."
     ru: "В сложной системе легко ошибиться."
     source: { kind: authored }
@@ -173,6 +243,36 @@ formExamples:
     cell: "Творительный"
     pl: "Zajmuje się skomplikowanym przypadkiem."
     ru: "Он занимается сложным случаем."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Предложный"
+    pl: "Mówił o skomplikowanym projekcie."
+    ru: "Он говорил о сложном проекте."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Предложный"
+    pl: "Po skomplikowanym zabiegu wraca do zdrowia."
+    ru: "После сложной процедуры он поправляется."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Творительный"
+    pl: "Zajmuje się skomplikowanym problemem."
+    ru: "Он занимается сложной проблемой."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Дательный"
+    pl: "Przyjrzał się skomplikowanym wzorom."
+    ru: "Он рассмотрел сложные формулы."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Дательный"
+    pl: "Stawił czoła skomplikowanym zadaniom."
+    ru: "Он справился со сложными задачами."
+    source: { kind: authored }
+  - form: "skomplikowanym"
+    cell: "Дательный"
+    pl: "Nie ufa skomplikowanym rozwiązaniom."
+    ru: "Он не доверяет сложным решениям."
     source: { kind: authored }
   - form: "skomplikowanymi"
     pl: "Ludzie są skomplikowanymi organizmami."

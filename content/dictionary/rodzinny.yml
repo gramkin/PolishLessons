@@ -58,6 +58,8 @@ idioms:
   - { pl: "życie rodzinne", ru: "семейная жизнь" }
   - { pl: "miasto rodzinne", ru: "родной город" }
   - { pl: "dom rodzinny", ru: "родительский дом" }
+formExamplesSkip:
+  - { form: "rodzinnych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "rodzinna"
     pl: "To tradycja rodzinna."
@@ -72,6 +74,7 @@ formExamples:
     ru: "Это его родная деревня."
     source: { kind: authored }
   - form: "rodzinną"
+    cell: "Творительный"
     pl: "Jest rodzinną czarną owcą."
     ru: "Она в семье паршивая овца."
     source: { kind: translated, id: 903396 }
@@ -84,6 +87,21 @@ formExamples:
     cell: "Винительный"
     pl: "Odwiedził rodzinną miejscowość."
     ru: "Он навестил родной городок."
+    source: { kind: authored }
+  - form: "rodzinną"
+    cell: "Винительный"
+    pl: "Prowadzi rodzinną firmę."
+    ru: "Он ведёт семейное дело."
+    source: { kind: authored }
+  - form: "rodzinną"
+    cell: "Творительный"
+    pl: "Zarządza rodzinną firmą."
+    ru: "Он управляет семейной фирмой."
+    source: { kind: authored }
+  - form: "rodzinną"
+    cell: "Творительный"
+    pl: "Zachwycił się rodzinną atmosferą."
+    ru: "Он восхитился семейной атмосферой."
     source: { kind: authored }
   - form: "rodzinne"
     pl: "Telewizja niszczy życie rodzinne."
@@ -123,13 +141,45 @@ formExamples:
     ru: "В семнадцать лет он сбежал из родной деревни."
     source: { kind: translated, id: 6935800 }
   - form: "rodzinnej"
+    cell: "Родительный"
     pl: "Wróciłem do rodzinnej wsi po dwuletniej nieobecności."
     ru: "Я вернулся в родную деревню после двухлетнего отсутствия."
     source: { kind: translated, id: 367675 }
   - form: "rodzinnej"
+    cell: "Родительный"
     pl: "Powrócił do rodzinnej wioski, gdzie spędził ostatnie lata życia."
     ru: "Он вернулся в родную деревню, где провёл последние годы жизни."
     source: { kind: translated, id: 956918 }
+  - form: "rodzinnej"
+    cell: "Дательный"
+    pl: "Poświęcił rodzinnej firmie całe życie."
+    ru: "Он посвятил семейной фирме всю жизнь."
+    source: { kind: authored }
+  - form: "rodzinnej"
+    cell: "Дательный"
+    pl: "Zawdzięcza sukces rodzinnej tradycji."
+    ru: "Успехом он обязан семейной традиции."
+    source: { kind: authored }
+  - form: "rodzinnej"
+    cell: "Дательный"
+    pl: "Pozostał wierny rodzinnej tradycji."
+    ru: "Он остался верен семейной традиции."
+    source: { kind: authored }
+  - form: "rodzinnej"
+    cell: "Предложный"
+    pl: "Pracuje w rodzinnej firmie."
+    ru: "Он работает в семейной фирме."
+    source: { kind: authored }
+  - form: "rodzinnej"
+    cell: "Предложный"
+    pl: "Mówił o rodzinnej tradycji."
+    ru: "Он говорил о семейной традиции."
+    source: { kind: authored }
+  - form: "rodzinnej"
+    cell: "Предложный"
+    pl: "Na rodzinnej imprezie było wesoło."
+    ru: "На семейном празднике было весело."
+    source: { kind: authored }
   - form: "rodzinnemu"
     pl: "Przyjrzyj się temu rodzinnemu zdjęciu."
     ru: "Присмотрись к этой семейной фотографии."
@@ -181,9 +231,25 @@ formExamples:
     ru: "Я расскажу тебе последние новости из родных краёв."
     source: { kind: translated, id: 751607 }
   - form: "rodzinnych"
+    cell: "Родительный"
     pl: "Jak tylko mój syn zeskanuje trochę rodzinnych zdjęć, zawieszę je na naszej stronie."
     ru: "Как только сын отсканирует несколько семейных фотографий, я выложу их на наш сайт."
     source: { kind: translated, id: 959167 }
+  - form: "rodzinnych"
+    cell: "Предложный"
+    pl: "Mówił o rodzinnych sprawach."
+    ru: "Он говорил о семейных делах."
+    source: { kind: authored }
+  - form: "rodzinnych"
+    cell: "Предложный"
+    pl: "W rodzinnych stronach wszystko się zmieniło."
+    ru: "В родных краях всё изменилось."
+    source: { kind: authored }
+  - form: "rodzinnych"
+    cell: "Предложный"
+    pl: "Na rodzinnych zdjęciach jest uśmiechnięty."
+    ru: "На семейных фотографиях он улыбается."
+    source: { kind: authored }
   - form: "rodzinnym"
     pl: "Lepiej godzić szkołę z życiem rodzinnym."
     ru: "Лучше совмещать школу с семейной жизнью."
