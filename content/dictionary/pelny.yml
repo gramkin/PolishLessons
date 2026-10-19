@@ -47,6 +47,9 @@ idioms:
   - { pl: "pełne morze", ru: "открытое море" }
   - { pl: "koń pełnej krwi", ru: "чистокровная лошадь" }
   - { pl: "mieć pełne ręce roboty", ru: "быть по горло в делах" }
+formExamplesSkip:
+  - { form: "pełnego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
+  - { form: "pełnych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "najpełniejsi"
     pl: "Najpełniejsi nadziei byli najmłodsi."
@@ -191,9 +194,25 @@ formExamples:
     ru: "Он полон новых идей."
     source: { kind: tatoeba, id: 357013 }
   - form: "pełen"
+    cell: "Именительный"
     pl: "Wszechświat jest pełen tajemnic."
     ru: "Вселенная полна тайн."
     source: { kind: tatoeba, id: 2679586 }
+  - form: "pełen"
+    cell: "Именительный"
+    pl: "Dom był pełen gości."
+    ru: "Дом был полон гостей."
+    source: { kind: authored }
+  - form: "pełen"
+    cell: "Именительный"
+    pl: "Jestem pełen podziwu."
+    ru: "Я полон восхищения."
+    source: { kind: authored }
+  - form: "pełen"
+    cell: "Винительный"
+    pl: "Znalazł worek pełen złota."
+    ru: "Он нашёл мешок, полный золота."
+    source: { kind: authored }
   - form: "pełna"
     pl: "Pełna zgoda."
     ru: "Полное согласие."
@@ -207,6 +226,7 @@ formExamples:
     ru: "Зал был полон людей."
     source: { kind: authored }
   - form: "pełną"
+    cell: "Винительный"
     pl: "Kup pełną wersję."
     ru: "Купи полную версию."
     source: { kind: translated, id: 11581323 }
@@ -216,8 +236,24 @@ formExamples:
     ru: "У меня полный стакан."
     source: { kind: authored }
   - form: "pełną"
+    cell: "Винительный"
     pl: "Podał mi pełną miskę zupy."
     ru: "Он подал мне полную миску супа."
+    source: { kind: authored }
+  - form: "pełną"
+    cell: "Творительный"
+    pl: "Pracuje pełną parą."
+    ru: "Он работает на полную мощность."
+    source: { kind: authored }
+  - form: "pełną"
+    cell: "Творительный"
+    pl: "Wrócił z pełną torbą."
+    ru: "Он вернулся с полной сумкой."
+    source: { kind: authored }
+  - form: "pełną"
+    cell: "Творительный"
+    pl: "Odetchnął pełną piersią."
+    ru: "Он вздохнул полной грудью."
     source: { kind: authored }
   - form: "pełne"
     pl: "Jego serce było pełne cierpienia."
@@ -232,6 +268,7 @@ formExamples:
     ru: "Коробки полные."
     source: { kind: authored }
   - form: "pełnego"
+    cell: "Родительный"
     pl: "Chcę pełnego wyjaśnienia."
     ru: "Я хочу полного объяснения."
     source: { kind: translated, id: 11581465 }
@@ -241,10 +278,12 @@ formExamples:
     ru: "Нет полной картины ситуации."
     source: { kind: authored }
   - form: "pełnego"
+    cell: "Родительный"
     pl: "Szukam pełnego wydania."
     ru: "Я ищу полное издание."
     source: { kind: authored }
   - form: "pełnej"
+    cell: "Предложный"
     pl: "Mówimy o pełnej wersji."
     ru: "Мы говорим о полной версии."
     source: { kind: authored }
@@ -257,6 +296,31 @@ formExamples:
     cell: "Родительный"
     pl: "Nie ma tu pełnej listy."
     ru: "Здесь нет полного списка."
+    source: { kind: authored }
+  - form: "pełnej"
+    cell: "Предложный"
+    pl: "W pełnej sali nie było miejsca."
+    ru: "В полном зале не было места."
+    source: { kind: authored }
+  - form: "pełnej"
+    cell: "Предложный"
+    pl: "Przy pełnej mocy silnik grzeje się."
+    ru: "На полной мощности двигатель греется."
+    source: { kind: authored }
+  - form: "pełnej"
+    cell: "Дательный"
+    pl: "Dzięki pełnej lodówce przetrwali tydzień."
+    ru: "Благодаря полному холодильнику они продержались неделю."
+    source: { kind: authored }
+  - form: "pełnej"
+    cell: "Дательный"
+    pl: "Przyjrzał się pełnej sali."
+    ru: "Он оглядел полный зал."
+    source: { kind: authored }
+  - form: "pełnej"
+    cell: "Дательный"
+    pl: "Zawdzięcza wynik pełnej mobilizacji."
+    ru: "Результатом он обязан полной мобилизации."
     source: { kind: authored }
   - form: "pełnemu"
     pl: "Dzięki pełnemu wyjaśnieniu zrozumiałem."
@@ -432,12 +496,29 @@ formExamples:
     ru: "Мы хотим полных предложений."
     source: { kind: translated, id: 2830012 }
   - form: "pełnych"
+    cell: "Родительный"
     pl: "Czekaliśmy pełnych dwóch godzin."
     ru: "Мы ждали целых два часа."
     source: { kind: authored }
   - form: "pełnych"
+    cell: "Родительный"
     pl: "Nie ma tu pełnych danych."
     ru: "Здесь нет полных данных."
+    source: { kind: authored }
+  - form: "pełnych"
+    cell: "Предложный"
+    pl: "W pełnych autobusach jest duszno."
+    ru: "В полных автобусах душно."
+    source: { kind: authored }
+  - form: "pełnych"
+    cell: "Предложный"
+    pl: "Mówił o pełnych magazynach."
+    ru: "Он говорил о полных складах."
+    source: { kind: authored }
+  - form: "pełnych"
+    cell: "Предложный"
+    pl: "Na pełnych obrotach pracuje fabryka."
+    ru: "Фабрика работает на полных оборотах."
     source: { kind: authored }
   - form: "pełnym"
     cell: "Предложный"
@@ -453,6 +534,36 @@ formExamples:
     cell: "Предложный"
     pl: "Pracuje na pełnym etacie."
     ru: "Он работает на полной ставке."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Дательный"
+    pl: "Przyglądał się pełnym półkom."
+    ru: "Он смотрел на полные полки."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Дательный"
+    pl: "Dzięki pełnym zbiornikom dojechali."
+    ru: "Благодаря полным бакам они доехали."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Дательный"
+    pl: "Przyjrzał się pełnym workom."
+    ru: "Он осмотрел полные мешки."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Творительный"
+    pl: "Jechał pełnym gazem."
+    ru: "Он ехал на полном газу."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Творительный"
+    pl: "Przyszedł z pełnym koszem."
+    ru: "Он пришёл с полной корзиной."
+    source: { kind: authored }
+  - form: "pełnym"
+    cell: "Предложный"
+    pl: "W pełnym słońcu rosną pomidory."
+    ru: "На полном солнце растут помидоры."
     source: { kind: authored }
   - form: "pełnymi"
     pl: "Nie mówi się z pełnymi ustami."
