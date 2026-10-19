@@ -293,7 +293,7 @@ export function validateDictionary(
           if (rowSkipped && count > 0) {
             errors.push(`${path}: "${form}" in row "${row}" is both skipped and exemplified`)
           } else if (!rowSkipped && count < MIN_FORM_EXAMPLES) {
-            warnings.push(
+            errors.push(
               `${path}: "${form}" in row "${row}" has ${count} example(s), need ${MIN_FORM_EXAMPLES}`,
             )
           }

@@ -355,9 +355,8 @@ describe('formExamples cell', () => {
   ]
 
   it('accepts three tagged examples in every row the form fills', () => {
-    const { errors, warnings } = run([...locs, ...vocs])
+    const { errors } = run([...locs, ...vocs])
     expect(errors).toEqual([])
-    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
   })
 
   it('rejects a row that does not hold the form', () => {
@@ -368,10 +367,9 @@ describe('formExamples cell', () => {
     )
   })
 
-  it('warns about a row with fewer than three tagged examples', () => {
-    const { errors, warnings } = run([...locs, vocs[0]])
-    expect(errors).toEqual([])
-    expect(warnings).toContain(
+  it('rejects a row with fewer than three tagged examples', () => {
+    const { errors } = run([...locs, vocs[0]])
+    expect(errors).toContain(
       'dictionary/dom.yml: "domu" in row "Звательный" has 1 example(s), need 3',
     )
   })
@@ -382,16 +380,14 @@ describe('formExamples cell', () => {
       entry('domu', 'Mówimy o domu.'),
       entry('domu', 'Domu, czekaj!'),
     ]
-    const { errors, warnings } = run(untagged)
+    const { errors } = run(untagged)
     expect(errors).toEqual([])
-    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
   })
 
   it("lets a row skip stand in for a row's examples", () => {
     const skip = { form: 'domu', cell: 'Звательный', reason: 'к дому не обращаются' }
-    const { errors, warnings } = run(locs, [skip])
+    const { errors } = run(locs, [skip])
     expect(errors).toEqual([])
-    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
   })
 
   it('rejects a row skip on a row the form does not fill, or one that has examples', () => {
@@ -466,9 +462,8 @@ describe('adjective vocative', () => {
   }
 
   it('lets the vocative row borrow the nominative examples, and a lone row show them all', () => {
-    const { errors, warnings } = run()
+    const { errors } = run()
     expect(errors).toEqual([])
-    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
   })
 
   it('rejects an example or a skip tagged for the vocative', () => {
