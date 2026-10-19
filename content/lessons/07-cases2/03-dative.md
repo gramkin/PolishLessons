@@ -88,7 +88,20 @@ questions:
 :pron{pl="Gratuluję ci!"} — Поздравляю тебя!
 :pron{pl="Gratuluję panu!"} — Поздравляю вас!
 
-А то, с чем поздравляют, стоит в родительном, а не в творительном, как в русском «с успехом»: :pron{pl="Gratuluję ci sukcesu!"} — Поздравляю тебя с успехом! *Gratulować* — поздравление с достижением; с праздником или днём рождения поляк не «поздравляет», а желает: *życzę ci wszystkiego najlepszego*, «желаю тебе всего наилучшего» — *życzyć* из седьмой главы.
+А то, с чем поздравляют, стоит в родительном, без предлога, а не в творительном с «с», как в русском:
+
+:pron{pl="Gratuluję ci sukcesu!"} — Поздравляю тебя с успехом!
+:pron{pl="Gratulujemy wam zwycięstwa!"} — Поздравляем вас с победой!
+:pron{pl="Gratuluję ci nowej pracy."} — Поздравляю тебя с новой работой.
+:pron{pl="Gratuluję pani awansu."} — Поздравляю вас с повышением.
+:pron{pl="Gratuluję zdanego egzaminu!"} — Поздравляю со сданным экзаменом!
+
+*Gratulować* — поздравление с достижением. С праздником или днём рождения поляк не «поздравляет», а желает — *życzyć* из седьмой главы, тоже «кому» и «чего»:
+
+:pron{pl="Życzę ci wszystkiego najlepszego!"} — Желаю тебе всего наилучшего!
+:pron{pl="Życzymy pani zdrowia i szczęścia."} — Желаем вам здоровья и счастья.
+
+А сам повод называют оборотом *z okazji* + родительный: :pron{pl="Wszystkiego najlepszego z okazji urodzin!"} — С днём рождения! Отдельного глагола в этой фразе нет.
 
 А «советовать» в обоих языках с дательным: :pron{pl="Radzę ci odpocząć."} — Советую тебе отдохнуть.
 
@@ -216,6 +229,7 @@ questions:
 
 - *Dziękuję cię.* → :pron{pl="Dziękuję ci."} «Благодарю тебя» — винительный, но *dziękować* требует дательного.
 - *Gratuluję cię.* → :pron{pl="Gratuluję ci."} Та же ловушка: «поздравляю тебя», но *gratulować* кому — дательный.
+- *Gratuluję ci z sukcesem.* → :pron{pl="Gratuluję ci sukcesu."} То, с чем поздравляют, — родительный без предлога; русское «с успехом» подсказывает лишнее *z*.
 - *Daję książkę studentu.* → :pron{pl="Daję książkę studentowi."} Обычное мужское окончание — **-owi**; русское «-у» есть только у немногих слов: *bratu*, *panu*, *ojcu*, *psu*.
 
 ::quiz
