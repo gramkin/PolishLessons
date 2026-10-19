@@ -72,7 +72,7 @@ questions:
 
 ## Когда окончание -u, -i или -y
 
-Мужские и средние слова на **k, g, ch** и мужские на мягкий согласный (в том числе на **l**) берут **-u** и ничего не меняют. Так же ведут себя несколько частых слов: **dom → w domu**, **syn → o synu**, **pan → o panu**. Женские слова это правило не затрагивает: **książka → o książce**, **noga → na nodze**.
+Мужские и средние слова на **k, g, ch**, а также на мягкий согласный берут **-u** и ничего не меняют. Мягкими здесь считаются и **l, j**, и шипящие **c, cz, sz, rz, ż, dz**: *hotel → w hotelu*, *kraj → w kraju*, *talerz → na talerzu*. Сюда же относятся все средние слова на **-e** и **-ie**: *morze → w morzu*, *mieszkanie → w mieszkaniu*. Так же ведут себя несколько частых слов: **dom → w domu**, **syn → o synu**, **pan → o panu**. Женские слова это правило не затрагивает: **książka → o książce**, **noga → na nodze**.
 
 :pron{pl="Jestem w domu."} — Я дома.
 :pron{pl="Mieszkam w hotelu."} — Я живу в отеле.
@@ -82,8 +82,10 @@ questions:
 
 :pron{pl="Telefon jest w plecaku."} — Телефон в рюкзаке.
 :pron{pl="Kot śpi na łóżku."} — Кот спит на кровати.
+:pron{pl="Mieszkam w dużym mieszkaniu."} — Я живу в большой квартире.
+:pron{pl="Latem pływamy w morzu."} — Летом мы плаваем в море.
 
-Третья группа — женские слова на **-ca, -cza, -ża, -rza, -ja, -ia** и на мягкий согласный. Они берут **-y** (после c, cz, ż, rz) или **-i** (после остальных) и тоже ничего не смягчают — основа уже мягкая:
+Третья группа — женские слова на **-ca, -cza, -sza, -ża, -rza, -dza, -ja, -ia** и на мягкий согласный. Они берут **-y** (после c, cz, sz, ż, rz, dz) или **-i** (после остальных) и тоже ничего не смягчают — основа уже мягкая:
 
 :pron{pl="Jestem w pracy."} — Я на работе.
 :pron{pl="Mieszkam na ulicy Długiej."} — Я живу на Длугой улице.
@@ -127,6 +129,8 @@ questions:
 :pron{pl="Rozmawiamy o pracy."} — Мы говорим о работе.
 
 Заметьте: *w pracy* — «на работе», а не «в работе». Предлоги в двух языках распределены по-разному, и это приходится запоминать пословно. Иногда предлог совпадает с русским (*na poczcie* «на почте», *na koncercie* «на концерте»), а иногда нет: в университете учатся *na uniwersytecie*.
+
+Предложный после *w* и *na* отвечает только на «где?». На «куда?» эти предлоги берут винительный, а чаще польский говорит *do* + родительный: *jestem w szkole*, но *idę do szkoły*. Подробно об этом — в уроке о предлогах.
 
 <!-- review -->
 
@@ -193,7 +197,7 @@ questions:
 <!-- review -->
 
 - *Jestem na pracy.* → :pron{pl="Jestem w pracy."} Русское «на работе» подсказывает *na*, но польский говорит *w pracy*.
-- *Mieszkam w miaście.* → :pron{pl="Mieszkam w mieście."} Перед **-e** не только **t** переходит в **ci**, но и **a** в основе — в **e**.
+- *Mieszkam w miaście.* → :pron{pl="Mieszkam w mieście."} Перед **-e** не только **st** переходит в **ści**, но и **a** в основе — в **e**.
 - *Myślę o książke.* → :pron{pl="Myślę o książce."} В женских словах **k** перед **-e** переходит в **c**: русское «о книге» сохраняет «г», польское — нет.
 - *Jestem w domie.* → :pron{pl="Jestem w domu."} *Dom* — одно из слов на **-u**, без смягчения.
 
@@ -241,7 +245,7 @@ questions:
   - type: translate
     q: Я на работе.
     answer: [Jestem w pracy.]
-    explain: "«На работе» по-польски w pracy: предлог другой, чем в русском, а окончание -y, как у слов на -ca."
+    explain: "«На работе» по-польски w pracy: предлог другой, чем в русском, а окончание -y, потому что praca — слово на -ca."
 ---
 ::
 
@@ -252,7 +256,7 @@ questions:
   - type: input
     q: "Mieszkam w ___. (miasto)"
     answer: mieście
-    explain: "w + предложный о месте; t перед -e переходит в ci, а a в основе — в e: miasto → w mieście."
+    explain: "w + предложный о месте; st перед -e переходит в ści, а a в основе — в e: miasto → w mieście."
   - type: input
     q: "Myślę o ___. (książka)"
     answer: książce
