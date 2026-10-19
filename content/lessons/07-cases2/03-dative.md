@@ -304,10 +304,10 @@ questions:
   - type: match
     q: Соедините глагол и дополнение
     pairs:
-      - [dziękować, "ci"]
-      - [pomagać, "mamie"]
-      - [ufać, "bratu"]
-    explain: "Все три глагола требуют дательного."
+      - [dziękować, "mamie"]
+      - [słuchać, "muzyki"]
+      - [interesować się, "historią"]
+    explain: "dziękować требует дательного: mamie. słuchać — родительного: muzyki (урок 7.4). interesować się — творительного: historią (урок 8.1)."
 ---
 ::
 
