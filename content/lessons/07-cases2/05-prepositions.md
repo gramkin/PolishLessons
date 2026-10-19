@@ -41,6 +41,9 @@ rows:
 :pron{pl="Idę na koncert."} — Я иду на концерт.
 :pron{pl="Jestem na koncercie."} — Я на концерте.
 :pron{pl="Jadę w góry."} — Я еду в горы.
+:pron{pl="Jesteśmy w górach."} — Мы в горах.
+
+Та же *do* + родительный заменяет и русское «к» + дательный, когда идут к человеку: :pron{pl="Idę do lekarza."} — Я иду к врачу. :pron{pl="Jadę do babci."} — Я еду к бабушке. Калька *idę ku lekarzowi* по-польски невозможна.
 
 ### Nad morze и nad morzem
 
@@ -70,7 +73,7 @@ questions:
     answer: 1
     explain: "«Куда?» в здание или город — do + родительный: idę do szkoły. W szkole — «где?», а «w szkołę» так не говорят."
   - type: choice
-    q: "Kot wskoczył na ___. (stół)"
+    q: "Kot wskakuje na ___. (stół)"
     options: [stół, stole]
     answer: 0
     explain: "Движение «куда?» — винительный: na stół. Место «где?» было бы na stole."

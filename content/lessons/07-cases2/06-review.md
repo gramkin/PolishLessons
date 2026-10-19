@@ -19,7 +19,7 @@ headers: [Урок, Тема, Главное, Пример]
 plColumns: [3]
 rows:
   - ["8.1", Творительный падеж, "-em / -ą; существительное после być и zostać; транспорт без предлога; z «вместе с»; pod, nad, przed, za, między о месте", "Jadę do pracy tramwajem."]
-  - ["8.2", Предложный падеж, "только с предлогами w, na, o, przy, po; -e со смягчением; -u после k, g, ch и у dom, syn, pan; -y или -i у мягких женских", "Mieszkam w mieście."]
+  - ["8.2", Предложный падеж, "только с предлогами w, na, o, przy, po; -e со смягчением; -u после k, g, ch, у мягких мужских и средних на -e и у dom, syn, pan; -y или -i у мягких женских", "Mieszkam w mieście."]
   - ["8.3", Дательный падеж, "кому; мужской -owi (но bratu, panu, ojcu, psu), женский = предложный; dziękować, gratulować, pomagać, wierzyć; mi, ci, mu", "Dziękuję ci."]
   - ["8.4", Звательный падеж, "-o у слов на -a; -u у ласковых на -cia, -sia, -nia и после k, g; -e со смягчением; panie + титул; pani не меняется", "Panie doktorze, mam pytanie."]
   - ["8.5", Предлоги с двумя падежами, "w и na: куда — винительный (но чаще do + родительный), где — предложный; z: откуда — родительный, с кем — творительный; nad morze, nad morzem; po chleb, po pracy", "Jedziemy nad morze."]
@@ -204,7 +204,7 @@ questions:
   - type: translate
     q: "Я живу в городе."
     answer: ["Mieszkam w mieście.", "Ja mieszkam w mieście."]
-    explain: "w + предложный: miasto → w mieście; t перед -e смягчается, а a переходит в e."
+    explain: "w + предложный: miasto → w mieście; st перед -e смягчается в ści, а a переходит в e."
   - type: listen
     text: Idę do kina z siostrą.
     explain: "Куда — do + родительный: do kina. С кем — z + творительный: z siostrą."
