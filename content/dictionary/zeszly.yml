@@ -78,6 +78,8 @@ idioms:
   - { pl: "zeszłej nocy", ru: "прошлой ночью" }
 formExamplesSkip:
   - { form: "zeszli", reason: "мужско-личной формы у этого прилагательного нет: zeszły сочетается с отрезками времени (rok, tydzień, miesiąc), а они не мужско-личные" }
+  - { form: "zeszłego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
+  - { form: "zeszłych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "zeszła"
     pl: "Zeszła zima była mroźna."
@@ -106,6 +108,21 @@ formExamples:
     pl: "Pamiętam, że w zeszłą niedzielę wracałem do domu furgonetką."
     ru: "Я помню, что в прошлое воскресенье возвращался домой на фургоне."
     source: { kind: translated, id: 734268 }
+  - form: "zeszłą"
+    cell: "Творительный"
+    pl: "Przed zeszłą zimą kupił piec."
+    ru: "Перед прошлой зимой он купил печь."
+    source: { kind: authored }
+  - form: "zeszłą"
+    cell: "Творительный"
+    pl: "Porównał wyniki z zeszłą jesienią."
+    ru: "Он сравнил результаты с прошлой осенью."
+    source: { kind: authored }
+  - form: "zeszłą"
+    cell: "Творительный"
+    pl: "Porównał tę zimę z zeszłą."
+    ru: "Он сравнил эту зиму с прошлой."
+    source: { kind: authored }
   - form: "zeszłe"
     pl: "Zeszłe wakacje były udane."
     ru: "Прошлые каникулы удались."
@@ -124,10 +141,12 @@ formExamples:
     ru: "Том умер в октябре прошлого года."
     source: { kind: tatoeba, id: 5441170 }
   - form: "zeszłego"
+    cell: "Родительный"
     pl: "Pada od zeszłego czwartku."
     ru: "Дождь идёт с прошлого четверга."
     source: { kind: translated, id: 352850 }
   - form: "zeszłego"
+    cell: "Родительный"
     pl: "Zeszłego września była w Paryżu."
     ru: "В прошлом сентябре она была в Париже."
     source: { kind: translated, id: 7891086 }
@@ -182,6 +201,21 @@ formExamples:
     pl: "Wśród zeszłych sezonów ten był najlepszy."
     ru: "Среди прошлых сезонов этот был лучшим."
     source: { kind: authored }
+  - form: "zeszłych"
+    cell: "Родительный"
+    pl: "Od zeszłych wakacji go nie widziałem."
+    ru: "Я не видел его с прошлых каникул."
+    source: { kind: authored }
+  - form: "zeszłych"
+    cell: "Предложный"
+    pl: "Mówił o zeszłych wakacjach."
+    ru: "Он говорил о прошлых каникулах."
+    source: { kind: authored }
+  - form: "zeszłych"
+    cell: "Предложный"
+    pl: "Na zeszłych zawodach wygrał."
+    ru: "На прошлых соревнованиях он победил."
+    source: { kind: authored }
   - form: "zeszłym"
     cell: "Предложный"
     pl: "To się stało w zeszłym tygodniu."
@@ -197,6 +231,36 @@ formExamples:
     pl: "To się wydarzyło w zeszłym tygodniu."
     ru: "Это случилось на прошлой неделе."
     source: { kind: tatoeba, id: 12564833 }
+  - form: "zeszłym"
+    cell: "Дательный"
+    pl: "Dzięki zeszłym zbiorom mieli zapasy."
+    ru: "Благодаря прошлому урожаю у них были запасы."
+    source: { kind: authored }
+  - form: "zeszłym"
+    cell: "Дательный"
+    pl: "Przyjrzał się zeszłym wynikom."
+    ru: "Он изучил прошлые результаты."
+    source: { kind: authored }
+  - form: "zeszłym"
+    cell: "Дательный"
+    pl: "Nie dorównał zeszłym osiągnięciom."
+    ru: "Он не дотянул до прошлых достижений."
+    source: { kind: authored }
+  - form: "zeszłym"
+    cell: "Творительный"
+    pl: "Porównał ten rok z zeszłym."
+    ru: "Он сравнил этот год с прошлым."
+    source: { kind: authored }
+  - form: "zeszłym"
+    cell: "Творительный"
+    pl: "Przed zeszłym sezonem zmienił klub."
+    ru: "Перед прошлым сезоном он сменил клуб."
+    source: { kind: authored }
+  - form: "zeszłym"
+    cell: "Творительный"
+    pl: "Zachwycali się zeszłym koncertem."
+    ru: "Они восхищались прошлым концертом."
+    source: { kind: authored }
   - form: "zeszłymi"
     pl: "Między zeszłymi a tegorocznymi wynikami jest różnica."
     ru: "Между прошлыми и нынешними результатами есть разница."

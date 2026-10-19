@@ -51,13 +51,30 @@ formExamples:
     ru: "Ни одна птица не любит сидеть в клетке."
     source: { kind: tatoeba, id: 965320 }
   - form: "żaden"
+    cell: "Именительный"
     pl: "Nie podoba mi się żaden z tych obrazów."
     ru: "Мне не нравится ни одна из этих картин."
     source: { kind: tatoeba, id: 352529 }
   - form: "żaden"
+    cell: "Именительный"
     pl: "Lubię karaoke, ale żaden ze mnie piosenkarz."
     ru: "Я люблю караоке, но певец из меня никакой."
     source: { kind: tatoeba, id: 5513505 }
+  - form: "żaden"
+    cell: "Винительный"
+    pl: "Nie zgadzam się na żaden kompromis."
+    ru: "Я не соглашаюсь ни на какой компромисс."
+    source: { kind: authored }
+  - form: "żaden"
+    cell: "Винительный"
+    pl: "W żaden sposób nie mogę pomóc."
+    ru: "Я никак не могу помочь."
+    source: { kind: authored }
+  - form: "żaden"
+    cell: "Винительный"
+    pl: "Nie pojadę na żaden urlop."
+    ru: "Я не поеду ни в какой отпуск."
+    source: { kind: authored }
   - form: "żadna"
     pl: "To żadna nowość."
     ru: "Это никакая не новость."
@@ -85,6 +102,21 @@ formExamples:
     pl: "Żadną miarą się na to nie zgadzam."
     ru: "Никоим образом я на это не согласен."
     source: { kind: authored }
+  - form: "żadną"
+    cell: "Винительный"
+    pl: "Nie zgodzi się na żadną zmianę."
+    ru: "Он не согласится ни на какое изменение."
+    source: { kind: authored }
+  - form: "żadną"
+    cell: "Творительный"
+    pl: "Nie jest żadną gwiazdą."
+    ru: "Она никакая не звезда."
+    source: { kind: authored }
+  - form: "żadną"
+    cell: "Творительный"
+    pl: "Nie rozmawiał z żadną dziewczyną."
+    ru: "Он не разговаривал ни с одной девушкой."
+    source: { kind: authored }
   - form: "żadne"
     pl: "Żadne z dzieci nie siedzi."
     ru: "Никто из детей не сидит."
@@ -98,10 +130,12 @@ formExamples:
     ru: "Ни одна кость не сломана."
     source: { kind: translated, id: 3435607 }
   - form: "żadnego"
+    cell: "Родительный"
     pl: "Nie zna żadnego z nas."
     ru: "Она никого из нас не знает."
     source: { kind: tatoeba, id: 7185051 }
   - form: "żadnego"
+    cell: "Родительный"
     pl: "Nie znam żadnego z was."
     ru: "Я никого из вас не знаю."
     source: { kind: tatoeba, id: 6159906 }
@@ -110,19 +144,66 @@ formExamples:
     pl: "Nie znam żadnego języka."
     ru: "Я не знаю ни одного языка."
     source: { kind: tatoeba, id: 3743853 }
+  - form: "żadnego"
+    cell: "Винительный"
+    pl: "Nie czekam na żadnego gościa."
+    ru: "Я не жду никакого гостя."
+    source: { kind: authored }
+  - form: "żadnego"
+    cell: "Винительный"
+    pl: "Nie patrzył na żadnego z nich."
+    ru: "Он не смотрел ни на одного из них."
+    source: { kind: authored }
+  - form: "żadnego"
+    cell: "Винительный"
+    pl: "Nie liczy na żadnego sponsora."
+    ru: "Он не рассчитывает ни на какого спонсора."
+    source: { kind: authored }
   - form: "żadnej"
     cell: "Родительный"
     pl: "Na niebie nie ma żadnej chmury."
     ru: "На небе ни облачка."
     source: { kind: tatoeba, id: 610610 }
   - form: "żadnej"
+    cell: "Родительный"
     pl: "Ten język nie przynależy do żadnej rodziny językowej."
     ru: "Этот язык не принадлежит ни к одной языковой семье."
     source: { kind: tatoeba, id: 13694043 }
   - form: "żadnej"
+    cell: "Родительный"
     pl: "Nie chcę żadnej pomocy."
     ru: "Я не хочу никакой помощи."
     source: { kind: translated, id: 4099726 }
+  - form: "żadnej"
+    cell: "Дательный"
+    pl: "Nie ufa żadnej kobiecie."
+    ru: "Он не доверяет ни одной женщине."
+    source: { kind: authored }
+  - form: "żadnej"
+    cell: "Дательный"
+    pl: "Nie ustąpił żadnej presji."
+    ru: "Он не уступил никакому давлению."
+    source: { kind: authored }
+  - form: "żadnej"
+    cell: "Дательный"
+    pl: "Nie dał wiary żadnej plotce."
+    ru: "Он не поверил ни одному слуху."
+    source: { kind: authored }
+  - form: "żadnej"
+    cell: "Предложный"
+    pl: "Nie mówił o żadnej zmianie."
+    ru: "Он не говорил ни о каком изменении."
+    source: { kind: authored }
+  - form: "żadnej"
+    cell: "Предложный"
+    pl: "W żadnej sytuacji nie panikuje."
+    ru: "Ни в какой ситуации он не паникует."
+    source: { kind: authored }
+  - form: "żadnej"
+    cell: "Предложный"
+    pl: "Na żadnej mapie tego nie ma."
+    ru: "Этого нет ни на одной карте."
+    source: { kind: authored }
   - form: "żadnemu"
     pl: "„Któremu bankowi można ufać?“ - „Żadnemu.“"
     ru: "«Какому банку можно доверять?» — «Никакому»."
@@ -170,8 +251,39 @@ formExamples:
     ru: "Ни в коем случае!"
     source: { kind: translated, id: 7983161 }
   - form: "żadnym"
+    cell: "Предложный"
     pl: "Nie jestem w żadnym klubie."
     ru: "Я не состою ни в каком клубе."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Дательный"
+    pl: "Nie ufa żadnym politykom."
+    ru: "Он не доверяет никаким политикам."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Дательный"
+    pl: "Nie ulega żadnym naciskom."
+    ru: "Он не поддаётся никакому давлению."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Дательный"
+    pl: "Nie wierzy żadnym obietnicom."
+    ru: "Он не верит никаким обещаниям."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Творительный"
+    pl: "Nie jest żadnym ekspertem."
+    ru: "Он никакой не эксперт."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Творительный"
+    pl: "Nie rozmawiał z żadnym lekarzem."
+    ru: "Он не разговаривал ни с одним врачом."
+    source: { kind: authored }
+  - form: "żadnym"
+    cell: "Творительный"
+    pl: "Nie jeździ żadnym autobusem."
+    ru: "Он не ездит ни на каком автобусе."
     source: { kind: authored }
   - form: "żadnymi"
     pl: "Nie interesuję się żadnymi plotkami."

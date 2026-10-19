@@ -64,6 +64,8 @@ idioms:
   - { pl: "złote serce", ru: "золотое сердце" }
   - { pl: "złota rączka", ru: "мастер на все руки" }
   - { pl: "obiecywać złote góry", ru: "обещать золотые горы" }
+formExamplesSkip:
+  - { form: "złotych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "złoci"
     pl: "Złoci medaliści stanęli na podium."
@@ -95,6 +97,7 @@ formExamples:
     ru: "У неё золотая кредитная карта."
     source: { kind: translated, id: 3430035 }
   - form: "złotą"
+    cell: "Творительный"
     pl: "Zamieszała czarną herbatę złotą łyżeczką."
     ru: "Она размешала чёрный чай золотой ложечкой."
     source: { kind: translated, id: 4134059 }
@@ -102,6 +105,21 @@ formExamples:
     cell: "Винительный"
     pl: "Zdobył złotą nagrodę."
     ru: "Он получил золотую награду."
+    source: { kind: authored }
+  - form: "złotą"
+    cell: "Творительный"
+    pl: "Pisał złotą stalówką."
+    ru: "Он писал золотым пером."
+    source: { kind: authored }
+  - form: "złotą"
+    cell: "Творительный"
+    pl: "Ozdobili salę złotą tkaniną."
+    ru: "Они украсили зал золотой тканью."
+    source: { kind: authored }
+  - form: "złotą"
+    cell: "Винительный"
+    pl: "Zdobył złotą odznakę."
+    ru: "Он получил золотой значок."
     source: { kind: authored }
   - form: "złote"
     pl: "Ma złote serce."
@@ -116,6 +134,7 @@ formExamples:
     ru: "Золотой ты ребёнок."
     source: { kind: translated, id: 357043 }
   - form: "złotego"
+    cell: "Родительный"
     pl: "Nie mam przy sobie ani złotego."
     ru: "У меня нет при себе ни злотого."
     source: { kind: authored }
@@ -125,8 +144,24 @@ formExamples:
     ru: "Я ищу золотое кольцо."
     source: { kind: authored }
   - form: "złotego"
+    cell: "Родительный"
     pl: "Dotyczy to złotego medalu."
     ru: "Это касается золотой медали."
+    source: { kind: authored }
+  - form: "złotego"
+    cell: "Винительный"
+    pl: "Złowił złotego karpia."
+    ru: "Он поймал золотистого карпа."
+    source: { kind: authored }
+  - form: "złotego"
+    cell: "Винительный"
+    pl: "Widział złotego orła."
+    ru: "Он видел беркута."
+    source: { kind: authored }
+  - form: "złotego"
+    cell: "Винительный"
+    pl: "Hoduje złotego bażanta."
+    ru: "Он разводит золотого фазана."
     source: { kind: authored }
   - form: "złotej"
     cell: "Родительный"
@@ -134,6 +169,7 @@ formExamples:
     ru: "У меня память, как у золотой рыбки."
     source: { kind: tatoeba, id: 8761437 }
   - form: "złotej"
+    cell: "Предложный"
     pl: "Świat oparty jest na złotej zasadzie: kto ma złoto, ten ustala zasady."
     ru: "Мир держится на золотом правиле: кто владеет золотом, тот и устанавливает правила."
     source: { kind: translated, id: 965029 }
@@ -141,6 +177,36 @@ formExamples:
     cell: "Родительный"
     pl: "Nie ma tu złotej obrączki."
     ru: "Золотого кольца здесь нет."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Предложный"
+    pl: "Mówił o złotej erze kina."
+    ru: "Он говорил о золотой эре кино."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Предложный"
+    pl: "W złotej klatce źle mu się żyje."
+    ru: "В золотой клетке ему плохо живётся."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Родительный"
+    pl: "Szuka złotej obrączki."
+    ru: "Он ищет золотое обручальное кольцо."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Дательный"
+    pl: "Przyglądał się złotej koronie."
+    ru: "Он разглядывал золотую корону."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Дательный"
+    pl: "Dzięki złotej rybce spełniły się życzenia."
+    ru: "Благодаря золотой рыбке желания исполнились."
+    source: { kind: authored }
+  - form: "złotej"
+    cell: "Дательный"
+    pl: "Zawdzięcza sukces złotej zasadzie."
+    ru: "Успехом он обязан золотому правилу."
     source: { kind: authored }
   - form: "złotemu"
     pl: "Przyjrzał się złotemu medalowi."
@@ -167,10 +233,12 @@ formExamples:
     ru: "Это первая золотая медаль, которую она завоевала."
     source: { kind: translated, id: 817197 }
   - form: "złotych"
+    cell: "Родительный"
     pl: "Książka kosztuje 10 złotych po zniżce."
     ru: "Книга стоит 10 злотых по скидке."
     source: { kind: tatoeba, id: 6319670 }
   - form: "złotych"
+    cell: "Родительный"
     pl: "Zapłaciłem za ten samochód szesnaście tysięcy złotych."
     ru: "Я заплатил за эту машину шестнадцать тысяч злотых."
     source: { kind: tatoeba, id: 6119529 }
@@ -179,6 +247,21 @@ formExamples:
     pl: "Chris zdobył 7 złotych monet!"
     ru: "Крис добыл семь золотых монет!"
     source: { kind: translated, id: 521444 }
+  - form: "złotych"
+    cell: "Предложный"
+    pl: "Mówił o złotych czasach."
+    ru: "Он говорил о золотых временах."
+    source: { kind: authored }
+  - form: "złotych"
+    cell: "Предложный"
+    pl: "W złotych ramach wisi obraz."
+    ru: "В золотой раме висит картина."
+    source: { kind: authored }
+  - form: "złotych"
+    cell: "Предложный"
+    pl: "Na złotych talerzach podano obiad."
+    ru: "Обед подали на золотых тарелках."
+    source: { kind: authored }
   - form: "złotym"
     cell: "Предложный"
     pl: "W złotym świetle zachodu wszystko wyglądało inaczej."
@@ -193,6 +276,36 @@ formExamples:
     cell: "Творительный"
     pl: "Zajął się złotym medalem."
     ru: "Он занялся золотой медалью."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Дательный"
+    pl: "Przyglądał się złotym monetom."
+    ru: "Он разглядывал золотые монеты."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Дательный"
+    pl: "Dzięki złotym medalom stał się sławny."
+    ru: "Благодаря золотым медалям он прославился."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Творительный"
+    pl: "Był złotym dzieckiem."
+    ru: "Он был золотым ребёнком."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Творительный"
+    pl: "Ozdobił tort złotym pyłem."
+    ru: "Он украсил торт золотой пыльцой."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Предложный"
+    pl: "Mówił o złotym medalu."
+    ru: "Он говорил о золотой медали."
+    source: { kind: authored }
+  - form: "złotym"
+    cell: "Предложный"
+    pl: "W złotym pierścieniu jest diament."
+    ru: "В золотом кольце бриллиант."
     source: { kind: authored }
   - form: "złotymi"
     pl: "Wrócił ze złotymi monetami."
