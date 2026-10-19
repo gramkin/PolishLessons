@@ -196,8 +196,28 @@ export function validateDictionary(
       const allowed = new Set([...expected, ...analytic])
       const rowsByForm = new Map<string, Set<string>>()
       const aliases = new Map<string, string>()
+      // Rows a form fills where the table shows only that row's examples: two or more
+      // distinct rows of one table. A form alone in its table («Положительная») shows
+      // every example there.
+      const distinctRows = new Map<string, Set<string>>()
       for (const table of formsFile.tables) {
-        for (const [row, target] of rowAliases(table, card.pos)) aliases.set(row, target)
+        const tableAliases = rowAliases(table, card.pos)
+        for (const [row, target] of tableAliases) aliases.set(row, target)
+        const inTable = new Map<string, Set<string>>()
+        for (const row of table.rows) {
+          if (tableAliases.has(row.label)) continue
+          for (const form of row.cells.flat()) {
+            const rows = inTable.get(form) ?? new Set<string>()
+            rows.add(row.label)
+            inTable.set(form, rows)
+          }
+        }
+        for (const [form, rows] of inTable) {
+          if (rows.size < 2) continue
+          const all = distinctRows.get(form) ?? new Set<string>()
+          for (const row of rows) all.add(row)
+          distinctRows.set(form, all)
+        }
         for (const row of table.rows) {
           for (const form of row.cells.flat()) {
             const rows = rowsByForm.get(form) ?? new Set<string>()
@@ -267,8 +287,7 @@ export function validateDictionary(
         tagged.set(entry.form, byRow)
       }
       for (const [form, byRow] of tagged) {
-        for (const row of rowsByForm.get(form) ?? []) {
-          if (aliases.has(row)) continue
+        for (const row of distinctRows.get(form) ?? []) {
           const count = byRow.get(row) ?? 0
           const rowSkipped = rowSkips.has(`${row}|${form}`)
           if (rowSkipped && count > 0) {

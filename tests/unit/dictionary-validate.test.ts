@@ -440,6 +440,12 @@ describe('adjective vocative', () => {
         ],
         extra: false,
       },
+      {
+        title: 'Степени сравнения',
+        columns: ['Форма'],
+        rows: [{ label: 'Положительная', cells: [['nowy']] }],
+        extra: false,
+      },
     ]
     const card = b.cards[0]!.data as {
       pos: string
@@ -459,7 +465,7 @@ describe('adjective vocative', () => {
     return validateDictionary(b, { requireLessonCards: false })
   }
 
-  it('lets the vocative row borrow the nominative examples', () => {
+  it('lets the vocative row borrow the nominative examples, and a lone row show them all', () => {
     const { errors, warnings } = run()
     expect(errors).toEqual([])
     expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
