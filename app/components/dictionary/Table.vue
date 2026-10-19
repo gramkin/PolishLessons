@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { FormExample, FormsTable } from '#shared/dictionary'
-import { examplesForCell, highlightForms, rowsHoldingForm } from '~/utils/dictionary'
+import type { CardPos, FormExample, FormsTable } from '#shared/dictionary'
+import { examplesForCell, highlightForms, rowAliases, rowsHoldingForm } from '~/utils/dictionary'
 
 const props = defineProps<{
   table: FormsTable
@@ -10,6 +10,8 @@ const props = defineProps<{
   skipped?: Record<string, string>
   /** "row|form" -> why that row of the form carries no example */
   skippedRows?: Record<string, string>
+  /** the card's part of speech; an adjective's vocative row repeats its nominative */
+  pos?: CardPos
 }>()
 
 // A cell, not a spelling, is selected: «tchórzu» fills both «Предложный» and
@@ -17,9 +19,16 @@ const props = defineProps<{
 const selected = ref<{ form: string; row: string; key: string } | null>(null)
 const panelId = useId()
 
+// An alias row (an adjective's vocative) shows the examples of the row it repeats.
+const aliases = computed(() => rowAliases(props.table, props.pos))
+
+function distinctRows(form: string): string[] {
+  return rowsHoldingForm(props.table, form).filter((r) => !aliases.value.has(r))
+}
+
 function cellExamples(form: string, row: string) {
-  const rows = rowsHoldingForm(props.table, form)
-  return examplesForCell(props.examples?.[form] ?? [], row, rows.length)
+  const target = aliases.value.get(row) ?? row
+  return examplesForCell(props.examples?.[form] ?? [], target, distinctRows(form).length)
 }
 
 function hasExamples(form: string, row: string): boolean {
@@ -34,11 +43,18 @@ const shownCount = computed(() => shown.value.own.length + shown.value.shared.le
 // Untagged examples of a shared form may illustrate any of its rows; say so.
 const sharedNote = computed(() => {
   if (!selected.value || shown.value.shared.length === 0) return ''
-  const rows = rowsHoldingForm(props.table, selected.value.form)
+  const rows = distinctRows(selected.value.form)
   if (rows.length <= 1) return ''
   const names = rows.map((r) => r.toLowerCase())
   return `Та же форма — ${names.slice(0, -1).join(', ')} и ${names.at(-1)}:`
 })
+
+// rowAliases maps only an adjective's vocative, always onto the nominative.
+const aliasNote = computed(() =>
+  selected.value && aliases.value.has(selected.value.row)
+    ? `${selected.value.row} совпадает с именительным:`
+    : '',
+)
 
 // A form with no example is explained right under its own table: the reader
 // looking at «Повелительное наклонение» should not have to hunt for the reason.
@@ -122,6 +138,7 @@ function toggle(form: string, row: string, key: string) {
           <span lang="pl" class="form-name">{{ selected.form }}</span>
           <span class="count">{{ shownCount }} прим.</span>
         </p>
+        <p v-if="aliasNote" class="shared-note">{{ aliasNote }}</p>
         <template v-for="part in ['own', 'shared'] as const" :key="part">
           <p v-if="part === 'shared' && sharedNote" class="shared-note">{{ sharedNote }}</p>
           <ul v-if="shown[part].length > 0" class="form-example-items">

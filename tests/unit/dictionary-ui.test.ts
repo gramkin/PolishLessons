@@ -6,6 +6,7 @@ import {
   conjugations,
   highlightForms,
   examplesForCell,
+  rowAliases,
   rowsHoldingForm,
   rankBand,
   tatoebaUrl,
@@ -174,5 +175,35 @@ describe('examplesForCell', () => {
 
   it("treats every example as the cell's own when the form fills one row", () => {
     expect(examplesForCell([loose], 'Предложный', 1)).toEqual({ own: [loose], shared: [] })
+  })
+})
+
+describe('rowAliases', () => {
+  const declension = (nom: string[][], voc: string[][]): FormsTable => ({
+    title: 'Склонение',
+    columns: ['м. р.', 'ж. р.'],
+    rows: [
+      { label: 'Именительный', cells: nom },
+      { label: 'Родительный', cells: [['nowego'], ['nowej']] },
+      { label: 'Звательный', cells: voc },
+    ],
+    extra: false,
+  })
+
+  it("makes an adjective's vocative an alias of its nominative", () => {
+    const table = declension([['nowy'], ['nowa']], [['nowy'], ['nowa']])
+    expect(rowAliases(table, 'adj')).toEqual(new Map([['Звательный', 'Именительный']]))
+  })
+
+  it('accepts a vocative that lacks the short nominative', () => {
+    const table = declension([['pełen', 'pełny'], ['pełna']], [['pełny'], ['pełna']])
+    expect(rowAliases(table, 'adj').get('Звательный')).toBe('Именительный')
+  })
+
+  it('leaves nouns and a vocative with forms of its own alone', () => {
+    const same = declension([['okno'], ['okna']], [['okno'], ['okna']])
+    expect(rowAliases(same, 'noun').size).toBe(0)
+    const own = declension([['nowy'], ['nowa']], [['nowy'], ['nowo']])
+    expect(rowAliases(own, 'adj').size).toBe(0)
   })
 })

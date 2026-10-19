@@ -11,6 +11,7 @@ import {
   REASONS_NEEDING_SEE,
   type ExclusionNote,
 } from '../dictionary/lib/rank'
+import { rowAliases } from '../../app/utils/dictionary'
 import { affirmativeForms } from '../dictionary/lib/draft'
 import { tokenize } from '../dictionary/lib/tatoeba'
 import type { DataFile } from './load-content'
@@ -194,7 +195,9 @@ export function validateDictionary(
       )
       const allowed = new Set([...expected, ...analytic])
       const rowsByForm = new Map<string, Set<string>>()
+      const aliases = new Map<string, string>()
       for (const table of formsFile.tables) {
+        for (const [row, target] of rowAliases(table, card.pos)) aliases.set(row, target)
         for (const row of table.rows) {
           for (const form of row.cells.flat()) {
             const rows = rowsByForm.get(form) ?? new Set<string>()
@@ -219,6 +222,11 @@ export function validateDictionary(
           errors.push(
             `${path}: form example "${entry.pl}" is tagged "${entry.cell}", a row that does not hold "${entry.form}"`,
           )
+        } else if (entry.cell && aliases.has(entry.cell)) {
+          const target = aliases.get(entry.cell)
+          errors.push(
+            `${path}: form example "${entry.pl}" is tagged "${entry.cell}", which repeats "${target}"; tag it "${target}"`,
+          )
         }
         if (!formInSentence(entry.pl, entry.form)) {
           errors.push(
@@ -242,10 +250,15 @@ export function validateDictionary(
           errors.push(
             `${path}: formExamplesSkip puts "${skip.form}" in row "${skip.cell}", which does not hold it`,
           )
+        } else if (skip.cell && aliases.has(skip.cell)) {
+          errors.push(
+            `${path}: formExamplesSkip puts "${skip.form}" in row "${skip.cell}", which repeats "${aliases.get(skip.cell)}"`,
+          )
         }
       }
       // A form whose examples carry a row shows each row on its own, so each row needs
-      // its own three — or a row skip saying why it has none.
+      // its own three — or a row skip saying why it has none. An alias row (an
+      // adjective's vocative) shows the row it repeats and needs nothing.
       const tagged = new Map<string, Map<string, number>>()
       for (const entry of card.formExamples) {
         if (!entry.cell) continue
@@ -255,6 +268,7 @@ export function validateDictionary(
       }
       for (const [form, byRow] of tagged) {
         for (const row of rowsByForm.get(form) ?? []) {
+          if (aliases.has(row)) continue
           const count = byRow.get(row) ?? 0
           const rowSkipped = rowSkips.has(`${row}|${form}`)
           if (rowSkipped && count > 0) {

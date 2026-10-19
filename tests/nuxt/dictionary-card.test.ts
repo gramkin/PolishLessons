@@ -255,6 +255,42 @@ describe('dictionary card components', () => {
     expect(wrapper.find('.form-example').text()).toContain('Мы сидим на террасе.')
   })
 
+  it("shows an adjective's nominative examples in its vocative cell", async () => {
+    const tables = [
+      {
+        title: 'Склонение',
+        columns: ['м. р.'],
+        rows: [
+          { label: 'Именительный', cells: [['nowy']] },
+          { label: 'Винительный', cells: [['nowy']] },
+          { label: 'Звательный', cells: [['nowy']] },
+        ],
+        extra: false,
+      },
+    ]
+    const ex = (pl: string, ru: string, cell: string) => ({
+      form: 'nowy',
+      cell,
+      pl,
+      ru,
+      source: { kind: 'authored' as const },
+    })
+    const formExamples = [
+      ex('Nowy dom stoi tu.', 'Новый дом стоит здесь.', 'Именительный'),
+      ex('Kupiłem nowy dom.', 'Я купил новый дом.', 'Винительный'),
+    ]
+    const wrapper = await mountSuspended(FormsTables, {
+      props: { tables, formExamples, cardId: card.id, negatedForms: [], pos: 'adj' },
+    })
+    const buttons = wrapper.findAll('button.form-button')
+    expect(buttons).toHaveLength(3)
+    await buttons[2]!.trigger('click')
+    const panel = wrapper.find('.form-example').text()
+    expect(panel).toContain('Звательный совпадает с именительным')
+    expect(panel).toContain('Новый дом стоит здесь.')
+    expect(panel).not.toContain('Я купил новый дом.')
+  })
+
   it('renders an origin section only when there is something to show', async () => {
     const empty = await mountSuspended(Origin, { props: {} })
     expect(empty.find('section').exists()).toBe(false)

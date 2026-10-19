@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { FormExample, FormsTable } from '#shared/dictionary'
+import type { CardPos, FormExample, FormsTable } from '#shared/dictionary'
 
 const props = withDefaults(
   defineProps<{
@@ -8,8 +8,9 @@ const props = withDefaults(
     cardId: string
     negatedForms: string[]
     skipped?: { form: string; reason: string; cell?: string }[]
+    pos?: CardPos
   }>(),
-  { skipped: () => [] },
+  { skipped: () => [], pos: undefined },
 )
 
 const main = computed(() => props.tables.filter((t) => !t.extra))
@@ -54,6 +55,7 @@ const orphanSkips = computed(() => formSkips.value.filter((s) => !tableCells.val
       :card-id="cardId"
       :skipped="skippedByForm"
       :skipped-rows="skippedByRow"
+      :pos="pos"
     />
     <details v-if="extra.length > 0" class="all-forms">
       <summary>Все формы</summary>
@@ -65,6 +67,7 @@ const orphanSkips = computed(() => formSkips.value.filter((s) => !tableCells.val
         :card-id="cardId"
         :skipped="skippedByForm"
         :skipped-rows="skippedByRow"
+        :pos="pos"
       />
     </details>
     <p v-if="negatedForms.length > 0" class="negation">

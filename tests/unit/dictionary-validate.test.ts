@@ -406,6 +406,75 @@ describe('formExamples cell', () => {
   })
 })
 
+describe('adjective vocative', () => {
+  const entry = (form: string, pl: string, cell?: string) => ({
+    form,
+    pl,
+    ru: 'перевод',
+    source: { kind: 'authored' },
+    ...(cell ? { cell } : {}),
+  })
+  const noms = [
+    entry('nowy', 'Nowy dom stoi tu.', 'Именительный'),
+    entry('nowy', 'To jest nowy dom.', 'Именительный'),
+    entry('nowy', 'Nowy rok się zaczął.', 'Именительный'),
+  ]
+  const accs = [
+    entry('nowy', 'Kupiłem nowy dom.', 'Винительный'),
+    entry('nowy', 'Mam nowy telefon.', 'Винительный'),
+    entry('nowy', 'Widzę nowy samochód.', 'Винительный'),
+  ]
+
+  function run(extra: unknown[] = [], skips: unknown[] = []) {
+    const b = bundle()
+    const forms = b.forms[0]!.data as { allForms: string[]; tables: unknown[] }
+    forms.allForms = ['dom', 'nowy']
+    forms.tables = [
+      {
+        title: 'Склонение',
+        columns: ['м. р.'],
+        rows: [
+          { label: 'Именительный', cells: [['nowy']] },
+          { label: 'Винительный', cells: [['nowy']] },
+          { label: 'Звательный', cells: [['nowy']] },
+        ],
+        extra: false,
+      },
+    ]
+    const card = b.cards[0]!.data as {
+      pos: string
+      formExamples?: unknown[]
+      formExamplesSkip?: unknown[]
+    }
+    card.pos = 'adj'
+    card.formExamples = [
+      entry('dom', 'To jest dom.'),
+      entry('dom', 'Mój dom jest duży.'),
+      entry('dom', 'Tam stoi dom.'),
+      ...noms,
+      ...accs,
+      ...extra,
+    ]
+    card.formExamplesSkip = skips
+    return validateDictionary(b, { requireLessonCards: false })
+  }
+
+  it('lets the vocative row borrow the nominative examples', () => {
+    const { errors, warnings } = run()
+    expect(errors).toEqual([])
+    expect(warnings.filter((w) => w.includes('in row'))).toEqual([])
+  })
+
+  it('rejects an example or a skip tagged for the vocative', () => {
+    expect(run([entry('nowy', 'Nowy przyjacielu, witaj!', 'Звательный')]).errors).toContain(
+      'dictionary/dom.yml: form example "Nowy przyjacielu, witaj!" is tagged "Звательный", which repeats "Именительный"; tag it "Именительный"',
+    )
+    expect(run([], [{ form: 'nowy', cell: 'Звательный', reason: 'x' }]).errors).toContain(
+      'dictionary/dom.yml: formExamplesSkip puts "nowy" in row "Звательный", which repeats "Именительный"',
+    )
+  })
+})
+
 describe('card format', () => {
   function withCard(patch: Record<string, unknown>) {
     const b = bundle()
