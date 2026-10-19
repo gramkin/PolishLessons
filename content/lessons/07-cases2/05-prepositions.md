@@ -266,12 +266,12 @@ questions:
 final: true
 questions:
   - type: choice
-    q: "«Я иду на почту» — какой падеж после na?"
+    q: "Idę na pocztę. — какой падеж после na?"
     options: [винительный, предложный, творительный]
     answer: 0
     explain: "Направление «куда?» — винительный: na pocztę."
   - type: choice
-    q: "«Разговариваю с братом» — какой падеж после z?"
+    q: "Rozmawiam z bratem. — какой падеж после z?"
     options: [родительный, творительный, дательный]
     answer: 1
     explain: "«Вместе с» — творительный: z bratem."

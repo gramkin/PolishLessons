@@ -274,7 +274,7 @@ questions:
     answer: autobusem
     explain: "Транспорт — творительный без предлога: jadę autobusem, по-русски «на автобусе»."
   - type: choice
-    q: "«Кофе с молоком» — какой падеж после z?"
+    q: "Kawa z mlekiem — какой падеж после z?"
     options: [родительный, творительный, предложный]
     answer: 1
     explain: "z в значении «вместе с» требует творительного: kawa z mlekiem."

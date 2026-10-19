@@ -168,10 +168,10 @@ questions:
     answer: 0
     explain: "«На работе» по-польски — w pracy. Предлоги в двух языках распределены по-разному, их запоминают пословно."
   - type: choice
-    q: "«Я на почте» — какой падеж?"
-    options: [винительный, предложный]
+    q: "Jestem na ___. (poczta)"
+    options: [pocztę, poczcie]
     answer: 1
-    explain: "Место «где?» после na — предложный: na poczcie."
+    explain: "Место «где?» после na — предложный: poczta → na poczcie, t перед -e смягчается в ci. Pocztę — винительный, «куда?»: idę na pocztę."
   - type: input
     q: "Wracam po ___. (koncert)"
     answer: koncercie
