@@ -64,6 +64,7 @@ formExamplesSkip:
   - { form: "najcalszych", reason: "у прилагательного cały «целый, весь» нет степеней сравнения: предмет либо цел, либо нет, промежуточных ступеней это значение не допускает. Форм calszy, najcalszy в польском не существует" }
   - { form: "najcalszym", reason: "у прилагательного cały «целый, весь» нет степеней сравнения: предмет либо цел, либо нет, промежуточных ступеней это значение не допускает. Форм calszy, najcalszy в польском не существует" }
   - { form: "najcalszymi", reason: "у прилагательного cały «целый, весь» нет степеней сравнения: предмет либо цел, либо нет, промежуточных ступеней это значение не допускает. Форм calszy, najcalszy в польском не существует" }
+  - { form: "całych", cell: "Винительный", reason: "винительный падеж множественного числа мужско-личного рода от этого слова почти не употребляется" }
 formExamples:
   - form: "cali"
     pl: "Wrócili z gór cali i zdrowi."
@@ -104,6 +105,21 @@ formExamples:
     pl: "Psy szczekały całą noc."
     ru: "Собаки лаяли всю ночь."
     source: { kind: tatoeba, id: 10698013 }
+  - form: "całą"
+    cell: "Творительный"
+    pl: "Zajmował się całą rodziną."
+    ru: "Он заботился обо всей семье."
+    source: { kind: authored }
+  - form: "całą"
+    cell: "Творительный"
+    pl: "Podróżował z całą rodziną."
+    ru: "Он путешествовал со всей семьёй."
+    source: { kind: authored }
+  - form: "całą"
+    cell: "Творительный"
+    pl: "Przed całą klasą przeprosił."
+    ru: "Он извинился перед всем классом."
+    source: { kind: authored }
   - form: "całe"
     pl: "Boli mnie całe ciało."
     ru: "У меня болит всё тело."
@@ -134,13 +150,45 @@ formExamples:
     ru: "Я ищу карту не Польши, а всей Европы."
     source: { kind: tatoeba, id: 4790288 }
   - form: "całej"
+    cell: "Предложный"
     pl: "Dlaczego ludzie opuścili Afrykę i zaczęli rozprzestrzeniać się po całej planecie?"
     ru: "Почему человек покинул Африку и начал расселяться по планете?"
     source: { kind: tatoeba, id: 13014661 }
   - form: "całej"
+    cell: "Предложный"
     pl: "Mary była jedną z najpiękniejszych dziewczyn w całej szkole. Ale mimo tego nigdy nie miała chłopaka."
     ru: "Мэри — одна из самых красивых девчонок во всей школе. Но несмотря на это, у неё никогда не было парня."
     source: { kind: tatoeba, id: 4719310 }
+  - form: "całej"
+    cell: "Предложный"
+    pl: "W całej Polsce pada deszcz."
+    ru: "По всей Польше идёт дождь."
+    source: { kind: authored }
+  - form: "całej"
+    cell: "Родительный"
+    pl: "Z całej klasy tylko on zdał."
+    ru: "Из всего класса сдал только он."
+    source: { kind: authored }
+  - form: "całej"
+    cell: "Родительный"
+    pl: "Mieszkańcy całej wsi wyszli na ulicę."
+    ru: "Жители всей деревни вышли на улицу."
+    source: { kind: authored }
+  - form: "całej"
+    cell: "Дательный"
+    pl: "Podziękował całej drużynie."
+    ru: "Он поблагодарил всю команду."
+    source: { kind: authored }
+  - form: "całej"
+    cell: "Дательный"
+    pl: "Pokazał zdjęcia całej rodzinie."
+    ru: "Он показал фото всей семье."
+    source: { kind: authored }
+  - form: "całej"
+    cell: "Дательный"
+    pl: "Dzięki całej klasie wygraliśmy konkurs."
+    ru: "Благодаря всему классу мы выиграли конкурс."
+    source: { kind: authored }
   - form: "całemu"
     pl: "Tomek chciał wykrzyczeć całemu światu, że kocha się w Marii."
     ru: "Томек хотел прокричать всему миру, что влюблён в Марию."
@@ -180,6 +228,21 @@ formExamples:
     pl: "Gnał z całych sił."
     ru: "Он мчался изо всех сил."
     source: { kind: translated, id: 416249 }
+  - form: "całych"
+    cell: "Предложный"
+    pl: "W całych Niemczech strajkują kolejarze."
+    ru: "По всей Германии бастуют железнодорожники."
+    source: { kind: authored }
+  - form: "całych"
+    cell: "Предложный"
+    pl: "O całych tygodniach bez snu mówił z uśmiechem."
+    ru: "О целых неделях без сна он говорил с улыбкой."
+    source: { kind: authored }
+  - form: "całych"
+    cell: "Предложный"
+    pl: "Po całych dniach pracy był wykończony."
+    ru: "После целых дней работы он был измотан."
+    source: { kind: authored }
   - form: "całym"
     cell: "Творительный"
     pl: "Miał ochotę podzielić się swoim żalem z całym światem."
@@ -195,6 +258,36 @@ formExamples:
     pl: "Miał ochotę podzielić się swoją radością z całym światem."
     ru: "Ему хотелось поделиться своей радостью со всем миром."
     source: { kind: tatoeba, id: 12624954 }
+  - form: "całym"
+    cell: "Предложный"
+    pl: "Na całym świecie mówi się po angielsku."
+    ru: "Во всём мире говорят по-английски."
+    source: { kind: authored }
+  - form: "całym"
+    cell: "Предложный"
+    pl: "W całym mieście zgasło światło."
+    ru: "Во всём городе погас свет."
+    source: { kind: authored }
+  - form: "całym"
+    cell: "Предложный"
+    pl: "Mówił o całym życiu."
+    ru: "Он говорил обо всей жизни."
+    source: { kind: authored }
+  - form: "całym"
+    cell: "Дательный"
+    pl: "Podziękował całym rodzinom za pomoc."
+    ru: "Он поблагодарил целые семьи за помощь."
+    source: { kind: authored }
+  - form: "całym"
+    cell: "Дательный"
+    pl: "Przyznano nagrody całym zespołom."
+    ru: "Награды присудили целым коллективам."
+    source: { kind: authored }
+  - form: "całym"
+    cell: "Дательный"
+    pl: "Wojna zagroziła całym narodom."
+    ru: "Война угрожала целым народам."
+    source: { kind: authored }
   - form: "całymi"
     pl: "Całymi dniami płaczę."
     ru: "Я целыми днями плачу."
