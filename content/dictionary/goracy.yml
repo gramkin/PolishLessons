@@ -74,6 +74,8 @@ idioms:
   - { pl: "kuj żelazo, póki gorące", ru: "куй железо, пока горячо" }
   - { pl: "na gorącym uczynku", ru: "с поличным" }
   - { pl: "w gorącej wodzie kąpany", ru: "вспыльчивый, горячая голова" }
+formExamplesSkip:
+  - { form: "gorących", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "gorąca"
     pl: "Ta kawa jest dla mnie za gorąca."
@@ -98,9 +100,25 @@ formExamples:
     ru: "Кто хочет горячий шоколад?"
     source: { kind: translated, id: 894323 }
   - form: "gorącą"
+    cell: "Винительный"
     pl: "Chcesz gorącą czy zimną herbatę?"
     ru: "Ты хочешь горячий чай или холодный?"
     source: { kind: translated, id: 537338 }
+  - form: "gorącą"
+    cell: "Творительный"
+    pl: "Oblał go gorącą kawą."
+    ru: "Он облил его горячим кофе."
+    source: { kind: authored }
+  - form: "gorącą"
+    cell: "Творительный"
+    pl: "Umyła ręce gorącą wodą."
+    ru: "Она вымыла руки горячей водой."
+    source: { kind: authored }
+  - form: "gorącą"
+    cell: "Творительный"
+    pl: "Rozgrzał się gorącą herbatą."
+    ru: "Он согрелся горячим чаем."
+    source: { kind: authored }
   - form: "gorące"
     pl: "Jego śmiały plan wywołał gorące spory."
     ru: "Его смелый план вызвал горячие споры."
@@ -136,9 +154,40 @@ formExamples:
     ru: "Кто хочет горячего шоколада?"
     source: { kind: translated, id: 526574 }
   - form: "gorącej"
+    cell: "Родительный"
     pl: "Nalała do kubka gorącej wody."
     ru: "Она налила в кружку горячей воды."
     source: { kind: translated, id: 731913 }
+  - form: "gorącej"
+    cell: "Дательный"
+    pl: "Dzięki gorącej herbacie rozgrzał się."
+    ru: "Благодаря горячему чаю он согрелся."
+    source: { kind: authored }
+  - form: "gorącej"
+    cell: "Дательный"
+    pl: "Nie oparł się gorącej czekoladzie."
+    ru: "Он не устоял перед горячим шоколадом."
+    source: { kind: authored }
+  - form: "gorącej"
+    cell: "Дательный"
+    pl: "Przyglądał się gorącej lawie."
+    ru: "Он смотрел на горячую лаву."
+    source: { kind: authored }
+  - form: "gorącej"
+    cell: "Предложный"
+    pl: "Leżał w gorącej kąpieli."
+    ru: "Он лежал в горячей ванне."
+    source: { kind: authored }
+  - form: "gorącej"
+    cell: "Предложный"
+    pl: "Marzył o gorącej zupie."
+    ru: "Он мечтал о горячем супе."
+    source: { kind: authored }
+  - form: "gorącej"
+    cell: "Предложный"
+    pl: "Na gorącej patelni smaży się omlet."
+    ru: "На горячей сковороде жарится омлет."
+    source: { kind: authored }
   - form: "gorącemu"
     pl: "Przyjrzał się gorącemu piecowi."
     ru: "Он присмотрелся к горячей печи."
@@ -164,6 +213,7 @@ formExamples:
     ru: "Это был жаркий день."
     source: { kind: translated, id: 968965 }
   - form: "gorących"
+    cell: "Родительный"
     pl: "Czasami jeżdżę do gorących źródeł dla poprawy nastroju."
     ru: "Иногда я езжу на горячие источники, чтобы поднять настроение."
     source: { kind: translated, id: 969023 }
@@ -173,10 +223,27 @@ formExamples:
     ru: "Город славится горячими источниками."
     source: { kind: authored }
   - form: "gorących"
+    cell: "Родительный"
     pl: "Nie lubię gorących dni."
     ru: "Я не люблю жарких дней."
     source: { kind: authored }
+  - form: "gorących"
+    cell: "Предложный"
+    pl: "W gorących krajach je się ostro."
+    ru: "В жарких странах едят острое."
+    source: { kind: authored }
+  - form: "gorących"
+    cell: "Предложный"
+    pl: "Mówił o gorących źródłach."
+    ru: "Он говорил о горячих источниках."
+    source: { kind: authored }
+  - form: "gorących"
+    cell: "Предложный"
+    pl: "Po gorących dniach przyszła burza."
+    ru: "После жарких дней пришла гроза."
+    source: { kind: authored }
   - form: "gorącym"
+    cell: "Предложный"
     pl: "Psy zdechły w gorącym pojeździe."
     ru: "Собаки погибли в раскалённой машине."
     source: { kind: translated, id: 10592900 }
@@ -190,6 +257,36 @@ formExamples:
     pl: "Tom został złapany na gorącym uczynku."
     ru: "Тома поймали с поличным."
     source: { kind: translated, id: 5535835 }
+  - form: "gorącym"
+    cell: "Творительный"
+    pl: "Oblał się gorącym mlekiem."
+    ru: "Он облился горячим молоком."
+    source: { kind: authored }
+  - form: "gorącym"
+    cell: "Творительный"
+    pl: "Przywitał nas gorącym uściskiem."
+    ru: "Он встретил нас горячими объятиями."
+    source: { kind: authored }
+  - form: "gorącym"
+    cell: "Творительный"
+    pl: "Zachwycił się gorącym klimatem."
+    ru: "Он восхитился жарким климатом."
+    source: { kind: authored }
+  - form: "gorącym"
+    cell: "Дательный"
+    pl: "Przyglądał się gorącym węglom."
+    ru: "Он смотрел на раскалённые угли."
+    source: { kind: authored }
+  - form: "gorącym"
+    cell: "Дательный"
+    pl: "Nie oparł się gorącym bułkom."
+    ru: "Он не устоял перед горячими булочками."
+    source: { kind: authored }
+  - form: "gorącym"
+    cell: "Дательный"
+    pl: "Turyści zawdzięczają opaleniznę gorącym dniom."
+    ru: "Туристы обязаны загаром жарким дням."
+    source: { kind: authored }
   - form: "gorącymi"
     pl: "Zajął się gorącymi tematami."
     ru: "Он занялся горячими темами."

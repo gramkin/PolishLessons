@@ -45,6 +45,8 @@ idioms:
   - { pl: "przyjść na gotowe", ru: "прийти на готовенькое" }
   - { pl: "gotowy na wszystko", ru: "готов на всё" }
   - { pl: "mieć na wszystko gotową odpowiedź", ru: "иметь на всё готовый ответ" }
+formExamplesSkip:
+  - { form: "gotowych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "gotowa"
     pl: "Jestem gotowa."
@@ -72,6 +74,21 @@ formExamples:
     cell: "Винительный"
     pl: "Kupiliśmy gotową sałatkę."
     ru: "Мы купили готовый салат."
+    source: { kind: authored }
+  - form: "gotową"
+    cell: "Творительный"
+    pl: "Wyszedł z gotową odpowiedzią."
+    ru: "Он вышел с готовым ответом."
+    source: { kind: authored }
+  - form: "gotową"
+    cell: "Творительный"
+    pl: "Przyszedł z gotową listą."
+    ru: "Он пришёл с готовым списком."
+    source: { kind: authored }
+  - form: "gotową"
+    cell: "Творительный"
+    pl: "Była gotową na wszystko kobietą."
+    ru: "Она была женщиной, готовой на всё."
     source: { kind: authored }
   - form: "gotowe"
     pl: "Czy śniadanie gotowe?"
@@ -146,6 +163,7 @@ formExamples:
     ru: "Том будет готов."
     source: { kind: tatoeba, id: 13787760 }
   - form: "gotowych"
+    cell: "Родительный"
     pl: "Nie lubię gotowych dań."
     ru: "Я не люблю готовых блюд."
     source: { kind: authored }
@@ -159,11 +177,28 @@ formExamples:
     pl: "Szukam gotowych rozwiązań."
     ru: "Я ищу готовые решения."
     source: { kind: authored }
+  - form: "gotowych"
+    cell: "Предложный"
+    pl: "Mówił o gotowych rozwiązaniach."
+    ru: "Он говорил о готовых решениях."
+    source: { kind: authored }
+  - form: "gotowych"
+    cell: "Предложный"
+    pl: "W gotowych daniach jest dużo soli."
+    ru: "В готовых блюдах много соли."
+    source: { kind: authored }
+  - form: "gotowych"
+    cell: "Предложный"
+    pl: "Na gotowych projektach się uczymy."
+    ru: "Мы учимся на готовых проектах."
+    source: { kind: authored }
   - form: "gotowym"
+    cell: "Творительный"
     pl: "I od 100 metrów być gotowym do odeścia na drugi krąg."
     ru: "И от 100 метров быть готовым к уходу на второй круг."
     source: { kind: tatoeba, id: 1736706 }
   - form: "gotowym"
+    cell: "Творительный"
     pl: "Kochanie człowieka oznacza bycie gotowym żeby się z nim zestarzeć."
     ru: "Любить человека означает быть готовым с ним состариться."
     source: { kind: tatoeba, id: 13627125 }
@@ -171,6 +206,36 @@ formExamples:
     cell: "Предложный"
     pl: "W gotowym tekście nie ma błędów."
     ru: "В готовом тексте нет ошибок."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Творительный"
+    pl: "Przyszedł z gotowym planem."
+    ru: "Он пришёл с готовым планом."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Дательный"
+    pl: "Ufam tylko gotowym rozwiązaniom."
+    ru: "Я доверяю только готовым решениям."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Дательный"
+    pl: "Przyjrzał się gotowym projektom."
+    ru: "Он рассмотрел готовые проекты."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Дательный"
+    pl: "Nie ufał gotowym odpowiedziom."
+    ru: "Он не доверял готовым ответам."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Предложный"
+    pl: "Mówił o gotowym tekście."
+    ru: "Он говорил о готовом тексте."
+    source: { kind: authored }
+  - form: "gotowym"
+    cell: "Предложный"
+    pl: "W gotowym domu brakowało mebli."
+    ru: "В готовом доме не хватало мебели."
     source: { kind: authored }
   - form: "gotowymi"
     pl: "Sklep kusi gotowymi daniami."

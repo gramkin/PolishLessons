@@ -93,6 +93,7 @@ formExamples:
     ru: "Ты уже читала сегодняшнюю газету?"
     source: { kind: tatoeba, id: 384512 }
   - form: "dzisiejszą"
+    cell: "Винительный"
     pl: "Przynieś mi dzisiejszą gazetę."
     ru: "Принеси мне сегодняшнюю газету."
     source: { kind: translated, id: 366633 }
@@ -101,6 +102,21 @@ formExamples:
     pl: "Czytałem już dzisiejszą gazetę."
     ru: "Я уже читал сегодняшнюю газету."
     source: { kind: translated, id: 360087 }
+  - form: "dzisiejszą"
+    cell: "Творительный"
+    pl: "Zajmijmy się dzisiejszą sprawą."
+    ru: "Давайте займёмся сегодняшним делом."
+    source: { kind: authored }
+  - form: "dzisiejszą"
+    cell: "Творительный"
+    pl: "Przed dzisiejszą premierą aktorzy się denerwują."
+    ru: "Перед сегодняшней премьерой актёры волнуются."
+    source: { kind: authored }
+  - form: "dzisiejszą"
+    cell: "Творительный"
+    pl: "Jestem zachwycony dzisiejszą pogodą."
+    ru: "Я в восторге от сегодняшней погоды."
+    source: { kind: authored }
   - form: "dzisiejsze"
     pl: "Pokaż mi dzisiejsze gazety."
     ru: "Покажи мне сегодняшние газеты."
@@ -126,6 +142,7 @@ formExamples:
     ru: "Паула готовилась к сегодняшнему тесту?"
     source: { kind: translated, id: 3438311 }
   - form: "dzisiejszej"
+    cell: "Родительный"
     pl: "Powinniśmy użyć kominka dzisiejszej nocy."
     ru: "Сегодня вечером нам стоит затопить камин."
     source: { kind: translated, id: 497362 }
@@ -135,9 +152,40 @@ formExamples:
     ru: "По сегодняшней газете, в городе был пожар."
     source: { kind: translated, id: 1351187 }
   - form: "dzisiejszej"
+    cell: "Родительный"
     pl: "Chciałbym abyś poszedł z nami dzisiejszej nocy."
     ru: "Я хотел бы, чтобы ты пошёл с нами сегодня вечером."
     source: { kind: translated, id: 10168041 }
+  - form: "dzisiejszej"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się dzisiejszej młodzieży."
+    ru: "Давайте присмотримся к сегодняшней молодёжи."
+    source: { kind: authored }
+  - form: "dzisiejszej"
+    cell: "Дательный"
+    pl: "Dzięki dzisiejszej pogodzie poszliśmy na plażę."
+    ru: "Благодаря сегодняшней погоде мы пошли на пляж."
+    source: { kind: authored }
+  - form: "dzisiejszej"
+    cell: "Дательный"
+    pl: "Poświęcimy dzisiejszej lekcji godzinę."
+    ru: "Мы уделим сегодняшнему уроку час."
+    source: { kind: authored }
+  - form: "dzisiejszej"
+    cell: "Предложный"
+    pl: "Mówiliśmy o dzisiejszej gazecie."
+    ru: "Мы говорили о сегодняшней газете."
+    source: { kind: authored }
+  - form: "dzisiejszej"
+    cell: "Предложный"
+    pl: "W dzisiejszej Polsce żyje się lepiej."
+    ru: "В сегодняшней Польше живётся лучше."
+    source: { kind: authored }
+  - form: "dzisiejszej"
+    cell: "Предложный"
+    pl: "Na dzisiejszej lekcji było mało osób."
+    ru: "На сегодняшнем уроке было мало людей."
+    source: { kind: authored }
   - form: "dzisiejszemu"
     pl: "Dzięki dzisiejszemu spotkaniu wszystko się wyjaśniło."
     ru: "Благодаря сегодняшней встрече всё прояснилось."
@@ -177,19 +225,81 @@ formExamples:
     pl: "W dzisiejszych czasach ceny są stabilne."
     ru: "В наше время цены стабильны."
     source: { kind: translated, id: 10770563 }
+  - form: "dzisiejszych"
+    cell: "Родительный"
+    pl: "Nie rozumiem dzisiejszych dzieci."
+    ru: "Я не понимаю сегодняшних детей."
+    source: { kind: authored }
+  - form: "dzisiejszych"
+    cell: "Родительный"
+    pl: "Do dzisiejszych czasów przetrwało niewiele."
+    ru: "До наших дней сохранилось немногое."
+    source: { kind: authored }
+  - form: "dzisiejszych"
+    cell: "Родительный"
+    pl: "Wyniki dzisiejszych meczów są zaskakujące."
+    ru: "Результаты сегодняшних матчей неожиданны."
+    source: { kind: authored }
+  - form: "dzisiejszych"
+    cell: "Винительный"
+    pl: "Witamy dzisiejszych gości."
+    ru: "Приветствуем сегодняшних гостей."
+    source: { kind: authored }
+  - form: "dzisiejszych"
+    cell: "Винительный"
+    pl: "Krytykuje dzisiejszych polityków."
+    ru: "Он критикует нынешних политиков."
+    source: { kind: authored }
+  - form: "dzisiejszych"
+    cell: "Винительный"
+    pl: "Przedstawił dzisiejszych laureatów."
+    ru: "Он представил сегодняшних лауреатов."
+    source: { kind: authored }
   - form: "dzisiejszym"
     cell: "Творительный"
     pl: "Wstałem wcześnie dzisiejszym rankiem."
     ru: "Сегодня утром я встал рано."
     source: { kind: translated, id: 3656584 }
   - form: "dzisiejszym"
+    cell: "Предложный"
     pl: "Powiem więcej o dzisiejszym daniu dnia."
     ru: "Я расскажу подробнее о сегодняшнем блюде дня."
     source: { kind: translated, id: 722204 }
   - form: "dzisiejszym"
+    cell: "Предложный"
     pl: "Tom chyba będzie na dzisiejszym spotkaniu."
     ru: "Том, кажется, будет на сегодняшней встрече."
     source: { kind: translated, id: 12036997 }
+  - form: "dzisiejszym"
+    cell: "Предложный"
+    pl: "W dzisiejszym świecie wszystko dzieje się szybko."
+    ru: "В сегодняшнем мире всё происходит быстро."
+    source: { kind: authored }
+  - form: "dzisiejszym"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się dzisiejszym wynikom."
+    ru: "Давайте посмотрим на сегодняшние результаты."
+    source: { kind: authored }
+  - form: "dzisiejszym"
+    cell: "Дательный"
+    pl: "Dziękujemy dzisiejszym gościom."
+    ru: "Благодарим сегодняшних гостей."
+    source: { kind: authored }
+  - form: "dzisiejszym"
+    cell: "Дательный"
+    pl: "Dzisiejszym dzieciom brakuje ruchu."
+    ru: "Сегодняшним детям не хватает движения."
+    source: { kind: authored }
+  - form: "dzisiejszym"
+    cell: "Творительный"
+    pl: "Przed dzisiejszym meczem trener był spokojny."
+    ru: "Перед сегодняшним матчем тренер был спокоен."
+    source: { kind: authored }
+  - form: "dzisiejszym"
+    cell: "Творительный"
+    pl: "Zajmijmy się dzisiejszym problemem."
+    ru: "Давайте займёмся сегодняшней проблемой."
+    source: { kind: authored }
   - form: "dzisiejszymi"
     pl: "Nie nadążam za dzisiejszymi cenami."
     ru: "Я не поспеваю за сегодняшними ценами."

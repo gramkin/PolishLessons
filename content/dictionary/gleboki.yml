@@ -51,6 +51,9 @@ idioms:
   - { pl: "mieć coś w głębokim poważaniu", ru: "плевать на что-то" }
   - { pl: "kilka głębszych", ru: "несколько рюмок" }
   - { pl: "do głębi", ru: "до глубины души" }
+formExamplesSkip:
+  - { form: "głębokich", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
+  - { form: "głębokiego", cell: "Винительный", reason: "винительный падеж одушевлённого мужского рода от этого слова почти не употребляется" }
 formExamples:
   - form: "głębocy"
     pl: "Ci myśliciele są głębocy."
@@ -91,6 +94,21 @@ formExamples:
     pl: "Zrobili głęboką dziurę w ziemi."
     ru: "Они сделали глубокую яму в земле."
     source: { kind: authored }
+  - form: "głęboką"
+    cell: "Творительный"
+    pl: "Zapadł w sen z głęboką ulgą."
+    ru: "Он уснул с глубоким облегчением."
+    source: { kind: authored }
+  - form: "głęboką"
+    cell: "Творительный"
+    pl: "Przed głęboką wodą się zatrzymał."
+    ru: "Перед глубокой водой он остановился."
+    source: { kind: authored }
+  - form: "głęboką"
+    cell: "Творительный"
+    pl: "Słuchał z głęboką uwagą."
+    ru: "Он слушал с глубоким вниманием."
+    source: { kind: authored }
   - form: "głęboki"
     pl: "Ten dół jest głęboki."
     ru: "Эта яма глубокая."
@@ -109,6 +127,7 @@ formExamples:
     ru: "Избегай глубоких мест в реке."
     source: { kind: authored }
   - form: "głębokich"
+    cell: "Родительный"
     pl: "Nie ma tu głębokich studni."
     ru: "Здесь нет глубоких колодцев."
     source: { kind: authored }
@@ -116,6 +135,21 @@ formExamples:
     cell: "Родительный"
     pl: "Kilka głębokich oddechów pomaga."
     ru: "Несколько глубоких вдохов помогают."
+    source: { kind: authored }
+  - form: "głębokich"
+    cell: "Предложный"
+    pl: "W głębokich lasach żyją niedźwiedzie."
+    ru: "В глухих лесах живут медведи."
+    source: { kind: authored }
+  - form: "głębokich"
+    cell: "Предложный"
+    pl: "Mówił o głębokich zmianach."
+    ru: "Он говорил о глубоких переменах."
+    source: { kind: authored }
+  - form: "głębokich"
+    cell: "Предложный"
+    pl: "Na głębokich wodach pływają statki."
+    ru: "По глубоким водам плавают корабли."
     source: { kind: authored }
   - form: "głębokie"
     pl: "Borsuki wykopują głębokie dziury."
@@ -130,10 +164,12 @@ formExamples:
     ru: "Его молчание было глубоким."
     source: { kind: authored }
   - form: "głębokiego"
+    cell: "Родительный"
     pl: "Nie znam głębokiego jeziora w okolicy."
     ru: "Я не знаю глубокого озера в округе."
     source: { kind: authored }
   - form: "głębokiego"
+    cell: "Родительный"
     pl: "Szukali głębokiego miejsca na kąpiel."
     ru: "Они искали глубокое место для купания."
     source: { kind: authored }
@@ -148,12 +184,44 @@ formExamples:
     ru: "Он боялся глубокой воды."
     source: { kind: authored }
   - form: "głębokiej"
+    cell: "Родительный"
     pl: "Z głębokiej studni trudno wyciągnąć wiadro."
     ru: "Из глубокого колодца трудно вытащить ведро."
     source: { kind: authored }
   - form: "głębokiej"
+    cell: "Предложный"
     pl: "Po głębokiej ciszy ktoś się odezwał."
     ru: "После глубокой тишины кто-то заговорил."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Родительный"
+    pl: "Nie ma tu głębokiej wody."
+    ru: "Здесь нет глубокой воды."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Предложный"
+    pl: "Pływał w głębokiej wodzie."
+    ru: "Он плавал в глубокой воде."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Предложный"
+    pl: "Był w głębokiej depresji."
+    ru: "Он был в глубокой депрессии."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Дательный"
+    pl: "Przyglądał się głębokiej ranie."
+    ru: "Он осмотрел глубокую рану."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Дательный"
+    pl: "Zawdzięcza wiedzę głębokiej lekturze."
+    ru: "Знаниями он обязан вдумчивому чтению."
+    source: { kind: authored }
+  - form: "głębokiej"
+    cell: "Дательный"
+    pl: "Nie ufał głębokiej wodzie."
+    ru: "Он не доверял глубокой воде."
     source: { kind: authored }
   - form: "głębokiemu"
     pl: "Przyjrzyj się głębokiemu śladowi."
@@ -181,6 +249,36 @@ formExamples:
     cell: "Творительный"
     pl: "Odetchnął głębokim oddechem."
     ru: "Он вздохнул глубоким вздохом."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Предложный"
+    pl: "W głębokim śnie nic nie słyszał."
+    ru: "В глубоком сне он ничего не слышал."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Предложный"
+    pl: "Mówił o głębokim kryzysie."
+    ru: "Он говорил о глубоком кризисе."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Дательный"
+    pl: "Przyglądał się głębokim ranom."
+    ru: "Он осматривал глубокие раны."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Дательный"
+    pl: "Zawdzięcza wiedzę głębokim studiom."
+    ru: "Знаниями он обязан глубоким занятиям."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Дательный"
+    pl: "Nie ufał głębokim jeziorom."
+    ru: "Он не доверял глубоким озёрам."
+    source: { kind: authored }
+  - form: "głębokim"
+    cell: "Творительный"
+    pl: "Zapadł w sen z głębokim westchnieniem."
+    ru: "Он уснул с глубоким вздохом."
     source: { kind: authored }
   - form: "głębokimi"
     pl: "Szedł głębokimi śladami."
