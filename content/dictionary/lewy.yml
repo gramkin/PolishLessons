@@ -76,6 +76,8 @@ idioms:
   - { pl: "mieć dwie lewe ręce", ru: "руки не из того места" }
   - { pl: "wstać lewą nogą", ru: "встать не с той ноги" }
   - { pl: "na lewą stronę", ru: "наизнанку" }
+formExamplesSkip:
+  - { form: "lewych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "lewa"
     pl: "Prawa ręka nie wie co czyni lewa."
@@ -90,10 +92,12 @@ formExamples:
     ru: "Левая сторона свободна."
     source: { kind: authored }
   - form: "lewą"
+    cell: "Творительный"
     pl: "Ona pisze lewą ręką."
     ru: "Она пишет левой рукой."
     source: { kind: tatoeba, id: 356547 }
   - form: "lewą"
+    cell: "Творительный"
     pl: "Wstałem dziś lewą nogą."
     ru: "Я не с той ноги с утра встал."
     source: { kind: tatoeba, id: 3078146 }
@@ -102,6 +106,21 @@ formExamples:
     pl: "Tom je lewą ręką, ale pisze prawą."
     ru: "Том ест левой рукой, но пишет правой."
     source: { kind: tatoeba, id: 1846157 }
+  - form: "lewą"
+    cell: "Винительный"
+    pl: "Złamał lewą rękę."
+    ru: "Он сломал левую руку."
+    source: { kind: authored }
+  - form: "lewą"
+    cell: "Винительный"
+    pl: "Podniósł lewą nogę."
+    ru: "Он поднял левую ногу."
+    source: { kind: authored }
+  - form: "lewą"
+    cell: "Винительный"
+    pl: "Skręć w lewą stronę."
+    ru: "Поверни в левую сторону."
+    source: { kind: authored }
   - form: "lewe"
     pl: "Boli mnie lewe ramię."
     ru: "У меня болит левое плечо."
@@ -189,12 +208,28 @@ formExamples:
     pl: "Wśród lewych taryf trafiają się uczciwe."
     ru: "Среди левых такси попадаются честные."
     source: { kind: authored }
+  - form: "lewych"
+    cell: "Предложный"
+    pl: "W lewych kieszeniach nic nie było."
+    ru: "В левых карманах ничего не было."
+    source: { kind: authored }
+  - form: "lewych"
+    cell: "Предложный"
+    pl: "Mówił o lewych interesach."
+    ru: "Он говорил о левых делишках."
+    source: { kind: authored }
+  - form: "lewych"
+    cell: "Предложный"
+    pl: "Na lewych drzwiach jest naklejka."
+    ru: "На левых дверях наклейка."
+    source: { kind: authored }
   - form: "lewym"
     cell: "Предложный"
     pl: "Boli mnie staw w lewym barku."
     ru: "У меня болит сустав в левом плече."
     source: { kind: translated, id: 922410 }
   - form: "lewym"
+    cell: "Предложный"
     pl: "Zwierzę w lewym górnym narożniku to miał być smok."
     ru: "Животное в левом верхнем углу должно было быть драконом."
     source: { kind: translated, id: 356550 }
@@ -202,6 +237,36 @@ formExamples:
     cell: "Предложный"
     pl: "W lewym rogu stoi szafa."
     ru: "В левом углу стоит шкаф."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Творительный"
+    pl: "Patrzy tylko lewym okiem."
+    ru: "Он видит только левым глазом."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Творительный"
+    pl: "Wszedł lewym wejściem."
+    ru: "Он вошёл через левый вход."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Творительный"
+    pl: "Uderzył lewym sierpowym."
+    ru: "Он ударил левым хуком."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Дательный"
+    pl: "Przyjrzał się lewym kołom samochodu."
+    ru: "Он осмотрел левые колёса машины."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Дательный"
+    pl: "Lewym drzwiom brakuje klamki."
+    ru: "У левой двери нет ручки."
+    source: { kind: authored }
+  - form: "lewym"
+    cell: "Дательный"
+    pl: "Mechanik poświęcił lewym oponom więcej czasu."
+    ru: "Механик уделил левым шинам больше времени."
     source: { kind: authored }
   - form: "lewymi"
     pl: "Zajmował się lewymi interesami."

@@ -73,6 +73,7 @@ formExamplesSkip:
   - { form: "najkonieczniejszych", reason: "konieczny называет безусловное свойство: вещь либо необходима, либо нет. Синтетическая степень сравнения от него не образуется — ни сравнительная konieczniejszy, ни построенная на ней превосходная najkonieczniejszy; при нужде говорят bardziej konieczny, najbardziej konieczny" }
   - { form: "najkonieczniejszym", reason: "konieczny называет безусловное свойство: вещь либо необходима, либо нет. Синтетическая степень сравнения от него не образуется — ни сравнительная konieczniejszy, ни построенная на ней превосходная najkonieczniejszy; при нужде говорят bardziej konieczny, najbardziej konieczny" }
   - { form: "najkonieczniejszymi", reason: "konieczny называет безусловное свойство: вещь либо необходима, либо нет. Синтетическая степень сравнения от него не образуется — ни сравнительная konieczniejszy, ни построенная на ней превосходная najkonieczniejszy; при нужде говорят bardziej konieczny, najbardziej konieczny" }
+  - { form: "koniecznych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "konieczna"
     pl: "Czy konieczna jest rezerwacja miejsca?"
@@ -97,8 +98,24 @@ formExamples:
     ru: "Было совершенно необходимо, чтобы Томек вмешался лично."
     source: { kind: translated, id: 11318566 }
   - form: "konieczną"
+    cell: "Винительный"
     pl: "Uznali tę zmianę za konieczną."
     ru: "Они сочли это изменение необходимым."
+    source: { kind: authored }
+  - form: "konieczną"
+    cell: "Винительный"
+    pl: "Podjął konieczną decyzję."
+    ru: "Он принял необходимое решение."
+    source: { kind: authored }
+  - form: "konieczną"
+    cell: "Творительный"
+    pl: "Zajął się konieczną naprawą."
+    ru: "Он занялся необходимым ремонтом."
+    source: { kind: authored }
+  - form: "konieczną"
+    cell: "Творительный"
+    pl: "Okazała się konieczną zmianą."
+    ru: "Она оказалась необходимой переменой."
     source: { kind: authored }
   - form: "konieczne"
     pl: "Jest konieczne."
@@ -125,6 +142,7 @@ formExamples:
     ru: "От ремонта, необходимого уже годы, не уйти."
     source: { kind: authored }
   - form: "koniecznej"
+    cell: "Родительный"
     pl: "Podczas procesu utrzymywał, że działał w ramach obrony koniecznej, i został oczyszczony z zarzutów."
     ru: "Во время процесса он утверждал, что действовал в рамках необходимой обороны, и был оправдан."
     source: { kind: translated, id: 3749353 }
@@ -134,8 +152,39 @@ formExamples:
     ru: "Нет настоятельной необходимости."
     source: { kind: authored }
   - form: "koniecznej"
+    cell: "Предложный"
     pl: "Mówimy o koniecznej zmianie."
     ru: "Мы говорим о необходимом изменении."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Родительный"
+    pl: "Brakuje koniecznej wiedzy."
+    ru: "Не хватает необходимых знаний."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Предложный"
+    pl: "W koniecznej sytuacji dzwoń na policję."
+    ru: "В крайнем случае звони в полицию."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Предложный"
+    pl: "Po koniecznej przerwie wrócili do pracy."
+    ru: "После необходимого перерыва они вернулись к работе."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Дательный"
+    pl: "Sprzeciwił się koniecznej reformie."
+    ru: "Он выступил против необходимой реформы."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Дательный"
+    pl: "Dzięki koniecznej operacji przeżył."
+    ru: "Благодаря необходимой операции он выжил."
+    source: { kind: authored }
+  - form: "koniecznej"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się koniecznej zmianie."
+    ru: "Давайте рассмотрим необходимую перемену."
     source: { kind: authored }
   - form: "koniecznemu"
     pl: "Koniecznemu remontowi nikt się nie sprzeciwi."
@@ -188,6 +237,21 @@ formExamples:
     pl: "Liczba koniecznych poprawek rośnie."
     ru: "Число необходимых поправок растёт."
     source: { kind: authored }
+  - form: "koniecznych"
+    cell: "Предложный"
+    pl: "Mówił o koniecznych zmianach."
+    ru: "Он говорил о необходимых переменах."
+    source: { kind: authored }
+  - form: "koniecznych"
+    cell: "Предложный"
+    pl: "W koniecznych przypadkach dzwoń."
+    ru: "В необходимых случаях звони."
+    source: { kind: authored }
+  - form: "koniecznych"
+    cell: "Предложный"
+    pl: "Po koniecznych naprawach samochód jeździ."
+    ru: "После необходимого ремонта машина ездит."
+    source: { kind: authored }
   - form: "koniecznym"
     cell: "Предложный"
     pl: "W koniecznym zakresie remont wykonano."
@@ -202,6 +266,36 @@ formExamples:
     cell: "Творительный"
     pl: "Z koniecznym remontem dłużej nie zwlekaj."
     ru: "С необходимым ремонтом больше не тяни."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Дательный"
+    pl: "Sprzeciwiał się koniecznym reformom."
+    ru: "Он противился необходимым реформам."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Дательный"
+    pl: "Dzięki koniecznym zabiegom przeżył."
+    ru: "Благодаря необходимым процедурам он выжил."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Творительный"
+    pl: "Okazał się koniecznym krokiem."
+    ru: "Он оказался необходимым шагом."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Творительный"
+    pl: "Zajmijmy się koniecznym remontem."
+    ru: "Давайте займёмся необходимым ремонтом."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Предложный"
+    pl: "Mówił o koniecznym kroku."
+    ru: "Он говорил о необходимом шаге."
+    source: { kind: authored }
+  - form: "koniecznym"
+    cell: "Предложный"
+    pl: "W koniecznym przypadku zadzwoń."
+    ru: "В случае необходимости позвони."
     source: { kind: authored }
   - form: "koniecznymi"
     pl: "Zajmujemy się koniecznymi poprawkami."

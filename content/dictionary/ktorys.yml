@@ -54,6 +54,8 @@ memory: "któryś — «какой-то, один из». Частица -ś п�
 idioms:
   - { pl: "któregoś dnia", ru: "однажды" }
   - { pl: "któryś z nas", ru: "кто-то из нас" }
+formExamplesSkip:
+  - { form: "którymś", cell: "Дательный", reason: "дательный падеж множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "któraś"
     pl: "Któraś z sióstr musi zostać."
@@ -80,6 +82,7 @@ formExamples:
     ru: "Буду признательна, если ты поможешь мне выбрать одно из этих двух платьев."
     source: { kind: tatoeba, id: 925862 }
   - form: "któregoś"
+    cell: "Родительный"
     pl: "Odwiedzę go któregoś dnia."
     ru: "Я навещу его как-нибудь на днях."
     source: { kind: translated, id: 663868 }
@@ -89,21 +92,69 @@ formExamples:
     ru: "Однажды моя мечта сбудется."
     source: { kind: translated, id: 602440 }
   - form: "któregoś"
+    cell: "Родительный"
     pl: "Spotkałem ją któregoś zimowego dnia."
     ru: "Я встретил её как-то зимним днём."
     source: { kind: translated, id: 3973724 }
+  - form: "któregoś"
+    cell: "Винительный"
+    pl: "Zapytaj któregoś nauczyciela."
+    ru: "Спроси кого-нибудь из учителей."
+    source: { kind: authored }
+  - form: "któregoś"
+    cell: "Винительный"
+    pl: "Wezwij któregoś lekarza."
+    ru: "Позови какого-нибудь врача."
+    source: { kind: authored }
+  - form: "któregoś"
+    cell: "Винительный"
+    pl: "Widziałem któregoś z twoich braci."
+    ru: "Я видел одного из твоих братьев."
+    source: { kind: authored }
   - form: "którejś"
     cell: "Родительный"
     pl: "Którejś wiosny bociek zbudował gniazdo na domu sąsiadów."
     ru: "Какой-то весной аист свил гнездо на доме соседей."
     source: { kind: translated, id: 6155824 }
   - form: "którejś"
+    cell: "Родительный"
     pl: "Którejś nocy obudził mnie hałas."
     ru: "Какой-то ночью меня разбудил шум."
     source: { kind: authored }
   - form: "którejś"
+    cell: "Предложный"
     pl: "Zgubił się na którejś ulicy."
     ru: "Он заблудился на какой-то улице."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Родительный"
+    pl: "Szukam którejś z tych książek."
+    ru: "Я ищу какую-то из этих книг."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Предложный"
+    pl: "Mieszka w którejś z tych kamienic."
+    ru: "Он живёт в одном из этих домов."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Предложный"
+    pl: "Mówił o którejś z koleżanek."
+    ru: "Он говорил о какой-то из коллег."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Дательный"
+    pl: "Daj to którejś z sióstr."
+    ru: "Отдай это какой-нибудь из сестёр."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Дательный"
+    pl: "Pomógł którejś sąsiadce."
+    ru: "Он помог одной из соседок."
+    source: { kind: authored }
+  - form: "którejś"
+    cell: "Дательный"
+    pl: "Powierz to którejś z pielęgniarek."
+    ru: "Поручи это какой-нибудь из медсестёр."
     source: { kind: authored }
   - form: "któremuś"
     pl: "Któremuś z chłopców trzeba pomóc."
@@ -135,6 +186,7 @@ formExamples:
     ru: "В каких-то бумагах я это видел."
     source: { kind: authored }
   - form: "którychś"
+    cell: "Родительный"
     pl: "Szukam którychś starych zdjęć."
     ru: "Я ищу какие-то старые фотографии."
     source: { kind: authored }
@@ -142,6 +194,36 @@ formExamples:
     cell: "Предложный"
     pl: "W którychś latach osiemdziesiątych to się zdarzyło."
     ru: "Это случилось в какие-то восьмидесятые годы."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Родительный"
+    pl: "Nie pamiętam którychś szczegółów."
+    ru: "Я не помню каких-то подробностей."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Родительный"
+    pl: "Brakuje którychś dokumentów."
+    ru: "Не хватает каких-то документов."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Винительный"
+    pl: "Zapytaj którychś sąsiadów."
+    ru: "Спроси кого-нибудь из соседей."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Винительный"
+    pl: "Zaproś którychś kolegów."
+    ru: "Пригласи кого-нибудь из коллег."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Винительный"
+    pl: "Widziałem którychś z nich w parku."
+    ru: "Я видел кого-то из них в парке."
+    source: { kind: authored }
+  - form: "którychś"
+    cell: "Предложный"
+    pl: "W którychś drzwiach był zamek."
+    ru: "В каких-то дверях был замок."
     source: { kind: authored }
   - form: "którymiś"
     pl: "Zajął się którymiś starymi papierami."
@@ -169,6 +251,21 @@ formExamples:
     cell: "Предложный"
     pl: "Spotkamy się w którymś tygodniu."
     ru: "Встретимся на какой-нибудь неделе."
+    source: { kind: authored }
+  - form: "którymś"
+    cell: "Творительный"
+    pl: "Przyjechał którymś pociągiem."
+    ru: "Он приехал каким-то поездом."
+    source: { kind: authored }
+  - form: "którymś"
+    cell: "Творительный"
+    pl: "Rozmawiał z którymś z dyrektorów."
+    ru: "Он разговаривал с одним из директоров."
+    source: { kind: authored }
+  - form: "którymś"
+    cell: "Творительный"
+    pl: "Którymś autobusem tam dojedziesz."
+    ru: "Каким-нибудь автобусом туда доедешь."
     source: { kind: authored }
   - form: "któryś"
     pl: "Któryś z nas musi iść."

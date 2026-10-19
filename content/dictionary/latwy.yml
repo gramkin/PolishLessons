@@ -77,6 +77,8 @@ idioms:
   - { pl: "To łatwe", ru: "Это легко" }
   - { pl: "nie jest łatwy", ru: "непростой" }
   - { pl: "łatwo powiedzieć", ru: "легко сказать" }
+formExamplesSkip:
+  - { form: "łatwych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "łatwa"
     pl: "Ta książka była łatwa."
@@ -105,6 +107,21 @@ formExamples:
     pl: "Pisanie kredą nie jest łatwą rzeczą."
     ru: "Писать мелом — дело непростое."
     source: { kind: translated, id: 665838 }
+  - form: "łatwą"
+    cell: "Винительный"
+    pl: "Wybrał łatwą drogę."
+    ru: "Он выбрал лёгкий путь."
+    source: { kind: authored }
+  - form: "łatwą"
+    cell: "Винительный"
+    pl: "Dostał łatwą pracę."
+    ru: "Он получил лёгкую работу."
+    source: { kind: authored }
+  - form: "łatwą"
+    cell: "Винительный"
+    pl: "Napisał łatwą klasówkę."
+    ru: "Он написал лёгкую контрольную."
+    source: { kind: authored }
   - form: "łatwe"
     pl: "To łatwe zwycięstwo."
     ru: "Это лёгкая победа."
@@ -130,6 +147,7 @@ formExamples:
     ru: "Ничего лёгкого в этом нет."
     source: { kind: authored }
   - form: "łatwej"
+    cell: "Родительный"
     pl: "Nie ma tu łatwej odpowiedzi."
     ru: "Лёгкого ответа здесь нет."
     source: { kind: authored }
@@ -139,8 +157,39 @@ formExamples:
     ru: "Они искали лёгкий путь."
     source: { kind: authored }
   - form: "łatwej"
+    cell: "Предложный"
     pl: "Po łatwej wygranej odpoczęli."
     ru: "После лёгкой победы они отдохнули."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Родительный"
+    pl: "Szukał łatwej drogi."
+    ru: "Он искал лёгкий путь."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Предложный"
+    pl: "Mówił o łatwej pracy."
+    ru: "Он говорил о лёгкой работе."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Предложный"
+    pl: "Marzy o łatwej przyszłości."
+    ru: "Он мечтает о лёгком будущем."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Дательный"
+    pl: "Dzięki łatwej trasie dotarli szybko."
+    ru: "Благодаря лёгкому маршруту они добрались быстро."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Дательный"
+    pl: "Nie ufaj łatwej wygranej."
+    ru: "Не доверяй лёгкой победе."
+    source: { kind: authored }
+  - form: "łatwej"
+    cell: "Дательный"
+    pl: "Nie oparł się łatwej pokusie."
+    ru: "Он не устоял перед лёгким соблазном."
     source: { kind: authored }
   - form: "łatwemu"
     pl: "Nie ufaj łatwemu zwycięstwu."
@@ -311,6 +360,7 @@ formExamples:
     ru: "Испанский лёгкий."
     source: { kind: translated, id: 8760911 }
   - form: "łatwych"
+    cell: "Родительный"
     pl: "Nie ma łatwych odpowiedzi."
     ru: "Лёгких ответов не бывает."
     source: { kind: authored }
@@ -323,6 +373,21 @@ formExamples:
     cell: "Родительный"
     pl: "Szukam łatwych tekstów do czytania."
     ru: "Я ищу лёгкие тексты для чтения."
+    source: { kind: authored }
+  - form: "łatwych"
+    cell: "Предложный"
+    pl: "Mówił o łatwych pieniądzach."
+    ru: "Он говорил о лёгких деньгах."
+    source: { kind: authored }
+  - form: "łatwych"
+    cell: "Предложный"
+    pl: "W łatwych zadaniach nie popełnia błędów."
+    ru: "В лёгких заданиях он не ошибается."
+    source: { kind: authored }
+  - form: "łatwych"
+    cell: "Предложный"
+    pl: "Po łatwych meczach przyszły trudne."
+    ru: "После лёгких матчей пришли трудные."
     source: { kind: authored }
   - form: "łatwym"
     cell: "Творительный"
@@ -339,6 +404,36 @@ formExamples:
     pl: "Niemiecki nie jest łatwym językiem."
     ru: "Немецкий — непростой язык."
     source: { kind: translated, id: 449000 }
+  - form: "łatwym"
+    cell: "Дательный"
+    pl: "Nie ufaj łatwym rozwiązaniom."
+    ru: "Не доверяй лёгким решениям."
+    source: { kind: authored }
+  - form: "łatwym"
+    cell: "Дательный"
+    pl: "Przyjrzał się łatwym zadaniom."
+    ru: "Он просмотрел лёгкие задания."
+    source: { kind: authored }
+  - form: "łatwym"
+    cell: "Дательный"
+    pl: "Nie oparł się łatwym pieniądzom."
+    ru: "Он не устоял перед лёгкими деньгами."
+    source: { kind: authored }
+  - form: "łatwym"
+    cell: "Предложный"
+    pl: "Mówił o łatwym egzaminie."
+    ru: "Он говорил о лёгком экзамене."
+    source: { kind: authored }
+  - form: "łatwym"
+    cell: "Предложный"
+    pl: "W łatwym tekście nie ma trudnych słów."
+    ru: "В лёгком тексте нет трудных слов."
+    source: { kind: authored }
+  - form: "łatwym"
+    cell: "Предложный"
+    pl: "Po łatwym meczu drużyna odpoczęła."
+    ru: "После лёгкого матча команда отдохнула."
+    source: { kind: authored }
   - form: "łatwymi"
     pl: "Zajęli się łatwymi zadaniami."
     ru: "Они занялись лёгкими задачами."
