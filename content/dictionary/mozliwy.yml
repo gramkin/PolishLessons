@@ -88,6 +88,7 @@ formExamplesSkip:
   - { form: "najmożliwszym", reason: "прилагательное не градуируется: что-то либо возможно, либо нет, и «более возможным» не бывает. Вместо степени говорят bardziej prawdopodobny «более вероятный»" }
   - { form: "najmożliwszymi", reason: "прилагательное не градуируется: что-то либо возможно, либо нет, и «более возможным» не бывает. Вместо степени говорят bardziej prawdopodobny «более вероятный»" }
   - { form: "najmożliwszą", reason: "прилагательное не градуируется: что-то либо возможно, либо нет, и «более возможным» не бывает. Вместо степени говорят bardziej prawdopodobny «более вероятный»" }
+  - { form: "możliwych", cell: "Винительный", reason: "винительный падеж мужско-личного множественного числа от этого слова почти не употребляется" }
 formExamples:
   - form: "możliwa"
     pl: "W Polsce ,,6\" to najlepsza możliwa do zdobycia ocena w szkole."
@@ -107,6 +108,7 @@ formExamples:
     ru: "Абсолютный ноль — самая низкая возможная температура."
     source: { kind: translated, id: 2379978 }
   - form: "możliwą"
+    cell: "Винительный"
     pl: "Uznali tę wersję za możliwą."
     ru: "Эту версию сочли возможной."
     source: { kind: authored }
@@ -114,6 +116,21 @@ formExamples:
     cell: "Винительный"
     pl: "Wybrał najprostszą możliwą drogę."
     ru: "Он выбрал самый простой возможный путь."
+    source: { kind: authored }
+  - form: "możliwą"
+    cell: "Винительный"
+    pl: "Rozważył każdą możliwą opcję."
+    ru: "Он рассмотрел каждый возможный вариант."
+    source: { kind: authored }
+  - form: "możliwą"
+    cell: "Творительный"
+    pl: "Pojechał najkrótszą możliwą drogą."
+    ru: "Он поехал кратчайшей возможной дорогой."
+    source: { kind: authored }
+  - form: "możliwą"
+    cell: "Творительный"
+    pl: "Pracował z największą możliwą starannością."
+    ru: "Он работал с максимально возможной тщательностью."
     source: { kind: authored }
   - form: "możliwe"
     pl: "Całkiem możliwe."
@@ -140,6 +157,7 @@ formExamples:
     ru: "Я не вижу здесь варианта, который можно защитить."
     source: { kind: authored }
   - form: "możliwej"
+    cell: "Предложный"
     pl: "Spotkam się z nim przy najbliższej możliwej okazji."
     ru: "Я встречусь с ним при ближайшей возможности."
     source: { kind: translated, id: 4403843 }
@@ -152,6 +170,36 @@ formExamples:
     cell: "Родительный"
     pl: "Szukali możliwej daty spotkania."
     ru: "Они искали возможную дату встречи."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Предложный"
+    pl: "Mówił o możliwej przyczynie."
+    ru: "Он говорил о возможной причине."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Предложный"
+    pl: "W możliwej sytuacji kryzysowej dzwoń."
+    ru: "В случае возможного кризиса звони."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Родительный"
+    pl: "Boi się możliwej porażki."
+    ru: "Он боится возможного поражения."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Дательный"
+    pl: "Chcemy zapobiec możliwej katastrofie."
+    ru: "Мы хотим предотвратить возможную катастрофу."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się możliwej przyczynie."
+    ru: "Давайте рассмотрим возможную причину."
+    source: { kind: authored }
+  - form: "możliwej"
+    cell: "Дательный"
+    pl: "Przeciwdziałano możliwej epidemii."
+    ru: "Принимали меры против возможной эпидемии."
     source: { kind: authored }
   - form: "możliwemu"
     pl: "Przyjrzał się możliwemu rozwiązaniu."
@@ -190,6 +238,7 @@ formExamples:
     ru: "Возможен ли другой мир?"
     source: { kind: translated, id: 10470325 }
   - form: "możliwych"
+    cell: "Родительный"
     pl: "To tylko jedna z możliwych wersji."
     ru: "Это только одна из возможных версий."
     source: { kind: tatoeba, id: 13786771 }
@@ -203,7 +252,23 @@ formExamples:
     pl: "Rozważyli kilka możliwych wariantów."
     ru: "Они рассмотрели несколько возможных вариантов."
     source: { kind: authored }
+  - form: "możliwych"
+    cell: "Предложный"
+    pl: "Mówił o możliwych skutkach."
+    ru: "Он говорил о возможных последствиях."
+    source: { kind: authored }
+  - form: "możliwych"
+    cell: "Предложный"
+    pl: "We wszystkich możliwych przypadkach wynik był ten sam."
+    ru: "Во всех возможных случаях результат был тот же."
+    source: { kind: authored }
+  - form: "możliwych"
+    cell: "Предложный"
+    pl: "Po możliwych zmianach wszystko się wyjaśni."
+    ru: "После возможных изменений всё прояснится."
+    source: { kind: authored }
   - form: "możliwym"
+    cell: "Предложный"
     pl: "W możliwym wariancie wszystko się zgadza."
     ru: "В возможном варианте всё сходится."
     source: { kind: authored }
@@ -216,6 +281,36 @@ formExamples:
     cell: "Творительный"
     pl: "Zajął się możliwym kompromisem."
     ru: "Он занялся возможным компромиссом."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Предложный"
+    pl: "Mówił o możliwym rozwiązaniu."
+    ru: "Он говорил о возможном решении."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Предложный"
+    pl: "Po możliwym ataku zamknięto granice."
+    ru: "После возможной атаки закрыли границы."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Дательный"
+    pl: "Przyjrzyjmy się możliwym rozwiązaniom."
+    ru: "Давайте рассмотрим возможные решения."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Дательный"
+    pl: "Chcemy zapobiec możliwym problemom."
+    ru: "Мы хотим предотвратить возможные проблемы."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Творительный"
+    pl: "Wrócił z możliwym rozwiązaniem."
+    ru: "Он вернулся с возможным решением."
+    source: { kind: authored }
+  - form: "możliwym"
+    cell: "Творительный"
+    pl: "Był możliwym kandydatem."
+    ru: "Он был возможным кандидатом."
     source: { kind: authored }
   - form: "możliwymi"
     pl: "Zajęli się możliwymi wariantami."
