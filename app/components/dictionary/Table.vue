@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { CardPos, FormExample, FormsTable } from '#shared/dictionary'
-import { examplesForCell, highlightForms, rowAliases, rowsHoldingForm } from '~/utils/dictionary'
+import { rowAliases, type CardPos, type FormExample, type FormsTable } from '#shared/dictionary'
+import { examplesForCell, highlightForms, rowsHoldingForm } from '~/utils/dictionary'
 
 const props = defineProps<{
   table: FormsTable

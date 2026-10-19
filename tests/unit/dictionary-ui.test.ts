@@ -1,12 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import type { FormsTable } from '../../shared/dictionary'
+import { rowAliases, type FormsTable } from '../../shared/dictionary'
 import {
   cardNav,
   conjugationLabel,
   conjugations,
   highlightForms,
   examplesForCell,
-  rowAliases,
   rowsHoldingForm,
   rankBand,
   tatoebaUrl,

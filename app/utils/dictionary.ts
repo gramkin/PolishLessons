@@ -45,28 +45,6 @@ export function rowsHoldingForm(table: FormsTable, form: string): string[] {
 }
 
 /**
- * Rows that only repeat another row of the same table, mapped to that row: they
- * borrow its examples instead of needing their own. An adjective's vocative is its
- * nominative — every vocative form stands in the nominative cell (the short
- * «pełen» is nominative-only, so the vocative may hold fewer).
- */
-export function rowAliases(table: FormsTable, pos: CardPos | undefined): Map<string, string> {
-  const aliases = new Map<string, string>()
-  if (pos !== 'adj') return aliases
-  const nom = table.rows.find((r) => r.label === 'Именительный')
-  const voc = table.rows.find((r) => r.label === 'Звательный')
-  if (
-    nom &&
-    voc &&
-    voc.cells.length === nom.cells.length &&
-    voc.cells.every((cell, i) => cell.every((form) => nom.cells[i]!.includes(form)))
-  ) {
-    aliases.set(voc.label, nom.label)
-  }
-  return aliases
-}
-
-/**
  * The examples to show for a form clicked in row `row`. When the form fills one
  * row, every example is the cell's own. When it fills several, `own` holds the
  * ones tagged for this row, `shared` the untagged ones (they may illustrate any

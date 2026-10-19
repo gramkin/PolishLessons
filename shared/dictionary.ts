@@ -171,6 +171,28 @@ export type ExampleSource = z.infer<typeof sourceSchema>
 export type Sense = z.infer<typeof senseSchema>
 export type Card = z.infer<typeof cardSchema>
 export type FormsTable = z.infer<typeof formsTableSchema>
+
+/**
+ * Rows that only repeat another row of the same table, mapped to that row: they
+ * borrow its examples instead of needing their own. An adjective's vocative is its
+ * nominative — every vocative form stands in the nominative cell (the short
+ * «pełen» is nominative-only, so the vocative may hold fewer).
+ */
+export function rowAliases(table: FormsTable, pos: CardPos | undefined): Map<string, string> {
+  const aliases = new Map<string, string>()
+  if (pos !== 'adj') return aliases
+  const nom = table.rows.find((r) => r.label === 'Именительный')
+  const voc = table.rows.find((r) => r.label === 'Звательный')
+  if (
+    nom &&
+    voc &&
+    voc.cells.length === nom.cells.length &&
+    voc.cells.every((cell, i) => cell.every((form) => nom.cells[i]!.includes(form)))
+  ) {
+    aliases.set(voc.label, nom.label)
+  }
+  return aliases
+}
 export type Audio = z.infer<typeof audioSchema>
 export type FormsFile = z.infer<typeof formsFileSchema>
 export type CardRef = z.infer<typeof cardRefSchema>

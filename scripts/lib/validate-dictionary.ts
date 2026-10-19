@@ -2,6 +2,7 @@ import {
   CARD_FORMAT,
   cardSchema,
   formsFileSchema,
+  rowAliases,
   type Card,
   type FormsFile,
 } from '../../shared/dictionary'
@@ -11,7 +12,6 @@ import {
   REASONS_NEEDING_SEE,
   type ExclusionNote,
 } from '../dictionary/lib/rank'
-import { rowAliases } from '../../app/utils/dictionary'
 import { affirmativeForms } from '../dictionary/lib/draft'
 import { tokenize } from '../dictionary/lib/tatoeba'
 import type { DataFile } from './load-content'
