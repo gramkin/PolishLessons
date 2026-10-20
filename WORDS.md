@@ -36,15 +36,23 @@
    форму, значения, примечания, этимология, идиомы; новые тексты помечены `# review`.
    Очередь пуста; 16 записей реестра — формы других слов (↩︎) и карточек не требуют.
 
+8. Третий раздел «Raw words» (2026-10-20): 179 разных слов, из них 147 уже с карточками.
+   **27 новых лемм** записаны в `data/words.json` с рангами 6044–6070 и сразу получили
+   карточки формата 2. Отдельно стоящее слово сохраняет свою лемму (`nadejście`,
+   `zastrzeżenie`, `zrzeszony`, `narosły`), в предложении лемму выбирает контекст
+   (`wysunięty` → `wysunąć`, `górujący` → `górować`, `doświadczanie` → `doświadczać`).
+   4 токена — имена (Dawson, Neligan, Lenin) и нераспознанное `szrontak` — в
+   `data/words-excluded.json`.
+
 ## Состояние
 
 |                       |          |
 | --------------------- | -------- |
-| Лемм всего            | **1397** |
-| Карточка готова       | **1397** |
+| Лемм всего            | **1424** |
+| Карточка готова       | **1424** |
 | В очереди             | **0**    |
 | Формы других слов (↩︎) | **16**   |
-| Не в словаре          | **72**   |
+| Не в словаре          | **76**   |
 
 ## Обозначения
 
@@ -1355,5 +1363,72 @@ pnpm dict:status && pnpm generate
 - dziedzictwo — ✅ [dziedzictwo](/slovo/dziedzictwo) · noun
 - przełamać — ✅ [przełamać](/slovo/przelamac) · verb
 - przytłaczającej — ✅ [przytłaczający](/slovo/przytlaczajacy) · adj
+- **Istnieje groźba wojny.**  
+  <sub>слова: [istnieć](/slovo/istniec), [groźba](/slovo/grozba), [wojna](/slovo/wojna)</sub>
+- **Istnieje zagrożenie wojną.**  
+  <sub>слова: [istnieć](/slovo/istniec), [zagrożenie](/slovo/zagrozenie), [wojna](/slovo/wojna)</sub>
+- **Gdzie dokładnie?**  
+  <sub>слова: [gdzie](/slovo/gdzie), [dokładnie](/slovo/dokladnie)</sub>
+- **Twoje towarzystwo bardzo by się przydało**  
+  <sub>слова: [twój](/slovo/twoj), [towarzystwo](/slovo/towarzystwo), [bardzo](/slovo/bardzo), [by](/slovo/by), [się](/slovo/sie), [przydać](/slovo/przydac)</sub>
+- **Przez cienką firankę (Сквозь тонкую занавеску;**  
+  <sub>слова: [przez](/slovo/przez), [cienki](/slovo/cienki), [firanka](/slovo/firanka)</sub>
+- **— Co pan tu robił, czego szukał?**  
+  <sub>слова: [co](/slovo/co), [pan](/slovo/pan), [tu](/slovo/tu), [robić](/slovo/robic), [co](/slovo/co), [szukać](/slovo/szukac)</sub>
+- **Zapewne słyszeliście panowie kiedyś o Dawsonie i Neliganie, nie?**  
+  <sub>слова: [zapewne](/slovo/zapewne), [słyszeć](/slovo/slyszec), [pan](/slovo/pan), [kiedyś](/slovo/kiedys), [o](/slovo/o), [i](/slovo/i), [nie](/slovo/nie)</sub>
+- **Czy można tu jeszcze w coś wątpić?**  
+  <sub>слова: [czy](/slovo/czy), [można](/slovo/mozna), [tu](/slovo/tu), [jeszcze](/slovo/jeszcze), [w](/slovo/w), [coś](/slovo/cos), [wątpić](/slovo/watpic)</sub>
+- **Niedługo na to czekałem**  
+  <sub>слова: [niedługo](/slovo/niedlugo), [na](/slovo/na), [to](/slovo/to), [czekać](/slovo/czekac)</sub>
+- zanurzyć — ✅ [zanurzyć](/slovo/zanurzyc) · verb
+- nadejściem — ✅ [nadejście](/slovo/nadejscie) · noun
+- **Zobaczcie, pod naciskiem buta już się kruszy. Patrzcie na to.**  
+  <sub>слова: [zobaczyć](/slovo/zobaczyc), [pod](/slovo/pod), [nacisk](/slovo/nacisk), [but](/slovo/but), [już](/slovo/juz), [się](/slovo/sie), [kruszyć](/slovo/kruszyc), [patrzeć](/slovo/patrzec), [na](/slovo/na), [to](/slovo/to)</sub>
+- **Jest może w pokoju z nami ktoś, kto się na tym zna.**  
+  <sub>слова: [być](/slovo/byc), [może](/slovo/moze), [w](/slovo/w), [pokój](/slovo/pokoj), [z](/slovo/z), [my](/slovo/my), [ktoś](/slovo/ktos), [kto](/slovo/kto), [się](/slovo/sie), [na](/slovo/na), [to](/slovo/to), [znać](/slovo/znac)</sub>
+- **Z czego to wynika? Co to jest? Co to jest? Jak ktoś się zna, to dajcie znać.**  
+  <sub>слова: [z](/slovo/z), [co](/slovo/co), [to](/slovo/to), [wynikać](/slovo/wynikac), [co](/slovo/co), [to](/slovo/to), [być](/slovo/byc), [co](/slovo/co), [to](/slovo/to), [być](/slovo/byc), [jak](/slovo/jak), [ktoś](/slovo/ktos), [się](/slovo/sie), [znać](/slovo/znac), [to](/slovo/to), [dać](/slovo/dac), [znać](/slovo/znac)</sub>
+- **My jeszcze trochę w chmurach, ale tutaj już troszeczkę nam się wypogodziło i widać największą górę w okolicy miasta.**  
+  <sub>слова: [my](/slovo/my), [jeszcze](/slovo/jeszcze), [trochę](/slovo/troche), [w](/slovo/w), [chmura](/slovo/chmura), [ale](/slovo/ale), [tutaj](/slovo/tutaj), [już](/slovo/juz), [troszeczkę](/slovo/troszeczke), [my](/slovo/my), [się](/slovo/sie), [wypogodzić](/slovo/wypogodzic), [i](/slovo/i), [widać](/slovo/widac), [duży](/slovo/duzy), [góra](/slovo/gora), [w](/slovo/w), [okolica](/slovo/okolica), [miasto](/slovo/miasto)</sub>
+- **I znowu idziemy we mgle.**  
+  <sub>слова: [i](/slovo/i), [znowu](/slovo/znowu), [iść](/slovo/isc), [w](/slovo/w), [mgła](/slovo/mgla)</sub>
+- **Jest szansa, że zobaczymy miasto z góry. Miasto jest tam daleko z tyłu.**  
+  <sub>слова: [być](/slovo/byc), [szansa](/slovo/szansa), [że](/slovo/ze), [zobaczyć](/slovo/zobaczyc), [miasto](/slovo/miasto), [z](/slovo/z), [góra](/slovo/gora), [miasto](/slovo/miasto), [być](/slovo/byc), [tam](/slovo/tam), [daleko](/slovo/daleko), [z](/slovo/z), [tył](/slovo/tyl)</sub>
+- wskutek — ✅ [wskutek](/slovo/wskutek) · prep
+- budowę — ✅ [budowa](/slovo/budowa) · noun
+- grzbiet — ✅ [grzbiet](/slovo/grzbiet) · noun
+- **chusteczek nawilżanych**  
+  <sub>слова: [chusteczka](/slovo/chusteczka), [nawilżać](/slovo/nawilzac)</sub>
+- podziwiamy — ✅ [podziwiać](/slovo/podziwiac) · verb
+- zrzeszony — ✅ [zrzeszony](/slovo/zrzeszony) · adj
+- zrzeszyć — ✅ [zrzeszyć](/slovo/zrzeszyc) · verb
+- **Płyniemy dalej podziwiając ptaki i pomału zbliżając się w kierunku ogromnego lodowca.**  
+  <sub>слова: [płynąć](/slovo/plynac), [dalej](/slovo/dalej), [podziwiać](/slovo/podziwiac), [ptak](/slovo/ptak), [i](/slovo/i), [pomału](/slovo/pomalu), [zbliżać](/slovo/zblizac), [się](/slovo/sie), [w](/slovo/w), [kierunek](/slovo/kierunek), [ogromny](/slovo/ogromny), [lodowiec](/slovo/lodowiec)</sub>
+- majestatyczne — ✅ [majestatyczny](/slovo/majestatyczny) · adj
+- **Był tu też i nadal znajduje się najdalej na północ wysunięty pomnik Lenina górujący nad placem centralnym.**  
+  <sub>слова: [być](/slovo/byc), [tu](/slovo/tu), [też](/slovo/tez), [i](/slovo/i), [nadal](/slovo/nadal), [znajdować](/slovo/znajdowac), [się](/slovo/sie), [daleko](/slovo/daleko), [na](/slovo/na), [północ](/slovo/polnoc), [wysunąć](/slovo/wysunac), [pomnik](/slovo/pomnik), [górować](/slovo/gorowac), [nad](/slovo/nad), [plac](/slovo/plac), [centralny](/slovo/centralny)</sub>
+- szrontak — ⛔ не распознано
+- **Trwało to z godzinę w środku, a przeszliśmy tylko kawałek tej kopalni.**  
+  <sub>слова: [trwać](/slovo/trwac), [to](/slovo/to), [z](/slovo/z), [godzina](/slovo/godzina), [w](/slovo/w), [środek](/slovo/srodek), [a](/slovo/a), [przejść](/slovo/przejsc), [tylko](/slovo/tylko), [kawałek](/slovo/kawalek), [ten](/slovo/ten), [kopalnia](/slovo/kopalnia)</sub>
+- pokonywać — ✅ [pokonywać](/slovo/pokonywac) · verb
+- przeróżny — ✅ [przeróżny](/slovo/przerozny) · adj
+- **Ciekawe jest to, że one są tutaj przeróżne. Po prostu różnej maści są. jasne, są ciemne. No cześć. Cześć.**  
+  <sub>слова: [ciekawy](/slovo/ciekawy), [być](/slovo/byc), [to](/slovo/to), [że](/slovo/ze), [one](/slovo/one), [być](/slovo/byc), [tutaj](/slovo/tutaj), [przeróżny](/slovo/przerozny), [po](/slovo/po), [prosty](/slovo/prosty), [różny](/slovo/rozny), [maść](/slovo/masc), [być](/slovo/byc), [jasny](/slovo/jasny), [być](/slovo/byc), [ciemny](/slovo/ciemny), [no](/slovo/no), [cześć](/slovo/czesc), [cześć](/slovo/czesc)</sub>
+- **A jak wiemy, pies to gatunek poznający świat nosem, więc jego doświadczanie życia jest tu bardzo ograniczone.**  
+  <sub>слова: [a](/slovo/a), [jak](/slovo/jak), [wiedzieć](/slovo/wiedziec), [pies](/slovo/pies), [to](/slovo/to), [gatunek](/slovo/gatunek), [poznawać](/slovo/poznawac), [świat](/slovo/swiat), [nos](/slovo/nos), [więc](/slovo/wiec), [on](/slovo/on), [doświadczać](/slovo/doswiadczac), [życie](/slovo/zycie), [być](/slovo/byc), [tu](/slovo/tu), [bardzo](/slovo/bardzo), [ograniczyć](/slovo/ograniczyc)</sub>
+- **Widoki zaczynają się robić coraz ciekawsze, niestety w deszczu.**  
+  <sub>слова: [widok](/slovo/widok), [zaczynać](/slovo/zaczynac), [się](/slovo/sie), [robić](/slovo/robic), [coraz](/slovo/coraz), [ciekawy](/slovo/ciekawy), [niestety](/slovo/niestety), [w](/slovo/w), [deszcz](/slovo/deszcz)</sub>
+- **Kiedyś był tu domek, to są jego pozostałości, a tutaj zobaczcie puszki zostały wszędzie węgiel.**  
+  <sub>слова: [kiedyś](/slovo/kiedys), [być](/slovo/byc), [tu](/slovo/tu), [domek](/slovo/domek), [to](/slovo/to), [być](/slovo/byc), [on](/slovo/on), [pozostałość](/slovo/pozostalosc), [a](/slovo/a), [tutaj](/slovo/tutaj), [zobaczyć](/slovo/zobaczyc), [puszka](/slovo/puszka), [zostać](/slovo/zostac), [wszędzie](/slovo/wszedzie), [węgiel](/slovo/wegiel)</sub>
+- **Nie wiemy czy da radę przejść. Być może się wycofamy.**  
+  <sub>слова: [nie](/slovo/nie), [wiedzieć](/slovo/wiedziec), [czy](/slovo/czy), [dać](/slovo/dac), [rada](/slovo/rada), [przejść](/slovo/przejsc), [być](/slovo/byc), [może](/slovo/moze), [się](/slovo/sie), [wycofać](/slovo/wycofac)</sub>
+- poziom — ✅ [poziom](/slovo/poziom) · noun
+- meritum — ✅ [meritum](/slovo/meritum) · noun
+- zastrzeżenie — ✅ [zastrzeżenie](/slovo/zastrzezenie) · noun
+- narosłe — ✅ [narosły](/slovo/narosly) · adj
+- uwzględniać — ✅ [uwzględniać](/slovo/uwzgledniac) · verb
+- spośród — ✅ [spośród](/slovo/sposrod) · prep
+- poszczególny — ✅ [poszczególny](/slovo/poszczegolny) · adj
 
 ### Raw words
