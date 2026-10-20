@@ -128,6 +128,8 @@ questions:
 :pron{pl="Kot chowa się za szafę."} — Кот прячется за шкаф.
 :pron{pl="Czekam przed kinem."} — Я жду перед кинотеатром.
 
+Некоторые глаголы допускают оба падежа, и смысл меняется чуть-чуть, как в русском: :pron{pl="Kot chowa się za szafę."} — прячется за шкаф (куда залезает), :pron{pl="Kot chowa się za szafą."} — прячется за шкафом (где сидит). Однозначно «куда?» спрашивают глаголы движения: *wchodzić*, *wpadać*, *wskakiwać* — только *za szafę*.
+
 У *przed* с творительным есть и значение времени, как у русского «перед»: :pron{pl="Myję ręce przed obiadem."} — Я мою руки перед обедом.
 
 ::quiz
@@ -225,10 +227,10 @@ questions:
     answer: z
     explain: "«Откуда?» — z + родительный: z Polski, как «из Польши»."
   - type: choice
-    q: "Kot chowa się za ___. (szafa)"
+    q: "Piłka wpada za ___. (szafa)"
     options: [szafę, szafą]
     answer: 0
-    explain: "Кот движется — «куда?», поэтому винительный: za szafę, «за шкаф». За шкафом (сидит) было бы za szafą."
+    explain: "Мяч движется — «куда?», поэтому винительный: za szafę, «за шкаф». Za szafą — «за шкафом», где он уже лежит: Piłka leży za szafą. С chować się годятся оба: chowa się za szafę (куда) и za szafą (где)."
   - type: translate
     q: После обеда я иду на прогулку.
     answer: [Po obiedzie idę na spacer., Idę na spacer po obiedzie.]
