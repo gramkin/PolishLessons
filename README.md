@@ -39,7 +39,8 @@ pnpm generate     # validate content, then build the static site into .output/pu
 pnpm preview      # serve the built site at http://localhost:4173
 ```
 
-The built site is plain static files and can be hosted anywhere.
+The built site is plain static files and can be hosted anywhere. Every push to `main` deploys it to
+GitHub Pages (`.github/workflows/pages.yml`).
 
 ## Checks
 
