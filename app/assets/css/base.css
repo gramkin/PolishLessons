@@ -97,10 +97,22 @@ pre,
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
 }
-.sidebar a:hover,
-.sidebar a.active {
-  color: var(--sidebar-active);
+.sidebar a:hover {
   text-decoration: none;
+}
+/* Hover only tints the row; the current page alone is coloured, so the two never look alike. */
+@media (hover: hover) {
+  .sidebar a:hover,
+  .sidebar .chapter-toggle:hover {
+    background: var(--sidebar-hover-bg);
+    color: var(--sidebar-hover-fg);
+  }
+}
+.sidebar a.active,
+.sidebar a.active:hover {
+  background: var(--sidebar-active-bg);
+  color: var(--sidebar-active);
+  font-weight: 600;
 }
 .sidebar ol {
   list-style: none;
@@ -129,9 +141,8 @@ pre,
   font: inherit;
   cursor: pointer;
 }
-.sidebar .chapter-toggle:hover,
 .sidebar .chapter-toggle:focus-visible {
-  color: var(--sidebar-active);
+  color: var(--sidebar-hover-fg);
 }
 .sidebar .spacer {
   height: 1px;
