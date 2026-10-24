@@ -41,9 +41,11 @@ test('a lesson in the middle of a chapter has no reading list', async ({ page })
   await expect(page.locator('.chapter-reading')).toHaveCount(0)
 })
 
-test('the sidebar opens every chapter once the page is loaded', async ({ page }) => {
-  // Prerendered pages list only chapter titles and the current chapter's lessons; the rest
-  // comes from nav.json after hydration.
+test('a collapsed chapter opens with its toggle', async ({ page }) => {
+  // Prerendered pages carry only the current chapter's lessons; the rest of the contents comes
+  // from nav.json after hydration, in time for the reader to open another chapter.
   await gotoHydrated(page, '/slovo/zab')
-  await expect.poll(() => page.locator('#sidebar ol.section a').count()).toBeGreaterThan(100)
+  await expect(page.locator('#sidebar ol.section')).toHaveCount(0)
+  await page.getByRole('button', { name: 'Уроки главы 5' }).click()
+  await expect(page.locator('#sidebar ol.section a').first()).toContainText('5.1')
 })

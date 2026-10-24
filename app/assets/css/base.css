@@ -108,7 +108,30 @@ pre,
   padding: 0;
 }
 .sidebar .section {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
+}
+.sidebar .chapter-row {
+  display: flex;
+  align-items: flex-start;
+}
+.sidebar .chapter-row .chapter-title {
+  flex: 1;
+  min-width: 0;
+}
+.sidebar .chapter-toggle {
+  flex: none;
+  width: 1.5rem;
+  padding: 0.25rem 0;
+  border: none;
+  border-radius: 3px;
+  background: none;
+  color: var(--sidebar-muted);
+  font: inherit;
+  cursor: pointer;
+}
+.sidebar .chapter-toggle:hover,
+.sidebar .chapter-toggle:focus-visible {
+  color: var(--sidebar-active);
 }
 .sidebar .spacer {
   height: 1px;
