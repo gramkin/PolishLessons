@@ -4,6 +4,7 @@ import {
   chapterEndingAt,
   flattenNav,
   normalizePath,
+  slimNav,
   surroundings,
 } from '../../app/utils/nav'
 
@@ -72,5 +73,52 @@ describe('chapterEndingAt', () => {
     expect(chapterEndingAt(nav, '/lessons/01-alphabet/02-stress/')).toBe(1)
     expect(chapterEndingAt(nav, '/lessons/01-alphabet/01-letters')).toBeNull()
     expect(chapterEndingAt(nav, '/lessons/02-sounds/01-rz')).toBe(2)
+  })
+})
+
+describe('slimNav', () => {
+  const nav = buildNav(lessons, chapters)
+
+  it("keeps only the current chapter's lessons and a first-lesson link for the rest", () => {
+    const slim = slimNav(nav, '/lessons/01-alphabet/02-stress/')
+    expect(slim.chapters).toEqual([
+      {
+        number: 1,
+        title: 'Алфавит и произношение',
+        firstPath: '/lessons/01-alphabet/01-letters',
+        lessons: [
+          { path: '/lessons/01-alphabet/01-letters', title: 'Буквы', label: '1.1' },
+          { path: '/lessons/01-alphabet/02-stress', title: 'Ударение', label: '1.2' },
+        ],
+      },
+      {
+        number: 2,
+        title: 'Звуковые соответствия',
+        firstPath: '/lessons/02-sounds/01-rz',
+        lessons: [],
+      },
+    ])
+  })
+
+  it('carries the neighbours, which may sit in another chapter', () => {
+    const slim = slimNav(nav, '/lessons/01-alphabet/02-stress')
+    expect(slim.prev?.path).toBe('/lessons/01-alphabet/01-letters')
+    expect(slim.next).toEqual({ path: '/lessons/02-sounds/01-rz', title: 'rz и р', label: '2.1' })
+  })
+
+  it('lists chapter titles only on a page that is not a lesson', () => {
+    const slim = slimNav(nav, '/slovo/kot')
+    expect(slim.chapters.every((c) => c.lessons.length === 0)).toBe(true)
+    expect(slim.prev).toBeNull()
+    expect(slim.next).toBeNull()
+  })
+
+  it("still finds the chapter that a slim nav's current lesson ends", () => {
+    expect(
+      chapterEndingAt(
+        slimNav(nav, '/lessons/02-sounds/01-rz').chapters,
+        '/lessons/02-sounds/01-rz',
+      ),
+    ).toBe(2)
   })
 })

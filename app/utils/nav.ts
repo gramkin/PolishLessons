@@ -20,6 +20,15 @@ export interface NavChapter {
   number: number
   title: string
   lessons: NavLesson[]
+  /** The chapter's first lesson, set when `lessons` was left out (`slimNav`). */
+  firstPath?: string
+}
+
+/** What every prerendered page carries: the contents with only the current chapter opened. */
+export interface SlimNav {
+  chapters: NavChapter[]
+  prev: NavLesson | null
+  next: NavLesson | null
 }
 
 export function buildNav(lessons: LessonNavInput[], chapters: ChapterInfo[]): NavChapter[] {
@@ -59,4 +68,22 @@ export function chapterEndingAt(nav: NavChapter[], path: string): number | null 
   const bare = normalizePath(path)
   const chapter = nav.find((c) => c.lessons.at(-1)?.path === bare)
   return chapter?.number ?? null
+}
+
+/**
+ * The contents as a single page needs them: every chapter's title and first lesson, the lessons of
+ * the chapter holding `path` and its neighbours. The full contents would add about 55 KB of HTML
+ * and payload to each of the ~5600 prerendered pages; the browser loads them once, from nav.json.
+ */
+export function slimNav(nav: NavChapter[], path: string): SlimNav {
+  const bare = normalizePath(path)
+  return {
+    chapters: nav.map((chapter) => ({
+      number: chapter.number,
+      title: chapter.title,
+      firstPath: chapter.lessons[0]?.path,
+      lessons: chapter.lessons.some((l) => l.path === bare) ? chapter.lessons : [],
+    })),
+    ...surroundings(flattenNav(nav), bare),
+  }
 }

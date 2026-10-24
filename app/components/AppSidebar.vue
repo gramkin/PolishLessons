@@ -42,7 +42,7 @@ watch(
         </NuxtLink>
       </li>
       <li v-for="chapter in nav" :key="chapter.number" class="chapter">
-        <NuxtLink :to="chapter.lessons[0]?.path" class="chapter-title">
+        <NuxtLink :to="chapter.firstPath ?? chapter.lessons[0]?.path" class="chapter-title">
           <strong>{{ chapter.number }}.</strong> {{ chapter.title }}
         </NuxtLink>
         <ol class="section">
