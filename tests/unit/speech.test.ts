@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { pickPolishVoice, speakableCell } from '../../app/utils/speech'
+import { pickPolishVoice, respell, speakableCell } from '../../app/utils/speech'
 
 describe('pickPolishVoice', () => {
   it('returns null without Polish voices', () => {
@@ -48,5 +48,38 @@ describe('speakableCell', () => {
       '',
     ])
       expect(speakableCell(cell)).toBeNull()
+  })
+})
+
+describe('respell', () => {
+  const table = {
+    Buck: 'Bak',
+    Dave: 'Dejw',
+    Davie: 'Dejwie',
+    Perrault: 'Pero',
+    Perraulta: 'Perolta',
+    "O'Brien": 'O Brajen',
+  }
+
+  it('replaces a name and carries its Polish ending over', () => {
+    expect(respell('Buck i Bucka, Buckowi, Buckiem.', table)).toBe('Bak i Baka, Bakowi, Bakiem.')
+  })
+
+  it('drops the apostrophe that joins an ending to a silent letter', () => {
+    expect(respell("Dave'a i Dave'em", table)).toBe('Dejwa i Dejwem')
+  })
+
+  it('prefers a listed form over the stem rule', () => {
+    expect(respell('do Perraulta, o Davie', table)).toBe('do Perolta, o Dejwie')
+    expect(respell('Perrault milczał', table)).toBe('Pero milczał')
+  })
+
+  it('leaves other words alone', () => {
+    expect(respell('Buckingham, buck, Bucks', table)).toBe('Buckingham, buck, Bucks')
+    expect(respell('Wabi się Buck', table)).toBe('Wabi się Bak')
+  })
+
+  it('takes a name with an apostrophe inside it', () => {
+    expect(respell("O'Brien i O'Briena", table)).toBe('O Brajen i O Brajena')
   })
 })

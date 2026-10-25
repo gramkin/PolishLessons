@@ -202,4 +202,26 @@ describe('scene breaks', () => {
     expect(cleans[0]!.text()).toContain('Alicja spadała.')
     expect(cleans[1]!.text()).toContain('Wylądowała.')
   })
+
+  it("reads a book's foreign names the way the original says them, and shows them as written", async () => {
+    const zew = bookSchema.parse({
+      ...book,
+      paragraphs: [
+        {
+          clean: 'Buck nie czytał gazet.',
+          chunks: [{ pl: 'Buck nie czytał gazet.', ru: 'Бэк не читал газет.' }],
+        },
+      ],
+    })
+    const wrapper = await mountSuspended(BookReader, {
+      props: { book: zew, bookId: 'london' },
+      global: {
+        stubs: {
+          SpeakButton: { props: ['text', 'say'], template: '<i class="speak" :data-say="say" />' },
+        },
+      },
+    })
+    expect(wrapper.find('p.clean').text()).toContain('Buck nie czytał gazet.')
+    expect(wrapper.find('p.clean .speak').attributes('data-say')).toBe('Bak nie czytał gazet.')
+  })
 })

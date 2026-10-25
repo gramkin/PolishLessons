@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const props = defineProps<{ text: string; label?: string }>()
+// `say` is what the voice reads when it differs from the text shown (respelled names).
+const props = defineProps<{ text: string; label?: string; say?: string }>()
 const { supported, speak, recordingFor } = useSpeech()
 const recording = computed(() => recordingFor(props.text))
 // CC BY recordings need their author credited where they play.
@@ -17,7 +18,7 @@ const title = computed(() => {
     class="speak-button"
     :aria-label="props.label ?? `Произнести: ${props.text}`"
     :title="title"
-    @click.stop="speak(props.text)"
+    @click.stop="speak(props.say ?? props.text)"
   >
     🔊
   </button>

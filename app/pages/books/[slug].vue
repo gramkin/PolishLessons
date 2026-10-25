@@ -47,7 +47,7 @@ useSeoMeta({
       {{ book.chapterTitleRu }} · {{ book.title }} · {{ book.level }}
       <SpeakButton :text="book.chapterTitle" />
     </p>
-    <BookReader :book="book" />
+    <BookReader :book="book" :book-id="bookId(slug)" />
     <nav class="chapter-nav" aria-label="Соседние главы">
       <NuxtLink
         v-if="neighbours.prev"

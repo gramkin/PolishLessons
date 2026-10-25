@@ -40,3 +40,36 @@ export function speakableCell(cell: string): string | null {
   if (letters.length < 2 || !VOWEL.test(letters)) return null
   return text
 }
+
+/** Written name → what a Polish voice should say for it, e.g. `Buck: 'Bak'`. */
+export type Respelling = Readonly<Record<string, string>>
+
+const WORD = /\p{L}+(?:['’]\p{L}+)*/gu
+// Case endings a declined foreign name can take, joined by an apostrophe after a
+// silent letter (Dave'a). Anything else after a listed name makes another word.
+const ENDING = /^['’]?(?:a|u|y|i|ę|ą|ie|em|iem|owi|owie|ów|om|ami|ach|ego|emu|m)$/
+
+/**
+ * Text for a Polish voice with foreign names said the way the original language
+ * says them: the voice reads Buck by Polish spelling as «буцк». A word listed
+ * in the table is replaced whole; a listed name plus a case ending keeps the
+ * ending (Bucka → Baka). Matching is case-sensitive, so a capitalised name
+ * never catches a common word.
+ */
+export function respell(text: string, table: Respelling): string {
+  return text.replace(WORD, (word) => {
+    const exact = table[word]
+    if (exact !== undefined) return exact
+    let best = ''
+    for (const name of Object.keys(table)) {
+      if (
+        name.length > best.length &&
+        word.startsWith(name) &&
+        ENDING.test(word.slice(name.length))
+      ) {
+        best = name
+      }
+    }
+    return best ? table[best] + word.slice(best.length).replace(/^['’]/, '') : word
+  })
+}

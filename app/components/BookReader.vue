@@ -1,10 +1,17 @@
 <script setup lang="ts">
 import type { Book } from '#shared/schemas'
+import { BOOK_PRONUNCIATION } from '#shared/book-pronunciation'
+import { respell } from '~/utils/speech'
 import { tokenizeSentence, type TranslationMode } from '~/utils/story'
 
-const props = withDefaults(defineProps<{ book: Book; initialMode?: TranslationMode }>(), {
-  initialMode: 'show',
-})
+const props = withDefaults(
+  defineProps<{ book: Book; bookId?: string; initialMode?: TranslationMode }>(),
+  { initialMode: 'show', bookId: undefined },
+)
+
+// The voice reads foreign names by Polish spelling (Buck as «буцк»), so the
+// paragraph it reads has them respelled; the page keeps the original.
+const pronunciation = computed(() => (props.bookId ? BOOK_PRONUNCIATION[props.bookId] : undefined))
 
 const modes = [
   { value: 'show', label: 'Показывать перевод' },
@@ -44,6 +51,7 @@ const paragraphs = computed(() =>
       note: chunk.note?.trim(),
     })),
     clean: paragraph.clean,
+    spoken: pronunciation.value ? respell(paragraph.clean, pronunciation.value) : paragraph.clean,
     tokens: tokenizeSentence(paragraph.clean, paragraph.words),
   })),
 )
@@ -129,7 +137,7 @@ function toggle(index: number) {
             >
             <template v-else>{{ token.text }}</template>
           </template>
-          <SpeakButton :text="p.clean" label="Читать абзац" />
+          <SpeakButton :text="p.clean" :say="p.spoken" label="Читать абзац" />
         </p>
       </section>
     </template>
