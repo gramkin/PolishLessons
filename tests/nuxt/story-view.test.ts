@@ -72,6 +72,22 @@ describe('StoryView', () => {
     expect(wrapper.findAll('p.ru')).toHaveLength(0)
   })
 
+  it('gives each sentence its own listen button', async () => {
+    const wrapper = await mountSuspended(StoryView, {
+      props: { story },
+      global: {
+        stubs: {
+          SpeakButton: { props: ['text'], template: '<i class="speak" :data-text="text" />' },
+        },
+      },
+    })
+    const buttons = wrapper.findAll('p.pl > .speak')
+    expect(buttons.map((b) => b.attributes('data-text'))).toEqual([
+      'Kot mieszka nad rzeką.',
+      'Na brzegu jest dom.',
+    ])
+  })
+
   it('respects initialMode', async () => {
     const wrapper = await mountSuspended(StoryView, { props: { story, initialMode: 'show' } })
     expect(wrapper.findAll('p.ru')).toHaveLength(2)

@@ -29,6 +29,7 @@ watch(mode, () => {
 const sentences = computed(() =>
   props.story.sentences.map((sentence, index) => ({
     index,
+    pl: sentence.pl,
     ru: sentence.ru,
     tokens: tokenizeSentence(sentence.pl, sentence.words),
   })),
@@ -82,6 +83,7 @@ function onSentenceClick(event: MouseEvent, index: number) {
             <PlWord v-if="token.wordId" :id="token.wordId">{{ token.text }}</PlWord>
             <template v-else>{{ token.text }}</template>
           </template>
+          <SpeakButton :text="s.pl" label="Читать предложение" />
           <button
             v-if="mode === 'tap'"
             type="button"
