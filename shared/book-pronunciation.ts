@@ -58,6 +58,7 @@ const DANTE: Readonly<Record<string, string>> = {
   Nocera: 'Noczera',
   Gualdo: 'Gwaldo',
   Chijany: 'Kijany',
+  Ucellatoja: 'Uczellatoja',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
