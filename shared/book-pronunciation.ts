@@ -12,6 +12,9 @@
 const DANTE: Readonly<Record<string, string>> = {
   Ciacco: 'Czakko',
   Ciakko: 'Czakko',
+  Ezzelino: 'Eccelino',
+  Obezzo: 'Obecco',
+  Pazzi: 'Pacci',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
