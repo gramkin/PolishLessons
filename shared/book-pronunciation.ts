@@ -59,6 +59,13 @@ const DANTE: Readonly<Record<string, string>> = {
   Gualdo: 'Gwaldo',
   Chijany: 'Kijany',
   Ucellatoja: 'Uczellatoja',
+  Gulazzo: 'Gulacco',
+  Cerchi: 'Czerki',
+  Buondelmonti: 'Błondelmonti',
+  Buondelmonte: 'Błondelmonte',
+  Chiuzy: 'Kiuzy',
+  Sachetti: 'Saketti',
+  Sizzi: 'Sicci',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
