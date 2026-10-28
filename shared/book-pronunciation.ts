@@ -44,6 +44,8 @@ const DANTE: Readonly<Record<string, string>> = {
   Cimabue: 'Czimabue',
   Giotto: 'Dżotto',
   Petinagno: 'Petinanio',
+  Bagnokawallo: 'Banjokawallo',
+  Azzo: 'Acco',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
