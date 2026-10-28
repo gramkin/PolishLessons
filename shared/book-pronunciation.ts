@@ -35,6 +35,7 @@ const DANTE: Readonly<Record<string, string>> = {
   Asciano: 'Aszano',
   Abbagliato: 'Abaljato',
   Monteregijone: 'Monteredżione',
+  Gianni: 'Dżanni',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
