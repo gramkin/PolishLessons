@@ -52,6 +52,8 @@ const DANTE: Readonly<Record<string, string>> = {
   Chiassy: 'Kjassy',
   Durazzo: 'Duracco',
   Perugia: 'Perudża',
+  Kunizza: 'Kunicca',
+  Tagliamento: 'Taljamento',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
