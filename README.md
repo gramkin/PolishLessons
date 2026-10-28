@@ -19,7 +19,7 @@ differences rather than starting from zero.
   with three example sentences for every form, notes on government, stress and false friends,
   etymology, a memory hook, collocations, word family and idioms. Common words play
   Wikimedia Commons recordings.
-- **Reading**: 42 graded stories, each readable after a given chapter, and 159 chapters of
+- **Reading**: 42 graded stories, each readable after a given chapter, and 160 chapters of
   public-domain books in Polish (Carroll, Prus, Wells, Stevenson, London, Wilde, Doyle,
   O. Henry, Dante).
 - **Practice**: flashcards with Leitner spaced repetition, a review of your own quiz mistakes,
