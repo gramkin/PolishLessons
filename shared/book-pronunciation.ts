@@ -7,6 +7,13 @@
  * (Bucka, Dave'a); list an oblique form on its own when its stem is said
  * differently (Perrault «перо́», but Perraulta «перо́льта»).
  */
+// Korsak polonises most of Dante's names (Wirgiliusz, Beatrycze) but keeps some
+// Italian spellings, which a Polish voice would misread.
+const DANTE: Readonly<Record<string, string>> = {
+  Ciacco: 'Czakko',
+  Ciakko: 'Czakko',
+}
+
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
   london: {
     // Dogs
@@ -86,4 +93,7 @@ export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string,
     mush: 'masz',
     MUSH: 'MASZ',
   },
+  'dante-i-pieklo': DANTE,
+  'dante-ii-czysciec': DANTE,
+  'dante-iii-raj': DANTE,
 }
