@@ -27,6 +27,9 @@ const DANTE: Readonly<Record<string, string>> = {
   Arezzo: 'Arecco',
   Fucci: 'Fuczi',
   Fuccio: 'Fuczo',
+  Cianfa: 'Czanfa',
+  Pucio: 'Puczo',
+  Sciancato: 'Szankato',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
