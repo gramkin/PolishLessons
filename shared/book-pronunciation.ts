@@ -19,6 +19,7 @@ const DANTE: Readonly<Record<string, string>> = {
   Chiarentana: 'Kiarentana',
   Mozzi: 'Mocci',
   Aquacheta: 'Akwakweta',
+  Giordano: 'Dżordano',
 }
 
 export const BOOK_PRONUNCIATION: Readonly<Record<string, Readonly<Record<string, string>>>> = {
