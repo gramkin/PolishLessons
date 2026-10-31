@@ -22,7 +22,7 @@ title: "Dzieje Polski. Tom I"            # "Dzieje Polski. Tom II"
 titleRu: "История Польши. Том I"
 author: "Claude (ИИ)"
 source:
-  name: "Оригинальный текст, написанный Claude (ИИ) для этого сайта"
+  name: "Оригинальный текст, написанный для этого сайта"
   url: https://github.com/gramkin/PolishLessons
   license: CC BY-SA 4.0
   licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
