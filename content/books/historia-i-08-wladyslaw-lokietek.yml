@@ -33,6 +33,20 @@ paragraphs:
       - pl: " Przez całe życie przegrywał bitwy, tracił ziemie i musiał uciekać, ale zawsze wracał."
         ru: "Всю жизнь он проигрывал битвы, терял земли и вынужден был бежать, но всегда возвращался."
     words: { "niewielki": niewielki, "niskiego": niski, "wzrostu": wzrost, "miarą": miara, "długości": dlugosc, "odległości": odleglosc, "uparty": uparty, "odważny": odwazny, "niezwykle": niezwykle, "przegrywał": przegrywac, "bitwy": bitwa }
+  - clean: "Już jako młody książę Łokietek walczył o Kraków. W 1289 roku zajął miasto, ale wkrótce wojska Henryka Probusa wdarły się do niego nocą. Według tradycji Łokietek uciekł z Krakowa przez klasztor franciszkanów, przebrany w habit zakonnika. Był to pierwszy z wielu razy, kiedy musiał ratować się ucieczką."
+    draft: true
+    chunks:
+      - pl: "Już jako młody książę Łokietek walczył o Kraków."
+        ru: "Ещё молодым князем Локоток воевал за Краков."
+      - pl: " W 1289 roku zajął miasto, ale wkrótce wojska Henryka Probusa wdarły się do niego nocą."
+        ru: "В 1289 году он занял город, но вскоре войска Генриха Пробуса ворвались в него ночью."
+        note: "wedrzeć się — ворваться"
+      - pl: " Według tradycji Łokietek uciekł z Krakowa przez klasztor franciszkanów, przebrany w habit zakonnika."
+        ru: "По преданию, Локоток бежал из Кракова через францисканский монастырь, переодевшись в монашескую рясу."
+        note: "habit — ряса, монашеское облачение"
+      - pl: " Był to pierwszy z wielu razy, kiedy musiał ratować się ucieczką."
+        ru: "Это был первый из многих случаев, когда ему пришлось спасаться бегством."
+    words: { "wojska": wojsko, "tradycji": tradycja, "klasztor": klasztor, "przebrany": przebrac }
   - clean: "Po zamordowaniu Przemysła II w 1296 roku Łokietek opanował Wielkopolskę. Nie umiał jednak zdobyć sobie przychylności tamtejszych możnych i duchowieństwa. Skarżyli się, że jego ludzie łupią kraj i że książę nie potrafi zapewnić porządku. Kiedy w 1300 roku do Polski wkroczył czeski król Wacław II, możni bez żalu go poparli. Łokietek stracił wszystko i musiał uchodzić z kraju."
     draft: true
     chunks:
@@ -51,7 +65,7 @@ paragraphs:
         ru: "Локоток потерял всё и был вынужден бежать из страны."
         note: "uchodzić — уходить, бежать"
     words: { "opanował": opanowac, "zapewnić": zapewnic, "wkroczył": wkroczyc, "żalu": zal, "poparli": poprzec, "uchodzić": uchodzic }
-  - clean: "O jego wygnaniu krąży wiele legend. Najbardziej znana mówi, że ścigany przez czeskich żołnierzy ukrył się w jaskini w dolinie Prądnika koło Ojcowa. Gdy tylko wszedł do środka, pająk zasnuł wejście pajęczyną. Żołnierze, widząc nienaruszoną pajęczynę, uznali, że nikogo tam nie ma, i pojechali dalej. Jaskinię nazywa się dziś Grotą Łokietka i można ją zwiedzać. Legendy legendami, ale wiadomo na pewno, że Łokietek był w tym czasie w Rzymie, gdzie w roku jubileuszowym 1300 przybyły tysiące pielgrzymów. Szukał tam poparcia papieża."
+  - clean: "O jego wygnaniu krąży wiele legend. Najbardziej znana mówi, że ścigany przez czeskich żołnierzy ukrył się w jaskini w dolinie Prądnika koło Ojcowa. Gdy tylko wszedł do środka, pająk zasnuł wejście pajęczyną. Żołnierze, widząc nienaruszoną pajęczynę, uznali, że nikogo tam nie ma, i pojechali dalej. Jaskinię nazywa się dziś Grotą Łokietka i można ją zwiedzać. Dolina Prądnika, pełna wapiennych skał i jaskiń, jest dziś częścią Ojcowskiego Parku Narodowego, najmniejszego parku narodowego w Polsce. Na jednej ze skał stoi ruina zamku, który według tradycji zbudował syn Łokietka, Kazimierz Wielki. Legendy legendami, ale wiadomo na pewno, że Łokietek był w tym czasie w Rzymie, gdzie w roku jubileuszowym 1300 przybyły tysiące pielgrzymów. Szukał tam poparcia papieża."
     draft: true
     chunks:
       - pl: "O jego wygnaniu krąży wiele legend."
@@ -68,13 +82,39 @@ paragraphs:
         note: "nienaruszony — нетронутый"
       - pl: " Jaskinię nazywa się dziś Grotą Łokietka i można ją zwiedzać."
         ru: "Пещеру сегодня называют Гротом Локотка, и её можно посетить."
+      - pl: " Dolina Prądnika, pełna wapiennych skał i jaskiń, jest dziś częścią Ojcowskiego Parku Narodowego, najmniejszego parku narodowego w Polsce."
+        ru: "Долина Прондника, полная известняковых скал и пещер, сегодня входит в Ойцувский национальный парк — самый маленький национальный парк Польши."
+      - pl: " Na jednej ze skał stoi ruina zamku, który według tradycji zbudował syn Łokietka, Kazimierz Wielki."
+        ru: "На одной из скал стоят руины замка, который, по преданию, построил сын Локотка, Казимир Великий."
       - pl: " Legendy legendami, ale wiadomo na pewno, że Łokietek był w tym czasie w Rzymie, gdzie w roku jubileuszowym 1300 przybyły tysiące pielgrzymów."
         ru: "Легенды легендами, но точно известно, что Локоток был в это время в Риме, куда в юбилейный 1300 год прибыли тысячи паломников."
         note: "rok jubileuszowy — юбилейный (святой) год"
       - pl: " Szukał tam poparcia papieża."
         ru: "Он искал там поддержки папы."
         note: "poparcie — поддержка"
-    words: { "krąży": krazyc, "legend": legenda, "ścigany": scigac, "jaskini": jaskinia, "dolinie": dolina, "pająk": pajak, "nienaruszoną": naruszyc, "Jaskinię": jaskinia, "Legendy": legenda, "legendami": legenda, "pewno": pewno, "papieża": papiez }
+    words: { "tradycji": tradycja, "krąży": krazyc, "legend": legenda, "ścigany": scigac, "jaskini": jaskinia, "dolinie": dolina, "pająk": pajak, "nienaruszoną": naruszyc, "Jaskinię": jaskinia, "Dolina": dolina, "skał": skala, "jaskiń": jaskinia, "narodowego": narodowy, "zamku": zamek, "Legendy": legenda, "legendami": legenda, "pewno": pewno, "papieża": papiez }
+  - clean: "Rządy czeskie w Polsce trwały tylko pięć lat, ale zostawiły trwały ślad. Wacław II był sprawnym administratorem. W każdej dzielnicy osadził swojego namiestnika, starostę, który w imieniu króla sprawował władzę sądową i wojskową. Urząd starosty okazał się tak praktyczny, że zachowali go późniejsi polscy królowie i przetrwał aż do końca Rzeczypospolitej. Słowo „starosta” istnieje w języku polskim do dziś i oznacza szefa administracji powiatu. Do Polski napływała też czeska moneta, srebrny grosz praski, bity ze srebra z kopalń w Kutnej Horze. Był to dobry, ciężki pieniądz, który przez długi czas służył w Polsce jako podstawowa moneta w handlu. Wielu mieszczan i część duchownych chętnie widziała rządy czeskie, bo przynosiły spokój i porządek po latach wojen domowych."
+    draft: true
+    chunks:
+      - pl: "Rządy czeskie w Polsce trwały tylko pięć lat, ale zostawiły trwały ślad."
+        ru: "Чешское правление в Польше длилось всего пять лет, но оставило прочный след."
+      - pl: " Wacław II był sprawnym administratorem."
+        ru: "Вацлав II был умелым администратором."
+        note: "sprawny — умелый"
+      - pl: " W każdej dzielnicy osadził swojego namiestnika, starostę, który w imieniu króla sprawował władzę sądową i wojskową."
+        ru: "В каждом уделе он посадил своего наместника — старосту, который от имени короля осуществлял судебную и военную власть."
+      - pl: " Urząd starosty okazał się tak praktyczny, że zachowali go późniejsi polscy królowie i przetrwał aż do końca Rzeczypospolitej."
+        ru: "Должность старосты оказалась столь удобной, что её сохранили последующие польские короли, и она просуществовала до конца Речи Посполитой."
+      - pl: " Słowo „starosta” istnieje w języku polskim do dziś i oznacza szefa administracji powiatu."
+        ru: "Слово «староста» существует в польском языке до сих пор и означает главу администрации повята."
+        note: "powiat — повят, район"
+      - pl: " Do Polski napływała też czeska moneta, srebrny grosz praski, bity ze srebra z kopalń w Kutnej Horze."
+        ru: "В Польшу притекала и чешская монета — серебряный пражский грош, чеканившийся из серебра рудников Кутна-Горы."
+      - pl: " Był to dobry, ciężki pieniądz, który przez długi czas służył w Polsce jako podstawowa moneta w handlu."
+        ru: "Это были хорошие, полновесные деньги, которые долгое время служили в Польше основной торговой монетой."
+      - pl: " Wielu mieszczan i część duchownych chętnie widziała rządy czeskie, bo przynosiły spokój i porządek po latach wojen domowych."
+        ru: "Многие горожане и часть духовенства охотно принимали чешское правление, потому что оно приносило покой и порядок после лет междоусобиц."
+    words: { "sprawnym": sprawny, "dzielnicy": dzielnica, "sądową": sadowy, "wojskową": wojskowy, "Urząd": urzad, "późniejsi": pozny, "polscy": polski, "polskim": polski, "moneta": moneta, "srebrny": srebrny, "grosz": grosz, "srebra": srebro, "kopalń": kopalnia, "podstawowa": podstawowy, "handlu": handel, "przynosiły": przynosic }
   - clean: "Szukał też sojuszników na Węgrzech, gdzie znalazł pomoc i ludzi. W 1304 roku wrócił do kraju z niewielkim oddziałem i zaczął odbijać z rąk czeskich gród po grodzie: Wiślicę, Sandomierz, Lelów. W 1305 roku zmarł Wacław II, a rok później jego syn Wacław III, młody i lekkomyślny, został zamordowany w Ołomuńcu. Czeska dynastia Przemyślidów wymarła. Łokietek wykorzystał okazję i w 1306 roku wjechał do Krakowa. Wkrótce opanował też Pomorze Gdańskie. Wydawało się, że droga do zjednoczenia stoi otworem."
     draft: true
     chunks:
@@ -159,15 +199,29 @@ paragraphs:
       - pl: " Odtąd władcy pilnowali, żeby mieszczanie nie mieli zbyt wielkiego wpływu na politykę."
         ru: "С тех пор правители следили за тем, чтобы горожане не имели слишком большого влияния на политику."
         note: "wpływ — влияние"
-    words: { "niemieckiego": niemiecki, "polskiej": polski, "korony": korona, "handlu": handel, "ukarał": ukarac, "podaje": podawac, "soczewica": soczewica, "majątek": majatek, "przywilejów": przywilej, "Odtąd": odtad, "władcy": wladca, "politykę": polityka }
-  - clean: "Mimo porażek Łokietek krok po kroku jednoczył kraj. W 1314 roku opanował Wielkopolskę. Miał w swoim ręku dwie najważniejsze dzielnice: Małopolskę z Krakowem i Wielkopolskę z Gnieznem i Poznaniem. Śląsk, Mazowsze i Pomorze pozostawały poza jego władzą, ale nikt nie mógł zaprzeczyć, że jest najsilniejszym z Piastów. Przyszedł czas, żeby sięgnąć po koronę."
+    words: { "handlu": handel, "niemieckiego": niemiecki, "polskiej": polski, "korony": korona, "ukarał": ukarac, "podaje": podawac, "soczewica": soczewica, "majątek": majatek, "przywilejów": przywilej, "Odtąd": odtad, "władcy": wladca, "politykę": polityka }
+  - clean: "Wielkopolska trafiła w ręce Łokietka dzięki buntowi tamtejszego rycerstwa. Po śmierci Wacława II rządzili nią książęta śląscy z Głogowa, którzy otaczali się Niemcami i rozdawali im urzędy. Rycerze wielkopolscy, niezadowoleni z takich rządów, w 1314 roku powstali przeciwko nim i zaprosili Łokietka. Mieszczanie Poznania, w większości Niemcy, długo się wahali, ale w końcu i oni otworzyli bramy. W ten sposób połączyły się dwie najważniejsze dzielnice, a Łokietek mógł myśleć o koronacji. Pokazuje to, że zjednoczenie nie było dziełem jednego człowieka: chciało go rycerstwo, duchowieństwo i znaczna część mieszkańców kraju."
+    draft: true
+    chunks:
+      - pl: "Wielkopolska trafiła w ręce Łokietka dzięki buntowi tamtejszego rycerstwa."
+        ru: "Великая Польша попала в руки Локотка благодаря восстанию местного рыцарства."
+      - pl: " Po śmierci Wacława II rządzili nią książęta śląscy z Głogowa, którzy otaczali się Niemcami i rozdawali im urzędy."
+        ru: "После смерти Вацлава II ею правили силезские князья из Глогува, которые окружали себя немцами и раздавали им должности."
+      - pl: " Rycerze wielkopolscy, niezadowoleni z takich rządów, w 1314 roku powstali przeciwko nim i zaprosili Łokietka."
+        ru: "Великопольские рыцари, недовольные таким правлением, в 1314 году восстали против них и пригласили Локотка."
+      - pl: " Mieszczanie Poznania, w większości Niemcy, długo się wahali, ale w końcu i oni otworzyli bramy."
+        ru: "Горожане Познани, в большинстве немцы, долго колебались, но в конце концов и они открыли ворота."
+      - pl: " W ten sposób połączyły się dwie najważniejsze dzielnice, a Łokietek mógł myśleć o koronacji."
+        ru: "Так объединились два важнейших удела, и Локоток мог думать о коронации."
+      - pl: " Pokazuje to, że zjednoczenie nie było dziełem jednego człowieka: chciało go rycerstwo, duchowieństwo i znaczna część mieszkańców kraju."
+        ru: "Это показывает, что объединение не было делом одного человека: его хотели рыцарство, духовенство и значительная часть жителей страны."
+    words: { "Rycerze": rycerz, "mieszkańców": mieszkaniec, "buntowi": bunt, "rządzili": rzadzic, "otaczali": otaczac, "urzędy": urzad, "powstali": powstac, "wahali": wahac, "bramy": brama, "dzielnice": dzielnica, "dziełem": dzielo }
+  - clean: "Mimo porażek Łokietek krok po kroku jednoczył kraj. Miał w swoim ręku dwie najważniejsze dzielnice: Małopolskę z Krakowem i Wielkopolskę z Gnieznem i Poznaniem. Śląsk, Mazowsze i Pomorze pozostawały poza jego władzą, ale nikt nie mógł zaprzeczyć, że jest najsilniejszym z Piastów. Przyszedł czas, żeby sięgnąć po koronę."
     draft: true
     chunks:
       - pl: "Mimo porażek Łokietek krok po kroku jednoczył kraj."
         ru: "Несмотря на поражения, Локоток шаг за шагом объединял страну."
         note: "porażka — поражение; krok po kroku — шаг за шагом"
-      - pl: " W 1314 roku opanował Wielkopolskę."
-        ru: "В 1314 году он овладел Великой Польшей."
       - pl: " Miał w swoim ręku dwie najważniejsze dzielnice: Małopolskę z Krakowem i Wielkopolskę z Gnieznem i Poznaniem."
         ru: "В его руках были два важнейших удела: Малая Польша с Краковом и Великая Польша с Гнезно и Познанью."
       - pl: " Śląsk, Mazowsze i Pomorze pozostawały poza jego władzą, ale nikt nie mógł zaprzeczyć, że jest najsilniejszym z Piastów."
@@ -176,7 +230,7 @@ paragraphs:
       - pl: " Przyszedł czas, żeby sięgnąć po koronę."
         ru: "Пришло время потянуться за короной."
         note: "sięgnąć po coś — потянуться за чем-л., добиваться"
-    words: { "opanował": opanowac, "porażek": porazka, "dzielnice": dzielnica, "pozostawały": pozostawac, "zaprzeczyć": zaprzeczyc, "sięgnąć": siegnac, "koronę": korona }
+    words: { "dzielnice": dzielnica, "porażek": porazka, "pozostawały": pozostawac, "zaprzeczyć": zaprzeczyc, "sięgnąć": siegnac, "koronę": korona }
   - clean: "Nie było to proste. Czeski król Jan Luksemburski uważał się za dziedzica Wacławów i tytułował się królem Polski. Papież nie chciał narazić się ani jemu, ani jego potężnym sojusznikom. Polscy biskupi i możni wysłali więc do Awinionu, gdzie rezydował wtedy papież, specjalne poselstwo z prośbą o zgodę na koronację. Papież Jan XXII odpowiedział ostrożnie: nie zabronił koronacji, ale też jej wyraźnie nie poparł. Polacy uznali to za zgodę."
     draft: true
     chunks:
@@ -195,8 +249,8 @@ paragraphs:
         note: "zabronić — запретить"
       - pl: " Polacy uznali to za zgodę."
         ru: "Поляки сочли это согласием."
-    words: { "dziedzica": dziedzic, "Papież": papiez, "narazić": narazic, "potężnym": potezny, "sojusznikom": sojusznik, "Polscy": polski, "papież": papiez, "prośbą": prosba, "zabronił": zabronic, "poparł": poprzec }
-  - clean: "20 stycznia 1320 roku w katedrze na Wawelu arcybiskup gnieźnieński Janisław włożył na głowę Łokietka koronę. Była to pierwsza koronacja w Krakowie, a nie w Gnieźnie, i od tej pory prawie wszyscy królowie Polski koronowali się na Wawelu. Według tradycji po raz pierwszy użyto wtedy miecza Szczerbca jako miecza koronacyjnego. Łokietek miał wtedy około sześćdziesięciu lat. Odrodzone państwo nazywano Królestwem Polskim, a z czasem zaczęto mówić o Koronie Królestwa Polskiego. Ta druga nazwa podkreślała, że królestwo to coś więcej niż osoba króla: to wspólnota wszystkich ziem, które kiedyś do niego należały, także tych, które były jeszcze w obcych rękach."
+    words: { "dziedzica": dziedzic, "Papież": papiez, "narazić": narazic, "potężnym": potezny, "sojusznikom": sojusznik, "papież": papiez, "prośbą": prosba, "zabronił": zabronic, "poparł": poprzec }
+  - clean: "20 stycznia 1320 roku w katedrze na Wawelu arcybiskup gnieźnieński Janisław włożył na głowę Łokietka koronę. Była to pierwsza koronacja w Krakowie, a nie w Gnieźnie, i od tej pory prawie wszyscy królowie Polski koronowali się na Wawelu. Według tradycji po raz pierwszy użyto wtedy miecza Szczerbca jako miecza koronacyjnego. Na koronację przygotowano też nową złotą koronę, którą później nazywano koroną Chrobrego, bo wierzono, że należała do pierwszego króla. Koronowano nią polskich królów aż do XVIII wieku. Po rozbiorach zrabowali ją Prusacy, a na początku XIX wieku przetopili na złoto i monety. Zachowały się tylko jej opisy i rysunki, na podstawie których wykonano w naszych czasach jej kopię. Łokietek miał wtedy około sześćdziesięciu lat. Odrodzone państwo nazywano Królestwem Polskim, a z czasem zaczęto mówić o Koronie Królestwa Polskiego. Ta druga nazwa podkreślała, że królestwo to coś więcej niż osoba króla: to wspólnota wszystkich ziem, które kiedyś do niego należały, także tych, które były jeszcze w obcych rękach."
     draft: true
     chunks:
       - pl: "20 stycznia 1320 roku w katedrze na Wawelu arcybiskup gnieźnieński Janisław włożył na głowę Łokietka koronę."
@@ -205,6 +259,14 @@ paragraphs:
         ru: "Это была первая коронация в Кракове, а не в Гнезно, и с тех пор почти все короли Польши короновались на Вавеле."
       - pl: " Według tradycji po raz pierwszy użyto wtedy miecza Szczerbca jako miecza koronacyjnego."
         ru: "Согласно преданию, тогда впервые использовали меч Щербец как коронационный."
+      - pl: " Na koronację przygotowano też nową złotą koronę, którą później nazywano koroną Chrobrego, bo wierzono, że należała do pierwszego króla."
+        ru: "К коронации изготовили и новую золотую корону, которую позже называли короной Храброго, потому что верили, что она принадлежала первому королю."
+      - pl: " Koronowano nią polskich królów aż do XVIII wieku."
+        ru: "Ею короновали польских королей вплоть до XVIII века."
+      - pl: " Po rozbiorach zrabowali ją Prusacy, a na początku XIX wieku przetopili na złoto i monety."
+        ru: "После разделов её похитили пруссаки, а в начале XIX века переплавили на золото и монеты."
+      - pl: " Zachowały się tylko jej opisy i rysunki, na podstawie których wykonano w naszych czasach jej kopię."
+        ru: "Сохранились лишь её описания и рисунки, по которым в наше время изготовили её копию."
       - pl: " Łokietek miał wtedy około sześćdziesięciu lat."
         ru: "Локотку тогда было около шестидесяти лет."
       - pl: " Odrodzone państwo nazywano Królestwem Polskim, a z czasem zaczęto mówić o Koronie Królestwa Polskiego."
@@ -213,7 +275,7 @@ paragraphs:
       - pl: " Ta druga nazwa podkreślała, że królestwo to coś więcej niż osoba króla: to wspólnota wszystkich ziem, które kiedyś do niego należały, także tych, które były jeszcze w obcych rękach."
         ru: "Это второе название подчёркивало, что королевство — нечто большее, чем личность короля: это общность всех земель, когда-то ему принадлежавших, в том числе тех, что ещё были в чужих руках."
         note: "podkreślać — подчёркивать"
-    words: { "koronę": korona, "stycznia": styczen, "tradycji": tradycja, "nazwa": nazwa, "królestwo": krolestwo, "wspólnota": wspolnota }
+    words: { "tradycji": tradycja, "koronę": korona, "stycznia": styczen, "koroną": korona, "polskich": polski, "złoto": zloto, "monety": moneta, "opisy": opis, "rysunki": rysunek, "nazwa": nazwa, "królestwo": krolestwo, "wspólnota": wspolnota }
   - clean: "Łokietek nie zapomniał o Pomorzu. Zamiast od razu wypowiadać wojnę silniejszemu przeciwnikowi, wytoczył Krzyżakom proces przed sądem papieskim. W 1321 roku sędziowie papiescy, obradujący w Inowrocławiu i Brześciu Kujawskim, orzekli, że zakon ma zwrócić Pomorze i zapłacić odszkodowanie. Krzyżacy po prostu zignorowali wyrok. Proces miał jednak znaczenie: pokazał całej Europie, kto jest w tym sporze stroną pokrzywdzoną."
     draft: true
     chunks:
@@ -232,7 +294,23 @@ paragraphs:
         ru: "Но процесс имел значение: он показал всей Европе, кто в этом споре пострадавшая сторона."
         note: "pokrzywdzony — пострадавший, обиженный"
     words: { "przeciwnikowi": przeciwnik, "zignorowali": zignorowac, "wyrok": wyrok }
-  - clean: "Łokietek budował też sojusze. Swoją córkę Elżbietę wydał za mąż za króla Węgier Karola Roberta, co zapewniło Polsce silnego przyjaciela na południu. Syna Kazimierza ożenił z Aldoną, córką wielkiego księcia litewskiego Giedymina. Litwa była wtedy ostatnim pogańskim państwem Europy, potężnym i stale atakowanym przez Krzyżaków. Wspólny wróg zbliżał Polaków i Litwinów. Ten pierwszy sojusz z Litwą był zapowiedzią unii, która kilkadziesiąt lat później zmieniła mapę Europy Wschodniej."
+  - clean: "Akta procesu są dla historyków bezcennym źródłem. Przesłuchano w nim ponad dwudziestu świadków różnych stanów: biskupów, rycerzy, mieszczan, a nawet chłopów. Ich zeznania zapisano po łacinie, ale słychać w nich głosy zwykłych ludzi, którzy opowiadają, co widzieli na własne oczy. Jeden mówi o spalonej wsi, inny o tym, jak Krzyżacy wypędzili Polaków z Gdańska, jeszcze inny o tym, że Pomorze od dawna należało do książąt polskich, bo tak mówili jego dziadkowie. Z tych zeznań widać, że już w XIV wieku ludzie z różnych stanów czuli, że należą do jednej wspólnoty, którą nazywali Królestwem Polskim."
+    draft: true
+    chunks:
+      - pl: "Akta procesu są dla historyków bezcennym źródłem."
+        ru: "Материалы процесса — бесценный источник для историков."
+        note: "akta — акты, материалы дела"
+      - pl: " Przesłuchano w nim ponad dwudziestu świadków różnych stanów: biskupów, rycerzy, mieszczan, a nawet chłopów."
+        ru: "В нём допросили больше двадцати свидетелей разных сословий: епископов, рыцарей, горожан и даже крестьян."
+      - pl: " Ich zeznania zapisano po łacinie, ale słychać w nich głosy zwykłych ludzi, którzy opowiadają, co widzieli na własne oczy."
+        ru: "Их показания записаны по-латыни, но в них слышны голоса простых людей, рассказывающих о том, что видели собственными глазами."
+        note: "zeznanie — показание"
+      - pl: " Jeden mówi o spalonej wsi, inny o tym, jak Krzyżacy wypędzili Polaków z Gdańska, jeszcze inny o tym, że Pomorze od dawna należało do książąt polskich, bo tak mówili jego dziadkowie."
+        ru: "Один говорит о сожжённой деревне, другой — о том, как крестоносцы выгнали поляков из Гданьска, третий — о том, что Поморье издавна принадлежало польским князьям, ведь так говорили его деды."
+      - pl: " Z tych zeznań widać, że już w XIV wieku ludzie z różnych stanów czuli, że należą do jednej wspólnoty, którą nazywali Królestwem Polskim."
+        ru: "Из этих показаний видно, что уже в XIV веке люди разных сословий чувствовали, что принадлежат к одному сообществу, которое называли Королевством Польским."
+    words: { "polskich": polski, "Przesłuchano": przesluchac, "dwudziestu": dwadziescia, "rycerzy": rycerz, "chłopów": chlop, "zapisano": zapisac, "wsi": wies, "zeznań": zeznanie, "wspólnoty": wspolnota }
+  - clean: "Łokietek budował też sojusze. Swoją córkę Elżbietę wydał za mąż za króla Węgier Karola Roberta, co zapewniło Polsce silnego przyjaciela na południu. Elżbieta okazała się kobietą niezwykle silną. W 1330 roku na zamku w Wyszehradzie węgierski rycerz Felicjan Zach rzucił się z mieczem na rodzinę królewską przy stole. Królowa, broniąc dzieci, straciła cztery palce prawej ręki, a napastnik zginął z rąk dworzan. Żyła jeszcze ponad pięćdziesiąt lat i odegrała ważną rolę w polityce obu krajów, a jej syn Ludwik został później także królem Polski. Syna Kazimierza ożenił z Aldoną, córką wielkiego księcia litewskiego Giedymina. Litwa była wtedy ostatnim pogańskim państwem Europy, potężnym i stale atakowanym przez Krzyżaków. Wspólny wróg zbliżał Polaków i Litwinów. Ślub Kazimierza z litewską księżniczką odbył się w 1325 roku w Krakowie. Aldona przyjęła chrzest i imię Anna i przywiozła ze sobą jako posag kilka tysięcy polskich jeńców, których jej ojciec zwolnił z niewoli. Długosz pisze, że młoda królowa kochała muzykę i taniec tak bardzo, że wszędzie, gdzie się pojawiała, towarzyszyli jej grajkowie z cymbałami i bębnami. Litewski sojusz miał też inny ważny skutek. W tym samym czasie tron Rusi Halicko-Włodzimierskiej objął Bolesław, książę mazowiecki z rodu Piastów, którego matka była ruską księżniczką. Przyjął prawosławie i imię Jerzy i ożenił się z córką Giedymina. Na wschodzie powstała w ten sposób sieć związków rodzinnych, która miała później ułatwić Polsce opanowanie Rusi Halickiej."
     draft: true
     chunks:
       - pl: "Łokietek budował też sojusze."
@@ -240,16 +318,43 @@ paragraphs:
       - pl: " Swoją córkę Elżbietę wydał za mąż za króla Węgier Karola Roberta, co zapewniło Polsce silnego przyjaciela na południu."
         ru: "Свою дочь Елизавету он выдал замуж за короля Венгрии Карла Роберта, что обеспечило Польше сильного друга на юге."
         note: "wydać za mąż — выдать замуж"
+      - pl: " Elżbieta okazała się kobietą niezwykle silną."
+        ru: "Елизавета оказалась необыкновенно сильной женщиной."
+      - pl: " W 1330 roku na zamku w Wyszehradzie węgierski rycerz Felicjan Zach rzucił się z mieczem na rodzinę królewską przy stole."
+        ru: "В 1330 году в Вышеградском замке венгерский рыцарь Фелициан Зах бросился с мечом на королевскую семью за столом."
+      - pl: " Królowa, broniąc dzieci, straciła cztery palce prawej ręki, a napastnik zginął z rąk dworzan."
+        ru: "Королева, защищая детей, лишилась четырёх пальцев правой руки, а нападавший погиб от рук придворных."
+      - pl: " Żyła jeszcze ponad pięćdziesiąt lat i odegrała ważną rolę w polityce obu krajów, a jej syn Ludwik został później także królem Polski."
+        ru: "Она прожила ещё больше пятидесяти лет и сыграла важную роль в политике обеих стран, а её сын Людовик впоследствии стал и королём Польши."
       - pl: " Syna Kazimierza ożenił z Aldoną, córką wielkiego księcia litewskiego Giedymina."
         ru: "Сына Казимира он женил на Алдоне, дочери великого князя литовского Гедимина."
       - pl: " Litwa była wtedy ostatnim pogańskim państwem Europy, potężnym i stale atakowanym przez Krzyżaków."
         ru: "Литва была тогда последним языческим государством Европы, могущественным и постоянно атакуемым крестоносцами."
       - pl: " Wspólny wróg zbliżał Polaków i Litwinów."
         ru: "Общий враг сближал поляков и литовцев."
-      - pl: " Ten pierwszy sojusz z Litwą był zapowiedzią unii, która kilkadziesiąt lat później zmieniła mapę Europy Wschodniej."
+      - pl: " Ślub Kazimierza z litewską księżniczką odbył się w 1325 roku w Krakowie."
+        ru: "Свадьба Казимира с литовской княжной состоялась в 1325 году в Кракове."
+      - pl: " Aldona przyjęła chrzest i imię Anna i przywiozła ze sobą jako posag kilka tysięcy polskich jeńców, których jej ojciec zwolnił z niewoli."
+        ru: "Алдона приняла крещение и имя Анна и привезла с собой в приданое несколько тысяч польских пленников, которых её отец освободил из плена."
+      - pl: " Długosz pisze, że młoda królowa kochała muzykę i taniec tak bardzo, że wszędzie, gdzie się pojawiała, towarzyszyli jej grajkowie z cymbałami i bębnami."
+        ru: "Длугош пишет, что молодая королева так любила музыку и танцы, что повсюду, где она появлялась, её сопровождали музыканты с цимбалами и барабанами."
+        note: "grajek — музыкант; cymbały — цимбалы"
+      - pl: " Litewski sojusz miał też inny ważny skutek."
+        ru: "Литовский союз имел и другое важное последствие."
+      - pl: " W tym samym czasie tron Rusi Halicko-Włodzimierskiej objął Bolesław, książę mazowiecki z rodu Piastów, którego matka była ruską księżniczką."
+        ru: "В то же время престол Галицко-Волынской Руси занял Болеслав, мазовецкий князь из рода Пястов, чья мать была русской княжной."
+      - pl: " Przyjął prawosławie i imię Jerzy i ożenił się z córką Giedymina."
+        ru: "Он принял православие и имя Юрий и женился на дочери Гедимина."
+      - pl: " Na wschodzie powstała w ten sposób sieć związków rodzinnych, która miała później ułatwić Polsce opanowanie Rusi Halickiej."
+        ru: "Так на востоке возникла сеть родственных связей, которой позже предстояло облегчить Польше овладение Галицкой Русью."
+    words: { "niezwykle": niezwykle, "zamku": zamek, "potężnym": potezny, "polskich": polski, "budował": budowac, "sojusze": sojusz, "zapewniło": zapewnic, "rycerz": rycerz, "królewską": krolewski, "napastnik": napastnik, "pięćdziesiąt": piecdziesiat, "odegrała": odegrac, "polityce": polityka, "ożenił": ozenic, "atakowanym": atakowac, "księżniczką": ksiezniczka, "odbył": odbyc, "jeńców": jeniec, "pojawiała": pojawiac, "towarzyszyli": towarzyszyc, "sojusz": sojusz, "skutek": skutek, "tron": tron, "objął": objac, "rodu": rod-2, "wschodzie": wschod, "powstała": powstac, "ułatwić": ulatwic }
+  - clean: "Ten pierwszy sojusz z Litwą był zapowiedzią unii, która kilkadziesiąt lat później zmieniła mapę Europy Wschodniej."
+    draft: true
+    chunks:
+      - pl: "Ten pierwszy sojusz z Litwą był zapowiedzią unii, która kilkadziesiąt lat później zmieniła mapę Europy Wschodniej."
         ru: "Этот первый союз с Литвой стал предвестием унии, которая несколько десятилетий спустя изменила карту Восточной Европы."
         note: "zapowiedź — предвестие"
-    words: { "potężnym": potezny, "budował": budowac, "sojusze": sojusz, "zapewniło": zapewnic, "ożenił": ozenic, "atakowanym": atakowac, "sojusz": sojusz, "mapę": mapa }
+    words: { "sojusz": sojusz, "mapę": mapa }
   - clean: "Sojusz z Litwą rozwścieczył Krzyżaków. Na domiar złego zakon porozumiał się z Janem Luksemburskim, który wciąż marzył o polskiej koronie. W latach 1329–1332 Krzyżacy kilka razy najeżdżali Polskę, pustosząc Kujawy i Wielkopolskę. Paliły się wsie, miasta i kościoły, a ludność uciekała do lasów. Kronikarze z oburzeniem pisali, że zakon, który miał nawracać pogan, niszczy chrześcijański kraj."
     draft: true
     chunks:
@@ -293,7 +398,28 @@ paragraphs:
       - pl: " Rycerz wyzdrowiał, a jego potomkowie dostali podobno herb z trzema włóczniami, które przebiły jego ciało."
         ru: "Рыцарь выздоровел, а его потомки получили будто бы герб с тремя копьями, пронзившими его тело."
         note: "wyzdrowieć — выздороветь"
-    words: { "września": wrzesien, "wojska": wojsko, "Bitwa": bitwa, "fazie": faza, "rozbili": rozbic, "przeciwnika": przeciwnik, "rycerzy": rycerz, "bitwa": bitwa, "moralne": moralny, "Legenda": legenda, "bitwie": bitwa, "ciężko": ciezko, "rycerza": rycerz, "rycerz": rycerz, "hańbę": hanba, "wyzdrowiał": wyzdrowiec, "przebiły": przebic }
+    words: { "wojska": wojsko, "rycerzy": rycerz, "rycerz": rycerz, "września": wrzesien, "Bitwa": bitwa, "fazie": faza, "rozbili": rozbic, "przeciwnika": przeciwnik, "bitwa": bitwa, "moralne": moralny, "Legenda": legenda, "bitwie": bitwa, "ciężko": ciezko, "rycerza": rycerz, "hańbę": hanba, "wyzdrowiał": wyzdrowiec, "przebiły": przebic }
+  - clean: "Groźnym przeciwnikiem Łokietka był król czeski Jan Luksemburski, rycerz wędrowny i awanturnik, który walczył w całej Europie. W 1327 roku poprowadził wojsko aż pod Kraków, ale wycofał się, kiedy na pomoc Polsce przyszli Węgrzy. Po drodze przyjął hołd od kilku książąt śląskich, którzy woleli silnego króla czeskiego od słabego polskiego. Tylko nieliczni, jak książę świdnicki, pozostali niezależni. Jan Luksemburski stracił później wzrok, a mimo to walczył dalej. W 1346 roku, już jako ślepy starzec, kazał się przywiązać do koni swoich rycerzy i rzucił się w wir bitwy pod Crécy we Francji, gdzie zginął. Jego herb z trzema strusimi piórami przejął podobno zwycięski książę angielski i do dziś jest on znakiem następców tronu brytyjskiego."
+    draft: true
+    chunks:
+      - pl: "Groźnym przeciwnikiem Łokietka był król czeski Jan Luksemburski, rycerz wędrowny i awanturnik, który walczył w całej Europie."
+        ru: "Опасным противником Локотка был чешский король Иоанн Люксембургский, странствующий рыцарь и авантюрист, воевавший по всей Европе."
+        note: "wędrowny — странствующий"
+      - pl: " W 1327 roku poprowadził wojsko aż pod Kraków, ale wycofał się, kiedy na pomoc Polsce przyszli Węgrzy."
+        ru: "В 1327 году он довёл войско до самого Кракова, но отступил, когда на помощь Польше пришли венгры."
+      - pl: " Po drodze przyjął hołd od kilku książąt śląskich, którzy woleli silnego króla czeskiego od słabego polskiego."
+        ru: "По дороге он принял присягу от нескольких силезских князей, которые предпочли сильного чешского короля слабому польскому."
+      - pl: " Tylko nieliczni, jak książę świdnicki, pozostali niezależni."
+        ru: "Лишь немногие, как свидницкий князь, остались независимыми."
+      - pl: " Jan Luksemburski stracił później wzrok, a mimo to walczył dalej."
+        ru: "Позже Иоанн Люксембургский ослеп, но всё равно продолжал воевать."
+      - pl: " W 1346 roku, już jako ślepy starzec, kazał się przywiązać do koni swoich rycerzy i rzucił się w wir bitwy pod Crécy we Francji, gdzie zginął."
+        ru: "В 1346 году, уже слепым стариком, он велел привязать себя к коням своих рыцарей и бросился в гущу битвы при Креси во Франции, где и погиб."
+        note: "ślepy — слепой; wir bitwy — гуща битвы"
+      - pl: " Jego herb z trzema strusimi piórami przejął podobno zwycięski książę angielski i do dziś jest on znakiem następców tronu brytyjskiego."
+        ru: "Его герб с тремя страусовыми перьями будто бы перенял победивший английский принц, и до сих пор он остаётся знаком наследников британского престола."
+        note: "strusi — страусовый"
+    words: { "bitwy": bitwa, "rycerzy": rycerz, "rycerz": rycerz, "Groźnym": grozny, "przeciwnikiem": przeciwnik, "poprowadził": poprowadzic, "wojsko": wojsko, "polskiego": polski, "niezależni": niezalezny, "wzrok": wzrok, "ślepy": slepy, "starzec": starzec, "przywiązać": przywiazac, "piórami": pioro, "zwycięski": zwycieski, "następców": nastepca, "tronu": tron, "brytyjskiego": brytyjski }
   - clean: "Mimo moralnego zwycięstwa wojna była przegrana. W 1332 roku Krzyżacy zajęli Kujawy, ojcowiznę Łokietka, i ziemię dobrzyńską. W tym samym czasie książęta śląscy jeden po drugim uznawali zwierzchnictwo króla czeskiego. Śląsk na wiele stuleci odpadł od Polski. Królestwo Łokietka obejmowało w końcu tylko Małopolskę, Wielkopolskę i część Kujaw."
     draft: true
     chunks:
@@ -311,7 +437,7 @@ paragraphs:
         ru: "Королевство Локотка в итоге охватывало лишь Малую Польшу, Великую Польшу и часть Куявии."
         note: "obejmować — охватывать"
     words: { "moralnego": moralny, "zwycięstwa": zwyciestwo, "stuleci": stulecie }
-  - clean: "Władysław Łokietek zmarł 2 marca 1333 roku. Jako pierwszy król został pochowany w katedrze na Wawelu, gdzie później spoczęła większość polskich władców. Jego grób z białego kamienia można oglądać do dziś. Zostawił synowi kraj mniejszy niż za Chrobrego, okaleczony i zagrożony z kilku stron. Ale zostawił też coś, czego nie miał żaden z jego poprzedników od dwustu lat: zjednoczone królestwo z koroną, która miała już nigdy nie zostać rozbita na dzielnice. Mały wzrostem król okazał się wielkim budowniczym państwa. Jego dzieło miał dokończyć syn, Kazimierz, który był pod wieloma względami jego przeciwieństwem."
+  - clean: "Władysław Łokietek zmarł 2 marca 1333 roku. Jako pierwszy król został pochowany w katedrze na Wawelu, gdzie później spoczęła większość polskich władców. Jego grób z białego kamienia można oglądać do dziś. To właśnie Łokietek rozpoczął w 1320 roku budowę nowej, gotyckiej katedry na Wawelu, która stoi do dziś i jest miejscem koronacji i pochówku polskich królów. Zostawił synowi kraj mniejszy niż za Chrobrego, okaleczony i zagrożony z kilku stron. Ale zostawił też coś, czego nie miał żaden z jego poprzedników od dwustu lat: zjednoczone królestwo z koroną, która miała już nigdy nie zostać rozbita na dzielnice. Jego żona, królowa Jadwiga, przeżyła go o kilka lat i ostatnie lata spędziła jako zakonnica w klasztorze klarysek w Starym Sączu. Przez całe życie była dla męża oparciem w czasach wygnania, klęsk i zwycięstw. Mały wzrostem król okazał się wielkim budowniczym państwa. Jego dzieło miał dokończyć syn, Kazimierz, który był pod wieloma względami jego przeciwieństwem. Dlatego w polskiej tradycji Łokietek jest przede wszystkim królem, który po dwustu latach rozbicia znów połączył kraj w jedno królestwo."
     draft: true
     chunks:
       - pl: "Władysław Łokietek zmarł 2 marca 1333 roku."
@@ -321,15 +447,26 @@ paragraphs:
         note: "spocząć — упокоиться"
       - pl: " Jego grób z białego kamienia można oglądać do dziś."
         ru: "Его надгробие из белого камня можно увидеть и сегодня."
+      - pl: " To właśnie Łokietek rozpoczął w 1320 roku budowę nowej, gotyckiej katedry na Wawelu, która stoi do dziś i jest miejscem koronacji i pochówku polskich królów."
+        ru: "Именно Локоток начал в 1320 году строительство нового, готического собора на Вавеле, который стоит до сих пор и является местом коронации и погребения польских королей."
+        note: "pochówek — погребение"
       - pl: " Zostawił synowi kraj mniejszy niż za Chrobrego, okaleczony i zagrożony z kilku stron."
         ru: "Он оставил сыну страну меньшую, чем при Храбром, урезанную и окружённую угрозами с нескольких сторон."
         note: "zagrożony — находящийся под угрозой"
       - pl: " Ale zostawił też coś, czego nie miał żaden z jego poprzedników od dwustu lat: zjednoczone królestwo z koroną, która miała już nigdy nie zostać rozbita na dzielnice."
         ru: "Но он оставил и то, чего ни у одного из его предшественников не было двести лет: единое королевство с короной, которой больше никогда не суждено было распасться на уделы."
+      - pl: " Jego żona, królowa Jadwiga, przeżyła go o kilka lat i ostatnie lata spędziła jako zakonnica w klasztorze klarysek w Starym Sączu."
+        ru: "Его жена, королева Ядвига, пережила его на несколько лет и последние годы провела монахиней в монастыре клариссинок в Старом Сонче."
+        note: "klaryska — клариссинка"
+      - pl: " Przez całe życie była dla męża oparciem w czasach wygnania, klęsk i zwycięstw."
+        ru: "Всю жизнь она была мужу опорой во времена изгнания, поражений и побед."
+        note: "oparcie — опора"
       - pl: " Mały wzrostem król okazał się wielkim budowniczym państwa."
         ru: "Маленький ростом король оказался великим строителем государства."
         note: "budowniczy — строитель"
       - pl: " Jego dzieło miał dokończyć syn, Kazimierz, który był pod wieloma względami jego przeciwieństwem."
         ru: "Его дело предстояло завершить сыну, Казимиру, который во многом был его противоположностью."
         note: "dokończyć — завершить; pod wieloma względami — во многих отношениях"
-    words: { "dzielnice": dzielnica, "królestwo": krolestwo, "marca": marzec, "pochowany": pochowac, "spoczęła": spoczac, "polskich": polski, "władców": wladca, "grób": grob, "zjednoczone": zjednoczyc, "koroną": korona, "rozbita": rozbic, "wzrostem": wzrost, "dzieło": dzielo, "dokończyć": dokonczyc, "przeciwieństwem": przeciwienstwo }
+      - pl: " Dlatego w polskiej tradycji Łokietek jest przede wszystkim królem, który po dwustu latach rozbicia znów połączył kraj w jedno królestwo."
+        ru: "Поэтому в польской традиции Локоток — прежде всего король, который после двухсот лет раздробленности снова объединил страну в одно королевство."
+    words: { "tradycji": tradycja, "polskiej": polski, "dzielnice": dzielnica, "koroną": korona, "polskich": polski, "królestwo": krolestwo, "marca": marzec, "pochowany": pochowac, "spoczęła": spoczac, "władców": wladca, "grób": grob, "budowę": budowa, "zjednoczone": zjednoczyc, "rozbita": rozbic, "zakonnica": zakonnica, "klasztorze": klasztor, "zwycięstw": zwyciestwo, "wzrostem": wzrost, "dzieło": dzielo, "dokończyć": dokonczyc, "przeciwieństwem": przeciwienstwo }
